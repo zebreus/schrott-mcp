@@ -1,0 +1,11 @@
+[package]
+name = "offsite-data-auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+argon2 = "0.5"
+rand = "0.8"
+sha2 = "0.10"
+base64 = "0.22"
+thiserror = "2"
