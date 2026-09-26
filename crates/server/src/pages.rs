@@ -82,8 +82,17 @@ pub fn esc(s: &str) -> String {
         .replace('"', "&quot;")
 }
 
-/// Full page shell with nav. `csrf` feeds the logout form; `None` hides it.
-pub fn layout(title: &str, user: Option<&str>, csrf: Option<&str>, body: &str) -> String {
+/// Full page shell: nav, document metadata and landmarks.
+/// `description`/`canonical` feed meta + OpenGraph tags; `csrf` feeds the
+/// logout form and `None` hides it.
+pub fn layout(
+    title: &str,
+    description: &str,
+    canonical: &str,
+    user: Option<&str>,
+    csrf: Option<&str>,
+    body: &str,
+) -> String {
     let auth_links = match user {
         Some(name) => {
             let csrf_field = csrf.map_or(String::new(), |c| {
@@ -103,12 +112,27 @@ pub fn layout(title: &str, user: Option<&str>, csrf: Option<&str>, body: &str) -
     format!(
         "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">\
          <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\
+         <meta name=\"description\" content=\"{}\">\
+         <meta name=\"theme-color\" content=\"#0b0e17\">\
+         <meta property=\"og:type\" content=\"website\">\
+         <meta property=\"og:site_name\" content=\"Offsite Data\">\
+         <meta property=\"og:title\" content=\"{title} · Offsite Data\">\
+         <meta property=\"og:description\" content=\"{}\">\
+         <meta property=\"og:url\" content=\"{}\">\
+         <meta name=\"twitter:card\" content=\"summary\">\
+         <meta name=\"twitter:title\" content=\"{title} · Offsite Data\">\
+         <meta name=\"twitter:description\" content=\"{}\">\
+         <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='42' fill='%237c6cff'/%3E%3Ccircle cx='50' cy='50' r='16' fill='%233ddc97'/%3E%3C/svg%3E\">\
          <title>{title} · Offsite Data</title><style>{CSS}</style></head><body>\
-         <nav><div class=\"wrap\"><a class=\"brand\" href=\"/\">Offsite<span>Data</span></a>\
-         <div class=\"sp\"></div>{auth_links}</div></nav>\
-         <div class=\"wrap\">{body}</div>\
+         <header><nav aria-label=\"Account\"><div class=\"wrap\"><a class=\"brand\" href=\"/\">Offsite<span>Data</span></a>\
+         <div class=\"sp\"></div>{auth_links}</div></nav></header>\
+         <main><div class=\"wrap\">{body}</div></main>\
          <footer><div class=\"wrap\"><span>Made with love for domain experts.</span></div></footer>\
-         </body></html>"
+         </body></html>",
+        esc(description),
+        esc(description),
+        esc(canonical),
+        esc(description)
     )
 }
 
@@ -145,20 +169,28 @@ pub fn marketing(base_url: &str, user: Option<&str>) -> String {
          <div class=\"step\"><div class=\"n\">3</div><div><b>Log in via OAuth</b> when your host opens the \
          browser — then ask your domain questions.</div></div></div>"
     );
-    layout("Domain data over MCP", user, None, &body)
+    layout(
+        "Domain data over MCP",
+        "Scraped domain data over MCP — one URL, clean datasets, OAuth login.",
+        &format!("{base_url}/"),
+        user,
+        None,
+        &body,
+    )
 }
 
 /// Login form. Typed username is echoed back on errors; `next` survives too.
-pub fn login(next: &str, username: &str, err: Option<&str>) -> String {
+pub fn login(base_url: &str, next: &str, username: &str, err: Option<&str>) -> String {
     let err_html = err.map_or(String::new(), |e| {
-        format!("<div class=\"err\">{}</div>", esc(e))
+        format!("<div class=\"err\" role=\"alert\">{}</div>", esc(e))
     });
     let body = format!(
         "<div class=\"panel\"><h2>Welcome back</h2><p class=\"sub\">Log in to manage tokens &amp; data.</p>\
-         {err_html}<form method=\"post\" action=\"/login\">\
+         {err_html}<form method=\"post\" action=\"/login\" autocomplete=\"on\">\
          <input type=\"hidden\" name=\"next\" value=\"{}\">\
          <label for=\"login-user\">Username</label>\
-         <input id=\"login-user\" type=\"text\" name=\"username\" value=\"{}\" autocomplete=\"username\" required>\
+         <input id=\"login-user\" type=\"text\" name=\"username\" value=\"{}\" autocomplete=\"username\" \
+         autocapitalize=\"off\" autocorrect=\"off\" spellcheck=\"false\" maxlength=\"32\" required>\
          <label for=\"login-pass\">Password</label>\
          <input id=\"login-pass\" type=\"password\" name=\"password\" autocomplete=\"current-password\" required>\
          <div class=\"rowb\"><button class=\"btn\" type=\"submit\">Log in</button>\
@@ -166,34 +198,52 @@ pub fn login(next: &str, username: &str, err: Option<&str>) -> String {
         esc(next),
         esc(username)
     );
-    layout("Log in", None, None, &body)
+    layout(
+        "Log in",
+        "Log in to Offsite Data to manage MCP tokens and data.",
+        &format!("{base_url}/login"),
+        None,
+        None,
+        &body,
+    )
 }
 
 /// Signup form: username + password + professional checkbox. Nothing else.
 /// Username and checkbox survive validation errors; passwords never echo.
-pub fn signup(username: &str, professional: bool, err: Option<&str>) -> String {
+pub fn signup(base_url: &str, username: &str, professional: bool, err: Option<&str>) -> String {
     let err_html = err.map_or(String::new(), |e| {
-        format!("<div class=\"err\">{}</div>", esc(e))
+        format!("<div class=\"err\" role=\"alert\">{}</div>", esc(e))
     });
     let checked = if professional { " checked" } else { "" };
     let body = format!(
         "<div class=\"panel\"><h2>Create your account</h2>\
          <p class=\"sub\">Username, password, one checkbox. That's the whole application.</p>\
-         {err_html}<form method=\"post\" action=\"/signup\">\
+         {err_html}<form method=\"post\" action=\"/signup\" autocomplete=\"on\">\
          <label for=\"signup-user\">Username</label>\
-         <input id=\"signup-user\" type=\"text\" name=\"username\" value=\"{}\" autocomplete=\"username\" required>\
-         <p class=\"hint\">3–32 characters: letters, digits, '_' and '-'.</p>\
+         <input id=\"signup-user\" type=\"text\" name=\"username\" value=\"{}\" autocomplete=\"username\" \
+         autocapitalize=\"off\" autocorrect=\"off\" spellcheck=\"false\" maxlength=\"32\" required>\
+         <p class=\"hint\" id=\"signup-user-hint\">3–32 characters: letters, digits, '_' and '-'.</p>\
          <label for=\"signup-pass\">Password (min. 8 characters)</label>\
-         <input id=\"signup-pass\" type=\"password\" name=\"password\" autocomplete=\"new-password\" required>\
+         <input id=\"signup-pass\" type=\"password\" name=\"password\" autocomplete=\"new-password\" \
+         minlength=\"8\" aria-describedby=\"signup-pass-hint\" required>\
+         <p class=\"hint\" id=\"signup-pass-hint\">At least 8 characters — anything else goes.</p>\
          <label for=\"signup-confirm\">Confirm password</label>\
-         <input id=\"signup-confirm\" type=\"password\" name=\"confirm\" autocomplete=\"new-password\" required>\
+         <input id=\"signup-confirm\" type=\"password\" name=\"confirm\" autocomplete=\"new-password\" \
+         minlength=\"8\" required>\
          <label class=\"check\"><input type=\"checkbox\" name=\"professional\" value=\"yes\"{checked}>\
          <span>I confirm that I am a <b>professional data-user</b> and will treat scraped data responsibly.</span></label>\
          <div class=\"rowb\"><button class=\"btn\" type=\"submit\">Sign up</button>\
          <a class=\"btn ghost\" href=\"/login\">Have an account?</a></div></form></div>",
         esc(username)
     );
-    layout("Sign up", None, None, &body)
+    layout(
+        "Sign up",
+        "Create a free Offsite Data account: username, password, one checkbox.",
+        &format!("{base_url}/signup"),
+        None,
+        None,
+        &body,
+    )
 }
 
 /// Inputs for the OAuth consent screen.
@@ -210,7 +260,7 @@ pub struct ConsentData<'a> {
 
 /// OAuth consent screen shown to the resource owner. The request fields
 /// ride along as hidden inputs so the POST does not depend on the query.
-pub fn consent(c: ConsentData<'_>) -> String {
+pub fn consent(c: ConsentData<'_>, base_url: &str) -> String {
     let state_field = c.oauth_state.map_or(String::new(), |s| {
         format!(
             "<input type=\"hidden\" name=\"state\" value=\"{}\">",
@@ -243,18 +293,39 @@ pub fn consent(c: ConsentData<'_>) -> String {
         esc(c.scope),
         esc(c.code_challenge)
     );
-    layout("Authorize", Some(c.username), Some(c.csrf), &body)
+    layout(
+        "Authorize",
+        "Authorize an MCP client to access your Offsite Data account.",
+        &format!("{base_url}/oauth/authorize"),
+        Some(c.username),
+        Some(c.csrf),
+        &body,
+    )
 }
 
 /// Styled error page inside the normal layout.
-pub fn error_page(title: &str, message: &str, user: Option<&str>, csrf: Option<&str>) -> String {
+pub fn error_page(
+    base_url: &str,
+    path: &str,
+    title: &str,
+    message: &str,
+    user: Option<&str>,
+    csrf: Option<&str>,
+) -> String {
     let body = format!(
         "<div class=\"panel\"><h2>{}</h2><div class=\"err\">{}</div>\
          <div class=\"rowb\"><a class=\"btn ghost\" href=\"/\">Back home</a></div></div>",
         esc(title),
         esc(message)
     );
-    layout(title, user, csrf, &body)
+    layout(
+        title,
+        "Offsite Data",
+        &format!("{base_url}{path}"),
+        user,
+        csrf,
+        &body,
+    )
 }
 
 /// Data handed to the dashboard renderer.
@@ -346,7 +417,7 @@ pub fn dashboard(base_url: &str, d: DashboardData<'_>) -> String {
          <code>Authorization: Bearer</code> header.</p>\
          <form method=\"post\" action=\"/tokens/create\" class=\"tokrow\">\
          <input type=\"hidden\" name=\"csrf\" value=\"{}\">\
-         <input type=\"text\" name=\"name\" placeholder=\"Token name (e.g. claude)\" aria-label=\"Token name\">\
+         <input type=\"text\" name=\"name\" placeholder=\"Token name (e.g. claude)\" aria-label=\"Token name\" autocomplete=\"off\">\
          <button class=\"btn\" type=\"submit\">Create</button></form>\
          <div class=\"tablewrap\"><table><tr><th>Name</th><th>Prefix</th><th>Created</th><th>Last used</th><th></th></tr>{token_rows}</table></div></div>\
          <div class=\"card\"><h3>Ingestion pipeline</h3>\
@@ -363,5 +434,12 @@ pub fn dashboard(base_url: &str, d: DashboardData<'_>) -> String {
         esc(d.csrf),
         esc(d.csrf)
     );
-    layout("Dashboard", Some(d.username), Some(d.csrf), &body)
+    layout(
+        "Dashboard",
+        "Your Offsite Data dashboard: MCP tokens, ingestion runs and corpus stats.",
+        &format!("{base_url}/dashboard"),
+        Some(d.username),
+        Some(d.csrf),
+        &body,
+    )
 }

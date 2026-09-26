@@ -95,6 +95,14 @@ CREATE TABLE IF NOT EXISTS result_blobs (
     created_at TEXT NOT NULL,
     expires_at TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS data_feedback (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES users(id) ON DELETE SET NULL,
+    severity TEXT NOT NULL CHECK (severity IN ('low', 'medium', 'high', 'critical')),
+    feedback TEXT NOT NULL,
+    details TEXT NOT NULL DEFAULT '',
+    created_at TEXT NOT NULL
+);
 CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id);
 CREATE INDEX IF NOT EXISTS idx_api_tokens_user ON api_tokens(user_id);
 CREATE INDEX IF NOT EXISTS idx_steps_run ON ingestion_steps(run_id);
@@ -692,6 +700,24 @@ impl InternalDb {
         Ok(())
     }
 
+    /// Store one MCP user feedback report for later human review.
+    pub fn create_feedback(
+        &self,
+        user_id: Option<i64>,
+        severity: &str,
+        feedback: &str,
+        details: &str,
+        now: &str,
+    ) -> Result<i64, StoreError> {
+        let conn = self.lock()?;
+        conn.execute(
+            "INSERT INTO data_feedback (user_id, severity, feedback, details, created_at)
+             VALUES (?1, ?2, ?3, ?4, ?5)",
+            params![user_id, severity, feedback, details, now],
+        )?;
+        Ok(conn.last_insert_rowid())
+    }
+
     /// Most recent pipeline runs (newest first).
     pub fn last_runs(&self, limit: i64) -> Result<Vec<RunRow>, StoreError> {
         let conn = self.lock()?;
@@ -790,5 +816,27 @@ mod tests {
             .find_result_blob("fresh")
             .expect("lookup works")
             .is_some());
+    }
+    #[test]
+    fn feedback_stores_and_rejects_bad_severity() {
+        let dir = std::env::temp_dir().join(format!("offsite-fb-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        let db = InternalDb::open(&dir).expect("test db opens");
+        let uid = db
+            .create_user("reporter", "hash", true, "2026-01-01T00:00:00Z")
+            .expect("user created");
+        let id = db
+            .create_feedback(
+                Some(uid),
+                "high",
+                "stale price",
+                "item 12",
+                "2026-01-01T00:00:00Z",
+            )
+            .expect("valid feedback stores");
+        assert_eq!(id, 1);
+        assert!(db
+            .create_feedback(None, "cosmic", "x", "", "2026-01-01T00:00:00Z")
+            .is_err());
     }
 }

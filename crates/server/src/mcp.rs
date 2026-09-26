@@ -71,7 +71,7 @@ fn unauthorized(state: &AppState) -> Response {
 /// MCP endpoint (POST only). The blocking store work runs off the async
 /// executor; plain GET explains itself with 405.
 pub async fn mcp_post(State(state): State<AppState>, headers: HeaderMap, body: Bytes) -> Response {
-    let Some(_user_id) = bearer_user(&state, &headers) else {
+    let Some(user_id) = bearer_user(&state, &headers) else {
         return unauthorized(&state);
     };
     // DNS-rebinding protection applies to browser contexts (Origin set).
@@ -116,7 +116,7 @@ pub async fn mcp_post(State(state): State<AppState>, headers: HeaderMap, body: B
     let is_notification = req.id.is_none();
     // Store access is blocking SQLite: keep it off the async executor.
     let task_state = state.clone();
-    let response = tokio::task::spawn_blocking(move || dispatch(&task_state, req))
+    let response = tokio::task::spawn_blocking(move || dispatch(&task_state, user_id, req))
         .await
         .unwrap_or_else(|_| rpc_error(&None, -32603, "internal error"));
     if is_notification {
@@ -134,7 +134,7 @@ pub async fn mcp_get() -> Response {
     )
 }
 
-fn dispatch(state: &AppState, req: RpcRequest) -> Value {
+fn dispatch(state: &AppState, user_id: i64, req: RpcRequest) -> Value {
     let id = &req.id;
     match req.method.as_str() {
         "initialize" => {
@@ -162,7 +162,7 @@ fn dispatch(state: &AppState, req: RpcRequest) -> Value {
         "notifications/initialized" | "notifications/cancelled" => rpc_result(id, json!({})),
         "ping" => rpc_result(id, json!({})),
         "tools/list" => rpc_result(id, json!({"tools": tool_catalog()})),
-        "tools/call" => call_tool(state, id, req.params),
+        "tools/call" => call_tool(state, user_id, id, req.params),
         _ => rpc_error(id, -32601, "method not found"),
     }
 }
@@ -182,6 +182,19 @@ fn tool_catalog() -> Value {
                     "max_rows": {"type": "integer", "minimum": 1, "maximum": 200, "default": 50, "description": "Row cap; truncated=true when more rows exist"},
                 },
                 "required": ["sql"], "additionalProperties": false},
+        },
+        {
+            "name": "data_feedback",
+            "title": "Report a data issue",
+            "annotations": {"readOnlyHint": false},
+            "description": "Report a problem with the corpus data — wrong values, stale records, missing coverage. Reports are stored for human review.",
+            "inputSchema": {"type": "object",
+                "properties": {
+                    "severity": {"type": "string", "enum": ["low", "medium", "high", "critical"]},
+                    "feedback": {"type": "string", "description": "What is wrong"},
+                    "details": {"type": "string", "description": "Extra context: URLs, item ids, examples"},
+                },
+                "required": ["severity", "feedback"], "additionalProperties": false},
         },
     ])
 }
@@ -245,6 +258,41 @@ fn str_arg(params: &Value, key: &str) -> Option<String> {
     params.get(key).and_then(Value::as_str).map(str::to_owned)
 }
 
+/// Handle the feedback tool: validate, store, acknowledge.
+/// The response is exactly one fixed string — nothing else leaks out.
+fn feedback_tool(state: &AppState, user_id: i64, id: &Option<Value>, args: &Value) -> Value {
+    const SEVERITIES: &[&str] = &["low", "medium", "high", "critical"];
+    let severity = str_arg(args, "severity")
+        .map(|s| s.trim().to_lowercase())
+        .filter(|s| SEVERITIES.contains(&s.as_str()));
+    let Some(severity) = severity else {
+        return rpc_result(
+            id,
+            tool_error("severity must be one of: low, medium, high, critical".to_owned()),
+        );
+    };
+    let Some(feedback) = str_arg(args, "feedback").filter(|s| !s.trim().is_empty()) else {
+        return rpc_result(
+            id,
+            tool_error("missing required argument: feedback".to_owned()),
+        );
+    };
+    let details = str_arg(args, "details").unwrap_or_default();
+    match state.internal.create_feedback(
+        Some(user_id),
+        &severity,
+        feedback.trim(),
+        details.trim(),
+        &AppState::now(),
+    ) {
+        Ok(_) => rpc_result(
+            id,
+            json!({"content": [{"type": "text", "text": "Thank you for your feedback"}]}),
+        ),
+        Err(e) => rpc_result(id, tool_error(e.to_string())),
+    }
+}
+
 /// Integer argument that also accepts numeric strings (`"5"` → `5`),
 /// because LLM clients routinely emit ids as strings.
 fn int_arg(params: &Value, key: &str) -> Option<i64> {
@@ -255,19 +303,23 @@ fn int_arg(params: &Value, key: &str) -> Option<i64> {
     }
 }
 
-fn call_tool(state: &AppState, id: &Option<Value>, params: Option<Value>) -> Value {
+fn call_tool(state: &AppState, user_id: i64, id: &Option<Value>, params: Option<Value>) -> Value {
     let params = params.unwrap_or(Value::Null);
     let name = str_arg(&params, "name").unwrap_or_default();
     let args = params.get("arguments").cloned().unwrap_or(Value::Null);
-    if name != "data_query_sql" {
+    if name != "data_query_sql" && name != "data_feedback" {
         let msg = if name.is_empty() {
-            "missing tool name; this server exposes exactly one tool: \"data_query_sql\"".to_owned()
+            "missing tool name; this server exposes two tools: \"data_query_sql\", \"data_feedback\""
+                .to_owned()
         } else {
             format!(
-                "unknown tool: {name}; this server exposes exactly one tool: \"data_query_sql\""
+                "unknown tool: {name}; this server exposes two tools: \"data_query_sql\", \"data_feedback\""
             )
         };
         return rpc_result(id, tool_error(msg));
+    }
+    if name == "data_feedback" {
+        return feedback_tool(state, user_id, id, &args);
     }
     let Some(sql) = str_arg(&args, "sql").filter(|s| !s.trim().is_empty()) else {
         return rpc_result(id, tool_error("missing required argument: sql".to_owned()));

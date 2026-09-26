@@ -195,16 +195,19 @@ pub async fn authorize_get(
         .map(|t| state.issue_csrf(&t))
         .unwrap_or_default();
     let scope = q.scope.clone().unwrap_or_else(|| "read".to_owned());
-    respond::html(super::pages::consent(super::pages::ConsentData {
-        client_id: &client_id,
-        redirect_uri: &redirect_uri,
-        scope: &scope,
-        raw_query: &raw,
-        username: &user.username,
-        csrf: &csrf,
-        code_challenge: &challenge,
-        oauth_state: q.state.as_deref(),
-    }))
+    respond::html(super::pages::consent(
+        super::pages::ConsentData {
+            client_id: &client_id,
+            redirect_uri: &redirect_uri,
+            scope: &scope,
+            raw_query: &raw,
+            username: &user.username,
+            csrf: &csrf,
+            code_challenge: &challenge,
+            oauth_state: q.state.as_deref(),
+        },
+        &state.base_url,
+    ))
 }
 
 #[derive(Deserialize)]

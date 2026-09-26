@@ -45,8 +45,10 @@ fn check_csrf(state: &AppState, headers: &HeaderMap, provided: &str) -> bool {
     state.check_csrf(session_token(headers).as_deref(), provided)
 }
 
-fn forbidden() -> Response {
+fn forbidden(state: &AppState) -> Response {
     respond::html(pages::error_page(
+        &state.base_url,
+        "/forbidden",
         "Forbidden",
         "Invalid or missing CSRF token. Please reload the page and try again.",
         None,
@@ -105,8 +107,10 @@ pub async fn index(State(state): State<AppState>, headers: HeaderMap) -> Respons
 }
 
 /// Styled 404 for everything unmapped.
-pub async fn fallback_404() -> Response {
+pub async fn fallback_404(State(state): State<AppState>) -> Response {
     let mut res = respond::html(pages::error_page(
+        &state.base_url,
+        "/not-found",
         "Not found",
         "There is nothing at this address.",
         None,
@@ -121,7 +125,7 @@ pub async fn signup_form(State(state): State<AppState>, headers: HeaderMap) -> R
     if session_user(&state, &headers).is_some() {
         return respond::see_other("/dashboard", None);
     }
-    respond::html(pages::signup("", false, None))
+    respond::html(pages::signup(&state.base_url, "", false, None))
 }
 
 #[derive(Deserialize)]
@@ -141,7 +145,9 @@ pub async fn signup_submit(
 ) -> Response {
     let username = form.username.trim().to_owned();
     let professional = form.professional.is_some();
-    let err = |msg: &str| respond::html(pages::signup(&username, professional, Some(msg)));
+    let err_base = state.base_url.clone();
+    let err =
+        |msg: &str| respond::html(pages::signup(&err_base, &username, professional, Some(msg)));
     if let Err(e) = validate_username(&username) {
         return err(&e.to_string());
     }
@@ -168,6 +174,8 @@ pub async fn signup_submit(
         }
         Err(e) => {
             return respond::html(pages::error_page(
+                &state.base_url,
+                "/signup",
                 "Signup failed",
                 &format!("Could not create your account: {e}"),
                 None,
@@ -183,6 +191,8 @@ pub async fn signup_submit(
         .is_err()
     {
         return respond::html(pages::error_page(
+            &state.base_url,
+            "/signup",
             "Signup failed",
             "Account created, but the login session could not be stored. Please log in.",
             None,
@@ -206,7 +216,7 @@ pub async fn login_form(
         return respond::see_other("/dashboard", None);
     }
     let next = q.get("next").map(String::as_str).unwrap_or("/dashboard");
-    respond::html(pages::login(next, "", None))
+    respond::html(pages::login(&state.base_url, next, "", None))
 }
 
 #[derive(Deserialize)]
@@ -221,12 +231,15 @@ pub async fn login_submit(State(state): State<AppState>, Form(form): Form<LoginF
     let username = form.username.trim().to_owned();
     let next = form.next.unwrap_or_else(|| "/dashboard".to_owned());
     let next = safe_next(&next).to_owned();
-    let err = |msg: &str| respond::html(pages::login(&next, &username, Some(msg)));
+    let err_base = state.base_url.clone();
+    let err = |msg: &str| respond::html(pages::login(&err_base, &next, &username, Some(msg)));
     let user = match state.internal.find_user_by_username(&username) {
         Ok(Some(u)) => u,
         Ok(None) => return err("Unknown username or wrong password."),
         Err(e) => {
             return respond::html(pages::error_page(
+                &state.base_url,
+                "/login",
                 "Login failed",
                 &format!("Could not look up your account: {e}"),
                 None,
@@ -245,6 +258,8 @@ pub async fn login_submit(State(state): State<AppState>, Form(form): Form<LoginF
         .is_err()
     {
         return respond::html(pages::error_page(
+            &state.base_url,
+            "/login",
             "Login failed",
             "Password correct, but the login session could not be stored. Please try again.",
             None,
@@ -267,7 +282,7 @@ pub async fn logout(
     Form(form): Form<LogoutForm>,
 ) -> Response {
     if !check_csrf(&state, &headers, &form.csrf) {
-        return forbidden();
+        return forbidden(&state);
     }
     if let Some(token) = session_token(&headers) {
         let _ = state.internal.delete_session(&token);
@@ -326,7 +341,7 @@ pub async fn create_token(
         return respond::see_other("/login?next=/dashboard", None);
     };
     if !check_csrf(&state, &headers, &form.csrf) {
-        return forbidden();
+        return forbidden(&state);
     }
     let name = form.name.trim();
     let name = if name.is_empty() {
@@ -380,7 +395,7 @@ pub async fn delete_token(
         return respond::see_other("/login?next=/dashboard", None);
     };
     if !check_csrf(&state, &headers, &form.csrf) {
-        return forbidden();
+        return forbidden(&state);
     }
     let notice = match form.id.parse::<i64>() {
         Ok(id)
@@ -421,7 +436,7 @@ pub async fn ingest_run(
         return respond::see_other("/login?next=/dashboard", None);
     };
     if !check_csrf(&state, &headers, &form.csrf) {
-        return forbidden();
+        return forbidden(&state);
     }
     let task_state = state.clone();
     tokio::spawn(async move {
