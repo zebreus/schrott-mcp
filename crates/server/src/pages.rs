@@ -38,7 +38,7 @@ font-size:14px;display:flex;gap:10px;align-items:center;justify-content:space-be
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:44px 0}
 .card{background:linear-gradient(180deg,var(--card),#121830);border:1px solid var(--line);
 border-radius:16px;padding:22px;margin-bottom:16px}
-.card h3{margin:0 0 8px;font-size:17px}.card p{margin:0 0 8px;color:var(--muted);font-size:14px;line-height:1.55}
+.card h2{margin:0 0 8px;font-size:17px}.card h3{margin:0 0 8px;font-size:17px}.card p{margin:0 0 8px;color:var(--muted);font-size:14px;line-height:1.55}
 .card p:last-child{margin-bottom:0}
 .steps{margin:10px 0 60px}.step{display:flex;gap:14px;margin:14px 0;align-items:flex-start}
 .n{flex:0 0 30px;height:30px;border-radius:50%;background:var(--acc);display:flex;align-items:center;
@@ -51,6 +51,11 @@ label{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
 input[type=text],input[type=password]{width:100%;padding:12px 14px;border-radius:10px;border:1px solid
 var(--line);background:#0a0f1f;color:var(--text);font-size:15px}
 input:focus{outline:2px solid var(--acc);border-color:transparent}
+a:focus-visible,button:focus-visible{outline:2px solid var(--acc2);outline-offset:3px;border-radius:6px}
+.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;left:16px;top:-48px;z-index:10;background:var(--acc2);color:#06130d;
+font-weight:700;padding:10px 16px;border-radius:10px;text-decoration:none;transition:top .15s}
+.skip:focus{top:12px}
 .check{display:flex;gap:10px;align-items:flex-start;margin:16px 0;font-size:14px;color:var(--muted)}
 .check input{margin-top:3px}.check b{color:var(--text)}
 .err{background:rgba(255,107,129,.12);border:1px solid var(--danger);color:#ffc9d2;border-radius:10px;
@@ -124,15 +129,17 @@ pub fn layout(
          <meta name=\"twitter:description\" content=\"{}\">\
          <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='42' fill='%237c6cff'/%3E%3Ccircle cx='50' cy='50' r='16' fill='%233ddc97'/%3E%3C/svg%3E\">\
          <title>{title} · Offsite Data</title><style>{CSS}</style></head><body>\
+         <a class=\"skip\" href=\"{skip_target}\">Skip to content</a>\
          <header><nav aria-label=\"Account\"><div class=\"wrap\"><a class=\"brand\" href=\"/\">Offsite<span>Data</span></a>\
          <div class=\"sp\"></div>{auth_links}</div></nav></header>\
-         <main><div class=\"wrap\">{body}</div></main>\
+         <main id=\"main\"><div class=\"wrap\">{body}</div></main>\
          <footer><div class=\"wrap\"><span>Made with love for domain experts.</span></div></footer>\
          </body></html>",
         esc(description),
         esc(description),
         esc(canonical),
-        esc(description)
+        esc(description),
+        skip_target = "#main",
     )
 }
 
@@ -153,12 +160,12 @@ pub fn marketing(base_url: &str, user: Option<&str>) -> String {
          <div>{ctas}</div>\
          <div class=\"connect\"><code>{mcp}</code><span>← your MCP server URL</span></div></div>\
          <div class=\"grid\">\
-         <div class=\"card\"><h3>One URL, zero config</h3><p>Add the MCP server URL to your MCP host. \
+         <div class=\"card\"><h2>One URL, zero config</h2><p>Add the MCP server URL to your MCP host. \
          Built-in OAuth discovery and dynamic client registration handle login for you.</p></div>\
-         <div class=\"card\"><h3>A model humans get</h3><p>Sources → datasets → items, \
+         <div class=\"card\"><h2>A model humans get</h2><p>Sources → datasets → items, \
          queriable through a single read-only <code>sql</code> tool. The schema rides along \
          in the tool description, so agents query without guessing.</p></div>\
-         <div class=\"card\"><h3>Honest ingestion</h3><p>A tiny fetch → parse → normalize → diff → upsert \
+         <div class=\"card\"><h2>Honest ingestion</h2><p>A tiny fetch → parse → normalize → diff → upsert \
          pipeline. Only changed records are rewritten; every fetch is journaled.</p></div>\
          </div>\
          <div class=\"steps\"><h2>Connect in three steps</h2>\
@@ -430,14 +437,14 @@ pub fn dashboard(base_url: &str, d: DashboardData<'_>) -> String {
          <input type=\"hidden\" name=\"csrf\" value=\"{}\">\
          <input type=\"text\" name=\"name\" placeholder=\"Token name (e.g. claude)\" aria-label=\"Token name\" autocomplete=\"off\">\
          <button class=\"btn\" type=\"submit\">Create</button></form>\
-         <div class=\"tablewrap\"><table><tr><th>Name</th><th>Prefix</th><th>Created</th><th>Last used</th><th></th></tr>{token_rows}</table></div></div>\
+         <div class=\"tablewrap\"><table><tr><th scope=\"col\">Name</th><th scope=\"col\">Prefix</th><th scope=\"col\">Created</th><th scope=\"col\">Last used</th><th scope=\"col\"><span class=\"vh\">Actions</span></th></tr>{token_rows}</table></div></div>\
          <div class=\"card\"><h3>Ingestion pipeline</h3>\
          <p>fetch → parse → normalize → diff → upsert, every 6 hours in this same process. \
          Only changed records are rewritten. Watch the table below for completion.</p>\
          <form method=\"post\" action=\"/api/ingest/run\">\
          <input type=\"hidden\" name=\"csrf\" value=\"{}\">\
          <button class=\"btn\" type=\"submit\">Run ingestion now</button></form>\
-         <div class=\"tablewrap\"><table style=\"margin-top:12px\"><tr><th>Run</th><th>Started</th><th>Finished</th><th>Status</th><th>Detail</th></tr>{run_rows}</table></div></div>",
+         <div class=\"tablewrap\"><table style=\"margin-top:12px\"><tr><th scope=\"col\">Run</th><th scope=\"col\">Started</th><th scope=\"col\">Finished</th><th scope=\"col\">Status</th><th scope=\"col\">Detail</th></tr>{run_rows}</table></div></div>",
         esc(d.username),
         d.stats.sources,
         d.stats.datasets,
