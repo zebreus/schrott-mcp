@@ -54,7 +54,12 @@ async fn main() {
     fmt()
         .with_env_filter(
             EnvFilter::from_env("RUST_LOG")
-                .add_directive("offsite_data_server=info".parse().expect("valid directive")),
+                .add_directive("offsite_data_server=info".parse().expect("valid directive"))
+                .add_directive(
+                    "offsite_data_ingestion=info"
+                        .parse()
+                        .expect("valid directive"),
+                ),
         )
         .init();
 

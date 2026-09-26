@@ -32,14 +32,33 @@ pub struct ScrapeOutcome {
 }
 
 /// Run every bundled scraper; failures are returned per scraper so one bad
-/// website never stops the rest of the pipeline.
+/// website never stops the rest of the pipeline. Each scrape is timed in
+/// the log so slow stages are attributable.
 pub async fn scrape_all(
     client: &reqwest::Client,
 ) -> Vec<(&'static str, Result<ScrapeOutcome, IngestError>)> {
+    let started = std::time::Instant::now();
+    let hn = scrape_hn_front_page(client).await;
+    tracing::info!(
+        "scraper hn-front-page finished in {}ms",
+        started.elapsed().as_millis()
+    );
+    let started = std::time::Instant::now();
+    let releases = scrape_rust_releases(client).await;
+    tracing::info!(
+        "scraper rust-releases finished in {}ms",
+        started.elapsed().as_millis()
+    );
+    let started = std::time::Instant::now();
+    let example = scrape_example_html(client).await;
+    tracing::info!(
+        "scraper example-html finished in {}ms",
+        started.elapsed().as_millis()
+    );
     vec![
-        ("hn-front-page", scrape_hn_front_page(client).await),
-        ("rust-releases", scrape_rust_releases(client).await),
-        ("example-html", scrape_example_html(client).await),
+        ("hn-front-page", hn),
+        ("rust-releases", releases),
+        ("example-html", example),
     ]
 }
 

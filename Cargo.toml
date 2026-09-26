@@ -7,3 +7,8 @@ members = [
     "crates/ingestion",
     "crates/server",
 ]
+
+# Keep line tables in release: negligible size cost, makes perf/flamegraph
+# profiles attributable instead of a wall of unknown frames.
+[profile.release]
+debug = "line-tables-only"

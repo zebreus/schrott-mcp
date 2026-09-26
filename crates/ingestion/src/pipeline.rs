@@ -134,6 +134,7 @@ async fn run_once_inner(
     public: &PublicDb,
     client: &reqwest::Client,
 ) -> IngestSummary {
+    let run_started = std::time::Instant::now();
     let started = Utc::now().to_rfc3339();
     let run_id = match internal.create_run(&started) {
         Ok(id) => id,
@@ -251,7 +252,10 @@ async fn run_once_inner(
     if let Err(e) = internal.finish_run(run_id, status, &detail, &Utc::now().to_rfc3339()) {
         tracing::warn!("ingestion: cannot close run {run_id}: {e}");
     }
-    tracing::info!("ingestion run {run_id} finished: {detail}");
+    tracing::info!(
+        "ingestion run {run_id} finished in {}ms: {detail}",
+        run_started.elapsed().as_millis()
+    );
     summary
 }
 

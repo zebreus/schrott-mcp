@@ -71,6 +71,7 @@ fn unauthorized(state: &AppState) -> Response {
 /// MCP endpoint (POST only). The blocking store work runs off the async
 /// executor; plain GET explains itself with 405.
 pub async fn mcp_post(State(state): State<AppState>, headers: HeaderMap, body: Bytes) -> Response {
+    let started = std::time::Instant::now();
     let Some(user_id) = bearer_user(&state, &headers) else {
         return unauthorized(&state);
     };
@@ -116,9 +117,16 @@ pub async fn mcp_post(State(state): State<AppState>, headers: HeaderMap, body: B
     let is_notification = req.id.is_none();
     // Store access is blocking SQLite: keep it off the async executor.
     let task_state = state.clone();
+    let method = req.method.clone();
     let response = tokio::task::spawn_blocking(move || dispatch(&task_state, user_id, req))
         .await
         .unwrap_or_else(|_| rpc_error(&None, -32603, "internal error"));
+    tracing::info!(
+        "mcp {} -> {} in {}ms",
+        method,
+        response.get("result").map(|_| "ok").unwrap_or("err"),
+        started.elapsed().as_millis()
+    );
     if is_notification {
         respond::empty(StatusCode::ACCEPTED)
     } else {
