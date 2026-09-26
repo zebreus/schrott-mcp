@@ -121,11 +121,17 @@ pub async fn fallback_404(State(state): State<AppState>) -> Response {
 }
 
 /// Signup form. Already logged in? Go to the dashboard.
-pub async fn signup_form(State(state): State<AppState>, headers: HeaderMap) -> Response {
+/// `next` carries the post-signup destination (e.g. an OAuth authorize URL).
+pub async fn signup_form(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    Query(q): Query<HashMap<String, String>>,
+) -> Response {
     if session_user(&state, &headers).is_some() {
         return respond::see_other("/dashboard", None);
     }
-    respond::html(pages::signup(&state.base_url, "", false, None))
+    let next = q.get("next").map(String::as_str).unwrap_or("/dashboard");
+    respond::html(pages::signup(&state.base_url, next, "", false, None))
 }
 
 #[derive(Deserialize)]
@@ -135,6 +141,7 @@ pub struct SignupForm {
     confirm: String,
     /// Present (any value) only when the checkbox was ticked.
     professional: Option<String>,
+    next: Option<String>,
 }
 
 /// Handle signup: username + password + professional checkbox, nothing else.
@@ -145,9 +152,19 @@ pub async fn signup_submit(
 ) -> Response {
     let username = form.username.trim().to_owned();
     let professional = form.professional.is_some();
+    let next = form.next.unwrap_or_else(|| "/dashboard".to_owned());
+    let next = safe_next(&next).to_owned();
     let err_base = state.base_url.clone();
-    let err =
-        |msg: &str| respond::html(pages::signup(&err_base, &username, professional, Some(msg)));
+    let err_next = next.clone();
+    let err = |msg: &str| {
+        respond::html(pages::signup(
+            &err_base,
+            &err_next,
+            &username,
+            professional,
+            Some(msg),
+        ))
+    };
     if let Err(e) = validate_username(&username) {
         return err(&e.to_string());
     }
@@ -200,10 +217,7 @@ pub async fn signup_submit(
         ));
     }
     let _ = state.issue_csrf(&token);
-    respond::see_other(
-        "/dashboard",
-        Some(session_cookie(&token, state.secure_cookies())),
-    )
+    respond::see_other(&next, Some(session_cookie(&token, state.secure_cookies())))
 }
 
 /// Login form. `next` is where to go afterwards.

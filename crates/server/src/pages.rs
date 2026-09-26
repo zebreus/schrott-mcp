@@ -4,7 +4,7 @@
 //! Conventions: typed input is echoed back on errors (passwords never),
 //! one-time secrets render from server-side flash state, never from URLs.
 
-use offsite_data_core::Stats;
+use offsite_data_core::{url_encode, Stats};
 use offsite_data_store::internal::{ApiTokenView, RunRow};
 
 const CSS: &str = "
@@ -194,9 +194,10 @@ pub fn login(base_url: &str, next: &str, username: &str, err: Option<&str>) -> S
          <label for=\"login-pass\">Password</label>\
          <input id=\"login-pass\" type=\"password\" name=\"password\" autocomplete=\"current-password\" required>\
          <div class=\"rowb\"><button class=\"btn\" type=\"submit\">Log in</button>\
-         <a class=\"btn ghost\" href=\"/signup\">Need an account?</a></div></form></div>",
+         <a class=\"btn ghost\" href=\"/signup?next={}\">Need an account?</a></div></form></div>",
         esc(next),
-        esc(username)
+        esc(username),
+        esc(&url_encode(next))
     );
     layout(
         "Log in",
@@ -210,7 +211,14 @@ pub fn login(base_url: &str, next: &str, username: &str, err: Option<&str>) -> S
 
 /// Signup form: username + password + professional checkbox. Nothing else.
 /// Username and checkbox survive validation errors; passwords never echo.
-pub fn signup(base_url: &str, username: &str, professional: bool, err: Option<&str>) -> String {
+/// `next` survives the login↔signup hop so OAuth flows complete.
+pub fn signup(
+    base_url: &str,
+    next: &str,
+    username: &str,
+    professional: bool,
+    err: Option<&str>,
+) -> String {
     let err_html = err.map_or(String::new(), |e| {
         format!("<div class=\"err\" role=\"alert\">{}</div>", esc(e))
     });
@@ -219,6 +227,7 @@ pub fn signup(base_url: &str, username: &str, professional: bool, err: Option<&s
         "<div class=\"panel\"><h2>Create your account</h2>\
          <p class=\"sub\">Username, password, one checkbox. That's the whole application.</p>\
          {err_html}<form method=\"post\" action=\"/signup\" autocomplete=\"on\">\
+         <input type=\"hidden\" name=\"next\" value=\"{}\">\
          <label for=\"signup-user\">Username</label>\
          <input id=\"signup-user\" type=\"text\" name=\"username\" value=\"{}\" autocomplete=\"username\" \
          autocapitalize=\"off\" autocorrect=\"off\" spellcheck=\"false\" maxlength=\"32\" required>\
@@ -233,8 +242,10 @@ pub fn signup(base_url: &str, username: &str, professional: bool, err: Option<&s
          <label class=\"check\"><input type=\"checkbox\" name=\"professional\" value=\"yes\"{checked}>\
          <span>I confirm that I am a <b>professional data-user</b> and will treat scraped data responsibly.</span></label>\
          <div class=\"rowb\"><button class=\"btn\" type=\"submit\">Sign up</button>\
-         <a class=\"btn ghost\" href=\"/login\">Have an account?</a></div></form></div>",
-        esc(username)
+         <a class=\"btn ghost\" href=\"/login?next={}\">Have an account?</a></div></form></div>",
+        esc(next),
+        esc(username),
+        esc(&url_encode(next))
     );
     layout(
         "Sign up",
