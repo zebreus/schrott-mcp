@@ -24,6 +24,8 @@ pub struct AppState {
     pub public: Arc<PublicDb>,
     pub http: reqwest::Client,
     pub base_url: String,
+    /// Data directory, handed to the isolated query worker per query.
+    pub data_dir: std::path::PathBuf,
     /// Pending one-time payloads per user id.
     pub flash: Arc<Mutex<HashMap<i64, Flash>>>,
     /// CSRF tokens per browser session token (double-submit, no schema).

@@ -115,16 +115,23 @@ pub async fn mcp_post(State(state): State<AppState>, headers: HeaderMap, body: B
         return json_body(rpc_error(&None, -32600, "invalid request: missing id"));
     }
     let is_notification = req.id.is_none();
-    // Store access is blocking SQLite: keep it off the async executor.
-    let task_state = state.clone();
+    // Ad-hoc SQL runs in a confined worker process, so there is no
+    // blocking store work left here — awaiting it never stalls the executor.
     let method = req.method.clone();
-    let response = tokio::task::spawn_blocking(move || dispatch(&task_state, user_id, req))
-        .await
-        .unwrap_or_else(|_| rpc_error(&None, -32603, "internal error"));
+    let response = dispatch(&state, user_id, req).await;
+    // `isError` lives beside `content` on the result object (per MCP);
+    // a missing result (RPC error) counts as failure too.
+    let failed = match response.get("result") {
+        None => true,
+        Some(r) => r
+            .get("isError")
+            .and_then(serde_json::Value::as_bool)
+            .unwrap_or(false),
+    };
     tracing::info!(
         "mcp {} -> {} in {}ms",
         method,
-        response.get("result").map(|_| "ok").unwrap_or("err"),
+        if failed { "err" } else { "ok" },
         started.elapsed().as_millis()
     );
     if is_notification {
@@ -142,7 +149,7 @@ pub async fn mcp_get() -> Response {
     )
 }
 
-fn dispatch(state: &AppState, user_id: i64, req: RpcRequest) -> Value {
+async fn dispatch(state: &AppState, user_id: i64, req: RpcRequest) -> Value {
     let id = &req.id;
     match req.method.as_str() {
         "initialize" => {
@@ -170,7 +177,7 @@ fn dispatch(state: &AppState, user_id: i64, req: RpcRequest) -> Value {
         "notifications/initialized" | "notifications/cancelled" => rpc_result(id, json!({})),
         "ping" => rpc_result(id, json!({})),
         "tools/list" => rpc_result(id, json!({"tools": tool_catalog()})),
-        "tools/call" => call_tool(state, user_id, id, req.params),
+        "tools/call" => call_tool(state, user_id, id, req.params).await,
         _ => rpc_error(id, -32601, "method not found"),
     }
 }
@@ -311,7 +318,12 @@ fn int_arg(params: &Value, key: &str) -> Option<i64> {
     }
 }
 
-fn call_tool(state: &AppState, user_id: i64, id: &Option<Value>, params: Option<Value>) -> Value {
+async fn call_tool(
+    state: &AppState,
+    user_id: i64,
+    id: &Option<Value>,
+    params: Option<Value>,
+) -> Value {
     let params = params.unwrap_or(Value::Null);
     let name = str_arg(&params, "name").unwrap_or_default();
     let args = params.get("arguments").cloned().unwrap_or(Value::Null);
@@ -333,8 +345,9 @@ fn call_tool(state: &AppState, user_id: i64, id: &Option<Value>, params: Option<
         return rpc_result(id, tool_error("missing required argument: sql".to_owned()));
     };
     let max_rows = int_arg(&args, "max_rows").unwrap_or(50).clamp(1, 200) as usize;
-    // Full result first: the download blob always carries everything.
-    let (columns, all_rows) = match state.public.query_sql(&sql) {
+    // Full result first, from the isolated worker: the download blob
+    // always carries everything the query produced.
+    let (columns, all_rows) = match super::worker::run_query(&state.data_dir, &sql).await {
         Ok(r) => (r.columns, r.rows),
         Err(e) => return rpc_result(id, tool_error(e.to_string())),
     };

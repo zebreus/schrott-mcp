@@ -931,11 +931,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "offsite-data-query-worker"
+version = "0.1.0"
+dependencies = [
+ "offsite-data-store",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "offsite-data-server"
 version = "0.1.0"
 dependencies = [
  "axum",
  "chrono",
+ "libc",
  "offsite-data-auth",
  "offsite-data-core",
  "offsite-data-ingestion",
@@ -943,6 +953,7 @@ dependencies = [
  "reqwest",
  "serde",
  "serde_json",
+ "thiserror",
  "tokio",
  "tracing",
  "tracing-subscriber",

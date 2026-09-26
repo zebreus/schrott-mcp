@@ -42,7 +42,7 @@ CREATE INDEX IF NOT EXISTS idx_items_source ON items(source_slug);
 ";
 
 /// One result column: name plus SQLite type.
-#[derive(Debug, Clone, serde::Serialize)]
+#[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
 pub struct SqlColumn {
     pub name: String,
     /// Value type inferred from the first non-null value
@@ -52,7 +52,7 @@ pub struct SqlColumn {
 }
 
 /// A read-only query result: typed columns plus JSON rows.
-#[derive(Debug, Clone, serde::Serialize)]
+#[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
 pub struct SqlResult {
     pub columns: Vec<SqlColumn>,
     pub rows: Vec<Vec<serde_json::Value>>,
@@ -202,6 +202,19 @@ pub struct PublicDb {
 }
 
 impl PublicDb {
+    /// Open the public database strictly read-only. Used by the isolated
+    /// query worker: even a validator bypass cannot write through this.
+    pub fn open_read_only(data_dir: &std::path::Path) -> Result<Self, StoreError> {
+        use rusqlite::OpenFlags;
+        let conn = rusqlite::Connection::open_with_flags(
+            data_dir.join("public.db"),
+            OpenFlags::SQLITE_OPEN_READ_ONLY,
+        )?;
+        Ok(Self {
+            conn: Mutex::new(conn),
+        })
+    }
+
     /// Open (creating parent dirs and schema) the public database.
     pub fn open(data_dir: &std::path::Path) -> Result<Self, StoreError> {
         std::fs::create_dir_all(data_dir).map_err(|e| {

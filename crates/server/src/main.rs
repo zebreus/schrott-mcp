@@ -6,6 +6,7 @@ mod pages;
 mod respond;
 mod state;
 mod web;
+mod worker;
 
 use std::sync::Arc;
 use std::time::Duration;
@@ -99,6 +100,7 @@ async fn main() {
         public: Arc::clone(&public),
         http,
         base_url: config.base_url.clone(),
+        data_dir: config.data_dir.clone(),
         flash: std::sync::Arc::new(std::sync::Mutex::new(std::collections::HashMap::new())),
         csrf: std::sync::Arc::new(std::sync::Mutex::new(std::collections::HashMap::new())),
     };

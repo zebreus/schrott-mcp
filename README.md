@@ -24,6 +24,12 @@ With love as the secret ingredient.
   Shared `respond` module for consistent responses; one-time secrets travel
   in server-side flash state (never URLs); cookie POSTs carry CSRF tokens.
   Unit tests live next to the code (`cargo test --workspace`).
+- `crates/query-worker` — tiny second binary executing one ad-hoc SQL query
+  against the public database in read-only mode. The server spawns it per
+  `data_query_sql` call under OS confinement (512 MB address space, 30 s CPU,
+  no core dumps, no new processes, `NO_NEW_PRIVS`, dropped to the `nobody`
+  user, empty environment) with a 60 s wall-clock kill switch. A runaway
+  query kills the worker; the main process never feels it.
 
 ## Why SQLite and not Postgres?
 

@@ -6,6 +6,7 @@ members = [
     "crates/auth",
     "crates/ingestion",
     "crates/server",
+    "crates/query-worker",
 ]
 
 # Keep line tables in release: negligible size cost, makes perf/flamegraph
