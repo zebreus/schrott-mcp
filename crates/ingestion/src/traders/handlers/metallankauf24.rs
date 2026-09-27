@@ -5,12 +5,18 @@
 //! to representative materials at confidence 0.5. Morning + afternoon
 //! schedule: the portal reprices during the day.
 
+use scraper::{Html, Selector};
+
 use super::super::{
-    eur_unit, fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    eur_unit, fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
 pub const SLUG: &str = "ni-marxen-metallankauf24-andre-owsianski-ne-spezia";
+/// Bespoke, live-verified impressum URL. A move fails the step
+/// loudly (fix the URL) — never guessed, never shared.
+pub const IMPRESSUM_URL: &str = "https://metallankauf24.de/impressum";
+
 pub const URL: &str = "https://metallankauf24.de/";
 
 pub fn handler() -> Handler {
@@ -46,8 +52,16 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             None => skipped_labels.push(label),
         }
     }
+    // Impressum failure fails the whole step on purpose: a moved contact
+    // page means the site changed and needs eyeballs before we trust
+    // anything from it again.
+    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
+    let trader_info = extract_info(&imp_html)?;
     Ok(HandlerOutcome {
         prices,
+        acceptances: vec![],
+        trader_info,
+        website_alive: true,
         skipped_labels,
         fetch_url: URL.to_owned(),
         status_code: status,
@@ -143,6 +157,101 @@ fn is_junk(t: &str) -> bool {
         || l.len() > 80
 }
 
+
+/// Bespoke contact extraction for THIS impressum only: the address lines
+/// inside `div.inhalt` ("Hinter der Bahn 23" / "21439 Marxen") plus the
+/// labeled "Telefon:"/"E-Mail:" lines of the same block. Missing anchors
+/// mean the page changed shape → loud error.
+fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
+    let doc = Html::parse_document(imp);
+    let block = Selector::parse("div.inhalt").expect("valid selector");
+    let Some(div) = doc.select(&block).next() else {
+        return Err(IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Adress-Block fehlt".to_owned(),
+        });
+    };
+    let p = Selector::parse("p").expect("valid selector");
+    let mut street = String::new();
+    let (mut postcode, mut city) = (String::new(), String::new());
+    let mut phone = String::new();
+    let mut email = String::new();
+    for el in div.select(&p) {
+        let lines: Vec<String> = el
+            .inner_html()
+            .split("<br")
+            .map(|s| strip_fragment(s))
+            .filter(|s| !s.is_empty())
+            .collect();
+        for (k, line) in lines.iter().enumerate() {
+            let mut it = line.split_whitespace();
+            if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
+                if pc.len() == 5
+                    && pc.chars().all(|c| c.is_ascii_digit())
+                    && ci.chars().next().is_some_and(|c| c.is_uppercase())
+                    && postcode.is_empty()
+                {
+                    postcode = pc.to_owned();
+                    city = ci.to_owned();
+                    if k > 0 {
+                        street = lines[k - 1].clone();
+                    }
+                }
+            }
+            if let Some(v) = line.strip_prefix("Telefon:").or_else(|| line.strip_prefix("Tel.")) {
+                if phone.is_empty() {
+                    phone = v.trim().to_owned();
+                }
+            } else if let Some(v) = line.strip_prefix("E-Mail:") {
+                if email.is_empty() {
+                    email = v.trim().to_owned();
+                }
+            }
+        }
+    }
+    // mailto: link as email fallback inside the block.
+    if email.is_empty() {
+        let mail = Selector::parse(r#"a[href^="mailto:"]"#).expect("valid selector");
+        email = div
+            .select(&mail)
+            .next()
+            .and_then(|e| e.value().attr("href"))
+            .and_then(|h| h.strip_prefix("mailto:"))
+            .unwrap_or_default()
+            .to_owned();
+    }
+    if street.is_empty() && phone.is_empty() && email.is_empty() {
+        return Err(IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "keine Kontaktdaten gefunden".to_owned(),
+        });
+    }
+    Ok(TraderInfo { street, postcode, city, phone, email })
+}
+
+/// Strip tags from a fragment (html5ever already decoded entities).
+/// Fragments from splitting on "<br" start with a tag remnant
+/// (` class="…"`) — drop everything up to the first '>' first, or the
+/// attributes parse as text.
+fn strip_fragment(s: &str) -> String {
+    let s = match s.find('>') {
+        Some(i) => &s[i + 1..],
+        None => s,
+    };
+    let mut out = String::new();
+    let mut in_tag = false;
+    for c in s.chars() {
+        if c == '<' {
+            in_tag = true;
+        } else if c == '>' {
+            in_tag = false;
+        } else if !in_tag {
+            out.push(c);
+        }
+    }
+    out.split_whitespace().collect::<Vec<_>>().join(" ")
+}
+
 #[cfg(test)]
 mod tests {
     use super::{grade_for, parse};
@@ -152,6 +261,17 @@ mod tests {
         <div>Zink / Blei</div><div>bis zu € 2,00 erhalten</div>\
         <div>Schrott</div><div>Preis auf Anfrage</div>\
         <h2>Abholung und Anlieferung</h2>";
+
+    #[test]
+    fn impressum_inhalt_block() {
+        let imp = "<div class=\"inhalt\"><p>Andre Owsianski e.K.<br>            Hinter der Bahn 23<br>21439 Marxen<br>Deutschland</p><p>            <a href=\"mailto:info@metallankauf24.de\">info</a><br>            Tel. 04185 8094617</p></div>";
+        let info = super::extract_info(imp).expect("parses");
+        assert_eq!(info.street, "Hinter der Bahn 23");
+        assert_eq!(info.postcode, "21439");
+        assert_eq!(info.city, "Marxen");
+        assert_eq!(info.email, "info@metallankauf24.de");
+        assert!(super::extract_info("<div><p>Neu</p></div>").is_err());
+    }
 
     #[test]
     fn categories_pair_and_map() {

@@ -356,6 +356,23 @@ impl PublicDb {
         )?;
         Ok(())
     }
+
+    /// Current acceptance state for one trader + material, if any.
+    pub fn existing_acceptance(
+        &self,
+        trader_id: i64,
+        material_id: i64,
+    ) -> Result<Option<(bool, String)>, StoreError> {
+        let conn = self.lock()?;
+        conn.query_row(
+            "SELECT accepts, conditions FROM trader_materials
+             WHERE trader_id = ?1 AND material_id = ?2",
+            params![trader_id, material_id],
+            |r| Ok((r.get::<_, i64>(0)? != 0, r.get(1)?)),
+        )
+        .optional()
+        .map_err(StoreError::from)
+    }
 }
 
 fn row_to_price(r: &rusqlite::Row<'_>) -> rusqlite::Result<PriceRow> {

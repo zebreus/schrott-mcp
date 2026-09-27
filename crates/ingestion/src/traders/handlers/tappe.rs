@@ -4,13 +4,19 @@
 //! multi-line labels ("Kupferschrott 1" + "ECU/Milb.") accumulate until
 //! a price node closes the pair. Daily schedule: they refresh mornings.
 
+use scraper::{Html, Selector};
+
 use super::super::{
     eur_unit, fetch_text, has_unit_markers, parse_de_date, parse_eur, Handler, HandlerOutcome,
-    Schedule, ScrapedPrice,
+    Schedule, ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
 pub const SLUG: &str = "nw-essen-vogelheim-tappe-rohstoffhandel";
+/// Bespoke, live-verified impressum URL. A move fails the step
+/// loudly (fix the URL) — never guessed, never shared.
+pub const IMPRESSUM_URL: &str = "https://www.tappe-recycling.de/impressum";
+
 pub const URL: &str = "https://www.tappe-recycling.de/";
 
 pub fn handler() -> Handler {
@@ -46,8 +52,16 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             None => skipped_labels.push(label),
         }
     }
+    // Impressum failure fails the whole step on purpose: a moved contact
+    // page means the site changed and needs eyeballs before we trust
+    // anything from it again.
+    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
+    let trader_info = extract_info(&imp_html)?;
     Ok(HandlerOutcome {
         prices,
+        acceptances: vec![],
+        trader_info,
+        website_alive: true,
         skipped_labels,
         fetch_url: URL.to_owned(),
         status_code: status,
@@ -204,6 +218,56 @@ fn date_in(window: &str) -> Option<String> {
     None
 }
 
+
+/// Bespoke contact extraction for THIS impressum only: the `<dl>` carries
+/// labeled rows ("Anschrift:" → "Am Stadthafen 18, 45356 Essen").
+/// Missing anchors mean the page changed shape → loud error.
+fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
+    let doc = Html::parse_document(imp);
+    let dt = Selector::parse("dt").expect("valid selector");
+    let dd = Selector::parse("dd").expect("valid selector");
+    let dts: Vec<_> = doc.select(&dt).collect();
+    let dds: Vec<_> = doc.select(&dd).collect();
+    if dts.is_empty() {
+        return Err(IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Kontakt-dl fehlt".to_owned(),
+        });
+    }
+    let value_of = |want: &str| {
+        dts.iter()
+            .zip(dds.iter())
+            .find(|(t, _)| t.text().collect::<String>().trim() == want)
+            .map(|(_, d)| {
+                d.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ")
+            })
+    };
+    let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
+    if let Some(addr) = value_of("Anschrift:") {
+        // "Am Stadthafen 18, 45356 Essen"
+        if let Some((left, right)) = addr.split_once(',') {
+            street = left.trim().to_owned();
+            let mut it = right.split_whitespace();
+            if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
+                if pc.len() == 5 && pc.chars().all(|c| c.is_ascii_digit()) {
+                    postcode = pc.to_owned();
+                    city = ci.to_owned();
+                }
+            }
+        }
+    }
+    let phone = value_of("Telefon:").unwrap_or_default();
+    let mut email = value_of("E-Mail:").unwrap_or_default();
+    email = email.replace('\u{2202}', "@");
+    if street.is_empty() && phone.is_empty() && email.is_empty() {
+        return Err(IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "keine Kontaktdaten gefunden".to_owned(),
+        });
+    }
+    Ok(TraderInfo { street, postcode, city, phone, email })
+}
+
 #[cfg(test)]
 mod tests {
     use super::{date_in, grade_for, parse};
@@ -213,6 +277,18 @@ mod tests {
         <p>Mischschrott</p><p>0,170 €</p>\
         <p>Kupferschrott 1</p><p>ECU/Milb.</p><p>11,20 €</p>\
         <p>... weitere auf Anfrage</p>";
+
+    #[test]
+    fn impressum_definition_list() {
+        let imp = "<dl><dt>Firmenname:</dt><dd>Tappe Rohstoffhandel GmbH</dd>            <dt>Anschrift:</dt><dd>Am Stadthafen 18, 45356 Essen</dd>            <dt>Telefon:</dt><dd>0201 / 61 44 122</dd>            <dt>Telefax:</dt><dd>0201 / 61 44 129</dd>            <dt>E-Mail:</dt><dd>tappe-recycling\u{2202}t-online.de</dd></dl>";
+        let info = super::extract_info(imp).expect("parses");
+        assert_eq!(info.street, "Am Stadthafen 18");
+        assert_eq!(info.postcode, "45356");
+        assert_eq!(info.city, "Essen");
+        assert_eq!(info.phone, "0201 / 61 44 122");
+        assert_eq!(info.email, "tappe-recycling@t-online.de");
+        assert!(super::extract_info("<dl><dt>Nix</dt><dd>da</dd></dl>").is_err());
+    }
 
     #[test]
     fn pairs_date_and_mapping() {

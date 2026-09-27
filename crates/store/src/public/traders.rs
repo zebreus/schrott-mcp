@@ -308,6 +308,75 @@ impl PublicDb {
         .map_err(StoreError::from)
     }
 
+    /// Update contact/address fields from website enrichment (Impressum).
+    /// Only non-empty extracted values are applied; `city` fills only an
+    /// empty cell (seed districts like "Reinickendorf" are more precise
+    /// than an Impressum "Berlin"). Returns the changed field names.
+    /// `website_alive` marks a successfully fetched site (aktiv + check
+    /// timestamp); a missing Impressum never marks anything tot.
+    #[allow(clippy::too_many_arguments)]
+    pub fn set_trader_info(
+        &self,
+        slug: &str,
+        street: &str,
+        postcode: &str,
+        city: &str,
+        phone: &str,
+        email: &str,
+        website_alive: bool,
+        now: &str,
+    ) -> Result<Vec<String>, StoreError> {
+        let conn = self.lock()?;
+        let cur: Option<(String, String, String, String, String)> = conn
+            .query_row(
+                "SELECT street, postcode, city, phone, email FROM traders WHERE slug = ?1",
+                params![slug],
+                |r| Ok((r.get(0)?, r.get(1)?, r.get(2)?, r.get(3)?, r.get(4)?)),
+            )
+            .optional()
+            .map_err(StoreError::from)?;
+        let Some((c_street, c_postcode, c_city, c_phone, c_email)) = cur else {
+            return Ok(Vec::new());
+        };
+        let mut changed = Vec::new();
+        let mut set = Vec::new();
+        let mut args: Vec<rusqlite::types::Value> = Vec::new();
+        // (column, extracted, current, fill_empty_only)
+        let fields = [
+            ("street", street, c_street.as_str(), false),
+            ("postcode", postcode, c_postcode.as_str(), false),
+            ("city", city, c_city.as_str(), true),
+            ("phone", phone, c_phone.as_str(), false),
+            ("email", email, c_email.as_str(), false),
+        ];
+        for (col, new, old, empty_only) in fields {
+            if new.is_empty() || new == old || (empty_only && !old.is_empty()) {
+                continue;
+            }
+            changed.push(col.to_owned());
+            set.push(format!("{col} = ?"));
+            args.push(rusqlite::types::Value::Text(new.to_owned()));
+        }
+        if website_alive {
+            changed.push("website_status".to_owned());
+            set.push("website_status = 'aktiv'".to_owned());
+            changed.push("website_checked_at".to_owned());
+            set.push("website_checked_at = ?".to_owned());
+            args.push(rusqlite::types::Value::Text(now.to_owned()));
+        }
+        if set.is_empty() {
+            return Ok(changed);
+        }
+        args.push(rusqlite::types::Value::Text(now.to_owned()));
+        args.push(rusqlite::types::Value::Text(slug.to_owned()));
+        let sql = format!(
+            "UPDATE traders SET {}, updated_at = ? WHERE slug = ?",
+            set.join(", ")
+        );
+        conn.execute(&sql, rusqlite::params_from_iter(args))?;
+        Ok(changed)
+    }
+
     /// Enrichment-owned columns for a trader slug: seed hash plus every
     /// column the seed importer preserves when the seed row leaves it
     /// empty (description, service conditions, website state).

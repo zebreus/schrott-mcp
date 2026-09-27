@@ -151,9 +151,14 @@ pub async fn run_due_with(
                         failed.push(format!("{}: {e}", h.slug));
                         close_step(internal, step_id, "failed", 0, &format!("{e}"));
                     }
-                    Ok((n, skipped, canaries)) => {
-                        recorded += n;
+                    Ok(summary) => {
+                        recorded += summary.recorded;
+                        let n = summary.recorded;
                         let mut detail = format!("{n} Preise übernommen");
+                        if summary.accepted > 0 {
+                            detail.push_str(&format!(", {} Annahmen", summary.accepted));
+                        }
+                        let skipped = summary.skipped;
                         if !skipped.is_empty() {
                             let shown: Vec<&str> =
                                 skipped.iter().take(5).map(String::as_str).collect();
@@ -168,8 +173,8 @@ pub async fn run_due_with(
                         // is recorded, but a human should check the scraper.
                         // They travel in their own vec so the run status can
                         // distinguish "broken" from "look at this".
-                        let status = if canaries.is_empty() { "ok" } else { "warning" };
-                        for c in &canaries {
+                        let status = if summary.canaries.is_empty() { "ok" } else { "warning" };
+                        for c in &summary.canaries {
                             tracing::warn!(slug = h.slug, "canary: {c}");
                             warnings.push(format!("{}: {c}", h.slug));
                             detail.push_str(&format!(" | CANARY: {c}"));
@@ -227,6 +232,7 @@ fn close_step(internal: &InternalDb, step_id: i64, status: &str, n: i64, detail:
 mod tests {
     use super::{initial_due, next_after, next_daily_after};
     use super::{Handler, Schedule};
+    use super::super::TraderInfo;
     use chrono::{TimeZone, Utc};
     use schrott_mcp_store::{InternalDb, PublicDb};
 
@@ -284,7 +290,10 @@ mod tests {
                     valid_from: None,
                     valid_to: None,
                 }],
-                skipped_labels: vec![],
+                acceptances: vec![],
+                    trader_info: TraderInfo::default(),
+                    website_alive: false,
+                    skipped_labels: vec![],
                 fetch_url: "https://example.test/".to_owned(),
                 status_code: 200,
                 byte_len: 10,
@@ -401,7 +410,10 @@ mod tests {
                         valid_to: None,
                     },
                 ],
-                skipped_labels: vec![],
+                acceptances: vec![],
+                    trader_info: TraderInfo::default(),
+                    website_alive: false,
+                    skipped_labels: vec![],
                 fetch_url: "https://example.test/preise".to_owned(),
                 status_code: 200,
                 byte_len: 10,

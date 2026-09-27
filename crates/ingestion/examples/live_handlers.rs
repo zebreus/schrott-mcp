@@ -24,8 +24,13 @@ async fn main() {
             Err(e) => println!("FAILED: {e}"),
             Ok(out) => {
                 println!(
-                    "status={} bytes={} published_at={:?}",
-                    out.status_code, out.byte_len, out.published_at
+                    "status={} bytes={} published_at={:?} acceptances={} alive={} info={:?}",
+                    out.status_code,
+                    out.byte_len,
+                    out.published_at,
+                    out.acceptances.len(),
+                    out.website_alive,
+                    out.trader_info,
                 );
                 for p in &out.prices {
                     println!(
@@ -35,6 +40,14 @@ async fn main() {
                         p.unit,
                         p.confidence,
                         p.label.chars().take(48).collect::<String>()
+                    );
+                }
+                for a in &out.acceptances {
+                    println!(
+                        "  A {:22} cond={:?} [{}]",
+                        a.material,
+                        a.conditions,
+                        a.label.chars().take(48).collect::<String>()
                     );
                 }
                 for s in &out.skipped_labels {

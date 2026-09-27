@@ -3,15 +3,19 @@
 //! 27.09.2026"). Hartmetall and silverware have no catalog material and
 //! are skipped loudly.
 
-use scraper::{Html, Selector};
+use scraper::{ElementRef, Html, Selector};
 
 use super::super::{
     eur_unit, fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule,
-    ScrapedPrice,
+    ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
 pub const SLUG: &str = "hb-woltmershausen-vedder-stockrahm";
+/// Bespoke, live-verified impressum URL. A move fails the step
+/// loudly (fix the URL) — never guessed, never shared.
+pub const IMPRESSUM_URL: &str = "https://www.vedder-stockrahm.de/impressum/";
+
 pub const URL: &str = "https://www.vedder-stockrahm.de/ankauf/";
 
 pub fn handler() -> Handler {
@@ -42,8 +46,16 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             None => skipped_labels.push(label),
         }
     }
+    // Impressum failure fails the whole step on purpose: a moved contact
+    // page means the site changed and needs eyeballs before we trust
+    // anything from it again.
+    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
+    let trader_info = extract_info(&imp_html)?;
     Ok(HandlerOutcome {
         prices,
+        acceptances: vec![],
+        trader_info,
+        website_alive: true,
         skipped_labels,
         fetch_url: URL.to_owned(),
         status_code: status,
@@ -101,6 +113,92 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else {
         None
     }
+}
+
+/// Bespoke contact extraction for THIS impressum only: the `<p>` after
+/// the "Anschrift" heading holds firm lines + street + PLZ city, and the
+/// `<dl>` carries labeled Telefon/E-Mail rows. Missing anchors mean the
+/// page changed shape → loud error, never a guessed fallback.
+fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
+    let doc = Html::parse_document(imp);
+    let h3 = Selector::parse("h3").expect("valid selector");
+    let dt = Selector::parse("dt").expect("valid selector");
+    let dd = Selector::parse("dd").expect("valid selector");
+    let anchor = doc.select(&h3).find(|h| {
+        h.text().collect::<String>().trim() == "Anschrift"
+    });
+    let Some(anchor) = anchor else {
+        return Err(IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Anschrift-Block fehlt".to_owned(),
+        });
+    };
+    // Address lines: first <p> sibling after the heading.
+    let addr_p = anchor
+        .next_siblings()
+        .filter_map(ElementRef::wrap)
+        .find(|e| e.value().name() == "p");
+    let mut lines = Vec::new();
+    if let Some(p) = addr_p {
+        for part in p.inner_html().split("<br") {
+            let t = strip_tags(part);
+            if !t.is_empty() {
+                lines.push(t);
+            }
+        }
+    }
+    // "Senator-Bömers Straße 10" / "28197 Bremen" (last two lines).
+    let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
+    if lines.len() >= 2 {
+        let last = lines.last().expect("len checked");
+        let mut it = last.split_whitespace();
+        if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
+            if pc.len() == 5 && pc.chars().all(|c| c.is_ascii_digit()) {
+                postcode = pc.to_owned();
+                city = ci.to_owned();
+                street = lines[lines.len() - 2].clone();
+            }
+        }
+    }
+    // Labeled contact rows.
+    let mut phone = String::new();
+    let mut email = String::new();
+    // Pair dt/dd by document order.
+    let dts: Vec<ElementRef> = doc.select(&dt).collect();
+    let dds: Vec<ElementRef> = doc.select(&dd).collect();
+    for (t, d) in dts.iter().zip(dds.iter()) {
+        let label: String = t.text().collect();
+        let value: String = d.text().collect();
+        let value = value.split_whitespace().collect::<Vec<_>>().join(" ");
+        match label.trim() {
+            "Telefon" if phone.is_empty() => phone = value,
+            "E-Mail" if email.is_empty() => email = value,
+            _ => {}
+        }
+    }
+    if street.is_empty() && phone.is_empty() && email.is_empty() {
+        return Err(IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "keine Kontaktdaten gefunden".to_owned(),
+        });
+    }
+    Ok(TraderInfo { street, postcode, city, phone, email })
+}
+
+/// Strip tags from a fragment (entities are already decoded by html5ever).
+fn strip_tags(s: &str) -> String {
+    let mut out = String::new();
+    let mut in_tag = false;
+    for c in s.chars() {
+        if c == '<' {
+            in_tag = true;
+        } else if c == '>' {
+            in_tag = false;
+        } else if !in_tag {
+            out.push(c);
+        }
+    }
+    out.split_whitespace().collect::<Vec<_>>().join(" ")
 }
 
 fn parse(
@@ -197,6 +295,23 @@ mod tests {
         let html = FIXTURE.replace("EUR / KG", "pro Sack");
         let err = parse(&html).expect_err("empty table errors");
         assert!(err.to_string().contains("leer"));
+    }
+
+    #[test]
+    fn impressum_extracts_contact() {
+        let imp = "<h3>Anschrift</h3><p>Vedder & Stockrahm GmbH & Co. KG<br>\
+            Senator-Bömers Straße 10<br>28197 Bremen</p>\
+            <dl><dt>Telefon</dt><dd>+49 (0) 421 54 25 54</dd>\
+            <dt>Fax</dt><dd>+49 (0) 421 54 25 53</dd>\
+            <dt>E-Mail</dt><dd>info@vedder-stockrahm.de</dd></dl>";
+        let info = super::extract_info(imp).expect("parses");
+        assert_eq!(info.street, "Senator-Bömers Straße 10");
+        assert_eq!(info.postcode, "28197");
+        assert_eq!(info.city, "Bremen");
+        assert_eq!(info.phone, "+49 (0) 421 54 25 54");
+        assert_eq!(info.email, "info@vedder-stockrahm.de");
+        // Redesign without anchors fails loudly.
+        assert!(super::extract_info("<html><body><p>Neu hier</p></body></html>").is_err());
     }
 
     #[test]

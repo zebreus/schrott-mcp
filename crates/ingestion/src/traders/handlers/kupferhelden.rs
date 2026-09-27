@@ -4,12 +4,18 @@
 //! advertised value, confidence 0.5. All four grades map to `kabel-kupfer`
 //! with the raw grade in the label.
 
+use scraper::{Html, Selector};
+
 use super::super::{
-    eur_unit, fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    eur_unit, fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
 pub const SLUG: &str = "he-hattersheim-kupferhelden";
+/// Bespoke, live-verified impressum URL. A move fails the step
+/// loudly (fix the URL) — never guessed, never shared.
+pub const IMPRESSUM_URL: &str = "https://kupferhelden.de/impressum/";
+
 pub const URL: &str = "https://kupferhelden.de/";
 
 pub fn handler() -> Handler {
@@ -23,14 +29,18 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     // confidence; "bis zu" rows carry the bound as price_max at 0.5.
     let mut prices = Vec::with_capacity(rows.len());
     for (label, price, unit, upto) in rows {
-        let (price_max, confidence) = if upto { (Some(price), Some(0.5)) } else { (None, Some(1.0)) };
+        let (price_max, confidence, price_kind) = if upto {
+            (Some(price), Some(0.5), "upto")
+        } else {
+            (None, Some(1.0), "exact")
+        };
         prices.push(ScrapedPrice {
             material: "kabel-kupfer",
             variant: grade_variant(&label),
             price,
             currency: "EUR",
             unit,
-            price_kind: "upto",
+            price_kind,
             price_min: None,
             price_max,
             confidence,
@@ -49,9 +59,17 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             true
         }
     });
+    // Impressum failure fails the whole step on purpose: a moved contact
+    // page means the site changed and needs eyeballs before we trust
+    // anything from it again.
+    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
+    let trader_info = extract_info(&imp_html)?;
     Ok(HandlerOutcome {
         prices,
-        skipped_labels: vec![],
+        acceptances: vec![],
+        trader_info,
+        website_alive: true,
+        skipped_labels,
         fetch_url: URL.to_owned(),
         status_code: status,
         byte_len: html.len(),
@@ -151,6 +169,100 @@ fn is_junk(t: &str) -> bool {
         || l.len() > 120
 }
 
+
+/// Bespoke contact extraction for THIS impressum only: the address `<p>`
+/// (firm lines + street + PLZ city) and the `<p>` after the "Kontakt"
+/// heading ("Telefon:" / "E-Mail:" lines). Missing anchors → loud error.
+fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
+    let doc = Html::parse_document(imp);
+    let p = Selector::parse("p").expect("valid selector");
+    let h2 = Selector::parse("h2").expect("valid selector");
+    // Address block: the <p> holding a PLZ + city line.
+    let mut street = String::new();
+    let (mut postcode, mut city) = (String::new(), String::new());
+    for el in doc.select(&p) {
+        let lines: Vec<String> = el
+            .inner_html()
+            .split("<br")
+            .map(|s| strip_fragment(s))
+            .filter(|s| !s.is_empty())
+            .collect();
+        for (k, line) in lines.iter().enumerate() {
+            let mut it = line.split_whitespace();
+            // PLZ city [am Main …]: first token 5 digits, second capitalized.
+            if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
+                if pc.len() == 5
+                    && pc.chars().all(|c| c.is_ascii_digit())
+                    && ci.chars().next().is_some_and(|c| c.is_uppercase())
+                {
+                    postcode = pc.to_owned();
+                    city = ci.to_owned();
+                    if k > 0 {
+                        street = lines[k - 1].clone();
+                    }
+                    break;
+                }
+            }
+        }
+        if !postcode.is_empty() {
+            break;
+        }
+    }
+    // "Kontakt" heading → next <p> holds the labeled lines.
+    let mut phone = String::new();
+    let mut email = String::new();
+    let mut found_kontakt = false;
+    for el in doc.select(&h2) {
+        if el.text().collect::<String>().trim() == "Kontakt" {
+            found_kontakt = true;
+            let mut sib = el.next_siblings();
+            let txt = sib
+                .find_map(|n| scraper::ElementRef::wrap(n).filter(|e| e.value().name() == "p"))
+                .map(|p| p.inner_html());
+            if let Some(html) = txt {
+                for part in html.split("<br") {
+                    let t = strip_fragment(part);
+                    if let Some(v) = t.strip_prefix("Telefon:") {
+                        phone = v.trim().to_owned();
+                    } else if let Some(v) = t.strip_prefix("E-Mail:") {
+                        email = v.trim().to_owned();
+                    }
+                }
+            }
+        }
+    }
+    if !found_kontakt || (street.is_empty() && phone.is_empty() && email.is_empty()) {
+        return Err(IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Kontakt-Block fehlt".to_owned(),
+        });
+    }
+    Ok(TraderInfo { street, postcode, city, phone, email })
+}
+
+/// Strip tags from a fragment (html5ever already decoded entities).
+/// Fragments from splitting on "<br" start with a tag remnant
+/// (` class="…"`) — drop everything up to the first '>' first, or the
+/// attributes parse as text.
+fn strip_fragment(s: &str) -> String {
+    let s = match s.find('>') {
+        Some(i) => &s[i + 1..],
+        None => s,
+    };
+    let mut out = String::new();
+    let mut in_tag = false;
+    for c in s.chars() {
+        if c == '<' {
+            in_tag = true;
+        } else if c == '>' {
+            in_tag = false;
+        } else if !in_tag {
+            out.push(c);
+        }
+    }
+    out.split_whitespace().collect::<Vec<_>>().join(" ")
+}
+
 #[cfg(test)]
 mod tests {
     use super::{grade_variant, parse};
@@ -161,6 +273,18 @@ mod tests {
         <h4>Alukabel sortiert</h4><div>bis zu 0,90 €/KG</div>\
         <h4>Messing Armaturen</h4><div>4,20 €/KG</div>\
         <footer>Quick Links</footer>";
+
+    #[test]
+    fn impressum_blocks() {
+        let imp = "<p>Tayfun Karaca<br>Kupferhelden Hattersheim<br>Im Boden 23<br>            65795 Hattersheim am Main</p><h2>Kontakt</h2>            <p>Telefon: 01623060230<br>E-Mail: info@kupferhelden.de</p>";
+        let info = super::extract_info(imp).expect("parses");
+        assert_eq!(info.street, "Im Boden 23");
+        assert_eq!(info.postcode, "65795");
+        assert_eq!(info.city, "Hattersheim");
+        assert_eq!(info.phone, "01623060230");
+        assert_eq!(info.email, "info@kupferhelden.de");
+        assert!(super::extract_info("<p>Neu hier</p>").is_err());
+    }
 
     #[test]
     fn bis_zu_pairs() {

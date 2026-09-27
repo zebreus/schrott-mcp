@@ -92,6 +92,34 @@ Kategorie-Übersicht → `metallankauf24.rs`).
   Acceptance-Ableitung) passiert von selbst in `run_due_with`/`record()`.
   Handler kümmern sich nur um Fetch+Parse+Mapping.
 
+## Impressum & Betriebsinfos (bespoke!)
+
+- Die Impressums-URL ist **pro Handler hartkodiert** (`IMPRESSUM_URL`,
+  live verifiziert) — niemals raten, niemals teilen. Ein Umzug lässt den
+  Step laut fehlschlagen (fixen, nicht raten).
+- Die Kontakt-Extraktion ist **pro Handler maßgeschneidert**
+  (`fn extract_info` im Handler, mit Ankern der ECHTEN Seite:
+  Vedder-`<dl>`, Lausitz-`data-bind`-Spans, Tappe-`<dl>`,
+  Kupferhelden-`<p>`+`<h2>Kontakt</h2>`, M24-`div.inhalt`,
+  ESH-`Inhaber:`-Block, Quell-`<h1>`-Block). Fehlende Anker →
+  lauter `IngestError::Parse`, niemals geraten, niemals fallback.
+  Geteilt sind nur Low-Level-Helfer (`fetch_text`, deutsche
+  Zahlen/Einheiten/Datum).
+- `set_trader_info` schreibt nur echte Änderungen (Stadt nur bei leerer
+  Zelle — Seed-Stadtteile sind präziser als Impressum-Städte) und loggt
+  alt→neu.
+- Firmeninfos können über mehrere Seiten verteilt sein: dann holt der
+  Handler jede Seite per eigener hartkodierter URL (z. B. `/kontakt`
+  zusätzlich) und parst jede mit eigenem Anker-Block — kein generischer
+  Crawler, kein URL-Raten.
+- Gefundene Live-Typos (`"Spähne"`, geklebte `"Straße2901979"`) werden
+  als tolerierte Varianten **mit Test** im jeweiligen Handler abgelegt,
+  nicht als generelle Lockerung.
+- Produktlisten ohne Preise → `ScrapedAcceptance` (explizites Mapping
+  wie bei Preisen, inkl. Fan-out `"V2A und V4A"` → zwei Materialien).
+  Handler ohne Preise sind normal (Canary feuert nur bei 0 Preisen UND
+  0 Annahmen).
+
 ## Verifikations-Checkliste (vor „fertig")
 
 - [ ] Zeilenzahl == Seite (abzüglich begründeter Skips)?

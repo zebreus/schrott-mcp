@@ -4,13 +4,19 @@
 //! with the pending label, then dedupe identical pairs. "KEIN ANKAUF …"
 //! and paper have no mappable material and are skipped loudly.
 
+use scraper::{Html, Selector};
+
 use super::super::{
     eur_unit, fetch_text, has_unit_markers, parse_eur, Handler, HandlerOutcome, Schedule,
-    ScrapedPrice,
+    ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
 pub const SLUG: &str = "bb-lauchhammer-ost-lausitz-recycling";
+/// Bespoke, live-verified impressum URL. A move fails the step
+/// loudly (fix the URL) — never guessed, never shared.
+pub const IMPRESSUM_URL: &str = "https://www.lausitz-recycling.de/impressum";
+
 pub const URL: &str = "https://www.lausitz-recycling.de/";
 
 pub fn handler() -> Handler {
@@ -48,8 +54,16 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             None => skipped_labels.push(label),
         }
     }
+    // Impressum failure fails the whole step on purpose: a moved contact
+    // page means the site changed and needs eyeballs before we trust
+    // anything from it again.
+    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
+    let trader_info = extract_info(&imp_html)?;
     Ok(HandlerOutcome {
         prices,
+        acceptances: vec![],
+        trader_info,
+        website_alive: true,
         skipped_labels,
         fetch_url: URL.to_owned(),
         status_code: status,
@@ -82,6 +96,42 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else {
         None
     }
+}
+
+/// Bespoke contact extraction for THIS impressum only: semantic
+/// `data-bind="customer.*"` spans plus the `mailto:` link. Missing spans
+/// mean the page changed shape → loud error, never a guessed fallback.
+fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
+    let doc = Html::parse_document(imp);
+    let text_of = |sel: &str| {
+        doc.select(&Selector::parse(sel).expect("valid selector"))
+            .next()
+            .map(|e| e.text().collect::<String>())
+            .map(|t| t.split_whitespace().collect::<Vec<_>>().join(" "))
+    };
+    let street = text_of(r#"span[data-bind="customer.street"]"#).unwrap_or_default();
+    let postcode = text_of(r#"span[data-bind="customer.zip"]"#).unwrap_or_default();
+    let city = text_of(r#"span[data-bind="customer.city"]"#).unwrap_or_default();
+    let phone = text_of(r#"span[data-bind="customer.phone"]"#).unwrap_or_default();
+    let email = doc
+        .select(&Selector::parse(r#"a[href^="mailto:"]"#).expect("valid selector"))
+        .next()
+        .map(|e| {
+            e.value()
+                .attr("href")
+                .unwrap_or_default()
+                .strip_prefix("mailto:")
+                .unwrap_or_default()
+                .to_owned()
+        })
+        .unwrap_or_default();
+    if street.is_empty() && postcode.is_empty() && phone.is_empty() && email.is_empty() {
+        return Err(IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Kontakt-Spans fehlen".to_owned(),
+        });
+    }
+    Ok(TraderInfo { street, postcode, city, phone, email })
 }
 
 fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
@@ -192,6 +242,18 @@ mod tests {
         <tr><td><strong>€ 9,19 X € pro kg</strong></td></tr></table>\
         <table><tr><td><strong>Altpapier</strong></td></tr>\
         <tr><td><strong>€ 0,08 X € pro kg</strong></td></tr></table>";
+
+    #[test]
+    fn impressum_databind_spans() {
+        let imp = "<address><span data-bind=\"customer.company\">Lausitz Recycling</span><br>            <span data-bind=\"customer.street\">Eisenwerkstr. 29</span><br>            <span data-bind=\"customer.zip\">01979</span>             <span data-bind=\"customer.city\">Lauchhammer-Ost</span></address>            <p>Telefon: <span data-bind=\"customer.phone\">03574/467452</span></p>            <p><a href=\"mailto:info@lausitz-recycling.de\">info</a></p>";
+        let info = super::extract_info(imp).expect("parses");
+        assert_eq!(info.street, "Eisenwerkstr. 29");
+        assert_eq!(info.postcode, "01979");
+        assert_eq!(info.city, "Lauchhammer-Ost");
+        assert_eq!(info.phone, "03574/467452");
+        assert_eq!(info.email, "info@lausitz-recycling.de");
+        assert!(super::extract_info("<p>leer</p>").is_err());
+    }
 
     #[test]
     fn pairs_dedupe_and_map() {

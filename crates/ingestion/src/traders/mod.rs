@@ -86,10 +86,50 @@ pub struct ScrapedPrice {
     pub valid_to: Option<String>,
 }
 
+/// One accepted material without a price (product/acceptance lists).
+#[derive(Debug, Clone)]
+pub struct ScrapedAcceptance {
+    /// `materials.slug` from the handler's explicit mapping table.
+    pub material: &'static str,
+    /// Conditions as written ("nur blank", "ab 50 kg", "Späne").
+    pub conditions: String,
+    /// Raw label from the page, always kept for traceability.
+    pub label: String,
+}
+
+/// Contact/address enrichment from website + Impressum. Empty = not found;
+/// the importer only ever fills or upgrades, never blanks.
+#[derive(Debug, Clone, Default)]
+pub struct TraderInfo {
+    pub street: String,
+    pub postcode: String,
+    pub city: String,
+    pub phone: String,
+    pub email: String,
+}
+
+impl TraderInfo {
+    pub fn is_empty(&self) -> bool {
+        self.street.is_empty()
+            && self.postcode.is_empty()
+            && self.city.is_empty()
+            && self.phone.is_empty()
+            && self.email.is_empty()
+    }
+}
+
+/// Everything one scrape produced.
+
 /// Everything one scrape produced.
 #[derive(Debug, Clone, Default)]
 pub struct HandlerOutcome {
     pub prices: Vec<ScrapedPrice>,
+    /// Accepted materials without prices (product lists).
+    pub acceptances: Vec<ScrapedAcceptance>,
+    /// Contact/address enrichment (Impressum + page).
+    pub trader_info: TraderInfo,
+    /// True when at least one HTTP fetch succeeded (marks website aktiv).
+    pub website_alive: bool,
     /// Labels the handler saw but could not map (logged, counted, skipped).
     pub skipped_labels: Vec<String>,
     /// The price page URL (provenance for every observation).
@@ -207,6 +247,17 @@ pub fn parse_de_date(day: &str, month: &str, year: &str) -> Option<String> {
     })
 }
 
+
+/// What one `record()` call produced. `accepted` counts resolved
+/// material acceptances (info present), whether or not they changed rows.
+#[derive(Debug, Clone, Default)]
+pub struct RecordSummary {
+    pub recorded: i64,
+    pub accepted: usize,
+    pub skipped: Vec<String>,
+    pub canaries: Vec<String>,
+}
+
 /// Canary thresholds (documented, tunable). Baselines come from the last
 /// finished non-failed step; the very first run has no baseline and only
 /// the zero rule applies.
@@ -230,7 +281,7 @@ pub async fn record(
     handler_slug: &str,
     outcome: &HandlerOutcome,
     now: &DateTime<Utc>,
-) -> Result<(i64, Vec<String>, Vec<String>), super::IngestError> {
+) -> Result<RecordSummary, super::IngestError> {
     use super::IngestError;
     let Some(trader_id) = public.find_trader_id(handler_slug).map_err(|source| {
         IngestError::Catalog { what: "trader", name: handler_slug.to_owned(), source }
@@ -338,28 +389,93 @@ pub async fn record(
             }
         }
     }
-    // Count canaries against the last good run.
-    if recorded == 0 {
-        canaries.push(format!(
-            "0 Preise übernommen ({} Parses, {} Skips) — Seite prüfen",
-            outcome.prices.len(),
-            skipped.len()
-        ));
-    } else if let Some(base) = baseline {
-        if base >= CANARY_MIN_BASELINE {
-            let base_f = base as f64;
-            if (recorded as f64) < base_f * CANARY_DROP_RATIO {
-                canaries.push(format!(
-                    "Einbruch: {recorded} statt {base} Preisen — Seite prüfen"
-                ));
-            } else if (recorded as f64) > base_f * CANARY_GROWTH_FACTOR {
-                canaries.push(format!(
-                    "Explosion: {recorded} statt {base} Preisen — Duplikate prüfen"
-                ));
+    // Material acceptances (product lists without prices): resolve, write
+    // only on change, count everything resolved.
+    let mut accepted = 0usize;
+    for a in &outcome.acceptances {
+        let Some(material_id) = public.find_material_id(a.material).map_err(|source| {
+            IngestError::Catalog { what: "material", name: a.material.to_owned(), source }
+        })?
+        else {
+            skipped.push(format!("{} (unbekanntes Material)", a.label));
+            continue;
+        };
+        accepted += 1;
+        let same = public
+            .existing_acceptance(trader_id, material_id)
+            .map_err(|source| IngestError::Catalog {
+                what: "trader_materials",
+                name: format!("{handler_slug}/{}", a.material),
+                source,
+            })?;
+        if same != Some((true, a.conditions.clone())) {
+            if let Err(e) = public.set_acceptance(
+                trader_id,
+                material_id,
+                true,
+                &a.conditions,
+                None,
+                None,
+                &now_s,
+                &now_s,
+            ) {
+                tracing::warn!("ingestion: acceptance write failed for {handler_slug}: {e}");
+                skipped.push(format!("{} (Schreibfehler)", a.label));
             }
         }
     }
-    Ok((recorded, skipped, canaries))
+    // Contact/address enrichment (Impressum): applied on change, logged.
+    if !outcome.trader_info.is_empty() {
+        let info = &outcome.trader_info;
+        match public.set_trader_info(
+            handler_slug,
+            &info.street,
+            &info.postcode,
+            &info.city,
+            &info.phone,
+            &info.email,
+            outcome.website_alive,
+            &now_s,
+        ) {
+            Ok(changed) if !changed.is_empty() => {
+                tracing::info!(
+                    slug = handler_slug,
+                    "Kontaktdaten aktualisiert: {}",
+                    changed.join(", ")
+                );
+            }
+            Err(e) => {
+                tracing::warn!("ingestion: contact update failed for {handler_slug}: {e}");
+            }
+            Ok(_) => {}
+        }
+    }
+    // Count canaries against the last good run. Acceptance-only runs
+    // (no prices attempted, but acceptances resolved) are normal operation,
+    // not a signal: only a run yielding nothing at all trips the zero rule.
+    if recorded == 0 && accepted == 0 {
+        canaries.push(format!(
+            "0 Preise und 0 Annahmen übernommen ({} Parses, {} Skips) — Seite prüfen",
+            outcome.prices.len(),
+            skipped.len()
+        ));
+    } else if !outcome.prices.is_empty() {
+        if let Some(base) = baseline {
+            if base >= CANARY_MIN_BASELINE {
+                let base_f = base as f64;
+                if (recorded as f64) < base_f * CANARY_DROP_RATIO {
+                    canaries.push(format!(
+                        "Einbruch: {recorded} statt {base} Preisen — Seite prüfen"
+                    ));
+                } else if (recorded as f64) > base_f * CANARY_GROWTH_FACTOR {
+                    canaries.push(format!(
+                        "Explosion: {recorded} statt {base} Preisen — Duplikate prüfen"
+                    ));
+                }
+            }
+        }
+    }
+    Ok(RecordSummary { recorded, accepted, skipped, canaries })
 }
 
 /// Convert a quoted price into the catalog unit when the conversion is
@@ -459,6 +575,9 @@ mod tests {
                         valid_to: None,
                     })
                     .collect(),
+                acceptances: vec![],
+                trader_info: super::TraderInfo::default(),
+                website_alive: false,
                 skipped_labels: vec![],
                 fetch_url: "https://example.test/".to_owned(),
                 status_code: 200,
@@ -513,25 +632,25 @@ mod tests {
             })
             .expect("material");
         // Baseline run: 10 recorded, then a good step with 10 items.
-        let (n, _, w) = super::record(&public, &internal, "canary-test", &pronto().await, &now).await.expect("run1");
-        assert_eq!((n, w.len()), (10, 0), "first run: no baseline yet");
+        let r = super::record(&public, &internal, "canary-test", &pronto().await, &now).await.expect("run1");
+        assert_eq!((r.recorded, r.canaries.len()), (10, 0), "first run: no baseline yet");
         let run = internal.create_run(&now_s).expect("run");
         let step = internal.create_step(run, "canary-test", &now_s).expect("step");
         internal.finish_step(step, "ok", 10, "10 Preise übernommen", &now_s).expect("close");
         // Same volume again: quiet.
-        let (n, _, w) = super::record(&public, &internal, "canary-test", &pronto().await, &now).await.expect("run2");
-        assert_eq!((n, w.len()), (10, 0));
+        let r = super::record(&public, &internal, "canary-test", &pronto().await, &now).await.expect("run2");
+        assert_eq!((r.recorded, r.canaries.len()), (10, 0));
         // Collapse to 2: drop canary.
         let mut few = pronto().await;
         few.prices.truncate(2);
-        let (_, _, w) = super::record(&public, &internal, "canary-test", &few, &now).await.expect("run3");
-        assert_eq!(w.len(), 1);
-        assert!(w[0].contains("Einbruch"), "{w:?}");
+        let r = super::record(&public, &internal, "canary-test", &few, &now).await.expect("run3");
+        assert_eq!(r.canaries.len(), 1);
+        assert!(r.canaries[0].contains("Einbruch"), "{:?}", r.canaries);
         // One price explodes 10x: jump canary, data still recorded.
         let mut jump = pronto().await;
         jump.prices[0].price = 98.0;
-        let (n, _, w) = super::record(&public, &internal, "canary-test", &jump, &now).await.expect("run4");
-        assert_eq!(n, 10);
-        assert!(w.iter().any(|c| c.contains("Preissprung")), "{w:?}");
+        let r = super::record(&public, &internal, "canary-test", &jump, &now).await.expect("run4");
+        assert_eq!(r.recorded, 10);
+        assert!(r.canaries.iter().any(|c| c.contains("Preissprung")), "{:?}", r.canaries);
     }
 }
