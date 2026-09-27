@@ -69,6 +69,39 @@ Designed for AI agents, superfast queries, and future growth:
 - Every table carries `extra_json` headroom plus full timestamps, so the
   schema grows by adding columns, never by breaking old ones.
 
+## Trader seed: from research to database
+
+The `recherche/*.md` reports are the human-readable source; the database
+is seeded from versioned JSON derived from them:
+
+- `seed/traders/<state>.json` — one entry per trader (slug, name,
+  trader_type, city, state, website, status, notes, provenance).
+  Slugs (`<state>-<city>-<name>`) are derived once and never hand-edited,
+  so re-imports update instead of duplicating.
+- `tools/md2seed.py` — the converter (tables + prose register clusters).
+  Re-runnable: `python3 tools/md2seed.py`.
+- `crates/ingestion/src/seed_traders.rs` — parses/validates the embedded
+  JSON and upserts it on every ingestion run. Unchanged rows are skipped
+  via a payload hash in `extra_json.seed_hash`, so `updated_at` keeps
+  meaning "last real change" and `first_seen_at` survives.
+- `cargo test` validates the whole corpus (unique slugs, enum values,
+  state codes, URL shapes, idempotency) — the CI gate for seed changes.
+
+## Keeping the data fresh
+
+1. **Seed updates (quarterly):** re-audit agents edit the JSON directly
+   (or the md reports + re-convert), `cargo test` must pass, merge →
+   rebuild/redeploy → the boot seed applies the diff automatically.
+   The seed never deletes: closures arrive as `status: geschlossen`.
+2. **Continuous (between audits):** trader-website monitoring by the
+   ingestion scrapers (next milestone — refreshes `updated_at`, records
+   price observations, flags dead sites), `schrott_feedback` user
+   reports, and manual PRs for corrections.
+3. **Review flags:** `status: pruefung` (~1.000 rows) marks entries whose
+   buying status still needs a phone/website check; `origin: prose`
+   marks heuristic register-cluster parses. Both are queryable and
+   shrink with every review pass.
+
 ## Why SQLite and not Postgres?
 
 Single node, zero operations, backups are file copies, and the read/write

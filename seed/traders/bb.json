@@ -1,0 +1,2306 @@
+[
+ {
+  "slug": "bb-cottbus-emv-eisen-und-metallverwertungs-schrotti",
+  "name": "EMV Eisen- und Metallverwertungs GmbH („Schrotti aus Cottbus“)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Cottbus",
+  "state": "BB",
+  "website": "https://www.emv-cottbus.de/",
+  "status": "aktiv",
+  "notes": "Schrotthandel, NE-Metalle, Kabelrecycling, Containerdienst, Abholung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-cottbus-wetzel-u-g-schrotthandel-altmetall-und-r",
+  "name": "Wetzel U.G. Schrotthandel (Altmetall- und Rohstoffhof)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Cottbus",
+  "state": "BB",
+  "website": "http://www.schrottwetzel.de",
+  "status": "aktiv",
+  "notes": "Altmetall/Rohstoffhof, Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-drebkau-wetzel-u-g-schrotthandel-filiale",
+  "name": "Wetzel U.G. Schrotthandel (Filiale)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Drebkau",
+  "state": "BB",
+  "website": "http://www.schrottwetzel.de",
+  "status": "aktiv",
+  "notes": "Altmetall/Rohstoffhof, Schrott | (Filiale)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-cottbus-sumuth-hans-joachim-schrotthandel-und-co",
+  "name": "Süßmuth Hans-Joachim Schrotthandel und Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Cottbus",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel + Containerdienst",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-cottbus-eko-schrottrecycling-scholz-gruppe",
+  "name": "EKO Schrottrecycling GmbH (Scholz-Gruppe)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Cottbus",
+  "state": "BB",
+  "website": "https://www.scholz-recycling.com/standort/eko-schrottrecycling-gmbh-cottbus/",
+  "status": "aktiv",
+  "notes": "Stahlschrott, NE-Metalle, Selbstanlieferer + Industrie",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-cottbus-mobiler-schrotthandel-cottbus-mobschrott",
+  "name": "Mobiler Schrotthandel Cottbus (mobschrott.de)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Cottbus",
+  "state": "BB",
+  "website": "http://mobschrott.de",
+  "status": "aktiv",
+  "notes": "mobiler Ankauf, sofort Bezahlung vor Ort",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-cottbus-hanschke-enrico-containerdienst",
+  "name": "Hanschke Enrico Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Cottbus",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container, Schrott, Baustoffe",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-drebkau-schrott-altmetall-drebkau",
+  "name": "Schrott-Altmetall Drebkau GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Drebkau",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-peitz-besse-udo-schrotthandel",
+  "name": "Besse Udo Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Peitz",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-forst-waizenhofer-ralf-schrotthandel",
+  "name": "Waizenhöfer Ralf Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Forst",
+  "state": "BB",
+  "website": "https://www.schrotthandel-forst.de/",
+  "status": "aktiv",
+  "notes": "Schrotthandel, Container, Abriss/Entkernung, Abholung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-senftenberg-srf-zweigstelle-senftenberg-schrottrecyc",
+  "name": "SRF Zweigstelle Senftenberg Schrottrecycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Senftenberg",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottrecycling",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-brandenburg-an-der-havel-tsr-deutschland",
+  "name": "TSR Deutschland GmbH & Co. KG",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Brandenburg an der Havel",
+  "state": "BB",
+  "website": "https://www.tsr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Fe-/NE-Metalle, Containerdienst, Verwertung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-brandenburg-an-der-havel-heiko-kluge-schrotthandel",
+  "name": "Heiko Kluge Schrotthandel",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Brandenburg an der Havel",
+  "state": "BB",
+  "website": "https://www.kluge-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Buntmetallankauf, Containerdienst, Demontage",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-brandenburg-an-der-havel-mc-schrott-annahmestelle",
+  "name": "MC Schrott (Annahmestelle)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Brandenburg an der Havel",
+  "state": "BB",
+  "website": "https://www.mcschrott.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Buntmetallankauf mit Preisliste, Abholung, Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-rathenow-mc-schrott-annahmestelle",
+  "name": "MC Schrott (Annahmestelle)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rathenow",
+  "state": "BB",
+  "website": "https://www.mcschrott.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Buntmetallankauf mit Preisliste",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-nauen-mc-schrott-annahmestelle",
+  "name": "MC Schrott (Annahmestelle)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nauen",
+  "state": "BB",
+  "website": "https://www.mcschrott.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Buntmetallankauf mit Preisliste",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-kloster-lehnin-ot-reckahn-mc-schrott-annahmestelle",
+  "name": "MC Schrott (Annahmestelle)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kloster Lehnin OT Reckahn",
+  "state": "BB",
+  "website": "https://www.mcschrott.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Buntmetallankauf mit Preisliste",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-werder-ot-plotzin-mc-schrott-annahmestelle",
+  "name": "MC Schrott (Annahmestelle)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Werder OT Plötzin",
+  "state": "BB",
+  "website": "https://www.mcschrott.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Buntmetallankauf mit Preisliste",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-premnitz-ot-doberitz-alba-metall-nord-betriebsstatte-doberitz",
+  "name": "ALBA Metall Nord GmbH (Betriebsstätte Döberitz)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Premnitz OT Döberitz",
+  "state": "BB",
+  "website": "https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-doeberitz/",
+  "status": "aktiv",
+  "notes": "Stahl-/Metallschrott, auch Kleinstmengen gegen Entgelt, Hafen, Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-potsdam-hrr-stahlschrott-und-metallrecycling",
+  "name": "HRR Stahlschrott- und Metallrecycling GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Potsdam",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Stahlschrott-/Metallrecycling",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-potsdam-vhz-schrott-verwertung-handelszentrum",
+  "name": "VHZ Schrott Verwertung & Handelszentrum GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Potsdam",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-potsdam-kulisch-co-fahrzeug-handels-und-verwertu",
+  "name": "Kulisch & Co. Fahrzeug-Handels- und Verwertungs GmbH / KRP Kabel Recycling Potsdam",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Potsdam",
+  "state": "BB",
+  "website": "https://www.kulischundco.de/",
+  "status": "aktiv",
+  "notes": "Autoverwertung, Kabelrecycling, Elektronikschrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "Autoverwertung – Ankauf ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-potsdam-klawes-rainer",
+  "name": "Klawes Rainer",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Potsdam",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-grobeeren-randolf-schmidt-altmetallhandel-schmidt",
+  "name": "Randolf Schmidt Altmetallhandel Schmidt",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Großbeeren",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottplatz/Altmetall",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-stahnsdorf-gambert",
+  "name": "Gambert GmbH",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Stahnsdorf",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Containerdienste, Schrott (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-falkensee-d-a-s-recycling-samir-feratovic",
+  "name": "D.A.S. Recycling (Samir Feratovic)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Falkensee",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallankauf",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-oranienburg-grunske-metall-recycling",
+  "name": "Grunske Metall-Recycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oranienburg",
+  "state": "BB",
+  "website": "https://www.grunske.net/abfall-entsorgen/schrott-und-metalle/",
+  "status": "aktiv",
+  "notes": "Schrott-/Buntmetallankauf ab 1 kg, Aufbereitung, Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-oranienburg-sero-oberhavel",
+  "name": "SERO Oberhavel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oranienburg",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-oranienburg-birko-andreas-kleintransporte-und-schrot",
+  "name": "Birko Andreas Kleintransporte und Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oranienburg",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Transporte/Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-markisch-linden-bmr-metall-und-kabelrecycling-nl-kranzli",
+  "name": "BMR Metall- und Kabelrecycling GmbH (NL Kränzlin)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Märkisch Linden",
+  "state": "BB",
+  "website": "https://bmr-toepchin.net/",
+  "status": "aktiv",
+  "notes": "NE-Metalle, FE-Schrott, Kabelaufbereitung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja (Spezial Kabel/NE)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-neuruppin-tsr-deutschland",
+  "name": "TSR Deutschland GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neuruppin",
+  "state": "BB",
+  "website": "https://www.tsr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Fe-/NE-Metalle, Container, Demontage",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-schorfheide-tsr-deutschland",
+  "name": "TSR Deutschland GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schorfheide",
+  "state": "BB",
+  "website": "https://www.tsr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Fe-/NE-Metalle, Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-schorfheide-stimmel-thilo",
+  "name": "Stimmel Thilo",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schorfheide",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container/Schrott/Transporte/Kabel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-schwedt-oder-weckwerth-metalle-autoverwertung-abschle",
+  "name": "Weckwerth-Metalle & Autoverwertung & Abschleppdienst GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Schwedt/Oder",
+  "state": "BB",
+  "website": "https://weckwerth-schrott.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel, Autoverwertung, Abbruch, Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "Autoverwertung – Ankauf ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-angermunde-weckwerth-filiale",
+  "name": "Weckwerth GmbH (Filiale)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Angermünde",
+  "state": "BB",
+  "website": "https://weckwerth-schrott.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel | (Filiale)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-templin-benzin-paul-schrotthandel",
+  "name": "Benzin Paul Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Templin",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-gramzow-gramet-schrott-u-metallhandel",
+  "name": "Gramet Schrott- u. Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gramzow",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-nordwestuckermark-reinert-bunt-und-altmetallhandel",
+  "name": "Reinert Bunt- und Altmetallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nordwestuckermark",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Bunt-/Altmetall",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-eisenhuttenstadt-theo-steil-schrott-und-metallgrohandel",
+  "name": "Theo Steil GmbH Schrott- und Metallgroßhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eisenhüttenstadt",
+  "state": "BB",
+  "website": "https://www.steil.de/standorte-kontakt/eisenhuettenstadt",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandel, Entsorgung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-wiesenau-kruger-metallhandel",
+  "name": "Krüger Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesenau",
+  "state": "BB",
+  "website": "https://krueger-metallhandel.de/",
+  "status": "aktiv",
+  "notes": "Metallankauf zu Tagespreisen, Container, Abbruch/Demontage",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-eisenhuttenstadt-garkisch-containerdienste-u-kompostanlag",
+  "name": "Garkisch Containerdienste u. Kompostanlage",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Eisenhüttenstadt",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Containerdienste",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-eisenhuttenstadt-arcelormittal-eisenhuttenstadt-recycling",
+  "name": "ArcelorMittal Eisenhüttenstadt Recycling",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Eisenhüttenstadt",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Werkrecycling (Stahlwerk)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "unklar (vermutlich kein Privatkunden-Ankauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-furstenwalde-spree-smr",
+  "name": "SMR GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fürstenwalde/Spree",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-furstenwalde-spree-brandenburger-schrott-verwertung-bsv-wer",
+  "name": "Brandenburger Schrott-Verwertung GmbH (BSV Wertstoff-Dealer)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fürstenwalde/Spree",
+  "state": "BB",
+  "website": "http://www.wertstoff-dealer.de",
+  "status": "aktiv",
+  "notes": "Wertstoff-/Eisenschrott-/Buntmetallankauf, Container, Abbruch",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-beeskow-ghg-wertstoffrecycling-wertstoffankauf-b",
+  "name": "GHG Wertstoffrecycling & Wertstoffankauf (BSV-Gruppe)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Beeskow",
+  "state": "BB",
+  "website": "http://www.wertstoff-dealer.de",
+  "status": "aktiv",
+  "notes": "Wertstoff-/Schrottankauf",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-letschin-bsv-wertstoffrecycling-wertstoffankauf",
+  "name": "BSV Wertstoffrecycling & Wertstoffankauf",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Letschin",
+  "state": "BB",
+  "website": "http://www.wertstoff-dealer.de",
+  "status": "aktiv",
+  "notes": "Schrottplatz/Schrottankauf",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-neulewin-oder-metalle-schrotthandel-oderbruch",
+  "name": "Oder-Metalle Schrotthandel Oderbruch",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neulewin",
+  "state": "BB",
+  "website": "http://oder-metalle.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Altmetallankauf, Tagespreise, Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-strausberg-koppe-andreas-schrottplatz-strausberg",
+  "name": "Koppe Andreas Schrottplatz Strausberg",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Strausberg",
+  "state": "BB",
+  "website": "http://www.schrottplatz-strausberg.de",
+  "status": "aktiv",
+  "notes": "Altmetall-/Schrott-/PC-Schrott-/Papierankauf",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-wandlitz-matthies-thomas-fuhrbetrieb-baustoff-sch",
+  "name": "Matthies Thomas Fuhrbetrieb/Baustoff/Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wandlitz",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel/Baustoff/Fuhrbetrieb",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-hennigsdorf-schrotthandel-uhlmann",
+  "name": "Schrotthandel Uhlmann",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hennigsdorf",
+  "state": "BB",
+  "website": "https://www.elektroschrott-berlin.de",
+  "status": "aktiv",
+  "notes": "Elektro-/IT-Schrott, Metall, Altpapier; Bargeld-Ankauf, Abholung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja (Spezial Elektro/IT)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-hennigsdorf-tsr-recycling-standort-lt-tsr-standortli",
+  "name": "TSR Recycling (Standort lt. TSR-Standortliste, Adresse nicht verifiziert)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hennigsdorf",
+  "state": "BB",
+  "website": "https://www.tsr-recycling.de/",
+  "status": "pruefung",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja (Adresse unsicher)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-groraschen-tsr-recycling-standort-lt-tsr-standortli",
+  "name": "TSR Recycling (Standort lt. TSR-Standortliste, Adresse nicht verifiziert)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Großräschen",
+  "state": "BB",
+  "website": "https://www.tsr-recycling.de/",
+  "status": "pruefung",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja (Adresse unsicher)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-konigs-wusterhausen-agentur-keil-schrotthandel",
+  "name": "Agentur Keil Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Königs Wusterhausen",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-ludwigsfelde-ka-de-schrott-und-metallhandels",
+  "name": "KA & DE Schrott- und Metallhandels GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ludwigsfelde",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-zossen-mucolef",
+  "name": "MÜCOLEF GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zossen",
+  "state": "BB",
+  "website": "https://muecolef.de/",
+  "status": "aktiv",
+  "notes": "Schrottabfuhr, Container, Abbruch, Baustoffe/Recycling",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-teltow-schrott-karola",
+  "name": "Schrott Karola",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Teltow",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-teltow-fsr-trade",
+  "name": "FSR Trade GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Teltow",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung/Recycling",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-niemegk-schrotthandel-recycling-niemegk",
+  "name": "Schrotthandel & Recycling Niemegk GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Niemegk",
+  "state": "BB",
+  "website": "https://www.schrotthandelniemegk.de/",
+  "status": "aktiv",
+  "notes": "Schrottabholung, Barzahlung, Demontage/Abriss",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-juterbog-bottcher-harald-schrotthandel",
+  "name": "Böttcher Harald Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Jüterbog",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-perleberg-interseroh-management",
+  "name": "INTERSEROH Management GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Perleberg",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Verzeichnis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Schrottankauf Brandenburg (BB) – Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-prenzlau-schrott-metallhandel-ziems-recycling",
+  "name": "Schrott- & Metallhandel ZIEMS Recycling GmbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Prenzlau",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel (schrottplatz-info-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-prenzlau-rose-christine-metallaufbereitung",
+  "name": "Rose Christine Metallaufbereitung",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Prenzlau",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallaufbereitung (schrottplatz-info-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-finsterwalde-schrott-recycling-finsterwalde",
+  "name": "Schrott-Recycling Finsterwalde GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Finsterwalde",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottrecycling; Zweigstelle Grubenstr. 100 Senftenberg = identisch mit SRF-Eintrag oben",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-finsterwalde-podtke-trans-schrott",
+  "name": "Pödtke-Trans GbR Schrott",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Finsterwalde",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Transporte (Telefonbuch + schrottplatz-info)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-schlieben-ot-wehrhain-hsr-schrotthandel-hidanovic",
+  "name": "HSR Schrotthandel Hidanovic GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schlieben OT Wehrhain",
+  "state": "BB",
+  "website": "http://www.hsr-schrotthandel.eu",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallankauf (Eisen, Kupfer, Alu, Edelstahl), Abholung, Demontage; „bares Geld\"",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-herzberg-hsr-schrotthandel-zweigstelle",
+  "name": "HSR Schrotthandel (Zweigstelle)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Herzberg",
+  "state": "BB",
+  "website": "http://www.hsr-schrotthandel.eu",
+  "status": "aktiv",
+  "notes": "Schrottankauf (Gelbe-Seiten-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-luckau-hsr-schrotthandel-filiale-lt-website",
+  "name": "HSR Schrotthandel (Filiale lt. Website)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Luckau",
+  "state": "BB",
+  "website": "http://www.hsr-schrotthandel.eu",
+  "status": "pruefung",
+  "notes": "„Schrott- und Metallankauf auch in Luckau\" (Adresse nicht verifiziert) | (Filiale lt. Website)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja (Adresse unsicher)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-elsterwerda-taubenheim-dietmar-buntmetall-u-schrotth",
+  "name": "Taubenheim Dietmar Buntmetall- u. Schrotthandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Elsterwerda",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Buntmetall-/Schrotthandel (Telefonbuch + schrottplatz-info)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-lauchhammer-schwarzenberger-kerstin-wertstoffhandel",
+  "name": "Schwarzenberger Kerstin Wertstoffhandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Lauchhammer",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Wertstoffhandel (schrottplatz-info-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-hohenleipisch-mauer-lausitzschrott",
+  "name": "Mauer Lausitzschrott",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Hohenleipisch",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (schrottplatz-info-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-groraschen-metallhandel-und-containerdienst-schrott",
+  "name": "Metallhandel und Containerdienst GmbH Schrottankauf",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Großräschen",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottankauf/Container (schrottplatz-info-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-heiligengrabe-b-wittstock-dahm-bohnsack-schrotthandel",
+  "name": "Dahm Bohnsack GbR Schrotthandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Heiligengrabe b. Wittstock",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel (schrottplatz-info-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-plattenburg-perleberger-recycling",
+  "name": "Perleberger Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Plattenburg",
+  "state": "BB",
+  "website": "https://perleberger-recycling.de/",
+  "status": "pruefung",
+  "notes": "Abriss/Erdbau/Bauschutt-Recycling (Seitenverifizierung)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "unklar (kein Altmetall-Ankauf belegt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-wittenberge-interseroh-metallaufbereitung-ost",
+  "name": "INTERSEROH Metallaufbereitung Ost GmbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Wittenberge",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallaufbereitung, eher B2B (schrottplatz-info-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-luckenwalde-interseroh-mab-ost-interseroh",
+  "name": "INTERSEROH MAB Ost GmbH / Interseroh",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Luckenwalde",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallaufbereitung, eher B2B (schrottplatz-info-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-schenkendobern-ot-pinnow-birkner-gerhard-schrotthandel",
+  "name": "Birkner Gerhard Schrotthandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Schenkendöbern OT Pinnow",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel (Telefonbuch + schrottplatz-info)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-guben-birkhold-frank-schrotthandel",
+  "name": "Birkhold Frank Schrotthandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Guben",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel (nur schrottplatz-info-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-wandlitz-ot-basdorf-krakau-horst-schrotthandel-und-container",
+  "name": "Krakau Horst Schrotthandel und Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Wandlitz OT Basdorf",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel/Container (schrottplatz-info-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-bernau-bei-berlin-containerdienst-bach",
+  "name": "Containerdienst Bach",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Bernau bei Berlin",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Containerdienst (schrottplatz-info-Beleg)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-rudersdorf-ot-herzfelde-dk-schrottplatz-herzfelde",
+  "name": "DK Schrottplatz Herzfelde",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Rüdersdorf OT Herzfelde",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottplatz (Telefonbuch-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-velten-kraatz-hartmut-fuhrbetrieb",
+  "name": "Kraatz Hartmut Fuhrbetrieb",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Velten",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Fuhrbetrieb, Branche Schrott (Telefonbuch-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-eberswalde-seik-automobilrecycling",
+  "name": "Seik Automobilrecycling",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Eberswalde",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung (schrottplatz-info-Beleg) | (Autoverwertung/Unfallfahrzeuge)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "Autoverwertung – Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-birkenwerder-mcr-autoverwertung",
+  "name": "MCR GmbH Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Birkenwerder",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung (nur schrottplatz-info-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "Autoverwertung – Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-juterbog-weiss-rolf-schrotthandel-u-transporte",
+  "name": "Weiss Rolf Schrotthandel u. Transporte",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Jüterbog",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel/Transporte (schrottplatz-info-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-beelitz-bulgrin-rene-buntmetall",
+  "name": "Bulgrin René Buntmetall",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Beelitz",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Buntmetall (schrottplatz-info-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-zossen-autoverwertung-klucke",
+  "name": "Autoverwertung Klucke",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Zossen",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung (nur schrottplatz-info-Umkreis)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 2 (Stand: 2026-09-27)",
+   "ankauf_raw": "Autoverwertung – Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-spremberg-scholz-recycling",
+  "name": "Scholz Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Spremberg",
+  "state": "BB",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandel, Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-spremberg-ne-metalle",
+  "name": "NE-Metalle GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Spremberg",
+  "state": "BB",
+  "website": "https://www.ne-metalle-gmbh.de/",
+  "status": "aktiv",
+  "notes": "NE-Metalle, Kabel, Katalysatoren, Container/Abholung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-doberlug-kirchhain-ne-metalle-filiale",
+  "name": "NE-Metalle GmbH (Filiale)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Doberlug-Kirchhain",
+  "state": "BB",
+  "website": "https://www.ne-metalle-gmbh.de/standorte",
+  "status": "pruefung",
+  "notes": "NE-Metalle | (Filiale)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja (Adresse unsicher)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-spremberg-mhm-rohstoffe-karsten-manthey",
+  "name": "MHM Rohstoffe (Karsten Manthey)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Spremberg",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetallhandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-drebkau-ot-schorbus-mobiler-schrottankauf-christian-lucia",
+  "name": "Mobiler Schrottankauf Christian Lucia",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Drebkau OT Schorbus",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "mobiler Ankauf",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-calau-ot-werchow-scholz-recycling-filiale",
+  "name": "Scholz Recycling GmbH (Filiale)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Calau OT Werchow",
+  "state": "BB",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | (Filiale)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-ruhland-scholz-recycling-filiale",
+  "name": "Scholz Recycling GmbH (Filiale)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ruhland",
+  "state": "BB",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | (Filiale)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-lauchhammer-scholz-recycling-filialen",
+  "name": "Scholz Recycling GmbH (Filialen)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lauchhammer",
+  "state": "BB",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | (Filialen)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-bahnhofstr-38-scholz-recycling-filialen",
+  "name": "Scholz Recycling GmbH (Filialen)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bahnhofstr. 38)",
+  "state": "BB",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | (Filialen)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-dubro-metallische-rohstoffe",
+  "name": "Metallische Rohstoffe",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dubro",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metall",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-schonewalde-promann-m-g-recycling",
+  "name": "Proßmann M.G. Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schönewalde",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Recycling/Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-eberswalde-theo-steil-schrott-und-metallgrohandel",
+  "name": "Theo Steil GmbH Schrott- und Metallgroßhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eberswalde",
+  "state": "BB",
+  "website": "https://www.steil.de/standorte-kontakt/eberswalde",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-perleberg-metallaufbereitung-prignitz",
+  "name": "Metallaufbereitung Prignitz GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Perleberg",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallaufbereitung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-neustadt-dahm-bohnensack-handels-und-recycling",
+  "name": "Dahm & Bohnensack Handels- und Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neustadt",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Recycling",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-premnitz-ot-mogelin-ahab-metall",
+  "name": "ahab-metall e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Premnitz OT Mögelin",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metall/Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-oranienburg-ot-friedrichstha-ernst-recycling",
+  "name": "Ernst Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oranienburg OT Friedrichsthal",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Recycling/Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-wandlitz-ot-schonerlinde-isr-itzehoer-schrott-und-recycling",
+  "name": "ISR Itzehoer Schrott und Recycling GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wandlitz OT Schönerlinde",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Recycling",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-wandlitz-ot-schonerlinde-bsb-berndt-schrott-buntmetall",
+  "name": "BSB – Berndt. Schrott. Buntmetall",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wandlitz OT Schönerlinde",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Buntmetall",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-schildow-schrottplatz-schildow",
+  "name": "Schrottplatz Schildow",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Schildow",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottplatz",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-fredersdorf-schrotthandel-hristov",
+  "name": "Schrotthandel Hristov",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fredersdorf",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-fredersdorf-ot-vogelsdorf-schrott-wetzel-filiale",
+  "name": "Schrott Wetzel GmbH (Filiale)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fredersdorf OT Vogelsdorf",
+  "state": "BB",
+  "website": "http://www.schrottwetzel.de",
+  "status": "aktiv",
+  "notes": "Altmetall/Rohstoffhof | (Filiale)",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-altlandsberg-fa-efrem-gouchev-schrottankauf",
+  "name": "Fa. Efrem Gouchev Schrottankauf",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Altlandsberg",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottankauf",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-schoneiche-hein-schrotthandel",
+  "name": "HEIN Schrotthandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schöneiche",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-hirschfeld-hofmann-metall",
+  "name": "Hofmann Metall GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hirschfeld",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metall/Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja (Adresse unsicher)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-velten-alba-metall-nord",
+  "name": "ALBA Metall Nord GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Velten",
+  "state": "BB",
+  "website": "https://metall.alba.info/",
+  "status": "aktiv",
+  "notes": "Stahl-/Metallschrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-luckenwalde-ot-kloster-zinna-alba-metall-nord",
+  "name": "ALBA Metall Nord GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Luckenwalde OT Kloster Zinna",
+  "state": "BB",
+  "website": "https://metall.alba.info/",
+  "status": "aktiv",
+  "notes": "Stahl-/Metallschrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-lubbenau-alba-metall-nord",
+  "name": "ALBA Metall Nord GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübbenau",
+  "state": "BB",
+  "website": "https://metall.alba.info/",
+  "status": "aktiv",
+  "notes": "Stahl-/Metallschrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-konigs-wusterhausen-alba-metall-nord",
+  "name": "ALBA Metall Nord GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Königs Wusterhausen",
+  "state": "BB",
+  "website": "https://metall.alba.info/",
+  "status": "aktiv",
+  "notes": "Stahl-/Metallschrott, Hafen",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-dahlwitz-hoppegarten-alba-metall-nord",
+  "name": "ALBA Metall Nord GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dahlwitz-Hoppegarten",
+  "state": "BB",
+  "website": "https://metall.alba.info/",
+  "status": "aktiv",
+  "notes": "Stahl-/Metallschrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-forst-metallrecycling-und-containerdienst-klei",
+  "name": "Metallrecycling und Containerdienst Klein (Claudia Klein)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Forst",
+  "state": "BB",
+  "website": "https://www.schrotthandel-klein.com",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Container, Autoverwertung",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-lauchhammer-ost-lausitz-recycling",
+  "name": "Lausitz Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lauchhammer-Ost",
+  "state": "BB",
+  "website": "https://www.lausitz-recycling.de",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle/Kabel, Container, Rückbau",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-liebenwalde-kmr-kabel-metall-recycling",
+  "name": "KMR Kabel-Metall-Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Liebenwalde",
+  "state": "BB",
+  "website": "https://kabel-metall-recycling.de/",
+  "status": "aktiv",
+  "notes": "Kabelzerlegung, Trafoverwertung, Schrott/Metall, E-Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja (Spezial Kabel)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-falkensee-bohnsack-schrott-container-abri",
+  "name": "Bohnsack GmbH Schrott-Container-Abriß",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Falkensee",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallrecycling, Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-zossen-axel-spitzer-schrotthandel-und-autoverwe",
+  "name": "Axel Spitzer Schrotthandel und Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Zossen",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott + Altfahrzeugannahme",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "Autoverwertung – Ankauf ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-potsdam-richter-recycling",
+  "name": "Richter Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Potsdam",
+  "state": "BB",
+  "website": "http://richter-recycling.de",
+  "status": "pruefung",
+  "notes": "Recycling/Entsorgung/Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-kolkwitz-kunersdorf-jorg-striemann-entsorgungsfachbetrieb",
+  "name": "Jörg Striemann Entsorgungsfachbetrieb",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kolkwitz-Kunersdorf",
+  "state": "BB",
+  "website": "http://www.striemann.de",
+  "status": "aktiv",
+  "notes": "Container, Abriss, Schrott",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-zehdenick-ernst-recycling-standort-zehdenick",
+  "name": "Ernst Recycling GmbH (Standort Zehdenick)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Zehdenick",
+  "state": "BB",
+  "website": "https://ernst-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott/NE-Metalle, Autorecycling, Container, öff. Waage",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja + Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-lietzen-waetrans-lietzen-ltd-schrotthandel-u-con",
+  "name": "Waetrans Lietzen Ltd. Schrotthandel u. Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Lietzen",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel/Container",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-frankfurt-veolia-umweltservice-nord-ost",
+  "name": "Veolia Umweltservice Nord-Ost GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt",
+  "state": "BB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgungsfachbetrieb",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-lichtenow-pietsch-andre-schrottannahme",
+  "name": "Pietsch André Schrottannahme",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lichtenow",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-forst-abbrucharbeiten-containerdienst-und-schr",
+  "name": "„Abbrucharbeiten Containerdienst und Schrotthandel“",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Forst",
+  "state": "BB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel/Container/Abbruch",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja (Duplikatverdacht)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-eisenhuttenstadt-alba-wriezen",
+  "name": "ALBA Wriezen GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eisenhüttenstadt",
+  "state": "BB",
+  "website": "https://metall.alba.info/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Audit-Runde 4 (Stand: 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ }
+]

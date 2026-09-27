@@ -7,9 +7,11 @@
 
 pub mod pipeline;
 pub mod scrapers;
+pub mod seed_traders;
 
 pub use pipeline::{run_once, seed_metadata, spawn_scheduler, IngestSummary};
 pub use scrapers::scrape_all;
+pub use seed_traders::{load_seeds, seed_traders, validate_seeds};
 
 /// Every way ingestion can fail. Carries the scraper and URL for context
 /// instead of pre-formatted strings, so callers decide how to render.

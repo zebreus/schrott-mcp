@@ -1,0 +1,1424 @@
+[
+ {
+  "slug": "rp-mainz-mombach-h-l-r-rohstoffhandel",
+  "name": "H.L.R. Rohstoffhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mainz-Mombach",
+  "state": "RP",
+  "website": "https://www.hlr-rohstoffhandel.de",
+  "status": "aktiv",
+  "notes": "FE-/NE-Schrott, Buntmetalle, Kabel, Kata, Container, Demontage",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-mainz-gonsenheim-mainzer-kubeldienst-christ",
+  "name": "Mainzer Kübeldienst Christ",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Mainz-Gonsenheim",
+  "state": "RP",
+  "website": "https://kuebeldienst-christ.de/schrotthandel",
+  "status": "aktiv",
+  "notes": "Stahl, Guss, Alu, Messing, Kupfer, Kabel, Zinn; Containerdienst",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-heidesheim-taurus-entsorgungs",
+  "name": "Taurus Entsorgungs GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heidesheim",
+  "state": "RP",
+  "website": "https://taurus-gmbh.de",
+  "status": "aktiv",
+  "notes": "Schrott, Altmetall-Ankauf zu Tageshöchstpreisen, Container",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-bingen-e-o-entsorgung",
+  "name": "E&O Entsorgung GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bingen",
+  "state": "RP",
+  "website": "https://eo-entsorgung.de/schrott-metalle",
+  "status": "aktiv",
+  "notes": "Alu, Kupfer, Messing, Kabel, Edelstahl, E-Schrott; Mindestmengen!",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-worms-fa-rohstoffrecycling-herbert-fa",
+  "name": "Faß Rohstoffrecycling (Herbert Faß)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Worms",
+  "state": "RP",
+  "website": "https://fass-rohstoffrecycling.de/",
+  "status": "aktiv",
+  "notes": "Eisen, Guss, V2A, Alu, Kupfer, Messing, Blei, Zink, Zinn, Altauto",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-worms-nalu-metall-und-recycling",
+  "name": "Nalu Metall und Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Worms",
+  "state": "RP",
+  "website": "https://nalu-schrott.de/",
+  "status": "aktiv",
+  "notes": "Alt-/Eisen-/NE-/Buntmetalle, Container, Barzahlung",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-worms-schrotthandel-winter-edmund-winter",
+  "name": "Schrotthandel Winter (Edmund Winter)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Worms",
+  "state": "RP",
+  "website": "https://www.schrotthandelwinter.de/",
+  "status": "aktiv",
+  "notes": "Recycling, Demontage, Rückbau, Kran, Haushaltsauflösung",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-worms-schrotthandel-michel-baumgartner",
+  "name": "Schrotthandel Michél Baumgärtner",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Worms",
+  "state": "RP",
+  "website": "https://www.schrott-metallhandel-worms.de/",
+  "status": "pruefung",
+  "notes": "Schrott/Metall, Autoverwertung (gratis), Container, Krandienst",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-worms-velte-rohstoffhandel",
+  "name": "Velte Rohstoffhandel GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Worms",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Zugelassen: Lagern/Behandeln von Kupfer, Alu, Eisen, Kabel (Register)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-florsheim-dalsheim-schrott-metallhandel-doring",
+  "name": "Schrott- & Metallhandel Döring GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Flörsheim-Dalsheim",
+  "state": "RP",
+  "website": "https://schrott-metallhandel-doering.de/",
+  "status": "aktiv",
+  "notes": "Kupfer, Messing, Alu, VA, Kabel, Hartmetall, Katalysatoren (Preisliste)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-wendelsheim-rudolf-s-schrotthandel-r-heinen",
+  "name": "Rudolf's Schrotthandel (R. Heinen)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wendelsheim",
+  "state": "RP",
+  "website": "https://rudolfs-schrotthandel.hpage.com/",
+  "status": "aktiv",
+  "notes": "Altmetalle, Alteisen, Altfahrzeuge; mobil Rheinhessen/Nahe",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-worms-tms-metall-schrott-kleinanzeigen-profi",
+  "name": "TMS Metall Schrott (Kleinanzeigen-Profi)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Worms",
+  "state": "RP",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kupfer, Messing, Zink, Zinn, Alu, Kabel; Barzahlung, mobil",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-ludwigshafen-mkm-metals",
+  "name": "MKM Metals e.K.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ludwigshafen",
+  "state": "RP",
+  "website": "https://mkm-metals.de",
+  "status": "aktiv",
+  "notes": "NE-Metalle, Kupfer, Messing, Alu, Edelstahl, Hartmetall; Online-Ankauf/Versand",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-ludwigshafen-gunther-schmelzer-rec-metal",
+  "name": "Günther Schmelzer GmbH (REC-METAL)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ludwigshafen",
+  "state": "RP",
+  "website": "https://www.rec-metal.de",
+  "status": "aktiv",
+  "notes": "FE-/NE-Recycling, Elektronikschrott, Kabelshredder",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-ludwigshafen-maudach-s-l-a-altmetall-schrotthandel",
+  "name": "S.L.A Altmetall & Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ludwigshafen-Maudach",
+  "state": "RP",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetall-Annahmestelle",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-ludwigshafen-theo-steil-nl-ludwigshafen",
+  "name": "Theo Steil GmbH (NL Ludwigshafen)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ludwigshafen",
+  "state": "RP",
+  "website": "https://www.steil.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandel, v.a. Gewerbe/Industrie",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-westheim-rohstoffe-trapp",
+  "name": "Rohstoffe Trapp",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Westheim",
+  "state": "RP",
+  "website": "https://rohstoffe-trapp.de",
+  "status": "aktiv",
+  "notes": "Mobil: Mischschrott, NE, Kabel, Maschinen, Altauto mit VN; 80-km-Radius",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-germersheim-hoffmann-schrott-metallhandel",
+  "name": "Hoffmann Schrott & Metallhandel e.K.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Germersheim",
+  "state": "RP",
+  "website": "https://www.hoffmann-schrott.de/",
+  "status": "aktiv",
+  "notes": "Stahl/Edelstahl/Alu/Kupfer/NE, 30.000 m², BDSV-Mitglied",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-landau-i-d-pfalz-klotz-rohstoffe",
+  "name": "Klotz Rohstoffe GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Landau i.d. Pfalz",
+  "state": "RP",
+  "website": "https://klotz-rohstoffe.de/",
+  "status": "aktiv",
+  "notes": "Metall-Recycling, Container, Demontage, Papier/Holz/Glas",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-rohrbach-sudpfalz-metall",
+  "name": "Südpfalz Metall GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rohrbach",
+  "state": "RP",
+  "website": "https://suedpfalzmetall-gmbh.de/",
+  "status": "aktiv",
+  "notes": "Altmetalle, Mischschrott, Kupfer, Messing, Kabel, Zinkblech",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-rohrbach-metall-recycling-braun",
+  "name": "Metall Recycling Braun",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rohrbach",
+  "state": "RP",
+  "website": "https://www.mr-braun.de/",
+  "status": "aktiv",
+  "notes": "Kupfer, Alu, Edelstahl, Messing, Kabel, Mischschrott; Südpfalz-mobil",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-zweibrucken-becker-maurer-jakob-becker-gruppe",
+  "name": "Becker & Maurer (Jakob-Becker-Gruppe)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zweibrücken",
+  "state": "RP",
+  "website": "https://www.becker-maurer.de",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Schrottschere, Kabelgranulierung, Container",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-zweibrucken-david-morasch-abbruch-und-metallhandel",
+  "name": "David Morasch Abbruch und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zweibrücken",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Abbruch/Metallhandel (nur Branchenverzeichnis)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-kindsbach-w-s-h-westpfalzische-schrotthandel",
+  "name": "W-S-H Westpfälzische Schrotthandel GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Kindsbach",
+  "state": "RP",
+  "website": "https://wsh-recycling.de",
+  "status": "aktiv",
+  "notes": "Schrott aller Art, E-Schrott, Autoverwertung, Container; 60 Jahre",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-kaiserslautern-schrotthandel-wei-jeremy-wei",
+  "name": "Schrotthandel Weiß (Jeremy Weiß)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Kaiserslautern",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallrecycling/Schrottplatz Königsau",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-mehlingen-jakob-becker-entsorgungs",
+  "name": "Jakob Becker Entsorgungs-GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mehlingen",
+  "state": "RP",
+  "website": "https://jakob-becker.de/",
+  "status": "pruefung",
+  "notes": "General-Entsorger (Container, E-Schrott-Aufbereitung WKR); Schrottankauf nicht belegt",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-bad-kreuznach-geiss-metall",
+  "name": "Geiss Metall GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Kreuznach",
+  "state": "RP",
+  "website": "https://geiss-metall.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Metall-/Autoverwertung, Container, Entsorgungsfachbetrieb",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-bad-kreuznach-weinand-entsorgung-recycling",
+  "name": "Weinand Entsorgung / Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Kreuznach",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung/Recycling, Container, Schrott (Branchenverzeichnis)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-urzig-jorg-schmitz-schrotthandel-industrieabbr",
+  "name": "Jörg Schmitz Schrotthandel/Industrieabbruch",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ürzig",
+  "state": "RP",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel + Industrieabbruch (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-wittlich-mg-recycling-maugeri",
+  "name": "MG Recycling (Maugeri)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wittlich",
+  "state": "RP",
+  "website": "https://schrottankauf-wittlich.de",
+  "status": "aktiv",
+  "notes": "Eisen/Stahl, Buntmetalle, Kabel, Hartmetall; mobil Trier–Koblenz–Lux.",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-trier-theo-steil-stammhaus",
+  "name": "Theo Steil GmbH (Stammhaus)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Trier",
+  "state": "RP",
+  "website": "https://www.steil.de",
+  "status": "aktiv",
+  "notes": "FE-/NE-Großhandel, Shredder/Kondirator, 23 Standorte",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-trier-pfalzel-sascha-kaiser-schrott-metallhandel",
+  "name": "Sascha Kaiser Schrott-/Metallhandel",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Trier-Pfalzel",
+  "state": "RP",
+  "website": "http://www.schrotthandel-kaiser-trier.de",
+  "status": "pruefung",
+  "notes": "Abholung, Container, Demontage, KFZ-Entsorgung; Trier–Eifel–Hunsrück",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-trier-welsch-kochann-hutmacher-frankreiter",
+  "name": "Welsch / Kochann / Hutmacher / Frankreiter",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Trier",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleine Trierer Händler (nur Gelbe Seiten/Örtliche)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-bitburg-steil-entsorgung-betrieb-bitburg",
+  "name": "Steil Entsorgung / Betrieb Bitburg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bitburg",
+  "state": "RP",
+  "website": "https://www.steil.de",
+  "status": "aktiv",
+  "notes": "Sammeln/Lagern/Behandeln (Register); über Gruppe",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-bitburg-adams-entsorgung",
+  "name": "Adams Entsorgung GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bitburg",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Sammeln/Befördern/Handeln (Register)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-koblenz-horchheim-schrott-metallhandel-ncm",
+  "name": "Schrott- & Metallhandel NCM",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Koblenz-Horchheim",
+  "state": "RP",
+  "website": "https://schrotthandel-ncm.de",
+  "status": "aktiv",
+  "notes": "FE/NE, Kabel, CNC-Späne, Sonderlegierungen (Titan, Hartmetall), Container",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-koblenz-pms-schrotthandel",
+  "name": "PMS Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Koblenz",
+  "state": "RP",
+  "website": "https://www.pms-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Buntmetalle, Kabel, E-Motoren, Kata; Container, Demontage; Eifel–Westerwald",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-koblenz-heinen-altmetalle",
+  "name": "Heinen Altmetalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Koblenz",
+  "state": "RP",
+  "website": "https://schrotthandel-heinen.de",
+  "status": "aktiv",
+  "notes": "Altmetall, Kabel, E-Motoren; Familienbetrieb, Selbstanlieferung",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-koblenz-lutzel-koblenzer-schrotthandel",
+  "name": "Koblenzer Schrotthandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Koblenz-Lützel",
+  "state": "RP",
+  "website": "https://www.koblenzer-schrotthandel.de",
+  "status": "aktiv",
+  "notes": "Schrottplatz, Tageshöchstpreise, geeichte Waage",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-bassenheim-rwr-recycling",
+  "name": "RWR Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bassenheim",
+  "state": "RP",
+  "website": "https://rwr-recycling.de/metallhandel",
+  "status": "aktiv",
+  "notes": "NE-/Edel-/Sondermetalle, Platinen/E-Schrott, Kata, Demontage",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-koblenz-tsr-recycling-nl-koblenz",
+  "name": "TSR Recycling (NL Koblenz)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Koblenz",
+  "state": "RP",
+  "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-koblenz",
+  "status": "aktiv",
+  "notes": "FE/NE, Kabel, Demontage; Großkette (REMONDIS)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-neuwied-block-keusch-schrott-metallhandel",
+  "name": "Keusch Schrott- & Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neuwied-Block",
+  "state": "RP",
+  "website": "https://keusch-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Ankauf, Container, Entrümpelung, Abholung; Tagespreis per Telefon",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-altenkirchen-rudolf-rohrig-nachf-rohrig-recycling",
+  "name": "Rudolf Röhrig Nachf. (Röhrig Recycling)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Altenkirchen",
+  "state": "RP",
+  "website": "https://www.roehrig-ak.de/",
+  "status": "aktiv",
+  "notes": "Entsorgung + Rohstoffhandel FE/NE (100+ Jahre)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-mendig-marquart-schrott-u-metallhandel",
+  "name": "Marquart Schrott- u. Metallhandel e.K.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mendig",
+  "state": "RP",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetalle, Kupfer, Messing, Kabel, Container (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-mayen-sk-schrotthandel-serviceleistungen",
+  "name": "SK Schrotthandel & Serviceleistungen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mayen",
+  "state": "RP",
+  "website": "http://www.sk-serviceleistungen.info/UEBER-UNS",
+  "status": "pruefung",
+  "notes": "Schrott-/Altmetallabholung, Entrümpelung (gegr. 2024)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-mulheim-karlich-koblenz-r-s-recycling-swr-recycling-kleinanzeige",
+  "name": "R&S Recycling / SWR Recycling (Kleinanzeigen)",
+  "trader_type": "mobil",
+  "street": "",
+  "postcode": "",
+  "city": "Mülheim-Kärlich / Koblenz",
+  "state": "RP",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kupfer-/Kabelankauf, mobil, Barzahlung",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-worms-mainz-mohr-schrotthandel-mobil",
+  "name": "MOHR Schrotthandel (mobil)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Worms/Mainz",
+  "state": "RP",
+  "website": "https://www.schrott-mohr.de/schrottabholung/worms",
+  "status": "aktiv",
+  "notes": "Mobile Abholung + Ankauf, Container, Demontage",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-landau-autoverwertung-demand-recycling",
+  "name": "Autoverwertung Demand-Recycling",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Landau",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altauto-Annahme, zert. Demontagebetrieb (seit 1975) — FLAG: nur Altautos",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Nur Altauto",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-pirmasens-sekoll-stumper-altautoverwertung",
+  "name": "Sekoll / Stümper Altautoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Pirmasens",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Anerk. Altauto-Demontagebetriebe (Register) — FLAG: nur Altautos",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Schrottankauf Rheinland-Pfalz (RP) — Recherche",
+   "ankauf_raw": "Nur Altauto",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-kastellaun-fs-wertstoffe-frank-scherer",
+  "name": "FS – Wertstoffe (Frank Scherer)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kastellaun",
+  "state": "RP",
+  "website": "https://fs-wertstoffe.de",
+  "status": "aktiv",
+  "notes": "Efb; Metalle (Alu, Kupfer, Messing, Rotguss, V2A, Zink, Blei, Mischschrott), Container, Demontage; \"Schrott/Buntmetalle zu Tageshöchstpreisen\"",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-idar-oberstein-mattana-entsorgung",
+  "name": "Mattana Entsorgung e.K.",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Idar-Oberstein",
+  "state": "RP",
+  "website": "http://www.mattana.de",
+  "status": "pruefung",
+  "notes": "Schrott- und Metallhandel + Containerdienst, Efb, 60+ Jahre; \"zu fairen Preisen\", ohne Tagespreis-Beleg",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-neustadt-a-d-weinstrae-fs-metallhandel",
+  "name": "FS Metallhandel GmbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Neustadt a.d. Weinstraße",
+  "state": "RP",
+  "website": "http://www.fs-schrott.com",
+  "status": "pruefung",
+  "notes": "Schrottplatz, Metallabfälle/Batterien; GS-Leistung \"Ankauf von Schrott u. Metalle\", Website ohne Preis-Beleg",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-neustadt-s-ohlinger-steel-men",
+  "name": "S. Ohlinger / Steel-Men GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neustadt",
+  "state": "RP",
+  "website": "http://www.ohlinger-neustadt.de",
+  "status": "pruefung",
+  "notes": "Entrümpelung, Industrie-Demontage, Alteisen/Altmetalle (GS: \"Ankauf\"); Standorte Neustadt, Haßloch, Bad Dürkheim, Landau, Speyer, KL",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-billigheim-ingenheim-s-ohlinger-steel-men",
+  "name": "S. Ohlinger / Steel-Men GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Billigheim-Ingenheim",
+  "state": "RP",
+  "website": "http://www.ohlinger-neustadt.de",
+  "status": "pruefung",
+  "notes": "Entrümpelung, Industrie-Demontage, Alteisen/Altmetalle (GS: \"Ankauf\"); Standorte Neustadt, Haßloch, Bad Dürkheim, Landau, Speyer, KL",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-simmertal-weisi-schrott-recycling",
+  "name": "Weisi Schrott-Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Simmertal",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "ehem. Weinand-Sammelstelle, selbständig; lt. weinand.de \"derzeit keine Materialannahme\"",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-hanhofen-lehr-martin-schrotthandel-u-containerdie",
+  "name": "Lehr Martin Schrotthandel u. Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Hanhofen",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel + Container (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-hanhofen-romerberg-hanhofen-romerberg-cluster-zebe-rohstoff",
+  "name": "Hanhofen/Römerberg-Cluster (ZEBE Rohstoffhandel; Wagner R.+B.; Kreischer J.; Lehr T.+M./I.+R.; Wagner P.+S.)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanhofen / Römerberg",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Mehrere Kleinhändler Schrott-/Metallhandel (nur Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-landau-offenbach-landau-kleinsthandler-cadorin-j-m-mc-bod",
+  "name": "Landau Kleinsthändler (Cadorin J./M., MC, Bodenstein, Engel A./R., Benkler, Koch M.+E., Durmaz)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Landau / Offenbach",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-Branche (nur Gelbe Seiten), ergänzen Klotz/Demand/Braun vor Ort",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-neustadt-haloch-neidenfels-neustadt-umland-schafer-schrott-broll-kl",
+  "name": "Neustadt-Umland (Schäfer Schrott; Broll Klaus Schrott-/Metallhandel Haßloch; Ohlinger Lorenz Neidenfels; Knepflas Recycling; Meyer Sascha)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neustadt / Haßloch / Neidenfels",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-Branche (nur Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-strohn-mullenbach-buchel-eifel-daun-cochem-heinen-hans-peter-stro",
+  "name": "Eifel Daun/Cochem (Heinen Hans Peter Strohn; Daun Alois / REDA-Schrottdienst Müllenbach; Stenzhorn Karl Büchel)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Strohn / Müllenbach / Büchel",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (nur Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-prum-dechmann-peter-schrott-und-metallhandel",
+  "name": "Dechmann Peter Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Prüm",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallhandel (nur Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-alsdorf-schilling-tim",
+  "name": "Schilling Tim",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Alsdorf",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-Branche, GS-Leistung nur \"Autoentsorgung\"",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-dennweiler-frohnbach-schafer-heike-container-service-schrotth",
+  "name": "Schäfer Heike Container-Service, Schrotthandel, Abriss/Demontage",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dennweiler-Frohnbach",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel + Container/Abriss (nur Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-frankenthal-sd-schrott-und-metallhandel",
+  "name": "SD Schrott- und Metallhandel GmbH & Co. KG",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Frankenthal",
+  "state": "RP",
+  "website": "https://www.sd-schrott.com/",
+  "status": "aktiv",
+  "notes": "Schrottankauf (\"faire Preise\"), Metallrecycling, Containerdienst, Industriedemontage",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-altenglan-muhlbach-hess-michael-schrotthandel",
+  "name": "Hess Michael Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Altenglan-Mühlbach",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Potzbergstr. 1",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-schonenberg-kubelberg-m-r-schrott-entsorgungs-handel",
+  "name": "M.R. Schrott Entsorgungs Handel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schönenberg-Kübelberg",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Bahnhofstr. 66",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-landstuhl-s-t-janek-schrotthandel",
+  "name": "S&T Janek Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Landstuhl",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Barbarossastr. 12A",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-landstuhl-firma-peter-hoschele",
+  "name": "Firma Peter Höschele",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Landstuhl",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott, Kolpingstr. 37",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-mackenbach-hoschele-h-schrotthandel",
+  "name": "Höschele H. Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mackenbach",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Kindsbacher Str. 30",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-hutschenhausen-maue-klaus-schrotthandel",
+  "name": "Maue Klaus Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hütschenhausen",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Hauptstr. 153A",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-zweibrucken-berger-marco-alteisenhandel",
+  "name": "Berger Marco Alteisenhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zweibrücken",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alteisenhandel/Schrott",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-marnheim-gk-schrotthandel-gazi-vulpes",
+  "name": "GK Schrotthandel (Gazi Vulpes)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marnheim",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel/Entrümpelung (schwacher Beleg)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-tiefenthal-gotz-altwaren-metalle-demontage-team-bod",
+  "name": "Götz Altwaren Metalle (Demontage-Team, Bodo Götz)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Tiefenthal",
+  "state": "RP",
+  "website": "https://www.demontage-team.de/",
+  "status": "pruefung",
+  "notes": "Metallrecycling, Industriedemontage, Container; 30+ Jahre, Einzugsgebiet KH–MZ–KL–KO; kein Preis-Beleg",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026, FINAL)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-germersheim-rkb-rohstoff-kontor-braun",
+  "name": "RKB Rohstoff-Kontor Braun GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Germersheim",
+  "state": "RP",
+  "website": "http://www.rohstoffkontor-braun.com",
+  "status": "aktiv",
+  "notes": "\"An- und Verkauf aller handelsüblichen Metall-/Schrottsorten zu tagesaktuellen Preisen\", 15+ Metallsorten, Efb; Schwesterfirma zu Nr. 21",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026, FINAL)",
+   "ankauf_raw": "Ankauf Ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-mulheim-a-d-mosel-becker-stefan-altmetallhandel",
+  "name": "Becker Stefan Altmetallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mülheim a.d. Mosel",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallhandel, Mosel-Dorf",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026, FINAL)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-niedermohr-ku-gisela-schrott-metallentsorgung-entru",
+  "name": "Kuß Gisela Schrott-/Metallentsorgung, Entrümpelung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Niedermohr",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallentsorgung, Haushaltsauflösung",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026, FINAL)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-bellheim-lenhart-philipp-schrotthdl",
+  "name": "Lenhart Philipp SchrottHdl.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bellheim",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (≠ Lenhard Lingenfeld, getrennt halten)",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026, FINAL)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-lingenfeld-recycling-lenhard-andreas-rohstoff-recyc",
+  "name": "Recycling Lenhard Andreas / Rohstoff Recycling Lenhard GbR (+ Robert Lenhart)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lingenfeld",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Efb + Demontagebetrieb",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026, FINAL)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-schonenberg-kubelberg-closter-autorecycling",
+  "name": "Closter Autorecycling GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Schönenberg-Kübelberg",
+  "state": "RP",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autorecycling — FLAG: vermutlich nur Altautos",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026, FINAL)",
+   "ankauf_raw": "Nur Altauto (Verdacht)",
+   "origin": "table"
+  }
+ }
+]

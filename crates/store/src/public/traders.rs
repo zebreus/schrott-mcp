@@ -190,6 +190,27 @@ impl PublicDb {
         .map_err(StoreError::from)
     }
 
+    /// Stored seed payload hash for a trader slug, if it was seed-imported.
+    /// The seed importer compares this to skip unchanged rows.
+    pub fn trader_seed_hash(&self, slug: &str) -> Result<Option<String>, StoreError> {
+        let conn = self.lock()?;
+        let extra: Option<String> = conn
+            .query_row(
+                "SELECT extra_json FROM traders WHERE slug = ?1",
+                params![slug],
+                |r| r.get(0),
+            )
+            .optional()
+            .map_err(StoreError::from)?;
+        Ok(extra.and_then(|e| {
+            serde_json::from_str::<serde_json::Value>(&e)
+                .ok()?
+                .get("seed_hash")?
+                .as_str()
+                .map(str::to_owned)
+        }))
+    }
+
     /// Full-text search over name/city/postcode (FTS5, prefix matching).
     /// Used by tests and future ingestion; agents can use `traders_fts`
     /// directly in SQL (`JOIN traders_fts f ON t.id = f.rowid`).

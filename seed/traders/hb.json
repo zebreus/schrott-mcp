@@ -1,0 +1,1244 @@
+[
+ {
+  "slug": "hb-woltmershausen-vedder-stockrahm",
+  "name": "Vedder & Stockrahm GmbH & Co. KG",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Woltmershausen",
+  "state": "HB",
+  "website": "https://www.vedder-stockrahm.de/",
+  "status": "aktiv",
+  "notes": "Altmetallrecycling, Containerdienst, Rohstoffhandel; tagesaktuelle Preisliste online, Barzahlung | Adresse: Woltmershausen, Senator-Bömers-Str. 10",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-mahndorf-bartels-metallhandels",
+  "name": "Bartels Metallhandels GmbH & Co. KG",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Mahndorf",
+  "state": "HB",
+  "website": "https://www.bartels-altmetall.de/",
+  "status": "aktiv",
+  "notes": "An-/Verkauf Altmetalle, Containerdienst, Entsorgung (privat + gewerblich) | Adresse: Mahndorf, Zum Panrepel 30-32",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-industriehafen-tsr-recycling-nl-bremen",
+  "name": "TSR Recycling GmbH & Co. KG, NL Bremen",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Industriehäfen",
+  "state": "HB",
+  "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-bremen/",
+  "status": "aktiv",
+  "notes": "Stahlschrott/NE-Metalle, Großmengen, v. a. Gewerbe | Adresse: Industriehäfen, Waterbergstr. 6",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja (Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-neuenland-nord-schrott-w-tollkien",
+  "name": "Nord-Schrott W. Tollkien GmbH & Co. KG",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Neuenland",
+  "state": "HB",
+  "website": "http://nordschrott-bremen.de",
+  "status": "aktiv",
+  "notes": "Metallhandel, Autobatterien, Mulden-/Containerdienst | Adresse: Neuenland, Richard-Dunkel-Str. 90-92",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-oslebshausen-j-jochens",
+  "name": "J. Jochens GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oslebshausen",
+  "state": "HB",
+  "website": "https://www.jochens-bremen.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel (Fe + Bunt), Abrollcontainer 5-36 m³, Sofortzahlung | Adresse: Oslebshausen, Tillmannstr. 25",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-hemelingen-hirsch-hirsch-holding-hirsch-gruppe",
+  "name": "Hirsch (Hirsch Holding GmbH / Hirsch Gruppe)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hemelingen",
+  "state": "HB",
+  "website": "https://hirsch-group.de/wir-kaufen-ihren-schrott",
+  "status": "aktiv",
+  "notes": "Schrottankauf (Stahl, Eisen, Alu, Blei, Edelstahl, Messing, Kupfer, Zink), Container | Adresse: Hemelingen, Hermann-Funk-Str. 6-9",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-mahndorf-bremer-schrotthandel",
+  "name": "Bremer Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mahndorf",
+  "state": "HB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel, 24-h-Service, Abholung | Adresse: Mahndorf, Sykerstr. 6",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja (Branchenzuordnung; Preisbeleg fehlt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-ronnebeck-altmetall-bunker",
+  "name": "Altmetall Bunker",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rönnebeck",
+  "state": "HB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "An- und Verkauf (Kategorie) | Adresse: Rönnebeck, Heidlerchenstr. 15",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja (Branchenzuordnung; Preisbeleg fehlt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-hemelingen-kiesche-glabe",
+  "name": "Kiesche & Gläbe GmbH (& Co. KG)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hemelingen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (gleiche Adresse wie Löbl — Zusammenhang unklar) | Adresse: Hemelingen, Arberger Hafendamm 20",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-hemelingen-adolf-lobl-rohstoffbetriebe",
+  "name": "Adolf Löbl Rohstoffbetriebe GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Hemelingen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rohstoffbetrieb (gleiche Adresse wie Kiesche & Gläbe) | Adresse: Hemelingen, Arberger Hafendamm 20",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-ludwig-quidde-str-5-hanse-rohstoffhandel",
+  "name": "Hanse Rohstoffhandel GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Ludwig-Quidde-Str. 5",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel | Adresse: Ludwig-Quidde-Str. 5",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-hemelingen-metalports",
+  "name": "Metalports GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hemelingen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung, Altmaterial, Schrotthandel | Adresse: Hemelingen, Hemelinger Hafendamm 11 (hafennah)",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-schonebeck-schrott-metall-peter-ziegler",
+  "name": "Schrott & Metall Peter Ziegler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schönebeck",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott & Metall (klein) | Adresse: Schönebeck, Im Knie 1",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-burg-grambke-vikings-schrotthandler",
+  "name": "Vikings Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Burg-Grambke",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (klein) | Adresse: Burg-Grambke, An Smidts Park 19",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-oslebshausen-omeirat-und-el-sabeh-ayoun",
+  "name": "Omeirat und el-Sabeh Ayoun GbR",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oslebshausen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (klein) | Adresse: Oslebshausen, Tillmannstr. 27 (Nachbar von Jochens)",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-neustadt-koluman",
+  "name": "Koluman",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neustadt",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (klein) | Adresse: Neustadt, Valckenburghstr. 13",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-ansbacher-str-76-mohamed-akgul",
+  "name": "Mohamed Akgül",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ansbacher Str. 76",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Altmetallrecycling (klein) | Adresse: Ansbacher Str. 76",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-arberger-heerstr-107-service-rund-ums-haus-team-inh-yasin-akg",
+  "name": "Service rund ums Haus Team (Inh. Yasin Akgül)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Arberger Heerstr. 107",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler, mobile Abholung | Adresse: Arberger Heerstr. 107",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar (Vergütung nicht belegt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-sebaldsbruck-m-a-24-rund-um-die-uhr-service",
+  "name": "M&A 24 Rund um die Uhr Service",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sebaldsbrück",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott, mobile Abholung (klein) | Adresse: Sebaldsbrück, Sebaldsbrücker Heerstr. 160",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-lussum-bockhorn-schrotthandel-sak",
+  "name": "Schrotthandel SAK",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lüssum-Bockhorn",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (klein) | Adresse: Lüssum-Bockhorn, Godenweg 3",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-lussum-bockhorn-herbig-schrott-entrumpelung",
+  "name": "Herbig Schrott & Entrümpelung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lüssum-Bockhorn",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott + Entrümpelung | Adresse: Lüssum-Bockhorn, Schwaneweder Str. 44a",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-ostertor-fws",
+  "name": "FWS GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ostertor",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung, Schrott-/Altmaterialhandel | Adresse: Ostertor, Außer der Schleifmühle 65",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-oken-2-abfallbehandlung-nord-ano",
+  "name": "Abfallbehandlung Nord (ANO) GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oken 2",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmaterial-/Schrotthandel | Adresse: Oken 2",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-hastedt-auto-kaman",
+  "name": "Auto Kaman",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Hastedt",
+  "state": "HB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "KFZ + Schrotthandel — FLAG Autoverwertung-nah | (Abschleppservice, KFZ An-/Verkauf, Metall- u. Schrotthandel) | Adresse: Hastedt, Alter Postweg 173 B",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja (Schrotthandel im Leistungsumfang)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-burgdamm-autoverwertung-jesewski",
+  "name": "Autoverwertung Jesewski",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Burgdamm",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "FLAG Autoverwertung (Altauto-Ankauf; Buntmetall-Ankauf nicht belegt) | Adresse: Burgdamm, Neuer Steindamm 6",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-woltmershausen-autoverwertung-roberg",
+  "name": "Autoverwertung Roßberg GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Woltmershausen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "FLAG Autoverwertung | Adresse: Woltmershausen, Simon-Bolivar-Str. 38",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-hemelingen-danache",
+  "name": "Danache",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Hemelingen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "offenbar Autoverwertung/Schrott — FLAG | Adresse: Hemelingen, Hemelinger Hafendamm 19",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremen-avbn-autoverwertung-bremen",
+  "name": "AVBN Autoverwertung Bremen",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Bremen",
+  "state": "HB",
+  "website": "https://www.avbn-bremen.de/",
+  "status": "pruefung",
+  "notes": "FLAG Autoverwertung, kostenlose Abholung, Verwertungsnachweis | Adresse: Bremen (Adresse nicht erfasst)",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "unklar (nur Altautos)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-online-bremen-schrott24-metaloop-online-ankauf-abholun",
+  "name": "Schrott24 / Metaloop (Online-Ankauf, Abholung + Anlieferstellen Raum Bremen)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "online / Bremen",
+  "state": "HB",
+  "website": "https://www.schrott24.de/",
+  "status": "aktiv",
+  "notes": "Online-Altmetallankauf (alle gängigen Sorten), Bestpreis-Netzwerk | Adresse: online / Bremen",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremen (Stadt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-weddewarden-schroder-schrott-und-metalle",
+  "name": "Schröder Schrott und Metalle GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weddewarden",
+  "state": "HB",
+  "website": "https://schrott-schroeder.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf, Container 7-33 m³, Demontage/Rückbau, Hafen-/Schwerindustrie; keine Altautos, kein E-Schrott, keine weiße Ware | Adresse: Weddewarden, Grauwallring 12",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-westkai-48-schrotthandel-roberto-hoffmann",
+  "name": "Schrotthandel Roberto Hoffmann",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Westkai 48",
+  "state": "HB",
+  "website": "https://www.schrott-hoffmann.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle (Kupfer, Alu, Messing, Zink, Blei), Kabel, Autobatterien, Container, Abholung mit Vor-Ort-Verwiegung | Adresse: Westkai 48 (Fischereihafen-nah)",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "ja (Tagespreise)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-am-baggerloch-5-schrotthandel-yildirim-necati-yildirim",
+  "name": "Schrotthandel-Yildirim GmbH (Necati Yildirim)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Am Baggerloch 5",
+  "state": "HB",
+  "website": "https://www.schrotthandel-yildirim.de/",
+  "status": "aktiv",
+  "notes": "Kabel-/Buntmetall-Spezialist (Kupfer, Millberry, Messing, V2A/V4A, E-Motoren), Containerdienst | Adresse: Am Baggerloch 5 (golocal) / Oderberger Str. 14, Lehe (Das Örtliche — ggf. umgezogen)",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-geestemunde-richard-bauer-rohstoff-grohandel",
+  "name": "Richard Bauer Rohstoff-Großhandel GmbH & Co. KG",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Geestemünde",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott, Metalle, Entsorgung, Containerdienst, Großhandel | Adresse: Geestemünde, Weißenstein 2",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "wahrscheinlich (nicht direkt belegt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-wulsdorf-engelbert-schrotthandel",
+  "name": "Engelbert Schrotthandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Wulsdorf",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (klein) | Adresse: Wulsdorf, Osterwiesenweg 11",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-lehe-rosenbach-schrott-und-metallhandel",
+  "name": "Rosenbach Schrott und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lehe",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallhandel (klein) | Adresse: Lehe, Lange Str. 30",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-hackfahrel-28-schrotthandel-petermann",
+  "name": "Schrotthandel Petermann GbR",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hackfahrel 28",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (klein) | Adresse: Hackfahrel 28",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-fischereihafen-brexendorf-rohstoffhandels-brexendorf-tr",
+  "name": "Brexendorf Rohstoffhandels GmbH (Brexendorf Transport Logistic Entsorgung)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Fischereihafen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel, Container, Transport/Logistik | Adresse: Fischereihafen, Dorschstr. 17",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-geestemunde-bremerhavener-entsorgungsgesellschaft-mb",
+  "name": "Bremerhavener Entsorgungsgesellschaft mbH (BEG)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Geestemünde",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "kommunaler Entsorger (Abfallwirtschaft) — eher Entsorgung ohne Ankauf | Adresse: Geestemünde, Zur Hexenbrücke 16",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "unklar (vermutlich kein Ankauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-uberseehafen-reveg-recycling-u-verwertungsgesellschaf",
+  "name": "ReVeG Recycling- u. Verwertungsgesellschaft mbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Überseehafen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling/Verwertung | Adresse: Überseehafen, Brückenstr. 25",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-fischereihafen-rubin-kai",
+  "name": "Rubin Kai",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Fischereihafen",
+  "state": "HB",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "als Schrotthändler gelistet, Beschreibung: Containerdienste/Bürgersteigreinigung — vermutlich kein Ankauf | Adresse: Fischereihafen, Am Luneort 46",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Bremerhaven",
+   "ankauf_raw": "vermutlich kein Ankauf",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremen-augustin-entsorgung-bremen",
+  "name": "Augustin Entsorgung Bremen GmbH & Co. KG",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Bremen",
+  "state": "HB",
+  "website": "https://www.augustin-entsorgung.de/",
+  "status": "aktiv",
+  "notes": "Altmetalle & Schrott: \"Ankauf und Erfassung von Schrotten und Metallen\", Containerdienst | Adresse: Bremen, Adam-Smith-Str. 3-5, 28307 (bvse-Mitglied)",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremen-off-waste",
+  "name": "Off Waste GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bremen",
+  "state": "HB",
+  "website": "https://www.off-waste.de/",
+  "status": "pruefung",
+  "notes": "Abfall-Handel/Makler, eigene Stelle \"Stoffstrommanagement Schrott\" | Adresse: Bremen, Langenstr. 52-54, 28195 (bvse-Mitglied)",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben)",
+   "ankauf_raw": "unklar (Makler, kein Preisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-osterholz-scharmbeck-petko-schrott-metalle",
+  "name": "Petko Schrott & Metalle GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Osterholz-Scharmbeck",
+  "state": "HB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel (GS, 5.0/1 Bewertung) | Adresse: Osterholz-Scharmbeck (Umland), Auf der Horst 29, 27711, Tel. 04791 2302",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben)",
+   "ankauf_raw": "ja (Branchenzuordnung; Preisbeleg fehlt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-stuhr-thomas-seidel-schrotthandel",
+  "name": "Thomas Seidel Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuhr",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (GS) | Adresse: Stuhr (Umland), 28816, Tel. 04206 349",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-delmenhorst-grundler-siegfried",
+  "name": "Grundler Siegfried",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Delmenhorst",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "FLAG Autoverwertung | Adresse: Delmenhorst (Umland), Oldenburger Landstr. 50, 27753",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben)",
+   "ankauf_raw": "unklar (nur Altautos anzunehmen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-stuhr-edwins-autorecycling",
+  "name": "Edwins Autorecycling",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Stuhr",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "FLAG Autoverwertung | Adresse: Stuhr (Umland), Gutenbergstr. 10, 28816",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben)",
+   "ankauf_raw": "unklar (nur Altautos anzunehmen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-brake-wesermarsch-metallrecycling-wmr",
+  "name": "Wesermarsch Metallrecycling GmbH (WMR)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Brake",
+  "state": "HB",
+  "website": "https://www.wmr-online.de/",
+  "status": "aktiv",
+  "notes": "Metallrecycling, Demontage, Container; \"wir kaufen alle gängigen Schrott- und Metallsorten\" | Adresse: Brake (Umland Wesermarsch), Max-Planck-Str. 9, 26919, Tel. 04401 980060",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-rotenburg-oetjen-rohstoffhandel",
+  "name": "Oetjen Rohstoffhandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rotenburg",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Rohstoffe, Abfallrecycling, Container | Adresse: Rotenburg (Umland), Otto-von-Guericke-Str. 4, 27356, Tel. 04261 2025",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-rotenburg-stermer-schrotthandel-rotenburg",
+  "name": "Stermer Schrotthandel Rotenburg",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rotenburg",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetall/Altschrott, Schrottentsorgung (klein) | urspr. Website-Angabe: keine (GS ohne Website-Button) | Adresse: Rotenburg (Umland), Upaltenweg 8, 27356, Tel. 0178 7857176",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-zeven-oetjen-schrott-eisen-metalle-b",
+  "name": "Oetjen Schrott Eisen Metalle B.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zeven",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (klein; mögl. Oetjen-Familiennetzwerk, s. Aliasse) | urspr. Website-Angabe: keine (GS ohne Website-Button) | Adresse: Zeven (Umland), Wacholderweg 14, 27404, Tel. 04281 4722",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-ottersberg-oetjen-b",
+  "name": "Oetjen B.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ottersberg",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (klein; mögl. Oetjen-Netzwerk) | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Ottersberg (Umland), Quelkhorner Landstr. 74, 28870, Tel. 04293 1516",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremerhaven-jacob",
+  "name": "Jacob GmbH & Co. KG",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Bremerhaven",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz | Adresse: Bremerhaven, Am Wischacker 2, 27576",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremerhaven-lehe-hartmann-metallhandel",
+  "name": "Hartmann Metallhandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Bremerhaven-Lehe",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz | Adresse: Bremerhaven-Lehe, Kiefernweg 60, 27578",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremerhaven-lehe-adler-a",
+  "name": "Adler A.",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Bremerhaven-Lehe",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz | Adresse: Bremerhaven-Lehe, Schierholzweg 5, 27578",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremerhaven-neumann-schrotthandel",
+  "name": "Neumann Schrotthandel",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Bremerhaven",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz | Adresse: Bremerhaven, Blumenstr. 2, 27580",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremen-neustadt-bolte-h-g",
+  "name": "Bolte H.G.",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Bremen-Neustadt",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "FLAG Autoverwertung | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Bremen-Neustadt, Meyerstr. 148, 28201, Tel. 0421 554377",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar (nur Altautos anzunehmen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremen-oslebshausen-containerdienst-ziessmann",
+  "name": "Containerdienst Ziessmann GmbH & Co. KG",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Bremen-Oslebshausen",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Containerdienst/Schrott (Nachbar von Jochens, 0,4 km) | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg; Homepage-Link dort defekt) | Adresse: Bremen-Oslebshausen, Große Riehen 8, 28239, Tel. 0421 641512",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bremen-findorff-motorensuche-24",
+  "name": "Motorensuche 24",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bremen-Findorff",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Motoren/Teile (Online-Anmutung) — dünn | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Bremen-Findorff, Hemmstr. 178, 28215",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-osterholz-scharmbeck-wortberg-u",
+  "name": "Wortberg U.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Osterholz-Scharmbeck",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (klein) | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Osterholz-Scharmbeck (Umland), Hauptstr. 36, 27711, Tel. 04791 4396",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-osterholz-scharmbeck-met-alloy",
+  "name": "Met-Alloy GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Osterholz-Scharmbeck",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Name deutet Metalllegierungs-Handel an) | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Osterholz-Scharmbeck (Umland), Soltkampweg 2, 27711, Tel. 04793 478",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-grasberg-die-schrottkiste",
+  "name": "Die Schrottkiste",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Grasberg",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (klein) | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Grasberg (Umland), Eickedorfer Str. 14, 28879, Tel. 04208 916542",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-syke-siegmayer-l",
+  "name": "Siegmayer L.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Syke",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (klein) | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Syke (Fern-Umland), Sudweyher Str. 34, 28857, Tel. 04242 931462",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-bassum-k-s-dienstleistungen-k-seelhoff",
+  "name": "K.S. Dienstleistungen K. Seelhoff",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bassum",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Dienstleistungen/Schrott — dünn | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Bassum (Fern-Umland), Osterbinde 2, 27211",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-elsfleth-kurt-h-k",
+  "name": "Kurt H.K.",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Elsfleth",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "FLAG Autoverwertung | urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg) | Adresse: Elsfleth (Fern-Umland Wesermarsch), Am Tidehafen 1, 26931, Tel. 04404 3026",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)",
+   "ankauf_raw": "unklar (nur Altautos anzunehmen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-delmenhorst-dero-handelsgesellschaft-mbh",
+  "name": "Dero Handelsgesellschaft mbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Delmenhorst",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (Portal-Kategorie; Leistungsangebot leer) — dünn | urspr. Website-Angabe: keine (Portal-Homepage-Link defekt) | Adresse: Delmenhorst, Industriestr. 4, 27751, Tel. 04221 9429-0",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-ganderkesee-hs-steiner-metallhandel",
+  "name": "HS Steiner Metallhandel UG",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Ganderkesee",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (klein) — dünn | urspr. Website-Angabe: keine (Portal-Homepage-Link defekt) | Adresse: Ganderkesee (Umland), Gewerbest. 5, 27777, Tel. 04222 2646",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-martfeld-mannott-hans-heinrich-autoschrott-metall",
+  "name": "Mannott Hans-Heinrich Autoschrott Metalle",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Martfeld",
+  "state": "HB",
+  "website": "",
+  "status": "pruefung",
+  "notes": "FLAG Autoverwertung-nah (Name) | urspr. Website-Angabe: keine | Adresse: Martfeld (Fern-Umland), Breslauer Str. 8, 27327, Tel. 04255 1240",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde",
+   "ankauf_raw": "unklar (nur Altautos anzunehmen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-wildeshausen-petko-s-u-a",
+  "name": "Petko S. u. A.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wildeshausen",
+  "state": "HB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (4. Petko-Standort, s. Korrekturen) | urspr. Website-Angabe: keine | Adresse: Wildeshausen (Fern-Umland), Düngstruper Str. 91, 27793",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde",
+   "ankauf_raw": "ja (Branchenzuordnung; Preisbeleg fehlt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-nordenham-siegfried-petko-u-angelika-schrott-metal",
+  "name": "Siegfried Petko u. Angelika Schrott & Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nordenham",
+  "state": "HB",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (3. Petko-Standort, Personen-Firmierung) | urspr. Website-Angabe: keine | Adresse: Nordenham (Umland), Nordseestr. 10a, 26954, Tel. 04731 21730",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Neue Funde",
+   "ankauf_raw": "ja (Branchenzuordnung; Preisbeleg fehlt)",
+   "origin": "table"
+  }
+ }
+]

@@ -1,0 +1,4160 @@
+[
+ {
+  "slug": "by-feldkirchen-m-m-buntmetall",
+  "name": "M&M Buntmetall GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Feldkirchen",
+  "state": "BY",
+  "website": "https://www.mm-buntmetall.de/",
+  "status": "aktiv",
+  "notes": "Buntmetall (Cu, Alu, Messing, Edelstahl, Kabel)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-schrott-anton",
+  "name": "Schrott Anton GmbH",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "http://schrott-anton.de/",
+  "status": "aktiv",
+  "notes": "Schrottplatz, Containerdienst, Buntmetall",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-thv-metallrecycling-munchen-alfa-rohstof",
+  "name": "THV Metallrecycling München GmbH / ALFA Rohstoffhandel München GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "https://www.thv-metallrecycling.de/",
+  "status": "aktiv",
+  "notes": "Buntmetall, Schrott (Buntmetall ab 5 kg, Schrott ab 300 kg)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-alfa-recycling-munchen-tsr-derichebourg",
+  "name": "ALFA Recycling München GmbH & Co. KG (TSR-/Derichebourg-Gruppe)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "https://www.tsr.eu",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Schrott, Shredder, Autorecycling",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-schaftlarn-frisch-recycling",
+  "name": "Frisch Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schäftlarn",
+  "state": "BY",
+  "website": "https://frisch-recycling.de/",
+  "status": "aktiv",
+  "notes": "E-Schrott (Leiterplatten, CPUs), Metalle, Kabel",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kirchseeon-peter-viellechner-altmetall",
+  "name": "Peter Viellechner Altmetall",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kirchseeon",
+  "state": "BY",
+  "website": "https://www.viellechner-altmetall.de/",
+  "status": "aktiv",
+  "notes": "Buntmetall, Schrott, Abholung mit Kran-Lkw, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-stein-nurnberg-hafen-swrn-sekundar-wertstoff-recycling-nurnbe",
+  "name": "SWRN GmbH (Sekundär-Wertstoff-Recycling-Nürnberg)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stein / Nürnberg-Hafen",
+  "state": "BY",
+  "website": "https://swrn.de/unternehmen",
+  "status": "aktiv",
+  "notes": "FE-/NE-Schrott, Buntmetall",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-nurnberg-scholz-recycling-derichebourg-gruppe",
+  "name": "Scholz Recycling GmbH (Derichebourg-Gruppe)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nürnberg",
+  "state": "BY",
+  "website": "https://www.scholz-recycling.com/standort/nuernberg",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Schrott, Industrierecycling",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-oberasbach-mm-kat",
+  "name": "MM-Kat GbR",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Oberasbach",
+  "state": "BY",
+  "website": "https://mm-kat.de/",
+  "status": "aktiv",
+  "notes": "Katalysator-/DPF-Ankauf (Spezialist)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-seukendorf-beate-bergold-metalle",
+  "name": "Beate Bergold Metalle GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Seukendorf",
+  "state": "BY",
+  "website": "https://www.bergoldmetalle.de/",
+  "status": "aktiv",
+  "notes": "Schrott, Buntmetall, Kabel, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-augsburg-kunz-rohstoffhandel",
+  "name": "KUNZ Rohstoffhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Augsburg",
+  "state": "BY",
+  "website": "https://www.kunz.de/leistungen/ankauf",
+  "status": "aktiv",
+  "notes": "Schrott, Buntmetall, Kabel, Batterien",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-augsburg-goggingen-augsburger-rohstoffhandel",
+  "name": "Augsburger Rohstoffhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Augsburg-Göggingen",
+  "state": "BY",
+  "website": "https://augsburgerrohstoffhandel.de/",
+  "status": "aktiv",
+  "notes": "Eisen, Buntmetall, Kabel, Edelmetall, Container/Logistik",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-langweid-a-lech-hammerschmidt-robert-container-schrottha",
+  "name": "Hammerschmidt Robert Container & Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Langweid a. Lech",
+  "state": "BY",
+  "website": "https://hammerschmidt-schrott.de/kontakt",
+  "status": "aktiv",
+  "notes": "Schrott, Container, Demontage, Maschinen",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-ichenhausen-st-schrotthandel",
+  "name": "ST-Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ichenhausen",
+  "state": "BY",
+  "website": "https://st-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott, Buntmetall, Demontage, Container, Maschinenhandel",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-barbing-avas-recycling",
+  "name": "AVAS Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Barbing",
+  "state": "BY",
+  "website": "https://www.avas-recycling.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/NE-Schrott, Container, Abbruch",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-regensburg-rvr-rohstoffverwertung-regensburg",
+  "name": "RVR Rohstoffverwertung Regensburg GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Regensburg",
+  "state": "BY",
+  "website": "https://rvr-regensburg.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Metallschrott, Container, Autoverwertung",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-wurzburg-krappmann-hufnagel",
+  "name": "Krappmann & Hufnagel GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Würzburg",
+  "state": "BY",
+  "website": "https://krappmann-hufnagel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Autoverwertung, Container, Demontage",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-bamberg-riwald-recycling-franken-arcelormittal",
+  "name": "Riwald Recycling Franken GmbH (ArcelorMittal)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bamberg",
+  "state": "BY",
+  "website": "https://riwald.com/",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Schrott, Gießereivormaterial (eher Gewerbe)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kronach-neuses-molter",
+  "name": "Mölter GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Kronach-Neuses",
+  "state": "BY",
+  "website": "https://www.moelter-kronach.de/",
+  "status": "aktiv",
+  "notes": "Schrott, NE-Metalle, Hartmetall, Kats, Autoverwertung, Abbrüche",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-lichtenfels-schrott-kaiser-pk",
+  "name": "Schrott Kaiser (PK GmbH)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Lichtenfels",
+  "state": "BY",
+  "website": "https://www.schrottkaiser.de/",
+  "status": "pruefung",
+  "notes": "Abbruch, Autoverwertung, Container/Abschleppdienst",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-memmingen-kempten-august-kutter",
+  "name": "August Kutter GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Memmingen / Kempten",
+  "state": "BY",
+  "website": "https://www.schrott-kutter.de/",
+  "status": "aktiv",
+  "notes": "Schrott, Metalle, Altautos, Abbrüche, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-memmingen-eisen-braun",
+  "name": "Eisen Braun GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Memmingen",
+  "state": "BY",
+  "website": "https://eisen-braun.de/buntmetalle",
+  "status": "aktiv",
+  "notes": "Buntmetall, Schrott, Abholung, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-landshut-worth-a-d-isar-pass-iwan-koslow",
+  "name": "Iwan Koslow GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Landshut / Wörth a. d. Isar / Passau",
+  "state": "BY",
+  "website": "https://www.koslow.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Altfahrzeuge, E-Schrott, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-essenbach-geweiler-metallrecycling",
+  "name": "Geweiler Metallrecycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essenbach",
+  "state": "BY",
+  "website": "https://geweiler-metallrecycling.de/",
+  "status": "aktiv",
+  "notes": "Buntmetall, Schrott, Hartmetall, Katalysatoren (Annahme ab 1 kg)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-aham-fa-sonntag-schrott-metall-u-containerdie",
+  "name": "Fa. Sonntag Schrott-, Metall- u. Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Aham",
+  "state": "BY",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottplatz, Metall-, Containerdienst (lt. Anzeige: Ankauf)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-ingolstadt-pforring-oblinger-michael-recycling",
+  "name": "Oblinger Michael Recycling GmbH & Co. KG",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Ingolstadt / Pförring",
+  "state": "BY",
+  "website": "https://www.oblinger-recycling.de/",
+  "status": "aktiv",
+  "notes": "Metallrecycling, Autoverwertung, Container, Abfallentsorgung",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-ingolstadt-buchl-metallrecycling",
+  "name": "BÜCHL Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ingolstadt",
+  "state": "BY",
+  "website": "https://www.metallrecycling-bayern.de/",
+  "status": "aktiv",
+  "notes": "Bunt-/Altmetall, Kabel-, Produktionsschrott",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-weiden-weiherhammer-bergler-metallhandel-recycling-fahrzeugt",
+  "name": "Bergler (Metallhandel-Recycling / Fahrzeugtechnik)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Weiden / Weiherhammer",
+  "state": "BY",
+  "website": "https://www.bergler.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/E-Schrottannahme, Kfz-Verwertung, Entsorgung",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-flossenburg-max-ublacker-schrott-und-metallhandel",
+  "name": "Max Üblacker Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Flossenbürg",
+  "state": "BY",
+  "website": "https://www.schrott-metall-ueblacker.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Stahlschrott, NE-Metalle, Kabel, E-Motoren, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-stockstadt-a-main-inro-industrierohstoffe-inro-rohstoffhan",
+  "name": "INRO Industrierohstoffe GmbH / INRO Rohstoffhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stockstadt a. Main",
+  "state": "BY",
+  "website": "https://inro-ir.de/",
+  "status": "aktiv",
+  "notes": "Schrott, NE-Metalle (eher Gewerbe/Industrie)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-stockstadt-a-main-rhein-main-rohstoffe-niederlassung-stock",
+  "name": "Rhein Main Rohstoffe GmbH, Niederlassung Stockstadt",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stockstadt a. Main",
+  "state": "BY",
+  "website": "https://rmr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Schrott, Container, Abbruch (eher Gewerbe)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-alzenau-mairec-edelmetall-recycling",
+  "name": "MAIREC Edelmetall-Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Alzenau",
+  "state": "BY",
+  "website": "https://mairec.com/de/autokatalysatoren",
+  "status": "aktiv",
+  "notes": "Katalysatoren, Edelmetalle, E-Schrott (Spezialist, eher Gewerbe)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-u-a-munchen-schrottjungs-mobil-bundesweit",
+  "name": "SchrottJungs (mobil/bundesweit)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "u. a. München",
+  "state": "BY",
+  "website": "https://schrottjungs.de/",
+  "status": "aktiv",
+  "notes": "mobile Abholung, Buntmetall-Ankauf, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Betriebe mit geprüfter Website",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-schweinfurt-georg-lesch",
+  "name": "Georg Lesch e.K.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Schweinfurt",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-deggendorf-altschaffl-georg-schrott-und-metalle",
+  "name": "Altschäffl Georg Schrott und Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Deggendorf",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Gelbe-Seiten-Eintrag, keine Website gefunden",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-straubing-andorfer-sebastian",
+  "name": "Andorfer Sebastian GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Straubing",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln/Verwerten",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-straubing-wolf-entsorgung",
+  "name": "Wolf Entsorgung GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Straubing",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Sammeln/Befördern/Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-gunzburg-rohstoffverwertung-groger",
+  "name": "Rohstoffverwertung Gröger GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Günzburg",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Schrott/Metall, Container, Altautoverwertung (Demontagebetrieb)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-gunzburg-baur-sohne",
+  "name": "Baur & Söhne GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Günzburg",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Sammeln/Befördern/Handeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-memmingen-neidhardt-rohstoff",
+  "name": "Neidhardt Rohstoff GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Memmingen",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Sammeln/Befördern, Metall-/Fahrzeugschlüssel",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-memmingen-geiger-baustoffe-und-recycling",
+  "name": "Geiger Baustoffe und Recycling GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Memmingen",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Register-Eintrag",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-weiherhammer-schrott-nasz",
+  "name": "Schrott Nasz GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weiherhammer",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Register-Eintrag",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-weiden-kraus-recycling-entsorgung",
+  "name": "Kraus Recycling & Entsorgung",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Weiden",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "von Stadt Weiden als Ansprechpartner gelistet",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-schwandorf-gerhard-lehrer",
+  "name": "Gerhard Lehrer GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Schwandorf",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-traunstein-jakob-schaumaier-nachf",
+  "name": "Jakob Schaumaier Nachf. GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Traunstein",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Autoverwertung (Demontagebetrieb)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-autoverwertung-kroher",
+  "name": "Autoverwertung Kroher",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur Autoverwertung",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-bamberg-paulus",
+  "name": "Paulus GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bamberg",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern, Metallschlüssel",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-lauingen-max-aicher-recycling",
+  "name": "Max Aicher Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lauingen",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Stahlrecycling, eher B2B",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-cronimet-alfa",
+  "name": "CRONIMET Alfa GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-eiber-kunz-schrott-metall-recycling",
+  "name": "Eiber & Kunz Schrott Metall Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Sammeln/Befördern/Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-kauschinger-rohstoffhandel",
+  "name": "Kauschinger Rohstoffhandel GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-bayreuth-jean-bilsheim-recycling",
+  "name": "Jean Bilsheim Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bayreuth",
+  "state": "BY",
+  "website": "https://www.jean-bilsheim.com/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Altpapier, Container, Aktenvernichtung (Efb, fast 100 Jahre)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-turkheim-stadler-metalle-stadler-raw-materials-pl",
+  "name": "STADLER METALLE GmbH & Co. KG (Stadler Raw Materials, Plansee-Gruppe)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Türkheim",
+  "state": "BY",
+  "website": "https://www.stadler-metalle.de/",
+  "status": "aktiv",
+  "notes": "Hartmetall, Nickel-/Kobalt-/Titanlegierungen, HSS, Reinmetalle – An- und Verkauf (eher B2B)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-turkheim-knettenbrech-gurdulic-sud-franken",
+  "name": "Knettenbrech + Gurdulic (Süd GmbH + Franken GmbH)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Türkheim",
+  "state": "BY",
+  "website": "https://www.knettenbrech-gurdulic.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall, Entsorgung, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-muhldorf-smr-schrott-metall-recycling",
+  "name": "SMR Schrott-Metall-Recycling GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Mühldorf",
+  "state": "BY",
+  "website": "https://www.smr-muehldorf.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Altautoverwertung, Container, Recyclinghöfe (Annahmeschluss publiziert)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-marie-curie-str-1-smr-schrott-metall-recycling",
+  "name": "SMR Schrott-Metall-Recycling GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Marie-Curie-Str. 1)",
+  "state": "BY",
+  "website": "https://www.smr-muehldorf.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Altautoverwertung, Container, Recyclinghöfe (Annahmeschluss publiziert)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-traunstein-schaumaier-recycling-jakob-schaumaier-na",
+  "name": "Schaumaier Recycling (Jakob Schaumaier Nachf.)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Traunstein",
+  "state": "BY",
+  "website": "https://www.schaumaier.de/",
+  "status": "aktiv",
+  "notes": "Schrottplatz, Altautoverwertung, Container, Industriedemontagen (erweitert/ersetzt die Register-Zeile „Jakob Schaumaier Nachf.“)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-raubling-chiemgau-recycling",
+  "name": "Chiemgau Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Raubling",
+  "state": "BY",
+  "website": "https://chiemgau-recycling.de/",
+  "status": "pruefung",
+  "notes": "Kern Altpapier; Schrott nur als Nebenservice genannt („Ob Folien, Schrott, Altholz …“)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-amberg-schmid-zweck-betrieb-gailoh",
+  "name": "Schmid & Zweck GmbH Betrieb Gailoh",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Amberg",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln, E-Schrott- + Cu/Al-Schlüssel; schmid-zweck.de nicht erreichbar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-amberg-bergler-standort-amberg",
+  "name": "Bergler GmbH & Co. KG Standort Amberg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Amberg",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Filiale (Haupteintrag Weiden bereits ja)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-coburg-scholz-recycling-betrieb-coburg",
+  "name": "Scholz Recycling GmbH Betrieb Coburg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Coburg",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Filiale (Haupteintrag Nürnberg bereits ja)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-ansbach-edelhauser-wertstoffe",
+  "name": "Edelhäuser Wertstoffe GmbH",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ansbach",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Sammeln/Lagern",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-ansbach-vogel-sohn",
+  "name": "Vogel & Sohn GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Ansbach",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kempten-dorr",
+  "name": "Dorr GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kempten",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln, z. T. Handeln/Makeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kaufbeuren-dorr",
+  "name": "Dorr GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kaufbeuren",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln, z. T. Handeln/Makeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kempten-prezioso-recycling",
+  "name": "Prezioso Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kempten",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln/Handeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kaufbeuren-schieler-schrott-und-metallhandel",
+  "name": "Schießler Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kaufbeuren",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln/Verwerten/Beseitigen",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-marktoberdorf-harald-hoffmann-schrott-metall-recycling",
+  "name": "Harald Hoffmann Schrott & Metall Recycling eK",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marktoberdorf",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-weienhorn-gotz-schrott-und-metalle",
+  "name": "Götz GmbH Schrott und Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weißenhorn",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln/Verwerten",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-neu-ulm-gotz-schrott-und-metalle",
+  "name": "Götz GmbH Schrott und Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neu-Ulm",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln/Verwerten",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-weienhorn-ms-metallhandel-sud",
+  "name": "MS Metallhandel Süd GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weißenhorn",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-neu-ulm-karl-karletshofer-betrieb-neu-ulm",
+  "name": "Karl Karletshofer GmbH Betrieb Neu-Ulm",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Neu-Ulm",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-donauworth-loacker-recycling",
+  "name": "Loacker Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Donauwörth",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln/Verwerten; Gruppe loacker-recycling.com (JS-Seite, Filiale dort nicht verifizierbar)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-donauworth-nordheim-schrotthandel-nordheim",
+  "name": "Schrotthandel Nordheim GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Donauwörth/Nordheim",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln/Handeln/Makeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kitzingen-sell-recycling",
+  "name": "Sell Recycling GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kitzingen",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kitzingen-lzr-lenz-ziegler-reifenscheid",
+  "name": "LZR Lenz-Ziegler-Reifenscheid GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kitzingen",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Sammeln/Befördern/Handeln/Makeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-turkheim-schmidt-metalle",
+  "name": "SCHMIDT-METALLE e. K.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Türkheim",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln; schmidt-metalle.de per Fetch nicht erreichbar (Timeout)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kelheim-rott-sohn",
+  "name": "Rott & Sohn GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kelheim",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-freilassing-pletschacher-recycling",
+  "name": "Pletschacher Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Freilassing",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln; pletschacher.at per Fetch nicht erreichbar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kulmbach-trapper",
+  "name": "Trapper GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kulmbach",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Lagern/Behandeln",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-bad-neustadt-a-d-saale-joachim-schrotthandel",
+  "name": "Joachim Schrotthandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Neustadt a. d. Saale",
+  "state": "BY",
+  "website": "https://www.joachim-metalle.de/",
+  "status": "aktiv",
+  "notes": "Stahl/Eisen, Cu, Alu, Messing, Kabel, Altautos, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-rosenheim-msr",
+  "name": "MSR GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Rosenheim",
+  "state": "BY",
+  "website": "https://www.msr-rosenheim.de/",
+  "status": "aktiv",
+  "notes": "Cu, Alu, Edelstahl, Messing, Zinn/Zink, Blei",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-roding-wetterfeld-riedl-schrotthandel-fa-georg-riedl",
+  "name": "Riedl Schrotthandel GmbH & Co. KG (Fa. Georg Riedl)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Roding-Wetterfeld",
+  "state": "BY",
+  "website": "http://www.riedl-schrotthandel.de/Home",
+  "status": "aktiv",
+  "notes": "Metall An-/Verkauf, Container, Demontage, Autoentsorgung",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-regensburg-kernschrott-recycling",
+  "name": "Kernschrott Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Regensburg",
+  "state": "BY",
+  "website": "http://www.kernschrott-recycling.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Sondermetallankauf, Kats, E-Schrott, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-aschaffenburg-huth-schrott-metall-huth",
+  "name": "Huth Schrott Metall GmbH (Huth GmbH)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aschaffenburg",
+  "state": "BY",
+  "website": "http://www.huth-recycling.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-prem-fritz-hogg",
+  "name": "Fritz Högg GmbH & Co. KG",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Prem",
+  "state": "BY",
+  "website": "http://www.fritz-hoegg.de",
+  "status": "aktiv",
+  "notes": "Schrottplatz, NE-Metalle, Container/Kran, Nutzeisenhandel",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-eggstatt-natzing-schwanzer-altmetall-u-autoentsorgung",
+  "name": "Schwanzer Altmetall- u. Autoentsorgung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Eggstätt-Natzing",
+  "state": "BY",
+  "website": "https://www.schwanzer-entsorgung.de",
+  "status": "aktiv",
+  "notes": "Altmetallhandel, Autoverwertung",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-wurzburg-zellerau-gramet",
+  "name": "GRAMET GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Würzburg-Zellerau",
+  "state": "BY",
+  "website": "http://www.gramet.de",
+  "status": "aktiv",
+  "notes": "NE-Metalle, Superlegierungen, Späne/Schlämme (B2B-Spezialist)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-maxhutte-haidhof-teublitz-td-rohstoffhandel-haidhof",
+  "name": "TD Rohstoffhandel Haidhof GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Maxhütte-Haidhof/Teublitz",
+  "state": "BY",
+  "website": "https://www.td-haidhof.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallankauf, Trafo-Entsorgung, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-barbing-d-k-metallhandels",
+  "name": "D&K Metallhandels GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Barbing",
+  "state": "BY",
+  "website": "http://www.dk-metallhandel.de/",
+  "status": "aktiv",
+  "notes": "Metall An-/Verkauf",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-aschaffenburg-bernhard-westarp",
+  "name": "BERNHARD WESTARP GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aschaffenburg",
+  "state": "BY",
+  "website": "http://www.westarp-kg.de",
+  "status": "aktiv",
+  "notes": "Eisen-/NE-Schrott, E-Schrott, Abbrüche, Container (>100 Jahre)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (11)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-lindau-reutin-stark",
+  "name": "Stark GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lindau-Reutin",
+  "state": "BY",
+  "website": "http://www.stark-lindau.de/",
+  "status": "unbekannt",
+  "notes": "Entsorgung/Wertstoffe inkl. Schrott/Metall, 60 Jahre; kein Ankaufbeleg",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-lindau-aeschach-loacker-recycling-lindau-ehem-fischer-re",
+  "name": "Loacker Recycling Lindau (ehem. Fischer Recycling Lindau GmbH)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lindau-Aeschach",
+  "state": "BY",
+  "website": "https://fischer-recycling.com",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-garmisch-partenkirchen-burgr-wertstoff-bader",
+  "name": "Wertstoff Bader",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Garmisch-Partenkirchen-Burgrain",
+  "state": "BY",
+  "website": "http://www.wertstoff-bader.de/",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-schrobenhausen-steingriff-gigler",
+  "name": "Gigler GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Schrobenhausen-Steingriff",
+  "state": "BY",
+  "website": "http://www.gigler.de",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-hersbruck-loos-metallrecycling",
+  "name": "Loos Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hersbruck",
+  "state": "BY",
+  "website": "https://metall-loos.de",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-bogen-furth-carnuth-metallrecycling",
+  "name": "Carnuth KG Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bogen/Furth",
+  "state": "BY",
+  "website": "https://www.carnuth.de",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-ergolding-lorenz-wittmann",
+  "name": "Lorenz Wittmann GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Ergolding",
+  "state": "BY",
+  "website": "http://www.wittmann-recycling.de/",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-geisenhausen-lorenz-wittmann",
+  "name": "Lorenz Wittmann GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Geisenhausen",
+  "state": "BY",
+  "website": "http://www.wittmann-recycling.de/",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-aschaffenburg-stefan-schafer",
+  "name": "Stefan Schäfer KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Aschaffenburg",
+  "state": "BY",
+  "website": "http://www.schrottschaefer.de",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-rehau-neukuhschwitz-bohme-wertstofferfassung",
+  "name": "Böhme GmbH Wertstofferfassung",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rehau-Neukühschwitz",
+  "state": "BY",
+  "website": "https://entsorgen.de/",
+  "status": "unbekannt",
+  "notes": "unklar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (9)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-schweinfurt-alba-metall-sud-franken-4-standorte-1-un",
+  "name": "ALBA Metall Süd Franken GmbH (4 Standorte, 1 Unternehmen)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Schweinfurt",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Konzern alba.info (JS-Seite, Filialen dort nicht verifizierbar); deckt Schweinfurt-Tiefe + Wunsiedel ab",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-wiedergeltingen-alba-electronics-recycling",
+  "name": "ALBA Electronics Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wiedergeltingen",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "E-Schrott (Konzern alba.info)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-buchloe-schmidt-recycling",
+  "name": "Schmidt Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Buchloe",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Site bot-geschützt (403/JS-Wall), nicht verifizierbar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-buchloe-bameta",
+  "name": "Bameta GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Buchloe",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "keine Website gefunden",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-wasserburg-altmetallverwertung-sudbayern",
+  "name": "Altmetallverwertung Südbayern GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wasserburg",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "keine Website (Domain-Vermutung DNS-fail)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (unklar, keine prüfbare Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-wolfratshausen-johann-fischer-schrott-u-metallhandel",
+  "name": "Johann Fischer Schrott- u. Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wolfratshausen",
+  "state": "BY",
+  "website": "https://www.fischer-metallhandel.de/",
+  "status": "aktiv",
+  "notes": "FE-/NE-Schrott, Container, E-Schrott, BDSV (seit 1972)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kirchheim-heimstetten-peter-preimesser",
+  "name": "Peter Preimesser GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kirchheim-Heimstetten",
+  "state": "BY",
+  "website": "https://www.preimesser.de/",
+  "status": "aktiv",
+  "notes": "Schrott/NE/Kabel-Ankauf Tagespreise, Kabelgranulierung, Abbruch, Altauto",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-sendling-peter-preimesser",
+  "name": "Peter Preimesser GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "München-Sendling",
+  "state": "BY",
+  "website": "https://www.preimesser.de/",
+  "status": "aktiv",
+  "notes": "Schrott/NE/Kabel-Ankauf Tagespreise, Kabelgranulierung, Abbruch, Altauto",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kirchheim-eisen-wolf",
+  "name": "Eisen-Wolf GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kirchheim",
+  "state": "BY",
+  "website": "https://www.eisen-wolf.de/",
+  "status": "aktiv",
+  "notes": "NE-Vergütung ab 1 kg, Container, Industrie-Demontage/Abbruch (ALFA-Gruppe)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-otterfing-zwick-metall-recycling",
+  "name": "Zwick Metall-Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Otterfing",
+  "state": "BY",
+  "website": "http://www.zwick-metall.de/",
+  "status": "aktiv",
+  "notes": "Metallrecycling, Einkaufsbedingungen, Termin-Anlieferung",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-moosburg-huber-recycling",
+  "name": "Huber Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Moosburg",
+  "state": "BY",
+  "website": "https://www.huber-metallrecycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Abbrüche, Container (seit 1920, 4. Gen.)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-furstenfeldbruck-eisen-rudi-recycling",
+  "name": "Eisen Rudi Recycling GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Fürstenfeldbruck",
+  "state": "BY",
+  "website": "https://www.eisen-rudi.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Autoverwertung, Container (seit 1956)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-hugo-junkers-str-6-ffb-eisen-rudi-recycling",
+  "name": "Eisen Rudi Recycling GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Hugo-Junkers-Str. 6 – FFB!)",
+  "state": "BY",
+  "website": "https://www.eisen-rudi.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Autoverwertung, Container (seit 1956)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-augsburg-lechhausen-ortolf-recycling-erwin-ortolf",
+  "name": "Ortolf Recycling GmbH (Erwin Ortolf)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Augsburg-Lechhausen",
+  "state": "BY",
+  "website": "https://www.ortolf-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Container (70+ Jahre)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-neufinsing-luthner-metallrecycling",
+  "name": "Luthner Metallrecycling OHG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neufinsing",
+  "state": "BY",
+  "website": "https://luthner-metallrecycling.de/",
+  "status": "aktiv",
+  "notes": "Metallankauf, Container (seit 1951)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-baar-ebenhausen-td-rohstoffhandel-ebenhausen",
+  "name": "TD Rohstoffhandel Ebenhausen GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Baar-Ebenhausen",
+  "state": "BY",
+  "website": "https://www.td-ebenhausen.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle/Schrott, Altauto, Container (ALFA-Gruppe; Schwester v. TD Haidhof)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-augsburg-inningen-rohstoffhandel-sud-a-z",
+  "name": "Rohstoffhandel Süd A-Z UG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Augsburg-Inningen",
+  "state": "BY",
+  "website": "https://www.rohstoffhandelsued.de/",
+  "status": "aktiv",
+  "notes": "Metall-/Schrott-Barankauf, Industrieabbrüche",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-wurzburg-versbach-j-pfeifer-schrotthandel",
+  "name": "J. Pfeifer Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Würzburg-Versbach",
+  "state": "BY",
+  "website": "https://www.j-pfeifer-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Kabel, Altauto-Abholung",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-kumreut-odholz-helmut-nader-recycling-schrottradar-nade",
+  "name": "Helmut Nader Recycling OHG (schrottradar: „Nadel“)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kumreut-Ödholz",
+  "state": "BY",
+  "website": "https://www.nader-recycling.de/",
+  "status": "aktiv",
+  "notes": "Altmetall/Schrotthandel, Container (seit 1951)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-blaichach-foll-rohstoffhandel",
+  "name": "Föll Rohstoffhandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Blaichach",
+  "state": "BY",
+  "website": "https://www.foell-rohstoffhandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Container, Vereinssammlungen (auch Buchloe, Kempten)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-durach-foll-rohstoffhandel",
+  "name": "Föll Rohstoffhandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Durach",
+  "state": "BY",
+  "website": "https://www.foell-rohstoffhandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Container, Vereinssammlungen (auch Buchloe, Kempten)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-algri-albert-grieacher",
+  "name": "Algri (Albert Grießacher)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "https://www.algri.de/",
+  "status": "aktiv",
+  "notes": "Kupfer-Ankauf, Entrümpelung, Entkernung/Demontage (seit 2002)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-nurnberg-rota-hartmetall-unsal-ercan",
+  "name": "Rota-Hartmetall (Ünsal Ercan)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Nürnberg",
+  "state": "BY",
+  "website": "https://rota-hartmetall.com/",
+  "status": "aktiv",
+  "notes": "Hartmetall-Spezialist",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-nurnberg-eco-schrott-shakir-kiumars",
+  "name": "Eco Schrott (Shakir Kiumars)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Nürnberg",
+  "state": "BY",
+  "website": "https://www.ecoschrott.de/",
+  "status": "aktiv",
+  "notes": "mobiler Ankauf, Waage, Autoverwertung (B2B/Behörden)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-augsburg-spoto-altmetallverwertung",
+  "name": "Spoto Altmetallverwertung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Augsburg",
+  "state": "BY",
+  "website": "https://spoto-altmetall.de/",
+  "status": "aktiv",
+  "notes": "Hartmetall-/VHM-Spezialist + Altmetall, Demontage, Container",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-volkach-krautheim-kabel-ankauf-com-saricikli",
+  "name": "Kabel-Ankauf.com (Saricikli)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Volkach-Krautheim",
+  "state": "BY",
+  "website": "https://kabel-ankauf.com/",
+  "status": "aktiv",
+  "notes": "Kabelschrott/-reste, Buntmetalle",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website-verifiziert, Ankauf ja (17)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-hohenkammer-niernsdorf-schenker-industrie-u-stadtereinigung",
+  "name": "Schenker Industrie- u. Städtereinigung GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Hohenkammer-Niernsdorf",
+  "state": "BY",
+  "website": "https://www.schenker-umwelt.de/",
+  "status": "unbekannt",
+  "notes": "Efb, Sekundärrohstoffe; kein Ankaufbeleg",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3, nur Verzeichnis)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-augsburg-lechhausen-dehner-recycling",
+  "name": "Dehner Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Augsburg-Lechhausen",
+  "state": "BY",
+  "website": "https://www.dehner-recycling.de/",
+  "status": "unbekannt",
+  "notes": "Efb, Navi „Handel“; kein Ankaufbeleg",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3, nur Verzeichnis)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-nurnberg-schutt-karl-entsorgung",
+  "name": "Schutt Karl Entsorgung GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Nürnberg",
+  "state": "BY",
+  "website": "https://www.schuttkarl.de/",
+  "status": "unbekannt",
+  "notes": "Container/Entsorgung/Baustoffe, „Schrott\\",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3, nur Verzeichnis)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-roth-manfred-von-randow",
+  "name": "Manfred von Randow GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Roth",
+  "state": "BY",
+  "website": "https://www.von-randow.de/",
+  "status": "unbekannt",
+  "notes": "Efb, Metalle/Recycling/Wertstoffhof; kein Ankaufbeleg",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3, nur Verzeichnis)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-denklingen-taxer",
+  "name": "Taxer GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Denklingen",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "urspr. Website-Angabe: keine gefunden | nur schrottradar",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3, nur Verzeichnis)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-ichenhausen-michael-hammerschmidt",
+  "name": "Michael Hammerschmidt",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Ichenhausen",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "urspr. Website-Angabe: keine gefunden | nur schrottradar (s. Dedup-Cluster)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3, nur Verzeichnis)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-munchen-schrotthandler-prohl",
+  "name": "Schrotthändler Prohl",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "München",
+  "state": "BY",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "urspr. Website-Angabe: keine | nur schrottradar, mobil",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3, nur Verzeichnis)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "by-regen-katja-hartl",
+  "name": "Katja Hartl",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "94209",
+  "city": "Regen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 94209)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-loiching-j-reinhardt",
+  "name": "J. Reinhardt",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "84180",
+  "city": "Loiching",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 84180)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-hauzenberg-schumpa",
+  "name": "Schumpa",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "94051",
+  "city": "Hauzenberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 94051)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-osterhofen-gebr-brandstatter",
+  "name": "Gebr. Brandstätter",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "94486",
+  "city": "Osterhofen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 94486)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-plattling-avas-filiale",
+  "name": "AVAS-Filiale",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "94447",
+  "city": "Plattling",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 94447)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-hausen-k-w",
+  "name": "K&W",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "93345",
+  "city": "Hausen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 93345)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-rodelsee-knettenbrech-wagner",
+  "name": "Knettenbrech-Wagner",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97348",
+  "city": "Rödelsee",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97348)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-mainbernheim-lelito",
+  "name": "Lelito",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97350",
+  "city": "Mainbernheim",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97350)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-kleinlangheim-lenhardt",
+  "name": "Lenhardt",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97355",
+  "city": "Kleinlangheim",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97355)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-iphofen-koch",
+  "name": "Koch",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97346",
+  "city": "Iphofen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97346)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-lohr-trapp",
+  "name": "Trapp",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97816",
+  "city": "Lohr",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97816)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-marktheidenfeld-mrm",
+  "name": "MRM",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97828",
+  "city": "Marktheidenfeld",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97828)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-hof-reuss",
+  "name": "REUSS",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "95028",
+  "city": "Hof",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 95028)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-konradsreuth-g-reuss",
+  "name": "G. Reuss",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "95176",
+  "city": "Konradsreuth",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 95176)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-amberg-graupner",
+  "name": "Graupner",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "92224",
+  "city": "Amberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 92224)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-auerbach-ark",
+  "name": "ARK",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91275",
+  "city": "Auerbach",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91275)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-ursensollen-wollenzhofen",
+  "name": "Wollenzhofen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "92289",
+  "city": "Ursensollen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 92289)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-velden-albrecht",
+  "name": "Albrecht",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91235",
+  "city": "Velden",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91235)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-hilpoltstein-j-muller",
+  "name": "J. Müller",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91161",
+  "city": "Hilpoltstein",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91161)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-roth-blank",
+  "name": "Blank",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91154",
+  "city": "Roth",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91154)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-thalmassing-die-entsorger",
+  "name": "Die Entsorger",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91177",
+  "city": "Thalmässing",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91177)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-nordlingen-sejdiu",
+  "name": "Sejdiu",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86720",
+  "city": "Nördlingen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86720)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-nordlingen-kohler",
+  "name": "Köhler",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86720",
+  "city": "Nördlingen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86720)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-otting-bachinger",
+  "name": "Bachinger",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86700",
+  "city": "Otting",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86700)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-rain-bauch",
+  "name": "Bauch",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86641",
+  "city": "Rain",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86641)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-hochstadt-rissel",
+  "name": "Rissel",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "89420",
+  "city": "Höchstädt",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 89420)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-offingen-seidel",
+  "name": "Seidel",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "89362",
+  "city": "Offingen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 89362)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-ichenhausen-baur-bayer-graf-bauer",
+  "name": "Baur/Bayer/Graf/Bauer",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "89335",
+  "city": "Ichenhausen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 89335)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-ichenhausen-emil-philip-hammerschmidt",
+  "name": "Emil/Philip Hammerschmidt",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "89335",
+  "city": "Ichenhausen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 89335)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-waldstetten-roder",
+  "name": "Röder",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "89367",
+  "city": "Waldstetten",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 89367)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-marktoberdorf-hoffmann",
+  "name": "Hoffmann",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "87616",
+  "city": "Marktoberdorf",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 87616)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-biessenhofen-bachinger",
+  "name": "Bachinger",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "87640",
+  "city": "Biessenhofen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 87640)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-obergunzburg-zinth",
+  "name": "Zinth",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "87634",
+  "city": "Obergünzburg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 87634)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-memmingerberg-eisenhut",
+  "name": "Eisenhut",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "87766",
+  "city": "Memmingerberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 87766)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-durach-fischl",
+  "name": "Fischl",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "87471",
+  "city": "Durach",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 87471)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-weitnau-hartmann",
+  "name": "Hartmann",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "87480",
+  "city": "Weitnau",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 87480)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-peienberg-seiler",
+  "name": "Seiler",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "82380",
+  "city": "Peißenberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 82380)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-peienberg-steindl",
+  "name": "Steindl",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "82380",
+  "city": "Peißenberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 82380)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-schongau-drosdz",
+  "name": "Drosdz",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86956",
+  "city": "Schongau",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86956)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-spatzenhausen-poncet",
+  "name": "Poncet",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "82418",
+  "city": "Spatzenhausen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 82418)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-attenkirchen-koch",
+  "name": "Koch",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "85395",
+  "city": "Attenkirchen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 85395)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-kirchdorf-lachermeier",
+  "name": "Lachermeier",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "85414",
+  "city": "Kirchdorf",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 85414)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-erding-soika",
+  "name": "Soika",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "85435",
+  "city": "Erding",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 85435)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-moosburg-meringer",
+  "name": "Meringer",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "85368",
+  "city": "Moosburg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 85368)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-rimsting-schwanzer",
+  "name": "Schwanzer",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "83253",
+  "city": "Rimsting",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 83253)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-mettenheim-baumert",
+  "name": "Baumert",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "84562",
+  "city": "Mettenheim",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 84562)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-dietersburg-eibl",
+  "name": "Eibl",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "84378",
+  "city": "Dietersburg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 84378)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-pfarrkirchen-michel",
+  "name": "Michel",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "84347",
+  "city": "Pfarrkirchen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 84347)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-obernburg-willefuhr",
+  "name": "Willeführ",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "63785",
+  "city": "Obernburg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 63785)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-dorfprozelten-mehring",
+  "name": "Mehring",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97904",
+  "city": "Dorfprozelten",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97904)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-alzenau-heilmann",
+  "name": "Heilmann",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "63755",
+  "city": "Alzenau",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 63755)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-mainaschaff-will",
+  "name": "Will",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "63814",
+  "city": "Mainaschaff",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 63814)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-rothenburg-eisenmann",
+  "name": "Eisenmann",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91541",
+  "city": "Rothenburg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91541)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-rothenburg-derichebourg",
+  "name": "Derichebourg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91541",
+  "city": "Rothenburg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91541)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-bechhofen-eckhardt",
+  "name": "Eckhardt",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91572",
+  "city": "Bechhofen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91572)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-heilsbrunn-eger",
+  "name": "Eger",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91560",
+  "city": "Heilsbrunn",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91560)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-wolframs-eschenbach-kocher",
+  "name": "Kocher",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91639",
+  "city": "Wolframs-Eschenbach",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91639)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-uffenheim-schneck",
+  "name": "Schneck",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97215",
+  "city": "Uffenheim",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97215)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-emskirchen-frankenberg",
+  "name": "Frankenberg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91448",
+  "city": "Emskirchen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91448)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-erlbach-barth-markt",
+  "name": "Barth Markt",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91459",
+  "city": "Erlbach",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91459)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-gunzenhausen-r-k",
+  "name": "R&K",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91710",
+  "city": "Gunzenhausen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91710)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-eggolsheim-laubinger",
+  "name": "Laubinger",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91330",
+  "city": "Eggolsheim",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91330)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-adelsdorf-kaiser",
+  "name": "Kaiser",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91325",
+  "city": "Adelsdorf",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91325)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-adelsdorf-michalak",
+  "name": "Michalak",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91325",
+  "city": "Adelsdorf",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91325)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-erlangen-konigs",
+  "name": "Königs",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91056",
+  "city": "Erlangen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91056)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-abenberg-veg",
+  "name": "VEG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "91183",
+  "city": "Abenberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 91183)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-aichach-auduna",
+  "name": "AUDUNA",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86551",
+  "city": "Aichach",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86551)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-schrobenhausen-bichler",
+  "name": "Bichler",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86529",
+  "city": "Schrobenhausen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86529)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-friedberg-winter",
+  "name": "Winter",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86316",
+  "city": "Friedberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86316)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-friedberg-winter-2",
+  "name": "Winter",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "86316",
+  "city": "Friedberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 86316)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-lappersdorf-kollmann",
+  "name": "Kollmann",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "93138",
+  "city": "Lappersdorf",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 93138)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-wenzenbach-meier",
+  "name": "Meier",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "93173",
+  "city": "Wenzenbach",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 93173)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-tegernheim-stuber",
+  "name": "Stuber",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "93105",
+  "city": "Tegernheim",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 93105)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-roding-jansen",
+  "name": "Jansen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "93426",
+  "city": "Roding",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 93426)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-roding-sindlhauser",
+  "name": "Sindlhauser",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "93426",
+  "city": "Roding",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 93426)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-hunderdorf-weis",
+  "name": "Weis",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "94336",
+  "city": "Hunderdorf",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 94336)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-hunderdorf-roku",
+  "name": "Roku",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "94336",
+  "city": "Hunderdorf",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 94336)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-worth-alteisen-express",
+  "name": "Alteisen-Express",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "93086",
+  "city": "Wörth",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 93086)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-nurnberg-kulzer",
+  "name": "Kulzer",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "90441",
+  "city": "Nürnberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 90441)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-nurnberg-klein",
+  "name": "Klein",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "90471",
+  "city": "Nürnberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 90471)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-ammerndorf-dombrowski",
+  "name": "Dombrowski",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "90614",
+  "city": "Ammerndorf",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 90614)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-langenzenn-neigert",
+  "name": "Neigert",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "90579",
+  "city": "Langenzenn",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 90579)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-rotal-schubert",
+  "name": "Schubert",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "90574",
+  "city": "Roßtal",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 90574)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-munchen-r-muller",
+  "name": "R. Müller",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "81829",
+  "city": "München",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 81829)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-munchen-aquila",
+  "name": "Aquila",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "80993",
+  "city": "München",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 80993)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-munchen-kupferdantler",
+  "name": "Kupferdantler",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "81243",
+  "city": "München",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 81243)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-bergkirchen-hartmann",
+  "name": "Hartmann",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "85232",
+  "city": "Bergkirchen",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 85232)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-mindelheim-schielle",
+  "name": "Schielle",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "87719",
+  "city": "Mindelheim",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 87719)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-schweinfurt-sauber",
+  "name": "Sauber",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97424",
+  "city": "Schweinfurt",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97424)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-schweinfurt-lesch",
+  "name": "Lesch",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97424",
+  "city": "Schweinfurt",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97424)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-schweinfurt-reinhardt",
+  "name": "Reinhardt",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97424",
+  "city": "Schweinfurt",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97424)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-knetzgau-kempf",
+  "name": "Kempf",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97478",
+  "city": "Knetzgau",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97478)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-knetzgau-russ",
+  "name": "Russ",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97478",
+  "city": "Knetzgau",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97478)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-hafurt-denk",
+  "name": "Denk",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97437",
+  "city": "Haßfurt",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97437)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-konigsberg-anger",
+  "name": "Anger",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97486",
+  "city": "Königsberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97486)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-konigsberg-luczkow",
+  "name": "Luczkow",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97486",
+  "city": "Königsberg",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97486)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ },
+ {
+  "slug": "by-burgpreppach-korn",
+  "name": "Korn",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "97496",
+  "city": "Burgpreppach",
+  "state": "BY",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 97496)",
+  "provenance": {
+   "seed_file": "by",
+   "section": "Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ }
+]

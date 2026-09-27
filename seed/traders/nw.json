@@ -1,0 +1,5366 @@
+[
+ {
+  "slug": "nw-duisburg-tsr-deutschland-ndl-duisburg",
+  "name": "TSR Deutschland GmbH & Co. KG (Ndl. Duisburg)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-duisburg/",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Schrott, Shredder, TSR40-Anlage (Rohstoffinsel 2-10)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "ja (nur Gewerbe, keine Privatkunden)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-tsr-deutschland-ndl-dortmund",
+  "name": "TSR Deutschland GmbH & Co. KG (Ndl. Dortmund)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund",
+  "state": "NW",
+  "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-dortmund/",
+  "status": "aktiv",
+  "notes": "Metallrecycling, Hafenstandort (Kohlenweg 10a)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "ja (nur Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-tsr-deutschland-ndl-gelsenkirchen",
+  "name": "TSR Deutschland GmbH & Co. KG (Ndl. Gelsenkirchen)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen",
+  "state": "NW",
+  "website": "https://www.tsr-recycling.de/standorte",
+  "status": "aktiv",
+  "notes": "Schrottankauf, Kabelzerlegung (Grimbergstr. 85)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "ja (nur Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-lunen-tsr-group-konzernzentrale",
+  "name": "TSR Group GmbH & Co. KG (Konzernzentrale)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lünen",
+  "state": "NW",
+  "website": "https://www.tsr.eu/",
+  "status": "pruefung",
+  "notes": "Europas größter Stahlschrott-Recycler, ~170 Standorte",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar (Holding)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-elg-aperam-recycling-ehem-elg-haniel",
+  "name": "ELG GmbH (Aperam Recycling, ehem. ELG Haniel)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "https://www.elgmetals.com/",
+  "status": "aktiv",
+  "notes": "Edelstahlschrott, Superlegierungen, Titan (Kremerskamp 16)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-elg-utica-alloys",
+  "name": "ELG Utica Alloys GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "https://www.elgmetals.com/",
+  "status": "aktiv",
+  "notes": "Superlegierungen-Aufbereitung (Kremerskamp 16)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-cablo-tsr-aurubis-jv",
+  "name": "Cablo GmbH (TSR/Aurubis-JV)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen",
+  "state": "NW",
+  "website": "https://www.cablo.eu/",
+  "status": "aktiv",
+  "notes": "Kabelrecycling (Cu-/Alu-Granulat, ~40 kt/a)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "ja (B2B Kabelschrott)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-lunen-aurubis-lunen",
+  "name": "Aurubis Lünen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lünen",
+  "state": "NW",
+  "website": "https://www.aurubis.com/",
+  "status": "aktiv",
+  "notes": "Kupferrecycling (Sekundärhütte)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-grillo-altmetall-wilhelm-grillo-handelsg",
+  "name": "Grillo Altmetall GmbH / Wilhelm Grillo Handelsges.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallhandel/-maklerei (Willy-Brandt-Ring 11)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-ferro-duo",
+  "name": "Ferro Duo GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottlager/Behandlung (Vulkanstr. 54)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-heinrich-hark",
+  "name": "Heinrich Hark GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottaufbereitung (Sympherstr. 96a)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-warne-nachf-recycling",
+  "name": "Warne Nachf. Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott + Altfahrzeug-Demontage (Sympherstr. 61)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "ja (Auto; Metall unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-rs-recycling",
+  "name": "RS-Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metall (Sympherstr. 96)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-remineral-rohstoffverwertung-entsorgung",
+  "name": "remineral Rohstoffverwertung & Entsorgung",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rohstoffverwertung (Vulkanstr. 36)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-sonsbeck-lager-duisburg-b-u-r-bernhardt-umwelt-recycling",
+  "name": "B-U-R GmbH Bernhardt Umwelt Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sonsbeck / Lager Duisburg",
+  "state": "NW",
+  "website": "https://www.bur-recycling-duisburg.de",
+  "status": "pruefung",
+  "notes": "Metall/Mischschrott, Container, Demontage",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar (Entsorgungsfokus)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-a-mandel-schrottaufbereitung-recycling-u",
+  "name": "A. Mandel (Schrottaufbereitung, Recycling- u. Hafenumschlag)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottaufbereitung, Hafen (Uferstr. 39)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-gbt-schrott-u-metallrecycling",
+  "name": "GBT Schrott- u. Metallrecycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen",
+  "state": "NW",
+  "website": "https://www.gbt-recycling.de",
+  "status": "pruefung",
+  "notes": "Schrott/Metall (Hobackestr. 92)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-rohstoffhandel-heinrichs",
+  "name": "Rohstoffhandel Heinrichs GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottankauf (nur Branchenhinweis)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gladbeck-heidelbach-metall-recycling",
+  "name": "Heidelbach Metall Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gladbeck",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metall (nur 11880-Nennung)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-poeppel",
+  "name": "Poeppel GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund",
+  "state": "NW",
+  "website": "https://www.poeppel-dortmund.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/NE-Großhandel, Container, Demontage (Hannöversche Str. 30b)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Dortmund / Hagen / Ennepetal",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-hermstruwer",
+  "name": "Hermstrüwer GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund",
+  "state": "NW",
+  "website": "https://www.hermstruewer.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandel seit 1899 (Kanalstr. 89)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Dortmund / Hagen / Ennepetal",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-a-r-schrotthandel",
+  "name": "A&R Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund",
+  "state": "NW",
+  "website": "https://schrotthandel-dortmund.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle Cu/Messing/Alu/Zinn (Planetenfeldstr. 118)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Dortmund / Hagen / Ennepetal",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-hagen-niedergriese-kevin-niedergriese",
+  "name": "Niedergriese (Kevin Niedergriese)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Hagen",
+  "state": "NW",
+  "website": "https://niedergriese.de/schrotthandel-hagen",
+  "status": "aktiv",
+  "notes": "Familienbetrieb seit 1951, Höchstpreise, Container",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Dortmund / Hagen / Ennepetal",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-hagen-ms-metallhandel",
+  "name": "MS Metallhandel e.K.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hagen",
+  "state": "NW",
+  "website": "https://www.ms-metallhandel-iserlohn.de/schrotthandel",
+  "status": "aktiv",
+  "notes": "NE-Metalle/Edelstahl, LME-Kurse, LKW-Waage (Werkzeugstr. 28)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Dortmund / Hagen / Ennepetal",
+   "ankauf_raw": "ja (Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-ennepetal-altfeld",
+  "name": "Altfeld KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ennepetal",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metalle, zert. Entsorgungsfachbetrieb (Kölner Str. 27)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Dortmund / Hagen / Ennepetal",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-metallion",
+  "name": "Metallion GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "https://metallion.de/aluminum-ankauf",
+  "status": "aktiv",
+  "notes": "NE-Metalle, Alu-Spezialist (Heßlerstr. 77)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-ch-metallhandel",
+  "name": "CH Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "https://ch-metallhandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall, Container (Wilhelm-Beckmann-Str. 14)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-c-m-r-recycling-vertriebs",
+  "name": "C.M.R Recycling Vertriebs GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallankauf/-verkauf deutschlandweit (Ripshorster Str. 386)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-schrottplatz-prison-claudia-prison",
+  "name": "Schrottplatz Prison (Claudia Prison)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "http://www.schrottplatz-essen.de/",
+  "status": "aktiv",
+  "notes": "Kabelschrott, Katalysatoren, NE-Metalle (Hövelstr. 254)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-schrotthandel-missal-metzler",
+  "name": "Schrotthandel Missal / Metzler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "https://schrotthandel-metzler-essen.de/schrottabholung",
+  "status": "aktiv",
+  "notes": "Abholung, Demontage, Brennarbeiten (Zum Oberhof 32)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "ja (mobil)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-altmetall-hauser",
+  "name": "Altmetall Häuser",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "https://altmetall-haeuser.de",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallhandel (Ripshorster Str. 37)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-cbr-bracke",
+  "name": "CBR Bracke GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Manderscheidtstr. 91)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-thp-metall-schrott-handel",
+  "name": "THP Metall + Schrott Handel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Schlenhofstr. 10)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-schrott-kruger-mobil",
+  "name": "Schrott-Krüger (mobil)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "https://schrott-krueger.de/",
+  "status": "aktiv",
+  "notes": "Abholung, Haushaltsauflösung, Ladekran",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "ja (mengenabhängig)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-mulheim-an-der-ruhr-paul-jost",
+  "name": "Paul Jost GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mülheim an der Ruhr",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Verwertung (Timmerhellstr. 7)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-mulheim-an-der-ruhr-schute-verstappen",
+  "name": "Schüte & Verstappen GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mülheim an der Ruhr",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Entsorgung (Aktienstr. 23)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-oberhausen-ebh-schrott-recycling-umwelttechnik",
+  "name": "EBH Schrott Recycling Umwelttechnik GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oberhausen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Altmetall (Tackstr. 21)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bottrop-knumann-container-kupfer-ankauf",
+  "name": "Knümann (Container/Kupfer-Ankauf)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bottrop",
+  "state": "NW",
+  "website": "https://www.container-knuemann.de/kupfer-ankauf-bottrop.html",
+  "status": "aktiv",
+  "notes": "Kupfer-/Metallankauf, Container (Werkstr. 4)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bottrop-bsh-bottroper-schrotthandel",
+  "name": "BSH Bottroper Schrotthandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bottrop",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (nur Handelsregister-Nennung)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Essen / Mülheim / Oberhausen / Bottrop",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-h-r-b-rohstoffhandel-ruhr",
+  "name": "H.R.B Rohstoffhandel Ruhr",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "https://rohstoffhandel.ruhr/",
+  "status": "aktiv",
+  "notes": "Autoverwertung (Verwertungsnachweis) + Altmetall (Dieselstr. 18-20)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bochum / Herne",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-metallankauf-profi-nrw-schrott-metallank",
+  "name": "Metallankauf Profi (NRW Schrott & Metallankauf)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "https://metallankauf-profi.de/",
+  "status": "aktiv",
+  "notes": "Bunt-/Edelmetalle, Kupfer/Messing (Roberstr. 70)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bochum / Herne",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-a-fischer-sohne",
+  "name": "A. Fischer & Söhne GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallsortierung (Altenbochumer Str. 15)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bochum / Herne",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-herne-schrottankauf-exclusiv-mobil",
+  "name": "Schrottankauf Exclusiv (mobil)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Herne",
+  "state": "NW",
+  "website": "https://www.schrottankauf-exclusiv.de/schrottankauf-dortmund/",
+  "status": "aktiv",
+  "notes": "Altmetallankauf mit Abholung, NRW-weit",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bochum / Herne",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dusseldorf-bohner-altmetalle",
+  "name": "Böhner Altmetalle GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Düsseldorf",
+  "state": "NW",
+  "website": "https://boehner-altmetalle.de/",
+  "status": "aktiv",
+  "notes": "NE-Metalle, publizierte Tagespreise (Königsberger Str. 234a)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Düsseldorf / Neuss / Mönchengladbach / Krefeld",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dusseldorf-ossenbuhl-schrotthandels",
+  "name": "Ossenbühl Schrotthandels GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Düsseldorf",
+  "state": "NW",
+  "website": "https://www.schrotthandel-duesseldorf.de/",
+  "status": "aktiv",
+  "notes": "Eisen/NE, Altauto, E-Schrott seit 1970 (Im Liefeld 44)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Düsseldorf / Neuss / Mönchengladbach / Krefeld",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dusseldorf-p-p-buntmetallhandel",
+  "name": "P&P Buntmetallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Düsseldorf",
+  "state": "NW",
+  "website": "https://www.schrott-duesseldorf.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle, Sonderlegierungen, Hartmetall, Edelmetalle (Bamberger Str. 3-5)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Düsseldorf / Neuss / Mönchengladbach / Krefeld",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dusseldorf-robert-schultze-altmetallgrohandel",
+  "name": "Robert Schultze Altmetallgroßhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Düsseldorf",
+  "state": "NW",
+  "website": "https://www.schultze-altmetall.de/leistungen",
+  "status": "aktiv",
+  "notes": "Alt-/Buntmetalle, Container (Höherweg 258)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Düsseldorf / Neuss / Mönchengladbach / Krefeld",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nrw-weit-schrott24-metaloop-online-portal",
+  "name": "Schrott24 (Metaloop, Online-Portal)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "NRW-weit",
+  "state": "NW",
+  "website": "https://www.schrott24.de/",
+  "status": "aktiv",
+  "notes": "Online-Ankauf, 80+ Anlieferstellen, alle Metalle + E-Schrott",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Düsseldorf / Neuss / Mönchengladbach / Krefeld",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-monchengladbach-allmeta",
+  "name": "Allmeta",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mönchengladbach",
+  "state": "NW",
+  "website": "https://allmeta.de/",
+  "status": "aktiv",
+  "notes": "Altmetall, Abbrüche, Container, E-Schrott (Hontzlarstr. 18)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Düsseldorf / Neuss / Mönchengladbach / Krefeld",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-wkr",
+  "name": "WKR GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln",
+  "state": "NW",
+  "website": "https://www.wkr-schrott.de/",
+  "status": "aktiv",
+  "notes": "3 Schrottplätze (Rodenkirchen/Longerich/Niehl), alle Altmetalle",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Köln / Bonn / Leverkusen / Dormagen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-kolfenbach-entsorgungsfachbetrieb",
+  "name": "Kolfenbach (Entsorgungsfachbetrieb)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln",
+  "state": "NW",
+  "website": "https://www.kolfenbach.de/dienstleistungen/schrott-und-metallgrosshandel/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandel seit 1950 (Delmenhorster Str. 1)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Köln / Bonn / Leverkusen / Dormagen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-a-a-metall-schrotthandel",
+  "name": "A&A Metall- & Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln",
+  "state": "NW",
+  "website": "https://www.aa-metalle.de/",
+  "status": "aktiv",
+  "notes": "Abbruch + Metallankauf (Causemannstr. 115)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Köln / Bonn / Leverkusen / Dormagen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dormagen-altmetalle-kraft",
+  "name": "Altmetalle Kraft",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dormagen",
+  "state": "NW",
+  "website": "http://schrott-koeln.de/",
+  "status": "aktiv",
+  "notes": "Tagespreisliste, Waage vor Ort (Robert-Bosch-Str. 24)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Köln / Bonn / Leverkusen / Dormagen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wesseling-zitzmann-recycling",
+  "name": "Zitzmann Recycling",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wesseling",
+  "state": "NW",
+  "website": "https://www.zitzmann-recycling.de/",
+  "status": "aktiv",
+  "notes": "Metall-/Kabelankauf, Demontage, Container",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Köln / Bonn / Leverkusen / Dormagen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bonn-pur-umwelt-p-u-richter",
+  "name": "PUR Umwelt (P.U. Richter)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bonn",
+  "state": "NW",
+  "website": "https://www.pur-umwelt.com/",
+  "status": "aktiv",
+  "notes": "Schrottannahme mit Waage + Container (Friesdorfer Str. 176)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Köln / Bonn / Leverkusen / Dormagen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-pegas-schrotthandel",
+  "name": "Pegas Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal",
+  "state": "NW",
+  "website": "https://pegas-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle, Kabel, Autoankauf, Container (Hohenstein 158)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-lusch-heinz",
+  "name": "Lusch Heinz GmbH & Co. KG",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung + Schrott/Metall (Bochumer Str. 3)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "ja (Auto; Altmetall unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-goke-rohstoffverwertung",
+  "name": "Göke Rohstoffverwertung GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Recycling (Flanhard 7)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-schrott-metallhandlung-birgit-kornblum",
+  "name": "Schrott & Metallhandlung Birgit Kornblum",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Altmetall (Clausenstr. 7)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-solingen-eugen-scalabrin",
+  "name": "Eugen Scalabrin GmbH & Co.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Solingen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Recycling (Martinstr. 34)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-solingen-tepel-metallrecycling",
+  "name": "Tepel Metallrecycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Solingen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallgroßhandel (Hofgerichtsweg 36)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-solingen-max-bontgen-sohn",
+  "name": "Max Böntgen & Sohn",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Solingen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metallgroßhandel (Lotsenstr. 12)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-solingen-karl-wolfgang-torner",
+  "name": "Karl Wolfgang Torner",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Solingen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metalle (Oben zum Holz 60)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-remscheid-srh-schrott-rohstoff-handel",
+  "name": "SRH Schrott Rohstoff Handel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Remscheid",
+  "state": "NW",
+  "website": "https://srh-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Tageshöchstpreise, Abholung/Anlieferung (Grünenplatzstr. 1A)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-remscheid-aust-schrott-u-metalle",
+  "name": "Aust Schrott u. Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Remscheid",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metalle (nur 11880-Nennung)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Bergisches Land (Wuppertal / Solingen / Remscheid)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-derleh-recycling",
+  "name": "Derleh Recycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "https://www.derleh-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel, Container (Hessenbusch 185)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-metall-recycling-munster",
+  "name": "Metall Recycling Münster",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "https://metall-rm.de/",
+  "status": "aktiv",
+  "notes": "Eisen/Kupfer/Messing/Edelstahl/Nickel/Hartmetall (Königsberger Str. 109)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-srm-schrott-metallrecycling-munster",
+  "name": "SRM Schrott & Metallrecycling Münster GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottannahme/-aufbereitung (Kesslerweg 37)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-recycling-bartikowsky",
+  "name": "Recycling Bartikowsky",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "https://recycling-bartikowsky.de",
+  "status": "pruefung",
+  "notes": "Schrott/Metall, Demontage, Container (Nienkamp 26)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-schmelzer-recycling",
+  "name": "Schmelzer Recycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "https://recycling-schmelzer.de",
+  "status": "pruefung",
+  "notes": "Metallrecycling, Container (Killingstr. 25)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-kuhn-recycling",
+  "name": "Kuhn Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metall (Nienkamp 28)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-a-z-recycling-udo-salzsieder",
+  "name": "A-Z Recycling (Udo Salzsieder)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "https://a-z-recycling.de",
+  "status": "pruefung",
+  "notes": "Schrott/Metallankauf, Abholung, Demontage (Salzmannstr. 61)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-smi-metallrecycling",
+  "name": "SMI Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "https://www.smi-metallrecycling.de",
+  "status": "pruefung",
+  "notes": "Schrott (Am Schild 11)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-schrotthandel-ms",
+  "name": "Schrotthandel-MS",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "https://www.schrotthandel-ms.de",
+  "status": "pruefung",
+  "notes": "Schrott (Timmerscheidtstr. 6)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-schrottdirektor",
+  "name": "Schrottdirektor",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "https://www.schrottdirektor.de",
+  "status": "pruefung",
+  "notes": "Schrott (Fritz-Pütter-Str. 13)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bielefeld-mm-schrotthandel",
+  "name": "MM Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bielefeld",
+  "state": "NW",
+  "website": "https://www.mmschrott.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle, Container, Ladekran-Abholung",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bielefeld-drekopf",
+  "name": "Drekopf",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bielefeld",
+  "state": "NW",
+  "website": "https://www.drekopf.de/",
+  "status": "pruefung",
+  "notes": "Entsorgung/Recycling (Tiesloh 1)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar (Entsorgungsfokus)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bielefeld-wolfgang-dehne",
+  "name": "Wolfgang Dehne GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bielefeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Uferstr. 12-16)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bielefeld-drewer-autoverwertungs-u-handelsges",
+  "name": "Drewer Autoverwertungs- u. Handelsges.",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Bielefeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altfahrzeug-Demontage (Werningshof 26)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "ja (Auto; Altmetall unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nottuln-msr-munsterland-schrott-recycling",
+  "name": "MSR Münsterland Schrott Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nottuln",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Container (nur europages-Nennung)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munsterland-am-altmetall-grohandel",
+  "name": "AM Altmetall Großhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münsterland",
+  "state": "NW",
+  "website": "https://am-altmetall.de/",
+  "status": "aktiv",
+  "notes": "Industrie-Schrottgroßhandel, eigene Logistik",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Münsterland / OWL (Münster, Bielefeld, Nottuln)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-aachen-wertz-handelsgesellschaft-mbh",
+  "name": "WERTZ Handelsgesellschaft mbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aachen",
+  "state": "NW",
+  "website": "https://www.wertz.de/schrott-und-ne-metall-recycling",
+  "status": "aktiv",
+  "notes": "Schrott/NE, Großscheren (Rödgerheidweg 34 / Brückenstr. 260)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Aachen / Düren / Stolberg",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duren-wertz-handelsgesellschaft-mbh",
+  "name": "WERTZ Handelsgesellschaft mbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Düren",
+  "state": "NW",
+  "website": "https://www.wertz.de/schrott-und-ne-metall-recycling",
+  "status": "aktiv",
+  "notes": "Schrott/NE, Großscheren (Rödgerheidweg 34 / Brückenstr. 260)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Aachen / Düren / Stolberg",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-aachen-steinrath-metalle",
+  "name": "Steinrath Metalle GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aachen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallhandel 4. Generation (Hüttenstr. 133-135)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Aachen / Düren / Stolberg",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-stolberg-altmetalle-witt",
+  "name": "Altmetalle Witt GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stolberg",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Münsterbachstr. 3 / Südstr. 99)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Aachen / Düren / Stolberg",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wurselen-altmetalle-witt",
+  "name": "Altmetalle Witt GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Würselen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Münsterbachstr. 3 / Südstr. 99)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Aachen / Düren / Stolberg",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-stolberg-staritz",
+  "name": "Staritz GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stolberg",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Königin-Astrid-Str. 21)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Aachen / Düren / Stolberg",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-stolberg-aurubis-stolberg",
+  "name": "Aurubis Stolberg GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Stolberg",
+  "state": "NW",
+  "website": "https://www.aurubis-stolberg.com/",
+  "status": "pruefung",
+  "notes": "Kupferhalbzeug-Produzent (Zweifaller Str. 150), kein öffentl. Ankauf",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Aachen / Düren / Stolberg",
+   "ankauf_raw": "unklar (Hersteller)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dusseldorf-rheinische-scheidestatte-stammhaus",
+  "name": "Rheinische Scheidestätte GmbH (Stammhaus)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Düsseldorf",
+  "state": "NW",
+  "website": "https://rheinische-scheidestaette.de/",
+  "status": "aktiv",
+  "notes": "Gold/Silber/Platin/Palladium, Schmuck/Münzen/Barren",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Scheideanstalten / Edelmetalle (NRW-Filialen)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-paderborn-rheinische-scheidestatte-filiale",
+  "name": "Rheinische Scheidestätte (Filiale)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Paderborn",
+  "state": "NW",
+  "website": "https://rheinische-scheidestaette.de/unternehmen/filialen/paderborn",
+  "status": "aktiv",
+  "notes": "Edelmetall-An-/Verkauf (Westernstraße 14) | (Filiale)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Scheideanstalten / Edelmetalle (NRW-Filialen)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nrw-weit-schrottabholung-org-netzwerk-0157",
+  "name": "Schrottabholung.org-Netzwerk (0157)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "NRW-weit",
+  "state": "NW",
+  "website": "https://schrottabholung.org/",
+  "status": "aktiv",
+  "notes": "Altmetall-/Kabelankauf mit Abholung, Autoverwertung",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nrw-weit-schrott-ankauf-nrw-0163",
+  "name": "Schrott-Ankauf-NRW (0163)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "NRW-weit",
+  "state": "NW",
+  "website": "https://www.schrott-ankauf-nrw.de/schrottankauf-remscheid",
+  "status": "aktiv",
+  "notes": "Altmetallankauf + Mini-Containerdienst seit 2017",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nrw-weit-schrotthandler24",
+  "name": "Schrotthändler24",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "NRW-weit",
+  "state": "NW",
+  "website": "https://schrotthaendler-24.de/",
+  "status": "aktiv",
+  "notes": "Altmetallankauf online + Abholung",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nrw-weit-schrotthandler-org-0163",
+  "name": "Schrotthändler.org (0163)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "NRW-weit",
+  "state": "NW",
+  "website": "https://schrotthaendler.org/",
+  "status": "aktiv",
+  "notes": "Abholung, Ankauf, Autoteile",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-ruhrgebiet-nrw-schrott-held-0152",
+  "name": "Schrott-Held (0152)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ruhrgebiet/NRW",
+  "state": "NW",
+  "website": "https://www.schrott-held.de/schrottankauf-dortmund.html",
+  "status": "aktiv",
+  "notes": "Abholung + Ankauf, Demontage",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-ruhrgebiet-nrw-schrotthandel-nrw-klungelskerle-0163",
+  "name": "Schrotthandel NRW / Klüngelskerle (0163)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ruhrgebiet/NRW",
+  "state": "NW",
+  "website": "https://schrotthandel.nrw/schrottankauf",
+  "status": "aktiv",
+  "notes": "Altmetall (Cu/Messing/Alu/Edelstahl), Autoteile",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nrw-weit-01522-schrottankauf-netzwerk-hamm-hagen",
+  "name": "01522-Schrottankauf-Netzwerk (Hamm/Hagen/Krefeld/Bonn)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "NRW-weit",
+  "state": "NW",
+  "website": "https://schrottankauf-hamm.de/",
+  "status": "aktiv",
+  "notes": "Einheitliche Template-Seiten, eine Rufnummer — 1 Betreiber",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nrw-weit-kfz-entsorgen-de",
+  "name": "kfz-entsorgen.de",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "NRW-weit",
+  "state": "NW",
+  "website": "https://kfz-entsorgen.de/kfz-ankauf",
+  "status": "aktiv",
+  "notes": "Auto-/Unfallwagen-Ankauf, Verwertungsnachweis via Partner | (KFZ-Ankauf)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-nrw-hn-schrott-metallrecycling",
+  "name": "HN Schrott- & Metallrecycling",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "NRW",
+  "state": "NW",
+  "website": "https://www.hn-schrott.de/",
+  "status": "pruefung",
+  "notes": "Schrottplatz, Ankauf (Ort nicht verifiziert)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Mobile / NRW-weite Händler (ohne geprüften stationären Platz)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-krefeld-josef-hendrichs-metallhandels",
+  "name": "Josef Hendrichs Metallhandels GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Krefeld",
+  "state": "NW",
+  "website": "https://www.hendrichs-metall.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metallrecycling, Ankaufspreise f. Kleinanlieferer (Neue Ritterstr. 27)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-krefeld-jean-berends-altmetalle-containerservice",
+  "name": "Jean Berends Altmetalle & Containerservice",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Krefeld",
+  "state": "NW",
+  "website": "https://jean-berends.de/",
+  "status": "aktiv",
+  "notes": "Stahlschrott-/Alt-/Neumetall-Ankauf, Container, Efb (Duisburger Str. 34, Uerdingen)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-krefeld-imr-innovative-metal-recycling",
+  "name": "IMR Innovative Metal Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Krefeld",
+  "state": "NW",
+  "website": "http://www.imrecycling.de/",
+  "status": "aktiv",
+  "notes": "Edelstahl/Buntmetall/Stahl, Ein-/Verkauf, ~500 kt/a (Hentrichstr. 68)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-leverkusen-md-metall-dederichs",
+  "name": "MD-Metall Dederichs GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leverkusen",
+  "state": "NW",
+  "website": "https://md-metall.de/",
+  "status": "aktiv",
+  "notes": "Alt-/Neuabfälle zu Tageshöchstpreisen, kein Eisenschrott (Kiesweg 11)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-leverkusen-bender-recycling",
+  "name": "BENDER Recycling GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leverkusen",
+  "state": "NW",
+  "website": "https://bender-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metallrecycling seit 1928, Efb, Autoankauf (Robert-Blum-Str. 72-78, Opladen)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-leverkusen-steglich-recycling",
+  "name": "Steglich Recycling",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Leverkusen",
+  "state": "NW",
+  "website": "http://www.steglich-recycling.de/",
+  "status": "pruefung",
+  "notes": "Schrottplatz (Gneisenaustr. 8, Manfort), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-hamm-hsh-transporte-metallrecycling",
+  "name": "HSH Transporte & Metallrecycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hamm",
+  "state": "NW",
+  "website": "https://www.hsh-hamm.de/",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Metallrecycling, Container (Daimlerstr. 5)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-hamm-heinrich-hark-ndl-hamm",
+  "name": "Heinrich Hark GmbH & Co. KG (Ndl. Hamm)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Hamm",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (Am Ortsgüterbahnhof 9),/register | urspr. Website-Angabe: keine eigene Website (Stamm s. Duisburg-Eintrag)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-siegen-rainer-schulte-metallhandel",
+  "name": "Rainer Schulte Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Siegen",
+  "state": "NW",
+  "website": "https://www.schrott-schulte.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Altmetallhandel seit 1989, eigene Ankauf-Seite (Fludersbach 132-134)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-siegen-rhein-main-rohstoffe",
+  "name": "Rhein Main Rohstoffe GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Siegen",
+  "state": "NW",
+  "website": "https://rmr-recycling.de/",
+  "status": "aktiv",
+  "notes": "NE-/Fe-Schrotthandel, Efb, Container (Industriestr. 1)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-siegen-srg-schrott-und-recycling",
+  "name": "SRG Schrott und Recycling GmbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Siegen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (Industriestr. 1b), nur schrottradar-Profil | urspr. Website-Angabe: keine eigene Website (Profil verlinkt fälschlich bgh.de)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-siegen-detlev-schmidt-schrotthandel",
+  "name": "Detlev Schmidt Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Siegen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallrecycling + Containerservice (Einheitsstr. 22), nur 11880/Cylex",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wilnsdorf-kochnev-recycling",
+  "name": "Kochnev Recycling",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Wilnsdorf",
+  "state": "NW",
+  "website": "https://kochnev-recycling.de/",
+  "status": "pruefung",
+  "notes": "Autoverwertung/-ankauf, Ersatzteile (Bochumer Str. 16)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (Auto; Altmetall unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-paderborn-peitzmann",
+  "name": "Peitzmann GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Paderborn",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Annahme von Metallschrott, Container (Am Atlaswerk 22), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-solingen-benze-altmetallgrohandel",
+  "name": "Benze Altmetallgroßhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Solingen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallgroßhandel (Höhscheider Str. 122), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-solingen-ayaz-metallhandel",
+  "name": "Ayaz Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Solingen",
+  "state": "NW",
+  "website": "http://www.ayaz-metallhandel.de",
+  "status": "pruefung",
+  "notes": "Metallhandel (Junkerstr. 32), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-solingen-schrottsolingen-de",
+  "name": "schrottsolingen.de",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Solingen",
+  "state": "NW",
+  "website": "http://www.schrottsolingen.de/",
+  "status": "aktiv",
+  "notes": "Mobile Abholung + Ankauf, Remscheid/Haan/Langenfeld-Einzugsgebiet",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "mobil/ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-arnsberg-ritschny-schrott-und-metallhandel",
+  "name": "Ritschny Schrott- und Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Arnsberg",
+  "state": "NW",
+  "website": "http://www.ritschny.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metall-Annahme mit Verwiegung/Analyse, Efb (Zu den Werkstätten 29)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-menden-gebruder-meisterjahn",
+  "name": "Gebrüder Meisterjahn GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Menden",
+  "state": "NW",
+  "website": "http://www.meisterjahn-gmbh.de/",
+  "status": "pruefung",
+  "notes": "Schrott (Eilinger Kamp 9-17), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-menden-schrott-und-metallgrohandel-krabbenhoft",
+  "name": "Schrott- und Metallgroßhandel Krabbenhöft e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Menden",
+  "state": "NW",
+  "website": "http://www.krabbenhoeft-online.de/",
+  "status": "aktiv",
+  "notes": "\"Wir kaufen ständig Metalle aller Art\" (Bessemerweg 10)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-iserlohn-walter-sperling-sohne",
+  "name": "Walter Sperling & Söhne",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Iserlohn",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Giesestr. 29, Iserlohner Heide), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-olsberg-hees-rohstoffhandel",
+  "name": "Hees Rohstoffhandel GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Olsberg",
+  "state": "NW",
+  "website": "https://www.hees.me/",
+  "status": "aktiv",
+  "notes": "Rohstoffhandel, Annahme, Container (Knickhütte 1, Bigge)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-attendorn-hugo-neuhaus",
+  "name": "Hugo Neuhaus GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Attendorn",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Askay 7, Ennest), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-euskirchen-ssg-altmetallhandel",
+  "name": "SSG Altmetallhandel GbR",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Euskirchen",
+  "state": "NW",
+  "website": "https://ssg-altmetallhandel.de/",
+  "status": "aktiv",
+  "notes": "Altmetall-Ankauf aller Art, Containerdienst (Alfred-Nobel-Str. 52; R4-fetch-verifiziert)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kall-recycling-kall",
+  "name": "Recycling Kall GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kall",
+  "state": "NW",
+  "website": "http://www.recycling-kall.de/",
+  "status": "pruefung",
+  "notes": "Recycling/Entsorgung/Schüttgüter (Daimlerstr. 1), ohne Ankaufbeleg",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-mechernich-schrotthandel-thomas-anders",
+  "name": "Schrotthandel Thomas Anders",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mechernich",
+  "state": "NW",
+  "website": "https://schrotthandel-thanders.de.tl/",
+  "status": "pruefung",
+  "notes": "Kostenlose Abholung (Im Kamertal 10, Bergbuir)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-zulpich-repp-recycling",
+  "name": "Repp Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zülpich",
+  "state": "NW",
+  "website": "http://www.repp-recycling.de",
+  "status": "pruefung",
+  "notes": "Schrott (Am Ziegelbruch 10), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-eitorf-heinrich-recycling",
+  "name": "Heinrich Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eitorf",
+  "state": "NW",
+  "website": "http://www.heinrich-recycling.de",
+  "status": "aktiv",
+  "notes": "Eisenschrott-/Metalleinkauf (Wecostrasse 19)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-hennef-matthias-fontaine-metall-u-schrotthandel",
+  "name": "Matthias Fontaine Metall- u. Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hennef",
+  "state": "NW",
+  "website": "http://www.matthias-fontaine.de",
+  "status": "pruefung",
+  "notes": "Abholung + Demontage, Familienbetrieb (Am Spielgarten 10, Dambroich)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-moers-hermann-kaspers-jr",
+  "name": "Hermann Kaspers jr. GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Moers",
+  "state": "NW",
+  "website": "http://www.container-kaspers.de/",
+  "status": "pruefung",
+  "notes": "Container/Entsorgung (Repelener Str. 12), Schrottannahme nur Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-viersen-viersener-metallhandel-holter",
+  "name": "Viersener Metallhandel Holter",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Viersen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallhandel (Elkanweg 17), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kaarst-buttgener-schrott-eisen-u-metallgrohandl",
+  "name": "Büttgener Schrott-, Eisen- u. Metallgroßhandlung (BSG)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kaarst",
+  "state": "NW",
+  "website": "http://www.bsg-kaarst.de/",
+  "status": "aktiv",
+  "notes": "NE-/Fe-Metalle, Kabel, Container, ESN (Kaarster Str. 61, Holzbüttgen)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-ratingen-mhr-metallhandel-ruhr",
+  "name": "MHR Metallhandel Ruhr GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ratingen",
+  "state": "NW",
+  "website": "https://www.tsr.eu/",
+  "status": "aktiv",
+  "notes": "Metallhandel (Heiligenhauser Str. 3, Hösel), nur schrottradar-Profil + TSR-Link",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-ratingen-schrott-und-metallhandel-hade",
+  "name": "Schrott- und Metallhandel Häde",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ratingen",
+  "state": "NW",
+  "website": "http://www.schrotthandel-haede.de/",
+  "status": "aktiv",
+  "notes": "Ankauf/Verkauf, Kabel zu Tageshöchstpreisen (Kalkumer Str. 36, Lintorf)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dinslaken-marcus-droste-rohstoffhandel",
+  "name": "Marcus Droste Rohstoffhandel e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dinslaken",
+  "state": "NW",
+  "website": "https://marcusdroste.de",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel (Thyssenstr. 123), nur schrottradar-Profil",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dinslaken-weli-stahl-handelsgesellschaft-mbh",
+  "name": "WELI-Stahl Handelsgesellschaft mbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dinslaken",
+  "state": "NW",
+  "website": "https://www.weli-stahl.de/",
+  "status": "aktiv",
+  "notes": "Altmetall-Rohstoffhandel, zertifiziert (Horststr. 4)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-herford-wachtmann-rohstoffhandel",
+  "name": "Wachtmann Rohstoffhandel GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Herford",
+  "state": "NW",
+  "website": "https://wachtmann.eu/",
+  "status": "aktiv",
+  "notes": "Metall-Recycler, Warenannahme/Aufbereitung, Efb (Bünder Str. 112)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gutersloh-gebruder-diekotter",
+  "name": "Gebrüder Diekötter KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Gütersloh",
+  "state": "NW",
+  "website": "http://gebr-diekoetter.de",
+  "status": "aktiv",
+  "notes": "Altstoff-Verkaufserlöse f. Privat/Gewerbe, Efb (Wilbrandtstr. 12-14)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gutersloh-autoverwertung-droge",
+  "name": "Autoverwertung Dröge GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Gütersloh",
+  "state": "NW",
+  "website": "http://www.droege-entsorgung.de",
+  "status": "pruefung",
+  "notes": "Entsorgung/Container (Dieselstr. 100, Avenwedde), ohne Ankaufbeleg",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-delbruck-adolf-muckenhaupt",
+  "name": "Adolf Mückenhaupt GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Delbrück",
+  "state": "NW",
+  "website": "http://www.mueckenhaupt-entsorgung.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf von privat, Rohstoffhandel (Grubebachstr. 43, Westenholz)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-delbruck-grewing-metallhandel-p3-entsorgung",
+  "name": "Grewing Metallhandel GmbH (P3 Entsorgung)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Delbrück",
+  "state": "NW",
+  "website": "https://www.grewing-entsorgung.de/",
+  "status": "aktiv",
+  "notes": "Altmetallankauf, Annahme (Lerchenweg 6)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-rheine-werner-winter",
+  "name": "Werner Winter GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rheine",
+  "state": "NW",
+  "website": "http://www.werner-winter-gmbh.de/",
+  "status": "aktiv",
+  "notes": "Einkauf Stahlschrott/NE-Metalle, Schere, Container (Sandkampstr. 209)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-grevenbroich-speira",
+  "name": "Speira GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Grevenbroich",
+  "state": "NW",
+  "website": "https://www.speira.com/",
+  "status": "aktiv",
+  "notes": "Alu-Walzprodukte + Recycling (bis ~970 kt/a), eigene Recycling-Services-Sparte, Alunorf-JV",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-neuss-alunorf-hydro-speira-jv",
+  "name": "Alunorf (Hydro/Speira-JV)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Neuss",
+  "state": "NW",
+  "website": "https://www.speira.com/",
+  "status": "pruefung",
+  "notes": "weltgrößtes Alu-Walz-/Gießwerk (Joint Venture)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (Hersteller B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-trimet-aluminium-se",
+  "name": "TRIMET Aluminium SE",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "https://www.trimet.eu/",
+  "status": "aktiv",
+  "notes": "Primär-Alu + Recyclingkreisläufe, Schrottlager Essen, Drahtbarren-Recyclingnetz",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-mulheim-an-der-ruhr-oryx-stainless-oryx-stainless-deutschlan",
+  "name": "Oryx Stainless (Oryx Stainless Deutschland)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mülheim an der Ruhr",
+  "state": "NW",
+  "website": "https://www.oryx.com/en/global-presence/muelheim-an-der-ruhr-en/",
+  "status": "aktiv",
+  "notes": "Edelstahlschrott-Handel, legierte Schrotte (eigener Mülheim-Standort)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-stolberg-schwermetall-halbzeugwerk",
+  "name": "Schwermetall Halbzeugwerk GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Stolberg",
+  "state": "NW",
+  "website": "https://www.schwermetall.de/",
+  "status": "pruefung",
+  "notes": "Kupfer-/Messing-Vorwalzbänder, Kupfer-Recycling (Breiniger Berg 165)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (Hersteller B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-stolberg-berzelius-stolberg-eco-bat-de-geschaft-a",
+  "name": "Berzelius Stolberg (Eco-Bat, DE-Geschäft an Clarios verkauft)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Stolberg",
+  "state": "NW",
+  "website": "https://www.ecobat.com/",
+  "status": "aktiv",
+  "notes": "Bleihütte/-recycling, Bleiakkus (Binsfeldhammer); Ecobat-Exit EU-Bleimarkt belegt",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "ja (B2B; jetzt Clarios)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-grillo-werke-ag",
+  "name": "Grillo-Werke AG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "https://grillo.de/",
+  "status": "pruefung",
+  "notes": "Zinkprodukte (ZAMAK, Zinkoxid/-pulver/-band), Stammsitz Weseler Str. 1",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (Hersteller)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-datteln-rheinzink",
+  "name": "RHEINZINK GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Datteln",
+  "state": "NW",
+  "website": "https://www.rheinzink.de/",
+  "status": "pruefung",
+  "notes": "Titanzink (Dach/Fassade), Weltmarktführer; Mehrheit seit 2025 bei Robus Capital",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (Hersteller)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-huttenwerke-krupp-mannesmann-hkm-salzgit",
+  "name": "Hüttenwerke Krupp Mannesmann (HKM, Salzgitter-Gruppe)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "https://hkm.de/",
+  "status": "pruefung",
+  "notes": "integriertes Hüttenwerk (Ehinger Str. 200), ~4,2 Mio. t Rohstahl",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (Hersteller, Schrott B2B via Lieferantenportal)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-dk-recycling-und-roheisen-hargreaves",
+  "name": "DK Recycling und Roheisen GmbH (Hargreaves)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg",
+  "state": "NW",
+  "website": "https://www.dk-duisburg.de/",
+  "status": "aktiv",
+  "notes": "Fe-Reststoffe + Gießerei-Roheisen (~300 kt/a), Purchase-Portal, Hochfeld/Rhein",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-siegen-hagen-krefeld-deutsche-edelstahlwerke-swiss-steel-grou",
+  "name": "Deutsche Edelstahlwerke (Swiss Steel Group)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Siegen / Hagen / Krefeld",
+  "state": "NW",
+  "website": "https://www.dew-stahl.com/",
+  "status": "aktiv",
+  "notes": "EAF-Langstahl, ~92 % Schrottanteil (Green Steel), Legierungs-/Werkzeugstahl",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-meinerzhagen-otto-fuchs",
+  "name": "OTTO FUCHS KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Meinerzhagen",
+  "state": "NW",
+  "website": "https://www.otto-fuchs.com/",
+  "status": "pruefung",
+  "notes": "Alu-/Magnesium-/Titan-/Nickel-Schmiedeteile (Aerospace/Automotive)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (Hersteller)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-brilon-hoppecke-batterien",
+  "name": "HOPPECKE Batterien GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Brilon",
+  "state": "NW",
+  "website": "https://www.hoppecke.com/de/",
+  "status": "pruefung",
+  "notes": "Industriebatterien (Blei/Li-Ion), größter europ. Hersteller in Privathand",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (Hersteller, Batterierücknahme via Service)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bestwig-tital-howmet-aerospace",
+  "name": "TITAL (Howmet Aerospace)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bestwig",
+  "state": "NW",
+  "website": "https://www.tital.de/",
+  "status": "pruefung",
+  "notes": "Titan-/Alu-Feinguss (Aerospace), Sauerland-Gießerei",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (Hersteller B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-paderborn-christian-schwientek",
+  "name": "Christian Schwientek",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Paderborn",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottannahme Stahl/Alu/Kupfer/Edelstahl/Blei/Messing (Hinter den Zäunen 24, 0174 1448854, 5.0★/7) | urspr. Website-Angabe: keine (schwientek-entsorgung.de tot, DENIC-Parking)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Paderborn-Durchbruch (erster stationärer Platz)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-coesfeld-msc-metall-schrotthandel-coesfeld",
+  "name": "MSC Metall-Schrotthandel Coesfeld",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Coesfeld",
+  "state": "NW",
+  "website": "https://schrotthandel-coesfeld.de/",
+  "status": "aktiv",
+  "notes": "Ankauf ab 1 kg, Tageshöchstpreise, Barauszahlung, Abholung (Lübbesmeyerweg 87)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-coesfeld-haumann-metall",
+  "name": "Haumann Metall GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Coesfeld",
+  "state": "NW",
+  "website": "https://haumann-coesfeld.de/",
+  "status": "aktiv",
+  "notes": "Familienbetrieb seit ~60 Jahren, Metallankauf/-recycling (Am Wasserturm 6)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kleve-frank-proest",
+  "name": "Frank Proest GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kleve",
+  "state": "NW",
+  "website": "https://frank-proest.de/",
+  "status": "aktiv",
+  "notes": "Metall-/Schrotthandel seit 1985, Anlieferung + Abholung Gewerbe (Dinnendahlstr. 22)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kevelaer-berk-recycling",
+  "name": "BERK Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kevelaer",
+  "state": "NW",
+  "website": "https://www.berk-recycling.com/",
+  "status": "aktiv",
+  "notes": "Tageshöchstpreise, 2 BImSchG-Standorte, Container/Abbruch (Kevelaer 02832 78597)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-grefrath-berk-recycling",
+  "name": "BERK Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Grefrath)",
+  "state": "NW",
+  "website": "https://www.berk-recycling.com/",
+  "status": "aktiv",
+  "notes": "Tageshöchstpreise, 2 BImSchG-Standorte, Container/Abbruch (Kevelaer 02832 78597)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-schleiden-gemund-eifeler-schrotthandel-daniel-rupp",
+  "name": "Eifeler Schrotthandel (Daniel Rupp)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schleiden-Gemünd",
+  "state": "NW",
+  "website": "https://eifelerschrotthandel.de/",
+  "status": "aktiv",
+  "notes": "ANKAUF Stahl/Eisen/Buntmetalle von privat bis Industrie (Kölner Str. 44)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-borken-dutz-recycling",
+  "name": "Dutz Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Borken",
+  "state": "NW",
+  "website": "https://dutz-entsorgung.de/",
+  "status": "aktiv",
+  "notes": "An-/Verkauf Schrott/Buntmetalle, Container, 40.000 m² (Ramsdorfer Postweg 8)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-borken-bernhard-stienemann",
+  "name": "Bernhard Stienemann GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Borken",
+  "state": "NW",
+  "website": "https://stienemann-borken.de/",
+  "status": "aktiv",
+  "notes": "\"Angekaufte Metalle\", Metall-/Textil-/Kunststoffrecycling (Hansestr. 25)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-sankt-augustin-metallhandel-metze",
+  "name": "Metallhandel Metze e.K.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sankt Augustin",
+  "state": "NW",
+  "website": "https://metallhandel-metze.de/",
+  "status": "aktiv",
+  "notes": "Börsenkurs-Ankaufspreise, ~40 kt/a (Marie-Curie-Str. 4-6)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bielefeld-brackwede-pallatzky",
+  "name": "Pallatzky GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bielefeld-Brackwede",
+  "state": "NW",
+  "website": "https://pallatzky-gmbh.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf von privat, Container, Abbrüche (Stellwerkstr. 16)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bonn-jungheim-schrott-metallhandel",
+  "name": "Jungheim Schrott & Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bonn",
+  "state": "NW",
+  "website": "https://jungheim-bonn.de/",
+  "status": "aktiv",
+  "notes": "Ankauf Eisen-/Metallschrott, Abbrüche, TÜV-Fachbetrieb (Am Dickobskreuz 4)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-schwalmtal-rva-waldniel",
+  "name": "RVA Waldniel e.K.",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Schwalmtal",
+  "state": "NW",
+  "website": "https://rva-waldniel.de/",
+  "status": "aktiv",
+  "notes": "Altmetallankauf, Containerdienst, Efb (Hühnerkamp 5)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bottrop-linke",
+  "name": "Linke GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bottrop",
+  "state": "NW",
+  "website": "https://linke-bottrop.de/",
+  "status": "aktiv",
+  "notes": "\"Klassischer Ankauf von Schrott-/Metallabfällen\", Efb (Polderstr. 107)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bielefeld-sennestadt-neumann-entsorgung",
+  "name": "Neumann Entsorgung",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bielefeld-Sennestadt",
+  "state": "NW",
+  "website": "https://neumann-entsorgung.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel + Wertstoffhof-Annahme (Krackser Str. 180)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-baesweiler-krampen-recycling",
+  "name": "Krampen Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Baesweiler",
+  "state": "NW",
+  "website": "https://krampen-recycling.de/",
+  "status": "aktiv",
+  "notes": "Leistungsbereich \"Metall- und Schrotthandel\", Demontage (Hermann-Hollerith-Str. 8)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bocholt-gebr-barnickel",
+  "name": "Gebr. Barnickel GbR",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bocholt",
+  "state": "NW",
+  "website": "https://gebr-barnickel.de/",
+  "status": "aktiv",
+  "notes": "Ankauf zu Tageshöchstpreisen, Kabelrecycling, neben ESB-Wertstoffhof (Schaffeldstr. 86)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bocholt-schwenski-rohstoffhandel",
+  "name": "Schwenski Rohstoffhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bocholt",
+  "state": "NW",
+  "website": "https://srh-bocholt.de/",
+  "status": "aktiv",
+  "notes": "Stahlschrott-/NE-Metallhandel, Borken/Ahaus/Coesfeld-Gebiet (Ewaldstr. 11)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-soest-compes-schmidt",
+  "name": "Compes & Schmidt e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Soest",
+  "state": "NW",
+  "website": "https://compes-schmidt.de/",
+  "status": "aktiv",
+  "notes": "Schrottgroßhandel, Autoentsorgung, Efb (02921 75959)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bruggen-allmeta-altmetallhandel-standort-bracht",
+  "name": "Allmeta Altmetallhandel (Standort Bracht)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Brüggen",
+  "state": "NW",
+  "website": "https://allmeta.de/",
+  "status": "aktiv",
+  "notes": "Christenfeld 12, Bracht (MG-Vorwahl 02161) — Filiale von Allmeta-MG",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bottrop-schrotthandel-containerdienst-hade-filia",
+  "name": "Schrotthandel + Containerdienst Häde GmbH (Filiale)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Bottrop",
+  "state": "NW",
+  "website": "https://www.schrotthandel-haede.de/",
+  "status": "aktiv",
+  "notes": "Brackerstr. 74 — Filiale von Häde-Ratingen | (Filiale)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-oberhausen-weli-stahl-standort-oberhausen",
+  "name": "WELI-Stahl (Standort Oberhausen)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Oberhausen",
+  "state": "NW",
+  "website": "https://www.weli-stahl.de/",
+  "status": "aktiv",
+  "notes": "Fernewaldstr. 64 — Filiale von WELI-Dinslaken",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-mulheim-an-der-ruhr-tsr-recycling-ndl-mulheim",
+  "name": "TSR Recycling (Ndl. Mülheim)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Mülheim an der Ruhr",
+  "state": "NW",
+  "website": "https://www.tsr.eu/",
+  "status": "aktiv",
+  "notes": "Steineshoffweg 21 — weiterer TSR-Standort",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-grevenbroich-scholz-recycling",
+  "name": "Scholz Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Grevenbroich",
+  "state": "NW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Otto-Hahn-Str. 11 — Scholz-Standort | urspr. Website-Angabe: Konzern (scholz-recycling.de, unverifiziert)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-oberhausen-f-w-hempel-legierungsmetall",
+  "name": "F.W. Hempel Legierungsmetall",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Oberhausen",
+  "state": "NW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Legierungsmetalle (Erlenstr. 71), Händlerprofil | urspr. Website-Angabe: keine geprüft",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf verifiziert (ja)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-engelskirchen-hossfeld",
+  "name": "Hossfeld GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Engelskirchen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Im Auel 51, 02263 3017, nur schrottradar-Profil | urspr. Website-Angabe: keine (hossfeld.de nur Park-Domain)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wipperfurth-containerdienst-jurgen-keller",
+  "name": "Containerdienst Jürgen Keller",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Wipperfürth",
+  "state": "NW",
+  "website": "https://containerdienst-keller.de/",
+  "status": "pruefung",
+  "notes": "Containerdienst (Alte Papiermühle 14), ohne Ankaufbeleg",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-burscheid-bbm-gunter-breidbach",
+  "name": "BBM Günter Breidbach",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Burscheid",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Straßer Hof 12, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bergisch-gladbach-horst-beck",
+  "name": "Horst Beck GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bergisch Gladbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Senefelderstr. 11+12, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (horst-beck.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-huckeswagen-christian-bacher",
+  "name": "Christian Bacher GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hückeswagen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Industriestr. 4, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-alsdorf-schrott-und-recyling-jaquemont",
+  "name": "Schrott und Recyling Jaquemont",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Alsdorf",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Buschhofer Weg 2, 0176-Nr. (mobil wirkend) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-niederzier-gebruder-blum",
+  "name": "Gebrüder Blum GbR",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Niederzier",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Berg 10, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-niederkassel-mondorf-m-n-thomes",
+  "name": "M. N. Thomes",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Niederkassel-Mondorf",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Gottlieb-Daimler-Str. 20, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kerpen-sindorf-lhonneux-containerdienste",
+  "name": "Lhonneux Containerdienste",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Kerpen-Sindorf",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Karl-Ferdinand-Braun-Str. 12, Containerfokus | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-pulheim-brauweiler-r-m-rohstoff-und-metall-recycling",
+  "name": "R + M Rohstoff- und Metall-Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Pulheim-Brauweiler",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Brunnenstr. 16-18, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-rommerskirchen-schumacher-metallhutten-recyclingges",
+  "name": "Schumacher Metallhütten-/Recyclingges.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Rommerskirchen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Venloer Str. 8-10, Hüttenprofil | urspr. Website-Angabe: keine gefunden (schumacher-rommerskirchen.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bonn-baumann-logistik",
+  "name": "Baumann Logistik GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bonn",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Christian-Lassen-Str. 2, Logistikfokus | urspr. Website-Angabe: keine geprüft",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-aachen-brand-acm-abfall-containerservice-moers",
+  "name": "acm Abfall- & Containerservice Moers GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Aachen-Brand",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Sigsfeldstr. 16 (Moerser Firma, Aachener Platz), Container | urspr. Website-Angabe: keine geprüft",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-aachen-elektroschrott-aachen",
+  "name": "Elektroschrott Aachen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aachen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Robensstr. 20, nur E-Schrott-Profil | urspr. Website-Angabe: keine geprüft",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-hurth-zimmer-schrott-und-metallhandels",
+  "name": "Zimmer Schrott- und Metallhandels GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hürth",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Grubenstr. 10, nur schrottradar-Profil | urspr. Website-Angabe: keine (zimmer-huerth.de wird verkauft)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bonn-tannenbusch-markus-mehl-ne-metalle",
+  "name": "Markus Mehl NE-Metalle GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bonn-Tannenbusch",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Hohe Str. 93-95, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (markus-mehl.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-zulpich-klaus-schmitz-schrottabholung",
+  "name": "Klaus Schmitz Schrottabholung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zülpich",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Triererstr. 10, 0173-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-issum-metrag",
+  "name": "Metrag GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Issum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Gewerbering 19-21, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (metrag-gmbh.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kleve-klungelskerl-schrottabholung-kleve",
+  "name": "Klüngelskerl Schrottabholung Kleve",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kleve",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Burgunderstr. 13, Abhol-Service (02821 7853033) | urspr. Website-Angabe: keine",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wesel-schrotthandel-manuel-hansen",
+  "name": "Schrotthandel Manuel Hansen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wesel",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Friedenstr. 9a, 01525-Nr. (Backyard-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wesel-jack-schrotersk",
+  "name": "Jack Schrotersk",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wesel",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Hummelweg 3, 01577-Nr. (Backyard-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-coesfeld-schrottankauf-altmetall-abholung",
+  "name": "Schrottankauf & Altmetall Abholung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Coesfeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "0178-Nr., Abhol-Service, 5.0★/6 | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-coesfeld-auto-verschrotten-entsorgen",
+  "name": "Auto verschrotten / Entsorgen",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Coesfeld",
+  "state": "NW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "01522-Nr., Autoverwertung | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "ja (Auto)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-salzkotten-andreas-ka",
+  "name": "Andreas Kaß",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Salzkotten",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "05258 9364704, 3.2★ — Aktivität fraglich | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-lippstadt-mrad-schrott-und-metallhandel",
+  "name": "Mrad Schrott und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lippstadt",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "01511-Nr. (Backyard-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-lippstadt-a-r-schrottabholung-lippstadt",
+  "name": "A&R Schrottabholung Lippstadt",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lippstadt",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Im Heidekamp 23 (02941 2503018) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-lippstadt-jaeger-verwertungs",
+  "name": "Jaeger Verwertungs GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lippstadt",
+  "state": "NW",
+  "website": "https://jaegerverwertung.de/",
+  "status": "pruefung",
+  "notes": "Verwerter (Gaußstr. 24)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-brakel-schrotthandel-kass",
+  "name": "Schrotthandel Kass",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Brakel",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Am Güterbahnhof 1, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (schrotthandel-kass.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-lennestadt-l-mulaj",
+  "name": "L. Mulaj",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lennestadt",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "57368, 01512-Nr., 4.9★/93 (Backyard-Typ mit Resonanz) | urspr. Website-Angabe: Jimdo-Seite (unklar)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kreuztal-martin-muller-schrott-und-metallhandel",
+  "name": "Martin Müller Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kreuztal",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "0173-Nr. | urspr. Website-Angabe: keine (llermartin-Domain tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kreuztal-mario-deutsch-metallrecycling",
+  "name": "Mario Deutsch Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kreuztal",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "0162-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-kreuztal-gluck-schrotthandel-recycling",
+  "name": "Glück Schrotthandel + Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kreuztal",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "01520-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-vlotho-a-z-altmetalle-kelbassa",
+  "name": "A-Z-Altmetalle Kelbassa",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Vlotho",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "An der Autobahn 5, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-witten-buchholz-wilhelm-botzel",
+  "name": "Wilhelm Bötzel GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Witten-Buchholz",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Wittener Str. 170-176, nur schrottradar-Profil | urspr. Website-Angabe: keine (boetzel.de geparkt)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-sprockhovel-halinghausen-muller-sohn",
+  "name": "Müller & Sohn GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sprockhövel-Haßlinghausen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Harkortstr. 22, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-castrop-rauxel-vcc-verwertungs-centrum-castrop",
+  "name": "VCC Verwertungs-Centrum Castrop",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Castrop-Rauxel",
+  "state": "NW",
+  "website": "https://vcc-castrop.de/",
+  "status": "pruefung",
+  "notes": "Deininghauser Weg 81",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-waltrop-huiskes-schrott-und-metallhandel",
+  "name": "Huiskes Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Waltrop",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Büscherstr. 91, 45731 (Mengede-PLZ!), 0174-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-marl-schrott-metallhandel-h-w-nowakowski",
+  "name": "Schrott- & Metallhandel H. W. Nowakowski",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marl",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Zechenstr. 5, 0162-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-marl-schrott-metall24-rohproduktenhandel",
+  "name": "Schrott-Metall24 Rohproduktenhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marl",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Vor den Büschen 48, 0175-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-recklinghausen-schrott-und-metallabholung-heiko-glaser",
+  "name": "Schrott- und Metallabholung Heiko Gläser",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Recklinghausen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "45661, Festnetz-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-recklinghausen-schrotthabholung-recklinghausen",
+  "name": "Schrotthabholung Recklinghausen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Recklinghausen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "0172-Nr., kein Straßenprofil (Tippfehler-Name) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bonn-khk-metallrecycling",
+  "name": "KHK Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bonn",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Brieger Weg 3, nur schrottradar-Profil | urspr. Website-Angabe: keine (khk-metallrecycling.de per Bot-Check blockiert)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-smb-schrott-und-metallhandel",
+  "name": "SMB Schrott und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Coermühle 12, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (smb-muenster.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-munster-metall-schrottagentur-munster",
+  "name": "Metall- & Schrottagentur Münster GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Am Max-Klemens-Kanal 143c, Agenturprofil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-remscheid-friedrich-ernst-wilms",
+  "name": "Friedrich Ernst Wilms GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Remscheid",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Reinshagener Str. 21, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (wilms-remscheid.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-remscheid-kuster-schrott-u-metall-grohandel",
+  "name": "Küster Schrott- u. Metall-Großhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Remscheid",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lenneper Str. 57, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (kuester-remscheid.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-ronsdorf-rudolf-ernenputsch",
+  "name": "Rudolf Ernenputsch GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal-Ronsdorf",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Otto-Hahn-Str. 65, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (ernenputsch.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-heckinghausen-tesche-co",
+  "name": "Tesche & Co GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal-Heckinghausen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Auf der Bleiche 26, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-elberfeld-ewald-lietmann",
+  "name": "Ewald Lietmann GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal-Elberfeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Juliusstr. 6, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-elberfeld-schrotthandel-neuenteich",
+  "name": "Schrotthandel-Neuenteich",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal-Elberfeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Neuenteich 19, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-ronsdorf-tamm",
+  "name": "Tamm GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal-Ronsdorf",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Gasstr. 11, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-barmen-h-w-cremer-schrottgrohandel",
+  "name": "H. W. Cremer Schrottgroßhandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal-Barmen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Loher Höhe 12, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-wuppertal-elberfeld-gebruder-dorner",
+  "name": "Gebrüder Dörner GmbH & Co.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wuppertal-Elberfeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Güterbahnhof Mirke 1, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-kalk-kmh-kalker-metall-handel",
+  "name": "KMH Kalker-Metall-Handel GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Kalk",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Gottfried-Hagen-Str. 1, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden (kmh-kalker.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-mulheim-muller-schrotthandel",
+  "name": "Müller-Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Mülheim",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rönsahler Str. 3, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-ehrenfeld-diestelmann-luther",
+  "name": "Diestelmann Luther GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Ehrenfeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Fettenweg 3, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-rodenkirchen-mullenmeister-schwerfel",
+  "name": "Müllenmeister & Schwerfel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Rodenkirchen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alteburger Str. 138, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-nippes-broicher-pressbetrieb",
+  "name": "Broicher Pressbetrieb GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Nippes",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Scheibenstr. 159, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-mulheim-lowe-koln",
+  "name": "Löwe Köln GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Mülheim",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Buchholzstr. 48, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-kalk-schrotthandel-segula",
+  "name": "Schrotthandel Segula",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Kalk",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Wikingerstr. 50 (Backyard-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-ehrenfeld-hafiz-schrott-und-buntmetallhandel",
+  "name": "Hafiz Schrott- und Buntmetallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Ehrenfeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Leyendeckerstr. 41, 0178-Nr. (Backyard-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-chorweiler-altmetalle-reinhard",
+  "name": "Altmetalle Reinhard",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Chorweiler",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Unnauer Weg 20, 0163-Nr. (Backyard-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-ehrenfeld-altraucher",
+  "name": "Alträucher GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Ehrenfeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Grüner Brunnenweg 172-174, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-ehrenfeld-alibaba-schrottabholung",
+  "name": "Alibaba Schrottabholung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Ehrenfeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Henriette-Ackermann-Str. 5, 01577-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-koln-innenstadt-theo-steil-standort-koln",
+  "name": "Theo Steil GmbH (Standort Köln)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Köln-Innenstadt",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alfred-Schütte-Allee 20, Stahlhandel-Profil | urspr. Website-Angabe: keine gefunden (theo-steil.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dusseldorf-hermann-arend",
+  "name": "Hermann Arend GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Düsseldorf",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Reisholzer Werftstr. 76, Hafenprofil | urspr. Website-Angabe: keine gefunden (hermann-arend.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dusseldorf-theiner-wir-sind-die-entsorger",
+  "name": "Theiner – Wir sind die Entsorger",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Düsseldorf",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Am Scharfenstein 22, Entsorgungsfokus | urspr. Website-Angabe: keine geprüft",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-wrl",
+  "name": "WRL GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Emscherstr. 27, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-schrotthandler-traut",
+  "name": "Schrotthändler Traut",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "0162-Nr., ohne Adresse | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-peter-hauser-rohstoffhandel",
+  "name": "Peter Häuser Rohstoffhandel",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Ripshorsterstr. 370 (s. Merge-Notiz C4) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-ist",
+  "name": "IST GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Stauderstr. 83-85, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-schrott-nowak",
+  "name": "Schrott Nowak",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Marktstr. 14, 0176-Nr. (Backyard-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-schrott-busters",
+  "name": "Schrott Busters",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Fischweiher 26, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-zjm-demontagen-hausmeisterservice",
+  "name": "ZJM Demontagen + Hausmeisterservice",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Von-Ossietzky-Ring 59, Demontagefokus | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-mre-metall-recycling-essen",
+  "name": "MRE Metall Recycling Essen",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Bonifaciusring 5, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-firma-la-rohrproduktenhandel",
+  "name": "Firma Laß – Rohrproduktenhandel",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Worringstr. 250, Rohrprofil (B2B-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-rainer-ludwig",
+  "name": "Rainer Ludwig GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Eisenbahnstr., nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-carl-herholz",
+  "name": "Carl Herholz GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Wilhelm-Beckmann-Str. 14 (s. Merge-Notiz C5) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-hade-schrott-metallgrohandel-stamm",
+  "name": "Häde Schrott-/Metallgroßhandel (Stamm)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "https://www.schrotthandel-haede.de/",
+  "status": "aktiv",
+  "notes": "Heßlerstr. 77 (s. Notiz C6)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-schrott-und-metallhandel-j-missal",
+  "name": "Schrott- und Metallhandel J. Missal",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kalthofweg 4, 0170-Nr. (s. Merge-Notiz C8) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
+  "name": "Schrotthändler Plus",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum-Wattenscheid",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Hochstr. 28, 01573-Nr. (2 Profile, Dublette) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-schrottabholung-nagel",
+  "name": "Schrottabholung Nagel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Hattinger Str. 272b, 0176-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-wattenscheid-schrottabholung-ankauf-karlos-prosche",
+  "name": "Schrottabholung Ankauf – Karlos Prosche",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum-Wattenscheid",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Elisabethstr. 20, 0174-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-schrotthandler-1",
+  "name": "Schrotthändler #1",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Paulstr. 9d, 0176-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-schrottankauf-klar",
+  "name": "Schrottankauf Klar",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Robertstr. 1, 0163-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-aktas-schrott",
+  "name": "Aktas Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Hofsteder Str. 135, 0173-Nr. (Backyard-Typ) | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-rohstoffhandel-bochum",
+  "name": "Rohstoffhandel Bochum",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Hertastr. 1, Festnetz-Profil | urspr. Website-Angabe: keine gefunden (Domain 404)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-a-stober-schrott-und-metallgrohandel",
+  "name": "A. Stöber Schrott- und Metallgroßhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Am Kuhlenkamp 34, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bochum-emc-edel-metall-contor",
+  "name": "EMC Edel Metall Contor",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bochum",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Herzogstr. 6, Edelmetall-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-monchengladbach-entsorgungsberatung-ralf-esser",
+  "name": "Entsorgungsberatung Ralf Esser",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Mönchengladbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Mennrather Str. 100, Beratungsprofil (kein Handel) | urspr. Website-Angabe: keine geprüft",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-monchengladbach-rheydt-kupferrecycling-rheydt",
+  "name": "Kupferrecycling Rheydt GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mönchengladbach-Rheydt",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Mittelstr. 50, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-monchengladbach-jl-metall-recycling",
+  "name": "JL Metall Recycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mönchengladbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Gladbacher Str. 158, 01525-Nr. | urspr. Website-Angabe: keine gefunden (jl-metall.de tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-monchengladbach-baer-und-albrecht",
+  "name": "Baer und Albrecht GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Mönchengladbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Siemensstr. 11-13, Großhandelsprofil | urspr. Website-Angabe: keine gefunden (alle Domainvarianten tot)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-monchengladbach-metallrecycling-muller",
+  "name": "Metallrecycling Müller",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mönchengladbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Böcklinstr. 89, 0172-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-monchengladbach-h-herzog",
+  "name": "H. Herzog KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mönchengladbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Landgrafenstr. 60, nur schrottradar-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gummersbach-metallhandel-akawad",
+  "name": "Metallhandel Akawad",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gummersbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "0172-Nr., nur lsp-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gummersbach-mar-schrottabholung-gummersbach",
+  "name": "Mar. Schrottabholung Gummersbach",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gummersbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "02261-Festnetz, nur lsp-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gummersbach-ael-schrott-metallhandel",
+  "name": "AEL Schrott & Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gummersbach",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "02261-Festnetz, GmbH-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-bocholt-nam-schrottabholung-bocholt",
+  "name": "Nam Schrottabholung Bocholt",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bocholt",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alemannenstr. 102, Festnetz-Profil | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-krefeld-schrottabholung-krefeld",
+  "name": "Schrottabholung Krefeld",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Krefeld",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Hermannstr. 3-24, 0163-Nr. | urspr. Website-Angabe: keine gefunden",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-horde-alcunimet",
+  "name": "AlCuNiMet GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund-Hörde",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "NE-/Legierungs-Profil (Namens-Typ AlCuNi) | urspr. Website-Angabe: keine (Feldmark 2, 44267, 02304 779252)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4a Dortmund-Multi-sites (9 Profile, 5 neu — Rest bereits gelistet)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-lutgendortmund-wilhelm-raven-euro-metall",
+  "name": "Wilhelm Raven Euro-Metall GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund-Lütgendortmund",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallgroßhandel-Profil | urspr. Website-Angabe: keine (Alter Hellweg 33, 44379, 0231 96420)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4a Dortmund-Multi-sites (9 Profile, 5 neu — Rest bereits gelistet)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-eving-helmut-mosta-metallgrohandel",
+  "name": "Helmut Mösta Metallgroßhandel GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund-Eving",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallgroßhandel-Profil | urspr. Website-Angabe: keine (Dammstr. 2-10, 44145, 0231 7284050)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4a Dortmund-Multi-sites (9 Profile, 5 neu — Rest bereits gelistet)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-walter-leidag",
+  "name": "Walter Leidag GmbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz-Profil | urspr. Website-Angabe: keine (Juliusstr. 28, 44145, 0231 815645)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4a Dortmund-Multi-sites (9 Profile, 5 neu — Rest bereits gelistet)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-dortmund-huckarde-heinrich-gestring",
+  "name": "Heinrich Gestring GmbH & Co KG",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Dortmund-Huckarde",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz-Profil | urspr. Website-Angabe: keine (Franz-Schlüter-Str. 30, 44147, 0231 31978)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4a Dortmund-Multi-sites (9 Profile, 5 neu — Rest bereits gelistet)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-rheinhausen-wolff-metall-recycling",
+  "name": "Wolff-Metall Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg-Rheinhausen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallrecycling-Profil | urspr. Website-Angabe: keine (Kruppstr. 81, 47229, 02065 313741)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4b Duisburg-Multi-sites (7 Profile, 5 neu + Warne bestätigt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-meiderich-wm-laudage-fe-metallvermittlung-w-laudag",
+  "name": "WM Laudage (= FE & Metallvermittlung W. Laudage, s. D6)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg-Meiderich",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Container-Profil | urspr. Website-Angabe: keine (Baldusstr. 2a, 47138, 0203 4496991)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4b Duisburg-Multi-sites (7 Profile, 5 neu + Warne bestätigt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-ruhrort-josef-jeegers-schrott-und-metallgrohande",
+  "name": "Josef Jeegers Schrott- und Metallgroßhandel (= oHG-Profil, s. D5)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg-Ruhrort",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Großhandels-Profil | urspr. Website-Angabe: keine (Am Nordhafen 26a, 47119, 0203 82329)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4b Duisburg-Multi-sites (7 Profile, 5 neu + Warne bestätigt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-meiderich-motikat-entsorgungsdienstleistungen",
+  "name": "Motikat Entsorgungsdienstleistungen GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg-Meiderich",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgungs-Profil | urspr. Website-Angabe: keine (Winterstr. 29, 47137, 0203 4557610)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4b Duisburg-Multi-sites (7 Profile, 5 neu + Warne bestätigt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-duisburg-rheinhausen-ctr-metall-recycling",
+  "name": "CTR Metall Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Duisburg-Rheinhausen",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallrecycling-Profil | urspr. Website-Angabe: keine (Hochstr. 23, 47228, 02065 9016584)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4b Duisburg-Multi-sites (7 Profile, 5 neu + Warne bestätigt)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-mitte-emscher-wertstoff",
+  "name": "Emscher Wertstoff GmbH",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen-Mitte",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Wertstoff-Profil, stationär wirkend | urspr. Website-Angabe: keine (Werftstr. 13, 45881, 0209 1774460)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-sud-rohstoffhandel-heinrichs-adressprazisier",
+  "name": "Rohstoffhandel Heinrichs GmbH (Adresspräzisierung)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen-Süd",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottankauf-Profil | urspr. Website-Angabe: keine (Am Dördelmannshof 30, 45886, 0209 1774560)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-sud-smc-prison-prison-verbund-s-d4",
+  "name": "SMC Prison UG (Prison-Verbund, s. D4)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen-Süd",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz-Profil | urspr. Website-Angabe: keine (Ostpreußenstr. 164, 45886, 0209 202782)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-west-schrotthandel-sabine-lemke",
+  "name": "Schrotthandel Sabine Lemke",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen-West",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Backyard-Typ | urspr. Website-Angabe: keine (Markenstr. 54, 45899, 0209 57482)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-mitte-schrotthandler-traut-ge-ableger",
+  "name": "Schrotthändler Traut (GE-Ableger)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen-Mitte",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "mobil (Essener Traut-Netz) | urspr. Website-Angabe: keine (Kurt-Schumacher-Str. 80, 0162 9135397)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-sud-schrottabholung-misini",
+  "name": "Schrottabholung Misini",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen-Süd",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Abhol-Service | urspr. Website-Angabe: keine (Herner Str. 35, 0209 98893832)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-gelsenkirchen-mitte-schrottabholung-huwald",
+  "name": "Schrottabholung Huwald",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelsenkirchen-Mitte",
+  "state": "NW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Abhol-Service | urspr. Website-Angabe: keine (Braubauerschaft 29, 0176 42455495)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)",
+   "ankauf_raw": "mobil/unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "nw-essen-vogelheim-tappe-rohstoffhandel",
+  "name": "Tappe Rohstoffhandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Essen-Vogelheim",
+  "state": "NW",
+  "website": "https://www.tappe-recycling.de/",
+  "status": "aktiv",
+  "notes": "Efb, Tagespreisliste, \"Ankauf von Metallen (auch Kleinstmengen)\", Container, Abholung (Am Stadthafen 18, 0201 6144122, FB schrottimpott)",
+  "provenance": {
+   "seed_file": "nw",
+   "section": "R4d Neu mit Ankauf-Beleg (ja)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ }
+]

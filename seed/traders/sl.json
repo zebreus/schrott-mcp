@@ -1,0 +1,1046 @@
+[
+ {
+  "slug": "sl-saarbrucken-burbach-gebr-naim",
+  "name": "Gebr. Naim GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarbrücken-Burbach",
+  "state": "SL",
+  "website": "https://gebrüder-naim.de/",
+  "status": "aktiv",
+  "notes": "Katalysatoren, E-Schrott, Buntmetalle, Eisen; Container",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarbrucken-gersweiler-h-schmitt-co",
+  "name": "H. Schmitt & Co. GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarbrücken-Gersweiler",
+  "state": "SL",
+  "website": "https://schmitt-schrott.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandel, Abholung, Aufbereitung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarbrucken-malstatt-thomanek-schrott-und-metall",
+  "name": "Thomanek Schrott und Metall",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarbrücken-Malstatt",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel (evtl. verwandt mit Nr. 10)",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarbrucken-binkle-schrotthandel-demontagen",
+  "name": "Binkle Schrotthandel & Demontagen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarbrücken",
+  "state": "SL",
+  "website": "https://www.schrotthandel-binkle.de/",
+  "status": "pruefung",
+  "notes": "mobile Abholung, Demontagen",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "Abholung kostenlos; Vergütung unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarbrucken-s-b-recycling",
+  "name": "S.B. Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarbrücken",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kupfer, Messing, Alu, Altmetalle",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarbrucken-reisenauer-co",
+  "name": "Reisenauer & Co. GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Saarbrücken",
+  "state": "SL",
+  "website": "https://www.reisenauer-sb.de/",
+  "status": "pruefung",
+  "notes": "Autoverwertung, Container, Abbruch",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "nur Kfz; Metallankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarbrucken-westrich-lothar-autoverwertung",
+  "name": "Westrich Lothar Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Saarbrücken",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung/-teile",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "nur Kfz (Ankauf unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-volklingen-gwr-recycling-altmetall-saarland-gwr-kab",
+  "name": "GWR-Recycling OHG (Altmetall-Saarland / GWR Kabelrecycling)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Völklingen",
+  "state": "SL",
+  "website": "https://www.altmetall-saarland.de/",
+  "status": "aktiv",
+  "notes": "Kabel, Kupfer, NE-Metalle, E-Motoren",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-volklingen-metall-recycling-kunzer",
+  "name": "Metall-Recycling Künzer GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Völklingen",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Eisen, Alu, Kupfer, Messing, Blei, Zink",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-volklingen-furstenhausen-grun-thomanek-metallrecycling",
+  "name": "Grün Thomanek Metallrecycling UG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Völklingen-Fürstenhausen",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallrecycling",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-volklingen-rve-rech-volker-schrott-entsorgung",
+  "name": "RVE Rech Volker Schrott-Entsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Völklingen",
+  "state": "SL",
+  "website": "http://schrott-saar.de/",
+  "status": "aktiv",
+  "notes": "Abholung aller Metalle, Container, Autoentsorgung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (ab Mindestmenge: Schrott 300 kg / Metalle 5 kg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-riegelsberg-reinhard-rojan",
+  "name": "Reinhard Rojan",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Riegelsberg",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-volklingen-wud-entsorgung-recycling",
+  "name": "WUD Entsorgung & Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Völklingen",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container, Alt-/Abfallstoffe",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-volklingen-avs-autoverwertung",
+  "name": "AVS GmbH Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Völklingen",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "nur Kfz (Ankauf unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarlouis-theo-steil-schrott-und-metallgrohandel",
+  "name": "Theo Steil GmbH Schrott- und Metallgroßhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarlouis",
+  "state": "SL",
+  "website": "https://www.steil.de/",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Großhandel, Schere/Paketierpresse",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (v. a. Gewerbe/Großmengen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-schwalbach-hulzweiler-paisler-schrotthandel-altmetallentsorgun",
+  "name": "Paisler Schrotthandel (Altmetallentsorgung Paisler)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schwalbach-Hülzweiler",
+  "state": "SL",
+  "website": "https://www.altmetallentsorgung-paisler.de/",
+  "status": "pruefung",
+  "notes": "mobile Schrottabholung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "Abholung; Vergütung unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarlouis-ross-jakob",
+  "name": "Ross Jakob",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarlouis",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott, Entrümpelung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarlouis-fraulautern-speth-klaus-speth",
+  "name": "Speth / Klaus Speth",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarlouis-Fraulautern",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarlouis-roden-autoverwertung-both",
+  "name": "Autoverwertung Both GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Saarlouis-Roden",
+  "state": "SL",
+  "website": "https://www.autoverwertung-both.de/",
+  "status": "pruefung",
+  "notes": "Autoverwertung (kostenlos), Abschleppdienst, Teileshop",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "nur Kfz-Entsorgung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-wallerfangen-ittersdorf-rayer-helmut-schrottentsorgung",
+  "name": "Rayer Helmut Schrottentsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wallerfangen-Ittersdorf",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottentsorgung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-dillingen-zaher-j-jz-zaher",
+  "name": "Zaher J. / JZ Zaher",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dillingen",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-neunkirchen-wagner",
+  "name": "WAGNER GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neunkirchen",
+  "state": "SL",
+  "website": "http://www.schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel, Abfall, Demontagen",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-neunkirchen-thirion-ralf-e-metallgrohandlung",
+  "name": "Thirion Ralf E. Metallgroßhandlung GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Neunkirchen",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallgroßhandlung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar (Großhandel)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-merzig-schrotthandel-karam",
+  "name": "Schrotthandel Karam",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Merzig",
+  "state": "SL",
+  "website": "http://schrotthandel-karam.de/",
+  "status": "aktiv",
+  "notes": "Ankauf aller Metalle",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-losheim-bachem-schrotthandel-bachem-name-unsicher-evtl",
+  "name": "Schrotthandel Bachem (Name unsicher, evtl. Kolbe)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Losheim-Bachem",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-losheim-am-see-straub-metallhandel",
+  "name": "Straub Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Losheim am See",
+  "state": "SL",
+  "website": "https://www.straub-metallhandel.de/",
+  "status": "aktiv",
+  "notes": "NE-Metalle, Kabelschrott, Lohnarbeit",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-uberherrn-hn-schrott-metallrecycling",
+  "name": "HN Schrott- & Metallrecycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Überherrn",
+  "state": "SL",
+  "website": "https://hn-schrott.com/",
+  "status": "aktiv",
+  "notes": "alle Metalle, E-Schrott, Batterien, Container",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-blieskastel-becker-maurer",
+  "name": "Becker-Maurer GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Blieskastel",
+  "state": "SL",
+  "website": "https://www.becker-maurer.de/",
+  "status": "aktiv",
+  "notes": "Schrotthandel, Container, tagesaktuelle Preise",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-loacker-saar-recycling",
+  "name": "Loacker Saar Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Homburg",
+  "state": "SL",
+  "website": "https://loacker-recycling.com/",
+  "status": "pruefung",
+  "notes": "Recyclingkonzern (Metalle)",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (Privatannahme am Standort unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-ohlinger-schrott-u-metallentsorgung",
+  "name": "Ohlinger Schrott- u. Metallentsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Homburg",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Entrümpelung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-bruchhof-morineau-andre-schrotthandel",
+  "name": "Morineau Andre Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Homburg-Bruchhof",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-erbach-ecker-markus-schrotthandel",
+  "name": "Ecker Markus Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Homburg-Erbach",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-beeden-bexbach-feix-charli-siegfried-wilhelm",
+  "name": "Feix (Charli / Siegfried / Wilhelm)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Homburg-Beeden / Bexbach",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott, Schrottentsorgung (Familienbetriebe)",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-bruchhof-neff-axel-schrotthandel",
+  "name": "Neff Axel Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Homburg-Bruchhof",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-bexbach-oberbexbach-bexbacher-buntmetallverwertung",
+  "name": "Bexbacher Buntmetallverwertung",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bexbach-Oberbexbach",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Buntmetalle/Recycling",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-bexbach-kleinottweiler-schaller-alfons-rohprodukte",
+  "name": "Schaller Alfons Rohprodukte",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bexbach-Kleinottweiler",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rohprodukte/Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-bexbach-kleinottweiler-wei-ferdinand",
+  "name": "Weiß Ferdinand",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bexbach-Kleinottweiler",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Altmetalle",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-bexbach-molter-hollinger-entsorgungs",
+  "name": "Molter-Hollinger Entsorgungs GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bexbach",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container, Recycling, Entsorgungsfachbetrieb",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-st-ingbert-rohrbach-waldi-entsorgungsfachbetrieb",
+  "name": "Waldi Entsorgungsfachbetrieb GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "St. Ingbert-Rohrbach",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container, Entsorgung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-illingen-containerdienst-engel",
+  "name": "Containerdienst Engel GmbH",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Illingen",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-schonenberg-kubelberg-mobil-containerdienst-flink-sitz-rlp-einsatzge",
+  "name": "Containerdienst Flink (Sitz RLP, Einsatzgebiet u. a. Ost-Saarland)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Schönenberg-Kübelberg / mobil",
+  "state": "SL",
+  "website": "https://containerdienst-flink.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel, Abholung, Tagespreise",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-online-homburg-schrott24-metaloop-online-portal-partner",
+  "name": "Schrott24 / Metaloop (Online-Portal, Partnerstandort Homburg)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "online / Homburg",
+  "state": "SL",
+  "website": "https://www.schrott24.de/standorte/schrottplatz-saarland/",
+  "status": "aktiv",
+  "notes": "Online-Ankauf aller Metalle, Abholung/Paket",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Schrottankauf im Saarland (SL) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-prison-schrott-metallhandel-michael-pris",
+  "name": "PRISON Schrott- & Metallhandel (Michael Prison)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Homburg",
+  "state": "SL",
+  "website": "https://prison-metallhandel.de/",
+  "status": "aktiv",
+  "notes": "alle Metalle, Abholung ab 500 kg, Container, Demontage",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-mc-rohstoffrecycling",
+  "name": "MC Rohstoffrecycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Homburg",
+  "state": "SL",
+  "website": "https://mc-rohstoffrecycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott, NE-Metalle, Bleibatterien; Container 5–30 m³; ISO-9001-zertifiziert",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-bexbach-oberbexbach-ludwig-feix-sohn-prazisiert-nr-33",
+  "name": "Ludwig Feix & Sohn GmbH (präzisiert Nr. 33)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bexbach-Oberbexbach",
+  "state": "SL",
+  "website": "https://www.schrottentsorgung-feix.de/",
+  "status": "aktiv",
+  "notes": "Kupfer, Alu, Edelstahl, Messing, Zinn/Zink, Blei, Kabel; Demontage, Container",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja (lt. Verzeichnissen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-merchweiler-schrotthandel-weiler-barbel",
+  "name": "Schrotthandel Weiler Bärbel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Merchweiler",
+  "state": "SL",
+  "website": "http://schrott-wb.de/",
+  "status": "aktiv",
+  "notes": "Eisen (ab 100 kg), NE (ab 1 kg), Kabel, E-Motoren, Altfahrzeuge",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-merchweiler-schrott-weiler-matthias-wahrsch-gleiche",
+  "name": "Schrott Weiler Matthias (wahrsch. gleiche Familie wie Nr. 46)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Merchweiler",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-freisen-konig-containerdienst-albano-wei",
+  "name": "König Containerdienst (Albano Weiß)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Freisen",
+  "state": "SL",
+  "website": "https://koenig-containerdienst.de/schrott-metallhandel",
+  "status": "aktiv",
+  "notes": "alle Metalle zu Tagespreisen, Abholung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-st-wendel-schrott-manz-alexander",
+  "name": "Schrott Manz Alexander",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "St. Wendel",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-st-wendel-hoof-falkenberg-schrotthandel",
+  "name": "Falkenberg Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "St. Wendel-Hoof",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-beckingen-schrotthandler-f-assaad",
+  "name": "Schrotthändler F. Assaad",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Beckingen",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetallrecycling",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-merchweiler-saarlandweit-schrotthandel-marlon-lehmann-mobil-via-k",
+  "name": "Schrotthandel Marlon Lehmann (mobil, via Kleinanzeigen)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Merchweiler / saarlandweit",
+  "state": "SL",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Ankauf aller Art, Abholung, Container, Demontage",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarbrucken-umland-schrottjungs-mobil",
+  "name": "Schrottjungs (mobil)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Saarbrücken / Umland",
+  "state": "SL",
+  "website": "https://schrottjungs.de/saarbruecken-schrottabholung/",
+  "status": "aktiv",
+  "notes": "Barankauf Kupfer/Messing/Kabel/VHM, kostenlose Abholung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-lebach-autoverwertung-volz-renate-volz",
+  "name": "Autoverwertung Volz GmbH (Renate Volz)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Lebach",
+  "state": "SL",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung/-teile | urspr. Website-Angabe: nur Facebook-Seite",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 2 (Stand 2026-09-27)",
+   "ankauf_raw": "nur Kfz (Ankauf unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-riegelsberg-schrott-metallhandel-dirk-gro",
+  "name": "Schrott & Metallhandel Dirk Groß",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Riegelsberg",
+  "state": "SL",
+  "website": "https://schrott-24.de",
+  "status": "aktiv",
+  "notes": "Schrott aller Art, Metallankauf (Kupfer, Kabel, Edelstahl, Messing), Autoentsorgung, Demontage",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 3 (Stand 2026-09-27)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-tholey-solo-recycling-compani-mobiler-schrottse",
+  "name": "SOLO Recycling compani (mobiler Schrottservice/Startup)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Tholey",
+  "state": "SL",
+  "website": "https://sites.google.com/view/solo-recycling-compani/inicio",
+  "status": "aktiv",
+  "notes": "mobile Altmetall-Abholung (geeichte Waage, sortenrein), „je nach Material zahlen wir sogar dafür\"; Gewerbe + privat",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 3 (Stand 2026-09-27)",
+   "ankauf_raw": "ja (Teilmengen/mobil)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-riegelsberg-e-s-e-dienstleistungen-elektro-system-en",
+  "name": "E-S-E Dienstleistungen / Elektro-System-Entsorgung (Erstbehandlungsanlage)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Riegelsberg",
+  "state": "SL",
+  "website": "http://www.elektro-system-entsorgung.de",
+  "status": "pruefung",
+  "notes": "Elektro-/Elektronikgeräte-Entsorgung n. KrWG, Abholung + Nachweisverfahren, Entrümpelung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 3 (Stand 2026-09-27)",
+   "ankauf_raw": "Entsorgung only; Metallankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-bexbach-oberbexbach-rte-ruhmkorff-textilrecycling-entsorgung",
+  "name": "RTE Rühmkorff Textilrecycling Entsorgung (bvse-Mitglied)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bexbach-Oberbexbach",
+  "state": "SL",
+  "website": "http://www.rte-recycling.de",
+  "status": "pruefung",
+  "notes": "„Entsorgung und Verwertung von Schrott und Nutzeisen, Metallen…\", Standortauflösung, Abbruch, Entrümpelung; Anlieferung nur n. Vereinbarung",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Audit-Runde 3 (Stand 2026-09-27)",
+   "ankauf_raw": "Ankauf unklar (keine Vergütung belegt)",
+   "origin": "table"
+  }
+ }
+]

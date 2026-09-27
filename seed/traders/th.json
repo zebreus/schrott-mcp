@@ -1,0 +1,1622 @@
+[
+ {
+  "slug": "th-erfurt-smh-schrott-und-metallhandels",
+  "name": "SMH Schrott- und Metallhandels GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Erfurt",
+  "state": "TH",
+  "website": "https://www.smh-recycling.de/",
+  "status": "aktiv",
+  "notes": "Stahlschrott, Buntmetall, Elektronikschrott, Autoverwertung, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Bargeld-Sofortauszahlung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gera-smh-schrott-und-metallhandels",
+  "name": "SMH Schrott- und Metallhandels GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Gera",
+  "state": "TH",
+  "website": "https://www.smh-recycling.de/",
+  "status": "aktiv",
+  "notes": "Stahlschrott, Buntmetall, Elektronikschrott, Autoverwertung, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Bargeld-Sofortauszahlung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-krayenberggemeinde-merkers-rvt-rohstoffverwertung",
+  "name": "RVT Rohstoffverwertung GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Krayenberggemeinde / Merkers",
+  "state": "TH",
+  "website": "https://www.rvt.de/",
+  "status": "aktiv",
+  "notes": "Eisenschrott, Buntmetall, E-Schrott, Batterien, Waggonzerlegung, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Selbstanlieferer, auch Kleinmengen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-ohrdruf-bks-metallrecycling",
+  "name": "BKS Metallrecycling GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ohrdruf",
+  "state": "TH",
+  "website": "https://bks-metallrecycling.de/",
+  "status": "aktiv",
+  "notes": "Kupfer, Messing, Alu, Kabelschrott, Container, Demontage; TH-weit mobil",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gotha-msg-metallrecycling-msg-schrott-und-meta",
+  "name": "MSG Metallrecycling (MSG Schrott- und Metallrecycling)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gotha",
+  "state": "TH",
+  "website": "https://www.msg-metallrecycling.de/",
+  "status": "aktiv",
+  "notes": "Metallschrott aller Art, Sondermetalle (In, Ir, Co, Mo, Nb, Ta, W), Edelmetalle, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Sofortauszahlung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-jena-scholz-recycling-nl-erfurt-betrieb-wohls",
+  "name": "Scholz Recycling GmbH (NL Erfurt-Betrieb Wöhlsdorf + Zella-Mehlis)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Jena",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Stahlschrott, NE-Metalle, legierte Schrotte, Sonderlegierungen",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Selbstanlieferer)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-zella-mehlis-scholz-recycling-nl-erfurt-betrieb-wohls",
+  "name": "Scholz Recycling GmbH (NL Erfurt-Betrieb Wöhlsdorf + Zella-Mehlis)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zella-Mehlis",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Stahlschrott, NE-Metalle, legierte Schrotte, Sonderlegierungen",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Selbstanlieferer)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-zella-mehlis-wahl-co-inh-thomas-madeiski",
+  "name": "Wahl & Co. Inh. Thomas Madeiski e.K.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zella-Mehlis",
+  "state": "TH",
+  "website": "https://wahlundco.de/",
+  "status": "aktiv",
+  "notes": "Buntmetall-Spezialist (Cu, Messing, Rotguss, Alu, V2A/V4A, Zinn, HSS, Hartmetall, Wolfram), Kabel, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (ab 0,5 kg, Bargeld sofort)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-muhlhausen-mrc-mitteldeutsche-recycling",
+  "name": "MRC Mitteldeutsche Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mühlhausen",
+  "state": "TH",
+  "website": "https://www.mrc-umwelt.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall, Altpapier, Container, Kehrservice",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Tagespreise n. LME, tel. erfragen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-nordhausen-mrc-mitteldeutsche-recycling",
+  "name": "MRC Mitteldeutsche Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nordhausen",
+  "state": "TH",
+  "website": "https://www.mrc-umwelt.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall, Altpapier, Container, Kehrservice",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Tagespreise n. LME, tel. erfragen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-jena-altstoffhandel-jena",
+  "name": "Altstoffhandel Jena",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Jena",
+  "state": "TH",
+  "website": "https://www.altstoffhandel-jena.de/",
+  "status": "aktiv",
+  "notes": "Mischschrott, Kabelschrott, Öfen/Herden/Wannen, Rohre; Abholung größerer Mengen",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Tagespreise)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-geraer-str-40-burgau-altstoffhandel-jena",
+  "name": "Altstoffhandel Jena",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Geraer Str. 40 Burgau)",
+  "state": "TH",
+  "website": "https://www.altstoffhandel-jena.de/",
+  "status": "aktiv",
+  "notes": "Mischschrott, Kabelschrott, Öfen/Herden/Wannen, Rohre; Abholung größerer Mengen",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Tagespreise)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-erfurt-schrotthandel-rast-johannes-rast",
+  "name": "Schrotthandel Rast (Johannes Rast)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Erfurt",
+  "state": "TH",
+  "website": "https://www.rast-metall.de/",
+  "status": "aktiv",
+  "notes": "FE/NE-Schrott, Kabel, Hartmetall, Katalysatoren, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja, aber: Schrott nur Gewerbe; Kats auch privat",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-weimar-wertstoffankauf-weimar",
+  "name": "Wertstoffankauf.Weimar",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weimar",
+  "state": "TH",
+  "website": "https://www.wertstoffankaufweimar.de/",
+  "status": "aktiv",
+  "notes": "Metalle aller Art, Papier/Pappe, Entrümpelung, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-foritztal-ot-foritz-b-sonneb-ehrhardt-rohstoff-recycling",
+  "name": "Ehrhardt Rohstoff-Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Föritztal OT Föritz b. Sonneberg",
+  "state": "TH",
+  "website": "https://ehrhardt-recycling.de/",
+  "status": "aktiv",
+  "notes": "Stahlschrott, NE-Metalle, Gießereischrott, Container, Industrieabbrüche",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-weimar-thuringen-recycling",
+  "name": "Thüringen Recycling GmbH",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weimar",
+  "state": "TH",
+  "website": "https://www.thueringen-recycling.de/",
+  "status": "aktiv",
+  "notes": "Produktionsabfälle/Wertstoffe, Container, Entsorgungskonzepte",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (v. a. Gewerbe: „Wir kaufen Ihre Produktionsabfälle\")",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-meuselwitz-geweniger-recycling",
+  "name": "Geweniger Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Meuselwitz",
+  "state": "TH",
+  "website": "https://www.geweniger-recycling.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Buntmetall, Kabelschrott, Container, Demontage/Rückbau",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Wertstoffankauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-altenburg-geweniger-recycling",
+  "name": "Geweniger Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Altenburg",
+  "state": "TH",
+  "website": "https://www.geweniger-recycling.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Buntmetall, Kabelschrott, Container, Demontage/Rückbau",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Wertstoffankauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-nobitz-kotteritz-geweniger-recycling",
+  "name": "Geweniger Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nobitz/Kotteritz",
+  "state": "TH",
+  "website": "https://www.geweniger-recycling.de/",
+  "status": "aktiv",
+  "notes": "Eisen-/Buntmetall, Kabelschrott, Container, Demontage/Rückbau",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Wertstoffankauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-mobil-th-weit-schrotthandel-richter",
+  "name": "Schrotthandel Richter",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "mobil TH-weit",
+  "state": "TH",
+  "website": "https://www.schrotthandel-richter.de/schrotthandel-erfurt",
+  "status": "aktiv",
+  "notes": "Kostenlose Schrottabholung, Buntmetall-Ankauf, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "ja (Abholung; Barzahlung b. werthaltigen Mengen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-weimar-fernkorn-albert-metallhandel-u-container",
+  "name": "Fernkorn Albert e.K. Metallhandel u. Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Weimar",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallhandel, Containerdienst",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-sondershausen-schrotthandel-r-m",
+  "name": "Schrotthandel R&M",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sondershausen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-erfurt-gispersleben-koch-norman",
+  "name": "Koch Norman",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Erfurt-Gispersleben",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott, Kleinsammler",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-erfurt-hugo-entsorgung",
+  "name": "Hugo Entsorgung GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Erfurt",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung + Schrott",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-erfurt-kuhn-hans-joachim-schrotthandel-u-transp",
+  "name": "Kühn Hans-Joachim Schrotthandel u. Transporte",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Erfurt",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Transporte",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gera-rova-pax-ltd",
+  "name": "RoVa PaX Ltd.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gera",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gera-gmr-geraer-metallrecycling",
+  "name": "GMR GmbH Geraer Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gera",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallrecycling",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gera-smg-schrott-metall",
+  "name": "SMG Schrott & Metall GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gera",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott & Metall",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gera-richter-schrott-nicht-schrotthandel-rich",
+  "name": "Richter Schrott (nicht Schrotthandel Richter/Northeim)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gera",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-jena-metallrecycling-veit",
+  "name": "Metallrecycling Veit GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Jena",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallrecycling",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-nordhausen-nordhauser-rohstoffhandel",
+  "name": "Nordhäuser Rohstoffhandel GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Nordhausen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel/Entsorgung",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-hamma-b-nordhausen-containerdienst-gebruder-aurin",
+  "name": "Containerdienst Gebrüder Aurin",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Hamma b. Nordhausen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container + Schrott",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-nordhausen-autoverwertung-benke",
+  "name": "Autoverwertung Benke",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Nordhausen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung (Flag: Schrottankauf nicht nachgewiesen)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-muhlhausen-zimmermann-detlef",
+  "name": "Zimmermann Detlef",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Mühlhausen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-unterwellenborn-b-saalfeld-srt-schrott-recycling-thuringen",
+  "name": "SRT Schrott Recycling Thüringen GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Unterwellenborn b. Saalfeld",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottrecycling",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-hildburghausen-sero-recycling-und-handels-sudthuringen",
+  "name": "SERO Recycling- und Handels GmbH Südthüringen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Hildburghausen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling/Handel",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-geraberg-b-ilmenau-ikschrott-rovocar",
+  "name": "IKSCHROTT rovocar",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Geraberg b. Ilmenau",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-ilmenau-link-manfred-schrottentsorgung",
+  "name": "Link Manfred Schrottentsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ilmenau",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottentsorgung",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-eisenach-liebtrau-peter",
+  "name": "Liebtrau Peter",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eisenach",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-wutha-farnroda-b-eisenach-hertwig-rolf",
+  "name": "Hertwig Rolf",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wutha-Farnroda b. Eisenach",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-wutha-farnroda-mosbach-hentschel-schrotthandel",
+  "name": "Hentschel Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wutha-Farnroda/Mosbach",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-eisenach-eichenauer-erhard",
+  "name": "Eichenauer Erhard",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eisenach",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-bad-salzungen-fallenstein-rolf-schrotthandel",
+  "name": "Fallenstein Rolf Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Salzungen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, ländlich (Wartburgkreis/Rhön-nah)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-tiefenort-b-bad-salzungen-autoverwertung-schleicher",
+  "name": "Autoverwertung Schleicher",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Tiefenort b. Bad Salzungen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung (Flag: Schrottankauf nicht nachgewiesen)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-walldorf-b-meiningen-haid-bernd-schrotthandel-und-containerdi",
+  "name": "Haid Bernd Schrotthandel und Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Walldorf b. Meiningen",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Container",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-schmalkalden-jager-jurgen",
+  "name": "Jäger Jürgen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schmalkalden",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg., Thüringer Wald)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-heilbad-heiligenstadt-eichsf-topfer-herbert-schrotthandel-topfer-meta",
+  "name": "Töpfer Herbert Schrotthandel / Töpfer Metallaufbereitung GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heilbad Heiligenstadt/Eichsfeld",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel, Metallaufbereitung",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-kullstedt-petri-tobias-containerdienst-recycling",
+  "name": "Petri Tobias Containerdienst & Recycling",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Küllstedt",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container, Recycling",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-sonneberg-gertz-altmetallhandel",
+  "name": "Gertz Altmetallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sonneberg",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallhandel (Name spricht für Ankauf)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-neuhaus-am-rennweg-schrott-und-metalle",
+  "name": "Schrott und Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neuhaus am Rennweg",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott und Metalle",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-sachsenbrunn-stiefel-norbert-containerdienst-metall-u",
+  "name": "Stiefel Norbert Containerdienst Metall- u. Schrott",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Sachsenbrunn",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container, Metall/Schrott",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-altenburg-muller-uwe-schrottrecycling",
+  "name": "Müller Uwe Schrottrecycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Altenburg",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottrecycling (Adresse = Geweniger Kotteritz — Zusammenhang unklar)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Schrottankauf Thüringen (TH) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-heilbad-heiligenstadt-falk-wedekind-metallrecycling",
+  "name": "Falk Wedekind GmbH (Metallrecycling)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heilbad Heiligenstadt",
+  "state": "TH",
+  "website": "https://www.falk-wedekind.de/metallrecycling",
+  "status": "aktiv",
+  "notes": "Altmetall aller Art (Batterie bis Kupferkabel), Abholung/Container, Entsorgungsfachbetrieb",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "ja (Barzahlung b. Anlieferung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-uder-eichsfeld-swt-schrott-wertstoffhandel-und-transpor",
+  "name": "SWT Schrott-, Wertstoffhandel und Transport GmbH",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Uder/Eichsfeld",
+  "state": "TH",
+  "website": "https://www.swt-uder.de",
+  "status": "aktiv",
+  "notes": "Eisen-/Stahl-/Gussschrott, NE-Metalle (Cu, Alu, Messing), Recyclinghof, Container; EfbV",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "ja (fairer, direkt ausgezahlter Preis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-vacha-schrottverwertung-fa-stussak-inh-m-stuss",
+  "name": "Schrottverwertung Fa. Stussak (Inh. M. Stussak)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Vacha",
+  "state": "TH",
+  "website": "http://www.schrottverwertung-fa-stussak.de",
+  "status": "aktiv",
+  "notes": "kostenlose Schrottabholung, Altauto-Ankauf/-Verwertung m. Nachweis, Demontage/Brennschneiden, Entrümpelung",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "ja (Altauto Ankauf, Schrottabholung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-barchfeld-immelborn-tde-recycling",
+  "name": "TDE-Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Barchfeld-Immelborn",
+  "state": "TH",
+  "website": "https://www.tde-recycling.de",
+  "status": "pruefung",
+  "notes": "E-Schrott-Zerlegung/-Verwertung, anerkannte Behandlungsanlage n. ElektroG, Verbundwerkstoffe",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar (kostenlose E-Schrott-Annahme; kein Ankauf nachgewiesen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-sonneberg-vista-electronic",
+  "name": "VISTA electronic GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Sonneberg",
+  "state": "TH",
+  "website": "https://www.vista-electronic.de",
+  "status": "pruefung",
+  "notes": "Elektronikrecycling, Erstbehandlungsanlage n. ElektroG, Datenträgervernichtung",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar (B2B-Entsorgungskonzepte; kein Ankauf nachgewiesen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-porstendorf-dorndorf-steudni-autohof-porstendorf",
+  "name": "Autohof Porstendorf",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Porstendorf/Dorndorf-Steudnitz",
+  "state": "TH",
+  "website": "https://autohof-porstendorf.de/",
+  "status": "pruefung",
+  "notes": "zertifizierte Altautoverwertung, Ersatzteile, Werkstatt",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar (Entsorgung m. Preisliste; Schrottankauf nicht nachgewiesen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-greiz-greizer-metall-schrott",
+  "name": "Greizer Metall & Schrott GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Greiz",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metall & Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-ronneburg-ot-gauern-schrott-metall",
+  "name": "Schrott-Metall GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ronneburg OT Gauern",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-Metall (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-mohlsdorf-teichwolframsdorf-reichelt-schrotthdl",
+  "name": "Reichelt SchrottHdl.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mohlsdorf-Teichwolframsdorf",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-stadtroda-donndorf-herbert-schrott-und-metallhande",
+  "name": "Donndorf Herbert Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stadtroda",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott- und Metallhandel",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-bad-lobenstein-reisigel-firma",
+  "name": "Reisigel, Firma",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Lobenstein",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-bad-lobenstein-sinnig-john-schrotthandel-und-hausservic",
+  "name": "Sinnig John Schrotthandel und Hausservice",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Lobenstein",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel + Hausservice",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-blankenhain-schrott-u-metallhandel-thiene-inh-elke-s",
+  "name": "Schrott- u. Metallhandel Thiene Inh. Elke Schäfer",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Blankenhain",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott- u. Metallhandel",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-sommerda-muller-stefan-schrotthandel",
+  "name": "Müller Stefan Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sömmerda",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-bad-tennstedt-schrottabholdienst-scheffler-mario",
+  "name": "Schrottabholdienst Scheffler Mario",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Tennstedt",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottabholdienst",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-groenehrich-ot-feldengel-barth-erich-schrotthandel-u-gutertranspo",
+  "name": "Barth Erich Schrotthandel u. Gütertransport",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Großenehrich OT Feldengel",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel + Gütertransport",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 2 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-meiningen-ot-walldorf-bhs-metallrecycling",
+  "name": "BHS Metallrecycling GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Meiningen OT Walldorf",
+  "state": "TH",
+  "website": "https://www.bhs-walldorf.de/",
+  "status": "aktiv",
+  "notes": "Schrotthandel/Metallrecycling Industrie + privat (FE/NE, Alu, Hartmetall), Container/Fuhrpark, 25.000 qm",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (tagesaktuelle Preise; FE ab 80 kg, NE ab 1 kg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-arnstadt-recyclinghof-kuhn-baumpflege-kuhn-inh-se",
+  "name": "Recyclinghof Kühn (Baumpflege Kühn GmbH, Inh. Sebastian Kühn)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Arnstadt",
+  "state": "TH",
+  "website": "https://recycling-arnstadt.de/metallschrott/",
+  "status": "aktiv",
+  "notes": "Eisen/Stahl, Buntmetalle (Cu, Messing, Alu, Zink, Blei), Edelstahl, Mischschrott; Selbstanlieferung o. Termin",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Tagespreis, Abrechnung vor Ort; nur EC-Karte, kein Bargeld; keine Abholung, keine E-Geräte)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-arnstadt-scholz-recycling-standort-arnstadt",
+  "name": "Scholz Recycling GmbH (Standort Arnstadt)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Arnstadt",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Stahl/NE/legiert (Scholz-Programm), Containerdienst",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Selbstanlieferer, Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-eisenach-scholz-recycling-standort-eisenach",
+  "name": "Scholz Recycling GmbH (Standort Eisenach)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Eisenach",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "wie oben",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Annahme Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-eisfeld-scholz-recycling-standort-eisfeld",
+  "name": "Scholz Recycling GmbH (Standort Eisfeld)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Eisfeld",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "wie oben",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Annahme Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-muhlhausen-scholz-recycling-standort-muhlhausen",
+  "name": "Scholz Recycling GmbH (Standort Mühlhausen)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Mühlhausen",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "wie oben",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Annahme Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-langewiesen-b-ilmenau-scholz-recycling-standort-langewiesen",
+  "name": "Scholz Recycling GmbH (Standort Langewiesen)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Langewiesen b. Ilmenau",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "wie oben",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Annahme Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gotha-scholz-recycling-standort-gotha",
+  "name": "Scholz Recycling GmbH (Standort Gotha)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Gotha",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "wie oben",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Annahme Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gera-scholz-recycling-standort-gera",
+  "name": "Scholz Recycling GmbH (Standort Gera)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Gera",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "wie oben",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Annahme Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-erfurt-scholz-recycling-standort-erfurt-hohenwi",
+  "name": "Scholz Recycling GmbH (Standort Erfurt-Hohenwinden)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Erfurt",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "wie oben",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Annahme Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-groengottern-scholz-recycling-standort-groengottern",
+  "name": "Scholz Recycling GmbH (Standort Großengottern)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Großengottern",
+  "state": "TH",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "wie oben",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "ja (Annahme Konzernstandard)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-neuhaus-am-rennweg-schunzel-stephan-schrotthandel",
+  "name": "Schünzel Stephan Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neuhaus am Rennweg",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (Thüringer Wald)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 3 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-hildburghausen-recyclinghof-koob-inh-m-koob",
+  "name": "Recyclinghof Koob (Inh. M. Koob)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hildburghausen",
+  "state": "TH",
+  "website": "https://recyclinghof-koob.de/",
+  "status": "aktiv",
+  "notes": "Metall-/Schrottannahme (Tagespreise, bar, Waage 35 t), Container, Abbruch, Wertstoffhof",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "ja (bar, Tagespreise)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-gera-gmr-geraer-metallrecycling-2",
+  "name": "GMR GmbH Geraer Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gera",
+  "state": "TH",
+  "website": "https://www.gmr-metallrecycling.de/",
+  "status": "pruefung",
+  "notes": "Metallrecycling",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-nordhausen-nordhauser-rohstoffhandel-2",
+  "name": "Nordhäuser Rohstoffhandel GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Nordhausen",
+  "state": "TH",
+  "website": "https://www.nrh-recycling.de/",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel/Entsorgung, Entsorgungsfachbetrieb",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-geraberg-ikschrott-rovocar",
+  "name": "IKSCHROTT rovocar",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Geraberg",
+  "state": "TH",
+  "website": "http://www.ikschrott.de",
+  "status": "aktiv",
+  "notes": "Schrottabholung Ilmkreis (Abruf), Fahrzeug-/Gebrauchtwagen-Ankauf, Bagger/Abriss",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "ja (Abholung, Fahrzeugankauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-muhlhausen-containerdienst-zimmermann-inh-detlef-zi",
+  "name": "Containerdienst Zimmermann (Inh. Detlef Zimmermann)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Mühlhausen",
+  "state": "TH",
+  "website": "https://www.container-zimmermann.de",
+  "status": "aktiv",
+  "notes": "Container, Recyclinghof (Schrottannahme), Baustoffe, Entrümpelung; seit 1992",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "ja (Recyclinghof-Annahme)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-hamma-gebruder-aurin-containerdienst",
+  "name": "Gebrüder Aurin Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Hamma",
+  "state": "TH",
+  "website": "https://gebrueder-aurin.de/",
+  "status": "pruefung",
+  "notes": "Container, Entsorgungsfachbetrieb",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-sondershausen-r-m-schrotthandel",
+  "name": "R&M Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sondershausen",
+  "state": "TH",
+  "website": "http://www.rm-schrotthandel.de",
+  "status": "pruefung",
+  "notes": "Schrott (allg.)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-weimar-fernkorn-albert",
+  "name": "Fernkorn Albert e.K.",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Weimar",
+  "state": "TH",
+  "website": "http://www.fernkorn-weimar.de",
+  "status": "pruefung",
+  "notes": "Metallhandel, Containerdienst",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-erfurt-hugo-entsorgung-2",
+  "name": "Hugo Entsorgung GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Erfurt",
+  "state": "TH",
+  "website": "http://www.hugo-bebra.eu",
+  "status": "pruefung",
+  "notes": "Entsorgung + Schrott",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "th-tel-profil-m",
+  "name": "Profil m",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "03641",
+  "city": "Tel.",
+  "state": "TH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 03641)",
+  "provenance": {
+   "seed_file": "th",
+   "section": "Nachtrag Audit-Runde 4 (2026-09-27)",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ }
+]

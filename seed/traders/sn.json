@@ -1,0 +1,3332 @@
+[
+ {
+  "slug": "sn-dresden-hans-muller-jun-schrott-und-metallhandel",
+  "name": "Hans Müller jun. Schrott- und Metallhandel KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://www.hans-mueller-jun.de",
+  "status": "aktiv",
+  "notes": "Fe-Schrott, Buntmetall, Container | klassischer Schrotthändler mit Barankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-tsr-deutschland-nl-dresden-hafen",
+  "name": "TSR Deutschland GmbH & Co. KG, NL Dresden-Hafen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://www.tsr-recycling.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Selbstanlieferer | teilt sich Adresse mit Scholz Hafen",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-scholz-recycling-betrieb-dresden-hafen",
+  "name": "Scholz Recycling GmbH, Betrieb Dresden Hafen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Aufbereitung | v.a. Gewerbe, Selbstanlieferer möglich",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-scholz-recycling-betrieb-dresden-ig",
+  "name": "Scholz Recycling GmbH, Betrieb Dresden IG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE + Altfahrzeug-Annahmestelle | mit Verwertungsnachweis",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-heidenau-tsr-deutschland-nl-dresden-heidenau",
+  "name": "TSR Deutschland GmbH & Co. KG, NL Dresden-Heidenau",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Heidenau",
+  "state": "SN",
+  "website": "https://www.tsr-recycling.de",
+  "status": "aktiv",
+  "notes": "Fe/NE | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-jorg-peter-rohstoffrecycling",
+  "name": "Jörg Peter Rohstoffrecycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://schrottpeter.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Kabel, E-Schrott, Batterien, Container | Tageshöchstpreise, auch Altpapier",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-2nd-way-recycling",
+  "name": "2nd way Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://www.second-way.de",
+  "status": "aktiv",
+  "notes": "Schrott, Buntmetall | kleiner Händler",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-h-nestler",
+  "name": "H. Nestler GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://www.nestleronline.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Altmetall-/Edelmetall-Ankauf | zahlt Wert direkt aus",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-7-h-nestler",
+  "name": "H. Nestler GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "7)",
+  "state": "SN",
+  "website": "https://www.nestleronline.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Altmetall-/Edelmetall-Ankauf | zahlt Wert direkt aus",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freital-walter-kunze-schrott-und-metallhandels-n",
+  "name": "Walter Kunze Schrott- und Metallhandels GmbH, NL Freital",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freital",
+  "state": "SN",
+  "website": "https://www.kunze-group.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Kabel, Altbatterien, Container 5–38 m³ | weitere SN-Standorte Dresden, Großenhain",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-walter-kunze-nl-dresden",
+  "name": "Walter Kunze NL Dresden",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://www.kunze-group.de",
+  "status": "aktiv",
+  "notes": "Fe/NE | Standort lt. Kunze-Group, Adresse unklar",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-heidenau-heidenauer-metallverwertungs",
+  "name": "Heidenauer Metallverwertungs GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heidenau",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe-/NE-Schrott, Container | Ankauf lt. Firmenbeschreibung, Website unklar",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dohma-pirna-metallverwertung-lars-appelt",
+  "name": "Metallverwertung Lars Appelt",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dohma/Pirna",
+  "state": "SN",
+  "website": "https://www.mv-larsappelt.de",
+  "status": "aktiv",
+  "notes": "Buntmetalle, Eisenschrott, Container 7–32 m³ | familiengeführt seit 1992, verifiziert",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-pirna-urw-umweltschutz-recycling-wertstoffhand",
+  "name": "URW Umweltschutz, Recycling & Wertstoffhandel GmbH",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Pirna",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling/Wertstoffhandel | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-pfaffelhuber-recycling-dresden",
+  "name": "PFAFFELHUBER Recycling Dresden GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freital-becker-umweltdienste-nl-freital",
+  "name": "Becker Umweltdienste GmbH, NL Freital",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Freital",
+  "state": "SN",
+  "website": "https://jakob-becker.de",
+  "status": "pruefung",
+  "notes": "Entsorgung, Lagern (nur Eisen-/Stahlabfälle zert.) | kein belegter Barankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-entsorgungsbetrieb-keller",
+  "name": "Entsorgungsbetrieb Keller GbR",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Gelbe Seiten) | nur Gelbe-Seiten-Eintrag",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-stadtreinigung-dresden",
+  "name": "Stadtreinigung Dresden GmbH",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "https://www.srdresden.de",
+  "status": "pruefung",
+  "notes": "kommunale Wertstoffhöfe | kein Barankauf, nur Entsorgung",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-autoverwertung-dresden",
+  "name": "Autoverwertung Dresden GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung, Ersatzteile | kein klassischer Schrottankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-heidenau-auto-staron",
+  "name": "Auto-Staron",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Heidenau",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "anerk. Altfahrzeug-Demontagebetrieb | Verwertungsnachweis",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "1) Dresden, Freital, Heidenau, Pirna",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-groenhain-walter-kunze-nl-groenhain",
+  "name": "Walter Kunze NL Großenhain",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Großenhain",
+  "state": "SN",
+  "website": "https://www.kunze-group.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Container | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "2) Meißen, Radebeul, Coswig, Großenhain, Riesa/Gröditz",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-groditz-scholz-recycling-betrieb-groditz",
+  "name": "Scholz Recycling GmbH, Betrieb Gröditz",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Gröditz",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Werksnähe Stahlwerk | v.a. Gewerbe/Industrie",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "2) Meißen, Radebeul, Coswig, Großenhain, Riesa/Gröditz",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-riesa-esf-elbe-stahlwerke-feralpi-schrottaufbe",
+  "name": "ESF Elbe-Stahlwerke Feralpi, Schrottaufbereitung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Riesa",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Stahlwerk (Einsatzschrott) | kauft ggf. nur Großmengen ab Händlern",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "2) Meißen, Radebeul, Coswig, Großenhain, Riesa/Gröditz",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-radebeul-nehlsen-sachsen-standort-radebeul",
+  "name": "Nehlsen Sachsen GmbH & Co. KG, Standort Radebeul",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Radebeul",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung/Lagern | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "2) Meißen, Radebeul, Coswig, Großenhain, Riesa/Gröditz",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-coswig-recyclingplatz-coswig",
+  "name": "Recyclingplatz Coswig",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Coswig",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "2) Meißen, Radebeul, Coswig, Großenhain, Riesa/Gröditz",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-coswig-asr-autoteile-service-reifen",
+  "name": "ASR Autoteile, Service, Reifen",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Coswig",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "anerk. Altfahrzeug-Demontage | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "2) Meißen, Radebeul, Coswig, Großenhain, Riesa/Gröditz",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-stolle-metall-recycling-schrotthandel-le",
+  "name": "Stolle Metall-Recycling (Schrotthandel Leipzig, seit 1912)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "https://schrotthandel-leipzig.de",
+  "status": "aktiv",
+  "notes": "Buntmetalle, Fe/Blech, Kabelrecycling, Container bis 27 m³ | 5. Generation, 50-t-Waage",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-metallhandel-jens-jacob",
+  "name": "Metallhandel Jens Jacob GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "http://www.metallhandel-jacob.de",
+  "status": "aktiv",
+  "notes": "Fe, Bunt, Kabel, Katalysatoren, E-Schrott; Preisliste online | auch Container/Gitterboxen",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-hammer-laszlo-hunyak",
+  "name": "Hammer – László Hunyak e.K.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "https://hammerschrott.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Papier; Barzahlung | >30 Jahre Erfahrung, Sonderpreise ab 0,5–1 t",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-engelsdorf-wh-fischer-wertstoffhandel",
+  "name": "WH-Fischer Wertstoffhandel",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig-Engelsdorf",
+  "state": "SN",
+  "website": "https://wh-fischer.com",
+  "status": "aktiv",
+  "notes": "Schrott, Bunt, Kabel, Altpapier; Barauszahlung | + Container, Demontage, Maschinenhandel",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-albus-leipzig",
+  "name": "ALBUS Leipzig",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "https://www.albus-leipzig.de",
+  "status": "aktiv",
+  "notes": "Altpapier, Buntmetalle, Schrott | Kupfer/Messing/Zink/Blei",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-raum-leipzig-rohstoffe-bachinger",
+  "name": "Rohstoffe Bachinger GbR",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Raum Leipzig",
+  "state": "SN",
+  "website": "https://www.schrottplatz-bachinger.de",
+  "status": "aktiv",
+  "notes": "Schrott (3 Generationen) | Ort nicht verifiziert",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-scholz-recycling-leipzig-nord-ost-sud-we",
+  "name": "Scholz Recycling Leipzig Nord-Ost / Süd-West",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE | v.a. Gewerbe",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-rotha-espenhain-scholz-recycling-srw-metalfloat-standort",
+  "name": "Scholz Recycling + SRW metalfloat, Standort Espenhain",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Rötha/Espenhain",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "pruefung",
+  "notes": "Shredder-/Aufbereitungszentrum (36 ha) | v.a. Industrie/B2B, Kleinmengen-Ankauf unklar",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-groposna-metcera",
+  "name": "Metcera GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Großpösna",
+  "state": "SN",
+  "website": "https://www.metcera-recycling.de",
+  "status": "aktiv",
+  "notes": "E-Schrott, Kabel, Buntmetalle; Tagespreisliste | Schwerpunkt Elektronikschrott",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-fritz-eckhardt-handelsburo-leipzig",
+  "name": "Fritz Eckhardt GmbH & Co. KG, Handelsbüro Leipzig",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "https://www.eckhardt-schrott.de",
+  "status": "pruefung",
+  "notes": "Fe-/NE-Handel (Hauptsitz Schwelm/NRW) | Handelsbüro, kein Schrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-krostitz-leipzig-lrp-autorecycling-krostitz-leipzig",
+  "name": "LRP Autorecycling (Krostitz/Leipzig)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Krostitz / Leipzig",
+  "state": "SN",
+  "website": "https://www.lrp-autorecycling-chemnitz.de",
+  "status": "pruefung",
+  "notes": "Autoverwertung, Ersatzteile | einer der größten DE-Verwerter",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-schanko-altmetallhandel-schrotthandel-jo",
+  "name": "Schanko Altmetallhandel / Schrotthandel John / Kürschner R&K u.a.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (Gelbe Seiten, 16 Treffer) | nur Branchenbuch-Namen",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-wurzen-alba-sachsen-standort-wurzen",
+  "name": "ALBA Sachsen GmbH, Standort Wurzen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wurzen",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern | Konzern: alba.info",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-wurzen-wrc-world-resources-company",
+  "name": "WRC World Resources Company GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wurzen",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln/Handeln | eher industriell",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-wurzen-tiax-transport-und-recycling-nl-wurzen",
+  "name": "TiAx Transport und Recycling GmbH, NL Wurzen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wurzen",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-trebsen-scholz-recycling-standort-trebsen",
+  "name": "Scholz Recycling, Standort Trebsen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Trebsen",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "pruefung",
+  "notes": "Aufbereitung | Standort lt. Scholz-Karriereseite",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "3) Leipzig und Nordsachsen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-tsr-deutschland-nl-chemnitz",
+  "name": "TSR Deutschland GmbH & Co. KG, NL Chemnitz",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "https://www.tsr-recycling.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Altauto-Ankauf | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-mhc-metallhandel-chemnitz",
+  "name": "MHC Metallhandel Chemnitz GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "https://www.metallhandel-chemnitz.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel | Tel. 0371/586041",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-hofmann-metall-betriebsteil-chemnitz",
+  "name": "Hofmann Metall GmbH, Betriebsteil Chemnitz",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "https://hofmann-metall.de",
+  "status": "aktiv",
+  "notes": "Fe/Bunt/Legierungen, Demontage | + Hauptsitz Zwickau, Hirschfeld, Brandis/Beucha",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-scholz-recycling-betrieb-chemnitz",
+  "name": "Scholz Recycling GmbH, Betrieb Chemnitz",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-schrott-friedrich",
+  "name": "Schrott Friedrich GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "https://www.schrott-friedrich.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Barankauf, Container 2–40 m³ | Efb seit 1996",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-wustenbrand-b-hohenstein-ern-schrott-friedrich",
+  "name": "Schrott Friedrich GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wüstenbrand b. Hohenstein-Ernstthal",
+  "state": "SN",
+  "website": "https://www.schrott-friedrich.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Barankauf, Container 2–40 m³ | Efb seit 1996",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-becke-jens-buntmetallhandel",
+  "name": "Becke Jens Buntmetallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Buntmetall | nur Gelbe-Seiten-Eintrag",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-frankenberg-volker-lungwitz-schrotthandel",
+  "name": "Volker Lungwitz Schrotthandel e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankenberg",
+  "state": "SN",
+  "website": "https://vlschrott.de",
+  "status": "aktiv",
+  "notes": "Fe/Bunt/Kabel, Tagespreisliste netto | Di/Do bis 18 Uhr",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-bec-becker-elektrorecycling-chemnitz",
+  "name": "BEC Becker Elektrorecycling Chemnitz GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Elektronikschrott | Schwerpunkt E-Schrott, v.a. Gewerbe",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-rochlitz-db-recycling-denis-blum",
+  "name": "DB Recycling (Denis Blum)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Rochlitz",
+  "state": "SN",
+  "website": "https://www.dein-schrottplatz.de",
+  "status": "aktiv",
+  "notes": "Fe/Bunt, Autoankauf, Container, Altpapier/-kleider | Einzug Mittweida/Geithain/Penig/Lunzenau",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-seelitz-schrott-und-buntmetallhandel-dohlen",
+  "name": "Schrott- und Buntmetallhandel Döhlen",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Seelitz",
+  "state": "SN",
+  "website": "https://altmetallhandel-mittelsachsen.de",
+  "status": "aktiv",
+  "notes": "Alteisen, Bunt, Papier, Container; Abholung | verifiziert, B175 Leipzig–Dresden",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-eppendorf-containerdienst-metallhandel-andy-kroner",
+  "name": "Containerdienst & Metallhandel Andy Krönert",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Eppendorf",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Lagern/Behandeln (Register) | Ankauf plausibel, Website fehlt",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-brand-erbisdorf-tsr-brand-erbisdorf",
+  "name": "TSR Brand-Erbisdorf",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Brand-Erbisdorf",
+  "state": "SN",
+  "website": "https://www.tsr-recycling.de",
+  "status": "aktiv",
+  "notes": "Fe/NE | lt. TSR-Zertifikatsliste",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-bobritzsch-hilbersdorf-becker-umweltdienste-nl-freiberg",
+  "name": "Becker Umweltdienste GmbH, NL Freiberg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bobritzsch-Hilbersdorf",
+  "state": "SN",
+  "website": "https://jakob-becker.de",
+  "status": "pruefung",
+  "notes": "Entsorgung/Container | kein belegter Barankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-lrp-autorecycling-chemnitz",
+  "name": "LRP Autorecycling Chemnitz GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "https://www.lrp-autorecycling-chemnitz.de",
+  "status": "pruefung",
+  "notes": "Autoverwertung, Ersatzteile | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-eppendorf-mpa-autopressbetrieb-eppendorf-franz-und",
+  "name": "MPA Autopressbetrieb Eppendorf Franz und Weißer GbR",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Eppendorf",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "anerk. Altfahrzeug-Demontage | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "4) Chemnitz und Mittelsachsen",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-zwickau-hofmann-metall-hauptsitz",
+  "name": "Hofmann Metall GmbH (Hauptsitz)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zwickau",
+  "state": "SN",
+  "website": "https://hofmann-metall.de",
+  "status": "aktiv",
+  "notes": "Stahl-/Gießereischrott, Bunt, Legierungen, Schrottschere | 30.000 m², + Hirschfeld + Brandis/Beucha",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-zwickau-metarec-metallrecycling-nl-zwickau",
+  "name": "metarec Metallrecycling GmbH, NL Zwickau",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zwickau",
+  "state": "SN",
+  "website": "https://www.metarec-recycling.de",
+  "status": "aktiv",
+  "notes": "Stahlschrott, Buntmetall | auch Sa-Annahme",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-lauter-bernsbach-metarec-metallrecycling-hauptsitz",
+  "name": "metarec Metallrecycling GmbH (Hauptsitz)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lauter-Bernsbach",
+  "state": "SN",
+  "website": "https://www.metarec-recycling.de",
+  "status": "aktiv",
+  "notes": "Stahlschrott, Buntmetall | seit 1990 (ex EMG Schneeberg)",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-zwickau-scholz-recycling-betrieb-zwickau",
+  "name": "Scholz Recycling GmbH, Betrieb Zwickau",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Zwickau",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-mulsen-hofmann-recycling",
+  "name": "Hofmann Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mülsen",
+  "state": "SN",
+  "website": "https://hofmann-recycling.de",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall-Annahme, Container 2–36 m³ | Efb, 60-t-Waage",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-glauchau-max-gehrt",
+  "name": "Max Gehrt GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Glauchau",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, Buntmetall, Container | lt. Das Örtliche",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-glauchau-klaus-georg-gehrt",
+  "name": "Klaus-Georg Gehrt",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Glauchau",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, Buntmetalle, Demontage, Container | lt. Das Örtliche",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-niederdorf-b-stollberg-metall-recycling-reiner-granz",
+  "name": "Metall-Recycling Reiner Gränz GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Niederdorf b. Stollberg",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Bunt/E-Schrott, Sonderlegierungen, Tageshöchstpreise | lt. schrottplatz-info, zert. Metallhandel",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-oberlungwitz-mdpc-schrotthandel",
+  "name": "MDPC Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oberlungwitz",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott | nur als Nachbar-Eintrag belegt",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-schwarzenberg-scholz-recycling-standort-schwarzenberg",
+  "name": "Scholz Recycling, Standort Schwarzenberg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Schwarzenberg",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "pruefung",
+  "notes": "Fe/NE | Standort lt. Scholz-Karriereseite, Details unklar",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-aue-hentschel-schrotthandel-aue",
+  "name": "Hentschel Schrotthandel Aue",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aue",
+  "state": "SN",
+  "website": "https://www.hentschel-schrotthandel-aue.com",
+  "status": "pruefung",
+  "notes": "Schrott/Altmetall (Website-Angabe) | Template-Website OHNE Adress-/Impressumsnachweis → Vorsicht",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "unsicher",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-annaberg-buchholz-ged-grubler-entsorgungsdienste",
+  "name": "GED – Grübler Entsorgungsdienste GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Annaberg-Buchholz",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln (Register) | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-plauen-rowi-metallhandel-robert-wittig",
+  "name": "ROWI Metallhandel (Robert Wittig)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Plauen",
+  "state": "SN",
+  "website": "https://www.rowi-metallhandel.de",
+  "status": "aktiv",
+  "notes": "Schrott, Bunt, Papier, Altkleider; Anhängervermietung | verifiziert",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-plauen-buntmetall-handel-ramona-peter-schrott-p",
+  "name": "Buntmetall-Handel Ramona Peter (Schrott-Peter)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Plauen",
+  "state": "SN",
+  "website": "https://www.schrott-peter.de",
+  "status": "aktiv",
+  "notes": "Bunt, Schrott, Batterien, Katalysatoren, Papier | zert. Efb, börsenorientierte Preise",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-netzschkau-fuhrunternehmen-containerdienst-szameita",
+  "name": "Fuhrunternehmen & Containerdienst Szameitat",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Netzschkau",
+  "state": "SN",
+  "website": "https://szameitat-container.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Buntmetallankauf, Container | Vogtland, auch Kleinanzeigen-Profil",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-plauen-scholz-recycling-standort-plauen",
+  "name": "Scholz Recycling, Standort Plauen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Plauen",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "pruefung",
+  "notes": "Fe/NE | Standort lt. Scholz-Karriereseite, Details unklar",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-reichenbach-becker-umweltdienste-nl-reichenbach",
+  "name": "Becker Umweltdienste GmbH, NL Reichenbach",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Reichenbach",
+  "state": "SN",
+  "website": "https://jakob-becker.de",
+  "status": "pruefung",
+  "notes": "Entsorgung | kein belegter Barankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-bautzen-scholz-recycling-betrieb-bautzen",
+  "name": "Scholz Recycling GmbH, Betrieb Bautzen",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bautzen",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Sammeln/Verwerten | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-bautzen-baschutz-oberlausitzer-recyclingzentrum-lehmann",
+  "name": "Oberlausitzer Recyclingzentrum Lehmann",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bautzen/Baschütz",
+  "state": "SN",
+  "website": "https://oberlausitzer-recycling.de",
+  "status": "aktiv",
+  "notes": "Fe-/NE-Schrott, legierte Metalle, Wertstoffvergütung, Container | Familienbetrieb seit 1981, Efb",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-gorlitz-b-b-schrott-recycling-hof-gorlitz",
+  "name": "B&B Schrott-Recycling Hof Görlitz GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Görlitz",
+  "state": "SN",
+  "website": "https://www.schrotthof-goerlitz.de",
+  "status": "aktiv",
+  "notes": "Fe-/Buntmetall-Recycling, Container, Demontage, Brennschneiden | gegründet 1994",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-gorlitz-hagenwerder-oostdam-metallhandels",
+  "name": "Oostdam Metallhandels GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Görlitz/Hagenwerder",
+  "state": "SN",
+  "website": "https://www.oostdam-metalle.de",
+  "status": "aktiv",
+  "notes": "Stahlschrott, Bunt, Legierungen, Schrottschere | zert. Efb, Gießerei-/Stahlwerksbelieferung",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-boxberg-oostdam-metallhandels",
+  "name": "Oostdam Metallhandels GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Boxberg",
+  "state": "SN",
+  "website": "https://www.oostdam-metalle.de",
+  "status": "aktiv",
+  "notes": "Stahlschrott, Bunt, Legierungen, Schrottschere | zert. Efb, Gießerei-/Stahlwerksbelieferung",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-gorlitz-ored-ostsachs-handels-und-dienstleistung",
+  "name": "OReD Ostsächs. Handels- und Dienstleistungs GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Görlitz",
+  "state": "SN",
+  "website": "https://www.schrottplatz-goerlitz.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Altmetallhandel, Zerlege-/Brennschneidarbeiten | Domain lt. Creditreform/jobs-oberlausitz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-kamenz-glau-con-recycling-und-entsorgungsges-mb",
+  "name": "Glau-Con-Recycling und Entsorgungsges. mbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kamenz",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern (Register) | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-kamenz-nehlsen-sachsen-standort-kamenz",
+  "name": "Nehlsen Sachsen GmbH & Co. KG, Standort Kamenz",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kamenz",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern (Register) | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-hoyerswerda-vrd-verwertung-und-recycling-dresden-nl",
+  "name": "VRD Verwertung und Recycling Dresden GmbH, NL Hoyerswerda (VEZ)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Hoyerswerda",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern (Register) | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-weiwasser-niesky-niederschlesische-entsorgungsges-mbh-neg",
+  "name": "Niederschlesische Entsorgungsges. mbH (NEG)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Weißwasser / Niesky",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "kommunale Abfallhöfe | kein Barankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-online-schrott24-metaloop-liz-altmetallhandler",
+  "name": "Schrott24 (Metaloop, liz. Altmetallhändler)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "online",
+  "state": "SN",
+  "website": "https://www.schrott24.de",
+  "status": "aktiv",
+  "notes": "alle Altmetalle, Paketversand/Abholung/Container, Express-Auszahlung | größte EU-Plattform, eigene SN-Preisseiten",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "7) Überregional / mobil / online (in SN tätig)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-mobil-leipzig-schrottjungs-schrottabholung-leipzig",
+  "name": "Schrottjungs (Schrottabholung Leipzig)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "mobil: Leipzig",
+  "state": "SN",
+  "website": "https://schrottjungs.de",
+  "status": "aktiv",
+  "notes": "kostenlose Abholung, Barankauf Bunt/Kupfer/Kabel/VHM | kein eigener Platz, mobil only",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "7) Überregional / mobil / online (in SN tätig)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-markkleeberg-taucha-schkeudi-schrottjungs-schrottabholung-leipzig",
+  "name": "Schrottjungs (Schrottabholung Leipzig)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Markkleeberg/Taucha/Schkeuditz/Zwenkau/Böhlen",
+  "state": "SN",
+  "website": "https://schrottjungs.de",
+  "status": "aktiv",
+  "notes": "kostenlose Abholung, Barankauf Bunt/Kupfer/Kabel/VHM | kein eigener Platz, mobil only",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "7) Überregional / mobil / online (in SN tätig)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-zittau-kunzmann-schrott",
+  "name": "Kunzmann-Schrott",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zittau",
+  "state": "SN",
+  "website": "https://www.kunzmann-schrott.de",
+  "status": "aktiv",
+  "notes": "Alt-/Buntmetall-Annahme, Beräumung | Vergütung ab 500 kg n. Schrottpreisen",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-zittau-wertstoffrecycling-ulrich-bajtalla",
+  "name": "Wertstoffrecycling Ulrich Bajtalla",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zittau",
+  "state": "SN",
+  "website": "https://www.wertstoffe-zittau.de",
+  "status": "aktiv",
+  "notes": "Schrott/Bunt, Papier; \"wiegen, Geld kassieren\" | Ankauf ab 1 kg, seit 2001",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-obercunnersdorf-frank-berger-recycling",
+  "name": "Frank Berger Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Obercunnersdorf",
+  "state": "SN",
+  "website": "https://www.frankberger.com",
+  "status": "aktiv",
+  "notes": "Fe-/Buntmetallrecycling, Kabelaufbereitung, Container | Efb; B&B Görlitz gehört zur Gruppe; Barzahlung privat",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-ebendorfel-b-gropostwitz-frank-berger-recycling",
+  "name": "Frank Berger Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ebendörfel b. Großpostwitz",
+  "state": "SN",
+  "website": "https://www.frankberger.com",
+  "status": "aktiv",
+  "notes": "Fe-/Buntmetallrecycling, Kabelaufbereitung, Container | Efb; B&B Görlitz gehört zur Gruppe; Barzahlung privat",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-ostritz-steffen-schnei-schrotthandel-entkernung",
+  "name": "Steffen Schnei Schrotthandel, Entkernung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ostritz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Bunt lt. Verzeichnis | schließt Lücke Zittau–Görlitz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-delitzsch-isr-schrotthandels",
+  "name": "ISR Schrotthandels-GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Delitzsch",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmaterial-Großhandel | nur recyclingpool-Eintrag, B2B-Flag",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-jesewitz-ekm",
+  "name": "EKM",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Jesewitz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-torgau-tsr-deutschland-nl-torgau",
+  "name": "TSR Deutschland, NL Torgau",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Torgau",
+  "state": "SN",
+  "website": "https://www.tsr-recycling.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Kabelrecycling | Selbstanlieferer wie andere TSR-NL",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-torgau-scholz-recycling-betrieb-torgau",
+  "name": "Scholz Recycling, Betrieb Torgau",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Torgau",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Autoverwertung | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-oschatz-oschatz-recycling-oschatzer-recycling-un",
+  "name": "Oschatz Recycling (Oschatzer Recycling- und Umwelt-Technik GmbH)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oschatz",
+  "state": "SN",
+  "website": "https://oschatzrecycling.de",
+  "status": "aktiv",
+  "notes": "Fe-/Buntmetall, E-Motoren, Container 5–36 m³ | Barankauf + Preisliste, GF Immo Schwarz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-oschatz-alba-sachsen-standort-oschatz",
+  "name": "ALBA Sachsen GmbH, Standort Oschatz",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Oschatz",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern | schrottradar-Profil",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dobeln-scholz-recycling-betrieb-dobeln",
+  "name": "Scholz Recycling, Betrieb Döbeln",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Döbeln",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Autoverwertung | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dobeln-steffen-gohler-otmar-woydschiske",
+  "name": "Steffen Göhler & Otmar Woydschiske GbR",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Döbeln",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-taucha-schrott-und-altpapierhandel-m-a-horn",
+  "name": "Schrott- und Altpapierhandel M.-A. Horn",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Taucha",
+  "state": "SN",
+  "website": "https://schrotthandel-taucha.de",
+  "status": "aktiv",
+  "notes": "Schrott/Bunt/Altpapier, Tagespreise | feste Annahmetage Mi/Fr/Sa",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-grimma-scholz-recycling-betrieb-grimma",
+  "name": "Scholz Recycling, Betrieb Grimma",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Grimma",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Autoverwertung | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-anas-metall-leipzig",
+  "name": "Anas.metall-leipzig",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-leipzig-afamia-leipzig",
+  "name": "Afamia Leipzig",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leipzig",
+  "state": "SN",
+  "website": "https://afamia-leipzig.com",
+  "status": "aktiv",
+  "notes": "Schrott-An-/Verkauf, Zerlegung | + Zweitadresse Fraunhoferstr. 7",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-oelsnitz-vogtl-schrottmobil-inh-ralf-weel",
+  "name": "Schrottmobil (Inh. Ralf Weßel)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oelsnitz/Vogtl.",
+  "state": "SN",
+  "website": "https://schrottmobil.info",
+  "status": "aktiv",
+  "notes": "Altmetall-Ankauf, Preisliste, Container 6–40 m³ | grenznah (CZ), auch Abholung",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-auerbach-vogtl-schrott-containerdienst-danny-seidel",
+  "name": "Schrott & Containerdienst Danny Seidel",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Auerbach/Vogtl.",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-lengenfeld-lengenfelder-schrott-und-metalle",
+  "name": "Lengenfelder Schrott und Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lengenfeld",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe | Annahme lt. lokaleschrottplatz (36 Reviews)",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-zschopau-wertstoff-bauer-inh-micha-bauer",
+  "name": "Wertstoff-Bauer (Inh. Micha Bauer)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zschopau",
+  "state": "SN",
+  "website": "https://wertstoff-bauer.de",
+  "status": "aktiv",
+  "notes": "Fe/Bunt/Kabel/E-Motoren, Preisliste | Alligatorschere, geeichte Waagen",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-lonitz-metallhandel-alscher",
+  "name": "Metallhandel Alscher",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lößnitz",
+  "state": "SN",
+  "website": "https://metall-alscher.de",
+  "status": "aktiv",
+  "notes": "Schrott/Bunt/Kabel, Gratis-Abholung, Container | Westerzgebirge",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-niederwurschnitz-schrott-und-altpapierannahme",
+  "name": "Schrott- und Altpapierannahme",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Niederwürschnitz",
+  "state": "SN",
+  "website": "https://schrottannahme-stollberg.de",
+  "status": "aktiv",
+  "notes": "Annahmestelle Altpapier/Schrott/Bunt | Di–Sa geöffnet",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-gornsdorf-gunter-uhlig-sekundarrohstoffe",
+  "name": "Günter Uhlig Sekundärrohstoffe e.K.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Gornsdorf",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-groolbersdorf-absk-eschrott-abfallmanagement-beratung",
+  "name": "ABSK-ESchrott (Abfallmanagement & Beratung Sylvia Krause)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Großolbersdorf",
+  "state": "SN",
+  "website": "https://absk-eschrott.de",
+  "status": "pruefung",
+  "notes": "E-Schrott/Beratung | Website zeigt Beratung; Annahme lt. Verzeichnis",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-marienberg-scholz-recycling-betrieb-marienberg",
+  "name": "Scholz Recycling, Betrieb Marienberg",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Marienberg",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Autoverwertung | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-annaberg-buchholz-scholz-recycling-betrieb-annaberg-buchho",
+  "name": "Scholz Recycling, Betrieb Annaberg-Buchholz",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Annaberg-Buchholz",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Autoverwertung | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freiberg-scholz-recycling-betrieb-freiberg",
+  "name": "Scholz Recycling, Betrieb Freiberg",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Freiberg",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE, Autoverwertung | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-oberlungwitz-bunt-edelmetall-recycling-hofmann",
+  "name": "Bunt-Edelmetall Recycling Hofmann",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oberlungwitz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz; ≠ Hofmann Metall GmbH",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-glashutte-kohn",
+  "name": "Köhn e.K.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Glashütte",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-arnsdorf-ot-fischbach-schrotthandel-hausmeisterservice-m-baum",
+  "name": "Schrotthandel & Hausmeisterservice M.Baum",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Arnsdorf OT Fischbach",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-radeberg-automobiles-vogel-hartenstein",
+  "name": "Automobiles Vogel & Hartenstein GbR",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Radeberg",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung | kein klassischer Schrottankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-kreischa-jurgen-unger",
+  "name": "Jürgen Unger",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kreischa",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-meien-wertstoffhandel-vogel",
+  "name": "Wertstoffhandel Vogel UG",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Meißen",
+  "state": "SN",
+  "website": "https://wertstoffhandel-vogel.de",
+  "status": "aktiv",
+  "notes": "Fe/Bunt/Kabel/E-Motoren, Container 5–36 m³ | Barankauf, Familienbetrieb 3. Gen.",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-coswig-h-nestler-nl-coswig",
+  "name": "H. Nestler NL Coswig",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Coswig",
+  "state": "SN",
+  "website": "https://www.nestleronline.de",
+  "status": "aktiv",
+  "notes": "Fe/NE | Annahme lt. schrottradar, wie andere Nestler-NL",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-grorohrsdorf-ot-bretnig-schrottaufbereitung-rosler",
+  "name": "Schrottaufbereitung Rösler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Großröhrsdorf OT Bretnig",
+  "state": "SN",
+  "website": "https://schrott-roesler.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallankauf, Container 1–34 m³ | Barankauf Tagespreise, Fam.-Betrieb seit 1970",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-launitz-udo-pesteritz-schrott-und-metallabfall-r",
+  "name": "Udo Pesteritz Schrott- und Metallabfall Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Laußnitz",
+  "state": "SN",
+  "website": "http://www.schrott-pesteritz.de",
+  "status": "aktiv",
+  "notes": "Cu/Alu/Edel/Messing/Zink/Blei, Container | Ankauf lt. schrottradar-Profil",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-kamenz-altmetallhandel-gast-jan-raubold",
+  "name": "Altmetallhandel Gast (Jan Raubold)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kamenz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetall, Alufelgen, Abholung | Barankauf, fester Ankauftag Fr; REMONDIS-Übernahme lt. Reviews",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-kamenz-rainer-kalberer",
+  "name": "Rainer Kälberer GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kamenz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-lauta-das-recycling-inh-raphael-duffort",
+  "name": "DAS Recycling (Inh. Raphael Düffort)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lauta",
+  "state": "SN",
+  "website": "https://das-recycling.de",
+  "status": "geschlossen",
+  "notes": "Bunt-/Edelmetall-Ankauf, Altpapier, Container | Hoyerswerda-Lücke geschlossen",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-krauschwitz-schrott-und-metallhandel-pawel",
+  "name": "Schrott- und Metallhandel Pawel GbR",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Krauschwitz",
+  "state": "SN",
+  "website": "https://schrotthandel-pawel.de",
+  "status": "aktiv",
+  "notes": "Altmetall/Bunt/Kernschrott/Kabel, Container 2–10 m³ | Barankauf, seit 1997, Region Weißwasser",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-waldhufen-ot-nieder-seifersd-schrott-und-buntmetalle-u-barsch",
+  "name": "Schrott und Buntmetalle U. Bärsch",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Waldhufen OT Nieder-Seifersdorf",
+  "state": "SN",
+  "website": "https://schrotthandel-baersch.de",
+  "status": "aktiv",
+  "notes": "Schrott/Bunt-Höchstpreise, Container 5–35 m³ | Niesky-Lücke",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-mucka-werner-bogner",
+  "name": "Werner Bogner",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Mücka",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-gersdorf-metall-und-kabelrecycling-reichel",
+  "name": "Metall- und Kabelrecycling Reichel GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Gersdorf",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Cu/Alu/Edel/Messing/Zink/Blei, Container | HRB 18223 (Chemnitz); Verzeichnis + Gelbe Seiten",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-werdau-wertstoffhandel-name-unklar",
+  "name": "Wertstoffhandel (Name unklar)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Werdau",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | nur Verzeichniseintrag ohne Adresse",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-altmittweida-schrott-buntmetallankauf-buntmetallhande",
+  "name": "Schrott Buntmetallankauf (Buntmetallhandel Altmittweida)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Altmittweida",
+  "state": "SN",
+  "website": "https://buntmetallhandel-altmittweida.de",
+  "status": "aktiv",
+  "notes": "Buntmetall, Tagespreise, Abholung | Template-Website, Adresse/Telefon via Verzeichnis",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-lichtenau-born-metall",
+  "name": "Born Metall GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lichtenau",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-limbach-oberfrohna-schrott-antik-fahrzeuge",
+  "name": "Schrott Antik Fahrzeuge",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Limbach-Oberfrohna",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. Verzeichnis; Schwerpunkt Auto/Antik",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-frankenberg-rainer-reinwarth-bde",
+  "name": "Rainer Reinwarth BDE",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Frankenberg",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-geithain-ot-rathendorf-64-schrotthandel-a-t-driessen",
+  "name": "Schrotthandel A&T Driessen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Geithain OT Rathendorf 64",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-mittweida-scholz-recycling-betrieb-mittweida",
+  "name": "Scholz Recycling, Betrieb Mittweida",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Mittweida",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "pruefung",
+  "notes": "Fe/NE | nur schrottradar-Profil, Kleinmengen-Ankauf unklar",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-schrotthandel-schneider",
+  "name": "Schrotthandel Schneider",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "https://www.schrotthandel-schneider.de",
+  "status": "aktiv",
+  "notes": "Schrott/Kabel-Annahme | Öffnungszeiten + Leistungen verifiziert",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-helmut-lutze-schrottentsorgung",
+  "name": "Helmut Lutze Schrottentsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-lugau-emh-eisen-metall-handels-aufbereitungsge",
+  "name": "EMH Eisen-Metall-Handels-Aufbereitungsges. mbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lugau",
+  "state": "SN",
+  "website": "https://www.emh-metall.de",
+  "status": "aktiv",
+  "notes": "Bunt/Schrott/Kabel/Papier, Container | Ankauf/Annahme + Abholung, 2 Standorte",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-mittelbach-emh-eisen-metall-handels-aufbereitungsge",
+  "name": "EMH Eisen-Metall-Handels-Aufbereitungsges. mbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz-Mittelbach",
+  "state": "SN",
+  "website": "https://www.emh-metall.de",
+  "status": "aktiv",
+  "notes": "Bunt/Schrott/Kabel/Papier, Container | Ankauf/Annahme + Abholung, 2 Standorte",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-recycling-und-containerdienst-ralf-siebe",
+  "name": "Recycling und Containerdienst Ralf Sieber",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Container, Annahme | Annahme lt. schrottradar (2 Standorte)",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-wertstoffhandel-scharschuch-david-jakob",
+  "name": "Wertstoffhandel Scharschuch (David Jakob)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "http://www.entsorgung-dresden.de",
+  "status": "aktiv",
+  "notes": "Schrott/Bunt/Papier, Barankauf | sofortige Barauszahlung",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freital-wertstoffhandel-scharschuch-david-jakob",
+  "name": "Wertstoffhandel Scharschuch (David Jakob)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freital",
+  "state": "SN",
+  "website": "http://www.entsorgung-dresden.de",
+  "status": "aktiv",
+  "notes": "Schrott/Bunt/Papier, Barankauf | sofortige Barauszahlung",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-zwickau-gottfried-wunderlich",
+  "name": "Gottfried Wunderlich",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Zwickau",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-wilkau-halau-roland-schulz-containerdienst",
+  "name": "Roland Schulz Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Wilkau-Haßlau",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Container + Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-jahnsdorf-ot-pfaffenhain-schrotti",
+  "name": "Schrotti",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Jahnsdorf OT Pfaffenhain",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-riesa-tsr-deutschland-nl-riesa",
+  "name": "TSR Deutschland, NL Riesa",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Riesa",
+  "state": "SN",
+  "website": "https://www.tsr-recycling.de",
+  "status": "aktiv",
+  "notes": "Fe/NE, Kabelrecycling | Selbstanlieferer wie andere TSR-NL",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-riesa-scholz-recycling-betrieb-riesa",
+  "name": "Scholz Recycling, Betrieb Riesa",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Riesa",
+  "state": "SN",
+  "website": "https://www.scholz-recycling.com",
+  "status": "aktiv",
+  "notes": "Fe/NE | Annahme lt. schrottradar-Profil",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-floha-braun-recycling",
+  "name": "Braun Recycling",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Flöha",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-elstertrebnitz-schrott-wetzel-depot-elstertrebnitz",
+  "name": "Schrott Wetzel GmbH, Depot Elstertrebnitz",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Elstertrebnitz",
+  "state": "SN",
+  "website": "https://www.schrott-wetzel.de",
+  "status": "pruefung",
+  "notes": "Fe/NE lt. Verzeichnis | Konzern-Website listet Standort nicht; B2B-Flag",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-halsbrucke-b-freiberg-ecobat-resources-freiberg-ex-mru-muldenh",
+  "name": "ECOBAT Resources Freiberg GmbH (ex MRU Muldenhütten Recycling und Umwelttechnik)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Halsbrücke b. Freiberg",
+  "state": "SN",
+  "website": "https://www.ecobat.com",
+  "status": "aktiv",
+  "notes": "Blei, Bleiakkus (Hütte Muldenhütten, Blei-Recycling) | AG Chemnitz HRB 13294, vormals MRU; \"Lead Purchasing & Recycling\", nur Gewerbe",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten, 27.09.2026)",
+   "ankauf_raw": "ja (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-halsbrucke-feinhutte-halsbrucke",
+  "name": "Feinhütte Halsbrücke GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Halsbrücke",
+  "state": "SN",
+  "website": "https://www.feinhuette.de",
+  "status": "aktiv",
+  "notes": "Zinn-/Blei-/Antimon-Schrotte, Altlot, Krätzen/Aschen | \"Ankauf von Metallen zu attraktiven Preisen\", industrielle Kunden",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten, 27.09.2026)",
+   "ankauf_raw": "ja (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-aue-nickelhutte-aue",
+  "name": "Nickelhütte Aue GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aue",
+  "state": "SN",
+  "website": "https://nha-aue.de/de",
+  "status": "pruefung",
+  "notes": "Metallschrotte, Katalysatoren/Rückstände/Stäube, Edelmetalle, Batterien, Transformatoren | nimmt Sekundärrohstoffe ins Recycling, Konditionen nur auf Anfrage, Großmengen",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten, 27.09.2026)",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freital-bgh-edelstahl-freital-bgh-edelstahlwerke",
+  "name": "BGH Edelstahl Freital GmbH (BGH Edelstahlwerke)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freital",
+  "state": "SN",
+  "website": "https://bgh.de",
+  "status": "pruefung",
+  "notes": "Edelstahlschrott bulk (EAF, >80 % Schrotteinsatz) | Stahlwerk, kein öffentlicher Ankauf; via Händler/Großmengen",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten, 27.09.2026)",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-neustadt-i-sa-schrottplatz-neustadt-fa-knobloch",
+  "name": "Schrottplatz Neustadt Fa. Knobloch",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Neustadt i. Sa.",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottplatz | Betreiber/Tel. = Klaus Dittrich Sebnitz; Sächs.-Schweiz-Lücke",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-oling-ot-trado-frank-perjak-schrottannahme",
+  "name": "Frank Perjak Schrottannahme",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oßling OT Trado",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme | Hoyerswerda-Lücke (11 km), Tel. 0171 6160124",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-weiwasser-uwe-bellmann-schrott-buntmetall",
+  "name": "Uwe Bellmann Schrott & Buntmetall",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weißwasser",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott & Buntmetall | privater Ankauf neben NEG-Höfen, Tel. 03576 240903",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-werdau-euro-metall-korner",
+  "name": "Euro-Metall Körner",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Werdau",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Alteisen, Schrott-/Buntmetall-Annahme | löst Runde-2-\"Wertstoffhandel Werdau unklar\" auf; Tel. 0163 8771513",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-lichtenstein-otto-stiegler-schrott-metallhandel-inh-h",
+  "name": "OTTO STIEGLER Schrott- & Metallhandel (Inh. H. Gerbl)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lichtenstein",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Bunt-/Edelstahl-/Kabel-Ankauf, Barzahlung | Werdau/Crimmitschau-Einzugsgebiet, Tel. 037204 2343",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-wilkau-halau-containerdienst-schrotthandel-konrad-eim",
+  "name": "Containerdienst Schrotthandel Konrad Eißmann",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Wilkau-Haßlau",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Container + Schrotthandel | Tel. identisch mit R. Schulz (Runde 2) — ggf. derselbe Betrieb/Nachfolge",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-chemnitz-ankauf-von-buntmetallen-stahlschrott",
+  "name": "Ankauf von Buntmetallen & Stahlschrott",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Chemnitz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Bunt/Stahl-Annahme | Annahme lt. lokaleschrottplatz, Tel. 0176 55564352",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-kamenz-leon-anders",
+  "name": "Leon Anders",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kamenz",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe/Alu/Cu/Edel/Blei/Messing | Annahme lt. lokaleschrottplatz; nur 1 Bewertung (1,0) — Vorsicht",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-sebnitz-klaus-dittrich",
+  "name": "Klaus Dittrich GmbH & Co.",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sebnitz",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Buntmetall/Altpapier-Entsorgung | Entsorger, kein Barankauf-Beleg; Tel. 035971 53667",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-stolpen-containerdienst-bernd-zenker",
+  "name": "Containerdienst Bernd Zenker",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Stolpen",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern (Register) | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-durrrohrsdorf-dittersbach-cs-container-recycling",
+  "name": "CS Container & Recycling GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dürrröhrsdorf-Dittersbach",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln (Register) | Sächs.-Schweiz-Rand",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freiberg-fme-freiberger-metallrecycling-u-entwick",
+  "name": "FME Freiberger Metallrecycling u. Entwicklungsdienstl. GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freiberg",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Handeln/Makeln (Register) | Bergbau-Region, kein Annahme-Nachweis",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freiberg-arm-abfall-rohstoff-management",
+  "name": "ARM Abfall-Rohstoff-Management GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Freiberg",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Handeln/Makeln (Register) | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-crimmitschau-wertstoffzentrum-zwickauer-land-nl-crimm",
+  "name": "Wertstoffzentrum Zwickauer Land GmbH, NL Crimmitschau",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Crimmitschau",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern (Register) | eher Wertstoffhof, kein Barankauf-Beleg",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-meerane-suc-sachs-umweltschutz-consulting",
+  "name": "SUC Sächs. Umweltschutz Consulting GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Meerane",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln/Verwerten (Register) | —",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-grorohrsdorf-frauenrath-recycling",
+  "name": "Frauenrath Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Großröhrsdorf",
+  "state": "SN",
+  "website": "https://www.frauenrath.de",
+  "status": "pruefung",
+  "notes": "Bau/Abbruch + Recyclingzentrum | Website verifiziert, aber kein privater Barankauf belegt; Verkauf Bau-/Recycling an Colas SA 03/2026",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freiberg-fne-entsorgungsdienste-freiberg",
+  "name": "FNE Entsorgungsdienste Freiberg GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Freiberg",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Sonderabfall/Batterie-Forschung; Sammeln–Verwerten, Handeln/Makeln | AG Chemnitz HRB 19349; Projekte PHOSBAT/DiLiRec/LiPriBat; kein Barankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freiberg-prezero-pyral",
+  "name": "PreZero Pyral GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Freiberg",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alu-Verbund/Pyrolyse; Lagern/Behandeln | AG Chemnitz HRB 33619, ex PYRAL AG (s. Korrekturen); kein Privatkunden-Ankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-28-34-prezero-pyral",
+  "name": "PreZero Pyral GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "28-34)",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alu-Verbund/Pyrolyse; Lagern/Behandeln | AG Chemnitz HRB 33619, ex PYRAL AG (s. Korrekturen); kein Privatkunden-Ankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-halsbrucke-muldenhutten-remondis-industrie-service-nl-freiberg-m",
+  "name": "REMONDIS Industrie Service GmbH & Co. KG, NL Freiberg-Muldenhütten",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Halsbrücke/Muldenhütten",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln | Industrie-Service, kein Barankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-brand-erbisdorf-becker-umweltdienste-bs-brand-erbisdorf",
+  "name": "Becker Umweltdienste GmbH, BS Brand-Erbisdorf",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Brand-Erbisdorf",
+  "state": "SN",
+  "website": "https://jakob-becker.de",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln | 3. Brand-Erbisdorf-Betrieb neben TSR + BEC; kein Barankauf-Beleg",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-hainichen-uhlmann-finke",
+  "name": "Uhlmann & Finke GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Hainichen",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln | anerkannter Demontagebetrieb lt. Register",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dobeln-a-s-abschlepp-service",
+  "name": "A & S Abschlepp-Service GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Döbeln",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Lagern/Behandeln | anerkannter Demontagebetrieb lt. Register",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "nur Altauto (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-waldheim-wamero-schirmag-schrotthandel-und-contai",
+  "name": "Wamero Schirmag Schrotthandel und Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Waldheim",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel + Container | Gelbe Seiten, Tel. 034327 62626; schließt Waldheim-Lücke",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-mittweida-gerd-klarholz-schrotthandel-und-containe",
+  "name": "Gerd Klarholz Schrotthandel und Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Mittweida",
+  "state": "SN",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel + Container | Gelbe Seiten, Tel. 03727 91063; Mittweida bisher nur Scholz-unklar",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-dresden-flaxres",
+  "name": "FLAXRES GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Dresden",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "PV-/Verbundmaterial-Recycling (Anlagenbauer) | AG Dresden HRB 36460; Solar-Spezialist, kein Barankauf",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "unklar (B2B-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-freiberg-fresitec",
+  "name": "Fresitec GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Freiberg",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling (Sparte unbelegt) | nur Gelbe-Seiten-Branche Recycling, Tel. 03731 41937-4",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-hrb-flaxres",
+  "name": "FLAXRES",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "36460",
+  "city": "HRB",
+  "state": "SN",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Registerfund ohne geprüfte Website (PLZ 36460)",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Methode Runde 4",
+   "ankauf_raw": "unklar (Register-Prosa)",
+   "origin": "prose"
+  }
+ }
+]

@@ -1,0 +1,1730 @@
+[
+ {
+  "slug": "sh-kiel-ksh-kieler-schrotthandel",
+  "name": "KSH Kieler Schrotthandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kiel",
+  "state": "SH",
+  "website": "https://www.kieler-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrottgroßhandel, eigene Verlade-Pier + Gleisanschluss, Boots-/Yachtverschrottung, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-kiel-ehrich-kiel-ehrich-gruppe",
+  "name": "Ehrich Kiel (Ehrich Gruppe)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kiel",
+  "state": "SH",
+  "website": "https://www.ehrich.de/standorte/kiel",
+  "status": "aktiv",
+  "notes": "Stahlschrott + NE-Metalle (Alu, Kupfer, Messing), Tagespreise, privat + gewerblich",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-schwentinental-schrotthandel-butenschon",
+  "name": "Schrotthandel Butenschön",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schwentinental",
+  "state": "SH",
+  "website": "http://www.schrotthandel-kiel.de/",
+  "status": "aktiv",
+  "notes": "Kleinbetrieb, Abholung + Ankauf Alteisen/Metalle zu Tagespreisen",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-kiel-schmidt-boris-ne-metallhandel-und-schrot",
+  "name": "Schmidt Boris NE-Metallhandel und Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kiel",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "NE-Metallhandel (Gelbe Seiten: „Schrott\")",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-kiel-graf-abfallbeforderung-und-entsorgung",
+  "name": "Graf Abfallbeförderung und -entsorgung",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kiel",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung allgemein",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-lsh-lubecker-schrotthandel-isr-gruppe",
+  "name": "LSH Lübecker Schrotthandel GmbH (ISR-Gruppe)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "https://www.isr-recycling.de/index.php/start-lsh",
+  "status": "aktiv",
+  "notes": "Schrottplatz, Altmetall-Ankauf Tageshöchstpreis, Autoverwertung, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-rebo-metallaufbereitungs-u-entsorgungs",
+  "name": "REBO Metallaufbereitungs- u. Entsorgungs GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "https://www.rebo-schrott.de/",
+  "status": "aktiv",
+  "notes": "Schrottgroßhandel, Aufbereitung, Anlieferung (auch privat m. Ausweis), Ankauf n. Börsenpreis",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-winfried-hopp-recycling",
+  "name": "Winfried Hopp Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "https://www.winfried-hopp.de/",
+  "status": "aktiv",
+  "notes": "Metallhandel NE + Eisen, Tageshöchstpreis, Abholung + Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-hotschrott-robert-hahn",
+  "name": "HotSchrott Robert Hahn",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "https://wirholenschrott.de/",
+  "status": "aktiv",
+  "notes": "Mobile Abholung, Buntmetalle, Demontage, Container, Direktvergütung",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-deinschrotty-mobiler-ankauf",
+  "name": "DeinSchrotty (mobiler Ankauf)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "https://deinschrotty.de/",
+  "status": "aktiv",
+  "notes": "Mobiler Schrott-Ankauf, Gratis-Abholung, Kupfer/Messing/Kabel",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-umgebung-deinschrotty-mobiler-ankauf",
+  "name": "DeinSchrotty (mobiler Ankauf)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Umgebung",
+  "state": "SH",
+  "website": "https://deinschrotty.de/",
+  "status": "aktiv",
+  "notes": "Mobiler Schrott-Ankauf, Gratis-Abholung, Kupfer/Messing/Kabel",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-schrotthandel-welling-neef",
+  "name": "Schrotthandel Welling-Neef GbR",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kleiner Schrotthandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-haensel-paul-jun-schrotthandel",
+  "name": "Haensel Paul jun. Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kleiner Schrotthandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-topschrott",
+  "name": "Topschrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kleiner Schrotthandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-vrd-schrott-handel",
+  "name": "VRD Schrott-Handel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kleiner Schrotthandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-rupy-schrotthandler",
+  "name": "Rupy Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kleiner Schrotthandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-kucknitz-schrott-und-autorecyclinghof-sonke-milon",
+  "name": "Schrott- und Autorecyclinghof Sönke Milon e.K.",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck-Kücknitz",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott + Autorecycling (Gelbe Seiten: „Schrott\")",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja (Autoverwertung-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-flensburg-nord-schrott",
+  "name": "Nord-Schrott GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Flensburg",
+  "state": "SH",
+  "website": "https://www.nord-schrott.de/",
+  "status": "aktiv",
+  "notes": "Großhandel/Metallverarbeitung seit 1898, Recyclingpark Husumer Str. (privat), Schredder n. AltfahrzeugV",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-flensburg-schrottplatz-lange-jorg",
+  "name": "Schrottplatz Lange Jörg",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Flensburg",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleiner Schrottplatz (nur via schrottplatz-info.de belegt)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-wanderup-schrotthandel-wanderup",
+  "name": "Schrotthandel Wanderup",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wanderup",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Ländlicher Sammler (nur Namensnennung)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-leck-chr-ketelsen",
+  "name": "Chr. Ketelsen GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leck",
+  "state": "SH",
+  "website": "https://www.ketelsen-leck.de/entsorgungszentrum/schrottankauf/",
+  "status": "aktiv",
+  "notes": "Entsorgungszentrum, Schrottankauf gg. Bargeld, Einzug NF/Dithmarschen/SL/RD",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-niebull-mommsen-werner-entsorgung",
+  "name": "Mommsen Werner Entsorgung GmbH & Co.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Niebüll",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgungsfachbetrieb/Container (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-twedt-steffen-walter-altmetallentsorgung-schro",
+  "name": "Steffen Walter Altmetallentsorgung, Schrotthandel & Transporte",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Twedt",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Ankauf + Abholung Altmetalle (Gelbe Seiten-Text)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-kropp-schultz-recycling",
+  "name": "Schultz Recycling GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Kropp",
+  "state": "SH",
+  "website": "https://www.schultz-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott + Buntmetalle zu Tagespreisen, Altautoverwertung (Demontagebetrieb)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-rendsburg-ehrich-rendsburg",
+  "name": "Ehrich Rendsburg",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rendsburg",
+  "state": "SH",
+  "website": "https://www.ehrich.de/",
+  "status": "aktiv",
+  "notes": "Entsorgung/Verwertung (Gruppe kauft Stahlschrott + NE)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-eckernforde-ehrich-eckernforde",
+  "name": "Ehrich Eckernförde",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Eckernförde",
+  "state": "SH",
+  "website": "https://www.ehrich.de/standorte/eckernfoerde",
+  "status": "aktiv",
+  "notes": "Annahme/Verwertung (Gruppe kauft)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-husum-ehrich-husum-recyclinghof",
+  "name": "Ehrich Husum (Recyclinghof)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Husum",
+  "state": "SH",
+  "website": "https://www.ehrich.de/",
+  "status": "aktiv",
+  "notes": "Recyclinghof, Sa-Annahme",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-rendsburg-elly-nickels-ehrich-gruppe",
+  "name": "Elly Nickels GmbH & Co. KG (Ehrich-Gruppe)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Rendsburg",
+  "state": "SH",
+  "website": "https://www.elly-nickels.de/",
+  "status": "pruefung",
+  "notes": "Abbruch, Industriedemontage, Schadstoffsanierung",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-rendsburg-rohe-raoul-rene-schrottrecycling-entrump",
+  "name": "Rohe Raoul-Rene Schrottrecycling/Entrümpelung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rendsburg",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Abholung Altmetalle/Schrott vor Ort (Gelbe Seiten-Text)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-fockbek-m-w-containerdienst-schrotthandel-m-w-re",
+  "name": "M.W. Containerdienst & Schrotthandel / M.W. Recycling GmbH",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Fockbek",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Containerdienst + Schrott (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-eckernforde-tietjen-stefan",
+  "name": "Tietjen Stefan",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eckernförde",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kleiner Schrotthandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-neumunster-tsr-recycling-nl-neumunster",
+  "name": "TSR Recycling GmbH & Co. KG, NL Neumünster",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neumünster",
+  "state": "SH",
+  "website": "https://www.tsr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Europaweiter Metallrecycler, Ankauf Fe-/NE-Metalle Tagespreis, privat + gewerblich",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-neumunster-behrendt-rohstoffverwertung",
+  "name": "Behrendt Rohstoffverwertung GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Neumünster",
+  "state": "SH",
+  "website": "https://behrendt.com/",
+  "status": "aktiv",
+  "notes": "Familienbetrieb, Schrottplatz, Metall, E-Schrott, Autoverwertung, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-neumunster-mega-metalle",
+  "name": "Mega-Metalle",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Neumünster",
+  "state": "SH",
+  "website": "https://www.mega-metalle.de/",
+  "status": "aktiv",
+  "notes": "Kleinbetrieb: Kupfer, Messing, Eisen, Kabel; Container/Boxen",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-neumunster-rerec",
+  "name": "ReRec GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neumünster",
+  "state": "SH",
+  "website": "https://rerec.eu/",
+  "status": "aktiv",
+  "notes": "Spezialist Elektronikschrott, Sonderlegierungen, NE-Metalle, Datenträgervernichtung",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-norderstedt-rohstoffhandel-machalski",
+  "name": "Rohstoffhandel Machalski",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Norderstedt",
+  "state": "SH",
+  "website": "https://www.rohstoffhandel-machalski.de/",
+  "status": "aktiv",
+  "notes": "Altmetall/Schrott (Kupfer, Messing, Kabel, VA u.v.m.), Recyclinghof, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-norderstedt-altmetall-und-schrotthandel-norderstedt",
+  "name": "Altmetall- und Schrotthandel Norderstedt GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Norderstedt",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Klassische Schrottannahme (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-norderstedt-kiesow-autorecycling-autoteile",
+  "name": "KIESOW Autorecycling + Autoteile GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Norderstedt",
+  "state": "SH",
+  "website": "https://www.kiesow.de/",
+  "status": "pruefung",
+  "notes": "Deutschlands größte Autoverwertung, Autoankauf, kostenlose Abholung",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "nur Fahrzeuge (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-elmshorn-warnsholz-isr-gruppe",
+  "name": "Warnsholz GmbH & Co. KG (ISR-Gruppe)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Elmshorn",
+  "state": "SH",
+  "website": "https://www.isr-recycling.de/index.php/start-warnsholz",
+  "status": "aktiv",
+  "notes": "Schrotthändler Elmshorn, Tageshöchstpreis, Nutzeisen-Verkauf, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-uetersen-p-botel-schrott-und-metall-inh-michael-b",
+  "name": "P. Bötel Schrott und Metall (Inh. Michael Bötel)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Uetersen",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-rellingen-wegro",
+  "name": "WEGRO GmbH",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Rellingen",
+  "state": "SH",
+  "website": "https://www.wegrogmbh.de/",
+  "status": "aktiv",
+  "notes": "Containerdienst + Ankauf Fe-Schrott/Buntmetalle (Anlieferung Rellingen), Kabel/E-Motoren",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-pinneberg-gebruder-fabian",
+  "name": "Gebrüder Fabian GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Pinneberg",
+  "state": "SH",
+  "website": "https://www.gebrueder-fabian.de/",
+  "status": "aktiv",
+  "notes": "Metallschrotte, E-Schrott, Katalysatoren; 90+ Jahre",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-kaltenkirchen-gebruder-fabian",
+  "name": "Gebrüder Fabian GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kaltenkirchen",
+  "state": "SH",
+  "website": "https://www.gebrueder-fabian.de/",
+  "status": "aktiv",
+  "notes": "Metallschrotte, E-Schrott, Katalysatoren; 90+ Jahre",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-nutzen-brockmann-recycling",
+  "name": "Brockmann Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nützen",
+  "state": "SH",
+  "website": "https://www.brockmann.de/metallschrott-entsorgung/",
+  "status": "aktiv",
+  "notes": "Recyclinghof-Annahme Metallschrott, Vergütung bei größeren Mengen, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja (eingeschränkt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-itzehoe-isr-recycling",
+  "name": "ISR Recycling GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Itzehoe",
+  "state": "SH",
+  "website": "https://www.isr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Hafenverladung, Container, Demontage",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-brunsbuttel-isr-wertstoffhof-standorte",
+  "name": "ISR Wertstoffhof / Standorte",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Brunsbüttel",
+  "state": "SH",
+  "website": "https://www.isr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Wertstoffhof-Annahme (ISR-Gruppe)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-wahlstedt-isr-wertstoffhof-standorte",
+  "name": "ISR Wertstoffhof / Standorte",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wahlstedt",
+  "state": "SH",
+  "website": "https://www.isr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Wertstoffhof-Annahme (ISR-Gruppe)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-hohenaspe-verwertungszentrum-hohenaspe-stender",
+  "name": "Verwertungszentrum Hohenaspe GmbH (Stender)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hohenaspe",
+  "state": "SH",
+  "website": "https://www.stender-hohenaspe.de/",
+  "status": "aktiv",
+  "notes": "„Kaufen Schrott/Metalle zu Höchstpreisen\", Fuhrpark",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-kreis-steinburg-itzehoe-otto-dorner-container-annahme",
+  "name": "OTTO DÖRNER (Container/Annahme)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Kreis Steinburg / Itzehoe",
+  "state": "SH",
+  "website": "https://www.doerner-shop.de/standorte/kreis-steinburg-itzehoe/",
+  "status": "pruefung",
+  "notes": "Containerdienst, Abfallannahme",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-bargenstedt-kba-dithmarschen",
+  "name": "KBA Dithmarschen GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bargenstedt",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Verwertungszentrum Westküste (Gelbe Seiten, mit Webseite-Button, URL nicht ermittelt)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-heide-moller-hans-autoverwertung",
+  "name": "Möller Hans Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Heide",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Autoverwertung/Lagerplatz (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "nur Fahrzeuge (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-bad-oldesloe-borowski-hopp",
+  "name": "Borowski & Hopp GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Oldesloe",
+  "state": "SH",
+  "website": "https://www.boho.de/",
+  "status": "aktiv",
+  "notes": "An-/Verkauf Altmetalle + Fe-Schrotte, Preise/Wertermittlung, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-kasseedorf-aldenhoff-maximilian-schrott-u-stahlhand",
+  "name": "Aldenhoff Maximilian Schrott- u. Stahlhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kasseedorf",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott + Stahl (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-malente-funke-schrott-und-metallhandel",
+  "name": "Funke Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Malente",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-susel-jelitzki-schrotthandel",
+  "name": "Jelitzki Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Süsel",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kleiner Schrotthandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-ratzeburg-peter-schlabes-recycling-entsorgung",
+  "name": "Peter Schlabes Recycling & Entsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ratzeburg",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Recycling/Entsorgung (Gelbe Seiten: „Schrott\")",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-ratzeburg-niebert-kurt",
+  "name": "Niebert Kurt",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Ratzeburg",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetalle, Großhandel, Autoverwertung (2 Gelbe-Seiten-Einträge) | (Rohprodukte/Altmetalle + Schrottgroßhandel/Autoverwertung)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja (Autoverwertung-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-ratzeburg-gauer-kurt-schrottgrohandlung",
+  "name": "Gauer Kurt Schrottgroßhandlung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ratzeburg",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottgroßhandlung (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-geesthacht-muller-benjamin-metall-schrotthandel",
+  "name": "Müller Benjamin Metall- & Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Geesthacht",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metall-/Schrotthandel (Gelbe Seiten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-schwarzenbek-mrn-metallrecycling-nord",
+  "name": "MRN Metallrecycling Nord GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schwarzenbek",
+  "state": "SH",
+  "website": "https://mr-nord.de/de",
+  "status": "aktiv",
+  "notes": "Altmetalle (Kupfer, Messing, VA, Blei, Zink), Kabelschrott, E-Motoren, Abholung",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-online-kropp-schrott24-metaloop-online-portal-partner",
+  "name": "Schrott24/Metaloop (Online-Portal, Partnerplatz Kropp)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "online / Kropp",
+  "state": "SH",
+  "website": "https://www.schrott24.de/standorte/schrottplatz-schleswig-holstein/",
+  "status": "aktiv",
+  "notes": "Online-Ankauf mit Tagespreisen, Abholung (Palette/Greifer/Container) oder Anlieferung beim Partner",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-schleswig-ksh-schleswig-metall-und-recycling",
+  "name": "KSH Schleswig GmbH Metall und Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schleswig",
+  "state": "SH",
+  "website": "https://ksh-schleswig.de/",
+  "status": "aktiv",
+  "notes": "Stahlschrott/NE/Kabel/E-Motoren zu Tageshöchstpreisen, Schrottschere, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-glinde-matthias-hopp-recycling",
+  "name": "Matthias Hopp Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Glinde",
+  "state": "SH",
+  "website": "https://hopp-recycling.de/",
+  "status": "aktiv",
+  "notes": "Annahme + Abholung Schrott/NE-Metalle/Altfahrzeuge, Container, Abbruch",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-glinde-siegfried-jacob-hamburg",
+  "name": "Siegfried Jacob Hamburg GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Glinde",
+  "state": "SH",
+  "website": "http://www.sjm-hamburg.de/",
+  "status": "aktiv",
+  "notes": "NE-Metall-Recycling (Cu, Alu, Zink, Zinn), Anlieferung (gewerblich)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-handewitt-nordic-recycling",
+  "name": "Nordic Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Handewitt",
+  "state": "SH",
+  "website": "http://www.nordic-recycling.de/",
+  "status": "aktiv",
+  "notes": "Metallannahme (Sa geöffnet), Cu/Alu/Zink/Nickel/Zinn/Blei/Seltenmetalle",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-ratekau-offendorf-trave-schrott",
+  "name": "Trave Schrott",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ratekau-Offendorf",
+  "state": "SH",
+  "website": "https://trave-schrott.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf, Metallhandel, Altmetall-Entsorgung, Abholung",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-schwabstedt-avb-autoverwertung-inh-robin-pauly",
+  "name": "AVB Autoverwertung (Inh. Robin Pauly)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Schwabstedt",
+  "state": "SH",
+  "website": "https://avb-schwabstedt.de/",
+  "status": "aktiv",
+  "notes": "Metallschrott-Annahme + Mulden, anerkannter Demontagebetrieb",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (Autoverwertung-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-hohn-tw-schrott-tommy-waschelewski",
+  "name": "TW-Schrott Tommy Waschelewski",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hohn",
+  "state": "SH",
+  "website": "https://tw-schrott.de/",
+  "status": "aktiv",
+  "notes": "Schrottabholung, Ankauf Land-/Baumaschinen, Autoentsorgung",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-buchholz-dickes-schrott-metallhandel",
+  "name": "Dickes Schrott- & Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Buchholz",
+  "state": "SH",
+  "website": "https://dickes-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrottabholung („Gutes Geld für wertvolle Abfälle\"), Container, Altauto",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-st-michaelisdonn-schrott-scholli-schrotthandel",
+  "name": "Schrott-Scholli Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "St. Michaelisdonn",
+  "state": "SH",
+  "website": "https://schrottschollischrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Altmetallentsorgung, Schrottabholung, Demontage",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-kappeln-schrott-welp",
+  "name": "Schrott-Welp",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kappeln",
+  "state": "SH",
+  "website": "https://schrott-welp.de/",
+  "status": "aktiv",
+  "notes": "Schrottentsorgung, Buntmetall- und Kabelschrott, Abbruch",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-gettorf-autoverwertung-gettorf-jess",
+  "name": "Autoverwertung Gettorf (Jess)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Gettorf",
+  "state": "SH",
+  "website": "https://autoverwertung-jess-gettorf.de/",
+  "status": "pruefung",
+  "notes": "Altfahrzeug-Entsorgung, Gebrauchtteile",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "nur Fahrzeuge (Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-barsbuttel-a-s-s-recycling",
+  "name": "A.S.S. Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Barsbüttel",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetall-Ankauf Cu/Alu/Edelstahl/Messing/Zinn/Zink/Blei (schrottradar)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-tangstedt-vernimb",
+  "name": "Vernimb GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Tangstedt",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetall-Ankauf (schrottradar)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-d-s-schrott-und-metallentsorgung",
+  "name": "D&S Schrott und Metallentsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Edelstahl/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-langenhorn-schrotthandel-langenhorn",
+  "name": "Schrotthandel Langenhorn GmbH & Co. KG",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Langenhorn",
+  "state": "SH",
+  "website": "https://schrotthandel-nordfriesland.de",
+  "status": "aktiv",
+  "notes": "Schrottannahme Alu/Blei/Kupfer/Kabel/Stahl/Zink, Autoverwertung",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (Autoverwertung-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-gettorf-auto-center-nemitz",
+  "name": "Auto Center Nemitz",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Gettorf",
+  "state": "SH",
+  "website": "https://autoverwertung-nemitz.de",
+  "status": "aktiv",
+  "notes": "Autoverwertung + Schrottannahme (Verzeichnis) | (Autoverwertung Nemitz)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (Autoverwertung-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-berkenthin-stecknitz-schrott",
+  "name": "Stecknitz Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Berkenthin",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-mittelangeln-altmetall-schrotthandel-dirk-strohschein",
+  "name": "Altmetall Schrotthandel Dirk Strohschein",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mittelangeln",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-hohenwestedt-tolksdorf-schrott-und-metallhandelsgesel",
+  "name": "Tolksdorf Schrott- und Metallhandelsgesellschaft mbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hohenwestedt",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-stadum-jacob-dobrick-schrotthandel",
+  "name": "Jacob Dobrick Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stadum",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing, Container",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-hanerau-hademarschen-andreas-stormann",
+  "name": "Andreas Störmann",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanerau-Hademarschen",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-schenefeld-schrotthandel-steven-bollmann",
+  "name": "Schrotthandel Steven Bollmann",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schenefeld",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-selk-thomas-sonksen",
+  "name": "Thomas Sönksen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Selk",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-langstedt-schrotthandel-bottcher-schrott-u-brennho",
+  "name": "Schrotthandel Böttcher (Schrott- u. Brennholzhandel)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Langstedt",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-bad-oldesloe-holt-d-er-mann",
+  "name": "HOLT (D)ER MANN",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Oldesloe",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Mobile Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lensahn-milon-sonke-schrott-u-autorecyclinghof",
+  "name": "Milon Sönke Schrott- u. Autorecyclinghof",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Lensahn",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott + Autorecycling (Gelbe Seiten; weicht von #16 Lübeck-Kücknitz ab — Zweigstelle/Umzug?)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (Autoverwertung-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-sylt-westerland-prinz-hellmuth-nicolaisen-schrott-u-holz",
+  "name": "Prinz Hellmuth (Nicolaisen) Schrott- u. Holzentsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sylt/Westerland",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-/Holzentsorgung, erster Insulaner-Fund (Branche Entsorgung)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-oldenburg-i-h-de-schuttkuhlenmaior",
+  "name": "De Schuttkuhlenmaior",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Oldenburg i.H.",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottannahme (Verzeichnis, ohne Kontaktdaten)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-gnutz-wieschowski-schrotthandel",
+  "name": "Wieschowski Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gnutz",
+  "state": "SH",
+  "website": "https://schrotthandel-wieschowski.de/",
+  "status": "pruefung",
+  "notes": "Schrotthandel + Erdarbeiten (Selbstdarstellung), Annahme lt. Verzeichnis",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-sylt-tinnum-roselieb-schrotthandel-reinhard",
+  "name": "Roselieb Schrotthandel GmbH, Reinhard",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sylt/Tinnum",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Insulaner-Betrieb, Branche „Schrott\" (Gelbe Seiten, Tel. 04651 93 55 09)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-ratekau-dombrowski-n-schrotthdl",
+  "name": "Dombrowski N. SchrottHdl.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ratekau",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Branche „Schrott\" (Gelbe Seiten, Tel. 04504 6 73 71; distinct von #63 Trave Schrott)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-ratekau-dambrowski-schrotthandel",
+  "name": "Dambrowski Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ratekau",
+  "state": "SH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Branche „Schrott\" (Gelbe Seiten, Tel. 04504 60 95 83; eigene Adresse/Tel. ggü. #89)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-owschlag-elias-eugen",
+  "name": "Elias Eugen",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Owschlag",
+  "state": "SH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Nur via lokaleschrottplatz.de (Tel. 04336 3316, breite Materialliste)",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-trittau-buhck-betriebshof-trittau-recyclinghof",
+  "name": "Buhck GmbH & Co. KG, Betriebshof Trittau / Recyclinghof",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Trittau",
+  "state": "SH",
+  "website": "https://www.buhck.de/unternehmen/standorte",
+  "status": "pruefung",
+  "notes": "Recyclinghof-Annahme (u.a. E-Schrott), erster stationärer Stormarn-Ost-Fund",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sh-lubeck-abbruch-dambrowski",
+  "name": "Abbruch Dambrowski",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lübeck",
+  "state": "SH",
+  "website": "https://www.abbruch-dambrowski.de/",
+  "status": "pruefung",
+  "notes": "Abbruch/Entkernung/Entsorgung + „Metallhandel\" (Website-Titel), GS-Branche Abbruch",
+  "provenance": {
+   "seed_file": "sh",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ }
+]

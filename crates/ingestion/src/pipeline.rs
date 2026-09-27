@@ -202,6 +202,9 @@ pub fn seed_metadata(public: &PublicDb) -> Result<(), super::IngestError> {
                 source,
             })?;
     }
+    // Trader seed (embedded JSON, idempotent via payload hashes).
+    let wrote = super::seed_traders(public, &now)?;
+    tracing::info!("ingestion: trader seed up to date ({wrote} rows written)");
     Ok(())
 }
 

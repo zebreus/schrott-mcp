@@ -1,0 +1,1244 @@
+[
+ {
+  "slug": "hh-veddel-rothenburgsort-tsr-recycling-nl-hamburg-ne-hovestr-30-h",
+  "name": "TSR Recycling GmbH (NL Hamburg NE, Hovestr. 30 + Hafenstr. 4)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Veddel / Rothenburgsort",
+  "state": "HH",
+  "website": "https://www.tsr-recycling.de",
+  "status": "aktiv",
+  "notes": "FE + NE, Schrottgroßhandel, Privatanlieferung, THE METAL POST",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-hoffmann-metallhandel",
+  "name": "Hoffmann Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "https://hoffmann-metallhandel.de",
+  "status": "aktiv",
+  "notes": "FE/NE, Kabel, E-Schrott, Container, Demontage; seit 1948",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-smh-hamburg-schrott-metallhandel",
+  "name": "SMH Hamburg Schrott- & Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "https://smh-hamburg.de",
+  "status": "aktiv",
+  "notes": "Kupfer, Alu, Messing, Kabel, Edelstahl, Demontage, Container",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-rothenburgsort-henry-schmidt",
+  "name": "Henry Schmidt",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Rothenburgsort",
+  "state": "HH",
+  "website": "https://www.schmidtschrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Metallschrott ab 1 kg, Autoverwertung, Container | (Schrotthandel + Autoverwertung + Container)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-rothenburgsort-helmuth-hahn",
+  "name": "Helmuth Hahn GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rothenburgsort",
+  "state": "HH",
+  "website": "http://www.helmuthhahn.de",
+  "status": "aktiv",
+  "notes": "NE-Metalle, Eisen, Kabel, Blei/Batterien, Bleigewichte; seit 1926",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-rothenburgsort-atc-metals",
+  "name": "ATC Metals GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Rothenburgsort",
+  "state": "HH",
+  "website": "https://atc-metals.com/",
+  "status": "aktiv",
+  "notes": "FE/NE-Großhandel (Lieferanten → Schmelzen, ISRI-Angabe)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (v. a. Gewerbe/Mengen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-altmetallhandel-g-z-hamburg-g-z",
+  "name": "Altmetallhandel G & Z Hamburg (G+Z)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "https://www.gundz-hamburg.de",
+  "status": "aktiv",
+  "notes": "Schrott, Maschinen, Paletten, Demontage/Räumung, Container",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-hammerbrook-madi-metall-recycling",
+  "name": "MADI Metall Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hammerbrook",
+  "state": "HH",
+  "website": "https://www.madi-schrott.de",
+  "status": "aktiv",
+  "notes": "Metallschrott, Abholung, Tagespreise (u. a. Kupfer-Angabe)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-nenndorf-madi-metall-recycling",
+  "name": "MADI Metall Recycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nenndorf)",
+  "state": "HH",
+  "website": "https://www.madi-schrott.de",
+  "status": "aktiv",
+  "notes": "Metallschrott, Abholung, Tagespreise (u. a. Kupfer-Angabe)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-veddel-smart-recycling-hamburg-srh",
+  "name": "Smart Recycling Hamburg (SRH)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Veddel",
+  "state": "HH",
+  "website": "https://www.schrottplatz-hamburg.de",
+  "status": "aktiv",
+  "notes": "Kupfer, Kabel, Alu, Messing, E-Schrott/CPU, Barauszahlung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-veddel-peute-aurubis-ag-werk-hamburg",
+  "name": "Aurubis AG, Werk Hamburg",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Veddel/Peute",
+  "state": "HH",
+  "website": "https://www.aurubis.com",
+  "status": "aktiv",
+  "notes": "Kupferhütte: Kupfer-/E-Schrott, komplexe Recyclingrohstoffe",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (nur Gewerbe/große Mengen, Zentraleinkauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-veddel-herbert-neumann",
+  "name": "Herbert Neumann GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Veddel",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, Container, Altmaterial",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (lt. Gelbe Seiten)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-hafen-finkenwerder-arcelormittal-hamburg-hamburger-stahlwer",
+  "name": "ArcelorMittal Hamburg (Hamburger Stahlwerke)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hafen/Finkenwerder",
+  "state": "HH",
+  "website": "https://barsandrods.arcelormittal.com/mill-hamburg",
+  "status": "pruefung",
+  "notes": "Stahlschrott als EAF-Einsatz (Drahtwerk)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "nur Großmengen/Handel",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-wilhelmsburg-pmk-rohstoffhandel",
+  "name": "PMK Rohstoffhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wilhelmsburg",
+  "state": "HH",
+  "website": "https://pmk-rohstoffhandel.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle, Eisen, Edelstahl (V2A/V4A), Same-Day-Container",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-wilhelmsburg-schrott-u-altmetallhandel-michael-lehman",
+  "name": "Schrott- u. Altmetallhandel Michael Lehmann GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wilhelmsburg",
+  "state": "HH",
+  "website": "https://www.metallhandel-lehmann.de",
+  "status": "aktiv",
+  "notes": "An-/Verkauf FE/NE, Container",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-wilhelmsburg-hafen-hrh-transport-metallhandel",
+  "name": "HRH Transport & Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wilhelmsburg/Hafen",
+  "state": "HH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Sammeln/Befördern/Handeln (Schrottregister)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-heimfeld-harburg-heinz-bollow-elektro-verwertung-nord-par",
+  "name": "Heinz Bollow GmbH (+ Elektro Verwertung Nord, Partner)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Heimfeld/Harburg",
+  "state": "HH",
+  "website": "https://heinzbollowgmbh.de",
+  "status": "aktiv",
+  "notes": "FE/NE, E-Kabel, E-Motoren, Platinen, Erstbehandlung §21 ElektroG",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-hamburg-elektro-verwertung-nord",
+  "name": "Elektro Verwertung Nord GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hamburg",
+  "state": "HH",
+  "website": "https://elektroverwertung.de/",
+  "status": "aktiv",
+  "notes": "E-Schrott, Elektronik, NE-Metalle, Barankauf Klein-/Großmengen",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-bergedorf-sho-oesterreich",
+  "name": "SHO Oesterreich GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bergedorf",
+  "state": "HH",
+  "website": "https://www.sho-oesterreich.de/",
+  "status": "aktiv",
+  "notes": "FE/NE, Kabel, Späneaufbereitung, Container, Tageshöchstpreise/Barzahlung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-zweigstelle-wandsbek-sho-oesterreich",
+  "name": "SHO Oesterreich GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Zweigstelle Wandsbek",
+  "state": "HH",
+  "website": "https://www.sho-oesterreich.de/",
+  "status": "aktiv",
+  "notes": "FE/NE, Kabel, Späneaufbereitung, Container, Tageshöchstpreise/Barzahlung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-bergedorf-lohbrugge-hsg-hanse-schrott-hamm-rothenburgsort-ab",
+  "name": "HSG Hanse Schrott GmbH (+ Hamm/Rothenburgsort-Abholung)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bergedorf/Lohbrügge",
+  "state": "HH",
+  "website": "https://hanseschrott.com",
+  "status": "pruefung",
+  "notes": "Räumung/Demontage (Praxen/Büro/Industrie), EDV-/Metallschrott-Abholung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "teilweise (Vergütung n. Art, Anfrage; Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-marienthal-wandsbek-willi-gragert-schrotthoker",
+  "name": "Willi Gragert GmbH (\"Schrotthöker\")",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marienthal/Wandsbek",
+  "state": "HH",
+  "website": "https://www.willi-gragert-gmbh.de",
+  "status": "aktiv",
+  "notes": "Altmetall/Schrott, Container",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-wandsbek-b-u-f-metallhandels",
+  "name": "B. u. F. Metallhandels GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wandsbek",
+  "state": "HH",
+  "website": "http://www.buf-metallhandel.de/",
+  "status": "aktiv",
+  "notes": "NE-Metall-Großhandel, LME-Börsengeschäfte, 60-t-Waage",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (v. a. Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-jenfeld-nz-nordmetall-ehem-altmetall-weingandt",
+  "name": "NZ Nordmetall GmbH (ehem. Altmetall Weingandt GmbH)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Jenfeld",
+  "state": "HH",
+  "website": "https://www.nz-nordmetall.de/",
+  "status": "aktiv",
+  "notes": "FE/NE, Container, Demontage, Maschinenhandel",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (auch privat lt. Website)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-steilshoop-schrottbar-hamburg",
+  "name": "Schrottbär Hamburg GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Steilshoop",
+  "state": "HH",
+  "website": "https://www.schrottbaer-hamburg.de/",
+  "status": "aktiv",
+  "notes": "Kupfer, Messing, Kabel, Zink, Alu, Blei, Zinn, V2A, Stahl (KEIN E-Schrott/Weiße Ware)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-poppenbuttel-metalle-patz",
+  "name": "Metalle Patz GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Poppenbüttel",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetall-Ankauf aus Gewerbebetrieben",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-eidelstedt-gebruder-fabian",
+  "name": "Gebrüder Fabian GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eidelstedt",
+  "state": "HH",
+  "website": "https://www.gebrueder-fabian.de/",
+  "status": "aktiv",
+  "notes": "FE/NE, E-Schrott, Katalysatoren, Container",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (Annahme; Barvergütung anfragen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-bahrenfeld-goerz-metallhandel",
+  "name": "Goerz Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bahrenfeld",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metall/Stahlschrott, Wiederverwertung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-umland-wegro-lager-rellingen-hh-tel",
+  "name": "WEGRO GmbH (Lager Rellingen; HH-Tel.)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Umland",
+  "state": "HH",
+  "website": "https://www.wegrogmbh.de/",
+  "status": "aktiv",
+  "notes": "FE/Buntmetalle-Ankauf + Container",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (Anlieferung Rellingen / Container)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-schnelsen-gebruder-schrieber",
+  "name": "Gebrüder Schrieber GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schnelsen",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, Metalle, Akkus, Container/Bauschutt",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (lt. Gelbe Seiten)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-barmbek-sud-alan-william-jones",
+  "name": "Alan William Jones",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Barmbek-Süd",
+  "state": "HH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmaterial",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-altstadt-walter-ritscher",
+  "name": "Walter Ritscher GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Altstadt",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (klassischer City-Eintrag)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "Ankauf anzufragen",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-1a-autoverwertung-billbrook",
+  "name": "1A Autoverwertung Billbrook",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "https://www.autoverwertung-billbrook.de/",
+  "status": "pruefung",
+  "notes": "Kfz-/Lkw-Verwertung, Ersatzteile, Abschlepper",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "nur Kfz (kein allg. Schrottankauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-hme-hamburger-mullentsorgung-buhck-grupp",
+  "name": "HME Hamburger Müllentsorgung (Buhck-Gruppe)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "https://hme.buhck.de",
+  "status": "pruefung",
+  "notes": "E-Schrott-Erstbehandlung, Bauabfall, Holz; Schrott-Mitannahme",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-bestsort-buhck-abfallverwertung",
+  "name": "Bestsort / Buhck Abfallverwertung",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metall-/Wertstoffannahme im Entsorgungskontext",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-hamburgweit-mobile-abholdienste-schrottjungs-schrott",
+  "name": "Mobile Abholdienste (Schrottjungs, Schrottbienen, Hamburger Schrottverwertung u. a.)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "hamburgweit",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kostenlose Abholung, Barvergütung bei Buntmetallen | urspr. Website-Angabe: z. B. https://schrottjungs.de/schrottabholung-hamburg-hh (S)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
+   "ankauf_raw": "ja (ab ~200 kg, sonst Gebühr)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-harburg-emr-european-metal-recycling",
+  "name": "EMR European Metal Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Harburg",
+  "state": "HH",
+  "website": "https://de.emrgroup.com",
+  "status": "aktiv",
+  "notes": "FE/NE, Kupfer, Alu, Edelstahl, Messing, Zink, Blei; Weltkonzern, HRB35223 AG Hamburg",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (Annahme von Metallschrott lt. Profil)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-steinwerder-emr-european-metal-recycling",
+  "name": "EMR European Metal Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Steinwerder",
+  "state": "HH",
+  "website": "https://de.emrgroup.com",
+  "status": "aktiv",
+  "notes": "FE/NE, Kupfer, Alu, Edelstahl, Messing, Zink, Blei; Weltkonzern, HRB35223 AG Hamburg",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (Annahme von Metallschrott lt. Profil)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-heimfeld-harburg-isr-recycling-itzehoer",
+  "name": "ISR Recycling GmbH & Co. KG (Itzehoer)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Heimfeld/Harburg",
+  "state": "HH",
+  "website": "https://www.isr-itzehoe.de",
+  "status": "aktiv",
+  "notes": "FE/NE, Container, Demontage, Autoverwertung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-veddel-peter-stolz-edelstahlhandelsges-mbh-isr",
+  "name": "Peter Stolz Edelstahlhandelsges. mbH (ISR-Gruppe)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Veddel",
+  "state": "HH",
+  "website": "https://www.isr-itzehoe.de",
+  "status": "aktiv",
+  "notes": "Edelstahlhandel",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (v. a. Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-moorburg-harburg-heiko-miersen-schrotthandel",
+  "name": "Heiko Miersen GmbH Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Moorburg/Harburg",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (FE/NE lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-harburg-kern-heinz-terboven",
+  "name": "Heinz Terboven",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Harburg-Kern",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (FE/NE lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "Ankauf anzufragen",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-harburg-pmk-rohstoffhandel",
+  "name": "PMK Rohstoffhandel UG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Harburg",
+  "state": "HH",
+  "website": "https://pmk-rohstoffhandel.de",
+  "status": "aktiv",
+  "notes": "Buntmetalle/Eisen (wie #13)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-bergedorf-b-k-m-bergedorfer-kabel-u-metallverwertu",
+  "name": "B.K.M. Bergedorfer Kabel- u. Metallverwertungsges. mbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bergedorf",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Kabelschrott, Metalle",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-dulsberg-wandsbek-schrott-u-altmetallhandel-nikolic",
+  "name": "Schrott- u. Altmetallhandel Nikolic",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dulsberg/Wandsbek",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "FE/NE (lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-barmbek-sud-hamburg-schrott",
+  "name": "Hamburg schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Barmbek-Süd",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "FE/NE (lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "Ankauf anzufragen",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-lurup-altona-hans-christian-holtzmann",
+  "name": "Hans-Christian Holtzmann",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lurup/Altona",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "FE/NE (lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "Ankauf anzufragen",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-eidelstedt-hamburger-schrottverwertung",
+  "name": "Hamburger Schrottverwertung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eidelstedt",
+  "state": "HH",
+  "website": "https://hamburger-schrottverwertung.de",
+  "status": "pruefung",
+  "notes": "Kostenlose Schrottabholung, Demontage, Entrümpelung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "teilweise (Abholung/Entsorgung, Vergütung n. Art)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-rothenburgsort-sk-schrott",
+  "name": "SK Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rothenburgsort",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "FE/NE (lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "Ankauf anzufragen",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-finkenwerder-finkenwerder-schrott",
+  "name": "Finkenwerder Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Finkenwerder",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "FE/NE (lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (lt. Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-altstadt-ferrous-metal-trading-hamburg-fmt",
+  "name": "Ferrous & Metal Trading Hamburg GmbH (FMT)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Altstadt",
+  "state": "HH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metall-Trading (FE/NE lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "nur Handel/Anfrage",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-altona-ferro-sundries",
+  "name": "Ferro Sundries GmbH & Co.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Altona",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metall/Trading (lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "Ankauf anzufragen",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-hamm-m-arja-autoverwertung",
+  "name": "M. Arja Autoverwertung e.K.",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Hamm",
+  "state": "HH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kfz-Verwertung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "nur Kfz",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-hanse-kfz-verwertung",
+  "name": "Hanse KFZ-Verwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kfz-Verwertung",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "nur Kfz",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-hafencity-stena-recycling",
+  "name": "Stena Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "HafenCity",
+  "state": "HH",
+  "website": "https://stenarecycling.com",
+  "status": "aktiv",
+  "notes": "FE/NE, Logistik (lt. Aggregator)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "Ankauf anzufragen",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billstedt-mobiler-schrottservice-mobiler-schrottha",
+  "name": "Mobiler Schrottservice (mobiler-schrotthändlerhamburg.de)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Billstedt",
+  "state": "HH",
+  "website": "https://mobiler-schrottservice.de",
+  "status": "aktiv",
+  "notes": "Alu, Kupfer, Messing, VA, Kabel, Batterien; Abholung/Demontage",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (Abholung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-st-georg-schiefer-co-edelmetall-scheideanstalt",
+  "name": "Schiefer & Co. (GmbH & Co.) Edelmetall-Scheideanstalt",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "St. Georg",
+  "state": "HH",
+  "website": "https://schieferco.de/",
+  "status": "aktiv",
+  "notes": "Echte Scheideanstalt seit 1923: Au/Ag/Pt/Pd-Ankauf, Scheidung, Halbzeuge, Galvanik",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-altstadt-norddeutsche-edelmetall-scheideanstalt-n",
+  "name": "Norddeutsche Edelmetall Scheideanstalt GmbH (NES GROUP), Niederlassung Hamburg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Altstadt",
+  "state": "HH",
+  "website": "https://scheideanstalt-hamburg.de",
+  "status": "aktiv",
+  "notes": "Au/Ag/Pt/Pd-Ankauf zu Schmelzkursen, Scheidung, Barren/Halbzeuge, Tagespreis-Tabelle",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja (HH nur mit Termin; Werk Norderstedt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-altstadt-rheinische-scheidestatte-filiale-hamburg",
+  "name": "Rheinische Scheidestätte GmbH, Filiale Hamburg",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Altstadt",
+  "state": "HH",
+  "website": "https://rheinische-scheidestaette.de/unternehmen/filialen/hamburg/",
+  "status": "aktiv",
+  "notes": "Edelmetall-An-/Verkauf, Uhren/Diamanten, Tafelgeschäft",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-tonndorf-area-industriedemontagen-und-abbruch",
+  "name": "AREA Industriedemontagen und Abbruch e.K.",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Tonndorf",
+  "state": "HH",
+  "website": "https://www.area-abbruch.de/",
+  "status": "pruefung",
+  "notes": "Industriedemontage, Abbruch/Rückbau, seit 1990, HRA 106804",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "Ankauf unklar (Verwertung im Abbruchkontext)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-veddel-wagner-metall",
+  "name": "Wagner Metall GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Veddel",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallhandel lt. Gelbe Seiten | urspr. Website-Angabe: keine funktionierende Website (wagner-metall.de = Checkdomain-Parkseite)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "Ankauf anzufragen",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-heg-hamburger-entsorgungsges-mbh",
+  "name": "HEG Hamburger Entsorgungsges. mbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung, Betriebs-/Lagereinrichtungen | urspr. Website-Angabe: keine verifizierbare Website (heg-hamburg.de liefert keinen Inhalt)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-wilhelmsburg-hafen-retraco",
+  "name": "RETRACO GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wilhelmsburg/Hafen",
+  "state": "HH",
+  "website": "https://retraco-gmbh.com/",
+  "status": "pruefung",
+  "notes": "FE/NE, Kabel, E-Geräte, Katalysatoren (Schlüssel 160801 lt. Register), Lagern/Behandeln/Handeln/Makeln",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 4",
+   "ankauf_raw": "ja (lt. Register-Tätigkeit; vor Ort prüfen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-schnelsen-walter-behncke-inh-bernd-behncke",
+  "name": "Walter Behncke e.K. (Inh. Bernd Behncke)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schnelsen",
+  "state": "HH",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, Lagern/Behandeln (Schrottregister)",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 4",
+   "ankauf_raw": "ja (lt. Register)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-schnelsen-freisler-containerdienst-fuhr-u-entsorgu",
+  "name": "Freisler Containerdienst GmbH & Co. Fuhr- u. Entsorgungsbetrieb KG (Buhck-Gruppe)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Schnelsen",
+  "state": "HH",
+  "website": "https://freisler.com/",
+  "status": "unbekannt",
+  "notes": "Container/Bauschutt/Altholz, Entsorgungskonzepte; Schrott nur als Container-Abfallart",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 4",
+   "ankauf_raw": "nein (kein Ankauf-Beleg; Entsorgung gegen Gebühr)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-hamburger-abfallservice-schaerig",
+  "name": "Hamburger Abfallservice GmbH (Schaerig)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "https://hamburger-abfallservice.de/",
+  "status": "unbekannt",
+  "notes": "Gefahrgut-/Abfall-Entsorgung, Hafenleistungen; anerkannter Entsorgungsfachbetrieb",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 4",
+   "ankauf_raw": "nein (Entsorger, kein Ankauf-Beleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-moorfleet-tammling-rekon-technik",
+  "name": "Tammling Rekon Technik GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Moorfleet",
+  "state": "HH",
+  "website": "https://www.tammling-rekon.de/",
+  "status": "aktiv",
+  "notes": "Fass-/IBC-Rekonditionierung, BAM-zugelassen, ISO 9001",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 4",
+   "ankauf_raw": "nein (Verpackungsrecycling, kein Metallankauf)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-kluczinski-baustoffhandel",
+  "name": "Kluczinski GmbH Baustoffhandel",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": "https://www.baustoffhandel-hamburg.de/",
+  "status": "aktiv",
+  "notes": "Baustoffe/Beton/Recycling/Transporte, EFB-zertifiziert",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 4",
+   "ankauf_raw": "nein (kein Metallankauf-Beleg trotz Register \"Handeln/Makeln\")",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-hafencity-tima-tungsten",
+  "name": "TIMA Tungsten GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "HafenCity",
+  "state": "HH",
+  "website": "https://tima-tungsten.de",
+  "status": "aktiv",
+  "notes": "Hartmetallschrott-Einkauf, Wolframcarbid-Regeneratpulver, RMI-Partner",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Audit-Runde 4",
+   "ankauf_raw": "ja (Hartmetall/Wolfram, v. a. Gewerbe)",
+   "origin": "table"
+  }
+ }
+]

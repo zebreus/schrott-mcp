@@ -1,0 +1,4484 @@
+[
+ {
+  "slug": "he-frankfurt-am-main-schrott-frankfurt-scholz",
+  "name": "Schrott Frankfurt e.K. (Scholz)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt am Main",
+  "state": "HE",
+  "website": "https://schrott-frankfurt.de/",
+  "status": "aktiv",
+  "notes": "Generalist: Schrott/Altmetall, Kupfer/Messing, Container, Demontage, Abholung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-griesheim-ms-recycling-frankfurt",
+  "name": "MS Recycling Frankfurt e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Griesheim",
+  "state": "HE",
+  "website": "https://www.msr-frankfurt.de/",
+  "status": "aktiv",
+  "notes": "Generalist + E-Schrott, Aktenvernichtung, Container, Demontage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-von-gries-recycling",
+  "name": "von Gries Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt",
+  "state": "HE",
+  "website": "https://gries-recycling.de/",
+  "status": "aktiv",
+  "notes": "Metall-/Schrotthandel, FE/NE, Kabel, Elektronik, Katalysatoren, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-schoneck-oberdorfelden-schrott-i-familie-scholz",
+  "name": "Schrott-i (Familie Scholz)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schöneck-Oberdorfelden",
+  "state": "HE",
+  "website": "https://schrott-i.de/",
+  "status": "aktiv",
+  "notes": "Generalist: Schrott/Altmetall, Buntmetalle, Kabel, Edelstahl, Container, Abholung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-am-main-tsr-deutschland-standort-frankfurt",
+  "name": "TSR Deutschland GmbH & Co. KG – Standort Frankfurt",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt am Main",
+  "state": "HE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Großhändler: Metallrecycling, Schrottannahme Gewerbe/privat, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-muhlheim-am-main-felbinger",
+  "name": "Felbinger GmbH",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mühlheim am Main",
+  "state": "HE",
+  "website": "https://www.felbinger.de/",
+  "status": "aktiv",
+  "notes": "Entsorgungsfachbetrieb, Wertstoffhof (Metall-Selbstanlieferung), Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-rhein-main-rohstoffe",
+  "name": "Rhein Main Rohstoffe GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (GS-Eintrag)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-dehner-schrott-metallhandel-containerdie",
+  "name": "Dehner Schrott & Metallhandel Containerdienst e.K.",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallhandel + Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-baydar-schrott",
+  "name": "Baydar Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-schrott-lutz-dr-dipl-chem",
+  "name": "Schrott Lutz (Dr. Dipl.-Chem.)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-fechenheim-ewald-schrotthandel",
+  "name": "Ewald Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Fechenheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (city-map-Eintrag)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-fechenheim-riwald-recycling-rhein-main",
+  "name": "Riwald Recycling Rhein-Main GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Fechenheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling (GS-Eintrag)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-am-main-schrott-siegfried",
+  "name": "Schrott Siegfried",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt am Main",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-offenbach-am-main-philipp-blam-sohn",
+  "name": "Philipp Blam & Sohn GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenbach am Main",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (GS-Eintrag)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-offenbach-am-main-hombach-m-schrottverwertung",
+  "name": "Hombach M. Schrottverwertung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenbach am Main",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottverwertung/Schrotthandel",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-offenbach-am-main-kundrat-schrott-containerdienst",
+  "name": "Kundrat GmbH Schrott Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Offenbach am Main",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott + Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-offenbach-am-main-fred-de-snoo-rohstoffe-schrott-und-metal",
+  "name": "Fred De Snoo Rohstoffe e.K. Schrott- und Metallgroßhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenbach am Main",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallgroßhandel (GS listet Webseite, URL nicht verifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-offenbach-am-main-autoverwertung-kitsakis",
+  "name": "Autoverwertung Kitsakis GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Offenbach am Main",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "AV – Autoverwertung (seit 1977); Schrottankauf nur KFZ-bezogen",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "AV / unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-maintal-dornigheim-reinhardts-schrott-metallhandel",
+  "name": "Reinhardts Schrott & Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Maintal-Dörnigheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallhandel",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-schierstein-mohr-rohstoff-schrotthandel-und-demontag",
+  "name": "MOHR Rohstoff GmbH Schrotthandel und Demontage",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Schierstein",
+  "state": "HE",
+  "website": "https://www.schrott-mohr.de/",
+  "status": "aktiv",
+  "notes": "Generalist: Schrottplatz, Altmetall/Kupfer/Messing/Kabel, Container, Demontage; bedient auch Offenbach",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-dotzheim-h-l-r-rohstoffhandel-herbert-lagerin",
+  "name": "H.L.R. Rohstoffhandel GmbH (Herbert Lagerin)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Dotzheim",
+  "state": "HE",
+  "website": "https://www.hlr-rohstoffhandel.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle (Kupfer/Messing/Alu/Kabel/Edelstahl), Eisenschrott, Katalysatoren, Container, Demontage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-mainz-mombach-h-l-r-rohstoffhandel-herbert-lagerin",
+  "name": "H.L.R. Rohstoffhandel GmbH (Herbert Lagerin)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mainz-Mombach",
+  "state": "HE",
+  "website": "https://www.hlr-rohstoffhandel.de/",
+  "status": "aktiv",
+  "notes": "Buntmetalle (Kupfer/Messing/Alu/Kabel/Edelstahl), Eisenschrott, Katalysatoren, Container, Demontage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-walluf-niederwalluf-gebr-wehle",
+  "name": "Gebr. Wehle GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Walluf-Niederwalluf",
+  "state": "HE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel („Schrott verkaufen“, GS)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-mainz-kastel-metall-rohstoffhandel-lagerin",
+  "name": "Metall- & Rohstoffhandel Lagerin",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden / Mainz-Kastel",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metall-/Rohstoffhandel",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-mainz-kastel-hans-teigeler-eisen-schrott",
+  "name": "Hans Teigeler GmbH (Eisen/Schrott)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden / Mainz-Kastel",
+  "state": "HE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel/Eisen, Schrottplatz (Top-Ranking Portal)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-dotzheim-wagner-marcel-schrotthandel-und-steinrei",
+  "name": "Wagner Marcel Schrotthandel und Steinreinigung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Dotzheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-schierstein-lorsbacher-romano-schrotthandel",
+  "name": "Lorsbächer Romano Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Schierstein",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-doringer-frank-schrotthandel",
+  "name": "Döringer Frank Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-biebrich-schrottabholung-wintermeyer-wintermeyer",
+  "name": "Schrottabholung Wintermeyer / Wintermeyer Romano",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Biebrich",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottabholung/Entrümpelung (Portal-Top 1)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-biebrich-cumic-benjamin-autoverschrottung",
+  "name": "Cumic Benjamin Autoverschrottung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Biebrich",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "AV – Autoverschrottung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "AV / unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-erbenheim-scholz-rico-schrott",
+  "name": "Scholz Rico Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Erbenheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-mainz-kostheim-salvatore-vitale-schrott",
+  "name": "Salvatore & Vitale Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden / Mainz-Kostheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-metallrecycling-keck",
+  "name": "Metallrecycling Keck",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt",
+  "state": "HE",
+  "website": "https://www.metallrecycling-keck.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallankauf (Stahl/Kupfer/Messing/Alu), Kabelschrott, E-Motoren, Batterien, Container, Abholung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-esh-darmstadt",
+  "name": "ESH-Darmstadt",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "https://www.esh-darmstadt.de/services/schrotthandel-demontage/",
+  "status": "aktiv",
+  "notes": "Schrotthändler (GS, Webseite vorhanden aber URL unverifiziert) | UPGRADE Runde 4: Schrotthandel & Demontage mit Ankauf-Liste (Alu/VA V2A+V4A/Blech/Späne/Stahl/Eisen/Kupfer/Messing/Nickel/Zink/Zinn/Blei), Privat/Handwerk/Industrie; Tel. 0151/54774718, 06151/7899959.",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-arb-altmetall-recycling-bamberger",
+  "name": "ARB Altmetall Recycling Bamberger",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "https://www.acb-darmstadt.de/leistungen/containerdienst",
+  "status": "aktiv",
+  "notes": "Altmetall-Recycling | UPGRADE Runde 4 (= ACB Asbestsanierung Bamberger): „Metallschrott zu tagesaktuellen Preisen verkaufen\", Container 3–40 m³, Entkernung/Demontage/Asbest; Tel. 0172-6541090.",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-reinhardt-recycling",
+  "name": "Reinhardt-Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-mohr-rohstoff-altmetallhandel-filiale-ve",
+  "name": "Mohr Rohstoff GmbH Altmetallhandel (Filiale? – Verhältnis zu MOHR Wiesbaden ungeklärt)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallhandel | (Filiale? – Verhältnis zu MOHR Wiesbaden ungeklärt)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-fks-recycling-ankauf",
+  "name": "FKS Recycling Ankauf",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-Ankauf (Name deutet Ankauf an)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja (unsicher – nur Name/GS)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-harec-schrotthandler",
+  "name": "HaRec Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-hartmann-recycling",
+  "name": "Hartmann Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-arheilgen-mb-schrotthandel",
+  "name": "MB Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Arheilgen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-arheilgen-tdn-recycling-schrott",
+  "name": "TDN Recycling Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Arheilgen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Recycling",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-weiterstadt-dkschrotthandel",
+  "name": "Dkschrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weiterstadt",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-wixhausen-levy-david-schrott-und-metallhandel",
+  "name": "Levy David Schrott und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Wixhausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallhandel",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-wixhausen-der-zerseeger-schrotthandel",
+  "name": "Der Zerseeger Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Wixhausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-griesheim-muhlum-schrottlogistik",
+  "name": "Mühlum Schrottlogistik",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Griesheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottlogistik",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-griesheim-n-s-r-recycling",
+  "name": "N-S-R Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Griesheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling/Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-mitte-rsc-recycling-schrott-containerdienst",
+  "name": "RSC Recycling Schrott Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Mitte",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott + Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-uniroh",
+  "name": "uniroh GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Entsorgung/Recycling (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-demorec-demontage-recycling",
+  "name": "DemoRec (Demontage/Recycling)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "https://www.demorec.de/",
+  "status": "aktiv",
+  "notes": "Demontage/Entkernung + Schrotthandel (Kabel, NE-/Buntmetalle, Messing/Zink), Schrottabholung mit Kranwaage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gernsheim-awrec-gernsheim",
+  "name": "AWRec Gernsheim",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gernsheim",
+  "state": "HE",
+  "website": "https://awrec.de/schrotthandel-schrottankauf/",
+  "status": "aktiv",
+  "notes": "Schrott-/Buntmetall-/Kabelankauf (Kupfer Millberry, Alu, Messing, Bronze, Edelstahl, Blei, Zink), Container, Demontage; Einsatz Rhein-Main",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-messel-srm-schrotthandel-rhein-main",
+  "name": "SRM Schrotthandel Rhein-Main e.K.",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Messel",
+  "state": "HE",
+  "website": "https://www.schrotthandel-rhein-main.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/NE-Metallankauf (Kupfer/Messing/Alu/Edelstahl/Kabel/Blei/Zink), Schrottplatz, Container, Demontage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dietzenbach-stalcant-schrotthandler",
+  "name": "STALCANT Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dietzenbach",
+  "state": "HE",
+  "website": "https://www.stalcant-schrotthaendler.de/",
+  "status": "aktiv",
+  "notes": "Kupfer-/Alu-/Messing-Ankauf, Eisen/NE, Abholung ab 350 kg, Container, Demontage; Rhein-Main",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-theo-steil-schrott-und-metallgrohandel",
+  "name": "Theo Steil GmbH (Schrott- und Metallgroßhandel)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau",
+  "state": "HE",
+  "website": "http://www.steil.de",
+  "status": "aktiv",
+  "notes": "Großhandel: Schrott-/Metallhandel, NE, Kabelrecycling, Demontage, Container, Export",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-alba-metall-sud-rhein-main",
+  "name": "ALBA Metall Süd Rhein-Main GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallgroßhandel/Schrotthandel (ALBA-Gruppe; HE-Standort belegt)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja (unsicher – nur GS/Name)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-steinheim-stey-schrotthandler",
+  "name": "Stey Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau-Steinheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-grundau-lieblos-schmitt-alberto-kostenlose-schrottabholu",
+  "name": "Schmitt Alberto (kostenlose Schrottabholung, kein Ersatzteillager)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gründau-Lieblos",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Mobile Schrottabholung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-erlensee-ruckingen-auto-s3-autoverwertung",
+  "name": "AUTO-S3 Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Erlensee-Rückingen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "AV – Autoverwertung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "AV / unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-unterneustadt-heinrich-rader",
+  "name": "Heinrich Räder GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel-Unterneustadt",
+  "state": "HE",
+  "website": "http://www.heinrich-raeder.de",
+  "status": "aktiv",
+  "notes": "Entsorgung/Verwertung: Schrott/Buntmetall (Kupfer/Messing/Alu, Kabelankauf, V2A/V4A), Container 5-40 m³",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-nord-holland-trillhof-handelsges-mbh",
+  "name": "Trillhof Handelsges. mbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel-Nord Holland",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-bettenhausen-werner-remhof-metallgrohandel",
+  "name": "Werner Remhof Metallgroßhandel GmbH & Co. KG",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel-Bettenhausen",
+  "state": "HE",
+  "website": "https://www.remhof.de/",
+  "status": "aktiv",
+  "notes": "Schrottplatz/Metallgroßhandel (Eisen/NE), E-Schrott, Container, Maschinenrückbau; Tageshöchstpreise",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-bettenhausen-tsr-deutschland-standort-kassel",
+  "name": "TSR Deutschland GmbH & Co. KG – Standort Kassel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel-Bettenhausen",
+  "state": "HE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallrecycling/Schrotthandel, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-herwig-schrotthandel-schrotti-kassel",
+  "name": "Herwig Schrotthandel (Schrotti Kassel)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel",
+  "state": "HE",
+  "website": "https://schrott-herwig.de/",
+  "status": "aktiv",
+  "notes": "Altmetall (Edel-/Buntmetall, Eisen/Stahl), Ankauf/Abholung, Demontage/Entkernung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-tourgebiet-kassel-schrotthandel-richter-mobil-fur-kassel-s",
+  "name": "Schrotthandel Richter (mobil für Kassel; Sitz Northeim/NDS – kein HE-Platz)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Tourgebiet Kassel",
+  "state": "HE",
+  "website": "https://www.schrotthandel-richter.de/schrotthandel-kassel",
+  "status": "aktiv",
+  "notes": "Mobile Schrottabholung + Buntmetall-Ankauf (Kupfer/Messing/Alu/Edelstahl/Kabel/Kats), Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja (mobil)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kaufungen-florian-schaarschmidt-schrotthandel-schr",
+  "name": "Florian Schaarschmidt Schrotthandel (Schrotti Kassel)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kaufungen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-bettenhausen-backmeyer-k-h",
+  "name": "Backmeyer K.-H. GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel-Bettenhausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel/Container (GS)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-bettenhausen-pfeil-autoverwertung-ellenbacher-str",
+  "name": "Pfeil GmbH Co. KG / Autoverwertung Ellenbacher Str.",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel-Bettenhausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott + AV (Doppel-Eintrag GS)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "AV / unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-bettenhausen-bachmann-matthias-autoverwertung",
+  "name": "Bachmann Matthias Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel-Bettenhausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "AV – Autoverwertung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "AV / unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-niestetal-sandershausen-schneider-schrott",
+  "name": "Schneider Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Niestetal-Sandershausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-korbach-gro-friedrich-korbacher-metall-und-eisen",
+  "name": "Groß Friedrich GmbH & Co. KG Korbacher Metall- und Eisenhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Korbach",
+  "state": "HE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metall-/Eisenhandel, AV/Autoverschrottung (Portal-Ranking)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-klajo-recycling-gieener-containerdienst",
+  "name": "Klajo Recycling (Gießener Containerdienst by Klajo)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "https://klajo-recycling-giessen.de/",
+  "status": "aktiv",
+  "notes": "Schrotthandel: Buntmetalle (Kupfer/Zink/Messing/Alu/Zinn/Blei, Hartmetall), Eisen/Edelstahl, Kabel/E-Motoren, Container; auch Autoentsorgung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja (+ AV-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wettenberg-schrotthandel-schulz-michael-schulz",
+  "name": "Schrotthandel Schulz (Michael Schulz)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Wettenberg",
+  "state": "HE",
+  "website": "https://schrotthandel-giessen.de/",
+  "status": "aktiv",
+  "notes": "Schrottabholung/Entsorgung, Altmetall-Ankauf auch Kleinmengen, Container, Demontage, KFZ-Entsorgung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja (+ AV-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-schrotthandel-muller-andreas",
+  "name": "Schrotthandel Müller Andreas",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "https://www.schrott-giessen.de/",
+  "status": "aktiv",
+  "notes": "Schrotthandel (Altmetall/Alteisen/Kabel/Kupfer/Alu), Container 1-7 m³, Demontage, Abholung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-weimar-lahn-heinz-becker-recycling-inh-daniel-muth",
+  "name": "Heinz Becker Recycling Inh. Daniel Muth",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weimar/Lahn",
+  "state": "HE",
+  "website": "https://www.muth-recycling.de/",
+  "status": "aktiv",
+  "notes": "Alteisen/NE/Industrieschrott, Kabelrecycling, Abholung hessenweit, Demontage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-rabenau-londorf-heinz-becker-recycling-inh-daniel-muth",
+  "name": "Heinz Becker Recycling Inh. Daniel Muth",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rabenau-Londorf",
+  "state": "HE",
+  "website": "https://www.muth-recycling.de/",
+  "status": "aktiv",
+  "notes": "Alteisen/NE/Industrieschrott, Kabelrecycling, Abholung hessenweit, Demontage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-marburg-wehrda-schrotthandel-wagner-c-wagner",
+  "name": "Schrotthandel Wagner (C. Wagner)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marburg-Wehrda",
+  "state": "HE",
+  "website": "https://www.schrotthandel-wagner-marburg.de/schrott_hessen/schrotthandel-wetzlar/",
+  "status": "aktiv",
+  "notes": "Buntmetall-/Kabel-/Kupfer-/Messing-/Alu-/Edelstahl-Ankauf, Abholung, Entrümpelung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-seebohm-schrotthandlung-und-abholung",
+  "name": "Seebohm Schrotthandlung und Abholung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandlung + Abholung (Privat/Handwerk/Industrie)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-wieseck-pr-recycling-sandro-roggendorf",
+  "name": "PR Recycling (Sandro Roggendorf)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen-Wieseck",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alteisen/Altmetalle, Container (Doppel-Eintrag GS zusammengeführt)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-stolzenmorgen-62-pr-recycling-sandro-roggendorf",
+  "name": "PR Recycling (Sandro Roggendorf)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stolzenmorgen 62",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alteisen/Altmetalle, Container (Doppel-Eintrag GS zusammengeführt)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wettenberg-launsbach-schulze-schrotthandler",
+  "name": "Schulze Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wettenberg-Launsbach",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-linden-burns-schrotthandel",
+  "name": "Burns Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Linden",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-heuchelheim-blum-harald-schrotthandel",
+  "name": "Blum Harald Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heuchelheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-biebertal-rodheim-blum-manuel-schrotthandel",
+  "name": "Blum Manuel Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Biebertal-Rodheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wettenberg-krofdorf-blum-marco-schrottentsorgung",
+  "name": "Blum Marco Schrottentsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wettenberg-Krofdorf",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottentsorgung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-schrotthandel-munstermann",
+  "name": "Schrotthandel Münstermann",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-dienstleistung-habeth-schrottabholung",
+  "name": "Dienstleistung-Habeth (Schrottabholung)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottabholung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-pohlheim-vonderheid-steffen-schrott",
+  "name": "Vonderheid Steffen Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Pohlheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler Schrott",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wetzlar-schneider-altmetalle",
+  "name": "Schneider Altmetalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wetzlar",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetalle (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-alar-schmidt-mario-schrott-containerdienst-sc",
+  "name": "Schmidt Mario Schrott / Containerdienst Schmidt GmbH Schrotthandel",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Aßlar",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott + Container (Portal-Ranking)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja (unsicher – nur Portal/GS)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wetzlar-munchholzhausen-agel-joachim-industrieschrott",
+  "name": "Agel Joachim Industrieschrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wetzlar-Münchholzhausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Industrieschrott (Doppel-Eintrag zusammengeführt)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wetzlar-rohstoffverwertung",
+  "name": "Rohstoffverwertung GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wetzlar",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Rohstoffverwertung (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-marburg-klein-gotthart-schrotthdl",
+  "name": "Klein Gotthart SchrottHdl.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marburg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-marburg-menche-dennis-schrotthandel",
+  "name": "Menche Dennis Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marburg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-marburg-muller-silvia-demontage-u-schrotthandel",
+  "name": "Müller Silvia Demontage u. Schrotthandel / Müller August Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Marburg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Demontage (Familie, zusammengeführt)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wetter-niederwetter-mattern-mario-metallrecycling",
+  "name": "Mattern Mario Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wetter-Niederwetter",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallrecycling/Schrottabholung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wetter-firma-bajramaj",
+  "name": "Firma Bajramaj",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wetter",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Demontage/Schrott (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-lahntal-gofelden-anfang-mario-gofeldener-autoverwertung",
+  "name": "Anfang Mario Goßfeldener Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Lahntal-Goßfelden",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "AV – Autoverwertung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "AV / unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-neu-anspach-rohrig-sohn-schrotthandel",
+  "name": "Röhrig & Sohn GmbH Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neu-Anspach",
+  "state": "HE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetallrecycling/Schrotthandel (Portal-Ranking)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-fulda-sudend-johann-doring-schrott-und-metallgrohandl",
+  "name": "Johann Döring GmbH & Co. KG Schrott- und Metallgroßhandlung",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fulda-Südend",
+  "state": "HE",
+  "website": "https://www.doering-schrott.de/",
+  "status": "aktiv",
+  "notes": "FE-/NE-Metalle, Industrie/Handwerk/privat, Container; BDSV/ESN-Mitglied",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-fulda-mittelrode-bohm-michael-schrotthandel",
+  "name": "Böhm Michael Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fulda-Mittelrode",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Doppel-Eintrag zusammengeführt)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-fulda-malkes-krieger-stefan-schrotthandel",
+  "name": "Krieger Stefan Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fulda-Malkes",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-fulda-haimbach-johannesberg-resler-michael-schrott-und-metalle",
+  "name": "Resler Michael Schrott und Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fulda-Haimbach/Johannesberg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metalle (Doppel-Eintrag zusammengeführt)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-fulda-rodges-schmitt-recycling-entsorgung",
+  "name": "Schmitt Recycling & Entsorgung GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Fulda-Rodges",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Container/Entsorgung (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-neuhof-gorlich-friedrich-schrott-u-metalle",
+  "name": "Görlich Friedrich Schrott u. Metalle GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neuhof",
+  "state": "HE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Altmetallrecycling (Portal-Ranking)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-limburg-a-d-lahn-rudolf-schuy-schuy-recycling",
+  "name": "Rudolf Schuy GmbH & Co. KG (Schuy Recycling)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Limburg a. d. Lahn",
+  "state": "HE",
+  "website": "https://www.schuy.eu",
+  "status": "aktiv",
+  "notes": "FE-/NE-Schrotte, NE-Annahmehalle, Schrottplatz mit Waagen, Container, Industriegase; Großverwerter",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-runkel-steeden-rav-recycling",
+  "name": "RAV Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Runkel-Steeden",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "AV + Recycling (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "AV / unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-bischofsheim-schrott-hartmann",
+  "name": "Schrott Hartmann GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bischofsheim",
+  "state": "HE",
+  "website": "https://www.schrott-hartmann.de/",
+  "status": "aktiv",
+  "notes": "Metallankauf (Kupfer/Messing/Blei/Zink/Alu, Spektralanalyse), Container, Abbruch",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-ginsheim-gustavsburg-tsr-deutschland-ginsheim-gustavsburg",
+  "name": "TSR Deutschland GmbH & Co. KG – Ginsheim-Gustavsburg",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ginsheim-Gustavsburg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallrecycling (GS-Eintrag)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja (unsicher – nur GS)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-bischofsheim-mexner",
+  "name": "Mexner GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bischofsheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Abbruch/Recycling/Container (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gro-gerau-hans-dieter-goetze-recycling",
+  "name": "Hans Dieter Goetze Recycling UG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Groß-Gerau",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling (GS Webseite unverifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-friedberg-mario-lieberum-schrotthandel",
+  "name": "Mario Lieberum Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Friedberg",
+  "state": "HE",
+  "website": "https://www.schrott-rhein-main.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallankauf (Kupfer/Messing/Edelstahl), Container, Industrieabbruch; Einsatz FFM/Hanau/Gießen/Wetzlar/Wiesbaden/Bad Homburg",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hessenweit-schrott24-metaloop-online-ankauf-partner",
+  "name": "Schrott24 / Metaloop (Online-Ankauf, Partnerstandorte Frankfurt + Bischofsheim b. Mainz)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "hessenweit",
+  "state": "HE",
+  "website": "https://www.schrott24.de/standorte/schrottplatz-hessen/",
+  "status": "aktiv",
+  "notes": "Online-Ankauf aller Altmetalle (Kupfer/Alu/Messing/Edelstahl/Kabel/E-Schrott/Blei/Zink/Zinn), Abholung/Paket/Eigenanlieferung, Express-Auszahlung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Einträge",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wetzlar-emil-keilich-wetzlar",
+  "name": "Emil Keilich Wetzlar GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wetzlar",
+  "state": "HE",
+  "website": "https://www.keilich-wetzlar.de/",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Metall-Recycling, Ankauf FE/NE, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-stadtallendorf-emil-keilich-wetzlar",
+  "name": "Emil Keilich Wetzlar GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stadtallendorf)",
+  "state": "HE",
+  "website": "https://www.keilich-wetzlar.de/",
+  "status": "aktiv",
+  "notes": "Stahl-/NE-Metall-Recycling, Ankauf FE/NE, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dillenburg-frohnhausen-mgh-becker-metallgrohandel",
+  "name": "MGH Becker GmbH Metallgroßhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dillenburg-Frohnhausen",
+  "state": "HE",
+  "website": "https://www.mgh-becker.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallrecycling (Stahl/NE), Container 5–20 m³, Efb",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-butzbach-karl-born-nachf-born-recycling-schwester",
+  "name": "Karl Born Nachf. GmbH & Co. KG (Born Recycling; Schwester von Schuy/Röhrig)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Butzbach",
+  "state": "HE",
+  "website": "https://www.born-recycling.de",
+  "status": "aktiv",
+  "notes": "Schrott-/NE-Metallhandel (Kupfer/Messing/Alu/Zink/Zinn/Blei/E-Motoren), Tagespreis, 3 Waagen",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-seckbach-mhf-metallhandel-frankfurt-mhf",
+  "name": "MHF Metallhandel Frankfurt GmbH (MHF)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Seckbach",
+  "state": "HE",
+  "website": "https://mh-frankfurt.de/",
+  "status": "aktiv",
+  "notes": "Metallrecycling seit 1949, Privatanlieferung zu Tagespreisen, Abholung/Fuhrpark",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-seckbach-metallschrott-wiesbaden-inh-andy-biederm",
+  "name": "Metallschrott Wiesbaden (Inh. Andy Biedermann)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Seckbach",
+  "state": "HE",
+  "website": "https://metallschrottwiesbaden.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Buntmetallankauf Tageskurs, Barauszahlung, Container, Kran-Abholung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-am-main-schrott-recycle-meikel",
+  "name": "Schrott-Recycle Meikel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt am Main",
+  "state": "HE",
+  "website": "https://schrott-recycling-meikel.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Altmetall-/Kabelankauf Tagespreise (Preisliste online), Abholung, Container; auch Bad Homburg/Oberursel",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-offenbach-schrotthahn-christian-hahn",
+  "name": "Schrotthahn (Christian Hahn)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenbach",
+  "state": "HE",
+  "website": "https://schrotthahn.de/",
+  "status": "aktiv",
+  "notes": "Metallankauf (Kupfer/Messing/Kabel/Alu/Edelstahl/E-Motoren) mit Vergütung, Demontage, Entrümpelung; OF/FFM/Hanau",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hattersheim-kupferhelden",
+  "name": "Kupferhelden",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Hattersheim",
+  "state": "HE",
+  "website": "https://kupferhelden.de/",
+  "status": "aktiv",
+  "notes": "Kabel-/Kupfer-Spezialist mit Tagespreisliste (Kabel m./o. Stecker)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dietzenbach-cristofor-schrotthandel",
+  "name": "Cristofor Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dietzenbach",
+  "state": "HE",
+  "website": "https://cristofor-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf (faire Preise), Abholung, Container, Demontage, Entrümpelung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dietzenbach-leonard-schrotthandel",
+  "name": "Leonard Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dietzenbach",
+  "state": "HE",
+  "website": "https://leonard-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrotteinkauf mit Sofortauszahlung, Kabelankauf, Container, Demontage; Kreis OF/DA",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-seligenstadt-d-sattler-schrott-und-metallentsorgung",
+  "name": "D. Sattler Schrott- und Metallentsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Seligenstadt",
+  "state": "HE",
+  "website": "https://sattler-schrott-metallentsorgung.de/",
+  "status": "aktiv",
+  "notes": "Bunt-/Edelmetall-Ankauf, kostenlose Abholung, Demontage, Transporte",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-hilbert-schrotthandel",
+  "name": "Hilbert Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt",
+  "state": "HE",
+  "website": "https://schrotthandel-hilbert.de/",
+  "status": "aktiv",
+  "notes": "Buntmetall-Ankauf Tageshöchstpreise, Ladekran-Abholung, Container, Demontage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-sed-recycling",
+  "name": "SED Recycling",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "https://sed-recycling.de/",
+  "status": "aktiv",
+  "notes": "Wertmetall-Ankauf/Abholung (WhatsApp-Preisauskunft), Haushaltsauflösung, Entkernung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-brunos-all-in-one-recycling",
+  "name": "Brunos All in One Recycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "https://brunos-allinone-recycling.de/",
+  "status": "aktiv",
+  "notes": "Buntmetall-/Verbundschrott-Ankauf (Cu/Messing/Alu/Edelstahl/Kabel/E-Schrott/E-Motoren/Batterien), Demontage, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-riedstadt-metallverwertung-ried-mvr-stefan-wolfram",
+  "name": "Metallverwertung Ried (MVR, Stefan Wolfram)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Riedstadt",
+  "state": "HE",
+  "website": "https://metallverwertung-ried.de/",
+  "status": "aktiv",
+  "notes": "Schrottabholung + Ankauf (faire/marktgerechte Preise), Container, Efb",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-lorsch-quell-recycling",
+  "name": "Quell Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lorsch",
+  "state": "HE",
+  "website": "https://quellrecycling.de/",
+  "status": "aktiv",
+  "notes": "Metallannahme (Bunt/FE, E-Motoren), Vergütung Tagespreise (LME), Container; Familienbetrieb seit 1954",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-bensheim-kk-metallhandel-mario-kominek-ex-jens-re",
+  "name": "KK Metallhandel (Mario Kominek; ex Jens Renner)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bensheim",
+  "state": "HE",
+  "website": "https://kkmetallhandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallankauf Tagespreise (Kupfer/Millberry/Messing/Kabel/Alu/Blei/V2A/V4A/Zink), geeichte Waage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-lorsch-kk-schrotthandel-autoverwertung",
+  "name": "KK Schrotthandel & Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Lorsch",
+  "state": "HE",
+  "website": "https://kkschrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel Tagespreise, Container, AV mit Verwertungsnachweis | (KK Autoverwertung GmbH)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (+ AV-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-einhausen-schrott-ko",
+  "name": "Schrott+Ko GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Einhausen",
+  "state": "HE",
+  "website": "https://schrott-ko.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf Bar auf die Hand (Tagespreise, FE/NE/Kabel), Privatanlieferung, Firmen-Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-michelstadt-koch-schrott-und-metallhandels",
+  "name": "Koch Schrott- und Metallhandels GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Michelstadt",
+  "state": "HE",
+  "website": "https://schrottkoch.de/",
+  "status": "aktiv",
+  "notes": "Ankauf/Sortierung/Bearbeitung Schrott+Altmetalle, Altfahrzeug-/Elektronikaltgeräte-Behandlung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kassel-w-anacker",
+  "name": "W. Anacker GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kassel",
+  "state": "HE",
+  "website": "https://anacker-kassel.de/",
+  "status": "aktiv",
+  "notes": "An-/Verkauf Schrott/Altmetall, Kleinannahme Tagespreise, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-lahntal-annecke-schrotthandel-familienbetrieb-se",
+  "name": "Annecke Schrotthandel (Familienbetrieb seit 1980)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lahntal",
+  "state": "HE",
+  "website": "http://annecke-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Altmetallhandel deutschlandweite Abholung, Tagespreis bar/Überweisung, Container, Industrieabbruch",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-lahntal-gofelden-scholz-recycling-standort-lahntal-gofeld",
+  "name": "Scholz Recycling GmbH – Standort Lahntal-Goßfelden (Scholz-Gruppe/Derichebourg)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lahntal-Goßfelden",
+  "state": "HE",
+  "website": "https://scholz-recycling.de/",
+  "status": "aktiv",
+  "notes": "Großhändler Stahl-/NE-Schrotte, Selbstanlieferer-Service der Gruppe",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-korbach-christian-unger-metall-und-rohprodukten",
+  "name": "Christian Unger Metall- und Rohprodukten-Großhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Korbach",
+  "state": "HE",
+  "website": "https://unger-korbach.de/",
+  "status": "aktiv",
+  "notes": "„Schrott zu Geld“: Ankauf Tageshöchstpreise bar (FE/NE/Kabel/E-Motoren/Hartmetall/Zinn), Kleinstmengen ok, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-eschwege-remhof-metall-recycling-schwester-von-nr",
+  "name": "Remhof Metall-Recycling GmbH & Co. KG (Schwester von Nr. 60)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Eschwege",
+  "state": "HE",
+  "website": "https://remhof-esw.de/",
+  "status": "aktiv",
+  "notes": "Schrottplatz/Metallgroßhandel, Ankauf Tageshöchstpreise, Container, AV, E-Schrott, Maschinenrückbau",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wolfersheim-stefan-joa-containerdienst-andre-joa",
+  "name": "Stefan Joa Containerdienst (André Joa)",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Wölfersheim",
+  "state": "HE",
+  "website": "https://stefan-joa.de/",
+  "status": "aktiv",
+  "notes": "Schrotthandel: Ankauf Tagespreise (FE/Buntmetall), Privatanlieferung, Container, Efb seit 2005",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-alsfeld-gorsler-gruppe-rvt-smh",
+  "name": "Gorsler GmbH & Co. KG (Gruppe: RVT/SMH)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Alsfeld",
+  "state": "HE",
+  "website": "https://gorsler-alsfeld.de/",
+  "status": "aktiv",
+  "notes": "Annahme Eisen-/Buntmetalle, Selbstanlieferer (auch Kleinmengen) willkommen, E-Schrott/Batterien, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-grunberg-gorsler-gruppe-rvt-smh",
+  "name": "Gorsler GmbH & Co. KG (Gruppe: RVT/SMH)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Grünberg",
+  "state": "HE",
+  "website": "https://gorsler-alsfeld.de/",
+  "status": "aktiv",
+  "notes": "Annahme Eisen-/Buntmetalle, Selbstanlieferer (auch Kleinmengen) willkommen, E-Schrott/Batterien, Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-nidda-harb-bana-recycling",
+  "name": "Bana Recycling GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nidda-Harb",
+  "state": "HE",
+  "website": "https://bana-recycling.de/",
+  "status": "aktiv",
+  "notes": "Ankauf aller Metalle marktgerecht (Mischschrott/Guss/Kupfer/Millberry/Messing/Alu/Zink/Edelstahl/Kabel), Container, Efb",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-langenselbold-weber-metallverarbeitung-und-handel-schr",
+  "name": "Weber Metallverarbeitung und Handel eK (Schrott-Weber)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Langenselbold",
+  "state": "HE",
+  "website": "https://schrott-weber.de/",
+  "status": "aktiv",
+  "notes": "Schrottplatz: Tageshöchstpreise sofort bar (FE/NE), Auszahlung NE ab 10 € Warenwert",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hofbieber-schrotthandel-freddi-goldbach-seit-1957",
+  "name": "Schrotthandel Freddi Goldbach (seit 1957)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hofbieber",
+  "state": "HE",
+  "website": "https://freddi-goldbach.de/",
+  "status": "aktiv",
+  "notes": "Ab 200 kg Tageshöchstpreise, Ankauf von Privat auf Anfrage, Container 5–40 m³, Entrümpelung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-aarbergen-recyco-tech-metals-recyco-tech",
+  "name": "Recyco tech Metals (Recyco tech GmbH)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aarbergen",
+  "state": "HE",
+  "website": "https://recycotech.com/",
+  "status": "aktiv",
+  "notes": "Recycling-Ankauf Metall/E-Schrott/Kunststoff, sofort bar, Container/Abholservice",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-bad-hersfeld-mausgeier-doring",
+  "name": "Mäusgeier + Döring GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Hersfeld",
+  "state": "HE",
+  "website": "https://maeusgeier-doering.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandlung seit 1938, Ankauf (Ausweis nötig), Container",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-liebenau-tromel-industriedemontage-schrotthandel",
+  "name": "Trömel (Industriedemontage/Schrotthandel)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Liebenau",
+  "state": "HE",
+  "website": "https://kh-troemel.de/",
+  "status": "aktiv",
+  "notes": "Schrotthandel (faire Preise privat), Container, Industrie-Demontage/Abbruch, Entrümpelung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-heraeus-precious-metals-stammhaus-hanau",
+  "name": "Heraeus Precious Metals (Stammhaus Hanau)",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau",
+  "state": "HE",
+  "website": "https://www.heraeus-precious-metals.com/",
+  "status": "aktiv",
+  "notes": "Edelmetall-Recycling/Scheideanstalt (Au/Ag/PGM aus Sekundärmaterial), Trading – nur Gewerbe/Industrie, kein klassischer Schrottplatz",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (nur Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-vellmar-jorg-kurzhals-entsorgung",
+  "name": "Jörg Kurzhals Entsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Vellmar",
+  "state": "HE",
+  "website": "https://kurzhals-entsorgung.de/",
+  "status": "pruefung",
+  "notes": "Schrott-/Altmetallentsorgung (70 J., geeichte Waage), Container, Industrieabbruch, zertifizierte AV – keine Ankaufpreis-Aussage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar (+ AV-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-riedstadt-fa-lenhart-recycling",
+  "name": "Fa. Lenhart Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Riedstadt",
+  "state": "HE",
+  "website": "https://lenhartrecycling.de/",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallverwertung, AV, Container, Demontage – keine Ankaufpreis-Aussage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar (+ AV-Flag)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-rk-demontage-und-recycling",
+  "name": "RK Demontage und Recycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt",
+  "state": "HE",
+  "website": "https://rk-demontage.de/",
+  "status": "pruefung",
+  "notes": "Schrott-/Metallhandel, Kabelrecycling, Demontage/Asbest/Entkernung – keine Ankaufpreis-Aussage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-lamboy-sr-metallrecycling",
+  "name": "SR-MetallRecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau-Lamboy",
+  "state": "HE",
+  "website": "https://sr-metallrecycling.de/",
+  "status": "pruefung",
+  "notes": "Metallschrott-Recycling/Entsorgung (100-km-Umkreis), Preise nur auf Anfrage/Marktkurs",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-solms-aslan-schrotthandel",
+  "name": "Aslan Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Solms",
+  "state": "HE",
+  "website": "https://schrotthandelaslan.de/",
+  "status": "pruefung",
+  "notes": "Kostenlose Abholung Lahn-Dill/Gießen/Butzbach, Kranservice – keine Ankaufpreis-Aussage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dietzenbach-b-samuel-schrottabholung",
+  "name": "B. Samuel Schrottabholung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dietzenbach",
+  "state": "HE",
+  "website": "https://schrottabholung-samuel.de/",
+  "status": "pruefung",
+  "notes": "Nur kostenlose Abholung (Altmetall/Kupfer/V2A/Kabel), keine Ankauf-Aussage",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-nidderau-die-schrottler",
+  "name": "Die Schrottler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nidderau",
+  "state": "HE",
+  "website": "https://die-schrottler.de/",
+  "status": "pruefung",
+  "notes": "Nur kostenlose Abholung nach Termin, Haushaltsauflösung/Entrümpelung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-fulda-dietershan-schrotthandel-stephan-goldbach",
+  "name": "Schrotthandel Stephan Goldbach",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Fulda-Dietershan",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (Verzeichnis: FE/Alu/Kupfer/Edelstahl/Blei/Messing)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hofbieber-niederbieber-leo-hermann",
+  "name": "Leo Hermann GmbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Hofbieber-Niederbieber",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-schwalmstadt-ziegenhain-jungkurth-recycling",
+  "name": "Jungkurth Recycling",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Schwalmstadt-Ziegenhain",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dillenburg-tsr-deutschland-standort-dillenburg",
+  "name": "TSR Deutschland – Standort Dillenburg",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dillenburg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallrecycling, Kabelrecycling, Container (TSR-Gruppe)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (unsicher – nur Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-tsr-deutschland-standort-darmstadt",
+  "name": "TSR Deutschland – Standort Darmstadt",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallrecycling, Kabelrecycling, Demontage (TSR-Gruppe)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (unsicher – nur Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dillenburg-karl-klamberg-schrott-und-metalle",
+  "name": "Karl Klamberg Schrott und Metalle e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dillenburg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Kleinhändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-langgons-autoverwertung-willi-eimer",
+  "name": "Autoverwertung Willi Eimer",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Langgöns",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "AV + Container, Schrottannahme (E-Motoren/Stahl)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "AV / unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-langgons-metall-recycling-schneider",
+  "name": "Metall Recycling Schneider",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Langgöns",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kirchhain-l-pfeiffer-schrotthandel",
+  "name": "L. Pfeiffer Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kirchhain",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel/Industrieabbrüche (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-alsfeld-schrotthandel-winterstein",
+  "name": "Schrotthandel Winterstein",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Alsfeld",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-alsfeld-schrotthandel-entsorgung-delis",
+  "name": "Schrotthandel & Entsorgung Delis",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Alsfeld",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-alsfeld-schrottabholung-komann",
+  "name": "Schrottabholung Koßmann",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Alsfeld",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottabholung (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gilserberg-beate-farruggia-schrotthandel",
+  "name": "Beate Farruggia Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gilserberg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändlerin (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-weimar-lahn-j-haas-schrott-metallhandel",
+  "name": "J. Haas Schrott- & Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weimar/Lahn",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-weimar-lahn-fa-hofmann",
+  "name": "Fa. Hofmann",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weimar/Lahn",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-peter-schneider-metallhandel",
+  "name": "Peter Schneider Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Metallhandel (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-peter-schnaubelt-industrie-rohstoffe",
+  "name": "Peter Schnaubelt Industrie-Rohstoffe GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Industrie-Rohstoffe (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-ferrum-recycling",
+  "name": "Ferrum Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-schrotthandel-jochum-recycling",
+  "name": "Schrotthandel Jochum Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-schrotthandel-rinderknechtt",
+  "name": "Schrotthandel Rinderknechtt",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-schrotthandel-gieen",
+  "name": "Schrotthandel Gießen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gieen-schulz-l",
+  "name": "Schulz L.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hungen-fa-wachter-schrott-metalle",
+  "name": "Fa. Wächter Schrott-Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hungen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-pohlheim-schrotthandel-lahnau",
+  "name": "Schrotthandel Lahnau",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Pohlheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wetzlar-jori-recycling-schrott-wetzlar",
+  "name": "Jori Recycling / Schrott Wetzlar",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wetzlar",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wetzlar-md-demir",
+  "name": "MD demir",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wetzlar",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-lohnberg-schrotthandel-oswald",
+  "name": "Schrotthandel Oswald",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Löhnberg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-neuhof-schrottplatz-neuhof",
+  "name": "Schrottplatz Neuhof",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Neuhof",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (Verzeichnis, Tel.)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kunzell-alma",
+  "name": "ALMA",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Künzell",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hunfeld-umweltservice-grimm-schrottplatz",
+  "name": "Umweltservice Grimm Schrottplatz",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Hünfeld",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz + Palettenhandel (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-nidda-m-h-schrothandel",
+  "name": "M&H Schrothandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nidda",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-nidda-zaibis-schrotthandel",
+  "name": "Zaibis Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Nidda",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Mobile Schrottabholung (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-j-e-schrott-recycling",
+  "name": "J.E. Schrott & Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-freigericht-schrott-metallhandel-freigericht",
+  "name": "Schrott & Metallhandel Freigericht",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freigericht",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hasselroth-rosanna-u-jakob-kirsch-schrotthandel",
+  "name": "Rosanna u. Jakob Kirsch Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hasselroth",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gelnhausen-schrotthandel-willefuhr",
+  "name": "Schrotthandel Willeführ",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gelnhausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis, Tel.)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wachtersbach-klemens-waldemar-schrotthandel",
+  "name": "Klemens Waldemar Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wächtersbach",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-grundau-adler-schrotthandel",
+  "name": "Adler Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gründau",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-grundau-cs-schrotthandel",
+  "name": "CS Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gründau",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dietzenbach-b-mugurel-schrotthandler",
+  "name": "B. Mugurel Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dietzenbach",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler, Abholung (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dietzenbach-miky-schrotthandler",
+  "name": "Miky Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dietzenbach",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-offenbach-buchhugel-schrotthandel-marco-hombach",
+  "name": "Schrotthandel Marco Hombach",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenbach-Buchhügel",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dietzenbach-schrotthandler-dietzenbach-s-o",
+  "name": "Schrotthändler Dietzenbach S.O.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dietzenbach",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-offenbach-waldheim-t-y-schrott-entrumpelung",
+  "name": "T.Y. Schrott & Entrümpelung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenbach-Waldheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Entrümpelung (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-eschersheim-schrotthandel-bugler",
+  "name": "Schrotthandel Bügler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Eschersheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-eschersheim-gartner",
+  "name": "Gärtner",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Eschersheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-dornbusch-metallwelt",
+  "name": "METALLWELT",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Dornbusch",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dietzenbach-schrotthandler-sabri",
+  "name": "Schrotthändler Sabri",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dietzenbach",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-kohlheck-altmetall-entsorgung-delis",
+  "name": "Altmetall & Entsorgung Delis",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Kohlheck",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-biebrich-schrotthandel-bergweiler",
+  "name": "Schrotthandel Bergweiler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Biebrich",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-biebrich-r-w-schrotthandler",
+  "name": "R&W Schrotthändler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Biebrich",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-marchenland-schrott-altmetallhandel-winterstein",
+  "name": "Schrott & Altmetallhandel Winterstein",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Märchenland",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-kohlheck-sascha-augstein",
+  "name": "Sascha Augstein",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Kohlheck",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-heidenrod-schrottmeister-rhein-main",
+  "name": "Schrottmeister Rhein-Main",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heidenrod",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-neu-isenburg-metall-recycling-winterstein",
+  "name": "Metall Recycling Winterstein",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neu-Isenburg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-dreieich-stefan-schramm",
+  "name": "Stefan Schramm",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dreieich",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-munster-bierhenkel",
+  "name": "Bierhenkel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Münster",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-reinheim-alteisensammlung-korkmaz",
+  "name": "Alteisensammlung Korkmaz",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Reinheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alteisen-Sammlung (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-viernheim-schrott-rhein",
+  "name": "Schrott-Rhein",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Viernheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-viernheim-baumann-heinrich",
+  "name": "Baumann Heinrich KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Viernheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-viernheim-schneider-malessa",
+  "name": "Schneider & Malessa e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Viernheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-lampertheim-a-s-brito",
+  "name": "A.S. Brito GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lampertheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-lampertheim-katalysatoren-recycling-steinbach",
+  "name": "Katalysatoren Recycling Steinbach",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lampertheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Katalysatoren-Spezialist (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gro-rohrheim-rainer-gerhardt-schrott-metalle",
+  "name": "Rainer Gerhardt Schrott & Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Groß-Rohrheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-gro-rohrheim-theobald-deichmann-schrotthandel",
+  "name": "Theobald Deichmann Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Groß-Rohrheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-furth-odw-gerhardt-andreas",
+  "name": "Gerhardt Andreas",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fürth/Odw.",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-reichelsheim-odw-walther-andreas",
+  "name": "Walther Andreas",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Reichelsheim/Odw.",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-reichelsheim-odw-wolfgang-schwinn-schrotthandel",
+  "name": "Wolfgang Schwinn Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Reichelsheim/Odw.",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wolfhagen-tobias-meyer",
+  "name": "Tobias Meyer",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wolfhagen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-bebra-hugo-schrott-metall",
+  "name": "HUGO Schrott-Metall e.K.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bebra",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-bad-wildungen-m-albus-an-und-verkauf",
+  "name": "M. Albus An- und Verkauf",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Wildungen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "An- und Verkauf (Name deutet Ankauf an)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "ja (unsicher – nur Name/Verzeichnis)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-bad-homburg-schrott-hg",
+  "name": "Schrott-HG",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Homburg",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (schrottradar-Profil) – erster Bad-Homburg-Platz",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-darmstadt-nord-schrotthandel-a-lorenz",
+  "name": "Schrotthandel A. Lorenz",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Darmstadt-Nord",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-riedstadt-af-metall-und-schrotthandel",
+  "name": "AF Metall- und Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Riedstadt",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-lamboy-schrott-und-metalle-reinhardt",
+  "name": "Schrott und Metalle Reinhardt",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau-Lamboy",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-groauheim-firma-georg-schrott-und-metallhandel",
+  "name": "Firma Georg Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau-Großauheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Verzeichnis)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hattersheim-rolf-mutze-rohstoffe",
+  "name": "Rolf Mütze Rohstoffe GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hattersheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-weiterstadt-grafenhausen-kunstler-recycling",
+  "name": "Künstler-Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weiterstadt-Gräfenhausen",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling/Schrott (schrottradar-Profil)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-rheinische-scheidestatte-filialen-frankf",
+  "name": "Rheinische Scheidestätte GmbH – Filialen Frankfurt + Wiesbaden",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt",
+  "state": "HE",
+  "website": "https://rheinische-scheidestaette.de/",
+  "status": "aktiv",
+  "notes": "Edelmetall-Scheideanstalt-Filialen: Zahngold-/Dentalgold-Ankauf (mit/ohne Zahn), privat + Zahnärzte, Bewertung vor Ort, Versandankauf",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-rheinische-scheidestatte-filialen-frankf",
+  "name": "Rheinische Scheidestätte GmbH – Filialen Frankfurt + Wiesbaden",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden",
+  "state": "HE",
+  "website": "https://rheinische-scheidestaette.de/",
+  "status": "aktiv",
+  "notes": "Edelmetall-Scheideanstalt-Filialen: Zahngold-/Dentalgold-Ankauf (mit/ohne Zahn), privat + Zahnärzte, Bewertung vor Ort, Versandankauf",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-erlensee-agh-altgoldhandel",
+  "name": "AGH Altgoldhandel",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Erlensee",
+  "state": "HE",
+  "website": "https://www.agh-goldankauf.de/wir-kaufen/zahngold-ankauf/",
+  "status": "aktiv",
+  "notes": "Dental-Spezialist: Zahngold/Dentalgold (mit/ohne Zähne), Gekrätz, Gusskegel, Feilung, Laborabfälle; eigenes Spektrometer + Prüfbüro; Abholservice 50-km-Radius (Bad Vilbel–Erlensee–Hanau) + Versand",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-kulzer-scheidgut-service",
+  "name": "Kulzer GmbH (Scheidgut-Service)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau",
+  "state": "HE",
+  "website": "https://www.kulzer.de/de/de/scheidgut/",
+  "status": "aktiv",
+  "notes": "Dental-Hersteller mit Scheidgut-Ankauf: Zahngold (klein/groß), Altgold, Gekrätz, Feilung; privat + Zahnärzte/Labore; persönlich/Post, Auszahlung per Überweisung",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hanau-heraeus-goldstore-hanau-argor-heraeus-de",
+  "name": "Heraeus Goldstore Hanau (Argor-Heraeus Deutschland GmbH)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Hanau",
+  "state": "HE",
+  "website": "https://store.heraeus-gold.com/ankauf/",
+  "status": "aktiv",
+  "notes": "Edelmetall-Ankauf privat mit Preisliste: Altgold/Schmuck, Zahngold/Dentalgold, LBMA-Barren, Bullionmünzen, Silberwaren; Analyse via Argor-Heraeus-Labor (Abgrenzung zu Nr. 163 = Industrie-Recycling)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-kwl-kabel-recycling-klaus-levy",
+  "name": "KWL Kabel Recycling (Klaus Levy)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt",
+  "state": "HE",
+  "website": "https://kwlkabelrecycling.de/",
+  "status": "aktiv",
+  "notes": "Kabel-Spezialist (Fam.-Betrieb seit 1981): Kupfer-/Alukabel, Messing, VA, E-Motoren; hessenweiter Abholservice, Bar-Auszahlung möglich",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-kelkheim-e-o-entsorgung-betriebe-kelkheim-maintal",
+  "name": "E&O Entsorgung GmbH (Betriebe Kelkheim + Maintal; Sitz Bingen/RLP)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Kelkheim",
+  "state": "HE",
+  "website": "https://eo-entsorgung.de/",
+  "status": "pruefung",
+  "notes": "E-Schrott-bulk: eigene Anlagen seit 1997 (Laptops/Platinen/Server, Datenträgervernichtung), Schrott-/Metall-Annahme (VA V2A/V4A, Kupfer, Kabel, Messing, Alu, Zink, Blei, Bleibatterien, E-Motoren), Batterie-/Leuchtstoff-Entsorgung, Container – Vergütung nicht explizit",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-maintal-e-o-entsorgung-betriebe-kelkheim-maintal",
+  "name": "E&O Entsorgung GmbH (Betriebe Kelkheim + Maintal; Sitz Bingen/RLP)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Maintal",
+  "state": "HE",
+  "website": "https://eo-entsorgung.de/",
+  "status": "pruefung",
+  "notes": "E-Schrott-bulk: eigene Anlagen seit 1997 (Laptops/Platinen/Server, Datenträgervernichtung), Schrott-/Metall-Annahme (VA V2A/V4A, Kupfer, Kabel, Messing, Alu, Zink, Blei, Bleibatterien, E-Motoren), Batterie-/Leuchtstoff-Entsorgung, Container – Vergütung nicht explizit",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-ginnheim-schrotthandelbauer",
+  "name": "Schrotthandelbauer",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Ginnheim",
+  "state": "HE",
+  "website": "https://schrotthandelbauer.de",
+  "status": "pruefung",
+  "notes": "Schrotthändler (Portal: Annahme FE/NE, Tel. 01772614891)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja (unsicher – nur Portal)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-frankfurt-eschersheim-die-schrottprofis-abholung-von-schrott-a",
+  "name": "Die Schrottprofis (Abholung von Schrott/Altmetall)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Frankfurt-Eschersheim",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Mobile Abholung (Portal: FE/Alu/Kupfer/Edelstahl/Blei/Messing, Tel. 01633318898)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-rhein-main-schrott-metall-abholung-in-rhein-main",
+  "name": "Schrott & Metall Abholung in Rhein Main",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rhein-Main",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Mobile Abholung (Portal, Tel. 01633384899)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-sauerland-dienstleistung-wiesbaden",
+  "name": "Dienstleistung Wiesbaden",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden-Sauerland",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott/Entrümpelung (Portal, Tel. 017663646798) – Entrümpelungs-Verdacht",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-wiesbaden-mainz-kastel-willefuhr-industriedemontagen",
+  "name": "Willeführ Industriedemontagen",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wiesbaden/Mainz-Kastel",
+  "state": "HE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Industriedemontage/Schrott (Portal, Tel. 01632268363) – distinct von Nr. 206 Schrotthandel Willeführ Gelnhausen",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-hessen-schrotthandel-kramer-shk-kramer",
+  "name": "Schrotthandel Krämer (SHK Krämer)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Hessen",
+  "state": "HE",
+  "website": "https://schrotthandel-kraemer.de/",
+  "status": "aktiv",
+  "notes": "Schrottentsorgung/-recycling, Container, Entrümpelung; „Ankauf von Schrott & Altmetall – faire Preise für Kupfer/Alu/Edelstahl/Kabel/Mischschrott“ (Website-Text verifiziert)",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 3 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-bad-homburg-metallschrott-bad-homburg-ableger-von-nr",
+  "name": "Metallschrott Bad Homburg (Ableger von Nr. 134 Metallschrott Wiesbaden, Inh. Andy Biedermann)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bad Homburg",
+  "state": "HE",
+  "website": "https://metallschrottbadhomburg.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Buntmetall-Ankauf Tageskurs (Kupfer/Kabel/Alu/VA/Eisen), Betriebshof-Annahme, geeichte Waage, Barauszahlung, Kran-Abholung, Container, Abbruch/Demontage, Kat-/Batterie-Entsorgeseite; Tel. 069-42696558",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "he-reichelsheim-odw-lgs-schrott-metallhandel-lothar-gerhardt",
+  "name": "LGS Schrott & Metallhandel (Lothar Gerhardt)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Reichelsheim/Odw.",
+  "state": "HE",
+  "website": "https://www.lgs-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Odenwald-Dorfhändler: Ankauf Schrott/Buntmetalle/Kabel/Späne/VA/Blei „faire tagesaktuelle Preise, auch Kleinstmengen“, von Privat/Handwerk/Industrie; KFZ-Entsorgung, Brennschneid/Demontage; Mobil 0151/17546219",
+  "provenance": {
+   "seed_file": "he",
+   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ }
+]

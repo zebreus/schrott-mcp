@@ -1,0 +1,1712 @@
+[
+ {
+  "slug": "be-reinickendorf-peglow-schrott-und-metallhandel",
+  "name": "Peglow Schrott und Metallhandel e.K.",
+  "trader_type": "metallhaendler",
+  "street": "Soltauer Str. 27-29",
+  "postcode": "13509",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "https://schrott-berlin.de",
+  "status": "aktiv",
+  "notes": "Generalist: Kupfer, Messing, Alu, Edelstahl, Kabel, Eisen; Container | Adresse: Soltauer Str. 27-29, 13509 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-brh-berliner-rohstoffhandel",
+  "name": "BRH Berliner Rohstoffhandel GmbH",
+  "trader_type": "sonstige",
+  "street": "Lengeder Str. 22",
+  "postcode": "13407",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "https://berliner-rohstoffhandel.de",
+  "status": "aktiv",
+  "notes": "Generalist + Altfahrzeugbehandlung, Container | Adresse: Lengeder Str. 22, 13407 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-altmetalle-hans-wasdrack-moabit",
+  "name": "Altmetalle Hans Wasdrack GmbH & Co. KG (Moabit)",
+  "trader_type": "schrotthaendler",
+  "street": "Quitzowstr. 40",
+  "postcode": "10559",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "https://www.wasdrack.de",
+  "status": "aktiv",
+  "notes": "Generalist NE + Fe, Kabelzerlegung, Container | Adresse: Quitzowstr. 40, 10559 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-treptow-kopenick-altmetalle-hans-wasdrack-kopenick",
+  "name": "Altmetalle Hans Wasdrack GmbH & Co. KG (Köpenick)",
+  "trader_type": "schrotthaendler",
+  "street": "Besenbinderstr. 26-28",
+  "postcode": "12524",
+  "city": "Treptow-Köpenick",
+  "state": "BE",
+  "website": "https://www.wasdrack.de",
+  "status": "aktiv",
+  "notes": "s.o., 2. Standort | Adresse: Besenbinderstr. 26-28, 12524 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-tsr-deutschland-neukolln",
+  "name": "TSR Deutschland GmbH & Co. KG (Neukölln)",
+  "trader_type": "sonstige",
+  "street": "Lahnstr. 1-9",
+  "postcode": "12055",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "https://www.tsr-recycling.de",
+  "status": "aktiv",
+  "notes": "Großrecycler Fe + NE, Privat + Gewerbe | Adresse: Lahnstr. 1-9, 12055 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-tsr-deutschland-westhafen",
+  "name": "TSR Deutschland GmbH & Co. KG (Westhafen)",
+  "trader_type": "sonstige",
+  "street": "Westhafenstr. 1",
+  "postcode": "13353",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "https://www.tsr-recycling.de",
+  "status": "pruefung",
+  "notes": "Großrecycler, eher gewerblich | Adresse: Westhafenstr. 1, 13353 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja (Gewerbe; privat unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-beller-demontagen-altmetall-schrott",
+  "name": "BELLER Demontagen Altmetall Schrott GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "Späthstr. 145",
+  "postcode": "12359",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "https://www.beller-das.de",
+  "status": "aktiv",
+  "notes": "Industriedemontage + Altmetallankauf | Adresse: Späthstr. 145, 12359 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-blank-co-rohstoffhandels",
+  "name": "Blank & Co Rohstoffhandels GmbH",
+  "trader_type": "metallhaendler",
+  "street": "Boschweg 6",
+  "postcode": "12057",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/NE-Metalle, geeichte Waage | Adresse: Boschweg 6, 12057 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-kath-hasenfu-recycling",
+  "name": "Kath-Hasenfuß Recycling GmbH",
+  "trader_type": "schrottplatz",
+  "street": "Werdauer Weg 11",
+  "postcode": "10829",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "https://kath-hasenfuss.de",
+  "status": "aktiv",
+  "notes": "Großschrottplatz Fe + NE + Elektronikschrott | Adresse: Werdauer Weg 11, 10829 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-lichtenberg-kmab-schrott-und-service-berlin",
+  "name": "KMAB Schrott und Service Berlin GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "Herzbergstr. 35/36",
+  "postcode": "10365",
+  "city": "Lichtenberg",
+  "state": "BE",
+  "website": "https://www.kmabgmbh.de",
+  "status": "aktiv",
+  "notes": "Metallankauf + Entsorgung + Container | Adresse: Herzbergstr. 35/36, 10365 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-lichtenberg-alba-metall-nord-lichtenberg",
+  "name": "ALBA Metall Nord GmbH (Lichtenberg)",
+  "trader_type": "sonstige",
+  "street": "Herzbergstr. 46-48",
+  "postcode": "10365",
+  "city": "Lichtenberg",
+  "state": "BE",
+  "website": "https://metall.alba.info",
+  "status": "aktiv",
+  "notes": "Stahl + Metalle, Hafenlogistik | Adresse: Herzbergstr. 46-48, 10365 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja (Gewerbe)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-alba-metall-nord-spandau",
+  "name": "ALBA Metall Nord GmbH (Spandau)",
+  "trader_type": "schrotthaendler",
+  "street": "Nonnendammallee 28",
+  "postcode": "13599",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "https://metall.alba.info",
+  "status": "aktiv",
+  "notes": "Schrottschere, Binnenschiff | Adresse: Nonnendammallee 28, 13599 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja (Gewerbe; seit 10/2025 keine Barzahlung/Privatkunden)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-kiro-schrotthandel-kafedzhiev",
+  "name": "Kiro Schrotthandel (Kafedzhiev)",
+  "trader_type": "schrotthaendler",
+  "street": "Blankenburger Str. 18-20",
+  "postcode": "13089",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "https://schrotthandel-berlin.com",
+  "status": "aktiv",
+  "notes": "Generalist, Kabelschrott | Adresse: Blankenburger Str. 18-20, 13089 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-bsb-robert-berndt-berndt-schrott-buntmet",
+  "name": "BSB Robert Berndt (Berndt. Schrott. Buntmetall.)",
+  "trader_type": "metallhaendler",
+  "street": "Annahme: Am Vorwerk 3,  (Sitz: Wandlitz)",
+  "postcode": "13127",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "https://www.bsb-schrott.de",
+  "status": "aktiv",
+  "notes": "Schrott + Buntmetall + Kabelaufbereitung, Container | Adresse: Annahme: Am Vorwerk 3, 13127 Berlin (Sitz: Wandlitz)",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-marzahn-hellersdorf-efrem-gouchev-schrottankauf",
+  "name": "Efrem Gouchev Schrottankauf",
+  "trader_type": "schrotthaendler",
+  "street": "Bitterfelder Str. 23",
+  "postcode": "12681",
+  "city": "Marzahn-Hellersdorf",
+  "state": "BE",
+  "website": "https://www.schrottankauf-bitterfelderstr23.de",
+  "status": "aktiv",
+  "notes": "Generalist inkl. Zinn/Zink/Hartmetall | Adresse: Bitterfelder Str. 23, 12681 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-marzahn-hellersdorf-papierfritze-schrott-altpapierankauf",
+  "name": "Papierfritze (Schrott-/Altpapierankauf)",
+  "trader_type": "schrotthaendler",
+  "street": "Alt-Biesdorf 12,  (+ Filiale Neukölln)",
+  "postcode": "12683",
+  "city": "Marzahn-Hellersdorf",
+  "state": "BE",
+  "website": "https://www.papierfritze.de",
+  "status": "aktiv",
+  "notes": "Altmetall + Elektronik + Sondermetalle + Papier/Paletten | Adresse: Alt-Biesdorf 12, 12683 Berlin (+ Filiale Neukölln)",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-marzahn-hellersdorf-neukolln-schrottfritze-zweitmarke-papierfritze-gr",
+  "name": "Schrottfritze (Zweitmarke Papierfritze-Gruppe)",
+  "trader_type": "schrotthaendler",
+  "street": "Alt-Biesdorf 12, ; Filiale Neukölln",
+  "postcode": "12683",
+  "city": "Marzahn-Hellersdorf / Neukölln",
+  "state": "BE",
+  "website": "https://schrottfritze.de",
+  "status": "aktiv",
+  "notes": "wie Papierfritze | Adresse: Alt-Biesdorf 12, 12683 Berlin; Filiale Neukölln",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-marzahn-hellersdorf-mk-wertstoffhandel-daniel-hartwig",
+  "name": "MK Wertstoffhandel (Daniel Hartwig)",
+  "trader_type": "wertstoffhaendler",
+  "street": "Grabensprung 1",
+  "postcode": "12683",
+  "city": "Marzahn-Hellersdorf",
+  "state": "BE",
+  "website": "https://mk-wertstoffhandel.de",
+  "status": "aktiv",
+  "notes": "Buntmetall, Kabel, Schrott, Papier; Spektrometer-Analyse | Adresse: Grabensprung 1, 12683 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-marzahn-hellersdorf-wolf-marko-schrott-altmetall-abholung",
+  "name": "Wolf Marko Schrott / Altmetall-Abholung",
+  "trader_type": "schrotthaendler",
+  "street": "Boschpoler Str. 120",
+  "postcode": "12683",
+  "city": "Marzahn-Hellersdorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Mobile Abholung Berlin/Brandenburg | Adresse: Boschpoler Str. 120, 12683 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja (Abholung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-m-rahimic-alt-metall-schrott-handel",
+  "name": "M. Rahimić Alt Metall Schrott Handel",
+  "trader_type": "schrottplatz",
+  "street": "Päwesiner Weg 19-20",
+  "postcode": "13581",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "https://www.altmetalleberlin.de",
+  "status": "aktiv",
+  "notes": "Schrottplatz + Demontage + Container | Adresse: Päwesiner Weg 19-20, 13581 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-sparo-spandauer-rohstoffe",
+  "name": "SPARO Spandauer Rohstoffe GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "Brunsbütteler Damm 430",
+  "postcode": "13591",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall/NE (HRB 73519 B) | Adresse: Brunsbütteler Damm 430, 13591 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-schrott-biberovic",
+  "name": "Schrott Biberovic",
+  "trader_type": "schrottplatz",
+  "street": "Klosterstr. 15",
+  "postcode": "13581",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz (nur Verzeichnisbeleg) | Adresse: Klosterstr. 15, 13581 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "unsicher",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-elno-container-und-dienstleistungs",
+  "name": "ELNO Container und Dienstleistungs GmbH",
+  "trader_type": "containerdienst",
+  "street": "Tiefwerderweg 13",
+  "postcode": "13597",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Containerdienst, Schrottlager | Adresse: Tiefwerderweg 13, 13597 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-air-abfall-ist-rohstoff",
+  "name": "AiR Abfall ist Rohstoff GmbH",
+  "trader_type": "sonstige",
+  "street": "Sophienwerderweg 60",
+  "postcode": "13581",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Handel/Makeln (B2B) | Adresse: Sophienwerderweg 60, 13581 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-treptow-kopenick-amr-metalle-und-rohstoffe-amr-schrottpla",
+  "name": "AMR Metalle und Rohstoffe GmbH (AMR Schrottplatz)",
+  "trader_type": "schrottplatz",
+  "street": "Schnellerstr. 20E",
+  "postcode": "12439",
+  "city": "Treptow-Köpenick",
+  "state": "BE",
+  "website": "http://www.amr-schrottplatz.de",
+  "status": "aktiv",
+  "notes": "Altmetall + Hartmetall + Demontage, Container | Adresse: Schnellerstr. 20E, 12439 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-friedrichshain-kreuzberg-alt-metallhandel-bernhard-schult",
+  "name": "Alt-Metallhandel Bernhard Schult",
+  "trader_type": "metallhaendler",
+  "street": "Dolziger Str. 30",
+  "postcode": "10247",
+  "city": "Friedrichshain-Kreuzberg",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Altmetallhandel (nur Verzeichnisbeleg) | Adresse: Dolziger Str. 30, 10247 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "unsicher",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-kle-schrott-und-metallhandel",
+  "name": "KLE Schrott- und Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "Holzstr. 15",
+  "postcode": "13359",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott + Metall, Hausabholung ab Menge | Adresse: Holzstr. 15, 13359 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-charlottenburg-wilmersdorf-schrott-gudrun",
+  "name": "Schrott Gudrun",
+  "trader_type": "schrotthaendler",
+  "street": "Pestalozzistr. 88A",
+  "postcode": "10625",
+  "city": "Charlottenburg-Wilmersdorf",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Schrott (nur Gelbe-Seiten-Beleg) | Adresse: Pestalozzistr. 88A, 10625 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "unsicher",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-altmetalle-spannemann",
+  "name": "Altmetalle Spannemann OHG",
+  "trader_type": "schrotthaendler",
+  "street": "Meyerbeerstr. 61-63",
+  "postcode": "13088",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Alu, Blei, Edelstahl, Zink, Kupfer, Messing, Kabel | Adresse: Meyerbeerstr. 61-63, 13088 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "unsicher (dünner Beleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-digosi-edelmetall-recycling-scheideansta",
+  "name": "DIGOSI Edelmetall & Recycling GmbH (Scheideanstalt Berlin)",
+  "trader_type": "sonstige",
+  "street": "Potsdamer Str. 92",
+  "postcode": "10785",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "https://www.scheideanstalt-berlin.de",
+  "status": "aktiv",
+  "notes": "Scheideanstalt: Gold, Silber, Platin, Palladium | Adresse: Potsdamer Str. 92, 10785 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-scheideanstalt-berlin-gold-scheideanstal",
+  "name": "Scheideanstalt Berlin (Gold-Scheideanstalt)",
+  "trader_type": "sonstige",
+  "street": "Ansbacher Str. 5",
+  "postcode": "10787",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "https://scheideanstalt.berlin",
+  "status": "aktiv",
+  "notes": "Edelmetallankauf + Analyse (Vorsicht: namensgleich mit DIGOSI) | Adresse: Ansbacher Str. 5, 10787 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-lichtenberg-autoverwertung-berk",
+  "name": "Autoverwertung Berk GmbH",
+  "trader_type": "autoverwertung",
+  "street": "Gehrenseestr. 42A",
+  "postcode": "13053",
+  "city": "Lichtenberg",
+  "state": "BE",
+  "website": "https://autoverwertung-berk.de",
+  "status": "aktiv",
+  "notes": "Autoverwertung, kein Ersatzteilverkauf | Adresse: Gehrenseestr. 42A, 13053 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-lichtenberg-rima-autoverwertung-saied-ayeid",
+  "name": "RIMA Autoverwertung (Saied Ayeid)",
+  "trader_type": "autoverwertung",
+  "street": "Josef-Orlopp-Str. 79-83",
+  "postcode": "10365",
+  "city": "Lichtenberg",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Anerkannter Demontagebetrieb | Adresse: Josef-Orlopp-Str. 79-83, 10365 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-lichtenberg-autoverwertung-wagner-peter-wagner",
+  "name": "Autoverwertung Wagner (Peter Wagner)",
+  "trader_type": "autoverwertung",
+  "street": "Gärtnerstr. 17-18",
+  "postcode": "13055",
+  "city": "Lichtenberg",
+  "state": "BE",
+  "website": "https://berlin-autoverwertung.de",
+  "status": "aktiv",
+  "notes": "Autoverwertung | Adresse: Gärtnerstr. 17-18, 13055 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-auto-ferch-brh-altfahrzeugbehandlung",
+  "name": "Auto-Ferch GmbH / BRH Altfahrzeugbehandlung",
+  "trader_type": "autoverwertung",
+  "street": "Lengeder Str. 22",
+  "postcode": "13407",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung + Gebrauchtteile | Adresse: Lengeder Str. 22, 13407 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-sperber-otto-autoverwertung",
+  "name": "Sperber Otto Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "Gotenstr. 26-28",
+  "postcode": "10829",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung | Adresse: Gotenstr. 26-28, 10829 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-baes-autoverwerter-berlin",
+  "name": "BAES / Autoverwerter Berlin",
+  "trader_type": "autoverwertung",
+  "street": "Teilestr. 7",
+  "postcode": "12099",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "https://autoverwerter-berlin.de",
+  "status": "pruefung",
+  "notes": "Altautoentsorgung, Abholung | Adresse: Teilestr. 7, 12099 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung (Restwert unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-autopresse-tempelhof",
+  "name": "Autopresse Tempelhof",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Zertifizierter Autoverwerter bis 3,5 t | Adresse: Tempelhof (genaue Adresse unklar)",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "unsicher — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-autoteile-wedding",
+  "name": "Autoteile Wedding",
+  "trader_type": "autoverwertung",
+  "street": "Koloniestr. 114",
+  "postcode": "13359",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung | (Autoverwertung) | Adresse: Koloniestr. 114, 13359 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-autoverwertung-nord",
+  "name": "Autoverwertung Nord",
+  "trader_type": "autoverwertung",
+  "street": "Holzstr. 4A",
+  "postcode": "13359",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung | Adresse: Holzstr. 4A, 13359 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-auto-schaefer-autoverwertung",
+  "name": "Auto Schaefer Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "Am Juliusturm 33",
+  "postcode": "13599",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung | Adresse: Am Juliusturm 33, 13599 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-treptow-kopenick-auto-dienst-sud-kramer",
+  "name": "Auto-Dienst Süd Krämer GmbH",
+  "trader_type": "autoverwertung",
+  "street": "Kiefholzstr. 397",
+  "postcode": "12435",
+  "city": "Treptow-Köpenick",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung | Adresse: Kiefholzstr. 397, 12435 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-dmt-automobile",
+  "name": "DMT Automobile",
+  "trader_type": "autoverwertung",
+  "street": "Mandelstr. 16",
+  "postcode": "10409",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung + Autoteile | Adresse: Mandelstr. 16, 10409 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-auto-brasch",
+  "name": "Auto Brasch GmbH",
+  "trader_type": "autoverwertung",
+  "street": "Ortnitstr. 93",
+  "postcode": "12347",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Sammeln/Behandeln/Verwerten, Altfahrzeuge | Adresse: Ortnitstr. 93, 12347 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-sitz-wandlitz-daiko-recycling-sensecer",
+  "name": "DAIKO Recycling (Sensecer e.K.)",
+  "trader_type": "autoverwertung",
+  "street": "Zehnpfuhlweg 3",
+  "postcode": "16348",
+  "city": "Sitz Wandlitz",
+  "state": "BE",
+  "website": "https://www.auto-schrottplatz.com",
+  "status": "aktiv",
+  "notes": "Autoverwertung + Schrottankauf + Container | Adresse: Zehnpfuhlweg 3, 16348 Wandlitz",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja (Sitz außerhalb Berlins)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-sitz-schoneiche-hein-schrotthandel",
+  "name": "Hein Schrotthandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "Werner-von-Siemens-Str. 12",
+  "postcode": "15566",
+  "city": "Sitz Schöneiche",
+  "state": "BE",
+  "website": "https://www.hein-schrotthandel.de",
+  "status": "aktiv",
+  "notes": "Generalist + Elektronikschrott + Katalysatoren, Abholung/Versand | Adresse: Werner-von-Siemens-Str. 12, 15566 Schöneiche",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja (Sitz außerhalb Berlins)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-lichtenberg-bral-reststoff-bearbeitungs",
+  "name": "BRAL Reststoff-Bearbeitungs GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "Marzahner Str. 36",
+  "postcode": "13053",
+  "city": "Lichtenberg",
+  "state": "BE",
+  "website": "https://www.bral.berlin",
+  "status": "pruefung",
+  "notes": "Elektronikschrott-Erstbehandlung (ALBA/BSR) | Adresse: Marzahner Str. 36, 13053 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "Ankauf unklar (Annahme, keine Barpreisliste)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-lichtenberg-alba-berlin-zentrale-lichtenberg",
+  "name": "ALBA Berlin GmbH (Zentrale + Lichtenberg)",
+  "trader_type": "sonstige",
+  "street": "Flottenstr. 7-9, 13407 + Marzahner Str. 35",
+  "postcode": "13053",
+  "city": "Reinickendorf / Lichtenberg",
+  "state": "BE",
+  "website": "https://berlin.alba.info",
+  "status": "pruefung",
+  "notes": "Entsorgung, Container, Recyclinghöfe | Adresse: Flottenstr. 7-9, 13407 + Marzahner Str. 35, 13053 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-friedrichshain-kreuzberg-berlin-recycling",
+  "name": "Berlin Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "Monumentenstr. 14",
+  "postcode": "10965",
+  "city": "Friedrichshain-Kreuzberg",
+  "state": "BE",
+  "website": "https://www.berlin-recycling.de",
+  "status": "pruefung",
+  "notes": "Entsorgung, Metallschrott-Container (Gewerbe) | Adresse: Monumentenstr. 14, 10965 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "Ankauf unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-treptow-kopenick-also-recommerce-ag",
+  "name": "ALSO Recommerce AG",
+  "trader_type": "schrotthaendler",
+  "street": "Wegedornstr. 36",
+  "postcode": "12489",
+  "city": "Treptow-Köpenick",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "Elektronik-Refurbishment, kein Schrottankauf | Adresse: Wegedornstr. 36, 12489 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "kein Ankauf (nur Bestand)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-berlinweit-mobil-schrottjungs-mobile-abholung",
+  "name": "Schrottjungs (mobile Abholung)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "berlinweit mobil",
+  "state": "BE",
+  "website": "https://schrottjungs.de/schrottabholung-berlin",
+  "status": "aktiv",
+  "notes": "Kostenlose Abholung, Barauszahlung bei Buntmetall | Adresse: kein fester Platz in Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja (mobil)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-online-schrott24-online-ankauf-partnernetz",
+  "name": "Schrott24 (Online-Ankauf/Partnernetz)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "online",
+  "state": "BE",
+  "website": "https://www.schrott24.de/standorte/schrottplatz-berlin",
+  "status": "aktiv",
+  "notes": "Online-Ankauf, Express-Auszahlung, Abholung | Adresse: kein Sitz in Berlin belegt",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "ja (online)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-berlin-saico-buntmetall-und-schrotthandel",
+  "name": "Saico GmbH Buntmetall- und Schrotthandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Berlin",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Buntmetall/Schrott (nur Handelsregisterbeleg) | Adresse: keine Adresse verifiziert",
+  "provenance": {
+   "seed_file": "be",
+   "section": "Schrottankauf Berlin (BE) — Recherche",
+   "ankauf_raw": "unsicher",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-steglitz-zehlendorf-reinhardt-rohstoffe",
+  "name": "Reinhardt Rohstoffe GmbH",
+  "trader_type": "sonstige",
+  "street": "Lichterfelder Weg 1-3",
+  "postcode": "14167",
+  "city": "Steglitz-Zehlendorf",
+  "state": "BE",
+  "website": "https://reinhardt-rohstoffe.de",
+  "status": "aktiv",
+  "notes": "Efb seit 1999, Fe + NE (Cu, Messing, Alu, V2A), Tageshöchstpreise, Fe ab 50 kg | Adresse: Lichterfelder Weg 1-3, 14167 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-stefan-manteuffel-recycling",
+  "name": "Stefan Manteuffel Recycling",
+  "trader_type": "sonstige",
+  "street": "Späthstr. 19/20",
+  "postcode": "12359",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "http://www.sm-recycling.de",
+  "status": "aktiv",
+  "notes": "seit 1985, Metall + Papier, Kabelverwertung, Container, 40-t-Waage | Adresse: Späthstr. 19/20, 12359 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-ne-metalle-k-p-klawek-partner",
+  "name": "NE-Metalle K&P GmbH (Klawek & Partner)",
+  "trader_type": "metallhaendler",
+  "street": "Ringstr. 66",
+  "postcode": "12105",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "https://klawek-partner.com",
+  "status": "aktiv",
+  "notes": "Metallankauf, Privatanlieferung, Container/Logistik/Abbruch | Adresse: Ringstr. 66, 12105 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-schrotthandel-hristov",
+  "name": "Schrotthandel Hristov",
+  "trader_type": "schrotthaendler",
+  "street": "Kopenhagener Str. 99,  (schrottradar nennt zusätzlich Lange Str. 3)",
+  "postcode": "13158",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "https://schrotthandel-hristov.de",
+  "status": "aktiv",
+  "notes": "mobile Abholung, Demontage, \"faire Preise\" | Adresse: Kopenhagener Str. 99, 13158 Berlin (schrottradar nennt zusätzlich Lange Str. 3)",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (Abholung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-marzahn-hellersdorf-berlin-metalle-schrottabholung-stefan",
+  "name": "Berlin Metalle (Schrottabholung Stefan)",
+  "trader_type": "schrotthaendler",
+  "street": "Lötschbergstr.",
+  "postcode": "12683",
+  "city": "Marzahn-Hellersdorf",
+  "state": "BE",
+  "website": "https://berlin-metalle.de",
+  "status": "aktiv",
+  "notes": "kostenlose Abholung Berlin/Brandenburg, Demontage | Adresse: Lötschbergstr., 12683 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (Abholung; keine Preisliste)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-beg-service-auflosungen-schrott",
+  "name": "BEG Service (Auflösungen/Schrott)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "https://beg-service.de",
+  "status": "pruefung",
+  "notes": "Schrotthandel/Ankauf \"faire Preise\", Edelmetalle, Entrümpelung, Container | Adresse: s. links",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (Sitz unklar Berlin/Brandenburg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-treptow-kopenick-schrotthandel-adlershof",
+  "name": "Schrotthandel Adlershof",
+  "trader_type": "schrotthaendler",
+  "street": "Glienicker Str. 101",
+  "postcode": "12557",
+  "city": "Treptow-Köpenick",
+  "state": "BE",
+  "website": "https://www.schrotthandeladlershof.de/",
+  "status": "aktiv",
+  "notes": "Cu, Alu, Edelstahl, Messing, Zinn/Zink, Blei; Tel. 030 37434252 | Adresse: Glienicker Str. 101, 12557 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-marske",
+  "name": "Marske GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "Lahnstr. 3-5",
+  "postcode": "12055",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Cu, Messing, Zinn/Zink, Blei; Annahme + Abholung; Tel. 030 6841513 | urspr. Website-Angabe: keine aktive Website (marske-gmbh.de derzeit Casino-Spam/gekidnappt) | Adresse: Lahnstr. 3-5, 12055 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-marzahn-hellersdorf-schrotthandel-achtert",
+  "name": "Schrotthandel Achtert",
+  "trader_type": "schrotthaendler",
+  "street": "Waldstr. 64",
+  "postcode": "12621",
+  "city": "Marzahn-Hellersdorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Demontage, Abholung, Bauschutt; Tel. 0173 4282425 | Adresse: Waldstr. 64, 12621 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-memo-schrotthandel-mkb-tel-identitat",
+  "name": "Memo Schrotthandel (= MKB GmbH, Tel.-Identität)",
+  "trader_type": "schrottplatz",
+  "street": "Tempelhofer Weg 10A",
+  "postcode": "12099",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Abriss/Demontage, Schrottplatz; Tel. 030 6257032 | urspr. Website-Angabe: keine aktive Website (alte Domain metallkontor-berlin.de tot) | Adresse: Tempelhofer Weg 10A, 12099 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg, 2 Quellen)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-metall-schrott-berlin",
+  "name": "Metall-Schrott-Berlin",
+  "trader_type": "schrotthaendler",
+  "street": "Storkower Str. 48",
+  "postcode": "10409",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetall-Annahme; Tel. 0176 29755761 | Adresse: Storkower Str. 48, 10409 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-theo-steil-niederlassung-berlin",
+  "name": "Theo Steil GmbH (Niederlassung Berlin)",
+  "trader_type": "schrotthaendler",
+  "street": "Gehringstr. 47",
+  "postcode": "13088",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "https://steil.de",
+  "status": "pruefung",
+  "notes": "Stahlschrott, NE, Container; Tel. 030 92400880 | Adresse: Gehringstr. 47, 13088 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (v.a. Gewerbe; privat unklar)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-baumgarter-partner-metallrecycling",
+  "name": "Baumgarter & Partner Metallrecycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "Koloniestr. 107-108",
+  "postcode": "13359",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe + NE; Tel. 030 49916228 | Adresse: Koloniestr. 107-108, 13359 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-gkb-gieereikontor-berlin",
+  "name": "GKB Gießereikontor Berlin GmbH",
+  "trader_type": "sonstige",
+  "street": "Roedernallee 9",
+  "postcode": "13407",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe + NE; Tel. 0176 60010865 | Adresse: Roedernallee 9, 13407 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-aue-schrotthandel",
+  "name": "Aue-Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "Hermsdorfer Str. 17",
+  "postcode": "13469",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe + NE; Tel. 030 4115808 | Adresse: Hermsdorfer Str. 17, 13469 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-harri-lubeck-schrotthandel",
+  "name": "Harri Lübeck Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "Wildganssteig 50",
+  "postcode": "13503",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Fe + NE; Tel. 030 4318566 | Adresse: Wildganssteig 50, 13503 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu mit Ankaufbeleg (nicht in Hauptliste)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-steglitz-zehlendorf-b-m-metalle-berlin",
+  "name": "B + M Metalle Berlin GmbH",
+  "trader_type": "sonstige",
+  "street": "Borstellstr. 42",
+  "postcode": "12167",
+  "city": "Steglitz-Zehlendorf",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur lokaleschrottplatz; verlinkte Website metallschrott-express.de gehört NRW-Abholer (kein Berlin-Bezug) → Zuordnung zweifelhaft Adresse: Borstellstr. 42, 12167 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-schrottmeister-altmetallhandel",
+  "name": "Schrottmeister Altmetallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "Blankenburger Str. 18-20",
+  "postcode": "13089",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "gleiche Adresse wie Kiro — mögl. Dublette/Nachfirmierung, ungeklärt Adresse: Blankenburger Str. 18-20, 13089 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-lichtenberg-p-m-metall-schrott",
+  "name": "p & m metall Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "Lückstr. 13-14, ; Tel. 030 24082295",
+  "postcode": "10317",
+  "city": "Lichtenberg",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur schrottplatz-info (alt, keine Website) Adresse: Lückstr. 13-14, 10317 Berlin; Tel. 030 24082295",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-hasimovic-schrotthandel",
+  "name": "Hasimovic Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "Britzer Damm 54, ; Mobil 0176 63060323",
+  "postcode": "12347",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur schrottplatz-info (alt, keine Website) Adresse: Britzer Damm 54, 12347 Berlin; Mobil 0176 63060323",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-treptow-kopenick-ebu-rohstoffhandel-containerdienst",
+  "name": "EBU Rohstoffhandel GmbH Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "Kiefholzstr. 289, ; Tel. 030 51300930",
+  "postcode": "12437",
+  "city": "Treptow-Köpenick",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur schrottplatz-info (alt, keine Website) Adresse: Kiefholzstr. 289, 12437 Berlin; Tel. 030 51300930",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-bastek-peter",
+  "name": "Bastek Peter",
+  "trader_type": "sonstige",
+  "street": "Jonasstr. 17",
+  "postcode": "12053",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur schrottplatz-info (alt) Adresse: Jonasstr. 17, 12053 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-kemke-thomas",
+  "name": "Kemke Thomas",
+  "trader_type": "sonstige",
+  "street": "Tempelhofer Damm 108",
+  "postcode": "12099",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur schrottplatz-info (alt) Adresse: Tempelhofer Damm 108, 12099 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-psiorz-inh-marius-maciossek",
+  "name": "Psiorz (Inh. Marius Maciossek)",
+  "trader_type": "sonstige",
+  "street": "Rotkehlchenweg 2",
+  "postcode": "12351",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur schrottplatz-info (alt) Adresse: Rotkehlchenweg 2, 12351 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-klemm",
+  "name": "Klemm",
+  "trader_type": "sonstige",
+  "street": "Waltersdorfer Chaussee 9-11",
+  "postcode": "12355",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur schrottplatz-info (alt) Adresse: Waltersdorfer Chaussee 9-11, 12355 Berlin",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-leonhardt-andreas",
+  "name": "Leonhardt Andreas",
+  "trader_type": "sonstige",
+  "street": "Pankower Allee 13, ; Tel. 030 4923060",
+  "postcode": "13409",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur lokaleschrottplatz (Kleinsthändler-Typ) Adresse: Pankower Allee 13, 13409 Berlin; Tel. 030 4923060",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-inge-altermann",
+  "name": "Inge Altermann",
+  "trader_type": "sonstige",
+  "street": "Wittenauer Str. 88, ; Tel. 030 4922092",
+  "postcode": "13435",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur lokaleschrottplatz (Kleinsthändler-Typ) Adresse: Wittenauer Str. 88, 13435 Berlin; Tel. 030 4922092",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-schott-rainer",
+  "name": "Schott Rainer",
+  "trader_type": "sonstige",
+  "street": "Gartenfelder Str. 86-88, ; Tel. 030 3819906",
+  "postcode": "13599",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur lokaleschrottplatz (Kleinsthändler-Typ) Adresse: Gartenfelder Str. 86-88, 13599 Berlin; Tel. 030 3819906",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-andreas-kendzierski",
+  "name": "Andreas Kendzierski",
+  "trader_type": "sonstige",
+  "street": "Drontheimer Str. 26, ; Tel. 030 4926784",
+  "postcode": "13359",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "",
+  "status": "unbekannt",
+  "notes": "nur lokaleschrottplatz (Kleinsthändler-Typ) Adresse: Drontheimer Str. 26, 13359 Berlin; Tel. 030 4926784",
+  "provenance": {
+   "seed_file": "be",
+   "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
+   "ankauf_raw": "",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-berlin-gambtec-toni-gambino",
+  "name": "GambTec (Toni Gambino)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Berlin",
+  "state": "BE",
+  "website": "https://gambtec.de/schrottankauf/",
+  "status": "aktiv",
+  "notes": "Industrieschrott, Buntmetall, Stahlschrott, Maschinen/Anlagen, Elektroschrott/Server, Kabelschrott; Abholung | Adresse: Berlin, Tel. 030 68055975",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runde 2)",
+   "ankauf_raw": "ja (Abholung; v.a. Gewerbe, Tagespreise auf Anfrage)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-steglitz-zehlendorf-kujat-artur-schrotthandel",
+  "name": "Kujat Artur Schrotthandel",
+  "trader_type": "schrottplatz",
+  "street": "Reaumurstr. 27F, ; Tel. 030 7124003",
+  "postcode": "12207",
+  "city": "Steglitz-Zehlendorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (nur Verzeichnisbeleg schrottplatz-info) | Adresse: Reaumurstr. 27F, 12207 Berlin; Tel. 030 7124003",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runde 2)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-luck-gerd-schrotthdl",
+  "name": "Lück Gerd SchrottHdl.",
+  "trader_type": "schrottplatz",
+  "street": "Fritz-Erler-Allee 148, ; Tel. 030 6032481",
+  "postcode": "12351",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (nur Verzeichnisbeleg schrottplatz-info) | Adresse: Fritz-Erler-Allee 148, 12351 Berlin; Tel. 030 6032481",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runde 2)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-tempelhof-schoneberg-assi-auto-service",
+  "name": "ASSI Auto Service GmbH",
+  "trader_type": "autoverwertung",
+  "street": "Dederingstr. 21, ; Tel. 030 70176644",
+  "postcode": "12107",
+  "city": "Tempelhof-Schöneberg",
+  "state": "BE",
+  "website": "https://autoverwertung-assi.de",
+  "status": "pruefung",
+  "notes": "Mercedes/Smart-Ersatzteile, Autorecycling (nur Verzeichnisbeleg schrottplatz-info) | Adresse: Dederingstr. 21, 12107 Berlin; Tel. 030 70176644",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runde 2)",
+   "ankauf_raw": "unsicher — Autoverwertung",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-hidanovic",
+  "name": "Hidanovic",
+  "trader_type": "sonstige",
+  "street": "Grenzstr. 13, ; Mobil 0178 6944710",
+  "postcode": "13355",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "schrottplatz-info-Detailseite (Umkreis Wasdrack-Treptow) Adresse: Grenzstr. 13, 13355 Berlin; Mobil 0178 6944710",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-mitte-gundlach-klaus",
+  "name": "Gundlach Klaus",
+  "trader_type": "sonstige",
+  "street": "Ungarnstr. 68, ; Mobil 0171 9935369",
+  "postcode": "13349",
+  "city": "Mitte",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "schrottplatz-info-Detailseite Adresse: Ungarnstr. 68, 13349 Berlin; Mobil 0171 9935369",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-e-r-w-i-n-schrotthandel",
+  "name": "E.R.W.I.N. Schrotthandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "Wittenauer Str. 88-100, ; Tel. 030 40392888",
+  "postcode": "13435",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "schrottplatz-info-Detailseite (Umkreis Auto-Ferch) Adresse: Wittenauer Str. 88-100, 13435 Berlin; Tel. 030 40392888",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-reinickendorf-harnisch-e-m-schrott-metallhandel",
+  "name": "Harnisch E.-M. Schrott & Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "street": "Robinienweg 3-4, ; Tel. 030 4045009",
+  "postcode": "13467",
+  "city": "Reinickendorf",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "schrottplatz-info-Detailseite + Das Telefonbuch (2 Quellen); Ex-Domain schrott-metall-harnisch.de tot Adresse: Robinienweg 3-4, 13467 Berlin; Tel. 030 4045009",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "ja (Verzeichnisbeleg, zweitbelegt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-lichtenberg-schrottankauf-kemal-kashev",
+  "name": "Schrottankauf Kemal Kashev",
+  "trader_type": "schrotthaendler",
+  "street": "Gärtnerstr. 17-18, ; Mobil 0170 8903685",
+  "postcode": "13055",
+  "city": "Lichtenberg",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "schrottplatz-info-Detailseite mit Leistungsbeschreibung (Einzugsgebiet Marzahn/Lichtenberg/Pankow); gleiche Adresse wie Autoverwertung Wagner Adresse: Gärtnerstr. 17-18, 13055 Berlin; Mobil 0170 8903685",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "ja (Verzeichnisbeleg mit Beschreibung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-schrott-allner-berlin",
+  "name": "Schrott-Allner-Berlin",
+  "trader_type": "schrotthaendler",
+  "street": "Burscheider Weg 43, ; Mobil 01522 6533386",
+  "postcode": "13599",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Das Telefonbuch (Branche Schrott) Adresse: Burscheider Weg 43, 13599 Berlin; Mobil 01522 6533386",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "ja (nur Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-spandau-an-und-verkauf-von-kfz-schrotthandel",
+  "name": "An- und Verkauf von KFZ Schrotthandel",
+  "trader_type": "autoverwertung",
+  "street": "Wiesendamm 15, ; Tel. 030 77906961",
+  "postcode": "13597",
+  "city": "Spandau",
+  "state": "BE",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Das Telefonbuch (Branche Autoverwertung) Adresse: Wiesendamm 15, 13597 Berlin; Tel. 030 77906961",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "ja — Autoverwertung (Verzeichnisbeleg)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-pankow-autoverwertung-weissensee",
+  "name": "Autoverwertung Weissensee GmbH",
+  "trader_type": "autoverwertung",
+  "street": "Marienstr. 5, ; Tel. 030 4721154",
+  "postcode": "13127",
+  "city": "Pankow",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Das Telefonbuch (Branche Schrott); Domain autoverwertung-weissensee.de tot Adresse: Marienstr. 5, 13127 Berlin; Tel. 030 4721154",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "unsicher — Autoverwertung (Verzeichnisbeleg, Website tot)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "be-neukolln-looker-trade",
+  "name": "LOOKER TRADE UG",
+  "trader_type": "sonstige",
+  "street": "Hermannstr. 16, ; Tel. 030 68053303",
+  "postcode": "12049",
+  "city": "Neukölln",
+  "state": "BE",
+  "website": "",
+  "status": "pruefung",
+  "notes": "nur Das Telefonbuch (Branche Schrott); Domain looker.de tot Adresse: Hermannstr. 16, 12049 Berlin; Tel. 030 68053303",
+  "provenance": {
+   "seed_file": "be",
+   "section": "A. Neu (nicht in Hauptliste / Runden 2–3)",
+   "ankauf_raw": "unsicher",
+   "origin": "table"
+  }
+ }
+]

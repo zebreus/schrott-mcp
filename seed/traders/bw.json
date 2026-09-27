@@ -1,0 +1,2828 @@
+[
+ {
+  "slug": "bw-stuttgart-falk-adler",
+  "name": "Falk Adler GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart",
+  "state": "BW",
+  "website": "https://www.falkadler.de/",
+  "status": "aktiv",
+  "notes": "Schrott/NE-Metalle, Container, Hafenstandort | Größe: mittel–groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-alba-metall-sud",
+  "name": "ALBA Metall Süd GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart",
+  "state": "BW",
+  "website": "https://metall.alba.info/unternehmen/standorte/detail/niederlassung-stuttgart/",
+  "status": "aktiv",
+  "notes": "FE-/NE-Schrotte, Hafen, Großhandel | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-schrott-und-metallhandel-eberhard-mayr",
+  "name": "Schrott- und Metallhandel Eberhard Mayr GmbH & Co. KG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart",
+  "state": "BW",
+  "website": "https://eberhard-mayr.de/",
+  "status": "aktiv",
+  "notes": "Stahl/NE/legierte Schrotte, Logistik | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-mr-metall-trading-company",
+  "name": "MR Metall Trading Company",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart",
+  "state": "BW",
+  "website": "https://mr-metalltrading.de/",
+  "status": "aktiv",
+  "notes": "Schrott, Altkabel, NE-/Edelmetalle, Maschinen | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-moglingen-jorg-aulfinger",
+  "name": "Jörg Aulfinger GmbH & Co. KG",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart / Möglingen",
+  "state": "BW",
+  "website": "https://www.aulfinger.de/de/leistungen/schrott",
+  "status": "aktiv",
+  "notes": "Schrott, E-Schrott, Container/Wertstoffhöfe | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ludwigsburg-stachelski-kaatsch-gruppe",
+  "name": "Stachelski GmbH (Kaatsch-Gruppe)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ludwigsburg",
+  "state": "BW",
+  "website": "https://stachelski.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Entsorgungskonzepte | Größe: mittel–groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-plochingen-schrott-und-metallhandel-m-kaatsch",
+  "name": "Schrott- und Metallhandel M. Kaatsch GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Plochingen",
+  "state": "BW",
+  "website": "https://kaatsch.de/",
+  "status": "aktiv",
+  "notes": "Schrott-Großhandel | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-magstadt-mvr-recycling",
+  "name": "MvR Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Magstadt",
+  "state": "BW",
+  "website": "https://mvr-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall/Kabel, Container | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-magstadt-sdl-schrotthandel-alwin-lauster",
+  "name": "SDL Schrotthandel (Alwin Lauster)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Magstadt",
+  "state": "BW",
+  "website": "https://sdl-schrott.de/schrotthaendler-stuttgart/",
+  "status": "aktiv",
+  "notes": "Ankauf, Abholung, Entrümpelung | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-stuttgart-schrott",
+  "name": "Stuttgart Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart",
+  "state": "BW",
+  "website": "https://stuttgart-schrott.de/",
+  "status": "aktiv",
+  "notes": "Abholung + Ankauf Cu/Alu/Kabel | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-schrott-stuttgart-schrott-stuttgart-de",
+  "name": "Schrott Stuttgart (schrott-stuttgart.de)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart",
+  "state": "BW",
+  "website": "https://www.schrott-stuttgart.de/",
+  "status": "aktiv",
+  "notes": "Abholung/Ankauf, Container | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-welzheim-jurgen-gerosa-metall-u-schrotthandel",
+  "name": "Jürgen Gerosa Metall- u. Schrotthandel GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Welzheim",
+  "state": "BW",
+  "website": "https://www.gerosa-schrott.de/",
+  "status": "aktiv",
+  "notes": "Schrott, Container, Baustellenabfälle | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-backnang-albert-gogel-schrott-gogel",
+  "name": "Albert Gogel GmbH (Schrott-Gogel)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Backnang",
+  "state": "BW",
+  "website": "https://schrott-gogel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Buntmetalle, Entsorgungsfachbetrieb | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-heilbronn-stuttgart-tsr-deutschland",
+  "name": "TSR Deutschland GmbH & Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim / Heilbronn / Stuttgart",
+  "state": "BW",
+  "website": "https://www.tsr-recycling.de/standorte/",
+  "status": "aktiv",
+  "notes": "FE/NE, Abholung, RFA-Analyse | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-sindelfingen-peters-entsorgung-recycling",
+  "name": "Peters Entsorgung & Recycling",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sindelfingen",
+  "state": "BW",
+  "website": "https://www.peters-recycling.de/",
+  "status": "pruefung",
+  "notes": "Wertstoffe/Entsorgung Kreis Böblingen | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Region Stuttgart / Mittlerer Neckar",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-hafen-metall-schrott",
+  "name": "HAFEN Metall & Schrott GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "https://hafen-schrott.de/",
+  "status": "aktiv",
+  "notes": "alle Altmetalle, Container, Abholung 100 km | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-on-schrott-metallhandel",
+  "name": "ON Schrott & Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "https://on-schrott.de/",
+  "status": "aktiv",
+  "notes": "Alt-/Eisen-/NE-/Buntmetalle | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-schrott-hofmann",
+  "name": "Schrott Hofmann GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "https://schrott-hofmann.de/",
+  "status": "aktiv",
+  "notes": "Altmetall/Schrott, 3 Generationen | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-ghn-schrott-metallrecycling",
+  "name": "GHN Schrott- & Metallrecycling GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "https://ghn-schrott.de/",
+  "status": "aktiv",
+  "notes": "Metallrecycling, Container | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-ah-schrott-und-metallhandel",
+  "name": "AH Schrott- und Metallhandel OHG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Cu/Edelstahl u.a. | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-schrotthandel-wittmann",
+  "name": "Schrotthandel Wittmann",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "https://schrotthandel-wittmann.de/p/metallschrottankauf/",
+  "status": "aktiv",
+  "notes": "Metallschrott, Demontage, Entrümpelung | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-heidelberg-rsw-rohstoffhandel",
+  "name": "RSW Rohstoffhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heidelberg",
+  "state": "BW",
+  "website": "https://www.rsw-rohstoffhandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Rückbau | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-sinsheim-recycling-wagner-toni-wagner",
+  "name": "Recycling Wagner (Toni Wagner)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Sinsheim",
+  "state": "BW",
+  "website": "https://recycling-wagner.de/schrotthandel-sinsheim",
+  "status": "aktiv",
+  "notes": "Eisen/NE, Familienbetrieb | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-sinsheim-sinsheim-metall-und-schrotthandel",
+  "name": "Sinsheim Metall- und Schrotthandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Sinsheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: k.A.",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-bruchsal-r-d-recycling-rd-recycling",
+  "name": "R&D Recycling (RD RECYCLING)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bruchsal",
+  "state": "BW",
+  "website": "https://schrotthaendler-bruchsal.de/",
+  "status": "aktiv",
+  "notes": "Metallankauf, Abholung (Bruchsal/Heidelberg/Heilbronn) | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-bruchsal-bruchsal-metall-schrotthandel",
+  "name": "Bruchsal Metall- & Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bruchsal",
+  "state": "BW",
+  "website": "https://www.bruchsal-schrott.de/",
+  "status": "aktiv",
+  "notes": "Metall-/E-Schrott, Startup | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-cleebronn-mk-metalle",
+  "name": "MK Metalle",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Cleebronn",
+  "state": "BW",
+  "website": "https://mk-metalle.de/schrotthaendler-heilbronn-schrottankauf-und-schrottabholung/",
+  "status": "aktiv",
+  "notes": "Abholung/Ankauf Region HN/LB/PF/KA | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Rhein-Neckar / Nordbaden",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-heilbronn-carl-knoblauch",
+  "name": "Carl Knoblauch GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heilbronn",
+  "state": "BW",
+  "website": "https://www.knoblauch-heilbronn.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Container, seit 1922 | Größe: mittel–groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Heilbronn / Hohenlohe",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-eppingen-mr-schrott",
+  "name": "Mr. Schrott",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Eppingen",
+  "state": "BW",
+  "website": "https://www.mr-schrott.de/",
+  "status": "aktiv",
+  "notes": "Schrottplatz, Abholung, Container (bundesweit f. Gewerbe) | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Heilbronn / Hohenlohe",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-schwabisch-hall-schrott-zilli",
+  "name": "Schrott-Zilli GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schwäbisch Hall",
+  "state": "BW",
+  "website": "https://www.schrott-zilli.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Kabel/Messing, Container | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Heilbronn / Hohenlohe",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-a-kuhner-schrott-metalle",
+  "name": "A. Kuhner GmbH Schrott-Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "https://www.schrott-kuhner.de/",
+  "status": "aktiv",
+  "notes": "Eisen/Metall, Rheinhafen | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-ganz-rohstoffe",
+  "name": "Ganz Rohstoffe GmbH",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "https://www.ganz-containerdienst.de/recycling-containerdienst/",
+  "status": "aktiv",
+  "notes": "Schrott, Containerdienst | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-ms-brenner",
+  "name": "MS-Brenner GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "https://www.ms-brenner.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Container, >40 J. | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-metall-und-schrotthandel-wei",
+  "name": "Metall- und Schrotthandel Weiß",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "https://www.schrottweiss.de/",
+  "status": "aktiv",
+  "notes": "Abholung, Demontage, Container | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-reichert-schrott-und-metallhandel",
+  "name": "Reichert Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "https://www.reichert-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Abholung, Demontage | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-rudi-kuhn-schrott-und-metallhandel",
+  "name": "Rudi Kühn Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stutensee-rohstoff-recycling-kuhn",
+  "name": "Rohstoff Recycling Kühn",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stutensee",
+  "state": "BW",
+  "website": "https://rohstoff-recycling-kuehn.de/",
+  "status": "aktiv",
+  "notes": "Schrott, Container, Baustoffe | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-k-a-schrotthandel-k-buchler",
+  "name": "Schrotthandel K. Büchler",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "k.A.",
+  "state": "BW",
+  "website": "https://schrotthandel-k-buechler.jimdosite.com/",
+  "status": "aktiv",
+  "notes": "Altmetall-Abholung | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-cronimet-holding",
+  "name": "CRONIMET Holding GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "https://www.cronimet.de/",
+  "status": "aktiv",
+  "notes": "legierte Schrotte/Edelstahl, B2B | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-auto-bohler",
+  "name": "Auto Böhler",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "https://auto-boehler.de/autoverwertung-und-recycling/",
+  "status": "aktiv",
+  "notes": "Autoverwertung, Schrottpresse | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja (Autoverwertung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-offenburg-an-schrott-und-metallhandel-an-transport",
+  "name": "AN Schrott und Metallhandel (AN TRANSPORTE)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenburg",
+  "state": "BW",
+  "website": "https://www.an-schrott.de/",
+  "status": "aktiv",
+  "notes": "Schrott, Container | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-friesenheim-fechner-ortenauer-schrott-und-autoverwer",
+  "name": "Fechner GmbH Ortenauer Schrott- und Autoverwertung",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Friesenheim",
+  "state": "BW",
+  "website": "https://fechner-gmbh.de/autoverwertung/",
+  "status": "aktiv",
+  "notes": "Schrott/NE, Autoverwertung, Industrieabbruch, >40 J. | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja (Autoverwertung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-neuried-fix-container-service",
+  "name": "FIX Container Service GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neuried",
+  "state": "BW",
+  "website": "https://www.container-fix.de/schrott-ne-metalle/",
+  "status": "aktiv",
+  "notes": "Schrott/NE-Metalle, Container | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-k-a-mohr-schrotthandel-und-demontage",
+  "name": "Mohr Schrotthandel und Demontage",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "k.A.",
+  "state": "BW",
+  "website": "https://www.schrott-mohr.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf, Demontage, Container | Größe: k.A.",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Karlsruhe / Mittlerer Oberrhein / Ortenau",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-rheinstetten-esg-edelmetall-service-scheideanstalt",
+  "name": "ESG Edelmetall-Service GmbH & Co. KG (Scheideanstalt)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rheinstetten",
+  "state": "BW",
+  "website": "https://www.scheideanstalt.de/",
+  "status": "aktiv",
+  "notes": "Au/Ag/Pt/Pd/Rh, E-Schrott, Katalysatoren | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Pforzheim / Enzkreis (Edelmetall-Schwerpunkt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-pforzheim-heimerle-meule",
+  "name": "Heimerle + Meule GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Pforzheim",
+  "state": "BW",
+  "website": "https://www.heimerle-meule.com/home/",
+  "status": "aktiv",
+  "notes": "Edelmetall-Recycling/Handel, älteste Scheideanstalt DE | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Pforzheim / Enzkreis (Edelmetall-Schwerpunkt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-wimsheim-c-hafner",
+  "name": "C. Hafner GmbH + Co. KG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Wimsheim",
+  "state": "BW",
+  "website": "https://www.c-hafner.de/",
+  "status": "aktiv",
+  "notes": "Edelmetall-Technologie/Recycling | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Pforzheim / Enzkreis (Edelmetall-Schwerpunkt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-pforzheim-agosi-ag",
+  "name": "Agosi AG",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Pforzheim",
+  "state": "BW",
+  "website": "https://agosi.de/",
+  "status": "aktiv",
+  "notes": "Edelmetall + NE-Metallhandel (Am Hauptgüterbahnhof) | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Pforzheim / Enzkreis (Edelmetall-Schwerpunkt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-pforzheim-wieland-edelmetalle",
+  "name": "Wieland Edelmetalle GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Pforzheim",
+  "state": "BW",
+  "website": "https://www.wieland-edelmetalle.de/",
+  "status": "aktiv",
+  "notes": "Edelmetall-Recycling/Handel | Größe: mittel–groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Pforzheim / Enzkreis (Edelmetall-Schwerpunkt)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-bareg-recycling-und-entsorgung",
+  "name": "BAREG Recycling und Entsorgung GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "https://www.bareg.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Container | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-arv-winkler",
+  "name": "ARV Winkler GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "https://www.arv-freiburg.de/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel, Autoverwertung, Container | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja (Autoverwertung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-franz-pichl-eisen-u-metallhandel",
+  "name": "Franz Pichl GmbH Eisen- u. Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "https://www.pichl-gmbh.de/",
+  "status": "aktiv",
+  "notes": "Eisen/Metall | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-eichstetten-trennwerk-metallverwertung",
+  "name": "Trennwerk Metallverwertung",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Eichstetten",
+  "state": "BW",
+  "website": "https://schrotthandel-freiburg.de/",
+  "status": "aktiv",
+  "notes": "nur Abholung vor Ort, keine Annahmestelle | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-denzlingen-dero-schrott-metall-dennis-reinhardt",
+  "name": "DeRo Schrott & Metall (Dennis Reinhardt)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Denzlingen",
+  "state": "BW",
+  "website": "https://www.dero-reinhardt.de/",
+  "status": "aktiv",
+  "notes": "Abholung, Kabel, Maschinen, Kranarbeiten | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-emmendingen-walter-roeder",
+  "name": "Walter Roeder GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Emmendingen",
+  "state": "BW",
+  "website": "https://roeder-verwertung.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf, Container, Entsorgung | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-b-s-containerdienst-freiburg",
+  "name": "B+S Containerdienst Freiburg",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "https://www.bs-containerdienst.de/bs-leistungen/bs-metallverwertung",
+  "status": "aktiv",
+  "notes": "Schrott-/Metall-Ankauf | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-msw-metallhandel-sudwest",
+  "name": "MSW Metallhandel Südwest GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallhandel | Größe: k.A.",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-peter-maier-schrotthandel",
+  "name": "Peter Maier Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-lorrach-mv-lorrach",
+  "name": "MV Lörrach",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lörrach",
+  "state": "BW",
+  "website": "https://www.mv-loerrach.de/",
+  "status": "aktiv",
+  "notes": "Neu-/Altmetalle, Lagerung/Aufbereitung | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-wehr-autoverwertung-hochrhein",
+  "name": "Autoverwertung Hochrhein",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Wehr",
+  "state": "BW",
+  "website": "https://avhochrhein.de/",
+  "status": "aktiv",
+  "notes": "Unfall-/neuere Fahrzeuge, Gebrauchtteile | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Freiburg / Südbaden / Hochrhein",
+   "ankauf_raw": "ja (nur Fahrzeuge)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-friedrichshafen-regu-recycling-metallhandels",
+  "name": "REGU Recycling Metallhandels-GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Friedrichshafen",
+  "state": "BW",
+  "website": "https://www.regu-recycling.de/",
+  "status": "aktiv",
+  "notes": "Altmetalle, Recyclinghof | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Bodensee / Oberschwaben",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-konstanz-hammerle-recycling",
+  "name": "Hämmerle Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Konstanz",
+  "state": "BW",
+  "website": "https://www.haemmerle-recycling.com/",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Aufbereitung | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Bodensee / Oberschwaben",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-singen-frauendienst-recycling",
+  "name": "Frauendienst Recycling",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Singen",
+  "state": "BW",
+  "website": "https://www.frauendienst-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Entrümpelung | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Bodensee / Oberschwaben",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-weingarten-baumgartner-recycling",
+  "name": "Baumgärtner Recycling GmbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Weingarten",
+  "state": "BW",
+  "website": "https://www.baumgaertner.de/schrottplatz-friedrichshafen/",
+  "status": "aktiv",
+  "notes": "Schrottplatz, Entsorgungsfachbetrieb | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Bodensee / Oberschwaben",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mengen-baumgartner-recycling",
+  "name": "Baumgärtner Recycling GmbH",
+  "trader_type": "schrottplatz",
+  "street": "",
+  "postcode": "",
+  "city": "Mengen)",
+  "state": "BW",
+  "website": "https://www.baumgaertner.de/schrottplatz-friedrichshafen/",
+  "status": "aktiv",
+  "notes": "Schrottplatz, Entsorgungsfachbetrieb | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Bodensee / Oberschwaben",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ravensburg-bausch-entsorgung",
+  "name": "Bausch Entsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ravensburg",
+  "state": "BW",
+  "website": "https://www.bausch-entsorgung.de/schrott-metall/",
+  "status": "pruefung",
+  "notes": "Schrott/Metall, produktionsintegriert | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Bodensee / Oberschwaben",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-essingen-scholz-recycling",
+  "name": "Scholz Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Essingen",
+  "state": "BW",
+  "website": "https://www.scholz-recycling.com/",
+  "status": "aktiv",
+  "notes": "Stahl/NE, Shredder, Industriedienstleistungen | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Bodensee / Oberschwaben",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-neu-ulm-karl-karletshofer",
+  "name": "Karl Karletshofer GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Neu-Ulm",
+  "state": "BW",
+  "website": "https://karletshofer.de/",
+  "status": "aktiv",
+  "notes": "NE, Scheidegut, Leiterplatten/E-Komponenten | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ulm-max-buck",
+  "name": "Max Buck GmbH & Co. KG",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Ulm",
+  "state": "BW",
+  "website": "https://www.max-buck.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Altautos, Container, seit 1945 | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja (Autoverwertung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-neu-ulm-weienhorn-gotz-schrott-metalle",
+  "name": "Götz (Schrott & Metalle)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neu-Ulm / Weißenhorn",
+  "state": "BW",
+  "website": "https://www.goetz-neu-ulm.de/schrott-und-metalle/",
+  "status": "aktiv",
+  "notes": "Schrott, Belieferung Stahlwerke/Gießereien | Größe: mittel–groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ulm-adriano-kaspar-schrott-metallhandel-cont",
+  "name": "Adriano Kaspar Schrott-Metallhandel & Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Ulm",
+  "state": "BW",
+  "website": "https://www.schrotthandel-kaspar.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, >40 J. | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-neu-ulm-russ-entsorgung",
+  "name": "RUSS Entsorgung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neu-Ulm",
+  "state": "BW",
+  "website": "https://www.russ-entsorgung.de/abfaelle-zur-verwertung",
+  "status": "pruefung",
+  "notes": "Schrott/Metalle (Entsorger) | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-neu-ulm-metallica",
+  "name": "Metallica GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Neu-Ulm",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: k.A.",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-fichtenau-schrotthandel-schneck-alteisen-schneck",
+  "name": "Schrotthandel Schneck (Alteisen-Schneck)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fichtenau",
+  "state": "BW",
+  "website": "https://schrott-schneck.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall, mobil, Demontage | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-bopfingen-ostalb-recycling",
+  "name": "Ostalb Recycling GbR",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Bopfingen",
+  "state": "BW",
+  "website": "https://www.ostalb-recycling.de/",
+  "status": "aktiv",
+  "notes": "Metallankauf, Container | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-goppingen-david-bronnenmayer-schrott-und-metallgro",
+  "name": "David Bronnenmayer Schrott- und Metallgroßhandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Göppingen",
+  "state": "BW",
+  "website": "https://www.bronnenmayer-schrott.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-eislingen-igler-schrott-metallhandel",
+  "name": "Igler Schrott & Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Eislingen",
+  "state": "BW",
+  "website": "https://www.igler-schrott-metall.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, >50 J. | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-goppingen-mrg-metall-recycling-goppingen",
+  "name": "MRG Metall-Recycling Göppingen GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Göppingen",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle/Kabel | Größe: k.A.",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Ulm / Ostalb / Göppingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-lichtenstein-r-bernhardt-schrottrecycling-entrumpelun",
+  "name": "R. Bernhardt Schrottrecycling & Entrümpelung",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Lichtenstein",
+  "state": "BW",
+  "website": "https://www.schrott-bernhardt.de/",
+  "status": "aktiv",
+  "notes": "NE-Schrott, Abholung | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Reutlingen / Tübingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-reutlingen-rvr-rohstoffverwertung-reutlingen",
+  "name": "RVR Rohstoffverwertung Reutlingen GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Reutlingen",
+  "state": "BW",
+  "website": "https://rv-reutlingen.de/",
+  "status": "aktiv",
+  "notes": "Rohstoffe/Schrott, Container | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Reutlingen / Tübingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-reutlingen-bechthold-rohstoffe",
+  "name": "Bechthold Rohstoffe",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Reutlingen",
+  "state": "BW",
+  "website": "https://rohstoffe-bechthold.de/",
+  "status": "aktiv",
+  "notes": "Barankauf Alt-/Buntmetall | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Reutlingen / Tübingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ofterdingen-mbars-rohstoffhandel",
+  "name": "MBärs Rohstoffhandel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ofterdingen",
+  "state": "BW",
+  "website": "https://mbaers-rohstoffhandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott, Katalysatoren, Container | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Reutlingen / Tübingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-reutlingen-renz-wertbox",
+  "name": "Renz-Wertbox",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Reutlingen",
+  "state": "BW",
+  "website": "https://renz-wertbox.de/",
+  "status": "pruefung",
+  "notes": "Wertstoff-Erfassung (Boxen) | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Reutlingen / Tübingen",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-merklingen-r-metall",
+  "name": "R. Metall",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Merklingen",
+  "state": "BW",
+  "website": "https://rmetall.de/",
+  "status": "aktiv",
+  "notes": "Schrottankauf (mobil; u.a. Reutlingen, Schwäbisch Gmünd) | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Reutlingen / Tübingen",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-villingen-schwenningen-bernd-witz",
+  "name": "Bernd Witz GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Villingen-Schwenningen",
+  "state": "BW",
+  "website": "https://witz-recycling.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Container, 18 MA | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Villingen-Schwenningen / Schwarzwald",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-villingen-schwenningen-renz-rohstoffe-renz-container",
+  "name": "Renz Rohstoffe / Renz Container",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Villingen-Schwenningen",
+  "state": "BW",
+  "website": "http://renz-rohstoffe.de/",
+  "status": "aktiv",
+  "notes": "Metallschrott, Container | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Villingen-Schwenningen / Schwarzwald",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-balingen-schlaich-kurt-schrotthdl",
+  "name": "Schlaich Kurt SchrottHdl.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Balingen",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-bosingen-bihl-schrott-und-metallhandel",
+  "name": "Bihl GmbH Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Bösingen",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-deilingen-schuler-simon-autoverwertung-schrott-met",
+  "name": "Schuler Simon Autoverwertung Schrott- Metall- und Containerdienst",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Deißlingen",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung, Schrott/Metall, Container | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (Autoverwertung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-geisingen-aulfingen-scheu-peter-schrott",
+  "name": "Scheu Peter (Schrott)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Geisingen-Aulfingen",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-albstadt-spindler-karl-schrotthdl",
+  "name": "Spindler Karl SchrottHdl.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Albstadt",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-albstadt-makowski-schrott",
+  "name": "Makowski GmbH (Schrott)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Albstadt",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-sahin-metall-schrotthandel",
+  "name": "Sahin Metall- & Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metall/Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-leonardo-reinhardt-schrotthandel",
+  "name": "Leonardo Reinhardt Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freiburg-reinhardt-ludwig-schrott-und-metallrecyc",
+  "name": "Reinhardt Ludwig Schrott- und Metallrecycling",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Freiburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallrecycling | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-offenburg-leber-a-rohstoffe-schrotthandel",
+  "name": "Leber A. Rohstoffe GmbH Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenburg",
+  "state": "BW",
+  "website": "http://www.leberrohstoffe.com",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Container, Privat-/Kleinlieferanten, Börsenkurse | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-zweigstelle-kehl-leber-a-rohstoffe-schrotthandel",
+  "name": "Leber A. Rohstoffe GmbH Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Zweigstelle Kehl",
+  "state": "BW",
+  "website": "http://www.leberrohstoffe.com",
+  "status": "aktiv",
+  "notes": "Schrott/Metall, Container, Privat-/Kleinlieferanten, Börsenkurse | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-offenburg-hancer-nazmi-metallhandel",
+  "name": "Hancer Nazmi Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallhandel/Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-offenburg-intlekofer-schrott",
+  "name": "Intlekofer (Schrott)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-offenburg-shala-schrotthandel",
+  "name": "Shala - Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, mobil | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-offenburg-m-shala-schrott-und-metallhandel",
+  "name": "M Shala Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Offenburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-willstatt-lehmann-willi-schrott",
+  "name": "Lehmann Willi (Schrott)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Willstätt",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-lauchringen-smv-wiederkehr-recycling",
+  "name": "SMV Wiederkehr Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Lauchringen",
+  "state": "BW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Recycling/Rohstoffverwertung | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-aulendorf-burger-recycling-burger-schrott-und-meta",
+  "name": "Burger Recycling GmbH (Burger Schrott- und Metallhandel)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aulendorf",
+  "state": "BW",
+  "website": "http://www.burger-recycling.de",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Container, BDSV-Mitglied, Barankauf lt. Kundenbewertung | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-rot-an-der-rot-schrott-metallhandel-walter-feile",
+  "name": "Schrott + Metallhandel Walter Feile",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rot an der Rot",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-fichtenau-pfisterer-hermann-doris-schrotthandel",
+  "name": "Pfisterer Hermann, Doris Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fichtenau",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-fichtenau-knodel-dieter-schrotthandel",
+  "name": "Knodel Dieter Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fichtenau",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-crailsheim-containerdienst-wieser-inh-else-wieser",
+  "name": "Containerdienst Wieser Inh. Else Wieser",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Crailsheim",
+  "state": "BW",
+  "website": "https://wieser-containerdienst.de/",
+  "status": "pruefung",
+  "notes": "Recyclinghof, Altmetall-Entsorgung, Container | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-goppingen-schwabische-metallverwertung-smv",
+  "name": "Schwäbische Metallverwertung GmbH (SMV)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Göppingen",
+  "state": "BW",
+  "website": "http://www.smv-goeppingen.de",
+  "status": "aktiv",
+  "notes": "Handel/Lagerung/Aufbereitung Neu-/Altmetalle | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-dettingen-unter-teck-schrott-bosch-entsorgungsunternehmen",
+  "name": "Schrott-Bosch GmbH Entsorgungsunternehmen",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Dettingen unter Teck",
+  "state": "BW",
+  "website": "https://schrott-bosch.de",
+  "status": "aktiv",
+  "notes": "Metallrecycling, Vergütung tagesaktuell bar/Scheck, Kabel/Buntmetalle | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-deizisau-schrott-bosch-entsorgungsunternehmen",
+  "name": "Schrott-Bosch GmbH Entsorgungsunternehmen",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Deizisau)",
+  "state": "BW",
+  "website": "https://schrott-bosch.de",
+  "status": "aktiv",
+  "notes": "Metallrecycling, Vergütung tagesaktuell bar/Scheck, Kabel/Buntmetalle | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ohmden-wiedmann-gucklhorn-schrott-und-metallhan",
+  "name": "Wiedmann & Gücklhorn Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ohmden",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-esslingen-abc-schrott",
+  "name": "ABC Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Esslingen",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, mobil | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-schwabisch-gmund-karus-arnold-schrott-und-metalle",
+  "name": "Karus Arnold Schrott und Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Schwäbisch Gmünd",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-leinzell-stiefel-helmut-sonja-schrott-und-metallh",
+  "name": "Stiefel Helmut, Sonja Schrott- und Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leinzell",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-leinzell-stiefel-karl-schrotthdl",
+  "name": "Stiefel Karl SchrottHdl.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Leinzell",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (gleiche Adresse wie Stiefel H./S.) | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-billigheim-wagner-lorenz-schrott",
+  "name": "Wagner Lorenz (Schrott)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Billigheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-tubingen-mock-autoverwertung",
+  "name": "Möck Autoverwertung GmbH",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Tübingen",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Autoverwertung | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja (Autoverwertung)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-weil-im-schonbuch-mohrle-nicolaj-schrott",
+  "name": "Möhrle Nicolaj (Schrott)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Weil im Schönbuch",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-michelbach-an-der-bilz-schneck-manfred-schausteller-u-schrottha",
+  "name": "Schneck Manfred Schausteller u. Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Michelbach an der Bilz",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott (Nebengewerbe Schausteller; Abgrenzung zu Schneck Fichtenau) | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 2",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-pforzheim-doduco-contacts-and-refining-saxonia-gru",
+  "name": "DODUCO Contacts and Refining GmbH (Saxonia-Gruppe)",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Pforzheim",
+  "state": "BW",
+  "website": "https://doduco-contacts.de/scheideanstalt",
+  "status": "aktiv",
+  "notes": "Edelmetall-Recycling/Scheideanstalt, Kontaktwerkstoffe (Elektro/Auto-Industrie) | Größe: mittel–groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "ja (B2B)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-fellbach-easygold24-hartmann-benz",
+  "name": "easygold24 (Hartmann-Benz GmbH)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Fellbach",
+  "state": "BW",
+  "website": "https://easygold24.com/scheidgut/leiterplatten/",
+  "status": "aktiv",
+  "notes": "Leiterplatten/Platinen (Schmelzanalyse+Protokoll), Auto-/Industrie-Kats, DPF, Elektronikschrott, Zahngold/Dentalscheidgut, Altgold; Abholung bis Container | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "ja (Gewerbe; Edelmetalle auch privat)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ulm-wieland-werke-ag",
+  "name": "Wieland-Werke AG",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Ulm",
+  "state": "BW",
+  "website": "https://www.wieland.com/",
+  "status": "pruefung",
+  "notes": "Kupfer-/Messing-Hersteller, Recycling-Einkauf als Rohstoff | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3b (Spezialisten)",
+   "ankauf_raw": "unklar (nur B2B-Lieferanten, kein öffentlicher Ankauf belegt)",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-schrott-wetzel",
+  "name": "Schrott-Wetzel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "https://www.schrott-wetzel.de",
+  "status": "aktiv",
+  "notes": "Stahl/NE, Kleinlieferanten-Annahme, Logistik | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ka-standort-sudbeckenstr-21-schrott-wetzel",
+  "name": "Schrott-Wetzel GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "KA-Standort Südbeckenstr. 21",
+  "state": "BW",
+  "website": "https://www.schrott-wetzel.de",
+  "status": "aktiv",
+  "notes": "Stahl/NE, Kleinlieferanten-Annahme, Logistik | Größe: groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-neckarau-theodor-claus-alteisen-u-metalle",
+  "name": "Theodor Claus GmbH Alteisen u. Metalle",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim-Neckarau",
+  "state": "BW",
+  "website": "https://www.claus-schrott.de",
+  "status": "aktiv",
+  "notes": "Schrott/Metall/Nutzeisen, Container, Waggonregulierung | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-muhlauhafen-ohnemus-nachfolger",
+  "name": "Ohnemus Nachfolger GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim-Mühlauhafen",
+  "state": "BW",
+  "website": "http://www.ohnemus-recycling.de",
+  "status": "aktiv",
+  "notes": "Schrott/Abbruch, Altmetalle, Container | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-rheinau-hettinger-schrott-mayr-verbund",
+  "name": "Hettinger Schrott GmbH (Mayr-Verbund)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim-Rheinau",
+  "state": "BW",
+  "website": "https://hettinger-schrott.de",
+  "status": "aktiv",
+  "notes": "FE/NE, Entsorgung, Logistik | Größe: mittel–groß",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-heilbronn-hmh-metallhandel-mayr-verbund",
+  "name": "HMH Metallhandel GmbH & Co. KG (Mayr-Verbund)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heilbronn",
+  "state": "BW",
+  "website": "https://hmh-metallhandel.de",
+  "status": "aktiv",
+  "notes": "globaler Metallhandel, B2B-Schnittstelle Mayr-Verbund | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-heilbronn-frank-schrott-u-metallhandelsges-mbh",
+  "name": "Frank Schrott- u. Metallhandelsges. mbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heilbronn",
+  "state": "BW",
+  "website": "http://www.schrott-frank.de",
+  "status": "aktiv",
+  "notes": "Schrotthandel Hafennähe | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ilsfeld-auenstein-heimerdinger-schwarz",
+  "name": "Heimerdinger-Schwarz GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ilsfeld-Auenstein",
+  "state": "BW",
+  "website": "http://www.heimerdinger-schwarz.de",
+  "status": "pruefung",
+  "notes": "Container, Schrott-/Metallhandel | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-ost-mattusch-schrotthandel",
+  "name": "Mattusch GmbH Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart-Ost",
+  "state": "BW",
+  "website": "http://www.mattusch-gmbh.de",
+  "status": "aktiv",
+  "notes": "Schrotthandel | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-wagner-johann-schrotthandel",
+  "name": "Wagner Johann Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-oberreut-wagner-michael",
+  "name": "Wagner Michael",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe-Oberreut",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-rheinstetten-brandt-horst-schrott",
+  "name": "Brandt Horst Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rheinstetten",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-karlsruhe-muhlburg-loacker-rheinhafen-recycling",
+  "name": "Loacker Rheinhafen Recycling GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Karlsruhe-Mühlburg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, Hafenumschlag | urspr. Website-Angabe: Website lt. GS vorhanden (AT-Recycler, Rheinhafen) | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-rastatt-hofmann",
+  "name": "Hofmann GmbH",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Rastatt",
+  "state": "BW",
+  "website": "http://www.hofmann-entsorgung.de",
+  "status": "aktiv",
+  "notes": "Schrott/Metalle, Container, E-Schrott/Kabel | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-gaggenau-bad-rotenfels-lang-gerhard",
+  "name": "Lang Gerhard GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Gaggenau-Bad Rotenfels",
+  "state": "BW",
+  "website": "http://www.lang-recycling.de",
+  "status": "aktiv",
+  "notes": "Metall-/Schrottrecycling | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-wurmberg-bz-metall",
+  "name": "BZ Metall GmbH",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wurmberg",
+  "state": "BW",
+  "website": "https://www.bz-metall.de",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallhandel, Demontage | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-aldingen-dettelbach",
+  "name": "Dettelbach GmbH & Co. KG",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Aldingen",
+  "state": "BW",
+  "website": "https://www.dettelbach.com",
+  "status": "aktiv",
+  "notes": "Schrott-/Metallgroßhandel (+Werkzeuge) | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-renchen-schwarz-recycling",
+  "name": "Schwarz Recycling GmbH",
+  "trader_type": "sonstige",
+  "street": "",
+  "postcode": "",
+  "city": "Renchen",
+  "state": "BW",
+  "website": "https://www.schwarzrecycling.de",
+  "status": "pruefung",
+  "notes": "Abbruch, Recycling, Container – Vergütung nicht ersichtlich | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-ulm-eselsberg-reinhardt-schrotthandel",
+  "name": "Reinhardt Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Ulm-Eselsberg",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott/Metall | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-abel-a",
+  "name": "Abel A.",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-r-mayer",
+  "name": "R. Mayer",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-seckenheim-specht-recycling-specht-frederik",
+  "name": "Specht Recycling / Specht Frederik",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim-Seckenheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrottrecycling, Demontage, Entrümpelung | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-laris-metallhandel",
+  "name": "Laris Metallhandel",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallhandel/Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-rheinau-ay-recycling",
+  "name": "AY-Recycling GbR",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim-Rheinau",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 3",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-mullex-industrie-mull-transport-mayr-ver",
+  "name": "Müllex Industrie-Müll-Transport GmbH & Co. KG (Mayr-Verbund)",
+  "trader_type": "wertstoffhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart",
+  "state": "BW",
+  "website": "https://www.muellex-entsorgung.de/",
+  "status": "aktiv",
+  "notes": "Entsorgung/Verwertung Abfall + Wertstoffe, Container/Fuhrpark | Größe: mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-stuttgart-kampf-schrott-metallgrohandel-mayr-verbu",
+  "name": "Kämpf Schrott- & Metallgroßhandel GmbH (Mayr-Verbund)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Stuttgart",
+  "state": "BW",
+  "website": "https://eberhard-mayr.de/kaempf-recycling/",
+  "status": "aktiv",
+  "notes": "FE-Schrott/Buntmetalle, Entsorgungskonzepte | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-kampf-schrott-metallgrohandel-mayr-verbu",
+  "name": "Kämpf Schrott- & Metallgroßhandel GmbH (Mayr-Verbund)",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "https://eberhard-mayr.de/kaempf-recycling/",
+  "status": "aktiv",
+  "notes": "FE-Schrott/Buntmetalle, Entsorgungskonzepte | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-heilbronn-kampf-umweltservice-mayr-verbund",
+  "name": "Kämpf Umweltservice GmbH (Mayr-Verbund)",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Heilbronn",
+  "state": "BW",
+  "website": "https://eberhard-mayr.de/kaempf-umweltservice/",
+  "status": "aktiv",
+  "notes": "Schrott-/Metall-Umschlagplatz, Container/Logistik | Größe: klein–mittel",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-mannheim-dieter-wittmann-schrott-und-metallhandel",
+  "name": "Dieter Wittmann Schrott- und Metallhandel (Silvano Wittmann)",
+  "trader_type": "autoverwertung",
+  "street": "",
+  "postcode": "",
+  "city": "Mannheim",
+  "state": "BW",
+  "website": "https://wittmann-schrotthandel.de/",
+  "status": "aktiv",
+  "notes": "Schrott/Metall mobil, KFZ-Verwertung | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-salach-igler-altmetall-und-containerdienst",
+  "name": "Igler Altmetall und Containerdienst GmbH",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Salach",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Altmetall, Containerdienst (Nachbarort von Bestand Igler Eislingen, gleiche Vorwahl 07162 → Verbund/Familie) | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-wertheim-pfeifer-rainer-schrotthandel",
+  "name": "Pfeifer Rainer Schrotthandel",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wertheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrotthandel | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-wertheim-lang-schrott",
+  "name": "Lang Schrott",
+  "trader_type": "schrotthaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wertheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Schrott, mobil | Größe: klein/mobil",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-wertheim-wild-metall-inh-thomas-wild",
+  "name": "Wild-Metall Inh. Thomas Wild",
+  "trader_type": "metallhaendler",
+  "street": "",
+  "postcode": "",
+  "city": "Wertheim",
+  "state": "BW",
+  "website": "",
+  "status": "aktiv",
+  "notes": "Metallhandel/Schrott | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bw-freudenstadt-heinzelmann-containerdienst",
+  "name": "Heinzelmann Containerdienst",
+  "trader_type": "containerdienst",
+  "street": "",
+  "postcode": "",
+  "city": "Freudenstadt",
+  "state": "BW",
+  "website": "",
+  "status": "pruefung",
+  "notes": "Containerdienst, Schrottentsorgung | Größe: klein",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Nachtrag Audit-Runde 4 (final)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ }
+]

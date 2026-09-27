@@ -6,6 +6,8 @@ edition = "2021"
 [dependencies]
 schrott-mcp-store = { path = "../store" }
 reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls-webpki-roots"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
 chrono = "0.4"
 tokio = { version = "1", features = ["full"] }
 tracing = "0.1"
