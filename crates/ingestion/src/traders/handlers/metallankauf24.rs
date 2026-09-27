@@ -8,7 +8,7 @@
 use scraper::{Html, Selector};
 
 use super::super::{
-    eur_unit, fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
+    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
@@ -45,9 +45,6 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 price_max: Some(price),
                 confidence: Some(0.5),
                 label,
-                published_at: None,
-                valid_from: None,
-                valid_to: None,
             }),
             None => skipped_labels.push(label),
         }
@@ -134,7 +131,7 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         }
         if t.contains("bis zu") {
             if let (Some(price), Some(label)) = (parse_eur(&t), pending.take()) {
-                rows.push((label, price, eur_unit(&t).unwrap_or(PAGE_UNIT)));
+                rows.push((label, price, unit_of(&t).unwrap_or(PAGE_UNIT)));
             }
         } else if is_junk(&t) {
             pending = None;
@@ -146,6 +143,19 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
     }
     Ok((rows, unit_skips))
+}
+
+/// Bespoke unit matcher for THIS overview (live: bare "bis zu € 10,80"
+/// rows, hence the PAGE_UNIT default above). Only kg/t exist here.
+fn unit_of(t: &str) -> Option<&'static str> {
+    let lower = t.to_lowercase();
+    if lower.contains("kg") {
+        Some("EUR/kg")
+    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+        Some("EUR/t")
+    } else {
+        None
+    }
 }
 
 fn is_junk(t: &str) -> bool {
@@ -180,7 +190,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         let lines: Vec<String> = el
             .inner_html()
             .split("<br")
-            .map(|s| strip_fragment(s))
+            .map(strip_fragment)
             .filter(|s| !s.is_empty())
             .collect();
         for (k, line) in lines.iter().enumerate() {

@@ -7,7 +7,7 @@
 use scraper::{Html, Selector};
 
 use super::super::{
-    eur_unit, fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
+    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
@@ -45,9 +45,6 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             price_max,
             confidence,
             label,
-            published_at: None,
-            valid_from: None,
-            valid_to: None,
         });
     }
     // Grades the variant extractor does not know land here, not in the DB.
@@ -118,11 +115,14 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str, bool)>, Vec<Stri
         }
         if t.contains('€') && parse_eur(&t).is_some() {
             if let Some(label) = pending.take() {
-                let Some(unit) = eur_unit(&t) else {
+                // Bespoke: this page quotes cable per kg only ("0,45
+                // €/KG"). Anything without "kg" skips loudly — a tonne or
+                // piece price recorded as per-kg would be orders off.
+                if !t.to_lowercase().contains("kg") {
                     unit_skips.push(format!("{label} (Einheit unverständlich: {t})"));
                     continue;
                 };
-                rows.push((label, parse_eur(&t).expect("checked"), unit, is_upto(&t)));
+                rows.push((label, parse_eur(&t).expect("checked"), "EUR/kg", is_upto(&t)));
             }
         } else if is_junk(&t) {
             pending = None;
@@ -184,7 +184,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         let lines: Vec<String> = el
             .inner_html()
             .split("<br")
-            .map(|s| strip_fragment(s))
+            .map(strip_fragment)
             .filter(|s| !s.is_empty())
             .collect();
         for (k, line) in lines.iter().enumerate() {

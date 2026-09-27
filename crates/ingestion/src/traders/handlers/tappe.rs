@@ -7,8 +7,8 @@
 use scraper::{Html, Selector};
 
 use super::super::{
-    eur_unit, fetch_text, has_unit_markers, parse_de_date, parse_eur, Handler, HandlerOutcome,
-    Schedule, ScrapedPrice, TraderInfo,
+    fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -45,9 +45,6 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 price_max: None,
                 confidence: Some(1.0),
                 label,
-                published_at: None,
-                valid_from: None,
-                valid_to: None,
             }),
             None => skipped_labels.push(label),
         }
@@ -152,7 +149,9 @@ fn parse(
                 if label.is_empty() {
                     continue;
                 }
-                let unit = eur_unit(&t).or(if has_unit_markers(&t) {
+                let unit = unit_of(&t).or(if t.contains('/') || t.to_lowercase().contains("pro") {
+                    // Explicit but unknown unit ("pro Sack"): skip loudly
+                    // instead of inheriting the page default.
                     None
                 } else {
                     page_unit
@@ -165,7 +164,7 @@ fn parse(
             }
         } else if is_header(&t) {
             if page_unit.is_none() {
-                page_unit = eur_unit(&t);
+                page_unit = unit_of(&t);
             }
             pending.clear();
             // The price box ends at the "... auf Anfrage" terminator:
@@ -185,6 +184,20 @@ fn parse(
 
 fn is_price(t: &str) -> bool {
     t.contains('€') && parse_eur(t).is_some()
+}
+
+/// Bespoke unit matcher for THIS page (live: "€ pro kg" header, bare
+/// "0,170 €" rows). Only kg/t exist here — anything else returns None
+/// and the caller decides (page default vs. loud skip).
+fn unit_of(t: &str) -> Option<&'static str> {
+    let lower = t.to_lowercase();
+    if lower.contains("kg") {
+        Some("EUR/kg")
+    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+        Some("EUR/t")
+    } else {
+        None
+    }
 }
 
 fn is_header(t: &str) -> bool {

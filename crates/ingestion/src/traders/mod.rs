@@ -1,10 +1,13 @@
 //! Trader price ingestion: one small handler per Händler.
 //!
 //! Scaling concept (deliberately boring, so it survives 500 handlers):
-//! - Every handler is ONE file in `handlers/` with zero shared parsing
-//!   code — only `fetch_text` (HTTP) and `parse_eur` (German numbers) are
-//!   shared, because every price page is shaped differently. A handler is
-//!   a slug, a [`Schedule`] and a `scrape` fn returning [`ScrapedPrice`]s
+//! - Every handler is ONE file in `handlers/` with bespoke parsing for
+//!   exactly what its page shows — only `fetch_text` (HTTP),
+//!   `parse_eur` (German numbers) and `parse_de_date` (calendar
+//!   validation) are shared. Units especially are per-handler: each page
+//!   names kg/t differently, and a shared unit catalog would guess for
+//!   pages it was never verified against. A handler is a slug, a
+//!   [`Schedule`] and a `scrape` fn returning [`ScrapedPrice`]s
 //!   with explicit per-label material mapping. Unknown labels are skipped
 //!   loudly (counted in the step detail), never guessed.
 //! - The [`scheduler`] runs what's due in ONE sequential loop: staggered
@@ -78,12 +81,6 @@ pub struct ScrapedPrice {
     pub confidence: Option<f64>,
     /// Raw label from the page, always kept for traceability.
     pub label: String,
-    /// Page-stated date for THIS material (RFC 3339). Falls back to the
-    /// outcome default when the page shows one date for everything.
-    pub published_at: Option<String>,
-    /// Validity window for THIS material; None = open-ended.
-    pub valid_from: Option<String>,
-    pub valid_to: Option<String>,
 }
 
 /// One accepted material without a price (product/acceptance lists).
@@ -120,7 +117,6 @@ impl TraderInfo {
 
 /// Everything one scrape produced.
 
-/// Everything one scrape produced.
 #[derive(Debug, Clone, Default)]
 pub struct HandlerOutcome {
     pub prices: Vec<ScrapedPrice>,
@@ -200,42 +196,6 @@ fn is_thousands_grouped(tok: &str) -> bool {
                 && tok.contains('.')
         }
         _ => false,
-    }
-}
-
-/// True when a price text carries explicit unit markers ("/", "pro",
-/// "je", "per") — as opposed to a bare number where the page-global unit
-/// applies. An explicit-but-unknown unit ("pro Sack") must skip loudly
-/// instead of inheriting the page default.
-pub fn has_unit_markers(raw: &str) -> bool {
-    let lower = raw.to_lowercase();
-    if lower.contains('/') {
-        return true;
-    }
-    lower
-        .split(|c: char| !c.is_alphanumeric())
-        .any(|t| matches!(t, "pro" | "je" | "per"))
-}
-
-/// Map a unit string to a quotation unit, token-based ("EUR / T" must not
-/// slip through just because the slash and letter don't touch).
-pub fn eur_unit(raw: &str) -> Option<&'static str> {
-    let lower = raw.to_lowercase();
-    let tokens: Vec<&str> = lower
-        .split(|c: char| !c.is_alphanumeric())
-        .filter(|t| !t.is_empty())
-        .collect();
-    if tokens.iter().any(|t| *t == "kg") {
-        Some("EUR/kg")
-    } else if tokens.iter().any(|t| ["t", "to", "tonne", "tonnen"].contains(t)) {
-        Some("EUR/t")
-    } else if tokens
-        .iter()
-        .any(|t| ["stk", "st", "stueck", "stück", "stck"].contains(t))
-    {
-        Some("EUR/Stk")
-    } else {
-        None
     }
 }
 
@@ -339,12 +299,9 @@ pub async fn record(
             published: true,
             source_url: &outcome.fetch_url,
             observed_at: &now_s,
-            published_at: p
-                .published_at
-                .as_deref()
-                .or(outcome.published_at.as_deref()),
-            valid_from: p.valid_from.as_deref(),
-            valid_to: p.valid_to.as_deref(),
+            published_at: outcome.published_at.as_deref(),
+            valid_from: None,
+            valid_to: None,
             notes: &p.label,
             extra_json: "{}",
             ingested_at: &now_s,
@@ -514,7 +471,7 @@ fn normalize_unit(
 
 #[cfg(test)]
 mod tests {
-    use super::{eur_unit, has_unit_markers, parse_de_date, parse_eur};
+    use super::{parse_de_date, parse_eur};
 
     #[test]
     fn german_numbers() {
@@ -531,19 +488,7 @@ mod tests {
     }
 
     #[test]
-    fn units_markers_and_dates() {
-        assert_eq!(eur_unit("EUR / KG"), Some("EUR/kg"));
-        assert_eq!(eur_unit("EUR / T"), Some("EUR/t"), "Leerzeichen egal");
-        assert_eq!(eur_unit("€ pro kg"), Some("EUR/kg"));
-        assert_eq!(eur_unit("€ 100 x pro to"), Some("EUR/t"));
-        assert_eq!(eur_unit("30,00 €/Stk."), Some("EUR/Stk"));
-        assert_eq!(eur_unit("100,00 € St."), Some("EUR/Stk"));
-        assert_eq!(eur_unit("unbekannt"), None);
-        assert_eq!(eur_unit("pro Sack"), None);
-        assert!(has_unit_markers("0,170 € pro Sack"));
-        assert!(has_unit_markers("11,20 €/KG"));
-        assert!(!has_unit_markers("11,20 €"));
-        assert!(!has_unit_markers("Probe 11,20 €"));
+    fn german_dates() {
         assert_eq!(
             parse_de_date("27", "09", "2026").as_deref(),
             Some("2026-09-27T00:00:00+00:00")
@@ -570,9 +515,6 @@ mod tests {
                         price_max: None,
                         confidence: Some(1.0),
                         label: format!("L{i}"),
-                        published_at: None,
-                        valid_from: None,
-                        valid_to: None,
                     })
                     .collect(),
                 acceptances: vec![],

@@ -182,7 +182,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let anchor = doc.select(&h1).find(|h| {
         h.text().collect::<String>().contains("Angaben")
     });
-    let Some(anchor) = anchor else {
+    let Some(_) = anchor else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Angaben-Block fehlt".to_owned(),
@@ -200,7 +200,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         let lines: Vec<String> = el
             .inner_html()
             .split("<br")
-            .map(|s| strip_fragment(s))
+            .map(strip_fragment)
             .filter(|s| !s.is_empty())
             .collect();
         let mut done = false;

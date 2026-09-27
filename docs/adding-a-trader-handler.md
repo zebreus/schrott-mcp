@@ -57,15 +57,20 @@ Kategorie-Übersicht → `metallankauf24.rs`).
   `IngestError::Parse` zurück. Stille Erfolge mit 0 Zeilen verstecken
   Redesigns.
 - **Einheiten nie still defaulten** (ein Tonnenpreis als Kilo ist ein
-  1000-facher Fehler): pro Zeile parsen; was der Parser nicht kennt,
-  wird geskippt (`"... (Einheit unverständlich: ...)"`). Seiten-globale
-  Einheit nur als **dokumentierte, begründete** Konstante (Marktgrößen-
+  1000-facher Fehler): pro Zeile mit einem **maßgeschneiderten**
+  `unit_of` matchen, das genau die Schreibweisen DIESER Seite kennt
+  (`"EUR / KG"`, `"x pro to"`, `"€/KG"` — nur kg/t, kein Katalog).
+  Was `unit_of` nicht kennt, wird geskippt
+  (`"... (Einheit unverständlich: ...)"`). Seiten-globale Einheit nur
+  als **dokumentierte, begründete** Konstante (Marktgrößen-
   plausibilisiert wie bei Metallankauf24) — und eine explizit-fremde
-  Einheit (`"pro Sack"`) skippt trotzdem (`has_unit_markers`).
+  Einheit (`"pro Sack"`, erkennbar an `/` oder `"pro"`) skippt trotzdem,
+  statt das Default zu erben.
 - **Geteilte Helfer benutzen:** `fetch_text` (HTTP + Statusprüfung),
-  `parse_eur` (deutsches Format inkl. Tausenderpunkt), `eur_unit`
-  (token-basiert — `"EUR / T"` mit Leerzeichen!), `parse_de_date`.
-  Keine eigenen Regex-Suppen dafür.
+  `parse_eur` (deutsches Format inkl. Tausenderpunkt), `parse_de_date`
+  (Kalendervalidierung). Keine eigenen Regex-Suppen dafür — aber auch
+  keine neuen Shared-Parser: alles Seitenspezifische (Units, Datums-
+  *Finden*, Kontaktblöcke) gehört als kleine Funktion in den Handler.
 - **Doppelte Blöcke deduplizieren** (Lausitz-`"Gültig ab"`-Repeat) per
   `(Material, Variante, Preis)` — aber erst *nach* dem Mapping, nicht
   auf Rohlabels (Schreibvarianten!).
@@ -103,8 +108,8 @@ Kategorie-Übersicht → `metallankauf24.rs`).
   Kupferhelden-`<p>`+`<h2>Kontakt</h2>`, M24-`div.inhalt`,
   ESH-`Inhaber:`-Block, Quell-`<h1>`-Block). Fehlende Anker →
   lauter `IngestError::Parse`, niemals geraten, niemals fallback.
-  Geteilt sind nur Low-Level-Helfer (`fetch_text`, deutsche
-  Zahlen/Einheiten/Datum).
+  Geteilt sind nur Low-Level-Helfer (`fetch_text`, `parse_eur`,
+  `parse_de_date`) — Units und Datums-*Finden* sind maßgeschneidert.
 - `set_trader_info` schreibt nur echte Änderungen (Stadt nur bei leerer
   Zelle — Seed-Stadtteile sind präziser als Impressum-Städte) und loggt
   alt→neu.

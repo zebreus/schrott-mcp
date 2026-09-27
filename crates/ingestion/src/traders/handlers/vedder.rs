@@ -6,8 +6,8 @@
 use scraper::{ElementRef, Html, Selector};
 
 use super::super::{
-    eur_unit, fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule,
-    ScrapedPrice, TraderInfo,
+    fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -39,9 +39,6 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 price_max: None,
                 confidence: Some(1.0),
                 label,
-                published_at: None,
-                valid_from: None,
-                valid_to: None,
             }),
             None => skipped_labels.push(label),
         }
@@ -245,7 +242,7 @@ fn parse(
         let Some(price) = parse_eur(&cells[1]) else { continue };
         // An unparseable unit is a loud skip, never a silent default: a
         // per-tonne price recorded as per-kg would be a 1000x error.
-        let Some(unit) = eur_unit(&cells[2]) else {
+        let Some(unit) = unit_of(&cells[2]) else {
             unit_skips.push(format!("{label} (Einheit unverständlich: {})", cells[2].trim()));
             continue;
         };
@@ -255,6 +252,20 @@ fn parse(
         return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preistabelle leer".to_owned() });
     }
     Ok((published_at, rows, unit_skips))
+}
+
+/// Bespoke unit matcher for THIS table's Einheit column (live: "EUR /
+/// KG"; tonne rows would read "EUR / T"). Only kg/t exist here — anything
+/// else skips loudly at the call site.
+fn unit_of(cell: &str) -> Option<&'static str> {
+    let lower = cell.to_lowercase();
+    if lower.contains("kg") {
+        Some("EUR/kg")
+    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|t| t == "t") {
+        Some("EUR/t")
+    } else {
+        None
+    }
 }
 
 #[cfg(test)]

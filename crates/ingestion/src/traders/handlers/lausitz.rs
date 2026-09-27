@@ -7,8 +7,7 @@
 use scraper::{Html, Selector};
 
 use super::super::{
-    eur_unit, fetch_text, has_unit_markers, parse_eur, Handler, HandlerOutcome, Schedule,
-    ScrapedPrice, TraderInfo,
+    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
@@ -45,9 +44,6 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                         price_max: None,
                         confidence: Some(1.0),
                         label,
-                        published_at: None,
-                        valid_from: None,
-                        valid_to: None,
                     });
                 }
             }
@@ -181,7 +177,7 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         }
         if t.contains('€') {
             if let (Some(price), Some(label)) = (parse_eur(&t), pending.take()) {
-                let mut unit = eur_unit(&t);
+                let mut unit = unit_of(&t);
                 // Unit split across nodes ("€ 8,59" + "x pro kg")?
                 if unit.is_none() {
                     if let Some(next) = nodes.get(i) {
@@ -190,13 +186,18 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
                             .replace(['\u{a0}', '\u{200b}'], " ")
                             .trim()
                             .to_owned();
-                        if let Some(u) = eur_unit(&n) {
+                        if let Some(u) = unit_of(&n) {
                             unit = Some(u);
                             i += 1; // consumed as unit, not a label
                         }
                     }
                 }
-                let unit = unit.or(if has_unit_markers(&t) { None } else { Some(PAGE_UNIT) });
+                // Bare "€ X" inherits the page default; an explicit but
+                // unknown unit ("pro Sack") skips loudly instead.
+                let lower = t.to_lowercase();
+                let unit = unit.or(
+                    if t.contains('/') || lower.contains("pro") { None } else { Some(PAGE_UNIT) },
+                );
                 let Some(unit) = unit else {
                     unit_skips.push(format!("{label} (Einheit unverständlich: {t})"));
                     continue;
@@ -216,6 +217,20 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
     }
     Ok((rows, unit_skips))
+}
+
+/// Bespoke unit matcher for THIS page (live: "€ 9,19 x pro kg", "€ 100
+/// x pro to"). Only kg/t exist here — anything else returns None and the
+/// caller decides (page default vs. loud skip).
+fn unit_of(t: &str) -> Option<&'static str> {
+    let lower = t.to_lowercase();
+    if lower.contains("kg") {
+        Some("EUR/kg")
+    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+        Some("EUR/t")
+    } else {
+        None
+    }
 }
 
 /// Section headings and prose — never a material label.
