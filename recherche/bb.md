@@ -48,7 +48,7 @@ Legende Ankauf: `ja` = kauft Schrott/Altmetall an (Website oder Verzeichnis bele
 | Krüger Metallhandel GmbH | Wiesenau (zw. Eisenhüttenstadt u. Frankfurt/Oder) | https://krueger-metallhandel.de/ | Metallankauf zu Tagespreisen, Container, Abbruch/Demontage | ja |
 | Garkisch Containerdienste u. Kompostanlage | Eisenhüttenstadt (Diehlo) | keine Website gefunden | Containerdienste | unklar |
 | ArcelorMittal Eisenhüttenstadt Recycling | Eisenhüttenstadt | keine Website gefunden (Werksseite nicht verifiziert) | Werkrecycling (Stahlwerk) | unklar (vermutlich kein Privatkunden-Ankauf) |
-| SMR GmbH | Fürstenwalde/Spree | keine Website gefunden | Schrott | ja |
+| SMR GmbH | Lübben-Neuendorf, Mühlbergweg 10 | keine Website gefunden | Schrott | ja |
 | Brandenburger Schrott-Verwertung GmbH (BSV Wertstoff-Dealer) | Fürstenwalde/Spree | http://www.wertstoff-dealer.de | Wertstoff-/Eisenschrott-/Buntmetallankauf, Container, Abbruch | ja |
 | GHG Wertstoffrecycling & Wertstoffankauf (BSV-Gruppe) | Beeskow | http://www.wertstoff-dealer.de | Wertstoff-/Schrottankauf | ja |
 | BSV Wertstoffrecycling & Wertstoffankauf | Letschin (Oderbruch) | http://www.wertstoff-dealer.de | Schrottplatz/Schrottankauf | ja |

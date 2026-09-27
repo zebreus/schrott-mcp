@@ -470,7 +470,7 @@
   "city": "Weimar",
   "state": "TH",
   "website": "",
-  "website_status": "",
+  "website_status": "tot",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",

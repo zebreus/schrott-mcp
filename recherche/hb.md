@@ -50,7 +50,7 @@ Ankauf-Spalte: "ja" nur bei Beleg (Website-Aussage), sonst "unklar" bzw. Flag.
 | Engelbert Schrotthandel | Wulsdorf, Osterwiesenweg 11 | keine Website verifiziert | Schrottplatz (klein) | unklar |
 | Rosenbach Schrott und Metallhandel | Lehe, Lange Str. 30 | keine Website verifiziert | Schrott-/Metallhandel (klein) | unklar |
 | Schrotthandel Petermann GbR | Hackfahrel 28 | keine Website verifiziert | Schrotthandel (klein) | unklar |
-| Brexendorf Rohstoffhandels GmbH (Brexendorf Transport Logistic Entsorgung) | Fischereihafen, Dorschstr. 17 | keine Website verifiziert | Rohstoffhandel, Container, Transport/Logistik | unklar |
+| Brexendorf Rohstoffhandels GmbH (Brexendorf Transport Logistic Entsorgung) | Fischereihafen, Dorschstr. 17 | https://brexendorf.de | Rohstoffhandel, Container, Transport/Logistik | unklar |
 | Bremerhavener Entsorgungsgesellschaft mbH (BEG) | Geestemünde, Zur Hexenbrücke 16 | keine Website verifiziert | kommunaler Entsorger (Abfallwirtschaft) — eher Entsorgung ohne Ankauf | unklar (vermutlich kein Ankauf) |
 | ReVeG Recycling- u. Verwertungsgesellschaft mbH | Überseehafen, Brückenstr. 25 | keine Website verifiziert | Recycling/Verwertung | unklar |
 | Rubin Kai | Fischereihafen, Am Luneort 46 | keine Website verifiziert | als Schrotthändler gelistet, Beschreibung: Containerdienste/Bürgersteigreinigung — vermutlich kein Ankauf | vermutlich kein Ankauf |

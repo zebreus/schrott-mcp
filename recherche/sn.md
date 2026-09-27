@@ -19,7 +19,7 @@ Websites per Webfetch bzw. offiziellem Suchtreffer verifiziert, sonst "keine Web
 | H. Nestler GmbH & Co. KG | Dresden (Straße des 17. Juni 3a+7) | https://www.nestleronline.de | Schrott-/Altmetall-/Edelmetall-Ankauf | ja | zahlt Wert direkt aus |
 | Walter Kunze Schrott- und Metallhandels GmbH, NL Freital | Freital (Schachtstr. 8b) | https://www.kunze-group.de | Fe/NE, Kabel, Altbatterien, Container 5–38 m³ | ja | weitere SN-Standorte Dresden, Großenhain |
 | Walter Kunze NL Dresden | Dresden (Adresse unklar) | https://www.kunze-group.de | Fe/NE | ja | Standort lt. Kunze-Group, Adresse unklar |
-| Heidenauer Metallverwertungs GmbH | Heidenau (Pirnaer Str. 96); auch Pirna/ Freital | keine Website gefunden | Fe-/NE-Schrott, Container | ja | Ankauf lt. Firmenbeschreibung, Website unklar |
+| Heidenauer Metallverwertungs GmbH | Heidenau (Pirnaer Str. 96); auch Pirna/ Freital | https://hmv-heidenau.de | Fe-/NE-Schrott, Container | ja | Ankauf lt. Firmenbeschreibung, Website unklar |
 | Metallverwertung Lars Appelt | Dohma/Pirna (Cotta B 16H) | https://www.mv-larsappelt.de | Buntmetalle, Eisenschrott, Container 7–32 m³ | ja | familiengeführt seit 1992, verifiziert |
 | URW Umweltschutz, Recycling & Wertstoffhandel GmbH | Pirna (Rudolf-Renner-Str. 55a) | keine Website gefunden | Recycling/Wertstoffhandel | unklar | — |
 | PFAFFELHUBER Recycling Dresden GmbH | Dresden (Breitscheidstr. 45) | keine Website gefunden | Recycling | unklar | — |
@@ -90,9 +90,9 @@ Websites per Webfetch bzw. offiziellem Suchtreffer verifiziert, sonst "keine Web
 | metarec Metallrecycling GmbH (Hauptsitz) | Lauter-Bernsbach (Bahnhofstr. 23) | https://www.metarec-recycling.de | Stahlschrott, Buntmetall | ja | seit 1990 (ex EMG Schneeberg) |
 | Scholz Recycling GmbH, Betrieb Zwickau | Zwickau (Kopernikusstr. 62) | https://www.scholz-recycling.com | Fe/NE | ja | — |
 | Hofmann Recycling | Mülsen (Lippoldsruh 38) | https://hofmann-recycling.de | Schrott/Altmetall-Annahme, Container 2–36 m³ | ja | Efb, 60-t-Waage |
-| Max Gehrt GmbH & Co. KG | Glauchau (Am Heizwerk 6) | keine Website gefunden | Schrott, Buntmetall, Container | ja | lt. Das Örtliche |
+| Max Gehrt GmbH & Co. KG | Glauchau (Am Heizwerk 6) | https://schrott-gehrt.de | Schrott, Buntmetall, Container | ja | lt. Das Örtliche |
 | Klaus-Georg Gehrt | Glauchau (Boschstr. 2) | keine Website gefunden | Schrott, Buntmetalle, Demontage, Container | ja | lt. Das Örtliche |
-| Metall-Recycling Reiner Gränz GmbH | Niederdorf b. Stollberg (Chemnitzer Str. 2f) | keine Website gefunden | Fe/Bunt/E-Schrott, Sonderlegierungen, Tageshöchstpreise | ja | lt. schrottplatz-info, zert. Metallhandel |
+| Metall-Recycling Reiner Gränz GmbH | Niederdorf b. Stollberg (Chemnitzer Str. 2f) | https://metallrecycling-graenz.de | Fe/Bunt/E-Schrott, Sonderlegierungen, Tageshöchstpreise | ja | lt. schrottplatz-info, zert. Metallhandel |
 | MDPC Schrotthandel | Oberlungwitz | keine Website gefunden | Schrott | unklar | nur als Nachbar-Eintrag belegt |
 | Scholz Recycling, Standort Schwarzenberg | Schwarzenberg | https://www.scholz-recycling.com | Fe/NE | unklar | Standort lt. Scholz-Karriereseite, Details unklar |
 | Hentschel Schrotthandel Aue | Aue | https://www.hentschel-schrotthandel-aue.com | Schrott/Altmetall (Website-Angabe) | unsicher | Template-Website OHNE Adress-/Impressumsnachweis → Vorsicht |

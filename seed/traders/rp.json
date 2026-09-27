@@ -4370,7 +4370,7 @@
   }
  },
  {
-  "slug": "rp-x-schrottabholung-bingen",
+  "slug": "rp-bingen-schrottabholung-bingen",
   "name": "Schrottabholung-Bingen",
   "trader_type": "schrotthaendler",
   "description": "",
@@ -4384,7 +4384,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "mobil, Im Rheinweg 15 Ingelheim | urspr. Website-Angabe: keine",
+  "notes": "mobil, Im Rheinweg 15 Ingelheim | urspr. Website-Angabe: keine | Adresse: Bingen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4416,7 +4416,7 @@
   }
  },
  {
-  "slug": "rp-x-laroche-demontagearbeiten",
+  "slug": "rp-koblenz-laroche-demontagearbeiten",
   "name": "Laroche Demontagearbeiten",
   "trader_type": "sonstige",
   "description": "",
@@ -4430,7 +4430,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "",
+  "notes": "Adresse: Koblenz",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4439,11 +4439,11 @@
   }
  },
  {
-  "slug": "rp-x-d-laroche-horchheim",
+  "slug": "rp-koblenz-d-laroche-horchheim",
   "name": "D. Laroche Horchheim",
   "trader_type": "sonstige",
   "description": "",
-  "street": "D. Laroche Horchheim  Mendelssohnstr. 11",
+  "street": "D. Laroche Horchheim Koblenz Mendelssohnstr. 11",
   "postcode": "",
   "phone": "",
   "city": "Koblenz",
@@ -4453,7 +4453,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Mendelssohnstr. 11 | urspr. Website-Angabe: keine",
+  "notes": "Mendelssohnstr. 11 | urspr. Website-Angabe: keine | Adresse: Koblenz",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4485,7 +4485,7 @@
   }
  },
  {
-  "slug": "rp-x-s-alten-st-maternus-str",
+  "slug": "rp-koblenz-s-alten-st-maternus-str",
   "name": "S. Alten St.-Maternus-Str.",
   "trader_type": "sonstige",
   "description": "",
@@ -4499,7 +4499,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Alten-Zweig | urspr. Website-Angabe: keine",
+  "notes": "Alten-Zweig | urspr. Website-Angabe: keine | Adresse: Koblenz",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4508,7 +4508,7 @@
   }
  },
  {
-  "slug": "rp-x-port-metternich",
+  "slug": "rp-koblenz-port-metternich",
   "name": "Port Metternich",
   "trader_type": "sonstige",
   "description": "",
@@ -4522,7 +4522,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Bitburger Str. 23 | urspr. Website-Angabe: keine",
+  "notes": "Bitburger Str. 23 | urspr. Website-Angabe: keine | Adresse: Koblenz",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4531,7 +4531,7 @@
   }
  },
  {
-  "slug": "rp-x-maik-alten-karthause",
+  "slug": "rp-koblenz-maik-alten-karthause",
   "name": "Maik Alten Karthause",
   "trader_type": "sonstige",
   "description": "",
@@ -4545,7 +4545,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Cottbuser Str. 2, NEU vs Seed-Gino/Markus/Klara/Angelo | urspr. Website-Angabe: keine",
+  "notes": "Cottbuser Str. 2, NEU vs Seed-Gino/Markus/Klara/Angelo | urspr. Website-Angabe: keine | Adresse: Koblenz",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4554,7 +4554,7 @@
   }
  },
  {
-  "slug": "rp-x-reinhardt-oberdurenbach",
+  "slug": "rp-oberdurenbach-reinhardt-oberdurenbach",
   "name": "Reinhardt Oberdürenbach",
   "trader_type": "sonstige",
   "description": "",
@@ -4568,7 +4568,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": ", Königseeweg 2 — ungleich Seed Oberzissen",
+  "notes": ", Königseeweg 2 — ungleich Seed Oberzissen | Adresse: Oberdürenbach",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4577,11 +4577,11 @@
   }
  },
  {
-  "slug": "rp-x-golz-mulheim-karlich",
+  "slug": "rp-mulheim-karlich-golz-mulheim-karlich",
   "name": "Golz Mülheim-Kärlich",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Golz Mülheim-Kärlich  Goethestr. 29A",
+  "street": "Golz Mülheim-Kärlich Mülheim-Kärlich Goethestr. 29A",
   "postcode": "",
   "phone": "",
   "city": "Mülheim-Kärlich",
@@ -4591,7 +4591,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Goethestr. 29A | urspr. Website-Angabe: keine",
+  "notes": "Goethestr. 29A | urspr. Website-Angabe: keine | Adresse: Mülheim-Kärlich",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4669,21 +4669,21 @@
   }
  },
  {
-  "slug": "rp-x-laroche-neuwied-block",
+  "slug": "rp-neuwied-laroche-neuwied-block",
   "name": "Laroche Neuwied-Block",
   "trader_type": "sonstige",
   "description": "",
   "street": "",
   "postcode": "",
   "phone": "",
-  "city": "Block",
+  "city": "Neuwied",
   "state": "RP",
   "website": "",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Kirchhoff 1 | urspr. Website-Angabe: keine",
+  "notes": "Kirchhoff 1 | urspr. Website-Angabe: keine | Adresse: Neuwied",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4692,7 +4692,7 @@
   }
  },
  {
-  "slug": "rp-x-menten-sudliche-vorstadt",
+  "slug": "rp-koblenz-menten-sudliche-vorstadt",
   "name": "Menten Südliche Vorstadt",
   "trader_type": "sonstige",
   "description": "",
@@ -4706,7 +4706,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "urspr. Website-Angabe: keine",
+  "notes": "urspr. Website-Angabe: keine | Adresse: Koblenz",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4715,7 +4715,7 @@
   }
  },
  {
-  "slug": "rp-x-svm-neuendorf",
+  "slug": "rp-koblenz-svm-neuendorf",
   "name": "SVM Neuendorf",
   "trader_type": "sonstige",
   "description": "",
@@ -4729,7 +4729,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Gleisanschluss | urspr. Website-Angabe: keine",
+  "notes": "Gleisanschluss | urspr. Website-Angabe: keine | Adresse: Koblenz",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4738,7 +4738,7 @@
   }
  },
  {
-  "slug": "rp-x-tallarita-altrip",
+  "slug": "rp-altrip-tallarita-altrip",
   "name": "Tallarita Altrip",
   "trader_type": "sonstige",
   "description": "",
@@ -4752,7 +4752,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Am Sandzug 16). | urspr. Website-Angabe: keine",
+  "notes": "Am Sandzug 16). | urspr. Website-Angabe: keine | Adresse: Altrip",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4761,21 +4761,21 @@
   }
  },
  {
-  "slug": "rp-x-senck-oggersheim",
+  "slug": "rp-ludwigshafen-senck-oggersheim",
   "name": "Senck Oggersheim",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Senck Oggersheim  Notwendestr. 11",
+  "street": "Senck Oggersheim Ludwigshafen Notwendestr. 11",
   "postcode": "",
   "phone": "",
-  "city": "Oggersheim",
+  "city": "Ludwigshafen",
   "state": "RP",
   "website": "",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Notwendestr. 11, FE/NE | urspr. Website-Angabe: keine",
+  "notes": "Notwendestr. 11, FE/NE | urspr. Website-Angabe: keine | Adresse: Ludwigshafen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4784,7 +4784,7 @@
   }
  },
  {
-  "slug": "rp-x-gurr",
+  "slug": "rp-ludwigshafen-gurr",
   "name": "Gurr",
   "trader_type": "sonstige",
   "description": "",
@@ -4798,7 +4798,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Am Sandloch 8 | urspr. Website-Angabe: keine",
+  "notes": "Am Sandloch 8 | urspr. Website-Angabe: keine | Adresse: Ludwigshafen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4807,11 +4807,11 @@
   }
  },
  {
-  "slug": "rp-x-daud",
+  "slug": "rp-ludwigshafen-daud",
   "name": "Daud",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Daud  Rampenweg 18",
+  "street": "Daud Ludwigshafen Rampenweg 18",
   "postcode": "",
   "phone": "",
   "city": "Ludwigshafen",
@@ -4821,7 +4821,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Rampenweg 18, 88★ | urspr. Website-Angabe: keine",
+  "notes": "Rampenweg 18, 88★ | urspr. Website-Angabe: keine | Adresse: Ludwigshafen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4830,11 +4830,11 @@
   }
  },
  {
-  "slug": "rp-x-tremel",
+  "slug": "rp-ludwigshafen-tremel",
   "name": "Tremel",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Tremel  Wachtenburgstr. 9",
+  "street": "Tremel Ludwigshafen Wachtenburgstr. 9",
   "postcode": "",
   "phone": "",
   "city": "Ludwigshafen",
@@ -4844,7 +4844,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Wachtenburgstr. 9, Mikro | urspr. Website-Angabe: keine",
+  "notes": "Wachtenburgstr. 9, Mikro | urspr. Website-Angabe: keine | Adresse: Ludwigshafen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4853,11 +4853,11 @@
   }
  },
  {
-  "slug": "rp-x-m-trier-west",
+  "slug": "rp-trier-m-trier-west",
   "name": "M Trier-West",
   "trader_type": "sonstige",
   "description": "",
-  "street": "M Trier-West  Hornstr. 23",
+  "street": "M Trier-West Trier Hornstr. 23",
   "postcode": "",
   "phone": "",
   "city": "Trier",
@@ -4867,7 +4867,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Hornstr. 23 | urspr. Website-Angabe: keine",
+  "notes": "Hornstr. 23 | urspr. Website-Angabe: keine | Adresse: Trier",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4876,11 +4876,11 @@
   }
  },
  {
-  "slug": "rp-x-mw-trier-west",
+  "slug": "rp-trier-mw-trier-west",
   "name": "MW Trier-West",
   "trader_type": "sonstige",
   "description": "",
-  "street": "MW Trier-West  Eifelstr. 4",
+  "street": "MW Trier-West Trier Eifelstr. 4",
   "postcode": "",
   "phone": "",
   "city": "Trier",
@@ -4890,7 +4890,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Eifelstr. 4, Jimdo | urspr. Website-Angabe: keine",
+  "notes": "Eifelstr. 4, Jimdo | urspr. Website-Angabe: keine | Adresse: Trier",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4899,34 +4899,11 @@
   }
  },
  {
-  "slug": "rp-x-h-block",
+  "slug": "rp-trier-h-block",
   "name": "H. Block",
   "trader_type": "sonstige",
   "description": "",
-  "street": "H. Block  Granastr. 8",
-  "postcode": "",
-  "phone": "",
-  "city": "Block",
-  "state": "RP",
-  "website": "",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "pruefung",
-  "notes": "Granastr. 8 | urspr. Website-Angabe: keine",
-  "provenance": {
-   "seed_file": "rp",
-   "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
-   "ankauf_raw": "unklar",
-   "origin": "table"
-  }
- },
- {
-  "slug": "rp-x-pfeil-heinz",
-  "name": "Pfeil-Heinz",
-  "trader_type": "sonstige",
-  "description": "",
-  "street": "Pfeil-Heinz  Leostr. 6",
+  "street": "H. Block Trier Granastr. 8",
   "postcode": "",
   "phone": "",
   "city": "Trier",
@@ -4936,7 +4913,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Leostr. 6 | urspr. Website-Angabe: keine",
+  "notes": "Granastr. 8 | urspr. Website-Angabe: keine | Adresse: Trier",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4945,7 +4922,30 @@
   }
  },
  {
-  "slug": "rp-x-h-j-wittlich-litzig",
+  "slug": "rp-trier-pfeil-heinz",
+  "name": "Pfeil-Heinz",
+  "trader_type": "sonstige",
+  "description": "",
+  "street": "Pfeil-Heinz Trier Leostr. 6",
+  "postcode": "",
+  "phone": "",
+  "city": "Trier",
+  "state": "RP",
+  "website": "",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Leostr. 6 | urspr. Website-Angabe: keine | Adresse: Trier",
+  "provenance": {
+   "seed_file": "rp",
+   "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "rp-wittlich-h-j-wittlich-litzig",
   "name": "H.J Wittlich-Litzig",
   "trader_type": "sonstige",
   "description": "",
@@ -4959,7 +4959,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "urspr. Website-Angabe: keine",
+  "notes": "urspr. Website-Angabe: keine | Adresse: Wittlich",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4968,7 +4968,7 @@
   }
  },
  {
-  "slug": "rp-x-matthias-alten",
+  "slug": "rp-trier-matthias-alten",
   "name": "Matthias Alten",
   "trader_type": "sonstige",
   "description": "",
@@ -4982,7 +4982,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Andreas-Hoevel-Str. 6, NEU vs Cluster | urspr. Website-Angabe: keine",
+  "notes": "Andreas-Hoevel-Str. 6, NEU vs Cluster | urspr. Website-Angabe: keine | Adresse: Trier",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -4991,11 +4991,11 @@
   }
  },
  {
-  "slug": "rp-x-hutmacher-rivenich",
+  "slug": "rp-rivenich-hutmacher-rivenich",
   "name": "Hutmacher Rivenich",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Hutmacher Rivenich  Weinstr. 3",
+  "street": "Hutmacher Rivenich Rivenich Weinstr. 3",
   "postcode": "",
   "phone": "",
   "city": "Rivenich",
@@ -5005,7 +5005,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Weinstr. 3, ungleich Trier-Stamm | urspr. Website-Angabe: keine",
+  "notes": "Weinstr. 3, ungleich Trier-Stamm | urspr. Website-Angabe: keine | Adresse: Rivenich",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5014,7 +5014,7 @@
   }
  },
  {
-  "slug": "rp-x-malborn",
+  "slug": "rp-malborn-malborn",
   "name": "Malborn",
   "trader_type": "mobil",
   "description": "",
@@ -5028,7 +5028,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "nur Mobil | urspr. Website-Angabe: keine",
+  "notes": "nur Mobil | urspr. Website-Angabe: keine | Adresse: Malborn",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5037,7 +5037,7 @@
   }
  },
  {
-  "slug": "rp-x-dick-reinsfeld",
+  "slug": "rp-reinsfeld-dick-reinsfeld",
   "name": "Dick Reinsfeld",
   "trader_type": "sonstige",
   "description": "",
@@ -5051,7 +5051,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Sonnenhang 22 | urspr. Website-Angabe: keine",
+  "notes": "Sonnenhang 22 | urspr. Website-Angabe: keine | Adresse: Reinsfeld",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5060,7 +5060,7 @@
   }
  },
  {
-  "slug": "rp-x-destani-zerf",
+  "slug": "rp-zerf-destani-zerf",
   "name": "Destani Zerf",
   "trader_type": "sonstige",
   "description": "",
@@ -5074,7 +5074,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Deeswiese 2). | urspr. Website-Angabe: keine",
+  "notes": "Deeswiese 2). | urspr. Website-Angabe: keine | Adresse: Zerf",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5106,7 +5106,7 @@
   }
  },
  {
-  "slug": "rp-x-reinhard-entrumpelung-kl",
+  "slug": "rp-kaiserslautern-reinhard-entrumpelung-kl",
   "name": "Reinhard+Entrümpelung KL",
   "trader_type": "sonstige",
   "description": "",
@@ -5120,7 +5120,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Käthe-Kollwitz-Str. | urspr. Website-Angabe: keine",
+  "notes": "Käthe-Kollwitz-Str. | urspr. Website-Angabe: keine | Adresse: Kaiserslautern",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5152,7 +5152,7 @@
   }
  },
  {
-  "slug": "rp-x-fernezy-kl",
+  "slug": "rp-kaiserslautern-fernezy-kl",
   "name": "Fernezy KL",
   "trader_type": "sonstige",
   "description": "",
@@ -5166,7 +5166,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Daniel-Häberle-Str. | urspr. Website-Angabe: keine",
+  "notes": "Daniel-Häberle-Str. | urspr. Website-Angabe: keine | Adresse: Kaiserslautern",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5221,7 +5221,7 @@
   }
  },
  {
-  "slug": "rp-x-opp-waldsee",
+  "slug": "rp-waldsee-opp-waldsee",
   "name": "Opp Waldsee",
   "trader_type": "sonstige",
   "description": "",
@@ -5235,7 +5235,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "In den Fahrgärten 7 | urspr. Website-Angabe: keine",
+  "notes": "In den Fahrgärten 7 | urspr. Website-Angabe: keine | Adresse: Waldsee",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5244,7 +5244,7 @@
   }
  },
  {
-  "slug": "rp-x-k-k-haloch",
+  "slug": "rp-haloch-k-k-haloch",
   "name": "K&K Haßloch",
   "trader_type": "sonstige",
   "description": "",
@@ -5258,7 +5258,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Bruchhof 10, Kabel! | urspr. Website-Angabe: keine",
+  "notes": "Bruchhof 10, Kabel! | urspr. Website-Angabe: keine | Adresse: Haßloch",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5267,11 +5267,11 @@
   }
  },
  {
-  "slug": "rp-x-riehm-kirrweiler",
+  "slug": "rp-kirrweiler-riehm-kirrweiler",
   "name": "Riehm Kirrweiler",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Riehm Kirrweiler  Marktstr. 42",
+  "street": "Riehm Kirrweiler Kirrweiler Marktstr. 42",
   "postcode": "",
   "phone": "",
   "city": "Kirrweiler",
@@ -5281,7 +5281,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Marktstr. 42 | urspr. Website-Angabe: keine",
+  "notes": "Marktstr. 42 | urspr. Website-Angabe: keine | Adresse: Kirrweiler",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5290,7 +5290,7 @@
   }
  },
  {
-  "slug": "rp-x-sudpfalz-metall-geinsheim",
+  "slug": "rp-geinsheim-sudpfalz-metall-geinsheim",
   "name": "SÜDPFALZ METALL Geinsheim",
   "trader_type": "sonstige",
   "description": "",
@@ -5304,7 +5304,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Böbinger Str. 9, ungleich Rohrbach | urspr. Website-Angabe: keine",
+  "notes": "Böbinger Str. 9, ungleich Rohrbach | urspr. Website-Angabe: keine | Adresse: Geinsheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5313,7 +5313,7 @@
   }
  },
  {
-  "slug": "rp-x-weitzel-lambrecht",
+  "slug": "rp-lambrecht-weitzel-lambrecht",
   "name": "Weitzel Lambrecht",
   "trader_type": "sonstige",
   "description": "",
@@ -5327,7 +5327,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Kleiner Weg 39 | urspr. Website-Angabe: keine",
+  "notes": "Kleiner Weg 39 | urspr. Website-Angabe: keine | Adresse: Lambrecht",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5336,11 +5336,11 @@
   }
  },
  {
-  "slug": "rp-x-sr-eisenberg",
+  "slug": "rp-eisenberg-sr-eisenberg",
   "name": "SR Eisenberg",
   "trader_type": "sonstige",
   "description": "",
-  "street": "SR Eisenberg  Römerstr. 3c",
+  "street": "SR Eisenberg Eisenberg Römerstr. 3c",
   "postcode": "",
   "phone": "",
   "city": "Eisenberg",
@@ -5350,7 +5350,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Römerstr. 3c | urspr. Website-Angabe: keine",
+  "notes": "Römerstr. 3c | urspr. Website-Angabe: keine | Adresse: Eisenberg",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5359,11 +5359,11 @@
   }
  },
  {
-  "slug": "rp-x-hms-westheim",
+  "slug": "rp-westheim-hms-westheim",
   "name": "HMS Westheim",
   "trader_type": "sonstige",
   "description": "",
-  "street": "HMS Westheim  Am Schlittweg 1a",
+  "street": "HMS Westheim Westheim Am Schlittweg 1a",
   "postcode": "",
   "phone": "",
   "city": "Westheim",
@@ -5373,7 +5373,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Am Schlittweg 1a | urspr. Website-Angabe: keine",
+  "notes": "Am Schlittweg 1a | urspr. Website-Angabe: keine | Adresse: Westheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5405,7 +5405,7 @@
   }
  },
  {
-  "slug": "rp-x-cronimet-cremetal-annweiler-pedack-annwe",
+  "slug": "rp-annweiler-cronimet-cremetal-annweiler-pedack-annwe",
   "name": "CRONIMET Cremetal Annweiler + Pedack Annweiler",
   "trader_type": "sonstige",
   "description": "",
@@ -5419,7 +5419,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "gleiche Adresse In den Bruchwiesen 17! | urspr. Website-Angabe: keine",
+  "notes": "gleiche Adresse In den Bruchwiesen 17! | urspr. Website-Angabe: keine | Adresse: Annweiler",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5428,11 +5428,11 @@
   }
  },
  {
-  "slug": "rp-x-ayan-borrstadt",
+  "slug": "rp-borrstadt-ayan-borrstadt",
   "name": "Ayan Börrstadt",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Ayan Börrstadt  Kaiserstr. 5",
+  "street": "Ayan Börrstadt Börrstadt Kaiserstr. 5",
   "postcode": "",
   "phone": "",
   "city": "Börrstadt",
@@ -5442,7 +5442,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Kaiserstr. 5, 82★ | urspr. Website-Angabe: keine",
+  "notes": "Kaiserstr. 5, 82★ | urspr. Website-Angabe: keine | Adresse: Börrstadt",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5451,11 +5451,11 @@
   }
  },
  {
-  "slug": "rp-x-paul-bechhofen",
+  "slug": "rp-bechhofen-paul-bechhofen",
   "name": "Paul Bechhofen",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Paul Bechhofen  Altestr. 4",
+  "street": "Paul Bechhofen Bechhofen Altestr. 4",
   "postcode": "",
   "phone": "",
   "city": "Bechhofen",
@@ -5465,7 +5465,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Altestr. 4 | urspr. Website-Angabe: keine",
+  "notes": "Altestr. 4 | urspr. Website-Angabe: keine | Adresse: Bechhofen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5474,7 +5474,7 @@
   }
  },
  {
-  "slug": "rp-x-kopp-branchweiler",
+  "slug": "rp-neustadt-kopp-branchweiler",
   "name": "Kopp Branchweiler",
   "trader_type": "sonstige",
   "description": "",
@@ -5488,7 +5488,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Branchweilerhof 17b | urspr. Website-Angabe: keine",
+  "notes": "Branchweilerhof 17b | urspr. Website-Angabe: keine | Adresse: Neustadt",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5520,21 +5520,21 @@
   }
  },
  {
-  "slug": "rp-x-schwerdel-lachen-speyerdorf",
+  "slug": "rp-neustadt-schwerdel-lachen-speyerdorf",
   "name": "Schwerdel Lachen-Speyerdorf",
   "trader_type": "sonstige",
   "description": "",
   "street": "",
   "postcode": "",
   "phone": "",
-  "city": "Speyerdorf",
+  "city": "Neustadt",
   "state": "RP",
   "website": "",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "urspr. Website-Angabe: keine",
+  "notes": "urspr. Website-Angabe: keine | Adresse: Neustadt",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5543,21 +5543,21 @@
   }
  },
  {
-  "slug": "rp-x-zirwes-brohl-lutzing",
+  "slug": "rp-brohl-lutzing-zirwes-brohl-lutzing",
   "name": "Zirwes Brohl-Lützing",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Zirwes Brohl-Lützing  Mittelstr. 2",
+  "street": "Zirwes Brohl-Lützing Brohl-Lützing Mittelstr. 2",
   "postcode": "",
   "phone": "",
-  "city": "Brohl",
+  "city": "Brohl-Lützing",
   "state": "RP",
   "website": "",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Mittelstr. 2 | urspr. Website-Angabe: keine",
+  "notes": "Mittelstr. 2 | urspr. Website-Angabe: keine | Adresse: Brohl-Lützing",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5589,7 +5589,7 @@
   }
  },
  {
-  "slug": "rp-x-richarz-buchholz",
+  "slug": "rp-buchholz-richarz-buchholz",
   "name": "Richarz Buchholz",
   "trader_type": "sonstige",
   "description": "",
@@ -5603,7 +5603,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Industriepark Nord 66 | urspr. Website-Angabe: keine",
+  "notes": "Industriepark Nord 66 | urspr. Website-Angabe: keine | Adresse: Buchholz",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5635,11 +5635,11 @@
   }
  },
  {
-  "slug": "rp-x-blasius-st-sebastian",
+  "slug": "rp-sebastian-blasius-st-sebastian",
   "name": "Bläsius St. Sebastian",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Bläsius St. Sebastian  Rosenstr. 6",
+  "street": "Bläsius St. Sebastian Sebastian Rosenstr. 6",
   "postcode": "",
   "phone": "",
   "city": "Sebastian",
@@ -5649,7 +5649,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Rosenstr. 6 | urspr. Website-Angabe: keine",
+  "notes": "Rosenstr. 6 | urspr. Website-Angabe: keine | Adresse: Sebastian",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5658,11 +5658,11 @@
   }
  },
  {
-  "slug": "rp-x-luxem-niederwerth",
+  "slug": "rp-niederwerth-luxem-niederwerth",
   "name": "Luxem Niederwerth",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Luxem Niederwerth  Schützenstr. 1",
+  "street": "Luxem Niederwerth Niederwerth Schützenstr. 1",
   "postcode": "",
   "phone": "",
   "city": "Niederwerth",
@@ -5672,7 +5672,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schützenstr. 1 | urspr. Website-Angabe: keine",
+  "notes": "Schützenstr. 1 | urspr. Website-Angabe: keine | Adresse: Niederwerth",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5681,7 +5681,7 @@
   }
  },
  {
-  "slug": "rp-x-rwr-bassenheim",
+  "slug": "rp-bassenheim-rwr-bassenheim",
   "name": "RWR Bassenheim",
   "trader_type": "sonstige",
   "description": "",
@@ -5695,7 +5695,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Am Bhf 9, E-Motoren! | urspr. Website-Angabe: keine",
+  "notes": "Am Bhf 9, E-Motoren! | urspr. Website-Angabe: keine | Adresse: Bassenheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5704,7 +5704,7 @@
   }
  },
  {
-  "slug": "rp-x-rwr-weienthurm",
+  "slug": "rp-weienthurm-rwr-weienthurm",
   "name": "RWR Weißenthurm",
   "trader_type": "schrotthaendler",
   "description": "",
@@ -5718,7 +5718,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "wlw Platinen/E-Schrott/edelmetallhaltig! | urspr. Website-Angabe: keine",
+  "notes": "wlw Platinen/E-Schrott/edelmetallhaltig! | urspr. Website-Angabe: keine | Adresse: Weißenthurm",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5727,7 +5727,7 @@
   }
  },
  {
-  "slug": "rp-x-frohlich-breitscheid",
+  "slug": "rp-breitscheid-frohlich-breitscheid",
   "name": "Fröhlich Breitscheid",
   "trader_type": "sonstige",
   "description": "",
@@ -5741,7 +5741,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "urspr. Website-Angabe: keine",
+  "notes": "urspr. Website-Angabe: keine | Adresse: Breitscheid",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5750,11 +5750,11 @@
   }
  },
  {
-  "slug": "rp-x-esper-binningen",
+  "slug": "rp-binningen-esper-binningen",
   "name": "Esper Binningen",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Esper Binningen  Hauptstr. 56",
+  "street": "Esper Binningen Binningen Hauptstr. 56",
   "postcode": "",
   "phone": "",
   "city": "Binningen",
@@ -5764,7 +5764,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Hauptstr. 56 | urspr. Website-Angabe: keine",
+  "notes": "Hauptstr. 56 | urspr. Website-Angabe: keine | Adresse: Binningen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5773,7 +5773,7 @@
   }
  },
  {
-  "slug": "rp-x-dernbach",
+  "slug": "rp-dernbach-dernbach",
   "name": "Dernbach",
   "trader_type": "sonstige",
   "description": "",
@@ -5787,7 +5787,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Butterpfad 1 | urspr. Website-Angabe: keine",
+  "notes": "Butterpfad 1 | urspr. Website-Angabe: keine | Adresse: Dernbach",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5796,7 +5796,7 @@
   }
  },
  {
-  "slug": "rp-x-heinen-buchel",
+  "slug": "rp-buchel-heinen-buchel",
   "name": "Heinen Büchel",
   "trader_type": "sonstige",
   "description": "",
@@ -5810,7 +5810,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Georgsweiler Str., NEU vs Strohn-Seed | urspr. Website-Angabe: keine",
+  "notes": "Georgsweiler Str., NEU vs Strohn-Seed | urspr. Website-Angabe: keine | Adresse: Büchel",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5819,7 +5819,7 @@
   }
  },
  {
-  "slug": "rp-x-gerolstein",
+  "slug": "rp-gerolstein-gerolstein",
   "name": "Gerolstein",
   "trader_type": "sonstige",
   "description": "",
@@ -5833,7 +5833,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Sarresdorfer Str. 8 | urspr. Website-Angabe: keine",
+  "notes": "Sarresdorfer Str. 8 | urspr. Website-Angabe: keine | Adresse: Gerolstein",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5842,7 +5842,7 @@
   }
  },
  {
-  "slug": "rp-x-weishaar-birresborn",
+  "slug": "rp-birresborn-weishaar-birresborn",
   "name": "Weishaar Birresborn",
   "trader_type": "sonstige",
   "description": "",
@@ -5856,7 +5856,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Rom 3 | urspr. Website-Angabe: keine",
+  "notes": "Rom 3 | urspr. Website-Angabe: keine | Adresse: Birresborn",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5865,7 +5865,7 @@
   }
  },
  {
-  "slug": "rp-x-alldemont-weroth",
+  "slug": "rp-weroth-alldemont-weroth",
   "name": "ALLDEMONT Weroth",
   "trader_type": "schrotthaendler",
   "description": "",
@@ -5879,7 +5879,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "In d. Mark 2, Asbest+Schrott | urspr. Website-Angabe: keine",
+  "notes": "In d. Mark 2, Asbest+Schrott | urspr. Website-Angabe: keine | Adresse: Weroth",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5888,11 +5888,11 @@
   }
  },
  {
-  "slug": "rp-x-wehbacher-kirchen-wehbach",
+  "slug": "rp-kirchen-wehbacher-kirchen-wehbach",
   "name": "Wehbacher Kirchen-Wehbach",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Wehbacher Kirchen-Wehbach  Friedrichshüttenstr. 10",
+  "street": "Wehbacher Kirchen-Wehbach Kirchen Friedrichshüttenstr. 10",
   "postcode": "",
   "phone": "",
   "city": "Kirchen",
@@ -5902,7 +5902,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Friedrichshüttenstr. 10, 32★ | urspr. Website-Angabe: keine",
+  "notes": "Friedrichshüttenstr. 10, 32★ | urspr. Website-Angabe: keine | Adresse: Kirchen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5934,11 +5934,11 @@
   }
  },
  {
-  "slug": "rp-x-stoll-nassau",
+  "slug": "rp-nassau-stoll-nassau",
   "name": "Stoll Nassau",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Stoll Nassau  Bahnhofstr. 16",
+  "street": "Stoll Nassau Nassau Bahnhofstr. 16",
   "postcode": "",
   "phone": "",
   "city": "Nassau",
@@ -5948,7 +5948,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Bahnhofstr. 16 | urspr. Website-Angabe: keine",
+  "notes": "Bahnhofstr. 16 | urspr. Website-Angabe: keine | Adresse: Nassau",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5957,7 +5957,7 @@
   }
  },
  {
-  "slug": "rp-x-lienkamper-hillesheim",
+  "slug": "rp-hillesheim-lienkamper-hillesheim",
   "name": "Lienkämper Hillesheim",
   "trader_type": "mobil",
   "description": "",
@@ -5971,7 +5971,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "mobil | urspr. Website-Angabe: keine",
+  "notes": "mobil | urspr. Website-Angabe: keine | Adresse: Hillesheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -5980,7 +5980,7 @@
   }
  },
  {
-  "slug": "rp-x-brennemann-waldmohr",
+  "slug": "rp-waldmohr-brennemann-waldmohr",
   "name": "Brennemann Waldmohr",
   "trader_type": "sonstige",
   "description": "",
@@ -5994,7 +5994,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Nickelsweiher 15 | urspr. Website-Angabe: keine",
+  "notes": "Nickelsweiher 15 | urspr. Website-Angabe: keine | Adresse: Waldmohr",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6003,7 +6003,7 @@
   }
  },
  {
-  "slug": "rp-x-joa-altenglan",
+  "slug": "rp-altenglan-joa-altenglan",
   "name": "Joa Altenglan",
   "trader_type": "sonstige",
   "description": "",
@@ -6017,7 +6017,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Streitühle 4, 2. Händler | urspr. Website-Angabe: keine",
+  "notes": "Streitühle 4, 2. Händler | urspr. Website-Angabe: keine | Adresse: Altenglan",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6026,11 +6026,11 @@
   }
  },
  {
-  "slug": "rp-x-bach-kinderbeuern",
+  "slug": "rp-kinderbeuern-bach-kinderbeuern",
   "name": "Bach Kinderbeuern",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Bach Kinderbeuern  Bahnhofstr. 1",
+  "street": "Bach Kinderbeuern Kinderbeuern Bahnhofstr. 1",
   "postcode": "",
   "phone": "",
   "city": "Kinderbeuern",
@@ -6040,7 +6040,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Bahnhofstr. 1, offener Metallankauf! | urspr. Website-Angabe: keine",
+  "notes": "Bahnhofstr. 1, offener Metallankauf! | urspr. Website-Angabe: keine | Adresse: Kinderbeuern",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6049,7 +6049,7 @@
   }
  },
  {
-  "slug": "rp-x-ostermann-bengel",
+  "slug": "rp-bengel-ostermann-bengel",
   "name": "Ostermann Bengel",
   "trader_type": "sonstige",
   "description": "",
@@ -6063,7 +6063,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Zum Wiesental 26, Mikro | urspr. Website-Angabe: keine",
+  "notes": "Zum Wiesental 26, Mikro | urspr. Website-Angabe: keine | Adresse: Bengel",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6072,7 +6072,7 @@
   }
  },
  {
-  "slug": "rp-x-ayan-bechtolsheim",
+  "slug": "rp-bechtolsheim-ayan-bechtolsheim",
   "name": "Ayan Bechtolsheim",
   "trader_type": "sonstige",
   "description": "",
@@ -6086,7 +6086,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Gau-Odernheimer Str. 1, Clan | urspr. Website-Angabe: keine",
+  "notes": "Gau-Odernheimer Str. 1, Clan | urspr. Website-Angabe: keine | Adresse: Bechtolsheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6095,11 +6095,11 @@
   }
  },
  {
-  "slug": "rp-x-werner-baumholder",
+  "slug": "rp-baumholder-werner-baumholder",
   "name": "Werner Baumholder",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Werner Baumholder  Berschweilerstr. 11",
+  "street": "Werner Baumholder Baumholder Berschweilerstr. 11",
   "postcode": "",
   "phone": "",
   "city": "Baumholder",
@@ -6109,7 +6109,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Berschweilerstr. 11, 52★ | urspr. Website-Angabe: keine",
+  "notes": "Berschweilerstr. 11, 52★ | urspr. Website-Angabe: keine | Adresse: Baumholder",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6118,11 +6118,11 @@
   }
  },
  {
-  "slug": "rp-x-ayan-gollheim",
+  "slug": "rp-gollheim-ayan-gollheim",
   "name": "AYAN Göllheim",
   "trader_type": "sonstige",
   "description": "",
-  "street": "AYAN Göllheim  Königkreuzstr. 13",
+  "street": "AYAN Göllheim Göllheim Königkreuzstr. 13",
   "postcode": "",
   "phone": "",
   "city": "Göllheim",
@@ -6132,7 +6132,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Königkreuzstr. 13 | urspr. Website-Angabe: keine",
+  "notes": "Königkreuzstr. 13 | urspr. Website-Angabe: keine | Adresse: Göllheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6141,11 +6141,11 @@
   }
  },
  {
-  "slug": "rp-x-tavernier-hanhofen",
+  "slug": "rp-hanhofen-tavernier-hanhofen",
   "name": "Tavernier Hanhofen",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Tavernier Hanhofen  Silzweg 38",
+  "street": "Tavernier Hanhofen Hanhofen Silzweg 38",
   "postcode": "",
   "phone": "",
   "city": "Hanhofen",
@@ -6155,7 +6155,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Silzweg 38, Cluster-Zuwachs | urspr. Website-Angabe: keine",
+  "notes": "Silzweg 38, Cluster-Zuwachs | urspr. Website-Angabe: keine | Adresse: Hanhofen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6164,11 +6164,11 @@
   }
  },
  {
-  "slug": "rp-x-richard-lehr-hanhofen",
+  "slug": "rp-hanhofen-richard-lehr-hanhofen",
   "name": "Richard Lehr Hanhofen",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Richard Lehr Hanhofen  Silzweg 19",
+  "street": "Richard Lehr Hanhofen Hanhofen Silzweg 19",
   "postcode": "",
   "phone": "",
   "city": "Hanhofen",
@@ -6178,7 +6178,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Silzweg 19, NEU | urspr. Website-Angabe: keine",
+  "notes": "Silzweg 19, NEU | urspr. Website-Angabe: keine | Adresse: Hanhofen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6187,11 +6187,11 @@
   }
  },
  {
-  "slug": "rp-x-sonntag-traben-trarbach",
+  "slug": "rp-trarbach-sonntag-traben-trarbach",
   "name": "Sonntag Traben-Trarbach",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Sonntag Traben-Trarbach  Wildbadstr. 611",
+  "street": "Sonntag Traben-Trarbach Trarbach Wildbadstr. 611",
   "postcode": "",
   "phone": "",
   "city": "Trarbach",
@@ -6201,7 +6201,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Wildbadstr. 611 | urspr. Website-Angabe: keine",
+  "notes": "Wildbadstr. 611 | urspr. Website-Angabe: keine | Adresse: Trarbach",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6210,11 +6210,11 @@
   }
  },
  {
-  "slug": "rp-x-van-vloten-ruppertsberg",
+  "slug": "rp-ruppertsberg-van-vloten-ruppertsberg",
   "name": "van Vloten Ruppertsberg",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Vloten Ruppertsberg  Obergasse 8D",
+  "street": "Vloten Ruppertsberg Ruppertsberg Obergasse 8D",
   "postcode": "",
   "phone": "",
   "city": "Ruppertsberg",
@@ -6224,7 +6224,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Obergasse 8D | urspr. Website-Angabe: keine",
+  "notes": "Obergasse 8D | urspr. Website-Angabe: keine | Adresse: Ruppertsberg",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6233,11 +6233,11 @@
   }
  },
  {
-  "slug": "rp-x-dubovic-annweiler",
+  "slug": "rp-annweiler-dubovic-annweiler",
   "name": "Dubovic Annweiler",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Dubovic Annweiler  Hauptstr. 51",
+  "street": "Dubovic Annweiler Annweiler Hauptstr. 51",
   "postcode": "",
   "phone": "",
   "city": "Annweiler",
@@ -6247,7 +6247,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Hauptstr. 51, Mikro | urspr. Website-Angabe: keine",
+  "notes": "Hauptstr. 51, Mikro | urspr. Website-Angabe: keine | Adresse: Annweiler",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6256,11 +6256,11 @@
   }
  },
  {
-  "slug": "rp-x-mayer-nattenheim",
+  "slug": "rp-nattenheim-mayer-nattenheim",
   "name": "Mayer Nattenheim",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Mayer Nattenheim  Hauptstr. 90",
+  "street": "Mayer Nattenheim Nattenheim Hauptstr. 90",
   "postcode": "",
   "phone": "",
   "city": "Nattenheim",
@@ -6270,7 +6270,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Hauptstr. 90 | urspr. Website-Angabe: keine",
+  "notes": "Hauptstr. 90 | urspr. Website-Angabe: keine | Adresse: Nattenheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6279,7 +6279,7 @@
   }
  },
  {
-  "slug": "rp-x-gartner-murlenbach",
+  "slug": "rp-murlenbach-gartner-murlenbach",
   "name": "Gärtner Mürlenbach",
   "trader_type": "sonstige",
   "description": "",
@@ -6293,7 +6293,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Meisburger Str. 1 | urspr. Website-Angabe: keine",
+  "notes": "Meisburger Str. 1 | urspr. Website-Angabe: keine | Adresse: Mürlenbach",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6302,11 +6302,11 @@
   }
  },
  {
-  "slug": "rp-x-petri-gillenfeld",
+  "slug": "rp-gillenfeld-petri-gillenfeld",
   "name": "Petri Gillenfeld",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Petri Gillenfeld  Bahnhofstr. 4",
+  "street": "Petri Gillenfeld Gillenfeld Bahnhofstr. 4",
   "postcode": "",
   "phone": "",
   "city": "Gillenfeld",
@@ -6316,7 +6316,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Bahnhofstr. 4 | urspr. Website-Angabe: keine",
+  "notes": "Bahnhofstr. 4 | urspr. Website-Angabe: keine | Adresse: Gillenfeld",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6325,7 +6325,7 @@
   }
  },
  {
-  "slug": "rp-x-ulman-laukert-ober-florsheim",
+  "slug": "rp-florsheim-ulman-laukert-ober-florsheim",
   "name": "Ulman/Laukert Ober-Flörsheim",
   "trader_type": "sonstige",
   "description": "",
@@ -6339,7 +6339,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Stetter Str. 4 | urspr. Website-Angabe: keine",
+  "notes": "Stetter Str. 4 | urspr. Website-Angabe: keine | Adresse: Flörsheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6348,11 +6348,11 @@
   }
  },
  {
-  "slug": "rp-x-ries-wierschem",
+  "slug": "rp-wierschem-ries-wierschem",
   "name": "Ries Wierschem",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Ries Wierschem  Pappelstr. 3",
+  "street": "Ries Wierschem Wierschem Pappelstr. 3",
   "postcode": "",
   "phone": "",
   "city": "Wierschem",
@@ -6362,7 +6362,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Pappelstr. 3 | urspr. Website-Angabe: keine",
+  "notes": "Pappelstr. 3 | urspr. Website-Angabe: keine | Adresse: Wierschem",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6371,11 +6371,11 @@
   }
  },
  {
-  "slug": "rp-x-wetzel-hordt",
+  "slug": "rp-hordt-wetzel-hordt",
   "name": "Wetzel Hördt",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Wetzel Hördt  Wörthstr. 8",
+  "street": "Wetzel Hördt Hördt Wörthstr. 8",
   "postcode": "",
   "phone": "",
   "city": "Hördt",
@@ -6385,7 +6385,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Wörthstr. 8 | urspr. Website-Angabe: keine",
+  "notes": "Wörthstr. 8 | urspr. Website-Angabe: keine | Adresse: Hördt",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6394,11 +6394,11 @@
   }
  },
  {
-  "slug": "rp-x-lenhart-bellheim",
+  "slug": "rp-bellheim-lenhart-bellheim",
   "name": "Lenhart Bellheim",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Lenhart Bellheim  Luisenstr. 16",
+  "street": "Lenhart Bellheim Bellheim Luisenstr. 16",
   "postcode": "",
   "phone": "",
   "city": "Bellheim",
@@ -6408,7 +6408,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Luisenstr. 16, 2. Betrieb | urspr. Website-Angabe: keine",
+  "notes": "Luisenstr. 16, 2. Betrieb | urspr. Website-Angabe: keine | Adresse: Bellheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6417,7 +6417,7 @@
   }
  },
  {
-  "slug": "rp-x-faust-bellheim",
+  "slug": "rp-bellheim-faust-bellheim",
   "name": "Faust Bellheim",
   "trader_type": "sonstige",
   "description": "",
@@ -6431,7 +6431,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Hördter Str. 48, FE | urspr. Website-Angabe: keine",
+  "notes": "Hördter Str. 48, FE | urspr. Website-Angabe: keine | Adresse: Bellheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6463,11 +6463,11 @@
   }
  },
  {
-  "slug": "rp-x-lenhardt-lustadt",
+  "slug": "rp-lustadt-lenhardt-lustadt",
   "name": "Lenhardt Lustadt",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Lenhardt Lustadt  Röderstr. 12",
+  "street": "Lenhardt Lustadt Lustadt Röderstr. 12",
   "postcode": "",
   "phone": "",
   "city": "Lustadt",
@@ -6477,7 +6477,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Röderstr. 12 | urspr. Website-Angabe: keine",
+  "notes": "Röderstr. 12 | urspr. Website-Angabe: keine | Adresse: Lustadt",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6486,7 +6486,7 @@
   }
  },
  {
-  "slug": "rp-x-wetzel-bellheim",
+  "slug": "rp-bellheim-wetzel-bellheim",
   "name": "Wetzel Bellheim",
   "trader_type": "sonstige",
   "description": "",
@@ -6500,7 +6500,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Am Weidensatz 45, 3. Betrieb | urspr. Website-Angabe: keine",
+  "notes": "Am Weidensatz 45, 3. Betrieb | urspr. Website-Angabe: keine | Adresse: Bellheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6509,11 +6509,11 @@
   }
  },
  {
-  "slug": "rp-x-bruhl-ober-hilbersheim",
+  "slug": "rp-hilbersheim-bruhl-ober-hilbersheim",
   "name": "Brühl Ober-Hilbersheim",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Brühl Ober-Hilbersheim  Obergasse 12",
+  "street": "Brühl Ober-Hilbersheim Hilbersheim Obergasse 12",
   "postcode": "",
   "phone": "",
   "city": "Hilbersheim",
@@ -6523,7 +6523,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Obergasse 12 | urspr. Website-Angabe: keine",
+  "notes": "Obergasse 12 | urspr. Website-Angabe: keine | Adresse: Hilbersheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6532,11 +6532,11 @@
   }
  },
  {
-  "slug": "rp-x-bra-bruchmuhlbach",
+  "slug": "rp-bruchmuhlbach-bra-bruchmuhlbach",
   "name": "Bra Bruchmühlbach",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Bra Bruchmühlbach  Bahnhofstr. 19B",
+  "street": "Bra Bruchmühlbach Bruchmühlbach Bahnhofstr. 19B",
   "postcode": "",
   "phone": "",
   "city": "Bruchmühlbach",
@@ -6546,7 +6546,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Bahnhofstr. 19B | urspr. Website-Angabe: keine",
+  "notes": "Bahnhofstr. 19B | urspr. Website-Angabe: keine | Adresse: Bruchmühlbach",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6555,11 +6555,11 @@
   }
  },
  {
-  "slug": "rp-x-feuereisen-neumagen-dhron",
+  "slug": "rp-dhron-feuereisen-neumagen-dhron",
   "name": "Feuereisen Neumagen-Dhron",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Feuereisen Neumagen-Dhron  Hochwaldstr. 33",
+  "street": "Feuereisen Neumagen-Dhron Dhron Hochwaldstr. 33",
   "postcode": "",
   "phone": "",
   "city": "Dhron",
@@ -6569,7 +6569,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Hochwaldstr. 33 | urspr. Website-Angabe: keine",
+  "notes": "Hochwaldstr. 33 | urspr. Website-Angabe: keine | Adresse: Dhron",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6578,7 +6578,7 @@
   }
  },
  {
-  "slug": "rp-x-scheibel-drees",
+  "slug": "rp-drees-scheibel-drees",
   "name": "Scheibel Drees",
   "trader_type": "sonstige",
   "description": "",
@@ -6592,7 +6592,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "In d. Kant 12 | urspr. Website-Angabe: keine",
+  "notes": "In d. Kant 12 | urspr. Website-Angabe: keine | Adresse: Drees",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6601,7 +6601,7 @@
   }
  },
  {
-  "slug": "rp-x-horczyk-elkenroth",
+  "slug": "rp-elkenroth-horczyk-elkenroth",
   "name": "Horczyk Elkenroth",
   "trader_type": "sonstige",
   "description": "",
@@ -6615,7 +6615,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Alsdorfer Weg 14-18 | urspr. Website-Angabe: keine",
+  "notes": "Alsdorfer Weg 14-18 | urspr. Website-Angabe: keine | Adresse: Elkenroth",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6647,7 +6647,7 @@
   }
  },
  {
-  "slug": "rp-x-alba-metall-sud-germersheim",
+  "slug": "rp-germersheim-alba-metall-sud-germersheim",
   "name": "ALBA Metall Süd Germersheim",
   "trader_type": "sonstige",
   "description": "",
@@ -6661,7 +6661,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Im Weidenschlag 1 | urspr. Website-Angabe: keine",
+  "notes": "Im Weidenschlag 1 | urspr. Website-Angabe: keine | Adresse: Germersheim",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6670,21 +6670,21 @@
   }
  },
  {
-  "slug": "rp-x-atm-konz-konen",
+  "slug": "rp-konz-konen-atm-konz-konen",
   "name": "ATM Konz-Könen",
   "trader_type": "sonstige",
   "description": "",
   "street": "",
   "postcode": "",
   "phone": "",
-  "city": "Könen",
+  "city": "Konz-Könen",
   "state": "RP",
   "website": "",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Albert-Einstein-Str. 10-12 | urspr. Website-Angabe: keine",
+  "notes": "Albert-Einstein-Str. 10-12 | urspr. Website-Angabe: keine | Adresse: Konz-Könen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6693,11 +6693,11 @@
   }
  },
  {
-  "slug": "rp-x-mader-trier-ehrang",
+  "slug": "rp-trier-mader-trier-ehrang",
   "name": "Mader Trier-Ehrang",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Mader Trier-Ehrang  Servaisstr. 1a",
+  "street": "Mader Trier-Ehrang Trier Servaisstr. 1a",
   "postcode": "",
   "phone": "",
   "city": "Trier",
@@ -6707,7 +6707,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Servaisstr. 1a | urspr. Website-Angabe: keine",
+  "notes": "Servaisstr. 1a | urspr. Website-Angabe: keine | Adresse: Trier",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6739,11 +6739,11 @@
   }
  },
  {
-  "slug": "rp-x-gotz-tiefenthal",
+  "slug": "rp-tiefenthal-gotz-tiefenthal",
   "name": "Götz Tiefenthal",
   "trader_type": "sonstige",
   "description": "",
-  "street": "Götz Tiefenthal  Hauptstr. 1",
+  "street": "Götz Tiefenthal Tiefenthal Hauptstr. 1",
   "postcode": "",
   "phone": "",
   "city": "Tiefenthal",
@@ -6753,7 +6753,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Hauptstr. 1, Familie Seed-Götz? | urspr. Website-Angabe: keine",
+  "notes": "Hauptstr. 1, Familie Seed-Götz? | urspr. Website-Angabe: keine | Adresse: Tiefenthal",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6762,21 +6762,21 @@
   }
  },
  {
-  "slug": "rp-x-meyer-lachen-speyerdorf",
+  "slug": "rp-neustadt-meyer-lachen-speyerdorf",
   "name": "Meyer Lachen-Speyerdorf",
   "trader_type": "sonstige",
   "description": "",
   "street": "",
   "postcode": "",
   "phone": "",
-  "city": "Speyerdorf",
+  "city": "Neustadt",
   "state": "RP",
   "website": "",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Im Altenschemel 40a, = Seed-Meyer-Sascha? | urspr. Website-Angabe: keine",
+  "notes": "Im Altenschemel 40a, = Seed-Meyer-Sascha? | urspr. Website-Angabe: keine | Adresse: Neustadt",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6785,7 +6785,7 @@
   }
  },
  {
-  "slug": "rp-x-green-rennerod",
+  "slug": "rp-wolfsgestell-green-rennerod",
   "name": "Green Rennerod",
   "trader_type": "sonstige",
   "description": "",
@@ -6799,7 +6799,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Am Wolfsgestell 1, NE + E-Motoren, 113★ | urspr. Website-Angabe: keine",
+  "notes": "Am Wolfsgestell 1, NE + E-Motoren, 113★ | urspr. Website-Angabe: keine | Adresse: Wolfsgestell",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6808,7 +6808,7 @@
   }
  },
  {
-  "slug": "rp-x-muhlhausen-ettringen",
+  "slug": "rp-ettringen-muhlhausen-ettringen",
   "name": "Mühlhausen Ettringen",
   "trader_type": "sonstige",
   "description": "",
@@ -6822,7 +6822,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "? Fehlklassifikation? | urspr. Website-Angabe: keine",
+  "notes": "? Fehlklassifikation? | urspr. Website-Angabe: keine | Adresse: Ettringen",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6831,7 +6831,7 @@
   }
  },
  {
-  "slug": "rp-x-sterz-neustadt-wied",
+  "slug": "rp-neustadt-sterz-neustadt-wied",
   "name": "Sterz Neustadt/Wied",
   "trader_type": "sonstige",
   "description": "",
@@ -6845,7 +6845,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "? zweifelhaft). | urspr. Website-Angabe: keine",
+  "notes": "? zweifelhaft). | urspr. Website-Angabe: keine | Adresse: Neustadt",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",
@@ -6854,7 +6854,7 @@
   }
  },
  {
-  "slug": "rp-x-spot-checks-velte-kreutz-sell-herrmann-s",
+  "slug": "rp-andernach-spot-checks-velte-kreutz-sell-herrmann-s",
   "name": "Spot-checks: Velte/Kreutz/Sell/Herrmann/Schiele/Meschke/FOGOLIN LEBTIG",
   "trader_type": "sonstige",
   "description": "",
@@ -6868,7 +6868,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "+Websites gefunden!). TOT-VERDACHT (nicht markiert): Morasch Zweibrücken, Weiß KL, Adams Bitburg, Marquart Mendig, Mainzer-Metall-Verwertung, Van den Berg/Levin/D&F Andernach, Schilling Alsdorf (→ Speicher?). | urspr. Website-Angabe: keine",
+  "notes": "+Websites gefunden!). TOT-VERDACHT (nicht markiert): Morasch Zweibrücken, Weiß KL, Adams Bitburg, Marquart Mendig, Mainzer-Metall-Verwertung, Van den Berg/Levin/D&F Andernach, Schilling Alsdorf (→ Speicher?). | urspr. Website-Angabe: keine | Adresse: Andernach",
   "provenance": {
    "seed_file": "rp",
    "section": "Nachtrag Wide-Net PROSE-Cluster (27.09.2026)",

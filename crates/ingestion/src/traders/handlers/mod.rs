@@ -20,6 +20,7 @@ pub mod goldschanze;
 pub mod goldtrans;
 pub mod gutzmann;
 pub mod hansa_goldankauf;
+pub mod hensel_recycling;
 pub mod kalkmann;
 pub mod katalysator_hai;
 pub mod kupferhelden;
@@ -78,6 +79,7 @@ pub fn all() -> Vec<Handler> {
         asn_norderstedt::handler(),
         bruno_welz::handler(),
         hansa_goldankauf::handler(),
+        hensel_recycling::handler(),
         goldankauf_boerse::handler(),
         gold_richtig::handler(),
         goldhaus_brb::handler(),

@@ -60,7 +60,7 @@ Neue Winkel: Kleinanzeigen-Pro (Saarland-Filter), schrottradar.de/schrottplatz-i
 
 | # | Name | Ort | Website | Spezialität | Ankauf |
 |---|------|-----|---------|-------------|--------|
-| 43 | PRISON Schrott- & Metallhandel (Michael Prison) | Homburg (Gleisdreieck 8) | https://prison-metallhandel.de/ (per Fetch verifiziert) | alle Metalle, Abholung ab 500 kg, Container, Demontage | ja |
+| 43 | PRISON Schrott- & Metallhandel (Michael Prison) | Homburg (Gleisdreieck 8) | https://pr-metallhandel.de/ (Rebrand, per Fetch verifiziert) | alle Metalle, Abholung ab 500 kg, Container, Demontage | ja |
 | 44 | MC Rohstoffrecycling GmbH | Homburg (In den Rohrwiesen 18) | https://mc-rohstoffrecycling.de/ | Schrott, NE-Metalle, Bleibatterien; Container 5–30 m³; ISO-9001-zertifiziert | ja |
 | 45 | Ludwig Feix & Sohn GmbH (präzisiert Nr. 33) | Bexbach-Oberbexbach (Obere Hochstr. 161) | https://www.schrottentsorgung-feix.de/ (lt. Verzeichnissen; Direktabruf fehlgeschlagen) | Kupfer, Alu, Edelstahl, Messing, Zinn/Zink, Blei, Kabel; Demontage, Container | ja (lt. Verzeichnissen) |
 | 46 | Schrotthandel Weiler Bärbel | Merchweiler (Eisenbahnstr. 1) | http://schrott-wb.de/ (lt. Verzeichnis) | Eisen (ab 100 kg), NE (ab 1 kg), Kabel, E-Motoren, Altfahrzeuge | ja (lt. Verzeichnis) |

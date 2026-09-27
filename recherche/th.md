@@ -23,7 +23,7 @@ Websites per webfetch verifiziert. „keine Website gefunden" = keine Website pe
 | Thüringen Recycling GmbH | Weimar (Rießnerstr. 13–19) | https://www.thueringen-recycling.de/ | Produktionsabfälle/Wertstoffe, Container, Entsorgungskonzepte | ja (v. a. Gewerbe: „Wir kaufen Ihre Produktionsabfälle") | Gelbe Seiten, Website verifiziert |
 | Geweniger Recycling GmbH | Meuselwitz (Bismarckring 2) + Altenburg (Brunnenstr. 3b) + Nobitz/Kotteritz (Werksiedlung 31) | https://www.geweniger-recycling.de/ | Eisen-/Buntmetall, Kabelschrott, Container, Demontage/Rückbau | ja (Wertstoffankauf) | schrottplatz-info.de, Website verifiziert; BDSV-Mitglied |
 | Schrotthandel Richter | mobil TH-weit (Erfurt, Weimar, Gotha, Arnstadt u. a.; Basis Northeim/NI) | https://www.schrotthandel-richter.de/schrotthandel-erfurt | Kostenlose Schrottabholung, Buntmetall-Ankauf, Container | ja (Abholung; Barzahlung b. werthaltigen Mengen) | Websuche + Website verifiziert; kein Platz in TH |
-| Fernkorn Albert e.K. Metallhandel u. Containerdienst | Weimar (Rießnerstr. 1) | keine Website gefunden | Metallhandel, Containerdienst | Ankauf unklar | Gelbe Seiten (benachbart zu Thüringen Recycling) |
+| Fernkorn Albert e.K. Metallhandel u. Containerdienst | Weimar (Rießnerstr. 1) | keine Website gefunden — TOT | Metallhandel, Containerdienst | Ankauf unklar | Gelbe Seiten (benachbart zu Thüringen Recycling) |
 | Schrotthandel R&M | Sondershausen (Am Petersenschacht 13) | keine Website gefunden | Schrott (allg.) | Ankauf unklar | Gelbe Seiten Erfurt/Nordhausen |
 | Koch Norman | Erfurt-Gispersleben (Camburger Str. 5) | keine Website gefunden | Schrott, Kleinsammler | Ankauf unklar | Gelbe Seiten + schrottplatz-info.de |
 | Hugo Entsorgung GmbH | Erfurt (Ladestr. 1/3) | http://www.hugo-bebra.eu — TOT (Dead-Site-Verdacht) | Entsorgung + Schrott | Ankauf unklar | Gelbe Seiten + schrottplatz-info.de |
@@ -50,7 +50,7 @@ Websites per webfetch verifiziert. „keine Website gefunden" = keine Website pe
 | Haid Bernd Schrotthandel und Containerdienst | Walldorf b. Meiningen | keine Website gefunden | Schrotthandel, Container | Ankauf unklar | schrottplatz-info.de (Umkreis Zella-Mehlis) |
 | Jäger Jürgen | Schmalkalden | keine Website gefunden | Schrott (allg., Thüringer Wald) | Ankauf unklar | schrottplatz-info.de (Umkreis) |
 | Töpfer Herbert Schrotthandel / Töpfer Metallaufbereitung GmbH & Co. KG | Heilbad Heiligenstadt/Eichsfeld (Auf der Rinne 36) | keine Website gefunden | Schrotthandel, Metallaufbereitung | Ankauf unklar | schrottplatz-info.de |
-| Petri Tobias Containerdienst & Recycling | Küllstedt (Eichsfeld) | keine Website gefunden | Container, Recycling | Ankauf unklar | schrottplatz-info.de (Umkreis) |
+| Petri Tobias Containerdienst & Recycling | Küllstedt, An der Lehmkuhle 11, 37359 | keine Website gefunden | Container, Recycling | Ankauf unklar | schrottplatz-info.de (Umkreis) |
 | Gertz Altmetallhandel | Sonneberg (Alte Handelsstr. 2D) | keine Website gefunden | Altmetallhandel (Name spricht für Ankauf) | Ankauf unklar | schrottplatz-info.de |
 | Schrott und Metalle | Neuhaus am Rennweg (Waldweg 2, Thüringer Wald) | keine Website gefunden | Schrott und Metalle | Ankauf unklar | schrottplatz-info.de |
 | Stiefel Norbert Containerdienst Metall- u. Schrott | Sachsenbrunn (Südthüringen) | keine Website gefunden | Container, Metall/Schrott | Ankauf unklar | schrottplatz-info.de (Umkreis) |

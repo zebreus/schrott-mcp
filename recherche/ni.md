@@ -17,7 +17,7 @@ Legende Ankauf: **ja** = kauft Schrott/Metalle an (Website/Portal bestätigt). *
 | Manuela Herrmann Schrott- und Metallhandel | Hannover | https://www.hannover-schrott.de | Schrott/Metall, Container | ja |
 | Willi Hennies Recycling HSM (Lindener Hafen) | Hannover | https://www.willi-hennies.de | Schrott/Metall, Hafen | ja |
 | SchrottiHannover (Schrottabholung) | Hannover | https://schrottabholung-hannover.de | Abholung, Kleinmengen | ja |
-| schrott.io Ankaufsstation Hannover-Langenhagen | Langenhagen | https://schrott.io | Online-Ankauf, Annahmestelle | ja |
+| schrott.io Ankaufsstation Hannover-Langenhagen | Langenhagen | https://schrott.io — TOT | Online-Ankauf, Annahmestelle | ja |
 | Schrott & Metall Richter (mobil u. a. Hannover) | Northeim (mobil) | https://www.schrotthandel-richter.de | Abholung/Ankauf, Cu/Messing/Alu/Kabel | ja |
 | Schrottjungs (Abholung) | Hannover (mobil) | https://schrottjungs.de | Abholung | ja |
 | E. Klemens Schrott u. Metalle | Hannover | keine Website gefunden | Schrott/Metalle | ja |
@@ -45,7 +45,7 @@ Legende Ankauf: **ja** = kauft Schrott/Metalle an (Website/Portal bestätigt). *
 | Schrottplatz Rautheim | Braunschweig | keine Website gefunden | Schrottplatz | ja |
 | Schmidt Schrott und Metallhandel | Braunschweig | keine Website gefunden | Schrott/Metalle | ja |
 | Assmann Recycling GmbH | Cremlingen | https://assmann-recycling.de | Recycling/Schrott | ja |
-| Weibel GmbH (2 Standorte) | Wolfenbüttel | https://www.weibel-gmbh.de | Schrott/Metall | ja |
+| Weibel GmbH (2 Standorte) | Wolfenbüttel | https://www.https://remondis-nord.de | Schrott/Metall | ja |
 | Uwe Hanusa Schrott- und Metallhandel | Vechelde | keine Website gefunden | Schrott/Metalle | ja |
 | Die Schrottkiste Ewert & Hartmann GbR | Isenbüttel | keine Website gefunden | Schrott | ja |
 | Karl-Heinz Possiel Metallschrotthandlung | Wolfsburg | keine Website gefunden | Metallschrott | ja |
@@ -262,7 +262,7 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | Schrott Abholservice M. Mettbach | Nortmoor (Dorfstr. 65a, LK Leer) | keine (nur Verzeichnisbeleg) | Schrott/Abholung | Ankauf unklar |
 | Strömer Johann | Moormerland (Otto-Hahn-Str. 7) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | R. Leimberger | Ostrhauderfehn (Idafehn-Süd 104) | schrottplatz-info.de (nur Verzeichnisbeleg) | Schrott, Container/Demontage/Autoverwertung | Ankauf unklar |
-| Emsland Metallhandel Hinrichs (ELMH) | Surwold (Papenburger Str. 19) | elmh.de (nur Verzeichnisbeleg, nicht einzeln verifiziert) | Metallhandel | Ankauf unklar |
+| Emsland Metallhandel Hinrichs (ELMH) | Surwold (Papenburger Str. 19) | elmh.de (nur Verzeichnisbeleg, nicht einzeln verifiziert) — TOT | Metallhandel | Ankauf unklar |
 | Schrotthandel Waalkes | Großheide (Halbemonder Str. 17, LK Aurich) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Gerhard Czaja Schrotthandel | Upgant-Schott (Graf-Enno-Str. 5, LK Aurich) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Autorecycling Johann Müller (Etzel) | Friedeburg-Etzel (Horster Str. 6–8, LK Wittmund) | autoverwertung-etzel.de (nur Verzeichnisbeleg) | Autoverwertung (Flag) | Ankauf unklar |
@@ -283,7 +283,7 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | Emsschrott (Zweigstelle Werlte) | Werlte (Am Zirkel 10) | https://emsschrott.de (Konzern, Verzeichnisbeleg) | Fe-/NE, Container/Demontage | ja |
 | zwafink Schrotthandel und Lohnarbeiten | Esche (Zur Eiche 3, Grafschaft Bentheim, NL-Grenznähe) | zwafink-schrotthandel.de (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Pund Emil Schrott & Metallhandel | Lorup (Am Funkturm 20, LK Emsland) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
-| Andreas Sandern GmbH | Geeste (Industriestr. 3) | andreas-sandern.jimdo.com (nur Verzeichnisbeleg) | Schrott, Container | Ankauf unklar |
+| Andreas Sandern GmbH | Geeste (Industriestr. 3) | andreas-sandern.jimdo.com (nur Verzeichnisbeleg) — TOT | Schrott, Container | Ankauf unklar |
 | Snep | Haselünne (Hülsener Weg) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Autoverwertung Jan Nee | Neulehe (Gewerbegebiet Hoeks Teile 6) | autoverwertung-nee.de (nur Verzeichnisbeleg) | Autoverwertung (Flag) | Ankauf unklar |
 
@@ -299,7 +299,7 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | WESER-RECYCLINGHOF | Schwaförden (Hauptstr. 74) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Gerdes Metallhandel | Stuhr-Brinkum (Rodendamm 7–9) | gerdes-metallhandel.de (nur Verzeichnisbeleg; Kabelrecycling-Service gelistet) | Metalle, Kabelrecycling, Container | Ankauf unklar |
 | Schrott- und Metallhandel C&C | Syke (Am Ristedter Weg 19) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
-| Petko Schrott & Metalle (Zweigstellen Bassum + Osterholz-Scharmbeck) | Bassum (Industriestr. 41), Osterholz-Scharmbeck (Auf d. Horst 29) | petko.de (Konzern, Verzeichnisbeleg) | Schrott/Metalle | ja |
+| Petko Schrott & Metalle (Zweigstellen Bassum + Osterholz-Scharmbeck) | Bassum (Industriestr. 41), Osterholz-Scharmbeck (Auf d. Horst 29) | https://petko-metalle.de (Konzern, Verzeichnisbeleg) | Schrott/Metalle | ja |
 | AIPEX Transport & Trading | Bassum (Industriestr. 31) | aipex-gmbh.de (nur Verzeichnisbeleg) | Alu/Stahl, Autoverwertung/Logistik | Ankauf unklar |
 | Mannott Metallrecycling | Martfeld (Freesenstr. 2–6) | mannott-metalle.de (nur Verzeichnisbeleg) | Schrott, Autoverwertung/Demontage | Ankauf unklar |
 | Czezorra Metall GmbH | Brockum (Gewerbering 38, LK Diepholz) | czezorra-metall.de (nur Verzeichnisbeleg) | Metalle, Demontage | Ankauf unklar |
@@ -307,15 +307,15 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | TuS Schrott & Metalle | Harpstedt (Ravenskamp 8) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Wilhelm Walkling e.K. | Peine (Fritz-Stegen-Allee 6) | schrott-walkling.de (nur Verzeichnisbeleg) | Schrott/NE/Kühler/Hartmetalle, Autoverwertung/Container | Ankauf unklar |
 | Schrotthandel Jörling | Bad Essen (Am Langen Holz 20) | keine (nur Verzeichnisbeleg, Facebook) | Schrott | Ankauf unklar |
-| Wilhelm Hehmann | Bad Laer (Venner Ring 5) | wilhelm-hehmann.de (nur Verzeichnisbeleg) | Stahlschrott | Ankauf unklar |
+| Wilhelm Hehmann | Bad Laer (Venner Ring 5) | wilhelm-hehmann.de (nur Verzeichnisbeleg) — TOT | Stahlschrott | Ankauf unklar |
 | Schrott & Metalle Baumgärtner | Melle (Sundernstr. 6) | schrott-melle.de (nur Verzeichnisbeleg) | Stahlschrott, Logistik | Ankauf unklar |
-| Autoverwertung Flebbe | Bramsche-Hesepe (Industriestr. 19) | autoverwertung-flebbe.de (nur Verzeichnisbeleg) | Autoverwertung (Flag) | Ankauf unklar |
+| Autoverwertung Flebbe | Bramsche-Hesepe (Industriestr. 19) | autoverwertung-flebbe.de (nur Verzeichnisbeleg) — TOT | Autoverwertung (Flag) | Ankauf unklar |
 | Ralph Uszkoreit Schrott & Containerdienst | Bramsche (Von-Bar-Str. 36) | keine (nur Verzeichnisbeleg) | Schrott, Container | Ankauf unklar |
 | Wilhelm Wacker Schrottgroßhandel | Quakenbrück (Artlandstr. 84) | keine (nur Verzeichnisbeleg) | Schrottgroßhandel | Ankauf unklar |
 | FS-Schrotthandel Behlert | Fürstenau (Hollensteder Str. 13) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | MSM Metall & Schrotthandel | Molbergen (Zum Gewerbegebiet 15–17) | msm-recycling.de (nur Verzeichnisbeleg) | Metalle, Container | Ankauf unklar |
 | NFH Zickura GmbH | Saterland (Rudolf-Diesel-Str. 11) | nfh-zickuragmbh.de (nur Verzeichnisbeleg) | Alu/Kühler/Blei/VA/E-Motoren/Kupfer | Ankauf unklar |
-| Fischer Schrott & Recycling | Bakum (Harmer Str. 27) | fischer-bakum.de (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
+| Fischer Schrott & Recycling | Bakum (Harmer Str. 27) | fischer-bakum.de (nur Verzeichnisbeleg) — TOT | Schrott | Ankauf unklar |
 | Karl-Heinz Hartong Schrotthandel | Vechta (Fuhrenkamp 21) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Wil-Ro GmbH | Wildeshausen (Düngstruper Str. 77) | wil-ro.de (nur Verzeichnisbeleg) | Metalle | Ankauf unklar |
 | Altmetallhandel OHZ | Hambergen (Ohlenstedter Str. 2) | keine (nur Verzeichnisbeleg) | Altmetall | Ankauf unklar |
@@ -338,8 +338,8 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | MADI Metall Recycling GmbH | Rosengarten (Ohepark 5, LK Harburg) | madi-schrott.de (nur Verzeichnisbeleg) | Schrott, Container/Demontage | Ankauf unklar |
 | Deich Metall | Wanna (Am Kirchberg 1, bei Cuxhaven) | deich-metall.de (nur Verzeichnisbeleg) | Alu/Kabel/E-Motoren/Zinn, Demontage | Ankauf unklar |
 | Haucke Recycling Hof | Sassenburg (Im Parsau 22; Fam. Haucke – Bezug zu „Ute Haucke“ Wolfsburg oben) | schrotthandel-haucke.de (nur Verzeichnisbeleg) | Schrott, Container | Ankauf unklar |
-| Schrotthandel Wilhelm Bäcker | Wolfenbüttel (Immenhof 9; mögl. Bezug zu Bäcker & Söhne Salzgitter) | jimdosite.com (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
-| Schrotthandel Sorich | Salzgitter-Fredenberg (Liebermannstr. 11) | schrotthandelsorich.de (nur Verzeichnisbeleg) | Alu/Kupfer/Stahl, Demontage | Ankauf unklar |
+| Schrotthandel Wilhelm Bäcker | Wolfenbüttel (Immenhof 9; mögl. Bezug zu Bäcker & Söhne Salzgitter) | jimdosite.com (nur Verzeichnisbeleg) — TOT | Schrott | Ankauf unklar |
+| Schrotthandel Sorich | Salzgitter-Fredenberg (Liebermannstr. 11) | schrotthandelsorich.de (nur Verzeichnisbeleg) — TOT | Alu/Kupfer/Stahl, Demontage | Ankauf unklar |
 | Schrotthandel Weber | Salzgitter-Gebhardshagen | weber-recycling.de (nur Verzeichnisbeleg) | Alu/Blei/E-Motoren/Kupfer/Kabel, Container/Demontage | Ankauf unklar |
 | Fredi Bäcker Schrotthandel | Salzgitter-Bleckenstedt (Alte Gärtnerei 13) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Schrott & Metalle – Adelhof | Salzgitter-Watenstedt (Hainholzweg 3) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
@@ -351,7 +351,7 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | Balzers Metallverwertungsgesellschaft UG | Alfeld (Limmerburg 11A; wthsl. identisch mit „Balzer Metallverwertung“ oben) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | SMR Alfeld GmbH | Alfeld (Gerzer Schlag 11) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Bassen Aribert Schrottgroßhandel | Schneverdingen (Hillern 9) | keine (nur Verzeichnisbeleg) | Schrottgroßhandel | Ankauf unklar |
-| Schrotthandel-Meinhardt | Barsinghausen-Egestorf (Am Schützenpl. 2A) | schrotthandel-meinhardt.de (nur Verzeichnisbeleg) | Alu/Kupfer/Kabel, Container/Demontage/Entrümpelung | Ankauf unklar |
+| Schrotthandel-Meinhardt | Barsinghausen-Egestorf (Am Schützenpl. 2A) | schrotthandel-meinhardt.de (nur Verzeichnisbeleg) — TOT | Alu/Kupfer/Kabel, Container/Demontage/Entrümpelung | Ankauf unklar |
 | Schrotthandel Thorsten Tordai | Springe-Bennigsen (Allerfeldstr. 11) | keine (nur Verzeichnisbeleg, gamma.site) | Schrott | Ankauf unklar |
 | Max Kurt Gust e.K. | Neustadt am Rübenberge (Wunstorfer Str. 167) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | H.k. Sann | Hameln (Heinestr. 40) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
@@ -363,9 +363,9 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | KalExponova | Hannover-Vahrenwald (Beiersdorfstr. 6) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Auto-Recycling Pankowski GmbH | Langwedel (Jutekamp 3, LK Verden) | keine (nur Verzeichnisbeleg) | Autoverwertung (Flag) | Ankauf unklar |
 | Autoverwertung Krause | Lüchow (Albrecht-Thaer-Str. 16 – selbe Adresse wie „Autoverwertung Bleck“ aus Runde 2!) | keine (nur Verzeichnisbeleg) | Autoverwertung (Flag) | Ankauf unklar |
-| A1 Autoteile Björn Litzbach | Sittensen (Nütteler Weg 12) | ankauf-verkauf-litzbach.de (nur Verzeichnisbeleg) | E-Motoren/Stahl, Entrümpelung (Kfz-Fokus) | Ankauf unklar |
-| AutoVerwertung und Metallhandel GmbH | Schwanewede (Reiterschanze 25; LK Osterholz) | autoverwertung-schwanewede.de (nur Verzeichnisbeleg) | Autoverwertung (Flag), Alu/Kühler/Blei/Zinn | Ankauf unklar |
-| Autoverwertung Artlenburg / Mark Sydow | Artlenburg (An d. Bundesstraße 1, LK Lüneburg) | demontagebetrieb.de (nur Verzeichnisbeleg) | Autoverwertung (Flag) | Ankauf unklar |
+| A1 Autoteile Björn Litzbach | Sittensen (Nütteler Weg 12) | ankauf-verkauf-litzbach.de (nur Verzeichnisbeleg) — TOT | E-Motoren/Stahl, Entrümpelung (Kfz-Fokus) | Ankauf unklar |
+| AutoVerwertung und Metallhandel GmbH | Schwanewede (Reiterschanze 25; LK Osterholz) | autoverwertung-schwanewede.de (nur Verzeichnisbeleg) — TOT | Autoverwertung (Flag), Alu/Kühler/Blei/Zinn | Ankauf unklar |
+| Autoverwertung Artlenburg / Mark Sydow | Artlenburg (An d. Bundesstraße 1, LK Lüneburg) | demontagebetrieb.de (nur Verzeichnisbeleg) — TOT | Autoverwertung (Flag) | Ankauf unklar |
 | Motorrad-/Zweiradverwertung Busch | Dahlenburg (Gartenstr. 4) | keine (nur Verzeichnisbeleg) | Zweiradverwertung (Flag) | Ankauf unklar |
 | Borchers Industrieservice | Region (Tel. 0173 6026888) | borchersindustrieservice.com (nur Verzeichnisbeleg) | E-Motoren/Stahl, Demontage | Ankauf unklar |
 
@@ -540,7 +540,7 @@ Stand: 2026-09-27. Winkel: 37er-Kandidatenliste (Runde 1, s. /tmp/opencode/audit
 ### Dead/redirected Seed-Websites (curl-Status, 110 URLs geprüft 27.09.2026)
 
 Tot (000, DNS/Timeout): andreas-sandern.jimdo.com (Sandern Geeste), ankauf-verkauf-litzbach.de (A1 Sittensen), autoverwertung-flebbe.de (Flebbe Bramsche), autoverwertung-schwanewede.de (Schwanewede), demontagebetrieb.de (Artlenburg), elmh.de (ELMH Surwold), fischer-bakum.de (Fischer Bakum), jimdosite.com (nackte Domain bei Bäcker Wolfenbüttel), petko.de (Petko Bassum → live: petko-metalle.de, 200), schrotthandel-meinhardt.de (Meinhardt Barsinghausen), schrotthandelsorich.de (Sorich Salzgitter), wilhelm-hehmann.de (Hehmann Bad Laer).
-Umgeleitet (fremde Domain): schrott.io → https://mcbroken.io/ (301, Domain repurposed; Seed-Eintrag „schrott.io Ankaufsstation Hannover-Langenhagen“ betroffen), www.weibel-gmbh.de → https://remondis-nord.de/ (Weibel in REMONDIS Nord aufgegangen).
+Umgeleitet (fremde Domain): schrott.io → https://mcbroken.io/ (301, Domain repurposed; Seed-Eintrag „schrott.io Ankaufsstation Hannover-Langenhagen“ betroffen), remondis-nord.de → https://remondis-nord.de/ (Weibel in REMONDIS Nord aufgegangen).
 Notiz (200, aber Parkseite): deich-metall.de (STRATO-Parkseite, s. Runde 4).
 
 ## Nachtrag Wide-Net (27.09.2026)

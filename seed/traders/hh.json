@@ -883,7 +883,7 @@
   "phone": "",
   "city": "Heimfeld/Harburg",
   "state": "HH",
-  "website": "https://www.isr-itzehoe.de",
+  "website": "https://www.isr-recycling.de",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
@@ -906,7 +906,7 @@
   "phone": "",
   "city": "Veddel",
   "state": "HH",
-  "website": "https://www.isr-itzehoe.de",
+  "website": "https://www.isr-recycling.de",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
@@ -1380,8 +1380,8 @@
   }
  },
  {
-  "slug": "hh-veddel-wagner-metall",
-  "name": "Wagner Metall GmbH",
+  "slug": "hh-veddel-veddel-oberwerder-damm-11-21",
+  "name": "Veddel, Oberwerder Damm 11-21",
   "trader_type": "metallhaendler",
   "description": "",
   "street": "Hovestr. 21",
@@ -1403,8 +1403,8 @@
   }
  },
  {
-  "slug": "hh-billbrook-heg-hamburger-entsorgungsges-mbh",
-  "name": "HEG Hamburger Entsorgungsges. mbH",
+  "slug": "hh-billbrook-billbrook-oberwerder-damm-1-veddel",
+  "name": "Billbrook + Oberwerder Damm 1 Veddel",
   "trader_type": "sonstige",
   "description": "",
   "street": "Bredowstr. 13",

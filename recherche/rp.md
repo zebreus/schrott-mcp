@@ -384,113 +384,113 @@ schneider-recycling.de → schneider-recycling.com (Kandidat, ok). Bot-Schutz (l
 
 | Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
 |---|---|---|---|---|
-| Schrottabholung-Bingen |  | keine | mobil, Im Rheinweg 15 Ingelheim | unklar |
+| Schrottabholung-Bingen | Bingen | keine | mobil, Im Rheinweg 15 Ingelheim | unklar |
 | Kornely | Ingelheim | keine | Hinter der Ohrenbrücke 33 | unklar |
-| Laroche Demontagearbeiten |  | https://demontage-metallhandel.de |  | unklar |
-| D. Laroche Horchheim |  | keine | Mendelssohnstr. 11 | unklar |
+| Laroche Demontagearbeiten | Koblenz | https://demontage-metallhandel.de |  | unklar |
+| D. Laroche Horchheim | Koblenz | keine | Mendelssohnstr. 11 | unklar |
 | Schneider Michael Schrotthandel | Koblenz 56073, Peter-Klöckner-Str. 2A | keine | Schrottplatz (Seed-Ergänzung: Alias 1A Schrotthandel) | unklar |
-| S. Alten St.-Maternus-Str. |  | keine | Alten-Zweig | unklar |
-| Port Metternich |  | keine | Bitburger Str. 23 | unklar |
-| Maik Alten Karthause |  | keine | Cottbuser Str. 2, NEU vs Seed-Gino/Markus/Klara/Angelo | unklar |
-| Reinhardt Oberdürenbach |  | https://www.schrottmetallhandelreinhardt.com | , Königseeweg 2 — ungleich Seed Oberzissen | unklar |
-| Golz Mülheim-Kärlich |  | keine | Goethestr. 29A | unklar |
+| S. Alten St.-Maternus-Str. | Koblenz | keine | Alten-Zweig | unklar |
+| Port Metternich | Koblenz | keine | Bitburger Str. 23 | unklar |
+| Maik Alten Karthause | Koblenz | keine | Cottbuser Str. 2, NEU vs Seed-Gino/Markus/Klara/Angelo | unklar |
+| Reinhardt Oberdürenbach | Oberdürenbach | https://www.schrottmetallhandelreinhardt.com | , Königseeweg 2 — ungleich Seed Oberzissen | unklar |
+| Golz Mülheim-Kärlich | Mülheim-Kärlich | keine | Goethestr. 29A | unklar |
 | G&S | Bendorf | keine | Hauptstr. 77 | unklar |
 | Albert | Bendorf | keine | Bahnhofstr. 109 | unklar |
 | Jasari | Bendorf | keine | Welfenweg | unklar |
-| Laroche Neuwied-Block |  | keine | Kirchhoff 1 | unklar |
-| Menten Südliche Vorstadt |  | keine |  | unklar |
-| SVM Neuendorf |  | keine | Gleisanschluss | unklar |
-| Tallarita Altrip |  | keine | Am Sandzug 16). | unklar |
-| Senck Oggersheim |  | keine | Notwendestr. 11, FE/NE | unklar |
-| Gurr |  | keine | Am Sandloch 8 | unklar |
-| Daud |  | keine | Rampenweg 18, 88★ | unklar |
-| Tremel |  | keine | Wachtenburgstr. 9, Mikro | unklar |
-| M Trier-West |  | keine | Hornstr. 23 | unklar |
-| MW Trier-West |  | keine | Eifelstr. 4, Jimdo | unklar |
-| H. Block |  | keine | Granastr. 8 | unklar |
-| Pfeil-Heinz |  | keine | Leostr. 6 | unklar |
-| H.J Wittlich-Litzig |  | keine |  | unklar |
-| Matthias Alten |  | keine | Andreas-Hoevel-Str. 6, NEU vs Cluster | unklar |
-| Hutmacher Rivenich |  | keine | Weinstr. 3, ungleich Trier-Stamm | unklar |
-| Malborn |  | keine | nur Mobil | unklar |
-| Dick Reinsfeld |  | keine | Sonnenhang 22 | unklar |
-| Destani Zerf |  | keine | Deeswiese 2). | unklar |
+| Laroche Neuwied-Block | Neuwied | keine | Kirchhoff 1 | unklar |
+| Menten Südliche Vorstadt | Koblenz | keine |  | unklar |
+| SVM Neuendorf | Koblenz | keine | Gleisanschluss | unklar |
+| Tallarita Altrip | Altrip | keine | Am Sandzug 16). | unklar |
+| Senck Oggersheim | Ludwigshafen | keine | Notwendestr. 11, FE/NE | unklar |
+| Gurr | Ludwigshafen | keine | Am Sandloch 8 | unklar |
+| Daud | Ludwigshafen | keine | Rampenweg 18, 88★ | unklar |
+| Tremel | Ludwigshafen | keine | Wachtenburgstr. 9, Mikro | unklar |
+| M Trier-West | Trier | keine | Hornstr. 23 | unklar |
+| MW Trier-West | Trier | keine | Eifelstr. 4, Jimdo | unklar |
+| H. Block | Trier | keine | Granastr. 8 | unklar |
+| Pfeil-Heinz | Trier | keine | Leostr. 6 | unklar |
+| H.J Wittlich-Litzig | Wittlich | keine |  | unklar |
+| Matthias Alten | Trier | keine | Andreas-Hoevel-Str. 6, NEU vs Cluster | unklar |
+| Hutmacher Rivenich | Rivenich | keine | Weinstr. 3, ungleich Trier-Stamm | unklar |
+| Malborn | Malborn | keine | nur Mobil | unklar |
+| Dick Reinsfeld | Reinsfeld | keine | Sonnenhang 22 | unklar |
+| Destani Zerf | Zerf | keine | Deeswiese 2). | unklar |
 | Worms/Kaiserslautern/Speyer: Zimbo | Worms | keine | Nordendstr. | unklar |
-| Reinhard+Entrümpelung KL |  | keine | Käthe-Kollwitz-Str. | unklar |
+| Reinhard+Entrümpelung KL | Kaiserslautern | keine | Käthe-Kollwitz-Str. | unklar |
 | DMR Rohstoffhandel KL | 33481) | keine | Eselsfürther Bhf 4b, HRB | unklar |
-| Fernezy KL |  | keine | Daniel-Häberle-Str. | unklar |
+| Fernezy KL | Kaiserslautern | keine | Daniel-Häberle-Str. | unklar |
 | Bauer | Speyer | keine | Franz-Kirrmeier-Str. 20, 77★ | unklar |
 | Superbauer | Speyer | keine | Kiefernweg 9, 118★ | unklar |
-| Opp Waldsee |  | keine | In den Fahrgärten 7 | unklar |
-| K&K Haßloch |  | keine | Bruchhof 10, Kabel! | unklar |
-| Riehm Kirrweiler |  | keine | Marktstr. 42 | unklar |
-| SÜDPFALZ METALL Geinsheim |  | keine | Böbinger Str. 9, ungleich Rohrbach | unklar |
-| Weitzel Lambrecht |  | keine | Kleiner Weg 39 | unklar |
-| SR Eisenberg |  | keine | Römerstr. 3c | unklar |
-| HMS Westheim |  | keine | Am Schlittweg 1a | unklar |
+| Opp Waldsee | Waldsee | keine | In den Fahrgärten 7 | unklar |
+| K&K Haßloch | Haßloch | keine | Bruchhof 10, Kabel! | unklar |
+| Riehm Kirrweiler | Kirrweiler | keine | Marktstr. 42 | unklar |
+| SÜDPFALZ METALL Geinsheim | Geinsheim | keine | Böbinger Str. 9, ungleich Rohrbach | unklar |
+| Weitzel Lambrecht | Lambrecht | keine | Kleiner Weg 39 | unklar |
+| SR Eisenberg | Eisenberg | keine | Römerstr. 3c | unklar |
+| HMS Westheim | Westheim | keine | Am Schlittweg 1a | unklar |
 | Krahl | Neustadt | keine | Moltkestr. 18, HP-403 | unklar |
-| CRONIMET Cremetal Annweiler + Pedack Annweiler |  | keine | gleiche Adresse In den Bruchwiesen 17! | unklar |
-| Ayan Börrstadt |  | keine | Kaiserstr. 5, 82★ | unklar |
-| Paul Bechhofen |  | keine | Altestr. 4 | unklar |
-| Kopp Branchweiler |  | keine | Branchweilerhof 17b | unklar |
+| CRONIMET Cremetal Annweiler + Pedack Annweiler | Annweiler | keine | gleiche Adresse In den Bruchwiesen 17! | unklar |
+| Ayan Börrstadt | Börrstadt | keine | Kaiserstr. 5, 82★ | unklar |
+| Paul Bechhofen | Bechhofen | keine | Altestr. 4 | unklar |
+| Kopp Branchweiler | Neustadt | keine | Branchweilerhof 17b | unklar |
 | Trojanowski | Neustadt | keine | Amalienstr. 3 | unklar |
-| Schwerdel Lachen-Speyerdorf |  | keine |  | unklar |
-| Zirwes Brohl-Lützing |  | keine | Mittelstr. 2 | unklar |
+| Schwerdel Lachen-Speyerdorf | Neustadt | keine |  | unklar |
+| Zirwes Brohl-Lützing | Brohl-Lützing | keine | Mittelstr. 2 | unklar |
 | DWR Weißblech | Andernach | keine | Koblenzer Str. 141, Dosenblech! | unklar |
-| Richarz Buchholz |  | keine | Industriepark Nord 66 | unklar |
+| Richarz Buchholz | Buchholz | keine | Industriepark Nord 66 | unklar |
 | Kickel | Diez | keine | Werner-von-Siemens-Str. 20, 49★ | unklar |
-| Bläsius St. Sebastian |  | keine | Rosenstr. 6 | unklar |
-| Luxem Niederwerth |  | keine | Schützenstr. 1 | unklar |
-| RWR Bassenheim |  | keine | Am Bhf 9, E-Motoren! | unklar |
-| RWR Weißenthurm |  | keine | wlw Platinen/E-Schrott/edelmetallhaltig! | unklar |
-| Fröhlich Breitscheid |  | keine |  | unklar |
-| Esper Binningen |  | keine | Hauptstr. 56 | unklar |
-| Dernbach |  | keine | Butterpfad 1 | unklar |
-| Heinen Büchel |  | keine | Georgsweiler Str., NEU vs Strohn-Seed | unklar |
-| Gerolstein |  | keine | Sarresdorfer Str. 8 | unklar |
-| Weishaar Birresborn |  | keine | Rom 3 | unklar |
-| ALLDEMONT Weroth |  | keine | In d. Mark 2, Asbest+Schrott | unklar |
-| Wehbacher Kirchen-Wehbach |  | keine | Friedrichshüttenstr. 10, 32★ | unklar |
+| Bläsius St. Sebastian | Sebastian | keine | Rosenstr. 6 | unklar |
+| Luxem Niederwerth | Niederwerth | keine | Schützenstr. 1 | unklar |
+| RWR Bassenheim | Bassenheim | keine | Am Bhf 9, E-Motoren! | unklar |
+| RWR Weißenthurm | Weißenthurm | keine | wlw Platinen/E-Schrott/edelmetallhaltig! | unklar |
+| Fröhlich Breitscheid | Breitscheid | keine |  | unklar |
+| Esper Binningen | Binningen | keine | Hauptstr. 56 | unklar |
+| Dernbach | Dernbach | keine | Butterpfad 1 | unklar |
+| Heinen Büchel | Büchel | keine | Georgsweiler Str., NEU vs Strohn-Seed | unklar |
+| Gerolstein | Gerolstein | keine | Sarresdorfer Str. 8 | unklar |
+| Weishaar Birresborn | Birresborn | keine | Rom 3 | unklar |
+| ALLDEMONT Weroth | Weroth | keine | In d. Mark 2, Asbest+Schrott | unklar |
+| Wehbacher Kirchen-Wehbach | Kirchen | keine | Friedrichshüttenstr. 10, 32★ | unklar |
 | GREWE | Kirchen | keine | HRB 2774, B2B | unklar |
-| Stoll Nassau |  | keine | Bahnhofstr. 16 | unklar |
-| Lienkämper Hillesheim |  | keine | mobil | unklar |
-| Brennemann Waldmohr |  | keine | Nickelsweiher 15 | unklar |
-| Joa Altenglan |  | keine | Streitühle 4, 2. Händler | unklar |
-| Bach Kinderbeuern |  | keine | Bahnhofstr. 1, offener Metallankauf! | unklar |
-| Ostermann Bengel |  | keine | Zum Wiesental 26, Mikro | unklar |
-| Ayan Bechtolsheim |  | keine | Gau-Odernheimer Str. 1, Clan | unklar |
-| Werner Baumholder |  | keine | Berschweilerstr. 11, 52★ | unklar |
-| AYAN Göllheim |  | keine | Königkreuzstr. 13 | unklar |
-| Tavernier Hanhofen |  | keine | Silzweg 38, Cluster-Zuwachs | unklar |
-| Richard Lehr Hanhofen |  | keine | Silzweg 19, NEU | unklar |
-| Sonntag Traben-Trarbach |  | keine | Wildbadstr. 611 | unklar |
-| van Vloten Ruppertsberg |  | keine | Obergasse 8D | unklar |
-| Dubovic Annweiler |  | keine | Hauptstr. 51, Mikro | unklar |
-| Mayer Nattenheim |  | keine | Hauptstr. 90 | unklar |
-| Gärtner Mürlenbach |  | keine | Meisburger Str. 1 | unklar |
-| Petri Gillenfeld |  | keine | Bahnhofstr. 4 | unklar |
-| Ulman/Laukert Ober-Flörsheim |  | keine | Stetter Str. 4 | unklar |
-| Ries Wierschem |  | keine | Pappelstr. 3 | unklar |
-| Wetzel Hördt |  | keine | Wörthstr. 8 | unklar |
-| Lenhart Bellheim |  | keine | Luisenstr. 16, 2. Betrieb | unklar |
-| Faust Bellheim |  | keine | Hördter Str. 48, FE | unklar |
+| Stoll Nassau | Nassau | keine | Bahnhofstr. 16 | unklar |
+| Lienkämper Hillesheim | Hillesheim | keine | mobil | unklar |
+| Brennemann Waldmohr | Waldmohr | keine | Nickelsweiher 15 | unklar |
+| Joa Altenglan | Altenglan | keine | Streitühle 4, 2. Händler | unklar |
+| Bach Kinderbeuern | Kinderbeuern | keine | Bahnhofstr. 1, offener Metallankauf! | unklar |
+| Ostermann Bengel | Bengel | keine | Zum Wiesental 26, Mikro | unklar |
+| Ayan Bechtolsheim | Bechtolsheim | keine | Gau-Odernheimer Str. 1, Clan | unklar |
+| Werner Baumholder | Baumholder | keine | Berschweilerstr. 11, 52★ | unklar |
+| AYAN Göllheim | Göllheim | keine | Königkreuzstr. 13 | unklar |
+| Tavernier Hanhofen | Hanhofen | keine | Silzweg 38, Cluster-Zuwachs | unklar |
+| Richard Lehr Hanhofen | Hanhofen | keine | Silzweg 19, NEU | unklar |
+| Sonntag Traben-Trarbach | Trarbach | keine | Wildbadstr. 611 | unklar |
+| van Vloten Ruppertsberg | Ruppertsberg | keine | Obergasse 8D | unklar |
+| Dubovic Annweiler | Annweiler | keine | Hauptstr. 51, Mikro | unklar |
+| Mayer Nattenheim | Nattenheim | keine | Hauptstr. 90 | unklar |
+| Gärtner Mürlenbach | Mürlenbach | keine | Meisburger Str. 1 | unklar |
+| Petri Gillenfeld | Gillenfeld | keine | Bahnhofstr. 4 | unklar |
+| Ulman/Laukert Ober-Flörsheim | Flörsheim | keine | Stetter Str. 4 | unklar |
+| Ries Wierschem | Wierschem | keine | Pappelstr. 3 | unklar |
+| Wetzel Hördt | Hördt | keine | Wörthstr. 8 | unklar |
+| Lenhart Bellheim | Bellheim | keine | Luisenstr. 16, 2. Betrieb | unklar |
+| Faust Bellheim | Bellheim | keine | Hördter Str. 48, FE | unklar |
 | Kat-Ankauf | Landau | keine | Cornichonstr. 13A! | unklar |
-| Lenhardt Lustadt |  | keine | Röderstr. 12 | unklar |
-| Wetzel Bellheim |  | keine | Am Weidensatz 45, 3. Betrieb | unklar |
-| Brühl Ober-Hilbersheim |  | keine | Obergasse 12 | unklar |
-| Bra Bruchmühlbach |  | keine | Bahnhofstr. 19B | unklar |
-| Feuereisen Neumagen-Dhron |  | keine | Hochwaldstr. 33 | unklar |
-| Scheibel Drees |  | keine | In d. Kant 12 | unklar |
-| Horczyk Elkenroth |  | keine | Alsdorfer Weg 14-18 | unklar |
+| Lenhardt Lustadt | Lustadt | keine | Röderstr. 12 | unklar |
+| Wetzel Bellheim | Bellheim | keine | Am Weidensatz 45, 3. Betrieb | unklar |
+| Brühl Ober-Hilbersheim | Hilbersheim | keine | Obergasse 12 | unklar |
+| Bra Bruchmühlbach | Bruchmühlbach | keine | Bahnhofstr. 19B | unklar |
+| Feuereisen Neumagen-Dhron | Dhron | keine | Hochwaldstr. 33 | unklar |
+| Scheibel Drees | Drees | keine | In d. Kant 12 | unklar |
+| Horczyk Elkenroth | Elkenroth | keine | Alsdorfer Weg 14-18 | unklar |
 | Neuert | Koblenz | keine | Marienfelder Str. 5 | unklar |
-| ALBA Metall Süd Germersheim |  | keine | Im Weidenschlag 1 | unklar |
-| ATM Konz-Könen |  | keine | Albert-Einstein-Str. 10-12 | unklar |
-| Mader Trier-Ehrang |  | keine | Servaisstr. 1a | unklar |
+| ALBA Metall Süd Germersheim | Germersheim | keine | Im Weidenschlag 1 | unklar |
+| ATM Konz-Könen | Konz-Könen | keine | Albert-Einstein-Str. 10-12 | unklar |
+| Mader Trier-Ehrang | Trier | keine | Servaisstr. 1a | unklar |
 | JK Heidesheim | 47285) | keine | HRB | unklar |
-| Götz Tiefenthal |  | keine | Hauptstr. 1, Familie Seed-Götz? | unklar |
-| Meyer Lachen-Speyerdorf |  | keine | Im Altenschemel 40a, = Seed-Meyer-Sascha? | unklar |
-| Green Rennerod |  | keine | Am Wolfsgestell 1, NE + E-Motoren, 113★ | unklar |
-| Mühlhausen Ettringen |  | keine | ? Fehlklassifikation? | unklar |
-| Sterz Neustadt/Wied |  | keine | ? zweifelhaft). | unklar |
-| Spot-checks: Velte/Kreutz/Sell/Herrmann/Schiele/Meschke/FOGOLIN LEBTIG |  | keine | +Websites gefunden!). TOT-VERDACHT (nicht markiert): Morasch Zweibrücken, Weiß KL, Adams Bitburg, Marquart Mendig, Mainzer-Metall-Verwertung, Van den Berg/Levin/D&F Andernach, Schilling Alsdorf (→ Speicher?). | unklar |
+| Götz Tiefenthal | Tiefenthal | keine | Hauptstr. 1, Familie Seed-Götz? | unklar |
+| Meyer Lachen-Speyerdorf | Neustadt | keine | Im Altenschemel 40a, = Seed-Meyer-Sascha? | unklar |
+| Green Rennerod | Wolfsgestell | keine | Am Wolfsgestell 1, NE + E-Motoren, 113★ | unklar |
+| Mühlhausen Ettringen | Ettringen | keine | ? Fehlklassifikation? | unklar |
+| Sterz Neustadt/Wied | Neustadt | keine | ? zweifelhaft). | unklar |
+| Spot-checks: Velte/Kreutz/Sell/Herrmann/Schiele/Meschke/FOGOLIN LEBTIG | Andernach | keine | +Websites gefunden!). TOT-VERDACHT (nicht markiert): Morasch Zweibrücken, Weiß KL, Adams Bitburg, Marquart Mendig, Mainzer-Metall-Verwertung, Van den Berg/Levin/D&F Andernach, Schilling Alsdorf (→ Speicher?). | unklar |
 | Quellen: lokaleschrottplatz 181 Plätze voll, schrottradar 21 voll, wlw voll, NorthData, DDG/Bing-Limits. Gaps: Kleinanzeigen-JS, Facebook, OSM, | 11880, GS-Neurubriken, GESA-404, Idar-Goldszene, Dentaldepots, Klinik, IT-Remarketer, Eifel-West, Hunsrück, Preislisten | keine | keine). | unklar |

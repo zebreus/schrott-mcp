@@ -34,14 +34,14 @@ Websites wurden per Abruf verifiziert; „keine Website gefunden" = kein verifiz
 | 26 | Ehrich Husum (Recyclinghof) | Husum (Johannes-Mejer-Str.) | https://www.ehrich.de/ | Recyclinghof, Sa-Annahme | ja |
 | 27 | Elly Nickels GmbH & Co. KG (Ehrich-Gruppe) | Rendsburg | https://www.elly-nickels.de/ | Abbruch, Industriedemontage, Schadstoffsanierung | Ankauf unklar |
 | 28 | Rohe Raoul-Rene Schrottrecycling/Entrümpelung | Rendsburg | keine Website gefunden | Abholung Altmetalle/Schrott vor Ort (Gelbe Seiten-Text) | ja |
-| 29 | M.W. Containerdienst & Schrotthandel / M.W. Recycling GmbH | Fockbek (b. Rendsburg) | keine Website gefunden | Containerdienst + Schrott (Gelbe Seiten) | ja |
+| 29 | M.W. Containerdienst & Schrotthandel / M.W. Recycling GmbH | Fockbek (b. Rendsburg) | https://www.mw-container.de | Containerdienst + Schrott (Gelbe Seiten) | ja |
 | 30 | Tietjen Stefan | Eckernförde (Siemensstr.) | keine Website gefunden | Kleiner Schrotthandel (Gelbe Seiten) | ja |
 | 31 | TSR Recycling GmbH & Co. KG, NL Neumünster | Neumünster | https://www.tsr-recycling.de/ (Direktabruf blockiert, URL per Suche belegt) | Europaweiter Metallrecycler, Ankauf Fe-/NE-Metalle Tagespreis, privat + gewerblich | ja |
 | 32 | Behrendt Rohstoffverwertung GmbH | Neumünster (2 Standorte) | https://behrendt.com/ | Familienbetrieb, Schrottplatz, Metall, E-Schrott, Autoverwertung, Container | ja |
 | 33 | Mega-Metalle | Neumünster (Am Gashof) | https://www.mega-metalle.de/ | Kleinbetrieb: Kupfer, Messing, Eisen, Kabel; Container/Boxen | ja |
 | 34 | ReRec GmbH | Neumünster (Leinestr.) | https://rerec.eu/ | Spezialist Elektronikschrott, Sonderlegierungen, NE-Metalle, Datenträgervernichtung | ja |
 | 35 | Rohstoffhandel Machalski | Norderstedt (Oststr.) | https://www.rohstoffhandel-machalski.de/ | Altmetall/Schrott (Kupfer, Messing, Kabel, VA u.v.m.), Recyclinghof, Container | ja |
-| 36 | Altmetall- und Schrotthandel Norderstedt GmbH | Norderstedt (Schützenwall) | keine Website gefunden | Klassische Schrottannahme (Gelbe Seiten) | ja |
+| 36 | Altmetall- und Schrotthandel Norderstedt GmbH | Norderstedt (Schützenwall) | https://altmetall-asn.de | Klassische Schrottannahme (Gelbe Seiten) | ja |
 | 37 | KIESOW Autorecycling + Autoteile GmbH | Norderstedt (Beim Umspannwerk) | https://www.kiesow.de/ | Deutschlands größte Autoverwertung, Autoankauf, kostenlose Abholung | nur Fahrzeuge (Flag) |
 | 38 | Warnsholz GmbH & Co. KG (ISR-Gruppe) | Elmshorn (Robert-Bosch-Str.) | https://www.isr-recycling.de/index.php/start-warnsholz | Schrotthändler Elmshorn, Tageshöchstpreis, Nutzeisen-Verkauf, Container | ja |
 | 39 | P. Bötel Schrott und Metall (Inh. Michael Bötel) | Uetersen (Kr. Pinneberg) | keine Website gefunden | Schrott-/Metallhandel (Gelbe Seiten) | ja |
@@ -276,7 +276,7 @@ oder -Annahme (privat, B2B, Gewerbe-only, mobil); Ankauf „ja" nur mit Beleg.
 | Hartweg Metallgroßhandel / Rohstoff-Recycling GmbH | Lübeck-Kücknitz 23569, Traveweg 2-4A | https://hartweg-recycling.de | Buntmetall-/Schrott-Ankauf („kaufen nahezu alle Altmetalle/Schrotte"), Tagespreise; Annahme v.a. Betriebe/Handwerk (Gewerbe-only) | ja |
 | deinkat GmbH | Lübeck 23556 | https://deinkat.de | Bundesweiter Online-Kat-Ankauf („bis 1.000 €"); keine Preislistenseite (Sitemap: nur kat-ankauf-Seiten) | ja |
 | METALLOY Metalle-Legierungen GmbH | Norderstedt 22844 | https://metalloy.de | NE-/Superlegierungen Ni/Co/Ti, Rücknahme + Aufbereitung (rein B2B, CRONIMET-Umfeld); kein Publikums-Ankauf belegt | unklar |
-| Schrotthandlung Ivers | Tarp 24963 | keine Website verifiziert | Schrott-Kleinbetrieb (GS-Branche) | ja |
+| Schrotthandlung Ivers | Tarp 24963 | https://ivers.de | Schrott-Kleinbetrieb (GS-Branche) | ja |
 | Schrott Bastian Inh. Sven Pätz | Windbergen 25729 | keine Website verifiziert | Schrott-Kleinbetrieb Dithmarschen (GS-Branche) | ja |
 | Autohof Brehm Autoverwertung | Schwentinental-Brehm 24222, Wasserwerksweg 16 | keine Website verifiziert | Autoverwertung (Verzeichnis; Domain-Hinweis ungeklärt) | ja (Autoverwertung-Flag) |
 | Klass M. Autoverwertung und Abschleppdienst | Rellingen 25462, Adlerstr. 36 | keine Website verifiziert | AV-Kleinbetrieb + Abschleppdienst | ja (Autoverwertung-Flag) |

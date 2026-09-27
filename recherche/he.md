@@ -27,7 +27,7 @@ Ankauf-Legende: `ja` = Ankauf auf Website/Portal belegt; `unklar` = nur Abholung
 | 9 | Baydar Schrott | Frankfurt (Sindlinger Str. 8) | keine Website gefunden | Kleinhändler Schrott | unklar |
 | 10 | Schrott Lutz (Dr. Dipl.-Chem.) | Frankfurt (Licher Str. 21) | keine Website gefunden | Kleinhändler Schrott | unklar |
 | 11 | Ewald Schrotthandel | Frankfurt-Fechenheim (Alt Fechenheim 34) | keine Website gefunden | Schrotthandel (city-map-Eintrag) | unklar |
-| 12 | Riwald Recycling Rhein-Main GmbH | Frankfurt-Fechenheim (Carl-Benz-Str. 1) | keine Website gefunden | Recycling (GS-Eintrag) | unklar |
+| 12 | Frankfurt-Fechenheim, Carl-Benz-Str. 1 | Frankfurt-Fechenheim (Carl-Benz-Str. 1) | keine Website gefunden | Recycling (GS-Eintrag) | unklar |
 | 13 | Schrott Siegfried | Frankfurt am Main | keine Website gefunden | Kleinhändler Schrott | unklar |
 | 14 | Philipp Blam & Sohn GmbH | Offenbach am Main (Waldstr. 87) | keine Website gefunden | Schrotthandel (GS-Eintrag) | unklar |
 | 15 | Hombach M. Schrottverwertung | Offenbach am Main (Dieselstr. 38) | keine Website gefunden | Schrottverwertung/Schrotthandel | unklar |
@@ -37,13 +37,13 @@ Ankauf-Legende: `ja` = Ankauf auf Website/Portal belegt; `unklar` = nur Abholung
 | 19 | Reinhardts Schrott & Metallhandel | Maintal-Dörnigheim (Siemensallee 18, bei Hanau/Offenbach) | keine Website gefunden | Schrott-/Metallhandel | unklar |
 | 20 | MOHR Rohstoff GmbH Schrotthandel und Demontage | Wiesbaden-Schierstein (Saarbrücker Allee 5) | https://www.schrott-mohr.de/ | Generalist: Schrottplatz, Altmetall/Kupfer/Messing/Kabel, Container, Demontage; bedient auch Offenbach | ja |
 | 21 | H.L.R. Rohstoffhandel GmbH (Herbert Lagerin) | Wiesbaden-Dotzheim (Am Roten Stock 16) + Mainz-Mombach (Industriestr. 1-3, RLP – HE-Standort Wiesbaden) | https://www.hlr-rohstoffhandel.de/ | Buntmetalle (Kupfer/Messing/Alu/Kabel/Edelstahl), Eisenschrott, Katalysatoren, Container, Demontage | ja |
-| 22 | Gebr. Wehle GmbH | Walluf-Niederwalluf (In der Rehbach 20, bei Wiesbaden) | keine Website gefunden | Schrotthandel („Schrott verkaufen“, GS) | ja |
+| 22 | Nieder-Walluf, In der Rehbach 20 | Walluf-Niederwalluf (In der Rehbach 20, bei Wiesbaden) | keine Website gefunden | Schrotthandel („Schrott verkaufen“, GS) | ja |
 | 23 | Metall- & Rohstoffhandel Lagerin | Wiesbaden / Mainz-Kastel (Hambuschweg 29 – Kastel ist Wiesbadener Stadtbezirk, HE) | keine Website gefunden | Metall-/Rohstoffhandel | unklar |
 | 24 | Hans Teigeler GmbH (Eisen/Schrott) | Wiesbaden / Mainz-Kastel (St.-Florian-Str. 12, HE) | keine Website gefunden | Schrotthandel/Eisen, Schrottplatz (Top-Ranking Portal) | ja |
 | 25 | Wagner Marcel Schrotthandel und Steinreinigung | Wiesbaden-Dotzheim (Hollermorgenstr. 3) | keine Website gefunden | Kleinhändler Schrott | unklar |
 | 26 | Lorsbächer Romano Schrotthandel | Wiesbaden-Schierstein (Heinrich-Heine-Str. 31) | keine Website gefunden | Kleinhändler Schrott | unklar |
 | 27 | Döringer Frank Schrotthandel | Wiesbaden (Fritz-Erler-Str. 47) | keine Website gefunden | Kleinhändler Schrott | unklar |
-| 28 | Schrottabholung Wintermeyer / Wintermeyer Romano | Wiesbaden-Biebrich (Rathausstr. 25) | keine Website gefunden | Schrottabholung/Entrümpelung (Portal-Top 1) | unklar |
+| 28 | Wiesbaden-Dotzheim, Bert-Brecht-Str. 26 | Wiesbaden-Biebrich (Rathausstr. 25) | keine Website gefunden | Schrottabholung/Entrümpelung (Portal-Top 1) | unklar |
 | 29 | Cumic Benjamin Autoverschrottung | Wiesbaden-Biebrich (Zaberner Str. 21) | keine Website gefunden | AV – Autoverschrottung | AV / unklar |
 | 30 | Scholz Rico Schrott | Wiesbaden-Erbenheim (Rennbahnstr. 1) | keine Website gefunden | Kleinhändler Schrott | unklar |
 | 31 | Salvatore & Vitale Schrott | Wiesbaden / Mainz-Kostheim (Römerfeld 6 – Kostheim ist Wiesbadener Bezirk, HE) | keine Website gefunden | Kleinhändler Schrott | unklar |
@@ -165,7 +165,7 @@ Methode: Websuche-Tool weiterhin defekt (401), daher Ersatzwinkel: schrottradar.
 | 149 | Koch Schrott- und Metallhandels GmbH | Michelstadt (Hammerweg 32) | https://schrottkoch.de/ | Ankauf/Sortierung/Bearbeitung Schrott+Altmetalle, Altfahrzeug-/Elektronikaltgeräte-Behandlung | ja |
 | 150 | W. Anacker GmbH & Co. KG | Kassel (Sandershäuser Str. 6–20; lt. Verzeichnis auch Grebenstein) | https://anacker-kassel.de/ | An-/Verkauf Schrott/Altmetall, Kleinannahme Tagespreise, Container | ja |
 | 151 | Annecke Schrotthandel (Familienbetrieb seit 1980) | Lahntal (Vor der Aue 5) | http://annecke-schrotthandel.de/ | Schrott-/Altmetallhandel deutschlandweite Abholung, Tagespreis bar/Überweisung, Container, Industrieabbruch | ja |
-| 152 | Scholz Recycling GmbH – Standort Lahntal-Goßfelden (Scholz-Gruppe/Derichebourg) | Lahntal-Goßfelden (Niederwettersche Str. 4) | https://scholz-recycling.de/ | Großhändler Stahl-/NE-Schrotte, Selbstanlieferer-Service der Gruppe | ja |
+| 152 | Scholz Recycling GmbH – Standort Lahntal-Goßfelden (Scholz-Gruppe/Derichebourg) | Lahntal-Goßfelden (Niederwettersche Str. 4) | https://scholz-recycling.com/ | Großhändler Stahl-/NE-Schrotte, Selbstanlieferer-Service der Gruppe | ja |
 | 153 | Christian Unger Metall- und Rohprodukten-Großhandel | Korbach (Homberger Weg 3–5) | https://unger-korbach.de/ | „Schrott zu Geld“: Ankauf Tageshöchstpreise bar (FE/NE/Kabel/E-Motoren/Hartmetall/Zinn), Kleinstmengen ok, Container | ja |
 | 154 | Remhof Metall-Recycling GmbH & Co. KG (Schwester von Nr. 60) | Eschwege (Straßburger Str. 1a) | https://remhof-esw.de/ | Schrottplatz/Metallgroßhandel, Ankauf Tageshöchstpreise, Container, AV, E-Schrott, Maschinenrückbau | ja |
 | 155 | Stefan Joa Containerdienst (André Joa) | Wölfersheim (Im Leituch 8) | https://stefan-joa.de/ | Schrotthandel: Ankauf Tagespreise (FE/Buntmetall), Privatanlieferung, Container, Efb seit 2005 | ja |
@@ -452,7 +452,7 @@ Methode: alle Kandidaten-Websites per curl verifiziert (HTTP-Status + Seitentext
 | Kohl Waste Trade | Wiesbaden 65189 | keine Website verifiziert | evtl. Broker | unklar |
 | rm trade | Wiesbaden 65203 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
 | Levy (Schrott/Metall) | Langenselbold 63505 | keine Website verifiziert | Abgrenzung Seed-Levy (Darmstadt) / KWL (FFM) / Weber (Langenselbold) – distincter Ort | unklar |
-| MS Schrotthandel | Hanau-Großauheim 63457 | keine Website verifiziert | mit Ankauf (GS); Abgrenzung Fa. Georg (distinct) | ja (unsicher – nur GS) |
+| MS Schrotthandel | Hanau-Großauheim, Rodgaustr. 29 | keine Website verifiziert | mit Ankauf (GS); Abgrenzung Fa. Georg (distinct) | ja (unsicher – nur GS) |
 | Bamberger | Hanau | keine Website verifiziert | Abgrenzung ARB/Bamberger Darmstadt (Seed) – distincter Ort, Gruppenbezug ungeklärt | unklar |
 | Willeführ | Langen 63225 | keine Website verifiziert | Willeführ-Gruppe (Abgrenzung Seed: Gelnhausen + Industriedemontagen) – distincter Ort | unklar |
 | Lorenzo | Dietzenbach 63128 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
@@ -546,7 +546,7 @@ Abgrenzungen entschieden (keine Seed-Dubletten): Levy Langenselbold ≠ Seed-Lev
 
 Rejects (2): MRK Kassel 34123 – Vorrunden-Ausschluss bestätigt (nur Autoankauf, kein Schrottankauf belegt); Chirakakis Emmanuel Korbach 34497 – Vorrunden-Ausschluss bestätigt (nur AV, kein Schrottankauf belegt). Interne Doppel-Nennungen zusammengeführt (keine eigenen Rejects): Dippel Frankenberg, Stussak/Hübinger Wiesbaden. Kein reiner Juwelier- und kein Portal-Fall unter den Kandidaten (alle mit Ort; Goldankäufer mit Zahngold-/Ankaufbezug behalten).
 
-Tote Seed-Websites (curl 27.09.2026, 80 Sites geprüft): https://scholz-recycling.de/ – tot (https 000/SSL-Fehler; http 301 auf https://www.scholz-recycling.com/ = live, 200 – Seed-URL veraltet, Umzug nach Derichebourg-Übernahme); https://schrotthandelbauer.de – tot (http 404 / https 000; vgl. Nr. 249). Auffällig umgeleitet: https://gorsler-alsfeld.de/ – 301 auf https://www.rvt.de/ (RVT-Gruppe, legitim). Bot-blockiert, aber live (per webfetch verifiziert): https://www.kulzer.de/de/de/scheidgut/ (curl 403). Degussa-Preislisten-URL https://www.degussa-goldhandel.de/preisliste/ – 301 auf https://degussa.com/ (kein Handler-Fall). Alle übrigen 76 Seed-Sites: HTTP 200.
+Tote Seed-Websites (curl 27.09.2026, 80 Sites geprüft): https://scholz-recycling.com/ – tot (https 000/SSL-Fehler; http 301 auf https://www.scholz-recycling.com/ = live, 200 – Seed-URL veraltet, Umzug nach Derichebourg-Übernahme); https://schrotthandelbauer.de – tot (http 404 / https 000; vgl. Nr. 249). Auffällig umgeleitet: https://gorsler-alsfeld.de/ – 301 auf https://www.rvt.de/ (RVT-Gruppe, legitim). Bot-blockiert, aber live (per webfetch verifiziert): https://www.kulzer.de/de/de/scheidgut/ (curl 403). Degussa-Preislisten-URL https://www.degussa-goldhandel.de/preisliste/ – 301 auf https://degussa.com/ (kein Handler-Fall). Alle übrigen 76 Seed-Sites: HTTP 200.
 
 ## Nachtrag Wide-Net (27.09.2026)
 
@@ -567,3 +567,35 @@ Tote Seed-Websites (curl 27.09.2026, 80 Sites geprüft): https://scholz-recyclin
 | Main Gold Gold- u. Silberankauf | Hanau 63457, Adalbert-Eisenhuth-Str. 6B | keine | Gold-/Silberankauf — gleicher Hof wie ARM/Entsorgung Hessen (Cluster!) (NEU) | unklar |
 | Lagerin R. Alteisen und Altmetalle | Mainz-Kastel 55252 (HE!) | keine | Alteisen/Altmetalle — An der Gabelung 28 — dritte Lagerin-Entität neben HLR + Metall- & Rohstoffhandel Lagerin (beide Seed) → klären! | unklar |
 | Schramm | Mainz-Kastel 55252 | keine | Schrott — Hambuschweg 29 = gleiche Adresse Metall- & Rohstoffhandel Lagerin → klären! | unklar |
+
+## Nachtrag Mömlingen-70km (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Reining Klaus | Schaafheim 64850 HE, Karlstr. 1 | keine | Schrott — Schwester Containerdienst gleiche Adresse | unklar |
+| Reining Klaus Containerdienst | Schaafheim 64850 HE, Karlstr. 1 | keine | Container/Schrott — selber Hof | unklar |
+| Sell Oskar SchrottHdl. | Schaafheim 64850 HE, Darmstädter Str. 35 | keine | Schrott — keine | unklar |
+| Containerdienst Sell | Schaafheim 64850 HE, An der Ziegelei 11a | keine (GS-Button) | Container/Schrott/Entrümpelung/Verwertung — 3. Generation | unklar |
+| Sell Harry Schrotthändler | Babenhausen 64832 HE, Ostring 15 | keine | Schrott — mobil | unklar |
+| Schaub Münzhandlung | Babenhausen-Sickenhofen 64832 HE, Harpertshäuser Str. 20 | keine (GS-Button) | Münzen/Goldankauf — ~20 km | unklar |
+| LGS Schrott & Metallhandel (Lothar Gerhardt) | Reichelsheim 64385, Laudenauerstr. 1 | https://www.lgs-schrotthandel.de/ | Schrott/AV — Tagespreise, KFZ-Entsorgung, Demontage | ja |
+| BCD Containerdienst | Bad König 64732, Zeller Gewerbezentrum 2 | https://www.bcdcontainerdienst.de/metallankauf.html | Container/Entsorger — Metallankauf Tagespreise + Wertstoffhof → PRÜFEN (Ankauf-Seite!) | ja |
+| SAC Recycling | Höchst 64739, An der Hasselbach 1 | keine | Schrott — nur Verzeichnis (PRÜFFALL) | unklar |
+| Jochen Sterz | Michelstadt 64720, Reinstraße 10 | keine | AV — zert. Demontagebetrieb | unklar |
+| INAST Michelstadt | Michelstadt 64720, Pelarstr. 16 | https://inast.de/unternehmen/standorte/michelstadt | Entsorger — Wertstoffhof-Annahme, Vergütung prüfen (PRÜFFALL) | ja |
+| Schrott Aller Art | Darmstadt-Nord 64293, Mainzer Str. 83 | http://www.schrottallerart.de | Schrott — "Schrott Ankauf" | unklar |
+| R&A Solutions | Darmstadt-Ost 64287, Katharinenfalltorweg 20 | http://ra-solutions.eu/ | Schrott/Entrümpler/Demontage — Website DNS-Fehler (PRÜFFALL) | unklar |
+| BCD Containerdienst GmbH & Co. KG | Bad König 64732, Zeller Gewerbezentrum 27 | http://www.bcdcontainerdienst.de | Container/Wertstoff — Metallankauf-Seite (DUP Süd-Runde — einmal aufnehmen!) | unklar |
+| Höreth Abschleppdienst / Autoverwertung | Dieburg 64807, Am Bauhof 26 | http://www.autoverwertung-hoereth.de | AV/Schrott/Abschlepp — alte Website live | unklar |
+| Autoverwertung-Gratis | Darmstadt-Nord 64293, Pallaswiesenstr. 205 | https://autoverwertung-gratis.de/ | AV — Autoankauf via Formular | unklar |
+| Siegmayer Markus Schrott | Ober-Ramstadt 64372, Am Vogelherd 5a | keine | Schrott/Container — 5,0★ | unklar |
+| Sell Harry Schrotthändler | Babenhausen 64832, Ostring 15 | keine | Schrott — mobil (DUP Kernzone — einmal!) | unklar |
+| Sell Oskar SchrottHdl. | Schaafheim 64850, Darmstädter Str. 35 | keine | Schrott — (DUP Kernzone — einmal!) | unklar |
+| Reining Klaus (+ Containerdienst) | Schaafheim 64850, Karlstr. 1 | keine | Schrott/Container — (DUP Kernzone — einmal!) | unklar |
+| A.F.W. Recycling | Babenhausen 64832, Ausserhalb 21 | keine | Recycling/Container — Ankauf unbewiesen (PRÜFFALL) | unklar |
+| Waldmann B. Containerdienst | Eppertshausen 64859, Jahnstr. 23 | keine | Container/Entsorger — Spektrum Schrott/Metalle/AV, Ankauf unbewiesen (PRÜFFALL) | unklar |
+| Containerdienst Sell | Schaafheim 64850, An der Ziegelei 11a | keine | Container — (DUP Kernzone — einmal!) | unklar |
+| Willeführ Fredy Containerdienst | Groß-Umstadt/Kleestadt 64823, Friedrich-Ebert-Str. 18 | keine | Container — Spektrum inkl. Schrott, Abgrenzung Willeführ-Cluster (PRÜFFALL) | unklar |
+| Schrotthandel Meyer | Darmstadt 64291, Am Sportplatz (o. Nr.) | keine | Schrott — nur OSM-Node (PRÜFFALL; mögl. Dublette Levy/Zerseeger-Seed) | unklar |
+| Goldankauf Darmstadt | Darmstadt 64283, Rheinstr. 22 | https://www.goldankauf-darmstadt.com | Alt-/Zahngold/Münzen/Barren/Silber/Platin/Uhren — keine | unklar |
+| Juwelier Münzer | Darmstadt 64283, Luisenplatz 7 | https://www.juwelier-muenzer.de | Altgold/Silber/Münzen/Zahngold/Besteck — /service-altgold/ | unklar |

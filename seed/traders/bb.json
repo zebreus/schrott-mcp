@@ -966,14 +966,14 @@
   }
  },
  {
-  "slug": "bb-furstenwalde-spree-smr",
+  "slug": "bb-lubben-neuendorf-smr",
   "name": "SMR GmbH",
   "trader_type": "schrotthaendler",
   "description": "",
-  "street": "",
+  "street": "Mühlbergweg 10",
   "postcode": "",
   "phone": "",
-  "city": "Fürstenwalde/Spree",
+  "city": "Lübben-Neuendorf",
   "state": "BB",
   "website": "",
   "website_status": "",

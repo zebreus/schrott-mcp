@@ -26,7 +26,7 @@ Ankauf-Flag: **ja** = Ankauf auf Website belegt; **unklar** = kein Ankaufbeleg (
 | Krappmann & Hufnagel GmbH | Würzburg (Hafen) | https://krappmann-hufnagel.de/ | Schrott/Metall, Autoverwertung, Container, Demontage | ja |
 | Riwald Recycling Franken GmbH (ArcelorMittal) | Bamberg | https://riwald.com/ | Stahl-/NE-Schrott, Gießereivormaterial (eher Gewerbe) | ja |
 | Mölter GmbH | Kronach-Neuses | https://www.moelter-kronach.de/ | Schrott, NE-Metalle, Hartmetall, Kats, Autoverwertung, Abbrüche | ja |
-| Schrott Kaiser (PK GmbH) | Lichtenfels | https://www.schrottkaiser.de/ | Abbruch, Autoverwertung, Container/Abschleppdienst | unklar |
+| Schrott Kaiser (PK GmbH) | Adelsdorf, Industriestr. 23 | https://www.schrottkaiser.de/ | Abbruch, Autoverwertung, Container/Abschleppdienst | unklar |
 | August Kutter GmbH & Co. KG | Memmingen / Kempten | https://www.schrott-kutter.de/ | Schrott, Metalle, Altautos, Abbrüche, Container | ja |
 | Eisen Braun GmbH | Memmingen | https://eisen-braun.de/buntmetalle | Buntmetall, Schrott, Abholung, Container | ja |
 | Iwan Koslow GmbH & Co. KG | Landshut / Wörth a. d. Isar / Passau | https://www.koslow.de/ | Schrott/Metalle, Altfahrzeuge, E-Schrott, Container | ja |
@@ -438,8 +438,8 @@ Stand: 2026-09-27. Winkel: Kandidatenliste /tmp/opencode/audit/by.md (~146 Kandi
 | RPM Entsorgung Kat/Batterien | Landshut-Wolfgang 84032 | keine | Kat/Batterien — Ankauf im Firmennamen (NEU) | unklar |
 | Dahms Falk AV | Pressath 92690 | keine (domain 403) | Altautos/Schrottplatz — OSM (NEU) | unklar |
 | Mayer AV | Ursensollen-Wollenzhofen 92289 | keine | Altautos — UPGRADE Seed-Surname Wollenzhofen | unklar |
-| Michalak | Adelsdorf 91325 | keine | Schrott/Metall — UPGRADE Seed Michalak (OSM) | unklar |
-| Frankenberg | Emskirchen 91448 | keine | Metall — UPGRADE Seed Frankenberg (OSM) | unklar |
+| Michalak | Adelsdorf, Industriestr. 27a | keine | Schrott/Metall — UPGRADE Seed Michalak (OSM) | unklar |
+| Frankenberg | Emskirchen, Industriestr. | keine | Metall — UPGRADE Seed Frankenberg (OSM) | unklar |
 | Kaiser | Adelsdorf 91325 | keine | Schrott/Metall — UPGRADE Seed Kaiser (OSM + Tel) | unklar |
 | Denk AV | Zeil am Main 97475 | keine (domain tot) | Altautos — vermutl. Zweig Seed Denk Haßfurt | unklar |
 | Hertenberger AV | Vilsbiburg 84137 | keine (falscher Namensvetter!) | Altautos — OSM | unklar |
@@ -451,3 +451,55 @@ Stand: 2026-09-27. Winkel: Kandidatenliste /tmp/opencode/audit/by.md (~146 Kandi
 | Zäpfler Containerdienst + Schrott | Senden-Aufheim 89250 | keine | Container/Schrott — "+Schrott" im Namen, OSM (PRÜFFALL) | unklar |
 | Lang AV | Gaimersheim 85080 | keine | Altautos — OSM (≠ Seed Lang Würzburg) | unklar |
 | Mitsching AV | Mühldorf 84453 | keine (domain Platzhalter) | Altautos — OSM + Tel | unklar |
+
+## Nachtrag Mömlingen Hensel (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Hensel Recycling GmbH | Aschaffenburg-Obernau 63743, Mühlweg 10 | https://hensel-recycling.com | Katalysatoren (Auto+Industrie), E-Schrott/Platinen, Edelmetalle | ja (Ankauf-Kategorien; Edelmetallpreise nur per JS-Chart, kein statischer Preis) |
+
+## Nachtrag Mömlingen-70km (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Schrott Rosel | Großwallstadt 63868, Frankenstr. 30 | keine | Schrott — GS + Örtliche | unklar |
+| Gerhardt Metallhandel (Thomas Gerhardt) | Großheubach 63920 / Laudenbach 63925 Obernburger Str. 16 | https://schrotthandelgerhardt.de/ | Metall/Entsorger/Schrott-Annahme — Sa 9-12 + n. Vereinbarung | unklar |
+| AC Containerdienst | Freigericht-Somborn 63579 HE, Raiffeisenstr. 26 | keine (GS-Button) | Containerdienst — Cluster mit JR-Recycling (Seed), Ankauf unbestätigt (PRÜFFALL) | unklar |
+| Heinz Will GmbH & Co. KG | Mainaschaff 63814, Hauptstr. 72 | keine | Metallhandel (Halbzeuge) — ggf. Schwester Seed-Will, eher Neuware (PRÜFFALL) | unklar |
+| Willeführ Tanksanierung/Demontage/Metallhandel | Aschaffenburg-Obernau 63743, Ruchelnheimstr. 3B | keine (GS-Button) | Tanksanierung/Demontage/Metall — anderer Betrieb als Seed-Obernburg | unklar |
+| BeBa Autoverwertung | Aschaffenburg 63743, Feldchenstr. 73 | http://beba-autoverwertung.de/ | AV/Unfall/Teile — DEKRA-zertifiziert | unklar |
+| Autoverwertung Miltenberg 579 GmbH | Miltenberg 63897, Altstadtweg 4 | keine | AV — HRB 14203, verifizieren | unklar |
+| Orta Goldankauf | Obernburg 63785, Römerstr. 44 | keine (GS-Button) | Gold/Silber — keine | unklar |
+| Schmuck Filbert | Miltenberg 63897 + Elsenfeld 63820 | keine (GS-Button) | Juwelier/Goldankauf — 2 Filialen | unklar |
+| Schrott Mehring GmbH | Miltenberg 63897, Nikolaus-Fasel-Str. 2 | keine | Schrott — Zweigstelle Dorfprozelten, Tel. 09371/3187 | unklar |
+| Car Transplant GmbH | Miltenberg 63897, Altstadtweg 4 | keine | AV — zert. Demontagebetrieb | unklar |
+| Eckstein Ricardo Schrotthandel u. Lehmann Antonia | Amorbach 63916, Amorsbrunner Str. 5C | keine | Schrott — Verzeichnis-Beleg (PRÜFFALL) | unklar |
+| Schrott und Metallhandel Christian Schlereth | Karlstadt-Gambach 97753, Frühlingstr. 43 | keine | Schrott/Metall — GS, Tel. 09353 509050 (≠ Stammham) | unklar |
+| Funk Johannes Schrott und Metallhandel | Arnstein-Heugrumbach 97450 | keine | Schrott/Metall — Tel. 09363 997311 | unklar |
+| Kopp Theodor Schrott und Altmetalle | Oberpleichfeld 97241 | keine | Schrott/Altmetalle — Tel. 09367 2200 | unklar |
+| Autoverwertung Pujdak | Lohr-Steinbach 97816, Hofstettener Str. 50 | keine | AV/Kranverleih — GS + OSM, Tel. 09352 6142 | unklar |
+| Mertel Autoverwertung | Sennfeld 97526 | keine | AV — GS + NorthData, Tel. 09721 5411644 | unklar |
+| Firma Elma Ljuca e.K. | Wonfurt 97539 | keine | AV — Tel. 09521 6100636 | unklar |
+| Lenhart Valentin | Haßfurt 97437 | keine | Gebrauchtwagen/AV — Familie Lenhart, neben Mathias-Betrieb | unklar |
+| Autoverwertung Denk / Denk F. | Zeil a.Main 97475, Wildgarten 14 | keine | AV — GS + OSM, Tel. 09524 7191; mögl. Zweig Haßfurt-Augsfeld | unklar |
+| Autoverwertung Schrotthandel Gazoz | Bergrheinfeld 97493, Richtbergstr. 17 | keine | AV/Schrott — OSM (nicht in GS) | unklar |
+| Digosa Metall GmbH | Lohr a.Main 97816 | keine | Metallhandel — GS + NorthData, Tel. 0173 3120667; Sitz Mannheim unklar (Filiale?) | unklar |
+| WS-Metalle | Würzburg-Dürrbachau 97080 | keine | Metallhandel — Tel. 0931 26059273 | unklar |
+| MLM Vertriebs GmbH | Karlstadt 97753 | keine | Metallvertrieb — eher Verkauf (PRÜFFALL) | unklar |
+| Pfeifer Rainer Schrotthandel | Würzburg-Versbach 97078 | keine | Schrott — gleicher Ort wie J. Pfeifer (Seed) — Familienbetrieb? | unklar |
+| Schrott Schneck Randolf | Uffenheim 97215 | keine | Schrott — Edge ~70 km | unklar |
+| Persch Containerdienst GmbH & Co. KG | Knetzgau-Westheim 97478 | keine | Container/Entsorgung — kein Metallankauf belegt (PRÜFFALL) | unklar |
+| Eichhorn Transport- und Entsorgungs-GmbH | Eltmann 97483 | keine | Transport/Entsorgung — kein Metallankauf belegt (PRÜFFALL) | unklar |
+| Hensel Recycling GmbH | Aschaffenburg-Obernau 63743, Mühlweg | https://hensel-recycling.com | Kat (Auto+Industrie), E-Schrott/Platinen, Edelmetalle — Abholung/Vor-Ort-Sortierung → HANDLER-KANDIDAT | unklar |
+| Die Goldwaage | Aschaffenburg 63739, Frohsinnstraße | https://diegoldwaage.de | Zahngold/Dentalgold, Altgold, Silber, Münzen — Ladengeschäft + /zahngold-ankauf/ → prüfen | unklar |
+| Metallorum Edelmetallhandels GmbH | Aschaffenburg 63739, Weißenburger Str. | https://metallorum.de | Gold/Silber, Münzen/Barren, Altgold — https://metallorum.de/unser-service/preislisten/ + /ankaufsrechner/ → prüfen | ja |
+| ALEX Goldankauf | Aschaffenburg 63739, Roßmarkt 39 A | keine | Zahngold/Silber/Schmuck/Uhren — Tel. 06021-9218508 | unklar |
+| Münzengala | Eschau-Hobbach 63863, Brunnenstr. 8b | https://aschaffenburg.muenzengala.de | Münzen/Sammlungen — keine | unklar |
+| Winfried Haase Uhren und Schmuck | Alzenau 63755, Hanauer Str. 9 | https://www.haase-alzenau.de | Altgold/Münzen/Zahngold/Barren/Tafelsilber — tagesaktuell | unklar |
+| Der Goldfachmann | Gelnhausen 63571, Im Ziegelhaus 10 | https://www.dergoldfachmann.de | Gold/Silber/Platin — Filiale seit 2011 | unklar |
+| Barbarossa Juwelier | Gelnhausen 63571, Im Ziegelhaus 1 | https://www.barbarossa-juwelier.de | Goldankauf/Tagespreise — Mo–Sa | unklar |
+| Juwelier Dittmeier | Seligenstadt 63500, Aschaffenburger Str. | https://juwelier-dittmeier.eu | Gold/Schmuck/Uhren — keine | unklar |
+| Hess Juwelier & Uhrmacher | Offenbach-Bürgel 63075, Kurfürstenstr. | https://www.hess-juwelier-uhrmacher.de | Münzen/Gold/Silber/Platin/Uhren/Nachlässe — keine | unklar |
+| H&G Gold An & Verkauf | Miltenberg 63897, Hauptstr. 92 | keine | Alt-/Zahn-/Bruchgold/Münzen/Barren/Silber — Bar-Auszahlung | unklar |
+| Auktionshaus Miltenberg | Miltenberg 63897, Hauptstr. | https://www.auktionshaus-miltenberg.de | Gold/Schmuck/Uhren/Silber — /ankauf/ | unklar |
+| Würzburger Goldankauf | Würzburg 97070, Katharinengasse 5 | https://www.wuerzburger-goldankauf.com | Gold/Silber/Platin/Palladium/Münzen/Zahngold/Besteck — ~65 km | unklar |

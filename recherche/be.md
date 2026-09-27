@@ -33,7 +33,7 @@ Flag "Ankauf unklar" = Entsorger/Behandler ohne belegten Barankauf.
 | AiR Abfall ist Rohstoff GmbH | Spandau | Sophienwerderweg 60, 13581 Berlin | keine Website gefunden | Handel/Makeln (B2B) | Ankauf unklar |
 | AMR Metalle und Rohstoffe GmbH (AMR Schrottplatz) | Treptow-Köpenick (Niederschöneweide) | Schnellerstr. 20E, 12439 Berlin | http://www.amr-schrottplatz.de | Altmetall + Hartmetall + Demontage, Container | ja |
 | Alt-Metallhandel Bernhard Schult | Friedrichshain-Kreuzberg (Friedrichshain) | Dolziger Str. 30, 10247 Berlin | keine Website gefunden | Altmetallhandel (nur Verzeichnisbeleg) | unsicher |
-| KLE Schrott- und Metallhandel GmbH | Mitte (Wedding) | Holzstr. 15, 13359 Berlin | keine Website gefunden | Schrott + Metall, Hausabholung ab Menge | ja |
+| KLE Schrott- und Metallhandel GmbH | Mitte (Wedding) | https://www.kle-metalle.de | keine Website gefunden | Schrott + Metall, Hausabholung ab Menge | ja |
 | Schrott Gudrun | Charlottenburg-Wilmersdorf | Pestalozzistr. 88A, 10625 Berlin | keine Website gefunden | Schrott (nur Gelbe-Seiten-Beleg) | unsicher |
 | Altmetalle Spannemann OHG | Pankow (Weißensee) | Meyerbeerstr. 61-63, 13088 Berlin | keine Website gefunden | Alu, Blei, Edelstahl, Zink, Kupfer, Messing, Kabel | unsicher (dünner Beleg) |
 | DIGOSI Edelmetall & Recycling GmbH (Scheideanstalt Berlin) | Mitte (Tiergarten) | Potsdamer Str. 92, 10785 Berlin | https://www.scheideanstalt-berlin.de | Scheideanstalt: Gold, Silber, Platin, Palladium | ja |
@@ -44,7 +44,7 @@ Flag "Ankauf unklar" = Entsorger/Behandler ohne belegten Barankauf.
 | Auto-Ferch GmbH / BRH Altfahrzeugbehandlung | Reinickendorf | Lengeder Str. 22, 13407 Berlin | keine Website gefunden | Autoverwertung + Gebrauchtteile | ja — Autoverwertung |
 | Sperber Otto Autoverwertung | Tempelhof-Schöneberg (Schöneberg) | Gotenstr. 26-28, 10829 Berlin | keine Website gefunden | Autoverwertung | ja — Autoverwertung |
 | BAES / Autoverwerter Berlin | Tempelhof-Schöneberg (Tempelhof) | Teilestr. 7, 12099 Berlin | https://autoverwerter-berlin.de | Altautoentsorgung, Abholung | ja — Autoverwertung (Restwert unklar) |
-| Autopresse Tempelhof | Tempelhof-Schöneberg (Tempelhof) | Tempelhof (genaue Adresse unklar) | keine Website gefunden | Zertifizierter Autoverwerter bis 3,5 t | unsicher — Autoverwertung |
+| Autopresse Tempelhof | Gottlieb-Dunkel-Str. 41, 12099 Berlin | https://www.autopresse-tempelhof.de | keine Website gefunden | Zertifizierter Autoverwerter bis 3,5 t | unsicher — Autoverwertung |
 | Autoteile Wedding (Autoverwertung) | Mitte (Gesundbrunnen) | Koloniestr. 114, 13359 Berlin | keine Website gefunden | Autoverwertung | ja — Autoverwertung |
 | Autoverwertung Nord | Mitte (Gesundbrunnen) | Holzstr. 4A, 13359 Berlin | keine Website gefunden | Autoverwertung | ja — Autoverwertung |
 | Auto Schaefer Autoverwertung | Spandau | Am Juliusturm 33, 13599 Berlin | keine Website gefunden | Autoverwertung | ja — Autoverwertung |
@@ -96,9 +96,9 @@ Ergebnis: 16 neue Einträge mit Ankaufbeleg + 13 "unsicher" (dünner Beleg) + Ko
 | Berlin Metalle (Schrottabholung Stefan) | Marzahn-Hellersdorf (Biesdorf) | Lötschbergstr., 12683 Berlin | https://berlin-metalle.de | kostenlose Abholung Berlin/Brandenburg, Demontage | ja (Abholung; keine Preisliste) |
 | BEG Service (Auflösungen/Schrott) | Spandau (Verzeichnis: Staakener Str. 28-29, 13581; Website-Impressum: Leipziger Str. 67, 14612 Falkensee) | s. links | https://beg-service.de | Schrotthandel/Ankauf "faire Preise", Edelmetalle, Entrümpelung, Container | ja (Sitz unklar Berlin/Brandenburg) |
 | Schrotthandel Adlershof | Treptow-Köpenick (Adlershof) | Glienicker Str. 101, 12557 Berlin | https://www.schrotthandeladlershof.de/ (Abruf 27.09.: 403 Bot-Schutz; Domain existiert, von schrottradar als offiziell geführt) | Cu, Alu, Edelstahl, Messing, Zinn/Zink, Blei; Tel. 030 37434252 | ja (Verzeichnisbeleg) |
-| Marske GmbH & Co. KG | Neukölln | Lahnstr. 3-5, 12055 Berlin | keine aktive Website (marske-gmbh.de derzeit Casino-Spam/gekidnappt) | Cu, Messing, Zinn/Zink, Blei; Annahme + Abholung; Tel. 030 6841513 | ja (nur Verzeichnisbeleg) |
+| Marske GmbH & Co. KG | Neukölln | https://marske-gmbh.de | keine aktive Website (marske-gmbh.de derzeit Casino-Spam/gekidnappt) | Cu, Messing, Zinn/Zink, Blei; Annahme + Abholung; Tel. 030 6841513 | ja (nur Verzeichnisbeleg) |
 | Schrotthandel Achtert | Marzahn-Hellersdorf (Hellersdorf) | Waldstr. 64, 12621 Berlin | keine Website gefunden | Demontage, Abholung, Bauschutt; Tel. 0173 4282425 | ja (nur Verzeichnisbeleg) |
-| Memo Schrotthandel (= MKB GmbH, Tel.-Identität) | Tempelhof-Schöneberg (Britz/Tempelhof-Grenze) | Tempelhofer Weg 10A, 12099 Berlin | keine aktive Website (alte Domain metallkontor-berlin.de tot) | Abriss/Demontage, Schrottplatz; Tel. 030 6257032 | ja (nur Verzeichnisbeleg, 2 Quellen) |
+| Memo Schrotthandel (= MKB GmbH, Tel.-Identität) | Tempelhof-Schöneberg (Britz/Tempelhof-Grenze) | https://www.memo-schrotthandel.de | keine aktive Website (alte Domain metallkontor-berlin.de tot) | Abriss/Demontage, Schrottplatz; Tel. 030 6257032 | ja (nur Verzeichnisbeleg, 2 Quellen) |
 | Metall-Schrott-Berlin | Pankow (Prenzlauer Berg) | Storkower Str. 48, 10409 Berlin | keine Website gefunden | Altmetall-Annahme; Tel. 0176 29755761 | ja (nur Verzeichnisbeleg) |
 | Theo Steil GmbH (Niederlassung Berlin) | Pankow (Weißensee) | Gehringstr. 47, 13088 Berlin | https://steil.de (Konzern Schrott-/Metallgroßhandel; Berliner Standort nur per Verzeichnis belegt) | Stahlschrott, NE, Container; Tel. 030 92400880 | ja (v.a. Gewerbe; privat unklar) |
 | Baumgarter & Partner Metallrecycling GmbH | Mitte (Wedding) | Koloniestr. 107-108, 13359 Berlin | keine Website gefunden | Fe + NE; Tel. 030 49916228 | ja (nur Verzeichnisbeleg) |
@@ -120,7 +120,7 @@ Ergebnis: 16 neue Einträge mit Ankaufbeleg + 13 "unsicher" (dünner Beleg) + Ko
 | Psiorz (Inh. Marius Maciossek) | Neukölln (Buckow) | Rotkehlchenweg 2, 12351 Berlin | nur schrottplatz-info (alt) |
 | Klemm | Neukölln (Rudow) | Waltersdorfer Chaussee 9-11, 12355 Berlin | nur schrottplatz-info (alt) |
 | Leonhardt Andreas | Reinickendorf | Pankower Allee 13, 13409 Berlin; Tel. 030 4923060 | nur lokaleschrottplatz (Kleinsthändler-Typ) |
-| Inge Altermann | Reinickendorf (Wittenau) | Wittenauer Str. 88, 13435 Berlin; Tel. 030 4922092 | nur lokaleschrottplatz (Kleinsthändler-Typ) |
+| Inge Altermann | Reinickendorf (Wittenau) | Wittenauer Str. 100 (war Nr. 88), 13435 Berlin; Tel. 030 4922092 | nur lokaleschrottplatz (Kleinsthändler-Typ) |
 | Schott Rainer | Spandau (Haselhorst) | Gartenfelder Str. 86-88, 13599 Berlin; Tel. 030 3819906 | nur lokaleschrottplatz (Kleinsthändler-Typ) |
 | Andreas Kendzierski | Mitte (Gesundbrunnen) | Drontheimer Str. 26, 13359 Berlin; Tel. 030 4926784 | nur lokaleschrottplatz (Kleinsthändler-Typ) |
 
@@ -215,12 +215,12 @@ Ergebnis: 9 neue Einträge (6 Verzeichnisbeleg + 2 Autoverwerter + 1 unsicher) +
 | Hidanovic | Mitte (Gesundbrunnen) | Grenzstr. 13, 13355 Berlin; Mobil 0178 6944710 | schrottplatz-info-Detailseite (Umkreis Wasdrack-Treptow) | ja (nur Verzeichnisbeleg) |
 | Gundlach Klaus | Mitte (Wedding) | Ungarnstr. 68, 13349 Berlin; Mobil 0171 9935369 | schrottplatz-info-Detailseite | ja (nur Verzeichnisbeleg) |
 | E.R.W.I.N. Schrotthandel GmbH | Reinickendorf (Wittenau) | Wittenauer Str. 88-100, 13435 Berlin; Tel. 030 40392888 | schrottplatz-info-Detailseite (Umkreis Auto-Ferch) | ja (nur Verzeichnisbeleg) |
-| Harnisch E.-M. Schrott & Metallhandel GmbH | Reinickendorf (Hermsdorf) | Robinienweg 3-4, 13467 Berlin; Tel. 030 4045009 | schrottplatz-info-Detailseite + Das Telefonbuch (2 Quellen); Ex-Domain schrott-metall-harnisch.de tot | ja (Verzeichnisbeleg, zweitbelegt) |
+| Harnisch E.-M. Schrott & Metallhandel GmbH | Reinickendorf (Hermsdorf) | https://schrott-metall-harnisch.de | schrottplatz-info-Detailseite + Das Telefonbuch (2 Quellen); Domain wieder live | ja (Verzeichnisbeleg, zweitbelegt) |
 | Schrottankauf Kemal Kashev | Lichtenberg (Hohenschönhausen) | Gärtnerstr. 17-18, 13055 Berlin; Mobil 0170 8903685 | schrottplatz-info-Detailseite mit Leistungsbeschreibung (Einzugsgebiet Marzahn/Lichtenberg/Pankow); gleiche Adresse wie Autoverwertung Wagner | ja (Verzeichnisbeleg mit Beschreibung) |
-| Schrott-Allner-Berlin | Spandau (Haselhorst) | Burscheider Weg 43, 13599 Berlin; Mobil 01522 6533386 | Das Telefonbuch (Branche Schrott) | ja (nur Verzeichnisbeleg) |
+| Schrott-Allner-Berlin | Spandau (Haselhorst) | https://www.schrott-berlin-brandenburg.de.tl | Das Telefonbuch (Branche Schrott) | ja (nur Verzeichnisbeleg) |
 | An- und Verkauf von KFZ Schrotthandel | Spandau | Wiesendamm 15, 13597 Berlin; Tel. 030 77906961 | Das Telefonbuch (Branche Autoverwertung) | ja — Autoverwertung (Verzeichnisbeleg) |
-| Autoverwertung Weissensee GmbH | Pankow (Frz. Buchholz) | Marienstr. 5, 13127 Berlin; Tel. 030 4721154 | Das Telefonbuch (Branche Schrott); Domain autoverwertung-weissensee.de tot | unsicher — Autoverwertung (Verzeichnisbeleg, Website tot) |
-| LOOKER TRADE UG | Neukölln | Hermannstr. 16, 12049 Berlin; Tel. 030 68053303 | nur Das Telefonbuch (Branche Schrott); Domain looker.de tot | unsicher |
+| Autoverwertung Weissensee GmbH | Pankow (Frz. Buchholz) | https://autoverwertung-weissensee.de | Das Telefonbuch (Branche Schrott); Domain wieder live (war tot gemeldet) | unsicher — Autoverwertung (Verzeichnisbeleg, Website tot) |
+| LOOKER TRADE UG | Neukölln | https://looker.de | nur Das Telefonbuch (Branche Schrott); Domain wieder live (war tot gemeldet) | unsicher |
 
 ### B. CORRECTIONS — Identitätsklärungen aus Runde 3 + Runde 4 (keine Löschungen, nur Vermerke)
 
@@ -280,7 +280,7 @@ Ergebnis: 38 kept-Zeilen + 9 Rejects (davon 1 BB-Handoff) + 1 toter Seed-Site.
 | Schrott und Altmetall Abholung | Friedrichshain-Kreuzberg, Möckernstr. 139, 10963 Berlin | keine Website verifiziert | Schrottabholung mobil | unklar |
 | Markopol | Pankow, Schönhauser Str. 33, 13158 Berlin | keine Website verifiziert | Schrotthandel | unklar |
 | Schrott Renate und Peter | Berlin, Tel. 030 6842306 (keine Adresse) | keine Website verifiziert | Schrotthandel | unklar |
-| Gerald Jordan Entsorgung | Reinickendorf, Amendestr. 12, 13409 Berlin | keine Website verifiziert | Entsorgung, Container? | unklar |
+| Gerald Jordan Entsorgung | Reinickendorf, Amendestr. 12, 13409 Berlin | https://www.gerald-jordan.de | Entsorgung, Container? | unklar |
 | Jens Düring Bauten- & Container Service | Treptow-Köpenick, Köpenicker Landstr. 162, 12437 Berlin | keine Website verifiziert | Containerdienst | unklar |
 | Rich. Herbig Metallhandel Berlin GmbH & Co. KG | Steglitz-Zehlendorf, Bahnhofstr. 31, 12207 Berlin | keine Website verifiziert | Metallhandel (NE?; B2B ok) | unklar |
 | K&M Automobile | Mitte, Drontheimer Str. 26, 13359 Berlin | keine Website verifiziert | Autoverwertung (Restwert-Ankauf unklar) | unklar — Autoverwertung |
