@@ -457,8 +457,10 @@ Stand: 27.09.2026. Fokus: Audit-Vorlage Runde 1 (~30 Website-Kandidaten + ~70 Re
 - Blockiert (403, existent, Bot-Schutz — kein Handlungsbedarf): scheideanstalt.de (ESG, bekannt), schrott-frank.de (bekannt), schrotthandel-k-buechler.jimdosite.com (bekannt, Cloudflare-Schutz).
 - Umgeleitet (Ziel lebt, ggf. Seed-URL aktualisieren): wittmann-schrotthandel.de → https://www.schrottabholung-mannheim.de/ (Dieter/Silvano Wittmann, Runde 4); ohnemus-recycling.de → https://www.scherrieble-gruppe.de/member/ohnemus-recycling/ (Ohnemus jetzt Scherrieble-Gruppe); leberrohstoffe.com → /leber/-Unterpfad; cronimet.de → /en/; ganz-containerdienst.de → Homepage.
 
-### Handoff BY-Audit (27.09.2026, kein md2seed gelaufen)
-- Bruno Welz Scheideanstalt | Schwäbisch Gmünd (BW!) | http://www.bruno-welz.de | Scheideanstalt, Edelmetall, Dentalgold | https://shop.bruno-welz.de/edelmetall-ankauf/ | PREISLISTE (echte Ankauf-Preisliste) → Handler-Fall BW
-- Max Buck Altauto-/Schrott-/Metallannahme | Ulm 89079, Boschstr. 20 (BW!) | http://www.max-buck.de | AV, Metallankauf | http://www.max-buck.de/ankauf/metalle/ | Annahme-Seite → prüfen
-- R. Metall & Truck Trading | Merklingen 89188, Industriestr. 6 (BW!) | http://www.r-mtt.de | Metallhandel, LKW-Ankauf | http://www.r-mtt.de/nutzfahrzeugankauf/ | ? LKW-Fokus → prüfen
-- Reinhardt Schrotthandel | Ulm 89075, Weinbergweg 90 (BW!) | keine | Schrott | keine | ? anderer Reinhardt als Loiching/Schweinfurt → prüfen
+### Handoff BY-Audit (27.09.2026) — als Tabelle für md2seed
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Bruno Welz Scheideanstalt | Schwäbisch Gmünd | http://www.bruno-welz.de | Scheideanstalt, Edelmetall, Dentalgold | ja (PREISLISTE: https://shop.bruno-welz.de/edelmetall-ankauf/ — echter Ankauf-Shop, Handler-Fall BW) |
+
+Die übrigen drei Handoff-Zeilen (Max Buck, R. Metall, Reinhardt Ulm) sind Seed-Dupes (bw-ulm-max-buck, bw-merklingen-r-metall, bw-ulm-eselsberg-reinhardt-schrotthandel — letzterer sogar mit Weinbergweg 90) und wurden hier gestrichen statt importiert.

@@ -6369,5 +6369,28 @@
    "ankauf_raw": "unklar",
    "origin": "table"
   }
+ },
+ {
+  "slug": "bw-schwabisch-gmund-bruno-welz-scheideanstalt",
+  "name": "Bruno Welz Scheideanstalt",
+  "trader_type": "sonstige",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "",
+  "city": "Schwäbisch Gmünd",
+  "state": "BW",
+  "website": "http://www.bruno-welz.de",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "aktiv",
+  "notes": "Scheideanstalt, Edelmetall, Dentalgold | Adresse: Schwäbisch Gmünd",
+  "provenance": {
+   "seed_file": "bw",
+   "section": "Handoff BY-Audit (27.09.2026) — als Tabelle für md2seed",
+   "ankauf_raw": "ja (PREISLISTE: https://shop.bruno-welz.de/edelmetall-ankauf/ — echter Ankauf-Shop, Handler-Fall BW)",
+   "origin": "table"
+  }
  }
 ]

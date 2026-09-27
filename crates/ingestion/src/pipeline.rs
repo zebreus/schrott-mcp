@@ -201,6 +201,13 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Hartmetallschrott aus Werkzeugen, Wendeschneidplatten und Fräsern.",
     ),
     (
+        "hss-werkzeuge",
+        "HSS-Werkzeuge / Schnellarbeitsstahl",
+        "eisen",
+        "EUR/kg",
+        "Schnellarbeitsstahl aus Bohrern und Fräsern (eisenbasisch, kein Hartmetall).",
+    ),
+    (
         "gold",
         "Goldlegierungen",
         "edelmetall",
