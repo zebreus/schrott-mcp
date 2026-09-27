@@ -195,8 +195,8 @@ pub async fn authorize_get(
         .map(|t| state.issue_csrf(&t))
         .unwrap_or_default();
     let scope = q.scope.clone().unwrap_or_else(|| "read".to_owned());
-    respond::html(super::pages::consent(
-        super::pages::ConsentData {
+    respond::html(crate::web::pages::consent(
+        crate::web::pages::ConsentData {
             client_id: &client_id,
             redirect_uri: &redirect_uri,
             scope: &scope,

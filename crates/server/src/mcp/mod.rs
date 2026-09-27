@@ -12,8 +12,10 @@ use axum::{
 use serde::Deserialize;
 use serde_json::{json, Value};
 
-use super::respond;
-use super::state::{bearer_user, AppState};
+use crate::respond;
+use crate::state::{bearer_user, AppState};
+
+mod worker;
 
 /// Protocol versions this server speaks, newest first.
 const SUPPORTED_VERSIONS: &[&str] = &["2025-06-18", "2025-03-26", "2024-11-05"];
@@ -347,7 +349,7 @@ async fn call_tool(
     let max_rows = int_arg(&args, "max_rows").unwrap_or(50).clamp(1, 200) as usize;
     // Full result first, from the isolated worker: the download blob
     // always carries everything the query produced.
-    let (columns, all_rows) = match super::worker::run_query(&state.data_dir, &sql).await {
+    let (columns, all_rows) = match worker::run_query(&state.data_dir, &sql).await {
         Ok(r) => (r.columns, r.rows),
         Err(e) => return rpc_result(id, tool_error(e.to_string())),
     };

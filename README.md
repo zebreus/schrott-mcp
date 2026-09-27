@@ -13,6 +13,8 @@ With love as the secret ingredient.
     ingestion runs/steps and raw fetch log (private).
   - `public.db` — `sources`, `datasets`, `items`: the entire queriable data
     set exposed to every MCP user (not user specific).
+  - `internal/` is split by domain (`users`, `oauth`, `pipeline`, `sharing`),
+    each owning its tables, row types and queries.
 - `crates/auth` — argon2 password hashing, random tokens, SHA-256, PKCE-S256.
 - `crates/ingestion` — minimal pipeline (`fetch -> parse -> normalize ->
   diff -> upsert`) plus three wildly different example scrapers and a
@@ -21,6 +23,9 @@ With love as the secret ingredient.
   password + "professional data-user" checkbox, nothing else), dashboard,
   OAuth 2.0 authorization server with dynamic client registration (so an MCP
   host can just be pointed at the URL), and the MCP Streamable-HTTP endpoint.
+  Split by surface: `web/` (`pages` templates, `auth`, `dashboard`, `site`),
+  `mcp/` (endpoint plus the isolated `worker` spawner), top-level `oauth.rs`,
+  and shared `state.rs` (sessions, CSRF, flash) plus `respond.rs`.
   Shared `respond` module for consistent responses; one-time secrets travel
   in server-side flash state (never URLs); cookie POSTs carry CSRF tokens.
   Unit tests live next to the code (`cargo test --workspace`).

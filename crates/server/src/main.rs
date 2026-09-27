@@ -2,11 +2,9 @@
 
 mod mcp;
 mod oauth;
-mod pages;
 mod respond;
 mod state;
 mod web;
-mod worker;
 
 use std::sync::Arc;
 use std::time::Duration;
@@ -109,15 +107,21 @@ async fn main() {
     let _scheduler = offsite_data_ingestion::spawn_scheduler(internal, public, 6 * 3600);
 
     let app = Router::new()
-        .route("/health", get(web::health))
-        .route("/", get(web::index))
-        .route("/signup", get(web::signup_form).post(web::signup_submit))
-        .route("/login", get(web::login_form).post(web::login_submit))
-        .route("/logout", post(web::logout))
-        .route("/dashboard", get(web::dashboard))
-        .route("/tokens/create", post(web::create_token))
-        .route("/tokens/delete", post(web::delete_token))
-        .route("/api/ingest/run", post(web::ingest_run))
+        .route("/health", get(web::site::health))
+        .route("/", get(web::site::index))
+        .route(
+            "/signup",
+            get(web::auth::signup_form).post(web::auth::signup_submit),
+        )
+        .route(
+            "/login",
+            get(web::auth::login_form).post(web::auth::login_submit),
+        )
+        .route("/logout", post(web::auth::logout))
+        .route("/dashboard", get(web::dashboard::dashboard))
+        .route("/tokens/create", post(web::dashboard::create_token))
+        .route("/tokens/delete", post(web::dashboard::delete_token))
+        .route("/api/ingest/run", post(web::dashboard::ingest_run))
         .route(
             "/.well-known/oauth-authorization-server",
             get(oauth::server_metadata),
@@ -138,8 +142,8 @@ async fn main() {
         )
         .route("/oauth/token", post(oauth::token))
         .route("/mcp", get(mcp::mcp_get).post(mcp::mcp_post))
-        .route("/d/{secret}/result.json", get(web::download_result))
-        .fallback(web::fallback_404)
+        .route("/d/{secret}/result.json", get(web::site::download_result))
+        .fallback(web::site::fallback_404)
         .with_state(state);
 
     tracing::info!("offsite-data listening on {}", config.bind);
