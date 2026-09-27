@@ -389,11 +389,9 @@ schneider-recycling.de → schneider-recycling.com (Kandidat, ok). Bot-Schutz (l
 | Laroche Demontagearbeiten |  | https://demontage-metallhandel.de |  | unklar |
 | D. Laroche Horchheim |  | keine | Mendelssohnstr. 11 | unklar |
 | Schneider Michael Schrotthandel | Koblenz 56073, Peter-Klöckner-Str. 2A | keine | Schrottplatz (Seed-Ergänzung: Alias 1A Schrotthandel) | unklar |
-| Steinbach Stademannstr. 27 |  | keine |  | unklar |
 | S. Alten St.-Maternus-Str. |  | keine | Alten-Zweig | unklar |
 | Port Metternich |  | keine | Bitburger Str. 23 | unklar |
 | Maik Alten Karthause |  | keine | Cottbuser Str. 2, NEU vs Seed-Gino/Markus/Klara/Angelo | unklar |
-| Rhein-Mosel mobil |  | keine |  | unklar |
 | Reinhardt Oberdürenbach |  | https://www.schrottmetallhandelreinhardt.com | , Königseeweg 2 — ungleich Seed Oberzissen | unklar |
 | Golz Mülheim-Kärlich |  | keine | Goethestr. 29A | unklar |
 | G&S | Bendorf | keine | Hauptstr. 77 | unklar |
@@ -407,7 +405,6 @@ schneider-recycling.de → schneider-recycling.com (Kandidat, ok). Bot-Schutz (l
 | Gurr |  | keine | Am Sandloch 8 | unklar |
 | Daud |  | keine | Rampenweg 18, 88★ | unklar |
 | Tremel |  | keine | Wachtenburgstr. 9, Mikro | unklar |
-| JS mobil. |  | keine |  | unklar |
 | M Trier-West |  | keine | Hornstr. 23 | unklar |
 | MW Trier-West |  | keine | Eifelstr. 4, Jimdo | unklar |
 | H. Block |  | keine | Granastr. 8 | unklar |
@@ -435,14 +432,12 @@ schneider-recycling.de → schneider-recycling.com (Kandidat, ok). Bot-Schutz (l
 | CRONIMET Cremetal Annweiler + Pedack Annweiler |  | keine | gleiche Adresse In den Bruchwiesen 17! | unklar |
 | Ayan Börrstadt |  | keine | Kaiserstr. 5, 82★ | unklar |
 | Paul Bechhofen |  | keine | Altestr. 4 | unklar |
-| Sokoliß mobil |  | keine |  | unklar |
 | Kopp Branchweiler |  | keine | Branchweilerhof 17b | unklar |
 | Trojanowski | Neustadt | keine | Amalienstr. 3 | unklar |
 | Schwerdel Lachen-Speyerdorf |  | keine |  | unklar |
 | Zirwes Brohl-Lützing |  | keine | Mittelstr. 2 | unklar |
 | DWR Weißblech | Andernach | keine | Koblenzer Str. 141, Dosenblech! | unklar |
 | Richarz Buchholz |  | keine | Industriepark Nord 66 | unklar |
-| Schrotthandelbauer |  | keine | nur Domain | unklar |
 | Kickel | Diez | keine | Werner-von-Siemens-Str. 20, 49★ | unklar |
 | Bläsius St. Sebastian |  | keine | Rosenstr. 6 | unklar |
 | Luxem Niederwerth |  | keine | Schützenstr. 1 | unklar |
@@ -474,7 +469,6 @@ schneider-recycling.de → schneider-recycling.com (Kandidat, ok). Bot-Schutz (l
 | Mayer Nattenheim |  | keine | Hauptstr. 90 | unklar |
 | Gärtner Mürlenbach |  | keine | Meisburger Str. 1 | unklar |
 | Petri Gillenfeld |  | keine | Bahnhofstr. 4 | unklar |
-| Gel-Bol mobil |  | keine |  | unklar |
 | Ulman/Laukert Ober-Flörsheim |  | keine | Stetter Str. 4 | unklar |
 | Ries Wierschem |  | keine | Pappelstr. 3 | unklar |
 | Wetzel Hördt |  | keine | Wörthstr. 8 | unklar |
