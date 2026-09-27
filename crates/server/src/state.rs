@@ -114,7 +114,7 @@ fn cookies(headers: &HeaderMap) -> Vec<(String, String)> {
 pub fn session_token(headers: &HeaderMap) -> Option<String> {
     cookies(headers)
         .into_iter()
-        .find(|(k, _)| k == "od_session")
+        .find(|(k, _)| k == "sm_session")
         .map(|(_, v)| v)
 }
 
@@ -166,7 +166,7 @@ pub fn is_expired(ts: &str) -> bool {
 
 /// Value for the `Set-Cookie` header carrying a browser session.
 pub fn session_cookie(token: &str, secure: bool) -> String {
-    let mut c = format!("od_session={token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=2592000");
+    let mut c = format!("sm_session={token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=2592000");
     if secure {
         c.push_str("; Secure");
     }
@@ -175,7 +175,7 @@ pub fn session_cookie(token: &str, secure: bool) -> String {
 
 /// Value clearing the browser session.
 pub fn clear_session_cookie(secure: bool) -> String {
-    let mut c = "od_session=; Path=/; HttpOnly; SameSite=Lax; Max-Age=0".to_owned();
+    let mut c = "sm_session=; Path=/; HttpOnly; SameSite=Lax; Max-Age=0".to_owned();
     if secure {
         c.push_str("; Secure");
     }

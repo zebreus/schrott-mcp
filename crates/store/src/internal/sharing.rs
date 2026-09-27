@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS result_blobs (
     created_at TEXT NOT NULL,
     expires_at TEXT NOT NULL
 );
-CREATE TABLE IF NOT EXISTS data_feedback (
+CREATE TABLE IF NOT EXISTS feedback (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER REFERENCES users(id) ON DELETE SET NULL,
     severity TEXT NOT NULL CHECK (severity IN ('low', 'medium', 'high', 'critical')),
@@ -20,6 +20,7 @@ CREATE TABLE IF NOT EXISTS data_feedback (
     details TEXT NOT NULL DEFAULT '',
     created_at TEXT NOT NULL
 );
+DROP TABLE IF EXISTS data_feedback;
 ";
 
 impl InternalDb {
@@ -75,7 +76,7 @@ impl InternalDb {
     ) -> Result<i64, StoreError> {
         let conn = self.lock()?;
         conn.execute(
-            "INSERT INTO data_feedback (user_id, severity, feedback, details, created_at)
+            "INSERT INTO feedback (user_id, severity, feedback, details, created_at)
              VALUES (?1, ?2, ?3, ?4, ?5)",
             params![user_id, severity, feedback, details, now],
         )?;

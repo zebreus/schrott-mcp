@@ -30,7 +30,7 @@ pub enum CoreError {
 /// Runtime configuration, sourced from CLI flags with env fallback.
 #[derive(Debug, Clone)]
 pub struct AppConfig {
-    /// Address to listen on, e.g. `127.0.0.1:4000`.
+    /// Address to listen on, e.g. `127.0.0.1:4001`.
     pub bind: SocketAddr,
     /// Directory holding `internal.db` and `public.db`.
     pub data_dir: PathBuf,
@@ -50,13 +50,13 @@ impl AppConfig {
             opt.or_else(|| std::env::var(key).ok())
                 .unwrap_or_else(|| default.to_owned())
         }
-        let bind_raw = pick(bind, "BIND", "127.0.0.1:4000");
+        let bind_raw = pick(bind, "BIND", "127.0.0.1:4001");
         let bind: SocketAddr = bind_raw.parse().map_err(|source| CoreError::BadBind {
             raw: bind_raw.clone(),
             source,
         })?;
         let data_dir = PathBuf::from(pick(data_dir, "DATA_DIR", "./data"));
-        let mut base_url = pick(base_url, "BASE_URL", "http://localhost:4000");
+        let mut base_url = pick(base_url, "BASE_URL", "http://localhost:4001");
         while base_url.ends_with('/') {
             base_url.pop();
         }
