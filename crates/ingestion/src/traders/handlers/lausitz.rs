@@ -5,7 +5,8 @@
 //! and paper have no mappable material and are skipped loudly.
 
 use super::super::{
-    eur_unit, fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    eur_unit, fetch_text, has_unit_markers, parse_eur, Handler, HandlerOutcome, Schedule,
+    ScrapedPrice,
 };
 use crate::IngestError;
 
@@ -13,14 +14,13 @@ pub const SLUG: &str = "bb-lauchhammer-ost-lausitz-recycling";
 pub const URL: &str = "https://www.lausitz-recycling.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
-    let rows = parse(&html)?;
+    let (rows, mut skipped_labels) = parse(&html)?;
     let mut prices = Vec::with_capacity(rows.len());
-    let mut skipped_labels = Vec::new();
     // The "Gültig ab" repeat uses slightly different spellings for the
     // same grades: collapse identical (material, price) pairs.
     let mut seen = std::collections::HashSet::new();
@@ -79,7 +79,17 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     }
 }
 
-fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+    // Only the price area: everything between the price heading and the
+    // company section. A stray "5 €" in the footer must never pair with
+    // some random pending label into a phantom price.
+    let start = html.find("Unsere Preise").ok_or_else(|| IngestError::Parse {
+        url: URL.to_owned(),
+        detail: "Preisbereich fehlt".to_owned(),
+    })?;
+    let tail = &html[start..];
+    let end = tail.find("Über uns").unwrap_or(tail.len());
+    let html = &tail[..end];
     // Text-node walk: strip tags, split on the remnants.
     let mut text = String::with_capacity(html.len() / 2);
     let mut in_tag = false;
@@ -94,20 +104,48 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
         }
     }
     let mut rows: Vec<(String, f64, &'static str)> = Vec::new();
+    let mut unit_skips = Vec::new();
     let mut seen = std::collections::HashSet::new();
     let mut pending: Option<String> = None;
-    for raw in text.split('\n') {
-        let t = raw
+    // Page-global unit: most rows quote bare "€ X" with the unit ("x pro
+    // kg") in a sibling node or not at all. EUR/kg is the page default;
+    // an explicit different unit always wins, an explicit unknown one
+    // skips loudly.
+    const PAGE_UNIT: &str = "EUR/kg";
+    let nodes: Vec<&str> = text.split('\n').collect();
+    let mut i = 0;
+    while i < nodes.len() {
+        let t = nodes[i]
             .replace("&nbsp;", " ")
             .replace(['\u{a0}', '\u{200b}'], " ")
             .trim()
             .to_owned();
+        i += 1;
         if t.is_empty() {
             continue;
         }
         if t.contains('€') {
             if let (Some(price), Some(label)) = (parse_eur(&t), pending.take()) {
-                let unit = eur_unit(&t).unwrap_or("EUR/kg");
+                let mut unit = eur_unit(&t);
+                // Unit split across nodes ("€ 8,59" + "x pro kg")?
+                if unit.is_none() {
+                    if let Some(next) = nodes.get(i) {
+                        let n = next
+                            .replace("&nbsp;", " ")
+                            .replace(['\u{a0}', '\u{200b}'], " ")
+                            .trim()
+                            .to_owned();
+                        if let Some(u) = eur_unit(&n) {
+                            unit = Some(u);
+                            i += 1; // consumed as unit, not a label
+                        }
+                    }
+                }
+                let unit = unit.or(if has_unit_markers(&t) { None } else { Some(PAGE_UNIT) });
+                let Some(unit) = unit else {
+                    unit_skips.push(format!("{label} (Einheit unverständlich: {t})"));
+                    continue;
+                };
                 // The page repeats the block under "Gültig ab": dedupe.
                 if seen.insert((label.clone(), price.to_bits())) {
                     rows.push((label, price, unit));
@@ -122,7 +160,7 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
     if rows.is_empty() {
         return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
     }
-    Ok(rows)
+    Ok((rows, unit_skips))
 }
 
 /// Section headings and prose — never a material label.
@@ -152,8 +190,9 @@ mod tests {
 
     #[test]
     fn pairs_dedupe_and_map() {
-        let rows = parse(FIXTURE).expect("parses");
+        let (rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(rows.len(), 3, "dedupe kills the Gültig-ab repeat: {rows:?}");
+        assert!(skips.is_empty());
         assert_eq!(rows[0].0, "Cu - Millberry");
         assert_eq!(rows[0].1, 9.19);
         assert_eq!(rows[1].2, "EUR/t");
@@ -161,5 +200,33 @@ mod tests {
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Altpapier"), None);
         assert!(is_junk("KEIN ANKAUF MEHR VON"));
+    }
+
+    #[test]
+    fn split_unit_nodes_resolve() {
+        // "€ 8,59" + sibling "x pro kg": the unit lives next door.
+        let html = "<h2>Unsere Preise</h2>\
+            <table><tr><td>Cu - Millberry</td></tr>\
+            <tr><td>€ 9,19</td></tr><tr><td>x pro kg</td></tr></table>\
+            <h2>Über uns</h2>";
+        let (rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 1);
+        assert_eq!(rows[0].2, "EUR/kg");
+        assert!(skips.is_empty());
+    }
+
+    #[test]
+    fn window_and_unit_safety() {
+        // A stray euro amount outside the price area must not pair up.
+        let html = "<p>Container ab 49 €</p>".to_owned() + FIXTURE
+            + "<h2>Über uns</h2><p>Anfahrt pauschal 10 €</p>";
+        let (rows, _) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 3);
+        // Unknown unit: skipped loudly, valid rows survive.
+        let html = FIXTURE.replace("pro kg", "pro Sack");
+        let (rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 1);
+        assert_eq!(rows[0].0, "Mischschrott");
+        assert_eq!(skips.len(), 3);
     }
 }

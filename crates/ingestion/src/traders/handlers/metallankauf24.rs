@@ -16,6 +16,7 @@ pub const URL: &str = "https://metallankauf24.de/";
 pub fn handler() -> Handler {
     Handler {
         slug: SLUG,
+        url: URL,
         schedule: Schedule::DailyAt { times: vec![(8, 0), (16, 0)] },
         scrape: |c| Box::pin(scrape(c)),
     }
@@ -23,9 +24,8 @@ pub fn handler() -> Handler {
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
-    let rows = parse(&html)?;
+    let (rows, mut skipped_labels) = parse(&html)?;
     let mut prices = Vec::with_capacity(rows.len());
-    let mut skipped_labels = Vec::new();
     for (label, price, unit) in rows {
         match grade_for(&label) {
             Some((material, variant)) => prices.push(ScrapedPrice {
@@ -75,7 +75,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     }
 }
 
-fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
     let start = html.find("Aktuelle Schrottpreise").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
         detail: "Preisblock fehlt".to_owned(),
@@ -104,7 +104,14 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
         }
     }
     let mut rows = Vec::new();
+    let unit_skips: Vec<String> = Vec::new();
     let mut pending: Option<String> = None;
+    // Page-global unit: the overview quotes bare "bis zu € X" with no unit
+    // per row. EUR/kg is the only sane reading (copper at €10.80/t would be
+    // 1000x under market; per-piece makes no sense for bulk grades) and
+    // matches the per-kg detail pages — but it stays an explicit,
+    // documented assumption, not a silent fallback.
+    const PAGE_UNIT: &str = "EUR/kg";
     for t in texts {
         let t = t.replace("&nbsp;", " ").replace(['\u{a0}'], " ");
         let t = t.split_whitespace().collect::<Vec<_>>().join(" ");
@@ -113,7 +120,7 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
         }
         if t.contains("bis zu") {
             if let (Some(price), Some(label)) = (parse_eur(&t), pending.take()) {
-                rows.push((label, price, eur_unit(&t).unwrap_or("EUR/kg")));
+                rows.push((label, price, eur_unit(&t).unwrap_or(PAGE_UNIT)));
             }
         } else if is_junk(&t) {
             pending = None;
@@ -124,7 +131,7 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
     if rows.is_empty() {
         return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
     }
-    Ok(rows)
+    Ok((rows, unit_skips))
 }
 
 fn is_junk(t: &str) -> bool {
@@ -148,8 +155,9 @@ mod tests {
 
     #[test]
     fn categories_pair_and_map() {
-        let rows = parse(FIXTURE).expect("parses");
+        let (rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(rows.len(), 2);
+        assert!(skips.is_empty());
         assert_eq!(rows[0], ("Kupfer".to_owned(), 10.8, "EUR/kg"));
         assert_eq!(grade_for("Kupfer"), Some(("kupfer-millberry", "")));
         assert_eq!(grade_for("Zink / Blei"), None, "ambiguous: skipped");

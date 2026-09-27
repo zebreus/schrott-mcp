@@ -26,7 +26,7 @@ use std::future::Future;
 use std::pin::Pin;
 
 use chrono::{DateTime, Utc};
-use schrott_mcp_store::{InternalDb, PublicDb};
+use schrott_mcp_store::PublicDb;
 
 /// When a handler runs. `Every` staggers by slug hash; `DailyAt` fires at
 /// fixed local times (e.g. a trader publishing morning prices).
@@ -49,6 +49,8 @@ impl Schedule {
 pub struct Handler {
     /// `traders.slug` this handler writes prices for.
     pub slug: &'static str,
+    /// Price page URL (also used for failure journaling).
+    pub url: &'static str,
     pub schedule: Schedule,
     pub scrape: ScrapeFn,
 }
@@ -123,8 +125,9 @@ pub async fn fetch_text(
 }
 
 /// Parse the first German-formatted number ("9,80" → 9.8, "1.234,56" →
-/// 1234.56, "0,170" → 0.17). Dots are thousands separators only when a
-/// comma is present.
+/// 1234.56, "0,170" → 0.17, "1.100" → 1100). Dots are thousands
+/// separators when a comma is present — or when they group exactly three
+/// digits ("1.100 €" is eleven hundred, not 1.1).
 pub fn parse_eur(raw: &str) -> Option<f64> {
     let tok: String = raw
         .chars()
@@ -137,20 +140,57 @@ pub fn parse_eur(raw: &str) -> Option<f64> {
     }
     let norm = if tok.contains(',') {
         tok.replace('.', "").replace(',', ".")
+    } else if is_thousands_grouped(tok) {
+        tok.replace('.', "")
     } else {
         tok.to_owned()
     };
     norm.parse().ok()
 }
 
-/// Map a unit string to a quotation unit.
+/// True for "1.100" / "12.345.678" (dot groups of exactly three digits).
+/// "11.20" is a decimal point, not a thousands separator.
+fn is_thousands_grouped(tok: &str) -> bool {
+    let mut parts = tok.split('.');
+    match parts.next() {
+        Some(first) if (1..=3).contains(&first.len()) && first.chars().all(|c| c.is_ascii_digit()) => {
+            parts.all(|p| p.len() == 3 && p.chars().all(|c| c.is_ascii_digit()))
+                && tok.contains('.')
+        }
+        _ => false,
+    }
+}
+
+/// True when a price text carries explicit unit markers ("/", "pro",
+/// "je", "per") — as opposed to a bare number where the page-global unit
+/// applies. An explicit-but-unknown unit ("pro Sack") must skip loudly
+/// instead of inheriting the page default.
+pub fn has_unit_markers(raw: &str) -> bool {
+    let lower = raw.to_lowercase();
+    if lower.contains('/') {
+        return true;
+    }
+    lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|t| matches!(t, "pro" | "je" | "per"))
+}
+
+/// Map a unit string to a quotation unit, token-based ("EUR / T" must not
+/// slip through just because the slash and letter don't touch).
 pub fn eur_unit(raw: &str) -> Option<&'static str> {
-    let s = raw.to_lowercase();
-    if s.contains("kg") {
+    let lower = raw.to_lowercase();
+    let tokens: Vec<&str> = lower
+        .split(|c: char| !c.is_alphanumeric())
+        .filter(|t| !t.is_empty())
+        .collect();
+    if tokens.iter().any(|t| *t == "kg") {
         Some("EUR/kg")
-    } else if s.contains("/t") || s.contains("pro to") || s.contains("tonne") || s.contains(" €/t") {
+    } else if tokens.iter().any(|t| ["t", "to", "tonne", "tonnen"].contains(t)) {
         Some("EUR/t")
-    } else if s.contains("stk") || s.contains("stück") || s.contains("stck") {
+    } else if tokens
+        .iter()
+        .any(|t| ["stk", "st", "stueck", "stück", "stck"].contains(t))
+    {
         Some("EUR/Stk")
     } else {
         None
@@ -165,14 +205,13 @@ pub fn parse_de_date(day: &str, month: &str, year: &str) -> Option<String> {
     })
 }
 
-/// Record one handler outcome: resolve ids, append observations, journal
-/// the fetch. Unknown materials are skipped loudly; an unknown trader
-/// slug fails the whole step (misconfiguration, must be heard).
+/// Record one handler outcome: resolve ids, append observations.
+/// Unknown materials are skipped loudly; an unknown trader slug fails the
+/// whole step (misconfiguration, must be heard). Fetch journaling lives
+/// in the scheduler so failed attempts are journaled too.
 #[allow(clippy::too_many_arguments)]
 pub async fn record(
     public: &PublicDb,
-    internal: &InternalDb,
-    run_id: i64,
     handler_slug: &str,
     outcome: &HandlerOutcome,
     now: &DateTime<Utc>,
@@ -188,25 +227,6 @@ pub async fn record(
         });
     };
     let now_s = now.to_rfc3339();
-    let content_hash = {
-        use std::collections::hash_map::DefaultHasher;
-        use std::hash::{Hash, Hasher};
-        let mut h = DefaultHasher::new();
-        outcome.fetch_url.hash(&mut h);
-        outcome.byte_len.hash(&mut h);
-        format!("{:016x}", h.finish())
-    };
-    if let Err(e) = internal.log_fetch(&schrott_mcp_store::FetchRecord {
-        run_id,
-        scraper: handler_slug,
-        url: &outcome.fetch_url,
-        status_code: i64::from(outcome.status_code),
-        content_hash: &content_hash,
-        byte_len: outcome.byte_len as i64,
-        fetched_at: &now_s,
-    }) {
-        tracing::warn!("ingestion: fetch journal failed for {handler_slug}: {e}");
-    }
     let mut recorded = 0i64;
     let mut skipped = outcome.skipped_labels.clone();
     for p in &outcome.prices {
@@ -253,7 +273,7 @@ pub async fn record(
 
 #[cfg(test)]
 mod tests {
-    use super::{eur_unit, parse_de_date, parse_eur};
+    use super::{eur_unit, has_unit_markers, parse_de_date, parse_eur};
 
     #[test]
     fn german_numbers() {
@@ -263,17 +283,26 @@ mod tests {
         assert_eq!(parse_eur("bis zu € 10,80 erhalten"), Some(10.8));
         assert_eq!(parse_eur("1.234,56"), Some(1234.56));
         assert_eq!(parse_eur("11.20 €"), Some(11.2));
+        assert_eq!(parse_eur("1.100 €"), Some(1100.0), "Tausenderpunkt");
+        assert_eq!(parse_eur("12.345.678 €"), Some(12345678.0));
         assert_eq!(parse_eur("Preis auf Anfrage"), None);
         assert_eq!(parse_eur(""), None);
     }
 
     #[test]
-    fn units_and_dates() {
+    fn units_markers_and_dates() {
         assert_eq!(eur_unit("EUR / KG"), Some("EUR/kg"));
+        assert_eq!(eur_unit("EUR / T"), Some("EUR/t"), "Leerzeichen egal");
         assert_eq!(eur_unit("€ pro kg"), Some("EUR/kg"));
         assert_eq!(eur_unit("€ 100 x pro to"), Some("EUR/t"));
         assert_eq!(eur_unit("30,00 €/Stk."), Some("EUR/Stk"));
+        assert_eq!(eur_unit("100,00 € St."), Some("EUR/Stk"));
         assert_eq!(eur_unit("unbekannt"), None);
+        assert_eq!(eur_unit("pro Sack"), None);
+        assert!(has_unit_markers("0,170 € pro Sack"));
+        assert!(has_unit_markers("11,20 €/KG"));
+        assert!(!has_unit_markers("11,20 €"));
+        assert!(!has_unit_markers("Probe 11,20 €"));
         assert_eq!(
             parse_de_date("27", "09", "2026").as_deref(),
             Some("2026-09-27T00:00:00+00:00")

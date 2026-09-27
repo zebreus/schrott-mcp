@@ -148,3 +148,21 @@ the existing nginx, which terminates TLS for `schrott.offsite.lol`
 (port 4001, data dir `/var/lib/schrott-mcp`). Binaries live in
 `/usr/local/bin/` (`schrott-mcp-server` next to
 `schrott-mcp-query-worker` — the worker must sit beside the server).
+Backups are WAL-safe only via `sqlite3 <db> ".backup '<dest>'"` —
+never plain `cp` (recent rows live in the `-wal` file).
+
+## Logging (systemd journal)
+
+The server logs JSON lines to stderr; systemd journals them as
+structured records. Every ingestion event carries `slug` (and errors)
+as top-level fields; failures are also visible in `ingestion_runs`
+(`partial`), per-trader `ingestion_steps` (`failed` + message) and the
+`raw_fetches` journal (failed attempts: `status_code` 0).
+
+```sh
+journalctl -u schrott-mcp.service -f                    # follow
+journalctl -u schrott-mcp.service -p warning --since today  # failures
+journalctl -u schrott-mcp.service -o json-pretty | jq 'select(.slug)'  # per-trader
+sqlite3 /var/lib/schrott-mcp/internal.db \
+  "SELECT scraper, status, message FROM ingestion_steps ORDER BY id DESC LIMIT 10;"
+```

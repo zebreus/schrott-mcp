@@ -60,6 +60,10 @@ async fn main() {
                         .expect("valid directive"),
                 ),
         )
+        // JSON lines into stderr: systemd journals them as structured
+        // records (queryable via `journalctl -o json-pretty`), and they
+        // stay greppable as text with plain `journalctl -u`.
+        .json()
         .init();
 
     let (bind, data_dir, base_url) = parse_args().unwrap_or_else(|e| {

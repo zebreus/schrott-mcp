@@ -13,33 +13,41 @@ pub const SLUG: &str = "he-hattersheim-kupferhelden";
 pub const URL: &str = "https://kupferhelden.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
-    let rows = parse(&html)?;
-    // One grade per label: the Cu content IS the variant here.
-    let prices = rows
-        .into_iter()
-        .map(|(label, price, unit)| {
-            let variant = grade_variant(&label);
-            ScrapedPrice {
-                material: "kabel-kupfer",
-                variant,
-                price,
-                currency: "EUR",
-                unit,
-                price_min: None,
-                price_max: Some(price),
-                confidence: Some(0.5),
-                label,
-                published_at: None,
-                valid_from: None,
-                valid_to: None,
-            }
-        })
-        .collect();
+    let (rows, mut skipped_labels) = parse(&html)?;
+    // Exact list prices (no "bis zu") are first-class rows at full
+    // confidence; "bis zu" rows carry the bound as price_max at 0.5.
+    let mut prices = Vec::with_capacity(rows.len());
+    for (label, price, unit, upto) in rows {
+        let (price_max, confidence) = if upto { (Some(price), Some(0.5)) } else { (None, Some(1.0)) };
+        prices.push(ScrapedPrice {
+            material: "kabel-kupfer",
+            variant: grade_variant(&label),
+            price,
+            currency: "EUR",
+            unit,
+            price_min: None,
+            price_max,
+            confidence,
+            label,
+            published_at: None,
+            valid_from: None,
+            valid_to: None,
+        });
+    }
+    // Grades the variant extractor does not know land here, not in the DB.
+    prices.retain(|p| {
+        if p.variant.is_empty() && p.label.len() > 4 {
+            skipped_labels.push(format!("{} (Sorte unverständlich)", p.label));
+            false
+        } else {
+            true
+        }
+    });
     Ok(HandlerOutcome {
         prices,
         skipped_labels: vec![],
@@ -50,7 +58,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     })
 }
 
-fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str, bool)>, Vec<String>), IngestError> {
     // Window: price cards live between TAGESPREISE and the footer links.
     let start = html.find("TAGESPREISE").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -62,8 +70,8 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
         .or_else(|| tail.find("Impressum"))
         .unwrap_or(tail.len());
     let window = &tail[..end];
-    // Text-node walk; a "bis zu" price closes the pair with the previous
-    // text as the grade label.
+    // Text-node walk; an € price closes the pair with the previous text
+    // as the grade label. Returns (label, price, unit, upto).
     let mut texts = Vec::new();
     let mut in_tag = false;
     let mut cur = String::new();
@@ -81,6 +89,7 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
         }
     }
     let mut rows = Vec::new();
+    let mut unit_skips = Vec::new();
     let mut pending: Option<String> = None;
     for t in texts {
         let t = t.replace("&nbsp;", " ").replace(['\u{a0}'], " ");
@@ -88,9 +97,13 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
         if t.is_empty() {
             continue;
         }
-        if t.to_lowercase().contains("bis zu") {
-            if let (Some(price), Some(label)) = (parse_eur(&t), pending.take()) {
-                rows.push((label, price, eur_unit(&t).unwrap_or("EUR/kg")));
+        if t.contains('€') && parse_eur(&t).is_some() {
+            if let Some(label) = pending.take() {
+                let Some(unit) = eur_unit(&t) else {
+                    unit_skips.push(format!("{label} (Einheit unverständlich: {t})"));
+                    continue;
+                };
+                rows.push((label, parse_eur(&t).expect("checked"), unit, is_upto(&t)));
             }
         } else if is_junk(&t) {
             pending = None;
@@ -104,7 +117,14 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
     if rows.is_empty() {
         return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
     }
-    Ok(rows)
+    Ok((rows, unit_skips))
+}
+
+/// "bis zu" (and variants) mark upper bounds; anything else with € and
+/// digits is an exact list price.
+fn is_upto(t: &str) -> bool {
+    let l = t.to_lowercase();
+    l.contains("bis zu") || l.contains("biszu") || l.contains("max.")
 }
 
 fn grade_variant(label: &str) -> &'static str {
@@ -132,20 +152,29 @@ fn is_junk(t: &str) -> bool {
 
 #[cfg(test)]
 mod tests {
-    use super::parse;
+    use super::{grade_variant, parse};
 
     const FIXTURE: &str = "<h2>TAGESPREISE</h2>\
         <h4>Kabel mit Stecker, bis 37%</h4><div>bis zu 0,45 €/KG</div>\
         <h4>Kupfer ohne Stecker, min 38%,cu</h4><div>bis zu* 1,80 €/KG</div>\
+        <h4>Alukabel sortiert</h4><div>bis zu 0,90 €/KG</div>\
+        <h4>Messing Armaturen</h4><div>4,20 €/KG</div>\
         <footer>Quick Links</footer>";
 
     #[test]
     fn bis_zu_pairs() {
-        let rows = parse(FIXTURE).expect("parses");
-        assert_eq!(rows.len(), 2);
+        let (rows, skips) = parse(FIXTURE).expect("parses");
+        assert_eq!(rows.len(), 4);
+        assert!(skips.is_empty());
         assert_eq!(rows[0].0, "Kabel mit Stecker, bis 37%");
         assert_eq!(rows[0].1, 0.45);
+        assert!(rows[0].3, "bis zu flag");
         assert_eq!(rows[1].0, "Kupfer ohne Stecker, min 38%,cu");
         assert_eq!(rows[1].1, 1.8);
+        assert!(!rows[3].3, "exact price has no upto flag");
+        assert_eq!(rows[3].1, 4.2);
+        // Unknown grades never reach the DB as copper cable.
+        assert_eq!(grade_variant("Alukabel sortiert"), "");
+        assert_eq!(grade_variant("Kupferkabel, min 60%,cu"), "min 60%");
     }
 }

@@ -5,8 +5,8 @@
 //! a price node closes the pair. Daily schedule: they refresh mornings.
 
 use super::super::{
-    eur_unit, fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule,
-    ScrapedPrice,
+    eur_unit, fetch_text, has_unit_markers, parse_de_date, parse_eur, Handler, HandlerOutcome,
+    Schedule, ScrapedPrice,
 };
 use crate::IngestError;
 
@@ -16,6 +16,7 @@ pub const URL: &str = "https://www.tappe-recycling.de/";
 pub fn handler() -> Handler {
     Handler {
         slug: SLUG,
+        url: URL,
         schedule: Schedule::DailyAt { times: vec![(7, 30)] },
         scrape: |c| Box::pin(scrape(c)),
     }
@@ -23,9 +24,8 @@ pub fn handler() -> Handler {
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
-    let (published_at, rows) = parse(&html)?;
+    let (published_at, rows, mut skipped_labels) = parse(&html)?;
     let mut prices = Vec::with_capacity(rows.len());
-    let mut skipped_labels = Vec::new();
     for (label, price, unit) in rows {
         match grade_for(&label) {
             Some((material, variant)) => prices.push(ScrapedPrice {
@@ -85,7 +85,9 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     }
 }
 
-fn parse(html: &str) -> Result<(Option<String>, Vec<(String, f64, &'static str)>), IngestError> {
+fn parse(
+    html: &str,
+) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
     // Only the price box: from its heading to the contact link run-out.
     let start = html.find("Aktuelle Schrottpreise").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -119,18 +121,41 @@ fn parse(html: &str) -> Result<(Option<String>, Vec<(String, f64, &'static str)>
         rest = &after[c + 4..];
     }
     let mut rows = Vec::new();
+    let mut unit_skips = Vec::new();
     let mut pending: Vec<String> = Vec::new();
+    // Page-global unit (the "€ pro kg" header): rows carry no unit of
+    // their own here. No detectable header unit means no rows at all —
+    // a silent EUR/kg default would risk 1000x errors.
+    let mut page_unit: Option<&'static str> = None;
     for t in texts {
         if is_price(&t) {
             if let Some(price) = parse_eur(&t) {
                 let label = pending.join(" ").trim().to_owned();
                 pending.clear();
-                if !label.is_empty() {
-                    rows.push((label, price, eur_unit(&t).unwrap_or("EUR/kg")));
+                if label.is_empty() {
+                    continue;
                 }
+                let unit = eur_unit(&t).or(if has_unit_markers(&t) {
+                    None
+                } else {
+                    page_unit
+                });
+                let Some(unit) = unit else {
+                    unit_skips.push(format!("{label} (Einheit unverständlich: {t})"));
+                    continue;
+                };
+                rows.push((label, price, unit));
             }
         } else if is_header(&t) {
+            if page_unit.is_none() {
+                page_unit = eur_unit(&t);
+            }
             pending.clear();
+            // The price box ends at the "... auf Anfrage" terminator:
+            // anything after it is footer/nav, never prices.
+            if t.contains("Anfrage") {
+                break;
+            }
         } else {
             pending.push(t);
         }
@@ -138,7 +163,7 @@ fn parse(html: &str) -> Result<(Option<String>, Vec<(String, f64, &'static str)>
     if rows.is_empty() {
         return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
     }
-    Ok((published_at, rows))
+    Ok((published_at, rows, unit_skips))
 }
 
 fn is_price(t: &str) -> bool {
@@ -146,7 +171,12 @@ fn is_price(t: &str) -> bool {
 }
 
 fn is_header(t: &str) -> bool {
-    matches!(t, "Schrottsorte" | "€ pro kg" | "Aktuelle Schrottpreise")
+    // Any euro text without digits ("€ pro kg", "€/kg") is a header, not a
+    // label: otherwise it would glue itself onto the next material.
+    if t.contains('€') && parse_eur(t).is_none() {
+        return true;
+    }
+    matches!(t, "Schrottsorte" | "Aktuelle Schrottpreise")
         || t.contains("weitere")
         || t.contains("Anfrage")
         || t.len() > 120
@@ -183,9 +213,10 @@ mod tests {
 
     #[test]
     fn pairs_date_and_mapping() {
-        let (published_at, rows) = parse(FIXTURE).expect("parses");
+        let (published_at, rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(published_at.as_deref(), Some("2026-09-24T00:00:00+00:00"));
         assert_eq!(rows.len(), 2);
+        assert!(skips.is_empty());
         assert_eq!(rows[0].0, "Mischschrott");
         assert_eq!(rows[0].1, 0.17);
         assert_eq!(rows[1].0, "Kupferschrott 1 ECU/Milb.");
@@ -193,6 +224,23 @@ mod tests {
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Kupferschrott 1 ECU/Milb."), Some(("kupfer-millberry", "")));
         assert_eq!(grade_for("Kabelschrott (Basis 40% Kupfer)"), Some(("kabel-kupfer", "40%")));
+    }
+
+    #[test]
+    fn terminator_and_unit_safety() {
+        // Euro junk after the terminator never pairs up.
+        let html = FIXTURE.to_owned() + "<p>Container ab 49 €</p><p>Anfahrt 10 €</p>";
+        let (_, rows, _) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 2);
+        // "€/kg"-style headers glue onto nothing; unknown units skip loudly.
+        let html = FIXTURE
+            .replace("€ pro kg", "€/kg")
+            .replace("0,170 €", "0,170 € pro Sack");
+        let (_, rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 1);
+        assert_eq!(rows[0].0, "Kupferschrott 1 ECU/Milb.");
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("Mischschrott"));
     }
 
     #[test]

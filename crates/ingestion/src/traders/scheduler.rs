@@ -106,8 +106,16 @@ pub async fn run_due_with(
     let mut recorded = 0i64;
     let mut failed = Vec::new();
     for h in due {
+        // Structured fields on every event (JSON logs carry them as
+        // top-level journal fields). No span guard: `Entered` is !Send.
         let step_at = Utc::now().to_rfc3339();
-        let step_id = internal.create_step(run_id, h.slug, &step_at).unwrap_or(0);
+        let step_id = match internal.create_step(run_id, h.slug, &step_at) {
+            Ok(id) => id,
+            Err(e) => {
+                tracing::warn!(slug = h.slug, "step bookkeeping failed, running unrecorded: {e}");
+                0
+            }
+        };
         let outcome = tokio::time::timeout(HANDLER_TIMEOUT, (h.scrape)(client)).await;
         let stamped = Utc::now();
         if let Ok(mut map) = due_map().lock() {
@@ -115,46 +123,32 @@ pub async fn run_due_with(
         }
         match outcome {
             Err(_) => {
-                tracing::warn!("ingestion: handler {} timed out", h.slug);
+                tracing::warn!(slug = h.slug, "timeout nach 120s");
+                journal(internal, run_id, h.slug, h.url, 0, 0, &stamped);
                 failed.push(format!("{}: timeout", h.slug));
-                if step_id != 0 {
-                    let _ = internal.finish_step(
-                        step_id,
-                        "failed",
-                        0,
-                        "timeout nach 120s",
-                        &Utc::now().to_rfc3339(),
-                    );
-                }
+                close_step(internal, step_id, "failed", 0, "timeout nach 120s");
             }
             Ok(Err(e)) => {
-                tracing::warn!("ingestion: handler {} failed: {e}", h.slug);
+                tracing::warn!(slug = h.slug, "scrape failed: {e}");
+                journal(internal, run_id, h.slug, h.url, 0, 0, &stamped);
                 failed.push(format!("{}: {e}", h.slug));
-                if step_id != 0 {
-                    let _ = internal.finish_step(
-                        step_id,
-                        "failed",
-                        0,
-                        &format!("{e}"),
-                        &Utc::now().to_rfc3339(),
-                    );
-                }
+                close_step(internal, step_id, "failed", 0, &format!("{e}"));
             }
             Ok(Ok(out)) => {
-                match super::record(public, internal, run_id, h.slug, &out, &stamped).await
-                {
+                journal(
+                    internal,
+                    run_id,
+                    h.slug,
+                    &out.fetch_url,
+                    i64::from(out.status_code),
+                    out.byte_len as i64,
+                    &stamped,
+                );
+                match super::record(public, h.slug, &out, &stamped).await {
                     Err(e) => {
-                        tracing::warn!("ingestion: record failed for {}: {e}", h.slug);
+                        tracing::warn!(slug = h.slug, "record failed: {e}");
                         failed.push(format!("{}: {e}", h.slug));
-                        if step_id != 0 {
-                            let _ = internal.finish_step(
-                                step_id,
-                                "failed",
-                                0,
-                                &format!("{e}"),
-                                &Utc::now().to_rfc3339(),
-                            );
-                        }
+                        close_step(internal, step_id, "failed", 0, &format!("{e}"));
                     }
                     Ok((n, skipped)) => {
                         recorded += n;
@@ -169,21 +163,53 @@ pub async fn run_due_with(
                                 if skipped.len() > 5 { "; …" } else { "" }
                             ));
                         }
-                        if step_id != 0 {
-                            let _ = internal.finish_step(
-                                step_id,
-                                "ok",
-                                n,
-                                &detail,
-                                &Utc::now().to_rfc3339(),
-                            );
-                        }
+                        tracing::info!(slug = h.slug, "{detail}");
+                        close_step(internal, step_id, "ok", n, &detail);
                     }
                 }
             }
         }
     }
     (recorded, failed)
+}
+
+/// Journal one fetch attempt (success or failure) into `raw_fetches`.
+/// Failures carry status 0 and no bytes — the attempt itself is the data.
+fn journal(
+    internal: &InternalDb,
+    run_id: i64,
+    slug: &str,
+    url: &str,
+    status: i64,
+    bytes: i64,
+    at: &chrono::DateTime<Utc>,
+) {
+    use std::collections::hash_map::DefaultHasher;
+    use std::hash::{Hash, Hasher};
+    let mut h = DefaultHasher::new();
+    (slug, url, status, bytes).hash(&mut h);
+    if let Err(e) = internal.log_fetch(&schrott_mcp_store::FetchRecord {
+        run_id,
+        scraper: slug,
+        url,
+        status_code: status,
+        content_hash: &format!("{:016x}", h.finish()),
+        byte_len: bytes,
+        fetched_at: &at.to_rfc3339(),
+    }) {
+        tracing::warn!(slug, "fetch journal failed: {e}");
+    }
+}
+
+/// Close a step unless bookkeeping already failed (step_id 0).
+fn close_step(internal: &InternalDb, step_id: i64, status: &str, n: i64, detail: &str) {
+    if step_id != 0 {
+        if let Err(e) =
+            internal.finish_step(step_id, status, n, detail, &Utc::now().to_rfc3339())
+        {
+            tracing::warn!("step bookkeeping failed: {e}");
+        }
+    }
 }
 
 #[cfg(test)]
@@ -309,8 +335,8 @@ mod tests {
         let run = internal.create_run("2026-09-27T00:00:00Z").expect("run");
         let client = reqwest::Client::new();
         let handlers = vec![
-            Handler { slug: "bb-lauchhammer-ost-lausitz-recycling", schedule: Schedule::every_6h(), scrape: ok_fn },
-            Handler { slug: "kaputt-test", schedule: Schedule::every_6h(), scrape: bad_fn },
+            Handler { slug: "bb-lauchhammer-ost-lausitz-recycling", url: "https://example.test/", schedule: Schedule::every_6h(), scrape: ok_fn },
+            Handler { slug: "kaputt-test", url: "https://example.test/", schedule: Schedule::every_6h(), scrape: bad_fn },
         ];
         let (recorded, failed) =
             super::run_due_with(&handlers, &internal, &public, &client, run, true).await;
@@ -417,6 +443,7 @@ mod tests {
         let two_fn: super::super::ScrapeFn = |c| Box::pin(two_dates(c));
         let handlers = vec![Handler {
             slug: "datums-test",
+            url: "https://example.test/preise",
             schedule: Schedule::every_6h(),
             scrape: two_fn,
         }];
