@@ -368,3 +368,13 @@ Methoden: curl-Verifikation der Kandidaten-Websites (bauerdorff.de 200, aber ohn
 ### Seed-Website-Sweep (29 URLs, per curl)
 
 Alle 29 Seed-Websites liefern HTTP 200 (alive). Einziger Redirect: christian-keller-metall.de → www.christian-keller-metall.de (200). Keine toten Seed-Websites. Hinweis: TSR-Standortseiten liefern per curl 200 (Webfetch-Leereffekt = JS-Seite, kein Dead-Link). Bereits aus Vorrunden als tot/gesperrt bekannt, aber nicht im Seed enthalten: horst-habermann.de, schaper-gbr.de, mepag-recycling.de, schrottplatzgardelegen.de, magdeburg.deumu.de, schrott-buntmetallhandel.de, romet-gmbh.de, groeschel-gmbh.de (403).
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| ASA Altmetallhandel | Coswig (Anhalt) 06869, Fichtenbreite 2 | https://asa-altmetall.de/ | Altmetall/Abholung/Container/Abriss — Altmetall-Ankauf + Gratis-Abholung, Tel 034903/590084 (NEU) | unklar |
+| SCMR Recycling GmbH | Eisleben OT Polleben 06295, An der Landstrasse 159 | https://scmr-recycling.com/ | Verbundstoff/Alu — "Diese Wertstoffe kaufen und verkaufen wir" (NEU) | unklar |
+| ESM Schrott und Metallhandel GmbH | Schönebeck 39218, Burgwall 2 | keine | Schrott/Metall/Container — Cu/Alu/Edelstahl/Messing/Zinn/Zink/Blei, Tel 03928/400056; Fegert-Nähe klären (NEU vs Audit-Runde-4-ESM prüfen!) | unklar |
+| MRR GmbH Schrottplatz Köthen | Köthen 06366, Am Güterbahnhof 3 | keine | Schrottplatz/Entsorgung — ALBA-Anbindung + Publikums-Ankauf prüfen (NEU) | unklar |
+| MRR GmbH Schrottplatz Bitterfeld | Bitterfeld-Wolfen 06749, Antonienstr. 23 (= Scholz-Standort!) | http://www.alba.info/ | Schrottplatz/Entsorgung — Identität vs Scholz/ALBA + Ankauf prüfen (NEU) | unklar |

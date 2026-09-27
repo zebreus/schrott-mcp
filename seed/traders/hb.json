@@ -221,7 +221,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Rohstoffbetrieb (gleiche Adresse wie Kiesche & Gläbe) | Adresse: Hemelingen, Arberger Hafendamm 20",
+  "notes": "Rohstoffbetrieb (gleiche Adresse wie Kiesche & Gläbe) | Adresse: Hemelingen, Arberger Hafendamm 20 | Wide-Net 27.09: wlw An-/Verkauf seit 60 Jahren",
   "provenance": {
    "seed_file": "hb",
    "section": "Bremen (Stadt)",
@@ -750,7 +750,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schrott, Metalle, Entsorgung, Containerdienst, Großhandel | Adresse: Geestemünde, Weißenstein 2",
+  "notes": "Schrott, Metalle, Entsorgung, Containerdienst, Großhandel | Adresse: Geestemünde, Weißenstein 2 | Wide-Net 27.09: BEG-Tochter (beg-logistics.de), NEU Woltmershauser Str. 174",
   "provenance": {
    "seed_file": "hb",
    "section": "Bremerhaven",
@@ -837,12 +837,12 @@
   "phone": "",
   "city": "Fischereihafen",
   "state": "HB",
-  "website": "https://brexendorf.de",
+  "website": "",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
-  "status": "pruefung",
-  "notes": "Rohstoffhandel, Container, Transport/Logistik | Adresse: Fischereihafen, Dorschstr. 17 | Wide-Net 27.09: Website nachgetragen",
+  "status": "aktiv",
+  "notes": "Rohstoffhandel, Container, Transport/Logistik | Adresse: Fischereihafen, Dorschstr. 17 | Wide-Net 27.09: faire Vergütung Tagespreise bestätigt",
   "provenance": {
    "seed_file": "hb",
    "section": "Bremerhaven",
@@ -911,7 +911,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "unbekannt",
-  "notes": "als Schrotthändler gelistet, Beschreibung: Containerdienste/Bürgersteigreinigung — vermutlich kein Ankauf | Adresse: Fischereihafen, Am Luneort 46",
+  "notes": "als Schrotthändler gelistet, Beschreibung: Containerdienste/Bürgersteigreinigung — vermutlich kein Ankauf | Adresse: Fischereihafen, Am Luneort 46 | Wide-Net 27.09: Bürgersteigreinigung, KEIN Ankauf — Eintrag fraglich!",
   "provenance": {
    "seed_file": "hb",
    "section": "Bremerhaven",
@@ -2272,6 +2272,52 @@
   "provenance": {
    "seed_file": "hb",
    "section": "(1) Behaltene Kandidaten",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-stuhr-brinkum-28816-johannes-gerdes-schrott-u-metallhandels",
+  "name": "Johannes Gerdes Schrott- u. Metallhandels GmbH",
+  "trader_type": "metallhaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "",
+  "city": "Stuhr-Brinkum 28816",
+  "state": "HB",
+  "website": "https://gerdes-metallhandel.de",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "aktiv",
+  "notes": "An-/Verkauf Schrott+Altmetall, Kabelrecycling, Container — GS-Rubrik + \"Barvergütung Kleinmengen\" (NEU — Umland, mit NI abstimmen!) | Adresse: Stuhr-Brinkum 28816",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hb-nordenham-26954-m-k-v-metall-und-kabelverwertung",
+  "name": "M K V Metall- und Kabelverwertung GmbH",
+  "trader_type": "schrotthaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "",
+  "city": "Nordenham 26954",
+  "state": "HB",
+  "website": "https://mkv-gmbh.net",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrott/Altschrott/Metall/Kabel — Website PHP-Fatal-Error (tot) → Status pruefung (NEU — Umland, mit NI abstimmen!) | Adresse: Nordenham 26954",
+  "provenance": {
+   "seed_file": "hb",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
    "ankauf_raw": "unklar",
    "origin": "table"
   }

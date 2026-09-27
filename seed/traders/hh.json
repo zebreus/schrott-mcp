@@ -1384,7 +1384,7 @@
   "name": "Wagner Metall GmbH",
   "trader_type": "metallhaendler",
   "description": "",
-  "street": "Hovestr. 21",
+  "street": "Oberwerder Damm 11-21",
   "postcode": "",
   "phone": "",
   "city": "Veddel",
@@ -1394,7 +1394,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "aktiv",
-  "notes": "Metallhandel lt. Gelbe Seiten | urspr. Website-Angabe: keine funktionierende Website (wagner-metall.de = Checkdomain-Parkseite)",
+  "notes": "Metallhandel lt. Gelbe Seiten | urspr. Website-Angabe: keine funktionierende Website (wagner-metall.de = Checkdomain-Parkseite) | Wide-Net 27.09: Oberwerder Damm 11-21 Veddel (war Hovestr. 21); www.wagner-gruppe.de",
   "provenance": {
    "seed_file": "hh",
    "section": "Nachtrag Audit-Runde 3",
@@ -1412,12 +1412,12 @@
   "phone": "",
   "city": "Billbrook",
   "state": "HH",
-  "website": "",
+  "website": "https://www.heg.hamburg",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Entsorgung, Betriebs-/Lagereinrichtungen | urspr. Website-Angabe: keine verifizierbare Website (heg-hamburg.de liefert keinen Inhalt)",
+  "notes": "Entsorgung, Betriebs-/Lagereinrichtungen | urspr. Website-Angabe: keine verifizierbare Website (heg-hamburg.de liefert keinen Inhalt) | Wide-Net 27.09: Website heg.hamburg; Zweitstandort Oberwerder Damm 1 Veddel",
   "provenance": {
    "seed_file": "hh",
    "section": "Nachtrag Audit-Runde 3",
@@ -2894,6 +2894,75 @@
    "seed_file": "hh",
    "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
    "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-billbrook-22113-buhck-abfallverwertung-und-recycling-ex",
+  "name": "Buhck Abfallverwertung und Recycling (ex-AUA)",
+  "trader_type": "sonstige",
+  "description": "",
+  "street": "Liebigstr. 64",
+  "postcode": "",
+  "phone": "",
+  "city": "Billbrook 22113",
+  "state": "HH",
+  "website": "https://www.aua-container.de",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel/Container/Recyclinghof — Telefonbuch \"Rohstoffhandel\" → AUA Rohstoffhandel → Buhck; eigener Rohstoffhandel (Hapke übernommen 2021) + Recyclinghof (NEU) | Adresse: Billbrook 22113, Liebigstr. 64",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-altona-nord-22769-ludwig-melosch-entsorgungs-sparte",
+  "name": "Ludwig Melosch Entsorgungs-Sparte",
+  "trader_type": "wertstoffhaendler",
+  "description": "",
+  "street": "Waidmannstr. 16",
+  "postcode": "",
+  "phone": "",
+  "city": "Altona-Nord 22769",
+  "state": "HH",
+  "website": "https://www.melosch.de",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Entsorgung/Wertstoffhandel — GS \"Wertstoffhandel\" → \"Entsorgung von Schrott\" (NEU — gleiche Adresse wie Seed Melosch Export = Schwesterfirma, trennen!) | Adresse: Altona-Nord 22769, Waidmannstr. 16",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "hh-iserbrook-22589-hamburger-schrotthandel-pruffall-hamburg",
+  "name": "Hamburger Schrotthandel→ PRÜFFALL: Hamburger Schrotthandel? Nein: \"Hamburger Schrott\"",
+  "trader_type": "schrotthaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "0173 6110524",
+  "city": "Iserbrook 22589",
+  "state": "HH",
+  "website": "https://hamburger-schrott.de",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrott — nur Verzeichnis + Tel 0173 6110524 (PRÜFFALL) | Adresse: Iserbrook 22589, Heerbrook 4",
+  "provenance": {
+   "seed_file": "hh",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
    "origin": "table"
   }
  }

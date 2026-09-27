@@ -424,3 +424,30 @@ Stand: 2026-09-27. Winkel: Kandidatenliste /tmp/opencode/audit/by.md (~146 Kandi
 
 - ProMetall Rottenburg/Laaber: kein Kandidat in der Audit-Liste — keine Prüfung möglich.
 - Keine neue bayerische Preisliste gefunden (nur Ankauf-Seiten ohne Preise: Aquila, Neumüller, Seubert; Strobl leitet auf Homepage). Handler-Flag nur: AUDUNA-Preistabelle (Seed-Anreicherung, https://auduna.de/preistabelle) + Welz-Shop (https://shop.bruno-welz.de/edelmetall-ankauf/, aber BW-Sitz → BW-Audit).
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| BHS Metallrecycling GmbH & Co. KG | Stockheim 97640 | https://www.bhs-walldorf.de/ | Schrott/Altmetall/Buntmetall/Hartmetall/Container — OSM scrap_yard; tagesaktuelle Ankaufspreise/Vergütung FE ab 80 kg, NE ab 1 kg; HQ Walldorf/TH (NEU) | ja |
+| Autoverwertung Rottegger GmbH | Garching-Hochbrück 85748 | https://www.autoverwertung-rottegger.de/ | Altautos/Teile — OSM + KFZ-Ankauf-Seite (NEU) | unklar |
+| AVL Autoverwertung Lechhausen | Augsburg 86165 | https://www.avl-autoverwertung.de/ | Altautos/Teile/Reifen — OSM (NEU) | unklar |
+| Autoverwertung Bachmann GmbH | Deiningen 86738 | https://www.autoverwertung-bachmann.de | Altautos/Unfall/Teile — zert. Demontagebetrieb (NEU) | unklar |
+| Econocom Remarketing (bb-net) | Schweinfurt 97424 | https://www.bb-net.de/ | E-Schrott/IT/Server — "kaufen Business-Hardware", DSGVO + Auszahlung (NEU) | unklar |
+| Lacunia GmbH | Untermeitingen 86836 | https://lacunia.de | Entrümpelung/Nachlass — GS-Altmetall, Erlösbeteiligung; GRENZFALL kein expliziter Ankauf | unklar |
+| RPM Entsorgung Kat/Batterien | Landshut-Wolfgang 84032 | keine | Kat/Batterien — Ankauf im Firmennamen (NEU) | unklar |
+| Dahms Falk AV | Pressath 92690 | keine (domain 403) | Altautos/Schrottplatz — OSM (NEU) | unklar |
+| Mayer AV | Ursensollen-Wollenzhofen 92289 | keine | Altautos — UPGRADE Seed-Surname Wollenzhofen | unklar |
+| Michalak | Adelsdorf 91325 | keine | Schrott/Metall — UPGRADE Seed Michalak (OSM) | unklar |
+| Frankenberg | Emskirchen 91448 | keine | Metall — UPGRADE Seed Frankenberg (OSM) | unklar |
+| Kaiser | Adelsdorf 91325 | keine | Schrott/Metall — UPGRADE Seed Kaiser (OSM + Tel) | unklar |
+| Denk AV | Zeil am Main 97475 | keine (domain tot) | Altautos — vermutl. Zweig Seed Denk Haßfurt | unklar |
+| Hertenberger AV | Vilsbiburg 84137 | keine (falscher Namensvetter!) | Altautos — OSM | unklar |
+| Künle Reinhard AV | Memmingerberg 87719 | keine | Altautos — OSM | unklar |
+| Kauder AV | Hirschaid 96114 | keine | Altautos — OSM (deck GS Bamberg) | unklar |
+| Grundl AV | Oberkotzau-Fattigau 95145 | keine | Altautos — OSM | unklar |
+| Hagl AV | Rudelzhausen 84104 | keine | Altautos — OSM | unklar |
+| Kroiß AV | Pilsting 94431 | keine | Altautos — OSM | unklar |
+| Zäpfler Containerdienst + Schrott | Senden-Aufheim 89250 | keine | Container/Schrott — "+Schrott" im Namen, OSM (PRÜFFALL) | unklar |
+| Lang AV | Gaimersheim 85080 | keine | Altautos — OSM (≠ Seed Lang Würzburg) | unklar |
+| Mitsching AV | Mühldorf 84453 | keine (domain Platzhalter) | Altautos — OSM + Tel | unklar |

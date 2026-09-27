@@ -542,3 +542,21 @@ Stand: 2026-09-27. Winkel: 37er-Kandidatenliste (Runde 1, s. /tmp/opencode/audit
 Tot (000, DNS/Timeout): andreas-sandern.jimdo.com (Sandern Geeste), ankauf-verkauf-litzbach.de (A1 Sittensen), autoverwertung-flebbe.de (Flebbe Bramsche), autoverwertung-schwanewede.de (Schwanewede), demontagebetrieb.de (Artlenburg), elmh.de (ELMH Surwold), fischer-bakum.de (Fischer Bakum), jimdosite.com (nackte Domain bei Bäcker Wolfenbüttel), petko.de (Petko Bassum → live: petko-metalle.de, 200), schrotthandel-meinhardt.de (Meinhardt Barsinghausen), schrotthandelsorich.de (Sorich Salzgitter), wilhelm-hehmann.de (Hehmann Bad Laer).
 Umgeleitet (fremde Domain): schrott.io → https://mcbroken.io/ (301, Domain repurposed; Seed-Eintrag „schrott.io Ankaufsstation Hannover-Langenhagen“ betroffen), www.weibel-gmbh.de → https://remondis-nord.de/ (Weibel in REMONDIS Nord aufgegangen).
 Notiz (200, aber Parkseite): deich-metall.de (STRATO-Parkseite, s. Runde 4).
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| DEPPE Rohstoffrecycling GmbH | Lingen 49811, Schillerstr. 25 | https://www.deppe-lingen.de | Rohstoffrecycling/Container — Stahl-/NE-Schrotte + Karossen, Kleinmengen ok; BDSV HRB 208360 (NEU) | unklar |
+| Kohl Recycling (Kohl Gruppe) | Bramsche 49565 | https://www.kohl-recycling.de | Schrott/Metall/Container — "handeln mit jeglichen Schrottsorten", Privatkunden ok (NEU) | unklar |
+| HAGEMANN RECYCLING GmbH | Wolfenbüttel 38304 (+ Cremlingen) | https://www.hagemann-recycling.de | Entsorgung/Recycling — "Anlieferung Schrotte & Metalle", Privatkunden Altmetall; BDSV (NEU) | unklar |
+| Patrick Oeser Rohstoffe GmbH | Schwarmstedt 29690, Bahnhofstr. 12 | https://www.oeser-rohstoffe.de | Rohstoffe/Schrott/Abbruch — Stahlwerks-/Gießerei-/NE-Schrotte; BDSV (NEU) | unklar |
+| Albert Berg GmbH | Diepholz 49356 | keine | Rohstoffhandel — "Handel mit Metallen und Schrotten aller Art" HRB 100115; BDSV (NEU) | unklar |
+| DRH Deutsche Rohstoff Handelsgesellschaft mbH | Springe 31832 | keine | Rohstoffhandel — "Handel mit Schrott und Metallen" HRB 216883; BDSV (NEU) | unklar |
+| Dieluweit Recycling GmbH | Wiefelstede 26215, Herrenhauser Str. 2 | keine | Recycling/Schrott — "Groß- und Einzelhandel mit Schrott und Metallen" HRB 121544 (NEU) | unklar |
+| Heine GmbH & Co. KG | Oldenburg 26135, Emsstr. 9 (Hafen) | keine | Metallhandel/Entsorgung — BDSV HRA 2934; Ankaufzeiten prüfen (NEU) | unklar |
+| Reiners GmbH Schrott- und Metallhandel | Löningen 49624, Bremer Str. 17 | https://www.reiners-gmbh.de (Wartung) | Schrott — GS + HRB 150015 (NEU) | unklar |
+| Roling Schrott und Metall / Rohstoff Handel Detlef | Bramsche 49565, Venner Str. 10 | keine | Schrott/Rohstoff — GS Top-1 + Telefon (NEU) | unklar |
+| AfB gemeinnützige GmbH Shop Hannover | Hannover 30165, Meelbaumstr. 14 | https://www.afb-group.de | IT-Remarketing — "Verkaufen an afb" = Firmen-Ankauf + Datenvernichtung (NEU) | unklar |
+| MRG Rückbau und Recycling GmbH | Stadtoldendorf 37627, Yorckstr. 13 | keine | Rückbau/Recycling — HRB 205183; Bar-Ankauf unbelegt (PRÜFFALL) | unklar |
+| RRW GmbH Rückbau & Recycling Weserbergland | Eschershausen 37632, Gniesbreite 3 | keine | Rückbau/Recycling — HRB 205308; dito (PRÜFFALL) | unklar |

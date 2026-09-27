@@ -282,3 +282,16 @@ Zusaetzlich: korrupter Seed-Eintrag am Dateiende ("Profil m" / "Tel.") — pruef
 Wetzel-Verdikt: th.json (87 Eintraege) enthaelt KEINEN Wetzel-Eintrag — keine Korrektur noetig;
 Eisenberg-Standort wurde korrekterweise nie aufgenommen (vgl. Runde 2/3/4-Negativbelege).
 ST-Seed enthaelt Schrott Wetzel GmbH (Dessau-Rosslau) — Faell fuer ST-Audit, nicht TH.
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Kümpel Gerald u. Mario Altmetall-/Brennstoffhandel/Containerdienst | Fambach 98597, Am Wasser 7 | keine | Brennstoff/Container — GS Alteisen/Altmetalle, Tel 036848 31489 (NEU) | unklar |
+| Wertstoffankauf Seitz | Arnstadt 99310, Nordstr. 3 | keine (business.site 404, FB login) | Entsorgung — Altmetall/Buntmetall/Papier, Tel 0152 52450502, Do/Fr/Sa (NEU) | unklar |
+| Altstoffhandel Heiko Schmidt | Jena 07751, Zöllnitzer Str. 3 | keine | Alt-/Abfallstoffe — GS wertstoffhandel, Tel 03641 801187 (NEU) | unklar |
+| Ostthüringer Recycling- und Handels GmbH | Gera-Stublach 07552, Auenstr. 55 | keine | Recycling — "Handel" im Namen, Ankauf unbestätigt, Tel 0800 6874372 (PRÜFFALL) | unklar |
+| Entsorgung und Recycling Bernd Zauritz | Zedlitz 07557 | keine | Recycling — reine Entsorgungs-Tarnung, Ankauf unbestätigt (PRÜFFALL) | unklar |
+| ERV Elektronik-Recycling und Verwertung GmbH | Gera 07545, Hainstr. 17 | keine | E-Schrott — E-Schrott-Tarnung, Ankauf unklar, Tel 0365 824870 (PRÜFFALL) | unklar |
+| Container Loth GmbH | Erfurt-Stotternheim 99095, Alperstedter Str. 8 | container-loth.de (Startseite live) | Container — GS-Schrott-Treffer, Ankauf unbelegt (PRÜFFALL) | unklar |
+| An- und Verkauf Computer und Haushaltsgeräte | Erfurt-Altstadt 99084, Trommsdorffstr. 11 | keine | An-/Verkauf — Gebraucht-IT/Haushaltsgeräte Reuse, kein Schrottnachweis (GRENZFALL) | unklar |

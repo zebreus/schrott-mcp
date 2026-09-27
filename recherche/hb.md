@@ -357,3 +357,10 @@ Seed-Website-Sweep: alle 14 Websites in hb.json per curl geprüft (s. (3)).
 - Seed "Autoverwertung Roßberg GmbH" (Simon-Bolivar-Str. 38, bisher ohne Website) ←
   https://bremer-autoverwertung.com (Inhaber Mark Roßberg, Tel. 0421 54 40 41) — Zuordnung
   Roßberg-Familie, vor md2seed verifizieren (GmbH vs. Inhaber-Betrieb).
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Johannes Gerdes Schrott- u. Metallhandels GmbH | Stuhr-Brinkum 28816 | https://gerdes-metallhandel.de | An-/Verkauf Schrott+Altmetall, Kabelrecycling, Container — GS-Rubrik + "Barvergütung Kleinmengen" (NEU — Umland, mit NI abstimmen!) | ja |
+| M K V Metall- und Kabelverwertung GmbH | Nordenham 26954 | https://mkv-gmbh.net | Schrott/Altschrott/Metall/Kabel — Website PHP-Fatal-Error (tot) → Status pruefung (NEU — Umland, mit NI abstimmen!) | unklar |

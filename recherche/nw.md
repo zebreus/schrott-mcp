@@ -905,3 +905,30 @@ Echt tot (4): marcusdroste.de (Marcus Droste Dinslaken — kein Connect http+htt
 - schrotthaendler-dortmund.com: NICHT im Seed enthalten (Vorlagen-Behauptung falsch — im Seed nur TSR-/Poeppel-/A&R-Dortmund) → als Neueintrag in (1), keine Seed-Anreicherung.
 - Rohstoffhandel Rheinland GmbH (bisher R4e-unklar ohne Website): Website https://www.rohstoffhandel-rheinland.de neu verifiziert, UPGRADE auf ja vorgeschlagen (s. (1)).
 - Klärfälle aufgelöst: El-Lahib vs Lahib HB = ein Familienverbund Herne/Bochum (1 Zeile, ja); RCS vs Bots Weyerstr. 9 Moers = 1 Adresse/2 Namen (1 Zeile); Prison-Verbund = Seed Essen + SMC GE + R4e Wesel + neu Nikolaus Köln + Wetschewell MG (Familienverbund, getrennt); A&R = Seed Dortmund + R3 Lippstadt + neu Dülmen; Jennebach = 4 Orte/Familienname; Nahrwold = Barntrup + & Lehmeier Extertal; Missal/Metzler = Seed Zum Oberhof 32 + R3 J. Missal + neu schrott-in-essen.de; Scholz Allroundservice Düren ≠ Scholz Recycling (Seed); Müller Kabelstr. MG eigenständig (kein Müller-BW in NW); P&P Bender Neuss ≠ BENDER Seed (unbelegt); Freialdenhoven vs Schüte & Verstappen Aktienstr. 23 unverifiziert (offen); Altfeld Gevelsberg vs Altfeld KG Ennepetal (Seed) mögl. Verbund (offen); CH = Herholz + Metallion/Häde-Adresskollisionen bleiben offen (C5/C6).
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| A. Menshen GmbH & Co. KG | Werdohl 58791, Im Ohl 7 | https://www.menshen.de | Metallhandel/Container — "Metallschrott/Stahlschrott: Wir kaufen", auch privat; Seed namenlos → UPGRADE-Kandidat | unklar |
+| Helmut Mösta Metallgroßhandel | Dortmund 44145, Dammstr. 2-10 | https://moesta-metalle.de | Metallhandel — "An- & Verkauf Altmetalle, Bar, Tagespreise"; UPGRADE-Kandidat ✓ done | ja |
+| Franz Plum GmbH & Co. KG | Alsdorf 52477, Carl-Zeiss-Str. 9 (Platz Am Güterbahnhof 5) | https://www.franz-plum.de | Metall/Container/Demontage — "An- und Verkauf Schrott/NE aller Art"; UPGRADE-Kandidat ✓ done | unklar |
+| Hugo Neuhaus GmbH | Attendorn 57439, Askay 7 | https://www.neuhaus-recycling.de | Schrott/Metall — seit 1925; UPGRADE-Kandidat ✓ done | unklar |
+| Hydro Aluminium Recycling Deutschland GmbH | Dormagen 41542, Edisonstr. 5 | https://www.hydro.com/de/global/uber-hydro/hydro-weltweit/europe/deutschland/dormagen/hydro-aluminium-recycling-deutschland-gmbh | Alu-Recycling — 36.000 t Aluschrott-Einsatz/Jahr — Gießerei-Input-Käufer (NEU, kein Seed) | unklar |
+| AZ Containerdienst & Metallhandel (Zaim Abazovic) | Gummersbach-Dieringhausen 51645, Halstenbachstr. 3a | https://az-containerdienst.de | Container/Metallankauf — "/leistungen/schrott-metallankauf": Tagesnotierung (NEU) | ja |
+| HB-Metalle | Hamm 59073, Veistr. 60 | https://www.hb-metalle.de | Metallhandel/mobil — nur Handy + Impressum, LME-NE-Barankauf NRW (NEU) | ja |
+| Wilhelm Bötzel GmbH & Co. KG | Witten 58456 + Herne + Hagen | https://boetzel-schrott.com | Schrott/Aufbereitung — 3 Standorte → Filial-Check; UPGRADE-Kandidat ✓ done | unklar |
+| SRM Schrott & Metallrecycling Münster GmbH | Münster 48155, Kesslerweg 37 | https://www.srm-schrott.de | Schrott/Abbruch — LME-Tagespreise, bar; UPGRADE-Kandidat ✓ done | ja |
+| Hohlfeld GmbH & Co. KG | Rheine 48431, Hauenhorster Str. 171-185 | https://hohlfeld-rheine.de | Entsorger/Metall/Gießerei — "Ankauf & Verkauf Metall"; UPGRADE-Kandidat (im Seed namenlos — prüfen ob Website ankam) | unklar |
+| Günter Allermann GmbH | Schwelm 58332, In der Graslake 46 | https://www.allermann-gmbh.de | Metallhandel — seit 1955, Cu/Bronze/Messing/Alu/Pb/Zn/Sn (NEU) | unklar |
+| Grafenberg-Metall GmbH | Krefeld 47807, Sterkenhofweg 27 | https://grafenberg-metall.com | Alu-Recycling/Metall — 55-60 kt Aluschrott/Jahr, VDM/BIR (NEU) | unklar |
+| Grün & Mücher GmbH & Co. KG | Gevelsberg 58285, Asker Str. 6 | https://gruen-muecher.de | Entsorger/Schrott — Creditreform Großhandel Schrott; UPGRADE-Kandidat ✓ done | unklar |
+| Rohstoffhandel Heinrichs Group | Gelsenkirchen 45886, Am Dördelmannshof 30 | https://heinrichs-group.com | Entsorger/Container — Handel Eisen/Metalle/Schrott; UPGRADE-Kandidat ✓ done | unklar |
+| Heidelbach Metall Recycling GmbH | Gladbeck 45966, Stollenstr. 25 | https://www.heidelbach-gladbeck.de | Metallhandel — seit 1934, Anlieferung Mo-Sa (NEU) | unklar |
+| BSH Bottroper Schrotthandel GmbH | Bottrop 46240, Werkstr. 4 | https://bottroper-schrotthandel.de | Schrott/AV — Tagespreise, Abholung ab 500 kg; UPGRADE-Kandidat ✓ done | ja |
+| Steinrath Metalle GmbH | Aachen 52068, Hüttenstr. 133-135 | https://www.steinrath.de | Metallhandel — "faire Tagespreise Kabel/Millberry/Messing/Alu/V2A/Zinn/Blei"; UPGRADE-Kandidat ✓ done | ja |
+| Altmetalle Witt GmbH | Stolberg 52222, Münsterbachstr. 3 | http://altmetalle-witt.de | Schrott/Container — 30-t-Waage; UPGRADE-Kandidat ✓ done | unklar |
+| A. Fischer & Söhne GmbH | Bochum 44803, Altenbochumer Str. 15-21 | https://www.fischersoehne.de | Entsorger/Metall/Container — PREISLISTE (€/100 kg: Alu, Blei, Zink, V2A, Kupferkabel u.v.m.) → HANDLER-KANDIDAT | ja |
+| ECO Remarketing GmbH | Ennigerloh 59320, Westkirchener Str. 67 | https://www.eco-remarketing.com | IT-Remarketing/E-Schrott/NE — Vergütung Au/Ag/Cu, LME-Festpreise, BIR (NEU) | ja |
+| PIO Remarketing GmbH | Mönchengladbach 41066, Süchtelner Str. 65 | https://www.pio-remarketing.de | IT-Remarketing/E-Schrott — "kaufen alte IT-Hardware, 350.000 Assets/Jahr" (NEU) | unklar |
+| etree GmbH | Köln 50829, Mathias-Brüggen-Str. 160 | https://etree.de | IT-Remarketing/E-Schrott — "We purchase used IT hardware" (NEU, nur via Suche verifiziert) | unklar |

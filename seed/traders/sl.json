@@ -1792,5 +1792,166 @@
    "ankauf_raw": "unklar",
    "origin": "table"
   }
+ },
+ {
+  "slug": "sl-bous-66359-gmh-recycling-saar-ex-alba-metall-saar",
+  "name": "GMH Recycling Saar GmbH (ex-ALBA Metall Saar)",
+  "trader_type": "schrotthaendler",
+  "description": "",
+  "street": "Saarstr. 1",
+  "postcode": "",
+  "phone": "",
+  "city": "Bous 66359",
+  "state": "SL",
+  "website": "https://www.gmh-gruppe.de",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrott-/NE-Großhandel — 1974 gegr. ALBA Metall Saar, 07/2024 GMH-Übernahme/Umbenennung; Ein-/Verkauf NE + legierte Schrotte | Adresse: Bous 66359, Saarstr. 1",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-st-ingbert-66386-rohstoffhandel-neckartilda-nl-st-ingbert",
+  "name": "Rohstoffhandel Neckartilda GmbH, NL St. Ingbert",
+  "trader_type": "sonstige",
+  "description": "",
+  "street": "Schlackenbergstr. 23",
+  "postcode": "",
+  "phone": "",
+  "city": "St. Ingbert 66386",
+  "state": "SL",
+  "website": "http://www.neckartilda-rohstoffhandel.de",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel/Recycling — STAMMHAUS Bruchmühlbach-Miesau RLP (HRB Zweibrücken) — HQ-Caveat | Adresse: St. Ingbert 66386, Schlackenbergstr. 23",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-neunkirchen-66538-schrottaufbereitung-frey",
+  "name": "Schrottaufbereitung Frey GmbH",
+  "trader_type": "schrotthaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "",
+  "city": "Neunkirchen 66538",
+  "state": "SL",
+  "website": "",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrottaufbereitung/Rückgewinnung — bvse-Mitglied, HRB 18892 | urspr. Website-Angabe: keine | Adresse: Neunkirchen 66538, Saarbrücker Str. 9",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-schiffweiler-66578-schrotthandel-broschart-jurgen-broschart",
+  "name": "Schrotthandel Broschart (Jürgen Broschart)",
+  "trader_type": "containerdienst",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "06821 68508",
+  "city": "Schiffweiler 66578",
+  "state": "SL",
+  "website": "",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel — eigenständig neben Containerdienst Broschart GmbH; Tel. 06821 68508 | urspr. Website-Angabe: keine | Adresse: Schiffweiler 66578, An den Eichen 1",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-homburg-66424-schrotthandel-r-wei",
+  "name": "Schrotthandel R. Weiß",
+  "trader_type": "schrotthaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "",
+  "city": "Homburg 66424",
+  "state": "SL",
+  "website": "",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrotthandel/mobil — Kleinanzeigen-PRO 17.08.2026 | urspr. Website-Angabe: keine | Adresse: Homburg 66424",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarlouis-66740-hahn-schrott-metalle",
+  "name": "Hahn GmbH Schrott Metalle",
+  "trader_type": "schrotthaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "0170 2020322",
+  "city": "Saarlouis 66740",
+  "state": "SL",
+  "website": "",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metalle — Hausnr. offen; 0170 2020322 | urspr. Website-Angabe: keine | Adresse: Saarlouis 66740, Kohlbrunnenstr.",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sl-saarlouis-66740-kirchner-herbert-schrottplatz",
+  "name": "Kirchner Herbert Schrottplatz",
+  "trader_type": "schrottplatz",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "06831 86198",
+  "city": "Saarlouis 66740",
+  "state": "SL",
+  "website": "",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz — Tel. 06831 86198; schwache Quelle | urspr. Website-Angabe: keine | Adresse: Saarlouis 66740",
+  "provenance": {
+   "seed_file": "sl",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
  }
 ]

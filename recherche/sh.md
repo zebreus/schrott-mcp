@@ -306,3 +306,15 @@ Seed-Website-Sweep (46 URLs, 27.09.2026 — tot/auffällig):
 
 Koordination: WEGRO ohne neuen Kandidaten — SH-Seed (Rellingen = Sitz) + HH-Seed
 („WEGRO GmbH, Lager Rellingen; HH-Tel." = Zweigstelle) koexistieren, kein Handlungsbedarf.
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Bodo Dittmer Rohstoffhandel GmbH | Geesthacht 21502, Ilenweg 24 | https://dittmer-rohstoffhandel.de | Rohstoff/Container — "Schrott- und Metallhandel" + NorthData (NEU) | unklar |
+| Autoverwertung Teut GbR | Ziethen 23911, An der Bundesstr. 13 | http://www.autoverwertung-teut-ratzeburg.de | AV/Schrott — 11880 "Altmetallhandel-Schrottankauf" + Tagespreis-Vergütung (NEU) | ja |
+| Norddeutsche Edelmetall Scheideanstalt (Goldankauf.de), Werk Norderstedt | Norderstedt 22844, Oststr. 128 | https://goldankauf.de | Scheideanstalt/Dentalgold — 4-Edelmetall-Schmelzkurse Au/Pt/Pd/Ag (NEU — Schmelzkurse prüfen → Handler-Kandidat?) | unklar |
+| Autoverwertung Ulrich GmbH | Handewitt 24976, Baggerwald 63 | https://autoverwertung-ulrich.de | AV/Gebrauchtteile — GESA, kauft Unfall-/Schrott-PKWs (NEU) | ja |
+| Auto-Strassburg (Michael Straßburg) | Tornesch 25436, Hypatia-Str. 5 | https://auto-strassburg.de | KFZ/Teile — GESA hinter Werkstatt-Tarnung (NEU) | unklar |
+| Chrobok Recycling KFZ-Ankauf Langwedel | Langwedel 24631 | keine | KFZ-Ankauf/Metall — Kleinanzeigen-PROFI: Alufelgen/Metalle/Batterien zu aktuellen Preisen (NEU) | unklar |
+| Kieler Altmetall | Kiel, Tel. 0160-99288699 | keine | Altmetall/Demontage — "Größere Mengen werden ggf. auch angekauft" (NEU, mobil) | ja |

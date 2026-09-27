@@ -464,3 +464,36 @@ Stand: 27.09.2026. Fokus: Audit-Vorlage Runde 1 (~30 Website-Kandidaten + ~70 Re
 | Bruno Welz Scheideanstalt | Schwäbisch Gmünd | http://www.bruno-welz.de | Scheideanstalt, Edelmetall, Dentalgold | ja (PREISLISTE: https://shop.bruno-welz.de/edelmetall-ankauf/ — echter Ankauf-Shop, Handler-Fall BW) |
 
 Die übrigen drei Handoff-Zeilen (Max Buck, R. Metall, Reinhardt Ulm) sind Seed-Dupes (bw-ulm-max-buck, bw-merklingen-r-metall, bw-ulm-eselsberg-reinhardt-schrotthandel — letzterer sogar mit Weinbergweg 90) und wurden hier gestrichen statt importiert.
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Scheideanstalt Karlsruhe | Karlsruhe 76133, Karlstr. 25 | https://scheideanstaltka.de | Edelmetalle/Zahngold — Laden-Barankauf, Zahngold gelb 70€/g → HANDLER-KANDIDAT | ja |
+| A-Priori Dental (a priori GmbH) | Göppingen 73035, Autenbachstr. 17 | https://www.a-priori-dental.de/scheidgut | Dentalgold/Scheidgut — Dental-Depot kauft Scheidgut, RFA, Londoner Börse (NEU) | ja |
+| HERTER Service und Recycling GmbH | Reutlingen 72770, Ernst-Abbe-Str. 7 | https://herterrecycling.com | Röntgenfilm/Silber — Klinik-Entsorger mit Vergütung (NEU) | ja |
+| IMR Industrieverwertung (Marco Reinhardt) | Stuttgart 70435, Langenburger Str. 66 | https://imr-industrieverwertung.de | Demontage/Anlagen — "Verwertung bis zum direkten Ankauf" (NEU) | unklar |
+| OF-Alteisen (Christian Of) | Kraichtal 76703, Albert-Schweitzer-Str. 71 | https://of-alteisen.de | Schrott/Metall/Demontage/Container — "Ankauf nach Rücksprache" (NEU) | unklar |
+| FETT Schrott + Containerdienst | Mannheim 68159, G6, 6 | https://fett-schrott.de | Altmetall/Container — Messing-Ankauf (NEU) | unklar |
+| Lauster Schrott (Ramon Lauster) | Kirchheim/Teck 73230 (Anlieferung Ludwigsburg) | https://www.lauster-schrott.de | Schrott/Container — eigene Firma neben SDL/Alwin (NEU) | unklar |
+| Schrott- & Metallhandel Ulm (Rivaldo Venezia) | Ulm 89075, Weinbergweg 90 | https://www.containerdienste-schrott-metallhandel.de | Schrott/Metall/Container/Demontage — "An- und Verkauf"; gleiche Adresse Seed-Reinhardt = mögl. Nachfolger → klären! | unklar |
+| Schrottabholung24 | Edingen-Neckarhausen 68535, Robert-Koch-Str. 21 | https://schrottabholung24.com | Schrott/Entrümpelung/Demontage — zahlt "kleinen Betrag" + Ankauf (NEU) | unklar |
+| Ignaz Wagner Schrott & Metallhandel | Schefflenz 74850, Rittersbacher Weg 10B | https://wagner-schrotthandel.de | Schrott/Metall — 70+ Jahre (NEU) | unklar |
+| DHS Entsorgung (Thilo Semtner) | Langenenslingen 88515, Stuckenstr. 17-19 | https://dhs-entsorgung.de | Schrott/Metall/Kat/DPF/AV/Container — "Tageshöchstpreise" (NEU) | unklar |
+| Auto-Teile Schmidt | Pfalzgrafenweiler 72285, Zeißstr. 7 | https://autoteile-schmidt.de | AV/Teile/Schrott/Container/Demontage — "Schrottankauf" (NEU) | unklar |
+| Delko Metalle | Malsch 69254, Industriestr. 12 | https://delko-metalle.de | Schrott/Buntmetalle/Demontage/Container — seit 2000 (NEU) | unklar |
+| Altmetall Wagner (Romano Wagner) | Eppingen-Elsenz 75031, Sinsheimer Str. 15/36 | https://altmetall-wagner.de | Schrott/Metall/Container/Kran — Ankauf-Rubrik (NEU) | unklar |
+| VANA Schrotthandel & Entrümpelung | Freudenstadt 72250, Hermann-Hesse-Str. 16 | https://vana-service.de | Schrott/Entrümpelung — "wiegen, bar zahlen" → HANDLER-KANDIDAT prüfen | ja |
+| AW-Recycling (Anton Winter) | Ravensburg 88214, Rautbrühl 23 | https://aw-recycling.de | Schrott/Metall/Entrümpelung/Container/Abbruch — "Schrott- und Metallhandel" (NEU) | unklar |
+| Schönle Entsorgung | Riedlingen 88499, Industriestr. 3 | https://schoenle-entsorgung.de | Schrott/Metall/Container — "faire Preise" (NEU) | unklar |
+| TAE Wertstoffe GmbH | Neidenstein 74933, Fuchslochweg 2 | https://tae-wertstoffe.de | NE/Kabel/Hartmetall/Aufbereitung — Lohnaufbereitung oder Ankauf (NEU) | unklar |
+| Schrott- & Metallhandel Steinbach | Mannheim 68169, Max-Born-Str. | https://schrotthandel-steinbach.de | Cu/Alu/Stahl — "Ankauf wertvoller Metalle" (NEU) | unklar |
+| Kaya Dienstleistungen (Schrotthandel GmbH) | Heilbronn 74076, Am Salzwerkpl. 1 | https://kaya-dienstleistungen.de | Alt-/Neuschrott/Container — "jede Art" (NEU) | unklar |
+| Schrott Trunke GmbH & Co. KG | Berkheim 88450, Willebold-Braun-Str. 7 | https://schrott-trunke.com | Schrott/NE/Kabelgranulierung/Container — "Kohle für Ihren Schrott", seit 1945 (NEU) | unklar |
+| Schrotthandel Bernhard (Andy Bernhard) | Hechingen-Boll 72379, Weidenweg 16 | https://schrotthandel-bernhard.de | Cu/V2A/Kabel/Container — "kaufen bei Ihnen an" (NEU) | unklar |
+| Fröschlin e.K. | Reilingen 68799, Daimlerstr. 9 | https://froeschlin-reilingen.de | Rohstoff/Metallrecycling — 60+ Jahre (NEU) | unklar |
+| OSR Metallrecycling GmbH & Co. KG | Aalen-Unterkochen 73432, Wöhrstr. 15 | https://www.osr-metallrecycling.de | Schrott/Sekundärrohstoffe — "An- und Verkauf" (NEU) | unklar |
+| Wagner GmbH Rohstoffe und Transporte | Dettingen/Erms 72581, Vogelsangstr. 2 | https://www.entsorgung-wagner.de | Rohstoffe/Schrott/Papier/Container — seit 1903 (NEU) | unklar |
+| HANDELundVERTRIEB.de | Bopfingen 73441 | https://handelundvertrieb.de | NE/Kabel/Altgold/Industrie — kauft Altgold/Tafelsilber + NE/Kabel (NEU) | ja |
+| Autoverwertung Christ GmbH | Rastatt 76437, Zollersbühnstr. 7 | https://autoverwertung-christ.de | Altauto/Teile — "Schrottpreis" + Shop (NEU) | unklar |
+| kostenlose Autoverwertung | Dettingen/Teck 73265, Goethestr. 3 | https://www.kostenlose-autoverwertung.eu | Altauto/Unfall — "Barzahlung" (NEU) | ja |

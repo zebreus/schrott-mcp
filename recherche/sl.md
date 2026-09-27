@@ -186,3 +186,15 @@ Methode: curl-Checks aller Kandidaten-Websites (HTTP-Status + Inhaltsbeleg), Cro
 - **Harmlose Redirects (live, HTTP 200):** loacker-recycling.com → /at/, autoverwertung-both.de → /de/, hoffarth-gold.de → goldankauf-rohrbach.de, goldpit.de → sulzbach-goldankauf.de, lsrohstoffhandel.de → lsrohstoffhandel.lsr01.de/.
 - **Bot-Schutz/Rate-Limit (existent, bekannt):** schrotthandel-binkle.de 403, altmetallentsorgung-paisler.de 429.
 - **Alle übrigen 19 Seed-Websites: HTTP 200, live.**
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| GMH Recycling Saar GmbH (ex-ALBA Metall Saar) | Bous 66359, Saarstr. 1 | https://www.gmh-gruppe.de | Schrott-/NE-Großhandel — 1974 gegr. ALBA Metall Saar, 07/2024 GMH-Übernahme/Umbenennung; Ein-/Verkauf NE + legierte Schrotte | unklar |
+| Rohstoffhandel Neckartilda GmbH, NL St. Ingbert | St. Ingbert 66386, Schlackenbergstr. 23 | http://www.neckartilda-rohstoffhandel.de | Rohstoffhandel/Recycling — STAMMHAUS Bruchmühlbach-Miesau RLP (HRB Zweibrücken) — HQ-Caveat | unklar |
+| Schrottaufbereitung Frey GmbH | Neunkirchen 66538, Saarbrücker Str. 9 | keine | Schrottaufbereitung/Rückgewinnung — bvse-Mitglied, HRB 18892 | unklar |
+| Schrotthandel Broschart (Jürgen Broschart) | Schiffweiler 66578, An den Eichen 1 | keine | Schrotthandel — eigenständig neben Containerdienst Broschart GmbH; Tel. 06821 68508 | unklar |
+| Schrotthandel R. Weiß | Homburg 66424 | keine | Schrotthandel/mobil — Kleinanzeigen-PRO 17.08.2026 | unklar |
+| Hahn GmbH Schrott Metalle | Saarlouis 66740, Kohlbrunnenstr. | keine | Schrott/Metalle — Hausnr. offen; 0170 2020322 | unklar |
+| Kirchner Herbert Schrottplatz | Saarlouis 66740 | keine | Schrottplatz — Tel. 06831 86198; schwache Quelle | unklar |

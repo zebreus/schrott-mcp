@@ -542,3 +542,23 @@ nicht im Seed: schrott-winter.de (Lengenfeld), schrotthandel-kamenz.de (Spam-Red
   Nachfolge/Parallelbetrieb, in Notiz vermerken.
 - Euro-Metall Körner Werdau (Seed, Sorge 48) ≠ Körner Klingenthal (Container/Waschanlage/
   Reifen) — zwei verschiedene Betriebe, nicht mergen.
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| LKS Kat GmbH | Leipzig 04319 | https://lks-kat.de | Katalysatoren — Entsorgungsfachbetrieb, Barankauf + Abholung (NEU) | ja |
+| Autoverwertung Oskar (B. Beksultanow) | Chemnitz 09125 | https://autoverwertung-oskar.de | Altauto/Gebrauchtteile — Demontagebetrieb seit 2006, ~500 Fz/Jahr, Sofortzahlung (NEU) | unklar |
+| Jordan Autoverwertung (Ahmad Bataineh) | Reichenbach 08468, Heinsdorfer Str. 25b | keine | Altauto/Teile — Demontagebetrieb, Vogtland-Lücke (NEU) | unklar |
+| Autoservice Osman Mamdouh | Chemnitz 09120, Altchemnitzer Str. 13 | keine | Altauto — nur Registerzertifikat (NEU) | unklar |
+| Aperam Recycling Stainless Germany (ex ELG) | Dresden 01067, Alberthafen | https://www.elgmetals.com/.../dresden/... | Edelstahl/Titan/Sonderlegierungen/Hartmetall — 12.000 m², kauft legierte Schrotte von Zulieferern (NEU) | ja |
+| SAXONIA Edelmetalle GmbH | Halsbrücke 09633, Erzstr. 9 | https://saxonia.de | Edelmetalle/Scheidgut (Gekrätz/Kat/E-Schrott/Dental) — Freiberger Hüttentradition, Ankauf + Recycling (NEU) | unklar |
+| C.A.T.E. Abbruch und Umweltservice GmbH | Leipzig 04347, Rostocker Str. 110 | https://www.abbruch-leipzig.de | Abbruch/Verwertung — Metall-Wertanrechnung im Projekt, kein Barankauf (GRENZFALL) | ja |
+| One 2 Buy GmbH | Dresden 01159, Kesselsdorfer Str. 1 | https://one2buy-an-und-verkauf.de | E-Schrott/Edelmetalle — Secondhand-Tarnung, bar seit 13 Jahren (NEU) | unklar |
+| Computer-A-und-V Dresden | Dresden 01237, Breitscheidstr. 38 | https://www.computer-a-und-v.de | E-Schrott/PC — Refurbish-Ankäufer seit 1998 (NEU) | unklar |
+| PhoneBros / A&V Handy GbR | Leipzig 04357 + 04109 | https://handyankaufleipzig.de | Handy/Laptop — 2 Filialen + Kleinanzeigen-PROFIL (NEU) | unklar |
+| Goldhaus Leipzig | Leipzig 04109, Goethestr. 1 | https://goldhaus-leipzig.com | Edelmetalle/Zahngold — Schmelzware/Dentalgold (NEU) | unklar |
+| Goldankauf Börse Leipzig | Leipzig 04109, Brühl 65 + Postankauf | https://www.goldankauf-boerse.de | Edelmetalle/Zahngold — PREISLISTE → HANDLER-KANDIDAT (Filiale! mit TH-Erfurt abstimmen) | ja |
+| Antik & Kunst Dresden (R. Goralski) | Dresden 01129, Großenhainer Str. 183 | https://www.antik-kunst-dresden.de | Edelmetalle — Antiquitäten-Tarnung, Barankauf (NEU) | ja |
+| Girod GmbH / Goldankauf Dresden | Dresden 01309, Borsbergstr. 19b | https://goldankauf-dresden.com | Edelmetalle/Dentalgold — eigene Scheideanstalt, bis 130 €/g Au (NEU) | unklar |
+| Sven Asmuss Haushaltsauflösung | Werdau 08412, August-Bebel-Str. 60 | https://haushaltsaufloesung-werdau.de | Entrümpelung/Ankauf — Ladengeschäft mit Ankauf-Liste (NEU) | unklar |

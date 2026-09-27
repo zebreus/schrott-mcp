@@ -1302,7 +1302,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Recycling (lt. schrottplatz-info)",
+  "notes": "Recycling (lt. schrottplatz-info) | Wide-Net 27.09: Betrieb 01.01.2019 an ISR übergeben — Eintrag stale!",
   "provenance": {
    "seed_file": "st",
    "section": "Harz / Nordharz (Halberstadt, Wernigerode, Quedlinburg, Blankenburg, Thale)",
@@ -1877,7 +1877,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Recycling (lt. 11880)",
+  "notes": "Recycling (lt. 11880) | Wide-Net 27.09: Sitz Äußere Radeweller Str. 5, 06132 Halle = MDL-Doppel! | Wide-Net 27.09: Sitz Äußere Radeweller Str. 5, 06132 Halle = MDL-Doppel!",
   "provenance": {
    "seed_file": "st",
    "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",
@@ -4319,6 +4319,121 @@
   "provenance": {
    "seed_file": "st",
    "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "st-coswig-asa-altmetallhandel",
+  "name": "ASA Altmetallhandel",
+  "trader_type": "metallhaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "034903/590084",
+  "city": "Coswig",
+  "state": "ST",
+  "website": "https://asa-altmetall.de/",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Altmetall/Abholung/Container/Abriss — Altmetall-Ankauf + Gratis-Abholung, Tel 034903/590084 (NEU) | Adresse: Coswig (Anhalt) 06869, Fichtenbreite 2",
+  "provenance": {
+   "seed_file": "st",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "st-eisleben-ot-polleben-06295-scmr-recycling",
+  "name": "SCMR Recycling GmbH",
+  "trader_type": "wertstoffhaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "",
+  "city": "Eisleben OT Polleben 06295",
+  "state": "ST",
+  "website": "https://scmr-recycling.com/",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Verbundstoff/Alu — \"Diese Wertstoffe kaufen und verkaufen wir\" (NEU) | Adresse: Eisleben OT Polleben 06295, An der Landstrasse 159",
+  "provenance": {
+   "seed_file": "st",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "st-schonebeck-39218-esm-schrott-und-metallhandel",
+  "name": "ESM Schrott und Metallhandel GmbH",
+  "trader_type": "metallhaendler",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "03928/400056",
+  "city": "Schönebeck 39218",
+  "state": "ST",
+  "website": "",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrott/Metall/Container — Cu/Alu/Edelstahl/Messing/Zinn/Zink/Blei, Tel 03928/400056; Fegert-Nähe klären (NEU vs Audit-Runde-4-ESM prüfen!) | urspr. Website-Angabe: keine | Adresse: Schönebeck 39218, Burgwall 2",
+  "provenance": {
+   "seed_file": "st",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "st-kothen-06366-mrr-schrottplatz-kothen",
+  "name": "MRR GmbH Schrottplatz Köthen",
+  "trader_type": "schrottplatz",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "",
+  "city": "Köthen 06366",
+  "state": "ST",
+  "website": "",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz/Entsorgung — ALBA-Anbindung + Publikums-Ankauf prüfen (NEU) | urspr. Website-Angabe: keine | Adresse: Köthen 06366, Am Güterbahnhof 3",
+  "provenance": {
+   "seed_file": "st",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
+   "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "st-bitterfeld-wolfen-06749-mrr-schrottplatz-bitterfeld",
+  "name": "MRR GmbH Schrottplatz Bitterfeld",
+  "trader_type": "schrottplatz",
+  "description": "",
+  "street": "Antonienstr. 23",
+  "postcode": "",
+  "phone": "",
+  "city": "Bitterfeld-Wolfen 06749",
+  "state": "ST",
+  "website": "http://www.alba.info/",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "pruefung",
+  "notes": "Schrottplatz/Entsorgung — Identität vs Scholz/ALBA + Ankauf prüfen (NEU) | Adresse: Bitterfeld-Wolfen 06749, Antonienstr. 23 (= Scholz-Standort!)",
+  "provenance": {
+   "seed_file": "st",
+   "section": "Nachtrag Wide-Net (27.09.2026)",
    "ankauf_raw": "unklar",
    "origin": "table"
   }

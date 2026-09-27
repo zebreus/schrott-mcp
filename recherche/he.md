@@ -547,3 +547,23 @@ Abgrenzungen entschieden (keine Seed-Dubletten): Levy Langenselbold ≠ Seed-Lev
 Rejects (2): MRK Kassel 34123 – Vorrunden-Ausschluss bestätigt (nur Autoankauf, kein Schrottankauf belegt); Chirakakis Emmanuel Korbach 34497 – Vorrunden-Ausschluss bestätigt (nur AV, kein Schrottankauf belegt). Interne Doppel-Nennungen zusammengeführt (keine eigenen Rejects): Dippel Frankenberg, Stussak/Hübinger Wiesbaden. Kein reiner Juwelier- und kein Portal-Fall unter den Kandidaten (alle mit Ort; Goldankäufer mit Zahngold-/Ankaufbezug behalten).
 
 Tote Seed-Websites (curl 27.09.2026, 80 Sites geprüft): https://scholz-recycling.de/ – tot (https 000/SSL-Fehler; http 301 auf https://www.scholz-recycling.com/ = live, 200 – Seed-URL veraltet, Umzug nach Derichebourg-Übernahme); https://schrotthandelbauer.de – tot (http 404 / https 000; vgl. Nr. 249). Auffällig umgeleitet: https://gorsler-alsfeld.de/ – 301 auf https://www.rvt.de/ (RVT-Gruppe, legitim). Bot-blockiert, aber live (per webfetch verifiziert): https://www.kulzer.de/de/de/scheidgut/ (curl 403). Degussa-Preislisten-URL https://www.degussa-goldhandel.de/preisliste/ – 301 auf https://degussa.com/ (kein Handler-Fall). Alle übrigen 76 Seed-Sites: HTTP 200.
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| S.H. Kunsthandel | Taunusstein 65232, Aarstr. 94 | https://sh-kunsthandel.de | Altmetall/Buntmetalle — /ankauf/altmetall/ mit LME-Tagespreisen, Verwiegung, Abholung ab 100 kg; Tel 06128/2018244 (NEU) | ja |
+| ARM Entsorgung | Hanau 63457, Adalbert-Eisenhuth-Str. 6b | https://www.arm-entsorgung.de | Container/Abbruch/Demontage/Schrott — /schrotthandel-und-schrottankauf/ Kupfer/Alu/Messing/Stahl/Blei Höchstpreise (NEU — Willeführ-Cluster!) | unklar |
+| Entsorgung Hessen (Gino Willeführ) | Hanau-Großauheim 63457 | https://www.entsorgung-hessen.de | Container/Demontage/Schrott — Kabel-/Kupfer-/E-Schrott-/Späne-Ankauf Börsenpreise (NEU — gleiche Adresse wie ARM!) | unklar |
+| CONREC GmbH | Rodgau-Jügesheim 63110, Justus-von-Liebig-Str. 13 | http://www.conrec.de | Container/Entsorger/Stahlrecycling — BDSV, EfB bis 10/2026, HRB 40998 (NEU) | unklar |
+| Kurt Steding Entsorgungs-GmbH | Hanau 63452 | keine | Entsorgung/Stahlrecycling — BDSV Stahlrecycling (NEU) | unklar |
+| VEBEG GmbH | Frankfurt 60489 | https://www.vebeg.de | Surplus-VERKAUF — verkauft (kauft nicht!), bundeseigen (GRENZFALL — eher kein Ankauf → Audit: aufnehmen? eher nein) | ja |
+| Bertin GmbH | Frankfurt 60488 | keine | Stahlrecycling (BDSV) — Tätigkeit/Website unverifiziert (PRÜFFALL) | unklar |
+| Schrottler Eddie GmbH | Messel 64409, Zeilharder Str. 25a | keine | Schrottankauf — GS, Tel 06159/7179588 (NEU) | unklar |
+| Willeführ Rino | Rödermark-Ober-Roden 63322, Paul-Ehrlich-Str. 34 | https://www.containerdienst-willefuehr.de | Container/Entsorgung/Demontage/Schrott — GS Schrotthandel/Metalle/Demontage/E-Schrott, 16× 5,0 (NEU — Cluster!) | unklar |
+| Sommer GmbH | Hanau 63450, Lothringer Str. 3-5 | keine | Gold-/Silberankauf — GS (NEU) | unklar |
+| GVS Germany GmbH | Obertshausen-Hausen 63179, Birkenwaldstr. 38 | keine | Gold-/Silberankauf — GS Webseite-Button, URL fehlt (NEU) | unklar |
+| Goldhaus Bruchköbel Goldankauf | Bruchköbel 63486, Hauptstr. 12 | keine | Gold-/Silberwaren — GS (NEU) | unklar |
+| Main Gold Gold- u. Silberankauf | Hanau 63457, Adalbert-Eisenhuth-Str. 6B | keine | Gold-/Silberankauf — gleicher Hof wie ARM/Entsorgung Hessen (Cluster!) (NEU) | unklar |
+| Lagerin R. Alteisen und Altmetalle | Mainz-Kastel 55252 (HE!) | keine | Alteisen/Altmetalle — An der Gabelung 28 — dritte Lagerin-Entität neben HLR + Metall- & Rohstoffhandel Lagerin (beide Seed) → klären! | unklar |
+| Schramm | Mainz-Kastel 55252 | keine | Schrott — Hambuschweg 29 = gleiche Adresse Metall- & Rohstoffhandel Lagerin → klären! | unklar |

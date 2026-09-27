@@ -280,3 +280,16 @@ Seed-Anreicherungen (kein md2seed-Lauf):
 - HSR Herzberg = Hidanovic GmbH, Wehrhainer Neue Str. 25, 04936 Schlieben.
 - ALBA Döberitz = Am Hafen 22, 14727 Premnitz.
 - SMR (Seed, Fürstenwalde-Eintrag): shschrotthandel.de leitet auf https://smr-luebben.de/ weiter (SMR GmbH Spreewälder Metall Recycling, GF Dr. Arnim Preuss, Mühlbergweg 10, 15907 Lübben-Neuendorf). PREISLISTE: https://smr-luebben.de/smr-preise/ (+ Schrottrechner/App).
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Pries & Friese Autoverwertungscenter | Neuenhagen 15366 | http://www.pries-und-friese.de | AV — seit 01/2023 an LFP Werkstatt übergeben (NEU — schließt BE-Lücke!) | unklar |
+| Autoankauf Potsdam | Potsdam 14478 | http://www.autoankauf-potsdam.com | AV/Autoankauf — Barzahlung, Abholung + Abmeldung (NEU) | ja |
+| H&S Abschleppdienst GmbH | Rathenow 14712 | http://www.hs-abschleppdienst.de | AV/Werkstatt — eigener Autoverwertung-Bereich (NEU) | unklar |
+| ANTIK MÖBEL Sadowski | Bernau 16321, Alte Goethestr. 8 | http://www.antik-bernau.de | Gold/Silber/Entrümpelung — WARNUNG Website Casino-Spam, Firma per GS real (NEU) | unklar |
+| Zirnsack Kabelrecycling | Eisenhüttenstadt 15890, Zur Hütte 4 | keine | Kabel/Buntmetall — Buntmetall Messing/Blei/Alu (NEU) | unklar |
+| M. & R. Lyszczok GbR | Brieskow-Finkenheerd 15295, Ernst-Thälmann-Str. 64 | keine | AV — Unfallankauf explizit (NEU) | unklar |
+| Scholz Ralf AV + Abschleppdienst | Ferbitz (Lenzen/Elbe) 19309, Lenzener Str. 10 | keine | AV — schwächster Fund (PRÜFFALL) | unklar |
+| Behrendt Schmuckboutique | Rathenow 14712, Goethestr. 76 | keine | Goldankauf — GS Goldankauf neben Schmiede (NEU — war "?" in Runde 1) | unklar |

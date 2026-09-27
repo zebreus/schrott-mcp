@@ -243,3 +243,12 @@ Tote/umgeleitete Seed-Websites aus hh.json (curl-Sweep 27.09.2026):
 - https://hme.buhck.de (HME Hamburger Müllentsorgung): https down (000), nur http erreichbar (200) — Protokoll-Problem, Eintrag auf http prüfen/korrigieren.
 - https://www.isr-itzehoe.de (ISR + Peter Stolz): leitet auf https://www.isr-recycling.de/ um (301) — Seed-URL veraltet.
 - Alle übrigen 40 Seed-Websites: HTTP 200 (helmuthhahn.de http→https-Weiterleitung ok).
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Buhck Abfallverwertung und Recycling (ex-AUA) | Billbrook 22113, Liebigstr. 64 | https://www.aua-container.de | Rohstoffhandel/Container/Recyclinghof — Telefonbuch "Rohstoffhandel" → AUA Rohstoffhandel → Buhck; eigener Rohstoffhandel (Hapke übernommen 2021) + Recyclinghof (NEU) | unklar |
+| Ludwig Melosch Entsorgungs-Sparte | Altona-Nord 22769, Waidmannstr. 16 | https://www.melosch.de | Entsorgung/Wertstoffhandel — GS "Wertstoffhandel" → "Entsorgung von Schrott" (NEU — gleiche Adresse wie Seed Melosch Export = Schwesterfirma, trennen!) | unklar |
+| Hamburger Schrotthandel→ PRÜFFALL: Hamburger Schrotthandel? Nein: "Hamburger Schrott" | Iserbrook 22589, Heerbrook 4 | hamburger-schrott.de TOT | Schrott — nur Verzeichnis + Tel 0173 6110524 (PRÜFFALL) | unklar |
+- VERWORFEN (Audit): Goldbright Trading GmbH — SCHWACH (Metall-Ankauf unbelegt, Homepage falsch — nur bei HRB-Verifizierung)

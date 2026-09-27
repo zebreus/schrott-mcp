@@ -334,3 +334,14 @@ Hinweis: 6 weitere EXCHANGE-AG-Filialen (9 total laut Kandidatenliste) ohne veri
 - Bot-blockiert, existent (2): https://www.schrotthandeladlershof.de/ (403 Bot-Schutz, bekannt); https://www.tsr-recycling.de (200, aber "Challenge Validation"-Seite → Bot-Schutz, Inhalt nicht prüfbar).
 - Live (35): alle übrigen inkl. http://www.amr-schrottplatz.de, https://www.wasdrack.de (Bonus: Rubrik Schrottpreise → PREISLISTE: https://www.wasdrack.de/schrottpreise-berlin.html), https://metall.alba.info, https://berlin.alba.info.
 - ISH-Hinweis: kein ISH-Eintrag im Seed (nur AMR Schnellerstr. 20E, Website live 200) — "ISH site down" betrifft nur Ex-Domain ish-schrott.de, kein Seed-Austrag nötig.
+
+## Nachtrag Wide-Net (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Entsorgung Scholl | Charlottenburg 10629, Droysenstr. 5 | https://www.scholl-entsorgung-berlin.de/altmetallentsorgung-berlin.html | Entsorgung/Entrümpelung mit Vergütung — eigene Altmetall-Seite mit Vergütung/Schrottwert-Anrechnung Cu/Messing/Alu/Eisen (NEU) | ja |
+| Harbi Kats Recycling (Ali Harbi) | Spandau 13587, Rauchstr. 43 | https://harbi-kats.de | Kat/DPF-Ankauf — Impressum + Katalog + 4 Kleinanzeigen + Facebook; Barzahlung (NEU → HANDLER-KANDIDAT prüfen) | ja |
+| rebuy recommerce GmbH | Mitte 10179, Köpenicker Str. 40–41 | https://www.rebuy.de | Recommerce Handy/Tablet/Elektronik — HRB 109344; bundesweiter Elektronik-Ankäufer, kein Schrott (GRENZFALL — E-Schrott-nah, aufnehmen?) | unklar |
+- VERWORFEN (Audit): scrappel GmbH — KEIN eigener Ankauf, nur Altpapier-Swaps (SCHWACH, ehrlich markiert)
+| Beganovic – ISH Internationaler Schrotthandel | Oberschöneweide 12459, Wilhelminenhofstr. 92 | https://www.ish-schrott.de (ungeprüft) | Schrotthandel — Telefonbuch-Adresse + Tel (NEU vs Seed — ISH-Filiale!) | unklar |
+| EVG Unternehmensgruppe (Röntgenfilm) | NL Velten BB, HQ Wuppertal | https://www.evgu.de/abfallarten/roentgenfilm/ | Röntgenfilm-Silber — GRENZFALL Sitz außerhalb BE (<3 Silberrückgewinner bundesweit) | unklar |
