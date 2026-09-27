@@ -269,3 +269,102 @@ Methoden: Websuche weiter ohne Auth (401) – keine Suchmaschine verfügbar. Sta
 - VDM: Mitgliederbereich login-geschützt (mitgliederbereich.vdm.berlin); BDSV: Mitgliederliste nur als PDF (Custom-Font-kodiert, Text nicht extrahierbar) bzw. Login (schrottplatz.bdsv.org); bvse: nur Reifen-Fachverbandsliste öffentlich (ST: 1 Eintrag BEB Steigra – nicht schrottrelevant). Hinweis: BDSV+VDM → CMA-Verschmelzung 06/2026; künftiger Winkel: CMA-Mitgliederliste.
 - kleinanzeigen.de: 403 Bot-Sperre → eBay-Aufkäufer nicht auswertbar; Ersatz: 2 Kleinaufkäufer via 11880 (Schrott+Papierankauf MD, Bonchor).
 - Websuche: weiter 401 → alle Neufunde stammen aus Verzeichnis-Tiefenauswertung (jetzt ausgeschöpft: lokaleschrottplatz ST 59/59, schrottradar 23/23, alle 11880-Umkreise).
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Methoden: curl-Verifikation der Kandidaten-Websites (bauerdorff.de 200, aber ohne Schrottbezug; lrp-autorecycling.de/magdeburg + /fahrzeugankauf 200 mit Ankauftext; esg-gold.de per https tot); Seed-Website-Sweep aller 29 URLs per curl (Ergebnis s. u.); Verzeichnis-Plausibilität + Adressabgleich für Einträge ohne Website. Filter: alles mit Schrott-/Metallbezug KEPT (privat, B2B, Gewerbe-only, mobil, Kleinbetrieb); Ankauf "ja" nur mit Beleg, sonst "unklar".
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| LRP Autorecycling GmbH, NL Magdeburg | Magdeburg (Am Zweigkanal 9, 39126) | https://lrp-autorecycling.de/magdeburg/ | Autorecycling, Fahrzeugankauf (Alt-/Gebraucht-/Unfallfahrzeuge, E-/Hybrid-Demontage). PREISLISTE: https://lrp-autorecycling.de/fahrzeugankauf/ | ja |
+| EKS – Ankauf von Katalysatoren und Batterien | Radegast (Bahnhofstr. 13, 06369) | keine Website verifiziert | Kat-/Batterieankauf | unklar |
+| Bauerdorff & Söhne | Halberstadt (Im Sülzeteiche 34A, 38820) | https://www.bauerdorff.de/ (verifiziert, nur Bau/Container, kein Schrottbezug) | Bau-/Transportservice, Containerdienst | unklar |
+| Halberstädter Wertstoffhandel & Containerdienst | Halberstadt (August-Heine-Weg 5, 38820) | keine Website verifiziert | Wertstoff/Container | unklar |
+| Dieter Wachsmann | Mose (Farsleber Str. 4, 39326) | keine Website verifiziert | Container/Schrott | unklar |
+| R & W GbR | Haldensleben (Johann-Gottlob-Nathusius-Str. 12a, 39340) | keine Website verifiziert | Schrott/AV | unklar |
+| Altstoffhandel Zschornewitz (Maik Koch) | Gräfenhainichen (Ernst-Moyat-Str. 30, 06772) | keine Website verifiziert | Altmetall | unklar |
+| Schrottys Metallhandel (Lasarsch) | Könnern (Karl-Marx-Str. 46, 06420) | keine Website verifiziert | Metallhandel | unklar |
+| Hero Recycling | Gardelegen (Sachauer Str. 1, 39638; gleiche Straße wie Herms-Recycling – Zusammenhang prüfen) | keine Website verifiziert | Schrott | unklar |
+| Recycling RiWa (Richter) | Salzwedel (An der Ritzer Brücke 3, 29410) | keine Website verifiziert | Recycling/AV | unklar |
+| mS mobile Schrottentsorgung | Wernigerode (Theodor-Fontane-Str. 9, 38855) | keine Website verifiziert | Schrott mobil (Abholung) | unklar |
+| Freyburger Kabel- und Buntmetall Recycling | Freyburg (Adresse fehlt; ≠ H&S Freyburg Am Gewerbepark 24 – separater Betrieb, Identität prüfen) | keine Website verifiziert | Kabel/Buntmetall | unklar |
+| Nordhäuser Rohstoffhandel GmbH | Edersleben (Hutdeckel, 06528; B2B) | keine Website verifiziert | Rohstoffhandel | unklar |
+| Wertstoffaufbereitung GmbH Edersleben | Edersleben (Der Hutdeckel, 06528; Ko-Lokation mit Nordhäuser – Identität prüfen) | keine Website verifiziert | Wertstoffaufbereitung | unklar |
+| RANRODE GmbH | Wettin-Löbejün (Kreisstr. 48A, 06193) | keine Website verifiziert | Metallhandel | unklar |
+| Guthmann GmbH | Magdeburg (Wasserkunststr. 100, 39124) | keine Website verifiziert | Metallhandel | unklar |
+| Mainmetall Großhandelsges. | Sangerhausen (An der Stollenmühle 17, 06526; eher B2B) | keine Website verifiziert | Metallhandel Großhandel | unklar |
+| Fachgroßhandel Metall Zerbst | Zerbst (Kirschallee 5, 39261; eher Neumetall) | keine Website verifiziert | Metallhandel | unklar |
+| Ines Berbig Metallhandel | Halle (Freiimfelder Str. 5, 06112) | keine Website verifiziert | Metallhandel | unklar |
+| W.K.W. Gebr. Wetzel GbR | Bad Schmiedeberg (Kossaer Str. 3B, 06905; ≠ Wetzel Roßlau; gleiche Adresse wie Seed „Schrott Metalle & Recycling" – prüfen) | keine Website verifiziert | Schrott | unklar |
+| Gertloff Heuer & Koch oHG | Zeitz (Birkenweg 77, 06711) | keine Website verifiziert | Schrott | unklar |
+| Containerdienst Bernhard Krause GmbH | Schönebeck (Magdeburger Str. 220a, 39218) | keine Website verifiziert | Containerdienst | unklar |
+| Knitter Tobias | Genthin (Dorfstr. 15, 39307) | keine Website verifiziert | Schrott | unklar |
+| Albert B. | Zerbst (Lusoer Str. 21, 39261) | keine Website verifiziert | Schrott | unklar |
+| Winzer Helge | Ziepel (Dorfstr. 10, 39291) | keine Website verifiziert | Altmetall | unklar |
+| Peschek Uwe | Wanzleben (Welsche Mühle 4, 39164) | keine Website verifiziert | Schrott | unklar |
+| WILFERT Entsorgung und Transport | Haldensleben (Jakob-Uffrecht-Str. 24, 39340) | keine Website verifiziert | Entsorgung/Transport | unklar |
+| Containerdienst & Wertstoffhandel Staßfurt | Staßfurt (An der Löderburger Bahn 56, 39418) | keine Website verifiziert | Container/Wertstoff | unklar |
+| Seik Automobil Recycling GmbH | Halle (Grenzstr. 43, 06112) | keine Website verifiziert | Autorecycling | unklar |
+| MRR Mitteldeutsche Rohstoff-Recycling GmbH | Halle (Am Saalehafen 5, 06118; Scholz-Adresse + MRR-Namensnähe – prüfen) | keine Website verifiziert | Rohstoffrecycling | unklar |
+| Recyclingservice Sebastian Hoppe | Magdeburg (Glindenberger Weg 5, 39126; gleiche Adresse wie BBW – Verhältnis prüfen) | keine Website verifiziert | Recycling | unklar |
+| BBW Recycling Mittelelbe GmbH | Magdeburg (Glindenberger Weg 5, 39126; gleiche Adresse wie Hoppe – Verhältnis prüfen) | keine Website verifiziert | Recycling | unklar |
+| ABC Recycling | Dessau-Roßlau (Alte Mildenseer Str. 17, 06844) | keine Website verifiziert | Recycling | unklar |
+| DRL GmbH Recycling | Dessau-Roßlau (Polysiusstr. 5, 06847) | keine Website verifiziert | Recycling | unklar |
+| DAR Dessauer Abbruch- u. Recycling GmbH | Dessau-Roßlau (Kreuzbergstr. 50, 06849) | keine Website verifiziert | Abbruch/Recycling | unklar |
+| Borchert | Libehna (b. Köthen) | keine Website verifiziert | Autoverwertung | unklar |
+| Misselwitz | Teutschenthal (Unfallwagenankauf) | keine Website verifiziert | Autoverwertung | unklar |
+| Barec | Bitterfeld-Wolfen | keine Website verifiziert | Autoverwertung | unklar |
+| Heine | Bernburg | keine Website verifiziert | Autoverwertung | unklar |
+| Viehweg | Elsteraue (b. Zeitz) | keine Website verifiziert | Autoverwertung | unklar |
+| Dietze | Zeitz (evtl. Händler – prüfen) | keine Website verifiziert | Autoverwertung | unklar |
+| ATW Hennig/Rothe | Bitterfeld-Wolfen | keine Website verifiziert | Autoverwertung | unklar |
+| Kloppe | Muldestausee | keine Website verifiziert | Autoverwertung | unklar |
+| Koop | Möckern | keine Website verifiziert | Autoverwertung | unklar |
+| Hinze | Badingen/Bismark (2 Adressen) | keine Website verifiziert | Autoverwertung | unklar |
+| BTB | Gardelegen | keine Website verifiziert | Autoverwertung | unklar |
+| Werner | Sülzetal | keine Website verifiziert | Autoverwertung | unklar |
+| Brameier | Schopsdorf (b. Genthin) | keine Website verifiziert | Autoverwertung | unklar |
+| Naumann | Bad Lauchstädt | keine Website verifiziert | Autoverwertung | unklar |
+| Alfred Naumann | Schkopau (evtl. Autohaus – prüfen) | keine Website verifiziert | Autoverwertung | unklar |
+| Uhlmann | Salzatal | keine Website verifiziert | Autoverwertung | unklar |
+| B&B Brandt | Landsberg | keine Website verifiziert | Autoverwertung | unklar |
+| B&B Auto Point | Farnstädt (evtl. Händler – prüfen) | keine Website verifiziert | Autoverwertung | unklar |
+| Langbein | Sangerhausen | keine Website verifiziert | Autoverwertung | unklar |
+| Lorenz | Aschersleben | keine Website verifiziert | Autoverwertung | unklar |
+| Wallwitz | Petersberg | keine Website verifiziert | Autoverwertung | unklar |
+| Dave's | Klostermansfeld (Ankauf prüfen) | keine Website verifiziert | Autoverwertung | unklar |
+| RILEI | Kalbe (Ankauf fraglich) | keine Website verifiziert | Autoverwertung | unklar |
+| Autocenter | Rehsen (evtl. Händler – prüfen) | keine Website verifiziert | Autoverwertung | unklar |
+| Reinharz | Bad Schmiedeberg (Ankauf fraglich) | keine Website verifiziert | Autoverwertung | unklar |
+| ASR-Klieken | Coswig | keine Website verifiziert | Autoverwertung | unklar |
+| Grießig | Jessen (Branche prüfen) | keine Website verifiziert | Autoverwertung | unklar |
+| Madaj | Lutherstadt Wittenberg | keine Website verifiziert | Autoverwertung | unklar |
+| Rieger | Wittenberg-Boßdorf | keine Website verifiziert | Autoverwertung | unklar |
+| Decker | Dessau-Roßlau | keine Website verifiziert | Autoverwertung | unklar |
+| Scholz | Schönebeck (evtl. nicht Konzern – prüfen) | keine Website verifiziert | Autoverwertung | unklar |
+| SIMO | Oschersleben | keine Website verifiziert | Autoverwertung | unklar |
+| SMK | Hohenwarsleben | keine Website verifiziert | Autoverwertung | unklar |
+
+### Rejects (17)
+
+- DIE GOLDBÖRSE Magdeburg – reiner Schmuck-/Goldankauf ohne Schrottbezug.
+- Premium Goldankauf Halle – reiner Schmuck-/Goldankauf ohne Schrottbezug.
+- Kortum T. Halle – Juwelier, kein Schrottbezug belegt.
+- Maximilian Uhren u. Schmuck Halberstadt – Juwelier, kein Schrottbezug belegt.
+- ESG Edelmetall-Scheiderei – Sitz Rheinstetten (BW), Handoff an BW-Audit.
+- Allgemeine Gold- u. Silberscheideanstalt – Sitz Pforzheim (BW), Handoff an BW-Audit.
+- ESM Schönebeck – historischer Eintrag, heute Fegert-Standort (Seed).
+- Günther Fauter Meseberg – Teil des MRR-Betriebs Tangerhütte (Seed).
+- Christian Ludley Uthmöden – bereits im Seed (Haldensleben).
+- REMA Bernburg – bereits im Seed.
+- O. Thieke Sandau – ein Betrieb mit R. Thieke (Seed), kein Neueintrag.
+- Tannenläufer Sven Wanzleben – ein Betrieb (Am Teich 12, Seed-Upgrade), kein Neueintrag.
+- Kreutschmann Martin Bernburg – ein Betrieb mit Kreutschmann W. (Seed-Upgrade), kein Neueintrag.
+- Keller Detlef/Christian – Christian bereits im Seed (mit Website); Detlef ohne Adressnachweis, kein Neueintrag.
+- SCHROTTPORTAL.EU Zeitz – Lead-Portal ohne realen Betrieb (Fantasie-Tel.), WRG Zeitz (Seed) unberührt.
+- Soby/Schricke Zielitz – Soby bereits im Seed.
+- Borgsdorf GmbH Zerbst – kein separater Kandidat in der Liste; Bornum-Eintrag bereits im Seed.
+
+### Seed-Website-Sweep (29 URLs, per curl)
+
+Alle 29 Seed-Websites liefern HTTP 200 (alive). Einziger Redirect: christian-keller-metall.de → www.christian-keller-metall.de (200). Keine toten Seed-Websites. Hinweis: TSR-Standortseiten liefern per curl 200 (Webfetch-Leereffekt = JS-Seite, kein Dead-Link). Bereits aus Vorrunden als tot/gesperrt bekannt, aber nicht im Seed enthalten: horst-habermann.de, schaper-gbr.de, mepag-recycling.de, schrottplatzgardelegen.de, magdeburg.deumu.de, schrott-buntmetallhandel.de, romet-gmbh.de, groeschel-gmbh.de (403).

@@ -479,3 +479,66 @@ schrotthandel-meinhardt.de (http+https tot), schrotthandelsorich.de (tot), autov
 ### Erschöpft (abschließend negativ dokumentiert)
 
 Clausthal-Zellerfeld/Altenau/Braunlage-Kern (GS-Null + nur ST-Spillover), Stadthagen/Bückeburg-Nord (nur 1 Autorecycling + NRW-Spillover), Bodenwerder/Eschershausen (nur Fricke Hehlen), Bad Zwischenahn (kein Betrieb), Brake/Elsfleth (nur Wesermarsch-MR + 1 Autoverwerter), Leer-Stadt/Weener (jetzt je 1–2 GS-Belege, keine Websites), Kat-/Kabelspezialisten + reine Abbruchfirmen mit Ankauf (nur Händler-Demontage-Services + 3 Kat-Annehmer, s. o.), NL-Grenzgänger (nur zwafink Esche als grenznächster NI-Betrieb). Verbleibende „Ankauf unklar“-Zeilen ohne Website sind reine Verzeichnisbelege (GS/lokaleschrottplatz) – weitere Webfetch-Runden versprechen keinen Mehrertrag; Klärung nur noch per Telefon/Handelsregister/Ortsbegehung.
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Stand: 2026-09-27. Winkel: 37er-Kandidatenliste (Runde 1, s. /tmp/opencode/audit/ni.md) + HB-Handoff (Gerdes Stuhr, MKV Nordenham) + gezielte Fair-Kat-Suche. Websuche-Tool 401-ausgefallen – stattdessen: Websites per curl verifiziert (HTTP-Status + Seitentext), DDG-html per Webfetch als Verzeichnisersatz, Gelbe-Seiten/Das-Örtliche/11880/cylex/firmania-Treffer via DDG-Snippets. Seed-Abgleich gegen ni.json (282 Einträge).
+
+### Kept (36: 34/37 Kandidaten + MKV + Fair-Kat)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| NORDKAT GmbH | Harsefeld 21698 | https://www.nordkat.de | Katalysatoren/Zündkerzen/Lambdasonden/NOx, tagesaktuelle Bewertung, Versand deutschlandweit. PREISLISTE: https://www.nordkat.de/Preislisten-ankaufspreise-edelmetalle/ | ja |
+| Edelmetall Niedersachsen Raffinerie GmbH | Walsrode 29664, Hanns-Hoerbiger-Str. 11 | https://edelmetall-niedersachsen.de | Scheideanstalt/Raffinerie (A7/A27), Gold-/Silber-/Platin-Ankauf + Verkauf, Versand + vor Ort (Rechner in Überarbeitung) | ja |
+| Norddeutsche Edelmetall Scheideanstalt (NES) | Buxtehude 21614, Breite Str. 7 | https://die-scheideanstalt.de | Scheideanstalt, Dental-/Altgold, Kleinstmengen, ehem. Dentallegierungs-Hersteller. PREISLISTE: https://die-scheideanstalt.de/aktuelle-schmelzkurse-fuer-verbraucher/ | ja |
+| Fair-Kat (Kenan Özdin) | Ottersberg 28870, Breslauer Str. 13 (LK Verden) | https://www.kaufe-katalysatoren.de/ (fair-kat.de leitet dorthin um) | Kat-Ankauf seit 2008, Kat-DB (9755 Typen) mit Preisen, Abholung ab 25 Stk + Versand. PREISLISTE: https://www.kaufe-katalysatoren.de/ | ja |
+| Valorum Edelmetalle & Goldankauf | Hannover-Bothfeld 30659, Sutelstr. 12a | https://valorum.de | Edelmetallhandel, Alt-/Bruch-/Zahngold, Münzen/Barren/Platin/Palladium zu Tagespreisen (Dentalgold-Link gegeben, kein reiner Schmuckankauf) | ja |
+| Wagner KG Schrott und Metalle | Neustadt a. Rbge. 31535, Rudolf-Diesel-Ring 8 | https://www.schrottplatz-wagner.de | Familienbetrieb (4. Gen.), kauft Schrott/NE-Metalle an, zertifizierte Autoverwertung | ja |
+| LSB GmbH Schrott- und Metallhandel | Wilhelmshaven 26389, Planckstr. 3 | https://www.lsb-gmbh.com | Schrott-/Metallhandel + Autoverwertung (Unfallwagen-Annahme) + Kfz-Werkstatt, seit 2014 | ja |
+| Machner (A–Z Machner, Inh. Sascha Machner) | Osnabrück (mobil, 0541) | https://schrotty-machner.jimdofree.com | Schrottabholung privat/gewerblich, kauft größere Mengen an (wlw + 11880 gelistet) | ja |
+| RE-EL Recycling GmbH | Buchholz-Dibbersen 21244, Königsgrund 1 | https://www.re-el.net | E-Schrott-Entsorgungsfachbetrieb (LK Harburg), kostenlose Annahme privat + gewerblich, keine Vergütung belegt | unklar |
+| MKV Metall- und Kabelverwertung GmbH | Nordenham 26954, Martin-Pauls-Str. 168 | https://mkv-gmbh.net | Kabelaufbereitung (BImSchG-Anlage), Metallentsorgung, B2B (HB-Handoff, HRB 100644) | unklar |
+| Wieland Dental + Technik GmbH & Co. KG | Hannover-Mitte 30175, Königstr. 9 | keine Website verifiziert | Dental-Depot/Materialvertrieb (GS als Scheideanstalt gelistet), kein Ankauf nachweisbar | unklar |
+| Autoverwertung Lassen (Lassen KFZ-Service) | Salzgitter 38239, Wolfenbütteler Str. 90 | https://lassen-kfz.de | Kfz-Meisterwerkstatt + Altfahrzeugverwertung (kein Metallankauf auf Website) (Flag) | unklar |
+| Autorecycling Lesum GmbH | Salzgitter-Lebenstedt 38229, Peiner Str. 39 (+ SZ-Bad, Bad Harzburg) | https://recycling-lesum.de | Autoverwertung, kostenlose Altauto-Annahme (Flag) | unklar |
+| Autoverwertung Peter Stautmeister (Inh. Jens Satzer) | Peine 31228, Dieselstr. 12 (Stederdorf) | https://stautmeister.com | Autoverwertung + Teileverkauf; eigenständig ggü. Staumeister Lehmkuhlenweg (Flag) | unklar |
+| Autoverwertung Stautmeister (Inh. Merwan Murad) | Peine 31224, Lehmkuhlenweg 2 | https://www.autoverwertung-stautmeister.de | Geprüfter Demontagebetrieb seit 40 J.; eigenständig ggü. Stautmeister Dieselstr. (Flag) | unklar |
+| Hammoud Schrottabholung | Göttingen-Holtensen 37079, Lenglerner Str. 11 | keine Website verifiziert | Schrottabholung Kleinbetrieb (GS/Das-Örtliche/golocal-verifiziert) | unklar |
+| Koch Willy (Altmetalle/Rohprodukte) | Göttingen 37081, Salinenweg 4 | keine Website verifiziert | Alt-/Abfallstoffe (verzeichnisverifiziert) | unklar |
+| Alian Service | Hildesheim 31141, Augustastr. 15 | keine Website verifiziert | Schrotthandel Kleinbetrieb | unklar |
+| Rocky's Schrotthandel | Hildesheim-Nord 31137, Leunisstr. 31 | keine Website verifiziert | Schrotthandel (GS/Telefonbuch-verifiziert) | unklar |
+| BSR Celle | Celle 29223, Haydnstr. 11 | keine Website verifiziert | Schrotthandel (schrottplatz.org/info-verifiziert) | unklar |
+| Friedhof Jürgen SchrottHdl. | Celle 29225, Holzhäusen 6 | keine Website verifiziert | Schrotthandel (11880/branchen-info-verifiziert) | unklar |
+| Schrott-Abholung-celle | Celle 29225, Denickestr. | keine Website verifiziert | reine Abholung Kleinbetrieb | unklar |
+| Braune R. | Wilhelmshaven 26386, Grothstr. 14 | keine Website verifiziert | Schrotthandel Kleinbetrieb | unklar |
+| Siekmann Schrott und Metallhandel | Peine 31228, Tiefe Str. 15a | keine Website verifiziert | Schrotthandel (GS/Telefonbuch-verifiziert) | unklar |
+| Khan Schrott-/Altmetallabholung | Hannover-Nordstadt 30167, Kornstr. 8 | keine Website verifiziert | Abholung Kleinbetrieb (GS-verifiziert) | unklar |
+| Anders Schrott | Hannover 30539 (nur Mobilnummer) | keine Website verifiziert | Alt-/Abfallstoffe, mobil | unklar |
+| GMS Spika G. | Braunschweig 38116, Neudammstr. 20 | keine Website verifiziert | Schrotthandel Kleinbetrieb | unklar |
+| All in schrott abholung | Buchholz i.d.N. 21244, Steinbecker Str. 35 | keine Website verifiziert | Abholung Kleinbetrieb | unklar |
+| Emil Tomov Entrümplungen/Schrotthandel | Region ? (kein Ort) | keine Website verifiziert | mobil, Ort unklar – Existenz zählt | unklar |
+| ruckzuck Recycling Schrotthandel & Umzüge | Region ? (2 Einträge) | keine Website verifiziert | mobil, Ort unklar – Existenz zählt | unklar |
+| Schrott & Metallhandel Barbe | Ort ? | keine Website verifiziert | Schrotthandel, kein Ort – Existenz zählt | unklar |
+| Grundler Siegfried Autoverwertung | Delmenhorst-Deichhorst 27753, Oldenburger Landstr. 50 | keine Website verifiziert | Autoverwertung (Flag, mehrfach verzeichnisverifiziert) | unklar |
+| Schmitz Autoverwertung | Hameln 31785, Wehrberger Str. 54 | keine Website verifiziert | Autoverwertung (Flag; ≠ Schmitz-Recycling Celle) | unklar |
+| Nonnewitz Uwe Autoverwertung | Hess. Oldendorf 31840, Goldbinnen 3 | keine Website verifiziert | Autoverwertung (Flag) | unklar |
+| Breitkreutz Ulrich Autoverwertung | Stade 21684, Fredenbecker Weg 4 | keine Website verifiziert | Autoverwertung (Flag) | unklar |
+| Hayek Auto-Recycling | Oldenburg 26135, Rohdenweg 30A | keine Website verifiziert | Autoverwertung (Flag) | unklar |
+
+### Rejects (3)
+
+- Der mobile Schrottservice — Domain dermobileschrottservice.de tot (curl 000 http + https + www), keine Adresse hinterlegt → dead domain, OUT.
+- Stern Trade UG Schrotthandel (Rötgesbüttel, Hauptstr. 4) — Seed-Dupe #1: identische Adresse wie Seed „Schrottplatz Rötgesbüttel“ (Hauptstr. 4); Betreiberidentität, kein Neueintrag (Merge-Notiz statt Doppelzeile).
+- Deneke Autoverwertung GmbH (Neustadt a. Rbge., Moordorfer Str. 8) — Seed-Dupe #2: Schwesterfirma von Seed „Deneke Schrott-/Metall-/Containerdienst“ (Nienburg); kein separater Neueintrag.
+
+### HB-Handoff / Identitätsfälle
+
+- Gerdes Stuhr (Rodendamm 7–9 Brinkum): bereits im Seed („Johannes Gerdes Schrott- und Metallhandel“, Stuhr-Brinkum) → kein Neueintrag.
+- Stautmeister vs. Staumeister Peine GELÖST – keine Dublette: zwei Betriebe (Peter Stautmeister/Inh. Satzer, Dieselstr. 12, stautmeister.com vs. Stautmeister/Inh. Murad, Lehmkuhlenweg 2, autoverwertung-stautmeister.de), beide oben als eigene Zeilen.
+- Weitere NI Kat-/E-Schrott-Funde außer Fair-Kat: keine neuen Spezialisten; Querverweis Bestand: Schrotthandel Richter (Seed, Northeim) betreibt Kat-Ankaufseiten für Niedersachsen/Hannover (schrotthandel-richter.de/katalysator-ankauf-niedersachsen), Wil-Ro/Walkling/Gerdes (Seed) mit Kat-Annahme; Kabel: MKV (oben) + OM Recycling (Seed).
+
+### Dead/redirected Seed-Websites (curl-Status, 110 URLs geprüft 27.09.2026)
+
+Tot (000, DNS/Timeout): andreas-sandern.jimdo.com (Sandern Geeste), ankauf-verkauf-litzbach.de (A1 Sittensen), autoverwertung-flebbe.de (Flebbe Bramsche), autoverwertung-schwanewede.de (Schwanewede), demontagebetrieb.de (Artlenburg), elmh.de (ELMH Surwold), fischer-bakum.de (Fischer Bakum), jimdosite.com (nackte Domain bei Bäcker Wolfenbüttel), petko.de (Petko Bassum → live: petko-metalle.de, 200), schrotthandel-meinhardt.de (Meinhardt Barsinghausen), schrotthandelsorich.de (Sorich Salzgitter), wilhelm-hehmann.de (Hehmann Bad Laer).
+Umgeleitet (fremde Domain): schrott.io → https://mcbroken.io/ (301, Domain repurposed; Seed-Eintrag „schrott.io Ankaufsstation Hannover-Langenhagen“ betroffen), www.weibel-gmbh.de → https://remondis-nord.de/ (Weibel in REMONDIS Nord aufgegangen).
+Notiz (200, aber Parkseite): deich-metall.de (STRATO-Parkseite, s. Runde 4).

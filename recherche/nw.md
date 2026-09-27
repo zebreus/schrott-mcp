@@ -582,3 +582,326 @@ Arnsberg/Warstein, Lippert, Nöcke, Gipperich, Eifeler Schrotthandel Schleiden-G
 - Kat-/Hartmetall-/Platin-NRW-Sitz + E-Schrott-bulk: dokumentiert negativ (kein Re-Hunt).
 - Handelsregister-Tiefenprüfung (HR-Identitäten C4–C6, D1–D6) bleibt einziger offener Winkel
   (kein automatischer HR-Zugang); GS-/Branchenprofil-Belege sind in R4e–R4h ersatzweise zitiert.
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Stand: 2026-09-27. Audit der Kandidatenliste /tmp/opencode/audit/nw.md (~330 Zeilen). Methoden: curl-Einzelverifikation ALLER Website-Kandidaten inkl. Preis-Seiten (HTTP-Status + Ankauf-Textbeleg + Impressum-Adressen), curl-Sweep aller 130 Seed-Websites, DDG-/Bing-Recherche für E-Schrott-Sonderfälle (Websuche-Tool 401-defekt). Strato-Hoster (81.169.x.x) blockt curl per 503/403 (bot-blockiert, nicht tot — per Alternativ-Egress/Webfetch gegengeprüft). Regel: Ankauf „ja“ nur mit Beleg, sonst „unklar“; ohne verifizierte Website → „keine Website verifiziert“; Preislisten → PREISLISTE-Flag (keine Handler gebaut).
+
+### (1) Behaltene Neueinträge
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Moroder Scheideanstalt GmbH | Essen, Kaninenberghöhe 2, 45136 | https://www.moroder-scheideanstalt.de | Edelmetall/Scheideanstalt/Dentalgold, Live-Ankaufspreise. PREISLISTE: https://www.moroder-scheideanstalt.de/aktuelle-preisliste/ | ja |
+| EDELCAT GmbH | Nettetal, Wambacherstr. 25B, 41334 | https://www.edelcat.de | Kat/DPF-Recycling, zert. Efb, BImSchG-Zerlegeanlage. PREISLISTE: https://www.edelcat.de/edelmetallpreise | ja (B2B-Typ) |
+| VHM Hartmetall Ankauf | Remscheid (Ankauf in Remscheid/NRW/bundesweit) | https://www.vhm-hartmetall.de | Hartmetall/VHM/Widia/Wendeschneidplatten, €/kg-Preise. PREISLISTE: https://www.vhm-hartmetall.de/aktueller-hartmetall-preis | ja |
+| Hartmetallschrott24 | Düsseldorf (Lager lt. Vorlage, Adresse/Sitz unverifiziert) | https://hartmetallschrott24.de | Hartmetall-/VHM-Ankauf vor Ort oder per Paket (Versandankauf) | ja |
+| MKR Rothenbücher GmbH | Köln-Niehl | https://kabel-recycling.de | Kabel/Kupfer, Zerlegung, Granulate, tagesaktuelle Top-Preise. PREISLISTE: https://www.kabel-recycling.de/preise/ | ja |
+| Willi Kalkmann GbR | Neuss, Osterather Str. 7, 41460 | https://kalkmann-metalle.de | Altmetall-Ankauf seit 70 Jahren, Abbruch | ja |
+| DSH Duisburger Schrotthandel | Duisburg, Am Nienhaushof 29 | https://dsh-schrotthandel.de | Schrottankauf, Abbruch/Demontage, Container (div. Schrottplatz-Stadtseiten) | ja |
+| Schrotthändler Dortmund | Dortmund-Nordmarkt 44145 (lt. Vorlage, Site ohne Adressbeleg) | https://schrotthaendler-dortmund.com | Schrott/AV/Container; Angebots-Preisseite ohne Festpreise (https://schrotthaendler-dortmund.com/schrottpreise-dortmund/); Verbund-Indiz info@schrott-zentrale.de — NICHT im Seed (Vorlagen-Irrtum), Neueintrag | ja |
+| schrottabholung-top | Bochum-Wiemelhausen 44799 (lt. Vorlage) | https://schrottabholung-top.de | Schrott/AV, mobil; Preisseite ohne €-Festpreise (https://schrottabholung-top.de/schrottpreise/) | ja |
+| Schrottabholung Zentrale | Bochum-Gerthe 44805 (lt. Vorlage) | https://schrottabholung-zentrale.de | Schrott/AV/Container, mobil; Preisseite ohne €-Festpreise; mögl. Verbund s. Schrotthändler Dortmund | ja |
+| Willi Plum u. Sohn GmbH & Co. KG | Wegberg, Friedrich-List-Allee 19, 41844 | https://plum-wegberg.de | Schrott-/Altmetallannahme, Gewerbe + Privatkunden, Container (https://plum-wegberg.de/leistungen-metallankauf-schrottentsorgung-wegberg/) | ja (Annahme) |
+| Metallhandel Mumm GmbH | Korschenbroich-Glehn | https://metallhandel-mumm.de | Metallannahme, Containerverleih, Baustoffe | ja (Annahme) |
+| Prinz (altmetallabholung.de) | Bochum (lt. Vorlage) | https://altmetallabholung.de | Altmetall-Ankauf, Abholung, Entrümpelung, 01525-Nr., mobil | ja |
+| Freialdenhoven (schrottabholung-ankauf.de) | Mülheim (Aktienstr.-Nachfolge ggü. Schüte & Verstappen unverifiziert, Site ohne Impressum) | https://schrottabholung-ankauf.de | NRW-weiter Schrottankauf/Abholung, 0174-Nr. | ja (mobil) |
+| Schrottankauf gegen Bares | Bochum | https://schrottankauf-gegen-bares.de | Bar-Ankauf, kostenlose Abholung/Demontage/Container, mobil | ja |
+| Bellani (Arton Bellani Schrott & Metallhandel) | Einsatz Hilden/Langenfeld/Monheim (Solingen-Zuordnung lt. Vorlage unbestätigt) | https://schrotthaendler22.de | Altmetall-Ankauf + Abholtermine, mobil | ja |
+| Schrotthandel Missal | Essen | https://schrott-in-essen.de | Abholung/Demontage/Brennarbeiten, Kupferkabel (Missal/Metzler-Familie: Seed Zum Oberhof 32 + R3 J. Missal) | ja (mobil) |
+| SchrottBienen (ScrapBees GmbH) | Neuss / NRW-Kernregion (bundesweit tätig) | https://schrottbienen.de | SHK-Altgeräte-/Altmetall-Entsorgung als Service (Paketpreise ab 115 €, kein Ankauf); Site per Fetch bot-blockiert (403), per Webfetch verifiziert | unklar (Entsorgungsdienst, kein Ankaufsbeleg) |
+| Middeldorf Rohstoffhandel (Joachim Middeldorf GmbH & Co. KG) | Krefeld-Oppum, Herbertzstr. 14-16 (Sitz Flensburg) | https://middeldorf-rohstoffhandel.de | legierte Schrotte/Rotguss/Edelstahl, Handel/Sortierung/Aufbereitung seit 1983 | ja (B2B) |
+| Schrottabholung Kölle | Köln | https://schrottabholung-koelle.de | Ankauf Kupfer/Messing/Alu/Blei/Batterien/Kabel, Abholung | ja (mobil) |
+| Ruhr Schrottabholung | Düsseldorf | https://ruhr-schrottabholung.de | Schrott-/Buntmetall-Ankauf, Autoverschrottung | ja |
+| Schrottabholung Düsseldorf | Düsseldorf (01522-422-4277 = 01522-Netzwerk) | https://schrottabholung-düsseldorf.de | Höchstpreise-Versprechen, Demontage/Abholung, mobil (Netzwerk-Typ) | ja |
+| P&W Metall GmbH | Essen (0201) | https://pw-metall.de | An- und Verkauf, Container, KFZ-Recycling | ja |
+| Schrotthandel-24 | Bochum | https://schrott-handel24.de | Ankauf/Abholung/Entrümpelung/Autoverwertung NRW, mobil | ja |
+| Schrottankauf Bottrop | Bottrop (01522-422-4277 = 01522-Netzwerk) | https://schrottankauf-bottrop.de | faire Preise-Versprechen, mobil (Netzwerk-Typ) | ja |
+| Schrottabholung Engel | Bochum | https://schrottabholung-engel.de | Ankauf, kostenlose NRW-Abholung, Firmen+privat, mobil | ja |
+| My-schrotthaendler | Bochum | https://my-schrotthaendler.de | Abholung/Ankauf/Autoverwertung | ja (mobil) |
+| schrottabholung-el | Recklinghausen | https://schrottabholung-el.de | Schrotthändler/Schrottankauf NRW, mobil | ja |
+| Smit Schrott & Buntmetallhandel (Familie Smit) | Willich, Cloerbruchallee 1b, 47877 | https://schrotthandel-smit.de | Buntmetall-/Kabel-Ankauf, AV-Nachweis, Brennarbeiten, Familienbetrieb | ja |
+| Metallschrott-Express | Steinfurt (Stützpunkte Ochtrup/Warendorf, gleiche Nr.) | https://metallschrott-express.de | Schrottankauf Bocholt/Borken/Dülmen/Münster/Rheine/Steinfurt, mobil | ja |
+| Arbitrage Recycling | Köln (0221) | https://arbitrage-recycling.com | E-Schrott-/Batterie-Ankauf, Rücknahme, Logistik, v.a. Gewerbe | ja |
+| Rohstoffhandel Rheinland GmbH | Rheinberg-Borth, Xantener Str. 235 (bereits R4e-unklar) | https://www.rohstoffhandel-rheinland.de NEU verifiziert | Kat + Altmetallankauf Spitzenpreise, eigener Schrottplatz, Efb — UPGRADE zu ja | ja |
+| Autoverwertung Viersen | Viersen | https://autoverwertung-viersen.top | Schrottauto-Ankauf/Entsorgung | ja (Auto) |
+| El-Lahib / Lahib (Familie; inkl. „Lahib HB“) | Herne (Hermannstr. 16 / Emscherstr. 86) + Bochum | https://schrott-lahib.jimdosite.com | NE-/Eisen-/E-Motoren-Ankauf (Jimdo), AV Mahmod El-Lahib Bochum — Klärfall aufgelöst: ein Familienverbund | ja |
+| PC-Schrott 24 | Troisdorf, Am Senkelsgraben 26, 53842 (Vorlage: Adam-Riese-Str. 13a; 01577 5305555, 11880/Cylex) | keine Website verifiziert | E-Schrott/Computerschrott („Schrotthändler“ lt. Cylex), Entsorgungsbetrieb — E-Schrott-Aufnahme belegt, Ankauf unbelegt | unklar |
+| Weee & Pm rec Management GmbH | Münster, Parkallee 40, 48155 | keine Website verifiziert | HRB 19684 AG Münster, aktiv (Gründung 2021); WEEE (= E-Schrott) + PM (= Edelmetalle) im Namen, Branchen Großhandel/Unternehmensberatung — E-Schrott-Indiz, kein Ankaufbeleg | unklar |
+| Johny | Duisburg-Ruhrort | keine Website verifiziert | Schrott (GS) | unklar |
+| Halan | Wuppertal-Unterbarmen | keine Website verifiziert | Schrott (GS) | unklar |
+| JASARI | Wuppertal-Ostersbaum | keine Website verifiziert | Schrott + Demontage (GS) | unklar |
+| Schrottabholung (Stolzestr. 25) | Köln | keine Website verifiziert | Abholung (GS) | unklar |
+| A.F. Altleben | Köln-Mülheim | keine Website verifiziert | Schrott (GS) | unklar |
+| VelBo | Düsseldorf-Reisholz | keine Website verifiziert | Schrott (GS) | unklar |
+| Adam | Düsseldorf-Gerresheim | keine Website verifiziert | Schrott (GS) | unklar |
+| MARIUS | Krefeld-Dießem | keine Website verifiziert | Schrott (GS) | unklar |
+| Hill (Aloys Hill) | Krefeld, Moerser Str. 220 (lt. D7) | keine Website verifiziert | Schrott (GS) | unklar |
+| Dormagen Moo | Dormagen | keine Website verifiziert | Schrott (GS) | unklar |
+| Dormagen Horrem | Dormagen | keine Website verifiziert | Schrott, 44 Bewertungen (GS) | unklar |
+| Weiss | Dormagen | keine Website verifiziert | Schrott (GS) | unklar |
+| Franz Gawor | Paderborn | keine Website verifiziert | RohProd. (GS) | unklar |
+| Jennebach Peter | Paderborn-Schloß Neuhaus | keine Website verifiziert | Schrott (GS, Jennebach-Familie) | unklar |
+| Maikis Garage | Salzkotten | keine Website verifiziert | Kfz + Altmetall (GS) | unklar |
+| Schrott Paul | Delbrück-Boke | keine Website verifiziert | Schrott (GS) | unklar |
+| Remmert | Geseke | keine Website verifiziert | Schrott (GS) | unklar |
+| Röder | Schloß Holte | keine Website verifiziert | Schrott (GS) | unklar |
+| Gregorz | Augustdorf | keine Website verifiziert | Schrott (GS) | unklar |
+| Krisch | Horn-Bad Meinberg | keine Website verifiziert | Schrott (GS) | unklar |
+| Neuwald | Horn-Bad Meinberg | keine Website verifiziert | Schrott (GS) | unklar |
+| Krusche | Detmold/Lage | keine Website verifiziert | Schrott (GS) | unklar |
+| Schmidt Heinz-Henry | Detmold | keine Website verifiziert | Schrott (GS) | unklar |
+| Schmidt Peter Tino | Detmold | keine Website verifiziert | Schrott (GS) | unklar |
+| Plöger | Detmold | keine Website verifiziert | Schrott (GS) | unklar |
+| Dorozala | Lippstadt | keine Website verifiziert | Schrott (GS) | unklar |
+| DST | Detmold | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Bedow | Lage | keine Website verifiziert | Schrott (GS) | unklar |
+| Linnemann | Warburg | keine Website verifiziert | Schrott (GS) | unklar |
+| Franzkoch | Rheda-Wiedenbrück | keine Website verifiziert | Schrott (GS) | unklar |
+| Bartsch | Gütersloh | keine Website verifiziert | Schrott (GS) | unklar |
+| Jennebach B. | Lemgo | keine Website verifiziert | Schrott (GS, Jennebach-Familie) | unklar |
+| Sasse | Rheda-Wiedenbrück | keine Website verifiziert | Schrott (GS) | unklar |
+| Bargholt | Brakel | keine Website verifiziert | Schrott (GS) | unklar |
+| Pannhorst | Gütersloh | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Teutenenber | Rüthen | keine Website verifiziert | Entrümpler (GS) | unklar |
+| Schmidt Paul | Gütersloh | keine Website verifiziert | Schrott (GS) | unklar |
+| Jennebach Ewald | Borgentreich | keine Website verifiziert | Schrott (GS, Jennebach-Familie) | unklar |
+| Ossenbrink | Gütersloh | keine Website verifiziert | Schrott (GS) | unklar |
+| GMG | Gütersloh | keine Website verifiziert | Schrott (GS) | unklar |
+| M und O | Rheda-Wiedenbrück | keine Website verifiziert | mobil (GS) | unklar |
+| Pfleging | Rheda-Wiedenbrück | keine Website verifiziert | Schrott (GS) | unklar |
+| Wiche | Borgentreich | keine Website verifiziert | Schrott (GS) | unklar |
+| Pero's | Bielefeld | keine Website verifiziert | Entrümpler (GS) | unklar |
+| Der Schrottprofi | Lemgo | keine Website verifiziert | Schrott (GS) | unklar |
+| Brüderich | Bielefeld | keine Website verifiziert | Schrott (GS) | unklar |
+| Wulfhorst | Borgentreich | keine Website verifiziert | AV (GS) | unklar |
+| Kretzschmann | Bielefeld | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Hilgenberg | Bad Salzuflen | keine Website verifiziert | Schrott (GS) | unklar |
+| Nahrwold | Barntrup | keine Website verifiziert | Schrott (GS, Nahrwold-Verbund) | unklar |
+| Leßel | Herford | keine Website verifiziert | Schrott (GS) | unklar |
+| Chow S. | Minden | keine Website verifiziert | mobil (GS) | unklar |
+| Möller | Minden | keine Website verifiziert | mobil (GS) | unklar |
+| Pold | Minden | keine Website verifiziert | mobil (GS) | unklar |
+| Chow Christian | Minden | keine Website verifiziert | mobil (GS) | unklar |
+| Sander | Porta Westfalica | keine Website verifiziert | Schrott (GS) | unklar |
+| Wiese | Porta Westfalica | keine Website verifiziert | Schrott (GS) | unklar |
+| Janus | Bünde | keine Website verifiziert | mobil (GS) | unklar |
+| Nahrwold & Lehmeier | Extertal | keine Website verifiziert | Schrott, Verbund (GS, Nahrwold-Verbund) | unklar |
+| Wüppenhorst | Stemwede | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Jennebach Axel | Petershagen | keine Website verifiziert | mobil, Jennebach-Familie (GS) | unklar |
+| Eiles | Bielefeld-Sennestadt | keine Website verifiziert | Schrott (GS) | unklar |
+| RHM | Mülheim, Rheinstr. 141 | keine Website verifiziert | Schrott (GS) | unklar |
+| Rohstoff Recycling | Bergheim | keine Website verifiziert | Schrott (GS) | unklar |
+| RRK | Bedburg | keine Website verifiziert | Schrott (GS) | unklar |
+| Pickavé | Oberhausen | keine Website verifiziert | Schrott (GS) | unklar |
+| Putzke | Hagen | keine Website verifiziert | Schrott (GS) | unklar |
+| Gebrüder Dubovic | Gladbeck | keine Website verifiziert | mobil (GS) | unklar |
+| Krauß | Bergisch Gladbach | keine Website verifiziert | Schrott (GS) | unklar |
+| Blum | Bergisch Gladbach | keine Website verifiziert | Schrott (GS) | unklar |
+| Rehbach | Bergisch Gladbach | keine Website verifiziert | Schrott (GS) | unklar |
+| Peters | Bergisch Gladbach | keine Website verifiziert | Schrott (GS) | unklar |
+| Adrijan | Bottrop | keine Website verifiziert | mobil (GS) | unklar |
+| Hering | Hamm | keine Website verifiziert | Schrott (GS) | unklar |
+| Heimbuch | Hamm | keine Website verifiziert | Schrott (GS) | unklar |
+| Entschrotter | Köln | keine Website verifiziert | Schrott (GS) | unklar |
+| Alpha Recycling | Münster | keine Website verifiziert | mobil (GS) | unklar |
+| Alteisen Hoss | Nettetal | keine Website verifiziert | Schrott (GS) | unklar |
+| Altfeld | Gevelsberg | keine Website verifiziert | Schrott, mögl. Verbund Altfeld KG Ennepetal (Seed) (GS) | unklar |
+| Altmetall-Deniz | Herne | keine Website verifiziert | mobil (GS) | unklar |
+| Ducoffre | Bedburg | keine Website verifiziert | Schrott (GS) | unklar |
+| Alwidian | Witten | keine Website verifiziert | mobil (GS) | unklar |
+| VB | Witten | keine Website verifiziert | mobil (GS) | unklar |
+| AM Alt Metall | Gronau | keine Website verifiziert | Schrott (GS) | unklar |
+| ASH | Lüdinghausen | keine Website verifiziert | Schrott (GS) | unklar |
+| Ates | Hagen | keine Website verifiziert | mobil (GS) | unklar |
+| Trapp | Werl | keine Website verifiziert | Schrott (GS) | unklar |
+| BRELO | Werl | keine Website verifiziert | Schrott (GS) | unklar |
+| BRH | Bochum | keine Website verifiziert | Schrott (GS) | unklar |
+| AuDie 24 | Gronau | keine Website verifiziert | Schrott, unklar (GS) | unklar |
+| Mairitsch | Unna | keine Website verifiziert | AV (GS) | ja (Auto) |
+| Prager | Duisburg | keine Website verifiziert | Unfallwagen-Ankauf (GS, s. D7) | unklar |
+| A-Z | Westerkappeln | keine Website verifiziert | Entrümpler (GS) | unklar |
+| Baykal | Duisburg | keine Website verifiziert | mobil (GS) | unklar |
+| Beck | Selm | keine Website verifiziert | mobil (GS) | unklar |
+| Blecher | Iserlohn | keine Website verifiziert | Schrott (GS) | unklar |
+| Kettig | Iserlohn | keine Website verifiziert | Schrott (GS) | unklar |
+| Kinze | Hemer (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Blömeke | Bochum | keine Website verifiziert | Hinterhof-Typ (GS) | unklar |
+| Bogner & Bogner | Essen | keine Website verifiziert | Schrott (GS) | unklar |
+| Brauckmann | Essen | keine Website verifiziert | mobil (GS) | unklar |
+| B&V | Köln | keine Website verifiziert | mobil (GS) | unklar |
+| Klapp | Hagen | keine Website verifiziert | Schrott (GS) | unklar |
+| Duda | Herne | keine Website verifiziert | Schrott (GS) | unklar |
+| Coskan | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| D&C | Bottrop | keine Website verifiziert | Schrott (GS) | unklar |
+| DEGOMET | Balve (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Nahmer | Mülheim | keine Website verifiziert | Schrott (GS) | unklar |
+| Bittsching | Mülheim | keine Website verifiziert | Schrott (GS) | unklar |
+| Metall Entsorger | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| Franssen | Bonn | keine Website verifiziert | mobil (GS) | unklar |
+| Ausmister | Hagen | keine Website verifiziert | Entrümpler (GS) | unklar |
+| Schäfer | Lünen | keine Website verifiziert | mobil (GS) | unklar |
+| Krohn | Lünen | keine Website verifiziert | Schrott (GS) | unklar |
+| Lüner | Lünen | keine Website verifiziert | Schrott (GS) | unklar |
+| Schrottladys | Essen | keine Website verifiziert | mobil (GS) | unklar |
+| Nimmermann | Altena (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Driesch | Heinsberg | keine Website verifiziert | Schrott (GS) | unklar |
+| Eco | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| Eddys | Coesfeld | keine Website verifiziert | mobil (GS) | unklar |
+| EIE | Essen | keine Website verifiziert | Schrott (GS) | unklar |
+| L.G.R. | Essen | keine Website verifiziert | Schrott (GS) | unklar |
+| Fritsch | Hagen | keine Website verifiziert | Schrott (GS) | unklar |
+| Schneider | Düren | keine Website verifiziert | Schrott (GS) | unklar |
+| Schäfer | Würselen | keine Website verifiziert | Schrott (GS) | unklar |
+| Motter | Stolberg | keine Website verifiziert | Schrott (GS) | unklar |
+| Alsleben | Leverkusen | keine Website verifiziert | mobil (GS) | unklar |
+| Entsorgung Punkt DE | Köln | keine Website verifiziert | 0800-Typ, unklar (GS) | unklar |
+| ERB | Hagen | keine Website verifiziert | mobil (GS) | unklar |
+| Tostmann | Düren | keine Website verifiziert | mobil, Tostmann-Familie (GS) | unklar |
+| Hartl | Hürth | keine Website verifiziert | Schrott (GS) | unklar |
+| Fitz | Schwelm | keine Website verifiziert | Schrott (GS) | unklar |
+| Ahrens | Schwelm | keine Website verifiziert | Schrott (GS) | unklar |
+| Steuckmann | Plettenberg (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| HERZHOFF | Plettenberg (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Vierschilling/Arens | Plettenberg (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Führer | Ibbenbüren | keine Website verifiziert | Schrott (GS) | unklar |
+| Gantzkow | Herten | keine Website verifiziert | Schrott (GS) | unklar |
+| HSH | Herten | keine Website verifiziert | Schrott (GS) | unklar |
+| Gärtner | Bergheim/Frechen | keine Website verifiziert | mobil (GS) | unklar |
+| Ready | Bergkamen | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Marler Schrotthandel | Marl | keine Website verifiziert | mobil (GS) | unklar |
+| Holz-Fehlings | Marl | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Meisterjahn | Menden | keine Website verifiziert | Meisterjahn-Familie (s. Gebrüder Meisterjahn R2) (GS) | unklar |
+| Schulte/Hotko | Lüdenscheid (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Reininghaus | Lüdenscheid (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Krämer | Schalksmühle (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Niebuhr | Schalksmühle (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Metal Partner | Köln | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Wolf | Castrop-Rauxel | keine Website verifiziert | mobil (GS) | unklar |
+| König | Castrop-Rauxel | keine Website verifiziert | Schrott (GS) | unklar |
+| MRA | Vreden | keine Website verifiziert | Schrott (GS) | unklar |
+| Müller | Münster | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Müller (Kabelstr.) | Mönchengladbach, Kabelstr. | keine Website verifiziert | Schrott; kein Müller-BW in NW (GS) | unklar |
+| Müller | Leichlingen | keine Website verifiziert | Schrott (GS) | unklar |
+| Nachtigäller | Ennigerloh | keine Website verifiziert | mobil (GS) | unklar |
+| WS | Ennigerloh | keine Website verifiziert | mobil (GS) | unklar |
+| Öcher Schrottmännchen | Aachen | keine Website verifiziert | mobil (GS) | unklar |
+| Puffahrt | Bottrop | keine Website verifiziert | Schrott (GS) | unklar |
+| Özpay | Essen | keine Website verifiziert | mobil (GS) | unklar |
+| Plum Franz | Alsdorf | keine Website verifiziert | Schrott, mögl. Plum-Familie (GS) | unklar |
+| Nattermann | Gelsenkirchen | keine Website verifiziert | Schrott (GS) | unklar |
+| RCS Schrotthandel / Schrotthandel NRW Bots GmbH | Moers-Hülsdonk, Weyerstr. 9 | keine Website verifiziert | 1 Adresse, 2 Namen (s. D1) — 1 Zeile (GS) | unklar |
+| S&M | Moers | keine Website verifiziert | mobil (GS) | unklar |
+| Liesegang | Erftstadt | keine Website verifiziert | Schrott (GS) | unklar |
+| Reichwald | Erftstadt | keine Website verifiziert | Schrott (GS) | unklar |
+| Budnik | Arnsberg (Sauerland) | keine Website verifiziert | Schrott (GS) | unklar |
+| Toufaily | Arnsberg | keine Website verifiziert | Schrott (GS, mobil-Typ) | unklar |
+| Matthies | Hagen | keine Website verifiziert | Schrott (GS) | unklar |
+| Peters | Viersen | keine Website verifiziert | Schrott (GS) | unklar |
+| Dais | Viersen | keine Website verifiziert | Schrott (GS) | unklar |
+| Scholz Allroundservice | Düren | keine Website verifiziert | mobil; ausdrücklich NICHT Scholz Recycling (Seed Grevenbroich) (GS) | unklar |
+| Schrott.0rg | Herne | keine Website verifiziert | mobil (GS) | unklar |
+| Abholen NRW | Herne | keine Website verifiziert | mobil (GS) | unklar |
+| schrottabholung24 | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| Fix | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| H&L | Herne | keine Website verifiziert | mobil (GS) | unklar |
+| Bochum-Umgebung | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| Schrottfüchse | Herne | keine Website verifiziert | mobil (GS) | unklar |
+| gegen-cash | Herne | keine Website verifiziert | mobil (GS) | unklar |
+| A&R | Dülmen | keine Website verifiziert | Schrott, A&R-Verbund (Seed Dortmund + R3 Lippstadt) (GS) | unklar |
+| Bimm | Mönchengladbach | keine Website verifiziert | mobil (GS) | unklar |
+| Gilberg | Köln | keine Website verifiziert | mobil (GS) | unklar |
+| Reimann | Köln | keine Website verifiziert | Schrott (GS) | unklar |
+| Maaskersting | Köln | keine Website verifiziert | mobil (GS) | unklar |
+| Gündell | Hagen | keine Website verifiziert | Schrott (GS) | unklar |
+| Boxbücher | Kerpen | keine Website verifiziert | mobil (GS) | unklar |
+| Kiel | Langerwehe | keine Website verifiziert | mobil (GS) | unklar |
+| Schrotthandel Dortmund (Kressenweg) | Dortmund | keine Website verifiziert | mobil; ≠ schrotthaendler-dortmund.com (GS) | unklar |
+| Baer | Korschenbroich | keine Website verifiziert | mobil (GS) | unklar |
+| König | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| Sumo | Herne | keine Website verifiziert | mobil (GS) | unklar |
+| SWD | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| Piotrowski | Gevelsberg | keine Website verifiziert | mobil (GS) | unklar |
+| Weiß | Gevelsberg | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Grün & Mücher | Gevelsberg | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Vebro | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| Wolter | Mönchengladbach | keine Website verifiziert | Schrott (GS) | unklar |
+| UHS | Mönchengladbach | keine Website verifiziert | Schrott (GS) | unklar |
+| Birker | Mönchengladbach | keine Website verifiziert | Schrott (GS) | unklar |
+| Kreggenwinkel | Mönchengladbach | keine Website verifiziert | Schrott (GS) | unklar |
+| Entsorgungsprofi | Mönchengladbach | keine Website verifiziert | mobil (GS) | unklar |
+| Wilms | Niederkrüchten | keine Website verifiziert | mobil (GS) | unklar |
+| Derda | Hagen | keine Website verifiziert | Schrott (GS) | unklar |
+| Mock | Hagen | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Schellhas | Hagen | keine Website verifiziert | Schrott (GS) | unklar |
+| ZIMAHMO | Hagen | keine Website verifiziert | mobil (GS) | unklar |
+| Sema-Brenntechnik | Duisburg | keine Website verifiziert | Brenntechnik, Ankauf fraglich (GS) | unklar |
+| Güthmann | Harsewinkel | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Skibinski | Wettringen | keine Website verifiziert | Schrott (GS) | unklar |
+| Steinhaus | Pulheim | keine Website verifiziert | Schrott (GS) | unklar |
+| Schüttler | Essen | keine Website verifiziert | mobil (GS) | unklar |
+| TA | Solingen | keine Website verifiziert | mobil (GS) | unklar |
+| Taurus | Bochum | keine Website verifiziert | mobil (GS) | unklar |
+| Seliger | Essen | keine Website verifiziert | Schrott (GS) | unklar |
+| Schmidt | Langenfeld | keine Website verifiziert | Schrott (GS) | unklar |
+| Voskuhl | Münster | keine Website verifiziert | Schrott (GS) | unklar |
+| Robering | Münster | keine Website verifiziert | Schrott (GS) | unklar |
+| Bindemann | Münster | keine Website verifiziert | mobil (GS) | unklar |
+| G&S | Münster | keine Website verifiziert | mobil (GS) | unklar |
+| HR | Münster | keine Website verifiziert | Schrott (GS) | unklar |
+| Welsch | Bornheim | keine Website verifiziert | Schrott (GS) | unklar |
+| Schwarzaugen | Essen | keine Website verifiziert | mobil (GS) | unklar |
+| Meinrich | Essen | keine Website verifiziert | Schrott (GS) | unklar |
+| Sackenreuther | Essen | keine Website verifiziert | Schrott (GS) | unklar |
+| Köllner | Essen | keine Website verifiziert | Schrott (GS) | unklar |
+| Pytka | Schwerte | keine Website verifiziert | mobil (GS) | unklar |
+| Theissen | Oberhausen | keine Website verifiziert | Kleintransport (GS) | unklar |
+| Hohlfeld | Rheine | keine Website verifiziert | Schrott (GS) | unklar |
+| Lohmann | Emsdetten | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Putzer | Telgte | keine Website verifiziert | Schrott (GS) | unklar |
+| Küsters | Selfkant | keine Website verifiziert | Schrott (GS) | unklar |
+| Lente/Habedank | Hattingen | keine Website verifiziert | Schrott (GS) | unklar |
+| Lettmann | Haltern | keine Website verifiziert | Schrott (GS) | unklar |
+| Rodemann | Duisburg | keine Website verifiziert | Schrott (GS) | unklar |
+| KB | Erkelenz | keine Website verifiziert | mobil (GS) | unklar |
+| Tabaka | Kamen | keine Website verifiziert | Schrott (GS) | unklar |
+| Hoppe | Brüggen | keine Website verifiziert | Schrott (GS) | unklar |
+| Mar. Schrottabholung | Gummersbach | keine Website verifiziert | mobil (GS) | unklar |
+| Metallhandel Akawad | Gummersbach | keine Website verifiziert | mobil (GS) | unklar |
+| Prison Nikolaus | Köln | keine Website verifiziert | Prison-Verbund (Seed Essen + SMC GE + M. Prison Wesel) (GS) | unklar |
+| Prison Wetschewell | Mönchengladbach | keine Website verifiziert | mobil, Prison-Verbund (GS) | unklar |
+| P&P Bender | Neuss | keine Website verifiziert | Schrott, Bender-Verbund fraglich (BENDER Seed Leverkusen ohne Neuss-Beleg) (GS) | unklar |
+| Stainless Alloys | Dortmund | keine Website verifiziert | B2B-Legierungen (GS) | unklar |
+| Steffens | Ense | keine Website verifiziert | Schrott (GS) | unklar |
+| Westschrott | Mülheim | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
+| Barth | Dinslaken | keine Website verifiziert | Antiquitäten + Metall (GS) | unklar |
+| Mrad | Lippstadt | keine Website verifiziert | Schrott (GS) | unklar |
+| Warnecke | Oelde | keine Website verifiziert | Schrott (GS) | unklar |
+| Westarp | Beckum | keine Website verifiziert | Schrott (GS) | unklar |
+
+Behalten gesamt: 286 (36 mit Website, 250 GS-only). Bereits erfasst (kein Neueintrag, nicht gezählt): Engels Duisburg-Rumeln (= R4e), Lippert/Nöcke/Knorrn/Gipperich/Metalliant/H+S (= R4e), Käthe Koch + Steeldeal (= R4e), PRO SCHROTT 100 (= R4e), Stahl-/Rohstoffverwertung (= R4e), Engel Brilon + Oswald Mechernich (= R4e), M. Prison Wesel (= R4e), Lemke + Traut (= R4c/R3), Müller Kreuztal/MG/Köln/Sprockhövel (= R3), Schrottabholung Krefeld + Nam Bocholt + Hansen/Jack Wesel + Mulaj + Kaß Salzkotten (= R3), Klaus Schmitz Zülpich (= Seed, s. Rejects).
+
+### (2) Rejects (Name + Grund)
+
+- Mückenhaupt Delbrück — wahrsch. Seed-Duplikat (Adolf Mückenhaupt GmbH & Co. KG, Delbrück).
+- Schmitz Zülpich — Seed-Duplikat (Klaus Schmitz Schrottabholung).
+- Gometall Düsseldorf-Hafen — Domains tot (kein Connect, kein DNS).
+- köln-schrottabholung Niehl — Web offline (lt. Vorlage).
+- schrottabholung-exklusiv Gelsenkirchen — Domain ohne DNS (tot); kein Bezug zu Seed-Eintrag Schrottankauf Exclusiv Herne.
+- A.L. Düsseldorf-Eller — nur Altauto-Beleg, kein Schrottbeleg.
+- auto defekt verkaufen Dani Derendorf — reiner Autoankauf (Kleinanzeigen-Typ), kein Schrottplatz-Beleg.
+- Schmittenstr. Hürth — nur Straßenname, kein Firmenbeleg.
+- Recklinghausen (? 0800) — kein Firmenname.
+- Herten (mobil) — kein Firmenname.
+- Metelen (mobil) — kein Firmenname.
+- KFZ Duisburg (mobil) — kein Firmenname.
+
+### (3) Tote Seed-Websites (nw.json, 130 Domains per curl geprüft)
+
+Echt tot (4): marcusdroste.de (Marcus Droste Dinslaken — kein Connect http+https); recycling-bartikowsky.de (kein DNS); ayaz-metallhandel.de (kein DNS, bereits C12); metall-rm.de (Metall Recycling Münster — HTTP 500). De facto offline: smi-metallrecycling.de (nur /offline/-Platzhalter). Geändert/umgezogen (lebendig): a-z-recycling.de → schrottplatz-münster.de; dutz-entsorgung.de → dutz-recycling.de; grewing-entsorgung.de → p3-entsorgung.de; schrottplatz-essen.de → schrottankauf-in.de; hn-schrott.de → hn-schrott.com; altmetall-haeuser.de + schrottdirektor.de nur per http erreichbar (https tot); schrotthandel.nrw-Pfad /schrottankauf 404 (Root bot-blockiert). vcc-castrop.de jetzt HTTP 200 (vorher Platzhalter). Bot-blockiert ggü. curl, lebendig belegt (kein Handlungsbedarf): eifelerschrotthandel, haumann, jungheim, md-metall, metallankauf-profi, metallhandel-metze, neumann, rva, srh-bocholt, ssg, stienemann, berk, knuemann, gbt, hees, poeppel, pur, schrotthandel-haede, ritschny, steglich, kfz-entsorgen (alle Strato-503; Poeppel + SSG per Alternativ-Egress/Webfetch verifiziert, Rest per R2–R4-Ankaufbeleg).
+
+### (4) Seed-Anreicherungen
+
+- BENDER Recycling GmbH & Co. KG (Seed Leverkusen, https://bender-recycling.de/ — HTTP 200): KEINE Preislisten-Seite gefunden (keine Preis-/Ankauf-Links) → keine URL-Anreicherung möglich.
+- schrotthaendler-dortmund.com: NICHT im Seed enthalten (Vorlagen-Behauptung falsch — im Seed nur TSR-/Poeppel-/A&R-Dortmund) → als Neueintrag in (1), keine Seed-Anreicherung.
+- Rohstoffhandel Rheinland GmbH (bisher R4e-unklar ohne Website): Website https://www.rohstoffhandel-rheinland.de neu verifiziert, UPGRADE auf ja vorgeschlagen (s. (1)).
+- Klärfälle aufgelöst: El-Lahib vs Lahib HB = ein Familienverbund Herne/Bochum (1 Zeile, ja); RCS vs Bots Weyerstr. 9 Moers = 1 Adresse/2 Namen (1 Zeile); Prison-Verbund = Seed Essen + SMC GE + R4e Wesel + neu Nikolaus Köln + Wetschewell MG (Familienverbund, getrennt); A&R = Seed Dortmund + R3 Lippstadt + neu Dülmen; Jennebach = 4 Orte/Familienname; Nahrwold = Barntrup + & Lehmeier Extertal; Missal/Metzler = Seed Zum Oberhof 32 + R3 J. Missal + neu schrott-in-essen.de; Scholz Allroundservice Düren ≠ Scholz Recycling (Seed); Müller Kabelstr. MG eigenständig (kein Müller-BW in NW); P&P Bender Neuss ≠ BENDER Seed (unbelegt); Freialdenhoven vs Schüte & Verstappen Aktienstr. 23 unverifiziert (offen); Altfeld Gevelsberg vs Altfeld KG Ennepetal (Seed) mögl. Verbund (offen); CH = Herholz + Metallion/Häde-Adresskollisionen bleiben offen (C5/C6).

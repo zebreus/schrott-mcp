@@ -219,3 +219,64 @@ Erschöpft (kein weiterer Ertrag ohne Behörden-/Vor-Ort-Zugang):
 - Agrar/Landtechnik: kein BB-Agrarbetrieb mit Schrottankauf gefunden.
 - Das-Telefonbuch Spremberg-/Elbe-Elster-Dörfer: keine Einträge über Runde 2/3 hinaus (Spremberg-Stadt weiter nur Scholz/NE-Metalle/MHM).
 - Websuche blieb intermittierend gestört; Rest über Verzeichnisse + Website-Verifizierung abgedeckt.
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Methodik: alle Kandidaten aus /tmp/opencode/audit/bb.md geprüft. Domain-Verifikation per curl (alle Preislisten-/AV-Domains live, HTTP 200), GS-Gegenprobe Lauchhammer (Dymke) u. Doberlug-Kirchhain, Impressums-Gegenprobe schrott-wagner.de (= Billigheim/BaWü, separat). Filter: KEEP alles mit Schrott-/Metallbezug (privat/B2B/mobil/klein); OUT nur Vorgänger-Duplikat, reine Juweliere ohne Dentalgold-Beleg, reine Autoreparatur. Seed-Sweep: alle 34 Seed-Websites per curl HTTP 200 — keine toten Seed-Seiten.
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Goldhaus BRB | Brandenburg a.d.H., Steinstr. 12 | https://goldhaus-brb.de | Edelmetall, Dentalgold/Zahngold, Goldrechner. PREISLISTE: https://goldhaus-brb.de/goldrechner/ | ja |
+| Goldankauf Potsdam (Trauringstudio) | Potsdam, Brandenburger Str. 26 | https://goldankauf-potsdam.de | Altgold/Bruchgold, Zahngold, Münzen, Hausbesuche | ja |
+| Schrott- und Metallhandel Barkow (Reiner Barkow) | Birkenhain b. Ludwigsfelde | https://schrotthandel-barkow.de | Alt-/Buntmetall, Kabelschrott, Abholung Großbeeren/Ludwigsfelde (seit 1977) | ja |
+| VS-Rohstoffe GmbH | Brandenburg a.d.H., Friedrich-Franz-Str. 11 | keine Website verifiziert | Schrott/Altmetall | unklar |
+| AERIS-Recycling & Dienstleistung GmbH | Brieselang, Zum Wendehammer 7 | keine Website verifiziert | Recycling/Entsorgung | unklar |
+| Recyclog GmbH | Brieselang, Haydnstr. 1 | keine Website verifiziert | Recycling/Entsorgung | unklar |
+| RSO Schrotthandel | Doberlug-Kirchhain, Finsterwalder Str. 17B | keine Website verifiziert | Schrott/Altmetall (Hausnr. 17B ≠ AV Schulze Nr. 17, Nachbaradresse — beide behalten) | unklar |
+| Vollmer Aluminiumhandel GmbH | Eberswalde | keine Website verifiziert | Aluminium/Metall, eher B2B | unklar |
+| Wagner Schrott- & Metallhandel | Falkensee, Barkhausenstr. 75 | keine Website verifiziert | Schrott/Buntmetall (schrott-wagner.de = separater BaWü-Betrieb, Billigheim/Neckarelz) | unklar |
+| Steffen Hidanovic SH Schrotthandel | Lübben, Kleinbahnstr. | keine Website verifiziert | Schrott/Altmetall (mögl. Familienbezug HSR/Hidanovic u. SMR-GF Dr. Arnim Preuss — Import-Abgleich) | unklar |
+| Dymke Timo e.K. | Lauchhammer, Dolsthaidaer Str. 45 | keine Website verifiziert | Schrott/Altmetall (GS-verifiziert; 11880-Zweitadresse Bockwitzer Str. 97 überholt — ein Betrieb) | ja |
+| WSH Schrotthandel | Lauchhammer, Bockwitzer Str. 97 | keine Website verifiziert | Schrott (eigene Adresse ≠ Dymke — separater Eintrag) | unklar |
+| Husic | Großräschen, Karl-Marx-Str. 18 | keine Website verifiziert | Schrott | unklar |
+| PSR Schrotthandel und Containerdienst | Prenzlau, Brüssower Allee 90 | keine Website verifiziert | Schrott/Container (≠ ZIEMS Grabowstr. 52/Seed; Adresse = Benzin-Paul-Beleg — Import-Abgleich) | unklar |
+| Kaden Schrottabholung – Demontagen | Stahnsdorf, Ruhlsdorfer Str. 95 | keine Website verifiziert | mobiler Schrottankauf/Demontage | unklar |
+| Schmeissel Reinhard | Wiesenburg/Mark, Görzker Str. 46 | keine Website verifiziert | Schrott | unklar |
+| Simon GbR Lindenberg | Tauche OT Lindenberg, Bahnhofstr. 7a | keine Website verifiziert | Schrott/Container | ja |
+| Schrottlieb | Lichtenow, Chausseestr. 22A | keine Website verifiziert | Schrott (dünner Beleg, GS 0 — behalten mit Abgleich-Vermerk) | unklar |
+| Burbott Detlef | Rathenow, Milanweg 7 | keine Website verifiziert | Schrott (Branche dünn belegt — behalten) | unklar |
+| Utmar-Koch Ralf | Storkow, Robert-Koch-Str. 24 | keine Website verifiziert | Schrott (dünn belegt — behalten) | unklar |
+| Winter Walter | Golßen, Hauptstr. 23 | keine Website verifiziert | Schrott | unklar |
+| MG Handel AG | Wildau, An der Mensa | keine Website verifiziert | Metallhandel (dünn belegt — behalten) | unklar |
+| MRJ Metallrecycling AV | Potsdam, Ahornstr. 28-32 | keine Website verifiziert | Autoverwertung/Metallrecycling | ja |
+| Autoverwertung Cottbus | Cottbus, Laubenhof 9 | https://autoverwertung-cottbus.de | Unfall-/Schrottautos, kostenlose Abholung, Online-Bewertung | ja |
+| AV-Parts TiHe GmbH | Eberswalde, Bahnhofstr. 33 | https://av-parts.de | AV/Ersatzteile, zert. Entsorgungsfachbetrieb, Fahrzeugankauf bis Totalschaden | ja |
+| Autoverwertung Ludwigsfelde | Ludwigsfelde, Märkersteig 18-22 | https://autoverwertung-ludwigsfelde.de | AV/Ersatzteile/Werkstatt | ja |
+| Graunke (M. Segeth) | Fürstenwalde, Karl-Liebknecht-Str. 30 | https://autoverwertung-graunke.de (leitet auf eBay-Shop avw-graunke weiter) | AV/Ersatzteile, nur eBay-Präsenz | unklar |
+| Ramm Klinkow GbR | Prenzlau OT Klinkow, Am Quillow 38 | keine Website verifiziert | Autoverwertung | ja |
+| Zeestow (AV) | Brieselang OT Zeestow, Gewerbering 23 | keine Website verifiziert | Autoverwertung | ja |
+| Niederbarnimer Autoverwertungs- u. Handels GmbH | Liebenwalde, Ladestr. 2 | keine Website verifiziert | Autoverwertung | ja |
+| Schulze (AV) | Doberlug-Kirchhain, Finsterwalder Str. 17 | keine Website verifiziert | Autoverwertung (Nachbar-Nr. zu RSO 17B — beide behalten) | ja |
+| Wildt (Constanze Wildt) | Fehrbellin OT Protzen, Mühlenbergstr. 8 (auch Neuruppin) | https://autoverwertung-wildt.de | AV/Abschlepp, Entsorgungsfachbetrieb (Genehmigung 1994, Zert. 1998) | unklar |
+| Recycling Center Zauchwitz GmbH | Beelitz OT Zauchwitz, Trebbiner Str. 83 | keine Website verifiziert | AV/Recycling | ja |
+| Zimmermann Carmen | Heidesee, Wenzlower Str. 7 | keine Website verifiziert | AV/Fuhrbetrieb | ja |
+| Radke Ulrich | Lauchhammer, Windmühlenstr. 21 | keine Website verifiziert | Autoverwertung | ja |
+| Wolf (Abschleppdienst) | Wandlitz, Zühlsdorfer Str. 5 | keine Website verifiziert | AV/Abschlepp | ja |
+| Krüger Jochen (AV) | Wiesenau, Am Pottack 1 | keine Website verifiziert | Autoverwertung (Schwesteradresse Krüger Metallhandel Am Pottack 2/Seed — Familienyard, Import-Abgleich) | unklar |
+| Kielow Eberhard | Drebkau, Schorbus-Ausbau 1 | keine Website verifiziert | AV/Kfz-Entsorgung | ja |
+| Daiko Kfz-Recycling (Ali Sensecer) | Wandlitz, Zehnpfuhlweg 3 | keine Website verifiziert | Autoverwertung | unklar |
+| Cottbuser Goldankauf (Krasulsky) | Cottbus, Karl-Liebknecht-Str. 16 | keine Website verifiziert | Gold-/Silberwaren, Goldankauf | ja |
+
+Rejects (kein Import):
+- Zehdenicker Schrott- und Metallhandels GmbH (Zehdenick, Am Bahnhof Neuhof) — Vorgängerbetrieb, seit 1/2025 in Ernst Recycling (Seed) aufgegangen.
+- Juwelier Goldmann (Potsdam-Babelsberg, Rudolf-Breitscheid-Str. 31) — reiner Juwelier, kein Schrott-/Dentalgold-Beleg.
+- Behrendt Schmuckboutique (Rathenow, Goethestr. 76) — reines Schmuckgeschäft, kein Ankauf-Beleg.
+- Kaliner (Beeskow, Radinkendorfer Str. 60a) — nur Autoreparaturen belegt, keine AV-/Schrott-Tätigkeit.
+
+Tote Seed-Websites: keine (alle 34 Seed-Domains per curl HTTP 200, inkl. Weiterleitungen http→https, www→apex, shschrotthandel.de→smr-luebben.de).
+
+Seed-Anreicherungen (kein md2seed-Lauf):
+- MC Schrott Brandenburg = Betreiber Christian Carla, Bauhofstr. 36.
+- HSR Herzberg = Hidanovic GmbH, Wehrhainer Neue Str. 25, 04936 Schlieben.
+- ALBA Döberitz = Am Hafen 22, 14727 Premnitz.
+- SMR (Seed, Fürstenwalde-Eintrag): shschrotthandel.de leitet auf https://smr-luebben.de/ weiter (SMR GmbH Spreewälder Metall Recycling, GF Dr. Arnim Preuss, Mühlbergweg 10, 15907 Lübben-Neuendorf). PREISLISTE: https://smr-luebben.de/smr-preise/ (+ Schrottrechner/App).

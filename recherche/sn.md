@@ -449,3 +449,96 @@ Recycling/Freiberg), Solar-Retry via Handelsregister (northdata) und Domain-Reve
   Kat-/Platinen-/Hartmetall-SN-Spezialisten weiter ohne HR-Beleg → Negative aus 3b bleiben.
 - Domain-Reverify (curl, 37 SN-Domains): alle HTTP-200 außer schrott-winter.de (tot) und
   schrotthandel-kamenz.de (Spam-Redirect, re-verifiziert).
+
+## Nachtrag Audit-Runde 4 (27.09.2026) – Kandidaten-Audit (Schlussfilter)
+
+Audit der ~60 Kandidaten aus /tmp/opencode/audit/sn.md. Verifiziert per curl
+(DINTER, Meister, MAZ, schrott-stark.de, alle Seed-Domains) und Gelbe-Seiten-Abruf
+je Ort (Websearch-Tool 401, DDG/Bing/Yandex blockiert). Filter: KEEP alles mit
+Schrott-/Metallankauf (privat, B2B, Gewerbe-only, mobil, Kleinstbetriebe); Ankauf
+"ja" nur mit Beleg (eigene Website mit Ankauf oder GS-Branche Schrott + Adresse),
+sonst "unklar"; AV-only = "nur Altauto". Seed-Einträge (John/Schanko/Kälberer/TSR)
+nicht dupliziert, nur Enrichments (s. unten).
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| DINTER Kabelrecycling | Leipzig 04103, Goldschmidtstr. 28a | https://www.dinter-kabelrecycling.de | Kupfer-/Kabelschrott, Granulieranlage, Abholung SN/ST/TH, Tagespreise | ja |
+| Meister Kabelrecycling GmbH | Plauen 08525, Am Stadtwald 10 | https://meister-kabelrecycling.de | Kabelschrott/Buntmetall, An- und Verkauf, Demontage | ja |
+| MAZ Metallaufbereitung Zwickau (Metal Processing Ltd) | Zwickau | https://maz-zwickau.com | B2B-Metallhandel/Schrott, Großmengen, europaweit | ja |
+| Schrottentsorgung Leipzig | Leipzig 04347, Fritz-Siemon-Str. 26 | keine Website verifiziert | Schrott | unklar |
+| Gebr. Büchner GmbH | Leipzig 04316, Am Bahndamm 8 | keine Website verifiziert | Schrott/Container/Transport | unklar |
+| Papiermännchen-Wertstoffhandel GmbH | Leipzig 04288, Hauptstr. 22 | keine Website verifiziert | Wertstoffhandel (v.a. Papier?) | unklar |
+| Wiedemann Wertstoffhandel & Gärtnerei | Leipzig 04288, Liebertwolkwitzer Str. 49 | keine Website verifiziert | Wertstoffhandel | unklar |
+| Freund Thomas AV | Leipzig 04288, Händelstr. 24 | keine Website verifiziert | AV | nur Altauto |
+| Six Cars GbR AV | Leipzig 04158, Parkring 14 | keine Website verifiziert | AV | nur Altauto |
+| Richter (Inh. Mario Kuhn) AV | Leipzig 04347, Rackwitzer Str. 50-52 | keine Website verifiziert | AV | nur Altauto |
+| Schrott-Stark e.K. (Matthias Stark) | Markneukirchen 08258 | keine Website verifiziert (schrott-stark.de = Canva-Placeholder ohne Inhalt) | Schrott | unklar |
+| Jahnsmüller und Spranger | Schöneck 08261, Raasdorfer Str. 10 | keine Website verifiziert | Schrott (Spektrum unbelegt) | unklar |
+| Körner Schrott/Container | Klingenthal 08248, Markneukirchner Str. 70 | keine Website verifiziert | Schrott/Container/Waschanlage/Reifen (≠ Euro-Metall Körner Werdau, Seed) | unklar |
+| Rau Rita und Joachim | Rodewisch 08228, Wernesgrüner Str. 29 | keine Website verifiziert | Schrott/Kompostierung | unklar |
+| Schrott Dietrich/Frank/Matthias (Fam., 1 Betrieb, 3 GS-Einträge) | Netzschkau 08491, Schützenstr. 26 | keine Website verifiziert | Schrott (3 separate GS-Einträge, Tel. 03765 34546/36578/64404) | unklar |
+| Containerdienst Kaminski & Sohn GbR | Kirchberg 08107, Auerbacher Str. 70A | keine Website verifiziert | Container/Schrott | unklar |
+| R u. S Kabel-, Buntmetallrecycling | Nordsachsen, Kroppentalstr. 40a (Ort/PLZ offen) | keine Website verifiziert | Kabel/Buntmetall | unklar |
+| Siedhoff & Tomasello GmbH AV | Plauen 08523, Leuchtsmühlenweg 36 | keine Website verifiziert | AV + Abschlepp | nur Altauto |
+| Indyka Thomas AV | Adorf 08626, Remtengrüner Weg 10 | keine Website verifiziert | AV/Abschlepp | nur Altauto |
+| Hänsel AV | Hohnstein 01848 | keine Website verifiziert | AV | nur Altauto |
+| Neumann Wilfried AV | Dürrröhrsdorf-Dittersbach 01833 | keine Website verifiziert | AV/Autorecycling | nur Altauto |
+| Sewzyk Heiko Papier-/Schrothandel | Meißen 01662, Ossietzkystr. 37A | keine Website verifiziert | Schrott/Altmetall | unklar |
+| Grunwald Walter Schrotthandel | Nünchritz 01612, Müllerstr. 8 | keine Website verifiziert | Schrott | unklar |
+| Metallhalle Schrottmax / Dienstleistungsservice (1 Betrieb, 2 GS-Einträge) | Thiendorf 01561, Zur Brüdergemeinde 4B | keine Website verifiziert | Schrott (Tel. 035248 81226/88991) | unklar |
+| Eisen- und Metallhandel GmbH | Dresden 01139, Treidlerstr. 3 | keine Website verifiziert | Metallhandel | unklar |
+| Rich. Herbig Metallhandel Sachsen GmbH | Dresden 01156, Gompitzer Höhe 1 | keine Website verifiziert | Metallhandel (B2B) | unklar |
+| Quast GmbH AV (Dresden + Raum Kamenz, 1 Firma) | Dresden 01328, Pirnaer Str. 97A; auch Raum Kamenz (Landstr. 48) | keine Website verifiziert | AV | nur Altauto |
+| Autohof Dohnaer Straße | Dresden 01257, An der Niedermühle 1 | keine Website verifiziert | Autohof/AV? | unklar |
+| KcK Containerdienst Kupfer (Jeannine Döge) | Hartmannsdorf 09232, Hainweg 24 | keine Website verifiziert | Container/Kupfer | unklar |
+| Sieber Gerd Metallrecycling u. Containerdienst | Olbernhau 09526, Wernsdorfer Str. 21 | keine Website verifiziert | Metallrecycling/Container | unklar |
+| Schulze L. AV | Callenberg 09337, Am Mühlengrund 5 | keine Website verifiziert | AV | nur Altauto |
+| Teucher AV | Mildenau 09456, Steinbacher Str. 1 | keine Website verifiziert | AV | nur Altauto |
+| Bieber Maik AV | Lichtenberg 09638, Alte Dorfstr. 9 | keine Website verifiziert | AV | nur Altauto |
+| Gerd Richter Schrott-/Baustoffhandel (SBC) | Grimma 04668, Bahnhofstr. 5 / Fremdiswalde 93 | keine Website verifiziert | Schrott/Container | unklar |
+| Jobst Metallhandel | Bad Lausick 04651, Beuchaer Oberweg 17 | keine Website verifiziert | Metall/Schrott | unklar |
+| SMS Sterns Metall & Schrotthandel | Rochlitz 09306, Schützenstr. 6 | keine Website verifiziert | Schrott (gleiche Adresse wie DB Recycling, Seed — ggf. Nachfolge/Parallelbetrieb) | unklar |
+| Schrott Gerda | Löbau 02708 (Kittlitz, Am Kombinat 8) | keine Website verifiziert | Schrott | unklar |
+| Autodienst Dürrhennersdorf GbR AV | Dürrhennersdorf 02708, Bahnhofstr. 20 | keine Website verifiziert | AV | nur Altauto |
+| Richter Gerd AV + Abschlepp | Dittelsdorf 02788 (b. Zittau) | keine Website verifiziert | AV | nur Altauto |
+| Döbler Reinhard Autohandel + AV | Görlitz 02827, Stadtgraben 1 | keine Website verifiziert | AV | nur Altauto |
+| Auto Fritz GbR AV | Zeithain 01619, Neudorfer Str. 1 | keine Website verifiziert | AV | nur Altauto |
+| Berbalk & Vieweg GbR | Delitzsch 04509 | keine Website verifiziert | AV?/Autohandel | unklar |
+| Müller Eckhard AV | Jahnatal 04749, Bergstr. 6 | keine Website verifiziert | AV | nur Altauto |
+| Kretzschmar Bau- und Hausservice | Dresden 01097, Hechtstr. 60 | keine Website verifiziert | Entrümpelung/Schrott? | unklar |
+| Möbius Transporte/Container/Recycling GbR | Mittweida 09648 | keine Website verifiziert | Container/Recycling | unklar |
+| Böhm Wertstoffzentrum | Lengenfeld | keine Website verifiziert | Wertstoffhof/Container | unklar |
+| Hasse Transport – Wertstoffhof & Schüttgüter | Radebeul 01445, Fabrikstr. 17 | keine Website verifiziert | Wertstoffhof | unklar |
+| Parentin GmbH Recyclinghof/Container | Großpösna 04463 | keine Website verifiziert | Recyclinghof/Container | unklar |
+| FORBERGER Entsorgungsgesellschaft mbH | Niederau 01689 | keine Website verifiziert | Entsorgung/Container | unklar |
+
+### Rejects (kein Neueintrag, je ein Grund)
+
+- Janko Handy (Leipzig, Poserstr. 51): reiner Handyankauf, kein Schrott-/Metallankauf belegt — RAUS.
+- Bessergold GmbH (Dresden, Töpferstr. 10): Anlagegold-/Münzhandel (Website live), kein Dental-/Schrottbezug — RAUS.
+- Josephs Goldankauf Dresden (Rothenburger Str. 2): reiner Gold-/Silberankauf — RAUS.
+- Goldankauf Börse-Leipzig (Brühl 65): Gold-/Silberwaren — RAUS.
+- Goldschmiede Gerlach & Berger (Freiberg, Burgstr. 1): Schmuckwaren — RAUS.
+- GOLD-SILBER-ANTIKWAREN Juwelier Kortum GmbH (Dresden, Obergraben 2): Gold-/Silberankauf — RAUS.
+- Container Kälberer GmbH (Kamenz, Friedensstr. 14): gleiche Adresse wie Seed Rainer Kälberer GmbH = derselbe Betrieb — kein Duplikat, s. Enrichments.
+- Schrotthandel John / Schanko Leipzig: Sammelzeile bereits im Seed — kein Duplikat, s. Enrichments.
+- TSR Rackwitz: TSR-Netz bereits im Seed — kein Duplikat.
+- Merges (keine separaten Zeilen): Dietrich/Frank/Matthias Netzschkau = 1 Adresse (3 Tel.); Metallhalle Thiendorf = 1 Adresse (2 Tel.); Quast Dresden + Kamenz = 1 Firma (2 Standorte).
+
+### Tote Seed-Websites: keine
+
+Alle 62 unterschiedlichen Seed-Domains per curl HTTP-200 (inkl. DINTER/Meister/MAZ-Neuzugänge,
+bessergold.de, pfaffelhuber-recycling.de, hmv-heidenau.de, max-gehrt.de, schrott-gehrt.de,
+Umleitung buntmetallhandel-altmittweida.de → schrottbuntmetallankauf.de). Bekannt tot, aber
+nicht im Seed: schrott-winter.de (Lengenfeld), schrotthandel-kamenz.de (Spam-Redirect).
+
+### Seed-Enrichments (Adressen, keine Neufunde)
+
+- Schanko Altmetallhandel: Leipzig, Reineckestr. 30 (Sammelzeile anreichern).
+- Schrotthandel John (Inh. Ines John): Leipzig, Idastr. 43 (Sammelzeile anreichern).
+- Rainer Kälberer GmbH: Kamenz, Friedensstr. 14 = Containerdienst + Schrott + Transporte
+  (GS-Aliase "Kälberer GmbH"/"Container Kälberer GmbH", gleiche Adresse = derselbe Betrieb).
+- DB Recycling Rochlitz (Schützenstr. 6): teilt Adresse mit SMS Sterns (GS) — ggf.
+  Nachfolge/Parallelbetrieb, in Notiz vermerken.
+- Euro-Metall Körner Werdau (Seed, Sorge 48) ≠ Körner Klingenthal (Container/Waschanlage/
+  Reifen) — zwei verschiedene Betriebe, nicht mergen.

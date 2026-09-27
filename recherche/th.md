@@ -165,7 +165,7 @@ Das Örtliche (alle URL-Muster 404/Bot-Wand) durch Gelbe Seiten ersetzt.
 
 Geprüfte CORRECTIONS (ohne Löschung):
 - Scholz Jena 53 vs 113 ENTSCHIEDEN (als Dual-Adresse): „53" = schrottplatz-info.de-Eintrag „SCHOLZ Recycling GmbH
-  NL Erfurt-Betrieb Wöhlsdorf, Löbstedter Str. 53" (Legacy); „113" = schrottradar-Profil m. Tel. 03641 425635
+  NL Erfurt-Betrieb Wöhlsdorf, Löbstedter Str. 53" (Legacy); „113" = schrottradar-Eintrag mit Tel. 03641 425635
   (aktuell). OSM: beide Hausnummern existieren (Gewerbegebiet Unteraue/Saalepark). Eintrag führt künftig 113, Notiz 53.
 - SMG Gera = Scholz Gera (Gessentalstr. 5A/5a): Hypothese VERSTÄRKT, unbewiesen — schrottplatz-info.de/Gera (alt)
   listet SMG (5A) + RoVa + Richter, aber KEIN Scholz; schrottradar (neu) listet Scholz (5a), aber KEIN SMG;
@@ -208,3 +208,77 @@ Negativbefunde/erschöpft (keine weiteren Versuche sinnvoll):
 - Gotha/Nordhausen/Saalfeld per GS vollständig: Gotha = Scholz (schrottradar) + MSG + Entsorger; Nordhausen = NRH + R&M + Aurin
   (+ Bösenberg-Abschlepp); Saalfeld = nur SRT (Scholz-Link neu).
 - Eichsfeld/Heiligenstadt: GS = nur SWT Uder + König-Container + Lucke-Container — bleibt dünn, keine Ankauf-Belege.
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Methode: Kandidatenliste /tmp/opencode/audit/th.md (Runde 1) systematisch gegen curl-Website-Checks
+verifiziert (Gutzmann Wertstoffpreise, Goldankauf-Boerse Rechner, Pfaffe, Sommerfeldt, WKW, Nobra,
+GAUS, Pumuckl, Automotive-Research, Wetzel-Ost, LRP, Magrec, Koenig). Filter: KEEP alles mit
+Schrott-/Metall-Ankauf oder -Abholung (privat, B2B, Gewerbe-only, mobil, Kleinstfirmen);
+OUT nur tote Domains, Duplikate, Hertig (kein Ankauf), Pumuckl (kein Schrottnachweis),
+reiner Schmuckankauf ohne Dentalgold-Bezug. Unklar-but-plausibel = KEEP mit Ankauf "unklar".
+Alle Seed-Websites aus th.json per curl (HTTP-Status) gesweept.
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| SDM Gutzmann GmbH & Co. KG | Gotha (An der Ostbahn 4) + Tottleben (Hauptstr. 46) | https://www.sdm-gutzmann.de | Schrott/Metall/Kabel/Container, Abriss, Recyclinghof. PREISLISTE: https://www.sdm-gutzmann.de/preislisten/ | ja |
+| Goldankauf Boerse, Filiale Erfurt | Erfurt (Bahnhofstr. 38, Tel. 0361/65782470) | https://www.goldankauf-boerse.de | Edelmetall, Zahngold/Dentalgold, Silber/Platin/Palladium, Industrieabfaelle. PREISLISTE: https://www.goldankauf-boerse.de/ankaufsrechner/ (Rechner + Live-Kurstabelle Stand 27.09.2026) | ja |
+| Containerdienst Pfaffe GmbH | Am Ettersberg/Berlstedt (Am Wahl 14b) + Weimar | https://containerdienst.pfaffe.net | Container, "Ankauf von Schrott und Buntmetallen" (Website-Aussage), Altfahrzeug-Entsorgung | ja |
+| Sommerfeldt Schrott & Buntmetall Ankauf | Zeulenroda-Triebes (Binsicht 48) | https://metallhandel-sommerfeldt.de | Schrott/Buntmetall/Kabel/Container, EfbV, Abholung, Nutzfahrzeug-Ankauf, Metallaufbereitung | ja |
+| W.K.W. Recycling GmbH, NL Apolda | Apolda (Am Kalkteich 6); Sitz Bad Schmiedeberg (ST) | https://www.wkw-recycling.de | FE-/NE-Metalle, werkseigener Containerdienst, Abbruch; Sa 9-12h offen | ja |
+| Nobra GmbH | Rippershausen (Sandfeld 16) | https://www.nobra-recycling.com | Scheideanstalt/Edelmetallrueckgewinnung (40+ Jahre, B2B/Industrie, Abholung + Abrechnung) | ja |
+| Veolia Umweltservice Ost, Wertstoffhof Eisenberg | Eisenberg (Mozartstr. 4) | keine Website verifiziert | Wertstoffhof, Schrottannahme seit 8/2026 (Luecke nach Wetzel-Aus, un bestaetigt) | unklar |
+| LRP Autorecycling Erfurt GmbH | Erfurt (Bei den Froschaeckern 3) | https://lrp-autorecycling.de/erfurt/ | Autoverwertung, Demontagezentrum (E-/Hybrid), "Wir kaufen auch Dein Auto"; Kette (Magdeburg/ST abstimmen, ein Eintrag je Filiale) | ja |
+| Optima Computer & Elektronikrecycling GmbH | Erfurt (Blumenstr. 70) | keine Website verifiziert | E-Schrott (Leiterplatten-Ankauf unklar, v.a. Behandlung?) | unklar |
+| HB Elektroschrott Recycling (Bodo Heisel) | Wahlhausen (Kreisstr. 1) | keine Website verifiziert | E-Schrott | unklar |
+| GHS Recycling GmbH | Erfurt (Adelheid-Dietrich-Str. 10) | keine Website verifiziert | E-Schrott Erstbehandlung (v.a. B2B) | unklar |
+| Elektrogeraeteverwertung Goellingen GmbH | Sondershausen | keine Website verifiziert | E-Schrott-Verwertung | unklar |
+| SHP Rohstoffrecycling GmbH | Blankenhain | keine Website verifiziert | Schrott/NE/Eisen/Abbruch (v.a. Gewerbe) | unklar |
+| FerroMetall GmbH | Waltershausen (Gothaer Str. 52) | keine Website verifiziert | Schrott/Buntmetall/Kabel/Kat, EfbV Metallabfaelle | unklar |
+| Reinisch u. Reinisch | Weira | keine Website verifiziert | AV/Abschlepp | unklar |
+| Auto Schroth GmbH | Milda | keine Website verifiziert | AV Demontage | unklar |
+| Automotive Research GmbH | Schmoelln (Industriering 1/1) | http://www.automotive-research.net | AV Demontagebetrieb, EfbV, HV-Batterie-Verwertung (Domain lebt, Startseite 404, Inhalt via Unterseiten) | unklar |
+| G u. K Recycling Utsch | Rudolstadt | keine Website verifiziert | Recycling (nur Verzeichnis-Eintrag + Review); KEIN Seed-Dup (th.json enthaelt kein Utsch) | unklar |
+| GAUS GmbH | Unterwellenborn (Am Wasserlauf 1) | https://www.gausgmbh.de | Abbruch/Recycling/Handel/Container, EfbV (Bauschutt-Brecher, Schrottankauf nicht belegt) | unklar |
+| Magrec Recycling GmbH | Foeritztal OT Foeritz (Steinraeum 3) | https://magrec.de | Recycling/Metallwaren, GF Thomas Ehrhardt; gleiche Adresse wie Ehrhardt (Familien-/Firmenverbund, KEIN Dup) | unklar |
+| RPT Recycling UG | Zeulenroda-Triebes (Binsicht 53, HRB 515738 Jena) | keine Website verifiziert | Recycling (eigene Firma, Nachbaradresse zu Sommerfeldt Binsicht 48, KEIN Dup) | unklar |
+| Recyclinghof Oberlind (Manfred Hiller) | Sonneberg | keine Website verifiziert | Schrottplatz/AV? | unklar |
+| Autorecycling Andislebener Kreuz GmbH | Gebesee | keine Website verifiziert | AV | unklar |
+| Reststoffverwertungsgesellschaft Thueringen mbH | Soemmerda | keine Website verifiziert | Wertstoffhandel? | unklar |
+| Sondershausen Recycling GmbH | Sondershausen | keine Website verifiziert | Recycling? | unklar |
+| SAK Entsorgungs- und Recycling GmbH | Sondershausen | keine Website verifiziert | Entsorgung/Recycling | unklar |
+| Containerdienst Franz Koenig Umweltdienst e.K. | Heilbad Heiligenstadt/Steinbach (Auf der Rinne 36) | https://www.containerdienst-koenig.de | Container, "Schrott und Metallabfall abholen"; gleiche Adresse wie Falk Wedekind/Toepfer (KEIN Dup, eigene Firma) | unklar |
+| WRS-Wertstoff Recycling Service GmbH | Gotha | keine Website verifiziert | Wertstoffhandel? | unklar |
+| Bauer Recycling GmbH | Walschleben | keine Website verifiziert | Recycling? | unklar |
+| GOEREC Goelz Recycling UG | Friemar | keine Website verifiziert | Recycling? (Goelz-Umfeld) | unklar |
+| Wagner Recycling GmbH | Erfurt | keine Website verifiziert | Recycling? | unklar |
+| Sanfa-Recycling UG | Erfurt | keine Website verifiziert | Recycling? | unklar |
+| TP Recycling GmbH | Erfurt | keine Website verifiziert | Recycling? | unklar |
+| Gert Wiesser | Weimar | keine Website verifiziert | Schrottplatz? (nur Verzeichnis) | unklar |
+| Joerg Heubach | Gehren | keine Website verifiziert | Schrott? (nur Verzeichnis) | unklar |
+| Raik Barich | Graefinau-Angstedt | keine Website verifiziert | Schrott? (nur Verzeichnis) | unklar |
+| MRG Rueckbau und Recycling GmbH | Muehlhausen | keine Website verifiziert | Rueckbau/Recycling | unklar |
+| ARR Allmenhaeuser Rueckbau & Recycling GmbH | Ebeleben | keine Website verifiziert | Rueckbau/Recycling | unklar |
+| Bernd Rathgeber | Treffurt | keine Website verifiziert | Schrott? (nur Verzeichnis) | unklar |
+| Nowatzky Recycling GmbH | Amt Creuzburg | keine Website verifiziert | Recycling? | unklar |
+| Tas Recycling GmbH | Zella-Mehlis | keine Website verifiziert | Recycling? | unklar |
+| Autohof Schaub | Zeulenroda-Triebes | keine Website verifiziert | AV Demontagebetrieb | unklar |
+| Autoverwertung Boesenberg (Manuela Sachse) | Nordhausen | keine Website verifiziert | AV Demontagebetrieb | unklar |
+| Spedition & Kfz-Service C. Bernhardt | Triptis | keine Website verifiziert | Metallhandel (Handeln/Makeln), E-Geraete (kein Schrottplatz) | unklar |
+
+Abgelehnt (nicht uebernehmen):
+- Schrott Wetzel OST GmbH, Eisenberg (Bahnhofstr. 2c) — insolvent 8/2025, Domain schrott-wetzel-ost.de STRATO-geparkt (ohne Inhalt); nicht im Seed, keine Neuaufnahme.
+- Schwester Hertig — nur E-Schrott-Behandlung, kein Ankauf.
+- Autoservice Pumuckl GmbH, Bucha — Kfz-Service/Abschlepp/Logistik, kein Schrottnachweis (bestaetigt Runde-2-Ausschluss).
+
+Tote Seed-Websites (curl Transport-Fail/000, Stand 27.09.2026):
+- http://www.fernkorn-weimar.de (Fernkorn Albert e.K., Weimar)
+- http://www.hugo-bebra.eu (Hugo Entsorgung GmbH, Erfurt)
+- http://www.rm-schrotthandel.de (R&M Schrotthandel, Sondershausen)
+Alle uebrigen 28 Seed-Websites HTTP 200 (u.a. scholz-recycling.com, smh-recycling.de, rvt.de,
+geweniger-recycling.de, ikschrott.de, schrottverwertung-fa-stussak.de, containerdienst-koenig.de neu verifiziert).
+Zusaetzlich: korrupter Seed-Eintrag am Dateiende ("Profil m" / "Tel.") — pruefen/loeschen.
+
+Wetzel-Verdikt: th.json (87 Eintraege) enthaelt KEINEN Wetzel-Eintrag — keine Korrektur noetig;
+Eisenberg-Standort wurde korrekterweise nie aufgenommen (vgl. Runde 2/3/4-Negativbelege).
+ST-Seed enthaelt Schrott Wetzel GmbH (Dessau-Rosslau) — Faell fuer ST-Audit, nicht TH.

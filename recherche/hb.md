@@ -265,3 +265,95 @@ dieser Runde per Transport-Error ausgefallen (war in Runden 2+3 Hauptquelle) —
 - Schiffsrecycling: dokumentiertes Negativ (Runde 2+3), nicht erneut bejagt — geschlossen.
 - Offen (nur noch telefonisch / bei wieder erreichbaren Gelben Seiten): Ankauf-Status der
   ~25 Kleinbetriebe ohne Website, Dero-Aktivitätsnachweis, Oetjen-Verbundstruktur.
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Kandidaten-Audit Runde 1+2 (Vorlage /tmp/opencode/audit/hb.md): jede Website per curl
+(HTTP-Status + Inhaltsprüfung auf Schrott-/Metall-Ankauf), Cross-State-Dedup gegen
+seed/traders/*.json, No-Website-Einträge per Verzeichnisplausibilität (Existenz zählt).
+Seed-Website-Sweep: alle 14 Websites in hb.json per curl geprüft (s. (3)).
+
+### (1) Behaltene Kandidaten
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| becker + brügesch Entsorgungs GmbH | Bremen 28197, Warturmer Heerstr. 120 | https://www.bb-entsorgung.de | Containerdienst, Entsorgung, Abfall-Handel (bvse) | unklar |
+| Bremer Recycling Service | Bremen-Sebaldsbrück 28309, Sebaldsbrücker Heerstr. 162 | keine Website verifiziert | Schrotthandel, kleiner Abholer | unklar |
+| BAV Bremer Autohandels- und Verwertungs GmbH | Bremen-Woltmershausen 28197, Simon-Bolivar-Str. 38 | keine Website verifiziert | Autoverwertung (gleiche Adresse wie Seed Roßberg — Zusammenhang s. Klärfälle) | unklar |
+| Bremer Autoverwertung (Mark Roßberg) | Bremen (Tel. 0421 54 40 41) | https://bremer-autoverwertung.com | Autoverwertung, geprüfte Ersatzteile (Inhaber Mark Roßberg, KFZ-Meister) | unklar (nur Altautos/Ersatzteile) |
+| A. Lahib Autoverschrottung Bremen | Bremen 28197, Ludwig-Erhard-Str. 28 | https://www.autoverschrottung-bremen.de | Autoverschrottung, kostenlose Abholung, mobil | unklar (nur Altautos) |
+| Bremen-Autoverwertung (Kurfürstenallee) | Bremen 28211, Kurfürstenallee 6 (Tel. 0152 2789 0705) | https://www.bremen-autoverwertung.de | Schrottauto-Ankauf (Online-Anmutung, Textbaustein mit Berlin-Bezug) | unklar |
+| Autoverwertung Bremerhaven (Rheinstr.) | Bremerhaven 27570, Rheinstr. 41 | https://autoverwertung-bremerhaven.top | Schrottauto-Ankauf, Entsorgung | unklar |
+| Autoexport Bremerhaven | Bremerhaven, Lunedeich 68, 27572 (Tel. 0174 387 2353) | https://autoexport-bremerhaven.de | Autoankauf alle Marken, auch Unfall/Schrott (eher Export) | ja |
+| WirKaufenDeinGold.de (Rohat Erdem) | Bremen-Findorff 28215, Admiralstr. 111 | https://wirkaufendeingold.de | Edelmetall, Zahngold/Dentalgold, Münzen/Barren; Online-Preisrechner PREISLISTE: https://wirkaufendeingold.de (#rechner) | ja |
+| GOLDhandelshaus Bremen | Bremen 28195, Sögestr. 1 | https://goldhandelshaus.de | Edelmetall, Zahngold, Altgoldrechner PREISLISTE: https://goldhandelshaus.de/altgoldrechner/ | ja |
+| philoro Bremen | Bremen 28195, Wachtstr. 20 | https://philoro.de/filialen/bremen | Edelmetall-Filiale (Kette, kein Cross-State-Duplikat), Altgold-Ankauf | ja |
+| OPHIRUM Bremen by GOLDFUXX | Bremen 28203, Fedelhören 12 | https://www.ophirum.de/filialen/bremen-goldfuxx | Edelmetall-Filiale, Altgold-/Schmuckankauf | ja |
+| Noble House Bremen | Bremen 28195, Schüsselkorb 23 | https://noble-house.de | Juwelier mit Ankauf: Altgold/-silber, Münzen, Zahngold | ja |
+| Koschalka Bremer Sammlerparadies | Bremen 28217, Waller Heerstr. 20 | https://www.bremer-sammlerparadies.de | Gold-/Silber-/Münzenankauf (klein, feste Ankauf-Termine) | ja |
+| Aram-Gold Edelmetallhandel (Aram Handel) | Bremen-Vegesack 28755, Lindenstr. 38 | http://aram-goldankauf.de (leitet auf aram-handel.de) | Juwelier, Edelmetallankauf, Schmuck-Großhandel | unklar |
+| MaxxGold | Bremen 28777, Rekumer Str. 70 | keine Website verifiziert | An-/Verkauf (nur Verzeichnisbeleg) | unklar |
+| Schrottjungs Bremen | Bremen (mobil, kein HB-Sitz; Tel. 0173 8705566) | https://schrottjungs.de/schrottabholung-bremen | Mobile Schrottabholung, Bremen-Landingpage (bundesweite Kette, Verfahren wie HH/NI-Einträge) | unklar |
+| Aurichalum | Bremen 28215, Findorffstr. 46/48 | keine Website verifiziert | An-/Verkauf (nur Namensbeleg) | unklar |
+| Albers & Kinzel GmbH | Bremen 28195, Pelzer Str. 4-5 | keine Website verifiziert | An-/Verkauf (nur Verzeichnisbeleg) | unklar |
+| Schrottabholung Bremen Recycling | Bremen 28309, Auf den Roden 2 | keine Website verifiziert | Stahl/Alu/Kupfer/Edelstahl/Blei/Messing, mobil | unklar |
+| Brecheisen Entsorgung | Bremen 28309, Bruchweg 42A | https://brecheisen-entsorgung.de | Stahl/Alu/E-Motoren, kostenlose Abholung (gleicher Betreiber wie Bremer Schrotthandel, s. Klärfälle) | unklar |
+| Metallhandel Weiss | Bremen (Mitte, nur Tel. 0177) | keine Website verifiziert | Stahl/Alu/Kupfer u.a. (dünn verifiziert) | unklar |
+| Altun Dienstleistung All Rounder | Bremen 28719, Grönlandstr. 21 | keine Website verifiziert (Domain offline) | Stahl/Alu/Kupfer u.a. | unklar |
+| Annahme von Schrott, Metall und Kupfer | Bremerhaven 27572, Ringstr. 68 (Tel. 0471-3096572) | keine Website verifiziert | Stahl/Alu/Kupfer u.a. (nur Profilbeleg) | unklar |
+| Hanse Entrümpelung | Bremen 28201, Valckenburghstr. 13 | keine Website verifiziert (Domain hanse-entruempelungen.de: HTTP 404) | Entrümpelung, Schrott (gleiche Adresse wie Seed Koluman — s. Klärfälle) | unklar |
+| Goldankauf Bremen - Kredo | Bremen 28195, Faulenstr. 19 (Tel. 0421 42709997) | https://kredo-goldankauf.de/ | Altgold, Zahngold/Dentalgold, Silber, Münzen; Tageskurse | ja |
+| Goldankauf Lange GmbH | Bremen 28195, Bahnhofsplatz 42 | http://www.lange-edelmetall.de | Altgold, Zahngold (seit ~50 Jahren) | ja |
+| Rheinische Scheidestätte Bremen | Bremen 28195, Knochenhauerstr. 41-42 | https://rheinische-scheidestaette.de/unternehmen/filialen/bremen/ | Scheideanstalt-Filiale (Neueröffnung), Schmuck-/Uhrenankauf, Versandankauf (Kette: HH/HE-Einträge sind andere Filialen, kein Duplikat) | ja |
+| Goldankauf Bremen - GOLDPUNKT | Bremen 28199, Pappelstr. 123 | https://www.goldpunkt-bremen.de/ | Altgold, Zahngold, Münzen | ja |
+| Juwelier Cohrs Edelmetall GmbH | Bremen 28195, Pelzerstr. 4 | keine Website verifiziert | Altgold, Silber, Münzen (GS-verifiziert) | unklar |
+
+### Klärfälle (aufgelöst)
+
+- Brecheisen-Merge: JA, ein Betreiber. bremerschrotthandel.com trägt im Title "Brecheisen
+  Entsorgung", Footer-Adresse Sykerstr. 6, 28307 Bremen = Seed-Adresse "Bremer Schrotthandel".
+  Empfehlung: Seed-Eintrag anreichern (s. (4)), Brecheisen Bruchweg 42A als Zweitstandort
+  desselben Betreibers führen (ein Eintrag pro Standort, keine zwei Zeilen für Sykerstr. 6).
+- BAV/Roßberg-Adresse: BAV (Simon-Bolivar-Str. 38, keine Website) teilt die Adresse mit Seed
+  "Autoverwertung Roßberg GmbH". Zusätzlich: bremer-autoverwertung.com nennt Inhaber
+  Mark Roßberg (Tel. 0421 54 40 41). Separat behalten (BAV unklar, Roßberg-Seed per Website anreichern).
+- Hanse/Koluman-Adresse: Hanse Entrümpelung (Valckenburghstr. 13, Website 404) = gleiche
+  Adresse wie Seed Koluman. Getrennt behalten (Koluman Seed, Hanse neu) mit Alias-Verdacht
+  (möglicher Nachfolger), keine Löschung.
+- Gerdes + MKV → NI-Handoff, NICHT in HB aufnehmen: Johannes Gerdes Schrott- und
+  Metallhandel (Stuhr, Rodendamm 7) steht bereits in ni.json; M K V Metall- und
+  Kabelverwertung (Nordenham) ist Wesermarsch/NI. Beide an NI-Audit übergeben.
+- Service-rund-ums-Haus-Kandidat = kein Neu-Eintrag: service-entsorgung.de Homepage nennt
+  explizit "Service rund ums Haus Team" (Schrott-Metallabholungen, Bremen) = Seed-Eintrag
+  "Service rund ums Haus Team (Inh. Yasin Akgül)". Schwesterseite schrotthaendler-bremen.de
+  (gleicher Text, Tel. 0177 362 95 56) gehört dazu → Seed-Anreicherung (s. (4)).
+
+### (2) Abgelehnt
+
+- Bremerhaven-Autoverwertung (bremerhaven-autoverwertung.de) — Domain tot (curl 000, kein DNS/HTTP).
+- GERMAN GOLD Handelsges. mbH — Fehlzuordnung: german-gold.de verkauft Motorenöle ("High quality lubricants"), kein Edelmetall/Schrott.
+- Nehlsen Stoffstrom / Karl Nehlsen — bereits Runde 2 verworfen; nehlsen.com ohne Metall-/Schrott-Ankauf.
+- Katalysator Ankauf 24 (katalysatorankauf24.de) — Domain recycelt: Spam-Blog ("Things Review") mit gescrapten Verzeichnistexten, kein verifizierbarer Kat-Ankäufer.
+- RVG Rohstoff Vermarktungs GmbH — Website belegt nur Kunststoff/Altpapier/Produktionsabfälle, kein Metall/Schrott.
+- Die Bremer Wertstoff- und Recycling GmbH — Website tot (Hoster-Parkseite "Account nicht erreichbar").
+- Vermögensarchitectur (GoldSilberShop-Partner) — kein BHV-Standort verifizierbar, nur Partner-/Versandankauf-Seite ohne Yard.
+
+### (3) Seed-Website-Sweep (alle 14 Websites in hb.json, curl mit Follow)
+
+- OK 200, keine Toten, keine feindlichen Redirects: vedder-stockrahm.de, bartels-altmetall.de,
+  tsr-recycling.de-Standortseite, nordschrott-bremen.de, jochens-bremen.de,
+  hirsch-group.de/wir-kaufen-ihren-schrott, avbn-bremen.de, schrott24.de,
+  schrott-schroeder.de, schrott-hoffmann.de, schrotthandel-yildirim.de, wmr-online.de.
+- OK 200 mit www→non-www-Redirect (unbedenklich): augustin-entsorgung.de, off-waste.de.
+- Ergebnis: 0 tote Seed-Websites.
+
+### (4) Seed-Anreicherung (Vorschläge, nicht eingepflegt)
+
+- Seed "Bremer Schrotthandel" (Mahndorf, Sykerstr. 6, bisher ohne Website) ←
+  https://bremerschrotthandel.com (Footer-Adresse Sykerstr. 6 verifiziert, Betreiber Brecheisen).
+- Seed "Service rund ums Haus Team (Inh. Yasin Akgül)" (bisher ohne Website) ←
+  https://service-entsorgung.de (Homepage nennt Team-Namen) + https://schrotthaendler-bremen.de
+  (Schwesterseite, Tel. 0177 362 95 56).
+- Seed "Autoverwertung Roßberg GmbH" (Simon-Bolivar-Str. 38, bisher ohne Website) ←
+  https://bremer-autoverwertung.com (Inhaber Mark Roßberg, Tel. 0421 54 40 41) — Zuordnung
+  Roßberg-Familie, vor md2seed verifizieren (GmbH vs. Inhaber-Betrieb).

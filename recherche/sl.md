@@ -145,3 +145,44 @@ Echte Neufunde: keine. Ein Marken-Upgrade (Nr. 5, s. u.). Dorf-Queries alle nega
 
 ### Erschöpft / Endstand
 Verzeichnisquellen (Gelbe Seiten alle SL-Orte, dasoertliche, 11880, Kleinanzeigen, schrottradar/lokaleschrottplatz/schrottfinder-Portale, DDG-Ersatzsuche, DNS/curl-Verifikation) ausgeschöpft. Ländliche Lücken (Bliesgau-/Saargau-/Hochwald-Dörfer, Lebach-Umland, Heusweiler/Püttlingen, Schiffweiler/Spiesen, Kleinblittersdorf/Großrosseln, Rehlingen-Siersburg/Wadgassen-lokal, Kirkel/Eppelborn/Illingen-lokal) sind verifizierte Null-Befunde, keine Suchlücken mehr. Restklärung nur noch vor Ort/telefonisch (Kleinsthändler-Ankauf, Weiler-/Feix-Fortbestand).
+
+## Nachtrag Audit-Runde 4 (27.09.2026) — Kandidatenaudit R1+R2 (21) + Seed-Website-Sweep
+
+Methode: curl-Checks aller Kandidaten-Websites (HTTP-Status + Inhaltsbeleg), Cross-State-Grep (Rheinische/S.B./KATALYSATOR-HAI in seed/traders/*.json), Gelbe-Seiten/dasoertliche-Verifikation, curl-Sweep aller 27 Seed-Websites aus sl.json. Native Websuche fiel zeitweise per 401 aus, DDG-html per Bot-Challenge blockiert — Yelp-Einzelbelege (Goldwirt) daher nicht nachverifiziert.
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|------|-------------------|---------|-------------|--------|
+| Rheinische Scheidestätte GmbH, Filiale Saarbrücken | Saarbrücken 66111, Viktoriastr. 6 | https://rheinische-scheidestaette.de | Edelmetall, Scheideanstalt, Dentalgold (Filialseite: Ankauf Zahngold/Schmuck/Münzen/Medaillen/Uhren/Barren) PREISLISTE: https://rheinische-scheidestaette.de/wissenswertes/aktuelle-edelmetallkurse/ | ja |
+| Scheidter Goldankauf | Saarbrücken-Scheidt 66133, Kaiserstr. 84 | keine Website verifiziert | Edelmetall (GS-Eintrag, Tel. 0681 83900147) | unklar |
+| City Gold Ankauf (Annette Berchem) | Saarlouis 66740, Bibelstr. 3 | https://goldankaufsaarlouis.com/index.html | Edelmetall, Dentalgold explizit, Tageskurs, Bar-Auszahlung, 20+ Jahre | ja |
+| Goldschmiede Scheffel | Saarlouis 66740, Zeughausstr. 6 | https://goldschmiede-scheffel.de/pages/edelmetallankauf | Edelmetall, Zahngold/Altgold, Ankaufspreise n. Feingehalt/Karat/Börse | ja |
+| Goldankauf am Markt (Susanne Kluesener-Taube) | Völklingen 66333, Marktstr. 2a | keine Website verifiziert | Edelmetall (Yelp + gold.de, Tel. 06898 4982577; eigene Domain goldankauf-am-markt.de TOT/curl-000) | unklar |
+| Goldwirt | Neunkirchen-Wellesweiler 66539, Rosenstr. 15 | keine Website verifiziert | Edelmetall (nur Yelp-Beleg lt. Vorlage, nicht nachverifiziert; Örtliche NK ohne Treffer) | unklar |
+| Gebrüder Otto GmbH | Kirkel 66459, Bahnstr. 3 | keine Website verifiziert | Autoverwertung, Auto-Verschrottung, An-/Verkauf Gebrauchtwagen (Creditreform + GS 5,0) | unklar |
+| Mann Autoverwertung | Neunkirchen 66538, Talstr. 23 | keine Website verifiziert | Autoverwertung, Entsorgung, Ersatzteile (GS-verifiziert) | unklar |
+| KATALYSATOR-HAI (Marke der S.B. Recycling) | Saarbrücken 66113, Jenneweg 55 | https://katalysator-hai.de | Katalysatoren (Keramik/Metall/BHKW), DPF, Metallankauf ab 1 kg, Bar/PayPal/Versand PREISLISTE: https://katalysator-hai.de/preisliste-katalysatoren.html | ja |
+| LS Rohstoffhandelsgesellschaft mbH | Völklingen 66333, Im Alten Brühl 36 | http://www.lsrohstoffhandel.de | Schrott, Metallabfälle, Container; Entsorgungsfachbetrieb seit 1998, v.a. Gewerbe | unklar |
+| CE Schrotthandel Inh. E. Kochann | Marpingen-Berschweiler 66646, Dirminger Str. 2 | keine Website verifiziert | Schrott, Metall (GS-Beleg lt. Vorlage; Örtliche Marpingen ohne lokalen Treffer) | unklar |
+| Goldankauf Hoffarth | St. Ingbert-Rohrbach 66386, Obere Kaiserstr. 157 | http://www.hoffarth-gold.de | Altgold, Bruchgold, Zahngold, Silber, Münzen; seit 2009, Tageskurs, Bar-Auszahlung | ja |
+| Goldankauf Bliesgau | Blieskastel-Lautzkirchen 66440, Pirminiusstr. 53 | keine Website verifiziert | Gold/Silber/Schmuck/Münzen/Tafelsilber/Uhren (Örtliche Gold-/Silberankauf + Tel.) | unklar |
+| GOLD richtig (Peter Zytelewski) | Sulzbach 66280, Bahnhofstr. 9 | http://www.goldpit.de | Gold/Silber/Zahngold/Münzen, Tagespreise, Versandankauf PREISLISTE: http://www.goldpit.de/gold-ankaufrechner.html | ja |
+| Kleinblittersdorfer Goldankauf | Kleinblittersdorf 66271, Elsässer Str. 22 | keine Website verifiziert | Gold/Silber (GS Edelmetallhändler lt. Vorlage; Örtliche listet nur CH Goldhaus, Elsässer Str. 51A — mögl. Umbenennung, vor Ort klären) | unklar |
+| Juwelier Kraemer (Fritz Kraemer) | Saarbrücken 66111, Bahnhofstr. 93 | http://www.juwelier-kraemer.de | Goldankauf Schmuck (GS-Leistung lt. Vorlage; Website ohne Ankauf-Rubrik, Site-Search 0 Treffer, Konditionen nur vor Ort) | unklar |
+| Stein An- u. Verkauf | Saarbrücken-Malstatt 66115, Breite Str. 16 | keine Website verifiziert | Goldankauf + Antiquitäten, gemischtes An-/Verkaufshaus (Schrottbezug schwach, aber Altgold-Ankauf → drin) | unklar |
+| Der Saarspezialist Edelmetalle-Münzen-GmbH | Saarbrücken 66111, Sulzbachstr. 3 | http://www.dersaarspezialist.de | Münzen, Edelmetalle, Schmuck; AN & VERKAUF GOLD & SILBER, seit 1965 | ja |
+| Abschleppdienst-Autoverwertung 1000 Service GmbH | Merzig-Harlingen 66663, Im Wäldchen 13-17 | http://www.1000-service.de | Autoverwertung (Firmenname + GS-Kategorie + schrottplatz-info; Website zeigt nur Mietpark/Abschlepp, Verwertungs-Seiten 404 → realer Auto-Intake plausibel, unbelegt) | unklar |
+| Auto Bohr GmbH | Merzig 66663, In der Pfingstweide 18a | http://www.auto-bohr.de | Autoverwertung/-verschrottung, Abschlepp, Ersatzteile (Creditreform + eBay-Shop „seit 1959, Verwertung"; Website derzeit WP-Fehler/HTTP 500, Domain lebt) | unklar |
+
+### Rejects (1)
+- **Norheimer GmbH Autoverwertung (Saarbrücken)** — Domain norheimer.de leitet auf Reisenauer (Seed-Eintrag Nr. 6) weiter, kein eigener Auftritt, keine Erwähnung auf Reisenauer-Seite → übernommen/Dublette, kein verifizierbarer Eigenbetrieb.
+
+### Cross-State-Dublettenprüfung
+- **Rheinische Scheidestätte:** HE (Frankfurt+Wiesbaden), HH (Hamburg), NW (Düsseldorf-Stammhaus, Paderborn) bereits erfasst — SB-Filiale Viktoriastr. 6 ist neuer Branch → ein Eintrag pro Branch, kein Konflikt.
+- **KATALYSATOR-HAI:** in keinem anderen Seed enthalten; Seite nennt „Firma S.B Recycling in Saarbrücken" explizit → eigene Marke mit eigener Preisliste → separater Eintrag, kein Konflikt mit Seed-Nr. 5.
+
+### Seed-Website-Sweep (27 URLs, Stand 27.09.2026)
+- **TOT (curl 000, DNS NXDOMAIN):** https://www.schrottentsorgung-feix.de/ (Ludwig Feix & Sohn), http://schrott-wb.de/ (Weiler Bärbel) — Domains erloschen, Betriebe evtl. geschlossen (Portaleinträge persistieren).
+- **Umgezogen/Rebrand (live, URL notieren):** prison-metallhandel.de → leitet auf **https://pr-metallhandel.de/** („PR Metallhandel", Schrotthandel Homburg) weiter — mögl. Rebrand, Seed-URL veraltet; schrott-saar.de → leitet auf schrott-entsorgung.blogspot.com weiter (bekannt).
+- **Harmlose Redirects (live, HTTP 200):** loacker-recycling.com → /at/, autoverwertung-both.de → /de/, hoffarth-gold.de → goldankauf-rohrbach.de, goldpit.de → sulzbach-goldankauf.de, lsrohstoffhandel.de → lsrohstoffhandel.lsr01.de/.
+- **Bot-Schutz/Rate-Limit (existent, bekannt):** schrotthandel-binkle.de 403, altmetallentsorgung-paisler.de 429.
+- **Alle übrigen 19 Seed-Websites: HTTP 200, live.**

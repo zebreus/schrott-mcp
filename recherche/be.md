@@ -260,3 +260,77 @@ Ergebnis: 9 neue Einträge (6 Verzeichnisbeleg + 2 Autoverwerter + 1 unsicher) +
 
 - Erschöpft: schrottplatz-info-Im-Umkreis-Graph (~25 Detailseiten, Cluster Süd/Nord/Ost/West/Mitte — keine neuen Berliner Knoten); Das-Telefonbuch-Branchensuche (15 Treffer, Seite 1+2 vollständig); Gelbe Seiten Lichterfelde (nur Reinhardt) + Gropiusstadt (kein Direkttreffer — Lück/Kujat dort nicht gelistet = Kleinsthändler-Status bestätigt).
 - Offen (Tool-Schranken): Websearch 401 in Runde 3+4 → Facebook/Kleinanzeigen-Pro/hurdaci/Efb-Register/Katalysator-Spezialisten per Search nicht prüfbar; northdata/handelsregister JS-/Login-Schranke → B+M-/Schrottmeister-HR-Status ungeklärt (MKB-Identität stattdessen via Telefonbuch gelöst). Kompensation: E-/Kabelschrott via GambTec + ISH abgedeckt; dedizierter Berliner Katalysatorankäufer in keinem Verzeichnis gefunden.
+
+## Nachtrag Audit-Runde 4 (27.09.2026) — Final-Audit Kandidaten + Seed-Sweep
+
+Winkel: alle Kandidaten aus /tmp/opencode/audit/be.md (Runde 1: 25 Zeilen, Runde 2: 19 Zeilen) je einzeln verifiziert
+(curl: HTTP-Status + Inhalts-Check auf Schrott-/Ankauf-Bezug; ohne Website: Verzeichnis-Plausibilität).
+Cross-State-Dedup: Scholz-BE-Ast in keinem Seed (bb/bw/by/he/nw/sn/st/th haben nur andere Äste) → neu;
+Rheinische-BE neu (he/hh/nw nur FFM/Wiesbaden/HH/Ddorf/Paderborn); philoro in keinem Seed → neu;
+Randolf Schmidt bereits in bb.json-Seed → Handoff BB bestätigt, hier kein Eintrag.
+Websearch für Juwelier-Checks (Royal Gold/Kembel/Apex/Haeger/Adelberger) lieferte keine Treffer → Entscheidung per Verzeichnis-Kategorie.
+Ergebnis: 38 kept-Zeilen + 9 Rejects (davon 1 BB-Handoff) + 1 toter Seed-Site.
+
+### A. Kept (Tabelle)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Alexander Buntmetall Ankauf Abholung | Tempelhof-Schöneberg, Burgherrenstr. 1, 12101 Berlin | keine Website verifiziert | Buntmetall-Ankauf, mobil | unklar |
+| Schrott (mobiler Abholer) | Charlottenburg-Wilmersdorf, Wilmersdorfer Str. 21, 10585 Berlin | keine Website verifiziert | Schrottabholung mobil (Firmenname unklar) | unklar |
+| Schrott und Altmetall Abholung | Friedrichshain-Kreuzberg, Möckernstr. 139, 10963 Berlin | keine Website verifiziert | Schrottabholung mobil | unklar |
+| Markopol | Pankow, Schönhauser Str. 33, 13158 Berlin | keine Website verifiziert | Schrotthandel | unklar |
+| Schrott Renate und Peter | Berlin, Tel. 030 6842306 (keine Adresse) | keine Website verifiziert | Schrotthandel | unklar |
+| Gerald Jordan Entsorgung | Reinickendorf, Amendestr. 12, 13409 Berlin | keine Website verifiziert | Entsorgung, Container? | unklar |
+| Jens Düring Bauten- & Container Service | Treptow-Köpenick, Köpenicker Landstr. 162, 12437 Berlin | keine Website verifiziert | Containerdienst | unklar |
+| Rich. Herbig Metallhandel Berlin GmbH & Co. KG | Steglitz-Zehlendorf, Bahnhofstr. 31, 12207 Berlin | keine Website verifiziert | Metallhandel (NE?; B2B ok) | unklar |
+| K&M Automobile | Mitte, Drontheimer Str. 26, 13359 Berlin | keine Website verifiziert | Autoverwertung (Restwert-Ankauf unklar) | unklar — Autoverwertung |
+| Dog Water Autoverwertung | Pankow, Schönerlinder Str. 29, 13127 Berlin | keine Website verifiziert | Autoverwertung | unklar — Autoverwertung |
+| GoldRausch Scheideanstalt GmbH | Charlottenburg-Wilmersdorf, Berliner Str. 19, 10715 Berlin | keine Website verifiziert | Scheideanstalt, Edelmetall | ja (nur Verzeichnisbeleg) |
+| Rheinische Scheidestätte GmbH (Berlin-Mitte) | Mitte, Friedrichstr. 172, 10117 Berlin | https://rheinische-scheidestaette.de (200; Filiale Berlin-Mitte verifiziert) | Scheideanstalt, Dentalgold, Tageskurse. PREISLISTE: https://rheinische-scheidestaette.de/infothek/aktuelle-edelmetallkurse/ | ja |
+| Rheinische Scheidestätte GmbH (Ku'damm) | Charlottenburg-Wilmersdorf, Kurfürstendamm 138, 10711 Berlin | https://rheinische-scheidestaette.de (200) | Scheideanstalt, Dentalgold, Tageskurse. PREISLISTE: https://rheinische-scheidestaette.de/infothek/aktuelle-edelmetallkurse/ | ja |
+| philoro (Ankaufzentrum Stresemannstr.) | Friedrichshain-Kreuzberg, Stresemannstr. 121, 10963 Berlin | https://philoro.de (200; Filiale Berlin + Zahngold + Rechner verifiziert). PREISLISTE/Rechner: https://philoro.de (Altgold-Rechner) | Edelmetall, Dental-/Altgold, Altgold-Rechner | ja |
+| philoro (Filiale Leipziger Platz) | Mitte, Leipziger Platz 1, 10117 Berlin | https://philoro.de (200). PREISLISTE/Rechner: https://philoro.de (Altgold-Rechner) | Edelmetall, Dental-/Altgold, Altgold-Rechner | ja |
+| reGOLD Edelmetallhandel UG | Spandau, Klosterstr. 6-7, 13581 Berlin | keine Website verifiziert | Edelmetall | unklar |
+| GW GoldWerk GmbH | Steglitz-Zehlendorf, Leonorenstr. 87, 12247 Berlin | keine Website verifiziert | Goldankauf | unklar |
+| Apex Metall | Charlottenburg-Wilmersdorf, Barbarossastr. 20, 10779 Berlin | keine Website verifiziert | Edelmetalle (Branche unklar, kein Juwelier) | unklar |
+| Nico Adelberger | Spandau, Grünhofer Weg 42, 13581 Berlin | keine Website verifiziert | Gold-/Edelmetall-Kleinstankäufer | unklar |
+| Antik&ART (Berlin An- und Verkauf) | Reinickendorf, Wallenroder Str. 7, 13435 Berlin | https://www.berlin-an-und-verkauf.de/buntmetall-zu-guten-preisen-verkaufen-recycling-in-berlin/ (200; Cu/Messing/Alu-Ankauf belegt — revidiert Runde-2D-Ablehnung) | Buntmetall, Kabel, E-Motoren, Batterien. PREISLISTE: https://www.berlin-an-und-verkauf.de/wp-content/uploads/Ankauf-Buntmetalle.pdf (200, TOP-FUND) | ja |
+| ALBA Metall Nord (Reinickendorf-Nord) | Reinickendorf, Rödernallee 184, 13407 Berlin | https://metall.alba.info (200) | Fe/NE, Kette/Filiale (B2B ok) | ja (Gewerbe) |
+| ALBA Metall Nord (Neukölln-Süd) | Neukölln, Ziegrastr. 2-46, 12057 Berlin (Ex-Interseroh = ALBA, kein Doppel) | https://metall.alba.info (200) | Fe/NE, Kette/Filiale (B2B ok) | ja (Gewerbe) |
+| Bartscherer & Co. Recycling GmbH | Reinickendorf, Montanstr. 17-21, 13407 Berlin | https://bartscherer-recycling.de (200; Recycling/Rohstoffhandel Berlin) | Stahlschrott, Altmetalle, Rohstoffhandel (v.a. Gewerbe, B2B ok) | ja (Gewerbe) |
+| Scholz Recycling NL Berlin | Spandau, Tiefwerderweg 13, 13597 Berlin (gleiche Adresse ELNO-Seed: räumliche Koinzidenz, getrennte Firmen) | keine Website verifiziert (scholzrecycling.de http+https tot; Konzern jetzt Derichebourg) | Stahl/NE, Kette/Filiale (B2B ok) | ja (Gewerbe) |
+| Validia GmbH Wertstoffhandel | Steglitz-Zehlendorf, Potsdamer Chaussee 48, 14129 Berlin | keine Website verifiziert | Wertstoffhandel, Recycling | unklar |
+| BBA Recycling GmbH | Mitte, Huttenstr. 22, 10553 Berlin | keine Website verifiziert | Recycling | unklar |
+| Juwelier Am Preußenpark | Charlottenburg-Wilmersdorf, Konstanzer Str. 14, 10707 Berlin | https://www.schmuck-gold-uhren-ankauf.de/ (200; Zahngold-Ankauf auf Website belegt) | Gold/Silber/Zahngold | ja |
+| Friedenauer Münzenhaus | Tempelhof-Schöneberg, Bundesallee 91, 12161 Berlin | keine Website verifiziert | Gold/Silber/Münzen/Zahngold | ja (nur Verzeichnisbeleg) |
+| Juwelier Mere | Charlottenburg-Wilmersdorf, Fredericiastr. 2, 14059 Berlin | keine Website verifiziert | Gold, Zahngold | ja (nur Verzeichnisbeleg) |
+| Juwelier Walter | Steglitz-Zehlendorf, Koenigsallee 62, 14193 Berlin | keine Website verifiziert | Gold, Zahngold | ja (nur Verzeichnisbeleg) |
+| Trauringschmiede Berlin | Mitte, Jägerstr. 60, 10117 Berlin | keine Website verifiziert | Gold, Zahngold | ja (nur Verzeichnisbeleg) |
+| Gold Inn AG (Mitte) | Mitte, Friedrichstr. 30, 10117 Berlin | keine Website verifiziert | Gold/Silber/Zahngold, Kette | ja (nur Verzeichnisbeleg) |
+| Gold Inn AG (Wilmersdorf) | Charlottenburg-Wilmersdorf, Bundesallee 39-40A, Berlin | keine Website verifiziert | Gold/Silber/Zahngold, Kette | ja (nur Verzeichnisbeleg) |
+| Global Gold AG | Charlottenburg-Wilmersdorf, Salzufer 8, 10587 Berlin | keine Website verifiziert | Edelmetall (kein Juwelier) | unklar |
+| EXCHANGE AG (Friedrichstr.) | Mitte, Friedrichstr. 150-153, Berlin | keine Website verifiziert | Goldankauf/Pfand-Kette, Filiale | unklar |
+| EXCHANGE AG (Joachimsthaler Str.) | Charlottenburg-Wilmersdorf, Joachimsthaler Str. 5-6, Berlin | keine Website verifiziert | Goldankauf/Pfand-Kette, Filiale | unklar |
+| EXCHANGE AG (Mehringdamm) | Friedrichshain-Kreuzberg, Mehringdamm 70, Berlin | keine Website verifiziert | Goldankauf/Pfand-Kette, Filiale | unklar |
+| Mariegold | Charlottenburg-Wilmersdorf, Nehringstr. 2, 14059 Berlin | keine Website verifiziert | Goldankauf (Schmiede) | unklar |
+
+Hinweis: 6 weitere EXCHANGE-AG-Filialen (9 total laut Kandidatenliste) ohne verifizierte Adressen — offen, keine Zeilen.
+
+### B. Rejects (Name + Grund)
+
+- ISH Internationaler Schrotthandel GmbH — Domain ish-schrott.de tot (000); = AMR-Komplex (Schnellerstr. 20E, Seed-AMR), kein eigener Eintrag.
+- Beganovic–ISH — Zweigadresse Wilhelminenhofstr. 92, gleiche Tel. 030 53013220 wie AMR/ISH → unter AMR vermerken, kein Doppeleintrag.
+- Schrott-Wichtel.de — Website live, aber kostenpflichtiger Abhol-/Entsorgungsservice (Aufmaß/Kosten), kein Ankauf/Vergütung belegt; gleiche Adresse wie Gouchev-Seed.
+- Randolf Schmidt Altmetallhandel — HANDOFF BB: bereits in bb.json-Seed (Großbeeren), hier nicht aufnehmen.
+- Rühle Michael KFZ- und Teilehandel — Website live, reine vertragsfreie BMW-Werkstatt, kein Verwertung/Schrott/Ankauf (wie BMW Teile-Depot verworfen).
+- Juwelier Royal Gold — Juwelier/Schmuckankauf ohne Zahngold-/Schrott-Link (kein Treffer verifizierbar) → reiner Schmuckankauf.
+- Antik Silber Schmuck Kembel — Antik-/Schmuckankauf ohne Schrott-Link → kein Schrottankäufer.
+- Haeger GmbH — Juwelier (Gold/Silber) ohne verifizierbaren Zahngold-/Schrott-Link → reiner Schmuckankauf.
+- Schrott.DE GmbH — schrott.de leitet auf containerdienst.de (bundesweiter Containerdienst), kein Berliner Schrottankauf → Alt-Eintrag, tot.
+
+### C. Seed-Website-Sweep be.json (38 URLs, 27.09.2026)
+
+- Tot (1): https://autoverwertung-assi.de (000, nicht erreichbar; Seed-Eintrag ASSI Auto Service GmbH bereits Status pruefung/website_status tot — bestätigt).
+- Bot-blockiert, existent (2): https://www.schrotthandeladlershof.de/ (403 Bot-Schutz, bekannt); https://www.tsr-recycling.de (200, aber "Challenge Validation"-Seite → Bot-Schutz, Inhalt nicht prüfbar).
+- Live (35): alle übrigen inkl. http://www.amr-schrottplatz.de, https://www.wasdrack.de (Bonus: Rubrik Schrottpreise → PREISLISTE: https://www.wasdrack.de/schrottpreise-berlin.html), https://metall.alba.info, https://berlin.alba.info.
+- ISH-Hinweis: kein ISH-Eintrag im Seed (nur AMR Schnellerstr. 20E, Website live 200) — "ISH site down" betrifft nur Ex-Domain ish-schrott.de, kein Seed-Austrag nötig.

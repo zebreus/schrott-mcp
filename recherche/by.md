@@ -252,3 +252,175 @@ Deckt Restlücken ab: **Regen** (Katja Hartl, 94209 Regen – Schrotthandlung + 
 - **Abbruch-Firmen geschlossen**: Huber, Eisen-Wolf, Preimesser, TD Ebenhausen, Rohstoffhandel Süd, Bachinger, Sejdiu (alle mit Demontage/Abbruch-Leistung).
 - **meinestadt/11880/dasoertliche**: keine über Verzeichnisse hinausgehenden Funde (dasoertliche-Einträge duplizieren Bekannte, z. B. Fischer Johann) – Winkel erschöpft.
 - **Weiter dünn (kein Beleg gefunden)**: Neumarkt-Stadt selbst, Berchtesgaden-Orte jenseits Bischofswiesen, Sonthofen/Oberstdorf, Lindau jenseits Stark/Loacker, Dachau, Erding-Stadt jenseits Soika/Luthner-Umland.
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Stand: 2026-09-27. Winkel: Kandidatenliste /tmp/opencode/audit/by.md (~146 Kandidaten) + Firmen-Websites per curl verifiziert (HTTP-Status + Ankauf-Keywords). Filter: KEEP alles mit Schrott-/Metallbezug (privat/B2B/mobil/Kleinstbetrieb); OUT nur tote/leere Domains, Duplikate, reine Auto-/Retail-Gold-Fälle ohne Schrottlink, Lead-Portale ohne Platz. Seed-Dupes (AUDUNA, Gigler, Carnuth, Eisen-Braun, Koslow, Soika, Graupner) nicht neu aufgenommen.
+
+### Neu: kept (92, davon Ankauf ja: 9)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Fritz Aquila Metall-Recycling e.K. | München (Dachauer Str. 537) | https://www.fritz-aquila.de | Metallrecycling, Ankauf-Seite (fritz-aquila.de/index.php/ankauf, Preise unklar) | ja |
+| Neumüller Metallhandel GmbH | Günzburg (Ortsstr. 19) | http://www.neumueller-gmbh.eu | Metallankauf, Rückbau/Abbruch, Entrümpelung (Ankauf-Seite /leistungen/metall-ankauf/) | ja |
+| Seubert Rohstoffhandel | Lohr am Main (09352/807066) | https://www.seubert-rohstoffhandel.de | Rohstoffhandel, Metallankauf, Container (Ankauf-Seite /ankauf) | ja |
+| Strobl Recyclingzentrum Amberg | Amberg (Gerresheimer Str. 2) | https://www.strobl-container.de/ | Entsorgung, Container, Baustoffe, Metallankauf (leitet auf strobl-entsorgung.de) | ja |
+| Schrott Blank | Roth (Welserstr. 9) | https://www.schrott-blank.de/ | Schrott/Altmetall/Buntmetall, NE-Metalle, Eisenschrott, Container (Familienbetrieb) | unklar |
+| Stirling-Industrie Metallhandel | Neustadt a.d. Aisch (Diebach 67) | https://www.stirling-metallhandel.de/ | Metall/Schrott (Site Cloudflare-geschützt, Inhalt nicht verifizierbar) | unklar |
+| Patrick Stoll Schrottentsorgung | Nürnberg-Reichelsdorf (Schwimbacher Str. 11) | https://www.schrott-stoll.de | mobile Schrottabholung, Entrümpelung/Wohnungsauflösung | unklar |
+| Ochwat Gino (Schrott-Nürnberg) | Nürnberg (Uffenheimer Str. 33) | http://www.schrott-nürnberg.de | Schrott/Container/Demontage (Ankauf von Metallschrott auf Site belegt) | ja |
+| Metall Schulz KG | Nürnberg | http://www.metallschulz.de | NE-Metallhalbzeuge, Zulieferer seit 1905 (B2B, kein Schrottankauf-Beleg) | unklar |
+| Herbig Bayerischer Metallhandel | Nürnberg (Dammstr. 5) | keine Website verifiziert | Metallhandel (eher B2B) | unklar |
+| Schwendner Metall | Nürnberg (Oedenberger Str. 57) | keine Website verifiziert | Metallhandel (eher B2B) | unklar |
+| Nock & Söhne | Fürth (Friedrich-Ebert-Str. 184) | keine Website verifiziert | Schrott | unklar |
+| Schrott B. | Nürnberg-Mögeldorf (Thäterstr. 43) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Schrott Jürgen | Nürnberg-Langwasser (Thomas-Mann-Str. 49A) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Franz Pesteritz | Nürnberg-Kornburg (Spielhagenstr. 11) | keine Website verifiziert | Schrott/Abholung (zur Domain-Vorgeschichte s. Runde 3) | unklar |
+| Kiro Schrotthandel | Nürnberg | keine Website verifiziert | mobile Abholung (nur schrottradar) | unklar |
+| Auto Penkert (Autorecycling Penkert GmbH) | Nürnberg | https://www.autorecycling-penkert.de | Autorecycling, Gebrauchtteile | unklar |
+| Schrott Thomas | Langenzenn (Untere Ringstr. 25a) | keine Website verifiziert | Schrott (≠ Neigert) | unklar |
+| Automobile Götz (Autoverwertung) | Berching (Obere Kanalstr. 14) | http://www.automobilegoetz.de | Autoverwertung, Gebrauchtwagen/Teile (eigene Firma, ≠ Götz Weißenhorn) | unklar |
+| J. Helfert (Schrotthandel Verwaltungs GmbH) | Hilpoltstein (Daimlerstr. 4) | https://www.schrott-helfert.de | Schrotthandel (nimmt Stahl/Metalle ab, Gießerei-Abnahme) | unklar |
+| Bonn Abfallwirtschaft Schrottplatz | Schwabach (Alte Rother Str. 36) | keine Website verifiziert | Schrottplatz | unklar |
+| Florian-Metalle | Bayern (Kleinanzeigen, mobil) | keine Website verifiziert | Kat-Ankauf, mobil | unklar |
+| Faschingbauer Heinrich | München (Josef-Lang-Str. 15) | keine Website verifiziert | Schrott/Abholung | unklar |
+| Hoffmann Karl-Heinz | München (Rappenweg 162) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Eddy's Schrotthandel | München (Josef-Schlicht-Str. 18) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Schulz GmbH Schrottgroßhandel | München (Rupert-Bodner-Str. 25) | http://www.schulz-schrott-metalle.de | Schrottgroßhandel (Site Baustelle, Kontakt per Tel./Mail belegt) | unklar |
+| Böhm Felix KM-Recycling | München (Klugstr. 113) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Herbig Metallhandel München | München (Landsberger Str. 402) | keine Website verifiziert | Metallhandel (eher B2B) | unklar |
+| Roth Company GbR | München (Auf den Schrederwiesen 71) | http://www.roth-company.de | Metallhandel (B2B, nur Frames-Seite) | unklar |
+| Hertle Metallservice | München (Machtlfinger Str. 10) | http://www.stahlmetall.eu | Metallservice/Halbzeuge (B2B, nur Frames-Seite) | unklar |
+| Auto-Service Erz & Eisen GmbH | München (Curd-Jürgens-Str. 4) | keine Website verifiziert | Autoverwertung | unklar |
+| Autoverwertung Koller GmbH | München (Lochhausener Str. 104) | keine Website verifiziert | Autoverwertung | unklar |
+| Goldankauf Noris (Körner Udo) | Nürnberg | https://www.goldankauf-noris.de | Edelmetall-Ankauf inkl. Zahngold/Altgold (Ankaufstellen + Postankauf) | ja |
+| Horski An- und Verkauf | Nürnberg (Welserstr. 7) | keine Website verifiziert | An-/Verkauf, Edelmetall (Branche unklar) | unklar |
+| Seeger Johann (Entsorgungsfachbetrieb) | Schwabmünchen (Schwabegger Str. 30) | http://www.entsorge-alles.de | Entsorgungsfachbetrieb, Metallhandel, Container | unklar |
+| Brendle J. Dienstleistungen | Augsburg (Schönbachstr. 38A) | https://www.brendle-dienstleistungen.de/ | Entrümpelung/Demontage/Haushaltsauflösung/Entsorgung | unklar |
+| Reinhardt Robert | Augsburg (Kobelweg 78a) | keine Website verifiziert | Schrott/Metalle | unklar |
+| Brendle Michael | Fischach (Rudolf-Diesel-Str. 10A) | keine Website verifiziert | Schrott (Einmannbetrieb) | unklar |
+| Bischoff Bastian | Wehringen (Alemannenstr. 7) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Selzam Autoverwertung | Friedberg (Äußere Industriestr. 1) | keine Website verifiziert | Autoverwertung | unklar |
+| Turrina Metallhandel | Landsberg (Max-von-Eyth-Str. 6) | keine Website verifiziert | Metallhandel | unklar |
+| Schrotthandel Geiger | Peißenberg (Forster Str. 17A) | keine Website verifiziert | Schrott | unklar |
+| Schrott Franz | Weilheim (Lienhartstr. 13) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Jürgen Schrott GunRack | Weilheim (Ammerstr. 27) | keine Website verifiziert | Schrott | unklar |
+| Oberland Recycling GmbH | Weilheim (Paradeisstr. 68) | http://www.oberland-recycling.de | Entsorgung/Recycling, Wertstoffe, Container | unklar |
+| AllgäuZinn | Kempten (Hieberstr. 18) | https://allgaeuzinn.de | Zinn/Kupfer/Messing/Kabel-Ankauf, Abholung Allgäu | ja |
+| Götz Memmingen | Memmingen (Kiryat-Shmona-Str. 5) | keine Website verifiziert | Schrott/Metalle (Verhältnis zu Götz Weißenhorn ungeklärt) | unklar |
+| Schrott Karl Autorecycling | Eichstätt | https://www.karl.de/ | Autorecycling, Gebrauchtteile-Shop | unklar |
+| Meier Michael | Regensburg (Plesser Str. 2) | keine Website verifiziert | Schrott | unklar |
+| Bitterbier | Regensburg (Vilshofener Str. 3) | keine Website verifiziert | Metall/Schrott | unklar |
+| Schmidt Marion & Schrott Richard | Regensburg | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Kerscher Georg | Regensburg (An der Irler Höhe 6-8) | keine Website verifiziert | Metallrecycling | unklar |
+| Zellner Recycling | Regensburg (Adresse unklar) | http://www.zellner-recycling.de | Entsorgungsfachbetrieb, Wertstoffverarbeitung | unklar |
+| Kaiser Recycling | Obertraubling (Werner-von-Siemens-Str. 1) | keine Website verifiziert | Recycling | unklar |
+| ACR Containerdienst & Recycling | Regensburg (Wiener Str. 14A) | keine Website verifiziert | Container/Recycling | unklar |
+| Schrott Anita | Schwarzenfeld (Untere Ringstr. 45) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Schrott Anton | Schwarzenfeld (Buchtalweg 15) | keine Website verifiziert | Schrott (Namensvetter, eigene Firma ≠ München) | unklar |
+| Schrott Christian | Kümmersbruck (Wölsenbergstr. 15A) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Schrott Johann | Weiden | keine Website verifiziert | Schrott (nur GS) | unklar |
+| Zagler Helmut | Tirschenreuth | keine Website verifiziert | Altmetall/Container/Neueisen | unklar |
+| Behnke Recycling (Inh. Klaus Behnke) | Tirschenreuth | https://behnke-recycling.de/wp/ | Recycling/Schrott, Autoverwertung, Neueisen (65+ Jahre) | unklar |
+| Preuer Recycling | Würzburg | https://www.preuer.de | Recycling/Shredder, Sekundärrohstoffe (eher B2B) | unklar |
+| Lang Schrotthandel | Würzburg (Georg-Böhm-Str. 1) | http://lang-schrott.de | Schrotthandel/Entsorgung (Google-Sites-Seite) | unklar |
+| Pörtner B. | Würzburg (Holzweg 25) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Lenhart Ludwig sen. | Kitzingen (Adresse unklar) | keine Website verifiziert | Schrott | unklar |
+| Ruft Sascha | Großlangheim (Kirchgasse 15) | keine Website verifiziert | Schrott/Altmetall | unklar |
+| Lenhart Mathias | Haßfurt (Galgenanger 4) | keine Website verifiziert | AV/LKW | unklar |
+| Bruch Susanne | Sand a. Main (Kirchplatz 16) | keine Website verifiziert | Schrott/Demontage (Kleinstbetrieb) | unklar |
+| Peter Baum Schrott | Schweinfurt/Haßfurt/Bad Kissingen (Adresse unklar) | keine Website verifiziert | Schrott (mehrfach gelistet, Adresse unklar) | unklar |
+| Ballweg Schrott | Miltenberg (nur GS) | keine Website verifiziert | Schrott | unklar |
+| Wild-Metall (Thomas Wild) | Weilbach (Lkr. Miltenberg; Weckbacher Str. 5 / Reuboldstr. 10) | keine Website verifiziert | Metallhandel/Schrottplatz (Beleg schrottplatz-info; ≠ Wild-Metall Michelstadt HE) | unklar |
+| Schick Walter Rohprodukte | Aschaffenburg | keine Website verifiziert | Rohprodukte/Altmetall (Branche unklar) | unklar |
+| Schrott Peter | Aschaffenburg (nur GS) | keine Website verifiziert | Schrott | unklar |
+| AK Containerdienst | Aschaffenburg/Alzenau (nur Facebook) | keine Website verifiziert | Containerdienst | unklar |
+| Felbinger GmbH | Alzenau | keine Website verifiziert | Recycling/Metall? (felbinger.de = Offenbach, unpassend) | unklar |
+| JR-Recycling | Alzenau (nur Facebook) | keine Website verifiziert | Recycling (Kleinstbetrieb) | unklar |
+| Schlereth (Schrotthandel Schlereth) | Stammham (Jahnstr. 28) | http://www.schrotthandel-schlereth.de | Schrott/NE-Metalle, Demontage, Container (30+ Jahre) | unklar |
+| Winterstein Mario | Burgbernheim b. Nürnberg (Kandidat: Rothenburg o.d.T.) | https://www.schrottwinterstein.de/ | Schrotthandel, Altmetall-Ankauf mit Vergütung, Container | ja |
+| Becker Timo | Küps (Weidig 6) | keine Website verifiziert | Schrott | unklar |
+| Schrott Josef | Pfaffenhofen (Kleinreichertshofen 4) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Mirfanger Metall (Entsorgungsfachbetrieb) | Deggendorf (Hauptstr. 35) | http://www.containerdienst-deggendorf.de | Metall-/Schrotthandel, Container (Efb) | unklar |
+| Pindel Ernst Containerdienst | Rotthalmünster (Penning 3A) | http://www.containerdienst-ernst-pindel.de | Containerdienst (Metallbezug) | unklar |
+| Kreipl Helmut | Nußdorf (Rauschbergstr. 2) | keine Website verifiziert | Schrott (nur GS) | unklar |
+| Röde Recycling/Transporte | Traunstein | http://www.roede-transporte.de | Recycling/Tiefbau/Abbruch/Container seit 1953 (leitet auf roede-recycling.de; kein Metallankauf-Beleg) | unklar |
+| Gumprich Recycling | Zolling (Flitzinger Str. 33) | https://www.entsorgungsfachbetrieb-gumprich.de | Recycling/Container, Metall-/Schrottannahme (leitet auf gumprich-recycling.de; Ankauf belegt) | ja |
+| Hackner Harald | Raubling (Seestr. 22B) | keine Website verifiziert | Schrott (nur GS) | unklar |
+| Schrott Florian | Bamberg (Heumannstr. 1) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Schrott G. | Bamberg (Michelsberg 8) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Schrott Michael | Bischberg (Föhrenweg 4) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Schumann Joh. | Bayreuth (nur GS) | keine Website verifiziert | Schrott | unklar |
+| Schrott Sabine | Kulmbach (Obere Buchgasse 11) | keine Website verifiziert | Schrott (Kleinstbetrieb) | unklar |
+| Schrott Franz und Nelly | Forchheim (nur GS) | keine Website verifiziert | Schrott | unklar |
+
+### Rejects (28)
+
+- **Bruno Welz (Scheideanstalt/Shop)**: Sitz Schwäbisch Gmünd (BW), nicht Bayern — Shop-Preisliste an BW-Audit melden.
+- **Max Buck (Altauto-/Schrott-/Metallannahme)**: Sitz Ulm (BW), nicht Bayern — trotz Metallankauf-Seite an BW-Audit.
+- **R. Metall & Truck Trading (R-MTT)**: Sitz Merklingen (BW) + LKW-Fokus, nicht Bayern.
+- **Reindel Georg (swrn-nbg.de)**: Domain leitet auf Seed SWRN (swrn.de) — Verbund/Duplikat.
+- **Max Aicher Recycling Nürnberg**: Filiale von Seed Max Aicher Lauingen — Duplikat.
+- **E.+S.N. GmbH Nürnberg**: Domain esnautoverwertung.de tot (000).
+- **KR-Motors GbR Höchstadt**: Domain kr-motors.de tot (000, DNS-Fehler).
+- **M&S Metall & Schrotthandel Rubenbauer**: Freehost-Seite rubenbauer-recycling.de.tl leer (kein Inhalt).
+- **Schrott-Deal UG Grasbrunn**: Domain schrott-deal.de steht zum Verkauf (geparkt, inhaltsleer).
+- **Schrott-Sam / SAM Entsorgung München**: Alias von Seed Schrott Anton GmbH (gleiche Adresse Lerchenstr. 19).
+- **Autoverwertung München (.info)**: Lead-Portal-Template ohne prüfbaren Platz.
+- **AKG-München (autoankauf-24.de)**: Reiner Autoankauf (Pkw/Lkw), kein Schrott/Metall-Beleg.
+- **Auto Yildi e.K. München**: Domain auto-yildi.de tot (000, DNS-Fehler).
+- **Autoentsorgung Deutschland Unterföhring**: Lead-Portal (motorrad-entsorgen.info, Deutschland-Zentrale).
+- **Autoverschrottung München**: Lead-Portal (kostenlose-autoverschrottung.info → expressautoverschrottung.de).
+- **DLS Oberland Herrsching**: Kein Schrottankauf (nur Entrümpelung/Verwertung, Ankauf Militaria) — Runde-4-Negativ bestätigt.
+- **Röwo GmbH Olching**: Domain roewo-gmbh.de tot (000, DNS-Fehler).
+- **GoldSilberHandel Bad Reichenhall**: Domain goldsilberhandel.de geparkt (Hostinger) — kein Beleg, Retail-Verdacht.
+- **Knoll Autoverwertung Balzhausen**: Domain autoverwertung-knoll.de tot (000, DNS-Fehler).
+- **Autoverwertung Augsburg (.info)**: Lead-Portal-Template ohne prüfbaren Platz.
+- **Lacunia GmbH Untermeitingen**: Reine Entrümpelung/Haushaltsauflösung/Nachlass, kein Metallankauf (nur Erlösbeteiligung).
+- **Stampfl Entsorgung Pürgen**: Domain der-staubfreie-abbruch.de tot (000, DNS-Fehler).
+- **Reisacher Rohstoff Vertrieb Lauben**: Website nur Platzhalter (Hier entsteht eine neue Internetpräsenz).
+- **Pfeifer Rainer Würzburg**: Domain schrotthandel-wuerzburg.de tot (000); J. Pfeifer Versbach = eigener Seed-Eintrag.
+- **Sell Recycling Kitzingen**: Bereits Seed (keine neue Info) — Duplikat.
+- **Reinhardt Ulm (Weinbergweg 90)**: Ulm = BW, nicht Bayern; Loiching/Schweinfurt separat (Seed).
+- **Ginter Max (Eisengießerei)**: Reine Eisengießerei (Neumarkt), kein Schrottankauf-Beleg auf maxginter.de.
+- **Carnuth Straubing**: Filiale von Seed Carnuth Bogen/Furth — Duplikat.
+
+### Tote Seed-Websites (Sweep aller by.json-Websites per curl, 27.09.2026)
+
+- **Tot (000)**: https://fischer-recycling.com (Seed Loacker Lindau / ehem. Fischer Recycling Lindau — Domain antwortet nicht mehr).
+- **Umgezogen, aber erreichbar**: https://www.stadler-metalle.de/ → stadler-rawmaterials.com; https://luthner-metallrecycling.de/ → luthner-metall.de.
+- Alle übrigen Seed-Websites liefern HTTP 200.
+
+### Seed-Anreicherungen (26, keine neuen Zeilen)
+
+- **AUDUNA (Seed Aichach)**: Website http://www.auduna.de (Gold-/Altmetall-Ankauf, Händlerpreise) + PREISLISTE https://auduna.de/preistabelle (am 27.09. 404, aber auf Homepage verlinkt).
+- **SMK Kulzer → Seed Kulzer Nürnberg**: Adresse Vogelweiherstr. 48, 90441 Nürnberg.
+- **Klein Thomas & Claudia → Seed Klein Nürnberg**: Adresse Rothenberger Weg 5, 90587 Veitsbronn (Ortsabweichung zu Seed notieren).
+- **Dombrowski Peter → Seed Dombrowski Ammerndorf**: Adresse Erlanger Str. 2, 90765 Fürth (Abweichung zu Seed-Ort Ammerndorf).
+- **Müller Rudolf Altmetall → Seed R. Müller München**: Adresse Georg-Thiele-Str. 2, 81829 München; Website mueller-altmetall.de 404 (tot).
+- **Hartmann Cornelia AV → Seed Hartmann Bergkirchen**: Adresse Himmelreichstr. 23A, 85232 Bergkirchen; Website autoverwertung-hartmann.de 404 (tot).
+- **Schielle Josef → Seed Schielle Mindelheim**: Website http://www.schielle.de (Schrott und Metalle Mindelheim, live).
+- **Eisenhut Peter → Seed Eisenhut Memmingerberg**: Adresse Am Ziegelstadel 24, 87766 Memmingerberg.
+- **Fischl Christian → Seed Fischl Durach**: Website http://www.schrott-fischl.de (Schrott Fischl Durach, Handel/Altauto/Container/Demontage, live).
+- **Bachinger Paul → Seed Bachinger Biessenhofen**: Adresse Gewerbepark 25, 87640 Biessenhofen + Website http://www.bachinger-schrott.de (live).
+- **Schießler → Seed Schießler Kaufbeuren**: Website https://www.schiessler-schrott-metalle.de/ (live mit Leistungen/Anlieferung — NICHT leer).
+- **Stuber GmbH → Seed Stuber Tegernheim**: Adresse Brennbergstr. 14, 93057 Regensburg; stuber-gmbh.de = falsche Firma (Stuber Medien) — keine Website.
+- **Meier Karl-Heinz/Markus → Seed Meier Wenzenbach**: Adresse Führsamweg 6, 93173 Wenzenbach.
+- **Graupner Harry → Seed Graupner Amberg**: Website http://www.graupner-schrott-metall.de/ (am 27.09. 503, ggf. temporär).
+- **Schneck Randolf → Seed Schneck Uffenheim**: Vorname Randolf (Uffenheim/Kitzingen, sellwerk-Profil).
+- **Lelito Niclas → Seed Lelito Mainbernheim**: Vollname Niclas Lelito.
+- **Denk Andreas → Seed Denk Haßfurt**: Adresse Kilianstr. 23, 97437 Haßfurt.
+- **Ruß Thomas → Seed Russ Knetzgau**: Website http://www.schrotthandel-hammerschmidt.de (live; Schrottankauf/Metallankauf auf Site belegt → Seed-Ankauf ggf. ja).
+- **Trapp Uwe → Seed Trapp Lohr**: Website http://www.trapp-alteisen.de (live; Traubengasse 6, 97816 Lohr, nur Abholung, keine Anlieferung).
+- **Heilmann Marcus → Seed Heilmann Alzenau**: Website https://www.containerdienst-heilmann.de (live, nur Titelzeile Schrott & Metall Alzenau).
+- **Will Heinz → Seed Will Mainaschaff**: Vollname Heinz Will (Schrottgroßhandel, Mainaschaff/Aschaffenburg).
+- **Altschäffl Georg → Seed Altschäffl Deggendorf**: Adresse Untere Himmelreichstr. 13, 94469 Deggendorf.
+- **J. Reinhardt → Seed J. Reinhardt Loiching**: Adresse Blumenstr. 4, 84180 Loiching. (Reinhardt Schweinfurt = eigener Seed-Eintrag; Reinhardt Ulm = BW, reject.)
+- **Michael Wolf OHG → Seed Wolf Entsorgung Straubing**: Website http://www.wolf-entsorgung.de (Röntgenstr. 11, 94315 Straubing; Site ohne Schrott-Schwerpunkt).
+- **Baumert Helmut → Seed Baumert Mettenheim**: Adresse Frankfurter Str. 22, 84513 Töging (Abweichung zu Seed-Ort Mettenheim klären).
+- **Soika Peter → Seed Soika Erding**: Adresse Zum Lohfeld 2, 85435 Erding.
+
+### Hinweise
+
+- ProMetall Rottenburg/Laaber: kein Kandidat in der Audit-Liste — keine Prüfung möglich.
+- Keine neue bayerische Preisliste gefunden (nur Ankauf-Seiten ohne Preise: Aquila, Neumüller, Seubert; Strobl leitet auf Homepage). Handler-Flag nur: AUDUNA-Preistabelle (Seed-Anreicherung, https://auduna.de/preistabelle) + Welz-Shop (https://shop.bruno-welz.de/edelmetall-ankauf/, aber BW-Sitz → BW-Audit).

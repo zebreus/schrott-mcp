@@ -258,3 +258,51 @@ Erschöpft (dokumentiert negativ, Runde 4 — keine weiteren Queries nötig):
   41,5 km); kein Hafen-/Schiffsrecycler mit Publikums-Ankauf — geschlossen.
 - Efb-Register SH: 3. Abrufversuch Transport-Error (nach 404/Block) — erschöpft.
 - Kleinanzeigen SH-Schrottankauf: 403 Bot-Schutz — erschöpft.
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Geprüft: 24 Kandidaten aus /tmp/opencode/audit/sh.md (23 neu + Thiesen/Bötel als
+Seed-Dupe-Verdacht). Websites per Direktabruf verifiziert (alle 200, sofern genannt);
+Websuche war totalausgefallen (auch Trivialqueries ohne Treffer) — Ersatz via
+Seiten-Content-Grep (Ankauf-/Zahngold-Zählung), Redirect-Verfolgung, Sitemap-Checks
+und Vorrunden-Belege (GS-Branche). Filter: KEEP alles mit Schrott-/Metall-Ankauf
+oder -Annahme (privat, B2B, Gewerbe-only, mobil); Ankauf „ja" nur mit Beleg.
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|------|-------------------|---------|-------------|--------|
+| Edelmetallhandel Lübeck Dennis Suitner e.K. | Lübeck 23552 | https://goldankauf-luebeck.de | Edelmetall, Online-Ankauf + Laden. PREISLISTE: https://www.goldankauf-luebeck.de/ankaufspreise/ | ja |
+| Goldhandel Flensburg | Flensburg 24943, Angelsunder Weg 38 | https://goldhandel-flensburg.de | Edelmetall, Zahngold (4 Belege), Silberbesteck, 33× „Ankauf" | ja |
+| Pacht Gold-, Münzen- und Edelmetallhandel | Kiel 24105 | https://pacht-kiel.de | Münzhandel + Edelmetall-Shop (An-/Verkauf, Zahngold), Livepreise; keine separate Ankaufspreis-Seite (404) | ja |
+| Hartweg Metallgroßhandel / Rohstoff-Recycling GmbH | Lübeck-Kücknitz 23569, Traveweg 2-4A | https://hartweg-recycling.de | Buntmetall-/Schrott-Ankauf („kaufen nahezu alle Altmetalle/Schrotte"), Tagespreise; Annahme v.a. Betriebe/Handwerk (Gewerbe-only) | ja |
+| deinkat GmbH | Lübeck 23556 | https://deinkat.de | Bundesweiter Online-Kat-Ankauf („bis 1.000 €"); keine Preislistenseite (Sitemap: nur kat-ankauf-Seiten) | ja |
+| METALLOY Metalle-Legierungen GmbH | Norderstedt 22844 | https://metalloy.de | NE-/Superlegierungen Ni/Co/Ti, Rücknahme + Aufbereitung (rein B2B, CRONIMET-Umfeld); kein Publikums-Ankauf belegt | unklar |
+| Schrotthandlung Ivers | Tarp 24963 | keine Website verifiziert | Schrott-Kleinbetrieb (GS-Branche) | ja |
+| Schrott Bastian Inh. Sven Pätz | Windbergen 25729 | keine Website verifiziert | Schrott-Kleinbetrieb Dithmarschen (GS-Branche) | ja |
+| Autohof Brehm Autoverwertung | Schwentinental-Brehm 24222, Wasserwerksweg 16 | keine Website verifiziert | Autoverwertung (Verzeichnis; Domain-Hinweis ungeklärt) | ja (Autoverwertung-Flag) |
+| Klass M. Autoverwertung und Abschleppdienst | Rellingen 25462, Adlerstr. 36 | keine Website verifiziert | AV-Kleinbetrieb + Abschleppdienst | ja (Autoverwertung-Flag) |
+| Richter Adolf Stahl-Metalle-Kunststoffe GmbH | Kiel 24145, Bunsenstr. 2A | https://richter-kiel.de | Fachhandel Stahl/Metalle/Kunststoffe (Verkauf); 0× „Ankauf" auf Website | unklar |
+| nordisk metal e.k. | Flensburg 24943, Preesterbarg 31 | keine Website verifiziert | Metallhandel (Vorrunden: Halbzeuge, kein Ankauf-Beleg) | unklar |
+| Rohstoffhandel Kiel GmbH & Co. KG (RHK) | Kiel 24145, Ottostr. 10 | https://rhk-kiel.de | Entsorger, „Schrott" als Entsorgungsleistung; keine Vergütung belegt | unklar |
+| Timo Müller Altmetall | Herzhorn (firmiert Hamburg, mobil in SH tätig) | keine Website verifiziert | Mobiler Altmetall-Sammler (E-Motoren/Hartmetall); kein Dupe im HH-Seed | unklar |
+| Nissen Nico | Neukirchen 25927, Hochhörn 23 | keine Website verifiziert | Wohl Abschleppdienst (GS-AV-Branche), Verwertungsbezug unbelegt | unklar |
+| UTM Umwelt-Technik-Metallrecycling GmbH | Lübeck 23569 | keine Website verifiziert | Metallrecycling (Verzeichnis), Ankauf unbelegt | unklar |
+| von Pegasus Goldankauf & Edelmetallhandel | Lübeck 23554, Schwartauer Allee 4 | keine Website verifiziert | Edelmetall-Ankauf (Verzeichnis), Sortiment unbelegt | unklar |
+| Edelmetallhandel und Goldankauf | Lübeck-Travemünde 23570, Rose 10-12 | keine Website verifiziert | Edelmetall-Ankauf (Firmenname = Branchenlabel), Sortiment unbelegt | unklar |
+
+Rejects (Name — Grund):
+- Schrotthandel Thiesen, Wanderup — Duplikat Seed-#19 (Thiesen = belegter Name zum Wanderup-Eintrag, Groß-Lück 1).
+- Bötel Petra Schrott u. Metallhandel, Uetersen — Duplikat Seed-#39 P. Bötel Uetersen (gleicher Ort + Branche, Familie/selber Betrieb).
+- EU Altautoentsorgung, Pinneberg — Lead-Portal ohne Hof (Redirect auf europaeische-autoverwerter.de, 0× Pinneberg).
+- Icon Carbon, Rendsburg — kein Schrott-Bezug, Domain parkt (Froxlor-Default-Page).
+- Johann Gaedeke Handel Metalle-Feinchemikalien (MET-CHEM), Lübeck — Feinchemikalien-Handel, Domain met-chem.de tot, kein Ankauf-Beleg.
+- ReMA-Parts GmbH, Ahrensburg — reiner Autoteile-Online-Shop (rema-parts.de), kein Kat-Ankauf-Beleg.
+
+Seed-Website-Sweep (46 URLs, 27.09.2026 — tot/auffällig):
+- https://schrotthandel-nordfriesland.de (#73 Langenhorn) — TOT (Transport-Error, wie Runde 4).
+- https://autoverwertung-nemitz.de (#74) — 403 Bot-Challenge (blockiert, nicht tot).
+- https://www.buhck.de/unternehmen/standorte (#92) — 404 (Domain lebt, umgezogen nach https://buhck-gruppe.de/, Pfad restrukturiert).
+- https://schrottschollischrotthandel.de/ — Redirect auf gratis Webador-Subdomain (gratis-4658482.webadorsite.com).
+- Rest 42 URLs OK (200), u.a. TSR wieder erreichbar (war blockiert); sjm-hamburg.de → Jacob-Metal-Group-/en (bekannt).
+
+Koordination: WEGRO ohne neuen Kandidaten — SH-Seed (Rellingen = Sitz) + HH-Seed
+(„WEGRO GmbH, Lager Rellingen; HH-Tel." = Zweigstelle) koexistieren, kein Handlungsbedarf.

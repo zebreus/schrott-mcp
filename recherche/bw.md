@@ -288,3 +288,177 @@ Negativ/erschöpft: Öhringen, Künzelsau, Calw (nur generische Kategorie-Seiten
 - Reinhardt Freiburg: Ludwig Reinhardt lt. dastelefonbuch.de jetzt Goldammerweg 6 (Bestand: Am Lindenwäldle 24 – Adresskorrektur prüfen); Leonardo Reinhardt (Auggener Weg 67, Weingarten) gleicher Familienname, gleicher PLZ-Raum – getrennt lassen, Familienvermerk möglich.
 - Bereits vermerkte Verdachtsfälle bleiben bestehen (Stiefel/Stiefel Leinzell gleiche Adresse; Schneck Fichtenau vs. Michelbach; Shala/M Shala Offenburg; Specht 2 Adressen MA-Seckenheim; Wagner Johann/Michael Karlsruhe getrennte Adressen).
 - Dead-Site-Check (alle HTTP 200, keine toten Sites): hettinger-schrott.de, hmh-metallhandel.de, schrott-wetzel.de, claus-schrott.de, bz-metall.de, dettelbach.com, schwarzrecycling.de, schrott-bosch.de, igler-schrott-metall.de, wieser-containerdienst.de, muellex-entsorgung.de, leberrohstoffe.com, ohnemus-recycling.de, lang-recycling.de, mattusch-gmbh.de, renz-rohstoffe.de, smv-goeppingen.de, burger-recycling.de, hofmann-entsorgung.de, schrott-hofmann.de, an-schrott.de, wittmann-schrotthandel.de, schrotthandel-wittmann.de. Einzige Auffälligkeiten: schrott-frank.de 403 (existent, Bot-Schutz), heimerdinger-schwarz.de 200 aber nur Platzhalter (Bestands-„unklar" bleibt).
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Stand: 27.09.2026. Fokus: Audit-Vorlage Runde 1 (~30 Website-Kandidaten + ~70 Register-Kandidaten ohne Website + ~20 Autoverwerter ohne Website), Umland-Klärfälle, Seed-Website-Sweep (157 Einträge, 103 eindeutige URLs per curl geprüft). Regel: Ankauf "ja" nur mit Website-Beleg, sonst "unklar"; keine verifizierte Website → "keine Website verifiziert".
+
+### Neueinträge mit Website (verifiziert per HTTP-Abruf)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Sarfert Schrott & Metallhandel | Heilbronn/Öhringen | https://schrott-sarfert.de/ | Schrott/Metall/Container, Familienbetrieb | ja |
+| Autoverwertung Weiser GmbH | Öhringen | https://schrottplatz-oehringen.de/ | AV/Schrott/Metall, Efb seit 2025, tagesaktuelle Preise | ja |
+| MIELNIK GmbH | Rottweil 78628 (Filialen Horb + Schömberg) | https://mielnik.de/ | Schrott-/Rohstoffhandel, Container, Efb, 40+ Jahre | ja |
+| 0711-REC Computerschrott-Ankauf | Stuttgart | https://www.computerschrott-ankauf-stuttgart.de/ | E-Schrott PC/Server/Platinen, nur Gewerbe, kostenlose Abholung, Ankaufspreise auf Website | ja |
+| GHM-IT REC | Stuttgart/Fellbach 70734 | https://www.pcschrott-ankauf-stuttgart.de/ | E-Schrott/Remarketing, nur Gewerbe, Express-Abholung, Ankaufspreise auf Website | ja |
+| Schrott-Hartmetall | Mannheim 68309 (per Kontakt-Seite belegt) | https://schrott-hartmetall.de/ | Hartmetall VHM/HSS/WSP, eigene ANKAUF-Seite | ja |
+| Bio Goldankauf (Patrick Müller) | Pforzheim 75177, Salierstr. 29a | https://bio-goldankauf.de | Gold/Silber/Zahngold/Schmuck, Laden, Bar, seit 1997 | ja |
+| DILSE Rohstoffhandel GmbH | Singen 78224 | https://dilse-rohstoffhandel.de | Entsorgung/Recycling, Altfahrzeuge-Flag lt. Register | unklar |
+| Schuler Rohstoff GmbH | Singen, Werner-von-Siemens-Str. 9 + Deißlingen, Bahnhofstr. 101-105 (≠ Schuler Simon AV) | https://schuler-rohstoff.de | Schrott-/Rohstoffhandel, Efb, BDSV, seit 1919 | ja |
+| Walter Kunze GmbH | Herbrechtingen 89542 + Langenau 89129 | https://www.kunze-group.de/ | Schrott-/Metallhandel, Efb, 60+ Jahre (weitere Standorte in SN, nicht BW) | ja |
+| BORA Metallhandel GmbH | Kirchheim unter Teck 73230 | https://www.bora-metallhandel.de | Metallhandel (JS-Seite, Inhalt per curl nicht lesbar; kein 403 mehr) | unklar |
+| Buntmetallhandel MIS GmbH | Mannheim 68199, Innstr. 10 | https://mis-buntmetall.de | Buntmetall-/Schrott-Ankauf (Schema: "Ankauf von Buntmetallen & Schrott") | ja |
+| EG-Metall GmbH | Mannheim 68219, Ruhrorter Str. 23 (+ Asperg) | https://eg-metall.de | Schrott-/Metallhandel, Verschrottung, Industrierückbau | ja |
+| RHD Rohstoffhandel & Dienstleistungen GmbH | Neuenstein 74632, Carl-Benz-Str. 2 | https://rhd-neuenstein.de | Rohstoff/Container, Efb, Schrott in Abfallliste, Vergütung n.e. | unklar |
+| Föll Rohstoffhandel GmbH | Wangen 88239, Zeppelinstr. 77 (Stamm Allgäu) | https://foell-rohstoffhandel.de | Schrott & Metall seit 1942, Container | ja |
+| Maciej Kluj Schrott & Recycling | Stuttgart 70327, Goldbergstr. 27 | https://schrott-kluj.de | Buntmetalle/Kabel, Barzahlung, Abholung | ja |
+| Karle Recycling GmbH | Stuttgart-Feuerbach 70469 (+ Böblingen) | https://karle-recycling.de | Eisenschrott/NE, Wertstoffhöfe, Efb PREISLISTE: https://www.karlerecycling.de/preise-eisenschrotte-und-nichteisenmetalle-feuerbach/ + https://www.karlerecycling.de/preise-eisenschrotte-und-nichteisenmetalle-boeblingen/ | ja |
+| Bühler Metallhandel (Tobias Bühler) | Plüderhausen 73655, Birkenallee 95 | https://buehler-metallhandel.de | Altmetall-Ankauf, E-Schrott, Katalysatoren | ja |
+| Hoffmann Rohstoffe | Lauchringen, Industriestr. 8 | https://hoffmann-rohstoffe.de | Metall-/Schrotthandel, Container, Efb | ja |
+| Bürck Rohstoffhandel & Recycling GmbH | Achern 77855, Scheif 1 | https://www.buerck-achern.de | Rohstoffhandel/Entsorgung (JS-Seite, Ankauf n.e.) | unklar |
+| SecondBuy / Second IT Store GmbH | Schwäbisch Hall 74523, Steinbeisweg 1 | https://second-it-store.de | Gebraucht-IT/Remarketing, eigene IT-Ankauf-Seite | ja |
+| ETEC Recycling GmbH | St. Leon-Rot, Mühlwiesenstr. 19 | https://etec-recycling.de | E-Schrott-Erstbehandlung + expliziter Schrott-/NE-Ankauf | ja |
+| Noba Kabel Verwertung GmbH | Herbertingen, Obere Bergen Str. 8 | keine Website verifiziert | Kabelschrott | unklar |
+| A&N Electrorecycling GmbH & Co. KG | Hockenheim/Mannheim (0621) | https://an-electrorecycling.de | E-/Computerschrott-Ankauf, Remarketing, Efb | ja |
+
+### Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Lindauer & Co. | Heilbronn | keine Website verifiziert | Schrottgroßhandel lt. Register | unklar |
+| RN Metallhandel | Mannheim, Ruhrorter Str. | keine Website verifiziert | Metallhandel/Schrott | unklar |
+| J. Schreiber | Kippenheim | keine Website verifiziert | Schrott lt. Register | unklar |
+| Hurter | Malterdingen | keine Website verifiziert | Schrott (?) | unklar |
+| Manuel Reinhardt | Freiburg (mobil) | keine Website verifiziert | Schrott, mobil (Familie Reinhardt) | unklar |
+| Bruch & Söhne / Patrick Bruch | Walldürn (gleiche Str.) | keine Website verifiziert | Schrott | unklar |
+| GEPARD | Möglingen | keine Website verifiziert | Schrott, nur B2B | unklar |
+| Dinkel | Stuttgart-Möhringen | keine Website verifiziert | Tätigkeit unklar | unklar |
+| HEZEL | Mönchweiler | keine Website verifiziert | Schrott lt. Register | unklar |
+| Amend Rohstoff | Kehl, Oststr. 20 | keine Website verifiziert | Rohstoffhandel | unklar |
+| Steinel Recycling | Ammerbuch | keine Website verifiziert | Recycling (AV?) | unklar |
+| Willi Lutz | Deckenpfronn | keine Website verifiziert | Schrott | unklar |
+| Bimbes und Rudi | Winnenden | keine Website verifiziert | Kleinstfirma | unklar |
+| Hermann Fink | Böblingen | keine Website verifiziert | Schrott lt. Register | unklar |
+| MK Schrott | Argenbühl (≠ MK Cleebronn/Seed) | keine Website verifiziert | Schrott | unklar |
+| MHS Metallhandel | Stuttgart, Am Westkai 45 | keine Website verifiziert | Metallhandel | unklar |
+| Walter Ott | Rutesheim | keine Website verifiziert | Schrott lt. Register | unklar |
+| Ronny Kindla | Mannheim | keine Website verifiziert | Schrott (?) | unklar |
+| Georg Laubinger | Schwetzingen | keine Website verifiziert | Schrott lt. Register | unklar |
+| Fr. von Gries | Mannheim, Pfingstweidstr. 24 | keine Website verifiziert | Schrott lt. Register | unklar |
+| Günter Präg | Mannheim, Ruhrorter Str. 7 | keine Website verifiziert | Schrott lt. Register | unklar |
+| Gert Streck | Mannheim | keine Website verifiziert | Schrott | unklar |
+| Schrottprofi | Mannheim 68309 (mobil) | keine Website verifiziert | Schrott, mobil | unklar |
+| Südroh | Rheinstetten, Daimler-Benz-Str. 8 | keine Website verifiziert | Rohstoffhandel | unklar |
+| Kühn Entsorgung | Karlsruhe (≠ Rudi Kühn + RR Kühn/Seed) | keine Website verifiziert | Entsorgung/Schrott, Abgrenzung offen | unklar |
+| Metall Service Pedack | Karlsruhe, Rheinhafenstr. 12 | keine Website verifiziert | Metall-Service | unklar |
+| Gebrüder Braun | Leinfelden-Echterdingen | keine Website verifiziert | Schrott lt. Register | unklar |
+| Weber Rohstoff | Kehl, Rheinstr. 75 | keine Website verifiziert | Rohstoffhandel | unklar |
+| Feil | Crailsheim (≠ Feile Rot a.d. Rot/Runde 2) | keine Website verifiziert | Schrott | unklar |
+| Schwarz Rohstoff | Oberderdingen (≠ Schwarz Renchen/Runde 3) | keine Website verifiziert | Rohstoffhandel | unklar |
+| MET Schrott (Mehmet Sahin) | Edingen-Neckarhausen | keine Website verifiziert | Schrott | unklar |
+| Klein Metallrecycling/Containerdienst (Claudia Klein) | Forst (Altfahrzeuge-Flag) | keine Website verifiziert | Metallrecycling/Container | unklar |
+| Metallverwertungsgesellschaft | Gottenheim | keine Website verifiziert | Metallverwertung | unklar |
+| MK Recycling (Metin Kandogmus) | Leimen | keine Website verifiziert | Recycling/Schrott | unklar |
+| Franz Schoder | Leutkirch | keine Website verifiziert | Schrott (Schredder?) | unklar |
+| Fischer Rohstoff-Recycling | Weinstadt | keine Website verifiziert | Rohstoff-Recycling | unklar |
+| Wöhrle | Schramberg | keine Website verifiziert | Schrott lt. Register | unklar |
+| Ritter Recycling (Julia Ritter) | Schutterwald | keine Website verifiziert | Recycling/Schrott | unklar |
+| H. Bernhardt | Stuttgart-Vaihingen (≠ R. Bernhardt/Seed) | keine Website verifiziert | Schrott | unklar |
+| Eisele | Waldbronn | keine Website verifiziert | Schrott lt. Register | unklar |
+| Degenkolbe | Stuttgart (Karle-Gruppe lt. karlerecycling.de) | keine Website verifiziert | Recycling/Wertstoffhof, eigener Eintrag | unklar |
+| Vanni | Pforzheim | keine Website verifiziert | Schrott lt. Register | unklar |
+| Didicher | Pforzheim | keine Website verifiziert | Schrott lt. Register | unklar |
+| Weick | Pforzheim | keine Website verifiziert | Schrott lt. Register | unklar |
+| UEV | Heilbronn | keine Website verifiziert | Tätigkeit unklar | unklar |
+| recycLANG | Gaggenau (mglw. Lang-Gruppe, Klärung offen) | keine Website verifiziert | Recycling/Schrott | unklar |
+| upcycling innovations | Achern (Branche unklar) | keine Website verifiziert | Upcycling (?) | unklar |
+| ECOPROEKT | Stuttgart | keine Website verifiziert | Tätigkeit unklar | unklar |
+| Förster | Lahr | keine Website verifiziert | Schrott lt. Register | unklar |
+| Schilling (Arno Schilling) | Böbingen, Am Barnberg 8 | keine Website verifiziert | Schrott | unklar |
+| Kurt Rieß Nachfolger | Ehningen | keine Website verifiziert | Schrott | unklar |
+| Carl-Heinz Scholz | Brigachtal (≠ Scholz Essingen/Seed) | keine Website verifiziert | Schrott, Gruppenbezug unbelegt | unklar |
+| Green IT Solution | Ellwangen | keine Website verifiziert | IT-Verwertung (?) | unklar |
+| inomet | Mössingen | keine Website verifiziert | Metall lt. Register | unklar |
+| Klumpp | Freudenstadt | keine Website verifiziert | Schrott lt. Register | unklar |
+| MV Elektronik Recycling | Bad Krozingen | keine Website verifiziert | Elektronik-Recycling | unklar |
+| RRG Roeder | Bad Krozingen (≠ Roeder Emmendingen/Seed) | keine Website verifiziert | Verwertung, Abgrenzung offen | unklar |
+| Lins Recycling | Mannheim | keine Website verifiziert | Recycling/Schrott | unklar |
+| SKB | Freiburg | keine Website verifiziert | Tätigkeit unklar | unklar |
+| Oettinger | Malsch | keine Website verifiziert | Schrott lt. Register | unklar |
+| Kühl Entsorgung & Recycling Südwest | Karlsruhe (+ Lauda + Efringen) | keine Website verifiziert | Entsorgung/Recycling | unklar |
+| FREY | Königsbach-Stein (AV-Flag) | keine Website verifiziert | Autoverwertung (?) | unklar |
+| Weber | Renchen | keine Website verifiziert | Schrott lt. Register | unklar |
+| CR Recycling (Aydemir Cinar) | Oberderdingen | keine Website verifiziert | Recycling/Schrott | unklar |
+| Hager | Inzigkofen | keine Website verifiziert | Schrott lt. Register | unklar |
+| Häffner | Asperg | keine Website verifiziert | Schrott lt. Register | unklar |
+| Metallrecycling Müller | Kabelstr. (Ort unklar; kein Bezug zu Müller MG/NRW) | keine Website verifiziert | Metallrecycling | unklar |
+
+### Autoverwerter BW ohne Website (Ankauf unklar, kein Gegenbeleg)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Bakarozos | Heidelberg | keine Website verifiziert | Autoverwertung | unklar |
+| Neumann | Gemmingen | keine Website verifiziert | Autoverwertung | unklar |
+| Knittlingen | Knittlingen | keine Website verifiziert | Autoverwertung | unklar |
+| Kaygun | Eppingen | keine Website verifiziert | Autoverwertung | unklar |
+| Herfel | Abstatt (+ Kirchardt) | keine Website verifiziert | Autoverwertung | unklar |
+| Hans Schwarz | Abstatt | keine Website verifiziert | Autoverwertung/Händler (?) | unklar |
+| Simsek | Böbingen | keine Website verifiziert | Autoverwertung | unklar |
+| ADEL | Schwaikheim | keine Website verifiziert | Autoverwertung | unklar |
+| Schlauch | Hüffenhardt | keine Website verifiziert | Autoverwertung | unklar |
+| Erb | Obrigheim (Kleinstfirma) | keine Website verifiziert | Autoverwertung | unklar |
+| Schwald | Murg | keine Website verifiziert | Autoverwertung | unklar |
+| Haug | Schemmerhofen | keine Website verifiziert | Autoverwertung | unklar |
+| Göggel | Trochtelfingen | keine Website verifiziert | Autoverwertung | unklar |
+| Gebr. Batt | Pfalzgrafenweiler | keine Website verifiziert | Autoverwertung | unklar |
+| AaM | Muggensturm | keine Website verifiziert | Autoverwertung | unklar |
+| Bergmann | Rheinfelden | keine Website verifiziert | Autoverwertung | unklar |
+| Meyer | Nattheim | keine Website verifiziert | Autoverwertung | unklar |
+| TEM | Rastatt | keine Website verifiziert | Autoverwertung | unklar |
+| Fischer | Bad Saulgau | keine Website verifiziert | Autoverwertung | unklar |
+| Schirdewan | Pforzheim | keine Website verifiziert | Autoverwertung | unklar |
+
+### Abgelehnt (mit Grund)
+
+- Kettner Edelmetalle (VS, kettner-edelmetalle.de): kauft ausschließlich Anlage-Barren/Münzen, explizit kein Altgold/Zahngold/Schmuck → reiner Anlagegold-Handel, kein Schrottbezug.
+- MS-Zinn Großhandel (ms-zinn.de): Hersteller von Zinnlegierungen, kein Ankauf belegt; Sitz Pfaffenhofen a.d. Roth = Bayern → OUT (Hersteller + BY).
+- ProMetall GmbH (prometall-gmbh.de): Impressum 84056 Rottenburg (= Rottenburg a.d. Laaber, Bayern) → Handoff BY-Runde.
+- Oehle Rohstoffverwertung Singen: Seed-Duplikat → kein Neueintrag.
+- Klaus Peters Sindelfingen: wahrscheinlich identisch mit Seed "Peters Entsorgung & Recycling" (gleicher Ort) → kein Neueintrag.
+- Schrott Cändy Wittmann Mannheim: gehört zu Seed "Schrotthandel Wittmann" (Relaisstr. 86; vgl. Wittmann-Klärung Runde 4) → kein Neueintrag.
+- Neuss Vaihingen/Enz: neuss-gmbh.de = Gebäudereinigung Neuß GmbH ("Webpräsenz im Aufbau"), kein Schrottbezug → OUT.
+- Helfert-Metalle Remseck: helfert-metalle.de = "Hier entsteht eine neue Homepage", kein Ankaufbeleg → OUT.
+
+### Umland-Klärfälle (Auflösung)
+
+- Max Buck Ulm: bereits Seed (bw-ulm-max-buck) → kein Neueintrag; Handoff-Vermerk BY.
+- ReDo Recycling Donautal Ulm (redo-ulm.de, 200, expliziter Schrottankauf mit Vergütung ab 1 kg/200 kg): Impressum Boschstraße 20, 89079 Ulm (identisch mit Max-Buck-Adresse) → per Abstimmung BY-Runde, kein BW-Eintrag (PLZ zur Gegenprüfung notiert).
+- ESG Rheinstetten (scheideanstalt.de): bereits Seed → kein Neueintrag.
+- "Scheideanstalt Pforzheim" (Versand-Scheideanstalt aus ST-Runde): keine Website/Adresse verifizierbar (Websuche defekt) → kein Eintrag; ST-Runde muss Beleg liefern.
+- Schwarz: Renchen (Bestand Runde 3) vs. Oberderdingen (neu) = getrennte Orte/Firmen → beide bleiben.
+- Roeder: Emmendingen (Seed) vs. RRG Bad Krozingen (neu) = getrennt → beide bleiben.
+- Lang: Gerhard Gaggenau (Bestand Runde 3) vs. recycLANG Gaggenau (neu) = mglw. gleiche Gruppe, getrennt gelistet, Klärung offen.
+- Gölz/GÖREC Friemar: Thüringen → kein BW-Bezug, kein Eintrag.
+- Scholz: Essingen (Seed) vs. Carl-Heinz Scholz Brigachtal (neu) = getrennt, Gruppenbezug unbelegt.
+- Kühn: Rudi Kühn KA + RR Kühn Stutensee (Seed) vs. Kühn Entsorgung KA (neu) = dritter Eintrag, Abgrenzung offen.
+- Feile Rot a.d. Rot (Runde 2) vs. Feil Crailsheim (neu) = getrennte Orte → beide bleiben.
+- MK Metalle Cleebronn (Seed) vs. MK Schrott Argenbühl (neu) = getrennt → beide bleiben.
+- R. Bernhardt Lichtenstein (Seed) vs. H. Bernhardt S-Vaihingen (neu) = getrennt → beide bleiben.
+- Hoffmann: Rohstoffe Lauchringen (neu, BW) vs. Patrick Hoffmann Germersheim (RP) = getrennt, RP außer Scope.
+- Schuler Rohstoff Singen/Deißlingen (neu) vs. Schuler Simon AV Deißlingen (Runde 2) = getrennte Betriebe bestätigt.
+- Degenkolbe Stuttgart: gehört zur Karle-Gruppe (Beleg karlerecycling.de) → eigener Eintrag bleibt (unklar).
+- Föll Wangen: BW-Standort (88239) bestätigt → BW-Eintrag; Stamm Allgäu (BY) außer Scope.
+- Kunze: SN-Standorte (Freital/Großenhain/Dresden) außer Scope; BW-Eintrag nur Herbrechtingen/Langenau.
+
+### Seed-Website-Sweep (103 eindeutige URLs, alle per curl geprüft)
+
+- Tot: keine (alle URLs liefern HTTP 200 oder bekannten Bot-Schutz).
+- Blockiert (403, existent, Bot-Schutz — kein Handlungsbedarf): scheideanstalt.de (ESG, bekannt), schrott-frank.de (bekannt), schrotthandel-k-buechler.jimdosite.com (bekannt, Cloudflare-Schutz).
+- Umgeleitet (Ziel lebt, ggf. Seed-URL aktualisieren): wittmann-schrotthandel.de → https://www.schrottabholung-mannheim.de/ (Dieter/Silvano Wittmann, Runde 4); ohnemus-recycling.de → https://www.scherrieble-gruppe.de/member/ohnemus-recycling/ (Ohnemus jetzt Scherrieble-Gruppe); leberrohstoffe.com → /leber/-Unterpfad; cronimet.de → /en/; ganz-containerdienst.de → Homepage.
+
+### Handoff BY-Audit (27.09.2026, kein md2seed gelaufen)
+- Bruno Welz Scheideanstalt | Schwäbisch Gmünd (BW!) | http://www.bruno-welz.de | Scheideanstalt, Edelmetall, Dentalgold | https://shop.bruno-welz.de/edelmetall-ankauf/ | PREISLISTE (echte Ankauf-Preisliste) → Handler-Fall BW
+- Max Buck Altauto-/Schrott-/Metallannahme | Ulm 89079, Boschstr. 20 (BW!) | http://www.max-buck.de | AV, Metallankauf | http://www.max-buck.de/ankauf/metalle/ | Annahme-Seite → prüfen
+- R. Metall & Truck Trading | Merklingen 89188, Industriestr. 6 (BW!) | http://www.r-mtt.de | Metallhandel, LKW-Ankauf | http://www.r-mtt.de/nutzfahrzeugankauf/ | ? LKW-Fokus → prüfen
+- Reinhardt Schrotthandel | Ulm 89075, Weinbergweg 90 (BW!) | keine | Schrott | keine | ? anderer Reinhardt als Loiching/Schweinfurt → prüfen

@@ -227,3 +227,139 @@ PagesJaunes, Das Örtliche KL/Eifel/Mosel-Restdörfer ohne Neufund.
 - wer-liefert-was (wlw.de), schrottregister.pages.dev (Fachbetrieberegister Altfahrzeuge + Entsorgungsfachbetriebe), lokaleschrottplatz.de, schrottplatz.org
 - Kleinanzeigen (gewerbliche Aufkäufer: TMS Worms, R&S Mülheim-Kärlich, SWR Koblenz)
 - Unternehmensseiten: steil.de, tsr-recycling.de, jakob-becker.de, becker-maurer.de
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Methodik: curl-Verifikation aller Kandidaten-Websites (Status + Redirect-Ziel + Ankauf-/Preis-Textbeleg),
+Seed-Website-Sweep aller 41 URLs aus rp.json, Duplikat-Abgleich gegen alle 79 Seed-Einträge,
+Ketten-Abgleich Rheinische Scheidestätte gegen NW-/HE-/HH-Seeds (dort Filial-Einträge mit
+Basis-URL — RP analog als Filialen). Websuche ausgefallen (keine Treffer) — Duplikate daher
+per Verzeichnis-/Adress-Evidenz + Vorrunden-Belege aufgelöst. Filter: KEEP alles mit
+Schrott-/Metall-Ankauf oder -Sammlung (privat, B2B, mobil, Kleinstbetriebe, Familien je
+unterscheidbarer Adresse); Ankauf "ja" nur mit Textbeleg, sonst "unklar".
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|------|-------------------|---------|-------------|--------|
+| Schneider Recycling GmbH & Co. KG | Simmern, Fuhrweg 1-3, 56337 | https://www.schneider-recycling.de (leitet auf schneider-recycling.com: Portalwahl zweier Schneider-Firmen) | Schrott/Metall/Container | unklar |
+| Ziehl Goldankauf | Koblenz 56068 | https://www.ziehl-goldankauf.de (live, aber Wartungsmodus-Seite) | Edelmetallankauf | unklar |
+| Geld für Gold Dagmar Müller (Edelmetallkontor) | Bad Kreuznach | https://www.edelmetallkontor.de (leitet auf geldfuergold.de) | Edelmetall, Zahngold/Dentalgold, Silber; PREISLISTE: https://geldfuergold.de/ankaufsrechner/ | ja |
+| Spurzem Josef | Mayen 56727 | https://www.spurzem.de | Schrottplatz/Metallhandel/Autoverwertung, "Ankauf von NE & FE-Metallen" (keine Preisliste gefunden) | ja |
+| Nagelsky GmbH | Mayen 56727 | https://www.nagelsky.de/leistungen/ankauf-von-stahlschrott-und-ne-metallen/ | Stahl-/NE-Ankauf "zu stets aktuellen Marktpreisen", Container (keine Preisliste mit Beträgen) | ja |
+| Mussbach Metall GmbH & Co. KG | Neustadt-Mußbach 67435 | keine Website verifiziert (mussbach-metall.de: https tot, http parkt auf Google) | Metallhandel | unklar |
+| TKM Materialveredelung GmbH | Landau 76829 | https://www.tkm-landau.de | Alu-Recycling, Industrie (B2B ok) | unklar |
+| Rheinische Scheidestätte (Filiale Trier) | Trier 54290, Konstantinstraße 8-10 | https://rheinische-scheidestaette.de | Dentalgold/Schmuck/Uhren-Ankauf, Filiale der Kette (vgl. NW/HE/HH-Seeds) | ja |
+| Rheinische Scheidestätte (Filiale Kaiserslautern) | Kaiserslautern 67655, Marktstraße 15-17 | https://rheinische-scheidestaette.de | dto. Filiale | ja |
+| HÖHL Containerdienst | Speyer, Alte Rheinhäuser Str. 15 | keine Website verifiziert | Containerdienst | unklar |
+| Kreutz Schrotthandel | Koblenz 56073 | keine Website verifiziert | Schrotthandel | unklar |
+| SCHROTTHANDEL 56 | Koblenz 56068 | keine Website verifiziert | Schrotthandel | unklar |
+| Alten-Familie (Gino/Markus/Klara/Angelo) | Koblenz 56070 | keine Website verifiziert | Schrott, ein Familienbetrieb vermutet | unklar |
+| Dechmann (Koblenz) | Koblenz 56070 | keine Website verifiziert | Schrott-/Metallhandel (Verhältnis zu Dechmann Prüm Seed-Nr. 60 ungeklärt, ggf. Filiale) | unklar |
+| R&A | Koblenz 56073 | keine Website verifiziert | Schrott | unklar |
+| Schneider Michael | Koblenz 56073 | keine Website verifiziert | Schrott (kein Bezug zu Schneider Simmern belegt) | unklar |
+| Strünck Mario | Koblenz 56070 | keine Website verifiziert | Schrott | unklar |
+| Sell | Kaltenengers 56220 | keine Website verifiziert | Schrott | unklar |
+| Koblenzer Entrümpelungen | Koblenz 56070 | keine Website verifiziert | Entrümpelung/Schrottsammlung | unklar |
+| Baumgarten & Sohn | Lahnstein 56112 | keine Website verifiziert | Schrottautos | unklar |
+| Augustin Christian | Koblenz 56070 | keine Website verifiziert | Altautos | Nur Altauto |
+| Autoankauf Koblenz | Koblenz 56068 | keine Website verifiziert | Autoankauf | Nur Altauto |
+| Proba Roman | Weitersburg 56191 | keine Website verifiziert | Schrott | unklar |
+| Hellwegner e.K. | Koblenz 56068 | keine Website verifiziert | Branche nicht überliefert | unklar |
+| Golden Gate | Koblenz 56068 | keine Website verifiziert | Goldankauf | unklar |
+| Koblenzer Goldankauf | Koblenz 56068 | keine Website verifiziert | Goldankauf | unklar |
+| SCHAENGELGOLD | Koblenz 56068 | keine Website verifiziert | Goldankauf | unklar |
+| KMS Münzen Studio (Frank Maurer) | Koblenz 56068 | keine Website verifiziert | Münzen-/Goldankauf | unklar |
+| Dave's | Trier 54290 | keine Website verifiziert | Kleinhändler | unklar |
+| Schmidt Torsten | Trier 54292 | keine Website verifiziert | Schrott | unklar |
+| Dres Georg | Trier 54294 | keine Website verifiziert | Schrott | unklar |
+| Scheller Mathias | Trier 54295 | keine Website verifiziert | Schrott | unklar |
+| Knoerr Jon | Trier 54293 | keine Website verifiziert | Schrott | unklar |
+| Wenner David | Trier 54294 | keine Website verifiziert | Schrott | unklar |
+| Hochscheider (Gondert) | Trier 54293 | keine Website verifiziert | Schrott | unklar |
+| Kreber Karl | Trier 54293 | keine Website verifiziert | Schrott | unklar |
+| KIEFER | Waldrach 54320 | keine Website verifiziert | Schrott | unklar |
+| Autoverwertung Trier | Trier 54294 | keine Website verifiziert | Autoverwertung | Nur Altauto |
+| Kottmeier Antiquitäten | Trier 54294 | keine Website verifiziert | Antiquitäten, Goldankauf möglich | unklar |
+| Kratz Pfandkredithaus | Trier 54290 | keine Website verifiziert | Pfandhaus, Goldankauf | ja |
+| Sattler | Ludwigshafen, Ebertstr. 31 | keine Website verifiziert | Schrott | unklar |
+| Hunke & Herd | Ludwigshafen, Industriestr. 4A | keine Website verifiziert | Schrott | unklar |
+| Weingärtner | Ludwigshafen, Burgundenstr. 34 | keine Website verifiziert | Schrott | unklar |
+| A&A | Maxdorf, Im Horst 5 | keine Website verifiziert | Schrott | unklar |
+| Yavuz | Ludwigshafen, Leuschnerstr. 22 | keine Website verifiziert | Schrott | unklar |
+| Entsorgungsbetrieb Müller | Ludwigshafen, Friedrich-Profit-Str. 24 | keine Website verifiziert | Entsorgung, ggf. mobil | unklar |
+| Pfälzer Dienstleistungen | Ludwigshafen, Goerdelerplatz 13 | keine Website verifiziert | Dienstleistungen/Schrott | unklar |
+| Claus Theodor | Ludwigshafen (Adresse fehlt) | keine Website verifiziert | Schrott | unklar |
+| Rissel | Ludwigshafen | keine Website verifiziert | Schrott (nur Name überliefert) | unklar |
+| AH | Ludwigshafen | keine Website verifiziert | Schrott (nur Kürzel überliefert) | unklar |
+| Khelf-Galvez Ali | Ludwigshafen | keine Website verifiziert | Schrott | unklar |
+| GHN | Ludwigshafen | keine Website verifiziert | Schrott (nur Kürzel überliefert) | unklar |
+| G.A. Demontage | Ludwigshafen | keine Website verifiziert | Demontage/Schrott | unklar |
+| Breyer | Limburgerhof | keine Website verifiziert | Schrott | unklar |
+| Jimmy Roose | Frankenthal | keine Website verifiziert | Schrottsammlung, ggf. mobil | unklar |
+| Mainzer-Metall-Verwertung GbR | Mainz 55120 | keine Website verifiziert | Metallverwertung | unklar |
+| Eftekhari | Mainz 55120 | keine Website verifiziert | Branche ungeklärt | unklar |
+| Reingold | Mainz 55129 | keine Website verifiziert | Goldankauf | unklar |
+| Arnold | Mainz 55127 | keine Website verifiziert | Goldankauf vermutet | unklar |
+| Gold & Silber Ankauf | Mainz 55116 | keine Website verifiziert | Gold-/Silberankauf | unklar |
+| FMF Schmuckhandel | Mainz 55116 | keine Website verifiziert | Schmuck, Ankauf möglich | unklar |
+| Schöntag Kübeldienste | Mainz 55120 | keine Website verifiziert | Kübeldienst | unklar |
+| Van den Berg Metal | Andernach 56626 | keine Website verifiziert | Metallhandel | unklar |
+| Harzem-Montada | Andernach | keine Website verifiziert | Schrott | unklar |
+| Ernst Schiele | Neuwied 56567 | keine Website verifiziert | Schrott | unklar |
+| Levin Detlev | Andernach | keine Website verifiziert | Schrott | unklar |
+| D&F Wertstoffhandel | Andernach | keine Website verifiziert | Wertstoffhandel | unklar |
+| Meschke Albert | Neuwied 56566 | keine Website verifiziert | Schrott | unklar |
+| FOGOLIN | Kettig 56220 | keine Website verifiziert | Schrott vermutet | unklar |
+| 1a Recycling | Neuwied 56566 | keine Website verifiziert | Recycling/Schrott | unklar |
+| City Autoverwertung | Andernach | keine Website verifiziert | Autoverwertung | Nur Altauto |
+| Autodemontage Mittelrhein (Nettersheim) | Andernach | keine Website verifiziert | Autodemontage | Nur Altauto |
+| Goldankauf Mülheim-Kärlich | Mülheim-Kärlich 56218 | keine Website verifiziert | Goldankauf | unklar |
+| Herrmann Eisen-Metall | Worms 67547 | keine Website verifiziert | Eisen/Metall | unklar |
+| Grünewald | Worms 67549 | keine Website verifiziert | Schrott | unklar |
+| Köcher Stefan | Worms | keine Website verifiziert | Schrott vermutet | unklar |
+| Keller Mike | Worms 67551 | keine Website verifiziert | Schrott | unklar |
+| Inter-Schrott | Worms | keine Website verifiziert | Schrott vermutet | unklar |
+| RSH | Worms | keine Website verifiziert | Schrott vermutet | unklar |
+| Kämpfer | Worms 67549 | keine Website verifiziert | Schrott | unklar |
+| Schramm Rudolf | Worms 67547 | keine Website verifiziert | Schrott | unklar |
+| Noutzan Chousein Oglou | Worms 67547 | keine Website verifiziert | Schrott | unklar |
+| Ibo | Worms 67547 | keine Website verifiziert | Schrott, Kleinstsammler vermutet | unklar |
+| Loritz & Sohn | Bad Kreuznach 55543 | keine Website verifiziert | Schrott | unklar |
+| Müller Alexander | Biebelsheim 55546 | keine Website verifiziert | Schrott | unklar |
+| Schnell Jürgen | Ockenheim 55437 | keine Website verifiziert | Schrott vermutet | unklar |
+| Peter Marco | Kaiserslautern 67655 | keine Website verifiziert | Schrott | unklar |
+| Kratz Pfandkredit | Kaiserslautern 67655 | keine Website verifiziert | Pfand, Goldankauf | ja |
+| Steppan Leon | Mehlingen 67678 | keine Website verifiziert | Altautos vermutet | Nur Altauto |
+| Schrott & Metall Entsorgung aller Art | Neustadt 67434 | keine Website verifiziert | Schrott-/Metallentsorgung | unklar |
+| Giannotta | Neustadt (Name unvollständig) | keine Website verifiziert | Schrott | unklar |
+| Binder Ramona | Neustadt | keine Website verifiziert | Schrott vermutet | unklar |
+| Edelmetallkontor | Idar-Oberstein 55743 | keine Website verifiziert | Goldankauf vermutet | unklar |
+| J. Schmitz | Wittlich 54516 | keine Website verifiziert | Schrotthandel (ggf. identisch Jörg Schmitz Ürzig Seed-Nr. 29, ~10 km) | unklar |
+| Becker Mathilde | Wittlich | keine Website verifiziert | Altautos vermutet | Nur Altauto |
+| Weyel | Niederfischbach 57572 | keine Website verifiziert | Branche ungeklärt | unklar |
+| Bausch Henry | Staudt 56424 | keine Website verifiziert | Schrott | unklar |
+| Christ Patrick | Siershahn 56427 | keine Website verifiziert | Branche ungeklärt | unklar |
+| Bellersheim Boden | Boden 56412 | keine Website verifiziert | Boden/Erde, Schrottbezug fraglich | unklar |
+| Reinhardt | Oberzissen 56651 | keine Website verifiziert | Schrott | unklar |
+| Hoppen Dennis | Spessart 56746 | keine Website verifiziert | Schrott | unklar |
+| Becher Wolfgang | Buchholz 53567 | keine Website verifiziert | Altautos vermutet | Nur Altauto |
+| Kieffer | Kapellen-Drusweiler 76889 | keine Website verifiziert | Schrott vermutet | unklar |
+| Floßdorf | Bad Neuenahr-Ahrweiler 53474 | keine Website verifiziert (eigene Website mit Zertifikatsfehler, Domain unverifiziert) | Schrott vermutet | unklar |
+| Jakob Becker (Filiale) | Alzey 55232 | keine Website verifiziert | Filiale der Seed-Firma Nr. 26 | unklar |
+
+Rejects (Name + Grund):
+- Hoffmann Patrick (Germersheim/Zeiskam) — Duplikat Seed-Nr. 18 (beide verlinken hoffmann-schrott.de, Runde 4 verifiziert).
+- Frankreiter (Trier) — in Seed-Nr. 33 enthalten.
+- Hanhofen-Familien (Wagner R.+B., Kreischer J., Lehr T.+M., Lehr I.+R., Wagner P.+S.) — alle im Seed-Cluster Nr. 56 enthalten.
+- Landau-Kleinsthändler (Cadorin J./M., MC, Bodenstein, Engel A./R., Benkler, Koch M.+E., Durmaz Offenbach) — alle im Seed-Cluster Nr. 57 enthalten.
+- Neustadt-Umland (Knepflas, Schäfer, Meyer Sascha, Broll Klaus Haßloch, Ohlinger Lorenz Neidenfels) — alle im Seed-Cluster Nr. 58 enthalten.
+- Eifel (Heinen Hans Peter Strohn, Daun/REDA Müllenbach, Stenzhorn Büchel) — alle im Seed-Cluster Nr. 59 enthalten.
+- MOHR Autoverwertung Rhein-Main — Seed-Nr. 47 (mobil, Stammsitz Hessen).
+- Lux & Co. (Koblenz) — kein Ankauf-Beleg, B2B-Entsorgung ohne Schrottankauf (Runde 4).
+- Zimmermann Recycling (Lahnstein) — kein Ankauf, nur kostenlose Entsorgung (Runde 4).
+- Baumann Rohstoff-Recycling (Landau) — kein Recycling-Nachweis, Domain geparkt (Runde 3/4 bestätigt).
+
+Seed-Website-Sweep (41 URLs, curl): TOT: taurus-gmbh.de (000 auf http/https/www — Nr. 3).
+Pfad-404 (Domain live): sk-serviceleistungen.info/UEBER-UNS (Root 200 — Nr. 45, Tabellen-URL korrigieren).
+Umgezogen: ohlinger-neustadt.de → steel-men.de (Nr. 53, zwei Seed-Einträge); hoffmann-schrott.de www → non-www (Nr. 18, ok);
+schneider-recycling.de → schneider-recycling.com (Kandidat, ok). Bot-Schutz (live): hlr-rohstoffhandel.de
+(403 Standard-UA, 200 Browser-UA — Nr. 1). Alle übrigen 36 Seed-URLs HTTP 200.

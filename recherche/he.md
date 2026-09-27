@@ -377,3 +377,173 @@ Spezialisten-Fehlanzeige (erschöpft, nichts fabriziert):
 - Bad Homburg/Rüsselsheim stationär: Bad Homburg – weiter kein eigenständiger Platz mit HE-Adresse belegt (Nr. 242 Schrott-HG Domain tot; Nr. 267 Frankfurter Betriebshof; Rest Einzugsgebiet MOHR/Wagner/Wintermeyer/MSR). Rüsselsheim – kein neuer stationärer Platz (nur Umland Nr. 104 Hartmann, Nr. 105 TSR Ginsheim, Nr. 106 Mexner, Nr. 107 Goetze, RMR-Lager Bischofsheim). Kanal erschöpft.
 
 Geprüft, nicht aufgenommen (Runde 4): Versand-Kat-Ankäufer ohne HE-Sitz (KATMANN, Fair-Kat/kaufe-katalysatoren.de, IST Essen, NORDKAT, Kat-Discount24, AutoCatalystMarket), Versand-Hartmetaller ohne HE-Sitz (P&P Düsseldorf, MKM Ludwigshafen, ReRec Neumünster, VHM/hartmetallschrott24 o. Ortsnachweis), Versand-Platinenankäufer ohne HE-Sitz (ESG Rheinstetten, A&N, MPM/envint.de), Willi Lutz (Sitz BW), Pforzheimer Scheideanstalten (Agosi/Heimerle/C.Hafner/Doduco – BW), BDSV-Verbandsseiten ohne HE-Einzelprofil, wlw-JS-Suche ohne Ergebnisdaten.
+## Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
+
+Methode: alle Kandidaten-Websites per curl verifiziert (HTTP-Status + Seitentext, 27.09.2026); GS-only-Zeilen ohne Website-Fabrikation übernommen (Ankauf "unklar"); DDG-Verzeichnissuche für EZEdelmetall/Pfeifer/Eschersheimer Goldhaus; Seed-Abgleich gegen he.json (249); BY-Seed auf Wild-Metall geprüft (kein Treffer). Vorrunden-Entscheide berücksichtigt (MRK/Chirakakis bleiben draußen; Knettenbrech nach Final-Regel drin).
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Degussa Goldhandel GmbH | Frankfurt 60325 | https://www.degussa-goldhandel.de | Edelmetall An-/Verkauf (Rückkauf-Menü), Filiale FFM; /preisliste/ tot (301 auf degussa.com) | ja |
+| philoro EDELMETALLE GmbH | Frankfurt 60313 | https://www.philoro.de | Edelmetall: Zahngold-/Altgold-Ankauf, Filiale FFM. PREISLISTE: https://www.philoro.de/preisliste/alle | ja |
+| OPHIRUM GmbH | Frankfurt 60311 | https://www.ophirum.de | Edelmetall-Filiale FFM verifiziert (069-Nummer, frankfurt@ophirum.de); Kette HB/BE/Hanau/FFM | ja |
+| GOLDFUXX Hanau (OPHIRUM) | Hanau 63450, Hirschstr. 11 | https://www.ophirum.de/filialen/hanau-goldfuxx | OPHIRUM-Filiale, Goldankauf | ja |
+| RHH-Rohstoffhandel Haiger GmbH | Haiger 35708 | https://www.rhh-rohstoffe.de | "Ankauf von Schrott & Metallen", Stahlwerks-/Gießereischrott, Container; nur Gewerbe/Industrie | ja (nur Gewerbe) |
+| KNETTENBRECH + GURDULIC GmbH & Co. KG | Wiesbaden 65205 | https://www.knettenbrech-gurdulic.de | Entsorger, Leistung "Schrott + Altmetall", Wertstoffhöfe; kein Privatkunden-Ankauf belegt (Runde 2 aussortiert, nach Final-Regel drin) | unklar |
+| MC Metallhandel GmbH | Frankfurt-Seckbach 60388, Gwinnerstr. 11 | https://www.mc-metallhandel.de | NE-Altmetall-Handel, Lager/Sortierung; nur Gewerbe/Handel | ja (nur Gewerbe) |
+| Goldhaus Asslar (Patrick Kupersky) | Aßlar 35614 | https://www.goldhaus-asslar.de | Altgold-/Zahngold-/Münzen-/Silber-Ankauf | ja |
+| Autoverwertung Oerter | Haiger-Flammersbach 35708 | http://www.der-autoverwerter.de | AV | AV / unklar |
+| Autoverwertung Fröhlich e.K. | Offenbach 63075, Lämmerspieler Weg | https://www.autoverwertung-froehlich.de | AV | AV / unklar |
+| Autoverwertung Blechmann GmbH | Darmstadt 64293, Staudingerstr. | http://www.autoverwertung-blechmann.de | AV (leitet auf https://autoverwertung-blechmann.de) | AV / unklar |
+| SR Stainless Recycling GmbH | Hanau 63456 | keine Website verifiziert | Metallhandel, evtl. Edelstahl/SR-Gruppe | unklar |
+| SM Metals GmbH | Lampertheim 68623 | keine Website verifiziert | Metallhandel, evtl. Katalysatoren | unklar |
+| Ing. Norbert Szielasko Kabelzerlegungen Metalle | Altenstadt 63674 | keine Website verifiziert | Kabelzerlegung/Kabelschrott | unklar |
+| Sander Altmetall & Demontage | Heusenstamm 63150 | keine Website verifiziert | Altmetall + Demontage | unklar |
+| Dürwald Tobias Recycling | Korbach 34497 | keine Website verifiziert | Recycling, evtl. E-Schrott (GS-Fund) | unklar |
+| Fischer Wohnwagenverwertung | Buseck 35418 | keine Website verifiziert | Wohnwagenverwertung (Nische) | AV / unklar |
+| MG NE-Produkthandel GmbH | Eschborn 65760 | keine Website verifiziert | NE-Handel (B2B) | unklar |
+| Schindling Stoffstrom Vertriebs GmbH | Frankfurt 65933 | keine Website verifiziert | Schrott, evtl. Broker | unklar |
+| Allmeson GmbH | Heusenstamm 63150 | keine Website verifiziert | Metallhandel | unklar |
+| TM Metallhandel Company | Offenbach 63069 | keine Website verifiziert | Metallhandel | unklar |
+| Udo Metallhandel/Containerservice | Gründau 63584 | keine Website verifiziert | Metall + Container | unklar |
+| MKV Metall- u. Kunststoffverwertung | Kelkheim 65779 | keine Website verifiziert | Altmetall-Verwertung | unklar |
+| Wai GmbH | Weiterstadt 64331 | keine Website verifiziert | Altmetall | unklar |
+| Metimo GmbH | Bensheim 64625 | keine Website verifiziert | Metallhandel | unklar |
+| Collecta Rohstoff GmbH | Wiesbaden 65183 | keine Website verifiziert | Metallhandel (GS) | unklar |
+| Westarp Bernhard GmbH | Rhein-Main 60311 (FFM-PLZ; Abgrenzung Westarp Aschaffenburg/BY) | keine Website verifiziert | Altmetall (GS) | unklar |
+| Max Spahn + Sohn KG | Rhein-Main 63450 (Hanau-PLZ; GS) | keine Website verifiziert | Altmetall (GS) | unklar |
+| Ferdinand Wegner & Helga Hippe KG | Hattersheim 65795 | keine Website verifiziert | Metallhandel | unklar |
+| Containerdienst Olbrich GmbH | Schwalbach 65824 | keine Website verifiziert | Container/Altmetall | unklar |
+| Scheuer GmbH | Limburg 65549 | keine Website verifiziert | Schrott/Metall (GS) | unklar |
+| Hackländer F. GmbH | Kassel 34127 | keine Website verifiziert | Metallhandel | unklar |
+| Georg-Wilhelm Salzmann Metallhandel | Spangenberg 34286 | keine Website verifiziert | Metallhandel (Tradition) | unklar |
+| Heinrich Kleinschmidt RohProd. | Spangenberg 34286 | keine Website verifiziert | Schrott/Rohprodukte | unklar |
+| Josef Ziegler RohProd. | Fulda 36043 | keine Website verifiziert | Schrott/Rohprodukte | unklar |
+| Wild-Metall (Thomas Wild) | Michelstadt 64720 | keine Website verifiziert | Metallhandel (GS); BY-Seed ohne Wild-Eintrag → kein Duplikat | unklar |
+| Syronox GmbH | Haiger 35708 | keine Website verifiziert | Metallhandel, evtl. Edelstahl | unklar |
+| Nagel | Bad Vilbel 61118 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Rupp Dieter | Neu-Anspach 61267 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Funk Franz | Niddatal 61194 | keine Website verifiziert | Familienbetrieb Schrott | unklar |
+| Cimen | Frankfurt 65929 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Schrott-Wetzel | Frankfurt 60327 | keine Website verifiziert | evtl. Schrottplatz | unklar |
+| Schwarz Wolfgang | Friedberg 61169 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Pfaff Alexander | Eschborn 65760 | keine Website verifiziert | evtl. mobil | unklar |
+| Kuhn Heinrich | Eschborn 65760 | keine Website verifiziert | evtl. Altstoffe | unklar |
+| R&S Reinhart/Sela | Ortenberg 63683 | keine Website verifiziert | evtl. Ankauf | unklar |
+| Schrottschneider | Limeshain 63694 | keine Website verifiziert | evtl. mobil | unklar |
+| Voigt Klaus | Biebergemünd 63599 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Jährig Angelo | Hasselroth 63594 | keine Website verifiziert | Kleinstbetrieb | unklar |
+| Seipel Michael | Bad Soden-Salmünster 63628 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Bana Arif (Ahmad Astaq) | Nidda 63667 | keine Website verifiziert | Abgrenzung Bana Recycling Nidda-Harb (distinct, andere Person) | unklar |
+| Ries Peter | Babenhausen 64832 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Kohlmann Frank | Babenhausen 64832 | keine Website verifiziert | evtl. Ankauf | unklar |
+| Dieburger Schrotthandel | Eppertshausen 64859 | keine Website verifiziert | Schrotthandel | unklar |
+| 1a Schrotthandel | Eppertshausen 64859 | keine Website verifiziert | Schrotthandel (distinct von Dieburger) | unklar |
+| Lorse | Münster 64839 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Gerhardt August | Zwingenberg 64673 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| CA Recycling | Gernsheim 64579 | keine Website verifiziert | Abgrenzung AWRec Gernsheim (distinct, Verhältnis ungeklärt) | unklar |
+| Fiotech (Özdemir) | Biebesheim 64584 | keine Website verifiziert | evtl. Ankauf | unklar |
+| MEH Jäger | Heppenheim 64646 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| ABM | Groß-Umstadt 64823 | keine Website verifiziert | evtl. Ankauf | unklar |
+| Roth Heinrich | Limburg 65549 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Ohl Peter | Hünstetten 65510 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Otto Matthias | Rüsselsheim 65428 | keine Website verifiziert | evtl. Ankauf | unklar |
+| Schrott Experte | Heidenrod 65321 | keine Website verifiziert | Abgrenzung Schrottmeister Rhein-Main Heidenrod (distinct) | unklar |
+| Bern Robert | Wiesbaden 65205 | keine Website verifiziert | Kleinstbetrieb | unklar |
+| Kohl Waste Trade | Wiesbaden 65189 | keine Website verifiziert | evtl. Broker | unklar |
+| rm trade | Wiesbaden 65203 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Levy (Schrott/Metall) | Langenselbold 63505 | keine Website verifiziert | Abgrenzung Seed-Levy (Darmstadt) / KWL (FFM) / Weber (Langenselbold) – distincter Ort | unklar |
+| MS Schrotthandel | Hanau-Großauheim 63457 | keine Website verifiziert | mit Ankauf (GS); Abgrenzung Fa. Georg (distinct) | ja (unsicher – nur GS) |
+| Bamberger | Hanau | keine Website verifiziert | Abgrenzung ARB/Bamberger Darmstadt (Seed) – distincter Ort, Gruppenbezug ungeklärt | unklar |
+| Willeführ | Langen 63225 | keine Website verifiziert | Willeführ-Gruppe (Abgrenzung Seed: Gelnhausen + Industriedemontagen) – distincter Ort | unklar |
+| Lorenzo | Dietzenbach 63128 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Manuel | Dietzenbach 63128 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| A w Metallhandel | Dietzenbach 63128 | keine Website verifiziert | Metallhandel | unklar |
+| Schrott-Becker | Offenbach 63075 | keine Website verifiziert | evtl. mobil | unklar |
+| Boeckem | Egelsbach 63329 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Schwedes | Solms 35606 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Stahlhügel | Staufenberg 35460 | keine Website verifiziert | evtl. Ankauf | unklar |
+| NORD-SCHROTT | Butzbach 35510 | keine Website verifiziert | Schrotthandel (nicht Flensburg) | unklar |
+| Gantenberg | Ebsdorfergrund 35085 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Völker Karl-Heinz | Marburg 35039 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Glück | Marburg 35039 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Hartstock | Marburg 35041 | keine Website verifiziert | evtl. Ankauf | unklar |
+| Dippel Manfred | Frankenberg 35066 | keine Website verifiziert | Kleinst-Schrotthändler (Doppel-Nennung zusammengeführt) | unklar |
+| Santoro | Schwarzenborn 34639 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Flink & Flott | Wabern 34590 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Thiel | Wabern 34590 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Arbter Stefan | Wolfhagen 34466 | keine Website verifiziert | + Entrümpelung | unklar |
+| Müller Reiner | Calden 34379 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Bicht F. | Bad Emstal 34308 | keine Website verifiziert | Entsorgung vs. Ankauf offen | unklar |
+| Rader Hans-Joachim | Kirchhain 35274 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Wieder | Weilmünster 35789 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Winter | Alsfeld 36304 | keine Website verifiziert | Abgrenzung Winterstein (distincter Name, kein Bezug belegt) | unklar |
+| Hahny's | Kirtorf 36320 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Schmidt Ludwig | Dillenburg 35688 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Gräb Gretl | Haiger 35708 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Monno Hans | Haiger 35708 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Stussak | Wiesbaden 65199 | keine Website verifiziert | evtl. AV (Doppel-Nennung zusammengeführt) | AV / unklar |
+| Hübinger | Wiesbaden 65199 | keine Website verifiziert | evtl. AV (Doppel-Nennung zusammengeführt) | AV / unklar |
+| Eller Schrotthandlung/AV | Grünberg 35305 | keine Website verifiziert | Schrotthandlung + AV | AV / unklar |
+| Ladner Franz | Sontra 36205 | keine Website verifiziert | Schrott/Metalle | unklar |
+| Dörr Eduard | Alsfeld 36304 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| WOLF Georg | Friedberg 61169 | keine Website verifiziert | AV + Schrott | AV / unklar |
+| Schneider Wolfgang | Reichelsheim 61203 | keine Website verifiziert | evtl. Abholservice | unklar |
+| Lackner | Oberursel 61440 | keine Website verifiziert | evtl. AV | AV / unklar |
+| Dasan Bilal | Mühlheim 63165 | keine Website verifiziert | Händler vs. Verwerter offen | AV / unklar |
+| Altwagenabholservice | Obertshausen 63179 | keine Website verifiziert | Autoabholung | AV / unklar |
+| Guth | Hanau 63452 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Bernhardt Thomas | Hanau 63452 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Kohl Roland | Hanau 63452 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Pfragner Georg | Hanau 63456 | keine Website verifiziert | Handel vs. Verwertung offen | unklar |
+| Höntsch Maria | Langenselbold 63505 | keine Website verifiziert | evtl. Familienbetrieb | unklar |
+| Habersack Klaus | Hasselroth 63594 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Lechmann | Weiterstadt 64331 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Schrenk | Schaafheim 64850 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| AV (Autoverwertung) | Wiesbaden 65189 | keine Website verifiziert | AV | AV / unklar |
+| Kolb Heinrich | Wiesbaden 65201 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Altfahrzeugentsorgung Rhein-Main | Wiesbaden 65203 | keine Website verifiziert | AV | AV / unklar |
+| Pagel Jürgen | Wiesbaden 65203 | keine Website verifiziert | Kleinst-AV? | AV / unklar |
+| Hassoun | Hadamar 65589 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Kerkerbach | Runkel 65594 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Ellar/Seelbach/Niedworok | Waldbrunn 65620 | keine Website verifiziert | Kleinst-Schrotthändler (Sammelzeile) | unklar |
+| Altan | Hattersheim 65795 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Dietz | Kassel 34123 | keine Website verifiziert | evtl. kostenlose Verschrottung | AV / unklar |
+| CHEMES | Kassel 34123 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Pohl Anita | Bad Emstal 34308 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Eysert Karl | Malsfeld 34323 | keine Website verifiziert | Kleinst-AV? | AV / unklar |
+| Heidel Eckhardt | Korbach 34497 | keine Website verifiziert | Kleinst-AV? | AV / unklar |
+| Gün | Homberg 34576 | keine Website verifiziert | Abschlepp + AV? | AV / unklar |
+| Pohl A. | Felsberg 34587 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Enders Karin | Stadtallendorf 35260 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Dinmezer Birol | Grünberg/Rabenau 35305 | keine Website verifiziert | evtl. Abholdienst | unklar |
+| Strunk Andrew | Langgöns 35428 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Völker | Hüttenberg 35625 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Metzger Marco | Eschenburg 35713 | keine Website verifiziert | Kleinst-AV? | AV / unklar |
+| Nenni Hakan | Herborn 35745 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Risse-Hildebrand | Sinn 35764 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Reif Marcus | Bebra 36179 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Loew Alfred | Frankfurt 60388 | keine Website verifiziert | Klein-AV? | AV / unklar |
+| Autoverschrottung (Cassellastr.) | Frankfurt 60386 | keine Website verifiziert | AV | AV / unklar |
+| Autoverschrottung + Schrotthändler (Berkersheimer Weg) | Frankfurt 60433 | keine Website verifiziert | AV + Schrott | AV / unklar |
+| Kostenlose AV (Westerbachstr.) | Frankfurt 60489 | keine Website verifiziert | AV | AV / unklar |
+| DK-Schrotthandel | Groß-Zimmern 64846 | keine Website verifiziert | Schrotthandel | unklar |
+| JK-Recycling | Hasselroth 63594 | keine Website verifiziert | Recycling/Schrott | unklar |
+| Polster | Pfungstadt 64319 | keine Website verifiziert | evtl. Familienbetrieb | unklar |
+| Götz Joachim | Pfungstadt 64319 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Stein Alexander-Sebastian | Pfungstadt 64319 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Dk | Weiterstadt 64331 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Wrazidlo Karl-Heinz | Weiterstadt 64331 | keine Website verifiziert | Kleinst-Schrotthändler | unklar |
+| Bissig Return | Herborn/Dillenburg 35745 | keine Website verifiziert | Schrott (GS) | unklar |
+| Schäfer und Scheffel (SDS) | Dillenburg/Herborn 35683 | keine Website verifiziert | Schrott (GS) | unklar |
+| Martin Schmidt | Gießen 35398 | keine Website verifiziert | Kleinhändler (GS); Juwelier-Verdacht unbelegt → drin | unklar |
+| EZEdelmetall | Gladenbach 35075, Marktplatz 1 | keine Website verifiziert | Goldankauf (Verzeichnis); adressgleich Pfeifer, Verhältnis ungeklärt | ja (unsicher – nur Verzeichnis) |
+| Pfeifer (Goldankauf Pfeifer Edelmetallhandel) | Gladenbach 35075, Marktplatz 1 | keine Website verifiziert | Goldankauf/Edelmetallhandel (Verzeichnis); adressgleich EZEdelmetall | ja (unsicher – nur Verzeichnis) |
+| Eschersheimer Goldhaus (Hornoff & Ganzenmüller) | Frankfurt 60433, Eschersheimer Landstr. 402 | keine Website verifiziert | Pfandhaus/Pfandleiher (Verzeichnis); Goldankauf unbelegt | unklar |
+| Hedderich / USB | Alsbach-Hähnlein 64665 | keine Website verifiziert | AV + Altmetall | AV / unklar |
+| Schrottverwertung Christel Bruch | Viernheim 68519 | keine Website verifiziert | Kleinbetrieb Schrottverwertung | unklar |
+
+Abgrenzungen entschieden (keine Seed-Dubletten): Levy Langenselbold ≠ Seed-Levy Darmstadt/KWL/weber (distincte Orte, alle behalten); Bamberger Hanau ≠ ARB Darmstadt (distinct, Gruppenbezug offen); Willeführ Langen ≠ Seed Willeführ Gelnhausen/Industriedemontagen (distinct, Gruppe); Winter Alsfeld ≠ Winterstein (distincte Namen); Bana Arif ≠ Bana Recycling (distincte Personen); CA Recycling ≠ AWRec (distinct, Verhältnis offen); Schrott Experte ≠ Schrottmeister (distinct); Wild-Metall Michelstadt ohne BY-Pendant (by.json ohne Wild-Eintrag).
+
+Rejects (2): MRK Kassel 34123 – Vorrunden-Ausschluss bestätigt (nur Autoankauf, kein Schrottankauf belegt); Chirakakis Emmanuel Korbach 34497 – Vorrunden-Ausschluss bestätigt (nur AV, kein Schrottankauf belegt). Interne Doppel-Nennungen zusammengeführt (keine eigenen Rejects): Dippel Frankenberg, Stussak/Hübinger Wiesbaden. Kein reiner Juwelier- und kein Portal-Fall unter den Kandidaten (alle mit Ort; Goldankäufer mit Zahngold-/Ankaufbezug behalten).
+
+Tote Seed-Websites (curl 27.09.2026, 80 Sites geprüft): https://scholz-recycling.de/ – tot (https 000/SSL-Fehler; http 301 auf https://www.scholz-recycling.com/ = live, 200 – Seed-URL veraltet, Umzug nach Derichebourg-Übernahme); https://schrotthandelbauer.de – tot (http 404 / https 000; vgl. Nr. 249). Auffällig umgeleitet: https://gorsler-alsfeld.de/ – 301 auf https://www.rvt.de/ (RVT-Gruppe, legitim). Bot-blockiert, aber live (per webfetch verifiziert): https://www.kulzer.de/de/de/scheidgut/ (curl 403). Degussa-Preislisten-URL https://www.degussa-goldhandel.de/preisliste/ – 301 auf https://degussa.com/ (kein Handler-Fall). Alle übrigen 76 Seed-Sites: HTTP 200.

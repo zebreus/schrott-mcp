@@ -165,3 +165,81 @@ CORRECTIONS (nichts gelöscht, nur richtiggestellt):
 - Offen aus Runde 3 (hiermit bestätigt, bitte nachtragen): #2 Hoffmann (S)→(W); #17 Elektro Verwertung Nord Stadtteil = Heimfeld, Wilhelm-Weber-Str. 2; #11 Neumann Website schrotthandel-hamburg.de.
 
 Jetzt erschöpft (nicht erneut jagen): Gelbe-Seiten-Kategorien Schrotthändler (25 H2) + Metallhandel (28 H2) Hamburg vollständig ausgezählt; hamburg.de-Suche (Spam, nur Direkt-IDs verwertbar); Schrottregister HH (64 Betriebe) + Norderstedt + Seevetal + Stade; Billbrook (Mühlenhagen/Billbrookdeich/Liebigstr./Porgesring/Andreas-Meyer-Str.) + Rothenburgsort (Billstr./Mühlenhagen/Billhorner Deich/Ausschläger Elbdeich) Backyards inkl. Register-Nebeneinträge (Buhck Re.Energy Liebigstr. 46, ETH Solutions Süderstr. 237–241, Fuchslocher Müggenburger Str. 20–24, Fuhse Halskestr. 40, Veolia Billbrookdeich 134/Borsigstr. 13, REMONDIS Peutestr. 57–59, Green Ports Kattwykstr. 20 — allesamt Großentsorger/Logistiker ohne Ankauf-Beleg); Norderstedt-Tiefe (ASN Schützenwall 30 + Machalski Oststr. 66 + Metalloy Oststr. 134 + NES-Werk Oststr. 128 = Oststr.-Cluster komplett); Kat-/Platinen-/Hartmetall-Spezialisten mit HH-Sitz (TIMA #66 einziger Treffer, Fabian #25 einziger Kat-Eintrag im Schrottplatz-Sinn).
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Stand: 2026-09-27. Methode: curl-Verifikation aller Kandidaten-Websites (HTTP-Status + Inhalts-Snippets: Goldschanze-Tagespreis, Hansa-Rechner, Goldtrans-Preisseite, philoro/Degussa-Preislisten) + Websuche für Duplikat-Auflösung (Hartwig/Busse, Lensch) und Schmuck-Ankauf-Check (Zahngold-Nachweis) + curl-Sweep aller Seed-Websites aus hh.json. Filter: KEEP alles mit Schrott-/Metall-Ankauf oder -Abholung (privat, B2B, mobil, Kleinstfirmen); Ankauf "ja" nur mit Beleg, sonst "unklar".
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|------|-------------------|---------|-------------|--------|
+| DIAS GmbH | Kleiner Grasbrook, Am Vulkanhafen 6, 20457 | keine Website verifiziert | Schrotthandel, Altmaterial | unklar |
+| DaHua Internationale Handels GmbH | Bahrenfeld, Albert-Einstein-Ring 21, 22761 | keine Website verifiziert | Schrotthandel, Altmaterial | unklar |
+| APG Aluminium Produktionsgesellschaft mbH | Wilhelmsburg, Fährstieg 4, 21107 | https://www.apg-aluminium.de | Alu-Hütte, Alu-Schrott als Einsatz (nur Gewerbe/B2B) | unklar |
+| Dora Schulz | Horn, Manshardtstr. 9a, 22119 | keine Website verifiziert | Schrotthandel, Altmaterial (Kleinstfirma) | unklar |
+| Melosch Export GmbH | Altona-Nord, Waidmannstr. 16, 22769 | https://www.melosch.de | Altmaterial/Entsorgung (Papier/Kunststoff/Holz/Schrott), Handel | unklar |
+| IMH Indutec Metall Handelsgesellschaft mbH | Wilhelmsburg, Rotenhäuser Str. 7, 21109 | keine Website verifiziert | Metallhandel (Verkauf/Shop, B2B) | unklar |
+| IMET Industriemetall-Handelsgesellschaft mbH | Eißendorf, Ehestorfer Weg 25, 21075 | keine Website verifiziert | Metallhandel/Trading (B2B) | unklar |
+| T-H-E Catalyst GmbH | Rothenburgsort, Marckmannstr. 30, 20539 | keine Website verifiziert | Katalysatoren An-/Verkauf, Alt-/Edelmetalle (HRB 109181, NorthData) | ja |
+| KLASS Autoverwertung + Abschleppdienst | Lokstedt, Osterfeldstr. 63, 22529 | keine Website verifiziert | Autoverwertung, kauft Schrott-/Unfallautos | unklar |
+| Georg Lensch & Söhne GmbH | Stellingen, Lederstr. 33, 22525 | keine Website verifiziert | Autoverwertung (Familienbetrieb; Schwesterfirma Lederstr. 66 geschlossen 2018) | unklar |
+| Kosecki Natalia Autoverwertung | Wilhelmsburg, Haulander Weg 32, 21107 | keine Website verifiziert | Autoverwertung (Kleinstbetrieb) | unklar |
+| Goldtrans Edelmetallhandel e.K. | Wandsbek, 22041 | https://www.goldtrans.de | Edelmetall, Dental-/Zahngold (€/g-Tabelle + Rechner). PREISLISTE: https://www.goldtrans.de/goldankauf-preise-aktueller-goldpreis-ankauf-in-hamburg.html | ja |
+| Gold+Co Handel und Verwertung aller Edelmetalle | Bergedorf, Bergedorfer Schloßstr. 33, 21029 | keine Website verifiziert | Edelmetall (Zahngold lt. Gelbe Seiten) | ja |
+| Dit un Dat UG Edelmetall Contor | Eilbek, Seumestr. 8, 22089 | https://edelmetall-contor.de/ | Edelmetall-Ankauf (Altgold/Silber/Platin, Tageskurse) | ja |
+| Goldankauf Saba Juwelier | Bramfeld, Bramfelder Chaussee 338A, 22175 | https://www.saba-juwelier.de/ | Edelmetall (Zahngold/Bruchgold zum Tageshöchstpreis) | ja |
+| Goldhandel Löwengold | Winterhude, Grasweg 8, 22299 | https://goldwert-ankauf.de/loewengold/ | Edelmetall (Zahngold/Altgold/Silber/Münzen) | ja |
+| Stephan Hartwig Münzen und Edelmetallhandel | St. Georg, Lange Reihe 71, 20099 | https://www.muenzhandel-hamburg.de/ | Münzen/Edelmetalle, Altgold/Zahngold-Ankauf (ein Betrieb mit Busse-Eintrag, gl. Tel.) | ja |
+| S.O.S. Schrott und Metallhandel GmbH | Wilhelmsburg, Neuhöfer Damm 110, 21107 | keine Website verifiziert | Schrott, NE-Metalle (HRB 110063) | unklar |
+| Karl Heinz Meyer | Harburg, Lewenwerder 4, 21079 | keine Website verifiziert | Schrott, Kfz-Verwertung, Container | unklar |
+| Kiesow Autorecycling + Autoteile GmbH | Billbrook, Halskestr. 28, 22113 | http://www.kiesow-auto.de/ | Autoverwertung (Kfz-Ankauf, Ersatzteile; Seite im Neuaufbau, aktiv) | unklar |
+| Autoverwertung Hamburg Gholami | Wandsbek, Brauhausstieg 47, 22041 | keine Website verifiziert (autoverwertung-hamburg.de liefert HTTP 410) | Autoverwertung (Kfz-Ankauf) | unklar |
+| Autoankauf Bockelmann Hamburg | Alsterdorf, Bilser Str. 15, 22297 | keine Website verifiziert | Autoankauf | unklar |
+| Said Marawi GmbH | Hamm, Süderstr. 199, 20537 | keine Website verifiziert | Autoverwertung | unklar |
+| 1A Schrotthandel | Lohbrügge, Korachstr. 7, 21031 | keine Website verifiziert | Schrott (Kleinplatz; NICHT Billbrooker 1A-Autoverwertung) | unklar |
+| Adzovic Safet Schrotthandel | Kirchwerder, Warwischer Hauptdeich 90, 21037 | keine Website verifiziert | Schrott (Kleinhändler Vierlande) | unklar |
+| Lönneke Gustav Schrotthandel | Neugraben, Cuxhavener Str. 394, 21149 | keine Website verifiziert | Schrott (Einzelhändler) | unklar |
+| Steinbach der mobile Schrottservice | Billstedt, Brockhausweg 93, 22117 | keine Website verifiziert | Schrott mobil (Abholung) | unklar |
+| Weihs Sebastian Schrott und Metalle | Billstedt, Möllner Landstr. 141K, 22117 | keine Website verifiziert | Schrott, Metalle | unklar |
+| SNA GmbH | Billbrook, Liebigstr. 72, 22113 | keine Website verifiziert | Schrott (Billbrook-Cluster) | unklar |
+| Alt- und Buntmetallhandel Dejan | Billbrook, Wöhlerstr. 9, 21113 | keine Website verifiziert | Buntmetalle, Schrott | unklar |
+| Hanse Schrott – Elektroschrott-Abholung Farsad Wakilzadah | Hamm, Carl-Petersen-Str. 28B, 20535 | keine Website verifiziert | E-Schrott-Abholung mobil (EIGENSTÄNDIG, nicht HSG-Standort) | unklar |
+| Goldschanze GmbH | Sternschanze, Schanzenstr. 115, 20357 | https://goldschanze.de/ | Altgold, Zahngold, Silber, Münzen (Tagespreis auf Homepage). PREISLISTE: https://goldschanze.de/ | ja |
+| Hansa-Goldankauf | Lokstedt, Siemersplatz 1, 22529 | https://hansa-goldankauf.de/ | Altgold, Zahngold (Goldrechner). PREISLISTE: https://hansa-goldankauf.de/ | ja |
+| Goldstübchen Inh. Erkan Say | Eilbek, Wandsbeker Chaussee 283, 22089 | https://www.goldstuebchen.de/ | Gold/Schmuck/Zahngold/Silber-Ankauf | ja |
+| Goldrausch By MK Inh. M. Kosik | Niendorf, Tibarg 38, 22459 | https://goldrausch-hamburg.de/ | Gold/Silber/Zahngold/Zinn/Kupfer-Ankauf | ja |
+| Goldankauf 111 | Groß Borstel, Borsteler Chaussee 179, 22453 | gold-silberankauf-hamburg.de lt. Verzeichnis (Fetch ausstehend) | Gold-/Silberankauf, Zahngold (30 J. Erfahrung) | ja |
+| Goldlieb | Billstedt, Billstedter Hauptstr. 84, 22117 | https://www.goldlieb.de/ | Gold/Silber/Altschmuck/Zahngold/Platin (seit 25 J.) | ja |
+| Juweliercivan Goldankauf | Eilbek, Wandsbeker Chaussee 5, 22089 | https://juweliercivan.de/ | Altgold/Zahngold/Münzen/Barren | ja |
+| Gold & Silber Ankauf George & Söhne Juwelier | Poppenbüttel, Harksheider Str. 6, 22399 | gold-silber-ankauf-george.de lt. Verzeichnis (Fetch ausstehend) | Gold/Silber/Zahngoldankauf | ja |
+| Gold & Silber Ankauf Juwelier Schröder | Barmbek-Nord, Fuhlsbüttler Str. 108, 22305 | keine Website verifiziert | Gold/Silber (Altgold/Zahngold lt. Gelbe Seiten) | ja |
+| GlanzZeit (Uhrmacher/Goldschmied) | Ottensen, Bahrenfelder Str. 145, 22765 | https://glanzzeit.de/ | Gold-/Schmuck-/Altgold-Ankauf, eigene Goldschmiede | ja |
+| Frisch Juwelier | Harvestehude, Oberstr. 1, 20144 | keine Website verifiziert | Goldankauf (Zahngold/Ringe/Münzen/Barren lt. hamburg-magazin) | ja |
+| Trauschmuck Sperling GmbH | Hohenfelde, Lübecker Str. 95, 22087 | https://www.goldankauf-ge.de/ | Altgold/Zahngold/Silber/Platin/Palladium (€/g-Tabelle). PREISLISTE: https://www.goldankauf-ge.de/ | ja |
+| Trauringschmiede Hamburg | Altstadt, Lilienstr. 15, 20095 | https://www.trauringschmiede.de/goldankauf | Altgold/Platin/Silber/Münzen/Barren (100 % Recyclinggold) | ja |
+| Harries GmbH Münzhandlung | Uhlenhorst, Hofweg 12, 22085 | https://www.harries.gmbh/ | Münzen/Edelmetalle, Altgold/Zahngold (Tagespreis-Tabelle). PREISLISTE: https://harries.gmbh/preisliste.html | ja |
+| Kroyer's Münzenkontor Frank Kroyer | Altstadt, Rosenstr. 6, 20095 | https://muenzencontor-hamburg.de/ | Münzen/Edelmetalle (Zahngold-Ankauf zum Tageskurs) | ja |
+| Haeger GmbH (Juwelier/Diamanten/Edelmetalle) | Neustadt, Neuer Wall 15, 20354 | https://christian-haeger.com/standorte/hamburg/ | Gold-/Edelmetall (Zahngold/Altgold/Münzen; Kette, HH-Filiale seit 12/2025) | ja |
+| Belian Juwelier | Rahlstedt, Schweriner Str. 2C, 22143 | https://www.juwelier-belian.de/ | Goldankauf (Altgold/Zahngold/Münzgold/Platin/Silber) | ja |
+| Sadik Carat Juwelier (Carat Goldankauf e.K.) | St. Georg, Steindamm 23, 20099 | https://www.carat-goldankauf.de/ | Altgold/Bruchgold/Zahngold/Münzen/Uhren (Goldrechner). PREISLISTE: https://www.carat-goldankauf.de/ | ja |
+| Juwelier Zieroth | Lohbrügge, Alte Holstenstr. 22-24, 21031 | https://juwelier-zieroth.de/ | Altgold/Zahngold/Münzen/Barren/Uhren (100+ J.) | ja |
+| Van der Meulen Edelmetaal B.V. | Allermöhe, Hans-Duncker-Str. 14, 21035 | https://meulenedelmetall.de/ | Edelmetallrecycling (Gewerbe: Juweliere/Zahntechnik; NL-Scheideanstalt) | ja |
+| Olympic Silver Trading GmbH | Rotherbaum, 20146 (Straße offen) | keine Website verifiziert | Silberhandel (nur Gelbe-Seiten-Beleg) | unklar |
+| pro aurum Vertrieb GmbH Filiale Hamburg | Altstadt, Großer Burstah 44, 20457 | https://www.proaurum.de/ | Altgold/Barren/Münzen/Silber/Platin (Tafelgeschäft, Kette) | ja |
+| philoro Filiale Hamburg | Neustadt, Neuer Wall 77, 20354 | https://philoro.de/ | Altgold/Zahngold/Silber/Platin/Palladium. PREISLISTE: https://philoro.de/preisliste/alle | ja |
+| Degussa Niederlassung Hamburg | Altstadt, Ballindamm 5, 20095 | https://degussa.com/ | Schmuck/Dental-/Zahngold/Barren/Münzen. PREISLISTE: https://degussa.com/de-de/header_navigation/preise/preisliste/ | ja |
+| Goldkontor Hamburg GmbH | Altstadt, Alstertor 1, 20095 | keine Website verifiziert (Domain löst auf, Server-Timeout http+https) | Altgold/Zahngold/Silber/Platin | unklar |
+| WEGRO Bahrenfeld (Filiale) | Bahrenfeld, Ruhrstr. 16, 22761 (Sitz Rellingen SH) | https://www.wegrogmbh.de/ankauf-altmetall | Schrott/Metall/Container (Ankaufinfo; mit SH abstimmen) | ja |
+
+Abgewiesen (7):
+- Autoverwertung Lensch GmbH (Lederstr. 66): Betrieb 2018 geschlossen (Auktion/Schließung belegt) — alleiniger Schließungsfall; Schwesterfirma Georg Lensch & Söhne bleibt.
+- Holger Busse Münzen u. Edelmetalle (Lange Reihe 71): Duplikat — gleiche Adresse + gleiche Tel. 040/249771 wie Hartwig; Hartwig-Eintrag (mit Website) bleibt.
+- Rudolf Paßvogel GmbH (Grusonstr. 73): Domain passvogel.de = STRATO-Parkseite, kein Ankauf-Beleg gefunden.
+- ERKO Wertstoff und Recycling GmbH (Eiffestr. 462): Domain tot, kein Ankauf-Beleg gefunden.
+- Goldada Edelmetallhandel Hamburg (Luhering 23A): Domain goldada.de steht zum Verkauf (Titel verifiziert).
+- Ertütünci Juwelier Istanbul (Lüneburger Str. 30): nur "Goldankauf" als Schmiede-Leistung, kein Zahngold-/Schrott-Bezug.
+- SARAY Juwelier Phönix-Center (Hannoversche Str. 86): reiner Schmuck-Shop (sarayjuwelier.de), kein Ankauf-Beleg.
+
+Tote/umgeleitete Seed-Websites aus hh.json (curl-Sweep 27.09.2026):
+- https://hme.buhck.de (HME Hamburger Müllentsorgung): https down (000), nur http erreichbar (200) — Protokoll-Problem, Eintrag auf http prüfen/korrigieren.
+- https://www.isr-itzehoe.de (ISR + Peter Stolz): leitet auf https://www.isr-recycling.de/ um (301) — Seed-URL veraltet.
+- Alle übrigen 40 Seed-Websites: HTTP 200 (helmuthhahn.de http→https-Weiterleitung ok).

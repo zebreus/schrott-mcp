@@ -224,3 +224,90 @@ Stand: 27.09.2026. Jede Website wurde per webfetch verifiziert; wo das fehlschlu
 - Insel Poel (klick-PLZ 23999 leer), Fischland (nur Skelett-Seiten): Lücken bleiben.
 - SMD Richtenberger Str. 31 vs. 32: Bagatelle, ungeklärt.
 - Stadtentsorgung Rostock GmbH (Petridamm 26, Telefonbuch-Treffer): kommunaler Entsorger ohne Ankauf — out of scope, nicht tabelliert.
+
+## Nachtrag Audit-Runde 4 (27.09.2026)
+
+Audit-Entscheidung zu allen Kandidaten aus /tmp/opencode/audit/mv.md (Runde 1 + Runde 2). Methode: alle Kandidaten-Websites per curl geprüft (HTTP-Status + Inhalts-Snippets); No-Website-Einträge auf Register-/Verzeichnis-Basis plausibilisiert (Existenz-Maßstab, kein Kaufnachweis); Seed-Duplikate (alle 82 Seed-Einträge) nie erneut aufgenommen. Filter: KEEP bei Schrott-/Metall-Ankauf oder -Annahme (privat/B2B/mobil/klein); Ankauf "ja" nur mit Beleg, sonst "unklar".
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Altpapierankauf Schulz | Pasewalk + Annahmestellen Greifswald/Anklam/Torgelow | https://altpapierankauf-schulz.de/ | Altpapier, Metall, Glas, Altkleider | ja (Bargeld, Metall-Annahme lt. Website) |
+| GER Umweltschutz GmbH | Grevesmühlen 23936 | https://www.ger-umweltschutz.de/ | Containerdienst, Entsorgung | unklar |
+| Metal Union & Logistics GmbH | Boizenburg 19258, Galliner Str. 54 | keine Website verifiziert | Metallhandel | unklar (nur Register) |
+| RAST-recycling GmbH | Boizenburg 19258, Ringstr. 1b | keine Website verifiziert | Altmaterial-Großhandel | unklar (nur Verzeichnis) |
+| SMS Metall Recycling (E. Schmelzer) | Boizenburg 19258, Bahnhofstr. 13 | keine Website verifiziert | Altmetall | unklar (nur Verzeichnis) |
+| Umweltdienste Barth GmbH & Co. KG | Barth 18356, Am Mastweg 2a | https://www.umweltdienste-barth.de/ | Entsorgung, Eisen-/NE-Lager, Autowracks | unklar (Vergütung unbelegt) |
+| ARC Auto-Recycling-Centrum GmbH | Güstrow 18273, Primerburg 5 (Website-Schreibweise; Klärfall entschieden) | https://www.arc-guestrow.de/ | zert. Demontagebetrieb, Werkstatt | unklar (Altauto-Entsorgung; Schrottvergütung unbelegt) |
+| DAPA GmbH | Duvendiek 18442, Kranichblick 32 (Klärfall entschieden: Duvendiek, nicht Niepars) | https://www.dapa-hst.de/ | Abschleppdienst, Autoverwertung, Autoankauf | ja (Autoankauf-Rubrik lt. Website) |
+| ASS Automobilservice Stargard Neumann oHG | Bargensdorf 17094, Fünfeichener Weg 3 (Klärfall entschieden: ein Betrieb, eine Zeile) | https://www.ass-autopartner.de/ | Autowerkstatt, Altauto-Annahmestelle (GESA) | unklar |
+| Fahrzeugtechnik und Karosseriebau Schwittau | Güstrow 18273, Priemerburg 3 | keine Website verifiziert | zert. Demontagebetrieb (GESA) | unklar |
+| Autoverschrottung Rostock | Rostock (Adresse unklar) | https://www.autoverschrottung-rostock.de/ | Altauto-Abholung, kostenlose Entsorgung | unklar (schwächste Portal-Evidenz: Platzhalter-Adresse, kein Hof belegt) |
+| WSR Warnemünder Schrott und Recycling GmbH | Rostock 18119, Gartenstr. 23 | keine Website verifiziert | Eisen/NE (HRB 13748) | unklar |
+| Hanse-Recycling GmbH | Rostock 18147, Am Seehafen 7 | keine Website verifiziert | Eisen/NE-Annahme, hafennah | unklar |
+| SRR Recycling GmbH | Rostock 18146, Up de Schnur 2 | keine Website verifiziert | Eisen/NE | unklar (nur Register, dünn belegt) |
+| ALBA Mittleres Mecklenburg GmbH | Kavelstorf 18196, Silder Moor 10 | https://metall.alba.info | Eisen/NE/Container | unklar |
+| ALBA Nord GmbH | Schwerin 19057, Ziegeleiweg 12 (abweichend von Corporate-Adresse Rogahner Str. 72 — Verifizierung offen) | https://metall.alba.info | Eisen/NE | unklar |
+| Nowakowski Recycling GmbH | Schwerin 19061, Rogahner Str. 92 | keine Website verifiziert | Eisen/NE | unklar |
+| RCH Recycling Holthusen | Holthusen 19075, Mittelweg 5 | keine Website verifiziert | Eisen/NE/Container | unklar |
+| AWH GmbH | Schwerin 19061, Werkstraße 120 | keine Website verifiziert | Eisen/NE/Handel | unklar |
+| KMSR GmbH | Schwerin 19061, Dorfstr. 48 | keine Website verifiziert | unklar (HRB 9200) | unklar (SCHWÄCHSTE EVIDENZ: nur Registereintrag, keine Betriebs-/Ankaufbelege) |
+| Reinhard Kraatz e. K. | Dorf Mecklenburg 23972, Am Wehberg 5a | keine Website verifiziert | Eisen/NE | unklar |
+| zWe Recycling | Wismar 23966, Alter Holzhafen 3 | keine Website verifiziert | Eisen/NE, hafennah | unklar |
+| Schmidt Recycling GmbH | Wismar 23966, Zum Dock 6 | keine Website verifiziert | Eisen/NE, hafennah | unklar |
+| Friehold Recycling GmbH | Carinerland 18236, Kastanienallee 12 | keine Website verifiziert | Eisen/NE | unklar |
+| Kähler Schrotthandel Rebesky | Wölschendorf 23936, Hauptstr. 7 | keine Website verifiziert | Dorf-Schrotthandel, Eisen/NE | unklar |
+| Auto Schnell OHG | Bad Kleinen 23996 | keine Website verifiziert | anerkannter Demontagebetrieb (GESA) | unklar |
+| Autoservice Scholz GmbH | Crivitz 19089 (kein Bezug zu Scholz Recycling) | keine Website verifiziert | anerkannter Demontagebetrieb (GESA) | unklar |
+| KfZ Service Ziegelhof | Greifswald 17489 | keine Website verifiziert | anerkannter Demontagebetrieb (GESA) | unklar |
+| Abschleppdienst Liedtke | Neuendorf 18246 | keine Website verifiziert | anerkannter Demontagebetrieb (GESA) | unklar |
+| Bernd Wackrow | Torgelow 17358 | keine Website verifiziert | anerkannter Demontagebetrieb (GESA) | unklar |
+| Autoverwertung S. Schmidt | Groß Roge 17166 | keine Website verifiziert | anerkannter Demontagebetrieb (GESA) | unklar |
+| Autoverwertung Kort GbR | Demen 19089 | keine Website verifiziert (Website offline) | anerkannter Demontagebetrieb (GESA) | unklar |
+| Parchimer Entsorgungs GmbH (PEG) | Parchim 19370, Walter-Hase-Str. 42 | keine Website verifiziert | Metallankauf/Schrott/Altmetall lt. Verzeichnis | unklar |
+| Schrotthandel Parchim | Parchim 19370, Juri-Gagarin-Ring 10 | keine Website verifiziert | Eisen/NE, Öffnungszeiten publiziert | unklar |
+| Recyclinghof J. Quitzow GmbH | Domsühl 19374 | keine Website verifiziert | Eisen-Annahme | unklar |
+| HAROC Rohstoff GmbH | Kreien 19386, Wilsener Chaussee 1 (Impressum verifiziert) | https://www.haroc.de/ | NE/Kunststoffe, bvse-Mitglied seit 2009, Gewerbe-Fokus | unklar (Vergütung unbelegt) |
+| RK Recycling Kreien GmbH | Kreien 19386, Wilsener Chaussee 1 (gleiche Adresse wie HAROC — Verhältnis ungeklärt) | keine Website verifiziert | Eisen/NE | unklar |
+| MCA Müritzer Container & Abbruch | Röbel 17207, Glienholzweg 2, Tel. 039931/52548 | keine Website verifiziert | Eisen/Container/Abbruch | unklar |
+| Smurfit Kappa NL Waren | Waren 17192, Warendorfer Str. 5 | https://www.smurfitkappa.com/de (Konzernseite; NL-Seite nicht separat verifiziert) | Altpapier, v.a. Gewerbe | unklar |
+| NAW Recycling GmbH | Neustrelitz 17235 | keine Website verifiziert | Fraktion unklar | unklar (dünn belegt) |
+| RED GmbH Rechlin | Rechlin 17248 | keine Website verifiziert | Fraktion unklar | unklar (dünn belegt) |
+| Wertstoffaufbereitungszentrum Freidorf GmbH | Möllenhagen 17219 | keine Website verifiziert | Wertstoffe | unklar (dünn belegt) |
+| Görs Recycling GmbH | Gützkow 17506, Am Kleinbahnhof 2 | keine Website verifiziert | Eisen | unklar |
+| Hans Bartusch | Wolgast 17438 | keine Website verifiziert | Eisen | unklar (dünn belegt) |
+| UTL GmbH | Grimmen 18507 | keine Website verifiziert | Eisen | unklar |
+| Bornhöft Abriß & Recycling GmbH | Kramerhof 18445 | keine Website verifiziert | Altauto/Abbruch/Eisen | unklar |
+| Bernd Hagen GmbH | Kramerhof 18445 | http://www.bhagen.de | Abbruch/Baustoffrecycling/Eisen | unklar (Ankauf unbelegt) |
+| Milhan Recycling | Dassow 23942 | keine Website verifiziert | Eisen | unklar |
+| HAR Entsorgung | Gadebusch 19205 | keine Website verifiziert | Abbruch/Eisen | unklar |
+| Uwe Krüger Demontagen GmbH | Rostock 18069 | keine Website verifiziert | Abbruch/Demontage/Eisen | unklar |
+| Martzahn Roland Sero-Aufkäufer | Insel Poel 23999 | keine Website verifiziert | Eisen/NE/Altstoffe | unklar (dünn belegt) |
+| DWB Brechlin GmbH | Teterow 17166, Am Hügelgrab 9 | keine Website verifiziert | Eisen/NE/Buntmetall/Container, An-/Verkauf lt. Profil | unklar |
+| Frank Dreblow | Löcknitz 17321 | keine Website verifiziert | Eisen | unklar (dünn belegt) |
+| ALBA Metall Nord NL Neubrandenburg | Neubrandenburg 17036, Kruseshofer Str. 21, Tel. 0395 3698315 | keine Website verifiziert (nicht auf alba.info; Betrieb via lokaleschrottplatz.de + schrottradar.de mit Annahmekategorien belegt) | Stahl/NE/Container | unklar |
+| Schweriner Antik & Goldkontor | Schwerin 19055, Werderstraße 41 | https://schweriner-goldankauf.de/zahngold-ankauf.html | Dentalgold (Zahnkronen/Brücken/Inlays, Bargeld sofort, Hausbesuch) | ja |
+| Mobiler Hartmetall-Ankauf | Boizenburg/Elbe, ohne Straße (mobil, deutschlandweit, ab ca. 140 kg) | keine Website verifiziert (Kleinanzeigen-Inserat) | Hartmetall | unklar |
+
+### Rejects (Audit-Runde 4)
+
+- CHRIST Juwelier Rostock — OUT: reiner Schmuck-Ladenankauf, kein Schrott-/Dentalgold-Bezug.
+- Autoverwertung Schwerin (Fahrzeugzentrale-Portal) — OUT: Lead-Portal ohne verifizierbaren Hof (Impressum nur Inhaber + Mobilnummer, keine Adresse, kein Hof).
+- ALBA Metall Nord NL Demmin (Davidsohnweg 2) — OUT: nicht auf alba.info gelistet, kein unabhängiger Betriebsbeleg gefunden.
+- Schrottankauf elvis (Schwaan) — OUT: Duplikat des Seed-Eintrags "Schrottankauf Schwaan" (gleiche Adresse Verlängerte Güstrower Str. 4).
+- Abbruch Containerdienst Schrottverwertung (Mandy Jäger, Ribnitz-Damgarten) — OUT: Duplikat des Seed-Eintrags ACS Jäger (gleiche Adresse Bei den Borger Tannen 8).
+- Gerd Mikosch (Warlow) — OUT: bereits im Seed.
+- DTR Autoverwertung (Wittendörp) — OUT: bereits im Seed.
+- Bereits im Seed (nicht erneut übernommen, daher keine neuen Zeilen): Diwa, Rügener Mineralölhandel, Rossner, Buntmetallbörse Jatznick, Seilz, SDW-Recycling, MGD/JD-Recycling, Schrott Ankauf Alen, ITA Metal Company, O.B. Metall, Wertstoffhof Niepars, Schrottankauf-Barth, Schrotthandel Lübtheen, Rodemann, Riehl, IRE GbR, Sommerfeld, H. Ziems, Zotzmann, RWE Wismar, Schrotti Rügen, Saß, GVM, enosys, LSM, ASN, HRG, MMR, ALBA Torgelow/Greifswald.
+
+### Seed-Website-Sweep (alle 32 distinkten URLs aus mv.json, curl HTTP-Status 27.09.2026)
+
+- TOT (0): keine tote Seed-Website. Alle URLs antworten mit HTTP 200.
+- BLOCKIERT (1): http://www.acs-jaeger.de → HTTP 403 (Betreiber-Block; Existenz via Gelbe Seiten/Telefonbuch plausibel, kein Dead-Site).
+- Nur-http ohne https-Upgrade (1): http://www.schrotthandel-rostock.de/ → 200 nur via http.
+- Triviale http→https-Redirects (3): schrotthaendler.com, schrotthandel-anklam.de, asn.gmbh (Ziel jeweils 200).
+- Rest (27): direkt 200 (u.a. alle ALBA-, Ziems-, BUG-, FAIR-, Rüge-, Ritschel-, Schanko-, Raesch-, Hückstedt-, Spaude-, SBH-, Saß-, GVM-, enosys-, LSM-, MMR-, Denecke-, Bülow-, s-m-d-, mcschrott-, wertstoffhof-stavenhagen-Seiten).
+
+### Seed-Adress-Enrichments
+
+Aus Audit-Datei übernommen: Rüge Laascher Weg 6d (Ludwigslust); Bobzien Otto-Lilienthal-Str. 48 (Neubrandenburg); Balzereit Mühlenweg 11 (Bad Doberan); Diwa Borchtitz 16 (Lietzow); Hückstedt Rudower Str. 58(a) (Neustrelitz); SBH Lübz Industriestr. 6(A); Martins Am Hafen 10a (Lübz); Donner Kirchstr. 16 (Gützkow); Birgel Jeeser 2 (Sundhagen); LTU Stahlbroder Str. 1 (Sundhagen); DS Brunn Fuchsberg 14 (Trollenhagen); Schanko Herrenhufenstr. 6 + Zum Voßberg 23, Weitenhagen (Helmshagen); Seilz Teerofen 1 (Eggesin); Kähler Grevesmühlen (Adresse fehlt — nur Ort); SBH-Güstrow-Filiale Industriegelände 6.
+Portal-verifiziert heute (lokaleschrottplatz.de/schrottradar.de): Steil Anklam Am Hafen 2, Tel. 03971 212271; Peeneschrott Kirschenweg 5, Tel. 03971 293650; SBH Lübz Industriestr. 6, Tel. 038731 22355; SBH Güstrow Industriegelände 6, Tel. 03843 683183; SMD Richtenberger Str. 31 (Tabelle: 32 — Bagatelle); Schrotthandel GmbH Parkentin Deponiestr. 1, Tel. 039820 3776238 (Zweitadresse); ALBA Rostock Zum Wasserwerk 6 (Zweitadresse, unklar ob aktuell); ALBA Stralsund Richtenberger Ch 80 (Portal) vs. Dähnholmstr. 13; ALBA NB Kruseshofer Str. 21, Tel. 0395 3698315; NSH Burg Stargard Fünfeichener Weg 3, Tel. 039603 23425; Klinger Greifswald Helmshäger Str. 6, Tel. 03834 2310441; Rodemann Greifswald Kleine Hafenstr. 15, Website schrottundmetalle-rodemann.de; Schwaan Verlängerte Güstrower Str. 4 = "Schrottankauf elvis", Tel. 01525 1022115; BUG Bobzin Am Hunnenkamp 4; BUG Schwerin Handelsstr. 15; FAIR Schwerin Anthony-Fokker-Str. 5; MC Schrott Werftstr. 20; Alen Rostock Handwerkstr. 5; ITA Neustrelitz Woldegker Ch 2; Ziems Malchow Am Bahnhof; Ziems Malchin Mühlentorsiedlung 1; Ziems Gnoien Rostocker Str. 21; Ziems Waren Siegfried-Marcus-Str. 20; Ziems Stralsund Zum Seglerhafen 1; Jatznick Waldstr. 22, PLZ 17309; LSM Boizenburg Galliner Str. 40A; ASN Boizenburg Galliner Str. 54; Saß Ludwigslust Lüblower Weg 49; Rüge Wöbbeliner Str. 69; GVM Grevesmühlen Grüner Weg 11; Schrotti Rügen Silvitz 8 (Bergen); Jäger Ribnitz Tel. 0175 7847211; MGD Lüdersdorf Hauptstr. 27G; SDW Klein Trebbow Alte Gärtnerei 12.
