@@ -7,6 +7,6 @@ pub mod public;
 pub use error::StoreError;
 pub use internal::{FetchRecord, InternalDb};
 pub use public::{
-    MaterialRow, NewMaterial, NewPrice, NewTrader, PriceRow, PublicDb, SqlColumn, SqlResult,
-    TraderRow,
+    MaterialRow, NewMaterial, NewPrice, NewTrader, PriceRow, PublicDb, SeedKept, SqlColumn,
+    SqlResult, TraderRow,
 };

@@ -20,11 +20,15 @@ use serde::Deserialize;
 use schrott_mcp_store::{NewTrader, PublicDb};
 
 /// One seed row, exactly as stored in `seed/traders/*.json`.
+/// `description`, `dropoff_json` and `pickup_json` are enrichment-owned:
+/// the importer keeps stored values whenever the seed leaves them empty.
 #[derive(Debug, Clone, Deserialize)]
 pub struct SeedTrader {
     pub slug: String,
     pub name: String,
     pub trader_type: String,
+    #[serde(default)]
+    pub description: String,
     #[serde(default)]
     pub street: String,
     #[serde(default)]
@@ -33,6 +37,10 @@ pub struct SeedTrader {
     pub state: String,
     #[serde(default)]
     pub website: String,
+    #[serde(default)]
+    pub dropoff_json: String,
+    #[serde(default)]
+    pub pickup_json: String,
     pub status: String,
     #[serde(default)]
     pub notes: String,
@@ -124,6 +132,15 @@ pub fn validate_seeds(traders: &[SeedTrader]) -> Result<(), String> {
         {
             return Err(format!("bad website in {}", t.slug));
         }
+        for (key, raw) in [("dropoff_json", &t.dropoff_json), ("pickup_json", &t.pickup_json)] {
+            if !raw.is_empty() {
+                let v: serde_json::Value = serde_json::from_str(raw)
+                    .map_err(|_| format!("bad {key} JSON in {}", t.slug))?;
+                if !v.is_object() {
+                    return Err(format!("bad {key} (not an object) in {}", t.slug));
+                }
+            }
+        }
         if t.city.is_empty() {
             return Err(format!("empty city in {}", t.slug));
         }
@@ -131,13 +148,46 @@ pub fn validate_seeds(traders: &[SeedTrader]) -> Result<(), String> {
     Ok(())
 }
 
-/// Hash over everything the seed owns about a trader.
-fn payload_hash(t: &SeedTrader) -> String {
+/// Hash over everything the seed owns about a trader (effective values,
+/// i.e. after enrichment preservation below).
+fn payload_hash(
+    t: &SeedTrader,
+    description: &str,
+    dropoff_json: &str,
+    pickup_json: &str,
+    website: &str,
+) -> String {
     let mut h = DefaultHasher::new();
-    (&t.slug, &t.name, &t.trader_type, &t.street, &t.postcode, &t.city,
-     &t.state, &t.website, &t.status, &t.notes)
-        .hash(&mut h);
+    [
+        t.slug.as_str(),
+        t.name.as_str(),
+        t.trader_type.as_str(),
+        t.street.as_str(),
+        t.postcode.as_str(),
+        t.city.as_str(),
+        t.state.as_str(),
+        website,
+        t.status.as_str(),
+        t.notes.as_str(),
+        description,
+        dropoff_json,
+        pickup_json,
+    ]
+    .join("\x1f")
+    .hash(&mut h);
     format!("{:016x}", h.finish())
+}
+
+/// Non-empty seed value wins, otherwise the stored (enriched) one survives.
+/// The seed never clobbers scraper/human enrichment with blanks.
+fn keep(seed: &str, stored: &str, fallback: &str) -> String {
+    if !seed.is_empty() {
+        seed.to_owned()
+    } else if !stored.is_empty() {
+        stored.to_owned()
+    } else {
+        fallback.to_owned()
+    }
 }
 
 /// Apply the seed corpus. Returns the number of rows written (inserts +
@@ -153,15 +203,20 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
     })?;
     let mut wrote = 0;
     for t in &traders {
-        let hash = payload_hash(t);
-        if public.trader_seed_hash(&t.slug).map_err(|source| {
-            super::IngestError::Catalog {
+        let kept = public
+            .existing_seed_state(&t.slug)
+            .map_err(|source| super::IngestError::Catalog {
                 what: "trader",
                 name: t.slug.clone(),
                 source,
-            }
-        })? == Some(hash.clone())
-        {
+            })?
+            .unwrap_or_default();
+        let description = keep(&t.description, &kept.description, "");
+        let dropoff_json = keep(&t.dropoff_json, &kept.dropoff_json, "{}");
+        let pickup_json = keep(&t.pickup_json, &kept.pickup_json, "{}");
+        let website = keep(&t.website, &kept.website, "");
+        let hash = payload_hash(t, &description, &dropoff_json, &pickup_json, &website);
+        if kept.seed_hash == Some(hash.clone()) {
             continue; // unchanged — keep updated_at meaningful
         }
         let extra = serde_json::json!({
@@ -176,6 +231,7 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
                 slug: &t.slug,
                 name: &t.name,
                 trader_type: &t.trader_type,
+                description: &description,
                 street: &t.street,
                 postcode: &t.postcode,
                 city: &t.city,
@@ -185,11 +241,14 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
                 lon: None,
                 phone: "",
                 email: "",
-                website: &t.website,
+                website: &website,
+                website_status: &keep("", &kept.website_status, "unbekannt"),
+                website_checked_at: &kept.website_checked_at,
                 opening_hours: "",
-                accepts_dropoff: true,
-                accepts_pickup: false,
+                dropoff_json: &dropoff_json,
+                pickup_json: &pickup_json,
                 min_quantity_kg: None,
+                max_quantity_kg: None,
                 certifications: "[]",
                 status: &t.status,
                 notes: &t.notes,
@@ -243,5 +302,68 @@ mod tests {
             .query_sql("SELECT first_seen_at, updated_at FROM traders WHERE slug = 'bw-stuttgart-falk-adler'")
             .expect("spot check");
         assert_eq!(res.rows.len(), 1);
+    }
+
+    #[test]
+    fn seed_preserves_enrichment() {
+        use schrott_mcp_store::NewTrader;
+        let dir = std::env::temp_dir().join(format!("schrott-seed-keep-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        let db = PublicDb::open(&dir).expect("test db opens");
+        let now = "2026-09-27T00:00:00Z";
+        seed_traders(&db, now).expect("first seed writes");
+        let slug = "bw-stuttgart-falk-adler";
+        // Simulate scraper enrichment that does not know the seed hash.
+        let cur = db
+            .query_sql(&format!(
+                "SELECT name, trader_type, city, state, website, status, notes
+                 FROM traders WHERE slug = '{slug}'"
+            ))
+            .expect("read row");
+        assert_eq!(cur.rows.len(), 1);
+        let c: Vec<String> = cur.rows[0]
+            .iter()
+            .map(|v| v.as_str().unwrap_or_default().to_owned())
+            .collect();
+        db.upsert_trader(&NewTrader {
+            slug,
+            name: &c[0],
+            trader_type: &c[1],
+            description: "Vom Scraper angereichert.",
+            street: "",
+            postcode: "",
+            city: &c[2],
+            state: &c[3],
+            country: "DE",
+            lat: None,
+            lon: None,
+            phone: "",
+            email: "",
+            website: &c[4],
+            website_status: "aktiv",
+            website_checked_at: now,
+            opening_hours: "",
+            dropoff_json: "{\"allowed\":true,\"customer_types\":[\"gewerbe\"]}",
+            pickup_json: "{}",
+            min_quantity_kg: None,
+            max_quantity_kg: None,
+            certifications: "[]",
+            status: &c[5],
+            notes: &c[6],
+            extra_json: "{}",
+            now,
+        })
+        .expect("enrichment writes");
+        // Re-seed re-imports the row (hash was lost) but keeps the enrichment.
+        assert_eq!(seed_traders(&db, now).expect("reseed"), 1);
+        let kept = db
+            .existing_seed_state(slug)
+            .expect("state reads")
+            .expect("row exists");
+        assert_eq!(kept.description, "Vom Scraper angereichert.");
+        assert_eq!(kept.website_status, "aktiv");
+        assert!(kept.dropoff_json.contains("gewerbe"));
+        // And the run after that is a no-op again.
+        assert_eq!(seed_traders(&db, now).expect("reseed2"), 0);
     }
 }

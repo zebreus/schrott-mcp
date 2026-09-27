@@ -50,9 +50,18 @@ With love as the secret ingredient.
 
 Designed for AI agents, superfast queries, and future growth:
 
-- `traders` — one row per Händler (slug, name, type, address, geo, contact,
-  opening hours, pickup/dropoff, certifications, status). `traders_fts`
-  (FTS5) makes name/city/postcode search instant.
+- `traders` — one row per Händler (slug, name, type, curated German
+  `description`, address, geo, contact, `website` + `website_status`
+  [`aktiv`/`tot`/`blockiert`/`unbekannt`] + check timestamp, opening
+  hours, service conditions, min/max quantity, certifications, status).
+  `traders_fts` (FTS5) makes name/city/postcode search instant.
+  Drop-off/pickup are condition objects (`dropoff_json`/`pickup_json`:
+  `allowed`, `customer_types` [`privat`/`gewerbe`], `days`, `time_windows`,
+  quantities, free `conditions`) — never plain yes/no. Structured facts
+  live in typed columns; `extra_json` carries only provenance
+  (`seed_*`), review notes, aliases and other URLs; `notes` stays free
+  prose. Migrations are additive (`migrate()` backfills new columns in
+  existing files, e.g. booleans → condition JSON).
 - `materials` — the static price catalog (slug, German name, category, unit).
   Seeded by ingestion; scrapers never invent materials.
 - `trader_materials` — which trader accepts which material, with conditions

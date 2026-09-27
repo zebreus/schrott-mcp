@@ -7,6 +7,25 @@
 //! `status` is one of: `aktiv`, `geschlossen`, `pruefung`, `unbekannt`.
 //! `state` holds the Bundesland code (`BW`, `BY`, `BE`, `BB`, `HB`, `HH`,
 //! `HE`, `MV`, `NI`, `NW`, `RP`, `SL`, `SN`, `ST`, `SH`, `TH`).
+//!
+//! Service conditions (`dropoff_json`, `pickup_json`) are JSON objects —
+//! drop-off/pickup is never a plain yes/no but tied to conditions:
+//! ```json
+//! {"allowed": true, "customer_types": ["privat", "gewerbe"],
+//!  "days": ["Mo", "Di", "Mi", "Do", "Fr"],
+//!  "time_windows": ["08:00-16:00"],
+//!  "min_quantity_kg": 50, "max_quantity_kg": null,
+//!  "conditions": "nur mit Termin, keine Altautos"}
+//! ```
+//! A missing `allowed` (or `'{}'`) means unknown. `customer_types` uses
+//! `privat`/`gewerbe`; `days` uses `Mo Di Mi Do Fr Sa So`.
+//!
+//! `extra_json` key registry (everything else stays in typed columns):
+//! `seed_file`, `seed_section`, `ankauf_raw`, `seed_hash` (seed importer),
+//! `review` (human review notes), `aliases` (array of former names),
+//! `other_urls` (array of further web presences: Facebook, Kleinanzeigen…).
+//! `notes` remains free prose (specialties from research); `description`
+//! is the curated German description (filled by scrapers/enrichment).
 
 use rusqlite::{params, OptionalExtension as _};
 
@@ -19,6 +38,7 @@ CREATE TABLE IF NOT EXISTS traders (
     slug TEXT NOT NULL UNIQUE,
     name TEXT NOT NULL,
     trader_type TEXT NOT NULL DEFAULT 'sonstige',
+    description TEXT NOT NULL DEFAULT '',
     street TEXT NOT NULL DEFAULT '',
     postcode TEXT NOT NULL DEFAULT '',
     city TEXT NOT NULL DEFAULT '',
@@ -29,10 +49,13 @@ CREATE TABLE IF NOT EXISTS traders (
     phone TEXT NOT NULL DEFAULT '',
     email TEXT NOT NULL DEFAULT '',
     website TEXT NOT NULL DEFAULT '',
+    website_status TEXT NOT NULL DEFAULT 'unbekannt',
+    website_checked_at TEXT NOT NULL DEFAULT '',
     opening_hours TEXT NOT NULL DEFAULT '',
-    accepts_dropoff INTEGER NOT NULL DEFAULT 1,
-    accepts_pickup INTEGER NOT NULL DEFAULT 0,
+    dropoff_json TEXT NOT NULL DEFAULT '{}',
+    pickup_json TEXT NOT NULL DEFAULT '{}',
     min_quantity_kg REAL,
+    max_quantity_kg REAL,
     certifications TEXT NOT NULL DEFAULT '[]',
     status TEXT NOT NULL DEFAULT 'aktiv',
     notes TEXT NOT NULL DEFAULT '',
@@ -48,21 +71,86 @@ CREATE INDEX IF NOT EXISTS idx_traders_status ON traders(status);
 CREATE VIRTUAL TABLE IF NOT EXISTS traders_fts USING fts5(
     name, city, postcode, content='traders', content_rowid='id'
 );
-CREATE TRIGGER IF NOT EXISTS traders_ai AFTER INSERT ON traders BEGIN
+";
+
+/// Content-sync triggers for `traders_fts`. Kept separate from [`SCHEMA`]
+/// because migrations must drop them first: any ALTER/UPDATE on an FTS5
+/// content table with these triggers present corrupts the schema.
+pub(super) const TRIGGERS: &str = "
+CREATE TRIGGER traders_ai AFTER INSERT ON traders BEGIN
     INSERT INTO traders_fts(rowid, name, city, postcode)
     VALUES (new.id, new.name, new.city, new.postcode);
 END;
-CREATE TRIGGER IF NOT EXISTS traders_ad AFTER DELETE ON traders BEGIN
+CREATE TRIGGER traders_ad AFTER DELETE ON traders BEGIN
     INSERT INTO traders_fts(traders_fts, rowid, name, city, postcode)
     VALUES ('delete', old.id, old.name, old.city, old.postcode);
 END;
-CREATE TRIGGER IF NOT EXISTS traders_au AFTER UPDATE ON traders BEGIN
+CREATE TRIGGER traders_au AFTER UPDATE ON traders BEGIN
     INSERT INTO traders_fts(traders_fts, rowid, name, city, postcode)
     VALUES ('delete', old.id, old.name, old.city, old.postcode);
     INSERT INTO traders_fts(rowid, name, city, postcode)
     VALUES (new.id, new.name, new.city, new.postcode);
 END;
 ";
+
+/// Bring an existing `traders` table up to the current schema.
+/// Additive only (new code never depends on column order): missing columns
+/// are added, and the service-condition JSON is backfilled once from the
+/// legacy boolean flags, which stay in old files as inert leftovers.
+/// Fresh databases already match.
+pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
+    // Triggers first: DDL/DML on an FTS5 content table with live
+    // content-sync triggers corrupts the schema. The backfill below only
+    // touches non-indexed columns, so no FTS rebuild is needed.
+    conn.execute_batch(
+        "DROP TRIGGER IF EXISTS traders_ai;
+         DROP TRIGGER IF EXISTS traders_ad;
+         DROP TRIGGER IF EXISTS traders_au;",
+    )?;
+    let mut cols = std::collections::HashSet::new();
+    for col in conn
+        .prepare("SELECT name FROM pragma_table_info('traders')")?
+        .query_map([], |r| r.get::<_, String>(0))?
+    {
+        cols.insert(col?);
+    }
+    let add = |sql: &str| conn.execute_batch(sql);
+    if !cols.contains("description") {
+        add("ALTER TABLE traders ADD COLUMN description TEXT NOT NULL DEFAULT '';")?;
+    }
+    if !cols.contains("dropoff_json") {
+        add("ALTER TABLE traders ADD COLUMN dropoff_json TEXT NOT NULL DEFAULT '{}';")?;
+    }
+    if !cols.contains("pickup_json") {
+        add("ALTER TABLE traders ADD COLUMN pickup_json TEXT NOT NULL DEFAULT '{}';")?;
+    }
+    if !cols.contains("max_quantity_kg") {
+        add("ALTER TABLE traders ADD COLUMN max_quantity_kg REAL;")?;
+    }
+    if !cols.contains("website_status") {
+        add("ALTER TABLE traders ADD COLUMN website_status TEXT NOT NULL DEFAULT 'unbekannt';")?;
+    }
+    if !cols.contains("website_checked_at") {
+        add("ALTER TABLE traders ADD COLUMN website_checked_at TEXT NOT NULL DEFAULT '';")?;
+    }
+    // Legacy boolean flags -> condition JSON, once. (The flag columns
+    // stay in old files as inert leftovers: DROP COLUMN on an FTS5
+    // content table corrupts the schema, so migrations stay additive.)
+    if cols.contains("accepts_dropoff") {
+        conn.execute_batch(
+            "UPDATE traders SET dropoff_json =
+             CASE WHEN dropoff_json = '{}' THEN
+               '{\"allowed\":' || CASE accepts_dropoff WHEN 0 THEN 'false' ELSE 'true' END || '}'
+             ELSE dropoff_json END;
+             UPDATE traders SET pickup_json =
+             CASE WHEN pickup_json = '{}' THEN
+               '{\"allowed\":' || CASE accepts_pickup WHEN 0 THEN 'false' ELSE 'true' END || '}'
+             ELSE pickup_json END;",
+        )?;
+    }
+    conn.execute_batch(TRIGGERS)?;
+    Ok(())
+}
 
 /// One trader row, as stored.
 #[derive(Debug, Clone)]
@@ -71,6 +159,7 @@ pub struct TraderRow {
     pub slug: String,
     pub name: String,
     pub trader_type: String,
+    pub description: String,
     pub street: String,
     pub postcode: String,
     pub city: String,
@@ -81,10 +170,13 @@ pub struct TraderRow {
     pub phone: String,
     pub email: String,
     pub website: String,
+    pub website_status: String,
+    pub website_checked_at: String,
     pub opening_hours: String,
-    pub accepts_dropoff: bool,
-    pub accepts_pickup: bool,
+    pub dropoff_json: String,
+    pub pickup_json: String,
     pub min_quantity_kg: Option<f64>,
+    pub max_quantity_kg: Option<f64>,
     pub certifications: String,
     pub status: String,
     pub notes: String,
@@ -99,6 +191,7 @@ pub struct NewTrader<'a> {
     pub slug: &'a str,
     pub name: &'a str,
     pub trader_type: &'a str,
+    pub description: &'a str,
     pub street: &'a str,
     pub postcode: &'a str,
     pub city: &'a str,
@@ -109,15 +202,32 @@ pub struct NewTrader<'a> {
     pub phone: &'a str,
     pub email: &'a str,
     pub website: &'a str,
+    pub website_status: &'a str,
+    pub website_checked_at: &'a str,
     pub opening_hours: &'a str,
-    pub accepts_dropoff: bool,
-    pub accepts_pickup: bool,
+    pub dropoff_json: &'a str,
+    pub pickup_json: &'a str,
     pub min_quantity_kg: Option<f64>,
+    pub max_quantity_kg: Option<f64>,
     pub certifications: &'a str,
     pub status: &'a str,
     pub notes: &'a str,
     pub extra_json: &'a str,
     pub now: &'a str,
+}
+
+/// Enrichment-owned columns the seed importer preserves: when the seed
+/// row leaves them empty, the stored values survive (seed never clobbers
+/// scraper/human enrichment).
+#[derive(Debug, Clone, Default)]
+pub struct SeedKept {
+    pub seed_hash: Option<String>,
+    pub description: String,
+    pub dropoff_json: String,
+    pub pickup_json: String,
+    pub website: String,
+    pub website_status: String,
+    pub website_checked_at: String,
 }
 
 impl PublicDb {
@@ -126,22 +236,27 @@ impl PublicDb {
         let conn = self.lock()?;
         conn.execute(
             "INSERT INTO traders
-             (slug, name, trader_type, street, postcode, city, state, country,
-              lat, lon, phone, email, website, opening_hours,
-              accepts_dropoff, accepts_pickup, min_quantity_kg,
+             (slug, name, trader_type, description, street, postcode, city, state, country,
+              lat, lon, phone, email, website, website_status, website_checked_at,
+              opening_hours, dropoff_json, pickup_json,
+              min_quantity_kg, max_quantity_kg,
               certifications, status, notes, extra_json, first_seen_at, updated_at)
-             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14,
-                     ?15, ?16, ?17, ?18, ?19, ?20, ?21, ?22, ?22)
+             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15,
+                     ?16, ?17, ?18, ?19, ?20, ?21, ?22, ?23, ?24, ?25, ?26, ?26)
              ON CONFLICT(slug) DO UPDATE SET
               name = excluded.name, trader_type = excluded.trader_type,
+              description = excluded.description,
               street = excluded.street, postcode = excluded.postcode,
               city = excluded.city, state = excluded.state,
               country = excluded.country, lat = excluded.lat, lon = excluded.lon,
               phone = excluded.phone, email = excluded.email,
-              website = excluded.website, opening_hours = excluded.opening_hours,
-              accepts_dropoff = excluded.accepts_dropoff,
-              accepts_pickup = excluded.accepts_pickup,
+              website = excluded.website, website_status = excluded.website_status,
+              website_checked_at = excluded.website_checked_at,
+              opening_hours = excluded.opening_hours,
+              dropoff_json = excluded.dropoff_json,
+              pickup_json = excluded.pickup_json,
               min_quantity_kg = excluded.min_quantity_kg,
+              max_quantity_kg = excluded.max_quantity_kg,
               certifications = excluded.certifications, status = excluded.status,
               notes = excluded.notes, extra_json = excluded.extra_json,
               updated_at = excluded.updated_at",
@@ -149,6 +264,7 @@ impl PublicDb {
                 t.slug,
                 t.name,
                 t.trader_type,
+                t.description,
                 t.street,
                 t.postcode,
                 t.city,
@@ -159,10 +275,13 @@ impl PublicDb {
                 t.phone,
                 t.email,
                 t.website,
+                t.website_status,
+                t.website_checked_at,
                 t.opening_hours,
-                i64::from(t.accepts_dropoff),
-                i64::from(t.accepts_pickup),
+                t.dropoff_json,
+                t.pickup_json,
                 t.min_quantity_kg,
+                t.max_quantity_kg,
                 t.certifications,
                 t.status,
                 t.notes,
@@ -190,25 +309,34 @@ impl PublicDb {
         .map_err(StoreError::from)
     }
 
-    /// Stored seed payload hash for a trader slug, if it was seed-imported.
-    /// The seed importer compares this to skip unchanged rows.
-    pub fn trader_seed_hash(&self, slug: &str) -> Result<Option<String>, StoreError> {
+    /// Enrichment-owned columns for a trader slug: seed hash plus every
+    /// column the seed importer preserves when the seed row leaves it
+    /// empty (description, service conditions, website state).
+    pub fn existing_seed_state(&self, slug: &str) -> Result<Option<SeedKept>, StoreError> {
         let conn = self.lock()?;
-        let extra: Option<String> = conn
-            .query_row(
-                "SELECT extra_json FROM traders WHERE slug = ?1",
-                params![slug],
-                |r| r.get(0),
-            )
-            .optional()
-            .map_err(StoreError::from)?;
-        Ok(extra.and_then(|e| {
-            serde_json::from_str::<serde_json::Value>(&e)
-                .ok()?
-                .get("seed_hash")?
-                .as_str()
-                .map(str::to_owned)
-        }))
+        conn.query_row(
+            "SELECT extra_json, description, dropoff_json, pickup_json,
+                    website, website_status, website_checked_at
+             FROM traders WHERE slug = ?1",
+            params![slug],
+            |r| {
+                let extra: String = r.get(0)?;
+                let seed_hash = serde_json::from_str::<serde_json::Value>(&extra)
+                    .ok()
+                    .and_then(|v| v.get("seed_hash")?.as_str().map(str::to_owned));
+                Ok(SeedKept {
+                    seed_hash,
+                    description: r.get(1)?,
+                    dropoff_json: r.get(2)?,
+                    pickup_json: r.get(3)?,
+                    website: r.get(4)?,
+                    website_status: r.get(5)?,
+                    website_checked_at: r.get(6)?,
+                })
+            },
+        )
+        .optional()
+        .map_err(StoreError::from)
     }
 
     /// Full-text search over name/city/postcode (FTS5, prefix matching).
@@ -217,10 +345,11 @@ impl PublicDb {
     pub fn search_traders(&self, query: &str, limit: i64) -> Result<Vec<TraderRow>, StoreError> {
         let conn = self.lock()?;
         let mut stmt = conn.prepare(
-            "SELECT t.id, t.slug, t.name, t.trader_type, t.street, t.postcode,
+            "SELECT t.id, t.slug, t.name, t.trader_type, t.description, t.street, t.postcode,
                     t.city, t.state, t.country, t.lat, t.lon, t.phone, t.email,
-                    t.website, t.opening_hours, t.accepts_dropoff, t.accepts_pickup,
-                    t.min_quantity_kg, t.certifications, t.status, t.notes,
+                    t.website, t.website_status, t.website_checked_at, t.opening_hours,
+                    t.dropoff_json, t.pickup_json,
+                    t.min_quantity_kg, t.max_quantity_kg, t.certifications, t.status, t.notes,
                     t.extra_json, t.first_seen_at, t.updated_at
              FROM traders_fts f JOIN traders t ON t.id = f.rowid
              WHERE traders_fts MATCH ?1 ORDER BY rank LIMIT ?2",
@@ -238,26 +367,30 @@ fn row_to_trader(r: &rusqlite::Row<'_>) -> rusqlite::Result<TraderRow> {
         slug: r.get(1)?,
         name: r.get(2)?,
         trader_type: r.get(3)?,
-        street: r.get(4)?,
-        postcode: r.get(5)?,
-        city: r.get(6)?,
-        state: r.get(7)?,
-        country: r.get(8)?,
-        lat: r.get(9)?,
-        lon: r.get(10)?,
-        phone: r.get(11)?,
-        email: r.get(12)?,
-        website: r.get(13)?,
-        opening_hours: r.get(14)?,
-        accepts_dropoff: r.get::<_, i64>(15)? != 0,
-        accepts_pickup: r.get::<_, i64>(16)? != 0,
-        min_quantity_kg: r.get(17)?,
-        certifications: r.get(18)?,
-        status: r.get(19)?,
-        notes: r.get(20)?,
-        extra_json: r.get(21)?,
-        first_seen_at: r.get(22)?,
-        updated_at: r.get(23)?,
+        description: r.get(4)?,
+        street: r.get(5)?,
+        postcode: r.get(6)?,
+        city: r.get(7)?,
+        state: r.get(8)?,
+        country: r.get(9)?,
+        lat: r.get(10)?,
+        lon: r.get(11)?,
+        phone: r.get(12)?,
+        email: r.get(13)?,
+        website: r.get(14)?,
+        website_status: r.get(15)?,
+        website_checked_at: r.get(16)?,
+        opening_hours: r.get(17)?,
+        dropoff_json: r.get(18)?,
+        pickup_json: r.get(19)?,
+        min_quantity_kg: r.get(20)?,
+        max_quantity_kg: r.get(21)?,
+        certifications: r.get(22)?,
+        status: r.get(23)?,
+        notes: r.get(24)?,
+        extra_json: r.get(25)?,
+        first_seen_at: r.get(26)?,
+        updated_at: r.get(27)?,
     })
 }
 
@@ -270,6 +403,7 @@ mod tests {
             slug,
             name,
             trader_type: "schrotthaendler",
+            description: "Ankauf von Schrott und Metallen.",
             street: "",
             postcode: "",
             city,
@@ -280,10 +414,13 @@ mod tests {
             phone: "",
             email: "",
             website: "",
+            website_status: "unbekannt",
+            website_checked_at: "",
             opening_hours: "",
-            accepts_dropoff: true,
-            accepts_pickup: false,
+            dropoff_json: "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"]}",
+            pickup_json: "{\"allowed\":false}",
             min_quantity_kg: None,
+            max_quantity_kg: None,
             certifications: "[]",
             status: "aktiv",
             notes: "",
@@ -310,7 +447,72 @@ mod tests {
         let hits = db.search_traders("Müller*", 10).expect("fts");
         assert_eq!(hits.len(), 1);
         assert_eq!(hits[0].name, "Müller Schrott AG");
+        assert_eq!(
+            hits[0].dropoff_json,
+            "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"]}"
+        );
         let none = db.search_traders("Hamburg*", 10).expect("fts");
         assert!(none.is_empty());
+    }
+
+    #[test]
+    fn old_boolean_flags_migrate_to_condition_json() {
+        let dir = std::env::temp_dir().join(format!("schrott-migrate-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        std::fs::create_dir_all(&dir).expect("dir");
+        // Simulate a pre-migration database file with the boolean flags.
+        {
+            let conn = rusqlite::Connection::open(dir.join("public.db")).expect("old db");
+            conn.execute_batch(
+                "CREATE TABLE traders (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT NOT NULL UNIQUE,
+                    name TEXT NOT NULL, trader_type TEXT NOT NULL DEFAULT 'sonstige',
+                    street TEXT NOT NULL DEFAULT '', postcode TEXT NOT NULL DEFAULT '',
+                    city TEXT NOT NULL DEFAULT '', state TEXT NOT NULL DEFAULT '',
+                    country TEXT NOT NULL DEFAULT 'DE', lat REAL, lon REAL,
+                    phone TEXT NOT NULL DEFAULT '', email TEXT NOT NULL DEFAULT '',
+                    website TEXT NOT NULL DEFAULT '', opening_hours TEXT NOT NULL DEFAULT '',
+                    accepts_dropoff INTEGER NOT NULL DEFAULT 1,
+                    accepts_pickup INTEGER NOT NULL DEFAULT 0,
+                    min_quantity_kg REAL, certifications TEXT NOT NULL DEFAULT '[]',
+                    status TEXT NOT NULL DEFAULT 'aktiv', notes TEXT NOT NULL DEFAULT '',
+                    extra_json TEXT NOT NULL DEFAULT '{}',
+                    first_seen_at TEXT NOT NULL, updated_at TEXT NOT NULL);",
+            )
+            .expect("old schema");
+            conn.execute(
+                "INSERT INTO traders (slug, name, accepts_dropoff, accepts_pickup,
+                                      first_seen_at, updated_at)
+                 VALUES ('alt-dealer', 'Alt Dealer', 1, 0, '2026-01-01T00:00:00Z', '2026-01-01T00:00:00Z')",
+                [],
+            )
+            .expect("old row");
+        }
+        let db = PublicDb::open(&dir).expect("open migrates");
+        let res = db
+            .query_sql(
+                "SELECT dropoff_json, pickup_json, description, max_quantity_kg,
+                        website_status FROM traders WHERE slug = 'alt-dealer'",
+            )
+            .expect("migrated columns");
+        assert_eq!(res.rows.len(), 1);
+        let dropoff: serde_json::Value =
+            serde_json::from_str(res.rows[0][0].as_str().expect("json")).expect("parses");
+        assert_eq!(dropoff.get("allowed"), Some(&serde_json::Value::Bool(true)));
+        let pickup: serde_json::Value =
+            serde_json::from_str(res.rows[0][1].as_str().expect("json")).expect("parses");
+        assert_eq!(pickup.get("allowed"), Some(&serde_json::Value::Bool(false)));
+        // Legacy flag columns stay as inert leftovers (additive migration).
+        let cols = db
+            .query_sql("SELECT name FROM pragma_table_info('traders')")
+            .expect("pragma");
+        let names: Vec<&str> = cols
+            .rows
+            .iter()
+            .filter_map(|r| r.first()?.as_str())
+            .collect();
+        assert!(names.contains(&"dropoff_json"));
+        assert!(names.contains(&"description"));
+        assert!(names.contains(&"website_status"));
     }
 }

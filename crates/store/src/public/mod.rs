@@ -28,7 +28,7 @@ pub mod traders;
 
 pub use materials::{MaterialRow, NewMaterial};
 pub use prices::{NewPrice, PriceRow};
-pub use traders::{NewTrader, TraderRow};
+pub use traders::{NewTrader, SeedKept, TraderRow};
 
 use std::sync::Mutex;
 
@@ -229,6 +229,7 @@ impl PublicDb {
         conn.execute_batch(materials::SCHEMA)?;
         conn.execute_batch(prices::SCHEMA)?;
         conn.execute_batch(LEGACY_DROP)?;
+        traders::migrate(&conn)?;
         Ok(Self {
             conn: Mutex::new(conn),
         })

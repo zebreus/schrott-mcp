@@ -271,11 +271,14 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
                 "slug": slug,
                 "name": name,
                 "trader_type": ttype,
+                "description": "",
                 "street": street,
                 "postcode": postcode,
                 "city": city or site.strip(),
                 "state": stem.upper(),
                 "website": website,
+                "dropoff_json": "",
+                "pickup_json": "",
                 "status": status,
                 "notes": notes[:2000],
                 "provenance": {
@@ -343,11 +346,28 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
     return entries, stats
 
 
+PRESERVE_KEYS = ("description", "dropoff_json", "pickup_json")
+
+
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     total = 0
     for stem in STATES:
         entries, stats = convert_file(stem)
+        # Never wipe enrichment stored in the committed JSON: carry the
+        # enrichment-owned keys forward by stable slug.
+        old_rows = {}
+        src = OUT / f"{stem}.json"
+        if src.exists():
+            try:
+                old_rows = {r["slug"]: r for r in json.loads(src.read_text(encoding="utf-8"))}
+            except (json.JSONDecodeError, KeyError):
+                old_rows = {}
+        for e in entries:
+            old = old_rows.get(e["slug"], {})
+            for k in PRESERVE_KEYS:
+                if not e[k] and old.get(k):
+                    e[k] = old[k]
         (OUT / f"{stem}.json").write_text(
             json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         total += len(entries)
