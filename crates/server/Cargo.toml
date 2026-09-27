@@ -1,17 +1,17 @@
 [package]
-name = "offsite-data-server"
+name = "schrott-mcp-server"
 version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "offsite-data-server"
+name = "schrott-mcp-server"
 path = "src/main.rs"
 
 [dependencies]
-offsite-data-core = { path = "../core" }
-offsite-data-store = { path = "../store" }
-offsite-data-auth = { path = "../auth" }
-offsite-data-ingestion = { path = "../ingestion" }
+schrott-mcp-core = { path = "../core" }
+schrott-mcp-store = { path = "../store" }
+schrott-mcp-auth = { path = "../auth" }
+schrott-mcp-ingestion = { path = "../ingestion" }
 axum = "0.8"
 tokio = { version = "1", features = ["full"] }
 serde = { version = "1", features = ["derive"] }

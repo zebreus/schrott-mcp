@@ -5,7 +5,7 @@ use axum::{
     http::{HeaderMap, Uri},
     response::Response,
 };
-use offsite_data_core::{url_encode, Stats};
+use schrott_mcp_core::{url_encode, Stats};
 use serde::Deserialize;
 
 use super::pages;
@@ -27,9 +27,9 @@ pub async fn dashboard(State(state): State<AppState>, headers: HeaderMap, uri: U
         return respond::see_other(&format!("/login?next={next}"), None);
     };
     let stats = state.public.counts().unwrap_or(Stats {
-        sources: 0,
-        datasets: 0,
-        items: 0,
+        traders: 0,
+        materials: 0,
+        prices: 0,
     });
     let tokens = state.internal.list_api_tokens(user.id).unwrap_or_default();
     let runs = state.internal.last_runs(8).unwrap_or_default();
@@ -71,9 +71,9 @@ pub async fn create_token(
     } else {
         name.to_owned()
     };
-    let secret = format!("odp_{}", offsite_data_auth::new_token(30));
+    let secret = format!("smp_{}", schrott_mcp_auth::new_token(30));
     let prefix: String = secret.chars().take(12).collect();
-    let hash = offsite_data_auth::sha256_hex(&secret);
+    let hash = schrott_mcp_auth::sha256_hex(&secret);
     match state
         .internal
         .create_api_token(user.id, &name, &prefix, &hash, &AppState::now())
@@ -93,7 +93,7 @@ pub async fn create_token(
                 user.id,
                 Flash {
                     token_secret: None,
-                    notice: Some("Could not create the token. Please try again.".to_owned()),
+                    notice: Some("Token konnte nicht erstellt werden. Bitte versuche es erneut.".to_owned()),
                 },
             );
             respond::see_other("/dashboard", None)
@@ -126,10 +126,10 @@ pub async fn delete_token(
                 .delete_api_token(id, user.id)
                 .unwrap_or(false) =>
         {
-            "Token revoked."
+            "Token widerrufen."
         }
-        Ok(_) => "That token does not exist (or is already gone).",
-        Err(_) => "Invalid token id.",
+        Ok(_) => "Dieses Token existiert nicht (oder ist bereits weg).",
+        Err(_) => "Ungültige Token-ID.",
     };
     state.set_flash(
         user.id,
@@ -162,7 +162,7 @@ pub async fn ingest_run(
     }
     let task_state = state.clone();
     tokio::spawn(async move {
-        offsite_data_ingestion::run_once(
+        schrott_mcp_ingestion::run_once(
             &task_state.internal,
             &task_state.public,
             &task_state.http,
@@ -174,7 +174,7 @@ pub async fn ingest_run(
         Flash {
             token_secret: None,
             notice: Some(
-                "Ingestion run started in the background — watch the runs table below.".to_owned(),
+                "Datenerfassung läuft im Hintergrund — beobachte die Tabelle unten.".to_owned(),
             ),
         },
     );

@@ -12,32 +12,39 @@ const PREVIEW_BUDGET: usize = 40_000;
 /// Refuse to persist blobs past this size.
 const MAX_BLOB_BYTES: usize = 10_000_000;
 
-/// The single tool every client sees: read-only SQL over the shared corpus.
+/// Schema documentation for agents (German). The identifiers stay English
+/// so queries remain compact; the semantics are explained here.
+const SCHEMA_DOC: &str = "Tabellen: traders(id, slug, name, trader_type, street, postcode, city, state, country, lat, lon, phone, email, website, opening_hours, accepts_dropoff, accepts_pickup, min_quantity_kg, certifications, status, notes, extra_json, first_seen_at, updated_at); materials(id, slug, name_de, category, unit, description, extra_json, updated_at); trader_materials(trader_id, material_id, accepts, conditions, valid_from, valid_to, observed_at, updated_at); prices(id, trader_id, material_id, price, currency, unit, price_min, price_max, confidence, source_type, published, source_url, observed_at, published_at, valid_from, valid_to, notes, extra_json, ingested_at); current_prices(trader_id, material_id, price_id, updated_at); Sicht v_current_prices(trader_slug, trader, city, postcode, state, material_slug, material, category, price, currency, unit, price_min, price_max, confidence, source_type, published, source_url, observed_at, published_at, valid_from, valid_to). Händlertypen: schrotthaendler, wertstoffhaendler, metallhaendler, autoverwertung, containerdienst, schrottplatz, mobil, sonstige. Materialkategorien: eisen, nichteisen, edelstahl, kabel, elektronik, sonstige. source_type: haendler_angabe, portal, dritte, telefonisch, vor_ort, schaetzung, unbekannt. Regeln: published=1 heißt, der Händler hat den Preis selbst veröffentlicht. valid_from/valid_to NULL = offen (noch bzw. schon immer gültig). price_min/price_max NULL = exakter Preis. confidence NULL = unbekannt (0..1). Händler-Volltextsuche über traders_fts (FTS5, z. B. JOIN traders_fts f ON t.id=f.rowid WHERE traders_fts MATCH 'Berlin*'). Neueste Beobachtung = größtes observed_at bzw. größte id.";
+
+pub(super) const TOOL_QUERY: &str = "schrott_query_sql";
+pub(super) const TOOL_FEEDBACK: &str = "schrott_feedback";
+
+/// The single query tool every client sees: read-only SQL over the corpus.
 /// The description carries the schema so agents can query without guessing.
 pub(super) fn tool_catalog() -> Value {
     json!([
         {
-            "name": "data_query_sql",
-            "title": "Run read-only SQL",
+            "name": TOOL_QUERY,
+            "title": "Schrottdaten per SQL abfragen",
             "annotations": {"readOnlyHint": true},
-            "description": "Run one read-only SELECT (or WITH … SELECT) against the shared corpus and get {download_url, columns, rows}. Schema: sources(slug, name, url, description); datasets(slug, source_slug, name, description); items(id, dataset_slug, source_slug, external_id, title, url, published_at, summary, content_hash, data_json, fetched_at, updated_at). data_json holds scraper-specific fields as JSON text — use json_extract() on it. columns lists {name, type} per column; rows are objects keyed by column name. Rules: one statement, no semicolons, no writes/pragmas (rejected); newest items have the largest id. The inline rows preview is size-capped; download_url always carries the complete result as JSON and stays valid for 7 days. Example: SELECT id, title, url FROM items WHERE dataset_slug = 'rust-releases' ORDER BY id DESC LIMIT 10.",
+            "description": format!("Führe genau ein lesendes SELECT (oder WITH … SELECT) über den geteilten Schrott-Datenbestand aus und erhalte {{download_url, columns, rows}}. {SCHEMA_DOC} columns listet {{name, type}} je Spalte; rows sind Objekte mit Spaltennamen als Schlüsseln. Regeln: eine Anweisung, keine Semikolons, keine Schreib-/Pragma-Anweisungen (werden abgelehnt). Die Inline-Vorschau ist größenbegrenzt; download_url enthält immer das komplette Ergebnis als JSON und bleibt 7 Tage gültig. Beispiele: SELECT trader, city, price, unit FROM v_current_prices WHERE material_slug = 'kupfer-millberry' ORDER BY price DESC LIMIT 10 — SELECT slug, name, city, postcode FROM traders WHERE city = 'Berlin' LIMIT 20 — SELECT observed_at, price, source_type, published FROM prices WHERE trader_id = 1 AND material_id = 2 ORDER BY observed_at DESC LIMIT 50."),
             "inputSchema": {"type": "object",
                 "properties": {
-                    "sql": {"type": "string", "description": "A single self-contained SELECT statement"},
-                    "max_rows": {"type": "integer", "minimum": 1, "maximum": 200, "default": 50, "description": "Row cap; truncated=true when more rows exist"},
+                    "sql": {"type": "string", "description": "Eine einzelne, eigenständige SELECT-Anweisung"},
+                    "max_rows": {"type": "integer", "minimum": 1, "maximum": 200, "default": 50, "description": "Zeilenlimit; truncated=true, wenn mehr Zeilen existieren"},
                 },
                 "required": ["sql"], "additionalProperties": false},
         },
         {
-            "name": "data_feedback",
-            "title": "Report a data issue",
+            "name": TOOL_FEEDBACK,
+            "title": "Datenproblem melden",
             "annotations": {"readOnlyHint": false},
-            "description": "Report a problem with the corpus data — wrong values, stale records, missing coverage. Reports are stored for human review.",
+            "description": "Melde ein Problem mit den Schrottdaten — falsche Werte, veraltete Preise, fehlende Händler. Meldungen werden für Menschen zur Prüfung gespeichert.",
             "inputSchema": {"type": "object",
                 "properties": {
                     "severity": {"type": "string", "enum": ["low", "medium", "high", "critical"]},
-                    "feedback": {"type": "string", "description": "What is wrong"},
-                    "details": {"type": "string", "description": "Extra context: URLs, item ids, examples"},
+                    "feedback": {"type": "string", "description": "Was ist falsch"},
+                    "details": {"type": "string", "description": "Zusatzinfos: URLs, Händler-Slugs, Beispiele"},
                 },
                 "required": ["severity", "feedback"], "additionalProperties": false},
         },
@@ -85,7 +92,7 @@ fn feedback_tool(state: &AppState, user_id: i64, id: &Option<Value>, args: &Valu
     ) {
         Ok(_) => rpc_result(
             id,
-            json!({"content": [{"type": "text", "text": "Thank you for your feedback"}]}),
+            json!({"content": [{"type": "text", "text": "Danke für deine Rückmeldung"}]}),
         ),
         Err(e) => rpc_result(id, tool_error(e.to_string())),
     }
@@ -110,18 +117,17 @@ pub(super) async fn call_tool(
     let params = params.unwrap_or(Value::Null);
     let name = str_arg(&params, "name").unwrap_or_default();
     let args = params.get("arguments").cloned().unwrap_or(Value::Null);
-    if name != "data_query_sql" && name != "data_feedback" {
+    if name != TOOL_QUERY && name != TOOL_FEEDBACK {
         let msg = if name.is_empty() {
-            "missing tool name; this server exposes two tools: \"data_query_sql\", \"data_feedback\""
-                .to_owned()
+            format!("missing tool name; this server exposes two tools: \"{TOOL_QUERY}\", \"{TOOL_FEEDBACK}\"")
         } else {
             format!(
-                "unknown tool: {name}; this server exposes two tools: \"data_query_sql\", \"data_feedback\""
+                "unknown tool: {name}; this server exposes two tools: \"{TOOL_QUERY}\", \"{TOOL_FEEDBACK}\""
             )
         };
         return rpc_result(id, tool_error(msg));
     }
-    if name == "data_feedback" {
+    if name == TOOL_FEEDBACK {
         return feedback_tool(state, user_id, id, &args);
     }
     let Some(sql) = str_arg(&args, "sql").filter(|s| !s.trim().is_empty()) else {
@@ -154,7 +160,7 @@ pub(super) async fn call_tool(
         );
     }
     // Persist the full blob behind a 128-bit base62 secret, valid 7 days.
-    let secret = offsite_data_auth::new_base62_token(16);
+    let secret = schrott_mcp_auth::new_base62_token(16);
     let now = chrono::Utc::now();
     let expires = now + chrono::Duration::days(7);
     if state

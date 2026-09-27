@@ -31,8 +31,8 @@ pub async fn token(State(state): State<AppState>, Form(form): Form<TokenForm>) -
     };
     /// Mint and persist an access/refresh pair, already wrapped as a response.
     fn minted(state: &AppState, user_id: i64, client_id: &str, scope: &str) -> Response {
-        let access = format!("oda_{}", offsite_data_auth::new_token(32));
-        let refresh = format!("odr_{}", offsite_data_auth::new_token(32));
+        let access = format!("sma_{}", schrott_mcp_auth::new_token(32));
+        let refresh = format!("smr_{}", schrott_mcp_auth::new_token(32));
         let now = chrono::Utc::now();
         let access_exp = (now + chrono::Duration::hours(1)).to_rfc3339();
         let refresh_exp = (now + chrono::Duration::days(30)).to_rfc3339();
@@ -81,7 +81,7 @@ pub async fn token(State(state): State<AppState>, Form(form): Form<TokenForm>) -
                 return invalid("invalid_grant", "client or redirect mismatch");
             }
             if stored.code_challenge_method != "S256"
-                || !offsite_data_auth::verify_pkce_s256(&verifier, &stored.code_challenge)
+                || !schrott_mcp_auth::verify_pkce_s256(&verifier, &stored.code_challenge)
             {
                 return invalid("invalid_grant", "PKCE verification failed");
             }

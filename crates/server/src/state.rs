@@ -5,7 +5,7 @@ use std::sync::{Arc, Mutex};
 
 use axum::http::HeaderMap;
 use chrono::{DateTime, Utc};
-use offsite_data_store::{InternalDb, PublicDb};
+use schrott_mcp_store::{InternalDb, PublicDb};
 
 /// One-time dashboard payloads. Secrets and notices travel here — never in
 /// URLs (which leak into history, logs and Referer headers).
@@ -61,7 +61,7 @@ impl AppState {
 
     /// Mint a CSRF token bound to a browser session.
     pub fn issue_csrf(&self, session_token: &str) -> String {
-        let csrf = offsite_data_auth::new_token(16);
+        let csrf = schrott_mcp_auth::new_token(16);
         if let Ok(mut map) = self.csrf.lock() {
             if map.len() > 10_000 {
                 map.clear();
@@ -131,7 +131,7 @@ pub fn bearer_token(headers: &HeaderMap) -> Option<String> {
 pub fn session_user(
     state: &AppState,
     headers: &HeaderMap,
-) -> Option<offsite_data_store::internal::UserRow> {
+) -> Option<schrott_mcp_store::internal::UserRow> {
     let token = session_token(headers)?;
     let session = state.internal.find_session(&token).ok()??;
     if is_expired(&session.expires_at) {
@@ -149,7 +149,7 @@ pub fn bearer_user(state: &AppState, headers: &HeaderMap) -> Option<i64> {
             return Some(row.user_id);
         }
     }
-    let hash = offsite_data_auth::sha256_hex(&token);
+    let hash = schrott_mcp_auth::sha256_hex(&token);
     if let Ok(Some(secret)) = state.internal.find_api_token_by_hash(&hash) {
         let _ = state.internal.touch_api_token(secret.id, &AppState::now());
         return Some(secret.user_id);

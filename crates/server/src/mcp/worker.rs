@@ -1,5 +1,5 @@
 //! Isolated SQL execution: each ad-hoc query runs in a throwaway worker
-//! process (`query-worker` binary next to this server) instead of the main
+//! process `(schrott-mcp-query-worker binary next to this server) instead of the main
 //! address space.
 //!
 //! Confinement, applied in `pre_exec` (post-fork, pre-exec — syscalls only):
@@ -62,7 +62,7 @@ struct WireReply {
 
 #[derive(Deserialize)]
 struct WireOk {
-    columns: Vec<offsite_data_store::SqlColumn>,
+    columns: Vec<schrott_mcp_store::SqlColumn>,
     rows: Vec<Vec<serde_json::Value>>,
 }
 
@@ -106,7 +106,7 @@ fn confine(drop_privs: bool) -> std::io::Result<()> {
 /// Path of the worker binary sitting next to this server binary.
 fn worker_path() -> Result<PathBuf, WorkerError> {
     let mut path = std::env::current_exe().map_err(|_| WorkerError::Unavailable)?;
-    path.set_file_name("query-worker");
+    path.set_file_name("schrott-mcp-query-worker");
     Ok(path)
 }
 
@@ -114,7 +114,7 @@ fn worker_path() -> Result<PathBuf, WorkerError> {
 pub async fn run_query(
     data_dir: &Path,
     sql: &str,
-) -> Result<offsite_data_store::SqlResult, WorkerError> {
+) -> Result<schrott_mcp_store::SqlResult, WorkerError> {
     let request = serde_json::json!({"sql": sql}).to_string();
     // SAFETY: `getuid` is async-signal-safe; read once, outside pre_exec.
     let drop_privs = unsafe { libc::getuid() == 0 };
@@ -183,7 +183,7 @@ pub async fn run_query(
         return Err(WorkerError::Rejected(message));
     }
     reply.ok.map_or(Err(WorkerError::BadOutput), |ok| {
-        Ok(offsite_data_store::SqlResult {
+        Ok(schrott_mcp_store::SqlResult {
             columns: ok.columns,
             rows: ok.rows,
         })

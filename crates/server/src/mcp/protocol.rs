@@ -150,7 +150,7 @@ async fn dispatch(state: &AppState, user_id: i64, req: RpcRequest) -> Value {
                 json!({
                     "protocolVersion": negotiated,
                     "capabilities": {"tools": {"listChanged": false}},
-                    "serverInfo": {"name": "offsite-data", "version": "0.1.0"},
+                    "serverInfo": {"name": "schrott-mcp", "version": "0.1.0"},
                 }),
             )
         }
@@ -228,8 +228,8 @@ mod tests {
     #[test]
     fn origin_parsing_and_matching() {
         assert_eq!(
-            origin_of("https://data.offsite.lol/mcp").as_deref(),
-            Some("https://data.offsite.lol")
+            origin_of("https://schrott.offsite.lol/mcp").as_deref(),
+            Some("https://schrott.offsite.lol")
         );
         assert_eq!(
             origin_of("http://localhost:4000/").as_deref(),
@@ -237,27 +237,27 @@ mod tests {
         );
         // Default ports normalize away.
         assert!(origin_allowed(
-            Some("https://data.offsite.lol:443"),
-            "https://data.offsite.lol"
+            Some("https://schrott.offsite.lol:443"),
+            "https://schrott.offsite.lol"
         ));
         assert!(origin_allowed(
-            Some("https://data.offsite.lol"),
-            "https://data.offsite.lol"
+            Some("https://schrott.offsite.lol"),
+            "https://schrott.offsite.lol"
         ));
         // Absent Origin (server-side clients) passes; anything else fails.
-        assert!(origin_allowed(None, "https://data.offsite.lol"));
+        assert!(origin_allowed(None, "https://schrott.offsite.lol"));
         assert!(!origin_allowed(
             Some("https://evil.com"),
-            "https://data.offsite.lol"
+            "https://schrott.offsite.lol"
         ));
         assert!(!origin_allowed(
-            Some("https://data.offsite.lol.evil.com"),
-            "https://data.offsite.lol"
+            Some("https://schrott.offsite.lol.evil.com"),
+            "https://schrott.offsite.lol"
         ));
-        assert!(!origin_allowed(Some("null"), "https://data.offsite.lol"));
+        assert!(!origin_allowed(Some("null"), "https://schrott.offsite.lol"));
         assert!(!origin_allowed(
             Some("not a url"),
-            "https://data.offsite.lol"
+            "https://schrott.offsite.lol"
         ));
     }
 

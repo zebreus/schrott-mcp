@@ -42,8 +42,8 @@ pub(super) fn forbidden(state: &AppState) -> Response {
     respond::html(self::pages::error_page(
         &state.base_url,
         "/forbidden",
-        "Forbidden",
-        "Invalid or missing CSRF token. Please reload the page and try again.",
+        "Verboten",
+        "Ungültiges oder fehlendes CSRF-Token. Bitte lade die Seite neu und versuche es erneut.",
         None,
         None,
     ))

@@ -5,7 +5,7 @@ use axum::{
     http::HeaderMap,
     response::Response,
 };
-use offsite_data_core::{validate_password, validate_username};
+use schrott_mcp_core::{validate_password, validate_username};
 use serde::Deserialize;
 use std::collections::HashMap;
 
@@ -66,12 +66,12 @@ pub async fn signup_submit(
         return err(&e.to_string());
     }
     if form.password != form.confirm {
-        return err("Passwords do not match.");
+        return err("Die Passwörter stimmen nicht überein.");
     }
     if !professional {
-        return err("Please confirm you are a professional data-user.");
+        return err("Bitte bestätige, dass du professioneller Datennutzer bist.");
     }
-    let hash = match offsite_data_auth::hash_password(&form.password) {
+    let hash = match schrott_mcp_auth::hash_password(&form.password) {
         Ok(h) => h,
         Err(e) => return err(&e.to_string()),
     };
@@ -80,21 +80,21 @@ pub async fn signup_submit(
         .create_user(&username, &hash, true, &AppState::now())
     {
         Ok(id) => id,
-        Err(offsite_data_store::StoreError::Exists(_)) => {
-            return err("That username is taken.");
+        Err(schrott_mcp_store::StoreError::Exists(_)) => {
+            return err("Dieser Benutzername ist bereits vergeben.");
         }
         Err(e) => {
             return respond::html(pages::error_page(
                 &state.base_url,
                 "/signup",
-                "Signup failed",
-                &format!("Could not create your account: {e}"),
+                "Registrierung fehlgeschlagen",
+                &format!("Dein Konto konnte nicht erstellt werden: {e}"),
                 None,
                 None,
             ));
         }
     };
-    let token = offsite_data_auth::new_token(32);
+    let token = schrott_mcp_auth::new_token(32);
     let exp = (chrono::Utc::now() + chrono::Duration::days(30)).to_rfc3339();
     if state
         .internal
@@ -104,8 +104,8 @@ pub async fn signup_submit(
         return respond::html(pages::error_page(
             &state.base_url,
             "/signup",
-            "Signup failed",
-            "Account created, but the login session could not be stored. Please log in.",
+            "Registrierung fehlgeschlagen",
+            "Konto erstellt, aber die Anmeldung konnte nicht gespeichert werden. Bitte melde dich an.",
             None,
             None,
         ));
@@ -143,22 +143,22 @@ pub async fn login_submit(State(state): State<AppState>, Form(form): Form<LoginF
     let err = |msg: &str| respond::html(pages::login(&err_base, &next, &username, Some(msg)));
     let user = match state.internal.find_user_by_username(&username) {
         Ok(Some(u)) => u,
-        Ok(None) => return err("Unknown username or wrong password."),
+        Ok(None) => return err("Unbekannter Benutzername oder falsches Passwort."),
         Err(e) => {
             return respond::html(pages::error_page(
                 &state.base_url,
                 "/login",
-                "Login failed",
-                &format!("Could not look up your account: {e}"),
+                "Anmeldung fehlgeschlagen",
+                &format!("Dein Konto konnte nicht gefunden werden: {e}"),
                 None,
                 None,
             ));
         }
     };
-    if !offsite_data_auth::verify_password(&user.password_hash, &form.password) {
-        return err("Unknown username or wrong password.");
+    if !schrott_mcp_auth::verify_password(&user.password_hash, &form.password) {
+        return err("Unbekannter Benutzername oder falsches Passwort.");
     }
-    let token = offsite_data_auth::new_token(32);
+    let token = schrott_mcp_auth::new_token(32);
     let exp = (chrono::Utc::now() + chrono::Duration::days(30)).to_rfc3339();
     if state
         .internal
@@ -168,8 +168,8 @@ pub async fn login_submit(State(state): State<AppState>, Form(form): Form<LoginF
         return respond::html(pages::error_page(
             &state.base_url,
             "/login",
-            "Login failed",
-            "Password correct, but the login session could not be stored. Please try again.",
+            "Anmeldung fehlgeschlagen",
+            "Passwort korrekt, aber die Anmeldung konnte nicht gespeichert werden. Bitte versuche es erneut.",
             None,
             None,
         ));

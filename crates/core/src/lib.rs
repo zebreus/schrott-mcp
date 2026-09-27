@@ -34,7 +34,7 @@ pub struct AppConfig {
     pub bind: SocketAddr,
     /// Directory holding `internal.db` and `public.db`.
     pub data_dir: PathBuf,
-    /// Public origin, e.g. `https://data.offsite.lol` (no trailing slash).
+    /// Public origin, e.g. `https://schrott.offsite.lol` (no trailing slash).
     pub base_url: String,
 }
 
@@ -74,9 +74,9 @@ impl AppConfig {
 /// Whole-corpus counters.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
 pub struct Stats {
-    pub sources: i64,
-    pub datasets: i64,
-    pub items: i64,
+    pub traders: i64,
+    pub materials: i64,
+    pub prices: i64,
 }
 
 /// Usernames: 3-32 chars, alphanumeric plus `_` and `-`.
@@ -84,7 +84,7 @@ pub fn validate_username(name: &str) -> Result<(), CoreError> {
     let len = name.chars().count();
     if !(3..=32).contains(&len) {
         return Err(CoreError::BadUsername(
-            "username must be 3-32 characters".to_owned(),
+            "Benutzername muss 3–32 Zeichen lang sein".to_owned(),
         ));
     }
     let ok = name
@@ -92,7 +92,7 @@ pub fn validate_username(name: &str) -> Result<(), CoreError> {
         .all(|c| c.is_ascii_alphanumeric() || c == '_' || c == '-');
     if !ok {
         return Err(CoreError::BadUsername(
-            "username may only contain letters, digits, '_' and '-'".to_owned(),
+            "Benutzername darf nur Buchstaben, Ziffern, '_' und '-' enthalten".to_owned(),
         ));
     }
     Ok(())
@@ -102,7 +102,7 @@ pub fn validate_username(name: &str) -> Result<(), CoreError> {
 pub fn validate_password(password: &str) -> Result<(), CoreError> {
     if password.chars().count() < 8 {
         return Err(CoreError::BadPassword(
-            "password must be at least 8 characters".to_owned(),
+            "Passwort muss mindestens 8 Zeichen lang sein".to_owned(),
         ));
     }
     Ok(())

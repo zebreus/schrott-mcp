@@ -23,7 +23,7 @@ fn run() -> Result<(), String> {
     let data_dir = std::env::args()
         .nth(1)
         .filter(|s| !s.is_empty())
-        .ok_or_else(|| "usage: query-worker <data-dir> < request.json".to_owned())?;
+        .ok_or_else(|| "usage: schrott-mcp-query-worker <data-dir> < request.json".to_owned())?;
     // Cap the request: SQL text, not a data upload.
     let mut input = String::new();
     std::io::stdin()
@@ -35,7 +35,7 @@ fn run() -> Result<(), String> {
     if req.sql.len() > 64 * 1024 {
         return Err("query text too long".to_owned());
     }
-    let db = offsite_data_store::PublicDb::open_read_only(std::path::Path::new(&data_dir))
+    let db = schrott_mcp_store::PublicDb::open_read_only(std::path::Path::new(&data_dir))
         .map_err(|e| format!("opening database: {e}"))?;
     let result = db
         .query_sql(&req.sql)

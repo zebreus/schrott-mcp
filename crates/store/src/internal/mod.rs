@@ -49,7 +49,7 @@ mod tests {
 
     fn temp_db(name: &str) -> InternalDb {
         let dir =
-            std::env::temp_dir().join(format!("offsite-test-{}-{}", name, std::process::id()));
+            std::env::temp_dir().join(format!("schrott-test-{}-{}", name, std::process::id()));
         let _ = std::fs::remove_dir_all(&dir);
         InternalDb::open(&dir).expect("test db opens")
     }
@@ -123,7 +123,7 @@ mod tests {
     }
     #[test]
     fn feedback_stores_and_rejects_bad_severity() {
-        let dir = std::env::temp_dir().join(format!("offsite-fb-{}", std::process::id()));
+        let dir = std::env::temp_dir().join(format!("schrott-fb-{}", std::process::id()));
         let _ = std::fs::remove_dir_all(&dir);
         let db = InternalDb::open(&dir).expect("test db opens");
         let uid = db

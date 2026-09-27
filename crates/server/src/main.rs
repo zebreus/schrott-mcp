@@ -13,15 +13,15 @@ use axum::{
     routing::{get, post},
     Router,
 };
-use offsite_data_core::AppConfig;
-use offsite_data_ingestion::seed_metadata;
-use offsite_data_store::{InternalDb, PublicDb};
+use schrott_mcp_core::AppConfig;
+use schrott_mcp_ingestion::seed_metadata;
+use schrott_mcp_store::{InternalDb, PublicDb};
 use tracing_subscriber::{fmt, EnvFilter};
 
 use state::AppState;
 
 fn usage() -> String {
-    "usage: offsite-data-server [--bind ADDR] [--data-dir DIR] [--base-url URL]".to_owned()
+    "usage: schrott-mcp-server [--bind ADDR] [--data-dir DIR] [--base-url URL]".to_owned()
 }
 
 /// Parsed `--key value` flags: (bind, data_dir, base_url).
@@ -53,9 +53,9 @@ async fn main() {
     fmt()
         .with_env_filter(
             EnvFilter::from_env("RUST_LOG")
-                .add_directive("offsite_data_server=info".parse().expect("valid directive"))
+                .add_directive("schrott_mcp_server=info".parse().expect("valid directive"))
                 .add_directive(
-                    "offsite_data_ingestion=info"
+                    "schrott_mcp_ingestion=info"
                         .parse()
                         .expect("valid directive"),
                 ),
@@ -85,7 +85,7 @@ async fn main() {
     }
 
     let http = reqwest::Client::builder()
-        .user_agent("offsite-data-server/0.1")
+        .user_agent("schrott-mcp-server/0.1")
         .timeout(Duration::from_secs(30))
         .build()
         .unwrap_or_else(|e| {
@@ -104,7 +104,7 @@ async fn main() {
     };
 
     // Ingestion lives in this same process.
-    let _scheduler = offsite_data_ingestion::spawn_scheduler(internal, public, 6 * 3600);
+    let _scheduler = schrott_mcp_ingestion::spawn_scheduler(internal, public, 6 * 3600);
 
     let app = Router::new()
         .route("/health", get(web::site::health))
@@ -146,7 +146,7 @@ async fn main() {
         .fallback(web::site::fallback_404)
         .with_state(state);
 
-    tracing::info!("offsite-data listening on {}", config.bind);
+    tracing::info!("schrott-mcp listening on {}", config.bind);
     let listener = tokio::net::TcpListener::bind(config.bind)
         .await
         .unwrap_or_else(|e| {

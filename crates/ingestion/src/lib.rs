@@ -1,16 +1,15 @@
-//! Minimal ingestion pipeline: `fetch -> parse -> normalize -> diff -> upsert`.
+//! Ingestion pipeline: seed the material catalog, then run scrapers.
 //!
-//! Each scraper fetches one wildly different website/API and normalizes it
-//! into [`RawItem`]s. The pipeline hashes every item and only writes to the
-//! public database when something actually changed. A [`LlmChangeChecker`]
-//! hook is reserved for later: an LLM judging whether the *unstructured*
-//! part of a page meaningfully changed (never for the data itself).
+//! The Händler scrapers that will fill traders/prices are not built yet —
+//! runs currently only refresh the static catalog. The run/step/fetch
+//! bookkeeping in the internal database already works, so scheduling,
+//! dashboard and manual triggers behave the same before and after.
 
 pub mod pipeline;
 pub mod scrapers;
 
 pub use pipeline::{run_once, seed_metadata, spawn_scheduler, IngestSummary};
-pub use scrapers::{scrape_all, RawItem};
+pub use scrapers::scrape_all;
 
 /// Every way ingestion can fail. Carries the scraper and URL for context
 /// instead of pre-formatted strings, so callers decide how to render.
@@ -39,25 +38,6 @@ pub enum IngestError {
         what: &'static str,
         name: String,
         #[source]
-        source: offsite_data_store::StoreError,
+        source: schrott_mcp_store::StoreError,
     },
-}
-
-/// Optional LLM-backed judge for unstructured change detection.
-///
-/// The default [`NoopChecker`] treats the content hash as the whole truth.
-/// A future implementation can call an LLM here to decide whether new text
-/// *means* something different before paying for a full re-ingest.
-pub trait LlmChangeChecker: Send + Sync {
-    /// Decide whether new unstructured text differs meaningfully from old.
-    fn unstructured_changed(&self, old_text: &str, new_text: &str) -> bool;
-}
-
-/// Default checker: any byte-level change counts.
-pub struct NoopChecker;
-
-impl LlmChangeChecker for NoopChecker {
-    fn unstructured_changed(&self, old_text: &str, new_text: &str) -> bool {
-        old_text != new_text
-    }
 }

@@ -1,22 +1,22 @@
 //! Single inline stylesheet for all server-rendered pages.
 
 pub(super) const CSS: &str = "
-:root{color-scheme:dark;--bg:#0b0e17;--bg2:#111627;--card:#161d33;--line:#263054;
---text:#eef1ff;--muted:#9aa5c7;--acc:#7c6cff;--acc2:#3ddc97;--danger:#ff6b81}
+:root{color-scheme:dark;--bg:#0e0d0c;--bg2:#161310;--card:#1c1713;--line:#3a2d22;
+--text:#f5efe6;--muted:#b8a894;--acc:#e8832a;--acc2:#3ddc97;--danger:#ff6b81}
 *{box-sizing:border-box}body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,
 'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 600px at 80% -10%,
-#2a2560 0%,transparent 60%),radial-gradient(900px 500px at 10% 0%,#123f38 0%,transparent 55%),
+#4a2410 0%,transparent 60%),radial-gradient(900px 500px at 10% 0%,#123f2c 0%,transparent 55%),
 var(--bg);color:var(--text);min-height:100vh}
 .wrap{max-width:1020px;margin:0 auto;padding:0 24px}
 nav{border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
 nav .wrap{display:flex;align-items:center;gap:20px;height:64px}
 .brand{font-weight:800;font-size:19px;letter-spacing:.3px;text-decoration:none;color:var(--text)}
-.brand span{color:var(--acc2)}
+.brand span{color:var(--acc)}
 nav .sp{flex:1}nav a.l{color:var(--muted);text-decoration:none;font-size:14px;margin-left:16px}
 nav a.l:hover{color:var(--text)}
-.btn{display:inline-block;background:linear-gradient(135deg,var(--acc),#4f8cff);color:#fff;
+.btn{display:inline-block;background:linear-gradient(135deg,var(--acc),#b34a1f);color:#fff;
 border:0;border-radius:12px;padding:12px 22px;font-weight:700;font-size:15px;cursor:pointer;
-text-decoration:none;box-shadow:0 8px 30px rgba(124,108,255,.35)}
+text-decoration:none;box-shadow:0 8px 30px rgba(232,131,42,.35)}
 .btn:hover{filter:brightness(1.1)}.btn.ghost{background:transparent;border:1px solid var(--line);
 box-shadow:none;color:var(--text)}
 .hero{padding:84px 0 40px;text-align:center}

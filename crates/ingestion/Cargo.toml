@@ -1,14 +1,11 @@
 [package]
-name = "offsite-data-ingestion"
+name = "schrott-mcp-ingestion"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-offsite-data-store = { path = "../store" }
-offsite-data-auth = { path = "../auth" }
+schrott-mcp-store = { path = "../store" }
 reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls-webpki-roots"] }
-scraper = "0.24"
-serde_json = "1"
 chrono = "0.4"
 tokio = { version = "1", features = ["full"] }
 tracing = "0.1"

@@ -5,7 +5,7 @@ use axum::{
     http::{HeaderMap, StatusCode},
     response::Response,
 };
-use offsite_data_core::url_encode;
+use schrott_mcp_core::url_encode;
 use serde::Deserialize;
 use serde_json::json;
 
@@ -158,7 +158,7 @@ pub async fn authorize_post(
             json!({"error": "invalid_redirect_uri"}),
         );
     }
-    let code = format!("odc_{}", offsite_data_auth::new_token(32));
+    let code = format!("smc_{}", schrott_mcp_auth::new_token(32));
     let now = chrono::Utc::now();
     let exp = (now + chrono::Duration::minutes(10)).to_rfc3339();
     if state

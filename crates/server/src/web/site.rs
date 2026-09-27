@@ -51,7 +51,7 @@ pub async fn download_result(
 pub async fn health() -> Response {
     respond::json(
         StatusCode::OK,
-        serde_json::json!({"ok": true, "service": "offsite-data"}),
+        serde_json::json!({"ok": true, "service": "schrott-mcp"}),
     )
 }
 
@@ -66,8 +66,8 @@ pub async fn fallback_404(State(state): State<AppState>) -> Response {
     let mut res = respond::html(pages::error_page(
         &state.base_url,
         "/not-found",
-        "Not found",
-        "There is nothing at this address.",
+        "Nicht gefunden",
+        "Unter dieser Adresse gibt es nichts.",
         None,
         None,
     ));

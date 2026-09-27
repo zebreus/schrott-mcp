@@ -1,46 +1,169 @@
-//! The pipeline: one run fans out to every scraper, hashes each item and
-//! only touches the public database when content actually changed.
+//! The pipeline: seed the material catalog, then fan out to scrapers.
+//!
+//! Right now only the static material catalog is seeded — the
+//! Händler-scrapers that will fill traders/prices come later. The run
+//! bookkeeping (runs/steps in the internal database) already works, so the
+//! dashboard and scheduler behave the same before and after.
 
 use std::sync::Arc;
 use std::time::Duration;
 
 use chrono::Utc;
-use offsite_data_auth::sha256_hex;
-use offsite_data_store::{InternalDb, PublicDb};
+use schrott_mcp_store::{InternalDb, PublicDb};
 use tokio::task::JoinHandle;
 
 use super::scrapers::scrape_all;
-use super::{LlmChangeChecker, NoopChecker};
 
-/// Metadata for every bundled dataset. The pipeline upserts this first so
-/// the catalog exists even before the first successful fetch.
-const CATALOG: &[(&str, &str, &str, &str, &str, &str, &str)] = &[
+/// The static price catalog: (slug, German name, category, unit, description).
+/// Seeded into `materials` on every run so the catalog exists even before
+/// the first scraper lands a price.
+const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
     (
-        "hn",
-        "Hacker News",
-        "https://news.ycombinator.com",
-        "Community-curated tech stories.",
-        "hn-front-page",
-        "Front Page",
-        "Current Hacker News front page via the Algolia search API.",
+        "stahlschrott-sorte-1",
+        "Stahlschrott Sorte 1 (Neuschrott)",
+        "eisen",
+        "EUR/t",
+        "Sauberer Neu- und Stanzschrott aus der Verarbeitung.",
     ),
     (
-        "rust",
-        "Rust Project",
-        "https://www.rust-lang.org",
-        "The Rust programming language project.",
-        "rust-releases",
-        "Releases",
-        "rust-lang/rust releases via the GitHub REST API.",
+        "stahlschrott-scheren",
+        "Stahlschrott Scherenschrott (Altschrott)",
+        "eisen",
+        "EUR/t",
+        "Zerkleinerter Altschrott, scherengerecht aufbereitet.",
     ),
     (
-        "example",
-        "Example Domain",
-        "https://example.com",
-        "A tiny static page, parsed as HTML with CSS selectors.",
-        "example-html",
-        "Snapshot",
-        "Heading and paragraphs of example.com as a single record.",
+        "eisenschrott-gussbruch",
+        "Eisenschrott / Gussbruch",
+        "eisen",
+        "EUR/t",
+        "Gussschrott aus Maschinen- und Ofenbruch.",
+    ),
+    (
+        "mischschrott",
+        "Mischschrott",
+        "eisen",
+        "EUR/t",
+        "Gemischter Eisen- und Stahlschrott ohne Aufbereitung.",
+    ),
+    (
+        "kupfer-millberry",
+        "Kupfer Millberry (blank)",
+        "nichteisen",
+        "EUR/kg",
+        "Blanker, unbeschichteter Kupferdraht ab 1 mm.",
+    ),
+    (
+        "kupfer-berry",
+        "Kupfer Berry (beschichtet)",
+        "nichteisen",
+        "EUR/kg",
+        "Beschichteter oder lackierter Kupferdraht.",
+    ),
+    (
+        "messing",
+        "Messing",
+        "nichteisen",
+        "EUR/kg",
+        "Messing aus Armaturen, Schrauben und Drehspänen.",
+    ),
+    (
+        "bronze-rotguss",
+        "Bronze / Rotguss",
+        "nichteisen",
+        "EUR/kg",
+        "Bronze und Rotguss aus Lagern und Armaturen.",
+    ),
+    (
+        "aluminium-profile",
+        "Aluminium Profile (blank)",
+        "nichteisen",
+        "EUR/kg",
+        "Blanke Aluminiumprofile ohne Anhaftungen.",
+    ),
+    (
+        "aluminium-guss",
+        "Aluminium Guss",
+        "nichteisen",
+        "EUR/kg",
+        "Aluminiumguss aus Motoren und Gehäusen.",
+    ),
+    (
+        "aluminium-blech",
+        "Aluminium Blech",
+        "nichteisen",
+        "EUR/kg",
+        "Alublech und -folien, ggf. lackiert.",
+    ),
+    (
+        "zink",
+        "Zink",
+        "nichteisen",
+        "EUR/kg",
+        "Zinkblech, Dachrinnen und Titanzink-Verschnitt.",
+    ),
+    (
+        "blei",
+        "Blei",
+        "nichteisen",
+        "EUR/kg",
+        "Weichblei aus Rohren, Blechen und Auswuchtgewichten.",
+    ),
+    (
+        "zinn",
+        "Zinn / Lötzinn",
+        "nichteisen",
+        "EUR/kg",
+        "Reinzinn und Lötzinn aus Elektronik und Handwerk.",
+    ),
+    (
+        "edelstahl-v2a",
+        "Edelstahl V2A (1.4301)",
+        "edelstahl",
+        "EUR/kg",
+        "Nickelhaltiger Edelstahlschrott, magnetisch prüfbar.",
+    ),
+    (
+        "edelstahl-v4a",
+        "Edelstahl V4A (1.4401/1.4571)",
+        "edelstahl",
+        "EUR/kg",
+        "Molybdänhaltiger Edelstahlschrott aus Chemie und Meerestechnik.",
+    ),
+    (
+        "kabel-kupfer",
+        "Kabelschrott Kupfer (isoliert)",
+        "kabel",
+        "EUR/kg",
+        "Isolierte Kupferkabel, Preis nach Kupferanteil.",
+    ),
+    (
+        "kabel-alu",
+        "Kabelschrott Aluminium (isoliert)",
+        "kabel",
+        "EUR/kg",
+        "Isolierte Aluminiumkabel, Preis nach Aluanteil.",
+    ),
+    (
+        "elektromotoren",
+        "Elektromotoren",
+        "elektronik",
+        "EUR/kg",
+        "Ausgebaute E-Motoren aus Geräten und Anlagen.",
+    ),
+    (
+        "platinen",
+        "Platinen / Leiterplatten",
+        "elektronik",
+        "EUR/kg",
+        "Bestückte und unbestückte Leiterplatten.",
+    ),
+    (
+        "katalysatoren",
+        "Katalysatoren (Keramik)",
+        "elektronik",
+        "EUR/Stk",
+        "Keramik-Katalysatoren aus dem Kfz-Bereich, Preis je Stück.",
     ),
 ];
 
@@ -58,63 +181,38 @@ pub struct IngestSummary {
 /// Guard so the scheduler and manual triggers never run concurrently.
 static RUNNING: std::sync::atomic::AtomicBool = std::sync::atomic::AtomicBool::new(false);
 
-/// Make sure every source/dataset exists in the public catalog.
+/// Make sure every catalog material exists in the public database.
 pub fn seed_metadata(public: &PublicDb) -> Result<(), super::IngestError> {
     use super::IngestError;
-    for (slug, name, url, desc, ds, ds_name, ds_desc) in CATALOG {
+    use schrott_mcp_store::NewMaterial;
+    let now = Utc::now().to_rfc3339();
+    for (slug, name_de, category, unit, description) in MATERIAL_CATALOG {
         public
-            .upsert_source(slug, name, url, desc)
+            .upsert_material(&NewMaterial {
+                slug,
+                name_de,
+                category,
+                unit,
+                description,
+                updated_at: &now,
+            })
             .map_err(|source| IngestError::Catalog {
-                what: "source",
+                what: "material",
                 name: (*slug).to_owned(),
-                source,
-            })?;
-        public
-            .upsert_dataset(ds, slug, ds_name, ds_desc)
-            .map_err(|source| IngestError::Catalog {
-                what: "dataset",
-                name: (*ds).to_owned(),
                 source,
             })?;
     }
     Ok(())
 }
 
-/// Source slug owning a dataset slug, derived from the catalog so new
-/// datasets only need one edit.
-fn source_of(dataset: &str) -> &'static str {
-    for (source, _, _, _, ds, _, _) in CATALOG {
-        if *ds == dataset {
-            return source;
-        }
-    }
-    "example"
-}
-
-/// Stable hash over everything queriable about an item.
-fn item_hash(item: &super::scrapers::RawItem) -> String {
-    sha256_hex(&format!(
-        "{}|{}|{}|{}|{}|{}|{}",
-        item.dataset,
-        item.external_id,
-        item.title,
-        item.url,
-        item.summary,
-        item.data,
-        item.unstructured_text
-    ))
-}
-
-/// Run the whole pipeline once: fetch, diff, upsert, journal.
+/// Run the whole pipeline once: seed the catalog, run scrapers, journal.
 ///
-/// The hash decides *whether* something changed; the [`LlmChangeChecker`]
-/// hook (currently [`NoopChecker`]) gets the final say on unstructured
-/// text before paying for a write — the seam where a future LLM judge plugs
-/// in without touching the data path.
+/// Händler-scrapers are not implemented yet, so runs currently only refresh
+/// the material catalog — the run/step bookkeeping stays identical for later.
 pub async fn run_once(
     internal: &InternalDb,
     public: &PublicDb,
-    client: &reqwest::Client,
+    _client: &reqwest::Client,
 ) -> IngestSummary {
     use std::sync::atomic::Ordering;
     if RUNNING.swap(true, Ordering::SeqCst) {
@@ -124,16 +222,12 @@ pub async fn run_once(
             ..IngestSummary::default()
         };
     }
-    let summary = run_once_inner(internal, public, client).await;
+    let summary = run_once_inner(internal, public).await;
     RUNNING.store(false, Ordering::SeqCst);
     summary
 }
 
-async fn run_once_inner(
-    internal: &InternalDb,
-    public: &PublicDb,
-    client: &reqwest::Client,
-) -> IngestSummary {
+async fn run_once_inner(internal: &InternalDb, public: &PublicDb) -> IngestSummary {
     let run_started = std::time::Instant::now();
     let started = Utc::now().to_rfc3339();
     let run_id = match internal.create_run(&started) {
@@ -148,7 +242,7 @@ async fn run_once_inner(
     }
 
     let mut summary = IngestSummary::default();
-    for (slug, outcome) in scrape_all(client).await {
+    for (slug, outcome) in scrape_all().await {
         let step_at = Utc::now().to_rfc3339();
         let step_id = internal.create_step(run_id, slug, &step_at).unwrap_or(0);
         match outcome {
@@ -168,65 +262,9 @@ async fn run_once_inner(
                     }
                 }
             }
-            Ok(out) => {
-                let now = Utc::now().to_rfc3339();
-                let fetch_hash = sha256_hex(&format!("{}:{}", out.fetch_url, out.byte_len));
-                if let Err(e) = internal.log_fetch(&offsite_data_store::FetchRecord {
-                    run_id,
-                    scraper: slug,
-                    url: &out.fetch_url,
-                    status_code: i64::from(out.status_code),
-                    content_hash: &fetch_hash,
-                    byte_len: out.byte_len as i64,
-                    fetched_at: &now,
-                }) {
-                    tracing::warn!("ingestion: fetch journal failed for {slug}: {e}");
-                }
-                let checker = NoopChecker;
-                let mut wrote = 0i64;
-                for item in &out.items {
-                    let hash = item_hash(item);
-                    // Hash first; the checker judges the unstructured text.
-                    let changed = match public.existing_item_meta(item.dataset, &item.external_id) {
-                        Ok(Some((old_hash, old_summary))) => {
-                            old_hash != hash
-                                && checker.unstructured_changed(&old_summary, &item.summary)
-                        }
-                        Ok(None) => true,
-                        Err(e) => {
-                            tracing::warn!("ingestion: meta lookup failed: {e}");
-                            true
-                        }
-                    };
-                    if !changed {
-                        continue;
-                    }
-                    let data_json = item.data.to_string();
-                    match public.upsert_item(
-                        item.dataset,
-                        source_of(item.dataset),
-                        &item.external_id,
-                        &item.title,
-                        &item.url,
-                        &item.published_at,
-                        &item.summary,
-                        &hash,
-                        &data_json,
-                        &now,
-                    ) {
-                        Ok(()) => wrote += 1,
-                        Err(e) => {
-                            tracing::warn!(
-                                "ingestion: upsert failed for {}:{}: {e}",
-                                item.dataset,
-                                item.external_id
-                            );
-                            summary.write_failures += 1;
-                        }
-                    }
-                }
+            Ok(wrote) => {
                 summary.upserted += wrote;
-                let msg = format!("fetched {} items, upserted {wrote}", out.items.len());
+                let msg = format!("upserted {wrote} records");
                 if step_id != 0 {
                     if let Err(e) =
                         internal.finish_step(step_id, "ok", wrote, &msg, &Utc::now().to_rfc3339())
@@ -244,9 +282,8 @@ async fn run_once_inner(
         "ok"
     };
     let detail = format!(
-        "upserted {} items, {} writes failed, {} scrapers failed",
+        "Katalog aktuell, {} Datensätze geschrieben, {} Fehler",
         summary.upserted,
-        summary.write_failures,
         summary.failed.len()
     );
     if let Err(e) = internal.finish_run(run_id, status, &detail, &Utc::now().to_rfc3339()) {
@@ -268,7 +305,7 @@ pub fn spawn_scheduler(
 ) -> JoinHandle<()> {
     tokio::spawn(async move {
         let client = reqwest::Client::builder()
-            .user_agent("offsite-data-ingestion/0.1")
+            .user_agent("schrott-mcp-ingestion/0.1")
             .timeout(Duration::from_secs(30))
             .build()
             .expect("ingestion http client builds");

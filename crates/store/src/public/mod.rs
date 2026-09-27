@@ -1,44 +1,47 @@
 //! Public database (`public.db`): the entire queriable data set.
 //!
 //! Everything here is exposed to all MCP users — nothing is user specific.
+//!
+//! Domain model (German scrap trade):
+//! - `traders` — Schrotthändler, Wertstoffhändler, Metallhändler,
+//!   Autoverwerter, Containerdienste, … in Deutschland.
+//! - `materials` — the price catalog (Kupfer, Messing, Stahlschrott, …).
+//! - `trader_materials` — which trader accepts which material.
+//! - `prices` — append-only price observations (latest + history).
+//! - `current_prices` — materialized latest price per trader + material.
+//! - `v_current_prices` — convenience view joining all of the above.
+//!
+//! Conventions for agents and future scrapers:
+//! - All timestamps are RFC 3339 strings (UTC).
+//! - `valid_from` / `valid_to` bound the time a fact is/was true;
+//!   `NULL` means open-ended (still true / true since forever).
+//! - Uncertainty is explicit: `price_min` / `price_max` span the plausible
+//!   range (`NULL` = exact), `confidence` is 0..1 (`NULL` = unknown),
+//!   `source_type` says where the number came from and `published` says
+//!   whether the trader published it themselves.
+//! - `extra_json` on every table is reserved headroom for future fields —
+//!   the schema grows by adding columns, never by breaking old ones.
+
+pub mod materials;
+pub mod prices;
+pub mod traders;
+
+pub use materials::{MaterialRow, NewMaterial};
+pub use prices::{NewPrice, PriceRow};
+pub use traders::{NewTrader, TraderRow};
 
 use std::sync::Mutex;
 
-use offsite_data_core::Stats;
-use rusqlite::{params, OptionalExtension as _};
+use schrott_mcp_core::Stats;
 
 use super::error::StoreError;
 
-const SCHEMA: &str = "
-CREATE TABLE IF NOT EXISTS sources (
-    slug TEXT PRIMARY KEY,
-    name TEXT NOT NULL,
-    url TEXT NOT NULL,
-    description TEXT NOT NULL DEFAULT ''
-);
-CREATE TABLE IF NOT EXISTS datasets (
-    slug TEXT PRIMARY KEY,
-    source_slug TEXT NOT NULL REFERENCES sources(slug),
-    name TEXT NOT NULL,
-    description TEXT NOT NULL DEFAULT ''
-);
-CREATE TABLE IF NOT EXISTS items (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    dataset_slug TEXT NOT NULL REFERENCES datasets(slug),
-    source_slug TEXT NOT NULL REFERENCES sources(slug),
-    external_id TEXT NOT NULL,
-    title TEXT NOT NULL,
-    url TEXT NOT NULL DEFAULT '',
-    published_at TEXT NOT NULL DEFAULT '',
-    summary TEXT NOT NULL DEFAULT '',
-    content_hash TEXT NOT NULL DEFAULT '',
-    data_json TEXT NOT NULL DEFAULT '{}',
-    fetched_at TEXT NOT NULL,
-    updated_at TEXT NOT NULL,
-    UNIQUE(dataset_slug, external_id)
-);
-CREATE INDEX IF NOT EXISTS idx_items_dataset ON items(dataset_slug);
-CREATE INDEX IF NOT EXISTS idx_items_source ON items(source_slug);
+/// Tables from the old generic demo corpus. The Schrott domain model
+/// replaces them; dropping keeps agents on the one true schema.
+const LEGACY_DROP: &str = "
+DROP TABLE IF EXISTS items;
+DROP TABLE IF EXISTS datasets;
+DROP TABLE IF EXISTS sources;
 ";
 
 /// One result column: name plus SQLite type.
@@ -222,7 +225,10 @@ impl PublicDb {
         })?;
         let conn = rusqlite::Connection::open(data_dir.join("public.db"))?;
         conn.execute_batch("PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON;")?;
-        conn.execute_batch(SCHEMA)?;
+        conn.execute_batch(traders::SCHEMA)?;
+        conn.execute_batch(materials::SCHEMA)?;
+        conn.execute_batch(prices::SCHEMA)?;
+        conn.execute_batch(LEGACY_DROP)?;
         Ok(Self {
             conn: Mutex::new(conn),
         })
@@ -230,102 +236,6 @@ impl PublicDb {
 
     fn lock(&self) -> Result<std::sync::MutexGuard<'_, rusqlite::Connection>, StoreError> {
         self.conn.lock().map_err(|_| StoreError::Lock)
-    }
-
-    /// Insert or update a source's metadata.
-    pub fn upsert_source(
-        &self,
-        slug: &str,
-        name: &str,
-        url: &str,
-        description: &str,
-    ) -> Result<(), StoreError> {
-        let conn = self.lock()?;
-        conn.execute(
-            "INSERT INTO sources (slug, name, url, description) VALUES (?1, ?2, ?3, ?4)
-             ON CONFLICT(slug) DO UPDATE SET name = excluded.name, url = excluded.url,
-             description = excluded.description",
-            params![slug, name, url, description],
-        )?;
-        Ok(())
-    }
-
-    /// Insert or update a dataset's metadata.
-    pub fn upsert_dataset(
-        &self,
-        slug: &str,
-        source_slug: &str,
-        name: &str,
-        description: &str,
-    ) -> Result<(), StoreError> {
-        let conn = self.lock()?;
-        conn.execute(
-            "INSERT INTO datasets (slug, source_slug, name, description)
-             VALUES (?1, ?2, ?3, ?4)
-             ON CONFLICT(slug) DO UPDATE SET source_slug = excluded.source_slug,
-             name = excluded.name, description = excluded.description",
-            params![slug, source_slug, name, description],
-        )?;
-        Ok(())
-    }
-
-    /// Current content hash and summary for an item, if it exists.
-    /// Used by the ingestion diff (and the LLM change-check hook).
-    pub fn existing_item_meta(
-        &self,
-        dataset_slug: &str,
-        external_id: &str,
-    ) -> Result<Option<(String, String)>, StoreError> {
-        let conn = self.lock()?;
-        conn.query_row(
-            "SELECT content_hash, summary FROM items WHERE dataset_slug = ?1 AND external_id = ?2",
-            params![dataset_slug, external_id],
-            |r| Ok((r.get(0)?, r.get(1)?)),
-        )
-        .optional()
-        .map_err(StoreError::from)
-    }
-
-    /// Insert a new item or refresh a changed one.
-    #[allow(clippy::too_many_arguments)]
-    pub fn upsert_item(
-        &self,
-        dataset_slug: &str,
-        source_slug: &str,
-        external_id: &str,
-        title: &str,
-        url: &str,
-        published_at: &str,
-        summary: &str,
-        content_hash: &str,
-        data_json: &str,
-        now: &str,
-    ) -> Result<(), StoreError> {
-        let conn = self.lock()?;
-        conn.execute(
-            "INSERT INTO items
-             (dataset_slug, source_slug, external_id, title, url, published_at,
-              summary, content_hash, data_json, fetched_at, updated_at)
-             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?10)
-             ON CONFLICT(dataset_slug, external_id) DO UPDATE SET
-              title = excluded.title, url = excluded.url,
-              published_at = excluded.published_at, summary = excluded.summary,
-              content_hash = excluded.content_hash, data_json = excluded.data_json,
-              updated_at = excluded.updated_at",
-            params![
-                dataset_slug,
-                source_slug,
-                external_id,
-                title,
-                url,
-                published_at,
-                summary,
-                content_hash,
-                data_json,
-                now
-            ],
-        )?;
-        Ok(())
     }
 
     /// Run one validated read-only query and materialize every row.
@@ -390,14 +300,21 @@ impl PublicDb {
     /// Corpus-wide counters.
     pub fn counts(&self) -> Result<Stats, StoreError> {
         let conn = self.lock()?;
-        let sources: i64 = conn.query_row("SELECT COUNT(*) FROM sources", [], |r| r.get(0))?;
-        let datasets: i64 = conn.query_row("SELECT COUNT(*) FROM datasets", [], |r| r.get(0))?;
-        let items: i64 = conn.query_row("SELECT COUNT(*) FROM items", [], |r| r.get(0))?;
+        let traders: i64 = conn.query_row("SELECT COUNT(*) FROM traders", [], |r| r.get(0))?;
+        let materials: i64 =
+            conn.query_row("SELECT COUNT(*) FROM materials", [], |r| r.get(0))?;
+        let prices: i64 = conn.query_row("SELECT COUNT(*) FROM prices", [], |r| r.get(0))?;
         Ok(Stats {
-            sources,
-            datasets,
-            items,
+            traders,
+            materials,
+            prices,
         })
+    }
+
+    /// Helper for tests: run a scalar query and return the raw JSON rows.
+    #[cfg(test)]
+    pub(super) fn test_query(&self, sql: &str) -> Vec<Vec<serde_json::Value>> {
+        self.query_sql(sql).expect("test query works").rows
     }
 }
 
@@ -407,11 +324,11 @@ mod tests {
     fn readonly_sql_accepts_plain_selects() {
         use super::validate_readonly_sql;
         assert!(validate_readonly_sql("SELECT 1").is_ok());
-        assert!(validate_readonly_sql("  -- a comment\nSELECT id, title FROM items").is_ok());
+        assert!(validate_readonly_sql("  -- a comment\nSELECT slug, name_de FROM materials").is_ok());
         assert!(validate_readonly_sql("/* c */ WITH x AS (SELECT 1) SELECT * FROM x").is_ok());
         // Prose mentioning forbidden words inside literals is fine.
         assert!(
-            validate_readonly_sql("SELECT * FROM items WHERE summary LIKE '%update dropped%'")
+            validate_readonly_sql("SELECT * FROM traders WHERE notes LIKE '%update dropped%'")
                 .is_ok()
         );
     }
@@ -420,11 +337,11 @@ mod tests {
     fn readonly_sql_rejects_writes_and_stacks() {
         use super::validate_readonly_sql;
         assert!(validate_readonly_sql("").is_err());
-        assert!(validate_readonly_sql("DROP TABLE items").is_err());
-        assert!(validate_readonly_sql("SELECT 1; DELETE FROM items").is_err());
+        assert!(validate_readonly_sql("DROP TABLE traders").is_err());
+        assert!(validate_readonly_sql("SELECT 1; DELETE FROM prices").is_err());
         assert!(validate_readonly_sql("SELECT 1;").is_err());
-        assert!(validate_readonly_sql("WITH x AS (SELECT 1) UPDATE items SET title='h'").is_err());
-        assert!(validate_readonly_sql("PRAGMA table_info(items)").is_err());
+        assert!(validate_readonly_sql("WITH x AS (SELECT 1) UPDATE prices SET price=1.0").is_err());
+        assert!(validate_readonly_sql("PRAGMA table_info(traders)").is_err());
         assert!(validate_readonly_sql("EXPLAIN SELECT 1").is_err());
         assert!(validate_readonly_sql("VACUUM").is_err());
     }
@@ -432,42 +349,60 @@ mod tests {
     #[test]
     fn sql_tool_round_trip_with_truncation() {
         use super::PublicDb;
-        let dir = std::env::temp_dir().join(format!("offsite-sql-{}", std::process::id()));
+        let dir = std::env::temp_dir().join(format!("schrott-sql-{}", std::process::id()));
         let _ = std::fs::remove_dir_all(&dir);
         let db = PublicDb::open(&dir).expect("test db opens");
-        db.upsert_source("s", "S", "https://s.test", "")
-            .expect("source");
-        db.upsert_dataset("d", "s", "D", "").expect("dataset");
-        for i in 0..3 {
-            db.upsert_item(
-                "d",
-                "s",
-                &format!("e{i}"),
-                &format!("T{i}"),
-                "",
-                "",
-                "",
-                &format!("h{i}"),
-                "{}",
-                "2026-01-01T00:00:00Z",
-            )
-            .expect("item");
-        }
+        db.upsert_material(&super::NewMaterial {
+            slug: "kupfer-test",
+            name_de: "Kupfer Test",
+            category: "nichteisen",
+            unit: "EUR/kg",
+            description: "",
+            updated_at: "2026-01-01T00:00:00Z",
+        })
+        .expect("material");
         let r = db
-            .query_sql("SELECT id, title FROM items ORDER BY id")
+            .query_sql("SELECT id, slug FROM materials ORDER BY id")
             .expect("select works");
         let names: Vec<&str> = r.columns.iter().map(|c| c.name.as_str()).collect();
-        assert_eq!(names, vec!["id", "title"]);
+        assert_eq!(names, vec!["id", "slug"]);
         assert_eq!(r.columns[0].dtype, "integer");
         assert_eq!(r.columns[1].dtype, "text");
-        assert_eq!(r.rows.len(), 3);
-        // Declared type wins; expression columns infer from values.
+        assert_eq!(r.rows.len(), 1);
         let r = db
-            .query_sql("SELECT COUNT(*) AS n, 1.5 AS f FROM items")
+            .query_sql("SELECT COUNT(*) AS n, 1.5 AS f FROM materials")
             .expect("select works");
         assert_eq!(r.columns[0].dtype, "integer");
         assert_eq!(r.columns[1].dtype, "real");
         assert_eq!(r.rows.len(), 1);
-        assert!(db.query_sql("DELETE FROM items").is_err());
+        assert!(db.query_sql("DELETE FROM materials").is_err());
+    }
+
+    #[test]
+    fn legacy_demo_tables_are_gone() {
+        use super::PublicDb;
+        let dir = std::env::temp_dir().join(format!("schrott-legacy-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        std::fs::create_dir_all(&dir).expect("dir");
+        // Simulate an old database file with the demo corpus still inside.
+        {
+            let conn = rusqlite::Connection::open(dir.join("public.db")).expect("old db");
+            conn.execute_batch(
+                "CREATE TABLE sources (slug TEXT PRIMARY KEY, name TEXT NOT NULL, url TEXT NOT NULL, description TEXT NOT NULL DEFAULT '');
+                 CREATE TABLE datasets (slug TEXT PRIMARY KEY, source_slug TEXT NOT NULL, name TEXT NOT NULL, description TEXT NOT NULL DEFAULT '');
+                 CREATE TABLE items (id INTEGER PRIMARY KEY AUTOINCREMENT, dataset_slug TEXT NOT NULL, external_id TEXT NOT NULL);",
+            )
+            .expect("legacy schema");
+        }
+        let db = PublicDb::open(&dir).expect("open migrates");
+        let tables = db.test_query(
+            "SELECT name FROM sqlite_master WHERE type = 'table' AND name IN ('sources', 'datasets', 'items')",
+        );
+        assert!(tables.is_empty(), "legacy tables are dropped");
+        // …while the new model exists.
+        let tables = db.test_query(
+            "SELECT name FROM sqlite_master WHERE type = 'table' AND name IN ('traders', 'materials', 'prices', 'current_prices') ORDER BY name",
+        );
+        assert_eq!(tables.len(), 4);
     }
 }

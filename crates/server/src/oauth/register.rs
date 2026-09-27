@@ -41,7 +41,7 @@ pub async fn register(State(state): State<AppState>, body: String) -> Response {
             );
         }
     }
-    let client_id = format!("cli_{}", offsite_data_auth::new_token(16));
+    let client_id = format!("cli_{}", schrott_mcp_auth::new_token(16));
     if state
         .internal
         .upsert_oauth_client(&client_id, &req.redirect_uris, &AppState::now())
