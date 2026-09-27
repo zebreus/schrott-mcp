@@ -560,3 +560,9 @@ Notiz (200, aber Parkseite): deich-metall.de (STRATO-Parkseite, s. Runde 4).
 | AfB gemeinnützige GmbH Shop Hannover | Hannover 30165, Meelbaumstr. 14 | https://www.afb-group.de | IT-Remarketing — "Verkaufen an afb" = Firmen-Ankauf + Datenvernichtung (NEU) | unklar |
 | MRG Rückbau und Recycling GmbH | Stadtoldendorf 37627, Yorckstr. 13 | keine | Rückbau/Recycling — HRB 205183; Bar-Ankauf unbelegt (PRÜFFALL) | unklar |
 | RRW GmbH Rückbau & Recycling Weserbergland | Eschershausen 37632, Gniesbreite 3 | keine | Rückbau/Recycling — HRB 205308; dito (PRÜFFALL) | unklar |
+
+## Nachtrag Triebsch (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Manuel Triebsch Autoverwertung / Altmetall- & Schrottankauf | Wangerland-Hooksiel 26434, Berghamm 1a | https://www.schrott-triebsch.de | Schrott/Altmetall/AV/Demontage, Tageshöchstpreise-Tabelle (€/t + €/kg) | ja (PREISLISTE: Homepage-Tabelle) |

@@ -77,6 +77,7 @@ pub mod schiefer_co;
 pub mod schrott_anton;
 pub mod schrott_frankfurt;
 pub mod schrott_recycle_meikel;
+pub mod schrott_triebsch;
 pub mod schrottabholung_top;
 pub mod schrottabholung_zentrale;
 pub mod second_way;
@@ -169,6 +170,7 @@ pub fn all() -> Vec<Handler> {
         schrott_anton::handler(),
         schrott_frankfurt::handler(),
         schrott_recycle_meikel::handler(),
+        schrott_triebsch::handler(),
         schrottabholung_top::handler(),
         schrottabholung_zentrale::handler(),
         second_way::handler(),

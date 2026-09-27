@@ -7657,5 +7657,28 @@
    "ankauf_raw": "unklar",
    "origin": "table"
   }
+ },
+ {
+  "slug": "ni-wangerland-hooksiel-26434-manuel-triebsch-autoverwertung-altmetall",
+  "name": "Manuel Triebsch Autoverwertung / Altmetall- & Schrottankauf",
+  "trader_type": "autoverwertung",
+  "description": "",
+  "street": "",
+  "postcode": "",
+  "phone": "",
+  "city": "Wangerland-Hooksiel 26434",
+  "state": "NI",
+  "website": "https://www.schrott-triebsch.de",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "aktiv",
+  "notes": "Schrott/Altmetall/AV/Demontage, Tageshöchstpreise-Tabelle (€/t + €/kg) | Adresse: Wangerland-Hooksiel 26434, Berghamm 1a",
+  "provenance": {
+   "seed_file": "ni",
+   "section": "Nachtrag Triebsch (27.09.2026)",
+   "ankauf_raw": "ja (PREISLISTE: Homepage-Tabelle)",
+   "origin": "table"
+  }
  }
 ]
