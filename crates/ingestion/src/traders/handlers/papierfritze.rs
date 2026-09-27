@@ -125,22 +125,28 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 fn parse(
     html: &str,
 ) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("jet-listing-grid__item").ok_or_else(|| IngestError::Parse {
+    let hit = html.find("jet-listing-grid__item").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
         detail: "Preiskarten fehlen".to_owned(),
     })?;
+    // Back up over the opening tag: cutting inside `<div class="…">`
+    // would destroy the first card's element.
+    let start = html[..hit].rfind('<').unwrap_or(hit);
     let frag = Html::parse_fragment(&format!("<div>{}</div>", &html[start..]));
     let card_sel = Selector::parse("div.jet-listing-grid__item").expect("valid selector");
     let head_sel = Selector::parse(".elementor-heading-title").expect("valid selector");
+    let link_sel = Selector::parse("a").expect("valid selector");
     let field_sel =
         Selector::parse(".jet-listing-dynamic-field__content").expect("valid selector");
     let mut rows = Vec::new();
     let mut skips = Vec::new();
     for card in frag.select(&card_sel) {
-        // Title = longest heading: the short category ("Kupfer") shares
-        // the class with the quoted grade title.
+        // Title = longest LINKED heading: the short category ("Kupfer")
+        // and the quoted grade title both link to the grade page, while
+        // "ANKAUFSPREIS / KG" is a bare header (and ties the title length).
         let title = card
             .select(&head_sel)
+            .filter(|el| el.select(&link_sel).next().is_some())
             .map(|el| el.text().collect::<String>())
             .map(|t| t.split_whitespace().collect::<Vec<_>>().join(" "))
             .filter(|t| !t.is_empty() && t.len() <= 120)

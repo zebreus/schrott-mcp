@@ -193,19 +193,28 @@ fn parse_tick(raw: &str) -> Option<f64> {
 }
 
 /// Bespoke date finder for THIS ticker: "Notierungen, €/g" followed by
-/// "27.09.2026 21:00" in `div#partner`. No anchor → None (the observation
-/// age stays the provenance).
+/// "27.09.2026 21:00" in `div#partner` (raw markup glues the date to the
+/// closing tag, so this scans bytes for a dd.mm.yyyy shape instead of
+/// splitting whitespace). No anchor → None (the observation age stays the
+/// provenance).
 fn find_date(window: &str) -> Option<String> {
     let (_, after) = window.split_once("Notierungen,")?;
-    let date = after
-        .split_whitespace()
-        .find(|t| t.chars().filter(|c| *c == '.').count() == 2)?;
-    let parts: Vec<&str> = date.split('.').collect();
-    if parts.len() == 3 {
-        parse_de_date(parts[0], parts[1], parts[2])
-    } else {
-        None
+    let b = after.as_bytes();
+    let mut i = 0;
+    while i + 10 <= b.len() {
+        // Byte-safe: non-boundary slices are skipped, never panicked on.
+        if let Some(t) = after.get(i..i + 10) {
+            let is_date = t.as_bytes().iter().enumerate().all(|(k, c)| match k {
+                2 | 5 => *c == b'.',
+                _ => c.is_ascii_digit(),
+            });
+            if is_date {
+                return parse_de_date(&t[0..2], &t[3..5], &t[6..10]);
+            }
+        }
+        i += 1;
     }
+    None
 }
 
 /// Bespoke contact extraction for THIS impressum only: the `<p>` holding

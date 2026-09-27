@@ -90,8 +90,8 @@ fn fmt_eur(price: f64) -> String {
 /// Explicit block title → material rows. Specific before generic:
 /// "Millberry"/"Kerze"/"Schwer" must not fall into plain copper,
 /// "Aluminiumkabel" must not fall into plain aluminium, lead cable grades
-/// must not fall into "Altblei" unwatched. One label may fan out
-/// ("Aluminiumkabel" + "ALUKABEL DICK" → two kabel-alu variants).
+/// must not fall into "Altblei" unwatched. The split "… dick" row maps to
+/// the dick variant only (see parse).
 fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
     let l = label.to_lowercase();
     let l = l.as_str();
@@ -107,8 +107,19 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
         Some(vec![("kabel-kupfer", "")])
     } else if l.contains("aluminiumkabel") || l.contains("alukabel") {
         // Two sorts, one block ("ab 1 kg ➜ 0,10€ / ALUKABEL DICK 0,35€"):
-        // two variants, or they collapse onto one arbitrary price.
-        Some(vec![("kabel-alu", ""), ("kabel-alu", "dick")])
+        // the parse step splits them into two rows ("… dick" suffix), so
+        // each row maps to exactly one variant — never both, or the two
+        // prices would collapse onto one arbitrary current price.
+        if l.contains("dick") {
+            Some(vec![("kabel-alu", "dick")])
+        } else {
+            Some(vec![("kabel-alu", "")])
+        }
+    } else if l.contains("kupfer") {
+        // Generic copper ("Kupfer ohne Eisen- oder Messinganhaftungen"):
+        // placed before lead/brass — the label names what is EXCLUDED,
+        // not what it is. All kupfer-* sorts above already matched.
+        Some(vec![("kupfer-gemischt", "")])
     } else if l.contains("elektromotor") {
         Some(vec![("elektromotoren", "")])
     } else if l.contains("lötzinn") || l.contains("loetzinn") {
@@ -143,8 +154,6 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
         } else {
             Some(vec![("aluminium-gemischt", "")])
         }
-    } else if l.contains("kupfer") {
-        Some(vec![("kupfer-gemischt", "")])
     } else {
         None
     }
@@ -160,7 +169,10 @@ fn parse(
         url: URL.to_owned(),
         detail: "Tagespreis-Block fehlt".to_owned(),
     })?;
-    let frag = Html::parse_fragment(&format!("<div>{}</div>", &html[start..]));
+    // Back up to the opening '<': slicing at `id=` would cut the div tag
+    // itself and the `div#price` selector below would never match.
+    let tag = html[..start].rfind('<').unwrap_or(0);
+    let frag = Html::parse_fragment(&format!("<div>{}</div>", &html[tag..]));
     let price_sel = Selector::parse("div#price").expect("valid selector");
     let block_sel = Selector::parse("div.cms-article").expect("valid selector");
     let h5_sel = Selector::parse("p.h5").expect("valid selector");
@@ -336,7 +348,8 @@ mod tests {
         assert_eq!(grade_for("Kupfer Kerze (neu, ohne Anhaftung, nicht angelaufen)"), Some(vec![("kupfer-berry", "Kerze")]));
         assert_eq!(grade_for("Kupferkabel kein Antennen-, Fett-, ALCU-, Eisenkabel"), Some(vec![("kabel-kupfer", "")]));
         assert_eq!(grade_for("Kupferkabelschrott mit Stecker"), Some(vec![("kabel-kupfer", "mit Stecker")]));
-        assert_eq!(grade_for("Aluminiumkabel dick"), Some(vec![("kabel-alu", ""), ("kabel-alu", "dick")]));
+        assert_eq!(grade_for("Aluminiumkabel"), Some(vec![("kabel-alu", "")]));
+        assert_eq!(grade_for("Aluminiumkabel dick"), Some(vec![("kabel-alu", "dick")]));
         assert_eq!(grade_for("Edelstahlschrott (V2A)"), Some(vec![("edelstahl-v2a", "")]));
         assert_eq!(grade_for("Zinnschrott 90-95 % (Teller)"), Some(vec![("zinn", "90-95%")]));
         assert_eq!(grade_for("Zinnschrott Lötzinn"), Some(vec![("zinn", "Lötzinn")]));
