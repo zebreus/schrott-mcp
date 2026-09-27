@@ -1,0 +1,254 @@
+# Schrottankauf Bayern (BY) – Recherche
+
+Stand: 2026-09-27. Nur reale Betriebe mit Beleg (Website-Fetch oder amtliches Register).
+Ankauf-Flag: **ja** = Ankauf auf Website belegt; **unklar** = kein Ankaufbeleg (z. B. nur Registerdaten).
+
+## Betriebe mit geprüfter Website
+
+| Name | Ort | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| M&M Buntmetall GmbH | Feldkirchen (Lkr. München) | https://www.mm-buntmetall.de/ | Buntmetall (Cu, Alu, Messing, Edelstahl, Kabel) | ja |
+| Schrott Anton GmbH | München | http://schrott-anton.de/ | Schrottplatz, Containerdienst, Buntmetall | ja |
+| THV Metallrecycling München GmbH / ALFA Rohstoffhandel München GmbH | München (Herbert-Quandt-Str. 15) | https://www.thv-metallrecycling.de/ | Buntmetall, Schrott (Buntmetall ab 5 kg, Schrott ab 300 kg) | ja |
+| ALFA Recycling München GmbH & Co. KG (TSR-/Derichebourg-Gruppe) | München (Rupert-Bodner-Str. 25) | https://www.tsr.eu (Konzernseite) | Stahl-/NE-Schrott, Shredder, Autorecycling | ja |
+| Frisch Recycling GmbH | Schäftlarn (Lkr. München) | https://frisch-recycling.de/ | E-Schrott (Leiterplatten, CPUs), Metalle, Kabel | ja |
+| Peter Viellechner Altmetall | Kirchseeon (Lkr. Ebersberg) | https://www.viellechner-altmetall.de/ | Buntmetall, Schrott, Abholung mit Kran-Lkw, Container | ja |
+| SWRN GmbH (Sekundär-Wertstoff-Recycling-Nürnberg) | Stein / Nürnberg-Hafen | https://swrn.de/unternehmen | FE-/NE-Schrott, Buntmetall | ja |
+| Scholz Recycling GmbH (Derichebourg-Gruppe) | Nürnberg | https://www.scholz-recycling.com/standort/nuernberg | Stahl-/NE-Schrott, Industrierecycling | ja |
+| MM-Kat GbR | Oberasbach (Lkr. Fürth) / Nürnberg | https://mm-kat.de/ | Katalysator-/DPF-Ankauf (Spezialist) | ja |
+| Beate Bergold Metalle GmbH | Seukendorf (Lkr. Fürth) | https://www.bergoldmetalle.de/ | Schrott, Buntmetall, Kabel, Container | ja |
+| KUNZ Rohstoffhandel GmbH | Augsburg | https://www.kunz.de/leistungen/ankauf | Schrott, Buntmetall, Kabel, Batterien | ja |
+| Augsburger Rohstoffhandel GmbH | Augsburg-Göggingen | https://augsburgerrohstoffhandel.de/ | Eisen, Buntmetall, Kabel, Edelmetall, Container/Logistik | ja |
+| Hammerschmidt Robert Container & Schrotthandel | Langweid a. Lech (Lkr. Augsburg) | https://hammerschmidt-schrott.de/kontakt | Schrott, Container, Demontage, Maschinen | ja |
+| ST-Schrotthandel | Ichenhausen (Lkr. Günzburg) | https://st-schrotthandel.de/ | Schrott, Buntmetall, Demontage, Container, Maschinenhandel | ja |
+| AVAS Recycling GmbH | Barbing (Lkr. Regensburg) | https://www.avas-recycling.de/ | Eisen-/NE-Schrott, Container, Abbruch | ja |
+| RVR Rohstoffverwertung Regensburg GmbH | Regensburg (Hafen) | https://rvr-regensburg.de/ | Eisen-/Metallschrott, Container, Autoverwertung | ja |
+| Krappmann & Hufnagel GmbH | Würzburg (Hafen) | https://krappmann-hufnagel.de/ | Schrott/Metall, Autoverwertung, Container, Demontage | ja |
+| Riwald Recycling Franken GmbH (ArcelorMittal) | Bamberg | https://riwald.com/ | Stahl-/NE-Schrott, Gießereivormaterial (eher Gewerbe) | ja |
+| Mölter GmbH | Kronach-Neuses | https://www.moelter-kronach.de/ | Schrott, NE-Metalle, Hartmetall, Kats, Autoverwertung, Abbrüche | ja |
+| Schrott Kaiser (PK GmbH) | Lichtenfels | https://www.schrottkaiser.de/ | Abbruch, Autoverwertung, Container/Abschleppdienst | unklar |
+| August Kutter GmbH & Co. KG | Memmingen / Kempten | https://www.schrott-kutter.de/ | Schrott, Metalle, Altautos, Abbrüche, Container | ja |
+| Eisen Braun GmbH | Memmingen | https://eisen-braun.de/buntmetalle | Buntmetall, Schrott, Abholung, Container | ja |
+| Iwan Koslow GmbH & Co. KG | Landshut / Wörth a. d. Isar / Passau | https://www.koslow.de/ | Schrott/Metalle, Altfahrzeuge, E-Schrott, Container | ja |
+| Geweiler Metallrecycling GmbH | Essenbach (Lkr. Landshut) | https://geweiler-metallrecycling.de/ | Buntmetall, Schrott, Hartmetall, Katalysatoren (Annahme ab 1 kg) | ja |
+| Fa. Sonntag Schrott-, Metall- u. Containerdienst | Aham (Lkr. Landshut) | keine Website gefunden | Schrottplatz, Metall-, Containerdienst (lt. Anzeige: Ankauf) | ja |
+| Oblinger Michael Recycling GmbH & Co. KG | Ingolstadt / Pförring | https://www.oblinger-recycling.de/ | Metallrecycling, Autoverwertung, Container, Abfallentsorgung | ja |
+| BÜCHL Metallrecycling | Ingolstadt | https://www.metallrecycling-bayern.de/ | Bunt-/Altmetall, Kabel-, Produktionsschrott | ja |
+| Bergler (Metallhandel-Recycling / Fahrzeugtechnik) | Weiden / Weiherhammer | https://www.bergler.de/ | Schrott-/E-Schrottannahme, Kfz-Verwertung, Entsorgung | ja |
+| Max Üblacker Schrott- und Metallhandel | Flossenbürg (Lkr. Neustadt a. d. WN) | https://www.schrott-metall-ueblacker.de/ | Eisen-/Stahlschrott, NE-Metalle, Kabel, E-Motoren, Container | ja |
+| INRO Industrierohstoffe GmbH / INRO Rohstoffhandel GmbH | Stockstadt a. Main (Lkr. Aschaffenburg) | https://inro-ir.de/ | Schrott, NE-Metalle (eher Gewerbe/Industrie) | ja |
+| Rhein Main Rohstoffe GmbH, Niederlassung Stockstadt | Stockstadt a. Main | https://rmr-recycling.de/ | Stahl-/NE-Schrott, Container, Abbruch (eher Gewerbe) | ja |
+| MAIREC Edelmetall-Recycling | Alzenau (Lkr. Aschaffenburg) | https://mairec.com/de/autokatalysatoren | Katalysatoren, Edelmetalle, E-Schrott (Spezialist, eher Gewerbe) | ja |
+| SchrottJungs (mobil/bundesweit) | u. a. München, Ingolstadt (Abholung) | https://schrottjungs.de/ | mobile Abholung, Buntmetall-Ankauf, Container | ja |
+
+## Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne geprüfte Website)
+
+Quelle: Fachbetrieberegister/GSA-Verzeichnis (schrottregister.pages.dev), Stand 08/2026.
+
+| Name | Ort | Anmerkung |
+|---|---|---|
+| Georg Lesch e.K. | Schweinfurt (Hafenstr. 44) | Lagern/Behandeln |
+| Altschäffl Georg Schrott und Metalle | Deggendorf | Gelbe-Seiten-Eintrag, keine Website gefunden |
+| Andorfer Sebastian GmbH & Co. KG | Straubing | Lagern/Behandeln/Verwerten |
+| Wolf Entsorgung GmbH & Co. KG | Straubing | Sammeln/Befördern/Lagern/Behandeln |
+| Rohstoffverwertung Gröger GmbH & Co. KG | Günzburg | Schrott/Metall, Container, Altautoverwertung (Demontagebetrieb) |
+| Baur & Söhne GmbH | Günzburg | Sammeln/Befördern/Handeln |
+| Neidhardt Rohstoff GmbH | Memmingen (Alpenstr. 64) | Sammeln/Befördern, Metall-/Fahrzeugschlüssel |
+| Geiger Baustoffe und Recycling GmbH & Co. KG | Memmingen | Register-Eintrag |
+| Schrott Nasz GmbH | Weiherhammer (Lkr. Neustadt a. d. WN) | Register-Eintrag |
+| Kraus Recycling & Entsorgung | Weiden | von Stadt Weiden als Ansprechpartner gelistet |
+| Gerhard Lehrer GmbH | Schwandorf | Lagern/Behandeln |
+| Jakob Schaumaier Nachf. GmbH | Traunstein | Autoverwertung (Demontagebetrieb) |
+| Autoverwertung Kroher | München (Rupert-Bodner-Str. 19) | nur Autoverwertung |
+| Paulus GmbH | Bamberg (Gundelsheimer Str. 9a) | Lagern, Metallschlüssel |
+| Max Aicher Recycling GmbH | Lauingen (Lkr. Dillingen) | Stahlrecycling, eher B2B |
+| CRONIMET Alfa GmbH | München (Rupert-Bodner-Str. 25) | Lagern/Behandeln |
+| Eiber & Kunz Schrott Metall Recycling GmbH | München (Am Neubruch 9) | Sammeln/Befördern/Lagern/Behandeln |
+| Kauschinger Rohstoffhandel GmbH | München (Lindberghstr. 12) | Lagern/Behandeln |
+
+## Hinweise / dünne Abdeckung
+
+- Ausgeschlossen (nicht Bayern): Rudolf Bügler (Eppingen, BaWü), HAFEN Metall & Schrott (Mannheim), ESG-Scheideanstalt (Rheinstetten, BaWü – trotzdem relevante Versandadresse für Edelmetall-/Scheidgut aus Bayern).
+- Klassische Scheideanstalt mit Sitz in Bayern nicht gefunden (Lücke: Edelmetall-Scheidgut → MAIREC Alzenau, Geweiler, Frisch).
+- Dünn besetzt: Amberg, Cham, Coburg/Hof, Bayreuth-Stadt, Ansbach, Neumarkt, Kelheim, Freising/Erding/Dachau, Mühldorf/Altötting, Berchtesgadener Land, Kaufbeuren/Sonthofen/Lindau/Garmisch, Kitzingen, Donauwörth/Nördlingen, Neu-Ulm/Dillingen (nur B2B), Rosenheim-Stadt, Schweinfurt (nur Lesch), Kempten-Stadt (nur Kutter-Filiale).
+- Kleinanzeigen-Mobile (ohne prüfbare Website, nicht aufgenommen): Spoto (Augsburg, VHM), Florian-Metalle (Fürth, Kabel), div. mobile Käufer Eching/Fürth/Pilsting/Dietersburg/Burgkirchen/Straubing/Hirschaid.
+
+## Nachtrag Audit-Runde 2
+
+Stand: 2026-09-27. Winkel: Efb-/GSA-Register (schrottregister.pages.dev) Ort-für-Ort in den dünnen Gebieten + Website-Verifikation per Fetch. Websuche (websearch) und DDG/Mojeek lieferten keine brauchbaren Treffer; Bing-RSS war mit Spam verseucht – das Register war der funktionierende Winkel.
+
+### Neu: Website-verifiziert
+
+| Name | Ort | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Jean Bilsheim Recycling GmbH | Bayreuth (Weiherstr. 37) | https://www.jean-bilsheim.com/ | Schrott/Metall, Altpapier, Container, Aktenvernichtung (Efb, fast 100 Jahre) | ja |
+| STADLER METALLE GmbH & Co. KG (Stadler Raw Materials, Plansee-Gruppe) | Türkheim (Unterfeldstr. 4) | https://www.stadler-metalle.de/ (leitet auf stadler-rawmaterials.com) | Hartmetall, Nickel-/Kobalt-/Titanlegierungen, HSS, Reinmetalle – An- und Verkauf (eher B2B) | ja |
+| Knettenbrech + Gurdulic (Süd GmbH + Franken GmbH) | Türkheim (Schützenstr. 10) / Kitzingen (Richthofenstr. 43, Sonderabfallzwischenlager) / Würzburg-Kitzingen | https://www.knettenbrech-gurdulic.de/ (Standorte Türkheim, Würzburg/Kitzingen, Kitzingen gelistet; Leistung „Schrott + Altmetall“) | Schrott/Altmetall, Entsorgung, Container | ja |
+| SMR Schrott-Metall-Recycling GmbH | Mühldorf (Adolf-Kolping-Str. 47 + Marie-Curie-Str. 1), Recyclinghof Waldkraiburg | https://www.smr-muehldorf.de/ | Schrott/Metall, Altautoverwertung, Container, Recyclinghöfe (Annahmeschluss publiziert) | ja |
+| Schaumaier Recycling (Jakob Schaumaier Nachf.) | Traunstein (Schrottplatz Industriestr. 12), Tacherting, Bischofswiesen (Wertstoffzentrum BGL – deckt Berchtesgadener Land ab) | https://www.schaumaier.de/ | Schrottplatz, Altautoverwertung, Container, Industriedemontagen (erweitert/ersetzt die Register-Zeile „Jakob Schaumaier Nachf.“) | ja |
+| Chiemgau Recycling GmbH | Raubling (Am Baumgarten 4, bei Rosenheim) | https://chiemgau-recycling.de/ | Kern Altpapier; Schrott nur als Nebenservice genannt („Ob Folien, Schrott, Altholz …“) | unklar |
+
+### Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)
+
+Quelle jeweils: schrottregister.pages.dev Ort-Seite (Registerstand 08/2026).
+
+| Name | Ort | Anmerkung |
+|---|---|---|
+| Schmid & Zweck GmbH Betrieb Gailoh | Amberg (Im Frauental 7) | Lagern/Behandeln, E-Schrott- + Cu/Al-Schlüssel; schmid-zweck.de nicht erreichbar |
+| Bergler GmbH & Co. KG Standort Amberg | Amberg (Max-Planck-Str. 25) | Filiale (Haupteintrag Weiden bereits ja) |
+| Scholz Recycling GmbH Betrieb Coburg | Coburg (Gutenbergstr. 6) | Filiale (Haupteintrag Nürnberg bereits ja) |
+| Edelhäuser Wertstoffe GmbH | Ansbach (Adalbert-Pilipp-Str. 48) | Sammeln/Lagern |
+| Vogel & Sohn GmbH & Co. KG | Ansbach (Hardtstr. 22) | Lagern/Behandeln |
+| Dorr GmbH & Co. KG | Kempten (Dieselstr. 32) + Kaufbeuren (Im Hart 13) | Lagern/Behandeln, z. T. Handeln/Makeln |
+| Prezioso Recycling GmbH | Kempten (Porschestr. 17) | Lagern/Behandeln/Handeln |
+| Schießler Schrott- und Metallhandel | Kaufbeuren (Buronstraße 66) | Lagern/Behandeln/Verwerten/Beseitigen |
+| Harald Hoffmann Schrott & Metall Recycling eK | Marktoberdorf (Wertachstr. 25) | Lagern |
+| Götz GmbH Schrott und Metalle | Weißenhorn (Eschachweg 2-4) + Neu-Ulm (Zeppelinstr. 32) | Lagern/Behandeln/Verwerten |
+| MS Metallhandel Süd GmbH & Co. KG | Weißenhorn (Daimlerstr. 34) | Lagern/Behandeln |
+| Karl Karletshofer GmbH Betrieb Neu-Ulm | Neu-Ulm (Lessingstr. 19) | Lagern/Behandeln |
+| Loacker Recycling GmbH | Donauwörth (Dillinger Str. 67) | Lagern/Behandeln/Verwerten; Gruppe loacker-recycling.com (JS-Seite, Filiale dort nicht verifizierbar) |
+| Schrotthandel Nordheim GmbH | Donauwörth/Nordheim (Bäumenheimer Str. 51) | Lagern/Behandeln/Handeln/Makeln |
+| Sell Recycling GmbH & Co. KG | Kitzingen (Glauberstr. 19) | Lagern/Behandeln |
+| LZR Lenz-Ziegler-Reifenscheid GmbH | Kitzingen (August-Gauer-Str. 9) | Sammeln/Befördern/Handeln/Makeln |
+| SCHMIDT-METALLE e. K. | Türkheim (Rudolf-Diesel-Str. 8) | Lagern/Behandeln; schmidt-metalle.de per Fetch nicht erreichbar (Timeout) |
+| Rott & Sohn GmbH & Co. KG | Kelheim (Grenzstr. 8, Hafengelände) | Lagern |
+| Pletschacher Recycling GmbH | Freilassing (Breslauer Str. 61) | Lagern/Behandeln; pletschacher.at per Fetch nicht erreichbar |
+| Trapper GmbH | Kulmbach (Am Goldenen Feld 31) | Lagern/Behandeln |
+
+### Negativ-Befunde (weiter dünn)
+
+- Erding, Dachau, Freising, Neumarkt i. d. OPf.: keine Ort-Seite im Register (404 = keine anerkannten Betriebe) – Lücke bleibt.
+- Cham (1 unspezifischer Betrieb „Produktion, Verwaltung“), Hof (nur kommunales AbfallServiceZentrum + unbenannter Hauptstandort), Rosenheim-Stadt (nur städtische Betriebe; Raubling/Chiemgau als Umland-Ergänzung), Schweinfurt/Bergrheinfeld (nur Veolia/kommunal + GKS).
+- Regen (nur AREG-Betriebsstätte), Freyung-Grafenau/Dingolfing-Landau/Rhön-Grabfeld/Garmisch/Sonthofen/Lindau (BY)/Kaufbeuren-Umland in dieser Runde nicht vertieft – Restlücke.
+
+## Nachtrag Audit-Runde 3
+
+Stand: 2026-09-27. Websearch-API down (401), DDG nach 3 Queries mit Captcha, Mojeek mit JS-Captcha – funktionierende Winkel: **schrottradar.de/bayern** (84 Profile, inkl. Firmen-Websites + „nearby“-Listen), **lokaleschrottplatz.de**, **GOLD.DE-Scheideanstalten-Verzeichnis**, Firmen-Websites per Fetch verifiziert (curl + webfetch).
+
+### Neu: Website-verifiziert, Ankauf ja (11)
+
+| Name | Ort | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Joachim Schrotthandel GmbH | Bad Neustadt a. d. Saale (Leutersgrube 2, Rhön-Grabfeld!) | https://www.joachim-metalle.de/ (JS-Wall; Beleg via lokaleschrottplatz.de-Profil: Annahme FE ab 100 kg, NE ab 1 kg, +49 9771 3150) | Stahl/Eisen, Cu, Alu, Messing, Kabel, Altautos, Container | ja |
+| MSR GmbH | Rosenheim (Äußere Münchner Str. 2a – Rosenheim-Stadt!) | https://www.msr-rosenheim.de/ („Schrottankauf in Rosenheim“) | Cu, Alu, Edelstahl, Messing, Zinn/Zink, Blei | ja |
+| Riedl Schrotthandel GmbH & Co. KG (Fa. Georg Riedl) | Roding-Wetterfeld (Thierlsteinerstr. 20, Lkr. Cham!) | http://www.riedl-schrotthandel.de/Home („Metall An und Verkauf“, Container) | Metall An-/Verkauf, Container, Demontage, Autoentsorgung | ja |
+| Kernschrott Recycling | Regensburg (Dieselstr. 7) | http://www.kernschrott-recycling.de (Navi „Schrottankauf“: Cu, Messing, Rotguss, Stahl, Zinn, Zink, Alu, Blei, Kats, E-Schrott) | Schrott-/Sondermetallankauf, Kats, E-Schrott, Container | ja |
+| Huth Schrott Metall GmbH (Huth GmbH) | Aschaffenburg (Hafenkopfstr. 7) | http://www.huth-recycling.de („Einkaufspreise“, Warenannahme aller Schrott-/Metallsorten) | Schrott-/Metallhandel, Container | ja |
+| Fritz Högg GmbH & Co. KG | Prem (Schongauer Str. 7, Lkr. Weilheim-Schongau) | http://www.fritz-hoegg.de („Wir kaufen NE-Metalle und Schrott zu tagesaktuellen Preisen“, Schrottplatz + Nutzeisen) | Schrottplatz, NE-Metalle, Container/Kran, Nutzeisenhandel | ja |
+| Schwanzer Altmetall- u. Autoentsorgung | Eggstätt-Natzing (Gewerbegebiet Natzing 3, Lkr. Rosenheim) | https://www.schwanzer-entsorgung.de („Altmetallhandel, Schrotthandel und Autoverwertung“, seit 1967) | Altmetallhandel, Autoverwertung | ja |
+| GRAMET GmbH & Co. KG | Würzburg-Zellerau (Daimlerstr. 9) | http://www.gramet.de („Einkauf/Ankauf Metalle“, BImSchG-Anlage, Efb) | NE-Metalle, Superlegierungen, Späne/Schlämme (B2B-Spezialist) | ja |
+| TD Rohstoffhandel Haidhof GmbH & Co. KG | Maxhütte-Haidhof/Teublitz (Ziegelholz 20) | https://www.td-haidhof.de/ („kauft Ihren Schrott zu tagesaktuellen Preisen“, „Metallankauf“) | Schrott-/Metallankauf, Trafo-Entsorgung, Container | ja |
+| D&K Metallhandels GmbH | Barbing (Liebigstr. 5, Lkr. Regensburg) | http://www.dk-metallhandel.de/ („An- und Verkauf von Metallen … nach tagesaktuellen Preisen“) | Metall An-/Verkauf | ja |
+| BERNHARD WESTARP GmbH & Co. KG | Aschaffenburg (Hafenrandstr. 5–6) | http://www.westarp-kg.de (Navi „Einkaufspreise“, Rohstoffhandel Eisen/NE, E-Schrott, Abbrüche) | Eisen-/NE-Schrott, E-Schrott, Abbrüche, Container (>100 Jahre) | ja |
+
+### Neu: Website vorhanden, Ankauf unklar (9)
+
+| Name | Ort | Website | Anmerkung |
+|---|---|---|---|
+| Stark GmbH | Lindau-Reutin (Robert-Bosch-Str. 3–5 – Lindau!) | http://www.stark-lindau.de/ | Entsorgung/Wertstoffe inkl. Schrott/Metall, 60 Jahre; kein Ankaufbeleg |
+| Loacker Recycling Lindau (ehem. Fischer Recycling Lindau GmbH) | Lindau-Aeschach (Spitalmühlweg 16) | fischer-recycling.com leitet auf loacker-recycling.com/de/location/loacker-recycling-lindau/ um (Übernahme); Gruppen-Seite JS, Ankauf nicht verifiziert | unklar |
+| Wertstoff Bader | Garmisch-Partenkirchen-Burgrain (Loisachauen 27 – Garmisch!) | http://www.wertstoff-bader.de/ (Site im Umbau, Fokus Altpapier/Aktenvernichtung) | unklar |
+| Gigler GmbH | Schrobenhausen-Steingriff (Gollingkreuter Weg 13) | http://www.gigler.de (nur „Metall- und Schrottverwertung“, Altautoverwertung, Container) | unklar |
+| Loos Metallrecycling | Hersbruck (Amberger Str. 45, Nürnberger Land!) | https://metall-loos.de (Efb, NE-Metalle/Schrotte/Container; kein „Ankauf“ auf Site) | unklar |
+| Carnuth KG Metallrecycling | Bogen/Furth (Industriestr. 16, Lkr. Straubing-Bogen!) | https://www.carnuth.de (B2B Stahl-/Metallrecycling, Container; kein Ankaufbeleg) | unklar |
+| Lorenz Wittmann GmbH | Ergolding + Geisenhausen (Lkr. Landshut) | http://www.wittmann-recycling.de/ (Site betont **Textil-Recycling**/Wertstoffhof; Schrottankauf nicht belegt) | unklar |
+| Stefan Schäfer KG | Aschaffenburg (Am Flosshafen 69) | http://www.schrottschaefer.de (Sortenliste + Anlieferung, „seit 1919“; Ankauf nicht explizit) | unklar |
+| Böhme GmbH Wertstofferfassung | Rehau-Neukühschwitz (Lkr. Hof!) | https://entsorgen.de/ (Efb/Entsorger; Schrott nur als Abfallbeschreibung) | unklar |
+
+### Neu: nur Verzeichnis-Beleg (unklar, keine prüfbare Website)
+
+Quelle jeweils: schrottradar.de-Profil (Adresse + Telefon + Ankauf-Metalle).
+
+| Name | Ort | Anmerkung |
+|---|---|---|
+| ALBA Metall Süd Franken GmbH (4 Standorte, 1 Unternehmen) | Schweinfurt (Hafenstr. 38), Sennfeld (Schweinfurter Str. 6–8), Bamberg-Gaustadt (Rheinstr. 19), Marktredwitz-Lorenzreuth (Haldenstr. 3 – Lkr. Wunsiedel!) | Konzern alba.info (JS-Seite, Filialen dort nicht verifizierbar); deckt Schweinfurt-Tiefe + Wunsiedel ab |
+| ALBA Electronics Recycling GmbH | Wiedergeltingen (Mühle 1, Unterallgäu) | E-Schrott (Konzern alba.info) |
+| Schmidt Recycling GmbH | Buchloe (Winkeläckerstr. 10, Ostallgäu) | Site bot-geschützt (403/JS-Wall), nicht verifizierbar |
+| Bameta GmbH | Buchloe (Winkeläckerstr. 10 – gleiche Adresse wie Schmidt, ggf. verbunden) | keine Website gefunden |
+| Altmetallverwertung Südbayern GmbH & Co. KG | Wasserburg (Am Burgfrieden 1, Lkr. Rosenheim) | keine Website (Domain-Vermutung DNS-fail) |
+
+### Negativ-Befunde Runde 3
+
+- **Klassische Scheideanstalt mit Bayern-Sitz: bestätigt nicht existent.** GOLD.DE-Verzeichnis (Stand 04/2024, per Fetch verifiziert): alle deutschen Scheideanstalten sitzen in Pforzheim/Umgebung (BW), Hanau (HE), Essen (NRW), Berlin, Hamburg, Halsbrücke (SN) – keine in Bayern. Edelmetall aus Bayern → MAIREC Alzenau, GRAMET Würzburg (NE/Superlegierungen), Stadler Türkheim (Hartmetall), Kernschrott Regensburg (Kats/E-Schrott) oder Versand an ESG Rheinstetten (BW)/Ögussa (AT).
+- **Franz Pesteritz GmbH & Co. KG, Nürnberg-Kornburg: NICHT aufgenommen.** Domain schrott-pesteritz.de liefert nur leeren Titel; Unterseite zeigt Firma in Laußnitz (Sachsen). Kein belastbarer Bayern-Beleg.
+- Freyung-Grafenau/Regen/Dingolfing-Landau/Erding/Freising/Dachau/Neumarkt/Sonthofen/Oberstdorf: weiter keine Funde.
+- AT-Spillover (nicht Bayern, nur grenznah notiert): Johann Neumüller Ennsdorf (AT), A. Haas Wals-Siezenheim (AT).
+
+### Spot-Checks (5 zufällige Bestandseinträge, alle OK)
+
+- mm-buntmetall.de (200, „Schrotthändler München & Umgebung | M&M Buntmetall“), moelter-kronach.de (200, „Mölter GmbH - Home“), schrottkaiser.de (200, „Schrott Kaiser - Startseite“), geweiler-metallrecycling.de (200, „Metall- und Schrotthändler | Landshut“), kunz.de/leistungen/ankauf (200, „Kunz: Schrott- und Metallankauf in Augsburg“). Keine Korrekturen nötig.
+
+## Nachtrag Audit-Runde 4
+
+Stand: 2026-09-27. Winkel: **schrottradar.de-Stadtseiten BY** (alle 60+ Orte ausgelesen: Augsburg 6, Nürnberg 5, Dingolfing, Wolfratshausen, FFB, Kirchheim-Heimstetten, Moosburg, Sendling, Neufinsing, Otterfing, Roth, Westheim u. a.), **schrottradar-Profile + „nearby“-Netz** (alle 15 Named Gaps gefunden), **lokaleschrottplatz.de/bayern komplett** (Seiten 1–8, 220 Einträge), Firmen-Websites per Fetch verifiziert.
+
+### Neu: Website-verifiziert, Ankauf ja (17)
+
+| Name | Ort | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Johann Fischer Schrott- u. Metallhandel | Wolfratshausen (Hans-Urmiller-Ring 20) | https://www.fischer-metallhandel.de/ | FE-/NE-Schrott, Container, E-Schrott, BDSV (seit 1972) | ja |
+| Peter Preimesser GmbH & Co. KG | Kirchheim-Heimstetten (Taxetstr. 3) + München-Sendling (Geretsrieder Str. 5) | https://www.preimesser.de/ | Schrott/NE/Kabel-Ankauf Tagespreise, Kabelgranulierung, Abbruch, Altauto | ja |
+| Eisen-Wolf GmbH | Kirchheim (Daimlerstr. 6) | https://www.eisen-wolf.de/ | NE-Vergütung ab 1 kg, Container, Industrie-Demontage/Abbruch (ALFA-Gruppe) | ja |
+| Zwick Metall-Recycling GmbH | Otterfing (Gewerbering 4) | http://www.zwick-metall.de/ | Metallrecycling, Einkaufsbedingungen, Termin-Anlieferung | ja |
+| Huber Recycling GmbH | Moosburg (Reiteraustr. 41 – Lkr. Freising!) | https://www.huber-metallrecycling.de/ („vergüten Eisenschrott und Metall“) | Schrott/Metalle, Abbrüche, Container (seit 1920, 4. Gen.) | ja |
+| Eisen Rudi Recycling GmbH | Fürstenfeldbruck (Am Fohlenhof 1 + Hugo-Junkers-Str. 6 – FFB!) | https://www.eisen-rudi.de/ („kaufen Buntmetalle ab 10 kg, Eisen ab 200 kg“) | Schrott/Metall, Autoverwertung, Container (seit 1956) | ja |
+| Ortolf Recycling GmbH (Erwin Ortolf) | Augsburg-Lechhausen (Raiffeisenstr. 12) | https://www.ortolf-recycling.de/ („kaufen Materialien zu Marktpreisen“) | Schrott/Metall, Container (70+ Jahre) | ja |
+| Luthner Metallrecycling OHG | Neufinsing (Oskar-von-Miller-Ring 4 – Lkr. Erding!) | https://luthner-metallrecycling.de/ („kaufen Metall zum Tagespreis“) | Metallankauf, Container (seit 1951) | ja |
+| TD Rohstoffhandel Ebenhausen GmbH & Co. KG | Baar-Ebenhausen (Äußerer Ring 60) | https://www.td-ebenhausen.de/ („Wir zahlen für Metalle und Schrotte“) | Buntmetalle/Schrott, Altauto, Container (ALFA-Gruppe; Schwester v. TD Haidhof) | ja |
+| Rohstoffhandel Süd A-Z UG | Augsburg-Inningen (Hohenstaufenstr. 57) | https://www.rohstoffhandelsued.de/ („Barankauf … sofort in bar“) | Metall-/Schrott-Barankauf, Industrieabbrüche | ja |
+| J. Pfeifer Schrotthandel | Würzburg-Versbach (Lengfelder Str. 38) | https://www.j-pfeifer-schrotthandel.de/ („Ankauf von Mischschrott und Metallen“) | Schrott/Metalle, Kabel, Altauto-Abholung | ja |
+| Helmut Nader Recycling OHG (schrottradar: „Nadel“) | Kumreut-Ödholz (Ödholz 1, 94133 – Freyung-Grafenau!) | https://www.nader-recycling.de/ („besten Preise“, Waagen, Abholservice) | Altmetall/Schrotthandel, Container (seit 1951) | ja |
+| Föll Rohstoffhandel GmbH | Blaichach (Immenstädter Str. 30) + Durach (Webereistr. 37) – Oberallgäu! | https://www.foell-rohstoffhandel.de/ (Schrott & Metall seit 1942, 4 Standorte) | Schrott/Metalle, Container, Vereinssammlungen (auch Buchloe, Kempten) | ja |
+| Algri (Albert Grießacher) | München (Rottmannstr. 12) | https://www.algri.de/ („Ankauf von Kupfer zu Tagespreisen“) | Kupfer-Ankauf, Entrümpelung, Entkernung/Demontage (seit 2002) | ja |
+| Rota-Hartmetall (Ünsal Ercan) | Nürnberg (Hintere Marktstr. 19) | https://rota-hartmetall.com/ („faire marktgerechte Preise für Hartmetall“) | Hartmetall-Spezialist | ja |
+| Eco Schrott (Shakir Kiumars) | Nürnberg (Erlanger Str. 7, mobil) | https://www.ecoschrott.de/ („Ankauf von Buntmetallen, Eisen-/Stahlschrott“) | mobiler Ankauf, Waage, Autoverwertung (B2B/Behörden) | ja |
+| Spoto Altmetallverwertung | Augsburg (Bavousstr. 6) | https://spoto-altmetall.de/ (Hartmetall/VHM-Höchstpreise, Altmetall-Ankauf/Abholung) | Hartmetall-/VHM-Spezialist + Altmetall, Demontage, Container | ja |
+| Kabel-Ankauf.com (Saricikli) | Volkach-Krautheim (Landstr. 1, 97332 – Lkr. Kitzingen!) | https://kabel-ankauf.com/ (Kabel-Ankaufstelle, Barvergütung) | Kabelschrott/-reste, Buntmetalle | ja |
+
+### Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3, nur Verzeichnis)
+
+| Name | Ort | Website | Anmerkung |
+|---|---|---|---|
+| Schenker Industrie- u. Städtereinigung GmbH | Hohenkammer-Niernsdorf (Niernsdorf 7) | https://www.schenker-umwelt.de/ | Efb, Sekundärrohstoffe; kein Ankaufbeleg |
+| Dehner Recycling GmbH | Augsburg-Lechhausen (Derchingerstr. 133) | https://www.dehner-recycling.de/ | Efb, Navi „Handel“; kein Ankaufbeleg |
+| Schutt Karl Entsorgung GmbH | Nürnberg (Industriestr. 2) | https://www.schuttkarl.de/ | Container/Entsorgung/Baustoffe, „Schrott\|Metall“ nur Materialliste; kein Ankaufbeleg |
+| Manfred von Randow GmbH | Roth (Regensburger Ring 16) | https://www.von-randow.de/ | Efb, Metalle/Recycling/Wertstoffhof; kein Ankaufbeleg |
+| Taxer GmbH | Denklingen (Dr.-Manfred-Hirschvogel-Str. 10) | keine gefunden | nur schrottradar |
+| Michael Hammerschmidt | Ichenhausen (Karl-Königsdorfer-Str. 25a) | keine gefunden | nur schrottradar (s. Dedup-Cluster) |
+| Schrotthändler Prohl | München (nur Mobil 0172/8237372) | keine | nur schrottradar, mobil |
+
+### Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)
+
+Deckt Restlücken ab: **Regen** (Katja Hartl, 94209 Regen – Schrotthandlung + Containerdienst), **Dingolfing-Landau** (Scholz-Filiale Dingolfing Alemannenstr. 2 – Filiale, Haus ja; J. Reinhardt Loiching 84180), **Freyung-Grafenau-Nähe** (Schumpa Hauzenberg 94051; Blösl Obernzell 94130 + Wegertseder Ruhstorf 94099, Passau), **Deggendorf** (Gebr. Brandstätter Osterhofen 94486; AVAS-Filiale Plattling 94447 – Haus ja), **Kelheim** (W. Alt + Besta Schrott-/Buntmetall, 93309 Kelheim; K&W Hausen 93345), **Kitzingen** (Knettenbrech-Wagner Rödelsee 97348; Lelito Mainbernheim 97350; Lenhardt Kleinlangheim 97355; Koch Iphofen 97346 – Kabel-Ankauf Volkach s. o. ja), **Main-Spessart** (Trapp Lohr 97816; MRM Marktheidenfeld 97828), **Hof** (REUSS Hof 95028; G. Reuss Konradsreuth 95176), **Coburg** (Klaus Görbert Dörfles-Esbach 96487 – Scholz Coburg s. Runde 2), **Amberg-Sulzbach** (Graupner Amberg 92224; ARK Auerbach 91275; Wollenzhofen Ursensollen 92289), **Neumarkt/Roth** (Albrecht Velden 91235; J. Müller Hilpoltstein 91161; Blank Roth 91154; Die Entsorger Thalmässing 91177), **Donau-Ries/Dillingen/Günzburg** (Sejdiu + Köhler Nördlingen 86720; Bachinger Otting 86700; Bauch Rain 86641; Rissel Höchstädt 89420; Seidel Offingen 89362; Baur/Bayer/Graf/Bauer + Emil/Philip Hammerschmidt Ichenhausen 89335; Feueröcker Neuburg/Kammel 86476; Röder Waldstetten 89367), **Ostallgäu/Unterallgäu/Oberallgäu** (Hoffmann Marktoberdorf 87616 – matcht Register; Bachinger Biessenhofen 87640; Zinth Obergünzburg 87634; Trunke Wolfertschwenden 87787/Legau; Eisenhut Memmingerberg 87766; Fischl Durach 87471; Hartmann Weitnau 87480), **Weilheim-Schongau/Garmisch** (Seiler + Steindl Peißenberg 82380; Drosdz Schongau 86956; Poncet Spatzenhausen 82418), **Freising/Erding** (Koch Attenkirchen 85395; Lachermeier Kirchdorf 85414; Soika Erding 85435; Meringer Moosburg 85368 – Huber/Luthner s. o. ja), **Rosenheim-Tiefe** (Herrmann 83024 + Skrobek 83026 Rosenheim – MSR s. Runde 3 ja), **Traunstein** (DD Trostberg 83308; Schwanzer Rimsting 83253 – s. Dedup), **Mühldorf/Rottal** (Baumert Mettenheim 84562; Eibl Dietersburg 84378; Michel Pfarrkirchen 84347), **Rhön-Grabfeld** (Haid Mellrichstadt 97638 – Joachim s. Runde 3 ja), **Miltenberg** (Willeführ Obernburg 63785; D+M Amorbach 63916; Mehring Dorfprozelten 97904; Heilmann Alzenau 63755; Will Mainaschaff 63814), **Ansbach/Neustadt-Aisch/Weißenburg** (Eisenmann + Derichebourg Rothenburg 91541; Eckhardt Bechhofen 91572; Eger Heilsbrunn 91560; Kocher Wolframs-Eschenbach 91639; Schneck + MS Uffenheim 97215; Frankenberg Emskirchen 91448; Barth Markt Erlbach 91459; R&K Gunzenhausen 91710), **Forchheim/Erlangen** (Laubinger Eggolsheim 91330; Kaiser + Michalak Adelsdorf 91325; Königs Erlangen 91056; VEG Abenberg 91183), **Aichach/Friedberg** (AUDUNA Aichach 86551; Bichler Schrobenhausen 86529; Winter + Winter Friedberg 86316), **Regensburg/Cham/Straubing-Bogen** (Kollmann Lappersdorf 93138; Meier Wenzenbach 93173; Stuber Tegernheim 93105; Stock + Meier Regensburg; Jansen + Sindlhauser Roding 93426; Weis + Roku Hunderdorf 94336; MER Steinach 94377/Oberschneiding 94363; Alteisen-Express Wörth 93086), **Nürnberg/Fürth/Erlangen mobil** (Kulzer Nürnberg 90441; Klein Nürnberg 90471; Dombrowski Ammerndorf 90614; Neigert Langenzenn 90579; Schubert Roßtal 90574; Lau + Th. Neigert Augsburg; R. Müller München 81829; Aquila München 80993; KM München 80637; Kupferdantler München 81243; Yubemetall 81249; Atlantis 81241; Faschingbauer 81245; Hartmann Bergkirchen 85232; Schielle Mindelheim 87719; Schwanzer→s. Dedup), **Schweinfurt/Haßberge** (Sauber + Lesch + IR + Reinhardt Schweinfurt 97424; Kempf + Russ Knetzgau 97478; Denk Haßfurt 97437; Anger + Luczkow Königsberg 97486; Korn Burgpreppach 97496), **Tirschenreuth** (Behnke 95643), **Grafenwöhr** (Brewitzer 92655), **Weiden** (Tankaya 92637), **Weiherhammer** (Auto-verschrotten 92729 – Nasz s. Register), **Nordlingen-Umfeld** (s. o.), **Erding/Freising-mini** (Soika, Meringer – s. o.), **Geretsried** (Huber 82538, Bad Tölz), **Sauerlach/Ebersberg/Adlkofen/Mengkofen/Velden** (Wertstoffsammelstelle, Chrizor, Tradeworxx, Janca, Gemeinde – kommunal/mini, unklar), **Buch** (Missler/Dursch 89290, mini), **Obergünzburg-mini** (Zinth – s. o.).
+
+### Dedup-/Korrektur-Verdacht (NICHT gelöscht, nur gelistet)
+
+- **Schrott-Sam GmbH, München (Lerchenstr. 19) = Alias/Duplikat von Schrott Anton GmbH** (gleiche Adresse; schrott-sam.de leitet auf schrott-anton.de) – nicht separat aufnehmen.
+- **Fa. Hammerschmidt GbR Augsburg (Ebnerstr. 25) verlinkt hammerschmidt-schrott.de** (= Hammerschmidt Robert Langweid, Bestand) – affiliiert; als Register-Eintrag mit Hinweis führen.
+- **Hammerschmidt-Cluster**: Robert (Langweid, ja) / GbR (Augsburg) / Michael (Ichenhausen) / Emil + Philip (Ichenhausen) / Jakob (lokaleschrottplatz) – Familien-/Firmenzusammenhang ungeklärt.
+- **Schwanzer Rimsting (Rudolf, 83253) vs. Schwanzer Eggstätt-Natzing (Bestand, ja)** – ~15 km auseinander, Verwandtschaft möglich.
+- **Bameta + Schmidt Recycling, gleiche Adresse Buchloe** (s. Runde 3) – weiterhin ungeklärt.
+- **Hossmann Aham vs. Sonntag Aham (beide 84168)** – möglicher Zusammenhang.
+- **Seidel Offingen (Rohstoffe Seidel + Eduard Seidel, beide 89362)** – mögliches Duplikat.
+- **MS-Recycling Uffenheim vs. Schrott & Metallhandel Uffenheim (beide 97215)** – mögliches Duplikat.
+- **Kaiser Adelsdorf (Metallrecycling Kaiser + AME Michalak, beide 91325)** – räumliche Nähe, ungeklärt.
+- **Bachinger Biessenhofen (87640) vs. Bachinger Otting (86700, Demontagen)** – möglich verwandt, verschiedene Orte.
+- **Schneck Uffenheim vs. Ricki Schneck** – möglich verwandt.
+- **Reinhardt Schweinfurt vs. J. Reinhardt Loiching** – verschiedene Orte, kein Duplikat (nur Namensähnlichkeit).
+- **Trapp Lohr (97816, BY) vs. Rohstoffe Trapp Westheim (Pfalz, s. u.)** – verschiedene Firmen.
+- **schrottradar-Typo: „Kernschrott Recyclimg“** (Regensburg-Profil).
+- **Nader vs. „Nadel“**: Firma heißt **Nader** (nader-recycling.de); schrottradar schreibt „Nadel“ – in by.md Nader verwenden.
+- **Tote Websites (Firma ggf. real, Site down)**: metallrecycling.com (W. Braun Augsburg – geparkt/„coming soon“), schmidt-metalle.de (Timeout, s. Runde 2), schmid-zweck.de (DNS-fail, s. Runde 2), pletschacher.at (nicht erreichbar, s. Runde 2), allgaezinn.de (DNS-fail), mrm-metallrecycling.de (kein Connect), der-kabeldantler.de (kein Connect).
+- **Ausgeschlossen (nicht Bayern)**: Rohstoffe Trapp Westheim = **Westheim (Pfalz), RLP** (schrottradar-Fehlzuordnung; Einsatzgebietsliste nur RLP/BW/HE); MK Schrott Argenbühl = BW; Föll-Profil Wangen = BW (Firma selbst BY, s. o.); Leo Hermann = Hessen (Hofbieber); Neumüller Ennsdorf + Haas Wals = AT (s. Runde 3).
+- **Negativ**: DLS Oberland (Herrsching/Weilheim) – kein Schrottankauf (nur Entrümpelung/Verwertung, „Ankauf Militaria“); **nicht aufnehmen**.
+
+### Erschöpft / Negativ-Befunde Runde 4
+
+- **schrottradar BY: 84/84 Profile gesehen** (Hauptliste + alle Stadtseiten) – Quelle erschöpft; Rest sind Duplikat-Filialen (SMR ×5, ALBA ×4, Koslow ×3, Wittmann ×2, Eisen Rudi ×2, Gigler ×2, Föll ×2, Max Aicher ×3, Scholz ×4) oder AT/ausgeschlossen.
+- **Named gaps alle geschlossen**: Zwick ✓, Fischer Johann ✓, Preimesser ✓, Eisen-Wolf ✓, Prohl (nur Register) ✓, Luthner ✓, Schrott-Sam (Duplikat Schrott Anton) ✓, Eisen Rudi Schmid ✓, Taxer (nur Register) ✓, Huber ✓, Schenker ✓ (Niernsdorf = Hohenkammer-Filialadresse), Nadel/Nader ✓, TD Ebenhausen ✓, Randow ✓, Schutt Karl ✓.
+- **lokaleschrottplatz.de/bayern: Seiten 1–8 vollständig** (220 Einträge) – Quelle erschöpft.
+- **Efb-Register Regen/Freyung/Dingolfing-Landau**: über lokaleschrottplatz-Verzeichnis abgedeckt (Hartl/Regen, Schumpa/Hauzenberg, Nader/Röhrnbach, Scholz/Dingolfing, Reinhardt/Loiching); eigene Register-Ortseiten tlw. 404 – Winkel erschöpft.
+- **Material-spezifisch geschlossen**: Kabel (Kabel-Ankauf Volkach ja; Preimesser/Eisen-Wolf-Kabelgranulierung; Spoto), Hartmetall (Rota ja; Stadler B2B s. Runde 2; Spoto VHM), Platinen/E-Schrott (Frisch s. Bestand; MER Steinach/Oberschneiding Register; Kernschrott Kats s. Runde 3).
+- **Abbruch-Firmen geschlossen**: Huber, Eisen-Wolf, Preimesser, TD Ebenhausen, Rohstoffhandel Süd, Bachinger, Sejdiu (alle mit Demontage/Abbruch-Leistung).
+- **meinestadt/11880/dasoertliche**: keine über Verzeichnisse hinausgehenden Funde (dasoertliche-Einträge duplizieren Bekannte, z. B. Fischer Johann) – Winkel erschöpft.
+- **Weiter dünn (kein Beleg gefunden)**: Neumarkt-Stadt selbst, Berchtesgaden-Orte jenseits Bischofswiesen, Sonthofen/Oberstdorf, Lindau jenseits Stark/Loacker, Dachau, Erding-Stadt jenseits Soika/Luthner-Umland.
