@@ -400,10 +400,9 @@ pub fn dashboard(base_url: &str, d: DashboardData<'_>) -> String {
          <button class=\"btn\" type=\"submit\">Anlegen</button></form>\
          <div class=\"tablewrap\"><table><tr><th scope=\"col\">Name</th><th scope=\"col\">Präfix</th><th scope=\"col\">Erstellt</th><th scope=\"col\">Zuletzt genutzt</th><th scope=\"col\"><span class=\"vh\">Aktionen</span></th></tr>{token_rows}</table></div></div>\
          <div class=\"card\"><h3>Datenerfassung</h3>\
-         <p>Läuft alle 6 Stunden in diesem Prozess: Materialkatalog plus \
-         Händler-Seed (über 2.300 Händler aus der Recherche) werden \
-         idempotent aufgefrischt; Händler-Scraper für Preise folgen später. \
-         Beobachte die Tabelle unten.</p>\
+         <p>Prüft alle 15 Minuten fällige Händler (gestaffelt, je Händler \
+         alle 6 Stunden oder zu festen Zeiten). 5 Preis-Handler sind live; \
+         der Rest folgt Händler für Händler. Beobachte die Tabelle unten.</p>\
          <form method=\"post\" action=\"/api/ingest/run\">\
          <input type=\"hidden\" name=\"csrf\" value=\"{}\">\
          <button class=\"btn\" type=\"submit\">Jetzt erfassen</button></form>\

@@ -23,9 +23,16 @@ With love as the secret ingredient.
   - `internal/` and `public/` are each split by domain, every file owning its
     tables, row types and queries.
 - `crates/auth` — argon2 password hashing, random tokens, SHA-256, PKCE-S256.
-- `crates/ingestion` — pipeline skeleton (`seed -> scrape -> journal`) plus
-  the static material catalog. Händler scrapers are not built yet; runs only
-  refresh the catalog until then.
+- `crates/ingestion` — trader price ingestion (`traders/`): one file per
+  Händler in `handlers/` (slug, schedule, scrape fn with its own
+  selectors + label→material table — parsing is never shared, only HTTP,
+  German-number and date helpers). The `scheduler` runs what's due in one
+  sequential loop: staggered 6 h cadence (slug-hash offset) or per-trader
+  `DailyAt` times (Europe/Berlin), per-handler timeouts, failure
+  isolation, run/step/fetch bookkeeping. 5 handlers live (Vedder,
+  Lausitz, Tappe, Kupferhelden, Metallankauf24); trader #6..#500 = one
+  new file + one registry line. `examples/live_handlers.rs` runs handlers
+  against real pages without touching the DB (handler dev loop).
 - `crates/server` — axum web app: German marketing page, signup/login
   (username + password + "professional data-user" checkbox, nothing else),
   dashboard, OAuth 2.0 authorization server with dynamic client registration
@@ -125,9 +132,10 @@ cargo run -p schrott-mcp-server -- --bind 127.0.0.1:4001 \
     --data-dir ./data --base-url http://localhost:4001
 ```
 
-Env fallbacks: `BIND`, `DATA_DIR`, `BASE_URL`. The ingestion scheduler runs
-inside the same process (first run shortly after boot, then every 6h), and
-`POST /api/ingest/run` (logged in) triggers a manual run.
+Env fallbacks: `BIND`, `DATA_DIR`, `BASE_URL`. The scheduler ticks every
+15 minutes and runs whatever trader handlers are due (each staggered to
+~every 6 h, or fixed daily times); `POST /api/ingest/run` (logged in)
+force-runs every handler immediately.
 
 ## Deploy
 

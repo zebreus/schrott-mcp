@@ -1,16 +1,13 @@
-//! Ingestion pipeline: seed the material catalog, then run scrapers.
+//! Ingestion pipeline: seed the catalog, then run due trader handlers.
 //!
-//! The Händler scrapers that will fill traders/prices are not built yet —
-//! runs currently only refresh the static catalog. The run/step/fetch
-//! bookkeeping in the internal database already works, so scheduling,
-//! dashboard and manual triggers behave the same before and after.
+//! Five trader price handlers are live (see `traders/handlers/`); the rest
+//! of the 2.300 seeded traders get handlers one file at a time.
 
 pub mod pipeline;
-pub mod scrapers;
 pub mod seed_traders;
+pub mod traders;
 
 pub use pipeline::{run_once, seed_metadata, spawn_scheduler, IngestSummary};
-pub use scrapers::scrape_all;
 pub use seed_traders::{load_seeds, seed_traders, validate_seeds};
 
 /// Every way ingestion can fail. Carries the scraper and URL for context

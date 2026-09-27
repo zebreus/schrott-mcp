@@ -104,7 +104,7 @@ async fn main() {
     };
 
     // Ingestion lives in this same process.
-    let _scheduler = schrott_mcp_ingestion::spawn_scheduler(internal, public, 6 * 3600);
+    let _scheduler = schrott_mcp_ingestion::spawn_scheduler(internal, public, 15 * 60);
 
     let app = Router::new()
         .route("/health", get(web::site::health))

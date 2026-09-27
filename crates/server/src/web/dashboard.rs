@@ -166,6 +166,7 @@ pub async fn ingest_run(
             &task_state.internal,
             &task_state.public,
             &task_state.http,
+            true,
         )
         .await;
     });
@@ -174,7 +175,7 @@ pub async fn ingest_run(
         Flash {
             token_secret: None,
             notice: Some(
-                "Datenerfassung läuft im Hintergrund — beobachte die Tabelle unten.".to_owned(),
+                "Manuelle Erfassung läuft — alle Händler werden jetzt geprüft, beobachte die Tabelle unten.".to_owned(),
             ),
         },
     );

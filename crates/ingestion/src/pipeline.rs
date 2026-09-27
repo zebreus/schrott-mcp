@@ -12,7 +12,7 @@ use chrono::Utc;
 use schrott_mcp_store::{InternalDb, PublicDb};
 use tokio::task::JoinHandle;
 
-use super::scrapers::scrape_all;
+use super::seed_traders::seed_traders;
 
 /// The static price catalog: (slug, German name, category, unit, description).
 /// Seeded into `materials` on every run so the catalog exists even before
@@ -203,19 +203,20 @@ pub fn seed_metadata(public: &PublicDb) -> Result<(), super::IngestError> {
             })?;
     }
     // Trader seed (embedded JSON, idempotent via payload hashes).
-    let wrote = super::seed_traders(public, &now)?;
+    let wrote = seed_traders(public, &now)?;
     tracing::info!("ingestion: trader seed up to date ({wrote} rows written)");
     Ok(())
 }
 
-/// Run the whole pipeline once: seed the catalog, run scrapers, journal.
+/// Run the whole pipeline once: seed the catalog, run due trader handlers.
 ///
-/// Händler-scrapers are not implemented yet, so runs currently only refresh
-/// the material catalog — the run/step bookkeeping stays identical for later.
+/// `force` runs every handler regardless of schedule (manual trigger);
+/// otherwise only due handlers run (background loop).
 pub async fn run_once(
     internal: &InternalDb,
     public: &PublicDb,
-    _client: &reqwest::Client,
+    client: &reqwest::Client,
+    force: bool,
 ) -> IngestSummary {
     use std::sync::atomic::Ordering;
     if RUNNING.swap(true, Ordering::SeqCst) {
@@ -225,12 +226,17 @@ pub async fn run_once(
             ..IngestSummary::default()
         };
     }
-    let summary = run_once_inner(internal, public).await;
+    let summary = run_once_inner(internal, public, client, force).await;
     RUNNING.store(false, Ordering::SeqCst);
     summary
 }
 
-async fn run_once_inner(internal: &InternalDb, public: &PublicDb) -> IngestSummary {
+async fn run_once_inner(
+    internal: &InternalDb,
+    public: &PublicDb,
+    client: &reqwest::Client,
+    force: bool,
+) -> IngestSummary {
     let run_started = std::time::Instant::now();
     let started = Utc::now().to_rfc3339();
     let run_id = match internal.create_run(&started) {
@@ -245,39 +251,12 @@ async fn run_once_inner(internal: &InternalDb, public: &PublicDb) -> IngestSumma
     }
 
     let mut summary = IngestSummary::default();
-    for (slug, outcome) in scrape_all().await {
-        let step_at = Utc::now().to_rfc3339();
-        let step_id = internal.create_step(run_id, slug, &step_at).unwrap_or(0);
-        match outcome {
-            Err(e) => {
-                tracing::warn!("ingestion: scraper {slug} failed: {e}");
-                let detail = format!("{e}");
-                summary.failed.push(format!("{slug}: {detail}"));
-                if step_id != 0 {
-                    if let Err(e) = internal.finish_step(
-                        step_id,
-                        "failed",
-                        0,
-                        &detail,
-                        &Utc::now().to_rfc3339(),
-                    ) {
-                        tracing::warn!("ingestion: cannot close failed step: {e}");
-                    }
-                }
-            }
-            Ok(wrote) => {
-                summary.upserted += wrote;
-                let msg = format!("upserted {wrote} records");
-                if step_id != 0 {
-                    if let Err(e) =
-                        internal.finish_step(step_id, "ok", wrote, &msg, &Utc::now().to_rfc3339())
-                    {
-                        tracing::warn!("ingestion: cannot close step: {e}");
-                    }
-                }
-            }
-        }
-    }
+    let handlers = super::traders::handlers::all();
+    let (recorded, failed) =
+        super::traders::scheduler::run_due_with(&handlers, internal, public, client, run_id, force)
+            .await;
+    summary.upserted = recorded;
+    summary.failed = failed;
 
     let status = if summary.write_failures > 0 || !summary.failed.is_empty() {
         "partial"
@@ -285,7 +264,7 @@ async fn run_once_inner(internal: &InternalDb, public: &PublicDb) -> IngestSumma
         "ok"
     };
     let detail = format!(
-        "Katalog aktuell, {} Datensätze geschrieben, {} Fehler",
+        "Katalog aktuell, {} Preise übernommen, {} Händler-Fehler",
         summary.upserted,
         summary.failed.len()
     );
@@ -299,7 +278,9 @@ async fn run_once_inner(internal: &InternalDb, public: &PublicDb) -> IngestSumma
     summary
 }
 
-/// Background scheduler: first run after a short delay, then periodically.
+/// Background scheduler: ticks often, runs what's due.
+/// Trader handlers stagger themselves across their 6 h cadence, so the
+/// tick only needs to be finer than the smallest schedule (15 min).
 /// Runs inside the same process as the web + MCP server.
 pub fn spawn_scheduler(
     internal: Arc<InternalDb>,
@@ -315,7 +296,7 @@ pub fn spawn_scheduler(
         // Let the server finish booting before the first run.
         tokio::time::sleep(Duration::from_secs(15)).await;
         loop {
-            run_once(&internal, &public, &client).await;
+            run_once(&internal, &public, &client, false).await;
             tokio::time::sleep(Duration::from_secs(interval_secs)).await;
         }
     })
