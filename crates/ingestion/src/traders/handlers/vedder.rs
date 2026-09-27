@@ -34,6 +34,9 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 price_max: None,
                 confidence: Some(1.0),
                 label,
+                published_at: None,
+                valid_from: None,
+                valid_to: None,
             }),
             None => skipped_labels.push(label),
         }

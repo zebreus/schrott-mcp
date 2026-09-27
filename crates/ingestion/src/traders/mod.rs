@@ -71,6 +71,12 @@ pub struct ScrapedPrice {
     pub confidence: Option<f64>,
     /// Raw label from the page, always kept for traceability.
     pub label: String,
+    /// Page-stated date for THIS material (RFC 3339). Falls back to the
+    /// outcome default when the page shows one date for everything.
+    pub published_at: Option<String>,
+    /// Validity window for THIS material; None = open-ended.
+    pub valid_from: Option<String>,
+    pub valid_to: Option<String>,
 }
 
 /// Everything one scrape produced.
@@ -83,7 +89,8 @@ pub struct HandlerOutcome {
     pub fetch_url: String,
     pub status_code: u16,
     pub byte_len: usize,
-    /// Page-stated validity date (RFC 3339), if the page shows one.
+    /// Page-stated validity date for the whole page (fallback for prices
+    /// without their own date).
     pub published_at: Option<String>,
 }
 
@@ -220,9 +227,12 @@ pub async fn record(
             published: true,
             source_url: &outcome.fetch_url,
             observed_at: &now_s,
-            published_at: outcome.published_at.as_deref(),
-            valid_from: None,
-            valid_to: None,
+            published_at: p
+                .published_at
+                .as_deref()
+                .or(outcome.published_at.as_deref()),
+            valid_from: p.valid_from.as_deref(),
+            valid_to: p.valid_to.as_deref(),
             notes: &p.label,
             extra_json: "{}",
             ingested_at: &now_s,
