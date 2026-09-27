@@ -23,8 +23,9 @@ With love as the secret ingredient.
   password + "professional data-user" checkbox, nothing else), dashboard,
   OAuth 2.0 authorization server with dynamic client registration (so an MCP
   host can just be pointed at the URL), and the MCP Streamable-HTTP endpoint.
-  Split by surface: `web/` (`pages` templates, `auth`, `dashboard`, `site`),
-  `mcp/` (endpoint plus the isolated `worker` spawner), top-level `oauth.rs`,
+  Split by surface: `web/` (`pages` templates + `style`, `auth`, `dashboard`,
+  `site`), `mcp/` (`protocol` transport, `tools`, isolated `worker`),
+  `oauth/` (one file per flow: `discovery`, `register`, `authorize`, `token`),
   and shared `state.rs` (sessions, CSRF, flash) plus `respond.rs`.
   Shared `respond` module for consistent responses; one-time secrets travel
   in server-side flash state (never URLs); cookie POSTs carry CSRF tokens.

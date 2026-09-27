@@ -124,23 +124,23 @@ async fn main() {
         .route("/api/ingest/run", post(web::dashboard::ingest_run))
         .route(
             "/.well-known/oauth-authorization-server",
-            get(oauth::server_metadata),
+            get(oauth::discovery::server_metadata),
         )
         // Some strict clients probe the resource-scoped metadata path.
         .route(
             "/.well-known/oauth-authorization-server/mcp",
-            get(oauth::server_metadata),
+            get(oauth::discovery::server_metadata),
         )
         .route(
             "/.well-known/oauth-protected-resource",
-            get(oauth::protected_resource),
+            get(oauth::discovery::protected_resource),
         )
-        .route("/oauth/register", post(oauth::register))
+        .route("/oauth/register", post(oauth::register::register))
         .route(
             "/oauth/authorize",
-            get(oauth::authorize_get).post(oauth::authorize_post),
+            get(oauth::authorize::authorize_get).post(oauth::authorize::authorize_post),
         )
-        .route("/oauth/token", post(oauth::token))
+        .route("/oauth/token", post(oauth::token::token))
         .route("/mcp", get(mcp::mcp_get).post(mcp::mcp_post))
         .route("/d/{secret}/result.json", get(web::site::download_result))
         .fallback(web::site::fallback_404)

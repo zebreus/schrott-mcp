@@ -12,6 +12,7 @@ pub mod auth;
 pub mod dashboard;
 pub mod pages;
 pub mod site;
+pub(super) mod style;
 
 /// Only allow relative redirects inside this site.
 pub(super) fn safe_next(next: &str) -> &str {
