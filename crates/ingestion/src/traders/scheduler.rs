@@ -90,7 +90,7 @@ pub async fn run_due_with(
     client: &reqwest::Client,
     run_id: i64,
     force: bool,
-) -> (i64, Vec<String>) {
+) -> (i64, Vec<String>, Vec<String>) {
     let now = Utc::now();
     let mut due: Vec<&Handler> = Vec::new();
     if let Ok(mut map) = due_map().lock() {
@@ -105,6 +105,7 @@ pub async fn run_due_with(
     }
     let mut recorded = 0i64;
     let mut failed = Vec::new();
+    let mut warnings = Vec::new();
     for h in due {
         // Structured fields on every event (JSON logs carry them as
         // top-level journal fields). No span guard: `Entered` is !Send.
@@ -144,13 +145,13 @@ pub async fn run_due_with(
                     out.byte_len as i64,
                     &stamped,
                 );
-                match super::record(public, h.slug, &out, &stamped).await {
+                match super::record(public, internal, h.slug, &out, &stamped).await {
                     Err(e) => {
                         tracing::warn!(slug = h.slug, "record failed: {e}");
                         failed.push(format!("{}: {e}", h.slug));
                         close_step(internal, step_id, "failed", 0, &format!("{e}"));
                     }
-                    Ok((n, skipped)) => {
+                    Ok((n, skipped, canaries)) => {
                         recorded += n;
                         let mut detail = format!("{n} Preise übernommen");
                         if !skipped.is_empty() {
@@ -163,14 +164,24 @@ pub async fn run_due_with(
                                 if skipped.len() > 5 { "; …" } else { "" }
                             ));
                         }
+                        // Canary trips are warnings, not failures: the data
+                        // is recorded, but a human should check the scraper.
+                        // They travel in their own vec so the run status can
+                        // distinguish "broken" from "look at this".
+                        let status = if canaries.is_empty() { "ok" } else { "warning" };
+                        for c in &canaries {
+                            tracing::warn!(slug = h.slug, "canary: {c}");
+                            warnings.push(format!("{}: {c}", h.slug));
+                            detail.push_str(&format!(" | CANARY: {c}"));
+                        }
                         tracing::info!(slug = h.slug, "{detail}");
-                        close_step(internal, step_id, "ok", n, &detail);
+                        close_step(internal, step_id, status, n, &detail);
                     }
                 }
             }
         }
     }
-    (recorded, failed)
+    (recorded, failed, warnings)
 }
 
 /// Journal one fetch attempt (success or failure) into `raw_fetches`.
@@ -339,13 +350,16 @@ mod tests {
             Handler { slug: "bb-lauchhammer-ost-lausitz-recycling", url: "https://example.test/", schedule: Schedule::every_6h(), scrape: ok_fn },
             Handler { slug: "kaputt-test", url: "https://example.test/", schedule: Schedule::every_6h(), scrape: bad_fn },
         ];
-        let (recorded, failed) =
+        let (recorded, failed, warnings) =
             super::run_due_with(&handlers, &internal, &public, &client, run, true).await;
         // ok-handler wrote nothing (unknown material skipped) but did not fail;
-        // bad-handler failed loudly; loop survived both.
+        // bad-handler failed loudly; loop survived both. Zero output trips
+        // the canary without failing the step.
         assert_eq!(recorded, 0);
         assert_eq!(failed.len(), 1);
         assert!(failed[0].starts_with("kaputt-test"));
+        assert_eq!(warnings.len(), 1);
+        assert!(warnings[0].contains("0 Preise"));
     }
 
     #[tokio::test]
@@ -450,9 +464,10 @@ mod tests {
             schedule: Schedule::every_6h(),
             scrape: two_fn,
         }];
-        let (recorded, failed) =
+        let (recorded, failed, warnings) =
             super::run_due_with(&handlers, &internal, &public, &client, run, true).await;
         assert_eq!((recorded, failed.len()), (2, 0));
+        assert!(warnings.is_empty(), "first run, no baseline, no jumps: {warnings:?}");
         let res = public
             .query_sql(
                 "SELECT m.slug, p.variant, p.published_at, p.valid_from, p.valid_to

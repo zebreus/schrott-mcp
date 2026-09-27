@@ -152,4 +152,20 @@ impl InternalDb {
         rows.collect::<Result<Vec<_>, _>>()
             .map_err(StoreError::from)
     }
+
+    /// Items recorded by the last finished, non-failed step of a scraper.
+    /// Canary baseline: `None` on the very first run (nothing to compare).
+    pub fn last_ok_step_items(&self, scraper: &str) -> Result<Option<i64>, StoreError> {
+        use rusqlite::OptionalExtension as _;
+        let conn = self.lock()?;
+        conn.query_row(
+            "SELECT items_upserted FROM ingestion_steps
+             WHERE scraper = ?1 AND status IN ('ok', 'warning') AND finished_at IS NOT NULL
+             ORDER BY id DESC LIMIT 1",
+            params![scraper],
+            |r| r.get(0),
+        )
+        .optional()
+        .map_err(StoreError::from)
+    }
 }

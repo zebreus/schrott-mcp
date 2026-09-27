@@ -204,6 +204,8 @@ pub struct IngestSummary {
     pub write_failures: i64,
     /// Scrapers that failed, with reasons.
     pub failed: Vec<String>,
+    /// Canary trips (data recorded, human should check the scraper).
+    pub warnings: Vec<String>,
 }
 
 /// Guard so the scheduler and manual triggers never run concurrently.
@@ -280,22 +282,28 @@ async fn run_once_inner(
 
     let mut summary = IngestSummary::default();
     let handlers = super::traders::handlers::all();
-    let (recorded, failed) =
+    let (recorded, failed, warnings) =
         super::traders::scheduler::run_due_with(&handlers, internal, public, client, run_id, force)
             .await;
     summary.upserted = recorded;
     summary.failed = failed;
+    summary.warnings = warnings;
 
     let status = if summary.write_failures > 0 || !summary.failed.is_empty() {
         "partial"
+    } else if !summary.warnings.is_empty() {
+        "warning"
     } else {
         "ok"
     };
-    let detail = format!(
+    let mut detail = format!(
         "Katalog aktuell, {} Preise übernommen, {} Händler-Fehler",
         summary.upserted,
         summary.failed.len()
     );
+    if !summary.warnings.is_empty() {
+        detail.push_str(&format!(", {} Warnungen", summary.warnings.len()));
+    }
     if let Err(e) = internal.finish_run(run_id, status, &detail, &Utc::now().to_rfc3339()) {
         tracing::warn!("ingestion: cannot close run {run_id}: {e}");
     }

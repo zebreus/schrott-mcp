@@ -26,7 +26,7 @@ use std::future::Future;
 use std::pin::Pin;
 
 use chrono::{DateTime, Utc};
-use schrott_mcp_store::PublicDb;
+use schrott_mcp_store::{InternalDb, PublicDb};
 
 /// When a handler runs. `Every` staggers by slug hash; `DailyAt` fires at
 /// fixed local times (e.g. a trader publishing morning prices).
@@ -207,17 +207,30 @@ pub fn parse_de_date(day: &str, month: &str, year: &str) -> Option<String> {
     })
 }
 
+/// Canary thresholds (documented, tunable). Baselines come from the last
+/// finished non-failed step; the very first run has no baseline and only
+/// the zero rule applies.
+pub const CANARY_MIN_BASELINE: i64 = 5;
+/// Recorded count below this fraction of baseline → page lost rows.
+pub const CANARY_DROP_RATIO: f64 = 0.5;
+/// Recorded count above this multiple of baseline → duplication smell.
+pub const CANARY_GROWTH_FACTOR: f64 = 3.0;
+/// Single price moving by this factor (or its inverse) → decimal/unit smell.
+pub const CANARY_JUMP_RATIO: f64 = 3.0;
+
 /// Record one handler outcome: resolve ids, append observations.
 /// Unknown materials are skipped loudly; an unknown trader slug fails the
 /// whole step (misconfiguration, must be heard). Fetch journaling lives
 /// in the scheduler so failed attempts are journaled too.
+/// Returns (recorded, skipped, canary_notes).
 #[allow(clippy::too_many_arguments)]
 pub async fn record(
     public: &PublicDb,
+    internal: &InternalDb,
     handler_slug: &str,
     outcome: &HandlerOutcome,
     now: &DateTime<Utc>,
-) -> Result<(i64, Vec<String>), super::IngestError> {
+) -> Result<(i64, Vec<String>, Vec<String>), super::IngestError> {
     use super::IngestError;
     let Some(trader_id) = public.find_trader_id(handler_slug).map_err(|source| {
         IngestError::Catalog { what: "trader", name: handler_slug.to_owned(), source }
@@ -229,8 +242,25 @@ pub async fn record(
         });
     };
     let now_s = now.to_rfc3339();
+    let baseline = internal
+        .last_ok_step_items(handler_slug)
+        .unwrap_or(None);
+    // Snapshot current prices BEFORE writing, for jump detection.
+    let mut before: std::collections::HashMap<(i64, String), (f64, String, String)> =
+        std::collections::HashMap::new();
+    for p in &outcome.prices {
+        if let Ok(Some(mid)) = public.find_material_id(p.material) {
+            let key = (mid, p.variant.to_owned());
+            if !before.contains_key(&key) {
+                if let Ok(Some(cur)) = public.current_price_for(trader_id, mid, &p.variant) {
+                    before.insert(key, (cur.price, cur.currency, cur.unit));
+                }
+            }
+        }
+    }
     let mut recorded = 0i64;
     let mut skipped = outcome.skipped_labels.clone();
+    let mut canaries: Vec<String> = Vec::new();
     for p in &outcome.prices {
         let Some(material_id) = public.find_material_id(p.material).map_err(|source| {
             IngestError::Catalog { what: "material", name: p.material.to_owned(), source }
@@ -270,6 +300,24 @@ pub async fn record(
         }) {
             Ok(_) => {
                 recorded += 1;
+                // Jump canary against the pre-write snapshot (same
+                // currency+unit only — anything else is not comparable).
+                if let Some((old_price, old_cur, old_unit)) =
+                    before.get(&(material_id, p.variant.to_owned()))
+                {
+                    if *old_cur == p.currency
+                        && *old_unit == unit
+                        && *old_price > 0.0
+                    {
+                        let ratio = price / old_price;
+                        if ratio >= CANARY_JUMP_RATIO || ratio <= 1.0 / CANARY_JUMP_RATIO {
+                            canaries.push(format!(
+                                "Preissprung {} ({}): {:.3} -> {:.3} {} (x{:.1})",
+                                p.material, p.variant, old_price, price, unit, ratio
+                            ));
+                        }
+                    }
+                }
                 // A published price proves acceptance of the material.
                 if let Err(e) = public.set_acceptance(
                     trader_id,
@@ -290,7 +338,28 @@ pub async fn record(
             }
         }
     }
-    Ok((recorded, skipped))
+    // Count canaries against the last good run.
+    if recorded == 0 {
+        canaries.push(format!(
+            "0 Preise übernommen ({} Parses, {} Skips) — Seite prüfen",
+            outcome.prices.len(),
+            skipped.len()
+        ));
+    } else if let Some(base) = baseline {
+        if base >= CANARY_MIN_BASELINE {
+            let base_f = base as f64;
+            if (recorded as f64) < base_f * CANARY_DROP_RATIO {
+                canaries.push(format!(
+                    "Einbruch: {recorded} statt {base} Preisen — Seite prüfen"
+                ));
+            } else if (recorded as f64) > base_f * CANARY_GROWTH_FACTOR {
+                canaries.push(format!(
+                    "Explosion: {recorded} statt {base} Preisen — Duplikate prüfen"
+                ));
+            }
+        }
+    }
+    Ok((recorded, skipped, canaries))
 }
 
 /// Convert a quoted price into the catalog unit when the conversion is
@@ -364,5 +433,105 @@ mod tests {
             Some("2026-09-27T00:00:00+00:00")
         );
         assert_eq!(parse_de_date("31", "02", "2026"), None);
+    }
+
+    /// Canary matrix: drop / growth / jump / zero, all through record().
+    #[tokio::test]
+    async fn canary_rules() {
+        use super::{HandlerOutcome, ScrapedPrice};
+        use schrott_mcp_store::{InternalDb, NewMaterial, NewTrader, PublicDb};
+        async fn pronto() -> HandlerOutcome {
+            HandlerOutcome {
+                prices: (0..10)
+                    .map(|i| ScrapedPrice {
+                        material: "kupfer-millberry",
+                        variant: if i % 2 == 0 { "a" } else { "b" },
+                        price: 9.8,
+                        currency: "EUR",
+                        unit: "EUR/kg",
+                        price_kind: "exact",
+                        price_min: None,
+                        price_max: None,
+                        confidence: Some(1.0),
+                        label: format!("L{i}"),
+                        published_at: None,
+                        valid_from: None,
+                        valid_to: None,
+                    })
+                    .collect(),
+                skipped_labels: vec![],
+                fetch_url: "https://example.test/".to_owned(),
+                status_code: 200,
+                byte_len: 10,
+                published_at: None,
+            }
+        }
+        let dir = std::env::temp_dir().join(format!("schrott-canary-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        let public = PublicDb::open(&dir).expect("db");
+        let internal = InternalDb::open(&dir).expect("internal");
+        let now = chrono::Utc::now();
+        let now_s = now.to_rfc3339();
+        public
+            .upsert_trader(&NewTrader {
+                slug: "canary-test",
+                name: "Canary",
+                trader_type: "schrotthaendler",
+                description: "",
+                street: "",
+                postcode: "",
+                city: "T",
+                state: "BE",
+                country: "DE",
+                lat: None,
+                lon: None,
+                phone: "",
+                email: "",
+                website: "",
+                website_status: "unbekannt",
+                website_checked_at: "",
+                opening_hours: "",
+                dropoff_json: "{}",
+                pickup_json: "{}",
+                min_quantity_kg: None,
+                max_quantity_kg: None,
+                certifications: "[]",
+                status: "aktiv",
+                notes: "",
+                extra_json: "{}",
+                now: &now_s,
+            })
+            .expect("trader");
+        public
+            .upsert_material(&NewMaterial {
+                slug: "kupfer-millberry",
+                name_de: "Kupfer",
+                category: "nichteisen",
+                unit: "EUR/kg",
+                description: "",
+                updated_at: &now_s,
+            })
+            .expect("material");
+        // Baseline run: 10 recorded, then a good step with 10 items.
+        let (n, _, w) = super::record(&public, &internal, "canary-test", &pronto().await, &now).await.expect("run1");
+        assert_eq!((n, w.len()), (10, 0), "first run: no baseline yet");
+        let run = internal.create_run(&now_s).expect("run");
+        let step = internal.create_step(run, "canary-test", &now_s).expect("step");
+        internal.finish_step(step, "ok", 10, "10 Preise übernommen", &now_s).expect("close");
+        // Same volume again: quiet.
+        let (n, _, w) = super::record(&public, &internal, "canary-test", &pronto().await, &now).await.expect("run2");
+        assert_eq!((n, w.len()), (10, 0));
+        // Collapse to 2: drop canary.
+        let mut few = pronto().await;
+        few.prices.truncate(2);
+        let (_, _, w) = super::record(&public, &internal, "canary-test", &few, &now).await.expect("run3");
+        assert_eq!(w.len(), 1);
+        assert!(w[0].contains("Einbruch"), "{w:?}");
+        // One price explodes 10x: jump canary, data still recorded.
+        let mut jump = pronto().await;
+        jump.prices[0].price = 98.0;
+        let (n, _, w) = super::record(&public, &internal, "canary-test", &jump, &now).await.expect("run4");
+        assert_eq!(n, 10);
+        assert!(w.iter().any(|c| c.contains("Preissprung")), "{w:?}");
     }
 }
