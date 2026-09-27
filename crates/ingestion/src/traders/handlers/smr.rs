@@ -13,7 +13,7 @@ use super::super::{
 };
 use crate::IngestError;
 
-pub const SLUG: &str = "bb-furstenwalde-spree-smr";
+pub const SLUG: &str = "bb-lubben-neuendorf-smr";
 /// Bespoke, live-verified impressum URL. A move fails the step
 /// loudly (fix the URL) — never guessed, never shared.
 pub const IMPRESSUM_URL: &str = "https://smr-luebben.de/impressum/";

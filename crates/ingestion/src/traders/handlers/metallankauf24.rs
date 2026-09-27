@@ -1,6 +1,9 @@
 //! Metallankauf24 (Marxen): online portal with a "bis zu" category
-//! overview on the homepage ("Aktuelle Schrottpreise"). Multi-material
-//! categories without a clear primary grade (Zink/Blei, Edelstahl/Nickel,
+//! overview on the homepage ("Aktuelle Schrottpreise"). NOTE (reviewed
+//! 27.09.2026): `/online-verkaufen` shows the same category prices from
+//! the same backend — fetching it too would double-record every row in
+//! the append-only history, so the homepage stays the single source.
+//! Multi-material categories without a clear primary grade (Zink/Blei, Edelstahl/Nickel,
 //! VHM/HSS/Wolfram) and priceless rows are skipped loudly; the rest maps
 //! to representative materials at confidence 0.5. Morning + afternoon
 //! schedule: the portal reprices during the day.
