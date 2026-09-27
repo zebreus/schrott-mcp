@@ -5681,29 +5681,6 @@
   }
  },
  {
-  "slug": "sn-postankauf-goldankauf-borse-leipzig",
-  "name": "Goldankauf Börse Leipzig",
-  "trader_type": "sonstige",
-  "description": "",
-  "street": "",
-  "postcode": "",
-  "phone": "",
-  "city": "Postankauf",
-  "state": "SN",
-  "website": "https://www.goldankauf-boerse.de",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "aktiv",
-  "notes": "Edelmetalle/Zahngold — PREISLISTE → HANDLER-KANDIDAT (Filiale! mit TH-Erfurt abstimmen) | Adresse: Leipzig 04109, Brühl 65 + Postankauf",
-  "provenance": {
-   "seed_file": "sn",
-   "section": "Nachtrag Wide-Net (27.09.2026)",
-   "ankauf_raw": "ja",
-   "origin": "table"
-  }
- },
- {
   "slug": "sn-dresden-01129-antik-kunst-dresden-r-goralski",
   "name": "Antik & Kunst Dresden (R. Goralski)",
   "trader_type": "sonstige",

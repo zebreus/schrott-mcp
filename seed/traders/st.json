@@ -1302,7 +1302,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Recycling (lt. schrottplatz-info) | Wide-Net 27.09: Betrieb 01.01.2019 an ISR übergeben — Eintrag stale!",
+  "notes": "Recycling (lt. schrottplatz-info)",
   "provenance": {
    "seed_file": "st",
    "section": "Harz / Nordharz (Halberstadt, Wernigerode, Quedlinburg, Blankenburg, Thale)",
@@ -1877,7 +1877,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Recycling (lt. 11880) | Wide-Net 27.09: Sitz Äußere Radeweller Str. 5, 06132 Halle = MDL-Doppel! | Wide-Net 27.09: Sitz Äußere Radeweller Str. 5, 06132 Halle = MDL-Doppel!",
+  "notes": "Recycling (lt. 11880)",
   "provenance": {
    "seed_file": "st",
    "section": "Nachtrag Audit-Runde 3 (Stand: 2026-09-27)",

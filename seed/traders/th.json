@@ -796,7 +796,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schrottrecycling | Wide-Net 27.09: Zweitstandort 07381 Pößneck",
+  "notes": "Schrottrecycling",
   "provenance": {
    "seed_file": "th",
    "section": "Schrottankauf Thüringen (TH) — Recherche",
@@ -1085,7 +1085,7 @@
   "name": "Petri Tobias Containerdienst & Recycling",
   "trader_type": "containerdienst",
   "description": "",
-  "street": "An der Lehmkuhle 11",
+  "street": "",
   "postcode": "",
   "phone": "",
   "city": "Küllstedt",
@@ -1095,7 +1095,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Container, Recycling | Wide-Net 27.09: Adresse + eichsfeld-recycling.de (CF)",
+  "notes": "Container, Recycling",
   "provenance": {
    "seed_file": "th",
    "section": "Schrottankauf Thüringen (TH) — Recherche",

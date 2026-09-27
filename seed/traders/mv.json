@@ -750,7 +750,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schrotthandel (lt. schrottplatz-info.de) | Wide-Net 27.09: Das Örtliche listet Quilow 1a statt Gützkow — prüfen",
+  "notes": "Schrotthandel (lt. schrottplatz-info.de)",
   "provenance": {
    "seed_file": "mv",
    "section": "Betriebe (Tabelle)",
@@ -888,7 +888,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "aktiv",
-  "notes": "Schrott, Container, Abholung | Wide-Net 27.09: gleiche Adresse wie ASS (Fünfeichener Weg 3) — Co-Location prüfen",
+  "notes": "Schrott, Container, Abholung",
   "provenance": {
    "seed_file": "mv",
    "section": "Betriebe (Tabelle)",
@@ -980,7 +980,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Rohstoffhandel (lt. schrottplatz-info.de) | Wide-Net 27.09: Domain leitet auf REMONDIS um — übernommen/tot? prüfen!",
+  "notes": "Rohstoffhandel (lt. schrottplatz-info.de)",
   "provenance": {
    "seed_file": "mv",
    "section": "Betriebe (Tabelle)",
@@ -1118,7 +1118,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Containerdienst (lt. schrottplatz-info.de-Umkreis) | Wide-Net 27.09: Register-Vollname Schrotthandel & Containerdienst, Am Hafen 10a",
+  "notes": "Containerdienst (lt. schrottplatz-info.de-Umkreis)",
   "provenance": {
    "seed_file": "mv",
    "section": "Betriebe (Tabelle)",
@@ -3303,7 +3303,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schrott/Container — Register-Vollname; Seed \"Martins Heiko Containerdienst\" ohne Adresse = mögl. derselbe → Dedupe/Adress-Upgrade | urspr. Website-Angabe: keine | Adresse: Lübz 19386, Am Hafen 10a | Wide-Net 27.09: Register-Vollname Schrotthandel & Containerdienst, Am Hafen 10a",
+  "notes": "Schrott/Container — Register-Vollname; Seed \"Martins Heiko Containerdienst\" ohne Adresse = mögl. derselbe → Dedupe/Adress-Upgrade | urspr. Website-Angabe: keine | Adresse: Lübz 19386, Am Hafen 10a",
   "provenance": {
    "seed_file": "mv",
    "section": "Nachtrag Wide-Net (27.09.2026)",

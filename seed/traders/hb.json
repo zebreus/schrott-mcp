@@ -221,7 +221,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Rohstoffbetrieb (gleiche Adresse wie Kiesche & Gläbe) | Adresse: Hemelingen, Arberger Hafendamm 20 | Wide-Net 27.09: wlw An-/Verkauf seit 60 Jahren",
+  "notes": "Rohstoffbetrieb (gleiche Adresse wie Kiesche & Gläbe) | Adresse: Hemelingen, Arberger Hafendamm 20",
   "provenance": {
    "seed_file": "hb",
    "section": "Bremen (Stadt)",
@@ -750,7 +750,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schrott, Metalle, Entsorgung, Containerdienst, Großhandel | Adresse: Geestemünde, Weißenstein 2 | Wide-Net 27.09: BEG-Tochter (beg-logistics.de), NEU Woltmershauser Str. 174",
+  "notes": "Schrott, Metalle, Entsorgung, Containerdienst, Großhandel | Adresse: Geestemünde, Weißenstein 2",
   "provenance": {
    "seed_file": "hb",
    "section": "Bremerhaven",
@@ -841,8 +841,8 @@
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
-  "status": "aktiv",
-  "notes": "Rohstoffhandel, Container, Transport/Logistik | Adresse: Fischereihafen, Dorschstr. 17 | Wide-Net 27.09: faire Vergütung Tagespreise bestätigt",
+  "status": "pruefung",
+  "notes": "Rohstoffhandel, Container, Transport/Logistik | Adresse: Fischereihafen, Dorschstr. 17",
   "provenance": {
    "seed_file": "hb",
    "section": "Bremerhaven",
@@ -911,7 +911,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "unbekannt",
-  "notes": "als Schrotthändler gelistet, Beschreibung: Containerdienste/Bürgersteigreinigung — vermutlich kein Ankauf | Adresse: Fischereihafen, Am Luneort 46 | Wide-Net 27.09: Bürgersteigreinigung, KEIN Ankauf — Eintrag fraglich!",
+  "notes": "als Schrotthändler gelistet, Beschreibung: Containerdienste/Bürgersteigreinigung — vermutlich kein Ankauf | Adresse: Fischereihafen, Am Luneort 46",
   "provenance": {
    "seed_file": "hb",
    "section": "Bremerhaven",

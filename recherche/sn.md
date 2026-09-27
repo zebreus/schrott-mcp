@@ -558,7 +558,13 @@ nicht im Seed: schrott-winter.de (Lengenfeld), schrotthandel-kamenz.de (Spam-Red
 | Computer-A-und-V Dresden | Dresden 01237, Breitscheidstr. 38 | https://www.computer-a-und-v.de | E-Schrott/PC — Refurbish-Ankäufer seit 1998 (NEU) | unklar |
 | PhoneBros / A&V Handy GbR | Leipzig 04357 + 04109 | https://handyankaufleipzig.de | Handy/Laptop — 2 Filialen + Kleinanzeigen-PROFIL (NEU) | unklar |
 | Goldhaus Leipzig | Leipzig 04109, Goethestr. 1 | https://goldhaus-leipzig.com | Edelmetalle/Zahngold — Schmelzware/Dentalgold (NEU) | unklar |
-| Goldankauf Börse Leipzig | Leipzig 04109, Brühl 65 + Postankauf | https://www.goldankauf-boerse.de | Edelmetalle/Zahngold — PREISLISTE → HANDLER-KANDIDAT (Filiale! mit TH-Erfurt abstimmen) | ja |
+| Goldankauf Börse Leipzig | Leipzig 04109, Brühl 65 | https://www.goldankauf-boerse.de | Edelmetalle/Zahngold — PREISLISTE → HANDLER-KANDIDAT (Filiale! mit TH-Erfurt abstimmen) | ja |
 | Antik & Kunst Dresden (R. Goralski) | Dresden 01129, Großenhainer Str. 183 | https://www.antik-kunst-dresden.de | Edelmetalle — Antiquitäten-Tarnung, Barankauf (NEU) | ja |
 | Girod GmbH / Goldankauf Dresden | Dresden 01309, Borsbergstr. 19b | https://goldankauf-dresden.com | Edelmetalle/Dentalgold — eigene Scheideanstalt, bis 130 €/g Au (NEU) | unklar |
 | Sven Asmuss Haushaltsauflösung | Werdau 08412, August-Bebel-Str. 60 | https://haushaltsaufloesung-werdau.de | Entrümpelung/Ankauf — Ladengeschäft mit Ankauf-Liste (NEU) | unklar |
+
+## Nachtrag Wide-Net Börse-Leipzig (27.09.2026)
+
+| Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| Goldankauf Börse Leipzig | Leipzig 04109, Brühl 65 | https://www.goldankauf-boerse.de | Edelmetalle/Zahngold, Tageskurse + Ankaufsrechner | ja (PREISLISTE: https://www.goldankauf-boerse.de/ — gleiche Kurstabelle wie Erfurt-Filiale, Filial-Handler-Fall) |
