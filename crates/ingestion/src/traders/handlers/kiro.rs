@@ -488,7 +488,10 @@ mod tests {
                 "EUR/kg"
             )
         );
-        let kuehler: Vec<_> = rows.iter().filter(|r| r.0.to_lowercase().contains("kühler")).collect();
+        let kuehler: Vec<_> = rows
+            .iter()
+            .filter(|r| r.0.to_lowercase().contains("kühler"))
+            .collect();
         assert_eq!(kuehler.len(), 2, "cooler rows parse (mapping skips them)");
         // Zinnschrott without price skips loudly; prose blob is no label.
         assert_eq!(skips.len(), 1, "{skips:?}");

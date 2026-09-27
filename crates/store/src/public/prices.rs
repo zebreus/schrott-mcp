@@ -270,7 +270,13 @@ impl PublicDb {
                  VALUES (?1, ?2, ?3, ?4, ?5)
                  ON CONFLICT(trader_id, material_id, variant) DO UPDATE SET
                   price_id = excluded.price_id, updated_at = excluded.updated_at",
-                params![p.trader_id, p.material_id, p.variant, price_id, p.ingested_at],
+                params![
+                    p.trader_id,
+                    p.material_id,
+                    p.variant,
+                    price_id,
+                    p.ingested_at
+                ],
             )?;
         }
         Ok(price_id)
@@ -316,7 +322,10 @@ impl PublicDb {
              ORDER BY observed_at DESC, id DESC LIMIT ?4",
         )?;
         let rows = stmt
-            .query_map(params![trader_id, material_id, variant, limit], row_to_price)?
+            .query_map(
+                params![trader_id, material_id, variant, limit],
+                row_to_price,
+            )?
             .collect::<Result<Vec<_>, _>>()?;
         Ok(rows)
     }
@@ -488,13 +497,31 @@ mod tests {
     #[test]
     fn current_moves_forward_only() {
         let (db, trader, material) = setup();
-        db.record_price(&price(trader, material, 7.10, "2026-09-20T00:00:00Z", "2026-09-20T00:00:00Z"))
-            .expect("first");
-        db.record_price(&price(trader, material, 7.25, "2026-09-27T00:00:00Z", "2026-09-27T00:00:00Z"))
-            .expect("second");
+        db.record_price(&price(
+            trader,
+            material,
+            7.10,
+            "2026-09-20T00:00:00Z",
+            "2026-09-20T00:00:00Z",
+        ))
+        .expect("first");
+        db.record_price(&price(
+            trader,
+            material,
+            7.25,
+            "2026-09-27T00:00:00Z",
+            "2026-09-27T00:00:00Z",
+        ))
+        .expect("second");
         // Late-arriving backfill must not clobber the newer observation.
-        db.record_price(&price(trader, material, 6.90, "2026-09-10T00:00:00Z", "2026-09-28T00:00:00Z"))
-            .expect("backfill");
+        db.record_price(&price(
+            trader,
+            material,
+            6.90,
+            "2026-09-10T00:00:00Z",
+            "2026-09-28T00:00:00Z",
+        ))
+        .expect("backfill");
         let cur = db
             .current_price_for(trader, material, "")
             .expect("current")
@@ -519,7 +546,13 @@ mod tests {
             published: false,
             valid_from: Some("2026-09-01T00:00:00Z"),
             valid_to: Some("2026-10-01T00:00:00Z"),
-            ..price(trader, material, 7.10, "2026-09-27T00:00:00Z", "2026-09-27T00:00:00Z")
+            ..price(
+                trader,
+                material,
+                7.10,
+                "2026-09-27T00:00:00Z",
+                "2026-09-27T00:00:00Z",
+            )
         })
         .expect("uncertain price");
         let cur = db
@@ -549,7 +582,13 @@ mod tests {
             db.record_price(&NewPrice {
                 variant,
                 price_kind: "exact",
-                ..price(trader, material, eur, "2026-09-27T00:00:00Z", "2026-09-27T00:00:00Z")
+                ..price(
+                    trader,
+                    material,
+                    eur,
+                    "2026-09-27T00:00:00Z",
+                    "2026-09-27T00:00:00Z",
+                )
             })
             .expect("grade records");
         }
@@ -564,9 +603,7 @@ mod tests {
         assert_eq!(big.price, 5.20);
         assert_eq!(small.price, 4.10);
         // The view carries both grades side by side.
-        let view = db.test_query(
-            "SELECT variant, price FROM v_current_prices ORDER BY price DESC",
-        );
+        let view = db.test_query("SELECT variant, price FROM v_current_prices ORDER BY price DESC");
         assert_eq!(view.len(), 2);
     }
 
@@ -590,7 +627,12 @@ mod tests {
             .expect("old shape");
         }
         let db = PublicDb::open(&dir).expect("open migrates");
-        let n: i64 = db.conn.lock().unwrap().query_row("SELECT COUNT(*) FROM current_prices", [], |r| r.get(0)).unwrap();
+        let n: i64 = db
+            .conn
+            .lock()
+            .unwrap()
+            .query_row("SELECT COUNT(*) FROM current_prices", [], |r| r.get(0))
+            .unwrap();
         assert_eq!(n, 1, "pointer survived");
     }
 

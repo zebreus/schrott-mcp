@@ -35,7 +35,12 @@ const SLIDE_HEAD_MARKER: &str = "elementor-slide-heading\">";
 const SLIDE_DESC_MARKER: &str = "elementor-slide-description\">";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -57,12 +62,15 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                     confidence: Some(1.0),
                     label,
                 }),
-                None => skipped_labels.push(format!(
-                    "{label} (Staffel unbekannt: {})",
-                    tier_str(tier)
-                )),
+                None => {
+                    skipped_labels.push(format!("{label} (Staffel unbekannt: {})", tier_str(tier)))
+                }
             },
-            None => skipped_labels.push(format!("{label} [{}] ({})", tier_str(tier), skip_note(&label))),
+            None => skipped_labels.push(format!(
+                "{label} [{}] ({})",
+                tier_str(tier),
+                skip_note(&label)
+            )),
         }
     }
     // Impressum failure fails the whole step on purpose: a moved contact
@@ -339,14 +347,19 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let p = Selector::parse("p").expect("valid selector");
     let div = Selector::parse("div").expect("valid selector");
     let a = Selector::parse("a[href^=\"mailto:\"]").expect("valid selector");
-    if !doc.select(&h1).any(|h| h.text().collect::<String>().trim() == "Impressum") {
+    if !doc
+        .select(&h1)
+        .any(|h| h.text().collect::<String>().trim() == "Impressum")
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Impressum-Block fehlt".to_owned(),
         });
     }
     let addr_p = doc.select(&p).find(|el| {
-        el.text().collect::<String>().contains("Altmetallhandel OHG")
+        el.text()
+            .collect::<String>()
+            .contains("Altmetallhandel OHG")
     });
     let Some(addr_p) = addr_p else {
         return Err(IngestError::Parse {
@@ -389,7 +402,8 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         let t: String = el.text().collect();
         let t = t.split_whitespace().collect::<Vec<_>>().join(" ");
         if !t.is_empty()
-            && t.chars().all(|c| c.is_ascii_digit() || " +/().-".contains(c))
+            && t.chars()
+                .all(|c| c.is_ascii_digit() || " +/().-".contains(c))
             && t.chars().filter(|c| c.is_ascii_digit()).count() >= 7
         {
             phone = t;
@@ -408,14 +422,24 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         .unwrap_or_default();
     // Scraper glues the mailto anchor text without separator; the href is
     // authoritative — but only the trader's own domain counts.
-    let email = if email.contains("neu-wert.de") { email } else { String::new() };
+    let email = if email.contains("neu-wert.de") {
+        email
+    } else {
+        String::new()
+    };
     if street.is_empty() && phone.is_empty() && email.is_empty() {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (html5ever already decoded
@@ -440,9 +464,7 @@ fn strip_fragment(s: &str) -> String {
     out.split_whitespace().collect::<Vec<_>>().join(" ")
 }
 
-fn parse(
-    html: &str,
-) -> Result<(Vec<(String, Tier, f64, &'static str)>, Vec<String>), IngestError> {
+fn parse(html: &str) -> Result<(Vec<(String, Tier, f64, &'static str)>, Vec<String>), IngestError> {
     let start = html.find(START_ANCHOR).ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
         detail: "Preisliste fehlt".to_owned(),
@@ -473,7 +495,11 @@ fn parse(
         let s = j + p + TIER_MARKER.len();
         if let Some(e) = window[s..].find("</span>") {
             let raw = window[s..s + e].replace("<b>", " ").replace("</b>", " ");
-            events.push((s, false, raw.split_whitespace().collect::<Vec<_>>().join(" ")));
+            events.push((
+                s,
+                false,
+                raw.split_whitespace().collect::<Vec<_>>().join(" "),
+            ));
             j = s + e;
         } else {
             break;
@@ -502,7 +528,9 @@ fn parse(
     let mut slide_rows = 0;
     while let Some(h) = window[k..].find(SLIDE_HEAD_MARKER) {
         let hs = k + h + SLIDE_HEAD_MARKER.len();
-        let Some(he) = window[hs..].find("</div>") else { break };
+        let Some(he) = window[hs..].find("</div>") else {
+            break;
+        };
         let head = window[hs..hs + he].trim().to_owned();
         k = hs + he;
         let Some(d) = window[k..].find(SLIDE_DESC_MARKER) else {
@@ -521,7 +549,10 @@ fn parse(
         while let Some(li) = desc[pos..].find("<li>") {
             let ls = pos + li + 4;
             if let Some(le) = desc[ls..].find("</li>") {
-                let text = desc[ls..ls + le].split_whitespace().collect::<Vec<_>>().join(" ");
+                let text = desc[ls..ls + le]
+                    .split_whitespace()
+                    .collect::<Vec<_>>()
+                    .join(" ");
                 if text.starts_with("ab ") {
                     match split_tier(&text) {
                         Some((tier, price)) => {
@@ -543,7 +574,10 @@ fn parse(
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preispaare".to_owned(),
+        });
     }
     if slide_rows == 0 {
         return Err(IngestError::Parse {
@@ -605,8 +639,14 @@ mod tests {
         let (rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(rows.len(), 12);
         assert!(skips.is_empty());
-        assert_eq!(rows[0], ("Kupfer Millberry".to_owned(), Tier::T1000, 11.4, "EUR/kg"));
-        assert_eq!(rows[3], ("Bremsscheiben".to_owned(), Tier::T1000, 0.23, "EUR/kg"));
+        assert_eq!(
+            rows[0],
+            ("Kupfer Millberry".to_owned(), Tier::T1000, 11.4, "EUR/kg")
+        );
+        assert_eq!(
+            rows[3],
+            ("Bremsscheiben".to_owned(), Tier::T1000, 0.23, "EUR/kg")
+        );
         assert_eq!(rows[4].1, Tier::T500);
         assert_eq!(rows[6].0, "Erdkabel mit Stahl");
         assert_eq!(rows[9].0, "V4A-Edelstahl");
@@ -624,7 +664,11 @@ mod tests {
             .replace("<div class=\"elementor-slide-heading\">V4A-Edelstahl</div><div class=\"elementor-slide-description\"><l> \n<li> ab 1000 kg: 1,60 € </li>\n<li> ab 100 kg: 1,40 € </li>\n<li> ab 1 kg: 1,20 € </li>\n</l></div>", "");
         assert!(parse(&no_slides).is_err(), "missing slides error");
         // Foreign tier unit never defaults to kg.
-        let bad_unit = FIXTURE.replacen("ab 1000 kg: <b>11,40 €</b>", "ab Palette: <b>11,40 €</b>", 1);
+        let bad_unit = FIXTURE.replacen(
+            "ab 1000 kg: <b>11,40 €</b>",
+            "ab Palette: <b>11,40 €</b>",
+            1,
+        );
         let (rows, skips) = parse(&bad_unit).expect("parses");
         assert_eq!(rows.len(), 11);
         assert_eq!(skips.len(), 1);
@@ -661,31 +705,79 @@ mod tests {
 
     #[test]
     fn mapping_orders_specific_first_and_skips_loudly() {
-        assert_eq!(grade_for("Kupfer Millberry"), Some(("kupfer-millberry", "Millberry")));
+        assert_eq!(
+            grade_for("Kupfer Millberry"),
+            Some(("kupfer-millberry", "Millberry"))
+        );
         assert_eq!(grade_for("Kupfer Kerze"), Some(("kupfer-berry", "Kerze")));
         assert_eq!(grade_for("Kupfer Berry"), Some(("kupfer-berry", "Berry")));
-        assert_eq!(grade_for("Kupfer verzinnt"), Some(("kupfer-berry", "verzinnt")));
-        assert_eq!(grade_for("Kupfer Candy"), Some(("kupfer-gemischt", "Candy")));
-        assert_eq!(grade_for("Kupfer schwer"), Some(("kupfer-gemischt", "schwer")));
+        assert_eq!(
+            grade_for("Kupfer verzinnt"),
+            Some(("kupfer-berry", "verzinnt"))
+        );
+        assert_eq!(
+            grade_for("Kupfer Candy"),
+            Some(("kupfer-gemischt", "Candy"))
+        );
+        assert_eq!(
+            grade_for("Kupfer schwer"),
+            Some(("kupfer-gemischt", "schwer"))
+        );
         assert_eq!(grade_for("Kupferkabel 75%"), Some(("kabel-kupfer", "75%")));
         assert_eq!(grade_for("Kupferkabel 38%"), Some(("kabel-kupfer", "38%")));
-        assert_eq!(grade_for("Litzenkabel 60% (flexibel)"), Some(("kabel-kupfer", "Litzen 60%")));
-        assert_eq!(grade_for("Kabel mit Stecker"), Some(("kabel-kupfer", "mit Stecker")));
+        assert_eq!(
+            grade_for("Litzenkabel 60% (flexibel)"),
+            Some(("kabel-kupfer", "Litzen 60%"))
+        );
+        assert_eq!(
+            grade_for("Kabel mit Stecker"),
+            Some(("kabel-kupfer", "mit Stecker"))
+        );
         assert_eq!(grade_for("Aluminium Kabel"), Some(("kabel-alu", "")));
-        assert_eq!(grade_for("Ms-58 Späne (sauber)"), Some(("messing", "Ms-58 Späne")));
+        assert_eq!(
+            grade_for("Ms-58 Späne (sauber)"),
+            Some(("messing", "Ms-58 Späne"))
+        );
         assert_eq!(grade_for("Ms-58"), Some(("messing", "Ms-58")));
         assert_eq!(grade_for("Messing Hülsen"), Some(("messing", "Hülsen")));
         assert_eq!(grade_for("Rotguß"), Some(("bronze-rotguss", "")));
-        assert_eq!(grade_for("Aluminium Profile Farbe"), Some(("aluminium-profile", "Farbe")));
-        assert_eq!(grade_for("Aluminium Profile"), Some(("aluminium-profile", "")));
-        assert_eq!(grade_for("Aluminium Offset-Blech"), Some(("aluminium-blech", "Offset")));
-        assert_eq!(grade_for("Aluminium Felgen"), Some(("aluminium-guss", "Felgen")));
-        assert_eq!(grade_for("Aluminium Konstruktal"), Some(("aluminium-gemischt", "Konstruktal")));
-        assert_eq!(grade_for("Aluminium gemischt"), Some(("aluminium-gemischt", "")));
-        assert_eq!(grade_for("Bremsscheiben"), Some(("eisenschrott-gussbruch", "Bremsscheiben")));
+        assert_eq!(
+            grade_for("Aluminium Profile Farbe"),
+            Some(("aluminium-profile", "Farbe"))
+        );
+        assert_eq!(
+            grade_for("Aluminium Profile"),
+            Some(("aluminium-profile", ""))
+        );
+        assert_eq!(
+            grade_for("Aluminium Offset-Blech"),
+            Some(("aluminium-blech", "Offset"))
+        );
+        assert_eq!(
+            grade_for("Aluminium Felgen"),
+            Some(("aluminium-guss", "Felgen"))
+        );
+        assert_eq!(
+            grade_for("Aluminium Konstruktal"),
+            Some(("aluminium-gemischt", "Konstruktal"))
+        );
+        assert_eq!(
+            grade_for("Aluminium gemischt"),
+            Some(("aluminium-gemischt", ""))
+        );
+        assert_eq!(
+            grade_for("Bremsscheiben"),
+            Some(("eisenschrott-gussbruch", "Bremsscheiben"))
+        );
         assert_eq!(grade_for("Gußeisen"), Some(("eisenschrott-gussbruch", "")));
-        assert_eq!(grade_for("Mischschrott leicht"), Some(("mischschrott", "leicht")));
-        assert_eq!(grade_for("Schredderschrott"), Some(("stahlschrott-shredder", "")));
+        assert_eq!(
+            grade_for("Mischschrott leicht"),
+            Some(("mischschrott", "leicht"))
+        );
+        assert_eq!(
+            grade_for("Schredderschrott"),
+            Some(("stahlschrott-shredder", ""))
+        );
         assert_eq!(grade_for("Widia / VHM"), Some(("hartmetall", "")));
         assert_eq!(grade_for("Zinngeschirr"), Some(("zinn", "Geschirr")));
         assert_eq!(grade_for("V4A-Edelstahl"), Some(("edelstahl-v4a", "V4A")));

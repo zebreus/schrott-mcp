@@ -19,7 +19,12 @@ pub const IMPRESSUM_URL: &str = "https://kupferhelden.de/impressum/";
 pub const URL: &str = "https://kupferhelden.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -122,7 +127,12 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str, bool)>, Vec<Stri
                     unit_skips.push(format!("{label} (Einheit unverständlich: {t})"));
                     continue;
                 };
-                rows.push((label, parse_eur(&t).expect("checked"), "EUR/kg", is_upto(&t)));
+                rows.push((
+                    label,
+                    parse_eur(&t).expect("checked"),
+                    "EUR/kg",
+                    is_upto(&t),
+                ));
             }
         } else if is_junk(&t) {
             pending = None;
@@ -134,7 +144,10 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str, bool)>, Vec<Stri
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preispaare".to_owned(),
+        });
     }
     Ok((rows, unit_skips))
 }
@@ -163,12 +176,17 @@ fn grade_variant(label: &str) -> &'static str {
 
 fn is_junk(t: &str) -> bool {
     let l = t.to_lowercase();
-    ["willkommen", "kontakt", "impressum", "datenschutz", "tagespreise"]
-        .iter()
-        .any(|j| l.contains(j))
+    [
+        "willkommen",
+        "kontakt",
+        "impressum",
+        "datenschutz",
+        "tagespreise",
+    ]
+    .iter()
+    .any(|j| l.contains(j))
         || l.len() > 120
 }
-
 
 /// Bespoke contact extraction for THIS impressum only: the address `<p>`
 /// (firm lines + street + PLZ city) and the `<p>` after the "Kontakt"
@@ -237,7 +255,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "Kontakt-Block fehlt".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a fragment (html5ever already decoded entities).

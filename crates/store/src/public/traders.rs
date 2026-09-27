@@ -139,10 +139,11 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
     // PRAGMA user_version merely marks the migration done. The flag
     // columns stay in old files as inert leftovers (DROP COLUMN on an
     // FTS5 content table corrupts the schema).
-    let version: i64 =
-        conn.query_row("SELECT COALESCE(MAX(user_version), 0) FROM pragma_user_version", [], |r| {
-            r.get(0)
-        })?;
+    let version: i64 = conn.query_row(
+        "SELECT COALESCE(MAX(user_version), 0) FROM pragma_user_version",
+        [],
+        |r| r.get(0),
+    )?;
     if version < 1 {
         conn.execute_batch("PRAGMA user_version = 1;")?;
     }
@@ -505,12 +506,25 @@ mod tests {
         let db = PublicDb::open(&dir).expect("test db opens");
         let now = "2026-09-27T00:00:00Z";
         let id = db
-            .upsert_trader(&trader("mueller-berlin", "Müller Schrott GmbH", "Berlin", now))
+            .upsert_trader(&trader(
+                "mueller-berlin",
+                "Müller Schrott GmbH",
+                "Berlin",
+                now,
+            ))
             .expect("insert");
-        assert_eq!(db.find_trader_id("mueller-berlin").expect("lookup"), Some(id));
+        assert_eq!(
+            db.find_trader_id("mueller-berlin").expect("lookup"),
+            Some(id)
+        );
         // Update keeps the id, refreshes the payload.
         let id2 = db
-            .upsert_trader(&trader("mueller-berlin", "Müller Schrott AG", "Berlin", now))
+            .upsert_trader(&trader(
+                "mueller-berlin",
+                "Müller Schrott AG",
+                "Berlin",
+                now,
+            ))
             .expect("update");
         assert_eq!(id, id2);
         let hits = db.search_traders("Müller*", 10).expect("fts");

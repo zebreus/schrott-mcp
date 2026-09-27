@@ -30,7 +30,12 @@ const CARD_HEAD_MARKER: &str = "fr-feature-card-charlie__heading\">";
 const CARD_LEDE_MARKER: &str = "fr-feature-card-charlie__lede\">";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -116,15 +121,18 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "Pflichtangaben-Block fehlt".to_owned(),
         });
     }
-    if !doc.select(&h2).any(|h| h.text().collect::<String>().trim() == "Impressum") {
+    if !doc
+        .select(&h2)
+        .any(|h| h.text().collect::<String>().trim() == "Impressum")
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Impressum-Block fehlt".to_owned(),
         });
     }
-    let addr_p = doc.select(&p).find(|el| {
-        el.inner_html().contains("Billwerder Steindamm")
-    });
+    let addr_p = doc
+        .select(&p)
+        .find(|el| el.inner_html().contains("Billwerder Steindamm"));
     let Some(addr_p) = addr_p else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -171,14 +179,24 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         .and_then(|h| h.strip_prefix("mailto:"))
         .map(|s| s.to_owned())
         .unwrap_or_default();
-    let email = if email.contains("madi-schrott.de") { email } else { String::new() };
+    let email = if email.contains("madi-schrott.de") {
+        email
+    } else {
+        String::new()
+    };
     if street.is_empty() && phone.is_empty() && email.is_empty() {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (html5ever already decoded
@@ -224,7 +242,10 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         url: URL.to_owned(),
         detail: "Preis-Satz fehlt".to_owned(),
     })?;
-    let lstart = window[..lede].rfind("<strong>").map(|i| i + 8).unwrap_or(lede);
+    let lstart = window[..lede]
+        .rfind("<strong>")
+        .map(|i| i + 8)
+        .unwrap_or(lede);
     let send = window[lede..]
         .find("</strong>")
         .map(|e| lede + e)
@@ -240,7 +261,9 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             .split(" bis zu")
             .next()
             .unwrap_or("")
-            .split(',').next().unwrap_or("")
+            .split(',')
+            .next()
+            .unwrap_or("")
             .trim()
             .to_owned();
         let Some(price) = parse_eur(&chunk) else {
@@ -263,8 +286,13 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
     let mut cards = 0;
     while let Some(h) = window[k..].find(CARD_HEAD_MARKER) {
         let hs = k + h + CARD_HEAD_MARKER.len();
-        let Some(he) = window[hs..].find("</h3>") else { break };
-        let price_text = window[hs..hs + he].split_whitespace().collect::<Vec<_>>().join(" ");
+        let Some(he) = window[hs..].find("</h3>") else {
+            break;
+        };
+        let price_text = window[hs..hs + he]
+            .split_whitespace()
+            .collect::<Vec<_>>()
+            .join(" ");
         k = hs + he;
         let Some(d) = window[k..].find(CARD_LEDE_MARKER) else {
             skips.push(format!("{price_text} (Sorte fehlt)"));
@@ -303,10 +331,16 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         rows.push((label, price, unit));
     }
     if cards == 0 {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preiskarten".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preiskarten".to_owned(),
+        });
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preispaare".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -318,7 +352,10 @@ fn unit_of(text: &str) -> Option<&'static str> {
     let lower = text.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|w| w == "t" || w == "to")
+    {
         Some("EUR/t")
     } else {
         None
@@ -402,9 +439,18 @@ mod tests {
         assert_eq!(grade_for("Kupferschrott"), Some(("kupfer-gemischt", "")));
         assert_eq!(grade_for("Kabelschrott"), Some(("kabel-kupfer", "")));
         assert_eq!(grade_for("Messingschrott"), Some(("messing", "")));
-        assert_eq!(grade_for("Eisenschrott"), Some(("mischschrott", "Eisenschrott")));
-        assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "Mischschrott")));
-        assert_eq!(grade_for("Stahlschrott"), Some(("mischschrott", "Stahlschrott")));
+        assert_eq!(
+            grade_for("Eisenschrott"),
+            Some(("mischschrott", "Eisenschrott"))
+        );
+        assert_eq!(
+            grade_for("Mischschrott"),
+            Some(("mischschrott", "Mischschrott"))
+        );
+        assert_eq!(
+            grade_for("Stahlschrott"),
+            Some(("mischschrott", "Stahlschrott"))
+        );
         assert_eq!(grade_for("Aluminiumschrott"), None);
     }
 }

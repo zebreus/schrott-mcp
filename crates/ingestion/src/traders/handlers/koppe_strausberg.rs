@@ -276,13 +276,19 @@ fn strip_fragment(s: &str) -> String {
 /// characters (glued neighbours defeat token splitting). Cut at the
 /// domain end so trailing prose ("…deRegistereintrag") never sticks.
 fn email_token(r: &str) -> String {
-    let Some(at) = r.find('@') else { return String::new() };
+    let Some(at) = r.find('@') else {
+        return String::new();
+    };
     let b = r.as_bytes();
     let is_email = |c: u8| c.is_ascii_alphanumeric() || b".-_+@".contains(&c);
     let mut s = at;
-    while s > 0 && is_email(b[s - 1]) { s -= 1; }
+    while s > 0 && is_email(b[s - 1]) {
+        s -= 1;
+    }
     let mut e = at + 1;
-    while e < b.len() && is_email(b[e]) { e += 1; }
+    while e < b.len() && is_email(b[e]) {
+        e += 1;
+    }
     let cand = &r[s..e];
     for suffix in [".de", ".com", ".net", ".org", ".eu", ".info", ".biz"] {
         if let Some(p) = cand.rfind(suffix) {

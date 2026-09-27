@@ -32,7 +32,12 @@ pub const IMPRESSUM_URL: &str = "https://schieferco.de/impressum";
 pub const URL: &str = "https://schieferco.de/aktuelle-preise";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -99,16 +104,27 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 /// unit/date line. Returns (published_at, rows, unit_skips).
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("id=\"kursen\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Notierungs-Ticker fehlt".to_owned(),
-    })?;
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
+    let start = html
+        .find("id=\"kursen\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Notierungs-Ticker fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("id=\"unverbindlich\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Notierungs-Ticker unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("id=\"unverbindlich\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Notierungs-Ticker unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     // The unit anchor must read €/g: a per-kilo quote recorded as
     // per-gram would be a 1000x error, and silver's table column is €/kg.
@@ -145,13 +161,19 @@ fn parse(
         // Re-check the unit per quote: anything but €/g skips loudly at
         // the call site instead of silently defaulting.
         if unit_of(&quote).is_some_and(|u| u != unit) {
-            unit_skips.push(format!("{symbol} (Einheit unverständlich: {})", quote.trim()));
+            unit_skips.push(format!(
+                "{symbol} (Einheit unverständlich: {})",
+                quote.trim()
+            ));
             continue;
         }
         rows.push((symbol, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Notierungen leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Notierungen leer".to_owned(),
+        });
     }
     let published_at = find_date(window);
     Ok((published_at, rows, unit_skips))
@@ -262,7 +284,11 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
                 let digits: String = t.chars().filter(|c| c.is_ascii_digit()).collect();
                 if digits.len() == 5 && toks.len() > k + 1 {
                     postcode = digits;
-                    city = toks[k + 1..].join(" ").trim_matches([',', '|']).trim().to_owned();
+                    city = toks[k + 1..]
+                        .join(" ")
+                        .trim_matches([',', '|'])
+                        .trim()
+                        .to_owned();
                     break;
                 }
             }
@@ -283,7 +309,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag

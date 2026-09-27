@@ -26,7 +26,12 @@ pub const URL: &str = "https://shop.bruno-welz.de/edelmetall-ankauf/";
 pub const PRICES_URL: &str = "https://shop.bruno-welz.de/ankaufpreise/import";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -58,7 +63,9 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 confidence: Some(1.0),
                 label,
             }),
-            None => skipped_labels.push(format!("{label} ({price:.2} {unit}, kein Katalogmaterial")),
+            None => {
+                skipped_labels.push(format!("{label} ({price:.2} {unit}, kein Katalogmaterial"))
+            }
         }
     }
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
@@ -102,7 +109,10 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 
 /// First fineness run in the label ("999er Gold" → "999").
 fn fineness(l: &str) -> &'static str {
-    for fin in ["999", "986", "980", "965", "925", "916", "900", "875", "835", "800", "750", "625", "585", "375", "333"] {
+    for fin in [
+        "999", "986", "980", "965", "925", "916", "900", "875", "835", "800", "750", "625", "585",
+        "375", "333",
+    ] {
         if l.contains(fin) {
             return fin;
         }
@@ -113,7 +123,16 @@ fn fineness(l: &str) -> &'static str {
 /// Parse the import JSON: `date` becomes published_at, every other
 /// key/value pair with a positive number becomes a row. Non-numeric or
 /// non-positive entries skip loudly; 0 rows → Err.
-fn parse(json: &str) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+fn parse(
+    json: &str,
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     let v: serde_json::Value = serde_json::from_str(json).map_err(|_| IngestError::Parse {
         url: PRICES_URL.to_owned(),
         detail: "Preisantwort kein JSON".to_owned(),
@@ -122,13 +141,10 @@ fn parse(json: &str) -> Result<(Option<String>, Vec<(String, f64, &'static str)>
         url: PRICES_URL.to_owned(),
         detail: "Preisantwort kein Objekt".to_owned(),
     })?;
-    let published_at = obj
-        .get("date")
-        .and_then(|d| d.as_str())
-        .and_then(|d| {
-            let mut p = d.split('.');
-            parse_de_date(p.next()?, p.next()?, p.next()?)
-        });
+    let published_at = obj.get("date").and_then(|d| d.as_str()).and_then(|d| {
+        let mut p = d.split('.');
+        parse_de_date(p.next()?, p.next()?, p.next()?)
+    });
     let mut rows = Vec::new();
     let mut skips = Vec::new();
     for (k, val) in obj {
@@ -141,7 +157,10 @@ fn parse(json: &str) -> Result<(Option<String>, Vec<(String, f64, &'static str)>
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: PRICES_URL.to_owned(), detail: "Preisliste leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: PRICES_URL.to_owned(),
+            detail: "Preisliste leer".to_owned(),
+        });
     }
     Ok((published_at, rows, skips))
 }
@@ -177,7 +196,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
                 if postcode.is_empty() && pc.len() == 5 && pc.chars().all(|c| c.is_ascii_digit()) {
                     postcode = pc.to_owned();
-                    city = [ci.to_owned(), it.collect::<Vec<_>>().join(" ")].join(" ").trim().to_owned();
+                    city = [ci.to_owned(), it.collect::<Vec<_>>().join(" ")]
+                        .join(" ")
+                        .trim()
+                        .to_owned();
                     if k > 0 {
                         street = lines[k - 1].clone();
                     }
@@ -185,7 +207,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
                 }
             }
             if phone.is_empty() {
-                if let Some(v) = line.strip_prefix("Tel.:").or_else(|| line.strip_prefix("Telefon:")) {
+                if let Some(v) = line
+                    .strip_prefix("Tel.:")
+                    .or_else(|| line.strip_prefix("Telefon:"))
+                {
                     phone = v.trim().to_owned();
                 }
             }
@@ -202,7 +227,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (drop up to the first '>').

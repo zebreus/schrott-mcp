@@ -26,7 +26,12 @@ pub const IMPRESSUM_URL: &str = "https://katalysator-hai.de/impressum.html";
 pub const URL: &str = "https://katalysator-hai.de/preisliste-katalysatoren.html";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -91,16 +96,21 @@ fn converter_variant(marke: &str, merkmal: &str) -> &'static str {
 /// (published_at, rows, skips) with rows as (Marke, Merkmal, price, unit).
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, String, f64, &'static str)>, Vec<String>), IngestError> {
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     let doc = Html::parse_document(html);
     let table_sel = Selector::parse("table").expect("valid selector");
     let tr_sel = Selector::parse("tr").expect("valid selector");
     let cell_sel = Selector::parse("th, td").expect("valid selector");
     let table = doc
         .select(&table_sel)
-        .find(|t| {
-            t.text().collect::<String>().contains("Erkennungsmerkmal")
-        })
+        .find(|t| t.text().collect::<String>().contains("Erkennungsmerkmal"))
         .ok_or_else(|| IngestError::Parse {
             url: URL.to_owned(),
             detail: "Konvertertabelle fehlt".to_owned(),
@@ -124,19 +134,28 @@ fn parse(
             continue; // prosa, kein Konverter
         }
         let Some(price) = parse_eur(price_cell) else {
-            skips.push(format!("{marke} {merkmal} (Preis unverständlich: {})", price_cell.trim()));
+            skips.push(format!(
+                "{marke} {merkmal} (Preis unverständlich: {})",
+                price_cell.trim()
+            ));
             continue;
         };
         // An unparseable unit is a loud skip, never a silent default: a
         // per-kilo price recorded as per-piece would be orders off.
         let Some(unit) = unit_of(price_cell) else {
-            skips.push(format!("{marke} {merkmal} (Einheit unverständlich: {})", price_cell.trim()));
+            skips.push(format!(
+                "{marke} {merkmal} (Einheit unverständlich: {})",
+                price_cell.trim()
+            ));
             continue;
         };
         rows.push((marke.clone(), merkmal.clone(), price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Konvertertabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Konvertertabelle leer".to_owned(),
+        });
     }
     let published_at = find_date(html);
     Ok((published_at, rows, skips))
@@ -179,8 +198,13 @@ fn unit_of(cell: &str) -> Option<&'static str> {
 /// provenance).
 fn find_date(html: &str) -> Option<String> {
     let (_, after) = html.split_once("Stand")?;
-    let date = after.split_whitespace().find(|t| t.matches('.').count() == 2)?;
-    let parts: Vec<&str> = date.trim_matches(|c: char| !c.is_ascii_digit() && c != '.').split('.').collect();
+    let date = after
+        .split_whitespace()
+        .find(|t| t.matches('.').count() == 2)?;
+    let parts: Vec<&str> = date
+        .trim_matches(|c: char| !c.is_ascii_digit() && c != '.')
+        .split('.')
+        .collect();
     if parts.len() == 3 {
         parse_de_date(parts[0], parts[1], parts[2])
     } else {
@@ -253,7 +277,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -306,11 +336,33 @@ mod tests {
         assert_eq!(published_at.as_deref(), Some("2026-01-14T00:00:00+00:00"));
         assert_eq!(rows.len(), 3);
         assert!(skips.is_empty());
-        assert_eq!(rows[0], ("Audi".to_owned(), "8D0131701BS".to_owned(), 240.0, "EUR/Stk"));
-        assert_eq!(rows[1], ("Mercedes".to_owned(), "KT6029".to_owned(), 2000.0, "EUR/Stk"));
-        assert_eq!(rows[2], ("Ford".to_owned(), "001 9315B".to_owned(), 320.0, "EUR/Stk"));
+        assert_eq!(
+            rows[0],
+            (
+                "Audi".to_owned(),
+                "8D0131701BS".to_owned(),
+                240.0,
+                "EUR/Stk"
+            )
+        );
+        assert_eq!(
+            rows[1],
+            (
+                "Mercedes".to_owned(),
+                "KT6029".to_owned(),
+                2000.0,
+                "EUR/Stk"
+            )
+        );
+        assert_eq!(
+            rows[2],
+            ("Ford".to_owned(), "001 9315B".to_owned(), 320.0, "EUR/Stk")
+        );
         // Per-converter variants keep grades apart.
-        assert_eq!(super::converter_variant("Audi", "8D0131701BS"), "Audi 8D0131701BS");
+        assert_eq!(
+            super::converter_variant("Audi", "8D0131701BS"),
+            "Audi 8D0131701BS"
+        );
         assert_eq!(find_date("ohne Stand"), None);
         assert!(parse("<table><tr><td>Neu hier</td></tr></table>").is_err());
         assert!(parse("<p>Redesign ohne Tabelle</p>").is_err());
@@ -321,7 +373,11 @@ mod tests {
         assert_eq!(unit_of("240,00 EUR"), Some("EUR/Stk"));
         assert_eq!(unit_of("320,00 € pro Kat"), Some("EUR/Stk"));
         assert_eq!(unit_of("4,20 €/Stk"), Some("EUR/Stk"));
-        assert_eq!(unit_of("9,80 €/kg"), None, "kilo price must never become per-piece");
+        assert_eq!(
+            unit_of("9,80 €/kg"),
+            None,
+            "kilo price must never become per-piece"
+        );
         assert_eq!(unit_of("1,80 €/g"), None);
         assert_eq!(unit_of("100 € pro to"), None);
         assert_eq!(unit_of("Preis auf Anfrage"), None);
@@ -329,7 +385,11 @@ mod tests {
 
     #[test]
     fn every_row_is_a_catalyst() {
-        for label in ["Audi 8D0131701BS", "Mercedes KT6029", "Volvo 1275700 Holland"] {
+        for label in [
+            "Audi 8D0131701BS",
+            "Mercedes KT6029",
+            "Volvo 1275700 Holland",
+        ] {
             assert_eq!(grade_for(label), Some("katalysatoren"), "{label}");
         }
     }
@@ -348,4 +408,3 @@ mod tests {
         assert!(super::extract_info("<p>Neu hier</p>").is_err());
     }
 }
-

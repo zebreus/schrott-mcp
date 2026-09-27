@@ -25,7 +25,12 @@ pub const IMPRESSUM_URL: &str = "https://hansa-goldankauf.de/impressum/";
 pub const URL: &str = "https://hansa-goldankauf.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -119,16 +124,27 @@ fn fineness(l: &str) -> &'static str {
 /// line. Returns (published_at, rows, unit_skips).
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("gold-calculator__rows").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Goldrechner fehlt".to_owned(),
-    })?;
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
+    let start = html
+        .find("gold-calculator__rows")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Goldrechner fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("gold-calculator__update").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Goldrechner unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("gold-calculator__update")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Goldrechner unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
     let row_sel = Selector::parse("div.gold-calculator__row").expect("valid selector");
@@ -159,13 +175,19 @@ fn parse(
         // An unparseable unit is a loud skip, never a silent default: a
         // per-kilo price recorded as per-gram would be a 1000x error.
         let Some(unit) = unit_of(&price_text) else {
-            unit_skips.push(format!("{label} (Einheit unverständlich: {})", price_text.trim()));
+            unit_skips.push(format!(
+                "{label} (Einheit unverständlich: {})",
+                price_text.trim()
+            ));
             continue;
         };
         rows.push((label, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Goldrechner leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Goldrechner leer".to_owned(),
+        });
     }
     let published_at = find_date(&html[start..]);
     Ok((published_at, rows, unit_skips))
@@ -180,7 +202,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
         Some("EUR/g")
     } else if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|t| t == "t") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|t| t == "t")
+    {
         Some("EUR/t")
     } else {
         None
@@ -283,7 +308,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -337,7 +368,10 @@ mod tests {
         // The displayed quote wins, not the data-price attribute.
         assert_eq!(rows[0], ("999er Gold".to_owned(), 117.11, "EUR/g"));
         assert_eq!(rows[1], ("900er Gold".to_owned(), 102.24, "EUR/g"));
-        assert_eq!(rows[2], ("Zahngold Gelb gereinigt".to_owned(), 64.9, "EUR/g"));
+        assert_eq!(
+            rows[2],
+            ("Zahngold Gelb gereinigt".to_owned(), 64.9, "EUR/g")
+        );
         assert_eq!(unit_of("117,11 €/g"), Some("EUR/g"));
         assert_eq!(unit_of("pro Sack"), None);
         assert_eq!(find_date("ohne Datum"), None);
@@ -352,10 +386,7 @@ mod tests {
         assert_eq!(grade_for("585er Gold"), Some(("gold", "585")));
         assert_eq!(grade_for("333er Gold"), Some(("gold", "333")));
         // Dental alloy, never a gold alias.
-        assert_eq!(
-            grade_for("Zahngold Gelb gereinigt"),
-            Some(("zahngold", ""))
-        );
+        assert_eq!(grade_for("Zahngold Gelb gereinigt"), Some(("zahngold", "")));
         assert_eq!(
             grade_for("Silberschmuck und Silbermünzen"),
             Some(("silber", ""))

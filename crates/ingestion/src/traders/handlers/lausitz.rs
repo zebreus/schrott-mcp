@@ -19,7 +19,12 @@ pub const IMPRESSUM_URL: &str = "https://www.lausitz-recycling.de/impressum";
 pub const URL: &str = "https://www.lausitz-recycling.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -127,17 +132,25 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "Kontakt-Spans fehlen".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
     // Only the price area: everything between the price heading and the
     // company section. A stray "5 €" in the footer must never pair with
     // some random pending label into a phantom price.
-    let start = html.find("Unsere Preise").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisbereich fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Unsere Preise")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisbereich fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("Über uns").unwrap_or(tail.len());
     let html = &tail[..end];
@@ -195,9 +208,11 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
                 // Bare "€ X" inherits the page default; an explicit but
                 // unknown unit ("pro Sack") skips loudly instead.
                 let lower = t.to_lowercase();
-                let unit = unit.or(
-                    if t.contains('/') || lower.contains("pro") { None } else { Some(PAGE_UNIT) },
-                );
+                let unit = unit.or(if t.contains('/') || lower.contains("pro") {
+                    None
+                } else {
+                    Some(PAGE_UNIT)
+                });
                 let Some(unit) = unit else {
                     unit_skips.push(format!("{label} (Einheit unverständlich: {t})"));
                     continue;
@@ -214,7 +229,10 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preispaare".to_owned(),
+        });
     }
     Ok((rows, unit_skips))
 }
@@ -226,7 +244,10 @@ fn unit_of(t: &str) -> Option<&'static str> {
     let lower = t.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|w| w == "t" || w == "to")
+    {
         Some("EUR/t")
     } else {
         None
@@ -236,16 +257,28 @@ fn unit_of(t: &str) -> Option<&'static str> {
 /// Section headings and prose — never a material label.
 fn is_junk(t: &str) -> bool {
     let l = t.to_lowercase();
-    ["unsere preise", "gültig ab", "über uns", "leistungen", "kontakt", "impressum",
-     "datenschutz", "kein ankauf", "cookies", "anfrage", "rufen sie", "folgen sie"]
-        .iter()
-        .any(|j| l.contains(j))
+    [
+        "unsere preise",
+        "gültig ab",
+        "über uns",
+        "leistungen",
+        "kontakt",
+        "impressum",
+        "datenschutz",
+        "kein ankauf",
+        "cookies",
+        "anfrage",
+        "rufen sie",
+        "folgen sie",
+    ]
+    .iter()
+    .any(|j| l.contains(j))
         || l.len() > 120
 }
 
 #[cfg(test)]
 mod tests {
-    use super::{is_junk, grade_for, parse};
+    use super::{grade_for, is_junk, parse};
 
     const FIXTURE: &str = "<h2>Unsere Preise</h2>\
         <table><tr><td><strong>Cu - Millberry</strong></td></tr>\
@@ -280,7 +313,10 @@ mod tests {
         assert_eq!(rows[1].2, "EUR/t");
         assert_eq!(grade_for("Cu - Millberry"), Some(("kupfer-millberry", "")));
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
-        assert_eq!(grade_for("Cu – schwer"), Some(("kupfer-gemischt", "schwer")));
+        assert_eq!(
+            grade_for("Cu – schwer"),
+            Some(("kupfer-gemischt", "schwer"))
+        );
         assert_eq!(grade_for("Cu –Berry"), Some(("kupfer-gemischt", "schwer")));
         assert_eq!(grade_for("Cu-Raff."), Some(("kupfer-gemischt", "Raff")));
         assert_eq!(grade_for("Altpapier"), None);
@@ -303,7 +339,8 @@ mod tests {
     #[test]
     fn window_and_unit_safety() {
         // A stray euro amount outside the price area must not pair up.
-        let html = "<p>Container ab 49 €</p>".to_owned() + FIXTURE
+        let html = "<p>Container ab 49 €</p>".to_owned()
+            + FIXTURE
             + "<h2>Über uns</h2><p>Anfahrt pauschal 10 €</p>";
         let (rows, _) = parse(&html).expect("parses");
         assert_eq!(rows.len(), 3);

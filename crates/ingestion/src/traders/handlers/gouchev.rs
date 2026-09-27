@@ -32,7 +32,12 @@ pub const IMPRESSUM_URL: &str = "https://www.schrottankauf-bitterfelderstr23.de/
 pub const URL: &str = "https://www.schrottankauf-bitterfelderstr23.de/schrottpreise";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -162,13 +167,13 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// Parse the `div#price` blocks. Returns (rows, skips); the Aluminiumkabel
 /// block yields two rows (base + DICK). An empty listing is a loud error,
 /// never a silent success.
-fn parse(
-    html: &str,
-) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("id=\"price\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Tagespreis-Block fehlt".to_owned(),
-    })?;
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+    let start = html
+        .find("id=\"price\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Tagespreis-Block fehlt".to_owned(),
+        })?;
     // Back up to the opening '<': slicing at `id=` would cut the div tag
     // itself and the `div#price` selector below would never match.
     let tag = html[..start].rfind('<').unwrap_or(0);
@@ -177,10 +182,13 @@ fn parse(
     let block_sel = Selector::parse("div.cms-article").expect("valid selector");
     let h5_sel = Selector::parse("p.h5").expect("valid selector");
     let p_sel = Selector::parse("p").expect("valid selector");
-    let price_box = frag.select(&price_sel).next().ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Tagespreis-Block fehlt".to_owned(),
-    })?;
+    let price_box = frag
+        .select(&price_sel)
+        .next()
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Tagespreis-Block fehlt".to_owned(),
+        })?;
     let mut rows = Vec::new();
     let mut skips = Vec::new();
     for block in price_box.select(&block_sel) {
@@ -196,7 +204,12 @@ fn parse(
             skips.push("(Preisblock ohne Titel, übersprungen)".to_owned());
             continue;
         }
-        let body: String = block.select(&p_sel).skip(1).map(|el| el.text().collect::<String>()).collect::<Vec<_>>().join(" ");
+        let body: String = block
+            .select(&p_sel)
+            .skip(1)
+            .map(|el| el.text().collect::<String>())
+            .collect::<Vec<_>>()
+            .join(" ");
         let body = body.split_whitespace().collect::<Vec<_>>().join(" ");
         // An explicit foreign unit anywhere in the block rejects the
         // site-default loudly instead of silently mis-scaling.
@@ -205,13 +218,19 @@ fn parse(
             continue;
         };
         // Base price = the "ab 1 kg" quote (Bar-Sockel).
-        let base_text = body.split_once("ab 1 kg").map(|(_, rest)| rest).unwrap_or(&body);
+        let base_text = body
+            .split_once("ab 1 kg")
+            .map(|(_, rest)| rest)
+            .unwrap_or(&body);
         let Some(price) = parse_eur(base_text) else {
             skips.push(format!("{title} (kein ab-1-kg-Preis)"));
             continue;
         };
         // Dedupe against double blocks: same (title, price) twice counts once.
-        if !rows.iter().any(|(t, p, _): &(String, f64, &'static str)| *t == title && *p == price) {
+        if !rows
+            .iter()
+            .any(|(t, p, _): &(String, f64, &'static str)| *t == title && *p == price)
+        {
             rows.push((title.clone(), price, unit));
         }
         // Second sort inside the Aluminiumkabel block ("ALUKABEL DICK 0,35€").
@@ -228,7 +247,10 @@ fn parse(
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Tagespreise leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Tagespreise leer".to_owned(),
+        });
     }
     // Fan-out helper: the DICK row maps through the same label table
     // (its "dick" suffix keeps the kabel-alu/dick variant reachable even
@@ -274,7 +296,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let text_of = |i: usize| {
         values
             .get(i)
-            .map(|el| el.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" "))
+            .map(|el| {
+                el.text()
+                    .collect::<String>()
+                    .split_whitespace()
+                    .collect::<Vec<_>>()
+                    .join(" ")
+            })
             .unwrap_or_default()
     };
     let mut street = String::new();
@@ -284,11 +312,21 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         match label.trim() {
             "Adresse" => street = text_of(k),
             "Stadt" => city = text_of(k),
-            "PLZ" => postcode = text_of(k).split_whitespace().next().unwrap_or_default().to_owned(),
+            "PLZ" => {
+                postcode = text_of(k)
+                    .split_whitespace()
+                    .next()
+                    .unwrap_or_default()
+                    .to_owned()
+            }
             "E-Mail" => {
                 // "info ∂ schrottankauf-bitterfelderstr23.de" — the ∂
                 // glyph (also in data-email JSON) joins the halves.
-                email = text_of(k).replace('∂', "@").split_whitespace().collect::<Vec<_>>().join("");
+                email = text_of(k)
+                    .replace('∂', "@")
+                    .split_whitespace()
+                    .collect::<Vec<_>>()
+                    .join("");
             }
             "Telefonnummer" if phone.is_empty() => phone = text_of(k),
             _ => {}
@@ -300,7 +338,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 #[cfg(test)]
@@ -332,7 +376,14 @@ mod tests {
         assert!(skips.is_empty());
         // Millberry + Alukabel base + Alukabel dick + Scheren/Guss + Lötzinn.
         assert_eq!(rows.len(), 5);
-        assert_eq!(rows[0], ("Kupfer Millberry nicht angelaufen, nicht lackiert".to_owned(), 11.15, "EUR/kg"));
+        assert_eq!(
+            rows[0],
+            (
+                "Kupfer Millberry nicht angelaufen, nicht lackiert".to_owned(),
+                11.15,
+                "EUR/kg"
+            )
+        );
         assert_eq!(rows[1], ("Aluminiumkabel".to_owned(), 0.1, "EUR/kg"));
         assert_eq!(rows[2], ("Aluminiumkabel dick".to_owned(), 0.35, "EUR/kg"));
         assert_eq!(unit_of("ab 1 kg 10,40 €"), Some("EUR/kg"));
@@ -342,18 +393,51 @@ mod tests {
 
     #[test]
     fn mapping_splits_and_skips_ambiguity() {
-        assert_eq!(grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert"), Some(vec![("kupfer-millberry", "")]));
-        assert_eq!(grade_for("Kupfer ohne Eisen- oder Messinganhaftungen"), Some(vec![("kupfer-gemischt", "")]));
-        assert_eq!(grade_for("Kupfer Schwer (ohne Lötstellen und Farbe)"), Some(vec![("kupfer-berry", "Schwer")]));
-        assert_eq!(grade_for("Kupfer Kerze (neu, ohne Anhaftung, nicht angelaufen)"), Some(vec![("kupfer-berry", "Kerze")]));
-        assert_eq!(grade_for("Kupferkabel kein Antennen-, Fett-, ALCU-, Eisenkabel"), Some(vec![("kabel-kupfer", "")]));
-        assert_eq!(grade_for("Kupferkabelschrott mit Stecker"), Some(vec![("kabel-kupfer", "mit Stecker")]));
+        assert_eq!(
+            grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert"),
+            Some(vec![("kupfer-millberry", "")])
+        );
+        assert_eq!(
+            grade_for("Kupfer ohne Eisen- oder Messinganhaftungen"),
+            Some(vec![("kupfer-gemischt", "")])
+        );
+        assert_eq!(
+            grade_for("Kupfer Schwer (ohne Lötstellen und Farbe)"),
+            Some(vec![("kupfer-berry", "Schwer")])
+        );
+        assert_eq!(
+            grade_for("Kupfer Kerze (neu, ohne Anhaftung, nicht angelaufen)"),
+            Some(vec![("kupfer-berry", "Kerze")])
+        );
+        assert_eq!(
+            grade_for("Kupferkabel kein Antennen-, Fett-, ALCU-, Eisenkabel"),
+            Some(vec![("kabel-kupfer", "")])
+        );
+        assert_eq!(
+            grade_for("Kupferkabelschrott mit Stecker"),
+            Some(vec![("kabel-kupfer", "mit Stecker")])
+        );
         assert_eq!(grade_for("Aluminiumkabel"), Some(vec![("kabel-alu", "")]));
-        assert_eq!(grade_for("Aluminiumkabel dick"), Some(vec![("kabel-alu", "dick")]));
-        assert_eq!(grade_for("Edelstahlschrott (V2A)"), Some(vec![("edelstahl-v2a", "")]));
-        assert_eq!(grade_for("Zinnschrott 90-95 % (Teller)"), Some(vec![("zinn", "90-95%")]));
-        assert_eq!(grade_for("Zinnschrott Lötzinn"), Some(vec![("zinn", "Lötzinn")]));
-        assert_eq!(grade_for("Auswuchtblei"), Some(vec![("blei", "Auswuchtblei")]));
+        assert_eq!(
+            grade_for("Aluminiumkabel dick"),
+            Some(vec![("kabel-alu", "dick")])
+        );
+        assert_eq!(
+            grade_for("Edelstahlschrott (V2A)"),
+            Some(vec![("edelstahl-v2a", "")])
+        );
+        assert_eq!(
+            grade_for("Zinnschrott 90-95 % (Teller)"),
+            Some(vec![("zinn", "90-95%")])
+        );
+        assert_eq!(
+            grade_for("Zinnschrott Lötzinn"),
+            Some(vec![("zinn", "Lötzinn")])
+        );
+        assert_eq!(
+            grade_for("Auswuchtblei"),
+            Some(vec![("blei", "Auswuchtblei")])
+        );
         assert_eq!(grade_for("Scherenschrott / Gussschrott"), None);
     }
 

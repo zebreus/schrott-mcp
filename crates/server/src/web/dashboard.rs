@@ -93,7 +93,9 @@ pub async fn create_token(
                 user.id,
                 Flash {
                     token_secret: None,
-                    notice: Some("Token konnte nicht erstellt werden. Bitte versuche es erneut.".to_owned()),
+                    notice: Some(
+                        "Token konnte nicht erstellt werden. Bitte versuche es erneut.".to_owned(),
+                    ),
                 },
             );
             respond::see_other("/dashboard", None)

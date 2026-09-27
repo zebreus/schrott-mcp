@@ -27,7 +27,12 @@ pub const IMPRESSUM_URL: &str = "https://scheideanstaltka.de/impressum-2/";
 pub const URL: &str = "https://scheideanstaltka.de/edelmetallrechner/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -159,16 +164,27 @@ fn is_ab(l: &str) -> bool {
 /// heading. Returns (published_at, rows, unit_skips).
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("Unsere Goldpreise").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Goldpreistabelle fehlt".to_owned(),
-    })?;
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
+    let start = html
+        .find("Unsere Goldpreise")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Goldpreistabelle fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("Goldkurs in Euro").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Goldpreistabelle unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("Goldkurs in Euro")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Goldpreistabelle unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     // Head-anchored table choice (guide: Kopfinhalt, nie die erste): the
     // thead here reads "Name" + "Preis".
@@ -270,8 +286,11 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         url: IMPRESSUM_URL.to_owned(),
         detail: "Adress-Block fehlt".to_owned(),
     })?;
-    let lines: Vec<String> =
-        body[..p_end].split("<br").map(strip_fragment).filter(|s| !s.is_empty()).collect();
+    let lines: Vec<String> = body[..p_end]
+        .split("<br")
+        .map(strip_fragment)
+        .filter(|s| !s.is_empty())
+        .collect();
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
     for (k, line) in lines.iter().enumerate() {
         let mut it = line.split_whitespace();
@@ -307,7 +326,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -334,7 +359,7 @@ fn strip_fragment(s: &str) -> String {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, fineness, find_date, grade_for, is_ab, parse, unit_of};
+    use super::{extract_info, find_date, fineness, grade_for, is_ab, parse, unit_of};
 
     // Real table shape (class names, sup footnote stars, Zahngold rows,
     // tfoot quote date), trimmed to five rows, terminated by the chart

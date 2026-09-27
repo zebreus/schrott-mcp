@@ -29,7 +29,12 @@ pub const URL: &str = "https://scheideanstalt-hamburg.de/edelmetallpreise/";
 const UNIT_ANCHOR: &str = "Edelmetallpreise in €/g";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -123,15 +128,18 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h1 = Selector::parse("h1").expect("valid selector");
     let h2 = Selector::parse("h2").expect("valid selector");
-    if !doc.select(&h1).any(|h| h.text().collect::<String>().trim() == "Impressum") {
+    if !doc
+        .select(&h1)
+        .any(|h| h.text().collect::<String>().trim() == "Impressum")
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Impressum-Block fehlt".to_owned(),
         });
     }
-    let hamburg = doc.select(&h2).find(|h| {
-        h.text().collect::<String>().trim() == "Standort Hamburg"
-    });
+    let hamburg = doc
+        .select(&h2)
+        .find(|h| h.text().collect::<String>().trim() == "Standort Hamburg");
     let Some(hamburg) = hamburg else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -152,7 +160,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         if scanned > 12 {
             break;
         }
-        let Some(el) = scraper::ElementRef::wrap(node) else { continue };
+        let Some(el) = scraper::ElementRef::wrap(node) else {
+            continue;
+        };
         let name = el.value().name();
         if name == "h2" {
             break;
@@ -193,7 +203,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         for el in &paras {
             if let Some(link) = el.select(&a).next() {
                 if link.value().attr("href").is_some() {
-                    phone = link.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ");
+                    phone = link
+                        .text()
+                        .collect::<String>()
+                        .split_whitespace()
+                        .collect::<Vec<_>>()
+                        .join(" ");
                     if !phone.is_empty() {
                         break;
                     }
@@ -229,7 +244,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (html5ever already decoded
@@ -274,19 +295,31 @@ fn parse(
     // header, not just the first <table> on the page.
     let table = doc.select(&table).find(|t| {
         t.select(&head).any(|h| {
-            h.text().collect::<String>().to_lowercase().contains("feinmetalle")
+            h.text()
+                .collect::<String>()
+                .to_lowercase()
+                .contains("feinmetalle")
         })
     });
     let Some(table) = table else {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Feinmetalltabelle".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Feinmetalltabelle".to_owned(),
+        });
     };
     let heads: Vec<String> = table.select(&head).map(|h| h.text().collect()).collect();
-    let norm: Vec<String> =
-        heads.iter().map(|h| h.split_whitespace().collect::<Vec<_>>().join(" ")).collect();
+    let norm: Vec<String> = heads
+        .iter()
+        .map(|h| h.split_whitespace().collect::<Vec<_>>().join(" "))
+        .collect();
     // Only AK (Ankauf) columns are recorded; VK (Verkauf) is the trader's
     // sell price by design, documented here — not a skip, not a row.
-    let hf_idx = norm.iter().position(|h| h.starts_with("AK") && h.contains("hf"));
-    let nh_idx = norm.iter().position(|h| h.starts_with("AK") && h.contains("nh"));
+    let hf_idx = norm
+        .iter()
+        .position(|h| h.starts_with("AK") && h.contains("hf"));
+    let nh_idx = norm
+        .iter()
+        .position(|h| h.starts_with("AK") && h.contains("nh"));
     let (Some(hf_idx), Some(nh_idx)) = (hf_idx, nh_idx) else {
         return Err(IngestError::Parse {
             url: URL.to_owned(),
@@ -312,15 +345,24 @@ fn parse(
             ));
             continue;
         };
-        for (idx, col) in [(hf_idx, norm[hf_idx].clone()), (nh_idx, norm[nh_idx].clone())] {
+        for (idx, col) in [
+            (hf_idx, norm[hf_idx].clone()),
+            (nh_idx, norm[nh_idx].clone()),
+        ] {
             match parse_eur(&cells[idx]) {
                 Some(price) => rows.push((metal.clone(), col, price, unit)),
-                None => skips.push(format!("{metal} {col} (Preis unverständlich: {})", cells[idx].trim())),
+                None => skips.push(format!(
+                    "{metal} {col} (Preis unverständlich: {})",
+                    cells[idx].trim()
+                )),
             }
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Feinmetalltabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Feinmetalltabelle leer".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -343,8 +385,14 @@ mod tests {
     fn ak_columns_parse_and_silver_skips() {
         let (rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(rows.len(), 6, "3 metals x 2 AK columns");
-        assert_eq!(rows[0], ("Gold".to_owned(), "AK >999 hf".to_owned(), 116.68, "EUR/g"));
-        assert_eq!(rows[1], ("Gold".to_owned(), "AK >999 nh".to_owned(), 114.29, "EUR/g"));
+        assert_eq!(
+            rows[0],
+            ("Gold".to_owned(), "AK >999 hf".to_owned(), 116.68, "EUR/g")
+        );
+        assert_eq!(
+            rows[1],
+            ("Gold".to_owned(), "AK >999 nh".to_owned(), 114.29, "EUR/g")
+        );
         assert_eq!(rows[2].0, "Platin");
         assert_eq!(rows[4].0, "Palladium");
         assert_eq!(rows[5].2, 31.25);
@@ -398,8 +446,14 @@ mod tests {
     fn mapping_uses_fineness_variants() {
         assert_eq!(grade_for("Gold", "AK >999 hf"), Some(("gold", "999 hf")));
         assert_eq!(grade_for("Gold", "AK >999 nh"), Some(("gold", "999 nh")));
-        assert_eq!(grade_for("Platin", "AK >999 hf"), Some(("platin", "999 hf")));
-        assert_eq!(grade_for("Palladium", "AK >999 nh"), Some(("palladium", "999 nh")));
+        assert_eq!(
+            grade_for("Platin", "AK >999 hf"),
+            Some(("platin", "999 hf"))
+        );
+        assert_eq!(
+            grade_for("Palladium", "AK >999 nh"),
+            Some(("palladium", "999 nh"))
+        );
         assert_eq!(grade_for("Silber", "AK >999 hf"), None);
         assert_eq!(grade_for("Gold", "VK >999 uv"), None);
     }

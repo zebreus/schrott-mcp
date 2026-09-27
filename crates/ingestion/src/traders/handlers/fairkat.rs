@@ -23,7 +23,12 @@ pub const IMPRESSUM_URL: &str = "https://www.kaufe-katalysatoren.de/impressum.ph
 pub const URL: &str = "https://www.kaufe-katalysatoren.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -106,13 +111,17 @@ fn unit_of(t: &str) -> Option<&'static str> {
     }
 }
 
-fn parse(html: &str) -> Result<(Vec<(String, String, f64, &'static str)>, Vec<String>), IngestError> {
+fn parse(
+    html: &str,
+) -> Result<(Vec<(String, String, f64, &'static str)>, Vec<String>), IngestError> {
     // Window: the slider list only. The login box ("Kundenbereich")
     // and footer follow `</ul>` and must never contribute labels.
-    let start = html.find("<ul class=\"slides\">").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Kat-Slider fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("<ul class=\"slides\">")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Kat-Slider fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("</ul>").unwrap_or(tail.len());
     let window = &tail[..end];
@@ -125,8 +134,12 @@ fn parse(html: &str) -> Result<(Vec<(String, String, f64, &'static str)>, Vec<St
     let mut rows = Vec::new();
     let mut skipped = Vec::new();
     for el in doc.select(&card) {
-        let Some(m) = el.select(&model).next() else { continue };
-        let Some(p) = el.select(&price).next() else { continue };
+        let Some(m) = el.select(&model).next() else {
+            continue;
+        };
+        let Some(p) = el.select(&price).next() else {
+            continue;
+        };
         // "Fahrzeug<br>Kat-Nr": split on <br first (guide gotcha —
         // tag remnants parse as text otherwise), then strip tags.
         let parts: Vec<String> = m
@@ -140,16 +153,26 @@ fn parse(html: &str) -> Result<(Vec<(String, String, f64, &'static str)>, Vec<St
         }
         let vehicle = parts[0].clone();
         let katnr = parts.last().cloned().unwrap_or_default();
-        let katnr = if parts.len() > 1 { katnr } else { String::new() };
+        let katnr = if parts.len() > 1 {
+            katnr
+        } else {
+            String::new()
+        };
         let raw = p.text().collect::<String>();
         let raw = raw.split_whitespace().collect::<Vec<_>>().join(" ");
         let Some(value) = parse_eur(&raw) else {
-            skipped.push(format!("{} (Preis unverständlich: {raw})", parts.join(" / ")));
+            skipped.push(format!(
+                "{} (Preis unverständlich: {raw})",
+                parts.join(" / ")
+            ));
             continue;
         };
         match unit_of(&raw) {
             Some(unit) => rows.push((vehicle, katnr, value, unit)),
-            None => skipped.push(format!("{} (Einheit unverständlich: {raw})", parts.join(" / "))),
+            None => skipped.push(format!(
+                "{} (Einheit unverständlich: {raw})",
+                parts.join(" / ")
+            )),
         }
     }
     if rows.is_empty() {
@@ -208,8 +231,11 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "Adress-Block fehlt".to_owned(),
         });
     };
-    let lines: Vec<String> =
-        html.split("<br").map(strip_fragment).filter(|s| !s.is_empty()).collect();
+    let lines: Vec<String> = html
+        .split("<br")
+        .map(strip_fragment)
+        .filter(|s| !s.is_empty())
+        .collect();
     let mut street = String::new();
     let (mut postcode, mut city) = (String::new(), String::new());
     let mut email = String::new();
@@ -238,7 +264,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone: String::new(), email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone: String::new(),
+        email,
+    })
 }
 
 #[cfg(test)]

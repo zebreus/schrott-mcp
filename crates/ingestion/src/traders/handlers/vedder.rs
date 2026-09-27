@@ -19,7 +19,12 @@ pub const IMPRESSUM_URL: &str = "https://www.vedder-stockrahm.de/impressum/";
 pub const URL: &str = "https://www.vedder-stockrahm.de/ankauf/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -121,9 +126,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let h3 = Selector::parse("h3").expect("valid selector");
     let dt = Selector::parse("dt").expect("valid selector");
     let dd = Selector::parse("dd").expect("valid selector");
-    let anchor = doc.select(&h3).find(|h| {
-        h.text().collect::<String>().trim() == "Anschrift"
-    });
+    let anchor = doc
+        .select(&h3)
+        .find(|h| h.text().collect::<String>().trim() == "Anschrift");
     let Some(anchor) = anchor else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -179,7 +184,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a fragment (entities are already decoded by html5ever).
@@ -200,7 +211,14 @@ fn strip_tags(s: &str) -> String {
 
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     let doc = Html::parse_document(html);
     let table = Selector::parse("table").expect("valid selector");
     let row = Selector::parse("tbody tr").expect("valid selector");
@@ -231,7 +249,10 @@ fn parse(
         })
     });
     let Some(table) = table else {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preistabelle".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preistabelle".to_owned(),
+        });
     };
     for tr in table.select(&row) {
         let cells: Vec<String> = tr.select(&cell).map(|c| c.text().collect()).collect();
@@ -239,17 +260,25 @@ fn parse(
             continue;
         }
         let label = cells[0].trim().replace(['\u{a0}'], " ");
-        let Some(price) = parse_eur(&cells[1]) else { continue };
+        let Some(price) = parse_eur(&cells[1]) else {
+            continue;
+        };
         // An unparseable unit is a loud skip, never a silent default: a
         // per-tonne price recorded as per-kg would be a 1000x error.
         let Some(unit) = unit_of(&cells[2]) else {
-            unit_skips.push(format!("{label} (Einheit unverständlich: {})", cells[2].trim()));
+            unit_skips.push(format!(
+                "{label} (Einheit unverständlich: {})",
+                cells[2].trim()
+            ));
             continue;
         };
         rows.push((label, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preistabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabelle leer".to_owned(),
+        });
     }
     Ok((published_at, rows, unit_skips))
 }
@@ -261,7 +290,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
     let lower = cell.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|t| t == "t") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|t| t == "t")
+    {
         Some("EUR/t")
     } else {
         None
@@ -331,11 +363,26 @@ mod tests {
             grade_for("Kupfer-Kabel blank (Millberry)"),
             Some(("kupfer-millberry", ""))
         );
-        assert_eq!(grade_for("Kupfer blank (Kerze)"), Some(("kupfer-berry", "Kerze")));
-        assert_eq!(grade_for("Kupfer Raff  (Alt)"), Some(("kupfer-gemischt", "Alt")));
-        assert_eq!(grade_for("Rotguss Stücke sauber"), Some(("bronze-rotguss", "")));
-        assert_eq!(grade_for("Edelstahlabfälle V4A"), Some(("edelstahl-v4a", "")));
-        assert_eq!(grade_for("Zinn 80% - 98% (Geschirr)"), Some(("zinn", "80-98%")));
+        assert_eq!(
+            grade_for("Kupfer blank (Kerze)"),
+            Some(("kupfer-berry", "Kerze"))
+        );
+        assert_eq!(
+            grade_for("Kupfer Raff  (Alt)"),
+            Some(("kupfer-gemischt", "Alt"))
+        );
+        assert_eq!(
+            grade_for("Rotguss Stücke sauber"),
+            Some(("bronze-rotguss", ""))
+        );
+        assert_eq!(
+            grade_for("Edelstahlabfälle V4A"),
+            Some(("edelstahl-v4a", ""))
+        );
+        assert_eq!(
+            grade_for("Zinn 80% - 98% (Geschirr)"),
+            Some(("zinn", "80-98%"))
+        );
         assert_eq!(grade_for("Zinn 50% - 59%"), Some(("zinn", "50-59%")));
         assert_eq!(grade_for("Hartmetall Widia Platten und Bohrer"), None);
         assert_eq!(grade_for("Versilberte Messer"), None);

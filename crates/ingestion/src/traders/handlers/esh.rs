@@ -6,9 +6,7 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "he-darmstadt-nord-esh-darmstadt";
@@ -19,9 +17,12 @@ pub const IMPRESSUM_URL: &str = "https://www.esh-darmstadt.de/impressum";
 pub const URL: &str = "https://www.esh-darmstadt.de/services/schrotthandel-demontage/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| {
-        Box::pin(scrape(c))
-    } }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -96,10 +97,12 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
     // List items between the offer heading and the customer list.
-    let start = html.find("Wir bieten Ankauf").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Annahmeliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Wir bieten Ankauf")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Annahmeliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("Von:").unwrap_or(tail.len());
     let window = &tail[..end];
@@ -120,7 +123,6 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
     Ok(labels)
 }
 
-
 /// Bespoke contact extraction for THIS impressum only: the labeled inline
 /// block ("ESH Darmstadt Inhaber: Rocky Truber Akazienweg 15b 64293
 /// Darmstadt Mobil: … Tel.: … E-mail: …"). Anchored on "Inhaber:" —
@@ -134,10 +136,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         .split_whitespace()
         .collect::<Vec<_>>()
         .join(" ");
-    let (_, block) = all.split_once("Inhaber:").ok_or_else(|| IngestError::Parse {
-        url: IMPRESSUM_URL.to_owned(),
-        detail: "Inhaber-Block fehlt".to_owned(),
-    })?;
+    let (_, block) = all
+        .split_once("Inhaber:")
+        .ok_or_else(|| IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Inhaber-Block fehlt".to_owned(),
+        })?;
     // "Rocky Truber Akazienweg 15b 64293 Darmstadt Mobil: …"
     let toks: Vec<&str> = block.split_whitespace().collect();
     // street: "Akazienweg 15b" (this trader's street, verified live).
@@ -195,7 +199,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 #[cfg(test)]

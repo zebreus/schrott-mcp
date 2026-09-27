@@ -77,8 +77,7 @@ pub const TRADER_TYPES: &[&str] = &[
 ];
 pub const STATUSES: &[&str] = &["aktiv", "geschlossen", "pruefung", "unbekannt"];
 pub const STATES: &[&str] = [
-    "BW", "BY", "BE", "BB", "HB", "HH", "HE", "MV", "NI", "NW", "RP", "SL", "SN", "ST", "SH",
-    "TH",
+    "BW", "BY", "BE", "BB", "HB", "HH", "HE", "MV", "NI", "NW", "RP", "SL", "SN", "ST", "SH", "TH",
 ]
 .as_slice();
 
@@ -90,8 +89,7 @@ macro_rules! seed_files {
 
 /// All embedded seed files: (state, json text).
 pub const SEED_FILES: &[(&str, &str)] = seed_files!(
-    "bw", "by", "be", "bb", "hb", "hh", "he", "mv", "ni", "nw", "rp", "sl", "sn", "st",
-    "sh", "th"
+    "bw", "by", "be", "bb", "hb", "hh", "he", "mv", "ni", "nw", "rp", "sl", "sn", "st", "sh", "th"
 );
 
 /// Parse every embedded seed file. Errors name the file.
@@ -141,7 +139,10 @@ pub fn validate_seeds(traders: &[SeedTrader]) -> Result<(), String> {
         {
             return Err(format!("bad website_status in {}", t.slug));
         }
-        for (key, raw) in [("dropoff_json", &t.dropoff_json), ("pickup_json", &t.pickup_json)] {
+        for (key, raw) in [
+            ("dropoff_json", &t.dropoff_json),
+            ("pickup_json", &t.pickup_json),
+        ] {
             if !raw.is_empty() {
                 let v: serde_json::Value = serde_json::from_str(raw)
                     .map_err(|_| format!("bad {key} JSON in {}", t.slug))?;

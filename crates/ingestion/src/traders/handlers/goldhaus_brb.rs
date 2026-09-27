@@ -16,9 +16,7 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "bb-brandenburg-a-d-h-goldhaus-brb";
@@ -29,9 +27,12 @@ pub const IMPRESSUM_URL: &str = "https://goldhaus-brb.de/edelmetall/impressum/";
 pub const URL: &str = "https://goldhaus-brb.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| {
-        Box::pin(scrape(c))
-    } }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -131,10 +132,12 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// closing `</ul>`. 0 items → Err (a silent empty success would hide a
 /// redesign).
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
-    let start = html.find("insbesondere:").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Annahmeliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("insbesondere:")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Annahmeliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("</ul>").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -168,7 +171,9 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h1 = Selector::parse("h1").expect("valid selector");
-    let found = doc.select(&h1).any(|el| el.text().collect::<String>().trim() == "Impressum");
+    let found = doc
+        .select(&h1)
+        .any(|el| el.text().collect::<String>().trim() == "Impressum");
     if !found {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -185,10 +190,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         .split_whitespace()
         .collect::<Vec<_>>()
         .join(" ");
-    let (_, after) = all.split_once("Impressum").ok_or_else(|| IngestError::Parse {
-        url: IMPRESSUM_URL.to_owned(),
-        detail: "Impressum-Block fehlt".to_owned(),
-    })?;
+    let (_, after) = all
+        .split_once("Impressum")
+        .ok_or_else(|| IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Impressum-Block fehlt".to_owned(),
+        })?;
     // Street: "Steinstraße 12" (this trader's street, verified live).
     let toks: Vec<&str> = after.split_whitespace().collect();
     let mut street = String::new();
@@ -223,7 +230,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         .map(|i| {
             after[i + "Telefon:".len()..]
                 .split_whitespace()
-                .take_while(|t| t.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c)))
+                .take_while(|t| {
+                    t.chars()
+                        .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+                })
                 .collect::<Vec<_>>()
                 .join(" ")
         })
@@ -232,7 +242,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     // stop at the first letter — emails are one token).
     let email = after
         .find("E-Mail:")
-        .map(|i| after[i + "E-Mail:".len()..].split_whitespace().next().unwrap_or_default().to_owned())
+        .map(|i| {
+            after[i + "E-Mail:".len()..]
+                .split_whitespace()
+                .next()
+                .unwrap_or_default()
+                .to_owned()
+        })
         .unwrap_or_default();
     if street.is_empty() && phone.is_empty() && email.is_empty() {
         return Err(IngestError::Parse {
@@ -240,7 +256,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 #[cfg(test)]
@@ -249,7 +271,8 @@ mod tests {
 
     // Real shape of the live homepage list (offer line + full <ul>),
     // untrimmed: all 15 live labels.
-    const FIXTURE: &str = "<p>Alle Preise sind bei uns unverbindlich und die Preisbestimmung kostenlos.\
+    const FIXTURE: &str =
+        "<p>Alle Preise sind bei uns unverbindlich und die Preisbestimmung kostenlos.\
         Wir kaufen alle Gegenstände an, die edelmetallhaltig sind, insbesondere:</p><ul>\
         <li>Goldschmuck jeglicher Art</li><li>Altgold</li>\
         <li>Bruchgold (kaputter Schmuck, Goldreste u.v.m.)</li>\
@@ -277,7 +300,9 @@ mod tests {
             Some(vec![("gold", "Bruchgold")])
         );
         assert_eq!(
-            grade_for("Münzen und Medaillen (z.B. Krügerrand, Dukaten, Philharmoniker, Deutsche Mark)"),
+            grade_for(
+                "Münzen und Medaillen (z.B. Krügerrand, Dukaten, Philharmoniker, Deutsche Mark)"
+            ),
             Some(vec![("gold", "Münzen & Medaillen")])
         );
         assert_eq!(
@@ -297,7 +322,10 @@ mod tests {
         assert_eq!(grade_for("Palladium"), Some(vec![("palladium", "")]));
         // Plated ware must never resolve to a fineness material.
         assert_eq!(grade_for("versilbertes Besteck"), None);
-        assert_eq!(grade_for("vergoldetes (Besteck, Münzen, Ketten etc.)"), None);
+        assert_eq!(
+            grade_for("vergoldetes (Besteck, Münzen, Ketten etc.)"),
+            None
+        );
         // Banknotes are paper, coins are silver — unattributable.
         assert_eq!(grade_for("Alte D-Mark"), None);
         // Diamonds have no material.
@@ -322,4 +350,3 @@ mod tests {
         assert!(super::extract_info("<p>Neu hier</p>").is_err());
     }
 }
-

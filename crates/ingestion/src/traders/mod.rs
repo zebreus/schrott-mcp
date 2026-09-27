@@ -60,7 +60,9 @@ pub struct Handler {
 
 pub type ScrapeFn = for<'a> fn(
     &'a reqwest::Client,
-) -> Pin<Box<dyn Future<Output = Result<HandlerOutcome, super::IngestError>> + Send + 'a>>;
+) -> Pin<
+    Box<dyn Future<Output = Result<HandlerOutcome, super::IngestError>> + Send + 'a>,
+>;
 
 /// One parsed price point, ready to record.
 #[derive(Debug, Clone)]
@@ -147,7 +149,10 @@ pub async fn fetch_text(
         .get(url)
         .send()
         .await
-        .map_err(|source| IngestError::Fetch { url: url.to_owned(), source })?;
+        .map_err(|source| IngestError::Fetch {
+            url: url.to_owned(),
+            source,
+        })?;
     let status = res.status().as_u16();
     if !res.status().is_success() {
         return Err(IngestError::Parse {
@@ -155,10 +160,10 @@ pub async fn fetch_text(
             detail: format!("HTTP {status}"),
         });
     }
-    let body = res
-        .text()
-        .await
-        .map_err(|source| IngestError::Body { url: url.to_owned(), source })?;
+    let body = res.text().await.map_err(|source| IngestError::Body {
+        url: url.to_owned(),
+        source,
+    })?;
     Ok((status, body))
 }
 
@@ -191,7 +196,9 @@ pub fn parse_eur(raw: &str) -> Option<f64> {
 fn is_thousands_grouped(tok: &str) -> bool {
     let mut parts = tok.split('.');
     match parts.next() {
-        Some(first) if (1..=3).contains(&first.len()) && first.chars().all(|c| c.is_ascii_digit()) => {
+        Some(first)
+            if (1..=3).contains(&first.len()) && first.chars().all(|c| c.is_ascii_digit()) =>
+        {
             parts.all(|p| p.len() == 3 && p.chars().all(|c| c.is_ascii_digit()))
                 && tok.contains('.')
         }
@@ -203,10 +210,11 @@ fn is_thousands_grouped(tok: &str) -> bool {
 pub fn parse_de_date(day: &str, month: &str, year: &str) -> Option<String> {
     let (d, m, y): (u32, u32, i32) = (day.parse().ok()?, month.parse().ok()?, year.parse().ok()?);
     chrono::NaiveDate::from_ymd_opt(y, m, d).map(|d| {
-        chrono::NaiveDateTime::new(d, chrono::NaiveTime::MIN).and_utc().to_rfc3339()
+        chrono::NaiveDateTime::new(d, chrono::NaiveTime::MIN)
+            .and_utc()
+            .to_rfc3339()
     })
 }
-
 
 /// What one `record()` call produced. `accepted` counts resolved
 /// material acceptances (info present), whether or not they changed rows.
@@ -243,9 +251,14 @@ pub async fn record(
     now: &DateTime<Utc>,
 ) -> Result<RecordSummary, super::IngestError> {
     use super::IngestError;
-    let Some(trader_id) = public.find_trader_id(handler_slug).map_err(|source| {
-        IngestError::Catalog { what: "trader", name: handler_slug.to_owned(), source }
-    })?
+    let Some(trader_id) =
+        public
+            .find_trader_id(handler_slug)
+            .map_err(|source| IngestError::Catalog {
+                what: "trader",
+                name: handler_slug.to_owned(),
+                source,
+            })?
     else {
         return Err(IngestError::Parse {
             url: outcome.fetch_url.clone(),
@@ -253,9 +266,7 @@ pub async fn record(
         });
     };
     let now_s = now.to_rfc3339();
-    let baseline = internal
-        .last_ok_step_items(handler_slug)
-        .unwrap_or(None);
+    let baseline = internal.last_ok_step_items(handler_slug).unwrap_or(None);
     // Snapshot current prices BEFORE writing, for jump detection.
     let mut before: std::collections::HashMap<(i64, String), (f64, String, String)> =
         std::collections::HashMap::new();
@@ -273,17 +284,28 @@ pub async fn record(
     let mut skipped = outcome.skipped_labels.clone();
     let mut canaries: Vec<String> = Vec::new();
     for p in &outcome.prices {
-        let Some(material_id) = public.find_material_id(p.material).map_err(|source| {
-            IngestError::Catalog { what: "material", name: p.material.to_owned(), source }
-        })?
+        let Some(material_id) =
+            public
+                .find_material_id(p.material)
+                .map_err(|source| IngestError::Catalog {
+                    what: "material",
+                    name: p.material.to_owned(),
+                    source,
+                })?
         else {
             skipped.push(format!("{} (unbekanntes Material)", p.label));
             continue;
         };
         // Normalize into the catalog unit (kg<->t); anything else stays
         // as quoted — conversions we cannot prove stay untouched.
-        let (price, price_min, price_max, unit) =
-            normalize_unit(public, material_id, p.price, p.price_min, p.price_max, p.unit)?;
+        let (price, price_min, price_max, unit) = normalize_unit(
+            public,
+            material_id,
+            p.price,
+            p.price_min,
+            p.price_max,
+            p.unit,
+        )?;
         match public.record_price(&schrott_mcp_store::NewPrice {
             trader_id,
             material_id,
@@ -313,10 +335,7 @@ pub async fn record(
                 if let Some((old_price, old_cur, old_unit)) =
                     before.get(&(material_id, p.variant.to_owned()))
                 {
-                    if *old_cur == p.currency
-                        && *old_unit == unit
-                        && *old_price > 0.0
-                    {
+                    if *old_cur == p.currency && *old_unit == unit && *old_price > 0.0 {
                         let ratio = price / old_price;
                         if ratio >= CANARY_JUMP_RATIO || ratio <= 1.0 / CANARY_JUMP_RATIO {
                             canaries.push(format!(
@@ -350,9 +369,14 @@ pub async fn record(
     // only on change, count everything resolved.
     let mut accepted = 0usize;
     for a in &outcome.acceptances {
-        let Some(material_id) = public.find_material_id(a.material).map_err(|source| {
-            IngestError::Catalog { what: "material", name: a.material.to_owned(), source }
-        })?
+        let Some(material_id) =
+            public
+                .find_material_id(a.material)
+                .map_err(|source| IngestError::Catalog {
+                    what: "material",
+                    name: a.material.to_owned(),
+                    source,
+                })?
         else {
             skipped.push(format!("{} (unbekanntes Material)", a.label));
             continue;
@@ -432,7 +456,12 @@ pub async fn record(
             }
         }
     }
-    Ok(RecordSummary { recorded, accepted, skipped, canaries })
+    Ok(RecordSummary {
+        recorded,
+        accepted,
+        skipped,
+        canaries,
+    })
 }
 
 /// Convert a quoted price into the catalog unit when the conversion is
@@ -574,25 +603,45 @@ mod tests {
             })
             .expect("material");
         // Baseline run: 10 recorded, then a good step with 10 items.
-        let r = super::record(&public, &internal, "canary-test", &pronto().await, &now).await.expect("run1");
-        assert_eq!((r.recorded, r.canaries.len()), (10, 0), "first run: no baseline yet");
+        let r = super::record(&public, &internal, "canary-test", &pronto().await, &now)
+            .await
+            .expect("run1");
+        assert_eq!(
+            (r.recorded, r.canaries.len()),
+            (10, 0),
+            "first run: no baseline yet"
+        );
         let run = internal.create_run(&now_s).expect("run");
-        let step = internal.create_step(run, "canary-test", &now_s).expect("step");
-        internal.finish_step(step, "ok", 10, "10 Preise übernommen", &now_s).expect("close");
+        let step = internal
+            .create_step(run, "canary-test", &now_s)
+            .expect("step");
+        internal
+            .finish_step(step, "ok", 10, "10 Preise übernommen", &now_s)
+            .expect("close");
         // Same volume again: quiet.
-        let r = super::record(&public, &internal, "canary-test", &pronto().await, &now).await.expect("run2");
+        let r = super::record(&public, &internal, "canary-test", &pronto().await, &now)
+            .await
+            .expect("run2");
         assert_eq!((r.recorded, r.canaries.len()), (10, 0));
         // Collapse to 2: drop canary.
         let mut few = pronto().await;
         few.prices.truncate(2);
-        let r = super::record(&public, &internal, "canary-test", &few, &now).await.expect("run3");
+        let r = super::record(&public, &internal, "canary-test", &few, &now)
+            .await
+            .expect("run3");
         assert_eq!(r.canaries.len(), 1);
         assert!(r.canaries[0].contains("Einbruch"), "{:?}", r.canaries);
         // One price explodes 10x: jump canary, data still recorded.
         let mut jump = pronto().await;
         jump.prices[0].price = 98.0;
-        let r = super::record(&public, &internal, "canary-test", &jump, &now).await.expect("run4");
+        let r = super::record(&public, &internal, "canary-test", &jump, &now)
+            .await
+            .expect("run4");
         assert_eq!(r.recorded, 10);
-        assert!(r.canaries.iter().any(|c| c.contains("Preissprung")), "{:?}", r.canaries);
+        assert!(
+            r.canaries.iter().any(|c| c.contains("Preissprung")),
+            "{:?}",
+            r.canaries
+        );
     }
 }

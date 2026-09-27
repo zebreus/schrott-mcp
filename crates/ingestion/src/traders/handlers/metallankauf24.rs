@@ -26,7 +26,9 @@ pub fn handler() -> Handler {
     Handler {
         slug: SLUG,
         url: URL,
-        schedule: Schedule::DailyAt { times: vec![(8, 0), (16, 0)] },
+        schedule: Schedule::DailyAt {
+            times: vec![(8, 0), (16, 0)],
+        },
         scrape: |c| Box::pin(scrape(c)),
     }
 }
@@ -90,10 +92,12 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 }
 
 fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("Aktuelle Schrottpreise").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisblock fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Aktuelle Schrottpreise")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisblock fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     // The category overview ends where the pickup/delivery section starts.
     let end = tail
@@ -143,7 +147,10 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preispaare".to_owned(),
+        });
     }
     Ok((rows, unit_skips))
 }
@@ -154,7 +161,10 @@ fn unit_of(t: &str) -> Option<&'static str> {
     let lower = t.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|w| w == "t" || w == "to")
+    {
         Some("EUR/t")
     } else {
         None
@@ -163,13 +173,23 @@ fn unit_of(t: &str) -> Option<&'static str> {
 
 fn is_junk(t: &str) -> bool {
     let l = t.to_lowercase();
-    ["aktuelle schrottpreise", "tagesaktuelle", "anlieferung", "abholung", "versand",
-     "kontakt", "impressum", "cookies", "bewertung", "nachhaltigkeit", "login"]
-        .iter()
-        .any(|j| l.contains(j))
+    [
+        "aktuelle schrottpreise",
+        "tagesaktuelle",
+        "anlieferung",
+        "abholung",
+        "versand",
+        "kontakt",
+        "impressum",
+        "cookies",
+        "bewertung",
+        "nachhaltigkeit",
+        "login",
+    ]
+    .iter()
+    .any(|j| l.contains(j))
         || l.len() > 80
 }
-
 
 /// Bespoke contact extraction for THIS impressum only: the address lines
 /// inside `div.inhalt` ("Hinter der Bahn 23" / "21439 Marxen") plus the
@@ -211,7 +231,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
                     }
                 }
             }
-            if let Some(v) = line.strip_prefix("Telefon:").or_else(|| line.strip_prefix("Tel.")) {
+            if let Some(v) = line
+                .strip_prefix("Telefon:")
+                .or_else(|| line.strip_prefix("Tel."))
+            {
                 if phone.is_empty() {
                     phone = v.trim().to_owned();
                 }
@@ -239,7 +262,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a fragment (html5ever already decoded entities).
@@ -295,7 +324,15 @@ mod tests {
         assert_eq!(grade_for("Kupfer"), Some(("kupfer-gemischt", "")));
         assert_eq!(grade_for("Zink / Blei"), None, "ambiguous: skipped");
         assert_eq!(grade_for("VHM / HSS / WOLFRAM"), None);
-        assert_eq!(grade_for("Kabel / E-Motoren"), None, "mixed category: skipped");
-        assert_eq!(grade_for("Messing / Rotguss"), None, "category maximum: skipped");
+        assert_eq!(
+            grade_for("Kabel / E-Motoren"),
+            None,
+            "mixed category: skipped"
+        );
+        assert_eq!(
+            grade_for("Messing / Rotguss"),
+            None,
+            "category maximum: skipped"
+        );
     }
 }

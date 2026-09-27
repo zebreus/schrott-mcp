@@ -393,8 +393,8 @@ pub fn dashboard(base_url: &str, d: DashboardData<'_>) -> String {
         ));
     }
     if run_rows.is_empty() {
-        run_rows =
-            "<tr><td colspan=\"5\" style=\"color:var(--muted)\">Noch keine Läufe.</td></tr>".to_owned();
+        run_rows = "<tr><td colspan=\"5\" style=\"color:var(--muted)\">Noch keine Läufe.</td></tr>"
+            .to_owned();
     }
     let body = format!(
         "<h2 style=\"margin-top:36px\">Hallo, {}.</h2>{secret}{notice}{onboarding}\

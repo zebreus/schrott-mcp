@@ -29,7 +29,12 @@ pub const IMPRESSUM_URL: &str = "https://www.papierfritze.de/impressum/";
 pub const URL: &str = "https://www.papierfritze.de/kupferpreis/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -92,7 +97,11 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = l.as_str();
     if l.contains("millberry") {
         Some(("kupfer-millberry", ""))
-    } else if l.contains("schwer") || l.contains("berry") || l.contains("candy") || l.contains("kerze") {
+    } else if l.contains("schwer")
+        || l.contains("berry")
+        || l.contains("candy")
+        || l.contains("kerze")
+    {
         Some(("kupfer-berry", "Schwer"))
     } else if l.contains("raff") {
         Some(("kupfer-gemischt", "Raff"))
@@ -122,13 +131,13 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 /// Parse the card listing. Returns (rows, unit_skips); cards whose shape
 /// broke (no title, no BAR base price) skip loudly, an empty listing is a
 /// loud error, never a silent success.
-fn parse(
-    html: &str,
-) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let hit = html.find("jet-listing-grid__item").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preiskarten fehlen".to_owned(),
-    })?;
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+    let hit = html
+        .find("jet-listing-grid__item")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preiskarten fehlen".to_owned(),
+        })?;
     // Back up over the opening tag: cutting inside `<div class="…">`
     // would destroy the first card's element.
     let start = html[..hit].rfind('<').unwrap_or(hit);
@@ -136,8 +145,7 @@ fn parse(
     let card_sel = Selector::parse("div.jet-listing-grid__item").expect("valid selector");
     let head_sel = Selector::parse(".elementor-heading-title").expect("valid selector");
     let link_sel = Selector::parse("a").expect("valid selector");
-    let field_sel =
-        Selector::parse(".jet-listing-dynamic-field__content").expect("valid selector");
+    let field_sel = Selector::parse(".jet-listing-dynamic-field__content").expect("valid selector");
     let mut rows = Vec::new();
     let mut skips = Vec::new();
     for card in frag.select(&card_sel) {
@@ -178,7 +186,10 @@ fn parse(
         rows.push((title, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preiskarten leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preiskarten leer".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -248,19 +259,39 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let a = Selector::parse("a").expect("valid selector");
     let mut phone = String::new();
     for el in doc.select(&a) {
-        if el.value().attr("href").is_some_and(|h| h.starts_with("tel:")) && phone.is_empty() {
-            phone = el.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ");
+        if el
+            .value()
+            .attr("href")
+            .is_some_and(|h| h.starts_with("tel:"))
+            && phone.is_empty()
+        {
+            phone = el
+                .text()
+                .collect::<String>()
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ");
         }
     }
     let cf = Selector::parse("[data-cfemail]").expect("valid selector");
-    let email = doc.select(&cf).filter_map(|el| el.value().attr("data-cfemail")).find_map(decode_cfemail).unwrap_or_default();
+    let email = doc
+        .select(&cf)
+        .filter_map(|el| el.value().attr("data-cfemail"))
+        .find_map(decode_cfemail)
+        .unwrap_or_default();
     if street.is_empty() && phone.is_empty() && email.is_empty() {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Cloudflare email protection: first byte is the key, the rest is the
@@ -274,7 +305,10 @@ fn decode_cfemail(hex: &str) -> Option<String> {
         .map(|i| u8::from_str_radix(&hex[i..i + 2], 16).ok())
         .collect::<Option<_>>()?;
     let (key, addr) = bytes.split_first()?;
-    addr.iter().map(|b| char::from(b ^ key)).collect::<String>().into()
+    addr.iter()
+        .map(|b| char::from(b ^ key))
+        .collect::<String>()
+        .into()
 }
 
 /// Strip tags from a fragment (entities are already decoded by html5ever).
@@ -335,7 +369,10 @@ mod tests {
         assert_eq!(rows.len(), 3);
         assert!(skips.is_empty());
         // First €/AB field wins (BAR ab 1 kg), tiers are dropped.
-        assert_eq!(rows[0], ("Kupfer-Schrott \"Millberry\"".to_owned(), 10.75, "EUR/kg"));
+        assert_eq!(
+            rows[0],
+            ("Kupfer-Schrott \"Millberry\"".to_owned(), 10.75, "EUR/kg")
+        );
         assert_eq!(rows[1], ("Kupfer-Kabel 40 %".to_owned(), 3.45, "EUR/kg"));
         assert_eq!(rows[2], ("Blei-Kupfer-Kabel".to_owned(), 0.3, "EUR/kg"));
         assert!(parse("<div>Redesign ohne Karten</div>").is_err());
@@ -343,19 +380,34 @@ mod tests {
 
     #[test]
     fn mapping_splits_sorts_and_skips_lead_cable() {
-        assert_eq!(grade_for("Kupfer-Schrott \"Millberry\""), Some(("kupfer-millberry", "")));
+        assert_eq!(
+            grade_for("Kupfer-Schrott \"Millberry\""),
+            Some(("kupfer-millberry", ""))
+        );
         assert_eq!(
             grade_for("Kupfer-Schrott \"Schwer\" (Berry / Candy / Kerze)"),
             Some(("kupfer-berry", "Schwer"))
         );
-        assert_eq!(grade_for("Kupfer-Schrott \"Raff\""), Some(("kupfer-gemischt", "Raff")));
-        assert_eq!(grade_for("Kupfer-Späne (trocken)"), Some(("kupfer-gemischt", "Späne")));
+        assert_eq!(
+            grade_for("Kupfer-Schrott \"Raff\""),
+            Some(("kupfer-gemischt", "Raff"))
+        );
+        assert_eq!(
+            grade_for("Kupfer-Späne (trocken)"),
+            Some(("kupfer-gemischt", "Späne"))
+        );
         assert_eq!(
             grade_for("Elektromotoren / Trafos / Vorschaltgeräte"),
             Some(("elektromotoren", ""))
         );
-        assert_eq!(grade_for("Kupfer-Kabel 40 %"), Some(("kabel-kupfer", "40%")));
-        assert_eq!(grade_for("Kupfer-Kabel 90 %"), Some(("kabel-kupfer", "90%")));
+        assert_eq!(
+            grade_for("Kupfer-Kabel 40 %"),
+            Some(("kabel-kupfer", "40%"))
+        );
+        assert_eq!(
+            grade_for("Kupfer-Kabel 90 %"),
+            Some(("kabel-kupfer", "90%"))
+        );
         assert_eq!(
             grade_for("Kupfer-Kabel mit Stecker"),
             Some(("kabel-kupfer", "mit Stecker"))
@@ -366,7 +418,10 @@ mod tests {
     #[test]
     fn impressum_blocks_and_cfemail() {
         // Live cfemail value decodes to the trader's mailbox.
-        assert_eq!(decode_cfemail("a4cdcac2cbe4d4c5d4cdc1d6c2d6cdd0dec18ac0c1").as_deref(), Some("info@papierfritze.de"));
+        assert_eq!(
+            decode_cfemail("a4cdcac2cbe4d4c5d4cdc1d6c2d6cdd0dec18ac0c1").as_deref(),
+            Some("info@papierfritze.de")
+        );
         assert_eq!(decode_cfemail("zz"), None);
         let imp = "<h4>Kontakt</h4><p>Telefon: <a href=\"tel:08004020050\">0800 40 200 50</a><br/>\
             Email: <a href=\"/cdn-cgi/l/email-protection#c1\"><span class=\"__cf_email__\" data-cfemail=\"a4cdcac2cbe4d4c5d4cdc1d6c2d6cdd0dec18ac0c1\">[email protected]</span></a></p>\

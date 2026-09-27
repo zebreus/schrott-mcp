@@ -35,7 +35,12 @@ pub const BRANCH_URL: &str =
 pub const URL: &str = "https://degussa.com/de-de/header_navigation/preise/goldrechner/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -145,18 +150,20 @@ fn fineness(l: &str) -> &'static str {
 
 /// Parse the calculator window between the form and the result block.
 /// Returns (rows, skips); rows carry (label, price, unit).
-fn parse(
-    html: &str,
-) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("id=\"goldCalculatorForm\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Goldrechner fehlt".to_owned(),
-    })?;
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+    let start = html
+        .find("id=\"goldCalculatorForm\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Goldrechner fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("goldCalculator__result").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Goldrechner unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("goldCalculator__result")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Goldrechner unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
     let row_sel = Selector::parse("div.metalType").expect("valid selector");
@@ -181,8 +188,11 @@ fn parse(
         if grade.is_empty() || grade.len() > 120 {
             continue;
         }
-        let label =
-            if category.is_empty() { grade.clone() } else { format!("{category} {grade}") };
+        let label = if category.is_empty() {
+            grade.clone()
+        } else {
+            format!("{category} {grade}")
+        };
         // Machine attribute, dot decimals ("110.8100") — parsed as-is by
         // the bespoke helper below, never through locale guessing.
         let price_attr = row.value().attr("data-price").unwrap_or_default();
@@ -198,13 +208,19 @@ fn parse(
         // An unparseable unit is a loud skip, never a silent default: a
         // per-kilo price recorded as per-gram would be a 1000x error.
         let Some(unit) = unit_of(&unit_text) else {
-            skips.push(format!("{label} (Einheit unverständlich: {})", unit_text.trim()));
+            skips.push(format!(
+                "{label} (Einheit unverständlich: {})",
+                unit_text.trim()
+            ));
             continue;
         };
         rows.push((label, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Goldrechner leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Goldrechner leer".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -218,7 +234,11 @@ fn price_of(attr: &str) -> Option<f64> {
         return None;
     }
     let v: f64 = s.parse().ok()?;
-    if v.is_finite() && v > 0.0 { Some(v) } else { None }
+    if v.is_finite() && v > 0.0 {
+        Some(v)
+    } else {
+        None
+    }
 }
 
 /// Bespoke unit matcher for THIS calculator's unit spans (live: "/g").
@@ -229,7 +249,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
         Some("EUR/g")
     } else if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|t| t == "t") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|t| t == "t")
+    {
         Some("EUR/t")
     } else {
         None
@@ -242,18 +265,23 @@ fn unit_of(cell: &str) -> Option<&'static str> {
 /// href currently points at a Berlin number) and a mailto: link.
 /// Missing anchor or closing div → loud error, never a guessed fallback.
 fn extract_info(branch: &str) -> Result<TraderInfo, IngestError> {
-    let start = branch.find(">Kontakt:</h2>").ok_or_else(|| IngestError::Parse {
-        url: BRANCH_URL.to_owned(),
-        detail: "Kontakt-Block fehlt".to_owned(),
-    })?;
+    let start = branch
+        .find(">Kontakt:</h2>")
+        .ok_or_else(|| IngestError::Parse {
+            url: BRANCH_URL.to_owned(),
+            detail: "Kontakt-Block fehlt".to_owned(),
+        })?;
     let tail = &branch[start..];
     let end = tail.find("</div>").ok_or_else(|| IngestError::Parse {
         url: BRANCH_URL.to_owned(),
         detail: "Kontakt-Block unvollständig".to_owned(),
     })?;
     let window = &tail[..end];
-    let lines: Vec<String> =
-        window.split("<br").map(strip_fragment).filter(|s| !s.is_empty()).collect();
+    let lines: Vec<String> = window
+        .split("<br")
+        .map(strip_fragment)
+        .filter(|s| !s.is_empty())
+        .collect();
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
     let (mut phone, mut email) = (String::new(), String::new());
     let mut prev = String::new();
@@ -284,7 +312,13 @@ fn extract_info(branch: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -316,7 +350,8 @@ mod tests {
     // Real shape of the live calculator (form id, data-category groups,
     // data-id + machine data-price, label text, /g span, result block),
     // trimmed to eleven of eighteen rows (inputs shortened).
-    const FIXTURE: &str = "<form id=\"goldCalculatorForm\" data-locale=\"de-DE\" data-currency=\"EUR\">\
+    const FIXTURE: &str =
+        "<form id=\"goldCalculatorForm\" data-locale=\"de-DE\" data-currency=\"EUR\">\
         <div class=\"slidecontent\"><div class=\"slidecontentItem gold\" data-category=\"Gold\">\
         <div class=\"slidecontentItem__content\"><fieldset>\
         <div class=\"metalType\" data-id=\"1S999\" data-price=\"110.8100\">\
@@ -375,7 +410,10 @@ mod tests {
         assert_eq!(rows[1], ("Gold 585".to_owned(), 59.96, "EUR/g"));
         assert_eq!(rows[3], ("Gold Dentalgold".to_owned(), 83.31, "EUR/g"));
         assert_eq!(rows[4], ("Silber Feinsilber 999".to_owned(), 1.38, "EUR/g"));
-        assert_eq!(rows[6], ("Platin Feinplatin 999".to_owned(), 35.96, "EUR/g"));
+        assert_eq!(
+            rows[6],
+            ("Platin Feinplatin 999".to_owned(), 35.96, "EUR/g")
+        );
         assert_eq!(rows[10], ("Palladium 500".to_owned(), 12.36, "EUR/g"));
         assert_eq!(unit_of("/g"), Some("EUR/g"));
         assert_eq!(unit_of("pro Sack"), None);
@@ -402,7 +440,10 @@ mod tests {
         assert_eq!(grade_for("Silber 800"), Some(("silber", "800")));
         assert_eq!(grade_for("Platin Feinplatin 999"), Some(("platin", "999")));
         assert_eq!(grade_for("Platin 950"), Some(("platin", "950")));
-        assert_eq!(grade_for("Palladium Feinpalladium 999"), Some(("palladium", "999")));
+        assert_eq!(
+            grade_for("Palladium Feinpalladium 999"),
+            Some(("palladium", "999"))
+        );
         assert_eq!(grade_for("Palladium 950"), Some(("palladium", "950")));
         assert_eq!(grade_for("Palladium 500"), Some(("palladium", "500")));
         // Unknown alloy: loud skip, never a generic variant.

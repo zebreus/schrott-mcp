@@ -113,7 +113,10 @@ pub async fn run_due_with(
         let step_id = match internal.create_step(run_id, h.slug, &step_at) {
             Ok(id) => id,
             Err(e) => {
-                tracing::warn!(slug = h.slug, "step bookkeeping failed, running unrecorded: {e}");
+                tracing::warn!(
+                    slug = h.slug,
+                    "step bookkeeping failed, running unrecorded: {e}"
+                );
                 0
             }
         };
@@ -173,7 +176,11 @@ pub async fn run_due_with(
                         // is recorded, but a human should check the scraper.
                         // They travel in their own vec so the run status can
                         // distinguish "broken" from "look at this".
-                        let status = if summary.canaries.is_empty() { "ok" } else { "warning" };
+                        let status = if summary.canaries.is_empty() {
+                            "ok"
+                        } else {
+                            "warning"
+                        };
                         for c in &summary.canaries {
                             tracing::warn!(slug = h.slug, "canary: {c}");
                             warnings.push(format!("{}: {c}", h.slug));
@@ -220,9 +227,7 @@ fn journal(
 /// Close a step unless bookkeeping already failed (step_id 0).
 fn close_step(internal: &InternalDb, step_id: i64, status: &str, n: i64, detail: &str) {
     if step_id != 0 {
-        if let Err(e) =
-            internal.finish_step(step_id, status, n, detail, &Utc::now().to_rfc3339())
-        {
+        if let Err(e) = internal.finish_step(step_id, status, n, detail, &Utc::now().to_rfc3339()) {
             tracing::warn!("step bookkeeping failed: {e}");
         }
     }
@@ -230,9 +235,9 @@ fn close_step(internal: &InternalDb, step_id: i64, status: &str, n: i64, detail:
 
 #[cfg(test)]
 mod tests {
+    use super::super::TraderInfo;
     use super::{initial_due, next_after, next_daily_after};
     use super::{Handler, Schedule};
-    use super::super::TraderInfo;
     use chrono::{TimeZone, Utc};
     use schrott_mcp_store::{InternalDb, PublicDb};
 
@@ -250,8 +255,14 @@ mod tests {
             .iter()
             .map(|s| initial_due(boot, s, &Schedule::every_6h()))
             .collect();
-        assert!(dues.iter().all(|d| *d >= boot && *d <= boot + chrono::Duration::hours(6)));
-        let span = dues.iter().max().unwrap().signed_duration_since(*dues.iter().min().unwrap());
+        assert!(dues
+            .iter()
+            .all(|d| *d >= boot && *d <= boot + chrono::Duration::hours(6)));
+        let span = dues
+            .iter()
+            .max()
+            .unwrap()
+            .signed_duration_since(*dues.iter().min().unwrap());
         assert!(span > chrono::Duration::minutes(30), "span {span}");
     }
 
@@ -288,9 +299,9 @@ mod tests {
                     label: "Test".to_owned(),
                 }],
                 acceptances: vec![],
-                    trader_info: TraderInfo::default(),
-                    website_alive: false,
-                    skipped_labels: vec![],
+                trader_info: TraderInfo::default(),
+                website_alive: false,
+                skipped_labels: vec![],
                 fetch_url: "https://example.test/".to_owned(),
                 status_code: 200,
                 byte_len: 10,
@@ -307,7 +318,11 @@ mod tests {
             f: for<'a> fn(
                 &'a reqwest::Client,
             ) -> std::pin::Pin<
-                Box<dyn std::future::Future<Output = Result<HandlerOutcome, crate::IngestError>> + Send + 'a>,
+                Box<
+                    dyn std::future::Future<Output = Result<HandlerOutcome, crate::IngestError>>
+                        + Send
+                        + 'a,
+                >,
             >,
         ) -> super::super::ScrapeFn {
             f
@@ -353,8 +368,18 @@ mod tests {
         let run = internal.create_run("2026-09-27T00:00:00Z").expect("run");
         let client = reqwest::Client::new();
         let handlers = vec![
-            Handler { slug: "bb-lauchhammer-ost-lausitz-recycling", url: "https://example.test/", schedule: Schedule::every_6h(), scrape: ok_fn },
-            Handler { slug: "kaputt-test", url: "https://example.test/", schedule: Schedule::every_6h(), scrape: bad_fn },
+            Handler {
+                slug: "bb-lauchhammer-ost-lausitz-recycling",
+                url: "https://example.test/",
+                schedule: Schedule::every_6h(),
+                scrape: ok_fn,
+            },
+            Handler {
+                slug: "kaputt-test",
+                url: "https://example.test/",
+                schedule: Schedule::every_6h(),
+                scrape: bad_fn,
+            },
         ];
         let (recorded, failed, warnings) =
             super::run_due_with(&handlers, &internal, &public, &client, run, true).await;
@@ -367,5 +392,4 @@ mod tests {
         assert_eq!(warnings.len(), 1);
         assert!(warnings[0].contains("0 Preise"));
     }
-
 }

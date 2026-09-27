@@ -5,9 +5,7 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "he-lorsch-quell-recycling";
@@ -18,9 +16,12 @@ pub const IMPRESSUM_URL: &str = "https://www.quellrecycling.de/impressum";
 pub const URL: &str = "https://www.quellrecycling.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| {
-        Box::pin(scrape(c))
-    } }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -171,7 +172,6 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
     Ok(out)
 }
 
-
 /// Bespoke contact extraction for THIS impressum only: the address lines
 /// after the "Angaben" heading ("Quell Recycling GmbH" /
 /// "Ludwig-Erhard-Straße 30" / "64653 Lorsch") plus the labeled
@@ -179,9 +179,9 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h1 = Selector::parse("h1").expect("valid selector");
-    let anchor = doc.select(&h1).find(|h| {
-        h.text().collect::<String>().contains("Angaben")
-    });
+    let anchor = doc
+        .select(&h1)
+        .find(|h| h.text().collect::<String>().contains("Angaben"));
     let Some(_) = anchor else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -262,7 +262,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a fragment (html5ever already decoded entities).
@@ -292,7 +298,8 @@ fn strip_fragment(s: &str) -> String {
 mod tests {
     use super::{grade_for, parse};
 
-    const FIXTURE: &str = "<div>Aluminium<br>Alu-Sp&auml;hne<br>Alu-Profile<br>Kupfer-Millberry<br>\
+    const FIXTURE: &str =
+        "<div>Aluminium<br>Alu-Sp&auml;hne<br>Alu-Profile<br>Kupfer-Millberry<br>\
         Kupfer-Kabel<br>Messing-Sp&auml;ne<br>V2a<br>Zink<br>Unbekanntes Zeug<br>\
         Buntmetalle aller Art<br>Stahlträger<br>Blech<br>Eisen aller Art</div>\
         <p>Folgende Rohstoffe nehmen wir an</p>";
@@ -321,10 +328,7 @@ mod tests {
             grade_for("Kupfer-Millberry"),
             Some(vec![("kupfer-millberry", "")])
         );
-        assert_eq!(
-            grade_for("Messing-Späne"),
-            Some(vec![("messing", "Späne")])
-        );
+        assert_eq!(grade_for("Messing-Späne"), Some(vec![("messing", "Späne")]));
         assert_eq!(
             grade_for("Alu-Späne"),
             Some(vec![("aluminium-gemischt", "Späne")])

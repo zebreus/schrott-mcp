@@ -29,8 +29,7 @@ pub const SLUG: &str = "hb-bremen-28195-rheinische-scheidestatte-bremen";
 pub const URL: &str = "https://rheinische-scheidestaette.de/unternehmen/filialen/bremen/";
 /// Bespoke, live-verified branch contact anchor page (same page — the
 /// branch block is the contact source of truth, never the HQ impressum).
-pub const IMPRESSUM_URL: &str =
-    "https://rheinische-scheidestaette.de/unternehmen/filialen/bremen/";
+pub const IMPRESSUM_URL: &str = "https://rheinische-scheidestaette.de/unternehmen/filialen/bremen/";
 /// Central Kurse URL, hardcoded per file on purpose (intentional
 /// duplication, never a shared constant). Live-checked per scrape: spot
 /// rows become loud skips, never prices.
@@ -41,7 +40,12 @@ pub const KURSE_URL: &str =
 const CITY_ANCHOR: &str = "Rheinische Scheidestätte GmbH - Bremen";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -114,15 +118,19 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// map pane. Missing anchors → `Err`, never an empty success; 0 rows =
 /// `Err` (silent success would hide a redesign).
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
-    let start = html.find("store-servicelist").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Annahmeliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("store-servicelist")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Annahmeliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("id=\"nav-map\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Annahmeliste unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("id=\"nav-map\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Annahmeliste unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
     let li = Selector::parse("li").expect("valid selector");
@@ -150,7 +158,9 @@ fn kurse_skips(html: &str) -> Vec<String> {
     };
     let tail = &html[start..];
     let Some(end) = tail.find("Preise in EUR pro Feinunze") else {
-        return vec![format!("Kurse-Block unvollständig ({KURSE_URL}: Redesign?)")];
+        return vec![format!(
+            "Kurse-Block unvollständig ({KURSE_URL}: Redesign?)"
+        )];
     };
     let window = &tail[..end];
     let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
@@ -158,11 +168,23 @@ fn kurse_skips(html: &str) -> Vec<String> {
     let price = Selector::parse("span.price").expect("valid selector");
     let metals: Vec<String> = frag
         .select(&metal)
-        .map(|el| el.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" "))
+        .map(|el| {
+            el.text()
+                .collect::<String>()
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ")
+        })
         .collect();
     let prices: Vec<String> = frag
         .select(&price)
-        .map(|el| el.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" "))
+        .map(|el| {
+            el.text()
+                .collect::<String>()
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ")
+        })
         .collect();
     if metals.is_empty() {
         return vec![format!("Kurse-Block leer ({KURSE_URL}: Redesign?)")];
@@ -171,7 +193,10 @@ fn kurse_skips(html: &str) -> Vec<String> {
         .into_iter()
         .zip(prices.into_iter().chain(std::iter::repeat(String::new())))
         .map(|(m, p)| {
-            format!("{m} {} (Börsenkurs je Feinunze, kein Ankaufspreis pro Gramm)", p.trim())
+            format!(
+                "{m} {} (Börsenkurs je Feinunze, kein Ankaufspreis pro Gramm)",
+                p.trim()
+            )
         })
         .collect()
 }
@@ -184,18 +209,29 @@ fn kurse_skips(html: &str) -> Vec<String> {
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h3 = Selector::parse("h3").expect("valid selector");
-    if !doc.select(&h3).any(|el| el.text().collect::<String>().contains(CITY_ANCHOR)) {
+    if !doc
+        .select(&h3)
+        .any(|el| el.text().collect::<String>().contains(CITY_ANCHOR))
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Filial-Block fehlt".to_owned(),
         });
     }
     let div = Selector::parse("div.address").expect("valid selector");
-    let addr_html = doc.select(&div).next().map(|el| el.inner_html()).ok_or_else(|| {
-        IngestError::Parse { url: IMPRESSUM_URL.to_owned(), detail: "Adress-Block fehlt".to_owned() }
-    })?;
-    let addr_lines: Vec<String> =
-        addr_html.split("<br").map(strip_fragment).filter(|s| !s.is_empty()).collect();
+    let addr_html = doc
+        .select(&div)
+        .next()
+        .map(|el| el.inner_html())
+        .ok_or_else(|| IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Adress-Block fehlt".to_owned(),
+        })?;
+    let addr_lines: Vec<String> = addr_html
+        .split("<br")
+        .map(strip_fragment)
+        .filter(|s| !s.is_empty())
+        .collect();
     let street = addr_lines.first().cloned().unwrap_or_default();
     let (mut postcode, mut city) = (String::new(), String::new());
     for line in &addr_lines {
@@ -220,8 +256,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     if let Some(pdiv) = doc.select(&phone_div).next() {
         for link in pdiv.select(&a) {
             let href = link.value().attr("href").unwrap_or_default();
-            let text: String =
-                link.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ");
+            let text: String = link
+                .text()
+                .collect::<String>()
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ");
             if href.starts_with("tel:") && phone.is_empty() {
                 phone = text;
             } else if href.starts_with("mailto:") && email.is_empty() {
@@ -229,7 +269,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             }
         }
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -285,7 +331,10 @@ mod tests {
         assert!(first.contains("Ankauf von Edelmetallen"), "{first}");
         let fan = grade_for(first).expect("fans out");
         let mats: Vec<&str> = fan.iter().map(|(m, _)| *m).collect();
-        assert_eq!(mats, vec!["gold", "zahngold", "silber", "platin", "palladium"]);
+        assert_eq!(
+            mats,
+            vec!["gold", "zahngold", "silber", "platin", "palladium"]
+        );
         assert_eq!(
             grade_for("Ankauf von Markenschmuck"),
             Some(vec![("gold", "Markenschmuck")])
@@ -305,8 +354,14 @@ mod tests {
     fn kurse_spots_skip_loudly() {
         let skips = kurse_skips(FIXTURE_KURSE);
         assert_eq!(skips.len(), 2);
-        assert!(skips[0].contains("Gold") && skips[0].contains("Feinunze"), "{skips:?}");
-        assert!(skips[1].contains("Silber") && skips[1].contains("Feinunze"), "{skips:?}");
+        assert!(
+            skips[0].contains("Gold") && skips[0].contains("Feinunze"),
+            "{skips:?}"
+        );
+        assert!(
+            skips[1].contains("Silber") && skips[1].contains("Feinunze"),
+            "{skips:?}"
+        );
         let note = kurse_skips("<div>Redesign</div>");
         assert_eq!(note.len(), 1);
         assert!(note[0].contains("Kurse-Block fehlt"), "{note:?}");
@@ -324,7 +379,9 @@ mod tests {
         assert_eq!(info.city, "Bremen");
         assert_eq!(info.phone, "0421-34662904");
         assert_eq!(info.email, "info-bremen@rheinische-scheidestaette.de");
-        assert!(extract_info("<h3 class=\"h4\">Rheinische Scheidestätte GmbH - Trier</h3>").is_err());
+        assert!(
+            extract_info("<h3 class=\"h4\">Rheinische Scheidestätte GmbH - Trier</h3>").is_err()
+        );
         assert!(extract_info("<p>Neu hier</p>").is_err());
     }
 }

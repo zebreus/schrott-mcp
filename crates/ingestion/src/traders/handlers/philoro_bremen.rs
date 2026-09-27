@@ -31,7 +31,12 @@ pub const IMPRESSUM_URL: &str = "https://philoro.de/filialen/bremen";
 const BRANCH_STREET: &str = "Wachtstraße 20";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -99,15 +104,19 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// distinct link texts or prose-length names skip loudly. Zero product
 /// rows → `Err` (a redesign must never look like success).
 fn parse(html: &str) -> Result<(Vec<String>, Vec<String>), IngestError> {
-    let start = html.find("Nur verfügbare Produkte anzeigen").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisliste: Filter-Anker fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Nur verfügbare Produkte anzeigen")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisliste: Filter-Anker fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("Die philoro Edelmetall-Preisliste").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisliste: Ende-Anker fehlt".to_owned(),
-    })?;
+    let end = tail
+        .find("Die philoro Edelmetall-Preisliste")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisliste: Ende-Anker fehlt".to_owned(),
+        })?;
     let window = &tail[..end];
     for head in ["Feingewicht", "Verkaufspreis", "Kaufpreis"] {
         if !window.contains(head) {
@@ -228,7 +237,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 #[cfg(test)]
@@ -269,7 +284,10 @@ mod tests {
 
     #[test]
     fn metals_map_silber_before_gold() {
-        assert_eq!(grade_for("Gold Philharmoniker 1 oz - 2026"), Some(vec![("gold", "")]));
+        assert_eq!(
+            grade_for("Gold Philharmoniker 1 oz - 2026"),
+            Some(vec![("gold", "")])
+        );
         assert_eq!(
             grade_for("Silber Maple Leaf 1 oz - 2026"),
             Some(vec![("silber", "")])
@@ -309,7 +327,10 @@ mod tests {
         assert_eq!(info.email, "bremen@philoro.de");
         assert!(extract_info("<div>ohne Adressblock</div>").is_err());
         // Another branch's page must not pass as Bremen.
-        let other = imp.replace("Wachtstraße 20, 28195 Bremen", "Neuer Wall 77, 20354 Hamburg");
+        let other = imp.replace(
+            "Wachtstraße 20, 28195 Bremen",
+            "Neuer Wall 77, 20354 Hamburg",
+        );
         assert!(extract_info(&other).is_err());
     }
 }

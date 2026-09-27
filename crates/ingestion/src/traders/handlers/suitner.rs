@@ -31,7 +31,12 @@ pub const URL: &str = "https://www.goldankauf-luebeck.de/ankaufspreise/";
 pub const URL_PAGE2: &str = "https://www.goldankauf-luebeck.de/ankaufspreise/?p=2";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -59,7 +64,9 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 confidence: Some(1.0),
                 label,
             }),
-            None => skipped_labels.push(format!("{label} ({price:.2} {unit}, Stückpreis ohne Gramm-Notierung)")),
+            None => skipped_labels.push(format!(
+                "{label} ({price:.2} {unit}, Stückpreis ohne Gramm-Notierung)"
+            )),
         }
     }
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
@@ -85,8 +92,20 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     for item in [
-        "unze", "gramm", "sovereign", "dukaten", "rubel", "kronen", "franken", "mark",
-        "philharmoniker", "maple", "krügerrand", "vreneli", "corona", "silberbarren",
+        "unze",
+        "gramm",
+        "sovereign",
+        "dukaten",
+        "rubel",
+        "kronen",
+        "franken",
+        "mark",
+        "philharmoniker",
+        "maple",
+        "krügerrand",
+        "vreneli",
+        "corona",
+        "silberbarren",
     ] {
         if l.contains(item) {
             return None;
@@ -112,7 +131,9 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 
 /// First fineness run in the label ("Ankauf 585 Gold" → "585").
 fn fineness(l: &str) -> &'static str {
-    for fin in ["999", "986", "950", "925", "900", "835", "800", "750", "585", "333"] {
+    for fin in [
+        "999", "986", "950", "925", "900", "835", "800", "750", "585", "333",
+    ] {
         if l.contains(fin) {
             return fin;
         }
@@ -125,15 +146,19 @@ fn fineness(l: &str) -> &'static str {
 /// itself prints no unit, so the fineness match IS the unit proof —
 /// anything else skips loudly via grade_for, never a default.
 fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("listing--container").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Produktliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("listing--container")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Produktliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("listing--bottom").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Produktliste unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("listing--bottom")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Produktliste unvollständig".to_owned(),
+        })?;
     let frag = Html::parse_fragment(&format!("<div>{}</div>", &tail[..end]));
     let box_sel = Selector::parse("div.product--box").expect("valid selector");
     let title_sel = Selector::parse("a.product--title").expect("valid selector");
@@ -158,13 +183,19 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             continue;
         }
         let Some(price) = parse_eur(&price_text) else {
-            skips.push(format!("{label} (Preis unverständlich: {})", price_text.trim()));
+            skips.push(format!(
+                "{label} (Preis unverständlich: {})",
+                price_text.trim()
+            ));
             continue;
         };
         rows.push((label, price, "EUR/g"));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Produktliste leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Produktliste leer".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -225,7 +256,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (drop up to the first '>').
@@ -277,14 +314,20 @@ mod tests {
     #[test]
     fn fineness_maps_items_skip() {
         assert_eq!(grade_for("Ankauf 585 Gold"), Some(("gold", "585")));
-        assert_eq!(grade_for("Ankauf 999 Gold Schmelzware"), Some(("gold", "999")));
+        assert_eq!(
+            grade_for("Ankauf 999 Gold Schmelzware"),
+            Some(("gold", "999"))
+        );
         assert_eq!(
             grade_for("Ankauf Zahngold (ohne Zähne)"),
             Some(("zahngold", ""))
         );
         assert_eq!(grade_for("Ankauf 925 Silber"), Some(("silber", "925")));
         assert_eq!(grade_for("Ankauf Platin 999"), Some(("platin", "999")));
-        assert_eq!(grade_for("Ankauf Palladium 999"), Some(("palladium", "999")));
+        assert_eq!(
+            grade_for("Ankauf Palladium 999"),
+            Some(("palladium", "999"))
+        );
         // Item prices, never gram rates.
         for label in [
             "Ankauf 1 Unze Feingold Krügerrand",

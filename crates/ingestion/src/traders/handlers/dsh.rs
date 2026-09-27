@@ -163,9 +163,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     // nodes ("29"+"47139"), so split the <p> on <br> into real lines
     // instead of tokenizing the glued whole-page text.
     let p_sel = Selector::parse("p").expect("valid selector");
-    let firm_p = doc.select(&p_sel).find(|p| {
-        p.text().collect::<String>().contains("DSH Schrotthandel")
-    });
+    let firm_p = doc
+        .select(&p_sel)
+        .find(|p| p.text().collect::<String>().contains("DSH Schrotthandel"));
     let Some(firm_p) = firm_p else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -230,23 +230,30 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     })
 }
 
-
 /// First email address in the text after a label: expand from the '@'
 /// over email characters (glued block boundaries defeat tokenizing).
 fn email_token(r: &str) -> String {
-    let Some(at) = r.find('@') else { return String::new() };
+    let Some(at) = r.find('@') else {
+        return String::new();
+    };
     let b = r.as_bytes();
     let is_email = |c: u8| c.is_ascii_alphanumeric() || b".-_+@".contains(&c);
     let mut s = at;
-    while s > 0 && is_email(b[s - 1]) { s -= 1; }
+    while s > 0 && is_email(b[s - 1]) {
+        s -= 1;
+    }
     let mut e = at + 1;
-    while e < b.len() && is_email(b[e]) { e += 1; }
+    while e < b.len() && is_email(b[e]) {
+        e += 1;
+    }
     let cand = &r[s..e];
     // Glued trailing prose ("…deGeschäftsführer:") survives the
     // expansion (all alphanumeric) — cut at the end of the domain.
     for suffix in [".de", ".com", ".net", ".org", ".eu", ".info", ".biz"] {
         if let Some(p) = cand.rfind(suffix) {
-            let cut = cand[..p + suffix.len()].trim_matches(|c| c == '[' || c == ']').to_owned();
+            let cut = cand[..p + suffix.len()]
+                .trim_matches(|c| c == '[' || c == ']')
+                .to_owned();
             if cut.contains('@') && !cut.starts_with('@') {
                 return cut;
             }

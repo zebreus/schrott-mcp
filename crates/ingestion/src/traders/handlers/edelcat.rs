@@ -26,7 +26,12 @@ pub const IMPRESSUM_URL: &str = "https://www.edelcat.de/impressum";
 pub const URL: &str = "https://www.edelcat.de/katalog";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -111,10 +116,12 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
     // Window: the prose list between the catalog-download heading and
     // the "ALLE ANGABEN OHNE GEWÄHR" disclaimer. Nav, footer and brand
     // catalog download links stay outside.
-    let start = html.find("Kataloge zum Download").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Katalog-Block fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Kataloge zum Download")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Katalog-Block fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("ALLE ANGABEN OHNE GEW").unwrap_or(tail.len());
     let window = &tail[..end];
@@ -166,7 +173,11 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let texts: Vec<String> = root
         .select(&p)
         .map(|el| {
-            el.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ")
+            el.text()
+                .collect::<String>()
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ")
         })
         .collect();
     if !texts.iter().any(|t| t.contains("EDELCAT GmbH")) {
@@ -220,7 +231,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             }
         }
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 #[cfg(test)]

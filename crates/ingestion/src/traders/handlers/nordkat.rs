@@ -9,9 +9,7 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "ni-harsefeld-21698-nordkat";
@@ -22,7 +20,12 @@ pub const IMPRESSUM_URL: &str = "https://www.nordkat.de/Impressum/";
 pub const URL: &str = "https://www.nordkat.de/Preislisten-ankaufspreise-edelmetalle/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -96,9 +99,12 @@ fn parse(html: &str) -> Result<(Vec<String>, Vec<String>), IngestError> {
     // Window: the four "Preisliste …" groups live between the page H1 and
     // the shipping-note section ("Begleitschreiben"). Footer link lists
     // must never leak in as groups.
-    let start = html.find("Preislisten zu unseren Ankaufspreisen").ok_or_else(|| {
-        IngestError::Parse { url: URL.to_owned(), detail: "Preislisten-Kopf fehlt".to_owned() }
-    })?;
+    let start = html
+        .find("Preislisten zu unseren Ankaufspreisen")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preislisten-Kopf fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("Begleitschreiben").unwrap_or(tail.len());
     let window = &tail[..end];
@@ -128,7 +134,10 @@ fn parse(html: &str) -> Result<(Vec<String>, Vec<String>), IngestError> {
             continue;
         }
         if t.starts_with("Preisliste ") {
-            let name = t["Preisliste ".len()..].trim_end_matches(':').trim().to_owned();
+            let name = t["Preisliste ".len()..]
+                .trim_end_matches(':')
+                .trim()
+                .to_owned();
             if !name.is_empty() {
                 labels.push(name);
             }
@@ -206,7 +215,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         .map(|i| {
             all[i + "Telefon Einkauf:".len()..]
                 .split_whitespace()
-                .take_while(|t| t.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c)))
+                .take_while(|t| {
+                    t.chars()
+                        .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+                })
                 .collect::<Vec<_>>()
                 .join(" ")
         })
@@ -230,7 +242,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Decode the hex-mailto this impressum uses (`%6B` → `k`, …).
@@ -314,12 +332,18 @@ mod tests {
         assert!(parse("<h1>Preislisten zu unseren Ankaufspreisen</h1>").is_err());
         assert!(parse("<p>Kein Kopf hier</p>").is_err());
         assert!(extract_info("<p>Neu hier</p>").is_err());
-        assert!(extract_info("<p>Geschäftsführer: X</p>").is_err(), "street anchor");
+        assert!(
+            extract_info("<p>Geschäftsführer: X</p>").is_err(),
+            "street anchor"
+        );
     }
 
     #[test]
     fn impressum_hex_mailto() {
-        assert_eq!(percent_decode("%6B%6F%6E%74%61%6B%74%40nordkat.de"), "kontakt@nordkat.de");
+        assert_eq!(
+            percent_decode("%6B%6F%6E%74%61%6B%74%40nordkat.de"),
+            "kontakt@nordkat.de"
+        );
         let imp = "<h2 class=\"cm-h1\"><span>NORD</span>KAT <span>GmbH</span></h2>\
             <h2 class=\"cm-h1\"><span><span>Geschäftsführer:</span><span> Dietmar Kaun</span></span></h2>\
             <h2 class=\"cm-h1\"><span>Am Bauhof 5</span></h2>\

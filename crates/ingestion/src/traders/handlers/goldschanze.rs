@@ -23,7 +23,12 @@ pub const IMPRESSUM_URL: &str = "https://goldschanze.de/impressum/";
 pub const URL: &str = "https://goldschanze.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -44,7 +49,9 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 confidence: Some(1.0),
                 label,
             }),
-            None => skipped_labels.push(format!("{label} ({price:.2} {unit}, kein Katalogmaterial")),
+            None => {
+                skipped_labels.push(format!("{label} ({price:.2} {unit}, kein Katalogmaterial"))
+            }
         }
     }
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
@@ -77,7 +84,9 @@ fn grade_for(metal: &str, label: &str) -> Option<(&'static str, &'static str)> {
 /// First fineness run in the label ("999 (24K)" → "999").
 fn fineness(label: &str) -> &'static str {
     let l = label.to_lowercase();
-    for fin in ["999", "986", "925", "916", "900", "875", "835", "800", "750", "625", "585", "375", "333"] {
+    for fin in [
+        "999", "986", "925", "916", "900", "875", "835", "800", "750", "625", "585", "375", "333",
+    ] {
         if l.contains(fin) {
             return fin;
         }
@@ -101,7 +110,14 @@ fn unit_of(cell: &str) -> Option<&'static str> {
 /// (metal, label, price, unit).
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, String, f64, &'static str)>, Vec<String>), IngestError> {
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     let doc = Html::parse_document(html);
     let table_sel = Selector::parse("table.uael-table").expect("valid selector");
     let tr_sel = Selector::parse("tbody tr").expect("valid selector");
@@ -111,7 +127,10 @@ fn parse(
         .filter(|t| t.text().collect::<String>().contains("Reinheit"))
         .collect();
     if tables.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Reinheit-Tabellen fehlen".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Reinheit-Tabellen fehlen".to_owned(),
+        });
     }
     let mut rows = Vec::new();
     let mut skips = Vec::new();
@@ -153,7 +172,9 @@ fn parse(
                 continue;
             }
             let (label, price_cell) = (cells[0].clone(), cells[1].clone());
-            let Some(price) = parse_eur(&price_cell) else { continue };
+            let Some(price) = parse_eur(&price_cell) else {
+                continue;
+            };
             let Some(unit) = unit_of(&price_cell) else {
                 skips.push(format!("{label} (Einheit unverständlich: {price_cell})"));
                 continue;
@@ -162,7 +183,10 @@ fn parse(
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Reinheit-Tabellen leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Reinheit-Tabellen leer".to_owned(),
+        });
     }
     Ok((date_in(html), rows, skips))
 }
@@ -221,10 +245,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         for (k, line) in lines.iter().enumerate() {
             let mut it = line.split_whitespace();
             if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
-                if postcode.is_empty()
-                    && pc.len() == 5
-                    && pc.chars().all(|c| c.is_ascii_digit())
-                {
+                if postcode.is_empty() && pc.len() == 5 && pc.chars().all(|c| c.is_ascii_digit()) {
                     postcode = pc.to_owned();
                     city = ci.to_owned();
                     if k > 0 {
@@ -234,7 +255,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
                 }
             }
             if phone.is_empty() {
-                if let Some(v) = line.strip_prefix("Tel:").or_else(|| line.strip_prefix("Telefon:")) {
+                if let Some(v) = line
+                    .strip_prefix("Tel:")
+                    .or_else(|| line.strip_prefix("Telefon:"))
+                {
                     phone = v.trim().to_owned();
                 }
             }
@@ -251,7 +275,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (drop up to the first '>').
@@ -294,15 +324,21 @@ mod tests {
         let (published_at, rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(rows.len(), 4);
         assert!(skips.is_empty());
-        assert_eq!(rows[0], ("gold".to_owned(), "999 (24K)".to_owned(), 115.95, "EUR/g"));
+        assert_eq!(
+            rows[0],
+            ("gold".to_owned(), "999 (24K)".to_owned(), 115.95, "EUR/g")
+        );
         assert_eq!(rows[1].0, "gold");
         // Same digits, other table: section decides, not digits.
-        assert_eq!(rows[2], ("silber".to_owned(), "999".to_owned(), 1.37, "EUR/g"));
-        assert_eq!(rows[3], ("silber".to_owned(), "750".to_owned(), 0.95, "EUR/g"));
         assert_eq!(
-            published_at.as_deref(),
-            Some("2026-09-26T00:00:00+00:00")
+            rows[2],
+            ("silber".to_owned(), "999".to_owned(), 1.37, "EUR/g")
         );
+        assert_eq!(
+            rows[3],
+            ("silber".to_owned(), "750".to_owned(), 0.95, "EUR/g")
+        );
+        assert_eq!(published_at.as_deref(), Some("2026-09-26T00:00:00+00:00"));
         assert!(parse("<div>Kein Gold hier</div>").is_err());
     }
 

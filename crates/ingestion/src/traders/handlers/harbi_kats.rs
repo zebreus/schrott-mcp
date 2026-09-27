@@ -25,7 +25,12 @@ pub const IMPRESSUM_URL: &str = "https://harbi-kats.de/impressum";
 pub const URL: &str = "https://harbi-kats.de";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -97,13 +102,19 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
     // ("täglich anhand der Edelmetallpreise …") whose <strong> phrases must
     // never leak in as products. Both anchors required (guide: Fenster,
     // nie Ganzseite).
-    let start = html.find("Welche Art von Produkten kaufen wir an?").ok_or_else(|| {
-        IngestError::Parse { url: URL.to_owned(), detail: "Annahme-Block fehlt".to_owned() }
-    })?;
+    let start = html
+        .find("Welche Art von Produkten kaufen wir an?")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Annahme-Block fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("Wie wird der Wert eines Katalysators bestimmt").ok_or_else(|| {
-        IngestError::Parse { url: URL.to_owned(), detail: "Annahme-Block unvollständig".to_owned() }
-    })?;
+    let end = tail
+        .find("Wie wird der Wert eines Katalysators bestimmt")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Annahme-Block unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     // Content elements only (`div.accordion-body strong`); scripts and the
     // nav stay out.
@@ -131,13 +142,19 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
 /// anchored block): the header `mailto:` — the impressum has no e-mail.
 /// Missing impressum anchors → loud error, never guessed.
 fn extract_info(imp: &str, home: &str) -> Result<TraderInfo, IngestError> {
-    let (_, after_tmg) = imp.split_once("Angaben gemäß § 5 TMG:").ok_or_else(|| IngestError::Parse {
-        url: IMPRESSUM_URL.to_owned(),
-        detail: "TMG-Block fehlt".to_owned(),
-    })?;
-    let (addr_raw, after_kontakt) = after_tmg.split_once("Kontakt").ok_or_else(|| {
-        IngestError::Parse { url: IMPRESSUM_URL.to_owned(), detail: "Kontakt-Block fehlt".to_owned() }
-    })?;
+    let (_, after_tmg) =
+        imp.split_once("Angaben gemäß § 5 TMG:")
+            .ok_or_else(|| IngestError::Parse {
+                url: IMPRESSUM_URL.to_owned(),
+                detail: "TMG-Block fehlt".to_owned(),
+            })?;
+    let (addr_raw, after_kontakt) =
+        after_tmg
+            .split_once("Kontakt")
+            .ok_or_else(|| IngestError::Parse {
+                url: IMPRESSUM_URL.to_owned(),
+                detail: "Kontakt-Block fehlt".to_owned(),
+            })?;
     let lines = text_lines(addr_raw);
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
     for (k, line) in lines.iter().enumerate() {
@@ -173,7 +190,14 @@ fn extract_info(imp: &str, home: &str) -> Result<TraderInfo, IngestError> {
     // homepage's job here is the acceptance list, not the address.
     let email = home
         .split_once("mailto:")
-        .map(|(_, after)| after.split('"').next().unwrap_or_default().trim().to_owned())
+        .map(|(_, after)| {
+            after
+                .split('"')
+                .next()
+                .unwrap_or_default()
+                .trim()
+                .to_owned()
+        })
         .unwrap_or_default();
     if street.is_empty() && phone.is_empty() && email.is_empty() {
         return Err(IngestError::Parse {
@@ -181,7 +205,13 @@ fn extract_info(imp: &str, home: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a raw slice (kupferhelden-style text walk — the address
@@ -214,7 +244,10 @@ fn text_lines(s: &str) -> Vec<String> {
             out.push(c);
         }
     }
-    out.lines().map(|l| l.split_whitespace().collect::<Vec<_>>().join(" ")).filter(|l| !l.is_empty()).collect()
+    out.lines()
+        .map(|l| l.split_whitespace().collect::<Vec<_>>().join(" "))
+        .filter(|l| !l.is_empty())
+        .collect()
 }
 
 #[cfg(test)]
@@ -235,7 +268,8 @@ mod tests {
         <strong>täglich anhand der Edelmetallpreise an den Weltbörsen berechnet</strong> \
         und sofort dokumentiert.</div>";
 
-    const HOME: &str = "<a class=\"btn btn-dark px-3 py-2 m-1\" href=\"mailto:info@harbi-kats.de\">\
+    const HOME: &str =
+        "<a class=\"btn btn-dark px-3 py-2 m-1\" href=\"mailto:info@harbi-kats.de\">\
         <i class=\"fa fa-fw fa-envelope opacity-50 me-1\"></i>info@harbi-kats.de</a>";
 
     // Real impressum shape: bare <br> lines between the two <h4> anchors,
@@ -250,7 +284,10 @@ mod tests {
     fn products_map_and_skip() {
         let labels = parse(FIXTURE).expect("parses");
         assert_eq!(labels, vec!["Katalysatoren", "Rußpartikelfilter"]);
-        assert_eq!(grade_for("Katalysatoren"), Some(vec![("katalysatoren", "")]));
+        assert_eq!(
+            grade_for("Katalysatoren"),
+            Some(vec![("katalysatoren", "")])
+        );
         assert_eq!(grade_for("Rußpartikelfilter"), None);
         assert_eq!(grade_for("DPF"), None);
         // Ambiguous combos never half-map.

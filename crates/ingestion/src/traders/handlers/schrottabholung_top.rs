@@ -243,16 +243,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         'scan: for el in doc.select(&any_sel) {
             let own: String = el
                 .children()
-                .filter_map(|n| {
-                    n.value().as_text().map(|t| t.to_string())
-                })
+                .filter_map(|n| n.value().as_text().map(|t| t.to_string()))
                 .collect::<Vec<_>>()
                 .join(" ");
             for tok in own.split_whitespace() {
                 let tok = tok.trim_matches(|c: char| "()<>;,".contains(c));
-                if tok.contains('@')
-                    && tok.split('@').nth(1).is_some_and(|d| d.contains('.'))
-                {
+                if tok.contains('@') && tok.split('@').nth(1).is_some_and(|d| d.contains('.')) {
                     email = tok.to_owned();
                     break 'scan;
                 }

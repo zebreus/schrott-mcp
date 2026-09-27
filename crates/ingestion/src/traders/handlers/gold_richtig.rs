@@ -26,7 +26,12 @@ pub const IMPRESSUM_URL: &str = "https://www.sulzbach-goldankauf.de/impressum.ht
 pub const URL: &str = "http://www.goldpit.de/gold-ankaufrechner.html";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -76,7 +81,10 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
     // Mixed category first: it names both metals, so it fans out.
     // (The raw label rides in the acceptance record itself.)
     if l.contains("altgold") {
-        return Some(vec![("gold", "Altgold & Bruchgold"), ("zahngold", "Dentalgold")]);
+        return Some(vec![
+            ("gold", "Altgold & Bruchgold"),
+            ("zahngold", "Dentalgold"),
+        ]);
     }
     if l.contains("zahngold") {
         return Some(vec![("zahngold", "")]);
@@ -111,20 +119,23 @@ fn fineness(l: &str) -> &'static str {
 /// (labels, js_notes): the JS placeholder cells carry no prices, so the
 /// JS-only state is reported as one loud note, never a faked row.
 fn parse(html: &str) -> Result<(Vec<String>, Vec<String>), IngestError> {
-    let start = html.find("Unsere aktuellen Ankaufspreise").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Ankaufsblock fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Unsere aktuellen Ankaufspreise")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankaufsblock fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("Kursgrundlage").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Ankaufsblock unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("Kursgrundlage")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankaufsblock unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
     let alloy_sel = Selector::parse("span.home-rate-alloy").expect("valid selector");
-    let cat_sel =
-        Selector::parse("div.home-rates-percent-item > span").expect("valid selector");
+    let cat_sel = Selector::parse("div.home-rates-percent-item > span").expect("valid selector");
     let rate_sel = Selector::parse("strong[data-home-rate]").expect("valid selector");
     let mut labels = Vec::new();
     for el in frag.select(&alloy_sel).chain(frag.select(&cat_sel)) {
@@ -140,7 +151,10 @@ fn parse(html: &str) -> Result<(Vec<String>, Vec<String>), IngestError> {
         }
     }
     if labels.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Annahmeliste leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Annahmeliste leer".to_owned(),
+        });
     }
     // JS evidence: rate cells hold "–" until the calculator script runs.
     let mut js_notes = Vec::new();
@@ -165,11 +179,15 @@ fn parse(html: &str) -> Result<(Vec<String>, Vec<String>), IngestError> {
 /// lines. Missing card → loud error, never a guessed fallback.
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
-    let card_sel = Selector::parse("div[data-impressum-module=\"anbieter\"]").expect("valid selector");
-    let card = doc.select(&card_sel).next().ok_or_else(|| IngestError::Parse {
-        url: IMPRESSUM_URL.to_owned(),
-        detail: "Anbieter-Block fehlt".to_owned(),
-    })?;
+    let card_sel =
+        Selector::parse("div[data-impressum-module=\"anbieter\"]").expect("valid selector");
+    let card = doc
+        .select(&card_sel)
+        .next()
+        .ok_or_else(|| IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Anbieter-Block fehlt".to_owned(),
+        })?;
     let addr_sel = Selector::parse("span[data-contact-address-html]").expect("valid selector");
     let addr_html = card.select(&addr_sel).next().map(|el| el.inner_html());
     let Some(addr_html) = addr_html else {
@@ -219,7 +237,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment (drop up to the first '>'

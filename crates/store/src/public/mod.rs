@@ -239,9 +239,7 @@ impl PublicDb {
             conn.query_row("SELECT COUNT(*) FROM current_prices", [], |r| r.get(0))?,
         );
         if n_prices > 0 && n_current == 0 {
-            tracing::error!(
-                "public.db inconsistent: {n_prices} prices but no current pointers"
-            );
+            tracing::error!("public.db inconsistent: {n_prices} prices but no current pointers");
         }
         Ok(Self {
             conn: Mutex::new(conn),
@@ -315,8 +313,7 @@ impl PublicDb {
     pub fn counts(&self) -> Result<Stats, StoreError> {
         let conn = self.lock()?;
         let traders: i64 = conn.query_row("SELECT COUNT(*) FROM traders", [], |r| r.get(0))?;
-        let materials: i64 =
-            conn.query_row("SELECT COUNT(*) FROM materials", [], |r| r.get(0))?;
+        let materials: i64 = conn.query_row("SELECT COUNT(*) FROM materials", [], |r| r.get(0))?;
         let prices: i64 = conn.query_row("SELECT COUNT(*) FROM prices", [], |r| r.get(0))?;
         Ok(Stats {
             traders,
@@ -338,7 +335,9 @@ mod tests {
     fn readonly_sql_accepts_plain_selects() {
         use super::validate_readonly_sql;
         assert!(validate_readonly_sql("SELECT 1").is_ok());
-        assert!(validate_readonly_sql("  -- a comment\nSELECT slug, name_de FROM materials").is_ok());
+        assert!(
+            validate_readonly_sql("  -- a comment\nSELECT slug, name_de FROM materials").is_ok()
+        );
         assert!(validate_readonly_sql("/* c */ WITH x AS (SELECT 1) SELECT * FROM x").is_ok());
         // Prose mentioning forbidden words inside literals is fine.
         assert!(

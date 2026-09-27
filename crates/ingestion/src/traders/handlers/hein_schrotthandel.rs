@@ -694,7 +694,9 @@ mod tests {
             "{skips:?}"
         );
         assert!(
-            skips.iter().any(|s| s.contains("Aluminium Kabel dünn") && s.contains("0,00")),
+            skips
+                .iter()
+                .any(|s| s.contains("Aluminium Kabel dünn") && s.contains("0,00")),
             "{skips:?}"
         );
     }

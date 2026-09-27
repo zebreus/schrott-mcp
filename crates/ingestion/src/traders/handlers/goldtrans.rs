@@ -23,9 +23,12 @@ pub const URL: &str =
     "https://www.goldtrans.de/goldankauf-preise-aktueller-goldpreis-ankauf-in-hamburg.html";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| {
-        Box::pin(scrape(c))
-    } }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -92,8 +95,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 // "Zahngold" carries no digits, so it is checked first above.
 fn fineness(l: &str) -> &'static str {
     for fin in [
-        "999", "986", "980", "965", "916", "900", "875", "833", "750", "585", "416", "375",
-        "333",
+        "999", "986", "980", "965", "916", "900", "875", "833", "750", "585", "416", "375", "333",
     ] {
         if l.contains(fin) {
             return fin;
@@ -114,14 +116,23 @@ fn unit_of(price_cell: &str) -> Option<&'static str> {
 
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     // Window: the price block between its intro line and the "Bitte
     // Beachten" notes. The footer maps <table> sits outside this window
     // and is excluded twice over by the header selection below.
-    let start = html.find("Hier aktuelle Ankaufspreise").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisblock fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Hier aktuelle Ankaufspreise")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisblock fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("Bitte Beachten").unwrap_or(tail.len());
     let window = &tail[..end];
@@ -174,9 +185,7 @@ fn parse(
     // Page-stated validity ("Stand : 27.09.2026"); absent → None
     // (observed_at = age). Anchored on "Stand" so stray dates elsewhere
     // cannot leak in.
-    let published_at = window
-        .find("Stand")
-        .and_then(|i| date_in(&window[i..]));
+    let published_at = window.find("Stand").and_then(|i| date_in(&window[i..]));
     Ok((published_at, rows, skips))
 }
 
@@ -191,7 +200,11 @@ fn date_in(window: &str) -> Option<String> {
             && bytes[i + 5] == b'.'
             && bytes[i + 6..].iter().take(4).all(|c| c.is_ascii_digit())
         {
-            let (d, m, y) = (&window[i..i + 2], &window[i + 3..i + 5], &window[i + 6..i + 10]);
+            let (d, m, y) = (
+                &window[i..i + 2],
+                &window[i + 3..i + 5],
+                &window[i + 6..i + 10],
+            );
             if let Some(rfc) = parse_de_date(d, m, y) {
                 return Some(rfc);
             }
@@ -259,7 +272,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a fragment (html5ever already decoded entities).
@@ -308,10 +327,16 @@ mod tests {
         assert_eq!(rows[0].2, "EUR/g");
         assert_eq!(rows[2].0, "Zahngold (Ohne Z\u{00e4}hne, Gelb)");
         assert_eq!(rows[2].1, 69.02);
-        assert!(published.as_deref().unwrap_or_default().starts_with("2026-09-27"));
+        assert!(published
+            .as_deref()
+            .unwrap_or_default()
+            .starts_with("2026-09-27"));
         assert_eq!(unit_of("111,33 \u{20ac}/g"), Some("EUR/g"));
         assert_eq!(unit_of("auf Anfrage"), None);
-        assert!(parse("<p>Hier aktuelle Ankaufspreise X</p>").is_err(), "leere Tabelle = Err");
+        assert!(
+            parse("<p>Hier aktuelle Ankaufspreise X</p>").is_err(),
+            "leere Tabelle = Err"
+        );
         assert!(
             parse("<p>anderer Inhalt ohne Block</p>").is_err(),
             "missing anchor = Err"

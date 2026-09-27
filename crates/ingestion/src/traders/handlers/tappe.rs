@@ -23,7 +23,9 @@ pub fn handler() -> Handler {
     Handler {
         slug: SLUG,
         url: URL,
-        schedule: Schedule::DailyAt { times: vec![(7, 30)] },
+        schedule: Schedule::DailyAt {
+            times: vec![(7, 30)],
+        },
         scrape: |c| Box::pin(scrape(c)),
     }
 }
@@ -101,12 +103,21 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     // Only the price box: from its heading to the contact link run-out.
-    let start = html.find("Aktuelle Schrottpreise").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisbox fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Aktuelle Schrottpreise")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisbox fehlt".to_owned(),
+        })?;
     let window = &html[start..(start + html[start..].len().min(12_000))];
     let published_at = date_in(window);
     // Collect <p> texts in order.
@@ -177,7 +188,10 @@ fn parse(
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preispaare".to_owned(),
+        });
     }
     Ok((published_at, rows, unit_skips))
 }
@@ -193,7 +207,10 @@ fn unit_of(t: &str) -> Option<&'static str> {
     let lower = t.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|w| w == "t" || w == "to")
+    {
         Some("EUR/t")
     } else {
         None
@@ -221,7 +238,11 @@ fn date_in(window: &str) -> Option<String> {
             && bytes[i + 5] == b'.'
             && bytes[i + 6..].iter().take(4).all(|c| c.is_ascii_digit())
         {
-            let (d, m, y) = (&window[i..i + 2], &window[i + 3..i + 5], &window[i + 6..i + 10]);
+            let (d, m, y) = (
+                &window[i..i + 2],
+                &window[i + 3..i + 5],
+                &window[i + 6..i + 10],
+            );
             if let Some(rfc) = parse_de_date(d, m, y) {
                 return Some(rfc);
             }
@@ -230,7 +251,6 @@ fn date_in(window: &str) -> Option<String> {
     }
     None
 }
-
 
 /// Bespoke contact extraction for THIS impressum only: the `<dl>` carries
 /// labeled rows ("Anschrift:" → "Am Stadthafen 18, 45356 Essen").
@@ -252,7 +272,11 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             .zip(dds.iter())
             .find(|(t, _)| t.text().collect::<String>().trim() == want)
             .map(|(_, d)| {
-                d.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ")
+                d.text()
+                    .collect::<String>()
+                    .split_whitespace()
+                    .collect::<Vec<_>>()
+                    .join(" ")
             })
     };
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
@@ -278,7 +302,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 #[cfg(test)]
@@ -314,9 +344,18 @@ mod tests {
         assert_eq!(rows[1].0, "Kupferschrott 1 ECU/Milb.");
         assert_eq!(rows[1].1, 11.2);
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
-        assert_eq!(grade_for("Kupferschrott 1 ECU/Milb."), Some(("kupfer-millberry", "")));
-        assert_eq!(grade_for("Kabelschrott (Basis 40% Kupfer)"), Some(("kabel-kupfer", "40%")));
-        assert_eq!(grade_for("Schredderschrott"), Some(("stahlschrott-shredder", "")));
+        assert_eq!(
+            grade_for("Kupferschrott 1 ECU/Milb."),
+            Some(("kupfer-millberry", ""))
+        );
+        assert_eq!(
+            grade_for("Kabelschrott (Basis 40% Kupfer)"),
+            Some(("kabel-kupfer", "40%"))
+        );
+        assert_eq!(
+            grade_for("Schredderschrott"),
+            Some(("stahlschrott-shredder", ""))
+        );
         assert_eq!(grade_for("Aluminium"), Some(("aluminium-gemischt", "")));
         assert_eq!(grade_for("Edelstahl"), Some(("edelstahl-gemischt", "")));
         assert_eq!(grade_for("Kupferschrott 2"), Some(("kupfer-gemischt", "")));

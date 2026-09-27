@@ -14,9 +14,7 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "nw-essen-moroder-scheideanstalt";
@@ -27,7 +25,12 @@ pub const IMPRESSUM_URL: &str = "https://www.moroder-scheideanstalt.de/rechtlich
 pub const URL: &str = "https://www.moroder-scheideanstalt.de/aktuelle-preisliste/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -109,10 +112,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let block_sel = Selector::parse("div.impressum-rdfa").expect("valid selector");
     let prop_sel = Selector::parse("[property]").expect("valid selector");
-    let block = doc.select(&block_sel).next().ok_or_else(|| IngestError::Parse {
-        url: IMPRESSUM_URL.to_owned(),
-        detail: "Impressum-Block fehlt".to_owned(),
-    })?;
+    let block = doc
+        .select(&block_sel)
+        .next()
+        .ok_or_else(|| IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Impressum-Block fehlt".to_owned(),
+        })?;
     let mut prop = std::collections::HashMap::new();
     for el in block.select(&prop_sel) {
         if let Some(name) = el.value().attr("property") {
@@ -126,9 +132,18 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "Impressum-Block fehlt".to_owned(),
         });
     }
-    let street = prop.get("streetAddress").map(|s| s.trim().to_owned()).unwrap_or_default();
-    let postcode = prop.get("postalCode").map(|s| s.trim().to_owned()).unwrap_or_default();
-    let city = prop.get("addressLocality").map(|s| s.trim().to_owned()).unwrap_or_default();
+    let street = prop
+        .get("streetAddress")
+        .map(|s| s.trim().to_owned())
+        .unwrap_or_default();
+    let postcode = prop
+        .get("postalCode")
+        .map(|s| s.trim().to_owned())
+        .unwrap_or_default();
+    let city = prop
+        .get("addressLocality")
+        .map(|s| s.trim().to_owned())
+        .unwrap_or_default();
     let phone = prop
         .get("telephone")
         .map(|s| s.strip_prefix("Telefon:").unwrap_or(s).trim().to_owned())
@@ -143,7 +158,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 #[cfg(test)]
@@ -169,7 +190,8 @@ mod tests {
 
     #[test]
     fn impressum_rdfa_block() {
-        let imp = "<div class=\"impressum-rdfa\" vocab=\"http://schema.org/\" typeof=\"Organization\">\
+        let imp =
+            "<div class=\"impressum-rdfa\" vocab=\"http://schema.org/\" typeof=\"Organization\">\
             <span property=\"name\"><strong>Moroder Scheideanstalt GmbH</strong></span><br>\
             <div property=\"address\" typeof=\"PostalAddress\">\
             <span property=\"streetAddress\">Kaninenberghöhe 2</span><br>\

@@ -21,7 +21,12 @@ pub const IMPRESSUM_URL: &str = "https://altmetall-asn.de/impressum/";
 pub const URL: &str = "https://altmetall-asn.de/ankaufliste/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -90,10 +95,12 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// The gallery headings between "Unsere Ankaufliste" and the exclusion
 /// box ("Sorten, die wir nicht übernehmen"). Both anchors mandatory.
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
-    let start = html.find("Unsere Ankaufliste").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Ankaufliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Unsere Ankaufliste")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankaufliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     // End BEFORE the exclusion heading opens: ending mid-heading would
     // leave an unclosed <h3> whose partial text ("Es gibt auch Sorten,
@@ -123,7 +130,10 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
         }
     }
     if labels.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Ankaufliste leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankaufliste leer".to_owned(),
+        });
     }
     Ok(labels)
 }
@@ -191,7 +201,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (drop up to the first '>').
@@ -243,7 +259,9 @@ mod tests {
         assert_eq!(labels.len(), 10);
         assert_eq!(labels[0], "Kupfer");
         assert!(labels.contains(&"Elektromotoren".to_owned()));
-        assert!(!labels.iter().any(|l| l.contains("Elektroschrott") || l.contains("Bleibatterien")));
+        assert!(!labels
+            .iter()
+            .any(|l| l.contains("Elektroschrott") || l.contains("Bleibatterien")));
         assert!(parse("<div>Kein Ankauf hier</div>").is_err());
         assert!(parse("<h2>Unsere Ankaufliste ohne Ende").is_err());
     }
@@ -256,11 +274,17 @@ mod tests {
             grade_for("Elektrokabel"),
             Some(vec![("kabel-kupfer", "Elektrokabel")])
         );
-        assert_eq!(grade_for("Aluminium"), Some(vec![("aluminium-gemischt", "")]));
+        assert_eq!(
+            grade_for("Aluminium"),
+            Some(vec![("aluminium-gemischt", "")])
+        );
         assert_eq!(grade_for("Blei"), Some(vec![("blei", "")]));
         assert_eq!(grade_for("Zink"), Some(vec![("zink", "")]));
         assert_eq!(grade_for("VA"), Some(vec![("edelstahl-gemischt", "VA")]));
-        assert_eq!(grade_for("Elektromotoren"), Some(vec![("elektromotoren", "")]));
+        assert_eq!(
+            grade_for("Elektromotoren"),
+            Some(vec![("elektromotoren", "")])
+        );
         assert_eq!(grade_for("Metallspäne"), None, "metal unattributable");
         assert_eq!(grade_for("Sondersorten auf Anfrage"), None, "names nothing");
     }

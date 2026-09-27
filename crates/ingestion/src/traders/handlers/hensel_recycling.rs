@@ -26,7 +26,12 @@ pub const IMPRESSUM_URL: &str = "https://hensel-recycling.com/impressum/";
 pub const URL: &str = "https://hensel-recycling.com/leistung/ankauf-autokatalysatoren/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -83,15 +88,19 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// The material link list between "Was wir alles für Sie recyceln" and
 /// the "Broschüren Download" section. Both anchors mandatory.
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
-    let start = html.find("Was wir alles für Sie recyceln").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Materialliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Was wir alles für Sie recyceln")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Materialliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("Broschüren Download").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Materialliste unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("Broschüren Download")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Materialliste unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     let doc = Html::parse_fragment(&format!("<div>{window}</div>"));
     let a_sel = Selector::parse("a[href*=\"/material/\"]").expect("valid selector");
@@ -108,7 +117,10 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
         }
     }
     if labels.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Materialliste leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Materialliste leer".to_owned(),
+        });
     }
     Ok(labels)
 }
@@ -171,7 +183,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment. Fragments start either with
@@ -219,7 +237,14 @@ mod tests {
     #[test]
     fn material_links_parse() {
         let labels = parse(FIXTURE).expect("parses");
-        assert_eq!(labels, vec!["Autokatalysatoren", "Elektronikschrott", "LKW-Katalysatoren"]);
+        assert_eq!(
+            labels,
+            vec![
+                "Autokatalysatoren",
+                "Elektronikschrott",
+                "LKW-Katalysatoren"
+            ]
+        );
         assert!(parse("<div>Kein Ankauf hier</div>").is_err());
         assert!(parse("<h2>Was wir alles für Sie recyceln ohne Ende").is_err());
     }
@@ -234,8 +259,16 @@ mod tests {
             grade_for("LKW-Katalysatoren"),
             Some(vec![("katalysatoren", "LKW-Katalysatoren")])
         );
-        assert_eq!(grade_for("Industriekatalysatoren"), None, "unknown substrate");
-        assert_eq!(grade_for("Elektronikschrott"), None, "generic, not Platinen");
+        assert_eq!(
+            grade_for("Industriekatalysatoren"),
+            None,
+            "unknown substrate"
+        );
+        assert_eq!(
+            grade_for("Elektronikschrott"),
+            None,
+            "generic, not Platinen"
+        );
         assert_eq!(grade_for("Brennstoffzellen"), None, "no material");
         assert_eq!(grade_for("Weitere Materialien"), None, "names nothing");
     }
