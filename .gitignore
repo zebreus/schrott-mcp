@@ -4,3 +4,5 @@
 *.db-shm
 /data/
 .env
+
+__pycache__/
