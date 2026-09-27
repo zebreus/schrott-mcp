@@ -68,19 +68,31 @@ def clean_name(raw: str) -> tuple[str, str]:
     return s, " ".join(notes)
 
 
-def clean_website(raw: str) -> tuple[str, str]:
+def clean_website(raw: str) -> tuple[str, str, str]:
+    """Return (url, website_status, note). Trailing markers like
+    '— TOT' / '(offline)' set the status instead of killing the URL:
+    a dead address is still their address."""
     s = raw.replace("**", "").strip()
-    s = re.sub(r"\s*\(.*$", "", s).strip()  # trailing "(... belegt)" notes
+    status = ""
+    m = re.search(r"\s+[—–-]\s*([^—–()]*)$|\(([^()]*)\)$", s)
+    if m:
+        marker = (m.group(1) or m.group(2) or "").lower()
+        if re.search(r"\btot\b|dead|offline|erloschen|dns|timeout|geparkt|kommt bald|coming soon", marker):
+            status = "tot"
+        elif re.search(r"blockiert|bot|403|429|captcha", marker):
+            status = "blockiert"
+        s = s[: m.start()].strip()
+    s = re.sub(r"\s*\(.*$", "", s).strip()  # other trailing "(...)" notes
     if not s or s in ("—", "-", "?", "/"):
-        return "", ""
+        return "", status, ""
     if re.match(r"(?i)^(keine?\s+(website|webseite|webauftritt|domain|url)|kein\s+web|n\.?\s*/?\s*a\.?|unbekannt)", s):
-        return "", ""
+        return "", status, ""
     if re.match(r"(?i)^https?://", s):
         url = s.split()[0].rstrip(").,;")
-        return url, ""
+        return url, status, ""
     if re.match(r"(?i)^(www\.|[a-z0-9äöü-]+\.[a-z]{2,})", s):
-        return "https://" + s.split()[0].rstrip(").,;"), ""
-    return "", f"urspr. Website-Angabe: {raw.strip()}"
+        return "https://" + s.split()[0].rstrip(").,;"), status, ""
+    return "", status, f"urspr. Website-Angabe: {raw.strip()}"
 
 
 def split_sites(ort: str) -> list[str]:
@@ -95,9 +107,50 @@ def split_sites(ort: str) -> list[str]:
 
 def city_of(site: str) -> str:
     s = site.strip()
-    s = re.sub(r"\s*\(.*$", "", s)  # "(Lkr. ...)" / "(Str. ...)" / district detail kept? no—strip
+    s = re.sub(r"\s*\(.*$", "", s)  # "(Lkr. ...)" / street detail stripped
     s = s.split(",")[0]
     return s.strip(" -")
+
+
+def extract_contact(text: str) -> tuple[str, str, str]:
+    """Conservatively pull street/postcode/phone out of free text.
+
+    - street+postcode only as an adjacent pair ("Kruppstr. 81, 47229")
+      or with an explicit PLZ marker — a bare 5-digit number could be a
+      phone area code, never a postcode on its own.
+    - phone only with Tel/Fax marker or a full 0-prefixed number with
+      separators (never bare digit runs).
+    Returns (street, postcode, phone), each possibly "".
+    """
+    street, postcode, phone = "", "", ""
+    m = re.search(
+        r"([A-ZÄÖÜ][\wäöüß. -]*?(?:str\.|straße|weg|allee|gasse|platz|damm|ufer|ring|chaussee|zeile)\s*\d[\w/-]*)(?:,?\s*(\d{5})\b)?",
+        text,
+    )
+    if m:
+        street = m.group(1).strip()
+        postcode = m.group(2) or ""
+    if not postcode:
+        m = re.search(r"\bPLZ\s*(\d{5})\b", text)
+        if m:
+            postcode = m.group(1)
+    m = re.search(
+        r"(?:Tel\.?|Telefon|Mobil|Handy|Fax)[:\s]*(\+?[\d\s/()\-]{6,}\d)"
+        r"|(?<![\w(])((?:\+49|0)\d{2,5}[\s/\-()]*\d[\d\s/\-()]{4,})(?![\w)])",
+        text,
+    )
+    if m:
+        phone = re.sub(r"\s+", " ", (m.group(1) or m.group(2)).strip())
+    return street, postcode, phone
+
+
+def norm_identity(name: str, city: str) -> tuple[str, str]:
+    """Dedupe key: legal forms and case/accents stripped."""
+    n = unicodedata.normalize("NFKD", LEGAL.sub("", name)).encode("ascii", "ignore").decode()
+    n = re.sub(r"[^a-z0-9 ]", " ", n.lower())
+    c = unicodedata.normalize("NFKD", city).encode("ascii", "ignore").decode()
+    c = re.sub(r"[^a-z0-9 ]", " ", c.lower())
+    return re.sub(r"\s+", " ", n).strip(), re.sub(r"\s+", " ", c).strip()
 
 
 def map_status(ankauf: str) -> tuple[str, bool]:
@@ -236,8 +289,10 @@ def parse_prose_chunk(chunk: str) -> list[tuple[str, str, str]]:
 def convert_file(stem: str) -> tuple[list[dict], dict]:
     text = (RECH / f"{stem}.md").read_text(encoding="utf-8")
     entries: list[dict] = []
-    stats = {"table_rows": 0, "prose_rows": 0, "skipped_sections": 0, "skipped_chunks": 0}
+    stats = {"table_rows": 0, "prose_rows": 0, "skipped_sections": 0, "skipped_chunks": 0,
+             "dupe_skips": []}
     seen_slugs: set[str] = set()
+    seen_identity: set[tuple[str, str]] = set()
     section = "top"
     section_skip = False
     header: dict | None = None
@@ -249,7 +304,7 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
         if not name or len(name) < 2:
             return
         cities = split_sites(city_raw) if origin == "table" else [city_raw]
-        website, web_note = clean_website(website_raw)
+        website, website_status, web_note = clean_website(website_raw)
         status, auto_hint = map_status(ankauf_raw)
         ttype = map_type(name_raw + " " + (flag_note or ""), spec_raw or "", auto_hint)
         if re.search(r"geschlossen|ehemalig|insolvent|abgemeldet", f"{name} {spec_raw} {extra_notes}", re.I):
@@ -258,6 +313,15 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
             (spec_raw or "").strip(),
             flag_note, web_note, extra_notes.strip(),
         ] if p)
+        cs, cp, cph = extract_contact(f"{name_raw} {city_raw} {notes}")
+        street = street or cs
+        postcode = postcode or cp
+        first_city = city_of(cities[0]) if cities else ""
+        ident = norm_identity(name, first_city)
+        if ident in seen_identity and ident[0]:
+            stats["dupe_skips"].append(f"{name}ᴉ{first_city}")
+            return
+        seen_identity.add(ident)
         for site in cities:
             city = city_of(site)
             base = f"{stem}-{slugify(city, 28)}-{slugify(LEGAL.sub('', name), 40)}"
@@ -274,9 +338,11 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
                 "description": "",
                 "street": street,
                 "postcode": postcode,
+                "phone": cph,
                 "city": city or site.strip(),
                 "state": stem.upper(),
                 "website": website,
+                "website_status": website_status,
                 "dropoff_json": "",
                 "pickup_json": "",
                 "status": status,
@@ -373,7 +439,9 @@ def main() -> int:
         total += len(entries)
         print(f"{stem}: {len(entries)} entries "
               f"(table={stats['table_rows']} prose={stats['prose_rows']} "
-              f"skipsec={stats['skipped_sections']})")
+              f"skipsec={stats['skipped_sections']} dupes={len(stats['dupe_skips'])})")
+        for d in stats["dupe_skips"][:20]:
+            print(f"    dupe-skip: {d}")
     print(f"TOTAL: {total}")
     return 0
 

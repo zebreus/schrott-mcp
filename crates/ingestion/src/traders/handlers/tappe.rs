@@ -34,6 +34,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 price,
                 currency: "EUR",
                 unit,
+                price_kind: "exact",
                 price_min: None,
                 price_max: None,
                 confidence: Some(1.0),
@@ -63,21 +64,23 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     if l.contains("mischschrott") {
         Some(("mischschrott", ""))
     } else if l.contains("schredder") || l.contains("shredder") {
-        Some(("stahlschrott-scheren", ""))
+        Some(("stahlschrott-shredder", ""))
     } else if l.contains("kabel") {
         Some(("kabel-kupfer", "40%"))
     } else if l.contains("kupferschrott 1") || l.contains("ecu") || l.contains("milb") {
         Some(("kupfer-millberry", ""))
+    } else if l.contains("kupferschrott 2") {
+        Some(("kupfer-gemischt", ""))
     } else if l.contains("kupfer") {
         Some(("kupfer-berry", ""))
     } else if l.contains("messing") {
         Some(("messing", ""))
     } else if l.contains("alu") {
-        Some(("aluminium-profile", ""))
+        Some(("aluminium-gemischt", ""))
     } else if l.contains("blei") {
         Some(("blei", ""))
     } else if l.contains("edelstahl") || l.contains("va ") || l == "va" {
-        Some(("edelstahl-v2a", ""))
+        Some(("edelstahl-gemischt", ""))
     } else if l.contains("zink") {
         Some(("zink", ""))
     } else {
@@ -224,6 +227,10 @@ mod tests {
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Kupferschrott 1 ECU/Milb."), Some(("kupfer-millberry", "")));
         assert_eq!(grade_for("Kabelschrott (Basis 40% Kupfer)"), Some(("kabel-kupfer", "40%")));
+        assert_eq!(grade_for("Schredderschrott"), Some(("stahlschrott-shredder", "")));
+        assert_eq!(grade_for("Aluminium"), Some(("aluminium-gemischt", "")));
+        assert_eq!(grade_for("Edelstahl"), Some(("edelstahl-gemischt", "")));
+        assert_eq!(grade_for("Kupferschrott 2"), Some(("kupfer-gemischt", "")));
     }
 
     #[test]

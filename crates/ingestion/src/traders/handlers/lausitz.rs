@@ -34,6 +34,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                         price,
                         currency: "EUR",
                         unit,
+                        price_kind: "exact",
                         price_min: None,
                         price_max: None,
                         confidence: Some(1.0),
@@ -68,8 +69,12 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("kupfer-millberry", ""))
     } else if norm.contains("messing") {
         Some(("messing", ""))
-    } else if norm.contains("schwer") || norm.contains("berry") || norm.contains("raff") {
-        Some(("kupfer-berry", ""))
+    } else if norm.contains("schwer") || norm.contains("berry") {
+        // Same grade, two spellings across page sections ("Cu – schwer"
+        // vs "Cu –Berry", same price): one variant keeps them together.
+        Some(("kupfer-gemischt", "schwer"))
+    } else if norm.contains("raff") {
+        Some(("kupfer-gemischt", "Raff"))
     } else if norm.contains("kabel") {
         Some(("kabel-kupfer", ""))
     } else if norm.contains("mischschrott") {
@@ -198,6 +203,9 @@ mod tests {
         assert_eq!(rows[1].2, "EUR/t");
         assert_eq!(grade_for("Cu - Millberry"), Some(("kupfer-millberry", "")));
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
+        assert_eq!(grade_for("Cu – schwer"), Some(("kupfer-gemischt", "schwer")));
+        assert_eq!(grade_for("Cu –Berry"), Some(("kupfer-gemischt", "schwer")));
+        assert_eq!(grade_for("Cu-Raff."), Some(("kupfer-gemischt", "Raff")));
         assert_eq!(grade_for("Altpapier"), None);
         assert!(is_junk("KEIN ANKAUF MEHR VON"));
     }

@@ -26,14 +26,14 @@ Websites per webfetch verifiziert. „keine Website gefunden" = keine Website pe
 | Fernkorn Albert e.K. Metallhandel u. Containerdienst | Weimar (Rießnerstr. 1) | keine Website gefunden | Metallhandel, Containerdienst | Ankauf unklar | Gelbe Seiten (benachbart zu Thüringen Recycling) |
 | Schrotthandel R&M | Sondershausen (Am Petersenschacht 13) | keine Website gefunden | Schrott (allg.) | Ankauf unklar | Gelbe Seiten Erfurt/Nordhausen |
 | Koch Norman | Erfurt-Gispersleben (Camburger Str. 5) | keine Website gefunden | Schrott, Kleinsammler | Ankauf unklar | Gelbe Seiten + schrottplatz-info.de |
-| Hugo Entsorgung GmbH | Erfurt (Ladestr. 1/3) | keine Website gefunden | Entsorgung + Schrott | Ankauf unklar | Gelbe Seiten + schrottplatz-info.de |
+| Hugo Entsorgung GmbH | Erfurt (Ladestr. 1/3) | http://www.hugo-bebra.eu — TOT (Dead-Site-Verdacht) | Entsorgung + Schrott | Ankauf unklar | Gelbe Seiten + schrottplatz-info.de |
 | Kühn Hans-Joachim Schrotthandel u. Transporte | Erfurt (Vehraer Str. 265) | keine Website gefunden | Schrotthandel, Transporte | Ankauf unklar | schrottplatz-info.de |
 | RoVa PaX Ltd. | Gera (Stadtrodaer Str. 1) | keine Website gefunden | Schrott (allg.) | Ankauf unklar | Gelbe Seiten Jena/Gera + schrottplatz-info.de |
-| GMR GmbH Geraer Metallrecycling | Gera (Franzosenweg 3) | keine Website gefunden | Metallrecycling | Ankauf unklar | Gelbe Seiten Gera |
+| GMR GmbH Geraer Metallrecycling | Gera (Franzosenweg 3) | https://www.gmr-metallrecycling.de/ | Metallrecycling (TSR-Verbund-Verdacht, unbewiesen) | Ankauf unklar | Gelbe Seiten Gera |
 | SMG Schrott & Metall GmbH | Gera (Gessentalstr. 5A) | keine Website gefunden | Schrott & Metall | Ankauf unklar | schrottplatz-info.de |
 | Richter Schrott (nicht Schrotthandel Richter/Northeim) | Gera (Söllmnitz 6b) | keine Website gefunden | Schrott (allg.) | Ankauf unklar | schrottplatz-info.de |
 | Metallrecycling Veit GmbH | Jena (Fritz-Winkler-Str. 2a) | keine Website gefunden | Metallrecycling | Ankauf unklar | schrottplatz-info.de |
-| Nordhäuser Rohstoffhandel GmbH | Nordhausen (Südstr. 7) | keine Website gefunden | Rohstoffhandel/Entsorgung | Ankauf unklar | Gelbe Seiten |
+| Nordhäuser Rohstoffhandel GmbH | Nordhausen (Südstr. 7) | https://www.nrh-recycling.de/ | Rohstoffhandel/Entsorgung, Entsorgungsfachbetrieb | Ankauf unklar | Gelbe Seiten |
 | Containerdienst Gebrüder Aurin | Hamma b. Nordhausen (Siebenackerweg 1) | keine Website gefunden | Container + Schrott | Ankauf unklar | Gelbe Seiten |
 | Autoverwertung Benke | Nordhausen (Am Weißen Stieg 13) | keine Website gefunden | Autoverwertung (Flag: Schrottankauf nicht nachgewiesen) | Ankauf unklar | schrottplatz-info.de |
 | Zimmermann Detlef | Mühlhausen (Ernst-Claes-Str. 15) | keine Website gefunden | Recycling | Ankauf unklar | Gelbe Seiten |

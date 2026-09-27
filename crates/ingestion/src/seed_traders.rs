@@ -38,6 +38,10 @@ pub struct SeedTrader {
     #[serde(default)]
     pub website: String,
     #[serde(default)]
+    pub website_status: String,
+    #[serde(default)]
+    pub phone: String,
+    #[serde(default)]
     pub dropoff_json: String,
     #[serde(default)]
     pub pickup_json: String,
@@ -132,6 +136,11 @@ pub fn validate_seeds(traders: &[SeedTrader]) -> Result<(), String> {
         {
             return Err(format!("bad website in {}", t.slug));
         }
+        if !t.website_status.is_empty()
+            && !["aktiv", "tot", "blockiert", "unbekannt"].contains(&t.website_status.as_str())
+        {
+            return Err(format!("bad website_status in {}", t.slug));
+        }
         for (key, raw) in [("dropoff_json", &t.dropoff_json), ("pickup_json", &t.pickup_json)] {
             if !raw.is_empty() {
                 let v: serde_json::Value = serde_json::from_str(raw)
@@ -156,6 +165,8 @@ fn payload_hash(
     dropoff_json: &str,
     pickup_json: &str,
     website: &str,
+    website_status: &str,
+    phone: &str,
 ) -> String {
     let mut h = DefaultHasher::new();
     [
@@ -167,6 +178,8 @@ fn payload_hash(
         t.city.as_str(),
         t.state.as_str(),
         website,
+        website_status,
+        phone,
         t.status.as_str(),
         t.notes.as_str(),
         description,
@@ -215,7 +228,17 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
         let dropoff_json = keep(&t.dropoff_json, &kept.dropoff_json, "{}");
         let pickup_json = keep(&t.pickup_json, &kept.pickup_json, "{}");
         let website = keep(&t.website, &kept.website, "");
-        let hash = payload_hash(t, &description, &dropoff_json, &pickup_json, &website);
+        let website_status = keep(&t.website_status, &kept.website_status, "unbekannt");
+        let phone = keep(&t.phone, &kept.phone, "");
+        let hash = payload_hash(
+            t,
+            &description,
+            &dropoff_json,
+            &pickup_json,
+            &website,
+            &website_status,
+            &phone,
+        );
         if kept.seed_hash == Some(hash.clone()) {
             continue; // unchanged — keep updated_at meaningful
         }
@@ -239,11 +262,11 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
                 country: "DE",
                 lat: None,
                 lon: None,
-                phone: "",
                 email: "",
                 website: &website,
-                website_status: &keep("", &kept.website_status, "unbekannt"),
+                website_status: &website_status,
                 website_checked_at: &kept.website_checked_at,
+                phone: &phone,
                 opening_hours: "",
                 dropoff_json: &dropoff_json,
                 pickup_json: &pickup_json,

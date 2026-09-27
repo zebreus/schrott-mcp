@@ -34,6 +34,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 price,
                 currency: "EUR",
                 unit,
+                price_kind: "upto",
                 price_min: None,
                 price_max: Some(price),
                 confidence: Some(0.5),
@@ -55,19 +56,18 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     })
 }
 
-/// Category → representative material. Ambiguous multi-grade categories
+/// Category → material. Ambiguous multi-grade categories
 /// (no single primary) return None on purpose.
 fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
+    // Ambiguous multi-grade categories (no single primary grade) are
+    // skipped on purpose: "Kabel / E-Motoren" mixes cable with motors,
+    // "Messing / Rotguss" quotes the category maximum.
     if l == "kupfer" {
-        Some(("kupfer-millberry", ""))
+        Some(("kupfer-gemischt", ""))
     } else if l == "aluminium" {
-        Some(("aluminium-profile", ""))
-    } else if l.contains("messing") {
-        Some(("messing", ""))
-    } else if l.contains("kabel") {
-        Some(("kabel-kupfer", ""))
+        Some(("aluminium-gemischt", ""))
     } else if l == "zinn" {
         Some(("zinn", ""))
     } else {
@@ -159,9 +159,10 @@ mod tests {
         assert_eq!(rows.len(), 2);
         assert!(skips.is_empty());
         assert_eq!(rows[0], ("Kupfer".to_owned(), 10.8, "EUR/kg"));
-        assert_eq!(grade_for("Kupfer"), Some(("kupfer-millberry", "")));
+        assert_eq!(grade_for("Kupfer"), Some(("kupfer-gemischt", "")));
         assert_eq!(grade_for("Zink / Blei"), None, "ambiguous: skipped");
         assert_eq!(grade_for("VHM / HSS / WOLFRAM"), None);
-        assert_eq!(grade_for("Kabel / E-Motoren"), Some(("kabel-kupfer", "")));
+        assert_eq!(grade_for("Kabel / E-Motoren"), None, "mixed category: skipped");
+        assert_eq!(grade_for("Messing / Rotguss"), None, "category maximum: skipped");
     }
 }

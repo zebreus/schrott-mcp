@@ -133,20 +133,18 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
     if !cols.contains("website_checked_at") {
         add("ALTER TABLE traders ADD COLUMN website_checked_at TEXT NOT NULL DEFAULT '';")?;
     }
-    // Legacy boolean flags -> condition JSON, once. (The flag columns
-    // stay in old files as inert leftovers: DROP COLUMN on an FTS5
-    // content table corrupts the schema, so migrations stay additive.)
-    if cols.contains("accepts_dropoff") {
-        conn.execute_batch(
-            "UPDATE traders SET dropoff_json =
-             CASE WHEN dropoff_json = '{}' THEN
-               '{\"allowed\":' || CASE accepts_dropoff WHEN 0 THEN 'false' ELSE 'true' END || '}'
-             ELSE dropoff_json END;
-             UPDATE traders SET pickup_json =
-             CASE WHEN pickup_json = '{}' THEN
-               '{\"allowed\":' || CASE accepts_pickup WHEN 0 THEN 'false' ELSE 'true' END || '}'
-             ELSE pickup_json END;",
-        )?;
+    // Legacy boolean flags -> condition JSON happened once, long ago
+    // (every live database already went through it). The '{}' value now
+    // legitimately means "unknown", so no data backfill may ever rerun:
+    // PRAGMA user_version merely marks the migration done. The flag
+    // columns stay in old files as inert leftovers (DROP COLUMN on an
+    // FTS5 content table corrupts the schema).
+    let version: i64 =
+        conn.query_row("SELECT COALESCE(MAX(user_version), 0) FROM pragma_user_version", [], |r| {
+            r.get(0)
+        })?;
+    if version < 1 {
+        conn.execute_batch("PRAGMA user_version = 1;")?;
     }
     conn.execute_batch(TRIGGERS)?;
     Ok(())
@@ -228,6 +226,7 @@ pub struct SeedKept {
     pub website: String,
     pub website_status: String,
     pub website_checked_at: String,
+    pub phone: String,
 }
 
 impl PublicDb {
@@ -316,7 +315,7 @@ impl PublicDb {
         let conn = self.lock()?;
         conn.query_row(
             "SELECT extra_json, description, dropoff_json, pickup_json,
-                    website, website_status, website_checked_at
+                    website, website_status, website_checked_at, phone
              FROM traders WHERE slug = ?1",
             params![slug],
             |r| {
@@ -332,6 +331,7 @@ impl PublicDb {
                     website: r.get(4)?,
                     website_status: r.get(5)?,
                     website_checked_at: r.get(6)?,
+                    phone: r.get(7)?,
                 })
             },
         )
@@ -456,7 +456,7 @@ mod tests {
     }
 
     #[test]
-    fn old_boolean_flags_migrate_to_condition_json() {
+    fn legacy_boolean_flags_stay_inert() {
         let dir = std::env::temp_dir().join(format!("schrott-migrate-{}", std::process::id()));
         let _ = std::fs::remove_dir_all(&dir);
         std::fs::create_dir_all(&dir).expect("dir");
@@ -489,6 +489,9 @@ mod tests {
             .expect("old row");
         }
         let db = PublicDb::open(&dir).expect("open migrates");
+        // New columns exist; legacy flags are NOT reinterpreted (an empty
+        // condition object means unknown — never backfilled from stale
+        // booleans, which would clobber honest '{}' rows on every open).
         let res = db
             .query_sql(
                 "SELECT dropoff_json, pickup_json, description, max_quantity_kg,
@@ -496,13 +499,8 @@ mod tests {
             )
             .expect("migrated columns");
         assert_eq!(res.rows.len(), 1);
-        let dropoff: serde_json::Value =
-            serde_json::from_str(res.rows[0][0].as_str().expect("json")).expect("parses");
-        assert_eq!(dropoff.get("allowed"), Some(&serde_json::Value::Bool(true)));
-        let pickup: serde_json::Value =
-            serde_json::from_str(res.rows[0][1].as_str().expect("json")).expect("parses");
-        assert_eq!(pickup.get("allowed"), Some(&serde_json::Value::Bool(false)));
-        // Legacy flag columns stay as inert leftovers (additive migration).
+        assert_eq!(res.rows[0][0].as_str(), Some("{}"));
+        assert_eq!(res.rows[0][1].as_str(), Some("{}"));
         let cols = db
             .query_sql("SELECT name FROM pragma_table_info('traders')")
             .expect("pragma");

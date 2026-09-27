@@ -87,6 +87,19 @@ impl PublicDb {
         .map_err(StoreError::from)
     }
 
+    /// Quotation unit for a material id, if known. Used to normalize
+    /// observed prices into the catalog unit at ingest.
+    pub fn material_unit(&self, id: i64) -> Result<Option<String>, StoreError> {
+        let conn = self.lock()?;
+        conn.query_row(
+            "SELECT unit FROM materials WHERE id = ?1",
+            params![id],
+            |r| r.get(0),
+        )
+        .optional()
+        .map_err(StoreError::from)
+    }
+
     /// Whole catalog, ordered by category then German name.
     pub fn list_materials(&self) -> Result<Vec<MaterialRow>, StoreError> {
         let conn = self.lock()?;

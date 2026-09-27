@@ -70,6 +70,8 @@ pub struct ScrapedPrice {
     pub price: f64,
     pub currency: &'static str,
     pub unit: &'static str,
+    /// One of `exact`, `upto`, `range`, `approx` (see [`PRICE_KINDS`]).
+    pub price_kind: &'static str,
     pub price_min: Option<f64>,
     pub price_max: Option<f64>,
     /// 1.0 = exact list price, lower = vaguer ("bis zu", ranges).
@@ -237,15 +239,20 @@ pub async fn record(
             skipped.push(format!("{} (unbekanntes Material)", p.label));
             continue;
         };
+        // Normalize into the catalog unit (kg<->t); anything else stays
+        // as quoted — conversions we cannot prove stay untouched.
+        let (price, price_min, price_max, unit) =
+            normalize_unit(public, material_id, p.price, p.price_min, p.price_max, p.unit)?;
         match public.record_price(&schrott_mcp_store::NewPrice {
             trader_id,
             material_id,
             variant: &p.variant,
-            price: p.price,
+            price,
             currency: p.currency,
-            unit: p.unit,
-            price_min: p.price_min,
-            price_max: p.price_max,
+            unit: &unit,
+            price_kind: p.price_kind,
+            price_min,
+            price_max,
             confidence: p.confidence,
             source_type: "haendler_angabe",
             published: true,
@@ -261,7 +268,22 @@ pub async fn record(
             extra_json: "{}",
             ingested_at: &now_s,
         }) {
-            Ok(_) => recorded += 1,
+            Ok(_) => {
+                recorded += 1;
+                // A published price proves acceptance of the material.
+                if let Err(e) = public.set_acceptance(
+                    trader_id,
+                    material_id,
+                    true,
+                    "",
+                    None,
+                    None,
+                    &now_s,
+                    &now_s,
+                ) {
+                    tracing::warn!("ingestion: acceptance write failed for {handler_slug}: {e}");
+                }
+            }
             Err(e) => {
                 tracing::warn!("ingestion: price write failed for {handler_slug}: {e}");
                 skipped.push(format!("{} (Schreibfehler)", p.label));
@@ -269,6 +291,40 @@ pub async fn record(
         }
     }
     Ok((recorded, skipped))
+}
+
+/// Convert a quoted price into the catalog unit when the conversion is
+/// exact (kg<->t). Returns (price, min, max, unit-as-stored).
+fn normalize_unit(
+    public: &PublicDb,
+    material_id: i64,
+    price: f64,
+    min: Option<f64>,
+    max: Option<f64>,
+    unit: &str,
+) -> Result<(f64, Option<f64>, Option<f64>, String), super::IngestError> {
+    let target = public
+        .material_unit(material_id)
+        .map_err(|source| super::IngestError::Catalog {
+            what: "material",
+            name: format!("unit of #{material_id}"),
+            source,
+        })?
+        .unwrap_or_else(|| unit.to_owned());
+    if target == unit {
+        return Ok((price, min, max, target));
+    }
+    let factor = match (unit, target.as_str()) {
+        ("EUR/kg", "EUR/t") => 1000.0,
+        ("EUR/t", "EUR/kg") => 1.0 / 1000.0,
+        _ => return Ok((price, min, max, unit.to_owned())),
+    };
+    Ok((
+        price * factor,
+        min.map(|v| v * factor),
+        max.map(|v| v * factor),
+        target,
+    ))
 }
 
 #[cfg(test)]

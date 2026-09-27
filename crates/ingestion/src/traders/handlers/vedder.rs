@@ -30,6 +30,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 price,
                 currency: "EUR",
                 unit,
+                price_kind: "exact",
                 price_min: None,
                 price_max: None,
                 confidence: Some(1.0),
@@ -61,7 +62,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("kerze") {
         Some(("kupfer-berry", "Kerze"))
     } else if l.contains("raff") && !l.contains("kabel") {
-        Some(("kupfer-berry", "Alt"))
+        Some(("kupfer-gemischt", "Alt"))
     } else if l.contains("kabel") && l.contains("kupfer") {
         Some(("kabel-kupfer", "38%"))
     } else if l.contains("rotguss") || l.contains("bronze") {
@@ -205,6 +206,7 @@ mod tests {
             Some(("kupfer-millberry", ""))
         );
         assert_eq!(grade_for("Kupfer blank (Kerze)"), Some(("kupfer-berry", "Kerze")));
+        assert_eq!(grade_for("Kupfer Raff  (Alt)"), Some(("kupfer-gemischt", "Alt")));
         assert_eq!(grade_for("Rotguss Stücke sauber"), Some(("bronze-rotguss", "")));
         assert_eq!(grade_for("Edelstahlabfälle V4A"), Some(("edelstahl-v4a", "")));
         assert_eq!(grade_for("Zinn 80% - 98% (Geschirr)"), Some(("zinn", "80-98%")));

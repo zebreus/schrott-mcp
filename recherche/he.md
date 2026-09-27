@@ -48,8 +48,8 @@ Ankauf-Legende: `ja` = Ankauf auf Website/Portal belegt; `unklar` = nur Abholung
 | 30 | Scholz Rico Schrott | Wiesbaden-Erbenheim (Rennbahnstr. 1) | keine Website gefunden | Kleinhändler Schrott | unklar |
 | 31 | Salvatore & Vitale Schrott | Wiesbaden / Mainz-Kostheim (Römerfeld 6 – Kostheim ist Wiesbadener Bezirk, HE) | keine Website gefunden | Kleinhändler Schrott | unklar |
 | 32 | Metallrecycling Keck | Darmstadt (Haasstr. 3 / Containerplatz 15) | https://www.metallrecycling-keck.de/ | Schrott-/Metallankauf (Stahl/Kupfer/Messing/Alu), Kabelschrott, E-Motoren, Batterien, Container, Abholung | ja |
-| 33 | ESH-Darmstadt | Darmstadt-Nord (Akazienweg 15b) | keine Website gefunden | Schrotthändler (GS, Webseite vorhanden aber URL unverifiziert) | unklar |
-| 34 | ARB Altmetall Recycling Bamberger | Darmstadt-Nord (Akazienweg 17a) | keine Website gefunden | Altmetall-Recycling | unklar |
+| 33 | ESH-Darmstadt | Darmstadt-Nord (Akazienweg 15b) | https://www.esh-darmstadt.de/services/schrotthandel-demontage/ | Schrotthandel & Demontage mit Ankauf-Liste (Alu/VA V2A+V4A/Blech/Späne/Stahl/Eisen/Kupfer/Messing/Nickel/Zink/Zinn/Blei), Privat/Handwerk/Industrie; Tel. 0151/54774718, 06151/7899959 | ja (Statuswechsel Runde 4) |
+| 34 | ARB Altmetall Recycling Bamberger | Darmstadt-Nord (Akazienweg 17a) | https://www.acb-darmstadt.de/leistungen/containerdienst | Altmetall-Recycling (= ACB Asbestsanierung Bamberger); Metallschrott zu tagesaktuellen Preisen, Container 3–40 m³, Entkernung/Demontage/Asbest; Tel. 0172-6541090 | ja (Statuswechsel Runde 4) |
 | 35 | Reinhardt-Recycling | Darmstadt-Nord (Akazienweg 15) | keine Website gefunden | Schrotthändler | unklar |
 | 36 | Mohr Rohstoff GmbH Altmetallhandel (Filiale? – Verhältnis zu MOHR Wiesbaden ungeklärt) | Darmstadt-Nord (Pfnorstr. 3) | keine Website gefunden | Altmetallhandel | unklar |
 | 37 | FKS Recycling Ankauf | Darmstadt-Nord (Gehaborner Weg 2) | keine Website gefunden | Schrott-Ankauf (Name deutet Ankauf an) | ja (unsicher – nur Name/GS) |

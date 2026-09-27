@@ -33,6 +33,13 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Zerkleinerter Altschrott, scherengerecht aufbereitet.",
     ),
     (
+        "stahlschrott-shredder",
+        "Stahlschrott Shreddervormaterial",
+        "eisen",
+        "EUR/t",
+        "Geschredderter Stahlschrott aus Altautos und Geräten.",
+    ),
+    (
         "eisenschrott-gussbruch",
         "Eisenschrott / Gussbruch",
         "eisen",
@@ -52,6 +59,13 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "nichteisen",
         "EUR/kg",
         "Blanker, unbeschichteter Kupferdraht ab 1 mm.",
+    ),
+    (
+        "kupfer-gemischt",
+        "Kupfer gemischt",
+        "nichteisen",
+        "EUR/kg",
+        "Gemischte Kupferschrotte ohne Sortenreinheit (Raff, schwer, Nr. 2 …).",
     ),
     (
         "kupfer-berry",
@@ -80,6 +94,13 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "nichteisen",
         "EUR/kg",
         "Blanke Aluminiumprofile ohne Anhaftungen.",
+    ),
+    (
+        "aluminium-gemischt",
+        "Aluminium gemischt",
+        "nichteisen",
+        "EUR/kg",
+        "Gemischte Aluminiumschrotte ohne Sortenreinheit.",
     ),
     (
         "aluminium-guss",
@@ -122,6 +143,13 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "edelstahl",
         "EUR/kg",
         "Nickelhaltiger Edelstahlschrott, magnetisch prüfbar.",
+    ),
+    (
+        "edelstahl-gemischt",
+        "Edelstahl gemischt",
+        "edelstahl",
+        "EUR/kg",
+        "Gemischte Edelstahlschrotte ohne Sortenreinheit.",
     ),
     (
         "edelstahl-v4a",

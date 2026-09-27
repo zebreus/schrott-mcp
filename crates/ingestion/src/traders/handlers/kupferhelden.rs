@@ -30,6 +30,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             price,
             currency: "EUR",
             unit,
+            price_kind: "upto",
             price_min: None,
             price_max,
             confidence,

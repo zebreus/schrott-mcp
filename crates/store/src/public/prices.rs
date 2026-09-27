@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS prices (
     price REAL NOT NULL,
     currency TEXT NOT NULL DEFAULT 'EUR',
     unit TEXT NOT NULL DEFAULT 'EUR/kg',
+    price_kind TEXT NOT NULL DEFAULT 'exact',
     price_min REAL,
     price_max REAL,
     confidence REAL,
@@ -85,7 +86,7 @@ DROP VIEW IF EXISTS v_current_prices;
 CREATE VIEW v_current_prices AS
 SELECT t.slug AS trader_slug, t.name AS trader, t.city, t.postcode, t.state,
        m.slug AS material_slug, m.name_de AS material, p.variant, m.category,
-       p.price, p.currency, p.unit, p.price_min, p.price_max, p.confidence,
+       p.price, p.currency, p.unit, p.price_kind, p.price_min, p.price_max, p.confidence,
        p.source_type, p.published, p.source_url,
        p.observed_at, p.published_at, p.valid_from, p.valid_to
 FROM current_prices c
@@ -94,20 +95,39 @@ JOIN traders t ON t.id = c.trader_id
 JOIN materials m ON m.id = c.material_id;
 ";
 
+/// Price kinds: `exact` (list price), `upto` (upper bound, "bis zu"),
+/// `range` (use price_min/max), `approx` (rounded/guide price).
+pub const PRICE_KINDS: &[&str] = &["exact", "upto", "range", "approx"];
+
 /// Bring existing price tables up to the variant schema: add the column,
 /// then rebuild `current_prices` keyed by (trader, material, variant).
 /// No FTS triggers touch these tables, so rebuild-by-copy is safe.
 pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
-    let mut prices_variant = false;
-    let mut current_variant = false;
+    let mut prices_cols = std::collections::HashSet::new();
     for col in conn
         .prepare("SELECT name FROM pragma_table_info('prices')")?
         .query_map([], |r| r.get::<_, String>(0))?
     {
-        if col? == "variant" {
-            prices_variant = true;
-        }
+        prices_cols.insert(col?);
     }
+    if !prices_cols.contains("variant") {
+        conn.execute_batch("ALTER TABLE prices ADD COLUMN variant TEXT NOT NULL DEFAULT '';")?;
+    }
+    if !prices_cols.contains("price_kind") {
+        conn.execute_batch(
+            "ALTER TABLE prices ADD COLUMN price_kind TEXT NOT NULL DEFAULT 'exact';",
+        )?;
+        // Backfill: the "bis zu" encoding (max == price, conf 0.5, no min)
+        // becomes an explicit kind. Exact rows carry no max.
+        conn.execute_batch(
+            "UPDATE prices SET price_kind = 'upto'
+             WHERE confidence = 0.5 AND price_min IS NULL
+               AND price_max IS NOT NULL AND price_max = price;",
+        )?;
+    }
+    // One-time rebuild: old rows carry variant '' by construction, so the
+    // copy preserves every pointer. Never rerun once migrated.
+    let mut current_variant = false;
     for col in conn
         .prepare("SELECT name FROM pragma_table_info('current_prices')")?
         .query_map([], |r| r.get::<_, String>(0))?
@@ -116,11 +136,6 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
             current_variant = true;
         }
     }
-    if !prices_variant {
-        conn.execute_batch("ALTER TABLE prices ADD COLUMN variant TEXT NOT NULL DEFAULT '';")?;
-    }
-    // One-time rebuild: old rows carry variant '' by construction, so the
-    // copy preserves every pointer. Never rerun once migrated.
     if !current_variant {
         conn.execute_batch(
             "CREATE TABLE current_prices_new (
@@ -150,6 +165,7 @@ pub struct PriceRow {
     pub price: f64,
     pub currency: String,
     pub unit: String,
+    pub price_kind: String,
     pub price_min: Option<f64>,
     pub price_max: Option<f64>,
     pub confidence: Option<f64>,
@@ -174,6 +190,8 @@ pub struct NewPrice<'a> {
     pub price: f64,
     pub currency: &'a str,
     pub unit: &'a str,
+    /// One of [`PRICE_KINDS`]; anything else is rejected.
+    pub price_kind: &'a str,
     pub price_min: Option<f64>,
     pub price_max: Option<f64>,
     pub confidence: Option<f64>,
@@ -195,14 +213,17 @@ impl PublicDb {
     /// Out-of-order backfills never clobber newer data: `current_prices`
     /// only moves forward in `observed_at` (ties: higher id wins).
     pub fn record_price(&self, p: &NewPrice<'_>) -> Result<i64, StoreError> {
+        if !PRICE_KINDS.contains(&p.price_kind) {
+            return Err(StoreError::Rejected("unknown price_kind"));
+        }
         let conn = self.lock()?;
         conn.execute(
             "INSERT INTO prices
-             (trader_id, material_id, variant, price, currency, unit,
+             (trader_id, material_id, variant, price, currency, unit, price_kind,
               price_min, price_max, confidence, source_type, published, source_url,
               observed_at, published_at, valid_from, valid_to,
               notes, extra_json, ingested_at)
-             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18, ?19)",
+             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18, ?19, ?20)",
             params![
                 p.trader_id,
                 p.material_id,
@@ -210,6 +231,7 @@ impl PublicDb {
                 p.price,
                 p.currency,
                 p.unit,
+                p.price_kind,
                 p.price_min,
                 p.price_max,
                 p.confidence,
@@ -264,7 +286,7 @@ impl PublicDb {
         let conn = self.lock()?;
         conn.query_row(
             "SELECT p.id, p.trader_id, p.material_id, p.variant, p.price, p.currency, p.unit,
-                    p.price_min, p.price_max, p.confidence, p.source_type, p.published,
+                    p.price_kind, p.price_min, p.price_max, p.confidence, p.source_type, p.published,
                     p.source_url, p.observed_at, p.published_at, p.valid_from, p.valid_to,
                     p.notes, p.extra_json, p.ingested_at
              FROM current_prices c JOIN prices p ON p.id = c.price_id
@@ -287,7 +309,7 @@ impl PublicDb {
         let conn = self.lock()?;
         let mut stmt = conn.prepare(
             "SELECT id, trader_id, material_id, variant, price, currency, unit,
-                    price_min, price_max, confidence, source_type, published,
+                    price_kind, price_min, price_max, confidence, source_type, published,
                     source_url, observed_at, published_at, valid_from, valid_to,
                     notes, extra_json, ingested_at
              FROM prices WHERE trader_id = ?1 AND material_id = ?2 AND variant = ?3
@@ -345,19 +367,20 @@ fn row_to_price(r: &rusqlite::Row<'_>) -> rusqlite::Result<PriceRow> {
         price: r.get(4)?,
         currency: r.get(5)?,
         unit: r.get(6)?,
-        price_min: r.get(7)?,
-        price_max: r.get(8)?,
-        confidence: r.get(9)?,
-        source_type: r.get(10)?,
-        published: r.get::<_, i64>(11)? != 0,
-        source_url: r.get(12)?,
-        observed_at: r.get(13)?,
-        published_at: r.get(14)?,
-        valid_from: r.get(15)?,
-        valid_to: r.get(16)?,
-        notes: r.get(17)?,
-        extra_json: r.get(18)?,
-        ingested_at: r.get(19)?,
+        price_kind: r.get(7)?,
+        price_min: r.get(8)?,
+        price_max: r.get(9)?,
+        confidence: r.get(10)?,
+        source_type: r.get(11)?,
+        published: r.get::<_, i64>(12)? != 0,
+        source_url: r.get(13)?,
+        observed_at: r.get(14)?,
+        published_at: r.get(15)?,
+        valid_from: r.get(16)?,
+        valid_to: r.get(17)?,
+        notes: r.get(18)?,
+        extra_json: r.get(19)?,
+        ingested_at: r.get(20)?,
     })
 }
 
@@ -425,6 +448,7 @@ mod tests {
             trader_id: trader,
             material_id: material,
             variant: "",
+            price_kind: "exact",
             price: eur,
             currency: "EUR",
             unit: "EUR/kg",
@@ -470,6 +494,7 @@ mod tests {
         let (db, trader, material) = setup();
         db.record_price(&NewPrice {
             variant: "",
+            price_kind: "exact",
             price_min: Some(6.80),
             price_max: Some(7.40),
             confidence: Some(0.6),
@@ -506,6 +531,7 @@ mod tests {
         for (variant, eur) in [("große Teile", 5.20), ("kleine Teile", 4.10)] {
             db.record_price(&NewPrice {
                 variant,
+                price_kind: "exact",
                 ..price(trader, material, eur, "2026-09-27T00:00:00Z", "2026-09-27T00:00:00Z")
             })
             .expect("grade records");
@@ -537,7 +563,7 @@ mod tests {
             conn.execute_batch(
                 "CREATE TABLE traders (id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT NOT NULL UNIQUE, name TEXT NOT NULL, trader_type TEXT NOT NULL DEFAULT '', description TEXT NOT NULL DEFAULT '', street TEXT NOT NULL DEFAULT '', postcode TEXT NOT NULL DEFAULT '', city TEXT NOT NULL DEFAULT '', state TEXT NOT NULL DEFAULT '', country TEXT NOT NULL DEFAULT 'DE', lat REAL, lon REAL, phone TEXT NOT NULL DEFAULT '', email TEXT NOT NULL DEFAULT '', website TEXT NOT NULL DEFAULT '', website_status TEXT NOT NULL DEFAULT '', website_checked_at TEXT NOT NULL DEFAULT '', opening_hours TEXT NOT NULL DEFAULT '', dropoff_json TEXT NOT NULL DEFAULT '{}', pickup_json TEXT NOT NULL DEFAULT '{}', min_quantity_kg REAL, max_quantity_kg REAL, certifications TEXT NOT NULL DEFAULT '[]', status TEXT NOT NULL DEFAULT '', notes TEXT NOT NULL DEFAULT '', extra_json TEXT NOT NULL DEFAULT '{}', first_seen_at TEXT NOT NULL DEFAULT '', updated_at TEXT NOT NULL DEFAULT '');
                  CREATE TABLE materials (id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT NOT NULL UNIQUE, name_de TEXT NOT NULL, category TEXT NOT NULL DEFAULT '', unit TEXT NOT NULL DEFAULT '', description TEXT NOT NULL DEFAULT '', extra_json TEXT NOT NULL DEFAULT '{}', updated_at TEXT NOT NULL DEFAULT '');
-                 CREATE TABLE prices (id INTEGER PRIMARY KEY AUTOINCREMENT, trader_id INTEGER NOT NULL, material_id INTEGER NOT NULL, price REAL NOT NULL, observed_at TEXT NOT NULL, ingested_at TEXT NOT NULL);
+                 CREATE TABLE prices (id INTEGER PRIMARY KEY AUTOINCREMENT, trader_id INTEGER NOT NULL, material_id INTEGER NOT NULL, price REAL NOT NULL, currency TEXT NOT NULL DEFAULT 'EUR', unit TEXT NOT NULL DEFAULT 'EUR/kg', price_min REAL, price_max REAL, confidence REAL, source_type TEXT NOT NULL DEFAULT '', published INTEGER NOT NULL DEFAULT 0, source_url TEXT NOT NULL DEFAULT '', observed_at TEXT NOT NULL, published_at TEXT, valid_from TEXT, valid_to TEXT, notes TEXT NOT NULL DEFAULT '', extra_json TEXT NOT NULL DEFAULT '{}', ingested_at TEXT NOT NULL);
                  CREATE TABLE current_prices (trader_id INTEGER NOT NULL, material_id INTEGER NOT NULL, price_id INTEGER NOT NULL, updated_at TEXT NOT NULL, PRIMARY KEY (trader_id, material_id));
                  INSERT INTO traders (slug, name) VALUES ('t','T');
                  INSERT INTO materials (slug, name_de) VALUES ('m','M');
