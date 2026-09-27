@@ -155,7 +155,11 @@ pub async fn run_query(
         match tokio::time::timeout(std::time::Duration::from_secs(WORKER_WALL_SECS), collect).await
         {
             Err(_) => {
+                // Kill AND reap: dropping the handle without wait() would
+                // leave a zombie. SIGKILL cannot be ignored; the extra wait
+                // only lingers if the child is in uninterruptible sleep.
                 let _ = child.kill().await;
+                let _ = tokio::time::timeout(std::time::Duration::from_secs(5), child.wait()).await;
                 return Err(WorkerError::TimedOut);
             }
             Ok(Err(e)) => return Err(e),
