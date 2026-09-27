@@ -25,11 +25,12 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     // same grades: collapse identical (material, price) pairs.
     let mut seen = std::collections::HashSet::new();
     for (label, price, unit) in rows {
-        match material_for(&label) {
-            Some(material) => {
-                if seen.insert((material, price.to_bits())) {
+        match grade_for(&label) {
+            Some((material, variant)) => {
+                if seen.insert((material, variant, price.to_bits())) {
                     prices.push(ScrapedPrice {
                         material,
+                        variant,
                         price,
                         currency: "EUR",
                         unit,
@@ -56,7 +57,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     })
 }
 
-fn material_for(label: &str) -> Option<&'static str> {
+fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let norm: String = label
         .to_lowercase()
         .chars()
@@ -64,17 +65,15 @@ fn material_for(label: &str) -> Option<&'static str> {
         .collect();
     let norm = norm.as_str();
     if norm.contains("millberry") {
-        Some("kupfer-millberry")
+        Some(("kupfer-millberry", ""))
     } else if norm.contains("messing") {
-        Some("messing")
+        Some(("messing", ""))
     } else if norm.contains("schwer") || norm.contains("berry") || norm.contains("raff") {
-        Some("kupfer-berry")
+        Some(("kupfer-berry", ""))
     } else if norm.contains("kabel") {
-        Some("kabel-kupfer")
-    } else if norm.contains("messing") {
-        Some("messing")
+        Some(("kabel-kupfer", ""))
     } else if norm.contains("mischschrott") {
-        Some("mischschrott")
+        Some(("mischschrott", ""))
     } else {
         None
     }
@@ -138,7 +137,7 @@ fn is_junk(t: &str) -> bool {
 
 #[cfg(test)]
 mod tests {
-    use super::{is_junk, material_for, parse};
+    use super::{is_junk, grade_for, parse};
 
     const FIXTURE: &str = "<h2>Unsere Preise</h2>\
         <table><tr><td><strong>Cu - Millberry</strong></td></tr>\
@@ -158,9 +157,9 @@ mod tests {
         assert_eq!(rows[0].0, "Cu - Millberry");
         assert_eq!(rows[0].1, 9.19);
         assert_eq!(rows[1].2, "EUR/t");
-        assert_eq!(material_for("Cu - Millberry"), Some("kupfer-millberry"));
-        assert_eq!(material_for("Mischschrott"), Some("mischschrott"));
-        assert_eq!(material_for("Altpapier"), None);
+        assert_eq!(grade_for("Cu - Millberry"), Some(("kupfer-millberry", "")));
+        assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
+        assert_eq!(grade_for("Altpapier"), None);
         assert!(is_junk("KEIN ANKAUF MEHR VON"));
     }
 }

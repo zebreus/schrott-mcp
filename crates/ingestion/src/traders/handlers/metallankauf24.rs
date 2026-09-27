@@ -27,9 +27,10 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     let mut prices = Vec::with_capacity(rows.len());
     let mut skipped_labels = Vec::new();
     for (label, price, unit) in rows {
-        match material_for(&label) {
-            Some(material) => prices.push(ScrapedPrice {
+        match grade_for(&label) {
+            Some((material, variant)) => prices.push(ScrapedPrice {
                 material,
+                variant,
                 price,
                 currency: "EUR",
                 unit,
@@ -56,19 +57,19 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 
 /// Category → representative material. Ambiguous multi-grade categories
 /// (no single primary) return None on purpose.
-fn material_for(label: &str) -> Option<&'static str> {
+fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
     if l == "kupfer" {
-        Some("kupfer-millberry")
+        Some(("kupfer-millberry", ""))
     } else if l == "aluminium" {
-        Some("aluminium-profile")
+        Some(("aluminium-profile", ""))
     } else if l.contains("messing") {
-        Some("messing")
+        Some(("messing", ""))
     } else if l.contains("kabel") {
-        Some("kabel-kupfer")
+        Some(("kabel-kupfer", ""))
     } else if l == "zinn" {
-        Some("zinn")
+        Some(("zinn", ""))
     } else {
         None
     }
@@ -137,7 +138,7 @@ fn is_junk(t: &str) -> bool {
 
 #[cfg(test)]
 mod tests {
-    use super::{material_for, parse};
+    use super::{grade_for, parse};
 
     const FIXTURE: &str = "<h2>Aktuelle Schrottpreise</h2>\
         <div>Kupfer</div><div>bis zu € 10,80 erhalten</div>\
@@ -150,9 +151,9 @@ mod tests {
         let rows = parse(FIXTURE).expect("parses");
         assert_eq!(rows.len(), 2);
         assert_eq!(rows[0], ("Kupfer".to_owned(), 10.8, "EUR/kg"));
-        assert_eq!(material_for("Kupfer"), Some("kupfer-millberry"));
-        assert_eq!(material_for("Zink / Blei"), None, "ambiguous: skipped");
-        assert_eq!(material_for("VHM / HSS / WOLFRAM"), None);
-        assert_eq!(material_for("Kabel / E-Motoren"), Some("kabel-kupfer"));
+        assert_eq!(grade_for("Kupfer"), Some(("kupfer-millberry", "")));
+        assert_eq!(grade_for("Zink / Blei"), None, "ambiguous: skipped");
+        assert_eq!(grade_for("VHM / HSS / WOLFRAM"), None);
+        assert_eq!(grade_for("Kabel / E-Motoren"), Some(("kabel-kupfer", "")));
     }
 }

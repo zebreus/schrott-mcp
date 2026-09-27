@@ -24,9 +24,10 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     let mut prices = Vec::with_capacity(rows.len());
     let mut skipped_labels = Vec::new();
     for (label, price, unit) in rows {
-        match material_for(&label) {
-            Some(material) => prices.push(ScrapedPrice {
+        match grade_for(&label) {
+            Some((material, variant)) => prices.push(ScrapedPrice {
                 material,
+                variant,
                 price,
                 currency: "EUR",
                 unit,
@@ -51,38 +52,52 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     })
 }
 
-/// Explicit label → material mapping. Anything unlisted is skipped.
-fn material_for(label: &str) -> Option<&'static str> {
+/// Explicit label → (material, variant) mapping. Anything unlisted is
+/// skipped. The variant keeps the trader's own grade wording.
+fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
     if l.contains("millberry") {
-        Some("kupfer-millberry")
-    } else if l.contains("kerze") || (l.contains("raff") && !l.contains("kabel")) {
-        Some("kupfer-berry")
+        Some(("kupfer-millberry", ""))
+    } else if l.contains("kerze") {
+        Some(("kupfer-berry", "Kerze"))
+    } else if l.contains("raff") && !l.contains("kabel") {
+        Some(("kupfer-berry", "Alt"))
     } else if l.contains("kabel") && l.contains("kupfer") {
-        Some("kabel-kupfer")
+        Some(("kabel-kupfer", "38%"))
     } else if l.contains("rotguss") || l.contains("bronze") {
-        Some("bronze-rotguss")
+        Some(("bronze-rotguss", ""))
     } else if l.contains("messing") {
-        Some("messing")
+        Some(("messing", ""))
     } else if l.contains("blei") {
-        Some("blei")
+        Some(("blei", ""))
     } else if l.contains("zink") {
-        Some("zink")
+        Some(("zink", ""))
     } else if l.contains("v4a") {
-        Some("edelstahl-v4a")
+        Some(("edelstahl-v4a", ""))
     } else if l.contains("v2a") || l.contains("edelstahl") {
-        Some("edelstahl-v2a")
+        Some(("edelstahl-v2a", ""))
     } else if l.contains("profile") {
-        Some("aluminium-profile")
+        Some(("aluminium-profile", ""))
     } else if l.contains("blech") {
-        Some("aluminium-blech")
+        Some(("aluminium-blech", ""))
     } else if l.contains("guss") && l.contains("alu") {
-        Some("aluminium-guss")
+        Some(("aluminium-guss", ""))
     } else if l.contains("zinn") {
-        Some("zinn")
+        // Grades: the range IS the grade ("Zinn 80% - 98% (Geschirr)" …).
+        if l.contains("80%") {
+            Some(("zinn", "80-98%"))
+        } else if l.contains("70%") {
+            Some(("zinn", "70-79%"))
+        } else if l.contains("60%") {
+            Some(("zinn", "60-69%"))
+        } else if l.contains("50%") {
+            Some(("zinn", "50-59%"))
+        } else {
+            Some(("zinn", ""))
+        }
     } else if l.contains("geschirr") {
-        Some("aluminium-blech")
+        Some(("aluminium-blech", "Geschirr"))
     } else {
         None
     }
@@ -129,7 +144,7 @@ fn parse(html: &str) -> Result<(Option<String>, Vec<(String, f64, &'static str)>
 
 #[cfg(test)]
 mod tests {
-    use super::{material_for, parse};
+    use super::{grade_for, parse};
 
     const FIXTURE: &str = "<h2>Unverbindliche Ankaufspreise27.09.2026</h2>\
         <table><thead><tr><th>Materialbezeichnung</th><th>Preis</th><th>Einheit</th></tr></thead>\
@@ -150,10 +165,16 @@ mod tests {
 
     #[test]
     fn mapping_skips_catalog_gaps() {
-        assert_eq!(material_for("Kupfer-Kabel blank (Millberry)"), Some("kupfer-millberry"));
-        assert_eq!(material_for("Rotguss Stücke sauber"), Some("bronze-rotguss"));
-        assert_eq!(material_for("Edelstahlabfälle V4A"), Some("edelstahl-v4a"));
-        assert_eq!(material_for("Hartmetall Widia Platten und Bohrer"), None);
-        assert_eq!(material_for("Versilberte Messer"), None);
+        assert_eq!(
+            grade_for("Kupfer-Kabel blank (Millberry)"),
+            Some(("kupfer-millberry", ""))
+        );
+        assert_eq!(grade_for("Kupfer blank (Kerze)"), Some(("kupfer-berry", "Kerze")));
+        assert_eq!(grade_for("Rotguss Stücke sauber"), Some(("bronze-rotguss", "")));
+        assert_eq!(grade_for("Edelstahlabfälle V4A"), Some(("edelstahl-v4a", "")));
+        assert_eq!(grade_for("Zinn 80% - 98% (Geschirr)"), Some(("zinn", "80-98%")));
+        assert_eq!(grade_for("Zinn 50% - 59%"), Some(("zinn", "50-59%")));
+        assert_eq!(grade_for("Hartmetall Widia Platten und Bohrer"), None);
+        assert_eq!(grade_for("Versilberte Messer"), None);
     }
 }

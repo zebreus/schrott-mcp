@@ -234,6 +234,7 @@ mod tests {
             Ok(HandlerOutcome {
                 prices: vec![ScrapedPrice {
                     material: "nope-not-a-material",
+                    variant: "",
                     price: 1.0,
                     currency: "EUR",
                     unit: "EUR/kg",
@@ -329,6 +330,7 @@ mod tests {
                 prices: vec![
                     ScrapedPrice {
                         material: "kupfer-millberry",
+                        variant: "80-98%",
                         price: 9.8,
                         currency: "EUR",
                         unit: "EUR/kg",
@@ -342,6 +344,7 @@ mod tests {
                     },
                     ScrapedPrice {
                         material: "messing",
+                        variant: "",
                         price: 4.9,
                         currency: "EUR",
                         unit: "EUR/kg",
@@ -422,19 +425,20 @@ mod tests {
         assert_eq!((recorded, failed.len()), (2, 0));
         let res = public
             .query_sql(
-                "SELECT m.slug, p.published_at, p.valid_from, p.valid_to
+                "SELECT m.slug, p.variant, p.published_at, p.valid_from, p.valid_to
                  FROM prices p JOIN materials m ON m.id = p.material_id
                  ORDER BY m.slug",
             )
             .expect("query");
         assert_eq!(res.rows.len(), 2);
+        assert_eq!(res.rows[0][1].as_str(), Some("80-98%"));
         // kupfer-millberry keeps its own dates…
-        assert_eq!(res.rows[0][1].as_str(), Some("2026-09-20T00:00:00+00:00"));
         assert_eq!(res.rows[0][2].as_str(), Some("2026-09-20T00:00:00+00:00"));
-        assert_eq!(res.rows[0][3].as_str(), Some("2026-09-27T00:00:00+00:00"));
+        assert_eq!(res.rows[0][3].as_str(), Some("2026-09-20T00:00:00+00:00"));
+        assert_eq!(res.rows[0][4].as_str(), Some("2026-09-27T00:00:00+00:00"));
         // …messing falls back to the page date, validity stays open.
-        assert_eq!(res.rows[1][1].as_str(), Some("2026-09-27T00:00:00+00:00"));
-        assert!(res.rows[1][2].is_null());
+        assert_eq!(res.rows[1][2].as_str(), Some("2026-09-27T00:00:00+00:00"));
         assert!(res.rows[1][3].is_null());
+        assert!(res.rows[1][4].is_null());
     }
 }

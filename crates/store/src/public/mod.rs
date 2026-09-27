@@ -230,6 +230,19 @@ impl PublicDb {
         conn.execute_batch(prices::SCHEMA)?;
         conn.execute_batch(LEGACY_DROP)?;
         traders::migrate(&conn)?;
+        prices::migrate(&conn)?;
+        conn.execute_batch(prices::VIEW)?;
+        // Consistency tripwire: pointers are rebuilt deterministically from
+        // prices, so "prices but no pointers" is always a bug — scream.
+        let (n_prices, n_current): (i64, i64) = (
+            conn.query_row("SELECT COUNT(*) FROM prices", [], |r| r.get(0))?,
+            conn.query_row("SELECT COUNT(*) FROM current_prices", [], |r| r.get(0))?,
+        );
+        if n_prices > 0 && n_current == 0 {
+            tracing::error!(
+                "public.db inconsistent: {n_prices} prices but no current pointers"
+            );
+        }
         Ok(Self {
             conn: Mutex::new(conn),
         })

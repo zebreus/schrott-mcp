@@ -1,7 +1,11 @@
 //! Prices: append-only observations plus a materialized "current" table.
 //!
-//! Every observation answers four questions at once:
-//! - *What?* `trader_id` + `material_id`, `price` in `currency` per `unit`.
+//! Every observation answers five questions at once:
+//! - *What?* `trader_id` + `material_id` + `variant`, `price` in `currency`
+//!   per `unit`. The variant is the trader's own sub-grade ("große Teile",
+//!   "80-98%", "min 60%") — `''` means the standard grade. Without it,
+//!   two grades at different prices would collapse into one meaningless
+//!   "current" price.
 //! - *How sure?* `price_min`/`price_max` span the plausible range
 //!   (`NULL` = exact); `confidence` is 0..1 (`NULL` = unknown).
 //! - *From whom?* `source_type` (`haendler_angabe`, `portal`, `dritte`,
@@ -11,10 +15,11 @@
 //!   trader published it, `NULL` = unknown), `valid_from`/`valid_to`
 //!   (validity window, `NULL` = open-ended).
 //!
-//! `current_prices` holds exactly one row per trader + material — the id of
-//! the newest observation by `observed_at` — so "what does X pay right now?"
-//! is a single indexed join instead of a window-function scan. The
-//! `v_current_prices` view pre-joins everything agents usually want.
+//! `current_prices` holds exactly one row per trader + material + variant —
+//! the id of the newest observation by `observed_at` — so "what does X pay
+//! for Y right now?" is a single indexed join instead of a window-function
+//! scan. The `v_current_prices` view pre-joins everything agents usually
+//! want.
 
 use rusqlite::{params, OptionalExtension as _};
 
@@ -26,6 +31,7 @@ CREATE TABLE IF NOT EXISTS prices (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     trader_id INTEGER NOT NULL REFERENCES traders(id),
     material_id INTEGER NOT NULL REFERENCES materials(id),
+    variant TEXT NOT NULL DEFAULT '',
     price REAL NOT NULL,
     currency TEXT NOT NULL DEFAULT 'EUR',
     unit TEXT NOT NULL DEFAULT 'EUR/kg',
@@ -50,9 +56,10 @@ CREATE INDEX IF NOT EXISTS idx_prices_trader_material_time
 CREATE TABLE IF NOT EXISTS current_prices (
     trader_id INTEGER NOT NULL,
     material_id INTEGER NOT NULL,
+    variant TEXT NOT NULL DEFAULT '',
     price_id INTEGER NOT NULL REFERENCES prices(id),
     updated_at TEXT NOT NULL,
-    PRIMARY KEY (trader_id, material_id)
+    PRIMARY KEY (trader_id, material_id, variant)
 );
 CREATE TABLE IF NOT EXISTS trader_materials (
     trader_id INTEGER NOT NULL REFERENCES traders(id),
@@ -66,9 +73,18 @@ CREATE TABLE IF NOT EXISTS trader_materials (
     PRIMARY KEY (trader_id, material_id)
 );
 CREATE INDEX IF NOT EXISTS idx_trader_materials_material ON trader_materials(material_id);
-CREATE VIEW IF NOT EXISTS v_current_prices AS
+";
+
+/// View + variant-index DDL, applied AFTER migrations (SQLite validates
+/// indexes and view bodies at CREATE time, so they must come after the
+/// columns exist).
+pub(super) const VIEW: &str = "
+CREATE INDEX IF NOT EXISTS idx_prices_trader_material_variant
+    ON prices(trader_id, material_id, variant);
+DROP VIEW IF EXISTS v_current_prices;
+CREATE VIEW v_current_prices AS
 SELECT t.slug AS trader_slug, t.name AS trader, t.city, t.postcode, t.state,
-       m.slug AS material_slug, m.name_de AS material, m.category,
+       m.slug AS material_slug, m.name_de AS material, p.variant, m.category,
        p.price, p.currency, p.unit, p.price_min, p.price_max, p.confidence,
        p.source_type, p.published, p.source_url,
        p.observed_at, p.published_at, p.valid_from, p.valid_to
@@ -78,12 +94,59 @@ JOIN traders t ON t.id = c.trader_id
 JOIN materials m ON m.id = c.material_id;
 ";
 
+/// Bring existing price tables up to the variant schema: add the column,
+/// then rebuild `current_prices` keyed by (trader, material, variant).
+/// No FTS triggers touch these tables, so rebuild-by-copy is safe.
+pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
+    let mut prices_variant = false;
+    let mut current_variant = false;
+    for col in conn
+        .prepare("SELECT name FROM pragma_table_info('prices')")?
+        .query_map([], |r| r.get::<_, String>(0))?
+    {
+        if col? == "variant" {
+            prices_variant = true;
+        }
+    }
+    for col in conn
+        .prepare("SELECT name FROM pragma_table_info('current_prices')")?
+        .query_map([], |r| r.get::<_, String>(0))?
+    {
+        if col? == "variant" {
+            current_variant = true;
+        }
+    }
+    if !prices_variant {
+        conn.execute_batch("ALTER TABLE prices ADD COLUMN variant TEXT NOT NULL DEFAULT '';")?;
+    }
+    // One-time rebuild: old rows carry variant '' by construction, so the
+    // copy preserves every pointer. Never rerun once migrated.
+    if !current_variant {
+        conn.execute_batch(
+            "CREATE TABLE current_prices_new (
+                trader_id INTEGER NOT NULL,
+                material_id INTEGER NOT NULL,
+                variant TEXT NOT NULL DEFAULT '',
+                price_id INTEGER NOT NULL REFERENCES prices(id),
+                updated_at TEXT NOT NULL,
+                PRIMARY KEY (trader_id, material_id, variant)
+            );
+            INSERT INTO current_prices_new
+                SELECT trader_id, material_id, '', price_id, updated_at FROM current_prices;
+            DROP TABLE current_prices;
+            ALTER TABLE current_prices_new RENAME TO current_prices;",
+        )?;
+    }
+    Ok(())
+}
+
 /// One price observation, as stored.
 #[derive(Debug, Clone)]
 pub struct PriceRow {
     pub id: i64,
     pub trader_id: i64,
     pub material_id: i64,
+    pub variant: String,
     pub price: f64,
     pub currency: String,
     pub unit: String,
@@ -106,6 +169,8 @@ pub struct PriceRow {
 pub struct NewPrice<'a> {
     pub trader_id: i64,
     pub material_id: i64,
+    /// Trader's sub-grade (`''` = standard grade).
+    pub variant: &'a str,
     pub price: f64,
     pub currency: &'a str,
     pub unit: &'a str,
@@ -125,21 +190,23 @@ pub struct NewPrice<'a> {
 }
 
 impl PublicDb {
-    /// Append one observation and refresh the materialized current price.
+    /// Append one observation and refresh the materialized current price
+    /// for its (trader, material, variant).
     /// Out-of-order backfills never clobber newer data: `current_prices`
     /// only moves forward in `observed_at` (ties: higher id wins).
     pub fn record_price(&self, p: &NewPrice<'_>) -> Result<i64, StoreError> {
         let conn = self.lock()?;
         conn.execute(
             "INSERT INTO prices
-             (trader_id, material_id, price, currency, unit,
+             (trader_id, material_id, variant, price, currency, unit,
               price_min, price_max, confidence, source_type, published, source_url,
               observed_at, published_at, valid_from, valid_to,
               notes, extra_json, ingested_at)
-             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18)",
+             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18, ?19)",
             params![
                 p.trader_id,
                 p.material_id,
+                p.variant,
                 p.price,
                 p.currency,
                 p.unit,
@@ -164,8 +231,8 @@ impl PublicDb {
             .query_row(
                 "SELECT c.price_id, p.observed_at FROM current_prices c
                  JOIN prices p ON p.id = c.price_id
-                 WHERE c.trader_id = ?1 AND c.material_id = ?2",
-                params![p.trader_id, p.material_id],
+                 WHERE c.trader_id = ?1 AND c.material_id = ?2 AND c.variant = ?3",
+                params![p.trader_id, p.material_id, p.variant],
                 |r| Ok((r.get(0)?, r.get(1)?)),
             )
             .optional()?;
@@ -177,55 +244,57 @@ impl PublicDb {
         };
         if newer {
             conn.execute(
-                "INSERT INTO current_prices (trader_id, material_id, price_id, updated_at)
-                 VALUES (?1, ?2, ?3, ?4)
-                 ON CONFLICT(trader_id, material_id) DO UPDATE SET
+                "INSERT INTO current_prices (trader_id, material_id, variant, price_id, updated_at)
+                 VALUES (?1, ?2, ?3, ?4, ?5)
+                 ON CONFLICT(trader_id, material_id, variant) DO UPDATE SET
                   price_id = excluded.price_id, updated_at = excluded.updated_at",
-                params![p.trader_id, p.material_id, price_id, p.ingested_at],
+                params![p.trader_id, p.material_id, p.variant, price_id, p.ingested_at],
             )?;
         }
         Ok(price_id)
     }
 
-    /// Newest observation for one trader + material, if any.
+    /// Newest observation for one trader + material + variant, if any.
     pub fn current_price_for(
         &self,
         trader_id: i64,
         material_id: i64,
+        variant: &str,
     ) -> Result<Option<PriceRow>, StoreError> {
         let conn = self.lock()?;
         conn.query_row(
-            "SELECT p.id, p.trader_id, p.material_id, p.price, p.currency, p.unit,
+            "SELECT p.id, p.trader_id, p.material_id, p.variant, p.price, p.currency, p.unit,
                     p.price_min, p.price_max, p.confidence, p.source_type, p.published,
                     p.source_url, p.observed_at, p.published_at, p.valid_from, p.valid_to,
                     p.notes, p.extra_json, p.ingested_at
              FROM current_prices c JOIN prices p ON p.id = c.price_id
-             WHERE c.trader_id = ?1 AND c.material_id = ?2",
-            params![trader_id, material_id],
+             WHERE c.trader_id = ?1 AND c.material_id = ?2 AND c.variant = ?3",
+            params![trader_id, material_id, variant],
             row_to_price,
         )
         .optional()
         .map_err(StoreError::from)
     }
 
-    /// Full history for one trader + material, newest first.
+    /// Full history for one trader + material + variant, newest first.
     pub fn price_history(
         &self,
         trader_id: i64,
         material_id: i64,
+        variant: &str,
         limit: i64,
     ) -> Result<Vec<PriceRow>, StoreError> {
         let conn = self.lock()?;
         let mut stmt = conn.prepare(
-            "SELECT id, trader_id, material_id, price, currency, unit,
+            "SELECT id, trader_id, material_id, variant, price, currency, unit,
                     price_min, price_max, confidence, source_type, published,
                     source_url, observed_at, published_at, valid_from, valid_to,
                     notes, extra_json, ingested_at
-             FROM prices WHERE trader_id = ?1 AND material_id = ?2
-             ORDER BY observed_at DESC, id DESC LIMIT ?3",
+             FROM prices WHERE trader_id = ?1 AND material_id = ?2 AND variant = ?3
+             ORDER BY observed_at DESC, id DESC LIMIT ?4",
         )?;
         let rows = stmt
-            .query_map(params![trader_id, material_id, limit], row_to_price)?
+            .query_map(params![trader_id, material_id, variant, limit], row_to_price)?
             .collect::<Result<Vec<_>, _>>()?;
         Ok(rows)
     }
@@ -272,22 +341,23 @@ fn row_to_price(r: &rusqlite::Row<'_>) -> rusqlite::Result<PriceRow> {
         id: r.get(0)?,
         trader_id: r.get(1)?,
         material_id: r.get(2)?,
-        price: r.get(3)?,
-        currency: r.get(4)?,
-        unit: r.get(5)?,
-        price_min: r.get(6)?,
-        price_max: r.get(7)?,
-        confidence: r.get(8)?,
-        source_type: r.get(9)?,
-        published: r.get::<_, i64>(10)? != 0,
-        source_url: r.get(11)?,
-        observed_at: r.get(12)?,
-        published_at: r.get(13)?,
-        valid_from: r.get(14)?,
-        valid_to: r.get(15)?,
-        notes: r.get(16)?,
-        extra_json: r.get(17)?,
-        ingested_at: r.get(18)?,
+        variant: r.get(3)?,
+        price: r.get(4)?,
+        currency: r.get(5)?,
+        unit: r.get(6)?,
+        price_min: r.get(7)?,
+        price_max: r.get(8)?,
+        confidence: r.get(9)?,
+        source_type: r.get(10)?,
+        published: r.get::<_, i64>(11)? != 0,
+        source_url: r.get(12)?,
+        observed_at: r.get(13)?,
+        published_at: r.get(14)?,
+        valid_from: r.get(15)?,
+        valid_to: r.get(16)?,
+        notes: r.get(17)?,
+        extra_json: r.get(18)?,
+        ingested_at: r.get(19)?,
     })
 }
 
@@ -354,6 +424,7 @@ mod tests {
         NewPrice {
             trader_id: trader,
             material_id: material,
+            variant: "",
             price: eur,
             currency: "EUR",
             unit: "EUR/kg",
@@ -384,11 +455,11 @@ mod tests {
         db.record_price(&price(trader, material, 6.90, "2026-09-10T00:00:00Z", "2026-09-28T00:00:00Z"))
             .expect("backfill");
         let cur = db
-            .current_price_for(trader, material)
+            .current_price_for(trader, material, "")
             .expect("current")
             .expect("exists");
         assert_eq!(cur.price, 7.25);
-        let hist = db.price_history(trader, material, 10).expect("history");
+        let hist = db.price_history(trader, material, "", 10).expect("history");
         assert_eq!(hist.len(), 3);
         assert_eq!(hist[0].price, 7.25);
         assert_eq!(hist[2].price, 6.90);
@@ -398,6 +469,7 @@ mod tests {
     fn uncertainty_and_validity_round_trip() {
         let (db, trader, material) = setup();
         db.record_price(&NewPrice {
+            variant: "",
             price_min: Some(6.80),
             price_max: Some(7.40),
             confidence: Some(0.6),
@@ -409,7 +481,7 @@ mod tests {
         })
         .expect("uncertain price");
         let cur = db
-            .current_price_for(trader, material)
+            .current_price_for(trader, material, "")
             .expect("current")
             .expect("exists");
         assert_eq!(cur.price_min, Some(6.80));
@@ -425,6 +497,58 @@ mod tests {
         // The convenience view exposes the same row pre-joined.
         let view = db.test_query("SELECT trader, material, price, published FROM v_current_prices");
         assert_eq!(view.len(), 1);
+    }
+
+    #[test]
+    fn variants_stay_separate_per_grade() {
+        let (db, trader, material) = setup();
+        // Same trader + material, two grades: "große Teile" vs "kleine Teile".
+        for (variant, eur) in [("große Teile", 5.20), ("kleine Teile", 4.10)] {
+            db.record_price(&NewPrice {
+                variant,
+                ..price(trader, material, eur, "2026-09-27T00:00:00Z", "2026-09-27T00:00:00Z")
+            })
+            .expect("grade records");
+        }
+        let big = db
+            .current_price_for(trader, material, "große Teile")
+            .expect("current")
+            .expect("exists");
+        let small = db
+            .current_price_for(trader, material, "kleine Teile")
+            .expect("current")
+            .expect("exists");
+        assert_eq!(big.price, 5.20);
+        assert_eq!(small.price, 4.10);
+        // The view carries both grades side by side.
+        let view = db.test_query(
+            "SELECT variant, price FROM v_current_prices ORDER BY price DESC",
+        );
+        assert_eq!(view.len(), 2);
+    }
+
+    #[test]
+    fn migrate_preserves_current_pointers() {
+        let dir = std::env::temp_dir().join(format!("schrott-repro-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        std::fs::create_dir_all(&dir).expect("dir");
+        {
+            let conn = rusqlite::Connection::open(dir.join("public.db")).expect("old db");
+            conn.execute_batch(
+                "CREATE TABLE traders (id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT NOT NULL UNIQUE, name TEXT NOT NULL, trader_type TEXT NOT NULL DEFAULT '', description TEXT NOT NULL DEFAULT '', street TEXT NOT NULL DEFAULT '', postcode TEXT NOT NULL DEFAULT '', city TEXT NOT NULL DEFAULT '', state TEXT NOT NULL DEFAULT '', country TEXT NOT NULL DEFAULT 'DE', lat REAL, lon REAL, phone TEXT NOT NULL DEFAULT '', email TEXT NOT NULL DEFAULT '', website TEXT NOT NULL DEFAULT '', website_status TEXT NOT NULL DEFAULT '', website_checked_at TEXT NOT NULL DEFAULT '', opening_hours TEXT NOT NULL DEFAULT '', dropoff_json TEXT NOT NULL DEFAULT '{}', pickup_json TEXT NOT NULL DEFAULT '{}', min_quantity_kg REAL, max_quantity_kg REAL, certifications TEXT NOT NULL DEFAULT '[]', status TEXT NOT NULL DEFAULT '', notes TEXT NOT NULL DEFAULT '', extra_json TEXT NOT NULL DEFAULT '{}', first_seen_at TEXT NOT NULL DEFAULT '', updated_at TEXT NOT NULL DEFAULT '');
+                 CREATE TABLE materials (id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT NOT NULL UNIQUE, name_de TEXT NOT NULL, category TEXT NOT NULL DEFAULT '', unit TEXT NOT NULL DEFAULT '', description TEXT NOT NULL DEFAULT '', extra_json TEXT NOT NULL DEFAULT '{}', updated_at TEXT NOT NULL DEFAULT '');
+                 CREATE TABLE prices (id INTEGER PRIMARY KEY AUTOINCREMENT, trader_id INTEGER NOT NULL, material_id INTEGER NOT NULL, price REAL NOT NULL, observed_at TEXT NOT NULL, ingested_at TEXT NOT NULL);
+                 CREATE TABLE current_prices (trader_id INTEGER NOT NULL, material_id INTEGER NOT NULL, price_id INTEGER NOT NULL, updated_at TEXT NOT NULL, PRIMARY KEY (trader_id, material_id));
+                 INSERT INTO traders (slug, name) VALUES ('t','T');
+                 INSERT INTO materials (slug, name_de) VALUES ('m','M');
+                 INSERT INTO prices (trader_id, material_id, price, observed_at, ingested_at) VALUES (1, 1, 9.8, '2026-09-27T00:00:00Z', '2026-09-27T00:00:00Z');
+                 INSERT INTO current_prices VALUES (1, 1, 1, '2026-09-27T00:00:00Z');",
+            )
+            .expect("old shape");
+        }
+        let db = PublicDb::open(&dir).expect("open migrates");
+        let n: i64 = db.conn.lock().unwrap().query_row("SELECT COUNT(*) FROM current_prices", [], |r| r.get(0)).unwrap();
+        assert_eq!(n, 1, "pointer survived");
     }
 
     #[test]

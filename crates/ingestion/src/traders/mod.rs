@@ -62,6 +62,9 @@ pub type ScrapeFn = for<'a> fn(
 pub struct ScrapedPrice {
     /// `materials.slug` from the handler's explicit mapping table.
     pub material: &'static str,
+    /// The trader's own sub-grade (`''` = standard grade). Two grades at
+    /// different prices must never collapse into one material row.
+    pub variant: &'static str,
     pub price: f64,
     pub currency: &'static str,
     pub unit: &'static str,
@@ -217,6 +220,7 @@ pub async fn record(
         match public.record_price(&schrott_mcp_store::NewPrice {
             trader_id,
             material_id,
+            variant: &p.variant,
             price: p.price,
             currency: p.currency,
             unit: p.unit,

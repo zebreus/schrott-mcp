@@ -36,6 +36,7 @@ With love as the secret ingredient.
 - `crates/server` — axum web app: German marketing page, signup/login
   (username + password + "professional data-user" checkbox, nothing else),
   dashboard, OAuth 2.0 authorization server with dynamic client registration
+  and Client ID Metadata Documents (CIMD)
   (so an MCP host can just be pointed at the URL), and the MCP
   Streamable-HTTP endpoint with the tools `schrott_query_sql` (read-only SQL)
   and `schrott_feedback` (data-issue reports).
@@ -73,13 +74,16 @@ Designed for AI agents, superfast queries, and future growth:
   Seeded by ingestion; scrapers never invent materials.
 - `trader_materials` — which trader accepts which material, with conditions
   and validity window.
-- `prices` — append-only observations: price + currency/unit, uncertainty
-  (`price_min`/`price_max`, `confidence`), provenance (`source_type`,
-  `published` = trader published it themselves, `source_url`), and time
-  (`observed_at`, `published_at`, `valid_from`/`valid_to`). `NULL` bounds
-  mean open-ended; `NULL` uncertainty means exact/unknown.
+- `prices` — append-only observations: price + currency/unit, the trader's
+  own `variant` sub-grade (`''` = standard; two grades never collapse into
+  one current price), uncertainty (`price_min`/`price_max`, `confidence`),
+  provenance (`source_type`, `published` = trader published it themselves,
+  `source_url`), and time (`observed_at`, `published_at`, per-material
+  `valid_from`/`valid_to`). `NULL` bounds mean open-ended; `NULL`
+  uncertainty means exact/unknown.
 - `current_prices` — materialized latest observation per trader + material
-  (forward-only in `observed_at`, so late backfills never clobber new data).
+  + variant (forward-only in `observed_at`, so late backfills never clobber
+  new data).
 - `v_current_prices` — pre-joined view for the most common agent question
   ("what does X pay for Y right now?").
 - Every table carries `extra_json` headroom plus full timestamps, so the

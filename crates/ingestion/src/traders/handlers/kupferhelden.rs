@@ -19,20 +19,25 @@ pub fn handler() -> Handler {
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
     let rows = parse(&html)?;
+    // One grade per label: the Cu content IS the variant here.
     let prices = rows
         .into_iter()
-        .map(|(label, price, unit)| ScrapedPrice {
-            material: "kabel-kupfer",
-            price,
-            currency: "EUR",
-            unit,
-            price_min: None,
-            price_max: Some(price),
-            confidence: Some(0.5),
-            label,
-            published_at: None,
-            valid_from: None,
-            valid_to: None,
+        .map(|(label, price, unit)| {
+            let variant = grade_variant(&label);
+            ScrapedPrice {
+                material: "kabel-kupfer",
+                variant,
+                price,
+                currency: "EUR",
+                unit,
+                price_min: None,
+                price_max: Some(price),
+                confidence: Some(0.5),
+                label,
+                published_at: None,
+                valid_from: None,
+                valid_to: None,
+            }
         })
         .collect();
     Ok(HandlerOutcome {
@@ -100,6 +105,21 @@ fn parse(html: &str) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
         return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
     }
     Ok(rows)
+}
+
+fn grade_variant(label: &str) -> &'static str {
+    let l = label.to_lowercase();
+    if l.contains("37%") {
+        "bis 37%"
+    } else if l.contains("38%") {
+        "min 38%"
+    } else if l.contains("60%") {
+        "min 60%"
+    } else if l.contains("70%") {
+        "min 70%"
+    } else {
+        ""
+    }
 }
 
 fn is_junk(t: &str) -> bool {

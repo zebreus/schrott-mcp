@@ -27,9 +27,10 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     let mut prices = Vec::with_capacity(rows.len());
     let mut skipped_labels = Vec::new();
     for (label, price, unit) in rows {
-        match material_for(&label) {
-            Some(material) => prices.push(ScrapedPrice {
+        match grade_for(&label) {
+            Some((material, variant)) => prices.push(ScrapedPrice {
                 material,
+                variant,
                 price,
                 currency: "EUR",
                 unit,
@@ -56,29 +57,29 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 
 /// Explicit mapping; generic page labels land on the closest grade and
 /// keep the raw label in `notes` for traceability.
-fn material_for(label: &str) -> Option<&'static str> {
+fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
     if l.contains("mischschrott") {
-        Some("mischschrott")
+        Some(("mischschrott", ""))
     } else if l.contains("schredder") || l.contains("shredder") {
-        Some("stahlschrott-scheren")
+        Some(("stahlschrott-scheren", ""))
     } else if l.contains("kabel") {
-        Some("kabel-kupfer")
+        Some(("kabel-kupfer", "40%"))
     } else if l.contains("kupferschrott 1") || l.contains("ecu") || l.contains("milb") {
-        Some("kupfer-millberry")
+        Some(("kupfer-millberry", ""))
     } else if l.contains("kupfer") {
-        Some("kupfer-berry")
+        Some(("kupfer-berry", ""))
     } else if l.contains("messing") {
-        Some("messing")
+        Some(("messing", ""))
     } else if l.contains("alu") {
-        Some("aluminium-profile")
+        Some(("aluminium-profile", ""))
     } else if l.contains("blei") {
-        Some("blei")
+        Some(("blei", ""))
     } else if l.contains("edelstahl") || l.contains("va ") || l == "va" {
-        Some("edelstahl-v2a")
+        Some(("edelstahl-v2a", ""))
     } else if l.contains("zink") {
-        Some("zink")
+        Some(("zink", ""))
     } else {
         None
     }
@@ -172,7 +173,7 @@ fn date_in(window: &str) -> Option<String> {
 
 #[cfg(test)]
 mod tests {
-    use super::{date_in, material_for, parse};
+    use super::{date_in, grade_for, parse};
 
     const FIXTURE: &str = "<p><strong>Aktuelle Schrottpreise </strong></p><p>24.09.2026</p>\
         <p>Schrottsorte</p><p>€ pro kg</p>\
@@ -189,9 +190,9 @@ mod tests {
         assert_eq!(rows[0].1, 0.17);
         assert_eq!(rows[1].0, "Kupferschrott 1 ECU/Milb.");
         assert_eq!(rows[1].1, 11.2);
-        assert_eq!(material_for("Mischschrott"), Some("mischschrott"));
-        assert_eq!(material_for("Kupferschrott 1 ECU/Milb."), Some("kupfer-millberry"));
-        assert_eq!(material_for("Kabelschrott (Basis 40% Kupfer)"), Some("kabel-kupfer"));
+        assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
+        assert_eq!(grade_for("Kupferschrott 1 ECU/Milb."), Some(("kupfer-millberry", "")));
+        assert_eq!(grade_for("Kabelschrott (Basis 40% Kupfer)"), Some(("kabel-kupfer", "40%")));
     }
 
     #[test]
