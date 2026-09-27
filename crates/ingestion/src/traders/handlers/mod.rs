@@ -5,6 +5,7 @@
 //! unknown labels are reported via `skipped_labels`, never guessed.
 
 pub mod antikart;
+pub mod asn_norderstedt;
 pub mod bruno_welz;
 pub mod degussa_frankfurt;
 pub mod degussa_hamburg;
@@ -74,6 +75,7 @@ pub fn all() -> Vec<Handler> {
         suitner::handler(),
         gutzmann::handler(),
         antikart::handler(),
+        asn_norderstedt::handler(),
         bruno_welz::handler(),
         hansa_goldankauf::handler(),
         goldankauf_boerse::handler(),
