@@ -193,6 +193,48 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "EUR/Stk",
         "Keramik-Katalysatoren aus dem Kfz-Bereich, Preis je Stück.",
     ),
+    (
+        "hartmetall",
+        "Hartmetall / VHM / Widia",
+        "nichteisen",
+        "EUR/kg",
+        "Hartmetallschrott aus Werkzeugen, Wendeschneidplatten und Fräsern.",
+    ),
+    (
+        "gold",
+        "Goldlegierungen",
+        "edelmetall",
+        "EUR/g",
+        "Goldlegierungen nach Feingehalt (Variante = Feingehalt), Ankauf je Gramm.",
+    ),
+    (
+        "zahngold",
+        "Zahngold / Dentalgold",
+        "edelmetall",
+        "EUR/g",
+        "Dentalgold aus Praxen und Laboren, Ankauf je Gramm.",
+    ),
+    (
+        "silber",
+        "Silber",
+        "edelmetall",
+        "EUR/g",
+        "Silberlegierungen und Silberwaren, Ankauf je Gramm.",
+    ),
+    (
+        "platin",
+        "Platin",
+        "edelmetall",
+        "EUR/g",
+        "Platinlegierungen, Ankauf je Gramm.",
+    ),
+    (
+        "palladium",
+        "Palladium",
+        "edelmetall",
+        "EUR/g",
+        "Palladiumlegierungen, Ankauf je Gramm.",
+    ),
 ];
 
 /// Outcome of one pipeline run.

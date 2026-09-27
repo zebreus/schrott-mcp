@@ -1,20 +1,42 @@
-//! The first five trader handlers. One file per trader on purpose:
+//! The trader handlers. One file per trader on purpose:
 //! price pages are all shaped differently, so parsing is never shared —
-//! only HTTP (`fetch_text`) and number/unit/date helpers from `super`.
+//! only HTTP (`fetch_text`) and number/date helpers from `super`.
 //! Each handler owns its URL, selectors and label→material mapping;
 //! unknown labels are reported via `skipped_labels`, never guessed.
 
+pub mod antikart;
+pub mod dsh;
+pub mod edelcat;
 pub mod esh;
+pub mod fairkat;
+pub mod gold_richtig;
+pub mod goldankauf_boerse;
+pub mod goldhaus_brb;
+pub mod goldschanze;
+pub mod goldtrans;
+pub mod gutzmann;
+pub mod hansa_goldankauf;
+pub mod kalkmann;
+pub mod katalysator_hai;
 pub mod kupferhelden;
 pub mod lausitz;
 pub mod metallankauf24;
+pub mod mkr_rothenbuecher;
+pub mod moroder_scheideanstalt;
+pub mod nordkat;
+pub mod plum;
 pub mod quell;
+pub mod schrottabholung_top;
+pub mod schrottabholung_zentrale;
+pub mod smr;
+pub mod suitner;
 pub mod tappe;
 pub mod vedder;
+pub mod vhm_hartmetall;
 
 use super::Handler;
 
-/// All live handlers. Adding trader #8..#500 means adding one file here
+/// All live handlers. Adding another trader means adding one file here
 /// plus one line below — nothing else changes.
 pub fn all() -> Vec<Handler> {
     vec![
@@ -25,5 +47,27 @@ pub fn all() -> Vec<Handler> {
         metallankauf24::handler(),
         esh::handler(),
         quell::handler(),
+        kalkmann::handler(),
+        dsh::handler(),
+        plum::handler(),
+        nordkat::handler(),
+        edelcat::handler(),
+        fairkat::handler(),
+        katalysator_hai::handler(),
+        moroder_scheideanstalt::handler(),
+        mkr_rothenbuecher::handler(),
+        smr::handler(),
+        suitner::handler(),
+        gutzmann::handler(),
+        antikart::handler(),
+        hansa_goldankauf::handler(),
+        goldankauf_boerse::handler(),
+        gold_richtig::handler(),
+        goldhaus_brb::handler(),
+        goldschanze::handler(),
+        goldtrans::handler(),
+        schrottabholung_top::handler(),
+        schrottabholung_zentrale::handler(),
+        vhm_hartmetall::handler(),
     ]
 }
