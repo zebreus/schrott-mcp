@@ -30,6 +30,8 @@ pub struct AppState {
     pub flash: Arc<Mutex<HashMap<i64, Flash>>>,
     /// CSRF tokens per browser session token (double-submit, no schema).
     pub csrf: Arc<Mutex<HashMap<String, String>>>,
+    /// Fetched CIMD client documents by `client_id` URL (1 h TTL).
+    pub cimd_cache: crate::oauth::cimd::CimdCache,
 }
 
 impl AppState {

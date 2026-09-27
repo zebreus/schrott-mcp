@@ -1,6 +1,7 @@
 //! OAuth 2.0 authorization server (authorization-code + PKCE + refresh)
-//! with public dynamic client registration — enough that an MCP host can be
-//! pointed at our URL and complete login on its own.
+//! with public dynamic client registration and Client ID Metadata
+//! Documents (CIMD) — enough that an MCP host can be pointed at our URL
+//! and complete login on its own, via either client path.
 //! Split by flow; each submodule owns one endpoint family.
 
 use axum::{http::StatusCode, response::Response};
@@ -8,6 +9,7 @@ use axum::{http::StatusCode, response::Response};
 use crate::respond;
 
 pub mod authorize;
+pub mod cimd;
 pub mod discovery;
 pub mod register;
 pub mod token;

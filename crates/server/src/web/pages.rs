@@ -217,6 +217,8 @@ pub fn signup(
 /// Inputs for the OAuth consent screen.
 pub struct ConsentData<'a> {
     pub client_id: &'a str,
+    /// Verified human-readable label (CIMD `client_name` or the client_id).
+    pub client_display: &'a str,
     pub redirect_uri: &'a str,
     pub scope: &'a str,
     pub raw_query: &'a str,
@@ -235,12 +237,22 @@ pub fn consent(c: ConsentData<'_>, base_url: &str) -> String {
             esc(s)
         )
     });
+    // Verified domain badge: CIMD clients show `client_name` plus their
+    // verified URL; DCR clients just show their `cli_*` ID.
+    let app_label = if c.client_display != c.client_id {
+        format!(
+            "{} (<code>{}</code>)",
+            esc(c.client_display),
+            esc(c.client_id)
+        )
+    } else {
+        format!("<code>{}</code>", esc(c.client_id))
+    };
     let intro = format!(
         "<p>Angemeldet als <b>{}</b>.</p>\
-         <p>Anwendung <code>{}</code> möchte <b>{}</b>-Zugriff auf den geteilten Schrott-Datenbestand \
+         <p>Anwendung {app_label} möchte <b>{}</b>-Zugriff auf den geteilten Schrott-Datenbestand \
          und leitet danach zurück zu<br><code>{}</code></p>",
         esc(c.username),
-        esc(c.client_id),
         esc(c.scope),
         esc(c.redirect_uri)
     );

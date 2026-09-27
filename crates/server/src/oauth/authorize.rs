@@ -66,15 +66,21 @@ pub async fn authorize_get(
     if q.code_challenge_method.as_deref().unwrap_or("S256") != "S256" {
         return err_redirect(Some(&redirect_uri), "invalid_request", q.state.as_deref());
     }
-    let Some(client) = state.internal.find_oauth_client(&client_id).ok().flatten() else {
-        return err_redirect(None, "unauthorized_client", q.state.as_deref());
+    // DCR storage first, then CIMD (cache → HTTPS fetch). Redirect-URI
+    // mismatches never redirect (open-redirect protection); unknown
+    // clients report `unauthorized_client` without a redirect target.
+    let client = match super::cimd::resolve_client(&state, &client_id, &redirect_uri).await {
+        Ok(c) => c,
+        Err(e) if e.contains("redirect") => {
+            return respond::json(
+                StatusCode::BAD_REQUEST,
+                json!({"error": "invalid_redirect_uri"}),
+            );
+        }
+        Err(_) => {
+            return err_redirect(None, "unauthorized_client", q.state.as_deref());
+        }
     };
-    if !client.redirect_uris.iter().any(|u| u == &redirect_uri) {
-        return respond::json(
-            StatusCode::BAD_REQUEST,
-            json!({"error": "invalid_redirect_uri"}),
-        );
-    }
     let Some(user) = session_user(&state, &headers) else {
         let next = format!("/oauth/authorize?{raw}");
         return respond::see_other(&format!("/login?next={}", url_encode(&next)), None);
@@ -85,7 +91,8 @@ pub async fn authorize_get(
     let scope = q.scope.clone().unwrap_or_else(|| "read".to_owned());
     respond::html(crate::web::pages::consent(
         crate::web::pages::ConsentData {
-            client_id: &client_id,
+            client_id: &client.client_id,
+            client_display: &client.display_name,
             redirect_uri: &redirect_uri,
             scope: &scope,
             raw_query: &raw,
@@ -146,12 +153,23 @@ pub async fn authorize_post(
     let Some(user) = session_user(&state, &headers) else {
         return respond::see_other("/login?next=/dashboard", None);
     };
-    let Some(client) = state.internal.find_oauth_client(&client_id).ok().flatten() else {
-        return respond::json(
-            StatusCode::BAD_REQUEST,
-            json!({"error": "unauthorized_client"}),
-        );
+    // Re-resolve on POST (hidden fields are user-controlled): DCR or CIMD.
+    let client = match super::cimd::resolve_client(&state, &client_id, &redirect_uri).await {
+        Ok(c) => c,
+        Err(e) if e.contains("redirect") => {
+            return respond::json(
+                StatusCode::BAD_REQUEST,
+                json!({"error": "invalid_redirect_uri"}),
+            );
+        }
+        Err(_) => {
+            return respond::json(
+                StatusCode::BAD_REQUEST,
+                json!({"error": "unauthorized_client"}),
+            );
+        }
     };
+    let client_id = client.client_id;
     if !client.redirect_uris.iter().any(|u| u == &redirect_uri) {
         return respond::json(
             StatusCode::BAD_REQUEST,

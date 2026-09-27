@@ -101,6 +101,7 @@ async fn main() {
         data_dir: config.data_dir.clone(),
         flash: std::sync::Arc::new(std::sync::Mutex::new(std::collections::HashMap::new())),
         csrf: std::sync::Arc::new(std::sync::Mutex::new(std::collections::HashMap::new())),
+        cimd_cache: crate::oauth::cimd::new_cache(),
     };
 
     // Ingestion lives in this same process.
