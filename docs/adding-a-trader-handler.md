@@ -1,155 +1,67 @@
 # Guide: einen neuen Händler-Handler bauen
 
-Zielgruppe: Subagents, die Preis-Handler für weitere Händler schreiben.
-Ein Handler ist **eine Datei** in `crates/ingestion/src/traders/handlers/`
-plus **eine Zeile** in `handlers::all()`. Lies zuerst `traders/mod.rs`
-(Skalierungskonzept) und einen bestehenden Handler mit ähnlicher
-Seitenform (Tabelle → `vedder.rs`, Karten/Paare → `lausitz.rs`,
-Homepage-Block → `tappe.rs`, „bis zu"-Karten → `kupferhelden.rs`,
-Kategorie-Übersicht → `metallankauf24.rs`).
+Für Subagents, die Preis-Handler schreiben. Ein Handler ist **eine Datei** in `crates/ingestion/src/traders/handlers/` plus **eine Zeile** in `handlers::all()`. Erst `traders/mod.rs` (Konzept) und einen Handler ähnlicher Seitenform lesen (Tabelle → `vedder.rs`, Karten/Paare → `lausitz.rs`, Homepage-Block → `tappe.rs`, „bis zu"-Karten → `kupferhelden.rs`, Kategorie-Übersicht → `metallankauf24.rs`, Listen ohne Preise → `esh.rs`/`quell.rs`). Keine spekulativen Felder/Helfer: was kein Handler braucht, existiert nicht (Pro-Material-Daten und Unit-Katalog sind genau deshalb wieder rausgeflogen).
 
-## Arbeitsablauf (in dieser Reihenfolge)
+## Arbeitsablauf
 
-1. **Recon:** Seite per `curl`/webfetch holen, **rohes HTML** ansehen
-   (nicht das gerenderte Markdown — Parser sehen HTML). Finde: Wo genau
-   stehen Preise? Tabelle, Karten, Fließtext? Gibt es ein Datum? Steht
-   die Einheit pro Zeile, im Header oder gar nicht? Gibt es Störstellen
-   (Footer mit €-Beträgen, Cookie-Banner, doppelte Blöcke)?
-2. **Slug prüfen:** `SELECT slug FROM traders WHERE slug LIKE '%name%'`
-   — der Handler-`SLUG` muss exakt einem `traders.slug` entsprechen,
-   sonst schlägt der Step laut fehl (so gewollt).
-3. **Fixture-Test zuerst:** Realen HTML-Ausschnitt als `FIXTURE`-Konstante
-   in den Test übernehmen, `parse()` + `grade_for()` testen. Erst wenn
-   der Test das tut, was die Seite zeigt, `scrape()` verdrahten.
-4. **Live prüfen:** `cargo run -p schrott-mcp-ingestion --example
-   live_handlers <slug>` — schreibt nichts in die DB. Zeilenzahl mit der
-   Seite vergleichen, jeden Skip rechtfertigen.
-5. **Deploy-Verifikation:** Nach Deploy per Dashboard-Trigger forcen,
-   Step-Zeile + `v_current_prices` per MCP abfragen.
+1. **Recon:** rohes HTML ansehen (Parser sehen HTML, kein Markdown). Wo stehen Preise? Tabelle, Karten, Fließtext? Datum? Einheit pro Zeile, im Header oder gar nicht? Störstellen (Footer-€, Cookie-Banner, Doppelblöcke)?
+2. **Slug prüfen:** muss exakt einem `traders.slug` entsprechen, sonst Step-Fehler (so gewollt).
+3. **Fixture-Test zuerst:** *realen* HTML-Ausschnitt als `FIXTURE` übernehmen — vereinfachte Nachbauten geben falsche Sicherheit (live stand die Adresse in `<h1>`, nicht `<p>`). `parse()` + `grade_for()` testen, dann `scrape()` verdrahten.
+4. **Live prüfen:** `cargo run -p schrott-mcp-ingestion --example live_handlers <slug>` (schreibt nichts in die DB). Zeilenzahl vs. Seite, jeden Skip rechtfertigen.
+5. **Deploy-Verifikation:** forcen (Force-Runs hängen *by design* Duplikate an), Step-Zeile + `v_current_prices` per MCP prüfen.
 
-## Mapping-Regeln (Material + Variante)
+## Mapping (`grade_for`: explizite Tabelle, kein Fuzzy)
 
-- `grade_for()` ist eine **explizite Match-Tabelle**, kein Fuzzy-Matching.
-  Jede neue Händlerbezeichnung landet bewusst auf einem Material — oder
-  auf `None` (laut geskippt, gezählt, im Step-Detail sichtbar).
-- **Niemals raten:** Mehrdeutige Kategorien (`"Kabel / E-Motoren"`,
-  `"Messing / Rotguss"` als Maximum) → `None`. Generische Labels
-  (`"Aluminium"`, `"Edelstahl"`, `"Kupferschrott 2"`) → generische
-  Katalogmaterialien (`aluminium-gemischt` …), nie auf eine spezifische
-  Sorte. Fehlendes Katalogmaterial → `None` (Katalog erweitern ist ein
-  separater, bewusster Schritt).
-- **Variante ist Pflicht-Denken:** Zwei Sorten desselben Händlers zum
-  selben Material mit verschiedenen Preisen (`"Zinn 80-98%"` vs.
-  `"Zinn 50-59%"`, `"Messing (große/kleine Teile)"`) brauchen
-  verschiedene `variant`-Werte — sonst kollabieren sie auf einen
-  willkürlichen „aktuellen Preis“. `''` heißt Standardsorte.
-- **Rohlabel immer in `notes` behalten** (Nachvollziehbarkeit).
+- Jede Bezeichnung landet bewusst auf einem Material — oder `None` (laut geskippt, gezählt, im Step-Detail). Mehrdeutiges (`"Kabel / E-Motoren"`, `"Messing / Rotguss"` als Maximum) → `None`. Generisches (`"Aluminium"`, `"Kupferschrott 2"`) → generisches Material, nie spezifische Sorte. Fehlendes Katalogmaterial → `None` (Erweiterung = separater Schritt).
+- **Arme spezifisch-vor-generisch ordnen** (`"Kupfer"` fängt sonst `"Kupferschrott 1 ECU"`), pro Label testen.
+- **Variante mitdenken:** zwei Sorten, ein Material, zwei Preise → zwei `variant`-Werte, sonst kollabieren sie auf einen willkürlichen Current-Preis. `''` = Standardsorte.
+- Rohlabel immer in `notes` (Nachvollziehbarkeit); Fan-out wo nötig (`"V2A und V4A"` → zwei Materialien).
 
-## Parsing-Regeln (alle aus echten Fehlern)
+## Parsing (alles aus echten Fehlern)
 
-- **Gefenstert parsen, nie die ganze Seite.** Anker suchen (Überschrift
-  wie `"Unsere Preise"`, Tabellenkopf `"Materialbezeichnung"`), Start
-  UND Ende begrenzen. Footer-`€`-Beträge paaren sich sonst mit
-  irgendwelchen Labels zu Phantompreisen.
-- **Nie die erste Tabelle/Liste nehmen.** Tabelle am Kopfinhalt wählen;
-  fehlt sie → `Err` (laut), nicht leere Erfolgsmeldung.
-- **Leere Ergebnisse sind Fehler:** `parse()` mit 0 Zeilen gibt
-  `IngestError::Parse` zurück. Stille Erfolge mit 0 Zeilen verstecken
-  Redesigns.
-- **Einheiten nie still defaulten** (ein Tonnenpreis als Kilo ist ein
-  1000-facher Fehler): pro Zeile mit einem **maßgeschneiderten**
-  `unit_of` matchen, das genau die Schreibweisen DIESER Seite kennt
-  (`"EUR / KG"`, `"x pro to"`, `"€/KG"` — nur kg/t, kein Katalog).
-  Was `unit_of` nicht kennt, wird geskippt
-  (`"... (Einheit unverständlich: ...)"`). Seiten-globale Einheit nur
-  als **dokumentierte, begründete** Konstante (Marktgrößen-
-  plausibilisiert wie bei Metallankauf24) — und eine explizit-fremde
-  Einheit (`"pro Sack"`, erkennbar an `/` oder `"pro"`) skippt trotzdem,
-  statt das Default zu erben.
-- **Geteilte Helfer benutzen:** `fetch_text` (HTTP + Statusprüfung),
-  `parse_eur` (deutsches Format inkl. Tausenderpunkt), `parse_de_date`
-  (Kalendervalidierung). Keine eigenen Regex-Suppen dafür — aber auch
-  keine neuen Shared-Parser: alles Seitenspezifische (Units, Datums-
-  *Finden*, Kontaktblöcke) gehört als kleine Funktion in den Handler.
-- **Doppelte Blöcke deduplizieren** (Lausitz-`"Gültig ab"`-Repeat) per
-  `(Material, Variante, Preis)` — aber erst *nach* dem Mapping, nicht
-  auf Rohlabels (Schreibvarianten!).
-- **Beschriftungs-Puffer zurücksetzen** an Headers/Terminatoren; ein
-  Terminator (`"... auf Anfrage"`) beendet die Box. `€`-Text ohne
-  Ziffern ist ein Header, kein Label (klebt sonst an der nächsten Sorte).
+- **Fenster, nie Ganzseite:** Anker für Start UND Ende (`"Unsere Preise"`, Tabellenkopf). Footer-€ paart sich sonst mit Labels zu Phantompreisen.
+- **Tabelle/Liste am Kopfinhalt wählen** (`"Materialbezeichnung"`), nie die erste. Fehlt sie → `Err`, kein leerer Erfolg. **0 Zeilen = `Err`** (stille Erfolge verstecken Redesigns).
+- **`<script>`/`<style>`/JSON-LD nie als Text lesen** — nur Content-Elemente selektieren, sonst kleben Skript-Fetzen Adressen zusammen (`"Boden 2365795"`).
+- **Units maßgeschneidert:** eigenes `unit_of` pro Handler, kennt genau die Schreibweisen dieser Seite (`"EUR / KG"`, `"x pro to"`, `"€/KG"` — nur kg/t). Unbekannt → Skip `"... (Einheit unverständlich: ...)"`. Seiten-Default nur als dokumentierte, markt-plausibilisierte Konstante; explizit-fremd (`"pro Sack"`, erkennbar an `/`/`"pro"`) skippt trotzdem. Tonne-als-Kilo = 1000×-Fehler.
+- **Geteilt nur:** `fetch_text`, `parse_eur` (inkl. Tausenderpunkt), `parse_de_date`. Kein neuer Shared-Parser; Seitenspezifisches (Units, Datums-*Finden*, Kontakt) als kleine Funktion in den Handler.
+- **Doppelblöcke** (`"Gültig ab"`-Repeat) per `(Material, Variante, Preis)` dedupen — nach dem Mapping, nicht auf Rohlabels.
+- **Puffer disziplinieren:** an Headers/Terminatoren zurücksetzen; Terminator (`"... auf Anfrage"`) beendet die Box. `€`-Text ohne Ziffern = Header, kein Label; Texte >120 Zeichen = Prosa, kein Label.
 
-## Unsicherheit & Provenienz (explizit modellieren, nie wegmitteln)
+## Unsicherheit & Provenienz
 
-- Exakte Listenpreise: `confidence: Some(1.0)`, `price_kind: "exact"`.
-- `"bis zu"`: `price = price_max = beworbener Wert`, `confidence: 0.5`,
-  `price_kind: "upto"`. Niemals `price_max = price` ohne Kind.
-- Seitendatum → `published_at` (pro Material wenn vorhanden, sonst
-  Seiten-Fallback); kein Datum → `None` (Alter = `observed_at`).
-- `source_url` ist immer die **Preisseite**, nie die Homepage.
-- Normierung nur bei exakt beweisbarer Umrechnung (kg↔t in
-  Katalogeinheit); alles andere bleibt wie zitiert.
+- Exakt: `confidence: Some(1.0)`, `price_kind: "exact"`. `"bis zu"`: `price = price_max = beworben`, `confidence: 0.5`, `price_kind: "upto"` — nie `price_max` ohne Kind.
+- Seitendatum → Outcome-`published_at` (ein Datum pro Seite; Pro-Material-Daten gibt es nicht); kein Datum → `None` (`observed_at` = Alter).
+- `source_url` = Preisseite, nie Homepage. Normierung nur bei beweisbarer Umrechnung (kg↔t in Katalogeinheit).
 
-## Scheduler-Integration
+## Scheduler
 
-- `schedule`: Standard `Schedule::every_6h()` (Hash-Stagger übernimmt).
-  Nur bei belegtem Tagesrhythmus `DailyAt` mit Berlin-Zeiten.
-- Der Rest (Timeout 120 s, Steps, Fetch-Journal inkl. Fehler, Canary,
-  Acceptance-Ableitung) passiert von selbst in `run_due_with`/`record()`.
-  Handler kümmern sich nur um Fetch+Parse+Mapping.
+Standard `every_6h()` (Hash-Stagger); `DailyAt` mit Berlin-Zeiten nur bei belegtem Tagesrhythmus. Rest (Timeout, Steps, Journal, Canary, Acceptance) passiert in `run_due_with`/`record()` — Handler: nur Fetch+Parse+Mapping.
 
-## Impressum & Betriebsinfos (bespoke!)
+## Impressum (bespoke!)
 
-- Die Impressums-URL ist **pro Handler hartkodiert** (`IMPRESSUM_URL`,
-  live verifiziert) — niemals raten, niemals teilen. Ein Umzug lässt den
-  Step laut fehlschlagen (fixen, nicht raten).
-- Die Kontakt-Extraktion ist **pro Handler maßgeschneidert**
-  (`fn extract_info` im Handler, mit Ankern der ECHTEN Seite:
-  Vedder-`<dl>`, Lausitz-`data-bind`-Spans, Tappe-`<dl>`,
-  Kupferhelden-`<p>`+`<h2>Kontakt</h2>`, M24-`div.inhalt`,
-  ESH-`Inhaber:`-Block, Quell-`<h1>`-Block). Fehlende Anker →
-  lauter `IngestError::Parse`, niemals geraten, niemals fallback.
-  Geteilt sind nur Low-Level-Helfer (`fetch_text`, `parse_eur`,
-  `parse_de_date`) — Units und Datums-*Finden* sind maßgeschneidert.
-- `set_trader_info` schreibt nur echte Änderungen (Stadt nur bei leerer
-  Zelle — Seed-Stadtteile sind präziser als Impressum-Städte) und loggt
-  alt→neu.
-- Firmeninfos können über mehrere Seiten verteilt sein: dann holt der
-  Handler jede Seite per eigener hartkodierter URL (z. B. `/kontakt`
-  zusätzlich) und parst jede mit eigenem Anker-Block — kein generischer
-  Crawler, kein URL-Raten.
-- Gefundene Live-Typos (`"Spähne"`, geklebte `"Straße2901979"`) werden
-  als tolerierte Varianten **mit Test** im jeweiligen Handler abgelegt,
-  nicht als generelle Lockerung.
-- Produktlisten ohne Preise → `ScrapedAcceptance` (explizites Mapping
-  wie bei Preisen, inkl. Fan-out `"V2A und V4A"` → zwei Materialien).
-  Handler ohne Preise sind normal (Canary feuert nur bei 0 Preisen UND
-  0 Annahmen).
+- URL pro Handler hartkodiert, live verifiziert — nie raten/teilen. Umzug → lauter Step-Fehler.
+- `extract_info` pro Handler, Anker der echten Seite (Vedder-`<dl>`, Lausitz-`data-bind`, Tappe-`<dl>`, Kupferhelden-`<p>`+`<h2>Kontakt</h2>`, M24-`div.inhalt`, ESH-`Inhaber:`, Quell-`<h1>`). Fehlende Anker → `Parse`-Error, nie raten/fallback. Infos über mehrere Seiten → pro Seite eigene URL + eigener Block, kein Crawler.
+- **Gotchas:** `<br`-Split hinterlässt Tag-Reste (`class="…"` parst als Text) → erst alles bis zum ersten `>` verwerfen. Sibling-Walk findet bei wildem Nesting nichts → dokumentweit suchen, aber Anker-Heading als Muss. E-Mail braucht eigene Regel (Telefon-Tokenfilter stoppt am ersten Buchstaben). Seiten-Macken (∂-Mails, Hex-mailto, `"Spähne"`, geklebte PLZ) als tolerierte Varianten **mit Test** im Handler.
+- `set_trader_info` schreibt nur echte Änderungen (Stadt nur in leere Zellen — Seed-Stadtteile sind präziser), loggt alt→neu.
+- Listen ohne Preise → `ScrapedAcceptance` (Mapping wie Preise). Handler ohne Preise sind normal (Canary nur bei 0 Preisen UND 0 Annahmen).
 
-## Verifikations-Checkliste (vor „fertig")
+## Checkliste (vor „fertig")
 
-- [ ] Zeilenzahl == Seite (abzüglich begründeter Skips)?
-- [ ] Jeder Skip im Step-Detail nachvollziehbar (Material-Lücke,
-        mehrdeutig, Einheit)?
-- [ ] Varianten trennen alle Sorten (kein Key doppelt)?
-- [ ] Einheiten plausibel (kg-Preise einstellig–zweistellig,
-        t-Preise dreistellig)?
-- [ ] `published_at` gesetzt wo die Seite eins nennt?
-- [ ] Force-Run: Step `ok`, keine Canary-Warnung, MCP-Query zeigt Zeilen?
+- [ ] Zeilenzahl == Seite minus begründete Skips; jeder Skip nachvollziehbar?
+- [ ] Varianten trennen alle Sorten? Einheiten plausibel (kg 1–2-stellig, t 3-stellig)?
+- [ ] `published_at` wo die Seite eins nennt? Force-Run ok, keine Canary, MCP zeigt Zeilen?
 - [ ] `cargo test --workspace` grün?
 
-## Galerie realer Fehler (bitte nicht wiederholen)
+## Galerie (nicht wiederholen)
 
-| Fehler | Schaden | Heute |
-|---|---|---|
-| `Zinn …`→Alu durch Arm-Reihenfolge | falsches Material | Tests pro Label |
-| `unwrap_or("EUR/kg")` | 1000×-Risiko | lautes Skippen |
-| `"1.100"`→1.1 | 1000×-Fehler | Tausender-Regel + Test |
-| Erste `<table>` genommen | falsche Tabelle | Kopf-Selektion |
-| Seitenweiter Text-Walk | Phantompreise | Fenster |
-| Sorten auf ein Material | willkürlicher Current-Preis | `variant` |
-| `price_max = price` ohne Kind | mehrdeutige Semantik | `price_kind` |
-| `Entered`-Span über `.await` | kompiliert nicht (nicht `Send`) | Felder statt Spans |
-| Slugs von Hand umbenannt | Duplikat-Orphans | Slugs sind stabil |
-| Converter löscht Anreicherung | Datenverlust | Preserve-Keys |
-| Migration vs. neue Semantik | Backfill-Clobber | `user_version`-Gate |
-| `cp`-Backup bei WAL | leere Backups | `sqlite3 .backup` |
+| Fehler | Heute |
+|---|---|
+| Generischer Arm fängt spezifisches Label | spezifisch zuerst + Tests pro Label |
+| `unwrap_or("EUR/kg")` | lautes Skippen |
+| `"1.100"` → 1.1 | Tausender-Regel + Test |
+| Erste `<table>` | Kopf-Selektion |
+| Ganzseiten-Walk | Fenster (Start+Ende) |
+| Skript als Text | nur Content-Elemente |
+| Vereinfachte Fixture | realer HTML-Ausschnitt |
+| Sorten kollabiert | `variant` |
+| `price_max` ohne Kind | `price_kind` |
