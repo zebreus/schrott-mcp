@@ -6,6 +6,8 @@
 
 pub mod antikart;
 pub mod bruno_welz;
+pub mod degussa_frankfurt;
+pub mod degussa_hamburg;
 pub mod dsh;
 pub mod edelcat;
 pub mod esh;
@@ -25,8 +27,19 @@ pub mod metallankauf24;
 pub mod mkr_rothenbuecher;
 pub mod moroder_scheideanstalt;
 pub mod nordkat;
+pub mod philoro_berlin_leipziger;
+pub mod philoro_berlin_stresemann;
+pub mod philoro_bremen;
+pub mod philoro_frankfurt;
+pub mod philoro_hamburg;
 pub mod plum;
 pub mod quell;
+pub mod rheinische_berlin_kudamm;
+pub mod rheinische_berlin_mitte;
+pub mod rheinische_bremen;
+pub mod rheinische_kaiserslautern;
+pub mod rheinische_saarbruecken;
+pub mod rheinische_trier;
 pub mod schrottabholung_top;
 pub mod schrottabholung_zentrale;
 pub mod smr;
@@ -71,5 +84,18 @@ pub fn all() -> Vec<Handler> {
         schrottabholung_top::handler(),
         schrottabholung_zentrale::handler(),
         vhm_hartmetall::handler(),
+        degussa_frankfurt::handler(),
+        degussa_hamburg::handler(),
+        rheinische_saarbruecken::handler(),
+        rheinische_berlin_mitte::handler(),
+        rheinische_berlin_kudamm::handler(),
+        rheinische_bremen::handler(),
+        rheinische_trier::handler(),
+        rheinische_kaiserslautern::handler(),
+        philoro_bremen::handler(),
+        philoro_berlin_stresemann::handler(),
+        philoro_berlin_leipziger::handler(),
+        philoro_frankfurt::handler(),
+        philoro_hamburg::handler(),
     ]
 }
