@@ -179,5 +179,6 @@ pub fn all() -> Vec<Handler> {
         vana::handler(),
         vhm_hartmetall::handler(),
         wertstoff_bauer::handler(),
+
     ]
 }
