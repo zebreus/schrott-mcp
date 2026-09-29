@@ -311,7 +311,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         } else if l.contains("draht") {
             return Some(("messing", "Draht grau"));
         } else if l.contains("wasserzähler") || l.contains("wasserzaehler") {
-            return Some(("messing", "Wasserzähler"));
+            return Some(("messing-leicht", "Wasserzähler"));
         } else if l.contains("unrein") {
             return Some(("messing", "unrein"));
         } else {
@@ -1004,7 +1004,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Messing Wasserzähler"),
-            Some(("messing", "Wasserzähler"))
+            Some(("messing-leicht", "Wasserzähler"))
         );
         assert_eq!(grade_for("Messing unrein"), Some(("messing", "unrein")));
         assert_eq!(grade_for("Rot-Guß"), Some(("bronze-rotguss", "")));

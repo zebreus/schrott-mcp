@@ -15,6 +15,7 @@ Für Subagents, die Preis-Handler schreiben. Ein Handler ist **eine Datei** in `
 - Jede Bezeichnung landet bewusst auf einem Material — oder `None` (laut geskippt, gezählt, im Step-Detail). Mehrdeutiges (`"Kabel / E-Motoren"`, `"Messing / Rotguss"` als Maximum) → `None`. Generisches (`"Aluminium"`, `"Kupferschrott 2"`) → generisches Material, nie spezifische Sorte. Fehlendes Katalogmaterial → `None` (Erweiterung = separater Schritt).
 - **Arme spezifisch-vor-generisch ordnen** (`"Kupfer"` fängt sonst `"Kupferschrott 1 ECU"`), pro Label testen.
 - **Variante mitdenken:** zwei Sorten, ein Material, zwei Preise → zwei `variant`-Werte, sonst kollabieren sie auf einen willkürlichen Current-Preis. `''` = Standardsorte.
+- **Varianten-Vokabular (Kabel als Muster):** Bausteine in fester Reihenfolge — Cu-Anteil (`38 %`, `75 %`, Bereich nur wenn Händler so quotiert), Leiterart (`starr`, `Litze`, `Schälkabel starr`, `Erdkabel`, `Telefon`), Zusatz (`mit/ohne Stecker`, `ab 100 kg` als eigene Dimensionsstufe, nie in die Sorte gemischt). `mit Stecker` gehört nach `kabel-mit-stecker`, nie als kabel-kupfer-Variante.
 - Rohlabel immer in `notes` (Nachvollziehbarkeit); Fan-out wo nötig (`"V2A und V4A"` → zwei Materialien).
 - **Mehrfachkategorie:** Manche Sorten gelten zusätzlich als anderes Material (RAM → auch Leiterplatten-Annahme). Das steht NICHT im Handler, sondern zentral in `MATERIAL_FALLBACKS` (`traders/mod.rs`) — `record()` schreibt daraus Acceptance (nie erfundene Preise). Neue Fälle nur mit Domain-Beleg dort eintragen, nie pro Handler raten.
 

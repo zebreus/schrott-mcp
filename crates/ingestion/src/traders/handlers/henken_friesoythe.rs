@@ -232,17 +232,25 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     if l.contains("eisen") && (l.contains("guß") || l.contains("guss")) {
         return Some(("eisenschrott-gussbruch", ""));
     }
+    // Blech 1/2 (Waschmaschine/Fahrrad, 20–50 % Müllanteil) ist
+    // Shredder-Input, kein Misch (FE-Audit).
     if l.contains("blech 1") {
-        return Some(("mischschrott", "Blech 1"));
+        return Some(("stahlschrott-shredder", "Blech 1"));
     }
     if l.contains("blech 2") {
-        return Some(("mischschrott", "Blech 2"));
+        return Some(("stahlschrott-shredder", "Blech 2"));
     }
     if l.contains("späne") || l.contains("spaene") {
         return Some(("mischschrott", "Späne"));
     }
     if l.contains("getriebe") {
-        return Some(("mischschrott", "Motoren u. Getriebe"));
+        // Verbrenner-Motoren/Getriebe: weder E-Motor noch Misch — ohne
+        // Katalogpreis bleibt nur der laute Skip (FE-Audit).
+        return None;
+    }
+    // Stahl ab 6 mm Stärke ist Scherenschrott, kein Misch (FE-Audit).
+    if l.contains("stärke") {
+        return Some(("stahlschrott-scheren", "Stahl"));
     }
     if l.contains("stahl") || l.contains("schrott") {
         return Some(("mischschrott", "Stahl"));
@@ -737,11 +745,11 @@ mod tests {
         );
         assert_eq!(
             grade_for("Blech 1 - Waschmaschine, Trockner, Fahrrad 20-30 % Müllanteil"),
-            Some(("mischschrott", "Blech 1"))
+            Some(("stahlschrott-shredder", "Blech 1"))
         );
         assert_eq!(
             grade_for("Blech 2 - Kühltheken oh. Gefahrstoffe, Draht mit Anhaftung - 30-50 % Müllanteil"),
-            Some(("mischschrott", "Blech 2"))
+            Some(("stahlschrott-shredder", "Blech 2"))
         );
         assert_eq!(
             grade_for("Schrott - leicht  (Mischschrott)"),
@@ -753,12 +761,9 @@ mod tests {
         );
         assert_eq!(
             grade_for("Stahl (Stärke von 0,6 cm)"),
-            Some(("mischschrott", "Stahl"))
+            Some(("stahlschrott-scheren", "Stahl"))
         );
-        assert_eq!(
-            grade_for("Motoren u. Getriebe"),
-            Some(("mischschrott", "Motoren u. Getriebe"))
-        );
+        assert_eq!(grade_for("Motoren u. Getriebe"), None);
         assert_eq!(
             grade_for("nur Getriebe o. Motoren Alu"),
             Some(("aluminium-gemischt", "Getriebe"))

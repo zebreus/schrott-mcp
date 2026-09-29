@@ -299,9 +299,10 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("schredderschrott") {
         Some(("stahlschrott-shredder", ""))
     } else if l.contains("schwerschrott") {
-        Some(("mischschrott", "Schwerschrott"))
+        // Schwerschrott ist Scherenschrott, kein Misch (FE-Audit).
+        Some(("stahlschrott-scheren", "Schwerschrott"))
     } else if l.contains("brennerschrott") {
-        Some(("mischschrott", "Brennerschrott"))
+        Some(("stahlschrott-scheren", "Brennerschrott"))
     } else if l.contains("stahlspäne") || l.contains("stahlsp") {
         Some(("mischschrott", "Stahlspäne"))
     } else if l.contains("widia") || l.contains("vhm") {

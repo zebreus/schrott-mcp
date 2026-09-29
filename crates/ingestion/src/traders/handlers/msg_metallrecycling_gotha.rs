@@ -134,7 +134,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("ms späne") || l.contains("ms spaene") {
         Some(("messing", "Ms Späne gemischt"))
     } else if l.contains("wasseruhren") {
-        Some(("messing", "Wasseruhren"))
+        Some(("messing-leicht", "Wasseruhren"))
     } else if l.contains("rotguss späne") || l.contains("rotguss spaene") {
         Some(("bronze-rotguss", "Rotguss Späne"))
     } else if l.contains("rotguss stücke") || l.contains("rotguss stuecke") {
@@ -199,7 +199,9 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("zinn geschirr") {
         Some(("zinn-geschirr", "Geschirr"))
     } else if l.contains("zinn krätze") || l.contains("zinn kraetze") {
-        Some(("zinn", "Krätze"))
+        // Zinnkrätze (Dross) hat niedrigen, unbelegten Sn-Gehalt — kein
+        // Reinzinn-Preis darauf (FE/NE-Audits).
+        None
     } else if l.contains("zinkblech") {
         Some(("zink", "Blech neu und alt"))
     } else if l.contains("zinkguss") {
@@ -592,7 +594,7 @@ mod tests {
             Some(("messing", "Ms Späne gemischt"))
         );
         assert_eq!(grade_for("Schwermessing (ab 1 kg:)"), Some(("messing", "Schwermessing")));
-        assert_eq!(grade_for("Wasseruhren (ab 1 kg:)"), Some(("messing", "Wasseruhren")));
+        assert_eq!(grade_for("Wasseruhren (ab 1 kg:)"), Some(("messing-leicht", "Wasseruhren")));
         assert_eq!(
             grade_for("Bronze Schrott (ab 1 kg:)"),
             Some(("bronze-rotguss", "Bronze Schrott"))

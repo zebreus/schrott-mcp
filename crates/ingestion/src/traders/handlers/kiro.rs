@@ -151,7 +151,7 @@ fn grade_for(label: &str, tier: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("hülsen") || l.contains("huelsen") {
         ("messing", "Hülsen")
     } else if l.contains("wasseruhren") {
-        ("messing", "Wasseruhren")
+        ("messing-leicht", "Wasseruhren")
     } else if l.contains("messing") {
         ("messing", "")
     } else if l.contains("kühler") || l.contains("kuehler") {
@@ -662,7 +662,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Messing – Wasseruhren", BULK_TIER),
-            Some(("messing", "Wasseruhren, ab 750 kg"))
+            Some(("messing-leicht", "Wasseruhren, ab 750 kg"))
         );
         assert_eq!(
             grade_for("Messing – Rotguss", ""),

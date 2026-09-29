@@ -446,7 +446,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
             return Some(("messing", "Patronenhülsen"));
         }
         if l.contains("wasseruhren") {
-            return Some(("messing", "Wasseruhren"));
+            return Some(("messing-leicht", "Wasseruhren"));
         }
         if l.contains("anhaftung") {
             return Some(("messing", "mit Anhaftung"));
@@ -1007,7 +1007,7 @@ mod tests {
             ("Messing Rotguss stückig", None),
             ("Messing schwer", Some(("messing", ""))),
             ("Messing Späne trocken gemischt", Some(("messing", "Späne"))),
-            ("Messing Wasseruhren", Some(("messing", "Wasseruhren"))),
+            ("Messing Wasseruhren", Some(("messing-leicht", "Wasseruhren"))),
             ("Mischschrott", Some(("mischschrott", ""))),
             ("Schreddervormaterial", Some(("stahlschrott-shredder", ""))),
             (

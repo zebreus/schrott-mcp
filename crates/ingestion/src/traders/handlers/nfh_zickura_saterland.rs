@@ -186,9 +186,11 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("schrott-misch") || l.contains("schrott misch") {
         Some(("mischschrott", ""))
     } else if l.contains("schrott-schwer") || l.contains("schrott schwer") {
-        Some(("mischschrott", "Schwer"))
+        // Schwerschrott ist Scherenschrott, kein Misch (FE-Audit).
+        Some(("stahlschrott-scheren", "Schwer"))
     } else if l.contains("schrott-blech") || l.contains("schrott blech") {
-        Some(("mischschrott", "Blech"))
+        // Blech ist Shredder-Input, kein Misch (FE-Audit).
+        Some(("stahlschrott-shredder", "Blech"))
     } else if l.contains("schrott-spän") || l.contains("schrott-spa") {
         Some(("mischschrott", "Späne"))
     } else {
@@ -535,9 +537,9 @@ mod tests {
     #[test]
     fn mapping_covers_live_table() {
         assert_eq!(grade_for("Schrott-Misch"), Some(("mischschrott", "")));
-        assert_eq!(grade_for("Schrott-Schwer"), Some(("mischschrott", "Schwer")));
+        assert_eq!(grade_for("Schrott-Schwer"), Some(("stahlschrott-scheren", "Schwer")));
         assert_eq!(grade_for("Schrott-Neu"), Some(("stahlschrott-sorte-1", "")));
-        assert_eq!(grade_for("Schrott-Blech"), Some(("mischschrott", "Blech")));
+        assert_eq!(grade_for("Schrott-Blech"), Some(("stahlschrott-shredder", "Blech")));
         assert_eq!(grade_for("Schrott-Späne"), Some(("mischschrott", "Späne")));
         assert_eq!(grade_for("Eisenguß"), Some(("eisenschrott-gussbruch", "")));
         assert_eq!(grade_for("Alu-Späne"), Some(("aluminium-gemischt", "Späne")));
