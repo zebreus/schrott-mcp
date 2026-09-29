@@ -10,8 +10,8 @@
 //! carries copper/cable cards only; paper, pallets and e-scrap live on
 //! other URLs and stay out of this handler (no crawler).
 //!
-//! "Blei-Kupfer-Kabel" (lead-sheathed cable) has no catalog material and
-//! is skipped loudly.
+//! "Blei-Kupfer-Kabel" (lead-sheathed cable) maps to `kabel-blei`.
+//! Cards whose shape broke (no title, no BAR base price) are skipped loudly.
 
 use scraper::{ElementRef, Html, Selector};
 
@@ -109,8 +109,11 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("kupfer-gemischt", "Späne"))
     } else if l.contains("elektromotor") || l.contains("trafo") || l.contains("vorschalt") {
         Some(("elektromotoren", ""))
+    } else if l.contains("blei") && l.contains("kupfer") && l.contains("kabel") {
+        // Lead-sheathed cable is its own sort (kabel-blei), never copper cable.
+        Some(("kabel-blei", ""))
     } else if l.contains("kabel") && l.contains("stecker") {
-        Some(("kabel-kupfer", "mit Stecker"))
+        Some(("kabel-mit-stecker", "mit Stecker"))
     } else if l.contains("kabel") && l.contains("40") {
         Some(("kabel-kupfer", "40%"))
     } else if l.contains("kabel") && l.contains("50") {
@@ -410,9 +413,9 @@ mod tests {
         );
         assert_eq!(
             grade_for("Kupfer-Kabel mit Stecker"),
-            Some(("kabel-kupfer", "mit Stecker"))
+            Some(("kabel-mit-stecker", "mit Stecker"))
         );
-        assert_eq!(grade_for("Blei-Kupfer-Kabel"), None);
+        assert_eq!(grade_for("Blei-Kupfer-Kabel"), Some(("kabel-blei", "")));
     }
 
     #[test]
