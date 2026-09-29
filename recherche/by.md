@@ -496,10 +496,6 @@ Stand: 2026-09-27. Winkel: Kandidatenliste /tmp/opencode/audit/by.md (~146 Kandi
 | ALEX Goldankauf | Aschaffenburg 63739, Roßmarkt 39 A | keine | Zahngold/Silber/Schmuck/Uhren — Tel. 06021-9218508 | unklar |
 | Münzengala | Eschau-Hobbach 63863, Brunnenstr. 8b | https://aschaffenburg.muenzengala.de | Münzen/Sammlungen — keine | unklar |
 | Winfried Haase Uhren und Schmuck | Alzenau 63755, Hanauer Str. 9 | https://www.haase-alzenau.de | Altgold/Münzen/Zahngold/Barren/Tafelsilber — tagesaktuell | unklar |
-| Der Goldfachmann | Gelnhausen 63571, Im Ziegelhaus 10 | https://www.dergoldfachmann.de | Gold/Silber/Platin — Filiale seit 2011 | unklar |
-| Barbarossa Juwelier | Gelnhausen 63571, Im Ziegelhaus 1 | https://www.barbarossa-juwelier.de | Goldankauf/Tagespreise — Mo–Sa | unklar |
-| Juwelier Dittmeier | Seligenstadt 63500, Aschaffenburger Str. | https://juwelier-dittmeier.eu | Gold/Schmuck/Uhren — keine | unklar |
-| Hess Juwelier & Uhrmacher | Offenbach-Bürgel 63075, Kurfürstenstr. | https://www.hess-juwelier-uhrmacher.de | Münzen/Gold/Silber/Platin/Uhren/Nachlässe — keine | unklar |
 | H&G Gold An & Verkauf | Miltenberg 63897, Hauptstr. 92 | keine | Alt-/Zahn-/Bruchgold/Münzen/Barren/Silber — Bar-Auszahlung | unklar |
 | Auktionshaus Miltenberg | Miltenberg 63897, Hauptstr. | https://www.auktionshaus-miltenberg.de | Gold/Schmuck/Uhren/Silber — /ankauf/ | unklar |
 | Würzburger Goldankauf | Würzburg 97070, Katharinengasse 5 | https://www.wuerzburger-goldankauf.com | Gold/Silber/Platin/Palladium/Münzen/Zahngold/Besteck — ~65 km | unklar |

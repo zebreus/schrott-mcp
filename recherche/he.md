@@ -599,3 +599,14 @@ Tote Seed-Websites (curl 27.09.2026, 80 Sites geprüft): https://scholz-recyclin
 | Schrotthandel Meyer | Darmstadt 64291, Am Sportplatz (o. Nr.) | keine | Schrott — nur OSM-Node (PRÜFFALL; mögl. Dublette Levy/Zerseeger-Seed) | unklar |
 | Goldankauf Darmstadt | Darmstadt 64283, Rheinstr. 22 | https://www.goldankauf-darmstadt.com | Alt-/Zahngold/Münzen/Barren/Silber/Platin/Uhren — keine | unklar |
 | Juwelier Münzer | Darmstadt 64283, Luisenplatz 7 | https://www.juwelier-muenzer.de | Altgold/Silber/Münzen/Zahngold/Besteck — /service-altgold/ | unklar |
+
+## Nachtrag Hessen-Zugänge (29.09.2026)
+
+Gelnhausen, Seligenstadt und Offenbach-Bürgel liegen in Hessen (Main-Kinzig-Kreis / Offenbach), nicht in Bayern — aus by.md hierher verlegt (Feedback 1191–1194).
+
+| Name | Ort | Adresse | Website | Spezialität | Ankauf |
+|---|---|---|---|---|---|
+| Der Goldfachmann | Gelnhausen 63571, Im Ziegelhaus 10 | Im Ziegelhaus 10, 63571 Gelnhausen | https://www.dergoldfachmann.de | Gold/Silber/Platin — Filiale seit 2011 | unklar |
+| Barbarossa Juwelier | Gelnhausen 63571, Im Ziegelhaus 1 | Im Ziegelhaus 1, 63571 Gelnhausen | https://www.barbarossa-juwelier.de | Goldankauf/Tagespreise — Mo–Sa | unklar |
+| Juwelier Dittmeier | Seligenstadt 63500, Aschaffenburger Str. | Aschaffenburger Str., 63500 Seligenstadt | https://juwelier-dittmeier.eu | Gold/Schmuck/Uhren | unklar |
+| Hess Juwelier & Uhrmacher | Offenbach-Bürgel 63075, Kurfürstenstr. | Kurfürstenstr., 63075 Offenbach-Bürgel | https://www.hess-juwelier-uhrmacher.de | Münzen/Gold/Silber/Platin/Uhren/Nachlässe | unklar |
