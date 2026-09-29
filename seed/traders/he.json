@@ -10475,56 +10475,6 @@
   }
  },
  {
-  "slug": "he-mainz-kastel-55252-lagerin-r-alteisen-und-altmetalle",
-  "name": "Lagerin R. Alteisen und Altmetalle",
-  "trader_type": "schrotthaendler",
-  "description": "",
-  "street": "",
-  "postcode": "",
-  "phone": "",
-  "email": "",
-  "opening_hours": "",
-  "city": "Mainz-Kastel 55252",
-  "state": "HE",
-  "website": "",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "pruefung",
-  "notes": "Alteisen/Altmetalle — An der Gabelung 28 — dritte Lagerin-Entität neben HLR + Metall- & Rohstoffhandel Lagerin (beide Seed) → klären! | urspr. Website-Angabe: keine | Adresse: Mainz-Kastel 55252 (HE!)",
-  "provenance": {
-   "seed_file": "he",
-   "section": "Nachtrag Wide-Net (27.09.2026)",
-   "ankauf_raw": "unklar",
-   "origin": "table"
-  }
- },
- {
-  "slug": "he-mainz-kastel-55252-schramm",
-  "name": "Schramm",
-  "trader_type": "schrotthaendler",
-  "description": "",
-  "street": "Hambuschweg 29",
-  "postcode": "",
-  "phone": "",
-  "email": "",
-  "opening_hours": "",
-  "city": "Mainz-Kastel 55252",
-  "state": "HE",
-  "website": "",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "pruefung",
-  "notes": "Schrott — Hambuschweg 29 = gleiche Adresse Metall- & Rohstoffhandel Lagerin → klären! | urspr. Website-Angabe: keine | Adresse: Mainz-Kastel 55252",
-  "provenance": {
-   "seed_file": "he",
-   "section": "Nachtrag Wide-Net (27.09.2026)",
-   "ankauf_raw": "unklar",
-   "origin": "table"
-  }
- },
- {
   "slug": "he-schaafheim-64850-he-reining-klaus",
   "name": "Reining Klaus",
   "trader_type": "containerdienst",

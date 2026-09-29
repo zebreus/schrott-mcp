@@ -565,8 +565,6 @@ Tote Seed-Websites (curl 27.09.2026, 80 Sites geprüft): https://scholz-recyclin
 | GVS Germany GmbH | Obertshausen-Hausen 63179, Birkenwaldstr. 38 | keine | Gold-/Silberankauf — GS Webseite-Button, URL fehlt (NEU) | unklar |
 | Goldhaus Bruchköbel Goldankauf | Bruchköbel 63486, Hauptstr. 12 | keine | Gold-/Silberwaren — GS (NEU) | unklar |
 | Main Gold Gold- u. Silberankauf | Hanau 63457, Adalbert-Eisenhuth-Str. 6B | keine | Gold-/Silberankauf — gleicher Hof wie ARM/Entsorgung Hessen (Cluster!) (NEU) | unklar |
-| Lagerin R. Alteisen und Altmetalle | Mainz-Kastel 55252 (HE!) | keine | Alteisen/Altmetalle — An der Gabelung 28 — dritte Lagerin-Entität neben HLR + Metall- & Rohstoffhandel Lagerin (beide Seed) → klären! | unklar |
-| Schramm | Mainz-Kastel 55252 | keine | Schrott — Hambuschweg 29 = gleiche Adresse Metall- & Rohstoffhandel Lagerin → klären! | unklar |
 
 ## Nachtrag Mömlingen-70km (27.09.2026)
 
