@@ -503,3 +503,37 @@ Stand: 2026-09-27. Winkel: Kandidatenliste /tmp/opencode/audit/by.md (~146 Kandi
 | H&G Gold An & Verkauf | Miltenberg 63897, Hauptstr. 92 | keine | Alt-/Zahn-/Bruchgold/Münzen/Barren/Silber — Bar-Auszahlung | unklar |
 | Auktionshaus Miltenberg | Miltenberg 63897, Hauptstr. | https://www.auktionshaus-miltenberg.de | Gold/Schmuck/Uhren/Silber — /ankauf/ | unklar |
 | Würzburger Goldankauf | Würzburg 97070, Katharinengasse 5 | https://www.wuerzburger-goldankauf.com | Gold/Silber/Platin/Palladium/Münzen/Zahngold/Besteck — ~65 km | unklar |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| by-munchen-fritz-aquila-metall-recycling | München | Dachauer Straße 537-539 | 80993 | 089 147083-0 | info@fritz-aquila.de | Mo-Do 7-16, Fr 7-12 Uhr | https://www.fritz-aquila.de, https://fritz-aquila.de/index.php/impressum_und_datenschutz |
+| by-lohr-am-main-seubert-rohstoffhandel | Lohr am Main | Am Landgraben 14 | 97816 | 09352/807066 (auch 09352/5004107) | info@seubert-rohstoffhandel.de | Mo-Fr 8-12 und 13-17, Sa 9-13 Uhr | https://www.seubert-rohstoffhandel.de, https://www.seubert-rohstoffhandel.de/impressum |
+| by-amberg-strobl-recyclingzentrum-amberg | Amberg | Gerresheimer Str. 2 | 92224 | 09621 320031 | n.e. | n.e. | https://www.strobl-entsorgung.de/ |
+| by-roth-schrott-blank | Roth | Welserstr. 9 | 91154 | 09171-4316 | n.e. | n.e. | https://www.schrott-blank.de/, https://www.schrott-blank.de/kontakt |
+| by-nurnberg-reichelsdorf-patrick-stoll-schrottentsorgung | Nürnberg-Reichelsdorf | Schwimbacher Str. 11 | 90453 | 0174 3424770 | infostoll@aol.com | Mo-Fr 8-17 Uhr, Sa nach Vereinbarung | https://www.schrott-stoll.de, https://www.schrott-stoll.de/impressum |
+| by-berching-automobile-gotz | Berching | Obere Kanalstr. 14 | 92334 | 08462 1864 | info@automobilegoetz.de | Di-Fr 9-12 und 13-18, Sa 9-13, Mo geschlossen | http://www.automobilegoetz.de/kontakt-2 |
+| by-hilpoltstein-j-helfert-schrotthandel-verwaltungs | Hilpoltstein | Daimlerstr. 4 | 91161 | 09174 49361 | j.helfert@t-online.de | Mo-Fr 7-17, Sa 8-15 Uhr | https://www.schrott-helfert.de, https://www.schrott-helfert.de/impressum |
+| by-munchen-schulz-schrottgrohandel | München | Rupert-Bodner-Straße 25 | 81245 | +49 89 820909-0 | info@schulz-schrott-metalle.de | n.e. | http://www.schulz-schrott-metalle.de |
+| by-nurnberg-goldankauf-noris-korner-udo | Nürnberg | Ostendstraße 175 | 90482 | 0911 - 570 32 23 | Juwelenpalast@t-online.de | n.e. | https://www.goldankauf-noris.de, https://www.goldankauf-noris.de/impressum/ |
+| by-augsburg-brendle-j-dienstleistungen | Augsburg | Schönbachstr. 38A | 86154 | 0821 - 42 54 36 | josefbrendle@web.de | n.e. | https://www.brendle-dienstleistungen.de/, https://www.brendle-dienstleistungen.de/impressum/ |
+| by-weilheim-oberland-recycling | Weilheim | Paradeisstraße 68 | 82362 | 0881 92542-0 | info@ob-rec.de | Mo-Fr 7:00-17:00 | http://www.oberland-recycling.de |
+| by-kempten-allgauzinn | Kempten | Hieberstr. 18 | 87435 | +49 159 01271643 | kontakt@allgaeuzinn.de | Mo-Sa 7-20 Uhr, So geschlossen | https://allgaeuzinn.de |
+| by-zolling-gumprich-recycling | Zolling | Flitzinger Straße 33 | 85406 | 08167 950997 | d.wolfgart@gumprich-recycling.de | Mo-Do 7:30-16:30, Fr 7:30-16:00, Sa (Mai-Sept., nur erster Sa) 9-13 | https://gumprich-recycling.de/ |
+| by-regensburg-zellner-recycling | Regensburg | Budapester Str. 15 | 93055 | +49 941 60403-35 | info@zellner-recycling.de | Waage Mo-Fr 6:30-16:00, Warenannahme Mo-Fr 7:00-16:00 | http://www.zellner-recycling.de, https://www.zellner-recycling.de/impressum |
+| by-tirschenreuth-behnke-recycling-inh-klaus-behnke | Tirschenreuth | Kornbühlstraße 34 | 95643 | 09631 1231 | klausbehnke@t-online.de | n.e. | https://behnke-recycling.de/wp/ |
+| by-wurzburg-preuer-recycling | Würzburg | Veitshöchheimer Strasse 11 | 97080 | +49 931 92061 | info@preuer.de | Mo-Fr 7:30-12:00 und 12:30-15:30 | https://www.preuer.de, https://preuer.de/impressum/ |
+| by-stammham-schlereth-schrotthandel-schlereth | Stammham | Jahnstr. 28 | 85134 | 08405-279 | info@schrotthandel-schlereth.de | n.e. | http://www.schrotthandel-schlereth.de |
+| by-burgbernheim-b-nurnberg-winterstein-mario | Burgbernheim b. Nürnberg | In der Schubertin 9 | 91593 | 09843 - 98 09 70 | nicole.winterstein@web.de | 24/7 erreichbar (lt. Website) | https://www.schrottwinterstein.de/, https://www.schrottwinterstein.de/impressum |
+| by-deggendorf-mirfanger-metall-entsorgungsfachbetrieb | Deggendorf | Hauptstr. 35 | 94469 | 0991 5916 | n.e. | Mo-Do 8-12 und 13-16, Fr 8-14 | http://www.containerdienst-deggendorf.de, https://www.containerdienst-deggendorf.de/impressum |
+| by-rotthalmunster-pindel-ernst-containerdienst | Rotthalmünster | Penning 3a | 94094 | 08532/926409 | info@containerdienst-ernst-pindel.de | n.e. | http://www.containerdienst-ernst-pindel.de |
+| by-miltenberg-63897-auktionshaus-miltenberg | Miltenberg 63897 | Hauptstraße 130 | 63897 | 09371 98 97 004 | info@auktionshaus-miltenberg.de | Di/Do/Fr 10-16, Sa 10-15, Mo/Mi geschlossen | https://www.auktionshaus-miltenberg.de, https://www.auktionshaus-miltenberg.de/impressum |
+| by-wurzburg-97070-wurzburger-goldankauf | Würzburg 97070 | Katharinengasse 5 | 97070 | 0931-99 131 69 | wuerzburg@juwelier-toennies.de | Mo-Fr 9:30-18, Sa 9:30-14 | https://www.wuerzburger-goldankauf.com |
+| by-garching-hochbruck-85748-autoverwertung-rottegger | Garching-Hochbrück 85748 | Ingolstädter Landstraße 18 | 85748 | 089 / 315 05 98 | info@autoverwertung-rottegger.de | Mo-Fr 8:30-12:30 und 13:30-17:30, Sa geschlossen | https://www.autoverwertung-rottegger.de/ |
+| by-augsburg-86165-avl-autoverwertung-lechhausen | Augsburg 86165 | Stätzlinger Str. 84 | 86165 | 0821 796 82 41 | info@avl-autoverwertung.de | Mo-Fr 8:00-12:30 und 13:30-18:00, Sa 10:00-14:00 | https://www.avl-autoverwertung.de/ |
+| by-deiningen-86738-autoverwertung-bachmann | Deiningen 86738 | Hauptstraße 1 | 86738 | 09081 / 29 33-0 | info@autoverwertung-bachmann.de | Mo, Di, Do, Fr 8-12 und 13-17, Mi geschlossen, Sa 8-12 | https://www.autoverwertung-bachmann.de |
+| by-aschaffenburg-63739-die-goldwaage | Aschaffenburg 63739 | Frohsinnstraße 28 | 63739 | 06021 188 27 52 | info@diegoldwaage.de | Mo-Fr 10-17, Sa 10-14 Uhr | https://diegoldwaage.de |
+| by-aschaffenburg-63739-metallorum-edelmetallhandels | Aschaffenburg 63739 | Weißenburger Str. 18 | 63739 | 06021 4542399 | info@edelmetallshop-aschaffenburg.de | Mo-Fr 9:30-13:00 und 14:00-18:00, Sa (1. und 3. im Monat) 9:30-13:30 | https://metallorum.de, https://metallorum.de/ueber-uns/kontakt/ |
+| by-eschau-hobbach-63863-munzengala | Eschau-Hobbach 63863 | Brunnenstr. 8b | 63863 | 09374 970268 / 0171 8218897 | info@muenzengala.de | n.e. | https://aschaffenburg.muenzengala.de, http://muenzengala.de/impressum |
+| by-alzenau-63755-winfried-haase-uhren-und-schmuck | Alzenau 63755 | Hanauer Straße 92a | 63755 | 06023 1597 | info@haase-alzenau.de | Mo-Fr 9-13 und 14-18, Sa 9-13 Uhr | https://www.haase-alzenau.de, https://www.haase-alzenau.de/impressum/ |

@@ -154,7 +154,6 @@ Legende Ankauf: **ja** = Ankauf belegt (Website/Register), **unklar** = Entsorge
 | Schrotthandel NRW / Klüngelskerle (0163) | Ruhrgebiet/NRW | https://schrotthandel.nrw/schrottankauf | Altmetall (Cu/Messing/Alu/Edelstahl), Autoteile | mobil/ja |
 | 01522-Schrottankauf-Netzwerk (Hamm/Hagen/Krefeld/Bonn) | NRW-weit | https://schrottankauf-hamm.de/ | Einheitliche Template-Seiten, eine Rufnummer — 1 Betreiber | mobil/ja |
 | kfz-entsorgen.de (KFZ-Ankauf) | NRW-weit | https://kfz-entsorgen.de/kfz-ankauf | Auto-/Unfallwagen-Ankauf, Verwertungsnachweis via Partner | mobil/ja |
-| HN Schrott- & Metallrecycling | NRW (Ort unklar) | https://hn-schrott.com/ | Schrottplatz, Ankauf (Ort nicht verifiziert) | unklar |
 
 ## Nachtrag Audit-Runde 2
 
@@ -990,3 +989,58 @@ AM Altmetall (Ochtrup 48607), Krüger (45239, mobil), Metzler (45307), MSR (4830
 Offen: SMI Metallrecycling (nur Seed-Notiz Am Schild 11), Schrottankauf Exclusiv (rein mobil),
 Recycling Bartikowsky (Nienkamp 26, Website tot), Metall Recycling Münster (Königsberger Str. 109,
 Website tot) — Verzeichnisabgleich steht aus.
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| EDELCAT GmbH | Nettetal | Wambacherstr. 25B | n.e. | n.e. | info@edelcat.de | n.e. | https://www.edelcat.de |
+| VHM Hartmetall Ankauf | Remscheid | Grünenplatzstraße 1a | 42899 | n.e. | info@vhm-hartmetall.de | n.e. | https://www.vhm-hartmetall.de |
+| Hartmetallschrott24 | Düsseldorf | Bamberger Str. 3 | 40599 | 0172 4111 920 / Festnetz 0211 5666 3464 | info@hartmetallschrott24.de | Mo-Fr 8:30-16:30 | https://hartmetallschrott24.de |
+| Schrotthändler Dortmund | Dortmund-Nordmarkt | Münsterstraße 120 | 44145 | 01520 7930297 | info@schrott-zentrale.de | Mo-Sa 8:00-21:00 | https://schrotthaendler-dortmund.com |
+| schrottabholung-top | Bochum | Girondelle 90 | 44799 | n.e. | n.e. | n.e. | https://schrottabholung-top.de |
+| Metallhandel Mumm GmbH | Korschenbroich-Glehn | Dieselstraße 50 | 41352 | 02182 / 570 98 77 oder 78 | info@metallhandel-mumm.de | Mo-Fr 7:30-17:00 | https://metallhandel-mumm.de |
+| Prinz (altmetallabholung.de) | Bochum | Schmechtingstraße 22 | 44809 | 01525 7471273 | schrott@altmetallabholung.de | n.e. | https://altmetallabholung.de/impressum |
+| slug:nw-mulheim-freialdenhoven-schrottabholung-ankauf-de Freialdenhoven (schrottabholung-ankauf.de) | Bochum | Elisabethstraße 20 | 44866 | 0174/8694036 | info@schrottabholung-ankauf.de | n.e. | https://schrottabholung-ankauf.de |
+| Schrottankauf gegen Bares | Bochum | Am Kortländer 11 | 44787 | 0176 80355960 | info@schrottankauf-gegen-bares.de | n.e. | https://schrottankauf-gegen-bares.de/impressum |
+| Bellani (Arton Bellani Schrott & Metallhandel) | Langenfeld | Haus Gravener Str. 100 | 40764 | 01520 6169486 | bellani2007@icloud.com | n.e. | https://schrotthaendler22.de |
+| Schrotthandel Missal | Essen | Kalthofweg 4 | 45277 | 0170 354 7895 | schrotthandel-missal@web.de | n.e. | https://schrott-in-essen.de/impressum.html |
+| Middeldorf Rohstoffhandel (Joachim Middeldorf GmbH & Co. KG) | Krefeld-Oppum | Herbertzstr. 14-16 | 47809 | +49 2151 544541 | info@middeldorf-rohstoffhandel.de | n.e. | https://middeldorf-rohstoffhandel.de |
+| Schrottabholung Kölle | Köln | Salvatorstraße 18 | 51061 | +49 1525 7870447 | info@schrottabholung-koelle.de | n.e. | https://schrottabholung-koelle.de |
+| Ruhr Schrottabholung | Düsseldorf | Dorotheenstraße 89 | 40235 | +49 162 7417036 | info@ruhr-schrottabholung.de | n.e. | https://ruhr-schrottabholung.de |
+| Schrottabholung Düsseldorf | Düsseldorf | Wimpfener Str. 4 | 40597 | 01522-422-4277 | schrott-held@mail.de | n.e. | https://schrottabholung-düsseldorf.de/impressum |
+| Schrotthandel-24 | Bochum | Luchsweg 13 | 44892 | 0176-842 86 196 | info@schrott-handel24.de | n.e. | https://schrott-handel24.de/impressum |
+| Schrottankauf Bottrop | Bottrop | Körtlingsfeld 31 | 46244 | 01522-422-4277 | schrott-held@mail.de | n.e. | https://schrottankauf-bottrop.de/impressum |
+| Schrottabholung Engel | Bochum | Hernerstraße 2 | 44787 | 0162 588 626 0 | info@schrottabholung-engel.de | n.e. | https://schrottabholung-engel.de/impressum/ |
+| My-schrotthaendler | Bochum | Peter Parler weg 3 | 44801 | +49 1520 4064254 | info@my-schrotthaendler.de | n.e. | https://my-schrotthaendler.de |
+| schrottabholung-el | Recklinghausen | Ölpfad 3 | 45665 | 0163 6752699 | info@schrottabholung-el.de | Mo-Fr 8-18 Uhr, Sa 8-17 Uhr | https://schrottabholung-el.de |
+| Smit Schrott & Buntmetallhandel (Familie Smit) | Willich | Cloerbruchallee 1b | n.e. | 02162 – 91 50 816 | schrotthandel-smit@t-online.de | n.e. | https://schrotthandel-smit.de |
+| Metallschrott-Express | Ochtrup | Gausebrink 14 | 48607 | +49 171 3524283 | info@metallschrott-express.de | Mo-Sa 7:30-20:00, So geschlossen | https://metallschrott-express.de |
+| Arbitrage Recycling | Köln | Max-Planck-Straße 38 | 50858 | +49 221 29247310 | info@arbitrage-recycling.com | n.e. | https://arbitrage-recycling.com |
+| Autoverwertung Viersen | Viersen | Hoserkirchweg 170 | 41747 | +49 157 80974786 | info@autoverwertung-viersen.top | Mo-Sa 8-21 Uhr, So geschlossen | https://autoverwertung-viersen.top |
+| slug:nw-alsdorf-plum-franz Plum Franz | Alsdorf | Carl-Zeiss-Straße 9 | 52477 | 0 24 04 / 55 20 - 0 | info@franz-plum.de | Büro Mo-Fr 7-17, Sa 7-12 | https://www.franz-plum.de |
+| slug:nw-gevelsberg-grun-mucher Grün & Mücher | Gevelsberg | Asker Str. 6 | 58285 | +49 2332/6353 | n.e. | n.e. | https://gruen-muecher.de |
+| Helmut Mösta Metallgroßhandel | Dortmund | Dammstr. 2-10 | 44145 | +49 231 7284050 | info@moesta-metalle.de | Mo–Fr 7:30–16:00, Sa/So geschlossen | https://moesta-metalle.de |
+| slug:nw-alsdorf-52477-franz-plum Franz Plum GmbH & Co. KG | Alsdorf | Carl-Zeiss-Straße 9 | 52477 | 02404 5520-0 | info@franz-plum.de | Büro Mo-Fr 7:00-17:00, Sa 7:00-12:00 | https://www.franz-plum.de |
+| Hugo Neuhaus GmbH | Attendorn | Askay 7 | 57439 | 02722-63595-0 | info@neuhaus-recycling.de | Büro Mo-Do 7:00-16:00, Fr 7:00-13:00 | https://www.neuhaus-recycling.de |
+| Hydro Aluminium Recycling Deutschland GmbH | Dormagen | Edisonstr. 5 | 41542 | +49 152 229 44 628 | dispo.hard@hydro.com | n.e. | https://www.hydro.com/de/global/uber-hydro/hydro-weltweit/europe/deutschland/dormagen/hydro-aluminium-recycling-deutschland-gmbh |
+| AZ Containerdienst & Metallhandel (Zaim Abazovic) | Gummersbach-Dieringhausen | Halstenbachstr. 3a | 51645 | 01515 9851357 | info@az-containerdienst.de | Mo-Sa 8:00-17:00, So geschlossen | https://az-containerdienst.de |
+| HB-Metalle | Hamm | Veistr. 60 | 59073 | +49 178 1758265 | info@hb-metalle.de | Mo-Fr 8:00-18:30, Sa 8:00-16:30 | https://www.hb-metalle.de |
+| slug:nw-witten-58456-wilhelm-botzel Wilhelm Bötzel GmbH & Co. KG | Witten | Wittener Straße 170-176 | 58456 | +49 (0) 2324 / 686 01 00 | witten@boetzel-schrott.de | Mo-Fr ca. 6:00-16:30 | https://boetzel-schrott.com |
+| slug:nw-herne-wilhelm-botzel Wilhelm Bötzel GmbH & Co. KG | Herne | Hafenstraße 5-13 | 44653 | +49 (0) 2325 / 75048 | herne-1@boetzel-schrott.de | Mo-Fr ca. 6:00-16:30 | http://boetzel-schrott.com/redirect.html |
+| slug:nw-hagen-wilhelm-botzel Wilhelm Bötzel GmbH & Co. KG | Hagen | Hellweg 88 | 58099 | +49 (0) 2331 / 62 80 10 | hagen@boetzel-schrott.de | Hagen Mo-Fr 7:00-15:00 | http://boetzel-schrott.com/redirect.html |
+| SRM Schrott & Metallrecycling Münster GmbH | Münster | Kesslerweg 37 | 48155 | (0251) 60 92 26-10 | info@srm-schrott.de | n.e. | https://www.srm-schrott.de |
+| Hohlfeld GmbH & Co. KG | Rheine | Hauenhorster Straße 171–185 | 48431 | 05971 2179 | info@hohlfeld-rheine.de | Mo-Do 8:00-16:45, Fr 8:00-15:45, Sa geschlossen | https://hohlfeld-rheine.de |
+| Günter Allermann GmbH | Schwelm | In der Graslake 46 | 58332 | +49 2336 2911 | info@allermann-gmbh.de | Mo-Do 7:00-16:00, Fr 7:00-15:00, Ladezeiten Mo-Fr 7:00-14:30 | https://www.allermann-gmbh.de |
+| Grafenberg-Metall GmbH | Krefeld | Sterkenhofweg 27 | 47807 | +49 (0) 2151 820 69-0 | krefeld@grafenberg-metall.com | n.e. | https://grafenberg-metall.com |
+| slug:nw-gevelsberg-58285-grun-mucher Grün & Mücher GmbH & Co. KG | Gevelsberg | Asker Str. 6 | 58285 | +49 2332/6353 | n.e. | n.e. | https://gruen-muecher.de/impressum |
+| Rohstoffhandel Heinrichs Group | Gelsenkirchen | Am Dördelmannshof 30 | n.e. | n.e. | info@heinrichs-group.com | Mo-Fr 8:00-16:00 | https://heinrichs-group.com |
+| Heidelbach Metall Recycling GmbH | Gladbeck | Stollenstr. 25 | 45966 | (02043) 24041 + 42 | info@heidelbach-gladbeck.de | n.e. | https://www.heidelbach-gladbeck.de |
+| BSH Bottroper Schrotthandel GmbH | Bottrop | Werkstr. 4 | 46240 | 02041-7724414 | info@bottroper-schrotthandel.de | Mo-Sa 07:00-19:00, So geschlossen | https://bottroper-schrotthandel.de |
+| Steinrath Metalle GmbH | Aachen | Hüttenstr. 133-135 | 52068 | +49 241 997 444 99 | info@steinrath.de | Mo-Fr 08:00-17:00, Sa 08:00-12:00 | https://www.steinrath.de |
+| Altmetalle Witt GmbH | Stolberg | Münsterbachstr. 3 | 52222 | 02402/22194 | info@altmetalle-witt.de | Mo-Fr 8:00-16:45 (Materialannahme), Sa 8:00-11:15 | http://altmetalle-witt.de |
+| ECO Remarketing GmbH | Ennigerloh | Westkirchener Str. 67 | 59320 | +49 40 874 06 129 | info@eco-remarketing.com | n.e. | https://www.eco-remarketing.com |
+| PIO Remarketing GmbH | Mönchengladbach | Süchtelner Straße 65 | 41066 | +49 (0) 2161 6988906 | vertrieb@pio-remarketing.de | n.e. | https://www.pio-remarketing.de |
+| EAS-Recycling Solution GmbH | Herdecke | Ostender Weg 12A | 58313 | +49 (0) 2330 / 910 7023 | n.e. | n.e. | https://www.eas-recycling.de/impressum |
+| slug:nw-dortmund-44145-helmut-mosta-metallgrohandel | Dortmund 44145 | Dammstr. 2-10 | 44145 | +49 231 7284050 | info@moesta-metalle.de | Mo-Fr 7:30-16:00, Sa/So geschlossen | moesta-metalle.de |
+| slug:nw-gelsenkirchen-45886-rohstoffhandel-heinrichs-group | Gelsenkirchen 45886 | Am Dördelmannshof 30 | 45886 | 0209 177456-0 | info@heinrichs-group.com | Mo-Fr 8:00-16:00 | heinrichs-group.com |

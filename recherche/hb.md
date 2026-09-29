@@ -428,3 +428,29 @@ Hinweise:
 - Schrott24/Metaloop und Schrottjungs: Online-/mobil-Ketten ohne HB-Yard (Graz bzw. Hamburg-Sitz).
 - Rosenbach (Lange Str. 30) und Metallhandel Weiss: PLZ/Telefon nicht verifizierbar.
 - Bauer-Zweitadresse Woltmershauser Str. 174, 28197 Bremen (beg-bhv.de) als Nebenstandort notiert.
+
+## Nachtrag Adressen (29.09.2026)
+
+Adress-Nachtrag aus Feedback-IDs 863-1287 (Tabelle feedback, Stand 29.09.2026). Methodik: Werte aus feedback/details-Spalte (Unternehmenswebsites/Impressen), Name/Ort aus seed/traders/hb.json, Straße subsidiär aus Seed; unbelegte Felder = n.e. (kein Raten). Seed-JSON wurde NICHT editiert — Anreicherung erfolgt hier als Nachtrag.
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| Koschalka Bremer Sammlerparadies | Bremen | Waller Heerstraße 20 | 28217 | n.e. | n.e. | Mo/Mi/Fr 10:00-15:00 (nur Ankauf), Di/Do/Sa geschlossen | bremer-sammlerparadies.de |
+| Aram-Gold Edelmetallhandel (Aram Handel) | Bremen-Vegesack | Lindenstr. 38 | 28755 | 0421 1783601 | info@aram-juwelier.de | n.e. | aram-handel.de |
+| Schrottjungs Bremen | Bremen | mobil (Sitz Hamburg, Billwerder Steindamm 15a) | n.e. | 0173 8705566 | info@schrottjungs.de | n.e. | schrottjungs.de (/schrottabholung-bremen + /impressum-datenschutz) |
+| Brecheisen Entsorgung | Bremen | Bruchweg 42a | 28309 | 0176 24934134 | info@brecheisen-entsorgung.de | n.e. | brecheisen-entsorgung.de + /impressum |
+| Goldankauf Bremen - Kredo | Bremen | Faulenstraße 19 | 28195 | 0421 4270 9997 | info@kredo-goldankauf.de | Mo-Sa 10:00-18:00 | kredo-goldankauf.de + /impressum |
+| Goldankauf Lange GmbH | Bremen | Bahnhofsplatz 42 | 28195 | 0421 320068 | info@lange-edelmetall.de | Di-Fr 10:00-15:00, Mo geschlossen | lange-edelmetall.de + /impressum |
+| Rheinische Scheidestätte Bremen | Bremen | Knochenhauerstraße 41-42 | 28195 | 0421-34662904 | info-bremen@rheinische-scheidestaette.de | Mo-Fr 9:30-18:00, Sa geschlossen | rheinische-scheidestaette.de/unternehmen/filialen/bremen |
+| Goldankauf Bremen - GOLDPUNKT | Bremen | Pappelstraße 123 | 28199 | +49 (0)421 79 46 98 85 | info@goldpunkt-bremen.de | Mo-Sa 10:00-18:00 | goldpunkt-bremen.de + /impressum |
+| Autoverwertung Roßberg GmbH | Bremen | Simon-Bolivar-Str. 38 | 28197 | 0421 544041 | info@bremer-autoverwertung.de | n.e. | bremer-autoverwertung.com + /impressum |
+| A. Lahib Autoverschrottung Bremen | Bremen | Ludwig-Erhard-Str. 28 | 28197 | 0152 04045656 | info@autoverschrottung-bremen.de | Mo-So 08:00-20:00 | autoverschrottung-bremen.de + /impressum |
+| Bremen-Autoverwertung (Kurfürstenallee) | Bremen | Kurfürstenallee 6 | 28211 | 0152 2789 0705 | info@bremen-autoverwertung.de | n.e. | bremen-autoverwertung.de + /impressum |
+| Autoverwertung Bremerhaven (Rheinstr.) | Bremerhaven | Rheinstraße 41 | 27570 | +49 157 80974786 | info@autoverwertung-bremerhaven.top | Mo-Sa 08:00-21:00, So geschlossen | autoverwertung-bremerhaven.top + /impressum |
+| Autoexport Bremerhaven | Bremerhaven | Lunedeich 68 | 27572 | +49 174 387 2353 | info@autoexport-bremerhaven.de | n.e. | autoexport-bremerhaven.de + /impressum |
+| WirKaufenDeinGold.de (Rohat Erdem) | Bremen | Admiralstraße 111 | 28215 | 0151 5024 7474 | info@wirkaufendeingold.de | Mo-Sa 10:00-19:00 | wirkaufendeingold.de + /impressum |
+| GOLDhandelshaus Bremen | Bremen | Sögestraße 1 | 28195 | 0421 38028024 | n.e. | Mo-Sa 11:00-19:00 | goldhandelshaus.de/unsere-standorte/goldankauf-bremen |
+| philoro Bremen | Bremen | Wachtstraße 20 | 28195 | +49 421 244 04 400 | bremen@philoro.de | Mo-Fr 10:00-18:00, Sa 10:00-15:00 | philoro.de/filialen/bremen |
+| OPHIRUM Bremen by GOLDFUXX | Bremen | Fedelhören 12 | 28203 | (0421) 416 50555 | service@goldfuxx.de | Mo-Fr 10-13 u. 14-18, Sa 10-13:30, So geschlossen | ophirum.de/filialen/bremen-goldfuxx |
+| Noble House Bremen | Bremen | Schüsselkorb 23 | 28195 | 0421 339 93 80 | juwelier@noble-house.de | Mo-Fr 10:00-18:00, Sa 10:00-18:00 | noble-house-shop.de |
+| Johannes Gerdes Schrott- u. Metallhandels GmbH | Stuhr-Brinkum | Rodendamm 7-9 | 28816 | 0421 891236 | kontakt@gerdes-metallhandel.de | Mo-Fr 7:30-16:45 | gerdes-metallhandel.de |

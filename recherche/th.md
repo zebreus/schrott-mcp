@@ -295,3 +295,44 @@ ST-Seed enthaelt Schrott Wetzel GmbH (Dessau-Rosslau) — Faell fuer ST-Audit, n
 | ERV Elektronik-Recycling und Verwertung GmbH | Gera 07545, Hainstr. 17 | keine | E-Schrott — E-Schrott-Tarnung, Ankauf unklar, Tel 0365 824870 (PRÜFFALL) | unklar |
 | Container Loth GmbH | Erfurt-Stotternheim 99095, Alperstedter Str. 8 | container-loth.de (Startseite live) | Container — GS-Schrott-Treffer, Ankauf unbelegt (PRÜFFALL) | unklar |
 | An- und Verkauf Computer und Haushaltsgeräte | Erfurt-Altstadt 99084, Trommsdorffstr. 11 | keine | An-/Verkauf — Gebraucht-IT/Haushaltsgeräte Reuse, kein Schrottnachweis (GRENZFALL) | unklar |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| BKS Metallrecycling GmbH & Co. KG | Ohrdruf | Suhler Str. 7b | 99885 | 03624 33 57 483 | info@bks-metallrecycling.de | Mo-Fr 8:00-12:00 und 12:30-15:30, Sa nur nach Vereinbarung | https://bks-metallrecycling.de/ |
+| MSG Metallrecycling (MSG Schrott- und Metallrecycling) | Gotha | Gleichenstraße 36 | 99867 | +49 (0) 3621 3394851 | info@msg-metallrecycling.de | Mo-Fr 8:00-16:00, Sa/So geschlossen | https://www.msg-metallrecycling.de/ |
+| Wahl & Co. Inh. Thomas Madeiski e.K. | Zella-Mehlis | Heinrich-Ehrhardt-Str. 47b | 98544 | n.e. | wahl-@t-online.de | Mo-Fr 8:00-14:30, Wochenende geschlossen | https://wahlundco.de/ |
+| MRC Mitteldeutsche Recycling GmbH | Mühlhausen | Am Flutgraben 25 | 99974 | 03601 48048 | info@mrc-umwelt.de | Mo-Fr 7:00-16:00, Sa 9:00-12:00 (Pausen 9:00-9:15, 12:30-13:00) | https://www.mrc-umwelt.de/ |
+| SWT Schrott-, Wertstoffhandel und Transport GmbH | Uder/Eichsfeld | Bahnhofstr. 9 | 37318 | 03 60 83 / 53 99-0 | info@swt-uder.de | n.e. | https://www.swt-uder.de |
+| TDE-Recycling GmbH | Barchfeld-Immelborn | Im Vorwerk 22 | 36456 | +49 (0) 3 69 61 / 4 60 16 | info@tde-recycling.de | n.e. | https://www.tde-recycling.de |
+| VISTA electronic GmbH | Sonneberg | Am Lindenbach 21 | 96515 | 03675 8987-0 | info@vista-electronic.de | Mo-Do 08:00-16:00, Fr 08:00-13:00 | https://www.vista-electronic.de |
+| Autohof Porstendorf | Porstendorf/Dorndorf-Steudnitz | An der Lache 8 | 07778 | +49 (0) 36427/8720 | kontakt@autohof-porstendorf.de | Mo-Fr 7:00-16:00 (nach Absprache bis 17:00), Sa/So geschlossen | https://autohof-porstendorf.de/ |
+| BHS Metallrecycling GmbH & Co. KG | Meiningen OT Walldorf | Industriestraße 7–11 | 98617 | +49 3693 8989-0 | info@bhs-walldorf.de | Mo-Do 7:30-16:30, Fr 7:30-14:30 | https://www.bhs-walldorf.de/ |
+| Recyclinghof Kühn (Baumpflege Kühn GmbH, Inh. Sebastian Kühn) | Arnstadt | Rehestädter Weg 19 | 99310 | 0179/2976400 | info@recycling-arnstadt.de | Mo-Fr 7:00-16:00, Sa nach Vereinbarung, So/Feiertage geschlossen | https://recycling-arnstadt.de/ |
+| slug:th-jena-altstoffhandel-jena Altstoffhandel Jena | Jena | Am Alten Gaswerk 1 | 07743 | 0176 20054737 | info@altstoffhandel-jena.de | Mo 9:00-12:00 | https://www.altstoffhandel-jena.de/ |
+| slug:th-geraer-str-40-burgau-altstoffhandel-jena Altstoffhandel Jena | Jena-Burgau | Geraer Str. 40 | 07745 | 0176 20054737 | info@altstoffhandel-jena.de | Mo 14:00-16:30, Do 9:00-12:00 | https://www.altstoffhandel-jena.de/ |
+| Wertstoffankauf.Weimar | Weimar | Industriestr. 8b | 99427 | 017680103367 | Wertstoffankauf.weimar@yahoo.com | n.e. | https://www.wertstoffankaufweimar.de/ |
+| Ehrhardt Rohstoff-Recycling GmbH | Föritztal OT Föritz | Steinräum 3 | 96524 | 03675 7579-3 | info@Ehrhardt-Recycling.de | n.e. | https://ehrhardt-recycling.de/ |
+| Thüringen Recycling GmbH | Weimar | Dürrenbacher Hütte 1c | 99427 | 03643 420205 | info@thueringen-recycling.de | n.e. | https://www.thueringen-recycling.de/ |
+| slug:th-meuselwitz-geweniger-recycling Geweniger Recycling GmbH | Meuselwitz | Bismarckring 2 | 04610 | +49 3448 44100 | info@geweniger-recycling.de | n.e. | https://www.geweniger-recycling.de/ |
+| slug:th-altenburg-geweniger-recycling Geweniger Recycling GmbH | Altenburg | Brunnenstr. 3b | 04600 | +49 3447 316139 | n.e. | n.e. | https://www.geweniger-recycling.de/ |
+| slug:th-nobitz-kotteritz-geweniger-recycling Geweniger Recycling GmbH | Nobitz/Kotteritz | Werksiedlung 31 | 04603 | +49 3447 504107 | n.e. | n.e. | https://www.geweniger-recycling.de/ |
+| Nordhäuser Rohstoffhandel GmbH | Nordhausen | Südstr. 7 | 99734 | (03631) 61360 | mail[at]nrh-recycling.de | n.e. | https://www.nrh-recycling.de/ |
+| Falk Wedekind GmbH (Metallrecycling) | Heilbad Heiligenstadt | Auf der Rinne 36 | 37308 | 03606 / 60 68 60 | info@falk-wedekind.de | Mo-Fr 7:30-16:30, Sa 8:00-12:00 | https://www.falk-wedekind.de/metallrecycling |
+| Recyclinghof Koob (Inh. M. Koob) | Hildburghausen | Kirchwiesen 3 | n.e. | 03685 / 70 27 11 | recyclinghof-koob@t-online.de | n.e. | https://recyclinghof-koob.de/ |
+| Containerdienst Zimmermann (Inh. Detlef Zimmermann) | Mühlhausen | Ernst-Claes-Straße 15 | 99974 | 03601 44 58 58 | info@container-zimmermann.de | Mo-Fr 7:00-17:00, Sa 8:00-13:00 | https://www.container-zimmermann.de |
+| Gebrüder Aurin Containerdienst | Hamma | Siebenackerweg 1 | 99765 | +49 (0)3 63 33 / 60 727 | info@gebrueder-aurin.de | n.e. | https://gebrueder-aurin.de/ |
+| slug:th-gotha-sdm-gutzmann SDM Gutzmann GmbH & Co. KG | Gotha | An der Ostbahn 4 | 99867 | n.e. | n.e. | n.e. | https://www.sdm-gutzmann.de |
+| slug:th-tottleben-sdm-gutzmann SDM Gutzmann GmbH & Co. KG | Tottleben | Hauptstr. 46 | 99947 | 03621 733 4660 | info@sdm-gutzmann.de | n.e. | https://www.sdm-gutzmann.de |
+| Goldankauf Boerse, Filiale Erfurt | Erfurt | Bahnhofstr. 38 | n.e. | 0361 / 65 78 24 70 | n.e. | Mo-Fr 10:00-18:00, Sa 10:00-16:00, weitere Termine nach Vereinbarung | https://www.goldankauf-boerse.de |
+| slug:th-am-ettersberg-berlstedt-containerdienst-pfaffe Containerdienst Pfaffe GmbH | Am Ettersberg/Berlstedt | Am Wahl 14b | 99439 | 036452 7940 | containerdienst@pfaffe.net | Mo-Fr 7:00-12:00 und 13:00-17:00, Sa 8:00-12:00, So geschlossen | https://containerdienst.pfaffe.net |
+| slug:th-weimar-containerdienst-pfaffe Containerdienst Pfaffe GmbH | Weimar | Oststraße 5 | 99427 | 03643 4685246 | containerdienst@pfaffe.net | Mo-Fr 7:00-12:00 und 13:00-17:00, Sa 8:00-12:00, So geschlossen | https://containerdienst.pfaffe.net |
+| Sommerfeldt Schrott & Buntmetall Ankauf | Zeulenroda-Triebes | Binsicht 48 | 07937 | +49 3662 897 7351 | info@metallhandel-sommerfeldt.de | n.e. | https://metallhandel-sommerfeldt.de |
+| W.K.W. Recycling GmbH, NL Apolda | Apolda | Am Kalkteich 6 | 99510 | 03644 / 5199655 | buero@wkw-recycling.de | Mo-Fr 7:00-16:00, Sa 9:00-12:00 | https://www.wkw-recycling.de |
+| Nobra GmbH | Rippershausen | Sandfeld 16 | 98639 | +49 (0) 3693-885320 | info@nobra-recycling.com | n.e. | https://www.nobra-recycling.com |
+| LRP Autorecycling Erfurt GmbH | Erfurt | Bei den Froschäckern 3 | 99098 | 0361-493490 | info@lrp-autorecycling-erfurt.de | Mo-Do 8:00-17:00, Fr 8:00-16:00 | https://lrp-autorecycling.de/erfurt/ |
+| GAUS GmbH | Unterwellenborn | Am Wasserlauf 1 | 07333 | +49 (0)3671 464 559 | info@gausgmbh.de | n.e. | https://www.gausgmbh.de |
+| Magrec Recycling GmbH | Foeritztal OT Foeritz | Steinräum 3 | 96524 | +49 (0) 3675 7579-48 | info@magrec.de | n.e. | https://magrec.de |
+| Containerdienst Franz Koenig Umweltdienst e.K. | Heilbad Heiligenstadt | Auf Der Rinne 36 | 37308 | 03606 606780 | info@koenigcontainer.de | Mo-Fr 7:30-17:00, Sa 9:00-12:30 | https://www.containerdienst-koenig.de |
+| Container Loth GmbH | Erfurt-Stotternheim | Alperstedter Str. 8 | 99095 | 03 62 04 / 5 56-0 | info@container-loth.de | n.e. | https://container-loth.de/impressum.html |

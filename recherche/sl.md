@@ -198,3 +198,15 @@ Methode: curl-Checks aller Kandidaten-Websites (HTTP-Status + Inhaltsbeleg), Cro
 | Schrotthandel R. Weiß | Homburg 66424 | keine | Schrotthandel/mobil — Kleinanzeigen-PRO 17.08.2026 | unklar |
 | Hahn GmbH Schrott Metalle | Saarlouis 66740, Kohlbrunnenstr. | keine | Schrott/Metalle — Hausnr. offen; 0170 2020322 | unklar |
 | Kirchner Herbert Schrottplatz | Saarlouis 66740 | keine | Schrottplatz — Tel. 06831 86198; schwache Quelle | unklar |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| Rheinische Scheidestätte GmbH, Filiale Saarbrücken | Saarbrücken | Viktoriastr. 6 | n.e. | n.e. | n.e. | Mo-Fr 9:30-18:00, Sa geschlossen | https://rheinische-scheidestaette.de/standorte |
+| City Gold Ankauf (Annette Berchem) | Saarlouis | Bibelstr. 3 | 66740 | 06831 - 90 21 351 | n.e. | n.e. | https://goldankaufsaarlouis.com/index.html |
+| Goldschmiede Scheffel | Saarlouis | Zeughausstr. 6 | 66740 | 06831 2209 | scheffel@gmx.de | Mo/Fr 10-13 und 14-18, Di/Do 10-13, Mi geschlossen, Sa 10-14 | https://goldschmiede-scheffel.de/pages/edelmetallankauf |
+| KATALYSATOR-HAI (Marke der S.B. Recycling) | Saarbrücken | Jenneweg 55 | n.e. | n.e. | n.e. | n.e. | https://katalysator-hai.de |
+| Goldankauf Hoffarth | St. Ingbert-Rohrbach | Obere Kaiserstr. 157 | 66386 | +49 6894 9557800 | info@goldankauf-rohrbach.de | Mo/Di/Do/Fr 10-16, Mi 10-13 | https://goldankauf-rohrbach.de/ |
+| Der Saarspezialist Edelmetalle-Münzen-GmbH | Saarbrücken | Sulzbachstr. 3 | 66111 | +49 681 / 351 90 | info@dersaarspezialist.de | n.e. | http://www.dersaarspezialist.de/impressum |
+| Abschleppdienst-Autoverwertung 1000 Service GmbH | Merzig-Harlingen | Im Wäldchen 13-17 | 66663 | 06861-93 97 040 | n.e. | n.e. | http://www.1000-service.de |

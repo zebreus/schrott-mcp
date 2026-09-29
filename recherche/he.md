@@ -386,7 +386,7 @@ Methode: alle Kandidaten-Websites per curl verifiziert (HTTP-Status + Seitentext
 | Degussa Goldhandel GmbH | Frankfurt 60325 | https://www.degussa-goldhandel.de | Edelmetall An-/Verkauf (Rückkauf-Menü), Filiale FFM; /preisliste/ tot (301 auf degussa.com) | ja |
 | philoro EDELMETALLE GmbH | Frankfurt 60313 | https://www.philoro.de | Edelmetall: Zahngold-/Altgold-Ankauf, Filiale FFM. PREISLISTE: https://www.philoro.de/preisliste/alle | ja |
 | OPHIRUM GmbH | Frankfurt 60311 | https://www.ophirum.de | Edelmetall-Filiale FFM verifiziert (069-Nummer, frankfurt@ophirum.de); Kette HB/BE/Hanau/FFM | ja |
-| GOLDFUXX Hanau (OPHIRUM) | Hanau 63450, Hirschstr. 11 | https://www.ophirum.de/filialen/hanau-goldfuxx | OPHIRUM-Filiale, Goldankauf | ja |
+| GOLDFUXX Hanau (OPHIRUM) | Hanau 63450, Hirschstr. 11 | https://www.ophirum.de/filialen/hanau-goldfuxx | OPHIRUM-Filiale, Goldankauf — geschlossen lt. Website (94× „geschlossen", 29.09.2026) | geschlossen |
 | RHH-Rohstoffhandel Haiger GmbH | Haiger 35708 | https://www.rhh-rohstoffe.de | "Ankauf von Schrott & Metallen", Stahlwerks-/Gießereischrott, Container; nur Gewerbe/Industrie | ja (nur Gewerbe) |
 | KNETTENBRECH + GURDULIC GmbH & Co. KG | Wiesbaden 65205 | https://www.knettenbrech-gurdulic.de | Entsorger, Leistung "Schrott + Altmetall", Wertstoffhöfe; kein Privatkunden-Ankauf belegt (Runde 2 aussortiert, nach Final-Regel drin) | unklar |
 | MC Metallhandel GmbH | Frankfurt-Seckbach 60388, Gwinnerstr. 11 | https://www.mc-metallhandel.de | NE-Altmetall-Handel, Lager/Sortierung; nur Gewerbe/Handel | ja (nur Gewerbe) |

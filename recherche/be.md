@@ -500,3 +500,19 @@ Hinweise zur Rückführung in den Seed (für md2seed-Pflege, NICHT von Hand in J
 - Neu verifizierte Adressen/Telefone aus diesem Nachtrag (Auswahl): Harnisch → Robinienweg 3-4, 13467 Berlin, 030 4045009; KLE → Holzstr. 13, 13359 Berlin, 030 4911071 (HRB 19879: Holzstr. 15-17); Autopresse Tempelhof → Gottlieb-Dunkel-Str. 41, 12099 Berlin (Tempelhof-Schöneberg), 030 7032071; Saico → HR-Adresse Reuterstr. 23, 12053 Berlin (Tel. offen); BEG Service → Staakener Str. 28-29, 13581 Berlin, 0176 20526092; Schrott-Allner → Burscheider Weg 43, 13599 Berlin, 01522 6533386; Autoverwertung Weissensee → Marienstr. 5, 13127 Berlin, 030 4721154; LOOKER TRADE UG → HR-Adresse Hermannstr. 16, 12049 Berlin (HRB 136189, Tel. offen); Marske → Lahnstr. 3-5, 12055 Berlin, 030 6841513; Memo/MKB → Tempelhofer Weg 10A, 12099 Berlin, 030 6257032.
 - Telefone aus Betreiber-Websites (28.09.2026): Peglow 030 43206315; BRH 030 40205900; Wasdrack Moabit 030 3955847 / Köpenick 030 6721411; BELLER 030 3344889; Kath-Hasenfuß 030 7822121; BSB 030 94413588; Kiro 030 92403153; Berk 030 93699699; DAIKO 030 48620640; TSR Westhafen 030 3988199-0.
 
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| Gerald Jordan Entsorgung | Reinickendorf | Amendestr. 12 | 13409 | 030-495 25 65 (mobil 0177-68 68 3 68) | n.e. | n.e. | https://www.gerald-jordan.de, https://www.gerald-jordan.de/about/ |
+| Rheinische Scheidestätte GmbH (Berlin-Mitte) | Mitte | Friedrichstraße 172 | 10117 | 030-2593200 | info-berlin-mitte@rheinische-scheidestaette.de | Mo-Fr 9:30-18:00, Sa geschlossen | https://rheinische-scheidestaette.de/unternehmen/filialen/ |
+| Rheinische Scheidestätte GmbH (Ku'damm) | Charlottenburg-Wilmersdorf | Kurfürstendamm 138 | 10711 | 030-33841882 | info-berlin@rheinische-scheidestaette.de | Mo-Fr 9:30-13:00 und 14:00-18:00, Sa geschlossen | https://rheinische-scheidestaette.de/unternehmen/filialen/ |
+| philoro (Filiale Leipziger Platz) | Mitte | Leipziger Platz 1 | 10117 | +49 30 206 33 99 50 | berlin@philoro.de | Mo-Fr 10-18, Sa 10-15 | https://philoro.de/filialen/berlin |
+| Antik&ART (Berlin An- und Verkauf) | Reinickendorf | Wallenroderstraße 7 | 13435 | 030 40 39 65 51 | n.e. | Mo, Mi, Fr 8:00-16:00 (ab 1.10.2025) | https://www.berlin-an-und-verkauf.de/buntmetall-zu-guten-preisen-verkaufen-recycling-in-berlin/ |
+| ALBA Metall Nord (Reinickendorf-Nord) | Reinickendorf | Rödernallee 184 | 13407 | n.e. | n.e. | n.e. | https://metall.alba.info |
+| ALBA Metall Nord (Neukölln-Süd) | Neukölln | Ziegrastr. 2-46 | 12057 | n.e. | n.e. | n.e. | https://metall.alba.info |
+| Bartscherer & Co. Recycling GmbH | Reinickendorf | Montanstraße 17-21 | 13407 | (030) 408893-0 | bartscherer@bartscherer-recycling.de | n.e. | https://bartscherer-recycling.de/impressum |
+| Juwelier Am Preußenpark | Charlottenburg-Wilmersdorf | Konstanzer Str. 14 | 10707 | 0179 1583607 | info@schmuck-gold-uhren-ankauf.de | Mo-Do 10-18, Fr 15-18, Sa 10-15, So zu | https://www.schmuck-gold-uhren-ankauf.de/ |
+| Entsorgung Scholl | Charlottenburg | Droysenstr. 5 | 10629 | 030 754 35 060 | n.e. | Mo-Fr 7-18, Sa 8-14 | https://www.scholl-entsorgung-berlin.de/altmetallentsorgung-berlin.html |
+| Harbi Kats Recycling (Ali Harbi) | Spandau | Rauchstr. 43 | 13587 | 0179 5950837 | info@harbi-kats.de | n.e. | https://harbi-kats.de |

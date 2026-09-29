@@ -447,3 +447,18 @@ Hinweise:
 - Hristov/Gouchev: operativ mobil bzw. Berlin-sässig (kein BB-Yard) — Import-Abgleich empfohlen.
 - 21 Händler ohne verifizierbare Adresse (u.a. SERO, HRR, Gramet, Karola, Böttcher, MCR, Klucke, Keil,
   Matthies, S.-Altmetall Drebkau, Reinert-Straße, Stimmel, TSR-Großräschen, HSR-Luckau, Pietsch, ArcelorMittal-Werk).
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| Goldhaus BRB | Brandenburg a.d.H. | Steinstr. 12 | n.e. | n.e. | n.e. | Mo-Fr 10:15-17:00 (Mittagspause 14:30-15:00), Sa/So geschlossen | https://goldhaus-brb.de |
+| Goldankauf Potsdam (Trauringstudio) | Potsdam | Brandenburger Str. 26 | 14467 | +49 33187004540 | info@trauringstudio-potsdam.de | Mo-Fr 10-18, Sa 10-17 | https://goldankauf-potsdam.de, https://goldankauf-potsdam.de/impressum |
+| Schrott- und Metallhandel Barkow (Reiner Barkow) | Großbeeren | Birkenhainer Ring 7 | 14979 | 033701 59475 | reiner.barkow@gmail.com | Mo-Fr 9-17, Sa 9-11:30, So zu | https://schrotthandel-barkow.de |
+| Autoverwertung Cottbus | Cottbus | Laubenhof 9 | n.e. | 01632337268 | n.e. | Mo-Sa 8-21, So zu | https://autoverwertung-cottbus.de, https://autoverwertung-cottbus.de/impressum |
+| AV-Parts TiHe GmbH | Eberswalde | Bahnhofstraße 33 | 16227 | +49 3334 387626 | info@av-parts.de | Mo-Fr 7-16 Uhr | https://av-parts.de, https://av-parts.de/impressum/ |
+| Autoverwertung Ludwigsfelde | Ludwigsfelde | Märkersteig 18-22 | 14974 | 03378 510500 (mobil 0160 99321166) | info@autoverwertung-ludwigsfelde.de | Mo-Fr 08-18, Sa 09-12 Uhr | https://autoverwertung-ludwigsfelde.de, https://autoverwertung-ludwigsfelde.de/impressum |
+| Wildt (Constanze Wildt) | Fehrbellin OT Protzen | Mühlenbergstr. 8 | 16833 | 033932 70431 | info@autoverwertung-wildt.de | Mo-Fr 16:00-18:00 | https://autoverwertung-wildt.de, https://autoverwertung-wildt.de/impressum |
+| slug:bb-neuenhagen-15366-pries-friese-autoverwertungscenter (jetzt LFP KFZ-Werkstatt oHG) | Neuenhagen | Rosa-Luxemburg-Damm 1 | 15366 | +493342-23448-0 | info@kfz-werkstatt-neuenhagen.de | Mo-Fr 7-18 | http://www.pries-und-friese.de |
+| Autoankauf Potsdam | Potsdam | Verkehrshof 12 | 14478 | 0331 5858558 (mobil 0179 48 55 580) | n.e. | Mo-Fr 10-19, Sa nach Vereinbarung | http://autoankauf-potsdam.com/ |
+| H&S Abschleppdienst GmbH | Rathenow | Rhinower Str. 35 | 14712 | 03385 512757 | hsautomobile(at)aol.com | Mo-Fr 7:30-17, Sa nach Vereinbarung | http://www.hs-abschleppdienst.de |

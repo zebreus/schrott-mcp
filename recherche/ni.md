@@ -261,7 +261,7 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 |---|---|---|---|---|
 | Schrott Abholservice M. Mettbach | Nortmoor (Dorfstr. 65a, LK Leer) | keine (nur Verzeichnisbeleg) | Schrott/Abholung | Ankauf unklar |
 | Strömer Johann | Moormerland (Otto-Hahn-Str. 7) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
-| R. Leimberger | Ostrhauderfehn (Idafehn-Süd 104) | schrottplatz-info.de (nur Verzeichnisbeleg) | Schrott, Container/Demontage/Autoverwertung | Ankauf unklar |
+| R. Leimberger | Ostrhauderfehn (Idafehn-Süd 104) | keine (nur Verzeichnisbeleg schrottplatz-info.de, keine Händlerseite) | Schrott, Container/Demontage/Autoverwertung | Ankauf unklar |
 | Emsland Metallhandel Hinrichs (ELMH) | Surwold (Papenburger Str. 19) | elmh.de (nur Verzeichnisbeleg, nicht einzeln verifiziert) — TOT | Metallhandel | Ankauf unklar |
 | Schrotthandel Waalkes | Großheide (Halbemonder Str. 17, LK Aurich) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Gerhard Czaja Schrotthandel | Upgant-Schott (Graf-Enno-Str. 5, LK Aurich) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
@@ -566,3 +566,25 @@ Notiz (200, aber Parkseite): deich-metall.de (STRATO-Parkseite, s. Runde 4).
 | Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
 |---|---|---|---|---|
 | Manuel Triebsch Autoverwertung / Altmetall- & Schrottankauf | Wangerland-Hooksiel 26434, Berghamm 1a | https://www.schrott-triebsch.de | Schrott/Altmetall/AV/Demontage, Tageshöchstpreise-Tabelle (€/t + €/kg) | ja (PREISLISTE: Homepage-Tabelle) |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| NORDKAT GmbH | Harsefeld | Am Bauhof 5 | 21698 | n.e. | kontakt@nordkat.de | Mo-Di 9:00-17:00, Fr 9:00-15:00, Mi/Do/Sa/So geschlossen | https://www.nordkat.de/Oeffnungszeiten/, https://www.nordkat.de/Impressum/ |
+| Edelmetall Niedersachsen Raffinerie GmbH | Walsrode | Hanns-Hoerbiger-Straße 11 | 29664 | 05161 98 58 5 | info@edelmetall-niedersachsen.de | Mo-Do 11:00-17:30, Fr nach Vereinbarung | https://edelmetall-niedersachsen.de |
+| Norddeutsche Edelmetall Scheideanstalt (NES) | Buxtehude | Breite Strasse 7 | 21614 | +49 40 609 26 89-0 (Zentrale) | n.e. | Mo-Fr 9:30-18:00 | https://die-scheideanstalt.de, https://die-scheideanstalt.de/impressum |
+| Valorum Edelmetalle & Goldankauf | Hannover-Bothfeld | Sutelstr. 12a | 30659 | 0511 - 646 646 96 | info@valorum.de | Mo-Do 10:00-17:00, Fr 10:00-16:00 | https://valorum.de |
+| Wagner KG Schrott und Metalle | Neustadt a. Rbge. | Rudolf-Diesel-Ring 8 | 31535 | 05032 61086 | info@schrottplatz-wagner.de | Mo-Fr 7:00-17:00 (Mi ab 8:00), Sa 7:00-12:00, So zu | https://www.schrottplatz-wagner.de, https://www.schrottplatz-wagner.de/Impressum/ |
+| LSB GmbH Schrott- und Metallhandel | Wilhelmshaven | Planckstr. 3 | 26389 | 04421 / 7550550 | n.e. | n.e. | https://www.lsb-gmbh.com |
+| Machner (A–Z Machner, Inh. Sascha Machner) | Osnabrück | Assmannstr. 4 | 49086 | 0173/1407685, 0176/87756642 | n.e. | n.e. | https://schrotty-machner.jimdofree.com, https://schrotty-machner.jimdofree.com/about/ |
+| RE-EL Recycling GmbH | Buchholz in der Nordheide | Königsgrund 1 | 21244 | 04181 / 39 441 | info@re-el.net | Mo-Fr 7:30-16:00 | https://www.re-el.net, https://www.re-el.net/impressum |
+| Autoverwertung Lassen | Salzgitter (OT Thiede) | Frankfurter Straße 81 | 38239 | 05341 / 26 310 | info@lassen-kfz.de | Mo-Fr 8:00-16:30, Sa nach Absprache | https://lassen-kfz.de, https://lassen-kfz.de/impressum |
+| slug:ni-salzgitter-lebenstedt-38229-autorecycling-lesum Autorecycling Lesum GmbH | Salzgitter-Bad | Porschestr. 20 | 38259 | +49 534131597 | info@autorecycling-lesum.de | Mo-Fr 8:00-17:00, Sa 8:00-13:00 | https://recycling-lesum.de, https://recycling-lesum.de/impressum/ |
+| slug:ni-sz-bad-autorecycling-lesum Autorecycling Lesum GmbH | Salzgitter-Bad | Porschestr. 20 | 38259 | +49 5341 31597 | info@autorecycling-lesum.de | Mo-Fr 8:00-17:00, Sa 8:00-13:00 | https://recycling-lesum.de, https://recycling-lesum.de/impressum/ |
+| slug:ni-peine-31228-autoverwertung-stautmeister-inh-je Autoverwertung Peter Stautmeister (Inh. Jens Satzer) | Peine/Stederdorf | Dieselstraße 12 | 31228 | +49 5171 41310 / 5171 733023 | lager@stautmeister.com | Mo-Fr 9:00-17:00, Sa nur nach Absprache | https://stautmeister.com |
+| Autoverwertung Stautmeister (Inh. Merwan Murad) | Peine | Lehmkuhlenweg 2 | 31224 | 05171 - 905 19 51 | autoverwertung-stautmeister@gmx.de | Sommer Mo-Fr 8:30-18:00, Winter Mo-Fr 8:30-17:00, Sa 8:30-13:00 | https://www.autoverwertung-stautmeister.de |
+| DEPPE Rohstoffrecycling GmbH | Lingen | Schillerstr. 25 | 49811 | 0591 71030-0 | office@deppe-lingen.de | Mo-Fr Anlieferung 8:00-12:00 und 12:45-16:30, Abholung 8:00-15:00 | https://www.deppe-lingen.de |
+| Patrick Oeser Rohstoffe GmbH | Schwarmstedt | Bahnhofstr. 12 | 29690 | +49 5071 800513-0 | info@oeser-rohstoffe.de | n.e. | https://www.oeser-rohstoffe.de |
+| AfB gemeinnützige GmbH Shop Hannover | Hannover | Meelbaumstr. 14 | 30165 | 0511 1238-303 | shop.hannover@afb-group.eu | n.e. | https://www.afb-group.de/ueber-uns/standorte/ |
+| slug:ni-peine-31228-autoverwertung-peter-stautmeister-inh-je | Peine 31228 | Dieselstr. 12 | 31228 | +49 5171 41310 | lager@stautmeister.com | Mo-Fr 9:00-17:00, Sa nur nach Absprache | stautmeister.com |

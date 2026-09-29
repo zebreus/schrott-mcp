@@ -318,3 +318,65 @@ Koordination: WEGRO ohne neuen Kandidaten — SH-Seed (Rellingen = Sitz) + HH-Se
 | Auto-Strassburg (Michael Straßburg) | Tornesch 25436, Hypatia-Str. 5 | https://auto-strassburg.de | KFZ/Teile — GESA hinter Werkstatt-Tarnung (NEU) | unklar |
 | Chrobok Recycling KFZ-Ankauf Langwedel | Langwedel 24631 | keine | KFZ-Ankauf/Metall — Kleinanzeigen-PROFI: Alufelgen/Metalle/Batterien zu aktuellen Preisen (NEU) | unklar |
 | Kieler Altmetall | Kiel, Tel. 0160-99288699 | keine | Altmetall/Demontage — "Größere Mengen werden ggf. auch angekauft" (NEU, mobil) | ja |
+
+## Nachtrag Adressen (29.09.2026)
+
+Adress-Nachtrag aus Feedback-IDs 863-1287 (Tabelle feedback, Stand 29.09.2026). Methodik: Werte aus feedback/details-Spalte (Unternehmenswebsites/Impressen), Name/Ort aus seed/traders/sh.json, Straße subsidiär aus Seed; unbelegte Felder = n.e. (kein Raten). Seed-JSON wurde NICHT editiert — Anreicherung erfolgt hier als Nachtrag.
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| KSH Kieler Schrotthandel GmbH | Kiel | Ostuferhafen 9 | 24149 | +49 (0) 431 209770 | info@kieler-schrotthandel.de | n.e. | kieler-schrotthandel.de + /imprint-2 |
+| Ehrich Kiel (Ehrich Gruppe) | Kiel | Grasweg 45/46 | 24118 | 0431 3890840 | info@ehrich-kiel.de | Mo-Do 7:30-16:30, Fr 7:30-15:00 | ehrich.de/standorte/kiel + /impressum |
+| LSH Lübecker Schrotthandel GmbH (ISR-Gruppe) | Lübeck | Dampfpfeife 12-20 | 23569 | 0451-309011 / 0451-301523 | info@lsh-luebeck.de | n.e. | isr-recycling.de (start-lsh) |
+| REBO Metallaufbereitungs- u. Entsorgungs GmbH & Co. KG | Lübeck | Neißestraße 2-4 | 23554 | 0451 3009600 | info@rebo-schrott.de | Mo-Fr 7:00-16:30 | rebo-schrott.de |
+| Winfried Hopp Recycling GmbH | Lübeck | Roggenhorster Straße 37 | 23556 | 0451 8819 9530 | post@winfried-hopp.de | Mo-Do 9:00-15:00, Fr 9:00-12:00, Sa/So geschlossen | winfried-hopp.de |
+| HotSchrott Robert Hahn | Lübeck | Juistweg 12 | 23554 | 015259002971 | Roberthotschrott@web.de | n.e. | wirholenschrott.de + /impressum |
+| slug:sh-lubeck-deinschrotty-mobiler-ankauf DeinSchrotty (mobiler Ankauf) | Lübeck | Hinter den Kirschkaten 1-3 | 23560 | +4915565090287 | team@deinschrotty.de | täglich 8:00-22:00 | deinschrotty.de + /impressum |
+| slug:sh-umgebung-deinschrotty-mobiler-ankauf DeinSchrotty (mobiler Ankauf) | Lübeck | Hinter den Kirschkaten 1-3 | 23560 | +4915565090287 | team@deinschrotty.de | n.e. | deinschrotty.de + /impressum |
+| Nord-Schrott GmbH & Co. KG | Flensburg | Lilienthalstraße 30 | 24941 | +49 461 50340-0 | info@nord-schrott.de | Mo-Fr 7:00-16:45, Sa 7:30-12:30 | nord-schrott.de + /impressum |
+| Chr. Ketelsen GmbH & Co. KG | Leck | Georg-Ohm-Str. 9 | 25917 | 04662-89890 | info@ketelsen-leck.de | Mo-Do 7:00-17:00, Fr 7:00-16:00 | ketelsen-leck.de |
+| Schultz Recycling GmbH | Kropp | Industriestrasse 14 | 24848 | +49 (0)4624-45066-0 | info@schultz-recycling.de | Mo-Fr 7:30-16:30, Sa 8:00-12:00 | schultz-recycling.de |
+| Ehrich Rendsburg | Rendsburg | Kieler Straße 171 | 24768 | 04331 14020 | info@ehrich.de | Mo-Do 7:00-16:15, Fr 7:00-15:15 | ehrich.de + /standorte/rendsburg |
+| Ehrich Eckernförde | Eckernförde | Holm 7 | 24340 | 04351 7137970 | eckernfoerde@ehrich.de | Mo-Do 7:00-12:00 & 12:30-15:45, Fr 7:00-12:00 & 12:30-15:15 | ehrich.de/standorte/eckernfoerde |
+| Ehrich Husum (Recyclinghof) | Husum | Johannes-Mejer-Str. 1 | 25813 | 04841 93183 | husum@ehrich.de | Mo-Fr 8:00-16:00, Sa n.e. (widersprüchlich: 8-12 vs 9-12) | ehrich.de/standorte/husum |
+| Elly Nickels GmbH & Co. KG (Ehrich-Gruppe) | Rendsburg | Kieler Straße 171 | 24768 | 04331 23349 | info@elly-nickels.de | Mo-Do 8:00-16:00, Fr 8:00-15:30 | elly-nickels.de |
+| M.W. Containerdienst & Schrotthandel / M.W. Recycling GmbH | Fockbek | Krattredder 28 | 24787 | 04331 4373061 | empfang@mw-container.de | n.e. | mw-container.de + /impressum |
+| Behrendt Rohstoffverwertung GmbH | Neumünster | Leinestraße 31 - 33 | 24539 | +49 (0)4321 - 93260 | info@behrendt.com | Mo-Fr 6:00-15:45 | behrendt.com/impressum |
+| Mega-Metalle | Neumünster | Am Gashof 10 | 24534 | (04321) 33 49 717 | info@mega-metalle.de | Mo-Fr 8-18, Sa 8-14, So geschlossen | mega-metalle.de |
+| ReRec GmbH | Neumünster | Leinestraße 39 | 24539 | +49 4321 2067906 | n.e. | Mo-Fr 8-17, Sa n. Vereinbarung | rerec.eu + /impressum |
+| Altmetall- und Schrotthandel Norderstedt GmbH | Norderstedt | Schützenwall 30 | 22844 | 040 525 61 41 (mobil 0160 96 71 09 06) | asn@wtnet.de | Mo-Do 9-17, Fr 9-16 | altmetall-asn.de + /impressum |
+| KIESOW Autorecycling + Autoteile GmbH | Norderstedt | Beim Umspannwerk 153 | 22844 | +49 40/53 53 53-0 | Autoverwertung@kiesow.de | Mo-Fr 8-18, Sa 8-14 | kiesow.de |
+| Warnsholz GmbH & Co. KG (ISR-Gruppe) | Elmshorn | Robert-Bosch-Straße 8 | 25335 | 0 41 21 - 5 00 71 / 0 41 21 - 5 00 72 | info@warnsholz.de | n.e. | isr-recycling.de (start-warnsholz) |
+| WEGRO GmbH | Rellingen | Adlerstraße 67 | 25462 | 04101 / 69 66 9 0 | info@wegrogmbh.de | Mo-Do 7:00-16:30, Fr 7:00-14:00 | wegrogmbh.de |
+| slug:sh-pinneberg-gebruder-fabian Gebrüder Fabian GmbH | Pinneberg | Haderslebener Str. 1b | 25421 | 04101-78 43 995 | n.e. | Mo-Do 8-17, Fr 8-15 | gebrueder-fabian.de |
+| slug:sh-kaltenkirchen-gebruder-fabian Gebrüder Fabian GmbH | Kaltenkirchen | Leibnizstraße 8 | 24568 | 04191-72 27 888 | n.e. | Mo-Do 8-17, Fr 8-14 | gebrueder-fabian.de |
+| Brockmann Recycling GmbH | Nützen | Heinrich-Brockmann-Str. 1 | 24568 | +49 (0) 4191 - 93 29 32 | info@brockmann.de | Anlieferung meist Mo-Fr 6:00-17:45, Sa 8:00-11:45, So/Feiertag geschlossen | brockmann.de + /kontakt |
+| ISR Recycling GmbH & Co. KG | Itzehoe | Hafenstraße 35 | 25524 | 0 48 21 - 68 68 0 | n.e. | Mo-Fr 7:00-17:00 | isr-recycling.de (/impressum + /standorte) |
+| Verwertungszentrum Hohenaspe GmbH (Stender) | Hohenaspe | Burgviert 23 | 25582 | 04893/37 66 0 | info@stender-hohenaspe.de | Mo-Fr 7:00-17:00 | stender-hohenaspe.de |
+| OTTO DÖRNER (Container/Annahme) | Itzehoe - Edendorf | Lisa-Meiter-Straße 11 | 25524 | +49 (0)4821 403440 | entsorgung@doerner.de | Mo-Fr 8:00-17:00 | doerner-shop.de/standorte/kreis-steinburg-itzehoe |
+| Borowski & Hopp GmbH & Co. KG | Bad Oldesloe | Paperbarg 3 | 23843 | 04531 / 1704-0 | n.e. | Mo-Fr 7:00-17:00, Sa 8:00-12:00 | boho.de |
+| MRN Metallrecycling Nord GmbH | Schwarzenbek | Röntgenstraße 3c | 21493 | 04151 8331750 | info@mr-nord.de | Schwarzenbek: Mo, Mi, Fr 10:00-14:00 | mr-nord.de/de |
+| KSH Schleswig GmbH Metall und Recycling | Schleswig | Margarethenwallstraße 2 | 24837 | +49 4621 32049 | info@ksh-schleswig.de | Mo-Fr 7:00-17:00 | ksh-schleswig.de/kontakt |
+| Matthias Hopp Recycling GmbH | Glinde | Waldweg 2 | 21509 | 040 780 86 38 - 0 | info@hopp-recycling.de | Mo-Do 7:00-17:00, Fr 7:00-16:00, Sa/So geschlossen | hopp-recycling.de |
+| Siegfried Jacob Hamburg GmbH & Co. KG | Glinde | Wilhelm-Bergner-Str. 13 | 21509 | +49 40 789 7080 | info@sj-hamburg.de | n.e. | sjm-hamburg.de/de |
+| Nordic Recycling GmbH | Handewitt | Gewerbepark 40 | 24983 | +49 (0)4608 97349-0 | info@nordic-recycling.de | Mo-Fr 7:30-16:00 (Annahme bis 15:30), Sa 7:30-12:30 (Annahme bis 12:00) | nordic-recycling.de + /impressum.html |
+| Trave Schrott | Ratekau-Offendorf | Seekamp 23 | 23626 | +49 176 32127702 | info@trave-schrott.de | n.e. | trave-schrott.de/impressum |
+| AVB Autoverwertung (Inh. Robin Pauly) | Schwabstedt | Norderende 9 a | 25876 | 04884 90 97 10 | buero@avb-schwabstedt.de | Mo-Fr 8:00-16:30 (Mi/Sa-Angabe widersprüchlich) | avb-schwabstedt.de |
+| TW-Schrott Tommy Waschelewski | Hohn | Ringstraße 20 | 24806 | 0170 7743590 | tw-schrott@web.de | n.e. | tw-schrott.de |
+| Dickes Schrott- & Metallhandel | Buchholz | Mühlenstraße 5 | 25712 | 04825 / 10 58 (mobil 0170 / 86 746 29, 0160 / 93 900 929) | info@Dickes-Schrotthandel.de | n.e. | dickes-schrotthandel.de |
+| Schrott-Welp | Kappeln | Fabrikstrasse 10 | 24376 | +49 4642 14 05 | info@schrott-welp.de | n.e. | schrott-welp.de |
+| Wieschowski Schrotthandel | Gnutz | Weg am Hoffeld 40 | 24622 | 04392-5666 (mobil 0171 3156981) | info.wieschowski@gmail.com | Mo-Do 9-18 (Pause 12-13), Fr 9-15 (Pause 12-13) | schrotthandel-wieschowski.de (/impressum + /kontakt) |
+| Abbruch Dambrowski | Lübeck | Bosauerstraße 32 | 23554 | +49 1512 8233761 | info@abbruch-dambrowski.de | n.e. | abbruch-dambrowski.de (/impressum) |
+| Edelmetallhandel Lübeck Dennis Suitner e.K. | Lübeck | Mühlenbrücke 1 | 23552 | 0451 73993 | n.e. | Mo-Fr 9:30-17:30 | goldankauf-luebeck.de + /impressum |
+| Pacht Gold-, Münzen- und Edelmetallhandel | Kiel | Beselerallee 70 | 24105 | 0431 805 81 85 | info@pacht-kiel.de | Mo-Fr 9:00-18:00, Sa 9:00-13:00 | pacht-kiel.de |
+| Hartweg Metallgroßhandel / Rohstoff-Recycling GmbH | Lübeck-Kücknitz | Traveweg 2-4a | 23569 | 0451 309036 | info@hartweg-recycling.de | Mo-Do 7:30-15:00, Fr 7:30-13:30 | hartweg-recycling.de |
+| deinkat GmbH | Lübeck | Hinter den Kirschkaten 1-3 | 23560 | n.e. | team@deinkat.de | Mo-So 8-22 (Servicezeiten) | deinkat.de + /impressum |
+| Schrotthandlung Ivers | Tarp | Flensburger Str. 37 | 24963 | 04638 7932 | schrotthandel@ivers.de | Mo-Fr 9-17, Sa 9-12 | ivers.de |
+| Richter Adolf Stahl-Metalle-Kunststoffe GmbH | Kiel | Bunsenstraße 2a | 24145 | +49 431 717 95-0 | info@richter-kiel.de | n.e. | richter-kiel.de |
+| Rohstoffhandel Kiel GmbH & Co. KG (RHK) | Kiel | Ottostraße 10 | 24145 | 0431 719 29 0 | info@rhk-recycling.de | n.e. | rhk-kiel.de |
+| Bodo Dittmer Rohstoffhandel GmbH | Geesthacht | Ilenweg 24 | 21502 | 04152 88827 33 (mobil 0151 15751515) | info@dittmer-rohstoffhandel.de | Mo-Fr 8-18 | dittmer-rohstoffhandel.de + /impressum |
+| Autoverwertung Teut GbR | Ziethen | An der Bundesstr. 13 | 23911 | 04541 82516 | n.e. | n.e. | autoverwertung-teut-ratzeburg.de + /impressum |
+| Norddeutsche Edelmetall Scheideanstalt (Goldankauf.de), Werk Norderstedt | Norderstedt | Oststr. 128 | 22844 | +49 (0)40 609 26 89-0 | kontakt@norddeutsche-es.de | Mo-Fr (Mi bis 18:30, sonst bis 17:30, Fr bis 16:30; Beginn n.e.) | goldankauf.de + /impressum |
+| Autoverwertung Ulrich GmbH | Jarplund-Weding | Baggerwald 63 | 24941 | +49 461 91753 | info@autoverwertung-ulrich.de | n.e. | autoverwertung-ulrich.de/impressum.htm |
+| Auto-Strassburg (Michael Straßburg) | Tornesch | Hypatia-Str. 5 | 25436 | 04120 909799 | info@auto-strassburg.de | Mo-Do 8:00-17:00, Fr/Sa geschlossen | auto-strassburg.de + /impressum |
+| slug:sh-kreis-steinburg-itzehoe-otto-dorner-container-annahme | Itzehoe - Edendorf | Lisa-Meiter-Straße 11 | 25524 | +49 (0)4821 403440 | entsorgung@doerner.de | Mo-Fr 8:00-17:00 | OTTO DÖRNER Entsorgung GmbH Konzernseite |

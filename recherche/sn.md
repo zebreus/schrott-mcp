@@ -568,3 +568,22 @@ nicht im Seed: schrott-winter.de (Lengenfeld), schrotthandel-kamenz.de (Spam-Red
 | Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
 |---|---|---|---|---|
 | Goldankauf Börse Leipzig | Leipzig 04109, Brühl 65 | https://www.goldankauf-boerse.de | Edelmetalle/Zahngold, Tageskurse + Ankaufsrechner | ja (PREISLISTE: https://www.goldankauf-boerse.de/ — gleiche Kurstabelle wie Erfurt-Filiale, Filial-Handler-Fall) |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| DINTER Kabelrecycling | Leipzig | Goldschmidtstraße 28 a | 04103 | +49 172 3766880 | r.dinter@dinter-gruppe.de | n.e. | https://www.dinter-kabelrecycling.de, https://www.dinter-kabelrecycling.de/impressum |
+| Meister Kabelrecycling GmbH | Plauen | Am Stadtwald 10 | 08525 | 03741 553700 | info@meister-kabelrecycling.de | n.e. | https://meister-kabelrecycling.de, https://meister-kabelrecycling.de/impressum |
+| MAZ Metallaufbereitung Zwickau (Metal Processing Ltd) | Leipzig | Karl-Heine-Straße 64 | 04229 | +49 152 1442 3800 | contact@maz-zwickau.com | n.e. | https://maz-zwickau.com, https://maz-zwickau.com/impressum |
+| Autoverwertung Oskar (B. Beksultanow) | Chemnitz | Schulstraße 119 | 09125 | (0049) 371 262 36 04 | info@autoverwertung-oskar.de | Mo-Fr 8-17 Uhr, Sa 10-13 Uhr | https://autoverwertung-oskar.de |
+| SAXONIA Edelmetalle GmbH | Halsbrücke | Erzstr. 9 | 09633 | +49 3731 20890 | info@saxonia.de | n.e. | https://saxonia.de/kontakt/ |
+| C.A.T.E. Abbruch und Umweltservice GmbH | Leipzig | Rostocker Str. 110 | 04347 | +49 341-6512072 | info@abbruch-leipzig.de | n.e. | https://www.abbruch-leipzig.de |
+| One 2 Buy GmbH | Dresden | Kesselsdorfer Straße 1 | 01159 | 0351 84723316 | otb-dresden@gmx.de | Mo-Fr 9:30-19:00, Sa 10:00-16:00, So geschlossen | https://one2buy-an-und-verkauf.de |
+| Computer-A-und-V Dresden | Dresden | Breitscheidstr. 38 | 01237 | n.e. | n.e. | Mo+Do 10:00-15:00, Di+Fr 10:00-15:00 | https://www.computer-a-und-v.de |
+| slug:sn-leipzig-04357-phonebros-a-v-handy PhoneBros / A&V Handy GbR | Leipzig | Mockauer Str. 5 | 04357 | 0341 6031777 | avhandy@yahoo.de | Mo-Fr 10:30-18:00, Sa 11:00-14:00 | https://handyankaufleipzig.de |
+| Goldhaus Leipzig | Leipzig | Goethestraße 1 | 04109 | +49 (341) 23 06 49 95 | info@goldhaus-leipzig.de | Mo-Fr 10:00-19:00, Sa 10:00-18:00 | https://goldhaus-leipzig.com |
+| Goldankauf Börse Leipzig | Leipzig | Brühl 65 | 04109 | n.e. | n.e. | Mo-Fr 10:00-18:00, Sa 10:00-15:00 | https://www.goldankauf-boerse.de |
+| Antik & Kunst Dresden (R. Goralski) | Dresden | Großenhainer Str. 183 | 01129 | 0351/8488601 | antiknachlass@web.de | Mo-Fr 10-18 Uhr, Sa nach Vereinbarung | https://www.antik-kunst-dresden.de |
+| Girod GmbH / Goldankauf Dresden | Dresden | Borsbergstr. 19b | 01309 | +49 (0)351 312 47 37 | n.e. | Mo, Mi-Fr 10-14 und 16-18 Uhr; Di geschlossen | https://goldankauf-dresden.com |
+| Sven Asmuss Haushaltsauflösung | Werdau | August-Bebel-Strasse 60 | 08412 | 0152 5530 5909 | n.e. | Mo-Do 9-17, Fr 9-16 | https://haushaltsaufloesung-werdau.de |

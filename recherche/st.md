@@ -378,3 +378,13 @@ Alle 29 Seed-Websites liefern HTTP 200 (alive). Einziger Redirect: christian-kel
 | ESM Schrott und Metallhandel GmbH | Schönebeck 39218, Burgwall 2 | keine | Schrott/Metall/Container — Cu/Alu/Edelstahl/Messing/Zinn/Zink/Blei, Tel 03928/400056; Fegert-Nähe klären (NEU vs Audit-Runde-4-ESM prüfen!) | unklar |
 | MRR GmbH Schrottplatz Köthen | Köthen 06366, Am Güterbahnhof 3 | keine | Schrottplatz/Entsorgung — ALBA-Anbindung + Publikums-Ankauf prüfen (NEU) | unklar |
 | MRR GmbH Schrottplatz Bitterfeld | Bitterfeld-Wolfen 06749, Antonienstr. 23 (= Scholz-Standort!) | http://www.alba.info/ | Schrottplatz/Entsorgung — Identität vs Scholz/ALBA + Ankauf prüfen (NEU) | unklar |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| Autoverwertung Speckhahn | Klötze | Poppauer Str. 29 | 38486 | 03909/2681 (Mobil/24h-Bergung 0171/6014156) | n.e. | n.e. | https://www.autoverwertung-speckhahn.de/ und /kontakt/ |
+| LRP Autorecycling GmbH, NL Magdeburg | Magdeburg | Am Zweigkanal 9 | 39126 | 0391 5441930 | magdeburg@lrp-autorecycling.de | Mo-Do 8:00-17:00, Fr 8:00-16:00 | https://lrp-autorecycling.de/magdeburg/ |
+| Bauerdorff & Söhne | Halberstadt | Im Sülzeteiche 34a | 38820 | 03941 447647 (mobil 0177 6449486) | info@bauerdorff.de | n.e. | https://www.bauerdorff.de/ |
+| ASA Altmetallhandel | Coswig (Anhalt) | Fichtenbreite 2 | 06869 | 034903/590084 (mobil 0176 478 636 28) | asa-altmetall@web.de | n.e. | https://asa-altmetall.de/ |
+| SCMR Recycling GmbH | Eisleben OT Polleben | An der Landstrasse 159 | 06295 | +49 3475 66 30 70 | info@scmr-recycling.com | Mo-Fr 7:00-15:00 (Anlieferung), 7:00-14:30 (Abholung) | https://scmr-recycling.com/ |

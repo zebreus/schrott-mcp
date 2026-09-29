@@ -228,6 +228,8 @@ pub struct SeedKept {
     pub website_status: String,
     pub website_checked_at: String,
     pub phone: String,
+    pub email: String,
+    pub opening_hours: String,
 }
 
 impl PublicDb {
@@ -385,7 +387,8 @@ impl PublicDb {
         let conn = self.lock()?;
         conn.query_row(
             "SELECT extra_json, description, dropoff_json, pickup_json,
-                    website, website_status, website_checked_at, phone
+                    website, website_status, website_checked_at, phone,
+                    email, opening_hours
              FROM traders WHERE slug = ?1",
             params![slug],
             |r| {
@@ -402,6 +405,8 @@ impl PublicDb {
                     website_status: r.get(5)?,
                     website_checked_at: r.get(6)?,
                     phone: r.get(7)?,
+                    email: r.get(8)?,
+                    opening_hours: r.get(9)?,
                 })
             },
         )

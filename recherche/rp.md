@@ -494,3 +494,18 @@ schneider-recycling.de → schneider-recycling.com (Kandidat, ok). Bot-Schutz (l
 | Sterz Neustadt/Wied | Neustadt | keine | ? zweifelhaft). | unklar |
 | Spot-checks: Velte/Kreutz/Sell/Herrmann/Schiele/Meschke/FOGOLIN LEBTIG | Andernach | keine | +Websites gefunden!). TOT-VERDACHT (nicht markiert): Morasch Zweibrücken, Weiß KL, Adams Bitburg, Marquart Mendig, Mainzer-Metall-Verwertung, Van den Berg/Levin/D&F Andernach, Schilling Alsdorf (→ Speicher?). | unklar |
 | Quellen: lokaleschrottplatz 181 Plätze voll, schrottradar 21 voll, wlw voll, NorthData, DDG/Bing-Limits. Gaps: Kleinanzeigen-JS, Facebook, OSM, | 11880, GS-Neurubriken, GESA-404, Idar-Goldszene, Dentaldepots, Klinik, IT-Remarketer, Eifel-West, Hunsrück, Preislisten | keine | keine). | unklar |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| TKM Materialveredelung GmbH | Landau | In den Waldstücken 6 | 76829 | 06341/5201-0 | n.e. | n.e. | https://www.tkm-landau.de/kontakt |
+| Rheinische Scheidestätte (Filiale Trier) | Trier | Konstantinstraße 8-10 | n.e. | n.e. | n.e. | Mo-Fr 9:30-18:00, Sa geschlossen | https://rheinische-scheidestaette.de/standorte |
+| Rheinische Scheidestätte (Filiale Kaiserslautern) | Kaiserslautern | Marktstraße 15-17 | n.e. | n.e. | n.e. | Mo-Fr 9:30-18:00, Sa geschlossen | https://rheinische-scheidestaette.de/standorte |
+| Geld für Gold Dagmar Müller (Edelmetallkontor) | Bad Kreuznach | Mannheimer Str. 65-67 | 55545 | 06 71 – 9 20 07 82 | n.e. | Mo-Fr 10-17 Uhr, Sa nach Vereinbarung, So geschlossen | https://www.edelmetallkontor.de |
+| Nagelsky GmbH | Mayen | Am Layerhof 7 | 56727 | +49 (0) 2651 - 418 29 | info@nagelsky.de | Mo-Do 8-16 (Pause 12:30-13:15), Fr 8-15:30, Sa 8-11 Uhr | https://www.nagelsky.de/leistungen/ankauf-von-stahlschrott-und-ne-metallen/ |
+| Schneider Recycling GmbH & Co. KG | Simmern | Fuhrweg 1-3 | n.e. | 0 26 20 / 95 69-0 | n.e. | n.e. | https://www.schneider-recycling.de |
+| Laroche Demontagearbeiten | Koblenz | Am Franzosenfriedhof 3 | 56070 | 0261 9888 77 30 | info@demontage-metallhandel.de | n.e. | https://demontage-metallhandel.de |
+| Reinhardt Oberdürenbach | Oberdürenbach | Königsseeweg 2 | 56651 | 01775385349 | n.e. | n.e. | https://www.schrottmetallhandelreinhardt.com |
+| slug:rp-trier-54290-rheinische-scheidestatte-filiale-trier | Trier 54290 | Konstantinstraße 8-10 | 54290 | 0651-91897765 | n.e. | Mo-Fr 9:30-18:00, Sa geschlossen | rheinische-scheidestaette.de/standorte |
+| slug:rp-kaiserslautern-67655-rheinische-scheidestatte-filiale-kaisers | Kaiserslautern | Marktstraße 15-17 | 67655 | 0631-75006666 | n.e. | Mo-Fr 9:30-18:00, Sa geschlossen | rheinische-scheidestaette.de/standorte |

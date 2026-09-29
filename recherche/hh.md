@@ -252,3 +252,37 @@ Tote/umgeleitete Seed-Websites aus hh.json (curl-Sweep 27.09.2026):
 | Ludwig Melosch Entsorgungs-Sparte | Altona-Nord 22769, Waidmannstr. 16 | https://www.melosch.de | Entsorgung/Wertstoffhandel — GS "Wertstoffhandel" → "Entsorgung von Schrott" (NEU — gleiche Adresse wie Seed Melosch Export = Schwesterfirma, trennen!) | unklar |
 | Hamburger Schrotthandel→ PRÜFFALL: Hamburger Schrotthandel? Nein: "Hamburger Schrott" | Iserbrook 22589, Heerbrook 4 | hamburger-schrott.de TOT | Schrott — nur Verzeichnis + Tel 0173 6110524 (PRÜFFALL) | unklar |
 - VERWORFEN (Audit): Goldbright Trading GmbH — SCHWACH (Metall-Ankauf unbelegt, Homepage falsch — nur bei HRB-Verifizierung)
+
+## Nachtrag Adressen (29.09.2026)
+
+Adress-Nachtrag aus Feedback-IDs 863-1287 (Tabelle feedback, Stand 29.09.2026). Methodik: Werte aus feedback/details-Spalte (Unternehmenswebsites/Impressen), Name/Ort aus seed/traders/hh.json, Straße subsidiär aus Seed; unbelegte Felder = n.e. (kein Raten). Seed-JSON wurde NICHT editiert — Anreicherung erfolgt hier als Nachtrag.
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| APG Aluminium Produktionsgesellschaft mbH | Wilhelmsburg | Fährstieg 4 | 21107 | 040-75 17 17 | info@apg-aluminium.de | n.e. | apg-aluminium.de |
+| KG Ludwig Melosch Vertriebs-GmbH & Co. | Altona-Nord | Waidmannstraße 16 | 22769 | +49 40 8547-0 | info@melosch.de | n.e. | melosch.de + /impressum |
+| Dit un Dat UG Edelmetall Contor | Eilbek | Seumestr. 8 | 22089 | 040 76990787 | info@edelmetall-contor.de | Mo-Fr 11:00-19:00, Sa/So geschlossen | edelmetall-contor.de |
+| Goldankauf Saba Juwelier | Bramfeld | Bramfelder Chaussee 338 A | 22175 | +49 40 64222013 | saba_saeed@hotmail.de | Mo-Fr 9:00-19:00, Sa 9:30-17:00, So geschlossen | saba-juwelier.de + /impressum |
+| Goldhandel Löwengold | Winterhude | Grasweg 8 | 22299 | 040/ 53024720 | n.e. | Mo-Fr 12:00-17:00 | goldwert-ankauf.de/loewengold |
+| Stephan Hartwig Münzen und Edelmetallhandel | St. Georg | Lange Reihe 71 | 20099 | +49 40 249771 | hartwig.muenzen@t-online.de | Mo/Di/Do 9:00-17:00, Fr 9:00-16:00, Mi geschlossen | muenzhandel-hamburg.de + /impressum |
+| Goldschanze GmbH | Sternschanze | Schanzenstr. 115 | 20357 | n.e. | n.e. | Mo-Do 10:00-18:00, Fr 10:00-13:00 u. 14:30-18:00, Sa 11:00-17:00, So geschlossen | goldschanze.de |
+| Hansa-Goldankauf | Lokstedt | Siemersplatz 1 | 22529 | 040-23 82 52 04 | n.e. | Mo-Fr 10:00-18:00, Sa 10:00-14:00 (nur n. Termin) | hansa-goldankauf.de |
+| Goldrausch By MK Inh. M. Kosik | Niendorf | Tibarg 38 | 22459 | 040 / 53034745 | Goldrausch.service@gmail.com | Mo-Fr 9:30-16:00, Sa 9:30-12:00 | goldrausch-hamburg.de + /impressum |
+| Juweliercivan Goldankauf | Eilbek | Wandsbeker Chaussee 5 | 22089 | 040 250 61 85 | info@juweliercivan.de | Mo-Do 12:30-18:30, Fr 14:00-18:30, Sa 11:30-16:30, So geschlossen | juweliercivan.de + /impressum |
+| GlanzZeit (Uhrmacher/Goldschmied) | Ottensen | Bahrenfelder Straße 145 | 22765 | 040 390 24 88 | info@glanzzeit.de | Mo-Fr 10:00-19:00, Sa 10:00-16:00 | glanzzeit.de |
+| Trauschmuck Sperling GmbH | Hohenfelde | Lübecker Straße 95 | 22087 | 040 63 60 96 73 | support@goldankauf-ge.de | Mo-Fr 11:00-18:00 | goldankauf-ge.de |
+| Harries GmbH Münzhandlung | Uhlenhorst | Hofweg 12 | 22085 | +49 (0)40 229 00 77 | mail@harries.gmbh | Mo-Do 10:00-16:00 (16:00-19:00 n. Vereinbarung), Fr nur n. Vereinbarung | harries.gmbh |
+| Kroyer's Münzenkontor Frank Kroyer | Altstadt | Rosenstr. 6 | 20095 | 040 335 303 | muenzencontor@gmx.de | Di-Do 11:00-15:00 | muenzencontor-hamburg.de |
+| Haeger GmbH (Juwelier/Diamanten/Edelmetalle) | Neustadt | Steinstraße 27 | 20095 | 040-248278787 | info-hamburg@rheinische-scheidestaette.de | Mo-Fr 9:30-18:00, Sa 9:30-14:00 | christian-haeger.com/standorte/hamburg |
+| Belian Juwelier | Rahlstedt | Schweriner Str. 2c | 22143 | 040 250 6770 | info@juwelier-belian.de | Mo-Do 11:00-17:00, Fr-So geschlossen | juwelier-belian.de |
+| Sadik Carat Juwelier (Carat Goldankauf e.K.) | St. Georg | Steindamm 23 | 20099 | +49 (40) 24 44 03 | info@carat-goldankauf.de | n.e. | carat-goldankauf.de + /kontakt.html |
+| Juwelier Zieroth | Lohbrügge | Sachsentor 5 | 21029 | 040 / 73 93 76 77 | info@juwelier-zieroth.de | Mo-Fr 9:30-18:00, Sa 10:00-17:00 | juwelier-zieroth.de + /impressum |
+| pro aurum Vertrieb GmbH Filiale Hamburg | Altstadt | Rödingsmarkt 39 | 20459 | +49 40 548 03 80-0 | n.e. | n.e. | proaurum.de/unternehmen/standorte |
+| philoro Filiale Hamburg | Neustadt | Neuer Wall 77 | n.e. | +49 40 181000300 | hamburg@philoro.de | Mo-Fr 10:00-18:00, Sa 10:00-15:00 | philoro.de/filialen |
+| WEGRO Bahrenfeld (Filiale) | Bahrenfeld | Ruhrstr. 16 | 22761 | 040 / 850 46 61 | info@wegrogmbh.de | Mo-Do 7:00-17:15, Fr 7:00-15:30 | wegrogmbh.de (/kontakt + /ankauf-altmetall) |
+| Goldstübchen Inh. Erkan Say | Eilbek | Wandsbeker Chaussee 287 | 22089 | 040 / 180 75 277 | info@goldstuebchen.de | Mo-Fr 11:00-18:00, Sa nur n. Vereinbarung | goldstuebchen.de + /impressum |
+| Goldlieb | Billstedt | Möllner Landstraße 3 | 22111 | 040 897 23 235 | service@goldlieb.de | Mo-Sa 10:00-20:00 | goldlieb.de + /impressum |
+| Gold & Silber Ankauf George & Söhne Juwelier | Poppenbüttel | Harksheiderstr. 6 | 22399 | 040 / 368 844 07 | n.e. | Mo-Fr 11:00-17:00, Sa 11:00-14:00 | gold-silber-ankauf-george.de |
+| Buhck Abfallverwertung und Recycling (ex-AUA) | Billbrook | Liebigstraße 64 | 22113 | 040-736 02 50 | info@buhck-hamburg.de | Sa 8:00-14:00 (Mo-Fr n.e.) | buhck-hamburg.de |
+| Ludwig Melosch Entsorgungs-Sparte | Altona-Nord | Waidmannstraße 16 | 22769 | +49 40 8547-0 | info@melosch.de | n.e. | melosch.de + /impressum |
+| slug:hh-altona-nord-melosch-export | Altona-Nord | Waidmannstraße 16 | 22769 | +49 40 8547-0 | info@melosch.de | n.e. | melosch.de Impressum (Name lt. Website KG Ludwig Melosch Vertriebs-GmbH & Co.) |

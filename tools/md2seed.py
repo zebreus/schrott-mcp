@@ -341,6 +341,8 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
                 "street": street,
                 "postcode": postcode,
                 "phone": cph,
+                "email": "",
+                "opening_hours": "",
                 "city": city or site.strip(),
                 "state": stem.upper(),
                 "website": website,
@@ -365,7 +367,9 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
         # Name | Bezirk | Straße | PLZ | Telefon | Quelle (B, Berlin).
         nonlocal upgrade_cols
         low = [c.lower() for c in cells]
-        if any("stra" in c or c in ("plz", "telefon", "quelle", "bezirk", "ort") for c in low) \
+        if any("stra" in c or c in ("plz", "telefon", "quelle", "bezirk", "ort",
+                                   "e-mail", "email", "mail",
+                                   "öffnungszeiten", "zeiten", "offnungszeiten") for c in low) \
                 and not any(re.search(r"\d", c) for c in cells):
             upgrade_cols = {}
             for i, h in enumerate(low):
@@ -383,6 +387,10 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
                     upgrade_cols["postcode"] = i
                 elif h == "telefon":
                     upgrade_cols["phone"] = i
+                elif h in ("e-mail", "email", "mail"):
+                    upgrade_cols["email"] = i
+                elif h in ("öffnungszeiten", "offnungszeiten", "zeiten"):
+                    upgrade_cols["opening_hours"] = i
                 elif h in ("quelle", "quellen", "notiz"):
                     upgrade_cols["note"] = i
             return
@@ -398,6 +406,10 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
         m = re.match(r"^slug:(\S+)\s*(.*)$", name)
         if m:
             slug_override, name = m.group(1), m.group(2).strip()
+        elif re.match(r"^[a-z]{2}-[a-z0-9-]+-[a-z0-9-]+$", name):
+            # Bare slug in the Name column (agent shorthand) — resolve
+            # directly if it exists, else keep as name for fuzzy.
+            slug_override, name = name, ""
         street = col("street")
         if not re.search(r"\d", street):
             return
@@ -406,8 +418,10 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
         if bezirk:
             city = ""
         upgrades.append({
-            "name": name, "slug": slug_override, "city": city, "bezirk": bezirk, "street": street,
-            "postcode": col("postcode"), "phone": col("phone"),
+            "name": name, "slug": slug_override, "city": city, "bezirk": bezirk,
+            "street": clean_field(street),
+            "postcode": clean_field(col("postcode")), "phone": clean_field(col("phone")),
+            "email": col("email"), "opening_hours": col("opening_hours"),
             "note": col("note"),
             "korrektur": bool(re.search(r"korrektur", name, re.I)),
         })
@@ -480,14 +494,27 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
     return entries, stats
 
 
-def apply_upgrades(entries: list[dict], upgrades: list[dict], stats: dict):
-    """Patch empty address/phone fields of existing entries (slug-stable).
+PLACEHOLDER = re.compile(r"^(n\.?\s*e\.?|—|-|–|\?|keine?|unbekannt)\b", re.I)
 
+
+def clean_field(value: str) -> str:
+    """Drop placeholder cells ('n.e.', '—', ...) so they never land in
+    phone/postcode/street; the info (if any) stays in notes instead."""
+    v = (value or "").strip()
+    if PLACEHOLDER.match(v):
+        return ""
+    return v
+
+
+def apply_upgrades(entries: list[dict], upgrades: list[dict], stats: dict):
+    """Patch empty address/phone fields of existing entries (slug-stable)."""
+    """Patch empty address/phone fields of existing entries (slug-stable).
     Resolution per row: exact name+city identity, then website-domain
     overlap with the Quelle cell, then single-candidate fuzzy on the city.
     Anything ambiguous or unmatched is reported in stats and never appended.
     KORREKTUR rows overwrite street/postcode/phone; all others fill empties
-    only. Bezirk notes never touch city (slug stability).
+    only. Email only with '@', opening_hours only as non-placeholder text.
+    Bezirk notes never touch city (slug stability).
     """
     by_ident: dict = {}
     by_dom: dict = {}
@@ -542,6 +569,13 @@ def apply_upgrades(entries: list[dict], upgrades: list[dict], stats: dict):
                 e["postcode"] = u["postcode"]
             if not e["phone"]:
                 e["phone"] = u["phone"]
+        email = (u.get("email") or "").strip()
+        if email and "@" in email and not e.get("email"):
+            e["email"] = email
+        hours = (u.get("opening_hours") or "").strip()
+        if hours and hours.lower() not in ("n.e.", "—", "-", "keine", "unbekannt") \
+                and not e.get("opening_hours"):
+            e["opening_hours"] = hours
         extra = " ".join(p for p in [
             u["bezirk"] and f"Bezirk: {u['bezirk']}",
             u["note"] and f"Adressbeleg: {u['note']}",

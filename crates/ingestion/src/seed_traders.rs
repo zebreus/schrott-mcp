@@ -42,6 +42,10 @@ pub struct SeedTrader {
     #[serde(default)]
     pub phone: String,
     #[serde(default)]
+    pub email: String,
+    #[serde(default)]
+    pub opening_hours: String,
+    #[serde(default)]
     pub dropoff_json: String,
     #[serde(default)]
     pub pickup_json: String,
@@ -168,6 +172,8 @@ fn payload_hash(
     website: &str,
     website_status: &str,
     phone: &str,
+    email: &str,
+    opening_hours: &str,
 ) -> String {
     let mut h = DefaultHasher::new();
     [
@@ -181,6 +187,8 @@ fn payload_hash(
         website,
         website_status,
         phone,
+        email,
+        opening_hours,
         t.status.as_str(),
         t.notes.as_str(),
         description,
@@ -231,6 +239,8 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
         let website = keep(&t.website, &kept.website, "");
         let website_status = keep(&t.website_status, &kept.website_status, "unbekannt");
         let phone = keep(&t.phone, &kept.phone, "");
+        let email = keep(&t.email, &kept.email, "");
+        let opening_hours = keep(&t.opening_hours, &kept.opening_hours, "");
         let hash = payload_hash(
             t,
             &description,
@@ -239,6 +249,8 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
             &website,
             &website_status,
             &phone,
+            &email,
+            &opening_hours,
         );
         if kept.seed_hash == Some(hash.clone()) {
             continue; // unchanged — keep updated_at meaningful
@@ -263,12 +275,12 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
                 country: "DE",
                 lat: None,
                 lon: None,
-                email: "",
+                email: &email,
                 website: &website,
                 website_status: &website_status,
                 website_checked_at: &kept.website_checked_at,
                 phone: &phone,
-                opening_hours: "",
+                opening_hours: &opening_hours,
                 dropoff_json: &dropoff_json,
                 pickup_json: &pickup_json,
                 min_quantity_kg: None,

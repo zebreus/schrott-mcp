@@ -324,3 +324,20 @@ Portal-verifiziert heute (lokaleschrottplatz.de/schrottradar.de): Steil Anklam A
 | RAD Recyclinganlage Domsühl GmbH | Domsühl 19374, Damerower Landstr. 1/1a | https://rad-recycling.de/ | Recycling/Logistik/Entsorgung — "Schrott" unter Entsorgung, Handeln/Makeln (PRÜFFALL, Vergütung unbelegt) | ja |
 | Hoffmann & Berger OHG | Schwerin 19061, Carl-von-Linde-Str. 4 | keine | unklar (Lagern) — nur Register (PRÜFFALL) | unklar |
 | Schürmann & Bartels GmbH | Wittenburg 19243, Wittenburger Chaussee 2a | keine | Entsorgung/Recycling/Baustoff — Abfallschlüssel 170405 Eisen/Stahl (PRÜFFALL) | unklar |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| slug:mv-pasewalk-altpapierankauf-schulz Altpapierankauf Schulz | Pasewalk | Am Schlachthof 12 | 17309 | 0174 8484233 | fs@altpapierankauf-schulz.de | n.e. | https://altpapierankauf-schulz.de/, https://altpapierankauf-schulz.de/impressum |
+| GER Umweltschutz GmbH | Grevesmühlen | Langer Steinschlag 2 | 23936 | +49 3881 7808-0 | info@ger-umweltschutz.de | n.e. | https://www.ger-umweltschutz.de/, https://www.ger-umweltschutz.de/impressum |
+| Umweltdienste Barth GmbH & Co. KG | Barth | Am Mastweg 2a | 18356 | 038231 6850 | info@umweltdienste-barth.de | Mo-Fr 6:30-17:00 | https://www.umweltdienste-barth.de/ |
+| ARC Auto-Recycling-Centrum GmbH | Güstrow | Primerburg 5 | 18273 | 03843-213556 | arc-guestrow@freenet.de | Mo-Fr 7:30-17:00, Sa/So geschlossen | https://www.arc-guestrow.de/ |
+| ASS Automobilservice Stargard Neumann oHG | Bargensdorf | Fünfeichener Weg 3 | 17094 | 039603-22808 | info@ass-autopartner.de | Mo-Fr 8-17, Sa 9-11 | https://www.ass-autopartner.de/, https://www.ass-autopartner.de/impressum |
+| ALBA Nord GmbH | Schwerin | Rogahner Straße 72 | 19061 | +49 385 6131-81 | n.e. | n.e. | https://metall.alba.info/unternehmen/standorte/ |
+| Smurfit Kappa NL Waren | Waren | Warendorfer Str. 7 | 17192 | +49 3991 7440 | n.e. | n.e. | https://www.smurfitkappa.com/de/locations |
+| Schweriner Antik & Goldkontor | Schwerin | Werderstraße 41 | 19055 | 0172 5992730 | info@schweriner-goldankauf.de | Termin nach Vereinbarung | https://schweriner-goldankauf.de/zahngold-ankauf.html |
+| Ebert Entsorgung GmbH | Plau am See | Zarchliner Weg 5 | 19395 | 038735 / 41901 | n.e. | n.e. | https://www.ebert-entsorgung.de/ |
+| Schrotthandel Roggelin (Siegfried Roggelin) | Kühlungsborn | Zur Asbeck 4 | 18225 | 01736001434 | n.e. | n.e. | https://schrotthandel-roggelin.webnode.page/ |
+| RAD Recyclinganlage Domsühl GmbH | Domsühl | Damerower Landstraße 1b | n.e. | 038728 20222 / 038728 20206 | dispo@rad-recycling.de | Mo-Fr 8:00-17:00 (Be-/Entladung bis 16:30), Sa (März-Oktober) 8:00-14:00 | https://rad-recycling.de/ |
+| slug:mv-schwerin-19057-alba-nord | Schwerin 19057 | Ziegeleiweg 12 | 19057 | +49 385 6131-81 | n.e. | n.e. | metall.alba.info Standortliste (nennt Rogahner Str. 72 — Abweichung prüfen) |

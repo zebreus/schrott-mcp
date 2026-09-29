@@ -515,3 +515,66 @@ Die übrigen drei Handoff-Zeilen (Max Buck, R. Metall, Reinhardt Ulm) sind Seed-
 | Griesbaum Roland Schrotthandel | Tauberbischofsheim-Distelhausen 97941, Bundesstr. 13 | keine | Schrott — mögl. Familienzweig | unklar |
 | SK Reifen-Teile-Zubehör US-Car (Sven Krug) | Grünsfeld 97947, Bischofsheimer Str. 7 | keine | AV — US-Car-Schwerpunkt, Demontagebetrieb | unklar |
 | GOLD-Center | Eberbach 69412, Bahnhofstr. 21a | https://goldberg-eberbach.de | Alt-/Zahngold/Silber/Münzen/Diamanten/Uhren — Regional-Seiten Miltenberg/Michelstadt/Erbach/Darmstadt | unklar |
+
+## Nachtrag Adressen (29.09.2026)
+
+| Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
+|---|---|---|---|---|---|---|---|
+| bw-heilbronn-ohringen-sarfert-schrott-metallhandel | Heilbronn/Öhringen | Bei der Ziegelhütte 15 | 74243 | 07139 9346 279 | info@sarfert-schrott.de | Mo-Fr 8-16, Sa 8-13 | https://schrott-sarfert.de/ |
+| bw-ohringen-autoverwertung-weiser | Öhringen | Zeilbaumweg 40 | 74613 | 07941 37990 | info@schrottplatz-oehringen.de | n.e. | https://schrottplatz-oehringen.de/, https://schrottplatz-oehringen.de/impressum |
+| bw-rottweil-78628-mielnik | Rottweil 78628 | Rheinwaldstraße 7 | 78628 | 0741 174268 0 | vertrieb@mielnik.de | Mo-Fr 7:30-12:00 und 13:00-17:00; Privatkunden Mo-Do 8:00-12:00 und 13:00-16:30, Fr 8:00-12:00 | http://www.mielnik.de/ |
+| bw-stuttgart-0711-rec-computerschrott-ankauf | Stuttgart | Blumenstr. 35 | 70736 | +49 172 6299306 | 0711Recc@gmail.com | Mo-Sa 8-20 | https://www.computerschrott-ankauf-stuttgart.de/ |
+| bw-stuttgart-fellbach-70734-ghm-it-rec | Stuttgart/Fellbach 70734 | Cannstatterstr 82 | 70734 | 0157 812 130 50 / 0711 4079 96 66 | info@ghmit.de | Mo-Sa 8-20 | https://www.pcschrott-ankauf-stuttgart.de/ |
+| bw-pforzheim-75177-bio-goldankauf-patrick-muller | Pforzheim 75177 | Salierstr. 29a | 75177 | +49 7231 60 77 990 | n.e. | Mo, Di, Do, Fr 9:30-13:00 und 14:30-18:00; Mi nur nach Terminvereinbarung; Sa/So geschlossen | https://bio-goldankauf.de/impressum |
+| bw-singen-78224-dilse-rohstoffhandel | Singen 78224 | Zum Umschlagbahnhof 10 | 78224 | +49 (0) 7731 - 6 31 21 | info@dilse-rohstoffhandel.de | n.e. | https://dilse-rohstoffhandel.de, https://dilse-rohstoffhandel.de/impressum |
+| bw-singen-schuler-rohstoff | Singen | Werner-von-Siemens-Straße 9 | 78224 | +49 7731 797760 | info@schuler-rohstoff.de | Mo-Fr 7:15-16:45, Anlieferung 7:15-11:30 und 13:00-16:15, Sa geschlossen | https://schuler-rohstoff.de |
+| bw-deilingen-schuler-rohstoff | Deißlingen | Bahnhofstr. 101-105 | 78652 | +49 7420 92930 | info@schuler-rohstoff.de | Mo-Fr 7:15-16:45, Anlieferung 7:15-11:30 und 13:00-16:15 | https://schuler-rohstoff.de |
+| bw-langenau-89129-walter-kunze | Langenau 89129 | Magirusstraße 20 | 89129 | +49 7345 9660-0 | info@kunze-group.com | n.e. | https://www.kunze-group.de/ |
+| bw-mannheim-68199-buntmetallhandel-mis | Mannheim 68199 | Innstr. 10 | 68199 | n.e. | n.e. | Mo-Fr 8-17, Sa 8-16 | https://mis-buntmetall.de |
+| bw-mannheim-68219-metall | Mannheim 68219 | Ruhrorter Straße 23 | 68219 | +49 (0)621 862 35 609 | info@eg-metall.de | n.e. | https://eg-metall.de, https://eg-metall.de/impressum |
+| bw-asperg-metall | Asperg) | Ruhrstr 7/1 | 71679 | 07141 643848 0 | info@eg-metall.de | n.e. | https://eg-metall.de, https://eg-metall.de/impressum |
+| bw-neuenstein-74632-rhd-rohstoffhandel-dienstleistungen | Neuenstein 74632 | Carl-Benz-Straße 2 | 74632 | 0 79 42 / 94 79 77 0 | info@rhd-neuenstein.de | Mo-Do 7:30-12:00, 13:00-15:30, Fr 7:30-12:00, 13:00-15:00 | https://rhd-neuenstein.de |
+| bw-stuttgart-70327-maciej-kluj-schrott-recycling | Stuttgart 70327 | Weberstr 25 | 70182 | 0711 - 1216 44 75 | m.kluj@web.de | n.e. | https://schrott-kluj.de, https://schrott-kluj.de/impressum |
+| bw-stuttgart-feuerbach-70469-karle-recycling | Stuttgart-Feuerbach 70469 | Friedrich-Scholer-Str. 5 | 70469 | 0711 25 94 67-0 | n.e. | Mo-Fr 7-18, Sa 7-13 | https://karlerecycling.de/ |
+| bw-boblingen-karle-recycling | Böblingen) | Hanns-Klemm-Str. 11 | 71034 | 07031 20 943-20 | n.e. | Mo-Fr 7-16, Sa geschlossen | https://karlerecycling.de/ |
+| bw-pluderhausen-73655-buhler-metallhandel-tobias-buhler | Plüderhausen 73655 | Birkenallee 95 | 73655 | (+49) 170 8111971 | info@buehler-metallhandel.de | n.e. | https://buehler-metallhandel.de |
+| bw-lauchringen-hoffmann-rohstoffe | Lauchringen | Industriestr. 8 | 79787 | 07741-686380 | info@h-autokran.de | n.e. | https://hoffmann-autokran.de/impressum/ |
+| bw-st-leon-rot-etec-recycling | St. Leon-Rot | Mühlwiesenstr. 19 | 68789 | 06227 399 70 00 | info@etec-recycling.de | Mo-Fr 8-18, Sa 8-17 Uhr (Büro Mo-Fr 8-14) | https://etec-recycling.de, https://etec-recycling.de/impressum |
+| bw-hockenheim-mannheim-a-n-electrorecycling | Hockenheim/Mannheim | Franz-Grashof-Straße 15-17 | 68199 | 0621 86 23 97-0 | dispo@an-electrorecycling.de | Mo-Fr 8-17 Uhr | https://an-electrorecycling.de, https://an-electrorecycling.de/impressum |
+| bw-kippenheim-j-schreiber | Kippenheim | Frankenstraße 8 | 77971 | 07825 869706 | info@kippenheim-recycling.de | n.e. | https://recycling-jschreiber.de/impressum |
+| bw-malterdingen-hurter | Malterdingen | Wiesenstraße 2a - 4 | 79364 | +49 7644 913359 | n.e. | Mo-Fr 7:30-17:00, Sa 9-13 Uhr (Kontaktseite abweichend: Mo-Fr 8-12/13-17) | https://hurter-gmbh.de, https://hurter-gmbh.de/kontakt |
+| bw-kehl-amend-rohstoff | Kehl | Oststr. 20 | 77694 | +49 7851 885670 | info@amend-rohstoffe.de | Mo-Do 7:30-12/13-16:30, Fr 7:30-12/13-16:00 | https://amend-rohstoffe.de, https://amend-rohstoffe.de/impressum |
+| bw-argenbuhl-mk-schrott | Argenbühl | Lutzeney 1 | 88260 | +49 7566 94 58 17 | info@mk-schrotthandel.de | n.e. | https://mk-schrotthandel.de, https://mk-schrotthandel.de/impressum |
+| bw-mannheim-gunter-prag | Mannheim | Ruhrorter Straße 7 | 68219 | 0621 80421-22 / -12 | guenterpraeg-gmbh@t-online.de | Mo-Fr 7-12 und 13-16:30 Uhr | https://metallrohstoffe-mannheim.de, https://metallrohstoffe-mannheim.de/impressum |
+| bw-bad-krozingen-rrg-roeder | Bad Krozingen | Im Unteren Stollen 12 | 79189 | 07633 150001 | info@roeder-rohstoffe.de | Mo-Fr 8-12 und 13-16:30 (Anlieferzeiten Mo-Fr 8-11:30, 13-15:30) | https://roeder-rohstoffe.de, https://roeder-rohstoffe.de/impressum |
+| bw-gemmingen-neumann | Gemmingen | Ziegeleistraße 9-11 | 75050 | 07267-1819 | info@autoverwertung-neumann.de | Mo-Fr 7-12/13-17, Sa 7-12 Uhr | https://autoverwertung-gemmingen.de |
+| bw-karlsruhe-76133-scheideanstalt-karlsruhe | Karlsruhe 76133 | Karlstr. 25 | 76133 | 0721.98 19 36 62 | n.e. | Mo-Fr 9:00-18:00, Sa 9:30-14:00 (Impressum; Startseite abweichend) | https://scheideanstaltka.de, https://scheideanstaltka.de/impressum |
+| bw-goppingen-73035-a-priori-dental-a-priori | Göppingen 73035 | Autenbachstr. 17 | 73035 | 07161 - 920 397 | service@a-priori-dental.de | n.e. | https://www.a-priori-dental.de/scheidgut |
+| bw-reutlingen-72770-herter-service-und-recycling | Reutlingen 72770 | Ernst-Abbe-Straße 7 | 72770 | +49 (0) 7121 / 9 568 0 | info@herter-recycling.de | n.e. | https://herterrecycling.com, https://herterrecycling.com/impressum |
+| bw-stuttgart-70435-imr-industrieverwertung-marco-reinhardt | Stuttgart 70435 | Langenburger Str. 66 | 70435 | 0711 / 3968 1250 | info@imr-verwertung.de | Mo-Fr 7:00-20:00, Sa 8:00-14:00, sonst nach Vereinbarung | https://imr-industrieverwertung.de, https://imr-industrieverwertung.de/impressum |
+| bw-kraichtal-76703-of-alteisen-christian-of | Kraichtal 76703 | Albert-Schweitzer-Str. 71 | 76703 | 07251-63897 | n.e. | n.e. | https://of-alteisen.de |
+| bw-mannheim-68159-fett-schrott-containerdienst | Mannheim 68159 | G6 6 | 68159 | +49 0621-48205760 | kontakt@fett-schrott.de | n.e. | https://fett-schrott.de, https://fett-schrott.de/impressum |
+| bw-kirchheim-teck-73230-lauster-schrott-ramon-lauster | Kirchheim/Teck 73230 | An der Wollspinnerei 30 | 73230 | 0151-46974038 | info@lauster-schrott.de | n.e. | https://www.lauster-schrott.de, https://www.lauster-schrott.de/impressum |
+| bw-edingen-neckarhausen-68535-schrottabholung24 | Edingen-Neckarhausen 68535 | Robert-Koch Str. 21 | 68535 | 0176 219 15922 | schrott-abholung24@hotmail.com | n.e. | https://schrottabholung24.com, https://schrottabholung24.com/impressum |
+| bw-schefflenz-74850-ignaz-wagner-schrott-metallhandel | Schefflenz 74850 | Rittersbacher Weg 10 b | 74850 | 06293 / 386 | info@wagner-schrotthandel.de | Mo-Do 8:00-18:00, Fr 8:00-14:00 | https://wagner-schrotthandel.de, https://wagner-schrotthandel.de/impressum |
+| bw-langenenslingen-88515-dhs-entsorgung-thilo-semtner | Langenenslingen 88515 | Stuckenstr. 17-19 | 88515 | +49 (0) 174 242 73 19 | dhs-entsorgung@t-online.de | n.e. | https://dhs-entsorgung.de |
+| bw-pfalzgrafenweiler-72285-auto-teile-schmidt | Pfalzgrafenweiler 72285 | Zeisstraße 7 | 72285 | 07445 1758 | info@autoteile-schmidt.de | Mo-Fr 8-12 und 13-17 Uhr, Sa 9-13 Uhr (kein Teileverkauf Mo/Mi nachmittags) | https://autoteile-schmidt.de |
+| bw-malsch-69254-delko-metalle | Malsch 69254 | Industriestr. 12 | 69254 | 07253 880747 | mail@delko-metalle.de | Mo-Fr 08:00-17:00 | https://delko-metalle.de |
+| bw-eppingen-elsenz-75031-altmetall-wagner-romano-wagner | Eppingen-Elsenz 75031 | Sinsheimer Str. 15 | 75031 | 0174 21 35 113 | kontakt@altmetall-wagner.de | n.e. | https://altmetall-wagner.de, https://altmetall-wagner.de/impressum |
+| bw-ravensburg-88214-aw-recycling-anton-winter | Ravensburg 88214 | Krummäcker 7 | 88212 | +49 171 8486440 | info@aw-recycling.de | n.e. | https://aw-recycling.de, https://aw-recycling.de/impressum |
+| bw-riedlingen-88499-schonle-entsorgung | Riedlingen 88499 | Industriestr. 3 | 88499 | 0172 7098907 | info@schoenle-entsorgung.de | Mo-Do 8:00-17:00, Fr 8:00-13:00 | https://schoenle-entsorgung.de |
+| bw-neidenstein-74933-tae-wertstoffe | Neidenstein 74933 | Fuchslochweg 2 | 74933 | +49 (0) 7260 912 0 930 | info@tae-wertstoffe.de | Mo-Fr 8:15-17:00, Anlieferung bis 16:30, Sa/So/Feiertage geschlossen | https://tae-wertstoffe.de |
+| bw-heilbronn-74076-kaya-dienstleistungen-schrotthandel | Heilbronn 74076 | Am Salzwerkplatz 1 | 74076 | +49 172 6306570 | info@kaya-dienstleistungen.de | n.e. | https://kaya-dienstleistungen.de, https://kaya-dienstleistungen.de/impressum |
+| bw-berkheim-88450-schrott-trunke | Berkheim 88450 | Willebold-Braun-Straße 7 | 88450 | 0 83 95 / 9 111 88 | kontakt@schrott-trunke.com | n.e. | https://schrott-trunke.com |
+| bw-hechingen-boll-72379-schrotthandel-bernhard-andy-bernhard | Hechingen-Boll 72379 | Weidenweg 16 | 72379 | +49 162 2484342 | andy_bernhard@hotmail.de | Mo-Fr 8:00-19:00, Sa/So geschlossen | https://schrotthandel-bernhard.de |
+| bw-aalen-unterkochen-73432-osr-metallrecycling | Aalen-Unterkochen 73432 | Wöhrstr. 15 | 73432 | n.e. | n.e. | n.e. | https://www.osr-metallrecycling.de |
+| bw-dettingen-erms-72581-wagner-rohstoffe-und-transporte | Dettingen/Erms 72581 | Vogelsangstr. 2 | 72581 | 07123/7054 | wagner-entsorgung@freenet.de | Mo-Fr 7:00-12:00 und 13:00-17:00, Sa 7:00-12:00, So geschlossen | https://www.entsorgung-wagner.de |
+| bw-bopfingen-73441-handelundvertrieb-de | Bopfingen 73441 | Oberes Johannisfeld 4 | 73441 | 07362 802020 | info@handelundvertrieb.de | n.e. | https://handelundvertrieb.de |
+| bw-dettingen-teck-73265-kostenlose-autoverwertung | Dettingen/Teck 73265 | Goethestr. 3 | 73265 | 0178 230 60 33 | info@kostenlose-autoverwertung.eu | Mo-Sa 08:00-20:00 | https://www.kostenlose-autoverwertung.eu |
+| bw-eberbach-69412-inast-eberbach | Eberbach 69412 | Im Ittertal 4 | 69412 | 06271 7142-5 | info@inast.de | n.e. | https://inast.de/unternehmen/standorte/eberbach |
+| bw-mosbach-74821-inast-mosbach | Mosbach 74821 | Luttenbachtalstr. 30 | 74821 | 06261 9244-0 | info@inast.de | n.e. | https://inast.de/unternehmen/standorte/mosbach |
+| bw-tauberbischofsheim-97941-inast-tauberbischofsheim | Tauberbischofsheim 97941 | Ernst-Bauer-Straße 4 | 97941 | 09341 858 89-0 | n.e. | n.e. | https://inast.de/unternehmen/standorte/tauberbischofsheim |
+| bw-lauda-konigshofen-97922-inast-konigshofen | Lauda-Königshofen 97922 | Gewerbestr. 12 | 97922 | 09343 627 37-0 | n.e. | n.e. | https://inast.de/unternehmen/standorte/koenigshofen |
+| bw-buchen-74722-henk | Buchen 74722 | Siemensstr. 25-27 | 74722 | 06281-8316 | info@henk-recycling.de | Mo-Fr 7:00-12:00 und 13:00-16:00 (Anlieferung 30 Min. früher), Sa geschlossen | https://schrottplatz.de, https://schrottplatz.de/impressum-2 |
+| bw-boxberg-97944-griesbaum-schrotthandel-familie-seit-196 | Boxberg 97944 | Römerstr. 26a | 97944 | 0171 - 52 14 110 | info@griesbaum-schrott.de | n.e. | https://griesbaum-schrott.de/ |
+| bw-eberbach-69412-gold-center | Eberbach 69412 | Bahnhofstr. 21a | 69412 | +49 6271 947 88 79 | gold.center.eberbach@gmail.com | Mo-Fr 10-12 und 12:30-17 Uhr, Sa nach Vereinbarung | https://goldberg-eberbach.de, https://goldberg-eberbach.de/impressum/ |
