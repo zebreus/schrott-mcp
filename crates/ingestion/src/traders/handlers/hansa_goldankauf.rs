@@ -108,9 +108,18 @@ fn fineness(l: &str) -> &'static str {
         if b[i].is_ascii_digit() && b[i + 1].is_ascii_digit() && b[i + 2].is_ascii_digit() {
             return match &l[i..i + 3] {
                 "999" => "999",
+                "986" => "986",
+                "959" => "959",
+                "950" => "950",
+                "925" => "925",
                 "916" => "916",
                 "900" => "900",
+                "835" => "835",
+                "800" => "800",
+                "750" => "750",
                 "585" => "585",
+                "500" => "500",
+                "375" => "375",
                 "333" => "333",
                 _ => "",
             };
@@ -383,7 +392,9 @@ mod tests {
         assert_eq!(grade_for("999er Gold"), Some(("gold", "999")));
         assert_eq!(grade_for("916er Gold"), Some(("gold", "916")));
         assert_eq!(grade_for("900er Gold"), Some(("gold", "900")));
+        assert_eq!(grade_for("750er Gold"), Some(("gold", "750")));
         assert_eq!(grade_for("585er Gold"), Some(("gold", "585")));
+        assert_eq!(grade_for("375er Gold"), Some(("gold", "375")));
         assert_eq!(grade_for("333er Gold"), Some(("gold", "333")));
         // Dental alloy, never a gold alias.
         assert_eq!(grade_for("Zahngold Gelb gereinigt"), Some(("zahngold", "")));

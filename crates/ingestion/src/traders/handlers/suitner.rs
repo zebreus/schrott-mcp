@@ -136,7 +136,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 /// First fineness run in the label ("Ankauf 585 Gold" → "585").
 fn fineness(l: &str) -> &'static str {
     for fin in [
-        "999", "986", "950", "925", "900", "835", "800", "750", "585", "333",
+        "999", "986", "959", "950", "925", "916", "900", "835", "800", "750", "585", "500",
+        "375", "333",
     ] {
         if l.contains(fin) {
             return fin;
@@ -318,6 +319,9 @@ mod tests {
     #[test]
     fn fineness_maps_items_skip() {
         assert_eq!(grade_for("Ankauf 585 Gold"), Some(("gold", "585")));
+        assert_eq!(grade_for("Ankauf 916 Gold"), Some(("gold", "916")));
+        assert_eq!(grade_for("Ankauf 750 Gold"), Some(("gold", "750")));
+        assert_eq!(grade_for("Ankauf 375 Gold"), Some(("gold", "375")));
         assert_eq!(
             grade_for("Ankauf 999 Gold Schmelzware"),
             Some(("gold", "999"))
