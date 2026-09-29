@@ -285,7 +285,7 @@ Seed-Anreicherungen (kein md2seed-Lauf):
 
 | Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
 |---|---|---|---|---|
-| Pries & Friese Autoverwertungscenter | Neuenhagen 15366 | http://www.pries-und-friese.de | AV — seit 01/2023 an LFP Werkstatt übergeben (NEU — schließt BE-Lücke!) | unklar |
+| Pries & Friese Autoverwertungscenter | Neuenhagen 15366 | keine (falsche Website pries-und-friese.de entfernt, 29.09.2026 — Betrieb seit 02.01.2023 an LFP KFZ-Werkstatt oHG übergeben, keine AV mehr) | AV — seit 01/2023 an LFP Werkstatt übergeben (NEU — schließt BE-Lücke!) | unklar |
 | Autoankauf Potsdam | Potsdam 14478 | http://www.autoankauf-potsdam.com | AV/Autoankauf — Barzahlung, Abholung + Abmeldung (NEU) | ja |
 | H&S Abschleppdienst GmbH | Rathenow 14712 | http://www.hs-abschleppdienst.de | AV/Werkstatt — eigener Autoverwertung-Bereich (NEU) | unklar |
 | ANTIK MÖBEL Sadowski | Bernau 16321, Alte Goethestr. 8 | http://www.antik-bernau.de | Gold/Silber/Entrümpelung — WARNUNG Website Casino-Spam, Firma per GS real (NEU) | unklar |
@@ -462,3 +462,9 @@ Hinweise:
 | slug:bb-neuenhagen-15366-pries-friese-autoverwertungscenter (jetzt LFP KFZ-Werkstatt oHG) | Neuenhagen | Rosa-Luxemburg-Damm 1 | 15366 | +493342-23448-0 | info@kfz-werkstatt-neuenhagen.de | Mo-Fr 7-18 | http://www.pries-und-friese.de |
 | Autoankauf Potsdam | Potsdam | Verkehrshof 12 | 14478 | 0331 5858558 (mobil 0179 48 55 580) | n.e. | Mo-Fr 10-19, Sa nach Vereinbarung | http://autoankauf-potsdam.com/ |
 | H&S Abschleppdienst GmbH | Rathenow | Rhinower Str. 35 | 14712 | 03385 512757 | hsautomobile(at)aol.com | Mo-Fr 7:30-17, Sa nach Vereinbarung | http://www.hs-abschleppdienst.de |
+
+## Nachtrag Feedback-Funde (29.09.2026)
+
+| Name | Ort | Adresse | Website | Spezialität | Ankauf | Telefon | E-Mail | Öffnungszeiten |
+|---|---|---|---|---|---|---|---|---|
+| Goldkontor Cottbus GmbH | Cottbus | Sandower Straße 52, 03046 Cottbus | https://www.goldkontor-cottbus.de/ | Edelmetallankauf (Münzen/Barren, Grenzfall) | ja | +49 355 866 898 99 | office@goldkontor-cottbus.de | Mo–Fr 10:00–13:00 und 14:00–18:00 |

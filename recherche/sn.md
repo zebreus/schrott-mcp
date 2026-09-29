@@ -587,3 +587,11 @@ nicht im Seed: schrott-winter.de (Lengenfeld), schrotthandel-kamenz.de (Spam-Red
 | Antik & Kunst Dresden (R. Goralski) | Dresden | Großenhainer Str. 183 | 01129 | 0351/8488601 | antiknachlass@web.de | Mo-Fr 10-18 Uhr, Sa nach Vereinbarung | https://www.antik-kunst-dresden.de |
 | Girod GmbH / Goldankauf Dresden | Dresden | Borsbergstr. 19b | 01309 | +49 (0)351 312 47 37 | n.e. | Mo, Mi-Fr 10-14 und 16-18 Uhr; Di geschlossen | https://goldankauf-dresden.com |
 | Sven Asmuss Haushaltsauflösung | Werdau | August-Bebel-Strasse 60 | 08412 | 0152 5530 5909 | n.e. | Mo-Do 9-17, Fr 9-16 | https://haushaltsaufloesung-werdau.de |
+
+## Nachtrag Feedback-Funde (29.09.2026)
+
+| Name | Ort | Adresse | Website | Spezialität | Ankauf | Telefon | E-Mail | Öffnungszeiten |
+|---|---|---|---|---|---|---|---|---|
+| Rohstoff-Recycling Gebrüder Gubisch GmbH | Zittau | Max-Müller-Straße 25, 02763 Zittau | https://www.gubisch-online.de/ | Schrott-/Buntmetallhandel | ja | 03583 / 70 42 12 | info@gubisch-online.de | Montag–Freitag 08:00–12:00 und 13:00–17:00, Samstag 09:00–11:00 |
+| Rohstoff-Recycling Gebrüder Gubisch GmbH (Annahmestelle Hirschfelde) | Hirschfelde | Straße zum Kraftwerk 2, 02788 Hirschfelde | https://www.gubisch-online.de/ | Annahmestelle | ja | 03583 / 70 42 12 | info@gubisch-online.de | Mo und Mi 07:00–16:00, Di und Do 07:00–16:30, Fr 07:00–15:00 |
+| B & R Recycling GbR | Marienberg | Äußere Annaberger Straße 12, 09496 Marienberg | https://br-recycling.com/ | Schrottankauf/-annahme | ja | 0172 3484895 | n.e. | Mo–Do 10–12 und 13–17, Fr 10–13 und 13–16 |

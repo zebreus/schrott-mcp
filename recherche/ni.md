@@ -120,7 +120,7 @@ Legende Ankauf: **ja** = kauft Schrott/Metalle an (Website/Portal bestätigt). *
 
 | Name | Ort | Website | Schwerpunkt | Ankauf |
 |---|---|---|---|---|
-| Hinnerk Schmidt GmbH (auch Verden/Syke/Achim) | Delmenhorst | https://hinnerk-schmidt.de | Metallhandel/Schrott | ja |
+| Hinnerk Schmidt GmbH (auch Verden/Syke/Achim) | Delmenhorst | https://hinnerk-schmidt.de — TOT (offline Platzhalter "Nichts los hier!", 29.09.2026) | Metallhandel/Schrott | ja |
 | Vedder & Stockrahm GmbH & Co. KG | Delmenhorst | https://vedder-stockrahm.de | NE-/Fe-Metalle | ja |
 | Bartels Metallhandels GmbH & Co. KG (auch Achim) | Delmenhorst | keine Website gefunden | Metallhandel | ja |
 | Johann Schröder GmbH (auch Syke/Osterholz) | Delmenhorst | keine Website gefunden | Schrott/Metalle | ja |
@@ -236,7 +236,7 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | Wilfried-Joachim Thiermann | St. Andreasberg (Katharina-Neufang-Str. 42A) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Klaus Schleifer Schrott + Metallhandel | Hörden am Harz (Mittelstr. 31) | keine (nur Verzeichnisbeleg) | Schrott/Metalle | Ankauf unklar |
 | GMAS GmbH | Goslar (Wolfenbütteler Str. 42) | gmasgmbh.de (nur Verzeichnisbeleg, nicht einzeln verifiziert) | Hart-/Sondermetalle (Harz, bergbaunah) | Ankauf unklar |
-| Recycling-Cluster Metalle / REWIMET | Goslar (Klubgartenstr. 5) | rewimet.de (nur Verzeichnisbeleg, nicht einzeln verifiziert) | Metalle/Demontage (Harz) | Ankauf unklar |
+| Recycling-Cluster Metalle / REWIMET | Goslar (Klubgartenstr. 5) | keine (falsche Website rewimet.de entfernt, 29.09.2026 — REWIMET e.V., Geschäftsstelle Clausthal-Zellerfeld, kein Händler) | Metalle/Demontage (Harz) | Ankauf unklar |
 | TSR Deutschland (Zweigstelle Einbeck) | Einbeck (Auf d. Lieben Frau) | https://www.tsr-recycling.de (Konzern, Verzeichnisbeleg) | Fe-/NE-Metalle, Container/Demontage | ja |
 
 ### Holzminden / Weserbergland-Süd (neu)
@@ -336,11 +336,11 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | Schrottplatz (ohne Namen) | Ribbesbüttel (Ausbütteler Siedlung, LK Gifhorn) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Rolf Wertheimer Schrott & Metallhandel | Lüneburg (In d. Marsch 16) | wertheimer-lueneburg.de (nur Verzeichnisbeleg) | Schrott, Container | Ankauf unklar |
 | MADI Metall Recycling GmbH | Rosengarten (Ohepark 5, LK Harburg) | madi-schrott.de (nur Verzeichnisbeleg) | Schrott, Container/Demontage | Ankauf unklar |
-| Deich Metall | Wanna (Am Kirchberg 1, bei Cuxhaven) | deich-metall.de (nur Verzeichnisbeleg) | Alu/Kabel/E-Motoren/Zinn, Demontage | Ankauf unklar |
+| Deich Metall | Wanna (Am Kirchberg 1, bei Cuxhaven) | deich-metall.de (nur Verzeichnisbeleg) — TOT (STRATO offline "Domain not available", 29.09.2026) | Alu/Kabel/E-Motoren/Zinn, Demontage | Ankauf unklar |
 | Haucke Recycling Hof | Sassenburg (Im Parsau 22; Fam. Haucke – Bezug zu „Ute Haucke“ Wolfsburg oben) | schrotthandel-haucke.de (nur Verzeichnisbeleg) | Schrott, Container | Ankauf unklar |
 | Schrotthandel Wilhelm Bäcker | Wolfenbüttel (Immenhof 9; mögl. Bezug zu Bäcker & Söhne Salzgitter) | jimdosite.com (nur Verzeichnisbeleg) — TOT | Schrott | Ankauf unklar |
 | Schrotthandel Sorich | Salzgitter-Fredenberg (Liebermannstr. 11) | schrotthandelsorich.de (nur Verzeichnisbeleg) — TOT | Alu/Kupfer/Stahl, Demontage | Ankauf unklar |
-| Schrotthandel Weber | Salzgitter-Gebhardshagen | weber-recycling.de (nur Verzeichnisbeleg) | Alu/Blei/E-Motoren/Kupfer/Kabel, Container/Demontage | Ankauf unklar |
+| Schrotthandel Weber | Salzgitter-Gebhardshagen | keine (falsche Website weber-recycling.de entfernt, 29.09.2026 — gehört Weber Recycling Wolfenbüttel, Im Kleinen Feld 62) | Alu/Blei/E-Motoren/Kupfer/Kabel, Container/Demontage | Ankauf unklar |
 | Fredi Bäcker Schrotthandel | Salzgitter-Bleckenstedt (Alte Gärtnerei 13) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Schrott & Metalle – Adelhof | Salzgitter-Watenstedt (Hainholzweg 3) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Schrotthandel Uwe Schäfer | Hambühren (Wildpfad 8, LK Celle) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |

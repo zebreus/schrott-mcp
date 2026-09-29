@@ -62,8 +62,8 @@ Neue Winkel: Kleinanzeigen-Pro (Saarland-Filter), schrottradar.de/schrottplatz-i
 |---|------|-----|---------|-------------|--------|
 | 43 | PRISON Schrott- & Metallhandel (Michael Prison) | Homburg (Gleisdreieck 8) | https://pr-metallhandel.de/ (Rebrand, per Fetch verifiziert) | alle Metalle, Abholung ab 500 kg, Container, Demontage | ja |
 | 44 | MC Rohstoffrecycling GmbH | Homburg (In den Rohrwiesen 18) | https://mc-rohstoffrecycling.de/ | Schrott, NE-Metalle, Bleibatterien; Container 5–30 m³; ISO-9001-zertifiziert | ja |
-| 45 | Ludwig Feix & Sohn GmbH (präzisiert Nr. 33) | Bexbach-Oberbexbach (Obere Hochstr. 161) | https://www.schrottentsorgung-feix.de/ (lt. Verzeichnissen; Direktabruf fehlgeschlagen) | Kupfer, Alu, Edelstahl, Messing, Zinn/Zink, Blei, Kabel; Demontage, Container | ja (lt. Verzeichnissen) |
-| 46 | Schrotthandel Weiler Bärbel | Merchweiler (Eisenbahnstr. 1) | http://schrott-wb.de/ (lt. Verzeichnis) | Eisen (ab 100 kg), NE (ab 1 kg), Kabel, E-Motoren, Altfahrzeuge | ja (lt. Verzeichnis) |
+| 45 | Ludwig Feix & Sohn GmbH (präzisiert Nr. 33) | Bexbach-Oberbexbach (Obere Hochstr. 161) | https://www.schrottentsorgung-feix.de/ (lt. Verzeichnissen; Direktabruf fehlgeschlagen) — TOT (DNS NXDOMAIN, 29.09.2026) | Kupfer, Alu, Edelstahl, Messing, Zinn/Zink, Blei, Kabel; Demontage, Container | ja (lt. Verzeichnissen) |
+| 46 | Schrotthandel Weiler Bärbel | Merchweiler (Eisenbahnstr. 1) | http://schrott-wb.de/ (lt. Verzeichnis) — TOT (DNS NXDOMAIN, 29.09.2026) | Eisen (ab 100 kg), NE (ab 1 kg), Kabel, E-Motoren, Altfahrzeuge | ja (lt. Verzeichnis) |
 | 47 | Schrott Weiler Matthias (wahrsch. gleiche Familie wie Nr. 46) | Merchweiler (Eisenbahnstr. 1a) | keine Website gefunden | Schrott | ja (lt. Verzeichnis) |
 | 48 | König Containerdienst (Albano Weiß) | Freisen (Pfalzstr. 1; Einsatzgebiet u. a. St. Wendel, Neunkirchen, Saarland) | https://koenig-containerdienst.de/schrott-metallhandel (per Fetch verifiziert) | alle Metalle zu Tagespreisen, Abholung | ja |
 | 49 | Schrott Manz Alexander | St. Wendel (Am Dilling 10) | keine Website gefunden | Schrott | unklar |

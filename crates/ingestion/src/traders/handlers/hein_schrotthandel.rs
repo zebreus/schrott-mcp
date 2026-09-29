@@ -220,10 +220,13 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
                 return Some(("kabel-kupfer", "90%"));
             }
             if l.contains("blei") {
-                return Some(("kabel-kupfer", "Blei"));
+                // Bleimantel-Kabel (auch Kupfer-Blei-Mischkabel) ist kein
+                // Kupferkabel: 0,45 €/kg würde die Cu-Kabel-Reihe (3-5 €/kg)
+                // korrumpieren. Eigenes Material seit Feedback #133.
+                return Some(("kabel-blei", "Blei"));
             }
             if l.contains("stecker") {
-                return Some(("kabel-kupfer", "mit Stecker"));
+                return Some(("kabel-mit-stecker", "mit Stecker"));
             }
             if l.contains("telefon") {
                 return Some(("kabel-kupfer", "Telefon"));
@@ -962,7 +965,7 @@ mod tests {
             ),
             (
                 "Kupfer-Blei-Kabel ohne Teer (fettfrei)",
-                Some(("kabel-kupfer", "Blei")),
+                Some(("kabel-blei", "Blei")),
             ),
             ("Kupfer-Fe Kühler", None),
             (
@@ -988,7 +991,7 @@ mod tests {
             ("Kupferkabel 38-40%", Some(("kabel-kupfer", "38-40%"))),
             (
                 "Kupferkabel mit Stecker",
-                Some(("kabel-kupfer", "mit Stecker")),
+                Some(("kabel-mit-stecker", "mit Stecker")),
             ),
             ("Kupferkabel unverzinnt 50%", Some(("kabel-kupfer", "50%"))),
             ("Kupferkabel unverzinnt 60%", Some(("kabel-kupfer", "60%"))),

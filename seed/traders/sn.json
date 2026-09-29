@@ -200,31 +200,6 @@
   }
  },
  {
-  "slug": "sn-7-h-nestler",
-  "name": "H. Nestler GmbH & Co. KG",
-  "trader_type": "schrotthaendler",
-  "description": "",
-  "street": "",
-  "postcode": "",
-  "phone": "",
-  "email": "",
-  "opening_hours": "",
-  "city": "7)",
-  "state": "SN",
-  "website": "https://www.nestleronline.de",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "aktiv",
-  "notes": "Schrott-/Altmetall-/Edelmetall-Ankauf | zahlt Wert direkt aus",
-  "provenance": {
-   "seed_file": "sn",
-   "section": "1) Dresden, Freital, Heidenau, Pirna",
-   "ankauf_raw": "ja",
-   "origin": "table"
-  }
- },
- {
   "slug": "sn-freital-walter-kunze-schrott-und-metallhandels-n",
   "name": "Walter Kunze Schrott- und Metallhandels GmbH, NL Freital",
   "trader_type": "metallhaendler",
@@ -4375,31 +4350,6 @@
   }
  },
  {
-  "slug": "sn-28-34-prezero-pyral",
-  "name": "PreZero Pyral GmbH",
-  "trader_type": "sonstige",
-  "description": "",
-  "street": "",
-  "postcode": "",
-  "phone": "",
-  "email": "",
-  "opening_hours": "",
-  "city": "28-34)",
-  "state": "SN",
-  "website": "",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "pruefung",
-  "notes": "Alu-Verbund/Pyrolyse; Lagern/Behandeln | AG Chemnitz HRB 33619, ex PYRAL AG (s. Korrekturen); kein Privatkunden-Ankauf",
-  "provenance": {
-   "seed_file": "sn",
-   "section": "Nachtrag Audit-Runde 4 (27.09.2026)",
-   "ankauf_raw": "unklar (B2B-Flag)",
-   "origin": "table"
-  }
- },
- {
   "slug": "sn-halsbrucke-muldenhutten-remondis-industrie-service-nl-freiberg-m",
   "name": "REMONDIS Industrie Service GmbH & Co. KG, NL Freiberg-Muldenhütten",
   "trader_type": "sonstige",
@@ -6246,6 +6196,81 @@
    "seed_file": "sn",
    "section": "Nachtrag Wide-Net (27.09.2026)",
    "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-zittau-rohstoff-recycling-gebruder-gubisch",
+  "name": "Rohstoff-Recycling Gebrüder Gubisch GmbH",
+  "trader_type": "metallhaendler",
+  "description": "",
+  "street": "Max-Müller-Straße 25",
+  "postcode": "02763",
+  "phone": "03583 / 70 42 12",
+  "email": "info@gubisch-online.de",
+  "opening_hours": "Montag–Freitag 08:00–12:00 und 13:00–17:00, Samstag 09:00–11:00",
+  "city": "Zittau",
+  "state": "SN",
+  "website": "https://www.gubisch-online.de/",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "aktiv",
+  "notes": "Schrott-/Buntmetallhandel | Adresse: Max-Müller-Straße 25, 02763 Zittau",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Feedback-Funde (29.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-hirschfelde-rohstoff-recycling-gebruder-gubisch-anna",
+  "name": "Rohstoff-Recycling Gebrüder Gubisch GmbH (Annahmestelle Hirschfelde)",
+  "trader_type": "sonstige",
+  "description": "",
+  "street": "Straße zum Kraftwerk 2",
+  "postcode": "02788",
+  "phone": "03583 / 70 42 12",
+  "email": "info@gubisch-online.de",
+  "opening_hours": "Mo und Mi 07:00–16:00, Di und Do 07:00–16:30, Fr 07:00–15:00",
+  "city": "Hirschfelde",
+  "state": "SN",
+  "website": "https://www.gubisch-online.de/",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "aktiv",
+  "notes": "Annahmestelle | Adresse: Straße zum Kraftwerk 2, 02788 Hirschfelde",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Feedback-Funde (29.09.2026)",
+   "ankauf_raw": "ja",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "sn-marienberg-b-r-recycling",
+  "name": "B & R Recycling GbR",
+  "trader_type": "schrotthaendler",
+  "description": "",
+  "street": "Äußere Annaberger Straße 12",
+  "postcode": "09496",
+  "phone": "0172 3484895",
+  "email": "",
+  "opening_hours": "Mo–Do 10–12 und 13–17, Fr 10–13 und 13–16",
+  "city": "Marienberg",
+  "state": "SN",
+  "website": "https://br-recycling.com/",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "aktiv",
+  "notes": "Schrottankauf/-annahme | Adresse: Äußere Annaberger Straße 12, 09496 Marienberg",
+  "provenance": {
+   "seed_file": "sn",
+   "section": "Nachtrag Feedback-Funde (29.09.2026)",
+   "ankauf_raw": "ja",
    "origin": "table"
   }
  }

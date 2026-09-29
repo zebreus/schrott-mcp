@@ -4211,12 +4211,12 @@
   "opening_hours": "Mo-Fr 7-18",
   "city": "Neuenhagen 15366",
   "state": "BB",
-  "website": "http://www.pries-und-friese.de",
+  "website": "",
   "website_status": "",
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "AV — seit 01/2023 an LFP Werkstatt übergeben (NEU — schließt BE-Lücke!) | Adresse: Neuenhagen 15366 | Adressbeleg: pries-und-friese.de | Adressbeleg: http://www.pries-und-friese.de",
+  "notes": "AV — seit 01/2023 an LFP Werkstatt übergeben (NEU — schließt BE-Lücke!) | urspr. Website-Angabe: keine (falsche Website pries-und-friese.de entfernt, 29.09.2026 — Betrieb seit 02.01.2023 an LFP KFZ-Werkstatt oHG übergeben, keine AV mehr) | Adresse: Neuenhagen 15366 | Adressbeleg: pries-und-friese.de | Adressbeleg: http://www.pries-und-friese.de",
   "provenance": {
    "seed_file": "bb",
    "section": "Nachtrag Wide-Net (27.09.2026)",
@@ -4396,6 +4396,31 @@
    "seed_file": "bb",
    "section": "Nachtrag Wide-Net (27.09.2026)",
    "ankauf_raw": "unklar",
+   "origin": "table"
+  }
+ },
+ {
+  "slug": "bb-cottbus-goldkontor-cottbus",
+  "name": "Goldkontor Cottbus GmbH",
+  "trader_type": "sonstige",
+  "description": "",
+  "street": "Sandower Straße 52",
+  "postcode": "03046",
+  "phone": "+49 355 866 898 99",
+  "email": "office@goldkontor-cottbus.de",
+  "opening_hours": "Mo–Fr 10:00–13:00 und 14:00–18:00",
+  "city": "Cottbus",
+  "state": "BB",
+  "website": "https://www.goldkontor-cottbus.de/",
+  "website_status": "",
+  "dropoff_json": "",
+  "pickup_json": "",
+  "status": "aktiv",
+  "notes": "Edelmetallankauf (Münzen/Barren, Grenzfall) | Adresse: Sandower Straße 52, 03046 Cottbus",
+  "provenance": {
+   "seed_file": "bb",
+   "section": "Nachtrag Feedback-Funde (29.09.2026)",
+   "ankauf_raw": "ja",
    "origin": "table"
   }
  }

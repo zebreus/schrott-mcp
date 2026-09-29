@@ -74,14 +74,38 @@ def clean_website(raw: str) -> tuple[str, str, str]:
     a dead address is still their address."""
     s = raw.replace("**", "").strip()
     status = ""
-    m = re.search(r"\s+[—–-]\s*([^—–()]*)$|\(([^()]*)\)$", s)
-    if m:
-        marker = (m.group(1) or m.group(2) or "").lower()
-        if re.search(r"\btot\b|dead|offline|erloschen|dns|timeout|geparkt|kommt bald|coming soon", marker):
+    # Collect ALL trailing annotations ("— TOT (DNS …)", "domain TOT"):
+    # the last paren alone may carry no keyword while an earlier marker
+    # does — checking only the tail dropped those (r-m-sondershausen).
+    markers = []
+    while True:
+        m = re.search(r"\(([^()]*)\)$", s)
+        if m:
+            markers.append(m.group(1))
+            s = s[: m.start()].strip()
+            continue
+        m = re.search(r"\s+[—–-]\s*([^—–()]*)$", s)
+        if m:
+            markers.append(m.group(1))
+            s = s[: m.start()].strip()
+            continue
+        m = re.search(r"\s*\b[Tt][Oo][Tt]\b\.?$", s)
+        if m:
+            markers.append("tot")
+            s = s[: m.start()].strip()
+            continue
+        break
+    for marker in markers:
+        marker = marker.lower()
+        if re.search(r"\btot\b|dead|offline|erloschen|dns|timeout|geparkt|kommt bald|coming soon|platzhalter|de-facto-tot|defacto", marker):
             status = "tot"
-        elif re.search(r"blockiert|bot|403|429|captcha", marker):
-            status = "blockiert"
-        s = s[: m.start()].strip()
+            break
+    if not status:
+        for marker in markers:
+            marker = marker.lower()
+            if re.search(r"blockiert|bot|403|429|captcha", marker):
+                status = "blockiert"
+                break
     s = re.sub(r"\s*\(.*$", "", s).strip()  # other trailing "(...)" notes
     if not s or s in ("—", "-", "?", "/"):
         return "", status, ""
@@ -96,12 +120,33 @@ def clean_website(raw: str) -> tuple[str, str, str]:
 
 
 def split_sites(ort: str) -> list[str]:
-    """Split multi-site Ort cells on '+'. Returns city strings."""
-    if "+" in ort:
-        parts = [p.strip(" ,;") for p in ort.split("+")]
-        parts = [p for p in parts if p]
-        if 1 < len(parts) <= 12:
-            return parts
+    """Split multi-site Ort cells on '+'. Returns city strings.
+    Two guards against junk slugs: a '+' whose right side starts with a
+    digit/paren continues a street number ('3a+7', '37 + 28-34' — that bug
+    minted 'sn-7-h-nestler'), and '+' inside a '(≠ …)' disambiguation note
+    never splits ('Karlsruhe (≠ Rudi Kühn + RR Kühn/Seed)'). Branch lists
+    ('Weingarten (+ Mengen)', 'Jena (A-Str. 1 + B-Str. 40)') still split."""
+    if "+" not in ort:
+        return [ort]
+    masked = re.sub(
+        r"\([^()]*[≠][^()]*\)|\([^()]*!=\s[^()]*\)",
+        lambda m: m.group(0).replace("+", "\x01"),
+        ort,
+    )
+    parts, cur = [], ""
+    for i, ch in enumerate(masked):
+        # No split when the right side continues a street number ('3a+7',
+        # '37 + 28-34'); a 5-digit right side is a PLZ branch ('+ 04109').
+        if ch == "+" and not re.match(r"\s*\d{1,4}([^0-9]|$)", masked[i + 1:]):
+            parts.append(cur)
+            cur = ""
+        else:
+            cur += ch
+    parts.append(cur)
+    parts = [p.replace("\x01", "+").strip(" ,;") for p in parts]
+    parts = [p for p in parts if p]
+    if 1 < len(parts) <= 12:
+        return parts
     return [ort]
 
 
@@ -199,6 +244,9 @@ HEADER_MAP = [
     ("address", None),  # contains-match below
     ("note", re.compile(r"^(notiz|anmerkung|beleg|quelle|kommentar|quellen?$|anmerkungen|notizen)$", re.I)),
     ("size", re.compile(r"^(größe|groesse|size|groeße)$", re.I)),
+    ("email", re.compile(r"^(e-?mail|mail)$", re.I)),
+    ("hours", re.compile(r"^(öffnungszeiten|offnungszeiten|zeiten|hours)$", re.I)),
+    ("phone_col", re.compile(r"^(telefon|tel\.?|fon)$", re.I)),
 ]
 CITY_HINT = re.compile(r"\b(ort|stadt|stadtteil|bezirk|lage|standort|gemeinde|kreis|region)\b", re.I)
 ADDR_HINT = re.compile(r"\b(adresse|anschrift)\b", re.I)
@@ -300,7 +348,7 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
     upgrade_mode = False
 
     def emit(name_raw, city_raw, website_raw, spec_raw, ankauf_raw, extra_notes,
-            postcode="", street="", origin="table"):
+            postcode="", street="", origin="table", email="", hours="", phone_col=""):
         nonlocal entries
         name, flag_note = clean_name(name_raw)
         if not name or len(name) < 2:
@@ -318,6 +366,9 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
         cs, cp, cph = extract_contact(f"{name_raw} {city_raw} {notes}")
         street = street or cs
         postcode = postcode or cp
+        phone = clean_field(phone_col) or cph
+        email = email if "@" in email else ""
+        hours = hours if hours.strip().lower() not in ("", "n.e.", "—", "-", "keine", "unbekannt") else ""
         first_city = city_of(cities[0]) if cities else ""
         ident = norm_identity(name, first_city)
         if ident in seen_identity and ident[0]:
@@ -340,9 +391,9 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
                 "description": "",
                 "street": street,
                 "postcode": postcode,
-                "phone": cph,
-                "email": "",
-                "opening_hours": "",
+                "phone": phone,
+                "email": email,
+                "opening_hours": hours,
                 "city": city or site.strip(),
                 "state": stem.upper(),
                 "website": website,
@@ -475,7 +526,8 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
             extra = " ".join(p for p in [get("note"), get("size") and f"Größe: {get('size')}",
                                         addr_raw and f"Adresse: {addr_raw}"] if p)
             emit(name_raw, city_raw, get("website"), get("spec"), get("ankauf"), extra,
-                 postcode=postcode, street=street if street != addr_raw else "", origin="table")
+                 postcode=postcode, street=street if street != addr_raw else "", origin="table",
+                 email=get("email"), hours=get("hours"), phone_col=get("phone_col"))
             stats["table_rows"] += 1
             continue
         header = None

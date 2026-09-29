@@ -495,7 +495,7 @@ Die übrigen drei Handoff-Zeilen (Max Buck, R. Metall, Reinhardt Ulm) sind Seed-
 | OSR Metallrecycling GmbH & Co. KG | Aalen-Unterkochen 73432, Wöhrstr. 15 | https://www.osr-metallrecycling.de | Schrott/Sekundärrohstoffe — "An- und Verkauf" (NEU) | unklar |
 | Wagner GmbH Rohstoffe und Transporte | Dettingen/Erms 72581, Vogelsangstr. 2 | https://www.entsorgung-wagner.de | Rohstoffe/Schrott/Papier/Container — seit 1903 (NEU) | unklar |
 | HANDELundVERTRIEB.de | Bopfingen 73441 | https://handelundvertrieb.de | NE/Kabel/Altgold/Industrie — kauft Altgold/Tafelsilber + NE/Kabel (NEU) | ja |
-| Autoverwertung Christ GmbH | Rastatt 76437, Zollersbühnstr. 7 | https://autoverwertung-christ.de | Altauto/Teile — "Schrottpreis" + Shop (NEU) | unklar |
+| Autoverwertung Christ GmbH | Rastatt 76437, Zollersbühnstr. 7 | keine (falsche Website autoverwertung-christ.de entfernt, 29.09.2026 — gehört Autoverwertung Christ GmbH, Daimlerstr. 8, 68799 Reilingen; kein Standort Rastatt) | Altauto/Teile — "Schrottpreis" + Shop (NEU) | unklar |
 | kostenlose Autoverwertung | Dettingen/Teck 73265, Goethestr. 3 | https://www.kostenlose-autoverwertung.eu | Altauto/Unfall — "Barzahlung" (NEU) | ja |
 
 ## Nachtrag Mömlingen-70km (27.09.2026)

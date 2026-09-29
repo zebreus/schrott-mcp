@@ -250,6 +250,13 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Kabelschrott mit Stecker, eigene Sorte unter blankem Kabel.",
     ),
     (
+        "kabel-blei",
+        "Bleikabel (bleiummantelt)",
+        "kabel",
+        "EUR/kg",
+        "Bleiummantelte Kabel (auch Kupfer-Blei-Mischkabel); eigene Sorte, kein Kupferkabel.",
+    ),
+    (
         "elektromotoren",
         "Elektromotoren",
         "elektronik",

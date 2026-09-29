@@ -207,7 +207,7 @@ Stand: 2026-09-27. Methode: curl-Verifikation aller Kandidaten-Websites (HTTP-St
 | Hansa-Goldankauf | Lokstedt, Siemersplatz 1, 22529 | https://hansa-goldankauf.de/ | Altgold, Zahngold (Goldrechner). PREISLISTE: https://hansa-goldankauf.de/ | ja |
 | Goldstübchen Inh. Erkan Say | Eilbek, Wandsbeker Chaussee 283, 22089 | https://www.goldstuebchen.de/ | Gold/Schmuck/Zahngold/Silber-Ankauf | ja |
 | Goldrausch By MK Inh. M. Kosik | Niendorf, Tibarg 38, 22459 | https://goldrausch-hamburg.de/ | Gold/Silber/Zahngold/Zinn/Kupfer-Ankauf | ja |
-| Goldankauf 111 | Groß Borstel, Borsteler Chaussee 179, 22453 | gold-silberankauf-hamburg.de lt. Verzeichnis (Fetch ausstehend) | Gold-/Silberankauf, Zahngold (30 J. Erfahrung) | ja |
+| Goldankauf 111 | Groß Borstel, Borsteler Chaussee 179, 22453 | keine (falsche Website gold-silberankauf-hamburg.de entfernt, 29.09.2026 — Impressum: Goldtrans, Ahrensburger Str. 69, 22041 Hamburg) | Gold-/Silberankauf, Zahngold (30 J. Erfahrung) | ja |
 | Goldlieb | Billstedt, Billstedter Hauptstr. 84, 22117 | https://www.goldlieb.de/ | Gold/Silber/Altschmuck/Zahngold/Platin (seit 25 J.) | ja |
 | Juweliercivan Goldankauf | Eilbek, Wandsbeker Chaussee 5, 22089 | https://juweliercivan.de/ | Altgold/Zahngold/Münzen/Barren | ja |
 | Gold & Silber Ankauf George & Söhne Juwelier | Poppenbüttel, Harksheider Str. 6, 22399 | gold-silber-ankauf-george.de lt. Verzeichnis (Fetch ausstehend) | Gold/Silber/Zahngoldankauf | ja |
@@ -250,7 +250,7 @@ Tote/umgeleitete Seed-Websites aus hh.json (curl-Sweep 27.09.2026):
 |---|---|---|---|---|
 | Buhck Abfallverwertung und Recycling (ex-AUA) | Billbrook 22113, Liebigstr. 64 | https://www.aua-container.de | Rohstoffhandel/Container/Recyclinghof — Telefonbuch "Rohstoffhandel" → AUA Rohstoffhandel → Buhck; eigener Rohstoffhandel (Hapke übernommen 2021) + Recyclinghof (NEU) | unklar |
 | Ludwig Melosch Entsorgungs-Sparte | Altona-Nord 22769, Waidmannstr. 16 | https://www.melosch.de | Entsorgung/Wertstoffhandel — GS "Wertstoffhandel" → "Entsorgung von Schrott" (NEU — gleiche Adresse wie Seed Melosch Export = Schwesterfirma, trennen!) | unklar |
-| Hamburger Schrotthandel→ PRÜFFALL: Hamburger Schrotthandel? Nein: "Hamburger Schrott" | Iserbrook 22589, Heerbrook 4 | hamburger-schrott.de TOT | Schrott — nur Verzeichnis + Tel 0173 6110524 (PRÜFFALL) | unklar |
+| Hamburger Schrotthandel→ PRÜFFALL: Hamburger Schrotthandel? Nein: "Hamburger Schrott" | Iserbrook 22589, Heerbrook 4 | hamburger-schrott.de — TOT (DNS NXDOMAIN, 29.09.2026) | Schrott — nur Verzeichnis + Tel 0173 6110524 (PRÜFFALL) | unklar |
 - VERWORFEN (Audit): Goldbright Trading GmbH — SCHWACH (Metall-Ankauf unbelegt, Homepage falsch — nur bei HRB-Verifizierung)
 
 ## Nachtrag Adressen (29.09.2026)

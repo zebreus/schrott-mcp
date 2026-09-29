@@ -159,8 +159,8 @@ Das Örtliche (alle URL-Muster 404/Bot-Wand) durch Gelbe Seiten ersetzt.
 | IKSCHROTT rovocar | Geraberg (Arnstädter Str. 7) | http://www.ikschrott.de | Schrottabholung Ilmkreis (Abruf), Fahrzeug-/Gebrauchtwagen-Ankauf, Bagger/Abriss | ja (Abholung, Fahrzeugankauf) | UPGRADE: Website verifiziert („Wir bauen um", aber aktiv m. Tel.); GS Ilmenau einziger Treffer |
 | Containerdienst Zimmermann (Inh. Detlef Zimmermann) | Mühlhausen (Ernst-Claes-Str. 15) | https://www.container-zimmermann.de | Container, Recyclinghof (Schrottannahme), Baustoffe, Entrümpelung; seit 1992 | ja (Recyclinghof-Annahme) | UPGRADE: Name + Website verifiziert (Runde-3-Korrektur bestätigt) |
 | Gebrüder Aurin Containerdienst | Hamma (Siebenackerweg 1) | https://gebrueder-aurin.de/ | Container, Entsorgungsfachbetrieb | Ankauf unklar | UPGRADE: Website verifiziert |
-| R&M Schrotthandel | Sondershausen (Am Petersenschacht 13) | http://www.rm-schrotthandel.de — TOT (Transport-Fail; Firma auf GS Erfurt/Nordhausen aktiv) | Schrott (allg.) | Ankauf unklar | Dead-Site-Verdacht (ohne Löschung); GS-Einträge aktiv |
-| Fernkorn Albert e.K. | Weimar (Rießnerstr. 1) | http://www.fernkorn-weimar.de — TOT (Transport-Fail) | Metallhandel, Containerdienst | Ankauf unklar | Dead-Site-Verdacht (ohne Löschung); GS Weimar aktiv, Tel. 03643 202611 = Thüringen Recycling (Nachbar/Rufnummer identisch) |
+| R&M Schrotthandel | Sondershausen (Am Petersenschacht 13) | http://www.rm-schrotthandel.de — TOT (Transport-Fail, DNS NXDOMAIN 29.09.2026; Firma auf GS Erfurt/Nordhausen aktiv) | Schrott (allg.) | Ankauf unklar | Dead-Site-Verdacht (ohne Löschung); GS-Einträge aktiv |
+| Fernkorn Albert e.K. | Weimar (Rießnerstr. 1) | http://www.fernkorn-weimar.de — TOT (Transport-Fail, DNS NXDOMAIN 29.09.2026) | Metallhandel, Containerdienst | Ankauf unklar | Dead-Site-Verdacht (ohne Löschung); GS Weimar aktiv, Tel. 03643 202611 = Thüringen Recycling (Nachbar/Rufnummer identisch) |
 | Hugo Entsorgung GmbH | Erfurt (Ladestr. 3) | http://www.hugo-bebra.eu — TOT | Entsorgung + Schrott | Ankauf unklar | Dead-Site-Verdacht (ohne Löschung) |
 
 Geprüfte CORRECTIONS (ohne Löschung):

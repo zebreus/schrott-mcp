@@ -8,7 +8,7 @@ belegt oder nur Verzeichniseintrag. Autoverwerter nur mit Flag aufgenommen.
 |---|------|-----|---------|-------------|--------|
 | 1 | H.L.R. Rohstoffhandel GmbH | Mainz-Mombach | https://www.hlr-rohstoffhandel.de | FE-/NE-Schrott, Buntmetalle, Kabel, Kata, Container, Demontage | Ankauf Ja |
 | 2 | Mainzer Kübeldienst Christ | Mainz-Gonsenheim | https://kuebeldienst-christ.de/schrotthandel | Stahl, Guss, Alu, Messing, Kupfer, Kabel, Zinn; Containerdienst | Ankauf Ja |
-| 3 | Taurus Entsorgungs GmbH | Heidesheim (Ingelheim) | https://taurus-gmbh.de | Schrott, Altmetall-Ankauf zu Tageshöchstpreisen, Container | Ankauf Ja |
+| 3 | Taurus Entsorgungs GmbH | Heidesheim (Ingelheim) | https://taurus-gmbh.de — TOT (DNS NXDOMAIN, 29.09.2026) | Schrott, Altmetall-Ankauf zu Tageshöchstpreisen, Container | Ankauf Ja |
 | 4 | E&O Entsorgung GmbH | Bingen | https://eo-entsorgung.de/schrott-metalle | Alu, Kupfer, Messing, Kabel, Edelstahl, E-Schrott; Mindestmengen! | Ankauf Ja |
 | 5 | Faß Rohstoffrecycling (Herbert Faß) | Worms | https://fass-rohstoffrecycling.de/ | Eisen, Guss, V2A, Alu, Kupfer, Messing, Blei, Zink, Zinn, Altauto | Ankauf Ja |
 | 6 | Nalu Metall und Recycling GmbH | Worms | https://nalu-schrott.de/ | Alt-/Eisen-/NE-/Buntmetalle, Container, Barzahlung | Ankauf Ja |

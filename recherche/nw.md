@@ -330,7 +330,7 @@ Dortmund/Duisburg/Gelsenkirchen-Profile waren per Fetch blockiert (nur R1/R2-Sta
 | A-Z-Altmetalle Kelbassa | Vlotho (Valdorf) | keine gefunden | An der Autobahn 5, nur schrottradar-Profil | unklar |
 | Wilhelm Bötzel GmbH & Co. KG | Witten-Buchholz | https://boetzel-schrott.com | Wittener Str. 170-176, nur schrottradar-Profil | unklar |
 | Müller & Sohn GmbH & Co. KG | Sprockhövel-Haßlinghausen | keine gefunden | Harkortstr. 22, nur schrottradar-Profil | unklar |
-| VCC Verwertungs-Centrum Castrop | Castrop-Rauxel (Ickern) | https://vcc-castrop.de/ (nur "Neue Website"-Platzhalter) | Deininghauser Weg 81 | unklar |
+| VCC Verwertungs-Centrum Castrop | Castrop-Rauxel (Ickern) | https://vcc-castrop.de/ (nur "Neue Website"-Platzhalter) — TOT (offline Platzhalter "Hier entsteht eine neue Website", 29.09.2026) | Deininghauser Weg 81 | unklar |
 | Huiskes Schrott- und Metallhandel | Waltrop (Addr.: Dortmund-Mengede) | keine gefunden | Büscherstr. 91, 45731 (Mengede-PLZ!), 0174-Nr. | mobil/unklar |
 | Schrott- & Metallhandel H. W. Nowakowski | Marl | keine gefunden | Zechenstr. 5, 0162-Nr. | mobil/unklar |
 | Schrott-Metall24 Rohproduktenhandel | Marl (Sinsen) | keine gefunden | Vor den Büschen 48, 0175-Nr. | mobil/unklar |
