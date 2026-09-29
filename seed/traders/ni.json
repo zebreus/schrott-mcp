@@ -7381,7 +7381,7 @@
   "description": "",
   "street": "Dieselstr. 12",
   "postcode": "31228",
-  "phone": "+49 5171 41310",
+  "phone": "+49 5171 41310 / 5171 733023",
   "email": "lager@stautmeister.com",
   "opening_hours": "Mo-Fr 9:00-17:00, Sa nur nach Absprache",
   "city": "Peine 31228",
@@ -7391,7 +7391,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Autoverwertung + Teileverkauf; eigenständig ggü. Staumeister Lehmkuhlenweg (Flag) | Adresse: Peine 31228, Dieselstr. 12 (Stederdorf) | Adressbeleg: stautmeister.com",
+  "notes": "Autoverwertung + Teileverkauf; eigenständig ggü. Staumeister Lehmkuhlenweg (Flag) | Adresse: Peine 31228, Dieselstr. 12 (Stederdorf) | Adressbeleg: https://stautmeister.com | Adressbeleg: stautmeister.com",
   "provenance": {
    "seed_file": "ni",
    "section": "Kept (36: 34/37 Kandidaten + MKV + Fair-Kat)",

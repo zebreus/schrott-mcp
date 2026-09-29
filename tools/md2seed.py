@@ -462,7 +462,10 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
             # directly if it exists, else keep as name for fuzzy.
             slug_override, name = name, ""
         street = col("street")
-        if not re.search(r"\d", street):
+        email = col("email")
+        hours = col("opening_hours")
+        if not re.search(r"\d", street) and "@" not in email \
+                and hours.strip().lower() in ("", "n.e.", "\u2014", "-", "keine", "unbekannt"):
             return
         city = col("city")
         bezirk = city if cols.get("is_bezirk", -1) == cols.get("city") else ""

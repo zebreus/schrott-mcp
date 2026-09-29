@@ -25,7 +25,7 @@ Legende Ankauf: **ja** = Ankauf belegt (Website/Register), **unklar** = Entsorge
 | B-U-R GmbH Bernhardt Umwelt Recycling | Sonsbeck / Lager Duisburg | https://www.bur-recycling-duisburg.de | Metall/Mischschrott, Container, Demontage | unklar (Entsorgungsfokus) |
 | A. Mandel (Schrottaufbereitung, Recycling- u. Hafenumschlag) | Gelsenkirchen | keine Website gefunden | Schrottaufbereitung, Hafen (Uferstr. 39) | unklar |
 | GBT Schrott- u. Metallrecycling GmbH | Gelsenkirchen | https://www.gbt-recycling.de (unverifiziert) | Schrott/Metall (Hobackestr. 92) | unklar |
-| Rohstoffhandel Heinrichs GmbH | Gelsenkirchen | https://heinrichs-group.com | Schrottankauf (nur Branchenhinweis) | unklar |
+| Rohstoffhandel Heinrichs GmbH | Gelsenkirchen (Am Dördelmannshof 30, 45886) | https://heinrichs-group.com | Schrottankauf (nur Branchenhinweis); Entsorger/Container, Handel Eisen/Metalle/Schrott | unklar |
 | Heidelbach Metall Recycling GmbH | Gladbeck | https://www.heidelbach-gladbeck.de | Schrott/Metall (nur 11880-Nennung); seit 1934, Anlieferung Mo-Sa | unklar |
 
 ## Dortmund / Hagen / Ennepetal
@@ -444,7 +444,7 @@ abfragbar; GS-/Firmenprofile über 11880/schrottradar-Adress-/Telefonbelege komp
 |---|---|---|---|---|
 | AlCuNiMet GmbH | Dortmund-Hörde | keine (Feldmark 2, 44267, 02304 779252) | NE-/Legierungs-Profil (Namens-Typ AlCuNi) | unklar |
 | Wilhelm Raven Euro-Metall GmbH | Dortmund-Lütgendortmund | keine (Alter Hellweg 33, 44379, 0231 96420) | Metallgroßhandel-Profil | unklar |
-| Helmut Mösta Metallgroßhandel GmbH & Co. KG | Dortmund-Eving | https://moesta-metalle.de | Metallgroßhandel-Profil | unklar |
+| Helmut Mösta Metallgroßhandel GmbH & Co. KG | Dortmund-Eving (Dammstr. 2-10, 44145) | https://moesta-metalle.de | Metallgroßhandel-Profil; An- & Verkauf Altmetalle, Bar, Tagespreise | ja |
 | Walter Leidag GmbH | Dortmund | keine (Juliusstr. 28, 44145, 0231 815645) | Schrottplatz-Profil | unklar |
 | Heinrich Gestring GmbH & Co KG | Dortmund-Huckarde | keine (Franz-Schlüter-Str. 30, 44147, 0231 31978) | Schrottplatz-Profil | unklar |
 
@@ -910,14 +910,12 @@ Echt tot (4): marcusdroste.de (Marcus Droste Dinslaken — kein Connect http+htt
 | Name | Stadtteil/Adresse | Website | Spezialität | Ankauf |
 |---|---|---|---|---|
 | A. Menshen GmbH & Co. KG | Werdohl 58791, Im Ohl 7 | https://www.menshen.de | Metallhandel/Container — "Metallschrott/Stahlschrott: Wir kaufen", auch privat; Seed namenlos → UPGRADE-Kandidat | unklar |
-| Helmut Mösta Metallgroßhandel | Dortmund 44145, Dammstr. 2-10 | https://moesta-metalle.de | Metallhandel — "An- & Verkauf Altmetalle, Bar, Tagespreise"; UPGRADE-Kandidat ✓ done | ja |
 | Franz Plum GmbH & Co. KG | Alsdorf 52477, Carl-Zeiss-Str. 9 (Platz Am Güterbahnhof 5) | https://www.franz-plum.de | Metall/Container/Demontage — "An- und Verkauf Schrott/NE aller Art"; UPGRADE-Kandidat ✓ done | unklar |
 | Hydro Aluminium Recycling Deutschland GmbH | Dormagen 41542, Edisonstr. 5 | https://www.hydro.com/de/global/uber-hydro/hydro-weltweit/europe/deutschland/dormagen/hydro-aluminium-recycling-deutschland-gmbh | Alu-Recycling — 36.000 t Aluschrott-Einsatz/Jahr — Gießerei-Input-Käufer (NEU, kein Seed) | unklar |
 | AZ Containerdienst & Metallhandel (Zaim Abazovic) | Gummersbach-Dieringhausen 51645, Halstenbachstr. 3a | https://az-containerdienst.de | Container/Metallankauf — "/leistungen/schrott-metallankauf": Tagesnotierung (NEU) | ja |
 | HB-Metalle | Hamm 59073, Veistr. 60 | https://www.hb-metalle.de | Metallhandel/mobil — nur Handy + Impressum, LME-NE-Barankauf NRW (NEU) | ja |
 | Günter Allermann GmbH | Schwelm 58332, In der Graslake 46 | https://www.allermann-gmbh.de | Metallhandel — seit 1955, Cu/Bronze/Messing/Alu/Pb/Zn/Sn (NEU) | unklar |
 | Grafenberg-Metall GmbH | Krefeld 47807, Sterkenhofweg 27 | https://grafenberg-metall.com | Alu-Recycling/Metall — 55-60 kt Aluschrott/Jahr, VDM/BIR (NEU) | unklar |
-| Rohstoffhandel Heinrichs Group | Gelsenkirchen 45886, Am Dördelmannshof 30 | https://heinrichs-group.com | Entsorger/Container — Handel Eisen/Metalle/Schrott; UPGRADE-Kandidat ✓ done | unklar |
 | ECO Remarketing GmbH | Ennigerloh 59320, Westkirchener Str. 67 | https://www.eco-remarketing.com | IT-Remarketing/E-Schrott/NE — Vergütung Au/Ag/Cu, LME-Festpreise, BIR (NEU) | ja |
 | PIO Remarketing GmbH | Mönchengladbach 41066, Süchtelner Str. 65 | https://www.pio-remarketing.de | IT-Remarketing/E-Schrott — "kaufen alte IT-Hardware, 350.000 Assets/Jahr" (NEU) | unklar |
 | etree GmbH | Köln 50829, Mathias-Brüggen-Str. 160 | https://etree.de | IT-Remarketing/E-Schrott — "We purchase used IT hardware" (NEU, nur via Suche verifiziert) | unklar |
