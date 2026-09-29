@@ -166,18 +166,18 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
     } else if l.contains("elektromotor") {
         ("elektromotoren", "")
     } else if l.contains("lötzinn") || l.contains("loetzinn") {
-        ("zinn", "Lötzinn")
+        ("loetzinn", "Lötzinn")
     } else if l.contains("zinn") {
         // Grades: the range IS the grade ("Zinnschrott 90-95 % (Teller)").
         if l.contains("90") {
-            ("zinn", "90-95%")
+            ("zinn-geschirr", "90-95%")
         } else {
             ("zinn", "")
         }
     } else if l.contains("auswuchtblei") {
-        ("blei", "Auswuchtblei")
+        ("blei-auswucht", "Auswuchtblei")
     } else if l.contains("schälblei") || l.contains("schaelblei") {
-        ("blei", "Kabelschälblei")
+        ("blei-auswucht", "Kabelschälblei")
     } else if l.contains("altblei") || (l.contains("blei") && !l.contains("kabel")) {
         ("blei", "")
     } else if l.contains("messing") {
@@ -665,23 +665,23 @@ mod tests {
         );
         assert_eq!(
             grade_for("Zinnschrott 90-95 % (Teller)", TIER_BASE),
-            Some(("zinn", "90-95%"))
+            Some(("zinn-geschirr", "90-95%"))
         );
         assert_eq!(
             grade_for("Zinnschrott 90-95 % (Teller)", TIER_200),
-            Some(("zinn", "90-95%, ab 200 kg Überweisung"))
+            Some(("zinn-geschirr", "90-95%, ab 200 kg Überweisung"))
         );
         assert_eq!(
             grade_for("Zinnschrott Lötzinn", TIER_1000),
-            Some(("zinn", "Lötzinn, ab 1000 kg Überweisung"))
+            Some(("loetzinn", "Lötzinn, ab 1000 kg Überweisung"))
         );
         assert_eq!(
             grade_for("Auswuchtblei", TIER_200),
-            Some(("blei", "Auswuchtblei, ab 200 kg Überweisung"))
+            Some(("blei-auswucht", "Auswuchtblei, ab 200 kg Überweisung"))
         );
         assert_eq!(
             grade_for("Kabelschälblei Alt", TIER_BASE),
-            Some(("blei", "Kabelschälblei"))
+            Some(("blei-auswucht", "Kabelschälblei"))
         );
         assert_eq!(
             grade_for("Aluminiumschrott mit max. 5% Anhaftung", TIER_1000),

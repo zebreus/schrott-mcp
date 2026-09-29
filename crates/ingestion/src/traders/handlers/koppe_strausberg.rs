@@ -135,7 +135,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("zinn") {
         Some(("zinn", ""))
     } else if l.contains("auswuchtblei") {
-        Some(("blei", "Auswucht"))
+        Some(("blei-auswucht", "Auswucht"))
     } else if l.contains("altblei") {
         Some(("blei", ""))
     } else if l.contains("elektromotor") || l.contains("elektormotore") {
@@ -503,7 +503,7 @@ mod tests {
         assert_eq!(grade_for("Messing"), Some(("messing", "")));
         assert_eq!(grade_for("Messing Hülsen"), Some(("messing", "Hülsen")));
         assert_eq!(grade_for("Altblei"), Some(("blei", "")));
-        assert_eq!(grade_for("Auswuchtblei"), Some(("blei", "Auswucht")));
+        assert_eq!(grade_for("Auswuchtblei"), Some(("blei-auswucht", "Auswucht")));
         assert_eq!(grade_for("Elektormotore"), Some(("elektromotoren", "")));
         assert_eq!(
             grade_for("Elektromotore mit Getriebe"),

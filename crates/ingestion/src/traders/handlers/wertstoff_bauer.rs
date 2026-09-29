@@ -97,7 +97,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("altblei") {
         Some(("blei", "Alt"))
     } else if l.contains("wuchtblei") || l.contains("kabelblei") {
-        Some(("blei", "Wucht-/Kabelblei"))
+        Some(("blei-auswucht", "Wucht-/Kabelblei"))
     } else if l.contains("blei") {
         Some(("blei", ""))
     } else if l.contains("kabel") {
@@ -460,7 +460,7 @@ mod tests {
         assert_eq!(grade_for("Altblei"), Some(("blei", "Alt")));
         assert_eq!(
             grade_for("Wuchtblei / Kabelblei"),
-            Some(("blei", "Wucht-/Kabelblei"))
+            Some(("blei-auswucht", "Wucht-/Kabelblei"))
         );
         assert_eq!(grade_for("V2A"), Some(("edelstahl-v2a", "")));
         assert_eq!(grade_for("V4A"), Some(("edelstahl-v4a", "")));

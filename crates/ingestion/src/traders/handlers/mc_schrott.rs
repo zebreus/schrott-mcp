@@ -241,10 +241,10 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     }
     // Blei & Zink.
     if l.contains("schälblei") || l.contains("schaelblei") {
-        return Some(("blei", "Schälblei"));
+        return Some(("blei-auswucht", "Schälblei"));
     }
     if l.contains("auswuchtblei") {
-        return Some(("blei", "Auswuchtblei"));
+        return Some(("blei-auswucht", "Auswuchtblei"));
     }
     if l.contains("blei") {
         return Some(("blei", ""));
@@ -672,8 +672,8 @@ mod tests {
             ("Bohrer", None),
             ("Zink alt/neu", Some(("zink", ""))),
             ("Blei", Some(("blei", ""))),
-            ("Schälblei", Some(("blei", "Schälblei"))),
-            ("Auswuchtblei", Some(("blei", "Auswuchtblei"))),
+            ("Schälblei", Some(("blei-auswucht", "Schälblei"))),
+            ("Auswuchtblei", Some(("blei-auswucht", "Auswuchtblei"))),
             ("Altschrott Sorte 3", Some(("stahlschrott-scheren", "S3"))),
             ("Mischschrott", Some(("mischschrott", ""))),
             ("Gussschrott", Some(("eisenschrott-gussbruch", ""))),

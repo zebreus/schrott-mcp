@@ -102,13 +102,13 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("zinn") {
         // Grades: the range IS the grade ("Zinn 80% - 98% (Geschirr)" …).
         if l.contains("80%") {
-            Some(("zinn", "80-98%"))
+            Some(("zinn-geschirr", "80-98%"))
         } else if l.contains("70%") {
-            Some(("zinn", "70-79%"))
+            Some(("zinn-geschirr", "70-79%"))
         } else if l.contains("60%") {
-            Some(("zinn", "60-69%"))
+            Some(("zinn-geschirr", "60-69%"))
         } else if l.contains("50%") {
-            Some(("zinn", "50-59%"))
+            Some(("zinn-geschirr", "50-59%"))
         } else {
             Some(("zinn", ""))
         }
@@ -405,9 +405,9 @@ mod tests {
         );
         assert_eq!(
             grade_for("Zinn 80% - 98% (Geschirr)"),
-            Some(("zinn", "80-98%"))
+            Some(("zinn-geschirr", "80-98%"))
         );
-        assert_eq!(grade_for("Zinn 50% - 59%"), Some(("zinn", "50-59%")));
+        assert_eq!(grade_for("Zinn 50% - 59%"), Some(("zinn-geschirr", "50-59%")));
         // Hartmetall HAT Katalogmaterial (frühere None-Annahme war stale).
         assert_eq!(
             grade_for("Hartmetall Widia Platten und Bohrer"),

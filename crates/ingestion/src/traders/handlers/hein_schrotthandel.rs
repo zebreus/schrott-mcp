@@ -272,10 +272,10 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     // "Kupfer-Blei-Kabel", and these arms have no catch-all, so nothing
     // else misroutes here.
     if l.contains("auswuchtblei") {
-        return Some(("blei", "Auswuchtblei"));
+        return Some(("blei-auswucht", "Auswuchtblei"));
     }
     if l.contains("kabelschälblei") {
-        return Some(("blei", "Kabelschälblei"));
+        return Some(("blei-auswucht", "Kabelschälblei"));
     }
     if l.contains("altblei") {
         return Some(("blei", ""));
@@ -418,13 +418,13 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     // Zinn ("Lötzinn" before bare "Zinn").
     if l.contains("lötzinn") || l.contains("loetzinn") {
         if l.contains("30sn") {
-            return Some(("zinn", "30Sn/70Pb"));
+            return Some(("loetzinn", "30Sn/70Pb"));
         }
         if l.contains("50sn") {
-            return Some(("zinn", "50Sn/50Pb"));
+            return Some(("loetzinn", "50Sn/50Pb"));
         }
         if l.contains("60sn") {
-            return Some(("zinn", "60Sn/40Pb"));
+            return Some(("loetzinn", "60Sn/40Pb"));
         }
         return None;
     }
@@ -744,10 +744,10 @@ mod tests {
     fn mapping_covers_every_arm() {
         let cases: &[(&str, Option<(&str, &str)>)] = &[
             ("Altblei", Some(("blei", ""))),
-            ("Altblei (Auswuchtblei)", Some(("blei", "Auswuchtblei"))),
+            ("Altblei (Auswuchtblei)", Some(("blei-auswucht", "Auswuchtblei"))),
             (
                 "Altblei (Kabelschälblei) mit Anhaftungen",
-                Some(("blei", "Kabelschälblei")),
+                Some(("blei-auswucht", "Kabelschälblei")),
             ),
             (
                 "Aluminium Ausbauprofile",
@@ -1045,9 +1045,9 @@ mod tests {
             ("Zinn 80-85 % (Sofortanalyse)", Some(("zinn", "80-85%"))),
             ("Zinn 92%-95% (Sofortanalyse)", Some(("zinn", "92-95%"))),
             ("Zinn 99% (Sofortanalyse)", Some(("zinn", "99%"))),
-            ("Zinn/Lötzinn 30Sn/70Pb", Some(("zinn", "30Sn/70Pb"))),
-            ("Zinn/Lötzinn 50Sn/50Pb", Some(("zinn", "50Sn/50Pb"))),
-            ("Zinn/Lötzinn 60Sn/40Pb", Some(("zinn", "60Sn/40Pb"))),
+            ("Zinn/Lötzinn 30Sn/70Pb", Some(("loetzinn", "30Sn/70Pb"))),
+            ("Zinn/Lötzinn 50Sn/50Pb", Some(("loetzinn", "50Sn/50Pb"))),
+            ("Zinn/Lötzinn 60Sn/40Pb", Some(("loetzinn", "60Sn/40Pb"))),
             ("Zündkerzen PKW", None),
         ];
         for (label, want) in cases {

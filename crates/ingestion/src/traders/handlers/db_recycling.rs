@@ -159,7 +159,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("freileitung") {
         Some(("aluminium-gemischt", "Freileitung o. Fe"))
     } else if l.contains("wucht") && l.contains("kabel") {
-        Some(("blei", "Wucht-/Kabelblei"))
+        Some(("blei-auswucht", "Wucht-/Kabelblei"))
     } else if l.contains("altblei") {
         Some(("blei", ""))
     } else if l.contains("v2a") {
@@ -541,7 +541,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Wucht-/Kabelblei"),
-            Some(("blei", "Wucht-/Kabelblei"))
+            Some(("blei-auswucht", "Wucht-/Kabelblei"))
         );
         assert_eq!(
             grade_for("Schwerer Scherenschrott"),

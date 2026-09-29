@@ -145,9 +145,9 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         }
     // Zinn / Zink / Blei.
     } else if l.contains("lötzinn") || l.contains("loetzinn") {
-        Some(("zinn", "Lötzinn"))
+        Some(("loetzinn", "Lötzinn"))
     } else if l.contains("geschirrzinn") {
-        Some(("zinn", "Geschirr"))
+        Some(("zinn-geschirr", "Geschirr"))
     } else if l.contains("zinn") {
         Some(("zinn", "99%"))
     } else if l.contains("zink") {
@@ -157,7 +157,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
             Some(("zink", "neu"))
         }
     } else if l.contains("auswucht") || l.contains("wucht") {
-        Some(("blei", "Auswucht"))
+        Some(("blei-auswucht", "Auswucht"))
     } else if l.contains("batterie") {
         None
     } else if l.contains("blei") {

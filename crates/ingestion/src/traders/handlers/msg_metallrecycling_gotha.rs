@@ -197,7 +197,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("schredder") {
         Some(("stahlschrott-shredder", ""))
     } else if l.contains("zinn geschirr") {
-        Some(("zinn", "Geschirr"))
+        Some(("zinn-geschirr", "Geschirr"))
     } else if l.contains("zinn krätze") || l.contains("zinn kraetze") {
         Some(("zinn", "Krätze"))
     } else if l.contains("zinkblech") {
@@ -648,7 +648,7 @@ mod tests {
         assert_eq!(grade_for("Mischschrott (ab 100 kg:)"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Mischschrott schwer (ab 100 kg:)"), Some(("mischschrott", "schwer")));
         assert_eq!(grade_for("Schredderschrott (ab 100 kg:)"), Some(("stahlschrott-shredder", "")));
-        assert_eq!(grade_for("Zinn Geschirr (ab 1 kg:)"), Some(("zinn", "Geschirr")));
+        assert_eq!(grade_for("Zinn Geschirr (ab 1 kg:)"), Some(("zinn-geschirr", "Geschirr")));
         assert_eq!(grade_for("Zinkblech neu und alt (ab 1 kg:)"), Some(("zink", "Blech neu und alt")));
         assert_eq!(grade_for("Zinkguss (ab 1 kg:)"), Some(("zink", "Guss")));
         // Lauter Skip: Mischmetall, Doppel-Material, kein Katalogmaterial.

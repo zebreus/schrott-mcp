@@ -211,7 +211,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         return Some(("stahlschrott-sorte-1", "Neu-Schrott"));
     }
     if l.contains("auswucht") {
-        return Some(("blei", "Auswuchtblei"));
+        return Some(("blei-auswucht", "Auswuchtblei"));
     }
     if l.contains("blei") {
         return Some(("blei", ""));
@@ -631,7 +631,7 @@ mod tests {
         assert_eq!(grade_for("Blei"), Some(("blei", "")));
         assert_eq!(
             grade_for("Blei - Auswuchtblei    (Gewichte von Autoreifen, Gardienenblei)"),
-            Some(("blei", "Auswuchtblei"))
+            Some(("blei-auswucht", "Auswuchtblei"))
         );
         assert_eq!(
             grade_for("Elektromotoren sauber frei von Anhaftungen"),

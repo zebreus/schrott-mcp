@@ -146,7 +146,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("edelstahl-v2a", ""))
     } else if l.contains("zinn") {
         if l.contains("geschirr") {
-            Some(("zinn", "Geschirr"))
+            Some(("zinn-geschirr", "Geschirr"))
         } else {
             Some(("zinn", ""))
         }
@@ -608,7 +608,7 @@ mod tests {
         assert_eq!(grade_for("Zink"), Some(("zink", "")));
         assert_eq!(
             grade_for("Zinngeschirr"),
-            Some(("zinn", "Geschirr"))
+            Some(("zinn-geschirr", "Geschirr"))
         );
         // Widia is hard metal, not an ambiguous either/or label.
         assert_eq!(

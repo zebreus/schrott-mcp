@@ -213,7 +213,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("zink") {
         Some(("zink", ""))
     } else if l.contains("auswuchtblei") {
-        Some(("blei", "Auswuchtblei gemischt"))
+        Some(("blei-auswucht", "Auswuchtblei gemischt"))
     } else if l.contains("altblei") {
         Some(("blei", ""))
     } else if l.contains("hartmetall") {

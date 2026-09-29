@@ -344,7 +344,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("raff") {
         Some(("kupfer-gemischt", "Raff"))
     } else if l.contains("zinngeschirr") {
-        Some(("zinn", "Geschirr 85-98%"))
+        Some(("zinn-geschirr", "Geschirr 85-98%"))
     } else if l.contains("zinn") {
         Some(("zinn", "99%"))
     } else if l.contains("messing") {
@@ -767,7 +767,7 @@ mod tests {
         assert_eq!(grade_for("Zinn 99%"), Some(("zinn", "99%")));
         assert_eq!(
             grade_for("Zinngeschirr 85% - 98%"),
-            Some(("zinn", "Geschirr 85-98%"))
+            Some(("zinn-geschirr", "Geschirr 85-98%"))
         );
         assert_eq!(
             grade_for("Kupferkabel"),

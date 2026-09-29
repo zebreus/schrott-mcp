@@ -122,7 +122,7 @@ fn grade_for(label: &str, tier: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("alu") {
         ("aluminium-gemischt", "")
     } else if l.contains("auswucht") {
-        ("blei", "Auswucht")
+        ("blei-auswucht", "Auswucht")
     } else if l.contains("blei") {
         ("blei", "")
     } else if l.contains("v4a") {
@@ -138,9 +138,9 @@ fn grade_for(label: &str, tier: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("zink") {
         ("zink", "")
     } else if l.contains("lötzinn") || l.contains("loetzinn") {
-        ("zinn", "Lötzinn")
+        ("loetzinn", "Lötzinn")
     } else if l.contains("zinngeschirr") {
-        ("zinn", "Geschirr")
+        ("zinn-geschirr", "Geschirr")
     } else if l.contains("zinn") {
         ("zinn", "rein")
     } else if l.contains("mischschrott") || l.contains("altmetall") {
@@ -559,7 +559,7 @@ mod tests {
             Some(("aluminium-gemischt", "mit Anhaftungen"))
         );
         assert_eq!(grade_for("Bleischrott sauber", ""), Some(("blei", "")));
-        assert_eq!(grade_for("Auswuchtblei", ""), Some(("blei", "Auswucht")));
+        assert_eq!(grade_for("Auswuchtblei", ""), Some(("blei-auswucht", "Auswucht")));
         assert_eq!(
             grade_for("V4A Edelstahl Sofortanalyse", ""),
             Some(("edelstahl-v4a", ""))
@@ -580,10 +580,10 @@ mod tests {
             grade_for("Zink alt mit Lötstellen, ohne Dachpappe", ""),
             Some(("zink", "alt"))
         );
-        assert_eq!(grade_for("Lötzinn 40 %", ""), Some(("zinn", "Lötzinn")));
+        assert_eq!(grade_for("Lötzinn 40 %", ""), Some(("loetzinn", "Lötzinn")));
         assert_eq!(
             grade_for("Zinngeschirr 95 % mit Stempel", ""),
-            Some(("zinn", "Geschirr"))
+            Some(("zinn-geschirr", "Geschirr"))
         );
         assert_eq!(
             grade_for("Zinn rein 99 %, Sofortanalyse", ""),

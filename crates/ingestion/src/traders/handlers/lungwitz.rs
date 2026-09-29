@@ -169,7 +169,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("kabelblei") {
         Some(("blei", "Kabelblei"))
     } else if l.contains("wuchtblei") {
-        Some(("blei", "Wuchtblei"))
+        Some(("blei-auswucht", "Wuchtblei"))
     } else if l.contains("altblei") {
         Some(("blei", ""))
     } else if l.contains("v2a") {

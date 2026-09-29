@@ -388,7 +388,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         return None;
     }
     if l.contains("wuchtblei") {
-        return Some(("blei", "Wucht"));
+        return Some(("blei-auswucht", "Wucht"));
     } else if l.contains("schuß") || l.contains("schuss") {
         return Some(("blei", "Schuss"));
     } else if l.contains("weichblei") {
@@ -407,9 +407,9 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     }
     if l.contains("zinn") {
         if l.contains("60/40") {
-            return Some(("zinn", "60/40"));
+            return Some(("loetzinn", "60/40"));
         } else if l.contains("geschirr") {
-            return Some(("zinn", "Geschirr"));
+            return Some(("zinn-geschirr", "Geschirr"));
         } else {
             return Some(("zinn", ""));
         }
@@ -1063,14 +1063,14 @@ mod tests {
             Some(("aluminium-gemischt", "Kontruktal"))
         );
         // … lead/zinc/tin, iron …
-        assert_eq!(grade_for("Wuchtblei"), Some(("blei", "Wucht")));
+        assert_eq!(grade_for("Wuchtblei"), Some(("blei-auswucht", "Wucht")));
         assert_eq!(grade_for("Schußblei"), Some(("blei", "Schuss")));
         assert_eq!(grade_for("Weichblei"), Some(("blei", "")));
         assert_eq!(grade_for("Zink-Guß"), Some(("zink", "Guss")));
         assert_eq!(grade_for("Zink-Blech neu"), Some(("zink", "Blech neu")));
         assert_eq!(grade_for("Zink-Blech alt"), Some(("zink", "Blech alt")));
-        assert_eq!(grade_for("Zinn 60/40"), Some(("zinn", "60/40")));
-        assert_eq!(grade_for("Zinn Geschirr"), Some(("zinn", "Geschirr")));
+        assert_eq!(grade_for("Zinn 60/40"), Some(("loetzinn", "60/40")));
+        assert_eq!(grade_for("Zinn Geschirr"), Some(("zinn-geschirr", "Geschirr")));
         assert_eq!(
             grade_for("Eisenschrott leicht"),
             Some(("mischschrott", "leicht"))

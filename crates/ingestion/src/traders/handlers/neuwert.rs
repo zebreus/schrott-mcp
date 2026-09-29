@@ -307,7 +307,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("widia") || l.contains("vhm") {
         Some(("hartmetall", ""))
     } else if l.contains("zinngeschirr") {
-        Some(("zinn", "Geschirr"))
+        Some(("zinn-geschirr", "Geschirr"))
     } else if l.contains("zink") {
         Some(("zink", ""))
     } else if l.contains("blei") {
@@ -822,7 +822,7 @@ mod tests {
             Some(("stahlschrott-shredder", ""))
         );
         assert_eq!(grade_for("Widia / VHM"), Some(("hartmetall", "")));
-        assert_eq!(grade_for("Zinngeschirr"), Some(("zinn", "Geschirr")));
+        assert_eq!(grade_for("Zinngeschirr"), Some(("zinn-geschirr", "Geschirr")));
         assert_eq!(grade_for("V4A-Edelstahl"), Some(("edelstahl-v4a", "V4A")));
         assert_eq!(grade_for("Edelstahl"), Some(("edelstahl-gemischt", "")));
         assert_eq!(grade_for("Elektromotoren"), Some(("elektromotoren", "")));
