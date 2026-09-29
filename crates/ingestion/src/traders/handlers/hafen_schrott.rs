@@ -127,7 +127,11 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
     } else if l.contains("v2a") || l.contains("nirosta") {
         Some(vec![("edelstahl-v2a", "")])
     } else if l.contains("edelstahl") {
-        Some(vec![("edelstahl-gemischt", "Späne")])
+        Some(vec![if l.contains("spän") {
+            ("edelstahl-gemischt", "Späne")
+        } else {
+            ("edelstahl-gemischt", "")
+        }])
     } else if l.contains("alu") || l.contains("aluminium") {
         if l.contains("späne") || l.contains("spaene") {
             Some(vec![("aluminium-gemischt", "Späne")])

@@ -167,7 +167,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("v4a") {
         Some(("edelstahl-v4a", ""))
     } else if l.contains("chromstahl") {
-        Some(("edelstahl-gemischt", ""))
+        Some(("edelstahl-gemischt", "Chromstahl"))
     } else if l.contains("getriebemotoren") {
         Some(("elektromotoren", "Getriebe"))
     } else if l.contains("e-motor") || l.contains("emotor") {

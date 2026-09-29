@@ -129,7 +129,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
                 return Some(("kabel-kupfer", "dick"));
             }
             if l.contains("stecker") {
-                return Some(("kabel-kupfer", "mit Stecker"));
+                return Some(("kabel-mit-stecker", "mit Stecker"));
             }
             if l.contains("blei") {
                 return Some(("kabel-blei", "Blei"));
@@ -140,7 +140,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
             return None;
         }
         if l.contains("eisen") && l.contains("schrott") {
-            return Some(("mischschrott", "Kupfer-Eisen"));
+            // Cu-Fe-Verbund, kein FE-Misch (FE-Audit).
+            return None;
         }
         return None;
     }
@@ -605,7 +606,7 @@ mod tests {
             ("Kupfer Eisen Kühler", None),
             (
                 "Kupfer Eisen Schrott",
-                Some(("mischschrott", "Kupfer-Eisen")),
+                None, // Cu-Fe-Verbund, kein FE-Misch (FE-Audit)
             ),
             ("Kupfer Blei Kabel", Some(("kabel-blei", "Blei"))),
             (
@@ -614,7 +615,7 @@ mod tests {
             ),
             (
                 "Kupfer Kabel mit Stecker",
-                Some(("kabel-kupfer", "mit Stecker")),
+                Some(("kabel-mit-stecker", "mit Stecker")),
             ),
             (
                 "Alu Draht luftgeschwärzt",

@@ -177,7 +177,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("v4a") {
         Some(("edelstahl-v4a", ""))
     } else if l.contains("chromstahl") {
-        Some(("edelstahl-gemischt", ""))
+        Some(("edelstahl-gemischt", "Chromstahl"))
     } else if l.contains("e-motor") || l.contains("emotor") || l.contains("e/motor") {
         Some(("elektromotoren", ""))
     } else if l.contains("kernschrott") {
@@ -486,7 +486,7 @@ mod tests {
         );
         assert_eq!(grade_for("Rotguß"), Some(("bronze-rotguss", "")));
         assert_eq!(grade_for("V2A"), Some(("edelstahl-v2a", "")));
-        assert_eq!(grade_for("Chromstahl"), Some(("edelstahl-gemischt", "")));
+        assert_eq!(grade_for("Chromstahl"), Some(("edelstahl-gemischt", "Chromstahl")));
         assert_eq!(
             grade_for("E-motoren bis 300 kg/St."),
             Some(("elektromotoren", ""))
