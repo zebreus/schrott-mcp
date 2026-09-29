@@ -271,6 +271,27 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Bestückte und unbestückte Leiterplatten.",
     ),
     (
+        "handys",
+        "Handys / Smartphones",
+        "elektronik",
+        "EUR/kg",
+        "Mobiltelefone und Handyplatinen; höhere Edelmetallanteile als Mainboards.",
+    ),
+    (
+        "festplatten",
+        "Festplatten",
+        "elektronik",
+        "EUR/kg",
+        "Festplattenlaufwerke und HDD-Platinen; eigene Sorte neben Mainboards.",
+    ),
+    (
+        "keramik-platinen",
+        "Keramikplatinen",
+        "elektronik",
+        "EUR/kg",
+        "Keramiksubstrat-Platinen (weiß/braun); Hochwert-Sonderfraktion.",
+    ),
+    (
         "katalysatoren",
         "Katalysatoren (Keramik)",
         "elektronik",

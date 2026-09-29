@@ -298,11 +298,11 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = l.as_str();
     // Platinen family — the only E-Schrott with catalog material.
     if l.contains("festplatten platinen") || l.contains("festplatte platine") {
-        Some(("platinen", "Festplatte"))
+        Some(("festplatten", "Festplatte"))
     } else if l.contains("laufwerk platinen") || l.contains("laufwerk-platine") {
         Some(("platinen", "Laufwerk"))
     } else if l.contains("handy") && (l.contains("platine") || l.contains("platte")) {
-        Some(("platinen", "Handy"))
+        Some(("handys", "Handy"))
     } else if l.contains("steckkarte") {
         if l.contains("slotblende") {
             Some(("platinen", "Steckkarte mit Slotblende"))
@@ -705,7 +705,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Festplatten Platinen"),
-            Some(("platinen", "Festplatte"))
+            Some(("festplatten", "Festplatte"))
         );
         assert_eq!(
             grade_for("Laufwerk Platinen"),
@@ -713,7 +713,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Handy-Leiterplatten"),
-            Some(("platinen", "Handy"))
+            Some(("handys", "Handy"))
         );
         // No catalog material → loud skip (Frisch precedent).
         assert_eq!(grade_for("Arbeitsspeicher Goldkante"), None);

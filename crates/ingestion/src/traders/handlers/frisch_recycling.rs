@@ -142,13 +142,13 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         return None;
     }
     if l.contains("handyplatinen") {
-        return Some(("platinen", "Handy"));
+        return Some(("handys", "Handy"));
     }
     if l.contains("smartphone") || (l.contains("handy") && !l.contains("platine")) {
         return None;
     }
     if l.contains("festplatten platinen") {
-        return Some(("platinen", "Festplatte"));
+        return Some(("festplatten", "Festplatte"));
     }
     if l.contains("festplatte") && !l.contains("leiterplatte") {
         // Bare "Festplatten" (whole devices, no catalog material). The
@@ -181,7 +181,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         } else if l.contains("güteklasse 3") || l.contains("gueteklasse 3") {
             return Some(("platinen", "Güteklasse 3"));
         } else if l.contains("festplatte") {
-            return Some(("platinen", "aus Festplatten"));
+            return Some(("festplatten", "aus Festplatten"));
         } else if l.contains("laptop") {
             return Some(("platinen", "Laptop"));
         } else if l.contains("kühler") || l.contains("kuehler") {
@@ -211,7 +211,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         return None;
     }
     if l.contains("keramikplatte") {
-        return Some(("platinen", "Keramikplatte"));
+        return Some(("keramik-platinen", "Keramikplatte"));
     }
     // Copper: millberri before berri ("millberri" contains "berri").
     if l.contains("millberri") {
@@ -879,7 +879,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Leiterplatten aus Festplatten"),
-            Some(("platinen", "aus Festplatten"))
+            Some(("festplatten", "aus Festplatten"))
         );
         assert_eq!(
             grade_for("Laptop-Leiterplatten"),
@@ -917,14 +917,14 @@ mod tests {
             grade_for("Steckkarten mit Metallblende"),
             Some(("platinen", "Steckkarte mit Blende"))
         );
-        assert_eq!(grade_for("Handyplatinen"), Some(("platinen", "Handy")));
+        assert_eq!(grade_for("Handyplatinen"), Some(("handys", "Handy")));
         assert_eq!(
             grade_for("Festplatten Platinen"),
-            Some(("platinen", "Festplatte"))
+            Some(("festplatten", "Festplatte"))
         );
         assert_eq!(
             grade_for("Keramikplatten weiß / braun"),
-            Some(("platinen", "Keramikplatte"))
+            Some(("keramik-platinen", "Keramikplatte"))
         );
         // … copper (millberri before berri) …
         assert_eq!(grade_for("MillBerri"), Some(("kupfer-millberry", "")));

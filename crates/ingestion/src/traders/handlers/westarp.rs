@@ -237,12 +237,11 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("eisenschrott-gussbruch", "schwer"))
     } else if l.contains("neuschrott") {
         Some(("stahlschrott-sorte-1", ""))
-    // E-Schrott: nur Leiterplatten haben Katalogmaterial (platinen —
-    // "Leiterplatte" enthält kein "platine", daher eigener Arm);
+    // E-Schrott: Leiterplatten → platinen (Handy-Platinen → handys),
     // CPUs/RAM/Geräte skippen laut (Frisch-Präzedenz: kein Fake-Material).
     } else if l.contains("leiterplat") || l.contains("platine") {
         if l.contains("handy") || l.contains("smartphone") {
-            Some(("platinen", "Handy"))
+            Some(("handys", "Handy"))
         } else if l.contains("1a") {
             Some(("platinen", "1A"))
         } else if l.contains("klasse 2") || l.contains("1b") {
@@ -822,7 +821,7 @@ mod tests {
         assert_eq!(grade_for("Neuschrott"), Some(("stahlschrott-sorte-1", "")));
         assert_eq!(
             grade_for("Handy-, Smartphoneplatinen"),
-            Some(("platinen", "Handy"))
+            Some(("handys", "Handy"))
         );
         let _ = skip_reason;
     }

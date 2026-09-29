@@ -140,13 +140,13 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         }
         if l.contains("platinen") {
             if l.contains("handy") {
-                return Some(("platinen", "Handy"));
+                return Some(("handys", "Handy"));
             }
             if l.contains("laufwerk") {
                 return Some(("platinen", "Laufwerk"));
             }
             if l.contains("festplatten") {
-                return Some(("platinen", "Festplatten Mix"));
+                return Some(("festplatten", "Festplatten Mix"));
             }
             return None;
         }
@@ -850,9 +850,9 @@ mod tests {
             ("Elektronik Laufwerke", None),
             (
                 "Elektronik Festplatten Platinen Mix",
-                Some(("platinen", "Festplatten Mix")),
+                Some(("festplatten", "Festplatten Mix")),
             ),
-            ("Elektronik Handy Platinen", Some(("platinen", "Handy"))),
+            ("Elektronik Handy Platinen", Some(("handys", "Handy"))),
             (
                 "Elektronik Laufwerk Platinen",
                 Some(("platinen", "Laufwerk")),

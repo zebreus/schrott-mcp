@@ -25,7 +25,7 @@
 //! - "Silver contacts" (3-5 €/kg) must NOT map to `silber`: the catalog
 //!   unit is EUR/g, so that mapping would be a 1000× error. Loud skip.
 //! - Mixed-material coolers (Cu-brass, Alu, Alu-Cu) and batteries/CPUs/
-//!   phones/disks have no catalog entry → loud skips, never guesses.
+//!   phones/disks have own catalog entries (handys/festplatten) or skip loudly, never guesses.
 
 use std::collections::HashSet;
 
@@ -249,7 +249,7 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
         }
     } else if l.contains("board") {
         if l.contains("phone") {
-            ("platinen", "phone boards")
+            ("handys", "phone boards")
         } else if l.contains("1a") {
             ("platinen", "class 1A")
         } else if l.contains('2') {
@@ -288,8 +288,8 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
     } else if l.contains("chrome") {
         ("edelstahl-gemischt", "chrome steel")
     } else if l.contains("phone") || l.contains("smartphone") || l.contains("handy") {
-        // Whole devices, not boards.
-        return None;
+        // Whole devices → handys (boards handled above).
+        return Some(("handys", ""));
     } else if l.contains("hard disk") || l.contains("drive") {
         return None;
     } else if l.contains("power") {
@@ -1216,7 +1216,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Mobile phone, smartphone boards", "from 200 kg"),
-            Some(("platinen", "phone boards, from 200 kg"))
+            Some(("handys", "phone boards, from 200 kg"))
         );
         assert_eq!(
             grade_for("Electronic motors, without gears etc.", "from 100 kg"),
