@@ -35,14 +35,15 @@ pub enum WorkerError {
     /// Confinement or stdio setup failed before exec.
     #[error("query worker could not start")]
     Spawn(#[source] std::io::Error),
-    /// Wall-clock timeout; the worker was killed.
-    #[error("query timed out and was killed")]
+    /// Wall-clock timeout, or the kernel CPU cap; the worker was killed.
+    #[error("query timed out and was killed (CPU limit 30s, wall-clock 60s); narrow it with WHERE / LIMIT")]
     TimedOut,
-    /// The worker died (OOM, CPU cap, crash). Stderr is logged, not shown.
-    #[error("query worker died")]
+    /// The worker died without an answer (crash, panic). Stderr is logged,
+    /// not shown.
+    #[error("query worker died unexpectedly; retry, and narrow the query with WHERE / LIMIT if it persists")]
     Died,
     /// The worker answered, but not in the protocol.
-    #[error("query worker gave an unreadable answer")]
+    #[error("query worker gave an unreadable answer; retry with a narrower query (WHERE / LIMIT)")]
     BadOutput,
     /// The worker rejected the query (validation, database error).
     #[error("{0}")]
@@ -58,6 +59,36 @@ struct WireReply {
     ok: Option<WireOk>,
     #[serde(default)]
     error: Option<String>,
+}
+
+/// Actionable cause shared by every out-of-memory kill path.
+const OOM_MESSAGE: &str =
+    "query used too much memory and was killed; narrow it with WHERE / LIMIT";
+
+/// Turn a bare worker death (non-zero exit, no `{"error"}` envelope) into
+/// an actionable error. Kernel kills carry the cause in the exit status:
+/// SIGXCPU is the 30 s CPU cap (→ timeout); SIGKILL from anyone but us is
+/// the OOM killer — our own wall-clock kill returns earlier and never
+/// reaches here (the worker installs no SIGXCPU handler, so the CPU cap's
+/// second-stage SIGKILL is unreachable too). A Rust/SQLite allocation
+/// failure aborts with SIGABRT or SIGSEGV and prints
+/// `memory allocation … failed` to stderr. Stderr is only matched for
+/// those keywords — never forwarded — so internal paths cannot leak to
+/// the client. Anything else stays [`WorkerError::Died`].
+fn classify_death(status: &std::process::ExitStatus, stderr: &[u8]) -> WorkerError {
+    use std::os::unix::process::ExitStatusExt as _;
+    match status.signal() {
+        Some(sig) if sig == libc::SIGXCPU => WorkerError::TimedOut,
+        Some(sig) if sig == libc::SIGKILL => WorkerError::Rejected(OOM_MESSAGE.to_owned()),
+        _ => {
+            let lower = String::from_utf8_lossy(stderr).to_lowercase();
+            if lower.contains("memory allocation") || lower.contains("out of memory") {
+                WorkerError::Rejected(OOM_MESSAGE.to_owned())
+            } else {
+                WorkerError::Died
+            }
+        }
+    }
 }
 
 #[derive(Deserialize)]
@@ -105,7 +136,10 @@ fn confine(drop_privs: bool) -> std::io::Result<()> {
 
 /// Path of the worker binary sitting next to this server binary.
 fn worker_path() -> Result<PathBuf, WorkerError> {
-    let mut path = std::env::current_exe().map_err(|_| WorkerError::Unavailable)?;
+    let mut path = std::env::current_exe().map_err(|e| {
+        tracing::warn!("query worker path unavailable: {e}");
+        WorkerError::Unavailable
+    })?;
     path.set_file_name("schrott-mcp-query-worker");
     Ok(path)
 }
@@ -130,34 +164,68 @@ pub async fn run_query(
             .env_clear()
             .pre_exec(move || confine(drop_privs));
     }
-    let mut child = cmd.spawn().map_err(WorkerError::Spawn)?;
+    let mut child = cmd.spawn().map_err(|e| {
+        // Includes pre_exec confinement failures: the errno stays in our
+        // log, the client gets the safe one-liner below.
+        tracing::warn!("query worker spawn failed: {e}");
+        WorkerError::Spawn(e)
+    })?;
     if let Some(mut stdin) = child.stdin.take() {
-        stdin
-            .write_all(request.as_bytes())
-            .await
-            .map_err(WorkerError::Spawn)?;
+        // The worker already started here: a broken pipe means it died
+        // mid-flight, not that it could not start.
+        stdin.write_all(request.as_bytes()).await.map_err(|e| {
+            tracing::warn!("query worker stdin failed: {e}");
+            WorkerError::Died
+        })?;
     }
     let mut stdout_taken = child.stdout.take();
     let mut stderr_taken = child.stderr.take();
     let collect = async {
         let mut out = Vec::new();
         let mut err = Vec::new();
+        let mut stdout_overflow = false;
         if let Some(ref mut o) = stdout_taken {
-            o.read_to_end(&mut out).await.map_err(WorkerError::Spawn)?;
+            // Read only the head: the check below reports TooLarge, and
+            // draining the rest lets the worker exit so a big result is
+            // not misreported as a timeout.
+            (&mut *o)
+                .take(WORKER_OUT_CAP as u64 + 1)
+                .read_to_end(&mut out)
+                .await
+                .map_err(|e| {
+                    tracing::warn!("query worker stdout failed: {e}");
+                    WorkerError::Died
+                })?;
+            if out.len() > WORKER_OUT_CAP {
+                stdout_overflow = true;
+                tokio::io::copy(&mut *o, &mut tokio::io::sink())
+                    .await
+                    .map_err(|e| {
+                        tracing::warn!("query worker stdout drain failed: {e}");
+                        WorkerError::Died
+                    })?;
+            }
         }
         if let Some(ref mut e) = stderr_taken {
-            e.read_to_end(&mut err).await.map_err(WorkerError::Spawn)?;
+            e.read_to_end(&mut err).await.map_err(|e| {
+                tracing::warn!("query worker stderr failed: {e}");
+                WorkerError::Died
+            })?;
         }
-        let status = child.wait().await.map_err(WorkerError::Spawn)?;
-        Ok::<_, WorkerError>((status, out, err))
+        let status = child.wait().await.map_err(|e| {
+            tracing::warn!("query worker wait failed: {e}");
+            WorkerError::Died
+        })?;
+        Ok::<_, WorkerError>((status, out, err, stdout_overflow))
     };
-    let (status, out, err) =
+    let (status, out, stderr, stdout_overflow) =
         match tokio::time::timeout(std::time::Duration::from_secs(WORKER_WALL_SECS), collect).await
         {
             Err(_) => {
                 // Kill AND reap: dropping the handle without wait() would
                 // leave a zombie. SIGKILL cannot be ignored; the extra wait
                 // only lingers if the child is in uninterruptible sleep.
+                tracing::warn!("query worker wall-clock timeout ({WORKER_WALL_SECS}s); killed");
                 let _ = child.kill().await;
                 let _ = tokio::time::timeout(std::time::Duration::from_secs(5), child.wait()).await;
                 return Err(WorkerError::TimedOut);
@@ -174,16 +242,21 @@ pub async fn run_query(
                 return Err(WorkerError::Rejected(message));
             }
         }
-        tracing::warn!(
-            "query worker died: status={status} stderr={}",
-            String::from_utf8_lossy(&err)
-                .chars()
-                .take(500)
-                .collect::<String>()
-        );
-        return Err(WorkerError::Died);
+        // No envelope: classify the kernel kill (CPU cap, OOM) so the
+        // client gets the cause, not a generic death notice.
+        let error = classify_death(&status, &stderr);
+        if matches!(error, WorkerError::Died) {
+            tracing::warn!(
+                "query worker died: status={status} stderr={}",
+                String::from_utf8_lossy(&stderr)
+                    .chars()
+                    .take(500)
+                    .collect::<String>()
+            );
+        }
+        return Err(error);
     }
-    if out.len() > WORKER_OUT_CAP {
+    if stdout_overflow {
         return Err(WorkerError::TooLarge);
     }
     let reply: WireReply = serde_json::from_slice(&out).map_err(|_| WorkerError::BadOutput)?;
@@ -200,7 +273,18 @@ pub async fn run_query(
 
 #[cfg(test)]
 mod tests {
-    use super::WireReply;
+    use std::os::unix::process::ExitStatusExt as _;
+
+    use super::{classify_death, WireReply, WorkerError, OOM_MESSAGE};
+    use super::{WORKER_CPU_SECS, WORKER_WALL_SECS};
+
+    fn signal_status(sig: i32) -> std::process::ExitStatus {
+        std::process::ExitStatus::from_raw(sig)
+    }
+
+    fn exit_status(code: u8) -> std::process::ExitStatus {
+        std::process::ExitStatus::from_raw((code as i32) << 8)
+    }
 
     #[test]
     fn wire_protocol_parses() {
@@ -219,5 +303,82 @@ mod tests {
 
         let empty: WireReply = serde_json::from_str("{}").expect("empty parses");
         assert!(empty.ok.is_none() && empty.error.is_none());
+    }
+
+    #[test]
+    fn timeout_message_names_both_caps_and_hint() {
+        // The message must stay in sync with the constants: clients need
+        // to tell the 30 s CPU kill from the 60 s wall-clock kill.
+        let msg = WorkerError::TimedOut.to_string();
+        assert!(msg.contains(&WORKER_CPU_SECS.to_string()), "{msg}");
+        assert!(msg.contains(&WORKER_WALL_SECS.to_string()), "{msg}");
+        assert!(msg.contains("WHERE / LIMIT"), "{msg}");
+    }
+
+    #[test]
+    fn cpu_kill_is_timeout_not_death() {
+        let err = classify_death(&signal_status(libc::SIGXCPU), b"");
+        assert!(
+            matches!(err, WorkerError::TimedOut),
+            "SIGXCPU must map to TimedOut, got {err}"
+        );
+    }
+
+    #[test]
+    fn sigkill_is_oom_with_hint() {
+        let err = classify_death(&signal_status(libc::SIGKILL), b"");
+        match err {
+            WorkerError::Rejected(m) => assert_eq!(m, OOM_MESSAGE),
+            other => panic!("SIGKILL must map to OOM Rejected, got {other}"),
+        }
+    }
+
+    #[test]
+    fn abort_with_oom_stderr_is_oom() {
+        let err = classify_death(
+            &signal_status(libc::SIGABRT),
+            b"memory allocation of 123456 bytes failed",
+        );
+        match err {
+            WorkerError::Rejected(m) => assert_eq!(m, OOM_MESSAGE),
+            other => panic!("OOM abort must map to OOM Rejected, got {other}"),
+        }
+    }
+
+    #[test]
+    fn abort_without_oom_keywords_stays_died() {
+        // A panic carries internal paths in stderr — the client must get
+        // the safe fallback, never the stderr text.
+        let stderr = b"thread 'main' panicked at crates/query-worker/src/main.rs:42";
+        let err = classify_death(&signal_status(libc::SIGABRT), stderr);
+        assert!(matches!(err, WorkerError::Died), "got {err}");
+        assert!(
+            !WorkerError::Died.to_string().contains("panicked"),
+            "Died must not echo stderr"
+        );
+    }
+
+    #[test]
+    fn plain_exit_without_envelope_stays_died() {
+        let err = classify_death(&exit_status(1), b"");
+        assert!(matches!(err, WorkerError::Died), "got {err}");
+    }
+
+    #[test]
+    fn fallback_messages_are_actionable() {
+        for err in [WorkerError::Died, WorkerError::BadOutput] {
+            let msg = err.to_string();
+            assert!(msg.contains("WHERE / LIMIT"), "{msg}");
+            assert!(msg.contains("retr"), "{msg}");
+        }
+    }
+
+    #[test]
+    fn classified_messages_never_echo_stderr_paths() {
+        let stderr = b"cannot open /secret/path/public.db: permission denied";
+        for status in [signal_status(libc::SIGKILL), signal_status(libc::SIGXCPU)] {
+            let msg = classify_death(&status, stderr).to_string();
+            assert!(!msg.contains("/secret/path"), "{msg}");
+        }
     }
 }
