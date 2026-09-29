@@ -165,7 +165,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
             return Some(("katalysatoren", "Aftermarket"));
         }
         if l.contains("monolith") {
-            return Some(("katalysatoren", "Monolith lose"));
+            return Some(("katalysatoren-monolith", "Monolith lose"));
         }
         // "Keramik Stückpreis" never reaches here (parse-level skip:
         // per-piece label under a per-tonne header).
@@ -930,7 +930,7 @@ mod tests {
             ),
             (
                 "Katalysator Keramik Monolith lose",
-                Some(("katalysatoren", "Monolith lose")),
+                Some(("katalysatoren-monolith", "Monolith lose")),
             ),
             (
                 "Kupfer 70% (Motorenwicklungen)",

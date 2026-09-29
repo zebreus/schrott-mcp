@@ -327,6 +327,13 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Keramik-Katalysatoren aus dem Kfz-Bereich, Preis je Stück.",
     ),
     (
+        "katalysatoren-monolith",
+        "Katalysator-Monolith lose",
+        "elektronik",
+        "EUR/t",
+        "Loses Katalysator-Monolithmaterial (Schüttgut) — eigene Sorte neben Stückpreisen, nie vermischen.",
+    ),
+    (
         "hartmetall",
         "Hartmetall / VHM / Widia",
         "nichteisen",
