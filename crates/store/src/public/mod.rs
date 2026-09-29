@@ -63,6 +63,8 @@ pub struct SqlResult {
 
 /// Words that must never appear outside string literals in ad-hoc SQL.
 /// (`replace` is deliberately absent: it is a legitimate SELECT function.)
+/// Matching is per token, so `updated` or prose inside literals never trips
+/// the list — only a bare `update`, `delete`, … does.
 const FORBIDDEN_WORDS: &[&str] = &[
     "insert",
     "update",
@@ -87,108 +89,147 @@ const FORBIDDEN_WORDS: &[&str] = &[
     "revoke",
 ];
 
-/// Blank out `'...'`, `"..."`, `` `...` `` and `[...]` literals (with
-/// `''` escape handling) so keyword scans never trip over prose.
-fn strip_literals(s: &str) -> String {
-    let chars: Vec<char> = s.chars().collect();
-    let mut out = String::with_capacity(s.len());
-    let mut i = 0;
-    while i < chars.len() {
-        let c = chars[i];
-        if c == '\'' {
-            // Single-quoted literal with '' escapes.
-            out.push(' ');
-            i += 1;
-            while i < chars.len() {
-                if chars[i] == '\'' {
-                    if chars.get(i + 1) == Some(&'\'') {
-                        i += 2;
-                    } else {
-                        i += 1;
-                        break;
-                    }
-                } else {
-                    i += 1;
-                }
-            }
-        } else if c == '"' || c == '`' {
-            out.push(' ');
-            i += 1;
-            while i < chars.len() && chars[i] != c {
-                i += 1;
-            }
-            i += 1;
-        } else if c == '[' {
-            out.push(' ');
-            i += 1;
-            while i < chars.len() && chars[i] != ']' {
-                i += 1;
-            }
-            i += 1;
-        } else {
-            out.push(c);
-            i += 1;
-        }
-    }
-    out
+/// Byte inside an unquoted word token (`[A-Za-z0-9_]`).
+#[inline]
+fn is_word_byte(c: u8) -> bool {
+    c.is_ascii_alphanumeric() || c == b'_'
 }
 
-/// Drop leading `--` and `/* */` comments for the statement-type check.
-fn strip_leading_comments(mut s: &str) -> &str {
-    loop {
-        s = s.trim_start();
-        if let Some(rest) = s.strip_prefix("--") {
-            s = match rest.find('\n') {
-                Some(i) => &rest[i + 1..],
-                None => "",
-            };
-        } else if let Some(rest) = s.strip_prefix("/*") {
-            match rest.find("*/") {
-                Some(i) => s = &rest[i + 2..],
-                None => return "",
-            }
-        } else {
-            return s;
-        }
-    }
+/// Case-insensitive ASCII match against the denylist (words are ASCII-only
+/// by construction, so no allocation and no Unicode case-fold surprises).
+fn is_forbidden_word(word: &str) -> bool {
+    FORBIDDEN_WORDS
+        .iter()
+        .any(|deny| word.eq_ignore_ascii_case(deny))
 }
 
 /// Accept exactly one read-only statement: `SELECT ...` or `WITH ...`
 /// (whose writes, if any, are caught by the denylist below). Everything
 /// else — stacked statements, writes smuggled into CTEs, pragmas — is out.
+///
+/// One byte scan classifies everything SQLite treats as non-code —
+/// `'...'` literals (`''` escapes), `"..."` / `` `...` `` / `[...]`
+/// quoted identifiers, `--` and `/* */` comments — and in that single pass
+/// collects the first word (must be `SELECT`/`WITH`), any denylist hit,
+/// and the statement separator (`;` outside non-code, at most a trailing
+/// one). Anything but whitespace/comments after a trailing `;` is stacking.
+///
+/// Deliberately not delegated to `Connection::prepare`: without rusqlite's
+/// `extra_check` feature `prepare` succeeds on stacked input and silently
+/// drops the tail — only the first statement runs (see
+/// `prepare_ignores_stacked_tail_without_validator`). The scanner is also
+/// what keeps this check pure: no database handle, clear reject reasons.
 pub fn validate_readonly_sql(sql: &str) -> Result<(), StoreError> {
     if sql.trim().is_empty() {
         return Err(StoreError::Rejected("empty query"));
     }
-    // Semicolons inside string literals are data, not statement separators
-    // ("%;%" must work) — look at literal-stripped code and allow at most
-    // a trailing terminator. Anything after it is stacking.
-    let code = strip_literals(sql);
-    if let Some(idx) = code.find(';') {
-        if !code[idx + 1..].trim().is_empty() {
-            return Err(StoreError::Rejected(
-                "multiple statements are not allowed; send one SELECT at a time",
-            ));
+    let bytes = sql.as_bytes();
+    let len = bytes.len();
+    let mut i = 0;
+    let mut first: Option<&str> = None;
+    let mut forbidden = false;
+    let mut terminated = false;
+    let mut stacked = false;
+    while i < len {
+        match bytes[i] {
+            b'\'' => {
+                // `'...'` literal with `''` escapes.
+                i += 1;
+                while i < len {
+                    if bytes[i] == b'\'' {
+                        if bytes.get(i + 1) == Some(&b'\'') {
+                            i += 2;
+                        } else {
+                            i += 1;
+                            break;
+                        }
+                    } else {
+                        i += 1;
+                    }
+                }
+                stacked |= terminated;
+            }
+            b'"' | b'`' => {
+                let quote = bytes[i];
+                i += 1;
+                while i < len {
+                    if bytes[i] == quote {
+                        // `"a""b"` is one escaped identifier.
+                        if quote == b'"' && bytes.get(i + 1) == Some(&b'"') {
+                            i += 2;
+                            continue;
+                        }
+                        i += 1;
+                        break;
+                    }
+                    i += 1;
+                }
+                stacked |= terminated;
+            }
+            b'[' => {
+                while i < len && bytes[i] != b']' {
+                    i += 1;
+                }
+                i = (i + 1).min(len);
+                stacked |= terminated;
+            }
+            b'-' if bytes.get(i + 1) == Some(&b'-') => {
+                while i < len && bytes[i] != b'\n' {
+                    i += 1;
+                }
+            }
+            b'/' if bytes.get(i + 1) == Some(&b'*') => {
+                i += 2;
+                while i < len && !(bytes[i] == b'*' && bytes.get(i + 1) == Some(&b'/')) {
+                    i += 1;
+                }
+                i = (i + 2).min(len);
+            }
+            b';' => {
+                // A second separator can never be a lone terminator.
+                stacked |= terminated;
+                terminated = true;
+                i += 1;
+            }
+            c if is_word_byte(c) => {
+                let start = i;
+                while i < len && is_word_byte(bytes[i]) {
+                    i += 1;
+                }
+                // Word bytes are ASCII, so the slice always lands on char
+                // boundaries.
+                let word = &sql[start..i];
+                if first.is_none() {
+                    first = Some(word);
+                }
+                forbidden |= is_forbidden_word(word);
+                stacked |= terminated;
+            }
+            c => {
+                // Any other visible character after the terminator (a second
+                // statement's punctuation) is stacking, not trailing noise.
+                stacked |= terminated && !c.is_ascii_whitespace();
+                i += 1;
+            }
         }
     }
-    let body = strip_leading_comments(sql);
-    let first = body
-        .split(|c: char| !c.is_ascii_alphanumeric() && c != '_')
-        .find(|w| !w.is_empty())
-        .unwrap_or_default()
-        .to_uppercase();
-    if first != "SELECT" && first != "WITH" {
+    if stacked {
         return Err(StoreError::Rejected(
-            "only SELECT (or WITH … SELECT) queries are allowed",
+            "multiple statements are not allowed; send one SELECT at a time",
         ));
     }
-    let code = strip_literals(body);
-    for word in code.split(|c: char| !c.is_ascii_alphanumeric() && c != '_') {
-        if !word.is_empty() && FORBIDDEN_WORDS.contains(&word.to_lowercase().as_str()) {
+    match first {
+        Some(w) if w.eq_ignore_ascii_case("select") || w.eq_ignore_ascii_case("with") => {}
+        _ => {
             return Err(StoreError::Rejected(
-                "write statements are not allowed; this tool is read-only",
+                "only SELECT (or WITH … SELECT) queries are allowed",
             ));
         }
+    }
+    if forbidden {
+        return Err(StoreError::Rejected(
+            "write statements are not allowed; this tool is read-only",
+        ));
     }
     Ok(())
 }
@@ -257,8 +298,9 @@ impl PublicDb {
     }
 
     /// Run one validated read-only query and materialize every row.
-    /// Queries must be self-contained: no bound parameters, no trailing
-    /// semicolons. A hard row cap keeps a careless `SELECT` from eating
+    /// Queries must be self-contained: no bound parameters. An optional
+    /// trailing semicolon is allowed; anything stacked behind it is rejected.
+    /// A hard row cap keeps a careless `SELECT` from eating
     /// the server; callers page/preview on top.
     pub fn query_sql(&self, sql: &str) -> Result<SqlResult, StoreError> {
         const FULL_ROW_CAP: usize = 20_000;
@@ -369,6 +411,64 @@ mod tests {
         assert!(validate_readonly_sql("EXPLAIN SELECT 1").is_err());
         assert!(validate_readonly_sql("VACUUM").is_err());
     }
+
+    #[test]
+    fn readonly_sql_scanner_treats_comments_and_quotes_as_non_code() {
+        use super::validate_readonly_sql;
+        // A `;` inside a comment is not a separator (the old literal-only
+        // strip rejected these as stacking).
+        assert!(validate_readonly_sql("SELECT 1 /* ; */").is_ok());
+        assert!(validate_readonly_sql("-- pick ; here\nSELECT 1").is_ok());
+        assert!(validate_readonly_sql("SELECT 1 -- trailing ; remark").is_ok());
+        // Comments after a trailing terminator are not a second statement.
+        assert!(validate_readonly_sql("SELECT 1; -- done").is_ok());
+        assert!(validate_readonly_sql("SELECT 1; /* done */").is_ok());
+        // …but a second separator never is a lone terminator.
+        assert!(validate_readonly_sql("SELECT 1;;").is_err());
+        assert!(validate_readonly_sql("; SELECT 1").is_err());
+        // Denylist words inside comments or quoted identifiers are prose,
+        // not writes …
+        assert!(validate_readonly_sql("SELECT 1 /* drop the mic */").is_ok());
+        assert!(validate_readonly_sql("SELECT 1 -- delete me").is_ok());
+        assert!(validate_readonly_sql(r#"SELECT "update" FROM materials"#).is_ok());
+        assert!(validate_readonly_sql("SELECT `delete` FROM materials").is_ok());
+        // … while token matching still rejects the bare words, in any case …
+        assert!(validate_readonly_sql("select 1").is_ok());
+        assert!(validate_readonly_sql("SeLeCt 1").is_ok());
+        assert!(validate_readonly_sql("DrOp TABLE traders").is_err());
+        assert!(validate_readonly_sql("SELECT update FROM materials").is_err());
+        // … and longer tokens containing a deny word stay allowed.
+        assert!(validate_readonly_sql("SELECT updated, x FROM t WHERE y = 1").is_ok());
+        assert!(validate_readonly_sql("SELECT * FROM t WHERE note = 'it''s; deleted'").is_ok());
+    }
+
+    #[test]
+    fn prepare_ignores_stacked_tail_without_validator() {
+        // Proof that the single-statement guarantee cannot come from the
+        // SQLite API: without rusqlite's `extra_check` feature `prepare`
+        // succeeds on stacked input, runs only the first statement, and
+        // silently drops the tail — so the scanner above must reject
+        // stacking itself.
+        let conn = rusqlite::Connection::open_in_memory().expect("memory db");
+        conn.execute_batch(
+            "CREATE TABLE t (id INTEGER PRIMARY KEY); INSERT INTO t (id) VALUES (1);",
+        )
+        .expect("seed");
+        let mut stmt = conn
+            .prepare("SELECT id FROM t; DELETE FROM t")
+            .expect("prepare drops the tail silently");
+        let n: i64 = stmt.query_row([], |r| r.get(0)).expect("first statement runs");
+        assert_eq!(n, 1);
+        let left: i64 = conn
+            .query_row("SELECT COUNT(*) FROM t", [], |r| r.get(0))
+            .expect("count");
+        assert_eq!(
+            left, 1,
+            "the stacked DELETE never ran — the validator must reject it"
+        );
+        assert!(super::validate_readonly_sql("SELECT id FROM t; DELETE FROM t").is_err());
+    }
+
 
     #[test]
     fn sql_tool_round_trip_with_truncation() {

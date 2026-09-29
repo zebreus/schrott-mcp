@@ -455,8 +455,17 @@ mod tests {
     use super::{NewPrice, PublicDb};
     use crate::public::{NewMaterial, NewTrader};
 
-    fn setup() -> (PublicDb, i64, i64) {
-        let dir = std::env::temp_dir().join(format!("schrott-prices-{}", std::process::id()));
+    fn setup(name: &str) -> (PublicDb, i64, i64) {
+        // Unique dir per test: parallel tests share the process id, so a
+        // pid-only dir lets them trample each other's rows (flaky).
+        static NEXT: std::sync::atomic::AtomicU64 = std::sync::atomic::AtomicU64::new(0);
+        let n = NEXT.fetch_add(1, std::sync::atomic::Ordering::SeqCst);
+        let dir = std::env::temp_dir().join(format!(
+            "schrott-prices-{}-{}-{}",
+            std::process::id(),
+            n,
+            name
+        ));
         let _ = std::fs::remove_dir_all(&dir);
         let db = PublicDb::open(&dir).expect("test db opens");
         let now = "2026-09-27T00:00:00Z";
@@ -536,7 +545,7 @@ mod tests {
 
     #[test]
     fn current_moves_forward_only() {
-        let (db, trader, material) = setup();
+        let (db, trader, material) = setup("t");
         db.record_price(&price(
             trader,
             material,
@@ -575,7 +584,7 @@ mod tests {
 
     #[test]
     fn identical_observations_refresh_instead_of_duplicating() {
-        let (db, trader, material) = setup();
+        let (db, trader, material) = setup("t");
         let first = db
             .record_price(&price(
                 trader,
@@ -614,7 +623,7 @@ mod tests {
 
     #[test]
     fn uncertainty_and_validity_round_trip() {
-        let (db, trader, material) = setup();
+        let (db, trader, material) = setup("t");
         db.record_price(&NewPrice {
             variant: "",
             price_kind: "exact",
@@ -655,7 +664,7 @@ mod tests {
 
     #[test]
     fn variants_stay_separate_per_grade() {
-        let (db, trader, material) = setup();
+        let (db, trader, material) = setup("t");
         // Same trader + material, two grades: "große Teile" vs "kleine Teile".
         for (variant, eur) in [("große Teile", 5.20), ("kleine Teile", 4.10)] {
             db.record_price(&NewPrice {
@@ -717,7 +726,7 @@ mod tests {
 
     #[test]
     fn acceptance_matrix() {
-        let (db, trader, material) = setup();
+        let (db, trader, material) = setup("t");
         db.set_acceptance(
             trader,
             material,
