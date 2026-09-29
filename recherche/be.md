@@ -51,8 +51,6 @@ Flag "Ankauf unklar" = Entsorger/Behandler ohne belegten Barankauf.
 | Auto-Dienst Süd Krämer GmbH | Treptow-Köpenick (Alt-Treptow) | Kiefholzstr. 397, 12435 Berlin | keine Website gefunden | Autoverwertung | ja — Autoverwertung |
 | DMT Automobile | Pankow (Prenzlauer Berg) | Mandelstr. 16, 10409 Berlin | keine Website gefunden | Autoverwertung + Autoteile | ja — Autoverwertung |
 | Auto Brasch GmbH | Neukölln (Britz) | Ortnitstr. 93, 12347 Berlin | keine Website gefunden | Sammeln/Behandeln/Verwerten, Altfahrzeuge | ja — Autoverwertung |
-| DAIKO Recycling (Sensecer e.K.) | Sitz Wandlitz (bedient Berlin) | Zehnpfuhlweg 3, 16348 Wandlitz | https://www.auto-schrottplatz.com | Autoverwertung + Schrottankauf + Container | ja (Sitz außerhalb Berlins) |
-| Hein Schrotthandel GmbH | Sitz Schöneiche (bedient Berlin) | Werner-von-Siemens-Str. 12, 15566 Schöneiche | https://www.hein-schrotthandel.de | Generalist + Elektronikschrott + Katalysatoren, Abholung/Versand | ja (Sitz außerhalb Berlins) |
 | BRAL Reststoff-Bearbeitungs GmbH | Lichtenberg | Marzahner Str. 36, 13053 Berlin | https://www.bral.berlin | Elektronikschrott-Erstbehandlung (ALBA/BSR) | Ankauf unklar (Annahme, keine Barpreisliste) |
 | ALBA Berlin GmbH (Zentrale + Lichtenberg) | Reinickendorf / Lichtenberg | Flottenstr. 7-9, 13407 + Marzahner Str. 35, 13053 Berlin | https://berlin.alba.info | Entsorgung, Container, Recyclinghöfe | Ankauf unklar |
 | Berlin Recycling GmbH | Friedrichshain-Kreuzberg (Kreuzberg) | Monumentenstr. 14, 10965 Berlin | https://www.berlin-recycling.de | Entsorgung, Metallschrott-Container (Gewerbe) | Ankauf unklar |
@@ -400,8 +398,6 @@ Quellenkürzel: Website = Betreiber-Website/Impressum; HR = Handelsregister (onl
 | Auto-Dienst Süd Krämer GmbH | Treptow-Köpenick | Kiefholzstr. 397 | 12435 | — | seed/be.json + recherche/be.md (Verzeichnisbeleg) |
 | DMT Automobile | Pankow | Mandelstr. 16 | 10409 | — | seed/be.json + recherche/be.md (Verzeichnisbeleg) |
 | Auto Brasch GmbH | Neukölln | Ortnitstr. 93 | 12347 | 030 9268667 | schrottplaetze.org, Ortnitstr. 93 (Websuche 28.09.2026) |
-| DAIKO Recycling (Sensecer e.K.) | — (Sitz Wandlitz) | Zehnpfuhlweg 3 | 16348 | 030 48620640 | auto-schrottplatz.com (Websuche 28.09.2026; Wandlitz 033396 70195) |
-| Hein Schrotthandel GmbH | — (Sitz Schöneiche) | Werner-von-Siemens-Str. 12 | 15566 | — | hein-schrotthandel.de (bedient Berlin) |
 | BRAL Reststoff-Bearbeitungs GmbH | Lichtenberg | Marzahner Str. 36 | 13053 | — | bral.berlin (Ankauf unklar, keine Barpreisliste) |
 | ALBA Berlin GmbH (Zentrale + Lichtenberg) | Reinickendorf / Lichtenberg | Flottenstr. 7-9, 13407 + Marzahner Str. 35 | 13053 | — | berlin.alba.info (Entsorger, Ankauf unklar) |
 | Berlin Recycling GmbH | Friedrichshain-Kreuzberg | Monumentenstr. 14 | 10965 | — | berlin-recycling.de (Gewerbe-Container, Ankauf unklar) |

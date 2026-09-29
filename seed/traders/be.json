@@ -1100,56 +1100,6 @@
   }
  },
  {
-  "slug": "be-sitz-wandlitz-daiko-recycling-sensecer",
-  "name": "DAIKO Recycling (Sensecer e.K.)",
-  "trader_type": "autoverwertung",
-  "description": "",
-  "street": "Zehnpfuhlweg 3",
-  "postcode": "16348",
-  "phone": "030 48620640",
-  "email": "",
-  "opening_hours": "",
-  "city": "Sitz Wandlitz",
-  "state": "BE",
-  "website": "https://www.auto-schrottplatz.com",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "aktiv",
-  "notes": "Autoverwertung + Schrottankauf + Container | Adresse: Zehnpfuhlweg 3, 16348 Wandlitz | Bezirk: — (Sitz Wandlitz) Adressbeleg: auto-schrottplatz.com (Websuche 28.09.2026; Wandlitz 033396 70195)",
-  "provenance": {
-   "seed_file": "be",
-   "section": "Schrottankauf Berlin (BE) — Recherche",
-   "ankauf_raw": "ja (Sitz außerhalb Berlins)",
-   "origin": "table"
-  }
- },
- {
-  "slug": "be-sitz-schoneiche-hein-schrotthandel",
-  "name": "Hein Schrotthandel GmbH",
-  "trader_type": "schrotthaendler",
-  "description": "",
-  "street": "Werner-von-Siemens-Str. 12",
-  "postcode": "15566",
-  "phone": "—",
-  "email": "",
-  "opening_hours": "",
-  "city": "Sitz Schöneiche",
-  "state": "BE",
-  "website": "https://www.hein-schrotthandel.de",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "aktiv",
-  "notes": "Generalist + Elektronikschrott + Katalysatoren, Abholung/Versand | Adresse: Werner-von-Siemens-Str. 12, 15566 Schöneiche | Bezirk: — (Sitz Schöneiche) Adressbeleg: hein-schrotthandel.de (bedient Berlin)",
-  "provenance": {
-   "seed_file": "be",
-   "section": "Schrottankauf Berlin (BE) — Recherche",
-   "ankauf_raw": "ja (Sitz außerhalb Berlins)",
-   "origin": "table"
-  }
- },
- {
   "slug": "be-lichtenberg-bral-reststoff-bearbeitungs",
   "name": "BRAL Reststoff-Bearbeitungs GmbH",
   "trader_type": "schrotthaendler",

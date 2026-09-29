@@ -140,7 +140,7 @@ Neue Winkel ggü. Runde 2: schrottradar.de-Brandenburg-Übersicht (42 Profile mi
 | Schrotthandel Hristov | Fredersdorf (Lange Str. 3, 15370) | keine Website gefunden (schrottradar-Beleg) | Schrotthandel | ja |
 | Schrott Wetzel GmbH (Filiale) | Fredersdorf OT Vogelsdorf (Industriehafen 12, 15370) | http://www.schrottwetzel.de (schrottradar-Beleg; Stammhaus Cottbus verifiziert Runde 1) | Altmetall/Rohstoffhof | ja |
 | Fa. Efrem Gouchev Schrottankauf | Altlandsberg (An der Mühle 1, 15345; publiziert Schrottpreise auf schrottradar) | keine Website gefunden (schrottradar-Beleg) | Schrottankauf | ja |
-| HEIN Schrotthandel GmbH | Schöneiche (Werner-von-Siemens-Str. 12, 15566) | keine Website gefunden (schrottradar-Beleg) | Schrotthandel | ja |
+| HEIN Schrotthandel GmbH | Schöneiche (Werner-von-Siemens-Str. 12, 15566) | https://www.hein-schrotthandel.de | Schrotthandel | ja |
 | Hofmann Metall GmbH | Hirschfeld (Bahnhofstr. 5; PLZ auf schrottradar 08114 fehlerhaft, vermutl. 04932 – prüfen) | keine Website gefunden (schrottradar-Beleg) | Metall/Schrott | ja (Adresse unsicher) |
 | ALBA Metall Nord GmbH | Velten (Breite Str. 47b, 16727) | https://metall.alba.info/ (schrottradar-Beleg) | Stahl-/Metallschrott | ja |
 | ALBA Metall Nord GmbH | Luckenwalde OT Kloster Zinna (Dämmchenweg 14 – identische Adresse wie INTERSEROH-MAB-Eintrag, s. Korrekturen) | https://metall.alba.info/ (schrottradar-Beleg) | Stahl-/Metallschrott | ja |
@@ -264,7 +264,7 @@ Methodik: alle Kandidaten aus /tmp/opencode/audit/bb.md geprüft. Domain-Verifik
 | Wolf (Abschleppdienst) | Wandlitz, Zühlsdorfer Str. 5 | keine Website verifiziert | AV/Abschlepp | ja |
 | Krüger Jochen (AV) | Wiesenau, Am Pottack 1 | keine Website verifiziert | Autoverwertung (Schwesteradresse Krüger Metallhandel Am Pottack 2/Seed — Familienyard, Import-Abgleich) | unklar |
 | Kielow Eberhard | Drebkau, Schorbus-Ausbau 1 | keine Website verifiziert | AV/Kfz-Entsorgung | ja |
-| Daiko Kfz-Recycling (Ali Sensecer) | Wandlitz, Zehnpfuhlweg 3 | keine Website verifiziert | Autoverwertung | unklar |
+| Daiko Kfz-Recycling (Ali Sensecer) | Wandlitz, Zehnpfuhlweg 3 | https://www.auto-schrottplatz.com | Autoverwertung | unklar |
 | Cottbuser Goldankauf (Krasulsky) | Cottbus, Karl-Liebknecht-Str. 16 | keine Website verifiziert | Gold-/Silberwaren, Goldankauf | ja |
 
 Rejects (kein Import):

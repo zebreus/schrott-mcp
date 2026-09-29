@@ -31,7 +31,7 @@ use super::super::{
 };
 use crate::IngestError;
 
-pub const SLUG: &str = "be-sitz-schoneiche-hein-schrotthandel";
+pub const SLUG: &str = "bb-schoneiche-hein-schrotthandel";
 /// Bespoke, live-verified impressum URL (the site's own footer link).
 /// A move fails the step loudly (fix the URL) — never guessed, never shared.
 pub const IMPRESSUM_URL: &str = "https://www.hein-schrotthandel.de/impressum";
