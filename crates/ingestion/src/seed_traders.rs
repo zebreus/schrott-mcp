@@ -273,8 +273,11 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
                 city: &t.city,
                 state: &t.state,
                 country: "DE",
-                lat: None,
-                lon: None,
+                // The seed never carries coordinates: always keep any
+                // geocoded enrichment (a geocode batch documents its run
+                // in its commit message, not per row).
+                lat: kept.lat,
+                lon: kept.lon,
                 email: &email,
                 website: &website,
                 website_status: &website_status,
