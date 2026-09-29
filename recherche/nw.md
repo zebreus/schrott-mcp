@@ -26,7 +26,7 @@ Legende Ankauf: **ja** = Ankauf belegt (Website/Register), **unklar** = Entsorge
 | A. Mandel (Schrottaufbereitung, Recycling- u. Hafenumschlag) | Gelsenkirchen | keine Website gefunden | Schrottaufbereitung, Hafen (Uferstr. 39) | unklar |
 | GBT Schrott- u. Metallrecycling GmbH | Gelsenkirchen | https://www.gbt-recycling.de (unverifiziert) | Schrott/Metall (Hobackestr. 92) | unklar |
 | Rohstoffhandel Heinrichs GmbH | Gelsenkirchen | https://heinrichs-group.com | Schrottankauf (nur Branchenhinweis) | unklar |
-| Heidelbach Metall Recycling GmbH | Gladbeck | keine Website gefunden | Schrott/Metall (nur 11880-Nennung) | unklar |
+| Heidelbach Metall Recycling GmbH | Gladbeck | https://www.heidelbach-gladbeck.de | Schrott/Metall (nur 11880-Nennung); seit 1934, Anlieferung Mo-Sa | unklar |
 
 ## Dortmund / Hagen / Ennepetal
 
@@ -56,7 +56,7 @@ Legende Ankauf: **ja** = Ankauf belegt (Website/Register), **unklar** = Entsorge
 | Schüte & Verstappen GmbH | Mülheim an der Ruhr | keine Website gefunden | Schrott/Entsorgung (Aktienstr. 23) | unklar |
 | EBH Schrott Recycling Umwelttechnik GmbH | Oberhausen | keine Website gefunden | Schrott/Altmetall (Tackstr. 21) | unklar |
 | Knümann (Container/Kupfer-Ankauf) | Bottrop | https://www.container-knuemann.de/kupfer-ankauf-bottrop.html | Kupfer-/Metallankauf, Container (Werkstr. 4) | ja |
-| BSH Bottroper Schrotthandel GmbH | Bottrop | https://bottroper-schrotthandel.de | Schrotthandel (nur Handelsregister-Nennung) | unklar |
+| BSH Bottroper Schrotthandel GmbH | Bottrop | https://bottroper-schrotthandel.de | Schrotthandel (nur Handelsregister-Nennung); Tagespreise, Abholung ab 500 kg | ja |
 
 ## Bochum / Herne
 
@@ -64,7 +64,7 @@ Legende Ankauf: **ja** = Ankauf belegt (Website/Register), **unklar** = Entsorge
 |---|---|---|---|---|
 | H.R.B Rohstoffhandel Ruhr | Bochum | https://rohstoffhandel.ruhr/ | Autoverwertung (Verwertungsnachweis) + Altmetall (Dieselstr. 18-20) | ja |
 | Metallankauf Profi (NRW Schrott & Metallankauf) | Bochum | https://metallankauf-profi.de/ | Bunt-/Edelmetalle, Kupfer/Messing (Roberstr. 70) | ja |
-| A. Fischer & Söhne GmbH | Bochum | keine Website gefunden | Altmetallsortierung (Altenbochumer Str. 15) | unklar |
+| A. Fischer & Söhne GmbH | Bochum | https://www.fischersoehne.de | Altmetallsortierung (Altenbochumer Str. 15-21); PREISLISTE (€/100 kg: Alu, Blei, Zink, V2A, Kupferkabel u.v.m.) → HANDLER-KANDIDAT | ja |
 | Schrottankauf Exclusiv (mobil) | Herne | https://www.schrottankauf-exclusiv.de/schrottankauf-dortmund/ | Altmetallankauf mit Abholung, NRW-weit | mobil/ja |
 
 ## Düsseldorf / Neuss / Mönchengladbach / Krefeld
@@ -110,7 +110,7 @@ Legende Ankauf: **ja** = Ankauf belegt (Website/Register), **unklar** = Entsorge
 |---|---|---|---|---|
 | Derleh Recycling | Münster | https://www.derleh-recycling.de/ | Schrott-/Metallhandel, Container (Hessenbusch 185) | ja |
 | Metall Recycling Münster | Münster | https://metall-rm.de/ — TOT | Eisen/Kupfer/Messing/Edelstahl/Nickel/Hartmetall (Königsberger Str. 109) | ja |
-| SRM Schrott & Metallrecycling Münster GmbH | Münster | https://www.srm-schrott.de | Schrottannahme/-aufbereitung (Kesslerweg 37) | unklar |
+| SRM Schrott & Metallrecycling Münster GmbH | Münster | https://www.srm-schrott.de | Schrottannahme/-aufbereitung (Kesslerweg 37); LME-Tagespreise, bar | ja |
 | Recycling Bartikowsky | Münster | https://recycling-bartikowsky.de (unverifiziert) — TOT | Schrott/Metall, Demontage, Container (Nienkamp 26) | unklar |
 | Schmelzer Recycling | Münster | https://recycling-schmelzer.de (unverifiziert) | Metallrecycling, Container (Killingstr. 25) | unklar |
 | Kuhn Recycling | Münster | keine Website gefunden | Schrott/Metall (Nienkamp 28) | unklar |
@@ -130,8 +130,8 @@ Legende Ankauf: **ja** = Ankauf belegt (Website/Register), **unklar** = Entsorge
 | Name | Stadt | Website | Spezialität | Ankauf |
 |---|---|---|---|---|
 | WERTZ Handelsgesellschaft mbH & Co. KG | Aachen + Düren | https://www.wertz.de/schrott-und-ne-metall-recycling | Schrott/NE, Großscheren (Rödgerheidweg 34 / Brückenstr. 260) | ja |
-| Steinrath Metalle GmbH | Aachen | https://www.steinrath.de | Metallhandel 4. Generation (Hüttenstr. 133-135) | unklar |
-| Altmetalle Witt GmbH | Stolberg + Würselen | http://altmetalle-witt.de | Schrott (Münsterbachstr. 3 / Südstr. 99) | unklar |
+| Steinrath Metalle GmbH | Aachen | https://www.steinrath.de | Metallhandel 4. Generation (Hüttenstr. 133-135); faire Tagespreise Kabel/Millberry/Messing/Alu/V2A/Zinn/Blei | ja |
+| Altmetalle Witt GmbH | Stolberg + Würselen | http://altmetalle-witt.de | Schrott (Münsterbachstr. 3 / Südstr. 99); 30-t-Waage, Container | unklar |
 | Staritz GmbH & Co. KG | Stolberg | keine Website gefunden | Schrott (Königin-Astrid-Str. 21) | unklar |
 | Aurubis Stolberg GmbH & Co. KG | Stolberg | https://www.aurubis-stolberg.com/ | Kupferhalbzeug-Produzent (Zweifaller Str. 150), kein öffentl. Ankauf | unklar (Hersteller) |
 
@@ -193,7 +193,7 @@ in "Mobile" abgedeckt, nicht erneut gelistet).
 | Schrott- und Metallgroßhandel Krabbenhöft e.K. | Menden | http://www.krabbenhoeft-online.de/ | "Wir kaufen ständig Metalle aller Art" (Bessemerweg 10) | ja |
 | Walter Sperling & Söhne | Iserlohn | keine Website gefunden | Schrott (Giesestr. 29, Iserlohner Heide), nur schrottradar-Profil | unklar |
 | Hees Rohstoffhandel GmbH | Olsberg | https://www.hees.me/ | Rohstoffhandel, Annahme, Container (Knickhütte 1, Bigge) | ja |
-| Hugo Neuhaus GmbH | Attendorn | https://www.neuhaus-recycling.de | Schrott (Askay 7, Ennest), nur schrottradar-Profil | unklar |
+| Hugo Neuhaus GmbH | Attendorn | https://www.neuhaus-recycling.de | Schrott (Askay 7, Ennest), nur schrottradar-Profil; seit 1925 | unklar |
 | SSG Altmetallhandel GbR | Euskirchen | https://ssg-altmetallhandel.de/ | Altmetall-Ankauf aller Art, Containerdienst (Alfred-Nobel-Str. 52; R4-fetch-verifiziert) | ja |
 | Recycling Kall GmbH | Kall | http://www.recycling-kall.de/ | Recycling/Entsorgung/Schüttgüter (Daimlerstr. 1), ohne Ankaufbeleg | unklar |
 | Schrotthandel Thomas Anders | Mechernich | https://schrotthandel-thanders.de.tl/ | Kostenlose Abholung (Im Kamertal 10, Bergbuir) | mobil/unklar |
@@ -328,7 +328,7 @@ Dortmund/Duisburg/Gelsenkirchen-Profile waren per Fetch blockiert (nur R1/R2-Sta
 | Mario Deutsch Metallrecycling | Kreuztal | keine gefunden | 0162-Nr. | mobil/unklar |
 | Glück Schrotthandel + Recycling | Kreuztal | keine gefunden | 01520-Nr. | mobil/unklar |
 | A-Z-Altmetalle Kelbassa | Vlotho (Valdorf) | keine gefunden | An der Autobahn 5, nur schrottradar-Profil | unklar |
-| Wilhelm Bötzel GmbH & Co. KG | Witten-Buchholz | https://boetzel-schrott.com | Wittener Str. 170-176, nur schrottradar-Profil | unklar |
+| Wilhelm Bötzel GmbH & Co. KG | Witten-Buchholz | https://boetzel-schrott.com | Wittener Str. 170-176, nur schrottradar-Profil; 3 Standorte (Witten/Herne/Hagen), Filial-Check | unklar |
 | Müller & Sohn GmbH & Co. KG | Sprockhövel-Haßlinghausen | keine gefunden | Harkortstr. 22, nur schrottradar-Profil | unklar |
 | VCC Verwertungs-Centrum Castrop | Castrop-Rauxel (Ickern) | https://vcc-castrop.de/ (nur "Neue Website"-Platzhalter) — TOT (offline Platzhalter "Hier entsteht eine neue Website", 29.09.2026) | Deininghauser Weg 81 | unklar |
 | Huiskes Schrott- und Metallhandel | Waltrop (Addr.: Dortmund-Mengede) | keine gefunden | Büscherstr. 91, 45731 (Mengede-PLZ!), 0174-Nr. | mobil/unklar |
@@ -821,7 +821,7 @@ Stand: 2026-09-27. Audit der Kandidatenliste /tmp/opencode/audit/nw.md (~330 Zei
 | SWD | Bochum | keine Website verifiziert | mobil (GS) | unklar |
 | Piotrowski | Gevelsberg | keine Website verifiziert | mobil (GS) | unklar |
 | Weiß | Gevelsberg | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
-| Grün & Mücher | Gevelsberg | https://gruen-muecher.de | Schrott, Ankauf fraglich (GS) | unklar |
+| Grün & Mücher | Gevelsberg | https://gruen-muecher.de | Schrott, Ankauf fraglich (GS); Creditreform Großhandel Schrott | unklar |
 | Vebro | Bochum | keine Website verifiziert | mobil (GS) | unklar |
 | Wolter | Mönchengladbach | keine Website verifiziert | Schrott (GS) | unklar |
 | UHS | Mönchengladbach | keine Website verifiziert | Schrott (GS) | unklar |
@@ -854,7 +854,7 @@ Stand: 2026-09-27. Audit der Kandidatenliste /tmp/opencode/audit/nw.md (~330 Zei
 | Köllner | Essen | keine Website verifiziert | Schrott (GS) | unklar |
 | Pytka | Schwerte | keine Website verifiziert | mobil (GS) | unklar |
 | Theissen | Oberhausen | keine Website verifiziert | Kleintransport (GS) | unklar |
-| Hohlfeld | Rheine | keine Website verifiziert | Schrott (GS) | unklar |
+| Hohlfeld | Rheine | https://hohlfeld-rheine.de | Schrott (GS); Ankauf & Verkauf Metall | unklar |
 | Lohmann | Emsdetten | keine Website verifiziert | Schrott, Ankauf fraglich (GS) | unklar |
 | Putzer | Telgte | keine Website verifiziert | Schrott (GS) | unklar |
 | Küsters | Selfkant | keine Website verifiziert | Schrott (GS) | unklar |
@@ -912,22 +912,12 @@ Echt tot (4): marcusdroste.de (Marcus Droste Dinslaken — kein Connect http+htt
 | A. Menshen GmbH & Co. KG | Werdohl 58791, Im Ohl 7 | https://www.menshen.de | Metallhandel/Container — "Metallschrott/Stahlschrott: Wir kaufen", auch privat; Seed namenlos → UPGRADE-Kandidat | unklar |
 | Helmut Mösta Metallgroßhandel | Dortmund 44145, Dammstr. 2-10 | https://moesta-metalle.de | Metallhandel — "An- & Verkauf Altmetalle, Bar, Tagespreise"; UPGRADE-Kandidat ✓ done | ja |
 | Franz Plum GmbH & Co. KG | Alsdorf 52477, Carl-Zeiss-Str. 9 (Platz Am Güterbahnhof 5) | https://www.franz-plum.de | Metall/Container/Demontage — "An- und Verkauf Schrott/NE aller Art"; UPGRADE-Kandidat ✓ done | unklar |
-| Hugo Neuhaus GmbH | Attendorn 57439, Askay 7 | https://www.neuhaus-recycling.de | Schrott/Metall — seit 1925; UPGRADE-Kandidat ✓ done | unklar |
 | Hydro Aluminium Recycling Deutschland GmbH | Dormagen 41542, Edisonstr. 5 | https://www.hydro.com/de/global/uber-hydro/hydro-weltweit/europe/deutschland/dormagen/hydro-aluminium-recycling-deutschland-gmbh | Alu-Recycling — 36.000 t Aluschrott-Einsatz/Jahr — Gießerei-Input-Käufer (NEU, kein Seed) | unklar |
 | AZ Containerdienst & Metallhandel (Zaim Abazovic) | Gummersbach-Dieringhausen 51645, Halstenbachstr. 3a | https://az-containerdienst.de | Container/Metallankauf — "/leistungen/schrott-metallankauf": Tagesnotierung (NEU) | ja |
 | HB-Metalle | Hamm 59073, Veistr. 60 | https://www.hb-metalle.de | Metallhandel/mobil — nur Handy + Impressum, LME-NE-Barankauf NRW (NEU) | ja |
-| Wilhelm Bötzel GmbH & Co. KG | Witten 58456 + Herne + Hagen | https://boetzel-schrott.com | Schrott/Aufbereitung — 3 Standorte → Filial-Check; UPGRADE-Kandidat ✓ done | unklar |
-| SRM Schrott & Metallrecycling Münster GmbH | Münster 48155, Kesslerweg 37 | https://www.srm-schrott.de | Schrott/Abbruch — LME-Tagespreise, bar; UPGRADE-Kandidat ✓ done | ja |
-| Hohlfeld GmbH & Co. KG | Rheine 48431, Hauenhorster Str. 171-185 | https://hohlfeld-rheine.de | Entsorger/Metall/Gießerei — "Ankauf & Verkauf Metall"; UPGRADE-Kandidat (im Seed namenlos — prüfen ob Website ankam) | unklar |
 | Günter Allermann GmbH | Schwelm 58332, In der Graslake 46 | https://www.allermann-gmbh.de | Metallhandel — seit 1955, Cu/Bronze/Messing/Alu/Pb/Zn/Sn (NEU) | unklar |
 | Grafenberg-Metall GmbH | Krefeld 47807, Sterkenhofweg 27 | https://grafenberg-metall.com | Alu-Recycling/Metall — 55-60 kt Aluschrott/Jahr, VDM/BIR (NEU) | unklar |
-| Grün & Mücher GmbH & Co. KG | Gevelsberg 58285, Asker Str. 6 | https://gruen-muecher.de | Entsorger/Schrott — Creditreform Großhandel Schrott; UPGRADE-Kandidat ✓ done | unklar |
 | Rohstoffhandel Heinrichs Group | Gelsenkirchen 45886, Am Dördelmannshof 30 | https://heinrichs-group.com | Entsorger/Container — Handel Eisen/Metalle/Schrott; UPGRADE-Kandidat ✓ done | unklar |
-| Heidelbach Metall Recycling GmbH | Gladbeck 45966, Stollenstr. 25 | https://www.heidelbach-gladbeck.de | Metallhandel — seit 1934, Anlieferung Mo-Sa (NEU) | unklar |
-| BSH Bottroper Schrotthandel GmbH | Bottrop 46240, Werkstr. 4 | https://bottroper-schrotthandel.de | Schrott/AV — Tagespreise, Abholung ab 500 kg; UPGRADE-Kandidat ✓ done | ja |
-| Steinrath Metalle GmbH | Aachen 52068, Hüttenstr. 133-135 | https://www.steinrath.de | Metallhandel — "faire Tagespreise Kabel/Millberry/Messing/Alu/V2A/Zinn/Blei"; UPGRADE-Kandidat ✓ done | ja |
-| Altmetalle Witt GmbH | Stolberg 52222, Münsterbachstr. 3 | http://altmetalle-witt.de | Schrott/Container — 30-t-Waage; UPGRADE-Kandidat ✓ done | unklar |
-| A. Fischer & Söhne GmbH | Bochum 44803, Altenbochumer Str. 15-21 | https://www.fischersoehne.de | Entsorger/Metall/Container — PREISLISTE (€/100 kg: Alu, Blei, Zink, V2A, Kupferkabel u.v.m.) → HANDLER-KANDIDAT | ja |
 | ECO Remarketing GmbH | Ennigerloh 59320, Westkirchener Str. 67 | https://www.eco-remarketing.com | IT-Remarketing/E-Schrott/NE — Vergütung Au/Ag/Cu, LME-Festpreise, BIR (NEU) | ja |
 | PIO Remarketing GmbH | Mönchengladbach 41066, Süchtelner Str. 65 | https://www.pio-remarketing.de | IT-Remarketing/E-Schrott — "kaufen alte IT-Hardware, 350.000 Assets/Jahr" (NEU) | unklar |
 | etree GmbH | Köln 50829, Mathias-Brüggen-Str. 160 | https://etree.de | IT-Remarketing/E-Schrott — "We purchase used IT hardware" (NEU, nur via Suche verifiziert) | unklar |
@@ -1026,14 +1016,12 @@ Website tot) — Verzeichnisabgleich steht aus.
 | Hydro Aluminium Recycling Deutschland GmbH | Dormagen | Edisonstr. 5 | 41542 | +49 152 229 44 628 | dispo.hard@hydro.com | n.e. | https://www.hydro.com/de/global/uber-hydro/hydro-weltweit/europe/deutschland/dormagen/hydro-aluminium-recycling-deutschland-gmbh |
 | AZ Containerdienst & Metallhandel (Zaim Abazovic) | Gummersbach-Dieringhausen | Halstenbachstr. 3a | 51645 | 01515 9851357 | info@az-containerdienst.de | Mo-Sa 8:00-17:00, So geschlossen | https://az-containerdienst.de |
 | HB-Metalle | Hamm | Veistr. 60 | 59073 | +49 178 1758265 | info@hb-metalle.de | Mo-Fr 8:00-18:30, Sa 8:00-16:30 | https://www.hb-metalle.de |
-| slug:nw-witten-58456-wilhelm-botzel Wilhelm Bötzel GmbH & Co. KG | Witten | Wittener Straße 170-176 | 58456 | +49 (0) 2324 / 686 01 00 | witten@boetzel-schrott.de | Mo-Fr ca. 6:00-16:30 | https://boetzel-schrott.com |
-| slug:nw-herne-wilhelm-botzel Wilhelm Bötzel GmbH & Co. KG | Herne | Hafenstraße 5-13 | 44653 | +49 (0) 2325 / 75048 | herne-1@boetzel-schrott.de | Mo-Fr ca. 6:00-16:30 | http://boetzel-schrott.com/redirect.html |
-| slug:nw-hagen-wilhelm-botzel Wilhelm Bötzel GmbH & Co. KG | Hagen | Hellweg 88 | 58099 | +49 (0) 2331 / 62 80 10 | hagen@boetzel-schrott.de | Hagen Mo-Fr 7:00-15:00 | http://boetzel-schrott.com/redirect.html |
+| slug:nw-witten-buchholz-wilhelm-botzel Wilhelm Bötzel GmbH & Co. KG | Witten | Wittener Straße 170-176 | 58456 | +49 (0) 2324 / 686 01 00 | witten@boetzel-schrott.de | Mo-Fr ca. 6:00-16:30 | https://boetzel-schrott.com |
 | SRM Schrott & Metallrecycling Münster GmbH | Münster | Kesslerweg 37 | 48155 | (0251) 60 92 26-10 | info@srm-schrott.de | n.e. | https://www.srm-schrott.de |
 | Hohlfeld GmbH & Co. KG | Rheine | Hauenhorster Straße 171–185 | 48431 | 05971 2179 | info@hohlfeld-rheine.de | Mo-Do 8:00-16:45, Fr 8:00-15:45, Sa geschlossen | https://hohlfeld-rheine.de |
 | Günter Allermann GmbH | Schwelm | In der Graslake 46 | 58332 | +49 2336 2911 | info@allermann-gmbh.de | Mo-Do 7:00-16:00, Fr 7:00-15:00, Ladezeiten Mo-Fr 7:00-14:30 | https://www.allermann-gmbh.de |
 | Grafenberg-Metall GmbH | Krefeld | Sterkenhofweg 27 | 47807 | +49 (0) 2151 820 69-0 | krefeld@grafenberg-metall.com | n.e. | https://grafenberg-metall.com |
-| slug:nw-gevelsberg-58285-grun-mucher Grün & Mücher GmbH & Co. KG | Gevelsberg | Asker Str. 6 | 58285 | +49 2332/6353 | n.e. | n.e. | https://gruen-muecher.de/impressum |
+| slug:nw-gevelsberg-grun-mucher Grün & Mücher GmbH & Co. KG | Gevelsberg | Asker Str. 6 | 58285 | +49 2332/6353 | n.e. | n.e. | https://gruen-muecher.de/impressum |
 | Rohstoffhandel Heinrichs Group | Gelsenkirchen | Am Dördelmannshof 30 | n.e. | n.e. | info@heinrichs-group.com | Mo-Fr 8:00-16:00 | https://heinrichs-group.com |
 | Heidelbach Metall Recycling GmbH | Gladbeck | Stollenstr. 25 | 45966 | (02043) 24041 + 42 | info@heidelbach-gladbeck.de | n.e. | https://www.heidelbach-gladbeck.de |
 | BSH Bottroper Schrotthandel GmbH | Bottrop | Werkstr. 4 | 46240 | 02041-7724414 | info@bottroper-schrotthandel.de | Mo-Sa 07:00-19:00, So geschlossen | https://bottroper-schrotthandel.de |
