@@ -23,7 +23,12 @@ pub const IMPRESSUM_URL: &str = "https://www.msr-frankfurt.de/impressum/";
 pub const URL: &str = "https://www.msr-frankfurt.de/altmetall-ankauf/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -112,7 +117,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h2 = Selector::parse("h2").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
-    if !doc.select(&h2).any(|h| h.text().collect::<String>().trim() == "Kontakt") {
+    if !doc
+        .select(&h2)
+        .any(|h| h.text().collect::<String>().trim() == "Kontakt")
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Kontakt-Block fehlt".to_owned(),
@@ -121,8 +129,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     // Address block: the <p> whose <br> lines hold a PLZ line.
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
     for el in doc.select(&p) {
-        let lines: Vec<String> =
-            el.inner_html().split("<br").map(strip_fragment).filter(|s| !s.is_empty()).collect();
+        let lines: Vec<String> = el
+            .inner_html()
+            .split("<br")
+            .map(strip_fragment)
+            .filter(|s| !s.is_empty())
+            .collect();
         for (k, line) in lines.iter().enumerate() {
             let mut it = line.split_whitespace();
             if let (Some(pc), Some(_)) = (it.next(), it.next()) {
@@ -180,7 +192,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -206,21 +224,33 @@ fn strip_fragment(s: &str) -> String {
 }
 
 /// One parsed card: (label, price, min, max, kind, confidence, unit).
-type Row = (String, f64, Option<f64>, Option<f64>, &'static str, Option<f64>, &'static str);
+type Row = (
+    String,
+    f64,
+    Option<f64>,
+    Option<f64>,
+    &'static str,
+    Option<f64>,
+    &'static str,
+);
 
 /// Parse the price cards between the `#preise` anchor and the section CTA.
 /// Returns (rows, skips); cards without a price ("Auf Anfrage") skip
 /// loudly, 0 priced rows is an error.
 fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
-    let start = html.find("id=\"preise\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisbox fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("id=\"preise\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisbox fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("href=\"#cta\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisbox unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("href=\"#cta\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisbox unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     let frag = Html::parse_fragment(window);
     let card = Selector::parse("div.rounded-borders").expect("valid selector");
@@ -232,12 +262,23 @@ fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
         let head = el
             .select(&h3)
             .next()
-            .map(|h| h.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" "))
+            .map(|h| {
+                h.text()
+                    .collect::<String>()
+                    .split_whitespace()
+                    .collect::<Vec<_>>()
+                    .join(" ")
+            })
             .unwrap_or_default();
         let mut sub = String::new();
         let mut price_raw = String::new();
         for p in el.select(&psel) {
-            let t = p.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ");
+            let t = p
+                .text()
+                .collect::<String>()
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ");
             if t.is_empty() {
                 continue;
             }
@@ -250,8 +291,13 @@ fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
                 sub = t;
             }
         }
-        let label =
-            if sub.is_empty() { head.clone() } else { format!("{head} / {sub}") }.trim().to_owned();
+        let label = if sub.is_empty() {
+            head.clone()
+        } else {
+            format!("{head} / {sub}")
+        }
+        .trim()
+        .to_owned();
         if price_raw.is_empty() {
             skips.push(format!("{label} (Auf Anfrage, kein Preis)"));
             continue;
@@ -267,7 +313,10 @@ fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
         rows.push((label, price, min, max, kind, confidence, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preispaare".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -304,7 +353,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
     let lower = cell.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|w| w == "t" || w == "to")
+    {
         Some("EUR/t")
     } else {
         None
@@ -369,12 +421,18 @@ mod tests {
 
     #[test]
     fn mapping_covers_all_live_labels() {
-        assert_eq!(grade_for("Kupferkabel / Haushaltskabel"), Some(("kabel-kupfer", "Kupferkabel")));
+        assert_eq!(
+            grade_for("Kupferkabel / Haushaltskabel"),
+            Some(("kabel-kupfer", "Kupferkabel"))
+        );
         assert_eq!(
             grade_for("Schälkabel / mit dickem Kupferdraht"),
             Some(("kabel-kupfer", "Schälkabel"))
         );
-        assert_eq!(grade_for("Kupferdraht / z.B. Milberry"), Some(("kupfer-millberry", "")));
+        assert_eq!(
+            grade_for("Kupferdraht / z.B. Milberry"),
+            Some(("kupfer-millberry", ""))
+        );
         assert_eq!(
             grade_for("Kupferschrott schwer / z.B. Rohre"),
             Some(("kupfer-gemischt", "schwer"))
@@ -383,8 +441,14 @@ mod tests {
             grade_for("Kupferschrott leicht / mit leichten Anhaftungen oder lackiert"),
             Some(("kupfer-gemischt", "leicht"))
         );
-        assert_eq!(grade_for("Messing schwer / saubere Armaturen"), Some(("messing", "")));
-        assert_eq!(grade_for("Blei / z.B. Bleigeschirr, Bleistangen"), Some(("blei", "")));
+        assert_eq!(
+            grade_for("Messing schwer / saubere Armaturen"),
+            Some(("messing", ""))
+        );
+        assert_eq!(
+            grade_for("Blei / z.B. Bleigeschirr, Bleistangen"),
+            Some(("blei", ""))
+        );
         assert_eq!(
             grade_for("Elektromotoren / mit und ohne Anhaftung"),
             Some(("elektromotoren", ""))
@@ -393,7 +457,10 @@ mod tests {
             grade_for("Eisenschrotte und Stahlschrotte / verschiedene Sorten"),
             Some(("mischschrott", ""))
         );
-        assert_eq!(grade_for("Weitere Sorten / Silber, Gold, Hartmetalle"), None);
+        assert_eq!(
+            grade_for("Weitere Sorten / Silber, Gold, Hartmetalle"),
+            None
+        );
     }
 
     #[test]

@@ -25,7 +25,12 @@ pub const IMPRESSUM_URL: &str = "https://www.schrott-recycling-meikel.de/impress
 pub const URL: &str = "https://www.schrott-recycling-meikel.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -102,8 +107,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h2 = Selector::parse("h2").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
-    let headings: Vec<String> =
-        doc.select(&h2).map(|h| h.text().collect::<String>().trim().to_owned()).collect();
+    let headings: Vec<String> = doc
+        .select(&h2)
+        .map(|h| h.text().collect::<String>().trim().to_owned())
+        .collect();
     if !headings.iter().any(|h| h.contains("Angaben gemäß")) {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -119,8 +126,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
     let (mut phone, mut email) = (String::new(), String::new());
     for el in doc.select(&p) {
-        let lines: Vec<String> =
-            el.inner_html().split("<br").map(strip_fragment).filter(|s| !s.is_empty()).collect();
+        let lines: Vec<String> = el
+            .inner_html()
+            .split("<br")
+            .map(strip_fragment)
+            .filter(|s| !s.is_empty())
+            .collect();
         for line in &lines {
             if let Some(v) = line.strip_prefix("Telefon:") {
                 if phone.is_empty() {
@@ -153,7 +164,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -182,9 +199,7 @@ fn strip_fragment(s: &str) -> String {
 /// row, not a header — it parses like every tbody row. Returns
 /// (rows, skips); the disclaimer row has no price and skips loudly, 0
 /// priced rows is an error.
-fn parse(
-    html: &str,
-) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
     let doc = Html::parse_document(html);
     let table = Selector::parse("table.jw-table").expect("valid selector");
     let row = Selector::parse("tr").expect("valid selector");
@@ -199,7 +214,10 @@ fn parse(
         })
     });
     let Some(table) = table else {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preistabelle".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preistabelle".to_owned(),
+        });
     };
     let mut rows = Vec::new();
     let mut skips = Vec::new();
@@ -207,7 +225,12 @@ fn parse(
         let cells: Vec<String> = tr
             .select(&cell)
             .map(|c| {
-                c.text().collect::<String>().replace(['\u{a0}'], " ").split_whitespace().collect::<Vec<_>>().join(" ")
+                c.text()
+                    .collect::<String>()
+                    .replace(['\u{a0}'], " ")
+                    .split_whitespace()
+                    .collect::<Vec<_>>()
+                    .join(" ")
             })
             .collect();
         if cells.len() < 2 {
@@ -240,7 +263,10 @@ fn parse(
     let mut seen = std::collections::HashSet::new();
     rows.retain(|(l, p, _)| seen.insert((l.clone(), p.to_bits())));
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preistabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabelle leer".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -252,7 +278,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
     let lower = cell.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|w| w == "t" || w == "to") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|w| w == "t" || w == "to")
+    {
         Some("EUR/t")
     } else {
         None

@@ -1,8 +1,12 @@
 //! Lausitz Recycling (Lauchhammer): label/price pairs scattered over
-//! nested card tables, with the whole block repeated under "Gültig ab".
+//! nested card tables, with the whole block repeated under "Gültig ab"
+//! (partly different spellings: "Cu – schwer" vs "Cu –Berry",
+//! "Cu-Kabel o. Stecker" vs "Cu – Kabel ohne Stecker").
 //! No page date. Strategy: walk all text nodes, pair each price text
 //! with the pending label, then dedupe identical pairs. "KEIN ANKAUF …"
-//! and paper have no mappable material and are skipped loudly.
+//! and paper ("Altpapier" — no paper in the catalog) have no mappable
+//! material and are skipped loudly. Exact 0.00 prices mean "no buy
+//! price" and are skipped loudly too.
 
 use scraper::{Html, Selector};
 
@@ -83,6 +87,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     if norm.contains("millberry") {
         Some(("kupfer-millberry", ""))
     } else if norm.contains("messing") {
+        // BEFORE schwer/berry: "Schwermessing" starts with "schwer".
         Some(("messing", ""))
     } else if norm.contains("schwer") || norm.contains("berry") {
         // Same grade, two spellings across page sections ("Cu – schwer"
@@ -168,7 +173,7 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         }
     }
     let mut rows: Vec<(String, f64, &'static str)> = Vec::new();
-    let mut unit_skips = Vec::new();
+    let mut skips = Vec::new();
     let mut seen = std::collections::HashSet::new();
     let mut pending: Option<String> = None;
     // Page-global unit: most rows quote bare "€ X" with the unit ("x pro
@@ -192,31 +197,54 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             if let (Some(price), Some(label)) = (parse_eur(&t), pending.take()) {
                 let mut unit = unit_of(&t);
                 // Unit split across nodes ("€ 8,59" + "x pro kg")?
+                // Tag-stripping leaves empty nodes between siblings, so
+                // scan past them to the first non-empty sibling. A
+                // sibling that names a unit ("pro …"/"…/…") but no known
+                // one ("pro Sack") is explicitly foreign → skip, never
+                // the page default. Anything else (next label, heading)
+                // is left for the main walk.
+                let mut foreign_unit = false;
                 if unit.is_none() {
-                    if let Some(next) = nodes.get(i) {
-                        let n = next
+                    let mut j = i;
+                    while j < nodes.len() {
+                        let n = nodes[j]
                             .replace("&nbsp;", " ")
                             .replace(['\u{a0}', '\u{200b}'], " ")
                             .trim()
                             .to_owned();
+                        if n.is_empty() {
+                            j += 1;
+                            continue;
+                        }
                         if let Some(u) = unit_of(&n) {
                             unit = Some(u);
-                            i += 1; // consumed as unit, not a label
+                            i = j + 1; // consumed as unit, not a label
+                        } else if n.contains('/') || n.to_lowercase().contains("pro") {
+                            foreign_unit = true;
+                            i = j + 1; // consumed as (unusable) unit
                         }
+                        break;
                     }
                 }
                 // Bare "€ X" inherits the page default; an explicit but
                 // unknown unit ("pro Sack") skips loudly instead.
                 let lower = t.to_lowercase();
-                let unit = unit.or(if t.contains('/') || lower.contains("pro") {
-                    None
-                } else {
-                    Some(PAGE_UNIT)
-                });
+                let unit = unit.or(
+                    if foreign_unit || t.contains('/') || lower.contains("pro") {
+                        None
+                    } else {
+                        Some(PAGE_UNIT)
+                    },
+                );
                 let Some(unit) = unit else {
-                    unit_skips.push(format!("{label} (Einheit unverständlich: {t})"));
+                    skips.push(format!("{label} (Einheit unverständlich: {t})"));
                     continue;
                 };
+                // Never record an exact 0.00 price — that is "no buy price".
+                if price == 0.0 {
+                    skips.push(format!("{label} (Preis 0,00 — kein Ankaufspreis)"));
+                    continue;
+                }
                 // The page repeats the block under "Gültig ab": dedupe.
                 if seen.insert((label.clone(), price.to_bits())) {
                     rows.push((label, price, unit));
@@ -234,7 +262,7 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             detail: "keine Preispaare".to_owned(),
         });
     }
-    Ok((rows, unit_skips))
+    Ok((rows, skips))
 }
 
 /// Bespoke unit matcher for THIS page (live: "€ 9,19 x pro kg", "€ 100
@@ -280,16 +308,48 @@ fn is_junk(t: &str) -> bool {
 mod tests {
     use super::{grade_for, is_junk, parse};
 
-    const FIXTURE: &str = "<h2>Unsere Preise</h2>\
-        <table><tr><td><strong>Cu - Millberry</strong></td></tr>\
-        <tr><td><strong>€ 9,19 x pro kg</strong></td></tr></table>\
-        <table><tr><td><strong>Mischschrott</strong></td></tr>\
-        <tr><td><strong>€ 100 x pro to</strong></td></tr></table>\
+    // Real shape, trimmed: nested ed-text cards, unit glued into split
+    // <strong> nodes, zero-width chars, "Gültig ab" repeat with
+    // different spellings, Altpapier (no catalog material).
+    const FIXTURE: &str = "<div class=\"ed-element ed-text custom-theme wv-light-edit\" id=\"ed-72845756\">\
+        <h2>Unsere Preise</h2>\
+        <table style=\"width: 100%;\"><tbody>\
+        <tr><td><div style=\"text-align: center;\"><strong>Cu - Millberry</strong></div></td></tr>\
+        <tr><td><div style=\"text-align: center;\"><strong>€ 9,19 x pro kg</strong></div></td></tr>\
+        </tbody></table></div>\
+        <div class=\"ed-element ed-text custom-theme wv-light-edit\" id=\"ed-72845759\">\
+        <table style=\"width: 100%;\"><tbody>\
+        <tr><td><div style=\"text-align: center;\"><strong>Cu – schwer</strong></div></td></tr>\
+        <tr><td><p style=\"text-align: center;\"><strong>€ 8,59&nbsp;</strong><strong>x pro kg</strong></p></td></tr>\
+        </tbody></table></div>\
+        <div class=\"ed-element ed-text custom-theme wv-light-edit\" id=\"ed-72846127\">\u{200b}\
+        <table style=\"width: 100%;\"><tbody>\
+        <tr><td><div style=\"text-align: center;\"><strong>Cu-Kabel o. Stecker</strong></div></td></tr>\
+        <tr><td><div style=\"text-align: center;\"><strong>€ 2,74 x pro kg</strong></div></td></tr>\
+        </tbody></table></div>\
+        <div class=\"ed-element ed-text custom-theme wv-light-edit\">\
+        <table style=\"width: 100%;\"><tbody>\
+        <tr><td><div style=\"text-align: center;\"><strong>Schwermessing</strong></div></td></tr>\
+        <tr><td><div style=\"text-align: center;\"><strong>€ 4,03 x pro kg</strong></div></td></tr>\
+        </tbody></table></div>\
+        <div class=\"ed-element ed-text custom-theme wv-light-edit\">\
+        <table style=\"width: 100%;\"><tbody>\
+        <tr><td><div style=\"text-align: center;\"><strong>Mischschrott</strong></div></td></tr>\
+        <tr><td><div style=\"text-align: center;\"><strong>€ 100 x pro to</strong></div></td></tr>\
+        </tbody></table>\
         <h2>Gültig ab</h2>\
-        <table><tr><td><strong>Cu - Millberry</strong></td></tr>\
-        <tr><td><strong>€ 9,19 X € pro kg</strong></td></tr></table>\
-        <table><tr><td><strong>Altpapier</strong></td></tr>\
-        <tr><td><strong>€ 0,08 X € pro kg</strong></td></tr></table>";
+        <table style=\"width: 100%;\"><tbody>\
+        <tr><td><div style=\"text-align: center;\"><strong>Cu - Millberry</strong></div></td></tr>\
+        <tr><td><div style=\"text-align: center;\"><strong>€ 9,19 X € pro kg</strong></div></td></tr>\
+        </tbody></table>\
+        <table style=\"width: 100%;\"><tbody>\
+        <tr><td><div style=\"text-align: center;\"><strong>Cu – Kabel ohne Stecker</strong></div></td></tr>\
+        <tr><td><div style=\"text-align: center;\"><strong>€ 2,74 X € pro kg</strong></div></td></tr>\
+        </tbody></table>\
+        <table style=\"width: 100%;\"><tbody>\
+        <tr><td><div style=\"text-align: center;\"><strong>Altpapier</strong></div></td></tr>\
+        <tr><td><div style=\"text-align: center;\"><strong>€ 0,08 X € pro kg</strong></div></td></tr>\
+        </tbody></table></div>";
 
     #[test]
     fn impressum_databind_spans() {
@@ -306,21 +366,45 @@ mod tests {
     #[test]
     fn pairs_dedupe_and_map() {
         let (rows, skips) = parse(FIXTURE).expect("parses");
-        assert_eq!(rows.len(), 3, "dedupe kills the Gültig-ab repeat: {rows:?}");
+        // 7 price pairs: "Gültig ab" repeats Millberry identically
+        // (deduped); "Kabel ohne Stecker" is a different spelling of the
+        // same grade — parse keeps it, scrape collapses it.
+        assert_eq!(rows.len(), 7, "rows: {rows:?}");
         assert!(skips.is_empty());
         assert_eq!(rows[0].0, "Cu - Millberry");
         assert_eq!(rows[0].1, 9.19);
-        assert_eq!(rows[1].2, "EUR/t");
+        assert_eq!(rows[1].0, "Cu – schwer");
+        assert_eq!(rows[1].1, 8.59);
+        assert_eq!(rows[4].0, "Mischschrott");
+        assert_eq!(rows[4].2, "EUR/t");
+        // Every live label maps — or loudly doesn't.
         assert_eq!(grade_for("Cu - Millberry"), Some(("kupfer-millberry", "")));
-        assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
         assert_eq!(
             grade_for("Cu – schwer"),
             Some(("kupfer-gemischt", "schwer"))
         );
         assert_eq!(grade_for("Cu –Berry"), Some(("kupfer-gemischt", "schwer")));
         assert_eq!(grade_for("Cu-Raff."), Some(("kupfer-gemischt", "Raff")));
+        assert_eq!(grade_for("Cu – Raff"), Some(("kupfer-gemischt", "Raff")));
+        assert_eq!(grade_for("Cu-Kabel o. Stecker"), Some(("kabel-kupfer", "")));
+        assert_eq!(
+            grade_for("Cu – Kabel ohne Stecker"),
+            Some(("kabel-kupfer", ""))
+        );
+        assert_eq!(grade_for("Schwermessing"), Some(("messing", "")));
+        assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Altpapier"), None);
         assert!(is_junk("KEIN ANKAUF MEHR VON"));
+    }
+
+    #[test]
+    fn zero_price_skips_loudly() {
+        let html = FIXTURE.replace("€ 4,03 x pro kg", "€ 0,00 x pro kg");
+        let (rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 6);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("Schwermessing"), "{skips:?}");
+        assert!(skips[0].contains("0,00"), "{skips:?}");
     }
 
     #[test]
@@ -343,12 +427,12 @@ mod tests {
             + FIXTURE
             + "<h2>Über uns</h2><p>Anfahrt pauschal 10 €</p>";
         let (rows, _) = parse(&html).expect("parses");
-        assert_eq!(rows.len(), 3);
+        assert_eq!(rows.len(), 7);
         // Unknown unit: skipped loudly, valid rows survive.
         let html = FIXTURE.replace("pro kg", "pro Sack");
         let (rows, skips) = parse(&html).expect("parses");
         assert_eq!(rows.len(), 1);
         assert_eq!(rows[0].0, "Mischschrott");
-        assert_eq!(skips.len(), 3);
+        assert_eq!(skips.len(), 7);
     }
 }

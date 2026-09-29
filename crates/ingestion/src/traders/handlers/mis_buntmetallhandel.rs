@@ -30,7 +30,12 @@ pub const IMPRESSUM_URL: &str = "https://mis-buntmetall.de/";
 pub const URL: &str = "https://mis-buntmetall.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -81,7 +86,11 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
     if l.contains("schrottankauf") {
         Some(vec![("mischschrott", "")])
     } else if l.contains("buntmetalle") {
-        Some(vec![("kupfer-gemischt", ""), ("aluminium-gemischt", ""), ("messing", "")])
+        Some(vec![
+            ("kupfer-gemischt", ""),
+            ("aluminium-gemischt", ""),
+            ("messing", ""),
+        ])
     } else {
         None
     }
@@ -94,19 +103,23 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
     // Start at the card heading's opening tag (the "Schrottankauf" hit
     // sits INSIDE the first h4 — starting there would cut the tag and
     // lose the first card).
-    let hit = html.find("Schrottankauf").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Leistungskarten fehlen".to_owned(),
-    })?;
+    let hit = html
+        .find("Schrottankauf")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Leistungskarten fehlen".to_owned(),
+        })?;
     let start = html[..hit].rfind("<h4").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
         detail: "Leistungskarten fehlen".to_owned(),
     })?;
     let tail = &html[start..];
-    let end = tail.find("Kontaktieren Sie uns jetzt").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Kontaktblock fehlt".to_owned(),
-    })?;
+    let end = tail
+        .find("Kontaktieren Sie uns jetzt")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Kontaktblock fehlt".to_owned(),
+        })?;
     let window = &tail[..end];
     let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
     let h4 = Selector::parse("h4").expect("valid selector");
@@ -138,7 +151,10 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
         labels.push(format!("{name} — {desc}"));
     }
     if labels.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Leistungskarten leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Leistungskarten leer".to_owned(),
+        });
     }
     // The page shows exactly four cards; any change surfaces via grade
     // skips and the card-count-sensitive review of this handler.
@@ -192,7 +208,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone: String::new(), email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone: String::new(),
+        email,
+    })
 }
 
 #[cfg(test)]
@@ -228,7 +250,8 @@ mod tests {
 
     #[test]
     fn kontakt_block_extracts() {
-        let imp = "<h4>Haben Sie Schrott oder Metalle zu verkaufen?<br>Kontaktieren Sie uns jetzt</h4>\
+        let imp =
+            "<h4>Haben Sie Schrott oder Metalle zu verkaufen?<br>Kontaktieren Sie uns jetzt</h4>\
             <p><a href=\"https://www.northdata.de/x\">Innstr. 10, D-68199 Mannheim</a></p>\
             <p>kontakt@mis-buntmetall.de</p>";
         let info = super::extract_info(imp).expect("parses");
@@ -240,4 +263,3 @@ mod tests {
         assert!(super::extract_info("<p>Neu hier</p>").is_err());
     }
 }
-

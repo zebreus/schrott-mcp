@@ -23,7 +23,12 @@ pub const IMPRESSUM_URL: &str = "http://www.metallhandel-jacob.de/impressum.html
 pub const URL: &str = "http://www.metallhandel-jacob.de/dienstleistungen.html";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -84,9 +89,12 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// The offer list between its heading sentence and the Absetzcontainer
 /// terminator. Missing anchors → `Err`, never an empty success.
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
-    let start = html.find("Unser Angebot umfasst folgende Leistungen:").ok_or_else(|| {
-        IngestError::Parse { url: URL.to_owned(), detail: "Angebotsliste fehlt".to_owned() }
-    })?;
+    let start = html
+        .find("Unser Angebot umfasst folgende Leistungen:")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Angebotsliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("Absetzcontainer").unwrap_or(tail.len());
     let window = &tail[..end];
@@ -117,7 +125,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let h1 = Selector::parse("h1").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
     let a = Selector::parse("a").expect("valid selector");
-    if !doc.select(&h1).any(|h| h.text().collect::<String>().trim() == "Impressum") {
+    if !doc
+        .select(&h1)
+        .any(|h| h.text().collect::<String>().trim() == "Impressum")
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Impressum-Block fehlt".to_owned(),
@@ -176,7 +187,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// "Dortmunder Str.12" → "Dortmunder Str. 12": split a house number glued
@@ -256,7 +273,10 @@ mod tests {
             ]
         );
         assert_eq!(grade_for("Eisenmetall"), Some(vec![("mischschrott", "")]));
-        assert_eq!(grade_for("Katalysatoren"), Some(vec![("katalysatoren", "")]));
+        assert_eq!(
+            grade_for("Katalysatoren"),
+            Some(vec![("katalysatoren", "")])
+        );
         // No generic bunt/cable/e-scrap material: loud gaps, not guesses.
         assert_eq!(grade_for("Buntmetall"), None);
         assert_eq!(grade_for("Kabelschrott"), None);
@@ -278,7 +298,10 @@ mod tests {
         assert_eq!(info.phone, "+49 341 58573 0");
         assert_eq!(info.email, "info@metallhandel-jacob.de");
         assert_eq!(deglue_number("Dortmunder Str.12"), "Dortmunder Str. 12");
-        assert_eq!(deglue_number("Mannheimer Str. 65-67"), "Mannheimer Str. 65-67");
+        assert_eq!(
+            deglue_number("Mannheimer Str. 65-67"),
+            "Mannheimer Str. 65-67"
+        );
         assert!(super::extract_info("<h1>Neu hier</h1>").is_err());
     }
 }

@@ -1,7 +1,7 @@
 //! Vedder & Stockrahm (Bremen): exact daily prices in a clean HTML table,
 //! plus the price date in the heading ("Unverbindliche Ankaufspreise
-//! 27.09.2026"). Hartmetall and silverware have no catalog material and
-//! are skipped loudly.
+//! 27.09.2026"). Silverware has no catalog material and is skipped loudly;
+//! empty and 0,00 price cells skip loudly too (never price 0).
 
 use scraper::{ElementRef, Html, Selector};
 
@@ -91,6 +91,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("edelstahl-v4a", ""))
     } else if l.contains("v2a") || l.contains("edelstahl") {
         Some(("edelstahl-v2a", ""))
+    } else if l.contains("hartmetall") || l.contains("widia") {
+        Some(("hartmetall", ""))
     } else if l.contains("profile") {
         Some(("aluminium-profile", ""))
     } else if l.contains("blech") {
@@ -237,7 +239,7 @@ fn parse(
         }
     }
     let mut rows = Vec::new();
-    let mut unit_skips = Vec::new();
+    let mut skipped = Vec::new();
     // Never trust page order: take the table carrying the price header,
     // not just the first <table> on the page.
     let table = doc.select(&table).find(|t| {
@@ -260,13 +262,20 @@ fn parse(
             continue;
         }
         let label = cells[0].trim().replace(['\u{a0}'], " ");
+        // Empty price cell: loud skip, never a silent zero.
         let Some(price) = parse_eur(&cells[1]) else {
+            skipped.push(format!("{label} (kein Preis: {})", cells[1].trim()));
+            continue;
+        };
+        // A "0,00" row is "no quote", not a free gift: loud skip.
+        if price == 0.0 {
+            skipped.push(format!("{label} (Preis 0,00)"));
             continue;
         };
         // An unparseable unit is a loud skip, never a silent default: a
         // per-tonne price recorded as per-kg would be a 1000x error.
         let Some(unit) = unit_of(&cells[2]) else {
-            unit_skips.push(format!(
+            skipped.push(format!(
                 "{label} (Einheit unverständlich: {})",
                 cells[2].trim()
             ));
@@ -280,7 +289,7 @@ fn parse(
             detail: "Preistabelle leer".to_owned(),
         });
     }
-    Ok((published_at, rows, unit_skips))
+    Ok((published_at, rows, skipped))
 }
 
 /// Bespoke unit matcher for THIS table's Einheit column (live: "EUR /
@@ -341,8 +350,23 @@ mod tests {
     }
 
     #[test]
-    fn impressum_extracts_contact() {
-        let imp = "<h3>Anschrift</h3><p>Vedder & Stockrahm GmbH & Co. KG<br>\
+    fn empty_and_zero_price_cells_skip_loudly() {
+        // Leere Preiszelle: laut, nie still.
+        let html = FIXTURE.replacen("<td>4,90</td>", "<td></td>", 1);
+        let (_, rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 2);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("Messing gemischt") && skips[0].contains("kein Preis"));
+        // 0,00-Zeile: "kein Ankauf", nie Preis 0.
+        let html = FIXTURE.replacen("<td>4,90</td>", "<td>0,00</td>", 1);
+        let (_, rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 2);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("0,00"));
+    }
+
+    #[test]
+    fn impressum_extracts_contact() {        let imp = "<h3>Anschrift</h3><p>Vedder & Stockrahm GmbH & Co. KG<br>\
             Senator-Bömers Straße 10<br>28197 Bremen</p>\
             <dl><dt>Telefon</dt><dd>+49 (0) 421 54 25 54</dd>\
             <dt>Fax</dt><dd>+49 (0) 421 54 25 53</dd>\
@@ -384,7 +408,11 @@ mod tests {
             Some(("zinn", "80-98%"))
         );
         assert_eq!(grade_for("Zinn 50% - 59%"), Some(("zinn", "50-59%")));
-        assert_eq!(grade_for("Hartmetall Widia Platten und Bohrer"), None);
+        // Hartmetall HAT Katalogmaterial (frühere None-Annahme war stale).
+        assert_eq!(
+            grade_for("Hartmetall Widia Platten und Bohrer"),
+            Some(("hartmetall", ""))
+        );
         assert_eq!(grade_for("Versilberte Messer"), None);
     }
 }

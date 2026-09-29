@@ -296,6 +296,8 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
     section = "top"
     section_skip = False
     header: dict | None = None
+    upgrades: list[dict] = []
+    upgrade_mode = False
 
     def emit(name_raw, city_raw, website_raw, spec_raw, ankauf_raw, extra_notes,
             postcode="", street="", origin="table"):
@@ -355,6 +357,61 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
                 },
             })
 
+    upgrade_cols: dict = {}
+
+    def collect_upgrade(cells: list[str]):
+        # Column-mapped upgrade rows. The table header decides the layout:
+        # Name | Ort | Straße | PLZ | Telefon | Quelle (A) or
+        # Name | Bezirk | Straße | PLZ | Telefon | Quelle (B, Berlin).
+        nonlocal upgrade_cols
+        low = [c.lower() for c in cells]
+        if any("stra" in c or c in ("plz", "telefon", "quelle", "bezirk", "ort") for c in low) \
+                and not any(re.search(r"\d", c) for c in cells):
+            upgrade_cols = {}
+            for i, h in enumerate(low):
+                if re.match(r"^(name|firma|betrieb)$", h):
+                    upgrade_cols["name"] = i
+                elif h in ("ort", "stadt", "stadtteil", "lage", "standort"):
+                    upgrade_cols["city"] = i
+                    upgrade_cols["is_bezirk"] = -1
+                elif h == "bezirk":
+                    upgrade_cols["city"] = i
+                    upgrade_cols["is_bezirk"] = i
+                elif "stra" in h:
+                    upgrade_cols["street"] = i
+                elif h == "plz":
+                    upgrade_cols["postcode"] = i
+                elif h == "telefon":
+                    upgrade_cols["phone"] = i
+                elif h in ("quelle", "quellen", "notiz"):
+                    upgrade_cols["note"] = i
+            return
+        cols = upgrade_cols or {"name": 0, "city": 1, "street": 2,
+                               "postcode": 3, "phone": 4, "note": 5}
+        def col(key: str) -> str:
+            i = cols.get(key, -1)
+            return cells[i] if 0 <= i < len(cells) else ""
+        name = col("name")
+        if not name or len(name) < 2:
+            return
+        slug_override = ""
+        m = re.match(r"^slug:(\S+)\s*(.*)$", name)
+        if m:
+            slug_override, name = m.group(1), m.group(2).strip()
+        street = col("street")
+        if not re.search(r"\d", street):
+            return
+        city = col("city")
+        bezirk = city if cols.get("is_bezirk", -1) == cols.get("city") else ""
+        if bezirk:
+            city = ""
+        upgrades.append({
+            "name": name, "slug": slug_override, "city": city, "bezirk": bezirk, "street": street,
+            "postcode": col("postcode"), "phone": col("phone"),
+            "note": col("note"),
+            "korrektur": bool(re.search(r"korrektur", name, re.I)),
+        })
+
     for line in text.splitlines():
         s = line.strip()
         m = re.match(r"^#{1,3}\s+(.*)", s)
@@ -363,13 +420,23 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
             section_skip = bool(SKIP_SECTION.search(section))
             if section_skip:
                 stats["skipped_sections"] += 1
+            # "Nachtrag Adressen" sections never emit new traders: their rows
+            # patch empty address/phone fields of existing entries (matched
+            # by name+city, website domain, or single-candidate fuzzy).
+            # Slugs stay stable; unmatched rows are reported, never appended.
+            upgrade_mode = bool(re.search(r"nachtrag adressen", section, re.I))
             header = None
+            upgrade_cols = {}
             continue
         if section_skip or not s:
             continue
         if s.startswith("|"):
             cells = [c.strip() for c in s.strip("|").split("|")]
             if any(re.match(r"^:?-{2,}:?$", c) for c in cells):
+                continue
+            if upgrade_mode:
+                collect_upgrade(cells)
+                stats["table_rows"] += 1
                 continue
             if header is None:
                 header = parse_table_header(cells)
@@ -409,7 +476,79 @@ def convert_file(stem: str) -> tuple[list[dict], dict]:
                          f"Registerfund ohne geprüfte Website (PLZ {plz})",
                          postcode=plz, origin="prose")
                     stats["prose_rows"] += 1
+    apply_upgrades(entries, upgrades, stats)
     return entries, stats
+
+
+def apply_upgrades(entries: list[dict], upgrades: list[dict], stats: dict):
+    """Patch empty address/phone fields of existing entries (slug-stable).
+
+    Resolution per row: exact name+city identity, then website-domain
+    overlap with the Quelle cell, then single-candidate fuzzy on the city.
+    Anything ambiguous or unmatched is reported in stats and never appended.
+    KORREKTUR rows overwrite street/postcode/phone; all others fill empties
+    only. Bezirk notes never touch city (slug stability).
+    """
+    by_ident: dict = {}
+    by_dom: dict = {}
+    for e in entries:
+        by_ident.setdefault(norm_identity(e["name"], e["city"]), []).append(e)
+        m = re.search(r"([\w-]+\.[\w.-]+)", e.get("website") or "")
+        if m:
+            by_dom.setdefault(m.group(1).lower(), []).append(e)
+    stats["upgrades_applied"] = 0
+    stats["upgrade_misses"] = []
+    for u in upgrades:
+        name, _ = clean_name(u["name"])
+        match_name = re.sub(r"[—–-]\s*korrektur\s*$", "", name, flags=re.I).strip()
+        cands = []
+        if u.get("slug"):
+            cands = [e for e in entries if e["slug"] == u["slug"]]
+            if len(cands) != 1:
+                stats["upgrade_misses"].append(f"{u['name']} (slug {u['slug']})")
+                continue
+            e = cands[0]
+        else:
+            match_city = u["city"] or u["bezirk"]
+            ident = norm_identity(match_name, match_city.split("(")[0].strip())
+            cands = list(by_ident.get(ident, []))
+            if not cands:
+                m = re.search(r"([\w-]+\.[\w.-]+)", u.get("note") or "")
+                if m:
+                    cands = list(by_dom.get(m.group(1).lower(), []))
+            if not cands and ident[0]:
+                def same_place(a: str, b: str) -> bool:
+                    return a == b or a.startswith(b) or b.startswith(a)
+                cands = [e for key, lst in by_ident.items()
+                         if same_place(key[1], ident[1])
+                         and (ident[0] in key[0] or key[0] in ident[0])
+                         for e in lst]
+                # keep only unambiguous single-trader hits
+                slugs = {e["slug"] for e in cands}
+                if len(slugs) != 1:
+                    cands = []
+            if len(cands) != 1:
+                stats["upgrade_misses"].append(
+                    f"{u['name']} / {u['city'] or u['bezirk']}")
+                continue
+            e = cands[0]
+        if u["korrektur"]:
+            e["street"], e["postcode"], e["phone"] = \
+                u["street"], u["postcode"], u["phone"]
+        else:
+            if not e["street"]:
+                e["street"] = u["street"]
+            if not e["postcode"]:
+                e["postcode"] = u["postcode"]
+            if not e["phone"]:
+                e["phone"] = u["phone"]
+        extra = " ".join(p for p in [
+            u["bezirk"] and f"Bezirk: {u['bezirk']}",
+            u["note"] and f"Adressbeleg: {u['note']}",
+        ] if p)
+        if extra and extra not in e["notes"]:
+            e["notes"] = (e["notes"] + " | " + extra)[:2000]
+        stats["upgrades_applied"] += 1
 
 
 PRESERVE_KEYS = ("description", "dropoff_json", "pickup_json")
@@ -439,9 +578,13 @@ def main() -> int:
         total += len(entries)
         print(f"{stem}: {len(entries)} entries "
               f"(table={stats['table_rows']} prose={stats['prose_rows']} "
-              f"skipsec={stats['skipped_sections']} dupes={len(stats['dupe_skips'])})")
+              f"skipsec={stats['skipped_sections']} dupes={len(stats['dupe_skips'])} "
+              f"upgrades={stats.get('upgrades_applied', 0)} "
+              f"misses={len(stats.get('upgrade_misses', []))})")
         for d in stats["dupe_skips"][:20]:
             print(f"    dupe-skip: {d}")
+        for m in stats.get("upgrade_misses", [])[:20]:
+            print(f"    upgrade-miss: {m}")
     print(f"TOTAL: {total}")
     return 0
 

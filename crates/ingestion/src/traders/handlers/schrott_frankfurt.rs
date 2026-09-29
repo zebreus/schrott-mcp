@@ -22,7 +22,12 @@ pub const IMPRESSUM_URL: &str = "https://schrott-frankfurt.de/Impressum/";
 pub const URL: &str = "https://schrott-frankfurt.de/Schrottpreise-Schrottplatz/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -101,9 +106,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let p = Selector::parse("p").expect("valid selector");
     let a = Selector::parse("a[href^=\"mailto:\"]").expect("valid selector");
     let anchor = doc.select(&h2).find(|h| {
-        h.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ").contains(
-            "Impressum von Schrott Frankfurt",
-        )
+        h.text()
+            .collect::<String>()
+            .split_whitespace()
+            .collect::<Vec<_>>()
+            .join(" ")
+            .contains("Impressum von Schrott Frankfurt")
     });
     let Some(_) = anchor else {
         return Err(IngestError::Parse {
@@ -116,7 +124,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     // anyway, but the window stays disciplined).
     let mut lines = Vec::new();
     for el in doc.select(&p) {
-        let t = el.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ");
+        let t = el
+            .text()
+            .collect::<String>()
+            .split_whitespace()
+            .collect::<Vec<_>>()
+            .join(" ");
         if t.contains("Impressum von Schrott Frankfurt") {
             continue;
         }
@@ -176,20 +189,31 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Parse the caption window between the price heading and the
 /// "Tageshöchstpreise" box. Returns (rows, skips); 0 rows is an error.
 fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("Schrottplatz Frankfurt und Schrottpreise").ok_or_else(|| {
-        IngestError::Parse { url: URL.to_owned(), detail: "Preisbox fehlt".to_owned() }
-    })?;
+    let start = html
+        .find("Schrottplatz Frankfurt und Schrottpreise")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisbox fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("Tageshöchstpreise").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisbox unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("Tageshöchstpreise")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisbox unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     // Content spans only (never script/style): each caption carries one
     // "Label 0,12 € / kg Tagespreis abhängig" line.
@@ -198,7 +222,12 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
     let mut rows = Vec::new();
     let mut skips = Vec::new();
     for el in frag.select(&span) {
-        let t = el.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ");
+        let t = el
+            .text()
+            .collect::<String>()
+            .split_whitespace()
+            .collect::<Vec<_>>()
+            .join(" ");
         if !t.contains('€') {
             continue;
         }
@@ -227,7 +256,10 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         rows.push((label, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preispaare".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preispaare".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -238,7 +270,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
     let lower = cell.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|t| t == "t") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|t| t == "t")
+    {
         Some("EUR/t")
     } else {
         None
@@ -285,11 +320,20 @@ mod tests {
     fn mapping_covers_all_live_labels() {
         assert_eq!(grade_for("Mischrott"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Kupfer CU"), Some(("kupfer-gemischt", "")));
-        assert_eq!(grade_for("Alu-Reinschrott"), Some(("aluminium-gemischt", "")));
-        assert_eq!(grade_for("Alu 5% Anhaftung"), Some(("aluminium-gemischt", "5% Anhaftung")));
+        assert_eq!(
+            grade_for("Alu-Reinschrott"),
+            Some(("aluminium-gemischt", ""))
+        );
+        assert_eq!(
+            grade_for("Alu 5% Anhaftung"),
+            Some(("aluminium-gemischt", "5% Anhaftung"))
+        );
         assert_eq!(grade_for("Zink"), Some(("zink", "")));
         assert_eq!(grade_for("Messing"), Some(("messing", "")));
-        assert_eq!(grade_for("Guss-Schrott"), Some(("eisenschrott-gussbruch", "")));
+        assert_eq!(
+            grade_for("Guss-Schrott"),
+            Some(("eisenschrott-gussbruch", ""))
+        );
         assert_eq!(grade_for("Kabelschrott"), None);
     }
 

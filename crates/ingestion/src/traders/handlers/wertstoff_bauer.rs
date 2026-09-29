@@ -24,7 +24,12 @@ pub const IMPRESSUM_URL: &str = "https://wertstoff-bauer.de/startseite/impressum
 pub const URL: &str = "https://wertstoff-bauer.de/startseite/preise.html";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -217,7 +222,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let email = paras
         .iter()
         .find(|t| t.starts_with("E-Mail:"))
-        .map(|t| t["E-Mail:".len()..].split_whitespace().next().unwrap_or_default().to_owned())
+        .map(|t| {
+            t["E-Mail:".len()..]
+                .split_whitespace()
+                .next()
+                .unwrap_or_default()
+                .to_owned()
+        })
         .unwrap_or_default();
     if street.is_empty() && phone.is_empty() && email.is_empty() {
         return Err(IngestError::Parse {
@@ -225,19 +236,34 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     // Window, never the whole page: last "Preisübersicht" is the 48px
     // content heading (nav links precede it); the list ends at the
     // "auf Anfrage" terminator, before footer contact + disclaimer.
-    let start = html.rfind("Preisübersicht").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .rfind("Preisübersicht")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail
         .find("Weitere nicht gelistete Metalle auf Anfrage.")
@@ -275,7 +301,11 @@ fn parse(
             if pair.len() < 2 {
                 continue;
             }
-            let label = pair[0].trim().trim_start_matches(['↳', ' ']).trim().to_owned();
+            let label = pair[0]
+                .trim()
+                .trim_start_matches(['↳', ' '])
+                .trim()
+                .to_owned();
             let price_text = pair[1].trim().to_owned();
             if label.is_empty() {
                 continue;
@@ -308,7 +338,10 @@ fn parse(
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preisliste leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisliste leer".to_owned(),
+        });
     }
     // Same label twice (e.g. a repeated block) must not double-count.
     rows.sort_by(|a, b| a.0.cmp(&b.0).then(a.1.partial_cmp(&b.1).unwrap()));
@@ -360,8 +393,12 @@ mod tests {
         let (published_at, rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(published_at.as_deref(), Some("2026-09-21T00:00:00+00:00"));
         assert_eq!(rows.len(), 3);
-        assert!(rows.iter().any(|(l, p, u)| l == "Cu-Millberry (nicht oxidiert)" && *p == 9.6 && *u == "EUR/kg"));
-        assert!(rows.iter().any(|(l, p, u)| l == "Mischschrott schwer" && *p == 120.0 && *u == "EUR/t"));
+        assert!(rows
+            .iter()
+            .any(|(l, p, u)| l == "Cu-Millberry (nicht oxidiert)" && *p == 9.6 && *u == "EUR/kg"));
+        assert!(rows
+            .iter()
+            .any(|(l, p, u)| l == "Mischschrott schwer" && *p == 120.0 && *u == "EUR/t"));
         // Header pair skipped silently; zero-price row skipped loudly.
         assert_eq!(skips.len(), 1);
         assert!(skips[0].contains("Al-Shredderkabel"));
@@ -374,7 +411,8 @@ mod tests {
         let no_end = FIXTURE.replace("Weitere nicht gelistete Metalle auf Anfrage.", "Xyz");
         assert!(parse(&no_end).is_err());
         // Longest first: "0,00 €" is a substring of "120,00 € / Tonne".
-        let empty = FIXTURE.replace("120,00 € / Tonne", "pro Sack")
+        let empty = FIXTURE
+            .replace("120,00 € / Tonne", "pro Sack")
             .replace("9,60 €", "pro Sack")
             .replace("0,90 €", "pro Sack")
             .replace("0,00 €", "pro Sack");
@@ -384,36 +422,84 @@ mod tests {
 
     #[test]
     fn mapping_covers_every_live_row() {
-        assert_eq!(grade_for("Cu-raff (max. 5% Anhaftung)"), Some(("kupfer-gemischt", "Raff")));
-        assert_eq!(grade_for("Cu-schwer (ohne Anhaftung)"), Some(("kupfer-gemischt", "Schwer")));
-        assert_eq!(grade_for("Cu-Lackdraht / Berry"), Some(("kupfer-berry", "Lackdraht")));
+        assert_eq!(
+            grade_for("Cu-raff (max. 5% Anhaftung)"),
+            Some(("kupfer-gemischt", "Raff"))
+        );
+        assert_eq!(
+            grade_for("Cu-schwer (ohne Anhaftung)"),
+            Some(("kupfer-gemischt", "Schwer"))
+        );
+        assert_eq!(
+            grade_for("Cu-Lackdraht / Berry"),
+            Some(("kupfer-berry", "Lackdraht"))
+        );
         assert_eq!(
             grade_for("Cu-Millberry (nicht oxidiert)"),
             Some(("kupfer-millberry", ""))
         );
-        assert_eq!(grade_for("Ms-raff (max. 5% Anhaftung)"), Some(("messing", "Raff")));
+        assert_eq!(
+            grade_for("Ms-raff (max. 5% Anhaftung)"),
+            Some(("messing", "Raff"))
+        );
         assert_eq!(grade_for("Ms-schwer"), Some(("messing", "Schwer")));
         assert_eq!(grade_for("Rotguß"), Some(("bronze-rotguss", "")));
-        assert_eq!(grade_for("Al Draht blank"), Some(("aluminium-gemischt", "Draht blank")));
-        assert_eq!(grade_for("Al Felgen sauber"), Some(("aluminium-guss", "Felgen")));
-        assert_eq!(grade_for("Al Leitschienen"), Some(("aluminium-gemischt", "Leitschienen")));
+        assert_eq!(
+            grade_for("Al Draht blank"),
+            Some(("aluminium-gemischt", "Draht blank"))
+        );
+        assert_eq!(
+            grade_for("Al Felgen sauber"),
+            Some(("aluminium-guss", "Felgen"))
+        );
+        assert_eq!(
+            grade_for("Al Leitschienen"),
+            Some(("aluminium-gemischt", "Leitschienen"))
+        );
         assert_eq!(grade_for("Zinkblech"), Some(("zink", "")));
         assert_eq!(grade_for("Altblei"), Some(("blei", "Alt")));
-        assert_eq!(grade_for("Wuchtblei / Kabelblei"), Some(("blei", "Wucht-/Kabelblei")));
+        assert_eq!(
+            grade_for("Wuchtblei / Kabelblei"),
+            Some(("blei", "Wucht-/Kabelblei"))
+        );
         assert_eq!(grade_for("V2A"), Some(("edelstahl-v2a", "")));
         assert_eq!(grade_for("V4A"), Some(("edelstahl-v4a", "")));
         assert_eq!(grade_for("E-Motoren"), Some(("elektromotoren", "")));
-        assert_eq!(grade_for("Getriebemotoren"), Some(("elektromotoren", "mit Getriebe")));
-        assert_eq!(grade_for("Zinngeschirr 88 - 95 %"), Some(("zinn", "Geschirr 88-95%")));
+        assert_eq!(
+            grade_for("Getriebemotoren"),
+            Some(("elektromotoren", "mit Getriebe"))
+        );
+        assert_eq!(
+            grade_for("Zinngeschirr 88 - 95 %"),
+            Some(("zinn", "Geschirr 88-95%"))
+        );
         assert_eq!(grade_for("Hartmetall"), Some(("hartmetall", "")));
-        assert_eq!(grade_for("Cu-Shredderkabel"), Some(("kabel-kupfer", "Shredderkabel")));
-        assert_eq!(grade_for("Cu-Kabel ab 60%"), Some(("kabel-kupfer", "ab 60%")));
+        assert_eq!(
+            grade_for("Cu-Shredderkabel"),
+            Some(("kabel-kupfer", "Shredderkabel"))
+        );
+        assert_eq!(
+            grade_for("Cu-Kabel ab 60%"),
+            Some(("kabel-kupfer", "ab 60%"))
+        );
         assert_eq!(grade_for("Al-Kabel ab 50%"), Some(("kabel-alu", "ab 50%")));
-        assert_eq!(grade_for("Al-Shredderkabel"), Some(("kabel-alu", "Shredderkabel")));
+        assert_eq!(
+            grade_for("Al-Shredderkabel"),
+            Some(("kabel-alu", "Shredderkabel"))
+        );
         assert_eq!(grade_for("Shredder"), Some(("stahlschrott-shredder", "")));
-        assert_eq!(grade_for("Mischschrott leicht"), Some(("mischschrott", "leicht")));
-        assert_eq!(grade_for("Mischschrott schwer"), Some(("mischschrott", "schwer")));
-        assert_eq!(grade_for("Gußschrott"), Some(("eisenschrott-gussbruch", "")));
+        assert_eq!(
+            grade_for("Mischschrott leicht"),
+            Some(("mischschrott", "leicht"))
+        );
+        assert_eq!(
+            grade_for("Mischschrott schwer"),
+            Some(("mischschrott", "schwer"))
+        );
+        assert_eq!(
+            grade_for("Gußschrott"),
+            Some(("eisenschrott-gussbruch", ""))
+        );
         // Loud skips: mixed, catalog-less, batteries, whole devices.
         assert_eq!(grade_for("Al Blech / Guß sauber"), None);
         assert_eq!(grade_for("Al Blech / Guß > 20% / Al Getriebe"), None);

@@ -217,37 +217,77 @@ impl PublicDb {
             return Err(StoreError::Rejected("unknown price_kind"));
         }
         let conn = self.lock()?;
-        conn.execute(
-            "INSERT INTO prices
+        // Dedupe: an identical observation carries no new information —
+        // refresh the existing row instead of growing history without gain.
+        // Identity = price-defining fields; notes/source travel forward.
+        let dup: Option<i64> = conn
+            .query_row(
+                "SELECT id FROM prices WHERE trader_id = ?1 AND material_id = ?2 AND variant = ?3
+                 AND price = ?4 AND currency = ?5 AND unit = ?6 AND price_kind = ?7
+                 AND price_min IS ?8 AND price_max IS ?9 AND confidence IS ?10
+                 ORDER BY id DESC LIMIT 1",
+                params![
+                    p.trader_id,
+                    p.material_id,
+                    p.variant,
+                    p.price,
+                    p.currency,
+                    p.unit,
+                    p.price_kind,
+                    p.price_min,
+                    p.price_max,
+                    p.confidence,
+                ],
+                |r| r.get(0),
+            )
+            .optional()?;
+        let price_id = if let Some(id) = dup {
+            conn.execute(
+                "UPDATE prices SET observed_at = ?1, ingested_at = ?2, notes = ?3,
+                 source_url = ?4, published = ?5 WHERE id = ?6",
+                params![
+                    p.observed_at,
+                    p.ingested_at,
+                    p.notes,
+                    p.source_url,
+                    i64::from(p.published),
+                    id
+                ],
+            )?;
+            id
+        } else {
+            conn.execute(
+                "INSERT INTO prices
              (trader_id, material_id, variant, price, currency, unit, price_kind,
               price_min, price_max, confidence, source_type, published, source_url,
               observed_at, published_at, valid_from, valid_to,
               notes, extra_json, ingested_at)
              VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16, ?17, ?18, ?19, ?20)",
-            params![
-                p.trader_id,
-                p.material_id,
-                p.variant,
-                p.price,
-                p.currency,
-                p.unit,
-                p.price_kind,
-                p.price_min,
-                p.price_max,
-                p.confidence,
-                p.source_type,
-                i64::from(p.published),
-                p.source_url,
-                p.observed_at,
-                p.published_at,
-                p.valid_from,
-                p.valid_to,
-                p.notes,
-                p.extra_json,
-                p.ingested_at,
-            ],
-        )?;
-        let price_id = conn.last_insert_rowid();
+                params![
+                    p.trader_id,
+                    p.material_id,
+                    p.variant,
+                    p.price,
+                    p.currency,
+                    p.unit,
+                    p.price_kind,
+                    p.price_min,
+                    p.price_max,
+                    p.confidence,
+                    p.source_type,
+                    i64::from(p.published),
+                    p.source_url,
+                    p.observed_at,
+                    p.published_at,
+                    p.valid_from,
+                    p.valid_to,
+                    p.notes,
+                    p.extra_json,
+                    p.ingested_at,
+                ],
+            )?;
+            conn.last_insert_rowid()
+        };
         // Move the materialized pointer only forward in observation time.
         let current: Option<(i64, String)> = conn
             .query_row(
@@ -531,6 +571,45 @@ mod tests {
         assert_eq!(hist.len(), 3);
         assert_eq!(hist[0].price, 7.25);
         assert_eq!(hist[2].price, 6.90);
+    }
+
+    #[test]
+    fn identical_observations_refresh_instead_of_duplicating() {
+        let (db, trader, material) = setup();
+        let first = db
+            .record_price(&price(
+                trader,
+                material,
+                7.10,
+                "2026-09-20T00:00:00Z",
+                "2026-09-20T00:00:00Z",
+            ))
+            .expect("first");
+        // Same observation a week later: no new row, timestamps move.
+        let second = db
+            .record_price(&price(
+                trader,
+                material,
+                7.10,
+                "2026-09-27T00:00:00Z",
+                "2026-09-27T00:00:00Z",
+            ))
+            .expect("repeat");
+        assert_eq!(first, second);
+        let hist = db.price_history(trader, material, "", 10).expect("history");
+        assert_eq!(hist.len(), 1);
+        assert_eq!(hist[0].observed_at, "2026-09-27T00:00:00Z");
+        // Changed price still appends.
+        db.record_price(&price(
+            trader,
+            material,
+            7.25,
+            "2026-09-28T00:00:00Z",
+            "2026-09-28T00:00:00Z",
+        ))
+        .expect("changed");
+        let hist = db.price_history(trader, material, "", 10).expect("history");
+        assert_eq!(hist.len(), 2);
     }
 
     #[test]

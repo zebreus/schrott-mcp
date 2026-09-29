@@ -103,6 +103,10 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         "philharmoniker",
         "maple",
         "krügerrand",
+        "rand",
+        "münze",
+        "muenze",
+        "münz",
         "vreneli",
         "corona",
         "silberbarren",
@@ -336,6 +340,7 @@ mod tests {
             "Ankauf Silber Unzen (handelsfähig)",
             "Ankauf 1 Dukaten 986 Gold - Österreich - 1915",
             "Ankauf 1kg Silberbarren",
+            "Ankauf 2 Rand Goldmünze - Südafrika",
         ] {
             assert_eq!(grade_for(label), None, "{label}");
         }

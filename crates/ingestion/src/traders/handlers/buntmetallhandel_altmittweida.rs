@@ -24,7 +24,12 @@ pub const IMPRESSUM_URL: &str = "https://buntmetallhandel-altmittweida.de/kontak
 pub const URL: &str = "https://buntmetallhandel-altmittweida.de/ankaufspreisliste";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -163,9 +168,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h2 = Selector::parse("h2").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
-    let anchor = doc.select(&h2).find(|h| {
-        h.text().collect::<String>().trim() == "Kontaktiere uns"
-    });
+    let anchor = doc
+        .select(&h2)
+        .find(|h| h.text().collect::<String>().trim() == "Kontaktiere uns");
     if anchor.is_none() {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -184,7 +189,8 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             let digits: String = t[pos + 4..]
                 .split_whitespace()
                 .take_while(|w| {
-                    w.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+                    w.chars()
+                        .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
                 })
                 .collect::<Vec<_>>()
                 .join(" ");
@@ -208,12 +214,16 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street: String::new(), postcode: String::new(), city, phone, email: String::new() })
+    Ok(TraderInfo {
+        street: String::new(),
+        postcode: String::new(),
+        city,
+        phone,
+        email: String::new(),
+    })
 }
 
-fn parse(
-    html: &str,
-) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
     let doc = Html::parse_document(html);
     let table = Selector::parse("table").expect("valid selector");
     let row = Selector::parse("tbody tr").expect("valid selector");
@@ -222,12 +232,14 @@ fn parse(
     // Never trust page order: take the table carrying the Produkt
     // header, not just the first <table> on the page.
     let table = doc.select(&table).find(|t| {
-        t.select(&head).any(|h| {
-            h.text().collect::<String>().trim() == "Produkt"
-        })
+        t.select(&head)
+            .any(|h| h.text().collect::<String>().trim() == "Produkt")
     });
     let Some(table) = table else {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preistabelle".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preistabelle".to_owned(),
+        });
     };
     let mut rows = Vec::new();
     let mut skips = Vec::new();
@@ -262,7 +274,10 @@ fn parse(
         rows.push((label, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preistabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabelle leer".to_owned(),
+        });
     }
     // Dedupe repeated blocks after mapping-relevant fields.
     rows.sort_by(|a, b| a.0.cmp(&b.0).then(a.1.partial_cmp(&b.1).unwrap()));
@@ -311,10 +326,16 @@ mod tests {
         // Decoy table ignored via Produkt header; empty row skipped.
         assert_eq!(rows.len(), 4);
         assert!(skips.is_empty());
-        let mil = rows.iter().find(|(l, _, _)| l == "Kupfer Milbery").expect("milbery");
+        let mil = rows
+            .iter()
+            .find(|(l, _, _)| l == "Kupfer Milbery")
+            .expect("milbery");
         assert_eq!(mil.1, 10.5);
         assert_eq!(mil.2, "EUR/kg");
-        let ms = rows.iter().find(|(l, _, _)| l == "Mischschrott").expect("ms");
+        let ms = rows
+            .iter()
+            .find(|(l, _, _)| l == "Mischschrott")
+            .expect("ms");
         assert_eq!(ms.1, 0.1);
     }
 
@@ -322,7 +343,9 @@ mod tests {
     fn missing_table_and_empty_table_error() {
         let err = parse("<table><tr><td>Nav</td></tr></table>").expect_err("no table");
         assert!(err.to_string().contains("keine Preistabelle"));
-        let empty = FIXTURE.replace("10,50€", "pro Sack").replace("1,50€", "pro Sack")
+        let empty = FIXTURE
+            .replace("10,50€", "pro Sack")
+            .replace("1,50€", "pro Sack")
             .replace("0.10€", "pro Sack")
             .replace("0,20€", "pro Sack");
         let err = parse(&empty).expect_err("empty table errors");
@@ -331,14 +354,29 @@ mod tests {
 
     #[test]
     fn mapping_covers_every_live_row() {
-        assert_eq!(grade_for("Kupfer Raff , 94,% Cu."), Some(("kupfer-gemischt", "Raff")));
-        assert_eq!(grade_for("Kupfer Schwer"), Some(("kupfer-gemischt", "Schwer")));
-        assert_eq!(grade_for("Kupfer verzinnt"), Some(("kupfer-berry", "verzinnt")));
+        assert_eq!(
+            grade_for("Kupfer Raff , 94,% Cu."),
+            Some(("kupfer-gemischt", "Raff"))
+        );
+        assert_eq!(
+            grade_for("Kupfer Schwer"),
+            Some(("kupfer-gemischt", "Schwer"))
+        );
+        assert_eq!(
+            grade_for("Kupfer verzinnt"),
+            Some(("kupfer-berry", "verzinnt"))
+        );
         assert_eq!(grade_for("Kupfer Berry"), Some(("kupfer-berry", "")));
         assert_eq!(grade_for("Kupfer Milbery"), Some(("kupfer-millberry", "")));
         assert_eq!(grade_for("Kupfer Kabel"), Some(("kabel-kupfer", "")));
-        assert_eq!(grade_for("Messing Raff max 5%Anh."), Some(("messing", "Raff")));
-        assert_eq!(grade_for("Messing Schwer max1%Anh."), Some(("messing", "Schwer")));
+        assert_eq!(
+            grade_for("Messing Raff max 5%Anh."),
+            Some(("messing", "Raff"))
+        );
+        assert_eq!(
+            grade_for("Messing Schwer max1%Anh."),
+            Some(("messing", "Schwer"))
+        );
         assert_eq!(grade_for("Elektomotore"), Some(("elektromotoren", "")));
         assert_eq!(
             grade_for("Elektomotore mit Getriebe"),
@@ -356,19 +394,28 @@ mod tests {
             grade_for("Alu Blech mit Anhaftung"),
             Some(("aluminium-blech", "mit Anhaftung"))
         );
-        assert_eq!(grade_for("Alugus Sauber"), Some(("aluminium-guss", "sauber")));
+        assert_eq!(
+            grade_for("Alugus Sauber"),
+            Some(("aluminium-guss", "sauber"))
+        );
         assert_eq!(
             grade_for("Alugus mit Anhaftung"),
             Some(("aluminium-guss", "mit Anhaftung"))
         );
         assert_eq!(grade_for("Blei"), Some(("blei", "")));
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
-        assert_eq!(grade_for("Gussschrott"), Some(("eisenschrott-gussbruch", "")));
+        assert_eq!(
+            grade_for("Gussschrott"),
+            Some(("eisenschrott-gussbruch", ""))
+        );
         assert_eq!(
             grade_for("Bremsscheiben"),
             Some(("eisenschrott-gussbruch", "Bremsscheiben"))
         );
-        assert_eq!(grade_for("Alu Profil blank"), Some(("aluminium-profile", "blank")));
+        assert_eq!(
+            grade_for("Alu Profil blank"),
+            Some(("aluminium-profile", "blank"))
+        );
         assert_eq!(
             grade_for("Alu Profil lackiert"),
             Some(("aluminium-profile", "lackiert"))
@@ -377,7 +424,10 @@ mod tests {
             grade_for("Alu Iso-profi max. 10%Anh."),
             Some(("aluminium-profile", "Iso max. 10% Anhaftung"))
         );
-        assert_eq!(grade_for("Alufelgen ohne Anh."), Some(("aluminium-guss", "Felgen")));
+        assert_eq!(
+            grade_for("Alufelgen ohne Anh."),
+            Some(("aluminium-guss", "Felgen"))
+        );
         assert_eq!(grade_for("Blei Akku"), None);
         assert_eq!(grade_for("Altpapier"), None);
     }

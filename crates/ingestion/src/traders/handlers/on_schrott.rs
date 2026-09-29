@@ -8,9 +8,7 @@
 
 use scraper::{ElementRef, Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "bw-mannheim-on-schrott-metallhandel";
@@ -22,9 +20,12 @@ pub const IMPRESSUM_URL: &str = "https://on-schrott.de/impressum/";
 pub const URL: &str = "https://on-schrott.de/ankauf/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| {
-        Box::pin(scrape(c))
-    } }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -96,10 +97,12 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// anchors or zero cards fail loudly — a silent success would hide a
 /// redesign.
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
-    let start = html.find("Geld für Schrott").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Ankauf-Übersicht fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Geld für Schrott")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankauf-Übersicht fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("Haben Sie Fragen?").unwrap_or(tail.len());
     let window = &tail[..end];
@@ -130,7 +133,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let h4 = Selector::parse("h4").expect("valid selector");
     let anchors: Vec<ElementRef> = doc.select(&h4).collect();
     let addr_h = anchors.iter().find(|h| {
-        h.text().collect::<String>().contains("Angaben gemäß § 5 TMG")
+        h.text()
+            .collect::<String>()
+            .contains("Angaben gemäß § 5 TMG")
     });
     let Some(addr_h) = addr_h else {
         return Err(IngestError::Parse {
@@ -173,9 +178,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         }
     }
     // Contact block: first <p> sibling after the "Kontakt" heading.
-    let contact_h = anchors.iter().find(|h| {
-        h.text().collect::<String>().trim() == "Kontakt"
-    });
+    let contact_h = anchors
+        .iter()
+        .find(|h| h.text().collect::<String>().trim() == "Kontakt");
     let Some(contact_h) = contact_h else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -195,14 +200,19 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
                 phone = rest
                     .split_whitespace()
                     .take_while(|tok| {
-                        tok.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+                        tok.chars()
+                            .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
                     })
                     .collect::<Vec<_>>()
                     .join(" ");
             } else if let Some(rest) = t.strip_prefix("E-Mail:") {
                 // E-mail needs its own rule: the phone-style take_while
                 // would stop at the first letter.
-                email = rest.split_whitespace().next().unwrap_or_default().to_owned();
+                email = rest
+                    .split_whitespace()
+                    .next()
+                    .unwrap_or_default()
+                    .to_owned();
             }
         }
     }
@@ -212,7 +222,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (drop everything up to the
@@ -277,10 +293,7 @@ mod tests {
         );
         assert_eq!(grade_for("Kupfer"), Some(vec![("kupfer-gemischt", "")]));
         assert_eq!(grade_for("Messing"), Some(vec![("messing", "")]));
-        assert_eq!(
-            grade_for("Mischschrott"),
-            Some(vec![("mischschrott", "")])
-        );
+        assert_eq!(grade_for("Mischschrott"), Some(vec![("mischschrott", "")]));
         assert_eq!(grade_for("Blei"), Some(vec![("blei", "")]));
         assert_eq!(grade_for("Zink"), Some(vec![("zink", "")]));
         assert_eq!(grade_for("Batterien"), None, "Pb vs. Li ambiguous");

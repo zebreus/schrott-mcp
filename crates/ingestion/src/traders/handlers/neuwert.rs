@@ -8,7 +8,7 @@
 //! two sorts collapse. The pipeline normalizes EUR/kg into the iron
 //! catalog units (EUR/t) itself; this handler always records the honest
 //! page unit. No page date ("für diese Woche" only) → `published_at`
-//! stays `None`. Ambiguous grades (Erdkabel mit Stahl, Alu-Kupfer-Kühler,
+//! stays `None`. Ambiguous grades (Erdkabel mit Stahl,
 //! Alu-Leitung mit Stahl, Sorte 3) skip loudly instead of being crammed.
 
 use scraper::{Html, Selector};
@@ -116,6 +116,7 @@ fn tier_variant(grade: &'static str, tier: Tier) -> Option<&'static str> {
         ("schwer", Tier::T100) => Some("schwer / ab 100 kg"),
         ("schwer", Tier::T1) => Some("schwer / ab 1 kg"),
         ("leicht", Tier::T1000) => Some("leicht / ab 1000 kg"),
+        ("leicht", Tier::T500) => Some("leicht / ab 500 kg"),
         ("leicht", Tier::T100) => Some("leicht / ab 100 kg"),
         ("leicht", Tier::T1) => Some("leicht / ab 1 kg"),
         ("Späne", Tier::T1000) => Some("Späne / ab 1000 kg"),
@@ -224,11 +225,11 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("kerze") {
         Some(("kupfer-berry", "Kerze"))
     } else if l.contains("verzinnt") {
-        Some(("kupfer-berry", "verzinnt"))
+        Some(("kupfer-verzinnt", "verzinnt"))
     } else if l.contains("berry") {
         Some(("kupfer-berry", "Berry"))
     } else if l.contains("candy") {
-        Some(("kupfer-gemischt", "Candy"))
+        Some(("kupfer-candy", "Candy"))
     } else if l.contains("litzenkabel 75") {
         Some(("kabel-kupfer", "Litzen 75%"))
     } else if l.contains("litzenkabel 60") {
@@ -242,7 +243,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("kupferkabel 38") {
         Some(("kabel-kupfer", "38%"))
     } else if l.contains("kabel mit stecker") {
-        Some(("kabel-kupfer", "mit Stecker"))
+        Some(("kabel-mit-stecker", "mit Stecker"))
     } else if l.contains("aluminium kabel") {
         Some(("kabel-alu", ""))
     } else if l.contains("ms-58 späne") || l.contains("ms-58 sp") {
@@ -254,17 +255,17 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("messing schwer") {
         Some(("messing", "schwer"))
     } else if l.contains("messing leicht") {
-        Some(("messing", "leicht"))
+        Some(("messing-leicht", "leicht"))
     } else if l.contains("rotgu") {
         Some(("bronze-rotguss", ""))
     } else if l.contains("wicu") {
-        Some(("kupfer-gemischt", "WiCu-Rohre"))
+        Some(("kupfer-wicu", "WiCu-Rohre"))
     } else if l.contains("kupfer schwer") {
-        Some(("kupfer-gemischt", "schwer"))
+        Some(("kupfer-schwer", "schwer"))
     } else if l.contains("kupfer leicht") {
-        Some(("kupfer-gemischt", "leicht"))
+        Some(("kupfer-leicht", "leicht"))
     } else if l.contains("kupfer späne") || l.contains("kupferspäne") {
-        Some(("kupfer-gemischt", "Späne"))
+        Some(("kupfer-spaene", "Späne"))
     } else if l.contains("v4a") {
         Some(("edelstahl-v4a", "V4A"))
     } else if l.contains("edelstahl") {
@@ -274,7 +275,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("aluminium profile") {
         Some(("aluminium-profile", ""))
     } else if l.contains("offset") {
-        Some(("aluminium-blech", "Offset"))
+        Some(("aluminium-offset", "Offset"))
     } else if l.contains("aluminium blech farbe") || l.contains("blech farbe") {
         Some(("aluminium-blech", "Farbe"))
     } else if l.contains("aluminium bleche") {
@@ -282,7 +283,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("konstruktal") {
         Some(("aluminium-gemischt", "Konstruktal"))
     } else if l.contains("aluminium felgen") {
-        Some(("aluminium-guss", "Felgen"))
+        Some(("aluminium-felgen", "Felgen"))
     } else if l.contains("guß unsauber") || l.contains("guss unsauber") {
         Some(("aluminium-guss", "unsauber"))
     } else if l.contains("aluminium späne") {
@@ -311,6 +312,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("zink", ""))
     } else if l.contains("blei") {
         Some(("blei", ""))
+    } else if l.contains("alu-kupfer") {
+        Some(("alu-cu-kuehler", ""))
     } else if l.contains("elektromotoren") || l.contains("e-motoren") {
         Some(("elektromotoren", ""))
     } else {
@@ -325,8 +328,6 @@ fn skip_note(label: &str) -> &'static str {
     let l = label.to_lowercase();
     if l.contains("erdkabel") {
         "Stahlmantel-Erdkabel: Leiter uneindeutig"
-    } else if l.contains("alu-kupfer") {
-        "Bimetall-Kühler: Cu/Alu-Anteil uneindeutig"
     } else if l.contains("alu-leitung") {
         "Stahlseelen-Leitung: kein reines Alukabel"
     } else if l.contains("sorte 3") {
@@ -389,7 +390,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         }
     }
     // Bare digits-only sibling <div> ("0531 / 28 76 60 08"); the mailto
-    // sibling carries the address with '@' and never matches.
+    // sibling carries the address with '@' and never matches. No early
+    // break on "Öffnungszeiten": Elementor nests the whole content in
+    // container divs whose subtree text contains the opening-hours
+    // heading, so a break fires before the phone child is reached (live:
+    // phone stayed empty). The digits-only + >=7-digits rule is specific
+    // enough — header/nav containers always carry letters.
     let mut phone = String::new();
     let mut after_addr = false;
     for el in doc.select(&div) {
@@ -407,9 +413,6 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             && t.chars().filter(|c| c.is_ascii_digit()).count() >= 7
         {
             phone = t;
-            break;
-        }
-        if el.text().collect::<String>().contains("ffnungszeiten") {
             break;
         }
     }
@@ -512,7 +515,8 @@ fn parse(html: &str) -> Result<(Vec<(String, Tier, f64, &'static str)>, Vec<Stri
             current = Some(text);
         } else if let Some(name) = current.clone() {
             match split_tier(&text) {
-                Some((tier, price)) => rows.push((name, tier, price, "EUR/kg")),
+                Some((tier, price)) if price > 0.0 => rows.push((name, tier, price, "EUR/kg")),
+                Some(_) => skips.push(format!("{name} (kein Ankaufpreis: {text})")),
                 None => skips.push(format!("{name} (Staffel unverständlich: {text})")),
             }
         } else {
@@ -555,10 +559,11 @@ fn parse(html: &str) -> Result<(Vec<(String, Tier, f64, &'static str)>, Vec<Stri
                     .join(" ");
                 if text.starts_with("ab ") {
                     match split_tier(&text) {
-                        Some((tier, price)) => {
+                        Some((tier, price)) if price > 0.0 => {
                             rows.push((head.clone(), tier, price, "EUR/kg"));
                             tiers += 1;
                         }
+                        Some(_) => skips.push(format!("{head} (kein Ankaufpreis: {text})")),
                         None => skips.push(format!("{head} (Staffel unverständlich: {text})")),
                     }
                 }
@@ -616,7 +621,7 @@ fn split_tier(text: &str) -> Option<(Tier, f64)> {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, grade_for, parse, skip_note, Tier};
+    use super::{extract_info, grade_for, parse, skip_note, tier_variant, Tier};
 
     /// Real live markup, trimmed to two cards + two slides + anchors.
     const FIXTURE: &str = "<h2 class=\"elementor-heading-title elementor-size-default\">Altmetall-Preisliste für diese Woche</h2>\
@@ -688,6 +693,21 @@ mod tests {
     }
 
     #[test]
+    fn zero_price_skips_loudly() {
+        let zero = FIXTURE.replacen("ab 1 kg: <b>10,80 €</b>", "ab 1 kg: <b>0,00 €</b>", 1);
+        let (rows, skips) = parse(&zero).expect("parses");
+        assert_eq!(rows.len(), 11);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("Millberry") && skips[0].contains("kein Ankaufpreis"));
+        let zero_slide = FIXTURE.replacen("ab 1 kg: 1,20 €", "ab 1 kg: 0,00 €", 1);
+        let (rows, skips) = parse(&zero_slide).expect("parses");
+        assert_eq!(rows.len(), 11);
+        assert!(skips
+            .iter()
+            .any(|s| s.contains("V4A") && s.contains("kein Ankaufpreis")));
+    }
+
+    #[test]
     fn impressum_extracts_contact() {
         let imp = "<h1 class=\"elementor-heading-title elementor-size-default\">Impressum</h1>\
             <div><p><b>NEUWERT</b> <b>&#8211;</b><strong> Schrott &amp; Altmetallhandel OHG</strong><br>Benzstraße 2<br>38112 Braunschweig</p></div>\
@@ -704,6 +724,25 @@ mod tests {
     }
 
     #[test]
+    fn impressum_phone_survives_nested_containers() {
+        // Live shape: the whole content sits in nested Elementor
+        // containers whose subtree text contains "Öffnungszeiten" — the
+        // phone child must still be found (no early break).
+        let imp = "<div id=\"page\"><div class=\"nav\"><div>Menü</div></div>\
+            <h1 class=\"elementor-heading-title elementor-size-default\">Impressum</h1>\
+            <div class=\"elementor-widget-container\"><div>\
+            <div><p><b>NEUWERT</b> <b>&#8211;</b><strong> Schrott &amp; Altmetallhandel OHG</strong><br>Benzstraße 2<br>38112 Braunschweig</p></div>\
+            <div><a href=\"mailto:info@neu-wert.de\">info@neu-wert.de</a></div>\
+            <div>0531 / 28 76 60 08</div><div>&nbsp;</div><div><b>Öffnungszeiten</b></div>\
+            <div>Montag &#8211; Donnerstag: 08:00 &#8211; 16:00 Uhr</div>\
+            </div></div></div>";
+        let info = extract_info(imp).expect("parses");
+        assert_eq!(info.street, "Benzstraße 2");
+        assert_eq!(info.phone, "0531 / 28 76 60 08");
+        assert_eq!(info.email, "info@neu-wert.de");
+    }
+
+    #[test]
     fn mapping_orders_specific_first_and_skips_loudly() {
         assert_eq!(
             grade_for("Kupfer Millberry"),
@@ -713,15 +752,15 @@ mod tests {
         assert_eq!(grade_for("Kupfer Berry"), Some(("kupfer-berry", "Berry")));
         assert_eq!(
             grade_for("Kupfer verzinnt"),
-            Some(("kupfer-berry", "verzinnt"))
+            Some(("kupfer-verzinnt", "verzinnt"))
         );
         assert_eq!(
             grade_for("Kupfer Candy"),
-            Some(("kupfer-gemischt", "Candy"))
+            Some(("kupfer-candy", "Candy"))
         );
         assert_eq!(
             grade_for("Kupfer schwer"),
-            Some(("kupfer-gemischt", "schwer"))
+            Some(("kupfer-schwer", "schwer"))
         );
         assert_eq!(grade_for("Kupferkabel 75%"), Some(("kabel-kupfer", "75%")));
         assert_eq!(grade_for("Kupferkabel 38%"), Some(("kabel-kupfer", "38%")));
@@ -731,7 +770,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Kabel mit Stecker"),
-            Some(("kabel-kupfer", "mit Stecker"))
+            Some(("kabel-mit-stecker", "mit Stecker"))
         );
         assert_eq!(grade_for("Aluminium Kabel"), Some(("kabel-alu", "")));
         assert_eq!(
@@ -751,11 +790,11 @@ mod tests {
         );
         assert_eq!(
             grade_for("Aluminium Offset-Blech"),
-            Some(("aluminium-blech", "Offset"))
+            Some(("aluminium-offset", "Offset"))
         );
         assert_eq!(
             grade_for("Aluminium Felgen"),
-            Some(("aluminium-guss", "Felgen"))
+            Some(("aluminium-felgen", "Felgen"))
         );
         assert_eq!(
             grade_for("Aluminium Konstruktal"),
@@ -775,6 +814,10 @@ mod tests {
             Some(("mischschrott", "leicht"))
         );
         assert_eq!(
+            tier_variant("leicht", Tier::T500),
+            Some("leicht / ab 500 kg")
+        );
+        assert_eq!(
             grade_for("Schredderschrott"),
             Some(("stahlschrott-shredder", ""))
         );
@@ -784,7 +827,7 @@ mod tests {
         assert_eq!(grade_for("Edelstahl"), Some(("edelstahl-gemischt", "")));
         assert_eq!(grade_for("Elektromotoren"), Some(("elektromotoren", "")));
         assert_eq!(grade_for("Erdkabel mit Stahl"), None);
-        assert_eq!(grade_for("Alu-Kupfer-Kühler"), None);
+        assert_eq!(grade_for("Alu-Kupfer-Kühler"), Some(("alu-cu-kuehler", "")));
         assert_eq!(grade_for("Alu-Leitung mit Stahl"), None);
         assert_eq!(grade_for("Sorte 3"), None);
         assert!(skip_note("Erdkabel mit Stahl").contains("uneindeutig"));

@@ -23,7 +23,12 @@ pub const IMPRESSUM_URL: &str = "https://vlschrott.de/impressum/";
 pub const URL: &str = "https://vlschrott.de/einkaufspreise/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -202,7 +207,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let paras: Vec<ElementRef> = doc.select(&p).collect();
     let texts: Vec<String> = paras
         .iter()
-        .map(|e| e.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" "))
+        .map(|e| {
+            e.text()
+                .collect::<String>()
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ")
+        })
         .collect();
     let anchor = texts.iter().position(|t| t == "Anschrift und Kontakt:");
     let Some(k) = anchor else {
@@ -247,7 +258,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             .unwrap_or(after.len());
         after[..end]
             .split_whitespace()
-            .take_while(|t| t.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c)))
+            .take_while(|t| {
+                t.chars()
+                    .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+            })
             .collect::<Vec<_>>()
             .join(" ")
     };
@@ -265,11 +279,19 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 fn after_marker<'a>(text: &'a str, marker: &str) -> &'a str {
-    text.find(marker).map(|i| &text[i + marker.len()..]).unwrap_or("")
+    text.find(marker)
+        .map(|i| &text[i + marker.len()..])
+        .unwrap_or("")
 }
 
 /// Strip tags from a fragment (entities are already decoded by html5ever).
@@ -290,7 +312,14 @@ fn strip_tags(s: &str) -> String {
 
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     let doc = Html::parse_document(html);
     let table = Selector::parse("table").expect("valid selector");
     let row = Selector::parse("tbody tr").expect("valid selector");
@@ -300,11 +329,17 @@ fn parse(
     // vom" header, not just the first <table> on the page.
     let table = doc.select(&table).find(|t| {
         t.select(&head).any(|h| {
-            h.text().collect::<String>().to_lowercase().contains("preisliste vom")
+            h.text()
+                .collect::<String>()
+                .to_lowercase()
+                .contains("preisliste vom")
         })
     });
     let Some(table) = table else {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preistabelle".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preistabelle".to_owned(),
+        });
     };
     // List date from the header cell next to "Preisliste vom"
     // (live: "24.09.26 12:03" — day.month.2-digit-year, time ignored).
@@ -343,13 +378,19 @@ fn parse(
         // An unparseable unit is a loud skip, never a silent default: a
         // per-tonne price recorded as per-kg would be a 1000x error.
         let Some(unit) = unit_of(&price_raw) else {
-            skips.push(format!("{label} (Einheit unverständlich: {})", price_raw.trim()));
+            skips.push(format!(
+                "{label} (Einheit unverständlich: {})",
+                price_raw.trim()
+            ));
             continue;
         };
         rows.push((label, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preistabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabelle leer".to_owned(),
+        });
     }
     Ok((published_at, rows, skips))
 }
@@ -403,7 +444,10 @@ mod tests {
         assert_eq!(rows[0].0, "Zeitungspapier");
         assert_eq!(rows[0].1, 0.07);
         assert_eq!(rows[0].2, "EUR/kg");
-        let kern = rows.iter().find(|r| r.0.contains("Kernschrott")).expect("kern");
+        let kern = rows
+            .iter()
+            .find(|r| r.0.contains("Kernschrott"))
+            .expect("kern");
         assert_eq!((kern.1, kern.2), (170.0, "EUR/t"));
     }
 
@@ -417,7 +461,9 @@ mod tests {
         assert_eq!(rows.len(), 8);
         assert_eq!(skips.len(), 2);
         assert!(skips[0].contains("Einheit unverständlich"));
-        let html = FIXTURE.replace("\u{20ac}/kg", "pro Sack").replace("\u{20ac}/t", "pro Sack");
+        let html = FIXTURE
+            .replace("\u{20ac}/kg", "pro Sack")
+            .replace("\u{20ac}/t", "pro Sack");
         let err = parse(&html).expect_err("empty table errors");
         assert!(err.to_string().contains("leer"));
         assert!(parse("<html><body>keine Tabelle</body></html>").is_err());
@@ -425,19 +471,34 @@ mod tests {
 
     #[test]
     fn mapping_covers_every_fixture_label() {
-        assert_eq!(grade_for("Cu Raff 92%"), Some(("kupfer-gemischt", "Raff 92%")));
+        assert_eq!(
+            grade_for("Cu Raff 92%"),
+            Some(("kupfer-gemischt", "Raff 92%"))
+        );
         assert_eq!(
             grade_for("Cu Kanal 95% / Cu verzinnt"),
             Some(("kupfer-gemischt", "Kanal 95%/verzinnt"))
         );
         assert_eq!(grade_for("Cu Millberry"), Some(("kupfer-millberry", "")));
-        assert_eq!(grade_for("Cu Lackdraht / Berry"), Some(("kupfer-berry", "")));
+        assert_eq!(
+            grade_for("Cu Lackdraht / Berry"),
+            Some(("kupfer-berry", ""))
+        );
         assert_eq!(grade_for("Rotguß"), Some(("bronze-rotguss", "")));
         assert_eq!(grade_for("V2A"), Some(("edelstahl-v2a", "")));
         assert_eq!(grade_for("Chromstahl"), Some(("edelstahl-gemischt", "")));
-        assert_eq!(grade_for("E-motoren bis 300 kg/St."), Some(("elektromotoren", "")));
-        assert_eq!(grade_for("Getriebemotoren"), Some(("elektromotoren", "Getriebe")));
-        assert_eq!(grade_for("Kernschrott ab 6 mm"), Some(("stahlschrott-scheren", "Kernschrott ab 6 mm")));
+        assert_eq!(
+            grade_for("E-motoren bis 300 kg/St."),
+            Some(("elektromotoren", ""))
+        );
+        assert_eq!(
+            grade_for("Getriebemotoren"),
+            Some(("elektromotoren", "Getriebe"))
+        );
+        assert_eq!(
+            grade_for("Kernschrott ab 6 mm"),
+            Some(("stahlschrott-scheren", "Kernschrott ab 6 mm"))
+        );
         // Loud skips: no catalog material.
         assert_eq!(grade_for("Zeitungspapier"), None);
         assert_eq!(grade_for("Cu-Ms Kühler o. Fe"), None);
@@ -450,7 +511,10 @@ mod tests {
             Some(("kabel-kupfer", "Cu-Pb Papier"))
         );
         // Specific-before-generic: motor guard wins over Alu-Getriebe.
-        assert_eq!(grade_for("Al Getriebe"), Some(("aluminium-guss", "Getriebe")));
+        assert_eq!(
+            grade_for("Al Getriebe"),
+            Some(("aluminium-guss", "Getriebe"))
+        );
     }
 
     #[test]

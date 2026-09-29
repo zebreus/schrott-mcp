@@ -22,7 +22,12 @@ pub const IMPRESSUM_URL: &str = "https://www.albus-leipzig.de/impressum";
 pub const URL: &str = "https://www.albus-leipzig.de/preise";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 /// One table row: the material label plus the optional price of each
@@ -143,7 +148,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let quote = Selector::parse("blockquote").expect("valid selector");
     let div = Selector::parse("div").expect("valid selector");
     let anchor = doc.select(&quote).find(|q| {
-        q.text().collect::<String>().contains("Kontakt: Albus Leipzig")
+        q.text()
+            .collect::<String>()
+            .contains("Kontakt: Albus Leipzig")
     });
     let Some(anchor) = anchor else {
         return Err(IngestError::Parse {
@@ -153,10 +160,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     };
     // Address/phone lines are sibling blockquotes under the same
     // heading, not descendants of the firm line — scope to the parent.
-    let scope = anchor.parent().and_then(ElementRef::wrap).ok_or_else(|| IngestError::Parse {
-        url: IMPRESSUM_URL.to_owned(),
-        detail: "Kontakt-Block fehlt".to_owned(),
-    })?;
+    let scope = anchor
+        .parent()
+        .and_then(ElementRef::wrap)
+        .ok_or_else(|| IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Kontakt-Block fehlt".to_owned(),
+        })?;
     let mut lines: Vec<String> = scope
         .select(&div)
         .map(|d| d.text().collect::<String>())
@@ -222,7 +232,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Bespoke mail check for THIS impressum: exactly one '@', dotted
@@ -234,7 +250,9 @@ fn is_email(tok: &str) -> bool {
         return false;
     };
     if local.is_empty()
-        || !local.chars().all(|c| c.is_alphanumeric() || "._%+-".contains(c))
+        || !local
+            .chars()
+            .all(|c| c.is_alphanumeric() || "._%+-".contains(c))
     {
         return false;
     }
@@ -243,7 +261,9 @@ fn is_email(tok: &str) -> bool {
         Some(i)
             if i > 0
                 && domain.len() - i - 1 >= 2
-                && domain[..i].chars().all(|c| c.is_alphanumeric() || "-.".contains(c))
+                && domain[..i]
+                    .chars()
+                    .all(|c| c.is_alphanumeric() || "-.".contains(c))
                 && domain[i + 1..].chars().all(|c| c.is_alphabetic()) =>
         {
             true
@@ -252,9 +272,7 @@ fn is_email(tok: &str) -> bool {
     }
 }
 
-fn parse(
-    html: &str,
-) -> Result<(Option<String>, Vec<PriceRow>, Vec<String>), IngestError> {
+fn parse(html: &str) -> Result<(Option<String>, Vec<PriceRow>, Vec<String>), IngestError> {
     let table = Selector::parse("table").expect("valid selector");
     let row = Selector::parse("tr").expect("valid selector");
     let cell = Selector::parse("td, th").expect("valid selector");
@@ -262,12 +280,14 @@ fn parse(
     // header, not just the first <table> on the page.
     let doc = Html::parse_document(html);
     let table = doc.select(&table).find(|t| {
-        t.select(&cell).any(|c| {
-            c.text().collect::<String>().contains("mit Kundenkarte")
-        })
+        t.select(&cell)
+            .any(|c| c.text().collect::<String>().contains("mit Kundenkarte"))
     });
     let Some(table) = table else {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preistabelle".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preistabelle".to_owned(),
+        });
     };
     let mut rows = Vec::new();
     let mut skips = Vec::new();
@@ -305,28 +325,59 @@ fn parse(
         if label.len() > 120 {
             continue;
         }
-        let mit = if cells[1].trim().is_empty() { None } else { parse_eur(&cells[1]) };
-        let ohne = if cells[2].trim().is_empty() { None } else { parse_eur(&cells[2]) };
+        let mit = if cells[1].trim().is_empty() {
+            None
+        } else {
+            parse_eur(&cells[1])
+        };
+        let ohne = if cells[2].trim().is_empty() {
+            None
+        } else {
+            parse_eur(&cells[2])
+        };
         if mit.is_none() && !cells[1].trim().is_empty() {
-            skips.push(format!("{} (Preis unverständlich: {})", label, cells[1].trim()));
+            skips.push(format!(
+                "{} (Preis unverständlich: {})",
+                label,
+                cells[1].trim()
+            ));
         }
         if ohne.is_none() && !cells[2].trim().is_empty() {
-            skips.push(format!("{} (Preis unverständlich: {})", label, cells[2].trim()));
+            skips.push(format!(
+                "{} (Preis unverständlich: {})",
+                label,
+                cells[2].trim()
+            ));
         }
         if mit.is_none() && ohne.is_none() {
             continue;
         }
         // An unparseable unit is a loud skip, never a silent default: a
         // per-tonne price recorded as per-kg would be a 1000x error.
-        let probe = if !cells[1].trim().is_empty() { &cells[1] } else { &cells[2] };
+        let probe = if !cells[1].trim().is_empty() {
+            &cells[1]
+        } else {
+            &cells[2]
+        };
         let Some(unit) = unit_of(probe) else {
-            skips.push(format!("{label} (Einheit unverständlich: {})", probe.trim()));
+            skips.push(format!(
+                "{label} (Einheit unverständlich: {})",
+                probe.trim()
+            ));
             continue;
         };
-        rows.push(PriceRow { label, mit, ohne, unit });
+        rows.push(PriceRow {
+            label,
+            mit,
+            ohne,
+            unit,
+        });
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preistabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabelle leer".to_owned(),
+        });
     }
     Ok((published_at, rows, skips))
 }
@@ -394,10 +445,14 @@ mod tests {
     fn missing_table_and_empty_table_error() {
         let err = parse(DECOY).expect_err("no price table");
         assert!(err.to_string().contains("keine Preistabelle"));
-        let empty = FIXTURE.replace("9,00 EUR", "pro Sack").replace("8,00 EUR", "pro Sack")
-            .replace("10,00 EUR", "pro Sack").replace("9,00 EUR", "pro Sack")
+        let empty = FIXTURE
+            .replace("9,00 EUR", "pro Sack")
+            .replace("8,00 EUR", "pro Sack")
+            .replace("10,00 EUR", "pro Sack")
+            .replace("9,00 EUR", "pro Sack")
             .replace("0,04 EUR", "pro Sack")
-            .replace("0,19 EUR", "pro Sack").replace("0,16 EUR", "pro Sack")
+            .replace("0,19 EUR", "pro Sack")
+            .replace("0,16 EUR", "pro Sack")
             .replace("ab 0,10 EUR", "pro Sack");
         let err = parse(&empty).expect_err("empty table errors");
         assert!(err.to_string().contains("leer"));
@@ -410,7 +465,10 @@ mod tests {
         assert_eq!(grade_for("Kupfer-Kabel"), Some(("kabel-kupfer", "")));
         assert_eq!(grade_for("Messing"), Some(("messing", "")));
         assert_eq!(grade_for("Alu"), Some(("aluminium-gemischt", "")));
-        assert_eq!(grade_for("Alufelgen sauber"), Some(("aluminium-guss", "Felgen")));
+        assert_eq!(
+            grade_for("Alufelgen sauber"),
+            Some(("aluminium-guss", "Felgen"))
+        );
         assert_eq!(grade_for("Edelstahl"), Some(("edelstahl-gemischt", "")));
         assert_eq!(grade_for("Zink"), Some(("zink", "")));
         assert_eq!(grade_for("Blei"), Some(("blei", "")));

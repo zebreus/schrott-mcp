@@ -31,7 +31,12 @@ pub const URL: &str = "https://boehner-altmetalle.de/ankauf-preise";
 const TIERS: [&str; 3] = ["bis 50 kg", "ab 50 kg", "ab 500 kg"];
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -151,10 +156,12 @@ fn prefixed(sort: &str, tier: &'static str) -> &'static str {
 fn parse(
     html: &str,
 ) -> Result<(Vec<(String, &'static str, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("<table id=\"preisliste\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("<table id=\"preisliste\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("</table>").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -163,7 +170,8 @@ fn parse(
     let window = &tail[..end];
     // Tier headers must read exactly as verified live — a relabeled
     // column would silently mistier every row.
-    if !(window.contains(">Sorte<") && window.contains("bis 50 kg") && window.contains("ab 500 kg")) {
+    if !(window.contains(">Sorte<") && window.contains("bis 50 kg") && window.contains("ab 500 kg"))
+    {
         return Err(IngestError::Parse {
             url: URL.to_owned(),
             detail: "Preislisten-Kopf unbekannt".to_owned(),
@@ -206,6 +214,11 @@ fn parse(
                 skips.push(format!("{label} ({tier}: Preis unverständlich: {cell})"));
                 continue;
             };
+            // A "0,00" cell is "no quote", not a free gift: loud skip.
+            if price == 0.0 {
+                skips.push(format!("{label} ({tier}: Preis 0,00)"));
+                continue;
+            };
             // An unparseable unit is a loud skip, never a silent
             // default: a per-tonne price recorded as per-kg would be a
             // 1000x error.
@@ -217,7 +230,10 @@ fn parse(
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preisliste leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisliste leer".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -229,7 +245,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
     let lower = cell.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|t| t == "t") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|t| t == "t")
+    {
         Some("EUR/t")
     } else {
         None
@@ -246,16 +265,20 @@ fn unit_of(cell: &str) -> Option<&'static str> {
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h1 = Selector::parse("h1").expect("valid selector");
-    if !doc.select(&h1).any(|h| h.text().collect::<String>().contains("Impressum der Böhner")) {
+    if !doc.select(&h1).any(|h| {
+        h.text()
+            .collect::<String>()
+            .contains("Impressum der Böhner")
+    }) {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Impressum-Block fehlt".to_owned(),
         });
     }
     let h2 = Selector::parse("h2").expect("valid selector");
-    let anchor = doc.select(&h2).find(|h| {
-        h.text().collect::<String>().trim() == "Herausgeber der Website:"
-    });
+    let anchor = doc
+        .select(&h2)
+        .find(|h| h.text().collect::<String>().trim() == "Herausgeber der Website:");
     let Some(anchor) = anchor else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -267,7 +290,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         .filter_map(scraper::ElementRef::wrap)
         .find(|e| e.value().name() == "p");
     let p_sel = Selector::parse("p").expect("valid selector");
-    let contact_p = doc.select(&p_sel).find(|el| el.inner_html().contains("Kontakt:"));
+    let contact_p = doc
+        .select(&p_sel)
+        .find(|el| el.inner_html().contains("Kontakt:"));
     let (Some(addr_p), Some(contact_p)) = (addr_p, contact_p) else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -315,7 +340,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -376,15 +407,31 @@ mod tests {
         // Group header yields no rows; four sorts × three tiers.
         assert_eq!(rows.len(), 12);
         assert!(skips.is_empty());
-        assert_eq!(rows[0], ("Millberry".to_owned(), "bis 50 kg", 10.5, "EUR/kg"));
-        assert_eq!(rows[2], ("Millberry".to_owned(), "ab 500 kg", 11.0, "EUR/kg"));
+        assert_eq!(
+            rows[0],
+            ("Millberry".to_owned(), "bis 50 kg", 10.5, "EUR/kg")
+        );
+        assert_eq!(
+            rows[2],
+            ("Millberry".to_owned(), "ab 500 kg", 11.0, "EUR/kg")
+        );
         assert_eq!(
             rows[3],
-            ("Bleche alt mit max. 2% FE".to_owned(), "bis 50 kg", 1.25, "EUR/kg")
+            (
+                "Bleche alt mit max. 2% FE".to_owned(),
+                "bis 50 kg",
+                1.25,
+                "EUR/kg"
+            )
         );
         assert_eq!(
             rows[6],
-            ("Mischschrott schwer / Abbruch".to_owned(), "bis 50 kg", 100.0, "EUR/t")
+            (
+                "Mischschrott schwer / Abbruch".to_owned(),
+                "bis 50 kg",
+                100.0,
+                "EUR/t"
+            )
         );
         assert_eq!(unit_of("1,50 €/kg"), Some("EUR/kg"));
         assert_eq!(unit_of("100,00 €/t"), Some("EUR/t"));
@@ -392,6 +439,17 @@ mod tests {
         // Unknown header or missing table fails loudly.
         assert!(parse("<table id=\"preisliste\"><th>Sonst was</th></table>").is_err());
         assert!(parse("<div>Redesign ohne Tabelle</div>").is_err());
+    }
+
+    #[test]
+    fn zero_price_cells_skip_loudly() {
+        // One tier quoted "0,00" is "no quote", never a price-0 row.
+        let html = FIXTURE.replacen("10,50<span", "0,00<span", 1);
+        let (rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 11);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("Millberry") && skips[0].contains("0,00"));
+        assert!(rows.iter().all(|(_, _, p, _)| *p > 0.0));
     }
 
     #[test]
@@ -413,8 +471,14 @@ mod tests {
             Some(("aluminium-gemischt", "Felgen, bis 50 kg"))
         );
         assert_eq!(grade_for("Blei", "bis 50 kg"), Some(("blei", "bis 50 kg")));
-        assert_eq!(grade_for("V2A", "ab 50 kg"), Some(("edelstahl-v2a", "ab 50 kg")));
-        assert_eq!(grade_for("V4A", "ab 50 kg"), Some(("edelstahl-v4a", "ab 50 kg")));
+        assert_eq!(
+            grade_for("V2A", "ab 50 kg"),
+            Some(("edelstahl-v2a", "ab 50 kg"))
+        );
+        assert_eq!(
+            grade_for("V4A", "ab 50 kg"),
+            Some(("edelstahl-v4a", "ab 50 kg"))
+        );
         assert_eq!(
             grade_for("Mischschrott", "ab 500 kg"),
             Some(("mischschrott", "ab 500 kg"))
@@ -427,7 +491,10 @@ mod tests {
             grade_for("Rotguss", "bis 50 kg"),
             Some(("bronze-rotguss", "bis 50 kg"))
         );
-        assert_eq!(grade_for("Kupferkabel", "bis 50 kg"), Some(("kabel-kupfer", "bis 50 kg")));
+        assert_eq!(
+            grade_for("Kupferkabel", "bis 50 kg"),
+            Some(("kabel-kupfer", "bis 50 kg"))
+        );
         assert_eq!(prefixed("Offset", "ab 50 kg"), "Offset, ab 50 kg");
         assert_eq!(grade_for("E-Motoren", "bis 50 kg"), None);
     }
@@ -449,4 +516,3 @@ mod tests {
         assert!(super::extract_info("<h1>Impressum der Böhner Altmetalle GmbH</h1>").is_err());
     }
 }
-

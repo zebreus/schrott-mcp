@@ -932,3 +932,61 @@ Echt tot (4): marcusdroste.de (Marcus Droste Dinslaken — kein Connect http+htt
 | ECO Remarketing GmbH | Ennigerloh 59320, Westkirchener Str. 67 | https://www.eco-remarketing.com | IT-Remarketing/E-Schrott/NE — Vergütung Au/Ag/Cu, LME-Festpreise, BIR (NEU) | ja |
 | PIO Remarketing GmbH | Mönchengladbach 41066, Süchtelner Str. 65 | https://www.pio-remarketing.de | IT-Remarketing/E-Schrott — "kaufen alte IT-Hardware, 350.000 Assets/Jahr" (NEU) | unklar |
 | etree GmbH | Köln 50829, Mathias-Brüggen-Str. 160 | https://etree.de | IT-Remarketing/E-Schrott — "We purchase used IT hardware" (NEU, nur via Suche verifiziert) | unklar |
+
+## Nachtrag EAS Herdecke (28.09.2026)
+
+| Name | Stadt | Website | Spezialität | Ankauf |
+|---|---|---|---|---|
+| EAS-Recycling Solution GmbH | Herdecke | https://www.eas-recycling.de/ | E-Schrott/Platinen/Altmetalle — statische Preislisten /ankaufspreise/elektronische-bauteile, /elektronische-hardware, /altmetalle (alle HTTP 200, Zahlen verifiziert 28.09.2026: Leiterplatten 3,00-28,50, RAM Goldkante 85, Keramikprozessoren 220, Slot-CPU 80, Computer 1,20, Laptop 2,20, Server 1,40, Millberry 7,40, Raff 6,20, Messing 3,60, Zinn 27,80, Kabel 2,20 €/kg; Betriebsstätte Ostender Weg 12A, 58313 Herdecke) → HANDLER-KANDIDAT | ja |
+
+## Nachtrag Adressen (28.09.2026)
+
+Stand: 2026-09-28. Ausgangslage: 609 Seed-Einträge in `seed/traders/nw.json`, davon 464 mit
+leerem `street` (141 davon mit Website). Methode: Website-Impressen per Fetch/Websuche
+verifiziert (Priorität: Einträge mit Website), Rest über Branchenverzeichnisse (11880,
+Das Örtliche, auskunft.de). Nur `recherche/*.md` ergänzt — KEINE Seed-JSON editiert
+(Übernahme via `tools/md2seed.py`). PLZ/Telefon aus Impressum bzw. Kontaktseite.
+
+| Name | Ort | Straße | PLZ | Telefon | Quelle |
+|---|---|---|---|---|---|
+| TSR Deutschland (Ndl. Duisburg) | Duisburg | Rohstoffinsel 2-10 | 47138 | 02306 1063800 (Zentrale Lünen) | tsr-recycling.de/standorte + Bibliothek-Zertifikat |
+| TSR Group (Konzernzentrale) | Lünen | Brunnenstraße 138 | 44536 | 02306 106-3800 | tsr.eu/impressum |
+| ELG GmbH (Aperam Recycling) | Duisburg | Kremerskamp 16 | 47138 | 0203 4501-0 / 0152 02851830 | elgmetals.com/standorte |
+| ELG Utica Alloys GmbH | Duisburg | Kremerskamp 16 | 47138 | 0203 4501-0 | elgmetals.com/standorte |
+| Cablo GmbH (TSR/Aurubis-JV) | Gelsenkirchen | Grimbergstraße 85 | 45889 | 0209 3842000 / 0160 3329231 | cablo.eu/impressum |
+| Aurubis Lünen | Lünen | Kupferstraße 23 | 44532 | 02306 108-0 | aurubis.com/standorte |
+| B-U-R Bernhardt Umwelt Recycling | Sonsbeck (Lager Duisburg) | Raiffeisenstraße 13 (Lager: Baumstr. 7-15, 47198 Duisburg) | 47665 | 02838 7757880 / 0151 64400500 | bur-recycling-duisburg.de/impressum |
+| slug:nw-gelsenkirchen-45886-rohstoffhandel-heinrichs-group | Gelsenkirchen | Am Dördelmannshof 30 | 45886 | 0209 177456-0 | heinrichs-group.com/impressum |
+| Poeppel GmbH & Co. KG | Dortmund | Hannöversche Str. 30b | 44143 | 0231 595350 | poeppel-dortmund.de/impressum |
+| Niedergriese (Kevin Niedergriese) | Hagen | Lütkehofstr. 10-12 | 58091 | 02331 70808 | niedergriese.de/impressum |
+| CH Metallhandel | Essen | Wilhelm-Beckmann-Str. 14 | 45307 | 0176 21590567 / 0172 6265747 | ch-metallhandel.de/kontakt (Fetch) |
+| Altmetall Häuser | Essen | Ripshorsterstr. 370 (Seed-Notiz „37" korrigiert) | 45357 | 0208 6206845 / 0171 9264875 | altmetall-haeuser.de (Websuche) |
+| BSH Bottroper Schrotthandel GmbH | Bottrop | Werkstr. 4 | 46240 | 02041 7724414 (11880: 02041 3893437) | bottroper-schrotthandel.de/impressum (Dublette zu Bestand „Werkstr. 4" bestätigt) |
+| Böhner Altmetalle GmbH | Düsseldorf | Königsberger Str. 234a | 40231 | 0211 213356 | boehner-altmetalle.de/impressum |
+| Ossenbühl Schrotthandels GmbH | Düsseldorf | Im Liefeld 44 | 40227 | 0211 1675350 | schrotthandel-duesseldorf.de/impressum |
+| P&P Buntmetallhandel (M. Panus) | Düsseldorf | Bamberger Str. 3-5 | 40599 | 0211 56663464 | schrott-duesseldorf.de/impressum |
+| WKR GmbH | Köln | Hugo-Junkers-Str. 10a (Zweitstandort Rodenkirchen: Kirschbaumweg 8, 50996) | 50739 | 0221 97997814 | wkr-schrott.de |
+| Kolfenbach GmbH & Co. KG | Köln | Delmenhorster Str. 1 | 50735 | 0221 494089 | kolfenbach.de/impressum |
+| Altmetalle Kraft | Dormagen | Robert-Bosch-Str. 24 | 41541 | 0163 5927189 | schrott-koeln.de/kontakt (Fetch) |
+| Zitzmann Recycling (Willi Zitzmann) | Wesseling | Industriestraße 87 | 50389 | 02232 57936271 | zitzmann-recycling.de/kontakt (Fetch) |
+| PUR Umwelt (P.U. Richter) | Bonn | Friesdorfer Str. 176 | 53175 | 0228 9512918 | pur-umwelt.com/impressum |
+| Pegas Schrotthandel (P. Bekirovski) | Wuppertal | Hohenstein 158 | 42283 | 0202 29758990 | pegas-schrotthandel.de/impressum |
+| Derleh Recycling GmbH | Münster | Hessenbusch 185 | 48157 | 0251 32202297 | derleh-recycling.de/impressum |
+| MM Schrotthandel (Büroanschrift) | Bielefeld | Adolf-Reichwein-Str. 22b | 33615 | 0521 54363064 / 0171 1707531 | mmschrott.de/kontakt |
+| AM Altmetall GmbH | Ochtrup (Münsterland) | Weinerpark 5 | 48607 | 02553 720090 | am-altmetall.de (Seed-Ort „Münsterland" präzisiert) |
+| Schrott-Krüger (S. M. Krüger, mobil) | Essen | Heidhauser Str. 223 | 45239 | 0163 7375327 | schrott-krueger.de/impressum (kein stationärer Platz, Mobilhändler) |
+| MSR Münsterland Schrott Recycling | Nottuln | Lise-Meitner-Str. 12b | 48301 | 02502 4129900 | schrott-recycling-nottuln.de |
+| Metallhandel Metze e.K. | Sankt Augustin | Marie-Curie-Str. 4-6 | 53757 | 02241 311041 | metallhandel-metze.de (Fetch) |
+| slug:nw-munster-a-z-recycling-udo-salzsieder — KORREKTUR | Münster | Coermühle 4a | 48157 | 0251 277098 / 0172 5219649 | schrottplatz-münster.de/impressum |
+
+Hinweise zur Übernahme (md2seed): TSR Duisburg (Rohstoffinsel 2-10/47138), ELG (Kremerskamp 16/47138),
+Cablo (Grimbergstr. 85/45889), Aurubis Lünen (Kupferstr. 23/44532), TSR Lünen (Brunnenstr. 138/44536),
+Heinrichs (Am Dördelmannshof 30/45886), Poeppel (44143/0231 595350), Niedergriese
+(Lütkehofstr. 10-12/58091), CH Metallhandel (45307), Altmetall Häuser (Ripshorsterstr. 370/45357 —
+Seed-Notiz „37" war unvollständig), BSH (Werkstr. 4/46240/02041 7724414 — Dublette zusammenführen),
+Böhner (40231), Ossenbühl (40227), P&P (40599), WKR Longerich/Rodenkirchen, Kolfenbach (50735),
+Kraft (41541), Zitzmann (50389), PUR (53175), Pegas (42283), Derleh (48157), MM (33615, Büro),
+AM Altmetall (Ochtrup 48607), Krüger (45239, mobil), Metzler (45307), MSR (48301), Metze (53757).
+Offen: SMI Metallrecycling (nur Seed-Notiz Am Schild 11), Schrottankauf Exclusiv (rein mobil),
+Recycling Bartikowsky (Nienkamp 26, Website tot), Metall Recycling Münster (Königsberger Str. 109,
+Website tot) — Verzeichnisabgleich steht aus.

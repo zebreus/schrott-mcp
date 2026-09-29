@@ -27,7 +27,12 @@ pub const IMPRESSUM_URL: &str = "https://geldfuergold.de/impressum/";
 pub const URL: &str = "https://geldfuergold.de/ankaufsrechner/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -131,9 +136,7 @@ fn fineness(l: &str) -> &'static str {
 
 /// Parse the calculator window (`gfg-grid` … `gfg-actions`) plus the
 /// versilberte-Besteck box below it. Returns (rows, unit_skips).
-fn parse(
-    html: &str,
-) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
     let start = html.find("gfg-grid").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
         detail: "Ankaufsrechner fehlt".to_owned(),
@@ -226,9 +229,7 @@ fn parse(
     // rows still flow and the loss is a loud skip, not a failed step.
     match parse_besteck(html, &mut unit_skips) {
         Ok(besteck) => rows.extend(besteck),
-        Err(_) => {
-            unit_skips.push("Besteck-Box fehlt (Annahmebox unauffindbar)".to_owned())
-        }
+        Err(_) => unit_skips.push("Besteck-Box fehlt (Annahmebox unauffindbar)".to_owned()),
     }
     if rows.is_empty() {
         return Err(IngestError::Parse {
@@ -280,10 +281,12 @@ fn parse_besteck(
     html: &str,
     unit_skips: &mut Vec<String>,
 ) -> Result<Vec<(String, f64, &'static str)>, IngestError> {
-    let start = html.find("versilbertem Besteck").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Besteck-Box fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("versilbertem Besteck")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Besteck-Box fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("90er/100er").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -327,7 +330,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h1 = Selector::parse("h1").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
-    if !doc.select(&h1).any(|h| h.text().collect::<String>().trim() == "Impressum") {
+    if !doc
+        .select(&h1)
+        .any(|h| h.text().collect::<String>().trim() == "Impressum")
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Impressum-Block fehlt".to_owned(),
@@ -386,7 +392,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -472,8 +484,14 @@ mod tests {
         assert_eq!(grade_for("Platin 999er"), Some(("platin", "999")));
         assert_eq!(grade_for("Platin 950er"), Some(("platin", "950")));
         // Plated cutlery is not solid silver — never crammed.
-        assert_eq!(grade_for("Besteck ab 90er Auflage: 20,00 Euro pro Kilogramm"), None);
-        assert_eq!(grade_for("Messer ab 90er Auflage: 10,00 Euro pro Kilogramm"), None);
+        assert_eq!(
+            grade_for("Besteck ab 90er Auflage: 20,00 Euro pro Kilogramm"),
+            None
+        );
+        assert_eq!(
+            grade_for("Messer ab 90er Auflage: 10,00 Euro pro Kilogramm"),
+            None
+        );
         assert_eq!(fineness("gold"), "");
     }
 

@@ -29,7 +29,12 @@ pub const IMPRESSUM_URL: &str = "https://www.schrott-triebsch.de/";
 pub const URL: &str = "https://www.schrott-triebsch.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -109,10 +114,12 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 /// each cell carries its column's explicit unit; empty cells stay
 /// empty (no cross-column defaults, no silent EUR/kg).
 fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("Tageshöchstpreise für Schrott").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preistabelle fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Tageshöchstpreise für Schrott")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabelle fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     // Table end: the footer nav after the price table closes it.
     let end = tail.find("</table>").ok_or_else(|| IngestError::Parse {
@@ -124,10 +131,13 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
     let table_sel = Selector::parse("table").expect("valid selector");
     let row_sel = Selector::parse("tr").expect("valid selector");
     let cell_sel = Selector::parse("td").expect("valid selector");
-    let table = frag.select(&table_sel).next().ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preistabelle fehlt".to_owned(),
-    })?;
+    let table = frag
+        .select(&table_sel)
+        .next()
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabelle fehlt".to_owned(),
+        })?;
     let mut rows = Vec::new();
     let mut skips = Vec::new();
     for tr in table.select(&row_sel) {
@@ -147,14 +157,19 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         // most one column; a row with neither skips loudly.
         let mut priced = false;
         for (cell, unit) in [(&cells[1], "EUR/t"), (&cells[2], "EUR/kg")] {
-            let Some(price) = parse_eur(cell) else { continue };
+            let Some(price) = parse_eur(cell) else {
+                continue;
+            };
             if price <= 0.0 {
                 continue;
             }
             // "ab 120 Euro" (Altfahrzeuge) is a per-vehicle quote, not a
             // per-kg/t price — loud skip, never a scaled row.
             if cell.to_lowercase().contains("ab ") {
-                skips.push(format!("{label} (Stückpreis, kein kg/t-Preis: {})", cell.trim()));
+                skips.push(format!(
+                    "{label} (Stückpreis, kein kg/t-Preis: {})",
+                    cell.trim()
+                ));
                 priced = true;
                 break;
             }
@@ -167,7 +182,10 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         }
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preistabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabelle leer".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -205,7 +223,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         all.find(marker).map(|i| {
             all[i + marker.len()..]
                 .split_whitespace()
-                .take_while(|t| t.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c)))
+                .take_while(|t| {
+                    t.chars()
+                        .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+                })
                 .collect::<Vec<_>>()
                 .join(" ")
         })
@@ -223,7 +244,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 #[cfg(test)]
@@ -248,19 +275,33 @@ mod tests {
         // Stahlschrott (t) + Kupfer (kg) + Bleibatterien (t-cell wins;
         // grade_for skips batteries later) + Motorenschrott (t).
         assert_eq!(rows.len(), 4);
-        assert_eq!(rows[0], ("Stahlschrott / Mischschrott".to_owned(), 160.0, "EUR/t"));
+        assert_eq!(
+            rows[0],
+            ("Stahlschrott / Mischschrott".to_owned(), 160.0, "EUR/t")
+        );
         assert_eq!(rows[1], ("Kupfer".to_owned(), 9.50, "EUR/kg"));
         assert_eq!(rows[2].2, "EUR/t");
         assert_eq!(rows[3], ("Motorenschrott".to_owned(), 320.0, "EUR/t"));
         assert!(rows.iter().any(|r| r.0 == "Bleibatterien"), "{rows:?}");
-        assert!(skips.iter().any(|s| s.contains("Altfahrzeuge") && s.contains("Stückpreis")), "{skips:?}");
-        assert!(skips.iter().any(|s| s.contains("SV / Schmelz")), "{skips:?}");
+        assert!(
+            skips
+                .iter()
+                .any(|s| s.contains("Altfahrzeuge") && s.contains("Stückpreis")),
+            "{skips:?}"
+        );
+        assert!(
+            skips.iter().any(|s| s.contains("SV / Schmelz")),
+            "{skips:?}"
+        );
         assert!(parse("<div>Kein Ankauf hier</div>").is_err());
     }
 
     #[test]
     fn mapping_maps_and_skips_loudly() {
-        assert_eq!(grade_for("Stahlschrott / Mischschrott"), Some(("mischschrott", "")));
+        assert_eq!(
+            grade_for("Stahlschrott / Mischschrott"),
+            Some(("mischschrott", ""))
+        );
         assert_eq!(grade_for("Kupfer"), Some(("kupfer-gemischt", "")));
         assert_eq!(grade_for("SV / Schmelz"), None, "unproven grade");
         assert_eq!(grade_for("Bleibatterien"), None, "batteries, not Weichblei");

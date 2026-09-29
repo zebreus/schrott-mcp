@@ -25,7 +25,12 @@ pub const IMPRESSUM_URL: &str = "https://www.second-way.de/impressum";
 pub const URL: &str = "https://www.second-way.de/ankaufspreise/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -111,7 +116,10 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     {
         return None;
     }
-    if l.trim().trim_start_matches(['–', '-', ' ']).starts_with("lose") {
+    if l.trim()
+        .trim_start_matches(['–', '-', ' '])
+        .starts_with("lose")
+    {
         return None;
     }
     if l.contains("auf anfrage") {
@@ -232,7 +240,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let strong = Selector::parse("strong").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
     let anchor = doc.select(&strong).find(|s| {
-        s.text().collect::<String>().contains("Anbieterkennzeichnung nach TMG")
+        s.text()
+            .collect::<String>()
+            .contains("Anbieterkennzeichnung nach TMG")
     });
     let Some(_) = anchor else {
         return Err(IngestError::Parse {
@@ -246,8 +256,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let mut contact = String::new();
     let mut in_block = false;
     for e in &paras {
-        let text: String =
-            e.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ");
+        let text: String = e
+            .text()
+            .collect::<String>()
+            .split_whitespace()
+            .collect::<Vec<_>>()
+            .join(" ");
         if !in_block {
             if text.contains("Anbieterkennzeichnung nach TMG") {
                 in_block = true;
@@ -270,7 +284,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     }
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
     for row in &addr_rows {
-        if row.contains("GmbH") || (row.contains("Recycling") && !row.chars().any(|c| c.is_ascii_digit())) {
+        if row.contains("GmbH")
+            || (row.contains("Recycling") && !row.chars().any(|c| c.is_ascii_digit()))
+        {
             continue;
         }
         let mut it = row.split_whitespace();
@@ -296,7 +312,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             .unwrap_or(after.len());
         after[..end]
             .split_whitespace()
-            .take_while(|t| t.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c)))
+            .take_while(|t| {
+                t.chars()
+                    .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+            })
             .collect::<Vec<_>>()
             .join(" ")
     };
@@ -314,11 +333,19 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 fn after_marker<'a>(text: &'a str, marker: &str) -> &'a str {
-    text.find(marker).map(|i| &text[i + marker.len()..]).unwrap_or("")
+    text.find(marker)
+        .map(|i| &text[i + marker.len()..])
+        .unwrap_or("")
 }
 
 /// Strip tags from a fragment (entities are already decoded by html5ever).
@@ -339,18 +366,29 @@ fn strip_tags(s: &str) -> String {
 
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     // Window, never the whole page: the footer reuses headings and
     // links that must not leak into the price block.
-    let start = html.find("<h1>Ankaufspreise</h1>").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Ankaufspreise-Block fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("<h1>Ankaufspreise</h1>")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankaufspreise-Block fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("<h2>Ankauf Hinweise</h2>").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Ankauf-Hinweise-Terminator fehlt".to_owned(),
-    })?;
+    let end = tail
+        .find("<h2>Ankauf Hinweise</h2>")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankauf-Hinweise-Terminator fehlt".to_owned(),
+        })?;
     let window = &tail[..end];
     let published_at = find_update_date(window);
     // Section per table: the last <strong> heading before each <table>.
@@ -361,8 +399,13 @@ fn parse(
         if let Some(e) = window[a..].find("</strong>") {
             // Inner markup (<br/>) never belongs to the name.
             let raw = &window[a..a + e];
-            let text =
-                raw.split('<').next().unwrap_or(raw).split_whitespace().collect::<Vec<_>>().join(" ");
+            let text = raw
+                .split('<')
+                .next()
+                .unwrap_or(raw)
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ");
             if !text.is_empty() {
                 heads.push((pos + i, text));
             }
@@ -380,7 +423,9 @@ fn parse(
     let mut table_count = 0;
     while let Some(i) = window[search..].find("<table") {
         let a = search + i;
-        let Some(e) = window[a..].find("</table>") else { break };
+        let Some(e) = window[a..].find("</table>") else {
+            break;
+        };
         let block = &window[a..a + e + "</table>".len()];
         search = a + e + "</table>".len();
         table_count += 1;
@@ -391,7 +436,9 @@ fn parse(
             .map(|(_, s)| s.clone())
             .unwrap_or_default();
         let frag = Html::parse_fragment(block);
-        let Some(t) = frag.select(&table_sel).next() else { continue };
+        let Some(t) = frag.select(&table_sel).next() else {
+            continue;
+        };
         for tr in t.select(&row_sel) {
             let cells: Vec<String> = tr.select(&cell_sel).map(|c| c.text().collect()).collect();
             if cells.len() < 2 {
@@ -427,7 +474,9 @@ fn parse(
                             }
                         }
                     }
-                    None => skips.push(format!("{label} (Staffelpreise unverständlich: {price_trim})")),
+                    None => skips.push(format!(
+                        "{label} (Staffelpreise unverständlich: {price_trim})"
+                    )),
                 }
                 continue;
             }
@@ -450,10 +499,16 @@ fn parse(
         }
     }
     if table_count == 0 {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "keine Preistabellen".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "keine Preistabellen".to_owned(),
+        });
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preistabellen leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preistabellen leer".to_owned(),
+        });
     }
     Ok((published_at, rows, skips))
 }
@@ -463,7 +518,9 @@ fn parse(
 fn find_update_date(window: &str) -> Option<String> {
     let i = window.find("letzte Aktualisierung")?;
     let after = &window[i + "letzte Aktualisierung".len()..];
-    let tok = after.split_whitespace().find(|t| t.chars().filter(|c| *c == '.').count() == 2)?;
+    let tok = after
+        .split_whitespace()
+        .find(|t| t.chars().filter(|c| *c == '.').count() == 2)?;
     let parts: Vec<&str> = tok.trim_matches(',').split('.').collect();
     if parts.len() == 3 && parts[2].len() == 2 {
         parse_de_date(parts[0], parts[1], &format!("20{}", parts[2]))
@@ -488,7 +545,9 @@ fn expand_ladder(label: &str, price_cell: &str) -> Option<Vec<(String, f64, &'st
     let body = price_cell.split("EUR").next().unwrap_or(price_cell);
     let body = body.split('€').next().unwrap_or(body);
     for part in body.split('/') {
-        let Some(v) = parse_eur(part) else { return None };
+        let Some(v) = parse_eur(part) else {
+            return None;
+        };
         prices.push(v);
     }
     if shares.len() != prices.len() || shares.is_empty() {
@@ -569,12 +628,17 @@ mod tests {
         assert_eq!(rows.len(), 13, "{rows:?}");
         // Zero row, Anfrage row, m³ row = 3 loud skips.
         assert_eq!(skips.len(), 3, "{skips:?}");
-        assert!(skips.iter().any(|s| s.contains("Schreddervormaterial") && s.contains("kein Ankauf")));
+        assert!(skips
+            .iter()
+            .any(|s| s.contains("Schreddervormaterial") && s.contains("kein Ankauf")));
         assert!(skips.iter().any(|s| s.contains("auf Anfrage")));
         assert!(skips.iter().any(|s| s.contains("Einheit unverständlich")));
         let fe = rows.iter().find(|r| r.0 == "Mischschrott").expect("fe");
         assert_eq!((fe.1, fe.2), (120.0, "EUR/t"));
-        let ladder: Vec<_> = rows.iter().filter(|r| r.0.contains("Schälkabel starr")).collect();
+        let ladder: Vec<_> = rows
+            .iter()
+            .filter(|r| r.0.contains("Schälkabel starr"))
+            .collect();
         assert_eq!(ladder.len(), 5);
         assert_eq!(ladder[0].0, "CU Schälkabel starr 60%");
         assert_eq!((ladder[0].1, ladder[0].2), (5.09, "EUR/kg"));
@@ -588,7 +652,9 @@ mod tests {
         let no_end = FIXTURE.replace("<h2>Ankauf Hinweise</h2>", "<h2>Anderes</h2>");
         assert!(parse(&no_end).is_err());
         assert!(expand_ladder("CU Schälkabel starr, 60 / 70%", "5,09 EUR/kg").is_none());
-        let html = FIXTURE.replace("EUR/kg", "pro Sack").replace("EUR/t", "pro Sack");
+        let html = FIXTURE
+            .replace("EUR/kg", "pro Sack")
+            .replace("EUR/t", "pro Sack");
         let err = parse(&html).expect_err("empty tables error");
         assert!(err.to_string().contains("leer"));
     }
@@ -598,14 +664,35 @@ mod tests {
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Sorte 3"), None);
         assert_eq!(grade_for("Trägerschrott über 1,50 m"), None);
-        assert_eq!(grade_for("CU Kabel min. 38%"), Some(("kabel-kupfer", "38%")));
-        assert_eq!(grade_for("CU Schälkabel starr 60%"), Some(("kabel-kupfer", "starr 60%")));
-        assert_eq!(grade_for("CU Schälkabel Litze 80%"), Some(("kabel-kupfer", "Litze 80%")));
-        assert_eq!(grade_for("CU Granulierkabel"), Some(("kabel-kupfer", "Granulier")));
-        assert_eq!(grade_for("Kupfer Millberry"), Some(("kupfer-millberry", "")));
+        assert_eq!(
+            grade_for("CU Kabel min. 38%"),
+            Some(("kabel-kupfer", "38%"))
+        );
+        assert_eq!(
+            grade_for("CU Schälkabel starr 60%"),
+            Some(("kabel-kupfer", "starr 60%"))
+        );
+        assert_eq!(
+            grade_for("CU Schälkabel Litze 80%"),
+            Some(("kabel-kupfer", "Litze 80%"))
+        );
+        assert_eq!(
+            grade_for("CU Granulierkabel"),
+            Some(("kabel-kupfer", "Granulier"))
+        );
+        assert_eq!(
+            grade_for("Kupfer Millberry"),
+            Some(("kupfer-millberry", ""))
+        );
         assert_eq!(grade_for("Kupfer Berry"), Some(("kupfer-berry", "")));
-        assert_eq!(grade_for("Rotguss, sauber"), Some(("bronze-rotguss", "sauber")));
-        assert_eq!(grade_for("V2A max.1,5x0,5x0,5m"), Some(("edelstahl-v2a", "max. 1,5x0,5x0,5m")));
+        assert_eq!(
+            grade_for("Rotguss, sauber"),
+            Some(("bronze-rotguss", "sauber"))
+        );
+        assert_eq!(
+            grade_for("V2A max.1,5x0,5x0,5m"),
+            Some(("edelstahl-v2a", "max. 1,5x0,5x0,5m"))
+        );
         assert_eq!(grade_for("Hartmetall, sortiert"), Some(("hartmetall", "")));
         assert_eq!(kind_for("Hartmetall, sortiert"), ("approx", Some(0.5)));
         assert_eq!(kind_for("Kupfer Millberry"), ("exact", Some(1.0)));

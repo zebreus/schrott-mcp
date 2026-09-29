@@ -1,12 +1,26 @@
-//! MADI Metall Recycling GmbH (Hamburg-Hammerbrook): "bis zu" (up-to)
-//! Tagespreise in Bricks cards on the homepage — the price block IS the
-//! homepage, so `URL` is the homepage by design (like kupferhelden).
-//! Window ("Aktuelle Metallschrott Preise" … "Know-How aus der Welt der
-//! Metalle"): the lede sentence carries Eisenschrott/Mischschrott per
-//! tonne, four cards carry Kupfer/Stahl/Kabel/Messing. Every row says
-//! "bis zu", so price = price_max = advertised value at confidence 0.5.
-//! No price date anywhere → `published_at` stays `None`. (A second seed
-//! entry, hh-nenndorf-madi-metall-recycling, shares this same website.)
+//! MADI Metall Recycling GmbH — zwei Standorte, EINE Preisquelle, daher
+//! EINE Datei (gleiche Seitenform, verifiziert 28.09.2026):
+//! - `hh-hammerbrook-madi-metall-recycling` (Billwerder Steindamm 15,
+//!   20537 Hamburg)
+//! - `ni-rosengarten-madi-metall-recycling` (Ohepark 5,
+//!   21224 Rosengarten-Nenndorf)
+//! Der Preisblock steht auf der Homepage (keine separate Preisseite):
+//! Fenster "Aktuelle Metallschrott Preise" … "Know-How aus der Welt der
+//! Metalle": Leitsatz ("Für Eisenschrott zahlen wir bis zu 220 €/t, für
+//! Mischschrott bis zu 210 €/t") + vier Bricks-Karten (Kupfer 9,50 €/kg,
+//! Stahl 220 €/t, Kabel 5 €/kg, Messing 6 €/kg). Jede Zeile sagt "bis zu",
+//! daher price = price_max = beworben, confidence 0.5, kind "upto"
+//! (kupferhelden.rs-Präzedenz), nie price_max ohne Kind. Kein Seitendatum
+//! → `published_at` bleibt `None`. Das Rohlabel landet in `label` (record()
+//! schreibt es als `notes`). Exakte 0,00-Preise heißen "kein Ankauf" und
+//! werden laut geskippt.
+//! Kontakt: Hammerbrook aus dem Impressum (Pflichtangaben-Anker wie bisher),
+//! Rosengarten aus dem Homepage-Footer ("Unsere Standorte" / "Standort
+//! Gewerbegebiet"-Block, selber Fetch wie die Preise) plus firmeneinheitlich
+//! Telefon/E-Mail aus dem Impressum — pro Seite eigene URL + eigener Block,
+//! kein Crawler. Würde der Hamburger Impressum-Kontakt in die Rosengarten-
+//! Zeile geschrieben, stünde dort die falsche Straße (set_trader_info
+//! überschreibt belegte Straßen!), daher der eigene Footer-Block.
 
 use scraper::{Html, Selector};
 
@@ -15,12 +29,17 @@ use super::super::{
 };
 use crate::IngestError;
 
-pub const SLUG: &str = "hh-hammerbrook-madi-metall-recycling";
+pub const SLUG_HAMMERBROOK: &str = "hh-hammerbrook-madi-metall-recycling";
+/// Rückwärtskompatibel: die bisherige Verdrahtung (`madi::handler()` in
+/// `handlers::all()`) nutzt diesen Namen weiter.
+pub const SLUG: &str = SLUG_HAMMERBROOK;
+pub const SLUG_ROSENGARTEN: &str = "ni-rosengarten-madi-metall-recycling";
 /// Bespoke, live-verified impressum URL (site footer link). A move fails
 /// the step loudly (fix the URL) — never guessed, never shared.
 pub const IMPRESSUM_URL: &str = "https://www.madi-schrott.de/impressum-datenschutz/";
 
 /// The price block lives on the homepage — no separate price page exists.
+/// Both locations share this single source (same prices, same fetch).
 pub const URL: &str = "https://www.madi-schrott.de";
 
 const START_ANCHOR: &str = "Aktuelle Metallschrott Preise";
@@ -28,39 +47,31 @@ const END_ANCHOR: &str = "Know-How aus der Welt der Metalle";
 const LEDE_ANCHOR: &str = "zahlen wir bis zu";
 const CARD_HEAD_MARKER: &str = "fr-feature-card-charlie__heading\">";
 const CARD_LEDE_MARKER: &str = "fr-feature-card-charlie__lede\">";
+/// Footer-Anker des Rosengarten-Standortblocks auf der Homepage.
+const ROSEN_ANCHOR: &str = "Standort Gewerbegebiet";
 
 pub fn handler() -> Handler {
     Handler {
-        slug: SLUG,
+        slug: SLUG_HAMMERBROOK,
         url: URL,
         schedule: Schedule::every_6h(),
-        scrape: |c| Box::pin(scrape(c)),
+        scrape: |c| Box::pin(scrape_hammerbrook(c)),
     }
 }
 
-async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    let (status, html) = fetch_text(client, URL).await?;
-    let (rows, mut skipped_labels) = parse(&html)?;
-    // All rows are advertised upper bounds ("bis zu … je nach Sorte"):
-    // price = price_max = beworben, confidence 0.5, kind upto.
-    let mut prices = Vec::with_capacity(rows.len());
-    for (label, price, unit) in rows {
-        match grade_for(&label) {
-            Some((material, variant)) => prices.push(ScrapedPrice {
-                material,
-                variant,
-                price,
-                currency: "EUR",
-                unit,
-                price_kind: "upto",
-                price_min: None,
-                price_max: Some(price),
-                confidence: Some(0.5),
-                label,
-            }),
-            None => skipped_labels.push(label),
-        }
+pub fn handler_rosengarten() -> Handler {
+    Handler {
+        slug: SLUG_ROSENGARTEN,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape_rosengarten(c)),
     }
+}
+
+async fn scrape_hammerbrook(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
+    let (status, html) = fetch_text(client, URL).await?;
+    let (rows, skipped) = parse(&html)?;
+    let (prices, skipped_labels) = build_prices(rows, skipped);
     // Impressum failure fails the whole step on purpose: a moved contact
     // page means the site changed and needs eyeballs before we trust
     // anything from it again.
@@ -77,6 +88,69 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
         byte_len: html.len(),
         published_at: None,
     })
+}
+
+async fn scrape_rosengarten(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
+    let (status, html) = fetch_text(client, URL).await?;
+    let (rows, skipped) = parse(&html)?;
+    let (prices, skipped_labels) = build_prices(rows, skipped);
+    // Adresse aus dem Homepage-Footer (dieser Fetch), Telefon/E-Mail aus
+    // dem Impressum (firmeneinheitlich). Fehlt einer der beiden Blöcke,
+    // scheitert der Step laut — falsche Adressen werden nie geraten.
+    let (street, postcode, city) = extract_rosengarten_address(&html)?;
+    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
+    let imp = extract_info(&imp_html)?;
+    let trader_info = TraderInfo {
+        street,
+        postcode,
+        city,
+        phone: imp.phone,
+        email: imp.email,
+    };
+    Ok(HandlerOutcome {
+        prices,
+        acceptances: vec![],
+        trader_info,
+        website_alive: true,
+        skipped_labels,
+        fetch_url: URL.to_owned(),
+        status_code: status,
+        byte_len: html.len(),
+        published_at: None,
+    })
+}
+
+/// Shared price building: explicit mapping + loud skips. All rows are
+/// advertised upper bounds ("bis zu … je nach Sorte"): price = price_max =
+/// beworben, confidence 0.5, kind upto. An exact 0.00 price means "no buy
+/// price" and never reaches the DB.
+fn build_prices(
+    rows: Vec<(String, f64, &'static str)>,
+    mut skipped_labels: Vec<String>,
+) -> (Vec<ScrapedPrice>, Vec<String>) {
+    let mut prices = Vec::with_capacity(rows.len());
+    for (label, price, unit) in rows {
+        if price == 0.0 {
+            skipped_labels.push(format!("{label} (kein Ankaufspreis: 0,00)"));
+            continue;
+        }
+        match grade_for(&label) {
+            Some((material, variant)) => prices.push(ScrapedPrice {
+                material,
+                variant,
+                price,
+                currency: "EUR",
+                unit,
+                price_kind: "upto",
+                price_min: None,
+                price_max: Some(price),
+                confidence: Some(0.5),
+                label,
+            }),
+            None => skipped_labels.push(label),
+        }
+    }
+    (prices, skipped_labels)
 }
 
 /// Explicit label → (material, variant) mapping. The iron generics all
@@ -197,6 +271,73 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         phone,
         email,
     })
+}
+
+/// Rosengarten address from the HOMEPAGE footer ("Unsere Standorte" list):
+/// `<strong>Standort Gewerbegebiet</strong><br>Ohepark 5<br>21224
+/// Rosengarten-Nenndorf`. Anchored on the list heading + the "Standort
+/// Gewerbegebiet" label + the "Ohepark" street — without all three the
+/// footer changed shape → loud error, never a Hamburg fallback (that
+/// would write the wrong street into the Rosengarten row).
+fn extract_rosengarten_address(html: &str) -> Result<(String, String, String), IngestError> {
+    let start = html.find("Unsere Standorte").ok_or_else(|| IngestError::Parse {
+        url: URL.to_owned(),
+        detail: "Standortliste fehlt".to_owned(),
+    })?;
+    let tail = &html[start..];
+    let anchor = tail.find(ROSEN_ANCHOR).ok_or_else(|| IngestError::Parse {
+        url: URL.to_owned(),
+        detail: "Rosengarten-Standortblock fehlt".to_owned(),
+    })?;
+    // The block ends at the list item / list close; cap the window so a
+    // footer redesign cannot glue distant text into the address.
+    let after = &tail[anchor..];
+    let end = after
+        .find("</li>")
+        .or_else(|| after.find("</ul>"))
+        .unwrap_or(after.len().min(600));
+    let window = &after[..end];
+    if !window.contains("Ohepark") {
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Rosengarten-Standortblock fehlt".to_owned(),
+        });
+    }
+    let mut lines = Vec::new();
+    for part in window.split("<br") {
+        let t = strip_fragment(part);
+        if !t.is_empty() {
+            lines.push(t);
+        }
+    }
+    let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
+    for (k, line) in lines.iter().enumerate() {
+        let mut it = line.split_whitespace();
+        if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
+            if pc.len() == 5 && pc.chars().all(|c| c.is_ascii_digit()) {
+                postcode = pc.to_owned();
+                city = it.fold(ci.to_owned(), |a, w| a + " " + w);
+                if k > 0 && street.is_empty() {
+                    street = lines[k - 1].clone();
+                }
+            }
+        }
+    }
+    if street.is_empty() {
+        for line in &lines {
+            if line.contains("Ohepark") {
+                street = line.clone();
+                break;
+            }
+        }
+    }
+    if street.is_empty() || postcode.is_empty() || city.is_empty() {
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Rosengarten-Adresse unvollständig".to_owned(),
+        });
+    }
+    Ok((street, postcode, city))
 }
 
 /// Strip tags from a `<br`-split fragment (html5ever already decoded
@@ -381,26 +522,77 @@ fn strip_tags(s: &str) -> String {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, grade_for, parse};
+    use super::{build_prices, extract_info, extract_rosengarten_address, grade_for, parse};
 
-    /// Real live markup: lede sentence + two of the four Bricks cards.
+    /// Real live markup (28.09.2026, nur IDs gekürzt): Leitsatz + alle
+    /// vier Bricks-Karten im O-Ton der Homepage.
     const FIXTURE: &str = "Aktuelle Metallschrott Preise<h2>Erhalten Sie gutes Geld für Buntmetalle &amp; Altmetallschrott.</h2>\
         <p><strong>Für Eisenschrott zahlen wir bis zu 220 €/t, für Mischschrott&nbsp;  bis zu 210 €/t - je nach Sortenmischung.</strong> Nachfolgend finden Sie weitere aktuelle Preise.</p>\
         <ul><li><div><h3 class=\"brxe-heading fr-feature-card-charlie__heading\">bis zu 9,50 €/kg</h3>\
         <p class=\"brxe-text-basic fr-feature-card-charlie__lede\"><strong>Kupferschrott</strong>, je nach Sorte.</p></div></li>\
         <li><div><h3 class=\"brxe-heading fr-feature-card-charlie__heading\">bis zu 220 €/t</h3>\
-        <p class=\"brxe-text-basic fr-feature-card-charlie__lede\"><strong>Stahlschrott</strong>, je nach Sorte.</p></div></li></ul>\
+        <p class=\"brxe-text-basic fr-feature-card-charlie__lede\"><strong>Stahlschrott</strong>, je nach Sorte.</p></div></li>\
+        <li><div><h3 class=\"brxe-heading fr-feature-card-charlie__heading\">bis zu 5 €/kg</h3>\
+        <p class=\"brxe-text-basic fr-feature-card-charlie__lede\"><strong>Kabelschrott</strong>, je nach Sorte.</p></div></li>\
+        <li><div><h3 class=\"brxe-heading fr-feature-card-charlie__heading\">bis zu 6 €/kg</h3>\
+        <p class=\"brxe-text-basic fr-feature-card-charlie__lede\"><strong>Messingschrott</strong>, je nach Sorte.</p></div></li></ul>\
         Know-How aus der Welt der Metalle";
+
+    /// Realer Live-Footer-Ausschnitt (28.09.2026) der Standortliste.
+    const FOOTER_FIXTURE: &str = "<h3>Unsere Standorte</h3><ul>\
+        <li><div><strong>Standort Hamburg</strong><br>Billwerder Steindamm 15<br>20537 Hamburg</div></li>\
+        <li><div><strong>Standort Gewerbegebiet</strong><br>Ohepark 5<br>21224 Rosengarten-Nenndorf</div></li></ul>";
 
     #[test]
     fn lede_and_cards_parse() {
         let (rows, skips) = parse(FIXTURE).expect("parses");
-        assert_eq!(rows.len(), 4);
+        assert_eq!(rows.len(), 6);
         assert!(skips.is_empty());
         assert_eq!(rows[0], ("Eisenschrott".to_owned(), 220.0, "EUR/t"));
         assert_eq!(rows[1], ("Mischschrott".to_owned(), 210.0, "EUR/t"));
         assert_eq!(rows[2], ("Kupferschrott".to_owned(), 9.5, "EUR/kg"));
         assert_eq!(rows[3], ("Stahlschrott".to_owned(), 220.0, "EUR/t"));
+        assert_eq!(rows[4], ("Kabelschrott".to_owned(), 5.0, "EUR/kg"));
+        assert_eq!(rows[5], ("Messingschrott".to_owned(), 6.0, "EUR/kg"));
+    }
+
+    #[test]
+    fn upto_prices_carry_max_and_half_confidence() {
+        let (rows, skips) = parse(FIXTURE).expect("parses");
+        let (prices, rest) = build_prices(rows, skips);
+        assert_eq!(prices.len(), 6);
+        assert!(rest.is_empty());
+        for p in &prices {
+            // "bis zu"-Werte → price_max gesetzt MIT Kind, nie ohne.
+            assert_eq!(p.price_kind, "upto");
+            assert_eq!(p.price_max, Some(p.price));
+            assert_eq!(p.price_min, None);
+            assert_eq!(p.confidence, Some(0.5));
+            // Rohlabel bleibt als notes erhalten.
+            assert!(!p.label.is_empty());
+        }
+        // Eisen-Drilling kollabiert nicht: ein Material, drei Varianten.
+        let iron: Vec<_> = prices
+            .iter()
+            .filter(|p| p.material == "mischschrott")
+            .collect();
+        assert_eq!(iron.len(), 3);
+        let mut variants: Vec<_> = iron.iter().map(|p| p.variant).collect();
+        variants.sort_unstable();
+        variants.dedup();
+        assert_eq!(variants.len(), 3);
+    }
+
+    #[test]
+    fn zero_prices_skip_loudly() {
+        let rows = vec![
+            ("Kupferschrott".to_owned(), 9.5, "EUR/kg"),
+            ("Kabelschrott".to_owned(), 0.0, "EUR/kg"),
+        ];
+        let (prices, skips) = build_prices(rows, vec![]);
+        assert_eq!(prices.len(), 1);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("Kabelschrott"));
     }
 
     #[test]
@@ -413,7 +605,7 @@ mod tests {
         // A card without parseable unit skips loudly, valid rows survive.
         let bad_unit = FIXTURE.replacen("bis zu 9,50 €/kg", "bis zu 9,50 €/Sack", 1);
         let (rows, skips) = parse(&bad_unit).expect("parses");
-        assert_eq!(rows.len(), 3);
+        assert_eq!(rows.len(), 5);
         assert_eq!(skips.len(), 1);
         assert!(skips[0].contains("Kupferschrott"));
     }
@@ -435,6 +627,18 @@ mod tests {
     }
 
     #[test]
+    fn rosengarten_footer_extracts_nenndorf() {
+        let (street, postcode, city) =
+            extract_rosengarten_address(FOOTER_FIXTURE).expect("parses");
+        assert_eq!(street, "Ohepark 5");
+        assert_eq!(postcode, "21224");
+        assert_eq!(city, "Rosengarten-Nenndorf");
+        // Kein Gewerbegebiet-Block → laut, nie Hamburg-Fallback.
+        assert!(extract_rosengarten_address("<h3>Unsere Standorte</h3><p>Neu hier</p>").is_err());
+        assert!(extract_rosengarten_address("<p>Ohne Liste</p>").is_err());
+    }
+
+    #[test]
     fn mapping_keeps_iron_generics_apart() {
         assert_eq!(grade_for("Kupferschrott"), Some(("kupfer-gemischt", "")));
         assert_eq!(grade_for("Kabelschrott"), Some(("kabel-kupfer", "")));
@@ -452,5 +656,16 @@ mod tests {
             Some(("mischschrott", "Stahlschrott"))
         );
         assert_eq!(grade_for("Aluminiumschrott"), None);
+    }
+
+    #[test]
+    fn slugs_match_seed() {
+        assert_eq!(super::SLUG_HAMMERBROOK, "hh-hammerbrook-madi-metall-recycling");
+        assert_eq!(
+            super::SLUG_ROSENGARTEN,
+            "ni-rosengarten-madi-metall-recycling"
+        );
+        assert_eq!(super::handler().slug, super::SLUG_HAMMERBROOK);
+        assert_eq!(super::handler_rosengarten().slug, super::SLUG_ROSENGARTEN);
     }
 }

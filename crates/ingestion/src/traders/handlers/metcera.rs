@@ -30,7 +30,12 @@ pub const IMPRESSUM_URL: &str = "https://www.metcera-recycling.de/impressum/";
 pub const URL: &str = "https://www.metcera-recycling.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -124,13 +129,13 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 
 /// Parse the "Vergütung für" sidebar box plus the "Annahme von" fee
 /// slider. Returns (rows, skips) with rows as (label, price, unit, ab).
-fn parse(
-    html: &str,
-) -> Result<(Vec<(String, f64, &'static str, bool)>, Vec<String>), IngestError> {
-    let start = html.find("Vergütung für").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Vergütungs-Block fehlt".to_owned(),
-    })?;
+fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str, bool)>, Vec<String>), IngestError> {
+    let start = html
+        .find("Vergütung für")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Vergütungs-Block fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("Tagespreise").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -263,7 +268,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let h1 = Selector::parse("h1").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
     let a = Selector::parse("a").expect("valid selector");
-    if !doc.select(&h1).any(|h| h.text().collect::<String>().trim() == "Impressum") {
+    if !doc
+        .select(&h1)
+        .any(|h| h.text().collect::<String>().trim() == "Impressum")
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Impressum-Block fehlt".to_owned(),
@@ -299,9 +307,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             }
         }
     }
-    let cont_p = doc.select(&p).find(|el| {
-        el.inner_html().contains("mailto:")
-    });
+    let cont_p = doc
+        .select(&p)
+        .find(|el| el.inner_html().contains("mailto:"));
     let mut email = String::new();
     let mut phone = String::new();
     if let Some(el) = cont_p {
@@ -326,7 +334,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -376,18 +390,27 @@ mod tests {
         let (rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(rows.len(), 8);
         assert_eq!(rows[0], ("Mischschrott".to_owned(), 0.02, "EUR/kg", false));
-        assert_eq!(rows[2], ("Kupferkabel o. Stecker".to_owned(), 1.1, "EUR/kg", false));
+        assert_eq!(
+            rows[2],
+            ("Kupferkabel o. Stecker".to_owned(), 1.1, "EUR/kg", false)
+        );
         assert_eq!(rows[3], ("Kupferpreise".to_owned(), 4.0, "EUR/kg", true));
         assert_eq!(rows[4], ("Messing leicht".to_owned(), 1.9, "EUR/kg", false));
         // "V2A … 0,30": the price comes from behind the label — the
         // leading "2" must not win as a phantom price.
-        assert_eq!(rows[6], ("V2A (Edelstahl)".to_owned(), 0.3, "EUR/kg", false));
+        assert_eq!(
+            rows[6],
+            ("V2A (Edelstahl)".to_owned(), 0.3, "EUR/kg", false)
+        );
         // Slider fees skip loudly, never as prices.
         assert_eq!(skips.len(), 2);
         assert!(skips[0].contains("Photovoltaik"));
         assert!(skips[0].contains("Annahmegebühr"));
         assert!(skips[1].contains("0,35"));
-        assert_eq!(split_label_price("Kupferpreise ab 4,00"), ("Kupferpreise".to_owned(), true));
+        assert_eq!(
+            split_label_price("Kupferpreise ab 4,00"),
+            ("Kupferpreise".to_owned(), true)
+        );
         assert_eq!(
             split_label_price("Messing leicht 1,90"),
             ("Messing leicht".to_owned(), false)
@@ -401,7 +424,10 @@ mod tests {
     #[test]
     fn mapping_resolves_and_skips_catalog_gaps() {
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
-        assert_eq!(grade_for("Kupferkabel o. Stecker"), Some(("kabel-kupfer", "")));
+        assert_eq!(
+            grade_for("Kupferkabel o. Stecker"),
+            Some(("kabel-kupfer", ""))
+        );
         assert_eq!(grade_for("Kupferpreise"), Some(("kupfer-gemischt", "")));
         assert_eq!(grade_for("Messing leicht"), Some(("messing", "leicht")));
         assert_eq!(grade_for("Zink"), Some(("zink", "")));

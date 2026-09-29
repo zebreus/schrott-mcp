@@ -295,6 +295,11 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             ));
             continue;
         };
+        if price <= 0.0 {
+            // "0,00 €" rows are no-buy placeholders, never observations.
+            skips.push(format!("{label} (Preis 0,00 — kein Ankauf)"));
+            continue;
+        }
         // Per-row unit, quoted honestly (record() normalizes kg↔t into
         // the catalog unit — never convert here).
         let Some(unit) = unit_of(&price_raw) else {
@@ -393,6 +398,15 @@ mod tests {
             .replace("/ t", "pro Sack");
         let err = parse(&html).expect_err("empty table errors");
         assert!(err.to_string().contains("leer"));
+    }
+
+    #[test]
+    fn zero_price_rows_skip_loudly() {
+        let html = FIXTURE.replacen("110,00 € / t", "0,00 € / t", 1);
+        let (rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 8);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("Mischschrott") && skips[0].contains("0,00"));
     }
 
     #[test]

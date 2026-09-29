@@ -146,7 +146,6 @@ Jacob/Neumann/Adler/Hartmann + "Im-Umkreis"-Ketten in OHZ/Umland).
 | Motorensuche 24 | Bremen-Findorff, Hemmstr. 178, 28215 | keine (nur schrottplatz-info-Beleg) | Motoren/Teile (Online-Anmutung) — dünn | unklar |
 | Wortberg U. | Osterholz-Scharmbeck (Umland), Hauptstr. 36, 27711, Tel. 04791 4396 | keine (nur schrottplatz-info-Beleg) | Schrott (klein) | unklar |
 | Met-Alloy GmbH | Osterholz-Scharmbeck (Umland), Soltkampweg 2, 27711, Tel. 04793 478 | keine (nur schrottplatz-info-Beleg) | Schrott (Name deutet Metalllegierungs-Handel an) | unklar |
-| Die Schrottkiste | Grasberg (Umland), Eickedorfer Str. 14, 28879, Tel. 04208 916542 | keine (nur schrottplatz-info-Beleg) | Schrott (klein) | unklar |
 | Siegmayer L. | Syke (Fern-Umland), Sudweyher Str. 34, 28857, Tel. 04242 931462 | keine (nur schrottplatz-info-Beleg) | Schrott (klein) | unklar |
 | K.S. Dienstleistungen K. Seelhoff | Bassum (Fern-Umland), Osterbinde 2, 27211 | keine (nur schrottplatz-info-Beleg) | Dienstleistungen/Schrott — dünn | unklar |
 | Kurt H.K. | Elsfleth (Fern-Umland Wesermarsch), Am Tidehafen 1, 26931, Tel. 04404 3026 | keine (nur schrottplatz-info-Beleg) | FLAG Autoverwertung | unklar (nur Altautos anzunehmen) |
@@ -364,3 +363,68 @@ Seed-Website-Sweep: alle 14 Websites in hb.json per curl geprüft (s. (3)).
 |---|---|---|---|---|
 | Johannes Gerdes Schrott- u. Metallhandels GmbH | Stuhr-Brinkum 28816 | https://gerdes-metallhandel.de | An-/Verkauf Schrott+Altmetall, Kabelrecycling, Container — GS-Rubrik + "Barvergütung Kleinmengen" (NEU — Umland, mit NI abstimmen!) | ja |
 | M K V Metall- und Kabelverwertung GmbH | Nordenham 26954 | https://mkv-gmbh.net | Schrott/Altschrott/Metall/Kabel — Website PHP-Fatal-Error (tot) → Status pruefung (NEU — Umland, mit NI abstimmen!) | unklar |
+
+## Nachtrag Adressen (28.09.2026)
+
+Adress-Recherche für alle 47 Seed-Händler mit leerem `street`-Feld (Stand seed/traders/hb.json).
+Methodik: Unternehmenswebsites per Fetch verifiziert (Homepage + Impressum, 18 Domains),
+ergänzt um Websuche (Gelbe Seiten, Das Örtliche, schrottplatz-info.de, amtliches Straßenverzeichnis Bremen,
+stadtplan.info, BEG/beg-bhv.de, schrottregister). „n.e.“ = nicht verifizierbar (kein Raten).
+Seed-JSON wurde NICHT editiert (Generierung via tools/md2seed.py) — Anreicherung erfolgt hier als Nachtrag.
+
+| Name | Ort | Straße | PLZ | Telefon | Quelle |
+|---|---|---|---|---|---|
+| Vedder & Stockrahm GmbH & Co. KG | Woltmershausen | Senator-Bömers-Str. 10 | 28197 | 0421 542554 | vedder-stockrahm.de |
+| Bartels Metallhandels GmbH & Co. KG | Mahndorf | Zum Panrepel 30-32 | 28307 | 0421 480321 | bartels-altmetall.de + GS |
+| Nord-Schrott W. Tollkien GmbH & Co. KG | Neuenland | Richard-Dunkel-Str. 90-92 | 28199 | 0421 511068 | nordschrott-bremen.de/impressum |
+| Hirsch (Hirsch Holding GmbH / Hirsch Gruppe) | Hemelingen | Hermann-Funk-Str. 6-9 | 28309 | 0421 25802500 | hirsch-group.de |
+| slug:hb-ludwig-quidde-str-5-hanse-rohstoffhandel | Bremen | Ludwig-Quidde-Str. 5 | 28207 | 0421 4684070 | hanse-rohstoffhandel.de/impressum |
+| Schrott & Metall Peter Ziegler | Schönebeck | Im Knie 1 | 28757 | 0173 7182171 | Gelbe Seiten |
+| Vikings Schrotthändler | Burg-Grambke | An Smidts Park 19 | 28719 | 0172 8364924 | Gelbe Seiten |
+| slug:hb-ansbacher-str-76-mohamed-akgul | Bremen-Findorff | Ansbacher Str. 76 | 28215 | n.e. | Seed-notes + amtl. Straßenverz. (PLZ) |
+| Herbig Schrott & Entrümpelung | Lüssum-Bockhorn | Schwaneweder Str. 44a | 28779 | n.e. | Seed-notes + Orts-PLZ |
+| FWS GmbH | Ostertor | Außer der Schleifmühle 65 | 28203 | 0421 346250 | fws.de (Textilrecycling; Schrott-Ankauf n. belegt) |
+| slug:hb-oken-2-abfallbehandlung-nord-ano | Bremen-Findorff | Oken 2 | 28219 | n.e. | Seed-notes (heute swb-MHKW-Standort); PLZ Verzeichnis |
+| Autoverwertung Roßberg GmbH | Woltmershausen | Simon-Bolivar-Str. 38 | 28197 | 0421 544041 | bremer-autoverwertung.com (Inh. Mark Roßberg) |
+| AVBN Autoverwertung Bremen | Bremen-Oslebshausen | Tillmannstr. 27 | 28239 | 0421 641512 | avbn-bremen.de |
+| Schrott24 / Metaloop (Online-Ankauf, Abholung + Anlieferstellen Raum Bremen) | online / Bremen | online (Sitz: Puchstr. 17, Graz/AT) | n.e. | n.e. | schrott24.de/impressum (Online-Ankauf, kein HB-Yard) |
+| slug:hb-westkai-48-schrotthandel-roberto-hoffmann | Bremerhaven-Fischereihafen | Westkai 48 | 27572 | 0471 9020149 | schrott-hoffmann.de |
+| slug:hb-am-baggerloch-5-schrotthandel-yildirim-necati-yildirim | Bremerhaven-Fischereihafen | Am Baggerloch 7 (alt. Oderberger Str. 14, Lehe) | 27572 | 0471 3004483 | schrotthandel-yildirim.de |
+| Richard Bauer Rohstoff-Großhandel GmbH & Co. KG | Geestemünde | Weißenstein 2 | 27574 | 0471 186700 | beg-bhv.de (BEG-Partnerseite) |
+| Rosenbach Schrott und Metallhandel | Lehe | Lange Str. 30 | n.e. | n.e. | Seed-notes (Verzeichnis); PLZ n. verifiziert |
+| slug:hb-hackfahrel-28-schrotthandel-petermann | Bremerhaven | Hackfahrel 28 | 27572 | n.e. | Seed-notes + stadtplan.info (PLZ) |
+| Bremerhavener Entsorgungsgesellschaft mbH (BEG) | Geestemünde | Zur Hexenbrücke 16 | 27570 | 0471 1860 | beg-bhv.de/impressum |
+| Rubin Kai | Fischereihafen | Am Luneort 46 | 27572 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ (Fischereihafen) |
+| Augustin Entsorgung Bremen GmbH & Co. KG | Bremen-Hemelingen | Adam-Smith-Str. 3-5 | 28307 | 0421 438440 | augustin-entsorgung.de/standorte |
+| Petko Schrott & Metalle GmbH | Osterholz-Scharmbeck | Auf der Horst 29 | 27711 | 04791 2302 | Seed-notes (GS) |
+| Thomas Seidel Schrotthandel | Stuhr | n.e. | 28816 | 04206 349 | Seed-notes (GS) |
+| Wesermarsch Metallrecycling GmbH (WMR) | Brake | Max-Planck-Str. 9 | 26919 | 04401 980060 | wmr-online.de |
+| Oetjen Rohstoffhandel GmbH | Rotenburg | Otto-von-Guericke-Str. 4 | 27356 | 04261 2025 | Seed-notes (GS) |
+| Jacob GmbH & Co. KG | Bremerhaven | Am Wischacker 2 | 27576 | n.e. | Seed-notes (schrottplatz-info) |
+| Containerdienst Ziessmann GmbH & Co. KG | Bremen-Oslebshausen | Große Riehen 8 | 28239 | 0421 641512 | Seed-notes (schrottplatz-info) |
+| Siegmayer L. | Syke | Sudweyher Str. 34 | 28857 | 04242 931462 | Seed-notes (schrottplatz-info) |
+| K.S. Dienstleistungen K. Seelhoff | Bassum | Osterbinde 2 | 27211 | n.e. | Seed-notes (schrottplatz-info) |
+| Kurt H.K. | Elsfleth | Am Tidehafen 1 | 26931 | 04404 3026 | Seed-notes (schrottplatz-info) |
+| HS Steiner Metallhandel UG | Ganderkesee | Gewerbest. 5 | 27777 | 04222 2646 | Seed-notes (Portal) |
+| Mannott Hans-Heinrich Autoschrott Metalle | Martfeld | Breslauer Str. 8 | 27327 | 04255 1240 | Seed-notes (Verzeichnis) |
+| Petko S. u. A. | Wildeshausen | Düngstruper Str. 91 | 27793 | n.e. | Seed-notes (Verzeichnis) |
+| BAV Bremer Autohandels- und Verwertungs GmbH | Bremen-Woltmershausen | Simon-Bolivar-Str. 38 | 28197 | n.e. | Seed-notes (gleiche Adresse wie Roßberg) |
+| Bremer Autoverwertung (Mark Roßberg) | Bremen-Woltmershausen | Simon-Bolivar-Str. 38 | 28197 | 0421 544041 | bremer-autoverwertung.com |
+| A. Lahib Autoverschrottung Bremen | Bremen | Ludwig-Erhard-Str. 28 | 28197 | 0152 04045656 | autoverschrottung-bremen.de |
+| Autoexport Bremerhaven | Bremerhaven | Lunedeich 68 | 27572 | 0174 3872353 | autoexport-bremerhaven.de + Seed-notes |
+| OPHIRUM Bremen by GOLDFUXX | Bremen | Fedelhören 12 | 28203 | 0421 41650555 | ophirum.de/filialen |
+| Noble House Bremen | Bremen | Schüsselkorb 23 | 28195 | 0421 3399380 | noble-house.de |
+| slug:hb-bremen-28777-maxxgold | Bremen-Rekum | Rekumer Str. 70 | 28777 | 0421 57843449 | 11880.com + maxxgold.de |
+| Schrottjungs Bremen | Bremen (mobil) | mobil (Sitz Hamburg, Billwerder Steindamm 15a) | n.e. | 0173 8705566 | schrottjungs.de |
+| Albers & Kinzel GmbH | Bremen | Pelzer Str. 4-5 | 28195 | 0421 3015774 | bremen.city-map.de |
+| Schrottabholung Bremen Recycling | Bremen | Auf den Roden 2 | 28309 | n.e. | Seed-notes (Profilbeleg); PLZ Orts-PLZ |
+| Metallhandel Weiss | Bremen | n.e. (mobil, nur Tel. 0177 belegt) | n.e. | n.e. | dünn verifiziert (Websuche) |
+| Johannes Gerdes Schrott- u. Metallhandels GmbH | Stuhr-Brinkum | Rodendamm 7-9 | 28816 | 0421 891236 | gerdes-metallhandel.de |
+| M K V Metall- und Kabelverwertung GmbH | Nordenham | Martin-Pauls-Str. 168 | 26954 | 04731 38081 | mkv-gmbh.net |
+
+Hinweise:
+- FWS (Außer der Schleifmühle 65, Textilrecycler, fws.de) und ANO/Oken 2 (heute swb-MHKW-Standort):
+  Schrott-Ankauf jeweils nicht belegt — vor Import prüfen.
+- Schrott24/Metaloop und Schrottjungs: Online-/mobil-Ketten ohne HB-Yard (Graz bzw. Hamburg-Sitz).
+- Rosenbach (Lange Str. 30) und Metallhandel Weiss: PLZ/Telefon nicht verifizierbar.
+- Bauer-Zweitadresse Woltmershauser Str. 174, 28197 Bremen (beg-bhv.de) als Nebenstandort notiert.

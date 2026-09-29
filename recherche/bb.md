@@ -293,3 +293,157 @@ Seed-Anreicherungen (kein md2seed-Lauf):
 | M. & R. Lyszczok GbR | Brieskow-Finkenheerd 15295, Ernst-Thälmann-Str. 64 | keine | AV — Unfallankauf explizit (NEU) | unklar |
 | Scholz Ralf AV + Abschleppdienst | Ferbitz (Lenzen/Elbe) 19309, Lenzener Str. 10 | keine | AV — schwächster Fund (PRÜFFALL) | unklar |
 | Behrendt Schmuckboutique | Rathenow 14712, Goethestr. 76 | keine | Goldankauf — GS Goldankauf neben Schmiede (NEU — war "?" in Runde 1) | unklar |
+
+## Nachtrag Adressen (28.09.2026)
+
+Adress-Recherche für alle 135 Seed-Händler mit leerem `street`-Feld (Stand seed/traders/bb.json).
+Methodik: Unternehmenswebsites per Fetch verifiziert (Homepage + Impressum/Kontakt, ca. 50 Domains),
+ergänzt um Websuche (Gelbe Seiten, Das Telefonbuch, Das Örtliche, schrottplatz-info.de, schrottradar.de,
+schrottregister, Unternehmensregister, Presse). „n.e.“ = nicht verifizierbar / nicht belegt (kein Raten).
+Seed-JSON wurde NICHT editiert (Generierung via tools/md2seed.py) — Anreicherung erfolgt hier als Nachtrag.
+
+| Name | Ort | Straße | PLZ | Telefon | Quelle |
+|---|---|---|---|---|---|
+| EMV Eisen- und Metallverwertungs GmbH („Schrotti aus Cottbus“) | Cottbus | Dissenchener Str. 55a | 03042 | 0355 471478 | emv-cottbus.de (Impressum) |
+| Wetzel U.G. Schrotthandel (Altmetall- und Rohstoffhof) | Cottbus | Schmellwitzer Str. 69 | 03044 | 0355 871073 | Das Örtliche |
+| Wetzel U.G. Schrotthandel (Filiale) | Drebkau | Bahnhofstr. 23 | 03116 | 035602 688 | Das Örtliche |
+| Süßmuth Hans-Joachim Schrotthandel und Containerdienst | Cottbus | Grenzstr. 18 | 03051 | 0355 534710 | Das Telefonbuch |
+| EKO Schrottrecycling GmbH (Scholz-Gruppe) | Cottbus | Am Gleis 12 | 03042 | n.e. | schrottregister (Registeranschrift) |
+| Mobiler Schrotthandel Cottbus (mobschrott.de) | Cottbus (OT Schorbus) | Auraser Dorfstr. 2 | 03116 | n.e. | mobschrott.de/Impressum.htm |
+| Hanschke Enrico Containerdienst | Cottbus | Striesower Str. 7 | 03055 | 0355 872490 | container-hanschke.de + Das Telefonbuch |
+| Schrott-Altmetall Drebkau GmbH | Drebkau | n.e. | n.e. | n.e. | keine verifizierbare Adresse (Websuche) |
+| Besse Udo Schrotthandel | Peitz OT Ottendorf | Ottendorfer Str. 1a | 03185 | n.e. | schrottplatz.org |
+| Waizenhöfer Ralf Schrotthandel | Forst (Lausitz) | Alsenstr. 6 (Lager; Büro Immanuel-Kant-Str. 9) | 03149 | n.e. | schrotthandel-forst.de |
+| SRF Zweigstelle Senftenberg Schrottrecycling | Senftenberg OT Brieske | Grubenstr. 100 | 01968 | 03573 8100650 | schrottrecyclingfinsterwalde.de |
+| TSR Deutschland GmbH & Co. KG | Brandenburg an der Havel | Woltersdorfer Str. 40 | 14770 | 03381 36830 | tsr-recycling.de/standorte |
+| Heiko Kluge Schrotthandel | Brandenburg an der Havel | Spittastr. 16 | 14770 | 03381 796755 | kluge-schrotthandel.de |
+| MC Schrott (Annahmestelle) | Brandenburg an der Havel | Kummerlestr. 1A | 14770 | 03381 8903049 | mcschrott.de/standorte |
+| MC Schrott (Annahmestelle) | Rathenow | Milower Landstr. 7 | 14712 | 03385 5202851 | mcschrott.de/standorte |
+| MC Schrott (Annahmestelle) | Nauen | Zuckerfabrik 8 | 14641 | 0152 59689044 | mcschrott.de/standorte |
+| MC Schrott (Annahmestelle) | Kloster Lehnin OT Reckahn | Meßdunker Str. 2 | 14797 | 033835 606235 | mcschrott.de/standorte |
+| MC Schrott (Annahmestelle) | Werder OT Plötzin | Alte Dorfstr. 28 | 14542 | 033207 304280 | mcschrott.de/standorte |
+| ALBA Metall Nord GmbH (Betriebsstätte Döberitz) | Premnitz OT Döberitz | Am Hafen 22 | 14727 | 03386 200110 | metall.alba.info/standorte |
+| HRR Stahlschrott- und Metallrecycling GmbH & Co. KG | Potsdam | n.e. | n.e. | n.e. | keine verifizierbare Adresse (Websuche) |
+| VHZ Schrott Verwertung & Handelszentrum GmbH | Potsdam | Zum Heizwerk 19 | 14478 | 0331 5504524 | Verzeichnis-Snippet (Websuche) |
+| Kulisch & Co. Fahrzeug-Handels- und Verwertungs GmbH / KRP Kabel Recycling Potsdam | Potsdam | Zum Heizwerk 16–18 (Annahme auch Drewitzer Str. 51) | 14478 | 0331 8712772 | kulischundco.de + schrottplatz-info |
+| Klawes Rainer | Potsdam | n.e. (Raum Zum Heizwerk) | 14478 | n.e. | nur Branchenbeleg ohne Adresse (Websuche) |
+| Randolf Schmidt Altmetallhandel Schmidt | Großbeeren | Ruhlsdorfer Str. 6 | 14979 | 033701 59328 | Gelbe Seiten |
+| Gambert GmbH | Stahnsdorf | Ruhlsdorfer Str. 95 | 14532 | 03329 603090 | Gelbe Seiten |
+| D.A.S. Recycling (Samir Feratovic) | Falkensee | Nauener Str. 113 A | 14612 | 0152 31759638 | unserhavelland.de (3/2023) |
+| Grunske Metall-Recycling | Oranienburg OT Germendorf | Veltener Str. 32 | 16515 | 03301 57370 | grunske.net/impressum |
+| SERO Oberhavel | Oranienburg | n.e. | n.e. | n.e. | keine verifizierbare Adresse; Domain tot (Websuche) |
+| Birko Andreas Kleintransporte und Schrott | Oranienburg | Straße zum Schloßpark 2 | 16515 | 03301 56337 | Das Telefonbuch |
+| BMR Metall- und Kabelrecycling GmbH (NL Kränzlin) | Märkisch Linden OT Kränzlin | Darritzer Str. 25 | 16818 | 033769 89910 (Zentrale Töpchin) | 11880 + bmr-toepchin.net |
+| TSR Deutschland GmbH & Co. KG | Neuruppin | Philipp-Oehmigke-Str. 13 | 16816 | 03391 404839 | tsr-recycling.de/standorte |
+| TSR Deutschland GmbH & Co. KG | Schorfheide OT Finowfurt | Spechthausener Str. 40 | 16244 | n.e. | tsr-recycling.de/bibliothek (Efb-Zertifikat) |
+| Stimmel Thilo | Schorfheide OT Finowfurt | n.e. | 16244 | n.e. | nur Listenbeleg Finowfurt (Websuche) |
+| Weckwerth-Metalle & Autoverwertung & Abschleppdienst GmbH | Schwedt/Oder | Gewerbepark 18a | 16303 | 03332 524385 | weckwerth-schrott.de/impressum |
+| Weckwerth GmbH (Filiale) | Angermünde | n.e. (Stamm: Gewerbepark 18a, 16303 Schwedt) | n.e. | 03332 524385 | weckwerth-schrott.de (Filialadresse n. verif.) |
+| Benzin Paul Schrotthandel | Templin (Beleg: Prenzlau) | Brüssower Allee 90, Prenzlau (Ortszuordnung offen) | 17291 | n.e. | recherche/bb.md Runde 2 (schrottplatz-info) |
+| Gramet Schrott- u. Metallhandel | Gramzow | n.e. | 17291 | n.e. | keine verifizierbare Adresse (Websuche) |
+| Reinert Bunt- und Altmetallhandel | Nordwestuckermark OT Holzendorf | n.e. | 17291 | n.e. | nur GS-Branchenbeleg (Websuche) |
+| Theo Steil GmbH Schrott- und Metallgroßhandel | Eisenhüttenstadt | Glashüttenstr. 44 | 15890 | 03364 774320 | steil.de/standorte |
+| Krüger Metallhandel GmbH | Wiesenau | Am Pottack 2 | 15295 | 033609 7240 | krueger-metallhandel.de |
+| Garkisch Containerdienste u. Kompostanlage | Eisenhüttenstadt OT Diehlo | Dorfstr. 29a | 15890 | 03364 292600 | Das Örtliche + GS |
+| ArcelorMittal Eisenhüttenstadt Recycling | Eisenhüttenstadt | Werkrecycling (kein Privatkunden-Ankauf belegt) | 15890 | n.e. | keine öffentliche Ankauf-Adresse (Websuche) |
+| Brandenburger Schrott-Verwertung GmbH (BSV Wertstoff-Dealer) | Fürstenwalde/Spree | Juri-Gagarin-Str. 33 | 15517 | 03361 375560 | wertstoff-dealer.de |
+| GHG Wertstoffrecycling & Wertstoffankauf (BSV-Gruppe) | Beeskow | Charlottenhof 18 | 15848 | 03366 152810 | wertstoff-dealer.de |
+| BSV Wertstoffrecycling & Wertstoffankauf | Letschin | Voßberger Chaussee 7 | 15324 | 033475 57872 | wertstoff-dealer.de |
+| Oder-Metalle Schrotthandel Oderbruch | Neulewin | Neulewin 47a | 16259 | 033452 493730 | oder-metalle.de/impressum |
+| Koppe Andreas Schrottplatz Strausberg | Strausberg | Klosterdorfer Chaussee 15 | 15344 | 01523 4803664 | schrottplatz-strausberg.de |
+| Matthies Thomas Fuhrbetrieb/Baustoff/Schrotthandel | Wandlitz OT Zerpenschleuse | n.e. | 16348 | n.e. | keine verifizierbare Adresse (Websuche) |
+| Schrotthandel Uhlmann | Hennigsdorf | Philipp-Pforr-Str. 9 | 16761 | 0163 8018683 | elektroschrott-berlin.de |
+| TSR Recycling (Standort lt. TSR-Standortliste, Adresse nicht verifiziert) | Hennigsdorf | August-Conrad-Str. 43 | 16761 | 03302 7912020 | tsr-recycling.de/standorte |
+| TSR Recycling (Standort lt. TSR-Standortliste, Adresse nicht verifiziert) | Großräschen | n.e. | 01983 | n.e. | nur TSR-Standortliste, Adresse n. verifiziert |
+| Agentur Keil Schrotthandel | Königs Wusterhausen | n.e. | 15711 | n.e. | keine verifizierbare Adresse (Websuche) |
+| KA & DE Schrott- und Metallhandels GmbH | Ludwigsfelde | Graf-von-Zeppelin-Str. 16 | 14974 | 03378 5231200 | schrottis.de/impressum |
+| MÜCOLEF GmbH | Zossen OT Schünow | Zur Dorfstr. 10 | 15806 | 03377 343900 | muecolef.de |
+| Schrott Karola | Teltow | n.e. | 14513 | n.e. | keine verifizierbare Adresse (Websuche) |
+| FSR Trade GmbH | Teltow | Rheinstr. 17 | 14513 | 03328 351407 | creditsafe-Firmenprofil |
+| Schrotthandel & Recycling Niemegk GmbH | Niemegk | Treuenbrietzener Str. 32A | 14823 | 033843 51585 | schrotthandelniemegk.de + GS |
+| Böttcher Harald Schrotthandel | Jüterbog | n.e. | 14913 | n.e. | keine verifizierbare Adresse (Websuche) |
+| INTERSEROH Management GmbH | Perleberg OT Quitzow | Buchholzer Chaussee 5 | 19348 | 03876 789768 | stadtbranchenbuch |
+| Rose Christine Metallaufbereitung | Prenzlau | Neustädter Damm 59 | 17291 | n.e. | schrottplatz.org |
+| Pödtke-Trans GbR Schrott | Finsterwalde | Frankenaer Weg 42 | 03238 | 0173 8124713 | Das Örtliche |
+| HSR Schrotthandel Hidanovic GmbH | Schlieben OT Wehrhain | Wehrhainer Neue Str. 25 | 04936 | n.e. | hsr-schrotthandel.eu |
+| HSR Schrotthandel (Zweigstelle) | Herzberg (Elster) | An den Steinenden 17a | 04916 | 03535 7089942 | recherche/bb.md Runde 4 (hs-recycling.eu) |
+| HSR Schrotthandel (Filiale lt. Website) | Luckau | n.e. | 15926 | n.e. | nur Website-Navi „auch in Luckau“ (hsr-schrotthandel.eu) |
+| Taubenheim Dietmar Buntmetall- u. Schrotthandel | Elsterwerda | Ludwig-Jahn-Str. 60 | 04910 | 03533 2710 | Das Örtliche |
+| Schwarzenberger Kerstin Wertstoffhandel | Lauchhammer | n.e. | 01979 | n.e. | nur schrottplatz-info-Umkreisbeleg (Runde 2) |
+| Mauer Lausitzschrott | Hohenleipisch | n.e. | 04934 | n.e. | nur schrottplatz-info-Umkreisbeleg (Runde 2) |
+| Metallhandel und Containerdienst GmbH Schrottankauf | Großräschen (Allmosen) | n.e. | 01983 | n.e. | nur schrottplatz-info-Umkreisbeleg (Runde 2) |
+| Dahm Bohnsack GbR Schrotthandel | Heiligengrabe | Wittstocker Chaussee 1 | 16909 | 033962 805096 | Das Örtliche |
+| Perleberger Recycling GmbH | Plattenburg | Rambower Chaussee 2 | 19339 | n.e. | perleberger-recycling.de |
+| INTERSEROH Metallaufbereitung Ost GmbH | Wittenberge (operativ Quitzow) | Buchholzer Chaussee 24, 19348 Quitzow | 19348 | n.e. | schrottplatz.org |
+| Birkhold Frank Schrotthandel | Guben | n.e. | 03172 | 03561 2212 | stadtbranchenbuch (nur Ort+Tel) |
+| MCR GmbH Autoverwertung | Birkenwerder | n.e. | 16547 | n.e. | keine verifizierbare Adresse (Websuche) |
+| Weiss Rolf Schrotthandel u. Transporte | Jüterbog OT Neuheim | Neuheim 8 | 14913 | n.e. | schrottplatz.org |
+| Bulgrin René Buntmetall | Beelitz | Im Schäwe 12 | 14547 | 033204 636720 | schrott-bulgrin.de + GS |
+| Autoverwertung Klucke | Zossen | n.e. | 15806 | n.e. | keine verifizierbare Adresse (Websuche) |
+| Scholz Recycling GmbH | Spremberg | Bregenzer Str. 13 | 03130 | 03563 397411 | stadtbranchenbuch + schrottregister |
+| NE-Metalle GmbH | Spremberg | Berliner Str. 6 | 03130 | 0172 8460320 | ne-metalle-gmbh.de/standorte |
+| NE-Metalle GmbH (Filiale) | Doberlug-Kirchhain | Walther-Rathenau-Str. 12A | 03253 | 0173 9560745 | ne-metalle-gmbh.de/standorte |
+| MHM Rohstoffe (Karsten Manthey) | Spremberg | Gartenstr. 12-13 | 03130 | 0152 58900866 | mhm-rohstoffe.de/impressum |
+| Scholz Recycling GmbH (Filiale) | Calau OT Werchow | Senftenberger Str. 6 | 03205 | n.e. | schrottradar-Beleg via Runde 3 |
+| Scholz Recycling GmbH (Filiale) | Ruhland | Am Dreistein | 01945 | 035752 2106 | stadtbranchenbuch |
+| Metallische Rohstoffe | Dubro (Schönewalde) | Grassauer Weg 3 | 04916 | n.e. | schrottradar-Beleg via Runde 3 |
+| Proßmann M.G. Recycling GmbH | Schönewalde | Str. der Jugend 5h | 04916 | 035362 6585 | erdkabelrecycling-prossmann.de |
+| Theo Steil GmbH Schrott- und Metallgroßhandel | Eberswalde | Angermünder Str. 77 | 16227 | 03334 525600 | steil.de/standorte |
+| Metallaufbereitung Prignitz GmbH | Perleberg | Schwarzer Weg 1 | 19348 | 03876 3076400 | Das Örtliche |
+| Dahm & Bohnensack Handels- und Recycling GmbH | Neustadt (Dosse) | Gewerbegebiet Ost 8 | 16845 | 033970 501488 | Das Örtliche |
+| ahab-metall e.K. | Premnitz OT Mögelin | Carl-Zeiss-Str. 14 | 14727 | n.e. | schrottradar-Beleg via Runde 3 |
+| Ernst Recycling GmbH | Oranienburg OT Friedrichsthal | Am Biotop 6 | 16515 | 03301 802543 | ernst-recycling.de |
+| slug:bb-schildow-schrottplatz-schildow | Mühlenbecker Land OT Schildow | Mühlenbecker Str. 80-82 | 16552 | 033056 433980 | schrottplatzschildow.de + schrottplatz-info |
+| Schrotthandel Hristov | Fredersdorf (mobil; Sitz Berlin) | Lange Str. 3, Fredersdorf / Herzbergstr. 51, 10365 Berlin | 15370 | 0163 3149007 | schrotthandel-hristov.de + schrottradar |
+| Schrott Wetzel GmbH (Filiale) | Fredersdorf OT Vogelsdorf | Industriehafen 12 | 15370 | n.e. | schrottradar-Beleg via Runde 3 (Stamm Bahnhofstr. 23, 03116 Drebkau) |
+| Fa. Efrem Gouchev Schrottankauf | Altlandsberg (operativ Berlin) | Bitterfelder Str. 23, 12681 Berlin | 12681 | 030 99272366 | schrottankauf-bitterfelderstr23.de |
+| HEIN Schrotthandel GmbH | Schöneiche | Werner-von-Siemens-Str. 12 | 15566 | 030 64387710 | hein-schrotthandel.de |
+| ALBA Metall Nord GmbH | Velten | Breite Str. 47b | 16727 | n.e. | schrottradar-Beleg via Runde 3 |
+| ALBA Metall Nord GmbH | Königs Wusterhausen | Am Nordhafen 11 | 15711 | n.e. | Verzeichnis-Beleg (sind-sie-sicher.info) |
+| KMR Kabel-Metall-Recycling GmbH | Liebenwalde | Am Kietz 9 | 16559 | 033054 8890 | kabel-metall-recycling.de/impressum |
+| Bohnsack GmbH Schrott-Container-Abriß | Falkensee | Nauener Str. 118 | 14612 | 03322 240220 | Das Örtliche |
+| Axel Spitzer Schrotthandel und Autoverwertung | Zossen | An den Wulzen 10 | 15806 | 03377 332630 | 11880.com |
+| Richter Recycling GmbH | Potsdam | Zum Heizwerk 16 | 14478 | 0331 8872520 | schrottregister + richter-recycling.de |
+| slug:bb-kolkwitz-kunersdorf-jorg-striemann-entsorgungsfachbetrieb | Kolkwitz OT Kunersdorf | Milkersdorfer Allee 5 | 03099 | 035604 64970 | striemann.de |
+| Waetrans Lietzen Ltd. Schrotthandel u. Containerdienst | Lietzen | Falkenhagener Str. 17 | 15306 | 033470 3055 | schrottplatz-info + Das Örtliche |
+| Pietsch André Schrottannahme | Lichtenow (Rüdersdorf) | n.e. | 15345 | n.e. | keine verifizierbare Adresse (Websuche) |
+| „Abbrucharbeiten Containerdienst und Schrotthandel“ | Forst (Lausitz) | n.e. | 03149 | n.e. | Sammelbecken-Eintrag, mögl. Duplikat (Runde 4) |
+| Goldankauf Potsdam (Trauringstudio) | Potsdam | Brandenburger Str. 26 | 14467 | 0331 87004540 | goldankauf-potsdam.de |
+| Schrott- und Metallhandel Barkow (Reiner Barkow) | Großbeeren OT Birkenhain | Birkenhainer Ring 7 | 14979 | n.e. | schrotthandel-barkow.de |
+| slug:bb-brandenburg-a-d-h-vs-rohstoffe | Brandenburg an der Havel | Friedrich-Franz-Str. 11 | n.e. | n.e. | Seed-notes (Verzeichnis); PLZ/Tel n. verifiziert |
+| AERIS-Recycling & Dienstleistung GmbH | Brieselang OT Zeestow | Zum Wendehammer 7 | 14656 | 033234 243760 | aeris-gmbh.de |
+| RSO Schrotthandel | Doberlug-Kirchhain | Finsterwalder Str. 17B | 03253 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ |
+| Vollmer Aluminiumhandel GmbH | Eberswalde | Carl-von-Linde-Str. 1 | 16225 | 03334 286290 | vah.de + maptons |
+| Steffen Hidanovic SH Schrotthandel | Lübben | Kleinbahnstr. (Nr. n. belegt) | 15907 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ |
+| Dymke Timo e.K. | Lauchhammer | Dolsthaidaer Str. 45 | 01979 | n.e. | Seed-notes (GS-verifiziert); PLZ Orts-PLZ |
+| WSH Schrotthandel | Lauchhammer | Bockwitzer Str. 97 | 01979 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ |
+| Husic | Großräschen | Karl-Marx-Str. 18 | 01983 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ |
+| Kaden Schrottabholung – Demontagen | Stahnsdorf | Ruhlsdorfer Str. 95 | 14532 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ |
+| Schmeissel Reinhard | Wiesenburg/Mark | Görzker Str. 46 | 14827 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ |
+| Utmar-Koch Ralf | Storkow | Robert-Koch-Str. 24 | 15859 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ |
+| MG Handel AG | Wildau | An der Mensa | 15745 | n.e. | Seed-notes (Verzeichnis); PLZ Orts-PLZ |
+| Autoverwertung Cottbus | Cottbus | Laubenhof 9 (Impressum abw.: Straßburger Str. 8) | n.e. | n.e. | Seed-notes + autoverwertung-cottbus.de |
+| Autoverwertung Ludwigsfelde | Ludwigsfelde | Märkersteig 18-22 | 14974 | n.e. | autoverwertung-ludwigsfelde.de/impressum |
+| Graunke (M. Segeth) | Fürstenwalde | Karl-Liebknecht-Str. 30 | 15517 | n.e. | Seed-notes; Website nur eBay |
+| Ramm Klinkow GbR | Prenzlau OT Klinkow | Am Quillow 38 | 17291 | n.e. | Seed-notes; PLZ Orts-PLZ |
+| Schulze (AV) | Doberlug-Kirchhain | Finsterwalder Str. 17 | 03253 | n.e. | Seed-notes; PLZ Orts-PLZ |
+| Recycling Center Zauchwitz GmbH | Beelitz OT Zauchwitz | Trebbiner Str. 83 | 14547 | n.e. | Seed-notes; PLZ Orts-PLZ |
+| Zimmermann Carmen | Heidesee | Wenzlower Str. 7 | 15754 | n.e. | Seed-notes; PLZ Orts-PLZ |
+| Wolf (Abschleppdienst) | Wandlitz | Zühlsdorfer Str. 5 | 16348 | n.e. | Seed-notes; PLZ Orts-PLZ |
+| Krüger Jochen (AV) | Wiesenau | Am Pottack 1 | 15295 | n.e. | Seed-notes; PLZ Orts-PLZ |
+| Kielow Eberhard | Drebkau | Schorbus-Ausbau 1 | 03116 | n.e. | Seed-notes; PLZ Orts-PLZ |
+| Cottbuser Goldankauf (Krasulsky) | Cottbus | Karl-Liebknecht-Str. 16 | 03046 | n.e. | Seed-notes; PLZ Orts-PLZ |
+| Pries & Friese Autoverwertungscenter | Neuenhagen | Rosa-Luxemburg-Damm 1 | 15366 | 03342 234480 | pries-und-friese.de |
+| Autoankauf Potsdam | Potsdam | Verkehrshof 12 | 14478 | 0331 5858558 | autoankauf-potsdam.com |
+| H&S Abschleppdienst GmbH | Rathenow | Rhinower Str. 35 | 14712 | 03385 512757 | hs-abschleppdienst.de |
+| Zirnsack Kabelrecycling | Eisenhüttenstadt | Zur Hütte 4 | 15890 | n.e. | Seed-notes (Verzeichnis) |
+| M. & R. Lyszczok GbR | Brieskow-Finkenheerd | Ernst-Thälmann-Str. 64 | 15295 | 033609 35540 | stadtbranchenbuch |
+| slug:bb-ferbitz-scholz-ralf-av-abschleppdienst | Lanz OT Ferbitz | Lenzener Str. 10 | 19309 | 038780 7213 | autoverwertung-scholz.de |
+
+Hinweise:
+- MC Schrott: 5 Annahmestellen einzeln verifiziert (mcschrott.de/standorte); 6. Stelle Rostock außerhalb BB.
+- TSR Großräschen + HSR Luckau: nur Standortlisten-Nennung, Adresse nicht verifiziert.
+- Benzin Paul: Templin vs. Prenzlau Brüssower Allee 90 weiter offen (Ortszuordnung vor Import prüfen).
+- Hristov/Gouchev: operativ mobil bzw. Berlin-sässig (kein BB-Yard) — Import-Abgleich empfohlen.
+- 21 Händler ohne verifizierbare Adresse (u.a. SERO, HRR, Gramet, Karola, Böttcher, MCR, Klucke, Keil,
+  Matthies, S.-Altmetall Drebkau, Reinert-Straße, Stimmel, TSR-Großräschen, HSR-Luckau, Pietsch, ArcelorMittal-Werk).

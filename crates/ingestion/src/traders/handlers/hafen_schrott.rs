@@ -9,9 +9,7 @@
 
 use scraper::{ElementRef, Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "bw-mannheim-hafen-metall-schrott";
@@ -23,9 +21,12 @@ pub const IMPRESSUM_URL: &str = "https://hafen-schrott.de/impressum.html";
 pub const URL: &str = "https://hafen-schrott.de/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| {
-        Box::pin(scrape(c))
-    } }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -167,10 +168,12 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// ("Tagespreis erfragen"). Missing anchors or zero grades fail loudly —
 /// a silent success would hide a redesign.
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
-    let start = html.find("Diese Metalle kaufen wir an").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Ankauf-Liste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Diese Metalle kaufen wir an")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankauf-Liste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("tafel-fuss").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -235,9 +238,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         }
     }
     // Contact lines: first <p> sibling after the "Kontakt" heading.
-    let anchor = doc.select(&h2).find(|h| {
-        h.text().collect::<String>().trim() == "Kontakt"
-    });
+    let anchor = doc
+        .select(&h2)
+        .find(|h| h.text().collect::<String>().trim() == "Kontakt");
     let Some(anchor) = anchor else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -257,14 +260,19 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
                 phone = rest
                     .split_whitespace()
                     .take_while(|tok| {
-                        tok.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+                        tok.chars()
+                            .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
                     })
                     .collect::<Vec<_>>()
                     .join(" ");
             } else if let Some(rest) = t.strip_prefix("E-Mail:") {
                 // E-mail needs its own rule: the phone-style take_while
                 // would stop at the first letter.
-                email = rest.split_whitespace().next().unwrap_or_default().to_owned();
+                email = rest
+                    .split_whitespace()
+                    .next()
+                    .unwrap_or_default()
+                    .to_owned();
             }
         }
     }
@@ -274,7 +282,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br`-split fragment (drop everything up to the
@@ -295,7 +309,10 @@ fn strip_fragment(s: &str) -> String {
             out.push(c);
         }
     }
-    out.replace("&nbsp;", " ").split_whitespace().collect::<Vec<_>>().join(" ")
+    out.replace("&nbsp;", " ")
+        .split_whitespace()
+        .collect::<Vec<_>>()
+        .join(" ")
 }
 
 #[cfg(test)]
@@ -350,7 +367,11 @@ mod tests {
             grade_for("Kupferkabel, min. 60 % Cu"),
             Some(vec![("kabel-kupfer", "min. 60 % Cu")])
         );
-        assert_eq!(grade_for("Kupfer-Messing-Kühler, rein"), None, "mixed-metal");
+        assert_eq!(
+            grade_for("Kupfer-Messing-Kühler, rein"),
+            None,
+            "mixed-metal"
+        );
         assert_eq!(grade_for("Alu-Kupfer-Kühler, rein"), None, "mixed-metal");
         assert_eq!(
             grade_for("Alu-Kühler, rein"),
@@ -380,7 +401,11 @@ mod tests {
             grade_for("Leiterplatten Klasse 1A, alt"),
             Some(vec![("platinen", "Klasse 1A")])
         );
-        assert_eq!(grade_for("Schwerschrott E3"), None, "no heavy-scrap material");
+        assert_eq!(
+            grade_for("Schwerschrott E3"),
+            None,
+            "no heavy-scrap material"
+        );
         assert_eq!(grade_for("CPU, Keramik, gemischt"), None, "no CPU material");
         assert_eq!(grade_for("RAM mit Gold-Kontakten"), None);
         // Missing anchors / empty lists fail loudly.

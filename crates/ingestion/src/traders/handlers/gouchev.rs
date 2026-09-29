@@ -1,21 +1,38 @@
-//! Efrem Gouchev Schrottankauf (Berlin-Marzahn): exact daily prices per
-//! grade (`div#price > div.cms-article.<sorte>`: title in `p.h5`, base
-//! price behind "ab 1 kg ➜"). The page renews every morning by 9:00 and
-//! carries no per-row date, so `published_at` stays `None` (the
-//! observation age is the provenance).
+//! Efrem Gouchev Schrottankauf (Berlin-Marzahn, Bitterfelder Str. 23):
+//! exact daily prices per grade (`div#price > div.cms-article.<sorte>`:
+//! title in `p.h5`, base price behind "ab 1 kg ➜"). The banner renews
+//! every morning by 9:00 ("BIS 9:00 UHR PASSEN WIR DIE PREISE AN, DIE
+//! DANN DEN GESAMTEN TAG ÜBER GELTEN"), so the schedule is `DailyAt`
+//! 9:30 Berlin — the fresh Tagespreis, once. No per-row date on the page,
+//! so `published_at` stays `None` (`observed_at` = age).
 //!
-//! One row per block: the ab-1-kg Bar-Sockel (quantity tiers and
-//! Überweisung rows are dropped on purpose — one more variant dimension
-//! would burst the catalog). The "Aluminiumkabel" block carries a second
-//! sort ("ALUKABEL DICK 0,35€") and yields a second row with its own
-//! variant. "Scherenschrott / Gussschrott" names two iron grades at one
-//! price and is skipped loudly (ambiguous, never crammed).
+//! Quantity/payment staffel per block (live 28.09.2026: Kupfer 10,45 /
+//! Millberry 11,15 / Schwer 10,75 / Kerze 10,95 / Messing 6,30 /
+//! Kupferkabel 3,45 / mit Stecker 1,00 / Zinn Teller 10,00–12,00 /
+//! Lötzinn 5,00–7,00 / Zink 1,75): "ab 1 kg" is the Bar base, then
+//! "ab 200 kg" and "ab 1000 kg" quotes read "<Überweisung>€ / <base>€
+//! Überweisung / Bar" — the higher staffel price applies ONLY on
+//! Überweisung. Every (grade × tier) pair becomes its own `variant`
+//! ("… , ab 200 kg Überweisung"), so same-material sorts never collapse
+//! onto one current price; tier labels carry the condition into `notes`
+//! (record() stores the label as notes). Base rows alone would silently
+//! underquote the staffel — hence one row per tier, never just the base.
 //!
-//! Units: the page quotes no per-row unit; the site's own banner prices
-//! "0,10 Euro pro kg für Buntmetalle", and every value is kg-plausible.
-//! `unit_of` therefore defaults to EUR/kg but still rejects any explicit
-//! foreign unit — a per-tonne quote recorded as per-kg would be a 1000x
-//! error.
+//! Mapping notes: "Scherenschrott / Gussschrott" names two iron grades at
+//! one price and is skipped loudly (ambiguous, never crammed). The
+//! "Aluminiumkabel" block carries a second sort ("ALUKABEL DICK 0,35€",
+//! own `<p>`) with its own variant and no staffel of its own.
+//!
+//! Units: the page quotes no per-row unit, but the site's own homepage
+//! prices "0,10 Euro pro kg für viele Buntmetalle", and every live value
+//! is kg-plausible (Cu ~10–11, Fe ~0,1 — as €/t both would be absurd).
+//! `unit_of` therefore defaults to EUR/kg (documented, plausibilized)
+//! but still rejects any explicit foreign unit — a per-tonne quote
+//! recorded as per-kg would be a 1000x error.
+//!
+//! Duplicate: `bb-altlandsberg-fa-efrem-gouchev-schrottankauf` (seed, no
+//! website) shares the firm name but has no price page — intentionally no
+//! handler for it, documented here only, seed untouched.
 
 use scraper::{ElementRef, Html, Selector};
 
@@ -31,11 +48,21 @@ pub const IMPRESSUM_URL: &str = "https://www.schrottankauf-bitterfelderstr23.de/
 
 pub const URL: &str = "https://www.schrottankauf-bitterfelderstr23.de/schrottpreise";
 
+/// Canonical staffel tiers, the trader's own threshold words. The tier
+/// rides in every variant so (grade × tier) pairs never collapse onto one
+/// current price; the Überweisung condition is part of the tier because
+/// the higher price exists ONLY on Überweisung (Bar stays at base).
+const TIER_BASE: &str = "ab 1 kg";
+const TIER_200: &str = "ab 200 kg Überweisung";
+const TIER_1000: &str = "ab 1000 kg Überweisung";
+
 pub fn handler() -> Handler {
     Handler {
         slug: SLUG,
         url: URL,
-        schedule: Schedule::every_6h(),
+        schedule: Schedule::DailyAt {
+            times: vec![(9, 30)],
+        },
         scrape: |c| Box::pin(scrape(c)),
     }
 }
@@ -44,24 +71,28 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     let (status, html) = fetch_text(client, URL).await?;
     let (rows, mut skipped_labels) = parse(&html)?;
     let mut prices = Vec::with_capacity(rows.len());
-    for (label, price, unit) in rows {
-        match grade_for(&label) {
-            Some(variants) => {
-                for (material, variant) in variants {
-                    prices.push(ScrapedPrice {
-                        material,
-                        variant,
-                        price,
-                        currency: "EUR",
-                        unit,
-                        price_kind: "exact",
-                        price_min: None,
-                        price_max: None,
-                        confidence: Some(1.0),
-                        label: label.clone(),
-                    });
-                }
-            }
+    for (title, tier, price, unit) in rows {
+        // The tier condition rides in the label (= notes in record()) as
+        // well as in the variant: provenance for "why is this higher".
+        // Base rows keep the raw title (legacy notes continuity).
+        let label = match tier {
+            TIER_200 => format!("{title} (ab 200 kg, Überweisung)"),
+            TIER_1000 => format!("{title} (ab 1000 kg, Überweisung)"),
+            _ => title.clone(),
+        };
+        match grade_for(&title, tier) {
+            Some((material, variant)) => prices.push(ScrapedPrice {
+                material,
+                variant,
+                price,
+                currency: "EUR",
+                unit,
+                price_kind: "exact",
+                price_min: None,
+                price_max: None,
+                confidence: Some(1.0),
+                label,
+            }),
             // No (or ambiguous) catalog material: keep the quoted price as
             // evidence in the skip, never drop it silently.
             None => skipped_labels.push(format!(
@@ -92,82 +123,133 @@ fn fmt_eur(price: f64) -> String {
     format!("{price:.2}").replace('.', ",")
 }
 
-/// Explicit block title → material rows. Specific before generic:
-/// "Millberry"/"Kerze"/"Schwer" must not fall into plain copper,
-/// "Aluminiumkabel" must not fall into plain aluminium, lead cable grades
-/// must not fall into "Altblei" unwatched. The split "… dick" row maps to
-/// the dick variant only (see parse).
-fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
+/// Explicit (block title, tier) → (material, variant) mapping. Anything
+/// unlisted is skipped. Arms are specific-before-generic: "Millberry"/
+/// "Kerze"/"Schwer" before plain copper, "Aluminiumkabel" before plain
+/// aluminium, lead cable grades before "Altblei". The split "… dick" row
+/// maps to the dick detail only (see parse).
+///
+/// Variant rule: the base tier keeps the legacy grade wording untouched
+/// (`""`, `"Kerze"`, …) so existing current prices keep updating; staffel
+/// tiers append the payment condition (`"Kerze, ab 200 kg Überweisung"`).
+/// Every (detail × tier) pair is enumerated — an unknown combination is a
+/// redesign and skips loudly via the fallthrough, never a minted variant.
+fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
-    if l.contains("millberry") {
-        Some(vec![("kupfer-millberry", "")])
+    // Grade detail first; the tier joins it in the variant table below.
+    let (material, detail): (&'static str, &'static str) = if l.contains("millberry") {
+        ("kupfer-millberry", "")
     } else if l.contains("kerze") && l.contains("kupfer") {
-        Some(vec![("kupfer-berry", "Kerze")])
+        ("kupfer-berry", "Kerze")
     } else if l.contains("schwer") && l.contains("kupfer") {
-        Some(vec![("kupfer-berry", "Schwer")])
+        ("kupfer-berry", "Schwer")
     } else if l.contains("kupferkabelschrott") && l.contains("stecker") {
-        Some(vec![("kabel-kupfer", "mit Stecker")])
+        ("kabel-kupfer", "mit Stecker")
     } else if l.contains("kupferkabel") || l.contains("kupfer-kabel") {
-        Some(vec![("kabel-kupfer", "")])
+        ("kabel-kupfer", "")
     } else if l.contains("aluminiumkabel") || l.contains("alukabel") {
         // Two sorts, one block ("ab 1 kg ➜ 0,10€ / ALUKABEL DICK 0,35€"):
         // the parse step splits them into two rows ("… dick" suffix), so
-        // each row maps to exactly one variant — never both, or the two
+        // each row maps to exactly one detail — never both, or the two
         // prices would collapse onto one arbitrary current price.
         if l.contains("dick") {
-            Some(vec![("kabel-alu", "dick")])
+            ("kabel-alu", "dick")
         } else {
-            Some(vec![("kabel-alu", "")])
+            ("kabel-alu", "")
         }
     } else if l.contains("kupfer") {
         // Generic copper ("Kupfer ohne Eisen- oder Messinganhaftungen"):
         // placed before lead/brass — the label names what is EXCLUDED,
         // not what it is. All kupfer-* sorts above already matched.
-        Some(vec![("kupfer-gemischt", "")])
+        ("kupfer-gemischt", "")
     } else if l.contains("elektromotor") {
-        Some(vec![("elektromotoren", "")])
+        ("elektromotoren", "")
     } else if l.contains("lötzinn") || l.contains("loetzinn") {
-        Some(vec![("zinn", "Lötzinn")])
+        ("zinn", "Lötzinn")
     } else if l.contains("zinn") {
         // Grades: the range IS the grade ("Zinnschrott 90-95 % (Teller)").
         if l.contains("90") {
-            Some(vec![("zinn", "90-95%")])
+            ("zinn", "90-95%")
         } else {
-            Some(vec![("zinn", "")])
+            ("zinn", "")
         }
     } else if l.contains("auswuchtblei") {
-        Some(vec![("blei", "Auswuchtblei")])
+        ("blei", "Auswuchtblei")
     } else if l.contains("schälblei") || l.contains("schaelblei") {
-        Some(vec![("blei", "Kabelschälblei")])
+        ("blei", "Kabelschälblei")
     } else if l.contains("altblei") || (l.contains("blei") && !l.contains("kabel")) {
-        Some(vec![("blei", "")])
+        ("blei", "")
     } else if l.contains("messing") {
-        Some(vec![("messing", "")])
+        ("messing", "")
     } else if l.contains("mischschrott") {
-        Some(vec![("mischschrott", "")])
+        ("mischschrott", "")
     } else if l.contains("scherenschrott") || l.contains("gussschrott") {
         // One price for two iron grades — ambiguous, skip loudly.
-        None
+        return None;
     } else if l.contains("v2a") || l.contains("edelstahl") {
-        Some(vec![("edelstahl-v2a", "")])
+        ("edelstahl-v2a", "")
     } else if l.contains("zink") {
-        Some(vec![("zink", "")])
+        ("zink", "")
     } else if l.contains("aluminium") {
         if l.contains("5%") || l.contains("anhaftung") && l.contains("max") {
-            Some(vec![("aluminium-gemischt", "5% Anhaftung")])
+            ("aluminium-gemischt", "5% Anhaftung")
         } else {
-            Some(vec![("aluminium-gemischt", "")])
+            ("aluminium-gemischt", "")
         }
     } else {
-        None
-    }
+        return None;
+    };
+    let variant: &'static str = match (detail, tier) {
+        ("", TIER_BASE) => "",
+        ("", TIER_200) => "ab 200 kg Überweisung",
+        ("", TIER_1000) => "ab 1000 kg Überweisung",
+        ("Kerze", TIER_BASE) => "Kerze",
+        ("Kerze", TIER_200) => "Kerze, ab 200 kg Überweisung",
+        ("Kerze", TIER_1000) => "Kerze, ab 1000 kg Überweisung",
+        ("Schwer", TIER_BASE) => "Schwer",
+        ("Schwer", TIER_200) => "Schwer, ab 200 kg Überweisung",
+        ("Schwer", TIER_1000) => "Schwer, ab 1000 kg Überweisung",
+        ("mit Stecker", TIER_BASE) => "mit Stecker",
+        ("mit Stecker", TIER_200) => "mit Stecker, ab 200 kg Überweisung",
+        ("mit Stecker", TIER_1000) => "mit Stecker, ab 1000 kg Überweisung",
+        ("dick", TIER_BASE) => "dick",
+        ("Lötzinn", TIER_BASE) => "Lötzinn",
+        ("Lötzinn", TIER_200) => "Lötzinn, ab 200 kg Überweisung",
+        ("Lötzinn", TIER_1000) => "Lötzinn, ab 1000 kg Überweisung",
+        ("90-95%", TIER_BASE) => "90-95%",
+        ("90-95%", TIER_200) => "90-95%, ab 200 kg Überweisung",
+        ("90-95%", TIER_1000) => "90-95%, ab 1000 kg Überweisung",
+        ("Auswuchtblei", TIER_BASE) => "Auswuchtblei",
+        ("Auswuchtblei", TIER_200) => "Auswuchtblei, ab 200 kg Überweisung",
+        ("Auswuchtblei", TIER_1000) => "Auswuchtblei, ab 1000 kg Überweisung",
+        ("Kabelschälblei", TIER_BASE) => "Kabelschälblei",
+        ("Kabelschälblei", TIER_200) => "Kabelschälblei, ab 200 kg Überweisung",
+        ("Kabelschälblei", TIER_1000) => "Kabelschälblei, ab 1000 kg Überweisung",
+        ("5% Anhaftung", TIER_BASE) => "5% Anhaftung",
+        ("5% Anhaftung", TIER_200) => "5% Anhaftung, ab 200 kg Überweisung",
+        ("5% Anhaftung", TIER_1000) => "5% Anhaftung, ab 1000 kg Überweisung",
+        _ => return None,
+    };
+    Some((material, variant))
 }
 
-/// Parse the `div#price` blocks. Returns (rows, skips); the Aluminiumkabel
-/// block yields two rows (base + DICK). An empty listing is a loud error,
-/// never a silent success.
-fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
+/// Parse the `div#price` blocks. Returns (rows, skips) with one row per
+/// (block × tier): the "ab 1 kg" Bar base plus the "ab 200 kg" and
+/// "ab 1000 kg" Überweisung quotes (first number after the tier marker —
+/// the pair reads "<Überweisung>€ / <base>€ Überweisung / Bar"). The
+/// Aluminiumkabel block has no staffel and yields base + DICK instead.
+/// An empty listing — or a page whose staffel vanished entirely — is a
+/// loud error, never a silent success.
+fn parse(
+    html: &str,
+) -> Result<
+    (
+        Vec<(String, &'static str, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
     let start = html
         .find("id=\"price\"")
         .ok_or_else(|| IngestError::Parse {
@@ -189,8 +271,11 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             url: URL.to_owned(),
             detail: "Tagespreis-Block fehlt".to_owned(),
         })?;
-    let mut rows = Vec::new();
+    let mut rows: Vec<(String, &'static str, f64, &'static str)> = Vec::new();
     let mut skips = Vec::new();
+    // Redesign guard: exactly one block (Aluminiumkabel) ships without a
+    // staffel today — if NO block carries one, the tiers moved shape.
+    let mut saw_staffel = false;
     for block in price_box.select(&block_sel) {
         let title = block
             .select(&h5_sel)
@@ -217,31 +302,65 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             skips.push(format!("{title} (Einheit unverständlich: {body})"));
             continue;
         };
-        // Base price = the "ab 1 kg" quote (Bar-Sockel).
-        let base_text = body
-            .split_once("ab 1 kg")
-            .map(|(_, rest)| rest)
-            .unwrap_or(&body);
-        let Some(price) = parse_eur(base_text) else {
+        // Base price = the "ab 1 kg" Bar quote. The marker is required:
+        // without it a prose block's stray number (banner "9:00", footer
+        // "12681") would become a phantom price.
+        let Some((_, after_base)) = body.split_once("ab 1 kg") else {
             skips.push(format!("{title} (kein ab-1-kg-Preis)"));
             continue;
         };
-        // Dedupe against double blocks: same (title, price) twice counts once.
-        if !rows
-            .iter()
-            .any(|(t, p, _): &(String, f64, &'static str)| *t == title && *p == price)
-        {
-            rows.push((title.clone(), price, unit));
+        let Some(base) = parse_eur(after_base) else {
+            skips.push(format!("{title} (kein ab-1-kg-Preis)"));
+            continue;
+        };
+        // A "0,00" quote is "no quote", not a free gift: loud skip.
+        if base == 0.0 {
+            skips.push(format!("{title} (Preis 0,00)"));
+            continue;
         }
-        // Second sort inside the Aluminiumkabel block ("ALUKABEL DICK 0,35€").
+        push_row(&mut rows, title.clone(), TIER_BASE, base, unit);
+        // Staffel tiers: first number after the marker is the Überweisung
+        // price (the pair's second number is the Bar base, ignored here).
+        if let Some((_, after_200)) = body.split_once("ab 200") {
+            saw_staffel = true;
+            // Cut the 200-segment before the 1000-marker so its quote can
+            // never leak into this tier (both spellings: "1000"/"1.000").
+            let seg = after_200
+                .split("ab 1000")
+                .next()
+                .unwrap_or(after_200)
+                .split("ab 1.000")
+                .next()
+                .unwrap_or(after_200);
+            match parse_eur(seg) {
+                Some(tier_price) if tier_price != 0.0 => {
+                    push_row(&mut rows, title.clone(), TIER_200, tier_price, unit)
+                }
+                Some(_) => skips.push(format!("{title} (ab 200 kg: Preis 0,00)")),
+                None => skips.push(format!("{title} (ab 200 kg: Preis unverständlich)")),
+            }
+            match tier_1000_price(&body) {
+                Some(tier_price) if tier_price != 0.0 => {
+                    push_row(&mut rows, title.clone(), TIER_1000, tier_price, unit)
+                }
+                Some(_) => skips.push(format!("{title} (ab 1000 kg: Preis 0,00)")),
+                None => skips.push(format!(
+                    "{title} (ab 1000 kg: Staffel fehlt oder Preis unverständlich)"
+                )),
+            }
+        }
+        // Second sort inside the Aluminiumkabel block ("ALUKABEL DICK
+        // 0,35€", own `<p>`): base tier only, no staffel of its own.
         if let Some((_, dick_text)) = body.split_once("DICK") {
             if let Some(dick) = parse_eur(dick_text) {
-                if (dick - price).abs() > f64::EPSILON
-                    && !rows.iter().any(|(t, p, _): &(String, f64, &'static str)| {
-                        *t == title && (*p - dick).abs() <= f64::EPSILON
-                    })
+                if dick != 0.0
+                    && !rows.iter().any(
+                        |(t, _, p, _): &(String, &'static str, f64, &'static str)| {
+                            *t == title && (*p - dick).abs() <= f64::EPSILON
+                        },
+                    )
                 {
-                    rows.push((format!("{title} dick"), dick, unit));
+                    push_row(&mut rows, format!("{title} dick"), TIER_BASE, dick, unit);
                 }
             }
         }
@@ -252,15 +371,46 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             detail: "Tagespreise leer".to_owned(),
         });
     }
-    // Fan-out helper: the DICK row maps through the same label table
-    // (its "dick" suffix keeps the kabel-alu/dick variant reachable even
-    // if the base row is skipped).
+    if !saw_staffel {
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisstaffel fehlt".to_owned(),
+        });
+    }
     Ok((rows, skips))
 }
 
+/// Dedupe against double blocks: same (title, tier, price) twice counts
+/// once — after the mapping, on cooked rows, not on raw labels.
+fn push_row(
+    rows: &mut Vec<(String, &'static str, f64, &'static str)>,
+    title: String,
+    tier: &'static str,
+    price: f64,
+    unit: &'static str,
+) {
+    if !rows
+        .iter()
+        .any(|(t, ti, p, _)| *t == title && *ti == tier && (*p - price).abs() <= f64::EPSILON)
+    {
+        rows.push((title, tier, price, unit));
+    }
+}
+
+/// First number after the "ab 1000 kg" marker (both spellings), i.e. the
+/// Überweisung quote of the top tier. `None` = marker missing or number
+/// unparseable (loud skip at the call site).
+fn tier_1000_price(body: &str) -> Option<f64> {
+    let after = body
+        .split_once("ab 1000")
+        .map(|(_, rest)| rest)
+        .or_else(|| body.split_once("ab 1.000").map(|(_, rest)| rest))?;
+    parse_eur(after)
+}
+
 /// Bespoke unit gate for THESE blocks: the site quotes "Euro pro kg"
-/// (banner above the listing) and nothing else — but any explicit foreign
-/// unit still rejects the block loudly.
+/// (homepage banner above the listing) and nothing else — but any explicit
+/// foreign unit still rejects the block loudly.
 fn unit_of(block_text: &str) -> Option<&'static str> {
     let lower = block_text.to_lowercase();
     if lower.contains("/t")
@@ -349,96 +499,209 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, grade_for, parse, unit_of};
+    use super::{extract_info, grade_for, parse, unit_of, TIER_1000, TIER_200, TIER_BASE};
 
     // Real shape of the live listing (cms-article classes, h5 title spans,
-    // "ab 1 kg ➜" quotes, the ALUKABEL-DICK second sort), trimmed to four
-    // blocks.
+    // "ab 1 kg ➜" quotes, "…€ / …€ Überweisung / Bar" staffel pairs, the
+    // ALUKABEL-DICK second sort in its own <p>), trimmed to three blocks.
     const FIXTURE: &str = "<div id=\"price\" class=\"cms-container-el price-container\">\
         <div class=\"cms-article millberry lazy-bg\">\
         <p class=\"h5\"><span style=\"font-size: 36px;\">Kupfer Millberry</span> <span>nicht angelaufen, nicht lackiert</span></p>\
         <p><span style=\"font-size: 36px;\">ab 1 kg ➜ <strong>11,15</strong><strong>€</strong></span><br/>\
-        <span style=\"font-size: 24px;\">ab 200kg: <em>11,35€</em>/ 11,15€ Überweisung/ Bar</span></p></div>\
+        <span style=\"font-size: 24px;\">ab 200kg<span>: </span><strong><em>11,35€</em>/ </span>11,15€ </strong>\
+        <strong><em>Überweisung</em>/ </span>Bar</strong>&nbsp; ab&nbsp;1000kg:<strong><em>11,45€</em>/ </span>11,15</strong>\
+        <strong>€&nbsp; &nbsp; <em>Überweisung</em>/ Bar</strong></span></p></div>\
         <div class=\"cms-article aluminiumkabel lazy-bg\">\
         <p class=\"h5\">Aluminiumkabel</p>\
-        <p><span style=\"font-size: 36px;\">ab 1 kg ➜ <strong>0,10€</strong></span><br/>ALUKABEL DICK 0,35€</p></div>\
+        <p><span style=\"font-size: 36px;\">ab 1 kg ➜ <strong>0,10€</strong></span></p>\
+        <p><span style=\"font-size: 36px;\"><strong>ALUKABEL DICK</strong> <em>0,35€</em></span></p></div>\
         <div class=\"cms-article guss lazy-bg\">\
         <p class=\"h5\">Scherenschrott / Gussschrott</p>\
-        <p><span style=\"font-size: 36px;\">ab 1 kg ➜ <strong>0,12€</strong></span></p></div>\
-        <div class=\"cms-article zinnschrott lazy-bg\">\
-        <p class=\"h5\">Zinnschrott Lötzinn</p>\
-        <p><span style=\"font-size: 36px;\">ab 1 kg ➜ <strong>5,00€</strong></span></p></div>\
+        <p><span style=\"font-size: 36px;\">ab 1 kg ➜ <strong>0,12€</strong></span></p>\
+        <p><span style=\"font-size: 18px;\">ab 200 kg: <strong><em>0,12€</em>/0,12€</strong> <em>Überweisung</em>/Bar&nbsp;<br/>\
+        ab 1000 kg: <strong><em>0,13€</em>/0,12€</strong> <em>Überweisung</em>/Bar</span></p></div>\
         </div>";
 
     #[test]
-    fn blocks_parse_and_dick_fans_out() {
+    fn tiers_parse_with_base_and_dick() {
         let (rows, skips) = parse(FIXTURE).expect("parses");
         assert!(skips.is_empty());
-        // Millberry + Alukabel base + Alukabel dick + Scheren/Guss + Lötzinn.
-        assert_eq!(rows.len(), 5);
+        // Millberry × 3 tiers + Alukabel base + Alukabel dick + Scheren × 3.
+        assert_eq!(rows.len(), 8);
         assert_eq!(
             rows[0],
             (
                 "Kupfer Millberry nicht angelaufen, nicht lackiert".to_owned(),
+                TIER_BASE,
                 11.15,
                 "EUR/kg"
             )
         );
-        assert_eq!(rows[1], ("Aluminiumkabel".to_owned(), 0.1, "EUR/kg"));
-        assert_eq!(rows[2], ("Aluminiumkabel dick".to_owned(), 0.35, "EUR/kg"));
+        assert_eq!(rows[1].1, TIER_200);
+        assert_eq!(rows[1].2, 11.35);
+        assert_eq!(rows[2].1, TIER_1000);
+        assert_eq!(rows[2].2, 11.45);
+        assert_eq!(rows[3], ("Aluminiumkabel".to_owned(), TIER_BASE, 0.1, "EUR/kg"));
+        assert_eq!(
+            rows[4],
+            ("Aluminiumkabel dick".to_owned(), TIER_BASE, 0.35, "EUR/kg")
+        );
+        assert_eq!(
+            rows[5],
+            (
+                "Scherenschrott / Gussschrott".to_owned(),
+                TIER_BASE,
+                0.12,
+                "EUR/kg"
+            )
+        );
+        assert_eq!(rows[6].1, TIER_200);
+        assert_eq!(rows[6].2, 0.12);
+        assert_eq!(rows[7].1, TIER_1000);
+        assert_eq!(rows[7].2, 0.13);
         assert_eq!(unit_of("ab 1 kg 10,40 €"), Some("EUR/kg"));
         assert_eq!(unit_of("pauschal 5 €"), None);
         assert!(parse("<div>Redesign ohne Preise</div>").is_err());
     }
 
     #[test]
-    fn mapping_splits_and_skips_ambiguity() {
+    fn prose_without_marker_never_becomes_a_price() {
+        // A titled block WITHOUT "ab 1 kg" (banner "9:00", footer "12681"
+        // shapes): loud skip, never a phantom 9,00/12681,00 price.
+        let html = "<div id=\"price\">\
+            <div class=\"cms-article\"><p class=\"h5\">Hinweis</p>\
+            <p>Jeden Morgen bis 9:00 Uhr passen wir die Preise an.</p></div>\
+            <div class=\"cms-article millberry\"><p class=\"h5\">Kupfer Millberry</p>\
+            <p>ab 1 kg ➜ 11,15€ ab 200kg: 11,35€ / 11,15€ Überweisung / Bar \
+            ab 1000kg: 11,45€ / 11,15€ Überweisung / Bar</p></div></div>";
+        let (rows, skips) = parse(html).expect("parses");
+        assert_eq!(rows.len(), 3);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("kein ab-1-kg-Preis"));
+        // No staffel anywhere on the page: loud redesign error, not a
+        // silent base-only success.
+        let html = "<div id=\"price\">\
+            <div class=\"cms-article aluminiumkabel\"><p class=\"h5\">Aluminiumkabel</p>\
+            <p>ab 1 kg ➜ 0,10€</p><p>ALUKABEL DICK 0,35€</p></div></div>";
+        let err = parse(html).expect_err("staffel missing errors");
+        assert!(err.to_string().contains("Preisstaffel"));
+    }
+
+    #[test]
+    fn zero_and_garbled_tier_quotes_skip_loudly() {
+        // 0,00 tier quote: loud skip, sibling tiers survive.
+        let html = FIXTURE.replacen("11,35€", "0,00€", 1);
+        let (rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 7);
+        assert_eq!(skips.len(), 1);
+        assert!(skips[0].contains("ab 200 kg") && skips[0].contains("0,00"));
+        // 200-marker without 1000-marker: the missing top tier skips
+        // loudly instead of silently dropping a price.
+        let html = FIXTURE.replacen("ab&nbsp;1000kg:", "ab heute:", 1);
+        let (rows, skips) = parse(&html).expect("parses");
+        assert_eq!(rows.len(), 7);
+        assert!(skips.iter().any(|s| s.contains("ab 1000 kg")));
+    }
+
+    #[test]
+    fn mapping_splits_grades_and_tiers() {
+        // Base tier keeps the legacy grade wording (current-price
+        // continuity); staffel tiers append the payment condition so no
+        // two (grade × tier) pairs ever share a variant.
         assert_eq!(
-            grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert"),
-            Some(vec![("kupfer-millberry", "")])
+            grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert", TIER_BASE),
+            Some(("kupfer-millberry", ""))
         );
         assert_eq!(
-            grade_for("Kupfer ohne Eisen- oder Messinganhaftungen"),
-            Some(vec![("kupfer-gemischt", "")])
+            grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert", TIER_200),
+            Some(("kupfer-millberry", "ab 200 kg Überweisung"))
         );
         assert_eq!(
-            grade_for("Kupfer Schwer (ohne Lötstellen und Farbe)"),
-            Some(vec![("kupfer-berry", "Schwer")])
+            grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert", TIER_1000),
+            Some(("kupfer-millberry", "ab 1000 kg Überweisung"))
         );
         assert_eq!(
-            grade_for("Kupfer Kerze (neu, ohne Anhaftung, nicht angelaufen)"),
-            Some(vec![("kupfer-berry", "Kerze")])
+            grade_for("Kupfer ohne Eisen- oder Messinganhaftungen", TIER_BASE),
+            Some(("kupfer-gemischt", ""))
         );
         assert_eq!(
-            grade_for("Kupferkabel kein Antennen-, Fett-, ALCU-, Eisenkabel"),
-            Some(vec![("kabel-kupfer", "")])
+            grade_for("Kupfer Schwer (ohne Lötstellen und Farbe)", TIER_BASE),
+            Some(("kupfer-berry", "Schwer"))
         );
         assert_eq!(
-            grade_for("Kupferkabelschrott mit Stecker"),
-            Some(vec![("kabel-kupfer", "mit Stecker")])
-        );
-        assert_eq!(grade_for("Aluminiumkabel"), Some(vec![("kabel-alu", "")]));
-        assert_eq!(
-            grade_for("Aluminiumkabel dick"),
-            Some(vec![("kabel-alu", "dick")])
+            grade_for("Kupfer Schwer (ohne Lötstellen und Farbe)", TIER_1000),
+            Some(("kupfer-berry", "Schwer, ab 1000 kg Überweisung"))
         );
         assert_eq!(
-            grade_for("Edelstahlschrott (V2A)"),
-            Some(vec![("edelstahl-v2a", "")])
+            grade_for("Kupfer Kerze (neu, ohne Anhaftung, nicht angelaufen)", TIER_200),
+            Some(("kupfer-berry", "Kerze, ab 200 kg Überweisung"))
         );
         assert_eq!(
-            grade_for("Zinnschrott 90-95 % (Teller)"),
-            Some(vec![("zinn", "90-95%")])
+            grade_for("Kupferkabel kein Antennen-, Fett-, ALCU-, Eisenkabel", TIER_200),
+            Some(("kabel-kupfer", "ab 200 kg Überweisung"))
         );
         assert_eq!(
-            grade_for("Zinnschrott Lötzinn"),
-            Some(vec![("zinn", "Lötzinn")])
+            grade_for("Kupferkabelschrott mit Stecker", TIER_BASE),
+            Some(("kabel-kupfer", "mit Stecker"))
         );
         assert_eq!(
-            grade_for("Auswuchtblei"),
-            Some(vec![("blei", "Auswuchtblei")])
+            grade_for("Kupferkabelschrott mit Stecker", TIER_1000),
+            Some(("kabel-kupfer", "mit Stecker, ab 1000 kg Überweisung"))
         );
-        assert_eq!(grade_for("Scherenschrott / Gussschrott"), None);
+        assert_eq!(
+            grade_for("Aluminiumkabel", TIER_BASE),
+            Some(("kabel-alu", ""))
+        );
+        assert_eq!(
+            grade_for("Aluminiumkabel dick", TIER_BASE),
+            Some(("kabel-alu", "dick"))
+        );
+        // A staffel on the dick sort was never quoted: loud skip, never a
+        // minted variant.
+        assert_eq!(grade_for("Aluminiumkabel dick", TIER_200), None);
+        assert_eq!(
+            grade_for("Edelstahlschrott (V2A)", TIER_1000),
+            Some(("edelstahl-v2a", "ab 1000 kg Überweisung"))
+        );
+        assert_eq!(
+            grade_for("Zinnschrott 90-95 % (Teller)", TIER_BASE),
+            Some(("zinn", "90-95%"))
+        );
+        assert_eq!(
+            grade_for("Zinnschrott 90-95 % (Teller)", TIER_200),
+            Some(("zinn", "90-95%, ab 200 kg Überweisung"))
+        );
+        assert_eq!(
+            grade_for("Zinnschrott Lötzinn", TIER_1000),
+            Some(("zinn", "Lötzinn, ab 1000 kg Überweisung"))
+        );
+        assert_eq!(
+            grade_for("Auswuchtblei", TIER_200),
+            Some(("blei", "Auswuchtblei, ab 200 kg Überweisung"))
+        );
+        assert_eq!(
+            grade_for("Kabelschälblei Alt", TIER_BASE),
+            Some(("blei", "Kabelschälblei"))
+        );
+        assert_eq!(
+            grade_for("Aluminiumschrott mit max. 5% Anhaftung", TIER_1000),
+            Some(("aluminium-gemischt", "5% Anhaftung, ab 1000 kg Überweisung"))
+        );
+        assert_eq!(grade_for("Messing ohne Schläuche", TIER_200), Some(("messing", "ab 200 kg Überweisung")));
+        assert_eq!(grade_for("Altblei", TIER_BASE), Some(("blei", "")));
+        assert_eq!(grade_for("Zink", TIER_1000), Some(("zink", "ab 1000 kg Überweisung")));
+        assert_eq!(
+            grade_for("Elektromotoren", TIER_200),
+            Some(("elektromotoren", "ab 200 kg Überweisung"))
+        );
+        assert_eq!(
+            grade_for("Mischschrott", TIER_BASE),
+            Some(("mischschrott", ""))
+        );
+        // Two iron grades, one price: ambiguous, skipped in every tier.
+        assert_eq!(grade_for("Scherenschrott / Gussschrott", TIER_BASE), None);
+        assert_eq!(grade_for("Scherenschrott / Gussschrott", TIER_200), None);
+        assert_eq!(grade_for("Scherenschrott / Gussschrott", TIER_1000), None);
     }
 
     #[test]

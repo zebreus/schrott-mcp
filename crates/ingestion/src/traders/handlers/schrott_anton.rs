@@ -8,9 +8,7 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "by-munchen-schrott-anton";
@@ -22,9 +20,12 @@ pub const IMPRESSUM_URL: &str = "https://www.schrott-anton.de/impressum-schrott/
 pub const URL: &str = "https://www.schrott-anton.de/aktuelle-schrottpreise-muenchen/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| {
-        Box::pin(scrape(c))
-    } }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -144,7 +145,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let h3 = Selector::parse("h3").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
     let anchor = doc.select(&h3).find(|h| {
-        h.text().collect::<String>().contains("Angaben gemäß § 5 TMG")
+        h.text()
+            .collect::<String>()
+            .contains("Angaben gemäß § 5 TMG")
     });
     let Some(_) = anchor else {
         return Err(IngestError::Parse {
@@ -152,9 +155,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "Angaben-Block fehlt".to_owned(),
         });
     };
-    let firm_p = doc.select(&p).find(|e| {
-        e.text().collect::<String>().contains("Schrott-Sam GmbH")
-    });
+    let firm_p = doc
+        .select(&p)
+        .find(|e| e.text().collect::<String>().contains("Schrott-Sam GmbH"));
     let Some(firm_p) = firm_p else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -186,16 +189,22 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     }
     // Phone: the "<p>…Telefon:&nbsp;<span>+49 89 …</span></p>" block.
     let mut phone = String::new();
-    if let Some(tel_p) = doc.select(&p).find(|e| {
-        e.text().collect::<String>().contains("Telefon:")
-    }) {
-        let body: String =
-            tel_p.text().collect::<String>().split_whitespace().collect::<Vec<_>>().join(" ");
+    if let Some(tel_p) = doc
+        .select(&p)
+        .find(|e| e.text().collect::<String>().contains("Telefon:"))
+    {
+        let body: String = tel_p
+            .text()
+            .collect::<String>()
+            .split_whitespace()
+            .collect::<Vec<_>>()
+            .join(" ");
         if let Some(i) = body.find("Telefon:") {
             phone = body[i + "Telefon:".len()..]
                 .split_whitespace()
                 .take_while(|t| {
-                    t.chars().all(|c| c.is_ascii_digit() || "+/().-".contains(c))
+                    t.chars()
+                        .all(|c| c.is_ascii_digit() || "+/().-".contains(c))
                 })
                 .collect::<Vec<_>>()
                 .join(" ");
@@ -207,7 +216,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email: String::new() })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email: String::new(),
+    })
 }
 
 /// Strip tags from a `<br`-split fragment. Fragments start with a tag
@@ -229,7 +244,10 @@ fn strip_fragment(s: &str) -> String {
             out.push(c);
         }
     }
-    out.replace("&nbsp;", " ").split_whitespace().collect::<Vec<_>>().join(" ")
+    out.replace("&nbsp;", " ")
+        .split_whitespace()
+        .collect::<Vec<_>>()
+        .join(" ")
 }
 
 #[cfg(test)]
@@ -260,10 +278,7 @@ mod tests {
         assert_eq!(info.phone, "+49 89 48 956 853");
         assert!(info.email.is_empty(), "e-mail is spam-masked live");
         assert!(super::extract_info("<h3>Anderes</h3>").is_err());
-        assert!(super::extract_info(
-            "<h3>Angaben gemäß § 5 TMG:</h3><p>Leer</p>"
-        )
-        .is_err());
+        assert!(super::extract_info("<h3>Angaben gemäß § 5 TMG:</h3><p>Leer</p>").is_err());
     }
 
     #[test]
@@ -290,10 +305,7 @@ mod tests {
             grade_for("V2A Edelstahl"),
             Some(vec![("edelstahl-v2a", "")])
         );
-        assert_eq!(
-            grade_for("Mischschrott"),
-            Some(vec![("mischschrott", "")])
-        );
+        assert_eq!(grade_for("Mischschrott"), Some(vec![("mischschrott", "")]));
         assert_eq!(grade_for("Kabel ohne Stecker"), None, "metal unnamed");
         assert_eq!(grade_for("Litzenkabel"), None);
         assert_eq!(grade_for("Bremsscheiben"), None, "no cast-iron material");

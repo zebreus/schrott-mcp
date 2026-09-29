@@ -7,15 +7,22 @@
 //! carries a bulk tier ("Ab 750 kg: …") recorded as its own variant
 //! mkr-style; panel/table duplicates collapse via (material, variant,
 //! price) dedup after mapping. "Scherenschrott / Gussschrott" prices two
-//! sorts at once → loud skip; "Zinnschrott 99%" has no price → loud skip;
-//! "Alu-Kupferkühler" is a composite with no catalog material → loud
-//! skip. No visible page date (only meta modified_time), so
-//! `published_at` stays `None`.
+//! sorts at once → loud skip; "Alu-Kupferkühler" is a composite with no
+//! catalog material → loud skip. The priceless "Ankauf weitere Metalle"
+//! `<li>` list (Alufelgen mit Reifen, V2A/V4A under the live typo
+//! "Edilstahl", Zinnschrott 99% as its own panel, …) becomes acceptances
+//! esh-style — acceptance-only, never prices; unmappable future items skip
+//! loudly. No visible page date (only meta modified_time 2026-04-28), so
+//! `published_at` stays `None` and confidence is 0.8, not 1.0. Seed
+//! neighbour by-nurnberg-kiro-schrotthandel (pruefung, no website, mobile
+//! pickup Nürnberg) is most likely a different business — documented here,
+//! seed untouched.
 
 use scraper::{Html, Selector};
 
 use super::super::{
-    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
+    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, ScrapedPrice,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -32,6 +39,8 @@ const PANEL_END: &str = "Aktuelle Schrottpreise Berlin im Überblick";
 /// Bulk-tier marker inside price cells ("(Ab 750 kg: 10.30 €)").
 const BULK_MARKER: &str = "Ab 750 kg";
 const BULK_TIER: &str = "ab 750 kg";
+/// Acceptance-list anchor (priceless `<li>` grades below it).
+const ACCEPT_START: &str = "Ankauf weitere Metalle";
 
 pub fn handler() -> Handler {
     Handler {
@@ -66,13 +75,37 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                     price_kind: "exact",
                     price_min: None,
                     price_max: None,
-                    confidence: Some(1.0),
+                    // Exact list prices, but the page shows no date (only
+                    // meta modified_time) — unknown age, so 0.8, not 1.0.
+                    confidence: Some(0.8),
                     label,
                 });
             }
             None => skipped_labels.push(label),
         }
     }
+    // Priceless "Ankauf weitere Metalle" grades → acceptances esh-style.
+    let acc_labels = parse_acceptances(&html)?;
+    let mut acceptances = Vec::with_capacity(acc_labels.len());
+    let mut accepted_raw = Vec::with_capacity(acc_labels.len());
+    for label in acc_labels {
+        match grade_for_acceptance(&label) {
+            Some(materials) => {
+                for (material, conditions) in materials {
+                    acceptances.push(ScrapedAcceptance {
+                        material,
+                        conditions: conditions.to_owned(),
+                        label: label.clone(),
+                    });
+                }
+                accepted_raw.push(label);
+            }
+            None => skipped_labels.push(label),
+        }
+    }
+    // Labels covered as acceptances are not price gaps: drop their
+    // "(ohne Preis)" marker from the price pipeline (e.g. Zinnschrott).
+    let skipped_labels = drop_covered(skipped_labels, &accepted_raw);
     // Impressum failure fails the whole step on purpose: a moved contact
     // page means the site changed and needs eyeballs before we trust
     // anything from it again.
@@ -80,7 +113,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     let trader_info = extract_info(&imp_html)?;
     Ok(HandlerOutcome {
         prices,
-        acceptances: vec![],
+        acceptances,
         trader_info,
         website_alive: true,
         skipped_labels,
@@ -167,6 +200,50 @@ fn grade_for(label: &str, tier: &str) -> Option<(&'static str, &'static str)> {
         _ => return None,
     };
     Some((material, variant))
+}
+
+/// Explicit label → acceptances for the priceless "Ankauf weitere Metalle"
+/// list (esh-style: acceptance-only, never prices). One label may fan out
+/// ("Blei / Bleibatterie", "Edilstahl-V2A-V4A" → V2A und V4A — live typo
+/// "Edilstahl", so the arm keys on V2A+V4A, not on "Edelstahl").
+/// Unmappable future items → None (loud skip at the call site).
+fn grade_for_acceptance(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
+    let l = label.to_lowercase();
+    let l = l.as_str();
+    if l.contains("alufelgen") {
+        Some(vec![("aluminium-guss", "mit Reifen")])
+    } else if l.contains("aluminiumkabel") {
+        Some(vec![("kabel-alu", "")])
+    } else if l.contains("offset") {
+        Some(vec![("aluminium-blech", "")])
+    } else if l.contains("blech") && l.contains("neu") {
+        Some(vec![("aluminium-blech", "neu blank")])
+    } else if l.contains("blei") {
+        // Two grades, one line → fan-out.
+        Some(vec![("blei", ""), ("blei", "Batterie")])
+    } else if l.contains("v2a") && l.contains("v4a") {
+        Some(vec![("edelstahl-v2a", ""), ("edelstahl-v4a", "")])
+    } else if l.contains("schredder") {
+        Some(vec![("edelstahl-gemischt", "Schredder")])
+    } else if l.contains("erdkabel") {
+        Some(vec![("kabel-kupfer", "Erdkabel")])
+    } else if l.contains("kabel") && l.contains("stecker") {
+        Some(vec![("kabel-kupfer", "mit Stecker")])
+    } else if l.contains("zinn") {
+        Some(vec![("zinn", "99%")])
+    } else {
+        None
+    }
+}
+
+/// Drop "(ohne Preis)" price-skips for labels now covered as acceptances
+/// (e.g. "Zinnschrott 99%"): covered is not a gap.
+fn drop_covered(mut skips: Vec<String>, accepted: &[String]) -> Vec<String> {
+    for done in accepted {
+        let marker = format!("{done} (ohne Preis)");
+        skips.retain(|s| s != &marker);
+    }
+    skips
 }
 
 /// Bespoke contact extraction for THIS impressum only: the `<p>` holding
@@ -395,6 +472,40 @@ fn parse_tables(
     Ok(())
 }
 
+/// Priceless acceptance grades: the `<li>` items under "Ankauf weitere
+/// Metalle" plus "Zinnschrott 99%", which sits in its own price-less panel
+/// next to the list (different markup, same no-price acceptance).
+fn parse_acceptances(html: &str) -> Result<Vec<String>, IngestError> {
+    let start = html.find(ACCEPT_START).ok_or_else(|| IngestError::Parse {
+        url: URL.to_owned(),
+        detail: "Annahmeliste fehlt".to_owned(),
+    })?;
+    let tail = &html[start..];
+    let end = tail.find(PANEL_END).ok_or_else(|| IngestError::Parse {
+        url: URL.to_owned(),
+        detail: "Annahmeliste fehlt".to_owned(),
+    })?;
+    let window = &tail[..end];
+    let doc = Html::parse_fragment(&format!("<div>{window}</div>"));
+    let li = Selector::parse("li").expect("valid selector");
+    let mut labels: Vec<String> = doc
+        .select(&li)
+        .map(|el| el.text().collect::<String>())
+        .map(|t| t.split_whitespace().collect::<Vec<_>>().join(" "))
+        .filter(|t| !t.is_empty())
+        .collect();
+    if window.contains("Zinnschrott 99%") {
+        labels.push("Zinnschrott 99%".to_owned());
+    }
+    if labels.is_empty() {
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Annahmeliste leer".to_owned(),
+        });
+    }
+    Ok(labels)
+}
+
 /// One price cell → base row plus optional bulk-tier row. Both tiers quote
 /// €/kg; anything else skips loudly at the call site.
 fn push_price_cell(
@@ -439,7 +550,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, grade_for, parse, unit_of, BULK_TIER};
+    use super::{
+        drop_covered, extract_info, grade_for, grade_for_acceptance, parse, parse_acceptances,
+        unit_of, BULK_TIER,
+    };
 
     const PANELS: &str = "<h1>Schrottankauf und Schrottpreise Berlin bei Kiro</h1>\
         <div class=\"textwidget\"><p>Kupfer Raff</p></div>\
@@ -596,5 +710,85 @@ mod tests {
         assert_eq!(info.email, "info@schrotthandel-berlin.com");
         // Redesign without anchors fails loudly.
         assert!(extract_info("<html><body><p>Neu hier</p></body></html>").is_err());
+    }
+
+    /// Real live snippet shape: `<li>` grades under "Ankauf weitere
+    /// Metalle" plus "Zinnschrott 99%" as its own priceless panel.
+    const ACCEPT_FIXTURE: &str = "<div class=\"textwidget\"><p><strong>Ankauf weitere Metalle</strong></p>\
+        <ul><li>Alufelgen mit Reifen</li><li>Aluminiumkabel dick</li>\
+        <li>Alu-Offset-Bleche Sauber</li><li>Alu-Blech-neu blank</li>\
+        <li>Blei / Bleibatterie</li><li>Edilstahl-V2A-V4A</li>\
+        <li>Edelstahl-Schredder</li><li>Erdkabel-Kupfer</li>\
+        <li>Kupfer-Kabel mit Stecker</li></ul></div>\
+        <div class=\"textwidget\"><p><b>Zinnschrott 99%</b></p></div>\
+        <h2>Aktuelle Schrottpreise Berlin im Überblick</h2>";
+
+    #[test]
+    fn acceptance_list_parses_and_maps() {
+        let labels = parse_acceptances(ACCEPT_FIXTURE).expect("parses");
+        assert_eq!(labels.len(), 10, "{labels:?}");
+        assert!(labels.contains(&"Zinnschrott 99%".to_owned()));
+        // No anchors: loud error, never an empty success.
+        assert!(parse_acceptances("<div>Neu hier</div>").is_err());
+        assert_eq!(
+            grade_for_acceptance("Alufelgen mit Reifen"),
+            Some(vec![("aluminium-guss", "mit Reifen")])
+        );
+        assert_eq!(
+            grade_for_acceptance("Aluminiumkabel dick"),
+            Some(vec![("kabel-alu", "")])
+        );
+        assert_eq!(
+            grade_for_acceptance("Alu-Offset-Bleche Sauber"),
+            Some(vec![("aluminium-blech", "")])
+        );
+        assert_eq!(
+            grade_for_acceptance("Alu-Blech-neu blank"),
+            Some(vec![("aluminium-blech", "neu blank")])
+        );
+        // Two grades, one line → fan-out.
+        assert_eq!(
+            grade_for_acceptance("Blei / Bleibatterie"),
+            Some(vec![("blei", ""), ("blei", "Batterie")])
+        );
+        // Live typo "Edilstahl": the arm keys on V2A+V4A.
+        assert_eq!(
+            grade_for_acceptance("Edilstahl-V2A-V4A"),
+            Some(vec![("edelstahl-v2a", ""), ("edelstahl-v4a", "")])
+        );
+        assert_eq!(
+            grade_for_acceptance("Edelstahl V2A V4A"),
+            Some(vec![("edelstahl-v2a", ""), ("edelstahl-v4a", "")])
+        );
+        assert_eq!(
+            grade_for_acceptance("Edelstahl-Schredder"),
+            Some(vec![("edelstahl-gemischt", "Schredder")])
+        );
+        assert_eq!(
+            grade_for_acceptance("Erdkabel-Kupfer"),
+            Some(vec![("kabel-kupfer", "Erdkabel")])
+        );
+        assert_eq!(
+            grade_for_acceptance("Kupfer-Kabel mit Stecker"),
+            Some(vec![("kabel-kupfer", "mit Stecker")])
+        );
+        assert_eq!(
+            grade_for_acceptance("Zinnschrott 99%"),
+            Some(vec![("zinn", "99%")])
+        );
+        assert_eq!(grade_for_acceptance("Unbekanntes Zeug"), None);
+    }
+
+    #[test]
+    fn covered_acceptances_leave_the_price_skips() {
+        let skips = vec![
+            "Zinnschrott 99% (ohne Preis)".to_owned(),
+            "Alu-Kupferkühler (Einheit unverständlich: x)".to_owned(),
+        ];
+        let out = drop_covered(skips, &["Zinnschrott 99%".to_owned()]);
+        assert_eq!(
+            out,
+            vec!["Alu-Kupferkühler (Einheit unverständlich: x)".to_owned()]
+        );
     }
 }

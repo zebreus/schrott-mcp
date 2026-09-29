@@ -43,7 +43,12 @@ pub const BRANCH_URL: &str = "https://www.goldankauf-boerse.de/standorte/leipzig
 pub const URL: &str = "https://www.goldankauf-boerse.de/ankaufsrechner/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -99,8 +104,16 @@ fn merge_info(branch: TraderInfo, imp: TraderInfo) -> TraderInfo {
         street: branch.street,
         postcode: branch.postcode,
         city: branch.city,
-        phone: if branch.phone.is_empty() { imp.phone } else { branch.phone },
-        email: if branch.email.is_empty() { imp.email } else { branch.email },
+        phone: if branch.phone.is_empty() {
+            imp.phone
+        } else {
+            branch.phone
+        },
+        email: if branch.email.is_empty() {
+            imp.email
+        } else {
+            branch.email
+        },
     }
 }
 
@@ -128,7 +141,11 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     if l.contains("platin") {
         return Some(("platin", fineness(&l)));
     }
-    if l.contains("gold") || l.contains("feingold") || l.contains("barren") || l.contains("gestempelt") {
+    if l.contains("gold")
+        || l.contains("feingold")
+        || l.contains("barren")
+        || l.contains("gestempelt")
+    {
         return Some(("gold", fineness(&l)));
     }
     None
@@ -170,16 +187,27 @@ fn fineness(l: &str) -> &'static str {
 /// (published_at, deduped rows, unit_skips).
 fn parse(
     html: &str,
-) -> Result<(Option<String>, Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("id=\"kurse\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Kurstabelle fehlt".to_owned(),
-    })?;
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
+    let start = html
+        .find("id=\"kurse\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Kurstabelle fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
-    let end = tail.find("id=\"kurse-div\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Kurstabelle unvollständig".to_owned(),
-    })?;
+    let end = tail
+        .find("id=\"kurse-div\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Kurstabelle unvollständig".to_owned(),
+        })?;
     let window = &tail[..end];
     let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
     let line_sel = Selector::parse("div[class*=GoldXML_Line]").expect("valid selector");
@@ -212,13 +240,19 @@ fn parse(
         // An unparseable unit is a loud skip, never a silent default: a
         // per-kilo price recorded as per-gram would be a 1000x error.
         let Some(unit) = unit_of(&right) else {
-            unit_skips.push(format!("{label} (Einheit unverständlich: {})", right.trim()));
+            unit_skips.push(format!(
+                "{label} (Einheit unverständlich: {})",
+                right.trim()
+            ));
             continue;
         };
         rows.push((label, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Kurstabelle leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Kurstabelle leer".to_owned(),
+        });
     }
     // Desktop + mobile blocks repeat the table: dedupe identical
     // (label, price, unit) rows after parsing.
@@ -237,7 +271,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
         Some("EUR/g")
     } else if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|t| t == "t") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|t| t == "t")
+    {
         Some("EUR/t")
     } else {
         None
@@ -266,7 +303,11 @@ fn find_date(window: &str) -> Option<String> {
 fn extract_branch(html: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(html);
     let h2 = Selector::parse("h2").expect("valid selector");
-    if !doc.select(&h2).any(|h| h.text().collect::<String>().contains("Ihr Goldhändler in Leipzig")) {
+    if !doc.select(&h2).any(|h| {
+        h.text()
+            .collect::<String>()
+            .contains("Ihr Goldhändler in Leipzig")
+    }) {
         return Err(IngestError::Parse {
             url: BRANCH_URL.to_owned(),
             detail: "Leipzig-Filialblock fehlt".to_owned(),
@@ -319,7 +360,13 @@ fn extract_branch(html: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Filial-Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Bespoke contact extraction for the company-wide impressum: the
@@ -334,7 +381,9 @@ fn extract_impressum(imp: &str) -> Result<TraderInfo, IngestError> {
         .select(&h2)
         .find(|h| {
             h.value().attr("id") == Some("angaben-gemass-5-tmg")
-                || h.text().collect::<String>().contains("Angaben gemäß § 5 TMG")
+                || h.text()
+                    .collect::<String>()
+                    .contains("Angaben gemäß § 5 TMG")
         })
         .and_then(next_p);
     let cont_p = doc
@@ -387,7 +436,13 @@ fn extract_impressum(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// First `<p>` among the heading's following siblings (wild nesting
@@ -420,7 +475,10 @@ fn strip_fragment(s: &str) -> String {
             out.push(c);
         }
     }
-    out.replace("&nbsp;", " ").split_whitespace().collect::<Vec<_>>().join(" ")
+    out.replace("&nbsp;", " ")
+        .split_whitespace()
+        .collect::<Vec<_>>()
+        .join(" ")
 }
 
 #[cfg(test)]
@@ -519,4 +577,3 @@ mod tests {
         assert!(super::extract_impressum("<p>Neu hier</p>").is_err());
     }
 }
-
