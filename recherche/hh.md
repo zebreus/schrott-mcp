@@ -176,7 +176,7 @@ Stand: 2026-09-27. Methode: curl-Verifikation aller Kandidaten-Websites (HTTP-St
 | DaHua Internationale Handels GmbH | Bahrenfeld, Albert-Einstein-Ring 21, 22761 | keine Website verifiziert | Schrotthandel, Altmaterial | unklar |
 | APG Aluminium Produktionsgesellschaft mbH | Wilhelmsburg, Fährstieg 4, 21107 | https://www.apg-aluminium.de | Alu-Hütte, Alu-Schrott als Einsatz (nur Gewerbe/B2B) | unklar |
 | Dora Schulz | Horn, Manshardtstr. 9a, 22119 | keine Website verifiziert | Schrotthandel, Altmaterial (Kleinstfirma) | unklar |
-| Melosch Export GmbH | Altona-Nord, Waidmannstr. 16, 22769 | https://www.melosch.de | Altmaterial/Entsorgung (Papier/Kunststoff/Holz/Schrott), Handel | unklar |
+| Melosch Export GmbH | Altona-Nord, Waidmannstr. 16, 22769 | https://www.melosch.de | Altmaterial/Entsorgung (Papier/Kunststoff/Holz/Schrott), Handel (Firmierung lt. Website-Impressum melosch.de/startseite/meta-seiten/impressum/, 29.09.2026: KG Ludwig Melosch Vertriebs-GmbH & Co.) | unklar |
 | IMH Indutec Metall Handelsgesellschaft mbH | Wilhelmsburg, Rotenhäuser Str. 7, 21109 | keine Website verifiziert | Metallhandel (Verkauf/Shop, B2B) | unklar |
 | IMET Industriemetall-Handelsgesellschaft mbH | Eißendorf, Ehestorfer Weg 25, 21075 | keine Website verifiziert | Metallhandel/Trading (B2B) | unklar |
 | T-H-E Catalyst GmbH | Rothenburgsort, Marckmannstr. 30, 20539 | keine Website verifiziert | Katalysatoren An-/Verkauf, Alt-/Edelmetalle (HRB 109181, NorthData) | ja |
@@ -260,7 +260,6 @@ Adress-Nachtrag aus Feedback-IDs 863-1287 (Tabelle feedback, Stand 29.09.2026). 
 | Name | Ort | Straße | PLZ | Telefon | E-Mail | Öffnungszeiten | Quelle |
 |---|---|---|---|---|---|---|---|
 | APG Aluminium Produktionsgesellschaft mbH | Wilhelmsburg | Fährstieg 4 | 21107 | 040-75 17 17 | info@apg-aluminium.de | n.e. | apg-aluminium.de |
-| KG Ludwig Melosch Vertriebs-GmbH & Co. | Altona-Nord | Waidmannstraße 16 | 22769 | +49 40 8547-0 | info@melosch.de | n.e. | melosch.de + /impressum |
 | Dit un Dat UG Edelmetall Contor | Eilbek | Seumestr. 8 | 22089 | 040 76990787 | info@edelmetall-contor.de | Mo-Fr 11:00-19:00, Sa/So geschlossen | edelmetall-contor.de |
 | Goldankauf Saba Juwelier | Bramfeld | Bramfelder Chaussee 338 A | 22175 | +49 40 64222013 | saba_saeed@hotmail.de | Mo-Fr 9:00-19:00, Sa 9:30-17:00, So geschlossen | saba-juwelier.de + /impressum |
 | Goldhandel Löwengold | Winterhude | Grasweg 8 | 22299 | 040/ 53024720 | n.e. | Mo-Fr 12:00-17:00 | goldwert-ankauf.de/loewengold |

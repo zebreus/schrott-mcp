@@ -353,7 +353,6 @@ Adress-Nachtrag aus Feedback-IDs 863-1287 (Tabelle feedback, Stand 29.09.2026). 
 | Brockmann Recycling GmbH | Nützen | Heinrich-Brockmann-Str. 1 | 24568 | +49 (0) 4191 - 93 29 32 | info@brockmann.de | Anlieferung meist Mo-Fr 6:00-17:45, Sa 8:00-11:45, So/Feiertag geschlossen | brockmann.de + /kontakt |
 | ISR Recycling GmbH & Co. KG | Itzehoe | Hafenstraße 35 | 25524 | 0 48 21 - 68 68 0 | n.e. | Mo-Fr 7:00-17:00 | isr-recycling.de (/impressum + /standorte) |
 | Verwertungszentrum Hohenaspe GmbH (Stender) | Hohenaspe | Burgviert 23 | 25582 | 04893/37 66 0 | info@stender-hohenaspe.de | Mo-Fr 7:00-17:00 | stender-hohenaspe.de |
-| OTTO DÖRNER (Container/Annahme) | Itzehoe - Edendorf | Lisa-Meiter-Straße 11 | 25524 | +49 (0)4821 403440 | entsorgung@doerner.de | Mo-Fr 8:00-17:00 | doerner-shop.de/standorte/kreis-steinburg-itzehoe |
 | Borowski & Hopp GmbH & Co. KG | Bad Oldesloe | Paperbarg 3 | 23843 | 04531 / 1704-0 | n.e. | Mo-Fr 7:00-17:00, Sa 8:00-12:00 | boho.de |
 | MRN Metallrecycling Nord GmbH | Schwarzenbek | Röntgenstraße 3c | 21493 | 04151 8331750 | info@mr-nord.de | Schwarzenbek: Mo, Mi, Fr 10:00-14:00 | mr-nord.de/de |
 | KSH Schleswig GmbH Metall und Recycling | Schleswig | Margarethenwallstraße 2 | 24837 | +49 4621 32049 | info@ksh-schleswig.de | Mo-Fr 7:00-17:00 | ksh-schleswig.de/kontakt |
@@ -379,4 +378,4 @@ Adress-Nachtrag aus Feedback-IDs 863-1287 (Tabelle feedback, Stand 29.09.2026). 
 | Norddeutsche Edelmetall Scheideanstalt (Goldankauf.de), Werk Norderstedt | Norderstedt | Oststr. 128 | 22844 | +49 (0)40 609 26 89-0 | kontakt@norddeutsche-es.de | Mo-Fr (Mi bis 18:30, sonst bis 17:30, Fr bis 16:30; Beginn n.e.) | goldankauf.de + /impressum |
 | Autoverwertung Ulrich GmbH | Jarplund-Weding | Baggerwald 63 | 24941 | +49 461 91753 | info@autoverwertung-ulrich.de | n.e. | autoverwertung-ulrich.de/impressum.htm |
 | Auto-Strassburg (Michael Straßburg) | Tornesch | Hypatia-Str. 5 | 25436 | 04120 909799 | info@auto-strassburg.de | Mo-Do 8:00-17:00, Fr/Sa geschlossen | auto-strassburg.de + /impressum |
-| slug:sh-kreis-steinburg-itzehoe-otto-dorner-container-annahme | Itzehoe - Edendorf | Lisa-Meiter-Straße 11 | 25524 | +49 (0)4821 403440 | entsorgung@doerner.de | Mo-Fr 8:00-17:00 | OTTO DÖRNER Entsorgung GmbH Konzernseite |
+| slug:sh-kreis-steinburg-itzehoe-otto-dorner-container-annahme | Itzehoe - Edendorf | Lisa-Meiter-Straße 11 | 25524 | +49 (0)4821 403440 | entsorgung@doerner.de | Mo-Fr 8:00-17:00 | OTTO DÖRNER Entsorgung GmbH Konzernseite (doerner-shop.de/standorte/kreis-steinburg-itzehoe/: Lisa-Meiter-Straße 11, 25524 Itzehoe-Edendorf) |
