@@ -1,8 +1,8 @@
 //! Kupferhelden (Hattersheim): cable/copper specialist with "bis zu"
 //! (up-to) Tagespreise in Elementor cards — no table, no date. The upper
 //! bound is honest data for our uncertainty model: price = price_max =
-//! advertised value, confidence 0.5. All four grades map to `kabel-kupfer`
-//! with the raw grade in the label.
+//! advertised value, confidence 0.5. Grades map to `kabel-kupfer`,
+//! Stecker-Kabel to `kabel-mit-stecker`, with the raw grade in the label.
 
 use scraper::{Html, Selector};
 
@@ -39,8 +39,17 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
         } else {
             (None, Some(1.0), "exact")
         };
+        // Stecker-Kabel ist eine eigene Sorte (kabel-mit-stecker), kein
+        // blankes Cu-Kabel.
+        let material = if label.to_lowercase().contains("stecker")
+            && !label.to_lowercase().contains("ohne stecker")
+        {
+            "kabel-mit-stecker"
+        } else {
+            "kabel-kupfer"
+        };
         prices.push(ScrapedPrice {
-            material: "kabel-kupfer",
+            material,
             variant: grade_variant(&label),
             price,
             currency: "EUR",

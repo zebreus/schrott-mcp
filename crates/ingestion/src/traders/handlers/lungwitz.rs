@@ -117,7 +117,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("shredderkabel") && l.contains("cu") {
         Some(("kabel-kupfer", "Shredder"))
     } else if l.contains("cu-pb") || l.contains("cu–pb") {
-        Some(("kabel-kupfer", "Cu-Pb Papier"))
+        Some(("kabel-blei", "Cu-Pb Papier"))
     } else if l.contains("schlitzkabel") {
         Some(("kabel-alu", "60%"))
     } else if l.contains("rotgu") {
@@ -167,7 +167,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("zink") {
         Some(("zink", ""))
     } else if l.contains("kabelblei") {
-        Some(("blei", "Kabelblei"))
+        Some(("kabel-blei", "Kabelblei"))
     } else if l.contains("wuchtblei") {
         Some(("blei-auswucht", "Wuchtblei"))
     } else if l.contains("altblei") {
@@ -508,7 +508,7 @@ mod tests {
         // The paper guard must not catch the lead-sheathed cable grade.
         assert_eq!(
             grade_for("Cu-Pb Kabel m. Papier ab 5 cm"),
-            Some(("kabel-kupfer", "Cu-Pb Papier"))
+            Some(("kabel-blei", "Cu-Pb Papier"))
         );
         // Specific-before-generic: motor guard wins over Alu-Getriebe.
         assert_eq!(

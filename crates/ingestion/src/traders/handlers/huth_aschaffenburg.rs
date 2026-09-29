@@ -131,7 +131,7 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
     } else if l.contains("raff") || l.contains("berry") {
         ("kupfer-gemischt", "Raff, old 95 %")
     } else if l.contains("copper") && l.contains("plug") {
-        ("kabel-kupfer", "with plug, 25 % Cu")
+        ("kabel-mit-stecker", "with plug, 25 % Cu")
     } else if l.contains("copper") && l.contains("buried") {
         ("kabel-kupfer", "buried cable, 25 % Cu")
     } else if l.contains("copper") && l.contains("70") {
@@ -1054,7 +1054,7 @@ mod tests {
                 "Copper cable with plug and copper cable, min. 25 % Cu",
                 "from 25 kg"
             ),
-            Some(("kabel-kupfer", "with plug, 25 % Cu, from 25 kg"))
+            Some(("kabel-mit-stecker", "with plug, 25 % Cu, from 25 kg"))
         );
         assert_eq!(
             grade_for("Copper buried cable, at least 25 % Cu", "from 250 kg"),

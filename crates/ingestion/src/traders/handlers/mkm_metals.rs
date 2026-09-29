@@ -119,7 +119,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         } else if l.contains("38") {
             Some(("kabel-kupfer", "38-40%"))
         } else if l.contains("steck") {
-            Some(("kabel-kupfer", "Stecker 30%"))
+            Some(("kabel-mit-stecker", "Stecker 30%"))
         } else {
             None
         }
@@ -512,7 +512,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Cu Steckerkabel (30%Cu)"),
-            Some(("kabel-kupfer", "Stecker 30%"))
+            Some(("kabel-mit-stecker", "Stecker 30%"))
         );
         assert_eq!(grade_for("Kupfergranulat"), None, "kein Granulat-Material");
         assert_eq!(

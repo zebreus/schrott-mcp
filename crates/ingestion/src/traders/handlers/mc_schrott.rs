@@ -132,7 +132,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
                 return Some(("kabel-kupfer", "mit Stecker"));
             }
             if l.contains("blei") {
-                return Some(("kabel-kupfer", "Blei"));
+                return Some(("kabel-blei", "Blei"));
             }
             if l.contains("eisenmantel") {
                 return Some(("kabel-kupfer", "Eisenmantel"));
@@ -607,7 +607,7 @@ mod tests {
                 "Kupfer Eisen Schrott",
                 Some(("mischschrott", "Kupfer-Eisen")),
             ),
-            ("Kupfer Blei Kabel", Some(("kabel-kupfer", "Blei"))),
+            ("Kupfer Blei Kabel", Some(("kabel-blei", "Blei"))),
             (
                 "Kupfer Kabel mit Eisenmantel",
                 Some(("kabel-kupfer", "Eisenmantel")),

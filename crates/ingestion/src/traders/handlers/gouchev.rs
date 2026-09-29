@@ -145,7 +145,7 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
     } else if l.contains("schwer") && l.contains("kupfer") {
         ("kupfer-berry", "Schwer")
     } else if l.contains("kupferkabelschrott") && l.contains("stecker") {
-        ("kabel-kupfer", "mit Stecker")
+        ("kabel-mit-stecker", "mit Stecker")
     } else if l.contains("kupferkabel") || l.contains("kupfer-kabel") {
         ("kabel-kupfer", "")
     } else if l.contains("aluminiumkabel") || l.contains("alukabel") {
@@ -642,11 +642,11 @@ mod tests {
         );
         assert_eq!(
             grade_for("Kupferkabelschrott mit Stecker", TIER_BASE),
-            Some(("kabel-kupfer", "mit Stecker"))
+            Some(("kabel-mit-stecker", "mit Stecker"))
         );
         assert_eq!(
             grade_for("Kupferkabelschrott mit Stecker", TIER_1000),
-            Some(("kabel-kupfer", "mit Stecker, ab 1000 kg Überweisung"))
+            Some(("kabel-mit-stecker", "mit Stecker, ab 1000 kg Überweisung"))
         );
         assert_eq!(
             grade_for("Aluminiumkabel", TIER_BASE),

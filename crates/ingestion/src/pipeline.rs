@@ -23,7 +23,7 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Stahlschrott Sorte 1 (Neuschrott)",
         "eisen",
         "EUR/t",
-        "Sauberer Neu- und Stanzschrott aus der Verarbeitung.",
+        "Neuschrott aus der Verarbeitung (Händlerpraxis schließt verzinkte Bleche ein).",
     ),
     (
         "stahlschrott-scheren",
@@ -37,7 +37,7 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Stahlschrott Shreddervormaterial",
         "eisen",
         "EUR/t",
-        "Geschredderter Stahlschrott aus Altautos und Geräten.",
+        "Leichter, unzerkleinerter Blech-/Mischschrott als Shredder-Input (kein geschredderter Output).",
     ),
     (
         "eisenschrott-gussbruch",
@@ -86,7 +86,7 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Kupfer schwer",
         "nichteisen",
         "EUR/kg",
-        "Rohre oder Lackdraht, z.B. aus E-Motoren, ohne Anhaftungen.",
+        "Blankes, lotfreies Rohrkupfer ohne Anhaftungen (kein Lackdraht — das ist Berry).",
     ),
     (
         "kupfer-leicht",
@@ -205,7 +205,7 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Auswuchtblei",
         "nichteisen",
         "EUR/kg",
-        "Auswuchtblei und Bleikabel-Reste (mit Zink-/Stahlclipsen); deutlich unter Weichblei.",
+        "Auswuchtgewichte (Gardinen-)Blei, mit Clipsen; deutlich unter Weichblei. Bleikabel gehören zu kabel-blei.",
     ),
     (
         "zinn",
@@ -233,14 +233,14 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Edelstahl V2A (1.4301)",
         "edelstahl",
         "EUR/kg",
-        "Nickelhaltiger Edelstahlschrott, magnetisch prüfbar.",
+        "Nickelhaltiger, austenitischer (nicht magnetischer) Edelstahlschrott; Abgrenzung zu ferritischem Chromstahl.",
     ),
     (
         "edelstahl-gemischt",
         "Edelstahl gemischt",
         "edelstahl",
         "EUR/kg",
-        "Gemischte Edelstahlschrotte ohne Sortenreinheit.",
+        "Gemischte Edelstahlschrotte ohne Sortenreinheit (ohne nickelfreien Chromstahl — eigene Preislage).",
     ),
     (
         "edelstahl-v4a",

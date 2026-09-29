@@ -163,7 +163,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("granulier") {
         Some(("kabel-kupfer", "Granulier"))
     } else if l.contains("cu") && l.contains("papier") {
-        Some(("kabel-kupfer", "Cu-Pb Papier"))
+        Some(("kabel-blei", "Cu-Pb Papier"))
     } else if l.contains("millberry") {
         Some(("kupfer-millberry", ""))
     } else if l.contains("berry") {

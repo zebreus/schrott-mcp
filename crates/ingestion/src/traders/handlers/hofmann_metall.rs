@@ -161,8 +161,13 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
         Some(vec![("kupfer-berry", "")])
     } else if l.contains("kabel") {
         // Belegt beide Ausprägungen (Cu- und Alu-Kabel); die Rubrik ohne
-        // Token fächert auf beide auf.
-        if has("cu") || l.contains("kupfer") {
+        // Token fächert auf beide auf. Pb-Mantel und Stecker sind eigene
+        // Sorten (kabel-blei/kabel-mit-stecker), kein Cu-Kabel.
+        if l.contains("pb") || l.contains("blei") {
+            Some(vec![("kabel-blei", "")])
+        } else if l.contains("stecker") {
+            Some(vec![("kabel-mit-stecker", "")])
+        } else if has("cu") || l.contains("kupfer") {
             Some(vec![("kabel-kupfer", "")])
         } else if has("al") || l.contains("aluminium") {
             Some(vec![("kabel-alu", "")])
@@ -210,7 +215,7 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
             ("eisenschrott-gussbruch", "")
         }])
     } else if l.contains("auswucht") {
-        Some(vec![("blei", "Auswucht")])
+        Some(vec![("blei-auswucht", "Auswucht")])
     } else if l.contains("blei") {
         // Nur Akkus (oben ausgeschlossen) — sonst kein Beleg.
         None
@@ -235,7 +240,7 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
     } else if l == "sonstiges" {
         // Togglers belegen Auswuchtblei + Stahl/Bunt-Zerlegematerial.
         Some(vec![
-            ("blei", "Auswucht"),
+            ("blei-auswucht", "Auswucht"),
             ("mischschrott", "Stahl/Bunt-Mix"),
         ])
     } else {
@@ -630,8 +635,8 @@ mod tests {
             ("Al-Kabel", &[("kabel-alu", "")]),
             ("Al-Schälkabel", &[("kabel-alu", "")]),
             ("Cu-Kabel", &[("kabel-kupfer", "")]),
-            ("Cu-Kabel mit Stecker", &[("kabel-kupfer", "")]),
-            ("Cu-Pb Kabel", &[("kabel-kupfer", "")]),
+            ("Cu-Kabel mit Stecker", &[("kabel-mit-stecker", "")]),
+            ("Cu-Pb Kabel", &[("kabel-blei", "")]),
             ("Cu-Schälkabel", &[("kabel-kupfer", "")]),
             (
                 "Cu-Draht neu, blank, Millberry",
@@ -662,7 +667,7 @@ mod tests {
             ("Zink-Bleche sauber", &[("zink", "")]),
             ("Zink-Druck-Guss", &[("zink", "")]),
             ("Zink-Schrott", &[("zink", "")]),
-            ("Auswuchtblei", &[("blei", "Auswucht")]),
+            ("Auswuchtblei", &[("blei-auswucht", "Auswucht")]),
             ("Zerlegematerial", &[("mischschrott", "")]),
             // H2 fallbacks (generic → generic).
             ("Guss - Schrott", &[("eisenschrott-gussbruch", "")]),
@@ -681,7 +686,7 @@ mod tests {
             ("Zink - Schrott", &[("zink", "")]),
             (
                 "Sonstiges",
-                &[("blei", "Auswucht"), ("mischschrott", "Stahl/Bunt-Mix")],
+                &[("blei-auswucht", "Auswucht"), ("mischschrott", "Stahl/Bunt-Mix")],
             ),
         ];
         for (label, want) in mapped {

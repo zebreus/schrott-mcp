@@ -86,8 +86,9 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("berry") {
         Some(("kupfer-berry", ""))
     } else if l.contains("verzinnt") {
-        // Tin-coated copper: coated, like Berry (beschichtet).
-        Some(("kupfer-berry", "verzinnt"))
+        // Tinned copper is its own sort (kupfer-verzinnt), never Berry:
+        // Berry is bare flexible wire, coating is a different product.
+        Some(("kupfer-verzinnt", ""))
     } else if l.contains("kabel") {
         Some(("kabel-kupfer", ""))
     } else if l.contains("kupfer") {
@@ -364,7 +365,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Kupfer verzinnt"),
-            Some(("kupfer-berry", "verzinnt"))
+            Some(("kupfer-verzinnt", ""))
         );
         assert_eq!(grade_for("Kupfer Berry"), Some(("kupfer-berry", "")));
         assert_eq!(grade_for("Kupfer Milbery"), Some(("kupfer-millberry", "")));

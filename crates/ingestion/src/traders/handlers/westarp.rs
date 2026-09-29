@@ -121,7 +121,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("erdkabel") {
         Some(("kabel-kupfer", "Erdkabel"))
     } else if l.contains("kabel") && l.contains("stecker") {
-        Some(("kabel-kupfer", "mit Stecker"))
+        Some(("kabel-mit-stecker", "mit Stecker"))
     } else if l.contains("kabel") && l.contains("70") {
         Some(("kabel-kupfer", "70%"))
     } else if l.contains("kabel") && l.contains("38") {

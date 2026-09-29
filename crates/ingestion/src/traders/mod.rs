@@ -41,7 +41,23 @@ pub const MAP_VERSION: u32 = 1;
 /// as the right material (e.g. RAM modules also go as mixed boards).
 /// Applied at record time as *acceptance* (trader_materials) — never as
 /// invented prices. Query-time expansion uses the same table.
-pub const MATERIAL_FALLBACKS: &[(&str, &[&str])] = &[("ram", &["platinen"])];
+pub const MATERIAL_FALLBACKS: &[(&str, &[&str])] = &[
+    ("ram", &["platinen"]),
+    ("kupfer-schwer", &["kupfer-gemischt"]),
+    ("kupfer-leicht", &["kupfer-gemischt"]),
+    ("kupfer-spaene", &["kupfer-gemischt"]),
+    ("kupfer-verzinnt", &["kupfer-gemischt"]),
+    ("kupfer-candy", &["kupfer-gemischt"]),
+    ("kupfer-wicu", &["kupfer-gemischt"]),
+    ("messing-leicht", &["messing"]),
+    ("alu-felgen", &["aluminium-guss"]),
+    ("alu-offset", &["aluminium-blech"]),
+    ("stahlschrott-scheren", &["mischschrott"]),
+    ("stahlschrott-shredder", &["mischschrott"]),
+    ("eisenschrott-gussbruch", &["stahlschrott-scheren"]),
+    ("edelstahl-v2a", &["edelstahl-gemischt"]),
+    ("edelstahl-v4a", &["edelstahl-gemischt"]),
+];
 
 /// When a handler runs. `Every` staggers by slug hash; `DailyAt` fires at
 /// fixed local times (e.g. a trader publishing morning prices).

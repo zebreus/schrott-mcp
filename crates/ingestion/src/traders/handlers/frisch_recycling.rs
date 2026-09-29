@@ -323,7 +323,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         return Some(("kabel-alu", ""));
     } else if l.contains("kabel") {
         if l.contains("mit stecker") {
-            return Some(("kabel-kupfer", "mit Stecker"));
+            return Some(("kabel-mit-stecker", "mit Stecker"));
         } else if l.contains("ohne stecker") {
             return Some(("kabel-kupfer", "ohne Stecker"));
         } else if l.contains("schlitz") || l.contains("60") {
@@ -1015,7 +1015,7 @@ mod tests {
         // … cable (alu before bare kabel) …
         assert_eq!(
             grade_for("Kabel mit Stecker"),
-            Some(("kabel-kupfer", "mit Stecker"))
+            Some(("kabel-mit-stecker", "mit Stecker"))
         );
         assert_eq!(
             grade_for("Kabel ohne Stecker"),
