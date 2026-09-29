@@ -335,7 +335,7 @@ Stand: 2026-09-27. Websuche ausgefallen (401, wie Runde 2) – Winkel stattdesse
 | Eisen & Metallhandel Ankauf und Verkauf | Wolfsburg-Vorsfelde | keine (nur Verzeichnisbeleg) | Schrott/Metalle | Ankauf unklar |
 | Schrottplatz (ohne Namen) | Ribbesbüttel (Ausbütteler Siedlung, LK Gifhorn) | keine (nur Verzeichnisbeleg) | Schrott | Ankauf unklar |
 | Rolf Wertheimer Schrott & Metallhandel | Lüneburg (In d. Marsch 16) | wertheimer-lueneburg.de (nur Verzeichnisbeleg) | Schrott, Container | Ankauf unklar |
-| MADI Metall Recycling GmbH | Rosengarten (Ohepark 5, LK Harburg) | madi-schrott.de (nur Verzeichnisbeleg) | Schrott, Container/Demontage | Ankauf unklar |
+| MADI Metall Recycling GmbH | Rosengarten (Ohepark 5, LK Harburg) | madi-schrott.de: Preisliste (Cu bis 9,50 €/kg, Kabel bis 5 €/kg), Barauszahlung; **nur Buntmetalle, kein Eisen**; Zweitstandort HH-Hammerbrook | Schrott, Container/Demontage | Ankauf unklar |
 | Deich Metall | Wanna (Am Kirchberg 1, bei Cuxhaven) | deich-metall.de (nur Verzeichnisbeleg) — TOT (STRATO offline "Domain not available", 29.09.2026) | Alu/Kabel/E-Motoren/Zinn, Demontage | Ankauf unklar |
 | Haucke Recycling Hof | Sassenburg (Im Parsau 22; Fam. Haucke – Bezug zu „Ute Haucke“ Wolfsburg oben) | schrotthandel-haucke.de (nur Verzeichnisbeleg) | Schrott, Container | Ankauf unklar |
 | Schrotthandel Wilhelm Bäcker | Wolfenbüttel (Immenhof 9; mögl. Bezug zu Bäcker & Söhne Salzgitter) | jimdosite.com (nur Verzeichnisbeleg) — TOT | Schrott | Ankauf unklar |
@@ -420,7 +420,6 @@ Stand: 2026-09-27. Websuche erneut ausgefallen (401, wie Runden 2–3) – statt
 | Karl Meyer Metall Recycling | Stade (Rudolf-Diesel-Str. 13) | karl-meyer-metallrecycling.de: Metall-Recycling-Box, Verwiegung + Gutschrift Tagespreise → **ja** |
 | SMS Metall Recycling | Scheeßel (In den Wiesenhöfen 34) | smsrecycling.de: Schrotthandel/Container/Demontage, „faire Preise“ → **ja** (schwach, aber explizit) |
 | Rolf Wertheimer Schrott & Metallhandel | Lüneburg (In d. Marsch 16) | wertheimer-lueneburg.de: Annahme zu Tagespreisen, Nutzeisen/Demontage → **ja** |
-| MADI Metall Recycling GmbH | Rosengarten-Nenndorf (Ohepark 5) | madi-schrott.de: Preisliste (Cu bis 9,50 €/kg, Kabel bis 5 €/kg), Barauszahlung; **nur Buntmetalle, kein Eisen**; Zweitstandort HH-Hammerbrook → **ja** (eingeschränkt) |
 | Haucke Recycling Hof (Haucke & Haucke GbR) | Sassenburg-Grußendorf (Im Parsau 22) | schrotthandel-haucke.de: Schrottannahme + Gratis-Abholung, Container → **ja** |
 | Weber Recycling (Ricardo Weber) | Wolfenbüttel (Im Kleinen Feld 62; **nicht** SZ-Gebhardshagen) | weber-recycling.de: „faire Ankaufspreise“, Abrechnung Tagespreise, Container/Demontage → **ja** |
 | I&D Schrotthandel | Alfeld (Föhrster Str. 31) | id-schrotthandel.de: „Ankauf … gleich in Bar oder per Überweisung“, Tagespreise, Gratis-Abholung → **ja** |

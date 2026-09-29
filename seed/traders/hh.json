@@ -200,31 +200,6 @@
   }
  },
  {
-  "slug": "hh-nenndorf-madi-metall-recycling",
-  "name": "MADI Metall Recycling GmbH",
-  "trader_type": "metallhaendler",
-  "description": "",
-  "street": "Billwerder Steindamm 15",
-  "postcode": "",
-  "phone": "",
-  "email": "",
-  "opening_hours": "",
-  "city": "Nenndorf)",
-  "state": "HH",
-  "website": "https://www.madi-schrott.de",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "aktiv",
-  "notes": "Metallschrott, Abholung, Tagespreise (u. a. Kupfer-Angabe)",
-  "provenance": {
-   "seed_file": "hh",
-   "section": "Schrottankauf Hamburg (HH) — Recherche für Schrott MCP",
-   "ankauf_raw": "ja",
-   "origin": "table"
-  }
- },
- {
   "slug": "hh-veddel-smart-recycling-hamburg-srh",
   "name": "Smart Recycling Hamburg (SRH)",
   "trader_type": "schrotthaendler",
