@@ -31,6 +31,18 @@ use std::pin::Pin;
 use chrono::{DateTime, Utc};
 use schrott_mcp_store::{InternalDb, PublicDb};
 
+/// Mapping version stamped into every price row (`extra_json.map_v`).
+/// Bump when handler mappings change so a future central re-map can tell
+/// stale rows from current logic without SQL archaeology.
+pub const MAP_VERSION: u32 = 1;
+
+/// Cross-category acceptance, asserted as domain fact (one entry per case,
+/// documented where): sorts of the left material are additionally accepted
+/// as the right material (e.g. RAM modules also go as mixed boards).
+/// Applied at record time as *acceptance* (trader_materials) — never as
+/// invented prices. Query-time expansion uses the same table.
+pub const MATERIAL_FALLBACKS: &[(&str, &[&str])] = &[("ram", &["platinen"])];
+
 /// When a handler runs. `Every` staggers by slug hash; `DailyAt` fires at
 /// fixed local times (e.g. a trader publishing morning prices).
 #[derive(Debug, Clone)]
@@ -325,7 +337,7 @@ pub async fn record(
             valid_from: None,
             valid_to: None,
             notes: &p.label,
-            extra_json: "{}",
+            extra_json: &format!("{{\"map_v\":{}}}", MAP_VERSION),
             ingested_at: &now_s,
         }) {
             Ok(_) => {
@@ -357,6 +369,30 @@ pub async fn record(
                     &now_s,
                 ) {
                     tracing::warn!("ingestion: acceptance write failed for {handler_slug}: {e}");
+                }
+                // Cross-category acceptance (MATERIAL_FALLBACKS): asserted
+                // domain facts, recorded as acceptance with provenance —
+                // never as invented prices.
+                for (_, targets) in MATERIAL_FALLBACKS.iter().filter(|(m, _)| *m == p.material) {
+                    for target in targets.iter() {
+                        let Ok(Some(fallback_id)) = public.find_material_id(target) else {
+                            continue;
+                        };
+                        if let Err(e) = public.set_acceptance(
+                            trader_id,
+                            fallback_id,
+                            true,
+                            &format!("Annahme via {}-Ankauf", p.material),
+                            None,
+                            None,
+                            &now_s,
+                            &now_s,
+                        ) {
+                            tracing::warn!(
+                                "ingestion: fallback acceptance failed for {handler_slug}: {e}"
+                            );
+                        }
+                    }
                 }
             }
             Err(e) => {

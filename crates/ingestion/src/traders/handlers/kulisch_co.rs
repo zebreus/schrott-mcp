@@ -85,7 +85,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 /// Anything unlisted returns None (loud skip at the call site).
 ///
 /// Catalog-gap proposals (do NOT cram):
-/// - "Arbeitsspeicher mit Gold-/Silberkante" → new `ram` material.
+/// - "Arbeitsspeicher mit Gold-/Silberkante" → `ram` material (gold/silver edge as variant).
 /// - "Plastik CPU …" / "Keramik CPU …" → new `cpu` material.
 /// - "Festplatten / HDD", "Laufwerke / LW", "Netzteile … / NT±",
 ///   "Computer und Laptops komplett" → new `e-schrott-geraete` material?
@@ -113,6 +113,14 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         }
     } else if l.contains("steckkarte") {
         Some(("platinen", "Steckkarte"))
+    } else if l.contains("arbeitsspeicher") {
+        // RAM modules are their own material; the fallback table records
+        // platinen acceptance alongside.
+        if l.contains("silber") {
+            Some(("ram", "Silberkante"))
+        } else {
+            Some(("ram", "Goldkante"))
+        }
     } else {
         None
     }
@@ -539,16 +547,26 @@ mod tests {
             "Laufwerke / LW :",
             "Computer-Stecker / PC-Stecker :",
             "gemischte PC-Stecker",
-            "Arbeitsspeicher mit Goldkante :",
             "Plastik CPU :",
             "Plastik CPU mit Kühlplatte :",
             "Computer und Laptops komplett ( unberaubt ) :",
-            "Arbeitsspeicher mit Silberkante :",
             "Keramik CPU mit Goldecap :",
             "Keramik CPU Intel / AMD :",
         ] {
             assert_eq!(grade_for(label), None, "{label}");
         }
+    }
+
+    #[test]
+    fn arbeitsspeicher_maps_to_ram() {
+        assert_eq!(
+            grade_for("Arbeitsspeicher mit Goldkante :"),
+            Some(("ram", "Goldkante"))
+        );
+        assert_eq!(
+            grade_for("Arbeitsspeicher mit Silberkante :"),
+            Some(("ram", "Silberkante"))
+        );
     }
 
     #[test]

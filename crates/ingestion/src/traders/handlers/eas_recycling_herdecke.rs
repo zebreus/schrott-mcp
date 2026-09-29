@@ -11,14 +11,16 @@
 //! - `/ankaufspreise/altmetalle/` (15 blocks: Millberry 7,40, Raff 6,20,
 //!   Messing 3,60, Zinn 27,80, Kabel 2,20 €/kg)
 //!
-//! Deliberate mapping (Frisch precedent: CPUs/RAM/whole devices have no
-//! catalog material and skip loudly — no `cpu`/`ram`/`e-schrott-geraete`
+//! Deliberate mapping (Frisch precedent: CPUs/whole devices have no
+//! catalog material and skip loudly — no `cpu`/`e-schrott-geraete`
 //! invention; vedder precedent: silver-plated cutlery is not `silber`,
-//! mixed Al-Cu coolers are not a catalog alloy):
+//! mixed Al-Cu coolers are not a catalog alloy; RAM modules are their
+//! own `ram` material):
 //! - Leiterplatten/Steckkarten/Festplatten-/Laufwerk-/Handy-Platinen and
 //!   Rückwände → `platinen` (trader grade in `variant`). Unknown future
 //!   Leiterplatten grades skip loudly (no silent `''` collapse).
-//! - Arbeitsspeicher (Gold-/Silberkante, mit/ohne Alu), Slot-/Kunststoff-/
+//! - Arbeitsspeicher (Gold-/Silberkante, mit/ohne Alu) → `ram`.
+//! - Slot-/Kunststoff-/
 //!   Keramik-Prozessoren, ICs/Eprom, Handys/Smartphones, Computer/Laptops/
 //!   Server, Netzteile, Laufwerke, Festplatten (whole), IDE-Kabel/Stecker,
 //!   Ablenkeinheiten, Tastaturen, Drucker → `None` (loud skip).
@@ -296,7 +298,9 @@ fn inline_label(p: &ElementRef, strong: &Selector) -> Option<String> {
 fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
-    // Platinen family — the only E-Schrott with catalog material.
+    // Platinen family. RAM modules are their own material now (`ram`,
+    // gold/silver edge as variant); the fallback table records platinen
+    // acceptance alongside.
     if l.contains("festplatten platinen") || l.contains("festplatte platine") {
         Some(("festplatten", "Festplatte"))
     } else if l.contains("laufwerk platinen") || l.contains("laufwerk-platine") {
@@ -313,6 +317,16 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         }
     } else if l.contains("rückw") || l.contains("rueckw") {
         Some(("platinen", "Rückwände"))
+    } else if l.contains("arbeitsspeicher") || (l.contains("ram-") || l.contains(" ram ")) {
+        // RAM modules are their own material; the fallback table records
+        // platinen acceptance alongside. Variants keep trader wording.
+        if l.contains("silber") {
+            Some(("ram", "Silberkante"))
+        } else if l.contains("aluminium") {
+            Some(("ram", "Goldkante mit Aluminium"))
+        } else {
+            Some(("ram", "Goldkante"))
+        }
     } else if l.contains("leiterplatte") || l.contains("leiterplatine") {
         // "1A ++" contains "1A +" as a substring — longest first.
         if l.contains("1a ++") {
@@ -715,13 +729,13 @@ mod tests {
             grade_for("Handy-Leiterplatten"),
             Some(("handys", "Handy"))
         );
-        // No catalog material → loud skip (Frisch precedent).
-        assert_eq!(grade_for("Arbeitsspeicher Goldkante"), None);
+        // RAM has its own material now (fallback records platinen).
+        assert_eq!(grade_for("Arbeitsspeicher Goldkante"), Some(("ram", "Goldkante")));
         assert_eq!(
             grade_for("Arbeitsspeicher Goldkante mit Aluminium"),
-            None
+            Some(("ram", "Goldkante mit Aluminium"))
         );
-        assert_eq!(grade_for("Arbeitsspeicher Silberkante"), None);
+        assert_eq!(grade_for("Arbeitsspeicher Silberkante"), Some(("ram", "Silberkante")));
         assert_eq!(grade_for("Slot Prozessoren"), None);
         assert_eq!(
             grade_for("Kunststoffprozessoren mit Kupferkühler"),

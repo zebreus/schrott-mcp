@@ -117,7 +117,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 /// Catalog-gap proposals (do NOT cram):
 /// - "Keramik/Kunststoff CPU …", "SUN Keramik" → new `cpu` material
 ///   (ceramic/goldcap/plastic are own grades).
-/// - "Speicherkarten mit Gold/Silberkante" → new `ram` material.
+/// - "Speicherkarten mit Gold/Silberkante" → `ram` material (gold/silver edge as variant).
 /// - "Smartphones/Handys/Computer/Netzteile/Laptops/Lüfter/Rauchmelder/
 ///   Laufwerke/Festplatten" → new `e-schrott-geraete` material.
 /// - "Nickel …" → new `nickel` material.
@@ -139,7 +139,15 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         return None;
     }
     if l.contains("speicherkarte") {
-        return None;
+        // RAM modules are their own material; the fallback table records
+        // platinen acceptance alongside.
+        if l.contains("silber") {
+            return Some(("ram", "Silberkante"));
+        } else if l.contains("alurahmen") {
+            return Some(("ram", "Goldkante mit Alurahmen"));
+        } else {
+            return Some(("ram", "Goldkante"));
+        }
     }
     if l.contains("handyplatinen") {
         return Some(("handys", "Handy"));
@@ -1100,6 +1108,18 @@ mod tests {
             grade_for("Stahlspäne"),
             Some(("mischschrott", "Stahlspäne"))
         );
+        assert_eq!(
+            grade_for("Speicherkarten mit Goldkante"),
+            Some(("ram", "Goldkante"))
+        );
+        assert_eq!(
+            grade_for("Speicherkarten mit Goldkante mit Alurahmen"),
+            Some(("ram", "Goldkante mit Alurahmen"))
+        );
+        assert_eq!(
+            grade_for("Speicherkarten mit Silberkante"),
+            Some(("ram", "Silberkante"))
+        );
         // … and loudly skipped (no catalog material, proposals above).
         for l in [
             "Keramik CPU mit Kühlkörper",
@@ -1116,9 +1136,6 @@ mod tests {
             "Kunststoff CPU schwarz",
             "SUN Keramik",
             "Stecker blank",
-            "Speicherkarten mit Goldkante",
-            "Speicherkarten mit Goldkante mit Alurahmen",
-            "Speicherkarten mit Silberkante",
             "Festplatten",
             "Smartphones ohne Akku",
             "Smartphones mit Akku",

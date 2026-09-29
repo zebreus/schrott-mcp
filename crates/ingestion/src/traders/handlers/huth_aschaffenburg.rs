@@ -25,7 +25,7 @@
 //! - "Silver contacts" (3-5 €/kg) must NOT map to `silber`: the catalog
 //!   unit is EUR/g, so that mapping would be a 1000× error. Loud skip.
 //! - Mixed-material coolers (Cu-brass, Alu, Alu-Cu) and batteries/CPUs/
-//!   phones/disks have own catalog entries (handys/festplatten) or skip loudly, never guesses.
+//!   phones/disks/ram have own catalog entries (handys/festplatten/ram) or skip loudly, never guesses.
 
 use std::collections::HashSet;
 
@@ -239,13 +239,14 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
             return None;
         }
     } else if l.contains("ram") {
-        // RAM sticks are populated boards → platinen. Checked before the
-        // "silver contacts" trap below: that row quotes €/kg while the
-        // `silber` catalog unit is EUR/g.
+        // RAM sticks are their own catalog material (gold/silver contacts
+        // as variants); the fallback table records platinen acceptance.
+        // Checked before the "silver contacts" trap below: that row quotes
+        // €/kg while the `silber` catalog unit is EUR/g.
         if l.contains("gold") {
-            ("platinen", "RAM, gold contacts")
+            ("ram", "RAM, gold contacts")
         } else {
-            ("platinen", "RAM, silver contacts")
+            ("ram", "RAM, silver contacts")
         }
     } else if l.contains("board") {
         if l.contains("phone") {
@@ -1208,11 +1209,11 @@ mod tests {
         );
         assert_eq!(
             grade_for("RAM, with gold contacts", "from 30 kg"),
-            Some(("platinen", "RAM, gold contacts, from 30 kg"))
+            Some(("ram", "RAM, gold contacts, from 30 kg"))
         );
         assert_eq!(
             grade_for("RAM, with silver contacts", "from 100 kg"),
-            Some(("platinen", "RAM, silver contacts, from 100 kg"))
+            Some(("ram", "RAM, silver contacts, from 100 kg"))
         );
         assert_eq!(
             grade_for("Mobile phone, smartphone boards", "from 200 kg"),

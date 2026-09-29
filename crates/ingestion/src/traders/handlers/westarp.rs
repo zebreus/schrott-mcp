@@ -251,8 +251,16 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         } else {
             Some(("platinen", ""))
         }
+    } else if l.contains("ram") && !l.contains("keramik") {
+        // RAM modules are their own material (gold vs. silver contacts
+        // price apart); the fallback table records platinen acceptance
+        // alongside. (CPUs stay unmapped below.)
+        if l.contains("silber") || l.contains("silver") {
+            Some(("ram", "Silberkontakte"))
+        } else {
+            Some(("ram", "Goldkontakte"))
+        }
     } else if l.contains("cpu")
-        || l.contains("ram")
         || l.contains("festplatte")
         || l.contains("laufwerk")
         || l.contains("netzteil")
@@ -290,8 +298,8 @@ fn skip_reason(label: &str) -> &'static str {
     let l = l.as_str();
     if l.contains("kühler") || l.contains("kuehler") {
         "Mischprodukt ohne Katalogmaterial"
-    } else if l.contains("cpu") || l.contains("ram") {
-        "kein CPU/RAM-Material im Katalog"
+    } else if l.contains("cpu") {
+        "kein CPU-Material im Katalog"
     } else if l.contains("silberkontakt") {
         "Silber in EUR/g, Seite nennt EUR/kg"
     } else if l.contains("trafo") {
@@ -775,18 +783,18 @@ mod tests {
         for label in mapped {
             let l = label.to_lowercase();
             let is_skip = grade_for(label).is_none();
-            // Erwartete Skips (laut, mit Grund): Kühler, CPUs/RAM/Geräte,
+            // Erwartete Skips (laut, mit Grund): Kühler, CPUs/Geräte,
             // Batterien, Tresore/Muffen, Silberkontakte, Trafos, Späne.
+            // RAM hat eigenes Material (Gold-/Silberkontakte als Variante).
             let expect_skip = l.contains("kühler")
                 || l.contains("kuehler")
                 || l.contains("cpu")
-                || l.contains("ram")
                 || (l.contains("handy") && !l.contains("platine"))
                 || (l.contains("smartphone") && !l.contains("platine"))
                 || l.contains("festplatte")
                 || l.contains("laufwerk")
                 || l.contains("netzteil")
-                || l.contains("silberkontakt")
+                || (l.contains("silberkontakt") && !l.contains("ram"))
                 || l.contains("trafo")
                 || l.contains("elektronikschrott")
                 || l.contains("unberaubt")

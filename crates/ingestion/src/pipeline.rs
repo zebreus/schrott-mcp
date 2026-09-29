@@ -313,6 +313,13 @@ const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
         "Keramiksubstrat-Platinen (weiß/braun); Hochwert-Sonderfraktion.",
     ),
     (
+        "ram",
+        "Arbeitsspeicher / RAM-Module",
+        "elektronik",
+        "EUR/kg",
+        "RAM-Module (Gold-/Silberkontakte als Variante); gelten zusätzlich als Leiterplatten-Annahme (platinen).",
+    ),
+    (
         "katalysatoren",
         "Katalysatoren (Keramik)",
         "elektronik",
