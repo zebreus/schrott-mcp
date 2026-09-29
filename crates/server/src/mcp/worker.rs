@@ -166,6 +166,14 @@ pub async fn run_query(
             Ok(Ok(t)) => t,
         };
     if !status.success() {
+        // The worker prints {"error": "..."} before exiting — surface that
+        // instead of a generic death notice, so callers know whether to
+        // rephrase (validation) or retry (crash).
+        if let Ok(reply) = serde_json::from_slice::<WireReply>(&out) {
+            if let Some(message) = reply.error {
+                return Err(WorkerError::Rejected(message));
+            }
+        }
         tracing::warn!(
             "query worker died: status={status} stderr={}",
             String::from_utf8_lossy(&err)

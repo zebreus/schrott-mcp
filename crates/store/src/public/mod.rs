@@ -160,10 +160,16 @@ pub fn validate_readonly_sql(sql: &str) -> Result<(), StoreError> {
     if sql.trim().is_empty() {
         return Err(StoreError::Rejected("empty query"));
     }
-    if sql.contains(';') {
-        return Err(StoreError::Rejected(
-            "multiple statements are not allowed; send one SELECT at a time",
-        ));
+    // Semicolons inside string literals are data, not statement separators
+    // ("%;%" must work) — look at literal-stripped code and allow at most
+    // a trailing terminator. Anything after it is stacking.
+    let code = strip_literals(sql);
+    if let Some(idx) = code.find(';') {
+        if !code[idx + 1..].trim().is_empty() {
+            return Err(StoreError::Rejected(
+                "multiple statements are not allowed; send one SELECT at a time",
+            ));
+        }
     }
     let body = strip_leading_comments(sql);
     let first = body
@@ -352,7 +358,12 @@ mod tests {
         assert!(validate_readonly_sql("").is_err());
         assert!(validate_readonly_sql("DROP TABLE traders").is_err());
         assert!(validate_readonly_sql("SELECT 1; DELETE FROM prices").is_err());
-        assert!(validate_readonly_sql("SELECT 1;").is_err());
+        // A lone trailing terminator is fine; only stacking is out.
+        assert!(validate_readonly_sql("SELECT 1;").is_ok());
+        // Semicolons inside literals are data, not separators.
+        assert!(validate_readonly_sql("SELECT COUNT(*) FROM traders WHERE city LIKE '%;%'").is_ok());
+        assert!(validate_readonly_sql("SELECT group_concat(slug, '; ') FROM traders").is_ok());
+        assert!(validate_readonly_sql("SELECT 'a;b'; SELECT 2").is_err());
         assert!(validate_readonly_sql("WITH x AS (SELECT 1) UPDATE prices SET price=1.0").is_err());
         assert!(validate_readonly_sql("PRAGMA table_info(traders)").is_err());
         assert!(validate_readonly_sql("EXPLAIN SELECT 1").is_err());
