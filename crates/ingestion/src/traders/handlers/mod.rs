@@ -93,6 +93,7 @@ pub mod quell;
 pub mod rheinische_berlin_kudamm;
 pub mod rheinische_berlin_mitte;
 pub mod rheinische_bremen;
+pub mod rheinische_hamburg_frankfurt_wiesbaden;
 pub mod rheinische_kaiserslautern;
 pub mod rheinische_paderborn;
 pub mod rheinische_saarbruecken;
@@ -223,6 +224,9 @@ vedder::handler(),
         rheinische_berlin_kudamm::handler(),
         rheinische_berlin_mitte::handler(),
         rheinische_bremen::handler(),
+        rheinische_hamburg_frankfurt_wiesbaden::handler_hamburg(),
+        rheinische_hamburg_frankfurt_wiesbaden::handler_frankfurt(),
+        rheinische_hamburg_frankfurt_wiesbaden::handler_wiesbaden(),
         rheinische_kaiserslautern::handler(),
         rheinische_paderborn::handler(),
         rheinische_saarbruecken::handler(),
