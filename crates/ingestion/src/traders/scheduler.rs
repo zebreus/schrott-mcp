@@ -266,6 +266,113 @@ mod tests {
         assert!(span > chrono::Duration::minutes(30), "span {span}");
     }
 
+    #[tokio::test]
+    async fn fallback_acceptance_recorded_without_invented_prices() {
+        use crate::traders::{HandlerOutcome, ScrapedPrice};
+        use schrott_mcp_store::{NewMaterial, NewTrader};
+        let dir = std::env::temp_dir().join(format!(
+            "schrott-fallback-{}",
+            std::process::id()
+        ));
+        let _ = std::fs::remove_dir_all(&dir);
+        let public = PublicDb::open(&dir).expect("db");
+        let internal = InternalDb::open(&dir).expect("internal");
+        let now = "2026-09-29T00:00:00Z";
+        public
+            .upsert_trader(&NewTrader {
+                slug: "t-ram",
+                name: "T",
+                trader_type: "schrotthaendler",
+                description: "",
+                street: "",
+                postcode: "",
+                city: "C",
+                state: "BE",
+                country: "DE",
+                lat: None,
+                lon: None,
+                phone: "",
+                email: "",
+                website: "",
+                website_status: "unbekannt",
+                website_checked_at: "",
+                opening_hours: "",
+                dropoff_json: "{}",
+                pickup_json: "{}",
+                min_quantity_kg: None,
+                max_quantity_kg: None,
+                certifications: "[]",
+                status: "aktiv",
+                notes: "",
+                extra_json: "{}",
+                now,
+            })
+            .expect("trader");
+        for (slug, cat) in [("ram", "elektronik"), ("platinen", "elektronik")] {
+            public
+                .upsert_material(&NewMaterial {
+                    slug,
+                    name_de: slug,
+                    category: cat,
+                    unit: "EUR/kg",
+                    description: "",
+                    updated_at: now,
+                })
+                .expect("material");
+        }
+        let out = HandlerOutcome {
+            prices: vec![ScrapedPrice {
+                material: "ram",
+                variant: "Goldkante",
+                price: 70.0,
+                currency: "EUR",
+                unit: "EUR/kg",
+                price_kind: "exact",
+                price_min: None,
+                price_max: None,
+                confidence: Some(1.0),
+                label: "RAM Goldkante".to_owned(),
+            }],
+            acceptances: vec![],
+            trader_info: TraderInfo::default(),
+            website_alive: false,
+            skipped_labels: vec![],
+            fetch_url: "https://example.test/".to_owned(),
+            status_code: 200,
+            byte_len: 10,
+            published_at: None,
+        };
+        let summary = super::super::record(
+            &public,
+            &internal,
+            "t-ram",
+            &out,
+            &chrono::DateTime::parse_from_rfc3339(now)
+                .unwrap()
+                .with_timezone(&chrono::Utc),
+        )
+        .await
+        .expect("record");
+        assert_eq!(summary.recorded, 1);
+        // No invented platinen price …
+        let plat = public
+            .find_material_id("platinen")
+            .expect("find")
+            .expect("exists");
+        let tid = public.find_trader_id("t-ram").expect("t").expect("t");
+        assert!(public
+            .current_price_for(tid, plat, "")
+            .expect("q")
+            .is_none());
+        // … but a documented fallback acceptance exists.
+        let acc = public
+            .existing_acceptance(tid, plat)
+            .expect("q")
+            .expect("fallback acceptance");
+        assert!(acc.0);
+        assert!(acc.1.contains("ram"), "conditions: {}", acc.1);
+    }
+
     #[test]
     fn daily_times_pick_next_berlin_occurrence() {
         // 12:00 UTC = 14:00 Berlin (CEST): next of 08:00/16:00 is 16:00.
