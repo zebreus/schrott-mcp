@@ -623,7 +623,7 @@ Stand: 2026-09-27. Audit der Kandidatenliste /tmp/opencode/audit/nw.md (~330 Zei
 | Arbitrage Recycling | Köln (0221) | https://arbitrage-recycling.com | E-Schrott-/Batterie-Ankauf, Rücknahme, Logistik, v.a. Gewerbe | ja |
 | Rohstoffhandel Rheinland GmbH | Rheinberg-Borth, Xantener Str. 235 (bereits R4e-unklar) | https://www.rohstoffhandel-rheinland.de NEU verifiziert | Kat + Altmetallankauf Spitzenpreise, eigener Schrottplatz, Efb — UPGRADE zu ja | ja |
 | Autoverwertung Viersen | Viersen | https://autoverwertung-viersen.top | Schrottauto-Ankauf/Entsorgung | ja (Auto) |
-| El-Lahib / Lahib (Familie; inkl. „Lahib HB“) | Herne (Hermannstr. 16 / Emscherstr. 86) + Bochum | https://schrott-lahib.jimdosite.com — TOT | NE-/Eisen-/E-Motoren-Ankauf (Jimdo), AV Mahmod El-Lahib Bochum — Klärfall aufgelöst: ein Familienverbund | ja |
+| El-Lahib / Lahib (Familie; inkl. „Lahib HB“) | Herne (Hermannstr. 16 / Emscherstr. 86) + Bochum | https://schrott-lahib.jimdosite.com — blockiert (Jimdo-403, Bot-Wall, 29.09.2026) | NE-/Eisen-/E-Motoren-Ankauf (Jimdo), AV Mahmod El-Lahib Bochum — Klärfall aufgelöst: ein Familienverbund | ja |
 | PC-Schrott 24 | Troisdorf, Am Senkelsgraben 26, 53842 (Vorlage: Adam-Riese-Str. 13a; 01577 5305555, 11880/Cylex) | keine Website verifiziert | E-Schrott/Computerschrott („Schrotthändler“ lt. Cylex), Entsorgungsbetrieb — E-Schrott-Aufnahme belegt, Ankauf unbelegt | unklar |
 | Weee & Pm rec Management GmbH | Münster, Parkallee 40, 48155 | keine Website verifiziert | HRB 19684 AG Münster, aktiv (Gründung 2021); WEEE (= E-Schrott) + PM (= Edelmetalle) im Namen, Branchen Großhandel/Unternehmensberatung — E-Schrott-Indiz, kein Ankaufbeleg | unklar |
 | Johny | Duisburg-Ruhrort | keine Website verifiziert | Schrott (GS) | unklar |
