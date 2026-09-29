@@ -378,7 +378,6 @@ schneider-recycling.de → schneider-recycling.com (Kandidat, ok). Bot-Schutz (l
 | Matthias Alten | Trier-West 54294, Andreas-Hoevel-Str. 6 | keine | Schrotthandel | unklar | Alten-Familie Trier-Zweig (NEU) |
 | Schrotthandel S. Alten | Koblenz 56070, St.-Maternus-Str. | keine | Schrotthandel | unklar | Alten-Zweig (NEU) |
 | Schrotthandel S. Hutmacher | Rivenich 54518, Weinstr. 3 | keine | Schrotthandel | unklar | Hutmacher-Zweig Mosel, ungleich Trier-Stamm (NEU) |
-| Lagerin R. Alteisen und Altmetalle | Mainz-Kastel 55252, An der Gabelung 28 | keine | Alteisen/Altmetalle | unklar | dritte Lagerin-Entität neben HLR + Metall- & Rohstoffhandel Lagerin (beide Seed) |
 
 ## Nachtrag Wide-Net PROSE-Cluster (27.09.2026)
 

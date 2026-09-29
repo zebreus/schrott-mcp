@@ -4725,31 +4725,6 @@
   }
  },
  {
-  "slug": "rp-mainz-kastel-55252-lagerin-r-alteisen-und-altmetalle",
-  "name": "Lagerin R. Alteisen und Altmetalle",
-  "trader_type": "schrotthaendler",
-  "description": "",
-  "street": "",
-  "postcode": "",
-  "phone": "",
-  "email": "",
-  "opening_hours": "",
-  "city": "Mainz-Kastel 55252",
-  "state": "RP",
-  "website": "",
-  "website_status": "",
-  "dropoff_json": "",
-  "pickup_json": "",
-  "status": "pruefung",
-  "notes": "Alteisen/Altmetalle | urspr. Website-Angabe: keine | Adresse: Mainz-Kastel 55252, An der Gabelung 28",
-  "provenance": {
-   "seed_file": "rp",
-   "section": "Nachtrag Wide-Net (27.09.2026)",
-   "ankauf_raw": "unklar",
-   "origin": "table"
-  }
- },
- {
   "slug": "rp-bingen-schrottabholung-bingen",
   "name": "Schrottabholung-Bingen",
   "trader_type": "schrotthaendler",
