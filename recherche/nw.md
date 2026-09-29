@@ -377,7 +377,7 @@ Dortmund/Duisburg/Gelsenkirchen-Profile waren per Fetch blockiert (nur R1/R2-Sta
 | Schrott- und Metallhandel J. Missal | Essen | keine gefunden | Kalthofweg 4, 0170-Nr. (s. Merge-Notiz C8) | mobil/unklar |
 | Schrotthändler Plus | Bochum-Wattenscheid | keine gefunden | Hochstr. 28, 01573-Nr. (2 Profile, Dublette) | mobil/unklar |
 | Schrottabholung Nagel | Bochum | keine gefunden | Hattinger Str. 272b, 0176-Nr. | mobil/unklar |
-| Schrottabholung Ankauf – Karlos Prosche | Bochum-Wattenscheid | keine gefunden | Elisabethstr. 20, 0174-Nr. | mobil/unklar |
+| Schrottabholung Ankauf – Karlos Prosche | Bochum-Wattenscheid | https://schrottabholung-ankauf.de | Elisabethstr. 20, 44866 Bochum (Impressum), 0174-Nr.; Seed-Dublette Mülheim/Freialdenhoven hier konsolidiert | mobil/ja |
 | Schrotthändler #1 | Bochum | keine gefunden | Paulstr. 9d, 0176-Nr. | mobil/unklar |
 | Schrottankauf Klar | Bochum | keine gefunden | Robertstr. 1, 0163-Nr. | mobil/unklar |
 | Aktas Schrott | Bochum | keine gefunden | Hofsteder Str. 135, 0173-Nr. (Backyard-Typ) | mobil/unklar |
@@ -603,7 +603,6 @@ Stand: 2026-09-27. Audit der Kandidatenliste /tmp/opencode/audit/nw.md (~330 Zei
 | Willi Plum u. Sohn GmbH & Co. KG | Wegberg, Friedrich-List-Allee 19, 41844 | https://plum-wegberg.de | Schrott-/Altmetallannahme, Gewerbe + Privatkunden, Container (https://plum-wegberg.de/leistungen-metallankauf-schrottentsorgung-wegberg/) | ja (Annahme) |
 | Metallhandel Mumm GmbH | Korschenbroich-Glehn | https://metallhandel-mumm.de | Metallannahme, Containerverleih, Baustoffe | ja (Annahme) |
 | Prinz (altmetallabholung.de) | Bochum (lt. Vorlage) | https://altmetallabholung.de | Altmetall-Ankauf, Abholung, Entrümpelung, 01525-Nr., mobil | ja |
-| Freialdenhoven (schrottabholung-ankauf.de) | Mülheim (Aktienstr.-Nachfolge ggü. Schüte & Verstappen unverifiziert, Site ohne Impressum) | https://schrottabholung-ankauf.de | NRW-weiter Schrottankauf/Abholung, 0174-Nr. | ja (mobil) |
 | Schrottankauf gegen Bares | Bochum | https://schrottankauf-gegen-bares.de | Bar-Ankauf, kostenlose Abholung/Demontage/Container, mobil | ja |
 | Bellani (Arton Bellani Schrott & Metallhandel) | Einsatz Hilden/Langenfeld/Monheim (Solingen-Zuordnung lt. Vorlage unbestätigt) | https://schrotthaendler22.de | Altmetall-Ankauf + Abholtermine, mobil | ja |
 | Schrotthandel Missal | Essen | https://schrott-in-essen.de | Abholung/Demontage/Brennarbeiten, Kupferkabel (Missal/Metzler-Familie: Seed Zum Oberhof 32 + R3 J. Missal) | ja (mobil) |
@@ -989,7 +988,7 @@ Website tot) — Verzeichnisabgleich steht aus.
 | schrottabholung-top | Bochum | Girondelle 90 | 44799 | n.e. | n.e. | n.e. | https://schrottabholung-top.de |
 | Metallhandel Mumm GmbH | Korschenbroich-Glehn | Dieselstraße 50 | 41352 | 02182 / 570 98 77 oder 78 | info@metallhandel-mumm.de | Mo-Fr 7:30-17:00 | https://metallhandel-mumm.de |
 | Prinz (altmetallabholung.de) | Bochum | Schmechtingstraße 22 | 44809 | 01525 7471273 | schrott@altmetallabholung.de | n.e. | https://altmetallabholung.de/impressum |
-| slug:nw-mulheim-freialdenhoven-schrottabholung-ankauf-de Freialdenhoven (schrottabholung-ankauf.de) | Bochum | Elisabethstraße 20 | 44866 | 0174/8694036 | info@schrottabholung-ankauf.de | n.e. | https://schrottabholung-ankauf.de |
+| slug:nw-bochum-wattenscheid-schrottabholung-ankauf-karlos-prosche Schrottabholung Ankauf – Karlos Prosche | Bochum-Wattenscheid | Elisabethstraße 20 | 44866 | 0174/8694036 | info@schrottabholung-ankauf.de | n.e. | https://schrottabholung-ankauf.de |
 | Schrottankauf gegen Bares | Bochum | Am Kortländer 11 | 44787 | 0176 80355960 | info@schrottankauf-gegen-bares.de | n.e. | https://schrottankauf-gegen-bares.de/impressum |
 | Bellani (Arton Bellani Schrott & Metallhandel) | Langenfeld | Haus Gravener Str. 100 | 40764 | 01520 6169486 | bellani2007@icloud.com | n.e. | https://schrotthaendler22.de |
 | Schrotthandel Missal | Essen | Kalthofweg 4 | 45277 | 0170 354 7895 | schrotthandel-missal@web.de | n.e. | https://schrott-in-essen.de/impressum.html |
