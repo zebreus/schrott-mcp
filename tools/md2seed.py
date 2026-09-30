@@ -640,7 +640,13 @@ def apply_upgrades(entries: list[dict], upgrades: list[dict], stats: dict):
         stats["upgrades_applied"] += 1
 
 
-PRESERVE_KEYS = ("description", "dropoff_json", "pickup_json")
+PRESERVE_KEYS = ("description", "dropoff_json", "pickup_json",
+                 # Trader enrichment (tools/merge_enrichment.py): verified
+                 # website/address/contact data must survive re-imports.
+                 # Scalar rule is fill-if-empty (new research wins); notes
+                 # enrichment is re-applied by merge_enrichment.py.
+                 "website", "website_status", "phone", "email",
+                 "opening_hours", "street", "postcode")
 
 
 def main() -> int:

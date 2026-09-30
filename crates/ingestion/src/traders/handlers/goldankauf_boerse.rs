@@ -111,6 +111,12 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         || l.contains("barren")
         || l.contains("gestempelt")
     {
+        // Chain Sonderpreis ("999er gestempelt im Neuzustand bis 2g")
+        // must not collide with plain "999er Feingold": it gets its own
+        // variant (feedback: Import-Kollision 30.09.2026).
+        if l.contains("gestempelt") {
+            return Some(("gold", "999-gestempelt-bis-2g"));
+        }
         return Some(("gold", fineness(&l)));
     }
     None
@@ -443,7 +449,7 @@ mod tests {
         assert_eq!(grade_for("999er Feinsilber"), Some(("silber", "999")));
         assert_eq!(
             grade_for("999er gestempelt im Neuzustand bis 2g"),
-            Some(("gold", "999"))
+            Some(("gold", "999-gestempelt-bis-2g"))
         );
         assert_eq!(grade_for("999er Platin"), Some(("platin", "999")));
         assert_eq!(grade_for("999er Palladium"), Some(("palladium", "999")));
