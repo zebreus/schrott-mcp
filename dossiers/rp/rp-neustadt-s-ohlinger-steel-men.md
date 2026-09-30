@@ -9,7 +9,7 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: http://www.ohlinger-neustadt.de
+website: ''
 website_status: ''
 status: pruefung
 description: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Entrümpelung, Industrie-Demontage, Alteisen/Altmetalle (GS: "Ankauf"); Standorte Neustadt, Haßloch, Bad Dürkheim, Landau, Speyer, KL
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: Fehlzuordnung — ohlinger-neustadt.de leitet auf Steel-Men GmbH (Entrümpelung/Tatortreinigung, kein Schrotthandel); Website entfernt. Quelle: https://steel-men.de/.]

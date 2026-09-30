@@ -9,9 +9,9 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: http://www.entsorgung-dresden.de
+website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Bunt/Papier, Barankauf
 - sofortige Barauszahlung
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: Fehlzuordnung — entsorgung-dresden.de gehört zu Wertstoffhandel Scharschuch (Nickerner Weg 8, 01257 Dresden), nicht zu David Jakob Freital; Website entfernt, status pruefung (Ankauf unbelegt). Quelle: http://www.entsorgung-dresden.de/impressum/.]

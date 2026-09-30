@@ -3,7 +3,7 @@ slug: mv-duvendiek-18442-dapa
 name: DAPA GmbH
 trader_type: autoverwertung
 state: MV
-city: Duvendiek 18442
+city: Duvendiek
 street: ''
 postcode: ''
 phone: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Abschleppdienst, Autoverwertung, Autoankauf
 - Adresse: Duvendiek 18442, Kranichblick 32 (Klärfall entschieden: Duvendiek, nicht Niepars)
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: city von 'Duvendiek 18442' auf 'Duvendiek' bereinigt (PLZ gehört nicht in den Ort, Feedback 1651). Impressum dapa-hst.de nennt nur Sitz Lüssow/Stralsund (Am Langendorfer Berg 8) — kein Frontmatter-Fill daraus (Stadt-Mismatch); Website bleibt (Name + PLZ-Raum matchen). Quelle: https://www.dapa-hst.de/impressum/.]

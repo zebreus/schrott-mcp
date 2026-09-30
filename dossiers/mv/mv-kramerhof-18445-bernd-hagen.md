@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Abbruch/Baustoffrecycling/Eisen
 - Adresse: Kramerhof 18445
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: bhagen.de-Impressum nicht abrufbar (404), Standorte (Neumünster-Behauptung) unverifiziert; keine Frontmatter-Änderung, status pruefung bleibt. Quelle: https://www.bhagen.de/ (Homepage Bernd Hagen Unternehmensgruppe, 30.09.2026).]

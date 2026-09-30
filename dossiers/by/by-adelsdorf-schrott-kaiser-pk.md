@@ -9,7 +9,7 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.schrottkaiser.de/
+website: ''
 website_status: ''
 status: pruefung
 description: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Abbruch, Autoverwertung, Container/Abschleppdienst
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: Fehlzuordnung — schrottkaiser.de gehört zu Kaiser Lichtenfels (Coburger Str. 109, 96215), nicht nach Adelsdorf; Website entfernt. Quelle: https://www.schrottkaiser.de/ (Footer).]

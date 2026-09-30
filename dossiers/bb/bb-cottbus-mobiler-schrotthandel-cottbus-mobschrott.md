@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: http://mobschrott.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobiler Ankauf, sofort Bezahlung vor Ort
 - Adressbeleg: mobschrott.de/Impressum.htm
+
+### Korrektur 30.09.2026
+
+- [Recherche 30.09.2026: mobschrott.de per Impressum VERIFIZIERT — Sitz 03116 Drebkau, Servicegebiet Cottbus, Tel. 035602 22909 (matcht Dossier), Typ mobil korrekt; website_status aktiv. Quelle: http://mobschrott.de/impressum.html.]
