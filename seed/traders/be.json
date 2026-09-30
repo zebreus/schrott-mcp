@@ -991,7 +991,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "aktiv",
-  "notes": "Autoverwertung | Adresse: Holzstr. 4A, 13359 Berlin | Bezirk: Mitte Adressbeleg: eBay-Profil avn.berlin, Holzstr. 4a (Websuche 28.09.2026)",
+  "notes": "Autoverwertung | Adresse: Holzstr. 4A, 13359 Berlin | Bezirk: Mitte Adressbeleg: eBay-Profil avn.berlin, Holzstr. 4a (Websuche 28.09.2026) | [Recherche 30.09.2026: GelbeSeiten bestätigt Holzstr. 4A, 13359 Berlin, 030 40394959; angeblicher PLZ-Konflikt 13409 durch keine Quelle belegt]",
   "provenance": {
    "seed_file": "be",
    "section": "Schrottankauf Berlin (BE) — Recherche",
@@ -1816,7 +1816,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "unbekannt",
-  "notes": "nur schrottplatz-info (alt) Adresse: Jonasstr. 17, 12053 Berlin | Bezirk: Neukölln Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)",
+  "notes": "nur schrottplatz-info (alt) Adresse: Jonasstr. 17, 12053 Berlin | Bezirk: Neukölln Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg) | [Recherche 30.09.2026: Jonasstr. 17, 12053 Berlin-Neukölln bestätigt via schrottplatz.org (JSON-LD) + schrottplatz-info.de Berlin-Liste; kein Telefon im Web]",
   "provenance": {
    "seed_file": "be",
    "section": "B. Neu, aber \"unsicher\" (nur 1 Verzeichnisquelle, keine Website)",
@@ -2966,7 +2966,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Recycling | Adresse: Mitte, Huttenstr. 22, 10553 Berlin | Bezirk: Mitte Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)",
+  "notes": "Recycling | Adresse: Mitte, Huttenstr. 22, 10553 Berlin | Bezirk: Mitte Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg) | [Recherche 30.09.2026: GelbeSeiten nennt Huttenstr. 22, 10553 Berlin, 030 6005019-3 (Single-Source, Telefon nicht übernommen)]",
   "provenance": {
    "seed_file": "be",
    "section": "A. Kept (Tabelle)",
