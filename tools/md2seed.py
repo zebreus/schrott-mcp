@@ -651,11 +651,29 @@ PRESERVE_KEYS = ("description", "dropoff_json", "pickup_json",
 
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
+    # Dossier-Guard (Pilot seit 30.09.2026): Slugs mit existierendem Dossier
+    # (dossiers/<state>/<slug>.md) werden vom Dossier-Compiler
+    # (tools/dossiers2seed.py) verwaltet — md2seed fasst sie nicht an,
+    # damit Re-Imports hand-kuratierte Dossier-Stände nie überschreiben.
+    dossier_slugs: set[str] = set()
+    dos_dir = ROOT / "dossiers"
+    if dos_dir.is_dir():
+        for f in dos_dir.glob("*/*.md"):
+            try:
+                head = f.read_text(encoding="utf-8")[:800]
+            except OSError:
+                continue
+            m = re.search(r"^slug:\s*(\S+)\s*$", head, re.M)
+            if m:
+                dossier_slugs.add(m.group(1))
     total = 0
     for stem in STATES:
         entries, stats = convert_file(stem)
-        # Never wipe enrichment stored in the committed JSON: carry the
-        # enrichment-owned keys forward by stable slug.
+        # Dossier-Guard (Pilot seit 30.09.2026): Slugs mit existierendem
+        # Dossier (dossiers/<state>/<slug>.md) werden vom Dossier-Compiler
+        # (tools/dossiers2seed.py) verwaltet — md2seed übernimmt für sie die
+        # committed Zeile wortwörtlich, damit Re-Imports hand-kuratierte
+        # Dossier-Stände nie überschreiben (und nichts löschen).
         old_rows = {}
         src = OUT / f"{stem}.json"
         if src.exists():
@@ -663,6 +681,21 @@ def main() -> int:
                 old_rows = {r["slug"]: r for r in json.loads(src.read_text(encoding="utf-8"))}
             except (json.JSONDecodeError, KeyError):
                 old_rows = {}
+        if dossier_slugs:
+            kept = 0
+            for i, e in enumerate(entries):
+                if e["slug"] in dossier_slugs and e["slug"] in old_rows:
+                    entries[i] = old_rows[e["slug"]]
+                    kept += 1
+            if kept:
+                print(f"{stem}: {kept} dossier-verwaltete Slugs behalten")
+                stats["dossier_kept"] = kept
+        # Never wipe enrichment stored in the committed JSON: carry the
+        # enrichment-owned keys forward by stable slug.
+        # (old_rows wurde oben bereits geladen; Dossier-Zeilen sind dort
+        # schon wortwörtlich übernommen und laufen hier unverändert durch,
+        # da alle PRESERVE_KEYS bei ihnen belegt sind — falls doch ein
+        # Dossier-Feld leer wäre, füllt es der Dossier-Compiler, nicht md2seed.)
         for e in entries:
             old = old_rows.get(e["slug"], {})
             for k in PRESERVE_KEYS:
