@@ -5691,7 +5691,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schrott lt. Register | Adresse: Pforzheim [Website-Recherche website: services: Abfallentsorgung; Aktenvernichtung; Container; Shop/BauBag; certifications: Entsorgungsfachbetrieb; Akten-/Datenträgervernichtung; notes: Vanni+Didicher Recycling GmbH & Co. KG; keine eigene Didicher/Vanni-Domain.]",
+  "notes": "Schrott lt. Register | Adresse: Pforzheim [Website-Recherche website: services: Abfallentsorgung; Aktenvernichtung; Container; Shop/BauBag; certifications: Entsorgungsfachbetrieb; Akten-/Datenträgervernichtung; notes: Vanni+Didicher Recycling GmbH & Co. KG; keine eigene Didicher/Vanni-Domain.] [Dedup 30.09.2026: belegte Dublette zu bw-pforzheim-didicher (eine Firma: Vanni + Didicher Recycling GmbH & Co. KG, HRA 700321; beide Slugs behalten wegen Slug-Stabilität); Quelle: vd-recycling.de/vd-impressum]",
   "provenance": {
    "seed_file": "bw",
    "section": "Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)",
@@ -5716,7 +5716,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schrott lt. Register | Adresse: Pforzheim [Website-Recherche website: services: Abfallentsorgung; Aktenvernichtung; Container; Shop/BauBag; certifications: Entsorgungsfachbetrieb; Akten-/Datenträgervernichtung; notes: Vanni+Didicher Recycling GmbH & Co. KG (HRA 700321); Standorte Pforzheim + Illingen.]",
+  "notes": "Schrott lt. Register | Adresse: Pforzheim [Website-Recherche website: services: Abfallentsorgung; Aktenvernichtung; Container; Shop/BauBag; certifications: Entsorgungsfachbetrieb; Akten-/Datenträgervernichtung; notes: Vanni+Didicher Recycling GmbH & Co. KG (HRA 700321); Standorte Pforzheim + Illingen.] [Dedup 30.09.2026: belegte Dublette zu bw-pforzheim-vanni (eine Firma: Vanni + Didicher Recycling GmbH & Co. KG, HRA 700321; beide Slugs behalten wegen Slug-Stabilität); Quelle: vd-recycling.de/vd-impressum]",
   "provenance": {
    "seed_file": "bw",
    "section": "Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)",
