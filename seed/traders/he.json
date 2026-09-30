@@ -5631,7 +5631,7 @@
   "description": "",
   "street": "",
   "postcode": "",
-  "phone": "(0176) 24491080",
+  "phone": "",
   "email": "",
   "opening_hours": "",
   "city": "Bad Homburg",
@@ -5641,7 +5641,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "pruefung",
-  "notes": "Schrottplatz (schrottradar-Profil) – erster Bad-Homburg-Platz [Website-Recherche verzeichnis: services: Schrotthandel; notes: 11880-Verzeichnis (SCHROTT-HG); Sitz Oberursel-Bommersheim, unmittelbar an Bad Homburg angrenzend.]",
+  "notes": "Schrottplatz (schrottradar-Profil) – erster Bad-Homburg-Platz (Verzeichnis-Fund Oberursel-Bommersheim gehört nicht sicher dazu: andere Stadt, kein Identitätsbeleg – 30.09.2026)",
   "provenance": {
    "seed_file": "he",
    "section": "Nachtrag Audit-Runde 2 (27.09.2026)",
