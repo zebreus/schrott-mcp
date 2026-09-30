@@ -52,7 +52,9 @@ def parse_dossier(path: Path) -> dict:
     if yaml is None:
         raise ValueError("pyyaml fehlt (python3 -c 'import yaml')")
     fm = yaml.safe_load(raw_fm) or {}
-    # Timeline-Bullets extrahieren
+    # Timeline-Bullets extrahieren (inkl. umbrochener Folgezeilen:
+    # nicht-leere Zeilen ohne Bullet-/Heading-Marker gehoeren zum
+    # laufenden Bullet — sonst gingen Kurations-Anmerkungen verloren)
     notes = ""
     tl = re.search(r"^## Timeline\s*\n(.*?)(?=^## \S|\Z)", body, re.M | re.S)
     if tl:
@@ -60,8 +62,12 @@ def parse_dossier(path: Path) -> dict:
         for line in tl.group(1).splitlines():
             s = line.strip()
             if s.startswith("- "):
-                bullets.append(re.sub(r"\s+", " ", s[2:].strip()))
-        notes = " | ".join(bullets)[:2000]
+                bullets.append(s[2:].strip())
+            elif s.startswith("#") or not s:
+                continue
+            elif bullets:
+                bullets[-1] += " " + s
+        notes = " | ".join(re.sub(r"\s+", " ", b) for b in bullets)[:2000]
     # H1-Konsistenz (Warnung, kein Fehler)
     h1 = re.search(r"^# (.+)$", body, re.M)
     if h1 and fm.get("name") and h1.group(1).strip() != str(fm["name"]).strip():

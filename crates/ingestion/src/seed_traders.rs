@@ -1,5 +1,6 @@
 //! Trader seed import: versioned JSON (`seed/traders/<state>.json`,
-//! converted from the `recherche/*.md` reports via `tools/md2seed.py`)
+//! GENERATED from the `dossiers/<state>/<slug>.md` dossiers via
+//! `tools/dossiers2seed.py --write` — never hand-edited)
 //! embedded in the binary and applied idempotently on every run.
 //!
 //! Format per entry: slug (STABLE — derived once as

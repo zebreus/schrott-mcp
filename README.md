@@ -91,15 +91,21 @@ Designed for AI agents, superfast queries, and future growth:
 
 ## Trader seed: from research to database
 
-The `recherche/*.md` reports are the human-readable source; the database
-is seeded from versioned JSON derived from them:
+The `dossiers/<state>/<slug>.md` files are the human-readable source (one
+dossier per trader: YAML frontmatter = all scalars, `## Überblick` =
+free-form working notes, `## Timeline` = dated research context); the
+database is seeded from versioned JSON compiled from them:
 
-- `seed/traders/<state>.json` — one entry per trader (slug, name,
-  trader_type, city, state, website, status, notes, provenance).
+- `seed/traders/<state>.json` — GENERATED, never hand-edited. Rebuild
+  after any dossier change: `python3 tools/dossiers2seed.py --write`
+  (dry-run default: without `--write` it only reports diffs).
   Slugs (`<state>-<city>-<name>`) are derived once and never hand-edited,
-  so re-imports update instead of duplicating.
-- `tools/md2seed.py` — the converter (tables + prose register clusters).
-  Re-runnable: `python3 tools/md2seed.py`.
+  so re-compiles update instead of duplicating.
+- `tools/dossiers2seed.py` — the single compiler (frontmatter → scalars,
+  Timeline bullets → `notes`). Retired: `tools/seed2dossiers.py`
+  (one-shot migration) and `tools/md2seed.py` (legacy
+  `recherche/*.md` pipeline); the `recherche/*.md` reports remain as
+  read-only archive.
 - `crates/ingestion/src/seed_traders.rs` — parses/validates the embedded
   JSON and upserts it on every ingestion run. Unchanged rows are skipped
   via a payload hash in `extra_json.seed_hash`, so `updated_at` keeps
@@ -109,10 +115,13 @@ is seeded from versioned JSON derived from them:
 
 ## Keeping the data fresh
 
-1. **Seed updates (quarterly):** re-audit agents edit the JSON directly
-   (or the md reports + re-convert), `cargo test` must pass, merge →
-   rebuild/redeploy → the boot seed applies the diff automatically.
-   The seed never deletes: closures arrive as `status: geschlossen`.
+1. **Seed updates (quarterly):** re-audit agents edit the dossiers
+   (`dossiers/<state>/<slug>.md`: frontmatter scalars, Timeline bullets
+   with `[Recherche DD.MM.YYYY: ...; Quelle: ...]`), recompile
+   (`python3 tools/dossiers2seed.py --write`), `cargo test` must pass,
+   merge → rebuild/redeploy → the boot seed applies the diff
+   automatically. The seed never deletes: closures arrive as
+   `status: geschlossen`.
 2. **Continuous (between audits):** trader-website monitoring by the
    ingestion scrapers (next milestone — refreshes `updated_at`, records
    price observations, flags dead sites), `schrott_feedback` user

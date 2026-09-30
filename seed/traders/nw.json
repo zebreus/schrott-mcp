@@ -16,7 +16,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "aktiv",
-  "notes": "Stahl-/NE-Schrott, Shredder, TSR40-Anlage (Rohstoffinsel 2-10) | Adressbeleg: tsr-recycling.de/standorte + Bibliothek-Zertifikat",
+  "notes": "Stahl-/NE-Schrott, Shredder, TSR40-Anlage (Rohstoffinsel 2-10) [Quelle: seed/nw.json, Section \"Ruhrgebiet – Großrecycler / Stahlwerksnah\"] | Adressbeleg: tsr-recycling.de/standorte + Bibliothek-Zertifikat [Quelle: seed-Notes]",
   "provenance": {
    "seed_file": "nw",
    "section": "Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund, Gelsenkirchen, Lünen, Essen)",

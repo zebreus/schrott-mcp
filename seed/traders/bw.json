@@ -16,7 +16,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "aktiv",
-  "notes": "Schrott/NE-Metalle, Container, Hafenstandort | Größe: mittel–groß",
+  "notes": "Schrott/NE-Metalle, Container, Hafenstandort [Quelle: seed/bw.json, Section \"Region Stuttgart / Mittlerer Neckar\"] | Größe: mittel–groß [Quelle: seed-Notes]",
   "provenance": {
    "seed_file": "bw",
    "section": "Region Stuttgart / Mittlerer Neckar",

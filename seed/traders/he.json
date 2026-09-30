@@ -16,7 +16,7 @@
   "dropoff_json": "",
   "pickup_json": "",
   "status": "aktiv",
-  "notes": "Generalist: Schrott/Altmetall, Kupfer/Messing, Container, Demontage, Abholung",
+  "notes": "Generalist: Schrott/Altmetall, Kupfer/Messing, Container, Demontage, Abholung [Quelle: seed/he.json, Section \"Einträge\"]",
   "provenance": {
    "seed_file": "he",
    "section": "Einträge",
