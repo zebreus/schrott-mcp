@@ -36,6 +36,7 @@ pub mod goldhaus_brb;
 pub mod goldschanze;
 pub mod goldtrans;
 pub mod gouchev;
+pub mod gerwischer;
 pub mod gutzmann;
 pub mod hafen_schrott;
 pub mod hammer_leipzig;
@@ -167,6 +168,7 @@ vedder::handler(),
         goldschanze::handler(),
         goldtrans::handler(),
         gouchev::handler(),
+        gerwischer::handler(),
         gutzmann::handler(),
         hafen_schrott::handler(),
         hammer_leipzig::handler(),
