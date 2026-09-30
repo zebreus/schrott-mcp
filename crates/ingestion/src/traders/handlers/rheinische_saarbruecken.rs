@@ -5,7 +5,7 @@
 //! same page (that block IS the branch's impressum-equivalent — the central
 //! `/impressum/` only covers the Düsseldorf HQ, so it is never used here).
 //!
-//! Slug verified live in `seed/traders/sl.json`
+//! Slug verified live in `dossiers/sl/`
 //! (`sl-saarbrucken-66111-rheinische-scheidestatte-filiale-saarbru`).
 //!
 //! The central Kurse page below carries NO per-gram buying prices — only a

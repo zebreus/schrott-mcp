@@ -5,7 +5,7 @@
 //! same page (that block IS the branch's impressum-equivalent — the central
 //! `/impressum/` only covers the Düsseldorf HQ, so it is never used here).
 //!
-//! Slug verified live in `seed/traders/nw.json`
+//! Slug verified live in `dossiers/nw/`
 //! (`nw-paderborn-rheinische-scheidestatte-filiale`); the seed website is
 //! this branch page (seed omits the trailing slash, canonical live URL
 //! 301-redirects to the slash form used below).

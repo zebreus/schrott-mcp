@@ -5,7 +5,7 @@
 //! same page (that block IS the branch's impressum-equivalent — the central
 //! `/impressum/` only covers the Düsseldorf HQ, so it is never used here).
 //!
-//! Slug verified live in `seed/traders/rp.json`
+//! Slug verified live in `dossiers/rp/`
 //! (`rp-trier-54290-rheinische-scheidestatte-filiale-trier`). The seed
 //! address (Konstantinstraße 8-10) matches exactly this `/filialen/trier/`
 //! page — the separate `/filialen/trier-sued/` page is a different branch

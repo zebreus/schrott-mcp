@@ -93,21 +93,21 @@ Designed for AI agents, superfast queries, and future growth:
 
 The `dossiers/<state>/<slug>.md` files are the human-readable source (one
 dossier per trader: YAML frontmatter = all scalars, `## Überblick` =
-free-form working notes, `## Timeline` = dated research context); the
-database is seeded from versioned JSON compiled from them:
+free-form working notes, `## Timeline` = dated research context) AND the
+direct build input — no JSON detour:
 
-- `seed/traders/<state>.json` — GENERATED, never hand-edited. Rebuild
-  after any dossier change: `python3 tools/dossiers2seed.py --write`
-  (dry-run default: without `--write` it only reports diffs).
-  Slugs (`<state>-<city>-<name>`) are derived once and never hand-edited,
-  so re-compiles update instead of duplicating.
-- `tools/dossiers2seed.py` — the single compiler (frontmatter → scalars,
-  Timeline bullets → `notes`). Retired: `tools/seed2dossiers.py`
-  (one-shot migration) and `tools/md2seed.py` (legacy
-  `recherche/*.md` pipeline); the `recherche/*.md` reports remain as
-  read-only archive.
+- `crates/ingestion/build.rs` — the single compiler (frontmatter →
+  scalars, Timeline bullets → `notes`, zero third-party deps so the build
+  stays offline-capable). It runs on every build, re-runs on any dossier
+  change (`cargo:rerun-if-changed`), and emits one JSON file per state
+  into `$OUT_DIR/seed_traders/` (under `target/`, never committed), which
+  `seed_traders.rs` embeds via `include_str!`. Bad dossiers fail the
+  build LOUDLY (unknown/duplicate keys, block scalars, missing slug).
+  Slugs (`<state>-<city>-<name>`) are derived once and never hand-edited.
+  Retired: `tools/dossiers2seed.py`, `tools/seed2dossiers.py`,
+  `tools/md2seed.py` (legacy `recherche/*.md` pipeline); the
+  `recherche/*.md` reports remain as read-only archive.
 - `crates/ingestion/src/seed_traders.rs` — parses/validates the embedded
-  JSON and upserts it on every ingestion run. Unchanged rows are skipped
   via a payload hash in `extra_json.seed_hash`, so `updated_at` keeps
   meaning "last real change" and `first_seen_at` survives.
 - `cargo test` validates the whole corpus (unique slugs, enum values,
@@ -117,9 +117,8 @@ database is seeded from versioned JSON compiled from them:
 
 1. **Seed updates (quarterly):** re-audit agents edit the dossiers
    (`dossiers/<state>/<slug>.md`: frontmatter scalars, Timeline bullets
-   with `[Recherche DD.MM.YYYY: ...; Quelle: ...]`), recompile
-   (`python3 tools/dossiers2seed.py --write`), `cargo test` must pass,
-   merge → rebuild/redeploy → the boot seed applies the diff
+   with `[Recherche DD.MM.YYYY: ...; Quelle: ...]`), `cargo test` must
+   pass, merge → rebuild/redeploy → the boot seed applies the diff
    automatically. The seed never deletes: closures arrive as
    `status: geschlossen`.
 2. **Continuous (between audits):** trader-website monitoring by the

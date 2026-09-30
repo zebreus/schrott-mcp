@@ -5,7 +5,7 @@
 //! same page (that block IS the branch's impressum-equivalent — the central
 //! `/impressum/` only covers the Düsseldorf HQ, so it is never used here).
 //!
-//! Slug verified live in `seed/traders/be.json`
+//! Slug verified live in `dossiers/be/`
 //! (`be-mitte-rheinische-scheidestatte-berlin-mitte`). This is the
 //! Friedrichstraße branch — the Ku'damm branch (Kurfürstendamm 138) has its
 //! own page and its own handler.

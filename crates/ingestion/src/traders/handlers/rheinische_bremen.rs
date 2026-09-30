@@ -5,7 +5,7 @@
 //! same page (that block IS the branch's impressum-equivalent — the central
 //! `/impressum/` only covers the Düsseldorf HQ, so it is never used here).
 //!
-//! Slug verified live in `seed/traders/hb.json`
+//! Slug verified live in `dossiers/hb/`
 //! (`hb-bremen-28195-rheinische-scheidestatte-bremen`); the seed website is
 //! exactly this branch page.
 //!

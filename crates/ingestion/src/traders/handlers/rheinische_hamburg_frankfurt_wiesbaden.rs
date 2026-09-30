@@ -15,10 +15,10 @@
 //! any other handler file (only `fetch_text` from `super`).
 //!
 //! Slugs verified live in seed files: `hh-altstadt-rheinische-
-//! scheidestatte-filiale-hamburg` (`seed/traders/hh.json`, seed website is
+//! scheidestatte-filiale-hamburg` (`dossiers/hh/`, seed website is
 //! exactly the Hamburg branch page), `he-frankfurt-rheinische-
 //! scheidestatte-filialen-frankf` and `he-wiesbaden-rheinische-
-//! scheidestatte-filialen-frankf` (`seed/traders/he.json`, seed website is
+//! scheidestatte-filialen-frankf` (`dossiers/he/`, seed website is
 //! the bare homepage — the live price/acceptance carriers are the
 //! per-city branch pages below, both HTTP 200 live 29.09.2026).
 //!

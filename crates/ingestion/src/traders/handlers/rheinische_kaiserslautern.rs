@@ -5,7 +5,7 @@
 //! same page (that block IS the branch's impressum-equivalent — the central
 //! `/impressum/` only covers the Düsseldorf HQ, so it is never used here).
 //!
-//! Slug verified live in `seed/traders/rp.json`
+//! Slug verified live in `dossiers/rp/`
 //! (`rp-kaiserslautern-67655-rheinische-scheidestatte-filiale-kaisers`).
 //!
 //! The central Kurse page below carries NO per-gram buying prices — only a

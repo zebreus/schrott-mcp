@@ -1,7 +1,8 @@
-//! Trader seed import: versioned JSON (`seed/traders/<state>.json`,
-//! GENERATED from the `dossiers/<state>/<slug>.md` dossiers via
-//! `tools/dossiers2seed.py --write` — never hand-edited)
-//! embedded in the binary and applied idempotently on every run.
+//! Trader seed import: the `dossiers/<state>/<slug>.md` dossiers are the
+//! single source of truth, compiled at build time by
+//! `crates/ingestion/build.rs` into `$OUT_DIR/seed_traders/<state>.json`
+//! and embedded in the binary — no committed JSON, no hand-editable
+//! intermediate. Applied idempotently on every run.
 //!
 //! Format per entry: slug (STABLE — derived once as
 //! `<state>-<city>-<name>`, never hand-edited), name, trader_type, city,
@@ -20,7 +21,8 @@ use serde::Deserialize;
 
 use schrott_mcp_store::{NewTrader, PublicDb};
 
-/// One seed row, exactly as stored in `seed/traders/*.json`.
+/// One seed row, as compiled at build time from a dossier by
+/// `crates/ingestion/build.rs`.
 /// `description`, `dropoff_json` and `pickup_json` are enrichment-owned:
 /// the importer keeps stored values whenever the seed leaves them empty.
 #[derive(Debug, Clone, Deserialize)]
@@ -88,7 +90,9 @@ pub const STATES: &[&str] = [
 
 macro_rules! seed_files {
     ($($state:literal),*) => {
-        &[$(($state, include_str!(concat!("../../../seed/traders/", $state, ".json")))),*]
+        // Generated at build time by crates/ingestion/build.rs from
+        // dossiers/<state>/*.md — never committed, lives in OUT_DIR only.
+        &[$(($state, include_str!(concat!(env!("OUT_DIR"), "/seed_traders/", $state, ".json")))),*]
     };
 }
 
@@ -113,8 +117,8 @@ pub fn load_seeds() -> Result<Vec<SeedTrader>, String> {
     Ok(all)
 }
 
-/// Validate the whole seed corpus. Used by tests (and missions that
-/// regenerate seeds should run `cargo test` before committing).
+/// Validate the whole seed corpus. Used by tests (dossier changes must
+/// keep `cargo test` green before committing).
 pub fn validate_seeds(traders: &[SeedTrader]) -> Result<(), String> {
     use std::collections::HashSet;
     let mut slugs = HashSet::new();
@@ -217,11 +221,11 @@ fn keep(seed: &str, stored: &str, fallback: &str) -> String {
 /// real changes); unchanged rows are skipped via the stored hash.
 pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::IngestError> {
     let traders = load_seeds().map_err(|detail| super::IngestError::Parse {
-        url: "seed/traders".to_owned(),
+        url: "dossiers".to_owned(),
         detail,
     })?;
     validate_seeds(&traders).map_err(|detail| super::IngestError::Parse {
-        url: "seed/traders".to_owned(),
+        url: "dossiers".to_owned(),
         detail,
     })?;
     let mut wrote = 0;
