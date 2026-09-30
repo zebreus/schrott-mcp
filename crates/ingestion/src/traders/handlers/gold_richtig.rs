@@ -23,7 +23,10 @@ pub const SLUG: &str = "sl-sulzbach-66280-gold-richtig-peter-zytelewski";
 /// loudly (fix the URL) — never guessed, never shared.
 pub const IMPRESSUM_URL: &str = "https://www.sulzbach-goldankauf.de/impressum.html";
 
-pub const URL: &str = "http://www.goldpit.de/gold-ankaufrechner.html";
+pub const URL: &str = "https://www.sulzbach-goldankauf.de/";
+/// History: the rates block used to live at goldpit.de/gold-ankaufrechner.html
+/// (30.09.2026: domain repurposed as marketplace, rechner 404). The trader's
+/// own homepage carries the identical static block, live-verified.
 
 pub fn handler() -> Handler {
     Handler {
