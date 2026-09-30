@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://schrott-roesler.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott-/Metallankauf, Container 1–34 m³
 - Barankauf Tagespreise, Fam.-Betrieb seit 1970
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1863 teilweise — Betreiber-Website live (WordPress): Schrottaufbereitung Roesler (Inhaberin Veronika Roesler), Gewerbering Nord 18, 01900 Grossroehrsdorf OT Bretnig, Tel. 035955 70110, Zeiten Mo-Fr 7-16/Sa 9-12, USt-Id DE 219882585; Creditreform bestaetigt aktiven Gewerbebetrieb (erklaert fehlenden HR-Eintrag) → website aktiv. Adress-/Kontaktdaten nur Betreiber-Einzelbeleg → Felder bleiben leer (Einzelbeleg, unsicher; Werte hier dokumentiert). Quellen: schrott-roesler.de/impressum + /kontakt (live), firmeneintrag.creditreform.de.]

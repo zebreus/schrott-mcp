@@ -9,8 +9,8 @@ postcode: '03116'
 phone: 035602 688
 email: ''
 opening_hours: ''
-website: http://www.schrottwetzel.de
-website_status: ''
+website: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Altmetall/Rohstoffhof, Schrott
 - (Filiale)
 - Adressbeleg: Das Örtliche
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1867 bestaetigt — schrottwetzel.de (ohne Bindestrich) parkt (IONOS/Sedo-Defaultsite, per Direktabruf), gehoert nicht zur Altmetall Wetzel UG Drebkau; Website entknuepft, website_status unbekannt. UG-Bestand per Northdata (HRB Cottbus 14999, Bahnhofstr. 23, 03116 Drebkau) bestaetigt; Adresse/Telefon bleiben (Seed-Bestand). Eigene UG-Website unbelegt (rohstoffhof.de tot; antikwetzel.de abweichender Name/Fokus → Klaerfall, nicht verlinkt). Quellen: curl-Direktabruf, northdata.de, antikwetzel.de/impressum.php.]

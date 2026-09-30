@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: http://www.schrotthandel-kaiser-trier.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Abholung, Container, Demontage, KFZ-Entsorgung; Trier–Eifel–Hunsrück
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1861 teilweise — Betreiber-Website live (Contao): Sascha Kaiser, Pfalzeler Str. 11, 54293 Trier, Tel. 01520 6623504, USt-Id DE 242 6429 64; Leistungen Abholservice + KFZ-Entsorgung belegt → website aktiv. Register-Zweitbeleg fehlt (kein HR-Treffer, Kleinbetrieb) → Adresse/Telefon/E-Mail bleiben leer (Einzelbeleg, unsicher; Werte hier dokumentiert). Namensvetter-Trennung Adelsdorf/Lichtenfels bestaetigt. Quelle: schrotthandel-kaiser-trier.de/impressum.html + /leistungen.html (live).]

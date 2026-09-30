@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://sattler-schrott-metallentsorgung.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Bunt-/Edelmetall-Ankauf, kostenlose Abholung, Demontage, Transporte
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1862 teilweise — Betreiber-Website live (Wix): D. Sattler Schrott und Metallentsorgung, Beethovenweg 1, 63500 Seligenstadt, Tel. 0163/6997236, Zeiten Mo-Fr 7-17/Sa n.V.; Impressum Name+Ort matchen → website aktiv. Register-Zweitbeleg fehlt (nur Namensvetter) → PLZ/Telefon/E-Mail/Zeiten bleiben leer (Einzelbeleg, unsicher; Werte hier dokumentiert, kein Informationsverlust). Lage Froschhausen = Stadtteil von Seligenstadt. Quelle: sattler-schrott-metallentsorgung.de/kontaktimpressum (live).]

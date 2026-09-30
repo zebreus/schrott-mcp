@@ -9,8 +9,8 @@ postcode: '48157'
 phone: 0251 277098 / 0172 5219649
 email: ''
 opening_hours: ''
-website: https://https://schrottplatz-münster.de.de
-website_status: ''
+website: https://schrottplatz-münster.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Metallankauf, Abholung, Demontage (Salzmannstr. 61)
 - Adressbeleg: schrottplatz-münster.de/impressum
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1869 bestaetigt — kaputte Doppel-URL (https://https://…de.de) auf Domain-Root bereinigt; Impressum live: A-Z Recycling, Udo Salzsieder, Coermuehle 4a, 48157 Muenster, Tel. 0251/277098, Mobil 0172/5219649 (Name+Ort matchen, Adresse/Telefon im Dossier bestaetigt) → website aktiv. Quelle: schrottplatz-muenster.de/impressum (live).]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.tsr-recycling.de
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe-/NE-Metalle
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1866 teilweise — TSR-Betreiberseite nennt Gewerbegebiet 2, 49152 Bad Essen, Tel. 05472 8214999 (Abruf teils Bot-Challenge); Handelsregister (HRA 19743 Dortmund) bestaetigt nur Entitaet, kein Standort → Adresse/Telefon bleiben leer (Einzelbeleg, unsicher; Werte hier dokumentiert). Website Root, website_status unbekannt (Filial-Impressum nicht direkt verifizierbar). Quellen: tsr-recycling.de/standorte/schrotthaendler-bad-essen, handelsregister.ai.]
