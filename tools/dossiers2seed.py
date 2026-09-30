@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Dossier-Compiler (SKIZZE, Prototyp-Stand 30.09.2026).
+"""Dossier-Compiler (Stand 30.09.2026, EOL 2026-10-13: md2seed.py entfernt).
 
 Richtung: dossiers/<state>/<slug>.md  ->  seed/traders/<state>.json
 
-Design-Regeln (Vorschlag):
+seed/traders/*.json sind GENERIERT (include_str!-Quelle der Ingestion),
+nie von Hand editieren. Nach Dossier-Aenderungen:
+  python3 tools/dossiers2seed.py --write   (Default ohne --write: Dry-Run)
+dann cargo test, commit, rebuild/redeploy.
+
+Design-Regeln:
   1. Frontmatter = Source of Truth fuer ALLE Skalare (inkl. description).
      Keys 1:1 wie SeedTrader (slug, name, trader_type, state, city, street,
      postcode, phone, email, opening_hours, website, website_status, status,
@@ -17,11 +22,9 @@ Design-Regeln (Vorschlag):
      (wie md2seed.py: notes[:2000]). Wachstum = hinten anhaengen, nie
      umschreiben. Jeder Bullet traegt seine Quelle im Text
      ('[Quelle: ...]' / '[Recherche DD.MM.YYYY: ...; Quelle: ...]').
-  4. md2seed.py-Kompatibilitaet: md2seed.py darf Slugs mit existierendem
-     Dossier nicht mehr anfassen (Guard: Dossier-File existiert -> Zeile
-     ueberspringen, PRESERVE_KEYS greift dort nicht). Dossier-Compiler
-     updated seed-Zeilen in-place by slug; Zeilen ohne Dossier bleiben
-     byte-identisch. Damit ist die Einfuehrung inkrementell.
+  4. Der Compiler updated seed-Zeilen in-place by slug; Zeilen ohne
+     Dossier bleiben byte-identisch (sollte nicht vorkommen: jeder
+     Seed-Slug hat ein Dossier; neue Haendler = neues Dossier anlegen).
 
 Gebrauch: python3 tools/dossiers2seed.py [--write]
   Default = Dry-Run (diff zaehlen, nichts schreiben).
