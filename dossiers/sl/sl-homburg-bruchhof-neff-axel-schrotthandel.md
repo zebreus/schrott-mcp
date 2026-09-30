@@ -4,8 +4,8 @@ name: Neff Axel Schrotthandel
 trader_type: schrotthaendler
 state: SL
 city: Homburg-Bruchhof
-street: ''
-postcode: ''
+street: 'Kaiserslauterer Str. 306'
+postcode: '66424'
 phone: ''
 email: ''
 opening_hours: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Kaiserslauterer Str. 306, 66424 Homburg (Bruchhof) doppelt belegt (Frontmatter gefüllt); Telefone 0171 9180960 + 06841 174980 nur Örtliche (Einzelbeleg, unsicher, kein Fill); Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Neff+Axel&ci=Homburg%2C+Saar + https://www.schrottplatz-info.de/schrottplatz/Homburg/]

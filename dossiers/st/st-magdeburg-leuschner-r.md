@@ -5,8 +5,8 @@ trader_type: schrottplatz
 state: ST
 city: Magdeburg
 street: Klosterbergestr. 20
-postcode: ''
-phone: ''
+postcode: '39104'
+phone: '0391 5209424'
 email: ''
 opening_hours: ''
 website: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (lt. schrottplatz-info)
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Klosterbergestr. 20, 39104 Magdeburg + Tel. (0391) 5209424 dreifach belegt (PLZ/Telefon Frontmatter gefüllt, Straße bereits vorhanden); Quelle: https://www.schrottplatz.org/magdeburg/schrott-leuschner-r-aYEPCb.html + https://www.schrottplatz-info.de/schrottplatz/Magdeburg/Leuschner-R- + https://www.misterwhat.de/company/1571233-leuschner-r-magdeburg]

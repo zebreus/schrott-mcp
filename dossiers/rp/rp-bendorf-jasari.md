@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Welfenweg
 - urspr. Website-Angabe: keine
 - Adresse: Bendorf
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: kein Jasari-Treffer, kein Doppelbeleg, kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/suche/schrotthandel/bendorf]

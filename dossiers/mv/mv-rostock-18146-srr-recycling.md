@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Eisen/NE
 - Adresse: Rostock 18146, Up de Schnur 2
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Up de Schnur 2, 18146 Rostock (Hinrichsdorf) + Tel. 0381 60910-0 nur Einzelbeleg (Das Örtliche, kein Fill); Register (northdata): HRB Rostock 4306, Gegenstand E-Schrott/Kühlgeräte, Status-Flag erloschen → Aktivität zweifelhaft (Einzelbeleg, unsicher); Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=SRR+Recycling&ci=Rostock + https://www.northdata.de/SRR+Recycling+GmbH]

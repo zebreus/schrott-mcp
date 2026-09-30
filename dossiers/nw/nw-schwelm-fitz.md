@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Schwelm
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: kein Fitz-Treffer, kein Doppelbeleg, kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/suche/schrotthandel/schwelm]

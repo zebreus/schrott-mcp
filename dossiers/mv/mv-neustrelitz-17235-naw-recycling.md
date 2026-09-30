@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fraktion unklar
 - Adresse: Neustrelitz 17235
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Kein Beleg (weder Örtliche noch Verzeichnisse noch northdata noch Domain) → miss; Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=NAW+Recycling&ci=Neustrelitz + https://www.schrottplatz-info.de/schrottplatz/Neustrelitz/]

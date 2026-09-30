@@ -4,13 +4,13 @@ name: SRQ Schrott-Recycling Querfurt GmbH
 trader_type: schrottplatz
 state: ST
 city: Querfurt
-street: ''
-postcode: ''
-phone: ''
+street: 'Döcklitzer Tor 53'
+postcode: '06268'
+phone: '034771 22401'
 email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+opening_hours: 'Mo-Mi 07:00-16:00, Do 07:00-17:00, Fr 07:00-15:00'
+website: 'https://www.srq-gmbh.com'
+website_status: 'aktiv'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottrecycling (lt. schrottplatz-info)
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Döcklitzer Tor 53, 06268 Querfurt + Tel. 034771/22401 + Zeiten Mo-Mi 07:00-16:00, Do 07:00-17:00, Fr 07:00-15:00 dreifach belegt (Frontmatter gefüllt); Leistungen: Schrott-/Metallhandel, Altpapier, Container, Entsorgung, Transporte, Demontage/Abriss, Entsorgungsfachbetrieb; Quelle: https://www.srq-gmbh.com/impressum + https://www.schrottplatz-info.de/schrottplatz/Querfurt/SRQ-Schrott-Recycling-Querfurt-GmbH- + https://lokaleschrottplatz.de/srq-schrott-recycling-querfurt-gmbh/]
+- [Recherche 30.09.2026: Website https://www.srq-gmbh.com (Impressum mit Name + Ort + HRB Stendal 210542 verifiziert, website_status aktiv); E-Mail info@srq-gmbh.de nur Firmenwebsite (Einzelbeleg, unsicher); Quelle: https://www.srq-gmbh.com/impressum]

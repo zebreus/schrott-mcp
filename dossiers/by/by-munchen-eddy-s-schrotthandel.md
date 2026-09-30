@@ -4,13 +4,13 @@ name: Eddy's Schrotthandel
 trader_type: schrotthaendler
 state: BY
 city: München
-street: ''
-postcode: ''
-phone: ''
+street: 'Josef-Schlicht-Str. 18'
+postcode: '81245'
+phone: '0152 25168067'
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinstbetrieb)
 - Adresse: München (Josef-Schlicht-Str. 18)
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Josef-Schlicht-Str. 18, 81245 München, Tel 0152 25168067, kein Impressum daher website_status unbekannt; Quelle: https://www.gelbeseiten.de/gsbiz/44bc59eb-f85f-4d12-a896-1025c1d36636; Quelle: https://www.dasoertliche.de/Themen/Eddy-s-Schrotthandel-München-Obermenzing-Josef-Schlicht-Str]

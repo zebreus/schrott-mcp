@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorgung/Recycling
 - Adresse: Karlsruhe (+ Lauda + Efringen) [Website-Recherche website: services: Komplettentsorgung; Schrott/Altmetalle; Container; certifications: Zertifizierter Entsorgungs- & Recycling-Fachbetrieb (Gruppenaussage); customer_types: Privathaushalte, Unternehmen, Kommunen; notes: Niederlassung Lauda (Main-Tauber); kommunale + Industrie-/Gewerbeentsorgung, Wertstoffhandel.]
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Lauda nur Einzelbeleg Tauberstr. 47, 97922 Lauda-Königshofen Tel 09343 6149-0 mit Website http://www.kuehl-gruppe.de abweichend vom Dossier-Preset, Impressum kuehl-entsorgung.de 503, northdata nur HQ Zeppelinstr. 6, 76185 Karlsruhe HRB 102571, Kuehl!=Kuehn beachtet (Einzelbeleg, unsicher), kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/gsbiz/d26f9441-97a5-4575-8c82-ace7e26e112f]

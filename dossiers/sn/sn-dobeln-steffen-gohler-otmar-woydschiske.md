@@ -4,9 +4,9 @@ name: Steffen Göhler & Otmar Woydschiske GbR
 trader_type: sonstige
 state: SN
 city: Döbeln
-street: ''
-postcode: ''
-phone: ''
+street: 'Zur Jahnaquelle 18'
+postcode: '04720'
+phone: '034325 20004'
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Alu/Cu/Edel/Blei/Messing
 - Annahme lt. lokaleschrottplatz
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Zur Jahnaquelle 18, 04720 Döbeln (Präbschütz) + Tel. 034325 20004 doppelt belegt (Frontmatter gefüllt); Leistungen: Fe/Alu/Cu/Edel/Blei/Messing; keine Öffnungszeiten publiziert; Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=G%C3%B6hler+Woydschiske&ci=D%C3%B6beln + https://lokaleschrottplatz.de/steffen-gohler-otmar-woydschiske-gbr-autoverwertung/]

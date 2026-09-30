@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Schwerte
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: kein Pytka-Treffer, kein Doppelbeleg, kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/suche/schrotthandel/schwerte]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Rohstoffhandel
 - Adresse: Kehl, Rheinstr. 75
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: kein Weber-Rohstoff-Treffer, kein Doppelbeleg, kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/suche/schrotthandel/kehl]

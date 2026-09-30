@@ -4,13 +4,13 @@ name: Molter-Hollinger Entsorgungs GmbH
 trader_type: sonstige
 state: SL
 city: Bexbach
-street: ''
-postcode: ''
-phone: ''
+street: 'Kleinottweilerstr. 86'
+postcode: '66450'
+phone: '06826 524333'
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: 'https://molter-hollinger-gmbh.de'
+website_status: 'aktiv'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Container, Recycling, Entsorgungsfachbetrieb
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Kleinottweilerstr. 86, 66450 Bexbach + Tel. 06826 524333 dreifach belegt via Impressum (Frontmatter gefüllt, Website https://molter-hollinger-gmbh.de mit Name + Ort verifiziert, website_status aktiv); HRB Saarbrücken 3804; Leistungen: Container 3-33 cbm, Schrottrecycling, Asbest/Bauschutt/Holz/Sondermüll u.a.; Quelle: https://molter-hollinger-gmbh.de/impressum + https://www.dasoertliche.de/?form_name=search_nat&kw=Molter-Hollinger&ci=Bexbach]
+- [Recherche 30.09.2026: E-Mail info@molter-hollinger-gmbh.de + Zeiten (Container Mo-Fr 7:00-16:30, Sa 7:00-12:00; Büro Mo-Fr 8-12/13-17) nur Firmenwebsite (Einzelbeleg, unsicher); Quelle: https://molter-hollinger-gmbh.de/impressum]

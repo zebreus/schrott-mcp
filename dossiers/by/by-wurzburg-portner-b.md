@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: BY
 city: Würzburg
 street: Holzweg 25
-postcode: ''
-phone: ''
+postcode: '97084'
+phone: '0931 611145'
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinstbetrieb)
 - Adresse: Würzburg (Holzweg 25)
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Holzweg 25, 97084 Würzburg, Tel 0931 611145, kein Impressum daher website_status unbekannt; Quelle: https://www.gelbeseiten.de/gsbiz/b8e08da2-ef90-4bbd-8b71-8ea9be3cdae4; Quelle: https://www.schrottplatz-info.de/schrottplatz/Wuerzburg/Poertner-Bernhard-Rohproduktenhandel]

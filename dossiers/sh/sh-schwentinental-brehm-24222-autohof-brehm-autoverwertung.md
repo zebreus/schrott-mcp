@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (Verzeichnis; Domain-Hinweis ungeklärt)
 - Adresse: Schwentinental-Brehm 24222, Wasserwerksweg 16
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Kein Beleg (kein Örtliche-/Verzeichnis-Treffer, Domains autohof-brehm.de/autohofbrehm.de tot, kein OSM-Eintrag; LokaleSchrottplatz listet nur Firma Butenschön) → miss, Seed-Adresse unbestätigt; Quelle: https://www.schrottplatz-info.de/schrottplatz/Schwentinental/ + https://lokaleschrottplatz.de/schleswig-holstein/schwentinental/]

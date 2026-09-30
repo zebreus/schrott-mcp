@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall-Annahmestelle
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: kein S.L.A-Treffer, kein Doppelbeleg, kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/suche/schrotthandel/ludwigshafen-am-rhein]

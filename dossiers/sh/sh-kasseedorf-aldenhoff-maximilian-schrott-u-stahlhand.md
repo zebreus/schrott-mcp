@@ -4,9 +4,9 @@ name: Aldenhoff Maximilian Schrott- u. Stahlhandel
 trader_type: schrotthaendler
 state: SH
 city: Kasseedorf
-street: ''
-postcode: ''
-phone: ''
+street: 'Krückberg 21 A'
+postcode: '23717'
+phone: '04528 303'
 email: ''
 opening_hours: ''
 website: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott + Stahl (Gelbe Seiten)
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Krückberg 21 A, 23717 Kasseedorf (Sagau) + Tel. 04528 303 doppelt belegt (Frontmatter gefüllt); kein Homepage-Link; Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Aldenhoff&ci=Kasseedorf + https://www.schrottplatz-info.de/schrottplatz/Kasseedorf/Aldenhoff-Maximilian-SchrottHdl-u-StahlHdl-]

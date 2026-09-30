@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottankauf (lt. lokaleschrottplatz)
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Filialadresse Str. des Friedens 339A, 06484 Thale (Einzelbeleg, unsicher, kein Fill); Quelle: https://lokaleschrottplatz.de/schrotthandel-heudeber-gmbh/]
+- [Recherche 30.09.2026: Stammhaus Schrotthandel Heudeber GmbH, Rudolf-Breitscheid-Str. 7, 38855 Heudeber, Tel. 039458/866901, info@schrotthandel-heudeber.de (Impressum + Das Örtliche), Stadt-Mismatch zu Thale → kein Fill; Leistungen: Containerdienst, Altmetall-Ankauf, Demontage/Abbruch, Gerüstbau; Quelle: https://schrotthandel-heudeber.de/impressum/ + https://www.dasoertliche.de/?form_name=search_nat&kw=Schrotthandel+Heudeber&ci=Thale]

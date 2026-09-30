@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Lagern/Behandeln
 - —
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Keine Belege für NL Wurzen (kein Örtliche-/Verzeichnis-Treffer, Domains tot) → miss; Register (Einzelbeleg, unsicher): HQ TiAx Transport und Recycling GmbH, Am Kuhstall 21, 04683 Naunhof, HRB Leipzig 33421, aktiv, kein Fill (Stadt-Mismatch); Quelle: https://www.northdata.de/TiAx+Transport+und+Recycling+GmbH]

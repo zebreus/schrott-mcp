@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Containerdienst
 - Adresse: Aschaffenburg/Alzenau (nur Facebook)
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: AK Containerdienst GmbH nur Einzelbeleg Carl-Zeiss-Str. 37, 63322 Rödermark Tel 06074 6989881, Stadt-Mismatch zu Aschaffenburg/Alzenau daher Strasse/PLZ geskippt (Einzelbeleg, unsicher), kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/suche/containerdienst/alzenau]

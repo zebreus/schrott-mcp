@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Iserlohn [Recherche 30.09.2026: Straße/PLZ/Telefon doppelt belegt (Hans-Werner Kettig); Quelle: https://www.schrottplatz-info.de/schrottplatz/Iserlohn/Kettig-Hans-Werner-Schrotthandel-und-Containerdienst; Quelle: branchen-info.net (Vorrecherche)]
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Im Boden 1, 58644 Iserlohn, Tel (02371) 29913, Hinweis http://www.h-kettig.de (Einzelbeleg, unsicher), h-kettig.de Transportfehler, kein Kettig-Treffer Gelbe Seiten Iserlohn, kein Frontmatter-Fill; Quelle: https://www.schrottplatz-info.de/schrottplatz/Iserlohn/Kettig-Hans-Werner-Schrotthandel-und-Containerdienst]

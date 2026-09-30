@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - schrottplatz-info.de + Gelbe Seiten + Das Örtliche + schrottradar.de
+
+### Recherche 30.09.2026
+
+- [Recherche 30.09.2026: Großkopf Matthias Buntmetallbörse, Waldstr. 22, 17309 Jatznick, Tel. 039741 80461 nur Einzelbeleg (Das Örtliche, kein Fill; Telefon entsprach Seed); OSM bestätigt Gebäude Waldstraße 22, 17309 Jatznick; kein zweites Verzeichnis (schrottplatz-info leer, LokaleSchrottplatz 404); Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Buntmetallb%C3%B6rse&ci=Jatznick]
