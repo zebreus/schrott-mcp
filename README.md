@@ -130,6 +130,30 @@ direct build input — no JSON detour:
    marks heuristic register-cluster parses. Both are queryable and
    shrink with every review pass.
 
+## Feedback triage (schrott_feedback)
+
+User reports are leads, not verdicts — they are often wrong or half-right
+and ALWAYS need deep verification, never binary thinking (postmortem
+30.09.2026: a "website shows a different city" report was correct but
+one-sided — the seed row had merged TWO same-name traders, and unlinking
+the website alone left a phantom entity behind):
+
+1. **Two-sided check.** A mismatch claim confirms only one side. Always
+   verify the other side too: search the claimed address — it may host a
+   *different, real* trader.
+2. **Impressum alone is not enough.** Name + Ort in the impressum proves
+   the website's owner, not that the dossier row IS that owner.
+3. **Namesake/merge check.** Family names (Kaiser, Schmidt, Müller, …)
+   attract conflated rows: search for same-name traders at the claimed
+   address before attributing anything.
+4. **No phantom leftovers.** After unlinking a wrong attribute, re-check
+   that the remaining dossier (name + place) still describes a real
+   entity — otherwise split the row or downgrade to `pruefung` with a
+   Timeline note instead of leaving a plausible-looking fiction.
+5. Every triage decision lands in the dossier Timeline with
+   `[Korrektur DD.MM.YYYY: …; Quelle: …]` including its
+   counter-evidence.
+
 ## Why SQLite and not Postgres?
 
 Single node, zero operations, backups are file copies, and the read/write
