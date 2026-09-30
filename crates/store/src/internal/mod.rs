@@ -6,11 +6,13 @@ use std::sync::Mutex;
 
 use super::error::StoreError;
 
+pub mod geocode;
 pub mod oauth;
 pub mod pipeline;
 pub mod sharing;
 pub mod users;
 
+pub use geocode::geocode_key;
 pub use oauth::{AccessTokenRow, OAuthClientRow, OAuthCodeRow, RefreshTokenRow};
 pub use pipeline::{FetchRecord, RunRow};
 pub use users::{ApiTokenSecret, ApiTokenView, SessionRow, UserRow};
@@ -30,6 +32,7 @@ impl InternalDb {
         conn.execute_batch("PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON;")?;
         // Domain schemas, in dependency order (users first for FK targets).
         conn.execute_batch(users::SCHEMA)?;
+        conn.execute_batch(geocode::SCHEMA)?;
         conn.execute_batch(oauth::SCHEMA)?;
         conn.execute_batch(pipeline::SCHEMA)?;
         conn.execute_batch(sharing::SCHEMA)?;
