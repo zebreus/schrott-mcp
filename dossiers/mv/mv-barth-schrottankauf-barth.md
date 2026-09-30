@@ -34,3 +34,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - lokaleschrottplatz.de
 - [Recherche 30.09.2026: 18356 Barth; Quelle: 11880.com (Verzeichnis)]
+
+### Recherche 30.09.2026
+
+- Gelbe Seiten / Das Telefonbuch / Das Örtliche ohne Treffer für Schrottankauf-Barth / Nelkenstr. 16; Portal-Daten (Nelkenstr. 16, 18356, 01521 8927701) bleiben unverändert, kein Fill.
+- Quelle (Negativsuche): https://www.gelbeseiten.de/suche/Schrott/Barth
+- Quelle (Negativsuche): https://www.dastelefonbuch.de/Suche/Schrott/Barth

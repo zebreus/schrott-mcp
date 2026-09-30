@@ -5,7 +5,7 @@ trader_type: sonstige
 state: RP
 city: Koblenz 56068
 street: ''
-postcode: ''
+postcode: '56068'
 phone: ''
 email: ''
 opening_hours: ''
@@ -33,3 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Branche nicht überliefert
 - Adresse: Koblenz 56068
+
+### Recherche 30.09.2026
+
+- HELLWEGNER eK Edelmetallhandel, 56068 Koblenz, Kategorie Münzen/Edelmetalle (Quellen für PLZ/Ort: https://www.misterwhat.de/company/2728357-hellwegner-ek-edelmetallhandel-koblenz und https://www.oeffnungszeitenbuch.de/filiale/Koblenz-HELLWEGNER%2520eK%2520Edelmetallhandel-3088224A.html)
+- Adress-Konflikt: Firmungstr. 20 (MisterWhat, Tel. 0261 45093171) vs. Löhrstr. 103 (ÖffnungszeitenBuch, Tel. 0261 45093173) — daher weder Straße noch Telefon gesetzt (Einzelbelege, unsicher)
+- Domain silber-frei-haus.de nur bei MisterWhat genannt (Einzelbeleg, unsicher) — keine Website gesetzt (Verzeichnis-Quellen setzen nie Website)
+- Alte Negativbewertungen 2015-2017 (Nichtlieferung trotz Vorkasse) bei MisterWhat — Stand veraltet, als Kontext ohne Beleg-Standard vermerkt; keine Öffnungszeiten, keine E-Mail belegbar

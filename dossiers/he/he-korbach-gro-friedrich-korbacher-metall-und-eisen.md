@@ -4,12 +4,12 @@ name: Groß Friedrich GmbH & Co. KG Korbacher Metall- und Eisenhandel
 trader_type: schrotthaendler
 state: HE
 city: Korbach
-street: ''
-postcode: ''
-phone: ''
+street: 'Am Ziegelgrund 5'
+postcode: '34497'
+phone: 05631 3151
 email: ''
 opening_hours: ''
-website: ''
+website: 'https://www.gross-korbach.de/'
 website_status: ''
 status: aktiv
 description: ''
@@ -32,3 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metall-/Eisenhandel, AV/Autoverschrottung (Portal-Ranking)
+
+### Recherche 30.09.2026
+
+- Fr. Groß GmbH & Co. KG: Am Ziegelgrund 5, 34497 Korbach, Tel. 05631 3151, Fax 05631 4466, Website https://www.gross-korbach.de/ (Frontmatter gefüllt, je Doppelbeleg Firmen-Kontaktseite + Handelsregister/Verzeichnis): https://www.gross-korbach.de/page/kontakt.php + https://www.northdata.de/Friedrich%20Gro%C3%9F%20GmbH%20&%20Co%C2%B7%20KG%20Korbacher%20Metall-%20und%20Eisenhandel,%20Korbach/HRA%20432 (+ HRA 432, AG Korbach)
+- Mail info@gross-korbach.de (Einzelbeleg Homepage-Snippet, unsicher, nicht in Frontmatter): https://www.gross-korbach.de
+- Öffnungszeiten lt. Firma: Mo–Fr 7:00–12:30 und 13:00–16:30, Annahme bis 16:00 (Einzelbeleg Firmen-Quelle, unsicher für Frontmatter): https://www.gross-korbach.de/page/kontakt.php
+- Leistungen: zertifizierter Entsorgungsfachbetrieb — Schrott, Metalle, Altautos, Bauschutt, Containerdienst: https://www.wa-fkb.de/listing/hessen/korbach-1/rohstoffe-recycling/friedrich-gross-gmbh-co-kg

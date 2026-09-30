@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 30.09.2026
+
+- Kein Web-Beleg für Martens, C. in Schortens-Oestringfelde (Gelbe Seiten / Das Telefonbuch / Das Örtliche ohne Treffer) → miss, kein Fill.
+- Quelle (Negativsuche): https://www.gelbeseiten.de/suche/Schrott/Schortens

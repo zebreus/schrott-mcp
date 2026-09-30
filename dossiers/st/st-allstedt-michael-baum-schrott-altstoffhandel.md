@@ -5,8 +5,8 @@ trader_type: schrotthaendler
 state: ST
 city: Allstedt
 street: Sophienstr. 2E
-postcode: ''
-phone: ''
+postcode: '06542'
+phone: '034652 10474'
 email: ''
 opening_hours: ''
 website: ''
@@ -32,3 +32,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Altstoffhandel (lt. Verzeichnis)
+
+### Recherche 30.09.2026
+
+- PLZ 06542 + Telefon 034652 10474 doppelt belegt (Gelbe Seiten + Das Telefonbuch + Das Örtliche); Adresse Sophienstr. 2E bestätigt.
+- Quelle: https://www.gelbeseiten.de/suche/Schrott/Allstedt
+- Quelle: https://www.dastelefonbuch.de/Suche/Schrott/Allstedt

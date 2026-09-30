@@ -33,3 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Nettetal
+
+### Recherche 30.09.2026
+
+- Vorbefund Miss ÜBERHOLT: Alteisen Hoss existiert in Nettetal — 11880-Eintrag Kindt 126, 41334 Nettetal (Schaag), Tel. 02153 739217 + Facebook-Seite Schrotthandel Hoss Nettetal: https://www.11880.com/branchenbuch/nettetal/120674719B54075807/alteisen-hoss.html + https://www.facebook.com/100081172634498
+- Adresse/Telefon je nur EINZELBELEG (11880), daher NICHT in Frontmatter (Beleg-Standard nicht erfüllt): beide (Einzelbeleg, unsicher).
+- Leistungen lt. Facebook: Schrott, Edelmetalle, Computer-/Elektroschrott, KFZ-Entsorgung, Entrümpelungen (Einzelbeleg, unsicher): https://www.facebook.com/100081172634498
+- Hinweis: dasoertliche listet unter Kindt 126 einen anderen Namen (Hoersch Reinhard) — Adresse bleibt unsicher: https://www.dasoertliche.de/Themen/Kindt/Nettetal.htm

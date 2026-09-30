@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/NE
 - v.a. Gewerbe
+
+### Recherche 30.09.2026
+
+- Firmen-Website (Single-Source, kein Fill; Einzelbeleg, unsicher): Hauptsitz Scholz Recycling GmbH, Berndt-Ulrich-Scholz-Str. 1, 73457 Essingen, Tel. +49 (7365) 84-0; Verkauf an Derichebourg 31.07.2026 per Website-News; Leipzig-Filialen nicht verifizierbar (Stadt-Mismatch Essingen vs Leipzig → Straße/PLZ-Skip).
+- Gelbe Seiten / Das Örtliche Leipzig ohne Scholz-Recycling-Treffer.
+- Quelle: https://www.scholz-recycling.com

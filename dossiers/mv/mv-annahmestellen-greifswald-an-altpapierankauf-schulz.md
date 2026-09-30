@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altpapier, Metall, Glas, Altkleider
 - Adresse: Pasewalk + Annahmestellen Greifswald/Anklam/Torgelow
+
+### Recherche 30.09.2026
+
+- Firmen-Website (Single-Source, kein Fill; alles Einzelbeleg, unsicher): Impressum Florian Schulz, Am Schlachthof 12, 17309 Pasewalk, 01748484233, fs@altpapierankauf-schulz.de; Greifswald Am Gorzberg 23, 17489, 10–18 Uhr ungerade KW; Pasewalk Mo/Do 10–15, Fr 10–13, 1. Sa 10–12; Anklam/Torgelow in Planung.
+- Gelbe Seiten / Das Örtliche ohne Schulz-Treffer.
+- Quelle: https://altpapierankauf-schulz.de/

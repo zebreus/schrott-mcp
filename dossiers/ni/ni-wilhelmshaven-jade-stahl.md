@@ -4,9 +4,9 @@ name: JADE-STAHL GmbH
 trader_type: sonstige
 state: NI
 city: Wilhelmshaven
-street: ''
-postcode: ''
-phone: ''
+street: 'Emsstr. 29'
+postcode: '26382'
+phone: '04421 402-0'
 email: ''
 opening_hours: ''
 website: ''
@@ -32,3 +32,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahl/Eisen
+
+### Recherche 30.09.2026
+
+- Emsstr. 29, 26382 + Tel. 04421 402-0: Gelbe Seiten nennt JADE-STAHL; Das Telefonbuch nennt an gleicher Adresse ALBA Metall Nord GmbH (Namens-Caveat, Adress-/Tel-Zuordnung unsicher).
+- Quelle: https://www.gelbeseiten.de/suche/Schrott/Wilhelmshaven
+- Quelle: https://www.dastelefonbuch.de/Suche/Schrott/Wilhelmshaven

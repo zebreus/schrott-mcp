@@ -4,9 +4,9 @@ name: DK Recycling und Roheisen GmbH (Hargreaves)
 trader_type: sonstige
 state: NW
 city: Duisburg
-street: ''
-postcode: ''
-phone: ''
+street: 'Werthauser Str. 182'
+postcode: '47053'
+phone: 0203 60810
 email: ''
 opening_hours: ''
 website: https://www.dk-duisburg.de/
@@ -32,3 +32,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe-Reststoffe + Gießerei-Roheisen (~300 kt/a), Purchase-Portal, Hochfeld/Rhein
+
+### Recherche 30.09.2026
+
+- Adresse Werthauser Str. 182, 47053 Duisburg, Tel. +49 203 60810, Fax +49 203 665173 per Doppelbeleg aus Firmen-Impressum + Verzeichnis (Frontmatter gefüllt, Website bereits gesetzt): https://www.dk-duisburg.de/en/imprint + https://www.yelp.com/biz/dk-recycling-und-roheisen-duisburg
+- Mail info@dk-duisburg.de nur Impressum (Einzelbeleg, unsicher, nicht in Frontmatter): https://www.dk-duisburg.de/en/imprint
+- Profil: B2B Fe-Reststoff-Recycler + Gießerei-Roheisen, kein Privatkunden-Ankauf ersichtlich: http://www.gifa.com/vis/v1/en/exhprofiles/3EK7lPEyRcSM6rMAs6gXVA

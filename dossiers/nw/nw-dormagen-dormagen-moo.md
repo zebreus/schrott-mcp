@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Dormagen
+
+### Recherche 30.09.2026
+
+- MISS bestätigt: kein verifizierbarer Eintrag zu Name/Adresse/Telefon in Verzeichnissen (11880, Gelbe Seiten, cylex, dasoertliche), Handelsregister oder Maps; nur generische mobile Schrottabholungs-SEO-Seiten für Dormagen ohne Namensbezug (u. a. https://schrottabholung-dormagen.de, https://nrw-schrott.de/dormagen.html). Kein Frontmatter-Fill, keine Übernahme.

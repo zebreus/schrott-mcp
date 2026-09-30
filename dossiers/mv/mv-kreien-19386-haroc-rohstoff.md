@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - NE/Kunststoffe, bvse-Mitglied seit 2009, Gewerbe-Fokus
 - Adresse: Kreien 19386, Wilsener Chaussee 1 (Impressum verifiziert)
+
+### Recherche 30.09.2026
+
+- HAROC-Impressum re-verifiziert (Einzelbeleg, unsicher): Wilsener Chaussee 1, 19386 Kreien, HRB 113556 AG Schwerin; kein Frontmatter-Fill (Single-Source, Telefon bleibt draußen per Vorbefund-Vorgabe).
+- Gelbe Seiten / Das Örtliche ohne HAROC-Treffer in Kreien.
+- Quelle: https://haroc.de/imprint.html

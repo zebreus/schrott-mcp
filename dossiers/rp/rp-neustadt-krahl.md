@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Moltkestr. 18, HP-403
 - urspr. Website-Angabe: keine
 - Adresse: Neustadt
+
+### Recherche 30.09.2026
+
+- Nur Einzelbeleg: Krahl Schrotthandel, Moltkestraße 18, 67433 Neustadt an der Weinstraße, Tel. +49 160 95825480, Domain krahl-schrotthandel.de (Quelle: https://lokaleschrottplatz.de/krahl-schrotthandel/) (Einzelbeleg, unsicher) — daher kein Frontmatter-Eintrag
+- Betreiberseite krahl-schrotthandel.de sowie 11880/Firmania/Cylex-Einträge per Bot-Schutz blockiert (HTTP 403), keine zweite Quelle erreichbar; Seed-Straße Moltkestr. 18 damit unbestätigt

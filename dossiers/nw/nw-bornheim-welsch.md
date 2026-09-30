@@ -4,9 +4,9 @@ name: Welsch
 trader_type: schrotthaendler
 state: NW
 city: Bornheim
-street: ''
-postcode: ''
-phone: ''
+street: 'Straufsberg 2'
+postcode: '53332'
+phone: 02227 908232
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Bornheim
+
+### Recherche 30.09.2026
+
+- Schrott-/Metallhandel P. Welsch: Straufsberg 2, 53332 Bornheim (Waldorf), Tel. 02227 908232 (Frontmatter gefüllt, je Doppelbeleg): https://www.11880.com/suche/schrotthandel/bornheim + https://www.schrottplatz-info.de/schrottplatz/Bornheim/Welsch-P-
+- Abweichung: golocal nennt Kerpengasse 2, 53332 Waldorf/Bornheim (Einzelbeleg, unsicher, nicht übernommen): https://www.golocal.de/bornheim/schrotthandel/schrott-metallhandel-p-welsch-47MaY
+- Keine eigene Website / Mail / Öffnungszeiten gefunden.

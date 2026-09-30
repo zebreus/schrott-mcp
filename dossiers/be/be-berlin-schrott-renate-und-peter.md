@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthandel
 - Adresse: Berlin, Tel. 030 6842306 (keine Adresse)
+
+### Recherche 30.09.2026
+
+- Telefon 030 6842306 per GelbeSeiten-Branchenliste doppelbestätigt (Frontmatter bereits gefüllt, unverändert): https://www.gelbeseiten.de/branchen/schrottplatz/berlin
+- Keine Straßenadresse in Verzeichnissen gefunden (geprüft Gelbe Seiten, dasoertliche, 11880) — Straße/PLZ bleiben leer.
+- Keine eigene Website / Mail / Öffnungszeiten gefunden.

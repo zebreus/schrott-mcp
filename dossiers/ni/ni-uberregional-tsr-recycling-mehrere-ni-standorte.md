@@ -32,3 +32,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe-/NE, Großmengen
+
+### Recherche 30.09.2026
+
+- Gelbe Seiten (Einzelbeleg, unsicher): TSR Hannover Alte Speicherstr. 17, 30453 (0511 921770) + Hansastr. 9, 30419 (0511 674070); kein Fill (überregional, Single-Source).
+- Das Örtliche ohne TSR-Treffer Hannover; tsr-recycling.de bot-walled.
+- Quelle: https://www.gelbeseiten.de/suche/Recycling/Hannover

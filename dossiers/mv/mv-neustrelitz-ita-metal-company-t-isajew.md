@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - lokaleschrottplatz.de + Gelbe Seiten + Das Örtliche + Cylex/11880
+
+### Recherche 30.09.2026
+
+- Das Örtliche (Einzelbeleg, unsicher): ITA Metal Company T. Isajew, Rubrik Container, 17235 Neustrelitz, Tel. 03981 4749131 (Telefon bereits im Dossier; PLZ Single-Source → kein Fill).
+- Gelbe Seiten / Das Telefonbuch Neustrelitz ohne ITA-Treffer.
+- Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=ITA&ci=Neustrelitz

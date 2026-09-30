@@ -4,9 +4,9 @@ name: Schrott-Rhein
 trader_type: schrotthaendler
 state: HE
 city: Viernheim
-street: ''
-postcode: ''
-phone: ''
+street: 'Wilhelm-Busch-Str. 13'
+postcode: '68519'
+phone: 06204 986617
 email: ''
 opening_hours: ''
 website: ''
@@ -32,3 +32,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 30.09.2026
+
+- Schrott-Rhein Containerservice: Wilhelm-Busch-Str. 13, 68519 Viernheim, Tel. 06204 986617 (Frontmatter gefüllt, je Doppelbeleg): https://www.gelbeseiten.de/gsbiz/97cf95b8-8f75-41ef-bc6d-86830814e110 + https://www.dasoertliche.de/Themen/Schrott-Rhein-Containerservice-Viernheim-Wilhelm-Busch-Str (+ https://web2.cylex.de/firma-home/schrott-rhein-5669244.html)
+- Fax 06204 7086949 (kein Frontmatter-Feld, nur Verlauf): https://www.gelbeseiten.de/gsbiz/97cf95b8-8f75-41ef-bc6d-86830814e110 + https://web2.cylex.de/firma-home/schrott-rhein-5669244.html
+- Keine eigene Website gefunden; nicht verwechseln mit SRM Schrotthandel Rhein-Main (Messel, anderes Unternehmen).

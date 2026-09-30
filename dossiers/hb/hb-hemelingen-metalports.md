@@ -6,7 +6,7 @@ state: HB
 city: Hemelingen
 street: Hemelinger Hafendamm 11
 postcode: ''
-phone: ''
+phone: 0421 6850975
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorgung, Altmaterial, Schrotthandel
 - Adresse: Hemelingen, Hemelinger Hafendamm 11 (hafennah)
+
+### Recherche 30.09.2026
+
+- Tel. 0421 6850975 per Doppelbeleg (Frontmatter gefüllt): https://bremen.branchen-info.net/fp_4270846.php + https://bremen.staedte-info.net/hemelinger-hafendamm_100405.php
+- Adress-Kontext Hemelinger Hafendamm 11, 28309 Bremen (beide Quellen oben) — Straße/PLZ NICHT in Frontmatter (Stadt-Mismatch: Dossier-Ort Hemelingen vs. Quellen-Ort Bremen; Seed-Straße unangetastet).
+- Keine eigene Website / Mail / Öffnungszeiten gefunden; Lage: Hemelinger Weserhafen (Stahl/Schrott-Umschlag).

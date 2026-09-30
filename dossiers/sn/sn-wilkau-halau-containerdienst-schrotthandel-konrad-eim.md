@@ -5,8 +5,8 @@ trader_type: containerdienst
 state: SN
 city: Wilkau-Haßlau
 street: Waldstr. 5
-postcode: ''
-phone: ''
+postcode: '08112'
+phone: '0375 671180'
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Container + Schrotthandel
 - Tel. identisch mit R. Schulz (Runde 2) — ggf. derselbe Betrieb/Nachfolge
+
+### Recherche 30.09.2026
+
+- PLZ 08112 + Tel. 0375 671180 doppelt belegt (Das Örtliche + Das Telefonbuch).
+- Das Örtliche verknüpft Tel. mit Waldstr.-Standort (Containerdienst Eißmann, Waldstr., 08112) → Dossier-Straße Waldstr. 5 bleibt; parallel Kirchberger Str. 38 (Konrad Eißmann Inh. Roland Schulz) → Straßen-Caveat.
+- Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Eissmann&ci=Wilkau-Hasslau
+- Quelle: https://www.dastelefonbuch.de/Suche/Schrott/Wilkau-Ha%C3%9Flau

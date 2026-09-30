@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinstbetrieb)
 - Adresse: Regensburg
+
+### Recherche 30.09.2026
+
+- Nur Einzelbeleg: 93059 Regensburg, Tel. 0941 566865, Branche Schrott (Quelle: https://www.dasoertliche.de/Themen/Schmidt-Marion-Schrott-Richard-Regensburg) (Einzelbeleg, unsicher) — daher kein Frontmatter-Eintrag
+- Gelbe-Seiten- und Das-Telefonbuch-Einträge zum gleichen Betrieb sind tot (HTTP 410), keine zweite Quelle, keine Straßenadresse, keine Website auffindbar

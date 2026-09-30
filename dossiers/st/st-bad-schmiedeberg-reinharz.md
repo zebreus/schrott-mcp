@@ -4,9 +4,9 @@ name: Reinharz
 trader_type: autoverwertung
 state: ST
 city: Bad Schmiedeberg
-street: ''
-postcode: ''
-phone: ''
+street: 'Reinharz 6'
+postcode: '06905'
+phone: '01577 6624404'
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Bad Schmiedeberg (Ankauf fraglich)
+
+### Recherche 30.09.2026
+
+- Reinharz 6, 06905 + Telefon 01577 6624404 doppelt belegt (Gelbe Seiten + Das Örtliche).
+- Leistungen Abschleppdienst/Altautoannahme/Altfahrzeugankauf (Gelbe-Detailseite; Einzelbeleg, unsicher).
+- Quelle: https://www.gelbeseiten.de/suche/Autoverwertung/Bad-Schmiedeberg
+- Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Reinharz&ci=Bad-Schmiedeberg

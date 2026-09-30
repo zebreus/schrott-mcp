@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott (klein; mögl. Oetjen-Netzwerk)
 - urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg)
 - Adresse: Ottersberg (Umland), Quelkhorner Landstr. 74, 28870, Tel. 04293 1516
+
+### Recherche 30.09.2026
+
+- Adresse Quelkhorner Landstr. 74, 28870 Ottersberg (Quelkhorn) und Tel. 04293 1516 per Doppelbeleg bestätigt (Frontmatter bereits gefüllt, unverändert): https://www.tellows.de/firmen/Ottersberg-Fischerhude/04293/Schrott/1642 + https://ottersberg.stadtbranchenbuch.com/337289.html
+- Kategorie: Schrott- und Metallhandel. Keine eigene Website / Mail / Öffnungszeiten gefunden.

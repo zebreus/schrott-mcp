@@ -6,7 +6,7 @@ state: NI
 city: Jever
 street: ''
 postcode: ''
-phone: ''
+phone: '04461 965331'
 email: ''
 opening_hours: ''
 website: ''
@@ -32,3 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle
+
+### Recherche 30.09.2026
+
+- Telefon 04461 965331 doppelt belegt (Gelbe Seiten + Das Örtliche).
+- Verzeichnis-Ort Wangerland-Wiefels (Fuhlrieger Allee 1) vs Dossier-City Jever → Straße/PLZ nicht übernommen (Stadt-Mismatch).
+- Quelle: https://www.gelbeseiten.de/suche/Schrott/Jever
+- Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Brosda&ci=Jever
