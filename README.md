@@ -153,6 +153,15 @@ the website alone left a phantom entity behind):
 5. Every triage decision lands in the dossier Timeline with
    `[Korrektur DD.MM.YYYY: …; Quelle: …]` including its
    counter-evidence.
+6. **Source hierarchy (30.09.2026):** aggregators (Das Örtliche, Gelbe
+   Seiten, 11880, GoLocal, Cylex, city-map, schrottplatz-/schrottradar
+   portals and the like) are LEADS, never evidence — routinely outdated
+   or wrong. Evidence is only: operator website (Impressum/Kontakt),
+   Handelsregister/Northdata/Creditreform, municipal trade register,
+   operator-run social profile. Beleg-Standard = 2 independent sources
+   from this list; aggregator + evidence still counts as a single
+   source (`Einzelbeleg`). When triage touches a dossier, re-verify any
+   legacy aggregator-backed fields instead of trusting them.
 
 ## Why SQLite and not Postgres?
 
