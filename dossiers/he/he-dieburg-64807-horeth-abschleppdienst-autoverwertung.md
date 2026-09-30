@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV/Schrott/Abschlepp — alte Website live
 - Adresse: Dieburg 64807, Am Bauhof 26
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1692 teilweise/ueberspitzt — Babenhausen Hauptsitz korrekt, aber Dieburg (Am Bauhof 26) als Zweigstelle mehrfach belegt; keine Aenderung. Evtl. 2. Dossier Babenhausen per Folgewelle. Quelle: autoverwertung-hoereth.de.]

@@ -2,8 +2,8 @@
 slug: hb-nordenham-26954-m-k-v-metall-und-kabelverwertung
 name: M K V Metall- und Kabelverwertung GmbH
 trader_type: schrotthaendler
-state: HB
-city: Nordenham 26954
+state: NI
+city: Nordenham
 street: Martin-Pauls-Str. 168
 postcode: '26954'
 phone: 04731 38081
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Altschrott/Metall/Kabel — Website PHP-Fatal-Error (tot) → Status pruefung (NEU — Umland, mit NI abstimmen!)
 - Adresse: Nordenham 26954
 - Adressbeleg: mkv-gmbh.net
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1733 bestaetigt — Nordenham = NI (Landkreis Wesermarsch), nicht HB (state korrigiert, File nach dossiers/ni/); city-PLZ-Dopplung bereinigt; Website bleibt (Root defekt, Kontakt/Impressum-Unterseiten live: MKV GmbH, Martin-Pauls-Str. 168). Quellen: Ortsdaten, mkv-gmbh.net/Service/Kontakt.]

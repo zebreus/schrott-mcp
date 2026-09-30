@@ -9,7 +9,7 @@ postcode: '03044'
 phone: 0355 871073
 email: ''
 opening_hours: ''
-website: http://www.schrottwetzel.de
+website: ''
 website_status: ''
 status: aktiv
 description: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall/Rohstoffhof, Schrott
 - Adressbeleg: Das Örtliche
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1729 teilweise — Adresse/Telefon (Schmellwitzer Str. 69) per Das Oertliche als Zweitstandort der UG bestaetigt (kein Split); Konzern-Domain schrottwetzel.de (tot, Parking) entfernt. Quelle: dasoertliche.de.]

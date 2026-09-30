@@ -9,9 +9,9 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.schrotthandel-haede.de/
+website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Heßlerstr. 77 (s. Notiz C6)
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1724 bestaetigt — Hesslerstr. 77 gehoert zu Roswitha Haede/Entsorgungsfachbetrieb (eigene Domains), nicht zur Ratinger Marcus-Haede-Firma; Website entfernt, status pruefung (Split-Kandidat). Quelle: haede-recycling.de.]

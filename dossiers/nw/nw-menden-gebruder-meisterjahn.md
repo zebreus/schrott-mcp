@@ -4,8 +4,8 @@ name: Gebrüder Meisterjahn GmbH
 trader_type: schrotthaendler
 state: NW
 city: Menden
-street: ''
-postcode: ''
+street: Eilinger Kamp 9–17
+postcode: '58708'
 phone: ''
 email: ''
 opening_hours: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Eilinger Kamp 9-17), nur schrottradar-Profil
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1679 teilweise — Domain leitet auf Phoenix Kabelrecycling (Baustelle), aber Phoenix sitzt Eilinger Kamp 9-17 Menden mit GF Dieter Meisterjahn = Nachfolge am selben Standort, keine Fremdfirma; Adresse nachgetragen, Website bleibt (Kontinuitaet). Namensvetter H.W. Meisterjahn (Wehrscheid 45) separat beachten. Quellen: Creditsafe/Northdata (Sitz + GF).]

@@ -4,9 +4,9 @@ name: Aram-Gold Edelmetallhandel (Aram Handel)
 trader_type: metallhaendler
 state: HB
 city: Bremen-Vegesack 28755
-street: Lindenstr. 38
+street: Gerhard-Rohlfs-Str. 67
 postcode: '28755'
-phone: 0421 1783601
+phone: 0421 66597066
 email: info@aram-juwelier.de
 opening_hours: ''
 website: http://aram-goldankauf.de
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Juwelier, Edelmetallankauf, Schmuck-Großhandel
 - Adresse: Bremen-Vegesack 28755, Lindenstr. 38
 - Adressbeleg: aram-handel.de
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1711 teilweise — Lindenstr. 38 war alter Standort (city-map.de), aktuell Vegesack = Gerhard-Rohlfs-Str. 67 (Tel. 0421 66597066) per Betreiber-Website; aktualisiert, PLZ 28755/28757 am Betreiber zu verifizieren. Quelle: https://aram-handel.de.]

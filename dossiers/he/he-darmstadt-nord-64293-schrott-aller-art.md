@@ -3,13 +3,13 @@ slug: he-darmstadt-nord-64293-schrott-aller-art
 name: Schrott Aller Art
 trader_type: schrotthaendler
 state: HE
-city: Darmstadt-Nord 64293
-street: ''
-postcode: ''
+city: Darmstadt
+street: Mainzer Str. 83
+postcode: '64293'
 phone: ''
 email: ''
 opening_hours: ''
-website: http://www.schrottallerart.de
+website: ''
 website_status: ''
 status: pruefung
 description: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott — "Schrott Ankauf"
 - Adresse: Darmstadt-Nord 64293, Mainzer Str. 83
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1684 bestaetigt — Domain one.com-Parkseite ohne Firmeninhalt; Website entfernt. Firma real (Mainzer Str. 83, 64293 Darmstadt per dastelefonbuch/dasoertliche/gelbeseiten) — Adresse nachgetragen, city bereinigt.]

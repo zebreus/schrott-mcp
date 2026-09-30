@@ -9,9 +9,9 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.schrotthandel-haede.de/
+website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Brackerstr. 74 — Filiale von Häde-Ratingen
 - (Filiale)
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1716 bestaetigt — Haede-Website nur Ratingen; Brakerstr. 74 gehoert zu Linke Bottrop (Fremdfirma); Website entfernt, status pruefung (Haede-Filiale unbelegt, Klaerfall). Quelle: https://linke-bottrop.de.]

@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Recherche 30.09.2026: mobschrott.de per Impressum VERIFIZIERT — Sitz 03116 Drebkau, Servicegebiet Cottbus, Tel. 035602 22909 (matcht Dossier), Typ mobil korrekt; website_status aktiv. Quelle: http://mobschrott.de/impressum.html.]
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Re-Meldung 1746 bestaetigt bekannten Stand — Sitz Drebkau/Servicegebiet Cottbus per Impressum verifiziert (30.09.), mobil aktiv; echte Mobilnummer weiterhin fehlend (Impressum nur Festnetz 035602 22909). Keine Aenderung.]

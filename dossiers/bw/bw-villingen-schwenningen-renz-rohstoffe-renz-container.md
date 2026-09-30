@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: http://renz-rohstoffe.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallschrott, Container
 - Größe: klein
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1672 (Website gehoere HSR Brandenburg) WIDERLEGT — renz-rohstoffe.de nennt Gerhard Renz, Villingen-Schwenningen (Homepage + Impressum); website aktiv. Quelle: https://renz-rohstoffe.de/impressum.html.]

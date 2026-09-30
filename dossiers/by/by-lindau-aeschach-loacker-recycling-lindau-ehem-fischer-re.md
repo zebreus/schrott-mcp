@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - unklar
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1699 (fremde Firma Wetzel) WIDERLEGT — fischer-recycling.com leitet auf Loacker-Lindau-Seite (Rechtsnachfolge Aus Fischer wird Loacker); Spitalmuehlweg 16 zweitbelegt; keine Aenderung. Quellen: loacker-recycling.com, Creditsafe.]
