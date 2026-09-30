@@ -9,8 +9,8 @@ postcode: '76189'
 phone: +49 721 18311030
 email: ''
 opening_hours: ''
-website: https://kuehl-entsorgung.de/
-website_status: aktiv
+website: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorgung/Schrott, Abgrenzung offen
 - Adresse: Karlsruhe (≠ Rudi Kühn + RR Kühn/Seed) [Website-Recherche website: services: Containerdienst, Schrott & Metalle (Gruppenportfolio); notes: Kühn Entsorgung GmbH als Standort der Kühl-Gruppe geführt; Abgrenzung zu RR Kühn Stutensee.]
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: Fehlzuordnung — kuehl-entsorgung.de gehört zur Kühl-Gruppe (Impressum: Kühl Holding, Diedorf), nicht zu Kühn Entsorgung Karlsruhe; Domain zeigt Wartungsseite (503). Website entfernt, website_status unbekannt. Quelle: https://kuehl-entsorgung.de/impressum/.]

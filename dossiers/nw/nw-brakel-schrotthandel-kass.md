@@ -9,8 +9,8 @@ postcode: '33034'
 phone: 05272 391990
 email: ''
 opening_hours: ''
-website: https://www.schrotthandel-kass.de
-website_status: aktiv
+website: ''
+website_status: tot
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Am Güterbahnhof 1, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden (schrotthandel-kass.de tot) [Website-Recherche 30.09.2026: Seite per Impressum wieder live, Adresse/Tel bestätigt; Quelle: schrotthandel-kass.de/impressum/]
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: Domain schrotthandel-kass.de per DNS NXDOMAIN verifiziert (kein Impressum abrufbar); angebliche Impressum-Quelle unbelegt, Website entfernt, website_status tot; Adresse/Tel aus Verzeichnisbeleg behalten. Quelle: dns.google + getent.]

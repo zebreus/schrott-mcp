@@ -9,8 +9,8 @@ postcode: '47119'
 phone: 0203 82329)
 email: ''
 opening_hours: ''
-website: https://www.jeegers-duisburg.de
-website_status: aktiv
+website: ''
+website_status: tot
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Großhandels-Profil
 - urspr. Website-Angabe: keine (Am Nordhafen 26a, 47119, 0203 82329) [Website-Recherche 30.09.2026: Impressum-Fund, Adresse/PLZ bestätigt, EfB, Ortsteil Ruhrort beibehalten; Quelle: jeegers-duisburg.de/impressum/]
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: Domain jeegers-duisburg.de per DNS NXDOMAIN verifiziert; angebliche Impressum-Quelle unbelegt, Website entfernt, website_status tot. Quelle: dns.google + getent.]

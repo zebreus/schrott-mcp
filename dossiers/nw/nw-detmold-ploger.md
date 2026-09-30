@@ -9,8 +9,8 @@ postcode: '32756'
 phone: 05231/22477
 email: ''
 opening_hours: ''
-website: https://www.ploeger-detmold.de
-website_status: aktiv
+website: ''
+website_status: tot
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Detmold [Website-Recherche 30.09.2026: Impressum-Fund, Adresse/Tel bestätigt, EfB; Quelle: ploeger-detmold.de/impressum/]
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: Domain ploeger-detmold.de per DNS NXDOMAIN verifiziert; angebliche Impressum-Quelle unbelegt, Website entfernt, website_status tot. Quelle: dns.google + getent.]

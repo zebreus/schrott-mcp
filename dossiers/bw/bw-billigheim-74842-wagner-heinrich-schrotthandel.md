@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott — Abgrenzung Wagner Lorenz (Seed) nötig (PRÜFFALL)
 - urspr. Website-Angabe: keine
 - Adresse: Billigheim 74842 [Website-Recherche website: services: Absetzcontainer-Vermietung inkl. Anlieferung/Abholung; Schrott- und Metallhandel; certifications: Entsorgungsfachbetrieb; customer_types: privat, gewerblich; notes: Inhaberin Annegret Wagner; Zweitstandort Lager Bahnhofstr. 8/3, 74821 Mosbach-Neckarelz.]
+
+### Korrektur 30.09.2026
+
+- [Recherche 30.09.2026: schrott-wagner.de per Impressum VERIFIZIERT — Firma Wagner Schrott- und Metallhandel, Fasanenweg 2, 74842 Billigheim (Adresse/Tel/Mail matchen Dossier); Inhaber Annegret Wagner (Dossier-Name Heinrich Wagner abweichend, Generationenwechsel möglich). Website bleibt aktiv. Quelle: https://www.schrott-wagner.de/impressum.html.]

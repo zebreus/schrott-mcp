@@ -9,8 +9,8 @@ postcode: '47169'
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.hark-duisburg.de
-website_status: aktiv
+website: ''
+website_status: tot
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottaufbereitung (Sympherstr. 96a) [Website-Recherche 30.09.2026: Impressum-Fund, PLZ bestätigt, Filiale vs HQ Hartmannstr. 5 Dortmund notiert; Quelle: hark-duisburg.de/impressum/]
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: Domain hark-duisburg.de per DNS NXDOMAIN verifiziert; angebliche Impressum-Quelle unbelegt, Website entfernt, website_status tot. Quelle: dns.google + getent.]
