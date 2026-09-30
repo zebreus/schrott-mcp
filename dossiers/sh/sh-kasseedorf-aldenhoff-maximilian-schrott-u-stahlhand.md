@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 30.09.2026
 
 - [Recherche 30.09.2026: Krückberg 21 A, 23717 Kasseedorf (Sagau) + Tel. 04528 303 doppelt belegt (Frontmatter gefüllt); kein Homepage-Link; Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Aldenhoff&ci=Kasseedorf + https://www.schrottplatz-info.de/schrottplatz/Kasseedorf/Aldenhoff-Maximilian-SchrottHdl-u-StahlHdl-]
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

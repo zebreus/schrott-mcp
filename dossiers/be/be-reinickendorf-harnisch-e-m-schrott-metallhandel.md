@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - schrottplatz-info-Detailseite + Das Telefonbuch (2 Quellen); Domain wieder live Adresse: https://schrott-metall-harnisch.de
 - Bezirk: Reinickendorf Adressbeleg: DasÖrtliche/GelbeSeiten + schrottplatz-info (Websuche 28.09.2026)
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

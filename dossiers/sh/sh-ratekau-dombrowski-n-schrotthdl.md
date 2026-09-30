@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Sereetzer Weg 24C, 23626 doppelt belegt (Gelbe Seiten + Das Örtliche); Telefon bereits im Dossier.
 - Quelle: https://www.gelbeseiten.de/suche/Schrott/Ratekau
 - Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Dombrowski&ci=Ratekau
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

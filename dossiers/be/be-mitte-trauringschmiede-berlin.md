@@ -11,7 +11,7 @@ email: ''
 opening_hours: 'Di-Fr 11:00-19:00, Sa 10:00-19:00'
 website: 'https://www.trauringschmiede.de/'
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -44,3 +44,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Website https://www.trauringschmiede.de/ (Frontmatter gefüllt, Impressum-Quell-URL): https://www.trauringschmiede.de/impressum
 - Mail berlin@trauringschmiede.de nur Facebook (Einzelbeleg, unsicher, nicht in Frontmatter): https://www.facebook.com/trauringschmiede.berlin
 - Profil: Trauring-/Schmuck-Filialist (37 Filialen), Goldankauf/Edelmetall-Bewertung — kein klassischer Schrotthändler.
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

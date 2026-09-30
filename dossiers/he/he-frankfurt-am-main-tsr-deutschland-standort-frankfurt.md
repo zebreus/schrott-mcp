@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Großhändler: Metallrecycling, Schrottannahme Gewerbe/privat, Container [Website-Recherche verzeichnis: services: Recycling, Schrotthandel; notes: Gelbe Seiten und 11880 übereinstimmend (TSR Recycling GmbH & Co. KG, Fechenheim, Rufnummer 069/40280).]
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

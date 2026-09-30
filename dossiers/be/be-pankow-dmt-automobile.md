@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Mandelstr. 16, 10409 Berlin
 - Bezirk: Pankow Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
 - [Recherche 30.09.2026: Tel. (030) 92375011; Quelle: 11880.com (Verzeichnis)]
+
+### Korrektur 30.09.2026
+
+- [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
