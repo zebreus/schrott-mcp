@@ -6,9 +6,9 @@ state: HH
 city: Harburg
 street: Jaffestr. 23
 postcode: '21109'
-phone: ''
+phone: 040 67997087
 email: ''
-opening_hours: ''
+opening_hours: Mo–Fr 07:00–17:00, Sa 08:00–13:00
 website: https://pmk-rohstoffhandel.de
 website_status: aktiv
 status: aktiv
@@ -36,3 +36,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026 (Feedback-Triage)
 
 - [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1720 teilweise — Gaiserstr. 6 war real (Zweitbeleg, gleiches Tel.), Firma jetzt GmbH, Jaffestr. 23, 21109 Hamburg; aktualisiert, website aktiv. Offen: Jaffestr. liegt in Wilhelmsburg — Abgrenzung zum Wilhelmsburg-Dossier pruefen. Quelle: https://pmk-rohstoffhandel.de (Impressum).]
+- [Korrektur 30.09.2026 (Feedback-Triage): Re-Report fb1844 verifiziert — Tel. 040 67997087 (Betreiber-Seite + Das Oertliche + Gelbe Seiten) → gefuellt; Oeffnungszeiten Mo-Fr 07:00-17:00 (Betreiber + DO + GS) → gefuellt; Sa Betreiber 08:00-13:00 vs. Verzeichnisse 07:00-12:00 (Konflikt, Betreiberwert uebernommen, Abweichung vermerkt). Abgrenzung Wilhelmsburg-Dossier (nur Vermerk, kein Merge): Jaffestr. 23 liegt faktisch in Wilhelmsburg (Bezirk Hamburg-Harburg) — beide Dossiers beschreiben dieselbe reale Entitaet am selben Standort; city »Harburg« = Bezirksname, vertretbar; Zusammenfuehrung/Entscheidung per Folgewelle. Email-Einzelbeleg fehlt → nicht gefuellt. Quelle: pmk-rohstoffhandel.de (via Google-Index), dasoertliche.de, gelbeseiten.de.]

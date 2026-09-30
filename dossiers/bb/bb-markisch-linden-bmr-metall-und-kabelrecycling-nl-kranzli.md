@@ -9,9 +9,9 @@ postcode: '16818'
 phone: 033769 89910 (Zentrale Töpchin)
 email: ''
 opening_hours: ''
-website: https://bmr-toepchin.net/
+website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - NE-Metalle, FE-Schrott, Kabelaufbereitung
 - Adressbeleg: 11880 + bmr-toepchin.net
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur fb1754: Website entknüpft — Filial-Check negativ: bmr-toepchin.net nennt auf keiner geprüften Seite (Home, Firma, Kontakt, Impressum, Anfahrt, Markt/Preisliste, je per curl 30.09.2026) Kränzlin, Darritzer Str. oder Märkisch Linden; Impressum/Kontakt nennen ausschließlich In der Muna 12, 15749 Mittenwalde OT Töpchin; Quelle: bmr-toepchin.net Impressum/Kontakt/Firma/Anfahrt]
+- [Korrektur fb1754: Status aktiv → pruefung — NL Kränzlin existiert real als Verzeichnis-Entität (Darritzer Str. 25, 16818 Kränzlin; Quellen: 11880-Branchenbuch, DasTelefonbuch-Eintrag „NL Kränzlin, Märkisch Linden", nachhaltigentsorgen.de), hat aber keine eigene Website; Zentrale-Telefon im phone-Feld belassen; Quelle: 11880 + DasTelefonbuch]
+- [Korrektur fb1754: NL-Telefon 03391 5108479 + info@bmr-toepchin.de nur im DasTelefonbuch-Eintrag (Einzelbeleg, unsicher), nicht ins phone-Feld übernommen; Quelle: DasTelefonbuch]

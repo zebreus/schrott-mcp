@@ -5,12 +5,12 @@ trader_type: autoverwertung
 state: MV
 city: Duvendiek
 street: ''
-postcode: ''
-phone: ''
+postcode: '18442'
+phone: 038321 363
 email: ''
 opening_hours: ''
 website: https://www.dapa-hst.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: city von 'Duvendiek 18442' auf 'Duvendiek' bereinigt (PLZ gehört nicht in den Ort, Feedback 1651). Impressum dapa-hst.de nennt nur Sitz Lüssow/Stralsund (Am Langendorfer Berg 8) — kein Frontmatter-Fill daraus (Stadt-Mismatch); Website bleibt (Name + PLZ-Raum matchen). Quelle: https://www.dapa-hst.de/impressum/.]
+
+### Korrektur 30.09.2026 (Feedback-Triage)
+
+- [Korrektur 30.09.2026 (Feedback-Triage): Re-Report fb1766 (»Ort fehlerhaft, Strasse/PLZ/Telefon fehlen«) — Tiefencrawl: Duvendiek-Zweigstelle ist real (eigene Standortseite /locations/duvendiek: »DAPA Autoverwertung Duvendiek, Kranichblick 32, 18442 Duvendiek, Tel. 038321-363« + Footer/Standorte-Seite). Impressum weiter nur HQ Lüssow/Stralsund → Stadt-Mismatch-Regel, kein Fill daraus. PLZ 18442 (Betreiber + Gelbe Seiten + Das Oertliche) → gefuellt; Telefon 038321 363 (Betreiber + GS + DO) → gefuellt. Strasse NICHT gefuellt: Konflikt Kranichblick 32 (Betreiber, 1 Quellfamilie) vs. Kranichblick 30 (Gelbe Seiten + Das Oertliche + Stadtbranchenbuch) — Klaerfall, Vermerk statt Fiktion. website_status aktiv (Impressum DAPA GmbH + Luessow/Stralsund, Name+Ort ✓; Duvendiek als Zweigstelle am selben Betreiber belegt). Oeffnungszeiten Duvendiek nicht ausgewiesen (nur Werkstatt-Zeiten HQ) → leer. Quelle: dapa-hst.de (Startseite, /locations/duvendiek, /standorte, /impressum), gelbeseiten.de, dasoertliche.de.]
