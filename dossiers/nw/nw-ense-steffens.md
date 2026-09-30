@@ -1,0 +1,35 @@
+---
+slug: nw-ense-steffens
+name: Steffens
+trader_type: schrotthaendler
+state: NW
+city: Ense
+street: Rochollweg 22
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
+website: ''
+website_status: ''
+status: pruefung
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: nw
+provenance_section: (1) Behaltene Neueinträge
+provenance_ankauf_raw: unklar
+provenance_origin: table
+---
+
+# Steffens
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- Schrott (GS)
+- Adresse: Ense [Recherche 30.09.2026: Verzeichnis-Fund, Straße bestätigt (ohne PLZ im Fund); Quelle: schrottplatz-info.de/city/ense]

@@ -1,0 +1,35 @@
+---
+slug: bw-mannheim-r-mayer
+name: R. Mayer
+trader_type: schrotthaendler
+state: BW
+city: Mannheim
+street: Martinistr. 70
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
+website: https://entrümpelung-mayer.de
+website_status: ''
+status: aktiv
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: bw
+provenance_section: Nachtrag Audit-Runde 3
+provenance_ankauf_raw: ja
+provenance_origin: table
+---
+
+# R. Mayer
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- Schrott
+- Größe: klein

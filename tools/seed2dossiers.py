@@ -14,10 +14,10 @@ Gegenstück zu tools/dossiers2seed.py. Format:
     "### Importiert (Seed-Stand <Datum>)", wortwörtlich, ohne Zusätze.
     Round-Trip: join(" | ") == Original-notes (s. dossiers2seed.py).
 
-Gebrauch: python3 tools/seed2dossiers.py <state> [state ...]
-  (lowercase, z.B. hb). Schreibt nur fehlende Dateien neu? Nein:
-  überschreibt dossiers/<state>/*.md deterministisch aus dem Seed.
-  Hand-kuratierte Überblicke danach nicht erneut splitten!
+Gebrauch: python3 tools/seed2dossiers.py [--force] <state> [state ...]
+  (lowercase, z.B. hb). Ohne --force: nur FEHLENDE Dossiers schreiben,
+  kuratierte bleiben unangetastet. Mit --force: deterministisch
+  überschreiben (Kuration geht verloren — nur für Re-Importe).
 """
 import json
 import sys
@@ -65,23 +65,34 @@ def main() -> int:
     if yaml is None:
         print("FEHLER: pyyaml fehlt", file=sys.stderr)
         return 1
-    states = [s.lower() for s in sys.argv[1:]]
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    force = "--force" in sys.argv[1:]
+    states = [s.lower() for s in args]
     if not states:
-        print("Gebrauch: python3 tools/seed2dossiers.py <state> ...")
+        print("Gebrauch: python3 tools/seed2dossiers.py [--force] <state> ...")
+        print("  ohne --force: nur FEHLENDE Dossiers schreiben (kuratierte",
+              "bleiben unangetastet); mit --force: deterministisch",
+              "überschreiben (Kuration geht verloren).")
         return 1
     stand = date.today().isoformat()
     total = 0
+    skipped = 0
     for st in states:
         src = SEED / f"{st}.json"
         rows = json.loads(src.read_text(encoding="utf-8"))
         outdir = DOSSIERS / st
         outdir.mkdir(parents=True, exist_ok=True)
+        wrote = 0
         for r in rows:
-            (outdir / f"{r['slug']}.md").write_text(
-                to_dossier(r, stand), encoding="utf-8")
-        total += len(rows)
-        print(f"{st}: {len(rows)} Dossiers geschrieben")
-    print(f"TOTAL: {total}")
+            dest = outdir / f"{r['slug']}.md"
+            if dest.exists() and not force:
+                skipped += 1
+                continue
+            dest.write_text(to_dossier(r, stand), encoding="utf-8")
+            wrote += 1
+        total += wrote
+        print(f"{st}: {wrote} geschrieben, {len(rows) - wrote} behalten")
+    print(f"TOTAL: {total} geschrieben, {skipped} kuratierte behalten")
     return 0
 
 

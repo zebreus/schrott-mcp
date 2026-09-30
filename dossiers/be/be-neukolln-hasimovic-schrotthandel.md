@@ -1,0 +1,35 @@
+---
+slug: be-neukolln-hasimovic-schrotthandel
+name: Hasimovic Schrotthandel
+trader_type: schrotthaendler
+state: BE
+city: Neukölln
+street: Britzer Damm 54, ; Mobil 0176 63060323
+postcode: '12347'
+phone: 0176 63060323
+email: ''
+opening_hours: ''
+website: ''
+website_status: ''
+status: unbekannt
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: be
+provenance_section: B. Neu, aber "unsicher" (nur 1 Verzeichnisquelle, keine Website)
+provenance_ankauf_raw: ''
+provenance_origin: table
+---
+
+# Hasimovic Schrotthandel
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- nur schrottplatz-info (alt, keine Website) Adresse: Britzer Damm 54, 12347 Berlin; Mobil 0176 63060323
+- Bezirk: Neukölln Adressbeleg: seed/be.json (nur schrottplatz-info alt)

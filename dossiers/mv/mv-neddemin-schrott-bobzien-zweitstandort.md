@@ -1,0 +1,35 @@
+---
+slug: mv-neddemin-schrott-bobzien-zweitstandort
+name: Schrott Bobzien (Zweitstandort?)
+trader_type: schrottplatz
+state: MV
+city: Neddemin
+street: ''
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
+website: ''
+website_status: ''
+status: pruefung
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: mv
+provenance_section: Betriebe (Tabelle)
+provenance_ankauf_raw: Ankauf unklar
+provenance_origin: table
+---
+
+# Schrott Bobzien (Zweitstandort?)
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- Schrott (lt. schrottplatz-info.de)
+- (Zweitstandort?)

@@ -1,0 +1,34 @@
+---
+slug: hh-heimfeld-harburg-heinz-bollow-elektro-verwertung-nord-par
+name: Heinz Bollow GmbH (+ Elektro Verwertung Nord, Partner)
+trader_type: sonstige
+state: HH
+city: Heimfeld/Harburg
+street: ''
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
+website: https://heinzbollowgmbh.de
+website_status: ''
+status: aktiv
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: hh
+provenance_section: Schrottankauf Hamburg (HH) — Recherche für Schrott MCP
+provenance_ankauf_raw: ja
+provenance_origin: table
+---
+
+# Heinz Bollow GmbH (+ Elektro Verwertung Nord, Partner)
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- FE/NE, E-Kabel, E-Motoren, Platinen, Erstbehandlung §21 ElektroG

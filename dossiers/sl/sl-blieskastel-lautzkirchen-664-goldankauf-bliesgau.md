@@ -1,0 +1,36 @@
+---
+slug: sl-blieskastel-lautzkirchen-664-goldankauf-bliesgau
+name: Goldankauf Bliesgau
+trader_type: sonstige
+state: SL
+city: Blieskastel-Lautzkirchen 66440
+street: Pirminiusstr. 53
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
+website: ''
+website_status: ''
+status: pruefung
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: sl
+provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) — Kandidatenaudit R1+R2 (21)
+  + Seed-Website-Sweep
+provenance_ankauf_raw: unklar
+provenance_origin: table
+---
+
+# Goldankauf Bliesgau
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- Gold/Silber/Schmuck/Münzen/Tafelsilber/Uhren (Örtliche Gold-/Silberankauf + Tel.)
+- Adresse: Blieskastel-Lautzkirchen 66440, Pirminiusstr. 53

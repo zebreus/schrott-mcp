@@ -1,0 +1,35 @@
+---
+slug: sn-lichtenstein-otto-stiegler-schrott-metallhandel-inh-h
+name: OTTO STIEGLER Schrott- & Metallhandel (Inh. H. Gerbl)
+trader_type: metallhaendler
+state: SN
+city: Lichtenstein
+street: Güterbahnhofstr. 2
+postcode: ''
+phone: 037204 2343
+email: ''
+opening_hours: ''
+website: ''
+website_status: ''
+status: aktiv
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: sn
+provenance_section: Nachtrag Audit-Runde 3 (27.09.2026)
+provenance_ankauf_raw: ja
+provenance_origin: table
+---
+
+# OTTO STIEGLER Schrott- & Metallhandel (Inh. H. Gerbl)
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- Bunt-/Edelstahl-/Kabel-Ankauf, Barzahlung
+- Werdau/Crimmitschau-Einzugsgebiet, Tel. 037204 2343

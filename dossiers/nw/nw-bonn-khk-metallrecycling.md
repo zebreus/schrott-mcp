@@ -1,0 +1,35 @@
+---
+slug: nw-bonn-khk-metallrecycling
+name: KHK Metallrecycling
+trader_type: metallhaendler
+state: NW
+city: Bonn
+street: ''
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
+website: ''
+website_status: blockiert
+status: pruefung
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: nw
+provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
+provenance_ankauf_raw: unklar
+provenance_origin: table
+---
+
+# KHK Metallrecycling
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- Brieger Weg 3, nur schrottradar-Profil
+- urspr. Website-Angabe: keine (khk-metallrecycling.de per Bot-Check blockiert)

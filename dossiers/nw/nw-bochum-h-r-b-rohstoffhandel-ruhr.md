@@ -1,0 +1,34 @@
+---
+slug: nw-bochum-h-r-b-rohstoffhandel-ruhr
+name: H.R.B Rohstoffhandel Ruhr
+trader_type: autoverwertung
+state: NW
+city: Bochum
+street: Dieselstr. 18-20
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
+website: https://rohstoffhandel.ruhr/
+website_status: ''
+status: aktiv
+description: ''
+dropoff_json: ''
+pickup_json: ''
+provenance_seed_file: nw
+provenance_section: Bochum / Herne
+provenance_ankauf_raw: ja
+provenance_origin: table
+---
+
+# H.R.B Rohstoffhandel Ruhr
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+## Timeline
+
+### Importiert (Seed-Stand 2026-09-30)
+
+- Autoverwertung (Verwertungsnachweis) + Altmetall (Dieselstr. 18-20)
