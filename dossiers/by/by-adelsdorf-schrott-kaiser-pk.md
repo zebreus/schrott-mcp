@@ -1,11 +1,11 @@
 ---
 slug: by-adelsdorf-schrott-kaiser-pk
-name: Schrott Kaiser (PK GmbH)
-trader_type: autoverwertung
+name: Metallrecycling Kaiser
+trader_type: schrotthaendler
 state: BY
 city: Adelsdorf
 street: Industriestr. 23
-postcode: ''
+postcode: 91325
 phone: ''
 email: ''
 opening_hours: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: Fehlzuordnung — schrottkaiser.de gehört zu Kaiser Lichtenfels (Coburger Str. 109, 96215), nicht nach Adelsdorf; Website entfernt. Quelle: https://www.schrottkaiser.de/ (Footer).]
+
+### Korrektur 30.09.2026 (2)
+
+- [Korrektur 30.09.2026: Seed-Zeile hatte ZWEI Kaiser-Firmen vermischt — Dossier ist Metallrecycling Kaiser, Industriestr. 23, 91325 Adelsdorf (Name + PLZ korrigiert, 2 Belege: golocal-Eintrag mit verifizierter Adresse + cylex-Listing). Die Lichtenfelser PK GmbH (schrottkaiser.de, Tel. 09571 2665) ist ein separates Unternehmen → eigenes Dossier by-lichtenfels-schrott-kaiser-pk. Telefon bewusst leer: golocal nennt (09195) 998 99 49, cylex 0160 90257294 (Widerspruch, Klärfall). Quellen: https://www.golocal.de/adelsdorf/recycling/metallrecycling-kaiser-11XcCy, https://www.schrottkaiser.de/Impressum.htm.]
