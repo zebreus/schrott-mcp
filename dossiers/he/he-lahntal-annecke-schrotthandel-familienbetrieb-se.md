@@ -9,7 +9,7 @@ postcode: '35094'
 phone: 0173 8274958
 email: info@annecke-schrotthandel.de
 opening_hours: 24h
-website: http://annecke-schrotthandel.de/
+website: http://annecke-schrotthandel.de
 website_status: aktiv
 status: aktiv
 description: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2271 berechtigt — Fills per Betreiber-Seite: Vor der Aue 5, 35094 Lahntal, 0173 8274958, info@annecke-schrotthandel.de, 24h (Kontakt-/Impressum-Bereich); kein HRB genannt (Einzelunternehmen → Betreiber-Einzelbeleg, offen). Note am 01.10. vom Owner-Gate nachgetragen (Fills ohne Timeline vorgefunden, live re-verifiziert); Quelle(n): http://annecke-schrotthandel.de/ + /impressum + /kontakt]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
