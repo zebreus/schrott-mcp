@@ -3,7 +3,7 @@ slug: ni-peine-31224-autoverwertung-stautmeister-inh-merwan-m
 name: Autoverwertung Stautmeister (Inh. Merwan Murad)
 trader_type: autoverwertung
 state: NI
-city: Peine 31224
+city: Peine
 street: Lehmkuhlenweg 2
 postcode: '31224'
 phone: 05171 - 905 19 51
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Geprüfter Demontagebetrieb seit 40 J.; eigenständig ggü. Stautmeister Dieselstr. (Flag)
 - Adresse: Peine 31224, Lehmkuhlenweg 2
 - Adressbeleg: https://www.autoverwertung-stautmeister.de
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2959 berechtigt eingearbeitet — city „Peine 31224" zu „Peine" (PLZ steht separat im postcode-Feld); keine Sachfakten geändert, kein externer Beleg nötig (Formatfehler im Dossier selbst); Quelle: Dossier-Frontmatter (postcode '31224')]

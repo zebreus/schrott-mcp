@@ -3,7 +3,7 @@ slug: sl-volklingen-66333-ls-rohstoffhandelsgesellschaft-mbh
 name: LS Rohstoffhandelsgesellschaft mbH
 trader_type: schrotthaendler
 state: SL
-city: Völklingen 66333
+city: Völklingen
 street: ''
 postcode: ''
 phone: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3000)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3000): Feedback teilweise berechtigt — city 'Völklingen 66333' → 'Völklingen' (Format) eingearbeitet. Straße/PLZ/Telefon/E-Mail/Zeiten weiter NUR Timeline: Betreiber-Impressum nennt Im Alten Brühl 36, 66333 Völklingen, Tel. +49 6898/294232, info@lsrohstoffhandel.de, HR 75127 AG Saarbrücken (ohne HRB/HRA-Präfix) — Einzelbeleg, HR-Kongruenz offen (kein Northdata-Treffer mit passender HR-Nummer verifiziert), kein Zweitbeleg für Kontakt-Fills. Öffnungszeiten Mo-Fr 8-16 Uhr nur Kontaktseite (Einzelbeleg). Klärfall bis HR-Zweitbeleg. Quelle(n): lsrohstoffhandel.lsr01.de/index.php/impressum + /kontakt (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

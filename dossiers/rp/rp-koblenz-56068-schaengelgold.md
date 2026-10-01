@@ -3,11 +3,11 @@ slug: rp-koblenz-56068-schaengelgold
 name: SCHAENGELGOLD
 trader_type: sonstige
 state: RP
-city: Koblenz 56068
+city: Koblenz
 street: 'Schloßstr. 21'
 postcode: '56068'
 phone: '0261 97336097'
-email: ''
+email: info@schaengelgold.de
 opening_hours: 'Mo-Fr 10:00-17:00; Sa 10:00-15:00'
 website: https://www.schaengelgold.de/
 website_status: ''
@@ -39,3 +39,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Leistungen: Gold-/Edelmetallankauf (Gold, Silber, Zahngold, Münzen, Tafelsilber, Zinn) plus Edeldestillate/Liköre; Öffnungszeiten Mo-Fr 10:00-17:00, Sa 10:00-15:00 (Quellen: Betreiberseite und Gelbe Seiten: Gold- und Silberwaren, Gold-/Münz-/Zinnankauf)
 - Website https://www.schaengelgold.de/ als Domain-Root der Impressum-Quell-URL gesetzt
 - E-Mail info@schaengelgold.de nur auf Betreiberseite (Kontakt+Impressum, eine Domain) (Einzelbeleg, unsicher)
+- [Korrektur 01.10.2026: Feedback #2983 berechtigt eingearbeitet — city „Koblenz 56068" zu „Koblenz" (PLZ-im-city-Formatfehler), email info@schaengelgold.de per Betreiber-Kontaktseite (Schloßstr. 21, 56068 Koblenz, Tel. 0261/97336097, Zeiten Mo-Fr 10-17 Sa 10-15 bestätigt, unverändert); Beleglage: Betreiber-Website (Kontakt + Impressum = eine Domain, Einzelbeleg) als starke Einzelquelle, offengelegt; Quelle(n): https://www.schaengelgold.de/kontakt.html (Abruf 01.10.2026)]

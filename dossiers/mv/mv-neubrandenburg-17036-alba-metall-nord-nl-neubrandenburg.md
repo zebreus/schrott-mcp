@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Stahl/NE/Container
 - Adresse: Neubrandenburg 17036, Kruseshofer Str. 21, Tel. 0395 3698315
 
+### Recherche 01.10.2026 (Feedback-Triage 2943)
+
+- [Recherche 01.10.2026: Feedback 2943 bestätigt, aber kein neuer Fill — kein Frontmatter-Change: ALBA-Fix 01.10.2026 (s. unten) dokumentiert bereits vollständig, dass Neubrandenburg NICHT auf der aktuellen Betreiber-Standortliste steht (Vollcrawl metall.alba.info ohne Treffer); status pruefung + Klärfall bleiben. Feedback liefert keinen neuen Beleg über den Fix hinaus. Quelle(n): s. ALBA-Fix-Eintrag unten]
+
 ### Korrektur 01.10.2026 (ALBA-Fix)
 
 - Delisted-Protokoll: Neubrandenburg steht NICHT auf der aktuellen Betreiber-Standortliste (Vollcrawl 01.10.2026: metall.alba.info = 13 Detailseiten ohne Neubrandenburg; alba.info/standorte ohne Treffer). Ältere Liste hatte 17 Treffer inkl. Neubrandenburg.

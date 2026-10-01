@@ -3,7 +3,7 @@ slug: sh-tarp-24963-schrotthandlung-ivers
 name: Schrotthandlung Ivers
 trader_type: schrotthaendler
 state: SH
-city: Tarp 24963
+city: Tarp
 street: Flensburger Str. 37
 postcode: '24963'
 phone: 04638 7932
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3022)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3022): Feedback teilweise berechtigt — city 'Tarp 24963' → 'Tarp' (Format) eingearbeitet. Abholung/Anlieferung ('Schrottabholung vor Ort nach Vereinbarung', 'Abholung oder Anlieferung nach Absprache'; Annahme Altmetall/Haushaltsgeräte/Kabel/NE/Altautos n. Absprache) nur Timeline: kein strukturierter dropoff_json/pickup_json-Fill (keine Kundentypen-Belege). Name/Adresse/Tel./E-Mail/Zeiten rückbestätigt. Quelle(n): ivers.de/ (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

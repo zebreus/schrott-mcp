@@ -1,9 +1,9 @@
 ---
 slug: ni-neustadt-a-rbge-31535-wagner-schrott-und-metalle
 name: Wagner KG Schrott und Metalle
-trader_type: autoverwertung
+trader_type: schrotthaendler
 state: NI
-city: Neustadt a. Rbge. 31535
+city: Neustadt a. Rbge.
 street: Rudolf-Diesel-Ring 8
 postcode: '31535'
 phone: 05032 61086
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Familienbetrieb (4. Gen.), kauft Schrott/NE-Metalle an, zertifizierte Autoverwertung
 - Adresse: Neustadt a. Rbge. 31535, Rudolf-Diesel-Ring 8
 - Adressbeleg: https://www.schrottplatz-wagner.de, https://www.schrottplatz-wagner.de/Impressum/
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2950 berechtigt eingearbeitet — (1) city „Neustadt a. Rbge. 31535" zu „Neustadt a. Rbge."; (2) trader_type autoverwertung zu schrotthaendler: Leistungs-Schwerpunkt ist Schrott-/Metall-Annahme + Containerdienst + Bauschutt (eigene Leistungsseiten), Altfahrzeugentsorgung nur Teilleistung trotz Zertifikat; Adresse/Rudolf-Diesel-Ring 8, HRA 110166, Zeiten Mo-Fr 7:00-17:00 (Mi ab 8:00)/Sa 7:00-12:00 per Impressum bestätigt (Dossier-Werte korrekt, unverändert); Beleglage: Betreiber-Website mit Impressum (HRA, Inhaber) — Typzuordnung Interpretation, offengelegt; Quelle(n): https://www.schrottplatz-wagner.de/Impressum/ (Abruf 01.10.2026)]

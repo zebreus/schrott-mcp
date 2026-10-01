@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-Triage 2923)
+
+- [Recherche 01.10.2026: Feedback 2923 berechtigt, aber Teil-Klärfall — keine Frontmatter-Änderung: Straße (Struthweg 3), E-Mail (kfz-habersack@gmx.de), Zeiten (Mo-Fr 9-18/Sa 9-14) nur einzelbelegt (Betreiber-Impressum, s. Recherche 01.10.2026 unten), kein Zweitbeleg → nach Zwei-Quellen-Regel kein Fill. Telefon/postcode/description bereits befüllt und verifiziert korrekt. Quelle(n): s. Recherche-Eintrag 01.10.2026 unten, Re-Verifizierung 01.10.2026]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website kfz-verwertung-habersack.de live (Startseite + Impressum): Kfz-Verwertung Habersack, Inhaber Klaus Habersack, Struthweg 3, 63594 Hasselroth, Tel 06055-81058, Mobil 015758729258, E-Mail kfz-habersack@gmx.de, Zeiten Mo-Fr 9-18 (Mittag 13-14), Sa 9-14. Kommune Hasselroth (hasselroth.de, Tour de Hasselroth 05.12.2023) + Vorsprung-Online (18.12.2019) bestätigen Familienbetrieb KFZ-Verwertung Habersack (Klaus, Petra, Söhne Tim/Tino) in Niedermittlau inkl. Meisterwerkstatt. Creditreform-Firmeneintrag bestätigt Name + Tel 06055 81058. Gefüllt: website (+aktiv), phone, postcode, description; trader_type sonstige→autoverwertung (bewiesene Korrektur, 2 Belege). street (Struthweg 3), email, opening_hours nur Einzelbeleg Betreiber-Impressum (kein Zweitbeleg — Verzeichnisse zählen nicht) → Frontmatter leer gelassen; Quelle(n): https://www.kfz-verwertung-habersack.de/ + https://www.kfz-verwertung-habersack.de/impressum.html (eine Quelle) + https://www.hasselroth.de/hasselroth/gewerbe/tour-de-hasselroth/fa-kfz-verwertung-habersack/ + Creditreform-Snippet]

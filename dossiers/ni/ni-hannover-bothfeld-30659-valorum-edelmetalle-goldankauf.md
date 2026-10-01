@@ -3,7 +3,7 @@ slug: ni-hannover-bothfeld-30659-valorum-edelmetalle-goldankauf
 name: Valorum Edelmetalle & Goldankauf
 trader_type: metallhaendler
 state: NI
-city: Hannover-Bothfeld 30659
+city: Hannover-Bothfeld
 street: Sutelstr. 12a
 postcode: '30659'
 phone: 0511 - 646 646 96
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Edelmetallhandel, Alt-/Bruch-/Zahngold, Münzen/Barren/Platin/Palladium zu Tagespreisen (Dentalgold-Link gegeben, kein reiner Schmuckankauf)
 - Adresse: Hannover-Bothfeld 30659, Sutelstr. 12a
 - Adressbeleg: https://valorum.de
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2949 berechtigt eingearbeitet — city „Hannover-Bothfeld 30659" zu „Hannover-Bothfeld" (Stadtteil-Suffix bleibt per Konvention wie Krefeld-Oppum, nur PLZ gestrichen; PLZ steht separat im postcode-Feld); keine Sachfakten geändert; Quelle: Dossier-Frontmatter (postcode '30659')]

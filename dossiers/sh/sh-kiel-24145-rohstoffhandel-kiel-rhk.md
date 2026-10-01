@@ -3,7 +3,7 @@ slug: sh-kiel-24145-rohstoffhandel-kiel-rhk
 name: Rohstoffhandel Kiel GmbH & Co. KG (RHK)
 trader_type: schrotthaendler
 state: SH
-city: Kiel 24145
+city: Kiel
 street: Ottostr. 10
 postcode: '24145'
 phone: 0431 719 29 0
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3024)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3024): Feedback berechtigt, eingearbeitet — city 'Kiel 24145' → 'Kiel' (Format, PLZ bereits in postcode). Name/Straße/Tel./E-Mail per Kontakt-/Impressum-Seiten rückbestätigt. Quelle(n): rhk-kiel.de/kontakt/ + /impressum/ (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

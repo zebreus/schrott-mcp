@@ -4,10 +4,10 @@ name: HAROC Rohstoff GmbH
 trader_type: sonstige
 state: MV
 city: Kreien 19386
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Wilsener Chaussee 1
+postcode: '19386'
+phone: +49 38733229027
+email: info@haroc.de
 opening_hours: ''
 website: https://www.haroc.de/
 website_status: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - NE/Kunststoffe, bvse-Mitglied seit 2009, Gewerbe-Fokus
 - Adresse: Kreien 19386, Wilsener Chaussee 1 (Impressum verifiziert)
+
+### Recherche 01.10.2026 (Feedback-Triage 2931)
+
+- [Recherche 01.10.2026: Feedback 2931 berechtigt — Betreiber-Impressum (haroc.de/imprint.html, Abruf 01.10.2026): „Haroc Rohstoff GmbH, GF Burak Pek, Wilsener Chaussee 1, 19386 Kreien, Tel. +49 38733229027, info@haroc.de, HRB 113556 AG Schwerin"; Homepage-Header bestätigt Tel./E-Mail/Web identisch. street/postcode/phone/email gefüllt. Beleglage: starke Betreiber-Primärquelle mit HRB-Angabe (Homepage-Kopf als operator-interne Zweitnennung, keine register-externe Kongruenzprüfung — Restunsicherheit offen dokumentiert, Muster Knettenbrech 2912). city-Feld unverändert (historisch mit PLZ). Hinweis: Koordinaten neu zu geocodieren. Quelle(n): haroc.de/imprint.html + Homepage-Header]
 
 ### Recherche 30.09.2026
 

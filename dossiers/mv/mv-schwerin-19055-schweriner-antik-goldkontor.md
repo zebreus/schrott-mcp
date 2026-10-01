@@ -3,7 +3,7 @@ slug: mv-schwerin-19055-schweriner-antik-goldkontor
 name: Schweriner Antik & Goldkontor
 trader_type: sonstige
 state: MV
-city: Schwerin 19055
+city: Schwerin
 street: Werderstraße 41
 postcode: '19055'
 phone: 0172 5992730
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Dentalgold (Zahnkronen/Brücken/Inlays, Bargeld sofort, Hausbesuch)
 - Adresse: Schwerin 19055, Werderstraße 41
 - Adressbeleg: https://schweriner-goldankauf.de/zahngold-ankauf.html
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2944 berechtigt eingearbeitet — city „Schwerin 19055" zu „Schwerin" (PLZ steht separat im postcode-Feld); keine Sachfakten geändert, kein externer Beleg nötig (Formatfehler im Dossier selbst); Quelle: Dossier-Frontmatter (postcode '19055')]

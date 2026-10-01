@@ -1,7 +1,7 @@
 ---
 slug: mv-bargensdorf-17094-ass-automobilservice-stargard-neumann
 name: ASS Automobilservice Stargard Neumann oHG
-trader_type: mobil
+trader_type: sonstige
 state: MV
 city: Bargensdorf 17094
 street: Fünfeichener Weg 3
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage 2929)
+
+- [Recherche 01.10.2026: Feedback 2929 berechtigt — trader_type mobil → sonstige korrigiert: Betreiber-Impressum (ass-autopartner.de/impressum, Abruf 01.10.2026): ASS Automobilservice Stargard Neumann OHG, Fünfeichener Weg 3, 17094 Bargensdorf, HRA 1168 Neubrandenburg — ortsfeste Autowerkstatt (Leistungen: Inspektion/Ölwechsel/Reparaturen/Reifenwechsel, feste Öffnungszeiten Mo-Fr 8-17/Sa 9-11), kein mobiler Dienst. Kein Werkstatt-Typ im Schema → sonstige als korrekter Fallback (kein AV-/Schrott-Schwerpunkt belegt). Kontakt-Frontmatter per Impressum + Kontaktseite re-verifiziert, unverändert korrekt. Quelle(n): ass-autopartner.de/impressum + /kontakt-anfahrt + Leistungsseiten]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

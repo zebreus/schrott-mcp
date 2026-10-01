@@ -3,7 +3,7 @@ slug: ni-peine-31228-autoverwertung-peter-stautmeister-inh-je
 name: Autoverwertung Peter Stautmeister (Inh. Jens Satzer)
 trader_type: autoverwertung
 state: NI
-city: Peine 31228
+city: Peine
 street: Dieselstr. 12
 postcode: '31228'
 phone: +49 5171 41310 / 5171 733023
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Peine 31228, Dieselstr. 12 (Stederdorf)
 - Adressbeleg: https://stautmeister.com
 - Adressbeleg: stautmeister.com
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2958 berechtigt eingearbeitet — city „Peine 31228" zu „Peine" (PLZ steht separat im postcode-Feld); keine Sachfakten geändert, kein externer Beleg nötig (Formatfehler im Dossier selbst); Quelle: Dossier-Frontmatter (postcode '31228')]

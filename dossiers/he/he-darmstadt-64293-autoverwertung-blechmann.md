@@ -10,7 +10,7 @@ phone: '06151 7858806'
 email: 'service@autoverwertung-blechmann.de'
 opening_hours: ''
 website: http://www.autoverwertung-blechmann.de
-website_status: 'aktiv'
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV (leitet auf https://autoverwertung-blechmann.de)
 - Adresse: Darmstadt 64293, Staudingerstr.
+
+### Recherche 01.10.2026 (Feedback-Triage 2917)
+
+- [Recherche 01.10.2026: Feedback 2917 erledigt — keine Änderung: Hinweis „Besuch/Anlieferung nur nach Vereinbarung, keine festen Öffnungszeiten" bereits durch Recherche 01.10.2026 dokumentiert (s. Timeline-Eintrag unten); opening_hours bleibt korrekterweise leer, kein Fill erfunden. Frontmatter verifiziert unverändert korrekt.]
 
 ### Recherche 01.10.2026
 

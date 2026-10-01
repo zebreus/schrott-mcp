@@ -3,7 +3,7 @@ slug: ni-harsefeld-21698-nordkat
 name: NORDKAT GmbH
 trader_type: sonstige
 state: NI
-city: Harsefeld 21698
+city: Harsefeld
 street: Am Bauhof 5
 postcode: '21698'
 phone: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Katalysatoren/Zündkerzen/Lambdasonden/NOx, tagesaktuelle Bewertung, Versand deutschlandweit. PREISLISTE: https://www.nordkat.de/Preislisten-ankaufspreise-edelmetalle/
 - Adresse: Harsefeld 21698
 - Adressbeleg: https://www.nordkat.de/Oeffnungszeiten/, https://www.nordkat.de/Impressum/
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2945 berechtigt eingearbeitet — city „Harsefeld 21698" zu „Harsefeld" (PLZ steht separat im postcode-Feld); keine Sachfakten geändert, kein externer Beleg nötig (Formatfehler im Dossier selbst); Quelle: Dossier-Frontmatter (postcode '21698')]

@@ -3,14 +3,14 @@ slug: sl-saarbrucken-66111-rheinische-scheidestatte-filiale-saarbru
 name: Rheinische Scheidestätte GmbH, Filiale Saarbrücken
 trader_type: sonstige
 state: SL
-city: Saarbrücken 66111
-street: Viktoriastr. 6
-postcode: ''
-phone: ''
-email: ''
+city: Saarbrücken
+street: Viktoriastraße 6
+postcode: '66111'
+phone: 0681-93317575
+email: 'info-saarbruecken@rheinische-scheidestaette.de'
 opening_hours: Mo-Fr 9:30-18:00, Sa geschlossen
 website: https://rheinische-scheidestaette.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 2996)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2996): Feedback berechtigt, eingearbeitet — city 'Saarbrücken 66111' → 'Saarbrücken' (Format), postcode '66111', phone 0681-93317575, e-mail-Fill info-saarbruecken@rheinische-scheidestaette.de, website_status aktiv. Betreiber-Filialseite belegt Viktoriastraße 6, 66111 Saarbrücken, Mo-Fr 09:30-18:00, Sa geschlossen — Straße/Zeiten rückbestätigt. Owner-Primärquelle qualifiziert: Impressum Rheinische Scheidestätte GmbH, HRB 67778 AG Düsseldorf + Northdata aktiv + 23 per-site Filialseiten. Quelle(n): rheinische-scheidestaette.de/filialen/saarbruecken + /impressum (abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

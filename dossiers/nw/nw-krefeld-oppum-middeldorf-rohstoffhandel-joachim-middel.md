@@ -8,7 +8,7 @@ street: Herbertzstr. 14-16
 postcode: '47809'
 phone: +49 2151 544541
 email: info@middeldorf-rohstoffhandel.de
-opening_hours: ''
+opening_hours: Mo-Do 7:00-15:30, Fr 7:00-14:30 (Lager/Warenannahme)
 website: https://middeldorf-rohstoffhandel.de
 website_status: ''
 status: aktiv
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - legierte Schrotte/Rotguss/Edelstahl, Handel/Sortierung/Aufbereitung seit 1983
 - Adresse: Krefeld-Oppum, Herbertzstr. 14-16 (Sitz Flensburg)
 - Adressbeleg: https://middeldorf-rohstoffhandel.de
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2961 berechtigt eingearbeitet — opening_hours ergänzt: „Mo-Do 7:00-15:30, Fr 7:00-14:30 (Lager/Warenannahme)" per Betreiber-Website; Adresse Herbertzstr. 14-16, 47809 Krefeld-Oppum + Tel./E-Mail bestätigt (unverändert); Beleglage: Betreiber-Website (GmbH & Co. KG, EFB-Zertifikat verlinkt — Owner-Ausnahme); Quelle(n): https://middeldorf-rohstoffhandel.de (Abruf 01.10.2026)]

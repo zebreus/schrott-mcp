@@ -1,13 +1,13 @@
 ---
 slug: nw-ludenscheid-schulte-hotko
 name: Schulte/Hotko
-trader_type: schrotthaendler
+trader_type: containerdienst
 state: NW
 city: Lüdenscheid
-street: ''
+street: Römerweg 49
 postcode: '58513'
 phone: 02351 952727
-email: ''
+email: info@schulte-entsorgung.de
 opening_hours: ''
 website: 'https://www.schulte-entsorgung.de/'
 website_status: ''
@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - STRASSEN-KONFLIKT: Impressum nennt Römerweg 49, Verzeichnisse Römerweg 47 — Straße daher NICHT in Frontmatter: https://www.schulte-entsorgung.de/impressum vs. https://www.gelbeseiten.de/gsbiz/4600c1c7-1ee0-49e6-a407-b208d774e766
 - Mail info@schulte-entsorgung.de nur Impressum (Einzelbeleg, unsicher, nicht in Frontmatter): https://www.schulte-entsorgung.de/impressum
 - Leistungen: zertifizierter Entsorgungsfachbetrieb, Containerdienst, Bau-/Abbruchabfälle, Schrott-/Metallgroßhandel: https://www.golocal.de/luedenscheid/schrotthandel/containerdienst-schrott-metall-handel-horst-schulte-inh-damir-hotko-3LeA
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2976 berechtigt eingearbeitet — street Römerweg 49, email info@schulte-entsorgung.de per Betreiber-Impressum (Horst Schulte, zertifizierter Entsorgungsfachbetrieb, Inh. Damir Hotko e.K., USt-ID DE310147784); trader_type schrotthaendler zu containerdienst (Schwerpunkt Containerdienst + Schrott-/Metallgroßhandel, Efb); STRASSEN-KONFLIKT aufgelöst: Impressum Römerweg 49 (stärkere Quelle) gefüllt, Verzeichnis-Angabe Römerweg 47 nur Timeline; Mobil 0171 7427260 nur Timeline (Feedback-Scope Festnetz/E-Mail); Beleglage: Betreiber-Impressum als starke Einzelquelle (e.K., HRA 5172 Iserlohn per Timeline), offengelegt; Quelle(n): https://www.schulte-entsorgung.de/impressum (Abruf 01.10.2026)]

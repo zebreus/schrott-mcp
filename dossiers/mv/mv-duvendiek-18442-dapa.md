@@ -41,6 +41,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 30.09.2026 (Feedback-Triage): Re-Report fb1766 (»Ort fehlerhaft, Strasse/PLZ/Telefon fehlen«) — Tiefencrawl: Duvendiek-Zweigstelle ist real (eigene Standortseite /locations/duvendiek: »DAPA Autoverwertung Duvendiek, Kranichblick 32, 18442 Duvendiek, Tel. 038321-363« + Footer/Standorte-Seite). Impressum weiter nur HQ Lüssow/Stralsund → Stadt-Mismatch-Regel, kein Fill daraus. PLZ 18442 (Betreiber + Gelbe Seiten + Das Oertliche) → gefuellt; Telefon 038321 363 (Betreiber + GS + DO) → gefuellt. Strasse NICHT gefuellt: Konflikt Kranichblick 32 (Betreiber, 1 Quellfamilie) vs. Kranichblick 30 (Gelbe Seiten + Das Oertliche + Stadtbranchenbuch) — Klaerfall, Vermerk statt Fiktion. website_status aktiv (Impressum DAPA GmbH + Luessow/Stralsund, Name+Ort ✓; Duvendiek als Zweigstelle am selben Betreiber belegt). Oeffnungszeiten Duvendiek nicht ausgewiesen (nur Werkstatt-Zeiten HQ) → leer. Quelle: dapa-hst.de (Startseite, /locations/duvendiek, /standorte, /impressum), gelbeseiten.de, dasoertliche.de.]
 
+### Recherche 01.10.2026 (Feedback-Triage 2928)
+
+- [Recherche 01.10.2026: Feedback 2928 („Straße fehlt") berechtigt, aber fortbestehender Klärfall — keine Änderung: Straßenkonflikt Kranichblick 32 (Betreiber-Standortseite) vs 30 (Gelbe Seiten + Örtliches + Stadtbranchenbuch) besteht fort (Re-Verifizierung 01.10.2026); PLZ/Telefon/website_status bereits gesetzt und korrekt. Koordinaten: kein Frontmatter-Feld, Neu-Geocodierung erst nach Klärung der Hausnummer sinnvoll. Quelle(n): s. Recherche-Einträge unten, Re-Verifizierung 01.10.2026]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Bestand re-verifiziert – Betreiber-Standortseite nennt weiter "DAPA Autoverwertung Duvendiek, Kranichblick 32, 18442 Duvendiek, Telefon 038321-363"; Impressum weiter nur HQ Am Langendorfer Berg 8, 18442 Lüssow/Stralsund; Straßenkonflikt 32 (Betreiber) vs. 30 (Verzeichnisse) besteht fort → street weiter leer; Quelle(n): dapa-hst.de/locations/duvendiek + /impressum (Abruf 01.10.2026)]

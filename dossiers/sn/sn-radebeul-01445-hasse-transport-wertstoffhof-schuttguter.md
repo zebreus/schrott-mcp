@@ -3,14 +3,14 @@ slug: sn-radebeul-01445-hasse-transport-wertstoffhof-schuttguter
 name: Hasse Transport – Wertstoffhof & Schüttgüter
 trader_type: wertstoffhaendler
 state: SN
-city: Radebeul 01445
+city: Radebeul
 street: Fabrikstr. 17
 postcode: '01445'
 phone: '0351 8888680'
 email: ''
 opening_hours: ''
 website: 'https://www.hasse-transport.de'
-website_status: 'aktiv'
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 30.09.2026: Fabrikstraße 17, 01445 Radebeul + Tel. 0351-888868-0 doppelt belegt via Impressum (PLZ/Telefon/Website Frontmatter gefüllt, Straße bereits vorhanden); Website https://www.hasse-transport.de (Impressum mit Name + Ort + HRB Dresden 1813, website_status aktiv); Quelle: https://www.hasse-transport.de/kontakt/impressum.html + https://www.dasoertliche.de/?form_name=search_nat&kw=Hasse+Transport&ci=Radebeul]
 - [Recherche 30.09.2026: E-Mail info@hasse-transport.de nur Firmenwebsite (Einzelbeleg, unsicher); Zweigstelle Coswig, Naundorfer Str. 3, 01640 (Örtliche, Einzelbeleg, unsicher); Quelle: https://www.hasse-transport.de/kontakt/impressum.html]
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3015)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3015): Feedback teilweise berechtigt — city 'Radebeul 01445' → 'Radebeul' (Format) eingearbeitet. E-Mail info@hasse-transport.de, Radebeul-Zeiten Mo-Fr 07-17, Coswig-Standort Naundorfer Str. 3, 01640 (Schrottannahme/Recyclingplatz Mo-Fr 06-16, Sa 08-12 Apr-Nov) weiter NUR Timeline: Betreiber-Einzelbeleg bzw. Örtliche-Einzelbeleg, vgl. Vorrecherche 30.09.2026. Name 'Wertstoffhof' am Radebeul-Standort (Verwaltung/Werkstatt/Boxen) irreführend, Coswig-Zweig kein eigenes Dossier (Slug unverändert) — Typ wertstoffhaendler bleibt, Klärfall containerdienst/Coswig-Ergänzung. Quelle(n): hasse-transport.de/kontakt/ (Betreiber-Primärquelle, abgerufen 01.10.2026).]

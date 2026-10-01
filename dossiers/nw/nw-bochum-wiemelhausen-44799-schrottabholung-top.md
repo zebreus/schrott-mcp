@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-Triage 2938)
+
+- [Recherche 01.10.2026: Feedback 2938 („PLZ im city-Feld, Abholservice nicht erfasst") Klärfall — keine Frontmatter-Änderung: city-Feld mit PLZ („Bochum-Wiemelhausen 44799") bleibt unverändert (historisch mit PLZ, Slug-fixiert, vgl. RHH-Präzedenz); mobiler Schrott-/AV-Abholservice bereits in Seed-Timeline dokumentiert (s. unten), kein zusätzlicher Fill. Quelle(n): Seed-Beleg + Betreiber-Seite schrottabholung-top.de (Abruf 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/AV, mobil; Preisseite ohne €-Festpreise (https://schrottabholung-top.de/schrottpreise/)

@@ -3,7 +3,7 @@ slug: ni-sz-bad-autorecycling-lesum
 name: Autorecycling Lesum GmbH
 trader_type: autoverwertung
 state: NI
-city: SZ-Bad
+city: Salzgitter-Bad
 street: Porschestr. 20
 postcode: '38259'
 phone: +49 5341 31597
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung, kostenlose Altauto-Annahme (Flag)
 - Adresse: Salzgitter-Lebenstedt 38229, Peiner Str. 39 (+ SZ-Bad, Bad Harzburg)
 - Adressbeleg: https://recycling-lesum.de, https://recycling-lesum.de/impressum/
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2957 berechtigt eingearbeitet — city-Kürzel „SZ-Bad" zu „Salzgitter-Bad" (Betreiber-Schreibweise, Logo „Recycling Lesum GmbH in Salzgitter-Bad"); KEINE Dublette: diese Zeile beschreibt die Porschestr.-20-Filiale (38259, Tel. 05341 31597), die Lebenstedt-Filiale (Peiner Str. 39, 38229) steht in Schwester-Dossier ni-salzgitter-lebenstedt-38229-autorecycling-lesum — Querverweis statt Merge, Slugs unverändert; Beleglage: Betreiber-Filialseiten im Vollcrawl; Quelle(n): https://recycling-lesum.de/kontakt/, https://recycling-lesum.de/ueber-uns/ (Abruf 01.10.2026)]

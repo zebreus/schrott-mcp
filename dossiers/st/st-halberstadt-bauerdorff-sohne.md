@@ -8,9 +8,9 @@ street: Im Sülzeteiche 34a
 postcode: '38820'
 phone: 03941 447647 (mobil 0177 6449486)
 email: info@bauerdorff.de
-opening_hours: ''
+opening_hours: 'Bürozeiten Mo-Fr 08:00-16:30'
 website: https://www.bauerdorff.de/
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3020)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3020): Feedback berechtigt, eingearbeitet — opening_hours 'Bürozeiten Mo-Fr 08:00-16:30' aus Betreiber-Kontaktseite übernommen, website_status aktiv. Name/Adresse/Tel./E-Mail/Containerdienst (1-35 m³) rückbestätigt. Mobil 0177 6449486 nur Timeline: im Dossier-Seed enthalten, auf Website nicht gefunden (Einzelbeleg, kein Zweitbeleg) → phone-Feld unverändert. Quelle(n): bauerdorff.de/kontakt + /impressum (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

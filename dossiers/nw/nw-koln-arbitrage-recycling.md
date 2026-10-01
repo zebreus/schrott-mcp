@@ -1,7 +1,7 @@
 ---
 slug: nw-koln-arbitrage-recycling
 name: Arbitrage Recycling
-trader_type: schrotthaendler
+trader_type: wertstoffhaendler
 state: NW
 city: Köln
 street: Max-Planck-Straße 38
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - E-Schrott-/Batterie-Ankauf, Rücknahme, Logistik, v.a. Gewerbe
 - Adresse: Köln (0221)
 - Adressbeleg: https://arbitrage-recycling.com
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2967 berechtigt eingearbeitet — trader_type schrotthaendler zu wertstoffhaendler: Betreiber-Selbstbild „Batterierecycling und Elektroschrott für Unternehmen" (Ankauf/Rücknahme/Logistik/Verwertung gewerblicher Batterie-, Akku- und Elektronikbestände, kein klassischer Schrottplatz); Adresse Max-Planck-Str. 38, 50858 Köln + Tel./E-Mail bestätigt (unverändert); Beleglage: Betreiber-Website als Einzelbeleg (Ltd.-Konstrukt, Typzuordnung Interpretation, offengelegt); Quelle(n): https://arbitrage-recycling.com (Abruf 01.10.2026)]

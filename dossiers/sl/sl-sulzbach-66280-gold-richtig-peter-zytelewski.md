@@ -3,9 +3,9 @@ slug: sl-sulzbach-66280-gold-richtig-peter-zytelewski
 name: GOLD richtig (Peter Zytelewski)
 trader_type: sonstige
 state: SL
-city: Sulzbach 66280
+city: Sulzbach/Saar
 street: Bahnhofstr. 9
-postcode: ''
+postcode: '66280'
 phone: ''
 email: ''
 opening_hours: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3002)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3002): Feedback teilweise berechtigt — city 'Sulzbach 66280' → 'Sulzbach/Saar', postcode '66280' (Format, aus city-Feld übernommen) eingearbeitet. Festnetz 06897-9388920, Mobil 0177-2604991, E-Mail mail@sulzbach-goldankauf.de, Adresse Bahnhofstr. 9 nur Timeline: Betreiber-Impressum (Einzelunternehmen Peter Zytelewski) als Einzelbeleg, kein Zweitbeleg/HRB, Homepage-Fetch liefert nur Startseiten-Content → kein Frontmatter-Fill für phone/e-mail. Versandankauf (Privatkunden Gold/Silber per Versand, Ankauf ohne Termin während Öffnungszeiten) nur Timeline: kein strukturierter dropoff_json-Fill (keine Kundentypen-Belege). Öffnungszeiten auf Startseite nicht gefunden. Quelle(n): sulzbach-goldankauf.de/impressum.html + / (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

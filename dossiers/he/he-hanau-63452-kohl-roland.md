@@ -1,7 +1,7 @@
 ---
 slug: he-hanau-63452-kohl-roland
 name: Kohl Roland
-trader_type: schrotthaendler
+trader_type: autoverwertung
 state: HE
 city: Hanau 63452
 street: Niddastr. 34
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage 2922)
+
+- [Recherche 01.10.2026: Feedback 2922 berechtigt — trader_type schrotthaendler → autoverwertung korrigiert: Betreiber-Website (abschleppdiensthanau.de) belegt Autoverwertung/Gebrauchtteile/Krandienst neben Abschleppdienst; Zweitbeleg 11880-Eintrag (19.09.2026) listet „Roland Kohl Abschleppdienst Autovermietung Autoverwertung Krandienst" — 2 unabhängige Belege für Autoverwertung. Kontakt-Frontmatter bereits durch Tiefenrecherche-Welle gefüllt, verifiziert unverändert korrekt. Quelle(n): Betreiber-Website + 11880-Branchenbuch, s. Tiefenrecherche-Eintrag unten, Re-Verifizierung 01.10.2026]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

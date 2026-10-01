@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-Triage 2910)
+
+- [Recherche 01.10.2026: Feedback 2910 unberechtigt — Betreiber-Filialliste (Vollabruf 01.10.2026) führt „OPHIRUM Hanau by GOLDFUXX, Hirschstr. 11, 63450 Hanau" WEITER als „geschlossen" (Kontakt nur Zentral-Mail service@goldfuxx.de, kein Filial-Telefon). DB-Status geschlossen bleibt korrekt; kein Frontmatter-Fill (geschlossene Filiale, keine frischen Kontaktdaten fingieren). Quelle(n): ophirum.de/filialen (Hanau-Karte), Abruf 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - OPHIRUM-Filiale, Goldankauf — geschlossen lt. Website (94× „geschlossen", 29.09.2026)

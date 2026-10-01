@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-Triage 2915)
+
+- [Recherche 01.10.2026: Feedback 2915 erledigt — keine Änderung: Straße/PLZ/Telefon/E-Mail/Öffnungszeiten bereits durch Recherche 01.10.2026 befüllt und belegt (Betreiber-Impressum + Gelbe Seiten, s. Timeline-Eintrag direkt unten). Frontmatter verifiziert unverändert korrekt.]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Befuellt — Betreiber-Impressum (der-autoverwerter.de/impressum.htm, Direktabruf Frameset-Site 01.10.2026): Autoverwertung Oerter, Susanne Domuradt, Am Schimberg 8, D-35708 Haiger, Tel. +49-2773-6830, Fax 02773-71912, Oeffnungszeiten Mo-Fr 10-16 Uhr, E-Mail info@der-autoverwerter.de; Zweitbeleg Gelbe Seiten (eigener Abruf 01.10.2026): Am Schimberg 8, 35708 Haiger (Flammersbach), 02773 68 30 — Adresse/Telefon identisch. HINWEIS: Einzelunternehmen ohne HRB (kein Register), daher keine Owner-Ausnahme; E-Mail-Variante info@oerter.de im Menue-Frame (aelter) weicht ab, Impressum-Angabe uebernommen. Website nur per http erreichbar (https scheitert), dennoch aktiv; status aktiv; Quelle(n): Betreiber-Impressum + Gelbe Seiten]

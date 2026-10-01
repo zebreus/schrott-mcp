@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott, mögl. Plum-Familie (GS)
 - Adresse: Alsdorf
 - Adressbeleg: https://www.franz-plum.de
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback #2977 berechtigt, kein Frontmatter-Fill — HQ Carl-Zeiss-Str. 9, 52477 Alsdorf (Tel. 02404/5520-0, info@franz-plum.de, Büro Mo-Fr 7-17 Sa 7-12) in Frontmatter korrekt; Schrottplatz-Betriebsstätte Am Güterbahnhof 5, Alsdorf, Mo-Fr 7:15-16:15 nur Timeline (Zweitstandort, kein eigenes Dossier, kein Merge); Leistungen Schrott-/Metallgroßhandel + Containerdienst/Entsorgungsfachbetrieb; Beleglage: Betreiber-Website (eine Quelle); Quelle(n): https://www.franz-plum.de (Home/Kontakt, Abruf 01.10.2026)]

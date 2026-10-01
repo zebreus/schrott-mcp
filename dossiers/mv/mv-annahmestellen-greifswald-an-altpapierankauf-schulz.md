@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-Triage 2925)
+
+- [Recherche 01.10.2026: Feedback 2925 berechtigt, aber Struktur-Klärfall — keine Frontmatter-Änderung: Sammeleintrag (city-Platzhalter bleibt, Slug unveränderbar). Betreiber-Standortseite Greifswald (altpapierankauf-schulz.de/standorte/greifswald, Abruf 01.10.2026) nennt „Am Gorzberg 23, 17489 Greifswald, 10-18 Uhr jede ungerade KW" + Tagespreis Altmetall/Schrott — aber Einzelunternehmen (Inh. F. Schulz, kein HRB) → keine Owner-Ausnahme, kein register-externer Zweitbeleg → kein Fill (Zwei-Quellen-Regel, vgl. Recherche 30.09.2026 unten). Stadt-übergreifende Sammelzeile: echte Greifswald-Fakten gehören auf eine künftige Greifswald-Einzelzeile, nicht in diesen Platzhalter. Quelle(n): Betreiber-Standortseite + Impressum, Abruf 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altpapier, Metall, Glas, Altkleider

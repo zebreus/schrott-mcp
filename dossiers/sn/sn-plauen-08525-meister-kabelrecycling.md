@@ -3,7 +3,7 @@ slug: sn-plauen-08525-meister-kabelrecycling
 name: Meister Kabelrecycling GmbH
 trader_type: metallhaendler
 state: SN
-city: Plauen 08525
+city: Plauen
 street: Am Stadtwald 10
 postcode: 08525
 phone: 03741 553700
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3007)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3007): Feedback berechtigt, eingearbeitet — city 'Plauen 08525' → 'Plauen' (Format, PLZ bereits in postcode). Adresse Am Stadtwald 10, Tel. 03741 553700, E-Mail info@meister-kabelrecycling.de rückbestätigt. Quelle(n): meister-kabelrecycling.de/impressum (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

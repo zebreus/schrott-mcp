@@ -1,9 +1,9 @@
 ---
 slug: sn-leipzig-04103-dinter-kabelrecycling
 name: DINTER Kabelrecycling
-trader_type: schrotthaendler
+trader_type: metallhaendler
 state: SN
-city: Leipzig 04103
+city: Leipzig
 street: Goldschmidtstr. 28a
 postcode: '04103'
 phone: +49 172 3766880
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3006)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3006): Feedback teilweise berechtigt — city 'Leipzig 04103' → 'Leipzig' (Format), trader_type schrotthaendler → metallhaendler (Betreiber-Site reiner Kabelankauf/-recycling, kein Eisen/Stahl) eingearbeitet. Abholservice ('Abholung bei Ihnen nach Absprache, ab größerem Volumen kostenlos in SN/ST/TH inkl. Demontage') nur Timeline: kein strukturierter pickup_json-Fill (keine Kundentypen-Belege). Adresse Goldschmidtstr. 28a, Tel. +49 172 3766880, E-Mail r.dinter@dinter-gruppe.de rückbestätigt. Quelle(n): dinter-kabelrecycling.de/kontakt/ + /impressum/ (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

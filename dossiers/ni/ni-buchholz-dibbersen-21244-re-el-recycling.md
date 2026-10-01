@@ -1,9 +1,9 @@
 ---
 slug: ni-buchholz-dibbersen-21244-re-el-recycling
 name: RE-EL Recycling GmbH
-trader_type: schrotthaendler
+trader_type: wertstoffhaendler
 state: NI
-city: Buchholz-Dibbersen 21244
+city: Buchholz-Dibbersen
 street: Königsgrund 1
 postcode: '21244'
 phone: 04181 / 39 441
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - E-Schrott-Entsorgungsfachbetrieb (LK Harburg), kostenlose Annahme privat + gewerblich, keine Vergütung belegt
 - Adresse: Buchholz-Dibbersen 21244, Königsgrund 1
 - Adressbeleg: https://www.re-el.net, https://www.re-el.net/impressum
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2953 berechtigt eingearbeitet — (1) city „Buchholz-Dibbersen 21244" zu „Buchholz-Dibbersen" (Ortsteil-Suffix bleibt); (2) trader_type schrotthaendler zu wertstoffhaendler: Betreiber ist kommunale Recycling-GmbH (Gesellschafter Landkreis Harburg, HRB 3863 Tostedt) für E-Schrott (privat/gewerblich), Möbel/Hausrat, Haushaltsauflösungen — kein Schrottankauf mit Vergütung; Adresse Königsgrund 1, 21244 Buchholz i. d. Nordheide per Impressum bestätigt; Beleglage: Betreiber-Impressum mit HRB (Owner-Ausnahme); Quelle(n): https://www.re-el.net/impressum (Abruf 01.10.2026)]

@@ -3,14 +3,14 @@ slug: rp-bad-neuenahr-ahrweiler-53474-flodorf
 name: Floßdorf
 trader_type: schrotthaendler
 state: RP
-city: Bad Neuenahr-Ahrweiler 53474
+city: Bad Neuenahr-Ahrweiler
 street: 'Ringener Straße 56'
 postcode: '53474'
 phone: '02641/9776-0'
 email: 'service@flossdorf-gmbh.de'
 opening_hours: 'Mo-Fr 08:00-17:00'
 website: 'https://flossdorf-gmbh.de'
-website_status: 'aktiv'
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 30.09.2026
 
 - [Recherche 30.09.2026: Ringener Straße 56, 53474 Bad Neuenahr-Ahrweiler, Tel 02641/9776-0, service@flossdorf-gmbh.de, Mo-Fr 08:00-17:00, Website https://flossdorf-gmbh.de; Quelle: https://flossdorf-gmbh.de/impressum; Quelle: https://www.schrottplatz-info.de/schrottplatz/Bad-Neuenahr-Ahrweiler/Flossdorf-GmbH]
+
+### Recherche 01.10.2026 (Feedback-Triage ID 2995)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2995): Feedback berechtigt, eingearbeitet — city 'Bad Neuenahr-Ahrweiler 53474' → 'Bad Neuenahr-Ahrweiler' (Format; Straße/PLZ/Tel/Mail/Zeiten bereits per 30.09.2026-Recherche belegt: Floßdorf GmbH, Ringener Straße 56, 53474 Bad Neuenahr-Ahrweiler). Namensschreibung Floßdorf (ß) vs Flossdorf (Website-Domain) nur hier dokumentiert. Quelle(n): Vorrecherche 30.09.2026 im Dossier.]

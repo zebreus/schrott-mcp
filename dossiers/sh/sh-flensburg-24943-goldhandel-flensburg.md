@@ -3,7 +3,7 @@ slug: sh-flensburg-24943-goldhandel-flensburg
 name: Goldhandel Flensburg
 trader_type: sonstige
 state: SH
-city: Flensburg 24943
+city: Flensburg
 street: ''
 postcode: ''
 phone: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KEINE Frontmatter-Fills — Einzelunternehmen ohne HRB (Owner-Ausnahme greift nicht); Betreiber-Impressum (goldhandel-flensburg.de, Einzelbeleg, unsicher): Inh. Dominik Reinhold, Angelsunder Weg 38, 24943 Flensburg, Tel. 0176-73512675, info@goldhandel-flensburg.de, Mo-Sa 09:00-18:00; Quelle(n): Betreiber-Impressum goldhandel-flensburg.de (Einzelbeleg)]
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3019)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3019): Feedback teilweise berechtigt — city 'Flensburg 24943' → 'Flensburg' (Format) eingearbeitet. Straße/PLZ/Telefon/E-Mail/Zeiten weiter NUR Timeline: vgl. Vorrecherche 01.10.2026 (Betreiber-Einzelbeleg Inh. Dominik Reinhold, Angelsunder Weg 38, 24943, Tel. 0176-73512675, info@goldhandel-flensburg.de, Mo-Sa 09-18 mit Terminpflicht laut FAQ; kein HRB, kein Zweitbeleg). Klärfall bis Zweitbeleg. Quelle(n): goldhandel-flensburg.de/Kontakt-Oeffnungszeiten/ + /Impressum/ + /FAQ/ (vgl. Vorrecherche).]

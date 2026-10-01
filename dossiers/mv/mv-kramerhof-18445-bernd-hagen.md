@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-Triage 2932)
+
+- [Recherche 01.10.2026: Feedback 2932 berechtigt — Zuordnungs-Klärfall, keine Frontmatter-Änderung: Betreiber-Website (bhagen.de, Abruf 01.10.2026) belegt AUSSCHLIESSLICH Neumünster (Bernd Hagen Verwaltungs GmbH, Rendsburger Straße 345, 24537 Neumünster, HRB 11889 Kiel, 04321-7834320, info@bhagen.de; Leistungen Abbruch/Erd/Pflaster/Recycling-Baustoff/Immo) — KEIN Standort Kramerhof (18445) auffindbar. Kramerhof-Adresse/Telefon daher unbelegbar, kein Fill erfunden (Neumünster-Fakten gehören nicht in eine Kramerhof-Zeile). Klärfall: Zeile evtl. fehlzugeordnet/historisch (Vorgängerbetrieb?) — Adress-/Telefoncheck oder Zeilen-Löschung/-Verschiebung nach Neumünster (SH). status pruefung bleibt. Quelle(n): bhagen.de (Homepage + Kontakt + Rechtliches/Impressum)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Abbruch/Baustoffrecycling/Eisen

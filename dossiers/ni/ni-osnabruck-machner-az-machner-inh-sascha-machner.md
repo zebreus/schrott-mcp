@@ -14,7 +14,7 @@ website_status: ''
 status: aktiv
 description: ''
 dropoff_json: ''
-pickup_json: ''
+pickup_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Kostenlose Abholung, Autoabholung, Container-Bereitstellung (Betreiber-Website, Feedback-Triage 01.10.2026)"}'
 provenance_section: 'Kept (36: 34/37 Kandidaten + MKV + Fair-Kat)'
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrottabholung privat/gewerblich, kauft größere Mengen an (wlw + 11880 gelistet)
 - Adresse: Osnabrück (mobil, 0541)
 - Adressbeleg: https://schrotty-machner.jimdofree.com, https://schrotty-machner.jimdofree.com/about/
+
+### Recherche 01.10.2026
+
+- [Korrektur 01.10.2026: Feedback #2952 berechtigt eingearbeitet — pickup_json gefüllt (kostenlose Abholung, Autoabholung, Container-Bereitstellung; Kunden privat + gewerblich) per Betreiber-Website („Schrott Ankauf und Handel und kostenlos Abholung", „EIN BREITES SPEKTRUM FÜR PRIVATKUNDEN UND UNTERNEHMEN", Leistungsliste Entsorgung/Demontage/Entrümplung/Autoabholung/Container); Adresse Assmannstr. 4, 49086 Osnabrück + beide Mobilnummern bestätigt; Beleglage: Betreiber-Website als Einzelbeleg (Jimdo-Kleinunternehmen ohne HRB — Restunsicherheit offengelegt); Quelle(n): https://schrotty-machner.jimdofree.com (Abruf 01.10.2026)]

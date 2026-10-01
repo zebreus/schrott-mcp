@@ -3,7 +3,7 @@ slug: sh-lubeck-23556-deinkat
 name: deinkat GmbH
 trader_type: sonstige
 state: SH
-city: Lübeck 23556
+city: Lübeck
 street: Hinter den Kirschkaten 1-3
 postcode: '23560'
 phone: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3021)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3021): Feedback berechtigt, eingearbeitet — city 'Lübeck 23556' → 'Lübeck' (Format), postcode '23560' aus Betreiber-Impressum bestätigt (Hinter den Kirschkaten 1-3, 23560 Lübeck; Slug-PLZ 23556 damit überholt, Slug unverändert). Telefon bleibt leer: auf Website keine Nummer (nur team@/media@deinkat.de), Geschäftsmodell Online-Kat-Ankauf per Post, Servicezeiten Mo-So 08-22 rückbestätigt. Quelle(n): deinkat.de/impressum/ (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -6,7 +6,7 @@ state: NW
 city: Bochum
 street: Am Kortländer 11
 postcode: '44787'
-phone: 0176 80355960
+phone: 0176 80355960, 02343 7993772
 email: info@schrottankauf-gegen-bares.de
 opening_hours: ''
 website: https://schrottankauf-gegen-bares.de
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage 2940)
+
+- [Recherche 01.10.2026: Feedback 2940 berechtigt — zweite Telefonnummer (Festnetz) 02343 7993772 per Betreiber-Impressum (schrottankauf-gegen-bares.de/impressum, Abruf 01.10.2026) verifiziert (Einzelunternehmen Shadi Allaoui, Am Kortländer 11, 44787 Bochum); Mobil 0176 80355960 bleibt Erstnummer. phone gemergt (Mobil + Festnetz); übrige Frontmatter unverändert. Quelle(n): Betreiber-Impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

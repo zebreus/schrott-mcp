@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: 'http://www.schrotthandel-santoro.de/'
-website_status: 'aktiv'
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Schwarzenborn 34639
+
+### Recherche 01.10.2026 (Feedback-Triage 2920)
+
+- [Recherche 01.10.2026: Feedback 2920 berechtigt, aber Klärfall — keine Frontmatter-Änderung: Kontaktfakten nur einzelbelegt (Betreiber-Website http only, s. Recherche 01.10.2026 unten) + Straßen-WIDERSPRUCH innerhalb der Betreiberquelle (Kontaktseite Hauptstraße 2 vs Impressum Neue Straße 29, 34639 Schwarzenborn) — kein Zweitbeleg für eine der beiden Straßen (Verzeichnisse gespalten: 11880 Hauptstr. 2 / GS-Örtliches Neue Str. 29). Telefon/E-Mail/Zeiten ebenfalls nur Einzelbeleg → nach Zwei-Quellen-Regel kein Fill. city-Feld unverändert (historisch mit PLZ). Klärfall: Vor-Ort-/Telefoncheck aktuelle Straße + https-Defekt. Quelle(n): s. Recherche-Eintrag 01.10.2026 unten, Re-Verifizierung 01.10.2026]
 
 ### Recherche 01.10.2026
 

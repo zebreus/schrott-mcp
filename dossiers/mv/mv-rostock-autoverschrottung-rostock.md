@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-Triage 2930)
+
+- [Recherche 01.10.2026: Feedback 2930 berechtigt, aber Portal-Klärfall — keine Frontmatter-Änderung: Betreiber-Footer (autoverschrottung-rostock.de, Abruf 01.10.2026) nennt „Autoverschrottung Bochum, Ganghoferstraße 9, 44791 Bochum, 015204045656, info@autoverschrottung-rostock.de, Mo-So 08:00-20:00" — KEIN Rostocker Hof, bundesweiter mobiler Abholdienst (Sammelfahrten + zertifizierter Partnerbetrieb, Verwertungsnachweis). Rostock-Adresse/Telefon für DIESE Zeile daher unbelegbar; Bochumer Fakten gehören nicht in eine Rostock-Zeile (Stadt-Mismatch-Regel). Kontakt nur operator-einzelbelegt (kein HRB, kein Zweitbeleg) → kein Fill. Klärfall: Zeile als mobil-bundesweit kennzeichnen oder auf Bochum-Zeile verweisen. Quelle(n): autoverschrottung-rostock.de (Startseite + Footer + /kontakt)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altauto-Abholung, kostenlose Entsorgung

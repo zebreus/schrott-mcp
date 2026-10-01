@@ -3,7 +3,7 @@ slug: rp-mayen-56727-spurzem-josef
 name: Spurzem Josef
 trader_type: autoverwertung
 state: RP
-city: Mayen 56727
+city: Mayen
 street: 'Basaltweg 1'
 postcode: '56727'
 phone: '02651 41555'
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche Adresse/Kontakt/Zeiten: Betreiber-Website (Startseite, Kontakt, Impressum: Einzelunternehmen Josef Spurzem, keine HRB) plus Betreiber-Social; Quelle(n): spurzem.de, facebook.com/Spurzem (Betreiber-Post mit Adresse Basaltweg 1, 56727 Mayen)]
 - Industriegebiet Nord, Basaltweg 1, 56727 Mayen, Tel. 02651 41555, info@spurzem.de; Zeiten Mo-Fr 08:00-18:00, Sa 09:00-16:00 (Kontaktseite).
+
+### Recherche 01.10.2026 (Feedback-Triage ID 2988)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2988): Feedback berechtigt, eingearbeitet — city 'Mayen 56727' → 'Mayen' (Format; Rest bereits per 01.10.2026-Recherche belegt: Industriegebiet Nord, Basaltweg 1, 56727 Mayen). Kein weiterer Änderungsbedarf. Quelle(n): Vorrecherche 01.10.2026 im Dossier.]
 - Leistungen: NE/FE-Ankauf, Altfahrzeug-Annahme, Schrottabholung/Container, Ersatzteile. Preis-Widgets auf Startseite ohne Gewaehr und Stand 2021, daher keine Preise uebernommen.
 
 ### Importiert (Seed-Stand 2026-09-30)

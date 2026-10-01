@@ -3,7 +3,7 @@ slug: sh-kiel-24145-richter-adolf-stahl-metalle-kunststoffe
 name: Richter Adolf Stahl-Metalle-Kunststoffe GmbH
 trader_type: sonstige
 state: SH
-city: Kiel 24145
+city: Kiel
 street: Bunsenstr. 2A
 postcode: '24145'
 phone: +49 431 717 95-0
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3023)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 3023): Feedback teilweise berechtigt — city 'Kiel 24145' → 'Kiel' (Format) eingearbeitet. Kein Schrottankauf belegt: Website Fachhandel für Stahl/Metalle/Kunststoffe + Eisenwaren/Werkzeug/Online-Shop (Verkauf), kein Altmetallankauf — trader_type sonstige bleibt korrekt, status pruefung bleibt (Relevanz-Klärfall, kein Deprecation ohne HR-/Gewerbe-Negativbeleg). Name/Adresse/Tel./E-Mail rückbestätigt. Zeiten nur Timeline: Tagesanzeige 'Heute 07:00-16:30' kein belastbarer Wochenplan. Quelle(n): richter-kiel.de/ (Betreiber-Primärquelle, abgerufen 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
