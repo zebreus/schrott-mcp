@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.scholz-recycling.com/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - wie oben
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Standortseite existiert (Mühlhausen, Stand 25.09.2017), aber ohne Adresse, Telefon oder Zeiten im statischen Seitenquelltext (Karten- und Detaildaten nur per JS); Impressum Scholz Recycling GmbH, Berndt-Ulrich-Scholz-Str. 1, 73457 Essingen, HRB 733963 AG Ulm; Quelle(n): https://www.scholz-recycling.com/standort/muehlhausen/ + https://www.scholz-recycling.com/impressum/ (eine Quelle)]
+- [Recherche 01.10.2026: Standort in Sitemap wp-sitemap-posts-standort-1.xml gelistet; keine Mühlhausener Adresse/Telefon aus zweiter unabhängiger Quelle belegbar -> kein Fill; website_status aktiv per Direktabruf; Quelle(n): Direktabruf 01.10.2026]

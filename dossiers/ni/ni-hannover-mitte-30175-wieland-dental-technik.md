@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Dental-Depot/Materialvertrieb (GS als Scheideanstalt gelistet), kein Ankauf nachweisbar
 - Adresse: Hannover-Mitte 30175, Königstr. 9
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — Dental-Depot ohne Schrott-Ankaufbeleg; kein Betreiber-Schrott-Impressum; Fehlzuordnung wahrscheinlich; Statusfeld unveraendert; Quelle(n): Betreiberfremde Branchen-Leads]

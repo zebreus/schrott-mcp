@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahlschrott-/Metallrecycling
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — keine Treffer zu Betreiber-Website/Register unter Dossier-Entitaet; moegliche Verwechslung mit namensähnlicher Fremdfirma; kein Zweitbeleg; Statusfeld unveraendert; Quelle(n): duenne Web-Leads]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Eisen
 - Adresse: Wolgast 17438
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiberbeleg, kein Registerbeleg; duenne Namens-Leads; Statusfeld unveraendert; Quelle(n): Verzeichnis-Leads]

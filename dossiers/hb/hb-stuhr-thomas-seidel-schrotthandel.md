@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthandel (GS)
 - Adresse: Stuhr (Umland), 28816, Tel. 04206 349
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Verzeichnis-Lead (kein Beleg) stuetzt Seed-Telefon 04206 349 in Stuhr, aber nur Aggregatoren; kein HR-Treffer zu Seidel Stuhr; kein Betreiber; Quelle(n): Gelbe Seiten / Das Oertliche / 11880 / Cylex (nur Leads) plus Northdata-Pfadsuche 01.10.2026]
+- [Recherche 01.10.2026: Kein Zweitbeleg, daher kein Fill, Seed-Telefon unangetastet, Klaerfall; Quelle(n): siehe oben]

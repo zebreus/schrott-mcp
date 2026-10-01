@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Horn-Bad Meinberg
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Verzeichnis-Leads zu Neuwald in Horn-Bad Meinberg gefunden, keine Betreiber-Website, kein HR-Eintrag; kein Fill; Quelle(n): Gelbe-Seiten-Suche + Northdata-Suche 01.10.2026]

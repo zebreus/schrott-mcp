@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Treffer zu S&T Janek Schrotthandel (Barbarossastr. 12A, Landstuhl) in Betreiber-Web, HR-Portalen oder Verzeichnissen; Adresse/Existenz unbelegt, Frontmatter (Seed-Straße) unverändert; HR-/Gewerberegister-Abgleich nötig]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel, Barbarossastr. 12A

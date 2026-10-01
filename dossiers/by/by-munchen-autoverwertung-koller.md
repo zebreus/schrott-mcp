@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: München (Lochhausener Str. 104)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — Domain autoverwertung-koller.de antwortet nur "Under construction"; Inhaberschaft/Zweigstelle unbelegt; Adresse/Telefon nur via 11880/Yelp (Leads); Website NICHT in Frontmatter; Statusfeld unveraendert; Quelle(n): Eigenabruf 01.10.2026 + Aggregator-Leads]

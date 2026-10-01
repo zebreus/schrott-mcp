@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Verzeichnis-Leads (keine Belege): 35394 Gießen, Tel. 0152 33664340, keine Straße in Verzeichnissen; Quelle(n): Gelbe Seiten / 11880 / Golocal (nur Leads)]
+- [Recherche 01.10.2026: Domain schrotthandel-giessen.de gehört anderem Betreiber (Michael Schulz, Mittelmark 18, 35435 Wettenberg, mobil) und darf NICHT zugeordnet werden; kein HR-Eintrag zu Münstermann in Gießen gefunden; kein Fill; Quelle(n): https://schrotthandel-giessen.de/ + Northdata-Suche 01.10.2026]

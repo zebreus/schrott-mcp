@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - E-Schrott-Abholung mobil (EIGENSTÄNDIG, nicht HSG-Standort)
 - Adresse: Hamm, Carl-Petersen-Str. 28B, 20535
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — eigenstaendiger Wakilzadah-Abholdienst, nur GelbeSeiten-Lead; HSG-Sites (hanseschrott.com, schrottabholung-hamburg.de) gehoeren anderer Entitaet — Verwechslungsgefahr; kein Betreiber-Impressum; Statusfeld unveraendert; Quelle(n): Verzeichnis-Lead + HSG-Betreiberseiten (Fremdentitaet)]

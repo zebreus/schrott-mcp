@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Altmaterial-/Schrotthandel
 - Adresse: Oken 2
 - Adressbeleg: Seed-notes (heute swb-MHKW-Standort); PLZ Verzeichnis
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein HR-Treffer zu Abfallbehandlung Nord ANO auf Northdata (nur swb Entsorgung Bremen und andere Abfallbehandlung-Firmen, kein ANO); kein Betreiber, keine Website; Quelle(n): Northdata-Pfadsuche 01.10.2026]
+- [Recherche 01.10.2026: Seed-Adresse Oken 2, 28219 ist heute swb-MHKW-Standort laut Seed-notes, daher historisch oder unklar; kein Zweitbeleg, daher kein Fill und Klaerfall; Quelle(n): Seed-notes plus Northdata 01.10.2026]

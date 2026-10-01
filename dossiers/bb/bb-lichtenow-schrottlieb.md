@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (dünner Beleg, GS 0 — behalten mit Abgleich-Vermerk)
 - Adresse: Lichtenow, Chausseestr. 22A
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — keine Treffer zu Betreiber-Website/Register; nur duenner Adress-Lead; Statusfeld unveraendert; Quelle(n): Verzeichnis-Lead]

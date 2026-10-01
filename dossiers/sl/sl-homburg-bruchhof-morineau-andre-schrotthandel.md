@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — keine Betreiber-Website, kein HR-/Registerbeleg; nur Aggregator-Leads (keine Belege), Frontmatter leer gelassen; Leads (unsicher): Kaiserslauterer Str. 61, 66424 Homburg-Bruchhof, Tel. (06841) 12699; Lead-Quellen: https://www.11880.com/branchenbuch/homburg-saar/120674719B104549077/andre-morineau-schrotthandel.html (3 Bewertungen); kein Betreiber-Social gefunden (franz. Namensvetter ausgeschlossen)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

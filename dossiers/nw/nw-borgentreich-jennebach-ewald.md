@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS, Jennebach-Familie)
 - Adresse: Borgentreich
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein HR-Treffer zu Jennebach Ewald Borgentreich auf Northdata (nur Jennebach Bau Anroechte HRB 10922 und G. Jennebach Transporte Bueren, andere Personen und Orte, kein Borgentreich Ewald); Quelle(n): Northdata-Pfadsuche 01.10.2026]
+- [Recherche 01.10.2026: Gelbe-Seiten-Abruf ohne Treffer zu Jennebach in Borgentreich; kein Betreiber, keine Adresse, kein Zweitbeleg, daher kein Fill und Klaerfall; Quelle(n): Gelbe Seiten (nur Leads) 01.10.2026]

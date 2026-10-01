@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — ReMi Recycling Mitteldeutschland GmbH in HR-Portalen/Betreiber-Web/Verzeichnissen nicht auffindbar; Namensvetter REMI Möbelfabrik (Bobritzsch) und REMONDIS Mitteldeutschland (Weißenfels, HRB 207407) nicht zugeordnet; Wanzleben-Verzeichnis listet nur REMONDIS NL (An der alten Tonkuhle 10) und WIR-Entsorgungs-GmbH (Kummerberg 15): https://schrottregister.pages.dev/ort-wanzleben-borde; ggf. erloschen/umfirmiert/verwechselt — HR-Abgleich nötig]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling (lt. schrottplatz-info)

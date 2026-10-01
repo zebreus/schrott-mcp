@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Klein-AV?
 - Adresse: Stadtallendorf 35260
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Verzeichnis-Leads zu Enders Karin in Stadtallendorf/Marburg gefunden, keine Betreiber-Website, kein HR-Eintrag; Klein-AV-Status unbestätigt; kein Fill; Quelle(n): Gelbe-Seiten-Suchen + Northdata-Suche 01.10.2026]

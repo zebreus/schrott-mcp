@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 86720)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg; nur Aggregator-/Register-Lead; einziger Register-Spiegel nennt Max Aicher Recycling, kein Sejdiu; Statusfeld unveraendert; Quelle(n): Verzeichnis-Lead + Register-Spiegel (Lead)]

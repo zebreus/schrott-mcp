@@ -35,3 +35,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - urspr. Website-Angabe: keine
 - Adresse: Martfeld (Fern-Umland), Breslauer Str. 8, 27327, Tel. 04255 1240
 - Adressbeleg: Seed-notes (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein HR-Treffer zu Mannott Martfeld auf Northdata; Gelbe-Seiten-Abruf ohne Treffer zu Mannott in Martfeld; Seed-Adresse und Seed-Telefon daher nur Einzelbeleg und Lead, kein Zweitbeleg; Quelle(n): Northdata-Pfadsuche und Gelbe Seiten (nur Leads) 01.10.2026]
+- [Recherche 01.10.2026: Keine Betreiber-Website gefunden; kein Fill, Seed-Telefon unangetastet, Klaerfall; Quelle(n): Direktabrufe 01.10.2026]

@@ -6,7 +6,7 @@ state: BE
 city: Neukölln
 street: Rotkehlchenweg 2
 postcode: '12351'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - nur schrottplatz-info (alt) Adresse: Rotkehlchenweg 2, 12351 Berlin
 - Bezirk: Neukölln Adressbeleg: nur schrottplatz-info alt (be.md Runde 2); psiorz.de tot (Runde 4)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: psiorz.de liefert nur Plesk-Parkseite (http 200 mit Refresh auf defaultsite, https ohne Antwort), daher website_status tot nicht belegbar ohne Zweitbeleg und kein Website-Fill; phone Platzhalter bereinigt; Quelle(n): Direktabruf http://psiorz.de und https://psiorz.de 01.10.2026]
+- [Recherche 01.10.2026: Kein HR-Treffer zu Psiorz Maciossek; Seed-Adresse nur Einzelbeleg aus schrottplatz-info, kein Zweitbeleg, daher kein Fill und Klaerfall; Quelle(n): Northdata-Pfadsuche 01.10.2026]

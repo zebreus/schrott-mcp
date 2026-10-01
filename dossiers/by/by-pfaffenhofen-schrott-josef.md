@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinstbetrieb)
 - Adresse: Pfaffenhofen (Kleinreichertshofen 4)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg; nur duenne Verzeichnis-Leads; Statusfeld unveraendert; Quelle(n): Verzeichnis-Leads]

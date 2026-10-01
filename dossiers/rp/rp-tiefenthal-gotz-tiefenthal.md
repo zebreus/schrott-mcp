@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Treffer zu Götz/Schrott/Autoverwertung in Tiefenthal (Hauptstr. 1) in Betreiber-Web, HR-Portalen oder Verzeichnissen; Seed-Straße (Götz Tiefenthal Tiefenthal Hauptstr. 1) offenbar Seed-Artefakt, unverändert; familienfremde Treffer (Automobile Götz Berching, Götz Neu-Ulm, KFZ Götz Gottenheim) nicht zugeordnet; Vor-Ort-/Gewerberegister-Abgleich nötig]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Hauptstr. 1, Familie Seed-Götz?

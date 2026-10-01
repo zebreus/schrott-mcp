@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinstbetrieb)
 - Adresse: Weilheim (Lienhartstr. 13)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — nur Aggregator-Leads; Franz Schrott KG-Hinweis deutet auf Tischlerei, kein Schrott-Betreiberbeleg; Statusfeld unveraendert; Quelle(n): Aggregator-Leads]

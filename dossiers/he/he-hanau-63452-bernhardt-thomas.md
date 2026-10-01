@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Hanau 63452
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Verzeichnis-Leads (keine Belege): Bernhardt Thomas Abschleppdienst und Autoverwertung e. K., Niddastr. 27, 63452 Hanau; Quelle(n): Gelbe Seiten / Das Örtliche / 11880 / Cylex (nur Leads)]
+- [Recherche 01.10.2026: Domain bernhardt-hanau.de ist STRATO-Parkseite ohne Inhalt (Zuordnung unbewiesen, kein Fill); kein HR-Eintrag zum Hanauer e. K. in Northdata gefunden; kein Fill; Quelle(n): Direktabruf 01.10.2026 + Northdata-Suche 01.10.2026]

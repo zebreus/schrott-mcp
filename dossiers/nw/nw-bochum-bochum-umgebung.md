@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Bochum
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Generischer Name Bochum-Umgebung ohne Firmennamen, kein identifizierbarer Betrieb; Gelbe-Seiten-Abruf ohne Treffer; kein HR-Treffer; kein Betreiber, keine Adresse, kein Telefon; Quelle(n): Gelbe Seiten (nur Leads) und Northdata-Pfadsuche 01.10.2026]
+- [Recherche 01.10.2026: Miss-Kandidat, kein Fill, bleibt pruefung; Quelle(n): siehe oben]

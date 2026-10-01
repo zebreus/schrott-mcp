@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (schrottplatz-info-Beleg)
 - (Autoverwertung/Unfallfahrzeuge)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — seik.de live (Herten/Erfurt/Leipzig), aber kein Eberswalde-Beleg; seik.de NICHT eingetragen; Adresse/Telefon nur Aggregator-Leads; Statusfeld unveraendert; Quelle(n): Betreiber seik.de (Fremdstandorte) + Aggregator-Leads]

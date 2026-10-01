@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Treffer zu Baumgarten & Sohn (Schrott/Schrottautos) in Lahnstein in Betreiber-Web, HR-Portalen oder kommunalen Quellen; nur Seed-Angabe Lahnstein 56112; einziger Verzeichnis-Lead (kein Beleg): https://www.schrottplatz-info.de/schrottplatz/Lahnstein/Baumgarten-und-Sohn-OHG; Lahnstein-Verzeichnis https://schrottregister.pages.dev/ort-lahnstein listet nur Zimmermann Recycling (Ahlerhof); ggf. erloschen/umfirmiert — HR-/Gewerberegister-Abgleich nötig]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottautos

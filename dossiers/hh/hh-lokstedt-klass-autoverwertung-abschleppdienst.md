@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung, kauft Schrott-/Unfallautos
 - Adresse: Lokstedt, Osterfeldstr. 63, 22529
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg; nur Aggregator-Leads; Statusfeld unveraendert; Quelle(n): Aggregator-Leads]

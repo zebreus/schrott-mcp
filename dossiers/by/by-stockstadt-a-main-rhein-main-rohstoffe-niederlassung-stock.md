@@ -4,13 +4,13 @@ name: Rhein Main Rohstoffe GmbH, Niederlassung Stockstadt
 trader_type: schrotthaendler
 state: BY
 city: Stockstadt a. Main
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: 'Industriestraße 18'
+postcode: '63811'
+phone: '06027 409846-0'
+email: 'container@rmr-recycling.de'
 opening_hours: ''
 website: https://rmr-recycling.de/
-website_status: ''
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahl-/NE-Schrott, Container, Abbruch (eher Gewerbe)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Filial-Fakten Stockstadt via Owner-Ausnahme befuellt (Industriestr. 18, 63811, 06027 409846-0, container@rmr-recycling.de, aktiv); Impressum Name+HRB+Ort HR-kongruent; Quelle(n): Betreiber rmr-recycling.de/impressum + rmr-recycling.de/kontakt (HRB 100405 AG Frankfurt) + Northdata HRB 100405]

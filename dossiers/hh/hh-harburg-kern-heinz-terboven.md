@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (FE/NE lt. Aggregator)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — nur Aggregator-Leads; kein Betreiber-Impressum/Registerbeleg; Statusfeld unveraendert; Quelle(n): Aggregator-Leads]

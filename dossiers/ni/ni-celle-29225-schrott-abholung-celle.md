@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - reine Abholung Kleinbetrieb
 - Adresse: Celle 29225, Denickestr.
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — SEO-Spam-Seite ohne Betreiber-Impressum/Registerbeleg; kein Zweitbeleg; Statusfeld unveraendert; Quelle(n): duenne Web-Leads]
