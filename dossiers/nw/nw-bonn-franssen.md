@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Bonn
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Schrott-/Metallbetrieb Franssen in Bonn auffindbar (Treffer: KHK Schrott Severinsweg 8a Bonn, Herregods-Franssen Belgien — beides nicht einschlägig); keine Betreiber-/Registerquelle → keine Belege, Klärfall; Quelle(n): Websuche 01.10.2026 (keine Belege)]

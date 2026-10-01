@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: http://www.autoverwertung-anfang.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - AV – Autoverwertung
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website http://www.autoverwertung-anfang.de/ direkt verifiziert (aktiv, Unterseiten Home/Leistungen/Zertifikat/Anfahrt/Impressum einzeln abgerufen): Goßfeldener Autoverwertung M. Anfang, Wettersche Str. 11, 35094 Lahntal-Goßfelden, Tel. 06423-3491, Öffnungszeiten Mo/Di/Do/Fr 09:00–12:00 u. 13:00–17:00, Mi Werkstatttag geschlossen; Impressum nennt Mario + Susanne Anfang (kein HRB → kein Einzelunternehmen-Fall für Owner-Direktive, daher Adress-/Telefondaten NICHT in Frontmatter, Zweitbeleg aus Register/kommunaler Quelle ausstehend); Betreiber-eBay-Shop „Autoverwertung Anfang“ (6.335 verkauft, 100 % positiv, von Betreiber-Homepage verlinkt) stützt Existenz/Aktivität (Einzelbeleg, unsicher); Quelle(n): https://www.autoverwertung-anfang.de/ + Unterseiten, https://www.ebay.de/str/autoverwertunganfang. website per Direktabruf aktiv gesetzt.]

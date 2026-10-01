@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- Negativbefund: Domain altmetallhandel-ohz.de DNS-NXDOMAIN (tot, 01.10.2026). Kein Betreiber-Impressum auffindbar.
+- Einordnung: Alte OHZ-Adresse jetzt belegt durch zinn-metall.de (Ramm, Ohlenstedter Str. 2, 27729 Hambergen). Klärfall: möglicher Nachfolger/Umzug, kein Doppelbeleg → Felder leer gelassen. Quellen: DNS-Check; https://zinn-metall.de (Impressum).

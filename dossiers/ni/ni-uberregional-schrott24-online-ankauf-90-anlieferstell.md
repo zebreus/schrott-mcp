@@ -32,3 +32,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Online-Ankauf, Express-Auszahlung
+
+### Recherche 01.10.2026
+
+- Betreiber-Primärquelle Impressum: Metaloop Europe GmbH, Puchstr. 17, 8020 Graz (AT), FN 638630 m, Tel. +43 316 440025. Quelle: https://www.schrott24.de/impressum
+- Standorte-Seite listet >90 Anlieferstellen (DE/AT). Quelle: https://www.schrott24.de/standorte/
+- Klärfall: AT-Firma, kein DE-HRB; HRB-Ausnahme fraglich; kein unabhängiger DE-Zweitbeleg für NI-Standort → Frontmatter leer gelassen (website bereits Domain-Root-nah).

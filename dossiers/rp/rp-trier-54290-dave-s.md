@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinhändler
 - Adresse: Trier 54290
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche ergebnislos, keine Betreiber-Website, kein Registerbeleg; alle Felder bleiben leer; Klärfall für Folgewelle (Gewerberegister Trier); Quelle(n): keine neuen.]

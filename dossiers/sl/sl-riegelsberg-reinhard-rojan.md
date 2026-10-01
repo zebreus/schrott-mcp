@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche zu „Rojan Riegelsberg Schrott“ ergebnislos, keine Betreiber-Website, kein Registerbeleg; alle Felder bleiben leer; Klärfall für Folgewelle (Gewerberegister Riegelsberg); Quelle(n): keine neuen.]

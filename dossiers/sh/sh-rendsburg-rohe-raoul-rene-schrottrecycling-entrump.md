@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Re-Prüfung — weiterhin kein unabhängiger Beleg auffindbar (Websuche zu „Rohe Rendsburg Schrottrecycling“ ergebnislos, keine Betreiber-Website, kein Registerbeleg); status bleibt pruefung, alle Felder leer; Quelle(n): keine neuen.]

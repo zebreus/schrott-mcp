@@ -36,3 +36,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026 (Feedback-Triage)
 
 - [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1721 bestaetigt — Website nur Hildesheim (2 Standorte); Lindener Hafen = TSR-Niederlassung (Konzernverwechslung nach Uebernahme 2021); Website entfernt. Quelle: https://www.willi-hennies.de.]
+
+### Recherche 01.10.2026
+
+- Bestätigt: willi-hennies.de listet nur Hildesheim-Standorte; Lindener Hafen/Nordhafen = TSR Deutschland (Übernahme 2021). Quelle: https://www.willi-hennies.de
+- Zweitbeleg TSR-Übernahme 2021 (Presse/TSR). Klärfall: Dossier-Titel „Lindener Haf“ irreführend, Slug unverändert lassen; keine Frontmatter-Fills (kein Doppelbeleg für Hannover-Adresse).

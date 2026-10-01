@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Wikingerstr. 50 (Backyard-Typ)
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum live verifiziert (schrotthandel-segula.de/impressum): Silvano Segula, Wikingerstraße 50, 51107 Köln, Mobil 0171/3138272, Festnetz 0221/80262209, USt-ID DE311027910, Öffnungszeiten lt. koelnerbranchen.de Mo–Fr 8–17, Sa 8–13 (Einzelbeleg, unsicher) — Einzelunternehmen ohne HRB, keine zweite unabhängige Quelle (nur Verzeichnisse: koeln.de, koelnerbranchen.de) → Frontmatter unverändert, Klärfall; Quelle(n): Betreiber-Website (Einzelbeleg)]

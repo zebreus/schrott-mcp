@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Friedberg (Äußere Industriestr. 1)
+
+### Recherche 01.10.2026
+
+- Lead: Creditreform DS Selzam & Lettner Kfz-GmbH, Äußere Industriestr. 1, 86316 Friedberg, Tel. 0821 781533. Keine Eigenwebsite gefunden → kein Betreiber-Doppelbeleg, Felder leer, Klärfall.

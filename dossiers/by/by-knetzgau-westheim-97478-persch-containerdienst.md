@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Container/Entsorgung — kein Metallankauf belegt (PRÜFFALL)
 - urspr. Website-Angabe: keine
 - Adresse: Knetzgau-Westheim 97478
+
+### Recherche 01.10.2026
+
+- Betreiber-Seite: https://persch-container.de (Impressum HRA 5318, AG Bamberg). Zweitbeleg: Northdata HRA 5318.
+- Einordnung: Containerdienst/Entsorgung, kein Metall-Barankauf belegt → Klärfall Ankauf; Frontmatter nur bei Doppelbeleg-Adresse füllen, hier vorerst leer.

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Alteburger Str. 138, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg für Müllenmeister & Schwerfel (Alteburger Str. 138, Köln-Rodenkirchen) gefunden; nur schrottradar-Profil (Lead, Aggregator) → keine Belege, Klärfall; Quelle(n): Websuche 01.10.2026 (Lead)]

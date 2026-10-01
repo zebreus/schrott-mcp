@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (Flag)
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- Nur Aggregator-Leads (kein Betreiber-Impressum gefunden). Kein Doppelbeleg → Felder leer, Klärfall AV-Status offen.

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV
 - Adresse: Jahnatal 04749, Bergstr. 6
+
+### Recherche 01.10.2026
+
+- Nur Aggregator-Leads (Müller Jahnatal). Kein Betreiber-Impressum gefunden → kein Doppelbeleg, Felder leer, Klärfall.

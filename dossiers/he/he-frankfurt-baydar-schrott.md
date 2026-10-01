@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinhändler Schrott [Website-Recherche verzeichnis: services: Schrotthandel; notes: Nur Gelbe Seiten (Baydar Schrott, Gallus); kein 11880-Eintrag.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche zu „Baydar Schrott Frankfurt“ ergebnislos, keine Betreiber-Website, kein Registerbeleg; Frontmatter-Tel. 01631353976 bleibt unverändert (Seed-Herkunft, kein Zweitbeleg); Klärfall für Folgewelle; Quelle(n): keine neuen.]

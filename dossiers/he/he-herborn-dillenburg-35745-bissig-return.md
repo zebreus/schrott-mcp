@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Herborn/Dillenburg 35745
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche zu „Bissig Return Herborn/Dillenburg Schrott“ ergebnislos, keine Betreiber-Website, kein Registerbeleg; alle Felder bleiben leer; Klärfall für Folgewelle (Gewerberegister Herborn/Dillenburg); Quelle(n): keine neuen.]

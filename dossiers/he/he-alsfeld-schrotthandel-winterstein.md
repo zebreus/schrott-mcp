@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis) [Website-Recherche verzeichnis: services: Schrotthandel; notes: 11880-Verzeichnis; Straße bestätigt Seed-Adresse Freiligrathstr. 6.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Re-Prüfung — kein zweiter unabhängiger Beleg gefunden; andere „Winterstein“-Treffer gehören nachweislich anderen Orten (Wiesbaden-Dotzheim, Burgbernheim); bestehende Frontmatter-Werte (Freiligrathstr. 6, 36304 Alsfeld, (0155) 61229742) NICHT überschrieben; 2-Beleg-Standard weiter offen — Folgewelle (Gewerberegister Alsfeld); Quelle(n): keine neuen Belege.]

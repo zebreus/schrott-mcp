@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle (Oben zum Holz 60)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Nur Aggregatoren (azdeutschland, tupalo, bizdb u.a.) nennen Oben zum Holz 60, 42653 Solingen, Tel. 0212 593422 — keine Betreiber-Website, kein Registerbeleg gefunden; alle Adress-/Telefondaten daher unbelegt, Felder leer gelassen, Klärfall; Quelle(n): Websuche 01.10.2026 (Leads, keine Belege)]

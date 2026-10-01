@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://schrotthandel.nrw/schrottankauf
-website_status: ''
+website_status: 'blockiert'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall (Cu/Messing/Alu/Edelstahl), Autoteile
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Homepage-Abruf 403, /impressum-Abruf 404 → website_status blockiert gesetzt; Impressum-Inhalt (EL-Lahib, Vorstadtstr. 65, 44866 Bochum) nur als Such-Snippet greifbar (Lead, keine zweite Quelle); Vorgänger-Domain nrw-schrott.de nennt abweichend Robertstr. 70, 44809 Bochum → Identitäts-/Adressklärung offen, Klärfall; Quelle(n): eigene Fetch-Probe 01.10.2026, Websuche (Leads)]

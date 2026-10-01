@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Betreiber-Nachweis gefunden — nur Aggregator-Lead (Einzelbeleg, unsicher): lokaleschrottplatz.de nennt Messenhäuser Str. 2, 63128 Dietzenbach, Tel. +49 15562 798188, Öffnungszeiten Mo–Sa 09:00–18:00; keine Betreiber-Website, kein Register-/Gewerberegistereintrag auffindbar; daher KEINE Frontmatter-Füllung (2-Beleg-Standard nicht erfüllt); Klärfall: Existenz/Adresse per Folgewelle (kommunales Gewerberegister Dietzenbach) prüfen; Quelle(n): https://lokaleschrottplatz.de/schrotthandler-dietzenbach-s-o/ (Portal = Lead, kein Beleg).]

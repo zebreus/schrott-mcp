@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 97424)
+
+### Recherche 01.10.2026
+
+- Lead: Creditreform Ricardo Reinhardt, Nutzweg 29, Schweinfurt. Betreiber-Domain reinhardt-metall.de timeout (http+https, 01.10.2026) → kein Betreiber-Beleg, Felder leer, Klärfall.

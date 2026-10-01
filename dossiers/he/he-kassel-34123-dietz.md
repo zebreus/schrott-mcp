@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - evtl. kostenlose Verschrottung
 - Adresse: Kassel 34123
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Leads (kein Doppel-Beleg): Schrottplatz-Info (Portal) nennt Autoverwertung Dietz, Lossestr. 105, 34123 Kassel, Tel. 05612887758, Öffnungszeiten Mo–Fr 09:00–18:00, Sa 09:00–16:00 (kostenlose Abholung inkl. Verwertungsnachweis); Facebook-Seite „Autoverwertung Dietz | Kassel“ (Betreiber-Social, Inhalt nicht direkt verifizierbar) + Yelp mit gleicher Adresse; verlinkte Betreiber-Homepage www.altauto.net ist TOT (404, Direktabruf 01.10.2026); kein Registerbeleg → KEINE Frontmatter-Füllung (Straße/PLZ/Tel. bleiben leer); Klärfall für Folgewelle (Betreiber-Social verifizieren / Gewerberegister Kassel); Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Kassel/Autoverwertung-Dietz (Lead), Facebook/Yelp (Leads).]

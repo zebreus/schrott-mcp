@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - B2B-Legierungen (GS)
 - Adresse: Dortmund [Recherche 30.09.2026: HR-Fund via Northdata (HRA 16835), Adresse/PLZ bestätigt; Quelle: northdata.de/Stainless Alloys HRA 16835]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Zweitbestätigung Registerlage via openregister.de (HRA 16835 AG Dortmund, Lüttge-Heide-Str. 116, 44147 Dortmund) + Stainless Alloys Verwaltungs GmbH (HRB 21188, registercheck.de); Telefon 0231 9931610 nur in Verzeichnissen (firmenschau, nearfinder, yellowmap, alles Aggregatoren) → kein Frontmatter-Fill, Klärfall; Quelle(n): openregister.de, registercheck.de]

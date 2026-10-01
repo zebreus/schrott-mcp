@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall
 - Adresse: Gräfenhainichen (Ernst-Moyat-Str. 30, 06772)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Treffer für Altstoffhandel Zschornewitz / Maik Koch / Ernst-Moyat-Str. Gräfenhainichen (nur Namensvetter Koch Schrott Michelstadt) → keine Belege, Klärfall; Quelle(n): Websuche 01.10.2026 (keine Belege)]

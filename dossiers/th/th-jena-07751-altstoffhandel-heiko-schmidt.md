@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Alt-/Abfallstoffe — GS wertstoffhandel, Tel 03641 801187 (NEU)
 - urspr. Website-Angabe: keine
 - Adresse: Jena 07751, Zöllnitzer Str. 3
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Nur Gelbe-Seiten-Aggregator listet Altstoffhandel Heiko Schmidt (Jena); keine Betreiber-/Register-/kommunale Quelle → keine Belege, Klärfall; Quelle(n): Websuche 01.10.2026 (keine Belege)]

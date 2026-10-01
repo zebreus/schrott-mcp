@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Frankfurt 65929 [Website-Recherche verzeichnis: services: Schrotthandel; notes: 11880-Verzeichnis (Cimen Schrotthandel).]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche zu „Cimen Schrotthandel Frankfurt“ ergebnislos, keine Betreiber-Website, kein Registerbeleg; Frontmatter-Tel. (0179) 4702226 bleibt unverändert (Seed-/Verzeichnisherkunft, kein Zweitbeleg); Klärfall für Folgewelle; Quelle(n): keine neuen.]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Badingen/Bismark (2 Adressen)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KIA-Rücknahmestellen-PDF listet Autoverwertung Hans-Joachim Hinze, Stendaler Str. 21, 39579 Schernikau, Tel. 039320/322 (Einzelbeleg); schrottregister nur Lead (Demontagebetrieb, gleiche Adresse) — Ort weicht vom Dossier (Badingen/Bismark) ab → nichts übernommen, Klärfall Ortsklärung; Quelle(n): kia.com-Rücknahmestellen-PDF (Einzelbeleg)]

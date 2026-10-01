@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung + Schrottannahme (Verzeichnis)
 - (Autoverwertung Nemitz)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Domain https://autoverwertung-nemitz.de per Direktabruf (http + https) erneut BLOCKIERT (403, 01.10.2026) — website_status blockiert bestätigt und beibehalten; keine alternativen Belege (Register/Social) auffindbar; alle Adress-/Kontaktfelder bleiben leer; Klärfall für Folgewelle; Quelle(n): Direktabruf-Status 403.]

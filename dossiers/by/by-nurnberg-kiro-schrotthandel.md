@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobile Abholung (nur schrottradar)
 - Adresse: Nürnberg
+
+### Recherche 01.10.2026
+
+- City-Mismatch: Kiro Schrotthandel = Berlin (https://schrotthandel-berlin.com), nicht Nürnberg. Kein Nürnberg-Beleg → Felder leer, Klärfall (Fehlzuordnung prüfen, Slug unverändert).

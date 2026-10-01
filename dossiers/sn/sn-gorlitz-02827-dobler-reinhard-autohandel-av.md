@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV
 - Adresse: Görlitz 02827, Stadtgraben 1
+
+### Recherche 01.10.2026
+
+- Nur Aggregator-Leads (Döbler Görlitz). Kein Betreiber-Impressum gefunden → kein Doppelbeleg, Felder leer, Klärfall.

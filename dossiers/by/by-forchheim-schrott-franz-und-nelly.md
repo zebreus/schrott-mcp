@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Forchheim (nur GS)
+
+### Recherche 01.10.2026
+
+- Nur Aggregator-Leads (Schrott Franz und Nelly, Forchheim). Kein Betreiber-Impressum gefunden → kein Doppelbeleg, Felder leer, Klärfall.

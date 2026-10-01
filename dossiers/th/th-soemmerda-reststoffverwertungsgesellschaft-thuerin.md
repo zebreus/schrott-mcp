@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Wertstoffhandel?
 - Adresse: Soemmerda
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Nur Stadtbranchenbuch-Aggregator (Reststoffverwertungsgesellschaft Thüringen mbH, Ehrhardtstr. 8, 99610 Sömmerda, 03634 614492) — Aggregator = Lead, kein Beleg; keine Betreiber-/Registerquelle → keine Belege, Klärfall; Quelle(n): Websuche 01.10.2026 (keine Belege)]

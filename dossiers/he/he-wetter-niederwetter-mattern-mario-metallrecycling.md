@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallrecycling/Schrottabholung
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Nur Aggregator-Leads (kein Beleg): Gelbe Seiten nennt Mattern Mario Metallrecycling, Mildengrund 1, 35083 Wetter-Niederwetter, Tel. 0162 1607999 (Schrottentsorgung/Haushaltsauflösung/Entrümpelung/Brennarbeiten); GoLocal nennt älter „Recycling für Schrott & E-Geräte Mario Mattern“, Zum Kalkberg 3, 35041 Marburg-Michelbach, gleiche Mobilnummer; Klärfall Adress-Diskrepanz (Umzug Wetter↔Marburg ungeklärt); keine Betreiber-Website, kein Registerbeleg → KEINE Frontmatter-Füllung; Quelle(n): Gelbe-Seiten-/GoLocal-Profile (Leads).]

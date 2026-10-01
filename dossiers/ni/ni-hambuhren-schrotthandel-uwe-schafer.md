@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- Nur Aggregator-Leads für Hambühren/Uwe Schäfer. Kein Betreiber-Impressum, kein Doppelbeleg → Felder leer, Klärfall.

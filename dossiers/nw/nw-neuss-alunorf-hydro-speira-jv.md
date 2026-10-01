@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - weltgrößtes Alu-Walz-/Gießwerk (Joint Venture)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: JV-Struktur zweifach belegt — Hydro-Pressemitteilung (50/50-JV Hydro/Novelis, weltgrößtes Alu-Walz-/Gießwerk Neuss, Recycling-Center) + Speira-Pressemappe 06/2021 (Alunorf als weltgrößtes Walzwerk, Grevenbroich größtes Veredelungswerk); reiner Hersteller B2B ohne öffentlichen Schrottankauf → keine Handels-Felder zu füllen, status pruefung bleibt; Quelle(n): hydro.com, speira.com]

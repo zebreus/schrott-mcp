@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Coswig
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Kleinanzeigen-Profil (ASR GmbH & Co. KG, Fichtenbreite 1, 06869 Coswig, 034903 4700, autoneuteile.de) als Betreiber-Social (Einzelbeleg); schrottregister nur Lead (ASR Autoteile/Service/Reifen, Demontagebetrieb anerkannt, gleiche Adresse) → keine zweite unabhängige Quelle → Frontmatter unverändert, Klärfall; Quelle(n): kleinanzeigen.de/pro/ASR-Coswig (Einzelbeleg)]

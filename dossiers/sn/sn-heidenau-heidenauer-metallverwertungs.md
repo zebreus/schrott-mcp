@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe-/NE-Schrott, Container
 - Ankauf lt. Firmenbeschreibung, Website unklar
+
+### Recherche 01.10.2026
+
+- Betreiber-Primärquelle Impressum: HMV Heidenau, Geschäftsitz Potschappler Str. 6-8, 01705 Freital, HRB 29060 AG Dresden. Quelle: https://hmv-heidenau.de/impressum/
+- Zweitbeleg: wer-zu-wem HRB 29060. Klärfall Sitz Freital vs. Dossier-Ort Heidenau; keine Frontmatter-Fills (Adress-Unschärfe), Felder leer gelassen.

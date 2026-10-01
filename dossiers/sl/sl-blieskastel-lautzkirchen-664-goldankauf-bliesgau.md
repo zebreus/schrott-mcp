@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Gold/Silber/Schmuck/Münzen/Tafelsilber/Uhren (Örtliche Gold-/Silberankauf + Tel.)
 - Adresse: Blieskastel-Lautzkirchen 66440, Pirminiusstr. 53
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche zu „Goldankauf Bliesgau / Pirminiusstr. 53“ ergebnislos, keine Betreiber-Website, kein Registerbeleg; bestehende Frontmatter-Straße (Seed-Herkunft) NICHT überschrieben und nicht ergänzt (PLZ/Tel. bleiben leer, 2-Beleg-Standard offen); Klärfall für Folgewelle (Gewerberegister Blieskastel); Quelle(n): keine neuen.]

@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://auto-lackner.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - evtl. AV
 - Adresse: Oberursel 61440
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website https://auto-lackner.de/ direkt verifiziert (aktiver Ersatzteil-Shop + Kontakt/Impressum abgerufen): Impressum Auto Lackner, Pfeiffstr. 13, 61440 Oberursel, Tel. 06171-57090, E-Mail info@auto-lackner.de, Öffnungszeiten Mo–Fr 09:00–18:00, Sa 10:30–14:00 (Kontoinhaber Ralf Lackner, kein HRB → Owner-Direktive greift nicht); Klärfall: Gelbe-Seiten-Lead nennt abweichend Pfeiffstr. 11 (Lead, kein Beleg), daher KEINE Adress-/Telefondaten in Frontmatter (Zweitbeleg ausstehend); website per Direktabruf aktiv gesetzt; Quelle(n): https://auto-lackner.de/ + /impressum/ + /kontaktformular/.]

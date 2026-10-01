@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 63814)
+
+### Recherche 01.10.2026
+
+- Leads: Northdata HRB 8536 + handelsregister.live HRA 3932 (Mehring ehem. Heinz Will, Mainaschaff). Betreiber-Site https://www.mehring-entsorgung.de/ timeout 01.10.2026 → kein Betreiber-Doppelbeleg, Felder leer, Klärfall Nachfolge Mehring/Will.
