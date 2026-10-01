@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (nur Gelbe Seiten)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Register-Einzelbeleg nur für REDA Schrottdienst GmbH (Northdata: Im Wiesengrund 15, D-53520 Müllenbach, AG Koblenz HRB 10993, Gegenstand An-/Verkauf Schrott + Weiterverarbeitung) + Gelbe-Seiten-Leads (keine Belege): Heinen Hans Peter (Alfbachstr. 2, 54558 Strohn, 06573 952823), Daun Alois / REDA-Schrottdienst GmbH (Im Wiesengrund 15, 53520 Müllenbach, 02692 8846), Stenzhorn Karl (Georgsweiler Str. 38, 56823 Büchel, 02678 1251); kein zweiter unabhängiger Beleg je Betrieb, keine Betreiber-Websites; Frontmatter bleibt leer; Quelle(n): Northdata-Registerdetail HRB 10993, https://www.gelbeseiten.de/suche/schrotthandel/daun (Lead)]

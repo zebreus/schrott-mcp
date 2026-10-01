@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott lt. Register
 - Adresse: Böblingen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Beleg; Gelbe-Seiten-Trefferliste Böblingen (Lead) ohne „Hermann Fink"-Eintrag (nur Mayr/Adler/Möhrle/Ott u.a.), Northdata nur Personen-Suchseite ohne Treffer, keine Betreiber-Website/Domain; Frontmatter bleibt leer, Status pruefung; Quelle(n): https://www.gelbeseiten.de/suche/schrotthandel/boeblingen (Lead)]

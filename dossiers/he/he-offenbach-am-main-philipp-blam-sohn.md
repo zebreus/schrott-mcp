@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (GS-Eintrag)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Register-Einzelbeleg (Northdata: Philipp Blam & Sohn GmbH, Waldstr. 87, D-63071 Offenbach a. Main, AG Offenbach HRB 4357, Gegenstand Großhandel Industrieschrott/Metalle/Nutzeisen + Schrottaufbereitung) + Gelbe-Seiten-Lead (kein Beleg, gleiche Adresse, Tel. 069 845070); keine Betreiber-Website gefunden (alle Domain-Varianten negativ), kein zweiter unabhängiger Beleg; Frontmatter bleibt leer; Quelle(n): Northdata-Registerdetail HRB 4357, https://www.gelbeseiten.de/suche/schrotthandel/offenbach-am-main (Lead)]

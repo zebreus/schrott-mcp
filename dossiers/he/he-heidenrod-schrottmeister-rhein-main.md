@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Doppelbeleg; Gelbe-Seiten-Lead (kein Beleg): Eintrag „Schrott Experte", Napoleonstr. 19, 65321 Heidenrod (Huppert), Tel. 0178 1618017 — Name weicht vom Dossier-Namen ab; keine Betreiber-Website, kein HR-Eintrag, kein Social-Beleg gefunden; Frontmatter bleibt leer; Quelle(n): https://www.gelbeseiten.de/suche/schrotthandel/heidenrod (Lead)]

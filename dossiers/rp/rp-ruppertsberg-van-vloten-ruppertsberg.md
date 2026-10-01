@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Obergasse 8D
 - urspr. Website-Angabe: keine
 - Adresse: Ruppertsberg
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Beleg; Gelbe-Seiten-Trefferliste Ruppertsberg (Lead) nennt nur Neustadt/Haßloch-Betriebe, kein „van Vloten"; Northdata nur Suchseite ohne DE-Treffer, keine Betreiber-Website/Domain; Street-Feld („Vloten Ruppertsberg Ruppertsberg Obergasse 8D") bleibt unverändert (Nur-leere-Felder + City-Mismatch-Regel, Obergasse 8D als Einzelbeleg nur hier in Timeline); Quelle(n): https://www.gelbeseiten.de/suche/schrotthandel/ruppertsberg (Lead)]

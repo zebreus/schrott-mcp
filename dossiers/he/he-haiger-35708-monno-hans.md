@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Haiger 35708
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Beleg; Gelbe-Seiten-Trefferliste Haiger (Lead) nennt nur RHH-Rohstoffhandel Haiger GmbH (Zum Haigerfeld 1, 35708 Haiger-Seelbach) und Becker Dillenburg, kein „Monno Hans"; Northdata nur Suchseite ohne Treffer, keine Betreiber-Website/Domain; Frontmatter bleibt leer, Status pruefung; Quelle(n): https://www.gelbeseiten.de/suche/schrotthandel/haiger (Lead)]

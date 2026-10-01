@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel, evtl. Katalysatoren
 - Adresse: Lampertheim 68623
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Register-Einzelbeleg (Northdata: SM Metals GmbH, Wilhelm-Herz-Ring 2, D-68623 Lampertheim, AG Darmstadt HRB 92336, Gegenstand Handel/Im-/Export Altmetall/Buntmetalle/Transformatoren), kein zweiter unabhängiger Beleg (Gelbe-Seiten-Trefferliste Lampertheim ohne SM-Metals-Eintrag, keine Betreiber-Website/Domain gefunden); Frontmatter bleibt leer; Quelle(n): Northdata-Registerdetail SM Metals GmbH HRB 92336, https://www.gelbeseiten.de/suche/schrotthandel/lampertheim (Lead)]

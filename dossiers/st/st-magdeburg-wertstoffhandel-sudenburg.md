@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Fe/NE (lt. Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Beleg; Gelbe-Seiten-Trefferlisten Magdeburg (Schrotthandel + Wertstoffhandel, Leads) ohne „Wertstoffhandel Sudenburg"-Eintrag (nur FEGERT, TSR, Würfel u.a.), kein Northdata-/Domain-Treffer, keine Betreiber-Website/Social; Frontmatter bleibt leer, Status pruefung; Quelle(n): https://www.gelbeseiten.de/suche/schrotthandel/magdeburg + /suche/wertstoffhandel/magdeburg (Leads)]
