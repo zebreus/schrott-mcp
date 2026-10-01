@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://smsrecycling.de
-website_status: ''
+website_status: 'aktiv'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alu/Kupfer/Kabel/E-Motoren, Demontage
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum verifiziert – SMS Metall Recycling, In den Wiesenhöfen 34, 27383 Scheeßel, Tel. 017668232814, E-Mail e.schmelzer@smsrecycling.de, USt-ID DE301515073, kein HRB (Einzelunternehmen, Owner-Ausnahme greift nicht); Website erreichbar (301 auf www-Variante); Quelle(n): Betreiber-Website smsrecycling.de/impressum (Abruf 01.10.2026); curl smsrecycling.de (Abruf 01.10.2026)]
+- [Recherche 01.10.2026: Nur website_status → aktiv befüllt (Website erreichbar); Adresse/Telefon/E-Mail nur Impressum-Einzelbeleg ohne HRB → nur Timeline, keine Frontmatter-Fills; Statusfeld unverändert; Quelle(n): siehe Vorbullet]

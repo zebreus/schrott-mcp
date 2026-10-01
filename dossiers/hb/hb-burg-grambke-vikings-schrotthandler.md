@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrotthandel (klein)
 - Adresse: Burg-Grambke, An Smidts Park 19
 - Adressbeleg: Gelbe Seiten
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Vikings Schrotthändler, Bremen" nur Suche ohne HR-Treffer; Seed-Adresse An Smidts Park 19, 28719 + Tel. 0172 8364924 bleiben Einzelbelege (Aggregator); Quelle(n): keine belegfähige Quelle]
+- [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]

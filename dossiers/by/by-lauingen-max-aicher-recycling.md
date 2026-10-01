@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahlrecycling, eher B2B
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: keine HR-Identität „Max Aicher Recycling GmbH Lauingen" in Northdata gefunden; max-aicher.de Konzern-Beleg ohne Lauingen-Recycling-GmbH; keine Frontmatter-Fills; Klärfall bleibt unbekannt; Quelle(n): https://www.max-aicher.de/ + Northdata-Negativsuche Lauingen]

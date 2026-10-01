@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Kleiner Weg 39
 - urspr. Website-Angabe: keine
 - Adresse: Lambrecht
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Weitzel/Schrott/Lambrecht/Kleiner Weg): keine Betreiber-Website, kein Impressum, kein Register-Treffer (Longtail ohne indexierte Treffer); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Adresse (Kleiner Weg 39 aus rp.md) und Identitaet weiter unbelegt, Gewerberegister Lambrecht noetig; Quelle(n): Bing-SERP 01.10.2026, recherche/rp.md]

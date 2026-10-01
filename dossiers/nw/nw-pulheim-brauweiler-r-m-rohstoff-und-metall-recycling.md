@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Brunnenstr. 16-18, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Northdata-Lead HRB 40793 AG Köln, Brunnenstr. 16-18, 50259 Pulheim (zweite Quelle fehlt → kein Fill); street-Feld vermüllt belassen (kein Overwrite ohne 2. Beleg); Klärfall bleibt pruefung; Quelle(n): Northdata HRB 40793 Köln (Lead, unsicher)]

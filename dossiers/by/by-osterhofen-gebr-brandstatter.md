@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 94486)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Beleg identifizierbar (nur Verzeichnis-Beleg, Ankauf unklar); keine Frontmatter-Fills; Klärfall bleibt pruefung; Quelle(n): Seed-Registerprosa ohne prüfbare Betreiber-Website]

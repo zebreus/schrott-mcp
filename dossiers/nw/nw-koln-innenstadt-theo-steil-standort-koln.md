@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Alfred-Schütte-Allee 20, Stahlhandel-Profil
 - urspr. Website-Angabe: keine gefunden (theo-steil.de tot)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Theo Steil GmbH Köln → Trier verlagert; Steil Beteiligungsgesellschaft HRB 47024 AG Wittlich i.L., ehem. Theo Steil GmbH Köln HRB 19725 (Northdata-Lead); Alfred-Schütte-Allee 20 unbestätigt; steil.de Konzern-Site aktiv aber kein Köln-Beleg → kein Website-Fill, website_status bleibt tot; Quelle(n): https://steil.de/ + Northdata HRB 47024 Wittlich i.L. (Lead, unsicher)]

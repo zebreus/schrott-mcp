@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Edelmetall (Yelp + gold.de, Tel. 06898 4982577; eigene Domain goldankauf-am-markt.de TOT/curl-000)
 - Adresse: Völklingen 66333, Marktstr. 2a
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Domain http://goldankauf-am-markt.de/ per Direktabruf live verifiziert (HTTP 200, Stand 01.10.2026): Einseiter ohne Unterseiten/Links, Titel 'Goldankauf am Markt - 66333 Voelklingen - Seit 01.07.2026 geschlossen - kontakt@goldankauf-am-markt.de'; HTTPS scheitert (Zertifikatsfehler); korrigiert Vorbefund 'Domain TOT/curl-000' vom 30.09.2026 (Domain lebt, Geschaeft laut Betreiber geschlossen); Quelle(n): Betreiber-Website Direktabruf 01.10.2026]
+- [Recherche 01.10.2026: Schliessung seit 01.07.2026 und E-Mail kontakt@goldankauf-am-markt.de jeweils nur Einzelbeleg (Betreiber-Einseiter ohne Impressum/HRB; Einzelunternehmen -> Owner-Ausnahme greift nicht) — daher kein Frontmatter-Fill, status bleibt pruefung (kein belegter Status-Enum), website bleibt leer (2-Beleg-Standard); Bing-Gegenrecherche findet keine zweite unabhaengige Quelle (nur generische Goldankauf-Portale); Handler-Empfehlung: Schliessungsvermerk/Archivierung pruefen; Quelle(n): Betreiber-Website Direktabruf 01.10.2026, Bing-SERP 01.10.2026]

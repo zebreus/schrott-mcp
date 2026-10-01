@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (nur schrottplatz-info-Umkreis)
 - [Recherche 30.09.2026: Horstfelder Dorfstr. 2, 15806 Zossen, Tel. 03377 300471; Quelle: cylex.de (Verzeichnis)]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Klucke, Zossen" nur Suche ohne HR-Treffer; Seed-/Verzeichnis-Adresse Horstfelder Dorfstr. 2, 15806 + Tel. 03377 300471 bleiben Einzelbelege; Quelle(n): keine belegfähige Quelle]
+- [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]

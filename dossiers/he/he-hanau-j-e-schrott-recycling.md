@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: J.E. Schrott/Hanau/Recycling sowie Schrottankauf Hanau mobil): keine Betreiber-Website, kein Impressum, kein Register-Treffer; Treffer nur generische Portale; Vorbefund 'keine Website gefunden' (Portal-Tel. 015779264128 aus he.md bleibt Verzeichnis-Lead, kein Beleg); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Adresse/Identitaet weiter unbelegt; Quelle(n): Bing-SERP 01.10.2026, recherche/he.md]

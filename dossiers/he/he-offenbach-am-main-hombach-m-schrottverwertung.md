@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottverwertung/Schrotthandel
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Hombach/Schrottverwertung/Offenbach/Dieselstr.): keine Betreiber-Website, kein Impressum, kein Register-Treffer, kein Betreiber-Social; Treffer nur namensgleiche Fremdfirmen (Hombach Blech/Kunststoff/Forsttechnik); Vorbefund 'keine Website gefunden' bestaetigt (Portal-Tel. 015151285906 aus he.md bleibt Verzeichnis-Lead, kein Beleg); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Dieselstr. 38 ohne PLZ weiter unbelegt; Quelle(n): Bing-SERP 01.10.2026, recherche/he.md]

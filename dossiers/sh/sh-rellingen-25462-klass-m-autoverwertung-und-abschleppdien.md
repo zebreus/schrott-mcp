@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV-Kleinbetrieb + Abschleppdienst
 - Adresse: Rellingen 25462, Adlerstr. 36
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Klass/Autoverwertung/Rellingen/Adlerstr.): keine Betreiber-Website, kein Impressum, kein Register-Treffer, kein Betreiber-Social; Treffer nur namensgleiche Fremdfirmen (Klass Metallbau/Elektro u.ae.); status aktiv bleibt unveraendert (kein Gegenbeleg); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Adlerstr. 36 ohne PLZ weiter nur Seed-belegt; Quelle(n): Bing-SERP 01.10.2026, recherche/sh.md]

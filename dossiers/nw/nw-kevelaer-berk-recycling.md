@@ -10,7 +10,7 @@ phone: 02832 78597)
 email: ''
 opening_hours: ''
 website: https://www.berk-recycling.com/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Tageshöchstpreise, 2 BImSchG-Standorte, Container/Abbruch (Kevelaer 02832 78597)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Velder Dyck 21, 47624 Kevelaer + Girmespark 5, 47929 Grefrath, Tel. 02832 78597, HRB 18672 AG Kleve (Betreiber-Website: Homepage + Kontakt + Impressum = eine Quelle); Quelle(n): https://berk-recycling.com/ + https://berk-recycling.com/kontakt/ + https://berk-recycling.com/impressum]
+- [Recherche 01.10.2026: Northdata-Gegenbeleg HRB 18672 AG Kleve (zweite Quelle für HR-Identität); phone-Feld mit Klammer-Artefakt belassen (kein Overwrite ohne 2. unabhängige Telefon-Quelle); website_status aktiv; Quelle(n): Northdata HRB 18672 Kleve]

@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Fe + NE; Tel. 030 4318566
 - Adresse: Wildganssteig 50, 13503 Berlin
 - Bezirk: Reinickendorf Adressbeleg: seed/be.json (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Lübeck, Berlin Schrott" nur Suche ohne HR-Treffer; Seed-Adresse Wildganssteig 50, 13503 + Tel. 030 4318566 bleiben Einzelbelege (Verzeichnis); Quelle(n): keine belegfähige Quelle]
+- [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]

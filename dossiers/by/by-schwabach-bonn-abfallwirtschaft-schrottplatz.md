@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottplatz
 - Adresse: Schwabach (Alte Rother Str. 36)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: K. Bonn HRA 10848 / HRB 13202 erloschen (✝︎, Northdata-Lead); Alte Rother Str. 36 nur Seed-Einzelbeleg (unsicher) → kein Fill; Klärfall bleibt pruefung; Quelle(n): Northdata HRA 10848 + HRB 13202 (erloschen, Lead)]

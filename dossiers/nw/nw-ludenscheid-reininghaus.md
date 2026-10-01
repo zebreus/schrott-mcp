@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Lüdenscheid (Sauerland)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Northdata-Leads Reininghaus GmbH HRB 10063 / HRA 3488 ✝︎ (Lüdenscheid-Bezug unbestätigt, zweite Quelle fehlt → kein Fill); Klärfall bleibt pruefung; Quelle(n): Northdata HRB 10063 + HRA 3488 (Lead, unsicher)]

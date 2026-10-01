@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Pfungstadt 64319
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Stein/Schrott/Pfungstadt): keine Betreiber-Website, kein Impressum, kein Handelsregister-/Northdata-Treffer, kein Betreiber-Social; Treffer nur namensgleiche Fremdfirmen und Orte; Vorbefund 'keine Website verifiziert' bestaetigt; kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: kommunales Gewerberegister Pfungstadt oder Vor-Ort-Check; Quelle(n): Bing-SERP 01.10.2026, recherche/he.md]

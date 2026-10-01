@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-AV?
 - Adresse: Wiesbaden 65203
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Pagel/Wiesbaden/Schrott/Autoverwertung): keine Betreiber-Website, kein Impressum, kein Register-Treffer; Treffer nur namensgleiche Fremdfirma (PAGEL Spezial-Beton, Essen); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Branche/Adresse/Telefon weiter unbelegt, Gewerberegister Wiesbaden noetig; Quelle(n): Bing-SERP 01.10.2026, Dossier-Timeline]

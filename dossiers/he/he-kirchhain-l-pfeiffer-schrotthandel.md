@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel/Industrieabbrüche (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Pfeiffer/Schrotthandel/Kirchhain/Sonnenweg): keine Betreiber-Website, kein Impressum, kein Register-Treffer; Treffer nur namensgleiche Fremdfirmen (Pfeiffer Vacuum, Pfeiffer & May); Vorbefund 'keine Website gefunden' bestaetigt (Portal-Tel. 015167330415 aus he.md bleibt Verzeichnis-Lead, kein Beleg); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Sonnenweg 4 ohne PLZ weiter unbelegt; Quelle(n): Bing-SERP 01.10.2026, recherche/he.md]

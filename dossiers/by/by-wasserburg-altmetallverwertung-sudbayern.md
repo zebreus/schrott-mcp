@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - keine Website (Domain-Vermutung DNS-fail)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Northdata-Leads HRA 10261 / HRB 19546 AG Traunstein (Wasserburg-Bezug, Aggregator-Lead, zweite Quelle fehlt → kein Fill); keine Betreiber-Website verifiziert; Klärfall bleibt unbekannt; Quelle(n): Northdata HRA 10261 + HRB 19546 Traunstein (Lead, unsicher)]

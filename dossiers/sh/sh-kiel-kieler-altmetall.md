@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Altmetall/Demontage — "Größere Mengen werden ggf. auch angekauft" (NEU, mobil)
 - urspr. Website-Angabe: keine
 - Adresse: Kiel, Tel. 0160-99288699
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Kieler Altmetall/Kiel, inkl. Social-Probe): keine Betreiber-Website, kein Impressum, kein Register-Treffer, kein Betreiber-Social auffindbar; Treffer nur Kiel-Allgemeines (KN u.ae.); mobil-Telefon 0160-99288699 bleibt einziger Kontakt (Seed); status aktiv bleibt unveraendert; kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Identitaet/Adresse nur via Rueckwaerts-/Kleinanzeigen-Recherche klaerbar; Quelle(n): Bing-SERP 01.10.2026, recherche/sh.md]

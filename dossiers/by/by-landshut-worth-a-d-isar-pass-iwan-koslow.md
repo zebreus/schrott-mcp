@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.koslow.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle, Altfahrzeuge, E-Schrott, Container
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Impressum HRA 7610 AG Landshut, Werke Landshut/Wörth a. d. Isar/Passau (Betreiber-Website: Impressum + Standorte + Kontakt = eine Quelle); Quelle(n): https://www.koslow.de/impressum + https://www.koslow.de/standorte + https://www.koslow.de/kontakt-1]
+- [Recherche 01.10.2026: Northdata-Gegenbeleg HRA 7610 AG Landshut (zweite unabhängige Quelle für HR-Identität, Straße nicht verifiziert → kein Street-Fill); website_status aktiv (Fetch ok); Quelle(n): Northdata HRA 7610 Landshut]

@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Rohstoffhandel (lt. schrottplatz-info.de)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall Löschung (Einzelbeleg, unsicher) – Northdata führt "Oetjen Metall- und Wertstoffhandel GmbH, Demmin, AG Neubrandenburg HRB 3806" mit Löschung 16.01.2023 (Liquidation 29.01.2021); Namensdifferenz zu Dossier (Rohstoffhandel vs. Metall- und Wertstoffhandel) + Seed-Adresse Davidsohnweg 2B ohne Zweitbeleg; keine Statusänderung ohne Zweitbeleg; Quelle(n): Northdata HRB 3806 (Abruf 01.10.2026, Einzelbeleg)]
+- [Recherche 01.10.2026: Felder leer gelassen; Statusfeld (pruefung) unverändert; Quelle(n): siehe Vorbullet]

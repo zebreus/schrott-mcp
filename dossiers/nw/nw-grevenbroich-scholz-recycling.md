@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Otto-Hahn-Str. 11 — Scholz-Standort
 - urspr. Website-Angabe: Konzern (scholz-recycling.de, unverifiziert)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Konzern-Impressum HRB 733963 AG Ulm (Homepage + Standorte + Impressum = eine Quelle); Quelle(n): https://www.scholz-recycling.com/ + https://www.scholz-recycling.com/impressum/]
+- [Recherche 01.10.2026: Northdata-Gegenbeleg HRB 733963 AG Ulm (zweite Quelle für HR-Identität); Niederlassung Grevenbroich Otto-Hahn-Str. 11 nur Seed-Einzelbeleg → kein Address-Fill, kein Website-Fill im Filial-Dossier; Quelle(n): Northdata HRB 733963 Ulm]

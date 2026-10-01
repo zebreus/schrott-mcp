@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, Metall (GS-Beleg lt. Vorlage; Örtliche Marpingen ohne lokalen Treffer)
 - Adresse: Marpingen-Berschweiler 66646, Dirminger Str. 2
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Kochann/CE Schrotthandel/Marpingen-Berschweiler): keine Betreiber-Website, kein Impressum, kein Register-Treffer (Longtail ohne indexierte Treffer); Vorbefund 'keine Website verifiziert' (Oertliche Marpingen ohne Treffer) bestaetigt; kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Dirminger Str. 2 weiter nur Seed-belegt, Gewerberegister Marpingen noetig; Quelle(n): Bing-SERP 01.10.2026, recherche/sl.md]

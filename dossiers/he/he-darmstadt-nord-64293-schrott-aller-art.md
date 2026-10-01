@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026 (Feedback-Triage)
 
 - [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1684 bestaetigt — Domain one.com-Parkseite ohne Firmeninhalt; Website entfernt. Firma real (Mainzer Str. 83, 64293 Darmstadt per dastelefonbuch/dasoertliche/gelbeseiten) — Adresse nachgetragen, city bereinigt.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Schrott/Mainzer Str. 83/Darmstadt): keine Betreiber-Website und kein Impressum in den Treffern (nur generische Schrottpreis-Portale und Verzeichnisse); Adress-Frontmatter (Mainzer Str. 83, 64293) aus Korrektur 30.09.2026 bleibt unveraendert; kein weiterer Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Betreiber-Identitaet (Name/Telefon) weiter unbelegt; Quelle(n): Bing-SERP 01.10.2026, Dossier-Timeline]

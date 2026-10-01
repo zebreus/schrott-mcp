@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme (lt. Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Schrott-Beleg für „Schuchardt Wernigerode" (nur Personen-Treffer Andreas Schubert, kein Match); keine Frontmatter-Fills; Klärfall bleibt pruefung; Quelle(n): Negativsuche ohne Betreiber-Beleg]

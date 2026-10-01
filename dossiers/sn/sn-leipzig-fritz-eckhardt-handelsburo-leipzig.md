@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.eckhardt-schrott.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe-/NE-Handel (Hauptsitz Schwelm/NRW)
 - Handelsbüro, kein Schrottplatz
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: HRA 4174 AG Hagen, Handelsbüro Leipzig An der Hebemärchte 14, 04316 Leipzig, Tel. 0341 550340-30 (Betreiber-Website: Homepage + Kontakt + Impressum = eine Quelle); Quelle(n): https://www.eckhardt-schrott.de/ + https://www.eckhardt-schrott.de/kontakt + https://www.eckhardt-schrott.de/impressum]
+- [Recherche 01.10.2026: Northdata-Gegenbeleg HRA 4174 AG Hagen (zweite Quelle für HR-Identität, HQ-Bezug Schwelm); Leipziger Büroadresse ohne 2. unabhängigen Beleg → kein Fill; website_status aktiv; Quelle(n): Northdata HRA 4174 Hagen]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Wohnwagenverwertung (Nische)
 - Adresse: Buseck 35418 [Website-Recherche verzeichnis: services: Wohnwagenverwertung; notes: 11880-Verzeichnis (Fischer Wohnwagenverwertung).]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Fischer/Weidenstr./Buseck/Wohnwagenverwertung): keine Betreiber-Website, kein Impressum, kein Register-Treffer; Treffer nur namensgleiche Fremdfirmen (fischer-Befestigungstechnik u.ae.); Nischenbetrieb bleibt nur via 11880-Verzeichnis belegt (Lead, kein Beleg); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Gewerberegister Buseck oder Vor-Ort-Check; Quelle(n): Bing-SERP 01.10.2026, Dossier-Timeline]

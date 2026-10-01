@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://rvr-regensburg.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Eisen-/Metallschrott, Container, Autoverwertung
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Budapester Str. 24, 93055 Regensburg, HRB 9134 AG Regensburg, Ansprechpartner-Seite (Betreiber-Website: Homepage + Impressum + Ansprechpartner = eine Quelle); Quelle(n): https://rvr-regensburg.de/ + https://rvr-regensburg.de/impressum/ + https://rvr-regensburg.de/kontakt/ansprechpartner/]
+- [Recherche 01.10.2026: Northdata-Gegenbeleg HRB 9134 AG Regensburg (zweite Quelle für HR-Identität, Straße nicht verifiziert → kein Street-Fill); website_status aktiv; Quelle(n): Northdata HRB 9134 Regensburg]

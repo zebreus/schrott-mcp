@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott-/Metallhandel (klein)
 - Adresse: Lehe, Lange Str. 30
 - Adressbeleg: Seed-notes (Verzeichnis); PLZ n. verifiziert
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Rosenbach, Bremerhaven" nur Suche ohne HR-Treffer; Seed-Adresse Lange Str. 30 (Lehe) bleibt Einzelbeleg; Quelle(n): keine belegfähige Quelle]
+- [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]

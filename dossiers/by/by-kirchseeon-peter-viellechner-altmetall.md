@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.viellechner-altmetall.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Buntmetall, Schrott, Abholung mit Kran-Lkw, Container
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Moos 5b, 85614 Kirchseeon, Tel. 08091/5637091, Mobil 0172/5966451, info@viellechner-altmetall.de (Einzelbeleg, unsicher — Start/Kontakt/Impressum einer Website = eine Quelle, kein HRB als Einzelunternehmen); keine Frontmatter-Fills (außer website_status aktiv); Quelle(n): https://www.viellechner-altmetall.de/ + https://www.viellechner-altmetall.de/kontakt/ + https://www.viellechner-altmetall.de/impressum/ (eine Quelle)]

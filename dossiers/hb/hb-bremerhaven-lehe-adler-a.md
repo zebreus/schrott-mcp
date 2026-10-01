@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottplatz
 - Adresse: Bremerhaven-Lehe, Schierholzweg 5, 27578
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Adler, Bremerhaven" nur Suche ohne HR-Treffer; Seed-Adresse Schierholzweg 5, 27578 bleibt Einzelbeleg; Quelle(n): keine belegfähige Quelle]
+- [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]

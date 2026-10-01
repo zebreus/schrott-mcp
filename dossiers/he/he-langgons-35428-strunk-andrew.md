@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Klein-AV?
 - Adresse: Langgöns 35428
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Strunk/Schrott/Langgoens): keine Betreiber-Website, kein Impressum, kein Register-Treffer (Longtail ohne indexierte Treffer); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Name/Adresse/Telefon weiter unbelegt, Gewerberegister Langgoens noetig; Quelle(n): Bing-SERP 01.10.2026, Dossier-Timeline]

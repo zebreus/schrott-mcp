@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling (Sparte unbelegt)
 - nur Gelbe-Seiten-Branche Recycling, Tel. 03731 41937-4
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: FReSiTec HRB 31259 AG Chemnitz ✝︎, Löschung 22.03.2019 durch Verschmelzung (Loser Chemie) per Northdata (Lead, zweite Quelle fehlt → kein Fill, Status-Klärfall); Tel. 03731 41937-4 nur Gelbe Seiten (Aggregator-Lead); Quelle(n): Northdata HRB 31259 Chemnitz (erloschen) + Gelbe Seiten (Lead, unsicher)]

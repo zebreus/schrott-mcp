@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallverwertung
 - Adresse: Mainz 55120
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Mainzer-Metall-Verwertung/Mainz): keine Betreiber-Website, kein Impressum, kein Register-Treffer (Longtail ohne indexierte Treffer); Vorbefund 'keine Website verifiziert' plus TOT-Verdacht aus rp.md bleibt bestehen; kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Existenz weiter unbelegt, Gewerberegister Mainz noetig; Quelle(n): Bing-SERP 01.10.2026, recherche/rp.md]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Bad Vilbel 61118 [Website-Recherche verzeichnis: services: Schrotthandel; notes: 11880-Verzeichnis (Nagel Schrott GmbH); kein Telefon im Verzeichnis.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Nagel/Schrott/Bad Vilbel/Akazienweg, plus Handelsregister-Probe): keine Betreiber-Website, kein Impressum, kein Northdata-/Handelsregister-Treffer zur 'Nagel Schrott GmbH'; Treffer nur namensgleiche Fremdfirmen (Nagel-Gruppe, Nagel-Group u.ae.); GmbH-Angabe daher weiter unbelegt (Einzelbeleg 11880 = Lead); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Handelsregister-Abfrage beim AG Friedberg oder Gewerberegister Bad Vilbel; Quelle(n): Bing-SERP 01.10.2026, Dossier-Timeline]
