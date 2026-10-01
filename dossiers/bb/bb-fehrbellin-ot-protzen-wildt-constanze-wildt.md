@@ -1,7 +1,7 @@
 ---
 slug: bb-fehrbellin-ot-protzen-wildt-constanze-wildt
 name: Wildt (Constanze Wildt)
-trader_type: sonstige
+trader_type: autoverwertung
 state: BB
 city: Fehrbellin OT Protzen
 street: Mühlenbergstr. 8
@@ -10,7 +10,7 @@ phone: 033932 70431
 email: info@autoverwertung-wildt.de
 opening_hours: Mo-Fr 16:00-18:00
 website: https://autoverwertung-wildt.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - AV/Abschlepp, Entsorgungsfachbetrieb (Genehmigung 1994, Zert. 1998)
 - Adresse: Fehrbellin OT Protzen, Mühlenbergstr. 8 (auch Neuruppin)
 - Adressbeleg: https://autoverwertung-wildt.de, https://autoverwertung-wildt.de/impressum
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: berechtigt eingearbeitet — trader_type sonstige zu autoverwertung (Autoverwertung/Abschleppdienst), website_status aktiv; Beleglage: Betreiber-Website + Impressum (starke Einzelquelle mit Disclosure); Quelle(n): https://autoverwertung-wildt.de (Abruf 01.10.2026)]

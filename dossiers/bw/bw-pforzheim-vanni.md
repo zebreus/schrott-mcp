@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2815): Dublette bestätigt, KEIN Merge — Betreiber-Standortseite Pforzheim (einzeln abgerufen 01.10.2026): 'Vanni + Didicher Recycling GmbH & Co. KG, Klumpensee 8, 75177 Pforzheim, Tel. +49 (0)7231/15405-0, vertrieb@vd-recycling.de (Standortseite) / info@vd-recycling.de (Footer); Leistungen Containerdienst/Entsorgungslogistik, Annahmestelle Wertstoffe/Abfälle von Gewerbebetrieben, Aktenvernichtung; zweiter Standort Illingen'. Identische Adresse/Telefon/Website wie bw-pforzheim-didicher → eine Firma, zwei Slugs. KEIN Merge (Slug-Stabilität: DB-Keys/Feedback-Refs); cross-referenziert. E-Mail-Differenz vertrieb@ vs info@ hier dokumentiert, KEIN Fill (Betreiber-Einzelbeleg). trader_type-Klärfall (Containerdienst/Wertstoff, Schrott nicht prominent) — keine Typ-Änderung ohne Zweitbeleg. Adresse/Telefon im Dossier bereits korrekt. website_status aktiv bestätigt. Quelle(n): vd-recycling.de/kontakt/standort-pforzheim (Betreiber; Dedup 30.09.2026 HRA 700321 bestätigt).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott lt. Register

@@ -1,7 +1,7 @@
 ---
 slug: by-wurzburg-preuer-recycling
 name: Preuer Recycling
-trader_type: sonstige
+trader_type: schrotthaendler
 state: BY
 city: Würzburg
 street: Veitshöchheimer Strasse 11
@@ -10,7 +10,7 @@ phone: +49 931 92061
 email: info@preuer.de
 opening_hours: Mo-Fr 7:30-12:00 und 12:30-15:30
 website: https://www.preuer.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Recycling/Shredder, Sekundärrohstoffe (eher B2B)
 - Adresse: Würzburg
 - Adressbeleg: https://www.preuer.de, https://preuer.de/impressum/
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: berechtigt eingearbeitet — trader_type sonstige zu schrotthaendler (Shredder + Schrottannahme), website_status aktiv; Beleglage: Betreiber-Impressum HRB 9675 AG Würzburg (Owner-Ausnahme: Impressum Name+HRB+Ort HR-kongruent); Quelle(n): https://preuer.de/impressum/ (Abruf 01.10.2026)]

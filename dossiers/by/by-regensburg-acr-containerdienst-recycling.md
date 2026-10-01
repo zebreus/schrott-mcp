@@ -7,7 +7,7 @@ city: Regensburg
 street: Wiener Straße 14a
 postcode: '93055'
 phone: 0941 784480
-email: ''
+email: kontakt@acr-recycling.de
 opening_hours: Mo-Do 07:00-18:00, Fr 07:00-16:00, Sa 08:30-12:00
 website: https://www.acr-recycling.de
 website_status: aktiv
@@ -43,3 +43,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Phone-Feld mit 0941 784480 belegt (Betreiber + Verband); Zweitnummer 0941/25025 nur Betreiber-Beleg, daher nur hier in Timeline.
 - E-Mail kontakt@acr-recycling.de nur Betreiber-Beleg (Schreibweise kontakt-Sonderzeichen-at-acr-recycling.de), daher Feld leer.
 - Status pruefung zu aktiv korrigiert (bewiesene Korrektur: HRB-Impressum + Verbandsmitgliedschaft + lebendige Website).
+- [Recherche 01.10.2026 (Feedback 2867): berechtigt eingearbeitet — E-Mail kontakt@acr-recycling.de; Beleglage: Betreiber-Kontakt plus Key-to-Bavaria-Eintrag kontakt @ acr-recycling.de mit HRB 5224 (Zweitbeleg, Doppelbeleg); Quelle(n): https://www.acr-recycling.de + Key-to-Bavaria (Abruf 01.10.2026)]

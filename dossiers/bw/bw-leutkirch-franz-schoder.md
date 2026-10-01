@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Owner-Gate 01.10.2026: Einzelbeleg-Fills (nur Betreiber-Website, kein HR — Einzelunternehmen, keine Owner-Ausnahme) revertiert; Werte bleiben in Recherche-Note dokumentiert. website/aktiv bleibt (live bestaetigt).]
 
+### Recherche 01.10.2026 (Feedback-Triage ID 2813)
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2813): Feedback sachlich zutreffend, aber NICHT eingearbeitet — Revert bleibt gewahrt. Betreiber-Homepage (einzeln abgerufen 01.10.2026): 'Franz Schoder Schrott- u. Metallhandel, Unterer Auenweg 26, 88299 Leutkirch im Allgäu, Tel. 07561 71807 / 07561 2143, Fax 07561 71846, schoder-schrott-metall@t-online.de; Mo-Do 07:30-12:00/13:00-17:00, Fr 07:30-12:00/13:00-15:00; Inhaberin Elfriede Schoder'. Einzelunternehmen ohne HRB → keine Owner-Ausnahme; Zweitbeleg fehlt → Straße/PLZ/Hours NICHT gefüllt (Werte hier + in Note 01.10.2026 dokumentiert). Telefon/E-Mail im Dossier bereits korrekt (Site-Kongruenz). Kein Namensvetter an Unterer Auenweg 26. Status bleibt pruefung. Quelle(n): schoder-schrott-leutkirch.de/ (Betreiber; Zweitbeleg ausstehend).]
+

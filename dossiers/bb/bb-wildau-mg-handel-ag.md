@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Metallhandel (dünn belegt — behalten)
 - Adresse: Wildau, An der Mensa
 - [Recherche 30.09.2026: An der Mensa, 15745 Wildau, Tel. 03375 211010; Quelle: metallhandel-berlin.de (Impressum)]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: unberechtigt für Fill — Website zeigt Hersteller/Metallhalbzeughandel, kein Schrottankauf erkennbar; E-Mail nur Cloudflare-verschlüsselt (kein lesbarer Beleg), daher kein E-Mail-Fill; kein Frontmatter-Fill, status bleibt pruefung; Quelle(n): https://metallhandel-berlin.de (Abruf 01.10.2026)]

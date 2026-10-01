@@ -1,7 +1,7 @@
 ---
 slug: th-schmalkalden-jager-jurgen
 name: Jäger Jürgen
-trader_type: schrotthaendler
+trader_type: autoverwertung
 state: TH
 city: Schmalkalden
 street: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2785): trader_type korrigiert schrotthaendler → autoverwertung (Feedback berechtigt: Betreiber-Homepage + Impressum, je einzeln abgerufen 01.10.2026, nennen übereinstimmend 'Jürgen Jäger Autoverwertung', Meisterbetrieb seit 1990, Leistungen Autoverwertung/Abschleppdienst/Neu- u. Gebrauchtteile/TÜV/DEKRA/Autoservice — kein Schrottankauf im Angebot; Vorgänger-Name 'Jäger Jürgen' in Timeline erhalten. Kontaktdaten (Burgweg 1a, 98574 Schmalkalden-Näherstille, Tel. 03683 488143, Fax 03683 607299, autoverwertung-jaeger@t-online.de, Öffnungszeiten Mo–Fr 08:00–12:00/13:00–18:00) verifiziert, aber KEIN Fill: kein HRB (Einzelunternehmen, keine Owner-Ausnahme), Zweitbeleg fehlt (Creditreform nur Name/Sitz; Namensvetter Autohaus Jäger GmbH Germersheim u.a. belegen Verwechslungsrisiko; Facebook-Betreiberprofil nicht abrufbar) → Einzelbeleg, unsicher, Werte hier dokumentiert; city Schmalkalden korrekt (Näherstille = Ortsteil); status bleibt pruefung. Quelle(n): jaeger-autoverwertung.de/ + /impressum (eine Quelle: Betreiber) + firmeneintrag.creditreform.de (Lead, keine Adresse).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -4,13 +4,13 @@ name: Goldtrans Edelmetallhandel e.K.
 trader_type: metallhaendler
 state: HH
 city: Wandsbek
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Ahrensburger Str. 69
+postcode: '22041'
+phone: 040 97079580
+email: info@goldtrans.de
+opening_hours: Mo-Do 09:30-18:00, Fr 09:30-17:00
 website: https://www.goldtrans.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Edelmetall, Dental-/Zahngold (€/g-Tabelle + Rechner). PREISLISTE: https://www.goldtrans.de/goldankauf-preise-aktueller-goldpreis-ankauf-in-hamburg.html
 - Adresse: Wandsbek, 22041
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: berechtigt eingearbeitet — street zu Ahrensburger Str. 69, postcode zu 22041, phone zu 040 97079580, email zu info@goldtrans.de, opening_hours zu Mo-Do 09:30-18:00, Fr 09:30-17:00 (Mittagspause 12-13), website_status zu aktiv; city Wandsbek bleibt (Ortsteil-Form); Beleglage: Owner-Ausnahme — Betreiber-Impressum (GOLDTRANS Edelmetallhandel e.K., Inh. Tarkan Yilmaz, HRA 110315 AG Hamburg) HR-kongruent + per-site Kontaktseite; Slug bleibt (DB-Schlüssel); Quelle(n): https://www.goldtrans.de/kontakt.html + /impressum.html (Abruf 01.10.2026)]

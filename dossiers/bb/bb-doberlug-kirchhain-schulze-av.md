@@ -4,7 +4,7 @@ name: Schulze (AV)
 trader_type: autoverwertung
 state: BB
 city: Doberlug-Kirchhain
-street: Finsterwalder Str. 17
+street: Finsterwalder Str. 17d
 postcode: '03253'
 phone: 035322 34424
 email: info@dieautoverwertung.com
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung (Nachbar-Nr. zu RSO 17B — beide behalten)
 - Adresse: Doberlug-Kirchhain, Finsterwalder Str. 17
 - Adressbeleg: Seed-notes; PLZ Orts-PLZ [Website-Recherche 30.09.2026: Inh. Torsten Schulze, Demontagebetrieb, Abschleppdienst, Gebrauchtteile; Quelle: dieautoverwertung.com/impressum/]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: berechtigt eingearbeitet — Hausnummer 17 zu 17d (Impressum); Beleglage: Betreiber-Impressum (starke Einzelquelle mit Disclosure); Quelle(n): https://dieautoverwertung.com/impressum/ (Abruf 01.10.2026)]

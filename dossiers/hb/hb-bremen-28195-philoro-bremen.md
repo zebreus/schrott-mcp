@@ -3,14 +3,14 @@ slug: hb-bremen-28195-philoro-bremen
 name: philoro Bremen
 trader_type: sonstige
 state: HB
-city: Bremen 28195
+city: Bremen
 street: Wachtstr. 20
 postcode: '28195'
 phone: +49 421 244 04 400
 email: bremen@philoro.de
 opening_hours: Mo-Fr 10:00-18:00, Sa 10:00-15:00
 website: https://philoro.de/filialen/bremen
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''

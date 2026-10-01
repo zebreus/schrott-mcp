@@ -3,14 +3,14 @@ slug: hb-bremen-findorff-28215-wirkaufendeingold-de-rohat-erdem
 name: WirKaufenDeinGold.de (Rohat Erdem)
 trader_type: sonstige
 state: HB
-city: Bremen-Findorff 28215
+city: Bremen-Findorff
 street: Admiralstr. 111
 postcode: '28215'
 phone: 0151 5024 7474
 email: info@wirkaufendeingold.de
 opening_hours: Mo-Sa 10:00-19:00
 website: https://wirkaufendeingold.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Edelmetall, Zahngold/Dentalgold, Münzen/Barren; Online-Preisrechner PREISLISTE: https://wirkaufendeingold.de (#rechner)
 - Adresse: Bremen-Findorff 28215, Admiralstr. 111
 - Adressbeleg: wirkaufendeingold.de + /impressum
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: berechtigt eingearbeitet — city Bremen-Findorff 28215 zu Bremen-Findorff (Ortsteil erhalten, PLZ bleibt in postcode), website_status aktiv, Adresse/Zeiten bestätigt Admiralstr. 111, 28215 Bremen-Findorff, Mo-Sa 10-19; Beleglage: Betreiber-Website (Filialadresse + Zeiten, Einzelbeleg mit Disclosure); Quelle(n): https://wirkaufendeingold.de (Abruf 01.10.2026)]

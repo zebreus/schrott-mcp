@@ -3,7 +3,7 @@ slug: bb-birkenhain-b-ludwigsfelde-schrott-und-metallhandel-barkow-reiner-b
 name: Schrott- und Metallhandel Barkow (Reiner Barkow)
 trader_type: metallhaendler
 state: BB
-city: Birkenhain b. Ludwigsfelde
+city: Großbeeren
 street: Birkenhainer Ring 7
 postcode: '14979'
 phone: 033701 59475
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Birkenhain b. Ludwigsfelde
 - Adressbeleg: schrotthandel-barkow.de
 - Adressbeleg: https://schrotthandel-barkow.de
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: berechtigt eingearbeitet — city Birkenhain b. Ludwigsfelde zu Großbeeren (Birkenhainer Ring 7, 14979 Großbeeren); Beleglage: Betreiber-Website + Impressum (eine Quelle mit Disclosure, kein HR); Slug bleibt; Quelle(n): https://schrotthandel-barkow.de + Impressum (Abruf 01.10.2026)]

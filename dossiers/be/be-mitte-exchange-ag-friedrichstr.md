@@ -8,7 +8,7 @@ street: Friedrichstr. 150-153
 postcode: '10117'
 phone: 030 20649296
 email: ''
-opening_hours: ''
+opening_hours: Mo-Fr 10-18, Sa 10-16
 website: https://www.exchange-ag.de
 website_status: ''
 status: pruefung
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Mitte, Friedrichstr. 150-153, Berlin
 - Bezirk: Mitte Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
 - [Recherche 30.09.2026: 10117 Berlin, Tel. 030 20649296; Quelle: exchange-ag.de (Filialseite)]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: berechtigt eingearbeitet — Öffnungszeiten Mo-Fr 10-18, Sa 10-16; E-Mail friedrich@exchange-ag.de nur Timeline (Einzelbeleg, kein Fill); Beleglage: Betreiber-Filialseite (Owner-Ausnahme: Kette mit HR-Impressum, aktuelle Detailseiten); Quelle(n): https://www.exchange-ag.de Filialseite Friedrichstr. (Abruf 01.10.2026)]

@@ -10,7 +10,7 @@ phone: '07243 532986'
 email: ''
 opening_hours: ''
 website: https://www.eisele-entsorgung.de/
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: 'Zertifizierter Entsorgungsfachbetrieb: Altpapier, Folien, Altholz, Metalle, Aktenvernichtung; Containerdienst'
 dropoff_json: ''
@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Leistungen: Erfassung/Entsorgung Altpapier, Folien, Altholz, Metalle, vertrauliche Dokumente; Container/Spezialbehälter (Quellen: Firmenwebsite und Das-Örtliche-Branche Entsorgungsbetriebe)
 - Website https://www.eisele-entsorgung.de/ als Domain-Root der Impressum-Quell-URL (Impressum auf Homepage) gesetzt
 - E-Mail info@eisele-entsorgung.de nur auf Firmenwebsite (Einzelbeleg, unsicher); keine Öffnungszeiten hinterlegt
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2814): Feedback sachlich zutreffend, aber NICHT eingearbeitet (nur Note + aktiv) — Betreiber-Homepage (einzeln abgerufen 01.10.2026): 'EISELE Entsorgung, Zertifizierter Entsorgungsfachbetrieb e.K., Andreas Eisele, Hohbergstr. 23, 76337 Waldbronn, Tel. 07243 532986, Fax 07243 532659, Mobil 0163 7597636, info(at)eisele-entsorgung.de, HRA 704828 AG Mannheim; Kunden Verlage/Druckereien/Banken/Gemeinden (Gewerbe); Leistungen Altpapier/Folien/Altholz/Metalle/Dokumente + Container'. e.K. → keine Owner-Ausnahme; E-Mail (obfuskiert info(at)...) + Mobil nur Betreiber-Einzelbeleg → NICHT gefüllt (Werte hier dokumentiert). trader_type-Klärfall: 'Entsorgungsfachbetrieb/Containerdienst (Gewerbe)' vs schrotthaendler — KEINE Typ-Änderung ohne Zweitbeleg (nie allein per Primärquelle); Typ bleibt, Status bleibt pruefung. Adresse/Telefon im Dossier bereits korrekt. website_status aktiv (live verifiziert 01.10.2026). Quelle(n): eisele-entsorgung.de/ (Betreiber; Zweitbeleg ausstehend).]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Recycling/Entsorgung
 - Adresse: Brieselang, Zum Wendehammer 7
 - Adressbeleg: aeris-gmbh.de [Website-Recherche 30.09.2026: Recyclinghof-Ankauf Alu/Kupfer/Kabel/Edelstahl/Messing, Container; Quelle: aeris-gmbh.de/impressum]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Recyclinghof-Ankauf Alu/Kupfer/Kabel/Edelstahl/Messing + Container spricht für trader_type schrotthaendler statt sonstige, aber Zweitbeleg für Typwechsel fehlt (nur Betreiber-Seite, kein Register-/Verbandsbeleg); kein Frontmatter-Fill, status bleibt pruefung; Quelle(n): https://aeris-gmbh.de (eine Quelle)]

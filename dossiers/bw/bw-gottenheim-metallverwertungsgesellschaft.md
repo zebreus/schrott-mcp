@@ -7,7 +7,7 @@ city: Gottenheim
 street: Buchheimer Str. 9-13
 postcode: '79288'
 phone: +49 7665 98001000
-email: ''
+email: empfang@mvgottenheim.com
 opening_hours: Spedition Mo-Do 7-15, Fr 7-12; Kleinanlieferer Mo-Fr 8-11:30; Büro
   Mo-Fr 8-17
 website: https://mvgottenheim.de/
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2812): Feedback berechtigt, eingearbeitet — Betreiber-Homepage + Impressum + Öffnungszeiten-Seite (je einzeln abgerufen 01.10.2026): 'Metallverwertungsgesellschaft mbH, Buchheimer Str. 9-13, 79288 Gottenheim, Tel. +49 7665 98001000, empfang@mvgottenheim.com (Site: empfang(at)mvgottenheim.com), GF Manfred Leber/Bernhard Hunn, HR 1734 AG Freiburg'. E-Mail übernommen (Operator + Register kongruent; Owner-Primärquelle qualifiziert: GmbH + HR + per-site Kontakt/Öffnungszeiten + aktuell). Adresse/Telefon/Hours im Dossier bereits korrekt (Site-Kongruenz 01.10.2026). Kein Namensvetter an Buchheimer Str. 9-13. website_status aktiv (live verifiziert). Quelle(n): mvgottenheim.de/ + /impressum/ + /kontakt/oeffnungszeiten/ (Betreiber-Primärquelle, HR-kongruent).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

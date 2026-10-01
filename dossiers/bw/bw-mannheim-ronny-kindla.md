@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-Triage ID 2809): Feedback sachlich zutreffend, aber NICHT eingearbeitet (nur Note) — Betreiber-Homepage (einzeln abgerufen 01.10.2026): Öffnungszeiten 'Mo-Fr 08:00-12:00/13:00-17:00, Sa 08:00-12:00', Selbstanlieferung 'Kommen Sie vorbei und laden Sie Ihren Abfall bei uns ab' (Kundentyp nicht genannt), 'Kindla e.K., Industriestraße 5, 68169 Mannheim, 0621/3247060, info@kindla.de, HRA 705894'. e.K. ohne HRB → keine Owner-Primärquellen-Ausnahme; Zweitbeleg fehlt (GelbeSeiten/Rhein-Neckar-Wiki nur Leads, kein Evidence) → hours/dropoff NICHT gefüllt (Einzelbeleg, unsicher; Werte hier dokumentiert). Adresse/Telefon/E-Mail im Dossier bereits korrekt. Selbstbeschreibung 'Recyclingfirma & Containerdienst' → Typ-Klärfall, keine Typ-Änderung ohne Zweitbeleg. Status bleibt pruefung. Quelle(n): recycling-mannheim.de/ (Betreiber; Zweitbeleg ausstehend).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (?)

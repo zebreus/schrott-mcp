@@ -40,3 +40,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Primärquelle verifiziert (Impressum Name+HRB+Ort): AK Containerdienst GmbH, GF Amalija Krämer, Carl-Zeiss-Straße 37, 63322 Rödermark, HRB 53757 AG Offenbach, Tel. 06074 6989881; Aschaffenburg/Alzenau liegt im eigenen Servicegebiet (Rhein-Main) — Sitz bleibt Rödermark, daher weiter kein Street/PLZ-Fill (City-Mismatch), nur Website-Fill; Schrott-Ankauf zum Tagespreis + Efb bestätigt; Quelle(n): https://ak-containerdienst.de/, https://ak-containerdienst.de/impressum/, Betreiber-Facebook (AKContainerdienst)]
+- [Recherche 01.10.2026 (Feedback 2870): unberechtigt für Fill — Sitz Rödermark (Hessen) re-verifiziert, Aschaffenburg/Alzenau bleibt Servicegebiet ohne Beleg für Sitz; Kontaktdaten bereits 30.09./01.10.2026 geklärt, kein Frontmatter-Fill; Quelle(n): siehe Vorbullet]

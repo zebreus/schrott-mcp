@@ -7,7 +7,7 @@ city: Deggendorf
 street: Hauptstr. 35
 postcode: '94469'
 phone: 0991 5916
-email: ''
+email: containerdienst-mirfanger@gmx.de
 opening_hours: Mo-Do 8-12 und 13-16, Fr 8-14
 website: http://www.containerdienst-deggendorf.de
 website_status: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Metall-/Schrotthandel, Container (Efb)
 - Adresse: Deggendorf (Hauptstr. 35)
 - Adressbeleg: http://www.containerdienst-deggendorf.de, https://www.containerdienst-deggendorf.de/impressum
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: berechtigt eingearbeitet — E-Mail containerdienst-mirfanger@gmx.de; Beleglage: mehrere Betreiber-Seiten + Impressum GmbH & Co. KG (starke Einzelquelle, mit Disclosure); Quelle(n): http://www.containerdienst-deggendorf.de + Impressum (Abruf 01.10.2026)]
