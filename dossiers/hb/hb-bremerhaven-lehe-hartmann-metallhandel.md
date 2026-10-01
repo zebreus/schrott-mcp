@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottplatz
 - Adresse: Bremerhaven-Lehe, Kiefernweg 60, 27578
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Belege nach Standard — nur Aggregator-Leads (schrottplatz-info.de, schrottplatz.org, übereinstimmend: Hartmann Metallhandel, Kiefernweg 60, 27578 Bremerhaven, Tel. (0174) 7 60 86 89, Sparte Metalle). Keine Betreiber-Website, kein Register-/Gewerberegister-Beleg; W. Hartmann & Co. GmbH (hartmann-metalle.de, Hamburg/Oststeinbek) ist anderes Unternehmen (Alu-Halbzeuge). Telefon NICHT übernommen. Status bleibt pruefung, Klärfall: Existenz unbestätigt; Quelle(n): Leads schrottplatz-info.de + schrottplatz.org (keine Belege).]

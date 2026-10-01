@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott + Demontage (GS)
 - Adresse: Wuppertal-Ostersbaum
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Treffer: kein Betrieb Jasari in Wuppertal-Ostersbaum auffindbar (Suchindex ohne Ergebnis); kein Frontmatter-Fill; Quelle(n): keine]

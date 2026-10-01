@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - An-/Verkauf, Edelmetall (Branche unklar)
 - Adresse: Nürnberg (Welserstr. 7)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Betreiber-Primärquelle live verifiziert, aber EINZELBELEG (kein 2. unabhängiger Beleg, Verzeichnisse nur Leads): Horski Edelmetalle, Inh. Frank Thein, Welserstr. 7, 90489 Nürnberg, Tel. 0911 553988, Fax 0911 534404, info@horski-edelmetalle.de, USt-ID DE233545220 (kein HRB, kein Register); Öffnungszeiten Betreiber: Mo-Do 09:30-13:00/14:30-17:30, Fr 09:30-13:00/14:30-16:00; kein Frontmatter-Fill; Quelle(n): https://www.horski-edelmetalle.de/impressum, https://www.horski-edelmetalle.de/kontakt]

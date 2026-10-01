@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall (GS)
 - Adresse: Rhein-Main 60311 (FFM-PLZ; Abgrenzung Westarp Aschaffenburg/BY)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL Fehlzuordnung — der belegte Betrieb "Rohstoffhandel BERNHARD WESTARP GmbH & Co. KG" sitzt in Aschaffenburg (Hafenrandstraße 5-6, 63741, AG Aschaffenburg HRA 466, Tel. 06021 8460-0; Belege: westarp-kg.de/impressum + bayernhafen.de-Firmenverzeichnis), Bayreuther Schwester Westarp Rohstoffhandel GmbH in Beckum (Ladestraße 11, 59269). KEIN Beleg für Standort/Aktivität in Frankfurt 60311; Betreiber-Standortseite nennt keine FFM-Niederlassung. Seed-Adresse "Rhein-Main 60311" ohne Straße nicht verifizierbar. NICHTS übernommen, kein Dedup nach Aschaffenburg (anderes Bundesland/Slug-Regime). Status bleibt pruefung, Klärfall: vermutlich Verwechslung mit Westarp Aschaffenburg; Quelle(n): westarp-kg.de/impressum + bayernhafen.de (Belege für Aschaffenburg, Gegenbeleg für FFM).]

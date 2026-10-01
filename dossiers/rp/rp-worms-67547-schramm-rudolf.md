@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Worms 67547
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEIN Betreiber-Beleg gefunden (keine Betreiber-Website, kein Social, kein Register-Treffer). Konsistente Aggregator-Leads (NUR Leads, keine Belege): Rudolf Schramm, Birkenweg 21, 67547 Worms, Tel. 06241 269850, Mobil 0172 6221038 (Das Örtliche, Gelbe Seiten, 11880, Cylex, meinestadt.de, schrottplatz-info.de). → KEINE Frontmatter-Füllung (2-Beleg-Standard). Klärfall: Betreiber-Quelle (Website/Social/Register) requires Folgewelle; Quelle(n): keine Beleg-Quelle]

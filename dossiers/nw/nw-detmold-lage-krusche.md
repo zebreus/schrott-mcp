@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Detmold/Lage
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Treffer: kein Schrott-/Metallbetrieb Krusche in Detmold/Lage auffindbar (Bing-Index nur Namensvetter: Outdoor-Shop Geiselhöring, Zahnarzt, Metallbearbeitung anderswo); kein Frontmatter-Fill; Quelle(n): keine]

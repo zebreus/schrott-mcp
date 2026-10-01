@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Silzweg 19, NEU
 - urspr. Website-Angabe: keine
 - Adresse: Hanhofen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEIN Betreiber-Beleg gefunden (keine Betreiber-Website, kein Social, kein Register-Treffer). Konsistente Aggregator-Leads (NUR Leads): „Iris und Richard Lehr“ / „Richard Lehr Schrotthandel“, Silzweg 19, 67374 Hanhofen, Tel. 06344 3793 (Cylex, firmania, Gelbe Seiten, 11880, meinestadt.de, Das Örtliche). Betreibername im Seed („Richard Lehr Hanhofen“, street-Feld redundant befüllt) bleibt unverändert (kein Korrekturbeleg). → KEINE Frontmatter-Füllung. Klärfall: Betreiber-Quelle requires Folgewelle; Quelle(n): keine Beleg-Quelle]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Backyard-Typ
 - urspr. Website-Angabe: keine (Markenstr. 54, 45899, 0209 57482)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Adress-Konflikt: Markenstr. 54 (Seed) vs. Nordsternstr. 27 (schrottplatz-info-Lead) vs. Laurentiusstr. 15c (Benjamin Lemke Abbruchdienst, ggf. Nachfolge/Verwandtschaft); Tel. 0209 57482 konsistent, aber nur Verzeichnis-Leads; Phone-Feld enthält Tippfehler-Klammer (0209 57482)) — ohne 2. Beleg nicht korrigiert; kein Frontmatter-Fill; Quelle(n): nur Leads — schrottplatz-info.de, schrottradar.de, schrottfinder.de, branchen-info.net]

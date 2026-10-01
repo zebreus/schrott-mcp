@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Klein-AV?
 - Adresse: Frankfurt 60388
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Belege — zu "Loew Alfred" Frankfurt 60388 (Bergen-Enkheim-PLZ) kein Schrott-/AV-Bezug auffindbar (keine Betreiber-Website, kein Register, keine Verzeichnis-Leads mit Branchenbezug). Seed-Angabe "Klein-AV?" bleibt unbelegt. NICHTS übernommen. Status bleibt pruefung (Misserfolg: keine Spur); Quelle(n): keine.]

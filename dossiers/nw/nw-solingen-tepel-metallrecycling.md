@@ -4,8 +4,8 @@ name: Tepel Metallrecycling GmbH
 trader_type: metallhaendler
 state: NW
 city: Solingen
-street: Hofgerichtsweg 36
-postcode: ''
+street: Hofgerichtsweg 34
+postcode: '42697'
 phone: ''
 email: ''
 opening_hours: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallgroßhandel (Hofgerichtsweg 36)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: bewiesene Korrektur Hausnummer 36 → 34 mit 2 Register-Belegen: Northdata (AG Wuppertal HRB 22224, Hofgerichtsweg 34, 42697 Solingen) + Creditreform (Hofgerichtsweg 34); Betreiber-Domain tepel-metallrecycling.de weder per https noch http erreichbar (tot vs. blockiert unklar) daher kein Website-Fill; Telefon nur Verzeichnis-Leads (0212 332091/332092) daher kein Phone-Fill; Quelle(n): https://www.northdata.de/Tepel-Metallrecycling-GmbH-Solingen-HRB-22224, Creditreform-Firmeneintrag 42697/5330267454]

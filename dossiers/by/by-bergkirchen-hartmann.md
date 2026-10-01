@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 85232)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Verzeichnis-Leads: Autoverwertung Hartmann (Fritz & Cornelia Hartmann Schrotthandlung), Himmelreichstr. 23/23 A, 85232 Bergkirchen, Tel. 08131 72159, info@autoverwertung-hartmann.de; Domain autoverwertung-hartmann.de tot (https Transportfehler, http 404); kein Register/HR gefunden; kein Frontmatter-Fill; Quelle(n): nur Leads — sellwerk.de, schrottplatz-info.de, branchen-info.net, dasoertliche.de]

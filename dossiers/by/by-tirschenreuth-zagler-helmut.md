@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall/Container/Neueisen
 - Adresse: Tirschenreuth
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Adress-/Telefon-Konflikt, keine 2 kongruenten Belege: Helmut Zagler Altmaterialien/Neueisen/Transporte e.K., HRA1415 (Cylex-Lead: Falkenberger Str. 18) vs. Creditreform/Creditsafe (Falkenberger Str. 6-8) vs. schrottplatz-info (Falkenberger Str. 8); Tel. 09631 1295 vs. 09631 1294; kein Frontmatter-Fill; Quelle(n): nur Leads/Register-Snippets — creditreform.de, creditsafe.com, cylex.de, gelbeseiten.de]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Trier 54294
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEIN Betreiber-Beleg gefunden (keine Betreiber-Website, kein Social, kein Register-Treffer). Aggregator-Leads (NUR Leads): „Wenner David Schrott & Metallrecycling“, Im Schammat 60, 54294 Trier-Süd (Das Örtliche, Gelbe Seiten, meinestadt.de). ACHTUNG Namens-/Adress-Konflikt: kleinanzeigen.de-Inserat „Schrott & Metallrecycling“ nennt Dennis (nicht David) Wenner, Charles-Mannay-Str. 50, 54294 Trier, Metallrecycling-Wenner@web.de, +49 176 43561675 (Kleinanzeigen = Lead, kein Beleg) → Identität/Adresse ungeklärt. → KEINE Frontmatter-Füllung. Klärfall: Betreiber-Quelle + Identitätsklärung requires Folgewelle; Quelle(n): keine Beleg-Quelle]

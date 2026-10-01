@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott (eigene Adresse ≠ Dymke — separater Eintrag)
 - Adresse: Lauchhammer, Bockwitzer Str. 97
 - Adressbeleg: Seed-notes (Verzeichnis); PLZ Orts-PLZ
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Belege — zu "WSH Schrotthandel, Bockwitzer Str. 97, 01979 Lauchhammer" kein Betreiber-/Register-Beleg gefunden; einziger WSH-Treffer im Schrottkontext ist Westpfälzische Schrotthandels GmbH Kindsbach (wsh-recycling.de, Kaiserstr. 168, 66862 Kindsbach — anderes Unternehmen, keine Lauchhammer-Filiale belegt). Verwechslungsrisiko beachten. NICHTS übernommen. Status bleibt pruefung, Klärfall: Existenz unbestätigt; Quelle(n): keine (Gegenbeleg wsh-recycling.de für Kindsbach).]

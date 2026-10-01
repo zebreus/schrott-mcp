@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottplatz
 - Adresse: Bremerhaven, Blumenstr. 2, 27580
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Belege nach Standard — nur Aggregator-Leads (schrottplatz-info.de, schrottplatz.org, misterwhat.de, übereinstimmend: Neumann Schrotthandel, Blumenstr. 2, 27580 Bremerhaven, Tel. (0471) 4 81 83 60). Keine Betreiber-Website, kein Register-/Gewerberegister-Beleg gefunden; Verwechslungsrisiko mit Bruno Neumann Schrott- und Metall-GmbH (Niedersachsen) beachten. Telefon NICHT übernommen. Status bleibt pruefung, Klärfall: Existenz unbestätigt; Quelle(n): Leads schrottplatz-info.de + schrottplatz.org (keine Belege).]

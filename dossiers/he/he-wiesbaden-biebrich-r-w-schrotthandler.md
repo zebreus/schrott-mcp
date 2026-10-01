@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Belege nach Standard — nur Aggregator-Leads (dastelefonbuch.de + dasoertliche.de, übereinstimmend: R&W Schrotthändler, Im Mühltal 12, 65187 Wiesbaden-Biebrich, Tel. 0178 2945870). Keine Betreiber-Website, kein Register-/Gewerberegister-Beleg gefunden. Straße/PLZ/Telefon daher NICHT übernommen. Status bleibt pruefung, Klärfall: mobiler Kleinsthändler, Existenz nur via Verzeichnisse; Quelle(n): Leads dastelefonbuch.de + dasoertliche.de (keine Belege).]

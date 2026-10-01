@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Bad Soden-Salmünster 63628 [Website-Recherche verzeichnis: services: Altmetallhandel; notes: 11880-Verzeichnis (Michael Alois Seipel Altmetallhandel).]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEIN Zweitbeleg — einziger Anhalt bleibt 11880-Verzeichnis (Michael Alois Seipel Altmetallhandel; Aggregator = Lead). Namensvetter Seipel GmbH Wölfersheim (HRB 7894 Friedberg, seipel-recycling.de) ist anderes Unternehmen. Keine Betreiber-Website, kein Register-/Gewerberegister-Beleg zu Hufeisenstr. 3 / (06056) 2390 gefunden (Seed-Angaben daher weiter unbelegt, Felder bleiben wie gesetzt). Status bleibt pruefung, Klärfall: Kleinsthändler-Existenz unbestätigt; Quelle(n): Lead 11880.com (kein Beleg).]

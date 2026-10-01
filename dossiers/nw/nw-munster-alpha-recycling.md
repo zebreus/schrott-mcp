@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Münster
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — 1 Verzeichnis-Lead + Betreiber-Social ohne Adresskongruenz: Alpha-Recycling, Im Moorhock 63, 48159 Münster, Tel. 0171 4069639, Domain-Angabe recycling-alpha.de (Lead, Abruf nur Bilddaten ohne verwertbaren Inhalt); Instagram @alpha_recycling (Betreiber-Social, Metallrecycling/Containerdienst Münster) bestätigt Identität, aber keine Adresse; kein 2. Adress-Beleg; kein Frontmatter-Fill; Quelle(n): Lead gelbeseiten.de + Betreiber-Instagram]

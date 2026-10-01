@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (lt. schrottplatz-info)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Belege nach Standard — nur Aggregator-Leads (schrottplatz-info.de, schrottplatz.org: Autoverwertung Dannehl U., Otto-Spielmann-Str. 5, 38820 Halberstadt, Tel. (03941) 60 08 20). Keine Betreiber-Website, kein Register-/Gewerberegister-Beleg gefunden; Gelbe-Seiten-Treffer Halberstadt ohne Dannehl-Eintrag. Straße/PLZ/Telefon daher NICHT übernommen. Status bleibt pruefung, Klärfall: Existenz unbestätigt; Quelle(n): Leads schrottplatz-info.de + schrottplatz.org (keine Belege).]

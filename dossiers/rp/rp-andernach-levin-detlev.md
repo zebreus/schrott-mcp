@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Andernach
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEIN Betreiber-Beleg gefunden (keine Betreiber-Website — Domain detlevlevin.de löst nicht auf (DNS-Fail); kein Social, kein Register-Treffer). Konsistente Aggregator-Leads (NUR Leads): „Mobiler Schrotthandel und Entrümpelungen Detlev Levin“ / „Schrott- und Gebrauchtwagenhandel“, Beckstr. 5–7, 56626 Andernach, Tel. 02632 491401, info@detlevlevin.de (meinestadt.de, Cybo, räumungsfinder, deutschebusiness). → KEINE Frontmatter-Füllung. Klärfall: Betreiber-Quelle (ggf. archivierte detlevlevin.de via Wayback) requires Folgewelle; Quelle(n): keine Beleg-Quelle]

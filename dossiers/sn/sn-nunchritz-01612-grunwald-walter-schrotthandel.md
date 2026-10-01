@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Nünchritz 01612, Müllerstr. 8
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEIN Betreiber-Beleg gefunden (keine Betreiber-Website, kein Social, kein Register-Treffer). Konsistente Aggregator-Leads (NUR Leads): „Grunwald Schrotthandel Walter“, Müllerstr. 8, 01612 Nünchritz, Tel. 035265 79486 (Das Örtliche, Gelbe Seiten, schrottplatz-info, Tupalo). → KEINE Frontmatter-Füllung. Klärfall: Betreiber-Quelle requires Folgewelle; Quelle(n): keine Beleg-Quelle]

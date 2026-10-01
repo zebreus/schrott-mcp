@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Würselen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Verzeichnis-Leads: Schrotthandel A. Schäfer, Südstr. 99, 52146 Würselen, Tel. 02405 82414, Großhandel mit Schrott + Containerdienst; kein Betreiber, kein Register; kein Frontmatter-Fill; Quelle(n): nur Leads — cylex.de, 11880.com, firmencheck.eu]

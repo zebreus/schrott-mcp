@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - 0162-Nr., ohne Adresse
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — kein Treffer: kein Betreiber, keine Adresse, kein Register zu Schrotthändler Traut Essen gefunden (nur generische Essener Schrott-Verzeichnisse); kein Frontmatter-Fill; Quelle(n): keine]
