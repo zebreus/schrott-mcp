@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoankauf
 - Adresse: Koblenz 56068
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata-Suche nach Autoankauf/Koblenz ohne Registertreffer; generischer Name, keine Betreiber-Website zuordenbar (Verwechslungsgefahr mit diversen Autoankauf-Portalen); Quelle(n): keine. Frontmatter bleibt leer (Klärfall: Identität per Gewerberegister klären, Auto-only-Verdacht weiter prüfen).]

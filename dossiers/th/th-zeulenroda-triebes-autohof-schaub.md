@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV Demontagebetrieb
 - Adresse: Zeulenroda-Triebes
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Handelsregister-Treffer (Northdata: kein Schaub-Eintrag Zeulenroda), keine Betreiber-Website auffindbar (Suchen von generischen Autohof-Portalen überlagert); nur Verzeichnis-Leads → keine Frontmatter-Fills; Einordnung als Demontagebetrieb/AV weiter unbelegt; Klärfall bleibt, Status pruefung]

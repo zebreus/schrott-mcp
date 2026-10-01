@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV
 - Adresse: Mildenau 09456, Steinbacher Str. 1
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL — teucher-autoverwertung.de tot, nur Aggregator-Leads (Steinbacher Str. 1, Tel. 037343 7377), kein zweiter unabhängiger Beleg — kein Fill; Quelle(n): Verzeichnis-Leads]

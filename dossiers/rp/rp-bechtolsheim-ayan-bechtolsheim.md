@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Gau-Odernheimer Str. 1, Clan
 - urspr. Website-Angabe: keine
 - Adresse: Bechtolsheim
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne Registertreffer; Seed-Notiz Gau-Odernheimer Str. 1 (Clan?) unbestätigt und nicht in Frontmatter übernommen (Einzel-Lead, kein Beleg); keine Betreiber-Website; Quelle(n): keine. Frontmatter bleibt leer (Klärfall: Straßen-/Ortszuordnung Bechtolsheim vs. Gau-Odernheim per Gewerberegister klären).]

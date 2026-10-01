@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg, gamma.site)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: EINZELBELEG (unsicher) — Betreiber-Seite nennt Allerfeldstr. 13 (Dossier: 11!), 31832 Bennigsen, Tel. 0172/3553573, Mo–Fr 10–16; Adress-Diskrepanz 11 vs 13 ungeklärt — kein Fill; Quelle(n): bennigsen-schrotthandel-kovsofe.gamma.site]

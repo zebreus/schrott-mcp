@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - FE/NE, Abholung, RFA-Analyse
 - Größe: groß
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL — tsr-recycling.de blockiert (website_status=blockiert bleibt); Standorte MA Lagerstr. 25 / HN Benzstr. nur Aggregator-Leads, kein zweiter unabhängiger Beleg — kein Fill; Quelle(n): Verzeichnis-Leads]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Rheda-Wiedenbrück
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Handelsregister-Treffer Heinrich Franzkoch GmbH & Co. KG, Zum Sägewerk 153, 33378 Rheda-Wiedenbrück, AG Gütersloh HRA 5364, Eintragung 1996 (Northdata-Spiegel, Einzelbeleg); Domain franzkoch.de leitet auf DHS GmbH (dhs-metallwert.de, Demontage-Fachbetrieb, Impressum HRB 7116 AG Gütersloh, identische Anschrift Zum Sägewerk 153) um — mögliche Betriebsnachfolge, aber firmenverschieden und unbelegt; DHS-Altmetallankauf gilt nur für Behälter/Tanks, nicht als Franzkoch-Beleg; keine Frontmatter-Fills, Klärfall; Status bleibt pruefung; Quellen: northdata.de HRA 5364, dhs-metallwert.de/ + /impressum/]

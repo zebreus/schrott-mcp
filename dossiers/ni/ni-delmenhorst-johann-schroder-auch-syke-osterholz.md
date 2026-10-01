@@ -4,13 +4,13 @@ name: Johann Schröder GmbH (auch Syke/Osterholz)
 trader_type: schrotthaendler
 state: NI
 city: Delmenhorst
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+street: 'Adelheider Str. 96'
+postcode: '27755'
+phone: '04221 15597-7'
+email: 'info@johann-schroeder.de'
+opening_hours: 'Mo–Fr 07:00–16:30, Sa 08:00–12:00'
+website: https://www.johann-schroeder.de/
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum Johann Schröder GmbH, Adelheider Str. 96, 27755 Delmenhorst, HRB 140143 AG Oldenburg, Tel. 04221 15597-7 — HR-kongruent via Northdata HRB 140143; Recyclinghof nimmt u. a. Altmetall an, Öffnungszeiten Mo–Fr 07:00–16:30/Sa 08:00–12:00; KLÄRFALL: kein klassischer Schrott-Ankauf, „Syke/Osterholz“-Zweigstellen unbelegt; Quelle(n): https://www.johann-schroeder.de/impressum/ + https://www.johann-schroeder.de/recyclinghof/ + Northdata HRB 140143]

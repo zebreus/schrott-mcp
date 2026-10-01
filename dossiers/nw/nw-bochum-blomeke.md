@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Hinterhof-Typ (GS)
 - Adresse: Bochum
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Handelsregister-Firmentreffer (Northdata: nur Personen-Treffer Blömeke, keine Bochumer Firma), keine Betreiber-Website auffindbar; nur Verzeichnis-Leads → keine Frontmatter-Fills; Hinterhof-Typ unbelegt; Klärfall bleibt, Status pruefung]

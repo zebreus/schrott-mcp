@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - evtl. Abholservice
 - Adresse: Reichelsheim 61203
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata-Suche nach Schneider Wolfgang/Reichelsheim ohne Registertreffer; keine Betreiber-Website auffindbar; websearch-Backend lieferte keine Ergebnisse; Quelle(n): keine (nur Seed-Verzeichnis). Frontmatter bleibt leer (Klärfall: Existenz/Adresse per Gewerberegister oder zweiter Quelle verifizieren).]

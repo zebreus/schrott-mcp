@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS, mobil-Typ)
 - Adresse: Arnsberg
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Handelsregister-Treffer (Northdata: kein Toufaily-Eintrag Arnsberg), keine Betreiber-Website auffindbar; nur Verzeichnis-Leads → keine Frontmatter-Fills; Klärfall bleibt, Status pruefung]

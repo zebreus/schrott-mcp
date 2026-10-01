@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metall-/Wertstoffannahme im Entsorgungskontext
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Handelsregister bestätigt BESTSORT HAMBURG GmbH & Co. KG, Liebigstr. 64, 22113 Hamburg, HRA 103285 (Northdata-Spiegel, Einzelbeleg — weicht von Dossier-Straße „Liebigstr. 52/64" ab → kein Überschreiben, Diskrepanz-Vermerk); Betreibergruppen-Website buhck-gruppe.de (Vollabruf Entsorgungsanlagen-Seite) bestätigt Bestsort als Tochterunternehmen, Standort Hamburg-Billbrook, ~65.000 t Gewerbeabfall/Sperrmüll p.a. — kein öffentlicher Schrottankauf erkennbar (stützt „Ankauf unklar"); PLZ nur HR-Einzelbeleg → Feld bleibt leer; Status bleibt pruefung; Quellen: northdata.de HRA 103285, buhck-gruppe.de/dienstleistungen/entsorgung-recycling/entsorgungsanlagen]

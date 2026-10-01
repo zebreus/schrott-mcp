@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottrecycling, Demontage, Entrümpelung
 - Größe: klein/mobil
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-Leads (Rohrlachstr. 34, 68239 Mannheim, Tel. 0621 4366433 / 0176 63217148), kein zweiter unabhängiger Beleg, keine Betreiber-Website — kein Fill; Quelle(n): Verzeichnis-Leads]

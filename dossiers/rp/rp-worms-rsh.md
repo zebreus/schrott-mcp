@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott vermutet
 - Adresse: Worms
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Kürzel-Name RSH mehrdeutig, Northdata ohne Treffer; keine Betreiber-Website zuordenbar; Quelle(n): keine. Frontmatter bleibt leer (Klärfall: Langname/Identität klären).]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Limburgerhof
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne passenden Treffer (nur namensferne Limburgerhof-Firma); keine Betreiber-Website zuordenbar (Name Breyer mehrdeutig); Quelle(n): keine. Frontmatter bleibt leer (Klärfall).]

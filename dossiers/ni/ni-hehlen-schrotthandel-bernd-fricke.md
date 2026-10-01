@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-Leads (Hauptstr. 42, 37619 Hehlen, Tel. 05533 3254); Verzeichnisse listen unter dieser Adresse teils Antiquitäten statt Schrotthandel — Identität/Ankauf ungeklärt, kein zweiter Beleg — kein Fill; Quelle(n): Verzeichnis-Leads]

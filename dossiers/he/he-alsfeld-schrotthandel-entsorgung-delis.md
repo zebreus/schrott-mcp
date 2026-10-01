@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis) [Website-Recherche verzeichnis: services: Schrotthandel, Entsorgung; notes: Gelbe Seiten (Delis Marco Schrotthändler). 11880 listet dieselbe Firma (identische Rufnummer 0172/4350212) abweichend unter Bürgermeister-Haas-Str. 18 – Adresse ggf. veraltet/umgezogen.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Zweitbeleg — Northdata ohne Registertreffer (Einzelunternehmen plausibel); keine Betreiber-Website auffindbar; Adresskonflikt Soldanstr. 8 vs Bürgermeister-Haas-Str. 18 weiter ungelöst (beide nur Verzeichnis-Leads, keine Belege); Quelle(n): keine neue. Bestehende Felder unverändert (Klärfall: aktuelle Betriebsadresse per Gewerberegister klären).]

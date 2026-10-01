@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Schwaikheim
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-Leads (Heinkelstr. 4, 71409 Schwaikheim, Tel. 07195 51565), kein zweiter unabhängiger Beleg, keine Betreiber-Website — kein Fill; Quelle(n): Verzeichnis-Leads]

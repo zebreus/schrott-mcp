@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - HRB 19684 AG Münster, aktiv (Gründung 2021); WEEE (= E-Schrott) + PM (= Edelmetalle) im Namen, Branchen Großhandel/Unternehmensberatung — E-Schrott-Indiz, kein Ankaufbeleg
 - Adresse: Münster, Parkallee 40, 48155
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Handelsregister bestätigt Weee & Pm rec Management GmbH, Parkallee 40, 48155 Münster, AG Münster HRB 19684; Gegenstand: „Recycling von Schrott, insbesondere Rückgewinnung von Metallen" — Schrottbezug damit HR-belegt (Einzelbeleg, Northdata-Spiegel); keine Betreiber-Website auffindbar (Kandidaten-Domains weee-pm.de/weeepm.de/pm-rec.de lösen nicht auf); bestehende Adressfelder unverändert (HR-kongruent), kein Ankaufnachweis für Publikums-Schrottankauf → Status bleibt pruefung; Quelle: northdata.de HRB 19684]

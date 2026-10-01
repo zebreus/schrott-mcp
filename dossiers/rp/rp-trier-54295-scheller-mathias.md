@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Trier 54295
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne Registertreffer; keine Betreiber-Website zuordenbar; Quelle(n): keine. Frontmatter bleibt leer (Klärfall).]

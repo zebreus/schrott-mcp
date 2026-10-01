@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entrümpelung/Schrott?
 - Adresse: Dresden 01097, Hechtstr. 60
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-/Portal-Snippets (Hechtstr. 60, 01097 Dresden, Tel. 0172 3520620), kein zweiter unabhängiger Beleg, keine Betreiber-Website — kein Fill; Quelle(n): Verzeichnis-Leads]

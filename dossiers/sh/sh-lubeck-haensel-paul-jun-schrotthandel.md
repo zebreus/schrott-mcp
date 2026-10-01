@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Zweitbeleg — Northdata ohne Registertreffer (Kleinhändler plausibel); keine Betreiber-Website auffindbar; Gelbe-Seiten-Lead = kein Beleg; Quelle(n): keine neue. Status bleibt pruefung (Klärfall bestätigt, Folgewelle: Gewerberegister Lübeck).]

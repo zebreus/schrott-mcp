@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne passenden Treffer; plausible Domains schrotthandel-freigericht.de (mit/ohne www) nicht registriert (NXDOMAIN); Vorbefund website_status tot unbelegt (kein Beleg für geteste URL im Dossier); Quelle(n): keine. Status pruefung und website_status tot unverändert (Klärfall: Re-Test dokumentieren oder Beleg nachliefern).]

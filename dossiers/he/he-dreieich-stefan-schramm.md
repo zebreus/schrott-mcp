@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata-Suche nach Stefan Schramm/Dreieich ohne passenden Registertreffer (nur namensferne Treffer); keine Betreiber-Website auffindbar; Quelle(n): keine (nur Seed-Verzeichnis). Frontmatter bleibt leer (Klärfall).]

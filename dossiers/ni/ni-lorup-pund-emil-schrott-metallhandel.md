@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-Leads (Am Funkturm 20, 26901 Lorup) plus Creditreform-Snippet ohne verifizierbare Betreiber-Seite (403), kein zweiter unabhängiger Beleg — kein Fill; Quelle(n): Verzeichnis-Leads]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinplatz; NICHT Billbrooker 1A-Autoverwertung)
 - Adresse: Lohbrügge, Korachstr. 7, 21031
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Handelsregister-Treffer (nur ortsfremde 1A-Firmen), keine Betreiber-Website auffindbar (Kandidaten-Domain 1a-schrotthandel.de löst nicht auf); Adresse nur Verzeichnis-Einzelbeleg → keine Frontmatter-Fills; Abgrenzung zum Billbrooker 1A-Autoverwerter weiter unbelegt; Klärfall bleibt, Status pruefung]

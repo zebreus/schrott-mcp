@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, Ankauf fraglich (GS)
 - Adresse: Gevelsberg
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Handelsregister-Treffer, keine Betreiber-Website auffindbar (Suchen von generischen Treffern überlagert); nur Verzeichnis-Leads → keine Frontmatter-Fills; Klärfall bleibt, Status pruefung]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling?
 - Adresse: Zella-Mehlis
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Handelsregister-Treffer (Northdata: keine TAS-Recycling-Firma in Zella-Mehlis; Treffer nur namensgleiche Fremdbranchen), keine Betreiber-Website auffindbar (Kandidaten-Domain tas-recycling.de löst nicht auf); nur Verzeichnis-Leads → keine Frontmatter-Fills; Klärfall bleibt, Status pruefung]

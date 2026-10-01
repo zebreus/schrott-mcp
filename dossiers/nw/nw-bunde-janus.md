@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Bünde [Recherche 30.09.2026: Verzeichnis-Fund via Gelbe Seiten, Straße bestätigt (ohne PLZ im Fund); Quelle: gelbeseiten.de/suche/janus/buende]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Handelsregister-Treffer (Northdata: keine Firma Janus/Schrott in Bünde), keine Betreiber-Website auffindbar; Mindener Str. 74 nur per Verzeichnis-Lead (Gelbe Seiten) belegt → keine Frontmatter-Fills (PLZ/phone/mail/website weiter leer); Typ mobiler Sammler plausibel, unbelegt; Klärfall bleibt, Status pruefung]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kabel/Buntmetall
 - Adresse: Freyburg (Adresse fehlt; ≠ H&S Freyburg Am Gewerbepark 24 – separater Betrieb, Identität prüfen)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne passenden Treffer; plausible Domain freyburger-kabelrecycling.de nicht registriert (NXDOMAIN); Abgrenzung zu H&S Freyburg (Am Gewerbepark 24) weiter offen; Quelle(n): keine. Frontmatter bleibt leer (Klärfall: Verwechslungsgefahr, Identität per Gewerberegister klären).]

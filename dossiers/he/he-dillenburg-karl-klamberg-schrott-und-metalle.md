@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinhändler (Verzeichnis) [Website-Recherche verzeichnis: services: Metallrecycling, Schrott und Metalle; notes: Gelbe Seiten und 11880 übereinstimmend (Klamberg Karl e.K. Metallrecycling; keine Hausnummer im Verzeichnis).]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Zweitbeleg — Northdata-Suche nach Karl Klamberg/Dillenburg ohne Registertreffer (e.K. ohne HRB-Eintrag plausibel, Einzelunternehmen: Owner-Ausnahme greift nicht); keine Betreiber-Website auffindbar; Verzeichnis-Leads (Gelbe Seiten/11880) zählen nicht als Belege; Quelle(n): keine neue. Bestehende Felder (street Im Höfchen ohne Hausnummer, PLZ, phone) unverändert — Hausnummer/Öffnungszeiten weiter Klärfall.]

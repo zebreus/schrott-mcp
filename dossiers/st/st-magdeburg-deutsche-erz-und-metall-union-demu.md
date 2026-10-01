@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallhandel (lt. schrottradar-Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne Treffer für Deutsche Erz- und Metall-Union GmbH/Magdeburg (nur namensferne Firmen); Aggregator schrottradar = Lead, kein Beleg; keine Betreiber-Website; Quelle(n): keine. Bestehende street-Angabe Saalestr. 20 unverändert (Herkunft Verzeichnis, kein Zweitbeleg — Klärfall).]

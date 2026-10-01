@@ -4,13 +4,13 @@ name: FORBERGER Entsorgungsgesellschaft mbH
 trader_type: sonstige
 state: SN
 city: Niederau 01689
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: 'Radeburger Str. 34'
+postcode: '01689'
+phone: '03521 71 95 71'
+email: 'info@forbergerentsorgung.de'
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://forbergerentsorgung.de/
+website_status: 'aktiv'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorgung/Container
 - Adresse: Niederau 01689
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum FORBERGER Entsorgungsgesellschaft mbH, Radeburger Str. 34, OT Gröbern, 01689 Niederau, HRB 22123 AG Dresden, Tel. 03521 71 95 71, info@forbergerentsorgung.de — HR-kongruent via Northdata HRB 22123 (Adresse/Gegenstand Entsorgung kongruent); keine Öffnungszeiten auf Betreiber-Seite; Quelle(n): https://forbergerentsorgung.de/impressum.html + Northdata HRB 22123]

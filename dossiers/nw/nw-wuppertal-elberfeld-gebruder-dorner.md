@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Güterbahnhof Mirke 1, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Handelsregister-Treffer Gebrüder Dörner GmbH & Co. KG, Wuppertal, AG Wuppertal HRA 9964, Status erloschen (Northdata-Spiegel, Einzelbeleg); keine Betreiber-Website auffindbar (Suchtreffer nur Verzeichnis-Profile: schrottradar/schrottplatz-info u.ä. = Leads, keine Belege); Güterbahnhof Mirke 1 nur per Aggregator belegt → keine Frontmatter-Fills; Status bleibt pruefung; Quelle: northdata.de-Sucheintrag HRA 9964]

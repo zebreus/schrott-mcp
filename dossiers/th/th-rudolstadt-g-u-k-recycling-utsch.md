@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling (nur Verzeichnis-Eintrag + Review); KEIN Seed-Dup (th.json enthaelt kein Utsch)
 - Adresse: Rudolstadt
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Handelsregister-Treffer (Northdata: keine Utsch-Firma in Rudolstadt; Treffer nur Kennzeichen-Hersteller Erich Utsch Siegen u.ä.), keine Betreiber-Website auffindbar; nur Verzeichnis-/Review-Leads → keine Frontmatter-Fills; Klärfall bleibt, Status pruefung]

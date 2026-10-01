@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 86720)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KLÄRFALL — kein Betreiber-/Registerbeleg auffindbar (nur Homonyme), kein zweiter unabhängiger Beleg — kein Fill; Quelle(n): keine verifizierbar]

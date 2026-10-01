@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (lt. schrottplatz-info)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne Treffer; Aggregator schrottplatz-info = Lead, kein Beleg; plausible Domain sero-hase.de nicht registriert (NXDOMAIN; sero.com gehört zum SERO-System, keine Hase-Zuordnung); Quelle(n): keine. Frontmatter bleibt leer (Klärfall).]
