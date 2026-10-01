@@ -9,9 +9,9 @@ postcode: ''
 phone: 03976 202392
 email: ''
 opening_hours: ''
-website: https://nord.alba.info/
-website_status: ''
-status: aktiv
+website: https://metall.alba.info/unternehmen/standorte/
+website_status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Cu/Alu/Edelstahl/Messing/Zinn+Zink/Blei, Container, Metallschrott-Annahme
+
+### Korrektur 01.10.2026 (ALBA-Fix)
+
+- Delisted-Protokoll: Torgelow steht NICHT auf der aktuellen Betreiber-Standortliste (Vollcrawl 01.10.2026: metall.alba.info = 13 Detailseiten ohne Torgelow; alba.info/standorte ohne Treffer). Ältere Liste hatte 17 Treffer inkl. Torgelow.
+- Betreiber-Suche/Register/News ohne Schließungs-/Verlagerungsbeleg → kein status geschlossen, Dossier bleibt erhalten; status aktiv → pruefung + Klärfall: Filial-Existenz und Leistungsbeleg (Tel. 03976 202392 aus Seed — bislang ohne Betreiber-Beleg) offen.
+- website korrigiert: nord.alba.info war falsch (das ist die Entsorger-Schwester ALBA Nord GmbH) → Domain-Root metall.alba.info (aktiv, Impressum via alba.info); keine Detailseite.

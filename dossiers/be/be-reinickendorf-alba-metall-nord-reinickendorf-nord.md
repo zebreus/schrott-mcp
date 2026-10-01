@@ -4,14 +4,14 @@ name: ALBA Metall Nord (Reinickendorf-Nord)
 trader_type: sonstige
 state: BE
 city: Reinickendorf
-street: Reinickendorf, Rödernallee 184
+street: Rödernallee 184
 postcode: '13407'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
 website: https://metall.alba.info
-website_status: ''
-status: aktiv
+website_status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -35,3 +35,13 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Reinickendorf, Rödernallee 184, 13407 Berlin
 - Bezirk: Reinickendorf Adressbeleg: seed/be.json (https://metall.alba.info)
 - Adressbeleg: https://metall.alba.info
+
+### Korrektur 01.10.2026 (ALBA-Fix)
+
+- Delisted-Protokoll: Reinickendorf-Nord (Rödernallee) steht auf KEINER aktuellen Betreiber-Liste (Vollcrawl 01.10.2026: metall.alba.info = 13 Detailseiten; alba.info/standorte: ALBA Berlin GmbH führt nur „Annahmestelle Reinickendorf, Flottenstr. 7-9“ — andere Adresse, siehe be-reinickendorf-lichtenberg-alba-berlin-zentrale-lichtenberg).
+- Betreiber-Suche/Register/News ohne Schließungs-/Verlagerungsbeleg → kein status geschlossen, Dossier bleibt erhalten; status aktiv → pruefung + Klärfall: Filial-Existenz Rödernallee 184 weiter ohne Betreiber-Beleg.
+- street normalisiert; website = Domain-Root (aktiv) ohne Detailseite.
+
+### Korrektur 01.10.2026 (Owner-Gate)
+
+- [Owner-Gate 01.10.2026: Gedankenstrich-Datenmüll → leer (Shard hat Street bereinigt, Phone übersehen).]

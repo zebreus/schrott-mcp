@@ -10,8 +10,8 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://metall.alba.info/unternehmen/standorte/
-website_status: ''
-status: aktiv
+website_status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahl/NE, Container (lt. schrottplaetze.org)
+
+### Korrektur 01.10.2026 (ALBA-Fix)
+
+- Delisted-Protokoll: Stralsund steht NICHT auf der aktuellen Betreiber-Standortliste (Vollcrawl 01.10.2026: metall.alba.info = 13 Detailseiten ohne Stralsund; alba.info/standorte ohne Treffer). Ältere Liste hatte 17 Treffer inkl. Stralsund.
+- Betreiber-Suche/Register/News ohne Schließungs-/Verlagerungsbeleg → kein status geschlossen, Dossier bleibt erhalten; status aktiv → pruefung + Klärfall: Filial-Existenz und Adressbeleg (Dähnholmstr. 13 — bislang nur Aggregator-Lead schrottplaetze.org, kein Betreiber-Beleg) offen.
+- website = Domain-Root (aktiv, Impressum via alba.info); keine Detailseite.

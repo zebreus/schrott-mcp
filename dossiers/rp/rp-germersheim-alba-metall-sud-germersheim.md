@@ -4,10 +4,10 @@ name: ALBA Metall Süd Germersheim
 trader_type: sonstige
 state: RP
 city: Germersheim
-street: ''
-postcode: ''
+street: 'Im Weidenschlag 1'
+postcode: '76726'
 phone: ''
-email: ''
+email: 'info@albagroup.de'
 opening_hours: ''
 website: ''
 website_status: ''
@@ -34,3 +34,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Im Weidenschlag 1
 - urspr. Website-Angabe: keine
 - Adresse: Germersheim
+
+### Korrektur 01.10.2026 (ALBA-Fix, Aggregator-Stand — kein Betreiber-Detailbeleg)
+
+- KEINE eigene Betreiber-Detailseite gefunden: metall.alba.info listet für ALBA Metall Süd nur Stuttgart; Konzern-Übersicht alba.info/standorte ohne Germersheim. Daher website leer, status bleibt pruefung.
+- Filial-Fakten nur Aggregator-Mehrfachbeleg (per Hierarchie KEIN Beleg, auch nicht mehrfach) → Owner-Gate: Name/Phone-Fills revertiert (Werte hier dokumentiert: Betrieb Germersheim, Im Weidenschlag 1, 76726 Germersheim, Tel. 07274/2757), website leer, pruefung bleibt.
+- Quellen (Leads, keine Betreiberquellen): cylex.de, firmania.de, schrottfinder.de, schrottradar.de, ortsdienst.de, schrottplatz.org — alle einhellig Adresse + Telefon.

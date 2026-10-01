@@ -1,17 +1,17 @@
 ---
 slug: st-tangerhutte-ot-demker-alba-niedersachsen-anhalt
-name: ALBA Niedersachsen-Anhalt GmbH
+name: ALBA Niedersachsen-Anhalt GmbH, Standort Demker
 trader_type: schrotthaendler
 state: ST
 city: Tangerhütte OT Demker
-street: ''
-postcode: ''
-phone: 039365/941918
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
+street: 'Am Bahnhof'
+postcode: '39517'
+phone: '+49 39365 9419 0'
+email: 'altmark@alba.info'
+opening_hours: 'Mo.–Fr. 07:00–16:30 Uhr'
+website: https://nisa.alba.info
+website_status: 'aktiv'
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Betriebshof (lt. schrottradar)
+
+### Korrektur 01.10.2026 (ALBA-Fix)
+
+- Betreiber-Fakten verifiziert per Detailseite nisa.alba.info: Standort Demker, Am Bahnhof, 39517 Tangerhütte, +49 39365 9419 0, altmark@alba.info, Mo.–Fr. 07:00–16:30 Uhr (Grünschnitt-/Kompostplatz Mo.–Fr. 08:00–15:00, Anmeldung an der Waage). Frontmatter befüllt, status aktiv, website nisa.alba.info aktiv.
+- Quelle: https://nisa.alba.info/unternehmen/standorte/detail/standort-demker/ (+ Konzern-Übersicht https://www.alba.info/standorte).

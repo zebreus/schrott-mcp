@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Registerkette)
 
 - [Recherche 01.10.2026: Registerkette per Northdata — INTERSEROH Metallaufbereitung Ost GmbH (Werkstr. 1, 18069 Rostock) wurde auf INTERSEROH Berlin GmbH (AG Charlottenburg HRB 117287 B) verschmolzen (Publikation 17.03.2011 „Löschung · Verschmelzung“); diese war zuvor Hüttenwerkentsorgung GmbH (Duisburg HRB 15755, Sitzverlegung + Umbenennung 23.01.2009) und ist heute als ✝︎/gelöscht markiert. Keine „MAB Ost GmbH“ als Rechtsträger belegt — Dossier-Name bleibt ungeklärt, KEINE Fills, status pruefung bleibt. Quellen: northdata.de/INTERSEROH Berlin GmbH HRB 117287 B (live), Northdata-Suchindex.]
+
+### Korrektur 01.10.2026 (ALBA-Fix)
+
+- [Korrektur 01.10.2026 (ALBA-Fix): Betreiber betreibt Dämmchenweg 16, 14943 Luckenwalde (ALBA Metall Nord GmbH, +49 3371 689 84 50, luckenwalde.metall@alba.info, Mo–Fr 7:00–12:00 u. 12:30–16:00, Sa. geschlossen) — stützt Nachfolge-Hypothese am selben Straßenzug (Dossier: Dämmchenweg 14/16), beweist aber KEINE HR-Identität „MAB Ost GmbH“. KEINE Frontmatter-Füllung (Name ≠ Betreiber), status pruefung + Klärfall bleiben. Quelle(n): metall.alba.info/unternehmen/standorte/detail/betriebsstaette-luckenwalde (live, Primärquelle)]

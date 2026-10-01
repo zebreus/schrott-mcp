@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahl/Metall
+
+### Korrektur 01.10.2026 (ALBA-Fix, Sammeldossier — nur gesichtet)
+
+- Sammeldossier, keine Filial-Fakten zu korrigieren (Frontmatter unverändert). Querverweise Stand 01.10.2026: NI-Standort Wilhelmshaven = ALBA Metall Nord GmbH, Emsstrasse 29 (Dossiers ni-wilhelmshaven-alba-metall-nord-hafen + ni-wilhelmshaven-jade-stahl, dort Betreiber-Nachfolge dokumentiert); Emden = seit 01.06.2020 Nehlsen E. Heeren GmbH, Zu den Hafenbecken 18 (Dossier ni-emden-interseroh-evert-heeren-niederlassung). Konzern-Übersicht: https://www.alba.info/standorte.

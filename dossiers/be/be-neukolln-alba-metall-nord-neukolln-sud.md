@@ -4,14 +4,14 @@ name: ALBA Metall Nord (Neukölln-Süd)
 trader_type: sonstige
 state: BE
 city: Neukölln
-street: Neukölln, Ziegrastr. 2-46,  (Ex-Interseroh = ALBA, kein Doppel)
+street: Ziegrastr. 2-46
 postcode: '12057'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
 website: https://metall.alba.info
-website_status: ''
-status: aktiv
+website_status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -35,3 +35,13 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Neukölln, Ziegrastr. 2-46, 12057 Berlin (Ex-Interseroh = ALBA, kein Doppel)
 - Bezirk: Neukölln Adressbeleg: seed/be.json (https://metall.alba.info)
 - Adressbeleg: https://metall.alba.info
+
+### Korrektur 01.10.2026 (ALBA-Fix)
+
+- Delisted-Protokoll: Neukölln (Ziegrastr.) steht auf KEINER aktuellen Betreiber-Liste (Vollcrawl 01.10.2026: metall.alba.info = 13 Detailseiten; alba.info/standorte: weder Metall Nord noch ALBA Berlin GmbH mit Neukölln-Adresse).
+- Betreiber-Suche/Register/News ohne Schließungs-/Verlagerungsbeleg → kein status geschlossen, Dossier bleibt erhalten; status aktiv → pruefung + Klärfall: Filial-Existenz und Seed-These „Ex-Interseroh = ALBA, kein Doppel“ (aus street-Feld hierher archiviert) weiter ohne Betreiber-Beleg.
+- street normalisiert (Ziegrastr. 2-46, 12057 Berlin); website = Domain-Root (aktiv) ohne Detailseite.
+
+### Korrektur 01.10.2026 (Owner-Gate)
+
+- [Owner-Gate 01.10.2026: Gedankenstrich-Datenmüll → leer (Shard hat Street bereinigt, Phone übersehen).]
