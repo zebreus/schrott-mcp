@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 01.10.2026 (Owner-Gate)
 
 - [Owner-Gate 01.10.2026: Shard-Deep-Link→Domain-Root normiert (Website-Regel); Detail-URL bleibt in ALBA-Fix-Note.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 / Feedback-Triage 2306: Geocoding-Fehler bestätigt — Betreiber-Adresse An der Kleinbahn 13a, 17098 Friedland + Tel. +49 39601 2760 auf Standortliste belegt (Dossier-Felder korrekt); nur lat/lon falsch (Potsdam statt Friedland); kein Delisting, status aktiv bleibt; Quelle(n): metall.alba.info/unternehmen/standorte/ (Standort Friedland), alba.info/standorte/ (Abruf 01.10.2026)]

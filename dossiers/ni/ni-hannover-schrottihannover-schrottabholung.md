@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Abholung, Kleinmengen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Mobiler Abholservice ohne Annahmestelle (Inh. Mir Sat Hashani) — Feedback-Adresspunkt unberechtigt (Impressum-Adresse Mattfeldstr. 19, 30455 Hannover nicht als Betriebsstätte belegt); Tel. 0152-22565760, schrotti.haj@gmail.com, Mo–So 07:30–22:00; Abholung/Barauszahlung für Privat+Gewerbe; kein Frontmatter-Fill (mobil); Quelle(n): schrottabholung-hannover.de, /impressum-und-datenschutz/ (Feedback 2324)]

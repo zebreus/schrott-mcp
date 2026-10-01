@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Delisted-Protokoll: Wolgast steht NICHT auf der aktuellen Betreiber-Standortliste (Vollcrawl 01.10.2026: metall.alba.info = 13 Detailseiten ohne Wolgast; alba.info/standorte ohne Treffer). Ältere Liste hatte 17 Treffer inkl. Wolgast.
 - Betreiber-Suche/Register/News ohne Schließungs-/Verlagerungsbeleg → kein status geschlossen, Dossier bleibt erhalten; status aktiv → pruefung + Klärfall: Filial-Existenz und Adressbeleg (Kröslinerstr. 5 — bislang ohne Betreiber-Beleg) offen.
 - website = Domain-Root (aktiv, Impressum via alba.info); keine Detailseite.
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 / Feedback-Triage 2305: Delisting berechtigt — ALBA-Fix-Befund bestätigt (Vollcrawl 01.10.2026: metall.alba.info 13 Standorte ohne Wolgast; alba.info/standorte ohne Treffer); Dossier bleibt pruefung; Quelle(n): metall.alba.info/unternehmen/standorte/, alba.info/standorte/ (Abruf 01.10.2026)]

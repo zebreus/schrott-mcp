@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Betreiber-Primärquelle Impressum: Assmann Recycling GmbH, An der Bundesstraße 1, 38162 Cremlingen, Tel. +49 5306 9324140, AG Braunschweig HRB 201170. Quelle: https://assmann-recycling.de/impressum/
 - Zweitbeleg Register: Northdata HRB 201170, Adresse An der Bundesstr. 1, D-38162 Cremlingen. Quelle: https://www.northdata.de/Assmann+Recycling+GmbH,+Cremlingen/Amtsgericht+Braunschweig+HRB+201170
 - Frontmatter: street/postcode per Doppelbeleg gefüllt; phone/email nur Einfachbeleg → leer gelassen.
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 / Feedback-Triage 2342: Typ-Frage geklärt — Metallhandel ist Tagesgeschäft (NE-Metalle + Eisenschrott zum Tagespreis, eigene Leistungsseite) → trader_type schrotthaendler bleibt; Abbruch/Industrieabbruch/Demontage/Asbest/Transporte sind weitere Schwerpunkte (kein Typwechsel auf sonstige); Tel. 05306-9324140 + info@assmann-recycling.de nur Einzelbeleg → leer; Quelle(n): assmann-recycling.de (Live-Fetch 01.10.2026)]

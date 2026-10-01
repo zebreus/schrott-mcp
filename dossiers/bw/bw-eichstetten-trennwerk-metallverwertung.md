@@ -4,10 +4,10 @@ name: Trennwerk Metallverwertung
 trader_type: sonstige
 state: BW
 city: Eichstetten
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: 'Hebelstraße 13'
+postcode: '79356'
+phone: '0160 7261051'
+email: 'kontakt@trennwerkae.de'
 opening_hours: ''
 website: https://schrotthandel-freiburg.de/
 website_status: aktiv
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - nur Abholung vor Ort, keine Annahmestelle
 - Größe: klein/mobil
+
+### Recherche 01.10.2026 (2. Durchgang)
+
+- [Recherche 01.10.2026: Schwester-Domain trennwerkae.de (Trennwerk Abbruch und Entsorgung, gleiche Adresse) als Zweitbeleg: Postadresse Hebelstr. 13, 79356 Eichstetten, kontakt@trennwerkae.de, Buerozeiten Mo-Fr 9-18 - kongruent zur Schrott-Domain schrotthandel-freiburg.de; dazu Verzeichnis-Belege (11880, auftragsbank, cylex: Trennwerk Abbruch und Entsorgung, Eichstetten); Telefon-Abweichung offen: Schrott-Seite 0160 7261051 (Frontmatter, dossier-relevant) vs Abbruch-Kontakt 0160 97719497 (nur Timeline); Vorvermerk bleibt als Historie erhalten; Frontmatter Adresse/Mail/Tel gefuellt; Firmania-Treffer Sahin Schrotthandel gleiche Adresse ist anderes Unternehmen (Negativbefund, nicht vermengen); Quelle(n): https://trennwerkae.de/kontakt/, https://schrotthandel-freiburg.de/startseite/, https://www.11880.com/branchenbuch/eichstetten-am-kaiserstuhl/060371058B113730467/trennwerk-abbruch-entsorgung.html]
 
 ### Recherche 01.10.2026
 

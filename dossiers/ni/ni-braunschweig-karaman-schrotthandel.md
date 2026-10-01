@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Impressum-Direktbeleg (Live-Fetch 01.10.2026) — Karaman Schrotthandel und Dienstleistungen, Inh. Aytekin Karaman (Einzelunternehmen): Hebbelstr. 32, PLZ widersprüchlich (Impressum 38122 vs. Kontaktbox 38120) → street/postcode NICHT gefüllt; neue Tel. +49 163/2265768 bestätigt, info@karaman-schrotthandel.de, Mo–Fr 08:00–18:00, Sa 08:00–16:00; Abholung/Entkernung/Entrümpelung/Heizungsbau; kein HRB → kein Frontmatter-Fill; Quelle(n): karaman-schrotthandel.de/impressum/ (Feedback 2338)]

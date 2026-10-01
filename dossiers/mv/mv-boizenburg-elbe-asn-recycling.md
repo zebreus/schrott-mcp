@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottankauf (Alu/Kupfer/Mischschrott) + Autoverwertung + Reifenentsorgung
 - (früher Autoverwertung Nord GmbH)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Straße/PLZ bestätigt (Galliner Str. 54, 19258 — kein Änderungsbedarf); Telefon divergent (0170 8418484 vs. 0174 4944447) → phone leer; E-Mail info@autoverwertung-nord-gmbh.de + Hours Mo–Fr 08:00–18:00 als Betreiber-Angabe nur Timeline (ASN Rechtsform/HRB unverifiziert); Leistungen: Autoverwertung, Schrottankauf, Reifenentsorgung, KFZ-Abholung; Quelle(n): asn.gmbh, /KONTAKT/ (Feedback 2339)]

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Negativbefund — GS „autoverwertung coesfeld“ listet nur Autoverwertung Heebsmann (Bahnhofstr. 29) + Holz Michael (Rosendahl); kein „Auto verschrotten/Entsorgen“, keine 01522-Nr. verifizierbar. Kein Fill, status bleibt pruefung (miss-nahe, Folgewelle: ggf. schliessen).; Quelle(n): https://www.gelbeseiten.de/suche/autoverwertung/coesfeld (Abruf 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - 01522-Nr., Autoverwertung

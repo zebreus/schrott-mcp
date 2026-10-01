@@ -5,12 +5,12 @@ trader_type: metallhaendler
 state: HE
 city: Frankfurt-Seckbach
 street: Gwinnerstr. 11
-postcode: ''
-phone: ''
-email: ''
+postcode: '60388'
+phone: 069/21085570
+email: info@mh-frankfurt.de
 opening_hours: ''
 website: https://mh-frankfurt.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2254 BERECHTIGT eingearbeitet — Owner-Primaerquelle (Impressum Metallhandel Frankfurt GmbH, HRB 129583 AG Frankfurt/Main, GF Julian Doeringer, Gwinnerstr. 11, 60388 Frankfurt) allein ausreichend; Frontmatter-Fills PLZ/Telefon/E-Mail + website aktiv; Cross-Ref: RMR-Kontaktseite nennt MHF Gwinnerstr. 11 als Partner (siehe 2229, kein Merge — getrennte GmbHs); Quelle(n): https://mh-frankfurt.de/ + https://mh-frankfurt.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

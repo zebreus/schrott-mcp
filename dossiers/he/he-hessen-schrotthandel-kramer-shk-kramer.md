@@ -3,9 +3,9 @@ slug: he-hessen-schrotthandel-kramer-shk-kramer
 name: Schrotthandel Krämer (SHK Krämer)
 trader_type: schrotthaendler
 state: HE
-city: Hessen
-street: ''
-postcode: ''
+city: Darmstadt
+street: 'Akazienweg 23'
+postcode: '64293'
 phone: ''
 email: ''
 opening_hours: ''
@@ -35,3 +35,5 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website schrotthandel-kraemer.de tiefgecrawlt (Home, /impressum, /kontakt). Impressum: SHK Krämer, Inhaber Romeo Krämer (Einzelunternehmen), Akazienweg 23, 64293 Darmstadt, Tel. +49 176 32582055, info@schrotthandel-kraemer.de; Bürozeiten Mo–Fr 08–17 Uhr. Klärfall City: Dossier-City „Hessen“ vs. Impressum-Ort Darmstadt — City-Feld bestehenden lassen (kein Überschreiben). Adresse/Tel./E-Mail nur Website-Einzelbeleg (kein Register: Einzelunternehmen; Creditreform-Treffer „Denny Krämer“ = andere Person/Firma, Gehaborner Weg 101) — Felder leer. Leistungen: Schrottentsorgung/-recycling, Ankauf Kupfer/Alu/Edelstahl/Kabel/Mischschrott, Container, Entrümpelung; Quelle(n): schrotthandel-kraemer.de (/impressum, /kontakt)]
+
+- [Recherche 01.10.2026 / Feedback-Triage 2312: Invalide City korrigiert (Hessen → Darmstadt) — Bundesland statt Ort, nachweislich falsch; Straße/PLZ gefüllt (Akazienweg 23, 64293 Darmstadt); Einzelbeleg-Offenlegung (nur Betreiber-Impressum: SHK Krämer, Inh. Romeo Krämer, Einzelunternehmen); Tel. +49 176 32582055, info@schrotthandel-kraemer.de, Bürozeiten Mo–Fr 08–17 nur Timeline (Einzel, Single-Source); Creditreform-Treffer Denny Krämer = andere Person; Quelle(n): schrotthandel-kraemer.de/impressum, /kontakt]

@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Alu/Blei/E-Motoren/Kupfer/Kabel, Container/Demontage
 - urspr. Website-Angabe: keine (falsche Website weber-recycling.de entfernt, 29.09.2026 — gehört Weber Recycling Wolfenbüttel, Im Kleinen Feld 62)
+
+### Recherche 01.10.2026
+
+- [Audit-2 2429 01.10.2026: Audit-2 Feedback 2429 bestaetigt: DB-Website https://weber-recycling.de gehoert Weber Recycling, Inh. Ricardo Weber, Im Kleinen Feld 62, 38304 Wolfenbuettel (Tel. +49 152 07418493, kontakt@weber-recycling.de; Familienbetrieb, Schrott/Altmetall Wolfenbuettel, Container/Brennschneidarbeiten); Quelle(n): https://weber-recycling.de Home + Impressum, 01.10.2026]
+- [Audit-2 2429 01.10.2026: Klaerfall: keine Frontmatter-Aenderung - kein Beleg fuer Salzgitter-Gebhardshagen (Dossier-Website bleibt bewusst leer statt falscher Domain)]

@@ -4,14 +4,14 @@ name: Jörg Kurzhals Entsorgung
 trader_type: schrotthaendler
 state: HE
 city: Vellmar
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: 'Am Hirleberg 4'
+postcode: '34246'
+phone: '0561 821206'
+email: 'info@kurzhals-entsorgung.de'
+opening_hours: 'Mo-Fr 08:00-17:00, Sa nach Vereinbarung'
 website: https://kurzhals-entsorgung.de/
-website_status: ''
-status: pruefung
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Altmetallentsorgung (70 J., geeichte Waage), Container, Industrieabbruch, zertifizierte AV – keine Ankaufpreis-Aussage
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2283 berechtigt-eingearbeitet — Fill: Am Hirleberg 4, 34246 Vellmar, 0561 821206, info@kurzhals-entsorgung.de, Mo-Fr 08:00-17:00 + Sa nach Vereinbarung; Status pruefung → aktiv (Leistungsseiten Schrott/Metalle, Container, Autoverwertung, Demontage live); Einzelunternehmen ohne HRB (kein HR-Zweitbeleg, Aggregatoren nur Leads) → starke Betreiber-Einzelquelle (Kontakt-/Impressums-Block + Header) mit Restunsicherheit; Quelle(n): https://kurzhals-entsorgung.de/kontakt.htm + https://kurzhals-entsorgung.de/ (Leistungsseiten)]

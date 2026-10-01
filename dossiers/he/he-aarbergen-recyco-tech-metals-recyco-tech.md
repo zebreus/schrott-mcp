@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: HE
 city: Aarbergen
 street: Scheidertalstr. 53
-postcode: ''
-phone: ''
-email: ''
+postcode: '65326'
+phone: '06120 9790900'
+email: 'info@recycotech.com'
 opening_hours: ''
 website: https://recycotech.com/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling-Ankauf Metall/E-Schrott/Kunststoff, sofort bar, Container/Abholservice
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2280 berechtigt-eingearbeitet — Fill: PLZ 65326, 06120 9790900, info@recycotech.com; Straße Scheidertalstr. 53 bestätigt; GmbH mit HRB 32535 AG Wiesbaden + GF Moiz Qaiser/Qaiser Hameed HR-kongruent → Owner-Ausnahme; Zweitbeleg Creditreform (HRB 32535, wirtschaftsaktiv) + Fachbetrieberegister (Scheidertalstr. 53, 65326, Handeln/Makeln, ZZFT01300002); keine Öffnungszeiten auf Website (Frontmatter leer); Tracxn-"Deadpooled" als Aggregator-Fehlmarkierung verworfen; Quelle(n): https://www.recycotech.com/impressum + https://firmeneintrag.creditreform.de/65326/7150244469/RECYCO_TECH_GMBH + https://schrottregister.pages.dev/betrieb-recyco-tech-gmbh-aarbergen]

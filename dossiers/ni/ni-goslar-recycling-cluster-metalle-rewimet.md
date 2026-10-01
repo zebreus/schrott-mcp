@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metalle/Demontage (Harz)
 - urspr. Website-Angabe: keine (falsche Website rewimet.de entfernt, 29.09.2026 — REWIMET e.V., Geschäftsstelle Clausthal-Zellerfeld, kein Händler)
+
+### Recherche 01.10.2026
+
+- [Audit-2 2396 01.10.2026: Audit-2 Feedback 2396 bestaetigt: DB-Website https://rewimet.de gehoert REWIMET e.V. (Recycling-Cluster wirtschaftsstrategische Metalle) - Netzwerk aus Unternehmen/Forschung/Gebietskoerperschaften, Vereinsregister 200914 AG Braunschweig, Im Schleeke 50, 38642 Goslar; kein Ankauf, keine Preise, keine Annahme; Quelle(n): https://rewimet.de Home + Impressum, 01.10.2026]
+- [Audit-2 2396 01.10.2026: Klaerfall: keine Frontmatter-Aenderung (Verein, kein Haendler)]

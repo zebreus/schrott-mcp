@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://schrott.io
 website_status: tot
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Online-Ankauf, Annahmestelle
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Domain tot bestätigt — status aktiv → pruefung; schrott.io → 301 auf fremde Seite mcbroken.io (kein Händlerinhalt), DNS tot; website_status tot bleibt; Adresse/Telefon nie verifizierbar; Quelle(n): schrott.io (curl -sIL, Feedback 2325)]

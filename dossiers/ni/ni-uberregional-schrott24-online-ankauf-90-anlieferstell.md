@@ -34,6 +34,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
+- [Audit-2 2389 01.10.2026: Audit-2 Feedback 2389 bestaetigt: Betreiber Metaloop Europe GmbH, Puchstr. 17, 8020 Graz (AT), Tel. +43 316 440025 - kein NI-Standort; NI-Zuordnung bleibt fragwuerdig (ueberregional/online); Quelle(n): https://www.schrott24.de + Impressum, Stand 01.10.2026]
+- [Audit-2 2389 01.10.2026: Klaerfall: keine Frontmatter-Aenderung (kein belegter NI-Standort; Namenszahl ~90 vs. Website-Angabe 80 hier nur dokumentiert, Slug-Schutz)]
+
 - Betreiber-Primärquelle Impressum: Metaloop Europe GmbH, Puchstr. 17, 8020 Graz (AT), FN 638630 m, Tel. +43 316 440025. Quelle: https://www.schrott24.de/impressum
 - Standorte-Seite listet >90 Anlieferstellen (DE/AT). Quelle: https://www.schrott24.de/standorte/
 - Klärfall: AT-Firma, kein DE-HRB; HRB-Ausnahme fraglich; kein unabhängiger DE-Zweitbeleg für NI-Standort → Frontmatter leer gelassen (website bereits Domain-Root-nah).

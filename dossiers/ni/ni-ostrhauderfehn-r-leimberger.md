@@ -35,4 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
+- [Audit-2 2390 01.10.2026: Audit-2 Feedback 2390 bestaetigt: DB-Website https://schrottplatz-info.de ist Schrottplatz-Verzeichnis (Rheingaustr. 107, 65203 Wiesbaden, Tel. 0177 3799077), Betreiber schliesst eigene Platz-Betreiberschaft explizit aus; Quelle(n): https://schrottplatz-info.de, Stand 01.10.2026]
+- [Audit-2 2390 01.10.2026: Klaerfall: keine Frontmatter-Aenderung - Zuordnung R./Renate/Michael/Andy Leimberger, Idafehn-Sued ungeklaert, kein Haendler-Zweitbeleg]
+
 - [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg gefunden (nur schrottplatz-info-Lead, keine Händlerseite); alle leeren Felder bleiben leer.; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads)]

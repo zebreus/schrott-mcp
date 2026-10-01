@@ -31,6 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website de-ro.de live (Home + Schrotthandel + Kontakt + Impressum): DE-RO Handelsgesellschaft Meyer & Springer GmbH, Industriestraße 4, 27751 Delmenhorst, Tel. 04221 94290, info@de-ro.de, Anlieferung Mo–Do 07:30–16:15 Uhr, Fr 07:30–15:15 Uhr, Schrottankauf Eisen-/Metallabfälle von Gewerbe und Privat, Container- und Stahlhandel, EFB-zertifiziert; Zweitbeleg Northdata (AG Oldenburg HRB 140104): Name, Industriestr. 4, D-27751 Delmenhorst und Gegenstand (Schrott-/Metall-Großhandel) kongruent; BEWIESENE KORREKTUR: Dossier-City Oldenburg falsch, belegt ist Delmenhorst (Betreiber-Impressum + Register), City-Feld korrigiert, Slug unverändert; Quelle(n): https://www.de-ro.de/ + Unterseiten (eine Quelle) und Northdata HRB 140104 (Register, unabhängig)]
+- [Feedback-Triage ID 2366: Meldung teilweise berechtigt — (a) City-Korrektur Oldenburg → Delmenhorst berechtigt und erledigt (Doppelbeleg, Slug unverändert). (b) Mittagspause-Behauptung unberechtigt: weder Betreiber-Zeiten (Mo–Do 07:30–16:15, Fr 07:30–15:15, durchgehend) noch Register nennen eine Mittagspause — kein Fill, kein Klärfall. (c) Lat/Lon Oldenburg-Verweis berechtigt: DB-Koordinaten zeigen auf Oldenburg statt Delmenhorst — in Timeline vermerkt, Neu-Geocodierung läuft automatisch (adressbasiert). Beleglage: Doppelbeleg. Quelle(n): siehe Vorbullet.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

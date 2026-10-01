@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Beleg); Quelle(n): keine Betreiber-Quelle, kein HR-Eintrag auffindbar. Name zu generisch (Personenregister-Treffer unverwandt); Juwelier-Verdacht aus Seed bleibt unbelegt.]
 
+### Recherche 01.10.2026 (Ergänzung)
+
+- [Recherche 01.10.2026: Aßlar-Mismatch — einziger HR-naher Schmidt-Treffer (Berliner Str. 22c, Aßlar, HRB 5329 Wetzlar, GF Marco/Mario) heißt nicht Martin und sitzt nicht in Gießen 35398; keine Zuordnung zum Seed-Eintrag, weiter kein Fill, Status pruefung; Quelle(n): Register-Lead ohne Zuordenbarkeit]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinhändler (GS); Juwelier-Verdacht unbelegt → drin

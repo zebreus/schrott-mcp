@@ -4,8 +4,8 @@ name: ERV Elektronik-Recycling und Verwertung GmbH
 trader_type: schrotthaendler
 state: TH
 city: Gera 07545
-street: Hainstr. 17
-postcode: ''
+street: 'Hainstr. 17'
+postcode: '07545'
 phone: 0365 824870
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: konvergente Verzeichnis-Belege (Gelbe Seiten: Hainstr. 17, 07545 Gera-Innenstadt, 0365 82487-0; Das Oertliche + 11880 + firmania + branchenbuchdeutschland: gleiche Adresse, Tel 0365 824870 kongruent zu Seed); kein Betreiber-Webauftritt auffindbar (Bing-Suche ohne Treffer, vermutlich B2B ohne Public-Site) - begruendeter Ausnahmefall, Strasse/PLZ als Aggregator-Beleg gefuellt, kein website-Fill; E-Schrott-Ankauf weiter unklar (PRUEFFALL bleibt), status weiter pruefung; Quelle(n): https://www.gelbeseiten.de/gsbiz/7130d707-554c-4b93-8e4b-fd305b8934c4, https://www.dasoertliche.de/Themen/ERV-Elektronik-Recycling-und-Verwertung-GmbH-Gera-Innenstadt-Hainstr, https://www.11880.com/branchenbuch/gera/251092496B41973849/erv-elektronik-recycling-und-verwertung-gmbh.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

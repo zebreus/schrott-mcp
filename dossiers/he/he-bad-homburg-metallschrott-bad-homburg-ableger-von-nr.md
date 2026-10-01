@@ -12,7 +12,7 @@ email: ''
 opening_hours: ''
 website: https://metallschrottbadhomburg.de/
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Buntmetall-Ankauf Tageskurs (Kupfer/Kabel/Alu/VA/Eisen), Betriebshof-Annahme, geeichte Waage, Barauszahlung, Kran-Abholung, Container, Abbruch/Demontage, Kat-/Batterie-Entsorgeseite; Tel. 069-42696558
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — status aktiv → pruefung; Sitz laut Impressum/Kontakt Gwinnerstr. 26, 60388 Frankfurt am Main (Inh. Andy Biedermann / AB Container), kein Betriebshof in Bad Homburg belegt (Seite wirbt nur für Bad Homburg und Umgebung); E-Mail divergent (service@metallschrottbadhomburg.de vs. service@containerdienstmaintal.de vs. service@metallschrottfrankfurt.de) → leer; Tel. 069-42696558 bestätigt; street/pruefung unverändert bis Klärung; Quelle(n): metallschrottbadhomburg.de (Impressum/Kontakt) (Feedback 2313)]

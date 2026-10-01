@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall, Bestpreise, Wiegetechnik
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website udo-schanko.de — Altmetallhandel Udo Schanko (Einzelunternehmen), Zum Voßberg 23, 17498 Helmshagen, Tel. 03834-884463 (Mobil 0171-1908368), Mo–Fr 09:00–16:00, Sa 09:00–11:30 (Brückentage geschlossen); Einzel ohne HRB → kein Frontmatter-Fill, Fakten nur Timeline; Quelle(n): udo-schanko.de (Feedback 2307)]

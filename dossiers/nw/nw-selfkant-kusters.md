@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Kein HR-Treffer zu Kuester Schrott in Selfkant auf Northdata (nur MTS Selfkant HRB 29135, Naturstein Selfkant HRA 7320 und Personen Kuester in Kempen und Krefeld, kein Schrottbezug); Quelle(n): Northdata-Pfadsuche 01.10.2026]
 - [Recherche 01.10.2026: Gelbe-Seiten-Abruf ohne Treffer zu Kuester in Selfkant; kein Betreiber, keine Adresse, kein Zweitbeleg, daher kein Fill und Klaerfall; Quelle(n): Gelbe Seiten (nur Leads) 01.10.2026]
+
+### Recherche 01.10.2026 (Re-Verifizierung)
+
+- [Recherche 01.10.2026: Vor-Notizen bestätigt — weiter kein HR-/Betreiberbeleg zu Küsters Schrott in Selfkant, kein Fill, Status pruefung; Quelle(n): Re-Verifizierung ohne neue Quelle]

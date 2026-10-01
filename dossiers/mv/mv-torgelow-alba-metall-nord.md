@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Delisted-Protokoll: Torgelow steht NICHT auf der aktuellen Betreiber-Standortliste (Vollcrawl 01.10.2026: metall.alba.info = 13 Detailseiten ohne Torgelow; alba.info/standorte ohne Treffer). Ältere Liste hatte 17 Treffer inkl. Torgelow.
 - Betreiber-Suche/Register/News ohne Schließungs-/Verlagerungsbeleg → kein status geschlossen, Dossier bleibt erhalten; status aktiv → pruefung + Klärfall: Filial-Existenz und Leistungsbeleg (Tel. 03976 202392 aus Seed — bislang ohne Betreiber-Beleg) offen.
 - website korrigiert: nord.alba.info war falsch (das ist die Entsorger-Schwester ALBA Nord GmbH) → Domain-Root metall.alba.info (aktiv, Impressum via alba.info); keine Detailseite.
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 / Feedback-Triage 2344: Delisting berechtigt — ALBA-Fix-Befund bestätigt (Vollcrawl 01.10.2026: 13 Standorte ohne Torgelow; Tel. 03976 202392 ohne Betreiber-Beleg); Dossier bleibt pruefung; Quelle(n): metall.alba.info/unternehmen/standorte/, alba.info/standorte/ (Abruf 01.10.2026)]

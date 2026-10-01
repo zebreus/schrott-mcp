@@ -4,15 +4,15 @@ name: Speira GmbH
 trader_type: sonstige
 state: NW
 city: Grevenbroich
-street: ''
-postcode: ''
-phone: ''
+street: Aluminiumstraße 1
+postcode: 41515
+phone: +49 2181 66 01
 email: ''
 opening_hours: ''
 website: https://www.speira.com/
-website_status: ''
+website_status: aktiv
 status: aktiv
-description: ''
+description: Aluminium-Walzunternehmen mit Recycling-Services (Alu-Schrott Ruecknahme, B2B). Sitz/Hauptwerk Grevenbroich, Alunorf-JV.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Vollbeleg via Betreiber-Impressum (Owner-Primaerquelle, Name+HRB+Ort): Speira GmbH, Aluminiumstr. 1, 41515 Grevenbroich, HRB 14011 AG Moenchengladbach, Tel. +49 2181 66 01 — Frontmatter gefuellt, website_status aktiv. Hinweis: Alu-Walzproduzent + Recycling-Services (B2B), kein klassischer Privatkunden-Schrottankauf; E-Mail + Oeffnungszeiten nicht ausgewiesen (Anfrageformular) → leer.; Quelle(n): https://www.speira.com/imprint/ (Abruf 01.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

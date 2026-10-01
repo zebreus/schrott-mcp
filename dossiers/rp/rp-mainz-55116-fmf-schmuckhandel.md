@@ -4,9 +4,9 @@ name: FMF Schmuckhandel
 trader_type: sonstige
 state: RP
 city: Mainz 55116
-street: ''
-postcode: ''
-phone: ''
+street: Binger Str. 1
+postcode: '55116'
+phone: 061319450940
 email: ''
 opening_hours: ''
 website: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schmuck, Ankauf möglich
 - Adresse: Mainz 55116
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: ok mit Vorbehalt — Das Örtliche listet FMF Schmuckhandel GmbH (Juweliere), Binger Str. 1, 55116 Mainz, Tel. 06131 9450940; LinkedIn belegt Firmenexistenz (Mitarbeiter-Profil, Standort Mainz); locabee führt an derselben Adresse eine Goldbörse (mgl. gleiches Ladengeschäft, ungeklärt); kein HR-Eintrag verifiziert, Status bleibt pruefung; Quelle(n): dasoertliche.de-Themenseite Binger Str. Mainz + LinkedIn-Firmenprofil + locabee.de]

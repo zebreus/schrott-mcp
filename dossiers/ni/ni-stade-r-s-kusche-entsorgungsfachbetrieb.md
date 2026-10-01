@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website live verifiziert (r-skusche.de, Entsorgungsfachbetrieb Stade); Landkreis-Stade-Elektroschrott-PDF bestätigt Ohle Ring 4, 21684 Stade, Tel. 04141 787 978, info@r-skusche.de — 2 unabhängige Belege, Frontmatter gefüllt; Quelle(n): r-skusche.de (Live-Fetch 01.10.2026), Landkreis Stade Abfall-PDF Elektroschrott]
+- [Feedback-Triage ID 2382: Meldung teilweise berechtigt — Kontaktdaten korrekt befüllt (Doppelbeleg, siehe Vorbullet); Zeiten-Behauptung Klärfall: keine Öffnungszeiten im Direktbeleg für diesen Slug (Schwester-Dossier ni-stade-wiepenkathen-r-s-kusche nennt Mo–Fr 08:00–12:00/13:00–16:00, Sa 08:00–12:30 — Übertragung ohne Direktbeleg riskant) → Zeiten korrekterweise leer. Beleglage: Doppelbeleg (Adresse/Kontakt), Zeiten unbelegt. Quelle(n): siehe Vorbullet.]

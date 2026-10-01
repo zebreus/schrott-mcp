@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website pr-recycling.de tiefgecrawlt (Home, Leistungen, /impressum). Impressum: Sandro Roggendorf, PR-Recycling, Am Siegborn 336, 35396 Gießen, Tel. 0177-5545410 / 0177-2367069 (Homepage zusätzlich 0641-32051379), info@pr-recycling.de, USt-ID 02086163209. Adresse/Tel./E-Mail nur Website-Einzelbeleg (Verzeichnis-Lead Gelbe Seiten: Am Siegborn 336, 35396 Gießen-Wieseck — kein Beleg) — Felder leer. Leistungen: Schrottankauf tagesaktuell, Containerdienst, Entrümpelung, Demontage; Quelle(n): pr-recycling.de (/impressum, /leistungen/schrotthandel), gelbeseiten.de (nur Lead)]
+- [Recherche 01.10.2026: Feedback-Triage 2242 KLAERFALL bestaetigt — Wellen-Befund bleibt (Einzelbeleg, Felder leer); keine Aenderung; Quelle(n): s.o.]

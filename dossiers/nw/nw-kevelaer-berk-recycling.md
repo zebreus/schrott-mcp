@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Velder Dyck 21, 47624 Kevelaer + Girmespark 5, 47929 Grefrath, Tel. 02832 78597, HRB 18672 AG Kleve (Betreiber-Website: Homepage + Kontakt + Impressum = eine Quelle); Quelle(n): https://berk-recycling.com/ + https://berk-recycling.com/kontakt/ + https://berk-recycling.com/impressum]
 - [Recherche 01.10.2026: Northdata-Gegenbeleg HRB 18672 AG Kleve (zweite Quelle für HR-Identität); phone-Feld mit Klammer-Artefakt belassen (kein Overwrite ohne 2. unabhängige Telefon-Quelle); website_status aktiv; Quelle(n): Northdata HRB 18672 Kleve]
+
+### Recherche 01.10.2026 (Ergänzung)
+
+- [Recherche 01.10.2026: Betreiber-Impressum re-verifiziert (Velder Dyck 21, 47624 Kevelaer + Girmespark 5, 47929 Grefrath, HRB 18672 AG Kleve konsistent zum Northdata-Zweitbeleg); keine Frontmatter-Änderung (Telefon-Artefakt weiter belassen); Quelle(n): https://berk-recycling.com/impressum (Betreiber-Website)]

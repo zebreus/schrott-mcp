@@ -4,9 +4,9 @@ name: Bernd Wackrow
 trader_type: sonstige
 state: MV
 city: Torgelow 17358
-street: ''
-postcode: ''
-phone: ''
+street: Müggenburg 24A
+postcode: 17358
+phone: 039778 20273
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Lead-Fill (EINZELQUELLE Gelbe Seiten, status bleibt pruefung): „Wackrow Horst Autoverwertung und Abschleppdienst“, Mueggenburg 24A, 17358 Torgelow (Mueggenburg), Tel. 039778 20273. VORNAME-DISKREPANZ: Seed/GESA „Bernd Wackrow“ vs. GS „Horst Wackrow“ (Familienbetrieb? Nachfolge? ungeklaert) — Strasse/PLZ/Telefon als Lead gefuellt, Name/Slug unveraendert, Folgewelle: GESA-Liste + Register klaeren. Koordinaten bei Adress-Fill neu zu geocodieren.; Quelle(n): https://www.gelbeseiten.de/suche/autoverwertung/torgelow (Abruf 01.10.2026, einzige Quelle)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

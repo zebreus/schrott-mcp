@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Herne
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — Name zu generisch (Sumo: Sport, Ringer-Verein, Gastro-Treffer, kein Schrottbezug); keine Betreiberquelle, keine Adresse, kein HR-Eintrag; Status bleibt pruefung; Quelle(n): Websuche ohne belegfähigen Treffer]

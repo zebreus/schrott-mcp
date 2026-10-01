@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Willeführ-Gruppe (Abgrenzung Seed: Gelnhausen + Industriedemontagen) – distincter Ort
 - Adresse: Langen 63225
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — Willeführ-Treffer gehören zur Gruppe (Gelnhausen, Industriedemontagen), kein Beleg für Standort Langen 63225; keine Betreiberquelle, kein HR-Eintrag mit Langen-Bezug; Status bleibt pruefung; Quelle(n): Websuche ohne belegfähigen Treffer]

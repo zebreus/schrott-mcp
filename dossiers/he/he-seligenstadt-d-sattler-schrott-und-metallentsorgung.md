@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026 (Feedback-Triage)
 
 - [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1862 teilweise — Betreiber-Website live (Wix): D. Sattler Schrott und Metallentsorgung, Beethovenweg 1, 63500 Seligenstadt, Tel. 0163/6997236, Zeiten Mo-Fr 7-17/Sa n.V.; Impressum Name+Ort matchen → website aktiv. Register-Zweitbeleg fehlt (nur Namensvetter) → PLZ/Telefon/E-Mail/Zeiten bleiben leer (Einzelbeleg, unsicher; Werte hier dokumentiert, kein Informationsverlust). Lage Froschhausen = Stadtteil von Seligenstadt. Quelle: sattler-schrott-metallentsorgung.de/kontaktimpressum (live).]
+- [Recherche 01.10.2026: Feedback-Triage 2260 KLAERFALL bestaetigt — Wellen-/Vortriage-Befund 1862 bleibt (Einzelbeleg, Felder leer, Lage Froschhausen/Stadtteil geklaert); keine Aenderung; Quelle(n): s.o.]

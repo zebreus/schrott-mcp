@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthandel
 - Adresse: Koblenz 56073
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — nur Lead: Gelbe Seiten nennt Dominicusstr. 43 (Koblenz); infobel-Detailseite per Captcha blockiert, kein Zweitbeleg, keine Betreiberquelle; Status bleibt pruefung; Quelle(n): nur Aggregatoren (Leads, kein Beleg)]

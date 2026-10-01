@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Goldankauf
 - Adresse: Mainz 55129
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — nur Aggregator-Leads (locabee + werkenntdenbesten nennen übereinstimmend Alte Mainzer Str. 21, 55129 Mainz-Hechtsheim); keine Betreiber-Website, kein Telefon, kein HR-Eintrag; Status bleibt pruefung; Quelle(n): nur Aggregatoren (Leads, kein Beleg)]

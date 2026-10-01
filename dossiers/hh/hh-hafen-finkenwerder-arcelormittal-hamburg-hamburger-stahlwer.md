@@ -4,13 +4,13 @@ name: ArcelorMittal Hamburg (Hamburger Stahlwerke)
 trader_type: schrotthaendler
 state: HH
 city: Hafen/Finkenwerder
-street: Dradenaustr. 33
-postcode: ''
+street: Dradenaustraße 33
+postcode: '21129'
 phone: ''
 email: ''
 opening_hours: ''
 website: https://barsandrods.arcelormittal.com/mill-hamburg
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahlschrott als EAF-Einsatz (Drahtwerk)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2181 berechtigt — PLZ 21129 + Straßen-Normierung (Dradenaustr. → Dradenaustraße) + website_status aktiv per Betreiber-Werksseite (Contacts: ArcelorMittal Hamburg, Dradenaustraße 33, D-21129 Hamburg); status pruefung bleibt (Elektrostahlwerk, nur Großmengen/Handel, keine Privatanlieferung belegt); Quelle(n): https://barsandrods.arcelormittal.com/mill-hamburg]

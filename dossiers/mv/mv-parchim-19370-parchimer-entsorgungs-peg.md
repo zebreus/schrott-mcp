@@ -38,3 +38,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 01.10.2026: Negativbefund, Adresse gehört dem Amt Parchimer Umland (Behörde); keine Parchimer Entsorgungs GmbH auffindbar; Quelle(n): https://www.amt-parchimer-umland.de/, behördliches Straßenverzeichnis]
 - Walter-Hase-Str. 42, 19370 Parchim ist Sitz des Amtes Parchimer Umland (Tel. 03871 4213-0), kein Schrott-/Entsorgungsbetrieb.
 - Klärfall Folgewelle: Dossier prüfen (Fehlanlage durch Adressverwechslung möglich, echte PEG-Adresse suchen oder schließen).
+- [Recherche 01.10.2026 (Shard NW/NI/MV/SH): Gegenprobe GS „schrott parchim“ (2 Treffer: Buelow/Holthusen, ACS/Ribnitz) — keine PEG, bestaetigt Negativbefund; kein Fill, status bleibt pruefung.; Quelle(n): https://www.gelbeseiten.de/suche/schrott/parchim (Abruf 01.10.2026)]

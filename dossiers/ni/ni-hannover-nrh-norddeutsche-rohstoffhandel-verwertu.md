@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahlschrott, Gleisanschluss
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kritischer Befund bestätigt — Website gehört VERWERTUNGSZENTRUM HOHENASPE GMBH, Burgviert 23, 25582 Hohenaspe (SH), Tel. 04893/37660, info@stender-hohenaspe.de, Mo–Fr 07:00–17:00 (Impressum-Live-Fetch 01.10.2026, kein HRB genannt); kein NRH-Bezug, kein Hannover-Standort belegt (ca. 150 km entfernt); GmbH ohne HRB-Beleg → kein Frontmatter-Fill, Hannover-Angabe als unbelegt dokumentiert; Quelle(n): stender-hohenaspe.de (Feedback 2322)]

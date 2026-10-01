@@ -1,12 +1,12 @@
 ---
 slug: he-fulda-rodges-schmitt-recycling-entsorgung
 name: Schmitt Recycling & Entsorgung GmbH & Co. KG
-trader_type: sonstige
+trader_type: containerdienst
 state: HE
 city: Fulda-Rodges
 street: Böcklerstr. 31
-postcode: ''
-phone: +49 661 73966
+postcode: '36041'
+phone: 0661/73966
 email: info@schmitt-recycling.de
 opening_hours: Gewerbe Mo–Do 8:00–17:00, Fr 8:00–16:00, Sa (1.+3./Monat) 8:00–12:00;
   Privat Sa (1.+3./Monat) 8:00–12:00
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2247 BERECHTIGT eingearbeitet — Owner-Primaerquelle (Impressum GmbH & Co. KG, HRA 5228 AG Fulda, GF Michael/Nicole Schmitt, Boecklerstr. 31, 36041 Fulda) allein ausreichend; Frontmatter-Fills PLZ 36041, Telefon normalisiert 0661/73966, Typ sonstige→containerdienst (eigene Leistungen Container + Wertstoffhof); Zeiten/E-Mail bestanden bereits; Quelle(n): https://schmitt-recycling.de/impressum/ + https://schmitt-recycling.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

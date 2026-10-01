@@ -8,7 +8,7 @@ street: Heerter Straße 39
 postcode: 38229
 phone: 05341 44252
 email: info@posniak-recycling.de
-opening_hours: Mo–Fr 07:30–16:00
+opening_hours: Mo–Fr 07:30–16:00 (Mittagspause 12:00–12:30 keine Anlieferung)
 website: https://www.posniak-recycling.de
 website_status: aktiv
 status: aktiv
@@ -31,6 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website live und tiefgecrawlt (Start, Schrott & Metall/Leistungen/Materialsorten, Containerdienst, Standort, Kontakt, Impressum einzeln abgerufen). Impressum: Posniak Recycling GmbH, Heerter Str. 39, 38229 Salzgitter, Tel. 05341 44252, HRB 200683 AG Braunschweig, GF Michael Posniak. Öffnungszeiten Mo–Fr 07:30–16:00 (Mittagspause 12:00–12:30 keine Anlieferung). Zweitbeleg: Northdata-Registerspiegel HRB 200683 AG Braunschweig, Adresse Heerterstr. 39 Salzgitter, Gegenstand Rohstoffhandel/Transporte/Containerdienst/Abfallentsorgung, lückenlose Jahresabschlüsse bis 2024. Frontmatter aus Betreiber-Impressum befüllt (Owner-Direktive: HR-kongruent inkl. Adresse). Quelle(n): https://www.posniak-recycling.de, https://www.posniak-recycling.de/impressum/, https://www.posniak-recycling.de/unternehmen/standort/, Northdata HRB 200683.]
+- [Feedback-Triage ID 2365: Meldung berechtigt — Mittagspause (12:00–12:30 keine Anlieferung, Betreiber-Standortseite) in opening_hours ergänzt; Rest (Adresse/Telefon/Typ) bereits register-kongruent befüllt. Beleglage: Doppelbeleg. Quelle(n): siehe Vorbullet.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -4,13 +4,13 @@ name: Annecke Schrotthandel (Familienbetrieb seit 1980)
 trader_type: metallhaendler
 state: HE
 city: Lahntal
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Vor der Aue 5
+postcode: '35094'
+phone: 0173 8274958
+email: info@annecke-schrotthandel.de
+opening_hours: 24h
 website: http://annecke-schrotthandel.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''

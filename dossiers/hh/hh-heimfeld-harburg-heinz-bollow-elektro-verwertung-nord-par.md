@@ -1,7 +1,7 @@
 ---
 slug: hh-heimfeld-harburg-heinz-bollow-elektro-verwertung-nord-par
 name: Heinz Bollow GmbH (+ Elektro Verwertung Nord, Partner)
-trader_type: sonstige
+trader_type: schrotthaendler
 state: HH
 city: Heimfeld/Harburg
 street: Wilhelm-Weber-Straße 2
@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Primärquelle verifiziert (Impressum: Heinz Bollow GmbH, Wilhelm-Weber-Straße 2, 21079 Hamburg, GF Heinz Bollow, AG Hamburg HRB 33030; HR-kongruent per Northdata-Titel: Heinz Bollow GmbH, Hamburg, AG Hamburg HRB 33030). Fills (Straße, PLZ, Telefon, E-Mail, Öffnungszeiten, website_status aktiv) per Owner-Direktive 01.10.2026; Schrott-/Metallhandel seit 1948, TÜV-Nord-EFB, Partner Elektro Verwertung Nord (elektroverwertung.de); Quelle(n): https://heinzbollowgmbh.de/ + https://heinzbollowgmbh.de/impressum/ (eine Quelle) + Northdata HRB 33030 (HR-Kongruenz)]
+- [Recherche 01.10.2026: Feedback 2184 berechtigt — trader_type sonstige → schrotthaendler (Betreiber-Selbstdarstellung: Schrott- & Metallhandel seit 1948, Ankauf Metall-/Eisenschrott für Gewerbe + Privat + Register-Gegenstand HRB 33030: Handel mit Schrott, gebrauchten Maschinen, Nutzeisen und Metallen = 2 Quellen); Adress-/Kontakt-Felder bereits per Vor-Recherche 01.10.2026 gefüllt; Quelle(n): https://heinzbollowgmbh.de/ + Northdata HRB 33030]

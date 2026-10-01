@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Negativbefund — GS „schrott essen“ (30 Treffer, Komplettliste geprueft) enthaelt kein Nowak, keine Marktstr. 14. Backyard-Typ (0176-Nr.) ohne Betreiber-/Verzeichnisbeleg. Kein Fill, status bleibt pruefung (miss-nahe).; Quelle(n): https://www.gelbeseiten.de/suche/schrott/essen (Abruf 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Marktstr. 14, 0176-Nr. (Backyard-Typ)

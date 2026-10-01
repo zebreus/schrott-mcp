@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Lead: Matthäus-Ring 5, 33154 Salzkotten (nur Aggregator, kein Zweitbeleg); Quelle(n): keine belegfähige — nur Aggregatoren (Leads)]
+
+### Recherche 01.10.2026 (Ergänzung)
+
+- [Recherche 01.10.2026: Klärfall bleibt — kommunale Quelle (niederntudorf.de, Ortsteil Salzkotten) nennt Matthäus-Ring 3 vs. Aggregator Nr. 5 (Hausnummern-Widerspruch); kein Zweitbeleg, keine Betreiberquelle; weiter kein Fill, Status pruefung; Quelle(n): niederntudorf.de + Aggregator (widersprüchliche Leads)]

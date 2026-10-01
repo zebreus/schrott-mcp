@@ -1,7 +1,7 @@
 ---
 slug: ni-wilhelmshaven-jade-stahl
 name: ALBA Metall Nord GmbH, Standort Wilhelmshaven
-trader_type: sonstige
+trader_type: schrotthaendler
 state: NI
 city: Wilhelmshaven
 street: 'Emsstr. 29'
@@ -44,3 +44,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Betreiber-Bestätigung: Detailseite metall.alba.info führt den Standort Wilhelmshaven (Emsstrasse 29, 26382, +49 4421 4020, amn.wilhelmshaven@alba.info) ausdrücklich als „früher Jade-Stahl Wilhelmshaven“.
 - Frontmatter auf Betreiber-Stand gesetzt (name ALBA Metall Nord GmbH, Standort Wilhelmshaven; Adresse/Zeiten/Mail vom Betreiber; website metall.alba.info aktiv). Altname JADE-STAHL hier in Timeline dokumentiert. Schwester-Dossier: ni-wilhelmshaven-alba-metall-nord-hafen.
 - Quellen: https://www.northdata.de/INTERSEROH+Jade-Stahl+GmbH,+Wilhelmshaven + https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-wilhelmshaven/
+
+### Recherche 01.10.2026
+
+- [Feedback-Triage ID 2368: Meldung berechtigt — Dublette von ni-wilhelmshaven-alba-metall-nord-hafen (ID 1156) bestätigt (Verschmelzung 2014, Gesellschaft erloschen, Rechtsnachfolger ALBA Metall Nord); Dossier bleibt als Altname-Spur bestehen (kein Löschen), Frontmatter auf Betreiber-Stand, Altname in Timeline; Typ sonstige → schrotthaendler (wie Schwester-Dossier). Beleglage: Betreiber + Northdata-Verschmelzungsbefund. Quelle(n): siehe Korrektur-Bullet.]

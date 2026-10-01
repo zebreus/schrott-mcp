@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Mülheim
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — Aggregatoren widersprechen sich (Bülowstr. 175 vs. Markomannenstr. 18, Mülheim); keine Betreiberquelle, kein HR-Eintrag; Adresse daher nicht frontmatter-fähig, Status bleibt pruefung; Quelle(n): nur Aggregatoren (Leads mit Adresswiderspruch, kein Beleg)]

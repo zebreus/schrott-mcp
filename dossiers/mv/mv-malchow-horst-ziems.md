@@ -1,14 +1,14 @@
 ---
 slug: mv-malchow-horst-ziems
 name: Ziems Recycling Malchow GmbH & Co. KG
-trader_type: sonstige
+trader_type: schrottplatz
 state: MV
 city: Malchow
 street: Am Bahnhof
 postcode: '17213'
 phone: +49 39932 82730
 email: info@ziems-recycling.de
-opening_hours: ''
+opening_hours: 'Mo-Fr 7:00-17:00, Sa (gerade KW) 7:00-11:30'
 website: https://www.ziems-recycling.de
 website_status: aktiv
 status: pruefung
@@ -36,3 +36,5 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Bewiesene Korrektur mit 2 Belegen — Name/Adresse falsch (Horst Ziems/Bahnhofstr. 44), korrekt Ziems Recycling Malchow GmbH & Co. KG, Am Bahnhof 17213 Malchow, Tel +49 39932 82730, info@ziems-recycling.de; HRA2440 AG Neubrandenburg, GF Olaf Ziems; Owner-Ausnahme erfüllt; Quelle(n): ziems-recycling.de/impressum.html + ziems-recycling.de/kontakt.html (eine Betreiberquelle) + Northdata HRA2440 als 2. Beleg]
+
+- [Recherche 01.10.2026 / Feedback-Triage 2345: Hours-Fill Betreiber-Primärquelle (Standort Malchow): Mo–Fr 07:00–17:00, Sa gerade KW 07:00–11:30; Typ sonstige → schrottplatz (Schrott-/Buntmetallankauf, Altauto-Annahme, Abholung/Kleinstmengen, Container 7/34 cbm; Abbruch-Nebenleistung, kein Typwechsel auf autoverwertung); Abholung/Kleinstmengen/Container als Betreiber-Leistung belegt; Quelle(n): ziems-recycling.de/malchow.html (Live-Fetch 01.10.2026)]

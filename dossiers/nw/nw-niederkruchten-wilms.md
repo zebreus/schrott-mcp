@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Niederkrüchten
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — Verwechslungsgefahr: Wilms-TKS-Treffer gehören zu anderem Unternehmen (kein Schrottbezug Niederkrüchten); kein Betreiber, kein HR-Eintrag zu Wilms Schrott in Niederkrüchten; Status bleibt pruefung; Quelle(n): Websuche ohne belegfähigen Treffer]

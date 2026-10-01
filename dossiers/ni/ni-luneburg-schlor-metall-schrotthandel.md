@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche ni-luneburg-schlor-metall-schrotthandel: Betreiber-Impressum verifiziert (Schlör Metall & Schrotthandel, Inh. Oliver Schlör, e.K., Bei der Pferdehütte 6, 21339 Lüneburg, Tel 04131-33458): Adresse/Tel/Mail nur Einzelbeleg (e.K. ohne HRB → keine Owner-Ausnahme; kein HR-Eintrag, Verzeichnisse sind Leads) — NICHT in Frontmatter; website verifiziert + aktiv; Quelle(n): https://www.schloer-metall-schrotthandel.de/, https://www.schloer-metall-schrotthandel.de/impressum/]
+- [Feedback-Triage ID 2377: Meldung teilweise berechtigt — Kontaktdaten stehen zwar auf der Betreiber-Website (inhaltlich zutreffend), aber nur als Einzelbeleg (e.K. ohne HR, keine Owner-Ausnahme, kein Zweitbeleg) → korrekterweise NICHT in Frontmatter (Klärfall, siehe Vorbullet); website_status → aktiv berechtigt. Beleglage: Einzelbeleg Betreiber. Quelle(n): siehe Vorbullet.]

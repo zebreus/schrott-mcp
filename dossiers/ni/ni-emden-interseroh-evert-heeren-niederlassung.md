@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Betreiber-Fakten verifiziert per Nehlsen-Standortseite: Nehlsen E. Heeren GmbH, Zu den Hafenbecken 18, 26723 Emden (Navi: Nesserlander Str. 86), Zentrale 04921 20216, info.e.heeren@nehlsen.com, Bürozeiten Mo.–Do. 7:30–16:00, Fr. 7:30–13:00 Uhr. Frontmatter auf Betreiber-Stand gesetzt (status aktiv, website nehlsen.com aktiv; Impressum verifiziert: Nehlsen SE & Co. KG, Wilhelm-Karmann-Str. 5, 28237 Bremen, HRA 31047 AG Bremen).
 - Leistungen lt. Betreiber: Stahl- und NE-Metallschrott.
 - Quellen: https://www.nehlsen.com/standorte/detail/nehlsen-e-heeren-gmbh-standort-emden + https://www.nehlsen.com/unternehmen/news-presse/detail/metallrecycling-als-neues-geschaeftsfeld-nehlsen-ag-baut-marktposition-aus (ALBA-Pressemappe auch unter https://www.alba.info/fileadmin/user_upload/200225_Interseroh_Evert_Heeren.pdf).
+
+### Recherche 01.10.2026
+
+- [Feedback-Triage ID 2370: Meldung berechtigt — Lat/Lon ca. 75 km vom Standort Emden entfernt (DB-Koordinaten zeigen ins Weser-Gebiet statt Emden): Dossier-Fakten (Zu den Hafenbecken 18, 26723 Emden) sind betreiber-verifiziert, Koordinaten-Fehler in Timeline vermerkt, Neu-Geocodierung läuft automatisch (adressbasiert); Slug unverändert. Beleglage: Betreiber-Standortseite. Quelle(n): siehe Korrektur-Bullet.]

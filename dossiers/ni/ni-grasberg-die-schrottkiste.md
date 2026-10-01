@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Abgrenzung zu „Schrottkiste“ Isenbüttel unklar)
+
+### Recherche 01.10.2026
+
+- [Audit-2 2420 01.10.2026: Audit-2 Feedback 2420 bestaetigt: https://die-schrottkiste.regional.de zeigt nur INTRAG-Backoffice-Login (kein Haendler-Impressum, keine Adresse, kein Ankauf); Quelle(n): Betreiber-Seite selbst, 01.10.2026]
+- [Audit-2 2420 01.10.2026: Klaerfall: keine Frontmatter-Aenderung (kein belegter Haendler)]

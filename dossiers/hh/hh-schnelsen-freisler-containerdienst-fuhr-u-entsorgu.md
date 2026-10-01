@@ -6,8 +6,8 @@ state: HH
 city: Schnelsen
 street: Flagentwiet 25-27
 postcode: '22457'
-phone: ''
-email: ''
+phone: 040 / 559 79 30
+email: info@freisler.com
 opening_hours: ''
 website: https://freisler.com/
 website_status: aktiv
@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Impressum + Northdata HRA 69937 AG Hamburg nennen übereinstimmend Freisler Containerdienst GmbH & Co. KG, Flagentwiet 25-27, 22457 Hamburg — Straße/PLZ + website_status aktiv doppelt belegt; Impressum-HRB 36306 gehört der Verwaltungs-GmbH (pers. haft. Gesellschafterin).; Quelle(n): https://freisler.com/impressum, https://www.northdata.de/Freisler Containerdienst GmbH & Co. Fuhr- und Entsorgungsbetrieb KG, Hamburg/Amtsgericht Hamburg HRA 69937]
+- [Recherche 01.10.2026: Feedback 2205 teilweise berechtigt — Telefon 040 / 559 79 30 + E-Mail info@freisler.com per Betreiber-Impressum (HR-kongruent: Freisler Containerdienst GmbH & Co. KG, Flagentwiet 25-27, 22457 Hamburg) → gefüllt; Hausnummer-Abweichung unberechtigt: Flagentwiet 25 (Kontaktseite) ist Kurzform von Flagentwiet 25-27 (Impressum + Northdata HRA 69937 übereinstimmend) → street bleibt 25-27; Quelle(n): https://freisler.com/impressum + https://freisler.com/kontakt + Northdata HRA 69937]

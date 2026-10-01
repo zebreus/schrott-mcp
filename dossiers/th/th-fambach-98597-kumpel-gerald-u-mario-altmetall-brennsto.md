@@ -4,8 +4,8 @@ name: Kümpel Gerald u. Mario Altmetall-/Brennstoffhandel/Containerdienst
 trader_type: containerdienst
 state: TH
 city: Fambach 98597
-street: ''
-postcode: ''
+street: 'Am Wasser 7'
+postcode: '98597'
 phone: 036848 31489
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: konvergente Verzeichnis-Belege (Das Oertliche + Gelbe Seiten + 11880 + tellows Nummer 036848-31489: Kuempel Gerald u. Mario Altmetall-/Brennstoffhandel u. Containerdienst, Am Wasser 7, 98597 Fambach); kein Betreiber-Webauftritt auffindbar - begruendeter Ausnahmefall, Adresse/PLZ als Aggregator-Beleg gefuellt (Tel bereits Seed-belegt, kongruent), kein website-Fill; status weiter pruefung; Quelle(n): https://www.dasoertliche.de/Themen/Kümpel-Gerald-u-Mario-Altmetall-Brennstoffhandel-u-Containerdienst-Fambach-Am-Wasser, https://www.gelbeseiten.de/gsbiz/c199f4e7-7cf8-4e1a-8257-8f3d5149448f, https://www.tellows.de/num/03684831489]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

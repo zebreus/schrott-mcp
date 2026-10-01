@@ -7,10 +7,10 @@ city: Bebra 36179
 street: Ulfenmühle 1
 postcode: '36179'
 phone: 06622919991
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+email: info@autoreif.com
+opening_hours: Mo-Fr 09:00-12:00 + 13:00-18:00
+website: https://autoreif.com
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu Reif Marcus (Ulfenmühle 1, 36179 Bebra) verifiziert; Strasse/Tel. nur Verzeichnis-Leads ohne Zweitbeleg, unangetastet; Autoverwertung-Zuordnung unklar; Statusfeld unveraendert; Quelle(n): keine Betreiberquelle]
+
+### Recherche 01.10.2026 (Korrektur)
+
+- [Recherche 01.10.2026: ok — Vor-Notiz (kein Webauftritt) war falsch: Betreiber-Website autoreif.com belegt Marcus Reif, Ulfenmühle 1, 36179 Bebra-Weiterode, Tel. 06622 919991, Autoverwertung + 24h-Abschleppdienst, Öffnungszeiten Mo-Fr 9-12 + 13-18 Uhr; Adresse/Telefon decken sich mit Gelbe-Seiten-/11880-Leads (Zweitbeleg); kein HR-Eintrag gefunden (mutmaßl. Einzelunternehmen), Status bleibt pruefung; Quelle(n): https://www.autoreif.com/ + https://www.autoreif.com/kontakt + https://www.autoreif.com/impressum (Betreiber-Website)]

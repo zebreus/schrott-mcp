@@ -5,12 +5,12 @@ trader_type: wertstoffhaendler
 state: HE
 city: Mühlheim am Main
 street: Dieselstr. 71
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+postcode: '63165'
+phone: 06108/67067
+email: info@felbinger.de
+opening_hours: Mo-Fr 07:00-12:30 u. 13:00-17:00, Sa 08:00-12:00
 website: https://www.felbinger.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Entsorgungsfachbetrieb, Wertstoffhof (Metall-Selbstanlieferung), Container
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-2228-Triage BERECHTIGT, eingearbeitet — Betreiber-Impressum (GmbH, HR 6821 AG Offenbach, GF Andreas Felbinger) nennt Dieselstr. 71, 63165 Mühlheim am Main, Tel. 06108 67 0 67, info@felbinger.de; Zeiten (Footer): Mo-Fr 07:00-12:30 u. 13:00-17:00, Sa 08:00-12:00 (nur Annahme/Verkauf). Northdata HRB 6821 HR-kongruent (Dieselstr. 71, D-63165 Mühlheim). Verifizierte Betreiber-Primärquelle + HR-Kongruenz (Efb-Zertifikat bis 2027, aktuelle Leistungsseiten) → PLZ/Telefon/E-Mail/Zeiten/website_status aktiv übernommen; Koordinaten neu zu geocodieren (adressbasiert). Namensvetter-Check: kein zweites Felbinger-Entsorgungsunternehmen.; Quelle(n): https://www.felbinger.de/impressum/ + https://www.northdata.de/Felbinger GmbH, Mühlheim a. Main/HRB 6821]

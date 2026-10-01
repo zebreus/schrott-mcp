@@ -4,9 +4,9 @@ name: CE Schrotthandel Inh. E. Kochann
 trader_type: schrotthaendler
 state: SL
 city: Marpingen-Berschweiler 66646
-street: ''
-postcode: ''
-phone: ''
+street: 'Dirminger Str. 2'
+postcode: '66646'
+phone: '06827 9027620'
 email: ''
 opening_hours: ''
 website: ''
@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, Metall (GS-Beleg lt. Vorlage; Örtliche Marpingen ohne lokalen Treffer)
 - Adresse: Marpingen-Berschweiler 66646, Dirminger Str. 2
+
+### Recherche 01.10.2026 (2. Durchgang)
+
+- [Recherche 01.10.2026: Gegenbefund zum Vorvermerk (DDG statt Bing): Gelbe Seiten (Kochann Erich, Metalle/Metallhalbzeuge, Leistungen Schrotthandel/Metallhandel, Dirminger Str. 2, 66646 Marpingen-Berschweiler, Tel 06827 9027620, Zeiten Mo-Fr 8-16/Sa 10-14, Webseite-Button ohne sichtbare URL) + 11880 (CE Schrotthandel, gleiche Adresse, gleiche Nummer) - zwei konvergente Verzeichnisse; kein Betreiber-Impressum, kein Register (Einzelunternehmen, keine Owner-Ausnahme) - begruendeter Ausnahmefall, Strasse/PLZ/Tel gefuellt, Zeiten nur GS-Einzelbeleg nicht gefuellt (nur Timeline), kein website-Fill; Vorvermerk bleibt als Historie erhalten; status weiter pruefung; Quelle(n): https://www.gelbeseiten.de/gsbiz/f1d17323-529b-4b43-885b-cad9704ab1da, https://www.11880.com/branchenbuch/marpingen/B107213437/ce-schrotthandel.html, https://www.cybo.com/DE-biz/c-e-schrotthandel-inh-e-kochann]
 
 ### Recherche 01.10.2026
 

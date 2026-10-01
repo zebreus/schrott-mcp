@@ -33,6 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 01.10.2026: Owner-Ausnahme (Impressum Name+HRB+Ort, HR-kongruent HRB 26864 AG Wiesbaden, GF Herbert Lagerin, Am Roten Stock 16, 65199 Wiesbaden); Quelle(n): https://www.hlr-rohstoffhandel.de/impressum/ + https://www.hlr-rohstoffhandel.de/kontakt/ (Am Roten Stock 16, 65199 Wiesbaden)]
 - [Recherche 01.10.2026: HR-Gegenbeleg H.L.R. Herbert Lagerin Rohstoffhandel GmbH, AG Wiesbaden HRB 26864, Adresse Am Roten Stock, 65199 Wiesbaden, Gegenstand Schrotthandel/Zerlegung/Sortierung; Quelle(n): https://www.northdata.de/H.L.R.+Herbert+Lagerin+Rohstoffhandel+GmbH,+Wiesbaden/HRB+26864]
 - [Recherche 01.10.2026: Frontmatter-Fills Adresse/PLZ (Doppelbeleg), Oeffnungszeiten + description (Betreiber + HR-Gegenstand); Telefon leer gelassen (Widerspruch Impressum 0611 97444655 vs. Kopf/Fusszeile 06131 215857); E-Mail leer (Cloudflare-verschleiert, Adresse unbekannt); Anlieferung laut Standort-Seite in Mainz (Industriestr. 1-3, 55120 Mainz), Dotzheim-Sitz laut Impressum; Quelle(n): https://www.hlr-rohstoffhandel.de/ + https://www.hlr-rohstoffhandel.de/standort-wiesbaden/ + https://www.hlr-rohstoffhandel.de/standort-mainz/]
+- [Recherche 01.10.2026: Feedback-Triage 2232 KLAERFALL bestaetigt — Telefon fehlt zu Recht (Widerspruch s.o., kein Zweitbeleg); keine Frontmatter-Aenderung, Wellen-Befund bleibt; Quelle(n): s.o.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

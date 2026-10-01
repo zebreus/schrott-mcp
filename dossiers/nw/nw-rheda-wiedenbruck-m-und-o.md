@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche ohne Fund: keine Treffer in Verzeichnissen oder Websuche, keine Betreiber-Quelle; Felder leer; Quelle(n): Websuche]
 - Klärfall: Existenz und Schrottbezug ungeklärt, ggf. Phantom-/Karteileiche. Status bleibt pruefung.
 
+### Recherche 01.10.2026 (Korrektur)
+
+- [Recherche 01.10.2026: Vor-Notiz (keine Treffer) war falsch — 11880 listet M und O, Bismarckstr. 25, 33378 Rheda-Wiedenbrück, Tel. 0176 61577818; Einzel-Aggregator ohne Zweitbeleg, daher Lead ohne Frontmatter-Fill; Status bleibt pruefung; Quelle(n): 11880-Eintrag (Lead, kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - mobil (GS)

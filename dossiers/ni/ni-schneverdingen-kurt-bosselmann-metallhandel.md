@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 - Betreiber-Impressum (Kurt Bosselmann Metallhandel, Hamburger Str. 18, 29640 Schneverdingen-Heber, HRA 203351 AG Lüneburg) + Northdata-kongruent (Owner-Ausnahme).
 - Quellen: https://bosselmann-metallhandel.de/impressum, Northdata HRA 203351.
+- [Feedback-Triage ID 2380: Meldung teilweise berechtigt — Kontaktdaten/Adresse korrekt befüllt (siehe Vorbullets, HRA-kongruent); Zeiten-Behauptung unberechtigt: keine Öffnungszeiten auf Betreiber-Seite und kein Zweitbeleg → Zeiten korrekterweise leer. Beleglage: Betreiber + Northdata HRA 203351. Quelle(n): siehe Vorbullets.]

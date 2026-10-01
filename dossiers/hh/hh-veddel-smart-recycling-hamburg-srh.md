@@ -4,13 +4,13 @@ name: Smart Recycling Hamburg (SRH)
 trader_type: schrotthaendler
 state: HH
 city: Veddel
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Sachsenbrücke 5
+postcode: '20457'
+phone: 0176 79 00 40 80
+email: info@srh-metallhandel.de
+opening_hours: 'Mo-Fr 08:30-17:30, Sa 09:00-14:00'
 website: https://www.schrottplatz-hamburg.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kupfer, Kabel, Alu, Messing, E-Schrott/CPU, Barauszahlung
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2179 berechtigt — Fills (Straße, PLZ, Telefon, E-Mail, Öffnungszeiten) + website_status aktiv per Betreiber-Kontaktseite + Impressum (SMART Recycling Hamburg, Inh. Stiliyan Hadjiev, Sachsenbrücke 5, 20457 Hamburg; Steuernummer 43/083/03573, kein HRB); zwei Seiten, EINE Quelle → EINZELBELEG, Owner-Ausnahme greift nicht (kein HRB), Zweitbeleg offen; Adresse neu → Koordinaten neu geocodieren; Quelle(n): https://www.schrottplatz-hamburg.de/kontakt.html + /impressum.html]

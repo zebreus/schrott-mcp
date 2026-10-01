@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Kein belastbarer Treffer — keine Betreiber-Website, kein Register-, kein Kommunalbeleg gefunden (Websuche ohne Ergebnis). Rechtsform/Name des Betriebs ungeklärt; Felder leer gelassen, Klärfall für Folgewelle. Quelle(n): keine.]
 
+### Recherche 01.10.2026 (Shard NW/NI/MV/SH)
+
+- [Recherche 01.10.2026: GS „schrott wolfsburg“ (3 Treffer) kennt keinen „Eisen & Metallhandel Ankauf und Verkauf“ — einziger Vorsfelder Schrottbetrieb: Karl-Heinz Possiel Metallschrotthandlung, An der Meine 23, 38448 Wolfsburg-Vorsfelde, Tel. 05363 7848. Identitaet mit Dossier-Betrieb UNBELEGT (Namensmismatch) → kein Fill, status bleibt pruefung.; Quelle(n): https://www.gelbeseiten.de/suche/schrott/wolfsburg (Abruf 01.10.2026, Lead ohne Identitaetsbeleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle

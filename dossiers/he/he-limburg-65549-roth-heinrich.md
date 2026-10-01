@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Limburg 65549
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — kein Betreiber, keine Adresse, kein HR-Eintrag zu Roth Heinrich Schrott in Limburg verifiziert (Namensdubletten ohne Schrottbezug); Status bleibt pruefung; Quelle(n): Websuche ohne belegfähigen Treffer]

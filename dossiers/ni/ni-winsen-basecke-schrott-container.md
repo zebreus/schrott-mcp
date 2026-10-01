@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Filial-Fakten via Owner-Ausnahme befuellt (An der Kleinbahn 41, 21423, 04171 71918, schrottplatz@baesecke.de, Mo–Fr 07:30–16:45, aktiv); Impressum Name+HRB+Ort HR-kongruent; Quelle(n): Betreiber baesecke.de/impressum + baesecke.de/kontakt (HRB 110123 AG Lueneburg) + Kreiszeitung-Wochenblatt Winsen (Entsorgungsfachbetrieb-Bericht, redaktioneller Zweitbeleg)]
+- [Feedback-Triage ID 2378: Meldung berechtigt — Kontaktdaten/Zeiten korrekt befüllt (siehe Vorbullet); Lat/Lon ca. 50 km von Winsen (Luhe) entfernt: DB-Koordinaten zeigen Richtung Hamburg statt Winsen — in Timeline vermerkt, Neu-Geocodierung läuft automatisch (adressbasiert); Slug unverändert. Beleglage: Betreiber (Owner-Ausnahme, HR-kongruent) + redaktioneller Zweitbeleg. Quelle(n): siehe Vorbullet.]

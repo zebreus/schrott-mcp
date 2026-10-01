@@ -32,6 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Betreiber-Primärquelle (Live-Abruf): schrotthandelundsteinreinigung-marcelwagner-wiesbaden.com – Impressum: Hollermorgenstraße 3, 65199 Wiesbaden, Tel. +49 157 54648788, Zeiten Mo-Fr 08:00-18:00, Sa 08:00-13:00. Gelbe-Seiten-Lead bestätigt Adresse (nur Lead).
 - Klärfall: Einzelunternehmen ohne HRB → keine Owner-Ausnahme; nur Betreiber-Einzelbeleg → Adresse (bestand bereits)/Telefon/Zeiten bleiben leer bzw. nur in Description; postcode 65199 + website (Live-verifiziert, aktiv) übernommen.
+- [Recherche 01.10.2026: Feedback-Triage 2233 KLAERFALL bestaetigt — Telefon fehlt zu Recht (Einzelbeleg), Adresse Hollermorgenstr. 3 ist laut Impressum Verwaltungssitz (keine Anlieferungs-Oeffnungszeiten als Annahme werten); Typ bleibt schrotthaendler, dropoff leer (mobil/Abholung, keine oeffentliche Annahme belegt); keine Frontmatter-Aenderung; Quelle(n): s.o.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

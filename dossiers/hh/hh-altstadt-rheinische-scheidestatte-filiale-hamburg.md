@@ -4,13 +4,13 @@ name: Rheinische Scheidestätte GmbH, Filiale Hamburg
 trader_type: sonstige
 state: HH
 city: Altstadt
-street: Steinstr. 27
+street: Steinstraße 27
 postcode: ''
 phone: ''
 email: ''
-opening_hours: ''
+opening_hours: Mo-Fr 09:30-18:00, Sa geschlossen
 website: https://rheinische-scheidestaette.de/unternehmen/filialen/hamburg/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Edelmetall-An-/Verkauf, Uhren/Diamanten, Tafelgeschäft
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2203 berechtigt — Öffnungszeiten (Mo-Fr 09:30-18:00, Sa geschlossen) + website_status aktiv + Straßen-Normierung (Steinstr. → Steinstraße) per Betreiber-Filialseite (Steinstraße 27, 20095 Hamburg); Adresse/Telefon/E-Mail bereits belegt, unverändert; Quelle(n): https://rheinische-scheidestaette.de/unternehmen/filialen/hamburg/]

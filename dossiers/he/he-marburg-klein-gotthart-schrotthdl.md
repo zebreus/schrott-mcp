@@ -38,3 +38,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Impressum (Einzelbeleg, unsicher, nicht übernommen): Gotthard Klein, Ginseldorferweg 26a, 35039 Marburg, Tel 06421-62188, Fax 06421-690666 (kein HRB, Einzelunternehmen, daher keine Owner-Ausnahme)
 - Aggregator-Leads (keine Belege): Ginseldorfer Weg 26a + Tel 06421 62188 übereinstimmend auf Das Örtliche, Gelbe Seiten, 11880, Cylex, firmania, branchen-info, schrottplatz.org
 - Mail im Impressum per JS verschleiert, nicht lesbar; Kontaktseite nur Formular ohne Adressangabe
+- [Recherche 01.10.2026: Feedback-Triage 2244 KLAERFALL bestaetigt — Wellen-Befund bleibt (Familien-Einzel, nur Einzelbeleg, Felder leer); keine Aenderung; Quelle(n): s.o.]

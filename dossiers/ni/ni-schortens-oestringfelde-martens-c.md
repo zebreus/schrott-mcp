@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kein Web-Beleg für Martens, C. in Schortens-Oestringfelde (Gelbe Seiten / Das Telefonbuch / Das Örtliche ohne Treffer) → miss, kein Fill.
 - Quelle (Negativsuche): https://www.gelbeseiten.de/suche/Schrott/Schortens
+
+### Recherche 01.10.2026 (Shard NW/NI/MV/SH)
+
+- [Recherche 01.10.2026: Re-verifiziert — GS „schrott schortens“ (3 Treffer: Brosda/Wangerland, Steenker/Jever, Richter/Jever), kein Martens. Miss bekräftigt, kein Fill, status bleibt pruefung.; Quelle(n): https://www.gelbeseiten.de/suche/schrott/schortens (Abruf 01.10.2026)]

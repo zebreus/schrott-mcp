@@ -31,6 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — kein Betreiber-Beleg gefunden. Nur Aggregator-Spuren (11880: Adolf Krauß Containerdienst Bergisch Gladbach; Das Telefonbuch: Namensliste). Kein Impressum, kein Register, keine Betreiber-Social-Seite. Ob „Krauß Schrott" mit Adolf Krauß Containerdienst identisch ist, unbelegt. Felder bleiben leer, status pruefung.; Quelle(n): Lead-Recherche 01.10.2026 (Aggregator-Leads, kein Beleg)]
+- [Recherche 01.10.2026 (Shard NW/NI/MV/SH): Gegenprobe GS „schrott bergisch gladbach“ (6 Treffer: Blum, Peters u.a.) — kein Krauß, bestaetigt Klaerfall oben; kein Fill.; Quelle(n): https://www.gelbeseiten.de/suche/schrott/bergisch-gladbach (Abruf 01.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

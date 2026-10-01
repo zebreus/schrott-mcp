@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Lüdinghausen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — Kürzel ASH mehrdeutig (u.a. Abfallwirtschaft, andere Branchen), kein Schrotthändler mit Betreiberquelle in Lüdinghausen verifiziert; kein HR-Eintrag; Status bleibt pruefung; Quelle(n): Websuche ohne belegfähigen Treffer]
