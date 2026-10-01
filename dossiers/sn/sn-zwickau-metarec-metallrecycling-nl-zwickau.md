@@ -8,7 +8,7 @@ street: 'Reichenbacherstraße 79b'
 postcode: '08056'
 phone: '0375 4406976-0'
 email: nlzwickau@metarec-recycling.de
-opening_hours: 'Mo–Fr 07:00–16:00'
+opening_hours: 'Mo-Fr 07:00-16:00 (Sa geschlossen)'
 website: https://www.metarec-recycling.de
 website_status: aktiv
 status: aktiv
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 - Betreiber-Standortseite (metarec NL Reichenbacherstr. 79b, 08056 Zwickau) + Legal Notice HRB 3821 AG Chemnitz, HR-kongruent (Owner-Ausnahme).
 - Quellen: https://www.metarec-recycling.de/de/standorte, https://www.metarec-recycling.de/en/legal-notice.
+
+### Recherche 01.10.2026 (Feedback 2662)
+
+- [Recherche 01.10.2026: Feedback 2662 berechtigt (Präzisierung) — Betreiber-Newsseite: Zwickau Mo-Fr 07:00-16:00, Samstag geschlossen (Lauter dagegen Sa 08-12 geöffnet); opening_hours auf 'Mo-Fr 07:00-16:00 (Sa geschlossen)' präzisiert. Owner-Ausnahme (Impressum HRB 3821). Quelle(n): https://www.metarec-recycling.de/de/news, https://www.metarec-recycling.de/de/standorte]

@@ -3,8 +3,8 @@ slug: bw-achern-77855-burck-rohstoffhandel-recycling
 name: Bürck Rohstoffhandel & Recycling GmbH
 trader_type: sonstige
 state: BW
-city: Achern 77855
-street: ''
+city: Achern
+street: Schleif 1
 postcode: '77855'
 phone: +49 7841 6267-20
 email: recycling@buerck-achern.de
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: street „Schleif 1“ + city-Bereinigung („Achern 77855“ → „Achern“) — 2-Quellen-Beleg: Betreiber-Kontaktseite „Schleif 1, D 77855 Achern“ UND Northdata „Schleif 1, D-77855 Achern“ (HRB 220273 AG Mannheim) UND Stadt Achern Unternehmens-A-Z „Schleif 1, 77855 Achern“. Seed-Schreibweise „Scheif 1“ war Tippfehler. Koordinaten neu zu geocodieren (adressbasierter Cache). Quellen: buerck-achern.de/de/recycling/kontakt-re/, northdata.de (HRB 220273), achern.de Unternehmens-A-Z.]
 
 ### Recherche 01.10.2026
 

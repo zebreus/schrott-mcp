@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott, Buntmetalle, Demontage, Container
 - lt. Das Örtliche
 
+### Recherche 01.10.2026 (Feedback 2666)
+
+- [Recherche 01.10.2026: Feedback 2666 sachlich zutreffend (E-Mail + Zeiten stehen auf Betreiberseite: info@schrott-gehrt.de; Mo-Mi/Fr 08:00-16:00, Do 08:00-17:30, Sa geschlossen), aber KEIN Frontmatter-Fill — Einzelunternehmen ohne HRB (Owner-Ausnahme greift NICHT), nur Betreiber-Einzelbeleg ohne Zweitbeleg (2-Beleg-Standard; konsistent mit Triage 30.09.2026). Werte hier dokumentiert, Klärfall für Folgewelle (Zweitbeleg Register/Social/kommunal). Abgrenzung bestätigt: Klaus-Georg Gehrt (Boschstr. 2, schrott-gehrt.de) ≠ Max Gehrt GmbH & Co. KG (Am Heizwerk 6, max-gehrt.de) — zwei echte Betriebe, kein Merge. Quelle: https://www.schrott-gehrt.de/impressum]
+
 ### Recherche 30.09.2026
 
 - [Recherche 30.09.2026: Boschstraße 2, 08371 Glauchau (Jerisau) + Tel. 03763/12550 + Fax .../12551 dreifach belegt via Impressum (PLZ/Telefon/Website Frontmatter gefüllt, Straße bereits vorhanden); Website https://www.schrott-gehrt.de (Impressum mit Name + Ort, website_status aktiv); Quelle: https://www.schrott-gehrt.de/impressum + https://lokaleschrottplatz.de/sachsen/glauchau/ + https://www.dasoertliche.de/?form_name=search_nat&kw=Gehrt&ci=Glauchau]

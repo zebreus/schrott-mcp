@@ -1,7 +1,7 @@
 ---
 slug: st-halberstadt-isr-recycling
 name: ISR Recycling GmbH & Co. KG
-trader_type: autoverwertung
+trader_type: schrottplatz
 state: ST
 city: Halberstadt
 street: In den langen Stücken 18a
@@ -31,6 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Standortseite live: Scrapyard Halberstadt, In den langen Stücken 18a, 38820 Halberstadt, Tel 03941-570150, Fax -570151, Mo-Fr 7-16 Uhr, Schrott-/Metallannahme. Zweitbeleg kommunal: ENWI (Entsorgungswirtschaft Landkreis Harz AöR) listet ISR Recycling GmbH & Co. KG mit identischer Adresse + Tel. Impressum (Itzehoe, Hafenstr. 35) ohne HRB-Angabe → Owner-Ausnahme nicht anwendbar, daher ENWI als Zweitbeleg genutzt. Gefüllt: street, postcode, phone, website_status aktiv, description; opening_hours nur Betreiber-Einzelbeleg (Mo-Fr 7-16) → Frontmatter leer. Quelle(n): https://www.isr-recycling.de/index.php/en/standorte-isr-en + https://www.enwi-hz.de/adressen/entsorgungspartner/sonstige-partner/index.html]
+- [Recherche 01.10.2026 (Feedback 2744, berechtigt): trader_type autoverwertung → schrottplatz korrigiert. Betreiber-DE-Seite nennt den Standort „Schrottplatz Halberstadt" (Ankauf Schrott-/Metallabfälle, keine Kfz-Verwertung belegt); ISO-9001-Zertifikat (TÜV, auf Betreiber-Seite) listet Halberstadt mit „Schrott- und Metallaufbereitung, Betrieb einer Schrottschere, Containerdienst". Gegenprobe Namensvetter: oeffnungszeitenbuch-Hinweis „c/o SMS Recycling" ist Aggregator-Lead ohne Zweitbeleg — kein Merge-Verdacht (Adresse/Tel identisch ISR). Öffnungszeiten weiter LEER: Betreiber Mo-Fr 7-16 vs Aggregatoren (recyclinghof-wertstoffhof, nochoffen, oeffnungszeitenbuch) 7-17 — Widerspruch. Quelle(n): https://www.isr-recycling.de/index.php/standorte-isr + https://www.isr-recycling.de/images/pdf/isr/zertifikate/zertifikat_iso_9001_alle_standorte.pdf]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

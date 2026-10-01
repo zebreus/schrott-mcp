@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback erneut geprüft (Zweitverifikation): Kontaktseite bestätigt B2B-only („arbeiten ausschließlich mit Unternehmen, keine Geräte von Privatpersonen“), Tel. +49 89 215 37 01-0, info@greenit-solution.de — alles eine Domain (Einzelbeleg), daher weiter kein Fill (Entscheidung 30.09.2026 bleibt). Ellwangen-Standort weiter ohne Betreiber-Beleg; status pruefung + Klärfall bleibt. Quelle(n): greenit-solution.de/kontakt/.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - IT-Verwertung (?)

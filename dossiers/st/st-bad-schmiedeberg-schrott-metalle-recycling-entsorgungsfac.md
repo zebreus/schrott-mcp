@@ -1,6 +1,6 @@
 ---
 slug: st-bad-schmiedeberg-schrott-metalle-recycling-entsorgungsfac
-name: Schrott Metalle & Recycling (Entsorgungsfachbetrieb)
+name: W.K.W. Recycling GmbH
 trader_type: schrotthaendler
 state: ST
 city: Bad Schmiedeberg
@@ -20,7 +20,11 @@ provenance_ankauf_raw: ja (lt. Verzeichnis, unbestätigt)
 provenance_origin: table
 ---
 
-# Schrott Metalle & Recycling (Entsorgungsfachbetrieb)
+# W.K.W. Recycling GmbH
+
+## Überblick
+
+_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Überblick
 
@@ -31,6 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Identität geklärt: Verzeichnisname = W.K.W. Recycling GmbH (Betreiber-Website wkw-recycling.de live: Startseite, Unternehmen, Impressum). Impressum: W.K.W. Recycling GmbH, Kossaer Str. 3 b, 06905 Bad Schmiedeberg OT Söllichau, Tel 034243/72837, Fax /21813, info@wkw-recycling.de, GF Kai Wetzel, HRB 25403 AG Stendal, Entsorgungsfachbetrieb. HR-kongruent per Northdata (HRB 25403 AG Stendal) + Creditreform (wirtschaftsaktiv) → Owner-Ausnahme anwendbar, Betreiber-Fakten übernommen. Zeiten Söllichau: Mo-Fr 7-16, Sa (gerade KW) 9-12. Gefüllt: city, street, postcode, phone, email, opening_hours, website (+aktiv), description; status pruefung→aktiv (bewiesene Korrektur: live + HR-aktiv). Quelle(n): https://wkw-recycling.de/ + https://wkw-recycling.de/impressum.html (eine Quelle, Owner-Ausnahme) + https://www.northdata.de/ (HRB 25403)]
+- [Recherche 01.10.2026 (Feedback 2748, berechtigt): Verzeichnis-Name war generisch („Schrott Metalle & Recycling (Entsorgungsfachbetrieb)") — Frontmatter-`name` auf Betreiber-Namen W.K.W. Recycling GmbH korrigiert (Altname in Timeline dokumentiert, Slug unverändert). Übrige Felder bereits in Recherche heute belegt. Quelle(n): s.o.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

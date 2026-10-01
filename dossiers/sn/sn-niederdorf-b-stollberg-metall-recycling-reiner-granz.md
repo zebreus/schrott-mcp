@@ -8,7 +8,7 @@ street: 'Chemnitzer Straße 2 F'
 postcode: '09366'
 phone: '037296 7930'
 email: 'info@metallrecycling-graenz.de'
-opening_hours: ''
+opening_hours: 'Mo-Mi 07:00-16:00, Do 07:00-18:00, Fr 07:00-16:00'
 website: https://metallrecycling-graenz.de
 website_status: 'aktiv'
 status: aktiv
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Bunt/E-Schrott, Sonderlegierungen, Tageshöchstpreise
 - lt. schrottplatz-info, zert. Metallhandel
+
+### Recherche 01.10.2026 (Feedback 2667)
+
+- [Recherche 01.10.2026: Feedback 2667 berechtigt — Betreiber-Kontaktseite (per-site, Owner-Ausnahme HRB 5934 AG Chemnitz) nennt Zeiten MIT Tageszuordnung: Mo-Mi 07:00-16:00, Do 07:00-18:00, Fr 07:00-16:00; opening_hours gefüllt (löst Vorbehalt 01.10.2026 auf). Quelle(n): https://www.metallrecycling-graenz.de/wp/kontakt]
 
 ### Recherche 01.10.2026
 

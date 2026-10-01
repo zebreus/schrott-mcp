@@ -1,13 +1,13 @@
 ---
 slug: bw-malsch-oettinger
 name: Oettinger
-trader_type: schrotthaendler
+trader_type: sonstige
 state: BW
 city: Malsch
 street: 'Ottostraße 12'
 postcode: '76316'
 phone: '+49 7246 94499-00'
-email: ''
+email: info@oettinger-bau.de
 opening_hours: ''
 website: https://oettinger.group/
 website_status: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott lt. Register
 - Adresse: Malsch
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: trader_type „schrotthaendler“ → „sonstige“ (Betreiber-Navigation: Bau/Rückbau/Stoffstrom; kein Schrott-Ankauf — Feedback bestätigt). E-Mail „info@oettinger-bau.de“ aus Impressum übernommen (Anzeigetext; mailto-Link weicht ab auf info@oettinger.group — Diskrepanz offengelegt, Anzeigetext + Das-Örtliche-Nennung oettinger-bau.de übernommen). Quelle(n): oettinger.group/impressum/ (Oettinger Gruppe GmbH, Ottostraße 12, 76316 Malsch).]
 
 ### Recherche 30.09.2026
 

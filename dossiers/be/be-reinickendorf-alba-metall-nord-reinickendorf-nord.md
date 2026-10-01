@@ -44,3 +44,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 01.10.2026 (Owner-Gate)
 
 - [Owner-Gate 01.10.2026: Gedankenstrich-Datenmüll → leer (Shard hat Street bereinigt, Phone übersehen).]
+
+### Recherche 01.10.2026 (Feedback-Triage 2857)
+
+- [Recherche 01.10.2026: Re-Verifikation Betreiber-Standortliste (13 Treffer: u. a. Spandau Nonnendammallee 28, Lichtenberg Herzbergstr. 46-48 — kein Reinickendorf/Rödernallee); Befund aus Korrektur 01.10.2026 bestätigt, kein Schließungs-/Verlagerungsbeleg; Quellen: https://metall.alba.info/unternehmen/standorte/]
+- Feedback 2857 (Standort nicht gelistet) berechtigt; Klärfall Filial-Existenz bleibt.

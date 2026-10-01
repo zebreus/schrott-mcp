@@ -4,13 +4,13 @@ name: Becker Umweltdienste GmbH, BS Brand-Erbisdorf
 trader_type: sonstige
 state: SN
 city: Brand-Erbisdorf
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: 'Am Schacht 1'
+postcode: '09618'
+phone: '+49 37322 582-0'
+email: 'langenau@becker-umweltdienste.de'
+opening_hours: 'Mo, Di, Do 08:00–17:00; Mi, Fr 08:00–18:00; Sa 08:00–12:00'
 website: https://jakob-becker.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''

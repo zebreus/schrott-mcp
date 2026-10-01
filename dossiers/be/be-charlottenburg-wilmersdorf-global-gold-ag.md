@@ -4,10 +4,10 @@ name: Global Gold AG
 trader_type: sonstige
 state: BE
 city: Charlottenburg-Wilmersdorf
-street: Charlottenburg-Wilmersdorf, Salzufer 8
+street: Salzufer 8
 postcode: '10587'
 phone: +49 30 40055918-0
-email: ''
+email: service@globalgold.ag
 opening_hours: ''
 website: https://www.globalgold.ag
 website_status: ''
@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Charlottenburg-Wilmersdorf, Salzufer 8, 10587 Berlin
 - Bezirk: Charlottenburg-Wilmersdorf Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
 - [Recherche 30.09.2026: Tel. +49 30 40055918-0; Quelle: globalgold.ag (Impressum)]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: E-Mail service@globalgold.ag, street „Salzufer 8“ (Bezirks-Präfix entfernt) via Betreiber (Impressum, HRB 131577 B); Telefon verifiziert; Quellen: https://www.globalgold.ag/impressum/]
+- Feedback 2861 (E-Mail/Straße) berechtigt.

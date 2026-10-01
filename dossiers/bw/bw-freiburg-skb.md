@@ -4,8 +4,8 @@ name: SKB
 trader_type: sonstige
 state: BW
 city: Freiburg
-street: Rieselfeldallee 50
-postcode: '79111'
+street: Robert-Bunsen-Str. 7c
+postcode: '79108'
 phone: +49 761 21633700
 email: info@skb-rohstoff.de
 opening_hours: Mo-Fr 8-17
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Adresse „Rieselfeldallee 50, 79111“ → „Robert-Bunsen-Str. 7c, 79108 Freiburg“ — zweiseitig auf Betreiber-Seite bestätigt: Impressum (SKB Rohstoff und Recycling GmbH, GF David Schuler, HRB 704629 AG Freiburg — verifizierte Betreiber-Primärquelle, genügt allein) UND Homepage-Footer („DEUTSCHLAND Robert-Bunsen-Str. 7c, D-79108 Freiburg“). Zweitstandorte: Merching (Am Lerchenberg 12a) + Schweiz Gossau — keine eigenen Dossiers (kein Namensvetter, selbe GmbH). Koordinaten neu zu geocodieren. Quelle(n): skb-rohstoff.de (Homepage + /impressum).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

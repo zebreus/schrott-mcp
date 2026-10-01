@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback 2676)
+
+- [Recherche 01.10.2026: Feedback 2676 berechtigt — Boxberg-Adresse bestätigt (Betreiber-Kontaktseite per-site: Am Kraftwerk/Industriegebiet West, 02943 Boxberg/OL, Tel +49 35774 552 70; Frontmatter bereits korrekt gefüllt, keine Änderung). Der lat/lon-Fehlstandort ist DB-seitig: Koordinaten neu zu geocodieren (adressbasiert, läuft automatisch). Schwester-Standort Hagenwerder separat verifiziert — kein Merge. Quelle(n): https://www.oostdam-metalle.de/kontakt.html]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Filialseite verifiziert (Home, Kontakt, Impressum einzeln abgerufen): Boxberg Am Kraftwerk (Industriegebiet West), 02943 Boxberg/OL, Tel +49 35774 552 70, info@oostdam-metalle.de; Impressum Name+HRB+Ort (HRB 14654 AG Dresden), Owner-Ausnahme greift; keine Öffnungszeiten auf Betreiberseite; Quelle(n): https://www.oostdam-metalle.de/, https://www.oostdam-metalle.de/kontakt.html, https://www.oostdam-metalle.de/impressum.html]

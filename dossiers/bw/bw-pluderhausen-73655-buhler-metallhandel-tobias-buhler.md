@@ -3,7 +3,7 @@ slug: bw-pluderhausen-73655-buhler-metallhandel-tobias-buhler
 name: Bühler Metallhandel (Tobias Bühler)
 trader_type: metallhaendler
 state: BW
-city: Plüderhausen 73655
+city: Plüderhausen
 street: Birkenallee 95
 postcode: '73655'
 phone: (+49) 170 8111971
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: city-Feld „Plüderhausen 73655“ bereinigt → city „Plüderhausen“ (PLZ steht separat in postcode). Betreiber-Impressum: Tobias Bühler, Birkenallee 95, 73655 Plüderhausen (Einzelunternehmen, kein HRB — eine Domain = Einzelbeleg, Beleglage offengelegt). Quelle(n): buehler-metallhandel.de (Home-Footer + /impressum/).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

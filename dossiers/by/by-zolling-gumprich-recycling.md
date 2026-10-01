@@ -9,7 +9,7 @@ postcode: '85406'
 phone: 08167 950997
 email: d.wolfgart@gumprich-recycling.de
 opening_hours: Mo-Do 7:30-16:30, Fr 7:30-16:00, Sa (Mai-Sept., nur erster Sa) 9-13
-website: https://www.entsorgungsfachbetrieb-gumprich.de
+website: https://gumprich-recycling.de/
 website_status: ''
 status: aktiv
 description: ''
@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Recycling/Container, Metall-/Schrottannahme (leitet auf gumprich-recycling.de; Ankauf belegt)
 - Adresse: Zolling (Flitzinger Str. 33)
 - Adressbeleg: https://gumprich-recycling.de/
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Domain-Weiterleitung entsorgungsfachbetrieb-gumprich.de → gumprich-recycling.de bestätigt (Betreiber, HRB 177367 München); Adresse/Telefon/E-Mail/Zeiten verifiziert unverändert; Quellen: https://gumprich-recycling.de/ + /impressum.html]
+- Feedback 2852 (Website veraltet) berechtigt.

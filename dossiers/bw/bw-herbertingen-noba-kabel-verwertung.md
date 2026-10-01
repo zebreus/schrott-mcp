@@ -8,7 +8,7 @@ street: Obere Bergen Straße 8
 postcode: 88518
 phone: +49 7586 1303
 email: noba@noba-kabelverwertung.de
-opening_hours: ''
+opening_hours: 'Mo-Do 8-16, Fr 8-12 (Anlieferungszeiten)'
 website: https://noba-kabelverwertung.de
 website_status: aktiv
 status: aktiv
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Anlieferungszeiten „Mo-Do 8-16, Fr 8-12“ aus Betreiber-News (03.07.2023) übernommen — eine Domain = Einzelbeleg, als Anlieferungszeiten (nicht Laden-Öffnungszeiten) gekennzeichnet. Quelle(n): noba-kabelverwertung.de/6.php (News).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

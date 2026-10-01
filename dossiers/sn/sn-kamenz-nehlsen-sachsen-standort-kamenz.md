@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback 2678)
+
+- [Recherche 01.10.2026: Feedback 2678 geprüft — Konzern-Branchpage HEUTE live re-verifiziert (per-site Detailseite, abgerufen 01.10.2026): Nehlsen Sachsen GmbH & Co. KG, Neschwitzer Str. 66, 01917 Kamenz, Zentrale 03578/34020, info.sachsen@nehlsen.com, Büro Mo-Fr 07-17, Wertstoffhof-Anlieferung Mo-Mi/Fr 08-12+12:30-17, Do bis 18, Sa 08-12, kostenfreie Schrott-Annahme. Trotzdem KEIN Frontmatter-Fill (Klärfall bleibt): Domain-Impressum nennt die Mutter (Nehlsen SE & Co. KG, HRA 31047 Bremen), nicht die Sachsen-Tochter (HRA 7257 Dresden, Sitz Niederau) → Owner-Ausnahme greift NICHT für diese Filial-Fakten; Zweitbeleg (kommunal/Register mit Kamenz-Adresse) weiterhin offen — Gegenrecherche fand nur Aggregator-Mirrors (recyclinghof-wertstoffhof u.ä. = Leads). Werte hier dokumentiert. Quelle(n): https://www.nehlsen.com/standorte/detail/nehlsen-sachsen-gmbh-co-kg-standort-kamenz, https://www.nehlsen.com/impressum]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lagern (Register)

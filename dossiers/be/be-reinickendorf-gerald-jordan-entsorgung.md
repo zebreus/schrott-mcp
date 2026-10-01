@@ -4,9 +4,9 @@ name: Gerald Jordan Entsorgung
 trader_type: sonstige
 state: BE
 city: Reinickendorf
-street: Reinickendorf, Amendestr. 12
+street: Amendestr. 12
 postcode: '13409'
-phone: —
+phone: 030 4952565
 email: ''
 opening_hours: ''
 website: https://www.gerald-jordan.de
@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Reinickendorf, Amendestr. 12, 13409 Berlin
 - Bezirk: Reinickendorf Adressbeleg: seed/be.json (https://www.gerald-jordan.de)
 - Adressbeleg: https://www.gerald-jordan.de, https://www.gerald-jordan.de/about/
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Tel. 030 4952565 (mobil 0177 6868368) + street „Amendestr. 12“ (Bezirks-Präfix aus street entfernt) via Betreiber (Startseite/Kontakt); Betrieb ausschließlich Speisefett-/Altfettentsorgung (FettFEUERWEHR/FettTAXI), kein Schrotthandel — Typ sonstige beibehalten, Relevanz-Klärfall bleibt; Quellen: https://www.gerald-jordan.de/]
+- Feedback 2851 (Telefon/Straße) berechtigt; Schrott-Relevanz Klärfall.

@@ -8,7 +8,7 @@ street: Lutzeney 1
 postcode: '88260'
 phone: +49 7566 94 58 17
 email: info@mk-schrotthandel.de
-opening_hours: ''
+opening_hours: 'nur nach Terminabsprache'
 website: https://mk-schrotthandel.de
 website_status: ''
 status: pruefung
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: opening_hours „nur nach Terminabsprache“ von Betreiber-Header übernommen (Inhaber Murat Kücük, Lutzeney 1, D-88260 Argenbühl — Dossier-Adresse bestätigt; eine Domain = Einzelbeleg). Quelle(n): mk-schrotthandel.de (Homepage/Header/Footer).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

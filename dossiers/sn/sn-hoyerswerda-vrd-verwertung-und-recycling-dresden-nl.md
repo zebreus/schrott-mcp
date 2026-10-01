@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback 2679)
+
+- [Recherche 01.10.2026: Feedback 2679 geprüft — Beobachtung ZUTREFFEND (Betreiber-Seite vrd-gmbh.de nennt nur Kompostwerk Brischko, keinen Standort Hoyerswerda), aber KEIN Dossier-Fehler: street/postcode bereits leer, status pruefung, website belegt. Kein Frontmatter-Change (unberechtigt im Sinne kein Handlungsbedarf). Zweiseitig geprüft: Gegenbeleg für Hoyerswerda-Bezug existiert (Landkreis Bautzen, Überwachungsbericht Routinekontrolle VRD Hoyerswerda 14.04.2025), aber keine Adresse → bestehender Klärfall (VEZ-Adresse) bleibt offen, kein Phantom erzeugt. Quelle(n): http://www.vrd-gmbh.de/, Folgewelle 01.10.2026 (Landkreis-Dokument)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lagern (Register)

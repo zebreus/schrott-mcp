@@ -37,3 +37,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Betreiber-Fakten verifiziert per Detailseite sachsen.alba.info: Standort Vockerode, Walderseeer Str. 40, 06785 Oranienbaum-Wörlitz, +49 34905 21181, kompostplatz_vockerode@alba.info. Frontmatter befüllt, website sachsen.alba.info aktiv.
 - WICHTIGER Caveat: Lt. Betreiber ist Vockerode ein Kompostwerk (Komposterde, Containerdienst, Entsorgungsberatung) — KEIN Schrottankauf belegt. Status bleibt daher pruefung, trader_type ungeändert; Schrott-Ankaufannahme nicht unterstellen.
 - Quelle: https://sachsen.alba.info/unternehmen/standorte/detail/standort-vockerode/ (+ Konzern-Übersicht https://www.alba.info/standorte).
+- [Recherche 01.10.2026 (Feedback 2750, berechtigt und bereits abgebildet): gemeldeter Befund (Kompostwerk/Containerdienst, kein Schrottankauf belegt) entspricht exakt dem Caveat der Korrektur heute — Status bleibt pruefung, trader_type unverändert, keine Frontmatter-Änderung.]

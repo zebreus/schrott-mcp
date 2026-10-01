@@ -1,7 +1,7 @@
 ---
 slug: sn-annaberg-buchholz-ged-grubler-entsorgungsdienste
 name: GED – Grübler Entsorgungsdienste GmbH
-trader_type: sonstige
+trader_type: wertstoffhaendler
 state: SN
 city: Annaberg-Buchholz
 street: Alte Poststr. 5
@@ -13,7 +13,7 @@ website: https://www.ged-gruebler.de
 website_status: aktiv
 status: pruefung
 description: ''
-dropoff_json: ''
+dropoff_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Wertstoffhof Alte Poststr. 5: Annahme u.a. Schrott/Buntmetall von Gewerbe- und Privatkunden, Mo-Do 8:00-12:30/13:30-16:00, Fr 8:00-12:00 (Betreiber-Website, Feedback-Triage 01.10.2026)"}'
 pickup_json: ''
 provenance_section: 5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland
 provenance_ankauf_raw: unklar
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback 2669)
+
+- [Recherche 01.10.2026: Feedback 2669 berechtigt — trader_type sonstige → wertstoffhaendler (eigener Wertstoffhof mit Schrott-/Buntmetall-Annahme für Gewerbe- UND Privatkunden, Betreiber-Homepage; Owner-Ausnahme HRB 28443 greift für Services); dropoff_json mit Anlieferkonditionen gefüllt. Quelle(n): https://www.ged-gruebler.de/ (Homepage Wertstoffhof-Abschnitt), https://www.ged-gruebler.de/kontakt.cfm, https://www.ged-gruebler.de/impressum.cfm]
 
 ### Recherche 01.10.2026
 
