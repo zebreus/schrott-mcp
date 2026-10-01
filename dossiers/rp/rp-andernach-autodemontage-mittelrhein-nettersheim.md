@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein belastbarer Beleg. Domain-Kandidat fuehrt auf Baustellen-Placeholder (maifeld-autoverwertung.de: "Entschuldigung, wir fuehren einige Arbeiten an der Website durch") - Zuordnung Autodemontage Mittelrhein (Nettersheim) vs. Maifeld unklar (KEIN Beleg); DDG-Suche Captcha-blockiert. Adresse/Website ungeklärt - Folgewelle. Quellen: keine.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autodemontage

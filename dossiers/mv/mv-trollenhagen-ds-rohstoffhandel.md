@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: nur Portal-Leads (schrottplatz-info/org: Fuchsberg 14, 17039 Trollenhagen Podewall, 0395 4528862) = kein Beleg; kein Betreiber-Webauftritt (ds-containerdienst.de ist anderes Unternehmen), kein HR-/Kommunalbeleg gefunden. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Rohstoffhandel (lt. schrottplatz-info.de)

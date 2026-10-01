@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: nur Aggregator-Leads (Gelbe Seiten: Siemensallee 18, 63477 Maintal-Dörnigheim, 0176 68888925; schrottplatz.org identisch) = kein Beleg; kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallhandel

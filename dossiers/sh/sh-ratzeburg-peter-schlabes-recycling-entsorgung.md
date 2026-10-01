@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling/Entsorgung (Gelbe Seiten: „Schrott")
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Beleg auffindbar (keine HR-Eintragung verifiziert, keine Betreiber-Website). Nur Aggregator-Leads (Gelbe Seiten "Schrott", Ratzeburg); DDG-Suche Captcha-blockiert. Existenz/Adresse/Ankaufstatus weiter ungeklärt - status bleibt pruefung, Folgewelle. Quellen: keine (Leads zaehlen nicht).]
+
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

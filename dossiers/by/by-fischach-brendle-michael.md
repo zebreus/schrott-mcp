@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.brendle-demontage.de
+website_status: 'aktiv'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Einmannbetrieb)
 - Adresse: Fischach (Rudolf-Diesel-Str. 10A)
+
+### Recherche 01.10.2026
+
+- [Recherche by-fischach-brendle-michael: Betreiber-Website brendle-demontage.de verifiziert (Michael Brendle Abbruch & Entkernung, Rudolf-Diesel-Str. 10a, 86850 Fischach — Adresse nur Einzelbeleg Betreiberseite + Verzeichnis-Leads, kein HR-Eintrag → NICHT in Frontmatter); KEIN Schrottankauf erkennbar (Abbruch/Entkernung/Asbest/Containerverleih) — status bleibt pruefung; Quelle(n): https://www.brendle-demontage.de/kontakt.php, https://www.brendle-demontage.de/impressum.html]

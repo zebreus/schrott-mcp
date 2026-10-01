@@ -34,3 +34,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Eisen/NE
 - Adresse: Kreien 19386, Wilsener Chaussee 1 (gleiche Adresse wie HAROC — Verhältnis ungeklärt)
 - [Recherche 30.09.2026: Wilsener Chaussee 1, 19386 Kreien via schrottplatz.org (RK, Tel. 038733/20001 Single-Source) + HAROC-Impressum https://haroc.de/imprint.html (HRB 113556 AG Schwerin); rkkunststoffe.de tot]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: HR-Existenz nur als HR-Vendor-Leads (registercheck + firmenkontor24: RK Recycling Kreien GmbH, AG Schwerin HRB 3659) = kein zählender Beleg (kein Northdata/Creditreform-Treffer, kein Betreiber-Impressum); rkkunststoffe.de weiter tot; Adresse Wilsener Chaussee 1 + Tel 038733 20012 nur 11880/schrottplatz.org-Leads. HAROC (HRB 113556 AG Schwerin, haroc.de) ist separates Unternehmen gleicher Adresse — nicht vermengen. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
+
+### Importiert (Seed-Stand 2026-09-30)

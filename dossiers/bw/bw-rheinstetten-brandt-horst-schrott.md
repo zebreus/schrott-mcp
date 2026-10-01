@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Größe: klein
+
+### Recherche 01.10.2026
+
+- [Recherche bw-rheinstetten-brandt-horst-schrott: KEINE Belege — kein HR-Eintrag (online-handelsregister.de: kein Treffer), keine Betreiber-Website; nur Aggregator-Leads (Gelbe Seiten/Dastelefonbuch: Grünwinkler Str. 103, 76287 Rheinstetten, Mobil 0170… — Leads, keine Belege); Creditreform-Eintrag „Horst Brandt Schrott- und Edelmetallhändler" (76189, ID 7110514137) per Suche bestätigt, Detailseite 403-blockiert (Einzelbeleg, unsicher); Felder bleiben leer; Quelle(n): Suche 01.10.2026]

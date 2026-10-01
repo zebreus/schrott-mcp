@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: nur Portal-Leads (schrottplatz-info/org, branchen-info: Helmsgrün 106, 07356 Bad Lobenstein, 036651 30762) = kein Beleg; kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (allg.)

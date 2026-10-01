@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden; einzige Spur Gelbe-Seiten-Eintrag (Ostring 15, 64832 Babenhausen, 0171 8333254) = Lead, kein Beleg. sell-recycling.de gehört anderer Firma (Sell Recycling GmbH & Co. KG, Kitzingen) — keine Verwechslung. Familienbezug Oskar Sell (Schrotthandel, Schaafheim, Creditreform-Eintrag existent) bleibt Hypothese ohne Beleg. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott — mobil (DUP Kernzone — einmal!)

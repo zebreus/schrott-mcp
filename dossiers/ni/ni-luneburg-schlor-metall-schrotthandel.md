@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.schloer-metall-schrotthandel.de
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metall/Schrott
+
+### Recherche 01.10.2026
+
+- [Recherche ni-luneburg-schlor-metall-schrotthandel: Betreiber-Impressum verifiziert (Schlör Metall & Schrotthandel, Inh. Oliver Schlör, e.K., Bei der Pferdehütte 6, 21339 Lüneburg, Tel 04131-33458): Adresse/Tel/Mail nur Einzelbeleg (e.K. ohne HRB → keine Owner-Ausnahme; kein HR-Eintrag, Verzeichnisse sind Leads) — NICHT in Frontmatter; website verifiziert + aktiv; Quelle(n): https://www.schloer-metall-schrotthandel.de/, https://www.schloer-metall-schrotthandel.de/impressum/]

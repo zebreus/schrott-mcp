@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Beleg. Domain-Kandidat metallhandelgolz.de per Direktabruf NICHT erreichbar (Transport error - ob Domain tot, geparkt oder Bot-Block, unklar; KEIN website_status-Fill ohne Zweitbeleg); Seed-Adressfragment Goethestr. 29A nur Aggregator-Niveau; DDG-Suche Captcha-blockiert. Adresse/Website/Ankaufstatus ungeklärt - Folgewelle. Quellen: keine (Leads zaehlen nicht).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Goethestr. 29A

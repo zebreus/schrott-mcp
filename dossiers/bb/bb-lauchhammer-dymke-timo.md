@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 01.10.2026
+
+- [Recherche bb-lauchhammer-dymke-timo: HR-Eintrag belegt Existenz: Schrotthandel Timo Dymke e.K., Inhaber Sascha Schwarzenberger, HRA 3929 CB AG Cottbus — ABER HR-Adresse Bockwitzer Straße 97, 01979 Lauchhammer weicht von Dossier-Straße Dolsthaidaer Str. 45 ab (Einzelbeleg HR, kein Zweitbeleg → KEINE Korrektur, City-Mismatch-Regel; street bleibt); keine Betreiber-Website, keine Verzeichnistreffer über Seed hinaus; status bleibt pruefung; Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/br/Cottbus/HRA/3929CB/Schrotthandel-Timo-Dymke-eK-Inhaber-Sascha-Schwarzenberger]

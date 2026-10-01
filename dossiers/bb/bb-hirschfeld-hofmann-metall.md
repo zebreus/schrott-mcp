@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metall/Schrott
+
+### Recherche 01.10.2026
+
+- [Recherche bb-hirschfeld-hofmann-metall: HR-Eintrag Hofmann Metall GmbH, HRB 5475 AG Chemnitz nennt Sitz Äußere Dresdner Str. 80, 08066 ZWICKAU — Dossier-Ort Hirschfeld (Bahnhofstr. 5) damit unbelegt/Widerspruch (Einzelbeleg HR; keine Hirschfeld-Niederlassung belastbar; City-Mismatch-Regel → street NICHT überschrieben); keine Betreiber-Website gefunden; status bleibt pruefung; Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/sn/Chemnitz/HRB/5475/Hofmann-Metall-GmbH]

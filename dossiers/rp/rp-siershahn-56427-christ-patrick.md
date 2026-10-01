@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Beleg auffindbar. Nur Aggregator-Leads (Poststr. 31, Siershahn); Branche ungeklärt (sonstige); allgemeine Websuche per Tooling bot-blockiert (DDG-Captcha). Adresse/Website/Ankaufstatus ungeklärt - Folgewelle. Quellen: keine (Leads zaehlen nicht).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Branche ungeklärt

@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: autoverwertung-klimt.de (Lead aus hotfrog) nicht erreichbar (Transportfehler, dead); sonst nur Aggregator-Leads (schrottplatz-info/org, 11880, Mapcarta: Siedlungsweg 13, 39164 Wanzleben, 039209 2616) = kein Beleg. Kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden. Nichts gefüllt, Klärfall. Quelle(n): Websuche + Abrufversuch 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (lt. schrottplatz-info)

@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Beleg auffindbar. Nur Snippet-Leads (Altmetallrecycling, Beckingen); Kleinanzeigen-Profil per Tooling nicht lesbar (403 bot-blockiert), DDG-Suche Captcha-blockiert. Adresse/Website/Ankaufstatus ungeklärt - Folgewelle. Quellen: keine (Leads zaehlen nicht).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetallrecycling

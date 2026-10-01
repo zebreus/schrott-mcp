@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: nur Aggregator-Leads (Cylex/city-map/stadtbranchenbuch: Dolziger Str. 30, 10247 Berlin, 030 4225831; Cylex-Vermerk Jetzt geschlossen unbestätigt) = kein Beleg; kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetallhandel (nur Verzeichnisbeleg)
