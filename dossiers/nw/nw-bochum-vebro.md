@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Bochum
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website live verifiziert: Schrotthandel VEBRO, Inhaber Abdul El-Lahib, Hustadtring 71, 44801 Bochum, Tel. 0177 2020666, E-Mail (Cloudflare-geschützt, Einzelbeleg, unsicher) — mobiler Schrottservice NRW, Einsatzgebietsseite Bochum vorhanden. Einzelunternehmen ohne HRB (Owner-Ausnahme greift nicht), Kleinanzeigen-Profilabruf 01.10.2026 blockiert (403), kein 2. unabhängiger Beleg, daher KEINE Frontmatter-Fills (auch website bleibt leer); Quelle(n): https://schrott-vebro.de/ + https://schrott-vebro.de/impressum/ (eine Quelle). Status bleibt pruefung.]

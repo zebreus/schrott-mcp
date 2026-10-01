@@ -9,9 +9,9 @@ postcode: '14513'
 phone: 03328 351407
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
+website: 'https://www.fsrtradegmbh.de'
+website_status: 'aktiv'
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorgung/Recycling
 - Adressbeleg: creditsafe-Firmenprofil
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Primärquelle live verifiziert (Impressum: FSR Trade GmbH, Rheinstr. 17B, 14513 Teltow, HRB 20840 P AG Potsdam, GF Irina Schaarschmidt, Tel. +49 3328 351407) → Owner-Direktive greift; website-Fill https://www.fsrtradegmbh.de (Domain-Root); street „Rheinstr. 17" NICHT auf „17B" überschrieben (nur 1 Beleg, City-Mismatch-Regel); status pruefung → aktiv; Quelle(n): https://www.fsrtradegmbh.de/, https://www.fsrtradegmbh.de/impressum/]

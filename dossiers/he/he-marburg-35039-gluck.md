@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Marburg 35039
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Nur Aggregator-Leads (keine Belege): Ginseldorfer Weg 50, 35039 Marburg, Tel. 01520 9471757 (rm-kurier/vorstadt-post, selbes Portalnetzwerk). Kein Fill, Status pruefung bleibt, Klärfall: Existenz/Adresse via Gewerberegister Marburg klären; Quelle(n): DDG-Recherche 01.10.2026, Leads rm-kurier.de, vorstadt-post.de, 11880]

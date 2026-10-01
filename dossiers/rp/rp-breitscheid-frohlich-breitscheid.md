@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - urspr. Website-Angabe: keine
 - Adresse: Breitscheid
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Creditreform-Beleg: Michael Fröhlich, Breitscheid, Gewerbebetrieb, wirtschaftsaktiv (ohne Straßenangabe) — als Aktivitäts-Einzelbeleg nur hier. Betreiber-Domains tot (NXDOMAIN/kein DNS). Aggregator-Leads ohne Belegwert: Josef-Reuschenbach-Str. 2, Breitscheid, Tel. 0172 2041425. Kein HRB → Owner-Direktive greift nicht; kein Fill, Status pruefung bleibt, Klärfall: Straße/Telefon via Gewerbe-/Melderegister Breitscheid klären; Quelle(n): Creditreform-Firmeneintrag 01.10.2026, DNS-/curl-Checks, Leads 11880/Cylex]

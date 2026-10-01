@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Dormagen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Social gefunden (Einzelbeleg, unsicher): facebook.com/weissaltmetall (Weiss-Altmetall, Dormagen, 117 Likes; Abruf 01.10.2026 blockiert/leer) — Adress-/Kontakt-Leads deckungsgleich (Norfer Str. 6, 41539 Dormagen, Tel. 02133 5373580 via 11880/dasoertliche/city-advisor; nur Leads, keine Belege). Keine Betreiber-Website, kein HR-Eintrag gefunden. KEINE Fills, Status bleibt pruefung; Quelle(n): Facebook (Betreiber-Social, Einzelbeleg) + Verzeichnis-Leads]

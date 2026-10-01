@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Tot-Bestätigung — fischer-bakum.de nicht existent (DNS SERVFAIL/NXDOMAIN, curl 000); Lead Harmer Str. 27, Bakum nur Verzeichnisbeleg (Einzelbeleg, unsicher); website_status tot bestätigt; Quelle(n): DNS/nslookup 01.10.2026, recherche/ni.md]

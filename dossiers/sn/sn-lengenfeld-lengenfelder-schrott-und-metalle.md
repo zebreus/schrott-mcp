@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe
 - Annahme lt. lokaleschrottplatz (36 Reviews)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Lead Lengenfeld, Zwickauer Str. 43 nur Verzeichnisbeleg (schrott-winter.de tot, kein Connect); keine Website verifiziert; keine Frontmatter-Fills; Quelle(n): recherche/sn.md]

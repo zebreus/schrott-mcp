@@ -4,13 +4,13 @@ name: C. Hafner GmbH + Co. KG
 trader_type: sonstige
 state: BW
 city: Wimsheim
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: 'Maybachstraße 4'
+postcode: '71299'
+phone: '+49 7044 90333-0'
+email: 'info@c-hafner.de'
 opening_hours: ''
 website: https://www.c-hafner.de/
-website_status: ''
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Edelmetall-Technologie/Recycling
 - Größe: groß
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Primärquelle verifiziert (Impressum: C. Hafner GmbH + Co. KG, Maybachstraße 4, 71299 Wimsheim, HRA 500240 AG Mannheim; Edelmetall-Recycling-Werk Esslinger Str. 11, 75179 Pforzheim) + Register-Gegenbeleg (HRA 500240, Adresse kongruent) → Owner-Direktive greift; Tel. +49 7044 90333-0, info@c-hafner.de lt. Impressum/Kontakt; Quelle(n): https://www.c-hafner.de/impressum, https://www.c-hafner.de/kontakt.html]

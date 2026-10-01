@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinhändler Schrott
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Nur Aggregator-Leads (keine Belege): Römerfeld 6, 55246 Mainz-Kostheim (Wiesbaden), Tel. (06134) 5669139 / Mobil 0176 84612192. Kein Fill, Status pruefung bleibt, Klärfall: Existenz/Adresse/Telefon via Gewerberegister Wiesbaden/Mainz klären; Quelle(n): DDG-/Brave-Recherche 01.10.2026, Leads 11880, Cylex, meinestadt]

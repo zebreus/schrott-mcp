@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott lt. Register
 - Adresse: Inzigkofen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Register-/Verzeichnisbeleg (Schrott lt. Register, Ort Inzigkofen), kein Betreiber-/Zweitbeleg gefunden; keine Frontmatter-Fills; Quelle(n): recherche/bw.md]

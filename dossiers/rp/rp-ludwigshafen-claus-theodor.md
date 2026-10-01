@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Ludwigshafen (Adresse fehlt)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: City-Mismatch — einziger belastbarer Treffer „Theodor Claus GmbH", Pfingstweidstr. 37, 68199 Mannheim (HRB 5236 AG Mannheim), nicht Ludwigshafen. Kein Ludwigshafener Betreiber-Beleg, keine Website-Attribution möglich (Mannheimer Domain darf nicht auf LU-Slug gelegt werden). Kein Fill, Status pruefung bleibt, Klärfall: ob LU-Eintrag Fehlzuordnung ist bzw. löschen/zusammenführen; Quelle(n): DDG-/Brave-Recherche 01.10.2026, northdata HRB 5236, Betreiber-Seiten-Index Mannheim]

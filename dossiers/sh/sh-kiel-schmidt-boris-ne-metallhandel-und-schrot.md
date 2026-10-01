@@ -4,14 +4,14 @@ name: Schmidt Boris NE-Metallhandel und Schrotthandel
 trader_type: metallhaendler
 state: SH
 city: Kiel
-street: ''
-postcode: ''
+street: Grasweg 45-46
+postcode: '24118'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Re-Prüfung abgeschlossen — 2 unabhängige Register-Belege: Northdata (NE-Metallhandel Boris Schmidt e. K., Kiel, AG Kiel HRA 4153 KI) + online-handelsregister.de (Grasweg 45-46, 24118 Kiel, status aktiv, Gründung 19.10.2001). Fills Straße/PLZ, status zurück auf aktiv; Telefon/E-Mail/Website: kein Beleg (Register führt keine Kontaktdaten, keine Betreiber-Website gefunden); Quelle(n): Northdata HRA 4153 KI + online-handelsregister.de HRA 4153 KI]

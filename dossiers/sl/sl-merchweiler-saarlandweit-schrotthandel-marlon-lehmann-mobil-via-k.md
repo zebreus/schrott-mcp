@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Ankauf aller Art, Abholung, Container, Demontage
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — mobiler Händler (Merchweiler/saarlandweit, via Kleinanzeigen), kein Betreiber-/Register-/Verzeichnis-Zweitbeleg; keine Frontmatter-Fills; Quelle(n): recherche/sl.md]

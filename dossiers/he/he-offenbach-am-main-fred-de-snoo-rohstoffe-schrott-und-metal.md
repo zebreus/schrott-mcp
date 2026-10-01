@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: 'https://www.freddesnoo.de/'
+website_status: 'aktiv'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallgroßhandel (GS listet Webseite, URL nicht verifiziert)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website live verifiziert (Impressum: Nicole Macaluso, Fred De Snoo Rohstoffe e.K., Lämmerspieler Weg 158, 63075 Offenbach, Tel. +49 69 856112, info@freddesnoo.de; Öffnungszeiten Mo–Do 7:00–16:15, Fr 7:00–14:00, Sa 8:00–13:00; Familienbetrieb seit 1912, Entsorgungsfachbetrieb, Schrott-/Metallhandel + Container-/Muldendienst); Register: AG Offenbach HRA 42548 (Northdata + Creditreform: e.K., Inh. Nicole Macaluso, Sitz Offenbach, Gegenstand u.a. Eisen-/Stahlschrott, Buntmetalle, Containerdienst) — e.K. ohne HRB: Owner-Direktive greift NICHT, Northdata nennt keine Straße → Adresse/Telefon/E-Mail/Öffnungszeiten als Einzelbeleg (Betreiber-Impressum) NUR hier, NICHT in Frontmatter; website_status aktiv per Live-Abruf; Quelle(n): freddesnoo.de/impressum, northdata.de HRA 42548, Creditreform-Firmeneintrag]

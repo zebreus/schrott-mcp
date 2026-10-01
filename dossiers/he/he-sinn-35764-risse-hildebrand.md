@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Sinn 35764
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Nur Aggregator-Leads (keine Belege): In der Großen Wiese 8, 35764 Sinn; Telefon WIDERSPRÜCHLICH (06449) 6432 (schrottplatz-info) vs. 06449-717976 (tellows); „Risse & Hildebrand GbR" (unternehmensauskunft, Aggregator). Kein Fill, Status pruefung bleibt, Klärfall: Existenz/Adresse/Telefon vor Ort bzw. Gewerberegister Sinn klären; Quelle(n): DDG-Recherche 01.10.2026, Leads schrottplatz-info.de, 11880, tellows, unternehmensauskunft.com]

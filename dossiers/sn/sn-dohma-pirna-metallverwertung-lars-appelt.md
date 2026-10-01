@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.mv-larsappelt.de
-website_status: ''
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Buntmetalle, Eisenschrott, Container 7–32 m³
 - familiengeführt seit 1992, verifiziert
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum live verifiziert (Einzelbeleg, unsicher — Einzelunternehmen ohne HRB, Owner-Direktive greift NICHT): Metallverwertung Lars Appelt, Cotta B 16H, 01796 Dohma, Tel. +49 172 9785409, mvla@gmx.de; nur website_status → aktiv, keine Adress-/Kontakt-Fills ohne Zweitbeleg; Quelle(n): https://www.mv-larsappelt.de/impressum]

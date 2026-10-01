@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis, Tel.)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Nur Aggregator-/Lead-Spuren ohne Belegwert: 11880-/Branchen-Eintrag Raum Altenhaßlau/Gelnhausen sowie Facebook-Lead; Aschaffenburger „Willeführ" (Alexander Willeführ, Obernburg) ohne Verknüpfung zum Gelnhauser Eintrag. Namensvetter G. Willeführ Groß-Umstadt / R. Willeführ Rödermark sind andere Betriebe — nicht vermengen. Kein Fill, Status pruefung bleibt, Klärfall: Existenz/Adresse/Telefon via Gewerberegister Gelnhausen klären; Quelle(n): DDG-/Brave-Recherche 01.10.2026, Leads 11880, Facebook, Abgleich Aschaffenburg/Obernburg]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Alu/Cu/Edel/Blei/Messing
 - Annahme lt. lokaleschrottplatz
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Lead Frankenberg, Hohe Str. 31 nur Verzeichnisbeleg (lokaleschrottplatz, Einzelbeleg, unsicher); keine Website gefunden; keine Frontmatter-Fills; Quelle(n): recherche/sn.md]

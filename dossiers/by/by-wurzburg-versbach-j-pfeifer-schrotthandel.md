@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.j-pfeifer-schrotthandel.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle, Kabel, Altauto-Abholung
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website live verifiziert (website_status aktiv): J. Pfeifer Schrotthandel, Inhaber Jürgen Pfeifer, Lengfelder Str. 38, 97078 Würzburg, Tel. 0931 286304, Mobil 0175 2747610, Fax 0931 2876398, E-Mail info@j-pfeifer-schrotthandel.de (alle Einzelbeleg, unsicher) — Impressum mit Platzhaltern (USt-ID/HRA xxx), Einzelunternehmen ohne HRB (Owner-Ausnahme greift nicht), kein 2. unabhängiger Beleg (nur Verzeichnis-Leads: dasoertliche, cylex, schrottradar u.a.), daher KEINE Adress-/Kontakt-Fills; Quelle(n): https://www.j-pfeifer-schrotthandel.de/ + /impressum (eine Quelle)]

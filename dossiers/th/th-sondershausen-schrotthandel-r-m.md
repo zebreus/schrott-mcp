@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (allg.)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Registerbeleg gefunden (Einzelbeleg, unsicher): Northdata-Titel R & M Schrott- und Metallhandel GmbH & Co. KG, Sondershausen, AG Jena HRA 502806; Adress-Lead deckungsgleich (Am Petersenschacht 13, 99706 Sondershausen via dasoertliche/firmania/companyhouse-Snippets; nur Leads bzw. Snippets, keine Belege). Keine Betreiber-Website gefunden. KEINE Fills, Status bleibt pruefung; Quelle(n): Northdata HRA 502806 (Einzelbeleg) + Verzeichnis-Leads]

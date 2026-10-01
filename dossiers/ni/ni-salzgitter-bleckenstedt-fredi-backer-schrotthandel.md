@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Lead Salzgitter-Bleckenstedt, Alte Gärtnerei 13 nur Verzeichnisbeleg (Einzelbeleg, unsicher); Bäcker & Söhne GbR (https://schrotthandel-baecker-soehne-gbr.jimdofree.com, Willi & Klaus Bäcker) betrifft NICHT Fredi Bäcker → nicht als Beleg verwendet; keine Frontmatter-Fills; Quelle(n): recherche/ni.md]

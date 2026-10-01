@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetallrecycling/Schrottplatz Königsau
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Nur Aggregator-Leads (keine Belege): Königsau 23, 67661 Kaiserslautern. Namensvetter „altmetallservice-weiss.de" gehört zu anderem Weiß (Silvio Weiß, Freisen) — NICHT vermengen, keine Attribution. Kein Fill, Status pruefung bleibt, Klärfall: Existenz/Adresse via Gewerberegister Kaiserslautern klären; Quelle(n): DDG-/Brave-Recherche 01.10.2026, Leads 11880/Cylex/meinestadt, Abgleich altmetallservice-weiss.de (Freisen)]

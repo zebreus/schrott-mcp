@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Abholung
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Dorfstr. 65a, Nortmoor nur Verzeichnisbeleg (LK Leer), kein Betreiber-/Zweitbeleg; keine Frontmatter-Fills; Quelle(n): recherche/ni.md]

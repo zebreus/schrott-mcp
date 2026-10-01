@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: 'https://www.autoverwertung-demand.de/'
+website_status: 'aktiv'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altauto-Annahme, zert. Demontagebetrieb (seit 1975) — FLAG: nur Altautos
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website live verifiziert (Startseite/Kontakt: Im Wolfangel 7, 76829 Landau, Tel. 06341/968510, info@autoverwertung-demand.de, Mo–Fr 9–12/13–16 + Sa 9–12; Leistungen Altauto-Abholung/-Verwertung, Unfall-/Gebrauchtwagen-Ankauf, Ersatzteilverkauf, Abmeldeservice; seit 1975, zert. Demontagebetrieb). Register-Angabe HRA 2369 AG Landau nur als Betreiber-/Sekundärhinweis, kein HR-Auszug geprüft; e.K. ohne HRB → Owner-Direktive greift NICHT → Adresse/Telefon/E-Mail/Öffnungszeiten als Einzelbeleg NUR hier, NICHT in Frontmatter; website_status aktiv per Live-Abruf; Quelle(n): autoverwertung-demand.de (Stand 01.10.2026)]

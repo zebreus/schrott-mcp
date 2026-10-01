@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alu/Kabel/E-Motoren/Zinn, Demontage
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Tot-Bestätigung — deich-metall.de löst auf STRATO-Parking-IP auf, Inhalt „STRATO - Domain not available" (HTTP 200 Platzhalter); website_status tot bestätigt, keine Änderung; Quelle(n): DNS + https://deich-metall.de (curl 01.10.2026)]

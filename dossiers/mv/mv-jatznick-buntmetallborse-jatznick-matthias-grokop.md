@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall bestätigt — PLZ 17309 (Waldstr. 22, Tel. 039741 80461) nur Einzelbeleg (Das Örtliche); OSM bestätigt Gebäude, kein Geschäfts-Zweitbeleg; keine Frontmatter-Fills; Quelle(n): recherche/mv.md]

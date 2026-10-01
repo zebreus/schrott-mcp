@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (evtl. verwandt mit Nr. 10)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Lead Saarbrücken-Malstatt, Ludwigstr. 58 nur Verzeichnisbeleg (Einzelbeleg, unsicher); keine Website gefunden; mögl. verwandt mit Grün Thomanek (Völklingen-Fürstenhausen, Saarwiesenweg 2); keine Frontmatter-Fills; Quelle(n): recherche/sl.md]

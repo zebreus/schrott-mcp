@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Re-Prüfung ohne 2. Beleg — nur Verzeichnis-Leads (dasoertliche/cylex/firmania/11880: Grumby 35, 24894 Twedt, Tel. 0172 4065874; keine Belege). Keine Betreiber-Website, kein HR-Eintrag gefunden. KEINE Fills, Status bleibt pruefung.]
