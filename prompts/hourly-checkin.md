@@ -38,8 +38,8 @@ Prod: `traders`/`current_prices` in `public.db`, `runs`/`feedback` in
 
 Mehrere `general`-Subagenten (background) einsetzen. Klare Auftragsgrenzen pro
 Agent (explizite Slug-Listen — Wave-/Ergebnis-Dateien unter `/tmp/opencode/`
-dürfen NIE für die Auftragsauswahl genutzt werden). JSON-Ergebnisse nach
-`/tmp/opencode/`, kein direkter DB-Write aus Agenten.
+dürfen NIE für die Auftragsauswahl genutzt werden). Kein direkter DB-Write
+aus Agenten.
 
 ## Dossier-Regeln (Kurzfassung)
 

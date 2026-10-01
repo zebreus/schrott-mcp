@@ -48,8 +48,6 @@ unter `/tmp/opencode/` dürfen NICHT für die Auftragsauswahl genutzt werden.
   NUR in Timeline, NIE in Frontmatter. Preise nur bei vollständiger Angabe.
 - Gründlichkeit: Dossier komplett lesen (Timeline!), Website tief crawlen,
   extern gegenrecherchieren — lieber `pruefung` + ehrlicher Vermerk als Fiktion.
-- Ergebnis-JSON nach `/tmp/opencode/enrich_auto_JJJJMMTT-HHMM_shard<X>.json`
-  (pro Slug: `{slug, status: ok|miss, fills, reason bei miss}`).
 
 ## Owner-Gate nach Abschluss aller 3 Shards
 
