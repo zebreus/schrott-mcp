@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Karl-Ferdinand-Braun-Str. 12, Containerfokus
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg); Straßen-Angabe aus Seed ohne Zweitbeleg; kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]

@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: Domain hark-duisburg.de per DNS NXDOMAIN verifiziert; angebliche Impressum-Quelle unbelegt, Website entfernt, website_status tot. Quelle: dns.google + getent.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Domain-Tod per DNS erneut bestätigt (NXDOMAIN, kein A-Record); website_status tot unverändert, kein Frontmatter-Fill; Quelle(n): nslookup hark-duisburg.de 01.10.2026, getent hosts 01.10.2026]

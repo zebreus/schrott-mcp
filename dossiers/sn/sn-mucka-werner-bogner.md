@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Alu/Cu/Edel/Blei/Messing
 - Annahme lt. lokaleschrottplatz
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: nur Aggregatoren (02906 Mücka, Tel. 035893 6983; deubiz-Lead Am Bahnhof 126); kein Betreiber-/Registerbeleg; Quelle(n): keine belegfähige Quelle (nur Aggregator-Leads)]
+- [Recherche 01.10.2026: kein Doppelbeleg → kein Fill; Felder leer, Status aktiv unverändert (Ankauf-Scope unbestätigt); Quelle(n): keine belegfähige Quelle]

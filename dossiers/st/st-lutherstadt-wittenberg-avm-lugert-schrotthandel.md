@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.schrotthandel-wittenberg.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metall-An- und Verkauf, Container
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website per Vollcrawl verifiziert (Schrott-/Metall-An- und Verkauf, Container; Annahmestellen Wittenberg + Seyda mit Zeiten), website_status aktiv; Quelle(n): https://www.schrotthandel-wittenberg.de/, https://www.schrotthandel-wittenberg.de/kontakt/impressum]
+- [Recherche 01.10.2026: Adresse/Telefon (Ellen Lugert, Hans-Heinrich-Franck-Straße 3, 06886 Lutherstadt Wittenberg, 03491/666808) nur Betreiber-Einzelbeleg (Einzelunternehmen ohne HRB) → kein Frontmatter-Fill; Quelle(n): https://www.schrotthandel-wittenberg.de/kontakt/impressum]

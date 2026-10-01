@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, A&R-Verbund (Seed Dortmund + R3 Lippstadt) (GS)
 - Adresse: Dülmen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS — kein Dülmen-Eigenbeleg; A&R-Verbundseite (Schrotthandel Dortmund, Planetenfeldstr. 118, 44379 Dortmund) per Vollabruf geprüft, ohne Dülmen-/Lippstadt-Bezug; kein Frontmatter-Fill; Quelle(n): https://schrotthandel-dortmund.de/ (Abruf 01.10.2026)]

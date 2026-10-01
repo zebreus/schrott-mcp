@@ -4,13 +4,13 @@ name: Richter (Inh. Mario Kuhn) AV
 trader_type: autoverwertung
 state: SN
 city: Leipzig 04347
-street: ''
-postcode: ''
+street: 'Rackwitzer Str. 50-52'
+postcode: '04347'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: 'https://av-richter.de'
+website_status: 'aktiv'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV
 - Adresse: Leipzig 04347, Rackwitzer Str. 50-52
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Seite av-richter.de (Demontagebetrieb/Altfahrzeugankauf, Rackwitzer Str. 50-52, 04347 Leipzig) + Presse ahoi-leipzig.de 2023; Tel 0341 2312991 + E-Mails nur Einzelbeleg; Quelle(n): Betreiber-Website av-richter.de (HTTP 200, Abruf 01.10.2026); Presse ahoi-leipzig.de 2023 (Abruf 01.10.2026)]
+- [Recherche 01.10.2026: street/postcode-Doppelbeleg erfüllt → gefüllt; website Domain-Root erreichbar → website + website_status aktiv; Telefon/E-Mail nur Einzelbeleg → Timeline, Felder leer; Status pruefung unverändert; Quelle(n): siehe Vorbullet]

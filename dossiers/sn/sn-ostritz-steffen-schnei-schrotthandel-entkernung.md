@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Bunt lt. Verzeichnis
 - schließt Lücke Zittau–Görlitz
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: nur Aggregatoren + fly-foto-Caption; Namens-/Tel-Diskrepanz (Schnei vs. Schneider, 03583 86566 vs. 86792); kein Betreiber-/Registerbeleg; Quelle(n): keine belegfähige Quelle (nur Aggregator-Leads)]
+- [Recherche 01.10.2026: Diskrepanz unauflösbar → kein Fill (Seed street Hauptstr. 1 belassen); Status aktiv unverändert; Quelle(n): keine belegfähige Quelle]

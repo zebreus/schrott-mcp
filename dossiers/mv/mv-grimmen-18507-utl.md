@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Eisen
 - Adresse: Grimmen 18507
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS — kein Grimmen-Bezug belegbar; UTL-Treffer nur namensgleiche Logistik-/Bahnunternehmen ohne Grimmen-Bezug; kein Betreiber-/Register-Beleg; kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 (nur namensgleiche Fremdtreffer: utl-gmbh.de, utl-logistik.de)]

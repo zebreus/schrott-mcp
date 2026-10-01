@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Weiterstadt 64331
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Domain autoverwertung-lechmann.de nur Baustellen-Seite (HTTP 200); HRA 5680 AG Darmstadt (Auto-Teile Markt Lechmann OHG, Sitz Roßdorf, Zweigniederlassung Weiterstadt); Ankauf via europages/openPR; Quelle(n): Betreiber-Domain autoverwertung-lechmann.de (Abruf 01.10.2026); Northdata HRA 5680 (Abruf 01.10.2026)]
+- [Recherche 01.10.2026: kein straßengenauer Doppelbeleg → kein Frontmatter-Fill (Seed-Adresse Weiterstadt 64331 belassen); Baustellen-Domain nicht als website übernommen; Status pruefung unverändert; Quelle(n): europages + openPR (Leads, Abruf 01.10.2026)]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://compes-schmidt.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottgroßhandel, Autoentsorgung, Efb (02921 75959)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website per Vollcrawl verifiziert (Schrottgroßhandel, Containerdienst, Autoentsorgungsfachbetrieb; Historie/Standort Soest), website_status aktiv; Quelle(n): https://www.compes-schmidt.de/, https://www.compes-schmidt.de/impressum/]
+- [Recherche 01.10.2026: Adresse/Telefon/Mail (Compes & Schmidt e.K., Inh. Thomas Dreckmann, Am Silberg 29, 59494 Soest, 02921/75959, info@compes-schmidt.de) nur Betreiber-Einzelbeleg, kein HRB im Impressum (Owner-Ausnahme greift nicht) → kein Frontmatter-Fill; Quelle(n): https://www.compes-schmidt.de/impressum/]

@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinstbetrieb)
 - Adresse: München (Klugstr. 113)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum Einzelbeleg – Klugstr. 113, 80637 München, Tel. 0176 31690847, info@km-rc.de; kein Zweitbeleg; Quelle(n): Betreiber-Website km-rc.de/impressum (Abruf 01.10.2026)]
+- [Recherche 01.10.2026: Einzelbeleg-Fakt nur Timeline, nie Frontmatter (strikte Auslegung); Aggregatoren zählen nicht; Felder leer, Status pruefung unverändert; Quelle(n): siehe Vorbullet (Einzelbeleg)]

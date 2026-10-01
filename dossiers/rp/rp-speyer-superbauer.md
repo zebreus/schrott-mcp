@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Kiefernweg 9, 118★
 - urspr. Website-Angabe: keine
 - Adresse: Speyer
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – nur Facebook-Lead ohne Adressmatch; keine Betreiber-Website, kein Registerbeleg (Retry 01.10.2026 ohne neuen Beleg); street-Feld enthält Seed-Mischtext und wird nicht überschrieben; Quelle(n): keine belegfähige Quelle (nur Social-Lead, zählt nicht)]
+- [Recherche 01.10.2026: Felder leer gelassen, Status pruefung unverändert; Quelle(n): siehe Vorbullet]

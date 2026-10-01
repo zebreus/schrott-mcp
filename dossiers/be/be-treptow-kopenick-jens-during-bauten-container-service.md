@@ -6,7 +6,7 @@ state: BE
 city: Treptow-Köpenick
 street: Treptow-Köpenick, Köpenicker Landstr. 162
 postcode: '12437'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Containerdienst
 - Adresse: Treptow-Köpenick, Köpenicker Landstr. 162, 12437 Berlin
 - Bezirk: Treptow-Köpenick Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber duero.de.tl (Einzelunternehmen, Impressum + Leistungen vollgecrawlt: Köpenicker Landstr. 162, 12437 Berlin, Tel. 030 5336412) – aber kein Schrottankauf (nur Container/Sperrmüll/Abbruch); Quelle(n): Betreiber-Website duero.de.tl/impressum + Leistungen (Abruf 01.10.2026)]
+- [Recherche 01.10.2026: kein Ankauf-Beleg → pruefung bleibt; phone Platzhalter — → '' normiert (nie —); Telefon Einzelbeleg → Feld leer; Quelle(n): siehe Vorbullet (Einzelbeleg)]

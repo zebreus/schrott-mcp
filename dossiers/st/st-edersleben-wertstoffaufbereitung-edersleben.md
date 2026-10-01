@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Wertstoffaufbereitung
 - Adresse: Edersleben (Der Hutdeckel, 06528; Ko-Lokation mit Nordhäuser – Identität prüfen)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-Beleg); Identitätsfrage (Ko-Lokation Nordhäuser) ungeklärt; kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Ennigerloh
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg); nur Verzeichnis-Lead (WS Dienstleistungen, Breslauer Str. 27a, 59320 Ennigerloh); kein Frontmatter-Fill; Quelle(n): Gelbe-Seiten-Suchtreffer 01.10.2026 (Lead, kein Beleg), Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]

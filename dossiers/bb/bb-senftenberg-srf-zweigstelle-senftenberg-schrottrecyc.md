@@ -10,7 +10,7 @@ phone: 03573 8100650
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottrecycling
 - Adressbeleg: schrottrecyclingfinsterwalde.de
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Seite per curl DNS-Fail (Exit 6), nur Search-Cache (Grubenstr. 100, 01968 Senftenberg, Tel. 03573-8100650); Northdata HRB 6969 AG Cottbus aktiv; Quelle(n): Search-Cache schrottrecyclingfinsterwalde.de (Abruf 01.10.2026); Northdata HRB 6969 (Abruf 01.10.2026)]
+- [Recherche 01.10.2026: kein erreichbarer Betreiberauftritt → website unbekannt; Adresse/Telefon nur Seed-/Cache-Einzelbeleg → Felder unverändert; Status aktiv unverändert; Quelle(n): siehe Vorbullet]

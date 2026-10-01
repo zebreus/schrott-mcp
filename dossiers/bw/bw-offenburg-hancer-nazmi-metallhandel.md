@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel/Schrott
 - Größe: klein
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-Doppelbeleg; Creditreform nennt Hancer (Carl-Benz-Str. 6A, Offenburg) nur als Lead; keine verifizierte Betreiber-Website mit Adressmatch, kein HRB-Match (Retry 01.10.2026 ohne neuen Beleg); Quelle(n): keine belegfähige Quelle (nur Aggregator-/Lead-Quellen, zählen nicht)]
+- [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]

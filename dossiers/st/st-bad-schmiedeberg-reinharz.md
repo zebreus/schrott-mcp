@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Leistungen Abschleppdienst/Altautoannahme/Altfahrzeugankauf (Gelbe-Detailseite; Einzelbeleg, unsicher).
 - Quelle: https://www.gelbeseiten.de/suche/Autoverwertung/Bad-Schmiedeberg
 - Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Reinharz&ci=Bad-Schmiedeberg
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS bestätigt — weiterhin nur Aggregator-Leads (Gelbe Seiten + Das Örtliche, keine Belege), kein Betreiber-/Register-/Gewerberegister-Beleg; Frontmatter (Straße/PLZ/Telefon aus Seed) bleibt ungefüllt mangels Zweitbeleg; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]

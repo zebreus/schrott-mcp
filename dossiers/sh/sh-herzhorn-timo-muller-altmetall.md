@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Mobiler Altmetall-Sammler (E-Motoren/Hartmetall); kein Dupe im HH-Seed
 - Adresse: Herzhorn (firmiert Hamburg, mobil in SH tätig)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg); kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]

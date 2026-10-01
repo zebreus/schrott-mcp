@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Nickelsweiher 15
 - urspr. Website-Angabe: keine
 - Adresse: Waldmohr
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – kein Treffer auf Betreiber-Website oder Register; nur Seed-Adressfragment (Nickelsweiher 15); keine zwei unabhängigen Belege (Retry 01.10.2026 ohne neuen Beleg); Quelle(n): keine belegfähige Quelle]
+- [Recherche 01.10.2026: Felder leer gelassen, Status pruefung unverändert; Quelle(n): siehe Vorbullet]

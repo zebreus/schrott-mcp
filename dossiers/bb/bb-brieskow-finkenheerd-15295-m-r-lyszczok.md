@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -35,3 +35,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - urspr. Website-Angabe: keine
 - Adresse: Brieskow-Finkenheerd 15295, Ernst-Thälmann-Str. 64
 - Adressbeleg: stadtbranchenbuch
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Amt Brieskow-Finkenheerd (kommunal) + VBA-Verbandsmitgliederliste – Ernst-Thälmann-Str. 64, 15295 Brieskow-Finkenheerd, Tel. 033609 35540; E-Mail nur Einzelbeleg; Quelle(n): Amt Brieskow-Finkenheerd (Abruf 01.10.2026); VBA-Mitgliederliste (Abruf 01.10.2026)]
+- [Recherche 01.10.2026: kommunal + Verband-Doppelbeleg → status pruefung→aktiv; Adresse/Telefon bereits Seed-Bestand; E-Mail Einzelbeleg → Feld leer; Quelle(n): siehe Vorbullet]

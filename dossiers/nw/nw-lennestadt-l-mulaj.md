@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - 57368, 01512-Nr., 4.9★/93 (Backyard-Typ mit Resonanz)
 - urspr. Website-Angabe: Jimdo-Seite (unklar)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS — Betreiber-Seite nicht abrufbar (Jimdo-Seite blockiert: HTTP 403 per Fetch und curl); Verzeichnis-Lead (Cylex: Leonard Mulaj, Baro 2, 57368 Lennestadt-Halberbracht, 01512 8822038) widerspricht Jimdo-Snippet-Telefon (0151-28822038) → unsicher; kein Frontmatter-Fill; Quelle(n): https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/ (403 am 01.10.2026), Cylex-Firmenseite (Lead, kein Beleg)]

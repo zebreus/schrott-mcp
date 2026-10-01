@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/AV
 - Adresse: Haldensleben (Johann-Gottlob-Nathusius-Str. 12a, 39340)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg; GbR ohne HR-Eintrag erwartbar); Straßen-Angabe aus Seed ohne Zweitbeleg; kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]

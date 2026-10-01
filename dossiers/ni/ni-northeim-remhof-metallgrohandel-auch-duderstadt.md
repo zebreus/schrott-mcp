@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallgroßhandel
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall Adress-/Namensmismatch – Domain remhof.de ist Werner Remhof GmbH, Ölmühlenweg 18, 34123 Kassel (HRA 16729), passt nicht zu Dossier-Stadt Northeim/Duderstadt; kein Northeim-/Duderstadt-Doppelbeleg (Retry 01.10.2026 ohne neuen Beleg); Quelle(n): Betreiber-Website remhof.de (Erstbefund 01.10.2026, fremder Sitz Kassel)]
+- [Recherche 01.10.2026: Felder leer gelassen, Statusfeld unverändert; Quelle(n): siehe Vorbullet]

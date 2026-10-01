@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallhandel (schrottplatz-info-Beleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Filiale Prenzlau 2014 geschlossen – Betreiber-Standortliste ohne Prenzlau; Rufnummer 03984 859110 heute bei PSR Brüssower Allee 90, 17291 Prenzlau; Quelle(n): Betreiber-Standortliste ziems-recycling.de (Abruf 01.10.2026); Presse 320grad.de 2014 (Abruf 01.10.2026)]
+- [Recherche 01.10.2026: geschlossen-Beleg (Doppelbeleg) → status aktiv→pruefung korrigiert; Rufnummer heute PSR (psr-recycling.de + prenzlau.eu); keine Adress-Fills; Quelle(n): psr-recycling.de + prenzlau.eu (Abruf 01.10.2026)]

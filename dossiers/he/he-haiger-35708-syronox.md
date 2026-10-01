@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel, evtl. Edelstahl
 - Adresse: Haiger 35708
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Website tot (syronox.de/.com, auch http-Redirects scheitern an https); nur Edelstahl-Großhandel, kein Schrottankauf → Fehlkandidat-Verdacht; Quelle(n): Direktabruf syronox.de/.com (Fail 01.10.2026)]
+- [Recherche 01.10.2026: kein Betreiber-/Ankauf-Doppelbeleg → kein Fill; Felder leer, Status pruefung unverändert; Quelle(n): keine belegfähige Quelle]

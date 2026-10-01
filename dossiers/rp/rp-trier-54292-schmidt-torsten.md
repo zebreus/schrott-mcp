@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Trier 54292
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall – Adresskonflikt Bernkasteler Str. 4 vs. Am Beutelweg 1, jeweils nur Aggregator-Leads; kein Betreiber-Doppelbeleg, kein Registerbeleg (Retry 01.10.2026 ohne neuen Beleg); Quelle(n): keine belegfähige Quelle (nur Aggregator-Leads, zählen nicht)]
+- [Recherche 01.10.2026: Felder leer gelassen, Status pruefung unverändert; Quelle(n): siehe Vorbullet]

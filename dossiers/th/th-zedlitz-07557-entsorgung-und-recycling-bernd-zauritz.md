@@ -34,3 +34,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Recycling — reine Entsorgungs-Tarnung, Ankauf unbestätigt (PRÜFFALL)
 - urspr. Website-Angabe: keine
 - Adresse: Zedlitz 07557
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: nur Aggregatoren (Zedlitz 19, 07557 Zedlitz, Tel. 036603 600995); kein Betreiber-/Registerbeleg; Quelle(n): keine belegfähige Quelle (nur Aggregator-Leads)]
+- [Recherche 01.10.2026: PRÜFFALL bleibt; kein Fill; Status pruefung unverändert; Quelle(n): keine belegfähige Quelle]
