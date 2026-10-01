@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (nur Aggregator-Leads, kein Beleg); Quelle(n): Gelbe Seiten und dastelefonbuch.de (Birko Andreas Kleintransporte und Schrott, Strasse zum Schlosspark 2, 16515 Oranienburg, Tel 03301 56337, Branche Speditionen; Leads). Keine Betreiber-Website, kein HR-Eintrag. Seed-Felder Strasse/PLZ/Telefon bleiben unveraendert (kein Overwrite ohne Beleg).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Transporte/Schrott

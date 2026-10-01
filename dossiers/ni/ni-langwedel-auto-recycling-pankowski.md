@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (Flag)
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — nur Aggregator-Leads (schrottregister.de, meinestadt.de: Jutekamp 3 als Einzelbeleg/Lead, unsicher); keine Betreiber-Website, kein HR-Beleg; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): schrottregister.de + meinestadt.de (nur Leads, keine Belege)]

@@ -34,6 +34,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Straßer Hof 12, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden [Website-Recherche 30.09.2026: Impressum-Fund, Adresse/Tel bestätigt; Quelle: breidbach-metalle.de/impressum/]
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein 2. unabhängiger Beleg — breidbach-metalle.de NXDOMAIN (tot), breidbach.de nur Platzhalter (kein Impressum); Einzelunternehmen ohne HRB, Owner-Ausnahme greift NICHT; Frontmatter leer belassen (Klärfall); Quelle(n): DNS-NXDOMAIN breidbach-metalle.de + Fetch breidbach.de Platzhalter]
+
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: Domain breidbach-metalle.de per DNS NXDOMAIN verifiziert; angebliche Impressum-Quelle unbelegt, Website entfernt, website_status tot. Quelle: dns.google + getent.]

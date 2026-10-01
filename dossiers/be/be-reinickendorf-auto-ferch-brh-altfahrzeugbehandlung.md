@@ -6,11 +6,11 @@ state: BE
 city: Reinickendorf
 street: Lengeder Str. 22
 postcode: '13407'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung + Gebrauchtteile
 - Adresse: Lengeder Str. 22, 13407 Berlin
 - Bezirk: Reinickendorf Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: auto-ferch.de per curl Cloudflare-blockiert (403), Zuordnung zum Seed-Betrieb unverifiziert; keine 2 unabhängigen Belege; Frontmatter leer belassen (Klärfall); Quelle(n): curl auto-ferch.de 403 (technisch, keine Zuordnung)]

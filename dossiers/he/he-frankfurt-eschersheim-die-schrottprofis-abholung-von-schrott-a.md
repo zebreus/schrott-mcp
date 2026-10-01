@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Beleg); Quelle(n): keine Betreiber-Website, kein HR-Eintrag auffindbar. Telefon 01633318898 (Seed) am 01.10.2026 per Websuche nirgends verifizierbar; keine Treffer zu Name+Ort. Mobile Abholung unbelegt.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mobile Abholung (Portal: FE/Alu/Kupfer/Edelstahl/Blei/Messing, Tel. 01633318898)

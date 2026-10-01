@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Buntmetall/Kabel/Kat, EfbV Metallabfaelle
 - Adresse: Waltershausen (Gothaer Str. 52)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — nur Aggregator-Lead (schrottregister.de: Gothaer Str. 52, kein Beleg); keine Betreiber-Website, kein HR-Eintrag zu FerroMetall Waltershausen; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): schrottregister.de (nur Lead, kein Beleg)]

@@ -4,13 +4,13 @@ name: Econocom Remarketing (bb-net)
 trader_type: schrotthaendler
 state: BY
 city: Schweinfurt 97424
-street: ''
-postcode: ''
+street: Lissabonstr. 4
+postcode: '97424'
 phone: ''
 email: ''
 opening_hours: ''
 website: https://www.bb-net.de/
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - E-Schrott/IT/Server — "kaufen Business-Hardware", DSGVO + Auszahlung (NEU)
 - Adresse: Schweinfurt 97424
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Umbenennung belegt — bb-net wird Econocom Remarketing (07/2026); Northdata HRB 3873 + PitchBook bestätigen Lissabonstr. 4, 97424 Schweinfurt — 2 unabhängige Belege, Straße/PLZ gefüllt; bb-net.de live verifiziert (website_status aktiv); Quelle(n): bb-net.de / econocom-remarketing.de (Live-Fetch 01.10.2026), northdata.de HRB 3873, pitchbook.com]

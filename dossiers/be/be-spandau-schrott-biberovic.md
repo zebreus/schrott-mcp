@@ -6,11 +6,11 @@ state: BE
 city: Spandau
 street: Klosterstr. 15
 postcode: '13581'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrottplatz (nur Verzeichnisbeleg)
 - Adresse: Klosterstr. 15, 13581 Berlin
 - Bezirk: Spandau Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Betreiber-Nachweis — keine 2 unabhängigen Belege, nur Verzeichnis-Leads; Frontmatter-Phone (—) regelkonform geleert; Klosterstr. 15 13581 Berlin unbestätigt; Frontmatter sonst leer belassen (Klärfall); Quelle(n): keine Belegquelle]

@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (nur Aggregator-Leads, kein Beleg); Quelle(n): Gelbe Seiten (Spindler Karl SchrottHdl., Chemnitzer Str. 91, 72458 Albstadt-Ebingen, Tel 07431 74569; Lead) + schrottplatz-info.de und schrottplatz.org (Gross-Lueck-analoge Listung: Chemnitzer Str. 91; Leads). Keine Betreiber-Website, kein HR-Eintrag. Adresse/Telefon daher (Einzelbeleg, unsicher) in Timeline, Feld bleibt leer.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

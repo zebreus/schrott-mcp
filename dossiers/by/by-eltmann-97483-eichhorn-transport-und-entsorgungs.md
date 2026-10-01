@@ -4,14 +4,14 @@ name: Eichhorn Transport- und Entsorgungs-GmbH
 trader_type: sonstige
 state: BY
 city: Eltmann 97483
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Industriestr. 11
+postcode: '97483'
+phone: 09522 3010-0
+email: info@eichhorn-recycling.de
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
+website: https://eichhorn-recycling.de
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Transport/Entsorgung — kein Metallankauf belegt (PRÜFFALL)
 - urspr. Website-Angabe: keine
 - Adresse: Eltmann 97483
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website eichhorn-recycling.de live verifiziert (Industriestr. 11, 97483 Eltmann, Tel. 09522 3010-0, info@eichhorn-recycling.de) + Creditreform-Spiegel HRB 2363 AG Bamberg — 2 unabhängige Belege, Frontmatter gefüllt, Altmetallannahme (Gewerbe) HR-belegt → Status aktiv; Quelle(n): eichhorn-recycling.de (Live-Fetch 01.10.2026), creditreform.de HRB 2363]

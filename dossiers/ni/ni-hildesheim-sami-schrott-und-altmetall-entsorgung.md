@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — nur Kleinanzeigen-Lead (kein Beleg); keine Betreiber-Website, kein HR-Eintrag; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): Kleinanzeigen-Fund (nur Lead, kein Beleg)]

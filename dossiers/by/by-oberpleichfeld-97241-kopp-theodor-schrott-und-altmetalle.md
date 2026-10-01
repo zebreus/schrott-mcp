@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Altmetalle — Tel. 09367 2200
 - urspr. Website-Angabe: keine
 - Adresse: Oberpleichfeld 97241
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — nur Aggregator-Leads (Gelbe Seiten, dastelefonbuch.de: Herrngasse 13 als Einzelbeleg/Lead, unsicher); keine Betreiber-Website, kein HR-Eintrag; Seed-Tel. 09367 2200 ohne Zweitbeleg → Feld bleibt unverändert; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): gelbeseiten.de + dastelefonbuch.de (nur Leads, keine Belege)]

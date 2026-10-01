@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Altmetall
 - Adresse: Meißen 01662, Ossietzkystr. 37A
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — keine Betreiber-Website, kein HR-Eintrag; Seed-Adresse (Ossietzkystr. 37A) ohne Zweitbeleg → Felder bleiben unverändert; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): Websuche 01.10.2026 ohne belegbaren Treffer]

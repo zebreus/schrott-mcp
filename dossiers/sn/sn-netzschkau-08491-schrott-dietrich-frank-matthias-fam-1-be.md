@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (3 separate GS-Einträge, Tel. 03765 34546/36578/64404)
 - Adresse: Netzschkau 08491, Schützenstr. 26
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — keine Betreiber-Website, kein HR-Eintrag; Seed-Adresse/-Telefone ohne Zweitbeleg → Felder bleiben unverändert; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): Websuche 01.10.2026 ohne belegbaren Treffer]

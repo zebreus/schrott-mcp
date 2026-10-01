@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Zweitbeleg; Korrekturhypothese Metallhersteller statt Schrott bleibt unbelegt); Quelle(n): Spiegel-Verzeichnis (atlantafigures.org-Mirror: Mussbach Metall, An der Eselshaut 2, 67435 Neustadt, HRA 41393 AG Ludwigshafen, Automobilzulieferer/Metallwaren; HR-Angabe unbestatigt, Einzelbeleg, unsicher). Keine Betreiber-Website, kein Schrottbezug nachweisbar. website_status tot unveraendert (kein Live-Check erfolgt).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallhandel

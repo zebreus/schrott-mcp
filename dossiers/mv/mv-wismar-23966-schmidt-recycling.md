@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Eisen/NE, hafennah
 - Adresse: Wismar 23966, Zum Dock 6
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Schmidt Recycling GmbH erloschen (Löschung); schmidt-recycling.de nur Domain-Parkplatz (domainmarkt); kein aktiver Betreiber-Nachweis, keine 2 Belege für Adressfelder; Frontmatter leer belassen (Klärfall); Quelle(n): Northdata HRB-Eintrag (erloschen) + curl schmidt-recycling.de → domainmarkt-Parking]

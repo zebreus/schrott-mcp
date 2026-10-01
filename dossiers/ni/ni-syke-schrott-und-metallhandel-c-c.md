@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — keine Betreiber-Website, kein HR-Eintrag, nur Aggregator-Leads (keine Belege); keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): Websuche 01.10.2026 ohne belegbaren Treffer]

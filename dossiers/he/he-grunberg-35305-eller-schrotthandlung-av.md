@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Beleg); Quelle(n): keine Betreiber-Quelle, kein HR-Eintrag auffindbar. Websuche 01.10.2026 ohne Treffer zu Name+Ort; amtliches Schrottregister-Verzeichnis nennt fuer Gruenberg (35305) nur Gorsler GmbH & Co. KG (Autoverwertung).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandlung + AV

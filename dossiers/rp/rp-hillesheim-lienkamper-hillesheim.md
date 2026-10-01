@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Beleg); Quelle(n): keine Betreiber-Quelle, kein HR-Eintrag auffindbar. Websuche 01.10.2026 zu Name+Ort ohne verifizierbaren Treffer; nur Abhol-SEO-Seiten (Richter, Salloum u.a. fuer andere Orte) als Leads.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - mobil

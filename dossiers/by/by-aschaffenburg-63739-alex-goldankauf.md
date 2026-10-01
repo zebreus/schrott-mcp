@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Zahngold/Silber/Schmuck/Uhren — Tel. 06021-9218508
 - urspr. Website-Angabe: keine
 - Adresse: Aschaffenburg 63739, Roßmarkt 39 A
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — nur Aggregator-Lead (Das Örtliche, kein Beleg); juwelier-alex.de gehört Kölner Juwelier (Fremdfirma, kein Beleg); keine Betreiber-Website, kein HR-Eintrag; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): dasoertliche.de (nur Lead, kein Beleg)]

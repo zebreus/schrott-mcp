@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Beleg); Quelle(n): keine Betreiber-Quelle, kein HR-Eintrag auffindbar. Name zu generisch (Personenregister-Treffer unverwandt); Juwelier-Verdacht aus Seed bleibt unbelegt.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinhändler (GS); Juwelier-Verdacht unbelegt → drin

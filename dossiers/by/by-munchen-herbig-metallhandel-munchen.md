@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel (eher B2B)
 - Adresse: München (Landsberger Str. 402)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Treffer — herbighandel.de gehört fremder Firma (kein Beleg); keine Betreiber-Website, kein HR-Beleg zum Seed-Stand; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): Websuche 01.10.2026 ohne belegbaren Treffer]

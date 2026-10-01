@@ -4,13 +4,13 @@ name: Dammann Schrott
 trader_type: schrotthaendler
 state: NI
 city: Bremervörde
-street: ''
-postcode: ''
-phone: ''
+street: Lloydstr. 13
+postcode: '27432'
+phone: 04761 1289
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://dammann-gmbh.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Impressum dammann-gmbh.de (Karosserie- und Autoverwertung, Lloydstr. 13, 27432 Bremervörde, Tel. 04761 1289) + HR-Eintrag Northdata HRB 207971 AG Tostedt — 2 unabhängige Belege, Frontmatter gefüllt (E-Mail nur Einzelbeleg → leer); Quelle(n): dammann-gmbh.de Impressum (Live-Fetch 01.10.2026), northdata.de HRB 207971]

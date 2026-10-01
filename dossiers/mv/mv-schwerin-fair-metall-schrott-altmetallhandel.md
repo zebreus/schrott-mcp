@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.fair-metall.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall Tagespreise, Container 5–40 m³
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Seite stark (Anthony-Fokker-Str. 5 19061 Schwerin, Tel 0385-6768090, info@fair-metall.de, Inh. Danika Dettmann, Mo-Fr 7-16 Sa 9-13, Container 5-40 qm), aber Einzelunternehmen ohne HRB — Owner-Ausnahme greift NICHT, kommunaler 2. Beleg fehlt; Frontmatter-Adressfelder leer belassen; Adresse/Tel nur als (Einzelbeleg, unsicher) in Timeline; Quelle(n): fair-metall.de/ + /kontakt/ + /impressum/ (eine Quelle)]

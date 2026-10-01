@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (Adresse/Telefon nur aus Aggregator-Leads, kein Zweitbeleg); Quelle(n): Creditreform-Firmeneintrag (Holger Thiesen Schrotthandel HT Wanderup, Branche Altmaterial-Grosshandel; Existenzbeleg, ohne Adressdetails) + schrottplatz-info.de und schrottplatz.org (Gross-Lueck 1, 24997 Wanderup, Tel 0172 4567295; Leads, kein Beleg) + Betreiber-Social (Facebook-Profil Holger Thiesen, Wanderup, Schrotthandel HT; ungeprueft). Adresse/Telefon daher (Einzelbeleg, unsicher) in Timeline, Feld bleibt leer.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Ländlicher Sammler (nur Namensnennung)

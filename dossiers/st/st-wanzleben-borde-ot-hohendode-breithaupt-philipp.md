@@ -6,11 +6,11 @@ state: ST
 city: Wanzleben-Börde OT Hohendodeleben
 street: Am Stadtweg 15
 postcode: '39164'
-phone: ''
-email: ''
+phone: 039204 719-0
+email: info@breithaupt-philipp.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://breithaupt-philipp.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Sprengung/Betriebsauflösung (lt. 11880)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber verifiziert (Impressum Name+HRA+Ort, HR-kongruent); Am Stadtweg 15 39164 Wanzleben-Börde OT Hohendodeleben, Tel 039204 719-0, info@breithaupt-philipp.de; HRA21481 AG Stendal; KEIN Schrottankauf erkennbar — Kran/Schwerlast/Industriemontage; Owner-Ausnahme erfüllt; Quelle(n): breithaupt-philipp.de/ + breithaupt-philipp.de/impressum/ + Northdata HRA21481]

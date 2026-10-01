@@ -1,16 +1,16 @@
 ---
 slug: mv-malchow-horst-ziems
-name: Horst Ziems
+name: Ziems Recycling Malchow GmbH & Co. KG
 trader_type: sonstige
 state: MV
 city: Malchow
-street: Bahnhofstr. 44
-postcode: ''
-phone: ''
-email: ''
+street: Am Bahnhof
+postcode: '17213'
+phone: +49 39932 82730
+email: info@ziems-recycling.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.ziems-recycling.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - lokaleschrottplatz.de (Annahmekategorien wie oben)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Bewiesene Korrektur mit 2 Belegen — Name/Adresse falsch (Horst Ziems/Bahnhofstr. 44), korrekt Ziems Recycling Malchow GmbH & Co. KG, Am Bahnhof 17213 Malchow, Tel +49 39932 82730, info@ziems-recycling.de; HRA2440 AG Neubrandenburg, GF Olaf Ziems; Owner-Ausnahme erfüllt; Quelle(n): ziems-recycling.de/impressum.html + ziems-recycling.de/kontakt.html (eine Betreiberquelle) + Northdata HRA2440 als 2. Beleg]

@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Beleg; Namensaenlichkeit allein kein Beleg); Quelle(n): keine Betreiber-Quelle zu Woerthstr. 8, Hoerdt auffindbar. Treffer Schrott Wetzel GmbH (Mannheim, Wikipedia/schrott-wetzel.de) und Schrott Wetzel OST GmbH (Elstertrebnitz, HRB 39229 Leipzig) sind unverwandte Unternehmen ohne Ortsbezug Hoerdt.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Wörthstr. 8

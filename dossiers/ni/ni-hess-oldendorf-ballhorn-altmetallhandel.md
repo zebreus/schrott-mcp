@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://aus-liebe-zum-schrott.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall (Weserbergland)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Seite aus-liebe-zum-schrott.de live verifiziert (Ballhorn Altmetallhandel, HRB 208606 AG Hannover per Impressum + Fusionbase-Spiegel) — Website + website_status gefüllt; Straße konfligiert (Lokenweg 7 vs. HR-alt Fabrikstraße 41) und Telefon konfligiert (Seed 09367 2200 vs. 05152 5252-66) → Klärfall, Felder bleiben leer; Quelle(n): aus-liebe-zum-schrott.de Impressum (Live-Fetch 01.10.2026), fusionbase HRB 208606]

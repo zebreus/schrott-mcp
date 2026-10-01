@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.tsr-recycling.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/NE
 - —
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Seite tsr-recycling.de live verifiziert (website_status aktiv); NL-Adresse Heidenau unbestätigt — HMV Heidenau ist Fremdfirma (Warnung: nicht verwechseln); Adressfelder bleiben leer; Quelle(n): tsr-recycling.de (Live-Fetch 01.10.2026)]
