@@ -3,7 +3,7 @@ slug: by-miltenberg-63897-auktionshaus-miltenberg
 name: Auktionshaus Miltenberg
 trader_type: sonstige
 state: BY
-city: Miltenberg 63897
+city: Miltenberg
 street: Hauptstraße 130
 postcode: '63897'
 phone: 09371 98 97 004
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Gold/Schmuck/Uhren/Silber — /ankauf/
 - Adresse: Miltenberg 63897, Hauptstr.
 - Adressbeleg: https://www.auktionshaus-miltenberg.de, https://www.auktionshaus-miltenberg.de/impressum
+
+### Recherche 01.10.2026 (Feedback-Triage #3074)
+
+- [Recherche 01.10.2026: PLZ-im-city-Feld berechtigt — city auf „Miltenberg" bereinigt (postcode 63897 bestand). Betreiber-Seite bestätigt Hauptstraße 130, 63897 Miltenberg + Öffnungszeiten (matchen Frontmatter). Zusatzfund (Vollcrawl): Dependance Heidelberg, Brahmsstraße 6, 69118 Heidelberg — KEIN zweiter Händler, nur Timeline-Vermerk; Quelle(n): https://www.auktionshaus-miltenberg.de (Betreiber-Einzelbeleg)]

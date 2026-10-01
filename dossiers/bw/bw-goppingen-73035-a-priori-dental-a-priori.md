@@ -1,16 +1,16 @@
 ---
 slug: bw-goppingen-73035-a-priori-dental-a-priori
-name: A-Priori Dental (a priori GmbH)
+name: A-Priori Dental (a priori GmbH & Co. KG)
 trader_type: sonstige
 state: BW
-city: Göppingen 73035
+city: Göppingen
 street: Autenbachstr. 17
 postcode: '73035'
 phone: 07161 - 920 397
 email: service@a-priori-dental.de
 opening_hours: ''
-website: https://www.a-priori-dental.de/scheidgut
-website_status: ''
+website: https://www.a-priori-dental.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Feedback-Triage 01.10.2026 (ID 3035): berechtigt — city „Göppingen 73035" → „Göppingen"; Firmierung korrigiert (a priori GmbH & Co. KG, HRA 720 395 AG Ulm, GF Thomas Traub) per verifiziertem Betreiber-Impressum; website auf Domain-Root https://www.a-priori-dental.de gekürzt + website_status aktiv; Adresse/Kontakt (Autenbachstr. 17, 73035 Göppingen, 07161-920397, service@a-priori-dental.de) bestätigt unverändert; Quelle(n): https://www.a-priori-dental.de/kontakt (Impressum), https://www.a-priori-dental.de/scheidgut]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

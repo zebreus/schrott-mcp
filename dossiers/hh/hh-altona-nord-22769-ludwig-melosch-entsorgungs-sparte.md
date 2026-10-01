@@ -3,7 +3,7 @@ slug: hh-altona-nord-22769-ludwig-melosch-entsorgungs-sparte
 name: Ludwig Melosch Entsorgungs-Sparte
 trader_type: wertstoffhaendler
 state: HH
-city: Altona-Nord 22769
+city: Altona-Nord
 street: Waidmannstr. 16
 postcode: '22769'
 phone: +49 40 8547-0
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Entsorgung/Wertstoffhandel — GS "Wertstoffhandel" → "Entsorgung von Schrott" (NEU — gleiche Adresse wie Seed Melosch Export = Schwesterfirma, trennen!)
 - Adresse: Altona-Nord 22769, Waidmannstr. 16
 - Adressbeleg: melosch.de + /impressum
+
+### Recherche 01.10.2026 (Feedback-Triage #3085)
+
+- [Recherche 01.10.2026: Berechtigt, reiner Formatfehler — city auf „Altona-Nord" bereinigt, alle übrigen Daten bestätigt: Betreiber (KG Ludwig Melosch Vertriebs-GmbH & Co.) nennt Waidmannstraße 16, 22769 Hamburg, Tel. +49 40 8547-0 (= Frontmatter). Schrott-Entsorgungsleistung auf eigener Leistungsseite; Quelle(n): https://www.melosch.de (Betreiber-Einzelbeleg)]

@@ -3,14 +3,14 @@ slug: ni-lingen-49811-deppe-rohstoffrecycling
 name: DEPPE Rohstoffrecycling GmbH
 trader_type: schrotthaendler
 state: NI
-city: Lingen 49811
+city: Lingen
 street: Schillerstr. 25
 postcode: '49811'
 phone: 0591 71030-0
 email: office@deppe-lingen.de
 opening_hours: Mo-Fr Anlieferung 8:00-12:00 und 12:45-16:30, Abholung 8:00-15:00
 website: https://www.deppe-lingen.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Rohstoffrecycling/Container — Stahl-/NE-Schrotte + Karossen, Kleinmengen ok; BDSV HRB 208360 (NEU)
 - Adresse: Lingen 49811, Schillerstr. 25
 - Adressbeleg: https://www.deppe-lingen.de
+
+### Recherche 01.10.2026 (Feedback-Triage #3106)
+
+- [Recherche 01.10.2026: Feedback #3106 berechtigt (City-Fix) — city PLZ-bereinigt (Lingen 49811 → Lingen); Rest verifiziert unverändert korrekt: Betreiber-Kontaktseite + Impressum (DEPPE Rohstoffrecycling GmbH, Schillerstraße 25, 49811 Lingen, Tel. 0591 71030-0, office@deppe-lingen.de, HRB 208360 AG Osnabrück, GF Thomas Deppe) bestätigen Straße/PLZ/Telefon/Mail/Zeiten (Anlieferung Mo–Fr 8:00–12:00/12:45–16:30, Abholung 8:00–15:00, Büro bis 16:45); Leistungen: Stahl-/NE-Schrotte, Karossen, Kleinmengen, Container, Metallanalyse (trader_type schrotthaendler begründet); website_status aktiv (live abgerufen); Quelle(n): https://www.deppe-lingen.de/kontakt + https://www.deppe-lingen.de/impressum (eine Quelle, Owner-Ausnahme: GmbH mit HRB + Ort)]

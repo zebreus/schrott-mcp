@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, Buntmetall, Container
 - lt. Das Örtliche
+
+### Recherche 01.10.2026 (Feedback 3152)
+
+- [Recherche 01.10.2026: Feedback 3152 halb berechtigt (Klärfall), eingearbeitet — Downgrade critical → medium akzeptiert: schrott-gehrt.de ist keine völlig fremde Firma, sondern Glauchauer Gehrt-Betrieb (Impressum: Klaus-Georg Gehrt, Boschstr. 2, 08371 Glauchau, Tel. 03763 12550, info@schrott-gehrt.de); 'derselbe Betrieb'-These jedoch NICHT belegt und hier widerlegt: Max Gehrt GmbH & Co. KG (Am Heizwerk 6, HRA 10258, max-gehrt.de) ≠ Klaus-Georg Gehrt (Boschstr. 2, Einzelunternehmen, schrott-gehrt.de) — zwei Adressen, zwei Rechtsformen, zwei Websites; kein Merge (eigener Eintrag sn-glauchau-klaus-georg-gehrt besteht). Dubletten-Hinweis 'ID 1883' unbelegt/offen. Übrige 3152-Bestätigungen (steglich→REMONDIS-Redirect, Böttcher=Brennholz-Shop, velte offline, pr-metallhandel=Platzhalter) zur Kenntnis, keine hiesige Aktion. Beleglage: beidseitige Impressen + Register/HRA aus Vorrecherche 01.10.2026. Quelle(n): https://www.max-gehrt.de/impressum, https://www.schrott-gehrt.de/impressum (Abruf 01.10.2026)]

@@ -6,7 +6,7 @@ state: RP
 city: Andernach
 street: 'Koblenzer Str. 141'
 postcode: '56626'
-phone: ''
+phone: +49 211 3106290
 email: ''
 opening_hours: ''
 website: https://rdwr.de
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Identität geklärt: DWR – Deutsche Gesellschaft für Weißblechrecycling mbH (Tochter der thyssenkrupp Rasselstein GmbH, Verwerter von Weißblech-Verpackungsschrotten); Betreiber-Impressum (rdwr.de/impressum): Sitz Andernach, HRB 15337 AG Koblenz, GF Dr. Johannes Emundts; Northdata HR-kongruent (HRB 15337, Adresse Koblenzer Str. 141, D-56626 Andernach) → street/postcode/website per Owner-Direktive (verifizierte Betreiber-Primärquelle, HR-kongruent) + Zweitbeleg gefüllt, website_status aktiv (live abgerufen). Telefon Andernach-Werk (02632 30970) und rechnungen@rdwr.de nur Aggregator-Leads (kein Betreiber-Beleg) → phone/email leer. Betreiber-Kontaktseite nennt nur Düsseldorfer Zentrale (Graf-Adolf-Str. 20, +49 211 3106290), nicht Andernach; Quelle(n): https://rdwr.de/, https://rdwr.de/impressum/, Northdata HRB 15337]
+
+### Recherche 01.10.2026 (Feedback-Triage ID 3126)
+
+- [Recherche 01.10.2026: Feedback 3126 teils berechtigt — Andernach-Behauptung ('Standort nicht belegt') als UNBERECHTIGT verworfen: Sitz Andernach steht im Betreiber-Impressum (HRB 15337 AG Koblenz) + Northdata HR-Adresse Koblenzer Str. 141, 56626 Andernach (Dossier-Anschrift bestätigt, kein Phantom); phone +49 211 3106290 (Düsseldorfer Zentrale, Betreiber-Kontaktseite) als BERECHTIGT übernommen mit Disclosure (kein separater Andernach-Anschluss belegt; B2B-Vermarkter, kein Schrottplatz/keine Privatannahme); E-Mail bleibt leer (Impressum nennt keine). Quelle(n): https://rdwr.de/impressum/ (Re-Abruf 01.10.2026)]

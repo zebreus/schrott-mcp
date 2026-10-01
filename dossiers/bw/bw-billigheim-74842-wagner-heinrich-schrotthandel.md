@@ -3,7 +3,7 @@ slug: bw-billigheim-74842-wagner-heinrich-schrotthandel
 name: Wagner Heinrich Schrotthandel
 trader_type: schrotthaendler
 state: BW
-city: Billigheim 74842
+city: Billigheim
 street: Fasanenweg 2
 postcode: '74842'
 phone: 06265 95230
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Recherche 30.09.2026: schrott-wagner.de per Impressum VERIFIZIERT — Firma Wagner Schrott- und Metallhandel, Fasanenweg 2, 74842 Billigheim (Adresse/Tel/Mail matchen Dossier); Inhaber Annegret Wagner (Dossier-Name Heinrich Wagner abweichend, Generationenwechsel möglich). Website bleibt aktiv. Quelle: https://www.schrott-wagner.de/impressum.html.]
+
+### Recherche 01.10.2026 (Feedback-Triage #3071)
+
+- [Recherche 01.10.2026: PLZ-im-city-Feld berechtigt — city auf „Billigheim" bereinigt (postcode 74842 bestand). Zweitstandort berechtigt bestätigt: Betreiber-Website (Startseite) nennt Lager Bahnhofstr. 8, 74821 Neckarelz, Tel. 06261/62293 — KEIN zweiter Händler, nur Timeline-Vermerk (kein Adress-Mix in Frontmatter; Betreiber-Einzelbeleg). Fasanenweg 2, 74842 Billigheim + Tel. 06265/95230 rückbestätigt; Quelle(n): https://www.schrott-wagner.de/ (eine Quelle)]

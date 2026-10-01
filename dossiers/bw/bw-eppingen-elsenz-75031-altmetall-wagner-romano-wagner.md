@@ -3,14 +3,14 @@ slug: bw-eppingen-elsenz-75031-altmetall-wagner-romano-wagner
 name: Altmetall Wagner (Romano Wagner)
 trader_type: schrotthaendler
 state: BW
-city: Eppingen-Elsenz 75031
+city: Eppingen-Elsenz
 street: Sinsheimer Str. 15
 postcode: '75031'
 phone: 0174 21 35 113
 email: kontakt@altmetall-wagner.de
 opening_hours: ''
 website: https://altmetall-wagner.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Feedback-Triage 01.10.2026 (ID 3046): berechtigt — city „Eppingen-Elsenz 75031" → „Eppingen-Elsenz"; Rest (Sinsheimer Str. 15, 75031 Eppingen Elsenz, Romano Wagner, 0174 2135113, kontakt@altmetall-wagner.de) per Betreiber-Impressum bestätigt unverändert; Quelle: https://altmetall-wagner.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

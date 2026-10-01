@@ -3,7 +3,7 @@ slug: sh-lubeck-23554-von-pegasus-goldankauf-edelmetallhandel
 name: von Pegasus Goldankauf & Edelmetallhandel
 trader_type: metallhaendler
 state: SH
-city: Lübeck 23554
+city: Lübeck
 street: 'Schwartauer Allee 4'
 postcode: '23554'
 phone: '0451 28023123'
@@ -31,6 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Impressum (Unsöld's Handel GmbH, HRB 23229 HL AG Lübeck, GF Siegfried Unsöld) + redaktioneller Zweitbeleg; Adresse/Telefon/E-Mail/Öffnungszeiten belegt; Quelle: https://goldankauf-pegasus.de/impressum/ (Schwartauer Allee 4, 23554 Lübeck); Quelle: https://goldankauf-pegasus.de/kontakt (Tel. 0451/28023123, kontakt@au-edelmetalle.de, Mo–Fr 10–18, Sa 10–14); Quelle: https://www.luebeck-magazin.de/artikel/goldankauf-in-luebeck (Filiale Schwartauer Allee 4, Tel.); HR-Kongruenz nur per Impressum-Angabe, nicht extern gegengeprüft; Zweigstelle Schwerin (Timeline, Betreiber-Quelle); Gold/Silber/Platin/Palladium-Ankauf, seit 1989]
+- [Feedback-Triage 01.10.2026 (ID 3026): city-Feld „Lübeck 23554" → „Lübeck" bereinigt (PLZ steht separat in postcode, Beleg s.o. Impressum/Kontakt); Namens-Teil unberechtigt — Site-Branding „Goldankauf Pegasus / von Pegasus" (Logo/Titel) bestätigt Dossier-Namen, Betreiber dahinter Unsöld's Handel GmbH (HRB 23229 HL) bleibt Timeline-Kontext, kein Namenswechsel; Quelle: https://goldankauf-pegasus.de/impressum/ (Re-Verifikation 01.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

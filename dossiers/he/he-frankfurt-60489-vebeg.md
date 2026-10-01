@@ -8,7 +8,7 @@ street: 'Rödelheimer Bahnweg 23'
 postcode: '60489'
 phone: '+49 69 75897-0'
 email: 'mail@vebeg.de'
-opening_hours: ''
+opening_hours: 'Mo–Do 8–12 und 13–16 Uhr, Fr 8–12 und 13–14 Uhr'
 website: https://www.vebeg.de
 website_status: aktiv
 status: aktiv
@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 +- [Korrektur 01.10.2026 (Owner-Gate): HR-Kongruenz per Northdata nachgeholt (VEBEG GmbH, AG Frankfurt HRB 8255, Roedelheimer Bahnweg 23, 60489 Frankfurt) + service.bund.de (Behoerdenportal: gleiche Adresse/Tel/Mail) — Fills damit doppelbelegt; Quelle(n): https://www.northdata.com/VEBEG%20GmbH,%20Frankfurt%20a%C2%B7%20Main/Amtsgericht%20Frankfurt%20am%20Main%20HRB%208255 + https://www.service.bund.de/Content/DE/DEBehoerden/V/VEBEG/VEBEG-GmbH.html]
 - Bundeseigene Treuhandgesellschaft (gegr. 1951 durch Bundesfinanzministerium): verkauft Überschussmaterial öffentlicher Stellen per Tender (kein Ankauf, kein Schrottplatz) — GRENZFALL bleibt bestehen; city-Feld unverändert gelassen (Impressum bestätigt Frankfurt am Main)
 - Keine Öffnungszeiten auf Betreiber-Website (Ausschreibungsportal), Feld bleibt leer
+
+### Recherche 01.10.2026 (Feedback-Triage #3092)
+
+- [Recherche 01.10.2026: Feedback #3092 berechtigt (Öffnungszeiten) — Korrektur der Vorgänger-Notiz: Geschäftszeiten stehen DOCH auf der Betreiber-Kontaktseite (Zentrale VEBEG GmbH, Rödelheimer Bahnweg 23, 60489 Frankfurt: Mo–Do 8–12 und 13–16 Uhr, Fr 8–12 und 13–14 Uhr, plus Berliner Büro Grellstr. 24) → opening_hours gefüllt per verifizierter Betreiber-Primärquelle (GmbH, HRB B 8255 AG Frankfurt, HR-kongruent per Northdata + service.bund.de — Owner-Ausnahme); Rest (Adresse/Telefon/Mail) unverändert korrekt; city bleibt bewusst unverändert; Quelle(n): https://www.vebeg.de/de/kontakt/index.htm + https://www.northdata.com (HRB 8255)]

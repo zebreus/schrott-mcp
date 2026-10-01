@@ -1,16 +1,16 @@
 ---
 slug: by-hirschaid-96114-kauder-av
 name: Kauder AV
-trader_type: sonstige
+trader_type: autoverwertung
 state: BY
-city: Hirschaid 96114
+city: Hirschaid
 street: 'Jägerstraße 8'
 postcode: '96114'
 phone: '09543 3300'
-email: ''
-opening_hours: ''
+email: autoverwertung.kauder@t-online.de
+opening_hours: Mo-Fr 08:00-12:00, 12:30-16:45; Sa 08:30-11:45
 website: https://autoverwertung-kauder.com/
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: 'Autoverwertung: Unfallwagenankauf, Gebrauchtteile, Altauto-Recycling/Entsorgung'
 dropoff_json: ''
@@ -33,6 +33,13 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Altautos — OSM (deck GS Bamberg)
 - urspr. Website-Angabe: keine
 - Adresse: Hirschaid 96114
+
+### Recherche 01.10.2026
+
+- [Recherche/Feedback-Triage 01.10.2026 (ID 3051): E-Mail + Öffnungszeiten ergänzt, Typ sonstige→autoverwertung, city-Fix; Quelle(n): https://autoverwertung-kauder.com/kontakt/ (Betreiber-Kontakt 01.10.2026), https://autoverwertung-kauder.com/impressum-2/ (Vorbefund 30.09.2026).]
+- Kontaktseite verifiziert: Jägerstraße 8, 96114 Hirschaid; Tel 0954 333 00 (= 09543/3300 DB); E-Mail autoverwertung.kauder@t-online.de; Zeiten Mo-Fr 08:00–12:00 u. 12:30–16:45, Sa 08:30–11:45 — Mittagspausen-Widerspruch aus 30.09 (Das Örtliche 12:45) zugunsten Betreiberangabe aufgelöst.
+- Typwechsel: Betreiberseite „Autoverwertung Kauder" mit Unfallwagenankauf/Ersatzteilen/Altauto-Recycling belegt Kernleistung Autoverwertung (Einzelbeleg Betreiber, Zweitquelle fehlt — websearch ohne Ergebnis); Disclosure: keine unabhängige Zweitquelle.
+- Website erreichbar → website_status aktiv.
 
 ### Recherche 30.09.2026
 

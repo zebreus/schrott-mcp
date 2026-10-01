@@ -3,8 +3,8 @@ slug: he-babenhausen-sickenhofen-6483-schaub-munzhandlung
 name: Schaub Münzhandlung
 trader_type: sonstige
 state: HE
-city: Babenhausen-Sickenhofen 64832 HE
-street: Babenhausen-Sickenhofen , Harpertshäuser Str. 20
+city: Babenhausen-Sickenhofen
+street: 'Harpertshäuser Str. 20'
 postcode: '64832'
 phone: 06073 711445
 email: gun.schaub@muenzen-goldankauf.biz
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Münzen/Goldankauf — ~20 km
 - urspr. Website-Angabe: keine (GS-Button)
 - Adresse: Babenhausen-Sickenhofen 64832 HE, Harpertshäuser Str. 20 [Website-Recherche website: services: Münzankauf/-verkauf und kostenlose Bewertung; Schwerpunkte deutsche Münzen (Taler, Kaiserreich, Weimar, BRD) sowie Silber- und Anlagemünzen weltweit; eBay-Shop; certifications: Mitglied im Berufsverband des deutschen Münzenfachhandels (seit über 30 Jahren); notes: Münzhandlung seit 1971 (über 50 Jahre Erfahrung). Kein Ladengeschäft, ausschließlich Münzversandhandel.]
+
+### Recherche 01.10.2026 (Feedback-Triage #3094)
+
+- [Recherche 01.10.2026: Feedback #3094 berechtigt (Formatfehler) — city von PLZ-/Länderkürzel bereinigt (Babenhausen-Sickenhofen 64832 HE → Babenhausen-Sickenhofen, Ortsteil erhalten), street vom Orts-Präfix befreit (Harpertshäuser Str. 20); Betreiber-Impressum bestätigt Gun Schaub Münzhandlung, Harpertshäuser Str. 20, 64832 Babenhausen, Tel. 06073 711445, gun.schaub@muenzen-goldankauf.biz (Telefon/Mail unverändert korrekt); Zweitbeleg: Berufsverband des Deutschen Münzenfachhandels — Mitgliederliste nennt Schaub Gun, 64832 Babenhausen, Harpertshäuser Str. 20, 06073/711445 (doppelbelegt); Quelle(n): https://muenzen-goldankauf.biz/impressum + https://www.muenzenverband.de/mitgliederliste]

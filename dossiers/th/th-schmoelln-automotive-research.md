@@ -3,14 +3,14 @@ slug: th-schmoelln-automotive-research
 name: Automotive Research GmbH
 trader_type: sonstige
 state: TH
-city: Schmoelln
+city: Schmölln
 street: Industriering 1/1
-postcode: ''
-phone: ''
-email: ''
+postcode: '04626'
+phone: '+49 (0) 34491 566690'
+email: 'kontakt@automotive-research.net'
 opening_hours: ''
-website: http://www.automotive-research.net
-website_status: ''
+website: https://automotive-research.net
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Feedback-Triage 01.10.2026 (ID 3031): berechtigt — PLZ 04626, Tel. +49 (0) 34491 566690, E-Mail kontakt@automotive-research.net aus verifiziertem Betreiber-Impressum (Automotive Research GmbH, HRB 502152 AG Jena, Industriering 1/1, 04626 Schmölln) übernommen; city ASCII → „Schmölln" normalisiert, website auf Domain-Root https://automotive-research.net (www-Variante leitet dorthin um, Startseite mit www-Pfad teils 404) + website_status aktiv; Quelle: https://automotive-research.net/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

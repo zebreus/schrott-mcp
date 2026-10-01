@@ -1,7 +1,6 @@
 ---
 slug: hh-iserbrook-22589-hamburger-schrotthandel-pruffall-hamburg
-name: 'Hamburger Schrotthandel→ PRÜFFALL: Hamburger Schrotthandel? Nein: "Hamburger
-  Schrott"'
+name: Hamburger Schrotthandel
 trader_type: schrotthaendler
 state: HH
 city: Iserbrook 22589
@@ -39,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 01.10.2026: kein Betreiber auffindbar; hinterlegte Domain tot; namensähnliche Domain gehört anderem Anbieter; Quelle(n): Dossier-PRÜFFALL, https://hamburger-schrottverwertung.de/ (fremder Anbieter)]
 - hamburger-schrottverwertung.de ist ein anderer Anbieter (kostenlose Schrottabholung, keine Iserbrook-Adresse), NICHT mit Dossier verknüpfen.
 - Klärfall Folgewelle: Tel. 0173 6110524 gegenrecherchieren oder Dossier schließen.
+
+### Recherche 01.10.2026 (Feedback-Triage #3086)
+
+- [Recherche 01.10.2026: Berechtigt — Domain-Tod per DNS bestätigt (NXDOMAIN für hamburger-schrott.de; website_status tot bestand bereits zurecht). Prüf-Notizen aus name-Feld in Timeline überführt (name bereinigt). Namensvetter-Check: kein realer „Hamburger Schrotthandel" in Iserbrook auffindbar (Treffer: hamburger-schrottverwertung.de = fremder Anbieter, PMK/SMH/Schmidt = andere Firmen) — Phantom-Verdacht, KEINE Adress-/Kontakt-Fills, status pruefung bleibt, Klärfall (Tel. 0173 6110524 weiter offen); Quelle(n): DNS-NXDOMAIN + Websuche 01.10.2026]

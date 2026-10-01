@@ -3,7 +3,7 @@ slug: by-wurzburg-97070-wurzburger-goldankauf
 name: Würzburger Goldankauf
 trader_type: sonstige
 state: BY
-city: Würzburg 97070
+city: Würzburg
 street: Katharinengasse 5
 postcode: '97070'
 phone: 0931-99 131 69
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Gold/Silber/Platin/Palladium/Münzen/Zahngold/Besteck — ~65 km
 - Adresse: Würzburg 97070, Katharinengasse 5
 - Adressbeleg: https://www.wuerzburger-goldankauf.com
+
+### Recherche 01.10.2026 (Feedback-Triage #3075)
+
+- [Recherche 01.10.2026: PLZ-im-city-Feld berechtigt — city auf „Würzburg" bereinigt (postcode 97070 bestand). Betreiber-Seite bestätigt Katharinengasse 5, 97070 Würzburg + Tel./E-Mail/Öffnungszeiten (matchen Frontmatter). Namensvetter-Check: Filiale gehört zur Juwelier-Tönnies-Gruppe (E-Mail-Domain juwelier-toennies.de, Partnerseiten juwelier-master.de/uhren-master.de) — kein Merge, Identität konsistent; Quelle(n): https://www.wuerzburger-goldankauf.com (Betreiber-Einzelbeleg)]
