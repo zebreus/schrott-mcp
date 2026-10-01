@@ -4,13 +4,13 @@ name: R. Metall
 trader_type: schrotthaendler
 state: BW
 city: Merklingen
-street: ''
-postcode: ''
+street: Industriestr. 6
+postcode: '89188'
 phone: ''
 email: ''
 opening_hours: ''
 website: https://rmetall.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottankauf (mobil; u.a. Reutlingen, Schwäbisch Gmünd)
 - Größe: klein/mobil
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum + Northdata HRB 5262 AG Ulm nennen übereinstimmend R. Metall & Truck Trading GmbH, Industriestr. 6, 89188 Merklingen — Straße/PLZ + website_status aktiv doppelt belegt.; Quelle(n): https://rmetall.de/impressum, https://www.northdata.de/R. Metall & Truck Trading GmbH, Merklingen (HRB 5262)]

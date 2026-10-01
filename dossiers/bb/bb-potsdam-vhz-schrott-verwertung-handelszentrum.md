@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adressbeleg: Verzeichnis-Snippet (Websuche)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Register-Beleg Northdata (VHZ Schrott Verwertung & Handelszentrum GmbH; Gegenstand: Handel mit Metallen/Schrott/Abfällen, Recycling; Stammkapital 25.000 €; GF Steffen Möhle) — ABER: Sitzverlegung weg von Potsdam (AG Potsdam HRB 19548 P) nach Barleben (AG Stendal HRB 21929, „VHZ Verwertung & Handelszentrum GmbH“, Steinfeldstraße 5, 39179 Barleben) beschlossen 11.05.2015; Adresse/Telefon (Zum Heizwerk 19, 14478 Potsdam, 0331 5504524) nur Aggregator-Leads (Gelbe Seiten, Das Örtliche, schrottplatz.org) → KEINE Frontmatter-Füllung; Klärfall: Ist Potsdam noch Betriebsstätte oder erloschen? (Tagesspiegel 2015: Sitz Potsdam, 10 Mitarbeiter — Presse-Lead, kein Beleg); Quelle(n): northdata.de (Register, Sitzverlegung)]

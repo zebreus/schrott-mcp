@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Rohprodukte/Schrott
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Nur Aggregator-Leads (Das Örtliche, Gelbe Seiten, GoLocal, 11880, Das Telefonbuch: Mühlenstr. 31, 66450 Bexbach-Kleinottweiler, Tel. 06826 2217); KEIN Betreiber-Beleg (keine Website, kein Social, kein Register-Treffer) → KEINE Frontmatter-Füllung; Klärfall: Existenz/Adresse requires Betreiber- oder Registerquelle; Quelle(n): keine Beleg-Quelle]

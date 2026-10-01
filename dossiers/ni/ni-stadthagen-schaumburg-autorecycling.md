@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - GS-Eintrag „Schrott“
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg gefunden (nur Gelbe-Seiten-Lead); bestehendes Telefon 05721 8993672 unverändert (nicht überschrieben), alle leeren Felder bleiben leer.; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads)]

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Buntmetall-/Schrotthandel (Telefonbuch + schrottplatz-info)
 - Adressbeleg: Das Örtliche
+
+### Korrektur 01.10.2026
+
+- [Korrektur 01.10.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465-Rest; Shard A der 18:00-Welle lieferte nie, Warten beendet). Re-Pruefung per Folgewelle.]

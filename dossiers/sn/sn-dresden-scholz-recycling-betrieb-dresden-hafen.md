@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.scholz-recycling.com
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/NE, Aufbereitung
 - v.a. Gewerbe, Selbstanlieferer möglich
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Zentrale-Impressum nennt Scholz Recycling GmbH, Berndt-Ulrich-Scholz-Str. 1, 73457 Essingen, HRB 733963 AG Ulm; NL-Adresse Dresden-Hafen nur Aggregator-Einzelbeleg — Straße/PLZ leer; website_status aktiv (Zentral-Domain-Impressum verifiziert: Name+Ort).; Quelle(n): https://www.scholz-recycling.com/impressum]

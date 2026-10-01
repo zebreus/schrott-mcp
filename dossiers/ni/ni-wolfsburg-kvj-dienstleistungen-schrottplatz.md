@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.kvj-dienstleistungen.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum (via Reader-Proxy, Direktfetch 403) nennt Viktor Jakobi, Jenaer Str. 27, 38444 Wolfsburg; kein Register-/Zweitbeleg (nur Aggregator-Leads: 11880, lokaleschrottplatz.de) — Straße/PLZ/Telefon bleiben leer (Einzelbeleg, unsicher); website + website_status aktiv aus verifiziertem Impressum (Name+Ort).; Quelle(n): https://www.kvj-dienstleistungen.de/impressum (Abruf via r.jina.ai-Proxy, Bot-Schutz-Notweg)]

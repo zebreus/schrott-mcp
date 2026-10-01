@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://schrott-walkling.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/NE/Kühler/Hartmetalle, Autoverwertung/Container
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum nennt Julius Falkenhain-Walkling / Wilhelm Walkling e.K., Fritz-Stegen-Allee 6-7, 31226 Peine, HRA 100505 AG Hildesheim; Northdata bestätigt HRA 100505 / Peine, jedoch ohne Straßenbeleg — Straße/PLZ/Telefon bleiben daher leer (Einzelbeleg, unsicher); website_status aktiv aus verifiziertem Impressum (Name+Ort).; Quelle(n): https://schrott-walkling.de/impressum, https://www.northdata.de/Wilhelm Walkling e.K., Peine/Amtsgericht Hildesheim HRA 100505]

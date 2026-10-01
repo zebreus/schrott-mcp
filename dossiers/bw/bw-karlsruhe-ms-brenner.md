@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.ms-brenner.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Metall, Container, >40 J.
 - Größe: klein–mittel
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall Adresskonflikt — Betreiber-Impressum (Unterfeldstraße 30, 76149 Karlsruhe) vs. Website-Footer (Unterer Dammweg 6, 76149 Karlsruhe), gleiche Website = EINE Quelle — Straße/PLZ/Telefon bleiben leer; website_status aktiv aus verifiziertem Impressum (Name+Ort).; Quelle(n): https://www.ms-brenner.de/impressum.html (Impressum + Footer, eine Quelle)]

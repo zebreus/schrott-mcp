@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottgroßhandel
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Northdata HRA 6762 AG Osnabrück: Wilhelm Wacker e.K., Sitz nur "Quakenbrück" (kein Straßenbeleg) — Verzeichnis-Straße Artlandstr. 84 bleibt Einzelbeleg, PLZ leer; Historie: Löschung 08.07.2026 (e.K. erloschen) — status-Feld unverändert, nur Timeline-Vermerk.; Quelle(n): https://www.northdata.de/Wilhelm Wacker e.K., Quakenbrück (HRA 6762)]

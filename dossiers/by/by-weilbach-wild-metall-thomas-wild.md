@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel/Schrottplatz (Beleg schrottplatz-info; ≠ Wild-Metall Michelstadt HE)
 - Adresse: Weilbach (Lkr. Miltenberg; Weckbacher Str. 5 / Reuboldstr. 10)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kommunal-Beleg Markt Weilbach (Gewerbeverzeichnis: Thomas Wild, Reuboldstraße 10, 63937 Weilbach, Tel. 09373/2063329) als Einzelbeleg; KEIN zweiter unabhängiger Beleg auffindbar (Betreiber-Website wild-metall.eu nicht erreichbar; Facebook nur Gruppen-Erwähnung; alles andere Aggregator-Leads: Gelbe Seiten, 11880, Das Telefonbuch, schrottplatz-info) → KEINE Frontmatter-Füllung (2-Beleg-Regel); Klärfall: Adressvariante „Reuenthaler Straße 36“ (Infobel-Lead, ungeprüft) vs. kommunale Reuboldstraße 10; Mobil 0151 15536135 nur Aggregator-Lead; Quelle(n): weilbach.de/gewerbe/wildmetall (Einzelbeleg)]

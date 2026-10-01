@@ -4,13 +4,13 @@ name: MHC Metallhandel Chemnitz GmbH
 trader_type: metallhaendler
 state: SN
 city: Chemnitz
-street: ''
-postcode: ''
+street: Altchemnitzer Str. 23
+postcode: '09120'
 phone: 0371/586041
 email: ''
 opening_hours: ''
 website: https://www.metallhandel-chemnitz.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott-/Metallhandel
 - Tel. 0371/586041
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum + Northdata HRB 2498 AG Chemnitz nennen übereinstimmend MHC Metallhandel Chemnitz GmbH, Altchemnitzer Str. 23, 09120 Chemnitz (GF Ronny Vater) — Straße/PLZ + website_status aktiv doppelt belegt.; Quelle(n): https://www.metallhandel-chemnitz.de/impressum, https://www.northdata.de/MHC Metallhandel Chemnitz GmbH, Chemnitz/Amtsgericht Chemnitz HRB 2498]

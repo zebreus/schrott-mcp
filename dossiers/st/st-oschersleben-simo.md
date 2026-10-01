@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Oschersleben
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Domain simo-autoverwertung.de per http+https nicht erreichbar (Transport-Fehler, 2 Versuche; Aggregatoren verlinken sie als Homepage) → website weder belegbar noch als aktiv/tot setzbar (leer gelassen); Betreiber-Social existiert (Facebook „Simo Autoverwertung Oschersleben“, Inhaber Mike Silabetzschki) ohne abgreifbare Adressdaten; Adresse/Telefon (An der Pumpe 7, 39387 Oschersleben, div. Rufnummern) nur Aggregator-Leads (Das Örtliche, GoLocal, Yelp, schrottplatz.org) → KEINE Frontmatter-Füllung; Klärfall: Betreiber-Kontakt (SIMO Import Export Osteuropa, eBay-Händlerprofil als Lead) und Website-Status klären; Quelle(n): keine Beleg-Quelle]

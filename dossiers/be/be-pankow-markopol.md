@@ -10,7 +10,7 @@ phone: 0178 4 21 05 69
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse: Pankow, Schönhauser Str. 33, 13158 Berlin
 - Bezirk: Pankow Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
 - [Recherche 30.09.2026: Tel. 0178 4 21 05 69; Quelle: gelbeseiten.de (Verzeichnis)]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Ausschließlich Verzeichnis-Leads (Gelbe Seiten, Cylex, Bundes-Telefonbuch): Schönhauser Str. 33, 13158 Berlin-Rosenthal, Tel. 0178 4210569. Felder (außer bestehendem phone) bleiben leer, website_status unbekannt; Quelle(n): gelbeseiten.de, cylex.de (nur Leads)]

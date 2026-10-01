@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottrecycling
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Standortseite (tsr-recycling.de/standorte/schrotthaendler-querfurt: Johannes-Schlaf-Str. 17, 06268 Querfurt, Mo–Do 7–16, Fr 7–15) per Suche bestätigt, aber Direktabruf bot-blockiert (Challenge) → KEIN verifizierter Beleg; KEIN zweiter unabhängiger Beleg (nur Aggregator-Leads: Cylex, stadtbranchenbuch) → KEINE Frontmatter-Füllung; Klärfall: Standort-Adresse/Ansprechpartner via Betreiber (E-Mail querfurt@tsr.eu als Lead) oder HR nachprüfen; Quelle(n): keine verifizierte Beleg-Quelle]

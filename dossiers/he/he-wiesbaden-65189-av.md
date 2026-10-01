@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - AV
 - (Autoverwertung)
 - Adresse: Wiesbaden 65189
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kürzel „AV“ ohne Firmennamen nicht recherchierbar — keine Betreiber-Website, kein Registerbeleg, keine belastbaren Leads. Felder bleiben leer, website_status unbekannt, Klärfall (Identität/Namen klären oder verwerfen); Quelle(n): keine]

@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Motoren/Teile (Online-Anmutung) — dünn
 - urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg)
 - Adresse: Bremen-Findorff, Hemmstr. 178, 28215
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — Domain motorensuche24.de tot, kein Betreiber-Impressum, kein Registerbeleg (nur MisterWhat-Lead); bestehende street/postcode unverändert (Verzeichnis-Einzelbeleg, nicht überschrieben), website bleibt leer.; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads)]

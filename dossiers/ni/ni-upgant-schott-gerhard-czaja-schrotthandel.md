@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg gefunden (nur Verzeichnis-Leads); alle leeren Felder bleiben leer.; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads)]

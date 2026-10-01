@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.hans-mueller-jun.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe-Schrott, Buntmetall, Container
 - klassischer Schrotthändler mit Barankauf
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum nennt Hans Müller jun. Schrott- und Metallhandel KG, Tharandter Str. 7, 01159 Dresden, HRA 5891 AG Dresden; Northdata bestätigt HRA 5891/Dresden, jedoch ohne Straßenbeleg — Straße/PLZ/Telefon leer (Einzelbeleg, unsicher); website_status aktiv aus verifiziertem Impressum (Name+Ort).; Quelle(n): https://www.hans-mueller-jun.de/impressum, https://www.northdata.de/Hans Müller jun. Schrott- und Metallhandel KG, Dresden/Amtsgericht Dresden HRA 5891]

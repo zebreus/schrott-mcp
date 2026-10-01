@@ -6,7 +6,7 @@ state: ST
 city: Salzatal
 street: ''
 postcode: ''
-phone: ''
+phone: 034601 25002
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Salzatal
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website (Kontakt: Autohaus/Autoverwertung Uhlmann KG, Lieskauer Strasse 1a, 06198 Salzatal OT Bennstedt, Tel. 034601-25002, info@autoverwertung-uhlmann.de) + Betreiber-Social-Gegenbeleg (Facebook AutoverwertungUhlmann: +49 34601 25002) → nur phone belegt; street/postcode nur Betreiber-Einzelbeleg (leer gelassen); website NICHT gesetzt (Impressum nennt nur Webdesigner Computerservice Stephan, nicht den Betreiber — aktiv-Regel nicht erfüllt); E-Mail widersprüchlich (info@autoverwertung-uhlmann.de vs. autoverwertung-uhlmann@gmx.de auf Facebook → leer gelassen); geöffnet Mo–Fr 8–17 nur Betreiber-Einzelbeleg; Register: Northdata/Creditreform bestätigen KG (AG Stendal HRA 2691) ohne Adresse; Quelle(n): autoverwertung-uhlmann.de/html/kontakt.html, facebook.com/AutoverwertungUhlmann]

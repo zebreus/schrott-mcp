@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott und Metalle
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Nur Aggregator-Leads (Gelbe Seiten, Das Örtliche, schrottplatz-info: Waldweg 2, 98724 Neuhaus am Rennweg, Tel. 0171 3422024 / 03679 720357; Betreibername als Lead „Carsten Murkowitz Schrott und Metalle“); KEIN Betreiber-Beleg (keine Website, kein Social, kein Register-Treffer) → KEINE Frontmatter-Füllung; Klärfall: Betreiber-Identität und Adresse requires Betreiber- oder Registerquelle; Quelle(n): keine Beleg-Quelle]

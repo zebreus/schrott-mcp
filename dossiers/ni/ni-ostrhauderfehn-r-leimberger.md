@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, Container/Demontage/Autoverwertung
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg schrottplatz-info.de, keine Händlerseite)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg gefunden (nur schrottplatz-info-Lead, keine Händlerseite); alle leeren Felder bleiben leer.; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads)]

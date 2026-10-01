@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - anerk. Altfahrzeug-Demontage
 - —
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall State-Mismatch — Betreiber-Impressum nennt ASR GmbH & Co. KG, Fichtenbreite 1, 06869 Coswig, HRA 5528 AG Stendal; PLZ 06869 = Coswig (Anhalt)/ST, nicht sächs. Coswig (01445) — Dossier-State SN falsch, daher Straße/PLZ/Website bewusst leer, Dossier-State/City klärungsbedürftig.; Quelle(n): https://www.autoneuteile.de/impressum]

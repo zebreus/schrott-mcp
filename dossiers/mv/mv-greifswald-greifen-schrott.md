@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (lt. schrottplatz-info.de)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Nur Aggregator-Leads (schrottplatz-info, Cylex, metalle.com, meinestadt: Gützkower Landstr. 18, 17489 Greifswald, Tel. 03834 501031; Vollname „Greifen-Schrott Jörg Wilke und Fred Peck eGbR“ als Lead); KEIN Betreiber-Beleg (keine Website, kein Social, kein Register-Treffer) → KEINE Frontmatter-Füllung; Klärfall: Betreiber-Kontakt und Adresse requires Betreiber- oder Registerquelle; Quelle(n): keine Beleg-Quelle]

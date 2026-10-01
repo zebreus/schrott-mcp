@@ -10,7 +10,7 @@ phone: —
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: unbekannt
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - nur lokaleschrottplatz; verlinkte Website metallschrott-express.de gehört NRW-Abholer (kein Berlin-Bezug) → Zuordnung zweifelhaft Adresse: Borstellstr. 42, 12167 Berlin
 - Bezirk: Steglitz-Zehlendorf Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Einziger Adress-Lead: Borstellstr. 42, 12167 Berlin (lokaleschrottplatz). Seed-Verdacht bestätigt: verlinkte Website metallschrott-express.de gehört NRW-Abholer ohne Berlin-Bezug — keine Zuordnung. Felder bleiben leer, website_status unbekannt, Status ungeklärt; Quelle(n): lokaleschrottplatz.de (nur Lead, Einzelbeleg)]
