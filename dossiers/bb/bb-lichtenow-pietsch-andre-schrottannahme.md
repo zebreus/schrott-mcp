@@ -29,6 +29,12 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche ohne Beleg-Fund: nur Aggregator-Leads (schrottplatz.org, schrottplatz-info.de, starofservice.de, stadtbranchenbuch.com), keine Betreiber-Quelle; Felder leer; Quelle(n): schrottplatz.org, schrottplatz-info.de, starofservice.de]
+- Aggregator-Hinweise (Einzelbelege, unsicher): Chausseestr. 22A, 15345 Lichtenow, Tel. 033434 46255. Mutmaßliche Betreiber-Domain schrottlieb.de loest nicht mehr auf (NXDOMAIN 01.10.2026).
+- Klärfall: kein zweiter Beleg. Status bleibt pruefung.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme

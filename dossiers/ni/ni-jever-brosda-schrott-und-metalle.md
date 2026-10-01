@@ -10,7 +10,7 @@ phone: '04461 965331'
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -39,3 +39,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Verzeichnis-Ort Wangerland-Wiefels (Fuhlrieger Allee 1) vs Dossier-City Jever → Straße/PLZ nicht übernommen (Stadt-Mismatch).
 - Quelle: https://www.gelbeseiten.de/suche/Schrott/Jever
 - Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Brosda&ci=Jever
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website lebt (Einzelunternehmen Thomas Brosda, kein HRB, keine Owner-Ausnahme); City-Mismatch Jever vs Wangerland bleibt; Quelle(n): http://www.brosda.com/, http://www.brosda.com/impressum/, http://www.brosda.com/wir-kaufen/]
+- Betreiber-Fakten (Einzelbeleg, NICHT in Frontmatter): Brosda Altmetallhandel, Inhaber Thomas Brosda, Fuhlrieger Allee 1, 26434 Wangerland/Wiefels, Tel. 04461-965331, Fax 04461-965332, vsbrosda@aol.com; Ankauf Alteisen, Schwerschrott, Alu, Blei, Elektromotoren, Kupfer, Messing, Rotguss, VA-Stahl, Zink, Zinn, Batterien; Abholung per LKW.
+- Dossier-City Jever vs Betreiber-Ort Wangerland: Straße/PLZ nicht übernommen (City-Mismatch-Regel); Telefon 04461 965331 war bereits gesetzt und ist betreiber-kongruent.
+- Klärfall Folgewelle: Dossier-City Jever vs Wangerland klären (Slug-Split oder Umzug prüfen).

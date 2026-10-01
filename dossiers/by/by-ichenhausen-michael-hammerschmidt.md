@@ -34,3 +34,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - urspr. Website-Angabe: keine gefunden
 - nur schrottradar (s. Dedup-Cluster)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Slug mehrdeutig, mehrere gleichnamige Betriebe in Ichenhausen; keine Zuordnung möglich; Quelle(n): Gelbe-Seiten-Branchensuche Ichenhausen, meinestadt.de, schrottplatz-info.de]
+- Lead-Fakten (unsicher, NICHT in Frontmatter): Mike Hammerschmidt Schrotthandel (Tel. 08223 9661236); Karl-L. Hammerschmidt, Brandfeldstr. 13a (Tel. 08223 962526); Vinzenz Hammerschmidt, Krumbacher Str. 24; JH Hammerschmidt, Am Birketle 17; Emil Hammerschmidt, Am Birketle 19; Hammerschmidt Recycling, Karl-Königsdorfer-Str. 25 A.
+- Klärfall Folgewelle: Slug-Split prüfen (welcher Betrieb ist Michael Hammerschmidt?).

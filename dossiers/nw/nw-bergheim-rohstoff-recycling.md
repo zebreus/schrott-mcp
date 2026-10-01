@@ -29,6 +29,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche ohne Fund: kein Treffer in Verzeichnissen, keine Betreiber-Quelle, Gattungsname nicht zuordenbar; Felder leer; Quelle(n): gelbeseiten.de (ohne Treffer), Websuche]
+- Klärfall: Existenz und Schrottbezug ungeklärt, ggf. Phantom-/Karteileiche. Status bleibt pruefung.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

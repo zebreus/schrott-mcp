@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Container — (DUP Kernzone — einmal!)
 - urspr. Website-Angabe: keine
 - Adresse: Schaafheim 64850, An der Ziegelei 11a
+
+### Recherche 01.10.2026
+
+- [Recherche Sell Schaafheim: nur GelbeSeiten-Lead An der Ziegelei 11a (Einzelbeleg, unsicher), kein 2. unabhängiger Beleg, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Gelbe Seiten Lead only]

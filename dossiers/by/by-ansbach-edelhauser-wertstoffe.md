@@ -4,15 +4,17 @@ name: Edelhäuser Wertstoffe GmbH
 trader_type: wertstoffhaendler
 state: BY
 city: Ansbach
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Naglerstr. 1
+postcode: '91522'
+phone: 0981 970110
+email: rohstoffe@edelhaeuser.de
 opening_hours: ''
-website: ''
-website_status: ''
-status: unbekannt
-description: ''
+website: https://edelhaeuser.de
+website_status: aktiv
+status: aktiv
+description: Edelhäuser-Gruppe in Ansbach (Edelhäuser Rohstoffe GmbH, Naglerstr. 1) und
+  Rothenburg o. d. Tauber (Edelhäuser Wertstoffe GmbH). Entsorgungsfachbetrieb seit
+  über 115 Jahren, Wertstoffhof Ansbach in der Adalbert-Pilipp-Straße 48.
 dropoff_json: ''
 pickup_json: ''
 provenance_seed_file: by
@@ -32,3 +34,12 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Sammeln/Lagern
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Primärquelle verifiziert (Impressum Name+HRB+Ort: HRB 1710 AG Ansbach), kommunaler Zweitbeleg Stadt Ansbach; Quelle(n): https://edelhaeuser.de/edelhaeuser-kontakt/, https://edelhaeuser.de/edelhaeuser-impressum/, https://www.northdata.de (HRB 1710), https://www.ansbach.de (Entsorgungsfirma Edelhäuser)]
+- Impressum: Edelhäuser Wertstoffe GmbH, Am Igelsbach 11-13, 91541 Rothenburg o. d. Tauber, HRB 1710 AG Ansbach, GF Oliver und Sieglinde Edelhäuser.
+- Ansbach-Filiale laut Betreiber-Kontaktseite: Edelhäuser Rohstoffe GmbH, Naglerstr. 1, 91522 Ansbach, Tel. 0981-970110, rohstoffe@edelhaeuser.de; Stadt Ansbach bestätigt Naglerstraße 1, 91522 Ansbach, Tel. 0981 970110.
+- Name-Diskrepanz: Dossier-Name Wertstoffe GmbH (Sitz Rothenburg), Ansbach-Adresse gehört der Rohstoffe GmbH; Name unverändert, Klärfall für Folgewelle (Slug-Split prüfen).
+- Wertstoffhof Ansbach: Adalbert-Pilipp-Straße 48, 91522 Ansbach, Tel. 0981 97780820 (nur Betreiber-Beleg, daher nur Timeline).
+- Status unbekannt zu aktiv korrigiert (bewiesene Korrektur: HR-kongruentes Impressum + kommunaler Beleg).

@@ -29,6 +29,12 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche ohne Beleg-Fund: nur Aggregator-Leads, dazu City-Mismatch; Felder leer, Strasse/PLZ nicht ueberschrieben; Quelle(n): gelbeseiten.de]
+- Gelbe Seiten findet Riehm Schrott in Edenkoben (Lerchenweide 8, 67480 Edenkoben, Tel. 0170 5016542), nicht Kirrweiler. Seed-Strasse enthaelt zudem Namenswiederholung.
+- Klärfall: Ob Riehm Kirrweiler (Marktstr. 42) und Riehm Schrott Edenkoben identisch oder verwechselt sind, ist ungeklärt; kein Betreiber-Beleg. Status bleibt pruefung.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Marktstr. 42

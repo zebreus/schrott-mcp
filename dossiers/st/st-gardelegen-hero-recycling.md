@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Gardelegen (Sachauer Str. 1, 39638; gleiche Straße wie Herms-Recycling – Zusammenhang prüfen)
+
+### Recherche 01.10.2026
+
+- [Recherche Hero Gardelegen: nur Mocom-Kunststoff unverwandt / kein passender Betreiber-Beleg, kein 2. unabhängiger Beleg, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Treffer]

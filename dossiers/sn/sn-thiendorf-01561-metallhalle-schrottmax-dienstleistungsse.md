@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Tel. 035248 81226/88991)
 - Adresse: Thiendorf 01561, Zur Brüdergemeinde 4B
+
+### Recherche 01.10.2026
+
+- [Recherche Schrottmax Thiendorf: Startseite + Impressum + Sitemap nur EINE Quelle (Sylke Kärst Zur Brüdergemeinde 4b 01561 Thiendorf, Tel 035248 889 91, verkauf@metallhalle.de, USt DE281479440, Mo-Fr 9-14), kein HRB/Creditreform/Northdata-Zweitbeleg für Einzelunternehmen, daher strikt kein Frontmatter-Fill, nur Timeline (Einzelbeleg, unsicher); keine Owner-Ausnahme; Quelle(n): https://www.schrottmax.de/ + https://www.schrottmax.de/impressum/ + https://www.schrottmax.de/sitemap/ = eine Quelle]

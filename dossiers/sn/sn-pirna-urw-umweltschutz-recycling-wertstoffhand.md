@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling/Wertstoffhandel
 - —
+
+### Recherche 01.10.2026
+
+- [Recherche URW Pirna: nur schrottplatz.org-Lead Rudolf-Renner-Str. 55a (Einzelbeleg, unsicher), kein 2. unabhängiger Beleg, daher kein Frontmatter-Fill, Klärfall; Quelle(n): schrottplatz.org Lead only]

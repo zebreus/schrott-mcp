@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Tätigkeit unklar
 - Adresse: Stuttgart
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website lebt, aber kein HRB genannt und kein HR-Zweitbeleg (keine Owner-Ausnahme); Quelle(n): https://ecoproekt.com/, https://ecoproekt.com/en/about]
+- Betreiber-Fakten (Einzelbeleg, unsicher, NICHT in Frontmatter): ECOPROEKT UG (haftungsbeschränkt) Stuttgart, Curiestraße 2, 70563 Stuttgart, stuttgart@ecoproekt.com, +49 152 33585427; international (Berlin, Dortmund, Prag, Nizza, Ukraine); behauptet Entsorgungsfachbetrieb-Zertifikat nach Kreislaufwirtschaftsgesetz.
+- Kein Handelsregister-Beleg und kein Zweitbeleg für Adresse/Telefon/Domain gefunden; Seriosität des UG-Eintrags ungeklärt.
+- Klärfall Folgewelle: HRB recherchieren (AG Stuttgart), Zertifikat verifizieren, Domain-Zweitbeleg suchen.

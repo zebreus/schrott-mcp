@@ -33,3 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - schrottplatz-info.de (Umkreis Diwa)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Beleg für Schrottannahme; Rügener Mineralölhandel ist Mineralöl-/Flaschengas-Händler; Quelle(n): tyczka-energy.de-Händlersuche, onlinestreet.de Sassnitz]
+- Lead-Fakten (unsicher, NICHT in Frontmatter): Rügener Mineralölhandel, Gewerbepark 16, 18546 Sassnitz; Tel. +49 38392 50955, info@ruegenoel.de (Flaschengas-Kontext, nicht Schrott).
+- Schrottannahme nur Portal-Behauptung ohne zweite Spur; Verwechslung mit Rügen-Recycling und Tiefbau GmbH (Klementelvitz 7, 18546 Sassnitz) möglich.
+- Klärfall Folgewelle: Schrottannahme-Betrieb in Sassnitz identifizieren oder Dossier schließen.

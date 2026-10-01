@@ -29,6 +29,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche ohne Beleg-Fund: nur Seed-Notiz (Alemannenstr. 102), kein Treffer in Verzeichnissen, keine Betreiber-Quelle; Felder leer; Quelle(n): gelbeseiten.de (ohne Treffer), Websuche]
+- Klärfall: Existenz und Schrottbezug ungeklärt. Status bleibt pruefung. Hinweis: Seed-Strasse enthaelt Namenswiederholung (Bereinigung nur mit Beleg).
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alemannenstr. 102, Festnetz-Profil

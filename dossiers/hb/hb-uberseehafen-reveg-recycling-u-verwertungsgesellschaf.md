@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling/Verwertung
 - Adresse: Überseehafen, Brückenstr. 25
+
+### Recherche 01.10.2026
+
+- [Recherche ReVeG Bremen: Brückenstr. 25 nur Verzeichnis-Lead, kein 2. unabhängiger Beleg, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Betreiber-Beleg]

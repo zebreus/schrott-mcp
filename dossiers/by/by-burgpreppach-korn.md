@@ -32,3 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 97496)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Negativbefund Domain (korngmbh.de gehört Maschinenbauer in Krummhörn, NICHT Burgpreppach); sonst nur Verzeichnis-Leads; Quelle(n): http://korngmbh.de (Abruf 01.10.2026), Gelbe-Seiten-/Das-Örtliche-Sucheinträge, schrottplatz-info.de]
+- Lead-Fakten (unsicher, NICHT in Frontmatter): Korn GmbH Schrotthandel und Containerdienst, Fitzendorfer Str. 14, 97496 Burgpreppach; Tel. 09534 891, Fax 09534 1391.
+- korngmbh.de NICHT als Website übernehmen (falsche Firma: Korn GmbH i. L., Kaschieranlagen, Muschelweg 1, 26736 Krummhörn).
+- Klärfall Folgewelle: echte Betreiber-Website oder HR-Beleg suchen.

@@ -33,3 +33,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthandel Kleinbetrieb
 - Adresse: Braunschweig 38116, Neudammstr. 20
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: keine Betreiber-Website, kein HR-Beleg; einziger Lead ein Branchenverzeichnis (kein Beleg); Quelle(n): Gelbe-Seiten-Branchensuche Braunschweig]
+- Lead-Fakten (unsicher, NICHT in Frontmatter): GMS, Spika G., Schrott, Neudammstr. 20, 38116 Braunschweig (Lamme); Tel. 0531 5168773.
+- Klärfall Folgewelle: Existenz überhaupt verifizieren (Kleinbetrieb, keine zweite Spur).

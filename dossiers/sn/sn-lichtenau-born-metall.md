@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Alu/Cu/Edel/Blei/Messing
 - Annahme lt. lokaleschrottplatz
+
+### Recherche 01.10.2026
+
+- [Recherche Born Metall Lichtenau: nur stadtbranchenbuch-Lead Chemnitzer Landstr. 53 Tel 0371 4584610 (Einzelbeleg, unsicher), kein 2. unabhängiger Beleg, daher kein Frontmatter-Fill, Klärfall; Quelle(n): stadtbranchenbuch Lead only]

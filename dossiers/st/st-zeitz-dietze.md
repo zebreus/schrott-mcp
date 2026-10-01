@@ -4,8 +4,8 @@ name: Dietze
 trader_type: autoverwertung
 state: ST
 city: Zeitz
-street: ''
-postcode: ''
+street: Loitscher Hauptstr. 13
+postcode: 06712
 phone: ''
 email: ''
 opening_hours: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Zeitz (evtl. Händler – prüfen)
+
+### Recherche 01.10.2026
+
+- [Recherche Dietze: street/postcode via Betreiber-Impressum Loitscher Hauptstr. 13 06712 Zeitz + GSA-Register (ZAES02200013, Loitzscher-Variante) als Zweitbeleg; primär Loitscher-Schreibung vom Betreiber, Register-Variante Loitzscher in Note; phone 034426 21232 / email auto-dietze@t-online.de / website nur Einzelbeleg (Betreiber-Site), daher unsicher nur Timeline, nicht Frontmatter; kein HRB (Einzelunternehmen), keine Owner-Ausnahme; Quelle(n): https://www.auto-dietze.de/Impressum.html + https://www.auto-dietze.de/index.html + https://schrottregister.pages.dev/betrieb-auto-dietze-zeitz (GSA-Register-Spiegel, ZAES02200013)]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler (Sammelzeile)
 - Adresse: Waldbrunn 65620
+
+### Recherche 01.10.2026
+
+- [Recherche Niedworok Waldbrunn: kein 2. unabhängiger Beleg, nur Sammelzeile/Aggregator, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Betreiber-Beleg]

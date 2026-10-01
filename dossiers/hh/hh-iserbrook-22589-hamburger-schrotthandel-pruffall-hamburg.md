@@ -34,3 +34,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott — nur Verzeichnis + Tel 0173 6110524 (PRÜFFALL)
 - Adresse: Iserbrook 22589, Heerbrook 4
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber auffindbar; hinterlegte Domain tot; namensähnliche Domain gehört anderem Anbieter; Quelle(n): Dossier-PRÜFFALL, https://hamburger-schrottverwertung.de/ (fremder Anbieter)]
+- hamburger-schrottverwertung.de ist ein anderer Anbieter (kostenlose Schrottabholung, keine Iserbrook-Adresse), NICHT mit Dossier verknüpfen.
+- Klärfall Folgewelle: Tel. 0173 6110524 gegenrecherchieren oder Dossier schließen.

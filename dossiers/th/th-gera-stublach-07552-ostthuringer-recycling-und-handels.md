@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Recycling — "Handel" im Namen, Ankauf unbestätigt, Tel 0800 6874372 (PRÜFFALL)
 - urspr. Website-Angabe: keine
 - Adresse: Gera-Stublach 07552, Auenstr. 55
+
+### Recherche 01.10.2026
+
+- [Recherche Ostthüringer Gera: kein 2. unabhängiger Betreiber-Beleg für leere Felder, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Zweitbeleg]

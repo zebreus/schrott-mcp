@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.schrott24.de/standorte/schrottplatz-schleswig-holstein/
-website_status: ''
+website: https://www.schrott24.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Online-Ankauf mit Tagespreisen, Abholung (Palette/Greifer/Container) oder Anlieferung beim Partner
+
+### Recherche 01.10.2026
+
+- [Recherche Schrott24: Deep-Link bewiesene Korrektur zu Domain-Root https://www.schrott24.de via Owner-Ausnahme (Metaloop Europe GmbH Puchstraße 17 8020 Graz FN 638630m); Kropp-Partner (Schultz) fremde Entität, nicht gefüllt; Quelle(n): https://www.schrott24.de/faq/impressum + https://www.metaloop.com/de/disclaimer]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler
+
+### Recherche 01.10.2026
+
+- [Recherche Burns Linden: kein 2. unabhängiger Beleg, nur Aggregator-Leads, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Betreiber-Beleg]

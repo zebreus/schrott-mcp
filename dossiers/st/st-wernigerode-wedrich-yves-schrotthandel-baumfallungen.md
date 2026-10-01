@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (lt. Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche Wedrich Wernigerode: kein 2. unabhängiger Beleg, nur Verzeichnis-Lead, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Betreiber-Beleg]

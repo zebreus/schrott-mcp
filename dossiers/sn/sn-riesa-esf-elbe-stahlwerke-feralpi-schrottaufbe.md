@@ -4,13 +4,13 @@ name: ESF Elbe-Stahlwerke Feralpi, Schrottaufbereitung
 trader_type: schrotthaendler
 state: SN
 city: Riesa
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Gröbaer Straße 3
+postcode: 01591
+phone: +49 3525 749-0
+email: info@de.feralpigroup.com
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://feralpi-stahl.com
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Stahlwerk (Einsatzschrott)
 - kauft ggf. nur Großmengen ab Händlern
+
+### Recherche 01.10.2026
+
+- [Recherche Feralpi: Owner-Ausnahme-Vollfill via verifizierte Betreiber-Primärquelle Impressum Name+HRB+Ort HR-kongruent (ESF Elbe-Stahlwerke Feralpi GmbH, Gröbaer Straße 3 01591 Riesa, HRB 5452 Dresden, Tel +49 3525 749-0, info@de.feralpigroup.com) + Detailseiten Unternehmen/Kontakt kongruent; Quelle(n): https://feralpi-stahl.com/de/impressum + https://feralpi-stahl.com/de/feralpi-stahl/unternehmen/esf-elbe-stahlwerke-feralpi-gmbh + https://feralpi-stahl.com/de/kontakt]

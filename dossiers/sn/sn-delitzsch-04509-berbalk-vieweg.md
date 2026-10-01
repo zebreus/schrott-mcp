@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV?/Autohandel
 - Adresse: Delitzsch 04509
+
+### Recherche 01.10.2026
+
+- [Recherche Berbalk Vieweg Delitzsch: kein 2. unabhängiger Beleg, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Betreiber-Beleg]
