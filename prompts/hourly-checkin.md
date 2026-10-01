@@ -43,7 +43,7 @@ aus Agenten.
 
 ## Dossier-Regeln (Kurzfassung)
 
-- `dossiers/` ist die EINZIGE hand-edierte Quelle (`seed/` ist retired).
+- `dossiers/` ist die EINZIGE hand-edierte Quelle.
 - Nur LEERE Frontmatter-Felder füllen; `website` nur Domain-Root;
   `website_status` ∈ {aktiv, tot, blockiert, unbekannt}.
 - Beleg-Standard: 2 unabhängige Belege, sonst Feld leer + Klärfall-Vermerk.

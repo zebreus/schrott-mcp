@@ -104,9 +104,7 @@ direct build input — no JSON detour:
   `seed_traders.rs` embeds via `include_str!`. Bad dossiers fail the
   build LOUDLY (unknown/duplicate keys, block scalars, missing slug).
   Slugs (`<state>-<city>-<name>`) are derived once and never hand-edited.
-  Retired: `tools/dossiers2seed.py`, `tools/seed2dossiers.py`,
-  `tools/md2seed.py` (legacy `recherche/*.md` pipeline); the
-  `recherche/*.md` reports remain as read-only archive.
+  The `recherche/*.md` reports remain as read-only archive.
 - `crates/ingestion/src/seed_traders.rs` — parses/validates the embedded
   via a payload hash in `extra_json.seed_hash`, so `updated_at` keeps
   meaning "last real change" and `first_seen_at` survives.

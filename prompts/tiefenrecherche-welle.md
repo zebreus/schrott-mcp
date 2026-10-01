@@ -16,8 +16,8 @@ dürfen NICHT für die Auftragsauswahl genutzt werden.
 ## Recherche-Auftrag pro Agent (Dossiers DIREKT editieren)
 
 - Fundstelle per `rglob <slug>.md`; KEINE DB-Writes, KEINE Commits, KEINE
-  Bulk-Skripte, Slugs NIEMALS ändern, `## Überblick` tabu, `seed/` ist
-  retired — es wird ausschließlich in `dossiers/` gearbeitet.
+  Bulk-Skripte, Slugs NIEMALS ändern, `## Überblick` tabu — es wird
+  ausschließlich in `dossiers/` gearbeitet.
 - Statt zu raten: recherchieren. Einheiten nie erfinden/umrechnen, nichts
   löschen (Korrekturen als neue Notes, Historie bleibt erhalten).
 - Frontmatter: nur flache Skalare; `website` NUR Domain-Root; `phone`/`email`
