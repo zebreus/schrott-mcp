@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallaufbereitung, eher B2B (schrottplatz-info-Beleg)
 - Adressbeleg: schrottplatz.org
+
+### Recherche 01.10.2026 (Registerkette)
+
+- [Recherche 01.10.2026: Rechtstraeger per Northdata — INTERSEROH Metallaufbereitung Ost GmbH (Werkstr. 1, 18069 Rostock) am 17.03.2011 auf INTERSEROH Berlin GmbH (AG Charlottenburg HRB 117287 B) verschmolzen und dabei geloeschst; Berlin GmbH (vormals Hüttenwerkentsorgung GmbH, Duisburg HRB 15755, Sitzverlegung 23.01.2009) heute ebenfalls geloescht (✝︎). Standort Buchholzer Chaussee 24 nur Aggregator-belegt → KEINE Frontmatter-Aenderung, status pruefung bleibt. Quellen: northdata.de/INTERSEROH Berlin GmbH HRB 117287 B (live).]
