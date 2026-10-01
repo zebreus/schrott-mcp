@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Alu/Cu/Edel/Blei/Messing
 - Annahme lt. lokaleschrottplatz
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu EKM Jesewitz (Northdata-Umfeldsuche Jesewitz ohne EKM-Treffer, Kleinstbetrieb ohne Register); nur Verzeichnis-Lead (lokaleschrottplatz); Statusfeld unveraendert; Quelle(n): https://www.northdata.de/EKM,+Jesewitz (Negativbefund)]

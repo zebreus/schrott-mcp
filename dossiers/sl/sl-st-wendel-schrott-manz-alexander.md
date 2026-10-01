@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu Schrott Manz Alexander St. Wendel auffindbar; Websuche stoert (401); Statusfeld unveraendert; Quelle(n): keine]

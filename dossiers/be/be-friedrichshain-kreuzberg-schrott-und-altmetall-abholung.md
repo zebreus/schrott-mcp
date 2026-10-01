@@ -6,11 +6,11 @@ state: BE
 city: Friedrichshain-Kreuzberg
 street: Friedrichshain-Kreuzberg, Möckernstr. 139
 postcode: '10963'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: City-Check bestanden: Möckernstr. 139, 10963 Berlin liegt in Kreuzberg = Bezirk Friedrichshain-Kreuzberg, Seed-City konsistent; phone-Emdash (—) gemaess Regel geleert (kein Fakten-Change); kein Betreiber-Webauftritt auffindbar (nur mobile Schrottabholung), alle Adress-/Leistungsfakten ohne Zweitbeleg, website_status unbekannt, Klaerfall; Quelle(n): keine Betreiberquelle gefunden - Verzeichnisse nur Leads]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

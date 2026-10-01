@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Bebra 36179 [Website-Recherche verzeichnis: services: Autoverwertung; notes: Gelbe Seiten und 11880 übereinstimmend (Marcus Reif Autoverwertung).]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu Reif Marcus (Ulfenmühle 1, 36179 Bebra) verifiziert; Strasse/Tel. nur Verzeichnis-Leads ohne Zweitbeleg, unangetastet; Autoverwertung-Zuordnung unklar; Statusfeld unveraendert; Quelle(n): keine Betreiberquelle]

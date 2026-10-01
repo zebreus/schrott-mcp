@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Klüngelskerl-Betreiberauftritt verifizierbar; schrottabholung-kleve.de live, aber Impressum ANDERER Betreiber (A. Lahib, Dinnendahlstr. 18, 47533 Kleve, 01522 4224277, schrott-held@mail.de) — passt NICHT zu Seed (Burgunderstr. 13, 02821 7853033), keine Attribution; kein HR-Eintrag; Seed-Adresse/Tel. nur Verzeichnis-Leads; Frontmatter unangetastet, Klärfall (Namenskollision möglich); Quelle(n): https://schrottabholung-kleve.de/impressum/ (Fremd-Betreiber, keine Attribution) und Verzeichnis-Leads]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Burgunderstr. 13, Abhol-Service (02821 7853033)

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - AV – Autoverwertung [Website-Recherche verzeichnis: services: Autoverwertung, Kfz-Ankauf; notes: Gelbe Seiten, 11880 und Seed-Adresse übereinstimmend (Rückingen).]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt zu AUTO-S3 (Schubertstr. 2, Erlensee-Rückingen) verifiziert; Seed-Tel. 061812998169 und Strasse nur Verzeichnis-Leads ohne Zweitbeleg, unangetastet; Statusfeld unveraendert; Quelle(n): keine Betreiberquelle]

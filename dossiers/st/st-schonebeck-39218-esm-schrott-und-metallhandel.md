@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Metall/Container — Cu/Alu/Edelstahl/Messing/Zinn/Zink/Blei, Tel 03928/400056; Fegert-Nähe klären (NEU vs Audit-Runde-4-ESM prüfen!)
 - urspr. Website-Angabe: keine
 - Adresse: Schönebeck 39218, Burgwall 2
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss mit HR-Warnsignal — ESM Schrott- und Metallhandel GmbH, AG Stendal HRB 101724, Northdata-Status ERLosCHEN (✝︎); 2017 Verschmelzung Fegert Recycling GmbH, Gesellschafter Scholz-Gruppe; kein Betreiber-Webauftritt; Seed-Adresse Burgwall 2 + Tel. 03928/400056 ohne Zweitbeleg, unangetastet; Statusaenderung braucht 2. Beleg, Feld unveraendert, Klaerfall Nachfolge (Fegert/Scholz); Quelle(n): https://www.northdata.de/ESM+Schrott+und+Metallhandel+GmbH,+Sch%C3%B6nebeck]

@@ -30,6 +30,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Webauftritt auffindbar; Register-Einzelbelege (unsicher), NICHT in Frontmatter: Northdata AG Hannover HRA 110443 (Max Kurt Gust, Altmetalle und Rohprodukte e.K., Sitz Neustadt a. Rübenberge, zuvor Garbsen, Inhaber Arnd Gust) und Online-Handelsregister-Snippet (Wunstorfer Str. 167, 31535 Neustadt, Status aktiv); Tel. 05137 72489 nur Verzeichnis-Lead (lokaleschrottplatz u.a., niemals Beleg); kein Adress-Zweitbeleg (Creditreform-Abruf bot-blockiert); Frontmatter unangetastet, Klärfall; Quelle(n): Northdata HRA 110443 + Online-Handelsregister (Register-Einzelbelege, Adress-Zweitbeleg fehlt)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

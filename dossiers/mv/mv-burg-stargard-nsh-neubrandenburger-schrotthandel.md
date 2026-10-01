@@ -10,7 +10,7 @@ phone: 039603 2 34 25
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: keine Betreiber-Website auffindbar. Domain-Kandidaten nsh-schrott.de, nsh-gmbh.de und nsh-neubrandenburg.de ohne Treffer; Websuche per Tooling bot-blockiert. Seed-Adresse Fuenfeichener Weg 3 und Telefon bleiben Verzeichnis-Einzelnachweis (Feedback 1464/1465) — Folgewelle. Quellen: keine neue.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

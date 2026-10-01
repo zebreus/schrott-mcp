@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: keine Betreiber-Website auffindbar. Domain-Kandidaten herfel.de, auto-herfel.de, herfel-kirchardt.de, herfel-abstatt.de und autohaus-herfel.de sämtlich ohne Treffer/erreichbar-nicht-registriert; allgemeine Websuche per Tooling bot-blockiert (keine verwertbaren Treffer). Adresse Abstatt/Kirchardt und Ankaufstatus ungeklärt — Folgewelle mit Handelsregister/kommunaler Liste. Quellen: keine.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

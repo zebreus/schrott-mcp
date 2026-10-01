@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Webauftritt, kein HR-Eintrag (Northdata ohne Treffer); nur Verzeichnis-Leads (niemals Belege): Schrotthandel Bimm, Hohe Str. 10, Mönchengladbach (öffnungszeitenbuch/11880); Betreiber-Portale (schrottmoenchengladbach.de u.a.) ohne Impressum-Zuordnung — keine Attribution; Frontmatter unangetastet, Klärfall; Quelle(n): keine Belege, nur Verzeichnis-Leads]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - mobil (GS)

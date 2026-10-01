@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Webauftritt auffindbar, kein HR-Eintrag (Northdata ohne Treffer); Seed-Einordnung Kleintransport (kein Schrott-Fokus belegt); Frontmatter unangetastet, Klärfall (ggf. kein Schrotthändler); Quelle(n): keine Belege]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleintransport (GS)

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung, Schrott (lt. Das Örtliche)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu Autoverwertung Gland Magdeburg (Northdata-Suche ohne Treffer, Kleinstbetrieb ohne Register); nur Verzeichnis-Lead (Das Oertliche); Statusfeld unveraendert; Quelle(n): https://www.northdata.de/Gland,+Magdeburg (Negativbefund)]

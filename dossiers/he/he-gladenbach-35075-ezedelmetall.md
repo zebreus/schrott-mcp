@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Goldankauf (Verzeichnis); adressgleich Pfeifer, Verhältnis ungeklärt
 - Adresse: Gladenbach 35075, Marktplatz 1
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu EZEdelmetall auffindbar; Pfeifer-Verhaeltnis und Marktplatz-1-Adresse ohne Zweitbeleg; Websuche stoert (401); Statusfeld unveraendert; Quelle(n): keine]

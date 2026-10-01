@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: keine Betreiber-Website auffindbar. Domain-Kandidat schrotthandel-pfisterer.de ohne Treffer; Websuche per Tooling bot-blockiert. Kein Zweitbeleg zu Adresse/Telefon — Folgewelle mit kommunaler Liste/Telefonbuch-Lead. Quellen: keine.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

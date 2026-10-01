@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: keine Betreiber-Website auffindbar. Domain-Kandidaten schrotthandel-birkner.de und birkner-pinnow.de ohne Treffer; Websuche per Tooling bot-blockiert. Muehlenstr. 12 (Seed-Bestand) ohne Zweitbeleg — Folgewelle. Quellen: keine.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

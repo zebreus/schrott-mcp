@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website nicht verifizierbar. msw-metallhandel.de antwortet ausschließlich mit Bot-Challenge (Inhaltsprüfung unmöglich, Zuordnung zur GmbH unbestätigt — NICHT verlinkt); metallhandel-suedwest.de, msw-freiburg.de, msw-suedwest.de, metallhandel-msw.de ohne Treffer; msw-gmbh.de ist fremde Verkaufs-Parkseite. Adresse/Telefon weiter unbelegt — Folgewelle (HRB-Suche). Quellen: keine verwertbare.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

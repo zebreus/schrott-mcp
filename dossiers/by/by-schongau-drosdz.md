@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: prose
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: keine Betreiber-Website. drosdz.de antwortet mit 303 auf ts.domainname.de (Domain-Parkplatz, kein Betreiberinhalt — NICHT verlinkt, keine Zuordnung belegbar). Registerfund PLZ 86956 bleibt einziger Anhalt — Folgewelle. Quellen: keine verwertbare.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

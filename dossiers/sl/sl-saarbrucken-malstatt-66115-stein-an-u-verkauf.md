@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Goldankauf + Antiquitäten, gemischtes An-/Verkaufshaus (Schrottbezug schwach, aber Altgold-Ankauf → drin)
 - Adresse: Saarbrücken-Malstatt 66115, Breite Str. 16
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu Stein An- u. Verkauf (Breite Str. 16, 66115 Saarbruecken-Malstatt); Goldankauf/Antiquitaeten nur Verzeichnis-Lead; Websuche stoert (401); Statusfeld unveraendert; Quelle(n): keine]

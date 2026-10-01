@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein attribuierbarer Betreiber-Webauftritt; kuester-remscheid.de (Seed) tot (bleibt tot); kuester-rs.de live, aber ANDERER Betreiber (RC Küster GmbH, Bauunternehmen, Auf dem Knapp 3, 42855 Remscheid) — keine Attribution; Wilhelm Küster Rohprodukten-/Schrott-Großhandlung (Lenneper Str. 57, 42855 Remscheid, Tel. 02191 31089) nur Verzeichnis-Leads (niemals Belege), kein HR-Eintrag (Northdata ohne Treffer); Frontmatter (website_status tot) unverändert, Klärfall; Quelle(n): https://www.kuester-rs.de/ (Fremd-Betreiber, keine Attribution) und Verzeichnis-Leads]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lenneper Str. 57, nur schrottradar-Profil

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Neu-Anspach 61267
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu Rupp Dieter auffindbar; Websuche stoert (401), Suchmaschinen bot-geblockt; nur Seed-Adresse Neu-Anspach 61267; Statusfeld unveraendert; Quelle(n): keine]
