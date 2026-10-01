@@ -35,4 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
-- [Recherche 01.10.2026: Betreiber-Impressum + Northdata HRB 5262 AG Ulm nennen übereinstimmend R. Metall & Truck Trading GmbH, Industriestr. 6, 89188 Merklingen — Straße/PLZ + website_status aktiv doppelt belegt.; Quelle(n): https://rmetall.de/impressum, https://www.northdata.de/R. Metall & Truck Trading GmbH, Merklingen (HRB 5262)]
+- [Recherche 01.10.2026: Feedback 1941 — Betreiber-Impressum + Northdata HRB 5262 AG Ulm nennen übereinstimmend R. Metall & Truck Trading GmbH, Industriestr. 6, 89188 Merklingen — Straße/PLZ + website_status aktiv doppelt belegt.; Quelle(n): https://rmetall.de/impressum, https://www.northdata.de/R. Metall & Truck Trading GmbH, Merklingen (HRB 5262)]

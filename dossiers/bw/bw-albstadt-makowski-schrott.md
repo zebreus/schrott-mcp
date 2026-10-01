@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Größe: klein [Website-Recherche website: services: Containerservice; Entsorgung (Stahlschrott, Metalle, E-Schrott, Wertstoffe); Kranservice; Abholung; certifications: Entsorgungsfachbetrieb; customer_types: Industrie, Gewerbe, Handwerk, Privathaushalte (Abholung ab 1,5 t); notes: Keine Anlieferung, nur Abholung/Container; Behälter 1-20 m³; Kranservice für beengte Lagen.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1946 dokumentiert (Klärfall trader_type) — Betreiber-Website verifiziert (Heersbergstraße 6, 72459 Albstadt, 07431 9485614, info@makowskigmbh.de stimmen; Selbstbeschreibung Entsorgungsfachbetrieb Industrie/Gewerbe/Handwerk, Container-/Kranservice, keine Privatkunden-Angabe) — EINE Quelle → KEIN Frontmatter-Fill; dropoff allowed=true vs fehlende Anlieferungs-Angabe nur Timeline (trader_type containerdienst/Entsorger als Klärfall, DB unberührt); website live → website_status aktiv bestätigt; Quelle(n): https://makowskigmbh.de/ , https://makowskigmbh.de/impressum/]

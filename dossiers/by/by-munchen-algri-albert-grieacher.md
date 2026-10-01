@@ -4,13 +4,13 @@ name: Algri (Albert Grießacher)
 trader_type: sonstige
 state: BY
 city: München
-street: Rottmannstr. 12
-postcode: ''
-phone: ''
-email: ''
+street: 'Wasserturmstr. 6'
+postcode: '81827'
+phone: '089 520 55 734'
+email: 'office@algri.de'
 opening_hours: ''
 website: https://www.algri.de/
-website_status: ''
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kupfer-Ankauf, Entrümpelung, Entkernung/Demontage (seit 2002)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Kontaktseite (Firma ALGRI, Inh. Albert Grießacher, Wasserturmstr. 6, 81827 München, Tel. 089/52055734, Mobil 0174/9751070, office@algri.de) → Straßen-Abweichung BESTÄTIGT (Rottmannstr. 12 falsch), street/postcode/phone/email/website_status belegt; Einzelunternehmen ohne HR → keine Owner-Ausnahme, Betreiber-Einzelbeleg (offen); Öffnungszeiten nirgends publiziert → leer; kein Namensvetter-Konflikt in München gefunden; Quelle(n): algri.de/content/kontakt/ (eine Betreiber-Quelle)]

@@ -1,6 +1,6 @@
 ---
 slug: bb-beelitz-bulgrin-rene-buntmetall
-name: Bulgrin René Buntmetall
+name: Alt- und Buntmetallankauf Bulgrin GmbH
 trader_type: schrottplatz
 state: BB
 city: Beelitz
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Buntmetall (schrottplatz-info-Umkreis)
 - Adressbeleg: schrott-bulgrin.de + GS [Website-Recherche 30.09.2026: Familienbetrieb; Buntmetalle/Kat/E-Schrott, Container, Abholung; Quelle: cms.schrott-bulgrin.de/?page_id=1355]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2127 berechtigt — name 'Bulgrin René Buntmetall' (alt) → 'Alt- und Buntmetallankauf Bulgrin GmbH' (Betreiberseite; HRB 30767P; HR-Kongruenz ungeprüft); Slug unverändert. Zusatznummern in Timeline dokumentiert, nicht ins Feld: Mobil 0176 20223989 (E-Schrott/Kats), 0170 4817591 (Kontaktseite); Dossier-Telefon 033204 636720 bleibt (Impressum nennt abweichend 033204 50104 — Diskrepanz dokumentiert); Fax 033204 60200. René Bulgrin auf Betreiberseite nicht gefunden (E-Schrott: Christoph Bulgrin). Ankauf privat+Gewerbe bestätigt; Containerstellung/Abholung kostenpflichtig (4-7 cbm, Voranmeldung 2-3 Tage). Öffnungszeiten unverändert (bestätigt). Quelle(n): https://schrott-bulgrin.de, https://schrott-bulgrin.de/?page_id=1228, https://schrott-bulgrin.de/?page_id=1262]

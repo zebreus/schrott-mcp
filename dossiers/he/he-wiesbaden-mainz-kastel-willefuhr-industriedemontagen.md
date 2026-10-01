@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Owner-Gate 01.10.2026: Fills revertiert: Impressum-Direktabruf technisch fehlgeschlagen (nur Snippet + auftragsbank-Lead), keine verifizierte Primaerquelle, 2-Quellen-Standard unerfuellt. Werte bleiben in Recherche-Note dokumentiert.]
 
+### Recherche 01.10.2026 (Tiefenrecherche-Welle, Nachtrag)
+
+- [Recherche 01.10.2026: Re-Check — Direktabruf willefuehr-industriedemontagen.de (Homepage) liefert keine verwertbare Antwort (Fetch leer); Owner-Gate-Revert bleibt bestehen (Adresse An der Gabelung 28, 55252 Mainz-Kastel, Tel. 06134-2589200/Mobil 0163-2268363, E-Mail willefuehr-industriedemontagen@gmx.de weiter nur als dokumentierter Lead, kein Fill). status weiter pruefung. Folgewelle: Impressum-Direktabruf wiederholen oder Gewerberegister Mainz-Kastel. Quelle(n): keine neuen.]
+

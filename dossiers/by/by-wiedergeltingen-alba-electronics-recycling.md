@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Betreiber-Fakten verifiziert per Riwald-Standortseite: Mühle 1, 86879 Wiedergeltingen, +49 7262 612 0, info.rer@riwald.de, Wareneingang Mo.–Do. 7:30–17:00, Fr. 7:30–14:30 Uhr; Leistung: Elektro-Kleingeräte-Behandlung. Weitere Standorte Eppingen (Heilbronner Str. 13, Zentrale) und Lustadt (Waldstr. 130).
 - Frontmatter auf Betreiber-Stand gesetzt (status aktiv, website riwald.de aktiv). Altname ALBA Electronics Recycling hier dokumentiert.
 - Quellen: https://www.riwald.de/standorte-de-riwald-electronics-recycling/ + https://www.riwald.de/uber-uns-de-riwald-electronics-recycling/ + https://www.northdata.de/ALBA+R-plus+GmbH
+
+### Recherche 01.10.2026 (Feedback-Triage ID 2030)
+
+- [Recherche 01.10.2026: Meldung „Telefon gehört nach Eppingen" geprüft und VERWORFEN: Betreiber-Standortseite weist +49 7262 612 0 explizit ALLEN drei Standorten zu (Eppingen, Lustadt, Wiedergeltingen) — zentrale Rufnummer, kein Eppingen-Exklusivum; Vorwahl 07262 erklärt die Verwechslung. Telefon + E-Mail info.rer@riwald.de bleiben am Dossier; Öffnungszeiten-Bestand (Mo.–Do. 7:30–17:00, Fr. 7:30–14:30) entspricht exakt der Wiedergeltingen-Sektion. Quelle(n): riwald.de/standorte-de-riwald-electronics-recycling/ (Betreiber-Primärquelle)]

@@ -6,12 +6,12 @@ state: NW
 city: Hamm
 street: ''
 postcode: ''
-phone: ''
-email: ''
+phone: 02381/54304-0
+email: info@hark-hamm.de
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
+website: https://hark-hamm.de
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottplatz (Am Ortsgüterbahnhof 9),/register
 - urspr. Website-Angabe: keine eigene Website (Stamm s. Duisburg-Eintrag)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum verifiziert (hark-hamm.de/impressum): Heinrich Hark GmbH & Co. KG, Hartmannstr. 5, 44147 Dortmund, HRA 19998 AG Dortmund, Tel. 02381/54304-0, info@hark-hamm.de; Anfahrt-Seite listet Filialen Dortmund/Hafen/Duisburg (Sympherstr. 96a); Zweitbeleg Northdata/schrottregister HR-kongruent; hark-duisburg.de per DNS tot (NXDOMAIN); website/phone/email-Fill, status pruefung -> aktiv; Hamm-Filiale (Am Ortsgueterbahnhof 9, Seed/Register) ohne verifizierte PLZ daher kein street-Fill; Quelle(n): hark-hamm.de/impressum, hark-hamm.de/kontakt/anfahrt, northdata.de]

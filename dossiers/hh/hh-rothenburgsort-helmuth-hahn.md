@@ -4,11 +4,11 @@ name: Helmuth Hahn GmbH & Co. KG
 trader_type: metallhaendler
 state: HH
 city: Rothenburgsort
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Ausschläger Elbdeich 74-78
+postcode: '20539'
+phone: 040 786424
+email: info@helmuthhahn.de
+opening_hours: Mo-Do 07:00-16:00, Fr 07:00-15:45
 website: http://www.helmuthhahn.de
 website_status: ''
 status: aktiv
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - NE-Metalle, Eisen, Kabel, Blei/Batterien, Bleigewichte; seit 1926
+
+### Recherche 01.10.2026
+
+- [Recherche/Korrektur 01.10.2026: street Ausschläger Elbdeich 74-78, PLZ 20539 Hamburg, Tel. 040 786424, E-Mail info@helmuthhahn.de und Zeiten Mo-Do 07:00-16:00 / Fr 07:00-15:45 (Annahmeschluss 30 Min. vor Arbeitsende) aus Betreiber-Kontaktseite übernommen (ein Betreiber = eine Quelle, offengelegt); Containergestellung/Abholung belegt (nur Timeline); Quelle(n): https://www.helmuthhahn.de/kontakt]

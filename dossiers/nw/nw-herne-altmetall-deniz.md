@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Herne
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Miss — kein Betreiber, keine Adresse, kein Register, keine Website zu Altmetall-Deniz Herne gefunden (nur generische Herner Schrott-Verzeichnisse); kein Frontmatter-Fill ausser website_status unbekannt; Quelle(n): keine]

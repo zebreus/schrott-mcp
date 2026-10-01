@@ -8,8 +8,8 @@ street: Angermünder Str. 77
 postcode: '16227'
 phone: 03334 525600
 email: ''
-opening_hours: ''
-website: https://www.steil.de/standorte-kontakt/eberswalde
+opening_hours: Annahme Mo-Do 07:00-16:30, Fr 07:00-16:00, Pause Mo-Fr 12:00-13:00 (Ladezeiten Mo-Do 07:00-15:30, Fr 07:00-15:00)
+website: https://www.steil.de
 website_status: ''
 status: aktiv
 description: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott-/Metallgroßhandel
 - Adressbeleg: steil.de/standorte
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2136 berechtigt — opening_hours '' → 'Annahme Mo-Do 07:00-16:30, Fr 07:00-16:00, Pause Mo-Fr 12:00-13:00 (Ladezeiten Mo-Do 07:00-15:30, Fr 07:00-15:00)' (Standortseite Eberswalde, Angermünder Str. 77, 16227; Tel. 03334 525600 bestätigt); website Deep-Link → Domain-Root 'https://www.steil.de' normalisiert. E-Mail auf Betreiberseite obfuskiert (info@steil.de wahrscheinlich, unsicher — nicht übernommen, konsistent mit Berlin-Standort 2106). Beleglage: Konzern-Primärquelle mit aktueller Detailseite (Owner-Ausnahme); HR-Kongruenz ungeprüft. Quelle(n): https://www.steil.de/standorte-kontakt/eberswalde]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.peters-recycling.de/
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Wertstoffe/Entsorgung Kreis Böblingen
 - Größe: klein–mittel
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1904 berechtigt (Website aktiv, status=pruefung bleibt) — Betreiber-Kontakt verifiziert (Schwertstraße 48/1, 71065 Sindelfingen, Tel 07031 763770, info@peters-recycling.de, Zeiten Mo-Fr gestaffelt + Sa 8-13) — EINE Quelle → KEIN Frontmatter-Fill; website live und aktuell (Wertstoff-/Recyclinghof, Anlieferung beschrieben, kein Schließungshinweis) → website_status aktiv; status-Feld pruefung unberührt; Quelle(n): https://www.peters-recycling.de/kontakt/ , https://www.peters-recycling.de/]

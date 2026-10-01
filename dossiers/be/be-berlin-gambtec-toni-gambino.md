@@ -4,12 +4,12 @@ name: GambTec (Toni Gambino)
 trader_type: metallhaendler
 state: BE
 city: Berlin
-street: ''
-postcode: ''
+street: Meldenweg 18
+postcode: '12357'
 phone: 030 68055975
-email: ''
+email: info@gambtec.de
 opening_hours: ''
-website: https://gambtec.de/schrottankauf/
+website: https://gambtec.de
 website_status: ''
 status: aktiv
 description: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Industrieschrott, Buntmetall, Stahlschrott, Maschinen/Anlagen, Elektroschrott/Server, Kabelschrott; Abholung
 - Adresse: Berlin, Tel. 030 68055975
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2107 teilweise berechtigt — street '' → 'Meldenweg 18', postcode '' → '12357' (Berlin), email '' → 'info@gambtec.de' (Impressum/Kontakt); website Deep-Link → Domain-Root 'https://gambtec.de' normalisiert. Öffnungszeiten aus Feedback (Mo-Fr 09-18, Sa 12-14) auf Betreiberseite nicht verifizierbar → nicht übernommen; kostenfreie Abholung in Berlin belegt, Telefon 030 68055975 bestätigt. Beleglage: Betreiber-Einzelbeleg (Einzelunternehmen Toni Gambino, kein HRB; 2. Quelle offen). Quelle(n): https://gambtec.de/impressum/, https://gambtec.de/kontakt/, https://gambtec.de/schrottankauf/]

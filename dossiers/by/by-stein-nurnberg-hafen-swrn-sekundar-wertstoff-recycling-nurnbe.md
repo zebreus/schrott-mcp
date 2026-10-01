@@ -4,13 +4,13 @@ name: SWRN GmbH (Sekundär-Wertstoff-Recycling-Nürnberg)
 trader_type: wertstoffhaendler
 state: BY
 city: Stein / Nürnberg-Hafen
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: https://swrn.de/unternehmen
-website_status: ''
+street: Föhrenweg 44
+postcode: '90547'
+phone: 0911 96777-0
+email: office@swrn-nbg.de
+opening_hours: Mo-Fr 07.00-16.00 Uhr
+website: https://swrn.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,13 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-ID 1965 berechtigt – Stamm-/Zweigadresse, PLZ, Telefon, E-Mail, Öffnungszeiten eingearbeitet, Website auf Root normiert; Quelle(n): Betreiber-Website swrn.de Footer + /en/site-notice/ (Owner-Ausnahme: Impressum Name+HR+Ort HR-kongruent)]
+- SWRN GmbH, Stamm Föhrenweg 44, 90547 Stein; Zweig Preßburger Str. 3, 90451 Nürnberg; Tel. +49 (0) 911-96777-0, Fax Stamm -15 / Hafen -49, E-Mail office@swrn-nbg.de; Öffnungszeiten Mo-Fr 07.00–16.00 Uhr (Header-Angabe).
+- Impressum: SWRN GmbH, Föhrenweg 44, 90547 Stein, HR 5414 AG Fürth, GF Thorsten Reindel, USt-IdNr. DE133560447; seit 1988, zertifizierter Entsorgungsfachbetrieb (EfbV seit 1997).
+- Hinweis: Koordinaten für Stamm-Adresse neu geocodieren (adressbasiert automatisch).
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -4,8 +4,8 @@ name: M Shala Schrott- und Metallhandel
 trader_type: metallhaendler
 state: BW
 city: Offenburg
-street: ''
-postcode: ''
+street: Zunftgasse 10
+postcode: 77652
 phone: 0781 47441296
 email: mentorshala@web.de
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1948 teilweise berechtigt – Adresse (Zunftgasse 10, 77652 Offenburg) aus Betreiber-Impressum/Kontakt belegt (Telefon/Mail bereits im Seed); Abholung belegt (kostenlose Abholung, Containerservice, Demontage, Entrümpelung). Beleglage: EINZELBELEG wie bw-offenburg-shala-schrotthandel (Betreiber = eine Quelle, kein HRB; Aggregator-Match nur Lead). DUPLIKAT-VERDACHT zu bw-offenburg-shala-schrotthandel (gleicher Inhaber Mentor Shala, gleiche Domain shala-schrott-handel.de, gleiche Adresse) – zweiseitiger Check: beide Zeilen beschreiben dieselbe reale Entität, kein Namensvetter am Ort gefunden; kein Merge/kein Delete (Slug-Stabilität), Klärfall für Owner (Zusammenführung prüfen). Koordinaten neu zu geocodieren. Quelle(n): https://www.shala-schrott-handel.de/ + /impressum (Abruf 01.10.2026); Leads: gelbeseiten.de, golocal.de]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

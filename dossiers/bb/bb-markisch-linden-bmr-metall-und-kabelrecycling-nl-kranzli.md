@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Korrektur fb1754: Website entknüpft — Filial-Check negativ: bmr-toepchin.net nennt auf keiner geprüften Seite (Home, Firma, Kontakt, Impressum, Anfahrt, Markt/Preisliste, je per curl 30.09.2026) Kränzlin, Darritzer Str. oder Märkisch Linden; Impressum/Kontakt nennen ausschließlich In der Muna 12, 15749 Mittenwalde OT Töpchin; Quelle: bmr-toepchin.net Impressum/Kontakt/Firma/Anfahrt]
 - [Korrektur fb1754: Status aktiv → pruefung — NL Kränzlin existiert real als Verzeichnis-Entität (Darritzer Str. 25, 16818 Kränzlin; Quellen: 11880-Branchenbuch, DasTelefonbuch-Eintrag „NL Kränzlin, Märkisch Linden", nachhaltigentsorgen.de), hat aber keine eigene Website; Zentrale-Telefon im phone-Feld belassen; Quelle: 11880 + DasTelefonbuch]
 - [Korrektur fb1754: NL-Telefon 03391 5108479 + info@bmr-toepchin.de nur im DasTelefonbuch-Eintrag (Einzelbeleg, unsicher), nicht ins phone-Feld übernommen; Quelle: DasTelefonbuch]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (fb2097, reiner Klärfall, keine Feldänderung): Website bmr-toepchin.net erneut geprüft (Start, Kontakt, Impressum) — nennt ausschließlich In der Muna 12, 15749 Mittenwalde OT Töpchin (Tel. 033769 89910); Standort Kränzlin/Darritzer Str. 25, 16818 Märkisch Linden weiter nicht belegt; Zentrale-Zeiten (Annahme privat Di+Do 13-16, Sa 8-11; Firmen Mo-Fr 7-12) nur Timeline-Vermerk ohne Fill; status pruefung bleibt; Quelle(n): https://bmr-toepchin.net/ (Start, Kontakt, Impressum)]

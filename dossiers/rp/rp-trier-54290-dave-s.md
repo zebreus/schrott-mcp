@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche ergebnislos, keine Betreiber-Website, kein Registerbeleg; alle Felder bleiben leer; Klärfall für Folgewelle (Gewerberegister Trier); Quelle(n): keine neuen.]
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle, Nachtrag)
+
+- [Recherche 01.10.2026: Erneute Gegenrecherche („Dave's“ Schrott Trier 54290) bringt nur Namensvetter ohne Schrottbezug (Dave's Handwerkservice Annweiler/Steimertal 44 — anderes Gewerk, anderer Ort; Dave's Fahrzeuge Schweiz; DAVE Immobilienverbund) — KEIN Beleg für Existenz eines Schrotthändlers „Dave's“ in Trier; Verwechslungsgefahr mit Dave's Handwerkservice (Annweiler) dokumentiert, NICHT übernommen. Alle Felder weiter leer, status weiter pruefung. Folgewelle: Gewerberegister Trier, ggf. Löschkandidat prüfen. Quelle(n): daves-handwerkservice.de + moneyhouse.ch (Negativbelege).]

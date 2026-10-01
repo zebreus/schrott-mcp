@@ -35,4 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
-- [Recherche 01.10.2026: Betreiber-Website voll vercrawlt (Home, Schrotthändler-, Container-, Demontage-Seiten, Impressum): MK Metalle, Merano Kreuz, Gerichtshof 8, 74389 Cleebronn, Tel. 01556/1708507, info@mk-metalle.de, Geschäftszeiten Mo–Fr 7–20h, Sa 8–14h (Einzelbeleg) — Einzelunternehmen ohne HRB, keine zweite unabhängige Quelle → Frontmatter unverändert (Deep-Link-Website bleibt bestehen), Klärfall; Quelle(n): mk-metalle.de (Einzelbeleg)]
+- [Recherche 01.10.2026: Feedback 1884 — Betreiber-Website voll vercrawlt (Home, Schrotthändler-, Container-, Demontage-Seiten, Impressum): MK Metalle, Merano Kreuz, Gerichtshof 8, 74389 Cleebronn, Tel. 01556/1708507, info@mk-metalle.de, Geschäftszeiten Mo–Fr 7–20h, Sa 8–14h (Einzelbeleg) — Einzelunternehmen ohne HRB, keine zweite unabhängige Quelle → Frontmatter unverändert (Deep-Link-Website bleibt bestehen), Klärfall; Quelle(n): mk-metalle.de (Einzelbeleg)]

@@ -6,11 +6,11 @@ state: BE
 city: Tempelhof-Schöneberg
 street: Ansbacher Str. 5
 postcode: '10787'
-phone: —
-email: ''
-opening_hours: ''
+phone: 030 95612164
+email: info@scheideanstalt.berlin
+opening_hours: Mo-Fr 10:00-16:00 nach Termin
 website: https://scheideanstalt.berlin
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Edelmetallankauf + Analyse (Vorsicht: namensgleich mit DIGOSI)
 - Adresse: Ansbacher Str. 5, 10787 Berlin
 - Bezirk: Tempelhof-Schöneberg Adressbeleg: seed/be.json (https://scheideanstalt.berlin)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website scheideanstalt.berlin verifiziert (Start + Impressum): Solidus Scheide- und Analyseanstalt Berlin GmbH, Ansbacher Str. 5, 10787 Berlin (HRB 137368 B) deckungsgleich; Telefon 030 95612164, E-Mail info@scheideanstalt.berlin (CF-verschleiert dekodiert, Zweitbeleg Register) und Zeiten Mo-Fr 10:00-16:00 nur nach Termin gefüllt; Ankauf privat/gewerblich nur Timeline-Vermerk; Quelle(n): https://scheideanstalt.berlin + https://scheideanstalt.berlin/impressum/]

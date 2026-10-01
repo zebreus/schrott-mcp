@@ -6,11 +6,11 @@ state: BE
 city: Lichtenberg
 street: Herzbergstr. 35/36
 postcode: '10365'
-phone: —
-email: ''
-opening_hours: ''
+phone: 030 6573052
+email: info@kmabgmbh.de
+opening_hours: Mo-Fr 6:30-16:45
 website: https://www.kmabgmbh.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Metallankauf + Entsorgung + Container
 - Adresse: Herzbergstr. 35/36, 10365 Berlin
 - Bezirk: Lichtenberg Adressbeleg: seed/be.json (https://www.kmabgmbh.de)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website kmabgmbh.de verifiziert (Kontakt + Impressum + Start): Herzbergstr. 35/36, 10365 Berlin deckungsgleich; Platzhalter-Telefon — durch 030 6573052 ersetzt, E-Mail info@kmabgmbh.de und Zeiten Mo-Fr 6:30-16:45 gefüllt (Mobil 0171 1177218 nur Timeline-Vermerk); Leistungen Metallankauf/Entsorgung/Container nur Timeline-Vermerk; Quelle(n): https://www.kmabgmbh.de/ + https://www.kmabgmbh.de/kontakt + https://www.kmabgmbh.de/impressum]

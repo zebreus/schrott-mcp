@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Metall
 - (Filialen)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2133 — Existenz-only: zwei Lauchhammer-Branches auffindbar (/standort/lauchhammer/ = 'Lauchhammer Bahnhofstraße' am 01.10. verifiziert; Schwester-Seite Eisenwerkstraße). Detailseiten JS-only (keine Kontakt-/Zeit-Fakten abrufbar). Keine Fills (PLZ/Telefon/E-Mail/Zeiten aus Feedback nicht primärquellenseitig verifizierbar). Eisenwerkstr. 8 als eine der beiden Filialadressen bestätigt (Titel-Ebene). Quelle(n): https://www.scholz-recycling.com/standorte/, https://www.scholz-recycling.com/standort/lauchhammer/]

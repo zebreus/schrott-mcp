@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.baumgaertner.de/schrottplatz-friedrichshafen/
-website_status: ''
+website: https://www.baumgaertner.de/
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottplatz, Entsorgungsfachbetrieb
 - Größe: mittel
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1924 dokumentiert (Einzelbeleg + Geo-Klärfall) — Betreiber-Kontakt verifiziert (Schussenstr. 10, 88250 Weingarten, Tel +49 751 56160-0, info@baumgaertner.de, Zeiten Mo-Fr 7-12/13-17, 1. Sa 8-12) — EINE Quelle → KEIN Frontmatter-/Geo-Fill (DB lat/lon Raum Heilbronn ca. 170 km abweichend, nur Timeline + Geocodierungs-Hinweis); Betreiber Baumgärtner mit Zweitstandort Mengen (Schwester-Dossier); website auf Root normiert, live → website_status aktiv; Quelle(n): https://www.baumgaertner.de/kontakt/]

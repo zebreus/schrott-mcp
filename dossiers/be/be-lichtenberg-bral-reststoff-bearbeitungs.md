@@ -1,7 +1,7 @@
 ---
 slug: be-lichtenberg-bral-reststoff-bearbeitungs
 name: BRAL Reststoff-Bearbeitungs GmbH
-trader_type: schrotthaendler
+trader_type: wertstoffhaendler
 state: BE
 city: Lichtenberg
 street: Marzahner Str. 36
@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Betreiber-Primärquelle: bral.berlin (eigene Website der BRAL Reststoff-Bearbeitungs GmbH, Unternehmung von BSR + ALBA-Gruppe, verifiziert 01.10.2026) — allein ausreichender Beleg für eigene Filial-Fakten.
 - Frontmatter aus Betreiber-Seite befüllt: Marzahner Straße 36, 13053 Berlin, Tel. 030 982 42 35, info@bral.de, Mo-Fr 6:00-16:00 Uhr; Leistung: zertifizierte Erstbehandlungsanlage für Elektroschrott/Kühlgeräte, E-Schrott-Annahme + Abholung, Speiseabfall-Entsorgung, Biokompost-Makler. Kein klassischer Schrottankauf mit Barpreisliste (Seed-Hinweis bleibt gültig).
 - status pruefung → aktiv (Betreiber-Existenz + E-Schrott-Annahme belegt).
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website bral.berlin gegengeprüft (Kontakt/Anfahrt): Marzahner Str. 36, 13053 Berlin, Tel. 030 982 42 35, info@bral.de, Mo-Fr 6-16 Uhr weiter deckungsgleich — keine Feldänderung; Angebot Speiseabfälle/Fettabscheider, E-Schrott-Annahmestelle, Kühlgeräte-Recycling, Datenträgervernichtung, Recyclinghof — kein Schrott-/Metallankauf mit Barpreisliste → trader_type schrotthaendler → wertstoffhaendler; Quelle(n): https://www.bral.berlin + https://www.bral.berlin/kontakt-anfahrt/]

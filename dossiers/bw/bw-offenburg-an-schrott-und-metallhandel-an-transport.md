@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.an-schrott.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, Container
 - Größe: klein
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1909 teils berechtigt/Klärfall — Betreiber-Kontakt verifiziert (Raiffeisenstraße 3a [Seite: Raiffeisentraße], 77656 Offenburg, Tel 0781 99075221; E-Mail nur unvollständig 'info@an..de' → NICHT übernehmbar, bleibt leer) — EINE Quelle → KEIN Frontmatter-Fill; Abholung/Containerdienst nur Timeline; website live → website_status aktiv; Quelle(n): https://www.an-schrott.de/contact/ , https://www.an-schrott.de/]

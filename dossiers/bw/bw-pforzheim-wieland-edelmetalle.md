@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.wieland-edelmetalle.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Edelmetall-Recycling/Handel
 - Größe: mittel–groß
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1914 dokumentiert (Einzelbeleg, unsicher) — Betreiber-Impressum verifiziert (Wieland Edelmetalle GmbH, Schwenninger Straße 13, 75179 Pforzheim, Tel +49 7231 1393-0, info@wieland-edelmetalle.de) — EINE Quelle → KEIN Frontmatter-Fill; website live → website_status aktiv; Quelle(n): https://www.wieland-edelmetalle.de/impressum/]

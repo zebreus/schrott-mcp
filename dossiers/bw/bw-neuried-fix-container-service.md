@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.container-fix.de/schrott-ne-metalle/
-website_status: ''
+website: https://www.container-fix.de/
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/NE-Metalle, Container
 - Größe: klein–mittel
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1910 berechtigt (Koordinaten-Klärfall) — Betreiber-Impressum verifiziert (Altenheimer Weg 6, 77743 Neuried-Dundenheim, Tel 07807 3430/0781 57857, info@container-fix.de, Zeiten Neuried Mo-Do 7:30-12/13-16, Fr bis 15:30; Zweitstandort Kehl Graudenzer Str. 10, 77694) — EINE Quelle → KEIN Frontmatter-/Geo-Fill (lat/lon DB Raum Ulm ca. 100+ km abweichend, nur Timeline + Geocodierungs-Hinweis); website auf Root normiert, live → website_status aktiv; Quelle(n): https://www.container-fix.de/impressum/ , https://www.container-fix.de/kontakt/]

@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-ID 1981 Klärfall – kein Fill; Betreiber-Site xn--entrmplung-mayer-8sb.de (entruemplung-mayer.de) per Transport-Error nicht abrufbar, keine Zweitquelle mit Martinistr. 70 + PLZ/Telefon gefunden]
+- Dossier: R. Mayer, Martinistr. 70, Mannheim ohne PLZ/Telefon – unbelegt gelassen (kein Aggregator-Raten). Website-Status ungeklärt, Frontmatter unverändert. Zweitprüfung (Kommune/Register) ausstehend.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

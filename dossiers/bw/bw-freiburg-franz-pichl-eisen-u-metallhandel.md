@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.pichl-gmbh.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Eisen/Metall
 - Größe: klein–mittel
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1916 dokumentiert (Einzelbeleg, unsicher + Annahmestopp) — Betreiber-Website verifiziert (Carl-Mez-Straße 48, 79114 Freiburg, Tel 0761 493408, info@pichl-gmbh.de, Zeiten Mo-Fr 07:45-12:30) — EINE Quelle → KEIN Frontmatter-Fill; Startseite 'ZUR ZEIT KEINE ANNAHME' vs dropoff allowed=true nur Timeline (DB-Flag unberührt, Klärfall); website live → website_status aktiv; Quelle(n): https://www.pichl-gmbh.de/]

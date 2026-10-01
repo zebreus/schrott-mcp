@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Wettringen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Negativbefund — einziger naeherer Treffer Skibinski GmbH Gartenbau (Industrieweg 25, Wettringen), kein Schrottbezug; Fehlklassifikation als Schrotthaendler wahrscheinlich; kein Frontmatter-Fill ausser website_status unbekannt, status bleibt pruefung (Loesch-/Umkategorisierungsentscheidung Folgewelle); Quelle(n): Verzeichnisrecherche ohne Schrottbeleg]

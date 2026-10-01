@@ -30,7 +30,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
-- [Recherche 01.10.2026: Betreiber-Website tiefgecrawlt (Home, Impressum). Inh. Manfred Schneck, Kapellenstraße 13, 74579 Fichtenau, Tel. 07962 700464 und 0172 2514319, E-Mail schrott-schneck@gmx.de; Abholung mit Ladekran-Fahrzeugen, Container 1–10 m³, Ankauf von Kabeln/Messing/Alu/V2A/Kupfer/Zinn/Blei/Zink/Bronze, Einsatzgebiet u.a. Aalen, Crailsheim, Schwäbisch Hall, Ansbach (Einzelbeleg, unsicher — kein HRB, kein Zweitbeleg, Frontmatter bleibt leer). Quellen: schrott-schneck.de.]
+- [Recherche 01.10.2026: Feedback 1932 — Betreiber-Website tiefgecrawlt (Home, Impressum). Inh. Manfred Schneck, Kapellenstraße 13, 74579 Fichtenau, Tel. 07962 700464 und 0172 2514319, E-Mail schrott-schneck@gmx.de; Abholung mit Ladekran-Fahrzeugen, Container 1–10 m³, Ankauf von Kabeln/Messing/Alu/V2A/Kupfer/Zinn/Blei/Zink/Bronze, Einsatzgebiet u.a. Aalen, Crailsheim, Schwäbisch Hall, Ansbach (Einzelbeleg, unsicher — kein HRB, kein Zweitbeleg, Frontmatter bleibt leer). Quellen: schrott-schneck.de.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

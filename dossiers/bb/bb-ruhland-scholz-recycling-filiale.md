@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Metall
 - (Filiale)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2132 — Existenz-only: Filiale Ruhland als Branch-Seite auffindbar, Detailseite JS-only (keine Fakten abrufbar). Keine Fills (Straße/PLZ/Telefon/E-Mail/Zeiten aus Feedback — 'Am Dreistein, 01945 Ruhland, 035752 2106' — nicht primärquellenseitig verifizierbar, nur Konzern-Suchseite als Einzelbeleg). Felder bleiben leer bis Zweitbeleg. Quelle(n): https://www.scholz-recycling.com/standorte/]

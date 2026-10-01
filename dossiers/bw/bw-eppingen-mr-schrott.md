@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.mr-schrott.de/
-website_status: ''
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1886 dokumentiert (Einzelbeleg) — Impressum Mr. Schrott, Inh. Robert Cam, Erlen 14/1, 75031 Eppingen-Richen, Tel +49 7262 6019192, info@mr-schrott.de, USt-ID DE276651655; Abholung für Privat+Gewerbe per /privat-Seite; Einzelunternehmen ohne HRB → KEIN Fill; website live → aktiv; Quelle(n): https://www.mr-schrott.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

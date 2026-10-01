@@ -6,12 +6,12 @@ state: BB
 city: Angermünde
 street: ''
 postcode: ''
-phone: 03332 524385
+phone: ''
 email: ''
 opening_hours: ''
 website: https://weckwerth-schrott.de
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott-/Metallhandel
 - (Filiale)
 - Adressbeleg: weckwerth-schrott.de (Filialadresse n. verif.)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (fb2099, Klärfall mit Korrektur): Betreiber-Website weckwerth-schrott.de nennt nur Sitz Gewerbepark 18a, 16303 Schwedt/Oder — keine Filiale/Adresse in Angermünde belegt; Dossier-Telefon 03332 524385 war Schwedt-Nummer → als irreführend geräumt (Feld leer); Aggregator-Lead Schmargendorfer Weg 30, 16278 Angermünde, Tel. 03331 297815 unverifiziert — kein Fill, nur dieser Lead-Vermerk; status aktiv → pruefung (Existenz offen, Duplikat-Verdacht); kein Dossier-Split, keine neue Datei; Quelle(n): https://weckwerth-schrott.de/ + https://weckwerth-schrott.de/kontakt/ (Betreiber-Negativbeleg)]

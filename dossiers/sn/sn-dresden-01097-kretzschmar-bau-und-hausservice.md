@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-/Portal-Snippets (Hechtstr. 60, 01097 Dresden, Tel. 0172 3520620), kein zweiter unabhängiger Beleg, keine Betreiber-Website — kein Fill; Quelle(n): Verzeichnis-Leads]
+
+### Recherche 01.10.2026 (Nachgang)
+
+- [Recherche 01.10.2026: Das Örtliche listet „Kretzschmar Bau- und Hausservice, Schrott, Hechtstr. 60, 01097 Dresden (Leipziger Vorstadt), Tel. 0172 3520620“ — bestätigt Seed-Adresse + -Telefon, aber weiter EINZELBELEG (kein zweiter unabhängiger Beleg, kein Betreiber-Auftritt); daher kein Fill (Telefon/PLZ bleiben Leads); Status bleibt pruefung; Quelle(n): dasoertliche.de-Suche Kretzschmar Schrott Dresden (Lead, kein Beleg)]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.schrott-bernhardt.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - NE-Schrott, Abholung
 - Größe: klein
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1936 dokumentiert (Einzelbeleg, unsicher) — Betreiber-Impressum verifiziert (Riedstraße 6/1, 72805 Lichtenstein, Tel 0174 2028819, info@schrott-bernhardt.de; Abholung/Container, privat+gewerblich) — EINE Quelle → KEIN Frontmatter-Fill; website live → website_status aktiv; Quelle(n): https://www.schrott-bernhardt.de/impressum , https://www.schrott-bernhardt.de/]

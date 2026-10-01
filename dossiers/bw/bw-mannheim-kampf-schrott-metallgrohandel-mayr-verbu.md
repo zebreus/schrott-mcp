@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-ID 1985 Klärfall – Adresse widersprüchlich, kein Fill; Quelle(n): Betreiber-Verbundseite eberhard-mayr.de/kaempf-recycling/ nennt ausschließlich Wernerstr. 120, 70469 Stuttgart, kein Mannheim-Beleg]
+- Dossier führt Ort Mannheim + Straße Wernerstr. 120 (Stuttgarter Adresse) – kein Betreiber-Beleg für Kämpf-Standort Mannheim gefunden; Mayr-Verbund Mannheim = Hettinger Harpener Str. 4. Slug aus Stabilitätsgründen NICHT geändert, kein Merge/Delete, kein Frontmatter-Fill. Zweitprüfung (Handelsregister/Kommune) ausstehend.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - FE-Schrott/Buntmetalle, Entsorgungskonzepte

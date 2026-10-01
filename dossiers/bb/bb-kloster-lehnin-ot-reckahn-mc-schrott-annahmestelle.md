@@ -7,10 +7,10 @@ city: Kloster Lehnin OT Reckahn
 street: Meßdunker Str. 2
 postcode: '14797'
 phone: 033835 606235
-email: ''
-opening_hours: ''
-website: https://www.mcschrott.de/
-website_status: ''
+email: reckahn@mcschrott.de
+opening_hours: Mo-Fr 8:00-16:00
+website: https://www.mcschrott.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Eisen-/Buntmetallankauf mit Preisliste
 - Adressbeleg: mcschrott.de/standorte
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Standortseite mcschrott.de/kloster-lehnin-reckahn verifiziert: Meßdunker Str. 2, 14797 Kloster Lehnin OT Reckahn und Tel. 033835 606235 deckungsgleich; E-Mail reckahn@mcschrott.de und Zeiten Mo-Fr 8:00-16:00 (letzte Annahme 15:45, Sa/So/Feiertag geschlossen) gefüllt, Website auf Domain-Root normiert; Quelle(n): https://www.mcschrott.de/standorte/ + https://www.mcschrott.de/standorte/kloster-lehnin-reckahn/]

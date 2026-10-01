@@ -7,10 +7,10 @@ city: Schwedt/Oder
 street: Gewerbepark 18a
 postcode: '16303'
 phone: 03332 524385
-email: ''
-opening_hours: ''
+email: info@weckwerth-schrott.de
+opening_hours: Mo-Fr 7:30-16:30, jeden letzten Sa im Monat 8:00-12:00
 website: https://weckwerth-schrott.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott-/Metallhandel, Autoverwertung, Abbruch, Container
 - Adressbeleg: weckwerth-schrott.de/impressum
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website weckwerth-schrott.de verifiziert (Start + Kontakt + Impressum): Gewerbepark 18a, 16303 Schwedt/Oder und Tel. 03332 524385 deckungsgleich; E-Mail info@weckwerth-schrott.de und Zeiten Mo-Fr 7:30-16:30, jeden letzten Samstag 8:00-12:00 gefüllt; Angermünde kommt auf keiner geprüften Seite vor — kein Beleg für Filiale, nur dieser Abgrenzungs-Vermerk; Quelle(n): https://weckwerth-schrott.de/ + https://weckwerth-schrott.de/kontakt/]

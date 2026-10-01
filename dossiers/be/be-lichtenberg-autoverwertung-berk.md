@@ -7,10 +7,10 @@ city: Lichtenberg
 street: Gehrenseestr. 42A
 postcode: '13053'
 phone: 030 93699699
-email: ''
-opening_hours: ''
+email: info@autoverwertung-berk.de
+opening_hours: Mo-Fr 8:00-17:00
 website: https://autoverwertung-berk.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung, kein Ersatzteilverkauf
 - Adresse: Gehrenseestr. 42A, 13053 Berlin
 - Bezirk: Lichtenberg Adressbeleg: autoverwertung-berk.de/kontakt (Websuche 28.09.2026)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website autoverwertung-berk.de verifiziert: Gehrenseestr. 42A, 13053 Berlin und Tel. 030 93699699 deckungsgleich; E-Mail info@autoverwertung-berk.de und Zeiten Mo-Fr 8:00-17:00 gefüllt; Fahrzeugabholung angeboten — pickup_json bleibt Seed-leer (Enrichment), nur dieser Vermerk; Quelle(n): https://autoverwertung-berk.de + https://autoverwertung-berk.de/impressum/]

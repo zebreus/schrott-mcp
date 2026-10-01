@@ -6,7 +6,7 @@ state: SL
 city: Homburg-Bruchhof
 street: 'Kaiserslauterer Str. 306'
 postcode: '66424'
-phone: ''
+phone: 06841/174980
 email: ''
 opening_hours: ''
 website: ''
@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine neue belegfähige Quelle zu „Neff Axel Schrotthandel“ (Bing nur NEFF-Hausgeräte-Homonyme, DDG ratenlimitiert); Stand 30.09.2026 unverändert (Verzeichnis-Leads, keine Belege), keine neuen Fills, weiter pruefung; Quelle(n): keine neue belegfähige Quelle]
+
+### Recherche 01.10.2026 (Nachgang)
+
+- [Recherche 01.10.2026: Zweit-Verzeichnis gefunden — Gelbe Seiten listet „Neff Axel Schrott, Kaiserslauterer Str. 306, 66424 Homburg (Bruchhof), 0171 9180960“ + „Neff Axel Schrotthandel, Schrott, gleiche Adresse, 06841 174980“ (deckt sich mit Örtliche-Befund 30.09.); Festnetz 06841/174980 als Frontmatter-Telefon übernommen (zwei Verzeichnisse konsistent), Mobil 0171 9180960 nur GS-Einzelbeleg (kein Fill); weiter kein Betreiber-Beleg (Einzelunternehmen ohne HRB), Status bleibt pruefung; Quelle(n): gelbeseiten.de-Suche Neff Axel Homburg + dasoertliche.de-Befund 30.09.2026]

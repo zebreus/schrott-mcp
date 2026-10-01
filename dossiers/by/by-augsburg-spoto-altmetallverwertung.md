@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: BY
 city: Augsburg
 street: Bavousstr. 6
-postcode: ''
-phone: ''
-email: ''
+postcode: '86153'
+phone: '0151 1523 8228'
+email: 'info@spoto-altmetall.de'
 opening_hours: ''
 website: https://spoto-altmetall.de/
-website_status: ''
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Hartmetall-/VHM-Spezialist + Altmetall, Demontage, Container
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum (Marco Spoto, Schrott & Altmetallverwertung, Bavousstr. 6, 86153 Augsburg, Steuernummer, Tel. 015115238228, info@spoto-altmetall.de) → postcode/phone/email/website_status belegt; Einzelunternehmen ohne HR → keine Owner-Ausnahme, Betreiber-Einzelbeleg (offen); Öffnungszeiten nicht publiziert → leer (Hinweis: aktuell keine Anlieferung am Standort, nur Abholung/Container — Homepage-Banner); kein Namensvetter-Konflikt in Augsburg gefunden; Quelle(n): spoto-altmetall.de/impressum/ + Homepage-Kontaktblock (eine Betreiber-Quelle)]

@@ -4,13 +4,13 @@ name: DODUCO Contacts and Refining GmbH (Saxonia-Gruppe)
 trader_type: sonstige
 state: BW
 city: Pforzheim
-street: ''
-postcode: ''
-phone: ''
+street: Im Altgefäll 12
+postcode: 75181
+phone: +49 7231 602-0
 email: ''
 opening_hours: ''
-website: https://doduco-contacts.de/scheideanstalt
-website_status: ''
+website: https://doduco-contacts.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1954 berechtigt – Betreiber-Impressum verifiziert: Doduco Contacts and Refining GmbH, Im Altgefäll 12, 75181 Pforzheim, Tel. +49 7231 602-0, info@doduco.com (Holding-Impressum; E-Mail nur Holding-Einzelbeleg → Frontmatter leer); HRB 710592 AG Mannheim (DODUCO Holding; GF Dr. Timo Mützel). Edelmetall-Recycling/Scheideanstalt, Kontaktwerkstoffe (B2B, Elektro/Auto) – trader_type sonstige belassen (Spezialist, kein klassischer Schrotthandel mit Privatanlieferung). Website auf Domain-Root normiert (war Deep-Link /scheideanstalt). Beleglage: HRB-kongruentes Betreiber-Impressum + Konzernseiten (doduco.net/doduco-contacts.de/doduco-solutions.de, Saxonia-Gruppe) → Owner-Ausnahme für Filial-Fakten; Northdata-Gegenbeleg für Refining-GmbH ausstehend (Restunsicherheit). Kein Namensvetter am Ort. Quelle(n): https://doduco-contacts.de/en/imprint/ + https://www.doduco.net/impressum + https://doduco-solutions.de/en/imprint (Abruf 01.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

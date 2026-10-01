@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott-/Metallgroßhandel, Container
 - Adressbeleg: stadtbranchenbuch + schrottregister
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2130 — Existenz-only: Standort Spremberg (Bregenzer Str. 13, 03130; Tel. 03563 397414 laut Dossier) auf Konzernseite als Branch-Seite auffindbar, Detailseite JS-Karte ohne abrufbare Kontakt-/Zeit-Fakten (Standorte-Übersicht am 01.10. verifiziert: nur JS-Map, keine Filialdetails im HTML). Keine Fills (E-Mail/Öffnungszeiten aus Feedback nicht zweitbelegt über Primärquelle abrufbar); Adresse/Telefon unverändert. Quelle(n): https://www.scholz-recycling.com/standorte/]

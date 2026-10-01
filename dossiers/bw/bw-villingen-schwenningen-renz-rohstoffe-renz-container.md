@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026 (Feedback-Triage)
 
 - [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1672 (Website gehoere HSR Brandenburg) WIDERLEGT — renz-rohstoffe.de nennt Gerhard Renz, Villingen-Schwenningen (Homepage + Impressum); website aktiv. Quelle: https://renz-rohstoffe.de/impressum.html.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1943 dokumentiert (Einzelbeleg, unsicher) — Betreiber-Impressum verifiziert (Klippeneckstr. 62, 78056 Villingen-Schwenningen, Tel 07720/7777, info@renz-rohstoffe.de; Ankauf Gewerbe+Privat) — EINE Quelle → KEIN Frontmatter-Fill (Owner-Ausnahme nicht gezogen); website live → website_status aktiv (bereits gesetzt); Abgrenzung zu HSR Brandenburg per Korrektur 30.09.2026 belegt; Quelle(n): http://renz-rohstoffe.de/ , http://renz-rohstoffe.de/impressum.html]

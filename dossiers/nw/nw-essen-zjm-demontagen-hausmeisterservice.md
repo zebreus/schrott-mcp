@@ -4,13 +4,13 @@ name: ZJM Demontagen + Hausmeisterservice
 trader_type: sonstige
 state: NW
 city: Essen
-street: ''
-postcode: ''
-phone: ''
+street: Von-Ossietzky-Ring 59
+postcode: '45279'
+phone: 0201 9467448
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: tot
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Von-Ossietzky-Ring 59, Demontagefokus
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Verzeichnisse Das Oertliche + GelbeSeiten: Von-Ossietzky-Ring 59, 45279 Essen, Tel. 0201 9467448 (Mobil-Variante 0173 5486081 aus Timeline-Spur unverifiziert); Domain zjm-demontagen.de per DNS tot (NXDOMAIN); website bleibt leer, website_status tot, status bleibt pruefung; Koordinaten neu zu geocodieren; Quelle(n): dasoertliche.de, gelbeseiten.de]

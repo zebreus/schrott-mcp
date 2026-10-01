@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://hafen-schrott.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - alle Altmetalle, Container, Abholung 100 km
 - Größe: klein–mittel
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 1905 dokumentiert (Einzelbeleg) — Öffnungszeiten per Betreiber-Website (Mo-Fr 08:00-17:00, Sa 08:00-15:00) — EINE Quelle → KEIN Frontmatter-Fill; website live → website_status aktiv; Quelle(n): https://hafen-schrott.de/]

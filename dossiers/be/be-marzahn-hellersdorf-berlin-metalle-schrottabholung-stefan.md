@@ -6,9 +6,9 @@ state: BE
 city: Marzahn-Hellersdorf
 street: Lötschbergstr.
 postcode: '12683'
-phone: ''
+phone: 0176 20936925
 email: ''
-opening_hours: ''
+opening_hours: Mo-So 08:00-19:00 (telefonische Erreichbarkeit)
 website: https://berlin-metalle.de
 website_status: ''
 status: aktiv
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - kostenlose Abholung Berlin/Brandenburg, Demontage
 - Adresse: Lötschbergstr., 12683 Berlin
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2104 berechtigt — phone '' → '0176 20936925' (Fax 030 31565167), opening_hours '' → 'Mo-So 08:00-19:00 (telefonische Erreichbarkeit)'; Angebot: nur kostenlose Abholung zum Wunschtermin (Berlin/Brandenburg), keine Anlieferung erwähnt (Selbstanlieferung nicht belegt). Auffälligkeit: Footer firmiert als 'Schrottabholung Belger' (Namensabweichung zu 'Berlin Metalle', ungeklärt). Beleglage: Betreiber-Einzelbeleg (kein HRB genannt; 2. Quelle offen). Quelle(n): https://berlin-metalle.de/]

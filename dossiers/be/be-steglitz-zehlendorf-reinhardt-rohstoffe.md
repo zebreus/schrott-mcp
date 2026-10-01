@@ -1,16 +1,16 @@
 ---
 slug: be-steglitz-zehlendorf-reinhardt-rohstoffe
 name: Reinhardt Rohstoffe GmbH
-trader_type: sonstige
+trader_type: schrottplatz
 state: BE
 city: Steglitz-Zehlendorf
 street: Lichterfelder Weg 1-3
 postcode: '14167'
-phone: —
-email: ''
-opening_hours: ''
+phone: 030 8174886
+email: info@reinhardt-rohstoffe.de
+opening_hours: Mo-Fr 8:00-16:00
 website: https://reinhardt-rohstoffe.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Efb seit 1999, Fe + NE (Cu, Messing, Alu, V2A), Tageshöchstpreise, Fe ab 50 kg
 - Adresse: Lichterfelder Weg 1-3, 14167 Berlin
 - Bezirk: Steglitz-Zehlendorf Adressbeleg: seed/be.json (https://reinhardt-rohstoffe.de)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website reinhardt-rohstoffe.de verifiziert: Lichterfelder Weg 1-3, 14167 Berlin deckungsgleich; Telefon 030 8174886, E-Mail info@reinhardt-rohstoffe.de, Zeiten Mo-Fr 8:00-16:00 gefüllt; HRB 73883 B (AG Charlottenburg) zweitbelegt; klassischer Schrottplatz/Entsorgungsfachbetrieb mit Metallankauf privat/gewerblich → trader_type sonstige → schrottplatz; Quelle(n): https://reinhardt-rohstoffe.de]

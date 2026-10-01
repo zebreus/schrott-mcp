@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: BW
 city: Heilbronn
 street: Austraße 170
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: https://eberhard-mayr.de/kaempf-umweltservice/
-website_status: ''
+postcode: '74076'
+phone: +49 7131 64957-0
+email: info@kaempf-umweltservice.de
+opening_hours: Mo-Fr 7.00-16.00 Uhr
+website: https://eberhard-mayr.de/kaempf-umweltservice
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,12 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-ID 1986 berechtigt – PLZ/Telefon/E-Mail/Öffnungszeiten eingearbeitet; Quelle(n): Betreiber-Verbundseite eberhard-mayr.de/kaempf-umweltservice/ Footer-Kontaktbox (starke Betreiber-Primärquelle)]
+- Kämpf Umweltservice GmbH, Austraße 170, 74076 Heilbronn (Umschlagplatz Schrott/Metalle); Tel. +49 7131 64957-0, E-Mail info@kaempf-umweltservice.de; Öffnungszeiten Mo-Fr 7.00–16.00 Uhr.
+- Hinweis: Koordinaten neu geocodieren.
 
 ### Importiert (Seed-Stand 2026-09-30)
 

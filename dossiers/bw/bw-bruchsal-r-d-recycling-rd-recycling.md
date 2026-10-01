@@ -35,7 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
-- [Recherche 01.10.2026: Betreiber-Primärquelle verifiziert (Einzelbeleg, unsicher) — schrotthaendler-bruchsal.de Homepage + /impressum einzeln abgerufen: R&D Recycling, D. Graf, Berliner Str. 103, 76646 Bruchsal, Tel. +49 7251 3227878, E-Mail info@rdrecycling.de, USt-ID DE347664505; Leistungen Schrott-/Wertstoff-Abholung, Containerdienst (Abroll 20-40 m³, Absetz 3-12 m³), Demontage/Firmenauflösung; Büro Berliner Str. 103, Annahmeplatz 76707 Hambrücken (nur mit Termin). Straße/PLZ/Telefon/E-Mail daher übernommen (Einzelbeleg: nur Betreiber-Website, kein HR — Einzelunternehmen; Zweitbeleg ausstehend). Website live → website_status aktiv. Status-Feld unberührt (bereits aktiv); Zweitbeleg-Bestätigung bleibt vorgemerkt; Quelle(n): schrotthaendler-bruchsal.de + /impressum (eine Quelle).]
+- [Recherche 01.10.2026: Feedback 1882 — Betreiber-Primärquelle verifiziert (Einzelbeleg, unsicher) — schrotthaendler-bruchsal.de Homepage + /impressum einzeln abgerufen: R&D Recycling, D. Graf, Berliner Str. 103, 76646 Bruchsal, Tel. +49 7251 3227878, E-Mail info@rdrecycling.de, USt-ID DE347664505; Leistungen Schrott-/Wertstoff-Abholung, Containerdienst (Abroll 20-40 m³, Absetz 3-12 m³), Demontage/Firmenauflösung; Büro Berliner Str. 103, Annahmeplatz 76707 Hambrücken (nur mit Termin). Straße/PLZ/Telefon/E-Mail daher übernommen (Einzelbeleg: nur Betreiber-Website, kein HR — Einzelunternehmen; Zweitbeleg ausstehend). Website live → website_status aktiv. Status-Feld unberührt (bereits aktiv); Zweitbeleg-Bestätigung bleibt vorgemerkt; Quelle(n): schrotthaendler-bruchsal.de + /impressum (eine Quelle).]
 
 ### Korrektur 01.10.2026 (Owner-Gate)
 
