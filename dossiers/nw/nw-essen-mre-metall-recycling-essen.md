@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website und kein Registerbeleg gefunden. Nur Aggregator-Leads (ENF/city-map: Bonifaciusring 5, 45309 Essen, Tel. 017661438885) — nach Quellenhierarchie keine Belege. Alle Kontaktfelder leer gelassen, Klärfall für Folgewelle (Betreiber-Impressum oder HR-Auszug nötig). Quelle(n): keine belegfähige Quelle; Leads: enfmetal.com, city-map.com.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Bonifaciusring 5, nur schrottradar-Profil

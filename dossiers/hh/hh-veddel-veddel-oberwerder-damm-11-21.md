@@ -34,6 +34,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Metallhandel lt. Gelbe Seiten
 - urspr. Website-Angabe: keine funktionierende Website (wagner-metall.de = Checkdomain-Parkseite)
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Treffer — keine Betreiber-Website, kein Register-, kein Kommunalbeleg. Direktabruf wagner-metall.de (Seed-Verdacht) am 01.10.2026: Timeout, kein verwertbarer Inhalt (weder Bestätigung noch Widerlegung der Parkseiten-These). Felder leer gelassen, Klärfall für Folgewelle (ggf. Vor-Ort-/Gewerberegister Hamburg). Quelle(n): keine belegfähige Quelle.]
+
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

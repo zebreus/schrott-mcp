@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Betreiber-/Registerbeleg gefunden (Kleinsthändler, kein HRB-Treffer, keine Betreiber-Website). Felder leer gelassen, Klärfall für Folgewelle. Quelle(n): keine belegfähige Quelle.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinst-Schrotthändler

@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Betreiber-/Registerbeleg gefunden; nur Aggregator-Leads (Otto-Grün-Str. 7, 63457 Hanau, 01577 9465749). Felder leer gelassen, Klärfall für Folgewelle. Quelle(n): keine belegfähige Quelle; Leads: Aggregatoren.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Fürth (Friedrich-Ebert-Str. 184)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden (Bing/DDG nur Aggregator-Leads: Friedrich-Ebert-Str. 184, 90766 Fürth, Tel. 0172 8171416 — NUR Leads, keine Belege); Adresse/Telefon daher nicht füllbar, weiter pruefung; Quelle(n): keine belegfähige Quelle]

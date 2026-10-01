@@ -4,13 +4,13 @@ name: Allmeson GmbH
 trader_type: metallhaendler
 state: HE
 city: Heusenstamm 63150
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Ottostraße 9-11
+postcode: '63150'
+phone: +49 6104 4059-80
+email: info@allmeson.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://allmeson.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Impressum live abgerufen (Allmeson GmbH, Ottostraße 9-11, D-63150 Heusenstamm, Tel. +49 6104 4059-80, info@allmeson.de, GF Dipl. Wi-Ing. Florian Sietzy, HRB 43074 AG Offenbach/Main) + HR-kongruent per Northdata-Titel (Allmeson GmbH, Heusenstamm, AG Offenbach HRB 43074) — Owner-Direktive greift, Frontmatter gefüllt; Website live verifiziert (aktiv). Quelle(n): https://allmeson.de/kontakt/impressum/, https://www.northdata.de/Allmeson+GmbH,+Heusenstamm/Amtsgericht+Offenbach+am+Main+HRB+43074.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

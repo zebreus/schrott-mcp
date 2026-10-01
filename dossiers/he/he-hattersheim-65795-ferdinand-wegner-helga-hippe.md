@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Registerbeleg: Ferdinand Wegner und Helga Hippe KG, Kelsterbach, AG Darmstadt HRA 81370 — erloschen (Löschung 20.01.2009, Northdata ✝︎). Hattersheim-Adresse (Am Welschgraben 1, Tel. 06190 899750) nur Aggregator-Leads; City-Mismatch ungeklärt. Kein Frontmatter-Fill aus Aggregatoren; Klärfall für Folgewelle (Nachfolge Rolf Mütze / Inh. Michael Ferdinand Hippe, HRA 19785 Hattersheim prüfen). Quelle(n): https://www.northdata.de/Ferdinand+Wegner+%26+Helga+Hippe+GmbH+%26+Co.+KG,+Kelsterbach/Amtsgericht+Darmstadt+HRA+81370.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallhandel

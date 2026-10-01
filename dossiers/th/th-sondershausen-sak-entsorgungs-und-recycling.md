@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorgung/Recycling
 - Adresse: Sondershausen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Betreiber-Beleg zu „SAK Entsorgungs- und Recycling GmbH“, Sondershausen auffindbar (Bing nur SAK-Homonyme, DDG ratenlimitiert); keine Fills, weiter pruefung; Quelle(n): keine belegfähige Quelle]

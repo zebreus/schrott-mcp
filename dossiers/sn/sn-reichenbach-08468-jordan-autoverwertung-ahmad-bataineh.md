@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Altauto/Teile — Demontagebetrieb, Vogtland-Lücke (NEU)
 - urspr. Website-Angabe: keine
 - Adresse: Reichenbach 08468, Heinsdorfer Str. 25b
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Betreiber-Beleg zu „Jordan Autoverwertung (Ahmad Bataineh)“, Heinsdorfer Str. 25b, Reichenbach auffindbar (Bing nur Jordan-Homonyme, DDG ratenlimitiert; GESA-DB per curl nicht erreichbar); Demontagebetrieb-Status (Vogtland-Lücke) weiter unbelegt, keine Fills, weiter pruefung; Quelle(n): keine belegfähige Quelle]

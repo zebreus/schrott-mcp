@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metall & Schrott (allg.)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg zu „Greizer Metall & Schrott GmbH“ auffindbar (Bing nur irrelevante Greiz-Treffer, DDG ratenlimitiert); keine Fills, weiter pruefung; Quelle(n): keine belegfähige Quelle]

@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein belastbarer Treffer — keine Betreiber-Website, kein Register-, kein Kommunalbeleg gefunden (Websuche ohne Ergebnis). Seed-Einordnung „Beratungsprofil (kein Handel)" daher weiter offen; Klärfall für Folgewelle. Quelle(n): keine.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mennrather Str. 100, Beratungsprofil (kein Handel)

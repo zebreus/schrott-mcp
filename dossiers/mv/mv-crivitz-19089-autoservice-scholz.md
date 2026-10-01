@@ -10,7 +10,7 @@ phone: (03863) 55678
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: 'unbekannt'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - anerkannter Demontagebetrieb (GESA)
 - Adresse: Crivitz 19089 (kein Bezug zu Scholz Recycling)
 - [Recherche 30.09.2026: Gewerbeallee 8, 19089 Crivitz, Tel. (03863) 55678; Quelle: 11880.com (Verzeichnis)]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Frontmatter-Adresse/Telefon stammen aus 11880-Verzeichnis (Lead, kein Beleg) — bewusst nicht gelöscht, aber weiter EINZELQUELLE ohne Betreiber-/Registerbeleg; kein Betreiber-Webauftritt, keine GESA-Bestätigung des Demontagebetrieb-Status per curl erreichbar; keine neuen Fills, weiter pruefung; Quelle(n): keine neue belegfähige Quelle]

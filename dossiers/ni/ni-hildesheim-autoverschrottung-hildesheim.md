@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://autoverschrottung-hildesheim.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -29,6 +29,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website live und tiefgecrawlt (Start, Autoverwertung, Schrottauto-Ankauf, Auto-Entsorgen, Kontakt, Impressum einzeln abgerufen). Angebot: mobile Autoverschrottung mit kostenloser Abholung, Verwertungsnachweis; laut Impressum deutschlandweit mobil tätig, keine festen Zweigniederlassungen (Städte-Seiten = regionale Auffindbarkeit). Website_status aktiv (eigener Live-Abruf). Impressum (Einzelbeleg, unsicher — Einzelunternehmen A. Lahib, keine HRB/USt-Id, Owner-Direktive nicht anwendbar): Braunschweiger Str. 18, 31134 Hildesheim, Tel. 0152 04045656, info@autoverschrottung-hildesheim.de, Mo–So 08:00–20:00. Kontaktfelder mangels Zweitbeleg leer gelassen — Klärfall für Folgewelle. Quelle(n): https://autoverschrottung-hildesheim.de, https://autoverschrottung-hildesheim.de/impressum.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

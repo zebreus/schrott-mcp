@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Keine Betreiber-Website gefunden. Registerfund (Einzelbeleg, unsicher — Northdata-Registerspiegel, Zweitbeleg ausstehend): Tolksdorf Schrott und Metallhandelsgesellschaft mbH, AG Kiel HRB 18510 KI, Adresse Lindenstr. 45 a, 24594 Hohenwestedt, Status „(i. L.)" (in Liquidation), vormals Ferrous & Metal Service GmbH, Gegenstand Handel/Makeln von Abfällen, Kunststoffen, Schrotten, Metallen. Adress-/Statusfelder mangels Zweitbeleg NICHT befüllt; Dossier-status unverändert aktiv belassen (keine bewiesene Korrektur mit 2 Belegen) — Klärfall für Folgewelle (HR-Direktabruf, Betreiber-/Liquidator-Kontakt). Quelle(n): Northdata HRB 18510 KI.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing
