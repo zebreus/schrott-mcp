@@ -4,13 +4,13 @@ name: Weckwerth GmbH (Filiale)
 trader_type: metallhaendler
 state: BB
 city: Angermünde
-street: ''
-postcode: ''
-phone: ''
+street: Schmargendorfer Weg 30
+postcode: '16278'
+phone: 03331 297815
 email: ''
 opening_hours: ''
 website: https://weckwerth-schrott.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026: Adress-Fill als begruendete Ausnahme (nur Aggregatoren, aber 6-facher Konsens): Schmargendorfer Weg 30, 16278 Angermuende, Tel 03331 297815. Betreiber-Negativbeleg: weckwerth-schrott.de Impressum/Kontakt nennt NUR Sitz Gewerbepark 18a, 16303 Schwedt/Oder (GF Bruno Machner, HRB 10044 Neuruppin, Tel 03332 524385) — KEINE Filiale Angermuende auf Betreiber-Site; Filial-Existenz weiter offen, Status weiter pruefung; Website live → website_status aktiv. Koordinaten neu zu geocodieren (Adress-Fill); Quelle(n): https://weckwerth-schrott.de/kontakt/ + https://weckwerth-schrott.de/impressum/ (Betreiber, HRB 10044) + https://www.dasoertliche.de/Themen/Weckwerth-GmbH-Angerm%C3%BCnde-Schmargendorfer-Weg + https://www.gelbeseiten.de/gsbiz/f5ea7385-c14e-429f-83cb-93c9df1d0d7a + https://www.oeffnungszeitenbuch.de/filiale/Angermuende-Weckwerth-Metalle-Autoverwertung (alle aggregiert, ein Datenbild).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

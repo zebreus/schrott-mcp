@@ -4,14 +4,14 @@ name: Schrott-Altmetall Drebkau GmbH
 trader_type: schrotthaendler
 state: BB
 city: Drebkau
-street: ''
-postcode: ''
+street: Bahnhofstraße 23
+postcode: '03116'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026: Adress-Fill aus Register (2 unabhaengige Register-Spiegel): Altmetall Drebkau GmbH, Bahnhofstr. 23, 03116 Drebkau, AG Cottbus HRB 9224 — vermoegenslose Gesellschaft von Amts wegen GELOESCHT (§394 FamFG), Insolvenz 63 IN 257/15 (21.09.2015); Namensdifferenz Dossier (Schrott-Altmetall Drebkau GmbH) vs Register (Altmetall Drebkau GmbH) ungeklaert; KEINE Betreiber-Website, cylex nennt Bahnhofstr. (ohne Nr.). Status aktiv → pruefung (Loeschung, Klaerfall Stilllegung). Koordinaten neu zu geocodieren (Adress-Fill); Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/br/Cottbus/HRB/9224CB/Altmetall-Drebkau-GmbH + https://www.webvalid.de/company/Altmetall+Drebkau+GmbH,+Drebkau/HRB+9224+CB + https://insolvenzradar.de/Insolvenzmeldungen/Altmetall.html (63 IN 257/15).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

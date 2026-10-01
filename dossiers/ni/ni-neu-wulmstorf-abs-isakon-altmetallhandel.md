@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Beleg gefunden: weder Betreiber-Webauftritt noch Register noch Verzeichnis-Eintrag für „ABS Isakßon/Isakon/Isakson/Isaksson Altmetallhandel" in Neu Wulmstorf (Variantenschreibweisen geprüft); Frontmatter bleibt leer, status aktiv → pruefung (keinerlei Existenzbeleg); Quelle(n): keine Belegquelle, Stand 01.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -5,12 +5,12 @@ trader_type: metallhaendler
 state: ST
 city: Lutherstadt Wittenberg
 street: Pestalozzistr. 15
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: https://www.serogmbh.de/leistungen/schrotthandel
-website_status: ''
+postcode: '06886'
+phone: 03491 611166
+email: info@serogmbh.de
+opening_hours: 'Mo–Fr 08:00–16:30'
+website: https://www.serogmbh.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2730, berechtigt): PLZ 06886 + Tel. 03491 611166 + info@serogmbh.de + Zeiten Mo–Fr 08:00–16:30 per Owner-Primaerquelle (Impressum Name+HRB 10241 Stendal+Ort, Pestalozzistr. 15, 06886 Wittenberg) gefuellt, website auf Domain-Root normiert + aktiv; Quelle(n): https://www.serogmbh.de/leistungen/schrotthandel + https://www.serogmbh.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

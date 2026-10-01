@@ -6,9 +6,9 @@ state: ST
 city: Naumburg
 street: Kroppentalstr. 40a
 postcode: '06618'
-phone: ''
-email: ''
-opening_hours: ''
+phone: 03445 781628
+email: info@rank-recycling.de
+opening_hours: 'Mo–Fr 7–18 Uhr, Sa 8–12 Uhr'
 website: https://rank-recycling.de/
 website_status: aktiv
 status: aktiv
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-ID 2725)
+
+- [Recherche 01.10.2026 (Feedback-ID 2725, berechtigt): Telefon 03445 781628 + info@rank-recycling.de + Zeiten Mo–Fr 7–18, Sa 8–12 per Owner-Primaerquelle (Impressum Name+HRB+Ort, HRB 7614 Stendal) gefuellt; Koordinaten neu zu geocodieren (90-km-Fehlermeldung, Adresse Kroppentalstr. 40a bestaetigt); Quelle(n): https://rank-recycling.de/impressum + Northdata HRB 7614 Stendal]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

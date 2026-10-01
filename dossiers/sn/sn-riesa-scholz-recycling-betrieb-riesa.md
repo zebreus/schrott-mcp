@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://www.scholz-recycling.com
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2712, teilweise berechtigt, Klärfall): wie Schwester-Dossier Mittweida — Derichebourg-Branding auf Betreiber-Seite belegt (Logo „Scholz_DERICHEBOURG", Scholz Recycling GmbH Essingen, HRB 733963 Ulm); Standort Riesa per statischem Crawl NICHT verifizierbar (JS-Kartensuche, Detail-URL Geraten 500). Konsequenz strenger als Mittweida: status aktiv → pruefung (Branchexistenz unbelegt, keine einzige Adresse — kein plausible-looking-Fiction-Eintrag).; Quelle(n): https://www.scholz-recycling.com/impressum/, https://www.scholz-recycling.com/standorte/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

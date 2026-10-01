@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2714, unberechtigt/veraltet): Claim „PLZ/Straße/Kontakt fehlen" trifft nicht zu — alle Felder belegt UND korrekt: Betreiber-Detailseite (Vollcrawl) nennt Niederlassung Langenau, Am Schacht 1, 09618 Brand-Erbisdorf, +49 37322 582-0, langenau@becker-umweltdienste.de, Zeiten Mo/Di/Do 8–17, Mi/Fr 8–18, Sa 8–12 — deckungsgleich mit Frontmatter (inkl. opening_hours). Name „BS Brand-Erbisdorf" = Betreiber-„Niederlassung Langenau" (Langenau ist OT von Brand-Erbisdorf, PLZ 09618); EFB-Zertifikat (gültig bis 17.01.2027) als Audit-Zweitbeleg. Frontmatter unverändert.; Quelle(n): https://jakob-becker.de/standorte/, https://jakob-becker.de/standort/becker-umweltdienste-gmbh-niederlassung-langenau/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lagern/Behandeln

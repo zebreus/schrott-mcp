@@ -10,11 +10,10 @@ phone: 040 780 86 38 - 0
 email: info@hopp-recycling.de
 opening_hours: Mo-Do 7:00-17:00, Fr 7:00-16:00, Sa/So geschlossen
 website: https://hopp-recycling.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
-description: ''
-dropoff_json: ''
-pickup_json: ''
+description: 'Matthias Hopp Recycling: Schrotthandel in Glinde (Annahme, Abholung, Containerdienst, Abbruch) fuer Betriebe und Privat'
+pickup_json: '{"allowed": true, "conditions": "Abholung von Schrott, NE-Metallen und Altfahrzeugen; Containerdienst (Betreiber-Website, Owner-Ausnahme HRB 7299 HL, Feedback-Triage 01.10.2026)"}'
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -27,6 +26,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback 2773, berechtigt): Betreiber-Startseite: Abholung von Schrott, NE-Metallen und Altfahrzeugen, kompetenter Containerdienst — für Betriebe + Privat (SH/HH/NI/MV). Impressum = verifizierte Betreiber-Primärquelle (Matthias Hopp Recycling GmbH, HRB 7299 HL AG Lübeck, GF Matthias Hopp) → Owner-Ausnahme. Gefüllt: pickup_json (Abholung + Containerdienst), website_status aktiv, description. Quelle(n): https://hopp-recycling.de/ + /impressum/ (Betreiber-Primärquelle)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

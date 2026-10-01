@@ -4,8 +4,8 @@ name: Christian Schwientek
 trader_type: schrotthaendler
 state: NW
 city: Paderborn
-street: ''
-postcode: ''
+street: Hinter den Zäunen 24
+postcode: '33100'
 phone: 0174 1448854
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Teil-ok — GelbeSeiten bestätigt Seed-Angaben: Schwientek-Entsorgung, Hinter den Zäunen 24, 33100 Paderborn (Benhausen), Tel. 0174 1448854; Paderborner Abfallkalender 2026 belegt Straßennamen „Hinter den Zäunen"; Website-Tod erneut verifiziert (schwientek-entsorgung.de: Transport-Fehler 01.10.2026, website_status tot bleibt); Einzelunternehmen ohne HRB, kein Betreiber-Impressum — status bleibt pruefung; Frontmatter Straße/PLZ gefüllt (Adresse neu — Koordinaten neu zu geocodieren); Quelle(n): gelbeseiten.de (Schrotthändler Paderborn), paderborn.de Abfallkalender 2026, Stand 01.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

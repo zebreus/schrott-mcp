@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-ID 2737)
+
+- [Recherche 01.10.2026 (Feedback-ID 2737, Klaerfall): Strasse/PLZ/Telefon/Oeffnungszeiten weiter unbelegt — Kontaktseite nennt nur Bild-Buttons (mailto info@kaiser-entsorgung.de + ker-koethen@kaiser-entsorgung.de, Adressen/Telefon in Bildern nicht maschinenlesbar), Impressum nur Bild ohne HRB-Text (keine Owner-Ausnahme), kein 2. Evidence-Beleg; Frontmatter unveraendert, status pruefung bleibt; Quelle(n): http://www.kaiser-entsorgung.de/?page_id=51 + http://www.kaiser-entsorgung.de/?page_id=120 (live, Bild-Kontakt)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Entsorgung (lt. 11880)

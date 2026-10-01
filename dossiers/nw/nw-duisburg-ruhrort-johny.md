@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — kein Beleg gefunden: „Johny" als Schrotthändler in Duisburg-Ruhrort weder in Verzeichnissen noch per Register noch per Betreiber-Seite identifizierbar (Namensdünnschicht, Verwechslungsgefahr mit Bringwert/Jegers/DMR); Frontmatter bleibt leer, status pruefung; Quelle(n): keine Belegquelle, Stand 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

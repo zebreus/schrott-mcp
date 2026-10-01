@@ -4,12 +4,12 @@ name: Reichert Schrott- und Metallhandel
 trader_type: metallhaendler
 state: BW
 city: Karlsruhe
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Neubruchstr. 5
+postcode: '76185'
+phone: 0176 29477559
+email: info@reichert-schrotthandel.de
 opening_hours: ''
-website: https://www.reichert-schrotthandel.de/
+website: https://www.reichert-schrotthandel.de
 website_status: aktiv
 status: aktiv
 description: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026: Kontakt-Fill aus Betreiber + 4 Aggregatoren (ein Datenbild): Inh. Marc Reichert, Neubruchstr. 5, 76185 Karlsruhe (Gruenwinkel), Tel 0176 29477559, info@reichert-schrotthandel.de; Leistungen Abholung/Demontage/Entsorgung (Ettlingen/Bruchsal/Eggenstein/Neureut/Rastatt/Mannheim/Heidelberg). KEIN HRB (Einzelunternehmen) — keine Owner-Ausnahme, Fill ueber 2-Quellen-Regel (Betreiber + firmania/cylex/frogl/lokaleschrottplatz). Website Root normiert, live → website_status aktiv. Koordinaten neu zu geocodieren (Adress-Fill); Quelle(n): https://www.reichert-schrotthandel.de/kontakt (Betreiber) + https://firmania.de/karlsruhe/reichert-schrott-und-metallhandel-5393190 + https://web2.cylex.de/firma-home/reichert-schrott--und-metallhandel-14969555.html + https://frogl.de/firma/reichert-schrott-und-metallhandel-1 + https://lokaleschrottplatz.de/reichert-schrott-und-metallhandel/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

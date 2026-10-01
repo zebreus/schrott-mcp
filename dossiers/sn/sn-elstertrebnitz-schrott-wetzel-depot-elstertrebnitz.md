@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2707, berechtigt, Klärfall): Claim bestätigt — schrott-wetzel.de (Schrott Wetzel GmbH, Mannheim) listet im Vollcrawl nur Mannheim (3 Werke: Holländer Str. 42-50, Rheinkai-, Rotterdamerstr.), Karlsruhe (Südbeckenstr. 21), Basel (RTB) und Gent — kein Depot Elstertrebnitz. Depot-Behauptung damit unbelegt; Namensvetter-Prüfung (lokaler Wetzel in Elstertrebnitz/Sachsen) ohne Suchzugang nicht abschließbar. Frontmatter unverändert (Website als Lead behalten, status bleibt pruefung) — kein Phantom-Fill, kein Entlinken ohne Gegenseite.; Quelle(n): https://www.schrott-wetzel.de/ (Startseite mit allen 6 Standorten, 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe/NE lt. Verzeichnis

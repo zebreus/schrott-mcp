@@ -13,8 +13,8 @@ website: https://metall.alba.info
 website_status: 'aktiv'
 status: aktiv
 description: ''
-dropoff_json: ''
-pickup_json: ''
+dropoff_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Annahme Stahl-/NE-Schrott auch Kleinstmengen gegen Bargeld, Bauschutt/Gruenschutt/Holz; Privatkunden willkommen (Betreiber-Standortseite, Feedback-Triage 01.10.2026)"}'
+pickup_json: '{"allowed": true, "conditions": "Containerdienst Behaelter 7-36 m3, Industriedemontage (Betreiber-Standortseite, Feedback-Triage 01.10.2026)"}'
 provenance_section: Überregionale / große Verwerter mit ST-Standorten
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -31,6 +31,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahl-/NE-Metallschrott, auch Kleinstmengen gegen Bargeld, Container
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2724, berechtigt): Konditionen per Owner-Primaerquelle nachgetragen — Privatkunden (auch Kleinstmengen gegen Bargeld, Stahl/NE + Bauschutt/Gruenschutt/Holz) → dropoff_json privat+gewerbe; Containerdienst 7–36 m³ + Industriedemontage → pickup_json; Owner-Ausnahme erfuellt (ALBA-Konzernseite, per-site Detailseite mit Adresse/Telefon/Zeiten); Quelle(n): https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-pretzier/]
 
 ### Korrektur 01.10.2026 (ALBA-Fix)
 

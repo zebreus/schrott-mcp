@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback-ID 2739)
+
+- [Recherche 01.10.2026 (Feedback-ID 2739, berechtigt, bereits abgebildet): Betreiber-Bestaetigung — Kran-/Schwerlastlogistik + Industriemontage, kein Schrott-/Wertstoffankauf (Typ sonstige bereits korrekt, Frontmatter unveraendert, status pruefung bleibt); Quelle(n): https://breithaupt-philipp.de/ + https://breithaupt-philipp.de/impressum/ (Bestand, vgl. Recherche 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Sprengung/Betriebsauflösung (lt. 11880)

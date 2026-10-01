@@ -35,6 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
+- [Recherche 01.10.2026 (Feedback-ID 2715, teilweise berechtigt, Klärfall): Typ-Kritik bereits abgebildet (sonstige + pruefung + Klärfall-Vermerk „PV-Recycler/Anlagenbauer, kein Barankauf"). E-Mail: NICHT füllbar — flaxres.com antwortet 01.10.2026 mit 521 (Origin down, Root + /impressum/), keine 2. Quelle ohne Suchzugang. Frontmatter unverändert; website_status bleibt leer (einzelner Failed-Fetch ≠ tot).; Quelle(n): https://flaxres.com/ + https://flaxres.com/impressum/ (beide 521, 01.10.2026)]
 - Betreiber-Primärquelle Impressum: FLAXRES GmbH, Blumenstraße 80, 01307 Dresden, HRB 36460 AG Dresden, Tel. +49 351 211681-0. Quelle: https://flaxres.com/impressum/
 - Zweitbeleg Register: Northdata HRB 36460 (AG Dresden). Klärfall: PV-Recycler/Anlagenbauer, kein klassischer Schrott-Barankauf.
 - Frontmatter: postcode/phone/website per Doppelbeleg (Impressum + Register) gefüllt.

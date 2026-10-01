@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: ST
 city: Haldensleben
 street: Eichgartenstr. 6
-postcode: ''
-phone: ''
-email: ''
+postcode: '39345'
+phone: 0174 9587457
+email: c.ludley@gmx.net
 opening_hours: ''
 website: https://schrotthandel-haldensleben.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2741, berechtigt): PLZ 39345 + Tel. 0174 9587457 + c.ludley@gmx.net per Betreiber-Impressum als starker Einzelbeleg gefuellt (Einzelunternehmen, Eichgartenstr. 6, 39345 Haldensleben; Fax 039058 97036 nicht als Telefon uebernommen); website_status aktiv; Oeffnungszeiten unbelegt → leer; Quelle(n): https://schrotthandel-haldensleben.de/ + https://schrotthandel-haldensleben.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

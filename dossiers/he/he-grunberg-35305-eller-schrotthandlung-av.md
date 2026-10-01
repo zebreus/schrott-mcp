@@ -1,12 +1,12 @@
 ---
 slug: he-grunberg-35305-eller-schrotthandlung-av
-name: Eller Schrotthandlung/AV
+name: Helmut Eller Schrotthandlung und Autoverwertung
 trader_type: schrotthaendler
 state: HE
-city: Grünberg 35305
-street: ''
-postcode: ''
-phone: ''
+city: Grünberg
+street: Adam-Opel-Str. 2
+postcode: '35305'
+phone: 06401 90022
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026: Adress-Fill als begruendete Ausnahme (nur Aggregatoren, aber 5-facher Konsens): Adam-Opel-Str. 2, 35305 Gruenberg, Tel 06401 90022 — Name korrigiert auf „Helmut Eller Schrotthandlung und Autoverwertung“ (Inh.-Hinweis Uwe Eller lt. Cylex). KEINE Betreiber-Website, KEIN Registerbeleg gefunden; Status daher weiter pruefung, kein Website-Fill; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Gruenberg/Eller-Helmut-Schrotthandlung-und-Autoverwertung + https://gruenberg.branchen-info.net/eller-helmut-schrotthandlung-und-autoverwertung/1891964/ + https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/helmut-eller-schrotthandlung-und-autoverwertung-gruenberg-71247418.html + https://www.11880.com/branchenbuch/gruenberg-hessen/012080027B28001688/helmut-eller-schrotthandlung-und-autoverwertung.html + https://www.dasoertliche.de/Themen/Eller-Uwe-Schrotthandlung-und-Autoverwertung-Gr%C3%BCnberg-Adam-Opel-Str (alle aggregiert, ein Datenbild).]
 
 ### Recherche 01.10.2026
 

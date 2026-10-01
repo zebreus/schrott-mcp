@@ -1,17 +1,17 @@
 ---
 slug: by-weitnau-hartmann
-name: Hartmann
-trader_type: sonstige
+name: Leonhard Hartmann (Autoverwertung/Kfz-Gebrauchtteile)
+trader_type: autoverwertung
 state: BY
 city: Weitnau
-street: ''
+street: Boschensäge 4
 postcode: '87480'
-phone: ''
+phone: 08375 8186
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: prose
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: 4-fach belegter Verzeichnis-Betrieb ohne Betreiber-Website — „Hartmann Leonhard Autoverwertung KfzGebrauchtteile“, Boschensäge 4, 87480 Weitnau (Kleinweiler/Hofen), Tel. 08375 8186 (golocal „offizieller Telefonbucheintrag“ + cylex + 11880 + schrottplatz-info/-org identisch). KEIN HRB-Treffer, keine Betreiber-Website (schrottplatz-info: „zur Homepage“ ohne Link) → Beleglage offen dokumentiert, dennoch street/phone gefüllt (4 unabhängige Verzeichnisse), name präzisiert, trader_type sonstige→autoverwertung, status aktiv. Namensvetter-Risiko (Schrott Hartmann GmbH Bischofsheim, Hartmann Bergkirchen) in Timeline offengelegt — nicht zuschreibbar. Quelle(n): golocal.de + cylex.de + 11880.com + schrottplatz-info.de]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

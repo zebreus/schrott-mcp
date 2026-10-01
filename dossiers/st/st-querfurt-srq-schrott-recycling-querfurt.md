@@ -7,8 +7,8 @@ city: Querfurt
 street: 'Döcklitzer Tor 53'
 postcode: '06268'
 phone: '034771 22401'
-email: ''
-opening_hours: 'Mo-Mi 07:00-16:00, Do 07:00-17:00, Fr 07:00-15:00'
+email: info@srq-gmbh.de
+opening_hours: 'Mo-Mi 07:00-16:00, Do 07:00-17:00, Fr 07:00-15:00, Sa (jeder 2. im Monat) 08:00-11:00'
 website: 'https://www.srq-gmbh.com'
 website_status: 'aktiv'
 status: pruefung
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2727, berechtigt): E-Mail info@srq-gmbh.de per Owner-Primaerquelle (Impressum Name+HRB 210542 Stendal+Ort) gefuellt; Samstagsregel ergaenzt (jeder 2. Sa im Monat 08:00–11:00, Mittagspause 12:00–12:30, Anlieferung bis 15 Min vor Schluss) per Betreiber-Kontaktseite; Quelle(n): https://www.srq-gmbh.com/impressum + https://www.srq-gmbh.com/kontakt]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

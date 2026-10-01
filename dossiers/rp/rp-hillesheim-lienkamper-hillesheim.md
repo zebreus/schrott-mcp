@@ -6,7 +6,7 @@ state: RP
 city: Hillesheim
 street: ''
 postcode: ''
-phone: ''
+phone: 0175 9234327
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026: Telefon-Fill als begruendete Ausnahme: +49 175 9234327 (Mobil) aus 2 unabhaengigen Aggregatoren (Schrottportal + Auskunft): 11880 fuehrt „Markus Lienkaemper, Hillesheim (Eifel)“ mit 0175 9234327; lokaleschrottplatz.de listet „Schrotthandel & Schaustellerbetrieb Lienkaemper, Hillesheim“ mit +49 175 9234327, Oeffnungszeiten Mo-Fr 07:00-20:00/Sa 07:00-18:00, Annahme Eisen ab 100 kg/NE ab 1 kg. KEINE Strassenadresse (nur Ort Hillesheim), KEINE Betreiber-Website, KEIN Registerbeleg — street/postcode bleiben leer, Status weiter pruefung (mobiler Sammler, Ein-Mann-Verdacht). Quelle(n): https://www.11880.com/branchenbuch/hillesheim-eifel/B108524729/markus-lienkaemper.html + https://lokaleschrottplatz.de/schrotthandel-schaustellerbetrieb-lienkamper/ (beide aggregiert; Portal-Angaben zu Preisen/Leistungen unverifiziert, keine Preisuebernahme).]
 
 ### Recherche 01.10.2026
 

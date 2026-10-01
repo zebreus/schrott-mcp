@@ -1,13 +1,13 @@
 ---
 slug: st-biere-wurfel-bernd-schrottentsorgung-u-transpo
 name: Würfel Bernd Schrottentsorgung u. Transporte
-trader_type: schrotthaendler
+trader_type: containerdienst
 state: ST
 city: Biere
 street: 'Kirchhofstr. 7 A'
 postcode: '39221'
-phone: '039297 21019'
-email: 'info@containerdienst-wuerfel.de'
+phone: '0177 3264778'
+email: ''
 opening_hours: 'Mo-Sa 7:00-18:00'
 website: https://containerdienst-wuerfel.de/
 website_status: 'aktiv'
@@ -30,6 +30,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
+- [Recherche 01.10.2026 (Feedback-ID 2721, berechtigt): (1) Fax-Befund bestätigt — Impressum: Telefon 0177 3264778, Telefax 039297 21019 → phone auf Mobil korrigiert. (2) Typ-Kritik bestätigt — Eigenbezeichnung „Containerdienst Bernd Würfel" (Inhaber Bernd Würfel), Schrotthandel/Altmetall-Aufkauf nur Teilleistungen → trader_type → containerdienst. (3) E-Mail bereinigt: info@containerdienst-wuerfel.de stammte aus Aggregator (meinestadt, Lead) — Betreiber-E-Mail JS-verschleiert, nicht verifizierbar → email geleert (kein Phantom-Fill). Zeiten Mo–Sa 7–18 auf Seite bestätigt, unverändert.; Quelle(n): https://containerdienst-wuerfel.de/impressum-datenschutz.html, https://containerdienst-wuerfel.de/]
 - [Recherche 01.10.2026: Betreiber-Website containerdienst-wuerfel.de verifiziert (Containerdienst Bernd Würfel, Kirchhofstr. 7 A, 39221 Biere, Tel 039297 21019, Mobil 0177 3264778, Leistungen Schrotthandel + Aufkauf von Altmetall + Bauschutt/Transporte, Zeiten Mo-Sa 7-18); Zweitbelege Das Oertliche (Kirchhofstr. 7 A, 39221 Biere) + dastelefonbuch (039297 21019) + meinestadt (Adresse+Tel+Mail info@containerdienst-wuerfel.de kongruent, Mail domain-gleich zur Betreiber-Site); Frontmatter gefuellt, status aktiv; Quelle(n): https://containerdienst-wuerfel.de/, https://www.dasoertliche.de/Themen/Würfel-Bernd-Schrottentsorgung-u-Transporte-Biere-Kirchhofstr, https://adresse.dastelefonbuch.de/Bördeland/3-Schrott-Bernd-Würfel-Biere-Kirchhofstr.html, https://branchenbuch.meinestadt.de/boerdeland/company/206702]
 
 ### Importiert (Seed-Stand 2026-09-30)

@@ -4,13 +4,13 @@ name: NE-Metall- und Schrottverwertung Ingolf Gruß KG
 trader_type: metallhaendler
 state: ST
 city: Stendal OT Uenglingen
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Belkauer Weg 35
+postcode: '39576'
+phone: '+49 3931 712001'
+email: info@schrotthandlung.eu
+opening_hours: 'Mo–Fr 08:00–12:00 + 13:00–17:00, Sa 09:00–12:00'
 website: https://schrotthandlung.eu/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2735, berechtigt): Adresse Belkauer Weg 35, 39576 Stendal OT Uenglingen + Tel. +49 3931 712001 + info@schrotthandlung.eu + Zeiten Mo–Fr 08:00–12:00 + 13:00–17:00, Sa 09:00–12:00 per Owner-Primaerquelle (Impressum HRA 1682 Stendal, GF Dirk Hoffmann) gefuellt, website_status aktiv; Quelle(n): https://schrotthandlung.eu/ + https://schrotthandlung.eu/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -1,15 +1,15 @@
 ---
 slug: bw-karlsruhe-auto-bohler
-name: Auto Böhler
+name: Auto-Böhler GmbH
 trader_type: autoverwertung
 state: BW
 city: Karlsruhe
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Ottostraße 6
+postcode: '76227'
+phone: 0721 409090
+email: info@auto-boehler.de
 opening_hours: ''
-website: https://auto-boehler.de/
+website: https://auto-boehler.de
 website_status: aktiv
 status: aktiv
 description: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026: Voll-Fill via Owner-Ausnahme (Betreiber-Impressum Name+HRB+Ort, HR-kongruent): Auto-Boehler GmbH, Ottostr. 6, 76227 Karlsruhe, GF Klaus/Tim Boehler, HRB 701669 (AG Mannheim), Tel 0721 409090, info@auto-boehler.de; Standorte Karlsruhe/Bruchsal/Rastatt/Landau/Germersheim/Neustadt; Leistungen Kranservice/Abschlepp/Werkstatt/Autoverwertung/Recycling. Zweitbelege meinestadt + DasOertliche (Ottostr. 6, 0721 409090). Website auf Root normiert, live → website_status aktiv. Koordinaten neu zu geocodieren (Adress-Fill); Quelle(n): https://auto-boehler.de/kontakt/ (Betreiber, live) + https://auto-boehler.de/impressum/ (HRB 701669) + https://branchenbuch.meinestadt.de/karlsruhe/company/14996860.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://schrotthandel-heudeber.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-ID 2740)
+
+- [Recherche 01.10.2026 (Feedback-ID 2740, berechtigt/Klaerfall): Betreiber-Site nennt nur Stammhaus Heudeber (Rudolf-Breitscheid-Str. 7, 38855), keine Filiale Thale — Filialadresse Str. des Friedens 339A, 06484 Thale nur Aggregator-Einzelbeleg (lokaleschrottplatz) → kein Fill; status aktiv → pruefung (Filialexistenz ungeklaert, Phantomrisiko); Quelle(n): https://schrotthandel-heudeber.de/impressum/ + https://schrotthandel-heudeber.de/kontakt/ (Bestand, vgl. 30.09./01.10.-Recherchen)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

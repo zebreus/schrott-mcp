@@ -3,10 +3,10 @@ slug: rp-neustadt-s-ohlinger-steel-men
 name: S. Ohlinger / Steel-Men GmbH
 trader_type: schrotthaendler
 state: RP
-city: Neustadt
-street: ''
-postcode: ''
-phone: ''
+city: Neustadt an der Weinstraße
+street: Schlachthofstraße 56
+postcode: '67433'
+phone: 06321 9560096
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026: Steel-Men-Entwirrung — A. Ohlinger Schrott (Schlachthofstr. 56, 67433 Neustadt, Tel 06321 9560096 lt. Verzeichnis-Konsens) vs. Steel-Men Entruempselung (Steel-Men GmbH, Europahof 1, 76831 Billigheim-Ingenheim, HRB 30952 Landau, GF S. Ohlinger, Tel 0800-1003838 + 06321-9560096, ohlinger@steel-men.de; Leistungen Entruempelung/Tatort/Asbest/Demontage/Immobilien, KEIN Schrotthandel; Standorte Neustadt/Bad Duerkheim/Hassloch/Suedpfalz). GLEICHE Rufnummer 06321 9560096 verbindet beide — Frontmatter-Adresse/Telefon bleibt (Verzeichnis-Fill), KEIN Website-Fill (steel-men.de ist Entruempelung, kein Schrotthandel), Status weiter pruefung (Adressunsicherheit: Heidenbrunnenweg 4, 67434 Neustadt lt. firmania/cylex vs. Schlachthofstr. 56 vs. Europahof 1; Klaerfall: Sitzverlegung oder Zweigstellen?). Quelle(n): https://www.steel-men.de/ (Betreiber-Impressum HRB 30952 + Kontakt, live) + DDG-Snippets firmania/cylex (Heidenbrunnenweg 4, 67434).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

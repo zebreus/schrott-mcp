@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: bestätigt — city-map Region Bremen bestätigt Seed-Frontmatter: Albers & Kinzel GmbH, Pelzer Str. 4-5, 28195 Bremen, Tel. 0421 3015774 (Branche An-/Verkauf); kein Betreiber-Webauftritt, kein HRB verifizierbar — keine Frontmatter-Änderung, status bleibt pruefung; Quelle(n): bremen.city-map.de (Ankauf-Verkauf + Goldankauf), Stand 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - An-/Verkauf (nur Verzeichnisbeleg)

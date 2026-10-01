@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: miss — nur ein Verzeichnis-Lead: 11880 nennt „Sylvia Schüttler Metallhandel, Stubbenkamp 6, 45309 Essen (Kray), 0178 4299833" (Schrotthandel/Kleintransport/Montage); kein zweiter unabhängiger Beleg, kein Betreiber-Impressum; Frontmatter bleibt leer, status pruefung; Quelle(n): nur Verzeichnis-Lead 11880.com, Stand 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - mobil (GS)

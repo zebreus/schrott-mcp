@@ -5,12 +5,12 @@ trader_type: containerdienst
 state: ST
 city: Bernburg
 street: Jaegerweg 16
-postcode: ''
-phone: ''
-email: ''
+postcode: '06406'
+phone: 0178 6685782
+email: info@rema-wertstoffrecycling.de
 opening_hours: ''
 website: https://rema-wertstoffrecycling.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026 (Feedback-ID 2742, berechtigt): PLZ 06406 + Tel. 0178 6685782 + info@rema-wertstoffrecycling.de per Betreiber-Impressum als starker Einzelbeleg gefuellt (Michael Reupsch, Jaegerweg 16, 06406 Bernburg; Einzelunternehmen ohne HRB → keine Owner-Ausnahme); website_status aktiv; Oeffnungszeiten unbelegt → leer; Quelle(n): https://rema-wertstoffrecycling.de/ + https://rema-wertstoffrecycling.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

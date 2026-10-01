@@ -1,12 +1,12 @@
 ---
 slug: st-mertendorf-b-naumburg-entsorgungsgesellschaft-sachsen-anhalt-s
 name: Entsorgungsgesellschaft Sachsen-Anhalt Süd mbH
-trader_type: schrotthaendler
+trader_type: sonstige
 state: ST
 city: Mertendorf b. Naumburg
 street: Südring 8A
 postcode: 06618
-phone: 034445/228-32
+phone: 034445 2280
 email: mail@egsas.de
 opening_hours: ''
 website: https://www.egsas.de
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback-ID 2738)
+
+- [Recherche 01.10.2026 (Feedback-ID 2738, berechtigt): Typ schrotthaendler → sonstige (Betreiber: Abfalllogistik/Tourenplaene/Sperrmuell/Wertstoffhoefe AW SAS, kein Schrottankauf belegt); Telefon 034445/228-32 → Zentrale 034445 2280 per Owner-Primaerquelle (Impressum HRB 206920 Stendal, GF Nico Neuhaus) korrigiert; status pruefung bleibt; Quelle(n): https://www.egsas.de/impressum/ + https://www.egsas.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
