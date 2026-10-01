@@ -3,8 +3,8 @@ slug: bb-wittenberge-interseroh-metallaufbereitung-ost
 name: INTERSEROH Metallaufbereitung Ost GmbH
 trader_type: schrottplatz
 state: BB
-city: Wittenberge
-street: Buchholzer Chaussee 24, 19348 Quitzow
+city: Perleberg
+street: Buchholzer Chaussee 5
 postcode: '19348'
 phone: ''
 email: ''
@@ -38,9 +38,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Rechtstraeger per Northdata — INTERSEROH Metallaufbereitung Ost GmbH (Werkstr. 1, 18069 Rostock) am 17.03.2011 auf INTERSEROH Berlin GmbH (AG Charlottenburg HRB 117287 B) verschmolzen und dabei geloeschst; Berlin GmbH (vormals Hüttenwerkentsorgung GmbH, Duisburg HRB 15755, Sitzverlegung 23.01.2009) heute ebenfalls geloescht (✝︎). Standort Buchholzer Chaussee 24 nur Aggregator-belegt → KEINE Frontmatter-Aenderung, status pruefung bleibt. Quellen: northdata.de/INTERSEROH Berlin GmbH HRB 117287 B (live).]
 
-### Recherche 01.10.2026 (Standort-Nachfolge)
+### Korrektur 01.10.2026 (Betreiber-Crawl + Zweifach-Beleg)
 
-- [Recherche 01.10.2026: Standort lebt als ALBA Metall Nord GmbH weiter — Betreiber-Standortseite: Standort Quitzow, Buchholzer Chaussee 5, 19348 Quitzow, Tel. +49 3876 786602 (1 Beleg). Dossier-Adresse Buchholzer Chaussee 24 nur Aggregator-belegt; Hausnummer 5 vs 24 ungeklärt + city Wittenberge vs Quitzow (OT von Perleberg) ungeklärt → KEINE Frontmatter-Aenderung, status pruefung bleibt; KEIN geschlossen (Standort aktiv). Zweitbeleg (Register) offen. Quelle: metall.alba.info/standorte (live).]
+- [Korrektur 01.10.2026: Strasse 24 → 5 und City Wittenberge → Perleberg korrigiert (Slug unveraendert). Strasse doppelt attestiert: Betreiber-Detailseite (Buchholzer Chaussee 5, 19348 Quitzow) + EFB-Zertifikat externer Gutachter (BS Quitzow, Nr. 5); Nr. 24 nur Aggregator/Agrar-Kontext. City doppelt belegt: Betreiber-Titel „Standort in Perleberg“ + Landkreis Prignitz (Ortsteil-Liste: Quitzow gehoert zu Perleberg). Telefon +49 3876 786602, Mail quitzow.metall@alba.info, Zeiten Mo–Fr 7:00–12:15/12:45–16:00 nur Betreiber-Einzelbeleg → Felder leer, Werte hier dokumentiert. Website leer: Betreiber-Seite existiert, aber Impressum-Name (ALBA) ≠ Dossier-Name (INTERSEROH, Legacy) → kein aktiv. Dossier-Name bleibt (kein Overwrite). Quellen: metall.alba.info/unternehmen/standorte/detail/betriebsstaette-quitzow + EFB-PDF (live), landkreis-prignitz.de (Ortsteile), northdata.com HRB 181.]
 
 ### Recherche 01.10.2026 (Zweitbeleg Registerkette)
 
