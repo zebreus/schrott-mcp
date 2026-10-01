@@ -162,6 +162,54 @@ the website alone left a phantom entity behind):
    from this list; aggregator + evidence still counts as a single
    source (`Einzelbeleg`). When triage touches a dossier, re-verify any
    legacy aggregator-backed fields instead of trusting them.
+7. **Authoritative operator primary source (01.10.2026):** a verified
+   operator site (impressum with name + HRB + Ort, HR-congruent per
+   Northdata, current branch pages, audit certificates) suffices ALONE
+   for that operator's own branch facts (address, phone, mail, hours,
+   services, branch existence) — no second source needed. Recognition
+   criteria (all must hold): impressum names the operating company with
+   register number; the entity is live in the register; branch pages
+   are per-site (address/phone/hours, not a generic contact form);
+   content is current (certificates, dates, news). Anything failing a
+   criterion falls back to the 2-source standard. Second source still
+   required for identity questions (rename/merge chains, see below).
+
+## Operator rename/merge chains (Betreiber-Ketten)
+
+Large operators (ALBA, INTERSEROH, TSR, REMONDIS, …) rename, merge and
+relocate companies while branches keep operating — leaving dossiers
+with dead names, stale addresses and phantom rows. Case study
+01.10.2026: `bb-wittenberge-interseroh-metallaufbereitung-ost`
+(INTERSEROH Metallaufbereitung Ost, merged away 2011) is actually the
+live ALBA Metall Nord branch Quitzow (Buchholzer Chaussee 5, Perleberg)
+— found only by crawling the operator's branch detail pages.
+
+Recognition signals: dossier name is a former legal entity (check the
+name history on Northdata — HRB pages list prior names); branch
+address exists only as aggregator lead; operator runs a branch finder
+with per-site detail pages; EFB/environmental certificates name the
+operator at the branch address.
+
+Handling protocol: (1) prove the chain — Northdata/HR name history
+(old → new entity, merger publications); (2) crawl EVERY linked branch
+detail page individually, never stop at the overview (Quitzow lesson —
+the overview lists names, the detail page carries the facts);
+(3) correct `name`/address/city per the operator primary source,
+keeping the old name in the Timeline; (4) slugs NEVER change
+(DB keys, feedback refs — stability over cosmetics);
+(5) delisted branches are checked for closure/relocation (operator
+search, register, news) and never deleted — `geschlossen` only with
+evidence, otherwise `pruefung` + Klärfall; (6) cross-reference sibling
+dossiers (same operator, same city) instead of merging.
+
+Recurrence safeguards: every research-shard prompt carries the
+Vollcrawl-Pflicht (overview → collect ALL detail links → fetch each
+page separately, ~12 pages per trader) and the primary-source
+recognition checklist above; the owner gate before commit runs the
+overwrite check (no non-empty field changes without a documented
+2-source or primary-source basis), `cargo test -p schrott-mcp-ingestion
+seed`, and a prod spot-check after redeploy. This section is the
+contract — shard prompts quote it, not the other way round.
 
 ## Why SQLite and not Postgres?
 
