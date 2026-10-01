@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Plettenberg (Sauerland)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Leads: Josef Vierschilling Inh. Carsten Arens, Damaschkestr. 4, 58840 Plettenberg; Creditreform-Firmeneintrag (Großhandel Schrott/Metall) als Lead, kein Zweitbeleg; Quelle(n): keine belegfähige — nur Aggregatoren/Creditreform-Snippet (Leads)]

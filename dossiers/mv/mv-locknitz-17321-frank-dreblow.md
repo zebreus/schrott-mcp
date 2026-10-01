@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall Branche: 11880 führt Frank Dreblow Löcknitz als Abschleppdienst (abschleppservice.org, oeffnungszeitenbuch konsistent); Eisen-/Schrott-Ankauf unbelegt; ggf. Fehlklassifikation im Seed; kein Betreiber-Auftritt; kein Feld belegbar; Quelle(n): https://www.11880.com/branchenbuch/loecknitz-vorpommern/251092496B27885904/frank-dreblow-abschleppdienst.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Eisen

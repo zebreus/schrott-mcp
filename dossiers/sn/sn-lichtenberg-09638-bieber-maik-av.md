@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://autobieber.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website verifiziert (Home, Kontakt, Impressum einzeln abgerufen): Maik Bieber Autoservice und Autoverwertung, Alte Dorfstraße 9, 09638 Lichtenberg/Erzgebirge, Tel 037323-1256, Fax 037323-1286, info@autobieber.de, Inhaber Maik Bieber, Einzelunternehmen (HWK Chemnitz); Öffnungszeiten (Einzelbeleg, unsicher) Mo-Fr 08:00-17:00; kein HRB -> keine Owner-Ausnahme, daher PLZ/Tel/Email/Öffnungszeiten nur Timeline; Creditreform-Eintrag per Bot-Schutz nicht abrufbar (kein 2. Beleg); Quelle(n): https://autobieber.de/, https://autobieber.de/kontakt/, https://autobieber.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Axel Prager Unfallwagenhdl.: Am Sportplatz 24, 47239 Duisburg (Rumeln-Kaldenhausen), Tel. 02151 940729 (Frontmatter gefüllt, Dreifachbeleg): https://web2.cylex.de/firma-home/prager-axel-unfallwagenhdl--3148198.html + https://www.golocal.de/duisburg/autoverwertung/prager-axel-unfallwagenhdl-4nQv + https://www.gelbeseiten.de/gsbiz/c7c44d3a-10c9-4df1-ba32-4657278d330a
 - Alternativadresse Dahlingstr. 90, 47229 Duisburg mit Mobil 0171 3257709 (Einzelbeleg kfz-fragen, unsicher, nicht übernommen): https://www.kfz-fragen.de/autohaendler/profil/3420
 - Leistungen: Unfallwagen-Ankauf, Gebrauchtwagen An-/Verkauf.
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — Frontmatter (street, postcode, phone) stammt aus Vorwelle 30.09.2026 (Aggregator-Dreifachbeleg); keine neuen belegfähigen Funde (nur weitere Aggregator-Leads: firmania, city-advisor, 11880, Das Örtliche, Das Telefonbuch — alles Leads, keine Betreiber-Primärquelle); keine Betreiber-Website auffindbar; Quelle(n): keine neuen — Stand unverändert]

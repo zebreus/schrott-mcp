@@ -35,6 +35,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - urspr. Website-Angabe: keine
 - Adresse: Kaiserslautern
 
+### Recherche 01.10.2026
+
+- DDG-Recherche (01.10.2026): Leads lokaleschrottplatz.de + raeumungsfinder.de nennen „Schrotthändler Reinhard und Entrümpelung", Kaiserslautern, Mobil +49 179 8500901, 5.0 aus 12 Google-Bewertungen – beides Verzeichnis-/SEO-Seiten, keine Belege, keine Adresse, keine Betreiber-Website. reinhardt-recycling.de / schrottmetallhandelreinhardt.com gehören namensähnlichen anderen Betrieben (Reinhardt mit dt), nicht zugeordnet.
+- Klärfall: keine Frontmatter-Fills – nur Aggregator-Einzelbelege (Mobil), kein zweiter echter Beleg, keine Betreiber-Primärquelle, kein HRB. Seed-Adressfragment Käthe-Kollwitz-Str. unbestätigt.
+
 ### Recherche 30.09.2026
 
 - [Recherche 30.09.2026: kein Reinhard-Treffer, kein Doppelbeleg, kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/suche/entrumpelung/kaiserslautern]

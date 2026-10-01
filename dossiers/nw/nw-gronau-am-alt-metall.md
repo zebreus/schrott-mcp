@@ -6,11 +6,11 @@ state: NW
 city: Gronau
 street: ''
 postcode: ''
-phone: ''
-email: ''
+phone: 02562 9921469
+email: info@am-altmetall.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://am-altmetall.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Gronau
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Frontmatter gefüllt (phone, email, website, website_status aktiv) per Owner-Ausnahme — Betreiber-Impressum (https://am-altmetall.de: AM Alt Metall, HRB 13939 AG Steinfurt, Tel. +49 2562-9921469) HR-kongruent; KEINE Adress-Fills — HR-Spiegel belegt Sitzverlegung Gronau (HRB 14119 Coesfeld) nach Weinerpark 5, 48607 Ochtrup (2022), City-Mismatch-Klärfall (Dossier-City Gronau vs. Register-Sitz Ochtrup); Quelle(n): Betreiber-Impressum am-altmetall.de, HR-Spiegel online-handelsregister.de]

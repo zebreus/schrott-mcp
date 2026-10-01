@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Edelmetall, Zahngold (4 Belege), Silberbesteck, 33× „Ankauf"
 - Adresse: Flensburg 24943, Angelsunder Weg 38
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — Einzelunternehmen ohne HRB (Owner-Ausnahme greift nicht); Betreiber-Impressum (goldhandel-flensburg.de, Einzelbeleg, unsicher): Inh. Dominik Reinhold, Angelsunder Weg 38, 24943 Flensburg, Tel. 0176-73512675, info@goldhandel-flensburg.de, Mo-Sa 09:00-18:00; Quelle(n): Betreiber-Impressum goldhandel-flensburg.de (Einzelbeleg)]

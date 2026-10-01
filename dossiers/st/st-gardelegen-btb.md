@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Gardelegen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Leads: HR-Snippets (HRB 1669 AG Stendal, An den Burgstücken 7, 39638 Gardelegen, angeblich aktiv) NICHT erst-handig verifizierbar (online-handelsregister.de-Deep-Links 404, kein Treffer in Register-Suche); Telefon 0175 4339… nur Aggregator-Lead; Folgewelle: HR-Auszug erst-handig prüfen; Quelle(n): keine belegfähige — nur Such-Snippets/Aggregatoren (Leads)]

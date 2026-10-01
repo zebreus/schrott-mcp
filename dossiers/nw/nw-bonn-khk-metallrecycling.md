@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Brieger Weg 3, nur schrottradar-Profil
 - urspr. Website-Angabe: keine (khk-metallrecycling.de per Bot-Check blockiert)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — Domain khk-metallrecycling.de liefert nur geparkte Directory-Seite (Remagen-Bezug, kein Betreiberbezug Bonn/Brieger Weg); website_status blockiert beibehalten; Quelle(n): Domain-Abruf khk-metallrecycling.de (Parked-Page)]

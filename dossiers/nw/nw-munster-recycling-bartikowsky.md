@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metall, Demontage, Container (Nienkamp 26)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — Einzelunternehmen ohne HRB (Owner-Ausnahme greift nicht); Betreiberseite bartikowsky-recycling-muenster.de (Einzelbeleg, unsicher): Inh. Angelo Bartikowsky, Sprakeler Str. 162, 48159 Münster, Tel. 0171 5260053 — widerspricht Seed-Adresse Nienkamp 26 (Klärfall); Quelle(n): Betreiberseite bartikowsky-recycling-muenster.de (Einzelbeleg)]

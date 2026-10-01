@@ -9,8 +9,8 @@ postcode: '87600'
 phone: '08341 81163'
 email: ''
 opening_hours: ''
-website: ''
-website_status: 'unbekannt'
+website: https://www.schiessler-schrott-metalle.de
+website_status: aktiv
 status: unbekannt
 description: ''
 dropoff_json: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lagern/Behandeln/Verwerten/Beseitigen
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Website verifiziert (Home, Kontakt, Leistungen, Impressum page_id=23, Datenschutz, Unternehmensgeschichte einzeln abgerufen): Buronstraße 66, 87600 Kaufbeuren, Tel 08341/81163, Email schiessler-schrott-metalle@t-online.de, GF Thomas Schießler, Einzelunternehmen, USt-ID DE255163296; Öffnungszeiten (Einzelbeleg, unsicher) Mo-Do 8:00-12:00/13:00-16:45, Fr bis 16:00, Sa 9:00-11:45; keine HRB -> keine Owner-Ausnahme, Email/Öffnungszeiten daher nur Timeline; Instagram-Profil verlinkt aber login-geschützt (kein 2. Beleg); Quelle(n): https://www.schiessler-schrott-metalle.de/, https://www.schiessler-schrott-metalle.de/?page_id=6, https://www.schiessler-schrott-metalle.de/?page_id=23]
 
 ### Recherche 30.09.2026
 

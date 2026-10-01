@@ -29,6 +29,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- DDG-Recherche (01.10.2026): nur Aggregator-Treffer (Cylex, Firmania, 11880, Infobel – alle nur Leads). Adresse Ebsdorfer Str. 11, 35085 Ebsdorfergrund (Leidenhofen/Dreihausen) wird dort einheitlich genannt; keine Betreiber-Website, kein HRB-Eintrag gefunden.
+- Klärfall: bestehende Frontmatter-Felder (Adresse, Telefon) bleiben unverändert – kein zweiter unabhängiger Beleg, keine Betreiber-Primärquelle; keine neuen Fills.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinst-Schrotthändler

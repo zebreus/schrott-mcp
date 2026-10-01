@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein echter Betreiber-Auftritt: wegner-schrotthandel.regionale-onlinepräsenz.de ist Verzeichnis-Mikroseite (Kontakt info@regionale-onlinepräsenz.de, kein Betreiber-Impressum) -> Lead, kein Beleg; dort genannt (Einzelbeleg, unsicher): Inhaber Stefan Wegner, Müggenhof 1, 17449 Peenemünde, Tel 038371-20757, Mobil 0160-94589675, Termine nach Vereinbarung; Aggregatoren (Das Örtliche, Gelbe Seiten, dastelefonbuch) konsistent aber keine Belege; kein Feld belegbar; Quelle(n): http://wegner-schrotthandel.regionale-onlinepräsenz.de/, https://www.dasoertliche.de/Themen/Wegner-Stefan-Schrotthandel-Abriss-Entkernung-Peenemünde-Müggenhof]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Abriss/Entkernung — Usedom-Abdeckung (NEU)

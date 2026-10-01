@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — Frontmatter (street, postcode, phone) stammt aus Vorwelle (Verzeichnisbasis); keine neuen belegfähigen Funde, kein Betreiber-Impressum auffindbar; Quelle(n): keine neuen — Stand unverändert]

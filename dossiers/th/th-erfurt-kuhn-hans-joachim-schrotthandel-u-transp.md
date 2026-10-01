@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel, Transporte
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Leads, dazu City-Fehlvermerk: realer Sitz Haßleben (Vehraer Str. 265, 99189, Tel. 036201 60246, nur Aggregator-Leads), Dossier-City Erfurt unbewiesen; Straße/PLZ NICHT gefüllt (City-Mismatch); Quelle(n): keine belegfähige — nur Aggregatoren (Leads)]

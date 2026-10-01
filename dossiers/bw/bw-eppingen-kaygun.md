@@ -34,6 +34,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung
 - Adresse: Eppingen
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Domain autoverwertung-kaygun.de weiterhin ohne Betreiber-Beleg: https per TLS-Fehler (ERR_TLS_CERT_ALTNAME_INVALID), http liefert Parkseite (keine Website); kein neues Feld belegbar; Quelle(n): https://autoverwertung-kaygun.de/, http://autoverwertung-kaygun.de/]
+
 ### Recherche 30.09.2026
 
 - Adresse Tullastraße 7, 75031 Eppingen, Tel. 07262 8345, anerkannter Demontagebetrieb (GESA-Register) (Quellen: https://autoverwerterfinder.de/autoverwerter/autoverwertung-kaygun/ und https://www.motorzentrale.de/anbieter/autoverwertung-kaygun-101055/)

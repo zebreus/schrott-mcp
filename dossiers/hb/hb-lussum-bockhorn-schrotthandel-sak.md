@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthandel (klein)
 - Adresse: Lüssum-Bockhorn, Godenweg 3
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Lead: Godenweg 3, 28779 Bremen (nur Aggregator, kein Zweitbeleg, kein Betreiber-Impressum auffindbar); Quelle(n): keine belegfähige — nur Aggregatoren (Leads)]

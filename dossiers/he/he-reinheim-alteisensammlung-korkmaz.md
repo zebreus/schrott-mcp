@@ -33,6 +33,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Alteisen-Sammlung (Verzeichnis)
 
+### Recherche 01.10.2026
+
+- DDG-Recherche (01.10.2026): nur Aggregator-Treffer (lokaleschrottplatz.de nennt +49 6162 9195640 als Einzelbeleg; Gelbe Seiten, 11880, dastelefonbuch, misterwhat, schrottplatz.org, gavabiz – alle nur Leads, keine Belege). Keine Betreiber-Website, kein HRB-Eintrag gefunden.
+- Klärfall: Adresse Darmstädter Str. 21, 64354 Reinheim aus Vorwelle (Aggregator-Doppelbeleg 30.09.2026) bleibt bestehen, wird ohne 2 echte Belege nicht überschrieben; Telefon weiter offen (drei widersprüchliche Nummern, keine doppelt belegt); keine neuen Frontmatter-Fills.
+
 ### Recherche 30.09.2026
 
 - Adresse Darmstädter Str. 21, 64354 Reinheim per Doppelbeleg (Frontmatter gefüllt): https://www.schrottplatz-info.de/schrottplatz/Reinheim/Korkmaz + https://web2.cylex.de/firma-home/korkmaz-11947255.html

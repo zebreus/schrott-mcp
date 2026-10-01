@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Stahl/Alu/Kupfer u.a.
 - Adresse: Bremen 28719, Grönlandstr. 21
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Leads: Grönlandstr. 21, 28719 Bremen, Mobil 0176 57931645 (nur Aggregatoren, kein Zweitbeleg); Quelle(n): keine belegfähige — nur Aggregatoren (Leads)]

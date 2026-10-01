@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Reisholzer Werftstr. 76, Hafenprofil
 - urspr. Website-Angabe: keine gefunden (hermann-arend.de tot)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Leads: Betriebsstätte Reisholzer Werftstr. 76 / Am Trippelsberg 92, 40589 Düsseldorf (nur Aggregatoren); hermann-arend.de erneut unerreichbar (Transport-Error 01.10.2026, website_status tot bestätigt, unverändert); arend-container.de ebenfalls tot; Quelle(n): keine belegfähige — nur Aggregatoren (Leads) + Domain-Abruf hermann-arend.de (tot)]

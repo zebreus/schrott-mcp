@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: kein Betreiber-Auftritt auffindbar, nur Aggregatoren (firmania, cylex, 11880, lokaleschrottplatz, schrottplatz-info): Grundstr. 1, 01731 Kreischa (Ortsteil Lungkwitz) als Lead, Tel unbekannt; kein Feld belegbar; Quelle(n): DDG-Suche Jürgen Unger Kreischa 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe/Alu/Cu/Edel/Blei/Messing

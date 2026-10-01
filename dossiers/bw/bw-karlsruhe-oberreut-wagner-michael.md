@@ -29,6 +29,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- DDG-Recherche (01.10.2026): Leads Gelbe Seiten + wemgehoert.de nennen Wagner Michael (Schrott), Albert-Braun-Str. 11A, 76189 Karlsruhe-Oberreut, Tel. 0721 867737 – beides Verzeichnis-Leads, keine Belege. schrott-wagner.de gehört anderem Betrieb (Marburg-Kontext), nicht zugeordnet. Keine Betreiber-Website, kein HRB.
+- Klärfall: keine Frontmatter-Fills – nur Aggregator-Leads, kein zweiter echter Beleg.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

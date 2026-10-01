@@ -29,6 +29,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- DDG-Recherche (01.10.2026): nur Aggregator-Leads, zudem WIDERSPRUCH – Heinrich-von-Gagern-Str. 17, 67549 Worms-Neuhausen, Tel. 06241 56721 (Gelbe Seiten, schrottplatz-info, oeffnungszeitenbuch, branchenbuchdeutschland) vs. Nordendstr. 10, 67547 Worms, Tel. 06241 45385 (branchen-info, Firmania, Cylex). Keine Betreiber-Website, kein HRB.
+- Klärfall: keine Frontmatter-Fills – nur Aggregator-Leads mit Adress-/Telefon-Widerspruch, kein zweiter echter Beleg.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott vermutet
