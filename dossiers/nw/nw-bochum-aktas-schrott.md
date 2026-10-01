@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Hofsteder Str. 135, 0173-Nr. (Backyard-Typ)
 - urspr. Website-Angabe: keine gefunden [Website-Recherche website: services: Abholservice Metalle aller Art (Alu, Kupfer, Edelstahl), Metall-/Elektroschrott, Autoverschrottung, Rohre/Bleche; customer_types: privat; notes: Einzelunternehmen Orhan Aktas; E-Mail nur per JS-Spamschutz lesbar.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2571 verifiziert, kein Frontmatter-Slot — Betreiber-Site (Abruf 01.10.2026): „Unser Abholservice" (Metalle aller Art, Metall-/Elektroschrott, Autoverschrottung) → Abholung belegt, nur Timeline (pickup_json-Enkodierung Folgeschritt); Zweitnummer gefunden (Footer: Mobil 0152-06105095 neben 0173-2704293) → nur Timeline (kein Zweitnummer-Feld im Schema); Impressum-URL 404 (kein HRB → keine Owner-Ausnahme); Quelle(n): https://www.aktas-schrott.de/ (Homepage + Footer)]

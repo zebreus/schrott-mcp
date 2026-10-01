@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://rohstoffe-trapp.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2586 berechtigt als Klärfall (Einzelbeleg). lat/lon-Fehler bestätigt: DB Westheim BW statt Westheim Pfalz (Abweichung >100 km; Koordinaten neu zu geocodieren). Betreiber-Seiten nennen Hauptstrasse 142, 67368 Westheim, Tel. 06344/937342 + Mobil 0172/9180733, Info@rohstoffe-trapp.de, kostenlose Abholung Umkreis 80 km. Kein HRB, kein Zweitbeleg → Adresse/Kontakt NUR hier, NICHT in Frontmatter; website_status aktiv per Live-Abruf (HTTP 200); Quelle(n): https://rohstoffe-trapp.de/impressum.html + https://rohstoffe-trapp.de/anfrage-kontakt.html (eine Quelle)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

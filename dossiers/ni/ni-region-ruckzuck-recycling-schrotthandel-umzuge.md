@@ -3,14 +3,14 @@ slug: ni-region-ruckzuck-recycling-schrotthandel-umzuge
 name: ruckzuck Recycling Schrotthandel & Umzüge
 trader_type: schrotthaendler
 state: NI
-city: Region ?
+city: Schellerten
 street: ''
 postcode: ''
-phone: ''
+phone: '0176 20718363'
 email: ''
-opening_hours: ''
+opening_hours: 'Mo-Sa 06:00-21:00, So 08:00-17:00'
 website: ''
-website_status: ''
+website_status: tot
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: city/phone/opening_hours/website_status gefüllt (Schellerten, 0176 20718363, Mo-Sa 06:00-21:00, So 08:00-17:00, tot); begründeter Ausnahmefall: alles Einzelbeleg, offen dokumentiert; ruckzuck-recycling.de = STRATO-Parking (tot); Quelle(n): lokaleschrottplatz.de/ruckzuck (Einzelbeleg, Ausnahme)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

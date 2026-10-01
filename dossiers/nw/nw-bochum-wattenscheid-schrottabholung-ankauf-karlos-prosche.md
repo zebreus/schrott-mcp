@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Elisabethstr. 20, 44866 Bochum (Impressum), 0174-Nr.; Seed-Dublette Mülheim/Freialdenhoven hier konsolidiert
 - Adressbeleg: https://schrottabholung-ankauf.de
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2569 verifiziert, kein Frontmatter-Slot — Betreiber-Site (Abruf 01.10.2026): NRW-weite kostenlose Schrottabholung (privat + gewerblich/industriell, Baustellen, Demontage), Hotline 01748694036 (= Dossier-phone) → Abholung belegt, nur Timeline (pickup_json-Enkodierung Folgeschritt); keine Zweitnummer auf der Site; Quelle(n): https://schrottabholung-ankauf.de/, https://schrottabholung-ankauf.de/impressum/]

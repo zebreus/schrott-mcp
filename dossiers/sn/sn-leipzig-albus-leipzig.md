@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.albus-leipzig.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altpapier, Buntmetalle, Schrott
 - Kupfer/Messing/Zink/Blei
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2647 geprueft — Betreiberseite nennt 3 Annahmestellen (Diezmannstr. 20 Mo-Fr 10-17/Sa 9-12; An den Tierkliniken 42 Mo,Di,Do,Fr 10-16/Mi 10-18; Eisenacher Str. 88 Mo,Di,Do,Fr 10-17, kein Eisenschrott-Ankauf dort), Tel. 01638747214, buero@albus-leipzig.de, Eisenacher Str. temporaer geschlossen 21.09.-05.10.2026 — Einzelbeleg ohne Zweitquelle, daher Timeline-Vermerk ohne Frontmatter-Fill, website live aktiv; Quelle(n): https://www.albus-leipzig.de, https://www.albus-leipzig.de/Ankaufstellen]

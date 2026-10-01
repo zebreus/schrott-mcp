@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: http://www.steglich-recycling.de/
-website_status: blockiert
+website_status: tot
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (Gneisenaustr. 8, Manfort), nur schrottradar-Profil
+
+### Recherche 01.10.2026 (Feedback-Triage fb2500)
+
+- [Recherche 01.10.2026: Feedback fb2500 berechtigt (kritisch) — steglich-recycling.de antwortet 01.10.2026 mit HTTP 301 auf https://www.remondis-rhein-berg.de/ (Titel „Entsorgung und Recycling in Leverkusen | REMONDIS Rhein-Berg GmbH"), keine Nennung von Steglich auf der Zielseite (curl-Grep ohne Treffer); Standort Gneisenaustr. 8 daher nicht belegbar, ggf. übernommen/aufgegeben; website_status blockiert → tot korrigiert (Domain resolved, aber originäre Site weg — kein Block); status pruefung bleibt; kein Adress-/Kontakt-Fill; Quelle(n): curl 301-Check + Zielseiten-Abruf 01.10.2026 (eine Quelle, Zweitbeleg Handelsregister offen)]

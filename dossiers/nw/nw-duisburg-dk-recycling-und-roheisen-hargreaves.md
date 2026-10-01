@@ -7,10 +7,10 @@ city: Duisburg
 street: 'Werthauser Str. 182'
 postcode: '47053'
 phone: 0203 60810
-email: ''
+email: 'info@dk-duisburg.de'
 opening_hours: ''
 website: https://www.dk-duisburg.de/
-website_status: ''
+website_status: 'aktiv'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Feedback 2532)
+
+- [Recherche 01.10.2026: Feedback 2532 berechtigt: E-Mail info@dk-duisburg.de verifiziert — Kontaktseite nennt info@dk-duisburg.de (Zweitbeleg zum Impressum-Einzelbeleg 30.09.2026), Adresse Werthauser Str. 182/47053 + Telefon +49 203 60810 stimmen. Verifizierte Betreiber-Primärquelle (DK Recycling und Roheisen GmbH, HRB-kongruent). Hinweis: B2B Fe-Reststoff-Recycler, kein Privatkunden-Ankauf.; Quelle(n): https://www.dk-duisburg.de/kontakt/ + https://www.dk-duisburg.de/en/imprint (zwei Unterseiten = eine Quelle, Abruf 01.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

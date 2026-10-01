@@ -5,12 +5,12 @@ trader_type: autoverwertung
 state: SH
 city: Schwentinental-Brehm 24222
 street: Wasserwerksweg 16
-postcode: ''
-phone: ''
+postcode: '24222'
+phone: '0431 79602'
 email: ''
-opening_hours: ''
+opening_hours: 'Mo-Fr 09:00-17:00'
 website: ''
-website_status: ''
+website_status: tot
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (Verzeichnis; Domain-Hinweis ungeklärt)
 - Adresse: Schwentinental-Brehm 24222, Wasserwerksweg 16
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: postcode/phone/opening_hours/website_status gefüllt (24222, 0431 79602, Mo-Fr 09:00-17:00, tot; street Wasserwerksweg 16 aus Vorwelle bestätigt); Namensdiskrepanz offengelegt: Brehm vs. Autohof Klausdorf; autohof-klausdorf.de = Casino-Spam SpinReelz (tot); tankstelle-in-der-nähe 500, allesoffen.de ohne Treffer; Quelle(n): onlinestreet.de/poi/NUhiRVNSSC9GOXBoSHVtODNlc3VvQT09 (Autohof Klausdorf, Wasserwerksweg 16, 24222 — Einzelbeleg, Ausnahme)]
 
 ### Recherche 30.09.2026
 

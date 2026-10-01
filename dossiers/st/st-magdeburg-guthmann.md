@@ -6,11 +6,11 @@ state: ST
 city: Magdeburg
 street: Wasserkunststr. 100
 postcode: '39124'
-phone: ''
-email: ''
+phone: 0391/66277660
+email: buero@guthmann-gmbh.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.guthmann-gmbh.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel
 - Adresse: Magdeburg (Wasserkunststr. 100, 39124)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: FEHLKLASSIFIKATION als Schrotthändler — Betreiber-Primärquelle belegt reinen Anlagenbau: Guthmann GmbH, Wasserkunststr. 100, 39124 Magdeburg, HRB 110784 AG Stendal, GF Lutz Guthmann, Tel 0391/6627766-0, buero@guthmann-gmbh.de; Leistungen: Rohrleitungs-/Anlagen-/Stahlbau, CAD, Glasperlenstrahlen, KEIN Schrottankauf/Schrottplatz. Frontmatter phone/email/website aus Impressum gefüllt; status bleibt pruefung (Branchenzuordnung klären, kein Ankauf belegt). Quelle(n): https://www.guthmann-gmbh.de/impressum/, https://www.guthmann-gmbh.de/leistungen/]

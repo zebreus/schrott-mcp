@@ -5,12 +5,12 @@ trader_type: autoverwertung
 state: SN
 city: Plauen 08523
 street: Leuchtsmühlenweg 36
-postcode: ''
-phone: ''
-email: ''
+postcode: '08523'
+phone: 03741/708100
+email: s-t-gmbh@gmx.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://siedhoff-tomasello.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV + Abschlepp
 - Adresse: Plauen 08523, Leuchtsmühlenweg 36
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Primärquelle verifiziert — Impressum: SIEDHOFF & TOMASELLO GmbH, Leuchtsmühlenweg 36, 08523 Plauen, HRB 11535 AG Chemnitz, GF André Pilz/Mario Seeling; Kontakt: 03741/708100, Fax 03741/708101, s-t-gmbh@gmx.de; Leistungen: Anerkannter Altautoverwertungsbetrieb, Container-Service, Abschleppdienst. Frontmatter-Fills (postcode/phone/email/website) aus Betreiberquelle; Öffnungszeiten nicht belegt (leer). Beleglage: starke Einzelquelle (Betreiber-Impressum+Kontakt, eine Website = EINE Quelle), Zweitbeleg offen — Restunsicherheit dokumentiert. Quelle(n): https://siedhoff-tomasello.de/]

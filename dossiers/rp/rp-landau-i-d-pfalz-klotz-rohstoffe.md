@@ -1,16 +1,16 @@
 ---
 slug: rp-landau-i-d-pfalz-klotz-rohstoffe
 name: Klotz Rohstoffe GmbH
-trader_type: sonstige
+trader_type: schrottplatz
 state: RP
 city: Landau i.d. Pfalz
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: 'Im Grein 4'
+postcode: '76829'
+phone: '06341 / 600 72'
+email: 'info@klotz-rohstoffe.de'
+opening_hours: 'Mo/Di/Do 7:30-16:00, Mi 7:30-18:00, Fr 7:30-12:00, 1. Sa 8:00-11:30'
 website: https://klotz-rohstoffe.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2598 berechtigt. Betreiber-Seiten live (vorübergehender 503 behoben): Klotz Rohstoffe GmbH, Im Grein 4, 76829 Landau, Tel. 06341/60072, info@klotz-rohstoffe.de, Warenannahme Mo/Di/Do 7:30-16:00, Mi 7:30-18:00, Fr 7:30-12:00, 1. Sa 8:00-11:30. Impressum mit HRB 31385 AG Landau. HR-Kongruenz: Northdata HRB 31385 mit Adresse Im Grein 4, 76829 Landau. Betreiber-Primärquelle + HR-Kongruenz → Frontmatter gefüllt inkl. trader_type sonstige → schrottplatz (Website-Titel Schrottplatz/Warenannahme), website_status aktiv; Quelle(n): https://klotz-rohstoffe.de/ + https://klotz-rohstoffe.de/impressum/ (eine Quelle) + Northdata HRB 31385]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

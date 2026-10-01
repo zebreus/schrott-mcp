@@ -5,8 +5,8 @@ trader_type: schrotthaendler
 state: NW
 city: Ense
 street: Rochollweg 22
-postcode: ''
-phone: ''
+postcode: '59469'
+phone: '02938 484439'
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: postcode/phone gefüllt (59469, 02938 484439; street Rochollweg 22 Ense-Bremen aus Vorwelle bestätigt); zwei unabhängige Belege einig, Koordinaten neu zu geocodieren; Quelle(n): 11880 (Rochollweg 22 Ense-Bremen) + schrottplatz-info.de/Ense/Steffens]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

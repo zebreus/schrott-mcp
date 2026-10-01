@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Triage 01.10.2026 (Feedback 2585)
+
+- [Triage 01.10.2026: Feedback 2585 geprüft — E-Mail-Lücke/Pausenzeit. Bestehende Recherche 01.10.2026 bleibt (Adresse/Telefon/Zeiten verifiziert, E-Mail info@steil.de obfuskiert → bewusst leer). Kein Frontmatter-Overwrite; website_status aktiv bestätigt (HTTP 200 Standortseite).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallgroßhandel, v.a. Gewerbe/Industrie

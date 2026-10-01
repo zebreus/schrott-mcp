@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback 2527)
+
+- [Recherche 01.10.2026: Feedback 2527 berechtigt: Website https://www.speira.com/ gehört zu Speira GmbH (Grevenbroich), nicht zu Alunorf — keine eigene Alunorf-Adresse/Kontakt dort gelistet (Alunorf nur als JV erwähnt). Keine Frontmatter-Änderung (kein Overwrite pro Direktive); status pruefung bleibt. Eigene Alunorf-Website wäre zu hinterlegen, sobald verifiziert. Zweitbeleg: Hydro-Pressemitteilung (50/50-JV Neuss) bestätigt Hersteller-B2B ohne öffentlichen Schrottankauf.; Quelle(n): https://www.speira.com/ + https://www.speira.com/imprint/ (eine Quelle, Abruf 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - weltgrößtes Alu-Walz-/Gießwerk (Joint Venture)

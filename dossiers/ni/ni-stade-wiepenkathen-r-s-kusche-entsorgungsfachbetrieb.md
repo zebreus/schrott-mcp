@@ -1,7 +1,7 @@
 ---
 slug: ni-stade-wiepenkathen-r-s-kusche-entsorgungsfachbetrieb
 name: R&S Kusche (Entsorgungsfachbetrieb)
-trader_type: sonstige
+trader_type: schrotthaendler
 state: NI
 city: Stade-Wiepenkathen
 street: Ohle Ring 4
@@ -32,6 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website r-skusche.de live (Home + Impressum): R & S Kusche Entsorgungsfachbetrieb eGbR, Ohle Ring 4, 21684 Stade-Wiepenkathen, Tel. 04141 787 978, info@r-skusche.de, Öffnungszeiten Mo–Fr 08–12/13–16 Uhr, Sa 08–12:30 Uhr, vertreten durch Rolf und Sven Kusche; Zweitbeleg Landkreis Stade (Abfall-PDF Elektroschrott aus Gewerbebetrieben): genehmigte Verwertungsfirma R & S Kusche, Ohle Ring 4, 21684 Stade, Tel./Fax und E-Mail kongruent; Über-uns: Familienbetrieb seit 2010, zertifizierter Entsorgungsfachbetrieb, Schrott-/Metallhandel und Autoverwertung; Hinweis: Schwestereintrag ni-stade-r-s-kusche-entsorgungsfachbetrieb möglicherweise Doppel (Klärfall); Quelle(n): https://r-skusche.de/ + https://r-skusche.de/impressum/ (eine Quelle) und https://abfall.landkreis-stade.de/.../Elektroschrott_aus_Gewerbebetrieben_24.11.21.pdf (kommunal, unabhängig)]
+- [Feedback-Triage 01.10.2026 (ID 2434): trader_type sonstige → schrotthaendler korrigiert (Kernangebot eigene Schrott-&-Metall-Seite: Ankauf Kabel/E-Motoren/Alt-/Buntmetall/Stahl; Container + E-Schrott als Nebenleistungen; kommunaler Zweitbeleg nennt Verwertungsfirma). Samstagszeiten-Behauptung unberechtigt — Website (Header + Footer + Impressum-Seite) nennt einheitlich Sa 08–12:30 Uhr, Dossier-Stand identisch, keine Änderung. Quelle(n): https://r-skusche.de/schrott-metall/ + https://r-skusche.de/impressum/ (Abruf 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

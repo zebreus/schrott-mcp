@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.metcera-recycling.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - E-Schrott, Kabel, Buntmetalle; Tagespreisliste
 - Schwerpunkt Elektronikschrott
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2649 geprueft — Betreiberseite nennt Sestewitzer Str. 7, 04463 Grosspoesna OT Stoermthal, Tel. 034297 778066, info@metcera-recycling.de, Zeiten Mo-Fr 8.00-12.00/12.30-16.30, Abholung nach Absprache — HRB 37051 nicht live gegenpruefbar (websearch 401), daher Einzelbeleg ohne Zweitquelle, Timeline-Vermerk ohne Frontmatter-Fill, website live aktiv; Quelle(n): https://www.metcera-recycling.de, https://www.metcera-recycling.de/impressum/]

@@ -4,9 +4,9 @@ name: Stiefel Helmut, Sonja Schrott- und Metallhandel
 trader_type: metallhaendler
 state: BW
 city: Leinzell
-street: ''
-postcode: ''
-phone: ''
+street: 'Hofwiesenweg 6/1'
+postcode: '73575'
+phone: '07175 909313'
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: street/postcode/phone gefüllt (Hofwiesenweg 6/1, 73575 Leinzell, 07175 909313); zwei unabhängige Verlags-Verzeichnisse einig; Fax 07175 909315, Produkte Alteisen/Altmetalle; Abgrenzung Karl (Hofwiesenweg 6) vs. Helmut/Sonja (6/1, Familienbetrieb) ungeklärt, Einzelunternehmen ohne HRB; Quelle(n): dasoertliche + gelbeseiten.de/gsbiz/95f094f3 (einig)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

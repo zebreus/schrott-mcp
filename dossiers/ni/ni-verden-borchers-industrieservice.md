@@ -36,3 +36,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 - Betreiber-Website live verifiziert (aktiv). Adresse/Telefon nur Impressum-Einzelbeleg (Zum Hutberger Graben 2, 27283 Verden, Tel. 04231 9850940; ohne HRB) daher nur Timeline.
 - Quelle: https://www.borchersindustrieservice.com (Direkt-Fetch).
+- [Feedback-Triage 01.10.2026 (ID 2433): Echter Sitz Verden bestätigt — Impressum/Kontakt/Leistungen einheitlich Zum Hutberger Graben 2, 27283 Verden (Aller), Tel. 04231 9850940 / 0173 6026888, iliyanaborchers@yahoo.de, USt-Id DE305103038; Schwesterzeile ni-region-* ist Dublette mit falschem Ort (dort als Klärfall vermerkt). Kein HRB → keine Owner-Ausnahme, kein unabhängiger Zweitbeleg → Felder bleiben leer (Klärfall). Quelle(n): https://www.borchersindustrieservice.com/impressum (Abruf 01.10.2026, eine Quelle).]

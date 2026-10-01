@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: SN
 city: Rochlitz 09306
 street: Schützenstr. 6
-postcode: ''
-phone: ''
-email: ''
+postcode: '09306'
+phone: 03737/7864315
+email: sms-rochlitz@t-online.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.sms-rochlitz.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (gleiche Adresse wie DB Recycling, Seed — ggf. Nachfolge/Parallelbetrieb)
 - Adresse: Rochlitz 09306, Schützenstr. 6
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Betreiber-Primärquelle verifiziert — Impressum: SMS Sterns Metall & Schrotthandel Rochlitz, Inhaber Denis Blum, Schützenstr. 6, 09306 Rochlitz, Tel (03737) 7864315, Fax 7864316, Funk 0162 8938850, sms-rochlitz@t-online.de (Einzelunternehmen, kein HRB — Owner-Ausnahme NICHT anwendbar); Kontaktseite bestätigt Denis Blum, Schützenstr. 6, 09306 Rochlitz, Tel/Fax/Funk + E-Mail. Leistungen: Schrottaufbereitung/Recycling/Demontage, Containerdienst, Autoverwertung. Frontmatter-Fills aus Betreiberquelle; Öffnungszeiten nicht belegt (leer). Beleglage: starke Einzelquelle (eine Website = EINE Quelle), Zweitbeleg offen — aggregatorischer Zweitbeleg (11880 DB-Recycling/Denis-Blum-Eintrag) nur als Lead, kein Fill daraus. Quelle(n): http://www.sms-rochlitz.de/pages/kontakt/impressum.php, https://www.sms-rochlitz.de/pages/kontakt.php]

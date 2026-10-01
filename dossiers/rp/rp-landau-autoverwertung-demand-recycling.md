@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Triage 01.10.2026 (Feedback 2590)
+
+- [Triage 01.10.2026: Feedback 2590 geprüft — Adresse/Kontakt/Zeiten. Bestehende Recherche 01.10.2026 bleibt (Betreiber live, e.K./HRA-2369-Angabe ohne Auszug → bewusst nur Timeline, Frontmatter leer). Kein Overwrite; website_status aktiv bestätigt (HTTP 200).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altauto-Annahme, zert. Demontagebetrieb (seit 1975) — FLAG: nur Altautos

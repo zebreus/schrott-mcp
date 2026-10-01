@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.pms-schrotthandel.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2608 berechtigt als Klärfall (Einzelbeleg, kein HR). Betreiber-Seiten nennen Inh. Pascal Schneider, Hintermark 35-37, 56070 Koblenz, Tel. 0179-3201519, E-Mail-Diskrepanz info@pms-schrotthandel.de vs. pms.schrotthandel@gmail.com (beide dokumentiert). Ohne Register/Zweitbeleg → Werte NUR hier, Frontmatter leer; website_status aktiv (HTTP 200); Quelle(n): https://www.pms-schrotthandel.de/impressum/ + https://www.pms-schrotthandel.de/ (eine Quelle)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

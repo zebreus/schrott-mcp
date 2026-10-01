@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback 2540)
+
+- [Recherche 01.10.2026: Feedback 2540 berechtigt, aber kein Overwrite (Direktive 01.10.2026): Telefon 02832 78597 ist Kevelaer-Zentrale (Velder Dyck 21), Grefrath-Niederlassung (Girmespark 5, 47929) hat 02158 9539277 — Betreiber-Kontaktseite listet beide Standorte getrennt. Frontmatter bleibt vorerst (kein Overwrite); Adress-/Mail-/Zeiten-Felder stimmen für Grefrath. HRB 18672 AG Kleve HR-kongruent.; Quelle(n): https://berk-recycling.com/kontakt/ (Abruf 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Tageshöchstpreise, 2 BImSchG-Standorte, Container/Abbruch (Kevelaer 02832 78597)

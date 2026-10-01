@@ -1,7 +1,7 @@
 ---
 slug: sn-dresden-walter-kunze-nl-dresden
 name: Walter Kunze NL Dresden
-trader_type: sonstige
+trader_type: metallhaendler
 state: SN
 city: Dresden
 street: 'Tharandter Str. 200'
@@ -36,3 +36,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Detailseite verifiziert (Walter Kunze Schrott- und Metallhandels GmbH NL Dresden, Tharandter Str. 200, 01187 Dresden, Tel. 0351/89459-0) + Impressum (HRB 1520 AG Ulm) → Owner-Direktive greift; Ansprechpartner s.grimmer@kunze-group.de, Zentrale info@kunze-group.de; Quelle(n): https://www.kunze-group.de/index.php/kontakt/walter-kunze-schrott-und-metallhandels-gmbh-dresden, https://www.kunze-group.de/index.php/impressum-downloads]
+- [Recherche 01.10.2026: Feedback 2638 Typ-Teil berechtigt-eingearbeitet — trader_type sonstige → metallhaendler (Betreiber heisst Schrott- und Metallhandels GmbH, Schwester-NL Freital steht als metallhaendler); Hinweis: Standortseite mit Spam-Einschleusung (link gacor), Seite evtl. kompromittiert — Watchlist Folgewelle; Quelle(n): Betreiber-Detailseite (Abruf 01.10.2026)]

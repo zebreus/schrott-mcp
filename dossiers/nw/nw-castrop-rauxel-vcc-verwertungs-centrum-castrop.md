@@ -35,6 +35,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Hersteller-Referenz THM nennt VCC Verwertungs-Centrum Castrop GmbH und Co. KG, Deininghauser Weg 81, 44577 Castrop-Rauxel (Einzelbeleg, unsicher); Telefon 02305 9983070 und Oeffnungszeiten nur via Gelbe Seiten u.a. (Leads, keine Belege).
 - Northdata-Eintrag mit Sitz Hattingen (AG Essen) weicht ab, daher nicht als Beleg nutzbar. Klärfall: HR-Sitz vs. Betriebsadresse klaeren.
 
+### Recherche 01.10.2026 (Triage Feedback 2560)
+
+- [Recherche 01.10.2026: Feedback 2560 halb berechtigt, aber kein Status-Wechsel — vcc-castrop.de liefert weiterhin nur Platzhalter („Hier entsteht eine neue Website!", HTTP 200, Abruf 01.10.2026); website_status aktiv bedeutet per Konvention „erreichbar", nicht „Geschäftsbetrieb aktiv" → Wert bleibt, Irreführung im Timeline-Vermerk dokumentiert; Adress-/Telefon-Fills weiter ohne Evidenz → Klärfall bleibt; Quelle(n): https://vcc-castrop.de/ (curl 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Deininghauser Weg 81

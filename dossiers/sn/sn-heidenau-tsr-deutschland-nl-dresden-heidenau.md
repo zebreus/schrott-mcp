@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Triage 01.10.2026 (Feedback 2621)
+
+- [Triage 01.10.2026: Feedback 2621 geprüft — lat/lon Magdeburg-Raum statt Heidenau bestätigt (>150 km). Bestehende Recherche 01.10.2026 bleibt (tsr-recycling.de live → website_status aktiv; NL-Adresse Heidenau unbestätigt, HMV-Warnung beachtet; Felder bewusst leer). Site live bestätigt (HTTP 200). Kein Overwrite.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe/NE

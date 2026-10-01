@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Triage 01.10.2026 (Feedback 2612)
+
+- [Triage 01.10.2026: Feedback 2612 berechtigt — Domain schrottentsorgung-feix.de NXDOMAIN bestätigt (DNS + HTTP 000). website_status bereits tot, Website-Feld enthält tote Domain (Bereinigung Sache des Seeds/Builds, hier kein Link-Overwrite). Kein neuer Beleg für Nachfolge-Adresse.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kupfer, Alu, Edelstahl, Messing, Zinn/Zink, Blei, Kabel; Demontage, Container

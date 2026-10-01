@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Triage 01.10.2026 (Feedback 2606)
+
+- [Triage 01.10.2026: Feedback 2606 geprüft — Adresse/Telefon/E-Mail/Abholung. Korrektur 30.09.2026 bleibt (Sascha Kaiser, Pfalzeler Str. 11, 54293 Trier, Tel. 01520 6623504, USt-Id, Abholservice; ohne HR-Zweitbeleg → Frontmatter bewusst leer; Namensvetter-Trennung bestätigt). Site live bestätigt (HTTP 200). Kein Overwrite.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Abholung, Container, Demontage, KFZ-Entsorgung; Trier–Eifel–Hunsrück

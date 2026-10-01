@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Owner-Ausnahme (Impressum Name+HRB+Ort: Rudolf Röhrig Nachfolger GmbH & Co. KG, HRB 14166 Montabaur, GF Jacqueline Schuy); Adresse/Telefon/E-Mail/Öffnungszeiten belegt; Quelle: https://www.roehrig-ak.de/impressum (Koblenzer Straße 8a, 57610 Altenkirchen); Quelle: https://www.roehrig-ak.de/kontakt (Tel. 02681-70001, info@roehrig-ak.de, Mo–Fr 07:30–12:00/13:00–15:45); Entsorgung + Rohstoffhandel FE/NE]
 
+### Triage 01.10.2026 (Feedback 2588)
+
+- [Triage 01.10.2026: Feedback 2588 geprüft — lat/lon weitab (Kassel-Raum statt Altenkirchen). Bestehende Recherche 01.10.2026 deckt Adresse/Kontakt/Zeiten per Owner-Ausnahme (HRB 14166) ab; Geocodierung läuft adressbasiert neu. Kein Overwrite nötig.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Entsorgung + Rohstoffhandel FE/NE (100+ Jahre)

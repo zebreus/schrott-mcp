@@ -30,6 +30,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
+- [Recherche 01.10.2026: Feedback-Triage 2294 berechtigt-ohne-Fill — Öffnungszeiten-Fehlstand bestätigt, aber kein verlässlicher Fill möglich: Widerspruch Filial-Tabelle (Mo/Mi/Fr ab 10 Uhr) vs. Banner/Service-Team (Mo-Fr 9-13/14-17, Mi 9-13) weiterhin unaufgelöst (Vor-Recherche 01.10.2026) → opening_hours bleibt leer, Adresse/Telefon/E-Mail aus Feedback bestätigt korrekt (kein Change). Kein Phantom-Risiko (Filiale Rodenbacher Weg 2, 63450 Hanau mehrfach belegt). Quelle(n): siehe Vor-Recherche-Quellen oben (store.heraeus-gold.com/filiale/, /ankauf/)]
+
 - [Recherche 01.10.2026: Owner-Ausnahme (Impressum Name+HRB+Ort, HR-kongruent HRA 93163 AG Hanau, HRB 2643); Filial-Fakten Rodenbacher Weg 2, 63450 Hanau, Tel. +49 6181 35 35 35, service@heraeus-gold.de belegt; Quelle(n): https://store.heraeus-gold.com/impressum/ + https://store.heraeus-gold.com/filiale/ + https://store.heraeus-gold.com/ankauf/]
 - [Recherche 01.10.2026: Zweit-Domain-Bestaetigung (gleicher Betreiber): Goldstore-Seite nennt Rodenbacher Weg 2, 63450 Hanau, Tel. +49 6181 35 35 35, service@heraeus-gold.de; Quelle(n): https://www.heraeus-gold.de/ueber-uns/goldstore-hanau/]
 - [Recherche 01.10.2026: HR-Gegenbeleg Heraeus Metals Germany GmbH & Co. KG, AG Hanau HRA 93163 (Northdata-Seite mit exakt dieser HRA); Quelle(n): https://www.northdata.de/Heraeus+Metals+Germany+GmbH+Co.+KG,+Hanau/HRA+93163]

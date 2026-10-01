@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 30.09.2026 (Feedback-Triage): Feedback 1694 bestaetigt — Impressum durchgehend Chemnitz (Am Siegmarer Bahnhof 3, 09117, HRB 12942); Wuestenbrand-Adressen widerspruechlich (Umzug-Verdacht); Sitz korrigiert, website aktiv. Quelle: https://www.schrott-friedrich.de (Impressum).]
 - [Korrektur 30.09.2026 (Feedback-Triage): Re-Report fb1818 (»Standort Chemnitz, Kontaktdaten fehlen«) — Tiefencrawl verifiziert: Tel. 0371 853084 (Betreiber-Seite + Gelbe Seiten + Das Oertliche) → gefuellt; Oeffnungszeiten Mo-Fr 06:00-16:00 (Betreiber-Seite + Gelbe Seiten + sellwerk) → gefuellt; Buntmetallannahme abweichend Mo-Fr 06:00-15:45 mit Pausen 08:30-09:00/12:30-13:00 (Betreiber-Einzelbeleg, nur Vermerk). Email info@schrott-friedrich.de nur Betreiber-Einzelbeleg → nicht gefuellt. Quelle: schrott-friedrich.de (Startseite/Impressum/Anfahrt), gelbeseiten.de, dasoertliche.de.]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2655 geprueft — E-Mail info@schrott-friedrich.de und Zeiten (Mo-Fr 6-16, Buntmetall bis 15.45) auf Betreiberseite live verifiziert, aber weiter Einzelbeleg ohne Zweitquelle → kein Fill; Dublette zu sn-chemnitz-schrott-friedrich (gleiche Firma/Website/HRB 12942) vermerkt, Klaerung Dubletten-Entscheid offen; 30.09-Fills bleiben; Quelle(n): https://www.schrott-friedrich.de]

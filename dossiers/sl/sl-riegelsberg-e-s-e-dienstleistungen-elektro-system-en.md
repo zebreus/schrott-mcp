@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: http://www.elektro-system-entsorgung.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2618 berechtigt als Klärfall (Einzelbeleg). Betreiber-Fußzeile live: ESE Dienstleistung, Hilschbacher Strasse 66, 66292 Riegelsberg, Tel. 0151/65134087, info@elektro-system-entsorgung.de; Erstbehandlungsanlage E-Geräte (sonstige passt). Ohne Zweitbeleg → Werte NUR hier, Frontmatter leer; website_status aktiv per Live-Abruf; Quelle(n): http://www.elektro-system-entsorgung.de (eine Quelle)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

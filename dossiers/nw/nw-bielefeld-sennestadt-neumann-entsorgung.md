@@ -6,8 +6,8 @@ state: NW
 city: Bielefeld-Sennestadt
 street: 'Krackser Str. 180'
 postcode: '33689'
-phone: ''
-email: ''
+phone: '05205 70061'
+email: 'info@neumann-entsorgung.de'
 opening_hours: ''
 website: https://neumann-entsorgung.de/
 website_status: 'aktiv'
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website neumann-entsorgung.de tiefgecrawlt (Home, Kontakt, Impressum, Abfallarten, Über-uns). Impressum: NEUMANN ENTSORGUNG GmbH & Co. KG, Krackser Str. 180, 33689 Bielefeld-Sennestadt, Tel. 05205/70061, info@neumann-entsorgung.de. Zweitbeleg Register: HRA 17480, AG Bielefeld, Firmenadresse Krackser Straße 180, 33689 Bielefeld (Northdata + Creditreform-Firmeneintrag + HR-Spiegel). Tel./E-Mail nur Website-Einzelbeleg — Felder leer. Öffnungszeiten widersprüchlich innerhalb derselben Website (Kontakt: Mo–Fr 07–16, Sa 08–12 vs. Footer: Werktags 07–12:30/13–16, Sa 08–12) — Feld leer bis Klärung. Leistungen: Schrott/Metalle (Kupfer, Messing, Alu, Blei, Zink, Kabel, V2A), Anlieferung ohne Termin möglich, Entsorgungsfachbetrieb; Quelle(n): neumann-entsorgung.de (/impressum, /kontakt, /abfallarten), northdata.de (HRA 17480), firmeneintrag.creditreform.de]
+
+### Recherche 01.10.2026 (Triage Feedback 2549)
+
+- [Recherche 01.10.2026: Feedback 2549 teilweise berechtigt — HR-Spiegel (aktiv, HRA 17480, Krackser Straße 180, 33689 Bielefeld) adressgleich zum Impressum → Owner-Ausnahme erfüllt → phone/email gefüllt; Öffnungszeiten weiterhin leer (site-interner Widerspruch unaufgelöst); Quelle(n): online-handelsregister.de HRA 17480]

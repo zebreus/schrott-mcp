@@ -8,12 +8,12 @@ street: 'Rodendamm 7-9'
 postcode: '28816'
 phone: '0421 891236'
 email: 'kontakt@gerdes-metallhandel.de'
-opening_hours: ''
+opening_hours: 'Mo-Fr 07:30-16:45'
 website: https://www.gerdes-metallhandel.de
 website_status: 'aktiv'
 status: unbekannt
 description: ''
-dropoff_json: ''
+dropoff_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Anlieferung Mo-Fr 07:30-16:45, Verwiegung + Barvergütung zum Tagespreis; keine Kühlschränke/TV/Monitore (Betreiber-Website, Feedback-Triage 01.10.2026)"}'
 pickup_json: ''
 provenance_section: Verifikations-Upgrades (Verzeichnis → Ankauf ja, per Webfetch
   bestätigt)
@@ -36,3 +36,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche ni-stuhr-brinkum-johannes-gerdes-schrott-und-metallhandel: BEWIESENE KORREKTUR street Rodendamm 7 → Rodendamm 7-9, 28816 Stuhr-Brinkum — Betreiber-Impressum (Johannes Gerdes Schrott- und Metallhandels GmbH, HRB 110865 AG Walsrode, HR-kongruent, Owner-Ausnahme) + HR-Zweitbeleg; Tel/Mail/website aus Betreiberseiten (gerdes-metallhandel.de + johannesgerdes.de); Quelle(n): https://www.gerdes-metallhandel.de/kontakt, https://www.gerdes-metallhandel.de/impressum, https://johannesgerdes.de/, https://www.online-handelsregister.de/handelsregisterauszug/ni/Walsrode/HRB/110865/Johannes-Gerdes-Schrott-und-Metallhandels-GmbH]
+- [Feedback-Triage 01.10.2026 (ID 2435): BEWIESENE KORREKTUR opening_hours 'Mo-Fr 07:30-16:45' (durchgehend) — Impressum nennt GmbH + HRB 110865 AG Walsrode (Owner-Primärquelle, HR-kongruent), Kontakt- + Ankaufliste-Seiten nennen dieselben Zeiten (site-interne Bestätigung). Privatanlieferung belegt: 'Gewerbebetriebe und Privathaushalte haben die Möglichkeit, ihre Schrott- und Metallabfälle bei uns abzugeben' (Verwiegung + Barvergütung zum Tagespreis; Ausschluss Kühlschränke/TV/Monitore) → dropoff_json privat/gewerbe gesetzt. Quelle(n): https://www.gerdes-metallhandel.de/pages/kontakt.php, https://www.gerdes-metallhandel.de/pages/metallhandel.php, https://www.gerdes-metallhandel.de/pages/impressum.php (Abruf 01.10.2026).]

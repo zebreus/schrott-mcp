@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Triage 01.10.2026 (Feedback 2587)
+
+- [Triage 01.10.2026: Feedback 2587 geprüft — E-Mail/Zeiten. Bestehende Recherche 01.10.2026 bleibt (Betreiber-Impressum + Instagram-Zweitbeleg, Zeiten-Widerspruch 8-16 vs. 7-16 als Klärfall offengelegt, Felder bewusst leer). Kein Overwrite; website_status aktiv bestätigt (HTTP 200).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Ankauf, Container, Entrümpelung, Abholung; Tagespreis per Telefon

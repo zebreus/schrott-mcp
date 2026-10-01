@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Triage 01.10.2026 (Feedback 2620)
+
+- [Triage 01.10.2026: Feedback 2620 geprüft — bestehender Doppel-Durchgang 01.10.2026 bleibt (Kontaktseite als Zweitbeleg + Aggregator-Stütze; Frontmatter gefüllt). Site live bestätigt (HTTP 200 Impressum). Kein Overwrite.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe-Schrott, Buntmetall, Container

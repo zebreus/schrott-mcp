@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - germanlisting.com ("Wir kaufen Altmetalle zu aktuellen Preisen", Annahme ab 1 Kilo)
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: keine Frontmatter-Fills (Jahnstr. 7 + 0162 6216491 aus Vorwelle unverändert); Zweitbeleg aussteht: germanlisting 403/Cloudflare, branchenheld Transport-Error, Bing nur Noise, lokaleschrottplatz Grevesmühlen listet nur GVM Grüner Weg 11; Quelle(n): keine neuen — Stand unverändert]
+
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

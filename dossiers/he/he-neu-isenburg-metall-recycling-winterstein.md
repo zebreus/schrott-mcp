@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026 (Tiefenrecherche-Welle): KEIN Beleg — 11880-Suche „Winterstein/Neu-Isenburg" ohne Treffer für Metall Recycling Winterstein (nur fachfremde Wintersteins). Verwandte Schrott-Wintersteins andernorts (Schrotthandel Winterstein Alsfeld, Schrott & Altmetallhandel Winterstein Wiesbaden) stützen den Neu-Isenburger Eintrag NICHT. Keine Betreiber-Website, kein Registerbeleg → Felder leer, Klärfall. Quelle(n): https://www.11880.com/suche/winterstein/neu-isenburg (Negativbeleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)

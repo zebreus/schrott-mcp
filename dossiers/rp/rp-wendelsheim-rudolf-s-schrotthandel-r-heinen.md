@@ -35,3 +35,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: ok — hpage-Betreiber-Impressum belegt Neuer Weg 19, 55234 Wendelsheim, Tel. 0171/9858467; kein HR-Eintrag gefunden (mutmaßl. Einzelunternehmen, R. Heinen), Status bleibt aktiv per Betreiberquelle; Quelle(n): https://rudolfs-schrotthandel.hpage.com/ (Betreiber-Impressum, per Fetch verifiziert)]
+- [Recherche 01.10.2026 (Feedback 2582): Zweitbeleg-Versuch — kein HR-Eintrag (Einzelunternehmen R. Heinen, kein HRB erwartet), kein unabhängiger Zweitbeleg auffindbar (hpage-Betreiberquelle bleibt Einzelbeleg); Frontmatter-Werte (Neuer Weg 19, 55234, 01719858467) feedback-kongruent, beibehalten; Angebot mobil (Ankauf/Entsorgung Altmetalle, Altfahrzeuge, Einzugsgebiet Alzey-Worms/Bad Kreuznach/Mainz-Bingen) nur hier vermerkt; Quelle(n): https://rudolfs-schrotthandel.hpage.com/impressum.html, https://rudolfs-schrotthandel.hpage.com/]

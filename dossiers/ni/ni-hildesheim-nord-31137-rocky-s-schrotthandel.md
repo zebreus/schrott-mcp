@@ -5,8 +5,8 @@ trader_type: schrotthaendler
 state: NI
 city: Hildesheim-Nord 31137
 street: Leunisstr. 31
-postcode: ''
-phone: ''
+postcode: '31137'
+phone: '0176 36861832'
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: postcode/phone gefüllt (31137, 0176 36861832; street Leunisstr. 31 aus Vorwelle bestätigt); zwei unabhängige Belege einig; Leistungen: kostenlose Schrottabholung/Schrottankauf/Schrottentsorgung; Quelle(n): dastelefonbuch + gelbeseiten.de/gsbiz/de689062 (einig)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

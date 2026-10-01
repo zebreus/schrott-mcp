@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Entrümpelung/Schrottsammlung
 - Adresse: Koblenz 56070
 
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026 (Tiefenrecherche-Welle): Negativbeleg bestätigt Vornotiz — 11880-Suche „Koblenzer-Entrümpelungen/Koblenz" ohne Treffer; weiterhin keine Betreiber-Website, kein Registerbeleg. Felder leer, Klärfall bleibt. Quelle(n): https://www.11880.com/suche/koblenzer-entruempelungen/koblenz (Negativbeleg)]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche ergebnislos, keine Betreiber-Website, kein Registerbeleg; alle Felder bleiben leer; Klärfall für Folgewelle (Gewerberegister Koblenz); Quelle(n): keine neuen.]

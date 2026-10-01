@@ -4,8 +4,8 @@ name: SM Metals GmbH
 trader_type: metallhaendler
 state: HE
 city: Lampertheim 68623
-street: ''
-postcode: ''
+street: Wilhelm-Herz-Ring 2
+postcode: '68623'
 phone: ''
 email: ''
 opening_hours: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel, evtl. Katalysatoren
 - Adresse: Lampertheim 68623
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026 (Tiefenrecherche-Welle): ADRESSE GEKLÄRT (2 unabhängige Belege) + Frontmatter gefüllt — SM Metals GmbH, Wilhelm-Herz-Ring 2, 68623 Lampertheim (Register-Einzelbeleg Northdata HRB 92336 AG Darmstadt + 11880-Detailseite mit ident. Adresse, Tel. (06206) 9510626, Öffnungszeiten Mo-Fr 8-17/Sa 9-14, Google-Aggregat 4,7/25). Tel./E-Mail/Öffnungszeiten nur einfach belegt (11880) → NICHT gefüllt. Website NICHT gefüllt: 11880 verlinkt https://sm-metallhandel.com, deren Betreiber firmiert aber als „SM Stahl und Metallhandel UG" (Name/Rechtsform weicht von GmbH ab — Umfirmierung/Nachfolge ungeklärt, kein abrufbares Impressum auf der Domain). Status pruefung bleibt. Quelle(n): Northdata-Registerdetail HRB 92336, https://www.11880.com/branchenbuch/lampertheim-hessen/060440090B102299412/sm-metals-gmbh.html, https://sm-metallhandel.com (Betreiber-Seite, Zuordnung unsicher)]
 
 ### Recherche 01.10.2026
 

@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Frontmatter gefüllt (street, postcode, phone, email, website, website_status aktiv) per Owner-Ausnahme — Betreiber-Impressum (https://baumannlogistik.de/Impressum/: Baumann Logistik GmbH & Co. KG, Christian-Lassen-Straße 2, D-53117 Bonn, HRA 85 AG Bonn, Komplementär-GmbH HRB 813, Tel. +49 228 98 98 00) HR-kongruent; HR-Spiegel erst-handig verifiziert (aktiv, HRA 85, Christian-Lassen-Str. 2, 53117 Bonn, gegr. 26.05.1961); Kontaktseite nennt abweichende Durchwahl +49 228 98 98 044 (n. übernommen, Zentrale aus Impressum gefüllt); Quelle(n): Betreiber-Impressum + Kontaktseite baumannlogistik.de, HR-Spiegel online-handelsregister.de/handelsregisterauszug/nw/Bonn/HRA/85/Baumann-Logistik-GmbH-Co-KG]
+
+### Recherche 01.10.2026 (Triage Feedback 2557)
+
+- [Recherche 01.10.2026: Feedback 2557 im Kern berechtigt — Betreiber-Site (Volltext 01.10.2026) nennt KEINEN Schrott-/Metallankauf (0 Treffer Schrott/Metall/Recycling/Ankauf); Geschäftsbereiche: Spedition, Intralogistik, Lagerung+Service, Container-Raumsysteme, Modulbau; Nuance: EfB-Zertifizierung als Transportpartner der Entsorgungswirtschaft (Reststoff-/Abfalltransporte), aber kein Ankauf → Schrotthändler-Eintrag fraglich, status bleibt pruefung, Adress-Frontmatter (Owner-Ausnahme) unberührt; Quelle(n): https://baumannlogistik.de/]

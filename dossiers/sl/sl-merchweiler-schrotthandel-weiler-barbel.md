@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Triage 01.10.2026 (Feedback 2613)
+
+- [Triage 01.10.2026: Feedback 2613 berechtigt — Domain schrott-wb.de NXDOMAIN bestätigt (DNS + HTTP 000). website_status bereits tot. Kein neuer Beleg für Nachfolge-Adresse; Straße Eisenbahnstr. 1 bleibt Aggregator-Lead ohne Zweitbeleg.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Eisen (ab 100 kg), NE (ab 1 kg), Kabel, E-Motoren, Altfahrzeuge

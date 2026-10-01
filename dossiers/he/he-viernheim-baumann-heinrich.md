@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026 (Tiefenrecherche-Welle): KEIN Beleg — 11880-Suche „Baumann/Viernheim" ohne Schrott-Treffer (nur Baumann GmbH & Co. KG Fleischwaren Am Pariser Weg 25 + Reiner Baumann Weinbau, beide fachfremd). Seed-Straße Dornierstr. 12 unbelegt, kein Register-/Betreiberbeleg → Felder leer, Klärfall (Gewerberegister Viernheim). Quelle(n): https://www.11880.com/suche/baumann/viernheim (Negativbeleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)

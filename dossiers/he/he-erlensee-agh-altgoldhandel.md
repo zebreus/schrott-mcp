@@ -5,12 +5,12 @@ trader_type: sonstige
 state: HE
 city: Erlensee
 street: Langendiebacherstr. 45
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: https://www.agh-goldankauf.de/wir-kaufen/zahngold-ankauf/
-website_status: ''
+postcode: '63526'
+phone: 06183 8075520
+email: kontakt@agh-goldankauf.de
+opening_hours: Mo-Fr 10:00-13:00 + 15:00-18:00, Sa nach Vereinbarung
+website: https://www.agh-goldankauf.de/
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2293 berechtigt-eingearbeitet — Fill: PLZ 63526, 06183 8075520 (Zweitnummer WhatsApp 0177 6275988 nur Timeline), kontakt@agh-goldankauf.de, opening_hours 'Mo-Fr 10:00-13:00 + 15:00-18:00, Sa nach Vereinbarung', website Deep-Link → Root normiert, website_status '' → aktiv. 2-Quellen-Beleg: (1) Betreiber-Impressum (AGH Altgoldhandel, Raimund Pyrka, Langendiebacherstr. 45, 63526 Erlensee, Tel./Fax, USt-ID DE 270343605) + Zahngold-/Kontaktseiten konsistent (Hauptfiliale Erlensee, Abholservice 50-km-Radius, Versand); (2) betreibergeführte Social-Profile (auf Website verlinkt: Facebook agh.altgoldhandel, Instagram aghgoldankauf). Kein HRB (Einzelunternehmen, Owner-Ausnahme n/a). Namensvetter-Check: keine zweite AGH in Erlensee. Quelle(n): https://www.agh-goldankauf.de/wir-kaufen/zahngold-ankauf/ + https://www.agh-goldankauf.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

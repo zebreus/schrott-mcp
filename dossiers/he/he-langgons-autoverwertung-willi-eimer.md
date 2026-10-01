@@ -8,10 +8,10 @@ street: 'Holzheimer Str. 97'
 postcode: '35428'
 phone: 06403 3263
 email: 'info@willieimer.de'
-opening_hours: ''
+opening_hours: Mo-Fr 08:00-17:00, Sa 08:00-14:00 (Schrottannahme Mo-Fr 08:00-16:00, Sa 08:00-12:30)
 website: 'https://www.willieimer.de/'
-website_status: ''
-status: pruefung
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback-Triage 2289 berechtigt-eingearbeitet — Fill: opening_hours 'Mo-Fr 08:00-17:00, Sa 08:00-14:00 (Schrottannahme Mo-Fr 08:00-16:00, Sa 08:00-12:30)', website_status '' → aktiv, status pruefung → aktiv (live Schrottannahme = aktiver Ankauf). Beleg: Startseite (Adresse Holzheimerstraße 97, 35428 Langgöns, Tel. 06403 3263, Zeiten) + Firmen-Impressum (gleiche Zeiten, lt. Recherche 30.09.2026) + Creditreform-Verzeichniseintrag + betreiberverlinkte Facebook-Seite (lt. Recherche 30.09.2026). Zeiten als starke Betreiber-Quelle (2 Betreiber-Seiten konsistent) mit Restunsicherheit (kein Register-/Kommunal-Zweitbeleg für Zeiten). Adresse/Telefon/Mail aus 30.09.2026 bestätigt unverändert. Quelle(n): https://www.willieimer.de/ + https://www.willieimer.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -4,9 +4,9 @@ name: MEH Jäger
 trader_type: schrotthaendler
 state: HE
 city: Heppenheim 64646
-street: ''
-postcode: ''
-phone: ''
+street: Willbacherweg 6
+postcode: '64646'
+phone: 06252 670657
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026 (Tiefenrecherche-Welle): ADRESSE/TEL GEKLÄRT (Ausnahmefall: 2 unabhängige Verzeichnisse, keine Betreiber-Quelle) + Frontmatter gefüllt — „MEH Jäger Altmetall und Containerdienst", Willbacherweg 6, 64646 Heppenheim, Tel. (06252) 670657, Branchen Containerdienst/Altmetallrecycling. Keine Betreiber-Website, kein Registerbeleg, keine E-Mail/Öffnungszeiten belegbar → Restfelder leer, Status pruefung bleibt. Quelle(n): https://www.11880.com/branchenbuch/heppenheim-bergstrasse/060371058B38320255/meh-jaeger-altmetall-und-containerdienst.html, https://www.gelbeseiten.de/suche/containerdienst/heppenheim (Gelbe Seiten: ident. Adresse/Tel.)]
 
 ### Recherche 01.10.2026
 

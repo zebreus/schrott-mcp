@@ -4,8 +4,8 @@ name: WRL GmbH
 trader_type: schrotthaendler
 state: NW
 city: Essen
-street: WRL GmbH Essen Emscherstr. 27
-postcode: '45326'
+street: Emscherstr. 27
+postcode: '45327'
 phone: 0201 2899134
 email: info@wrl-essen.de
 opening_hours: Mo-Fr 7:00-17:00, Sa 7:00-16:00
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Frontmatter gefüllt (phone, email, website, website_status aktiv, opening_hours) per Owner-Ausnahme — Betreiber-Impressum (https://www.wrl-essen.de: WRL GmbH, Emscherstr. 27, HRB 19378 AG Essen) HR-kongruent, HR-Spiegel aktiv-konform; Öffnungszeiten Mo-Fr 07:00-17:00 (Annahme bis 16:30), Sa 07:00-16:00 (Annahme bis 15:30); Straße/PLZ NICHT angefasst — HR-Spiegel nennt PLZ 45326 abweichend zum Impressum (PLZ-Konflikt, Klärfall); Quelle(n): Betreiber-Impressum wrl-essen.de, HR-Spiegel online-handelsregister.de]
+
+### Recherche 01.10.2026 (Triage Feedback 2564)
+
+- [Recherche 01.10.2026: Feedback 2564 berechtigt — Betreiber-Footer (aktuell, © 2026): „Emscherstrasse 27 | 45327 Essen" → PLZ-Konflikt zugunsten der Betreiber-Primärquelle aufgelöst (postcode 45326 → 45327); street-Fix (Firmen-/Ortspräfix entfernt → „Emscherstr. 27"); HR-Spiegel-45326 als überholter Registerstand vermerkt; Quelle(n): https://www.wrl-essen.de/ (Footer)]

@@ -1,7 +1,7 @@
 ---
 slug: sn-groenhain-walter-kunze-nl-groenhain
 name: Walter Kunze NL Großenhain
-trader_type: sonstige
+trader_type: metallhaendler
 state: SN
 city: Großenhain
 street: 'Nauleiser Str. 1'
@@ -45,3 +45,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Straßen-Konflikt gelöst — Betreiber-Detailseite nennt Nauleiser Str. 1, 01558 Großenhain, Tel. 03522/54096-0 (Owner-Direktive, Impressum HRB 1520 AG Ulm) → street-Fill Nauleiser Str. 1; NL-Leiter j.adam@kunze-group.de; Quelle(n): https://www.kunze-group.de/index.php/kontakt/walter-kunze-schrott-und-metallhandels-gmbh-grossenhain, https://www.kunze-group.de/index.php/impressum-downloads]
+- [Recherche 01.10.2026: Feedback 2639 bestaetigt — Betreibername Walter Kunze Schrott- und Metallhandels GmbH → trader_type sonstige nach metallhaendler korrigiert; Adresse Nauleiser Str. 1, 01558 Großenhain, Tel. 03522 54096-0, E-Mail j.adam@kunze-group.de und Zeiten Mo-Fr 7.00-9.00/9.30-12.00/12.30-16.45, Sa 8.00-11.45 live verifiziert; Quelle(n): https://www.kunze-group.de/index.php/kontakt/walter-kunze-schrott-und-metallhandels-gmbh-grossenhain]

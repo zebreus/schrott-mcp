@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://jakob-becker.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorgung, Lagern (nur Eisen-/Stahlabfälle zert.)
 - kein belegter Barankauf
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2642 geprueft — Konzern-Standortliste jakob-becker.de listet drei Freital/Dresden-Eintraege (Sachsenplatz 3 mit freital@becker-umweltdienste.de / Tel. +49 351 64400-14; Zoellmener Str. 46 mit dresden@becker-umweltdienste.de / Tel. +49 351 80017-12; Schmiedeberg Altenberger Str. 71b) — keiner eindeutig der NL Freital zuordenbar, daher kein Frontmatter-Fill, status bleibt pruefung, website live aktiv; Koordinaten-Neugeocodierung bei Adressklaerung erforderlich; Quelle(n): https://jakob-becker.de/standorte/]

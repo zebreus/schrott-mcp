@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Betreiber-Website tiefgecrawlt (Home, Leistungen, Schrottplatz/Ankauf, Anfahrt, Kontakt, Impressum). Inh. Karin Reinhardt, Am Metternicher Bahnhof 18, 56072 Koblenz, Tel. 0261 94251572 und 0171 1672876, E-Mail info@schrott-koblenz.de, Öffnungszeiten Mo–Fr 08:00–16:30, Sa 08:30–12:30; NE-Metall-Ankauf zu Tageshöchstpreisen, geeichte Waage, Containerdienst, Entrümpelung/Abbruch (Einzelbeleg, unsicher — kein HRB, kein Zweitbeleg, Frontmatter bleibt leer). Quellen: koblenzer-schrotthandel.de.]
 
+### Triage 01.10.2026 (Feedback 2610)
+
+- [Triage 01.10.2026: Feedback 2610 geprüft — Adresse/Telefon/E-Mail/Zeiten + Ortsteil. Bestehende Recherche 01.10.2026 bleibt (Inh. Karin Reinhardt, Am Metternicher Bahnhof 18, 56072 Koblenz-Metternich vs. DB-Ort Lützel — Diskrepanz offengelegt; Einzelbeleg ohne HRB → Frontmatter bewusst leer). Kein Overwrite; website_status aktiv bestätigt (HTTP 200).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz, Tageshöchstpreise, geeichte Waage

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2533 berechtigt, Klärfall: Website https://www.dew-stahl.com/ leitet auf https://swisssteel-group.com/de (Swiss Steel Group) weiter — Konzernseite ohne Standortadresse/Telefon für Siegen/Hagen/Krefeld. Keine Frontmatter-Fills (kein Phantom-Fill); city-Sammelwert ‚Siegen / Hagen / Krefeld‘ bleibt vorerst (Format-Klärfall). Nächster Schritt: Swiss-Steel-Standortseiten/Impressum für DEW-Werke einzeln verifizieren, ggf. Dossier splitten.; Quelle(n): https://www.dew-stahl.com/ → https://swisssteel-group.com/de (Redirect verifiziert 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - EAF-Langstahl, ~92 % Schrottanteil (Green Steel), Legierungs-/Werkzeugstahl

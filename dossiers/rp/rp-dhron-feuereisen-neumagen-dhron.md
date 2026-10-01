@@ -3,10 +3,10 @@ slug: rp-dhron-feuereisen-neumagen-dhron
 name: Feuereisen Neumagen-Dhron
 trader_type: sonstige
 state: RP
-city: Dhron
-street: Feuereisen Neumagen-Dhron Dhron Hochwaldstr. 33
-postcode: ''
-phone: ''
+city: Neumagen-Dhron
+street: Hochwaldstr. 33
+postcode: '54347'
+phone: 06507 702325
 email: ''
 opening_hours: ''
 website: ''
@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Hochwaldstr. 33
 - urspr. Website-Angabe: keine
 - Adresse: Dhron
+
+### Recherche 01.10.2026 (Tiefenrecherche-Welle)
+
+- [Recherche 01.10.2026 (Tiefenrecherche-Welle): ADRESSE/TEL GEKLÄRT (Ausnahmefall: 2+ unabhängige Verzeichnisse + Betreiber-Social als Existenzbeleg) + Frontmatter gefüllt — „Ingo Feuereisen Schrotthandel", Hochwaldstr. 33, 54347 Neumagen-Dhron (Ortsteil Papiermühle), Tel. (06507) 702325, Branchen Entsorgung/Schrotthandel/Altmaterialhandel, 11880 5★/1 + Google-Aggregat 5/3. Street-Feld bereinigt (war Adress-Konglomerat), City Dhron → Neumagen-Dhron präzisiert (Koordinaten neu zu geocodieren). Keine Betreiber-Website, keine E-Mail belegbar → Restfelder leer, Status pruefung bleibt, website_status unbekannt bleibt. Quelle(n): https://www.11880.com/branchenbuch/neumagen-dhron/060441364B100125559/ingo-feuereisen-schrotthandel.html, facebook.com/schrotthandelfeuereisen (Betreiber-Social), 11880/Cylex/firmania-Leads (Vornotiz)]
 
 ### Recherche 01.10.2026
 

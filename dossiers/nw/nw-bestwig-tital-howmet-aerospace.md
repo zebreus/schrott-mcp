@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Feedback 2536 berechtigt, Klärfall: Website https://www.tital.de/ leitet auf https://www.howmet.com/about-howmet-engine-products/ (Howmet-Konzernseite) weiter — Standort Bestwig/Adresse/Telefon dort nicht gelistet. Keine Frontmatter-Fills (kein Phantom-Fill); status pruefung bleibt. Nächster Schritt: Howmet-Standortverzeichnis/Handelsregister (TITAL GmbH, Bestwig) für Adresse/HRB separat verifizieren.; Quelle(n): https://www.tital.de/ → Howmet-Redirect verifiziert 01.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Titan-/Alu-Feinguss (Aerospace), Sauerland-Gießerei

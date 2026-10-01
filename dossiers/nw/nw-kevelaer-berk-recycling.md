@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback 2539)
+
+- [Recherche 01.10.2026: Feedback 2539 berechtigt, aber kein Overwrite (Direktive 01.10.2026): Adresse Velder Dyck 21, 47624 Kevelaer + E-Mail info@berk-recycling.com + Zeiten Mo-Fr 08:00-16:30/Sa geschlossen via Betreiber-Kontaktseite bestätigt; Telefon-Artefakt ‚02832 78597)‘ bleibt vorerst (kein Overwrite ohne 2. unabhängige Telefon-Quelle). HRB 18672 AG Kleve HR-kongruent (Northdata-Zweitbeleg).; Quelle(n): https://berk-recycling.com/kontakt/ (Abruf 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Tageshöchstpreise, 2 BImSchG-Standorte, Container/Abbruch (Kevelaer 02832 78597)

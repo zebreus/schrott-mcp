@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metall/Mischschrott, Container, Demontage
 - Adressbeleg: bur-recycling-duisburg.de/impressum
+
+### Recherche 01.10.2026
+
+- [Feedback-Triage 01.10.2026 (ID 2441): E-Mail b-u-r@mail.de auf Homepage-Header + Impressum verifiziert — aber EINE Quelle (kein HRB im Impressum, nur USt-Id; GF Nico Bernhardt) → keine Owner-Ausnahme → kein Fill (Klärfall). Telefon-Befund: Website nennt +49 2838 7757880 UND Mobil +49 1516 4400500 (Dossier hat 02838 7757880 / 0151 64400500 — Mobil-Diskrepanz 1516 vs 0151? pertinentes Gegenlesen: Impressum '+49 15164 4005 00' vs Dossier '0151 64400500' — Ziffernfolge identisch 15164400500, nur anders gruppiert → kein Widerspruch). Quelle(n): https://www.bur-recycling-duisburg.de/impressum (Abruf 01.10.2026).]

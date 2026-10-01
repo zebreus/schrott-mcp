@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026 (Feedback 2526)
+
+- [Recherche 01.10.2026: Feedback 2526 teils berechtigt/teils verworfen: Straße/PLZ/Telefon bereits verifiziert (Aluminiumstr. 1, 41515 Grevenbroich, +49 2181 66-01) — keine Frontmatter-Änderung (kein Overwrite pro Direktive). E-Mail info.gv@speira.com nur Impressum-Einzelbeleg, Hersteller-B2B ohne Privatanlieferungs-Beleg (DB-dropoff allowed=true unbelegt) → nicht gefüllt (kein Phantom-Fill). Speira ist Alu-Walzwerk/Recycler, kein klassischer Händler. Namensvetter-Check: Speira Grevenbroich eindeutig (HRB 14011 AG Mönchengladbach).; Quelle(n): https://www.speira.com/imprint/ (Abruf 01.10.2026)]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Vollbeleg via Betreiber-Impressum (Owner-Primaerquelle, Name+HRB+Ort): Speira GmbH, Aluminiumstr. 1, 41515 Grevenbroich, HRB 14011 AG Moenchengladbach, Tel. +49 2181 66 01 — Frontmatter gefuellt, website_status aktiv. Hinweis: Alu-Walzproduzent + Recycling-Services (B2B), kein klassischer Privatkunden-Schrottankauf; E-Mail + Oeffnungszeiten nicht ausgewiesen (Anfrageformular) → leer.; Quelle(n): https://www.speira.com/imprint/ (Abruf 01.10.2026)]
