@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Füllung — ausschließlich Aggregator-Leads (keine Belege), zudem WIDERSPRÜCHLICH: Mühlheimer Str. 181, 63075 Offenbach + Mobil 01515 1285906 (Das Örtliche/DasTelefonbuch/11880/lokaleschrottplatz) vs. Dieselstr. 38–40, 63071 Offenbach + 069 48445236 (meinestadt/öffnungzeitenbuch). Keine Betreiber-Website, kein HR-Eintrag, keine kommunale Quelle; leere Felder bleiben leer; Status bleibt pruefung; Quelle(n): DDG-Leads 01.10.2026 (unbelegt, widersprüchlich)]

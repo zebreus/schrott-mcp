@@ -4,13 +4,13 @@ name: Theo Steil GmbH (NL Ludwigshafen)
 trader_type: schrotthaendler
 state: RP
 city: Ludwigshafen
-street: ''
-postcode: ''
-phone: ''
+street: 'Inselstraße 17'
+postcode: '67065'
+phone: +49 621 685607-0
 email: ''
-opening_hours: ''
+opening_hours: Annahme Mo–Fr 07:00–16:00 Uhr
 website: https://www.steil.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallgroßhandel, v.a. Gewerbe/Industrie
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Frontmatter verifiziert/gefüllt (Straße/PLZ/Phone/Öffnungszeiten/Status): Betreiber-Standortseite nennt Theo Steil GmbH Schrott- und Metallgroßhandel, Inselstraße 17, 67065 Ludwigshafen, Tel. +49 621 685607-0, Annahme Mo–Fr 07:00–16:00 (Ladezeiten 07:00–15:00, Pause 12:00–13:00). Impressum: Ostkai 6, 54293 Trier, HRB 2084 AG Wittlich. HR-Kongruenz: Northdata + Creditreform + online-handelsregister führen HRB 2084 (AG Wittlich). Betreiber-Primärquelle + HR-Kongruenz per Owner-Direktive 01.10.2026 als Beleg; E-Mail obfuskiert (info@steil.de naheliegend, aber nicht wörtlich belegt → leer gelassen); Quelle(n): https://www.steil.de/standorte-kontakt/ludwigshafen + https://www.steil.de/rechtliches/impressum (eine Quelle) + Northdata/Creditreform-HR-Nachweis]

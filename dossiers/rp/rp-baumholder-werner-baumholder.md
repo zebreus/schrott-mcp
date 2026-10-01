@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Berschweilerstr. 11, 52★
 - urspr. Website-Angabe: keine
 - Adresse: Baumholder
+
+### Recherche 01.10.2026
+
+- Miss: Seed-Straßenfragment (Berschweilerstr. 11) ohne PLZ/Ort-Beleg; keine Betreiber-Website, kein Northdata/HR-Eintrag, kein kommunales Register, kein Betreiber-Social. Nur Aggregator-Leads. Keine 2 unabhängigen Belege — keine Frontmatter-Fills (street bleibt Seed-Rohtext).

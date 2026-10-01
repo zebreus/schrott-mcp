@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Silberhandel (nur Gelbe-Seiten-Beleg)
 - Adresse: Rotherbaum, 20146 (Straße offen)
+
+### Recherche 01.10.2026
+- Klärfall/miss: nur Gelbe-Seiten-Beleg (Silberhandel, Rotherbaum 20146), keine Betreiber-Website, kein Register-Zweitbeleg.
+- Quellen: Gelbe Seiten (Lead).

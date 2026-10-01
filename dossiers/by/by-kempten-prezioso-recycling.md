@@ -5,12 +5,12 @@ trader_type: sonstige
 state: BY
 city: Kempten
 street: Porschestr. 17
-postcode: ''
-phone: ''
-email: ''
+postcode: '87437'
+phone: '+49 831 58091389'
+email: info@prezioso-recycling.com
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://prezioso-recycling.com
+website_status: aktiv
 status: unbekannt
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lagern/Behandeln/Handeln
+
+### Recherche 01.10.2026
+- Betreiber-Impressum (Prezioso Recycling GmbH, Porschestraße 17, 87437 Kempten, HRB 14026 AG Kempten) + Northdata HRB 14026-kongruent (Owner-Ausnahme).
+- Quellen: https://prezioso-recycling.com/impressum, Northdata HRB 14026.

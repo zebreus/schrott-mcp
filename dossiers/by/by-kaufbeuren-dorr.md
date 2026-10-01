@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lagern/Behandeln, z. T. Handeln/Makeln
+
+### Recherche 01.10.2026
+- Klärfall: Seed-Adresse Dieselstr. 32 gehört per dorr.de zur Kempten-Site; Kaufbeuren-Site Im Hart 13. dorr.de Timeout bei Direktfetch. Keine Überschreibung, HR-Eintrag allein kein Zweitbeleg.
+- Quellen: https://dorr.de (Timeout/Standortseiten), Northdata Dorr GmbH & Co. KG.

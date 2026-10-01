@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Worms 67547
+
+### Recherche 01.10.2026
+
+- Miss: keine Betreiber-Primärquelle, kein Northdata/HR-Eintrag, kein kommunales Register, kein Betreiber-Social. Nur Aggregator-Leads (keine Belege). DDG mit Bot-Challenge blockiert — keine 2 unabhängigen Belege, keine Frontmatter-Fills.

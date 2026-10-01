@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Wabern 34590
+
+### Recherche 01.10.2026
+
+- Miss: DDG ohne Treffer, keine Betreiber-Website, kein Northdata/HR-Eintrag, kein kommunales Register, kein Betreiber-Social. DDG zusätzlich mit Bot-Challenge blockiert — keine 2 unabhängigen Belege, keine Frontmatter-Fills.

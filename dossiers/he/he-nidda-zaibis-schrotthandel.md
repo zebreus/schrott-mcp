@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mobile Schrottabholung (Verzeichnis)
+
+### Recherche 01.10.2026
+
+- Miss: keine belegfähigen Funde. Nur Aggregator-Lead (lokaleschrottplatz, Gersfeld-Mismatch), keine Betreiber-Primärquelle, kein HR-/Northdata-Eintrag, kein kommunales Register, kein Betreiber-Social. DDG blockiert (Bot-Challenge), daher keine 2 unabhängigen Belege — keine Frontmatter-Fills.

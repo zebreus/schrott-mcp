@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Alt-/Abfallstoffe (verzeichnisverifiziert)
 - Adresse: Göttingen 37081, Salinenweg 4
+
+### Recherche 01.10.2026
+- Klärfall/miss: Telefon 0551 61664 / Salinenweg 4 nur via Telefonbuch/Gelbe Seiten (Leads, keine Belege). Kein Betreiber-/Registerbeleg.
+- Quellen: Gelbe Seiten, Telefonbuch (Leads).

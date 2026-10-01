@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Aggregator-Leads (schrottplatz-info, MisterWhat: Britzer Damm 54, 12347 Berlin, Mobil 0176/63060323). Keine Betreiber-Website, kein Register, kein Betreiber-Social. status unbekannt bleibt.; Quelle(n): Lead-Recherche 01.10.2026 (Aggregator-Leads, kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - nur schrottplatz-info (alt, keine Website) Adresse: Britzer Damm 54, 12347 Berlin; Mobil 0176 63060323

@@ -4,8 +4,8 @@ name: Steinhaus
 trader_type: schrotthaendler
 state: NW
 city: Pulheim
-street: ''
-postcode: ''
+street: 'Boschstr. 22'
+postcode: '50259'
 phone: ''
 email: ''
 opening_hours: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Register-Doppelbeleg: Northdata AG Köln HRB 40226 (Adresse Boschstr. 22, D-50259 Pulheim; Gegenstand Metallgroßhandel; Jahresabschlüsse bis 2024) + online-handelsregister.de HRB 40226 (Boschstrasse 22, 50259 Pulheim). Keine Betreiber-Website gefunden (nur Aggregatoren: Cylex, Firmania = Leads). Kein expliziter Schrottankauf-Beleg → status bleibt pruefung.; Quelle(n): Northdata HRB 40226, online-handelsregister.de HRB 40226]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

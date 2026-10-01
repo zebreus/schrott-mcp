@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Aggregator-Leads (11880, öffnungszeitenbuch, schrottplatz.org: „Schrotthandel Wolter", Angerstr. 5, 41199 Mönchengladbach). Keine Betreiber-Website, kein HR-Eintrag (mutmaßl. Einzelunternehmen). Adresse daher nicht frontmatter-fähig. status pruefung.; Quelle(n): Lead-Recherche 01.10.2026 (Aggregator-Leads, kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

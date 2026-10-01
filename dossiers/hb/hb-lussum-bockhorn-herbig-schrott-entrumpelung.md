@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Aggregator-Leads (Firmania, 11880: „Herbig Schrott & Entrümpelung", Schwaneweder Str. 44a, 28779 Bremen-Lüssum-Bockhorn). Keine Betreiber-Website, kein Register, kein Betreiber-Social. Adresse daher nicht frontmatter-fähig (Seed-Adresse aus Orts-PLZ, kein Beleg). status pruefung.; Quelle(n): Lead-Recherche 01.10.2026 (Aggregator-Leads, kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott + Entrümpelung

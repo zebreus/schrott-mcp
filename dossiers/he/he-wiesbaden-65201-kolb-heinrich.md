@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Klein-AV?
 - Adresse: Wiesbaden 65201
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: KEINE Frontmatter-Füllung — Leads (keine Belege): mehrere Verzeichnisse führen „Autoverwertung Kolb Heinrich GmbH", Eisenmännchenstr., Wiesbaden-Schierstein (misterwhat, branchenbuch24, ledtex, auftragsfreundlich). Einordnung Autoverwertung vs. Schrottankauf unklar; keine Betreiber-Website, kein HR-Eintrag, keine kommunale Quelle gefunden; leere Felder bleiben leer; Status bleibt pruefung; Quelle(n): DDG-Leads 01.10.2026 (unbelegt)]

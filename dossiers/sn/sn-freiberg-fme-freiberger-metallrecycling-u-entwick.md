@@ -5,12 +5,12 @@ trader_type: metallhaendler
 state: SN
 city: Freiberg
 street: Schachtweg 6
-postcode: ''
-phone: ''
-email: ''
+postcode: '09599'
+phone: '+49 3731 300713'
+email: martin.seifert@fme-metallrecycling.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: http://fme-metallrecycling.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Handeln/Makeln (Register)
 - Bergbau-Region, kein Annahme-Nachweis
+
+### Recherche 01.10.2026
+- Betreiber-Impressum (FME GmbH, Schachtweg 6, 09599 Freiberg, HRB 25269 AG Chemnitz, GF Martin Seifert) + Northdata-kongruent (Owner-Ausnahme).
+- Quellen: http://fme-metallrecycling.de/impressum, Northdata HRB 25269.

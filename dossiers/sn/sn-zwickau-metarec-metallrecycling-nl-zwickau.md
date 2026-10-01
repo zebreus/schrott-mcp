@@ -4,13 +4,13 @@ name: metarec Metallrecycling GmbH, NL Zwickau
 trader_type: metallhaendler
 state: SN
 city: Zwickau
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: 'Reichenbacherstraße 79b'
+postcode: '08056'
+phone: '0375 4406976-0'
+email: nlzwickau@metarec-recycling.de
+opening_hours: 'Mo–Fr 07:00–16:00'
 website: https://www.metarec-recycling.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Stahlschrott, Buntmetall
 - auch Sa-Annahme
+
+### Recherche 01.10.2026
+- Betreiber-Standortseite (metarec NL Reichenbacherstr. 79b, 08056 Zwickau) + Legal Notice HRB 3821 AG Chemnitz, HR-kongruent (Owner-Ausnahme).
+- Quellen: https://www.metarec-recycling.de/de/standorte, https://www.metarec-recycling.de/en/legal-notice.

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel
+
+### Recherche 01.10.2026
+
+- Miss: keine Betreiber-Primärquelle, kein Northdata/HR-Eintrag, kein kommunales Register, kein Betreiber-Social. Nur Aggregator-Leads. DDG mit Bot-Challenge blockiert — keine 2 unabhängigen Belege, keine Frontmatter-Fills.

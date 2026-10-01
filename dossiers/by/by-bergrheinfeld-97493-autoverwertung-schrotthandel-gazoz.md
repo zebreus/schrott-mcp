@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - AV/Schrott — OSM (nicht in GS)
 - urspr. Website-Angabe: keine
 - Adresse: Bergrheinfeld 97493, Richtbergstr. 17
+
+### Recherche 01.10.2026
+- Klärfall/miss: Richtbergstr. 17 gehört per Creditsafe Uzunkaya/Rameder; Gazoz-Kfz nur Nr. 9a (Einzelbeleg). Kein Doppelbeleg für Gazoz-Schrott.
+- Quellen: Creditsafe-Verzeichnis, OSM/Seed.

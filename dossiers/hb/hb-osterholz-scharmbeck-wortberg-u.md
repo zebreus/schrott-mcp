@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Aggregator-Leads (schrottplatz-info, MisterWhat: Hauptstr. 36, 27711 Osterholz-Scharmbeck, Tel. 04791/4396). Keine Betreiber-Website, kein Register, kein Betreiber-Social. Seed-Adresse/Telefon (nur Verzeichnisbeleg) unverändert, nicht belegfähig. status pruefung.; Quelle(n): Lead-Recherche 01.10.2026 (Aggregator-Leads, kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (klein)

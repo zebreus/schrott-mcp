@@ -32,3 +32,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing
+
+### Recherche 01.10.2026
+
+- Betreiberquelle verifiziert (01.10.2026): https://dirk-strohschein.de/ nennt Dirk Strohschein, Havetofter Str. 27, 24986 Mittelangeln OT Havetoftloit, Tel. +49 173 600 49 88, strohi70@strohi.eu; Website erreichbar.
+- Miss: Einzelunternehmen ohne HRB — Owner-Direktive gilt NICHT ohne HRB. Kein 2. unabhängiger Beleg (kein HR-/Northdata-Eintrag, kein kommunales Register online, kein Betreiber-Social verifiziert). Daher keine Frontmatter-Fills.

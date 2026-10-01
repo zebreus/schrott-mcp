@@ -4,8 +4,8 @@ name: Kaiser Recycling
 trader_type: sonstige
 state: BY
 city: Obertraubling
-street: ''
-postcode: ''
+street: 'Werner-von-Siemens-Straße 1'
+postcode: '93083'
 phone: ''
 email: ''
 opening_hours: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling
 - Adresse: Obertraubling (Werner-von-Siemens-Str. 1)
+
+### Recherche 01.10.2026
+- Adresse per Creditreform (Jutta Kaiser, Werner-von-Siemens-Str. 1, 93083 Obertraubling) + EFB-Registermirror (Doppelbeleg). Telefon 09401 5562 nur Einzelbeleg, daher kein Fill.
+- Quellen: Creditreform-Firmeneintrag, EFB-Registermirror.

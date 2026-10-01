@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — nur Aggregator-Leads (schrottplatz-info: Altenburg; Das Telefonbuch Privateintrag Uwe Müller, Altenburg-Zetzscha). Seed-Hinweis „Geweniger Kotteritz" unbestätigt. Keine Betreiber-Website, kein Register, kein Betreiber-Social. status pruefung.; Quelle(n): Lead-Recherche 01.10.2026 (Aggregator-Leads, kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottrecycling (Adresse = Geweniger Kotteritz — Zusammenhang unklar)

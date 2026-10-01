@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.hentschel-schrotthandel-aue.com
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Altmetall (Website-Angabe)
 - Template-Website OHNE Adress-/Impressumsnachweis → Vorsicht
+
+### Recherche 01.10.2026
+- Betreiber-Website live verifiziert (aktiv). Adresse/Telefon nur Kontakt-Einzelbeleg (Erdmann-Kircheis-Str. 1, 08280 Aue-Bad Schlema, Tel. 0172 7560830; Template-Impressum ohne HRB) daher nur Timeline.
+- Quelle: https://www.hentschel-schrotthandel-aue.com (Direkt-Fetch).

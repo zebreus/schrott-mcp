@@ -33,3 +33,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott lt. Register
 - Adresse: Schwetzingen
+
+### Recherche 01.10.2026
+
+- Betreiberquelle verifiziert (01.10.2026): https://g-laubinger.de/impressumdatenschutz.html nennt Georg Laubinger, Mannheimer Landstr. 30a, 68723 Schwetzingen, Tel. 06202 970 8383, service@g-laubinger.de; Website erreichbar (aktiv-Signal).
+- Miss: Einzelunternehmen ohne HRB — Owner-Direktive (Betreiber-Primärquelle allein genügt) gilt NICHT ohne HRB. Kein 2. unabhängiger Beleg (kein HR-/Northdata-Eintrag, kein kommunales Register online, kein Betreiber-Social verifiziert; Facebook blockiert). Daher keine Frontmatter-Fills (strenger 2-Beleg-Standard).

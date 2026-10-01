@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Entrümpelung
+
+### Recherche 01.10.2026
+- Klärfall/miss: nichts belegbar; keine Betreiber-Website, kein Registerbeleg, nur Seed.
+- Quellen: keine.

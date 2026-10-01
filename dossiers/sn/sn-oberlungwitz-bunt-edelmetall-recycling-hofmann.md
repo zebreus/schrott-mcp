@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Alu/Cu/Edel/Blei/Messing
 - Annahme lt. lokaleschrottplatz; ≠ Hofmann Metall GmbH
+
+### Recherche 01.10.2026
+- Klärfall/miss: keine belastbare Quelle; Abgrenzung Hofmann Metall GmbH ungeklärt; nur Aggregator-Leads.
+- Quellen: Aggregator-Leads (kein Beleg).
