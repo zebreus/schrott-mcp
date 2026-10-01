@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Private Anlieferung (Do bis 18:00) + gewerbliche Anlieferung (TSR-Standortseite, 30.09.2026)"}'
 pickup_json: ''
-provenance_seed_file: sn
 provenance_section: 4) Chemnitz und Mittelsachsen
 provenance_ankauf_raw: ja
 provenance_origin: table

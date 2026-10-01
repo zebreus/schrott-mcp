@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: Neu, Ankauf verifiziert (ja)
 provenance_ankauf_raw: ja (B2B)
 provenance_origin: table

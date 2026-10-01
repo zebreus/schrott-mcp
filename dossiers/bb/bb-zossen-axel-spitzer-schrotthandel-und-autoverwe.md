@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bb
 provenance_section: 'Nachtrag Audit-Runde 4 (Stand: 2026-09-27)'
 provenance_ankauf_raw: Autoverwertung – Ankauf ja
 provenance_origin: table

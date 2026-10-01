@@ -17,7 +17,6 @@ description: Degenkolbe Recycling GmbH in Stuttgart Bad-Cannstatt, zertifizierte
   Bauschutt, Altholz und weiteren Wertstoffen, mit Logistik und Wertstoffhof.
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bw
 provenance_section: Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)
 provenance_ankauf_raw: unklar
 provenance_origin: table

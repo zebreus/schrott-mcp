@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: R4a Dortmund-Multi-sites (9 Profile, 5 neu — Rest bereits gelistet)
 provenance_ankauf_raw: unklar
 provenance_origin: table

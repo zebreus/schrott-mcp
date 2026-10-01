@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bb
 provenance_section: Schrottankauf Brandenburg (BB) – Recherche
 provenance_ankauf_raw: ja (Spezial Kabel/NE)
 provenance_origin: table

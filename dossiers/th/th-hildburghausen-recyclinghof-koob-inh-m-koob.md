@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: th
 provenance_section: Nachtrag Audit-Runde 4 (2026-09-27)
 provenance_ankauf_raw: ja (bar, Tagespreise)
 provenance_origin: table

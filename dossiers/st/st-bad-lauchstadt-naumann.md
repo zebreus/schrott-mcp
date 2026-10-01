@@ -15,7 +15,6 @@ status: pruefung
 description: H&S Autoverwertung Naumann GbR (Steven und Hans-Joachim Naumann), zertifizierte Autoverwertung in Bad Lauchstädt OT Schafstädt
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: st
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

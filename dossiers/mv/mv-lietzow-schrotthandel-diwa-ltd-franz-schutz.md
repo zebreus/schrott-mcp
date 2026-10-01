@@ -15,7 +15,6 @@ status: pruefung
 description: Schrotthandel Diwa Ltd. (Direktor Franz Schütz), Zweigniederlassung der britischen Ltd. (HRB 7373 AG Stralsund); Zweigniederlassung 2017 gelöscht, britische Mutter dissolved
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: mv
 provenance_section: Neue Betriebe, nur Portal-/Verzeichnisbeleg (Ankauf ja lt. Portal
   bzw. unklar)
 provenance_ankauf_raw: unklar

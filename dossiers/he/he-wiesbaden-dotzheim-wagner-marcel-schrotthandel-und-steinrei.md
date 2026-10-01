@@ -15,7 +15,6 @@ status: pruefung
 description: Wagner Marcel – Schrotthandel und Steinreinigung, Wiesbaden-Dotzheim; Hollermorgenstraße 3, 65199 Wiesbaden; Tel. +49 157 54648788; Zeiten Mo-Fr 08:00-18:00, Sa 08:00-13:00 (alle Angaben Betreiber-Website/Impressum, Einzelbeleg). Einzelunternehmen ohne HRB.
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: he
 provenance_section: Einträge
 provenance_ankauf_raw: unklar
 provenance_origin: table

@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund,
   Gelsenkirchen, Lünen, Essen)
 provenance_ankauf_raw: unklar (Holding)

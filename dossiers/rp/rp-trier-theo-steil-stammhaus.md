@@ -15,7 +15,6 @@ status: aktiv
 description: 'Stammhaus des Schrott- und Metallgroßhändlers (23 Standorte): Schrott-/Metallhandel, Export, Shredder und Kondirator; Ankauf nicht von Privatpersonen, kein Verkauf von Kfz-Ersatzteilen.'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: rp
 provenance_section: Schrottankauf Rheinland-Pfalz (RP) — Recherche
 provenance_ankauf_raw: Ankauf Ja
 provenance_origin: table

@@ -15,7 +15,6 @@ status: pruefung
 description: Metallhandel BroZinski GbR (Riko Brozinski & Denny Broschinski), Wehnser Weg 25, 27374 Visselhövede – Altmetall-Ankauf, Abbruch/Demontage, Containerdienst; Mo-Fr 08:30-17:00. Abgrenzung: Dossier-Name nennt Martin/Peter (Broschinski-Schreibweise) – Impressum nennt Riko/Denny (Brozinski/Broschinski-Mix); Zuordnung unsicher.
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: Weitere Verzeichnis-Funde (Nienburg/Diepholz/Verden, Osnabrück-Nord,
   Vechta/Cloppenburg, Peine, Stade, Gifhorn, Lüneburg
 provenance_ankauf_raw: Ankauf unklar

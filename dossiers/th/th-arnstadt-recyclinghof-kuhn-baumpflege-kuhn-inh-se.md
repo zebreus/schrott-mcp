@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: th
 provenance_section: Nachtrag Audit-Runde 3 (2026-09-27)
 provenance_ankauf_raw: ja (Tagespreis, Abrechnung vor Ort; nur EC-Karte, kein Bargeld;
   keine Abholung, keine E-Geräte)

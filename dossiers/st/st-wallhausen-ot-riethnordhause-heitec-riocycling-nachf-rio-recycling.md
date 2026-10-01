@@ -15,7 +15,6 @@ status: pruefung
 description: Entsorgungs- und Verwertungsbetrieb in Wallhausen-Riethnordhausen (HeiTec RIOcycling GmbH, HRB 12259 AG Stendal, Nachf. RIO Recycling): Wertstoffannahme (Schrott, Sperrmüll, E-Schrott, Grünschnitt), NE-Aufbereitung, Containerdienst 3–30 m³ im 50-km-Umkreis
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: st
 provenance_section: 'Nachtrag Audit-Runde 3 (Stand: 2026-09-27)'
 provenance_ankauf_raw: Ankauf unklar (Annahme ja, Vergütung nicht belegt – prüfen)
 provenance_origin: table

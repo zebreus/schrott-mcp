@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: mv
 provenance_section: Neue Betriebe, nur Portalbeleg
 provenance_ankauf_raw: unklar (Namensnähe zu Ziems Recycling Malchow — ein Betrieb?
   Nicht deduziert, separat vermerkt)

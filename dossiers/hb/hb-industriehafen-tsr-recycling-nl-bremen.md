@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: '{"allowed": true, "customer_types": ["gewerbe"], "days": ["Mo", "Di", "Mi", "Do", "Fr"], "time_windows": ["06:00-16:15"], "conditions": "Keine Privatkundenannahme; Fr Annahmeschluss 15:15 (TSR-Standortseite, 30.09.2026)"}'
 pickup_json: ''
-provenance_seed_file: hb
 provenance_section: Bremen (Stadt)
 provenance_ankauf_raw: ja (Gewerbe)
 provenance_origin: table

@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sn
 provenance_section: 5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland
 provenance_ankauf_raw: ja
 provenance_origin: table

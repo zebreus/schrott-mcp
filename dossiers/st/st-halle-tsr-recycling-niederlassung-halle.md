@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Annahme fuer Privatkunden, Gewerbe und Industrie; THE METAL BOX fuer Kleinmengen; Containerdienst (TSR-Standortseite, 30.09.2026)"}'
 pickup_json: ''
-provenance_seed_file: st
 provenance_section: Überregionale / große Verwerter mit ST-Standorten
 provenance_ankauf_raw: ja
 provenance_origin: table

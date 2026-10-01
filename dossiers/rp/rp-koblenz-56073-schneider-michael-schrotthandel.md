@@ -15,7 +15,6 @@ status: pruefung
 description: 'Schrottplatz: Schrottankauf und -abholung, Altmetall-Annahme'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: rp
 provenance_section: Nachtrag Wide-Net PROSE-Cluster (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

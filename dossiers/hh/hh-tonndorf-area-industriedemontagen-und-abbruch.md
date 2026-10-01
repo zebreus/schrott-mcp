@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hh
 provenance_section: Nachtrag Audit-Runde 3
 provenance_ankauf_raw: Ankauf unklar (Verwertung im Abbruchkontext)
 provenance_origin: table

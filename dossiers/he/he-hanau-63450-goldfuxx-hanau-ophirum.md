@@ -15,7 +15,6 @@ status: geschlossen
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: he
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
 provenance_ankauf_raw: geschlossen
 provenance_origin: table

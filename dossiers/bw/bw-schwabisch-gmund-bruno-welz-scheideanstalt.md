@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bw
 provenance_section: Handoff BY-Audit (27.09.2026) — als Tabelle für md2seed
 provenance_ankauf_raw: 'ja (PREISLISTE: https://shop.bruno-welz.de/edelmetall-ankauf/
   — echter Ankauf-Shop, Handler-Fall BW)'

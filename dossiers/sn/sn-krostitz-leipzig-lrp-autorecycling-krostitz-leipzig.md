@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sn
 provenance_section: 3) Leipzig und Nordsachsen
 provenance_ankauf_raw: nur Altauto (Flag)
 provenance_origin: table

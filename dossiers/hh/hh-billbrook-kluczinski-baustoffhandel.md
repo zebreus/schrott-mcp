@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hh
 provenance_section: Nachtrag Audit-Runde 4
 provenance_ankauf_raw: nein (kein Metallankauf-Beleg trotz Register "Handeln/Makeln")
 provenance_origin: table

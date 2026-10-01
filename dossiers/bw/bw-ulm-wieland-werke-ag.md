@@ -15,7 +15,6 @@ status: pruefung
 description: 'Kupfer-/Messing-Halbzeughersteller; Recycling im Rohstoffkreislauf (B2B)'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bw
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten)
 provenance_ankauf_raw: unklar (nur B2B-Lieferanten, kein öffentlicher Ankauf belegt)
 provenance_origin: table

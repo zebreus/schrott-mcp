@@ -21,7 +21,7 @@
 //! `privat`/`gewerbe`; `days` uses `Mo Di Mi Do Fr Sa So`.
 //!
 //! `extra_json` key registry (everything else stays in typed columns):
-//! `seed_file`, `seed_section`, `ankauf_raw`, `seed_hash` (seed importer),
+//! `seed_section`, `ankauf_raw`, `seed_hash` (seed importer),
 //! `review` (human review notes), `aliases` (array of former names),
 //! `other_urls` (array of further web presences: Facebook, Kleinanzeigen…).
 //! `notes` remains free prose (specialties from research); `description`

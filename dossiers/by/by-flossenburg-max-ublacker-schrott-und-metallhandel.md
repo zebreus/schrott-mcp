@@ -15,7 +15,6 @@ status: aktiv
 description: 'Schrott- und Metallhandel (seit 1952): Annahme Eisen-/Stahlschrott, NE-Metalle, Kabel, E-Motoren; Containerdienst'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: Betriebe mit geprüfter Website
 provenance_ankauf_raw: ja
 provenance_origin: table

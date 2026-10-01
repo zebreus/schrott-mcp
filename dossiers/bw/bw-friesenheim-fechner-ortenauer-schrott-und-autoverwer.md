@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bw
 provenance_section: Karlsruhe / Mittlerer Oberrhein / Ortenau
 provenance_ankauf_raw: ja (Autoverwertung)
 provenance_origin: table

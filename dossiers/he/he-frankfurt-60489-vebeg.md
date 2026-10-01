@@ -15,7 +15,6 @@ status: aktiv
 description: 'Bundeseigene Treuhandgesellschaft (VEBEG GmbH): verkauft Überschussmaterial öffentlicher Stellen (Bundeswehr, Behörden) per Ausschreibung, kein Schrottankauf vom Bürger, Grenzfaktor für Schrottportal.'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: he
 provenance_section: Nachtrag Wide-Net (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table

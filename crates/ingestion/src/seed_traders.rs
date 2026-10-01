@@ -62,8 +62,6 @@ pub struct SeedTrader {
 #[derive(Debug, Clone, Default, Deserialize)]
 pub struct SeedProvenance {
     #[serde(default)]
-    pub seed_file: String,
-    #[serde(default)]
     pub section: String,
     #[serde(default)]
     pub ankauf_raw: String,
@@ -261,7 +259,6 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
             continue; // unchanged — keep updated_at meaningful
         }
         let extra = serde_json::json!({
-            "seed_file": t.provenance.seed_file,
             "seed_section": t.provenance.section,
             "ankauf_raw": t.provenance.ankauf_raw,
             "seed_hash": hash,

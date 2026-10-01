@@ -15,7 +15,6 @@ status: pruefung
 description: 'Rückbau/Tiefbau/Stoffstrom (Oettinger Gruppe); kein klassischer Schrott-Ankauf belegt'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bw
 provenance_section: Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)
 provenance_ankauf_raw: unklar
 provenance_origin: table

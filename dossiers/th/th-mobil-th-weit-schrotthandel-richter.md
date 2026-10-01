@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: th
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
 provenance_ankauf_raw: ja (Abholung; Barzahlung b. werthaltigen Mengen)
 provenance_origin: table

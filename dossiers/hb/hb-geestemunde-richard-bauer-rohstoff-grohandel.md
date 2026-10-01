@@ -15,7 +15,6 @@ status: pruefung
 description: Richard Bauer Rohstoff-Großhandel GmbH und Co. KG (HRA 4371 BHV), Schrott, Metalle, Entsorgung und Containerdienst, Teil der BEG-Gruppe mit Standorten Bremerhaven, Bremen und Emden
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hb
 provenance_section: Bremerhaven
 provenance_ankauf_raw: wahrscheinlich (nicht direkt belegt)
 provenance_origin: table

@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sl
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) — Kandidatenaudit R1+R2 (21)
   + Seed-Website-Sweep
 provenance_ankauf_raw: ja

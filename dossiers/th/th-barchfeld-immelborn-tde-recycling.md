@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: th
 provenance_section: Nachtrag Audit-Runde 2 (2026-09-27)
 provenance_ankauf_raw: Ankauf unklar (kostenlose E-Schrott-Annahme; kein Ankauf nachgewiesen)
 provenance_origin: table

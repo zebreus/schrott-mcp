@@ -16,7 +16,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hh
 provenance_section: Schrottankauf Hamburg (HH) — Recherche für Schrott MCP
 provenance_ankauf_raw: ja (ab ~200 kg, sonst Gebühr)
 provenance_origin: table

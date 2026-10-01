@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sl
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
 provenance_ankauf_raw: 'ja (ab Mindestmenge: Schrott 300 kg / Metalle 5 kg)'
 provenance_origin: table

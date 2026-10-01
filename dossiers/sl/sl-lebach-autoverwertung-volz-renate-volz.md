@@ -15,7 +15,6 @@ status: pruefung
 description: 'Anerkannte Kfz-Verwertung (Demontagebetrieb): Altauto-Annahme, Gebrauchtteile'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sl
 provenance_section: Nachtrag Audit-Runde 2 (Stand 2026-09-27)
 provenance_ankauf_raw: nur Kfz (Ankauf unklar)
 provenance_origin: table

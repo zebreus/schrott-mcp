@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: he
 provenance_section: Einträge
 provenance_ankauf_raw: ja
 provenance_origin: table

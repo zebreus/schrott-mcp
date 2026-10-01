@@ -15,7 +15,6 @@ status: pruefung
 description: Raimund Neuert Rohstoffverwertungsgesellschaft mbH, Koblenz – HRB 3481 (AG Koblenz), GF Raimund Neuert; Rohstoffverwertung + Containerdienst (Altpapier, Holz, Grünabfälle, Altglas, Kunststoff, Bauschutt, Schrott). Adresse Marienfelder Str. 5, 56070 Koblenz. Keine Betreiber-Website gefunden (containerdienst-koblenz.de gehört Zimmermann Recycling, Lahnstein).
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: rp
 provenance_section: Nachtrag Wide-Net PROSE-Cluster (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

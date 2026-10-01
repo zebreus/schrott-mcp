@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: Feedback-Split 30.09.2026
 provenance_ankauf_raw: unklar
 provenance_origin: prose

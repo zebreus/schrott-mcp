@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: Münsterland / OWL (Münster, Bielefeld, Nottuln)
 provenance_ankauf_raw: ja (Auto; Altmetall unklar)
 provenance_origin: table

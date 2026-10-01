@@ -15,7 +15,6 @@ status: pruefung
 description: R und M Schrott- und Metallhandel GmbH und Co. KG Sondershausen (HRA 502806 AG Jena), zertifizierter Entsorgungsfachbetrieb mit Containerdienst
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: th
 provenance_section: Nachtrag Audit-Runde 4 (2026-09-27)
 provenance_ankauf_raw: Ankauf unklar
 provenance_origin: table

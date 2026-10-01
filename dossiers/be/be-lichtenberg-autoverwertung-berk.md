@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: be
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: ja — Autoverwertung
 provenance_origin: table

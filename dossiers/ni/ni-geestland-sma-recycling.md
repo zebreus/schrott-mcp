@@ -15,7 +15,6 @@ status: aktiv
 description: 'Mittelständisches Familienunternehmen in Geestland-Debstedt (Landkreis Cuxhaven, nahe A27-Abfahrt Debstedt): Ankauf von Schrott und Metallen, Containerstellung, Katalysatoren-Ankauf.'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: Cuxhaven / Stade / Osterholz / Rotenburg
 provenance_ankauf_raw: ja
 provenance_origin: table

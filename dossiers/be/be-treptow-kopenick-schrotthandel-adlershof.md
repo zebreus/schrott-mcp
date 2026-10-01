@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: be
 provenance_section: A. Neu mit Ankaufbeleg (nicht in Hauptliste)
 provenance_ankauf_raw: ja (Verzeichnisbeleg)
 provenance_origin: table

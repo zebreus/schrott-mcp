@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: R4b Duisburg-Multi-sites (7 Profile, 5 neu + Warne bestätigt)
 provenance_ankauf_raw: unklar
 provenance_origin: table

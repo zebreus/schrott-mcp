@@ -15,7 +15,6 @@ status: aktiv
 description: Berliner Rohstoffhandel (GmbH, HRB 24283 B AG Charlottenburg): An- und Verkauf von FE- und NE-Metallen, Schrott, Ferrolegierungen und Metallhalbzeugen; Abholung ab 1000 kg FE bzw. 500 kg Buntmetalle zu Tagespreisen; über 40 Jahre Erfahrung
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: be
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: ja
 provenance_origin: table

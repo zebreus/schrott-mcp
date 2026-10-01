@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: '{"allowed": true, "customer_types": ["gewerbe"], "conditions": "Keine Annahme von Privatkunden; gewerbliche Anlieferung, Entladung von Containerware (TSR-Standortseite, 30.09.2026)"}'
 pickup_json: '{"allowed": true, "conditions": "Abholung vor Ort bei groesseren Mengen mit eigenen Spezialfahrzeugen (TSR-Standortseite, 30.09.2026)"}'
-provenance_seed_file: nw
 provenance_section: Ruhrgebiet – Großrecycler / Stahlwerksnah (Duisburg, Dortmund,
   Gelsenkirchen, Lünen, Essen)
 provenance_ankauf_raw: ja (nur Gewerbe)

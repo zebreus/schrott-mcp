@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: '{"allowed": true, "customer_types": ["gewerbe"], "days": ["Mo", "Di", "Mi", "Do", "Fr"], "conditions": "Keine Privatkundenannahme; kein An-/Verkauf von Autoteilen, Altfahrzeugen, NE-Metallen (TSR-Standortseite, 30.09.2026)"}'
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: Neu, Ankauf verifiziert (ja)
 provenance_ankauf_raw: ja (B2B)
 provenance_origin: table

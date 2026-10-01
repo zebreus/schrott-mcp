@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: 'Kept (36: 34/37 Kandidaten + MKV + Fair-Kat)'
 provenance_ankauf_raw: unklar
 provenance_origin: table

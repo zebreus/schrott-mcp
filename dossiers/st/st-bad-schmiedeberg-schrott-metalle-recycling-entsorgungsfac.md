@@ -15,7 +15,6 @@ status: aktiv
 description: W.K.W. Recycling GmbH, Entsorgungsfachbetrieb für Eisen- und NE-Metalle mit werkseigenem Containerdienst (Hauptstandort Söllichau, Niederlassung Apolda)
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: st
 provenance_section: 'Nachtrag Audit-Runde 2 (Stand: 2026-09-27)'
 provenance_ankauf_raw: ja (lt. Verzeichnis, unbestätigt)
 provenance_origin: table

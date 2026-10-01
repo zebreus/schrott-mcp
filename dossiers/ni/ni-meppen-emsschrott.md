@@ -15,7 +15,6 @@ status: aktiv
 description: 'Altmetall- und Schrottspezialist in Meppen-Hüntel (Augustin-Gruppe): Ankauf und Erfassung sowie Sortierung, Aufbereitung und Vermarktung von Schrotten und Metallen.'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: Osnabrück / Emsland / Grafschaft Bentheim
 provenance_ankauf_raw: ja
 provenance_origin: table

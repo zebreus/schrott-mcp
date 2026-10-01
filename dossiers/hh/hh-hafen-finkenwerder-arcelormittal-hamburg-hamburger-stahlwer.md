@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hh
 provenance_section: Schrottankauf Hamburg (HH) — Recherche für Schrott MCP
 provenance_ankauf_raw: nur Großmengen/Handel
 provenance_origin: table

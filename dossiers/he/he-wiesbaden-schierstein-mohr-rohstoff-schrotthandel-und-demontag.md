@@ -15,7 +15,6 @@ status: aktiv
 description: 'Schrotthandel mit eigenem Schrottplatz in Wiesbaden: Schrottankauf, Abholung, Kabelrecycling, Containerdienst sowie Industrie-Demontage und Rückbau im Rhein-Main- und Rhein-Neckar-Gebiet.'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: he
 provenance_section: Einträge
 provenance_ankauf_raw: ja
 provenance_origin: table

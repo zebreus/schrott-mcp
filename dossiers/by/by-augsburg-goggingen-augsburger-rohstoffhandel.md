@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: Betriebe mit geprüfter Website
 provenance_ankauf_raw: ja
 provenance_origin: table

@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: mv
 provenance_section: Neue Betriebe, nur Verzeichnisbeleg
 provenance_ankauf_raw: 'unklar (FLAG: Autoverwerter + Fuhrunternehmen)'
 provenance_origin: table

@@ -15,7 +15,6 @@ status: pruefung
 description: 'Metallhandel/Großhandel, Herstellung von Metallwaren (B2B)'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
 provenance_ankauf_raw: unklar
 provenance_origin: table

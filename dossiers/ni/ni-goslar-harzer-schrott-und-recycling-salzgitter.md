@@ -15,7 +15,6 @@ status: aktiv
 description: 'Zertifizierter Entsorgungsfachbetrieb im Salzgitter-AG-Verbund (ex Must-Metalle-Container-Recycling): Metall-, Schrott- und Abfallrecycling, Containerdienst und Entsorgungslogistik für Privat, Handwerk, Gewerbe und Industrie.'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: Braunschweig / Salzgitter / Wolfsburg
 provenance_ankauf_raw: ja
 provenance_origin: table

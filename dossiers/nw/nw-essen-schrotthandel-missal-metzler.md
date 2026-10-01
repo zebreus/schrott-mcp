@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: Essen / Mülheim / Oberhausen / Bottrop
 provenance_ankauf_raw: ja (mobil)
 provenance_origin: table

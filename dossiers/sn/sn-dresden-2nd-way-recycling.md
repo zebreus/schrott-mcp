@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sn
 provenance_section: 1) Dresden, Freital, Heidenau, Pirna
 provenance_ankauf_raw: ja
 provenance_origin: table

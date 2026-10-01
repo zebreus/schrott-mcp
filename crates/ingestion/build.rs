@@ -50,7 +50,6 @@ const KNOWN_KEYS: &[&str] = &[
     "description",
     "dropoff_json",
     "pickup_json",
-    "provenance_seed_file",
     "provenance_section",
     "provenance_ankauf_raw",
     "provenance_origin",
@@ -236,7 +235,7 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
     };
     let notes = timeline_notes(body);
 
-    // Emission order = old seed key order (provenance nested).
+    // Emission order (provenance nested).
     let prov = |suffix: &str| get(&format!("provenance_{suffix}"));
     let mut row = Vec::with_capacity(18);
     for k in [
@@ -259,8 +258,7 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
     row.push((
         "provenance".to_string(),
         format!(
-            "{{\"seed_file\":{},\"section\":{},\"ankauf_raw\":{},\"origin\":{}}}",
-            json_str(&prov("seed_file")),
+            "{{\"section\":{},\"ankauf_raw\":{},\"origin\":{}}}",
             json_str(&prov("section")),
             json_str(&prov("ankauf_raw")),
             json_str(&prov("origin")),

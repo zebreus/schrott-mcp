@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hb
 provenance_section: (1) Behaltene Kandidaten
 provenance_ankauf_raw: unklar (nur Altautos)
 provenance_origin: table

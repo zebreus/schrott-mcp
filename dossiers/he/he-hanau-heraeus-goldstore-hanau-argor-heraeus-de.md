@@ -15,7 +15,6 @@ status: aktiv
 description: Heraeus-Edelmetallhandel in Hanau (Heraeus Metals Germany GmbH & Co. KG, HRA 93163 AG Hanau): Altgold-/Silber-/Platin-/Palladium-Ankauf (Schmuck, Zahngold, LBMA-Barren, Bullionmünzen) mit Laboranalyse, Barrenverkauf ab Werk; Filiale Rodenbacher Weg 2
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: he
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table

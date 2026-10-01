@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: th
 provenance_section: Nachtrag Audit-Runde 3 (2026-09-27)
 provenance_ankauf_raw: ja (Annahme Konzernstandard)
 provenance_origin: table

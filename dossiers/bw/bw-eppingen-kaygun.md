@@ -15,7 +15,6 @@ status: pruefung
 description: 'Anerkannter Kfz-Demontagebetrieb: Fahrzeugankauf, Abholung, Abmeldeservice, Gebrauchtteile'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bw
 provenance_section: Autoverwerter BW ohne Website (Ankauf unklar, kein Gegenbeleg)
 provenance_ankauf_raw: unklar
 provenance_origin: table

@@ -15,7 +15,6 @@ status: unbekannt
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: Verifikations-Upgrades (Verzeichnis → Ankauf ja, per Webfetch
   bestätigt)
 provenance_ankauf_raw: ''

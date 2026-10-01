@@ -17,7 +17,6 @@ description: WIL-RO Wildeshauser Rohstoffhandel und Recycling GmbH, Entsorgungsf
   Kabel, V2A/V4A, Katalysatoren und Batterien, dazu Containerdienst und Logistik.
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: Verifikations-Upgrades (Verzeichnis → Ankauf ja, per Webfetch
   bestätigt)
 provenance_ankauf_raw: ''

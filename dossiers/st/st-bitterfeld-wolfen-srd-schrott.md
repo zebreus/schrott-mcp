@@ -15,7 +15,6 @@ status: pruefung
 description: SRD Schrott Recycling + Dienstleistung GmbH Greppin, Schrott-Demontagen, Abbruch und Verwertung, An- und Verkauf von Metallen
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: st
 provenance_section: Dessau-Roßlau / Wittenberg / Bitterfeld / Köthen / Bernburg /
   Aschersleben
 provenance_ankauf_raw: Ankauf unklar

@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: 'Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)'
 provenance_ankauf_raw: ''
 provenance_origin: table

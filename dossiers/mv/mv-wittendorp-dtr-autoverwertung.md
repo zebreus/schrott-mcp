@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: mv
 provenance_section: Neue Betriebe, nur Portal-/Verzeichnisbeleg (Ankauf ja lt. Portal
   bzw. unklar)
 provenance_ankauf_raw: 'Schrottannahme lt. Portal (FLAG: Autoverwerter)'

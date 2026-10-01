@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sn
 provenance_section: Methode Runde 4
 provenance_ankauf_raw: unklar (Register-Prosa)
 provenance_origin: prose

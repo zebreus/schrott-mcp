@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table

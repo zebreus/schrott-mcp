@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: st
 provenance_section: Dessau-Roßlau / Wittenberg / Bitterfeld / Köthen / Bernburg /
   Aschersleben
 provenance_ankauf_raw: ja

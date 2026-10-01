@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: Nachtrag Mömlingen Hensel (27.09.2026)
 provenance_ankauf_raw: ja (Ankauf-Kategorien; Edelmetallpreise nur per JS-Chart, kein
   statischer Preis)

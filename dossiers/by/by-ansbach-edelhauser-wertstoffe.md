@@ -17,7 +17,6 @@ description: Edelhäuser-Gruppe in Ansbach (Edelhäuser Rohstoffe GmbH, Naglerst
   über 115 Jahren, Wertstoffhof Ansbach in der Adalbert-Pilipp-Straße 48.
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: 'Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)'
 provenance_ankauf_raw: ''
 provenance_origin: table

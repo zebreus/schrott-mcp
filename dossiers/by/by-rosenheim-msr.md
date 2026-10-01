@@ -15,7 +15,6 @@ status: aktiv
 description: 'Metall- und Schrotthandel: Ankauf von Aluminium, Blei, Edelstahl, Kupfer, Messing, Zinn/Zink; Containerdienst, Abbruch/Rückbau'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: 'Neu: Website-verifiziert, Ankauf ja (11)'
 provenance_ankauf_raw: ja
 provenance_origin: table

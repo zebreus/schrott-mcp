@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: Neue Funde (Gelbe Seiten, je Stadt abgefragt)
 provenance_ankauf_raw: Identität geklärt, unklar bleibt
 provenance_origin: table

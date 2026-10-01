@@ -15,7 +15,6 @@ status: unbekannt
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: be
 provenance_section: B. Neu, aber "unsicher" (nur 1 Verzeichnisquelle, keine Website)
 provenance_ankauf_raw: ''
 provenance_origin: table

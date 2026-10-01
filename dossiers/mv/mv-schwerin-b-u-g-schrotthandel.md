@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: mv
 provenance_section: Betriebe (Tabelle)
 provenance_ankauf_raw: ja (Barzahlung)
 provenance_origin: table

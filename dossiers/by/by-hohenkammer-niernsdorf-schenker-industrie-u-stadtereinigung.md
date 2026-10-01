@@ -15,7 +15,6 @@ status: unbekannt
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: 'Neu: Website vorhanden, Ankauf unklar (4) + ohne Website (3,
   nur Verzeichnis)'
 provenance_ankauf_raw: ''

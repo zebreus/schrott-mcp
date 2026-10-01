@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hb
 provenance_section: Neue Funde
 provenance_ankauf_raw: unklar
 provenance_origin: table

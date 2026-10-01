@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bb
 provenance_section: Nachtrag Feedback-Funde (29.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table

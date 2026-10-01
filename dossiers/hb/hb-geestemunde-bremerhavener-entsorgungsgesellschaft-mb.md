@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hb
 provenance_section: Bremerhaven
 provenance_ankauf_raw: unklar (vermutlich kein Ankauf)
 provenance_origin: table

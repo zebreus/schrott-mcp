@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: by
 provenance_section: Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne
   geprüfte Website)
 provenance_ankauf_raw: ''

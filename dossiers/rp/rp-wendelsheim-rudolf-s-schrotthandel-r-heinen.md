@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: rp
 provenance_section: Schrottankauf Rheinland-Pfalz (RP) — Recherche
 provenance_ankauf_raw: Ankauf Ja
 provenance_origin: table

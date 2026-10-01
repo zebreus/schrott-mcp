@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: be
 provenance_section: A. Neu (nicht in Hauptliste / Runden 2–3)
 provenance_ankauf_raw: unsicher — Autoverwertung (Verzeichnisbeleg, Website tot)
 provenance_origin: table

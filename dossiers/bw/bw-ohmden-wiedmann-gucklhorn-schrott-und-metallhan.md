@@ -15,7 +15,6 @@ status: aktiv
 description: 'Schrottplatz / Schrott- und Metallhandel'
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bw
 provenance_section: Nachtrag Audit-Runde 2
 provenance_ankauf_raw: ja
 provenance_origin: table

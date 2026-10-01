@@ -15,7 +15,6 @@ status: aktiv
 description: Containerdienst, Schrott- und Metallhandel, Abbrüche und Entkernungen, technische Gase; Entsorgungsfachbetrieb in Hamma (Gebrüder Aurin GmbH, HRB 503375 AG Jena)
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: th
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
 provenance_ankauf_raw: Ankauf unklar
 provenance_origin: table

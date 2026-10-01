@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: st
 provenance_section: 'Nachtrag Audit-Runde 3 (Stand: 2026-09-27)'
 provenance_ankauf_raw: Ankauf unklar
 provenance_origin: table

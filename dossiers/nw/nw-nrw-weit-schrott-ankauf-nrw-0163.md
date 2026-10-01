@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: nw
 provenance_section: Mobile / NRW-weite Händler (ohne geprüften stationären Platz)
 provenance_ankauf_raw: mobil/ja
 provenance_origin: table

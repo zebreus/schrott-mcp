@@ -15,7 +15,6 @@ status: pruefung
 description: Autoverwertung in Kirkel (Gebrüder Otto GmbH, HRB 2933 AG Saarbrücken): Autoverschrottung, An-/Verkauf von Gebrauchtwagen und Ersatzteilen, Schrotthandel, Demontage, Entsorgung und Abschleppdienst
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sl
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) — Kandidatenaudit R1+R2 (21)
   + Seed-Website-Sweep
 provenance_ankauf_raw: unklar

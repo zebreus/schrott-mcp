@@ -15,7 +15,6 @@ status: aktiv
 description: Rohstoffhandel in Mainz und Wiesbaden-Dotzheim (H.L.R. Herbert Lagerin Rohstoffhandel GmbH, HRB 26864 AG Wiesbaden): Ankauf von Buntmetallen, Eisen-/Stahlschrott, Kabeln und Katalysatoren; Containerdienst, Demontage und Abbruch; zertifizierter Entsorgungsfachbetrieb
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: he
 provenance_section: Einträge
 provenance_ankauf_raw: ja
 provenance_origin: table

@@ -16,7 +16,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: be
 provenance_section: A. Kept (Tabelle)
 provenance_ankauf_raw: ja (Gewerbe)
 provenance_origin: table

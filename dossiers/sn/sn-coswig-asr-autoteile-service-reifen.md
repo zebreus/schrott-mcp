@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sn
 provenance_section: 2) Meißen, Radebeul, Coswig, Großenhain, Riesa/Gröditz
 provenance_ankauf_raw: nur Altauto (Flag)
 provenance_origin: table

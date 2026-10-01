@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: th
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
 provenance_ankauf_raw: ja (ab 0,5 kg, Bargeld sofort)
 provenance_origin: table

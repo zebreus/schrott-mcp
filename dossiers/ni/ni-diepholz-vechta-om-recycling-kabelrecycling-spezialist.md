@@ -15,7 +15,6 @@ status: aktiv
 description: OM Recycling – Kabelrecycling-Spezialist, laut Verzeichnissen Elsässer Weg 14, 49393 Lohne (Oldenburg); Kabel-/Kupferschrott-Ankauf mit Sofortauszahlung. Betreiber-Domain om-recycling.de per Direktabruf 01.10.2026 nicht erreichbar (Transport error, http+https).
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: ni
 provenance_section: Delmenhorst / Bremen-Umland / Diepholz / Nienburg
 provenance_ankauf_raw: ja
 provenance_origin: table

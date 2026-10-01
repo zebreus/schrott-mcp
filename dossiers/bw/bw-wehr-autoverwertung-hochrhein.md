@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: bw
 provenance_section: Freiburg / Südbaden / Hochrhein
 provenance_ankauf_raw: ja (nur Fahrzeuge)
 provenance_origin: table

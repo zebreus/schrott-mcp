@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: sn
 provenance_section: 6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)
 provenance_ankauf_raw: unklar
 provenance_origin: table

@@ -15,7 +15,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: st
 provenance_section: Neue Betriebe (7)
 provenance_ankauf_raw: ja (lt. Verzeichnis; Name fehlt – vor Ort prüfen)
 provenance_origin: table

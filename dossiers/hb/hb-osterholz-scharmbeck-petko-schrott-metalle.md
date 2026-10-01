@@ -15,7 +15,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-provenance_seed_file: hb
 provenance_section: Neue Funde (nicht in den Tabellen oben)
 provenance_ankauf_raw: ja (Branchenzuordnung; Preisbeleg fehlt)
 provenance_origin: table
