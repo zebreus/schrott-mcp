@@ -13,8 +13,8 @@ website: https://www.wmr-online.de
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: {"allowed": true, "conditions": "Selbstanlieferung, Auszahlung bar nach Verwiegung (Betreiber-Website 02.10.2026)"}
-pickup_json: {"allowed": true, "conditions": "hauseigener Containerdienst/Abholung (Betreiber-Website 02.10.2026)"}
+dropoff_json: '{"allowed": true, "conditions": "Selbstanlieferung, Auszahlung bar nach Verwiegung (Betreiber-Website 02.10.2026)"}'
+pickup_json: '{"allowed": true, "conditions": "hauseigener Containerdienst/Abholung (Betreiber-Website 02.10.2026)"}'
 provenance_section: Oldenburg / Wilhelmshaven / Weser-Ems
 provenance_ankauf_raw: ja
 provenance_origin: table

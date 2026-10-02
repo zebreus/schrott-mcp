@@ -13,8 +13,8 @@ website: https://motikat-entsorgung.de
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: {"allowed": true, "conditions": "Schrottannahme Mo-Fr 07:00-16:30, Winterstraße 29 (Betreiber-Website 02.10.2026)"}
-pickup_json: {"allowed": true, "conditions": "Containerdienst 3-36 m3, Demontage/Transport, eigene Flotte (Betreiber-Website 02.10.2026)"}
+dropoff_json: '{"allowed": true, "conditions": "Schrottannahme Mo-Fr 07:00-16:30, Winterstraße 29 (Betreiber-Website 02.10.2026)"}'
+pickup_json: '{"allowed": true, "conditions": "Containerdienst 3-36 m3, Demontage/Transport, eigene Flotte (Betreiber-Website 02.10.2026)"}'
 provenance_section: R4b Duisburg-Multi-sites (7 Profile, 5 neu + Warne bestätigt)
 provenance_ankauf_raw: unklar
 provenance_origin: table

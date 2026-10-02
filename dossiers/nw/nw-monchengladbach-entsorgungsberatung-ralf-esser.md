@@ -13,8 +13,8 @@ website: https://ebm-esser.de
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: {"allowed": true, "conditions": "Anlieferung nur nach Absprache, Auszahlung per Sofortueberweisung (Betreiber-Website 02.10.2026)"}
-pickup_json: {"allowed": true, "conditions": "kostenlose Abholung, Behaelter 1-35 cbm, voll-gegen-leer-Tausch (Betreiber-Website 02.10.2026)"}
+dropoff_json: '{"allowed": true, "conditions": "Anlieferung nur nach Absprache, Auszahlung per Sofortueberweisung (Betreiber-Website 02.10.2026)"}'
+pickup_json: '{"allowed": true, "conditions": "kostenlose Abholung, Behaelter 1-35 cbm, voll-gegen-leer-Tausch (Betreiber-Website 02.10.2026)"}'
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: unklar
 provenance_origin: table

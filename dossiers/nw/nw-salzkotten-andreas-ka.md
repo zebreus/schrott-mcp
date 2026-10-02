@@ -14,7 +14,7 @@ website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
-pickup_json: {"allowed": true, "conditions": "Containerdienst, Demontagen (Betreiber-Website 02.10.2026)"}
+pickup_json: '{"allowed": true, "conditions": "Containerdienst, Demontagen (Betreiber-Website 02.10.2026)"}'
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: unklar
 provenance_origin: table
