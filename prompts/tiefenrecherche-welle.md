@@ -22,6 +22,8 @@ dürfen NICHT für die Auftragsauswahl genutzt werden.
   löschen (Korrekturen als neue Notes, Historie bleibt erhalten).
 - Frontmatter: nur flache Skalare; `website` NUR Domain-Root; `phone`/`email`
   nie `—`; `website_status` ∈ {aktiv, tot, blockiert, unbekannt}.
+  `dropoff_json`/`pickup_json` nur als gequotete Strings, nie als Mappings
+  (sonst Build-Bruch, Welle 31).
 - Beleg-Leitlinie (kein absolutes Verbot): Ziele auf 2 UNABHÄNGIGE Belege
   (zwei Seiten derselben Website = EINE Quelle). Bei starker Einzelquelle
   (Betreiber-Impressum, Register, Kommune) darfst du füllen oder korrigieren
