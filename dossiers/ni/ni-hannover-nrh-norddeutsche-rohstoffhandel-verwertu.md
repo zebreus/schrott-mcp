@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Check ohne neuen Beleg - 01.10-Kritikbefund (Website gehoert Verwertungszentrum Hohenaspe, kein NRH-/Hannover-Bezug) steht unveraendert; kein Frontmatter-Fill, weiter pruefung; Quelle(n): Dossier-Re-Check 02.10.2026 (Welle 24:00)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahlschrott, Gleisanschluss

@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 - Klärfall/miss: Richtbergstr. 17 gehört per Creditsafe Uzunkaya/Rameder; Gazoz-Kfz nur Nr. 9a (Einzelbeleg). Kein Doppelbeleg für Gazoz-Schrott.
 - Quellen: Creditsafe-Verzeichnis, OSM/Seed.
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss bestaetigt - Das Oertliche 0 Treffer fuer Gazoz in Bergrheinfeld UND Schweinfurt; keine Betreiber-Website, kein Register-Beleg auffindbar; Klärfall bleibt, keine Fills, status pruefung; Quelle(n): Das-Oertliche-Negativsuche 02.10.2026]

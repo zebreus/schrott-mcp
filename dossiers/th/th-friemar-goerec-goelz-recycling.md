@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling? (Goelz-Umfeld)
 - Adresse: Friemar
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein Beleg fuer GOEREC Goelz Recycling UG - Domain goerec.de TOT (mit/ohne www, http/https 02.10.2026: Verbindungsfehler), Das Oertliche 0 Treffer GOEREC/Friemar; ABGRENZUNG (nicht vermengen): Goelz Entsorgungs GmbH, Windmuehlenstr. 24, 99869 Friemar, Tel. 036258 50210, goelz-entsorgung.de (Container/Abbruch, separates Unternehmen, Oertliche-Themenseite) hat mit GOEREC UG erkennbar nichts zu tun (andere Rechtsform/Adresse); keine Fills, status pruefung (Klaerfall); Quelle(n): curl-Statuschecks goerec.de + Das Oertliche GOEREC/Goelz/Friemar 02.10.2026]

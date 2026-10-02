@@ -9,10 +9,10 @@ postcode: 06847
 phone: '0340 55043-0'
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.drl-gmbh-dessau.de/
+website_status: aktiv
 status: pruefung
-description: ''
+description: Recycling (GmbH)
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Telefon 0340 55043-0 doppelt belegt (Das Örtliche + Das Telefonbuch); Adresse Polysiusstr. 5, 06847 Dessau-Roßlau bestätigt.
 - Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=DRL&ci=Dessau-Ro%C3%9Flau
 - Quelle: https://www.dastelefonbuch.de/Suche/Recycling/Dessau-Ro%C3%9Flau
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Domain gefunden, aber OHNE Inhalt (nur Platzhalter "Homepage wird zur Zeit ueberarbeitet", kein Impressum) → website gefuellt (Domain-Root, per Oertliche verlinkt: www.drl-gmbh-dessau.de), website_status aktiv (Domain antwortet HTTP 200); Adresse/Tel. weiter doppelt belegt (Oertliche-Themenseite: Polysiusstr. 5, 06847 Dessau-Rosslau, Tel. 0340 55043-0, Fax -20); kein HR-/Inhaltsbeleg → status bleibt pruefung; Quelle(n): https://www.drl-gmbh-dessau.de/ + Das-Oertliche-Themenseite DRL-GmbH-Recycling-Dessau-Rosslau-West-Polysiusstr]

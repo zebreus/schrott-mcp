@@ -6,13 +6,13 @@ state: SN
 city: Dürrröhrsdorf-Dittersbach 01833
 street: ''
 postcode: ''
-phone: ''
+phone: 035026 91519
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: Autorecycling, AutoHdl., Sandstrahlarbeiten (Wilfried Neumann)
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) – Kandidaten-Audit (Schlussfilter)
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV/Autorecycling
 - Adresse: Dürrröhrsdorf-Dittersbach 01833
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: phone doppelt belegt → gefuellt (Das Oertliche: Neumann Wilfried Autorecycling/AutoHdl./Sandstrahlarbeiten, Radeberger Str. 17, 01833 Duerrroehrsdorf-Dittersbach-Wuenschendorf, Tel. 035026 91519, Branche Autoverwertung + Das Telefonbuch: Rufnummer 035026 91519); Str./PLZ NUR Oertliche-Einzelbeleg → NICHT gefuellt, als Lead in dieser Note; keine Betreiber-Website, kein HR-Beleg → status bleibt pruefung; Quelle(n): Das-Oertliche-Themenseite Neumann-Wilfried-Autorecycling + DasTelefonbuch-Suche Neumann/Duerrroehrsdorf-Dittersbach]

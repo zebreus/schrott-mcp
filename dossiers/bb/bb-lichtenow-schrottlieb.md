@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — keine Treffer zu Betreiber-Website/Register; nur duenner Adress-Lead; Statusfeld unveraendert; Quelle(n): Verzeichnis-Lead]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss bestaetigt - Domain schrottlieb.de TOT (curl 000, 02.10.2026), Das Oertliche 0 Treffer Schrottlieb/Lichtenow UND Schrott/Lichtenow (naechster Treffer Letschin); keine Fills, status pruefung; Quelle(n): curl-Statuscheck schrottlieb.de + Das-Oertliche-Negativsuche 02.10.2026]

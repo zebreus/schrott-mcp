@@ -5,13 +5,13 @@ trader_type: schrotthaendler
 state: RP
 city: Niedermohr
 street: Luitpoldstr. 9
-postcode: ''
-phone: ''
+postcode: 66879
+phone: 06383 1322
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: pruefung
+website_status: unbekannt
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallentsorgung, Haushaltsauflösung
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse + Rufnummer doppelt — „Gisela Kuß / Schrott- und Metallentsorgung, Entrümpelungen, Haushaltsauflösungen“, Luitpoldstr. 9, 66879 Niedermohr, Tel. (06383) 1322, Branchen Schrotthandel/Altmaterialhandel/Altmetallrecycling: Gelbe Seiten (Suche + implizit Detail: 128 m, Tel. 06383 1322) + 11880.com (Suche #1-Treffer + Detailseite direkt abgerufen; 11880: keine E-Mail, keine Website — „Website hinzufügen“). postcode/phone GEFÜLLT, status pruefung → aktiv, website_status unbekannt. Keine Öffnungszeiten, keine E-Mail belegt. Beleglage offen: 2 Verzeichnisse, kein Register, keine Betreiber-Website. Quelle(n): gelbeseiten.de, 11880.com.]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.hannover-schrott.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Impressum/Kontakt (Herrmann Container): Wilkenburger Str. 8e, 30519 Hannover (City passt), Tel. 0511-2284142 (Fax 0511-2284136), info@herrmann-container.de, Bürozeiten Mo–Do 08:00–16:45, Fr 08:00–16:00, Sa 08:00–12:00; zzgl. Containerdienst/Recycling; Einzelunternehmen → kein Frontmatter-Fill, Fakten nur Timeline; Quelle(n): hannover-schrott.de/impressum.html, /kontakt.html (Feedback 2323)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: hannover-schrott.de weiterhin live (HTTP 200, 02.10.2026) → website_status aktiv gesetzt; weiter kein Frontmatter-Fill (Einzelunternehmen, Owner-Ausnahme greift nicht); Quelle(n): HTTP-Check 02.10.2026]

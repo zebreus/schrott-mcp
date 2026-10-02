@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: keine HR-Identität „Max Aicher Recycling GmbH Lauingen" in Northdata gefunden; max-aicher.de Konzern-Beleg ohne Lauingen-Recycling-GmbH; keine Frontmatter-Fills; Klärfall bleibt unbekannt; Quelle(n): https://www.max-aicher.de/ + Northdata-Negativsuche Lauingen]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: 01.10-Befund bestaetigt - max-aicher.de (Stahl-/Bau-Konzern) enthaelt 02.10.2026 KEIN "Lauingen" (Volltext-Check Homepage); keine HR-Identitaet, keine Betreiber-Filiale Lauingen; keine Fills, status unbekannt; Quelle(n): https://www.max-aicher.de/ Volltextcheck 02.10.2026]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.alba.info
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Braunschweig-Präsenz bestätigt, kein Delisting — alba.info/standorte (Live-Fetch 01.10.2026): ALBA Braunschweig GmbH Frankfurter Str. 251 + Celler Heerstr. 337 (38122), Kunden-/Umweltzentrum Karrenführerstr. 1-3 (38100); ALBA Niedersachsen-Anhalt Am Hafen 9 (38112, Tel. 0531 8862-222); kein Fill (Dossier bündelt 2+ Standorte, kein Einzelstandort zuordenbar); Quelle(n): alba.info/standorte/ (Feedback 2340)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: alba.info/standorte/ weiterhin live (HTTP 200, 02.10.2026) → website_status aktiv gesetzt; weiter kein Einzelstandort-Fill (Multi-Standort-Dossier); Quelle(n): HTTP-Check 02.10.2026]

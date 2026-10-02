@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling?
 - Adresse: Erfurt
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein Treffer - Das Oertliche Branche Recycling/Erfurt ohne Wagner-Eintrag; Domain wagner-recycling.de unregistriert/nicht aufloesbar (DNS-Fehler 02.10.2026); keine Betreiber-Website, kein Register-Beleg; keine Fills, status pruefung (Klaerfall); Quelle(n): Das-Oertliche-Branchensuche Recycling/Erfurt + DNS-Check 02.10.2026]

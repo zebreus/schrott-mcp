@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Genthin (Dorfstr. 15, 39307)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Negativbefund - Das Oertliche kennt in Genthin zu "Knitter" NUR eine Physiotherapeutin (Karower Str. 2b), KEINEN Schrott-/AV-Betrieb; Websuche ohne Treffer; Seed-Adresse Dorfstr. 15 bleibt unverifiziert (Lead); keine Fills, status pruefung (miss-Tendenz); Quelle(n): Das-Oertliche-Negativsuche Knitter/Genthin 02.10.2026]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthandel Kleinbetrieb
 - Adresse: Hildesheim 31141, Augustastr. 15
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KLÄRFALL — einziger Beleg Gelbe Seiten ("Alian Service, Augustastr. 15, 31141 Hildesheim, Mobil 0176 62994748"); keine Betreiber-Website, kein HR-/Registerbeleg, kein Zweitbeleg auffindbar; Telefon nur Einzelbeleg → kein Fill, bleibt pruefung; Quelle(n): gelbeseiten.de/gsbiz/b299a9e3 (Lead, 02.10.2026)]

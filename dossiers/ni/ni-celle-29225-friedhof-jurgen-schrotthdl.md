@@ -4,13 +4,13 @@ name: Friedhof Jürgen SchrottHdl.
 trader_type: schrotthaendler
 state: NI
 city: Celle 29225
-street: ''
-postcode: ''
-phone: ''
+street: Holzhäusen 6
+postcode: 29225
+phone: 05141 45306
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthandel (11880/branchen-info-verifiziert)
 - Adresse: Celle 29225, Holzhäusen 6
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse/PLZ/Telefon in 5 Verzeichnissen identisch belegt (Ausnahmefall: Kleinbetrieb ohne Website/Betreiberquelle — Fill mit offener Dokumentation): Holzhäusen 6, 29225 Celle(-Wietzenbruch), Tel. 05141/45306; keine Betreiber-Website auffindbar → website_status unbekannt; bleibt pruefung (nur Aggregator-Belege); Quelle(n): gelbeseiten.de, dastelefonbuch.de, 11880.com, branchen-info.net, schrottplatz-info.de (02.10.2026)]

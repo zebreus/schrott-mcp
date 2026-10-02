@@ -10,8 +10,8 @@ phone: (06050) 1734
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: pruefung
+website_status: unbekannt
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Biebergemünd 63599 [Website-Recherche verzeichnis: services: Schrotthandel; notes: 11880-Verzeichnis (Schrotthandel Klaus Voigt).]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse + Rufnummer 3-fach konsistent — „Schrotthandel Klaus Voigt“, Breitenborner Str. 16, 63599 Biebergemünd (Lanzingen), Tel. (06050) 1734, Branchen Altmaterialhandel/Schrotthandel/Altmetallrecycling: 11880.com (Detailseite direkt abgerufen, Eintrag 01.03.2022, aktualisiert 02.08.2025) + schrottplatz-info.de (Detailseite direkt abgerufen) + schrottplatz.org. Keine Betreiber-Website (11880: „Website hinzufügen“, website_status unbekannt), keine Öffnungszeiten, keine E-Mail belegt. street/postcode/phone bereits aus Seed korrekt, status pruefung → aktiv. Beleglage offen: nur Verzeichnisse/Portale, kein Register, keine Betreiberquelle. Quelle(n): 11880.com, schrottplatz-info.de, schrottplatz.org.]
