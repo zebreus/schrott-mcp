@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottankauf (Metallpreisliste online) + Abholung, Container, Demontage
 
+### Recherche 02.10.2026 (Altauftrag 30.09-1800 ShardA, nachgeholt)
+
+- [Recherche 02.10.2026: Betreiber-Seiten EINZELN abgerufen – /impressum (Piskorski GmbH & Co. KG, Albrecht-Thaer-Str. 13, 29439 Lüchow, 05841 976631-0, HRB 206825, GF Philip/Bernd Kamlade) + /kontakt (gleiche Adresse/Telefon/Mail, Ansprechpartner) + /schrottankauf (Metall-Ankauf privat+gewerblich) = EINE Quelle (Betreiber). Extern: schrottplatz-info Luechow gleiche Adresse + Telefonbuch gleiche Adresse. Starke Betreiber-Einzelquelle (HR-kongruent per 01.10 Owner-Direktive, HRA 202777/HRB 206825); kein Overwrite, Frontmatter bereits befüllt. E-Mail damals nur Impressum-Einzelbeleg (Fill erst 01.10). Quelle(n): https://www.piskorski.de/impressum/ | https://www.piskorski.de/kontakt/ | https://www.piskorski.de/schrottankauf/ | https://www.schrottplatz-info.de/schrottplatz/Luechow/]
+
 ### Recherche 01.10.2026
 
 - [Audit-2 2402 01.10.2026: Audit-2 Feedback 2402 (Abholung nicht erfasst): Abholservice auf Betreiber-Website doppelt belegt - Home (Schrottankauf/-abholung, Containerdienst) + Abhol-Seite (12t-Pritsche mit Ladekran, auch Asbest); Quelle(n): https://www.piskorski.de, 01.10.2026]

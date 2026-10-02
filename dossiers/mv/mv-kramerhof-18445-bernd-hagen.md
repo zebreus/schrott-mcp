@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: http://www.bhagen.de
-website_status: ''
+website: https://www.bhagen.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,13 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 03.10.2026 (Feedback-Triage)
+
+- [Korrektur 03.10.2026: Feedback 3670 als Lead geprüft, teilweise bestätigt: Live-Website nennt im Kontakt/Footer Bernd Hagen Verwaltungs GmbH und Transport-Recycling-Baustoffhandel GmbH, jeweils Rendsburger Straße 345, 24537 Neumünster; Leistungen Abbruch, Erdarbeiten, Pflaster/Garten-Landschaft, Recycling/Baustoffhandel und Immobilien. Kein aktueller Kramerhof-Annahmehof und kein ausdrücklicher Schrott-/Metallankauf belegt; dies beweist weder Nichtexistenz noch Schließung. website auf erfolgreich abgerufenes HTTPS-Domain-Root normalisiert, website_status aktiv. Seite ist ein One-Pager: Leistungen, Kontakt, Impressum und Datenschutz eingebettet, keine eigenständigen relevanten Unterseiten verlinkt; relevante Fragmentziele zusätzlich einzeln abgerufen. Quelle(n): https://www.bhagen.de/ ; https://www.bhagen.de/#services ; https://www.bhagen.de/#contact ; https://www.bhagen.de/#imprintmodal]
+- [Korrektur 03.10.2026: Feedback 3670, Impressum-/Identitätscheck relativiert die frühere Aussage AUSSCHLIESSLICH Neumünster: Betreiber-Impressum ist im HTML unter imprintmodal abrufbar, nennt Bernd Hagen Verwaltungs GmbH, Geschäftsführer Bernd Hagen, Kiel HRB 11889, enthält jedoch auch Sitz der Gesellschaft und Gerichtsstand ist Stralsund. Externe Registerauswertung North Data ordnet Bernd Hagen Verwaltungs GmbH stattdessen Kiel HRB 14302 KI zu, Rendsburger Str. 345, Neumünster, und meldet Geschäftsführerwechsel zu Kim Carolin Hagen am 05.05.2022. Betreiber-Impressum und Registerauswertung sind somit nicht HR-kongruent; keine Owner-Ausnahme und keine Übertragung von Neumünster-Kontakten in die Kramerhof-Zeile. Quelle(n): https://www.bhagen.de/#imprintmodal ; https://www.northdata.de/Bernd%20Hagen%20Verwaltungs%20GmbH,%20Neum%C3%BCnster/Amtsgericht%20Kiel%20HRB%2014302%20KI]
+- [Korrektur 03.10.2026: Feedback 3670, historischer Betreiber-/Namensvettercheck: North Data gibt eine Registerbekanntmachung vom 04.11.2019 zu Hagen - Bau GmbH, Stralsund HRB 21097, wieder: Sitzverlegung von Neumünster, bisher Kiel HRB 11889 KI, nach Kramerhof, Geschäftsführer Bernd Hagen, Unternehmensgegenstand Bau/Abbruch/Wiederverwertung und Baustoffvertrieb. Das erklärt einen möglichen historischen Kramerhof-Bezug und die alte HRB im Website-Impressum, belegt aber nicht die Identität der Seed-Zeile Bernd Hagen GmbH. North-Data-Firmenprofil meldet am 27.04.2023 Löschung wegen Vermögenslosigkeit; Löschungs-Volltext ist dort Premium-gesperrt. Amtliches Registerportal lieferte Session-/Anwendungsfehler, kein amtlicher Auszug verifiziert. Diese Register-Sekundärquelle bleibt ein konkreter Prüflead, keine Grundlage für status geschlossen dieser ungeklärten Zeile. Quelle(n): https://www.northdata.de/?id=5657085526 ; https://www.northdata.de/Hagen%20-%20Bau%20GmbH,%20Kramerhof/Amtsgericht%20Stralsund%20HRB%2021097 ; https://www.northdata.de/?id=6616272094101504 ; https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml]
+- [Korrektur 03.10.2026: Feedback 3670, externer lokaler Lead: geo.io führt Bernd Hagen GmbH als Bauunternehmen, Hauptstraße 34, 18445 Kramerhof, 03831 443046; kein Registerkennzeichen, kein Schrottankauf und keine belastbare Aktualitäts-/Betreiberbestätigung. Nur Aggregator-Lead, daher kein Adress-/Telefon-Fill. Zuordnung zu historischem Hagen-Bau oder anderem Betrieb bleibt unklar; status pruefung und trader_type sonstige bleiben, keine Löschung/Slugänderung/Standortverschiebung. Keine Adressänderung, daher kein Geocoding-Neulauf ausgelöst; bei künftig bestätigter Adresskorrektur Koordinaten neu geocodieren. Quelle(n): https://bernd-hagen.geo.io/ ; https://www.bhagen.de/ ; https://www.northdata.de/?id=5657085526]
 
 ### Recherche 01.10.2026 (Feedback-Triage 2932)
 

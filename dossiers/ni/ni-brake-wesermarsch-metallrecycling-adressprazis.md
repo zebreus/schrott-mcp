@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - GS-Eintrag
 
+### Recherche 02.10.2026 (Altauftrag 30.09-1800 ShardA, nachgeholt)
+
+- [Recherche 02.10.2026: Betreiber-Seiten EINZELN abgerufen – /impressum (Wesermarsch Metallrecycling GmbH, Max-Planck-Str. 9, 26919 Brake, HRB 100164 AG Oldenburg, GF Bennet Springer, Tel. +49 4401 980060) + /privatkunden/selbstanlieferung (Selbstanlieferung/Abfallannahme, gleiche Adresse/Telefon) = EINE Quelle (Betreiber). Extern: Northdata HRB 100164 (Adress-/GF-Match per 01.10), BDSV-Mitgliederliste. GS-Spur als Lead. Starke Betreiber-Einzelquelle, HR-kongruent per 01.10 Owner-Direktive; Frontmatter bereits befüllt, kein Overwrite. Quelle(n): https://www.wmr-online.de/impressum/ | https://www.wmr-online.de/privatkunden/selbstanlieferung/ | Northdata HRB 100164 AG Oldenburg]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Impressum verifiziert – Wesermarsch Metallrecycling GmbH, Max-Planck-Str. 9, 26919 Brake, Tel. +49 4401 980060, wmr@wmr-online.de, HRB 100164 AG Oldenburg, GF Bennet Springer; Öffnungszeiten Mo-Do 07:30-12:30/13:00-16:30, Fr 07:30-12:30/13:00-16:00, Sa 09:00-12:00 (Retry 01.10.2026 re-verifiziert: Impressum-Direktabruf + Northdata-Adress-/GF-Match); Quelle(n): Betreiber-Website wmr-online.de/impressum (Abruf 01.10.2026); Northdata HRB 100164 (Abruf 01.10.2026)]
