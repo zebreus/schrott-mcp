@@ -10,8 +10,8 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel/Baustoff/Fuhrbetrieb
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — NUR Creditreform-Lead („Thomas Matties -Fuhrbetrieb-“, Schreibweise abweichend), kein Betreiber-Auftritt (keine Website, kein Impressum), kein Register-Treffer, kein Adress-/Telefon-Zweitbeleg; Wandlitzer Branchenverzeichnis führt nur Daiko Recycling (Zehnpfuhlweg 3, Klosterfelde), nicht Matthies; KEIN Fill, Status aktiv NICHT belastbar → auf pruefung zurückgesetzt; Quelle(n): keine belegfähige Quelle (Creditreform-Lead allein + wandlitz.de Negativbeleg Daiko)]

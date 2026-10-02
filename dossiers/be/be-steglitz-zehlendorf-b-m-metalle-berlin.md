@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (2)
 
 - [Recherche 01.10.2026: Bewiesene Korrektur aus Handelsregister (2+ Anbieter): Northdata (B + M Metalle Berlin GmbH, Berlin, AG Charlottenburg HRB 132091 B) + online-handelsregister.de (aktuelle Geschäftsanschrift c/o Frank Meyer, Kaiser-Wilhelm-Straße 88, 12247 Berlin seit HR-Veränderung 30.05.2017; Gegenstand: Handel mit Metallen und Schrott; Status register-aktiv; Gründung 09.02.2011) + webvalid/companyhouse-Snippets (gleiche Anschrift). Seed-Adresse Borstellstr. 42, 12167 war Registerstand 2013, überholt. Korrekturen: street → Kaiser-Wilhelm-Straße 88, postcode → 12247 (beide Steglitz-Zehlendorf: 12247 = Lankwitz, konsistent); phone-Verbotswert — → leer; status → aktiv (register-aktiv + Schrott-Gegenstand). Keine Website/Telefon/E-Mail belegbar; Quelle(n): Northdata HRB 132091 B + online-handelsregister.de HRB 132091 B + webvalid/companyhouse (Register-Anbieter)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Check ohne neuen Beleg - 01.10-Vorwellenbefund (HRB 132091 B, Kaiser-Wilhelm-Strasse 88, 12247 Berlin, status aktiv) steht unveraendert und tragfaehig; kein Frontmatter-Fill noetig; Quelle(n): Dossier-Re-Check 02.10.2026 (Welle 25:00)]

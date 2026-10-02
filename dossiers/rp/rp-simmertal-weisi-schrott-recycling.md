@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Check ohne neuen Befund: keine eigene Website, kein Registerbeleg für Weisi Schrott-Recycling GmbH gefunden (Namensvetter Weise Recycling Nieheim ist anderes Unternehmen, kein Merge). weinand.de-Aussage (ehem. Sammelstelle, derzeit keine Materialannahme, Binger Landstraße 9, 55618 Simmertal, Tel. 06754/8148) bleibt einziger Fremdbeleg. Nichts gefüllt, Status pruefung; Quelle(n): Websuche 02.10.2026 (Negativbefund, vgl. Notiz 01.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - ehem. Weinand-Sammelstelle, selbständig; lt. weinand.de "derzeit keine Materialannahme"

@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: NI
 city: Weener
 street: Industriestr. 10
-postcode: ''
+postcode: 26826
 phone: 04951 9149495
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - GS-Eintrag „Schrott“
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill Industriestr. 10, 26826 Weener bestaetigt; Domain schrotthandelmueller.info geparkt (one.com), daher website leer/website_status unbekannt; Status bleibt pruefung; Adressänderung (Postcode neu): Koordinaten neu zu geocodieren; Quelle(n): Gelbe Seiten, 11880-Name, Domain-Parking-Check 02.10.2026]

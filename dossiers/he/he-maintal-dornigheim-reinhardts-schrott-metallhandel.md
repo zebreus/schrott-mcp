@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,7 +28,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
-### Recherche 01.10.2026
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: GEGENBELEG, kein Merge: schrottmetallhandelreinhardt.com (Betreiber-Seite Schrott und metalhandel Reinhardt, Kontaktseite mit Tel. 0177 5385349) sitzt in Oberdürenbach, Königsseweg 2, 56651 (Landkreis Ahrweiler, RP), NICHT in Maintal-Dörnigheim. Gehört zu anderem Reinhardt-Betrieb. Maintal-Adresse Siemensallee 18, 63477 + Tel. 0176 68888925 weiterhin nur Aggregator-Leads (Gelbe Seiten, schrottplatz.org), kein Betreiber-Beleg. Frontmatter bleibt leer, website_status unbekannt, Status pruefung; Quelle(n): schrottmetallhandelreinhardt.com/kontakt (Gegenbeleg RP) + Websuche 02.10.2026]
 
 - [Recherche 01.10.2026: nur Aggregator-Leads (Gelbe Seiten: Siemensallee 18, 63477 Maintal-Dörnigheim, 0176 68888925; schrottplatz.org identisch) = kein Beleg; kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
 

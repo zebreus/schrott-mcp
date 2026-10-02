@@ -4,9 +4,9 @@ name: OM Recycling (Kabelrecycling-Spezialist)
 trader_type: sonstige
 state: NI
 city: Diepholz/Vechta
-street: ''
-postcode: ''
-phone: ''
+street: Elsässer Weg 14
+postcode: 49393
+phone: 04442 7021915
 email: ''
 opening_hours: ''
 website: https://om-recycling.de
@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - DDG-Recherche (01.10.2026): Verzeichnis-Leads (firmenindex-deutschland, Gelbe Seiten, Firmania, Cylex, Europages) nennen einheitlich Elsässer Weg 14, 49393 Lohne (Oldenburg), Tel.-Fragmente 04442-7021915 / 0175 2052… – alle nur Leads, keine Belege. Katalog docomo-europe nennt Betreiber-Domain om-recycling.de.
 - Direktabruf 01.10.2026: om-recycling.de (https + http) Transport error – Domain tot/nicht erreichbar → website_status tot.
 - Klärfall: Adresse/Telefon bleiben leer – nur Aggregator-Leads, kein zweiter unabhängiger Beleg, keine Betreiber-Primärquelle (Domain tot), kein HRB.
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill Elsässer Weg 14, 49393 Lohne, Tel. 04442 7021915; Domain-Retest om-recycling.de Timeout (tot); Status aktiv bleibt per Vorwellen-Ausnahme; Adressänderung: Koordinaten neu zu geocodieren; Quelle(n): Gelbe Seiten, Domain-Direktabruf 02.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

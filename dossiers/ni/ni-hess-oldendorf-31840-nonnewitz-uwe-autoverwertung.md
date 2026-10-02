@@ -4,14 +4,14 @@ name: Nonnewitz Uwe Autoverwertung
 trader_type: autoverwertung
 state: NI
 city: Hess. Oldendorf 31840
-street: ''
-postcode: ''
-phone: ''
+street: Goldbinnen 3
+postcode: 31840
+phone: 05152 525777
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
+website: https://uwenonnewitz.de
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (Flag)
 - Adresse: Hess. Oldendorf 31840, Goldbinnen 3
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill Goldbinnen 3, 31840 Hess. Oldendorf, Tel. 05152 525777, Website uwenonnewitz.de (aktiv); Status pruefung zu aktiv; Adressänderung: Koordinaten neu zu geocodieren; Quelle(n): Betreiber-Impressum uwenonnewitz.de, Gelbe Seiten, 11880]

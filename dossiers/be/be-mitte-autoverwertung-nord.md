@@ -10,9 +10,9 @@ phone: 030 40394959
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: pruefung
-description: ''
+website_status: unbekannt
+status: aktiv
+description: Anerkannter Demontagebetrieb fuer Altfahrzeuge (Verwertungsnachweis), Kennziffer LE 4501615; Autoverwertung mit Ersatzteilverkauf (eBay-Profil avn.berlin)
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Berlin (BE) — Recherche
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: STARKER Behördenbeleg: Senatsliste Anerkannte Demontagebetriebe Berlin (Stand 13.04.2026, berlin.de) führt Autoverwertung Nord, Holzstraße 4a, 13359 Berlin, Tel. 030 40394959, Kennziffer LE 4501615. Zweitbeleg Cylex (Holzstr. 4 A, 13359 Gesundbrunnen, gleiche Nummer) + Das Örtliche-Eintrag. Korrektur 30.09.2026 (aktiv zu pruefung mangels Zweitbeleg) damit überholt: status zurück zu aktiv (Behördenbeleg + Verzeichnis-Konkordanz). Fills: description, website_status unbekannt (keine eigene Domain, nur eBay-Profil avn.berlin als Lead). Kein PLZ-Konflikt 13409 belegt. Quelle(n): berlin.de Senats-PDF (Behörde) + cylex.de + dasoertliche.de]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

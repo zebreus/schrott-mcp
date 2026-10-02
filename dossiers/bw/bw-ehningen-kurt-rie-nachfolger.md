@@ -4,8 +4,8 @@ name: Kurt Rieß Nachfolger
 trader_type: schrotthaendler
 state: BW
 city: Ehningen
-street: ''
-postcode: ''
+street: Dagersheimerstr. 16
+postcode: 71139
 phone: ''
 email: ''
 opening_hours: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Ehningen
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse aus Fachbetrieberegister belegt: „Kurt Rieß Nachfolger Schrott und Metallhandel GbR, Dagersheimerstr. 16“, PLZ 71139 (Orte-Seite Ehningen, 1 Betrieb); Registerquelle (GESA/EfB, Abruf 11.08.2026) als starker Einzelbeleg — daher Straße/PLZ gefüllt, Restunsicherheit bleibt (kein Zweitbeleg, kein Telefon, keine Betreiber-Website, Ankauf unklar); Status pruefung; Quelle(n): https://schrottregister.pages.dev/ort-ehningen (führt GESA-Fachbetrieberegister + EfB-Register als Quelle)]

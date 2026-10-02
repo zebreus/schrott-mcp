@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Check bestätigt Klärfall vom 01.10.2026: kein Beleg für Schrottverwertung Christel Bruch in Viernheim auffindbar (kein Betreiber, kein Register, keine Verzeichnisse mit diesem Namen). GSA-Spiegel weiter nur Schneider und Malessa e.K. als anerkannter Betrieb in Viernheim. Nichts gefüllt, website_status unbekannt, Status pruefung; Quelle(n): Websuche 02.10.2026 (Negativbefund)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -4,13 +4,13 @@ name: Roselieb Schrotthandel GmbH, Reinhard
 trader_type: schrotthaendler
 state: SH
 city: Sylt/Tinnum
-street: ''
-postcode: ''
-phone: 04651 93 55 09
+street: Liiger Hörn 3
+postcode: 25980
+phone: 04651 935509
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://roselieb-gmbh.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill Liiger Hörn 3, 25980 Sylt/Tinnum, Website roselieb-gmbh.de (aktiv); Caveat: Betreiber-Seite (Impressum HRB 100262, Kontakt) nennt Sylt-Standort nicht explizit, daher kein aktiv-Upgrade, Status bleibt pruefung; Adressänderung: Koordinaten neu zu geocodieren; Quelle(n): Gelbe Seiten, Betreiber-Seiten roselieb-gmbh.de]

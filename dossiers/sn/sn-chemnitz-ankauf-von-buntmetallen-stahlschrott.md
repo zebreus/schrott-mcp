@@ -10,8 +10,8 @@ phone: 0176 55564352
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Bunt/Stahl-Annahme
 - Annahme lt. lokaleschrottplatz, Tel. 0176 55564352
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall bestätigt — KEIN Betreiber-Auftritt (keine Website, kein Impressum, kein Social), KEIN Register-Treffer, KEIN zweites Verzeichnis (Gelbe Seiten/Das Örtliche/11880 ohne Treffer zu „Wartburgstr. 2e“ + Buntmetall-Ankauf); Handelsmuster (nur Mobilnummer 0176…, nur Aggregator-Lead lokaleschrottplatz) spricht für fliegenden Kleinhändler ohne festen Platz; Felder unverändert (Import: Wartburgstr. 2e/Handy bleiben mit Unsicherheit stehen), Status aktiv NICHT belastbar → auf pruefung zurückgesetzt; Quelle(n): keine belegfähige Quelle (Bing/Google/Kleinanzeigen ohne Treffer)]

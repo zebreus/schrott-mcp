@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg); kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: MISS erneut bestätigt — kein verifizierbarer Treffer, Vor-MISS 01.10.2026 bestätigt; kein Frontmatter-Fill, Status bleibt pruefung; Quelle(n): Gelbe Seiten, 11880, Das Örtliche negativ]

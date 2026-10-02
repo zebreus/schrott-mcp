@@ -4,11 +4,11 @@ name: Dormagen Moo
 trader_type: schrotthaendler
 state: NW
 city: Dormagen
-street: ''
-postcode: ''
-phone: ''
+street: Kölner Str. 36 c
+postcode: 41539
+phone: 0177 6257459
 email: ''
-opening_hours: ''
+opening_hours: Mo-Sa 8-19
 website: ''
 website_status: ''
 status: pruefung
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: MISS erneut bestätigt — weiterhin kein Betreiber-/Register-Beleg; Gegenrecherche ohne verifizierbaren Treffer (Such-Backend 01.10.2026 gestört); kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill Kölner Str. 36 c, 41539 Dormagen, Tel. 0177 6257459, Zeiten Mo-Sa 8-19; Single-Aggregator-Beleglage offen dokumentiert, Status bleibt pruefung; Adressänderung: Koordinaten neu zu geocodieren; Quelle(n): 11880-Detailseite (Stand 18.09.2026) als alleiniger Beleg]

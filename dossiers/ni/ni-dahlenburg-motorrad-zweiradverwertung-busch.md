@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Zweiradverwertung (Flag)
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: MISS — kein verifizierbarer Treffer zu Motorrad-/Zweiradverwertung Busch in Dahlenburg; kein Frontmatter-Fill, Status bleibt pruefung; Quelle(n): Gelbe Seiten, 11880, Cylex, Das Örtliche negativ]

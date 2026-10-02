@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Nachgang)
 
 - [Recherche 01.10.2026: Zweit-Verzeichnis gefunden — Das Örtliche listet „Schick Walter Rohprodukte, Schrott, Am Welzbach 17, 63741 Aschaffenburg (Nilkheim), Tel. 06021 88952“ (exakt deckungsgleich mit Gelbe-Seiten-Eintrag); Bing-Suche nach Betreiber-Homepage ergebnislos (nur Namens-Homonyme); als begründeter Ausnahmefall (zwei unabhängige Verlags-Verzeichnisse, exakt konsistent) Adresse/PLZ/Telefon gefüllt, Restunsicherheit bleibt (Einzelunternehmen ohne HRB, kein Betreiber-Beleg, kein Owner-Gate); Abgrenzung „Walter Schick Containerdienst“ weiter offen; Quelle(n): dasoertliche.de-Suche Schick Rohprodukte Aschaffenburg + gelbeseiten.de-Eintrag]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Retry ohne neuen Beleg — kein Betreiber-Auftritt, kein Register-Treffer, keine weiteren Verzeichnisse; Felder unverändert (Ausnahmefall-Fill vom 01.10.2026 bleibt mit dokumentierter Restunsicherheit bestehen); Quelle(n): keine neue Quelle]

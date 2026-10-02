@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel/Schrott
 - Adresse: Mannheim, Ruhrorter Str.
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — einziger Treffer: „RN Metallhandel Rhein Neckar GmbH, Mannheim, gegründet 2014, Management: Nihad Karic“ (companyhouse.de, Register-Aggregator, Abruf geblockt 403, keine Adresse/Telefon); KEINE Betreiber-Website, KEIN zweiter Beleg (Northdata/handelsregister.ai ohne Treffer, Bing/Google nur Homonyme); NICHT verwechseln mit „ON-Schrott und Metallhandels GmbH, Inselstr. 6, 68169 Mannheim“ (eigenes Unternehmen, on-schrott.de) und nicht mit SM Metals / Klöckner / Präg (alle Ruhrorter Str., aber andere Firmen); KEINE Frontmatter-Füllung, Status pruefung; Quelle(n): companyhouse.de RN-Metallhandel-Rhein-Neckar-GmbH-Mannheim (Lead, unsicher)]

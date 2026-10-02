@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (allg.)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — NUR kompass-Aggregator-Lead (Ronny Voigt / rovocar, Im-/Export Geraberg), kein Betreiber-Auftritt (keine Website, kein Impressum), kein Register-Treffer, kein Adress-/Telefon-Zweitbeleg; „IKSCHROTT“-Schreibweise unbelegt; KEIN Fill, Felder unverändert, Status bleibt pruefung; Quelle(n): keine belegfähige Quelle (kompass-Lead allein)]

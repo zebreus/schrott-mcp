@@ -4,14 +4,14 @@ name: ABC Recycling
 trader_type: sonstige
 state: ST
 city: Dessau-Roßlau
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Alte Mildenseer Str. 17
+postcode: 06844
+phone: 0340/2162207
+email: info@abc-recycling.de
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
+website: http://www.abc-recycling-dessau.de
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Recycling
 - Adresse: Dessau-Roßlau (Alte Mildenseer Str. 17, 06844)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Voll-Fill aus Betreiber-Primärquelle (Impressum/Kontakt kongruent): ABC-Recycling GbR, Alte Mildenseer Str. 17, 06844 Dessau-Roßlau, Tel. (0340) 216 2207, info@abc-recycling.de (GF Ralf Schönemann, Günter Melzer); Zweitbeleg meinestadt.de Zerbst/Müll (gleiche Adresse) + 11880 (gleiche Adresse + Tel.); Betreiber+Zweitbeleg → pruefung→aktiv; Website nur per http erreichbar (https-Transportfehler), Domain-Root eingetragen, website_status aktiv; Quelle(n): abc-recycling-dessau.de/progs/kontakt.htm (Abruf 02.10.2026) + meinestadt.de/zerbst/muell + 11880.com Eintrag]

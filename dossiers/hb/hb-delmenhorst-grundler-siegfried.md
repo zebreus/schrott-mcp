@@ -6,12 +6,12 @@ state: HB
 city: Delmenhorst
 street: Oldenburger Landstr. 50
 postcode: '27753'
-phone: ''
+phone: 04221 452156
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - FLAG Autoverwertung
 - Adresse: Delmenhorst (Umland), Oldenburger Landstr. 50, 27753
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill Tel. 04221 452156 (Adresse bestaetigt); Status pruefung zu aktiv; Quelle(n): Gelbe Seiten, 11880-Detailseite (29.09.2026)]
