@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Bestaetigung + neue Zweitspur, Klaerfall bleibt: alle drei Betreiber-Domains live re-verifiziert (schrotthandel-metzler-essen.de HTTP 200; schrotthandel-missal-essen.de HTTP 301; schrott-in-essen.de live) + schrottradar-Portal „Schrott und Metallhandel J. Missal" Essen. NEU: cylex-Eintrag „Schrotthandel Metzler, Zum Oberhof, Essen-Kray, 0175 9254..." stuetzt die Seed-Adresse Zum Oberhof 32 gegen das Impressum (Kalthofweg 4, Juergen Missal) — Widerspruch damit weiter unaufgeloest (Aggregator vs. Impressum); Feedback-Triage-Entscheid 01.10.2026 (Felder leer lassen) bleibt gueltig, kein Fill. Quelle(n): Live-Abrufe + cylex (02.10.2026).]
+
 ### Recherche 01.10.2026
 
 - [Feedback-Triage 01.10.2026 (ID 2453): Adress-/Kontakt-Felder BLEIBEN LEER (Klaerfall bestaetigt) — Betreiber-Impressum (Einzelunternehmen Juergen Missal, Kalthofweg 4, 45277 Essen, Tel. 0170 3547895, schrotthandel-missal@web.de, ohne HRB) widerspricht Seed-Adresse 'Zum Oberhof 32'; Zweit-Domains schrotthandel-missal-essen.de + schrott-in-essen.de bestaetigen Kalthofweg 4 (alle eine Betreiber-Sphaere = formal EIN Beleg; keine Owner-Ausnahme ohne HRB). Firmania-Lead nennt Zum Oberhof 32, 45307 Essen als Alternativadresse — Widerspruch unaufgeloest, daher kein Adress-/Kontakt-Fill (Owner-Gate-Praezedenz). Schwerpunkt Abholung zweifelsfrei belegt ('Wir holen Schrott bei Ihnen kostenlos ab, Ruhrgebiet/NRW', Demontage/Brennarbeiten) → pickup_json gesetzt. Quelle(n): https://schrotthandel-metzler-essen.de/, https://schrotthandel-metzler-essen.de/impressum/ (Abruf 01.10.2026).]

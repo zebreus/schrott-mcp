@@ -4,13 +4,13 @@ name: Taurus
 trader_type: mobil
 state: NW
 city: Bochum
-street: ''
-postcode: ''
-phone: ''
+street: Gelsenkirchener Str. 4
+postcode: '44866'
+phone: 01575 4037431
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Ausnahme-Einzelfill (nur Aggregator-Belege, offen dokumentiert): 11880 fuehrt „Taurus Schrotthandel Entsorgung von Schrott und Altmetall", Gelsenkirchener Str. 4, 44866 Bochum (Leithe), Tel. (01575) 4037431, Branchen Altmaterialhandel/Altmetallrecycling/Schrotthandel, Oeffnungszeiten Mo-Sa 10-20 Uhr — Kategorie passt zum Dossier (mobil/Schrott), daher street/postcode/phone gefuellt; Zweitbeleg fehlt (ruhrpott-kurier spiegelt nur denselben 11880-Eintrag = eine Quelle; auftragsbank/cylex/firmania per Cloudflare nicht abrufbar). WICHTIG Mehrdeutigkeit: zweiter 11880-Eintrag „Taurus" (Entruempelung/Abrissfirma), Alter Zoll 6, 44867 Bochum-Hoentrop, Tel. (0176) 20019309 — andere Branche, moeglicherweise anderer Betrieb desselben Namens; NICHT vermischt. Kein Betreiber-Impressum, kein Register, keine Website gefunden; Status bleibt pruefung; Koordinaten neu zu geocodieren (Adress-Fill). Quelle(n): 11880.com (beide Taurus-Eintraege, Abruf 02.10.2026); DDG-Gegenrecherche 02.10.2026 (firmania/cylex/auftragsbank-Leads Alter Zoll 6).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

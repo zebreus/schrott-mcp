@@ -4,7 +4,7 @@ name: Dambrowski Schrotthandel
 trader_type: schrotthaendler
 state: SH
 city: Ratekau
-street: Alt-Ruppersdorf
+street: Altruppersdorf 2
 postcode: '23626'
 phone: 04504 60 95 83
 email: ''
@@ -35,6 +35,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: UPGRADE auf 2+ unabhaengige Belege: Gelbe Seiten bestaetigt „Dambrowski Schrotthandel, Altruppersdorf 2, 23626 Ratekau, Tel. 04504 60 95 83" (kongruent zu 11880 + bundes-telefonbuch + goyellow) → Schreibweise auf Mehrheit „Altruppersdorf 2" (mit Hausnr.) korrigiert (11880-Variante „Alt-Ruppersdorf" bleibt als Alias in Historie); phone/postcode bereits gesetzt, bestaetigt. Weiterhin kein Betreiber-Impressum/Register/Website, kein expliziter Ankaufbeleg → Status bleibt pruefung; Koordinaten neu zu geocodieren (Adress-Praezisierung). Quelle(n): Gelbe Seiten + bundes-telefonbuch + goyellow + 11880 (Abruf 02.10.2026).]
 
 ### Recherche 01.10.2026
 

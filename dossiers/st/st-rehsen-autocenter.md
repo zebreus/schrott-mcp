@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung
 - Adresse: Rehsen (evtl. Händler – prüfen)
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss bestaetigt — weiter kein Betreiber-/Register-/Social-Beleg auffindbar (Websuche offline, Verzeichnis-Gegenpruefung ohne Treffer). Haendler-Eigenschaft weiter ungeklaert, kein Fill, Status bleibt pruefung; Quelle(n): Gegenrecherche 02.10.2026 ohne verifizierbaren Treffer]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg); Händler-Eigenschaft ungeklärt; kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]

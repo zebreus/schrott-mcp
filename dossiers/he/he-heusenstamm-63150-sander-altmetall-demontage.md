@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall + Demontage
 - Adresse: Heusenstamm 63150
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall, KEIN Fill trotz starker Betreiber-Website - sander-altmetall.de (Impressum: Kevin Sander, Sitz Bauerbachstr. 3a, 63179 Obertshausen; Abgabe Philipp-Reis-Str. 4-8, 63150 Heusenstamm; Mobil 0173 8830230, Tel. 06104 7899081, info@sander-altmetall.de; Mo-Fr 07:30-17:00; Leistungen Altmetallabholung/Demontage/Entruempelung) plus MyHammer-Profil (Lead). Hinderungsgruende: Einzelunternehmen ohne HRB (keine Owner-Ausnahme, Konsistenz zum Anfang-Fall) plus Adressdivergenz Sitz vs. Abgabestelle; Zweitbeleg aus Register/kommunaler Quelle ausstehend; Quelle(n): https://sander-altmetall.de/ + Unterseiten (SERP-Verifikation 02.10.2026) + my-hammer.de-Profil (Lead)]

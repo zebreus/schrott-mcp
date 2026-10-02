@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - HRB 19684 AG Münster, aktiv (Gründung 2021); WEEE (= E-Schrott) + PM (= Edelmetalle) im Namen, Branchen Großhandel/Unternehmensberatung — E-Schrott-Indiz, kein Ankaufbeleg
 - Adresse: Münster, Parkallee 40, 48155
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: HR-Bestand mehrfach bestaetigt (Creditreform firmeneintrag, companyhouse, openregister, online-handelsregister, databyte — alle HRB 19684 AG Muenster, Parkallee 40, 48155 Muenster, Status aktiv; Gegenstand „Recycling von Schrott, insbes. Rueckgewinnung von Metallen"); 11880 listet sie unter Branche Schrotthandel (Adresse kongruent, aber ohne Tel./Mail/Website). KEINE Betreiber-Website auffindbar (meinestadt: „Keine Internetseite angegeben"); kein Telefon, keine Mail belegt → kein Frontmatter-Fill; Profil spricht fuer B2B-Recycler ohne Publikums-Ankauf → Status bleibt pruefung. Quelle(n): Creditreform/openregister/online-handelsregister/databyte/companyhouse + 11880 (Abruf 02.10.2026).]
 
 ### Recherche 01.10.2026
 

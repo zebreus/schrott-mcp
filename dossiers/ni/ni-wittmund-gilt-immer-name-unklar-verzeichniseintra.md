@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss - Websuche (Wittmund + Schrott/Schrotthaendler) bringt keinen Haendler, nur Landkreis-Abfallberatung (Wiefels) und Flohmarkt-Scheune; Verzeichnisname weiter ungedeutet; kein Fill; Folgewelle: Gewerberegister Wittmund; Quelle(n): Websuche 02.10.2026]

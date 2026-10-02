@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Altestr. 4
 - urspr. Website-Angabe: keine
 - Adresse: Bechhofen
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss - Websuche (Bechhofen + Altestr./Schrott/Autoverwertung) bringt nur Unzutreffendes (Bechhofen BY/Ansbach, Autoverwertung-Portale, Buechler/AvB Schwabstedt); Ortsbuergermeister von Bechhofen (Pfalz, 66894) ist Paul Sefrin, kein Bezug zum Dossier-Namen. Auffaellig: street-Feld vermengt Name und Adresse (Paul Bechhofen Bechhofen Altestr. 4); kein Betreiber, kein Beleg; kein Fill; Folgewelle: PLZ 66894 und Altestr. 4 in Bechhofen (Pfalz) gezielt pruefen; Quelle(n): Websuche 02.10.2026]

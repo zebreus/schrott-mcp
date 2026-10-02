@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss — kein Betreiber-Beleg identifizierbar (keine Betreiber-Website, kein Registerbeleg); schrottplatz-info.de listet fuer Miltenberg nur Mehring GmbH, kein Car-Transplant-Eintrag. Seed-Adresse (Altstadtweg 4) unbestätigt. Kein Frontmatter-Fill (Beleg-Standard nicht erfuellt), Status bleibt pruefung; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Miltenberg (Negativbefund)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - AV — zert. Demontagebetrieb

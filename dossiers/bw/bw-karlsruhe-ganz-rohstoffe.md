@@ -4,15 +4,15 @@ name: Ganz Rohstoffe GmbH
 trader_type: containerdienst
 state: BW
 city: Karlsruhe
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Fritschlachweg 15
+postcode: '76189'
+phone: '+49 721 572365'
+email: info@ganz-containerdienst.de
+opening_hours: 'Mo-Do 07:00-12:00, 13:00-16:00, Fr 07:00-12:00, 13:00-14:00'
 website: https://www.ganz-containerdienst.de/
-website_status: 'aktiv'
+website_status: aktiv
 status: aktiv
-description: ''
+description: 'Schrott-/NE-Metall-Ankauf und Containerdienst Karlsruhe (5000 qm Platz); Entsorgungsfachbetrieb, ISO 9001/14001'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Karlsruhe / Mittlerer Oberrhein / Ortenau
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: ok — Owner-Ausnahme greift (verifizierte Betreiber-Primaerquelle: Impressum Ganz Rohstoffe GmbH, Fritschlachweg 15, 76189 Karlsruhe, HRB 704296 AG Mannheim, GF Martin Baer, Marco Baer, Dennis Baer — Name+HRB+Ort kongruent). Voll-Fill aus Betreiber-Kontakt-/Leistungsseiten: Schrott/NE-Metalle (Cu, Messing, Alu, Zink, Stahl), Containerdienst, Entsorgungsfachbetrieb, ISO 9001/14001, Zeiten wie eingetragen (freitags keine Barauszahlung). Korrektur zur 01.10.-Note: GF-Zeile ("Baer" singular) praezisiert (drei GF). Adress-Fill löst Neu-Geocodierung aus. Status aktiv; Quelle(n): https://www.ganz-containerdienst.de/impressum/ , https://www.ganz-containerdienst.de/kontakt/ , https://www.ganz-containerdienst.de/dienstleistungen/rohstoffe-schrott-und-metalle/]
 
 ### Recherche 01.10.2026
 

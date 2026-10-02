@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt zu Schrott Siegfried auffindbar; Seed-Frontmatter PLZ 60431 + Tel. 069 26942353 ruhen auf Aggregator-Leads (Das Telefonbuch/Gelbe Seiten = Leads, keine Belege nach Quellen-Hierarchie), Strasse weiter unbekannt; Felder unangetastet; Statusfeld unveraendert; Quelle(n): keine Betreiberquelle]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss - erneute Websuche bringt nur Namensvetter (Osteopath Siegfried Schrott, Frankfurt; Grossrecycler Siegfried Jacob, Abgrenzung s. 30.09.); weiter kein Betreiber; kein Fill; Quelle(n): Websuche 02.10.2026]

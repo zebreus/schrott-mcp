@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne passenden Treffer; plausible Domains schrotthandel-freigericht.de (mit/ohne www) nicht registriert (NXDOMAIN); Vorbefund website_status tot unbelegt (kein Beleg für geteste URL im Dossier); Quelle(n): keine. Status pruefung und website_status tot unverändert (Klärfall: Re-Test dokumentieren oder Beleg nachliefern).]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss - Websuche (Schrott/Metallhandel + Freigericht + Raiffeisenstr.) bringt nur Branchenfremde (Baustoffhandel, Fensterbauer) und das Schrottregister (1 Betrieb in Freigericht, Identitaet ungeprueft, keine Zuordnung zu Raiffeisenstr. 26 moeglich); kein Betreiber, kein Zweitbeleg; kein Fill; website_status tot weiter unbelegt (kein Re-Test einer konkreten URL dokumentiert); Quelle(n): Websuche 02.10.2026]

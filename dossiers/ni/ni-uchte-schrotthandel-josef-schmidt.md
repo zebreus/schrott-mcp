@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss - Websuche (Josef Schmidt + Schrotthandel + Uchte) bringt nur Namensvetter (u.a. Schmidt Bauservice Asslar, Schmidt Stahlbau Uchte) und den kommunalen Wertstoffhof Uchte (eigener Betrieb, Am Richteberg); kein Betreiber, kein Beleg; kein Fill; Quelle(n): Websuche 02.10.2026]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - AV — zert. Demontagebetrieb
 - urspr. Website-Angabe: keine
 - Adresse: Michelstadt 64720, Reinstraße 10
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: nur Aggregator-Leads - sind-sie-sicher.info (Jochen Sterz, Reinstr. 10, 64720 Michelstadt, Tel. 06061 2633) plus Das-Oertliche-Snippet (Sterz Jochen Kfz-Gebrauchtteileservice, Reinstr.); kein Betreiber, kein Impressum, kein Register; kein Fill; Quelle(n): Aggregator-Leads (02.10.2026)]

@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallhandel
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss - Direktabruf https://elmh.de am 02.10.2026 schlaegt fehl (Transportfehler, Domain nicht auflösbar/erreichbar); website_status tot damit per Direktabruf bestaetigt, keine Aenderung noetig. Websuche (Emsland Metallhandel Hinrichs + Surwold) bringt nur Namensvetter (Emsland Metallbau, Metallbau Hinrichsen); kein Betreiber, kein Beleg; kein Fill; Quelle(n): Direktabruf 02.10.2026 + Websuche 02.10.2026]

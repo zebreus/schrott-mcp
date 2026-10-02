@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Bunt-/Edelstahl-/Kabel-Ankauf, Barzahlung
 - Werdau/Crimmitschau-Einzugsgebiet, Tel. 037204 2343
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss bestaetigt — schrottplatz-info.de fuehrt Lichtenstein mit 0 Eintraegen (Negativbefund); weiter nur Verzeichnis-Leads ohne Betreiber-/Registerbeleg. Bestehende street/phone bleiben unveraendert (Seed-Stand, nicht ueberschrieben), kein Fill; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Lichtenstein (Negativbefund)]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg gefunden (nur Verzeichnis-Leads); bestehende street/phone unverändert (nicht überschrieben), PLZ/Website bleiben leer.; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads)]

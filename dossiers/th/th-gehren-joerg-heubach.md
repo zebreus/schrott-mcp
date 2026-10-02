@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott? (nur Verzeichnis)
 - Adresse: Gehren
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss bestaetigt — schrottplatz-info.de fuehrt Gehren mit 0 Eintraegen (Negativbefund); weiter kein Register-/Betreiber-Beleg, kein Fill, Status bleibt pruefung; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Gehren (Negativbefund)]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein Handelsregister-Treffer in Gehren (Northdata: nur ortsfremde Heubach-Firmen), keine Betreiber-Website auffindbar (Suchtreffer von Stadt Heubach/BW überlagert); nur Verzeichnis-Leads → keine Frontmatter-Fills; Klärfall bleibt, Status pruefung]

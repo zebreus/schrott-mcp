@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinhändler Schrott
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: duenner Lead - Gelbe Seiten listet Lorsbaecher Romano Schrotthandel, Heinrich-Heine-Str. 31, 65201 Wiesbaden (Schierstein), Tel. 0178 8604462 (reiner Aggregator-Eintrag); kein Betreiber, kein Zweitbeleg; kein Fill; Folgewelle: Gewerberegister Wiesbaden; Quelle(n): gelbeseiten.de (Lead, 02.10.2026)]

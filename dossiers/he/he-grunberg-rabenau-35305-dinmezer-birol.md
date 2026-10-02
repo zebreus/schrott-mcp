@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - evtl. Abholdienst
 - Adresse: Grünberg/Rabenau 35305
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: duenner Lead - schrottplatz.org listet Autoverwertung Dinmezer Birol, Ausserhalb 13, 35466 Rabenau (reiner Aggregator-Eintrag ohne Bewertung); kein Betreiber, kein Zweitbeleg; kein Fill; Folgewelle: Vor-Ort/Gewerberegister Rabenau; Quelle(n): schrottplatz.org (Lead, 02.10.2026)]

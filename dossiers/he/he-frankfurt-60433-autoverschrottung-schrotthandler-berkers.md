@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV + Schrott
 - Adresse: Frankfurt 60433 [Website-Recherche verzeichnis: services: Autoverschrottung, Schrotthandel; notes: 11880-Verzeichnis; Firmenname generisch (Autoverschrottung und Schrotthändler), Straße entspricht Seed-Hinweis Berkersheimer Weg.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss - Websuche (Autoverschrottung/Schrotthaendler + Berkersheimer Weg + 60433) bringt nur Branchenkollegen (Schrott-i, Schrott Frankfurt e.K., Kumpfmueller Bonameser Str.) und die Apotheke am Frankfurter Berg (Berkersheimer Weg 6, andere Branche); kein Betreiber mit diesem Namen, kein Zweitbeleg; kein Fill; Quelle(n): Websuche 02.10.2026]

@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Recycling (nur Verzeichnis-Eintrag + Review); KEIN Seed-Dup (th.json enthaelt kein Utsch)
 - Adresse: Rudolstadt
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss bestaetigt — schrottplatz-info.de fuehrt Rudolstadt mit 0 Eintraegen (Negativbefund); weiter kein Register-/Betreiber-Beleg, kein Fill, Status bleibt pruefung; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Rudolstadt (Negativbefund)]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein Handelsregister-Treffer (Northdata: keine Utsch-Firma in Rudolstadt; Treffer nur Kennzeichen-Hersteller Erich Utsch Siegen u.ä.), keine Betreiber-Website auffindbar; nur Verzeichnis-/Review-Leads → keine Frontmatter-Fills; Klärfall bleibt, Status pruefung]

@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-Leads (Mittelstr. 31, 37412 Hörden, Tel. 05521 1884), kein zweiter unabhängiger Beleg, keine Betreiber-Website — kein Fill; Quelle(n): Verzeichnis-Leads]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss - gezielte Websuche (Klaus Schleifer + Hoerden/Harz + Schrott) bringt nur Namensvetter und den Grosshaendler Harzer Schrott und Recycling GmbH (Bad Harzburg, andere Firma); kein Betreiber, kein Zweitbeleg; kein Fill; Quelle(n): Websuche 02.10.2026]

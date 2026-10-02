@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - lokaleschrottplatz.de
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein Fill — nur Verzeichnis-Lead (lokaleschrottplatz.de) plus Seed-Telefon 0174 4558806, kein unabhaengiger Zweitbeleg (keine Betreiber-Website, kein Registerbeleg; Websuche offline). Bestehendes phone bleibt unveraendert (nicht geloescht), Status bleibt pruefung; Quelle(n): nur Verzeichnis-Lead, kein Beleg]
+
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

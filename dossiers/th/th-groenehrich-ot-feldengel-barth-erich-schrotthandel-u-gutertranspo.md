@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss — kein Betreiber-Beleg (keine Betreiber-Website, kein Registerbeleg; Websuche offline). Verzeichnis-Gegenpruefung ohne belastbaren Treffer. Kein Fill, Status bleibt pruefung; Quelle(n): Gegenrecherche 02.10.2026 ohne verifizierbaren Treffer]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel + Gütertransport

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss — kein Betreiber-/Registerbeleg (keine Betreiber-Website auffindbar; Websuche offline). Vorsicht Fehlgriff: Northdata HRB 13936 (Schwerin) gehoert zur Solarpark Brahlstorf GmbH (fremde Firma), NICHT zu Friehold — nicht als Beleg verwendbar. Seed-Adresse (Kastanienallee 12) unbestätigt, kein Fill, Status bleibt pruefung; Quelle(n): Northdata-Fehlgriff dokumentiert (kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Eisen/NE

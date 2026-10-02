@@ -38,6 +38,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Audit-2 2423 01.10.2026: Audit-2 Feedback 2423 bestaetigt Namens-Abweichung: Website gehoert Metallhandel BroZinski GbR (Riko Brozinski & Denny Broschinski), Wehnser Weg 25, 27374 Visselhoevede (Altmetall-Ankauf, Abbruch/Demontage, Containerdienst, Mo-Fr 08:30-17:00, Tel. +49 171 1087298, metallhandel-brozinski@web.de); Dossier-Name Martin/Peter (Broschinski) vs. Riko/Denny (Brozinski/Broschinski-Mix) - Zuordnung unsicher (Vorgaenger/Nachfolger ungeklaert); Quelle(n): https://metallhandel-brozinski.de Impressum (Live-Abruf 01.10.2026)]
 - [Audit-2 2423 01.10.2026: Klaerfall: keine Frontmatter-Aenderung - Adress-Uebernahme ohne Namens-Klaerung waere Phantom-Fill (description-Abgrenzung bleibt)]
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall bestaetigt - Betreiber-Impressum (Metallhandel BroZinski GbR, Riko Brozinski und Denny Broschinski, Wehnserweg 25, 27374 Visselhoevede, Tel. 0171 1087298, metallhandel-brozinski@web.de) per Websuche erneut verifiziert, Stand unveraendert; GbR ohne HRB, Namensabweichung Dossier (Martin/Peter, Broschinski) vs. Impressum (Riko/Denny, Brozinski) weiter ungeklaert; kein Fill; Quelle(n): http://www.metallhandel-brozinski.de/IMPRESSUM (Snippet-Verifikation 02.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle
