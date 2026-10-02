@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEINE Fills — Namensvetter-Disambiguierung: Domain schrottabholung-krefeld.de gehoert laut Impressum A. Lahib, Neukirchener Str. 45, 47829 Krefeld, Tel 01522-422-4277 (past NICHT zu Seed-Eintrag Hermannstr. 3-24 / 0163-Nr.). Seed-Adresse Hermannstr. 3-24 + Rufnummer 0163 8100578 nur via Schrottportal schrottfinder.de (Lead, kein Beleg). Zwei verschiedene Betreiber unter gleichem Gattungsnamen moeglich — Klaerfall bleibt, Status pruefung; Quelle(n): schrottabholung-krefeld.de/impressum + schrottfinder.de (Lead)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Hermannstr. 3-24, 0163-Nr.

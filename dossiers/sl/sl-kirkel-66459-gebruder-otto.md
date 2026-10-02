@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall ohne Fill (nur Timeline) — nur alte HRB-Notiz (Gebrüder Otto GmbH, HRB 2933 AG Saarbrücken, Bahnstr. 3, 66459 Kirkel) ohne 2. Quelle (kein Betreiber-Webauftritt/Mail/Zeiten auffindbar); keine Änderung an Frontmatter/description; Quelle(n): Northdata HRB 2933 (eine Quelle) + Seed-Creditreform-Notiz (unselbständig).]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: HR-Beleg Gebrüder Otto GmbH, AG Saarbrücken HRB 2933, Adresse Bahnstr. 3, D-66459 Kirkel, Gegenstand Autoverschrottung/An-Verkauf Gebrauchtwagen/Ersatzteile/Schrotthandel/Demontage/Abschleppdienst; Quelle(n): https://www.northdata.de/Gebr%C3%BCder+Otto+GmbH,+Kirkel]

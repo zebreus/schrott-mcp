@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss ohne Fill (nur Timeline) — kein Schrottbezug auffindbar, kein Betreiber-Auftritt/Register/Verzeichnis mit Schrottbezug; Adresse Langenselbold 63505 unbestätigt; Frontmatter bleibt leer; Quelle(n): keine.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - evtl. Familienbetrieb

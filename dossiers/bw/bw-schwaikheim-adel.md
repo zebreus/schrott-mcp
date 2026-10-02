@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung
 - Adresse: Schwaikheim
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall ohne Fill (nur Timeline) — Zweit-Lead servizgo (Heinkelstr., 07195 51565) neben Aggregator-Leads (Heinkelstr. 4, 71409 Schwaikheim, Tel 07195 51565); kein Betreiber-Webauftritt/HR-Beleg, keine 2 unabhängigen Belege; website_status bleibt unbekannt, status bleibt pruefung; Quelle(n): Verzeichnis-Leads + servizgo-Zweit-Lead.]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-Leads (Heinkelstr. 4, 71409 Schwaikheim, Tel. 07195 51565), kein zweiter unabhängiger Beleg, keine Betreiber-Website — kein Fill; Quelle(n): Verzeichnis-Leads]

@@ -10,7 +10,7 @@ phone: (06073) 61957
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall ohne Fill (nur Timeline) — Feldbergstr. 10, 64832 Babenhausen, Tel 06073 61957 aus 2 Verzeichnisquellen bestätigt (Seed-11880 + Das-Örtliche-Themenseite Schrotthändler Babenhausen); kein Betreiber-Webauftritt/HR-Beleg, website_status unbekannt, status bleibt pruefung; Quelle(n): Seed-11880 + dasoertliche.de/Themen/Schrotthändler/Babenhausen-Hess.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

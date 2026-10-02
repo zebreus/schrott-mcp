@@ -4,13 +4,13 @@ name: Klapp
 trader_type: schrotthaendler
 state: NW
 city: Hagen
-street: ''
-postcode: ''
+street: Hellweg 88
+postcode: 58099
 phone: ''
-email: ''
+email: info@cc-gruppe.com
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://cc-gruppe.com
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Identitaet GEKLAERT (C.C. Schrott + Metall Klapp GmbH + Co. KG, seit 1969 Entsorgung/Verwertung), Straße/PLZ/Mail/Website GEFÜLLT. Doppelbeleg: ruhrpott-kurier (Hellweg 88, 58099 Hagen, info@cc-gruppe.com) + branchen-info.net (Hellweg 88, 58099 Hagen, info@cc-gruppe.com, www.cc-gruppe.com). Telefon NICHT gefuellt (Widerspruch: 02331 6280100 vs 02331 25147, je nur Einzelbeleg). Domain cc-gruppe.com loest auf, zeigt aber Blue Phoenix Deutschland GmbH (Bataverstr. 25, 47809 Krefeld) — moegliche Uebernahme/Umfirmierung, website_status aktiv mit Unsicherheit; Koordinaten neu zu geocodieren; Quelle(n): ruhrpott-kurier.de + hagen.branchen-info.net + cc-gruppe.com]
 
 ### Recherche 01.10.2026
 

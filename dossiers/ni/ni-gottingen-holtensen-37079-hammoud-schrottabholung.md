@@ -4,8 +4,8 @@ name: Hammoud Schrottabholung
 trader_type: schrotthaendler
 state: NI
 city: Göttingen-Holtensen 37079
-street: ''
-postcode: ''
+street: Lenglerner Str. 11
+postcode: 37079
 phone: ''
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Straße/PLZ GEFÜLLT als begruendete Ausnahme (offen dokumentiert): kein Betreiber-Webauftritt, kein HR-Eintrag — aber adressgleicher Konsens in 5 unabhaengigen Verzeichnissen (Das Oertliche, Gelbe Seiten, Das Telefonbuch, golocal, 11880 "Hammoud-Service"): Lenglerner Str. 11, 37079 Goettingen-Holtensen. Telefon NICHT gefuellt (Widerspruch Festnetz 0551 2509773 vs. Mobil 0176 22935886, je nur Verzeichnis-Leads); Koordinaten neu zu geocodieren; Status bleibt pruefung; Quelle(n): Verzeichnis-Konsens (Ausnahme, kein Betreiber-Beleg)]
 
 ### Recherche 01.10.2026
 

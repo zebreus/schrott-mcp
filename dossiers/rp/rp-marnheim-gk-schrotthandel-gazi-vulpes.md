@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall ohne Fill (nur Timeline) — nur Cylex-Einzelbeleg (Kirchstr. 19a, 67297 Marnheim, Tel 015751056357, Schrotthandel/Entrümpelung); kein Betreiber-Auftritt/HR-Beleg, keine Zweitquelle; kein Fill; Quelle(n): Cylex (eine Quelle).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel/Entrümpelung (schwacher Beleg)

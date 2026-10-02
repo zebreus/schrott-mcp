@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinhändler Schrott
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss bestätigt ohne Fill (nur Timeline) — Recheck 02.10. brachte nur Fremdfirmen (kein passender Registertreffer Northdata, plausible Domain schrott-lutz.de NXDOMAIN, keine Betreiber-Website); kein belastbarer Schrottbezug; Frontmatter bleibt leer; Quelle(n): keine (nur Seed-Verzeichnis).]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata-Suche ohne passenden Registertreffer; plausible Domain schrott-lutz.de nicht registriert (NXDOMAIN); keine Betreiber-Website auffindbar; Quelle(n): keine (nur Seed-Verzeichnis). Frontmatter bleibt leer (Klärfall).]

@@ -5,12 +5,12 @@ trader_type: sonstige
 state: BY
 city: Buchloe
 street: Winkeläckerstr. 10
-postcode: ''
-phone: ''
+postcode: 86807
+phone: 08241 9672-0
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.foell-rohstoffhandel.de/
+website_status: aktiv
 status: unbekannt
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Frontmatter-Fills PLZ/Telefon/Website aus Betreiber-Primärquelle + Register-Zweitbeleg — Filiale "The BIG" Buchloe, Winkeläckerstr. 10, 86807 Buchloe, Tel 08241 9672-0, Zeiten Mo-Do 07:00-12:00/12:30-16:30, Fr 07:00-12:00/12:30-15:00; Umfirmierung Schmidt Recycling GmbH Buchloe (HRB 7650 AG Kempten) → Otto Schmidt Recycling → Föll Rohstoffhandel GmbH Durach dokumentiert; Owner-Ausnahme für Filial-Fakten (Betreiber-Standortseite), Register-kongruent; Name/Slug unverändert (Historie bleibt); Quelle(n): https://www.foell-rohstoffhandel.de/service/standorte (Abruf 02.10.2026) + Northdata HRB 7650 + Creditreform.]
 
 ### Recherche 01.10.2026
 

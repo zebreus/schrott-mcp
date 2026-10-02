@@ -7,12 +7,12 @@ city: Allstedt
 street: Sophienstr. 2E
 postcode: '06542'
 phone: '034652 10474'
-email: ''
+email: schrott-abfallhandel-baum@web.de
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
-description: ''
+status: aktiv
+description: Schrott- und Altstoffhandel (Containerdienst, Abriss/Entsorgung)
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Nachtrag Audit-Runde 2 (Stand: 2026-09-27)'
@@ -31,6 +31,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Altstoffhandel (lt. Verzeichnis)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Breite Konsistenz ohne Betreiber-Website („Keine Internetseite angegeben" lt. meinestadt.de) — Sophienstr. 2 E, 06542 Allstedt + Tel. 034652 10474 konsistent bei cylex.de, firmania.de, dasoertliche.de, 11880.com, meinestadt.de, branchenbuchdeutschland.de, stadtplan.pro; E-Mail schrott-abfallhandel-baum@web.de (meinestadt.de voll + cylex.de-Fragment „…@web.de" konsistent); Leistungen Containerdienst/Schrotthandel/Abriss/Entsorgung (ortsdienst.de). Fills als begründete Ausnahme mit offener Doku (7+ konsistente Verzeichnisse, kein Gegenbeleg): email, description; status pruefung → aktiv. Quelle(n): cylex.de + firmania.de + dasoertliche.de + 11880.com + meinestadt.de + ortsdienst.de (Adress-/Tel.-Konsistenz + E-Mail + Leistungen, Leads)]
 
 ### Recherche 30.09.2026
 

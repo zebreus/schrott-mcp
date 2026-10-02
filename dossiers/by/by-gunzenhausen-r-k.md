@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss ohne Fill (nur Timeline) — kein Treffer (R&K Gunzenhausen, PLZ 91710); kein Betreiber-Auftritt/Register/Verzeichnis mit Schrottbezug; Frontmatter bleibt (PLZ aus Register-Prosa); Quelle(n): keine.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 91710)

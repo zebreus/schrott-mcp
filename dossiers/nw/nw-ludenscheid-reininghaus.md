@@ -1,18 +1,18 @@
 ---
 slug: nw-ludenscheid-reininghaus
-name: Reininghaus
+name: Karl-Ernst u. Doris Reininghaus
 trader_type: schrotthaendler
 state: NW
 city: Lüdenscheid
-street: ''
-postcode: ''
-phone: ''
+street: Am Langen Acker 12
+postcode: 58515
+phone: 02351 71028
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
-description: ''
+status: aktiv
+description: Schrott/Metallverarbeitung/Recyclinghof (OT Bruegge)
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Lüdenscheid (Sauerland)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Identifiziert — Karl-Ernst u. Doris Reininghaus, Am Langen Acker 12, 58515 Lüdenscheid (OT Brügge), Tel. 02351 71028 (oeffnungszeitenbuch.de; Kategorien Großhandel/Metallverarbeitung/Recyclinghof); Zweitbelege stadtbranchenbuch.com (Schrott-Kategorie, gleiche Adresse) + 11880-Eintrag (Juli 2024). Northdata-Hinweis vom 01.10. (HRB 10063/HRA 3488 erloschen, Bezug unbestätigt) bleibt ungeklärt in Historie — kein Register-Zweitbeleg, daher als Lead vermerkt. Fills als begründete Ausnahme mit offener Doku: name, street, postcode, phone, description; status → aktiv. Quelle(n): oeffnungszeitenbuch.de + stadtbranchenbuch.com + 11880.com (Adress-/Tel.-Konsistenz, Leads)]
 
 ### Recherche 01.10.2026
 
