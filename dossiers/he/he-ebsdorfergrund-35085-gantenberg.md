@@ -10,7 +10,7 @@ phone: (06424) 928671
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: 11880-Eintrag verifiziert ("Thorsten Gantenberg Schrotthandel", Ebsdorfer Str. 11, 35085 Ebsdorfergrund, (06424) 928671 - EIN Aggregator, kein Zweitbeleg); Gegenrecherche negativ: Das Oertliche listet unter Ebsdorfergrund nur Marburg/Lahntal-Betriebe (kein Gantenberg), Das Telefonbuch Name-Suche "Gantenberg/Ebsdorfergrund" = 410 Gone (kein Eintrag), kein HRB, keine Betreiber-Website; voller Name nur Timeline (Frontmatter-Name unangetastet); website_status unbekannt; Status bleibt pruefung; Quelle(n): 11880.com 02.10.2026 (Lead), dasoertliche.de Schrotthandel/Ebsdorfergrund, dastelefonbuch.de (Negativbelege).]
 
 ### Recherche 01.10.2026
 

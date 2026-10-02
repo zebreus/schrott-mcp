@@ -10,7 +10,7 @@ phone: (06196) 42561
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: 11880-Eintrag verifiziert ("Heinrich Kuhn Alt- und Abfallstoffe", Niddastr. 11, 65760 Eschborn, (06196) 42561 - bestaetigt Seed-Frontmatter exakt, aber EIN Aggregator, kein Zweitbeleg); Gegenrecherche negativ: Das Oertliche (Schrotthandel/Eschborn, Altstoffe/Eschborn) kennt Kuhn nicht, Das Telefonbuch Name-Suche "Kuhn/Eschborn" ohne Heinrich-Treffer (nur Kuhn Thorsten, Mainstr. 2), kein HRB, keine Betreiber-Website (Branche Alt-/Abfallstoffe, evtl. kein klassischer Schrottankauf); website_status unbekannt; Frontmatter unveraendert, Status bleibt pruefung; Quelle(n): 11880.com 02.10.2026 (Lead), dasoertliche.de, dastelefonbuch.de (Negativbelege).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

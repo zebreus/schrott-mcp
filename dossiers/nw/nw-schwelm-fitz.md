@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 30.09.2026
 
 - [Recherche 30.09.2026: kein Fitz-Treffer, kein Doppelbeleg, kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/suche/schrotthandel/schwelm]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall bestätigt — erneut kein Betreiber-/Register-Treffer für Fitz Schrott Schwelm, Verzeichnis-Suchen ohne Fitz-Adresse, kein Zweitbeleg — kein Fill, Status pruefung; Quelle(n): keine belegfähige Quelle 01.10.2026]

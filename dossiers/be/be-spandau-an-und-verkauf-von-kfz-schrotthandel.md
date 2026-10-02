@@ -4,13 +4,13 @@ name: An- und Verkauf von KFZ Schrotthandel
 trader_type: autoverwertung
 state: BE
 city: Spandau
-street: Wiesendamm 15, ; Tel. 030 77906961
+street: Wiesendamm 15
 postcode: '13597'
 phone: 030 77906961
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Brancheneintrag live verifiziert - Das Telefonbuch ("An- und Verkauf von KFZ Schrotthandel", Wiesendamm 15, 13597 Berlin-Spandau, Tel. 030 77906961, Branche Autoverwertung, "Oeffnet um 8:00 Uhr") bestaetigt Seed-Eintrag exakt; street-Feld entruempelt (war "Wiesendamm 15, ; Tel. ..."); Oeffnungszeiten nur Fragment ("Oeffnet um 8:00") - NICHT gefuellt; website_status unbekannt (keine Website gefunden); Status bleibt aktiv (2 Belege: Seed-Telefonbuch + Live-Verzeichnis); Quelle(n): dastelefonbuch.de/Suche/Autoverwertung/Spandau 02.10.2026.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

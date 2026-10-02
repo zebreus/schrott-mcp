@@ -4,14 +4,14 @@ name: Jelitzki Schrotthandel
 trader_type: schrotthaendler
 state: SH
 city: Süsel
-street: ''
-postcode: ''
-phone: ''
+street: Eutiner Str. 19
+postcode: '23701'
+phone: (04524) 8591
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: pruefung
+website_status: unbekannt
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Dreifach belegt - 11880 ("Jelitzki Schrotthandel", Eutiner Str. 19, 23701 Suesel, (04524) 8591) + Das Oertliche (gleich, Eutiner Str. 19, 23701 Suesel, 04524 8591) + Gelbe Seiten (Branchentreffer "Jelitzki Schrotthandel", Suesel); Fill: street/postcode/phone (2+ Belege - offen dokumentiert, Koordinaten neu zu geocodieren); kein HRB, keine Betreiber-Website; website_status unbekannt; Status pruefung → aktiv (Existenz dreifach bestaetigt); Quelle(n): 11880.com, dasoertliche.de Schrotthandel/Suesel, gelbeseiten.de 02.10.2026.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

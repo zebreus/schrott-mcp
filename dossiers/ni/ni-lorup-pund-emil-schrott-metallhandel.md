@@ -36,3 +36,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-Leads (Am Funkturm 20, 26901 Lorup) plus Creditreform-Snippet ohne verifizierbare Betreiber-Seite (403), kein zweiter unabhängiger Beleg — kein Fill; Quelle(n): Verzeichnis-Leads]
+- [Recherche 01.10.2026: Klärfall bestätigt — keine verifizierbare Betreiber-Seite, kein Register-Beleg zu Pund Emil Lorup; Leads (Am Funkturm 20 + Creditreform-Snippet) bleiben Einzelbelege — kein Fill, Status pruefung; Quelle(n): keine belegfähige Quelle 01.10.2026]

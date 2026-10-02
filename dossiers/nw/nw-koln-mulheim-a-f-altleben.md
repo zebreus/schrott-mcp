@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Köln-Mülheim
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — einziger Adress-Lead koelnerbranchen.de (Schreibvariante Alsleben, Frankfurter Str. 59, 51065 Köln), Das Örtliche Frankfurter-Str.-Liste ohne Altleben-Treffer, keine Betreiber-Website, kein Register, kein Zweitbeleg — kein Fill; Quelle(n): nur Lead — https://www.koelnerbranchen.de/schrott/koeln 01.10.2026]

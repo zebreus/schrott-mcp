@@ -38,3 +38,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Jacob GmbH Co. KG, Bremerhaven" nur Suche ohne HR-Treffer; Seed-Adresse Am Wischacker 2, 27576 bleibt Einzelbeleg; Quelle(n): keine belegfähige Quelle]
 - [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]
+- [Recherche 01.10.2026: Klärfall bestätigt — schrottregister Bremerhaven (13 Betriebe, Stand 2026-08-11) listet kein Jacob und kein Wischacker-Objekt; Seed-Adresse Am Wischacker 2, 27576 bleibt Einzelbeleg ohne Betreiber-/Register-Doppelbeleg — kein Fill, Status pruefung; Quelle(n): https://schrottregister.pages.dev/ 01.10.2026]

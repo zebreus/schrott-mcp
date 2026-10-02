@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Registerbeleg erneut verifiziert - Northdata (HRB 104554, AG Saarbruecken, Am Holzplatz 5, 66333 Voelklingen, GF Ralf Kuenzer seit 12.03.2018) + Creditreform (Tel. +49 6898 935046) aus Vorwelle gueltig; 11880 Schrotthandel/Voelklingen kennt Kuenzer NICHT (Branchenluecke dort), keine Betreiber-Website gefunden (nur Facebook-Social aus Vorwelle - KEIN website-Fill, Social zaehlt nicht als Website); HRB-Diskrepanz aus Vorwelle (schrottplatz.org: HRB 8765 Adam Kuenzer) weiter offen; website_status unbekannt; Frontmatter unveraendert, Status bleibt aktiv; Quelle(n): northdata.de HRB 104554 (Recheck 02.10.2026).]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Adresse/Telefon doppelt belegt (Northdata-HR + Creditreform); keine Betreiber-Website gefunden; Quelle: https://www.northdata.de/Metall-Recycling%20K%C3%BCnzer%20GmbH,%20V%C3%B6lklingen/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20104554 (Am Holzplatz 5, 66333 Völklingen); Quelle: https://firmeneintrag.creditreform.de/66333/7290596940/METALL_RECYCLING_KUENZER_GMBH (Tel. +49 6898 935046); Betreiber-Social: https://www.facebook.com/metallrecyclingkuenzer; HRB-Diskrepanz (unsicher, nur Timeline): schrottplatz.org nennt HRB 8765 (Adam Künzer Metallrecycling GmbH) vs. Northdata HRB 104554; E-Mail/Fax/Öffnungszeiten nur Aggregator-Leads (unsicher): Fax 06898 935047; Eisen/Alu/Kupfer/Messing/Blei/Zink]

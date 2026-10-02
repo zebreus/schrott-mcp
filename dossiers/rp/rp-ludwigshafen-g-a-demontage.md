@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Beleg gefunden - 11880 Schrotthandel/Ludwigshafen (11 Treffer, kein "G.A. Demontage"), Das Oertliche Ludwigshafen (nur Schmelzer, Khelf Ali, Steil - kein "G.A. Demontage"); einziger Anhalt bleibt der Seed-Name; kein HRB, keine Betreiber-Website; website_status unbekannt; Frontmatter unveraendert, Status bleibt pruefung - Klaerfall (ggf. Fantasie-/Karteileiche oder ausserhalb LU); Quelle(n): keine Belege (Negativbelege 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

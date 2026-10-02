@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Erftstadt [Recherche 30.09.2026: Verzeichnis-Fund, Straße bestätigt (ohne PLZ im Fund); Quelle: schrottplatz-info.de/city/erftstadt]
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Websuche ohne belastbaren Reichwald-Treffer Erftstadt (einziger Namensvetter: Reichwald Stahlhandel Netphen, fremdes Unternehmen); Wildweg 4B bleibt Seed-Einzelbeleg ohne PLZ/Telefon, kein Zweitbeleg — kein Fill, Status pruefung; Quelle(n): keine belegfähige Quelle 01.10.2026]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Köln
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — einziger Adress-Lead koelnerbranchen.de (Maaskersting, Stegwiese 4, 51067 Köln/Buchheim), keine Betreiber-Website, kein Register, kein Zweitbeleg — kein Fill; Quelle(n): nur Lead — https://www.koelnerbranchen.de/schrott/koeln 01.10.2026]

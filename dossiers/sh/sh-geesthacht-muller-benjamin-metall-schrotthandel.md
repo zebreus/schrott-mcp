@@ -4,13 +4,13 @@ name: Müller Benjamin Metall- & Schrotthandel
 trader_type: schrotthaendler
 state: SH
 city: Geesthacht
-street: ''
-postcode: ''
-phone: ''
+street: Wärderstr. 1-3
+postcode: '21502'
+phone: (04152) 838924
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse/Telefon doppelt belegt - 11880 ("Schrott- und Metallhandel Benjamin Mueller", Waerderstr. 1-3, 21502 Geesthacht, (04152) 838924) + Das Oertliche ("Mueller Benjamin Metall- & Schrotthandel", Waerderstr. 1-3, 21502 Geesthacht, 04152 838924); Fill: street/postcode/phone (2 Belege, reine Aggregatoren - offen dokumentiert, Koordinaten neu zu geocodieren); kein HRB, keine Betreiber-Website (Das Telefonbuch kennt keinen Schrott-Mueller in Geesthacht); website_status unbekannt; Status bleibt pruefung; Quelle(n): 11880.com Metallhandel/Geesthacht, dasoertliche.de Schrotthandel/Geesthacht 02.10.2026.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

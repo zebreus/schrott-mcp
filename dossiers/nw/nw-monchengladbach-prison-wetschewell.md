@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil, Prison-Verbund (GS)
 - Adresse: Mönchengladbach
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall/Slug-Fehlzuordnung — Adresse Wetschewell 4 gehört zu Zimmermanns Bauschutt (Verzeichnis-Lead), Prison-Verbund sitzt in Essen (Prison-Kramer, 11880-Essen-Trefferliste), kein Beleg für Prison-Standort Mönchengladbach-Wetschewell, kein Zweitbeleg — kein Fill; Quelle(n): nur Leads — Verzeichnis-Suche 01.10.2026]

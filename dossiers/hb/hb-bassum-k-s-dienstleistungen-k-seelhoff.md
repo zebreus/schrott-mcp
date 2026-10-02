@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg)
 - Adresse: Bassum (Fern-Umland), Osterbinde 2, 27211
 - Adressbeleg: Seed-notes (schrottplatz-info)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — Osterbinde 2, 27211 Bassum bleibt Seed-Einzelbeleg (schrottplatz-info); Namenskollision: Nordenham/Wildeshausen-Petko-Einträge (Siegfried Petko u. Angelika, Petko Schrott Metalle) sind fremde Betriebe, kein Beleg für Seelhoff; keine Betreiber-Website, kein Register — kein Fill, Status pruefung; Quelle(n): keine belegfähige Quelle 01.10.2026]

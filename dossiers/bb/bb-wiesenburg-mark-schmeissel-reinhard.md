@@ -6,11 +6,11 @@ state: BB
 city: Wiesenburg/Mark
 street: Görzker Str. 46
 postcode: '14827'
-phone: ''
+phone: (033849) 50205
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Name+Adresse doppelt belegt - 11880 ("Reinhard Schmeissel Schrotthandel", Goerzker Str. 46, 14827 Wiesenburg, (033849) 50205) + Das Telefonbuch (Eintrag "Schmeissel Reinhard", Goerzker-Str.-Umfeld 14827, Brancheneintrag Schrotthandel); Fill: phone (11880-Einzelbeleg, Adresse beidseitig bestaetigt - offen dokumentiert); kein HRB, keine Betreiber-Website; website_status unbekannt; Status bleibt pruefung; Quelle(n): 11880.com, dastelefonbuch.de/Suche/Schmeissel/Wiesenburg 02.10.2026.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

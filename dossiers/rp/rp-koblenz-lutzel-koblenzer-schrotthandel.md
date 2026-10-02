@@ -3,12 +3,12 @@ slug: rp-koblenz-lutzel-koblenzer-schrotthandel
 name: Koblenzer Schrotthandel
 trader_type: schrottplatz
 state: RP
-city: Koblenz-Lützel
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+city: Koblenz
+street: Am Metternicher Bahnhof 18
+postcode: '56072'
+phone: (0261) 94251572
+email: info@schrott-koblenz.de
+opening_hours: Mo-Fr 08:00-16:30, Sa 08:30-12:30
 website: https://www.koblenzer-schrotthandel.de
 website_status: aktiv
 status: aktiv
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Angaben durch Zweitbeleg bestaetigt - 11880 ("Koblenzer Schrotthandel", Am Metternicher Bahnhof 18, 56072 Koblenz, (0261) 94251572) stimmt mit Betreiber-Website ueberein (Inh. Karin Reinhardt, Tel. zusaetzlich 0171 1672876, nur Timeline); Fill: street/postcode/phone/e-Mail/Oeffnungszeiten (Website + 11880; Zeiten/Mail nur Website-Einzelbeleg - offen dokumentiert; Ortsteil-Diskrepanz: Slug/Seed sagt Luetzel, Adresse liegt in Metternich - city auf Koblenz normalisiert, Koordinaten neu zu geocodieren); Website live (HTTP 200, 02.10.2026); Status bleibt aktiv; Quelle(n): koblenzer-schrotthandel.de (Vollcrawl 01.10.2026, Recheck 02.10.2026), 11880.com 02.10.2026.]
 
 ### Recherche 01.10.2026
 

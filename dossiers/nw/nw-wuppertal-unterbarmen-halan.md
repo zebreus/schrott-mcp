@@ -36,3 +36,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — nur 1 Verzeichnis-Lead ohne Adresse: Halan Schrottabholung Wuppertal, Tel. +49 202 76713022 (lokaleschrottplatz.de-Lead); 11880-Eintrag existiert, aber Abruf blockiert (403); kein Betreiber, kein Register; kein Frontmatter-Fill; Quelle(n): nur Lead — lokaleschrottplatz.de/halan-schrottabholung-wuppertal/]
+- [Recherche 01.10.2026: Klärfall bestätigt — Nachrecherche ohne Zweitbeleg (kein Betreiber, kein Register, keine Adresse), Telefon-Lead unbestätigt — kein Fill, Status pruefung; Quelle(n): keine belegfähige Quelle 01.10.2026]

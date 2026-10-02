@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Eisenbahnstr., nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Klärfall — einziger Adress-Lead schrottplatz.org (Eisenbahnstraße Essen), 11880-Essen-Trefferliste ohne Ludwig-Eintrag, kein HR-Beleg trotz GmbH & Co. KG, keine Betreiber-Website — kein Fill, Status pruefung; Quelle(n): nur Lead — Verzeichnis-Suche 01.10.2026]

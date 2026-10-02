@@ -10,7 +10,7 @@ phone: 03377 332630
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse/Telefon doppelt belegt - 11880 ("Metallaufbereitung Spitzer", An den Wulzen 10, 15806 Zossen, (03377) 332630) + Das Telefonbuch (Brancheneintrag "Metallaufbereitung Spitzer", An den Wulzen 10, 15806 Zossen); NAMENSABWEICHUNG: Seed sagt "Axel Spitzer Schrotthandel und Autoverwertung", Verzeichnisse sagen "Metallaufbereitung Spitzer" (Person "Axel" nirgends) - Name/Slug unangetastet, Klaerung Folgewelle; Frontmatter (Adresse/Telefon aus Seed) bestaetigt, keine Aenderung noetig; website_status unbekannt (keine Betreiber-Website, LinkedIn-Axel-Spitzer unverwandt per Vorwelle); Status bleibt pruefung (kein HRB); Quelle(n): 11880.com, dastelefonbuch.de/Suche/Spitzer/Zossen 02.10.2026.]
 
 ### Recherche 01.10.2026
 

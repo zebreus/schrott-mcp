@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Kalbe (Ankauf fraglich)
+
+### Recherche 01.10.2026
+
+- [Recherche 01.10.2026: Kein Befund — Gelbe Seiten kennt kein »RILEI« in Kalbe (nur Riley-Rauschen), Örtliches listet unter Autoverwertung/Kalbe nur Betriebe aus Gardelegen/Klötze/Dähre, kein RILEI; kein Fill, status weiter pruefung; Quelle(n): https://www.gelbeseiten.de/suche/rilei/kalbe und https://www.dasoertliche.de/Themen/Autoverwertung/Kalbe.html.]
