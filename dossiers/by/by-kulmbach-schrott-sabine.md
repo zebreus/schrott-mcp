@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: BY
 city: Kulmbach
 street: Obere Buchgasse 11
-postcode: ''
-phone: ''
+postcode: '95326'
+phone: 09221 83256
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinstbetrieb)
 - Adresse: Kulmbach (Obere Buchgasse 11)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten fuehrt Schrott Sabine, Obere Buchgasse 11, 95326 Kulmbach, Tel. 09221 83256; PLZ und Telefon gefuellt; keine Betreiber-Website gefunden, weiter pruefung; Quelle(n): Gelbe Seiten Treffer Kulmbach plus Seed-Tabellenbeleg]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - evtl. AV (Doppel-Nennung zusammengeführt)
 - Adresse: Wiesbaden 65199
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Schwacher Aggregator-Lead, unbewiesen: Das Örtliche nennt "Hübinger OHG Abschleppdienst", Holzstr. 48a, 65197 Wiesbaden-Dotzheim — PLZ (65197) weicht von Seed (65199) ab, Branche (Abschleppdienst) passt nicht zum Schrott/AV-Seed — KEINE Füllung, keine Übernahme; Klärfall (Identität + Sitz ungeklärt); Quelle(n): Das-Örtliche-Profil (Lead, kein Beleg).]

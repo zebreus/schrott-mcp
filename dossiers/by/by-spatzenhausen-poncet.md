@@ -10,7 +10,7 @@ phone: 08847 264
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Registerfund ohne geprüfte Website (PLZ 82418)
 - [Recherche 30.09.2026: Dorfstr. 33, 82418 Hofheim, 08847 264 doppelt via GelbeSeiten + schrottplatz.org ('Poncet Horst Schrott-Metalle'); Hofheim = Gemeindeteil von Spatzenhausen]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten aktuell erneut verifiziert, Poncet Horst Schrott-Metalle (Containerdienste/Schrott), Dorfstr. 33, 82418 Hofheim, Tel. 08847 264; Brancheneintrag nennt auch Oeffnung ab 07:00, aber keine vollstaendigen Zeiten, daher kein opening_hours-Fill; kein Betreiber-Website gefunden, weiter pruefung; Quelle(n): Gelbe Seiten Treffer Spatzenhausen plus schrottplatz.org-Zweitbeleg aus Vorwelle]

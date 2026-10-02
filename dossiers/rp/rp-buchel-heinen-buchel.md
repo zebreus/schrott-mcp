@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Georgsweiler Str., NEU vs Strohn-Seed
 - urspr. Website-Angabe: keine
 - Adresse: Büchel
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe-Seiten-Lead (ID c46d91c5-…) "Heinen Hans Peter Schrotthandel", Alfbachstr. 2, 54558 Strohn, Tel. 06573 952823 — anderer Ort als Seed (Büchel/Georgsweiler Str.), daher KEINE Übernahme. Koblenz-Heinen (Jürgen Heinen e.K., HRA 4178, Laubach 56a) ist separates Unternehmen ohne Seed-Bezug. KEINE Füllung; Klärfall (Betreiber-Sitz Büchel); Quelle(n): Gelbe-Seiten-Profil Strohn (Lead, kein Beleg).]

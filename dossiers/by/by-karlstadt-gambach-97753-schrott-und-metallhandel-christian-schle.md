@@ -3,14 +3,14 @@ slug: by-karlstadt-gambach-97753-schrott-und-metallhandel-christian-schle
 name: Schrott und Metallhandel Christian Schlereth
 trader_type: metallhaendler
 state: BY
-city: Karlstadt-Gambach 97753
+city: Karlstadt
 street: Frühlingstr. 43
-postcode: ''
+postcode: '97753'
 phone: 09353 509050
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Metall — GS, Tel. 09353 509050 (≠ Stammham)
 - urspr. Website-Angabe: keine
 - Adresse: Karlstadt-Gambach 97753, Frühlingstr. 43
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten bestaetigt Schrott und Metallhandel Christian Schlereth, Fruehlingstr. 43, 97753 Karlstadt (Gambach), Tel. 09353 509050, deckungsgleich mit Seed; PLZ 97753 gefuellt, city auf Karlstadt bereinigt (Gambach ist Stadtteil, PLZ stand zuvor im city-Feld); Koordinaten sind adressbasiert neu zu geocodieren; keine Betreiber-Website gefunden, weiter pruefung; Quelle(n): Gelbe Seiten Treffer Karlstadt plus Seed-Tabellenbeleg]

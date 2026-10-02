@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Bielefeld-Sennestadt
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — kein Betrieb Eiles in Bielefeld-Sennestadt auffindbar; stationärer Platz vor Ort ist Neumann Entsorgung (neumann-entsorgung.de, Sennestadt) — keine Verbindung zu Eiles belegt; anonyme Kleinanzeigen-Abholer (Sennestadt, 0176-Nr.) nicht attribuierbar; kein Frontmatter-Fill; Quelle(n): keine belegfähige Quelle]

@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Rosenbach, Bremerhaven" nur Suche ohne HR-Treffer; Seed-Adresse Lange Str. 30 (Lehe) bleibt Einzelbeleg; Quelle(n): keine belegfähige Quelle]
 - [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall mit Adresskonflikt — zwei Aggregator-Leads mit verschiedenen Adressen: Gelbe Seiten (Lange Str. 30, 27578 Bremerhaven-Lehe, 01575 3648535) vs. Das Telefonbuch (Spadener Str. 53, 27578 Bremerhaven, 0471 30713874). Aggregatoren sind Leads, kein Beleg; Adresskonflikt verhindert jeden Fill. Kein Frontmatter-Fill; Folgewelle: Vor-Ort-/Betreiber-Quelle. Quelle(n): gelbeseiten.de + dastelefonbuch.de (Leads, Abruf 02.10.2026)]

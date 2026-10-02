@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Prison-Verbund (Seed Essen + SMC GE + M. Prison Wesel) (GS)
 - Adresse: Köln
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Lead, kein Fill — Das Örtliche listet Prison Nikolaus Schrotthandel, Clemens-Hastrich-Str. 8, 50827 Köln-Bickendorf, Tel. 0163 1496429; Aggregator-Einzelbeleg ohne Zweitbeleg (kein Betreiber-Impressum, kein HR). Prison-Familienverbund plausibel (Claudia Prison, Kramer Hövelstr. 254, 45356 Essen, city-map-Eintrag), aber Personen-Verbindung Nikolaus↔Claudia unbelegt. Lead-Fakten nicht in Frontmatter (nur phone aus Aggregator wäre Phantom-Fill). Folgewelle: Betreiber-Quelle suchen. Quelle(n): dasoertliche.de (Lead, Abruf 02.10.2026)]

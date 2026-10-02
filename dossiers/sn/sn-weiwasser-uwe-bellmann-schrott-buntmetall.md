@@ -5,12 +5,12 @@ trader_type: metallhaendler
 state: SN
 city: Weißwasser
 street: Teichstr. 101
-postcode: ''
+postcode: '02943'
 phone: 03576 240903
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott & Buntmetall
 - privater Ankauf neben NEG-Höfen, Tel. 03576 240903
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten fuehrt Uwe Bellmann Schrott und Buntmetall, Teichstr. 101, 02943 Weisswasser/O.L., Tel. 03576 240903, deckungsgleich mit Seed; PLZ 02943 gefuellt; keine Betreiber-Website gefunden; Status bleibt aktiv auf Verzeichnisbasis; Quelle(n): Gelbe Seiten Treffer Weisswasser plus Seed-Tabellenbeleg (Ankauf ja)]

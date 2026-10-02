@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Fe/NE/Kabel (ab 1 kg NE, 100 kg Fe)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall, kein Betrieb dieses Namens verifizierbar; Gelbe Seiten Branchenabfrage schrott in Gardelegen kennt nur Hero Recycling, Sachauer Str. 1, 39638 Gardelegen (fachfremder Name, keine Identitaetsbelege zum Seed-Namen, daher keine Umdeutung); keine Betreiber-Website; keine Frontmatter-Fills; Quelle(n): Gelbe Seiten Branchenabfrage Gardelegen]

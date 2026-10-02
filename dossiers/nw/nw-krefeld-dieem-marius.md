@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Krefeld-Dießem
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — kein Schrottbetrieb Marius in Krefeld-Dießem auffindbar; namensähnlicher Treffer Josef Hendrichs Metallhandels GmbH (Neue Ritterstr. 27, 47805 Krefeld) ist andere Firma ohne Marius-Bezug; kein Frontmatter-Fill; Quelle(n): keine belegfähige Quelle]

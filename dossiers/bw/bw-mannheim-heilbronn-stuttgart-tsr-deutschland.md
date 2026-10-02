@@ -9,7 +9,7 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.tsr-recycling.de/standorte/
+website: https://www.tsr-recycling.de
 website_status: blockiert
 status: aktiv
 description: ''
@@ -36,3 +36,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KLÄRFALL — tsr-recycling.de blockiert (website_status=blockiert bleibt); Standorte MA Lagerstr. 25 / HN Benzstr. nur Aggregator-Leads, kein zweiter unabhängiger Beleg — kein Fill; Quelle(n): Verzeichnis-Leads]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: tsr-recycling.de/standorte/ erneut nicht abrufbar (weder https noch http, Transportfehler), website_status blockiert bestaetigt; keine Standort-Fills (Mannheim/Heilbronn/Stuttgart ohne Zweitbeleg); Status bleibt aktiv auf Seed-Basis (Grosshaendler, B2B-Fe/NE); Quelle(n): wiederholter Abrufversuch 02.10.2026]
+- [Recherche 02.10.2026: website auf Domain-Root gekuerzt (war Deep-Link /standorte/ aus Seed); Quelle(n): Frontmatter-Regel Domain-Root]

@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Re-Prüfung — weiterhin KEINE Betreiber-Website und KEIN Registerbeleg auffindbar; Verzeichnis-Leads (Das Örtliche/Gelbe Seiten/bundes-telefonbuch, alle Aggregatoren = kein Beleg) wiederholen Wilhelm-Busch-Str. 13, 68519 Viernheim, Tel. 06204 986617, Fax 06204 7086949; bestehende Frontmatter-Werte (aus Seed/Aggregatoren) NICHT überschrieben; Beleg-Qualität: unter aktuellem Beleg-Standard (Aggregatoren nie Belege) wäre der 2-Beleg-Standard nicht erfüllt — Folgewelle sollte Gewerberegister Viernheim oder Betreiber-Nachweis suchen; Quelle(n): https://www.dasoertliche.de/Themen/Schrott-Rhein-Containerservice-Viernheim-Wilhelm-Busch-Str u.a. (Leads).]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Verifizierung per Das-Örtliche-Detail (Lead): Wilhelm-Busch-Str. 13, 68519 Viernheim, Tel. 06204 986617, Branche Container — deckt sich mit Frontmatter; weiterhin KEINE Betreiber-Website, KEIN Registerbeleg — bestehende Werte bleiben unverändert, kein Website-Fill; Beleglage wie 01.10. (unter aktuellem Standard wären Aggregatoren kein Beleg — Folgewelle: Gewerberegister Viernheim); Quelle(n): Das-Örtliche-Profil (Lead).]

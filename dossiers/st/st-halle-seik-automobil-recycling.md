@@ -6,11 +6,11 @@ state: ST
 city: Halle
 street: Grenzstr. 43
 postcode: '06112'
-phone: ''
-email: ''
+phone: 0345 5604666
+email: halle@seik.de
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autorecycling
 - Adresse: Halle (Grenzstr. 43, 06112)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten fuehrt Seik Automobil Recycling GmbH, Grenzstr. 43, 06112 Halle (Diemitz), Tel. 0345 5604666, Inhaber-Mail halle@seik.de; Telefon und E-Mail gefuellt; Domain seik.de per https nicht abrufbar (http leitet auf https, dann Timeout), daher keine Website und website_status unbekannt; weiter pruefung; Quelle(n): Gelbe Seiten Detailseite Halle plus HTTP-Erreichbarkeitspruefung]

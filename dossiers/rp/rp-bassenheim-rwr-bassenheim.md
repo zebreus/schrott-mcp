@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Am Bhf 9, E-Motoren!
 - urspr. Website-Angabe: keine
 - Adresse: Bassenheim
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Betreiber-Beleg. Gelbe-Seiten-Suche "RWR" Region: nur sachfremde RWR (REMONDIS Köln u.a.), KEIN Bassenheim-Treffer; Das-Örtliche-Suche ohne Treffer; Seed-Fragment "Am Bhf 9"/E-Motoren unbestätigt — KEINE Füllung; Klärfall (Existenz/Sitz); Quelle(n): Verzeichnis-Abgleich (Negativbefund).]

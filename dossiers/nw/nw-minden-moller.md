@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Minden
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — kein Schrott-/Altmetall-Betrieb Möller in Minden auffindbar; Treffer sind Spedition Karl Möller (Am Regioport 1, HRA 3029) und Möller Heizung & Service GmbH (HRB 4181) — beide branchenfremd; Möller Recycling sitzt in Heide/SH (moeller-recycling.de, andere Firma, anderer Ort); kein Frontmatter-Fill; Quelle(n): keine belegfähige Quelle]

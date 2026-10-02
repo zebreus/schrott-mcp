@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Goethestr. 29A
 - urspr. Website-Angabe: keine
 - Adresse: Mülheim-Kärlich
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Befund 01.10. bestätigt + Negativbelege: metallhandelgolz.de NXDOMAIN (DNS 02.10.2026); kein Wayback-Snapshot je archiviert; Gelbe-Seiten-Suche Region ohne Golz-Schrott-Treffer (nur Goldankauf); Seed-Fragment Goethestr. 29A unbestätigt — KEINE Füllung; Klärfall; Quelle(n): DNS-NXDOMAIN + Wayback-Negativ + Verzeichnis-Abgleich.]

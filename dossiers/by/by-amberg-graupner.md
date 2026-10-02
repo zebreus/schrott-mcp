@@ -1,16 +1,16 @@
 ---
 slug: by-amberg-graupner
-name: Graupner
+name: Graupner Harry (Altmaterialgroßhandel)
 trader_type: sonstige
 state: BY
 city: Amberg
-street: ''
+street: Sulzbacher Str. 134
 postcode: '92224'
-phone: ''
+phone: 09621 62647
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein Betreiber-Beleg identifizierbar, nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar); keine Frontmatter-Fills (Beleg-Standard nicht erfüllt); Klärfall bleibt pruefung; Quelle(n): Seed-Registerprosa ohne prüfbare Betreiber-Website]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten fuehrt Graupner Harry AltmaterialgroßHdl., Schrott, Sulzbacher Str. 134, 92224 Amberg, Tel. 09621 62647; PLZ passt zum Seed; Name/Adresse/Telefon gefuellt; keine Betreiber-Website gefunden (Bing-Treffer nur Modellbau-Rauschen), daher weiter pruefung; Quelle(n): Gelbe Seiten Treffer Amberg plus Seed-Registerprosa als Zweitindiz]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — nur Register-/Verzeichnisbeleg (Schrott lt. Register, Ort Inzigkofen), kein Betreiber-/Zweitbeleg gefunden; keine Frontmatter-Fills; Quelle(n): recherche/bw.md]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall bestaetigt; Gelbe Seiten Namensabfrage Hager in Inzigkofen ohne Treffer (nur fachfremde Hager-Eintraege), Branchenabfrage schrott in Inzigkofen ohne Treffer; keine Frontmatter-Fills; Quelle(n): Gelbe Seiten Namens- und Branchenabfragen Inzigkofen]

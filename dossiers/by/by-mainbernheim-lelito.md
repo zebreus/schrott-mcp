@@ -1,16 +1,16 @@
 ---
 slug: by-mainbernheim-lelito
-name: Lelito
+name: Lelito Niclas (Schrott- und Metallhandel)
 trader_type: sonstige
 state: BY
 city: Mainbernheim
 street: ''
 postcode: '97350'
-phone: ''
+phone: 09323 8778981
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 97350)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten fuehrt Schrott- und Metallhandel Lelito Niclas, 97350 Mainbernheim, Tel. 09323 8778981 (keine Strasse im Eintrag); Name praezisiert, Telefon gefuellt; keine Betreiber-Website gefunden, weiter pruefung; Quelle(n): Gelbe Seiten Treffer Mainbernheim plus Seed-Registerprosa]

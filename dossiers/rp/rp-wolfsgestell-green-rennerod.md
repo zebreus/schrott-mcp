@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Am Wolfsgestell 1, NE + E-Motoren, 113★
 - urspr. Website-Angabe: keine
 - Adresse: Wolfsgestell
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Betreiber-Beleg. green-rennerod.de NXDOMAIN (DNS 02.10.2026); keine Verzeichnis-Treffer (Das Örtliche/Gelbe Seiten); Seed-Angaben (Am Wolfsgestell 1, E-Motoren) unbestätigt — KEINE Füllung; Klärfall (Existenz/Sitz, Stadt "Wolfsgestell" prüfen); Quelle(n): DNS-NXDOMAIN + Verzeichnis-Abgleich (Negativbefund).]

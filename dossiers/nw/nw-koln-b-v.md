@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Köln
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — kein Betrieb B&V (Schrott/Altmetall) in Köln auffindbar; Kürzel mehrdeutig (B+M Baustoff+Metall Pescher Weg 9a ist Baustoffhandel, kein Schrotthändler; Altmetalle Kraft schrott-koeln.de ohne B&V-Bezug); kein Frontmatter-Fill; Quelle(n): keine belegfähige Quelle]

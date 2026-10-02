@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.scholz-recycling.com
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/NE, Werksnähe Stahlwerk
 - v.a. Gewerbe/Industrie
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Website lebt (News bis 31.07.2026), website_status aktiv gesetzt; wichtig: Verkauf der Scholz Gruppe an Derichebourg am 31.07.2026 abgeschlossen (Logo jetzt Scholz Derichebourg); JS-Standortsuche listet keine pruefbaren Adressen, Betrieb Groeditz daher ohne Adress-Fill; Gelbe Seiten kennt in Groeditz nur fachfremde Eintraege; weiter ohne Strasse/PLZ/Telefon; Quelle(n): scholz-recycling.com Homepage und News 31.07.2026 plus Gelbe Seiten Branchenabfrage Groeditz]

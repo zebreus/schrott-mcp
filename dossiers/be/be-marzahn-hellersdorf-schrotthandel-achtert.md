@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Domain schrotthandel-achtert.de parkt auf fruits.co (kein Betreiber); kein 2. unabhängiger Beleg; Frontmatter leer belassen (Klärfall); Quelle(n): curl/DNS schrotthandel-achtert.de → fruits.co-Parking]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-verifiziert 02.10.: schrotthandel-achtert.de löst auf 34.117.176.22 und parkt weiter fruits.co (kein Betreiber); Gelbe-Seiten-Suche "Achtert" Berlin: nur sachfremde Achtert (Aken/Elbe, Halberstadt, Tischlerei …), KEIN Berliner Schrotthandel — weiterhin KEINE Füllung; Klärfall; Quelle(n): DNS + Domain-Direktabruf (Parking) + Gelbe-Seiten-Abgleich (Negativbefund).]

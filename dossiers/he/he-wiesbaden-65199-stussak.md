@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - evtl. AV (Doppel-Nennung zusammengeführt)
 - Adresse: Wiesbaden 65199
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Wiesbaden-Treffer in Verzeichnissen. Namensvetter mit Schrottbezug existieren andernorts: Schrottverwertung Am Höhenweg 5, Vacha + Autoverwertung Hohenroda (beides keine Belege für Seed) — Seed-Stadt Wiesbaden fraglich, KEINE Füllung; Klärfall (Identität/Sitz); Quelle(n): Verzeichnis-Abgleich (Negativbefund, Leads).]

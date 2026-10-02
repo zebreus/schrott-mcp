@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Buschhofer Weg 2, 0176-Nr. (mobil wirkend)
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — kein Treffer: kein Betrieb Jaquemont (alle Schreibvarianten Jacquemont/Jaquemont) in Alsdorf oder Umgebung auffindbar; weder Betreiber-Website noch Register- noch Presse-Beleg; kein Frontmatter-Fill; Quelle(n): keine]

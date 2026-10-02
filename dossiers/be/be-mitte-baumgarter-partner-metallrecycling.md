@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Fe + NE; Tel. 030 49916228
 - Adresse: Koloniestr. 107-108, 13359 Berlin
 - Bezirk: Mitte Adressbeleg: seed/be.json (nur Verzeichnisbeleg)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Nur Aggregator-Lead: Gelbe Seiten (ID 653f61f5-…) "Baumgartner u. Partner Metallrecycling GmbH" (mit n!), Koloniestr. 107-108, 13359 Berlin-Gesundbrunnen, Tel. 030 49916228, "Öffnet um 08:00"; GS-Detail nennt Öffnungszeiten Mo-Do 08-16/Fr 08-15 (Lead). Namensabweichung Seed ("Baumgarter") vs. Verzeichnis ("Baumgartner") + Einzelbeleg — KEINE Füllung, KEIN Rename (Slug tabu); Klärfall (Firmierung/Register); Quelle(n): Gelbe-Seiten-Profil (Lead, kein Beleg).]

@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Nur Aggregator-Lead (Einzelbeleg, unsicher): Das Örtliche nennt Helene-Göttmann-Str. 14, 64385 Reichelsheim, Tel. 06164 5662, Rubrik Schrott; keine Betreiber-Website, kein Registerbeleg — KEINE Frontmatter-Füllung (2-Beleg-Standard nicht erfüllt); Klärfall Folgewelle; Quelle(n): Das-Örtliche-Profil (Lead, kein Beleg).]

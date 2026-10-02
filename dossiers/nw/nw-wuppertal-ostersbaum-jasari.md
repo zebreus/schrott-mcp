@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — kein Treffer: kein Betrieb Jasari in Wuppertal-Ostersbaum auffindbar (Suchindex ohne Ergebnis); kein Frontmatter-Fill; Quelle(n): keine]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall bestätigt (Retry) — auch Varianten (Jasari Demontage/Wuppertal, Branchenbücher) ohne Treffer; kein Frontmatter-Fill; Quelle(n): keine]
