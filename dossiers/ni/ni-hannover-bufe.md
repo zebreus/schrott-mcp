@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://www.bufegmbh.de
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber re-verifiziert (Impressum-Einzelbeleg, HRA-Red-Flag bleibt): Bufe GmbH, Erythropelstr. 50, 30519 Hannover, Tel. 0511 865403, info@bufegmbh.de, Mo-Do 07:00-16:30 Fr 07:00-16:00, Registerangabe „HRA Abt. B Nr. 0380 AG Hannover" (GmbH mit HRA = Red-Flag, Northdata ohne Treffer, Owner-Ausnahme nicht anwendbar). Gelbe-Seiten-Detail kongruent (EFB, Container 2-34 m³) als Zweit-Lead, aber Aggregator-Lead heilt Register-Red-Flag nicht → Kontaktfelder bleiben leer, status aktiv → pruefung (Klärfall HR-Auszug/Gewerberegister für Folgewelle). Quelle(n): https://www.bufegmbh.de, https://www.bufegmbh.de/impressum-datenschutz, https://www.bufegmbh.de/kontakt, Gelbe-Seiten-Detail Hannover (EFB/Container).]
 
 ### Recherche 01.10.2026
 

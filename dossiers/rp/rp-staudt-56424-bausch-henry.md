@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Staudt 56424
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Beleg — Websuche Schrotthändler "Bausch Henry" Staudt ohne Treffer (in Staudt nur KVG Kunststoff, kein Schrotthandel; keine Betreiber-Seite, kein Register) → kein Fill, status weiter pruefung. Quelle(n): keine]

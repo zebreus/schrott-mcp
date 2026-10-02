@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Registerfund ohne geprüfte Website (PLZ 97424)
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Domain erneut geprüft — reinhardt-metall.de weiterhin nicht erreichbar (DNS/Timeout, 02.10.2026 bestätigt); Gelbe Seiten (reinhardt/schweinfurt) ohne passenden Treffer (nur namensferne); einzig Creditreform-Lead (Ricardo Reinhardt, Nutzweg 29, Schweinfurt) aus Vorwelle — kein Zweitbeleg → Frontmatter bleibt leer, weiter Klärfall; Quelle(n): keine verwertbare]
+
 ### Recherche 01.10.2026
 
 - Lead: Creditreform Ricardo Reinhardt, Nutzweg 29, Schweinfurt. Betreiber-Domain reinhardt-metall.de timeout (http+https, 01.10.2026) → kein Betreiber-Beleg, Felder leer, Klärfall.

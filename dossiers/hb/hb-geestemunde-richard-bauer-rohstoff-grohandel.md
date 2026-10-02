@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: BEG re-verifiziert (starke kommunalnahe Primärquelle, Einzelbeleg): Richard Bauer Rohstoff-Großhandel GmbH und Co. KG, Weißenstein 2, 27574 Bremerhaven, Tel. 0471 186-700, info@bauer-bhv.de, Mo 7-18:30 Di-Fr 7-15:30; Filialen Bremen Woltmershauser Str. 174 + Emden Eichstr. 2b. 11880 Bremerhaven ohne Bauer-Treffer (nur Schröder — Negativbefund Zweitbeleg). HR HRA 4371 BHV (Northdata/Creditreform 01.10.2026) bleibt Beleg für Register-Identität. Seed-Felder street/postcode/phone bereits BEG-kongruent → keine Änderung; email/opening_hours nur BEG-Einzelbeleg → Frontmatter leer (kein Doppelbeleg). status pruefung bleibt. Quelle(n): https://beg-bhv.de/kontakt, https://www.11880.com/suche/schrott/bremerhaven.]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: BEG (Bremerhavener Entsorgungsgesellschaft, kommunalnah) bestätigt: Richard Bauer Rohstoff-Großhandel GmbH und Co. KG, Weißenstein 2, 27574 Bremerhaven, Tel 0471 186-700, info@bauer-bhv.de, Zeiten Mo 7-18:30 / Di-Fr 7-15:30; Filialen Bremen (Woltmershauser Str. 174) + Emden (Eichstr. 2b). HR-Identität: Northdata HRA 4371 BHV AG Bremen + Creditreform (wirtschaftsaktiv). bauer-bhv.de löst auf BEG auf (keine eigene Betreiber-Seite) → website leer gelassen. Seed-Felder street/postcode/phone durch BEG zweitbestätigt (keine Änderung nötig). Gefüllt: description; email/opening_hours nur BEG-Einzelbeleg → Frontmatter leer. Quelle(n): https://beg-bhv.de/kontakt + Northdata/Creditreform]

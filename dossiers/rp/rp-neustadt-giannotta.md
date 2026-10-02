@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Neustadt (Name unvollständig)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Beleg — Websuche Schrotthändler "Giannotta" Neustadt (Weinstraße) ohne Treffer (Name unvollständig, keine Betreiber-Seite, kein Register) → kein Fill, status weiter pruefung. Quelle(n): keine]

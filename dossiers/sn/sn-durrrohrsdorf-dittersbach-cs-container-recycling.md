@@ -4,14 +4,14 @@ name: CS Container & Recycling GmbH & Co. KG
 trader_type: sonstige
 state: SN
 city: Dürrröhrsdorf-Dittersbach
-street: ''
-postcode: ''
-phone: ''
+street: Dresdner Str. 59
+postcode: 01833
+phone: 035026 95590
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: pruefung
+website_status: unbekannt
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten listet CS Container & Recycling GmbH & Co. KG (Container), Dresdner Str. 59, 01833 Dürrröhrsdorf-Dittersbach (Wilschdorf), Tel. 035026 95590 — Name/Ort kongruent zum Registerfund → street/postcode/phone gefüllt (Ausnahmefall: Verzeichnis-Lead + Register-Kongruenz, offen dokumentiert); GS zeigt zusätzlich einen (unaufgelösten) Webseite-Link → URL unbekannt, website_status unbekannt; Quelle(n): https://www.gelbeseiten.de/suche/container/duerrrohrsdorf-dittersbach]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

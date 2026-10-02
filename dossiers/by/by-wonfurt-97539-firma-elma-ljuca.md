@@ -4,14 +4,14 @@ name: Firma Elma Ljuca e.K.
 trader_type: sonstige
 state: BY
 city: Wonfurt 97539
-street: ''
-postcode: ''
+street: Altachweg 8
+postcode: 97539
 phone: 09521 6100636
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: pruefung
+website_status: unbekannt
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten listet Firma Elma Ljuca e.K. (Autoverwertung), Altachweg 8, 97539 Wonfurt, Tel. 09521 6100636 — Tel. kongruent zum Seed → street/postcode gefüllt, status aktiv; GS zeigt zusätzlich einen (unaufgelösten) Webseite-Link → URL unbekannt, website_status unbekannt; Quelle(n): https://www.gelbeseiten.de/suche/ljuca/wonfurt]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

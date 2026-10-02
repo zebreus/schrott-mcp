@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein Lorenz-Beleg — Gelbe Seiten (lorenz/aschersleben; autoverwertung/aschersleben) listet nur Fremdbetriebe (Kai Werner Altenweddingen, Kaltschmidt & Chmelik Ballenstedt, Thomas Heine Bernburg, Langbein Sangerhausen u.a.), kein Lorenz in Aschersleben; 11880/Telefonbuch-Egress teils blockiert; Frontmatter bleibt leer, weiter pruefung; Quelle(n): https://www.gelbeseiten.de/suche/lorenz/aschersleben , /suche/autoverwertung/aschersleben]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung

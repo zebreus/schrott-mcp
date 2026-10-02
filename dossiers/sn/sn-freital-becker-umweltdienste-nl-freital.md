@@ -4,14 +4,14 @@ name: Becker Umweltdienste GmbH, NL Freital
 trader_type: sonstige
 state: SN
 city: Freital
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Sachsenplatz 3
+postcode: 01705
+phone: +49 351 64400-14
+email: freital@becker-umweltdienste.de
 opening_hours: ''
 website: https://jakob-becker.de
 website_status: aktiv
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorgung, Lagern (nur Eisen-/Stahlabfälle zert.)
 - kein belegter Barankauf
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Detailseite verifiziert (Owner-Ausnahme, Konzern-Standortseite): Niederlassung Dresden AM STANDORT FREITAL — Sachsenplatz 3, 01705 Freital, Tel. +49 351 64400-14, freital@becker-umweltdienste.de (eigene Detailseite /standort/...-sachsenplatz/); Abgrenzung: Zöllmener Str. 46 (dresden@...) und Schmiedeberg (Altenberger Str. 71b) sind separate Dresdner Niederlassungen — Zuordnung NL Freital = Sachsenplatz 3 über standorteigene Mailadresse freital@... aufgelöst; keine Öffnungszeiten publiziert → Feld leer; kein Barankauf belegt (Entsorgung/Sonderabfall/Abwasser/Container); Adressklärung abgeschlossen, Neu-Geocodierung läuft automatisch; Quelle(n): https://jakob-becker.de/standorte/ , https://jakob-becker.de/standort/becker-umweltdienste-gmbh-niederlassung-dresden-freital-sachsenplatz/]
 
 ### Recherche 01.10.2026
 

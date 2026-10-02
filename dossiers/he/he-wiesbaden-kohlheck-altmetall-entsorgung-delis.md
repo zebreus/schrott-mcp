@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Beleg — Websuche nach "Altmetall Entsorgung Delis" Wiesbaden-Kohlheck ohne Treffer (keine Betreiber-Seite, kein Register, nur Namens-Lead) → kein Fill, status weiter pruefung. Quelle(n): keine]

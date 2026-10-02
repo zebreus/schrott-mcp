@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - ? Fehlklassifikation?
 - urspr. Website-Angabe: keine
 - Adresse: Ettringen
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fehlklassifikation bestätigt — Websuche nach Schrott/Metallhandel "Mühlhausen" Ettringen ohne Treffer (keine Betreiber-Seite, kein Register, kein Verzeichnis mit Schrottbezug) → kein Fill, status weiter pruefung. Quelle(n): keine]

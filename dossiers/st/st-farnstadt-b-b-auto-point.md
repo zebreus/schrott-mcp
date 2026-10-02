@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein Beleg — Gelbe Seiten (auto-point/farnstaedt; schrott/farnstaedt) ohne Treffer (nur TSR Querfurt, SRQ Querfurt, CAR POINT Naumburg aus der Region); plausible Domain bb-auto-point.de nicht registriert (NXDOMAIN); Frontmatter bleibt leer, weiter pruefung; Quelle(n): keine verwertbare]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung

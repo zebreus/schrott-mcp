@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein Zweitbeleg — Northdata-Suche nach Karl Klamberg/Dillenburg ohne Registertreffer (e.K. ohne HRB-Eintrag plausibel, Einzelunternehmen: Owner-Ausnahme greift nicht); keine Betreiber-Website auffindbar; Verzeichnis-Leads (Gelbe Seiten/11880) zählen nicht als Belege; Quelle(n): keine neue. Bestehende Felder (street Im Höfchen ohne Hausnummer, PLZ, phone) unverändert — Hausnummer/Öffnungszeiten weiter Klärfall.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Register-Lead präzisiert, kein Fill — Northdata/Creditreform: Karl Klamberg Schrott und Metalle e.K., HRA 5096 AG Wetzlar, Inh. Karin Silbermann, Sitz Dillenburg, Adresse "Im Höfchen" OHNE Hausnummer; Hausnummer weiter unbestätigt, keine Betreiber-Website, kein 2. unabhängiger Beleg für Telefon/Öffnungszeiten → street/phone/postcode unverändert, status weiter pruefung. Quelle(n): northdata.de HRA 5096 (Abruf 02.10.2026, Lead), Gelbe Seiten/11880 (Leads, Adress-Kongruenz ohne Hausnummer)]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Streitühle 4, 2. Händler
 - urspr. Website-Angabe: keine
 - Adresse: Altenglan
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — "Streitühle 4" ohne Beleg (wohl Wohnplatz Streitmühle-Fehlparse); schrottregister ort-altenglan führt nur AVR GmbH, Industriestraße 9 (Lagern/Behandeln), kein "Joa" → kein Fill, status weiter pruefung. Quelle(n): schrottregister ort-altenglan (GSA/EfB-Extrakt, Stand 2026-08-11, Abruf 02.10.2026)]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Koblenz 56070
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Beleg — Websuche nach Schrotthändler "Strünck Mario" Koblenz ohne Treffer (keine Betreiber-Seite, kein Register, kein belastbarer Verzeichnis-Eintrag) → kein Fill, status weiter pruefung. Quelle(n): keine]

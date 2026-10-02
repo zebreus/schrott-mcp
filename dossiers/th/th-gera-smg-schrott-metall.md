@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Negativbefund Gera — kein SMG-Treffer in Gelbe Seiten Gera (nur RoVa/GMR) und 11880 Gera (nächster Schrott: Wetzel Eisenberg). Seed-Straße Gessentalstr. 5A unbelegt (kein Betreiber-Impressum, kein Register-Treffer). Felder bleiben, status pruefung bleibt — Klärfall Existenz/Adresse für Folgewelle. Quelle(n): https://www.gelbeseiten.de/branchen/schrott/gera, https://www.11880.com/suche/schrott/gera.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott & Metall

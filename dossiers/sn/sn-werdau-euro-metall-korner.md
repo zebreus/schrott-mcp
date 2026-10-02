@@ -4,8 +4,8 @@ name: Euro-Metall Körner
 trader_type: metallhaendler
 state: SN
 city: Werdau
-street: ''
-postcode: ''
+street: Sorge 48
+postcode: 08412
 phone: 0163 8771513
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe Seiten listet Euro-Metall Körner (Schrott, 5,0/1 Bewertung), Sorge 48, 08412 Werdau, Tel. 0163 8771513 — Tel. kongruent zum Seed → street/postcode gefüllt, status bleibt aktiv; Quelle(n): https://www.gelbeseiten.de/suche/schrott/werdau]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

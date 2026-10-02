@@ -34,6 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung (Flag)
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
 
-### Recherche 01.10.2026
+### Recherche 02.10.2026
 
+- [Recherche 02.10.2026: AV-Negativbefund Gifhorn — keine Autoverwertung in Gifhorn belegbar: 11880 Suche schrott/gifhorn + autoverwertung/gifhorn ohne AV-Treffer in Gifhorn; Gelbe Seiten schrott/gifhorn + autoverwertung/gifhorn ohne AV-Treffer in Gifhorn. Seed-Straße Eyßelheideweg 9 unbelegt (kein Zweitbeleg, kein Betreiber-Impressum gefunden). Felder bleiben leer, status pruefung bleibt — Klärfall AV-Existenz/Adresse für Folgewelle. Quelle(n): https://www.11880.com/suche/schrott/gifhorn, https://www.11880.com/suche/autoverwertung/gifhorn, https://www.gelbeseiten.de/branchen/schrott/gifhorn, https://www.gelbeseiten.de/branchen/autoverwertung/gifhorn.]
 - Nur Aggregator-Leads (kein Betreiber-Impressum gefunden). Kein Doppelbeleg → Felder leer, Klärfall AV-Status offen.

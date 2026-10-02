@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Hornstr. 23
 - urspr. Website-Angabe: keine
 - Adresse: Trier
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Beleg — "Hornstr. 23" (Seed street-Feld enthält Slug-Fragmente, keine verifizierbare Adresse) ohne Treffer; großer Trier-Player Theo Steil (Ostkai 6) ist ein ANDERER Betrieb — NICHT übernehmen → street-Feld bewusst unverändert (keine Fiktion), kein Fill, status weiter pruefung. Quelle(n): keine]

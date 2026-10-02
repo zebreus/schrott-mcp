@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV + Schrott
 - Adresse: Friedberg 61169 [Website-Recherche verzeichnis: services: Schrotthandel, Autoverwertung; notes: 11880-Verzeichnis (WOLF GEORG SCHROTTHDLG. U. AUTOVERWERTUNG).]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Zweitbeleg — Dorheimer Str. 43 / (06031) 5883 nur Verzeichnis-Einzelbeleg (11880-Lead), keine Betreiber-Website, kein Register-/Kommunalbeleg → Felder unverändert, status weiter pruefung. Quelle(n): keine neue (11880-Lead)]

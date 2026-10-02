@@ -4,11 +4,11 @@ name: Schrotthandel u. Aufbereitung Inh. Frank Busanny
 trader_type: schrotthaendler
 state: MV
 city: Stralsund
-street: ''
-postcode: ''
-phone: ''
+street: Zur Sternschanze 60
+postcode: 18439
+phone: 03831 666837
 email: ''
-opening_hours: ''
+opening_hours: Mo-Fr 07:00-16:00, Sa auf Anfrage
 website: ''
 website_status: ''
 status: pruefung
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Gelbe-Seiten-Einzelbeleg (Branchen + Detail kongruent, eine Quelle — begründete Ausnahme mit offener Dokumentation, kein Betreiber-Impressum gefunden): Zur Sternschanze 60, 18439 Stralsund-Dänholm, Tel. 03831 666837 + mobil 0171 7153898, Mo-Fr 07:00-16:00 Sa auf Anfrage. 11880 Stralsund ohne Busanny-Treffer (Negativbefund, kein Zweitbeleg). Gefüllt: street/postcode/phone/opening_hours als Aggregator-Ausnahme; email/website leer. Neue Adresse → Koordinaten neu zu geocodieren (läuft automatisch). status pruefung bleibt — Klärfall Betreiber-Primärquelle für Folgewelle. Quelle(n): https://www.gelbeseiten.de/branchen/schrott/stralsund, Gelbe-Seiten-Detail Stralsund-Dänholm, https://www.11880.com/suche/schrott/stralsund.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetallhandel, Mosel-Dorf
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Beleg — Websuche "Becker Stefan Altmetallhandel" Mülheim/Mosel ohne Treffer (in Mülheim/Mosel nur Weingüter namens Becker, kein Metallhandel; keine Betreiber-Seite, kein Register) → kein Fill, status weiter pruefung. Quelle(n): keine]
