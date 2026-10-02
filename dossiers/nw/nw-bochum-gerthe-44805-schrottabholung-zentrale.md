@@ -4,13 +4,13 @@ name: Schrottabholung Zentrale
 trader_type: schrotthaendler
 state: NW
 city: Bochum-Gerthe 44805
-street: ''
-postcode: ''
-phone: ''
+street: Dieselstr. 88
+postcode: 44805
+phone: 01525 9084206
 email: ''
 opening_hours: ''
 website: https://schrottabholung-zentrale.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/AV/Container, mobil; Preisseite ohne €-Festpreise; mögl. Verbund s. Schrotthändler Dortmund
 - Adresse: Bochum-Gerthe 44805 (lt. Vorlage)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Prod-Drift geheilt - Prod trug street Dieselstr. 88 ohne Dossier-Beleg (keep()-Artefakt). Live re-verifiziert: BETREIBER-Impressum (Rameh Schakif, Einzelunternehmer, Dieselstr. 88 Gewerbegebiet, 44805 Bochum, Tel +49 (0) 15259084206, info@schrottabholung-zentrale.de) + Startseite (Dieselstrasse 88, 44805 Bochum, 01525 9084206) + Zweitbelege firmania (Dieselstr. 88, 44805 Bochum-Gerthe) + Cylex (Dieselstr., Gerthe, 01525 9084...) + lokaleschrottplatz (+49 1525 9084206). Fill street/postcode/phone als begruendeter Ausnahmefall (Betreiber-Impressum + Verzeichnis-Konsens; Einzelunternehmen ohne HRB -> Owner-Ausnahme greift formal nicht), offen dokumentiert. E-Mail nur Impressum-Einzelbeleg -> leer. Website live (HTTPS 200) -> website_status aktiv. status aktiv bleibt; Quelle(n): https://schrottabholung-zentrale.de/impressum + https://schrottabholung-zentrale.de/ + firmania.de/bochum/schrottabholung-zentrale-4258382 + Cylex]
