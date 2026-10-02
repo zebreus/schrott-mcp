@@ -4,9 +4,9 @@ name: Roling Schrott und Metall / Rohstoff Handel Detlef
 trader_type: schrotthaendler
 state: NI
 city: Bramsche 49565
-street: ''
-postcode: ''
-phone: ''
+street: Venner Str. 10
+postcode: '49565'
+phone: 0173 8459916
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Ausnahme-Fills (Aggregator-Konsens, offen dokumentiert): Gelbe Seiten (Venner Str. 10, 49565 Bramsche-Engter, 0173 8459916) + meinestadt.de (Venner Str. 10, 49565 Bramsche, Rohstoffhandel) kongruent. KEIN Betreiber-/Register-Beleg → Status bleibt pruefung, Telefon mit Restunsicherheit (nur GS). Adresse neu → Koordinaten neu zu geocodieren. Quelle(n): Gelbe Seiten + meinestadt.de (zwei Aggregatoren, eine Belegklasse — Ausnahmefall)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

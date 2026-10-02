@@ -4,10 +4,10 @@ name: Paulus GmbH
 trader_type: sonstige
 state: BY
 city: Bamberg
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Gundelsheimer Str. 9 A
+postcode: '96052'
+phone: 0951 62934
+email: georg.paulus@freenet.de
 opening_hours: ''
 website: https://schrotthandel-bamberg.de
 website_status: aktiv
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website live verifiziert (Entsorgungsfachbetrieb, 60+ Jahre): Paulus GmbH, Gundelsheimer Str. 9 A, 96052 Bamberg, Tel. 0951 62934 / 0171 8003068, georg.paulus@freenet.de, Register-Nr. im Impressum leer; Adresse/Telefon/E-Mail nur Betreiber-Einzelbeleg (kein Register, Verzeichnisse nur Leads) daher kein Adress-Fill, nur Website-Fill; Öffnungszeiten Betreiber: Mo-Do 07:30-12:00/12:30-16:00, Fr 07:30-14:00 (Einzelbeleg, unsicher); Quelle(n): https://schrotthandel-bamberg.de/, https://schrotthandel-bamberg.de/home/impressum/, Betreiber-Facebook (Paulus GmbH)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Zweitbeleg gefunden (11880: PAULUS GmbH, Gundelsheimer Str. 9 a, 96052 Bamberg, Tel. 0951 766362934, vom Inhaber bestätigt) — damit 2 unabhängige Belege für Adresse (Betreiber-Impressum mit USt-ID DE132282304 + 11880), daher Adress-/Telefon-/E-Mail-Fill; abweichende 11880-Rufnummer 0951 766362934 als Lead vermerkt, Betreiber-Nummer 0951 62934 in Frontmatter; Adresse neu im Dossier → Koordinaten neu zu geocodieren; Öffnungszeiten weiter nur Betreiber-Einzelbeleg, kein Fill; Quelle(n): https://schrotthandel-bamberg.de/home/impressum/, https://www.11880.com/suche/schrotthandel/buttenheim]

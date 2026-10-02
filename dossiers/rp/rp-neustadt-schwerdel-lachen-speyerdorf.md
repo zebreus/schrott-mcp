@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - urspr. Website-Angabe: keine
 - Adresse: Neustadt
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Treffer. Suche nach Schwerdel Neustadt/Lachen-Speyerdorf + Schrott/Altmetall ergab keine Händlerevidenz (nur Rauschen aus anderen Branchen/Orten). Keine Betreiber-Quelle, kein Verzeichnis-Lead. Kein Fill, status bleibt pruefung. Klaerfall: Seed-Cluster-Artefakt vs. realer Kleinstbetrieb; Quelle(n): keine]

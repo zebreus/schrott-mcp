@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Marburg 35039
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Fill nach Standard. Einziger Lead: dasoertliche.de Strassenverzeichnis nennt Voelker Karl-Heinz, Ginseldorfer Weg 44, 35039 Marburg, Tel/Fax 06421 66176 (Rubrik Schrott; gleiche Adresse wie Schrotthandel Silvia Mueller, u.a. Ginseldorfer Weg 44). Kein zweiter unabhaengiger Beleg, keine Betreiber-Quelle, kein Register-Treffer. Strasse/Telefon daher NICHT uebernommen, status bleibt pruefung. Klaerfall: Kleinsthaendler vs. moegliche Adress-/Namensueberlappung mit Mueller; Quelle(n): dasoertliche.de (Lead only)]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Münster 64839
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Fill, Verwechslungsgefahr dokumentiert. Befund: Betreiber-Domain schrotthandel-lorse.de existiert (Ankauf Alu/Blei/VA/Messing/Zink/Kupfer/Kabel, mobile Waage, Bar/Überweisung), aber Direktabruf blockiert (403/Transportfehler), daher kein Impressum, keine Adresszuordnung zu Münster/64839 moeglich. WICHTIG nicht vermengen: Angelo Lorse Allmeta Altmetallhandel, Hontzlarstr. 18, 41238 Moenchengladbach (allmeta.de, eigenes Impressum mit USt-IdNr.) ist ein anderer Betrieb in NRW und gehoert NICHT zu diesem Slug. Kein Fill, status bleibt pruefung. Klaerfall: Sitz von Schrotthandel Lorse (schrotthandel-lorse.de) via Gewerberegister klaeren; Quelle(n): schrotthandel-lorse.de Snippets + allmeta.de Impressum (Negativabgleich)]

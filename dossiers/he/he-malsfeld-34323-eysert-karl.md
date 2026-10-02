@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-AV?
 - Adresse: Malsfeld 34323
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Treffer. Varianten-Suche (Eysert Malsfeld + Schrott/Altmetall/Entruempelung) ergab keine einschlaegigen Belege oder Leads. Keine Betreiber-Quelle, kein Verzeichnis-Eintrag gefunden. Kein Fill, status bleibt pruefung. Klaerfall: moeglicher Kleinstsammler ohne oeffentliche Spur oder Seed-Fehlattribution; Quelle(n): keine]

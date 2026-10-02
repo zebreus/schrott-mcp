@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fehlzuordnungs-Verdacht — Wernsdorfer Str. 21, 09526 Olbernhau gehört It. Betreiber-Impressum (mit HRB 8643 Chemnitz) der SWING Recycling GmbH (SWING & CUT-Gruppe, Kompost/mineralisches Recycling, KEIN Metallrecycling, KEIN „Sieber"); kein Beleg für „Sieber Gerd Metallrecycling u. Containerdienst" in Olbernhau (der bekannte Sieber-Containerdienst sitzt in Chemnitz: Ralf Sieber, Thalheimer Str. 17-21/Am Rummel 5); daher kein Fill, status pruefung; Klärfall Folgewelle: Dossier-Identität prüfen (Namens-/Adress-Mix?); Quelle(n): https://swing-cut.de/impressum, https://www.recycling-sieber.de/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallrecycling/Container

@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Vikings Schrotthändler, Bremen" nur Suche ohne HR-Treffer; Seed-Adresse An Smidts Park 19, 28719 + Tel. 0172 8364924 bleiben Einzelbelege (Aggregator); Quelle(n): keine belegfähige Quelle]
 - [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Seed-Bestand bestätigt, keine neuen Fills — Gelbe Seiten (An Smidts Park 19, 28719 Bremen-Burg-Grambke, 0172 8364924) + golocal (gleiche Adresse, Überprüfte Adresse, gleiche Nummer) + Cylex-Profil (gleiche Adresse/Nummer) kongruent zu Seed-Frontmatter; kein Widerspruch, aber auch KEIN Betreiber-/Register-Beleg (Northdata nur Titel-Suche ohne HR-Treffer, vgl. Vorwelle) → Felder unverändert, Status bleibt pruefung. Quelle(n): Gelbe Seiten + golocal + Cylex (mehrere Aggregatoren, eine Belegklasse)]

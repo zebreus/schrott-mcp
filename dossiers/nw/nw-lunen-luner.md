@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss ohne Beleg — Suche nach Lüner (Schrott/Metallhandel Lünen) liefert nur adjektivische Treffer (Lüner Stadtgebiet etc.); SMR Schrott & Metallhandel Recycling GmbH (Frydagstr. 11-17) ist namentlich ein anderes Unternehmen und wurde NICHT zugeordnet. KEINE Fills, Status bleibt pruefung. Quelle(n): Websuche 02.10.2026 (kein Treffer)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

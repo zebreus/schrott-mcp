@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 30.09.2026
 
 - [Recherche 30.09.2026: Kein Beleg (weder Örtliche noch Verzeichnisse noch northdata noch Domain) → miss; Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=NAW+Recycling&ci=Neustrelitz + https://www.schrottplatz-info.de/schrottplatz/Neustrelitz/]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss bestätigt — erneut kein Treffer (kein HR-, kein Verzeichnis-, kein Domain-Beleg; einziger Neustrelitzer Metallbetrieb mit Beleg ist ITA Metal Company, Woldegker Chaussee 2 — KEIN Namens-/Rechtsnachfolgebeleg zu NAW, keine Spekulation); status pruefung; Quelle(n): Websuche 02.10.2026]

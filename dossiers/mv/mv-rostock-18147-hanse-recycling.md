@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kein Beleg für „Hanse-Recycling GmbH" Rostock (kein HR-, kein Verzeichnis-, kein Domain-Treffer; einziger Hanse-Namensvetter ist HSG Hanse Schrott Hamburg — andere Firma, andere Stadt); Import-Adresse Am Seehafen 7 bleibt unbelegter Lead; miss-Kandidat, status pruefung; Klärfall Folgewelle: HR Rostock; Quelle(n): Websuche 02.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Eisen/NE-Annahme, hafennah

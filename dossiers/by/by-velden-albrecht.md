@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 01.10.2026: keine Betreiber-Website, kein HR-Beleg; nur Verzeichnis-Leads (kein Beleg); Quelle(n): 11880.com-, schrottplatz-info.de-, Das-Örtliche-Sucheinträge]
 - Lead-Fakten (unsicher, NICHT in Frontmatter): Schrotthandel Albrecht Daniela Altmetall (auch Jochen Albrecht), Lindenstr. 13, 91235 Velden; Tel. 09152 4088211 bzw. 09152 928848.
 - Klärfall Folgewelle: Betreiber-Quelle oder HR-Beleg suchen; Inhaber-Diskrepanz Daniela vs Jochen klären.
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Erneut kein Betreiber-Beleg (keine Website, kein HR-, kein Social-Treffer; Suche nach Lindenstr. 13 nur Aggregator-Echos) — Stand 01.10.2026 bestätigt, weiter nur Verzeichnis-Leads, kein Fill, status pruefung; Quelle(n): Websuche 02.10.2026]

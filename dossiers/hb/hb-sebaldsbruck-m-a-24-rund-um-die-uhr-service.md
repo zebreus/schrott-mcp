@@ -5,8 +5,8 @@ trader_type: schrotthaendler
 state: HB
 city: Sebaldsbrück
 street: Sebaldsbrücker Heerstr. 160
-postcode: ''
-phone: ''
+postcode: '28309'
+phone: 0174 9159503
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Ausnahme-Fills PLZ/Telefon (Aggregator-Konsens, offen dokumentiert): Gelbe Seiten (M&A 24 Rund um die Uhr Service, Schrott, Sebaldsbrücker Heerstr. 160, 28309 Bremen-Sebaldsbrück, 0174 9159503) + 11880 (M&A Rund ums Haus Team, gleiche Adresse) kongruent; Straßenname aus Seed bestätigt. KEIN Betreiber-/Register-Beleg → Status bleibt pruefung, Telefon mit Restunsicherheit. Quelle(n): Gelbe Seiten + 11880 (zwei Aggregatoren, eine Belegklasse — Ausnahmefall)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

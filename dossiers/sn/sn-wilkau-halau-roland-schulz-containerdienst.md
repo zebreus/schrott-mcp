@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Weiter nur Verzeichnis-Lead (lokaleschrottplatz: Container + Fe/Alu/Cu/Edel/Blei/Messing-Annahme); keine Betreiber-Website, kein HR-, kein Social-, kein Register-Beleg; Abgrenzung: ähnlich lautende Rohstoffrecycling u. Containerdienst Schulze GmbH sitzt in Quedlinburg (HRB 106571 Stendal) — KEIN Beleg für Identität mit Roland Schulz Wilkau-Haßlau; kein Fill, Beleglage dünn trotz status aktiv — Folgewelle: Betreiber-Beleg suchen; Quelle(n): Websuche 02.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Container + Fe/Alu/Cu/Edel/Blei/Messing

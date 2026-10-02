@@ -4,10 +4,10 @@ name: VCC Verwertungs-Centrum Castrop
 trader_type: sonstige
 state: NW
 city: Castrop-Rauxel
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Deininghauser Weg 81
+postcode: '44577'
+phone: 02305 9983070
+email: info@vcc-castrop.de
 opening_hours: ''
 website: https://vcc-castrop.de/
 website_status: aktiv
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Teil-Fills (Straße/PLZ/Telefon/E-Mail) aus zwei unabhängigen Nicht-Aggregator-Quellen: (1) THM-Herstellerreferenz nennt VCC Verwertungs-Centrum Castrop GmbH & Co. KG, Deininghauser Weg 81, 44577 Castrop-Rauxel; (2) ECOSOIL Nord-West (RCC Recycling-Centrum, gleiche Adresse, Tel. +49 2305 9983070, Mo-Fr 07:00-17:00) betreibt dort seit 2019 Anlage + Containerdienst — stützt Adresse und Rufnummer 02305 9983070; E-Mail info@vcc-castrop.de via branchen-info (Lead, Restunsicherheit). WICHTIG: VCC/RCC/ECOSOIL-Nachfolge ungeklärt (VCC-Domain weiter nur Platzhalter, ECOSOIL führt 2305 998 307 0 als eigene Nummer) — möglich, dass VCC in RCC/ECOSOIL aufging; kein Status-Wechsel, Klärfall bleibt. Adresse neu → Koordinaten neu zu geocodieren. Quelle(n): thm-recyclingmaschinen.de + ecosoil-umwelt.de (zwei unabhängige Quellen) + Gelbe Seiten/branchen-info als Leads]
 
 ### Recherche 01.10.2026
 

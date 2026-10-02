@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Nur Aggregator-Leads (Das Örtliche/Gelbe Seiten: Zur Weisacht 15, 66798 Wallerfangen-Ittersdorf; schrottplatz-info: Tel. 06837 909863, Homepage-Link tot „/“) — verlinkte Betreiber-Homepage existiert nicht; KEIN Betreiber-Beleg (keine Website, kein Social, kein Register-Treffer) → KEINE Frontmatter-Füllung; Klärfall: Existenz/Adresse/Telefon requires Betreiber- oder Registerquelle; Quelle(n): keine Beleg-Quelle]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Stand 01.10.2026 bestätigt — erneut kein Betreiber-/Register-Beleg (PLZ 66798 = Ittersdorf korrekt, Vorwahl 06837 passt zum Ort, das stützt die Lead-Adresse schwach, bleibt aber Aggregator-Niveau); weiter kein Fill, status pruefung; Quelle(n): Websuche 02.10.2026]

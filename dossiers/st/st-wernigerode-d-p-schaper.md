@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Register-Negativbefund — schrottregister-Spiegel Wernigerode (Stand 11.08.2026) listet nur Abfallwirtschaft Nordharz (Brockenblick 1) und Wartmann Rohstoffe (Alter Bahnhof 3), KEIN „D. + P. Schaper"; kein Betreiber-Beleg (keine Website, kein HR-, kein Social-Treffer); „publizierte Preisliste" (Seed) unauffindbar; miss-Verdacht, status pruefung; Klärfall Folgewelle: HR Magdeburg/Stadtbranchenbuch; Quelle(n): https://schrottregister.pages.dev/ort-wernigerode, Websuche 02.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/NE-Metalle, publizierte Preisliste

@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Nur Aggregator-Leads (keine Belege): Königsau 23, 67661 Kaiserslautern. Namensvetter „altmetallservice-weiss.de" gehört zu anderem Weiß (Silvio Weiß, Freisen) — NICHT vermengen, keine Attribution. Kein Fill, Status pruefung bleibt, Klärfall: Existenz/Adresse via Gewerberegister Kaiserslautern klären; Quelle(n): DDG-/Brave-Recherche 01.10.2026, Leads 11880/Cylex/meinestadt, Abgleich altmetallservice-weiss.de (Freisen)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Check ohne neuen Befund. Suche nach Schrotthandel Weiss/Jeremy Weiss Kaiserslautern/Koenigsau ergab nur Namensvetter (u.a. Jeremy Weiss, Marketing Hamburg, LinkedIn). Stand 01.10.2026 bestaetigt: kein Fill, status bleibt pruefung; Quelle(n): keine neuen]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Silzweg 38, Cluster-Zuwachs
 - urspr. Website-Angabe: keine
 - Adresse: Hanhofen
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Treffer. Suche nach Tavernier Hanhofen + Schrott/Altmetall/Entruempelung sowie nach Adresse Silzweg 38 (67374 Hanhofen) ergab keine Händlerevidenz (nur Ortsinfos + unrelated Baumesse-Aussteller Silzweg 31). Keine Betreiber-Quelle, kein Verzeichnis-Lead. Kein Fill, status bleibt pruefung. Klaerfall: Seed-Cluster-Artefakt vs. realer Kleinstbetrieb; Quelle(n): keine]

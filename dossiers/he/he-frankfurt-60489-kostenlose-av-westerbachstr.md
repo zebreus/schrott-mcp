@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV
 - Adresse: Frankfurt 60489
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Treffer zum Seed-Eintrag. Suche nach Westerbachstr. + Schrott/AV/Abholung in 60489 Frankfurt ergab nur Fremdtreffer (EA Autoservice, Westerbachstr. 64, KFZ-Werkstatt, kein Schrottbezug; ueberregionale AV-Portale ohne Ortsbezug). Keine Betreiber-Quelle, kein Verzeichnis-Lead mit diesem Namen. Kein Fill, status bleibt pruefung. Klaerfall: unklar ob Kleinst-AV, Tocht-Liegenschaft oder Seed-Fehlattribution; Quelle(n): keine]

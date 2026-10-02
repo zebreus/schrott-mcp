@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottsammlung, ggf. mobil
 - Adresse: Frankenthal
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Treffer. Suche nach Jimmy/Roose Frankenthal + Schrott/Sammlung/Altmetall ergab nur Namensvetter-Rauschen (Musiker). Auch schrottregister Ort Frankenthal listet keinen passenden Betrieb. Keine Betreiber-Quelle, kein Verzeichnis-Lead. Kein Fill, status bleibt pruefung. Klaerfall: ggf. mobiler Sammler ohne oeffentliche Spur; Quelle(n): keine]

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall ohne Beleg — Websuche zu D&C Bottrop (Schrott/Metallhandel, Varianten D&C/D & C) liefert keine identifizierbaren Treffer (nur Namensvettern: Bottroper Schrotthandel, Linke, Droste; insolvenzradar nur D&C Gebäudedienstleistung Neufahrn). KEINE Fills, Status bleibt pruefung. Quelle(n): Websuche 02.10.2026 (kein Treffer)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Nur Aggregator-Leads (Das Örtliche/Gelbe Seiten: Antonienstr. 31 A, 06749 Bitterfeld-Wolfen, Tel. 03493 22208; Buntmetall/Guss-Angebot); keine Betreiber-Website, kein HR-, kein Register-Beleg; Abgrenzung: Scholz Recycling (Antonienstr. 7) und Bitterfelder Metallrecycling sind ANDERE Betriebe — nicht vermischen; daher kein Fill, status pruefung; Quelle(n): Websuche 02.10.2026 (Aggregator-Leads, kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Buntmetall, Guss (lt. Verzeichnisse)

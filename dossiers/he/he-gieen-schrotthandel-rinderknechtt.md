@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche Rinderknecht: nur 11880-Lead Leimenkauter Weg 1 (Einzelbeleg, unsicher), kein 2. unabhängiger Beleg, daher kein Frontmatter-Fill, Klärfall; Quelle(n): 11880 Lead only]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Check ohne neuen Befund. 11880-Snippet bestaetigt Schrotthandel Rinderknecht, Leimenkauter Weg 1, 35398 Giessen, Tel. 01573 7912176 (Rubrik Schrotthandel/Altmaterialhandel/Altmetallrecycling). Weiterhin kein zweiter unabhaengiger Beleg, keine Betreiber-Quelle. Kein Fill, status bleibt pruefung; Quelle(n): 11880 (Lead only)]

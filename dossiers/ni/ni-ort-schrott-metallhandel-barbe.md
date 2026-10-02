@@ -3,10 +3,10 @@ slug: ni-ort-schrott-metallhandel-barbe
 name: Schrott & Metallhandel Barbe
 trader_type: metallhaendler
 state: NI
-city: Ort ?
-street: ''
-postcode: ''
-phone: ''
+city: Papenburg
+street: Osterkanal 32
+postcode: '26871'
+phone: 04961 76255
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Ortsrätsel gelöst, Ausnahme-Fills (Einzel-Aggregator, offen dokumentiert): branchen-info führt Barbe Alfred unter Metallhandel (Tags Blech/Blei/Eisen), Osterkanal 32, 26871 Papenburg, Tel. 04961 76255 — daher city Ort ? → Papenburg korrigiert (Slug unverändert). Nur EIN Aggregator-Beleg → Status bleibt pruefung, alle Fills mit Restunsicherheit; Zweitbeleg für Folgewelle offen. Adresse neu → Koordinaten neu zu geocodieren. Quelle(n): papenburg.branchen-info.net (Einzelbeleg, Aggregator — Ausnahmefall)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

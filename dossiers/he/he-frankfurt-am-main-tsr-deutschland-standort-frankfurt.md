@@ -9,10 +9,10 @@ postcode: '60314'
 phone: 06940280
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+website: https://tsr-recycling.de
+website_status: aktiv
+status: aktiv
+description: 'TSR Deutschland GmbH & Co. KG, Niederlassung Frankfurt, Uhlfelderstr. 4, 60314 Frankfurt am Main (Fechenheim): Metallrecycling-Standort der TSR Group (REMONDIS), Schrottannahme Gewerbe/privat, Container; Entsorgungsfachbetrieb (Efb Region SuedWest II: Ginsheim, Frankfurt, Darmstadt). Rufnummer 069 40280 aus Verzeichnissen, nicht per Betreiber verifiziert.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Einzelquelle tsr-recycling.de bestaetigt Niederlassung Frankfurt: Standortseite nennt TSR Deutschland GmbH & Co. KG, Uhlfelderstrasse 4, 60314 Frankfurt am Main; Bibliothek listet Niederlassung Frankfurt + Efb-Zertifikat Region SuedWest II (Ginsheim, Frankfurt, Darmstadt, gueltig bis 01/2027). Direktabruf der Standortseite scheiterte an Bot-Schutz (Challenge), daher Such-Snippets als Beleg, offengelegt. Zweitstuetze: Gelbe-Seiten-/11880-Uebereinstimmung (Rufnummer 069/40280, aus Seed-Notes), als Lead gewertet. Restunsicherheit: Rufnummer nicht per Betreiber verifiziert; HRB-Pruefung steht aus. Status pruefung → aktiv (starke Betreiber-Einzelquelle); Quelle(n): tsr-recycling.de Standortseite Frankfurt + tsr-recycling.de/bibliothek (Efb) + Verzeichnis-Leads Gelbe Seiten/11880]
