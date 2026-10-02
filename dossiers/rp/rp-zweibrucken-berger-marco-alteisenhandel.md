@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alteisenhandel/Schrott
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss mit Register-Negativbefund — „Berger Marco Alteisenhandel Zweibrücken / Pennsylvaniastr. 18" ohne Treffer (Suche von Namensvettern dominiert); SchrottRegister führt in Zweibrücken genau EINEN Betrieb (Becker & Maurer GmbH, Schlachthofstr. 16) — NICHT Berger. Frontmatter bleibt leer; website_status=unbekannt. Quelle(n): schrottregister.pages.dev/ort-zweibrucken (Negativbefund) + Negativbefund Websuche 02.10.2026.]

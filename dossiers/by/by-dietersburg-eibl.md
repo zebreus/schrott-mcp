@@ -6,7 +6,7 @@ state: BY
 city: Dietersburg
 street: ''
 postcode: '84378'
-phone: ''
+phone: 01512 3518337
 email: ''
 opening_hours: ''
 website: ''
@@ -31,6 +31,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 84378)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klarname Eibl Daniel Schrotthandel Containerdienst, 84378 Dietersburg, Tel. 01512 3518337; Beleglage: zwei unabhängige Verzeichnisquellen mit identischem Telefon (keine Straße in beiden Quellen, kein Betreiber-Impressum, keine HR-Quelle) — Ausnahmefall nach Beleg-Leitlinie, offen dokumentiert; Straße NICHT gefüllt (Lead Langlohstraße 9 aus 01.10.2026-Note bleibt unbestätigt); Abgrenzung: Alois Eibl KFZ-Handel (11880, 84378 Dietersburg, Tel. 08564 1707) ist Namensvetter, NICHT dieser Betrieb; Status bleibt pruefung; Quelle(n): Gelbe-Seiten-Eintrag Eibl Daniel, Das-Örtliche-Eintrag (Vorwelle), 11880-Namenssuche (nur Namensvetter)]
+- Hinweis: Koordinaten bei Adressänderung neu zu geocodieren (geocode_cache-Schlüssel ist adressbasiert — Neu-Geocodierung läuft automatisch).
 
 ### Recherche 01.10.2026
 

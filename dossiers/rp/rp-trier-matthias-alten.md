@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - Miss: Seed-Straßenfragment (Andreas-Hoevel-Str. 6) ohne verifizierbaren Beleg; keine Betreiber-Website, kein Northdata/HR-Eintrag, kein kommunales Register, kein Betreiber-Social. Nur Aggregator-Leads. Keine 2 unabhängigen Belege — keine Frontmatter-Fills.
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss bestätigt (Vorfund 01.10.2026) — „Matthias Alten Trier / Andreas-Hoevel-Str. 6" weiter ohne Beleg (Treffer: US-Maler Mathias Alten, LinkedIn-Manager, kommunale Abfallseiten); website_status=unbekannt. Quelle(n): keine (Negativbefund Websuche 02.10.2026).]

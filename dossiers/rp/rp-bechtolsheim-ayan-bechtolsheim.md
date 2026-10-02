@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata ohne Registertreffer; Seed-Notiz Gau-Odernheimer Str. 1 (Clan?) unbestätigt und nicht in Frontmatter übernommen (Einzel-Lead, kein Beleg); keine Betreiber-Website; Quelle(n): keine. Frontmatter bleibt leer (Klärfall: Straßen-/Ortszuordnung Bechtolsheim vs. Gau-Odernheim per Gewerberegister klären).]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: WICHTIGER FUND mit Orts-Diskrepanz — Betreiber-Website schrotthandel-ayan.de (live abgerufen): „Resul Ayan Autorecycling/Schrotthandel/Containerdienst, Kaiserstraße 5, 67725 Börrstadt, 06357 498, schrotthandel-ayan@t-online.de, seit 01.09.2015, 12 Mitarbeiter, EFB + anerkannter Demontagebetrieb (Zertifikate verlinkt)"; Einzugsgebiet u.a. Alzey; dazu Das Örtliche/golocal/regio-westpfalz/ENF konsistent Börrstadt. ABER: Dossier-Ort ist Bechtolsheim (Seed: Gau-Odernheimer Str. 1) — KEIN Beleg für Filiale/Niederlassung Bechtolsheim → KEINE Frontmatter-Füllung (keine Vermischung zweier Orte); Klärfall Folgewelle (eigener Bechtolsheim-Betrieb vs. Seed-Fehlzuordnung; Gewerberegister Alzey-Worms). Quelle(n): schrotthandel-ayan.de (Betreiber, Direktabruf 02.10.2026); dasoertliche.de; regio-westpfalz.com; enfmetal.com]

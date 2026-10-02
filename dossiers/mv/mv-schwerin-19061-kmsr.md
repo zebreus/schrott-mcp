@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein KMSR-Beleg in Schwerin — Gelbe Seiten schrotthandel/schwerin ohne KMSR-Treffer (nur Bülow & Partner Holthusen 8,8 km), 11880 schrotthandel/schwerin listet nur ALBA Metall Ost, Fair Metall, B.U.G. (alle Görries/19061), kein KMSR, keine Dorfstr. 48; KEIN Frontmatter-Fill, Status bleibt pruefung; Klärfall Folgewelle: HRB-Register prüfen oder Depublikation; Quelle(n): gelbeseiten.de/suche/schrotthandel/schwerin negativ (Abruf 02.10.2026), 11880.com/suche/schrotthandel/schwerin negativ (Abruf 02.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - unklar (HRB 9200)

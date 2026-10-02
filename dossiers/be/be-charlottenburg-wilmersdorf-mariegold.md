@@ -4,7 +4,7 @@ name: Mariegold
 trader_type: sonstige
 state: BE
 city: Charlottenburg-Wilmersdorf
-street: Charlottenburg-Wilmersdorf, Nehringstr. 2
+street: Nehringstr. 2
 postcode: '14059'
 phone: 030 30 10 32 70
 email: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse + Tel. verifiziert (Nehringstr. 2, 14059 Berlin-Charlottenburg, Tel. 030 30103270); Beleglage: zwei unabhängige Verzeichnisquellen mit identischen Fakten (Gelbe-Seiten-Doppeleintrag Mariegold + Schmuckwerkstatt Mariegold + 11880-Eintrag Schmuckwerkstatt Mariegold, Rubrik Gold-/Silberschmiede bzw. Schmuck/Werkstatt); street auf Nehringstr. 2 normalisiert (Bezirkspräfix war im street-Feld); kein Betreiber-Impressum abgerufen (goldschmied-berlin.com laut 11880, nicht verifiziert — NICHT in Frontmatter), E-Mail mariegold@t-online.de nur Cloudflare-geschützt belegt — NICHT in Frontmatter; Status bleibt pruefung; Quelle(n): gelbeseiten.de/suche/mariegold/berlin (Abruf 02.10.2026), 11880.com/suche/mariegold/berlin (Abruf 02.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Rom 3
 - urspr. Website-Angabe: keine
 - Adresse: Birresborn
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss — „Weishaar Birresborn" (Seed: Rom 3) ohne Treffer in Websuche (keine Betreiber-Website, kein Register, keine Verzeichnisse); Straßenfragment „Rom 3" nicht verifizierbar. Frontmatter bleibt leer; website_status=unbekannt; Klärfall. Quelle(n): keine (Negativbefund Websuche 02.10.2026).]

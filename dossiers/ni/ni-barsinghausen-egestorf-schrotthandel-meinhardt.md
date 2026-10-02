@@ -29,6 +29,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- Beleglage: 1) Eigencheck Website https://schrotthandel-meinhardt.de am 02.10.2026: Verbindungsfehler (Ziel antwortet nicht) — `website_status: tot` bestätigt. 2) Nur Lead ohne Adressbeleg: lokaleschrottplatz.de listet „Schrotthandel-Meinhardt" ohne Adresse/Öffnungszeiten, Fragment Tel. 0178 8777868 (unvollständig wirkend, daher NICHT ins phone-Feld übernommen).
+- Kein zweiter unabhängiger Beleg für Adresse/Telefon (DuckDuckGo-Suche „Schrotthandel Meinhardt Barsinghausen Egestorf Adresse" ohne Treffer). `status: pruefung` bleibt. Kein `## Überblick` angelegt.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alu/Kupfer/Kabel, Container/Demontage/Entrümpelung

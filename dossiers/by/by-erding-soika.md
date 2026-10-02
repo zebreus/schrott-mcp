@@ -4,9 +4,9 @@ name: Soika
 trader_type: sonstige
 state: BY
 city: Erding
-street: ''
+street: Zum Lohfeld 2
 postcode: '85435'
-phone: ''
+phone: 08122 14246
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,12 @@ provenance_origin: prose
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse + Tel. verifiziert (Zum Lohfeld 2, 85435 Erding-Klettham, Tel. 08122 14246); Beleglage: zwei unabhängige Verzeichnisquellen mit identischen Fakten (kein Betreiber-Impressum, keine HR-Quelle gefunden) — Ausnahmefall nach Beleg-Leitlinie, offen dokumentiert; Status bleibt pruefung; Quelle(n): Das-Örtliche-Eintrag Soika Peter SchrottHdl., schrottplatz-info.de-Eintrag Schrott Soika Peter]
+- Lead (unsicher, NICHT in Frontmatter): kein Betreiber-Website-/HR-Beleg gefunden; Klärfall Folgewelle: Betreiber-Quelle suchen.
+- Hinweis: Koordinaten bei Adressänderung neu zu geocodieren (geocode_cache-Schlüssel ist adressbasiert — Neu-Geocodierung läuft automatisch).
 
 ### Importiert (Seed-Stand 2026-09-30)
 

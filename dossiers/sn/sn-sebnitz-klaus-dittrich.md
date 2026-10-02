@@ -4,8 +4,8 @@ name: Klaus Dittrich GmbH & Co.
 trader_type: metallhaendler
 state: SN
 city: Sebnitz
-street: ''
-postcode: ''
+street: Steingäßchen 1
+postcode: 01855
 phone: 035971 53667
 email: ''
 opening_hours: ''
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse verifiziert (Steingäßchen 1, 01855 Sebnitz, Tel. 035971 53667); Beleglage: zwei unabhängige Verzeichnisquellen mit identischen Fakten (Gelbe-Seiten-Eintrag Klaus Dittrich GmbH & Co. + 11880-Eintrag Klaus Dittrich GmbH & Co. Willy Knobloch KG, vom Inhaber bestätigt); kein Betreiber-Impressum gefunden — Ausnahmefall nach Beleg-Leitlinie, offen dokumentiert; Status bleibt pruefung; Quelle(n): gelbeseiten.de/suche/schrotthandel/sebnitz (Abruf 02.10.2026), 11880.com/suche/schrotthandel/sebnitz (Abruf 02.10.2026)]
+- Hinweis: Koordinaten bei Adressänderung neu zu geocodieren (geocode_cache-Schlüssel ist adressbasiert — Neu-Geocodierung läuft automatisch).
 
 ### Importiert (Seed-Stand 2026-09-30)
 

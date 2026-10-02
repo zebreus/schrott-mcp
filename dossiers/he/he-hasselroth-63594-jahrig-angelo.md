@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinstbetrieb
 - Adresse: Hasselroth 63594
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss mit Register-Negativbefund — „Jährig Angelo" in Hasselroth ohne Treffer; SchrottRegister (Fachbetrieberegister GSA + EfB-Register, Abruf 11.08.2026) führt in Hasselroth genau EINEN Betrieb (Siegfried Kraus GmbH & Co KG, Richard-J.-Ruff-Str. 4) — NICHT Jährig. Keine Betreiber-Website. Frontmatter bleibt leer; website_status=unbekannt. Quelle(n): schrottregister.pages.dev/ort-hasselroth + /betrieb-standort-hasselroth-hasselroth (Negativbefund).]

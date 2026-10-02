@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (schrottradar-Profil) – erster Bad-Homburg-Platz (Verzeichnis-Fund Oberursel-Bommersheim gehört nicht sicher dazu: andere Stadt, kein Identitätsbeleg – 30.09.2026)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss — kein belastbarer Treffer: Websuche „Schrott-HG Bad Homburg/Oberursel" liefert nur Namensvetter (Homburg/Saar: Prison-Metallhandel) und kommunale Treffer ohne Schrottbezug; kein schrottradar-Profil re-verifiziert, keine Betreiber-Website, kein Register. Frontmatter bleibt leer; Klärfall. Quelle(n): keine (Negativbefund Websuche 02.10.2026).]

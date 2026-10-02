@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss — „Theobald Deichmann Schrotthandel Groß-Rohrheim / Speyerstr." ohne Treffer (Suche dominiert von Deichmann-Schuhe-Filialen); Straßenexistenz (Speyerstr., 68649) via stadtplan.info bestätigt, aber KEIN Betriebsbezug. Keine Betreiber-Website, kein Register. Frontmatter bleibt leer (PLZ nicht übernommen — Betrieb unbestätigt); website_status=unbekannt. Quelle(n): keine (Negativbefund Websuche 02.10.2026 + stadtplan.info Straßenverzeichnis).]

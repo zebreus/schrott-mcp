@@ -6,12 +6,12 @@ state: HH
 city: Bergedorf
 street: Bergedorfer Schloßstr. 33
 postcode: '21029'
-phone: ''
+phone: 040 30762303
 email: ''
-opening_hours: ''
+opening_hours: Mo-Fr 10:00-17:00
 website: ''
-website_status: ''
-status: pruefung
+website_status: unbekannt
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -36,6 +36,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 02.10.2026
+
+- Beleglage: 1) 11880-Eintrag Gold+Co Goldankauf & Silberankauf Hamburg, aktualisiert 05.09.2026 (Eintragsdaten 24.07.2026): Bergedorfer Schloßstr. 33, 21029 Hamburg (Bergedorf), Tel. 040 30762303, Öffnungszeiten Mo-Fr 10:00-17:00. 2) Unabhängig bestätigt: Gelbe Seiten + DasÖrtliche führen gleiche Adresse/Telefon (GS: Bergedorfer Schloßstr. 33, 21029, Tel. 040 30762303).
+- Vorwellen-Notiz (01.10.2026) damit überholt: Zweitbeleg jetzt vorhanden, Fremdfirma goldundco.at bleibt unberücksichtigt. `status: aktiv` (September-2026-Aktualisierung + 2 unabhängige Verzeichnisbelege). Kein `## Überblick` angelegt.
 
 ### Recherche 01.10.2026
 

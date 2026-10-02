@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - evtl. Ankauf
 - Adresse: Groß-Umstadt 64823
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss — Kürzel „ABM" in Groß-Umstadt nicht auflösbar (Treffer: ALUMIL Metallhalbzeugwerk, Auto-Schütz, kommunale Abfallsatzung — alles ohne Bezug); keine Betreiber-Website, kein Register. Frontmatter bleibt leer; website_status=unbekannt. Klärfall (Gewerberegister Groß-Umstadt). Quelle(n): keine (Negativbefund Websuche 02.10.2026).]

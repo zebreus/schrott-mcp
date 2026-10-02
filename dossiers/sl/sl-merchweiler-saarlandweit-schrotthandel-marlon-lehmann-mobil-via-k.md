@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — mobiler Händler (Merchweiler/saarlandweit, via Kleinanzeigen), kein Betreiber-/Register-/Verzeichnis-Zweitbeleg; keine Frontmatter-Fills; Quelle(n): recherche/sl.md]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Check ohne neuen Beleg - 01.10-Vorwellenbefund (Klärfall (mobiler Händler via Kleinanzeigen, kein Zweitbeleg) steht unveraendert); kein zusaetzlicher Frontmatter-Fill; Quelle(n): Dossier-Re-Check 02.10.2026 (Welle 26:00)]
