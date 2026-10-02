@@ -6,12 +6,12 @@ state: NW
 city: Duisburg
 street: Sympherstr. 96a
 postcode: '47169'
-phone: ''
-email: ''
+phone: 02381 54304-0
+email: info@hark-hamm.de
 opening_hours: ''
-website: ''
-website_status: tot
-status: pruefung
+website: https://hark-hamm.de
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -36,6 +36,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: Domain hark-duisburg.de per DNS NXDOMAIN verifiziert; angebliche Impressum-Quelle unbelegt, Website entfernt, website_status tot. Quelle: dns.google + getent.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: OWNER-AUSNAHME GREIFT (Impressum Name+HRB+Ort, HR-kongruent): Heinrich Hark GmbH & Co. KG, Hartmannstr. 5, 44147 Dortmund, HRA 19998 AG Dortmund, Zentrale Tel 02381/54304-0, Mail info@hark-hamm.de. ECHTE Betreiber-Domain ist hark-hamm.de (nicht hark-duisburg.de — NXDOMAIN erneut bestätigt; hark.de = HARK Kaminbauer, Namensvetter, ausgeschlossen). Filial-Fakt Duisburg (Sympherstr. 96a, Sortierung/Aufbereitung Schrott+NE-Metalle) via Betreiber-Standort-/Anfahrtseiten belegt. website hark-hamm.de + website_status aktiv gesetzt (tot bezog sich auf Phantom-Domain), Zentrale-Kontakt befüllt, status pruefung→aktiv. Quelle(n): https://hark-hamm.de/impressum + /unternehmen/standorte + /kontakt/anfahrt (Abruf 02.10.2026) + DNS-Checks]
 
 ### Recherche 01.10.2026
 

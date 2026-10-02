@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse + Telefon mit 2 unabhängigen Belegen verifiziert: Wacholderweg 14, 27404 Zeven, Tel. 04281 4722 (Frontmatter bereits korrekt, unverändert). Keine eigene Website/Mail/Öffnungszeiten gefunden (Verzeichnisse bieten nur „eintragen"). Seitenbefund: Oetjen Rohstoffhandel GmbH (Herrenbrümmer/Tannenkamp, Zeven) ist separates Unternehmen — nicht vermengen. Dossier-status pruefung→aktiv. Quelle(n): oeffnungszeitenbuch.de; gelbeseiten.de; 11880.com/firmania.de (Adress-Snippets).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

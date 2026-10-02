@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Erneut kein Betreiber-Beleg — DDG-Variante (Litzig Wittlich H.J. Schrott) + Das-Örtliche-Branchenseite (Schrotthändler Wittlich: nur Becker Mathilde Autoverwertung Fintenweg 5 + Schmitz Großlittgen, kein Litzig/H.J.) ohne Treffer; Vorwellen-Befund (01.10.) bestätigt. Keine Frontmatter-Fills, status pruefung, Klärfall (ggf. Seed-Artefakt — Litzig als Wittlicher Flur/Straße vs Personenname H.J. ungeklärt). Quelle(n): https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Wittlich.html]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein Betreiber-Beleg auffindbar. DDG-Suche nach "Wittlich-Litzig" + H.J. Wittlich + Schrott lieferte explizit KEINE Treffer; Folgesuchen DDG-Captcha-blockiert; nur Seed-Angabe (Wittlich, sonstige). Adresse/Website/Branche ungeklärt - Folgewelle. Quellen: keine.]

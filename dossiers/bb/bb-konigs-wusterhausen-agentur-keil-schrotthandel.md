@@ -4,9 +4,9 @@ name: Agentur Keil Schrotthandel
 trader_type: schrotthaendler
 state: BB
 city: Königs Wusterhausen
-street: ''
-postcode: ''
-phone: ''
+street: Am Bahnhof 1
+postcode: 15713
+phone: 03375 203753
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse + Telefon mit 2 unabhängigen Belegen verifiziert: Am Bahnhof 1, 15713 Königs Wusterhausen (Ortsteil Niederlehme), Tel. 03375 203753. Branche Schrott; Leistung „Schrottabholung" (DasÖrtliche). Keine eigene Website/Mail/Registerbeleg gefunden. Adress-Fill löst Geocoding-Neuberechnung aus. Quelle(n): gelbeseiten.de; dasoertliche.de.]
 
 ### Recherche 01.10.2026
 

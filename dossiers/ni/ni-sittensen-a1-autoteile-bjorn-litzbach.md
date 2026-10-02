@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - E-Motoren/Stahl, Entrümpelung (Kfz-Fokus)
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Lage VERSCHLECHTERT: Root-Domain leitet per 301 auf https://www.ankauf-verkauf-litzbach.de/ (WordPress-Redirect), www-Host liefert aber keinen Inhalt (leerer Body/TLS-Abbruch, curl + Direktabruf http/https 02.10.2026). Impressum vom 01.10. (Nütteler Weg 12, 27419 Sittensen) NICHT re-verifizierbar; Adresse/Telefon weiter NICHT befüllt (Einzelunternehmen ohne HRB, Zweitbeleg fehlt). website_status blockiert beibehalten. Quelle(n): curl-Redirectkette + DNS 02.10.2026]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Korrektur website_status tot→blockiert — Domain lebt (http-Impressum 01.10.2026 abrufbar: Inhaber Bjoern Litzbach, Nuetteler Weg 12, 27419 Sittensen), https-Abruf schlaegt fehl; Frontmatter-Adresse/Telefon NICHT befuellt (Einzelunternehmen ohne HRB, Owner-Ausnahme greift nicht; 11880/Yelp nur Leads); Quelle(n): Betreiber http://ankauf-verkauf-litzbach.de/impressum.php + https-Fehlbeleg 01.10.2026]

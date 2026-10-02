@@ -5,8 +5,8 @@ trader_type: schrotthaendler
 state: TH
 city: Neuhaus am Rennweg
 street: Waldweg 2
-postcode: ''
-phone: ''
+postcode: 98724
+phone: 03679 720357
 email: ''
 opening_hours: ''
 website: ''
@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Nachtrag Shard A)
 
 - [Recherche 01.10.2026: Nachtrag: Creditreform-Firmeneintrag-Snippet (Lead, Seite JS-blockiert, kein Vollbeleg): „Carsten Murkowitz Schrotthandel … Sitz Neuhaus … Rechtsform Gewerbebetrieb … wirtschaftsaktiv“ — stützt Existenz, ersetzt keinen Beleg. Weiter KEINE Frontmatter-Füllung; Klärfall aus Vorsektion bleibt offen; Quelle(n): keine Beleg-Quelle]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Waldweg 2 / 98724 / 03679 720357 portaluebergreifend bestätigt — stadtbranchenbuch/neuhaus (Waldweg 2, 98724 Neuhaus, Tel. 03679 720357, „Carsten Murkowitz Schrott“) + branchen-info/wallbach („Murkowitz Carsten Schrott und Metalle, Waldweg 2, 98724 Neuhaus“) + Creditreform-Existenzhinweis (Gewerbebetrieb, wirtschaftsaktiv, Vorwelle). Betreibername „Carsten Murkowitz“ weiter nur Verzeichnis-Lead. Frontmatter street/postcode/phone gefüllt (Ausnahmefall, Portal-Konsens + Existenzhinweis, offen dokumentiert); weiter pruefung, kein Betreiber-/Registerbeleg; Quelle(n): https://neuhaus.stadtbranchenbuch.com/256917.html + https://wallbach.branchen-info.net/fp_646285.php]

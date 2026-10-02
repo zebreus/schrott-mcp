@@ -5,8 +5,8 @@ trader_type: metallhaendler
 state: HE
 city: Wiesbaden-Märchenland
 street: Froschkönigweg 5
-postcode: ''
-phone: ''
+postcode: 65199
+phone: 0177 3738669
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse/Kontakt verifiziert — 11880 (Froschkönigweg 5, 65199 Wiesbaden-Dotzheim, Tel 0177 3738669, Branche Altmetallrecycling) + Firmania/Cylex (gleiche Firma/Straße) stimmen überein; Frontmatter-Fill (PLZ, Tel). Kein Betreiber-Web gefunden — status pruefung. Quelle(n): https://www.11880.com/branchenbuch/wiesbaden/060440092B113135201/schrott-altmetallhandel-winterstein.html + https://firmania.de/wiesbaden/schrott-altmetallhandel-winterstein-4535466 (Titel via Suche)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

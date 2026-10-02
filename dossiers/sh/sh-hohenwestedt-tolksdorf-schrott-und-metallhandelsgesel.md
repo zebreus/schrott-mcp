@@ -4,8 +4,8 @@ name: Tolksdorf Schrott- und Metallhandelsgesellschaft mbH
 trader_type: metallhaendler
 state: SH
 city: Hohenwestedt
-street: ''
-postcode: ''
+street: Lindenstraße 45 a
+postcode: 24594
 phone: ''
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Registeradresse mit mehreren unabhängigen Belegen verifiziert: Tolksdorf Schrott- und Metallhandelsgesellschaft mbH, AG Kiel HRB 18510 KI, Lindenstraße 45 a, 24594 Hohenwestedt — Zweitbelege für HRB + Adresse + Aktiv-Status. Status-Hinweis: Northdata spiegelte am 01.10. „in Liquidation (i. L.)", aktuelle Direktabrufe (online-handelsregister, firminform) melden Status aktiv/normal — Liquidations-Vermerk daher NICHT ins Dossier übernommen, Dossier-status aktiv beibehalten. Adress-Fill löst Geocoding-Neuberechnung aus. Quelle(n): online-handelsregister.de HRB 18510 KI; firminform.com; cylex.de; firmania.de; creditreform.de.]
 
 ### Recherche 01.10.2026
 

@@ -43,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Seed-Daten zweitbestätigt — 11880 (unabhängiger Verlag): „Schrottankauf-Barth“, Altmetallrecycling, Nelkenstr. 16, 18356 Barth (Barth-Süd), Tel. (01521) 8927701 — deckt sich mit Frontmatter (Seed-Portal lokaleschrottplatz). Kein Betreiber-/Registerbeleg (Kleinstbetrieb) → keine neuen Fills, weiter pruefung; Quelle(n): https://www.11880.com/suche/entsorgung/barth + https://lokaleschrottplatz.de/schrottankauf-barth/ (Seed-Herkunft, kein Zweitbeleg)]

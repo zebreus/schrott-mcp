@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott (GS)
 - Adresse: Bielefeld
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse+Telefon per Das-Örtliche-Direktabruf frisch bestätigt (02.10.2026): Alfred Brüderich Schrott und Altmetalle, Niedermühlenkamp 71, 33604 Bielefeld, Tel 0521 66279, Fax 0521 66213, Branche Recycling — konvergent mit Gelbe-Seiten-/Cylex-/Telefonbuch-Leads (30.09.) + HRA 10583 Bielefeld via Creditreform. KEINE Betreiber-Website/Mail/Öffnungszeiten auffindbar (Einzelunternehmen/e.K., Owner-Ausnahme nicht anwendbar) — Frontmatter bleibt wie befüllt, weiter pruefung. Quelle(n): dasoertliche-Themenseite (Abruf 02.10.2026)]
+
 ### Recherche 30.09.2026
 
 - Alfred Brüderich Schrott und Altmetalle: Niedermühlenkamp 71, 33604 Bielefeld (Innenstadt), Tel. 0521 66279, Fax 0521 66213 (Frontmatter Adresse + Telefon gefüllt, Mehrfachbeleg): https://www.dasoertliche.de/Themen/Br%C3%BCderich-Alfred-Schrott-und-Altmetalle-Bielefeld-Niederm%C3%BChlenkamp + https://www.gelbeseiten.de/branchen/schrottplatz/bielefeld%20stadtteil%20innenstadt (+ https://web2.cylex.de/firma-home/bruederich-alfred-schrott-altmetalle-573788.html + https://adresse.dastelefonbuch.de/Bielefeld/3-Alfred-Br%C3%BCderich-Bielefeld-Niederm%C3%BChlenkamp.html)

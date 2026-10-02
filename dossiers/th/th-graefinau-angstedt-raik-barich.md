@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott? (nur Verzeichnis)
 - Adresse: Graefinau-Angstedt
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: MISS — einziger Lead: schrottplatz.org „Raik Barich“, Wiesenweg 28, 98704 Gräfinau-Angstedt, Tel. 036785/50463 (Portal-Einzelbeleg, unsicher). Keine zweite Quelle (kein Betreiber-/Register-/Kommunalbeleg). Keine Fills, weiter pruefung; Quelle(n): https://www.schrottplatz.org/ilmenau/raik-barich-5402744.html (Lead, kein Beleg)]

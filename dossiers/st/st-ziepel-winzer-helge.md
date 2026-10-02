@@ -6,7 +6,7 @@ state: ST
 city: Ziepel
 street: Dorfstr. 10
 postcode: '39291'
-phone: ''
+phone: 0172 9037980
 email: ''
 opening_hours: ''
 website: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall
 - Adresse: Ziepel (Dorfstr. 10, 39291)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse bestätigt + Telefon/Leistungen neu — Gelbe Seiten (Einzelbeleg, offener Ausnahmefall): Dorfstr. 10, 39291 Ziepel, Tel. 0172 9037980, Branche Schrott, Leistungen Altmetall/Metallschrott/Schrotthandel/Schrottentsorgung. Keine zweite unabhängige Quelle (kein Betreiber-/Registerbeleg, Einzelunternehmen). Frontmatter phone gefüllt, weiter pruefung; Quelle(n): https://www.gelbeseiten.de/gsbiz/3ed5ad93-48b9-4d2c-a70a-5588a9caff9c]

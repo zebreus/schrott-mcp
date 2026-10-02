@@ -5,8 +5,8 @@ trader_type: autoverwertung
 state: BY
 city: Miltenberg 63897
 street: Altstadtweg 4
-postcode: ''
-phone: ''
+postcode: 63897
+phone: 09371 9589453
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse/Kontakt verifiziert — 11880 (Altstadtweg 4, 63897 Miltenberg, Tel 09371 9589453, Branchen Autoverschrottung/Autoverwertung) + Firmania/meinestadt.de (gleiche Adresse) stimmen überein; Frontmatter-Fill (PLZ, Tel). Kein Betreiber-Web gefunden, HRB 14203 (Seed) registerlich unverifiziert — status pruefung, Folgewelle Registerabgleich. Quelle(n): https://www.11880.com/branchenbuch/miltenberg/060440459B113863593/autoverwertung-miltenberg-579-gmbh.html + https://firmania.de/miltenberg/autoverwertung-miltenberg-579-gmbh-3864135 (Titel via Suche)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

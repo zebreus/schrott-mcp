@@ -7,10 +7,10 @@ city: Fredersdorf
 street: Lange Str. 3, Fredersdorf / Herzbergstr. 51, 10365 Berlin
 postcode: '15370'
 phone: 0163 3149007
-email: ''
+email: info@schrotthandel-hristov.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://schrotthandel-hristov.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Website VOLLCRAWL (Start, Impressum, Kontakt konsistent, Abruf 02.10.2026): Inhaber Biser Hristov, Herzbergstr. 51, 10365 Berlin, Tel 0163 314 9007, Mail info@schrotthandel-hristov.de; Leistungen Schrottabholung/Sperrmüll/Demontage/Entsorgung Berlin+Brandenburg. Website+Mail+website_status aktiv gefüllt (eigene publizierte Kontaktdaten, 3 Unterseiten konsistent = 1 Quelle). EINZELUNTERNEHMEN ohne HRB (USt-ID „folgt") — Owner-Ausnahme greift nicht; Straßen-Feld (Lange Str. 3 Fredersdorf vs. Impressum Berlin) bleibt unverändert, Fredersdorf-Zweig nur via schrottradar-Lead (Zweitbeleg ausstehend). Keine Öffnungszeiten publiziert. Quelle(n): https://schrotthandel-hristov.de/ + /impressum.php + /kontakt.php]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
