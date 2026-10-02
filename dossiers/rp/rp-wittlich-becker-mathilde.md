@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall, KEIN Fill (nur GS-Einzelbeleg) — GS: Becker Mathilde Autoverwertung, Fintenweg 5, 54516 Wittlich, Tel. 06571 7708. 11880 Wittlich (50 Eintraege): kein Becker. Kein Betreiber-Beleg, kein HRB. Folgewelle: Zweitverzeichnis/Gewerberegister Wittlich (AltfahrzeugV-Anerkennung pruefen).; Quelle(n): https://www.gelbeseiten.de/gsbiz/0ba13991-c700-46e5-89ca-41f766924efe + 11880-Negativbefund (Abruf 02.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altautos vermutet

@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden (Backyard-Typ bestätigt). Leads (keine Belege): Unnauer Weg 20, 50767 Köln-Lindweiler, Tel. 0163 5927189 aus Schrottplatz-Portalen und Verzeichnissen (schrottradar, 11880, Cylex). Felder bleiben leer, website_status unbekannt; Quelle(n): schrottradar.de, 11880.de (nur Leads)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Zusaetzlicher Lead — maptons listet Altmetalle Reinhard, Unnauer Weg 20, Koeln (nahe A&N Schrottabholung Kerpen, Zeissstr. 22) — weiterhin nur Portal-/Verzeichnis-Klasse, kein Betreiberbeleg, kein Register. Kein Fill, status bleibt pruefung; Quelle(n): ws.maptons.com (Lead)]

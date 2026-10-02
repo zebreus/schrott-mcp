@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthändler
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: GS-Zweitbeleg bestaetigt Betreiber-Angaben exakt (GS: Klein Gotthart SchrottHdl., Ginseldorfer Weg 26a, 35039 Marburg, Tel. 06421 62188; Betreiber-About re-verifiziert: Gotthard Klein, Ginseldorferweg 26a, D-35039 Marburg, Tel. 06421-62188, Fax 06421-690666). Dennoch KEIN Fill — Triage-2244-Klaerfall bleibt bindend (Einzelunternehmen ohne HRB, keine Owner-Ausnahme; GS = Aggregator, keine neue Evidenzklasse ggü. 7 bekannten Verzeichnissen). Kontakt-/Anfahrtseiten enthalten keine zusaetzlichen Adressdaten. Folgewelle: Gewerberegister Marburg.; Quelle(n): https://www.klein-schrotthandel.de/about/ + https://www.gelbeseiten.de/gsbiz/bfccb291-1f03-4656-bf71-e0496121b303 (Abruf 02.10.2026)]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website identifiziert und live verifiziert (Familienunternehmen seit 1986, Ankauf Kupfer/Kabel/Messing/Alu/Blei/Zink/VA-Stahl, Abholung auf Anfrage); Adresse/Telefon nur Einzelbeleg daher NICHT in Frontmatter (Klärfall); Quelle(n): https://www.klein-schrotthandel.de + https://www.klein-schrotthandel.de/about/ + https://www.klein-schrotthandel.de/wir-kaufen/]

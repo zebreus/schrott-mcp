@@ -4,8 +4,8 @@ name: Schindling Stoffstrom Vertriebs GmbH
 trader_type: schrotthaendler
 state: HE
 city: Frankfurt 65933
-street: ''
-postcode: ''
+street: Eichenstr. 83
+postcode: 65933
 phone: (069) 39090562
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill street/postcode — 11880-Firmeneintrag (Schindling Stoffstrom Vertriebs GmbH, Eichenstr. 83, 65933 Frankfurt, Tel. (069) 39090562) bestaetigt Seed (Frankfurt 65933 + identische Tel.-Nr. (069) 39090562). Begruendeter Ausnahmefall: 2 Verzeichnisse, Adresse+Telefon konkordant; keine Betreiber-Website, kein HRB verifiziert (GmbH-HRB offen: Handelsregister-Abruf Folgewelle). Hinweis: Adresse neu befuellt — Koordinaten neu zu geocodieren. GS Frankfurt: kein Schindling-Eintrag (kein Widerspruch). Status bleibt pruefung.; Quelle(n): 11880-Suche schrotthandel/frankfurt-am-main (Abruf 02.10.2026) + Seed-Verzeichnis]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

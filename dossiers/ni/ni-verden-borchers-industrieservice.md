@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - borchersindustrieservice.com: Demontage/Verwertung Industriemaschinen (Stahl/Edelstahl), Abriss → **ja** (B2B-Demontage)
 
+### Recherche 02.10.2026
+- Betreiber-Website live re-verifiziert (Impressum-Einzelbeleg bestaetigt: Zum Hutberger Graben 2, 27283 Verden (Aller), Tel. 04231 9850940, Mobil 0173 6026888; kein HRB). GS Verden (1 Treffer) + 11880 Verden (50 Eintraege): KEIN Borchers — kein Zweitbeleg, daher weiter KEIN Fill (Klaerfall, Triage-2433-Linie). Folgewelle: Gewerberegister Verden.
+- Quelle: https://www.borchersindustrieservice.com/impressum (Abruf 02.10.2026) + GS-/11880-Negativbefund.
+
 ### Recherche 01.10.2026
 - Betreiber-Website live verifiziert (aktiv). Adresse/Telefon nur Impressum-Einzelbeleg (Zum Hutberger Graben 2, 27283 Verden, Tel. 04231 9850940; ohne HRB) daher nur Timeline.
 - Quelle: https://www.borchersindustrieservice.com (Direkt-Fetch).

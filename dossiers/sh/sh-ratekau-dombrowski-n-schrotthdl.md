@@ -10,7 +10,7 @@ phone: 04504 6 73 71
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -41,3 +41,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Dritt-Lead — schrottplatz.org listet Schrott Dombrowski N. SchrottHdl., Sereetzer Weg 24c, 23626 Ratekau (bestaetigt Gelbe-Seiten-/Das-Oertliche-Adresse + Tel. 04504 67371); Strassenname amtlich belegt (stadtplan.info, Ratekau-Wahlbezirke). Belegklasse bleibt Verzeichnis/Portal (kein Betreiber, kein Register) — nach Beleg-Leitlinie kein Fill ueber Bestand hinaus, status bleibt pruefung; Quelle(n): schrottplatz.org/ratekau (Lead), stadtplan.info, ratekau.de (Strassenbeleg)]
+- [Recherche 02.10.2026: Nachtrag — website_status leer → unbekannt normalisiert (keine Website bekannt, kein Erreichbarkeitsbeleg); keine Inhaltsaenderung; Quelle(n): —]

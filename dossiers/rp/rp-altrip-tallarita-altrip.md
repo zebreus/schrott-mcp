@@ -4,9 +4,9 @@ name: Tallarita Altrip
 trader_type: sonstige
 state: RP
 city: Altrip
-street: ''
-postcode: ''
-phone: ''
+street: Am Sandzug 16
+postcode: 67122
+phone: 0176 87355022
 email: ''
 opening_hours: ''
 website: ''
@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Am Sandzug 16).
 - urspr. Website-Angabe: keine
 - Adresse: Altrip
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Zweitbeleg gefunden — 11880-Firmeneintrag bestaetigt Betreiber-Onepager exakt (Am Sandzug 16, 67122 Altrip, Tel. 0176 87355022; 11880-Name: Schrott & Fahrzeughandel Sandro Tallarita). Fill: street/postcode/phone. Restunsicherheit: Onepager-Header nennt Ludwigshafen am Rhein (PLZ 67122 gehoert zu Altrip; Footer: STA Schrotthandel Tallarita Altrip) — city bleibt Altrip. Hinweis: Adresse neu befuellt — Koordinaten neu zu geocodieren. Status bleibt pruefung (kein HRB/Impressum).; Quelle(n): https://st-gebrauchtgut.wixsite.com/staschrotthandeltall + https://www.11880.com/branchenbuch/altrip (Suche schrotthandel/altrip, Abruf 02.10.2026)]
 
 ### Recherche 01.10.2026
 

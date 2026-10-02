@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Verifikation (Site live, konsistent): Kontakt-Seite bestätigt Autoverwertung Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf, Tel 0381-6752030 — identisch zum Impressum-Stand 01.10.2026. Weiterhin kein zweiter unabhängiger Beleg (Northdata 01.10. negativ) → KEIN Fill, Status pruefung bleibt; Quelle(n): https://www.autoverwertung-zotzmann.de/kontakt-anfahrt (Abruf 02.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Das Telefonbuch (Branche Schrott/Speditionen)

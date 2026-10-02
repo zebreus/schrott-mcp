@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Verifikation live — schrottankauf-hamm.de/ + /impressum/ per Direktabruf HTTP 200 (02.10.2026, ©2026 aktuell): A. Lahib, Tulpenstrasse 23, 59063 Hamm, Tel. 01522-422-4277, Mail schrott-held@mail.de, Zeiten Mo-Sa 07:30-22:00 (telefonisch bis 23:00) — identisch zum Vorbefund 01.10.2026. Weiterhin Betreiber-Einzelquelle ohne HRB (keine Owner-Ausnahme), kein Zweitbeleg → kein Frontmatter-Fill, website_status bleibt aktiv (mobiler Dienst, kein stationärer Platz, kein street-Fill); Quelle(n): schrottankauf-hamm.de/, /impressum/ (eine Quelle, Re-Verifikation)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Einheitliche Template-Seiten, eine Rufnummer — 1 Betreiber

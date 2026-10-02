@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Verifikation live — schrotthaendler-24.de/ + /impressum/ per Direktabruf HTTP 200 (02.10.2026, ©2026 aktuell): Dany Aboud, Bövinghauser Str. 38, 44388 Dortmund, Tel. +49 162 9588664, Mail info@schrotthaendler-24.de, Zeiten Mo-Fr 08-20 / Sa 10-17 / So geschlossen — identisch zum Vorbefund 01.10.2026. Frontmatter-Felder (phone/mail/Zeiten/website_status aktiv) bleiben belegt; Betreibersitz weiterhin nur Timeline (Einzelunternehmen ohne HRB, Zweitbeleg offen); Quelle(n): schrotthaendler-24.de/ + /impressum/ (eine Quelle, Re-Verifikation)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetallankauf online + Abholung

@@ -4,8 +4,8 @@ name: Gerd Klarholz Schrotthandel und Containerdienst
 trader_type: containerdienst
 state: SN
 city: Mittweida
-street: ''
-postcode: ''
+street: Anton-Günther-Str. 7
+postcode: 09648
 phone: 03727 91063
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: street/postcode gefüllt (begründeter Ausnahmefall, offengelegt): Anton-Günther-Str. 7, 09648 Mittweida, Tel 03727 91063 — konkordant in Das Örtliche, Gelbe Seiten, cylex, schrottplatz-info, firmania, gavabiz (Seed-Telefon bestätigt). KEINE Betreiber-Website, kein Register-/Kommunalbeleg → Status bleibt pruefung (Korrektur vom 30.09. bleibt bestehen, Existenz weiter nur verzeichnisbelegt). Hinweis Adress-Fill aus leerem Feld: Koordinaten neu zu geocodieren; Quelle(n): dasoertliche.de-Themenseite + DDG-Trefferliste Klarholz Mittweida (Abruf 02.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

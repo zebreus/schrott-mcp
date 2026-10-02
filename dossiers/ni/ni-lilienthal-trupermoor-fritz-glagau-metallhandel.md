@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KLÄRFALL — nur Portal-Snippets, kein zweiter unabhängiger Beleg, keine Betreiber-Website — kein Fill; Quelle(n): Verzeichnis-Leads]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall bestaetigt — kein Betreiberbeleg Fritz Glagau (nur Namensvetter: Metall-Fritz NRW, Fritz Metall Oesterreich, Trupermoor-Ortsinfo 28865/04298). Weissdornweg-6-Herkunft weiter unklar; kein Fill, status bleibt pruefung; Quelle(n): Websuche (Negativbefund)]

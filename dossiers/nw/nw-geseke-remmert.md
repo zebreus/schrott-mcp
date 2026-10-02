@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall — kein Schrott-/Metall-Remmert in Geseke auffindbar (nur Kfz-Meisterwerkstatt Detlef Remmert Geseke = Fremdbranche, Remmert GmbH Loehne = Lagertechnik/Intralogistik, Remmert-Namenstraeger). Kein Fill, website_status unbekannt, status bleibt pruefung; Quelle(n): Websuche (Negativbefund)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

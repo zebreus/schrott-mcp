@@ -5,8 +5,8 @@ trader_type: schrottplatz
 state: MV
 city: Rostock
 street: Altschmiedestr. 24
-postcode: ''
-phone: ''
+postcode: 18055
+phone: 0177 8672278
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: postcode + phone gefüllt (begründeter Ausnahmefall, offengelegt): schrottplatz-info (Altschmiedestr. 24, 18055 Rostock Stadtmitte, Tel 0177 8672278) + Das Telefonbuch (gleicher Eintrag, Tel-Titel 0177867…) — Seed-Adresse bestätigt. Lead schrottabriss-niemann.de (SANI Team Bau, Carl-Hopp-Str. 4b) ist DNS-tot (NXDOMAIN, Abruf 02.10.2026) + Branchenfremd (Bau/Sanierung) → KEIN Betreiber-Beleg, verworfen. Weiter kein Betreiber-Auftritt/Registerbeleg → Status bleibt pruefung; Hinweis: Koordinaten ggf. neu zu geocodieren; Quelle(n): schrottplatz-info-Detailseite + DDG-Trefferliste (Abruf 02.10.2026)]
 
 ### Recherche 01.10.2026
 

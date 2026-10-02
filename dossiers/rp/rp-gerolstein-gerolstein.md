@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall, KEIN Fill — GS Gerolstein (1 Treffer: Dechmann Peter, Prüm) + 11880 Gerolstein (50 Treffer, nur Umkreis: Wiesbaum/Prüm/Strohn/Blankenheim u.a.) enthalten KEINEN Gerolstein-Betrieb mit Sarresdorfer Str. 8. Seed-Adresse unbestätigt; kein Betreiber-Beleg, kein Name (Dossier-Name = Ortsname). Folgewelle: Das Örtliche/Gewerberegister Gerolstein oder Loeschkandidat.; Quelle(n): GS-/11880-Negativbefund Gerolstein (Abruf 02.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Sarresdorfer Str. 8

@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Verzeichnisse Das Oertliche + GelbeSeiten: Von-Ossietzky-Ring 59, 45279 Essen, Tel. 0201 9467448 (Mobil-Variante 0173 5486081 aus Timeline-Spur unverifiziert); Domain zjm-demontagen.de per DNS tot (NXDOMAIN); website bleibt leer, website_status tot, status bleibt pruefung; Koordinaten neu zu geocodieren; Quelle(n): dasoertliche.de, gelbeseiten.de]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Verifikation — zjm-demontagen.de weiterhin ohne DNS-Eintrag (getent/hosts leer → NXDOMAIN bestaetigt, website_status tot bleibt). Archiv-Indiz (dewebc-Snapshot): ehem. Schrotthandel/Demontagen Essen, IP 89.107.184.29 — historisch, kein Adressbeleg. Kein Fill, kein Zweitbeleg ueber die zwei Verzeichnisse hinaus; Quelle(n): DNS-Check 02.10., dewebc-Archiv (historisch)]

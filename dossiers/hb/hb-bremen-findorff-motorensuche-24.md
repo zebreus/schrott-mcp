@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -37,3 +37,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — Domain motorensuche24.de tot, kein Betreiber-Impressum, kein Registerbeleg (nur MisterWhat-Lead); bestehende street/postcode unverändert (Verzeichnis-Einzelbeleg, nicht überschrieben), website bleibt leer.; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss bestaetigt — kein Betreiberbeleg Motorensuche 24 (nur Kfz-/Ladesaeulen-Treffer Hemmstr. Findorff als Fremdkontext); Hemmstr. 178/28215 bleibt Verzeichnis-Einzelbeleg ohne Ueberschreibung, website leer, status bleibt pruefung; Quelle(n): Websuche (Negativbefund)]
+- [Recherche 02.10.2026: Nachtrag — website_status leer → unbekannt normalisiert (keine Website bekannt, kein Erreichbarkeitsbeleg); keine Inhaltsaenderung; Quelle(n): —]

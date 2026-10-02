@@ -4,14 +4,14 @@ name: ALEX Goldankauf
 trader_type: sonstige
 state: BY
 city: Aschaffenburg 63739
-street: ''
-postcode: ''
+street: Roßmarkt 39 A
+postcode: 63739
 phone: 06021-9218508
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: street/postcode gefüllt + status pruefung → aktiv (begründeter Ausnahmefall, offengelegt): Das-Örtliche-Detailseite nennt Roßmarkt 39 A, 63739 Aschaffenburg-Innenstadt, Tel 06021 9218508 (passt zu Seed-Telefon) + Zweitnummer 0176 23748176; Aktivität belegt durch 52 Bewertungen (5/5, neueste 30.09.2026) + Google 150 Bewertungen 5/5. KEINE Betreiber-Website, kein Registerbeleg; juwelier-alex.de bleibt Fremdfirma (Köln, s. 01.10.). Zeiten (golocal: Mo-Fr 10-18, Sa 10-16) sind als nutzergemeldet/unredaktionell markiert → KEIN opening_hours-Fill. Hinweis: PLZ stand bereits im city-Feld; Koordinaten ggf. neu zu geocodieren; Quelle(n): dasoertliche.de-Detailseite ALEX GOLDANKAUF ASCHAFFENBURG (Abruf 02.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -5,8 +5,8 @@ trader_type: schrotthaendler
 state: NI
 city: Springe-Bennigsen
 street: Allerfeldstr. 11
-postcode: ''
-phone: ''
+postcode: 31832
+phone: 0172 3553573
 email: ''
 opening_hours: ''
 website: ''
@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg, gamma.site)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill postcode/phone — GS-Firmeneintrag (Thorsten Tordai Holz- und Schrotthandel & Containerdienste, Allerfeldstr. 11, 31832 Springe, Tel. 0172 3553573) bestaetigt Betreiber-Seite (Tel. 0172/3553573, 31832 Bennigsen, Mo-Fr 10-16) in PLZ+Telefon; Dossier-Adresse Allerfeldstr. 11 = GS-Adresse. Offen: Betreiber-Seite nennt INTERN beide Hausnummern (Allerfeldstr. 11 UND 13) — 11 vs 13 weiter ungeklärt, street bleibt 11 (Dossier+GS). Zweit-Eintrag Tordai Kaminholzhandel (gleiche Tel., GS, ohne Adresse). Status bleibt pruefung (kein HRB/Impressum); website weiter kein Domain-Root (gamma.site-Onepager, live verifiziert).; Quelle(n): https://www.gelbeseiten.de/gsbiz/b47b4d84-4d18-4713-b282-8e05a1ffe90e + https://bennigsen-schrotthandel-kovsofe.gamma.site (Abruf 02.10.2026)]
 
 ### Recherche 01.10.2026
 

@@ -5,8 +5,8 @@ trader_type: containerdienst
 state: BW
 city: Mosbach-Neckarelz 74821
 street: Bahnhofstr. 8
-postcode: ''
-phone: ''
+postcode: 74821
+phone: 06261 62293
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: postcode + phone gefüllt (begründeter Ausnahmefall, offengelegt): 2 konkordante Schrottplatz-Portale — schrottplatz-info (Bahnhofstr. 8, 74821 Mosbach Neckarelz, Tel 06261 6 22 93) + schrottplatz.org (Bahnhofstr. 8, 74821 Mosbach Neckarelz, Tel 06261 6 22 93). KEIN Betreiber-Auftritt, kein Register-/Kommunalbeleg gefunden; Straße/Adresse aus Seed bestätigt. Hinweis: PLZ stand bereits im city-Feld; Adressdaten: Koordinaten ggf. neu zu geocodieren. Keine Website, keine Zeiten, kein Leistungsangebot erfasst (beide Portale: Angebot/Öffnungszeiten leer); Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Mosbach/Container-Wagner-Uwe + https://www.schrottplatz.org/mosbach/schrott-container-wagner-uwe-aYEPzK.html (Abruf 02.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -5,8 +5,8 @@ trader_type: metallhaendler
 state: TH
 city: Jena
 street: ''
-postcode: ''
-phone: ''
+postcode: 07749
+phone: 03641 376376
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: postcode + phone gefüllt, Register geklärt (starke Registerquelle): Metallrecycling Veit GmbH (MRV), Sitz Stadtroda, AG Jena HRB 210143 (Northdata) — Jena-Standort ist Zweigstelle. Tel 03641 376376 + PLZ 07749 Jena konkordant (schrottplatz-info, branchenbuchdeutschland, oeffnungszeitenbuch). STRASSEN-KONFLIKT ungelöst: Fritz-Winkler-Str. 2a (schrottplatz-info, oeffnungszeitenbuch) vs Löbstedter Str. 45 (branchenbuchdeutschland, unternehmensauskunft), je 2 Quellen → KEIN street-Fill, Klärfall Folgewelle (Betreiber/Kommune/HR-Zweigstelleneintrag). Hinweis: auch der PLZ-Fill präzisiert die Adresse — Koordinaten bei street-Klärung neu zu geocodieren. KEINE Betreiber-Website gefunden; Status bleibt pruefung; Quelle(n): northdata.de + schrottplatz-info-Detailseite + DDG-Trefferliste (Abruf 02.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall, KEIN Fill — 11880-Suche schrotthandel/frankfurt-am-main (50 Eintraege) enthaelt KEINEN Rhein-Main-Abholer; GS Frankfurt ebenfalls ohne Treffer. Einziger Beleg bleibt Seed-Tel. 01633384899 (Mobil, unverifiziert). Keine Betreiber-Website, kein Impressum, kein Register. Folgewelle: Rufnummern-Recherche (Rückwärtssuche), Kleinanzeigen-Portale.; Quelle(n): 11880-/GS-Negativbefund (Abruf 02.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mobile Abholung (Portal, Tel. 01633384899)

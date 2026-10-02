@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — kein Treffer: kein Schrott-/Metallbetrieb Krusche in Detmold/Lage auffindbar (Bing-Index nur Namensvetter: Outdoor-Shop Geiselhöring, Zahnarzt, Metallbearbeitung anderswo); kein Frontmatter-Fill; Quelle(n): keine]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall bestaetigt — erneut kein Schrott-/Metall-Krusche in Detmold/Lage (nur Kruel-Fleischerei Heiligenkirchen, Plaeger-Schrotthandel Detmold als Fremdfirmen, KRUSCHE-Catering Geiselhoehring). website_status unbekannt; Quelle(n): Websuche (Negativbefund)]

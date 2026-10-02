@@ -4,14 +4,14 @@ name: Michael Hammerschmidt
 trader_type: sonstige
 state: BY
 city: Ichenhausen
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Karl-Königsdorfer-Str. 25 A
+postcode: 89335
+phone: 08223 408217
+email: info@hammerschmidt-recycling.de
 opening_hours: ''
 website: ''
 website_status: ''
-status: unbekannt
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Slug-Ambiguität vom 01.10. aufgelöst + Fill (begründeter Ausnahmefall, offengelegt): Michael Hammerschmidt Recycling (Familienbetrieb, vor 15 Jahren von Michael übernommen, Containerservice/Metallverwertung/Demontage) = Karl-Königsdorfer-Str. 25 A, 89335 Ichenhausen, Tel 08223 408217, info@hammerschmidt-recycling.de — konkordant in Das Örtliche, meinestadt.de, vorstadt-post.de, cylex.de, schrottfinder.de. Gleichnamige andere Hammerschmidts (Mike/Karl-L./Vinzenz/JH/Emil) sind separate Einträge → kein Slug-Split nötig, Zuordnung Michael = Königsdorfer-Str. 25 A. Domain hammerschmidt-recycling.de per curl Redirect-Loop http→https + https-Timeout (Abruf 02.10.2026) → NICHT als website gesetzt. Status unbekannt → aktiv. Hinweis Adress-Fill aus leerem Feld: Koordinaten neu zu geocodieren; Quelle(n): meinestadt.de/company/8630120 + vorstadt-post.de-Branchenbuch + dasoertliche.de-Themenseite + cylex (Abruf 02.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
