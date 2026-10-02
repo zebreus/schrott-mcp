@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: HRB 2712 AG Schwerin als GELÖSCHT bestätigt — kein Fill, alle Felder bleiben leer, status pruefung unverändert (Klärfall: moeglicher Nachfolge-/Phantom-Eintrag "Zum Dock 6" nur Timeline); Quelle(n): Northdata HRB 2712 (AG Schwerin, gelöscht).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Eisen/NE, hafennah

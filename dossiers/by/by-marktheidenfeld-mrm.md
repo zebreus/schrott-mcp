@@ -4,13 +4,13 @@ name: MRM
 trader_type: sonstige
 state: BY
 city: Marktheidenfeld
-street: ''
+street: Bahnhofstr. 19
 postcode: '97828'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://mrm-recycling.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: prose
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Owner-Ausnahme — Adresse/Website gefüllt (Betreiber-Impressum Name+HRB+Ort, HR-kongruent): Bahnhofstr. 19, 97828 Marktheidenfeld, https://mrm-recycling.de (live, HTTP 200); Northdata: HRB 14955 AG Würzburg, adresskongruent; Telefon via Betreiber/Verzeichnis nicht belastbar → phone leer, status pruefung unverändert (Ankauf unklar). Hinweis: Adresse neu gefüllt — Koordinaten neu geocodieren; Quelle(n): Betreiber-Impressum (mrm-recycling.de) + Northdata HRB 14955 (AG Würzburg).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — kein Betreiber-Impressum, kein Registerbeleg gefunden (nur Gelbe-Seiten-Lead); bestehendes Telefon 05721 8993672 unverändert (nicht überschrieben), alle leeren Felder bleiben leer.; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss bestaetigt — keine neuen Treffer (kein Operator, kein Register, kein Zweitbeleg zum GS-Eintrag); keine Aenderung; Status bleibt pruefung; Quelle(n): keine]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Moers
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss — Kuerzel "S&M" in Moers nicht identifizierbar: keine Treffer in Verzeichnissen (Gelbe Seiten, Das Oertliche, 11880, cylex), keine Betreiber-Website, kein Registerbeleg; Suchanfragen "S&M Moers Schrott", "S&M Schrottabholung Moers" liefern nur Aggregator-Spam (schrott-ankauf-nrw, schrottheld u.ae.) ohne Firmenbezug; alle Felder bleiben leer; Status bleibt pruefung; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads ohne Treffer)]

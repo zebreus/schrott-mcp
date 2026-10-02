@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Audit-2 2429 01.10.2026: Audit-2 Feedback 2429 bestaetigt: DB-Website https://weber-recycling.de gehoert Weber Recycling, Inh. Ricardo Weber, Im Kleinen Feld 62, 38304 Wolfenbuettel (Tel. +49 152 07418493, kontakt@weber-recycling.de; Familienbetrieb, Schrott/Altmetall Wolfenbuettel, Container/Brennschneidarbeiten); Quelle(n): https://weber-recycling.de Home + Impressum, 01.10.2026]
 - [Audit-2 2429 01.10.2026: Klaerfall: keine Frontmatter-Aenderung - kein Beleg fuer Salzgitter-Gebhardshagen (Dossier-Website bleibt bewusst leer statt falscher Domain)]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klaerfall bestaetigt — einziger Neu-Lead "Schrotthandel Weber, Salzgitter" (lokaleschrottplatz.de, Tel. 01520 7418493) ist Schrott-Radar-Portal ohne Adresse und ohne Zweitbeleg; schrott-weber.de gehoert nach Langenselbold (Hessen, firmenfremd), Das Oertliche/Telefonbuch liefern keine Weber-Schrott-Treffer in Gebhardshagen; weiterhin kein Beleg fuer einen Schrotthandel Weber in Salzgitter-Gebhardshagen; keine Frontmatter-Aenderung; Status bleibt pruefung; Quelle(n): lokaleschrottplatz.de/schrotthandel-weber (Lead), schrott-weber.de (Langenselbold, Gegenbeleg)]

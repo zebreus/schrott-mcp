@@ -4,9 +4,9 @@ name: Jansen
 trader_type: sonstige
 state: BY
 city: Roding
-street: ''
+street: Flurweg 8
 postcode: '93426'
-phone: ''
+phone: 0171 1884077
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: prose
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse/Telefon als begründeter Ausnahmefall gefüllt (kongruente Aggregatoren inkl. Telefonbuch): Flurweg 8, 93426 Roding, Tel. 0171 1884077; kein Betreiber/HR-Beleg (Kleinstbetrieb) — Restunsicherheit bleibt, status pruefung unverändert. Hinweis: Adresse neu gefüllt — Koordinaten neu geocodieren; Quelle(n): kongruente Verzeichnis-/Telefonbuch-Eintraege (Flurweg 8, 93426, 0171 1884077).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

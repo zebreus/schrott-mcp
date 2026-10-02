@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Witten
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss — Kuerzel "VB" in Witten nicht identifizierbar: keine Treffer in Verzeichnissen, keine Betreiber-Website, kein Registerbeleg; Suchanfragen liefern nur generische Schrottabholung-Spam-Seiten (schrott-held, altmetallabholung u.ae.) ohne Firmenbezug; alle Felder bleiben leer; Status bleibt pruefung; Quelle(n): keine Belegquelle (nur Verzeichnis-Leads ohne Treffer)]

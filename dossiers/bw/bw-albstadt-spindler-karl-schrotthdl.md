@@ -4,9 +4,9 @@ name: Spindler Karl SchrottHdl.
 trader_type: schrotthaendler
 state: BW
 city: Albstadt
-street: ''
-postcode: ''
-phone: ''
+street: Chemnitzer Str. 91
+postcode: '72458'
+phone: 07431 74569
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse/Telefon als begründeter Ausnahmefall gefüllt (3+ kongruente Aggregatoren inkl. Telefonbuch): Chemnitzer Str. 91, 72458 Albstadt-Ebingen, Tel. 07431 74569; keine Betreiber-Website, kein HR-Eintrag (Einzelunternehmen) — Restunsicherheit bleibt; status aktiv unverändert. Hinweis: Adresse neu gefüllt — Koordinaten neu geocodieren; Quelle(n): Gelbe Seiten + schrottplatz-info.de + schrottplatz.org (kongruent).]
 
 ### Recherche 01.10.2026
 

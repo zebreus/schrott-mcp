@@ -4,9 +4,9 @@ name: Rik Parmentier Schrotthandel
 trader_type: schrotthaendler
 state: ST
 city: Kabelsketal OT Zwintschöna
-street: ''
-postcode: ''
-phone: 0345/5829437
+street: Kastanienbogen 16 A
+postcode: '06184'
+phone: 0345 5829437
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adresse als begründeter Ausnahmefall gefüllt (Kleinstbetrieb, kein Betreiber/HR-Beleg; Gelbe Seiten negativ): Kastanienbogen 16 A, 06184 Kabelsketal (OT Zwintschöna), Tel. 0345 5829437 (Format normiert, nummer identisch); 11880 Telekom-Auskunftsdaten, Stand 03-04/2025; KEIN 2. unabhängiger Beleg gefunden (Bing/Yandex/DDG/Cylex/GoLocal/Dasa-Telefonbuch negativ oder blockiert) — Restunsicherheit bleibt, status pruefung unverändert. Hinweis: Adresse neu gefüllt — Koordinaten neu geocodieren; Quelle(n): 11880 (Einzelbeleg, offen dokumentiert).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

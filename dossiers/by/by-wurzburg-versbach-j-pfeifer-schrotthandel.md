@@ -4,9 +4,9 @@ name: J. Pfeifer Schrotthandel
 trader_type: schrotthaendler
 state: BY
 city: Würzburg-Versbach
-street: ''
-postcode: ''
-phone: ''
+street: Lengfelder Str. 38
+postcode: '97078'
+phone: 0931 286304
 email: ''
 opening_hours: ''
 website: https://www.j-pfeifer-schrotthandel.de/
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: 2-Beleg-Fill — Adresse/Telefon gefüllt (Betreiber-Website + Das Örtliche/Telefonbuch kongruent): Lengfelder Str. 38, 97078 Würzburg-Versbach, Tel. 0931 286304; Impressum mit Platzhaltern (USt-ID/HRA), Einzelunternehmen ohne HRB (Owner-Ausnahme greift nicht); E-Mail info@j-pfeifer-schrotthandel.de + Mobil 0175 2747610 nur Timeline (nur Betreiber-Einzelbeleg). Hinweis: Adresse neu gefüllt — Koordinaten neu geocodieren; Quelle(n): https://www.j-pfeifer-schrotthandel.de/ + Das Örtliche/Telefonbuch (kongruent).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

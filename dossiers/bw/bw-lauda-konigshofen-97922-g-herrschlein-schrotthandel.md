@@ -5,7 +5,7 @@ trader_type: schrotthaendler
 state: BW
 city: Lauda-Königshofen 97922
 street: Hauptstr. 30
-postcode: ''
+postcode: '97922'
 phone: 09343/7683
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: PLZ 97922 gefüllt (lokaleschrottplatz.de bestätigt Hauptstr. 30, 97922 Lauda-Koenigshofen, Tel. +49 9343 7683 — kongruent zum Dossier-Telefon 09343/7683); Name unverändert (Variante "Gretel Herrschlein" nur Timeline, kein Rename); status pruefung unverändert. Hinweis: PLZ neu gefüllt — Koordinaten neu geocodieren; Quelle(n): lokaleschrottplatz.de + Seed-Provenienz (kongruent).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

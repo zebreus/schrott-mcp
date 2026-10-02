@@ -4,10 +4,10 @@ name: Götz (Schrott & Metalle)
 trader_type: schrotthaendler
 state: BW
 city: Neu-Ulm / Weißenhorn
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Zeppelinstr. 32
+postcode: '89231'
+phone: 0731 97887-0
+email: goetz@goetz-neu-ulm.de
 opening_hours: ''
 website: https://www.goetz-neu-ulm.de/
 website_status: aktiv
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Owner-Ausnahme — Hauptsitz-Adresse/Kontakt gefüllt (Betreiber-Quelle, HR-kongruent): Zeppelinstr. 32, 89231 Neu-Ulm, Tel. 0731 97887-0, goetz@goetz-neu-ulm.de; Northdata: HRB 7047 AG Memmingen, adresskongruent; website live (HTTP 200). Standort Weissenhorn (Eschachweg 2-4, 89264) nur Timeline, city/slug unberuehrt. Hinweis: Adresse neu gefüllt — Koordinaten neu geocodieren; Quelle(n): https://www.goetz-neu-ulm.de/kontakt/ + Northdata HRB 7047 (AG Memmingen).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

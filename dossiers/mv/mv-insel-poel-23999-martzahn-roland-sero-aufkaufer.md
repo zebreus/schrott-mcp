@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Eisen/NE/Altstoffe
 - Adresse: Insel Poel 23999
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Reconfirm Klärfall — weiterhin KEINE unabhängige Verifizierung: 11880-Suche negativ, Gelbe Seiten nur Berlin-Marzahn-Treffer (kein Insel-Poel-Bezug); alle Felder bleiben leer, status pruefung unverändert (Folgewelle: Gewerberegister Insel Poel); Quelle(n): 11880 + Gelbe Seiten (beide negativ).]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche zu „Martzahn Insel Poel Sero“ ergebnislos, keine Betreiber-Website, kein Registerbeleg; alle Felder bleiben leer; Klärfall für Folgewelle (Gewerberegister Insel Poel); Quelle(n): keine neuen.]

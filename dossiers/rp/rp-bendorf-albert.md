@@ -4,9 +4,9 @@ name: Albert
 trader_type: sonstige
 state: RP
 city: Bendorf
-street: Albert Bendorf Bahnhofstr. 109
-postcode: ''
-phone: ''
+street: Bahnhofstr. 109
+postcode: '56170'
+phone: 0176 41806011
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Bahnhofstr. 109
 - urspr. Website-Angabe: keine
 - Adresse: Bendorf
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: malformtes street-Feld („Albert Bendorf Bahnhofstr. 109“) auf Bahnhofstr. 109 bereinigt, PLZ 56170 und Tel. 0176 41806011 („Albert Schrotthandel“) gefuellt — begründete Aggregator-Einzelbeleg-Ausnahme: nur 11880 auffindbar, Restunsicherheit offen dokumentiert, Status bleibt pruefung; Klärfall Folgewelle (Betreiber- oder Registerbeleg); Quelle(n): 11880-Verzeichnisprofil „Albert Schrotthandel, Bahnhofstr. 109, 56170 Bendorf“ (Abruf 02.10.2026)]

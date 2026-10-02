@@ -4,10 +4,10 @@ name: Karl Karletshofer GmbH
 trader_type: sonstige
 state: BW
 city: Neu-Ulm
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Lessingstr. 19
+postcode: '89231'
+phone: 0731 97877-0
+email: info@karletshofer.de
 opening_hours: ''
 website: https://karletshofer.de/
 website_status: aktiv
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Owner-Ausnahme — Adresse/Kontakt gefüllt (Betreiber-Impressum Name+HRB+Ort, HR-kongruent): Lessingstr. 19, 89231 Neu-Ulm, Tel. 0731 97877-0, info@karletshofer.de; Northdata: HRB 6856 AG Memmingen, adresskongruent; website live (HTTP 200). state/city/slug unberuehrt (Neu-Ulm-Lage wie 01.10. vermerkt Klärfall). Hinweis: Adresse neu gefüllt — Koordinaten neu geocodieren; Quelle(n): https://karletshofer.de/impressum/ + Northdata HRB 6856 (AG Memmingen).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

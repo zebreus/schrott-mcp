@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott? (nur Verzeichnis)
 - Adresse: Treffurt
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss — keine belastbaren Belege zu Bernd Rathgeber / Schrotthandel Treffurt: kein Betreiber-Webauftritt, kein Register- oder Kommunenbeleg auffindbar; keine Frontmatter-Änderung, Status bleibt pruefung; Klärfall Folgewelle; Quelle(n): keine]

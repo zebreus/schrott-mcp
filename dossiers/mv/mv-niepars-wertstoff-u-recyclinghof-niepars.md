@@ -4,8 +4,8 @@ name: Wertstoff- u. Recyclinghof Niepars
 trader_type: wertstoffhaendler
 state: MV
 city: Niepars
-street: ''
-postcode: ''
+street: Zur alten Mühle
+postcode: '18442'
 phone: 0172 3958174
 email: ''
 opening_hours: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Straße/PLZ gefüllt (Zur alten Mühle, 18442 Niepars; Tel. 0172 3958174 bereits im Dossier, kongruent bestätigt); status pruefung unverändert (Ankauf nur Portal-belegt, kein Betreiber/HR-Beleg). Hinweis: Adresse neu gefüllt — Koordinaten neu geocodieren; Quelle(n): kongruente Verzeichnis-Belege (Straße/PLZ/Tel).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

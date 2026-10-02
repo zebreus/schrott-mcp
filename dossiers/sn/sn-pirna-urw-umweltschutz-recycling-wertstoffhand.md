@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: HRB 26199 AG Dresden GELÖSCHT, Sitzverlegung nach Senftenberg (AG Cottbus HRB 8097CB) — kein Fill (Pirna-Standort nicht mehr registerbelegt), alle Felder bleiben leer, status pruefung unverändert (Klärfall: Nachfolge-Standort Senftenberg nur Timeline); Quelle(n): Northdata HRB 26199 (AG Dresden, gelöscht) + Register-Hinweis Sitzverlegung Senftenberg.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling/Wertstoffhandel

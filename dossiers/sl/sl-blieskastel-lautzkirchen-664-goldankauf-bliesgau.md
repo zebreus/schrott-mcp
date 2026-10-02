@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche zu „Goldankauf Bliesgau / Pirminiusstr. 53“ ergebnislos, keine Betreiber-Website, kein Registerbeleg; bestehende Frontmatter-Straße (Seed-Herkunft) NICHT überschrieben und nicht ergänzt (PLZ/Tel. bleiben leer, 2-Beleg-Standard offen); Klärfall für Folgewelle (Gewerberegister Blieskastel); Quelle(n): keine neuen.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss — keine belastbaren Belege: keine Betreiber-Website, kein Register- oder Kommunenbeleg zu Goldankauf Bliesgau / Pirminiusstr. 53 auffindbar; keine Frontmatter-Änderung, Status bleibt pruefung; Klärfall Folgewelle (Gewerberegister Blieskastel); Quelle(n): keine]

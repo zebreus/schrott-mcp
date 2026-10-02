@@ -4,8 +4,8 @@ name: Autoverwertung Hamburg Gholami
 trader_type: autoverwertung
 state: HH
 city: Wandsbek
-street: ''
-postcode: ''
+street: Brauhausstieg 47
+postcode: '22041'
 phone: ''
 email: ''
 opening_hours: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (Kfz-Ankauf)
 - Adresse: Wandsbek, Brauhausstieg 47, 22041
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Brauhausstieg 47, 22041 Hamburg aus Einzel-Aggregator übernommen (begründete Ausnahme mit Caveat: nur schrottplatz-info.de auffindbar, kein Betreiber-, Register- oder Kommunenbeleg); Status bleibt pruefung; Klärfall Folgewelle; Quelle(n): schrottplatz-info.de-Verzeichnisprofil (Abruf 02.10.2026)]

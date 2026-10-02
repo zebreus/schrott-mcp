@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - An- und Verkauf (Name deutet Ankauf an) [Website-Recherche verzeichnis: services: Autoverwertung, An- und Verkauf; notes: 11880-Verzeichnis (Manfred Albus Autoverwertung).]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Teil-Fund — Hausnummern-Konflikt St.-Florian-Str. 1 (cylex) vs. 3 (Telefonbuch/golocal/dasoertliche/Seed); Seed-Angabe 3 behalten, keine Frontmatter-Änderung, Status bleibt pruefung; Klärfall Folgewelle (Betreiber- oder Registerbeleg); Quelle(n): cylex vs. Telefonbuch/golocal/dasoertliche-Verzeichnisprofile (Abruf 02.10.2026)]
