@@ -5,7 +5,7 @@ trader_type: containerdienst
 state: BB
 city: Wandlitz OT Basdorf
 street: Eichenstr. 29
-postcode: ''
+postcode: '16348'
 phone: 033397 70224
 email: ''
 opening_hours: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel/Container (schrottplatz-info-Beleg)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: PLZ per 4-Familien-Konsens gefüllt — schrottplatz-info.de + branchen-info.net + adressennet.de + 11880 ÜBEREINSTIMMEND: „Eichenstr. 29, 16348 Wandlitz(-Basdorf), 033397 70224“. Frontmatter-street/phone (Seed) damit kreuzbestätigt. Kein Betreiber, kein Register → status bleibt aktiv (Vorwellen-Status, reine Aggregator-Lage offen dokumentiert). HINWEIS: PLZ neu gefüllt — Koordinaten neu geocodieren (automatisch). Quelle(n): schrottplatz-info.de + wandlitz.branchen-info.net + adressennet.de + 11880.com (PLZ-/Adress-Konsens).]

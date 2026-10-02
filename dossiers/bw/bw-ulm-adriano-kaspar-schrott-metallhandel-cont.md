@@ -4,12 +4,12 @@ name: Adriano Kaspar Schrott-Metallhandel & Containerdienst
 trader_type: containerdienst
 state: BW
 city: Ulm
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Bregenzerstr. 116
+postcode: '89079'
+phone: 0176 23628108
+email: schrotthandelkaspar@gmail.com
 opening_hours: ''
-website: https://www.schrotthandel-kaspar.de/
+website: https://www.schrotthandel-kaspar.de
 website_status: aktiv
 status: aktiv
 description: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Metall, >40 J.
 - Größe: klein–mittel
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Zweitbeleg gefunden — 11880 (JSON-LD + Listung Schrott/Ulm): „Adriano Kaspar Schrott-Metallhandel&Containerdienst, Bregenzer Str. 116, 89079 Ulm, (0176) 23628108, schrotthandelkaspar@gmail.com“ bestätigt Betreiber-Website (Wix-Einseiter, inkl. Impressums-Block: Adriano Kaspar, Bregenzerstr. 116, 89079 Ulm-Wiblingen, +49 176 23628108, USt-ID DE334554595, GF Adriano Kaspar; Leistungen Schrott-/Metallhandel + Containerdienst Raum Ulm 50 km, >40 J.) — Einzelunternehmen ohne HRB → Owner-Ausnahme greift nicht, aber 2 Quellen → Straße/PLZ/Telefon/E-Mail/Website gefüllt; weiter aktiv; Quelle(n): https://www.schrotthandel-kaspar.de/, https://www.11880.com/branchenbuch/ulm-donau/060440092B113478443/adriano-kaspar-schrott-metallhandel-containerdienst.html]
 
 ### Recherche 01.10.2026
 

@@ -6,7 +6,7 @@ state: HE
 city: Ober-Ramstadt 64372
 street: ''
 postcode: ''
-phone: ''
+phone: 0179 5979912
 email: ''
 opening_hours: ''
 website: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Container — 5,0★
 - urspr. Website-Angabe: keine
 - Adresse: Ober-Ramstadt 64372, Am Vogelherd 5a
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Telefon per Multi-Verzeichnis-Konsens gefüllt, ADRESSKONFLIKT dokumentiert — Gelbe Seiten („Siegmayer Markus Schrott, Am Vogelherd 5a, 64372 Ober-Ramstadt, 0179 5979912“, 5,0★/2 Bewertungen) + meinestadt.de („Markus Siegmayer Altmetallentsorgung“, gleiche Adresse) vs. schrottplatz-info.de + schrottplatz.org + misterwhat.de („In den Bornwiesen 1c, 64291 Darmstadt“, GLEICHES Telefon 0179 5979912). Deutung: Umzug Darmstadt→Ober-Ramstadt oder Zweitstandort — unklar. Daher phone gefüllt (alle Quellen identisch), street/postcode NICHT gefüllt (Konflikt), kein Geocode-Anstoß. status weiter pruefung. Folgewelle: Vor-Ort/Kommunalregister klären, welche Adresse aktuell ist. Quelle(n): gelbeseiten.de + branchenbuch.meinestadt.de vs schrottplatz-info.de + schrottplatz.org + misterwhat.de (Konfliktquellen).]

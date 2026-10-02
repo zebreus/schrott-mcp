@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Abgrenzung Winterstein (distincter Name, kein Bezug belegt)
 - Adresse: Alsfeld 36304 [Website-Recherche verzeichnis: services: Schrotthandel, Entsorgung; notes: 11880-Verzeichnis (Entsorgung & Schrotthandel Winter); einziger Schrott-Eintrag zum Seed-Namen Winter in Alsfeld.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: KEIN Zweitbeleg — 11880 („Entsorgung & Schrotthandel Winter“, Bürgermeister-Haas-Str. 22, 36304 Alsfeld) bestätigt Seed-Adresse, bleibt Single-Source. VERWECHSLUNGSWARNUNG geprüft: „Schrotthandel Winter“ Worms (schrotthandelwinter.de, 20+ Jahre, 06241/3857754) und „Winter Metall- und Schrotthandel“ Dingolfing (winter-metall.de, Römerstr. 28) sind ANDERE Unternehmen — NICHT übernehmen. Keine Betreiber-Website, kein Register. Frontmatter unverändert, status weiter pruefung. Folgewelle: Gewerberegister Alsfeld / Vor-Ort Bürgermeister-Haas-Str. Quelle(n): 11880.com (Single-Source), schrotthandelwinter.de + winter-metall.de (Negativbelege).]

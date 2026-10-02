@@ -10,7 +10,7 @@ phone: 06841/174980
 email: ''
 opening_hours: ''
 website: ''
-website_status: 'unbekannt'
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -39,6 +39,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine neue belegfähige Quelle zu „Neff Axel Schrotthandel“ (Bing nur NEFF-Hausgeräte-Homonyme, DDG ratenlimitiert); Stand 30.09.2026 unverändert (Verzeichnis-Leads, keine Belege), keine neuen Fills, weiter pruefung; Quelle(n): keine neue belegfähige Quelle]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: GS-Suche „Neff/Homburg Saar“ live re-verifiziert (02.10.2026): zwei Einträge gleiche Adresse — „Neff Axel, Schrott, Kaiserslauterer Str. 306, 66424 Homburg (Bruchhof), 0171 9180960“ + „Neff Axel Schrotthandel, Schrott, gleiche Adresse, 06841 174980“ — konsistent mit Örtliche-Befund 30.09.2026 → Frontmatter (Straße/PLZ/Festnetz) bestätigt, keine Änderung; Mobil 0171 9180960 jetzt GS+Örtliche-zweitbelegt, bleibt als reine Timeline-Info (Frontmatter-Telefon = Festnetz); weiter pruefung (kein Betreiber-Beleg, Einzelunternehmen ohne HRB); Quelle(n): https://www.gelbeseiten.de/suche/neff/homburg%20saar (Details c9c8c310-… + 5099df74-…), Örtliche-Befund 30.09.2026]
 
 ### Recherche 01.10.2026 (Nachgang)
 

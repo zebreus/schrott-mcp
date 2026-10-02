@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott — Schwester Containerdienst gleiche Adresse
 - urspr. Website-Angabe: keine
 - Adresse: Schaafheim 64850 HE, Karlstr. 1
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Check ohne neuen Fund — Forschungsstand 01.10.2026 unverändert tragfähig: containerdienst-reining.com weiter dead, Nachfolger containerdienst-schaafheim.de (Salih Gencsoy, „seit Mai 2020 unter neuem Namen/neuem Inhaber“, 38-jährige Vorgeschichte) bestätigt das Ende der Klaus-Reining-Entität an Karlstr. 1. Tel.-Lead 06073 9009 bleibt ohne Zweitbeleg. Kein Fill, status weiter pruefung (Obsolet-Verdacht, Löschkandidat für Owner-Gate). Folgewelle: Gewerberegister Schaafheim (Abmeldung prüfen). Quelle(n): keine neuen, Stand 01.10.2026 re-verifiziert.]

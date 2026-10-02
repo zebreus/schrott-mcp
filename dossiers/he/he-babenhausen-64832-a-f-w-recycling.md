@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Recycling/Container — Ankauf unbewiesen (PRÜFFALL)
 - urspr. Website-Angabe: keine
 - Adresse: Babenhausen 64832, Ausserhalb 21 [Website-Recherche verzeichnis: services: Recycling; notes: Nur Gelbe Seiten (A.F.W. Recycling); kein 11880-Eintrag.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adress-/Telefon-Konsistenz über Verzeichnis-Familie bestätigt, aber KEIN unabhängiger Zweitbeleg — Gelbe Seiten + Das Örtliche + Das Telefonbuch (eine Verlagsfamilie) übereinstimmend: „Außerhalb Langstadt 21, 64832 Babenhausen-Langstadt, 0162 4857522“, Branche Containerdienste/Recycling. ABWEICHUNG dokumentiert: firmen-vergleich.de nennt „Außerhalb 24“ (Hausnummer-Konflikt 21 vs 24). VERWECHSLUNGSWARNUNG: „A. F. Recycling, Bachstr. 9, 64832 Babenhausen, 06073 689169“ (oeffnungszeitenbuch.de/tupalo.de) — anderer Name/Adresse/Telefon, unklar ob Zweitstandort oder Fremdfirma, NICHT übernehmen. Kein Betreiber, kein Register. Frontmatter (Ausserhalb 21 / 01624857522) unverändert, status weiter pruefung. Folgewelle: Gewerberegister Babenhausen (Langstadt), Klärung Hausnummer + Bachstr.-9-Entität. Quelle(n): gelbeseiten.de + dasoertliche.de + dastelefonbuch.de (eine Familie, kein Doppelbeleg), firmen-vergleich.de + oeffnungszeitenbuch.de (Abweichungs-/Verwechslungs-Leads).]

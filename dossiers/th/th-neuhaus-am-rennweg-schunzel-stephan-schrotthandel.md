@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrotthandel (Thüringer Wald)
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Weiter Klärfall — GS-Branchensuche „Schrotthandel/Neuhaus am Rennweg“ findet nur generischen Eintrag „Schrott und Metalle, Waldweg 2, 98724 Neuhaus am Rennweg, 0171 3422024“ (deckt sich mit schrottplatz-info-Eintrag Waldweg 2) — NICHT auf „Schünzel Stephan“ attribuierbar (Name fehlt, Telefon ≠ Seed 0172 4777304); „Schünzel/Neuhaus“ auf GS/11880 negativ; Northdata/HR-Befund 01.10. unverändert negativ; kein Fill (Seed-Telefon bleibt), weiter pruefung; Quelle(n): https://www.gelbeseiten.de/gsbiz/7203bf93-dcaf-4eac-b40b-1432624fe7b7 (Lead, nicht attribuierbar), https://www.schrottplatz-info.de/schrottplatz/Neuhaus-am-Rennweg/]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein HR-Treffer zu Schuenzel Schrotthandel Neuhaus am Rennweg auf Northdata (nur Personen Schuenzel ohne Schrottbezug und ohne Neuhaus); Quelle(n): Northdata-Pfadsuche 01.10.2026]

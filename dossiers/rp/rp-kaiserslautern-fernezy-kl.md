@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Daniel-Häberle-Str.
 - urspr. Website-Angabe: keine
 - Adresse: Kaiserslautern
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Erster Adress-Lead, aber Single-Source-Familie — 11880 („Schrotthändler Fernezy, Daniel-Häberle-Str. 1, 67657 Kaiserslautern-Innenstadt, (01590) 6128392“, Rubriken Entsorgung/Haushaltsauflösung/Entrümpelung) + Cybo-Spiegel (identische Daten, 5,0/5) = EINE Belegfamilie. KEIN Zweitbeleg, kein Betreiber, kein Register. street/postcode/phone daher NICHT gefüllt (Lead bleibt in dieser Note). status weiter pruefung. Folgewelle: Gewerberegister Kaiserslautern / Vor-Ort Daniel-Häberle-Str. 1. Quelle(n): 11880.com + cybo.com (eine Familie).]

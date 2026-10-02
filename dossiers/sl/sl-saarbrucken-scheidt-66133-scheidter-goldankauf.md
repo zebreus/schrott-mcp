@@ -5,7 +5,7 @@ trader_type: sonstige
 state: SL
 city: Saarbrücken-Scheidt 66133
 street: Kaiserstr. 84
-postcode: ''
+postcode: '66133'
 phone: 0681 83900147
 email: ''
 opening_hours: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: GS live: „Scheidter Goldankauf, An- und Verkauf, Kaiserstr. 84, 66133 Saarbrücken (Scheidt), Tel. 0681 83900147“ — bestätigt Seed (Straße/Telefon) + Ortsteil/PLZ 66133 → PLZ als GS-Einzelbeleg (Ausnahmefall, offen dokumentiert) gefüllt; kein Betreiber-Auftritt, keine 2. Quelle (11880-Suchen Saarbrücken/Scheidt negativ, nur Koblenzer Fremdtreffer); weiter pruefung; Quelle(n): https://www.gelbeseiten.de/gsbiz/694e6ed4-aafd-43f4-bd10-a1f433dc7e4c]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

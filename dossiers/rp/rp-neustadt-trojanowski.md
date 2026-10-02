@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Amalienstr. 3
 - urspr. Website-Angabe: keine
 - Adresse: Neustadt
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Erster Adress-Lead, aber Single-Source — Cylex („Scott trojanowski, Amalienstraße 3, 67434 Neustadt an der Weinstraße, 0172 8497817“, gelistet unter Recycling-Abgabestelle). KEIN Zweitbeleg (Gelbe Seiten/Das Örtliche/Schrottplatz-Portale führen Trojanowski nicht; kein Betreiber, kein Register). NAMENSVARIANTE dokumentiert: dort „Scott Trojanowski“, Seed nur „Trojanowski“; Seed-street-Feld („Trojanowski Neustadt Amalienstr. 3“) ist Adress-Lead, kein Firmenwortlaut. street/postcode/phone daher NICHT gefüllt. status weiter pruefung. Folgewelle: Gewerberegister Neustadt. Quelle(n): web2.cylex.de (Single-Source).]

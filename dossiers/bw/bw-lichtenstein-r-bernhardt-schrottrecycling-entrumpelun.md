@@ -4,12 +4,12 @@ name: R. Bernhardt Schrottrecycling & Entrümpelung
 trader_type: schrotthaendler
 state: BW
 city: Lichtenstein
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Riedstraße 6/1
+postcode: '72805'
+phone: 0174 2028819
+email: info@schrott-bernhardt.de
 opening_hours: ''
-website: https://www.schrott-bernhardt.de/
+website: https://www.schrott-bernhardt.de
 website_status: aktiv
 status: aktiv
 description: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - NE-Schrott, Abholung
 - Größe: klein
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Zweitbeleg gefunden — GS: „Bernhardt Ricardo, Schrott, Riedstr. 6/1, 72805 Lichtenstein (Unterhausen), Tel. 07129 2405“ bestätigt Betreiber-Impressum (Schrottrecycling R. Bernhardt, Ricardo Bernhardt, Riedstraße 6/1, 72805 Lichtenstein, 0174 2028819, info@schrott-bernhardt.de; Impressum + Homepage + Unterseiten Schrottabholung/Entrümpelung/Über uns/Kontakt einzeln abgerufen: Abholung + NE-Metall-Ankauf + Container, privat+gewerblich Raum Reutlingen/Tübingen/Filderstadt, Öffnungszeiten-Hinweis Mo-Fr 9-17 aus Homepage-Footer — Öffnungszeiten nur Timeline, kein Fill) → Straße/PLZ/Telefon(mobil, Impressum)/E-Mail/Website gefüllt; GS-Festnetz 07129 2405 nur Timeline (Abweichung zum Impressum dokumentiert); weiter aktiv; Quelle(n): https://www.schrott-bernhardt.de/impressum, https://www.schrott-bernhardt.de/, https://www.gelbeseiten.de/gsbiz/a324f722-aa21-4f05-893d-3684dc97cde8]
 
 ### Recherche 01.10.2026
 
