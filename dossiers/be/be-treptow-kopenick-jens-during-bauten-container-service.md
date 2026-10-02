@@ -4,13 +4,13 @@ name: Jens Düring Bauten- & Container Service
 trader_type: containerdienst
 state: BE
 city: Treptow-Köpenick
-street: Treptow-Köpenick, Köpenicker Landstr. 162
+street: Köpenicker Landstr. 162
 postcode: '12437'
-phone: ''
-email: ''
+phone: 030 5336412
+email: jensduer@aol.com
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://duero.de.tl
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: street normiert (Koepenicker Landstr. 162), Tel. 030 5336412, Mail jensduer@aol.com, website duero.de.tl (aktiv) aus Betreiber-Primaerquelle (Impressum duero.de.tl/Impressum.htm, vollgecrawlt) gefuellt — starke Einzelquelle (Betreiber-Impressum), Restunsicherheit: Einzelunternehmen ohne HRB, kein unabhaengiger Zweitbeleg, daher als Einzelbeleg offengelegt. Leistungen: kein Schrottankauf (nur Container/Sperrmuell/Abbruch) → status pruefung bleibt, kein Ankauf-Fill. Strassen-Normierung → Koordinaten neu zu geocodieren. Quelle(n): duero.de.tl/Impressum.htm + Leistungsseiten (Betreiber, Abruf 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -5,12 +5,12 @@ trader_type: mobil
 state: NW
 city: Bünde
 street: Mindener Str. 74
-postcode: ''
-phone: ''
+postcode: 32257
+phone: 0178 5458242
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -35,4 +35,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
+### Recherche 01.10.2026
+
 - [Recherche 01.10.2026: kein Handelsregister-Treffer (Northdata: keine Firma Janus/Schrott in Bünde), keine Betreiber-Website auffindbar; Mindener Str. 74 nur per Verzeichnis-Lead (Gelbe Seiten) belegt → keine Frontmatter-Fills (PLZ/phone/mail/website weiter leer); Typ mobiler Sammler plausibel, unbelegt; Klärfall bleibt, Status pruefung]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: PLZ 32257 + Mobil 0178 5458242 in Frontmatter (5 konsistente Verzeichnisbelege: Gelbe Seiten, GoLocal mit verifizierter Adresse, 11880, Cylex als A. Janus Alt- & Buntmetallhandel Containerdienst, Creditreform-Firmeneintrag Artur Janus Schrotthandel); E-Mail artur260982@hotmail.de nur GoLocal-Einzelbeleg → Feld leer; keine Betreiber-Website/HRB → website_status unbekannt, Status pruefung bleibt (Ausnahmefall: nur Aggregator-Belege, offen dokumentiert); Quelle(n): gelbeseiten.de/gsbiz/00276409, golocal.de/buende/schrotthandel/janus-a-MJklI, 11880.com/a-janus-alt-buntmetallhandel, cylex.de, firmeneintrag.creditreform.de/ARTUR_JANUS_SCHROTTHANDEL]

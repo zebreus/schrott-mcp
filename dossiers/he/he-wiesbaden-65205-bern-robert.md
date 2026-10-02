@@ -3,14 +3,14 @@ slug: he-wiesbaden-65205-bern-robert
 name: Bern Robert
 trader_type: sonstige
 state: HE
-city: Wiesbaden 65205
-street: ''
-postcode: ''
-phone: ''
+city: Wiesbaden
+street: Römerstr. 67
+postcode: 65205
+phone: 06122 52567
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: street Roemerstr. 67, PLZ 65205, Tel. 06122 52567 gefuellt (2 Verzeichnisbelege: Gelbe Seiten + 11880/Das Oertliche, adress- und telefonkongruent). deubiz-HRB-642697-Angabe ist Scraper-Lead ohne Registerzweitbeleg → nicht uebernommen. Keine Betreiber-Website → website leer, website_status unbekannt. Adresse neu → Koordinaten neu zu geocodieren. Quelle(n): gelbeseiten.de + 11880.com (Detailseiten, Abruf 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -5,12 +5,12 @@ trader_type: schrotthaendler
 state: RP
 city: Ludwigshafen
 street: Leuschnerstr. 22
-postcode: ''
-phone: ''
+postcode: 67063
+phone: 0179 5476909
 email: ''
-opening_hours: ''
+opening_hours: Mo-So 07:00-20:00
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: PLZ 67063, Tel. 0179 5476909, OeZ Mo-So 07:00-20:00 gefuellt (Seed-Strasse Leuschnerstr. 22 bestaetigt via 2 Verzeichnisbelege: Gelbe Seiten + 11880). Keine Betreiber-Website → website leer, website_status unbekannt. Adresse ergaenzt → Koordinaten neu zu geocodieren. Quelle(n): gelbeseiten.de + 11880.com (Detailseiten, Abruf 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

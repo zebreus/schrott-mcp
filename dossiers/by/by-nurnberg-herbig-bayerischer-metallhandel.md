@@ -1,18 +1,18 @@
 ---
 slug: by-nurnberg-herbig-bayerischer-metallhandel
-name: Herbig Bayerischer Metallhandel
+name: Rich. Herbig Bayerischer Metallhandel GmbH
 trader_type: metallhaendler
 state: BY
 city: Nürnberg
 street: Dammstr. 5
 postcode: '90443'
-phone: '0911 270840'
+phone: 0911 270840
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: pruefung
-description: 'Metallhandel/Großhandel, Herstellung von Metallwaren (B2B)'
+website_status: unbekannt
+status: aktiv
+description: NE-Metallhandel (B2B, Niemann-Gruppe); Herstellung von Metallwaren, kein öffentlicher Schrottankauf belegt
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel (eher B2B)
 - Adresse: Nürnberg (Dammstr. 5)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Register-Beleg (Northdata): Rich. Herbig Bayerischer Metallhandel GmbH, AG Nürnberg HRB 17690, Gegenstand NE-Metallhandel, Gesellschafter Niemann-Gruppe Bremen (Gewinnabführung seit 2014), GF Thomas Pechar, Publikationen bis 01/2026 = aktiv. Register-Adresse Rothenburger Str. 11 weicht von Betriebsadresse Dammstr. 5 (Seed + Das Örtliche aktuell, Tel. 0911 27084-0) ab — Dammstr. 5 beibehalten, Abweichung offengelegt (benachbarte Straßen, Sitz vs. Betrieb möglich). Name auf Register-Namen korrigiert, Telefon zweifach belegt (Metallatlas/Seed + Das Örtliche), Status aktiv. Keine eigene Website (niemet.de-Fehlverlinkung bestätigt fremd). Quelle(n): https://www.northdata.de/Rich. Herbig Bayerischer Metallhandel GmbH, Nürnberg/HRB 17690 + Das-Örtliche-Eintrag Dammstr. 5]
 
 ### Recherche 30.09.2026
 

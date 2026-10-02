@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein Treffer fuer Schaefer und Scheffel (SDS), Dillenburg/Herborn 35683 — keine Betreiber-Website, kein Register, kein Kommunalbeleg. Gelbe Seiten Herborn listet nur SUEZ Mitte (kein SDS-Beleg). Keine Frontmatter-Fills (reine Seed-Adressfragmente), website_status unbekannt, status pruefung bleibt, Klaerfall Folgewelle (Gewerberegister Lahn-Dill). Quelle(n): keine belegfaehige Quelle (Negativbefund, Abruf 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

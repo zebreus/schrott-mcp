@@ -4,13 +4,13 @@ name: Schrott (mobiler Abholer)
 trader_type: schrotthaendler
 state: BE
 city: Charlottenburg-Wilmersdorf
-street: Charlottenburg-Wilmersdorf, Wilmersdorfer Str. 21
+street: Wilmersdorfer Str. 21
 postcode: '10585'
-phone: —
+phone: 01578 1835968
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: street normiert (Wilmersdorfer Str. 21), Tel. 01578 1835968 gefuellt (Gelbe Seiten Mobilnummer + Zweitbeleg 11880/sellwerk/bundestelefonbuch/goyellow, nummernkonkruent). phone-Platzhalter — normiert (nie —). Keine Betreiber-Website → website leer, website_status unbekannt. Strassen-Normierung → Koordinaten neu zu geocodieren. Quelle(n): gelbeseiten.de + 11880.com/sellwerk.de (Detailseiten, Abruf 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

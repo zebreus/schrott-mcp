@@ -10,7 +10,7 @@ phone: 0176 29755761
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: keine Neuverifikation moeglich (Websuche gedrosselt: websearch 401, DDG-Captcha). Stand 01.10.2026 bleibt: Betreiber-Domain metall-schrott-berlin.de tot, Inhaber-/Telefonangaben nur Aggregator-Einzelbelege (Yasni/germanlisting), kein Register, kein Betreiber-Social. Keine Frontmatter-Fills, website_status unbekannt normiert, status aktiv bleibt vorerst (Altbeleg), Folgewelle zur Herabstufung pruefen. Quelle(n): keine neue belegfaehige Quelle (01.10.2026-Stand referenziert).]
 
 ### Recherche 01.10.2026
 

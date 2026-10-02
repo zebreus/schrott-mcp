@@ -6,13 +6,13 @@ state: SL
 city: Saarbrücken / Umland
 street: ''
 postcode: ''
-phone: ''
-email: ''
+phone: 0173 8705566
+email: info@schrottjungs.de
 opening_hours: ''
-website: https://schrottjungs.de/saarbruecken-schrottabholung/
+website: https://schrottjungs.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: Bundesweiter mobiler Schrottabholer (Schrottjungs UG, Hamburg); kostenlose Abholung mit Barauszahlung für Privat und Gewerbe, Saarbrücken als Einsatzgebiet
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (Stand 2026-09-27)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Owner-Ausnahme greift für Betreiber-Kontaktdaten (Impressum: Schrottjungs UG, Billwerder Steindamm 15a, 20537 Hamburg, GF Magnus Ditz, HRB 196586 AG Hamburg, HR-kongruent, Impressum + Saarbrücken-Landingpage + Kontaktformular mit Stadt-Auswahl „Saarbrücken“ einzeln abgerufen): Tel. 0173-8705566, info@schrottjungs.de befüllt. Saarbrücken ist reine Einsatzseite ohne SL-Adresse (Sitz Hamburg) — street/postcode bewusst leer. Website auf Domain-Root gekürzt (Regel), Landingpage https://schrottjungs.de/saarbruecken-schrottabholung/ siehe Quellen. Kostenlose mobile Abholung mit Barauszahlung, ca. 50 Städte. Quelle(n): https://schrottjungs.de/saarbruecken-schrottabholung/ + https://schrottjungs.de/impressum-datenschutz/ (Betreiber, Owner-Ausnahme)]
 
 ### Recherche 01.10.2026
 

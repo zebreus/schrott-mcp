@@ -4,13 +4,13 @@ name: Alan William Jones
 trader_type: sonstige
 state: HH
 city: Barmbek-Süd
-street: ''
-postcode: ''
-phone: ''
+street: Vogelweide 40
+postcode: 22081
+phone: 040 2708902
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: street Vogelweide 40, PLZ 22081, Tel. 040 2708902 gefuellt (2 Verzeichnisbelege: Gelbe Seiten + 11880 / Das Oertliche, adress- und telefonkongruent). Keine Betreiber-Website → website leer, website_status unbekannt. Adresse neu → Koordinaten neu zu geocodieren. Quelle(n): gelbeseiten.de + 11880.com (Detailseiten, Abruf 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

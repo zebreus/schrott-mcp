@@ -4,13 +4,13 @@ name: Hafiz Schrott- und Buntmetallhandel
 trader_type: metallhaendler
 state: NW
 city: Köln-Ehrenfeld
-street: Hafiz Schrott- und Buntmetallhandel Köln-Ehrenfeld Leyendeckerstr. 41
-postcode: ''
-phone: ''
+street: Leyendeckerstr. 41
+postcode: 50825
+phone: 0178 6576803
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Leyendeckerstr. 41, 0178-Nr. (Backyard-Typ)
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Straße auf Leyendeckerstr. 41 normiert (Seed-Feld enthielt Namens-/Orts-Ballast) + PLZ 50825 + Tel. 0178 6576803 in Frontmatter — Stadtportal koeln.de (redaktionell) bestätigt Seed-Adresse Leyendeckerstr. 41; ABER Adresskonflikt: Das Örtliche/GoLocal/auskunft.de listen Sömmeringstr. 51, 50823 Köln (Ehrenfeld) unter gleicher Rufnummer (Creditreform: Ibrahim Hafiz Schrotthandel, Gewerbebetrieb) → Umzug oder Zweitstandort unklar, Koordinaten bei Klärung neu geocodieren; kein Betreiber-Impressum → website_status unbekannt, Status pruefung bleibt (Ausnahmefall: Stadtportal + konsistente Verzeichnisse, offen dokumentiert); Quelle(n): koeln.de/branchen/eintrag/69923, dasoertliche.de, golocal.de, auskunft.de, firmeneintrag.creditreform.de/IBRAHIM_HAFIZ_SCHROTTHANDEL]

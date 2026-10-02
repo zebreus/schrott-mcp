@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: einziger konkreter Lead Facebook-Seite Schrotti Schulze (Bad Lauterberg, kostenlose Schrottabholung, 61571692381763, Profiltext nennt Vater Schrotti aus Steina) — Facebook-Abruf blockiert/leer, keine Adresse/Telefon/HRB, kein Verzeichnis-/Kommunalbeleg; keine Frontmatter-Fills (außer website_status unbekannt), Status pruefung bleibt, Klärfall für Folgewelle (ggf. mobiler Sammler ohne Festadresse); Quelle(n): facebook.com/p/Schrotti-Schulze-61571692381763 (Lead, kein Beleg)]

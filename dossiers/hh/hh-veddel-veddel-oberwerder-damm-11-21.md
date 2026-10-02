@@ -5,12 +5,12 @@ trader_type: metallhaendler
 state: HH
 city: Veddel
 street: Hovestr. 21
-postcode: ''
-phone: ''
+postcode: 20539
+phone: 040 89 05 85 10 70
 email: ''
-opening_hours: ''
+opening_hours: Mo-Fr 07:00-17:30
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: PLZ 20539, Tel. 040 89 05 85 10 70, OeZ Mo-Fr 07:00-17:30 gefuellt (Seed-Strasse Hovestr. 21 bestaetigt via Gelbe Seiten: Wagner Metall GmbH, Hovestr. 21 + 11880-Zweitbeleg). Mismatch: wagner-gruppe.de gehoert WIWA Wilko Wagner GmbH (andere Firma, andere Adresse) — nicht uebernommen, website bleibt leer, website_status unbekannt. Adresse ergaenzt → Koordinaten neu zu geocodieren. Quelle(n): gelbeseiten.de (Wagner Metall GmbH) + 11880.com; wagner-gruppe.de (Negativabgleich, Abruf 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

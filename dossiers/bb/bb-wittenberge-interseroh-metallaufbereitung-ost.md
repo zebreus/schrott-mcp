@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Stand 01.10.2026 bestaetigt, keine neuen Fills. Betreiber-Telefon +49 3876 786602 / Mail quitzow.metall@alba.info und Zeiten nur Betreiber-Einzelbeleg (metall.alba.info) → Felder leer. Website leer (Betreiber-Seite existiert, aber Impressum-Name ALBA ≠ Dossier-Name INTERSEROH Legacy → kein aktiv), website_status unbekannt normiert, status pruefung bleibt. Quelle(n): 01.10.2026-Registerkette + Betreiber-Crawl referenziert (northdata HRB 117287 B / HRB 181, metall.alba.info, EFB-PDF).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

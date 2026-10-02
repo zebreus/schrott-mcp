@@ -3,16 +3,16 @@ slug: mv-ritzerow-17153-schrott-sylvia
 name: Schrott Sylvia
 trader_type: schrotthaendler
 state: MV
-city: Ritzerow 17153
+city: Ritzerow
 street: Dorfstr. 35
-postcode: ''
+postcode: 17153
 phone: 039954 31191
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: Schrott-Annahmestelle (privat) in Ritzerow — Gewerbebetrieb unbelegt, Klärfall
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: DasTelefonbuch bestätigt Dorfstr. 35, 17153 Ritzerow, Tel. 039954 31x91 (konsistent mit Seed 039954 31191) + Karten-Geokoordinaten — als begründete Ausnahme übernommen (Das Örtliche + DasTelefonbuch, beide Aggregatoren, offen dokumentiert). Achtung: „Sylvia Schrott“ liest sich als Personenname — Gewerbebetrieb weiter unbelegt, kein HR-/Kommunal-/Betreiberbeleg, daher weiter pruefung. City-Feld bereinigt. Quelle(n): https://kontakt-3.dastelefonbuch.de/Ritzerow/Sylvia-Schrott-Ritzerow-Dorfstr.html + Das-Örtliche-Eintrag (Vorrecherche 01.10.2026)]
 
 ### Recherche 01.10.2026
 

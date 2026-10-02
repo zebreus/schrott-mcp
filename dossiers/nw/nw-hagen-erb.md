@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Hagen
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein belastbarer Treffer — gezielte Suche nach ERB + Schrott/Entsorgung/Container/Altauto in Hagen ohne zuordenbares Ergebnis (nur HEB Hagener Entsorgungsbetrieb, HP Metalle, Bötzel, generische Klüngelskerl-Portale); keine Betreiber-Website, kein Register-, kein Verzeichnisbeleg; keine Frontmatter-Fills (außer website_status unbekannt), Status pruefung bleibt, Klärfall für Folgewelle; Quelle(n): keine Belegquelle]

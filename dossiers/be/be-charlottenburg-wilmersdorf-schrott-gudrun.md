@@ -10,7 +10,7 @@ phone: 030 6 21 84 98
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Seed-Adresse Pestalozzistr. 88A, 10625 Berlin + Tel. 030 6 21 84 98 via Das Oertliche bestaetigt (Zweitbeleg zu Gelbe Seiten). Aber: onlinestreet zeigt an derselben Adresse aktuell Monteverde-Fahrradladen — Betreiberkontinuitaet fraglich, kein Schrott-Ankaufbeleg, keine Betreiber-Website. Keine Frontmatter-Fills (reine Aggregator-Belege), website_status unbekannt normiert, status pruefung bleibt, Klaerfall Folgewelle (ggf. Vor-Ort/Gewerberegister). Quelle(n): dasoertliche.de + onlinestreet.de (Abruf 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

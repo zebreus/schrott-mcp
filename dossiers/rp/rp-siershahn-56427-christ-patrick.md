@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: keine Neuverifikation (Websuche gedrosselt: websearch 401, DDG-Captcha). Stand 01.10.2026 bleibt: nur Aggregator-Leads (Poststr. 31, Siershahn), Branche ungeklaert, kein Betreiber-Beleg. Keine Fills, website_status unbekannt, status pruefung bleibt, Folgewelle. Quelle(n): keine neue belegfaehige Quelle.]
 
 ### Recherche 01.10.2026
 

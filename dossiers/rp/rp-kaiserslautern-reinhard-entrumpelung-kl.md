@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Koblenz-Abgrenzung bestaetigt — reinhardt-recycling.de = Heinrich Reinhardt, Herberichstr. 139A, 56070 Koblenz (Tel. 0157/53116951), gehoert NICHT zu Reinhard+Entruempelung KL (Namensdifferenz Reinhardt mit dt vs Reinhard). KL-Betrieb weiter nur Aggregator-Leads (lokaleschrottplatz/raeumungsfinder, Mobil 0179 8500901), keine Adresse, keine Betreiber-Website → keine Fills, website_status unbekannt, status pruefung bleibt. Quelle(n): reinhardt-recycling.de Impressum (Koblenz, Abruf 02.10.2026); 01.10.2026-Leads referenziert.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

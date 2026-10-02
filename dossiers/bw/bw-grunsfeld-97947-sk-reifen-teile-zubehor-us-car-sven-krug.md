@@ -1,18 +1,18 @@
 ---
 slug: bw-grunsfeld-97947-sk-reifen-teile-zubehor-us-car-sven-krug
 name: SK Reifen-Teile-Zubehör US-Car (Sven Krug)
-trader_type: sonstige
+trader_type: autoverwertung
 state: BW
-city: Grünsfeld 97947
-street: ''
-postcode: ''
-phone: ''
+city: Grünsfeld
+street: Bischofsheimer Str. 7
+postcode: 97947
+phone: 09346 928579
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: US-Car-Schwerpunkt, Demontagebetrieb nach AltfahrzeugV — Betreiber-Beleg fehlt, Klärfall
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Einzige inhaltliche Quelle schrottpreis.org (Aggregator, beruft sich auf AltfahrzeugV-Verzeichnis): Bischofsheimer Str. 7, 97947 Grünsfeld, Tel. 09346/928579, Demontagebetrieb — Adresse identisch mit Seed, daher als begründete Ausnahme übernommen (Seed + 1 Verzeichnis, offen dokumentiert). Kein Betreiber-Auftritt (reifen-krug.de = fremder Betrieb, SK Reifen GmbH Mannheim = fremde Firma), kein HR-/Kommunalbeleg, Telefon damit Einzelbeleg — weiter pruefung. trader_type auf autoverwertung präzisiert (Demontagebetrieb). Quelle(n): https://www.schrottpreis.org/autoverwertung-in-main-tauber-kreis/ (Einzelbeleg)]
 
 ### Recherche 01.10.2026
 
