@@ -4,10 +4,10 @@ name: R&D Recycling (RD RECYCLING)
 trader_type: sonstige
 state: BW
 city: Bruchsal
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Berliner Str. 103
+postcode: 76646
+phone: +49 7251 3227878
+email: info@rdrecycling.de
 opening_hours: ''
 website: https://schrotthaendler-bruchsal.de/
 website_status: aktiv
@@ -40,4 +40,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 01.10.2026 (Owner-Gate)
 
 - [Owner-Gate 01.10.2026: Einzelbeleg-Fills (nur Betreiber-Website, kein HR — Einzelunternehmen, keine Owner-Ausnahme) revertiert; Werte bleiben in Recherche-Note dokumentiert. website/aktiv bleibt (live verifiziert).]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Zweitbeleg-Fill (2 unabhängige Quellen) — Betreiber-Website (Homepage + /impressum einzeln abgerufen: D. Graf, R&D Recycling, Berliner Str. 103, 76646 Bruchsal, Tel. +49 7251 3227878, info@rdrecycling.de, USt-ID DE347664505; Leistungen Schrott-/Buntmetall-Abholung mit Ladekran, Containerdienst Abroll 20-40 m³/Absetz 3-12 m³, Demontage/Firmenauflösung; Annahmeplatz 76707 Hambrücken nur mit Termin) + Cylex-Verzeichnis (Adresse Berliner Str. 103, 76646 Bruchsal, Tel. 07251 3227878) → street/postcode/phone/email gefüllt. Creditreform-Eintrag Desiree Steinbach R&D Recycling (Berliner Str. 103) stützt Inhaber-Zuordnung (D. Graf), als Register-Lead dokumentiert. Koordinaten-Neugeocodierung läuft automatisch (adressbasiert). Quelle(n): schrotthaendler-bruchsal.de + /impressum; web2.cylex.de/firma-home/r_d-recycling-14984080.html; firmeneintrag.creditreform.de/76646/7050443814.]
 

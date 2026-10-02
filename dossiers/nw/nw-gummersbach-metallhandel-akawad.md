@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: keine Frontmatter-Fills — einziger konkreter Beleg Cylex-Eintrag (Tel. 0172 6490606, Gummersbach), Direktabruf 02.10.2026 per 403 blockiert; kein Betreiber-Webauftritt, kein HR-Treffer, keine Adresse; Verwechslungsgefahr mit AEL Schrott & Metallhandel GmbH (Gummersbach, HRB 87502) — NICHT attribuiert; Status pruefung bleibt, Folgewelle; Quelle(n): cylex.de/metallhandel-akawad-16568219 (Lead, kein Beleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - 0172-Nr., nur lsp-Profil

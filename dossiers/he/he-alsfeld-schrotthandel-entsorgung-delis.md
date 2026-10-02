@@ -4,11 +4,11 @@ name: Schrotthandel & Entsorgung Delis
 trader_type: schrotthaendler
 state: HE
 city: Alsfeld
-street: Soldanstr. 8
+street: Bürgermeister-Haas-Str. 18
 postcode: '36304'
 phone: '01724350212'
 email: ''
-opening_hours: ''
+opening_hours: Mo-Fr 6-16, Sa 6-14
 website: ''
 website_status: ''
 status: pruefung
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: BEGRÜNDETE AUSNAHME (nur Aggregator-Konsens) — 11880 + lokaleschrottplatz.de (+ Cylex) listen übereinstimmend Bürgermeister-Haas-Str. 18, 36304 Alsfeld, 0172 4350212, Mo-Fr 6-16/Sa 6-14; keine Betreiber-Website, kein HRB (Einzelunternehmen plausibel), kein Zweitbeleg aus Primärquelle. Seed-Adresse Soldanstr. 8 bleibt unbelegt → street auf Bürgermeister-Haas-Str. 18 korrigiert, opening_hours gefüllt, phone bestätigt. Adresse geändert → Koordinaten sind neu zu geocodieren. Restunsicherheit: aktuelle Betriebsadresse nur per Gewerberegister klärbar. Quelle(n): https://www.11880.com/suche/schrotthandel/alsfeld + https://lokaleschrottplatz.de/hessen/alsfeld + Cylex-Eintrag Delis]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

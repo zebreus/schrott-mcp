@@ -9,7 +9,7 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.stalcant-schrotthaendler.de/
+website: https://stalcant-schrotthaendler.de
 website_status: aktiv
 status: aktiv
 description: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Kurz-Note — Betreiber-Website (Robert-Koch-Str. 9, 63128 Dietzenbach, Inh. Sebastian Traian Caldarar, Einzelunternehmen ohne HRB) erneut nur Einzelbeleg, kein Register-/Kommunal-Zweitbeleg → weiter keine Frontmatter-Fills, Klärfall bleibt; website auf Domain-Root normiert (reine Formkorrektur). Quelle(n): https://www.stalcant-schrotthaendler.de/ + /Kontakt + /impressum (Stand 01.10.2026-Notes)]
 
 ### Recherche 01.10.2026
 

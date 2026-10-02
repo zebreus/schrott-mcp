@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — einziger Hinweis ist lokaleschrottplatz.de (Lohrer Weg, 63128 Dietzenbach, +49 1575 1529589, Domain mikyschrotthandler.com genannt); keine Betreiber-Website live verifiziert (website_status tot bleibt), kein HRB, kein Zweitbeleg → keine Frontmatter-Fills. Quelle(n): lokaleschrottplatz.de Dietzenbach-Eintrag]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)

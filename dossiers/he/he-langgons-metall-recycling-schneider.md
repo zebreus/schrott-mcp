@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall/miss — kein Betreiber-Beleg zu Metall Recycling Schneider in Langgöns (keine Betreiber-Website, kein HRB, keine kommunale Nennung); einziger Namens-Treffer im Raum ist Willi Eimer (Rottweg) als andere Firma (Fremdtreffer, keine Zuordnung); keine 2 unabhängigen Belege → keine Frontmatter-Fills. Quelle(n): Websuche ohne Betreiber-Treffer]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)

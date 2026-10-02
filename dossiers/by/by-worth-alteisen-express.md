@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Leistung: mobiler Schrott-/Altmetallservice mit Abholung (Anruf genügt) (Quellen: dieselben zwei)
 - Domain alteisen-express.de ist nur tote Hülle ohne Impressum (Quelle: http://www.alteisen-express.de/) — daher keine Website gesetzt (Verzeichnis-Quellen setzen nie Website)
 - Festnetz 09482/671 (nur bis ca. 8 Uhr morgens erreichbar) nur auf Betreiberseite (Einzelbeleg, unsicher); keine Öffnungszeiten, keine E-Mail belegbar
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: kein Frontmatter-Fill (Beleglage unverändert: Betreiber-Unterpfad + Portale) — alteisen-express.de erneut abgerufen: nur Redirect-Stub auf andersstein.de/alteisen-express (tote Hülle bestätigt, daher weiter keine website). stadtplan.de bestätigt Leistungsprofil (kostenlose Abholung Eisen-Schrott/Metalle im 25-km-Umkreis Wörth/Donau, Container, Ladekran) als dritte Quelle neben andersstein.de/kontakt.html und Cylex. Festnetz 09482/671 + Mobil 0174 2187361 + Hafnerhof 1 konsistent; E-Mail/Öffnungszeiten weiter unbelegbar. Quelle(n): alteisen-express.de; stadtplan.de/item/alteisen-express-martin-stierstorfer; andersstein.de/alteisen-express/html/kontakt.html.]

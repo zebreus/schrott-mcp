@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall bleibt — Seed-Straßenfragment Berschweilerstr. 11 weiter ohne PLZ/Ort-Beleg; Register nennt Erich Werner GmbH (Berschweiler Straße, Altfahrzeug-Demontage) — Zuordnung zum Slug „Werner Baumholder" unsicher (Namens-Nähe ohne Adress-/Betreiber-Brücke); keine Betreiber-Website, kein HRB-Abgleich → keine Frontmatter-Fills, street bleibt Seed-Rohtext. Quelle(n): Abfallregister Baumholder-Eintrag Erich Werner GmbH + Websuche ohne Betreiber-Treffer]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Berschweilerstr. 11, 52★

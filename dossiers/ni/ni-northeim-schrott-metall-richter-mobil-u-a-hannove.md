@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Website live verifiziert (Vollcrawl Startseite 02.10.2026) — bestaetigt Impressum-Fakten der Vorwelle (Untere Dorfstr. 49, 37154 Northeim; 05551 7059307; info@schrotthandel-richter.de), Leistungen (kostenlose Abholung, Buntmetall-Ankauf Tagespreise/bar, Container 7-40m3, Altfahrzeuge mit Verwertungsnachweis, Katalysatoren, Kabelrecycling), 120-km-Radius (Hannover = Einsatzgebiet, nicht Sitz), KEINE weisse Ware; kein Frontmatter-Fill (Einzelunternehmen, Owner-Ausnahme greift nicht; Tel./E-Mail nur einfach belegt); Status aktiv bestaetigt; Quelle(n): schrotthandel-richter.de (Vollabruf 02.10.2026), /schrotthandel-hannover, /impressum (Vorwelle)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Abholung/Ankauf, Cu/Messing/Alu/Kabel

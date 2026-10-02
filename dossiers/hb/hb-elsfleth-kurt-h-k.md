@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Seed-Adressfakten bestaetigt (Am Tidehafen 1, 26931 Elsfleth, 04404 3026), Status pruefung zu aktiv — Beleglage offengelegt: sechs uebereinstimmende Verzeichnisquellen, kein Betreiber-Webauftritt; Betreibername H.K. Kurt Autoverwertung, Inh. Udo Spohler; Hausnr.-Variante 1A (Das Oertliche/Gelbe Seiten) vs. 1 (Seed/schrottplatz-info) — Strassenfeld unveraendert (kein Churn), Adresse per Geocoding robust; Quelle(n): dasoertliche.de/H-K-Kurt-Elsfleth, gelbeseiten.de/Kurt-Udo-Spohler, golocal.de/H-K-Kurt, bundes-telefonbuch.de/Udo-Spohler, schrottplatz-info.de/Elsfleth/Kurt-H-K, schrottplatz.org/elsfleth]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

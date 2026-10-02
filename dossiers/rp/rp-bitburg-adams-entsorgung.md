@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — Register nennt Sammeln/Befördern/Handeln mit Adresse Alte Röhler Str. 14, 54634 Bitburg, aber kein Betreiber (keine Betreiber-Website, kein Impressum/HRB-Abgleich) → keine Frontmatter-Fills; Abgrenzung zu Steil Entsorgung GmbH (Alte Röhler Str. 17, eigener Dossier-Slug) offen. Quelle(n): Abfallregister-Eintrag Bitburg Alte Röhler Str. 14]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Sammeln/Befördern/Handeln (Register)

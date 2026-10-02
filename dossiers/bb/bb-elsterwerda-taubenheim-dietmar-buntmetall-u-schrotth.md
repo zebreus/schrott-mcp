@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Seed-Fakten (Ludwig-Jahn-Str. 60, 04910 Elsterwerda, 03533 2710) durch acht uebereinstimmende Quellen bestaetigt, Status pruefung zu aktiv — Beleglage offengelegt: Verzeichnis-Konsens (kein Betreiber-Webauftritt); Leistungsbild Buntmetall-/Schrottankauf; Ausnahmefall mit Restunsicherheit; Quelle(n): dasoertliche.de/Taubenheim-Elsterwerda, gelbeseiten.de/Taubenheim, dastelefonbuch.de/Taubenheim-Elsterwerda, schrottplatz-info.de/Elsterwerda/Taubenheim, schrottplatz.org/elsterwerda, branchen-info.net/Taubenheim, ubb.de-Wertstoffwegweiser, city-map.de/Elsterwerda]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

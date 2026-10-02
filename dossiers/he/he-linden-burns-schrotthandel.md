@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall/miss bleibt — erneut kein Betreiber-Beleg zu Burns Schrotthandel in Linden (keine Betreiber-Website, kein HRB, keine kommunale Nennung, nur Aggregator-Leads); keine 2 unabhängigen Belege → weiter keine Frontmatter-Fills. Quelle(n): Websuche ohne Betreiber-Treffer]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler

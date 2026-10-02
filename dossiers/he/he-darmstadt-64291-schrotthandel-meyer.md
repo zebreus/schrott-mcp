@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall/miss mit Fremdtreffer — kein Darmstadt-Beleg zu Schrotthandel Meyer (nur OSM-Node Am Sportplatz ohne Nr., Dublettenverdacht Levy/Zerseeger); einziger verifizierter Meyer-Betrieb ist Schrotthandel Meyer (Sascha Meyer), Im Altenschemel 40a, 67435 Neustadt a. d. Weinstraße (Betreiber-Website + Gelbe Seiten, seit 1994) — Fremdtreffer, keine Zuordnung nach Darmstadt → keine Frontmatter-Fills. Quelle(n): https://schrotthandel-meyer.de/ (+ /impressum) + Gelbe-Seiten-Eintrag Meyer Sascha Neustadt]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott — nur OSM-Node (PRÜFFALL; mögl. Dublette Levy/Zerseeger-Seed)

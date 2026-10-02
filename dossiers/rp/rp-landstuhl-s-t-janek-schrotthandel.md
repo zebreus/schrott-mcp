@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall/miss bleibt — S&T Janek Schrotthandel (Barbarossastr. 12A, Landstuhl) weiter ohne Treffer in Betreiber-Web, HR-Portalen und Verzeichnissen; Adresse/Existenz unbelegt → Seed-Straße unverändert, keine Frontmatter-Fills. Quelle(n): Websuche + HR-/Verzeichnisabgleich ohne Treffer]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — kein Treffer zu S&T Janek Schrotthandel (Barbarossastr. 12A, Landstuhl) in Betreiber-Web, HR-Portalen oder Verzeichnissen; Adresse/Existenz unbelegt, Frontmatter (Seed-Straße) unverändert; HR-/Gewerberegister-Abgleich nötig]

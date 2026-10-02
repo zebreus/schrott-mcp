@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall/miss — Kirchner Herbert Schrottplatz ohne Betreiber-Beleg (keine Betreiber-Website, kein HRB, keine kommunale Nennung); Abfallregister-Ortsseite Saarlouis kennt 5 andere Betriebe, keinen Kirchner-Eintrag; Seed-Tel. 06831 86198 nur schwache Quelle → keine Frontmatter-Fills, phone unverändert. Quelle(n): Websuche ohne Betreiber-Treffer + Abfallregister-Ortsseite Saarlouis]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz — Tel. 06831 86198; schwache Quelle

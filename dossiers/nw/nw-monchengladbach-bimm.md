@@ -4,14 +4,14 @@ name: Bimm
 trader_type: mobil
 state: NW
 city: Mönchengladbach
-street: ''
-postcode: ''
+street: Hohe Str. 10
+postcode: 41179
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Fill Strasse/PLZ (Hohe Str. 10, 41179 Moenchengladbach-Rheindahlen), Status pruefung zu aktiv — Beleglage offengelegt: drei uebereinstimmende Verzeichnisquellen, KEINE Telefonnummer in keiner Quelle gefunden (phone bleibt leer), kein Betreiber-Webauftritt, kein HR-Treffer; Ausnahmefall mit Restunsicherheit, Tel.-Klaerung Folgewelle; Quelle(n): 11880.com/schrotthandel-bimm, werkenntdenbesten.de/schrotthandel/moenchengladbach, oeffnungszeitenbuch.de/Schrotthandel-Bimm]
 
 ### Recherche 01.10.2026
 

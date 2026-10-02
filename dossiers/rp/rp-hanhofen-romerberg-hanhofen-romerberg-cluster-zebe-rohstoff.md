@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Klärfall — einziger HR-Beleg im Cluster ist ZEBE Rohstoffhandel GmbH (Martin-Greif-Str. 31, 67354 Römerberg, HR AG Ludwigshafen, Verzeichnis-/Snippet-Hinweis, nicht unabhängig verifiziert); die übrigen Cluster-Kleinhändler (Wagner R.+B., Kreischer J., Lehr T.+M./I.+R., Wagner P.+S.) nur Gelbe-Seiten-Leads ohne Betreiber-Beleg → keine Frontmatter-Fills (Cluster-Adresse nicht mit ZEBE-Adresse überschreiben). Quelle(n): YellowMap-Eintrag + HR-Snippet ZEBE Rohstoffhandel GmbH + Gelbe Seiten]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mehrere Kleinhändler Schrott-/Metallhandel (nur Gelbe Seiten)
