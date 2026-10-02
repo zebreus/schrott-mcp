@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,6 +31,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 97816)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: miss — 11880-Schrotthandelssuche Lohr listet 54 Firmen, KEIN Trapp darunter; lokaleschrottplatz-Detail-URL nicht existent (404); kein Betreiber-Impressum, kein Registerbeleg auffindbar; website_status auf unbekannt gesetzt; Folgewelle: Telefonbuch-Rückwärtssuche / Gewerbeverzeichnis Lohr. Quelle(n): https://www.11880.com/suche/schrotthandel/lohr-main (Negativbeleg 02.10.2026)]
 
 ### Recherche 01.10.2026
 

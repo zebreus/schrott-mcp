@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel
 - Größe: k.A.
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: 11880-Lead präzisiert (MSW Metallhandel SüdWest GmbH, Engesserstr. 5, 79108 Freiburg, Tel (0761) 50441-0, E-Mail info@msw-metallhandel.eu) — aber EIN Aggregator allein → KEIN Fill; msw-metallhandel.de antwortet nur Bot-Challenge (Zuordnung unbestätigt), msw-metallhandel.eu ist DNS-tot; Namesake: MSW Metallhandel GmbH Breisach (eigene Firma); website bleibt leer, website_status unbekannt; Folgewelle: HRB/Registerabgleich. Quelle(n): https://www.11880.com/suche/metallhandel/freiburg-breisgau (Einzelbeleg/Aggregator)]

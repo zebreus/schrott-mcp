@@ -3,9 +3,9 @@ slug: bw-lauda-kuhl-entsorgung-recycling-sudwest
 name: Kühl Entsorgung & Recycling Südwest
 trader_type: sonstige
 state: BW
-city: Lauda
-street: ''
-postcode: ''
+city: Lauda-Königshofen
+street: Tauberstr. 47
+postcode: 97922
 phone: +49 9343 61490
 email: ''
 opening_hours: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 30.09.2026
 
 - [Recherche 30.09.2026: Lauda nur Einzelbeleg Tauberstr. 47, 97922 Lauda-Königshofen Tel 09343 6149-0 mit Website http://www.kuehl-gruppe.de abweichend vom Dossier-Preset, Impressum kuehl-entsorgung.de 503, northdata nur HQ Zeppelinstr. 6, 76185 Karlsruhe HRB 102571, Kuehl!=Kuehn beachtet (Einzelbeleg, unsicher), kein Frontmatter-Fill; Quelle: https://www.gelbeseiten.de/gsbiz/d26f9441-97a5-4575-8c82-ace7e26e112f]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Zweitbeleg bestätigt Lauda-Filiale — 11880 (Kühl Entsorgung & Recycling Südwest GmbH, Tauberstr. 47, 97922 Lauda-Königshofen, Tel (09343) 6149-0, E-Mail kuehl.lauda@kuehl-gruppe.de) deckt sich mit Gelbe-Seiten-Fund 30.09. in Adresse/PLZ/Telefon → street/postcode/phone gefüllt, city auf Lauda-Königshofen präzisiert (Slug unverändert; Koordinaten neu zu geocodieren); E-Mail single-source → LEER gelassen (Lead: kuehl.lauda@kuehl-gruppe.de); kuehl-gruppe.de leitet auf kuehl-entsorgung.de/wartungsseite (503) weiter — Domain gehört zum Betreiber, Website zeigt Wartungsmodus → website_status bleibt aktiv mit Wartungs-Vermerk. Quelle(n): https://www.11880.com/suche/entsorgung/lauda-koenigshofen + GelbeSeiten-Fund 30.09.2026]

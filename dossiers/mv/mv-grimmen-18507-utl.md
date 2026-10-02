@@ -4,14 +4,14 @@ name: UTL GmbH
 trader_type: sonstige
 state: MV
 city: Grimmen 18507
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: An den Kammern 3
+postcode: 18507
+phone: 038326/2257
+email: geschaeftsstelle@utl-grimmen.de
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
+website: https://utl-grimmen.de
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Eisen
 - Adresse: Grimmen 18507
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss-Note vom 01.10.2026 KORRIGIERT — Grimmen-Bezug belegt: UTL Verarbeitungs- und Dienstleistungs GmbH, An den Kammern 3, 18507 Grimmen, AG Stralsund HRB 313, GF Wolfgang Wilde/Andreas Bour/Jörg Remer, Tel. 038326/2257, geschaeftsstelle@utl-grimmen.de (Betreiber-Impressum live + Startseite, HR-kongruent → Owner-Ausnahme greift). WICHTIG: kein klassischer Schrott-/Altmetallankauf — Geschäftsfelder Tiefbau/Kulturbau/Abfallverwertung (Bauschuttrecycling, Abbruch, Entsorgungsfachbetrieb); Zweigstelle Süderholz/OT Kaschow. trader_type sonstige bleibt, Eignung als Schrott-Ankaufstelle fraglich → Folgewelle prüfen. Frontmatter voll aus Betreiber-Impressum gefüllt, website_status aktiv, status aktiv. Koordinaten neu zu geocodieren (Adresse neu). Quelle(n): utl-grimmen.de + /impressum (Abruf 02.10.2026)]
 
 ### Recherche 01.10.2026
 

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel
 - Adresse: Dietzenbach 63128
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Single-Lead 11880.com (Stand 01/2025: 63128 Dietzenbach, Tel 0178 3805655, Branche Abrissfirma, keine Website/E-Mail/Öffnungszeiten); kein Zweitbeleg, kein Betreiber, kein HR; kein Fill, pruefung bleibt; Quelle(n): 11880.com (Lead)]

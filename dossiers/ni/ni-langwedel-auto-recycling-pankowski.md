@@ -4,13 +4,13 @@ name: Auto-Recycling Pankowski GmbH
 trader_type: autoverwertung
 state: NI
 city: Langwedel
-street: ''
-postcode: ''
+street: Jutekamp 3
+postcode: 27299
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,6 +33,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung (Flag)
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Register-Treffer — Auto-Recycling Pankowski GmbH, AG Walsrode HRB 120552, Jutekamp 3, 27299 Langwedel (Eintragung 2006, GF W. P.); Gegenstand Altauto-Verwertung/Handel mit Rest-/Rohstoffen/Ersatzteilen/Abschleppdienst. Letzter publizierter JA 2015 → operative Existenz heute unsicher. Frontmatter: street/postcode aus Register (meinestadt-Lead Jutekamp 3 kongruent, aber Aggregator = keine Evidenz), website_status unbekannt (keine Betreiber-Website gefunden). Status bleibt pruefung. Koordinaten neu zu geocodieren (Adresse neu). Quelle(n): northdata.de/HRB 120552 (Abruf 02.10.2026)]
 
 ### Recherche 01.10.2026
 

@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://brameier.de
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Schopsdorf (b. Genthin)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: 11880-Record präzisiert (BBS Bergungsdienst Brameier Ersatzteile + Autoverwertung, Schopsdorfer Industriestr. 7, 39291 Schopsdorf, Tel (039225) 35700, E-Mail autoteile@brameier.de) — EIN Aggregator → KEIN Adress-/Telefon-Fill; Betreiber-Domain brameier.de live (Umbau-Seite 'Wir bauen für Sie um', (c) 2026 Brameier) — E-Mail-Domain + Name stützen die Zuordnung → website (+aktiv) mit offener Restunsicherheit gesetzt; Impressum wg. Umbau derzeit nicht abrufbar (Folgewelle). Quelle(n): https://www.11880.com/suche/autoverwertung/genthin (Aggregator) + https://brameier.de/ (Betreiber, live 02.10.2026)]

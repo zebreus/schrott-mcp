@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Einziger Anhalt lokaleschrottplatz.de (F. Weber Schrotthandel, Schandelah/NI, Stahl/Eisen/Kupfer/Alu/Messing/Kabel, Tel +49 173 6115144 = Dossier-Telefon) — Schrottportal, kein Betreiberbeleg; kein Zweitbeleg, kein HR-/Kommunalbeleg, keine Betreiber-Website; Schandelah (Cremlingen, LK Wolfenbüttel) passt nicht zu Hannover/Hildesheim → Identität/Region ungeklärt; kein Fill, pruefung bleibt; Quelle(n): lokaleschrottplatz.de (Lead)]

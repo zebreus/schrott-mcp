@@ -4,11 +4,11 @@ name: Carl Knoblauch GmbH & Co. KG
 trader_type: schrotthaendler
 state: BW
 city: Heilbronn
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Hans-Rießer-Straße 8
+postcode: 74076
+phone: 07131 1567-0
+email: info@knoblauch-heilbronn.de
+opening_hours: Mo-Fr 7-12 & 13-16
 website: https://www.knoblauch-heilbronn.de/
 website_status: 'aktiv'
 status: aktiv
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Metall, Container, seit 1922
 - Größe: mittel–groß
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Owner-Ausnahme greift — Betreiber-Impressum mit HRB/HRA-Kongruenz (Carl Knoblauch GmbH & Co. KG, Hans-Rießer-Str. 8, 74076 Heilbronn, HRA 101043 AG Stuttgart, pers. haft. Gesellschafter Carl Knoblauch GmbH HRB 100233, GF Lena + Alexander Knauth, Tel 07131/1567-0, info@knoblauch-heilbronn.de) plus deckungsgleiche Kontaktseite (Zeiten Mo-Fr 7-12 & 13-16) → street/postcode/phone/email/opening_hours gefüllt; Efb-Zertifikat und Metallrecycling-Zentrum/Containerdienst auf Leistungsseiten bestätigt. Quelle(n): https://www.knoblauch-heilbronn.de/impressum + https://www.knoblauch-heilbronn.de/kontakt]

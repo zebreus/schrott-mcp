@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein Treffer — herbighandel.de gehört fremder Firma (kein Beleg); keine Betreiber-Website, kein HR-Beleg zum Seed-Stand; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): Websuche 01.10.2026 ohne belegbaren Treffer]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: 11880-Lead präzisiert (Rich. Herbig Metallhandel München GmbH, Landsberger Str. 402, 81241 München, Tel (089) 318995-0, E-Mail info@niemet.de — passt zu Seed-Adresse Landsberger Str. 402) — aber EIN Aggregator → KEIN Fill; keine Betreiber-Domain auffindbar (niemet.de ungeprüft, Folgewelle); website_status auf unbekannt gesetzt. Quelle(n): https://www.11880.com/suche/metallhandel/muenchen (Einzelbeleg/Aggregator)]

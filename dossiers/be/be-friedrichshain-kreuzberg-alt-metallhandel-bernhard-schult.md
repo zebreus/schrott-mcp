@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: nur Aggregator-Leads (Cylex/city-map/stadtbranchenbuch: Dolziger Str. 30, 10247 Berlin, 030 4225831; Cylex-Vermerk Jetzt geschlossen unbestätigt) = kein Beleg; kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adress-/Telefon-Konsens über 5 Aggregatoren (städtische-gewerbeauskunft/city-map/cylex/stadtbranchenbuch/stadtbranche: Dolziger Str. 30, 10247 Berlin-Friedrichshain, 030 4225831, Fax 030 4225832) bestätigt Seed-Frontmatter — weiter nur Leads, kein Betreiber/HR; Cylex-Schließungsvermerk weiter unbestätigt; Frontmatter unverändert, pruefung bleibt; Quelle(n): s.o. Aggregatoren (Leads)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetallhandel (nur Verzeichnisbeleg)

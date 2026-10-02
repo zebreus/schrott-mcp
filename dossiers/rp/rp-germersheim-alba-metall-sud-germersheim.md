@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - KEINE eigene Betreiber-Detailseite gefunden: metall.alba.info listet für ALBA Metall Süd nur Stuttgart; Konzern-Übersicht alba.info/standorte ohne Germersheim. Daher website leer, status bleibt pruefung.
 - Filial-Fakten nur Aggregator-Mehrfachbeleg (per Hierarchie KEIN Beleg, auch nicht mehrfach) → Owner-Gate: Name/Phone-Fills revertiert (Werte hier dokumentiert: Betrieb Germersheim, Im Weidenschlag 1, 76726 Germersheim, Tel. 07274/2757), website leer, pruefung bleibt.
 - Quellen (Leads, keine Betreiberquellen): cylex.de, firmania.de, schrottfinder.de, schrottradar.de, ortsdienst.de, schrottplatz.org — alle einhellig Adresse + Telefon.
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Operator-Gegenprobe bestanden — metall.alba.info/unternehmen/standorte listet 13 Standorte (Nord: Rostock/Berlin-Spandau/Döberitz/Friedland/Hoppegarten/Lichtenberg/Lübbenau/Luckenwalde/Pretzier/Quitzow/Schwerin/Wilhelmshaven; Süd: nur Stuttgart Am Mittelkai 21), KEIN Germersheim; ALBA Metall Süd GmbH = Stuttgart (+49 711 918920-0); bestätigt Korrektur 01.10.2026 (website leer, pruefung); Seed-Frontmatter (street/postcode/email) unangetastet; Quelle(n): metall.alba.info (Betreiber, Negativbeleg Germersheim)]

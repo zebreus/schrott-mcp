@@ -34,6 +34,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Aggregator-Hinweis (Einzelbeleg, unsicher): Dick Edmund Schrotthandel, Sonnenhang 22, 54421 Reinsfeld, Tel. 0162 2452078.
 - Klärfall: zweiter Beleg fehlt. Status bleibt pruefung.
 
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adress-Konsens über 6+ Aggregatoren (oeffnungszeitenbuch/schrottplatz-info/stadtbranchenbuch/dasoertliche/bundes-telefonbuch/11880: Edmund Dick Schrotthandel, Sonnenhang 22, 54421 Reinsfeld); Telefon widersprüchlich (0162 2452078 schrottplatz-info/Gelbe Seiten vs 06503 99377 lokaleschrottplatz) → kein Phone-Fill; dasoertliche-Personeneintrag (Dick Edmund u. Kornelia) deutet auf Privatanschrift ohne Betreiber; kein Fill, pruefung bleibt; Quelle(n): s.o. Aggregatoren (Leads)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Sonnenhang 22

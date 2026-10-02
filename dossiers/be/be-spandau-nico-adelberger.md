@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 
 - [Recherche 01.10.2026: KEIN Zweitbeleg — nur GelbeSeiten („Nico Adelberger – Gold und Edelmetall“, Grünhofer Weg 42, 13581 Berlin-Spandau, 0176 61969568, Branche Schmuckwaren). Keine Betreiber-Website, kein Social, kein Registerbeleg zum Goldankauf. HR-Lead geprüft und VERWORFEN als Verwechslung: online-handelsregister.de nennt Nico Adelberger als GF der INFOVA - Initiative für Ordnung & Versorgung Adelberger GmbH (HRB 288218, Geschäftsanschrift Bundesallee 187, 10717 Berlin, Neueintragung 10.06.2026) — andere Firma, andere Adresse, kein Schrott-/Goldbezug. Frontmatter unverändert, status weiter pruefung. Folgewelle: Gewerberegister Spandau / Vor-Ort. Quelle(n): gelbeseiten.de (Single-Source), online-handelsregister.de (Negativbeleg).]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Aufwertung ohne Fill — creditreform.de führt Nico Adelberger - Gold und Edelmetall - als Gewerbebetrieb (wirtschaftsaktiv, Sitz Berlin, 1 Inhaber) + Adress-/Telefon-Konsens über 4 Verzeichnisse (gelbeseiten/dastelefonbuch/meinestadt: Grünhofer Weg 42, 13581 Berlin-Spandau, 0176 61969568) bestätigt Seed-Frontmatter; weiter kein Betreiber-Webauftritt; INFOVA-Verwechslung bleibt verworfen; Frontmatter unverändert, pruefung bleibt (Gewerberegister Spandau weiter offen); Quelle(n): creditreform.de, gelbeseiten.de/dastelefonbuch.de/meinestadt.de (Leads)]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss — Oldenburger Landstr. 50 zu Grundler Siegfried weder im Register (Northdata: nur namensfremde Delmenhorst-Treffer, kein Grundler) noch per Betreiber-Website belegbar; nur Seed-Verzeichnislage. Kein Fill. website_status unbekannt. Quelle(n): keine]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

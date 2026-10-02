@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Leostr. 6
 - urspr. Website-Angabe: keine
 - Adresse: Trier
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adress-Konsens über 4 Aggregatoren (firmania/meinestadt/cylex/lokaleschrottplatz: Petra/Pfeil-Heinz Schrotthandel und Entsorgungsbetrieb, Leostr. 6, 54290 Trier, 0170 6878799) + 11880-Eintrag (Stand 05/2026); aber alles Leads ohne Betreiber-/Registerbeleg → kein Fill (Seed-Rohtext in street unangetastet), pruefung bleibt; Quelle(n): s.o. Aggregatoren (Leads)]

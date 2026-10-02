@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Entsorgung, Schrottannahme (lt. Verzeichnis)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: lokaleschrottplatz-Detail (Am Gehren 6, 06542 Allstedt, Tel +49 1577 6298898, Zeiten Mo-Fr 8-17, Annahme Eisen ab 100 kg / NE ab 1 kg, Materialliste Stahl/Alu/Cu/Edelstahl/Blei/Messing/Rotguss/Zink/Nickel/Zinn/Kabel/Altfahrzeuge/E-Motoren) — EIN Aggregator → KEIN Fill; 11880-Allstedt-Suche listet Eichler NICHT (zweite Quelle fehlt); website_status auf unbekannt gesetzt. Quelle(n): https://lokaleschrottplatz.de/eichler-entsorgungsbetrieb-allstedt/ (Einzelbeleg) + https://www.11880.com/suche/schrotthandel/allstedt (Negativbeleg)]

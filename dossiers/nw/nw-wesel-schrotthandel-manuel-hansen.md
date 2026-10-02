@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Miss — Friedenstr. 9a (Wesel) zu Manuel Hansen weder im Register (Northdata ohne Treffer) noch per Betreiber-Website belegbar; Backyard-Typ ohne Webpräsenz. Kein Fill (PLZ bleibt leer, keine geraten). website_status unbekannt. Quelle(n): keine]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

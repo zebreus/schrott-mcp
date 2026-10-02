@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Gleisanschluss
 - urspr. Website-Angabe: keine
 - Adresse: Koblenz
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: svmdienstleistungen.de geprüft (Homepage + /ueber-uns, live) — Webador-Baukasten OHNE Impressum/Adresse/Telefon/E-Mail, Testimonial-Platzhalter ([[Name des Kunden]]) → kein Betreiberbeleg; Identität Seed (SVM Neuendorf) ↔ SVM Dienstleistungen (Haushaltsauflösung/Demontage/Transport, Koblenz) unverknüpft; lokaleschrottplatz-Phone 0176 72975363 reiner Lead; kein Fill, pruefung bleibt; Quelle(n): svmdienstleistungen.de (Negativbefund), lokaleschrottplatz.de (Lead)]

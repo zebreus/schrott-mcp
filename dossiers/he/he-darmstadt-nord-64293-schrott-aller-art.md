@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Schrott/Mainzer Str. 83/Darmstadt): keine Betreiber-Website und kein Impressum in den Treffern (nur generische Schrottpreis-Portale und Verzeichnisse); Adress-Frontmatter (Mainzer Str. 83, 64293) aus Korrektur 30.09.2026 bleibt unveraendert; kein weiterer Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Betreiber-Identitaet (Name/Telefon) weiter unbelegt; Quelle(n): Bing-SERP 01.10.2026, Dossier-Timeline]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Adress-Konsens über 5 Aggregatoren (gelbeseiten/cylex/firmania/yellowmap/mapquest: Mainzer Str. 83, 64293 Darmstadt) bestätigt Frontmatter; Telefon widersprüchlich (0157 72840206 gelbeseiten vs 0177 5452343 cylex) → kein Phone-Fill; weiter kein Betreiber/HR; pruefung bleibt; Quelle(n): s.o. Aggregatoren (Leads)]

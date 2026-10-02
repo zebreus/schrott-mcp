@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -31,3 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metall-Rohstoff-Recycling (lt. schrottplatz-info)
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: 11880-Record (Molkenthin Schrotthandel, Tangermünder Chaussee 12, 39517 Tangerhütte, Tel (03935) 2795, E-Mail mrr-molkenthin@freenet.de) — EIN Aggregator → KEIN Fill; Namens-Klärfall: Dossier 'Molkenthin Erhardt Metall-Rohstoff-Recycling' vs 11880 'Molkenthin Schrotthandel' (Vorname Erhardt unbestätigt, Name NICHT geändert); keine Betreiber-Website; website_status auf unbekannt gesetzt. Quelle(n): https://www.11880.com/suche/molkenthin-schrotthandel/tangerhuette (Einzelbeleg)]

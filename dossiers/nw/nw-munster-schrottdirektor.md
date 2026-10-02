@@ -10,8 +10,8 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.schrottdirektor.de
-website_status: ''
-status: pruefung
+website_status: aktiv
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Betreiber-Website live und tiefgecrawlt (Start, Leistungen, Impressum einzeln abgerufen). Impressum: Schrottdirektor.de, Uwe Müller, Fritz-Pütter-Str. 13, 48153 Münster, Büro 0251/275898762, Mobil 0172/2750796, info@schrottdirektor.de, USt-Nr. 337/5187/2843 (Einzelunternehmen, kein HRB → keine Owner-Ausnahme → Kontaktfelder bleiben leer, Repo-Praxis). Angebot: mobile kostenlose Schrottabholung + Containerservice, alle FE/NE-Sorten. Auffälligkeit: nur http erreichbar, https schlägt fehl (Strato-Hosting) — website_status dennoch aktiv. Frontmatter: website_status aktiv, status aktiv. street/postcode/phone/email laut Impressum: Fritz-Pütter-Str. 13 / 48153 / 0172/2750796 / info@schrottdirektor.de — Klärfall Folgewelle (Zweitbeleg). Quelle(n): schrottdirektor.de (http-Abruf 02.10.2026: index, leistungen, impressum)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

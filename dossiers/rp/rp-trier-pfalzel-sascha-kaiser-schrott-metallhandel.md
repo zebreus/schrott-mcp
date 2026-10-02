@@ -9,7 +9,7 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: http://www.schrotthandel-kaiser-trier.de
+website: http://schrotthandel-kaiser-trier.de
 website_status: aktiv
 status: pruefung
 description: ''
@@ -31,6 +31,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Triage 01.10.2026 (Feedback 2606)
 
 - [Triage 01.10.2026: Feedback 2606 geprüft — Adresse/Telefon/E-Mail/Abholung. Korrektur 30.09.2026 bleibt (Sascha Kaiser, Pfalzeler Str. 11, 54293 Trier, Tel. 01520 6623504, USt-Id, Abholservice; ohne HR-Zweitbeleg → Frontmatter bewusst leer; Namensvetter-Trennung bestätigt). Site live bestätigt (HTTP 200). Kein Overwrite.]
+
+### Recherche 02.10.2026
+
+- [Recherche 02.10.2026: Re-Verifizierung — Site weiterhin live (HTTP 200); website auf Domain-Root normalisiert (reine Formatkorrektur, kein Faktenwechsel); keine neuen Fakten, Frontmatter-Regel (Einzelbeleg) und pruefung bleiben; Quelle(n): schrotthandel-kaiser-trier.de (live 02.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
