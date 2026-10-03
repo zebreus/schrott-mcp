@@ -13,7 +13,7 @@ website: https://kwlkabelrecycling.de/
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: '{"allowed": true, "conditions": "flexible Abholung nach Vorankündigung/Termin, Frankfurt + hessenweit, Bar-Auszahlung moeglich (kwlkabelrecycling.de, 01.10.2026)"}'
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Betreiberseite beschreibt flexible, vereinbarte Abholung; Impressum nennt Homburger Landstraße 247 als Kontaktanschrift. Keine Seite sagt, Kund:innen dürften nicht anliefern, und die Anschrift ist nicht als Annahmestelle bestätigt. Website-Unterseiten sind eine Quelle; `dropoff_json` bleibt unbekannt, keine Anlieferung aus der Abholwerbung ausgeschlossen.; Quelle(n): https://kwlkabelrecycling.de/, https://kwlkabelrecycling.de/impressum/, https://kwlkabelrecycling.de/kontakt/]
 
 ### Recherche 01.10.2026
 

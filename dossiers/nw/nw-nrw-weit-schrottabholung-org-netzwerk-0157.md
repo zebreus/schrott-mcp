@@ -13,7 +13,7 @@ website: https://schrottabholung.org/
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Mobile / NRW-weite Händler (ohne geprüften stationären Platz)
 provenance_ankauf_raw: mobil/ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Betreiberseite bewirbt NRW-weite mobile Abholung und listet Bahnhofstraße 3, Bochum im Impressum. Die Bochum-Seite empfiehlt Abholung statt eigener Fahrt zum Schrottplatz, verbietet aber keine Kundenanlieferung an der Kontaktadresse. Parallelauftritt `.de` ist derselbe Betreiber und kein Zweitbeleg; keine Annahmestelle verifiziert. `dropoff_json` bleibt unbekannt, der Impressumssitz wird nicht als Schrottplatz ausgegeben.; Quelle(n): https://schrottabholung.org/, https://schrottabholung.org/impressum/, https://schrottabholung.org/schrottankauf-bochum/, https://www.schrott-ankauf-nrw.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -13,7 +13,7 @@ website: https://schrottjungs.de
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{"allowed": true, "conditions": "Anlieferung laut Betreiberseite am Partnerstandort Entel Container GmbH, Lerchenstraße 19, 80995 München; kein eigener SchrottJungs-Standort."}'
 pickup_json: ''
 provenance_section: Betriebe mit geprüfter Website
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431)
+
+- [Recherche 03.10.2026: Die bisherige Aussage „Abholung statt Anlieferung – kein Dropoff-Versprechen“ ist für München überholt. Die aktuelle SchrottJungs-Stadtseite bietet ausdrücklich Anlieferung bei Entel Container GmbH, Lerchenstraße 19, 80995 München an; Entels eigene Website bestätigt die Kundenanlieferung an dieser Adresse, Impressum/Register bestätigen den getrennten Partner-Rechtsträger. `dropoff_json` daher nur mit klarer Partnerbedingung auf allowed=true gesetzt; Adresse bleibt aus den eigenen street/postcode-Feldern heraus. Keine eigene SchrottJungs-Filiale oder Annahme in anderen Städten behauptet.; Quelle(n): https://schrottjungs.de/schrottabholung-muenchen/, https://www.entel-container.de/, https://www.entel-container.de/impressum/, https://www.northdata.com/Entel%20GmbH%20Containerdienst,%20M%C3%BCnchen/HRB%2093487]
 
 ### Recherche 01.10.2026
 

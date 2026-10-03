@@ -13,7 +13,7 @@ website: http://www.schrottsolingen.de/
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: '{"allowed": true, "conditions": "Kostenlose Schrottabholung in Solingen/Remscheid/Haan/Wermelskirchen/Langenfeld/Leichlingen, Ankauf bei groesseren Mengen (Betreiber-Website, Feedback-Triage 01.10.2026)"}'
 provenance_section: Nachtrag Audit-Runde 2
 provenance_ankauf_raw: mobil/ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Homepage bewirbt Schrottankauf in Solingen und Umgebung, Impressum nennt als Betreiberanschrift Ahlmannshof 42, Gelsenkirchen. Damit ist kein Solinger Annahmeort belegt; „nur Abholung“ darf nicht als „kein Ankauf“ missverstanden werden. Eine gleichadressige Website desselben Betreibers ist kein unabhängiger Solingen-Filialbeleg. `dropoff_json` bleibt unbekannt, keine lokale Filiale erfunden.; Quelle(n): https://www.schrottsolingen.de/, https://www.schrottsolingen.de/impressum.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

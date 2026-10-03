@@ -13,7 +13,7 @@ website: https://makowskigmbh.de/
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Betreiber-Homepage aktuell mit ausdrücklichem „Keine Anlieferung“ geprüft; sie nennt zugleich Abholung ab 1,5 t. Das Impressum weist kein HRB aus, Verzeichniseinträge sind keine unabhängige Bestätigung. Deshalb kein `dropoff_json.allowed=false` aus einer einzelnen Quelle; Frontmatter bleibt unbekannt, eine dauerhafte Annahmeschließung ist nicht belegt.; Quelle(n): https://makowskigmbh.de/, https://makowskigmbh.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -13,7 +13,7 @@ website: https://recycling-wagner.de/
 website_status: 'aktiv'
 status: aktiv
 description: Mobiler Schrott- und NE-Metallankauf mit Abholung ab 500 kg, Containerdienst und Demontage; kein klassischer Walk-in-Schrottplatz.
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Rhein-Neckar / Nordbaden
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Die Sinsheim-/Ankauf-/Abholseiten sagen „kein klassischer Walk-in-Schrottplatz“ bzw. kein Vorbeibringen ohne Termin und nennen Abholung ab 500 kg. Das schließt eine vorher vereinbarte Anlieferung nicht eindeutig aus; Firmensitz ist nicht als Annahmestelle belegt. WLW bleibt Lead. Daher `dropoff_json` unbekannt statt `allowed=false`; Terminannahme bleibt offen.; Quelle(n): https://recycling-wagner.de/schrotthandel-sinsheim, https://recycling-wagner.de/schrotthandel-ankauf, https://recycling-wagner.de/schrottabholung]
 
 ### Recherche 03.10.2026
 

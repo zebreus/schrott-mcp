@@ -13,7 +13,7 @@ website: https://schrotthandel-freiburg.de/
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Freiburg / Südbaden / Hochrhein
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Betreiberseite sagt, es gebe keinen Annahmepunkt in Freiburg und Schrott werde beim Kunden abgeholt; Hebelstraße 13, Eichstetten, wird auf der Schwesterseite als Postadresse bezeichnet. Das belegt kein allgemeines Anlieferverbot am Eichstettener Ort und die Schwester-Domain ist keine unabhängige Quelle. `dropoff_json` ist explizit `{}` (fehlendes `allowed` = unbekannt); kein `allowed=false` abgeleitet.; Quelle(n): https://schrotthandel-freiburg.de/, https://trennwerkae.de/kontakt/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

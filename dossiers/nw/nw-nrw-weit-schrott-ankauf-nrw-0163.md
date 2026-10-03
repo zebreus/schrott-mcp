@@ -13,7 +13,7 @@ website: https://www.schrott-ankauf-nrw.de
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Mobile / NRW-weite Händler (ohne geprüften stationären Platz)
 provenance_ankauf_raw: mobil/ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Betreiber-Kontakt/Impressum nennen Bahnhofstraße 3, Bochum; Schrottankauf-/Abholseiten beschreiben mobilen Service. Die Seite erwähnt zugleich, E-Schrott könne „bei uns“ abgegeben werden, klärt aber nicht, ob die Kontaktanschrift eine Annahmestelle ist. `.org`/`.de`-Seiten gehören demselben Betreiber und zählen nicht als unabhängige Bestätigung. Kein Standort in Kassel/NRW aus Kontaktadresse erfunden; `dropoff_json` bleibt unbekannt, weder pauschal true noch false.; Quelle(n): https://www.schrott-ankauf-nrw.de/kontakt, https://www.schrott-ankauf-nrw.de/impressum, https://www.schrott-ankauf-nrw.de/schrottankauf, https://www.schrott-ankauf-nrw.de/schrottabholung]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

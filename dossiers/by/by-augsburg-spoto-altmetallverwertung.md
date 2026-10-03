@@ -13,7 +13,7 @@ website: https://spoto-altmetall.de/
 website_status: 'aktiv'
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: 'Neu: Website-verifiziert, Ankauf ja (17)'
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Live-Homepage sagt ausdrücklich „Aktuell keine Schrottanlieferung zu uns an den Standort“ und bewirbt Abholung/Container; allgemeine FAQ-Aussagen über Weiterverarbeitung ändern den Standortbezug nicht. Das Einzelunternehmen hat kein HRB, daher bleibt es ein Betreiber-Einzelbeleg ohne Owner-Ausnahme. Kein `dropoff_json.allowed=false` aus nur einer Quelle; der temporär klingende Hinweis bleibt Klärfall und das Frontmatter unbekannt.; Quelle(n): https://spoto-altmetall.de/, https://spoto-altmetall.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

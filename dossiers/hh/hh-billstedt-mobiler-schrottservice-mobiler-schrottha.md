@@ -13,7 +13,7 @@ website: https://mobiler-schrottservice.de
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2
 provenance_ankauf_raw: ja (Abholung)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Aktuelle Betreiberseite nennt Brockhausweg 57 und Schrottankauf/Abholung, schließt Kundenanlieferung aber nicht aus; die Adresse ist allein Impressums-/Kontaktadresse, keine nachgewiesene Annahmestelle. Gleichnamiger Eintrag „Steinbach“ an Nr. 93 mit anderer Telefonnummer stammt aus Verzeichnissen und bleibt getrennte, ungeklärte Lead-Identität. Kein Merge und kein `dropoff_json.allowed=false`; Frontmatter bleibt unbekannt.; Quelle(n): https://mobiler-schrottservice.de/, https://mobiler-schrottservice.de/leistungen/, https://mobiler-schrottservice.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

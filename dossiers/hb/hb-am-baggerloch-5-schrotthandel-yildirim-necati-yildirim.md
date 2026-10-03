@@ -1,6 +1,6 @@
 ---
 slug: hb-am-baggerloch-5-schrotthandel-yildirim-necati-yildirim
-name: Schrotthandel-Yildirim GmbH (Necati Yildirim)
+name: Schrotthandel-Yildirim GmbH
 trader_type: containerdienst
 state: HB
 city: Bremerhaven
@@ -10,9 +10,9 @@ phone: 0471 3004483
 email: mail@schrotthandel-yildirim.de
 opening_hours: Mo-Fr 08:30-12:30, 13:00-16:30, Sa geschlossen
 website: https://www.schrotthandel-yildirim.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
-description: ''
+description: 'Ankauf von Schrott, Kabeln und Buntmetallen; Containerdienst in Bremerhaven.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Bremerhaven
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Gesamtaudit B)
+
+- [Recherche 03.10.2026: BEHALTEN, aktiv. Root, Impressum und Kontakt einzeln geöffnet: Betriebsadresse Am Baggerloch 7, Geschäftsführer Deniz Yildirim, Telefon/E-Mail und bestehende Zeiten bestätigt; Samstag ausdrücklich vorübergehend geschlossen. Aktuellen Namen ohne unbelegten Inhaberzusatz Necati präzisiert, website_status aktiv und Beschreibung gefüllt. Registerspiegel nennt aktive GmbH, Bremen HRB 32402, Deniz Yildirim und Am Baggerloch 5–7. Korrektur der Notiz vom 01.10.: Hausnummer 5 ist nicht schlechthin falsch, sondern Teil der Registeranschrift; Betriebsadresse 7 bleibt maßgeblich. Oderberger Straße weiterhin unbelegter Umzugslead, kein Merge; Quelle(n): https://www.schrotthandel-yildirim.de/, https://www.schrotthandel-yildirim.de/impressum/, https://www.schrotthandel-yildirim.de/kontakt/, https://www.registercheck.de/companies/schrotthandel-yildirim-gmbh]
+- [Recherche 03.10.2026: Ankauf aller handelsüblichen Schrotte/Metalle, insbesondere Kabel und NE-Metalle, sowie Container von 5 bis 40 m³ auf Betreiberseite belegt; Geschichte seit 1980 ist Betreiberangabe. Keine belastbaren Tagespreise. Registercheck ist ein unabhängiger Spiegel, kein gelesener amtlicher Auszug; dessen Auszugsdownload HTTP 403. Koordinaten bewusst leer: Nominatim für Hausnummer 7 nur Straßentreffer, genauer Hausnummer-5-Treffer kein zulässiger Ersatz für Betriebsadresse 7; Quelle(n): https://www.schrotthandel-yildirim.de/, https://nominatim.openstreetmap.org/search?q=Am%20Baggerloch%207%2C%2027572%20Bremerhaven&format=jsonv2&addressdetails=1&limit=3]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

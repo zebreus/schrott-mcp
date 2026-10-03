@@ -13,7 +13,7 @@ website: https://schrottjungs.de
 website_status: 'aktiv'
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Mobile Schrottabholung Umland Leipzig (Markkleeberg/Taucha/Schkeuditz/Boehlen/Zwenkau), keine feste Anlieferstelle; Konditionen wie Leipzig-Row (Betreiber-Seite, Triage 01.10.2026)"}'
 provenance_section: 7) Überregional / mobil / online (in SN tätig)
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Leipzig-Betreiberseite führt Markkleeberg, Taucha, Schkeuditz, Böhlen und Zwenkau als Servicegebiet und beschreibt Abholung/Ankauf; eine lokale Anlieferadresse oder ein ausdrückliches Anlieferverbot nennt sie nicht. Hamburg-Impressum/HRB belegen den Rechtssitz, keine Leipziger Niederlassung. `dropoff_json` bleibt unbekannt; keine Dublette oder lokale Filiale aus dem Servicegebiet abgeleitet.; Quelle(n): https://schrottjungs.de/schrottabholung-leipzig/, https://schrottjungs.de/impressum-datenschutz/, https://www.northdata.de/Schrottjungs%20UG,%20Hamburg/Amtsgericht%20Hamburg%20HRB%20196586]
 
 ### Recherche 01.10.2026 (Feedback 2681)
 

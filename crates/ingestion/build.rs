@@ -41,6 +41,9 @@ const KNOWN_KEYS: &[&str] = &[
     "city",
     "street",
     "postcode",
+    // Verified dossier-only WGS84 coordinates; not imported into the database.
+    "lat",
+    "lon",
     "phone",
     "email",
     "opening_hours",
@@ -221,6 +224,21 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
         }
     }
     let get = |k: &str| fm.get(k).cloned().unwrap_or_default();
+    let lat = get("lat");
+    let lon = get("lon");
+    if lat.is_empty() != lon.is_empty() {
+        fail(&name, "lat/lon müssen beide gefüllt oder beide leer sein");
+    }
+    if !lat.is_empty() {
+        for (key, raw, bound) in [("lat", &lat, 90.0), ("lon", &lon, 180.0)] {
+            let value = raw
+                .parse::<f64>()
+                .unwrap_or_else(|_| fail(&name, &format!("ungültige Koordinate {key}: {raw:?}")));
+            if !value.is_finite() || value.abs() > bound {
+                fail(&name, &format!("Koordinate außerhalb WGS84: {key}={raw}"));
+            }
+        }
+    }
     let slug = get("slug");
     if slug.is_empty() {
         fail(&name, "slug fehlt/leer");
@@ -339,4 +357,55 @@ fn main() {
         fs::write(out_dir.join(format!("{st}.json")), out).expect("seed json schreiben");
     }
     println!("cargo:warning=seed codegen ok (dossiers -> $OUT_DIR/seed_traders)");
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn coordinates(fields: &str) -> Vec<(String, String)> {
+        parse_dossier(
+            Path::new("coordinate-test.md"),
+            &format!("---\nslug: coordinate-test\n{fields}---\n## Timeline\n"),
+            "bb",
+        )
+    }
+
+    #[test]
+    fn accepts_documentary_coordinates_without_importing_them() {
+        let row = coordinates("lat: '52.5'\nlon: '13.4'\n");
+        assert!(!row.iter().any(|(key, _)| key == "lat" || key == "lon"));
+        coordinates("");
+        coordinates("lat: ''\nlon: ''\n");
+    }
+
+    #[test]
+    #[should_panic(expected = "lat/lon")]
+    fn rejects_unpaired_coordinates() {
+        coordinates("lat: '52.5'\n");
+    }
+
+    #[test]
+    #[should_panic(expected = "ungültige Koordinate")]
+    fn rejects_non_numeric_coordinates() {
+        coordinates("lat: 'unknown'\nlon: '13.4'\n");
+    }
+
+    #[test]
+    #[should_panic(expected = "außerhalb WGS84")]
+    fn rejects_non_finite_coordinates() {
+        coordinates("lat: 'NaN'\nlon: '13.4'\n");
+    }
+
+    #[test]
+    #[should_panic(expected = "außerhalb WGS84")]
+    fn rejects_out_of_range_coordinates() {
+        coordinates("lat: '52.5'\nlon: '181'\n");
+    }
+
+    #[test]
+    #[should_panic(expected = "unbekannter Key")]
+    fn still_rejects_unknown_keys() {
+        coordinates("latitude: '52.5'\n");
+    }
 }

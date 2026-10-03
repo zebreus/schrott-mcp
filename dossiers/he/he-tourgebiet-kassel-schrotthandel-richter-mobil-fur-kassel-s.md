@@ -13,7 +13,7 @@ website: https://www.schrotthandel-richter.de/schrotthandel-kassel
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Einträge
 provenance_ankauf_raw: ja (mobil)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Die Kassel-Seite nennt Northeim als Sitz und erlaubt nach telefonischer Absprache Anlieferung an Untere Dorfstraße 49, 37154 Northeim; die Northeim-Seite und das Impressum bestätigen dieselbe Betreiberangabe. Das ist ein anderer Staat/Standort, kein Kasseler Annahmeplatz; mehrere Seiten zählen als eine Einzelunternehmerquelle. Frühere Formulierung „keine Anlieferung belegt“ wird dadurch präzisiert, aber `dropoff_json` bleibt nach Zwei-Quellen-Regel unbekannt.; Quelle(n): https://www.schrotthandel-richter.de/schrotthandel-kassel, https://www.schrotthandel-richter.de/schrotthandel-northeim, https://www.schrotthandel-richter.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

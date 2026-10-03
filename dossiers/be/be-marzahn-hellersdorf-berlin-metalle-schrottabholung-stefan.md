@@ -13,7 +13,7 @@ website: https://berlin-metalle.de
 website_status: ''
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: A. Neu mit Ankaufbeleg (nicht in Hauptliste)
 provenance_ankauf_raw: ja (Abholung; keine Preisliste)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Aktuelle Abrufseite bewirbt Abholung und nennt im Footer nur „Lötschbergstraße, 12683 Berlin“ ohne Hausnummer oder Annahmehinweis; der Altseiten-Footer weist „Schrottabholung Belger“ und Copyright 2009–2018 aus. Das ist weder ein verifizierter Kunden-Anlieferort noch ein Beleg für dessen Nichtexistenz. Kein `dropoff_json.allowed=false`; Frontmatter bleibt unbekannt.; Quelle(n): https://berlin-metalle.de/schrottabholung/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -13,7 +13,7 @@ website: https://schrotthandel-hristov.de
 website_status: ''
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: A. Neu mit Ankaufbeleg (nicht in Hauptliste)
 provenance_ankauf_raw: ja (Abholung)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Betreiberseite/Impressum nennen Biser Hristov und Herzbergstraße 51; Abholung nach Termin wird beschrieben, aber kein Anlieferverbot. Ältere Adresszuordnungen zu Kopenhagener Straße 99/Lange Straße 3 stammen nur aus Aggregator-Leads. KMAB nennt Herzbergstraße 35/36, also eine andere Hausnummer und keinen Gegenbeleg zu Nr. 51. `dropoff_json` bleibt unbekannt, keine Zusammenführung oder Gegenadresse behauptet.; Quelle(n): https://schrotthandel-hristov.de/, https://schrotthandel-hristov.de/schrottabholung.php, https://schrotthandel-hristov.de/impressum.php, https://www.kmabgmbh.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

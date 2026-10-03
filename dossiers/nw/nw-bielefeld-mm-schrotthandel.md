@@ -13,7 +13,7 @@ website: https://www.mmschrott.de/
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: '{"allowed": true, "conditions": "Abholservice mit Ladekran, Containerdienst Mulden 5-38 m3, kein Anlieferplatz (Anschrift nur Buero) (Betreiber-Website, Feedback-Triage 01.10.2026)"}'
 provenance_section: Münsterland / OWL (Münster, Bielefeld, Nottuln)
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Betreiber-Schrottseite bittet Kund:innen, Anlieferung telefonisch zu erfragen; Kontaktseite kennzeichnet Adolf-Reichwein-Straße 22b ausdrücklich als „ANSCHRIFT (nur BÜRO)“. Northdata HRA 17585 bestätigt Unternehmen/Adresse, nicht die Anlieferungspolitik. Daraus folgt weder ein belegtes Annahmeverbot an anderer Stelle noch eine Anlieferstelle an dieser Büroadresse; `dropoff_json` bleibt unbekannt.; Quelle(n): https://www.mmschrott.de/schrotthandel, https://www.mmschrott.de/kontakt, https://www.northdata.de/MM%20Schrott%20%26%20Metalle%20e.K.,%20Bielefeld/HRA%2017585]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

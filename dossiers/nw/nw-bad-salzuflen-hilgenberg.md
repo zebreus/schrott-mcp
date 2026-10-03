@@ -36,3 +36,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Bad Salzuflen
+
+### Recherche 03.10.2026 (Gesamtaudit C)
+
+- [Recherche 03.10.2026: 11880-Detailseite direkt abgerufen: Johannes Hilgenberg Rohstoffe, Kiliansweg 6, 32108 Bad Salzuflen, 05222 81651, Schrotthandel/Altmaterialhandel/Rohstoffgroßhandel. Fachlich relevanter Lead, keine Entfernung empfohlen. Eintragsursprung 29.06.2021 trotz Anzeige Aktualisierung 01.10.2026; daraus kein aktueller Betriebsnachweis. Andere Verzeichnisnennungen nicht als gesichert unabhängig behandelt, keine erfolgreich abgerufene eigene Betreiber-/Registerquelle. Namensvetter Hilgenberg Glas in Malsfeld und Industriebedarf-Betriebe nicht übertragen.; Quelle(n): https://www.11880.com/branchenbuch/bad-salzuflen/060440090B26054969/johannes-hilgenberg-rohstoffe.html]
+- [Recherche 03.10.2026: Keine Adresse/PLZ/Telefon/E-Mail/Öffnungszeiten oder Website neu gefüllt; Einzelquellen-Ausnahme nicht beansprucht, status pruefung/website_status unbekannt bleiben. Keine konkreten Annahme-/Abholbedingungen, Mindestmengen oder Preisangaben belegt. Koordinatenblocker: heutiger Standort und Betreiberidentität nicht unabhängig verifiziert; Kiliansweg-Lead reicht dafür nicht, keine Ortsmitte/keine Namensvetter-HQ-Koordinaten. Audit-C-Zwischenstand; geforderte sechs Stunden bislang nicht erfüllt.; Quelle(n): https://www.11880.com/branchenbuch/bad-salzuflen/060440090B26054969/johannes-hilgenberg-rohstoffe.html]

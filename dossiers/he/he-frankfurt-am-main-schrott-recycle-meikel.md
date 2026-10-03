@@ -13,7 +13,7 @@ website: https://schrott-recycling-meikel.de/
 website_status: aktiv
 status: pruefung
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Homepage belegt Schrottankauf, Abholung und Container, sagt aber nicht, dass Kund:innen nicht anliefern dürfen. Vatterstraße 23 steht im Impressum als Kontaktadresse, nicht als Annahmestelle; die Homepage-Zeiten sind kein belegter Hofbetrieb. Keine unabhängige zweite Quelle für Anlieferverbot oder Annahmeort; `dropoff_json` bleibt unbekannt und `allowed=false` wird nicht abgeleitet.; Quelle(n): https://schrott-recycling-meikel.de/, https://schrott-recycling-meikel.de/impressum/]
 
 ### Recherche 01.10.2026
 

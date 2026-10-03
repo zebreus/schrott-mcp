@@ -13,7 +13,7 @@ website: https://www.pichl-gmbh.de/
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Freiburg / Südbaden / Hochrhein
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Betreiberseite nennt „ZUR ZEIT KEINE ANNAHME … auch nicht zu den Öffnungszeiten“, beschreibt zugleich reguläre Materialannahme in Freiburg. Northdata HRB 2418 bestätigt Unternehmen/Adresse, nicht die Aktualität oder Dauer der Annahmepause; undatierter Hinweis und älterer Website-Footer lassen den Zeitraum offen. Daher kein dauerhaftes `dropoff_json.allowed=false`; Frontmatter bleibt unbekannt, Status der Annahme ist Klärfall.; Quelle(n): https://www.pichl-gmbh.de/, https://www.northdata.de/Eisen-%20und%20Metallhandel%20Franz%20Pichl%20GmbH,%20Freiburg%20i%C2%B7%20Breisgau/Amtsgericht%20Freiburg%20HRB%202418]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

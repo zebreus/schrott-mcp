@@ -13,7 +13,7 @@ website: https://schrottjungs.de
 website_status: aktiv
 status: aktiv
 description: ''
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: ja (mobil)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
+
+- [Recherche 03.10.2026: Berlin-Stadtseite belegt Abholung/Container, nicht das Fehlen jeder Berliner Anlieferstelle; der Hinweis, Schrott nicht öffentlich abzustellen, ist kein Anlieferverbot. Impressum und HRB bestätigen den Hamburger Rechtssitz, nicht eine Berliner Filiale. ProvenExpert führt abweichende Kontaktdaten/MADI-Bezug und bleibt Identitäts-Lead. Kein Berliner Dropoff belegt, aber auch keine Nichtexistenz; `dropoff_json` bleibt unbekannt.; Quelle(n): https://schrottjungs.de/schrottabholung-berlin/, https://schrottjungs.de/impressum-datenschutz/, https://www.northdata.de/Schrottjungs%20UG,%20Hamburg/Amtsgericht%20Hamburg%20HRB%20196586, https://www.provenexpert.com/de-de/schrottjungs/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
