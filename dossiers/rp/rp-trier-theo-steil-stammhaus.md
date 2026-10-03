@@ -13,7 +13,7 @@ website: https://www.steil.de
 website_status: aktiv
 status: aktiv
 description: 'Stammhaus des Schrott- und Metallgroßhändlers (23 Standorte): Schrott-/Metallhandel, Export, Shredder und Kondirator; Ankauf nicht von Privatpersonen, kein Verkauf von Kfz-Ersatzteilen.'
-dropoff_json: ''
+dropoff_json: '{"allowed":true,"customer_types":["gewerbe"]}'
 pickup_json: ''
 provenance_section: Schrottankauf Rheinland-Pfalz (RP) — Recherche
 provenance_ankauf_raw: Ankauf Ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4518)
+
+- [Recherche 03.10.2026: Feedback 4518 berechtigt. Die Trierer Standortseite weist eine Schrottannahme mit Öffnungszeiten aus; die Betreiber-Übersicht schließt Privatpersonen ausdrücklich vom Ankauf aus. Frontmatter `dropoff_json` daher auf `allowed:true`, `customer_types:[gewerbe]` präzisiert; keine Privatannahme behauptet. Quellen: https://www.steil.de/standorte-kontakt/trier-schrott-und-metallgrosshandel, https://www.steil.de/standorte-kontakt/uebersicht (Betreiberquellen, Abruf 03.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

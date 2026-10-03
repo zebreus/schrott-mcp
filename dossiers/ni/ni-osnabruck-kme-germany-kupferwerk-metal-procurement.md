@@ -13,7 +13,7 @@ website: https://kme.com
 website_status: aktiv
 status: aktiv
 description: Kupferwerk Osnabrück, B2B-Schrottankauf (Kupfer-/Messing-/Zinkschrotte für Konzerngießereien), kein Publikums-Ankauf
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Osnabrück / Emsland / Grafschaft Bentheim
 provenance_ankauf_raw: ja
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4518)
+
+- [Recherche 03.10.2026: Feedback 4518 teilweise berechtigt. Die Betreiberseite bestätigt den B2B-Einkauf großer Mengen NE-Schrott für vier KME-Gießereien, aber keine Selbstanlieferung bzw. Annahmestelle am Osnabrücker Standort. Der bisherige DB-Wert `{"allowed":true}` belegt keinen Drop-off. Frontmatter `dropoff_json` explizit auf `{}` gesetzt (= unbekannt; weder Annahme noch Ablehnung behauptet); Kundenarten deshalb nicht geraten. Quelle(n): https://www.kme.com/de/services/rohstoffbeschaffung (Abruf 03.10.2026)]
 
 ### Recherche 01.10.2026
 

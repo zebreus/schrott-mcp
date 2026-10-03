@@ -13,7 +13,7 @@ website: https://www.rast-metall.de/
 website_status: aktiv
 status: aktiv
 description: 'Schrotthandel Rast (Johannes Rast): FE/NE-Schrott und Kabel nur fuer Gewerbe; Katalysatoren-Ankauf auch privat; Containerdienst'
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
 provenance_ankauf_raw: 'ja, aber: Schrott nur Gewerbe; Kats auch privat'
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4518)
+
+- [Recherche 03.10.2026: Feedback 4518 teilweise berechtigt. Die Betreiberseite nennt Gewerbeschrott bundesweit sowie Katalysator-Ankauf auch für Privatpersonen und bietet Abholung/Container; eine Kundenanlieferung an der Mittelhäuserstraße wird dort jedoch nicht belegt. Deshalb `dropoff_json` explizit auf `{}` gesetzt (= unbekannt), statt den materialabhängigen Ankauf fälschlich als Standortannahme zu kodieren. Die abweichende Impressumsanschrift Stadtweg 70 bleibt unverändert dokumentiert. Quelle(n): https://www.rast-metall.de/, https://www.rast-metall.de/impressum (Betreiberwebsite; Abruf 03.10.2026)]
 
 ### Recherche 01.10.2026
 

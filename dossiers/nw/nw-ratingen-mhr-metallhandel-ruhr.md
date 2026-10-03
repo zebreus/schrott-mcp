@@ -13,7 +13,7 @@ website: https://tsr.eu
 website_status: aktiv
 status: aktiv
 description: Verwaltungsgesellschaft MHR Metallhandel Ruhr GmbH (TSR Group), B2B, kein Publikums-Ankauf
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2
 provenance_ankauf_raw: ja (B2B)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4518)
+
+- [Recherche 03.10.2026: Feedback 4518 teilweise berechtigt. Die bereits dokumentierte Betreiberrecherche bezeichnet MHR als Verwaltungsgesellschaft; die erneuten Abrufe der TSR-Seiten liefern derzeit keinen auswertbaren Inhalt. Weder die B2B-Angabe noch die Verwaltungsanschrift belegen eine Kundenannahme bzw. Anlieferstelle. Der bisherige DB-Wert `{"allowed":true}` ist dafür kein Beleg. Frontmatter `dropoff_json` explizit auf `{}` gesetzt (= unbekannt; kein „keine Annahme“-Urteil); Kundenarten nicht geraten. Quelle(n): https://www.tsr-recycling.de/bibliothek, https://www.tsr.eu/en/about-us (Betreiberquellen; Abrufprüfung 03.10.2026 ohne auswertbaren Seiteninhalt)]
 
 ### Recherche 01.10.2026
 

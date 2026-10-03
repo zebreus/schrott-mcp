@@ -13,7 +13,7 @@ website: https://www.speira.com/
 website_status: aktiv
 status: aktiv
 description: Aluminium-Walzunternehmen mit Recycling-Services (Alu-Schrott Ruecknahme, B2B). Sitz/Hauptwerk Grevenbroich, Alunorf-JV.
-dropoff_json: ''
+dropoff_json: '{}'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten)
 provenance_ankauf_raw: ja (B2B)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4518)
+
+- [Recherche 03.10.2026: Feedback 4518 teilweise berechtigt. Speiras Betreiberseiten belegen Recyclingaktivitäten und eine Einkaufsabteilung für Angebote, aber keine Annahme bzw. Selbstanlieferung am Werk Grevenbroich. Der bisherige DB-Wert `{"allowed":true}` und der B2B-Kontext belegen keinen Drop-off. Frontmatter `dropoff_json` explizit auf `{}` gesetzt (= unbekannt; weder Annahme noch Ablehnung behauptet); Kundenarten nicht geraten. Quelle(n): https://www.speira.com/, https://www.speira.com/contact/, https://www.speira.com/imprint/ (Abruf 03.10.2026)]
 
 ### Recherche 01.10.2026 (Feedback 2526)
 
