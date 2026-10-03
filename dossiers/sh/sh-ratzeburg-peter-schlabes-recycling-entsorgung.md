@@ -40,6 +40,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 02.10.2026: miss - weiter kein Betreiber-Beleg, keine HR-Eintragung. Lead-Lage VERDICHTET (weiter kein Fill, Aggregator-only): Peter Schlabes Recycling & Entsorgung (auch Rohstoff & Gebrauchtwarenhandel), Heinrich-Hertz-Str. 11A, 23909 Ratzeburg, Tel. 04541 803737, konsistent ueber Gelbe Seiten (Branchen Entsorgung/Recycling/Schrott), Cylex, 11880, Telefonbuch (Branche Schrott), Das Oertliche (Abfallgesellschaften). 5 unabhaengige Verzeichnisse, identische Adresse+Tel. → starker Lead fuer Folgewelle (Anruf/Ortsbegehung); Quelle(n): gelbeseiten.de, cylex.de, 11880.com, dastelefonbuch.de, dasoertliche.de (nur Leads)]
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: 11880-Einzelprofil geöffnet: es führt die Adresse Heinrich-Hertz-Str. 11 A, 23909 Ratzeburg und Tel. 04541 803737, bietet aber nur „Website hinzufügen“ statt eines Betreiber-Links; damit keine Betreiber-Website verifiziert (11880 bleibt Aggregator-Lead). Das Telefonbuch führt daneben einen getrennten Eintrag „Schlabes Peter“ an Roonstr. 5; eine Verbindung zum Recycling-Eintrag ist nicht belegt und die beiden nicht zusammengeführt. Weiter kein qualifizierbarer Betreiber-/Registerbeleg oder belastbarer Identitätsnachweis; Kontaktdaten bleiben leer, status pruefung und website_status unbekannt. Quellen: https://www.11880.com/branchenbuch/ratzeburg/060441364B102331998/peter-schlabes-recycling-entsorgung-recycling.html, https://www.dastelefonbuch.de/Suche/Schlabes/Ratzeburg (Abruf 03.10.2026)]
+
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]

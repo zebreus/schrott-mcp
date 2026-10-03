@@ -3,15 +3,15 @@ slug: he-schwarzenborn-34639-santoro
 name: Santoro
 trader_type: schrotthaendler
 state: HE
-city: Schwarzenborn 34639
+city: Schwarzenborn
 street: ''
-postcode: ''
+postcode: '34639'
 phone: ''
 email: ''
 opening_hours: ''
 website: 'http://www.schrotthandel-santoro.de/'
 website_status: aktiv
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,12 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Korrektur 03.10.2026 (Audit-Feedback #4524): die im importierten Ortsfeld enthaltene PLZ `34639` in das separate `postcode`-Feld verschoben und `city` auf Schwarzenborn normalisiert. Straßenadresse bleibt wegen des Widerspruchs zwischen Betreiberseite und Stadtverzeichnis ungeklärt; Feldaufteilung bestätigt keine der beiden Straßen. Quelle(n): bisheriger Dossier-Seedwert; Betreiber-/Kommunal-Gegenprüfung im folgenden Recherchevermerk.]
+
+- [Recherche 03.10.2026: Betreiber-Vollcrawl einzeln: http://www.schrotthandel-santoro.de/, http://www.schrotthandel-santoro.de/ueber-uns, http://www.schrotthandel-santoro.de/leistungen, http://www.schrotthandel-santoro.de/schrottabholung, http://www.schrotthandel-santoro.de/ankauf, http://www.schrotthandel-santoro.de/containerdienst, http://www.schrotthandel-santoro.de/haushaltsaufloesungen und http://www.schrotthandel-santoro.de/impressum. Betreiberseiten bieten ausdrücklich Schrottankauf/Abholung; die städtische Gewerbedatenbank listet unabhängig „Schrotthandel Santoro“, Franco Santoro, Schwarzenborn → Status pruefung → aktiv. Identität daher plausibel; keine zweite Firma/kein Merge belegt. Adresse bleibt Klärfall: Betreiber-Kontaktseite nennt Hauptstraße 2, 34639, Impressum dagegen Neue Straße 29; die Stadt listet ebenfalls Franco Santoro, Neue Straße 29. Telefonnummer ebenfalls widersprüchlich: Betreiberseite +49 173 730 26 68 vs. Stadt 0173/7302683; Festnetz +49 5686 930 555, E-Mail und Zeiten stehen nur auf der Betreiberseite. Deshalb Straße, Telefon, E-Mail und Öffnungszeiten nicht gefüllt; kein vollständiger koordinatenreifer Straßenbeleg. HTTP-Seiten abrufbar, HTTPS-Abrufe weiter mit Transportfehlern; website_status aktiv bleibt. Quelle(n): http://www.schrotthandel-santoro.de/, http://www.schrotthandel-santoro.de/ankauf, http://www.schrotthandel-santoro.de/schrottabholung, http://www.schrotthandel-santoro.de/containerdienst, http://www.schrotthandel-santoro.de/impressum, https://www.schwarzenborn.de/bauen-gewerbe/gewerbebetriebe]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

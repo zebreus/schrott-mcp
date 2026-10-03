@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Lenneper Str. 57, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden (kuester-remscheid.de tot)
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Die live Website kuester-rs.de weist ausdrücklich die RC Küster GmbH als Bauunternehmen am Betriebshof Auf dem Knapp 3, 42855 Remscheid aus; das ist ein anderer Betreiber und belegt weder die Dossierfirma noch Lenneper Str. 57. Die bisherigen Lenneper-Str.-/Telefon-Verzeichnisangaben bleiben unbestätigte Leads. Abrufe von kuester-remscheid.de und wilhelm-kuester.de lieferten keine verwertbaren Betreiberbelege; keine Frontmatter-Änderung, Adresse nicht koordinatenbereit. Quellen/Gegenbeleg: https://www.kuester-rs.de/ ; https://kuester-remscheid.de/ ; https://wilhelm-kuester.de/]

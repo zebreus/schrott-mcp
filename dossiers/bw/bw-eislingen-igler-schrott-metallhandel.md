@@ -4,8 +4,8 @@ name: Igler Schrott & Metallhandel
 trader_type: metallhaendler
 state: BW
 city: Eislingen
-street: ''
-postcode: ''
+street: Ulmerstr. 131/1
+postcode: '73054'
 phone: ''
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Fill street/postcode only — die einzeln geprüften Betreiber-Seiten (Startseite, Über uns, Kontakt, Impressum) der Raphaela-Igler-Marke nennen jeweils Ulmerstr. 131/1, 73054 Eislingen; auch das operator-branded Instagram-Profil führt dieselbe Adresse (direkter Abruf login-gated, Bio im Suchindex sichtbar). Street und postcode daher mit zwei unabhängigen zulässigen Quellen gefüllt. Keine weiteren Felder geändert: die Betreiberseite hat kein HRB/Registerangabe und erfüllt damit nicht die Primärquellen-Ausnahme für Alleinbelege; Öffnungszeiten, E-Mail und Ankaufs-/Abhol-/Anlieferbedingungen bleiben Einzelquellenangaben. Tel.-Konflikt bleibt ungelöst: Startseite/Kontakt/Über-uns zeigen 07162 9486399 und Mobil 0172 2033156, Impressum nennt 07162/45920; daher phone leer, auch wenn die Mobilnummer im Profil wiederholt wird. Identitäts-/Merge-Gegencheck: die separat ausgewiesene Igler Recycling GmbH bewirbt ebenfalls Schrott- und Metallhandel, nennt aber Matthias Igler, Ahornstr. 16, 73054 Eislingen und HRB 722270; keine Quelle verbindet diese GmbH mit Raphaela Iglers Betrieb oder belegt eine Umbenennung/Verschmelzung, daher nicht zusammengeführt. Website/status aktiv bleiben; Dropoff-/Pickup-JSON leer. Quelle(n): https://www.igler-schrott-metall.de/ ; https://www.igler-schrott-metall.de/ueber-uns/ ; https://www.igler-schrott-metall.de/kontakt/ ; https://www.igler-schrott-metall.de/impressum/ ; https://www.instagram.com/igler_schrott_und_metallhandel/ ; https://www.igler-recycling.de/ ; https://www.igler-recycling.de/impressum/ ; https://www.igler-recycling.de/kontakt/ ; https://www.igler-recycling.de/leistung/schrott-und-metallhandel-legierungen/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

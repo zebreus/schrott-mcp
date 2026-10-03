@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Lead: Spessartstr. 10, 33719 Bielefeld (nur Aggregator, kein Zweitbeleg); Quelle(n): keine belegfähige — nur Aggregatoren (Leads)]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: `website_status` leer → `unbekannt` normalisiert; in der heutigen Identitätsprüfung wurde kein sicher dem Dossier zuordenbarer Betreiberauftritt bestätigt. Quelle(n): Quellen und Gegenhinweise im folgenden Recherchevermerk dieses Dossiers.]
+
+- [Recherche 03.10.2026: Identitäts- und Kontaktlead, kein Frontmatter-Fill — 11880 führt „Pero´s Entrümpelung & Schrotthandel“ an Spessartstr. 10, 33719 Bielefeld (Heepen), Tel. 01514 5539515 und pero42@hotmail.de; Eintragsdaten vom 25.12.2024, aktualisiert 17.09.2026, aber keine Öffnungszeiten/Betreiber-Website und keine Bewertungen. Die Profilbeschreibung behauptet Entrümpelungs-, Umzugs- und Kleintransportleistungen, belegt jedoch keine aktuelle Aktivität; 11880 ist hier nur Aggregator. Gelbe-Seiten-Suche nach „Pero's“ liefert keine passende Bielefelder Firma; ihre örtliche Entrümpelungsliste enthält dagegen „PEREZ Entrümpelungen & Umzüge“ in Detmolder Str. 139, 33604 Bielefeld mit abweichendem Namen/Standort — kein Merge. Keine Betreiberseite/Impressum, kein Register-/Kommunalbeleg und kein verifiziertes betreibergeführtes Social-Profil gefunden; kein Betreiber-Webauftritt für Einzelcrawl verlinkt. Adresse/Kontakt/Aktivität bleiben Klärfall, trader_type/status unverändert; Adresse nicht koordinatenreif.; Quelle(n): https://www.11880.com/branchenbuch/bielefeld/060441363B112527902/pero-s-entruempelung-schrotthandel.html (Aggregator); https://www.gelbeseiten.de/suche/Pero%27s/Bielefeld (Aggregator-Suche, kein lokaler Treffer); https://www.gelbeseiten.de/suche/Entruempelung/Bielefeld (Aggregator; PEREZ-Treffer, abweichende Identität)]

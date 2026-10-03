@@ -322,6 +322,11 @@ mod tests {
         assert_eq!(falk.city, "Stuttgart");
         assert!(falk.website.starts_with("https://"));
         assert_eq!(falk.status, "aktiv");
+        let long_timeline = by_slug("ni-visselhovede-martin-broschinski-schrotthandel-peter-b");
+        assert!(
+            long_timeline.notes.chars().count() > 2000,
+            "timeline notes must not be silently truncated"
+        );
         assert!(traders.iter().any(|t| t.provenance.origin == "prose"));
         assert!(traders.iter().any(|t| t.status == "pruefung"));
     }

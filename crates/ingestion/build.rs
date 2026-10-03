@@ -16,7 +16,7 @@
 //!   binary. Verified against `yaml.safe_load` over the full corpus.
 //! - `notes`: `- ` bullets under `## Timeline` (until the next `## `
 //!   heading), wrapped continuation lines re-attached, whitespace
-//!   collapsed, joined with ` | `, cut at 2000 chars.
+//!   collapsed and joined with ` | ` without truncating the research history.
 //!
 //! Zero third-party dependencies on purpose: the build must work offline
 //! from a fresh clone with only the lockfile cache.
@@ -151,7 +151,7 @@ fn is_h2(line: &str) -> bool {
 }
 
 /// Extract `notes` from the `## Timeline` section: `- ` bullets (wrapped
-/// continuation lines re-attached), joined with ` | `, cut at 2000 chars.
+/// continuation lines re-attached), joined with ` | ` without truncation.
 fn timeline_notes(body: &str) -> String {
     let mut in_tl = false;
     let mut bullets: Vec<String> = Vec::new();
@@ -181,7 +181,7 @@ fn timeline_notes(body: &str) -> String {
         .map(|b| collapse(b))
         .collect::<Vec<_>>()
         .join(" | ");
-    joined.chars().take(2000).collect()
+    joined
 }
 
 /// Parse one dossier into an ordered (key → value) row for JSON emission.

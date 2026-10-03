@@ -12,11 +12,11 @@ opening_hours: ''
 website: https://www.isr-recycling.de/
 website_status: aktiv
 status: pruefung
-description: ISR-Lager Brunsbüttel (Am Südufer) — derzeit KEIN Schrottankauf (Annahme in Itzehoe)
+description: Lagerstandort der ISR Recycling GmbH & Co. KG in Brunsbüttel; für Schrott- und Materialannahme verweist der Betreiber auf Itzehoe.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)
-provenance_ankauf_raw: ja
+provenance_ankauf_raw: nein
 provenance_origin: table
 ---
 
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Wertstoffhof-Annahme (ISR-Gruppe)
+
+### Korrektur 03.10.2026
+
+- [Korrektur 03.10.2026 (Audit-Feedback #4519/#4521/#4523): Die aktuelle Betreiber-Standortseite führt Brunsbüttel ausdrücklich als Lager und sagt, dass dort derzeit kein Schrott-/Metallankauf erfolgt und Materialannahme über Itzehoe läuft. Den zeitgebundenen Satz aus der description in eine stabile Standortbeschreibung überführt und `provenance_ankauf_raw` von `ja` auf `nein` für diesen Branch-Stand korrigiert; `status: pruefung` bleibt, da die Seite den Lagerstandort bestätigt, aber keinen Annahmebetrieb in Brunsbüttel. Quelle(n): https://www.isr-recycling.de/index.php/standorte-isr ; https://www.isr-recycling.de/index.php/en/standorte-isr-en]

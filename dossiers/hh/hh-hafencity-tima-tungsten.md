@@ -2,17 +2,17 @@
 slug: hh-hafencity-tima-tungsten
 name: TIMA Tungsten GmbH
 trader_type: schrotthaendler
-state: HH
-city: HafenCity
-street: ''
-postcode: ''
-phone: ''
-email: ''
+state: BY
+city: Regenstauf
+street: Bayernstr. 16
+postcode: 93128
+phone: +49-9402 5048757
+email: info@tima-tungsten.de
 opening_hours: ''
 website: https://tima-tungsten.de
 website_status: aktiv
-status: pruefung
-description: ''
+status: aktiv
+description: 'Ankauf von Hartmetallschrott; Recycling und Umarbeitung von Wolframschrott zu regeneriertem Wolframkarbidpulver. Der Betreiber nennt Hartstück- und Weichschrott.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Betreiber-Vollcrawl der aktuellen Impressum-, Unternehmens-, Produkt-, Service- und Hartmetallschrott-Einkaufsseiten plus HRB-Gegenprüfung: dieselbe TIMA Tungsten GmbH (HRB 20731, Amtsgericht Regensburg) ist seit Januar 2024 am Betreiberstandort Bayernstr. 16, 93128 Regenstauf; Impressum nennt außerdem Shiyong Li, +49-9402 5048757 und info@tima-tungsten.de. Betreiberhistorie belegt Altona 09.2002-08.2009 → HafenCity 09.2009-05.2015 → Norderstedt 06.2015-12.2023 → Regenstauf ab 01.2024; North Data bestätigt HRB, Sitzverlegung nach Regenstauf und frühere Namen TIMA Handels GmbH / XINYUAN Metals & Minerals GmbH unter derselben Rechtsträgerhistorie. Das ist ein Relokations-/Namenskettenfall, kein zweiter aktueller Hamburger Betrieb und kein unbelegter Merge. Aktuelle Felder deshalb auf den verifizierten Unternehmenssitz (state BY, Regenstauf, Bayernstr. 16, 93128), Kontakt und Betreiberaktivität umgestellt; status aktiv, weil die Betreiberseite ausdrücklich den Ankauf von Hartmetallschrott anbietet. Slug, Pfad und Überblick unverändert. Gegenbeleg/Restunsicherheit: der bestehende HH/HafenCity-Eintrag ist als historischer Standort 2009-2015 durch den Betreiber belegt, aber die Betreiberhistorie nennt keine damalige Straße/PLZ; keine Hamburger Adresse übernommen. Keine Öffnungszeiten und keine Anlieferungs-/Abholbedingungen veröffentlicht; dropoff_json/pickup_json bleiben leer. Die separate Kontakt-URL /tima/de/kontakt/ liefert 404; aktuelle Kontaktdaten stehen im Impressum. Keine Koordinaten ergänzt; im Dossier war kein lat/lon-Paar vorhanden. Koordinatenfähige, direkt belegte aktuelle Anschrift: Bayernstr. 16, 93128 Regenstauf, BY. Quelle(n): https://tima-tungsten.de/tima/de/impressum/, https://tima-tungsten.de/tima/de/nav-unternehmen/, https://tima-tungsten.de/tima/de/nav-produkte/, https://tima-tungsten.de/tima/de/nav-service/, https://tima-tungsten.de/tima/de/hartmetallankauf/, https://tima-tungsten.de/tima/de/kontakt/, https://www.northdata.de/Tima%20Tungsten%20GmbH,%20Regenstauf/HRB%2020731]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
