@@ -11,7 +11,7 @@ email: ''
 opening_hours: Mo-Fr 10:00-17:00
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: status `aktiv` → `pruefung`, da die bisher als unabhängige Bestätigung gewerteten 11880-/Gelbe-Seiten-/Das-Örtliche-Einträge nach der Quellenhierarchie nur Leads sind; keine aktuelle qualifizierte Betreiber-, Register- oder Kommunalquelle für den Hamburger Betrieb gefunden. Das Örtliche führt Adresse und Telefon weiterhin als Lead; die frühere Domain goldundco-hh.de war beim Direktabruf nicht auflösbar. Die offizielle österreichische Gold-&-Co-Seite/im Impressum weist eine Wiener Gesellschaft aus und bestätigt nicht die Identität des Hamburger Betriebs. Kein Schließungsbeleg; Seed-Adresse, Telefon und Öffnungszeiten mangels belastbarer Ersatzquelle unverändert gelassen, Website leer belassen. Quelle(n): https://www.dasoertliche.de/Themen/Bergedorfer-Schlossstr/Hamburg--Bergedorf.htm ; http://www.goldundco-hh.de/ ; https://www.goldundco.at/impressum/ ; https://www.goldundco.at/en/ueber-uns]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

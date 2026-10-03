@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KEINE Belege — zu "Loew Alfred" Frankfurt 60388 (Bergen-Enkheim-PLZ) kein Schrott-/AV-Bezug auffindbar (keine Betreiber-Website, kein Register, keine Verzeichnis-Leads mit Branchenbezug). Seed-Angabe "Klein-AV?" bleibt unbelegt. NICHTS übernommen. Status bleibt pruefung (Misserfolg: keine Spur); Quelle(n): keine.]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Erneute Gegenprüfung zu „Loew Alfred“/„Alfred Löw“ und 60388 ergab in NorthData keinen passenden lokalen Schrott-/AV-Betrieb; 11880-Suchen nach Schrotthandel und Altmaterialhandel in Frankfurt lieferten andere Anbieter, aber keinen belastbaren Treffer zur Identität. Das sind Recherche-Nulltreffer, kein Beleg für Nichtexistenz; „Klein-AV?“ bleibt unbestätigt, Anschrift/Kontakt/Website bleiben leer und Status pruefung. website_status auf unbekannt gesetzt, da keine Betreiber-Website nachgewiesen ist. Quelle(n): https://www.northdata.de/?query=Alfred%20Loew%20Frankfurt, https://www.northdata.de/?query=Alfred+L%C3%B6w+Frankfurt, https://www.northdata.de/?query=Loew+Alfred+60388, https://www.11880.com/suche/schrotthandel/frankfurt-am-main, https://www.11880.com/suche/altmaterialhandel/frankfurt-am-main]

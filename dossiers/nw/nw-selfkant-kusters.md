@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Re-Verifizierung)
 
 - [Recherche 01.10.2026: Vor-Notizen bestätigt — weiter kein HR-/Betreiberbeleg zu Küsters Schrott in Selfkant, kein Fill, Status pruefung; Quelle(n): Re-Verifizierung ohne neue Quelle]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Erneut keine belastbare Betreiber-/Registeridentität für einen Schrotthändler Küsters in Selfkant gefunden. Als mögliche Namensgleichheit wurden die Garage4Tires-Seiten Start, Leistungen und Kontakt einzeln abgerufen: KFZ-Service Küsters, Heerstraße 4a, 52538 Selfkant-Höngen; dort wird René Ringel als Inhaber genannt und es geht um Kfz-Werkstatt/Unfallinstandsetzung, nicht um Schrotthandel. Das ist kein Beleg für den Dossierbetrieb und wird nicht zugeordnet. Das Schrottregister-Verzeichnis führt als einzigen dort gelisteten anerkannten Betrieb Gebr. Florack GmbH; sein Registerumfang schließt mobile oder nicht anerkannte Händler nicht aus. Keine Adresse, Kontakte oder Website zugeschrieben; nur das leere website_status als unbekannt gesetzt, status pruefung. Quelle(n): https://www.garage4tires.com/en/kfz-service-kuesters ; https://www.garage4tires.com/en/kfz-service-kuesters/leistungen ; https://www.garage4tires.com/en/kfz-service-kuesters/kontakt ; https://schrottregister.pages.dev/ort-selfkant]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall
 - Adresse: Weiterstadt 64331
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: website_status auf unbekannt gesetzt, da die gezielte Suche nach „Wai GmbH“ in Weiterstadt keine verifizierbare Betreiberwebsite oder eindeutig zuordenbare externe Faktenquelle ergab. Das gemeinsame Registerportal der Länder war erreichbar und meldete für Hessen mögliche Abrufunterbrechungen vom 01.10. bis 05.10.2026; eine konkrete Registerauskunft liegt in diesem Durchgang nicht vor. Das ist kein Negativbeleg für Existenz oder Registerstatus. Adresse/PLZ-Feld, übrige leere Felder und status pruefung unverändert gelassen. Quelle(n): https://www.handelsregister.de/rp_web/welcome.xhtml; https://www.google.com/search?q=%22Wai+GmbH%22+Weiterstadt+Schrott]

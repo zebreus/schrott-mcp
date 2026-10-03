@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg); Straßen-/Rufnummern-Angabe aus Seed ohne Zweitbeleg; kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Erneuter Namens-/Orts-Suchlauf brachte keinen verifizierbaren Betreiberauftritt oder unabhängigen Register-/Gewerbenachweis; die seed-notierte Hattinger Str. 272b und „0176-Nr.“ bleiben unbestätigte Leads. website_status leer→unbekannt; status pruefung bleibt, kein Hinweis auf Schließung. Keine Adresse, Telefonnummer, Website oder Abholbedingung übernommen.; Quelle(n): https://www.google.com/search?q=%22Schrottabholung+Nagel%22+Bochum (Suchpfad, kein positiver Beleg)]

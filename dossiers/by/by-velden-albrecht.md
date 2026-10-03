@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Erneut kein Betreiber-Beleg (keine Website, kein HR-, kein Social-Treffer; Suche nach Lindenstr. 13 nur Aggregator-Echos) — Stand 01.10.2026 bestätigt, weiter nur Verzeichnis-Leads, kein Fill, status pruefung; Quelle(n): Websuche 02.10.2026]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Stadtbranchenbuch führt Daniela Albrecht/Schrotthandel an Lindenstraße 13, 91235 Velden; 11880 nennt denselben Lead mit Tel. 09152 4088211. Beides sind Aggregatoren und damit keine zulässigen Belege; die ältere Abweichung „Jochen Albrecht“/Tel. 09152 928848 bleibt ungelöst. Kein passender Betreiber-, Register-, kommunaler oder Betreiber-Social-Beleg für Velden gefunden; Straße, Telefon und Website bleiben leer, website_status unbekannt. Die ebenfalls geprüfte J.Albrecht Logistik GmbH (Deißlingen-Lauffen, HRB 470942 Stuttgart) ist ein anderer Betrieb; kein Zusammenhang mit Velden belegt, daher keine Zuordnung/Merge. Quelle(n): https://velden-mittelfranken.stadtbranchenbuch.com/9364190.html; https://www.11880.com/suche/schrotthandel/velden-mittelfranken; https://albrecht-logistik.de/impressum/; https://albrecht-logistik.de/kontakt/]

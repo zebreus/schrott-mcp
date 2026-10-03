@@ -10,7 +10,7 @@ phone: (05674) 887
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Adresse Oberweg 19 A, 34379 Calden und Tel. (05674) 887 per Doppelbeleg bestätigt (Frontmatter bereits gefüllt, unverändert): https://www.11880.com/branchenbuch/calden-hessen/060440090B27705242/reiner-mueller-schrott-und-metallhandel.html + https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/reiner-mueller-schrott--und-metallhandel-calden-73457313.html
 - Fax 05674 7606 (Einzelbeleg, unsicher — kein Frontmatter-Feld): https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/reiner-mueller-schrott--und-metallhandel-calden-73457313.html
 - Keine eigene Website / Mail / Öffnungszeiten gefunden (geprüft 11880, Gelbe Seiten, schrottplatz-info, stadtbranchenbuch).
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Re-Check des bereits gefüllten Kontakts: 11880 führt Oberweg 19 A und (05674) 887; BranchenbuchDeutschland führt Oberweg 19 ohne A und dieselbe Telefonnummer. Beide sind Verzeichnis-Aggregatoren, damit nach Quellenhierarchie kein unabhängiger Doppelbeleg; die exakte Hausnummer und Telefonnummer sind nicht primärquellenbestätigt und bleiben als Altwerte unverändert, aber ausdrücklich ungeklärt. Kein Betreiber-Impressum, Register-, Kommunal- oder Betreiber-Social-Beleg und keine verifizierte eigene Website gefunden; nur website_status auf unbekannt gesetzt, status pruefung bleibt. Keine Koordinaten aus Verzeichnisangaben übernommen. Quelle(n): https://www.11880.com/branchenbuch/calden-hessen/060440090B27705242/reiner-mueller-schrott-und-metallhandel.html, https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/reiner-mueller-schrott--und-metallhandel-calden-73457313.html.]

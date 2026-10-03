@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Register-Gegenprüfung identifiziert Helmut Zagler Altmaterialien, Neueisen und Transporte e.K. als aktiven Rechtsträger HRA 1415 am Registergericht Weiden, PLZ/Ort 95643 Tirschenreuth; der Registerdatensatz zeigt eine Adressänderung 2023, aber keine Straße. Das aktuelle Gelbe-Seiten-Profil nennt Falkenberger Str. 18 und 09631 1295; der 11880-Eintrag nennt ebenfalls Nr. 18, führt aber 09631 1294 und zusätzlich 1295 als weitere Nummer. Beides sind Verzeichnis-Leads; der vorhandene Konflikt mit Falkenberger Str. 6–8 bzw. Nr. 8 und den Telefonnummern wird dadurch nicht unabhängig aufgelöst. Kein Betreiberauftritt mit belastbarer Filialangabe gefunden; street/phone bleiben leer, vorhandene PLZ und Name unverändert, status=pruefung (kein Schließungsbeleg); Quelle(n): https://handelsregister.ai/en/organizations/tirschenreuth/wholesale-of-iron-ores-iron-steel-and-ferrous-semi-finished-metal-products/helmut-zagler-altmaterialien-neueisen-und-transporte-e-k-8484e040440de57a4208f23e5a77891a ; https://www.gelbeseiten.de/gsbiz/84ffead6-5c1c-4a5d-a988-5ab2d030164d ; https://www.11880.com/branchenbuch/tirschenreuth/060440090B26773779/helmut-zagler-neueisen-altmetall-container.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall/Container/Neueisen

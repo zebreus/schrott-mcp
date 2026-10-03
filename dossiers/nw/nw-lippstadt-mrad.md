@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Lippstadt
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Keine belastbare Betreiber-, Register- oder Kommunalquelle für einen Schrotthändler „Mrad“ in Lippstadt gefunden; kein zuordenbarer Betreiberauftritt. Gelbe-Seiten-Suche „Mrad in Lippstadt“ liefert lediglich eine Zahnarztpraxis in Nürnberg (321 km entfernt); Das Örtliche listet in der Kategorie Schrotthändler nur andere, außerhalb Lippstadts ansässige Firmen. Diese Aggregator-Treffer sind keine Identitätsbelege und die Nürnberger Namensähnlichkeit wird nicht zugeordnet. Keine Frontmatter-Füllung, status bleibt pruefung; kein Schließungsbeleg. Quelle(n): https://www.gelbeseiten.de/suche/mrad/lippstadt; https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Lippstadt.html; https://www.lippstadt.de/]

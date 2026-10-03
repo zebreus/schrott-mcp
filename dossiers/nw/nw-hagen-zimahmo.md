@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Hagen
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Kein eindeutig zuordenbarer Betreiberauftritt, Impressum, Register- oder Kommunalbeleg zu „ZIMAHMO“ in Hagen verifiziert; die Websuche lieferte keine belastbare Identitäts-/Standortquelle. NorthData-Namenssuche zeigte nur unscharfe, unpassende „Mahmoud“-Treffer ohne Hagen-Bezug (keine negative Registerauskunft). Deshalb keine Frontmatter-Fills, keine Telefonnummer, Adresse oder Koordinaten geraten; status bleibt pruefung, ohne Schließungsbehauptung. Quelle(n): keine belegfähige Quelle; Suchprotokolle (kein Sachbeleg): https://www.bing.com/search?q=%22ZIMAHMO%22+Hagen; https://www.northdata.de/?query=ZIMAHMO]

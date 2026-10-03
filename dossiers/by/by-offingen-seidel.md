@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://rohstoffe-seidel.de
 website_status: aktiv
 status: aktiv
-description: Allround-Spezialist für Schrott, Entsorgung, Demontage, Containerdienst, Schutzplanken, Transport (Familienbetrieb seit 1974, ISO 9001/14001, BDSV-Mitglied)
+description: Schrott- und Metallentsorgung, Demontage, Containerdienst, Schutzplanken-Demontage sowie Transport und Logistik; Familienbetrieb seit 1974, ISO 9001/14001, BDSV-Mitglied
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
@@ -27,6 +27,10 @@ provenance_origin: prose
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 03.10.2026 (Feedback 4523)
+
+- [Korrektur 03.10.2026: Die werbliche Selbstbezeichnung „Allround-Spezialist“ aus der nutzerorientierten description entfernt. Die konkret aufgeführten Tätigkeiten bleiben erhalten und sind auf den aktuellen Betreiber-Leistungsseiten einzeln beschrieben; an Identität, Kontaktdaten, Status und übrigen Fakten wurde nichts geändert. Quelle(n): https://www.rohstoffe-seidel.de/ ; https://www.rohstoffe-seidel.de/demontage/ ; https://www.rohstoffe-seidel.de/containerdienst/ ; https://www.rohstoffe-seidel.de/recycling/ ; https://www.rohstoffe-seidel.de/schutzplanken/ ; https://www.rohstoffe-seidel.de/transport-logistik/]
 
 ### Recherche 02.10.2026
 

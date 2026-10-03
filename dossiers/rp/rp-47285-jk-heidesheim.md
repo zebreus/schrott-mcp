@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Gegenprüfung der Identität „JK Heidesheim“ und der fehlerhaften Stadtangabe „47285)“: Gelbe-Seiten-Suche für JK in Heidesheim/Ingelheim zeigt keinen Schrott- oder Metallbetrieb dieses Namens, sondern unverbundene Treffer; die Suche nach der exakten Kombination JK Heidesheim/47285 erbrachte ebenfalls keinen belastbaren Betreiber- oder Registerbeleg. Keine Betreiberseite/Detailseiten auffindbar. Weder „Heidesheim“ noch „47285“ wird ohne Identitätsnachweis als Stadt/PLZ übernommen; Name, city und übrige leere Felder bleiben offen, website_status=unbekannt gesetzt, status=pruefung; kein Schließungsbeleg; Quelle(n): https://www.gelbeseiten.de/suche/jk/heidesheim ; https://www.bing.com/search?q=%22JK+Heidesheim%22+47285&setlang=de]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

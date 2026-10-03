@@ -10,7 +10,7 @@ phone: 04242 931462
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -34,3 +34,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg)
 - Adresse: Syke (Fern-Umland), Sudweyher Str. 34, 28857, Tel. 04242 931462
 - Adressbeleg: Seed-notes (schrottplatz-info)
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Offizielle Stadt-Syke-Angaben ordnen Syke dem Bundesland Niedersachsen, Landkreis Diepholz, zu; das widerspricht dem bestehenden Pfad/Slug hb- und state HB. State/Pfad/Slug nicht geändert, weil Slugs unveränderlich sind und eine Umordnung in einen anderen State außerhalb dieses Shards liegt — Owner-Klärfall. Die Händleradresse/Telefonnummer bleiben nur Seed-/Schrottplatz-Info-Leads, kein unabhängiger Betreiber-/Registerbeleg; website_status leer→unbekannt, status pruefung bleibt, keine Schließung behauptet.; Quelle(n): https://www.syke.de/leben/ueber-syke/, https://www.syke.de/portal/startseite.html]

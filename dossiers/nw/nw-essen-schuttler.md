@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Essen
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: website_status leer → unbekannt; übrige Frontmatter unverändert. Die einzeln abgerufene 11880-Detailseite führt „Sylvia Schüttler Metallhandel“, Stubbenkamp 6, 45309 Essen-Kray, Mobilnummer und E-Mail sowie Altmetallrecycling/Schrotthandel; sie zeigt „Website hinzufügen“, keine Öffnungszeiten und keine zweite unabhängige Betreiber- oder Registerquelle. Der Eintrag ist laut 11880 am 27.06.2026 aktualisiert, die Eintragsdaten stammen vom 13.10.2025. Das reicht nicht für Fills; Name bleibt unpräzisiert „Schüttler“, Straße/Kontakt/Beschreibung bleiben leer, status bleibt pruefung. Quelle(n): https://www.11880.com/branchenbuch/essen-ruhr/190682936B113680307/sylvia-schuettler-metallhandel.html]

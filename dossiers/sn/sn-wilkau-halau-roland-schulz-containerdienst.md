@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Container + Fe/Alu/Cu/Edel/Blei/Messing
 - Annahme lt. lokaleschrottplatz
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Erneute Suche nach exakten Schreibweisen von Roland Schulz zusammen mit Wilkau-Haßlau, Containerdienst und Schrott ergab keine belastbare Betreiber- oder Registerquelle. LokaleSchrottplatz bleibt ein Branchenverzeichnis/Lead; kein Beleg daraus für aktuelle Tätigkeit oder eine exakte Betriebsadresse. Die ähnlich benannte Rohstoffrecycling- und Containerdienst Schulze GmbH in Quedlinburg wird mangels Nachweis einer Verbindung nicht mit diesem Dossier gleichgesetzt; kein Beleg einer Betreiberkette nach Wilkau-Haßlau. Daher keine Frontmatter-Fills; bestehende Felder und status aktiv unverändert, da weder widersprechende Identitätsbelege noch ein Schließungsbeleg vorliegen.; Quelle(n): https://lokaleschrottplatz.de/; https://www.google.com/search?q=%22Roland+Schulz%22+%22Wilkau-Ha%C3%9Flau%22+Containerdienst]

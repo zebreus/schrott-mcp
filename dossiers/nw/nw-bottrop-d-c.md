@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Bottrop
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Ein Branchenbuch führt „D & C Rohstoff GmbH“ als Schrotthandel in Bottrop (Wilhelm-Tenhagen-Str. 2, 46240; Telefon 02041 7620440); nur Lead, keine Betreiber-/Registerquelle und keine zweite belastbare Bestätigung. Die Zeile „D&C“ lässt sich daher nicht sicher dieser Firma zuordnen. Separater Datenbank-Lead „D & C Dienstleistung GmbH“ betrifft Gebäudereinigung an anderer Bottroper Adresse; keine Verbindung zum Schrotthandel belegt, nicht zusammengeführt. Keine passende Betreiber-Website/Detailseite oder belastbare Register-/Kommunalquelle gefunden; Straße, PLZ, Telefon und Website bleiben leer, Status pruefung. Identitäts-/Namensvetterfrage offen; kein Schließungsbeleg. Quelle(n): https://ruhrpott-kurier.de/branchenbuch/bottrop/schrotthandel/d-c-rohstoff-gmbh-27193/, https://app.implisense.com/de/companies/d-c-dienstleistung-gmbh-bottrop--DEFZ6BRHDZ70]

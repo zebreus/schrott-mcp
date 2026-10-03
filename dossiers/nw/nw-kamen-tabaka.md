@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Kamen
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Die Suche nach Tabaka/Helmut/Schrotthandel in Kamen ergab keinen Betreiberauftritt, Register-/Kommunalbeleg oder zulässigen unabhängigen Nachweis. Ein Schrottplatz-Info-Umkreislink nennt lediglich „Tabaka Helmut SchrottHdl.“ in Kamen (3,01 km von einem Unnaer Eintrag entfernt), ohne eigene Adresse oder Kontaktdaten; Aggregator-Lead, kein Beleg für Identität oder Tätigkeit. Keine Werte ergänzt, status pruefung bleibt. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Unna/Martin-Doering-GmbH (nur Umkreis-Lead)]

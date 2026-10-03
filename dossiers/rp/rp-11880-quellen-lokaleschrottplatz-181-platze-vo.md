@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Kein identifizierbarer Händler verifiziert. Der Frontmatter-Name ist eine Quellen-/Arbeitsnotiz; „11880“ ist hier keine belegte Ortsangabe. Die im Dossier genannten Portale und Quellenbegrenzungen sind Such-Leads, aber liefern keine eindeutig zuordenbare Betreiber-Primärquelle, Adresse oder registerfähige Identität. Exaktsuche nach dem Quellenstring ergab keinen belastbaren Treffer; Name, Ort und Status bleiben unverändert und der Klärfall offen, keine Adresse/Koordinaten geraten. Quelle(n): https://www.bing.com/search?q=%22lokaleschrottplatz%22+%22181%22 (Suchlauf, kein identifizierbarer Betrieb).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - keine).

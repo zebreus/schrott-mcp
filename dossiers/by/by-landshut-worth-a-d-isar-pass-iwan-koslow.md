@@ -12,8 +12,7 @@ opening_hours: Mo-Fr 07:00-12:00, 13:00-17:00
 website: https://www.koslow.de/
 website_status: aktiv
 status: aktiv
-description: Schrott- und Metallhandel, Altfahrzeug- und E-Schrott-Verwertung, Containerdienst;
-  Werke Landshut / Woerth a. d. Isar / Passau (Frontmatter = Hauptsitz Werk 1)
+description: Schrott- und Metallhandel, Altfahrzeug- und E-Schrott-Verwertung sowie Containerdienst; Standorte in Landshut, Wörth a. d. Isar und Passau
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Betriebe mit geprüfter Website
@@ -28,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 03.10.2026 (Feedback 4519)
+
+- [Korrektur 03.10.2026: Den internen Redaktionsvermerk „Frontmatter = Hauptsitz Werk 1“ aus der nutzerorientierten description entfernt und die vorhandenen Leistungs- und Standortangaben knapp formuliert. Die Betreiber-Standortseite führt Landshut, Wörth a. d. Isar und Passau; Impressum und Registergegenprüfung stützen die Zuordnung zum Betreiber. Keine Frontmatter-Fakten außer der description geändert. Quelle(n): https://www.koslow.de/standorte ; https://www.koslow.de/impressum ; Northdata, HRA 7610 AG Landshut]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

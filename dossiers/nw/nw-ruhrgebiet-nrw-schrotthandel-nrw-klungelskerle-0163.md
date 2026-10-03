@@ -9,7 +9,7 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://schrotthandel.nrw/schrottankauf
+website: https://schrotthandel.nrw
 website_status: 'blockiert'
 status: aktiv
 description: ''
@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Retry /schrottabholung-koeln → 404 (Suchindex listet die Seite mit Inhalt + Tel. 0163/4694319, Zeiten Mo-Fr 7-21/Sa 9-21 - Bot-Sperre wahrscheinlich, kein Browser-Rendering moeglich). website_status bleibt blockiert; kein Fill; Klaerfall Adressen (Vorstadtstr. 65 vs. Robertstr. 70) weiter offen; Quelle(n): eigene Fetch-Probe 02.10.2026, Websuche (Leads)]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: website auf Domain-Root normalisiert. Betreiberseiten /schrottankauf und /schrottabholung-solingen sind im Suchindex mit Schrottankauf/Abholung in NRW, Kontaktangaben und aktuellen Copyright-Jahren auffindbar, konnten einzeln direkt jedoch nicht abgerufen werden (Root 403, relevante Unterseiten 404); daher keine Kontakt-, Öffnungszeit- oder Adressdaten daraus übernommen und website_status bleibt blockiert. Die direkt abrufbare ältere Domain nrw-schrott.de nennt Tarek El-Lahib, Robertstraße 70, 44809 Bochum, Kontakt 01525-2376589 und Inhalte mit RSS-Daten aus 2015; eine belastbare Betreiber-/Identitätsverknüpfung zur aktuellen Domain mit abweichenden indexierten Kontaktdaten fehlt. Frühere Such-Snippets zu Vorstadtstr. 65 und die abweichende Alt-Domain-Adresse bleiben Leads; keine Merge- oder Adressentscheidung. Quelle(n): https://schrotthandel.nrw/, https://schrotthandel.nrw/schrottankauf, https://schrotthandel.nrw/schrottabholung-solingen, https://schrotthandel.nrw/impressum, https://nrw-schrott.de/impressum.html, https://nrw-schrott.de/rss.xml]

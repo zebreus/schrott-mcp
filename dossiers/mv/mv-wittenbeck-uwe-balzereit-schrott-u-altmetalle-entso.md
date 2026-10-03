@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Northdata-Suche nach Uwe Balzereit/Wittenbeck liefert einen Treffer „Uwe Balzereit, Raßnitz“ im Umfeld der B&B Sandstrahltechnik GmbH sowie Wittenbecker Vereinsbezüge, aber keinen Beleg für einen Schrott-/Altmetallbetrieb dieser Person in Wittenbeck. Wegen abweichendem Ort und fehlender Betreiberquelle keine Identitätszuordnung oder Zusammenführung; kein zweiter belastbarer Beleg gefunden. Felder unverändert leer, status pruefung; offen bleiben Identität, aktueller Betrieb und Standort. Quelle(n): https://www.northdata.de/search?query=Uwe%20Balzereit%20Wittenbeck.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Altmetalle (lt. schrottplatz-info.de)

@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: Domain schrotthandel-kass.de per DNS NXDOMAIN verifiziert (kein Impressum abrufbar); angebliche Impressum-Quelle unbelegt, Website entfernt, website_status tot; Adresse/Tel aus Verzeichnisbeleg behalten. Quelle: dns.google + getent.]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: DNS-Retest für schrotthandel-kass.de ergab erneut NXDOMAIN (DNS-Status 3); der HTTPS-Direktabruf lieferte keinen Betreiberinhalt. website bleibt leer und website_status tot unverändert; daraus folgt keine Aussage über eine Betriebsschließung. Adresse/Telefon verbleiben als alte, nicht unabhängig bestätigte Verzeichnis-Leads; status pruefung bleibt, kein Frontmatter-Fill.; Quelle(n): https://dns.google/resolve?name=schrotthandel-kass.de&type=A, https://schrotthandel-kass.de/]

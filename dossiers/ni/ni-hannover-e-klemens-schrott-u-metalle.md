@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Status aktiv auf pruefung gesetzt, nicht geschlossen: 11880 zeigt einen aktualisierten Eintrag (06.09.2026) für Moorwaldweg 125 C und 0511 614705; Gelbe Seiten stimmt dabei überein, Tellows nennt jedoch 125 B. Das sind Verzeichnis-/Aggregator-Leads, keine zwei belastbaren unabhängigen Betreiberbelege; die vorherige Mehrheitswahl 125C ist deshalb keine bestätigte Hausnummer. Straße, PLZ und Telefon bleiben als bestehende, unbestätigte Leads unverändert; keine Geokodierung/Koordinaten, Öffnungszeiten oder Leistungen ergänzt. Keine Betreiber-Website oder belastbare Register-/Kommunalbestätigung gefunden; Statusprüfung bedeutet keine Schließungsbehauptung. Offen: tatsächliche Hausnummer/Betreiberidentität und ob aktuell Anlieferung oder Abholung angeboten wird. Quelle(n): https://www.11880.com/branchenbuch/hannover/060440092B113979576/schrott-u-metalle-e-klemens.html; https://www.gelbeseiten.de/suche/schrott-u.-metalle/hannover; https://www.tellows.de/num/0511614705]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

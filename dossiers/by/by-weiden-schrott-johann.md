@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (nur GS)
 - Adresse: Weiden
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Keine Frontmatter-Füllung; keine belastbare Betreiberseite oder Registerspur für den exakten Seed-Namen „Schrott Johann“ verifiziert. Die städtische Ansprechpartnerseite für Entsorgung nennt unter anderem Kraus Recycling & Entsorgung an der Hans-Striegl-Str. 7 und Bergler an anderen Weidener Standorten; Kraus' Betreiberseite bestätigt dessen abweichenden Firmennamen und Anschrift. Diese Gegenproben sind keine vollständige Gewerbeliste und beweisen nicht, dass es keinen eigenständigen Betrieb Schrott Johann gibt; sie begründen insbesondere keine Zuordnung oder Zusammenführung mit Kraus/Bergler. Adresse, Kontakt und Website deshalb offen lassen; Status pruefung beibehalten. Quelle(n): https://www.weiden.de/umwelt/abfall-und-entsorgung/ansprechpartner + https://www.weiden.de/umwelt/abfall-und-entsorgung/entsorgung + https://www.kraus-re.de/]

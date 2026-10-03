@@ -3,14 +3,14 @@ slug: he-frankfurt-60433-autoverschrottung-schrotthandler-berkers
 name: Autoverschrottung + Schrotthändler (Berkersheimer Weg)
 trader_type: schrotthaendler
 state: HE
-city: Frankfurt 60433
+city: Frankfurt am Main
 street: ''
 postcode: ''
 phone: (069) 516778
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: miss - Websuche (Autoverschrottung/Schrotthaendler + Berkersheimer Weg + 60433) bringt nur Branchenkollegen (Schrott-i, Schrott Frankfurt e.K., Kumpfmueller Bonameser Str.) und die Apotheke am Frankfurter Berg (Berkersheimer Weg 6, andere Branche); kein Betreiber mit diesem Namen, kein Zweitbeleg; kein Fill; Quelle(n): Websuche 02.10.2026]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Auto-Gärtner-Seite nennt Horst Gärtner, Berkersheimer Weg 165, 60433 Frankfurt und dieselbe Rufnummer 069 516778 wie das Dossier; Impressum/Kontakt nennt widersprüchliche E-Mail-Adressen, Seiteninhalte sind älter (© 2014). Da weder die Betreiber-Identität des generischen Dossiers noch die aktuelle Zuordnung durch einen unabhängigen zulässigen Zweitbeleg bestätigt ist und kein HRB/Owner-Ausnahmefall vorliegt, werden Straße, PLZ und Website nicht übernommen; website_status bleibt unbekannt, status pruefung. Die bestehende Telefonnummer bleibt unverändert, ihre aktuelle Zuordnung ist nicht ausreichend unabhängig bestätigt. Öffnungszeiten und Beschreibung bleiben leer. Verzeichnisse sind nur Leads. Quelle(n): http://www.xn--auto-grtner-q8a.de/impressum/; http://www.xn--auto-grtner-q8a.de/kontakt/; http://www.xn--auto-grtner-q8a.de/autoankauf-pkw-lkw/; http://www.xn--auto-grtner-q8a.de/anfahrt/; https://www.oeffnungszeitenbuch.de/filiale/Frankfurt-Gaertner%2520Autoverschrottung%2520und%2520Schrotthaendler-1914531W.html (Lead); https://www.schrottplatz-info.de/schrottplatz/Frankfurt-am-Main (Lead)]

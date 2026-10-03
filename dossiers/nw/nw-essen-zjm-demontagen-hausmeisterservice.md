@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Re-Verifikation — zjm-demontagen.de weiterhin ohne DNS-Eintrag (getent/hosts leer → NXDOMAIN bestaetigt, website_status tot bleibt). Archiv-Indiz (dewebc-Snapshot): ehem. Schrotthandel/Demontagen Essen, IP 89.107.184.29 — historisch, kein Adressbeleg. Kein Fill, kein Zweitbeleg ueber die zwei Verzeichnisse hinaus; Quelle(n): DNS-Check 02.10., dewebc-Archiv (historisch)]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Die beiden verlinkten Betreiber-Domains essen-baumdienst.de und zjm-demontagen.de waren beim Abruf nicht erreichbar; die Verzeichnisse führen weiterhin Von-Ossietzky-Ring 59 und dieselbe Telefonnummer, sind aber nur Leads und kein unabhängiger Beleg. Daher keine Frontmatter-Korrektur: Adresse/Telefon bleiben unbestätigt, website_status tot (bisheriger DNS-Befund) und status pruefung unverändert. Quelle(n): https://www.dasoertliche.de/Themen/ZJM-Demontagen-Essen-Horst-Von-Ossietzky-Ring; https://www.gelbeseiten.de/gsbiz/f36fc8e4-9f21-4b2c-8343-a094698df13c; https://www.essen-baumdienst.de/; https://www.zjm-demontagen.de/]

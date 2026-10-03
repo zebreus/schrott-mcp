@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: status `aktiv` → `pruefung`: die Seed-Angaben zu GKB Gießereikontor Berlin GmbH, Roedernallee 9, 13407 und Mobilnummer konnten nicht mit zwei unabhängigen zulässigen Quellen bestätigt werden; die bisherige Verzeichnisangabe bleibt ein Lead. Die Recherche im offiziellen Registerportal ergab hier keine auswertbare Einzelauskunft; das ist kein Negativnachweis für eine Eintragung. Kein belastbarer Betreiberketten-/Identitätsbeleg und kein Schließungsbeleg; Straße, PLZ und Telefon deshalb unverändert, keine Betreiber-Webseite ergänzt. Quelle(n): https://www.handelsregister.de/rp_web/welcome.xhtml]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

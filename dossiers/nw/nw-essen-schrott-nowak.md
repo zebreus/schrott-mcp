@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Die neu gefundenen Treffer bei SchrottFinder, SchrottRadar und SchrottplatzMetall sind Branchen-/Schrottverzeichnisse und keine unabhängigen Betreiberbelege; sie wiederholen Marktstraße 14 und dieselbe Mobilnummer, teils mit PLZ-Angabe 45327. StadtBranche nennt 45327, dieselbe Telefonnummer und verweist auf eine frühere Betreiber-Domain, aber keine konkrete Straße; es belegt weder aktuelle Betreiberidentität noch Anschrift. Betreiber-Startseite sowie Impressum, Kontakt, Leistungen und Galerie der Domain waren nicht abrufbar (HTTP 422/Transportfehler); kein Register-/Kommunalbeleg und kein belastbarer Zweitbeleg für die Identität, Anschrift oder Tätigkeit. Deshalb keine Frontmatter-Felder ergänzt/korrigiert; die Seed-Straßenangabe bleibt ungeklärt, Status pruefung, kein Schließungs- oder Verlagerungsbeleg. Quelle(n): https://schrottfinder.de/schrott-nowak-essen/, https://schrottradar.de/schrott-nowak/, https://schrottplatzmetall.de/schrott-nowak-essen/, http://stadtbranche.de/w-schrott-nowak.de, https://schrott-nowak.de/, https://schrott-nowak.de/impressum, https://schrott-nowak.de/kontakt]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Negativbefund — GS „schrott essen“ (30 Treffer, Komplettliste geprueft) enthaelt kein Nowak, keine Marktstr. 14. Backyard-Typ (0176-Nr.) ohne Betreiber-/Verzeichnisbeleg. Kein Fill, status bleibt pruefung (miss-nahe).; Quelle(n): https://www.gelbeseiten.de/suche/schrott/essen (Abruf 01.10.2026)]

@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Metall — Tel. 09363 997311
 - urspr. Website-Angabe: keine
 - Adresse: Arnstein-Heugrumbach 97450
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Erneute Abfrage über Name, Ort und die vorhandene Rufnummer. 11880 nennt Johannes Funk, Am Steinbrünnlein 1, 97450 Arnstein (Heugrumbach) sowie Mo–Fr 08:00–14:00; Stadtbranchenbuch, GoLocal und Schrottplatz-Info wiederholen dieselbe Adress-/Telefonkombination. Das sind ausschließlich Branchen-/Telefonverzeichnisse und damit Leads, keine zwei unabhängigen belastbaren Belege. Die 11880-Seite weist „Website hinzufügen“ aus; trotz Aktualisierungsanzeige nennt sie Eintragsdaten vom 18.09.2024. Keine verifizierbare Betreiberseite, amtliche Bestätigung oder Registerquelle gefunden. Daher street, postcode und opening_hours nicht übernommen, phone nicht geändert, status pruefung beibehalten; keine Schließung belegt.; Quelle(n): https://www.11880.com/branchenbuch/arnstein-unterfranken/120674719B54274221/johannes-funk-schrott-und-metallhandel.html; https://arnstein-unterfranken.stadtbranchenbuch.com/5575395.html; https://www.golocal.de/arnstein/schrotthandel/funk-johannes-schrott-metallhandel-7Y59Y/; https://www.schrottplatz-info.de/schrottplatz/Arnstein/Funk-Johannes-Schrott-und-Metallhandel]

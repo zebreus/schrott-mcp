@@ -4,15 +4,15 @@ name: HN Schrott- & Metallrecycling GmbH
 trader_type: metallhaendler
 state: SL
 city: Überherrn
-street: ''
-postcode: ''
+street: Nauwies 9
+postcode: 66802
 phone: ''
 email: ''
 opening_hours: ''
 website: https://hn-schrott.com/
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'An- und Verkauf von Eisen- und Metallschrott, Elektroschrott, Edelmetallen (u. a. Kupfer, Messing, Kabel) und Altbatterien zur Weitergabe an Großhändler für Recycling.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Straße, PLZ und knappe Tätigkeitsbeschreibung ergänzt. Die Betreiber-Homepage nennt Nauwies 9, 66802 Überherrn und den An-/Verkauf bzw. das Recycling von Schrott/Metallen; NorthData führt dieselbe Anschrift und den Unternehmenszweck An- und Verkauf von Eisen-, Metall- und Elektroschrott, Edelmetallen (u. a. Kupfer, Messing, Kabel) und Altbatterien zur Weitergabe an Großhändler. Zwei unabhängige Quellen stützen damit diese Ergänzungen. Betreiber-Primärquellen-Ausnahme nicht angewandt: Im Impressum fehlt HRB-Angabe, und die Homepage zeigt ältere Datumsstände; deshalb trotz Betreiberangaben keine nur dort belegten Telefon-/E-Mail-/Öffnungszeiten-/Annahme- oder Abholangaben in Frontmatter übernommen. Website am 03.10.2026 abrufbar; kein Schließungsbeleg. Quelle(n): https://hn-schrott.com/ ; https://hn-schrott.com/impressum/ ; https://www.northdata.de/HN%20Schrott-%20und%20Metallrecycling%20GmbH,%20%C3%9Cberherrn/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20107162.]
 
 ### Recherche 01.10.2026
 

@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - urspr. Website-Angabe: keine
 - nur schrottradar, mobil
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: SchrottRadar- und SchrottplatzMetall-Profil einzeln abgerufen; beide sind Verzeichnis-Leads und nennen München, dieselbe Mobilnummer sowie Metalle/Abholung, aber weder eine Adresse noch eine überprüfbare Betreiberidentität. Das in der Vor-Notiz verlinkte SchrottFinder-Profil liefert aktuell 404. Keine eigene Betreiberseite, Register-/Kommunalquelle oder unabhängige belastbare Identitätsquelle gefunden; Aggregatoren gelten nicht als Belege. Bereits nicht-leere Telefon-/Beschreibungseinträge unverändert gelassen und nicht als neu verifiziert gewertet; kein weiterer Fill, website_status bleibt unbekannt, status pruefung. Quelle(n): https://schrottradar.de/schrotthandler-prohl/ ; https://schrottplatzmetall.de/schrotthandler-prohl-munchen/ ; https://schrottfinder.de/schrotthaendler-prohl-munchen/]

@@ -10,7 +10,7 @@ phone: 01772614891
 email: ''
 opening_hours: ''
 website: https://schrotthandelbauer.de
-website_status: ''
+website_status: tot
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: `website_status` leer → `tot`: die im Dossier eingetragene Domain liefert beim Direktabruf eine Webador-404-Seite („Website nicht gefunden“); auch die HTTP- und www-Varianten führen zu keiner erreichbaren Betreiberseite. Kein Impressum oder keine Detailseite abrufbar; Betreiberidentität, Telefonnummer und Betrieb nicht unabhängig bestätigt. `status: pruefung` bleibt bestehen; keine weiteren Frontmatter-Felder geändert. Quelle(n): https://schrotthandelbauer.de/ ; http://schrotthandelbauer.de/ ; https://www.schrotthandelbauer.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

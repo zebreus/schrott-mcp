@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: nur Aggregatoren (Zedlitz 19, 07557 Zedlitz, Tel. 036603 600995); kein Betreiber-/Registerbeleg; Quelle(n): keine belegfähige Quelle (nur Aggregator-Leads)]
 - [Recherche 01.10.2026: PRÜFFALL bleibt; kein Fill; Status pruefung unverändert; Quelle(n): keine belegfähige Quelle]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Weiterhin nur ein Aggregator-Lead „Transportservice Bernd Zauritz Transporte“ in Zedlitz 19; dieser belegt weder die Identität mit dem Dossier „Entsorgung und Recycling“ noch Recycling/Schrottankauf. Keine Betreiber- oder Registerquelle gefunden; Adresse/Kontakt/Website bleiben ungefüllt, status pruefung bleibt, kein Schließungsbeleg. Quelle(n): https://www.gelbeseiten.de/branchen/transportunternehmen/weida (Aggregator-Suchlead, kein belastbarer Identitäts- oder Tätigkeitsbeleg)]

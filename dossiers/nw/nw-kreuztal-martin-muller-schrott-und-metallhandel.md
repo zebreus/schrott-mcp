@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Lead: Mobil 0173 6646494 (nur Aggregator, kein Zweitbeleg, kein Betreiber-Impressum auffindbar); Quelle(n): keine belegfähige — nur Aggregatoren (Leads)]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: llermartin.de erneut direkt geprüft; DNS liefert NXDOMAIN und der HTTPS-Abruf keinen Seiteninhalt. website_status tot bleibt daher für den historischen Domain-Kandidaten bestehen; website bleibt leer, da die Verbindung dieser Domain zum Betrieb nicht unabhängig verifiziert wurde. Mobilnummer 0173 6646494 bleibt nur Aggregator-Lead, kein Betriebsschluss belegt; status pruefung bleibt.; Quelle(n): https://dns.google/resolve?name=llermartin.de&type=A, https://llermartin.de/]

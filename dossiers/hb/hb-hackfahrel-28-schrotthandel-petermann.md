@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrotthandel (klein)
 - Adresse: Hackfahrel 28
 - Adressbeleg: Seed-notes + stadtplan.info (PLZ)
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Für Schrotthandel Petermann GbR/Hackfahrel 28 ließ sich kein Betreiberauftritt, Registerbeleg oder zweiter unabhängiger Standort-/Kontaktbeleg ermitteln. Die Straße/PLZ aus Seed-notes und stadtplan.info bleiben reine Leads; kein Betriebsschluss belegt. website_status leer→unbekannt; status pruefung bleibt, Telefonnummer, E-Mail und Annahmebedingungen bleiben leer.; Quelle(n): https://www.google.com/search?q=%22Schrotthandel+Petermann%22+Hackfahrel (Suchpfad, kein positiver Beleg)]

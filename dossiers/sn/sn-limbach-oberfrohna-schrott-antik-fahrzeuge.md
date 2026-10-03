@@ -10,8 +10,8 @@ phone: +49 163 3718231
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Status aktiv auf pruefung zurückgesetzt, nicht geschlossen: lokaleschrottplatz.de zeigt beim aktuellen Eintrag „Geschlossen“, ist aber nur ein Aggregator und kein Schließungsbeleg. Im offiziellen Firmenverzeichnis der Stadt Limbach-Oberfrohna wurde bei Abruf aller vier S-Seiten kein passender Eintrag gefunden; die Stadt weist selbst darauf hin, dass Einträge freiwillig sind, daher ist auch das kein Negativbeweis. Website-Status unbekannt gesetzt, weil keine Betreiber-Domain verifiziert wurde. Hohensteiner Str. 154/09212 und +49 163 3718231 bleiben als frühere Aggregator-Leads unverändert, sind nicht unabhängig bestätigt; keine E-Mail/Öffnungszeiten ergänzt. Betreiberidentität, tatsächlicher Betriebsstatus und Adresse weiter offen; keine Schließung behauptet. Quelle(n): https://lokaleschrottplatz.de/schrott-antik-fahrzeuge; https://www.limbach-oberfrohna.de/de/branchenverzeichnis.html?letter=S&btp_address%5Bp_1_428_11%5D=0; https://www.limbach-oberfrohna.de/de/branchenverzeichnis.html?letter=S&btp_address%5Bp_1_428_11%5D=10; https://www.limbach-oberfrohna.de/de/branchenverzeichnis.html?letter=S&btp_address%5Bp_1_428_11%5D=20; https://www.limbach-oberfrohna.de/de/branchenverzeichnis.html?letter=S&btp_address%5Bp_1_428_11%5D=30]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Die Betreiber-Website nennt ALIBABA Schrottabholung / Akif Kaplan, Henriette-Ackermann-Str. 5, 50827 Köln und beschreibt Schrottabholung, Haushaltsauflösung, Transporte und Kfz-Ankauf. Impressum weist ein Einzelunternehmen ohne HRB aus; die strikte Betreiber-Primärquellen-Ausnahme greift nicht. Unabhängige Bestätigung der Identität, Anschrift und aktuellen Tätigkeit fehlt; Northdata-Suche ohne Treffer ist kein Gegenbeweis. Website-Fakten daher nicht in Frontmatter übernommen, keine Zusammenführung allein aufgrund der Einzelseite; Felder und status pruefung bleiben unverändert. Kontaktseite verlinkt zwei widersprüchliche Telefonnummern (sichtbarer Text vs. tel-Link), daher keine Nummer übernommen. Offen: unabhängiger zweiter Beleg/Identitätsabgleich, Betriebsstatus und verifizierter Standort. Quelle(n): https://www.schrottabholung-alibaba.de/, https://www.schrottabholung-alibaba.de/schrottabholung, https://www.schrottabholung-alibaba.de/wohnungs-und-haushaltsaufl%C3%B6sung, https://www.schrottabholung-alibaba.de/transporte-f%C3%BCr-studenten, https://www.schrottabholung-alibaba.de/kontakt, https://www.schrottabholung-alibaba.de/impressum, https://www.northdata.de/search?query=Alibaba%20Schrottabholung%20Akif%20Kaplan.]
+
 ### Recherche 01.10.2026
 
 - [Recherche ohne Beleg-Fund: Betreiber-Website vorhanden, aber nur Einzelbeleg (Einzelunternehmen ohne HRB, Owner-Ausnahme greift nicht); Felder leer; Quelle(n): schrottabholung-alibaba.de]

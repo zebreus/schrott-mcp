@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: tot
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: status `aktiv` → `pruefung`: keine zwei unabhängigen zulässigen Quellen für Altmetallhandel Gast/Jan Raubold oder einen aktuellen Betrieb in Kamenz gefunden. Die kommunale Gewerbedatenbank nennt am Jesauer Feldweg 16 stattdessen LGS/Stefan Vetter, einen anderen Betrieb; das ist kein Beleg für oder gegen den Eintrag an Nr. 17. Die REMONDIS-Abrufe waren durch eine Challenge blockiert und bestätigten keine Übernahme-/Betreiberkette; Reviews bleiben Leads. Kein Schließungsbeleg; Website, PLZ, Kontakt- und Leistungsfelder unverändert gelassen. Quelle(n): https://www.kamenz.de/gewerbedatenbank.html ; https://www.remondis.de/unternehmen/standorte/ ; https://www.remondis-ost.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

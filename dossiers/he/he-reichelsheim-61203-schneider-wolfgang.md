@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata-Suche nach Schneider Wolfgang/Reichelsheim ohne Registertreffer; keine Betreiber-Website auffindbar; websearch-Backend lieferte keine Ergebnisse; Quelle(n): keine (nur Seed-Verzeichnis). Frontmatter bleibt leer (Klärfall: Existenz/Adresse per Gewerberegister oder zweiter Quelle verifizieren).]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Website-Status auf „unbekannt“ gesetzt, nicht „tot“: kein identifizierbarer Betreiberauftritt oder unabhängiger Nachweis zu Person/Anschrift auffindbar; die Northdata-Abfrage lieferte keinen nachvollziehbaren Registertreffer. Das ist kein Schließungs- oder Nichtexistenzbeleg; übrige Felder bleiben offen und unverändert. Quelle(n): https://www.northdata.de/Schneider+Wolfgang,+Reichelsheim]

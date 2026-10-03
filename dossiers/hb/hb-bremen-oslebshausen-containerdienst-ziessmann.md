@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - urspr. Website-Angabe: keine (nur schrottplatz-info-Beleg; Homepage-Link dort defekt)
 - Adresse: Bremen-Oslebshausen, Große Riehen 8, 28239, Tel. 0421 641512
 - Adressbeleg: Seed-notes (schrottplatz-info)
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: NorthData führt eine gleichnamige Bremer Zießmann GmbH & Co. KG (HRA 25178) mit passendem Gegenstand Abbruch, Transport und Containerdienst; die Registerbekanntmachungen dokumentieren Auflösung 2017 und Erlöschen nach beendeter Liquidation 2018. Eine separate Zießmann Besitz GmbH & Co. KG (HRA 26233; Vermögensverwaltung) wurde 2022 gelöscht; eine Betreiber- oder Rechtsnachfolge zur Containerdienst-KG ist damit nicht belegt. Die aktuelle Schrottplatz-info-Auflistung führt weiterhin den KG-Namen an Große Riehen 8, bleibt aber ein Aggregator-Lead; zusammen mit der abweichenden Tillmannstraße-Spur aus der Vorrecherche sind aktuelle Betreiberidentität und Standort ungeklärt. Adresse/Telefon daher nicht korrigiert, keine Schließung gesetzt, status pruefung bleibt. Quelle(n): https://www.northdata.de/Zie%C3%9Fmann%20GmbH%20&%20Co%C2%B7%20KG,%20Bremen/HRA%2025178; https://www.northdata.de/?id=4036535034; https://www.northdata.de/?id=4891753701; https://www.northdata.de/Zie%C3%9Fmann%20Besitz%20GmbH%20&%20Co%C2%B7%20KG,%20Bremen/HRA%2026233; https://www.northdata.de/?id=6678792685223936; https://www.schrottplatz-info.de/schrottplatz/Bremen/Containerdienst-Ziessmann-GmbH-und-Co-KG]
