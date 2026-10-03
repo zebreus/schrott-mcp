@@ -8,7 +8,7 @@ street: 'Holsteinstraße 17'
 postcode: '23795'
 phone: '04554 702377'
 email: ''
-opening_hours: 'Mo-Fr 8:00-17:00, Sa 8:00-12:00'
+opening_hours: Mo-Fr 08:00-17:00
 website: https://www.isr-recycling.de/
 website_status: aktiv
 status: aktiv
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 03.10.2026 (Feedback-Triage)
+
+- [Korrektur 03.10.2026: Feedback 3501 und 4053 zweiseitig geprüft: Samstag 08:00-12:00 war nicht erfunden, sondern ausdrücklich im Originalartikel Basses Blatt vom 23.03.2022 belegt, einschließlich ISR-Übernahme von Andreas Rehn und Holsteinstraße 17. Die aktuelle vollständig gelesene Betreiber-Standortseite nennt für Fahrenkrug/Wahlstedt jedoch nur Mo-Fr 08:00-17:00. Aktuelle Zeiten auf diese Betreiberangabe korrigiert; historische Samstagszeiten bleiben in der alten Recherche erhalten. Kein ausdrücklicher Samstag-geschlossen-Beleg und kein genaues Änderungsdatum behauptet. Starke aktuelle Betreiberquelle für Zeiten, unabhängige Presse nur historischer Standort-/Zeitbeleg; Quelle(n): https://www.isr-recycling.de/index.php/standorte-isr | https://www.basses-blatt.de/newsreader-aus-dem-geschaeftsleben/isr-hat-schrottplatz-in-wahlstedt-uebernommen.html]
+- [Korrektur 03.10.2026: Feedback 3501 Impressum separat vollständig gelesen: ISR Recycling GmbH & Co. KG, Hafenstraße 35 Itzehoe, SMS Recycling Verwaltungs GmbH und Kevin Hopp; keine HR-Nummer, daher keine HRB-Owner-Ausnahme. Standortadresse/Telefon bleiben kongruent. Lokale E-Mail auf Standortseite nur JS-geschützt, sichtbar zentrale info[at]isr-recycling.de nicht als Filialmail ausgegeben; email bleibt leer. Keine Orts-/Adressänderung, keine neuen Koordinaten oder Leistungen, Überblick und Historie unverändert; Quelle(n): https://www.isr-recycling.de/index.php/impressum | https://www.isr-recycling.de/index.php/standorte-isr]
 
 ### Recherche 01.10.2026
 
