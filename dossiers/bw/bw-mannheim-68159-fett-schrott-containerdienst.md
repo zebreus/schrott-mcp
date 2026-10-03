@@ -6,7 +6,7 @@ state: BW
 city: Mannheim
 street: G6 6
 postcode: '68159'
-phone: +49 0621-48205760
+phone: 0621-48205760
 email: kontakt@fett-schrott.de
 opening_hours: ''
 website: https://fett-schrott.de
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback-Triage 4314)
+
+- [Recherche 03.10.2026: Telefonformatfehler bestätigt: Impressum nennt im Kontaktblock 0621-48205760, Ankerrufziel auf Root/Kontakt/Impressum ist tel:+4962148205760. Sichtbarer Footer hingegen fehlerhaft +049 0621-48205760; diese Darstellung nicht übernehmen. Dossier +49 0621-48205760 auf exakt betreiberveröffentlichte nationale Form 0621-48205760 korrigiert, keine neue Nummer ergänzt oder Teilnehmerziffer geändert. Betreiber Murafet Özdemir, Fett Schrott, G6 6, 68159 Mannheim, kontakt@fett-schrott.de, USt-ID DE265277561 passen zum vorhandenen Datensatz; externe Suche ohne belastbaren Zweitbeleg. Eine Betreiberquelle trotz mehrerer Seiten, keine HRB im Impressum und keine Owner-Ausnahme behauptet. Dies ist eine dokumentierte Formatkorrektur des bereits gefüllten Telefonfelds, keine Anreicherung aus einer zweiten ungeprüften Identität; Quelle(n): https://fett-schrott.de/impressum.html | https://fett-schrott.de/impressum | https://fett-schrott.de/kontakt.html | https://fett-schrott.de/]
+- [Recherche 03.10.2026: Root, Über uns, Kontakt, korrekt verlinktes Impressum, Mannheim-Abholung und Nicht Erlaubt einzeln gelesen. Frühere Triage 3039 keine Containervermietung erkennbar zu pauschal: aktuelle Root bietet Containeranlieferung für größere Altmetallmengen, Über uns nennt Containerdienst mit 2 bis 40 Kubik. Schrotthandel und Containerdienst schließen einander nicht aus; trader_type schrotthaendler und Markenname unverändert. Abholung/Ankauf ausdrücklich für Privat- und Firmenkunden in Mannheim/Umgebung, keine Öffnungszeiten/Mindestmengen oder pauschal kostenlose Abholung aus kostenlos anfragen ableiten. Zertifizierter Entsorgungsfachbetrieb bleibt Betreiberbehauptung ohne hier verifiziertes Zertifikat. Root nennt Autobatterien, spezifische Ausschlussseite nennt Batterien/Akkus: Annahme nicht pauschal bestätigen, vorab klären. Keine neuen Frontmatter-Fills für Abholung/Zertifizierung ohne unabhängigen Beleg, status pruefung bleibt; Quelle(n): https://fett-schrott.de/ | https://fett-schrott.de/ueber-uns.html | https://fett-schrott.de/kontakt.html | https://fett-schrott.de/impressum.html | https://fett-schrott.de/mannheim-schrott-abholen.html | https://fett-schrott.de/nicht-erlaubt.html]
 
 ### Recherche 01.10.2026
 
