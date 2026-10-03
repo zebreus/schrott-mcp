@@ -29,6 +29,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026 (Feedback-Triage 4299)
+
+- [Recherche 03.10.2026: Fachfremdes Leistungsbild bestätigt, Website-Zuordnung zum Sangerhäuser Standort dagegen positiv belegt: Root, Kontakt, Impressum, Über uns, Sortiment und Vertriebsweg einzeln gelesen. MAINMETALL GmbH, HRB 205 AG Aschaffenburg, Miltenberger Str. 18-20, 63927 Bürgstadt laut Impressum; Unternehmen beschreibt Großhandel für Badezimmereinrichtungen, Installation, Heizung und Spenglereibedarf, dreistufigen Vertriebsweg zum Fachhandwerk. Kein Schrottankauf auf diesen relevanten Seiten erkennbar. Metallhaltige Neuware und Name Mainmetall sind kein Ankaufbeleg; zugleich weder Firmenfremdheit noch Schließung aus fehlendem Schrottangebot ableiten. Externe Suche ohne verwertbaren Zweitbeleg/Registerabgleich; keine HR-kongruente Owner-Ausnahme behauptet. status pruefung bereits lokal UND in Produktion, keine neue Rückstufung nötig; Quelle(n): https://www.mainmetall.de/ | https://www.mainmetall.de/kontakt/ | https://www.mainmetall.de/impressum/ | https://www.mainmetall.de/unternehmen/ueber-uns/ | https://www.mainmetall.de/geschaeftskunden/sortiment/ | https://www.mainmetall.de/unternehmen/ueber-uns/vertriebsweg/ | read-only Produktionsabgleich 03.10.2026]
+- [Recherche 03.10.2026: Frühere Note Adresse nicht verifiziert präzisiert: Kontaktseiten-Markdown zeigte nur Standorttitel, direkt gelesener HTML-Abschnitt SANGERHAUSEN enthält jedoch MAINMETALL GmbH, An der Stollenmühle 17, 06526 Sangerhausen, Telefon 03464-5448280, info@mainmetall.de, Schnell-Lager Mo-Do 06:30-16:00, Fr 06:30-14:00. Das sind ausdrücklich Großhandels-/Lagerdaten, keine Schrottannahmezeiten. Nach strengem Zweiquellen-Standard keine Frontmatter-Fills aus diesem einzelnen Betreiberbeleg, keine Koordinaten und kein Umzug an Bürgstadter Sitz. Website bleibt richtiger Standort-/Identitätslead; Katalogrelevanz und trader_type metallhaendler bleiben Klärfall. Keine Löschung, kein Merge und keine Schema-/Produktions-DB-Änderung; Quelle(n): https://www.mainmetall.de/kontakt/ (HTML des Sangerhausen-Akkordeons) | https://www.mainmetall.de/geschaeftskunden/sortiment/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallhandel Großhandel
