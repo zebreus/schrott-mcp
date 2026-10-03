@@ -12,7 +12,7 @@ opening_hours: Mo-Do 7-12 und 13-17, Fr 7-13
 website: https://geigergruppe.com
 website_status: aktiv
 status: aktiv
-description: Kreislaufstandort Memmingen der Geiger Gruppe (11 ha, ero. Juli 2024): Annahme von Altholz, Bauschutt, Bodenaushub u.a. für Bau-/Abbruchfirmen, Entsorger, Kommunen und Privatkunden
+description: Kreislaufstandort Memmingen der Geiger Gruppe (11 ha, eröffnet im Juli 2024): Annahme von Altholz, Bauschutt, Bodenaushub u.a. für Bau-/Abbruchfirmen, Entsorger, Kommunen und Privatkunden
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4523)
+
+- [Recherche 03.10.2026: Tippfehler "ero." in der Beschreibung zu "eröffnet im Juli 2024" korrigiert. Die Betreiberseite bestätigt den Kreislaufstandort Memmingen; AT Minerals nennt die offizielle Eröffnung am 11.07.2024 und die Fläche von rund 11 ha. Keine weitere Änderung an Frontmatter oder Zeitangabe. Quelle(n): https://www.geigergruppe.com/de-de/leistungen/recycling/standorte/; https://www.at-minerals.com/de/artikel/neuer-kreislaufstandort-in-memmingen-4144117.html]
 
 ### Recherche 02.10.2026
 
