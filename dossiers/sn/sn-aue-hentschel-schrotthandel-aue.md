@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Korrektur 03.10.2026 (Feedback-Triage)
+
+- [Korrektur 03.10.2026: Feedback 4017 bestätigt den weiterhin leeren Datenstand, aber kein ausreichend gesicherter Fill: Startseite, Kontakt und Impressum erneut einzeln vollständig abgerufen. Betreiberwebsite nennt Erdmann-Kircheis-Straße 1, 08280 Aue-Bad Schlema, 0172 7560830 und k-h@hentschel-schrotthandel-aue.com. Impressum enthält weiterhin leere Geschäfts-/Umsatzsteuerfelder, Aufsichtsbehörden-Platzhalter und keinen vollständigen Inhabernamen; Kontakt-Telefonlink zeigt tel:0000000 statt sichtbarer Nummer. Deshalb keine HRB-Owner-Ausnahme und keine starke, extern identifizierte Betreiberquelle behauptet. Website erreichbar, aber Templatefehler allein beweisen keine Nichtexistenz; Quelle(n): https://www.hentschel-schrotthandel-aue.com/ | https://www.hentschel-schrotthandel-aue.com/kontakt/ | https://www.hentschel-schrotthandel-aue.com/impressum/]
+- [Korrektur 03.10.2026: Feedback 4017 Gegenrecherche: Websuche nach exaktem Firmennamen sowie Hentschel/Erdmann-Kircheis/Schrott/Aue lieferte im verfügbaren Suchwerkzeug keine Ergebnisse; kein unabhängiger Register-/Kommunalbeleg und kein gesicherter Namensvetterabgleich möglich. Fehlende Suchergebnisse sind kein Nichtexistenzbeweis. Frühere Verzeichnis-Leads bleiben Historie, nicht neu verifiziert. Adresse, Stadt und Kontakte daher nicht gefüllt/korrigiert; status pruefung bleibt, keine Schließung und keine Koordinaten erfunden. Weiterer Prüfbedarf: identifizierbarer Inhaber oder aktueller unabhängiger lokaler Nachweis. Keine Adressänderung, kein Geocoding-Neulauf ausgelöst; Quelle(n): https://www.hentschel-schrotthandel-aue.com/impressum/ | https://www.hentschel-schrotthandel-aue.com/kontakt/ (Betreiberangaben, eine Quelle)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Altmetall (Website-Angabe)
