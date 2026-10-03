@@ -12,7 +12,7 @@ opening_hours: Mo-Do 8:00-16:00, Fr 8:00-15:30
 website: https://www.elly-nickels.de/
 website_status: aktiv
 status: pruefung
-description: Elly Nickels GmbH & Co. KG (Ehrich-Gruppe) — Abbruch, Industriedemontage, Schadstoffsanierung; Schrottankauf nicht belegt
+description: Abbruch, Rückbau, Industriedemontage und Schadstoffsanierung.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Abbruch, Industriedemontage, Schadstoffsanierung
 - Adressbeleg: elly-nickels.de
+
+### Korrektur 03.10.2026 (Feedback 4519)
+
+- [Korrektur 03.10.2026: Die interne Negativformulierung zum Schrottankauf durch eine knappe Beschreibung der auf der Elly-Nickels-Betreiberseite ausgewiesenen Leistungen ersetzt; kein Schrottankauf für diese Gesellschaft behauptet. Gegenbeleg: Ehrichs Stahlschrott-Seite nennt Annahme in Rendsburg an der Kieler Straße 171, führt sie aber unter Ehrich Rendsburg; die Seite trennt außerdem die Elly-Nickels-Gesellschaft im Impressum (HRA 679). Daher die Gruppen-/Standortangabe nicht ungeprüft Elly Nickels zugerechnet. Quelle(n): https://www.elly-nickels.de/ ; https://www.elly-nickels.de/impressum ; https://www.ehrich.de/entsorgung/stahlschrott ; https://www.ehrich.de/impressum]

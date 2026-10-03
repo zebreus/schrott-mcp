@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 87480)
+
+### Korrektur 03.10.2026
+
+- [Korrektur 03.10.2026: status von aktiv auf pruefung zurückgesetzt, weil die bisherige Aktivitätsbegründung ausschließlich aus übereinstimmenden Branchenverzeichnissen stammt; nach README-Quellenhierarchie sind diese nur Leads. Eine aktuelle Betreiberquelle oder unabhängige zulässige Bestätigung für den Betrieb an Boschensäge 4 wurde nicht gefunden. Gegenbeleg/Begrenzung: Die Gemeindeseite Weitnau bestätigt diesen Händler nicht, beweist aber ebenso wenig eine Schließung oder Nichtexistenz; Name, Adresse, Telefon und trader_type bleiben daher unverändert. Quelle(n): https://web2.cylex.de/firma-home/hartmann-leonhard-autoverwertung-kfzgebrauchtteile-3869922.html ; https://www.weitnau.de/markt-weitnau/wirtschaft-und-entwicklung/unternehmen-am-ort ; https://www.northdata.de/Leonhard+Hartmann,+Weitnau]

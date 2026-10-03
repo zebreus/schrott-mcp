@@ -10,7 +10,7 @@ phone: '05152 6989733'
 email: 'info@ho-autorecycling.de'
 opening_hours: ''
 website: https://hoautorecycling.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Audit-2 2394 01.10.2026: Audit-2 Feedback 2394 (PLZ/Telefon/E-Mail fehlten): auf Betreiber-Website belegt - H.O. Autorecycling GmbH, Steinbrinksweg 31, 31840 Hessisch Oldendorf, Tel. 05152 6989733, info@ho-autorecycling.de, GF Bilal Abdul-Rassoul, HRB 219923 (street bereits vorhanden); Abholung des Fahrzeugs moeglich; Quelle(n): https://hoautorecycling.de Home + Impressum, 01.10.2026]
 - [Audit-2 2394 01.10.2026: Eingearbeitet: postcode/phone/email]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: website_status auf aktiv gesetzt, da die Betreiber-Website erreichbar ist und Impressum/Firmendaten zur H.O. Autorecycling GmbH, Steinbrinksweg 31, 31840 Hessisch Oldendorf, HRB 219923 passen; Northdata bestätigt Registerkennung und Anschrift. Status bleibt pruefung, da die Website Fahrzeugverwertung und Fahrzeugabholung beschreibt, aber keinen allgemeinen Ankauf losen Metalls oder öffentliche Schrottannahme belegt. Quelle(n): https://hoautorecycling.de/ ; https://www.northdata.de/H.O.+Autorecycling+GmbH,+Hessisch+Oldendorf/HRB+219923]

@@ -12,7 +12,7 @@ opening_hours: Mo–Fr 08:00–18:00; Sa 08:00–14:00
 website: http://autoverwertung-knittlingen.de/
 website_status: aktiv
 status: pruefung
-description: Autoverwertung Knittlingen GmbH mit Fahrzeugankauf, Demontage und Handel mit gebrauchten Autoersatzteilen; allgemeiner Altmetallankauf nicht belegt.
+description: Autoverwertung in Knittlingen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Autoverwerter BW ohne Website (Ankauf unklar, kein Gegenbeleg)
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Autoverwertung
 - Adresse: Knittlingen
+
+### Korrektur 03.10.2026 (Feedback 4519)
+
+- [Korrektur 03.10.2026: Die internen Detail- und Prüfvermerke aus der description entfernt und auf den sicher belegten, kundenverständlichen Tätigkeitsbegriff „Autoverwertung“ begrenzt. Betreiber-Homepage und Registerprofil stimmen bei Firma, Ort und Autoverwertung überein; die aktuelle Homepage nennt darüber hinaus nur allgemein den Bezug zum Auto und bestätigt die einzelnen Leistungen Fahrzeugankauf, Demontage und Ersatzteilhandel nicht selbst. Gegenbeleg/Abgrenzung: Das Register nennt diese Tätigkeiten als Unternehmensgegenstand, aber weder dieses noch die Betreiberseite belegen allgemeinen Ankauf losen Altmetalls. Quelle(n): http://autoverwertung-knittlingen.de/ ; http://autoverwertung-knittlingen.de/privacy ; https://www.northdata.de/Autoverwertung%20Knittlingen%20GmbH,%20Knittlingen/Amtsgericht%20Mannheim%20HRB%20732419]

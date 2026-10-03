@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 7-12 und 12:45-16
 website: https://goetz-neu-ulm.de
 website_status: aktiv
 status: aktiv
-description: Wertstoffhof Weißenhorn des Familienunternehmens Götz (75+ Jahre); Ankauf von Stahl, Guss, Alu, Kupfer, Messing, Blei/Zinn/Zink, Edelstahl; Abholung mit Containerstellung
+description: Wertstoffhof Weißenhorn des Familienunternehmens Götz (Familiengeschichte seit 1951); Ankauf von Stahl, Guss, Alu, Kupfer, Messing, Blei/Zinn/Zink, Edelstahl; Abholung mit Containerstellung
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)'
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lagern/Behandeln/Verwerten
+
+### Korrektur 03.10.2026 (Feedback #4523)
+
+- [Korrektur 03.10.2026: Die relative Altersangabe „75+ Jahre“ durch „Familiengeschichte seit 1951“ ersetzt. Die Betreiber-Historie nennt die Firmengründung 1951, unterscheidet aber die Gründung der heutigen Götz GmbH Schrott + Metalle (1986) und die Integration des Standorts Weißenhorn (2014). Die Formulierung bezieht sich daher ausdrücklich auf die Familiengeschichte, nicht auf das Alter der heutigen GmbH oder des Standorts. Leistungsangaben und übrige Felder unverändert. Quelle: https://www.goetz-neu-ulm.de/unternehmen/; https://www.goetz-neu-ulm.de/]

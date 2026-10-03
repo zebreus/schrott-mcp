@@ -12,7 +12,7 @@ opening_hours: ''
 website: http://www.sjm-hamburg.de/
 website_status: aktiv
 status: aktiv
-description: 'Siegfried Jacob Hamburg (Jacob Metal Group): NE-Metall-Recycling aus Industrie und Handel (Cu, Alu, Zink, Zinn); Privatanlieferung nicht belegt'
+description: NE-Metall-Recycling und weltweiter Handel mit Kupfer, Aluminium, Zink und Zinn.
 dropoff_json: '{"allowed": true, "customer_types": ["gewerbe"], "conditions": "Anlieferung Industrie/Handel; keine Privatanlieferung belegt (Betreiber-Website, Feedback-Triage 01.10.2026)"}'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - NE-Metall-Recycling (Cu, Alu, Zink, Zinn), Anlieferung (gewerblich)
 - Adressbeleg: sjm-hamburg.de/de
+
+### Korrektur 03.10.2026 (Feedback 4519)
+
+- [Korrektur 03.10.2026: Quellen-/Prüfvermerk zur Privatanlieferung aus der description entfernt; die Beschreibung nennt nur das vom Betreiber für den Standort Glinde ausgewiesene NE-Metall-Recycling und den Handel mit Kupfer, Aluminium, Zink und Zinn. Gegenbeleg/Grenze: Die Betreiberseite beschreibt die Anlieferung durch Kunden, nennt aber keine ausdrückliche Freigabe oder ein ausdrückliches Verbot für Privatkunden; deshalb wird keine Kundengruppe behauptet. Quelle(n): https://www.sjm-hamburg.de/de/ ; https://www.sjm-hamburg.de/de/impressum]
