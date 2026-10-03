@@ -2,7 +2,7 @@
 slug: ni-delmenhorst-vedder-stockrahm
 name: Vedder & Stockrahm GmbH & Co. KG
 trader_type: sonstige
-state: NI
+state: HB
 city: Bremen
 street: 'Senator-Bömers-Straße 10'
 postcode: '28197'
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 03.10.2026 (Feedback-Triage)
+
+- [Korrektur 03.10.2026: Feedback 3319 und 3902 bestätigt: state NI auf HB korrigiert, passend zur bereits belegten Adresse Senator-Bömers-Straße 10, 28197 Bremen. Impressum nennt Vedder & Stockrahm GmbH & Co. KG, HRA 15234 HB, sowie Kruse Beteiligungsgesellschaft mbH, HRB 27526 HB; Kontaktseite belegt denselben Besuchsstandort. Unabhängiger Registerspiegel bestätigt Firma, HRA und Bremer Adresse, mit Publikationen 2026. Zwei Quellen, kein Namensvetter-Merge; Quelle(n): https://vedder-stockrahm.de/impressum/ | https://vedder-stockrahm.de/kontakt/ | https://www.northdata.de/Vedder+%26+Stockrahm+GmbH+%26+Co.+KG,+Bremen/Amtsgericht+Bremen+HRA+15234]
+- [Korrektur 03.10.2026: Gegenprüfung Delmenhorst: Footer verlinkt /kontakt/delmenhorst.html, direkter Abruf liefert 404; kein aktueller dortiger Hof daraus belegbar. Geschichte und Metallhandel separat gelesen, beide beziehen sich auf Bremen. Dies widerlegt nicht jede frühere oder mobile Tätigkeit in Delmenhorst, rechtfertigt aber keine NI-Zuordnung des konkret belegten Bremer Besuchsstandorts. Slug und Dateipfad bleiben stabil; keine weiteren Kontakt-/Typänderungen. Koordinaten bei Übernahme der Standortkorrektur neu prüfen/geocodieren; keine Werte erfunden, keine DB-Writes; Quelle(n): https://vedder-stockrahm.de/kontakt/delmenhorst.html | https://vedder-stockrahm.de/geschichte/ | https://vedder-stockrahm.de/metalle/]
 
 ### Recherche 01.10.2026
 
