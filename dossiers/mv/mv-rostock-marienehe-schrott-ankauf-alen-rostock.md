@@ -10,7 +10,7 @@ phone: 0172 6118818
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Note/Blocker — Portal-Detailseite vollständig gelesen, Seed-Adresse Handwerkstr. 5 und Telefon 0172 6118818 konsistent, Portal nennt 18069 Rostock. Zeiten und Mindestmengen sind allein Portalbehauptungen; automatische Öffnungsanzeige widerspricht der Zeittabelle. Keine Betreiberquelle oder unabhängiger Identitäts-/Ankaufbeleg gefunden, deshalb keine PLZ/Zeiten/Leistungsfills und keine Rücksetzung auf aktiv. Portal-Domain ist keine Betreiberwebsite, Website bleibt leer; website_status nur unbekannt normalisiert; Quelle(n): https://lokaleschrottplatz.de/schrott-ankauf-alen-rostock/ .]

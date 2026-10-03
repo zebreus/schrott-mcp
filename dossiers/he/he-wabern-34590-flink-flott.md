@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Blocker: erneute Suche Flink & Flott/Wabern/34590/Schrotthandel ohne belastbare Betreiberidentität, Geschäftsadresse oder Registerbeleg. Ortslisten und andere Flink-Unternehmen sind kein Zuordnungsnachweis; die Trefferarmut belegt weder Nichtexistenz noch Betriebsschließung. Kein Kontakt-/Website-Fill, website_status unbekannt, status pruefung und übrige Felder unverändert. Folgeschritt Gewerberegister Wabern, soweit öffentlich/zulässig; Quelle(n): https://schrottregister.pages.dev/ort-wabern (Suchlead, unvollständiges Verzeichnis ohne passende Identifikation) ; https://www.flink.ch/en (sachfremder Suchtreffer)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

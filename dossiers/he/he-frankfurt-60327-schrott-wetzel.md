@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Historische Zuordnung differenzieren: Wikipedia nennt Frankfurt ausdrücklich als früheren Schrott-Wetzel-Standort (Tabellenstand 30.06.2020, Fließtext teils Stand 2014), verknüpft Mannheimer Betreiber und dessen Domain. Daher nicht pauschal als Namensvetter verwerfen. Aktuell vollständig einzeln gelesene Betreiberseiten Root, Impressum, Unternehmen, Kontakt, Dienstleistungen und Downloads listen jedoch keine Frankfurter Niederlassung; Mannheim HRB 7220 ist kein Beleg für heutige Anschrift/PLZ 60327. Historischer Standortbezug reicht nicht zum heutigen Website-/Kontakt-Fill. website leer, website_status unbekannt und status pruefung; Quelle(n): https://de.wikipedia.org/wiki/Schrott_Wetzel ; https://www.schrott-wetzel.de/ ; https://www.schrott-wetzel.de/impressum.html ; https://www.schrott-wetzel.de/unternehmen.html ; https://www.schrott-wetzel.de/kontakt.html ; https://www.schrott-wetzel.de/dienstleistungen.html ; https://www.schrott-wetzel.de/downloads.html]
+- [Recherche 03.10.2026: Blocker historische Filialanschrift/Schließung oder Nachfolge nicht primär belegt; Mannheim/Karlsruhe-Kontakte und deren Zeiten nicht auf Frankfurt übertragen. Downloads verlinken aktuelle Zertifikate, deren PDF-Inhalt nicht geprüft wurde; keine Schlussfolgerung über Frankfurt daraus. Keine Adressänderung und keine Neu-Geocodierung; Quelle(n): https://www.schrott-wetzel.de/kontakt.html ; https://www.schrott-wetzel.de/downloads.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

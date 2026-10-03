@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling, Containerdienst (lt. schrottplatz-info)
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Note/Blocker — Portal-Detailseite vollständig gelesen: H u S Recycling mit Containerdienst, Am Gewerbepark 24, 06632 Freyburg (Unstrut), Telefon 034464 35656. Inhaber bleibt unvollständig Holger …, Homepage-Link defekt; keine Betreiber-Primärquelle, unabhängige Identitätsbestätigung, aktuellen Zeiten oder konkreter Ankauf belegt. Keine Angaben namensähnlicher H&S-Unternehmen übertragen, Lead-Daten nicht gefüllt. status pruefung unverändert, website_status nur unbekannt normalisiert; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Freyburg-Unstrut/H-u-S-Recycling-Mit-Containerdienst-Inh-Holger- .]

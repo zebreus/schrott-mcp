@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Neuer passender Lead, frühere Ergebnislosigkeit nicht fortschreiben: vollständig gelesene Örtliche-Liste und Detailseite nennen Dave‘s Schrotthandel, Ostallee ohne Hausnummer, 54290 Trier-Innenstadt, 0162 3575482 und davidfrankreiter00@gmail.com, 24-Stunden-Zeiten. Beide Seiten dieselbe Aggregatorquelle, keine Betreiber-/Registerbestätigung. Keine unvollständige Adresse, 24/7-Hoföffnung oder Identität David Frankreiter aus E-Mail ableiten; kein Frontmatter-Kontakt-Fill, website_status unbekannt, status pruefung. Keine Beziehung zu anderen Frankreiter-Einträgen belegt. Namensvetter Annweiler/Schweiz nicht übernehmen; Quelle(n): https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Trier.html ; https://www.dasoertliche.de/Themen/Dave-s-Schrotthandel-Trier-Innenstadt-Ostallee]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

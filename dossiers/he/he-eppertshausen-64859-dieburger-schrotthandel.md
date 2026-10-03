@@ -10,7 +10,7 @@ phone: 060718818865
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Note: vollständig gelesene 11880-Liste enthält Dieburger Schrotthandel & Containerdienst, Nieder-Röder-Str. 80, 64859 Eppertshausen, 06071 8818865; bestätigt bestehende Seedwerte nur als Lead, keine zusätzliche unabhängige Primärquelle. Kein zugeordnetes Betreiber-Impressum, keine aktuelle Annahme-/Ankaufbedingung oder belastbare Zeiten gefunden. Nicht mit 1a Schrotthandel/Jahnstr. 23 oder mobilen Dieburg-Servicegebieten zusammenführen. Bestehende Adresse/Telefon/city unverändert, kein neuer Kontakt-Fill und kein Geocoding-Neulauf; website_status unbekannt, status pruefung; Quelle(n): https://www.11880.com/suche/schrotthandel/schoellkrippen (Eintrag unter Umgebung, nicht Standort Schöllkrippen)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

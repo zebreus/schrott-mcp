@@ -7,11 +7,11 @@ city: Spandau
 street: 'Spandau, Tiefwerderweg 13,  (gleiche Adresse ELNO-Seed: räumliche Koinzidenz,
   getrennte Firmen)'
 postcode: '13597'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: tot
+website: https://www.scholz-recycling.com/
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -28,6 +28,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Partieller Fill ausschließlich der Konzern-Website https://www.scholz-recycling.com/; Root und Impressum erreichbar, website_status tot auf aktiv korrigiert (Website-Zustand, KEIN Nachweis einer aktiven Berlin-Niederlassung). Impressum Scholz Recycling GmbH, Essingen, HRB 733963 AG Ulm, Geschäftsführer Abderrahmane El Aoufir. Starke Betreiber-Einzelquelle, konkrete Zuordnung der historischen Berlin-NL zum heutigen Betreiber bleibt offen. phone von unzulässigem Gedankenstrich auf leeren String korrigiert; keine belegte lokale Nummer. Straße und übrige Seed-Fakten nicht überschrieben; Quelle(n): https://www.scholz-recycling.com/ + https://www.scholz-recycling.com/impressum/]
+- [Recherche 03.10.2026: Vollständiger Standortfinder-Datensatz abgerufen und read-only ausgewertet: 184 Standorte, kein Treffer Berlin oder Tiefwerder. Fehlender Eintrag beweist keine Schließung. Konzern-Services, Geschäftsbereiche, Recycling, Zertifikate und Kontakt einzeln vollständig gelesen; keine lokalen Berlin-Fakten daraus abgeleitet. Tiefwerderweg 13 bleibt unbestätigter historischer Verzeichnis-Lead; räumliche Koinzidenz mit ELNO ist kein Identitätsbeleg. Blocker für Filial-Fills: aktueller Standort-/Betreiberbeleg fehlt; Quelle(n): https://www.scholz-recycling.com/standorte/ + https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ + https://www.scholz-recycling.com/kontakt/ + https://www.scholz-recycling.com/services/ + https://www.scholz-recycling.com/geschaeftsbereiche/ + https://www.scholz-recycling.com/recycling/ + https://www.scholz-recycling.com/zertifikate/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

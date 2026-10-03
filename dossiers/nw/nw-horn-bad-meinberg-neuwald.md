@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Neuer Lead korrigiert die frühere Aussage „keine Verzeichnis-Leads“, alte Note bleibt erhalten: vollständig gelesener 11880-Eintrag Manuel Neuwald Schrotthandel, 32805 Horn-Bad Meinberg, 0171 9355622, ohne Straße und Betreiberwebsite. Kein unabhängiger Identitäts-/Aktualitätsbeleg, daher weder Telefon noch PLZ gefüllt; status pruefung bleibt. Blocker: Betreiber-Primärquelle oder unabhängiger konkreter Zweitbeleg fehlt; Quelle(n): https://www.11880.com/branchenbuch/horn-bad-meinberg/120674719B101482332/manuel-neuwald-schrotthandel.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

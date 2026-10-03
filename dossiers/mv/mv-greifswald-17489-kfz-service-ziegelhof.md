@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - anerkannter Demontagebetrieb (GESA)
 - Adresse: Greifswald 17489
+
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Note/Blocker — Gezielte Namens-/Ortssuche und Portal-Suche ohne passenden Betreiberlink; GESA-Suchfrontend ohne verwertbaren Inhalt. Seed-Behauptung anerkannter Demontagebetrieb nicht durch aktuelles Zertifikat bestätigt. Keine Adresse/Telefon/Website anderer Greifswalder Kfz-Betriebe oder Ziegelhof-Namensvetter übertragen; Identität, Annahmebedingungen und Ankauf bleiben offen. Fehlende Suchtreffer beweisen keine Schließung; status pruefung unverändert, website_status nur unbekannt normalisiert; Quelle(n): https://lokaleschrottplatz.de/?s=KfZ%20Service%20Ziegelhof ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]

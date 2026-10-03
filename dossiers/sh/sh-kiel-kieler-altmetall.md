@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Kein Fill. Name Kieler Altmetall und Seed-Telefon 0160-99288699 extern weiterhin keinem belastbaren Betreiber-Impressum zugeordnet. KSH Kieler Schrotthandel GmbH beziehungsweise Boris Schmidt nicht allein wegen Branchen-/Ortsähnlichkeit gleichgesetzt; KSH-Suchtreffer hat andere Telefonnummer. Seed-Telefon bleibt unverändert und unbestätigt, keine fremde Adresse/Domain eingetragen, keine Schließung aus fehlenden Treffern abgeleitet. Blocker: konkrete Betreiberidentität oder ursprüngliche Anzeige fehlt; Quelle(n): https://www.kieler-schrotthandel.de/ (Suchtreffer zu anderem Betreiber) + https://www.google.com/search?q=%22016099288699%22 (reproduzierbare Telefon-Suchreferenz, kein Identitätsbeleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall/Demontage — "Größere Mengen werden ggf. auch angekauft" (NEU, mobil)

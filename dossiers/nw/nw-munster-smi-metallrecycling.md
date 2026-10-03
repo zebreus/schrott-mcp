@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026
+
+- [Recherche 03.10.2026: Neuer vollständig gelesener wlw-Lead SMI Metallrecycling, Am Schild 11, 48159 Münster, Geschäftsführung Can Ikram, nationaler Dienstleister. Damit existiert anders als in der alten Triage-Note ein konkreter Verzeichnis-Lead; kein gesicherter Register-/Betreiberbeleg. Vermutete Domain weiterhin nur „BALD VERFÜGBAR“ ohne Impressum oder Firmen-/Kontaktdaten; nicht als aktive Händlerwebsite gefüllt. Adresse, PLZ und Leistungsdaten bleiben leer, status pruefung bleibt; Platzhalter-Koordinaten nicht als Adressbeleg genutzt. Blocker: Betreiberidentität und aktueller Betrieb unbestätigt; Quelle(n): https://www.wlw.de/de/firma/smi-metallrecycling-1786787 + https://smi-metallrecycling.de/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Am Schild 11)
