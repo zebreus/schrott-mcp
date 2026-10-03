@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://schrotthandel-nordfriesland.de
 website_status: tot
 status: aktiv
-description: 'Schrotthandel Langenhorn GmbH und Co. KG (HRA 7553 FL): Schrottannahme Alu/Blei/Kupfer/Kabel/Stahl/Zink; Website-Domain derzeit STRATO-Platzhalter ohne Inhalt'
+description: 'Schrotthandel Langenhorn GmbH und Co. KG (HRA 7553 FL): Schrottannahme Alu/Blei/Kupfer/Kabel/Stahl/Zink'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4523)
+
+- [Recherche 03.10.2026: Den zeitgebundenen Technikvermerk zur Website aus der nutzergerichteten description entfernt; der Website-Zustand ist bereits strukturiert mit `website_status: tot` festgehalten. Der aktuelle HTTP-Abruf zeigt weiterhin den STRATO-Hinweis "Diese Domain wurde soeben freigeschaltet; es wurden noch keine Inhalte hinterlegt"; HTTPS antwortet mit Transportfehler. Unternehmensidentität und übrige Felder nicht geändert. Quelle(n): http://www.schrotthandel-nordfriesland.de/; https://www.northdata.de/Schrotthandel%20Langenhorn%20GmbH%20&%20Co%C2%B7%20KG,%20Langenhorn/Amtsgericht%20Flensburg%20HRA%207553%20FL]
 
 ### Recherche 01.10.2026
 
