@@ -8,7 +8,7 @@ street: Am Gewerbepark 9
 postcode: 09575
 phone: 037293/793606
 email: kontakt@metallhandel-kroenert.de
-opening_hours: Mo-Fr 08:00-18:00
+opening_hours: Mo-Fr 08:00-11:45 und 12:30-18:00; Annahmeschluss 17:30; Sa geschlossen
 website: https://metallhandel-kroenert.de
 website_status: aktiv
 status: aktiv
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 03.10.2026 (Feedback-Triage)
+
+- [Korrektur 03.10.2026: Feedback 4011 teilweise bestätigt: Öffnungszeiten um Betreiber-Pause 11:45-12:30, Annahmeschluss 17:30 und Samstag geschlossen ergänzt. Vollständig gelesene Startseite nennt Mo-Fr 08:00-18:00 mit diesen Einschränkungen; starke aktuelle Betreiber-Einzelquelle, keine zwei unabhängigen Zeitbelege behauptet. Impressum bestätigt Andy Krönert, Am Gewerbepark 9, ausdrücklich 09575 Eppendorf OT Großwaltersdorf. city Eppendorf daher keine belegte Fehlzuordnung, sondern Gemeinde statt Ortsteil; unverändert. Betreiberhistorie beschreibt Umzug vom Eppendorfer Kernort nach Großwaltersdorf 2010. Gemeinde-URL nicht abrufbar, deshalb kein zusätzlicher Kommunalbeleg behauptet; Quelle(n): https://metallhandel-kroenert.de/ | https://metallhandel-kroenert.de/impressum/ | https://www.gemeinde-eppendorf.de/gemeinde/ortsteile/grosswaltersdorf/ (Abruf gescheitert)]
+- [Korrektur 03.10.2026: Feedback 4011 Typkritik nicht eindeutig: Betreiber bietet sowohl Buntmetall-/Schrottankauf als auch Containerdienst an; vorhandener trader_type containerdienst widerspricht dem belegten Mischbetrieb nicht. Kein Typwechsel, keine neue Zertifizierung ohne Gültigkeitsprüfung des verlinkten Zertifikatbilds. Slug, Adresse, Kontakte, Überblick und Historie unverändert, kein Adresswechsel und keine neuen Koordinaten. Impressum-Mobilnummer und Startseiten-Festnetz sind unterschiedliche Kontaktarten, kein bewiesener Telefonfehler; Quelle(n): https://metallhandel-kroenert.de/ | https://metallhandel-kroenert.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
