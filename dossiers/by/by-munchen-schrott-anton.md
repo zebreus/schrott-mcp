@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Korrektur 03.10.2026 (Feedback-Triage)
+
+- [Korrektur 03.10.2026: Feedback 3212 PLZ-Regression im aktuellen Dossier nicht bestätigt: postcode steht bereits auf 80995. Live-Startseite nennt Lerchenstraße 19, 80995 München; unabhängiger Registerspiegel bestätigt für Schrott-SAM GmbH, München HRB 225491, genau Lerchenstr. 19, 80995 München. Impressum derselben Betreiberwebsite nennt widersprüchlich 80959 bei identischer Straße und HRB; dieser Einzelwert wird nicht gegen zwei übereinstimmende Quellen übernommen. Keine Adressänderung und kein Geocoding-Neulauf. Öffnungszeiten unverändert sachlich mit Startseite kongruent, OSM-Format ist ein separater Prozesswunsch, keine neue Zeitbehauptung; Quelle(n): https://www.schrott-anton.de/ | https://www.schrott-anton.de/impressum-schrott/ | https://www.northdata.de/Schrott-Sam+GmbH,+M%C3%BCnchen/Amtsgericht+M%C3%BCnchen+HRB+225491]
+- [Korrektur 03.10.2026: Feedback 3212 Namensteil berechtigt als Präzisierungsbedarf: heutiges Impressum und Registerspiegel nennen Schrott-SAM GmbH, Startseite vermarktet Schrott-Anton. Frühere Notiz Vorgänger-/Registername belegt keinen nachgewiesenen historischen Namenswechsel zu Schrott Anton GmbH; eine solche Umfirmierung wird nicht weiter behauptet. Identität der Website mit der Registerfirma durch HRB und identische Adresse gestützt, kein belegter separater Namensvetter. Frontmatter-Name vor amtlicher/Betreiberklärung nicht umbenannt, Slug/Historie erhalten; Quelle(n): https://www.schrott-anton.de/ | https://www.schrott-anton.de/impressum-schrott/ | https://www.northdata.de/Schrott-Sam+GmbH,+M%C3%BCnchen/Amtsgericht+M%C3%BCnchen+HRB+225491]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback-ID 1962 berechtigt – Adresse/PLZ/Telefon/Mobil/E-Mail/Öffnungszeiten eingearbeitet; Quelle(n): Betreiber-Website schrott-anton.de Startseite Kontakt-Box + /impressum-schrott/ (Owner-Ausnahme: Impressum Name+HRB+Ort HR-kongruent)]
