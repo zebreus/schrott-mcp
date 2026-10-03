@@ -10,8 +10,8 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
+
+- [Recherche 03.10.2026: Prod-Widerspruch bestätigt: Dossier-Website leer, Prod enthält weiterhin https://gold-silberankauf-hamburg.de. Deren Root und Impressum nennen Goldtrans, Ahrensburger Str. 69, 22041 Hamburg, Tel. 040 97079580; keine Zuordnung zu Goldankauf 111 in Groß Borstel belegt. Gegenprüfung des tatsächlichen Standortleads: Hanseatischer Goldankauf nennt auf Root und Kontaktseite die Zweigstelle Borsteler Chaussee 179, 22453 Hamburg, Tel. 040 46650067, Di-Fr nach Terminvereinbarung; Impressum nennt Diana Dexheimer, Schiffbeker Weg 315. Kein Betreiberbeleg, dass Goldankauf 111 derselbe Betrieb, ein früherer Name oder ein eigenständiger Mitnutzer ist. Frühere geratene /kontakt/ und /impressum/ liefern 404; tatsächliche .html-Seiten funktionieren und wurden einzeln gelesen. Die externe Suche im Suchtool ohne Treffer, DuckDuckGo mit Bot-Challenge: keine belastbare neue unabhängige Identitätsbestätigung, kein Nichtexistenzbeweis. Kein Frontmatter-Adress-/Kontaktfill und kein Rename auf Dexheimer; Quelle(n): https://www.gold-silberankauf-hamburg.de/ | https://www.gold-silberankauf-hamburg.de/impressum/ | https://hanseatischer-goldankauf.de/ | https://hanseatischer-goldankauf.de/kontakt.html | https://hanseatischer-goldankauf.de/impressum.html]
+- [Recherche 03.10.2026: status aktiv auf pruefung korrigiert wegen ungeklärter Identität, website_status unbekannt für die nicht zugeordnete Händlerwebsite normalisiert. Website bleibt leer, Goldtrans-Domain wird nicht als korrekt zurückgefüllt. Keine Owner-Ausnahme für nicht registerverifizierte Einzelunternehmerin. Technischer Prod-Drift: seed_traders verwendet keep bei leerer Website und erhält dadurch die gespeicherte Domain; bloßes Redeploy löscht sie nicht. Kein DB-Write, keine Lock-Flags oder Schemaänderung; Quelle(n): crates/ingestion/src/seed_traders.rs keep und seed_traders | read-only Prod-Abfrage slug hh-gro-borstel-goldankauf-111]
 
 ### Recherche 01.10.2026 (Feedback-Triage 2904)
 

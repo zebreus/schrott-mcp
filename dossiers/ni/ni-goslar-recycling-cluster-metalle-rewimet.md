@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
+
+- [Recherche 03.10.2026: Betreiber-Root, Impressum, Über uns, FAQ und komplette Mitgliederseite einzeln geprüft: REWIMET e.V., Vereinsregister 200914 AG Braunschweig, Netzwerk mit Unternehmens-, Forschungs- und kommunalen Mitgliedern. Recycling-/Ankaufsleistungen einzelner Mitglieder sind nicht eigene Händlerleistungen des Vereins. Frühere Note mit Im Schleeke 50 als Vereinsadresse korrigiert: Impressum führt dort Metalogie GmbH unter Konzeptionierung und technische Realisierung; Geschäftsstelle im Footer Leibnizstraße 23, 38678 Clausthal-Zellerfeld. Daraus weder Umzug des unklaren Goslar-Händlers noch Händleridentität ableiten. Betreiberseiten zählen als eine Quelle; neue externe Suche ohne verwertbaren Treffer bzw. Bot-Challenge. Starke Einzelquelle genügt hier zur Abgrenzung des Vereins, nicht zum Füllen eines unbewiesenen Schrotthändlers; Quelle(n): https://rewimet.de/ | https://rewimet.de/impressum | https://rewimet.de/ueber-uns | https://rewimet.de/mission/faq | https://rewimet.de/ueber-uns/mitglieder]
+- [Recherche 03.10.2026: Feedbacks technischer Widerspruch bestätigt: Dossier-Website bereits leer, Prod weiterhin https://rewimet.de. website_status auf unbekannt normalisiert, status pruefung und leere Website bleiben; Domain selbst ist erreichbar, aber nicht als eigene Ankaufstelle verifiziert. keep bei leerer Seed-Website erhält den Prod-Wert auch nach erneutem Seedlauf; keine erneute Entfernung behauptet und kein direkter DB-Write; Quelle(n): read-only Prod-Abfrage slug ni-goslar-recycling-cluster-metalle-rewimet | crates/ingestion/src/seed_traders.rs]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

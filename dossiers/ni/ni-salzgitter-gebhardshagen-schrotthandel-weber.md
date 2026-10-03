@@ -29,6 +29,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
+
+- [Recherche 03.10.2026: Feedbacks technischer Widerspruch bestätigt: Website im Dossier bereits leer, Prod weiterhin https://weber-recycling.de. Erneuter Einzelcrawl Root, Impressum, Kontakt, Unternehmen, Leistungen, Schrott-/Metallhandel, Containerdienst, Brennarbeiten, Demontage, Referenzen und FAQ bestätigt Ricardo Weber in Wolfenbüttel und ausdrücklich mobilen Abholservice, aber keine konkret benannte Gebhardshagener Annahmestelle. Ein anderer Hauptsitz beweist keine fremde Firma oder fehlende regionale Tätigkeit. Gegenlead lokaleschrottplatz im heutigen Abruf HTTP 403; früher dort dokumentierte identische Telefonnummer bleibt Historie, heute nicht neu live bestätigt. Externe Gebhardshagen-Suche durch Bot-Challenge eingeschränkt. Keine neue unabhängige Identitätsbestätigung und keine HRB/HRA im Betreiber-Impressum, Owner-Ausnahme greift nicht; Quelle(n): https://www.weber-recycling.de/ | https://www.weber-recycling.de/impressum/ | https://www.weber-recycling.de/kontakt/ | https://www.weber-recycling.de/unternehmen/ | https://www.weber-recycling.de/leistungen/ | https://www.weber-recycling.de/schrott-und-metallhandel/ | https://www.weber-recycling.de/containerdienst/ | https://www.weber-recycling.de/brennarbeiten/ | https://www.weber-recycling.de/demontage-und-entsorgung-von-industriemaschinen/ | https://www.weber-recycling.de/referenzen/ | https://www.weber-recycling.de/faq/ | https://lokaleschrottplatz.de/schrotthandel-weber/]
+- [Recherche 03.10.2026: status pruefung, website_status unbekannt und leere Website beibehalten, keine Übernahme Wolfenbütteler Adresse/Kontakte und keine Behauptung einer erneut entfernten Domain. Prod-Drift wird durch keep im Seedimport erhalten, deshalb löst ein gewöhnliches Redeploy die Website-Leerung nicht. Namensvetter-/Mobilitätsfrage bleibt offen, Feedbacks getrennte Firmenidentität nicht pauschal bestätigt. Kein DB-Write, kein Merge/Umzug und keine Schemaänderung; Quelle(n): read-only Prod-Abfrage slug ni-salzgitter-gebhardshagen-schrotthandel-weber | crates/ingestion/src/seed_traders.rs]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alu/Blei/E-Motoren/Kupfer/Kabel, Container/Demontage

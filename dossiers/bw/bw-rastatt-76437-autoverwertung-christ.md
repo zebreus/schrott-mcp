@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
+
+- [Recherche 03.10.2026: Root, Impressum, Über uns und Angebot einzeln live geprüft: Autoverwertung Christ in Reilingen, Daimlerstraße 8, 68799, HRB 421344; aktuelle Seiten bieten Autorecycling/Teileverkauf und nennen Reilingen/Rhein-Neckar-Kreis. Kein positiver Betreiberbeleg für Rastatt oder Zollersbühnstraße 7 auf diesen relevanten Seiten. North-Data-Gegencheck bestätigt den Reilinger Registerbezug; Suche Christ/Rastatt bzw. Zollersbühn ohne belastbaren Treffer oder durch Bot-Challenge eingeschränkt. Das beweist weder, dass nie eine frühere Filiale existierte, noch eine Dublette. Frühere Formulierung gesamte Betreiberdomain nirgends präzisiert: geprüft wurden die relevanten vier Seiten, kein vollständiger Domain-/Archivscan. Reilinger Daten nicht in den ungeklärten Rastatt-Eintrag übernehmen; Quelle(n): https://autoverwertung-christ.de/ | https://autoverwertung-christ.de/impressum/ | https://autoverwertung-christ.de/ueber-uns/ | https://autoverwertung-christ.de/angebot/ | https://www.northdata.de/Autoverwertung+Christ+GmbH,+Reilingen/Amtsgericht+Mannheim+HRB+421344]
+- [Recherche 03.10.2026: Prod-Widerspruch aus Feedback 4461 bestätigt: Dossier-Website bereits leer, Prod weiterhin https://autoverwertung-christ.de. status pruefung, website_status unbekannt und alle übrigen Frontmatter-Werte unverändert; nicht erneut entfernt und nicht geschlossen. Ein gemeinsamer Name ist kein Nachweis eines Umzugs, deshalb keine Orts-/PLZ-Bereinigung auf Vermutung. Seed-keep erhält die nichtleere Prod-Domain bei leerem Dossierfeld. Kein DB-Write, keine Löschung oder Zusammenführung; Quelle(n): read-only Prod-Abfrage slug bw-rastatt-76437-autoverwertung-christ | crates/ingestion/src/seed_traders.rs]
+
 ### Recherche 01.10.2026
 
 - [Recherche/Feedback-Triage 01.10.2026 (ID 3065): Zwei-Seiten-/Namensvetter-Check — KEINE Feldübernahme, Phantom-/Dublettenverdacht; Quelle(n): https://autoverwertung-christ.de/impressum/ (Betreiber-Impressum 01.10.2026).]

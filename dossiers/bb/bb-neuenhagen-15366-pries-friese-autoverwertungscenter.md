@@ -10,7 +10,7 @@ phone: 03342 234480
 email: info@kfz-werkstatt-neuenhagen.de
 opening_hours: Mo-Fr 7-18
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,11 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
+
+- [Recherche 03.10.2026: Feedbacks Feldwiderspruch bestätigt: Dossier-Website leer, Prod http://www.pries-und-friese.de. Die Domain ist aber keine nachgewiesene firmenfremde Website: live erreichbar, Root nennt Nachfolger LFP KFZ-WERKSTATT und Bearbeitung aller Aufträge am bisherigen Standort seit 02.01.2023. Einzeln geprüfte Altseiten Autoverwertung, Kontakt, Anfahrt und Ersatzteile enthalten weiterhin AV-Angebote bzw. alte Kontaktdaten, bei gleichzeitigem LFP-Footer. Diese Mischung ist historische Kontinuität, kein aktueller Zertifikats-/Ankaufsbeweis. Frühere Aussage keine AV mehr ist zu stark: aktuelle LFP-Root/Impressum führen Werkstattbetrieb, LFP KFZ-Werkstatt oHG, HRA 4156 FF, Rosa-Luxemburg-Damm 1; das Fehlen von AV auf der aktuellen Leistungsdarstellung beweist allein keine Einstellung. Betreiber-/Vorgängerseiten nicht als zwei unabhängige Quellen zählen. Externe Gegenrecherche durch Bot-Challenge eingeschränkt; aktuelle AV-Tätigkeit bleibt offen; Quelle(n): https://pries-und-friese.de/ | https://pries-und-friese.de/autoverwertung/ | https://pries-und-friese.de/kontakt/ | https://pries-und-friese.de/anfahrt/ | https://pries-und-friese.de/ersatzteile/ | https://kfz-werkstatt-neuenhagen.de/ | https://kfz-werkstatt-neuenhagen.de/impressum/]
+- [Recherche 03.10.2026: Keine pauschale Schließung, Umbenennung oder Rückfüllung einer aktuellen Händlerwebsite; status pruefung und übrige Felder unverändert, website_status unbekannt für ungeklärte aktuelle Zuordnung normalisiert, nicht als Ausfall der erreichbaren historischen Domain. Website bleibt leer bis Betreiber-/Leistungskontinuität geklärt. Technischer Widerspruch folgt aus keep im Seedimport: leer löscht keinen gespeicherten Websitewert. Kein direkter Prod-DB-Write oder Schemaeingriff; Quelle(n): read-only Prod-Abfrage slug bb-neuenhagen-15366-pries-friese-autoverwertungscenter | crates/ingestion/src/seed_traders.rs]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

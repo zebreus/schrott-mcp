@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
+
+- [Recherche 03.10.2026: Google-DNS-Liveabfrage taurus-gmbh.de A ergibt Status 3 (NXDOMAIN): keine Website für Unterseiten-/Impressumcrawl verfügbar. Registerspiegel online-handelsregister nennt Taurus Entsorgungs-GmbH, HRB 45865 Mainz, Am Ockenheimer Graben 24, 55411 Bingen, gelöscht am 24.08.2022; North Data zeigt denselben Registerbezug und Erloschen-Markierung. Beide Spiegel beziehen sich auf Registerdaten, nicht als zwei unabhängige Originalregisterprüfungen zählen; kein amtlicher aktueller Auszug eingesehen. DNS-Ausfall beweist für sich keine Betriebsschließung. Nachfolge-/Heidesheimkontinuität nicht geklärt, E&O-Verdacht nicht zum Merge erhoben; Quelle(n): https://dns.google/resolve?name=taurus-gmbh.de&type=A | https://www.online-handelsregister.de/handelsregisterauszug/rp/Mainz/HRB/45865/Taurus-Entsorgungs-GmbH | https://www.northdata.de/Taurus+Entsorgungs-GmbH,+Bingen/Amtsgericht+Mainz+HRB+45865]
+- [Recherche 03.10.2026: Prod-Abgleich bestätigt Feedbacks Feldwiderspruch: Website lokal leer, Prod https://taurus-gmbh.de bei website_status tot. Leere Website, tot und pruefung im Dossier unverändert; Vorschlag unbekannt nicht übernommen, da die frühere Domain live NXDOMAIN liefert. keep im Seedimport erhält eine nichtleere Prod-Website bei leerem Dossierfeld, Redeploy allein leert sie nicht. Keine Adressübernahme aus Bingen, kein Lösch-/Merge-Schluss und keine direkten DB-Writes; Quelle(n): read-only Prod-Abfrage slug rp-heidesheim-taurus-entsorgungs | crates/ingestion/src/seed_traders.rs | DNS-Beleg wie oben]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott, Altmetall-Ankauf zu Tageshöchstpreisen, Container
