@@ -12,7 +12,7 @@ opening_hours: Warenannahme Mo-Do 06:30-15:30, Fr 06:30-13:30
 website: https://www.riwald.de
 website_status: aktiv
 status: pruefung
-description: Riwald Recycling Rhein-Main GmbH – Standort Frankfurt, Carl-Benz-Str. 1, 60314 Frankfurt am Main (Fechenheim). Betreiber-Standortseite nennt Tel. +49 (69) 416 745-0, Mail info.rrrm@riwald.de; Warenannahme Mo-Do 06:30-15:30, Fr 06:30-13:30. HRB laut Northdata-Snippet 50373 (AG Frankfurt) – HR-Beleg noch offen.
+description: Riwald Recycling Rhein-Main: Standort Frankfurt-Fechenheim.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 03.10.2026 (Feedback 4519)
+
+- [Recherche 03.10.2026: Internes Quellenprotokoll und der nicht verifizierte Northdata-Snippet zu HRB 50373 aus der nutzergerichteten description entfernt; der Register-Klärfall bleibt in der Timeline. Beschreibung auf den von der Betreiberseite gelisteten Standort Frankfurt-Fechenheim gekürzt. Die Betreiberseite enthält allgemeine und Frankfurt-spezifische Annahmezeiten, die voneinander abweichen; opening_hours daher nicht geändert und Widerspruch als Klärfall festgehalten. Keine Kontaktdaten, HRB oder Status geändert. Quelle(n): https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/ (Betreiberseite; https://riwald.com/standorte-de-riwald-recycling-rhein-main/ enthält denselben Seiteninhalt und zählt nicht als unabhängiger Zweitbeleg)]
 
 ### Recherche 01.10.2026
 
