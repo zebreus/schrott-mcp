@@ -79,8 +79,12 @@ Designed for AI agents, superfast queries, and future growth:
   one current price), uncertainty (`price_min`/`price_max`, `confidence`),
   provenance (`source_type`, `published` = trader published it themselves,
   `source_url`), and time (`observed_at`, `published_at`, per-material
-  `valid_from`/`valid_to`). `NULL` bounds mean open-ended; `NULL`
-  uncertainty means exact/unknown.
+  `valid_from`/`valid_to`). For handlers without a page-stated date,
+  `published_at` uses the German calendar day only when a comparable scrape
+  detects a price change; `extra_json.published_at_basis` distinguishes this
+  inference (`observed_price_change`) from a page-stated date (`page_stated`).
+  `NULL` means unknown; `NULL` bounds mean open-ended; `NULL` uncertainty
+  means exact/unknown.
 - `current_prices` — materialized latest observation per trader + material
   + variant (forward-only in `observed_at`, so late backfills never clobber
   new data).

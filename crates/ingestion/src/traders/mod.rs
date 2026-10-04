@@ -19,8 +19,10 @@
 //!   list across tasks — the handler interface stays untouched.
 //! - Writes go through [`record`] into `prices` with provenance
 //!   (`source_type=haendler_angabe`, `published=true`, `source_url`,
-//!   `published_at` when the page shows a date). `current_prices`
-//!   follows automatically; history is append-only.
+//!   `published_at` when the page shows a date, or the German calendar day
+//!   when a comparable price changes and the page states no date). The basis
+//!   is recorded in `extra_json.published_at_basis`. `current_prices` follows
+//!   automatically; history is append-only.
 
 pub mod handlers;
 pub mod scheduler;
@@ -162,8 +164,10 @@ pub struct HandlerOutcome {
     pub fetch_url: String,
     pub status_code: u16,
     pub byte_len: usize,
-    /// Page-stated validity date for the whole page (fallback for prices
-    /// without their own date).
+    /// Explicit page-stated date for the whole page (fallback for prices
+    /// without their own date). If absent, `record()` may infer the German
+    /// calendar date for a comparable price change; that basis is marked in
+    /// `extra_json` and never replaces an explicit date.
     pub published_at: Option<String>,
 }
 
@@ -295,15 +299,16 @@ pub async fn record(
     };
     let now_s = now.to_rfc3339();
     let baseline = internal.last_ok_step_items(handler_slug).unwrap_or(None);
-    // Snapshot current prices BEFORE writing, for jump detection.
-    let mut before: std::collections::HashMap<(i64, String), (f64, String, String)> =
+    // Snapshot current prices BEFORE writing, for change inference and jump
+    // detection.
+    let mut before: std::collections::HashMap<(i64, String), schrott_mcp_store::PriceRow> =
         std::collections::HashMap::new();
     for p in &outcome.prices {
         if let Ok(Some(mid)) = public.find_material_id(p.material) {
             let key = (mid, p.variant.to_owned());
             if !before.contains_key(&key) {
                 if let Ok(Some(cur)) = public.current_price_for(trader_id, mid, &p.variant) {
-                    before.insert(key, (cur.price, cur.currency, cur.unit));
+                    before.insert(key, cur);
                 }
             }
         }
@@ -334,6 +339,38 @@ pub async fn record(
             p.price_max,
             p.unit,
         )?;
+        let explicit_published_at = outcome.published_at.as_deref();
+        let inferred_published_at = if explicit_published_at.is_none()
+            && before
+                .get(&(material_id, p.variant.to_owned()))
+                .is_some_and(|previous| {
+                    same_mapping_version(previous)
+                        && comparable_price_changed(
+                            previous,
+                            price,
+                            p.currency,
+                            &unit,
+                            p.price_kind,
+                            price_min,
+                            price_max,
+                        )
+                }) {
+            Some(german_calendar_date(now))
+        } else {
+            None
+        };
+        let published_at = explicit_published_at.or(inferred_published_at.as_deref());
+        let mut extra = serde_json::json!({ "map_v": MAP_VERSION });
+        if let Some(basis) = if explicit_published_at.is_some() {
+            Some("page_stated")
+        } else if inferred_published_at.is_some() {
+            Some("observed_price_change")
+        } else {
+            None
+        } {
+            extra["published_at_basis"] = serde_json::json!(basis);
+        }
+        let extra_json = extra.to_string();
         match public.record_price(&schrott_mcp_store::NewPrice {
             trader_id,
             material_id,
@@ -349,26 +386,27 @@ pub async fn record(
             published: true,
             source_url: &outcome.fetch_url,
             observed_at: &now_s,
-            published_at: outcome.published_at.as_deref(),
+            published_at,
             valid_from: None,
             valid_to: None,
             notes: &p.label,
-            extra_json: &format!("{{\"map_v\":{}}}", MAP_VERSION),
+            extra_json: &extra_json,
             ingested_at: &now_s,
         }) {
             Ok(_) => {
                 recorded += 1;
                 // Jump canary against the pre-write snapshot (same
                 // currency+unit only — anything else is not comparable).
-                if let Some((old_price, old_cur, old_unit)) =
-                    before.get(&(material_id, p.variant.to_owned()))
-                {
-                    if *old_cur == p.currency && *old_unit == unit && *old_price > 0.0 {
-                        let ratio = price / old_price;
+                if let Some(previous) = before.get(&(material_id, p.variant.to_owned())) {
+                    if previous.currency == p.currency
+                        && previous.unit == unit
+                        && previous.price > 0.0
+                    {
+                        let ratio = price / previous.price;
                         if ratio >= CANARY_JUMP_RATIO || ratio <= 1.0 / CANARY_JUMP_RATIO {
                             canaries.push(format!(
                                 "Preissprung {} ({}): {:.3} -> {:.3} {} (x{:.1})",
-                                p.material, p.variant, old_price, price, unit, ratio
+                                p.material, p.variant, previous.price, price, unit, ratio
                             ));
                         }
                     }
@@ -514,6 +552,37 @@ pub async fn record(
         skipped,
         canaries,
     })
+}
+
+fn same_mapping_version(previous: &schrott_mcp_store::PriceRow) -> bool {
+    serde_json::from_str::<serde_json::Value>(&previous.extra_json)
+        .ok()
+        .and_then(|extra| extra.get("map_v").and_then(serde_json::Value::as_u64))
+        == Some(u64::from(MAP_VERSION))
+}
+
+fn comparable_price_changed(
+    previous: &schrott_mcp_store::PriceRow,
+    price: f64,
+    currency: &str,
+    unit: &str,
+    price_kind: &str,
+    price_min: Option<f64>,
+    price_max: Option<f64>,
+) -> bool {
+    previous.currency == currency
+        && previous.unit == unit
+        && (previous.price != price
+            || previous.price_kind != price_kind
+            || previous.price_min != price_min
+            || previous.price_max != price_max)
+}
+
+/// Store a German calendar date as UTC midnight, matching `parse_de_date`'s
+/// date-only representation rather than implying a time of publication.
+fn german_calendar_date(now: &DateTime<Utc>) -> String {
+    let date = now.with_timezone(&chrono_tz::Europe::Berlin).date_naive();
+    date.and_time(chrono::NaiveTime::MIN).and_utc().to_rfc3339()
 }
 
 /// Convert a quoted price into the catalog unit when the conversion is
@@ -695,5 +764,219 @@ mod tests {
             "{:?}",
             r.canaries
         );
+    }
+
+    #[tokio::test]
+    async fn published_date_is_inferred_only_for_comparable_price_changes() {
+        use super::{HandlerOutcome, ScrapedPrice};
+        use schrott_mcp_store::{InternalDb, NewMaterial, NewTrader, PublicDb};
+
+        async fn record_price(
+            public: &PublicDb,
+            internal: &InternalDb,
+            price: f64,
+            published_at: Option<&str>,
+            observed_at: &str,
+        ) {
+            let now = chrono::DateTime::parse_from_rfc3339(observed_at)
+                .expect("valid timestamp")
+                .with_timezone(&chrono::Utc);
+            let outcome = HandlerOutcome {
+                prices: vec![ScrapedPrice {
+                    material: "kupfer-millberry",
+                    variant: "",
+                    price,
+                    currency: "EUR",
+                    unit: "EUR/kg",
+                    price_kind: "exact",
+                    price_min: None,
+                    price_max: None,
+                    confidence: Some(1.0),
+                    label: "Kupfer Millberry".to_owned(),
+                }],
+                fetch_url: "https://example.test/preise".to_owned(),
+                published_at: published_at.map(str::to_owned),
+                ..HandlerOutcome::default()
+            };
+            super::record(public, internal, "published-date-test", &outcome, &now)
+                .await
+                .expect("record prices");
+        }
+
+        let dir = std::env::temp_dir().join(format!(
+            "schrott-published-date-{}-{}",
+            std::process::id(),
+            chrono::Utc::now().timestamp_nanos_opt().expect("timestamp")
+        ));
+        let public = PublicDb::open(&dir).expect("public db");
+        let internal = InternalDb::open(&dir).expect("internal db");
+        let initial_at = "2026-10-03T10:00:00Z";
+        public
+            .upsert_trader(&NewTrader {
+                slug: "published-date-test",
+                name: "Published date test",
+                trader_type: "schrotthaendler",
+                description: "",
+                street: "",
+                postcode: "",
+                city: "Berlin",
+                state: "BE",
+                country: "DE",
+                lat: None,
+                lon: None,
+                phone: "",
+                email: "",
+                website: "",
+                website_status: "unbekannt",
+                website_checked_at: "",
+                opening_hours: "",
+                dropoff_json: "{}",
+                pickup_json: "{}",
+                min_quantity_kg: None,
+                max_quantity_kg: None,
+                certifications: "[]",
+                status: "aktiv",
+                notes: "",
+                extra_json: "{}",
+                now: initial_at,
+            })
+            .expect("trader");
+        public
+            .upsert_material(&NewMaterial {
+                slug: "kupfer-millberry",
+                name_de: "Kupfer Millberry",
+                category: "nichteisen",
+                unit: "EUR/kg",
+                description: "",
+                updated_at: initial_at,
+            })
+            .expect("material");
+        let trader_id = public
+            .find_trader_id("published-date-test")
+            .expect("lookup")
+            .expect("trader id");
+        let material_id = public
+            .find_material_id("kupfer-millberry")
+            .expect("lookup")
+            .expect("material id");
+
+        record_price(&public, &internal, 7.10, None, initial_at).await;
+        assert_eq!(
+            public
+                .current_price_for(trader_id, material_id, "")
+                .expect("current")
+                .expect("price")
+                .published_at,
+            None,
+            "a first observation has no inferred publication date"
+        );
+
+        record_price(&public, &internal, 7.10, None, "2026-10-03T12:00:00Z").await;
+        assert_eq!(
+            public
+                .current_price_for(trader_id, material_id, "")
+                .expect("current")
+                .expect("price")
+                .published_at,
+            None,
+            "an unchanged scrape does not get an inferred date"
+        );
+
+        let explicit_same_price_date = "2026-10-02T00:00:00+00:00";
+        record_price(
+            &public,
+            &internal,
+            7.10,
+            Some(explicit_same_price_date),
+            "2026-10-03T14:00:00Z",
+        )
+        .await;
+        let explicitly_dated = public
+            .current_price_for(trader_id, material_id, "")
+            .expect("current")
+            .expect("price");
+        assert_eq!(
+            explicitly_dated.published_at.as_deref(),
+            Some(explicit_same_price_date),
+            "a later explicit date enriches the unchanged current row"
+        );
+        assert_eq!(
+            serde_json::from_str::<serde_json::Value>(&explicitly_dated.extra_json)
+                .expect("provenance JSON")["published_at_basis"],
+            "page_stated"
+        );
+
+        // 22:30 UTC is already the next calendar day in Germany.
+        record_price(&public, &internal, 7.25, None, "2026-10-03T22:30:00Z").await;
+        let changed = public
+            .current_price_for(trader_id, material_id, "")
+            .expect("current")
+            .expect("price");
+        assert_eq!(
+            changed.published_at.as_deref(),
+            Some("2026-10-04T00:00:00+00:00")
+        );
+        assert_eq!(
+            serde_json::from_str::<serde_json::Value>(&changed.extra_json)
+                .expect("provenance JSON")["published_at_basis"],
+            "observed_price_change"
+        );
+
+        record_price(&public, &internal, 7.25, None, "2026-10-04T12:00:00Z").await;
+        let unchanged_after_change = public
+            .current_price_for(trader_id, material_id, "")
+            .expect("current")
+            .expect("price");
+        assert_eq!(
+            unchanged_after_change.published_at.as_deref(),
+            Some("2026-10-04T00:00:00+00:00"),
+            "an unchanged follow-up keeps the prior inferred date"
+        );
+        assert_eq!(
+            serde_json::from_str::<serde_json::Value>(&unchanged_after_change.extra_json)
+                .expect("provenance JSON")["published_at_basis"],
+            "observed_price_change"
+        );
+
+        let explicit_date = "2026-10-02T00:00:00+00:00";
+        record_price(
+            &public,
+            &internal,
+            7.50,
+            Some(explicit_date),
+            "2026-10-04T13:00:00Z",
+        )
+        .await;
+        let explicit = public
+            .current_price_for(trader_id, material_id, "")
+            .expect("current")
+            .expect("price");
+        assert_eq!(explicit.published_at.as_deref(), Some(explicit_date));
+        assert_eq!(
+            serde_json::from_str::<serde_json::Value>(&explicit.extra_json)
+                .expect("provenance JSON")["published_at_basis"],
+            "page_stated"
+        );
+
+        // Returning to a previously seen value is a new price-change event,
+        // not a rewrite of the earlier observation row.
+        record_price(&public, &internal, 7.25, None, "2026-10-05T08:00:00Z").await;
+        let reverted = public
+            .current_price_for(trader_id, material_id, "")
+            .expect("current")
+            .expect("price");
+        assert_eq!(
+            reverted.published_at.as_deref(),
+            Some("2026-10-05T00:00:00+00:00")
+        );
+        let history = public
+            .price_history(trader_id, material_id, "", 10)
+            .expect("history");
+        assert_eq!(
+            history.len(),
+            4,
+            "reverted prices retain their own event row"
+        );
+        assert_ne!(history[0].id, history[2].id);
     }
 }

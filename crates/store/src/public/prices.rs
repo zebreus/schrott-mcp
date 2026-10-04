@@ -11,9 +11,11 @@
 //! - *From whom?* `source_type` (`haendler_angabe`, `portal`, `dritte`,
 //!   `telefonisch`, `vor_ort`, `schaetzung`, `unbekannt`) plus `published`
 //!   (1 = the trader published the price themselves) and `source_url`.
-//! - *When true?* `observed_at` (when we saw it), `published_at` (when the
-//!   trader published it, `NULL` = unknown), `valid_from`/`valid_to`
-//!   (validity window, `NULL` = open-ended).
+//! - *When true?* `observed_at` (when we saw it), `published_at` (the
+//!   page-stated date or, for a detected price change without a page date,
+//!   the inferred calendar day; `NULL` = unknown), `valid_from`/`valid_to`
+//!   (validity window, `NULL` = open-ended). Inferred dates carry their basis
+//!   in `extra_json.published_at_basis`.
 //!
 //! `current_prices` holds exactly one row per trader + material + variant —
 //! the id of the newest observation by `observed_at` — so "what does X pay
@@ -217,15 +219,15 @@ impl PublicDb {
             return Err(StoreError::Rejected("unknown price_kind"));
         }
         let conn = self.lock()?;
-        // Dedupe: an identical observation carries no new information —
-        // refresh the existing row instead of growing history without gain.
-        // Identity = price-defining fields; notes/source travel forward.
+        // Dedupe only against the current observation. If a value returns
+        // after a change (A -> B -> A), that is a new price-change event and
+        // must not rewrite the older A row.
         let dup: Option<i64> = conn
             .query_row(
-                "SELECT id FROM prices WHERE trader_id = ?1 AND material_id = ?2 AND variant = ?3
-                 AND price = ?4 AND currency = ?5 AND unit = ?6 AND price_kind = ?7
-                 AND price_min IS ?8 AND price_max IS ?9 AND confidence IS ?10
-                 ORDER BY id DESC LIMIT 1",
+                "SELECT p.id FROM current_prices c JOIN prices p ON p.id = c.price_id
+                 WHERE c.trader_id = ?1 AND c.material_id = ?2 AND c.variant = ?3
+                   AND p.price = ?4 AND p.currency = ?5 AND p.unit = ?6 AND p.price_kind = ?7
+                   AND p.price_min IS ?8 AND p.price_max IS ?9 AND p.confidence IS ?10",
                 params![
                     p.trader_id,
                     p.material_id,
@@ -244,13 +246,18 @@ impl PublicDb {
         let price_id = if let Some(id) = dup {
             conn.execute(
                 "UPDATE prices SET observed_at = ?1, ingested_at = ?2, notes = ?3,
-                 source_url = ?4, published = ?5 WHERE id = ?6",
+                 source_url = ?4, published = ?5,
+                 published_at = COALESCE(?6, published_at),
+                 extra_json = CASE WHEN ?6 IS NOT NULL THEN ?7 ELSE extra_json END
+                 WHERE id = ?8",
                 params![
                     p.observed_at,
                     p.ingested_at,
                     p.notes,
                     p.source_url,
                     i64::from(p.published),
+                    p.published_at,
+                    p.extra_json,
                     id
                 ],
             )?;
