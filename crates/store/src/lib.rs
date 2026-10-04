@@ -4,6 +4,9 @@ pub mod error;
 pub mod internal;
 pub mod public;
 
+#[cfg(test)]
+mod test_support;
+
 pub use error::StoreError;
 pub use internal::{FetchRecord, InternalDb};
 pub use public::{

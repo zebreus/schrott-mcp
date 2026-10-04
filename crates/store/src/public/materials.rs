@@ -131,9 +131,8 @@ mod tests {
 
     #[test]
     fn upsert_and_list() {
-        let dir = std::env::temp_dir().join(format!("schrott-materials-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let db = PublicDb::open(&dir).expect("test db opens");
+        let dir = crate::test_support::TempDbDir::new("materials");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
         let now = "2026-09-27T00:00:00Z";
         db.upsert_material(&NewMaterial {
             slug: "kupfer-millberry",

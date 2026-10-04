@@ -49,17 +49,17 @@ impl InternalDb {
 #[cfg(test)]
 mod tests {
     use super::InternalDb;
+    use crate::test_support::TempDbDir;
 
-    fn temp_db(name: &str) -> InternalDb {
-        let dir =
-            std::env::temp_dir().join(format!("schrott-test-{}-{}", name, std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        InternalDb::open(&dir).expect("test db opens")
+    fn temp_db(name: &str) -> (TempDbDir, InternalDb) {
+        let dir = TempDbDir::new(name);
+        let db = InternalDb::open(dir.path()).expect("test db opens");
+        (dir, db)
     }
 
     #[test]
     fn oauth_code_is_single_use() {
-        let db = temp_db("single-use");
+        let (_dir, db) = temp_db("single-use");
         let now = "2026-01-01T00:00:00Z";
         let far = "2027-01-01T00:00:00Z";
         db.upsert_oauth_client("cli_test", &["https://app.test/cb".to_owned()], now)
@@ -91,7 +91,7 @@ mod tests {
 
     #[test]
     fn duplicate_username_is_rejected() {
-        let db = temp_db("dup-user");
+        let (_dir, db) = temp_db("dup-user");
         let now = "2026-01-01T00:00:00Z";
         db.create_user("dup", "h1", true, now).expect("first ok");
         assert!(db.create_user("dup", "h2", true, now).is_err());
@@ -99,7 +99,7 @@ mod tests {
 
     #[test]
     fn blobs_round_trip_and_expire() {
-        let db = temp_db("blob");
+        let (_dir, db) = temp_db("blob");
         db.create_result_blob(
             "abc",
             "{\"a\":1}",
@@ -126,9 +126,8 @@ mod tests {
     }
     #[test]
     fn feedback_stores_and_rejects_bad_severity() {
-        let dir = std::env::temp_dir().join(format!("schrott-fb-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let db = InternalDb::open(&dir).expect("test db opens");
+        let dir = TempDbDir::new("feedback");
+        let db = InternalDb::open(dir.path()).expect("test db opens");
         let uid = db
             .create_user("reporter", "hash", true, "2026-01-01T00:00:00Z")
             .expect("user created");

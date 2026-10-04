@@ -7,6 +7,9 @@ pub mod pipeline;
 pub mod seed_traders;
 pub mod traders;
 
+#[cfg(test)]
+mod test_support;
+
 pub use pipeline::{run_once, seed_metadata, spawn_scheduler, IngestSummary};
 pub use seed_traders::{load_seeds, seed_traders, validate_seeds};
 

@@ -270,13 +270,9 @@ mod tests {
     async fn fallback_acceptance_recorded_without_invented_prices() {
         use crate::traders::{HandlerOutcome, ScrapedPrice};
         use schrott_mcp_store::{NewMaterial, NewTrader};
-        let dir = std::env::temp_dir().join(format!(
-            "schrott-fallback-{}",
-            std::process::id()
-        ));
-        let _ = std::fs::remove_dir_all(&dir);
-        let public = PublicDb::open(&dir).expect("db");
-        let internal = InternalDb::open(&dir).expect("internal");
+        let dir = crate::test_support::TempDbDir::new("fallback");
+        let public = PublicDb::open(dir.path()).expect("db");
+        let internal = InternalDb::open(dir.path()).expect("internal");
         let now = "2026-09-29T00:00:00Z";
         public
             .upsert_trader(&NewTrader {
@@ -436,10 +432,9 @@ mod tests {
         }
         let ok_fn = boxed(|c| Box::pin(ok(c)));
         let bad_fn = boxed(|c| Box::pin(bad(c)));
-        let dir = std::env::temp_dir().join(format!("schrott-duetest-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let public = PublicDb::open(&dir).expect("db");
-        let internal = InternalDb::open(&dir).expect("internal");
+        let dir = crate::test_support::TempDbDir::new("due-loop");
+        let public = PublicDb::open(dir.path()).expect("db");
+        let internal = InternalDb::open(dir.path()).expect("internal");
         // The ok-handler's trader must exist; its test material does not
         // (unknown materials skip loudly instead of failing).
         public

@@ -473,9 +473,8 @@ mod tests {
     #[test]
     fn sql_tool_round_trip_with_truncation() {
         use super::PublicDb;
-        let dir = std::env::temp_dir().join(format!("schrott-sql-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let db = PublicDb::open(&dir).expect("test db opens");
+        let dir = crate::test_support::TempDbDir::new("sql");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
         db.upsert_material(&super::NewMaterial {
             slug: "kupfer-test",
             name_de: "Kupfer Test",
@@ -505,12 +504,10 @@ mod tests {
     #[test]
     fn legacy_demo_tables_are_gone() {
         use super::PublicDb;
-        let dir = std::env::temp_dir().join(format!("schrott-legacy-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        std::fs::create_dir_all(&dir).expect("dir");
+        let dir = crate::test_support::TempDbDir::new("legacy");
         // Simulate an old database file with the demo corpus still inside.
         {
-            let conn = rusqlite::Connection::open(dir.join("public.db")).expect("old db");
+            let conn = rusqlite::Connection::open(dir.path().join("public.db")).expect("old db");
             conn.execute_batch(
                 "CREATE TABLE sources (slug TEXT PRIMARY KEY, name TEXT NOT NULL, url TEXT NOT NULL, description TEXT NOT NULL DEFAULT '');
                  CREATE TABLE datasets (slug TEXT PRIMARY KEY, source_slug TEXT NOT NULL, name TEXT NOT NULL, description TEXT NOT NULL DEFAULT '');
@@ -518,7 +515,7 @@ mod tests {
             )
             .expect("legacy schema");
         }
-        let db = PublicDb::open(&dir).expect("open migrates");
+        let db = PublicDb::open(dir.path()).expect("open migrates");
         let tables = db.test_query(
             "SELECT name FROM sqlite_master WHERE type = 'table' AND name IN ('sources', 'datasets', 'items')",
         );

@@ -666,20 +666,11 @@ fn row_to_price(r: &rusqlite::Row<'_>) -> rusqlite::Result<PriceRow> {
 mod tests {
     use super::{NewPrice, PublicDb};
     use crate::public::{NewMaterial, NewTrader};
+    use crate::test_support::TempDbDir;
 
-    fn setup(name: &str) -> (PublicDb, i64, i64) {
-        // Unique dir per test: parallel tests share the process id, so a
-        // pid-only dir lets them trample each other's rows (flaky).
-        static NEXT: std::sync::atomic::AtomicU64 = std::sync::atomic::AtomicU64::new(0);
-        let n = NEXT.fetch_add(1, std::sync::atomic::Ordering::SeqCst);
-        let dir = std::env::temp_dir().join(format!(
-            "schrott-prices-{}-{}-{}",
-            std::process::id(),
-            n,
-            name
-        ));
-        let _ = std::fs::remove_dir_all(&dir);
-        let db = PublicDb::open(&dir).expect("test db opens");
+    fn setup(name: &str) -> (TempDbDir, PublicDb, i64, i64) {
+        let dir = TempDbDir::new(&format!("prices-{name}"));
+        let db = PublicDb::open(dir.path()).expect("test db opens");
         let now = "2026-09-27T00:00:00Z";
         let trader = db
             .upsert_trader(&NewTrader {
@@ -721,7 +712,7 @@ mod tests {
                 updated_at: now,
             })
             .expect("material");
-        (db, trader, material)
+        (dir, db, trader, material)
     }
 
     fn price<'a>(
@@ -757,7 +748,7 @@ mod tests {
 
     #[test]
     fn current_moves_forward_only() {
-        let (db, trader, material) = setup("t");
+        let (_dir, db, trader, material) = setup("t");
         db.record_price(&price(
             trader,
             material,
@@ -796,7 +787,7 @@ mod tests {
 
     #[test]
     fn identical_observations_refresh_instead_of_duplicating() {
-        let (db, trader, material) = setup("t");
+        let (_dir, db, trader, material) = setup("t");
         let first = db
             .record_price(&price(
                 trader,
@@ -835,7 +826,7 @@ mod tests {
 
     #[test]
     fn uncertainty_and_validity_round_trip() {
-        let (db, trader, material) = setup("t");
+        let (_dir, db, trader, material) = setup("t");
         db.record_price(&NewPrice {
             variant: "",
             price_kind: "exact",
@@ -876,7 +867,7 @@ mod tests {
 
     #[test]
     fn variants_stay_separate_per_grade() {
-        let (db, trader, material) = setup("t");
+        let (_dir, db, trader, material) = setup("t");
         // Same trader + material, two grades: "große Teile" vs "kleine Teile".
         for (variant, eur) in [("große Teile", 5.20), ("kleine Teile", 4.10)] {
             db.record_price(&NewPrice {
@@ -909,11 +900,9 @@ mod tests {
 
     #[test]
     fn migrate_preserves_current_pointers() {
-        let dir = std::env::temp_dir().join(format!("schrott-repro-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        std::fs::create_dir_all(&dir).expect("dir");
+        let dir = TempDbDir::new("prices-repro");
         {
-            let conn = rusqlite::Connection::open(dir.join("public.db")).expect("old db");
+            let conn = rusqlite::Connection::open(dir.path().join("public.db")).expect("old db");
             conn.execute_batch(
                 "CREATE TABLE traders (id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT NOT NULL UNIQUE, name TEXT NOT NULL, trader_type TEXT NOT NULL DEFAULT '', description TEXT NOT NULL DEFAULT '', street TEXT NOT NULL DEFAULT '', postcode TEXT NOT NULL DEFAULT '', city TEXT NOT NULL DEFAULT '', state TEXT NOT NULL DEFAULT '', country TEXT NOT NULL DEFAULT 'DE', lat REAL, lon REAL, phone TEXT NOT NULL DEFAULT '', email TEXT NOT NULL DEFAULT '', website TEXT NOT NULL DEFAULT '', website_status TEXT NOT NULL DEFAULT '', website_checked_at TEXT NOT NULL DEFAULT '', opening_hours TEXT NOT NULL DEFAULT '', dropoff_json TEXT NOT NULL DEFAULT '{}', pickup_json TEXT NOT NULL DEFAULT '{}', min_quantity_kg REAL, max_quantity_kg REAL, certifications TEXT NOT NULL DEFAULT '[]', status TEXT NOT NULL DEFAULT '', notes TEXT NOT NULL DEFAULT '', extra_json TEXT NOT NULL DEFAULT '{}', first_seen_at TEXT NOT NULL DEFAULT '', updated_at TEXT NOT NULL DEFAULT '');
                  CREATE TABLE materials (id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT NOT NULL UNIQUE, name_de TEXT NOT NULL, category TEXT NOT NULL DEFAULT '', unit TEXT NOT NULL DEFAULT '', description TEXT NOT NULL DEFAULT '', extra_json TEXT NOT NULL DEFAULT '{}', updated_at TEXT NOT NULL DEFAULT '');
@@ -926,7 +915,7 @@ mod tests {
             )
             .expect("old shape");
         }
-        let db = PublicDb::open(&dir).expect("open migrates");
+        let db = PublicDb::open(dir.path()).expect("open migrates");
         let n: i64 = db
             .conn
             .lock()
@@ -938,7 +927,7 @@ mod tests {
 
     #[test]
     fn migration_reclassifies_wkg_spot_rows_and_retires_current_pointers() {
-        let (db, trader, _) = setup("wkg-spot-fix");
+        let (_dir, db, trader, _) = setup("wkg-spot-fix");
         let gold = db
             .upsert_material(&NewMaterial {
                 slug: "gold",
@@ -1029,7 +1018,7 @@ mod tests {
     #[test]
     fn migration_retires_a_z_ladder_from_current_prices() {
         const AZ_URL: &str = "https://xn--schrottplatz-mnster-jbc.de/";
-        let (db, trader, copper) = setup("az-ladder-fix");
+        let (_dir, db, trader, copper) = setup("az-ladder-fix");
         let prior_copper = db
             .record_price(&NewPrice {
                 source_url: "https://example.test/verified-buy-list",
@@ -1177,7 +1166,7 @@ mod tests {
     #[test]
     fn migration_retires_schiefer_sale_quotes_from_current_prices() {
         const SCHIEFER_URL: &str = "https://schieferco.de/aktuelle-preise";
-        let (db, trader, _) = setup("schiefer-sales-fix");
+        let (_dir, db, trader, _) = setup("schiefer-sales-fix");
         let gold = db
             .upsert_material(&NewMaterial {
                 slug: "gold",
@@ -1288,7 +1277,7 @@ mod tests {
 
     #[test]
     fn acceptance_matrix() {
-        let (db, trader, material) = setup("t");
+        let (_dir, db, trader, material) = setup("t");
         db.set_acceptance(
             trader,
             material,

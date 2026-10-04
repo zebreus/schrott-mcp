@@ -335,6 +335,7 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
 #[cfg(test)]
 mod tests {
     use super::{load_seeds, seed_traders, validate_seeds};
+    use crate::test_support::TempDbDir;
     use schrott_mcp_store::PublicDb;
 
     #[test]
@@ -364,9 +365,8 @@ mod tests {
 
     #[test]
     fn seed_is_idempotent_and_skips_unchanged() {
-        let dir = std::env::temp_dir().join(format!("schrott-seed-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let db = PublicDb::open(&dir).expect("test db opens");
+        let dir = TempDbDir::new("seed");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
         let now = "2026-09-27T00:00:00Z";
         let first = seed_traders(&db, now).expect("first seed writes");
         assert!(first > 2000);
@@ -396,9 +396,8 @@ mod tests {
     #[test]
     fn seed_preserves_enrichment() {
         use schrott_mcp_store::NewTrader;
-        let dir = std::env::temp_dir().join(format!("schrott-seed-keep-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let db = PublicDb::open(&dir).expect("test db opens");
+        let dir = TempDbDir::new("seed-keep");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
         let now = "2026-09-27T00:00:00Z";
         seed_traders(&db, now).expect("first seed writes");
         let slug = "bw-stuttgart-falk-adler";

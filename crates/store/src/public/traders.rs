@@ -490,6 +490,7 @@ fn row_to_trader(r: &rusqlite::Row<'_>) -> rusqlite::Result<TraderRow> {
 #[cfg(test)]
 mod tests {
     use super::{migrate, NewTrader, PublicDb, SCHEMA};
+    use crate::test_support::TempDbDir;
 
     fn trader<'a>(slug: &'a str, name: &'a str, city: &'a str, now: &'a str) -> NewTrader<'a> {
         NewTrader {
@@ -524,9 +525,8 @@ mod tests {
 
     #[test]
     fn upsert_and_fts_search() {
-        let dir = std::env::temp_dir().join(format!("schrott-traders-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let db = PublicDb::open(&dir).expect("test db opens");
+        let dir = TempDbDir::new("traders");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
         let now = "2026-09-27T00:00:00Z";
         let id = db
             .upsert_trader(&trader(
@@ -563,10 +563,8 @@ mod tests {
 
     #[test]
     fn scraper_upsert_preserves_certifications_but_seed_can_clear_them() {
-        let dir =
-            std::env::temp_dir().join(format!("schrott-certifications-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let db = PublicDb::open(&dir).expect("test db opens");
+        let dir = TempDbDir::new("certifications");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
         let now = "2026-10-04T00:00:00Z";
 
         let mut initial = trader("certified-dealer", "Certified Dealer", "Berlin", now);
@@ -602,12 +600,10 @@ mod tests {
 
     #[test]
     fn legacy_boolean_flags_stay_inert() {
-        let dir = std::env::temp_dir().join(format!("schrott-migrate-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        std::fs::create_dir_all(&dir).expect("dir");
+        let dir = TempDbDir::new("migrate");
         // Simulate a pre-migration database file with the boolean flags.
         {
-            let conn = rusqlite::Connection::open(dir.join("public.db")).expect("old db");
+            let conn = rusqlite::Connection::open(dir.path().join("public.db")).expect("old db");
             conn.execute_batch(
                 "CREATE TABLE traders (
                     id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT NOT NULL UNIQUE,
@@ -633,7 +629,7 @@ mod tests {
             )
             .expect("old row");
         }
-        let db = PublicDb::open(&dir).expect("open migrates");
+        let db = PublicDb::open(dir.path()).expect("open migrates");
         // New columns exist; legacy flags are NOT reinterpreted (an empty
         // condition object means unknown — never backfilled from stale
         // booleans, which would clobber honest '{}' rows on every open).

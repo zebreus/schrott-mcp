@@ -677,10 +677,9 @@ mod tests {
                 published_at: None,
             }
         }
-        let dir = std::env::temp_dir().join(format!("schrott-canary-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        let public = PublicDb::open(&dir).expect("db");
-        let internal = InternalDb::open(&dir).expect("internal");
+        let dir = crate::test_support::TempDbDir::new("canary");
+        let public = PublicDb::open(dir.path()).expect("db");
+        let internal = InternalDb::open(dir.path()).expect("internal");
         let now = chrono::Utc::now();
         let now_s = now.to_rfc3339();
         public
@@ -803,13 +802,9 @@ mod tests {
                 .expect("record prices");
         }
 
-        let dir = std::env::temp_dir().join(format!(
-            "schrott-published-date-{}-{}",
-            std::process::id(),
-            chrono::Utc::now().timestamp_nanos_opt().expect("timestamp")
-        ));
-        let public = PublicDb::open(&dir).expect("public db");
-        let internal = InternalDb::open(&dir).expect("internal db");
+        let dir = crate::test_support::TempDbDir::new("published-date");
+        let public = PublicDb::open(dir.path()).expect("public db");
+        let internal = InternalDb::open(dir.path()).expect("internal db");
         let initial_at = "2026-10-03T10:00:00Z";
         public
             .upsert_trader(&NewTrader {

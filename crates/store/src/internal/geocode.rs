@@ -80,12 +80,12 @@ impl InternalDb {
 #[cfg(test)]
 mod tests {
     use super::{geocode_key, InternalDb};
-    use std::env;
+    use crate::test_support::TempDbDir;
 
-    fn temp_db(name: &str) -> InternalDb {
-        let dir = env::temp_dir().join(format!("schrott-test-{name}-{}", std::process::id()));
-        let _ = std::fs::remove_dir_all(&dir);
-        InternalDb::open(&dir).expect("test db opens")
+    fn temp_db(name: &str) -> (TempDbDir, InternalDb) {
+        let dir = TempDbDir::new(name);
+        let db = InternalDb::open(dir.path()).expect("test db opens");
+        (dir, db)
     }
 
     #[test]
@@ -98,7 +98,7 @@ mod tests {
 
     #[test]
     fn first_result_wins_and_survives() {
-        let db = temp_db("geocache");
+        let (_dir, db) = temp_db("geocache");
         let now = "2026-09-30T00:00:00Z";
         assert!(db.geocode_lookup("a|1|b").expect("lookup").is_none());
         assert!(db
