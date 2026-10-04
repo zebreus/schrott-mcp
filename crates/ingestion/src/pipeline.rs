@@ -404,7 +404,7 @@ static RUNNING: std::sync::atomic::AtomicBool = std::sync::atomic::AtomicBool::n
 pub fn seed_metadata(public: &PublicDb) -> Result<(), super::IngestError> {
     use super::IngestError;
     use schrott_mcp_store::NewMaterial;
-    let now = Utc::now().to_rfc3339();
+    let now = database_timestamp(Utc::now());
     for (slug, name_de, category, unit, description) in MATERIAL_CATALOG {
         public
             .upsert_material(&NewMaterial {
@@ -425,6 +425,28 @@ pub fn seed_metadata(public: &PublicDb) -> Result<(), super::IngestError> {
     let wrote = seed_traders(public, &now)?;
     tracing::info!("ingestion: trader seed up to date ({wrote} rows written)");
     Ok(())
+}
+
+fn database_timestamp(now: chrono::DateTime<Utc>) -> String {
+    now.to_rfc3339_opts(chrono::SecondsFormat::Nanos, false)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::database_timestamp;
+    use chrono::{DateTime, Utc};
+
+    #[test]
+    fn seed_timestamp_uses_fixed_nanosecond_utc_offset() {
+        let at = DateTime::parse_from_rfc3339("2026-09-30T21:14:19Z")
+            .expect("RFC3339 timestamp")
+            .with_timezone(&Utc);
+
+        assert_eq!(
+            database_timestamp(at),
+            "2026-09-30T21:14:19.000000000+00:00"
+        );
+    }
 }
 
 /// Run the whole pipeline once: seed the catalog, run due trader handlers.

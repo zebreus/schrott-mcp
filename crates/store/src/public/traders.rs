@@ -95,8 +95,8 @@ END;
 
 /// Bring an existing `traders` table up to the current schema.
 /// Additive only (new code never depends on column order): missing columns
-/// are added, and the service-condition JSON is backfilled once from the
-/// legacy boolean flags, which stay in old files as inert leftovers.
+/// are added, service-condition JSON is backfilled once from legacy boolean
+/// flags, and second-precision UTC `Z` timestamps are normalized once.
 /// Fresh databases already match.
 pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
     // Triggers first: DDL/DML on an FTS5 content table with live
@@ -146,6 +146,15 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
     )?;
     if version < 1 {
         conn.execute_batch("PRAGMA user_version = 1;")?;
+    }
+    if version < 2 {
+        conn.execute_batch(
+            "UPDATE traders
+             SET first_seen_at = substr(first_seen_at, 1, 19) || '.000000000+00:00'
+             WHERE length(first_seen_at) = 20
+               AND first_seen_at GLOB '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T[0-9][0-9]:[0-9][0-9]:[0-9][0-9]Z';
+             PRAGMA user_version = 2;",
+        )?;
     }
     conn.execute_batch(TRIGGERS)?;
     Ok(())
@@ -475,7 +484,7 @@ fn row_to_trader(r: &rusqlite::Row<'_>) -> rusqlite::Result<TraderRow> {
 
 #[cfg(test)]
 mod tests {
-    use super::{NewTrader, PublicDb};
+    use super::{migrate, NewTrader, PublicDb, SCHEMA};
 
     fn trader<'a>(slug: &'a str, name: &'a str, city: &'a str, now: &'a str) -> NewTrader<'a> {
         NewTrader {
@@ -604,5 +613,36 @@ mod tests {
         assert!(names.contains(&"dropoff_json"));
         assert!(names.contains(&"description"));
         assert!(names.contains(&"website_status"));
+    }
+
+    #[test]
+    fn migration_normalizes_second_precision_utc_z_timestamp() {
+        let conn = rusqlite::Connection::open_in_memory().expect("memory db");
+        conn.execute_batch(SCHEMA).expect("schema");
+        conn.execute(
+            "INSERT INTO traders (slug, name, first_seen_at, updated_at)
+             VALUES ('old-timestamp', 'Old Timestamp', '2026-09-30T21:14:19Z', 'unchanged')",
+            [],
+        )
+        .expect("insert old timestamp");
+        conn.execute_batch("PRAGMA user_version = 1;")
+            .expect("set previous version");
+
+        migrate(&conn).expect("migration");
+
+        let (first_seen_at, updated_at): (String, String) = conn
+            .query_row(
+                "SELECT first_seen_at, updated_at FROM traders WHERE slug = 'old-timestamp'",
+                [],
+                |row| Ok((row.get(0)?, row.get(1)?)),
+            )
+            .expect("read migrated row");
+        assert_eq!(first_seen_at, "2026-09-30T21:14:19.000000000+00:00");
+        assert_eq!(updated_at, "unchanged");
+
+        let version: i64 = conn
+            .query_row("PRAGMA user_version", [], |row| row.get(0))
+            .expect("read schema version");
+        assert_eq!(version, 2);
     }
 }
