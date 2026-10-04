@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein Handelsregister-Treffer, keine Betreiber-Website auffindbar (Suchen von generischen Treffern überlagert); nur Verzeichnis-Leads → keine Frontmatter-Fills; Klärfall bleibt, Status pruefung]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Gevelsberger Betreiber identifiziert. Die ähnlich benannte Betreiberseite Schrotthandel R. Weiß gehört laut eigener Kontakt-/Impressumsangaben zu einem Einzelunternehmen in Homburg (Saarland), Ortstraße 78; nicht auf den Gevelsberger Eintrag übertragen. Keine Frontmatter-Fills; Klärfall bleibt. Quelle(n): https://www.schrotthandel-r-weiss.de/ ; https://www.schrotthandel-r-weiss.de/impressum]

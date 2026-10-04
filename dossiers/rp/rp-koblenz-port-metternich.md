@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Suchlauf fand als Koblenz-Metternich-Treffer „Koblenzer Schrotthandel“, Am Metternicher Bahnhof 18, 56072, nicht „Port Metternich“ und nicht die Seed-Adresse Bitburger Str. 23. Mangels Identitätsbeleg keine Übernahme dieser Kontaktdaten; Name/Standort bleiben Klärfall. Quelle(n): https://www.gelbeseiten.de/gsbiz/91127b51-f14c-40c5-b974-4d976980c28c; https://www.google.com/search?q=%22Port+Metternich%22+Koblenz+Schrott+%22Bitburger+Str.%22]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Bitburger Str. 23

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: erneute Suche nach „Meier Schrott + Metalle“ in Wenzenbach brachte keinen unabhängigen Betreiber-/Registerbeleg; Ladestr. 5 bleibt ausschließlich Verzeichnis-Lead und wird nicht in Frontmatter übernommen. Quelle(n): https://www.google.com/search?q=%22Meier+Schrott+%2B+Metalle%22+Wenzenbach+Ladestr.+5]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 93173)

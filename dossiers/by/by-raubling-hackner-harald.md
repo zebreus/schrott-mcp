@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Exakte Suche nach Hackner Harald/Schrott und der Seed-Adresse Seestr. 22B ergab keinen verifizierbaren Betreiberauftritt oder Registerbeleg; Adresse bleibt unbestätigter Seed/Lead, keine Frontmatter-Füllung. Quelle(n): https://www.google.com/search?q=%22Hackner+Harald%22+Raubling+Schrott+Seestr+22B; https://www.google.com/search?q=%22Seestr.+22B%22+Raubling+Metallhandel]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (nur GS)

@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Straße auf Leyendeckerstr. 41 normiert (Seed-Feld enthielt Namens-/Orts-Ballast) + PLZ 50825 + Tel. 0178 6576803 in Frontmatter — Stadtportal koeln.de (redaktionell) bestätigt Seed-Adresse Leyendeckerstr. 41; ABER Adresskonflikt: Das Örtliche/GoLocal/auskunft.de listen Sömmeringstr. 51, 50823 Köln (Ehrenfeld) unter gleicher Rufnummer (Creditreform: Ibrahim Hafiz Schrotthandel, Gewerbebetrieb) → Umzug oder Zweitstandort unklar, Koordinaten bei Klärung neu geocodieren; kein Betreiber-Impressum → website_status unbekannt, Status pruefung bleibt (Ausnahmefall: Stadtportal + konsistente Verzeichnisse, offen dokumentiert); Quelle(n): koeln.de/branchen/eintrag/69923, dasoertliche.de, golocal.de, auskunft.de, firmeneintrag.creditreform.de/IBRAHIM_HAFIZ_SCHROTTHANDEL]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Klärfall unverändert — Verzeichnisse nennen für dieselbe Rufnummer teils Leyendeckerstr. 41, 50825 und teils Sömmeringstr. 51, 50823; die Betreiber-Domain ist beim Direktabruf mit 403 blockiert und ein belastbares Impressum war nicht zugänglich. Keine neuen Frontmatter-Fills, keine bestehende Angabe geändert; die widersprüchlichen Adressen bleiben Owner-Follow-up. Quelle(n): https://schrotthafiz.de/ ; https://www.gelbeseiten.de/gsbiz/f6b4f8c1-8055-4d38-9a9b-46bf770f59de ; https://www.koelnerbranchen.de/schrotthandel/koeln/hafiz-soemmeringstr-51/ ; https://schrottradar.de/hafiz-schrott-und-buntmetallhandel/]

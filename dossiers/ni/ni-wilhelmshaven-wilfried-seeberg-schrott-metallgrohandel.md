@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: kein verifizierter Betreiberauftritt oder Registerbeleg zum Inhaberstatus gefunden; Mühlenweg 2/Telefon/Öffnungszeiten bleiben Verzeichnis-Konsens, E-Mail info@seeberg-altmetalle.de weiterhin Einzel-Lead. Bereits vorhandene Werte nicht überschrieben; E-Mail und Website bleiben leer. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Wilhelmshaven/; https://www.google.com/search?q=%22Wilfried+Seeberg%22+Schrott+Wilhelmshaven+M%C3%BChlenweg+2]
+
 ### Recherche 02.10.2026
 
 - Beleglage: 1) 11880-Eintrag Wilfried Seeberg Schrott- und Metallhandel, aktualisiert 05.09.2026: Mühlenweg 2, 26384 Wilhelmshaven (Heppens), Tel. 04421 31254, Mobil 0170 2766257, Öffnungszeiten Mo-Fr 12:00-16:00. 2) Unabhängig bestätigt: DasÖrtliche/Gelbe Seiten + meinestadt/firmania führen gleiche Adresse Mühlenweg 2, 26384 Wilhelmshaven-Heppens; lokaleschrottplatz bestätigt Tel. 04421 31254 und Inhaberform „Wilfried Seeberg e.K. Schrott- u. Metallgroßhandel Inh. Petra Seeberg e.K.".

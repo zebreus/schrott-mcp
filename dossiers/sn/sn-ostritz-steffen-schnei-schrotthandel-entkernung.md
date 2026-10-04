@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: nur Aggregatoren + fly-foto-Caption; Namens-/Tel-Diskrepanz (Schnei vs. Schneider, 03583 86566 vs. 86792); kein Betreiber-/Registerbeleg; Quelle(n): keine belegfähige Quelle (nur Aggregator-Leads)]
 - [Recherche 01.10.2026: Diskrepanz unauflösbar → kein Fill (Seed street Hauptstr. 1 belassen); Status aktiv unverändert; Quelle(n): keine belegfähige Quelle]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Der aktuelle Schrottplatz-Info-Eintrag lautet „Schrott Schneider Steffen“, Hauptstr. 1, 02899 Ostritz-Leuba, Tel. 035823 86792; das bleibt ein Aggregator-Lead und löst weder die Namensform „Schnei“/„Schneider“ noch die abweichende Nummer 035823 86566 auf. Die gefundene Website schrotthandel-schneider.de gehört laut Impressum Ronny Schneider in Chemnitz und wird nicht zugeordnet. Straße bleibt als bestehender Wert unangetastet; Telefon, Website und weitere Felder bleiben leer, status unverändert. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Goerlitz/Schneider-Steffen; https://schrotthandel-schneider.de/impressum; https://schrottregister.pages.dev/ort-ostritz]

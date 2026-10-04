@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Betrieb identifiziert (Rieger Jens Autoverwertung, Bossdorfer Dorfstr. 6, 06889 Lutherstadt Wittenberg-Bossdorf); phone doppelt belegt → gefuellt (Das Oertliche: Betrieb ohne Nummer, aber Zweiteintrag Rieger Evelin gleiche Adresse mit 034920 20223 + Das Telefonbuch: Rubrik Autoverwertung mit 034920 20223); Str./PLZ NUR Oertliche-Einzelbeleg → NICHT gefuellt, als Lead in dieser Note; keine Betreiber-Website, kein HR-Beleg → status bleibt pruefung; Quelle(n): Das-Oertliche-Themenseite Rieger-Jens-Autoverwertung-Bossdorf + DasTelefonbuch-Suche Rieger/Bossdorf]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Ein erneut gefundener Domain-Treffer auto-rieger.de beschreibt ein Mercedes-Autohaus mit Standorten Altdorf, Eckental, Kammerstein und Schierling; ein Eintrag des Landkreises Nürnberger Land führt ebenfalls das Autohaus Rieger GmbH in dieser Region. Kein Bezug zu Jens Rieger in Boßdorf, daher Domain nicht als Betreiberwebsite übernommen. Straße/PLZ bleiben wegen des bisherigen Einzelbelegs unverändert leer; keine weiteren Fills. Quelle(n): https://www.auto-rieger.de/; https://www.nuernberger-land.de/ausbildungsbetriebe/detail/autohaus-rieger-gmbh]

@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Gelbe Seiten und Das Telefonbuch führen „Sami Schrott und Altmetall Abholung“ am Alter Markt 4, 31134 Hildesheim, mit 0176 68 28 96 10. Namensform und angebotene Tätigkeit weichen vom Dossier ab; beide Treffer sind Verzeichnis-Leads, kein Betreiber-/Registerbeleg zur Identität. Keine Adresse oder Kontaktdaten übernommen. Quelle(n): https://www.gelbeseiten.de/gsbiz/3d62c1c3-5c09-4b35-9fdf-41fe2daa4c9e; https://www.dastelefonbuch.de/Branchen/Schrotthandel/Hildesheim]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

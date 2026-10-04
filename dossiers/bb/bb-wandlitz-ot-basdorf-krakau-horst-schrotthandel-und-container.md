@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: PLZ per 4-Familien-Konsens gefüllt — schrottplatz-info.de + branchen-info.net + adressennet.de + 11880 ÜBEREINSTIMMEND: „Eichenstr. 29, 16348 Wandlitz(-Basdorf), 033397 70224“. Frontmatter-street/phone (Seed) damit kreuzbestätigt. Kein Betreiber, kein Register → status bleibt aktiv (Vorwellen-Status, reine Aggregator-Lage offen dokumentiert). HINWEIS: PLZ neu gefüllt — Koordinaten neu geocodieren (automatisch). Quelle(n): schrottplatz-info.de + wandlitz.branchen-info.net + adressennet.de + 11880.com (PLZ-/Adress-Konsens).]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die offizielle Wandlitz-Verzeichnisvisitenkarte führt Daiko Recycling mit Altmetallankauf/Schrotthandel am Zehnpfuhlweg 3 in Klosterfelde; anderer Betreiber und Ortsteil als der Seed „Horst Krakau“ in Basdorf, daher keine Übertragung. Für Krakau selbst weiterhin nur nicht unabhängige Branchenportal-Leads, kein Betreiber-/Registerbeleg und kein neues Frontmatter-Fill. Quelle(n): https://www.wandlitz.de/verzeichnis/visitenkarte.php?mandat=144146 ; https://www.schrottplatz-info.de/schrottplatz/Klosterfelde/Krakau-Horst-Schrotthandel-und-Containerdienst ; https://wandlitz.branchen-info.net/containerdienste-402-1.php ; https://www.11880.com/branchenbuch/wandlitz/120674719B109946532/horst-krakau.html]

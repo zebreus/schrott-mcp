@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: erneute exakte Namens-/Adresssuche fand keine belastbare Primärquelle oder Registerkongruenz; Treffer bleiben Namensvetter/Portal-Snippets. Weißdornweg 6 ist nicht unabhängig bestätigt, keine Frontmatter-Füllung. Quelle(n): https://www.google.com/search?q=%22Fritz+Glagau%22+Metallhandel+Lilienthal+Wei%C3%9Fdornweg+6]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

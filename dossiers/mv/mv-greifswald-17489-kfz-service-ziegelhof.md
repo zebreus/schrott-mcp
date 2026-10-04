@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Note/Blocker — Gezielte Namens-/Ortssuche und Portal-Suche ohne passenden Betreiberlink; GESA-Suchfrontend ohne verwertbaren Inhalt. Seed-Behauptung anerkannter Demontagebetrieb nicht durch aktuelles Zertifikat bestätigt. Keine Adresse/Telefon/Website anderer Greifswalder Kfz-Betriebe oder Ziegelhof-Namensvetter übertragen; Identität, Annahmebedingungen und Ankauf bleiben offen. Fehlende Suchtreffer beweisen keine Schließung; status pruefung unverändert, website_status nur unbekannt normalisiert; Quelle(n): https://lokaleschrottplatz.de/?s=KfZ%20Service%20Ziegelhof ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneute Identitätssuche fand lediglich ein schwach belegtes LinkedIn-Profil mit ähnlichem Namen „Matthias Görlich KFZ-Service Ziegelhof“; es liefert keine verifizierbare Adresse, Telefonnummer oder aktuelle Altfahrzeug-Anerkennung. Kein Transfer von Angaben anderer Greifswalder Werkstätten; keine Fills, status pruefung bleibt. Quelle(n): https://www.linkedin.com/company/matthias-g%C3%B6rlich-kfz-service-ziegelhof; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung]

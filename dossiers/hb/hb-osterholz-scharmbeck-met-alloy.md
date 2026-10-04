@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die erneute Namens-/Ortsgegenprüfung erbrachte keine aktuelle Primärquelle oder zweite unabhängige Bestätigung für Met-Alloy GmbH in Osterholz-Scharmbeck. Die Namensähnlichkeit zur separaten MET-ALLOY Grundbesitz UG in Hambergen bleibt ohne Identitätsbeleg; der bestehende Schrottplatz-Info-Eintrag ist weiterhin nur ein Aggregator-Lead. Keine Frontmatter-Fills oder Statusänderung. Quelle(n): https://schrottplatz-info.de/schrottplatz/Osterholz-Scharmbeck/Met-Alloy-GmbH; https://www.northdata.de/MET-ALLOY+Grundbesitz+UG,+Hambergen/Amtsgericht+Walsrode+HRB+203241]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Name deutet Metalllegierungs-Handel an)

@@ -9,7 +9,7 @@ postcode: '86956'
 phone: 08861 90816-0
 email: ''
 opening_hours: ''
-website: ''
+website: https://www.scherrieble-gruppe.de/
 website_status: unbekannt
 status: aktiv
 description: ''
@@ -27,6 +27,10 @@ provenance_origin: prose
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: `website` mit der Domain-Root der offiziellen Scherrieble-Gruppe befüllt; deren aktuelle Drosdz-Seite nennt Drosdz Rohstoffrecycling und Schongau, und ein unabhängiger Fachpressebericht vom 10.09.2026 dokumentiert den Schongauer Schrottplatz und laufenden Betrieb. Register-Snapshot bestätigt die Zweigniederlassung und Adresse; `drosdz.de` bleibt geparkt. Bestehendes `website_status: unbekannt` nicht überschrieben; keine weiteren Felder gefüllt. Quelle(n): https://www.scherrieble-gruppe.de/; https://www.scherrieble-gruppe.de/member/drosdz-recycling/; https://www.recovery-worldwide.com/de/news/drosdz-rohstoffrecycling-setzt-auf-flexibilitaet-des-cat-umschlagbaggers-mh3032-mit-erstem-zeppelin-quick-connect-4422454.html; https://schrottregister.pages.dev/betrieb-drosdz-rohstoffrecycling-schongau; https://www.schongauer-wertstoffhof.de/]
 
 ### Recherche 02.10.2026
 

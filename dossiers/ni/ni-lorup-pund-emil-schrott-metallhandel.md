@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: aktuelle Verzeichnissuche führt Emil Pund in Am Funkturm 20, 26901 Lorup, aber mit widersprüchlichen Telefonnummern (Creditreform 05954 925325; Das Örtliche 0173 9176297; NOZ 0162 1052434). Alles sind nur Verzeichnis-/Datenbank-Leads; kein verifizierter Betreiberauftritt oder belastbarer Registerabgleich, daher kein Fill; Kontaktkonflikt für Owner-Follow-up notiert. Quelle(n): https://firmeneintrag.creditreform.de/26901/2250414338/EMIL_PUND_SCHROTT_METALLHANDEL; https://www.dasoertliche.de/Themen/Emil-Pund-Schrott-Metallhandel-Lorup-Am-Funkturm; https://www.noz.de/unternehmen/pund-emil-schrott-metallhandel-136622]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

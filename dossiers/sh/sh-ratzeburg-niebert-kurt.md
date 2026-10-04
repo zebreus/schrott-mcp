@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die Schrottregister-Spiegelseite (ausgewiesener Abrufstand 11.08.2026) nennt für Ratzeburg einen Eintrag, ordnet ihn aber nicht „Niebert Kurt“ zu; gezielte Namenssuche lieferte keine verifizierbare Betreiberquelle. Der Mirror ist kein unabhängiger Identitätsbeleg; Straße, Telefon, Website und Autoverwertungsleistung bleiben ungefüllt, status pruefung bleibt. Quelle(n): https://schrottregister.pages.dev/ort-ratzeburg]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetalle, Großhandel, Autoverwertung (2 Gelbe-Seiten-Einträge)

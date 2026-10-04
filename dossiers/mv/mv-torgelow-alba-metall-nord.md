@@ -9,7 +9,7 @@ postcode: ''
 phone: 03976 202392
 email: ''
 opening_hours: ''
-website: https://metall.alba.info/unternehmen/standorte/
+website: https://metall.alba.info/
 website_status: aktiv
 status: pruefung
 description: ''
@@ -41,3 +41,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026 / Feedback-Triage 2344: Delisting berechtigt — ALBA-Fix-Befund bestätigt (Vollcrawl 01.10.2026: 13 Standorte ohne Torgelow; Tel. 03976 202392 ohne Betreiber-Beleg); Dossier bleibt pruefung; Quelle(n): metall.alba.info/unternehmen/standorte/, alba.info/standorte/ (Abruf 01.10.2026)]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die aktuelle offizielle ALBA-Metall-Standortübersicht nennt weiterhin 13 Treffer; Torgelow ist nicht darunter. Das ist kein Schließungsbeleg und bestätigt den Seed-Telefonwert 03976 202392 nicht. Nichtleere website-Angabe (URL-Pfad) und übrige Werte bleiben gemäß Vorgabe unangetastet; keine Fills, status pruefung bleibt. Quelle(n): https://metall.alba.info/unternehmen/standorte; https://metall.alba.info/unternehmen/alba-metall-nord/]
+- [Recherche 04.10.2026: Owner-Gate korrigiert die Website-Angabe auf den Domain-Root; Host bleibt unverändert, der vorher gespeicherte Detailpfad lieferte dieselbe aktive Betreiber-Domain. Keine Aussage zur Filial-Existenz oder neuen Frontmatter-Füllung; status pruefung bleibt. Quelle(n): https://metall.alba.info/; https://metall.alba.info/unternehmen/standorte/ (beide live, HTTP 200 am 04.10.2026)]

@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 07:00-16:00, Sa 09:00-12:00
 website: https://www.mrc-umwelt.de/
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Altmetall- und Schrottankauf; Erfassung, Sortierung, Aufbereitung und Verwertung von Metall, Kunststoffen, Altholz und Altpapier.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Beschreibung auf Unternehmensebene aus zwei unabhängigen Quellen ergänzt: MRC nennt Altmetallentsorgung und weitere Stoffströme; MBG Thüringen beschreibt Ankauf, Vorsortierung, Aufbereitung und Verwertung von Metall, Kunststoffen, Altholz und Altpapier sowie die MRC-Standorte Mühlhausen/Nordhausen. Kein Nordhausen-spezifischer aktueller Adress-/Kontaktbeleg; bestehende Kontaktdaten bleiben als Zentraldaten Mühlhausen gekennzeichnet, keine Adresse/Öffnungszeiten/Annahmebedingungen für die Filiale ergänzt. Quelle(n): https://www.mrc-umwelt.de/; https://www.mrc-umwelt.de/services; https://www.mrc-umwelt.de/uber-uns; https://mbg-thueringen.de/ueber-uns/firmenportraits]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

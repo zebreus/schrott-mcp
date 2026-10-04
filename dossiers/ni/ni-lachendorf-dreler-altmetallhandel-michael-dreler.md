@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: exakte Suche nach Dreßler Altmetallhandel/Michael Dreßler in Lachendorf ergab keinen passenden Betreiberauftritt oder Registertreffer; sichtbare Namensgleichheiten beziehen sich auf andere Personen/Orte. Keine Frontmatter-Füllung; Identität und Standort bleiben Klärfall. Quelle(n): https://www.google.com/search?q=%22Dre%C3%9Fler+Altmetallhandel%22+Lachendorf+Michael; https://www.google.com/search?q=%22Michael+Dre%C3%9Fler%22+Lachendorf+Altmetall]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall

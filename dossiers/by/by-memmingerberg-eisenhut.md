@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Klärfall bleibt für Name/Betreiberkontakt bestehen; keine neuen Betreiber- oder Registerbelege. Die Landkreis-Verwerterliste (Stand 09/2026) bleibt Beleg für die bereits gesetzte Adresse und Telefonnummer; die Eisenhut-Domain liefert weiterhin keinen bestätigten Betreiberauftritt. Keine weiteren Fills für Name, E-Mail, Öffnungszeiten oder Website. Quelle(n): https://www.landratsamt-unterallgaeu.de/fileadmin/eigene_dateien/LRA/Abfallentsorgung/Verwerterliste.pdf; http://eisenhut-schrott.de; https://eisenhut-schrott.de]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 87766)

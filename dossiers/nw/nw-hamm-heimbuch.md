@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Hamm
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Hamm-spezifischer Treffer ließ sich belastbar Heimbuch zuordnen. Die direkt geprüfte Gelbe-Seiten-Suche zeigt andere Schrotthändler, aber keinen Heimbuch; die städtische ASH-Informationsseite ist kommunale Abfallwirtschaft und kein Nachweis für den Seed-Betrieb. Keine Frontmatter-Fills; Betreiberidentität ungeklärt. Quelle(n): https://www.gelbeseiten.de/branchen/schrotthaendler/hamm ; https://www.hamm.de/ash/wir-ueber-uns]

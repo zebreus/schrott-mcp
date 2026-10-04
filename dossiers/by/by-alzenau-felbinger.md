@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: kein belastbarer Bezug einer Felbinger GmbH zu Alzenau gefunden. Die offizielle Felbinger-Seite gehört zum Offenbach/Mühlheim-Raum; die Alzenau-Suche zeigt keinen passenden Betreiberbeleg. Keine Fills, Name/Adresse/Identität bleiben Klärfall. Quelle(n): https://www.felbinger.de/; https://www.gelbeseiten.de/suche/felbinger/alzenau; https://www.google.com/search?q=%22Felbinger+GmbH%22+Alzenau+Schrott]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: weiter kein Alzenau-Beleg — Gelbe Seiten (felbinger/alzenau) listet nur Felbinger GmbH Entsorgungsbetriebe, Dieselstr. 71, 63165 Mühlheim am Main (Premium-Partner, 16 km; passt zu felbinger.de = Offenbach-Raum, unpassend für Alzenau); Das Telefonbuch (shell-Egress blockiert, 0 Byte) nicht nutzbar; Frontmatter bleibt leer, weiter pruefung; Quelle(n): https://www.gelbeseiten.de/suche/felbinger/alzenau]

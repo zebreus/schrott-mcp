@@ -34,6 +34,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: nur Aggregator-Leads (Gelbe Seiten: Siemensallee 18, 63477 Maintal-Dörnigheim, 0176 68888925; schrottplatz.org identisch) = kein Beleg; kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden. Nichts gefüllt, Klärfall. Quelle(n): Websuche 01.10.2026]
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Maintal-Adresse Siemensallee 18 und Rufnummer 0176 68888925 bleiben Branchenportal-Leads ohne passende Primärquelle. Die direkt geprüfte Reinhardt-Betreiberseite mit ähnlichem Namen gehört laut eigener Kontaktangabe nach Oberdürenbach (RP), Königsseeweg 2, und ist nicht dieser Maintaler Eintrag. Kein Frontmatter-Fill; keine Zusammenführung. Quelle(n): https://www.gelbeseiten.de/branchen/schrotthaendler/hanau ; https://www.schrottmetallhandelreinhardt.com/ ; https://www.schrottmetallhandelreinhardt.com/kontakt]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallhandel

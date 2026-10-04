@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Golßen, Hauptstr. 23
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Betreiberbeleg für Winter Walter in Golßen gefunden. Die geprüften gleichnamigen Schrotthandel-Websites bezeichnen andere Betreiber/Regionen (Landshut bzw. Worms); die Gelbe-Seiten-Suche für Golßen liefert keinen passenden Treffer. Straßenverzeichnis bestätigt nur die Existenz der Hauptstraße, nicht Hausnummer/Betreiber. Keine Frontmatter-Fills. Quelle(n): https://www.winter-metall.de/ ; https://www.schrotthandelwinter.de/ ; https://www.gelbeseiten.de/branchen/schrotthaendler/golssen ; https://www.stadtplan.info/golssen/strassen]

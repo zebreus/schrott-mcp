@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Hartmann Recycling/Darmstadt/Gehaborner Weg): keine Betreiber-Website, kein Impressum, kein Register-Treffer; Treffer nur Paul-Hartmann-Medizinkonzern (namensgleich, fremde Branche); Dedup-Lage (drei Namen, eine Adresse) unveraendert; kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Betreiber-Identitaet nur via Kleinanzeigen-Profile klaerbar; Quelle(n): Bing-SERP 01.10.2026, recherche/dedup_verdacht_2026-09-30.md]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Gelbe Seiten führt Hartmann Recycling mit Gehaborner Weg 2 und 01578 6795832, die Suchseite listet zugleich HaRec und FKS an derselben Adresse. Ein belastbarer unabhängiger Zweit-/Betreiberbeleg für Hartmann oder eine eigenständige Betriebsstätte fehlt weiterhin; gleiche Anschrift allein beweist weder Identität noch Zusammenlegung. Kein Frontmatter-Fill. Quelle(n): https://www.gelbeseiten.de/branchen/schrottplatz/darmstadt ; https://www.dastelefonbuch.de/Branchen/Entsorgung/Darmstadt]

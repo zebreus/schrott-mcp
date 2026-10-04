@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiberwebsite erneut über Startseite, Leistungen, Referenzen und Impressum geprüft; Bodo Götz wird als Einzelunternehmen ohne HRB mit Kirchweg 9A und Kontakt genannt. Die Leistungsseiten belegen aktuelle Schrott-/Metallservices, aber mangels HRB und unabhängiger zweiter Quelle greift die Owner-Ausnahme nicht; vorhandene Website/website_status nicht überschrieben, übrige leere Felder nicht aus einer Einzelquelle gefüllt. Quelle(n): https://www.demontage-team.de/; https://www.demontage-team.de/leistungen.htm; https://www.demontage-team.de/referenzen.htm; https://www.demontage-team.de/impressum.htm]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website tiefgecrawlt (Home, Leistungen, Impressum). Bodo Götz, Demontage und Metallrecycling (Einzelunternehmen), Kirchweg 9A, 55546 Tiefenthal, Tel. 06709 9993169, Mobil 01520 2010521, E-Mail info@demontage-team.de; Leistungen: Industriedemontage, Asbestdemontage (TRGS-519-zertifiziert), Schrottabholung und Metall-Ankauf zu Tagespreisen, Container 5–40 m³, Krandienst bis 5 t; Einzugsgebiet KH–MZ–KL–KO (Einzelbeleg, unsicher — kein HRB, kein Zweitbeleg, Frontmatter bleibt leer). Quellen: demontage-team.de.]

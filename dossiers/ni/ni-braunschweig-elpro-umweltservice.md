@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: erneute Gegenprüfung bestätigt die bereits dokumentierte Namens-/Rechtsformabweichung: aktuelle Betreiberseiten und Impressum gehören ELPRO Elektro Recycling GmbH (HRB 209200), nicht belegbar ELPRO Umweltservice GmbH (historischer Lead HRB 205923). Kein belastbarer Übertragungs-/Rechtsnachfolgebeleg; keine Übernahme von Adresse/Kontakt oder Website. Quelle(n): https://elpro-gmbh.de/; https://elpro-gmbh.de/uber-uns/; https://elpro-gmbh.de/kontakt/; https://www.northdata.de/?id=1809095020]
+
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Kein Frontmatter-Fill: aktuelle erreichbare Website gehört laut Impressum ELPRO Elektro Recycling GmbH, HRB 209200 Braunschweig, Hannoversche Straße 66A, 38116 Braunschweig, nicht ohne Weiteres der beauftragten ELPRO Umweltservice GmbH (historischer Register-Lead HRB 205923). Rechtsnachfolge/Geschäftsübertragung nicht belastbar belegt; kein Umbenennen und keine Übernahme fremder Kontaktdaten. elpro.de ist zudem ein Berliner Elektrotechnik-Namensvetter. Externe Suche liefert unter anderem unzuverlässige Spambehauptungen zur Übertragung, ausdrücklich verworfen; Quelle(n): https://elpro-gmbh.de/ + https://elpro-gmbh.de/uber-uns/ + https://www.northdata.de/?id=1809095020]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Ennigerloh
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Gelbe Seiten nennt Warendorfer Str. 55, 59320 Ennigerloh, 0170 5577892 und verlinkt eine Betreiber-Domain; der Direktabruf per HTTP und HTTPS scheiterte jeweils mit Transportfehler. 11880 nennt denselben Namen/Ort, aber Eintragsdaten vom 20.04.2025; beide Portale zählen hier nur als Leads, unabhängiger Betreiber-/Registerbeleg fehlt. Kein Frontmatter-Fill. Quelle(n): https://www.gelbeseiten.de/gsbiz/270ff42b-7fc5-4c8b-8dcb-01eb3f0cfe01 ; http://www.nachtigaellerschrotthandel.de ; https://www.11880.com/branchenbuch/ennigerloh/120674719B102700675/nachtigaeller-schrotthandel.html]

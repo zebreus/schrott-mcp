@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Der Register-Mirror (ausgewiesener Abrufstand 11.08.2026) führt für Schenefeld (25560) einen Betrieb, nennt aber Steven Bollmann nicht; zugleich weist er keinen anerkannten Altfahrzeug-Demontagebetrieb aus. Das ist ein Lead, kein eigenständiger Beleg für Existenz oder Nichtexistenz. Keine Angaben zu Namensvetter Bollmann Handels GmbH übertragen; keine Fills, status bleibt aktiv bis zu belastbarem Betreiber-/Registerbeleg. Quelle(n): https://schrottregister.pages.dev/ort-schenefeld; https://schrottregister.pages.dev/land-schleswig-holstein]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Beleg; aehnlicher HR-Name unverwandt); Quelle(n): keine Betreiber-Quelle zum Schrotthandel Steven Bollmann auffindbar. Bollmann Handels GmbH (Schenefeld, HRB 8497 PI Pinneberg, Industriestrasse 2b, GF Stephan Bollmann; Zangen-/Werkzeughandel seit 1931) ist unverwandt und darf NICHT zugeordnet werden. Amtliches Schrottregister-Verzeichnis nennt fuer Schenefeld keinen passenden Betrieb.]
