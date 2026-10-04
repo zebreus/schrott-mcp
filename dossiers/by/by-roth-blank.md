@@ -13,7 +13,7 @@ website: https://www.schrott-blank.de/
 website_status: aktiv
 status: aktiv
 description: Altmetallhandel, Familienunternehmen (Michael Blank, 5. Generation); NE-Metalle,
-  Eisenschrott, Containerdienst, Recycling; E-Mail nur per Formular (Cloudflare-geschuetzt)
+  Eisenschrott, Containerdienst und Recycling.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Volltreffer mit 2 unabhaengigen Belegen → status aktiv: Betreiber-Website (Schrott Blank, Michael Blank, Welserstr. 9, 91154 Roth, Tel. 09171-4316, Fax 09171/98430, Zeiten Di-Fr 7-12/13-17, Sa 7-12, Mo geschlossen; Zeiten = starker Betreiber-Einzelbeleg) + Das Oertliche (Welserstr. 9, 91154 Roth, Tel. 09171 4316, Weblink schrott-blank.de, Branche Schrott); Adresse neu in Frontmatter → Koordinaten neu zu geocodieren; Quelle(n): https://www.schrott-blank.de/ + https://www.schrott-blank.de/oeffnungszeiten-anfahrt/ + Das-Oertliche-Themenseite Schrott-Blank-Roth-Welserstr]
+
+### Recherche 04.10.2026 (Audit-Feedback #4519)
+
+- [Recherche 04.10.2026: Den technischen Recherchehinweis zu Formular/Cloudflare aus der nutzerorientierten description entfernt; Tätigkeitsbeschreibung und Kontaktdaten bleiben unverändert. Quelle(n): Audit-Feedback #4519; Betreiberseiten https://www.schrott-blank.de/ und https://www.schrott-blank.de/oeffnungszeiten-anfahrt/]

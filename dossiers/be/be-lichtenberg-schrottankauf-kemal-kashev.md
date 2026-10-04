@@ -12,7 +12,7 @@ opening_hours: 'Mo-Fr 09:00-18:00, Sa 09:00-15:00'
 website: ''
 website_status: unbekannt
 status: aktiv
-description: 'Schrottankauf Kemal Kashev, Gaertnerstr. 17-18, 13055 Berlin-Lichtenberg (Einzugsgebiet Marzahn/Lichtenberg/Pankow u.a.): mobiler Schrott-/Altmetallankauf, Tel. 0170 8903685. Betreiber-Homepage (schrottpreise-in-berlin.de) derzeit nicht abrufbar.'
+description: 'Schrottankauf Kemal Kashev, Gaertnerstr. 17-18, 13055 Berlin-Lichtenberg (Einzugsgebiet Marzahn/Lichtenberg/Pankow u.a.): mobiler Schrott-/Altmetallankauf, Tel. 0170 8903685.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: A. Neu (nicht in Hauptliste / Runden 2–3)
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Zweitbestaetigung via schrottplatz-info-Detailseite (Adresse Gaertnerstr. 17-18, 13055 Berlin; Tel. 01708903685; Oeffnungszeiten Mo-Fr 09:00-18:00, Sa 09:00-15:00; verlinkte Betreiber-Homepage www.schrottpreise-in-berlin.de). Begruendeter Ausnahmefall: zwei uebereinstimmende Verzeichnisquellen (Seed-Verzeichnis + schrottplatz-info) bei inaktivem Betreiber-Nachweis; Adresse/Telefon waren bereits gesetzt und sind nun zweifach gestuetzt, Oeffnungszeiten neu uebernommen. Betreiber-Domain schrottpreise-in-berlin.de per Direktabruf nicht erreichbar (Transportfehler), daher website leer und website_status unbekannt, kein Impressum-Abruf moeglich. Status aktiv bleibt; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Berlin/Schrottankauf-Kemal-Kashev- + seed/be.json]
+
+### Recherche 04.10.2026 (Audit-Feedback #4523)
+
+- [Recherche 04.10.2026: Zeitgebundene Aussage zur Abrufbarkeit der Homepage aus der nutzerorientierten description entfernt; website_status und der Recherche-/Abrufbefund in der Timeline bleiben unverändert. Quelle(n): Audit-Feedback #4523; Recherchevermerk 02.10.2026 oben.]

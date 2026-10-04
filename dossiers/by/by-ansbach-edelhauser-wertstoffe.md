@@ -13,8 +13,8 @@ website: https://edelhaeuser.de
 website_status: aktiv
 status: aktiv
 description: Edelhäuser-Gruppe in Ansbach (Edelhäuser Rohstoffe GmbH, Naglerstr. 1) und
-  Rothenburg o. d. Tauber (Edelhäuser Wertstoffe GmbH). Entsorgungsfachbetrieb seit
-  über 115 Jahren, Wertstoffhof Ansbach in der Adalbert-Pilipp-Straße 48.
+  Rothenburg o. d. Tauber (Edelhäuser Wertstoffe GmbH). Entsorgungsfachbetrieb,
+  Wertstoffhof Ansbach in der Adalbert-Pilipp-Straße 48.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)'
@@ -42,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Name-Diskrepanz: Dossier-Name Wertstoffe GmbH (Sitz Rothenburg), Ansbach-Adresse gehört der Rohstoffe GmbH; Name unverändert, Klärfall für Folgewelle (Slug-Split prüfen).
 - Wertstoffhof Ansbach: Adalbert-Pilipp-Straße 48, 91522 Ansbach, Tel. 0981 97780820 (nur Betreiber-Beleg, daher nur Timeline).
 - Status unbekannt zu aktiv korrigiert (bewiesene Korrektur: HR-kongruentes Impressum + kommunaler Beleg).
+
+### Recherche 04.10.2026 (Audit-Feedback #4523)
+
+- [Recherche 04.10.2026: Die relative Alters-/Werbeaussage „seit über 115 Jahren“ aus der description entfernt; belegte Organisations- und Standortangaben bleiben. Quelle(n): Audit-Feedback #4523; Betreiber-Kontakt/Impressum und kommunaler Ansbach-Beleg, dokumentiert oben.]
