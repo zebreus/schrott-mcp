@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein neuer Betreiber-, Register- oder unabhängiger Behördenbeleg für Leuschner R. in Magdeburg gefunden. Klosterbergestr. 20, 39104 und 0391 5209424 beruhen weiterhin auf Schrottplatz.org, Schrottplatz-info und MisterWhat, also ausschließlich Aggregator-Leads; bestehende Felder nicht bestätigt oder überschrieben, status pruefung bleibt. Quelle(n): https://www.schrottplatz.org/magdeburg/schrott-leuschner-r-aYEPCb.html; https://www.schrottplatz-info.de/schrottplatz/Magdeburg/Leuschner-R-; https://www.misterwhat.de/company/1571233-leuschner-r-magdeburg]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (lt. schrottplatz-info)

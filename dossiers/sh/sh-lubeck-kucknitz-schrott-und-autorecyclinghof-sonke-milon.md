@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiber-Domain-Root und Impressum erneut einzeln abgerufen; beide liefern weiterhin HTTP 503. Gelbe-Seiten-Eintrag für Mühlenkamp 8, 23569 Lübeck, 0451 39886-0 bleibt ein Aggregator-Lead; die Registerangabe zum Sitz Lensahn belegt weder eine aktuelle Lübecker Filiale noch deren Schließung. Keine neuen aktuellen Filialdaten und kein zulässiger Zweitbeleg; Frontmatter unverändert, website_status unbekannt. Quelle(n): https://milon-recycling.de/; https://milon-recycling.de/impressum; https://www.gelbeseiten.de/gsbiz/eab3ec6b-86f6-41f5-9bf9-c7bf815d3b6f]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott + Autorecycling (Gelbe Seiten: „Schrott")

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Northdata führt für Wertstoffaufbereitungszentrum Freidorf GmbH, HRB 4382 AG Neubrandenburg, die Löschung durch Verschmelzung in REMONDIS Seenplatte GmbH am 13.12.2017. Northdata ist ein Register-Sekundärdienst; dies belegt das Ende der damaligen Rechtsperson, nicht automatisch die Schließung oder heutige Nutzung des Grundstücks. Schrottplatz.org nennt Industriegelände 1 und Telefon 039928 70090 als Aggregator-Lead; auf der offiziellen REMONDIS-Standortsuche keine aktuelle Möllenhagen-Niederlassung verifiziert. Kein successor/Standortwechsel abgeleitet, status pruefung und Seed-Kontakte bleiben unverändert. Quelle(n): https://www.northdata.de/Wertstoffaufbereitungszentrum+Freidorf+GmbH,+M%C3%B6llenhagen/Amtsgericht+Neubrandenburg+HRB+4382; https://www.schrottplatz.org/neustrelitz; https://www.remondis-standorte.de/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Wertstoffe

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Frontmatter-Fill — golocal führt Prager Axel UnfallwagenHdl. aktuell mit Am Sportplatz 24, 47239 Duisburg und 02151 940729; die Cylex-Abrufseite blieb technisch blockiert (403), weitere auffindbare Einträge sind Branchenverzeichnisse. Keine Betreiber-Website oder unabhängige Primär-/Registerquelle für zusätzliche Felder; bestehende Adresse/Telefon nicht verändert. Quelle(n): https://www.golocal.de/duisburg/autoverwertung/prager-axel-unfallwagenhdl-4nQv ; https://web2.cylex.de/firma-home/prager-axel-unfallwagenhdl--3148198.html ; https://www.gelbeseiten.de/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Unfallwagen-Ankauf (GS, s. D7)

@@ -2,7 +2,7 @@
 slug: hb-stuhr-thomas-seidel-schrotthandel
 name: Thomas Seidel Schrotthandel
 trader_type: schrotthaendler
-state: HB
+state: NI
 city: Stuhr
 street: ''
 postcode: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: state HB zu NI korrigiert, da die offizielle Gemeinde Stuhr Stuhr als niedersächsische Kommune im Landkreis Diepholz ausweist. Die Zuordnung des Schrotthandels selbst ist weiterhin nur durch Gelbe-Seiten- und Das-Telefonbuch-Einträge mit Telefon 04206 349 gestützt; kein unabhängiger Geschäfts-/Registerbeleg oder Betreiberauftritt gefunden. Straße und Geocode nicht geändert, weitere Felder unverändert. Quelle(n): https://www.stuhr.de/; https://www.gelbeseiten.de/gsbiz/0b3c0632-e707-4cc0-b31b-6129afdc516d; https://adresse.dastelefonbuch.de/Stuhr/3-Thomas-Seidel-Schrotthandel-Stuhr.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

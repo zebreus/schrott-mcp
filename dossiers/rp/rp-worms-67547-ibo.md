@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, Kleinstsammler vermutet
 - Adresse: Worms 67547
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Keine zulässige Bestätigung gefunden. Gelbe Seiten führt „Ibo Schrotthändler“ an Gartenstr. 10, 67547 Worms-Innenstadt und kategorisiert Schrott; die Suchergebnisse geben keine Betreiber- oder Registerquelle her. Keine passende Betreiberseite, Registerspur oder zweite zulässige Quelle gefunden; Name, Adresse, Kontakt und Aktivität nicht ergänzt. Klärfall bleibt, ob der kurze Seed-Name eine reale eigenständige Firma bezeichnet. Quelle(n): https://www.gelbeseiten.de/gsbiz/b56d209a-ec98-483b-96a5-5e085589757d ; https://www.gelbeseiten.de/branchen/schrotthaendler/worms]

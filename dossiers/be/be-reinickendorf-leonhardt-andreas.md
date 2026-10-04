@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Branchen-Info führt Leonhardt Andreas, Pankower Allee 13, 13409 Berlin, 030 4923060 und bestätigt damit nur den bereits bekannten Verzeichnis-Lead. Die Seite weist selbst auf fehlende Gewähr hin; keine unabhängige Betreiber-, Register- oder Behördenquelle für Identität/Adresse/Kontakt gefunden. Malformed street-Seed nicht korrigiert, da kein zulässiger Korrekturbeleg; keine Website oder Schließung abgeleitet, status unbekannt bleibt. Quelle(n): https://berlin.branchen-info.net/leonhardt-andreas-schrott-und-metallhandel/2843804/; https://lokaleschrottplatz.de/leonhardt-andreas/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - nur lokaleschrottplatz (Kleinsthändler-Typ) Adresse: Pankower Allee 13, 13409 Berlin; Tel. 030 4923060

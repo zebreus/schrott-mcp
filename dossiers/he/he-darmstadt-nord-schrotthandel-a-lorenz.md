@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Frontmatter-Fill — aktuelle Verzeichnisprofile nennen Schrotthandel A. Lorenz, Akazienweg 3, 64293 Darmstadt und Tel. 0172 1002189; eines verweist auf lorenz-schrotthandel.de, dessen Direktabruf heute scheiterte (Transportfehler). Die Kontaktangaben stammen aus Branchenbuch-/Verzeichnis-Leads, ohne abrufbaren Betreiberauftritt oder unabhängigen zweiten zulässigen Beleg. PLZ/Adresse nicht geändert, daher keine Geokodierung ausgelöst. Quelle(n): https://darmstadt.stadtbranchenbuch.com/3863570.html ; https://web2.cylex.de/firma-home/schrottabholung-heppenheimer-6343943.html ; http://www.lorenz-schrotthandel.de]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Fill postcode — 11880-Firmeneintrag (Schrotthandel A.Lorenz, Akazienweg 3, 64293 Darmstadt, Tel. (0172) 1002189) bestaetigt Seed-Adresse (Akazienweg 3) exakt + liefert PLZ. Begruendeter Ausnahmefall (2 Verzeichnisse, exakt gleiche Adresse; Kleinsthaendler ohne Website/HRB). Phone NICHT gefuellt (nur 11880-Einzelbeleg). Negativ: GS Darmstadt listet KEINEN Lorenz (nur ESH Akazienweg 15b, ARB Bamberger 17a, Reinhardt-Recycling 15 u.a.) — moeglich ausgelaufen; Betrieb ueber 11880 weiter belegt, Status bleibt pruefung. Hinweis: PLZ neu — Koordinaten ggf. neu zu geocodieren.; Quelle(n): 11880-Suche schrotthandel/darmstadt (Abruf 02.10.2026) + GS-Negativbefund + Seed-Verzeichnis]

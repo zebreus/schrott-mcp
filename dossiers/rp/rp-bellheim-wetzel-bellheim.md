@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Am Weidensatz 45, 3. Betrieb
 - urspr. Website-Angabe: keine
 - Adresse: Bellheim
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Keine Frontmatter-Füllung. lokaleschrottplatz.de nennt „Melissa Wetzel Schrotthandel“ an Am Weidensatz 45, 76756 Bellheim, ohne Betreiberprofil/Foto und ohne Öffnungszeiten; die Treffer sind Aggregator-Leads. Keine passende Betreiberseite, Register- oder Gemeinderegisterbestätigung bzw. zweite zulässige Quelle gefunden; Identität, Tätigkeit, Adresse und Aktivität bleiben Klärfall. Quelle(n): https://lokaleschrottplatz.de/rheinland-pfalz/bellheim/ ; https://lokaleschrottplatz.de/search/messing-schwer-haendler-bellheim/]

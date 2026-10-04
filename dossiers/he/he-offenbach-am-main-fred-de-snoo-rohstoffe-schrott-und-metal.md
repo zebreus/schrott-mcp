@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Frontmatter-Fill — Betreiber-Startseite und Impressum sind live; sie führen Fred De Snoo Rohstoffe e.K., Inh. Nicole Macaluso, Lämmerspieler Weg 158, 63075 Offenbach, Kontakt und aktuelle Öffnungszeiten. Die unabhängige Creditreform-Angabe ist nur ein Firmenprofil/Lead; der e.K. erfüllt das vorgegebene HRB-Ausnahmegate nicht, und die fehlenden Detailfelder haben keinen zweiten zulässigen Beleg. Bereits gesetzte Website/Status bleiben unverändert. Quelle(n): https://www.freddesnoo.de/ ; https://www.freddesnoo.de/impressum/ ; https://firmeneintrag.creditreform.de/63075/6210433411/FRED_DE_SNOO_ROHSTOFFE_E_K_INHABER_NICOLE_MACALUSO]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallgroßhandel (GS listet Webseite, URL nicht verifiziert)

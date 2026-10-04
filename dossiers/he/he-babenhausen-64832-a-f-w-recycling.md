@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Frontmatter-Fill — erneute Prüfung ergab keine Betreiberseite oder Registerquelle. Gelbe Seiten/Das Örtliche/Das Telefonbuch führen als Verzeichnisfamilie Außerhalb/Langstadt 21, während firmen-vergleich.de abweichend Hausnummer 24 nennt; „A. F. Recycling“ in der Bachstraße ist ein anderer, nicht zuordenbarer Eintrag. Nur Aggregator-Leads und ungelöster Adresskonflikt, daher keine Änderung. Quelle(n): https://www.gelbeseiten.de/ ; https://www.dasoertliche.de/ ; https://www.dastelefonbuch.de/ ; https://www.firmen-vergleich.de/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling/Container — Ankauf unbewiesen (PRÜFFALL)

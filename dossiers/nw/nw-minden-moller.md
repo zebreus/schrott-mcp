@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Frontmatter-Fill — aktuelle Suche ergab keinen eindeutig passenden Schrott-/Altmetallbetrieb Möller in Minden. Der offizielle Auftritt von Möller Entsorgung GmbH & Co. KG nennt weiter Vogelweide 11a, 25746 Heide; Ort und Betreiber passen nicht zum Dossier. Kein Zusammenhang belegt, deshalb keine Daten aus Heide übertragen und bestehende Felder unverändert. Quelle(n): https://moeller-recycling.de/ ; https://moeller-recycling.de/impressum/ ; aktuelle Websuche 04.10.2026 (kein passender Minden-Treffer)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - mobil (GS)

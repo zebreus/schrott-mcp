@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneute Namens-/Ortsprüfung ergab keinen belastbaren Aschersleben-Beleg. Die bekannte Lorenz Recycling GmbH & Co. KG wird von Betreiberseite und Gemeinde Neunkirchen am Brand in Bayern mit Adresse Benedikt-Vasold-Str. 10 geführt; kein Hinweis auf Verbindung oder Filiale in Aschersleben. Such-/Verzeichnisleads zu anderen Orten sind nicht übertragbar; keine Felder ergänzt, status pruefung und website_status unbekannt bleiben. Quelle(n): https://www.gelbeseiten.de/suche/lorenz/aschersleben; https://www.schrott-lorenz.com/; https://www.neunkirchen-am-brand.de/wirtschaft/gewerbe/details/153]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: kein Lorenz-Beleg — Gelbe Seiten (lorenz/aschersleben; autoverwertung/aschersleben) listet nur Fremdbetriebe (Kai Werner Altenweddingen, Kaltschmidt & Chmelik Ballenstedt, Thomas Heine Bernburg, Langbein Sangerhausen u.a.), kein Lorenz in Aschersleben; 11880/Telefonbuch-Egress teils blockiert; Frontmatter bleibt leer, weiter pruefung; Quelle(n): https://www.gelbeseiten.de/suche/lorenz/aschersleben , /suche/autoverwertung/aschersleben]

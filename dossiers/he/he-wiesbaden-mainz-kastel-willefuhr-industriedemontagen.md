@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Frontmatter-Fill — aktuelle Treffer zur Betreiber-Domain nennen An der Gabelung 28, 55252 Mainz-Kastel und Mobil 0163 2268363 (Seed-Telefon stimmt überein); der direkte Impressumsabruf blieb ohne verwertbaren Inhalt. 11880, Cylex und Auftragsbank stimmen als Verzeichnis-/Profil-Leads überein, zählen aber nicht als unabhängige zulässige Zweitquelle. Kein abrufbarer Impressums-/Registerabgleich mit HRB und Ort; vorhandene Timeline-Leads bleiben unübernommen. Quelle(n): https://willefuehr-industriedemontagen.de/ ; https://www.11880.com/branchenbuch/mainz-kastel/060440092B107844167/willefuehr-industriedemontagen.html ; https://web2.cylex.de/firma-home/willefuehr---industriedemontagen-15060749.html ; https://www.auftragsbank.de/firmen/willefuehr-industriedemontagen/35019]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Industriedemontage/Schrott (Portal, Tel. 01632268363) – distinct von Nr. 206 Schrotthandel Willeführ Gelnhausen
@@ -43,4 +47,3 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle, Nachtrag)
 
 - [Recherche 01.10.2026: Re-Check — Direktabruf willefuehr-industriedemontagen.de (Homepage) liefert keine verwertbare Antwort (Fetch leer); Owner-Gate-Revert bleibt bestehen (Adresse An der Gabelung 28, 55252 Mainz-Kastel, Tel. 06134-2589200/Mobil 0163-2268363, E-Mail willefuehr-industriedemontagen@gmx.de weiter nur als dokumentierter Lead, kein Fill). status weiter pruefung. Folgewelle: Impressum-Direktabruf wiederholen oder Gewerberegister Mainz-Kastel. Quelle(n): keine neuen.]
-

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Keine aktuelle Betreiber-Website bzw. zugängliche Impressumsseite gefunden. Ein Sekundärspiegel des Fachbetrieberegisters führt Walter Behncke e.K., Inh. Bernd Behncke, Kulemannstieg 32 mit Tätigkeiten Lagern/Behandeln; das stützt Name/Adresse, aber nicht Telefonnummer oder aktuellen Publikumsbetrieb. Die bereits dokumentierten Telefonnummern aus Verzeichnissen bleiben Leads, nicht unabhängig bestätigt. Felder unverändert, website_status unbekannt; kein zusätzlicher aktueller Öffnungszeitennachweis. Quelle(n): https://schrottregister.pages.dev/ort-hamburg]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott, Lagern/Behandeln (Schrottregister)

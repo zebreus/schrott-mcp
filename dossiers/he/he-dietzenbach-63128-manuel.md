@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Frontmatter-Fill — aktuelle Verzeichniseinträge stimmen für Rohrbrunner Weg 2-4, 63128 Dietzenbach und Tel. 01521 3319683 überein; teils erscheint horvathmanu86@gmail.com. Die Quellen sind Cylex, Bundes-Telefonbuch, Sellwerk und Gelbe Seiten (Verzeichnis-/Profil-Leads), ohne Betreiberimpressum oder unabhängig verifizierte Register-/Kommunalquelle. Adresse/Kontakt deshalb nicht ergänzt. Quelle(n): https://web2.cylex.de/firma-home/manuel-_-schrotthaendler-16886723.html ; https://www.bundes-telefonbuch.de/suche/schrott/dietzenbach/kfz-schrott ; https://sellwerk.de/firmenprofil/manuelschrotthaendler ; https://www.gelbeseiten.de/gsbiz/d8087cbe-8083-49a5-ba6d-58df7475e1e]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinst-Schrotthändler

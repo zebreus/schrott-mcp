@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein Frontmatter-Fill — aktuelle Verzeichnisse benennen Marcel Müller an Böcklinstr. 89, 41069 mit Festnetz 02161 6853177; ein als Betreiber-Impressum gelisteter Altauftritt nennt dagegen Günter Müller und „Böcklingstraße 89“. Die dortige Domain ließ sich direkt nicht abrufen; Namens-/Telefonabweichung gegenüber dem Dossier-Mobilanschluss verhindert eine sichere Identitätszuordnung. Verzeichniswerte nicht übernommen. Quelle(n): https://www.gelbeseiten.de/gsbiz/223fab6b-3cd4-4469-a384-ad2df86d7d9d ; https://adresse.dastelefonbuch.de/M%C3%B6nchengladbach/1-Schrott-Schrotthandel-M%C3%BCller-Marcel-M%C3%BCller-M%C3%B6nchengladbach-B%C3%B6cklinstr.html ; http://xn--schrotthandel-mller-kbc.de?page_id=49]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Böcklinstr. 89, 0172-Nr.

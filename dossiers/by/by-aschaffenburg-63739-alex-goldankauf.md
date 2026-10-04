@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein Treffer — nur Aggregator-Lead (Das Örtliche, kein Beleg); juwelier-alex.de gehört Kölner Juwelier (Fremdfirma, kein Beleg); keine Betreiber-Website, kein HR-Eintrag; keine Frontmatter-Fills, Status bleibt pruefung; Quelle(n): dasoertliche.de (nur Lead, kein Beleg)]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Keine Frontmatter-Änderung. Das Örtliche/Sellwerk/GoLocal wiederholen Roßmarkt 39 A, 63739 Aschaffenburg und die Seed-Telefonnummer, bleiben aber Aggregator-Leads. Ein Facebook-Auftritt „ALEX Goldankauf Juwelier“ ist ein möglicher Betreiber-Social-Lead, konnte nicht als unabhängige zweite Quelle für Anschrift oder Betreiberidentität bestätigt werden; kein Registerbeleg oder passende Betreiber-Website verifiziert. Bestehende Werte unverändert; Öffnungszeiten nicht übernommen. Quelle(n): https://www.dasoertliche.de/Themen/ALEX-GOLDANKAUF-ASCHAFFENBURG-Zahngold-und-Silberankauf-Schmuck-Uhrenservice-Aschaffenburg-Innenstadt-Ro%C3%9Fmarkt ; https://sellwerk.de/firmenprofil/alex-goldankauf-aschaffenburg-zahngold-und-silberankauf-schmuckuhrenservice ; https://www.golocal.de/aschaffenburg/sonstige-gewerbe/alex-goldankauf-aschaffenburg-zahngold-silberankauf-schmuck-uhrenservice-70UNg/ ; https://www.facebook.com/p/ALEX-Goldankauf-Juwelier-100057339164830/ (Social-Profil, keine unabhängige Bestätigung der Felder)]

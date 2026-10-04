@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die offiziellen ALBA-Standortseiten listen mehrere Betriebe/Annahmestellen der ALBA Niedersachsen-Anhalt GmbH, darunter Frankfurter Str. 251, Am Hafen 9 und Celler Heerstr. 335 in Braunschweig sowie weitere Orte. Der Seed-Zusatz „2 Standorte“ lässt sich daraus nicht eindeutig einem einzelnen Branchendatensatz zuordnen; keine Adresse oder Kontaktdaten in das Multi-Standort-Dossier übertragen. Bestehende Domain-Root und website_status aktiv unverändert. Quelle(n): https://nisa.alba.info/standorte; https://www.alba.info/standorte]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Stahl/Metall, Container

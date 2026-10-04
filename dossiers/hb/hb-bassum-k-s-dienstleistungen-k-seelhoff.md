@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Der Syke-Eintrag von Schrottplatz.org nennt K.S. Dienstleistungen K. Seelhoff, Osterbinde 2, 27211 Bassum; Stadtbranchenbuch führt dieselben Seed-Daten. Beide sind Verzeichnis-Leads mit möglicher gemeinsamer Datenbasis, kein Betreiber-Impressum oder unabhängiger aktueller Betriebsnachweis gefunden. Keine weiteren Felder gefüllt; state NI und website_status unbekannt bleiben, kein Geocode übernommen. Quelle(n): https://www.schrottplatz.org/syke; https://bassum.stadtbranchenbuch.com/F/firmenverzeichnis.html]
+
 ### Recherche 03.10.2026 (Gesamtaudit B)
 
 - [Recherche 03.10.2026: PRÜFUNG, kein gesicherter aktueller Betrieb. state HB → NI korrigiert: Osterbinde 2, 27211 Bassum liegt in Niedersachsen/Landkreis Diepholz; hb-Slug/Pfad unverändert. Schrottplatz.org und Stadtbranchenbuch einzeln geöffnet, beide nennen K.S. Dienstleistungen K. Seelhoff, dieselbe Adresse und 04241 2939. Nur Aggregatoren, mögliche gemeinsame Datenbasis; Telefonnummer daher nur Lead, nicht gefüllt. Kein Betreiber/Impressum, aktuelle Leistungen, Ankauf oder Zeiten verifiziert; website_status unbekannt gesetzt. Bassum-Kommune HTTP 403, kein positiver Kommunalbeleg; Quelle(n): https://www.schrottplatz.org/bassum/schrott-ks-dienstleistungen-k-seelhoff-aYEPRZ.html, https://bassum.stadtbranchenbuch.com/F/firmenverzeichnis.html, https://www.bassum.de/]

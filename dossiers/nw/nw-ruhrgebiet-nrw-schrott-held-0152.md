@@ -9,7 +9,7 @@ postcode: ''
 phone: 0152 07930077
 email: info@schrott-held.de
 opening_hours: Mo-Sa Termine n.V., Tel. taegl. 08:00-23:00
-website: https://www.schrott-held.de/schrottankauf-dortmund.html
+website: https://www.schrott-held.de/
 website_status: aktiv
 status: aktiv
 description: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Verifizierte Korrektur: `website` auf die Domain-Wurzel https://www.schrott-held.de/ normalisiert (vorheriger Wert war eine Dortmund-Unterseite); aktuelle Betreiber-Startseite ist live und das Impressum nennt die Rootdomain. Keine weiteren Frontmatter-Fills: Impressum kennzeichnet Schüchtermannstr. 38 ausdrücklich als Postanschrift, nicht Schrottplatz; Einzelunternehmer ohne HRB, daher keine Ausnahme für neue Betreiberangaben. Keine Standortänderung/Geokodierung. Quelle(n): https://www.schrott-held.de/ ; https://www.schrott-held.de/impressum.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
