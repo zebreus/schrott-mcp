@@ -174,7 +174,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("kupfer-gemischt", "alt sauber"))
     } else if l.contains("kupfer neu") {
         Some(("kupfer-gemischt", "neu"))
-    } else if l.contains("leitsch") {
+    } else if l.contains("kupfer") && l.contains("leitsch") {
         Some(("kupfer-gemischt", "Leitschienen blank"))
     } else if l.contains("kupfer") {
         Some(("kupfer-gemischt", ""))
@@ -200,7 +200,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("aluminium-profile", "lackiert kurz"))
     } else if l.contains("profil blank") {
         Some(("aluminium-profile", "blank kurz"))
-    } else if l.contains("leitschienen") {
+    } else if l.contains("alu") && l.contains("leitschienen") {
         Some(("aluminium-gemischt", "Leitschienen blank"))
     } else if l.contains("draht") {
         Some(("aluminium-gemischt", "Draht blank"))
@@ -660,6 +660,26 @@ mod tests {
     }
 
     #[test]
+    fn copper_and_aluminium_rails_keep_separate_materials() {
+        let html = "<h1>Ankaufspreise</h1><table>\
+            <tr><td>Kupfer Leitsch. blank</td><td>10,15 EUR/kg</td></tr>\
+            <tr><td>Alu Leitschienen, blank</td><td>1,90 EUR/kg</td></tr>\
+            </table><h2>Ankauf Hinweise</h2>";
+        let (_, rows, _) = parse(html).expect("parses both rail grades");
+        assert_eq!(rows.len(), 2);
+        assert_eq!(
+            grade_for(&rows[0].0),
+            Some(("kupfer-gemischt", "Leitschienen blank"))
+        );
+        assert_eq!(
+            grade_for(&rows[1].0),
+            Some(("aluminium-gemischt", "Leitschienen blank"))
+        );
+        assert_eq!((rows[0].1, rows[0].2), (10.15, "EUR/kg"));
+        assert_eq!((rows[1].1, rows[1].2), (1.90, "EUR/kg"));
+    }
+
+    #[test]
     fn mapping_and_kind_cover_fixture_labels() {
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Sorte 3"), None);
@@ -698,6 +718,19 @@ mod tests {
         assert_eq!(kind_for("Kupfer Millberry"), ("exact", Some(1.0)));
         assert_eq!(grade_for("Altpapier"), None);
         assert_eq!(grade_for("Alu Kabel ab 100kg"), None);
+    }
+
+    #[test]
+    fn copper_and_aluminium_busbars_keep_separate_materials() {
+        assert_eq!(
+            grade_for("Alu Leitschienen, blank"),
+            Some(("aluminium-gemischt", "Leitschienen blank"))
+        );
+        assert_eq!(
+            grade_for("Kupfer Leitsch. blank"),
+            Some(("kupfer-gemischt", "Leitschienen blank"))
+        );
+        assert_eq!(grade_for("Leitschienen blank"), None);
     }
 
     #[test]
