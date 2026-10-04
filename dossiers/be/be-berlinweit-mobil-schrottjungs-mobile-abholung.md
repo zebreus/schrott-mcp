@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiber-Impressum/Datenschutz und Berliner sowie Hamburger Stadtseiten wurden einzeln erneut geprüft. Impressum nennt Schrottjungs UG, HRB 196586 AG Hamburg, Billwerder Steindamm 15a; die Berlin-Seite belegt mobile Abholung und Container, aber keine Berliner Anlieferadresse, während die Hamburg-Seite ausdrücklich regionale Partner nennt. Kein zweiter verifizierter Berliner Betriebs-/Drop-off-Standort; bestehende Kontaktdaten und dropoff_json '{}' nicht überschrieben, pickup_json mangels passendem Schema/konkreter einheitlicher Bedingungen leer gelassen. Keine Preise oder Gebühren in Preisfeldern übernommen; Quelle(n): https://schrottjungs.de/impressum-datenschutz/ ; https://schrottjungs.de/schrottabholung-berlin/ ; https://schrottjungs.de/schrottabholung-hamburg-hh ; https://schrottjungs.de/gewerbe ; https://www.northdata.de/Schrottjungs%20UG,%20Hamburg/Amtsgericht%20Hamburg%20HRB%20196586 ; https://www.provenexpert.com/de-de/schrottjungs/ (Kontaktabweichung nur Lead)]
+
 ### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
 
 - [Recherche 03.10.2026: Berlin-Stadtseite belegt Abholung/Container, nicht das Fehlen jeder Berliner Anlieferstelle; der Hinweis, Schrott nicht öffentlich abzustellen, ist kein Anlieferverbot. Impressum und HRB bestätigen den Hamburger Rechtssitz, nicht eine Berliner Filiale. ProvenExpert führt abweichende Kontaktdaten/MADI-Bezug und bleibt Identitäts-Lead. Kein Berliner Dropoff belegt, aber auch keine Nichtexistenz; `dropoff_json` bleibt unbekannt.; Quelle(n): https://schrottjungs.de/schrottabholung-berlin/, https://schrottjungs.de/impressum-datenschutz/, https://www.northdata.de/Schrottjungs%20UG,%20Hamburg/Amtsgericht%20Hamburg%20HRB%20196586, https://www.provenexpert.com/de-de/schrottjungs/]

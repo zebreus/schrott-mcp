@@ -23,8 +23,8 @@ use schrott_mcp_store::{NewTrader, PublicDb};
 
 /// One seed row, as compiled at build time from a dossier by
 /// `crates/ingestion/build.rs`.
-/// `description`, `dropoff_json` and `pickup_json` are enrichment-owned:
-/// the importer keeps stored values whenever the seed leaves them empty.
+/// `description`, service conditions and `certifications` preserve stored
+/// values when the dossier leaves them empty.
 #[derive(Debug, Clone, Deserialize)]
 pub struct SeedTrader {
     pub slug: String,
@@ -42,6 +42,10 @@ pub struct SeedTrader {
     pub website: String,
     #[serde(default)]
     pub website_status: String,
+    /// JSON array of current, evidence-backed certifications. Empty/missing
+    /// means the dossier has no curated value and preserves stored enrichment.
+    #[serde(default)]
+    pub certifications: String,
     #[serde(default)]
     pub phone: String,
     #[serde(default)]
@@ -158,6 +162,19 @@ pub fn validate_seeds(traders: &[SeedTrader]) -> Result<(), String> {
                 }
             }
         }
+        if !t.certifications.is_empty() {
+            let value: serde_json::Value = serde_json::from_str(&t.certifications)
+                .map_err(|_| format!("bad certifications JSON in {}", t.slug))?;
+            if !value
+                .as_array()
+                .is_some_and(|items| items.iter().all(serde_json::Value::is_string))
+            {
+                return Err(format!(
+                    "bad certifications (not an array of strings) in {}",
+                    t.slug
+                ));
+            }
+        }
         if t.city.is_empty() {
             return Err(format!("empty city in {}", t.slug));
         }
@@ -177,9 +194,10 @@ fn payload_hash(
     phone: &str,
     email: &str,
     opening_hours: &str,
+    certifications: Option<&str>,
 ) -> String {
     let mut h = DefaultHasher::new();
-    [
+    let mut fields = vec![
         t.slug.as_str(),
         t.name.as_str(),
         t.trader_type.as_str(),
@@ -197,9 +215,13 @@ fn payload_hash(
         description,
         dropoff_json,
         pickup_json,
-    ]
-    .join("\x1f")
-    .hash(&mut h);
+    ];
+    // Keep the historical hash byte-for-byte stable for dossiers without
+    // certifications; otherwise one field addition would rewrite every seed.
+    if let Some(certifications) = certifications {
+        fields.push(certifications);
+    }
+    fields.join("\x1f").hash(&mut h);
     format!("{:016x}", h.finish())
 }
 
@@ -244,6 +266,9 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
         let phone = keep(&t.phone, &kept.phone, "");
         let email = keep(&t.email, &kept.email, "");
         let opening_hours = keep(&t.opening_hours, &kept.opening_hours, "");
+        let certifications = keep(&t.certifications, &kept.certifications, "[]");
+        let certification_payload =
+            (!t.certifications.is_empty()).then_some(certifications.as_str());
         let hash = payload_hash(
             t,
             &description,
@@ -254,6 +279,7 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
             &phone,
             &email,
             &opening_hours,
+            certification_payload,
         );
         if kept.seed_hash == Some(hash.clone()) {
             continue; // unchanged — keep updated_at meaningful
@@ -290,7 +316,7 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
                 pickup_json: &pickup_json,
                 min_quantity_kg: None,
                 max_quantity_kg: None,
-                certifications: "[]",
+                certifications: Some(&certifications),
                 status: &t.status,
                 notes: &t.notes,
                 extra_json: &extra,
@@ -322,6 +348,11 @@ mod tests {
         assert_eq!(falk.city, "Stuttgart");
         assert!(falk.website.starts_with("https://"));
         assert_eq!(falk.status, "aktiv");
+        let drh = by_slug("ni-springe-31832-drh-deutsche-rohstoff-handelsgesellschaf");
+        assert_eq!(
+            drh.certifications,
+            r#"["Entsorgungsfachbetrieb §56 KrWG (Zertifikat 801.0978/26, gültig bis 09.08.2027)"]"#
+        );
         let long_timeline = by_slug("ni-visselhovede-martin-broschinski-schrotthandel-peter-b");
         assert!(
             long_timeline.notes.chars().count() > 2000,
@@ -340,6 +371,18 @@ mod tests {
         let first = seed_traders(&db, now).expect("first seed writes");
         assert!(first > 2000);
         assert_eq!(db.counts().expect("counts").traders as usize, first);
+        let certifications = db
+            .query_sql(
+                "SELECT certifications FROM traders
+                 WHERE slug = 'ni-springe-31832-drh-deutsche-rohstoff-handelsgesellschaf'",
+            )
+            .expect("read seeded certifications");
+        assert_eq!(
+            certifications.rows[0][0].as_str(),
+            Some(
+                r#"["Entsorgungsfachbetrieb §56 KrWG (Zertifikat 801.0978/26, gültig bis 09.08.2027)"]"#
+            )
+        );
         // Second run with same payload writes nothing (hash-skip).
         let second = seed_traders(&db, now).expect("second seed runs");
         assert_eq!(second, 0);
@@ -393,7 +436,7 @@ mod tests {
             pickup_json: "{}",
             min_quantity_kg: None,
             max_quantity_kg: None,
-            certifications: "[]",
+            certifications: None,
             status: &c[5],
             notes: &c[6],
             extra_json: "{}",

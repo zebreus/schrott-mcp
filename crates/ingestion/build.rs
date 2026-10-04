@@ -49,6 +49,7 @@ const KNOWN_KEYS: &[&str] = &[
     "opening_hours",
     "website",
     "website_status",
+    "certifications",
     "status",
     "description",
     "dropoff_json",
@@ -255,7 +256,7 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
 
     // Emission order (provenance nested).
     let prov = |suffix: &str| get(&format!("provenance_{suffix}"));
-    let mut row = Vec::with_capacity(18);
+    let mut row = Vec::with_capacity(19);
     for k in [
         "slug", "name", "trader_type", "description", "street", "postcode", "phone", "email",
         "opening_hours", "city",
@@ -266,6 +267,7 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
     for k in [
         "website",
         "website_status",
+        "certifications",
         "dropoff_json",
         "pickup_json",
         "status",

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: http://www.lsrohstoffhandel.de
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiberseite, Impressum und Kontaktseite einzeln abgerufen; der Betreiberauftritt ist aktiv und führt Schrottrecycling/Containerdienst, Telefon 06898 294232 und info@lsrohstoffhandel.de. Das Impressum nennt allerdings „LSRohstoffhandels GmbH“ und „HR 75127“, während Creditreform/NorthData „LS Rohstoffhandelsgesellschaft mbH“, HRB 75127, mit eingetragener Anschrift Hunsrückstr. 25 führen; die dortige Site-Anschrift Im Alten Brühl 36 ist als aktueller Standort nur auf Betreiberseite/Verzeichnis-Leads ausgewiesen. Wegen abweichender Firmenbezeichnung/Registeranschrift und fehlender unabhängiger Filialbestätigung nur website_status aktiv ergänzt; Kontakt- und Adressfelder bleiben leer; Quelle(n): https://lsrohstoffhandel.lsr01.de/ ; https://lsrohstoffhandel.lsr01.de/index.php/impressum ; https://lsrohstoffhandel.lsr01.de/index.php/kontakt ; https://firmeneintrag.creditreform.de/66333/7290216842/LS_ROHSTOFFHANDELSGESELLSCHAFT_MBH ; https://www.northdata.de/LS%20Rohstoffhandelsgesellschaft%20mbH,%20V%C3%B6lklingen/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2075127 ; https://www.enfmetal.com/lsr (Lead)]
 
 ### Recherche 01.10.2026 (Feedback-Triage ID 3000)
 

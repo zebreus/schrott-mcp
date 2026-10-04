@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Offizielles Branchenverzeichnis der Stadt Möckern führt „R. Koop“ unter Loburger Str. 10, 39291 Möckern, Tel. 039221 5866 und rolandkoop@aol.com. Name ist dort abgekürzt und es gibt keinen Betreiberauftritt/Registerbeleg; für das bislang leere E-Mail-Feld liegt nur diese eine unabhängige Kommunalquelle vor. Straße/PLZ/Telefon sind bereits befüllt und bleiben unangetastet; E-Mail und übrige Felder bleiben leer statt eines Ein-Quellen-Fills. Ältere Gelbe-Seiten/Schrottplatz-Einträge sind nur Leads; Quelle(n): https://www.moeckern-flaeming.de/verzeichnis/index.php?kategorie=268 ; https://www.gelbeseiten.de/ (Lead, Vorrecherche) ; https://www.schrottplatz.org/ (Lead, Vorrecherche)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung

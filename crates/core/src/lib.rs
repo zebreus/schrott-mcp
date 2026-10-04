@@ -34,7 +34,7 @@ pub struct AppConfig {
     pub bind: SocketAddr,
     /// Directory holding `internal.db` and `public.db`.
     pub data_dir: PathBuf,
-    /// Public origin, e.g. `https://schrott.offsite.lol` (no trailing slash).
+    /// Public origin, e.g. `https://schrottindex.de` (no trailing slash).
     pub base_url: String,
 }
 

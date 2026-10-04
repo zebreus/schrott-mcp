@@ -499,7 +499,7 @@ mod tests {
                 pickup_json: "{\"allowed\":false}",
                 min_quantity_kg: None,
                 max_quantity_kg: None,
-                certifications: "[]",
+                certifications: Some("[]"),
                 status: "aktiv",
                 notes: "",
                 extra_json: "{}",

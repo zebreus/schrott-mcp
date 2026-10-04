@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneute Firmen-/Namenssuche ergab ein widersprüchliches CompanyHouse-Profil, das die Berni Pfleging GmbH als aufgelöst ausweist; im Gegensatz dazu stehen die vorhandenen Registerhinweise zu HRB 6222 und die älteren, konsistenten Firmen-/Adress-Leads. Kein aktueller Betreiberauftritt oder Primärregisterbeleg zur Auflösung bzw. Fortführung nachgewiesen. Bestehenden Status `aktiv` und alle vorhandenen Felder nicht überschrieben; die leeren E-Mail-, Öffnungszeiten- und Website-Felder bleiben mangels belastbarer aktueller Betreiberbelege leer; Quelle(n): https://www.companyhouse.de/en/p/Berni-Pfleging-XUYqzWKw8nWOJYJPB8CRZkhFWms (widersprüchlicher Firmenprofil-Lead); https://www.northdata.de/ (frühere Register-Gegenprobe, siehe Recherche 02.10.2026); https://webvalid.de/ (frühere Register-Gegenprobe, siehe Recherche 02.10.2026); Abruf 04.10.2026]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

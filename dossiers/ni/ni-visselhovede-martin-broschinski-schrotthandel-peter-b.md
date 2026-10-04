@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiber-Unterseiten einzeln erneut abgerufen (Impressum, Altmetall-Ankauf, Abbruch/Demontage, Containerdienst, Kontakt). Sie bestätigen weiterhin Metallhandel BroZinski GbR mit Riko Brozinski und Denny Broschinski; der Dossiername nennt dagegen Martin/Peter Broschinski. Keine aktuelle Betreiber- oder Registerquelle belegt, dass diese Personen bzw. der Seed-Eintrag derselbe Betrieb sind; GbR ohne HRB, Aggregator-Snippets bleiben Leads. Keine Anschrift/Kontaktdaten in die Dossier-Felder übernommen; vorhandene Website und abgrenzende Beschreibung unverändert; Quelle(n): http://www.metallhandel-brozinski.de/ ; http://www.metallhandel-brozinski.de/IMPRESSUM/ ; http://www.metallhandel-brozinski.de/UNSERE-LEISTUNGEN/Wir-kaufen-Ihr-Altmetall/ ; http://www.metallhandel-brozinski.de/UNSERE-LEISTUNGEN/Abbruch-und-Demontage/ ; http://www.metallhandel-brozinski.de/UNSERE-LEISTUNGEN/Container-dienst/ ; http://www.metallhandel-brozinski.de/KONTAKT/ (Betreiberquellen); https://www.google.com/search?q=%22Martin+Broschinski%22+%22Peter+Broschinski%22+Visselh%C3%B6vede (Namens-/Gegenprüfung; kein Merge-Beleg; Abruf 04.10.2026)]
+
 ### Recherche 01.10.2026
 
 - Betreiber-Primärquelle (Live-Abruf 01.10.2026): metallhandel-brozinski.de – „Metallhandel BroZinski GbR", Inhaber Riko Brozinski & Denny Broschinski, Wehnserweg 25, DE-27374 Visselhövede, Tel. +49 (0) 171 1087298 / +49 (0) 176 62644133, Mail metallhandel-brozinski@web.de; Leistungen Altmetall-Ankauf, Abbruch/Demontage, Containerdienst; Zeiten Mo-Fr 08:30-17:00.

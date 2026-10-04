@@ -194,7 +194,8 @@ pub struct TraderRow {
 }
 
 /// Fields for [`PublicDb::upsert_trader`]. Identity (`slug`) plus payload;
-/// `first_seen_at` is only set on insert, everything else is refreshed.
+/// `first_seen_at` is only set on insert. Certifications change only when
+/// explicitly supplied; scraper updates pass `None` to preserve them.
 pub struct NewTrader<'a> {
     pub slug: &'a str,
     pub name: &'a str,
@@ -217,16 +218,16 @@ pub struct NewTrader<'a> {
     pub pickup_json: &'a str,
     pub min_quantity_kg: Option<f64>,
     pub max_quantity_kg: Option<f64>,
-    pub certifications: &'a str,
+    /// `Some` replaces the curated certification JSON; `None` preserves it.
+    pub certifications: Option<&'a str>,
     pub status: &'a str,
     pub notes: &'a str,
     pub extra_json: &'a str,
     pub now: &'a str,
 }
 
-/// Enrichment-owned columns the seed importer preserves: when the seed
-/// row leaves them empty, the stored values survive (seed never clobbers
-/// scraper/human enrichment).
+/// Stored values the seed importer preserves when the dossier leaves them
+/// empty, including scraper/human enrichment and curated certifications.
 #[derive(Debug, Clone, Default)]
 pub struct SeedKept {
     pub seed_hash: Option<String>,
@@ -241,6 +242,7 @@ pub struct SeedKept {
     pub opening_hours: String,
     pub lat: Option<f64>,
     pub lon: Option<f64>,
+    pub certifications: String,
 }
 
 impl PublicDb {
@@ -255,7 +257,7 @@ impl PublicDb {
               min_quantity_kg, max_quantity_kg,
               certifications, status, notes, extra_json, first_seen_at, updated_at)
              VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15,
-                     ?16, ?17, ?18, ?19, ?20, ?21, ?22, ?23, ?24, ?25, ?26, ?26)
+                      ?16, ?17, ?18, ?19, ?20, ?21, COALESCE(?22, '[]'), ?23, ?24, ?25, ?26, ?26)
              ON CONFLICT(slug) DO UPDATE SET
               name = excluded.name, trader_type = excluded.trader_type,
               description = excluded.description,
@@ -270,7 +272,9 @@ impl PublicDb {
               pickup_json = excluded.pickup_json,
               min_quantity_kg = excluded.min_quantity_kg,
               max_quantity_kg = excluded.max_quantity_kg,
-              certifications = excluded.certifications, status = excluded.status,
+               certifications = CASE WHEN ?22 IS NULL THEN traders.certifications
+                                     ELSE excluded.certifications END,
+               status = excluded.status,
               notes = excluded.notes, extra_json = excluded.extra_json,
               updated_at = excluded.updated_at",
             params![
@@ -399,7 +403,7 @@ impl PublicDb {
         conn.query_row(
             "SELECT extra_json, description, dropoff_json, pickup_json,
                     website, website_status, website_checked_at, phone,
-                    email, opening_hours, lat, lon
+                    email, opening_hours, lat, lon, certifications
              FROM traders WHERE slug = ?1",
             params![slug],
             |r| {
@@ -420,6 +424,7 @@ impl PublicDb {
                     opening_hours: r.get(9)?,
                     lat: r.get(10)?,
                     lon: r.get(11)?,
+                    certifications: r.get(12)?,
                 })
             },
         )
@@ -509,7 +514,7 @@ mod tests {
             pickup_json: "{\"allowed\":false}",
             min_quantity_kg: None,
             max_quantity_kg: None,
-            certifications: "[]",
+            certifications: Some("[]"),
             status: "aktiv",
             notes: "",
             extra_json: "{}",
@@ -554,6 +559,45 @@ mod tests {
         );
         let none = db.search_traders("Hamburg*", 10).expect("fts");
         assert!(none.is_empty());
+    }
+
+    #[test]
+    fn scraper_upsert_preserves_certifications_but_seed_can_clear_them() {
+        let dir =
+            std::env::temp_dir().join(format!("schrott-certifications-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        let db = PublicDb::open(&dir).expect("test db opens");
+        let now = "2026-10-04T00:00:00Z";
+
+        let mut initial = trader("certified-dealer", "Certified Dealer", "Berlin", now);
+        initial.certifications = Some(r#"["Entsorgungsfachbetrieb"]"#);
+        db.upsert_trader(&initial).expect("insert certified trader");
+
+        let mut scrape = trader("certified-dealer", "Certified Dealer", "Berlin", now);
+        scrape.certifications = None;
+        db.upsert_trader(&scrape).expect("scraper update");
+
+        let stored: String = db
+            .query_sql("SELECT certifications FROM traders WHERE slug = 'certified-dealer'")
+            .expect("read certifications")
+            .rows[0][0]
+            .as_str()
+            .expect("text")
+            .to_owned();
+        assert_eq!(stored, r#"["Entsorgungsfachbetrieb"]"#);
+
+        let mut clear = trader("certified-dealer", "Certified Dealer", "Berlin", now);
+        clear.certifications = Some("[]");
+        db.upsert_trader(&clear)
+            .expect("explicitly clear certification");
+        let cleared: String = db
+            .query_sql("SELECT certifications FROM traders WHERE slug = 'certified-dealer'")
+            .expect("read cleared certifications")
+            .rows[0][0]
+            .as_str()
+            .expect("text")
+            .to_owned();
+        assert_eq!(cleared, "[]");
     }
 
     #[test]

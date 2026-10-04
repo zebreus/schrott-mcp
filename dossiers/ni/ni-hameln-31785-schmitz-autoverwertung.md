@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Nochmals nach Betreiberwebsite, Impressum/Handelsregister und aktuellen Filialdetails gesucht; keine Betreiber-Primärquelle gefunden. Adresse, Telefonnummer und Autoverwertungsangaben bleiben durch übereinstimmende Branchenverzeichnisse belegt, nicht durch unabhängige Primär-/Registerquellen. E-Mail, Öffnungszeiten und Website daher leer; vorhandene Werte sowie status `aktiv` unverändert; Quelle(n): https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/hameln (Aggregator-Suche); https://www.google.com/search?q=%22Hans+Schmitz%22+Autoverwertung+Hameln+Wehrberger (Suchpfad zu Verzeichnis-Leads; Abruf 04.10.2026)]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: ok — Adresse Wehrberger Str. 54, 31785 Hameln + Tel. 05151 42224 in MEHREREN unabhängigen Verzeichnissen konsistent (Gelbe Seiten: Schmitz Autoverwertung; YellowMap/autoplenum: Hans Schmitz; branchen-info Altautoverwertungsbetrieb; ortsdienst: Hans Schmitz Altfahrzeug-Demontagebetrieb); Name auf belegten Inhabernamen präzisiert; keine Betreiber-Website gefunden; Quelle(n): Gelbe-Seiten-Eintrag + YellowMap/autoplenum/branchen-info-Einträge]

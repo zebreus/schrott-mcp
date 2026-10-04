@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die exakte Metallica GmbH & Co. KG ist eine reale Neu-Ulmer Metallhandels-/Recyclinggesellschaft (Amtsgericht Memmingen HRA 12842); NorthData führt jüngste Jahresabschlussveröffentlichungen bis 2024, veröffentlicht 13.04.2026. Damit ist der frühere pauschale Namensvetterverdacht zu korrigieren, ohne bestehende Frontmatter zu überschreiben. Keine aktuelle Betreiber- oder Standortdetailseite gefunden; Adresse/Insel 18/1 und Telefon erscheinen nur in Registerspiegeln bzw. Verzeichnissen, daher nicht übernommen. Website-Suche ergab keinen verifizierten Betreiberauftritt, website_status auf unbekannt gesetzt; das bereits gesetzte state-Feld BW wegen No-overwrite nicht geändert, obwohl Neu-Ulm geographisch Bayern ist; Quelle(n): https://www.northdata.de/Metallica%20GmbH%20&%20Co%C2%B7%20KG,%20Neu-Ulm/Amtsgericht%20Memmingen%20HRA%2012842 ; https://handelsregister.ai/en/organizations/neu-ulm/music-publishers/metallica-gmbh-co-kg-6bb92652293bd2e9daf0d1a54004bf18 ; https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/neu-ulm (lead); https://www.goyellow.de/home/schrott-metallica-gmbh-co-kg-neu-ulm--gkgs60.html (lead)]
 
 ### Recherche 02.10.2026
 

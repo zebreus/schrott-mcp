@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Keine neue nicht-aggregierte Quelle für Heinz Terboven in Hamburg-Harburg gefunden. Die verfügbaren Treffer bleiben widersprüchliche Verzeichnisprofile (Eißendorfer Str. 41 vs. 43, unterschiedliche Telefonnummern und widersprüchliche Schließungsangaben); kein passender Registerbeleg und kein Betreiberauftritt verifiziert. Adresse, Telefon und Schließung daher nicht übernommen, bestehende leere Felder/Prüfstatus unverändert; Quelle(n): https://www.11880.com/suche/heinz-terboven/hamburg ; https://www.11880.com/branchenbuch/hamburg/120674719B111438881/heinz-terboven-schrotthandel.html ; https://www.11880.com/branchenbuch/hamburg/251092496B111438881/heinz-terboven-schrotthandel.html ; https://www.northdata.de/Heinz+Terboven,+Hamburg (ohne passenden Registerbeleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (FE/NE lt. Aggregator)

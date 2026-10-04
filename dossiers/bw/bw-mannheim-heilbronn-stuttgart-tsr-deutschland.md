@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die drei Standortdetailseiten Mannheim, Heilbronn und Stuttgart sowie Impressum wurden erneut angefordert; der Abrufdienst erhielt diesmal eine Challenge-Validation-Seite. Das ist kein Beleg für einen öffentlichen Ausfall und überschreibt weder website_status aktiv noch die am 03.10.2026 einzeln protokollierten Betreiberangaben/Adressen. Da das Dossier mehrere Standorte zusammenfasst, wurden keine Einzeladresse oder Kontakte in gemeinsame Felder übertragen; keine Frontmatter-Änderung; Quelle(n): https://www.tsr-recycling.de/standorte/ ; https://www.tsr-recycling.de/standorte/schrotthaendler-mannheim/ ; https://www.tsr-recycling.de/standorte/schrotthaendler-heilbronn/ ; https://www.tsr-recycling.de/standorte/schrotthaendler-stuttgart/ ; https://www.tsr-recycling.de/impressum/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - FE/NE, Abholung, RFA-Analyse

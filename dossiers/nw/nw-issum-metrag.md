@@ -9,7 +9,7 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
+website: https://metrag-gmbh.de
 website_status: tot
 status: geschlossen
 description: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Historische Betreiber-Domain für das bereits als erloschen dokumentierte Issumer Unternehmen ergänzt: website https://metrag-gmbh.de (nur Domain-Root); website_status bleibt unverändert tot, ebenso status geschlossen. Der direkte HTTPS-Abruf lieferte erneut einen Transportfehler und belegt keine aktive Website; der im Recherchevermerk vom 02.10.2026 dokumentierte DNS-/NorthData-Befund (HRB 13146 erloschen, Löschung 05.03.2025) bleibt maßgeblich. Keine Adresse oder Kontaktangaben ergänzt; Quelle(n): https://metrag-gmbh.de/ (Direktabruf 04.10.2026, Transportfehler); https://www.northdata.de/METRAG%20GmbH,%20Issum/Amtsgericht%20Kleve%20HRB%2013146 (Registerbefund im Vermerk vom 02.10.2026)]
 
 ### Recherche 02.10.2026
 

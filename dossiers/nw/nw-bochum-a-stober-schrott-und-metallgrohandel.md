@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiber-Domain und verfügbare Detailpfade erneut geprüft; kein abrufbares Impressum, kein Registerabgleich und keine aktuellen Filialdetails gefunden. Suchtreffer zu Telefon, Öffnungszeiten und schrotthandel-stoeber.de stammen ausschließlich aus Branchen-/Schrottpreis-Verzeichnissen; kein unabhängiger Zweitbeleg und daher keine Ergänzung der leeren Kontaktfelder. Vorhandene Anschrift/PLZ sowie website_status `unbekannt` und status `pruefung` unverändert gelassen; Quelle(n): http://www.schrotthandel-stoeber.de/ (Direktabruf ohne verwertbaren Betreiberinhalt); https://www.google.com/search?q=%22A.+St%C3%B6ber%22+Schrotthandel+Bochum+Kuhlenkamp (Suchpfad zu Verzeichnis-Leads, kein eigenständiger Beleg); https://schrottplatz.org/ (früher dokumentierter Aggregator-Lead)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Am Kuhlenkamp 34, nur schrottradar-Profil

@@ -1,7 +1,7 @@
 # Schrott MCP
 
 One Rust process serving both the marketing/auth website and a remote MCP
-server at `https://schrott.offsite.lol`, backed by two SQLite databases.
+server at `https://schrottindex.de`, backed by two SQLite databases.
 
 The Schrott MCP collects Schrotthändler, Wertstoffhändler & Co. from all over
 Germany — with current and historical prices, transparent sourcing, and access
@@ -234,7 +234,7 @@ force-runs every handler immediately.
 ## Deploy
 
 Systemd unit `schrott-mcp.service` runs the release binary as root behind
-the existing nginx, which terminates TLS for `schrott.offsite.lol`
+the existing nginx, which terminates TLS for `schrottindex.de`
 (port 4001, data dir `/var/lib/schrott-mcp`). Binaries live in
 `/usr/local/bin/` (`schrott-mcp-server` next to
 `schrott-mcp-query-worker` — the worker must sit beside the server).

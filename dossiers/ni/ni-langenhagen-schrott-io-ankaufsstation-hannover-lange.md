@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneute direkte Prüfung von schrott.io ergab weiterhin keine aktuelle Betreiber-/Filialseite; die Domain verweist nicht auf einen Schrotthändler, sondern auf fremde Inhalte. Eine in Verzeichnissen genannte Magdeburger Str. 7 ist nicht mit Betreiber- oder Registerquelle belegt und wird nicht übernommen. Leere Kontaktdaten bleiben leer; website_status `tot` und status `pruefung` unverändert; Quelle(n): https://schrott.io/ (Weiterleitung/fremder Inhalt, kein Händlerbeleg); https://www.google.com/search?q=%22schrott.io%22+Langenhagen+%22Magdeburger+Str.%22 (Aggregator-Suchpfad, nur Lead; Abruf 04.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Online-Ankauf, Annahmestelle

@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneuter Betreiber-/Namens- und Ortsabgleich brachte keinen verifizierten Betreiberauftritt, Register-/Kommunalbeleg oder aktuelle Filialdetailseite. Die bekannten Verzeichnisse wiederholen nur den älteren Lead Graf-Enno-Str. 5 / 04934 5780; der private Eintrag „Czaja Franz und Johanne“ an Cirksenastr. 4 ist ein anderer Namensvetter und wird nicht zusammengeführt. Keine Frontmatter-Ergänzung; website_status `unbekannt`, status `pruefung` und Kontaktdaten unverändert; Quelle(n): https://www.11880.com/branchenbuch/upgant-schott/120674719B100598903/gerhard-czaja-schrotthandel.html (Aggregator); https://www.oeffnungszeitenbuch.de/filiale/Upgant-Schott-Gerhard%2520Czaja%2520Schrotthandel-2985041T.html (Aggregator); https://web2.cylex.de/firma-home/schrotthandlung-gerhard-czaja-7782632.html (Aggregator, 403); https://www.infobel.com/de/germany/schrotthandlung_gerhard_czaja/upgant_schott/DE102943790-049345780/businessdetails.aspx (Aggregator); https://www.dasoertliche.de/?form_name=search_nat&kw=Czaja&ci=Upgant-Schott (Namensvetter-Lead; Abruf 04.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

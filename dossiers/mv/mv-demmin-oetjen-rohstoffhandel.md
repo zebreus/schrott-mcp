@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Kein aktueller Betreiber-/Registerbeleg für die Demminer Bezeichnung „Oetjen Rohstoffhandel GmbH“ gefunden. NorthData führt die ähnlich benannte Oetjen Metall- und Wertstoffhandel GmbH, AG Neubrandenburg HRB 3806, als am 16.01.2023 gelöscht; Oetjen.de gehört einer Oetjen Logistik GmbH mit Sitz in Rotenburg und ist kein Beleg für Demmin. Verzeichnisse führen weiter Demminer Kontaktdaten, bleiben aber Leads und kollidieren in Firmenname/Hausnummern mit dem Registerhinweis. Kein Merge mit Oetjen Logistik/Zeven und keine Frontmatter-Änderung; bestehende Adresse/Prüfstatus unverändert; Quelle(n): https://www.northdata.de/Oetjen%20Metall-%20und%20Wertstoffhandel%20GmbH,%20Demmin/HRB%203806 ; https://oetjen.de/ ; https://demmin.stadtbranchenbuch.com/917182.html (Lead) ; https://www.schrottplatz-info.de/schrottplatz/Demmin/Oetjen-Rohstoffhandel-GmbH (Lead)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Rohstoffhandel (lt. schrottplatz-info.de)

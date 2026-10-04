@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneute Domain- und Namenssuche ohne aktuellen Betreiberauftritt oder unabhängig bestätigten Betriebs-/Adressbeleg. Die Domain zeigt weiterhin nur STRATO-Parking/„Domain not available“; keine Kontaktfelder ergänzt und website_status `tot` sowie status `pruefung` unverändert. Kein Schließungsnachweis über den Domainzustand hinaus; Quelle(n): https://deich-metall.de/ (Direktabruf/Parkseite); https://www.google.com/search?q=%22Deich+Metall%22+Wanna+Schrott+Alu+Kabel (Suchpfad; kein zurechenbarer Betreiberbeleg; Abruf 04.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alu/Kabel/E-Motoren/Zinn, Demontage

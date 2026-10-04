@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Weitere Suche nach Dossier-Bezeichnung, Autoverwertung und den überlieferten Telefon-/Namenshinweisen ergab keinen zurechenbaren Betreiberauftritt oder zweiten unabhängigen Beleg; die Gelbe-Seiten-Suche zeigt weiterhin keinen passenden Eintrag (nur andere Betriebe/Orte). Keine Kontakt-, Adress- oder Preisangaben ergänzt; website_status `unbekannt` und status `pruefung` unverändert. Negativsuche ist kein Schließungsnachweis; Quelle(n): https://www.gelbeseiten.de/suche/autoverwertung/coesfeld (Aggregator-Suchseite); https://www.google.com/search?q=%22Auto+verschrotten%22+Entsorgen+Coesfeld (Suchpfad ohne zurechenbaren Betreiberbeleg; Abruf 04.10.2026)]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Negativbefund — GS „autoverwertung coesfeld“ listet nur Autoverwertung Heebsmann (Bahnhofstr. 29) + Holz Michael (Rosendahl); kein „Auto verschrotten/Entsorgen“, keine 01522-Nr. verifizierbar. Kein Fill, status bleibt pruefung (miss-nahe, Folgewelle: ggf. schliessen).; Quelle(n): https://www.gelbeseiten.de/suche/autoverwertung/coesfeld (Abruf 01.10.2026)]

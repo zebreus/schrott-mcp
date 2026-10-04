@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die Betreiberseite „Qualifikation“ erklärt Rohstoffe Seidel als DIN ISO 9001:2015/14001:2015-zertifiziert und zeigt aktuelle VISOCERT-Zertifikatsbilder vom 10.02.2026: ISO 9001 Nr. Z-26-10083-90 und ISO 14001 Nr. Z-26-10083-14, jeweils gültig bis 06.02.2029. Beide Bilder nennen jedoch „Rohstoffe Seidel GmbH“, während Dossier und Impressum „Rohstoffe Seidel GmbH & Co. KG“, HRA 12443, nennen. Adresse und Marke stimmen überein, die rechtliche Identität der Zertifikatsträgerin zur Dossier-Entität ist aber nicht belegt (mögliche verbundene Gesellschaft); `certifications` bleibt deshalb leer. Die älteren, auf derselben Seite verlinkten PDF-Versionen (2023) wurden nicht als aktuelle Belege verwendet; Quelle(n): https://www.rohstoffe-seidel.de/; https://www.rohstoffe-seidel.de/wp-content/uploads/2026/04/vc-10083-zertifikat-9001-02_2026-2-scaled.jpg; https://www.rohstoffe-seidel.de/wp-content/uploads/2026/04/vc-10083-zertifikat-14001-02_2026-scaled.jpg; https://www.rohstoffe-seidel.de/impressum/]
+
 ### Korrektur 03.10.2026 (Feedback 4523)
 
 - [Korrektur 03.10.2026: Die werbliche Selbstbezeichnung „Allround-Spezialist“ aus der nutzerorientierten description entfernt. Die konkret aufgeführten Tätigkeiten bleiben erhalten und sind auf den aktuellen Betreiber-Leistungsseiten einzeln beschrieben; an Identität, Kontaktdaten, Status und übrigen Fakten wurde nichts geändert. Quelle(n): https://www.rohstoffe-seidel.de/ ; https://www.rohstoffe-seidel.de/demontage/ ; https://www.rohstoffe-seidel.de/containerdienst/ ; https://www.rohstoffe-seidel.de/recycling/ ; https://www.rohstoffe-seidel.de/schutzplanken/ ; https://www.rohstoffe-seidel.de/transport-logistik/]

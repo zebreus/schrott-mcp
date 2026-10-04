@@ -13,6 +13,7 @@ website: https://www.elno-container.de
 website_status: aktiv
 status: pruefung
 description: ''
+certifications: '["Entsorgungsfachbetrieb §56 KrWG (Zertifikat 121101 SBLBehHM, gültig bis 02.04.2027)"]'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Berlin (BE) — Recherche
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: certifications ergänzt: Entsorgungsfachbetrieb gemäß §56 KrWG, Zertifikat 121101 SBLBehHM (Vorgang ZZLE001000272009), ausgestellt am 24.02.2026 und gültig bis 02.04.2027. Das aktuelle Betreiber-PDF benennt ELNO Container und Dienstleistungs GmbH, HRB 141261 B, Tiefwerderweg 13, 13597 Berlin; Gesellschaft und Anschrift stimmen mit dem Impressum überein. Konflikt dokumentiert: Im Impressumstext ist noch ein altes Zertifikat bis 04/2025 verlinkt, der aktuelle Footer und die Schrottplatzseite verlinken das Zertifikat 2026 bis 04/2027. Nur den im aktuellen Footer verlinkten Beleg übernommen; keine zusätzlichen Zertifikate behauptet; Quelle(n): https://www.elno-container.de/wp-content/uploads/2026/03/EFB-Zertifikat-bis-04-2027.pdf; https://www.elno-container.de/schrottplatz/; https://www.elno-container.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

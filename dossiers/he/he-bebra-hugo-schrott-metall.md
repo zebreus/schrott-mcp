@@ -13,6 +13,7 @@ website: https://www.hugo-schrott-metall.de
 website_status: aktiv
 status: aktiv
 description: ''
+certifications: '["Entsorgungsfachbetrieb §56 KrWG (TÜV SÜD, Zertifikat 12 150 10223, gültig bis 01.09.2027)","Umweltmanagement DIN EN ISO 14001:2015 (TÜV SÜD, Zertifikat 12 104 10223 TMS, gültig bis 06.05.2027)"]'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: certifications ergänzt aus den zwei aktuellen TÜV-SÜD-Urkunden, die der Betreiber auf seiner Bebra-Seite „Zertifikate“ verlinkt: Entsorgungsfachbetrieb nach §56 KrWG, Zertifikat 12 150 10223, ausgestellt 24.06.2026, gültig bis 01.09.2027; Umweltmanagement nach DIN EN ISO 14001:2015, Zertifikat 12 104 10223 TMS, gültig bis 06.05.2027. Beide Urkunden nennen HUGO Schrott-Metall Inhaber Heinrich Hugo e.K. und Justus-Liebig-Str. 3, 36179 Bebra; die EfB-Urkunde nennt zusätzlich HRA 1597 Bad Hersfeld. Das stimmt mit dem Bebra-Impressum überein; die Standortseite unterscheidet Bebra und Erfurt. Nur die beiden Urkunden übernommen, nicht aus den zusätzlichen BDSV/TÜV-Logos auf weitere Zertifikate geschlossen; Quelle(n): http://bebra.hugo-schrott-metall.de/zertifikate.html; http://bebra.hugo-schrott-metall.de/fileadmin/user_upload/documents/zert_efb_bis_2027-09-01.pdf; http://bebra.hugo-schrott-metall.de/fileadmin/user_upload/documents/zert_umwelt_bis_2027-05-06.pdf; http://bebra.hugo-schrott-metall.de/impressum/]
 
 ### Recherche 01.10.2026
 

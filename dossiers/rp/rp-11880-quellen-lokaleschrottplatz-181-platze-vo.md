@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - keine).
 - urspr. Website-Angabe: keine
 - Adresse: 11880, GS-Neurubriken, GESA-404, Idar-Goldszene, Dentaldepots, Klinik, IT-Remarketer, Eifel-West, Hunsrück, Preislisten
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Der Frontmatter-Name bleibt eine Quellen-/Arbeitsnotiz, kein identifizierter Betrieb. Portale und Suchtreffer sind allgemeine Verzeichnisse bzw. Such-Leads; die abgefragten Quellen ergaben keine eindeutige Betreiber-Primärquelle, Gegenquelle oder zuordenbare Unternehmensidentität. Keine leeren Frontmatter-Felder ergänzt; „11880“ bleibt unverändert und ist keine verifizierte Ortsangabe.; Quelle(n): https://lokaleschrottplatz.de/, https://schrottradar.de/, https://www.11880.com/suche/schrotthandel/rheinland-pfalz, https://www.wlw.de/de/suche/schrotthandel/rheinland-pfalz, https://www.northdata.de/?query=Rheinland-Pfalz%20Schrotthandel, https://www.bing.com/search?q=%22lokaleschrottplatz.de%22+%22181%22.]

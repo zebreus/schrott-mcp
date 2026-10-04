@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneute Suche und Direktprüfung der genannten Betreiber-Domain ergaben kein verifiziertes Impressum, keinen Registerbeleg und keine aktuellen Betreiber-Filialdetails. Die bereits eingetragenen Adress-/Kontaktangaben beruhen weiterhin ausschließlich auf übereinstimmenden Aggregator-Profilen (eine Quellenklasse); sie wurden nicht überschrieben. Öffnungszeiten, Website und Beschreibung bleiben leer; status `pruefung` unverändert, keine Aussage über eine Schließung; Quelle(n): https://muellenmeister-schwerfel.de/ (Direktabruf ohne verwertbaren Betreiberinhalt, zuvor HTTP/HTTPS geprüft); https://www.google.com/search?q=%22M%C3%BCllenmeister+%26+Schwerfel%22+K%C3%B6ln+Alteburger (Suchpfad zu Branchenverzeichnis-Leads; Abruf 04.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alteburger Str. 138, nur schrottradar-Profil

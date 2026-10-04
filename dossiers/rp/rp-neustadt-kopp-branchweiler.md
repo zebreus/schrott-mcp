@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Branchweilerhof 17b
 - urspr. Website-Angabe: keine
 - Adresse: Neustadt
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Auskunft und Das Örtliche führen Marvin Kopp Schrott- und Metallhandel am Branchweilerhof 17b; Das Örtliche ergänzt eine Telefonnummer, aber ausschließlich Verzeichniseinträge sind kein Betreiberbeleg. Die bei Auskunft verlinkte mutmaßliche Betreiberseite liefert 404; eine unabhängige Gegenquelle oder Betreiber-Primärquelle ließ sich nicht verifizieren. Keine leeren Frontmatter-Felder ergänzt; Anschrift, Telefon, Öffnungszeiten und aktuelle Existenz bleiben ungeklärt.; Quelle(n): https://www.auskunft.de/firma/marvin-kopp-schrott--und-metallhandel/941shafs, https://www.auskunft.de/a/schrotthaendler/speyer, https://www.dasoertliche.de/Themen/Kopp-Schrott-u-Metallhandel-Neustadt-Branchweilerhof, https://www.dasoertliche.de/Themen/Schrott/Neustadt-an-der-Weinstrasse.html, https://marvin-kopp-schrott-und-metallhandel.business.site/.]

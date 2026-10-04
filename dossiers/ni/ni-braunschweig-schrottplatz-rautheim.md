@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneute Prüfung der angebotenen „Schrottplatz Rautheim“-Seiten und externer Orts-/Firmensuche ergab nur dieselbe SEO-Verzeichnisfamilie; kein Betreiber-Impressum, Registereintrag, unabhängiger Zweitbeleg oder nachweisbarer realer Platz. Angaben zu Zum Ackerberg, Telefonnummer und Zeiten bleiben unbestätigte Leads und wurden nicht übernommen; status `pruefung` und alle leeren Felder unverändert; Quelle(n): https://lokaleschrottplatz.de/schrottplatz-rautheim/ (SEO-Verzeichnis); https://2-pos.de/5674/46210 (gleichartige SEO-Seite, keine unabhängige Quelle); https://www.google.com/search?q=%22Schrottplatz+Rautheim%22+Braunschweig+%22Zum+Ackerberg%22 (Orts-/Firmen-Suchpfad; Abruf 04.10.2026)]
+
 ### Recherche 01.10.2026
 
 - DDG-Recherche (01.10.2026): einziger Treffer lokaleschrottplatz.de/schrottplatz-rautheim (SEO-generierte Seite, Tel. +49 15510 829965 als Einzelbeleg, kein Betreiber-Impressum, keine Adresse). Keine Betreiber-Website, kein HRB-Eintrag gefunden.

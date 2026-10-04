@@ -13,6 +13,7 @@ website: 'https://www.schrott-gehrt.de'
 website_status: 'aktiv'
 status: pruefung
 description: ''
+certifications: '["Entsorgungsfachbetrieb §56 KrWG (Zertifikat 801.0318/25, gültig bis 04.05.2027)"]'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: certifications ergänzt: Entsorgungsfachbetrieb gemäß §56 KrWG, Zertifikat 801.0318/25 (Vorgang ZZST002000867009), ausgestellt durch Ingenieurbüro Ulbricht GmbH am 07.11.2025 und gültig bis 04.05.2027. Das aktuelle, vom Betreiber verlinkte Zertifikat benennt Klaus-Georg Gehrt am Standort Boschstr. 2, 08371 Glauchau; das Impressum bestätigt Betreibername und Anschrift. Abgrenzung gewahrt: Das Zertifikat gehört zum Einzelunternehmen Klaus-Georg Gehrt (Boschstraße), nicht zur separaten Max Gehrt GmbH & Co. KG am Heizwerk 6. Wegen der im Zertifikat begrenzten Tätigkeiten/Abfallarten werden keine weiteren Zertifikate oder ISO-Aussagen behauptet; Quelle(n): https://www.schrott-gehrt.de/downloads; https://www.schrott-gehrt.de/download/Zertifikat%20-%20Schrott%20Gehrt%20bis%202027.pdf; https://www.schrott-gehrt.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

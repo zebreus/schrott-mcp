@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Aktuelle Firmendaten führen HRH Transport & Metallhandel GmbH weiterhin mit HRB 141643 und Neuhöfer Damm 110, 21107 Hamburg; Kredit-/Registerspiegel bestätigen Metallrecycling als Unternehmensgegenstand. Kein HRH-eigener Standort-/Kontaktauftritt oder belastbare Telefonnummer/E-Mail für die Hamburger Betriebsstätte gefunden. Bereits gefüllte Registeranschrift bleibt unverändert; keine weiteren Frontmatter-Felder ergänzt; Quelle(n): https://firmeneintrag.creditreform.de/21107/2151791277/HRH_TRANSPORT_METALLHANDEL_GMBH ; https://www.northdata.de/HRH%20Transport%20%26%20Metallhandel%20GmbH,%20Hamburg/HRB%20141643 ; https://schrottregister.pages.dev/ort-hamburg (Registeraggregator nur Lead)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Sammeln/Befördern/Handeln (Schrottregister)
