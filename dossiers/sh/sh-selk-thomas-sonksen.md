@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Neuer, nicht unabhängiger Lead mit Namesake-/Adressrisiko: Schrottplatz-Info bezeichnet „Sönksen Thomas“ am Moorredder 20, 24884 Selk als „Schrotthandel“. Dieselbe Anschrift war in der Vorprüfung nur als privater Telefonbucheintrag bekannt. Das zusätzliche Branchenlabel stammt ebenfalls von einem Aggregator und belegt weder Gewerbeanschrift noch aktuellen Betrieb oder Annahme; es löst den privaten Wohn-/Betriebsstätten-Konflikt nicht. Keine Frontmatter-Änderung, insbesondere keine Übernahme der Anschrift, kein Statuswechsel und keine Geocodierung. Restunsicherheit: ob Thomas Sönksen dort aktuell Schrott annimmt und ob Moorredder 20 eine Geschäfts- oder Privatanschrift ist; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Selk (Abruf 04.10.2026; Aggregator, nur Lead).]

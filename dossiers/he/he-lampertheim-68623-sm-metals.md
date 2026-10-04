@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — nur Register-Einzelbeleg (Northdata: SM Metals GmbH, Wilhelm-Herz-Ring 2, D-68623 Lampertheim, AG Darmstadt HRB 92336, Gegenstand Handel/Im-/Export Altmetall/Buntmetalle/Transformatoren), kein zweiter unabhängiger Beleg (Gelbe-Seiten-Trefferliste Lampertheim ohne SM-Metals-Eintrag, keine Betreiber-Website/Domain gefunden); Frontmatter bleibt leer; Quelle(n): Northdata-Registerdetail SM Metals GmbH HRB 92336, https://www.gelbeseiten.de/suche/schrotthandel/lampertheim (Lead)]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die bereits als möglicher Nachfolger/Fremdtreffer notierte Domain ist aktuell abrufbar (Footer © 2026) und bezeichnet den Anbieter als „SM – Stahl und Metallhandel UG“; sie beschreibt Industrie-Demontage, Metall-/Schrotthandel, Maschinenankauf und Abholung von Kupfer, Kabel, Aluminium, Messing und Edelstahl. Ein Impressum unter dem naheliegenden Pfad liefert 404; die sichtbare Seite belegt weder Lampertheimer Anschrift noch HRB/Identität der im Dossier benannten SM Metals GmbH. Keine Frontmatter-Änderung; Website-Zuordnung und Status bleiben offen. Restunsicherheit: möglicher neuer Betreiber mit abweichender Rechtsform/Bezeichnung; nicht mit HRB 92336 zusammenführen; Quelle(n): https://sm-metallhandel.com/ ; https://sm-metallhandel.com/impressum]

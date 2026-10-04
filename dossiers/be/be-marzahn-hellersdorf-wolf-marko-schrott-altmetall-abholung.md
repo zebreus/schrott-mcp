@@ -6,7 +6,7 @@ state: BE
 city: Marzahn-Hellersdorf
 street: Boschpoler Str. 120
 postcode: '12683'
-phone: —
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026 (Altauftrag 30.09-1800 ShardA, nachgeholt)
 
 - [Recherche 02.10.2026: Nur GS-Einzelbeleg (Einzelbeleg, unsicher) – Schrott Altmetall Abholung Boschpoler Str. 120, 12683 Berlin-Biesdorf, Mo-So 07-17 per GS-Detail 7fd35fc1; Tel. 0176 13665355 nur GS-belegt; Dossier-Phone Feld '—' (Emdash, regelwidrig) wird nicht per Altauftrag überschrieben – Klärfall für Owner-Gate; Name Wolf Marko nur Seed (generisch); kein Zweitbeleg -> kein Fill. Klärfall: Betreiber-/Registerabgleich offen. Quelle(n): https://www.gelbeseiten.de/gsbiz/7fd35fc1-81e7-4f1a-833e-75f01e1e1b3a]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die frühere Gelbe-Seiten-Detailseite bleibt der einzige passende Lead für Boschpoler Str. 120; kein zweiter Betreiber-/Registerbeleg für Identität oder Aktivität gefunden. Der Namensabgleich zeigt außerdem einen anderen „Wolf Marko“ als Autolackiererei in Cottbus, ohne Verbindung zu Berlin. Das ungültige Telefon-Platzhalterzeichen „—“ wurde als leerer Wert normalisiert (kein Telefonnummern-Fill); keine Gelbe-Seiten-Kontaktdaten übernommen. Restunsicherheit: Berliner Betreibername, aktuelle Abholung und Adresse bleiben unbestätigt; Quelle(n): https://www.gelbeseiten.de/gsbiz/7fd35fc1-81e7-4f1a-833e-75f01e1e1b3a ; https://www.gelbeseiten.de/gsbiz/0f0470f7-085e-4449-998a-575b70faadd1]

@@ -43,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Online-Ankauf, 80+ Anlieferstellen, alle Metalle + E-Schrott
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiber-Ablaufseite erneut live geprüft. Die pauschale Übersicht nennt Auszahlung innerhalb von fünf Arbeitstagen nach Qualitätsprüfung; 48 Stunden stehen zusätzlich in den Detailabschnitten zu Greifer-LKW-Abholung und Paketversand. Die Website differenziert damit teilweise nach Transportart, löst die abweichenden Aussagen aber nicht ausdrücklich auf. Der bisherige konservative Hinweis in dropoff_json bleibt deshalb bestehen und wird nicht zu einer allgemeinen 48-Stunden-Zusage geändert. Kein Preis-/Anlieferadressen- oder Partneridentitäts-Fill; Website erreichbar, aber die bereits dokumentierte Insolvenzsituation und aktuelle Abwicklung bleiben ungeklärt; Quelle(n): https://www.schrott24.de/ablauf/ ; https://www.schrott24.de/standorte/schrottplatz-nordrhein-westfalen/ (Abruf 04.10.2026; Betreiberseiten).]

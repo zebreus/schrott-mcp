@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metall (Nienkamp 28)
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Klärfall/Namesake-Prüfung: Die aktuelle Stadtseite von Schrottplatz-Info (Aggregator, nur Lead) listet in Münster 19 Einträge, darunter „Bartikowsky J.“ am Nienkamp 26, aber keinen Eintrag „Kuhn Recycling“ oder Nienkamp 28. Das ist kein Beleg gegen Kuhn und keine Grundlage für eine Zusammenführung: der benachbarte Eintrag hat einen anderen Namen und eine andere Hausnummer. Betreiber-, Register-, kommunaler Gewerbe- oder Betreiber-Social-Beleg zu Kuhn bleibt offen; daher keine Frontmatter-Änderung, keine Schließungsbehauptung und keine Geocodierung. Restunsicherheit: Existenz/Identität von Kuhn Recycling, ob Nienkamp 28 zutrifft und ob dort aktuell angenommen wird; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Muenster (Abruf 04.10.2026; Aggregator, kein Beweis).]

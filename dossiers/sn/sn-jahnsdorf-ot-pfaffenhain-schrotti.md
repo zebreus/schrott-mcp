@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/Alu/Cu/Edel/Blei/Messing
 - Annahme lt. lokaleschrottplatz
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Klärfall bleibt offen. Schrottplatz-Info listet für Jahnsdorf aktuell nur „Pellmann Olaf“ an der Stollberger Str. 11, 09387 Jahnsdorf; „Schrotti“ bzw. OT Pfaffenhain erscheint dort nicht. Die Ortsliste ist ein Aggregator und ihr fehlender Eintrag belegt weder Nichtexistenz noch Schließung; der andere Händler wird nicht mit diesem Dossier zusammengeführt. Die heutige Abfrage liefert keinen zusätzlichen Betreiber-, Register-, kommunalen Gewerbe- oder Betreiber-Social-Beleg, daher keine Frontmatter-Änderung. Status aktiv bleibt Seed-Stand, nicht neu bestätigt; Adresse, Kontakte, Öffnungszeiten sowie Annahme/Abholung bleiben ungeklärt; keine Geocodierung; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Jahnsdorf (Abruf 04.10.2026; Aggregator, kein Beweis).]

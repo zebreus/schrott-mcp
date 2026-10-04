@@ -43,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Register-Lead präzisiert, kein Fill — Northdata/Creditreform: Karl Klamberg Schrott und Metalle e.K., HRA 5096 AG Wetzlar, Inh. Karin Silbermann, Sitz Dillenburg, Adresse "Im Höfchen" OHNE Hausnummer; Hausnummer weiter unbestätigt, keine Betreiber-Website, kein 2. unabhängiger Beleg für Telefon/Öffnungszeiten → street/phone/postcode unverändert, status weiter pruefung. Quelle(n): northdata.de HRA 5096 (Abruf 02.10.2026, Lead), Gelbe Seiten/11880 (Leads, Adress-Kongruenz ohne Hausnummer)]
+
+### Recherche 04.10.2026 (Nachtrag)
+
+- [Recherche 04.10.2026: Zusätzliche Verzeichnis-/Registerdatenbankprofile wiederholen „Im Höfchen“, nennen aber 02772 570322 statt der bereits im Seed gespeicherten Mobilnummer 015120593942. Die Profile nennen als Inhaberin Karin Silbermann geb. Klamberg und HRA 5096, stimmen aber nicht als unabhängige Betreiberquelle ab; die Rufnummernabweichung bleibt ungeklärt. Keine nichtleeren Frontmatterwerte überschrieben und keine leeren Kontaktfelder ergänzt. Restunsicherheit: Hausnummer, aktuelle Nummer und heutiger Betrieb nicht direkt verifiziert; Quelle(n): https://branchenbuch.meinestadt.de/dillenburg/company/10757949 ; https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/580292 ; https://www.gelbeseiten.de/gsbiz/68d4100c-34ae-453e-93dd-37aee27591bd]

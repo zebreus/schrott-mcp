@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Zwingenberg 64673
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Mehrere Branchenverzeichnisse führen „Gerhardt August“ als Schrottbetrieb in Zwingenberg; ein Suchtreffer nennt Hohl 27a, 64673. Das sind ausschließlich Aggregator-Leads ohne Betreiber-/Register-/Kommunalbestätigung. Straße und PLZ bleiben daher leer, keine Öffnungszeiten/Kontakte übernommen und kein aktueller Status abgeleitet. Restunsicherheit: Identität, Hausnummer und aktuelle Tätigkeit ungeklärt; Quelle(n): https://www.schrottplatz.org/zwingenberg/schrott-gerhardt-august-aYEPvf.html ; https://www.schrottplatz-info.de/schrottplatz/Zwingenberg/Gerhardt-August ; https://www.misterwhat.de/company/72329-gerhardt-august-zwingenberg]

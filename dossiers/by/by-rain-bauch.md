@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 02.10.2026: Adresse Brunntalweg 10, 86641 Rain (Überacker) + Tel. (08432) 1680 in zwei Verzeichnissen konsistent (11880: „Franz u. Renate Bauch Autoverwertung“ + lokaleschrottplatz: „Autoverwertung Bauch“) — als begründete Ausnahme übernommen (beide Aggregatoren, offen dokumentiert). Öffnungszeiten Mo-Fr 8-17 aus lokaleschrottplatz (Einzelbeleg; 11880 „Geöffnet bis 17:00“ stützt Schließzeit). Keine eigene Website, keine E-Mail belegbar. Status aktiv. Quelle(n): https://lokaleschrottplatz.de/autoverwertung-bauch/ + https://www.11880.com/branchenbuch/rain-am-lech/012013892B29631461/franz-u-renate-bauch-autoverwertung.html]
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Ein Verzeichniseintrag verlinkt die Domain autoverwertung-bauch.de, aber der direkte Abruf der Domain lieferte HTTP 503; damit sind weder eine aktuelle Betreiberseite noch deren Kontaktdaten verifiziert. Der Verzeichniseintrag bleibt ein Lead und kein unabhängiger Beleg. Keine Frontmatter-Änderung und keine Schließungsbehauptung. Restunsicherheit: Website-Erreichbarkeit kann vorübergehend gestört sein; Betreiberidentität und Annahme-/Abholbedingungen sind weiterhin nur eingeschränkt belegt; Quelle(n): https://www.autoverwertung-bauch.de/ ; https://www.marktplatz-mittelstand.de/rain/franz-und-renate-bauch-aWRJYi.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 86641)

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - An- und Verkauf (Kategorie)
 - Adresse: Rönnebeck, Heidlerchenstr. 15
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Klärfall bleibt offen. Die Bremen-Stadtliste von Schrottplatz-Info führt zehn Schrottplätze, darunter mehrere andere Betriebe, aber keinen „Altmetall Bunker“; Heidlerchenstr. 15 ist dort ebenfalls nicht aufgeführt. Das ist nur ein Aggregator-Leadscreening und kein Beleg gegen den Betrieb oder für eine Schließung. Kein Betreiber-, Register-, kommunaler Gewerbe- oder Betreiber-Social-Beleg zur Identität/Adresse erreicht; keine Frontmatter-Änderung. Status aktiv bleibt Seed-Stand und ist nicht neu bestätigt; Annahme-/Abholinfos, Kontakte und Öffnungszeiten ungeklärt; keine Geocodierung; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Bremen (Abruf 04.10.2026; Aggregator, kein Beweis).]

@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Größe: klein
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Offene Identitäts-/Namesake-Prüfung: Gelbe Seiten führt einen Leonardo Reinhardt Schrotthandel am Auggener Weg 67, 79114 Freiburg; Creditreform führt dort Leonardo Reinhardt „Handel mit Instrumenten“. Es fehlt ein Betreiber-, Register- oder Kommunalbeleg, dass der Schrotthandel dieselbe aktuelle Person/Firma ist; gleichlautende Reinhardt-Recycling-Auftritte werden nicht zusammengeführt. Keine Anschrift/Kontaktfelder ergänzt und keine Schließung behauptet; Seed-Status aktiv unverändert; Quelle(n): https://www.gelbeseiten.de/gsbiz/f1730629-7dca-4b76-a439-472046abb01c ; https://firmeneintrag.creditreform.de/79114/7010364540/LEONARDO_REINHARDT_HANDEL_MIT_INSTRUMENTEN ; https://www.dero-reinhardt.de]

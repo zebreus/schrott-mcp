@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrottabholung mobil
 - Adresse: Friedrichshain-Kreuzberg, Möckernstr. 139, 10963 Berlin
 - Bezirk: Friedrichshain-Kreuzberg Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Aktuelle Verzeichnissuchen wiederholen Möckernstr. 139, 10963 Berlin und nennen als zusätzliche Leads 0155 10713536 sowie Zemanbach@gmail.com. Die Treffer sind Drittanbieterprofile ohne Betreiber-/Register-/kommunalen Beleg; die leicht abweichenden Profilvarianten können Dubletten sein. Keine Kontaktdaten oder Öffnungszeiten in Frontmatter übernommen. Restunsicherheit: Firmenidentität, mobile Abholung und Zuordnung der Anschrift ungeklärt; Quelle(n): https://www.gelbeseiten.de/gsbiz/ae995147-4089-44c8-8e94-15a6996a6d7d ; https://www.yellowmap.de/Details/LS7agu2D8hzjjs7Ouq_p0g==.aspx ; https://suchmaschinenauskunft.com/dienstleistungen-handwerk/berlin/schrott-und-altmetall-abholung]

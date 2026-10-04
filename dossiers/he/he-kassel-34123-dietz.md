@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Keine neue Recherche (Vorfund 01.10.2026 übernommen); Frontmatter-Korrektur: website_status=tot gesetzt (stimmt mit www.altauto.net-404-Befund vom 01.10. überein, keine URL in website).]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Aktueller Direktabruf der alten Domain lieferte einen Transportfehler; der Facebook-Auftritt ließ sich ohne Login nicht inhaltlich verifizieren. Such-/Verzeichnisprofile wiederholen Lossestraße 105 und kostenlose Abholung/Verwertungsnachweis, sind aber keine unabhängigen Betreiberbelege. Keine Frontmatter-Änderung; insbesondere der bestehende website_status bleibt gemäß Nichtüberschreibungsregel unverändert und es wird keine Schließung behauptet. Restunsicherheit: aktueller Betreiber, Kontaktdaten und Betriebsstatus sind nicht primär bestätigt; Quelle(n): http://www.altauto.net/ ; https://www.facebook.com/Autoverwertung.Dietz/ ; https://www.autos1000.com/DE/Kassel/1603368749919357/Autoverwertung-Dietz ; https://bumaps.com/autoverwertung-dietz-germany-3858]
