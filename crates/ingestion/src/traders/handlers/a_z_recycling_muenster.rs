@@ -273,14 +273,6 @@ enum Tier {
     T500,
 }
 
-fn tier_str(tier: Tier) -> &'static str {
-    match tier {
-        Tier::T5 => "ab 5 kg",
-        Tier::T100 => "ab 100 kg",
-        Tier::T500 => "ab 500 kg",
-    }
-}
-
 /// "ab 500 kg" → tier. Anything without kg (a per-sack price recorded as
 /// per-kg would be a 1000x-class error) returns None → loud skip.
 fn tier_of(text: &str) -> Option<Tier> {
@@ -326,6 +318,36 @@ fn unit_of(cell: &str) -> Option<&'static str> {
     } else {
         None
     }
+}
+
+/// Fail closed on the source's current placeholder-looking pattern: at
+/// least five consecutive material cards, each with the same range width,
+/// whose lower AND upper bounds move by the same fixed increment. Real grades
+/// can be ordered by value, but this mechanically regular ladder is not a
+/// trustworthy cross-material price list (feedback 4538).
+fn has_regular_cross_material_ladder(rows: &[(String, f64, f64, &'static str)]) -> bool {
+    const MIN_ROWS: usize = 5;
+    const EPSILON: f64 = 0.000_001;
+
+    rows.windows(MIN_ROWS).any(|window| {
+        let width = window[0].2 - window[0].1;
+        let low_step = window[1].1 - window[0].1;
+        let high_step = window[1].2 - window[0].2;
+        if width <= 0.0 || low_step.abs() <= EPSILON || high_step.abs() <= EPSILON {
+            return false;
+        }
+        if (low_step - high_step).abs() > EPSILON {
+            return false;
+        }
+
+        window
+            .iter()
+            .all(|(_, low, high, _)| (high - low - width).abs() <= EPSILON)
+            && window.windows(2).all(|pair| {
+                ((pair[1].1 - pair[0].1) - low_step).abs() <= EPSILON
+                    && ((pair[1].2 - pair[0].2) - high_step).abs() <= EPSILON
+            })
+    })
 }
 
 /// Parse the card window into (raw label, staffel-min, staffel-max, unit)
@@ -423,6 +445,12 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, f64, &'static str)>, Vec<Strin
             detail: "keine Preispaare".to_owned(),
         });
     }
+    if has_regular_cross_material_ladder(&rows) {
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "verdächtige gleichmäßige Preisleiter über mehrere Materialkarten; Preise nicht veröffentlicht".to_owned(),
+        });
+    }
     Ok((rows, skips))
 }
 
@@ -503,7 +531,9 @@ mod tests {
         assert_eq!(rows.len(), 3);
         assert_eq!((rows[0].1, rows[0].2), (1.55, 2.22));
         assert!(
-            skips.iter().any(|s| s.contains("Aluminium") && s.contains("kein Ankaufpreis")),
+            skips
+                .iter()
+                .any(|s| s.contains("Aluminium") && s.contains("kein Ankaufpreis")),
             "{skips:?}"
         );
         let bad_unit = FIXTURE.replacen("ab 100 kg</p>", "ab Palette</p>", 1);
@@ -537,6 +567,42 @@ mod tests {
     }
 
     #[test]
+    fn regular_material_price_ladder_fails_closed() {
+        let mut html =
+            String::from("<h2 class=\"elementor-heading-title\">Unser aktueller Schrottpreis</h2>");
+        for (label, low, middle, high) in [
+            ("Zink", "1.26", "1.27", "1.28"),
+            ("Blei", "1.29", "1.30", "1.31"),
+            ("Kupfer", "1.32", "1.33", "1.34"),
+            ("Messing", "1.35", "1.36", "1.37"),
+            ("Haushaltskabel 38%", "1.38", "1.39", "1.40"),
+            ("Edelstahl V2A", "1.41", "1.42", "1.43"),
+        ] {
+            html.push_str(&format!(
+                "<h3 class=\"elementor-heading-title\">{label}</h3>\
+                 <h3 class=\"elementor-heading-title\">Ankaufspreis: €/kg</h3>\
+                 <p class=\"elementor-heading-title\">{low}</p>\
+                 <p class=\"elementor-heading-title\">ab 5 kg</p>\
+                 <p class=\"elementor-heading-title\">{middle}</p>\
+                 <p class=\"elementor-heading-title\">ab 100 kg</p>\
+                 <p class=\"elementor-heading-title\">{high}</p>\
+                 <p class=\"elementor-heading-title\">ab 500 kg</p>"
+            ));
+        }
+        html.push_str(
+            "<h2 class=\"elementor-heading-title\">So funktioniert unser Schrottankauf</h2>",
+        );
+
+        let error = parse(&html).expect_err("price ladder should fail closed");
+        assert!(
+            error
+                .to_string()
+                .contains("verdächtige gleichmäßige Preisleiter"),
+            "expected the plausibility guard, got: {error}"
+        );
+    }
+
+    #[test]
     fn guards_catch_non_rows() {
         assert!(is_price("1.55"));
         assert!(!is_price("ab 5 kg"));
@@ -550,7 +616,10 @@ mod tests {
 
     #[test]
     fn mapping_orders_specific_first() {
-        assert_eq!(grade_for("Aluminium gemischt"), Some(("aluminium-gemischt", "")));
+        assert_eq!(
+            grade_for("Aluminium gemischt"),
+            Some(("aluminium-gemischt", ""))
+        );
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
         assert_eq!(grade_for("Zink"), Some(("zink", "")));
         assert_eq!(grade_for("Blei"), Some(("blei", "")));
@@ -584,9 +653,9 @@ mod tests {
         assert_eq!(info.email, "udo-salzsieder@web.de");
         // Redesign without anchors fails loudly.
         assert!(extract_info("<html><body><p>Neu hier</p></body></html>").is_err());
-        assert!(
-            extract_info("<h1>Impressum</h1><div class=\"elementor-widget-text-editor\"><p>Neu hier</p></div>")
-                .is_err()
-        );
+        assert!(extract_info(
+            "<h1>Impressum</h1><div class=\"elementor-widget-text-editor\"><p>Neu hier</p></div>"
+        )
+        .is_err());
     }
 }

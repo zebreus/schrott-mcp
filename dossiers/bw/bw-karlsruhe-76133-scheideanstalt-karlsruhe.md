@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Korrektur 04.10.2026 (Feedback #4767)
+
+- [Korrektur 04.10.2026: Der Widerspruch der Öffnungszeiten ist bestätigt: Das Impressum nennt Mo-Fr 9:00-18:00 und Sa 9:30-14:00; die Anfahrtsseite weist abweichende Werktags- und saisonale Samstagszeiten aus. Da beide Angaben vom selben Betreiber stammen und kein eindeutiger Vorrang belegt ist, bleibt das nichtleere opening_hours-Feld unverändert; Konflikt bleibt offen; Quelle(n): https://scheideanstaltka.de/impressum; https://scheideanstaltka.de/anfahrt]
+
 ### Recherche 01.10.2026
 
 - [Feedback-Triage 01.10.2026 (ID 3034): berechtigt — city „Karlsruhe 76133" → „Karlsruhe" (PLZ separat in postcode); E-Mail info@scheideanstaltka.de aus verifiziertem Betreiber-Impressum (ScheideanstaltKa.GmbH, HRB 721844, Karlstr. 25, 76133 Karlsruhe) übernommen; Öffnungszeiten (Mo-Fr 9–18, Sa 9:30–14) bereits korrekt; Quelle: https://scheideanstaltka.de/impressum]

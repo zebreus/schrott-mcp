@@ -10,7 +10,7 @@ phone: 0160-99288699
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die Suche ergab einen Betreiberseiten-Kandidaten „Startseite - kieler altmetall“ unter kieler-altmetall.firmenimnetz.de mit dem Seed-Telefon 0160-99288699 und Hinweisen auf Abholung/Metallannahme; direkte Abrufe der Startseite sowie der naheliegenden Impressum-/Kontaktpfade liefen wiederholt in Timeouts, daher sind Betreiber und Impressum nicht verifiziert. Ein zweiter unabhängiger zulässiger Beleg für Identität, Adresse oder Domain-Zuordnung fehlt; Website, Adresse, E-Mail und Leistungen bleiben ungefüllt, das Seed-Telefon unverändert und unbestätigt. Der Timeout ist kein Tot-Nachweis; Klärfall Betreiberidentität/Standort; Quelle(n): https://kieler-altmetall.firmenimnetz.de/; https://www.google.com/search?q=%22016099288699%22]
 
 ### Recherche 03.10.2026
 

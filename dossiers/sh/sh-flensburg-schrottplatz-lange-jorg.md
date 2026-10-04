@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Crawl der auffindbaren Treffer ergab keinen Betreiberauftritt: Der Homepage-Link im schrottplatz-info-Eintrag führt nur zurück auf dessen eigene Startseite; schrottplatz.org und Yoys wiederholen Ochsenweg 5/24941 und 0171 4764165 als Verzeichnisdaten, Yoys bietet dem Inhaber erst die Profilverwaltung an. Das sind Aggregator-Leads, keine unabhängigen Betreiber-/Register-/Kommunalbelege; ein zweiter zulässiger Identitätsbeleg fehlt. Adresse, Telefon, Website, E-Mail, Öffnungszeiten und Leistungen bleiben leer; status pruefung bleibt; Klärfall Betreiberidentität und Existenz; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Flensburg/Lange-Joerg; https://www.schrottplatz.org/flensburg/schrott-lange-joerg-aYEQ1b.html; https://www.yoys.de/GelbeSeiten-49-1714764165-autoverwertung-Flensburg-DE360589.html]
 
 ### Recherche 02.10.2026
 

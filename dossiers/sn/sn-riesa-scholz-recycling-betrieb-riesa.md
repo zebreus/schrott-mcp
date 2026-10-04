@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.scholz-recycling.com
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Fe/NE
 - Annahme lt. schrottradar-Profil
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die Scholz-Domain und aktuelle Unternehmensseiten sind erreichbar, daher website_status aktiv ergänzt; der Standortfinder liefert für Riesa keine verifizierbaren Filialangaben und ein Riesa-Detail ließ sich nicht belegen. Die Betreiberidentität/aktive Domain belegt keinen Betrieb in Riesa; street, postcode, Telefon, E-Mail, Öffnungszeiten und Annahme-/Abholdetails bleiben leer und status pruefung unverändert. Keine Preise belegt; Quelle(n): https://www.scholz-recycling.com/; https://www.scholz-recycling.com/standorte/; https://www.scholz-recycling.com/impressum/]

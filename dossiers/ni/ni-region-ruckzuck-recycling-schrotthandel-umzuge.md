@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil, Ort unklar – Existenz zählt
 - Adresse: Region ? (2 Einträge)
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Klärfall bleibt: Kein Betreiberauftritt oder unabhängiger Zweitbeleg für Adresse, Telefon oder Öffnungszeiten gefunden; das frühere Domainziel ruckzuck-recycling.de liefert beim Abruf einen TLS-Handshake-Fehler, Suchindex ohne Treffer, daher website leer und bestehender Status tot unverändert. Das Verzeichnis LokaleSchrottplatz führt den Eintrag mit der bereits gespeicherten Nummer 0176 20718363 und daneben einen ähnlich benannten Schellerten-Eintrag mit 0176 62521802; Abgrenzung offen, beide Angaben bleiben Aggregator-Leads. Keine weiteren Felder oder Preise ergänzt; kein Schließungsbeleg; Quelle(n): https://lokaleschrottplatz.de/ruckzuck-recycling-schrotthandel-umzuge-und-entruemplung/; https://lokaleschrottplatz.de/ruckzuck-recycling/; https://ruckzuck-recycling.de/; https://html.duckduckgo.com/html/?q=%22ruckzuck-recycling.de%22]

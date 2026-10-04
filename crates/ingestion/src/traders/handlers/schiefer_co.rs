@@ -1,26 +1,18 @@
-//! Schiefer & Co. Scheideanstalt (Hamburg-St. Georg): exact per-gram
-//! sell-side fine-metal notations in the header ticker (`div#kursen`:
-//! `div#au`/`#ag`/`#pt`/`#pd` carry the symbol in `<b>` and the quote in
-//! `<span>`; `div#partner` carries "Notierungen, €/g" plus the quote time).
+//! Schiefer & Co. Scheideanstalt (Hamburg-St. Georg): indicative industrial
+//! purchase rates from the dedicated `Ankaufspreis` rows in
+//! `table.tablekursdaten`. The page's header ticker is explicitly a
+//! `Verkaufspreis` and must never be recorded as what the trader pays.
 //!
-//! One row per metal (gold/silber/platin/palladium, EUR/g — the catalog
-//! unit, so nothing is ever converted). The big kursdaten table quotes
-//! silver per kg and mixes buy/sell/fixing rows, so it stays unread on
-//! purpose: the ticker IS the live €/g notation the page advertises
-//! ("Verkaufspreise für unverarbeitete Feinmetalle").
-//!
-//! Ticker trap: quotes use a dot decimal with exactly three places
-//! ("127.730" = 127.73 €/g — the table's Verkaufspreis unverarbeitet
-//! reads 127.73). Shared `parse_eur` would take that for a thousands
-//! group (127730, a 1000x error), so this handler re-marks the
-//! ticker shape to a comma before delegating — bespoke, tested, and
-//! confined to this file.
+//! Keep the last non-empty quote per metal across Eröffnung/Fixing/
+//! Nachfixing. The table says Silber €/kg while the catalog uses EUR/g, so
+//! convert that one quote exactly. These industrial rates are only a basis
+//! for retail counter offers; the operator calls the published figures
+//! nonbinding, so they are `approx`, not exact customer payouts.
 
 use scraper::{Html, Selector};
 
 use super::super::{
-    fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
-    TraderInfo,
+    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
@@ -44,24 +36,23 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     let (status, html) = fetch_text(client, URL).await?;
     let (published_at, rows, mut skipped_labels) = parse(&html)?;
     let mut prices = Vec::with_capacity(rows.len());
-    for (label, price, unit) in rows {
-        match grade_for(&label) {
+    for (symbol, label, price, unit) in rows {
+        match grade_for(&symbol) {
             Some((material, variant)) => prices.push(ScrapedPrice {
                 material,
                 variant,
                 price,
                 currency: "EUR",
                 unit,
-                price_kind: "exact",
+                price_kind: "approx",
                 price_min: None,
                 price_max: None,
-                confidence: Some(1.0),
+                confidence: Some(0.5),
                 label,
             }),
-            // Unknown ticker symbol: keep the quote as evidence in the
-            // skip, never drop it silently.
+            // Unknown metal symbol: keep the quote as evidence in the skip.
             None => skipped_labels.push(format!(
-                "{label} ({}, {unit}, kein Katalogmaterial: Tickersymbol)",
+                "{label} {symbol} ({}, {unit}, kein Katalogmaterial)",
                 fmt_eur(price)
             )),
         }
@@ -88,8 +79,8 @@ fn fmt_eur(price: f64) -> String {
     format!("{price:.3}").replace('.', ",")
 }
 
-/// Explicit ticker symbol → (material, variant). Fine-metal trade prices,
-/// no fineness on the page, so the variant stays standard ("").
+/// Explicit metal symbol → (material, variant). No fineness is stated, so
+/// the variant stays standard ("").
 fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     match label.trim() {
         "Au" => Some(("gold", "")),
@@ -100,101 +91,168 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     }
 }
 
-/// Parse the ticker window between `div#kursen` and the `div#partner`
-/// unit/date line. Returns (published_at, rows, unit_skips).
+/// Parse the explicit purchase rows in the metals table. The ticker is a
+/// sell-price display and its timestamp does not date the purchase table.
+/// Returns (published_at, (symbol, label, price, unit) rows, skips).
 fn parse(
     html: &str,
 ) -> Result<
     (
         Option<String>,
-        Vec<(String, f64, &'static str)>,
+        Vec<(String, String, f64, &'static str)>,
         Vec<String>,
     ),
     IngestError,
 > {
-    let start = html
-        .find("id=\"kursen\"")
-        .ok_or_else(|| IngestError::Parse {
-            url: URL.to_owned(),
-            detail: "Notierungs-Ticker fehlt".to_owned(),
-        })?;
-    let tail = &html[start..];
-    let end = tail
-        .find("id=\"unverbindlich\"")
-        .ok_or_else(|| IngestError::Parse {
-            url: URL.to_owned(),
-            detail: "Notierungs-Ticker unvollständig".to_owned(),
-        })?;
-    let window = &tail[..end];
-    // The unit anchor must read €/g: a per-kilo quote recorded as
-    // per-gram would be a 1000x error, and silver's table column is €/kg.
-    let unit = unit_of(window).ok_or_else(|| IngestError::Parse {
+    let missing = |detail: &str| IngestError::Parse {
         url: URL.to_owned(),
-        detail: "Notierungs-Einheit fehlt".to_owned(),
-    })?;
-    let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
-    let sym_sel = Selector::parse("div#au, div#ag, div#pt, div#pd").expect("valid selector");
-    let b_sel = Selector::parse("b").expect("valid selector");
-    let span_sel = Selector::parse("span").expect("valid selector");
-    let mut rows = Vec::new();
-    let mut unit_skips = Vec::new();
-    for cell in frag.select(&sym_sel) {
-        let symbol = cell
-            .select(&b_sel)
-            .next()
-            .map(|el| el.text().collect::<String>())
-            .unwrap_or_default()
-            .split_whitespace()
-            .collect::<Vec<_>>()
-            .join(" ");
-        let quote = cell
-            .select(&span_sel)
-            .next()
-            .map(|el| el.text().collect::<String>())
-            .unwrap_or_default();
-        if symbol.is_empty() || symbol.len() > 120 {
-            continue;
-        }
-        let Some(price) = parse_tick(&quote) else {
+        detail: detail.to_owned(),
+    };
+    let doc = Html::parse_document(html);
+    let table_sel = Selector::parse("table.tablekursdaten").expect("valid selector");
+    let row_sel = Selector::parse("tr").expect("valid selector");
+    let cell_sel = Selector::parse("td").expect("valid selector");
+    let table = doc
+        .select(&table_sel)
+        .next()
+        .ok_or_else(|| missing("Kursdaten-Tabelle fehlt"))?;
+    let mut columns: Option<Vec<Option<(&'static str, &'static str)>>> = None;
+    let mut section = String::new();
+    // symbol -> latest non-empty (label, normalized price, unit). A dash in
+    // a later fixing does not erase that metal's last actually quoted rate.
+    let mut latest: std::collections::BTreeMap<&'static str, (String, f64, &'static str)> =
+        std::collections::BTreeMap::new();
+    let mut skips = Vec::new();
+
+    for row in table.select(&row_sel) {
+        let cells: Vec<String> = row
+            .select(&cell_sel)
+            .map(|cell| {
+                cell.text()
+                    .collect::<String>()
+                    .split_whitespace()
+                    .collect::<Vec<_>>()
+                    .join(" ")
+            })
+            .collect();
+        let Some(label) = cells.first().map(|s| s.trim()) else {
             continue;
         };
-        // Re-check the unit per quote: anything but €/g skips loudly at
-        // the call site instead of silently defaulting.
-        if unit_of(&quote).is_some_and(|u| u != unit) {
-            unit_skips.push(format!(
-                "{symbol} (Einheit unverständlich: {})",
-                quote.trim()
-            ));
+
+        let header_columns: Vec<_> = cells.iter().skip(1).map(|s| table_column(s)).collect();
+        if header_columns.iter().filter(|c| c.is_some()).count() >= 4 {
+            let symbols: std::collections::HashSet<_> = header_columns
+                .iter()
+                .filter_map(|c| c.map(|(symbol, _)| symbol))
+                .collect();
+            if symbols.len() != 4 {
+                return Err(missing("Kursdaten-Kopfzeile hat doppelte Metallspalten"));
+            }
+            columns = Some(header_columns);
             continue;
         }
-        rows.push((symbol, price, unit));
+
+        if let Some(name) = ["Eröffnungspreise", "Fixingpreise", "Nachfixingpreise"]
+            .into_iter()
+            .find(|name| label.eq_ignore_ascii_case(name))
+        {
+            section = name.to_owned();
+            continue;
+        }
+        if !label.eq_ignore_ascii_case("Ankaufspreis") {
+            continue;
+        }
+        if section.is_empty() {
+            return Err(missing("Ankaufspreis ohne Preisabschnitt"));
+        }
+        let columns = columns
+            .as_ref()
+            .ok_or_else(|| missing("Kursdaten-Metallspalten fehlen"))?;
+        for (index, column) in columns.iter().enumerate() {
+            let Some((symbol, source_unit)) = column else {
+                continue;
+            };
+            let value = cells.get(index + 1).map(String::as_str).unwrap_or("");
+            let Some(parsed) = parse_tick(value) else {
+                if !value.is_empty() {
+                    skips.push(format!(
+                        "Ankaufspreis {section} {symbol} (kein Kurs: {value})"
+                    ));
+                }
+                continue;
+            };
+            if !parsed.is_finite() || parsed <= 0.0 {
+                skips.push(format!(
+                    "Ankaufspreis {section} {symbol} (ungültiger Kurs: {value})"
+                ));
+                continue;
+            }
+            let (price, unit) = match *source_unit {
+                "EUR/kg" => (parsed / 1000.0, "EUR/g"),
+                "EUR/g" => (parsed, "EUR/g"),
+                _ => {
+                    skips.push(format!(
+                        "Ankaufspreis {section} {symbol} (Einheit unbekannt: {source_unit})"
+                    ));
+                    continue;
+                }
+            };
+            latest.insert(symbol, (format!("Ankaufspreis {section}"), price, unit));
+        }
     }
-    if rows.is_empty() {
+
+    let columns = columns.ok_or_else(|| missing("Kursdaten-Metallspalten fehlen"))?;
+    let symbols: std::collections::HashSet<_> = columns
+        .iter()
+        .filter_map(|c| c.map(|(symbol, _)| symbol))
+        .collect();
+    if symbols.len() != 4 {
+        return Err(missing(
+            "Kursdaten-Tabelle unvollständig: Gold/Silber/Platin/Palladium",
+        ));
+    }
+    if latest.is_empty() {
         return Err(IngestError::Parse {
             url: URL.to_owned(),
-            detail: "Notierungen leer".to_owned(),
+            detail: "keine verwertbaren Ankaufspreise".to_owned(),
         });
     }
-    let published_at = find_date(window);
-    Ok((published_at, rows, unit_skips))
+    let rows = latest
+        .into_iter()
+        .map(|(symbol, (label, price, unit))| (symbol.to_owned(), label, price, unit))
+        .collect();
+    // The timestamp beside the sell-side ticker is not asserted to date the
+    // table's industrial purchase rates.
+    Ok((None, rows, skips))
 }
 
-/// Bespoke unit matcher for THIS ticker: the `div#partner` line reads
-/// "Notierungen, €/g". Only €/g exists here — anything else skips loudly
-/// at the call site.
-fn unit_of(cell: &str) -> Option<&'static str> {
-    let lower = cell.to_lowercase().replace(' ', "");
-    if lower.contains("€/g") {
-        Some("EUR/g")
+/// Only the table's four named fine-metal columns are recognized. The unit
+/// is taken from the heading, never borrowed from the unrelated ticker.
+fn table_column(header: &str) -> Option<(&'static str, &'static str)> {
+    let header = header.to_lowercase().replace(' ', "");
+    let unit = if header.contains("€/kg") {
+        "EUR/kg"
+    } else if header.contains("€/g") {
+        "EUR/g"
+    } else {
+        return None;
+    };
+    if header.contains("gold") && !header.contains("palladium") {
+        Some(("Au", unit))
+    } else if header.contains("silber") {
+        Some(("Ag", unit))
+    } else if header.contains("platin") {
+        Some(("Pt", unit))
+    } else if header.contains("palladium") {
+        Some(("Pd", unit))
     } else {
         None
     }
 }
 
-/// Bespoke quote parser for THIS ticker: three decimal places behind a
-/// dot ("127.730", "1.961") — a decimal point, never a thousands group
-/// (cross-checked against the table's Verkaufspreis unverarbeitet:
-/// 127.73). Anything else delegates to shared `parse_eur`.
+/// The source sometimes writes decimal points with three places (e.g.
+/// "1.712"), which the shared German parser treats as a thousands group.
+/// This table-local parser recognizes that shape as a decimal.
 fn parse_tick(raw: &str) -> Option<f64> {
     let tok: String = raw
         .chars()
@@ -212,31 +270,6 @@ fn parse_tick(raw: &str) -> Option<f64> {
         }
         _ => parse_eur(raw),
     }
-}
-
-/// Bespoke date finder for THIS ticker: "Notierungen, €/g" followed by
-/// "27.09.2026 21:00" in `div#partner` (raw markup glues the date to the
-/// closing tag, so this scans bytes for a dd.mm.yyyy shape instead of
-/// splitting whitespace). No anchor → None (the observation age stays the
-/// provenance).
-fn find_date(window: &str) -> Option<String> {
-    let (_, after) = window.split_once("Notierungen,")?;
-    let b = after.as_bytes();
-    let mut i = 0;
-    while i + 10 <= b.len() {
-        // Byte-safe: non-boundary slices are skipped, never panicked on.
-        if let Some(t) = after.get(i..i + 10) {
-            let is_date = t.as_bytes().iter().enumerate().all(|(k, c)| match k {
-                2 | 5 => *c == b'.',
-                _ => c.is_ascii_digit(),
-            });
-            if is_date {
-                return parse_de_date(&t[0..2], &t[3..5], &t[6..10]);
-            }
-        }
-        i += 1;
-    }
-    None
 }
 
 /// Bespoke contact extraction for THIS impressum only: the `<p>` holding
@@ -342,7 +375,7 @@ fn strip_fragment(s: &str) -> String {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, find_date, grade_for, parse, parse_tick, unit_of};
+    use super::{extract_info, grade_for, parse, parse_tick};
 
     // Real shape of the live ticker (div ids, b/span split, the
     // "Notierungen, €/g" line with quote time), trimmed to two metals.
@@ -353,18 +386,55 @@ mod tests {
         </div><div id=\"unverbindlich\"><small>Verkaufspreise für unverarbeitete Feinmetalle. Unverbindliche Angaben.</small></div></div>";
 
     #[test]
-    fn ticker_rows_unit_and_date() {
-        let (published_at, rows, skips) = parse(FIXTURE).expect("parses");
-        assert_eq!(published_at.as_deref(), Some("2026-09-27T00:00:00+00:00"));
-        assert_eq!(rows.len(), 2);
-        assert!(skips.is_empty());
-        // Dot-decimal, never thousands: 127.730 → 127.73, not 127730.
-        assert_eq!(rows[0], ("Pd".to_owned(), 38.8, "EUR/g"));
-        assert_eq!(rows[1], ("Au".to_owned(), 127.73, "EUR/g"));
-        assert_eq!(unit_of("Notierungen, €/g"), Some("EUR/g"));
-        assert_eq!(unit_of("pro Sack"), None);
-        assert_eq!(find_date("ohne Datum"), None);
-        assert!(parse("<div>Redesign ohne Ticker</div>").is_err());
+    fn sell_only_ticker_cannot_become_a_purchase_price() {
+        assert!(parse(FIXTURE).is_err());
+        assert!(parse("<div>Redesign ohne Preis-Tabelle</div>").is_err());
+    }
+
+    #[test]
+    fn uses_only_latest_purchase_quotes_and_normalizes_silver() {
+        // Live page shape: the header ticker is explicitly a sell price;
+        // the table has separate purchase/sale rows and several quote times.
+        let html = r#"
+            <div id="kursen">
+              <div id="au"><b>Au</b><span>126.740</span></div>
+              <div id="ag"><b>Ag</b><span>1.911</span></div>
+              <div id="pt"><b>Pt</b><span>52.800</span></div>
+              <div id="pd"><b>Pd</b><span>37.250</span></div>
+              <div id="partner"><b>Notierungen, €/g</b>04.10.2026 13:46</div>
+            </div>
+            <div id="unverbindlich">Verkaufspreise für unverarbeitete Feinmetalle.</div>
+            <table class="tablekursdaten">
+              <tr><td></td><td>Gold €/g</td><td>Silber €/kg</td><td>Platin €/g</td><td>Palladium €/g</td></tr>
+              <tr><td><b>Eröffnungspreise</b></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>Ankaufspreis</td><td>117.32</td><td>1719.80</td><td>47.70</td><td>33.00</td></tr>
+              <tr><td>Verkaufspreis unverarbeitet</td><td>126.74</td><td>1911.30</td><td>-</td><td>-</td></tr>
+              <tr><td>Verkaufspreis verarbeitet</td><td>132.78</td><td>2052.90</td><td>52.80</td><td>37.25</td></tr>
+              <tr><td><b>Fixingpreise</b></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>Ankaufspreis</td><td>117.64</td><td>1720.40</td><td>-</td><td>-</td></tr>
+              <tr><td>Verkaufspreis unverarbeitet</td><td>126.19</td><td>1891.60</td><td>-</td><td>-</td></tr>
+              <tr><td>Verkaufspreis verarbeitet</td><td>132.20</td><td>2031.80</td><td>-</td><td>-</td></tr>
+              <tr><td><b>Nachfixingpreise</b></td><td></td><td></td><td></td><td></td></tr>
+              <tr><td>Ankaufspreis</td><td>117.22</td><td>1712.00</td><td>-</td><td>-</td></tr>
+              <tr><td>Verkaufspreis unverarbeitet</td><td>126.64</td><td>1900.90</td><td>-</td><td>-</td></tr>
+              <tr><td>Verkaufspreis verarbeitet</td><td>132.67</td><td>2041.80</td><td>-</td><td>-</td></tr>
+            </table>
+        "#;
+
+        let (published_at, rows, _) = parse(html).expect("purchase rows parse");
+        let by_material: std::collections::BTreeMap<_, _> = rows
+            .into_iter()
+            .map(|(symbol, _, price, unit)| (symbol, (price, unit)))
+            .collect();
+        assert_eq!(
+            published_at, None,
+            "sell ticker timestamp is not a table date"
+        );
+        assert_eq!(by_material.get("Au"), Some(&(117.22, "EUR/g")));
+        assert_eq!(by_material.get("Ag"), Some(&(1.712, "EUR/g")));
+        assert_eq!(by_material.get("Pt"), Some(&(47.7, "EUR/g")));
+        assert_eq!(by_material.get("Pd"), Some(&(33.0, "EUR/g")));
+        assert_eq!(by_material.len(), 4);
     }
 
     #[test]

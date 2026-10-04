@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -43,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 02.10.2026: Klaerfall bleibt - rkkunststoffe.de weiter TOT (curl 000, 02.10.2026); keine Betreiber-Website, kein Register-Zweitbeleg; keine Fills, status pruefung; Quelle(n): curl-Statuscheck 02.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiberseiten-Crawl des früher zugeordneten rkkunststoffe.de bleibt erfolglos (DNS-Auflösung fehlgeschlagen); da die Domain nur als Verzeichnis-Lead auftaucht, ist sie nicht als RK-Betreiberwebsite verifiziert und website_status bleibt unbekannt. Die offizielle Gemeinde-Kreien-Website nennt RK nicht. Registercheck bezeichnet RK Recycling Kreien GmbH, AG Schwerin HRB 3659 als gelöscht, stellt aber keinen aktuellen Registerauszug bereit; offizieller Registerbeleg fehlt weiterhin. Yelp/Opendi führen Wilsener Chaussee 1 und Telefon 038733 20001, während ältere Portal-Leads eine abweichende Nummer nennen; Aggregatoren zählen hier nur als Leads, daher keine Kontakt-/Beschreibung-Fills und status pruefung bleibt. HAROCs getrenntes Impressum nennt die Haroc Rohstoff GmbH (HRB 113556) an derselben Adresse; diese Identität wurde nicht auf RK übertragen. Kein Adresswechsel, daher keine Neu-Geocodierung; Quelle(n): https://www.gemeinde-kreien.de/; https://registercheck.de/companies/rk-recycling-kreien-gmbh; https://m.yelp.com/biz/rk-recycling-kreien-kreien; https://bundesland-mecklenburg-vorpommern.stadtbranchenbuch.com/kreien/1577664.html; https://haroc.de/index.html; https://haroc.de/contact.html; https://haroc.de/imprint.html]

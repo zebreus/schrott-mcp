@@ -154,6 +154,211 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
             ALTER TABLE current_prices_new RENAME TO current_prices;",
         )?;
     }
+
+    // Migration 3: the WKG handler historically stored public spot references
+    // as exact buy prices. Keep those observations in history, correct their
+    // classification, and move/remove current pointers so they are no longer
+    // presented as what the trader pays.
+    let version: i64 = conn.query_row("PRAGMA user_version", [], |r| r.get(0))?;
+    if version < 3 {
+        conn.execute_batch(
+            "UPDATE prices
+             SET price_kind = 'approx', confidence = 0.5,
+                 notes = CASE notes
+                     WHEN 'Tageskurs Feingold' THEN 'Spot-Referenz, kein Händler-Ankaufspreis (Feingold)'
+                     WHEN 'Silber-Tagespreis' THEN 'Spot-Referenz, kein Händler-Ankaufspreis (Silber)'
+                     ELSE notes
+                 END
+             WHERE trader_id IN (SELECT id FROM traders
+                                 WHERE slug = 'hb-bremen-findorff-28215-wirkaufendeingold-de-rohat-erdem')
+               AND source_url = 'https://wirkaufendeingold.de'
+               AND price_kind = 'exact'
+               AND notes IN ('Tageskurs Feingold', 'Silber-Tagespreis');
+
+             UPDATE current_prices AS c
+             SET price_id = COALESCE((
+                     SELECT p.id FROM prices p
+                     WHERE p.trader_id = c.trader_id
+                       AND p.material_id = c.material_id
+                       AND p.variant = c.variant
+                       AND NOT (p.source_url = 'https://wirkaufendeingold.de'
+                                AND p.notes IN (
+                                    'Spot-Referenz, kein Händler-Ankaufspreis (Feingold)',
+                                    'Spot-Referenz, kein Händler-Ankaufspreis (Silber)'))
+                     ORDER BY p.observed_at DESC, p.id DESC LIMIT 1
+                 ), c.price_id),
+                 updated_at = COALESCE((
+                     SELECT p.ingested_at FROM prices p
+                     WHERE p.id = (
+                         SELECT p2.id FROM prices p2
+                         WHERE p2.trader_id = c.trader_id
+                           AND p2.material_id = c.material_id
+                           AND p2.variant = c.variant
+                           AND NOT (p2.source_url = 'https://wirkaufendeingold.de'
+                                    AND p2.notes IN (
+                                        'Spot-Referenz, kein Händler-Ankaufspreis (Feingold)',
+                                        'Spot-Referenz, kein Händler-Ankaufspreis (Silber)'))
+                         ORDER BY p2.observed_at DESC, p2.id DESC LIMIT 1
+                     )
+                 ), c.updated_at)
+             WHERE c.price_id IN (
+                 SELECT p.id FROM prices p
+                 JOIN traders t ON t.id = p.trader_id
+                 WHERE t.slug = 'hb-bremen-findorff-28215-wirkaufendeingold-de-rohat-erdem'
+                   AND p.source_url = 'https://wirkaufendeingold.de'
+                   AND p.notes IN (
+                       'Spot-Referenz, kein Händler-Ankaufspreis (Feingold)',
+                       'Spot-Referenz, kein Händler-Ankaufspreis (Silber)')
+             );
+
+             DELETE FROM current_prices
+             WHERE price_id IN (
+                 SELECT p.id FROM prices p
+                 JOIN traders t ON t.id = p.trader_id
+                 WHERE t.slug = 'hb-bremen-findorff-28215-wirkaufendeingold-de-rohat-erdem'
+                   AND p.source_url = 'https://wirkaufendeingold.de'
+                   AND p.notes IN (
+                       'Spot-Referenz, kein Händler-Ankaufspreis (Feingold)',
+                       'Spot-Referenz, kein Händler-Ankaufspreis (Silber)')
+             );
+             PRAGMA user_version = 3;",
+        )?;
+    }
+    // Migration 4: A-Z Recycling Münster published a mechanically ascending
+    // cross-material ladder (feedback 4538). Preserve those observations as
+    // flagged history, but remove them from current buy-price results. The
+    // exact values and labels keep a later corrected price list untouched.
+    if version < 4 {
+        conn.execute_batch(
+            "DROP TABLE IF EXISTS temp.migration_4_az_suspect_prices;
+             CREATE TEMP TABLE migration_4_az_suspect_prices (id INTEGER PRIMARY KEY);
+             INSERT INTO migration_4_az_suspect_prices (id)
+             SELECT p.id
+             FROM prices p
+             JOIN traders t ON t.id = p.trader_id
+             WHERE t.slug = 'nw-munster-a-z-recycling-udo-salzsieder'
+               AND p.source_url = 'https://xn--schrottplatz-mnster-jbc.de/'
+               AND p.price_kind = 'range'
+               AND p.confidence = 0.5
+               AND (
+                   (p.notes = 'Aluminium gemischt' AND p.unit = 'EUR/kg'
+                    AND ABS(p.price - 2.22) < 0.000001
+                    AND ABS(p.price_min - 1.55) < 0.000001
+                    AND ABS(p.price_max - 2.22) < 0.000001)
+                OR (p.notes = 'Mischschrott' AND p.unit = 'EUR/t'
+                    AND ABS(p.price - 1250.0) < 0.000001
+                    AND ABS(p.price_min - 1230.0) < 0.000001
+                    AND ABS(p.price_max - 1250.0) < 0.000001)
+                OR (p.notes = 'Zink' AND p.unit = 'EUR/kg'
+                    AND ABS(p.price - 1.28) < 0.000001
+                    AND ABS(p.price_min - 1.26) < 0.000001
+                    AND ABS(p.price_max - 1.28) < 0.000001)
+                OR (p.notes = 'Blei' AND p.unit = 'EUR/kg'
+                    AND ABS(p.price - 1.31) < 0.000001
+                    AND ABS(p.price_min - 1.29) < 0.000001
+                    AND ABS(p.price_max - 1.31) < 0.000001)
+                OR (p.notes = 'Kupfer' AND p.unit = 'EUR/kg'
+                    AND ABS(p.price - 1.34) < 0.000001
+                    AND ABS(p.price_min - 1.32) < 0.000001
+                    AND ABS(p.price_max - 1.34) < 0.000001)
+                OR (p.notes = 'Messing' AND p.unit = 'EUR/kg'
+                    AND ABS(p.price - 1.37) < 0.000001
+                    AND ABS(p.price_min - 1.35) < 0.000001
+                    AND ABS(p.price_max - 1.37) < 0.000001)
+                OR (p.notes = 'Haushaltskabel 38% (Ohne Stecker)'
+                    AND p.variant = '38% ohne Stecker' AND p.unit = 'EUR/kg'
+                    AND ABS(p.price - 1.40) < 0.000001
+                    AND ABS(p.price_min - 1.38) < 0.000001
+                    AND ABS(p.price_max - 1.40) < 0.000001)
+                OR (p.notes = 'Edelstahl V2A' AND p.unit = 'EUR/kg'
+                    AND ABS(p.price - 1.43) < 0.000001
+                    AND ABS(p.price_min - 1.41) < 0.000001
+                    AND ABS(p.price_max - 1.43) < 0.000001)
+               );
+
+             UPDATE prices
+             SET price_kind = 'approx', confidence = 0.0,
+                 notes = 'Plausibility hold 2026-10-04: mechanically ascending source list; not a verified buy price'
+             WHERE id IN (SELECT id FROM migration_4_az_suspect_prices);
+
+             UPDATE current_prices AS c
+             SET price_id = COALESCE((
+                     SELECT p.id FROM prices p
+                     WHERE p.trader_id = c.trader_id
+                       AND p.material_id = c.material_id
+                       AND p.variant = c.variant
+                       AND p.id NOT IN (SELECT id FROM migration_4_az_suspect_prices)
+                     ORDER BY p.observed_at DESC, p.id DESC LIMIT 1
+                 ), c.price_id),
+                 updated_at = COALESCE((
+                     SELECT p.ingested_at FROM prices p
+                     WHERE p.id = (
+                         SELECT p2.id FROM prices p2
+                         WHERE p2.trader_id = c.trader_id
+                           AND p2.material_id = c.material_id
+                           AND p2.variant = c.variant
+                           AND p2.id NOT IN (SELECT id FROM migration_4_az_suspect_prices)
+                         ORDER BY p2.observed_at DESC, p2.id DESC LIMIT 1
+                     )
+                 ), c.updated_at)
+             WHERE c.price_id IN (SELECT id FROM migration_4_az_suspect_prices);
+
+             DELETE FROM current_prices
+             WHERE price_id IN (SELECT id FROM migration_4_az_suspect_prices);
+             DROP TABLE migration_4_az_suspect_prices;
+             PRAGMA user_version = 4;",
+        )?;
+    }
+    // Migration 5: the former Schiefer handler read a labeled sale-price
+    // ticker as purchase prices. Keep those old observations flagged in
+    // history, but retire their current pointers before the corrected handler
+    // has a chance to run.
+    if version < 5 {
+        conn.execute_batch(
+            "DROP TABLE IF EXISTS temp.migration_5_schiefer_sale_prices;
+             CREATE TEMP TABLE migration_5_schiefer_sale_prices (id INTEGER PRIMARY KEY);
+             INSERT INTO migration_5_schiefer_sale_prices (id)
+             SELECT p.id
+             FROM prices p
+             JOIN traders t ON t.id = p.trader_id
+             WHERE t.slug = 'hh-st-georg-schiefer-co-edelmetall-scheideanstalt'
+               AND p.source_url = 'https://schieferco.de/aktuelle-preise'
+               AND p.price_kind = 'exact'
+               AND p.notes IN ('Au', 'Ag', 'Pt', 'Pd');
+
+             UPDATE prices
+             SET price_kind = 'approx', confidence = 0.0,
+                 notes = 'Plausibility hold 2026-10-04: legacy parser recorded Verkaufspreise as Ankaufspreise; not a buy quote'
+             WHERE id IN (SELECT id FROM migration_5_schiefer_sale_prices);
+
+             UPDATE current_prices AS c
+             SET price_id = COALESCE((
+                     SELECT p.id FROM prices p
+                     WHERE p.trader_id = c.trader_id
+                       AND p.material_id = c.material_id
+                       AND p.variant = c.variant
+                       AND p.id NOT IN (SELECT id FROM migration_5_schiefer_sale_prices)
+                     ORDER BY p.observed_at DESC, p.id DESC LIMIT 1
+                 ), c.price_id),
+                 updated_at = COALESCE((
+                     SELECT p.ingested_at FROM prices p
+                     WHERE p.id = (
+                         SELECT p2.id FROM prices p2
+                         WHERE p2.trader_id = c.trader_id
+                           AND p2.material_id = c.material_id
+                           AND p2.variant = c.variant
+                           AND p2.id NOT IN (SELECT id FROM migration_5_schiefer_sale_prices)
+                         ORDER BY p2.observed_at DESC, p2.id DESC LIMIT 1
+                     )
+                 ), c.updated_at)
+             WHERE c.price_id IN (SELECT id FROM migration_5_schiefer_sale_prices);
+
+             DELETE FROM current_prices
+             WHERE price_id IN (SELECT id FROM migration_5_schiefer_sale_prices);
+             DROP TABLE migration_5_schiefer_sale_prices;
+             PRAGMA user_version = 5;",
+        )?;
+    }
     Ok(())
 }
 
@@ -729,6 +934,356 @@ mod tests {
             .query_row("SELECT COUNT(*) FROM current_prices", [], |r| r.get(0))
             .unwrap();
         assert_eq!(n, 1, "pointer survived");
+    }
+
+    #[test]
+    fn migration_reclassifies_wkg_spot_rows_and_retires_current_pointers() {
+        let (db, trader, _) = setup("wkg-spot-fix");
+        let gold = db
+            .upsert_material(&NewMaterial {
+                slug: "gold",
+                name_de: "Gold",
+                category: "edelmetall",
+                unit: "EUR/g",
+                description: "",
+                updated_at: "2026-10-04T00:00:00Z",
+            })
+            .expect("gold");
+        let silber = db
+            .upsert_material(&NewMaterial {
+                slug: "silber",
+                name_de: "Silber",
+                category: "edelmetall",
+                unit: "EUR/g",
+                description: "",
+                updated_at: "2026-10-04T00:00:00Z",
+            })
+            .expect("silber");
+
+        let prior_gold = db
+            .record_price(&NewPrice {
+                variant: "999",
+                unit: "EUR/g",
+                source_url: "https://example.test/buy",
+                notes: "previous actual buy quote",
+                ..price(
+                    trader,
+                    gold,
+                    91.0,
+                    "2026-10-03T12:00:00Z",
+                    "2026-10-03T12:00:00Z",
+                )
+            })
+            .expect("prior buy quote");
+        for (material, value, note) in [
+            (gold, 122.0, "Tageskurs Feingold"),
+            (silber, 1.8, "Silber-Tagespreis"),
+        ] {
+            db.record_price(&NewPrice {
+                variant: "999",
+                unit: "EUR/g",
+                source_url: "https://wirkaufendeingold.de",
+                notes: note,
+                ..price(
+                    trader,
+                    material,
+                    value,
+                    "2026-10-04T12:00:00Z",
+                    "2026-10-04T12:00:00Z",
+                )
+            })
+            .expect("spot reference");
+        }
+
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute(
+                "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                rusqlite::params![
+                    "hb-bremen-findorff-28215-wirkaufendeingold-de-rohat-erdem",
+                    trader
+                ],
+            )
+            .expect("set WKG slug");
+            conn.execute_batch("PRAGMA user_version = 2;")
+                .expect("simulate pre-migration database");
+            super::migrate(&conn).expect("migration");
+        }
+
+        let current_gold = db
+            .current_price_for(trader, gold, "999")
+            .expect("gold current")
+            .expect("prior valid gold buy quote restored");
+        assert_eq!(current_gold.id, prior_gold);
+        assert!(db
+            .current_price_for(trader, silber, "999")
+            .expect("silver current")
+            .is_none());
+
+        let history = db.price_history(trader, gold, "999", 10).expect("history");
+        assert_eq!(history[0].price_kind, "approx");
+        assert_eq!(history[0].confidence, Some(0.5));
+        assert!(history[0].notes.contains("kein Händler-Ankaufspreis"));
+    }
+
+    #[test]
+    fn migration_retires_a_z_ladder_from_current_prices() {
+        const AZ_URL: &str = "https://xn--schrottplatz-mnster-jbc.de/";
+        let (db, trader, copper) = setup("az-ladder-fix");
+        let prior_copper = db
+            .record_price(&NewPrice {
+                source_url: "https://example.test/verified-buy-list",
+                notes: "prior verified buy quote",
+                ..price(
+                    trader,
+                    copper,
+                    8.50,
+                    "2026-10-03T12:00:00Z",
+                    "2026-10-03T12:00:00Z",
+                )
+            })
+            .expect("prior copper quote");
+        let mut suspects = Vec::new();
+        for (label, slug, variant, unit, value, low, high) in [
+            (
+                "Aluminium gemischt",
+                "aluminium-gemischt",
+                "",
+                "EUR/kg",
+                2.22,
+                1.55,
+                2.22,
+            ),
+            (
+                "Mischschrott",
+                "mischschrott",
+                "",
+                "EUR/t",
+                1250.0,
+                1230.0,
+                1250.0,
+            ),
+            ("Zink", "zink", "", "EUR/kg", 1.28, 1.26, 1.28),
+            ("Blei", "blei", "", "EUR/kg", 1.31, 1.29, 1.31),
+            ("Kupfer", "kupfer-millberry", "", "EUR/kg", 1.34, 1.32, 1.34),
+            ("Messing", "messing", "", "EUR/kg", 1.37, 1.35, 1.37),
+            (
+                "Haushaltskabel 38% (Ohne Stecker)",
+                "kabel-kupfer",
+                "38% ohne Stecker",
+                "EUR/kg",
+                1.40,
+                1.38,
+                1.40,
+            ),
+            (
+                "Edelstahl V2A",
+                "edelstahl-v2a",
+                "",
+                "EUR/kg",
+                1.43,
+                1.41,
+                1.43,
+            ),
+        ] {
+            let material = if slug == "kupfer-millberry" {
+                copper
+            } else {
+                db.upsert_material(&NewMaterial {
+                    slug,
+                    name_de: label,
+                    category: if slug == "mischschrott" {
+                        "eisen"
+                    } else {
+                        "nichteisen"
+                    },
+                    unit,
+                    description: "",
+                    updated_at: "2026-10-04T00:00:00Z",
+                })
+                .expect("material")
+            };
+            let id = db
+                .record_price(&NewPrice {
+                    variant,
+                    unit,
+                    price_kind: "range",
+                    price: value,
+                    price_min: Some(low),
+                    price_max: Some(high),
+                    confidence: Some(0.5),
+                    source_url: AZ_URL,
+                    notes: label,
+                    ..price(
+                        trader,
+                        material,
+                        value,
+                        "2026-10-04T08:51:38.015924722+00:00",
+                        "2026-10-04T08:51:38.015924722+00:00",
+                    )
+                })
+                .expect("suspect source price");
+            suspects.push((material, variant.to_owned(), id));
+        }
+
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute(
+                "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                rusqlite::params!["nw-munster-a-z-recycling-udo-salzsieder", trader],
+            )
+            .expect("set A-Z slug");
+            conn.execute_batch("PRAGMA user_version = 2;")
+                .expect("simulate pre-migration database");
+            super::migrate(&conn).expect("migration");
+        }
+
+        let current_copper = db
+            .current_price_for(trader, copper, "")
+            .expect("current copper")
+            .expect("prior verified price restored");
+        assert_eq!(current_copper.id, prior_copper);
+        for (material, variant, suspect_id) in suspects {
+            let current = db
+                .current_price_for(trader, material, &variant)
+                .expect("current price query");
+            if material == copper && variant.is_empty() {
+                assert_eq!(current.expect("prior copper quote").id, prior_copper);
+            } else {
+                assert!(current.is_none(), "suspect current price {variant:?}");
+            }
+
+            let history = db
+                .price_history(trader, material, &variant, 10)
+                .expect("price history");
+            let retired = history
+                .iter()
+                .find(|row| row.id == suspect_id)
+                .expect("suspect history retained");
+            assert_eq!(retired.price_kind, "approx");
+            assert_eq!(retired.confidence, Some(0.0));
+            assert!(retired.notes.contains("not a verified buy price"));
+        }
+
+        let version: i64 = db
+            .conn
+            .lock()
+            .expect("lock")
+            .query_row("PRAGMA user_version", [], |row| row.get(0))
+            .expect("version");
+        assert_eq!(version, 5);
+    }
+
+    #[test]
+    fn migration_retires_schiefer_sale_quotes_from_current_prices() {
+        const SCHIEFER_URL: &str = "https://schieferco.de/aktuelle-preise";
+        let (db, trader, _) = setup("schiefer-sales-fix");
+        let gold = db
+            .upsert_material(&NewMaterial {
+                slug: "gold",
+                name_de: "Gold",
+                category: "edelmetall",
+                unit: "EUR/g",
+                description: "",
+                updated_at: "2026-10-04T00:00:00Z",
+            })
+            .expect("gold");
+        let silber = db
+            .upsert_material(&NewMaterial {
+                slug: "silber",
+                name_de: "Silber",
+                category: "edelmetall",
+                unit: "EUR/g",
+                description: "",
+                updated_at: "2026-10-04T00:00:00Z",
+            })
+            .expect("silber");
+
+        let prior_gold = db
+            .record_price(&NewPrice {
+                unit: "EUR/g",
+                source_url: "https://example.test/verified-gold-buy",
+                notes: "prior verified gold buy quote",
+                ..price(
+                    trader,
+                    gold,
+                    114.0,
+                    "2026-10-03T12:00:00Z",
+                    "2026-10-03T12:00:00Z",
+                )
+            })
+            .expect("prior gold quote");
+        let old_gold_sale = db
+            .record_price(&NewPrice {
+                unit: "EUR/g",
+                source_url: SCHIEFER_URL,
+                notes: "Au",
+                ..price(
+                    trader,
+                    gold,
+                    126.74,
+                    "2026-10-04T08:06:27.577228082+00:00",
+                    "2026-10-04T08:06:27.577228082+00:00",
+                )
+            })
+            .expect("old gold sale quote");
+        let old_silver_sale = db
+            .record_price(&NewPrice {
+                unit: "EUR/g",
+                source_url: SCHIEFER_URL,
+                notes: "Ag",
+                ..price(
+                    trader,
+                    silber,
+                    1.911,
+                    "2026-10-04T08:06:27.577228082+00:00",
+                    "2026-10-04T08:06:27.577228082+00:00",
+                )
+            })
+            .expect("old silver sale quote");
+
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute(
+                "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                rusqlite::params!["hh-st-georg-schiefer-co-edelmetall-scheideanstalt", trader],
+            )
+            .expect("set Schiefer slug");
+            conn.execute_batch("PRAGMA user_version = 4;")
+                .expect("simulate pre-migration database");
+            super::migrate(&conn).expect("migration");
+        }
+
+        assert_eq!(
+            db.current_price_for(trader, gold, "")
+                .expect("current gold")
+                .expect("prior verified gold buy quote")
+                .id,
+            prior_gold
+        );
+        assert!(db
+            .current_price_for(trader, silber, "")
+            .expect("current silver")
+            .is_none());
+
+        for (material, suspect_id) in [(gold, old_gold_sale), (silber, old_silver_sale)] {
+            let history = db.price_history(trader, material, "", 10).expect("history");
+            let retired = history
+                .iter()
+                .find(|row| row.id == suspect_id)
+                .expect("old sale quote retained in history");
+            assert_eq!(retired.price_kind, "approx");
+            assert_eq!(retired.confidence, Some(0.0));
+            assert!(retired.notes.contains("Verkaufspreise as Ankaufspreise"));
+        }
+
+        let version: i64 = db
+            .conn
+            .lock()
+            .expect("lock")
+            .query_row("PRAGMA user_version", [], |row| row.get(0))
+            .expect("version");
+        assert_eq!(version, 5);
     }
 
     #[test]

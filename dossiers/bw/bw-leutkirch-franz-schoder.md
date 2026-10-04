@@ -4,15 +4,15 @@ name: Franz Schoder
 trader_type: schrotthaendler
 state: BW
 city: Leutkirch
-street: ''
-postcode: ''
+street: Unterer Auenweg 26
+postcode: '88299'
 phone: 07561 71807
 email: schoder-schrott-metall@t-online.de
 opening_hours: ''
 website: https://www.schoder-schrott-leutkirch.de/
 website_status: aktiv
 status: pruefung
-description: ''
+description: Schrott- und Metallhandel; anerkannter Altfahrzeug-Demontagebetrieb.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Amtliche Gegenquelle gefunden: Die Information des Landratsamts Unterallgäu (Stand Mai 2026), „Anerkannte Altfahrzeug-Demontagebetriebe“, führt Franz Schoder unter 88299 Leutkirch, Unterer Auenweg 26, mit Tel. 07561-71807 und als anerkannten Demontagebetrieb. Zusammen mit der aktuellen Betreiber-Website bestätigt dies die leeren street/postcode-Felder und die Beschreibung „Schrott- und Metallhandel; anerkannter Altfahrzeug-Demontagebetrieb“; neu ergänzte Adresse → Koordinaten müssen neu geocodiert werden (läuft automatisch). Bestehende Telefonnummer nicht überschrieben. E-Mail im amtlichen PDF steht als schoder-schrottmetall@t-online.de (ohne Bindestrich), Betreiberseite dagegen schoder-schrott-metall@t-online.de; vorhandenen Dossierwert daher unangetastet. Website/Sitemap live (Sitemap-Änderungsdaten 09.04.2026; nur Startseite, Impressum und Datenschutz gelistet); Öffnungszeiten sind nur auf der Betreiberseite belegt und bleiben ohne unabhängigen Zweitbeleg leer. Keine explizite Abhol-/Anlieferregel belastbar verifiziert, dropoff/pickup bleiben leer; website/status und status unverändert.; Quelle(n): https://www.landratsamt-unterallgaeu.de/download-link?cHash=280d6e4f10714796beb17c2f04fdd386&did=9&download=Altfahrzeug_Demontagebetriebe.pdf&nid=9; https://www.schoder-schrott-leutkirch.de/; https://www.schoder-schrott-leutkirch.de/impressum; https://www.schoder-schrott-leutkirch.de/datenschutz; https://www.schoder-schrott-leutkirch.de/sitemap.xml]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

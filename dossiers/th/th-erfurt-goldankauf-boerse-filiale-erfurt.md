@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Korrektur 04.10.2026 (Feedback #4768)
+
+- [Korrektur 04.10.2026: Die beanstandete Darstellung ist kein abweichender Telefonwert: Die Betreiberseite schreibt 0361 / 65 78 24 70, das Dossier speichert 0361/65782470; Vorwahl und Teilnehmernummer sind identisch. Keine Änderung an einem nichtleeren Telefonfeld; Quelle(n): https://www.goldankauf-boerse.de/standorte/erfurt/]
+
 ### Recherche 01.10.2026
 
 - [Feedback-Triage 01.10.2026 (ID 3028): berechtigt — Sa-Zeit „10:00–16:00" war falsch (Homepage-Übersicht nennt Sa 10–16 für Erfurt UND Kassel, Detailseite Erfurt aber Sa 10:00–15:00); korrigiert auf „Mo-Fr 10:00-18:00, Sa 10:00-15:00, weitere Termine nach Vereinbarung" + postcode 99084 ergänzt (Bahnhofstr. 38, 99084 Erfurt, Tel. 0361/65 78 24 70 bestätigt); E-Mail info@goldankauf-boerse.de nur Betreiber-Einzelbeleg (mehrere Seiten derselben Domain = 1 Quelle) → nicht in Frontmatter; website_status aktiv (Detailseite 01.10.2026 live re-verifiziert); Quelle(n): https://www.goldankauf-boerse.de/standorte/erfurt/ (Detailseite), https://www.goldankauf-boerse.de/ (Übersicht)]

@@ -10,7 +10,7 @@ phone: 06021 4542399
 email: info@edelmetallshop-aschaffenburg.de
 opening_hours: Mo-Fr 9:30-13:00 und 14:00-18:00, Sa (1. und 3. im Monat) 9:30-13:30
 website: https://metallorum.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 04.10.2026 (Feedback #4762)
+
+- [Korrektur 04.10.2026: Die getrennte PLZ ist bereits korrekt als postcode 63739 eingetragen; die Betreiber-Verkaufsstellenseite bestätigt Weißenburger Str. 18, 63739 Aschaffenburg. city „Aschaffenburg 63739“ ist nicht leer und bleibt nach Fill-only-Regel unangetastet. website_status auf aktiv gesetzt, da die hinterlegte Betreiber-Domain und die Standortseite live erreichbar sind. Keine Adressänderung und keine Neu-Geocodierung; Quelle(n): https://metallorum.de/verkaufsstellen/edelmetallshops; https://metallorum.de/ueber-uns/kontakt/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

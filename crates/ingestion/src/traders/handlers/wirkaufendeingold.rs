@@ -1,21 +1,17 @@
-//! WirKaufenDeinGold.de (Rohat Erdem, Bremen-Findorff, Edelmetall-Ankauf):
-//! zwei statische Tagespreise in EUR/g auf der Homepage.
+//! WirKaufenDeinGold.de (Rohat Erdem, Bremen-Findorff, Edelmetall-Ankauf).
+//! The homepage publishes gold/silver spot references and calculates a
+//! separate indicative purchase estimate from customer-specific inputs.
+//! The spot values are not the trader's buy quotes, so they are skipped and
+//! only the directly evidenced material acceptances are recorded.
 //!
-//! Preisquelle (`PRICE_URL`): die Homepage trägt drei server-renderte
+//! Die Homepage trägt drei server-renderte
 //! Tagespreis-Elemente — `span#calc-spot` ("122,00 €/g", Label
 //! `span#calc-spot-lbl` "Tageskurs Feingold"), `p.bars-note` ("… Gold
-//! 122,00 €/g, Silber 1,80 €/g …") und `p#hero-gold-price` ("3.563,90 €",
-//! `p#hero-metal-sub` "pro Unze · 999er Feingold"). Daraus: `gold`/`999`
-//! = Feingold-Tageskurs, `silber`/`999` = Silber-Tagespreis (Feinsilber-
-//! Basis, einziger Silberpreis der Seite; Hauskonvention wie Degussa
-//! "Silber Feinsilber 999"). Der Unzen-Hero (`pro Unze`) wird laut
-//! geskippt: Troy-Unze → Gramm wäre eine unbelegte Umrechnung (keine
-//! kg↔t-Normierung, Oz→g ist nicht belegt). Der Rechner-Ergebnisbetrag
-//! (`#calc-result-low`, Auszahlungs-Schätzung nach Payout-Faktor),
-//! die Barren-Produktpreise (`#bars-grid`, JS-gefüllt) und die
-//! Detailseite `/goldpreis` (kein einziges statisches €) sind JS-only →
-//! WALLED, keine Fakes. Die Seite nennt kein Stand-Datum (nur "alle 60
-//! Sekunden aktualisiert") → `published_at = None`.
+//! 122,00 €/g, Silber 1,80 €/g …") and `p#hero-gold-price` (a per-ounce
+//! display). The actual `#calc-result-low` is an indicative estimate based
+//! on purity, weight and payout factor, not a general price per gram. The
+//! spot and ounce figures are retained as explicit skips, never as buy
+//! prices. No publication date is stated.
 //!
 //! Kontakt (`INFO_URL`, live-verifiziert 28.09.2026): Impressum mit
 //! `<address>` ("Rohat Erdem … Admiralstraße 111, 28215
@@ -25,7 +21,7 @@
 use scraper::{Html, Selector};
 
 use super::super::{
-    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
+    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
 };
 use crate::IngestError;
 
@@ -53,22 +49,7 @@ pub fn handler() -> Handler {
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, PRICE_URL).await?;
-    let (rows, mut skipped_labels) = parse(&html)?;
-    let mut prices = Vec::with_capacity(rows.len());
-    for (material, variant, label, price, unit) in rows {
-        prices.push(ScrapedPrice {
-            material,
-            variant,
-            price,
-            currency: "EUR",
-            unit,
-            price_kind: "exact",
-            price_min: None,
-            price_max: None,
-            confidence: Some(1.0),
-            label,
-        });
-    }
+    let mut skipped_labels = parse(&html)?;
     // Kontaktseiten-Fehler scheitern laut per Design: ein gezogenes
     // Impressum braucht Augen, bevor ihm wieder vertraut wird.
     let (_, info_html) = fetch_text(client, INFO_URL).await?;
@@ -77,8 +58,21 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     // laut skippen, nie umrechnen, nie still fallenlassen.
     skipped_labels.extend(hero_unze_skip(&html));
     Ok(HandlerOutcome {
-        prices,
-        acceptances: vec![],
+        prices: vec![],
+        acceptances: vec![
+            ScrapedAcceptance {
+                material: "gold",
+                conditions: "Goldankauf; konkreter Preis nach Prüfung, Tageskurs nur Referenz"
+                    .to_owned(),
+                label: "Goldankauf auf der Betreiberseite".to_owned(),
+            },
+            ScrapedAcceptance {
+                material: "silber",
+                conditions: "Silberankauf; konkreter Preis nach Prüfung, Tageskurs nur Referenz"
+                    .to_owned(),
+                label: "Silberankauf auf der Betreiberseite".to_owned(),
+            },
+        ],
         trader_info,
         website_alive: true,
         skipped_labels,
@@ -89,19 +83,9 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     })
 }
 
-/// Die zwei statischen Tagespreise der Homepage als
-/// (Material, Variante, Label, Preis, Einheit). Der Gold-Tageskurs ist
-/// Pflicht (`Err` bei Redesign); fehlt der Silber-Hinweis, skippt er
-/// laut. `0,00 €` (kein Kurs) skippt laut. Null Zeilen → `Err`.
-fn parse(
-    html: &str,
-) -> Result<
-    (
-        Vec<(&'static str, &'static str, String, f64, &'static str)>,
-        Vec<String>,
-    ),
-    IngestError,
-> {
+/// Validate the public reference-rate anchors and return skips only. There
+/// is no site-wide, unconditional purchase price to record from these values.
+fn parse(html: &str) -> Result<Vec<String>, IngestError> {
     let missing = |detail: &str| IngestError::Parse {
         url: PRICE_URL.to_owned(),
         detail: detail.to_owned(),
@@ -117,9 +101,9 @@ fn parse(
             .collect::<Vec<_>>()
             .join(" ")
     };
-    let mut rows = Vec::new();
     let mut skips = Vec::new();
-    // Gold: "Tageskurs Feingold" + "122,00 €/g" — zwei Anker, ein Wert.
+    // Gold: the independently labelled spot quote is a calculation input,
+    // not the trader's payout. Keep it visible in the run's skip diagnostics.
     let gold_lbl = text_of("span#calc-spot-lbl");
     if !gold_lbl.contains("Feingold") {
         return Err(missing("Tageskurs-Label (Feingold) fehlt"));
@@ -130,38 +114,35 @@ fn parse(
     }
     match parse_eur(&gold_txt) {
         Some(p) if p.is_finite() && p > 0.0 => match unit_of(&gold_txt) {
-            // Laut skippen statt Default: ein Kilo-Preis als Gramm
-            // verbucht wäre ein 1000×-Fehler.
-            Some(u) => rows.push(("gold", "999", "Tageskurs Feingold".to_owned(), p, u)),
+            Some(u) => skips.push(format!(
+                "Tageskurs Feingold {} {u} (Spot-Referenz, kein Händler-Ankaufspreis)",
+                fmt_eur(p)
+            )),
             None => skips.push(format!(
                 "Tageskurs Feingold (Einheit unverständlich: {gold_txt})"
             )),
         },
-        Some(p) => skips.push(format!(
-            "Tageskurs Feingold ({}: kein Ankaufspreis)",
-            fmt_eur(p)
-        )),
+        Some(p) => skips.push(format!("Tageskurs Feingold ({}: kein Kurs)", fmt_eur(p))),
         None => skips.push(format!(
             "Tageskurs Feingold (Preis unverständlich: {gold_txt})"
         )),
     }
-    // Silber: "… Silber 1,80 €/g …" in p.bars-note — Zahl steht NACH
-    // dem Metallwort, also erst ab "Silber" lesen (parse_eur nähme
-    // sonst den Goldwert davor).
+    // Silber: the note states a second spot reference, not a guaranteed
+    // customer payout. Read only after "Silber" to avoid the preceding gold.
     let note = text_of("p.bars-note");
     match note.split_once("Silber") {
         Some((_, tail)) => match parse_eur(tail) {
             Some(p) if p.is_finite() && p > 0.0 => match unit_of(tail) {
-                Some(u) => rows.push(("silber", "999", "Silber-Tagespreis".to_owned(), p, u)),
+                Some(u) => skips.push(format!(
+                    "Silber-Tageskurs {} {u} (Spot-Referenz, kein Händler-Ankaufspreis)",
+                    fmt_eur(p)
+                )),
                 None => skips.push(format!(
                     "Silber-Tagespreis (Einheit unverständlich: {})",
                     tail.trim()
                 )),
             },
-            Some(p) => skips.push(format!(
-                "Silber-Tagespreis ({}: kein Ankaufspreis)",
-                fmt_eur(p)
-            )),
+            Some(p) => skips.push(format!("Silber-Tagespreis ({}: kein Kurs)", fmt_eur(p))),
             None => skips.push(format!(
                 "Silber-Tagespreis (Preis unverständlich: {})",
                 tail.trim()
@@ -169,10 +150,10 @@ fn parse(
         },
         None => skips.push("(Silber-Tagespreis: Hinweis fehlt)".to_owned()),
     }
-    if rows.is_empty() {
-        return Err(missing("keine Tagespreise gefunden"));
+    if !skips.iter().any(|s| s.contains("Spot-Referenz")) {
+        return Err(missing("keine validierbaren Tageskurs-Referenzen gefunden"));
     }
-    Ok((rows, skips))
+    Ok(skips)
 }
 
 /// Der Hero-Unzenpreis als lauter Skip (sichtbar, aber keine
@@ -320,30 +301,13 @@ mod tests {
         erhalten Sie nach persönlicher Beratung.</p>";
 
     #[test]
-    fn two_spot_prices_become_rows() {
-        let (rows, skips) = parse(FIXTURE).expect("parses");
-        assert!(skips.is_empty());
-        assert_eq!(rows.len(), 2);
-        assert_eq!(
-            rows[0],
-            (
-                "gold",
-                "999",
-                "Tageskurs Feingold".to_owned(),
-                122.0,
-                "EUR/g"
-            )
-        );
-        assert_eq!(
-            rows[1],
-            (
-                "silber",
-                "999",
-                "Silber-Tagespreis".to_owned(),
-                1.8,
-                "EUR/g"
-            )
-        );
+    fn spot_prices_are_skipped_not_recorded_as_buy_rows() {
+        let skips = parse(FIXTURE).expect("parses");
+        assert_eq!(skips.len(), 2);
+        assert!(skips.iter().all(|s| s.contains("Spot-Referenz")));
+        assert!(skips
+            .iter()
+            .all(|s| s.contains("kein Händler-Ankaufspreis")));
         assert_eq!(unit_of("122,00 €/g"), Some("EUR/g"));
         assert_eq!(unit_of("pro Sack"), None);
         assert!(parse("<div>Redesign ohne Kurse</div>").is_err());
@@ -362,20 +326,27 @@ mod tests {
     #[test]
     fn zero_spot_skips_loudly() {
         let html = FIXTURE.replace("122,00&nbsp;€/g", "0,00&nbsp;€/g");
-        let (rows, skips) = parse(&html).expect("parses");
-        assert_eq!(rows.len(), 1);
-        assert_eq!(rows[0].0, "silber");
-        assert_eq!(skips.len(), 1);
-        assert!(skips[0].contains("kein Ankaufspreis"));
+        let skips = parse(&html).expect("parses");
+        assert_eq!(skips.len(), 2);
+        assert!(skips
+            .iter()
+            .any(|s| s.contains("Tageskurs Feingold") && s.contains("kein Kurs")));
+        assert!(skips
+            .iter()
+            .any(|s| s.contains("Silber-Tageskurs") && s.contains("Spot-Referenz")));
     }
 
     #[test]
     fn missing_silver_note_skips_loudly() {
         let html = FIXTURE.replace("Silber", "Platin");
-        let (rows, skips) = parse(&html).expect("parses");
-        assert_eq!(rows.len(), 1);
-        assert_eq!(rows[0].0, "gold");
-        assert!(skips.iter().any(|s| s.contains("Silber")));
+        let skips = parse(&html).expect("parses");
+        assert_eq!(skips.len(), 2);
+        assert!(skips
+            .iter()
+            .any(|s| s.contains("Tageskurs Feingold") && s.contains("Spot-Referenz")));
+        assert!(skips
+            .iter()
+            .any(|s| s.contains("Silber-Tagespreis") && s.contains("Hinweis fehlt")));
     }
 
     #[test]

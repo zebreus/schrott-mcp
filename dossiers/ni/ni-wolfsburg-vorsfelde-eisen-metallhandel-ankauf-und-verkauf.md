@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Metalle
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Klärfall bleibt: Exaktsuchen zu „Ankauf und Verkauf“ in Wolfsburg/Vorsfelde und erneute Gegenprüfung ergaben keine Betreiberseite oder belastbare Quelle, die den Dossier-Namen mit einer Geschäftsadresse verbindet; ein Betreiberseiten-Crawl war daher nicht möglich. Die Treffer zu Karl-Heinz Possiel nennen ausdrücklich einen anderen Vorsfelder Betrieb (An der Meine 23, Tel. 05363 7848); Identität mit diesem Dossier ist unbelegt. Keine Adresse, Kontaktdaten, Website oder Leistungen übernommen; website_status auf unbekannt gesetzt, kein Schließungsbeleg; Quelle(n): https://html.duckduckgo.com/html/?q=%22Ankauf+und+Verkauf%22+Wolfsburg+Vorsfelde+Schrott; https://html.duckduckgo.com/html/?q=%22Karl-Heinz+Possiel%22+Wolfsburg+Vorsfelde+Schrott; https://www.gelbeseiten.de/gsbiz/5b09b32c-bebf-4e55-9eca-56778086aff0]

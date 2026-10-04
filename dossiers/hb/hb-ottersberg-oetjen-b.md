@@ -10,7 +10,7 @@ phone: 04293 1516
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -38,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Adresse Quelkhorner Landstr. 74, 28870 Ottersberg (Quelkhorn) und Tel. 04293 1516 per Doppelbeleg bestätigt (Frontmatter bereits gefüllt, unverändert): https://www.tellows.de/firmen/Ottersberg-Fischerhude/04293/Schrott/1642 + https://ottersberg.stadtbranchenbuch.com/337289.html
 - Kategorie: Schrott- und Metallhandel. Keine eigene Website / Mail / Öffnungszeiten gefunden.
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Opendi/Stadtbranchenbuch führt B. Oetjen weiterhin als Schrott- und Metallhandel an Quelkhorner Landstr. 74 mit Tel. 04293 1516; tellows zeigt dieselben Kerndaten, der Eintrag wurde dort jedoch bereits am 06.02.2013 angelegt. Beides sind Verzeichnis-/Community-Belege, kein unabhängiger aktueller Betreiber- oder Betriebsnachweis. Gegenrecherche in Das Örtliche und Das Telefonbuch ergab für Ottersberg nur den abweichenden privaten Eintrag „Oetjen Erna“, Wilstedter Kirchweg 4/04293 513; Gelbe Seiten und 11880 zeigten nur andere Oetjen-Unternehmen aus Rotenburg bzw. Umgebung. Diese Treffer belegen weder Identität noch Rechtsnachfolge; deren Websites/Kontaktdaten wurden nicht übertragen. Keine verifizierbare Betreiber-Domain gefunden, daher kein Betreiberseiten-Crawl möglich; website_status auf unbekannt gesetzt. Website, E-Mail, Öffnungszeiten, Beschreibung und Annahmebedingungen bleiben mangels belastbarer Betreiberquelle leer; Adresse/Telefon unverändert, status pruefung bleibt. Keine Preise belegt; Quelle(n): https://ottersberg.stadtbranchenbuch.com/337289.html; https://www.tellows.de/firmen/Ottersberg-Fischerhude/04293/Schrott/1642; https://www.dasoertliche.de/?form_name=search_nat&kw=Oetjen&ci=Ottersberg; https://www.dastelefonbuch.de/Suche/Oetjen/Ottersberg; https://www.gelbeseiten.de/suche/oetjen/ottersberg; https://www.11880.com/suche/schrotthandel/ottersberg]

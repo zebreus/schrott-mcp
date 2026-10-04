@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Metallhandel (Halbzeuge) — ggf. Schwester Seed-Will, eher Neuware (PRÜFFALL)
 - urspr. Website-Angabe: keine
 - Adresse: Mainaschaff 63814, Hauptstr. 72
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: HRA-Auszug nennt für Heinz Will GmbH & Co. KG die Geschäftsanschrift An der Senne 25, 63814 Mainaschaff; das widerspricht dem bereits eingetragenen Feld Hauptstr. 72, das ich nicht überschreibe. Die aktuelle Mehring-Website gehört laut Impressum zur Mehring GmbH (HRB 8536) in Dorfprozelten und belegt keine aktuelle Website oder Filiale der KG in Mainaschaff; Verzeichniseinträge liefern uneinheitliche Telefonnummern und bleiben Leads. Daher keine neuen Adress-/Kontakt-/Leistungsfelder und website_status unbekannt; keine Neu-Geocodierung. Registerauszug ist ein Spiegel und die aktuelle Betreiberzuordnung bleibt ungeklärt; Quelle(n): https://handelsregister.live/hra/bayern/ag-aschaffenburg/3932/heinz-will-gmbh-co-kg; https://www.mehring-container.de/impressum/; https://www.mehring-container.de/ueber-uns/]

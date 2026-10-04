@@ -10,7 +10,7 @@ phone: 06898 9003237
 email: gtmetallrecycling@hotmail.com
 opening_hours: Mo 7:30-15, Di 7-15, Mi-Fr 7:30-15
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Saarwiesenweg 2, 66333 Völklingen, Tel. 06898 9003237, gtmetallrecycling@hotmail.com, Öffnungszeiten Mo 7:30–15/Di 7–15/Mi-Fr 7:30–15 gefuellt — begründete Aggregator-Ausnahme (keine Betreiber-Website auffindbar): drei unabhängige Verzeichnisse deckungsgleich; Restunsicherheit offen dokumentiert, keine Website gesetzt; Quelle(n): 11880, Gelbe Seiten und dasoertliche.de (drei Verzeichnisprofile, Abruf 02.10.2026)]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die aktuelle 11880-Einzelseite (Profil aktualisiert 03.10.2026) stimmt bei Name, Saarwiesenweg 2, Telefon und den hinterlegten Werktagszeiten mit den vorhandenen Angaben überein, zeigt aber „Website hinzufügen“; ein Betreiber-Domain- oder sonstiger Primärbeleg für eine Website wurde nicht gefunden. NorthData führt die UG unter HRB 105872 und nennt als Unternehmensgegenstand An- und Verkauf/Handel mit Altmetallen, ist jedoch ein Datenaggregator und ersetzt keinen Register-Primärbeleg. Deshalb website bleibt leer, website_status=unbekannt kennzeichnet die nicht verifizierte Webpräsenz; description wird mangels Betreiber-Primärquelle nicht ergänzt. Vorhandene nichtleere Kontakt-, Adress- und Öffnungszeitenfelder sowie status=aktiv bleiben unverändert; Quelle(n): https://www.11880.com/branchenbuch/voelklingen/060444720B107321640/gruen-thomanek-metallrecycling-ug.html; https://www.northdata.de/Gr%C3%BCn%20Thomanek%20Metallrecycling%20UG,%20V%C3%B6lklingen/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20105872]

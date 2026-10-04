@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Korrektur 04.10.2026 (Feedback #4766)
+
+- [Korrektur 04.10.2026: Der Betreiberauftritt bestätigt kostenlose Abholung mit eigenem LKW/Kran; pickup_json bleibt leer, weil keine unabhängige zweite Quelle für diese Konditionen vorliegt. Bedingungen werden deshalb weiter nur als recherchierter Hinweis und nicht als strukturierte Zusage geführt; Quelle(n): https://vana-service.de/]
+
 ### Recherche 01.10.2026
 
 - [Feedback-Triage 01.10.2026 (ID 3047): berechtigt — city „Freudenstadt 72250" → „Freudenstadt"; Adresse (Hermann-Hesse-Str. 16, 72250 Freudenstadt), Tel. +49 173 3078005 (weitere Mobile auf Seite), info@vana-service.de, Zeiten Mo-Sa 7:30–17:00 von Betreiber-Seite übernommen; Abholung (kostenlos mit LKW/Kran, Tagespreise Cu/Messing/Kabel/Alu/VA, Barauszahlung) belegt → nur Timeline (kein Konditionsfeld); Beleglage: Betreiber-Einzelquelle (eine Domain); Quelle: https://vana-service.de/]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -45,3 +45,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Erneute Suche nach „Martens“/„C. Martens“ mit Schortens, Oestringfelde und Schrott ergab keine Betreiberseite, kommunale Bestätigung, Registerfundstelle oder belastbaren Treffer, der Name und Ort zusammenführt. Die früheren Gelbe-Seiten-Suchen bleiben reine Negativ-Leads; die Ortsteilbezeichnung Oestringfelde allein identifiziert keinen Betrieb. Keine Adresse, Telefonnummer, Website oder Leistung ergänzbar; status pruefung bleibt bestehen. Kein Schließungsbeleg.; Quelle(n): https://www.gelbeseiten.de/suche/schrott/schortens; https://www.google.com/search?q=%22Martens%22+Schrott+Schortens+Oestringfelde; https://www.google.com/search?q=%22C.+Martens%22+Schortens+Schrott]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Klärfall bleibt: Mehrere Verzeichnisse führen „Martens“/„C. Martens“ mit Huntsteerter Weg 265 und teils Tel. 04461 84174, sind aber Aggregator-Leads ohne unabhängige Betreiber- oder Registerbestätigung; die Zuordnung zu Oestringfelde ist ebenfalls nicht belegt. Die städtische Fundstelle bestätigt nur den Straßennamen/Bebauungsplan, nicht den Betrieb; kein identifizierter Betreiberauftritt für einen Seiten-Crawl. Keine Adresse oder Telefonnummer übernommen; website_status auf unbekannt gesetzt, kein Schließungsbeleg; Quelle(n): https://lokaleschrottplatz.de/martens-c/; https://www.tellows.de/num/0446184174; https://www.schortens.de/bi/vo0050.asp?__kvonr=6486; https://html.duckduckgo.com/html/?q=site%3Ahandelsregister.de+%22Martens%22+Schortens+Schrott]

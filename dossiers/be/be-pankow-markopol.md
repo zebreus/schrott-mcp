@@ -42,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Ausschließlich Verzeichnis-Leads (Gelbe Seiten, Cylex, Bundes-Telefonbuch): Schönhauser Str. 33, 13158 Berlin-Rosenthal, Tel. 0178 4210569. Felder (außer bestehendem phone) bleiben leer, website_status unbekannt; Quelle(n): gelbeseiten.de, cylex.de (nur Leads)]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Erneute Betreiberseiten-/Registersuche ohne unabhängigen Treffer. Gelbe Seiten und golocal sind weiter nur Verzeichnis-Leads: beide führen Schönhauser Str. 33/13158 und 0178 4210569; golocal nennt zusätzlich Markopol65@gmail.com, jedoch ohne Betreiber- oder Register-Primärbeleg. Website, E-Mail, Zeiten und Leistungen bleiben leer; Straße „Pankow, Schönhauser Str. 33“ wirkt als Ortsangabe unscharf, wird mangels verifizierter Korrektur nicht überschrieben; Quelle(n): https://www.gelbeseiten.de/gsbiz/d7b5d733-5092-4a3b-944a-c6620113b59e; https://www.golocal.de/berlin/schrotthandel/markopol-10X2jH/]

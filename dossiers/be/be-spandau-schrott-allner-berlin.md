@@ -9,8 +9,8 @@ postcode: '13599'
 phone: 01522 6533386
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://schrott-berlin-brandenburg.de.tl
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Betreiber-Domain einzeln gecrawlt (Startseite, Impressum, Schrottabholung, Kleintransporte, Wohnungsauflösungen, Entrümpelungen, Kontaktformular, Datenschutz); sie ist erreichbar und nennt den Betrieb Schrott-Allner-Berlin, auch die verlinkte Facebook-Seite führt den exakten Namen. Domain-Root eingetragen, website_status aktiv. Das Betreiber-Impressum nennt jedoch Tangermünder Straße 96, 12627 Berlin und Tel. 0176-70851990 statt der Seed-Adresse Burscheider Weg 43/13599 und des bestehenden Telefons 01522 6533386; kein verifizierter aktueller Gleichlauf mit der Spandauer Verzeichnislistung. E-Mail/Adresse/Telefon/Öffnungszeiten/Leistungen deshalb nicht ergänzt oder überschrieben; keine Adresse geändert, keine Neu-Geocodierung nötig; Quelle(n): https://schrott-berlin-brandenburg.de.tl/Startseite.htm; https://schrott-berlin-brandenburg.de.tl/Impressum.htm; https://schrott-berlin-brandenburg.de.tl/Schrottabholung.htm; https://www.facebook.com/schrott.allner.berlin/; https://mobil.dasoertliche.de/Themen/Schrott-Allner-Berlin-Berlin-Haselhorst-Burscheider-Weg]

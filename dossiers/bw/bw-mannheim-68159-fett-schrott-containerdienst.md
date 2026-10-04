@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Korrektur 04.10.2026 (Feedback #4765)
+
+- [Korrektur 04.10.2026: Betreiberseite bestätigt Abholung für Mannheim und Umgebung. pickup_json bleibt trotzdem leer: Root und Abholseite sind dieselbe Betreiberquelle, ein unabhängiger zweiter Beleg für die konkreten Abholbedingungen fehlt; insbesondere werden keine kostenlosen oder pauschalen Konditionen in strukturierte Felder abgeleitet. Der offene Prüfstatus bleibt bestehen; Quelle(n): https://fett-schrott.de/; https://fett-schrott.de/mannheim-schrott-abholen.html]
+
 ### Recherche 03.10.2026 (Feedback-Triage 4314)
 
 - [Recherche 03.10.2026: Telefonformatfehler bestätigt: Impressum nennt im Kontaktblock 0621-48205760, Ankerrufziel auf Root/Kontakt/Impressum ist tel:+4962148205760. Sichtbarer Footer hingegen fehlerhaft +049 0621-48205760; diese Darstellung nicht übernehmen. Dossier +49 0621-48205760 auf exakt betreiberveröffentlichte nationale Form 0621-48205760 korrigiert, keine neue Nummer ergänzt oder Teilnehmerziffer geändert. Betreiber Murafet Özdemir, Fett Schrott, G6 6, 68159 Mannheim, kontakt@fett-schrott.de, USt-ID DE265277561 passen zum vorhandenen Datensatz; externe Suche ohne belastbaren Zweitbeleg. Eine Betreiberquelle trotz mehrerer Seiten, keine HRB im Impressum und keine Owner-Ausnahme behauptet. Dies ist eine dokumentierte Formatkorrektur des bereits gefüllten Telefonfelds, keine Anreicherung aus einer zweiten ungeprüften Identität; Quelle(n): https://fett-schrott.de/impressum.html | https://fett-schrott.de/impressum | https://fett-schrott.de/kontakt.html | https://fett-schrott.de/]

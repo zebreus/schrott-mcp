@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Korrektur 04.10.2026 (Feedback #4763)
+
+- [Korrektur 04.10.2026: Die Rückmeldung zur erreichbaren Domain ist richtig, belegt aber nicht die aktuelle Zuordnung des Autoverwertungscenters: pries-und-friese.de zeigt weiterhin Altseiten zur Autoverwertung und zugleich den Nachfolger LFP KFZ-Werkstatt am selben Standort; die aktuellen LFP-Seiten belegen Werkstattbetrieb, nicht eindeutig die Fortführung der Schrott-/Autoverwertung. Daher Website-Zuordnung, website_status unbekannt und status pruefung unverändert; keine Schließung oder Umbenennung behauptet; Quelle(n): https://pries-und-friese.de/; https://pries-und-friese.de/autoverwertung/; https://kfz-werkstatt-neuenhagen.de/; https://kfz-werkstatt-neuenhagen.de/impressum/]
+
 ### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
 
 - [Recherche 03.10.2026: Feedbacks Feldwiderspruch bestätigt: Dossier-Website leer, Prod http://www.pries-und-friese.de. Die Domain ist aber keine nachgewiesene firmenfremde Website: live erreichbar, Root nennt Nachfolger LFP KFZ-WERKSTATT und Bearbeitung aller Aufträge am bisherigen Standort seit 02.01.2023. Einzeln geprüfte Altseiten Autoverwertung, Kontakt, Anfahrt und Ersatzteile enthalten weiterhin AV-Angebote bzw. alte Kontaktdaten, bei gleichzeitigem LFP-Footer. Diese Mischung ist historische Kontinuität, kein aktueller Zertifikats-/Ankaufsbeweis. Frühere Aussage keine AV mehr ist zu stark: aktuelle LFP-Root/Impressum führen Werkstattbetrieb, LFP KFZ-Werkstatt oHG, HRA 4156 FF, Rosa-Luxemburg-Damm 1; das Fehlen von AV auf der aktuellen Leistungsdarstellung beweist allein keine Einstellung. Betreiber-/Vorgängerseiten nicht als zwei unabhängige Quellen zählen. Externe Gegenrecherche durch Bot-Challenge eingeschränkt; aktuelle AV-Tätigkeit bleibt offen; Quelle(n): https://pries-und-friese.de/ | https://pries-und-friese.de/autoverwertung/ | https://pries-und-friese.de/kontakt/ | https://pries-und-friese.de/anfahrt/ | https://pries-und-friese.de/ersatzteile/ | https://kfz-werkstatt-neuenhagen.de/ | https://kfz-werkstatt-neuenhagen.de/impressum/]
