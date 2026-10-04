@@ -14,9 +14,7 @@
 
 use scraper::{ElementRef, Html, Selector};
 
-use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
-};
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "nw-remscheid-vhm-hartmetall-ankauf";
@@ -37,7 +35,7 @@ pub fn handler() -> Handler {
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
-    let (acceptances, mut skipped_labels) = parse(&html)?;
+    let (acceptances, skipped_labels) = parse(&html)?;
     // Impressum failure fails the whole step on purpose: a moved contact
     // page means the site changed and needs eyeballs before we trust
     // anything from it again.
@@ -115,7 +113,9 @@ fn parse(html: &str) -> Result<(Vec<ScrapedAcceptance>, Vec<String>), IngestErro
         // A fixed price on a card means the price list is back — say so
         // loudly instead of silently staying acceptance-only.
         if text.contains('€') {
-            skips.push(format!("{label} (Festpreis erkannt — Preis-Handler prüfen)"));
+            skips.push(format!(
+                "{label} (Festpreis erkannt — Preis-Handler prüfen)"
+            ));
             continue;
         }
         match grade_for(&label) {

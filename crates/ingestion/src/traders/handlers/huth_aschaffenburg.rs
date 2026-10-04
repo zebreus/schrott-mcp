@@ -29,7 +29,7 @@
 
 use std::collections::HashSet;
 
-use scraper::{ElementRef, Html, Selector};
+use scraper::{Html, Selector};
 
 use super::super::{
     fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,

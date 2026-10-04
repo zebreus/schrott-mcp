@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die offizielle Gemeindeseite Markt Weilbach listet „Wild-Metall / Thomas Wild“ mit Reuboldstraße 10, 63937 Weilbach (Bayern) und Telefon 09373/2063329. Das ist ein realer, aber geografisch anderer Namensvetter/Betreiber als der Dossierort Michelstadt (Hessen); die Seite belegt keine Niederlassung in Michelstadt. Keine Zuordnung oder Frontmatter-Füllung; keine Zusammenführung; Quelle(n): https://www.weilbach.de/gewerbe/wildmetall/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallhandel (GS); BY-Seed ohne Wild-Eintrag → kein Duplikat

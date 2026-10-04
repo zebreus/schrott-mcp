@@ -35,4 +35,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Der Direktcrawl von seipel-recycling.de bestätigt die Seipel GmbH, Patrick Seipel und HRB 7894 am Standort Im Leituch 11–13, 61200 Wölfersheim; das ist ein anderer Ort und ein eigener Betreiber, kein Beleg für Michael Alois Seipel in Bad Soden-Salmünster. Für den Dossierbetrieb bleibt nur der 11880-Eintrag als Aggregator-Lead; kein zweiter zulässiger unabhängiger Beleg, daher keine Frontmatter-Füllung oder Übernahme vom Namensvetter; Quelle(n): https://www.11880.com/branchenbuch/bad-soden-salmuenster/120674719B102470155/michael-alois-seipel-altmetallhandel.html; https://www.seipel-recycling.de/; https://www.seipel-recycling.de/impressum/]
+
 - [Recherche 01.10.2026: KEIN Zweitbeleg — einziger Anhalt bleibt 11880-Verzeichnis (Michael Alois Seipel Altmetallhandel; Aggregator = Lead). Namensvetter Seipel GmbH Wölfersheim (HRB 7894 Friedberg, seipel-recycling.de) ist anderes Unternehmen. Keine Betreiber-Website, kein Register-/Gewerberegister-Beleg zu Hufeisenstr. 3 / (06056) 2390 gefunden (Seed-Angaben daher weiter unbelegt, Felder bleiben wie gesetzt). Status bleibt pruefung, Klärfall: Kleinsthändler-Existenz unbestätigt; Quelle(n): Lead 11880.com (kein Beleg).]

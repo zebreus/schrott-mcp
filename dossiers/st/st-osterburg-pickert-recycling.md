@@ -4,8 +4,8 @@ name: Pickert Recycling GmbH
 trader_type: schrottplatz
 state: ST
 city: Osterburg
-street: ''
-postcode: ''
+street: Düsedauer Str. 19
+postcode: '39606'
 phone: ''
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: NorthData führt die gleichnamige Pickert Recycling GmbH, Amtsgericht Stendal HRB 2003, mit Geschäftsanschrift Düsedauer Str. 19, 39606 Osterburg und Unternehmensgegenstand NE-Metall-/Schrotthandel, Autoverwertung und Containerdienst. Adresse als starke Registerquelle ergänzt; keine aktuelle Betreiber-Website gefunden. Die zwei Telefondaten in Verzeichnissen sind Aggregator-Leads und werden nicht übernommen; Tätigkeit vor Ort/Annahme bleibt ungeprüft, status pruefung und website_status unbekannt bleiben. Adresse ergänzt — Koordinaten neu zu geocodieren; Quelle(n): https://www.northdata.com/Pickert%20Recycling%20GmbH,%20Osterburg%20(Altmark)/Amtsgericht%20Stendal%20HRB%202003 ; https://www.gelbeseiten.de/gsbiz/13b94d4a-1d59-46e4-8f26-50935004bcde (Lead, nicht unabhängiger Beleg)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -38,4 +38,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Recherche 01.10.2026
 
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die aktuelle Suche findet zwei Verzeichniseinträge für „Schrott Lutz Dr. Dipl.-Chem.“ an Licher Str. 21, 60389 Frankfurt, mit Telefon 069 45 69 27. Gelbe Seiten und Das Telefonbuch sind hier nur Aggregator-Leads; es fehlt weiterhin eine Betreiber-, Register- oder kommunale Quelle und eine belastbare zweite Evidenzquelle. Keine Frontmatter-Füllung; alle Felder bleiben unverändert; Quelle(n): https://www.gelbeseiten.de/gsbiz/7676a340-bd88-4710-8629-d41452b6c2a5; https://kontakt-1.dastelefonbuch.de/Frankfurt%20am%20Main/Dr-Dipl-Chem-Lutz-Schrott-Frankfurt-am-Main-Licher-Str.html]
+
 - [Recherche 01.10.2026: Kein belastbarer Nachweis — Northdata-Suche ohne passenden Registertreffer; plausible Domain schrott-lutz.de nicht registriert (NXDOMAIN); keine Betreiber-Website auffindbar; Quelle(n): keine (nur Seed-Verzeichnis). Frontmatter bleibt leer (Klärfall).]

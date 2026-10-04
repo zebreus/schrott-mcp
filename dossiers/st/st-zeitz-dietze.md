@@ -9,8 +9,8 @@ postcode: '06712'
 phone: 034426 21232
 email: auto-dietze@t-online.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.auto-dietze.de
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 04.10.2026
+
+- [Recherche 04.10.2026: Die direkt erreichbare Betreiber-Domain wurde bestätigt und als Domain-Root ergänzt. Das Impressum nennt Andreas Dietze, Loitscher Hauptstr. 13, 06712 Zeitz sowie dieselben Telefon-/E-Mail-Angaben wie im Dossier; die aktuelle Startseite präsentiert allerdings einen Kfz-Meisterbetrieb mit Reparatur, Service und gebrauchten Ersatzteilen und nennt keine aktuelle Autoverwertung/Schrottannahme. Daher nur website und website_status=aktiv ergänzt; description, trader_type und status unverändert, die aktuelle Autoverwertungsaktivität bleibt offen. Ein Seitenpaar derselben Betreiber-Domain zählt als eine Quelle; Quelle(n): https://www.auto-dietze.de/ ; https://www.auto-dietze.de/Impressum.html]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 
