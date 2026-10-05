@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Biebertaler Lead „Manuel Blum“ mit aggregatgestützter Seed-Adresse Am Kalkbruch 7, 35444 und 0178 3284627. Die andere Gießener Adresse Sommerberg 15 und 0641 9446463 ist nicht als Umzug oder Zweigstelle bewiesen. Neuer möglicher Betreiber-Social-Ansatz: Instagram `entsorgungsdienst_blum` unter Manuel Blum mit Schrottabholung Gießen; das Profil ist beim Direktabruf nur hinter der Anmeldung erreichbar, deshalb noch kein aktueller Identitäts-/Kontaktbeleg.
 
 ## Timeline
 
@@ -35,3 +35,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler [Website-Recherche verzeichnis: services: Schrotthandel; notes: Nur Gelbe Seiten (Blum Manuel Schrotthandel, Ortsteil Rodheim-Bieber); kein 11880-Eintrag.]
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Konkreter primärer Rechercheweg gefunden — Suchindex verweist auf betreiberverdächtiges Instagram-Profil „Manuel Blum“, @entsorgungsdienst_blum, mit Schrottabholung Gießen. Direktabruf leitet auf Instagram-Login weiter, weder Impressum noch Adresse/Telefon oder aktueller Beitrag lesbar. Deshalb kein zweiter belastbarer Beleg und keine Verbindung zwischen Biebertal und Sommerberg 15/Gießen behauptet. Northdata-Suche nach Manuel Blum/Biebertal liefert keinen eindeutig passenden Registerbeleg. Quelle: https://www.instagram.com/entsorgungsdienst_blum/ (Suchindex-/Login-Befund) ; https://www.northdata.de/Manuel+Blum,+Biebertal]
+- [Recherche 05.10.2026: Vorhandene Adresse/Telefon am aktuellen Gelbe-Seiten-Eintrag erneut als Lead gesehen, nicht dadurch primär verifiziert; Ausnahme-Fills vom 02.10. bleiben als unsichere Altangaben erhalten. ANKAUF/VERKAUF/GEBÜHREN: keine belastbare Betreiber-Preisliste im geprüften Material. Folgeschritt: rechtliche Eigenangaben zum Social-Profil bzw. kommunale Gewerbeauskunft, dann erst Umzugs-/Namesake-Prüfung. status pruefung unverändert. Quelle: https://www.gelbeseiten.de/gsbiz/3e2ec3c2-729d-4879-bdab-70e17533b2da (Lead); obiges Social-Profil; weiterer Websuchlauf durch HTTP 401 begrenzt]

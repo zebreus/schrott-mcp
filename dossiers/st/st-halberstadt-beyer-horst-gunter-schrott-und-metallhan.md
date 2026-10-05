@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisgeführter Schrott-/Metallhandel im Halberstädter Ortsteil **Klein Quenstedt**, Finkenflucht 82. Bestehende Adresse, PLZ und Telefon sind nachvollziehbare historische Portaldaten, aber bislang **nicht primär bestätigt**. Die alte Formulierung „doppelt belegt“ wird deshalb nicht als Betreiberverifikation fortgeschrieben.
+
+Aktuelle Existenz, Ansprechpartner, Anlieferbedingungen und Ankauf/Preise bleiben offen. Keine belegte Betriebsschließung, Status `pruefung` unverändert.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Erneute namensgenaue Suche bestätigt lediglich Portalspur Finkenflucht 82, 38822 Halberstadt/Klein Quenstedt, 03941 608221. Örtliche/Telefonbuch unterscheiden Ortsteil Klein Quenstedt von der übergeordneten Stadt; daraus kein tatsächlicher Umzug. Kein sicherer Betreiber-/Register-/Kommunal-Einzelfallbeleg identifiziert. Frühere Füllung aus Öffnungszeitenbuch + Örtliche erfüllt den heutigen Primärquellenstandard nicht; Frontmatter-Werte aus Historienerhaltung belassen, im Überblick als ungeprüft markiert. Keine Übernahme von Portalzeiten, weiterer Kontaktdaten oder Annahmesorten. Kein verifizierter numerischer Ankauf-/Verkauf-/Gebührentarif. Nächster Schritt Gewerbe-/Betreiberbestätigung für Horst-Günter Beyer an Finkenflucht 82; Quelle(n): https://html.duckduckgo.com/html/?q=Beyer+Horst+G%C3%BCnter+Halberstadt+Schrott; https://www.dasoertliche.de/Themen/Beyer-Horst-G%C3%BCnter-Schrott-und-Metallhandel-Klein-Quenstedt-Klein-Quenstedt-Finkenflucht; https://www.schrottplatz-info.de/schrottplatz/Halberstadt/-Beyer-Horst-Guenter-Schrott-und-Metallhandel (Suchleads).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

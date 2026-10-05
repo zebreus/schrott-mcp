@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter Hamburger Gold-/Silberankauf-Lead in Bergedorf. Adresse, Telefon und Zeiten sind vorhandene Verzeichnisangaben, keine frisch verifizierten Betreiberfakten. Die frühere Lead-Domain goldundco-hh.de ist nicht auflösbar. Der aktive österreichische Auftritt goldundco.at gehört einer Wiener Gesellschaft; dessen Goldrechner, Ankaufskurse und Filialen dürfen **nicht dem Hamburger Dossier zugeordnet** werden. Kein belegter Nachfolger und keine bewiesene Schließung.
 
 ## Timeline
 
@@ -51,3 +51,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 01.10.2026: weiterhin nur ein Verzeichnis-Lead; keine Betreiber-Website (goldundco.at ist österreichische Fremdfirma); Quelle(n): Das-Örtliche-Straßensuche Bergedorfer Schloßstr.]
 - Lead-Fakten (unsicher, NICHT in Frontmatter): Gold+Co Handel und Verwertung aller Edelmetalle, Bergedorfer Schloßstr. 33, 21029 Hamburg-Bergedorf; Tel. 040 30762303; Gold-/Silberankauf.
 - Klärfall Folgewelle: zweiten Beleg suchen (Betreiber-Website, HR oder Gewerbe-Anmeldung).
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Gegenbeleg zu Namens-Merge erneut primär geöffnet — goldundco.at/impressum nennt Gold & Co Luxury Goods Handels GmbH, Tuchlauben 7a, 1010 Wien, FN 378278t und Handelsgericht Wien; daraus folgt keine Identität oder Betreiberkette zum Hamburger Gold+Co. HTTP- und HTTPS-Abruf www.goldundco-hh.de scheitern an Namensauflösung. Northdata-Namensabfrage Gold Co/Hamburg zeigt unspezifische Namensähnlichkeiten, keinen eindeutig passenden Bergedorfer Betrieb. Vorhandene Frontmatter-Kontaktdaten/Zeiten nicht neu bestätigt, keine Website/Schließung gesetzt; status pruefung bleibt. Quelle: https://www.goldundco.at/impressum/ ; http://www.goldundco-hh.de/ ; https://www.goldundco-hh.de/ ; https://www.northdata.de/Gold+Co,+Hamburg]
+- [Recherche 05.10.2026: ANKAUF/VERKAUF/GEBÜHREN — keine diesem Hamburger Betrieb belegbar zugeordnete Preisquelle. Österreichische Goldrechner/Ankaufspreise trotz Namensähnlichkeit ausdrücklich ausgeschlossen. Die Verzeichnis-„Zweitbelege“ vom 02.10. sind durch die Quellenkorrektur vom 03.10. und diese Prüfung weiter überholt. Sinnvoller Klärschritt: Hamburger Betreiber-/Gewerbeauskunft für Bergedorfer Schloßstr. 33. Recherche nach Suchintegrationsausfall HTTP 401 begrenzt. Quelle: vorgenanntes österreichisches Impressum und erhaltene Hamburger Lead-Historie]

@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkreter Kandidat statt bloßem Orts-MISS: **Volker Borchert Autoverwertung / Autowrackplatz Repau**, Dorfstraße 3A, 06369 Libehna, Portalkontakt 03496 217244. Die verlinkte Domain autowrackplatz-repau.de liefert per HTTP nur eine „im Aufbau“-Seite mit E-Mail, kein identifizierendes Impressum.
+
+Aktueller Betreiber, genaue Ortsteil-/Gemeindezuordnung, Anerkennung und Publikumsannahme sind damit nicht primär belegt. Keine Kontakte oder Adresse aus Verzeichnissen ins Frontmatter übernommen; kein Schließungsbeweis durch die Baustellenseite.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Bisherigen Koethen-/Libehna-Such-MISS durch passenden Personennamen aufgelöst: 11880-Detailseite direkt gelesen nennt Volker Borchert Autoverwertung, Dorfstr. 3 A, 06369 Libehna, 03496 217244, autowrackplatz-repau@gmx.de und http://www.autowrackplatz-repau.de. Weitere namensgenaue Suchleads führen Abschleppdienst/Autowrackplatz Repau. Lead bestätigt nicht aktuelle Tätigkeit oder Betreiberidentität; keine Umbenennung des generischen Seeds „Borchert“ und keine Fills; Quelle(n): https://www.11880.com/branchenbuch/libehna/060440459B27820594/volker-borchert-autoverwertung.html; https://html.duckduckgo.com/html/?q=Borchert+Libehna+Autoverwertung; https://www.gelbeseiten.de/gsbiz/c5155f50-5ecf-4501-8088-704683da5426; https://web2.cylex.de/firma-home/abschleppdienst-volker-borchert-autowrackplatz-repau-4203242.html (weitere Suchleads).]
+- [Recherche 05.10.2026: Betreiber-Domain tatsächlich geprüft: HTTP liefert nur „autowrackplatz-repau.de ... befindet sich aktuell noch im Aufbau!“ und autowrackplatz-repau@gmx.de, ohne Name/Adresse/Impressum/Unterseiten; HTTPS scheitert mit Transportfehler, kein TLS-Bypass. Übereinstimmende Mail ist ein Indiz zur Domain, kein unabhängiger Betreiber-/Standortbeleg. Website-Ausnahme nicht erfüllt, website/email/phone bleiben leer, status pruefung. Keine numerische Ankauf-, Verkaufs- oder Gebührenliste. Öffentliche GESA-Registeroberfläche nur JavaScript-Shell, kein Borchert-Einzeldatensatz gelesen, keine fehlende Anerkennung behauptet. Nächster Schritt Betreiber-/Gewerbe- und aktuelles Standortzertifikat anfordern, Libehna/Repau-Ortsbezeichnung dabei klären; Quelle(n): http://www.autowrackplatz-repau.de; https://www.autowrackplatz-repau.de (Transportfehler); https://www.altfahrzeugstelle.de/; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung.]
 
 ### Recherche 02.10.2026
 

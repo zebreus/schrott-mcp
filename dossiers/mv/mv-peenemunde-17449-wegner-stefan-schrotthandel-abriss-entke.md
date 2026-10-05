@@ -11,8 +11,8 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
-description: Schrotthandel mit Abriss und Entkernung auf Usedom (Termine nach Vereinbarung)
+status: pruefung
+description: Als Schrotthandel mit Abriss und Entkernung in Peenemünde verzeichnet; bestehende Adresse, Telefon und Terminhinweis sind bisher nur verzeichnisgestützt, aktuelle Betreiberbestätigung fehlt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Vorhandene Seed-Adresse Müggenhof 1 und 038371 20757 sind konsistente **Verzeichnis-Leads**, aber keine aktuelle Betreiber-/Registerbestätigung. Die regionale Mikroseite hat keinen Stefan Wegner zugeordneten Impressumsnachweis, sondern nur Kontakt/Urheberhinweis des Portalbetreibers. Ein Suchergebnis oder mehrfach abgeschriebene Daten rechtfertigen deshalb keinen bestätigten Aktiv-Status. Alte Angaben bleiben mit offener Beleglage erhalten; kein Schließungsbeleg.
 
 ## Timeline
 
@@ -41,3 +41,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Abriss/Entkernung — Usedom-Abdeckung (NEU)
 - urspr. Website-Angabe: keine
 - Adresse: Peenemünde 17449, Müggenhof 1
+
+### Recherche 05.10.2026
+
+- [Korrektur 05.10.2026: status aktiv → pruefung — eigene Nachprüfung der bisher als „Ausnahme“ übernommenen Aggregatorfelder: Regionale-Onlinepräsenz nennt zwar Stefan Wegner, Müggenhof 1 und 038371-20757 sowie Mobil 0160-94589675, aber als rechtlichen/technischen Absender nur Regionale-Onlinepräsenz mit info(at)regionale-onlinepräsenz.de. Das Örtliche bestätigt die Lead-Fakten, ist laut README kein unabhängiger Beleg. Adresse/Telefon als vorhandene historische Werte nicht gelöscht, description mit Unsicherheit versehen; keine Mobil-/E-Mail-/Website-Fills und keine Portal-E-Mail als Händlerkontakt. Quelle: http://wegner-schrotthandel.regionale-onlinepräsenz.de/ ; https://www.dasoertliche.de/Themen/Wegner-Stefan-Schrotthandel-Abriss-Entkernung-Peenemünde-Müggenhof]
+- [Recherche 05.10.2026: Northdata-Namensabfrage ohne eindeutigen passenden Betreiberbeleg; kein Beweis für Nichtexistenz eines Einzelgewerbes. ANKAUF/VERKAUF/GEBÜHREN: keine numerische Betreiberliste im geprüften Material. Termine/Abholung/Anlieferung auf der Portal-Mikroseite bleiben unbestätigte Leads, keine verbindlichen Bedingungen in Service-JSON übernommen. Weiter klären über Betreiber oder kommunale Gewerbeauskunft; Suchintegration im Verlauf HTTP 401, Recherche nicht erschöpfend. Quelle: https://www.northdata.de/Stefan+Wegner,+Peenem%C3%BCnde ; vorgenannte Mikroseite]

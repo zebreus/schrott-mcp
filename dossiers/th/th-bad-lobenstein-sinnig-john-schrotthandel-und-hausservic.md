@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neue namensgenaue Spur: **John Sinnig, Schrotthandel & Kleintransporte / Hausservice**, Am Geheeg 6, 07356 Bad Lobenstein; Portalkontakte 036651 30881 und 0174 2612819. Diese Verzeichnisse widerlegen die frühere Annahme, es gebe keine passenden Suchleads, erfüllen aber noch nicht den Primärbelegstandard.
+
+Anschrift/Kontakte bleiben bis Betreiber-, Register- oder kommunaler Bestätigung außerhalb des Frontmatters. Keine Verbindung zu Kosmetik- oder Werkstatt-Namensvettern und keine Schließung behauptet.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Suchweg verbreitert, bisherigen eingeschränkten 11880-Negativbefund eingeordnet: SELLWERK-Detailseite direkt gelesen nennt „Sinnig John Schrotthandel & Kleintransporte“, Am Geheeg 6, 07356 Bad Lobenstein, 036651-30881 und 0174-2612819. Weitere Suchleads führen dieselbe Person als Schrotthandel/Hausservice. SELLWERK enthält hier keine belastbare Betreiberidentifikation/Impressum oder verifizierte Betreiber-Webseite; nicht als operator-run Social-Profil gezählt. Neue eindeutige Leads, aber weiterhin kein Register-/Betreiber-/kommunaler Einzelfallbeleg und keine Fills/status-Änderung. Keine aktuelle Ankauf-, Verkaufs- oder Gebührenliste verifiziert. Nächster Schritt: John Sinnig/Gewerberegister an dieser Anschrift bestätigen, Benennungsvarianten Hausservice/Kleintransporte klären; Quelle(n): https://sellwerk.de/firmenprofil/sinnig-john-schrotthandel--kleintransporte (direkt gelesener Aggregator); https://html.duckduckgo.com/html/?q=Sinnig+John+Schrotthandel+Bad+Lobenstein; https://web2.cylex.de/firma-home/sinnig-john-schrotthandel---hausservice-7184683.html; https://www.schrottplatz.org/bad-lobenstein/schrott-sinnig-john-schrotthandel-und-hausservice-aYEPyH.html (zusätzliche Suchleads).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

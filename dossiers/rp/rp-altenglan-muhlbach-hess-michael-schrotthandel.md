@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unaufgelöster Adresskonflikt: **Potzbergstraße 1** (bestehender Seed-/Portalwert) gegen **Hoffeldstraße 14** (schrottplatz-info), jeweils Altenglan-Mühlbach mit derselben Portalnummer 06381 9205535. Eine Verlegung oder zwei Betriebsplätze sind nicht primär belegt.
+
+Der vermeintliche Homepage-Link des Schrottplatzverzeichnisses ist ein technischer Fehler, kein Betreiberauftritt. Aktuelle Annahme, Öffnungszeiten und Preise bleiben ungeklärt; keine neuen Frontmatter-Füllungen.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: schrottplatz-info-Detailseite separat gelesen: Hoffeldstr. 14, 66885 Altenglan-Mühlbach, 06381 9205535. Ihr „zur Homepage“-Link enthält eine PHP-Deprecated-/htmlspecialchars(null)-Fehlermeldung statt einer externen Betreiber-URL; dieser Button beweist keine Website. Angebot/Leistungsbeschreibung und Zeiten dort ausdrücklich nicht erfasst. Adresskonflikt mit Potzbergstr. 1 unverändert, nicht durch Verzeichnismehrheit entschieden; keine Betreiber-/Registerquelle zur Auflösung verifiziert. Bestehende Straße erhalten, Telefon/Mail/PLZ weiterhin leer, status pruefung. Kein bezifferter Ankauf-/Verkauf-/Gebührentarif; Nächster Schritt Betreiber-/Gewerberegisterbestätigung der heutigen Geschäfts-/Annahmeadresse und ggf. Umzugshistorie; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Altenglan/Hess-Michael-Schrotthandel; https://html.duckduckgo.com/html/?q=Hess+Michael+Schrotthandel+Altenglan (Suchleads).]
 
 ### Recherche 02.10.2026
 

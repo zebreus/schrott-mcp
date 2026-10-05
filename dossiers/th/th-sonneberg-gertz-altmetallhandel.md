@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klärfall mit **Ortskonflikt Sonneberg / Judenbach (Föritztal)**. Der namensgenaue Portallead nennt Alte Handelsstraße 2D, 96515 Judenbach und 03675 469364, jedoch ohne Betreiber-Impressum oder identifizierten Registerbeleg. Die bestehende Sonneberger Zuordnung wurde deshalb nicht umgehängt.
+
+Aktueller Betrieb, Annahmesorten, Publikumsankauf und Preise sind primär nicht bestätigt. Auch ein Orts-/Branchenname oder ein beliebiger Edelmetallhändler aus derselben Region löst die Identität nicht.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Namensgenaue Detailseite schrottplatz.org einzeln geöffnet: „Schrott Gertz Altmetallhandel“, Alte Handelsstr. 2D, 96515 Judenbach, 03675 469364; URL-Ort Föritztal, sichtbarer Ort Judenbach. Weiterhin Aggregator-Lead, keine Betreiberseite/HR-/Kommunal-Einzelfallquelle identifiziert. Gegenrecherche Register nach Name/Ort ergab keinen sicher passenden Rechtsträger; ähnlich bezeichnete Edelmetallgesellschaften sind kein Gertz-Beleg und deren Liquidationsdaten werden nicht übertragen. Unverändertes Frontmatter/status pruefung, keine Schließung aus Suchgrenzen. Kein bezifferter Ankauf-/Verkauf-/Gebührentarif verifiziert. Nächster Schritt: Gewerbe-/Betreiberbestätigung zu dieser exakten Anschrift und Ortszuordnung, nicht automatisch auf Sonneberg geocodieren; Quelle(n): https://www.schrottplatz.org/foeritztal/schrott-gertz-altmetallhandel-aYEPHJ.html; https://html.duckduckgo.com/html/?q=Gertz+Altmetallhandel+Judenbach (Suchleads).]
 
 ### Recherche 01.10.2026
 

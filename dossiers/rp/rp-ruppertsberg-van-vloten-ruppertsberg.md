@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neue namensbezogene Spur **Silke van Vloten VSI**, Obergasse 8D, 67152 Ruppertsberg, 06326 7673. Bislang nur Verzeichnisse, keine Betreiber-/Registerbestätigung zu Tätigkeit und aktueller Existenz.
+
+Das beschädigte importierte Straßenfeld ist weiterhin kein verifizierter Adresswert; keine stille Bereinigung oder Umbenennung ohne Primärbeleg. Umfangreiche Material-/Mindestmengenangaben des Schrottportals werden nicht übernommen, ebenso wenig dessen nicht erläuterte Anzeige „Geschlossen“.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Vorheriger Such-MISS eingegrenzt: namensgenaue Spur „Silke van Vloten VSI“ gefunden, lokaleschrottplatz-Detailseite direkt gelesen: Obergasse 8D, 67152 Ruppertsberg, +49 6326 7673. Weitere Suchleads schreiben teils Obergasse 8 ohne D. Kein Betreiber-Impressum, Register-/Gewerbebeleg oder verifiziert operator-run Profil gefunden. VSI-Bedeutung und Rechtsträger unbekannt, nicht als GmbH oder Autoverwertungszertifizierung interpretiert. Name/trader_type und beschädigtes street-Feld nicht überschrieben, keine Frontmatter-Fills; Quelle(n): https://lokaleschrottplatz.de/silke-van-vloten-vsi/ (direkt gelesener Aggregator); https://html.duckduckgo.com/html/?q=van+Vloten+Ruppertsberg+Obergasse; https://www.deutsche-firmensuche.com/firma/92697-silke-van-vloten-vsi (Suchlead).]
+- [Recherche 05.10.2026: Portal zeigt „Geschlossen“ ohne belastbare Betriebsaufgabequelle und listet umfangreiche Schrottsorten sowie angebliche Mindestgewichte 100 kg Fe/1 kg NE. Diese Bedingungen stammen nicht aus einer bestätigten Betreiberquelle, deshalb keine Annahmebedingungen oder Schließungsstatus übernommen. Keine bezifferte Ankauf-, Verkaufs- oder Gebührenliste verifiziert. Nächster Schritt Silke van Vloten/Gewerbezuordnung und genaue Hausnummer primär bestätigen, dann Parserfehler im street-Feld nachvollziehbar korrigieren; Quelle(n): https://lokaleschrottplatz.de/silke-van-vloten-vsi/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

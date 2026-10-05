@@ -4,15 +4,15 @@ name: Rich. Herbig Bayerischer Metallhandel GmbH
 trader_type: metallhaendler
 state: BY
 city: Nürnberg
-street: Dammstr. 5
+street: Rothenburger Straße 11
 postcode: '90443'
 phone: 0911 270840
 email: ''
 opening_hours: ''
-website: ''
-website_status: unbekannt
+website: https://www.niemet.de/
+website_status: aktiv
 status: aktiv
-description: NE-Metallhandel (B2B, Niemann-Gruppe); Herstellung von Metallwaren, kein öffentlicher Schrottankauf belegt
+description: 'NE-Metallhandel innerhalb der Niemann-Gruppe; Kontaktstandort Rothenburger Straße 11 laut Gruppenseite und Register HRB 17690 Nürnberg. Gruppenangebot Metallhalbzeuge für Gewerbe; öffentlicher Schrottankauf und numerische Schrottpreise nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**NIEMET ist die zugehörige Gruppenseite, keine Fehlverlinkung.** Der Standortfinder lädt Details über die eigene Datei `js/map_glob.js`; darin steht Rich. Herbig Bayerischer Metallhandel GmbH ausdrücklich mit **Rothenburger Straße 11, 90443 Nürnberg, +49 911 27084-0**. HRA/HRB-Namensvarianten nicht gleichsetzen: maßgeblich ist die heutige GmbH **HRB 17690 Nürnberg**.
+
+NE-Metall-/Halbzeughandel im B2B-Kontext. Ein öffentlich zugänglicher Schrottankauf ist nicht nachgewiesen. Die alte Dammstraße-Angabe bleibt in der Historie, wird aber nicht mehr als belegte Kundenadresse geführt.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026 (Owner-Gate): website auf Domain-Root normiert; die belegende Gruppen-Standortseite und ihre individuellen Kartendaten bleiben als Quellen in der Recherche erhalten. Keine Änderung der belegten Herbig-Zuordnung; Quelle(n): https://www.niemet.de/, https://www.niemet.de/vertriebsnetz.htm, https://www.niemet.de/js/map_glob.js]
+
+- [Korrektur 05.10.2026: Aussage NIEMET fremd/Fehlverlinkung vom 30.09./02.10.2026 widerlegt. Eigene Standortdaten des Gruppen-Standortfinders in map_glob.js nennen Rich. Herbig Bayerischer Metallhandel GmbH, Rothenburger Str. 11, 90443 Nürnberg, Tel. +49 911 27084-0, Fax -35. Register HRB 17690 Nürnberg bestätigt Name/Adresse und Niemann-Verbindungen, einschließlich Publikationen 2025/28.01.2026. Zwei zulässige Quellen; street Dammstr. 5→Rothenburger Straße 11, website auf Gruppen-Standortfinder gesetzt. Gruppen-Impressum Herausgeber Metal-Marketing GmbH, HRB 25135 Bremen, ausdrücklich nicht Herbig-Rechtsträger.; Quelle(n): https://www.niemet.de/vertriebsnetz.htm, https://www.niemet.de/js/map_glob.js, https://www.niemet.de/impressum.htm, https://www.northdata.de/Rich%C2%B7%20Herbig%20Bayerischer%20Metallhandel%20GmbH,%20N%C3%BCrnberg/HRB%2017690]
+- [Recherche 05.10.2026: Sämtliche Standortdetails der dynamischen Karten-Datei gelesen. Am selben Nürnberger Ort wird zusätzlich ein Vertriebsbüro der Manfred J.C. Niemann Metallhandel Hanau GmbH genannt: Ko-Lokation ist keine Umfirmierung/Identität mit Herbig. Ältere Herbig GmbH HRB 111 und KG HRA 8177 nicht in heutigen HRB-17690-Datensatz hineinmischen. Unbelegte Herstellung von Metallwaren aus description entfernt; nachgewiesen NE-Metallhandel, Gruppenangebot Halbzeuge, kein öffentlicher Schrottankauf/Ankaufspreistarif festgestellt.; Quelle(n): https://www.niemet.de/js/map_glob.js, https://www.niemet.de/, https://www.northdata.de/Rich%C2%B7%20Herbig%20Bayerischer%20Metallhandel%20GmbH,%20N%C3%BCrnberg/HRB%2017690]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

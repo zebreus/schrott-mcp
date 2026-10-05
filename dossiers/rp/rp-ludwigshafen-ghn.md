@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der belegte regionale Kandidat ist **GHN Schrott- und Metallrecycling GmbH, HRB 749678 AG Mannheim**, Zielstraße 12, 68169 Mannheim. Betreiberseite und Register stimmen beim Rechtsträger/Ort überein; eine eigene Ludwigshafener Niederlassung oder die Identität dieses generischen Seed-Eintrags ist damit nicht bewiesen.
+
+Keine Mannheimer Kontakte oder kostenlose Abholung als Ludwigshafener Standortdaten übernommen. Das Betreiber-Impressum nennt zudem eine vom aktuellen Register abweichende Geschäftsführung. Siehe getrenntes Dossier `bw-mannheim-ghn-schrott-metallrecycling`.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Zusätzlicher unabhängiger Registerbeleg zum Mannheimer Kandidaten live gelesen: HRB 749678 AG Mannheim, Zielstr. 12, 68169 Mannheim, An-/Verkauf und Sammlung/Transport/Sortierung von Metallen, Kabeln und Altbatterien; Abschlussveröffentlichung 08.07.2026 für 2024. Registerchronik 05.09.2024 nennt Gökhan Nalu als GF statt Fatma Baysal, Betreiber-Impressum weiterhin Fatma Nalu und ohne HRB. Frühere GF-Angabe vom 02.10. daher nur Website-Angabe, nicht aktuell registerbestätigt. Kein Beleg für einen Ludwigshafener Betrieb oder Rechtsnachfolge des Seed-Kürzels; kein Fill/Merge. Mannheimer Schwester-Dossier außerhalb dieses Auftrags nicht geändert; Quelle(n): https://www.northdata.de/GHN+Schrott-+und+Metallrecycling+GmbH,+Mannheim; https://ghn-schrott.de/impressum/.]
+- [Recherche 05.10.2026: Betreiber-Homepage mit Leistungen/Kontakt erneut geprüft: Mannheimer Anschrift und kostenlose Schrottabholung, aber keine bezifferte Ankauf-/Verkaufsliste oder Entsorgungsgebühr. Kostenlose Abholung ist ein Dienstleistungsversprechen, kein positiver Schrott-Ankaufpreis und nicht Beleg einer Niederlassung im bedienten Gebiet. Website-Ausnahme scheitert hier außerdem am fehlenden HRB im Impressum und ungeklärten Filialbezug. Status pruefung bleibt; nächste Prüfung muss einen konkreten Ludwigshafener Standort oder die Herkunft der Ortszuordnung belegen; Quelle(n): https://ghn-schrott.de/; https://ghn-schrott.de/impressum/.]
 
 ### Recherche 02.10.2026
 

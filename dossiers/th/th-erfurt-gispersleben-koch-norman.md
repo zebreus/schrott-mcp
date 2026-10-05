@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisgeführter Wertstoffhändler **Norman Koch**, Camburger Straße 5, Erfurt-Gispersleben; heutiger Betreiber und Betriebskontakt noch ungeklärt. Bestehende Straße/PLZ/Telefon/Beschreibung sind Legacy-Portaldaten, keine aktuellen Primärbestätigungen.
+
+Der nun aufgelöste Gelbe-Seiten-Website-Link führt lediglich zu **schrottplatz-info**, nicht zu einer Betreiberwebsite. Aktueller Portalwert 01522 1032583 widerspricht dem vorhandenen 0174 3599235. Die vier angeführten Bewertungen stammen aus 2018/2019 und sind kein Aktivitätsbeleg für 2026. Status bleibt `pruefung`.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Offenen Website-Button aus 02.10. durch direkten Gelbe-Seiten-Detailabruf aufgelöst: Ziel https://www.schrottplatz-info.de/schrottplatz/Erfurt/Koch-Norman, also weiterer Aggregator und KEIN Betreiberauftritt. GS nennt jetzt 01522 1032583, nicht die vorhandene 0174 3599235; Ziel-/Datenherkunft im Portal teilweise Golocal. Bestehende Telefon-/Adresswerte nicht überschrieben, der Konflikt bleibt ownerseitig zu klären. Keine neue E-Mail/Website/Öffnungszeit gefüllt. Primärbelegstandard trotz vieler Portalwiederholungen weiterhin nicht erfüllt; Quelle(n): https://www.gelbeseiten.de/gsbiz/300a778e-77c8-4fcc-b074-1b4d33174ec2.]
+- [Recherche 05.10.2026: Bewertungs-Aktivitätssignal vom 02.10. korrigiert: alle vier GS-Rezensionen stammen aus Golocal (eine Herkunft), datiert 14.01.2018, 28.05.2019 und zweimal 16.11.2019. Keine aktuelle Betreiberaktivität 2026 daraus ableiten; zwei Texte sind zudem wortgleich. Alte description aus Historienerhaltung nicht geändert, aber Leistungs-/Ratingaussagen nicht als verifiziert weiterverwendet. Keine bezifferte Ankauf-, Verkaufs- oder Gebührenliste und keine primär belegten Privat-Annahme-/Abholbedingungen. Nächster Schritt: Gewerbe-/Betreiberkontakt und heutige Nutzung der mehrfach belegten Anschrift prüfen, nicht PAS Stuckert oder andere dortige Firmen als Koch-Nachfolger einsetzen; Quelle(n): https://www.gelbeseiten.de/gsbiz/300a778e-77c8-4fcc-b074-1b4d33174ec2; bisherige Primär-/Adresskonfliktprüfung vom 03.10.2026 in dieser Timeline.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -1,11 +1,11 @@
 ---
 slug: bb-brieselang-ot-zeestow-zeestow-av
-name: Zeestow (AV)
+name: Autoverwertung Zeestow (Frank Ebel)
 trader_type: autoverwertung
 state: BB
 city: Brieselang OT Zeestow
 street: Gewerbering 23
-postcode: ''
+postcode: '14656'
 phone: ''
 email: ''
 opening_hours: ''
@@ -22,13 +22,18 @@ provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
-# Zeestow (AV)
+# Autoverwertung Zeestow (Frank Ebel)
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Jetzt zwei zulässige Quellen für die Standort-/Betreiberzuordnung: Die Gemeinde Brieselang nennt Autoverwertung Zeestow, Frank Ebel, Gewerbering 23, 14656; der amtliche Abfallplan nennt dieselbe Anlage mit Stand November 2022. Name und PLZ dadurch präzisiert, aber heutige Annahme und gültige Altfahrzeug-Zertifizierung weiterhin offen. Neue kommunale Kontaktangaben und die tatsächliche .com-Domain bleiben ein undatierter Einzelbeleg, daher nicht als gesicherte aktuelle Kontakte ins Frontmatter übernommen.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Neue zulässige unabhängige Primärquelle gegenüber dem Owner-Gate 03.10.: kommunales Branchenbuch der Gemeinde Brieselang vollständig gelesen, „Autoverwertung Zeestow“, Ansprechpartner Frank Ebel, Gewerbering 23, 14656 Brieselang OT Zeestow. Amtlicher Abfallplan erneut gelesen, Tabelle 9.2 Stand November 2022 kongruent „Autoverwertung Zeestow Frank Ebel“. Name und PLZ jetzt aus zwei amtlichen Quellen präzisiert; Slug, Hauskoordinaten und status pruefung unverändert. Das undatierte kommunale Listing bestätigt Zuordnung, nicht aktuelle Öffnung/Zertifikatsgültigkeit.; Quelle(n): https://www.gemeindebrieselang.de/Branchenbuch-Eintraege/Autoverwertung-Zeestow.html , https://bravors.brandenburg.de/verwaltungsvorschriften/awp_gefaehrliche_abfaelle_2024]
+- [Recherche 05.10.2026: Kommunale Kontaktangaben: 033234 90367, zusätzliche Nummer 033234 22792, Mobil 0163 7042446, info@avw-zeestow.com, https://www.avw-zeestow.com. Korrektur zum alten Domainversuch: Gemeinde verlinkt .COM, nicht .DE. .com über HTTP/HTTPS nicht erfolgreich abrufbar, Transportfehler ist kein Schließungsbeleg. Kontakte nur auf einer undatierten Primärquelle, daher weiterhin keine Kontakt-/Website-Fills. Footer-Sprechzeiten sind Gemeindeverwaltung, NICHT Autoverwertung; keine Öffnungszeiten oder Preise übernommen.; Quelle(n): https://www.gemeindebrieselang.de/Branchenbuch-Eintraege/Autoverwertung-Zeestow.html , https://www.avw-zeestow.com , http://www.avw-zeestow.com]
 
 ### Recherche 03.10.2026 (Owner-Gate)
 

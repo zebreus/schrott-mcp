@@ -10,9 +10,9 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.regu-recycling.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
-description: ''
+description: 'Registerbelegter Metallhandel; Betreiberwebsite bewirbt Privat-/Gewerbeankauf und Containerdienst. Hofanschrift, Kontakte, Zeiten und konkrete Servicebedingungen bisher Betreiber-Einzelangaben, unabhängig noch nicht bestätigt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Bodensee / Oberschwaben
@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberwebsite und nun gefundener Registerbeleg **HRB 631783 Ulm** stützen die Identität. Als Kunden-/Recyclinghofadresse nennt der Betreiber **Teuringer Straße 57, 88045 Friedrichshafen**; **Kapitän-Wagner-Straße 28, 88048 Friedrichshafen** ist die abweichende Registeranschrift, nicht automatisch die Annahmestelle. Unabhängige Bestätigung der Hofdaten steht noch aus; das Impressum enthält keine Registernummer.
+
+Privat-/Gewerbeankauf mit Ausweis, Container 0,5–12 m³ und gewerbliche Großmengenabholung. Preise auf Anfrage, keine numerische Liste gefunden. Die einzeln gelesene Konstanz-Seite beschreibt ein Einzugsgebiet, keine zweite Hofadresse.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026 (Owner-Gate): Neue Hof-/Kontakt-/Öffnungszeit-Fills und strukturierte Anliefer-/Abholbedingungen zurückgenommen. Impressum und Leistungsseite erneut direkt gelesen; Northdata HRB 631783 unabhängig bestätigt, dort aber Kapitän-Wagner-Str. 28 statt Betreiber-Hofadresse Teuringer Straße 57. Die juristische Identität ist nun gut gestützt, der Registerbeleg bestätigt jedoch nicht die einzelnen Hof-/Serviceangaben. Das Betreiber-Impressum ohne HRB erfüllt nicht alle Kriterien der Alleinbeleg-Ausnahme. Konkrete Eigenangaben vollständig als Recherche behalten, description mit Beleggrenze und website_status aktiv; keine falsche Registeradresse als Annahmestelle übernommen; Quelle(n): https://www.regu-recycling.de/impressum/, https://www.regu-recycling.de/dienstleistungen/, https://www.northdata.de/REGU%20Recycling%20Metallhandels-GmbH,%20Friedrichshafen/Amtsgericht%20Ulm%20HRB%20631783]
+
+- [Recherche 05.10.2026: Fehlenden Zweitbeleg gefunden und gelesen: REGU Recycling Metallhandels-GmbH, Amtsgericht Ulm HRB 631783, Registeranschrift Kapitän-Wagner-Str. 28, 88048 Friedrichshafen; Publikation 12.06.2026 zum Jahresabschluss 2024. Betreiber-Impressum/Team nennen Renaldo und Timon Guttenberger, Recyclinghof Teuringer Straße 57, 88045 Friedrichshafen; Tel. 07541 55504, info@regu-recycling.de. Identität durch Betreiber+Register belegt, Betriebsadresse/Kontakt/Zeiten gefüllt; Registeradresse nicht als Hofadresse übernommen.; Quelle(n): https://www.regu-recycling.de/impressum/, https://www.regu-recycling.de/team/, https://www.northdata.de/REGU%20Recycling%20Metallhandels-GmbH,%20Friedrichshafen/Amtsgericht%20Ulm%20HRB%20631783]
+- [Recherche 05.10.2026: Startseite, Dienstleistungen, Team, Fuhrpark und Konstanz-Seite jeweils einzeln gelesen. ANKAUF für private Kleinmengen und Gewerbe, sofortige Vergütung bei Anlieferung, Ausweis erforderlich; Geschäftskunden-Abholung größerer Mengen, Container 0,5-12 m³. Tages-/materialabhängige Preise und individuelle Containerangebote, keine numerische Ankaufsliste/Verkaufsliste/Gebührentabelle auf geprüften Seiten. Konstanz-SEO-Seite führt weiter nur Friedrichshafener Kontakt, daher keine Filiale Konstanz angelegt; allgemeine Zertifizierungswerbung nicht als aktuell gültiges EFB-Dokument gewertet.; Quelle(n): https://www.regu-recycling.de/dienstleistungen/, https://www.regu-recycling.de/fuhrpark/, https://www.regu-recycling.de/konstanz/]
 
 ### Recherche 01.10.2026
 

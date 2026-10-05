@@ -24,9 +24,14 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neue gewerbliche Spur „Luczkow Schrotthandel“, jedoch nur in Aggregatoren: 11880 nennt Altershausen 77, 97486 Königsberg und 0175 8534027. Andere Suchtreffer schreiben Altershäuser Straße 77; das ist nicht dieselbe wörtliche Adresse und bleibt ungeklärt. Die ältere Suche nach Privatpersonen war unergiebig, schließt diesen gewerblichen Lead aber nicht aus. Keine Betreiberquelle, keine sichere Adress-/Kontaktübernahme, keine bestätigten Ankaufpreise.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Korrektur der früher zu engen Suchbilanz: ein gewerblicher Lead existiert. 11880-Detaileintrag vollständig gelesen: Luczkow Schrotthandel, Altershausen 77, 97486 Königsberg in Bayern (Altershausen), Telefon 0175 8534027; keine Betreiber-Domain, Mail oder Öffnungszeiten. Firmania/Cylex-Suchtreffer nennen dagegen Altershäuser Str. 77; Adresse nicht stillschweigend normalisiert. Alle bleiben Aggregator-Leads, kein unabhängiger Primärbeleg, deshalb keine Frontmatter-Fills und keine Zuordnung zu den früher gefundenen Bad-Rodacher Privatpersonen.; Lead-Quelle(n): https://www.11880.com/branchenbuch/koenigsberg-in-bayern/120674719B104992012/luczkow-schrotthandel.html , https://firmania.de/koenigsberg_in_bayern/luczkow-schrotthandel-8211917 , https://www.gelbeseiten.de/gsbiz/d38a3b56-83cd-472d-a9c4-badf4ba39d18]
+- [Recherche 05.10.2026: Status bleibt pruefung, kein Schließungsbefund. Ankauf, Betreiberidentität, eigene Annahmestelle sowie mögliche Verlagerung nicht primär belegt; keine numerische Ankauf-, Verkaufs- oder Gebührenliste gefunden.]
 
 ### Recherche 03.10.2026
 

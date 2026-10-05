@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: tot
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ungeklärter Dietzenbacher Portal-Lead „Miky Schrotthändler“. Lohrer Weg, 63128 Dietzenbach, 01575 1529589 und mikyschrotthandler.com sind dem Betreiber bislang nicht durch rechtliche Eigenangaben oder unabhängige Quelle zugeordnet. Die Lead-Domain ist beim Direktabruf nicht auflösbar; das belegt weder die Betreiberidentität noch eine Geschäftsaufgabe. Kein bestätigter Preis-/Servicebeleg.
 
 ## Timeline
 
@@ -35,3 +35,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 05.10.2026
+
+- [Korrektur 05.10.2026: website_status tot → unbekannt, weil keine zugeordnete Betreiberwebsite im Frontmatter existiert und die Domain nur aus einem Portal stammt. Direktabruf https://mikyschrotthandler.com/ scheitert an DNS/Namensauflösung; tatsächliche Domain-Erreichbarkeit und Unternehmensaktivität sind getrennte Fragen. Kein Adress-/Telefon-/Website-Fill, keine Schließung, status pruefung. Die „tot“-Aussage vom 02.10. bleibt historisch erhalten, aber ist nicht als bewiesener Betriebsstatus zu lesen. Quelle: https://mikyschrotthandler.com/ (DNS-Fehler am 05.10.2026); Portalzuordnung laut Recherche 02.10.2026]
+- [Recherche 05.10.2026: ANKAUF/VERKAUF/GEBÜHREN — keine zuordnungsfähige Betreiber-Preisliste im geprüften Material. Weiter benötigt: vollständiger Betreibername/rechtliches Impressum oder kommunale Gewerbeauskunft zum Dietzenbacher Lead, nicht Vergleich mit beliebigen mobilen Schrottseiten. Websuche durch HTTP 401 der Suchintegration begrenzt. Quelle: vorgenannter Direktabruf und erhaltene Vorwellen-Leads]

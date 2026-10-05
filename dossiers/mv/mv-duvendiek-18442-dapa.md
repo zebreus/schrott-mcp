@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://www.dapa-hst.de/
 website_status: aktiv
 status: aktiv
-description: ''
+description: Autoverwertung und Gebrauchtteileverkauf am DAPA-Standort Duvendiek. Betreiber bietet Altfahrzeugannahme mit Verwertungsnachweis, Unfallwagenankauf und Abholung nicht fahrbereiter Fahrzeuge; Transportkosten nach Aufwand.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Eigenständiger DAPA-Verwertungsstandort, **nicht die Werkstatt am Hauptsitz Lüssow**. Die aktuelle Standortseite nennt Kranichblick 32, 18442 Duvendiek, und 038321 363. Der verzeichnisbasierte Gegenlead Hausnummer 30 ist kein gleichrangiger Beleg. Dennoch bleibt die Straße im Frontmatter vorerst leer: Die Betreiberadresse ist eine eindeutige Eigenangabe, aber es fehlt ein unabhängiger Hausnummerbeleg; das Impressum enthält keine HRB und erfüllt die strenge Alleinbeleg-Ausnahme des README nicht vollständig.
+
+Die juristische Betreiberidentität DAPA GmbH ist nun registerseitig mit dem Hauptsitz abgeglichen. Fahrzeuge werden verwertet, Unfallwagen angekauft und geprüfte Gebrauchtteile verkauft. Abholung ist **nicht pauschal kostenlos**, sondern Transport nach Aufwand. Website-Werkstattzeiten und der 24/7-Pannendienst gelten nicht automatisch für die Annahme in Duvendiek.
 
 ## Timeline
 
@@ -49,3 +51,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Bestand re-verifiziert – Betreiber-Standortseite nennt weiter "DAPA Autoverwertung Duvendiek, Kranichblick 32, 18442 Duvendiek, Telefon 038321-363"; Impressum weiter nur HQ Am Langendorfer Berg 8, 18442 Lüssow/Stralsund; Straßenkonflikt 32 (Betreiber) vs. 30 (Verzeichnisse) besteht fort → street weiter leer; Quelle(n): dapa-hst.de/locations/duvendiek + /impressum (Abruf 01.10.2026)]
 - [Recherche 01.10.2026: Keine neuen Fills (PLZ/Telefon/website_status bereits gesetzt); Statusfeld unverändert; Quelle(n): siehe Vorbullet]
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Zweitseitige Identitätsprüfung — Impressum benennt DAPA GmbH, Am Langendorfer Berg 8, 18442 Lüssow/Stralsund, Detlef Salomon als Inhaltsverantwortlichen; Northdata bestätigt DAPA GmbH, HRB 21162 Stralsund, dieselbe Hauptsitzanschrift und u.a. Autoverwertung/Fahrzeug-/Ersatzteilhandel. Die Duvendiek-Detailseite ist ausdrücklich Teil dieses Betreiberauftritts, kein Hauptsitz-Stadt-Mismatch. Straße weiterhin nicht gefüllt: Kranichblick 32 ist Betreiber-Einzelangabe; kein unabhängiger Hausnummerbeleg, Impressum ohne HRB erfüllt nicht sämtliche README-Ausnahmekriterien. Alte Verzeichnis-Hausnummer 30 nicht als bewiesene Alternativadresse behandeln. Quelle: https://www.dapa-hst.de/standorte/impressum/ ; https://www.northdata.de/DAPA+GmbH,+L%C3%BCssow ; https://www.dapa-hst.de/locations/duvendiek/]
+- [Recherche 05.10.2026: Vollcrawl aller sechs Standorte — Duvendiek, Stralsund/Lüssow, Grimmen, Ribnitz-Damgarten, Jarmen und Rügen einzeln geöffnet, dazu Standortübersicht, Kontakt, Autoverwertung und Autoankauf. Duvendiek spezialisiert auf Verwertung/Ersatzteile, Werkstatt/Abschleppdienst laut Detailseite an anderen Standorten. Für Altfahrzeugabgabe Fahrzeugschein/Fahrzeugbrief mitbringen; bei nicht fahrbereitem Fahrzeug Abholung möglich, Transport nach Aufwand. Deshalb keine Übernahme der globalen Werkstattzeit Mo-Fr 8–18 oder Notrufbereitschaft 24/7 in opening_hours; keine generische Schrottannahme aller Metalle daraus ableiten. Beschreibung präzisiert; übrige fehlende Felder nicht aus HQ-Facts aufgefüllt. Quelle: https://www.dapa-hst.de/standorte/ ; https://www.dapa-hst.de/locations/duvendiek/ ; https://www.dapa-hst.de/locations/stralsund/ ; https://www.dapa-hst.de/locations/grimmen/ ; https://www.dapa-hst.de/locations/ribnitz-damgarten/ ; https://www.dapa-hst.de/locations/jarmen/ ; https://www.dapa-hst.de/locations/samtens-auf-ruegen/ ; https://www.dapa-hst.de/standorte/kontakt/ ; https://www.dapa-hst.de/autoverwertung/ ; https://www.dapa-hst.de/autoankauf/]
+- [Recherche 05.10.2026: Preiswege getrennt — ANKAUF: individuelle Fahrzeugbewertung und vereinbarte Auszahlung, keine numerische Schrott-/Autoankaufsliste. VERKAUF: Gebrauchtteile nach Anfrage; der verlinkte Onlineshop zeigt beim Abruf überwiegend Merchandising (Bekleidung, Modell-LKW, Sticker usw.), keine belastbare Gebrauchtteile- oder Metallpreisliste. GEBÜHREN: Autoverwertungsseite berechnet Abholtransport nach Aufwand und nennt Preis vorab telefonisch, keine Pauschale veröffentlicht. Shopbeträge sind Waren-Verkaufspreise (AGB inkl. MwSt. zzgl. ggf. Versand), keinesfalls Schrottvergütung. Quelle: https://www.dapa-hst.de/autoverwertung/ ; https://www.dapa-hst.de/autoankauf/ ; https://www.dapa-hst.de/shop/ ; https://www.dapa-hst.de/agb/]

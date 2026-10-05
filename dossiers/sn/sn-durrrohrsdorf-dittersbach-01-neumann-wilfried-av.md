@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Namensgenaue Verzeichnis-Spur **Wilfried Neumann Autorecycling/Autohandel/Sandstrahlarbeiten**, Radeberger Straße 17, 01833 Dürrröhrsdorf-Dittersbach-Wünschendorf. Die vorhandene Telefonnummer 035026 91519 und Beschreibung stammen ebenfalls nur aus Verzeichnissen; „doppelt belegt“ in der alten Timeline bedeutet **nicht zwei unabhängige Primärbelege**.
+
+Aktueller Betreiber, zertifizierte Altautoannahme, Abholung und Preise sind noch nicht bestätigt. Historische Felder bleiben erhalten, werden aber nicht als gegenverifiziert dargestellt.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Namens-/Adresssuche liefert weiterhin die konkrete Spur Wilfried Neumann, Radeberger Str. 17, 01833 Dürrröhrsdorf-Dittersbach OT Wünschendorf, 035026 91519; keine verifizierte Betreiberseite oder passender direkt gelesener Register-/Kommunal-Einzelfallnachweis. Die alte Telefonfüllung beruhte auf Das Örtliche + Telefonbuch: beides Aggregatoren, nicht der README-Zwei-Primärquellenstandard. Vorhandene phone/description erhalten, ausdrücklich ungeprüfte Legacy-Werte; keine neuen Adress-/Kontaktfüllungen, kein status aktiv. Angekündigte Euro-Symbole eines Verzeichnisses sind keine Ankaufpreise; keine bezifferte Ankauf-, Verkaufs- oder Gebührenliste verifiziert; Quelle(n): https://html.duckduckgo.com/html/?q=Neumann+Wilfried+Autoverwertung+W%C3%BCnschendorf; https://www.gelbeseiten.de/gsbiz/3bdc8523-2b2c-46ff-8dc8-e30adcb784d5; https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/wilfried-neumann-autorecycling-autohdl-u-sandstrahlarbeiten-duerrroehrsdorf-dittersbach-72733538.html (Suchleads).]
+- [Recherche 05.10.2026: Anschlussrecherche muss Betreiber-/Zertifikatsnachweis zur exakten Wünschendorfer Anlage beschaffen. Öffentliches GESA-Fachbetrieberegister im Abruf nur JavaScript-Shell, kein Neumann-Einzeldatensatz geprüft. Nach GESA sind Annahme-/Rücknahmestellen ohnehin unvollständig freiwillig erfasst; daher keine Betriebsaufgabe oder fehlende Anerkennung aus erfolgloser Websuche ableiten; Quelle(n): https://www.altfahrzeugstelle.de/; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
