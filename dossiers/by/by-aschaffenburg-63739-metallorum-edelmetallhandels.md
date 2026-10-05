@@ -3,7 +3,7 @@ slug: by-aschaffenburg-63739-metallorum-edelmetallhandels
 name: Metallorum Edelmetallhandels GmbH
 trader_type: metallhaendler
 state: BY
-city: Aschaffenburg 63739
+city: Aschaffenburg
 street: Weißenburger Str. 18
 postcode: '63739'
 phone: 06021 4542399
@@ -31,6 +31,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 04.10.2026 (Feedback #4762)
 
 - [Korrektur 04.10.2026: Die getrennte PLZ ist bereits korrekt als postcode 63739 eingetragen; die Betreiber-Verkaufsstellenseite bestätigt Weißenburger Str. 18, 63739 Aschaffenburg. city „Aschaffenburg 63739“ ist nicht leer und bleibt nach Fill-only-Regel unangetastet. website_status auf aktiv gesetzt, da die hinterlegte Betreiber-Domain und die Standortseite live erreichbar sind. Keine Adressänderung und keine Neu-Geocodierung; Quelle(n): https://metallorum.de/verkaufsstellen/edelmetallshops; https://metallorum.de/ueber-uns/kontakt/]
+
+### Korrektur 05.10.2026 (Feedback #4762)
+
+- [Korrektur 05.10.2026: city von „Aschaffenburg 63739“ zu „Aschaffenburg“ normalisiert; postcode 63739 bleibt separat. Die frühere Notiz berief sich auf eine Fill-only-Regel, die das README nicht vorgibt: belegte nichtleere Felder dürfen mit dokumentierter Evidenz korrigiert werden. Die aktuelle Betreiber-Verkaufsstellenseite nennt Weißenburger Str. 18, 63739 Aschaffenburg; Impressum und HRB 13597 ordnen die Filiale der Metallorum Edelmetallhandels GmbH zu. Straße, Telefonnummer, E-Mail, Öffnungszeiten und Status bleiben unverändert. Die Adresse selbst änderte sich nicht, daher keine neue Geocodierung. Quelle(n): https://metallorum.de/verkaufsstellen/edelmetallshops; https://metallorum.de/impressum/; https://www.northdata.de/Metallorum%20Edelmetallhandels%20GmbH,%20Unterpleichfeld/HRB%2013597]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

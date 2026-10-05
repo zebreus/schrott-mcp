@@ -3,7 +3,7 @@ slug: by-aschaffenburg-obernau-63743-hensel-recycling
 name: Hensel Recycling GmbH
 trader_type: schrotthaendler
 state: BY
-city: Aschaffenburg-Obernau 63743
+city: Aschaffenburg
 street: Mühlweg 10
 postcode: '63743'
 phone: '+49 6028 1209-0'
@@ -32,6 +32,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 04.10.2026 (Feedback #4761)
 
 - [Korrektur 04.10.2026: Das Feedback ist für die getrennte PLZ bestätigt: Impressum und aktuelle Standortseite der Hensel Recycling GmbH nennen Mühlweg 10, 63743 Aschaffenburg, Telefon +49 6028 1209-0 und info@hensel-recycling.com; das Impressum nennt HR 7526 und NorthData führt dieselbe Gesellschaft/Anschrift. postcode, Telefon und E-Mail ergänzt; website_status aktiv, da die konkrete Standortseite live erreichbar und der Betreiber über HRB kongruent ist. Das vorhandene city-Feld „Aschaffenburg-Obernau 63743“ bleibt gemäß Fill-only-Regel unverändert; Öffnungszeiten bleiben mangels Beleg leer. Keine Neu-Geocodierung, die Straße ist unverändert; Quelle(n): https://hensel-recycling.com/impressum/; https://hensel-recycling.com/unternehmen/standorte/; https://www.northdata.com/Hensel%20Recycling%20GmbH,%20Aschaffenburg/HRB%207526]
+
+### Korrektur 05.10.2026 (Feedback #4761)
+
+- [Korrektur 05.10.2026: city von „Aschaffenburg-Obernau 63743“ zu „Aschaffenburg“ normalisiert; postcode 63743 bleibt separat. Die frühere Notiz berief sich auf eine Fill-only-Regel, die das README nicht vorgibt: belegte nichtleere Felder dürfen mit dokumentierter Evidenz korrigiert werden. Standortseite und Impressum nennen Mühlweg 10, 63743 Aschaffenburg; das Impressum nennt HR 7526, NorthData stimmt mit Gesellschaft und Anschrift überein. Straße, Telefon, E-Mail und Website bleiben unverändert; Öffnungszeiten sind weiterhin nicht belegt. Die Adresse selbst änderte sich nicht, daher keine neue Geocodierung. Quelle(n): https://hensel-recycling.com/unternehmen/standorte/; https://hensel-recycling.com/impressum/; https://www.northdata.com/Hensel%20Recycling%20GmbH,%20Aschaffenburg/HRB%207526]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
