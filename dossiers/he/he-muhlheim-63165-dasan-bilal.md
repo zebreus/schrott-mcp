@@ -4,14 +4,14 @@ name: Dasan Bilal Fahrzeughandel
 trader_type: sonstige
 state: HE
 city: Mühlheim am Main
-street: Dieselstr. 54
-postcode: '63165'
-phone: 06108 825351
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Die vorhandenen Adress- und Kontaktdaten sowie die behauptete Aktivität stammen laut vorheriger Recherche ausschließlich aus Branchenverzeichnissen; ein Betreiberauftritt oder Beleg für Schrottankauf/Autoverwertung fehlt. Straße, PLZ und Telefonnummer aus dem Frontmatter entfernt und status auf pruefung gesetzt; Details bleiben als unbestätigte Leads in der Recherchehistorie. Quelle(n): https://www.dasoertliche.de/Themen/Dasan-Bilal-Fahrzeughandel-M%C3%BChlheim-am-Main-Dieselstr; https://www.11880.com/branchenbuch/muehlheim-am-main/012010409B100996230/bilal-dasan-fahrzeughandel.html]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

@@ -1,6 +1,6 @@
 ---
 slug: he-frankfurt-seckbach-mhf-metallhandel-frankfurt-mhf
-name: MHF Metallhandel Frankfurt GmbH (MHF)
+name: Metallhandel Frankfurt GmbH (MHF)
 trader_type: metallhaendler
 state: HE
 city: Frankfurt-Seckbach
@@ -20,13 +20,17 @@ provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
-# MHF Metallhandel Frankfurt GmbH (MHF)
+# Metallhandel Frankfurt GmbH (MHF)
 
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Das aktuelle Impressum nennt als eingetragenen Rechtsträger „Metallhandel Frankfurt GmbH“ (HRB 129583, AG Frankfurt); MHF ist die verwendete Marke. Den früheren, als Rechtsträger missverständlichen Namen „MHF Metallhandel Frankfurt GmbH“ entsprechend korrigiert. Quelle(n): https://mh-frankfurt.de/impressum; https://mh-frankfurt.de/]
 
 ### Recherche 01.10.2026
 

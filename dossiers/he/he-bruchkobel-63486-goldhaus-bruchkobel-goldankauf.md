@@ -3,9 +3,9 @@ slug: he-bruchkobel-63486-goldhaus-bruchkobel-goldankauf
 name: Goldhaus Bruchköbel Goldankauf
 trader_type: sonstige
 state: HE
-city: Bruchköbel 63486
-street: Hauptstr. 12
-postcode: '63486'
+city: Bruchköbel
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: city auf Bruchköbel normalisiert; Hauptstraße 12 und PLZ 63486 waren ausschließlich ein Gelbe-Seiten-Lead und sind nicht durch Betreiber- oder Registerquelle bestätigt. Straße und PLZ aus dem Frontmatter entfernt, status pruefung bleibt. Quelle(n): bisheriger Gelbe-Seiten-Lead; kein qualifizierter Betreiberbeleg gefunden]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

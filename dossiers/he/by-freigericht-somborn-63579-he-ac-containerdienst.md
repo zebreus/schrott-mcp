@@ -1,9 +1,9 @@
 ---
 slug: by-freigericht-somborn-63579-he-ac-containerdienst
-name: AC Containerdienst
+name: AC Containerdienst UG (haftungsbeschränkt)
 trader_type: containerdienst
-state: BY
-city: Freigericht-Somborn 63579 HE
+state: HE
+city: Freigericht
 street: Im Schwalbengrund 14
 postcode: '63579'
 phone: 01577 3719857
@@ -12,21 +12,25 @@ opening_hours: ''
 website: https://www.ac-containerdienst.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Containerdienst und Schrottankauf im Main-Kinzig-Kreis; Ankauf von Schrott, Altmetall und Kabeln zu tagesaktuellen Preisen auf Anfrage.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
-provenance_ankauf_raw: unklar
+provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
-# AC Containerdienst
+# AC Containerdienst UG (haftungsbeschränkt)
 
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Die Akte lag versehentlich im Verzeichnis by und führte state BY sowie die PLZ im Ortsfeld. Betreiber-Impressum und Standortangabe bestätigen AC Containerdienst UG (haftungsbeschränkt), Im Schwalbengrund 14, 63579 Freigericht, HRB 101188 AG Hanau; Ankauf von Schrott/Altmetall zu Tagespreisen und Abholung/Container sind belegt. Datei in den HE-Dossierordner verschoben, state/city bereinigt; stabiler Legacy-Slug bleibt unverändert. Nicht mit dem unaufgelösten Eintrag Raiffeisenstr. 26 oder dem separaten TSR-Standort Gewerbepark Birkenhain 13-15 zusammengeführt. Quelle(n): https://www.ac-containerdienst.de/impressum/; https://www.ac-containerdienst.de/kontakt/; https://www.ac-containerdienst.de/schrotthandel-schrottankauf/; https://www.tsr-recycling.de/standorte/schrotthaendler-freigericht/; https://www.11880.com/branchenbuch/freigericht/060371058B107532292/ac-containerdienst-ug-haftungsbeschraenkt.html]
 
 ### Recherche 02.10.2026
 

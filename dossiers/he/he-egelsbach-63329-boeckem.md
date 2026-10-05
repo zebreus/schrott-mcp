@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Dieses ältere, historiehaltige Slug-Dossier bleibt der kanonische Eintrag für SRM Schrotthandel Rhein-Main e.K. am Standort Messel (Zimmerner Str. 11, 64409). Der weitere Datensatz `he-messel-srm-schrotthandel-rhein-main` beschreibt dieselbe Firma und Annahmestelle, nicht einen zweiten Betrieb. Betreiberseiten führen Hanau als Abhol-Servicegebiet, nicht als eigenen Hof; Selbstanlieferung ist in Messel, kostenlose Abholung in Hanau zahlt laut Hanau-Seite keinen Metallwert. Keine Zusammenführung/Schließung im Seed vorgenommen; Preise bleiben tagesabhängig, ohne öffentliche numerische Liste. Quelle(n): https://www.schrotthandel-rhein-main.de/; https://www.schrotthandel-rhein-main.de/schrottplatz/hanau/; https://www.schrotthandel-rhein-main.de/impressum/]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Identitaet geklaert und voll befuellt — Betreiber-Impressum (schrotthandel-rhein-main.de/impressum, Direktabruf): SRM Schrotthandel Rhein-Main e.K., Inh. Dennis Böckem, Zimmerner Str. 11, 64409 Messel, HRA 85319 AG Darmstadt, Tel. 01577 20 19 546, E-Mail info@schrotthandel-rhein-main.de, Oeffnungszeiten Mo-Fr 07:30-16:30 / Sa 08:00-12:00 (jeden 2. Sa geschlossen); HR-kongruent per Northdata-Profil (gleiche Firma, HRA 85319 AG Darmstadt) — Owner-Ausnahme erfuellt. Kontinuitaetsbeleg: Rufnummer identisch mit Seed-Telefon (01577) 2019546, infoisinfo verweist Boeckem auf Homepage Schrotthandel-Rhein-Main. ADRESSAENDERUNG: Egelsbach (Im Geisbaum 1 b) → Messel (Zimmerner Str. 11); Koordinaten sind neu zu geocodieren. Frontmatter auf Messel umgestellt, status aktiv, website aktiv; Quelle(n): Betreiber-Website (Vollcrawl Startseite + Impressum 01.10.2026) + Northdata HRA 85319]

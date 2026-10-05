@@ -1,6 +1,6 @@
 ---
 slug: he-kelkheim-e-o-entsorgung-betriebe-kelkheim-maintal
-name: E&O Entsorgung GmbH (Betriebe Kelkheim + Maintal; Sitz Bingen/RLP)
+name: E&O Entsorgung GmbH (Betrieb Kelkheim)
 trader_type: schrotthaendler
 state: HE
 city: Kelkheim
@@ -8,25 +8,29 @@ street: Zeilsheimer Weg 4
 postcode: '65779'
 phone: '06195/7005-46'
 email: ''
-opening_hours: 'Mo-Fr 7:00-16:00'
+opening_hours: 'Mo-Fr 07:00-16:00; Annahme bis 15 Minuten vor Schließung; Sa geschlossen'
 website: https://eo-entsorgung.de/
-website_status: ''
+website_status: aktiv
 status: pruefung
-description: ''
-dropoff_json: ''
+description: 'Gewerbliche Annahme von Kleinmengen am Standort Kelkheim; konkrete Schrottarten und Vergütungsbedingungen sind standortspezifisch nicht hinreichend belegt. Keine private Anlieferung bestätigt.'
+dropoff_json: '{"allowed": true, "conditions": "Gewerbliche Kleinmengen-Selbstanlieferung; konkrete Schrottarten und Vergütung vorab beim Standort erfragen. Mo-Fr 07:00-16:00, Annahme bis 15 Minuten vor Schließung; Sa geschlossen."}'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
 ---
 
-# E&O Entsorgung GmbH (Betriebe Kelkheim + Maintal; Sitz Bingen/RLP)
+# E&O Entsorgung GmbH (Betrieb Kelkheim)
 
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Korrektur 05.10.2026: Dieses Dossier bleibt die separate Betriebsstätte Zeilsheimer Weg 4, 65779 Kelkheim; Maintal ist separat erfasst. Betreiberangaben belegen gewerbliche Kleinmengenannahme und Öffnung Mo-Fr 07:00-16:00 (Annahmeschluss 15 Minuten vor Schließung); sie belegen für Kelkheim nicht hinreichend eindeutig eine Vergütung für Schrott/Altmetall. Deshalb provenance_ankauf_raw auf unklar und status auf pruefung gesetzt; keine privaten Anlieferungen behauptet. Rechtsträger E&O Entsorgung GmbH, HRB 51294 AG Mainz. Quelle(n): https://eo-entsorgung.de/unternehmen/; https://eo-entsorgung.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

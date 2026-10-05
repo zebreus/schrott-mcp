@@ -1,9 +1,9 @@
 ---
 slug: he-hanau-63452-kurt-steding-entsorgungs
 name: Kurt Steding Entsorgungs-GmbH
-trader_type: sonstige
+trader_type: metallhaendler
 state: HE
-city: Hanau 63452
+city: Hanau
 street: Ruhrstraße 29
 postcode: 63452
 phone: +49 6181 121-14
@@ -12,11 +12,11 @@ opening_hours: Mo-Do 07:30-12:30/13:00-16:00, Fr 07:30-12:30/13:00-15:30
 website: https://www.kurtsteding.de/
 website_status: aktiv
 status: aktiv
-description: ''
-dropoff_json: ''
+description: 'Ankauf von FE- und NE-Schrott; FE-Annahme ab 100 kg, NE auch in kleineren Mengen. Keine numerische öffentliche Ankaufspreisliste.'
+dropoff_json: '{"allowed": true, "conditions": "Selbstanlieferung am Hanauer Standort; FE-Schrott ab 100 kg, NE-Schrott auch in kleineren Mengen. Öffnungszeiten Mo-Do 07:30-12:30 und 13:00-16:00, Fr 07:30-12:30 und 13:00-15:30."}'
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
-provenance_ankauf_raw: unklar
+provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Betreiber-Impressum bestätigt Kurt Steding Entsorgungs GmbH, HRB 5833 AG Hanau; die Leistungsseite belegt FE- und NE-Schrottankauf, FE ab 100 kg und NE auch in kleineren Mengen. trader_type von sonstige auf metallhaendler präzisiert, city PLZ-bereinigt und Ankauf-Flag/Anlieferungsbedingungen ergänzt. Eine separat verlinkte Samstag-Mitteilung wird nicht als reguläre Wochenzeit übernommen. Keine numerischen Ankaufspreise gefunden. Quelle(n): https://www.kurtsteding.de/impressum/; https://www.kurtsteding.de/leistungen/metall-schrotthandel/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

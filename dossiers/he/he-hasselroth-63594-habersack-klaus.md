@@ -1,9 +1,9 @@
 ---
 slug: he-hasselroth-63594-habersack-klaus
-name: Habersack Klaus
+name: Kfz-Verwertung Habersack
 trader_type: autoverwertung
 state: HE
-city: Hasselroth 63594
+city: Hasselroth
 street: ''
 postcode: '63594'
 phone: 06055 81058
@@ -20,13 +20,17 @@ provenance_ankauf_raw: AV / unklar
 provenance_origin: table
 ---
 
-# Habersack Klaus
+# Kfz-Verwertung Habersack
 
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Betreiber-Impressum bezeichnet den Anbieter als „Kfz-Verwertung Habersack“; die Gemeinde Hasselroth beschreibt den Familienbetrieb ebenfalls unter diesem Namen in Niedermittlau. Den nicht belegten Vornamen „Klaus“ aus dem öffentlichen Namen entfernt und city von „Hasselroth 63594“ zu „Hasselroth“ normalisiert. Die genaue Straße, Mailadresse und Öffnungszeiten bleiben mangels unabhängiger Bestätigung außerhalb des Frontmatter; status pruefung bleibt. Quelle(n): https://www.kfz-verwertung-habersack.de/impressum.html; https://www.hasselroth.de/hasselroth/gewerbe/tour-de-hasselroth/fa-kfz-verwertung-habersack/]
 
 ### Recherche 04.10.2026
 

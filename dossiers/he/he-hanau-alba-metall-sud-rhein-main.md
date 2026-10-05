@@ -8,25 +8,29 @@ street: 'Auheimer Str.'
 postcode: '63450'
 phone: '+49 6181 54291'
 email: 'info.rrrm@riwald.de'
-opening_hours: ''
+opening_hours: 'Mo-Do 06:30-15:30 (Warenannahme); Fr 06:30-13:30 (Warenannahme)'
 website: https://www.riwald.de
 website_status: 'aktiv'
 status: aktiv
-description: ''
+description: 'Riwald Recycling Rhein-Main GmbH, Hanauer Betriebsstätte für FE-/NE-Metallrecycling und Schrottannahme; Betreiber veröffentlicht keine numerischen Ankaufspreise.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge
-provenance_ankauf_raw: ja (unsicher – nur GS/Name)
+provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
-# ALBA Metall Süd Rhein-Main GmbH
+# Riwald Recycling Rhein-Main GmbH (Betrieb Hanau)
 
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Korrektur 05.10.2026: Die aktuelle Riwald-Standortseite weist für Hanau Warenannahme Mo-Do 06:30-15:30 und Fr 06:30-13:30 aus; Adresse bleibt bewusst Auheimer Str. ohne Hausnummer, da der Betreiber keine nennt. Die Betreiber-Leistungsseite bestätigt FE-/NE-Metallhandel und Schrottrecycling; es wurde keine numerische Hanauer Preisliste gefunden. Veraltete Überschrift ALBA auf den aktuellen Betreiberstand korrigiert; Ankauf-Flag bereinigt. Quelle(n): https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/; https://www.riwald.de/materialien-und-leistungen-de-riwald-recycling-rhein-main/; https://riwald.com/impressum-de-riwald-recycling-rhein-main/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -1,9 +1,9 @@
 ---
 slug: he-hanau-63452-kohl-roland
-name: Kohl Roland
+name: Bergungs- und Abschleppdienst Hanau (Roland Kohl)
 trader_type: autoverwertung
 state: HE
-city: Hanau 63452
+city: Hanau
 street: Niddastr. 34
 postcode: '63452'
 phone: 06181 15759
@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 9:00-18:00, Sa 9:00-16:00
 website: https://www.abschleppdiensthanau.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Bergungs- und Abschleppdienst mit Autoverwertung, Gebrauchtteilen und Gebrauchtwagen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
@@ -20,13 +20,17 @@ provenance_ankauf_raw: unklar
 provenance_origin: table
 ---
 
-# Kohl Roland
+# Bergungs- und Abschleppdienst Hanau (Roland Kohl)
 
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Betreiber-Impressum führt den Namen „Bergungs- und Abschleppdienst Hanau“, Inhaber Roland Kohl, Niddastraße 34, 63452 Hanau; die Kontaktangaben werden durch den unabhängigen 11880-Eintrag gestützt. Name und city normalisiert und eine knappe Tätigkeitsbeschreibung ergänzt; vorhandene Kontaktfelder bleiben unverändert. Quelle(n): https://www.abschleppdiensthanau.de/impressum; https://www.abschleppdiensthanau.de/service; https://www.11880.com/branchenbuch/hanau/060440459B33395664/roland-kohl-abschleppdienst-autovermietung-autoverwertung-krandienst.html]
 
 ### Recherche 01.10.2026 (Feedback-Triage 2922)
 

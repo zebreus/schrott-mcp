@@ -4,13 +4,13 @@ name: Schrott & Metallhandel Freigericht
 trader_type: metallhaendler
 state: HE
 city: Freigericht
-street: Raiffeisenstr. 26
+street: ''
 postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: tot
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Die alte Zuordnung Raiffeisenstr. 26 und website_status tot waren nicht durch eine identifizierte Betreiberquelle belegt; Straße geleert und Website-Status auf unbekannt gesetzt. AC Containerdienst ist aktuell am Im Schwalbengrund 14 belegt; TSR führt einen separaten Standort im Gewerbepark Birkenhain 13-15. Keine Quelle verbindet einen dieser Betreiber mit dem generischen Alt-Eintrag an der Raiffeisenstraße; daher keine Zusammenführung und status pruefung bleibt. Quelle(n): https://www.ac-containerdienst.de/impressum/; https://www.ac-containerdienst.de/schrotthandel-schrottankauf/; https://www.tsr-recycling.de/standorte/schrotthaendler-freigericht/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

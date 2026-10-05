@@ -8,7 +8,7 @@ street: Am Weiher 2f
 postcode: '63505'
 phone: 06184 62262
 email: service@schrott-weber.de
-opening_hours: Mo 8-12 + 13-16; Di-Mi 8-12 + 13-15; Do 8-12 + 13-17:30; Fr 8-13
+opening_hours: 'Sonderöffnungszeiten bis 11.10.2026: Mo-Fr 08:00-12:00; regulär: Mo 08:00-12:00 und 13:00-16:00, Di-Mi 08:00-12:00 und 13:00-15:00, Do 08:00-12:00 und 13:00-17:30, Fr 08:00-13:00'
 website: https://schrott-weber.de/
 website_status: aktiv
 status: aktiv
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Die Betreiber-Startseite weist weiterhin krankheitsbedingte Sonderöffnungszeiten Mo-Fr 08:00-12:00 bis einschließlich 11.10.2026 aus. Frontmatter enthält den befristeten Hinweis und die regulären Zeiten, damit die Ausnahme nicht als dauerhaft missverstanden wird; nach Ablauf der Ausnahme sind die regulären Zeiten erneut zu prüfen. Quelle(n): https://schrott-weber.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

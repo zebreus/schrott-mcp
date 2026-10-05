@@ -9,7 +9,7 @@ postcode: '63741'
 phone: 06021 84600
 email: info@westarp-kg.de
 opening_hours: Mo-Fr 07:30-12:00+13:00-16:15, Sa 07:30-12:00 Annahme bis 11:30
-website: http://www.westarp-kg.de
+website: https://www.westarp-kg.de
 website_status: aktiv
 status: aktiv
 description: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Der Betreiberauftritt ist aktuell unter HTTPS erreichbar; website von http://www.westarp-kg.de auf https://www.westarp-kg.de (Domain-Root) normalisiert. Standort-Deep-Links bleiben in den bestehenden Recherchebelegen. Quelle(n): https://www.westarp-kg.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

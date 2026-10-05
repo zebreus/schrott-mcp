@@ -6,13 +6,13 @@ state: HE
 city: Frankfurt am Main
 street: Uhlfelderstr. 4
 postcode: '60314'
-phone: 06940280
+phone: ''
 email: ''
 opening_hours: ''
 website: https://tsr-recycling.de
 website_status: aktiv
 status: aktiv
-description: 'TSR Deutschland GmbH & Co. KG, Niederlassung Frankfurt, Uhlfelderstr. 4, 60314 Frankfurt am Main (Fechenheim): Metallrecycling-Standort der TSR Group (REMONDIS), Schrottannahme Gewerbe/privat, Container; Entsorgungsfachbetrieb (Efb Region SuedWest II: Ginsheim, Frankfurt, Darmstadt). Rufnummer 069 40280 aus Verzeichnissen, nicht per Betreiber verifiziert.'
+description: 'TSR Deutschland GmbH & Co. KG, Niederlassung Frankfurt, Uhlfelderstr. 4, 60314 Frankfurt am Main (Fechenheim): Metallrecycling, Schrottannahme für Gewerbe/Privat und Containerdienst.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Die aktuelle TSR-Standortseite stützt die Frankfurter Niederlassung und Metallrecycling/Schrottannahme; die Rufnummer 069 40280 stammt ausschließlich aus Branchenverzeichnissen und ist nicht vom Betreiber bestätigt. Deshalb Telefonnummer aus dem Frontmatter entfernt; keine alternative Nummer erfunden. Quelle(n): https://www.tsr-recycling.de/standorte/; https://www.tsr-recycling.de/bibliothek]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

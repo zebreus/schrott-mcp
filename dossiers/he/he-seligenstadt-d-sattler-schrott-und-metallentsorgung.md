@@ -4,14 +4,14 @@ name: D. Sattler Schrott- und Metallentsorgung
 trader_type: schrotthaendler
 state: HE
 city: Seligenstadt
-street: Beethovenweg 1
+street: ''
 postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
 website: https://sattler-schrott-metallentsorgung.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Das Betreiber-Impressum ist die einzige qualifizierte Quelle; es bestätigt den Kauf-/Entsorgungsauftritt, nicht unabhängig die aktuelle Adresse Beethovenweg 1 oder den Status als aktiv tätiger Händler. Straße geleert und status auf pruefung gesetzt; Website und website_status aktiv bleiben. Telefon, PLZ, E-Mail und Zeiten bleiben leer. Quelle(n): https://sattler-schrott-metallentsorgung.de/kontaktimpressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

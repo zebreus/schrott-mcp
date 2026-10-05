@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Die aktuelle Betreiber-Kontaktseite führt eine eigenständige Niederlassung Hanau, Canthalstraße 2-4, 63450, mit +49 6181 18 065-0 und container@rmr-recycling.de. Rechtsträger ist Rhein Main Rohstoffe GmbH (HRB 100405), getrennt von der ebenfalls co-lokalisierten Theo Steil GmbH. Für die als eigene Betriebsstätte geführte Hanauer Niederlassung wurde ein eigenes Standortdossier angelegt: `he-hanau-63450-rhein-main-rohstoffe`; lokale Annahmebedingungen und Öffnungszeiten bleiben mangels Betreiberangabe offen. Keine Verwechslung oder Zusammenführung behauptet. Quelle(n): https://rmr-recycling.de/kontakt/; https://rmr-recycling.de/impressum/; https://www.steil.de/standorte-kontakt/hanau; https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2024/01_07_2024_Steil_RMR.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (GS-Eintrag) [Website-Recherche verzeichnis: services: Rohstoffhandel, Schrotthandel; notes: Gelbe Seiten und 11880 übereinstimmend (Rhein Main Rohstoffe GmbH, Rufnummer 069/2380761-0).]

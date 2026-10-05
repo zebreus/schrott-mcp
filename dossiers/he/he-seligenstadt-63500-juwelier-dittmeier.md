@@ -4,11 +4,11 @@ name: Juwelier Dittmeier
 trader_type: sonstige
 state: HE
 city: Seligenstadt
-street: Aschaffenburger Str. 18
-postcode: '63500'
-phone: 06182 21961
-email: info@juwelier-dittmeier.eu
-opening_hours: Mo-Fr 10:00-18:00, Sa 10:00-14:00, So geschlossen
+street: ''
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
 website: https://juwelier-dittmeier.eu
 website_status: aktiv
 status: pruefung
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Die Kontakt-/Impressumsseite ist ein Betreiber-Einzelbeleg; eine qualifizierte unabhängige Bestätigung der Filialdetails fehlt. Straße, PLZ, Telefon, E-Mail und Öffnungszeiten aus dem Frontmatter entfernt, city Seligenstadt, Website und website_status aktiv beibehalten; status pruefung bleibt. Frühere Betreiberangaben sind in der Recherchehistorie erhalten. Quelle(n): https://juwelier-dittmeier.eu/kontakt/; https://juwelier-dittmeier.eu/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

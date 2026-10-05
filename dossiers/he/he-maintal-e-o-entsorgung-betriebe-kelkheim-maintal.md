@@ -1,6 +1,6 @@
 ---
 slug: he-maintal-e-o-entsorgung-betriebe-kelkheim-maintal
-name: E&O Entsorgung GmbH (Betriebe Kelkheim + Maintal; Sitz Bingen/RLP)
+name: E&O Entsorgung GmbH (Betriebsstätte Maintal)
 trader_type: schrotthaendler
 state: HE
 city: Maintal
@@ -8,25 +8,29 @@ street: Gutenbergstr. 8
 postcode: '63477'
 phone: '06109/379814'
 email: ''
-opening_hours: 'Mo-Fr 7:00-16:00'
+opening_hours: 'Mo-Fr 07:00-16:00; Annahme bis 15 Minuten vor Schließung; Sa geschlossen'
 website: https://eo-entsorgung.de/
-website_status: ''
-status: pruefung
-description: ''
-dropoff_json: ''
+website_status: aktiv
+status: aktiv
+description: 'Wertstoffhof mit Schwerpunkt Schrott und Elektroschrott; private und gewerbliche Selbstanlieferung; Schrott und Altmetall werden vergütet, weitere Abfallarten gegen Entgelt.'
+dropoff_json: '{"allowed": true, "conditions": "Privat- und Gewerbekunden können Kleinmengen selbst anliefern; Schrott/Altmetall mit Vergütung, Elektroschrott und weitere Abfälle teils gegen Gebühr; Mo-Fr 07:00-16:00, Annahme bis 15 Minuten vor Schließung."}'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)
-provenance_ankauf_raw: unklar
+provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
-# E&O Entsorgung GmbH (Betriebe Kelkheim + Maintal; Sitz Bingen/RLP)
+# E&O Entsorgung GmbH (Betriebsstätte Maintal)
 
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Korrektur 05.10.2026: Standortseite bestätigt, dass dieses Dossier die Maintaler Betriebsstätte Gutenbergstraße 8 beschreibt, nicht Kelkheim. Betreiber nennt Privat- und Gewerbeanlieferung, vergüteten Schrott-/Altmetallankauf ab materialabhängigen Mindestmengen, werktägliche Öffnung 07:00-16:00 und Annahmeschluss 15 Minuten vor Schließung. Die verlinkte numerische PDF-Preisliste ist vom 07.12.2023 und veraltet; keine Zahlen als aktuelle Preise übernommen. Rechtsträger E&O Entsorgung GmbH, HRB 51294 AG Mainz. Quelle(n): https://eo-entsorgung.de/unternehmen/; https://eo-entsorgung.de/schrott-metalle/; https://eo-entsorgung.de/wp-content/themes/eo-entsorgung/altmetall-pdf.php; https://eo-entsorgung.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

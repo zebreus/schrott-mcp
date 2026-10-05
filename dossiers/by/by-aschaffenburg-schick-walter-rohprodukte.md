@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Die bisherigen Identitäts- und Kontaktangaben beruhen ausschließlich auf Branchenverzeichnissen; ein Betreiberauftritt, Registerbeleg oder eine sichere Abgrenzung zum ähnlich benannten Walter Schick Containerdienst fehlt. Status daher von aktiv auf pruefung zurückgesetzt; keine Kontaktdaten ergänzt. Quelle(n): bisher dokumentierte Verzeichnis-Leads; keine qualifizierte Betreiberquelle gefunden]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -1,6 +1,6 @@
 ---
 slug: he-hanau-heraeus-goldstore-hanau-argor-heraeus-de
-name: Heraeus Goldstore Hanau (Argor-Heraeus Deutschland GmbH)
+name: Heraeus Goldstore Hanau
 trader_type: sonstige
 state: HE
 city: Hanau
@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://store.heraeus-gold.com
 website_status: aktiv
 status: aktiv
-description: Heraeus-Edelmetallhandel in Hanau (Heraeus Metals Germany GmbH & Co. KG, HRA 93163 AG Hanau): Altgold-/Silber-/Platin-/Palladium-Ankauf (Schmuck, Zahngold, LBMA-Barren, Bullionmünzen) mit Laboranalyse, Barrenverkauf ab Werk; Filiale Rodenbacher Weg 2
+description: 'Edelmetallankauf im Heraeus Goldstore Hanau: Altgold, Schmuck, Zahngold, LBMA-Barren, Bullionmünzen und Silberwaren; Analyse und endgültiges Angebot nach den aktuellen Annahmebedingungen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)
@@ -20,13 +20,17 @@ provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
-# Heraeus Goldstore Hanau (Argor-Heraeus Deutschland GmbH)
+# Heraeus Goldstore Hanau
 
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Korrektur 05.10.2026: Den unbelegten Rechtsträgerzusatz aus Name und Überschrift entfernt. Das aktuelle Shop-Impressum nennt Heraeus Metals Germany GmbH & Co. KG, HRA 93163 AG Hanau; die Goldstore-AGB zum Ankauf verweisen dagegen auf Argor-Heraeus Deutschland GmbH. Eine Umfirmierung oder rechtliche Zuordnung der beiden Gesellschaften ist damit nicht belegt. Die Filialseite bestätigt die Ankaufstelle in Hanau, weist aber weiterhin widersprüchliche Öffnungszeiten aus; opening_hours bleibt leer. Der aktuelle Ankauf ist laut Betreiber eingeschränkt, Edelmetall muss mindestens 10 g wiegen, Bearbeitung kann bis zu drei Wochen dauern; bei Ablehnung des Angebots werden Versand und Analyse mit 59,50 EUR inkl. MwSt. berechnet. Am 05.10.2026 abgelesene unverbindliche Richtwerte ohne ausgewiesenen Seitenzeitstempel: Gold 333 34,41 EUR/g, 585 61,25, 750 78,83, 900 96,94, 999 112,93; Silber 925 1,31, Platin 950 37,68 und Palladium 999 26,80 EUR/g. Werte sind volatile Richtwerte, kein zugesicherter Auszahlungspreis. Quelle(n): https://store.heraeus-gold.com/impressum/; https://store.heraeus-gold.com/filiale/; https://store.heraeus-gold.com/ankauf/; https://www.heraeus-gold.de/ueber-uns/goldstore-hanau/]
 
 ### Recherche 01.10.2026
 

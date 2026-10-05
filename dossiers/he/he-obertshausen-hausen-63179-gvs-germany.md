@@ -3,7 +3,7 @@ slug: he-obertshausen-hausen-63179-gvs-germany
 name: GVS Germany GmbH
 trader_type: sonstige
 state: HE
-city: Obertshausen-Hausen 63179
+city: Obertshausen
 street: Birkenwaldstr. 38
 postcode: 63179
 phone: +49 6104 987 22 77
@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 10:00-18:00, Sa 09:00-16:00
 website: https://goldvorsorge.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Gold- und Silberankauf sowie Edelmetallhandel am Standort Obertshausen; kein allgemeiner Schrottankauf belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: city von „Obertshausen-Hausen 63179“ zu „Obertshausen“ normalisiert; PLZ bleibt separat. Die Filialseite führt zusätzlich office@goldvorsorge.de als standortbezogenen Kontakt, während das Betreiber-Impressum für GVS Germany GmbH office@silbervorsorge.de ausweist und eine weitere GVS-Bullion-Gesellschaft separat nennt. Keine ungesicherte Gesellschafts- oder Umfirmierungsbehauptung; vorhandene E-Mail bleibt der rechtsträgerbezogene Impressumskontakt. Quelle(n): https://www.goldvorsorge.de/standorte/gold-silber-kaufen-frankfurt.html; https://www.goldvorsorge.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

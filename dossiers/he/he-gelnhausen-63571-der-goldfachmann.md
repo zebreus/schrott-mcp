@@ -4,11 +4,11 @@ name: Der Goldfachmann
 trader_type: sonstige
 state: HE
 city: Gelnhausen
-street: Im Ziegelhaus 10
-postcode: '63571'
-phone: 06051 4747746
-email: info@dergoldfachmann.de
-opening_hours: Mo-Fr 10:00-18:00, Sa 10:00-14:00
+street: ''
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
 website: https://www.dergoldfachmann.de
 website_status: aktiv
 status: pruefung
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 05.10.2026
+
+- [Korrektur 05.10.2026: Die bisher gefüllten Filialdetails stammen nur aus der eigenen Website; deren Footer enthält zudem widersprüchliche Barbarossa-Kontaktdaten. Mangels unabhängiger Bestätigung wurden Straße, PLZ, Telefon, E-Mail und Öffnungszeiten aus dem Frontmatter entfernt; city Gelnhausen, Betreiber-Website, website_status aktiv und status pruefung bleiben. Keine Zusammenführung mit Barbarossa Juwelier. Quelle(n): https://www.dergoldfachmann.de/impressum/; https://www.dergoldfachmann.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
