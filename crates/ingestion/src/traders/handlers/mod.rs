@@ -41,6 +41,7 @@ pub mod gutzmann;
 pub mod hafen_schrott;
 pub mod hammer_leipzig;
 pub mod hansa_goldankauf;
+pub mod sommer_hanau;
 pub mod hanusa_vechelde;
 pub mod harbi_kats;
 pub mod hein_schrotthandel;
@@ -173,6 +174,7 @@ vedder::handler(),
         hafen_schrott::handler(),
         hammer_leipzig::handler(),
         hansa_goldankauf::handler(),
+        sommer_hanau::handler(),
         hanusa_vechelde::handler(), // TEMP-VERIFY
         harbi_kats::handler(),
         hein_schrotthandel::handler(),
