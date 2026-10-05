@@ -7,7 +7,7 @@ Rückfragen.
 ## 1) Feedback prüfen
 
 ```bash
-sqlite3 /var/lib/schrott-mcp/internal.db \
+sqlite3 -readonly /var/lib/schrott-mcp/internal.db \
   "SELECT id, severity, substr(feedback,1,80), created_at FROM feedback ORDER BY id DESC LIMIT 10;"
 ```
 
@@ -27,11 +27,11 @@ tief verifizieren, Impressum allein genügt nicht, Namensvetter-/Merge-Check.
 ```bash
 systemctl is-active schrott-mcp.service
 journalctl -u schrott-mcp.service -p warning --since "6 hours ago"
-sqlite3 /var/lib/schrott-mcp/public.db \
+sqlite3 -readonly /var/lib/schrott-mcp/public.db \
   'SELECT (SELECT COUNT(*) FROM traders), (SELECT COUNT(*) FROM materials), (SELECT COUNT(*) FROM current_prices);'
 ```
 
-Prod: `traders`/`current_prices` in `public.db`, `runs`/`feedback` in
+Prod: `traders`/`current_prices` in `public.db`, `ingestion_runs`/`feedback` in
 `internal.db`. Agenten schreiben NIE direkt in `/var/lib/schrott-mcp/*.db`.
 
 ## 4) Größere Tasks parallel per Subagenten

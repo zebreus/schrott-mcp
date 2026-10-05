@@ -203,14 +203,15 @@ search, register, news) and never deleted — `geschlossen` only with
 evidence, otherwise `pruefung` + Klärfall; (6) cross-reference sibling
 dossiers (same operator, same city) instead of merging.
 
-Recurrence safeguards: every research-shard prompt carries the
-Vollcrawl-Pflicht (overview → collect ALL detail links → fetch each
-page separately, ~12 pages per trader) and the primary-source
-recognition checklist above; the owner gate before commit runs the
-overwrite check (no non-empty field changes without a documented
-2-source or primary-source basis), `cargo test -p schrott-mcp-ingestion
-seed`, and a prod spot-check after redeploy. This section is the
-contract — shard prompts quote it, not the other way round.
+Research delegation: use the short, outcome-oriented assignment in
+`prompts/tiefenrecherche-welle.md`. Agents choose their research methods,
+tools and depth; the source and operator-chain standards above remain
+the reference for assessing results, rather than a checklist copied into
+each assignment. The owner gate before commit checks identity, sources,
+preserved history and overwrites (non-empty field changes need a documented
+2-source or authoritative-primary-source basis), runs
+`cargo test -p schrott-mcp-ingestion seed`, and verifies production after
+redeploy. Agent freedom changes the workflow, not the evidence standard.
 
 ## Why SQLite and not Postgres?
 
