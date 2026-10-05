@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur Verzeichnis-Kandidat „Schrott Florian“, Heumannstr. 1, 96050 Bamberg, 0951 30945195. Die neue Prüfung bestätigt die Existenz des Gelbe-Seiten-Eintrags, nicht den laufenden Betrieb. Ob „Schrott“ Firmen-/Branchenbezeichnung oder Personenname ist, bleibt ohne Betreiberbeleg offen. Frühere Einzelfund-Fills von PLZ/Telefon bleiben als ungeprüfte Leads sichtbar; keine weiteren Fills oder Aktivsetzung. Keine gesicherte Annahmeliste, Ankauf, Öffnungszeiten oder öffentliche Anlieferung.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Gelbe-Seiten-Detail live gelesen und erneut exakt „Schrott Florian“, Heumannstr. 1, 96050 Bamberg, 0951 30945195 vorgefunden. Keine zuordenbare Betreiberwebsite oder Betreiberidentität auf der Seite. Der alte Vermerk „GS-EINZELBELEG als Ausnahmefall“ ist kein heutiger Qualitätsfreibrief: bestehende Werte nicht als doppelt verifiziert bewertet und keine zusätzlichen Fills. Quelle: https://www.gelbeseiten.de/gsbiz/aa2e23f3-e1e1-4579-a2e7-84f566a7dafe.]
+- [Identitäts-/Preisprüfung 05.10.2026: Northdata-Suche Florian Schrott/Bamberg lieferte u.a. Alexander Schrott und unpassende Florian-Treffer, keinen eindeutig verknüpften Betrieb. Daher weder Identität mit CutMetall/Florian Fischer noch Registerlöschung oder Nichtbetrieb abgeleitet; ein Such-Miss ist kein Negativbeweis. Kein belastbarer numerischer Ankaufspreis, Verkaufspreis oder Gebührentarif gefunden. Status bleibt pruefung. Suchquelle: https://www.northdata.de/Florian+Schrott,+Bamberg.]
 
 ### Recherche 02.10.2026
 

@@ -11,8 +11,8 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
-description: 'Stiefel Karl SchrottHdl.: Schrott- und Metallhandel (Familienbetrieb, gleiche Adresse wie Stiefel Helmut/Sonja)'
+status: pruefung
+description: 'Verzeichniskandidat Karl Stiefel am Hofwiesenweg 6 in Leinzell. Identität und aktueller Ankauf ungeklärt; nicht als belegter gemeinsamer Familienbetrieb mit Helmut/Sonja Stiefel (Hofwiesenweg 6/1) behandeln.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2
@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Karl Stiefel bleibt ein Verzeichniskandidat: Hofwiesenweg **6**, 07175 8706. Helmut/Sonja werden dagegen unter **6/1**, 07175 909313 geführt; der kommunale Detaildatensatz bestätigt ausdrücklich nur **Helmut Stiefel**, Schrottentsorgung, 6/1. Die frühere Beschreibung „Familienbetrieb, gleiche Adresse“ war unbelegt und wird durch eine klare Abgrenzung ersetzt.
+
+Querverweis: `bw-leinzell-stiefel-helmut-sonja-schrott-und-metallh`. Keine automatische Zusammenführung, Übertragung der kommunal genannten E-Mail oder Adresskorrektur von 6 auf 6/1. Namensgleichheit ist kein Nachfolgebeleg. Rechtsform/Registerpflicht Karls bleiben offen; eine erfolglose Northdata-Suche beweist kein „Einzelunternehmen ohne HRB“.
+
+Aktiver Ankauf, Anlieferung/Abholung, Materialien, Zeiten und Preise sind nicht unabhängig verifiziert. `pruefung` statt des früher auf Aggregatoren gestützten `aktiv`.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Korrektur 05.10.2026: Namens-/Adresslage zweiseitig nachgeprüft: Das Örtliche führt Karl am Hofwiesenweg6 mit 07175 8706 und Helmut/Sonja separat an6/1 mit 07175 909313. Gemeinde-Datensatz über Cross-7 (id42696056, erstellt/geändert 24.03.2026) bestätigt nur Helmut Stiefel, Schrottentsorgung, Hofwiesenweg6/1, 73575 Leinzell, Fax909315, helmut-stiefel@t-online.de. Diese Werte ausdrücklich NICHT Karl übertragen. Früheres description-Postulat gemeinsamer Familienbetrieb/gleiche Adresse ersetzt; status aktiv→pruefung, weil Karl bislang ohne zulässigen unabhängigen Betreiber-/Registerbeleg bleibt. Bestandsadresse/Telefon nicht entfernt, als Leads gekennzeichnet. Keine belegte Schließung, keine Preise; Quelle(n): https://www.dasoertliche.de/Themen/Stiefel-Karl-SchrottHdl-Leinzell-Hofwiesenweg ; https://www.dasoertliche.de/Themen/Stiefel-Helmut-Sonja-Schrott-und-Metallhandel-Leinzell-Hofwiesenweg ; https://www.leinzell.de/de/wirtschaft/firmen ; https://api.cross-7.de/public/geo/4123/objects/42696056]
+- [Recherche 05.10.2026: Northdata-Abfrage Karl Stiefel/Leinzell ohne Treffer; das ist keine amtliche negative Registerauskunft und belegt keine bestimmte Rechtsform. Klärung braucht Auskunft zu Karl selbst, nicht Wiederverwendung des Helmut-Datensatzes. Zeilen zu Karl/Helmut/Sonja aus 01./02.10. bleiben unveränderte Historie; Quelle(n): https://www.northdata.de/Stiefel+Karl,+Leinzell]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

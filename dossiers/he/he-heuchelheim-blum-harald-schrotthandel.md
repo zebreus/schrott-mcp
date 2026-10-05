@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnislead **Harald Blum, Am Hollerbusch 17, 35452 Heuchelheim**; Adresse und bisheriger Telefonlead 0641 84898 sind nicht durch Betreiber-/Registerbelege bestätigt. Ein weiterer Eintrag für Marco Blum an derselben Anschrift beweist weder einen gemeinsamen Betrieb noch eine Nachfolge. Die Altadresse ist keine verifizierte Anlieferempfehlung.
+
+Die direkt geprüfte schrottplatz-info-Seite enthält keine Betreiberbedingungen oder Zeiten. Ihr Link „zur Homepage“ führt lediglich zur Verzeichniswurzel, **nicht zu einer Händlerwebsite**. Auch unplausible Entfernungsvorschläge sind keine Standortbelege. Offen bleiben der aktive Inhaber, Metallankauf versus Entsorgung, Annahme und Gebühren; keine numerische Preisliste gefunden.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: schrottplatz-info-Detail direkt gelesen: Am Hollerbusch 17, 35452 Heuchelheim, 0641 84898 bleiben Portal-Leads. „zur Homepage“-Link hat href / und führt zum Verzeichnis selbst; keine Betreiberwebsite daraus erzeugt. Leistungen/Öffnungszeiten fehlen, geografisch unplausible Umkreisvorschläge nicht als Geobeleg verwendet. Keine neue belastbare Betreiber-/Familienzuordnung zu Marco Blum und keine Frontmatter-Fills; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Heuchelheim/Blum-Harald]
 
 ### Recherche 02.10.2026
 

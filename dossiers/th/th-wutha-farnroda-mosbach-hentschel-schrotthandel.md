@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: Schrotthandel und Hausmeisterservice in Mosbach laut Verzeichnis-Leads; Betreiberidentität und aktueller Ankauf ungeklärt. Nicht mit Hentschel in Aue verwechseln.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse nennen Hentschel Schrotthandel/Hausmeisterservice in Wutha-Farnroda-Mosbach. Ein Betreiber- oder kommunaler Beleg fehlt weiterhin; die Kontaktfelder bleiben leer. Die auffindbare Betreiberseite Hentschel Schrotthandel Aue gehört laut Impressum zu einem Betrieb in Aue-Bad Schlema und belegt diesen Thüringer Kandidaten nicht.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Konkreter zusätzlicher LEAD, kein Zweitbeleg nach README: Das Örtliche nennt Hentschel Schrotthandel Hausmeisterservice, Theo-Neubauer-Str. 204, 99848 Wutha-Farnroda/Mosbach, 036921 306921. Kein Betreiberlink/Impressum aus diesem Profil gewonnen; Adresse und Telefon bleiben ausschließlich Recherchekandidaten. Quelle: https://www.dasoertliche.de/Themen/Hentschel-Schrotthandel-Hausmeisterservice-Wutha-Farnroda-Mosbach-Theo-Neubauer-Str .]
+- [Recherche 05.10.2026: Namensverwechslung ausgeschlossen für die Feldfüllung: Das Impressum von Hentschel Schrotthandel Aue nennt Erdmann-Kircheis-Straße 01, 08280 Aue-Bad Schlema, 0172 7560830 und k-h@hentschel-schrotthandel-aue.com. Keine belegte Standort- oder Nachfolgeverbindung nach Mosbach; diese Website/Kontakte nicht übernehmen. Kein numerischer Ankauf-, Verkauf- oder Gebührentarif für Mosbach gefunden. Quelle: https://www.hentschel-schrotthandel-aue.com/impressum .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

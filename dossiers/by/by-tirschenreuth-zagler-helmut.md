@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rechtsträger-Spur: **Helmut Zagler Altmaterialien, Neueisen und Transporte e.K., HRA1415 Weiden i.d.OPf.** Der direkt gelesene Northdata-Registerauszug liefert jetzt den fehlenden Inhalt der Veröffentlichung vom 19.06.2023: **Geschäftsanschrift Falkenberger Straße 6–8, 95643 Tirschenreuth**. Das ist ein belastbarer Registeradresshinweis, nicht automatisch die heutige Kundenanlieferung.
+
+Gelbe Seiten/11880 nennen weiterhin Falkenberger Straße18; Telefonvarianten1294/1295 stammen nur aus Verzeichnissen. Geschäftsanschrift und öffentlicher Platz könnten auseinanderfallen; daher keine Auflösung des Standort-/Telefonkonflikts durch Mehrheitsentscheidung. Straße/Telefon bleiben leer, `pruefung` bleibt. Die alte Formulierung „Registeränderung ohne Straße“ ist durch den neuen Registerabruf präzisiert.
+
+Altmaterialien/Neueisen/Transporte sind im Firmennamen greifbar; Containerangebot, Privatkunden-Anlieferung und vergüteter Ankauf sind noch nicht betreiberbestätigt. Keine verifizierte eigene Website oder Preislisten. Kein Schließungsbeleg.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Register-Lücke aus03.10. geschlossen: Direkt abgerufenes Northdata-Profil HRA1415 Weiden i.d.OPf. zeigt die Veröffentlichung19.06.2023 wörtlich: Gemäß Artikel65 EGHGB von Amts wegen eingetragen: Geschäftsanschrift Falkenberger Straße6-8, 95643 Tirschenreuth. Es nennt Eintragung29.07.2003, Inhaber Helmut Zagler, e.K. Das konkretisiert den vorhandenen Creditreform-/Creditsafe-Lead, bestätigt aber keinen Kundenplatz an6-8 und erklärt Nr.18 nicht. Keine Straße/Telefon aus widersprüchlichen Quellen eingetragen, status pruefung; Registeradresse und Annahmeadresse ausdrücklich getrennt. Keine neue numerische Ankauf-/Verkauf-/Gebührenliste bestätigt; Quelle(n): https://www.northdata.de/Helmut+Zagler+Altmaterialien,+Neueisen+und+Transporte+e.+K.,+Tirschenreuth/Amtsgericht+Weiden+HRA+1415 ; https://www.gelbeseiten.de/gsbiz/84ffead6-5c1c-4a5d-a988-5ab2d030164d (Adress-Lead18) ; https://www.11880.com/branchenbuch/tirschenreuth/060440090B26773779/helmut-zagler-neueisen-altmetall-container.html (Telefon-/Adress-Leads)]
 
 ### Recherche 03.10.2026
 

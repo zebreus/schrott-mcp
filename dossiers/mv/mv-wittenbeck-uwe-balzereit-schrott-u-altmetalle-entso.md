@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter Verzeichnislead für Schrott/Altmetalle und Entsorgung in Wittenbeck. Es fehlen eine belastbare Betreiberidentität, aktuelle Adresse und Kontakte. Die Einordnung als Schrottplatz im Seed ist **kein Nachweis einer tatsächlich zugänglichen Annahmestelle** oder eines vergüteten Ankaufs.
+
+Der frühere Northdata-Treffer **Uwe Balzereit, Raßnitz** im Umfeld B&B Sandstrahltechnik bleibt getrennt: Name allein genügt nicht zur Zuordnung nach Wittenbeck. Erneute Suche brachte keinen qualifizierten Zweitbeleg; das ist keine Schließungsdiagnose. Zur Fortsetzung sind ein Wittenbecker Betreiber-/Gewerbenachweis und anschließend die Bedingungen für Annahme, Abholung und Bezahlung nötig.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Erneuter Orts-/Namenscheck und Direktabruf 11880 Schrotthandel Wittenbeck ohne belegfähige Identifikation dieses Betriebs. Überblick stellt klar: Seed-Typ schrottplatz und Entsorgungsbeschreibung beweisen weder Anlieferung noch Ankauf. Raßnitzer Namenstreffer aus der Vorwelle weiterhin nicht attribuiert; keine Frontmatter-Fills/keine Schließung, status pruefung; Quelle(n): https://www.11880.com/suche/schrotthandel/wittenbeck; vorhandene Recherche 03.10.2026]
 
 ### Recherche 03.10.2026
 

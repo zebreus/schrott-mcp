@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**IRE GbR, Jahnstr. 7, 0162 6216491** bleibt ein unbestätigter Verzeichnislead. Die importierte Aussage „Annahme ab 1 Kilo / aktuelle Preise“ ist weder eine belegte Betreiberbedingung noch eine numerische Preisliste. Ein blockierter Portalabruf beweist keine Betriebsaufgabe.
+
+Abgrenzung jetzt anhand einer Primärquelle: **GVM Schrott- & Altmetallhandel / Björn Makarewicz** nennt auf seiner eigenen Kontakt-/Impressumsseite **Grüner Weg 11, 23936 Grevesmühlen** und andere Telefonnummern. Dieser reale Händler bestätigt nicht die Identität oder Nachfolge von IRE an der Jahnstraße. Keine Übertragung von GVM-Annahmezeiten, Materialsorten oder Kontakten. Offen bleiben IRE-Gesellschafter, aktueller Standort und tatsächlicher Ankauf; Status bleibt Prüfung.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: GVM-Kontakt/Impressum direkt gelesen: Björn Makarewicz, Grüner Weg 11, 23936 Grevesmühlen, 03881 7583913 / 0162 2459715. Damit ist der Orts-Namenskonflikt präziser abgegrenzt; keine belegte Betreiberkette zu IRE/Jahnstr. 7. Fremdoperator-Daten nicht übertragen, IRE-Annahme-ab-1-kg und Preiswerbung bleiben alte Portalbehauptungen. Kein neuer IRE-Primärbeleg, Frontmatter/status pruefung unverändert; Quelle(n): https://gvm-schrott.de/kontakt-impressum; vorhandene IRE-Recherche 01.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

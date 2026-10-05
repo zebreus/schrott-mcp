@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der bislang als Horst Petermann geführte Betrieb an der Burgstr. 54 ist nur durch Verzeichnisse als Autoverwertung/Schrotthandel beschrieben. Adresse, PLZ und Telefonnummer sind **nicht durch eine Betreiber- oder Registerquelle bestätigt**. Vier übereinstimmende Portale erfüllen den README-Belegstandard nicht; der zuvor gesetzte Aktivstatus wird deshalb zurückgenommen, nicht als Schließung gewertet.
+
+Ein separater Lead nennt **Mario Petermann, Burgstr. 54A**. Weder eine Betreiberkette noch die Gleichheit beider Betriebe ist nachgewiesen. Gleichnamige Autoverwertungs-Social-/Kleinanzeigenprofile dürfen ohne Inhaber- und Adressabgleich nicht zugeschrieben werden. Offen bleiben heutiger Inhaber, Annahme von losem Altmetall, Vergütung und Besuchszeiten; eine Autoverwertung ist nicht automatisch ein allgemeiner Metallankauf.
 
 ## Timeline
+
+### Beleglagenprüfung 05.10.2026
+
+- [Korrektur 05.10.2026: status aktiv → pruefung. Die Aktivierung vom 02.10. beruhte ausdrücklich nur auf vier Verzeichnissen; nach README sind diese Leads und keine belegfähige Ausnahme. Kein neuer Betreiber-/Register-Doppelbeleg gewonnen. Burgstr. 54/27612/04744 5770 bleiben als transparent unbestätigte Altwerte erhalten; Mario Petermann Burgstr. 54A nicht zugeordnet. Keine Schließung und keine Betreiber-Nachfolge behauptet; Quelle(n): vorhandene Recherche 02.10.2026; README.md Abschnitt Source hierarchy/Authoritative operator primary source]
 
 ### Recherche 02.10.2026
 

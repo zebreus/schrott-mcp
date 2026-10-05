@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Übernahme der Containerdienst-Aktivitäten durch Götz zum 01.01.2024 ist primär belegt; Übernahme der gesamten Rechtsperson, der Schrottsparte oder Fortführung einer Annahmestelle am Holzschwanger Weg 5 dagegen nicht. Die aktuelle Götz-Website bietet Containerlieferung nach Senden, nennt als öffentliche Wertstoffhöfe aber nur Neu-Ulm, Weißenhorn und Memmingen. Bestehende Zäpfler-Adresse/Telefon sind historische Aggregator-Leads, nicht als heutiger öffentlicher Hof bestätigt. Status `pruefung`; keine Umbenennung, Götz-Website-Zuordnung oder Übertragung von Götz-Preisen auf diesen Slug.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Übernahmekette erneut geprüft 05.10.2026: Die live gelesene Götz-Unternehmensseite sagt ausdrücklich „Übernahme der Aktivitäten des Containerdienstes Zäpfler zum 01.01.2024“; die Unternehmenschronik enthält inzwischen auch den Ausbau Weißenhorn 2026. Damit ist die operative Containerübernahme bestätigt, nicht die rechtliche Identität des alten e.K., dessen vollständige Schrottsparte oder heutige Betriebsadresse. Die Northdata-Suche Erich Zäpfler/Senden führt zu Personen-/TZ-Projekt-Verbindungen; kein belegter Übergang zwischen e.K. und TZ-Projekt Verwaltungs GmbH. Alte Felder und status pruefung bleiben unverändert. Quellen: https://www.goetz-neu-ulm.de/unternehmen/; https://www.northdata.de/Erich+Z%C3%A4pfler,+Senden.]
+- [Standort-/Preisprüfung 05.10.2026: Götz-Wertstoffhofseite führt Neu-Ulm, Zeppelinstraße 32; Weißenhorn, Eschachweg 2–4; Memmingen, Kiryat-Shmona-Straße 5. Die Senden-Landingpage beschreibt Lieferung im Raum Senden/Staig/Illerkirchberg aus Neu-Ulm/Weißenhorn, nicht einen Hof in Senden-Aufheim. Fehlende Nennung ist kein eigenständiger Schließungsbeleg, bestätigt aber keine Annahme am Holzschwanger Weg. Götz wirbt mit vergüteten Metallen und einem Container-Webshop; keine numerischen Preise auf den gelesenen Seiten und keine Zäpfler-Zuordnung solcher Ankaufskurse/Verkaufspreise/Gebühren. Bestehendes Dossier `by-weienhorn-gotz-schrott-und-metalle` nicht verändert. Quellen: https://www.goetz-neu-ulm.de/wertstoffhof/; https://www.goetz-neu-ulm.de/containerdienst-senden/.]
 
 ### Recherche 03.10.2026
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Import beschreibt einen **mobilen Abholservice**, nicht einen belegten Schrottplatz. Brockhausweg 93, 22117 Billstedt bleibt eine unbestätigte Altadresse; kein Betreiber-Impressum, verifizierter Kontakt oder zulässiger zweiter Beleg liegt vor. Daher keine Empfehlung zur unangekündigten Anlieferung.
+
+Die erneute Verzeichnis-/Websuche brachte keinen belastbaren Betreiberbeleg. Fehlende Suchtreffer beweisen weder Nichtexistenz noch Schließung. Auch der ähnlich benannte Katalysatoren-Lead in Lampertheim ist ohne belegte Verbindung kein Ersatzkontakt. Zu klären sind der vollständige Inhabername, eine aktuelle Betreiberquelle und ob Abholung vergütet, kostenlos oder kostenpflichtig ist.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Erneuter Direktcheck der 11880-Suche Schrotthandel Hamburg ohne identifizierbaren Steinbach-Betreiberbeleg; keine Aktivitäts- oder Schließungsaussage aus Portalabwesenheit. Überblick trennt mobile Seed-Leistung von unbestätigter Adresse und fehlender Anlieferberechtigung. Kein Frontmatter-Fill, keine Zusammenführung mit Steinbach Lampertheim; Quelle(n): https://www.11880.com/suche/schrotthandel/hamburg; vorhandene Recherche 02.10.2026]
 
 ### Recherche 02.10.2026
 

@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die mögliche Betreiberseite nennt **ALIBABA Schrottabholung / Akif Kaplan**, Henriette-Ackermann-Str. 5, 50827 Köln. Sie beschreibt mobile Schrottabholung, Demontage, Haushaltsauflösung, Transporte und Kfz-Ankauf. Mangels unabhängigem Identitätsbeleg bleibt dies eine **Betreiber-Einzelquelle**; Adresse und Website werden nicht zu einer bestätigten Anlieferstelle in Köln-Ehrenfeld erklärt.
+
+Präzisierung der Kontaktlage: Hauptnummer **01577 4606440** ist auf der geprüften Seite mit ihrem tel-Link konsistent. Der Widerspruch betrifft die zusätzliche Nummer: Text 07164 7667363, Link 01764 7667363. Die frühere pauschale Aussage zu widersprüchlichen Nummern ist damit enger zu verstehen; ein qualifizierter zweiter Kontakt-/Identitätsbeleg fehlt trotzdem.
+
+Schrottabholung bedeutet nicht automatisch vergüteten Metallankauf; **Kfz-Ankauf ist ein anderes Angebot**. Die geprüfte Leistungsseite nennt keine numerische Metallankaufliste oder verbindliche Gebühren. Kontaktzeiten Mo–Sa 07–22 Uhr sind keine belegten Öffnungszeiten eines Annahmehofs.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Homepage, Schrottabholung und Impressum direkt erneut gelesen. Akif Kaplan/Henriette-Ackermann-Str. 5 bestätigt nur innerhalb derselben Betreiberquelle. Hauptnummer +4915774606440 stimmt zwischen Anzeige und tel-Link überein; der in der Vorwelle pauschal beschriebene Widerspruch betrifft die zusätzliche Footer-Nummer (Text 071647667363, Link 017647667363). Diese Präzisierung liefert keinen unabhängigen Zweitbeleg; Frontmatter bleibt unverändert. Keine allgemeine Metallankaufvergütung aus Kfz-Ankauf, keine Hofannahme aus Kontaktzeiten abgeleitet; keine numerische Preis-/Gebührenliste auf den geprüften Seiten; Quelle(n): https://www.schrottabholung-alibaba.de/; https://www.schrottabholung-alibaba.de/schrottabholung; https://www.schrottabholung-alibaba.de/impressum]
 
 ### Recherche 03.10.2026
 

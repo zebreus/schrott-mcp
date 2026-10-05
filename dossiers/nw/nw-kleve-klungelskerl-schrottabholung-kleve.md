@@ -4,7 +4,7 @@ name: Klüngelskerl Schrottabholung Kleve
 trader_type: schrotthaendler
 state: NW
 city: Kleve
-street: Klüngelskerl Schrottabholung Kleve Kleve Burgunderstr. 13
+street: Burgunderstr. 13
 postcode: ''
 phone: 02821 7853033
 email: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter mobiler Schrottabhol-Lead mit der Altadresse Burgunderstr. 13 und Telefon 02821 7853033. Die doppelt importierte Firmen-/Ortsbezeichnung wurde aus dem Straßenfeld entfernt; das ist **Datenbereinigung, keine neue Adressverifikation**. Der direkt gelesene Portal-Eintrag nennt jetzt ebenfalls diese Straße und 47533 Kleve, bleibt aber ein Verzeichnislead.
+
+**Nicht mit schrottabholung-kleve.de zusammenführen:** Dessen Impressum nennt A. Lahib, Dinnendahlstraße 18 und eine andere Telefonnummer. Eine Verbindung zum Burgunderstraßen-Lead ist nicht belegt. Portalangaben zu Mindestgewichten, Materialsorten und Öffnungszeiten werden nicht als Betreiberbedingungen übernommen. Ankauf, Abholgebühren, Inhaber und aktueller Betrieb müssen durch zulässige Quellen geklärt werden; keine Anlieferstelle bestätigt.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: lokaleschrottplatz-Detail direkt gelesen: Burgunderstraße 13, 47533 Kleve, 02821 7853033. Die bisher nur im Seed lokalisierte Straße hat damit einen zusätzlichen Portal-Lead, aber weiterhin keinen zulässigen Betreiber-/Registerbeleg. street syntaktisch bereinigt aus „Klüngelskerl Schrottabholung Kleve Kleve Burgunderstr. 13“ zu „Burgunderstr. 13“, kein Umzug oder bestätigter Adress-Fill; postcode weiterhin leer. Portal-Mindestgewichte und Zeiten nicht übernommen. Gegenprüfung schrottabholung-kleve.de/impressum bestätigt A. Lahib an Dinnendahlstraße 18, keine Betreiberkette zu diesem Dossier; Quelle(n): https://lokaleschrottplatz.de/klungelskerl-schrottabholung-kleve/; https://www.schrottabholung-kleve.de/impressum/]
 
 ### Recherche 02.10.2026
 

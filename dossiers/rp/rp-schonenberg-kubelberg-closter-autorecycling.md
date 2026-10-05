@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://closter.de/
 website_status: aktiv
 status: pruefung
-description: ''
+description: Autorecycling-/Ersatzteilbetrieb mit erreichbarer Betreiberwebsite; Fortbetrieb nach angekündigter Platzschließung Ende 2023 ungeklärt. Kein belegter allgemeiner Metallankauf.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026, FINAL)
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Website und Impressum sind erreichbar und zeigen weiterhin Closter-Autorecycling GmbH, Christa Closter und Bruchstraße 31. Das belegt die publizierte Identität, **nicht** automatisch laufenden Hofbetrieb 2026. Die ältere Schließungsankündigung aus 2022 für Ende 2023 bleibt ungeklärt; ohne bestätigte Durchführung weder `geschlossen` noch aktuelle Anlieferadresse/Zeiten setzen.
+
+Angebotsfokus: gebrauchte Ersatzteile, Gebrauchtwagen und Reparatur. Allgemeiner Eisen-/NE-Metallankauf ist nicht nachgewiesen. Verkauf gebrauchter Teile und Versand-/Rückgabebedingungen sind von Ankaufpreisen und Annahmegebühren zu trennen. Keine belastbare numerische Preisliste im diesmal gelesenen Root/Impressum.
 
 ## Timeline
+
+### Recherche 05.10.2026 (Abend-Welle)
+
+- [Recherche 05.10.2026: Root und vollständiges Impressum erneut direkt abrufbar: Closter-Autorecycling GmbH, Christa Closter, Bruchstraße 31, 66901 Schönenberg-Kübelberg, HRB 31929 Zweibrücken, 06373 50890-0, info@closter.de. Root bietet Ersatzteile, Einbau nach Termin, Gebrauchtwagen; publiziert weiterhin Mo–Do 09–12/13–17, Fr 09–12/13–16, Sa 09–12. Keine datierte Fortführungsnachricht oder Umzugsadresse im Abruf; die offene Schließungsankündigung aus der Recherche vom 03.10. wird durch unveränderten Website-Footer nicht widerlegt. Adresse/Zeiten/Kontakte bleiben Timeline-only und status pruefung; keine allgemeine Metallannahme/Preisgarantie. Quelle(n): https://closter.de/ ; https://closter.de/impressum .]
 
 ### Recherche 03.10.2026
 

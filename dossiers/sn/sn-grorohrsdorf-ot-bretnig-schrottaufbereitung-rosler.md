@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://schrott-roesler.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: Schrott- und Metallankauf in Bretnig laut Betreiber; Containerdienst und Industriedemontage. Kontaktdaten weiterhin nur Betreiber-Einzelbeleg.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Familienbetrieb mit Betreiberin Veronika Rösler. Die eigene Website bietet ausdrücklich Schrott-/Metallankauf für Privat und Gewerbe, Barzahlung oder Überweisung zu Tagespreisen, Container von 1–34 m³ sowie Industriedemontagen an. Aktuelle Betriebsruhe-Hinweise für Oktober/November 2026 sprechen für gepflegte Inhalte.
+
+Adresse und Kontakt bleiben mangels unabhängiger Bestätigung Timeline-only. Die Einzelunternehmer-Website erfüllt die registergebundene Betreiber-Ausnahme der README nicht; mehrere Unterseiten oder ein dort veröffentlichtes Zertifikat sind keine zweite Quelle. Die Öffnungszeiten enthalten zusätzlich tägliche Pausen, die bei einem späteren Fill nicht fehlen dürfen. Keine numerische Ankaufspreisliste gefunden; Verkauf von Vormaterial ist ein eigenes Angebot, kein Ankaufspreis.
 
 ## Timeline
+
+### Recherche 05.10.2026 (Abend-Welle)
+
+- [Recherche 05.10.2026: Impressum und Leistungsseite erneut direkt gelesen: Veronika Rösler, Gewerbering Nord 18, 01900 Großröhrsdorf OT Bretnig, 035955 70110, kontakt@schrott-roesler.de. Annahme am Lager für Privat/Gewerbe, Auszahlung bar oder Überweisung; Container 1–34 m³, größere Mengen per eigenem Containerfahrzeug, kostenfreie Container nur für Daueranfallstellen. Website nennt Betriebsruhe am 03.10., 31.10. und 18.11.2026. Zeiten Mo–Fr 07–16, Sa 09–12, Januar/Februar samstags geschlossen; täglich 09–09:30 und 12–13 Uhr Pause. Kein Zahlenpreis, keine allgemeine Gebührenfreiheit ableiten. Creditreform-Suchtreffer bestätigt Namen/Ort als Gewerbebetrieb, Direktabruf HTTP 403; keine neu gelesene zweite Adressquelle, Frontmatter-Kontakte bleiben leer. Quelle(n): https://schrott-roesler.de/ ; https://schrott-roesler.de/impressum/ ; https://schrott-roesler.de/schrott-und-metallankauf/ ; https://firmeneintrag.creditreform.de/01900/3070301075/VERONIKA_ROESLER_SCHROTTAUFBEREITUNG_ROESLER (Suchtreffer, Abruf blockiert).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

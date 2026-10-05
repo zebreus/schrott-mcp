@@ -11,8 +11,8 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
-description: ''
+status: pruefung
+description: Historisch kommunal gelistete Autoverwertung in Lichtenberg; aktuelle Anerkennung und Kontaktdaten müssen im heutigen Fachbetrieberegister geprüft werden.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Berlin (BE) — Recherche
@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die frühere Berliner Senatsliste stützte RIMA an Josef-Orlopp-Str. 79–83. Ihr PDF ist jetzt nicht mehr abrufbar; die aktuelle Senatsseite verweist auf das GADSYS-Fachbetrieberegister. Ein aktueller Eintrag/Zertifikatszeitraum konnte im JavaScript-Register nicht ausgelesen werden. Verzeichnis-Leads sind kein zweiter zulässiger Adressbeleg; die frühere Bewertung „2-Beleg-Standard erfüllt“ ist daher korrigiert. Altadresse bleibt als Historie erhalten, Status wird Prüfung statt ungesichert aktiv.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Aktualitäts- und Belegkorrektur: Die historische PDF-URL liefert beim Direktabruf 404. Ein Suchindex-Ausschnitt enthält weiterhin RIMA, 10365, Josef-Orlopp-Str. 79–83 und LE 3700057; das ist kein neu gelesener aktueller Anerkennungsnachweis. Die aktuelle Senatsseite verweist zur Betriebssuche auf GADSYS/GESA. Das Fachbetrieberegister liefert im verfügbaren Abruf nur die JavaScript-Anwendung, keinen auswertbaren RIMA-Datensatz: Anerkennungsstatus offen, nicht als fehlender Registereintrag interpretieren. Aggregatoren sind nach README nur Leads; daher reicht die kommunale Altquelle plus Verzeichnisse nicht für die frühere Zwei-Beleg-Aussage. status auf pruefung, keine Telefonnummer aus unsicherer PDF-Zuordnung oder Mobil-Lead übernehmen. Quellen: https://www.berlin.de/sen/uvk/_assets/umwelt/kreislaufwirtschaft/service/privathaushalte/altfahrzeuge/anerkannte-demontagebetriebe-altfahrzeugeberlin.pdf ; https://www.berlin.de/sen/uvk/umwelt/kreislaufwirtschaft/service/privathaushalte/altfahrzeuge/ ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+- [Recherche 05.10.2026: Das eBay-Profil rima-autoverwertung wird im Suchindex als Berliner/Lichtenberger Gebrauchtteileanbieter ohne Versand beschrieben; Direktabruf 403, keine neue Impressums-/Adressprüfung möglich. Kein aktueller Ankaufpreis oder Verkaufspreis aus einer tatsächlich gelesenen Angebotsliste erfasst. Quelle: https://www.ebay.de/usr/rima-autoverwertung .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

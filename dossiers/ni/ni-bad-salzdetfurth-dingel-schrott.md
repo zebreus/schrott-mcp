@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**Dingel Schrott in Bad Salzdetfurth** bleibt ein Verzeichnislead ohne belegten Inhaber, Adresse oder Betreiberwebsite. Wiederholte Recherchen einschließlich der aktuellen Welle erbrachten keinen zulässigen Doppelbeleg. Das bedeutet keine bewiesene Geschäftsaufgabe; Such-/Registerabwesenheit ersetzt keinen Schließungsnachweis.
+
+Der in einem Ortsverzeichnis gefundene **ZAH Zweckverband Abfallwirtschaft Hildesheim** ist kein belegter Alias oder Nachfolger von Dingel. Kommunale Entsorgungsangebote dürfen nicht als privater Metallankauf attribuiert werden. Offen ist zunächst der vollständige Gewerbename bzw. die ursprüngliche Verzeichnisquelle; erst danach lassen sich Annahme, Abholung und Vergütung prüfen. Keine numerische Ankauf-, Verkaufs- oder Gebührenliste für Dingel belegt.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Erneute Namens-/Ortssuche und direkt gelesene 11880-Suche Schrotthandel Bad Salzdetfurth ohne qualifizierten Dingel-Betreiberbeleg. Keine bloße Wiederholung von Portal-Negativbefunden als Schließungsbeweis. Überblick priorisiert vollständige Gewerbeidentität/Ursprungsquelle und grenzt kommunalen ZAH weiterhin ohne behauptete Betreiberkette ab. Frontmatter unverändert, status pruefung; Quelle(n): https://www.11880.com/suche/schrotthandel/bad-salzdetfurth; vorhandene Recherche 03.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SMB an der Coermühle 12 ist weiterhin ein **Portal-Lead ohne bestätigte Betreiberidentität**. PLZ und Telefon stammen aus der Verzeichnisrecherche vom 02.10.; Metallankauf, Anlieferung und Betriebszeiten sind nicht belastbar verifiziert. Der historische Befund zur Domain smb-muenster.de beweist keine Betriebsschließung; ein Platzhalter wie email@example.com ist kein Kontakt.
+
+Wichtige Abgrenzung: **SRM Schrott & Metallrecycling Münster GmbH** hat laut eigenem Impressum ihren Standort am Kesslerweg 37, HRB 11016 AG Münster. Die ähnlich klingende Firma ist kein belegter Nachfolger von SMB. Ihre Website, Annahmebedingungen, Preise oder Entsorgungsgebühren werden deshalb nicht auf diesen Eintrag übertragen. Nächster Klärschritt ist die Identifizierung des Coermühle-Betreibers, nicht das Auffüllen aus SRM-Daten.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Verwechslungsschutz durch Betreiber-Impressum: srm-schrott.de gehört SRM Schrott & Metallrecycling Münster GmbH, Kesslerweg 37, 48155 Münster, HRB 11016, Geschäftsführer Jörg Persch-Rose/Holger Jansing. Abweichender Name und Standort gegenüber SMB Coermühle 12, kein Nachfolge-/Mergebeleg. SRM-Fakten nicht attribuiert; SMB-Altwerte bleiben unbestätigt, status pruefung. Keine neuen Preislisten für SMB; Quelle(n): https://www.srm-schrott.de/impressum; vorhandene SMB-Recherche 02.10.2026]
 
 ### Recherche 02.10.2026
 

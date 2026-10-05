@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Walter Feile bleibt ein ungeklärter Schrott-/Metallhandels-Kandidat. Der erneut gelesene GS-Detaildatensatz nennt Siedlung12, 88430 Rot an der Rot, 08395 2235; die bisherige Spur Siedlung3 kommt aus anderen Verzeichnissen. Es fehlt ein Betreiber-/Registerbeleg für Person, heutige Anschrift und Ankauf. Eine Hausnummer darf nicht nach Portalmehrheit ausgewählt werden.
+
+`pruefung` ersetzt das bislang trotz Adresskonflikt beibehaltene `aktiv`; das ist keine Schließungsbehauptung. Straße/PLZ/Telefon bleiben leer. Öffnungszeiten, Annahme/Abholung, Mindestmengen und Preise ungeklärt. Erforderlich ist eine adress- und personenbezogene Betreiber-/Gewerbeauskunft, nicht weitere Zusammenzählung von Aggregatoren.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Korrektur 05.10.2026: GS-Detail live erneut abgerufen: Schrott+Metallhandel Walter Feile, Siedlung12, 88430 Rot an der Rot, 08395 2235, keine echten Betreiber-Weblinks/Preisliste im Profil. Altlead Siedlung3 bleibt ungelöst. Northdata-Namensabfrage liefert breite/unpassende Resultate, keinen eindeutig passenden Rechtsträger; weder Nichtexistenz noch fehlende Registerpflicht daraus ableitbar. status aktiv→pruefung wegen unbestätigter Betriebs-/Ankaufsidentität, keine Schließung, keine Hausnummer/Telefon auf Portalbasis gefüllt. Keine für diesen Kandidaten verifizierte numerische Ankauf-/Verkaufspreis- oder Gebührenliste; Quelle(n): https://www.gelbeseiten.de/gsbiz/1e9e243c-6577-45d3-a0f6-a52517c14dd0 ; https://www.northdata.de/Walter+Feile,+Rot+an+der+Rot ; https://www.schrottplatz-info.de/schrottplatz/Rot-an-der-Rot/ (bestehender Gegenlead)]
 
 ### Recherche 02.10.2026
 

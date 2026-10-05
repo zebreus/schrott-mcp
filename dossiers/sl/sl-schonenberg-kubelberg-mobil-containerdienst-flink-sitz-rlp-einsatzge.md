@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://containerdienst-flink.de/
 website_status: 'aktiv'
 status: aktiv
-description: ''
+description: Mobiler Schrott- und Metallankauf sowie Containerentsorgung laut Betreiber; Sitz in Rheinland-Pfalz, Einsatz auch Ost-Saarland. Öffentliche Entsorgungsgebühren sind keine Ankaufpreise.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Flink wirbt mit Schrott-/Metallankauf und Abholung für private/gewerbliche Kunden sowie Containerentsorgung. Das Impressum nennt Marcello Winterstein in Schönenberg-Kübelberg (RLP); state SL beschreibt hier nur das Einsatzgebiet. Kontaktdaten bleiben wegen alleiniger Betreiberquelle Timeline-Fakten. Wichtig sind öffentlich sichtbare Entsorgungstarife netto zuzüglich 19 % USt, getrennt von nicht bezifferten Metall-Ankaufpreisen. Containergrößen und Kostenumfang sind auf den Betreiberseiten teilweise widersprüchlich.
 
 ## Timeline
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Betreiber erneut direkt gelesen: Impressum FLINK Containerdienst, Marcello Winterstein, Saarbrücker Straße 109, 66901 Schönenberg-Kübelberg, +49 6373 8599142, info@containerdienst-flink.de; kein HR-Eintrag genannt. Schrottseite bewirbt Abholung/Ankauf bei Privat, Gewerbe und Industrie für Eisen/Stahl, Kupfer, Aluminium, Messing, Edelstahl, Kabel, Zink und Guss zu Tages-Kilopreisen, ohne Zahlen. Einsatzgebiet nennt u. a. Homburg/Bexbach/Kirkel/Neunkirchen/Ottweiler/St. Ingbert/Saarbrücken neben Pfälzer Orten. Kein zweiter unabhängiger Beleg, kein Kontakt-/Adress-Fill und kein fiktiver Saarland-Hof. Quellen: https://containerdienst-flink.de/impressum/ ; https://containerdienst-flink.de/schrott-und-metallhandel/ ; https://containerdienst-flink.de/ .]
+- [Recherche 05.10.2026: PREISLISTENFUND – GEBÜHREN, ausdrücklich NICHT Ankauf/Verkauf: Containerseite veröffentlicht alle Preise netto zzgl. 19 % MwSt; Abruf 05.10., kein explizites Gültigkeitsdatum. Altholz A1–A3 49 EUR/m³; Altholz A4 65 EUR/m³; Karton/Papier 35 EUR/m³; Sperrmüll 289 EUR/t; Grünschnitt 39 EUR/m³; Erde/Bodenaushub 49 EUR/t, mit 50 % Steinen 89 EUR/t; Gipskarton 169 EUR/t; Bauschutt 59 EUR/t; Baumischabfälle 289 EUR/t; Glas 115 EUR/t; Mischmüll 289 EUR/t; mineralischer Bauschutt mit Störstoffen 119 EUR/t. Containermiete 14 Tage kostenlos, ab Tag 15 1,80 EUR/Tag netto; Anfahrt/Containerstellung „bis 30 km“ 99 EUR, „ab 30 km“ 119 EUR netto (30-km-Grenze überlappend formuliert). Mindestabnahme 2 Tonnen pro Container ist eine Container-Tarifbedingung, keine Metallankauf-Mindestmenge. Preistext sagt Service/Transport/Entsorgung inklusive, nennt zugleich separate Anfahrt: Endpreisumfang vor Bestellung klären. Quelle: https://containerdienst-flink.de/containerdienst-und-containervermietung/ .]
+- [Recherche 05.10.2026: Leistungsbedingungen offen: Startseite nennt Container 5–40 m³, Container-Unterseite 2,5–10 m³ und Formular 5/7/10 m³; daher keine einheitliche Größenpalette in strukturierte Daten übernehmen. 14 Tage freie Miete bedeutet nicht kostenlose Entsorgung oder Fahrt. Kein numerischer Metall-Ankaufpreis und keine Verkaufspreisliste gefunden. Quellen: https://containerdienst-flink.de/ ; https://containerdienst-flink.de/containerdienst-und-containervermietung/ ; https://containerdienst-flink.de/schrott-und-metallhandel/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
