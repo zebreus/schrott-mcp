@@ -36,20 +36,19 @@ Prod: `traders`/`current_prices` in `public.db`, `runs`/`feedback` in
 
 ## 4) Größere Tasks parallel per Subagenten
 
-Mehrere `general`-Subagenten (background) einsetzen. Klare Auftragsgrenzen pro
-Agent (explizite Slug-Listen — Wave-/Ergebnis-Dateien unter `/tmp/opencode/`
-dürfen NIE für die Auftragsauswahl genutzt werden). Kein direkter DB-Write
-aus Agenten.
+Mehrere `general`-Subagenten (background) einsetzen, mit konkreten Dossiers
+aus dem aktuellen Datenbestand und überschneidungsfreier Aufteilung.
+Recherche-Agenten bekommen gemäß Nutzerpräferenz ein Ziel und knappen
+Kontext, während sie Vorgehen und Werkzeuge selbst wählen. Das kurze
+Auftragsmuster steht in `prompts/tiefenrecherche-welle.md`.
 
-## Dossier-Regeln (Kurzfassung)
+## Ergebnisprüfung durch den Owner
 
-- `dossiers/` ist die EINZIGE hand-edierte Quelle.
-- Nur LEERE Frontmatter-Felder füllen; `website` nur Domain-Root;
-  `website_status` ∈ {aktiv, tot, blockiert, unbekannt}.
-- Beleg-Standard: 2 unabhängige Belege, sonst Feld leer + Klärfall-Vermerk.
-  Aggregatoren sind nur Leads, niemals Belege.
-- Jede Änderung als `### Recherche DD.MM.YYYY` mit
-  `[Recherche …: …; Quelle(n): …]`; Unsicheres nur in Timeline, nie Frontmatter.
+- Händler-Erkenntnisse in `dossiers/` mit Quellen und offener Beleglage
+  dokumentieren; bestehende Recherchehistorie erhalten.
+- Der Owner prüft Identität, Quellen und Dossierformat anhand von `README.md`
+  und den vorhandenen Dateien. Detailregeln gehören in diese Prüfung statt
+  in kleinteilige Recherche-Aufträge.
 - Owner-Gate vor jedem Commit (Overwrite-/Enum-/Deep-Link-/Emdash-Check),
   danach Seed-Tests, Commit + Push + Redeploy + Spot-Verifikation.
 

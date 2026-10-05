@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Fortsetzung bei neuen Gegenprüfungen, bereits erledigte Koblenz-Abgrenzung aus 02.10. nicht wiederholt. Exakte Rufnummer-Websuche 01798500901 ohne brauchbares Primärergebnis; DDG-Direktsuche CAPTCHA. Northdata-Suche Reinhard/Kaiserslautern live HTTP 200 liefert unscharfe, teils überregionale Resultate (1.000+), keinen kongruenten Betreiber-/Standortnachweis; daraus kein Register-Negativurteil. Kein unabhängig belegter Gewerbe-/Inhabername oder aktuelle Kaiserslauterner Adresse gewonnen; Quelle(n): https://html.duckduckgo.com/html/?q=%2201798500901%22 (CAPTCHA am 05.10.2026) + https://www.northdata.de/Reinhard,+Kaiserslautern]
+- [Recherche 05.10.2026: Ungeklärte Identität und Seed-Adressfragment Käthe-Kollwitz-Str. bleiben Owner-Klärfall. Mobilnummer aus älteren Aggregator-Leads nicht gefüllt; Namensähnlichkeit zu Heinrich Reinhardt/Koblenz aus Historie rechtfertigt weiterhin keinen Domain-/Kontakt-/Leistungstransfer. Ohne verifizierte eigene Domain kein Impressums-/Kontakt-/Preis-/Standort-/Zertifikatscrawl möglich, keine zwölf Unterseiten behauptet. Frontmatter und status pruefung unverändert; keine aktuelle numerische Ankauf-/Verkaufspreisliste oder Servicegebühr verifiziert, keine permanente Schließung aus Suchmiss/CAPTCHA abgeleitet; Quelle(n): https://www.northdata.de/Reinhard,+Kaiserslautern + https://html.duckduckgo.com/html/?q=%2201798500901%22 (Abrufgrenze)]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Koblenz-Abgrenzung bestaetigt — reinhardt-recycling.de = Heinrich Reinhardt, Herberichstr. 139A, 56070 Koblenz (Tel. 0157/53116951), gehoert NICHT zu Reinhard+Entruempelung KL (Namensdifferenz Reinhardt mit dt vs Reinhard). KL-Betrieb weiter nur Aggregator-Leads (lokaleschrottplatz/raeumungsfinder, Mobil 0179 8500901), keine Adresse, keine Betreiber-Website → keine Fills, website_status unbekannt, status pruefung bleibt. Quelle(n): reinhardt-recycling.de Impressum (Koblenz, Abruf 02.10.2026); 01.10.2026-Leads referenziert.]

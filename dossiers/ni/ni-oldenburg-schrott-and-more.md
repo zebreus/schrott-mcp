@@ -35,3 +35,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott
+
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Recherche vom 03.10. vollständig einschließlich Fremdbetriebe gelesen; deren Seiten nicht nochmals als Seed-Betreiber gecrawlt. Neue live NorthData-Abfrage Schrott and More/Oldenburg liefert im ersten sichtbaren Ergebnisblock unscharfe Fremdgesellschaften, keinen eindeutig zugeordneten Betreiber; 15 von 1.000+ Treffern sind keine exhaustive Registerprüfung. Neue Websuche ohne belastbare Verbindung des Seed-Namens zu einem Impressum/Gewerbenamen. J. Heick, Springer, Heine, DE-RO und Petko bleiben verschiedene Firmen, nicht automatisch Namensänderungen dieses Dossiers. Quelle(n): https://www.northdata.de/Schrott+and+More,+Oldenburg (live Suchansicht, kein Händlerbeleg)]
+- [Recherche 05.10.2026: Keine eindeutig identifizierte Website für aktuellen Kontakt-/Standort-/Leistungs-/Preis-/Zeit-/Zertifikatscrawl; keine Zwei-Quellen-Basis und keine Betreiber-Ausnahme. Alle leeren Frontmatter-Felder leer belassen, vorhandenes aktiv nicht überschrieben. Owner-Klärfall: Seed-Inhaber/Profilherkunft und aktuelle Ankauftätigkeit klären, bestehenden Aktivitätsstatus bis dahin nicht als neu bestätigt behandeln. Keine dauerhafte Schließung aus Suchlücken gefolgert, keine verifizierte Ankauf-/Verkaufs-/Servicepreisliste. Quelle(n): https://www.northdata.de/Schrott+and+More,+Oldenburg (begrenzte Register-Suchansicht)]

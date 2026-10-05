@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Neuer Betreiber-Kandidat live gefunden, früherer Website-miss überholt: Uwe Peschek Containerdienst, Welsche Mühle 4, 39164 Wanzleben-Börde, 039209 3015, peschekupw@t-online.de, Mo-Fr 07:00-18:00. Impressum ausdrücklich Einzelunternehmen, USt-ID DE139322420, kein Handelsregister genannt. Root, Containerdienst, Impressum, Kontakt/Anfahrt, Abfallarten und Baustofftransport jeweils separat HTTP 200 gelesen. Damit ein Betreiber-Einzelbeleg, kein automatischer Identitätsbeweis des als Schrotthändler importierten Dossiers; Quelle(n): https://www.containerdienst-peschek.de/ + https://www.containerdienst-peschek.de/containerdienst-peschek + https://www.containerdienst-peschek.de/impressum + https://www.containerdienst-peschek.de/kontakt-und-anfahrt + https://www.containerdienst-peschek.de/abfallarten + https://www.containerdienst-peschek.de/transport-baustoffe]
+- [Recherche 05.10.2026: Unabhängige Northdata-Namenssuche Uwe Peschek/Wanzleben live ohne Resultat, kein amtlicher Negativnachweis. Kein zweiter qualifizierender Identitätsbeleg, Einzelunternehmer-Ausnahme nicht zulässig. Website beschreibt Container 3/4/5/7 Kubik für Mischabfall, Sperrmüll, Bauschutt, Gartenabfälle/Bodenaushub sowie Baustofflieferung; Metalle nur als Bestandteil von Mischabfall, keine bestätigte Vergütung oder eigenständiger Schrottankauf. Keine belegte Preisliste, nur unverbindliches Angebot. Keine verfügbaren News-/Zertifikats-/Preisunterseiten in gelesener Navigation. Alle Frontmatter-Felder unverändert; Owner soll Händlerart und aktuellen Ankauf klären, bevor diese Domain/Kontakte übernommen werden; Quelle(n): https://www.northdata.de/Uwe+Peschek,+Wanzleben + https://www.containerdienst-peschek.de/abfallarten + https://www.containerdienst-peschek.de/containerdienst-peschek + https://www.containerdienst-peschek.de/transport-baustoffe]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

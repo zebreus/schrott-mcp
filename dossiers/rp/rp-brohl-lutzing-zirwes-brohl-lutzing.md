@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Neuer live abgerufener Lead, nicht Beleg: 11880 führt „Schrott und Altmetallhandel Zirwes“, Mittelstr. 2, 56656 Brohl-Lützing/Niederlützingen, Mobil 01590 1871773; Website, Mail und Zeiten ausdrücklich zum Hinzufügen, keine Zahlenpreise. Eintragsdaten 17.07.2024, angezeigte Aktualisierung 04.10.2026 beweist nicht die Aktualität der Geschäftstätigkeit. Norddata-Namenssuche Michael Zirwes/Brohl-Lützing direkt HTTP 200 liefert nur andere Personen, keine passende Registeridentität; daraus kein amtlicher Negativnachweis oder Schließungsurteil. Keine verifizierte Betreiber-Domain für Unterseiten-Crawl; Quelle(n): https://www.11880.com/branchenbuch/brohl-luetzing/060440092B113122146/schrott-und-altmetallhandel-zirwes.html + https://www.northdata.de/Michael+Zirwes,+Brohl-L%C3%BCtzing]
+- [Recherche 05.10.2026: Owner-Klärfall unverändert: Vorname Michael stammt aus früherem Karten-Lead, die jetzt gelesene Verzeichnisseite nennt nur Zirwes. Keine zwei unabhängigen qualifizierenden Belege und keine Betreiber-Ausnahme; Telefonnummer nicht gefüllt, bestehende Adresse/PLZ nicht überschrieben. Die Abgrenzung zur Brohler Metall aus der Historie bleibt bestehen, kein Konzern-/Namesake-Transfer. Gezielte Gegenrecherche wurde durch CAPTCHA begrenzt; kein kommunaler Gewerbenachweis abgerufen, kein belastbarer Ankauf-/Verkauf-/Gebührenpreis; Quelle(n): https://www.11880.com/branchenbuch/brohl-luetzing/060440092B113122146/schrott-und-altmetallhandel-zirwes.html + https://html.duckduckgo.com/html/?q=%22Zirwes%22%20%22Mittelstra%C3%9Fe%22%20Brohl (CAPTCHA am 05.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mittelstr. 2

@@ -28,6 +28,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 05.10.2026
+
+- [Recherche 05.10.2026: Neue unabhängige Gegenrecherche statt erneuter Verzeichnis-Dopplung: Northdata-Namenssuche Gisela Kuß/Niedermohr direkt HTTP 200 ohne passende Resultate; keine amtliche Gewerberegister-Negativauskunft und kein Schließungsbeleg. Exakte Websuche ohne brauchbare Primärquelle, DuckDuckGo CAPTCHA; daher keine aktuelle Betreiber-Website, Impressums-/Kontakt-/Preis-/Zertifikatsunterseite verifiziert, kein Unterseiten-Crawl möglich. Suchgrenzen verhindern einen vollständigen aktuellen Identitäts-/Aktivnachweis; Quelle(n): https://www.northdata.de/Gisela+Ku%C3%9F,+Niedermohr + https://html.duckduckgo.com/html/?q=%22Gisela%20Ku%C3%9F%22%20Niedermohr (CAPTCHA am 05.10.2026)]
+- [Recherche 05.10.2026: Owner-Gate: Die Fills und Aktivsetzung aus 02.10. beruhen laut erhaltener Historie nur auf Gelbe Seiten/11880; zwei Aggregatoren erfüllen die Quellenregel nicht. Luitpoldstr. 9, 66879 und 06383 1322 bleiben unverändert, sind hier aber nicht qualifiziert neu bestätigt. Kein Register-/Betreiber-Zweitbeleg, keine README-Ausnahme, kein Preis oder Ankauf zugesichert; sämtliche leeren Kontakt-/Servicefelder unverändert. Aktivstatus als Klärfall für Owner, nicht eigenmächtig auf pruefung oder geschlossen geändert; Quelle(n): https://www.northdata.de/Gisela+Ku%C3%9F,+Niedermohr + https://html.duckduckgo.com/html/?q=%22Gisela%20Ku%C3%9F%22%20Niedermohr (Abrufgrenze)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallentsorgung, Haushaltsauflösung
