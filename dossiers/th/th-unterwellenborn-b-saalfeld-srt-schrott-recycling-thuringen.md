@@ -6,6 +6,8 @@ state: TH
 city: Unterwellenborn
 street: Am Silberberg 2
 postcode: '07333'
+lat: '50.650440'
+lon: '11.434876'
 phone: '+49 3671 670250'
 email: unterwellenborn@srt-rohstoffe.de
 opening_hours: 'Mo-Do 08:00-11:00, 12:00-15:45; Fr 08:00-11:45; Samstag nicht angegeben; Feiertagsausnahmen beachten'
@@ -31,6 +33,8 @@ Schrottlagerung/-behandlung und Sortierung sind zertifiziert. Private Anlieferbe
 ## Timeline
 
 ### Recherche 05.10.2026
+
+- [Recherche 05.10.2026 (Koordinatenprüfung): Dokumentarischer Betreiber-Kartenpunkt 50.650440/11.434876 aus dem individuellen SRT-Datensatz Am Silberberg 2, 07333 Unterwellenborn, ergänzt. Das ist ein vom Betreiber veröffentlichter Betriebsstandortpunkt, kein unabhängig bestätigter Hausnummern-/Einfahrtpunkt. Strukturierte Nominatim-Hausnummernsuche liefert nur zwei Straßenobjekte Am Silberberg ohne Hausnummer; deren Straßenmittelpunkte nicht übernommen. Read-only Produktion enthält noch den groben Punkt 50.65/11.4333; nicht als exakt hausgeocodiert ausgeben. Dossierlat/lon sind gemäß build.rs ausschließlich dokumentarisch und werden vom Seed nicht in die Produktionskoordinaten importiert; spätere operative Geokorrektur bleibt separat offen. Keine Übernahme des Gesellschaftssitzes Saalfeld und keine direkten Produktionsdatenbankänderungen; Quelle(n): https://www.scholz-recycling.com/standorte-json-nicht-loeschen/, https://nominatim.openstreetmap.org/search?street=2%20Am%20Silberberg&city=Unterwellenborn&postalcode=07333&country=Germany&format=jsonv2&addressdetails=1&limit=3]
 
 - [Recherche 05.10.2026 (Owner-Gate): website auf Root der belegenden Gruppendomain normiert, keine Umbenennung von SRT zu Scholz. Individueller Betreiberdatensatz erneut direkt gelesen und Adresse/Kontakte/Zeiten bestätigt; Standortdetail und Zertifikate bleiben als Quellen erhalten; Quelle(n): https://www.scholz-recycling.com/, https://www.scholz-recycling.com/standorte-json-nicht-loeschen/]
 
