@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der mögliche Dublettenfall ist weiterhin ungelöst: Die aktuelle Betreiberseite von BANA Recycling GmbH & Co. KG nennt Zeppelinstraße 31, 63667 Nidda, die Geschäftsführer Ahmed Arif und Ahmad Astaq Arif sowie Schrott- und Metallankauf. Das passt auffällig zum Seednamen, beweist aber nicht, dass dieser Slug dieselbe Einheit statt eines eigenständigen Betriebs meint. Keine Fremd-Dossier-Felder übernommen; weder zusammenführen noch schließen.
+
+**Preise der möglichen BANA-Einheit, nicht dem Seed sicher zugeordnet:** Ankauf — „attraktive, marktgerechte Preise“, aber keine numerischen Kurse; genannt werden u. a. Mischschrott, Guss, Kupfer, Messing, Aluminium, Zink und Edelstahl. Verkauf — keine Artikel-/Verkaufspreisliste gefunden. Gebühren — auf der Startseite keine bezifferten Tarife; AGB für Anlieferung und Container sind verlinkt und noch gesondert zu prüfen. **Geocoding:** Zeppelinstraße 31 erst nach der Dublettenentscheidung dem Seed zuordnen und geokodieren.
 
 ## Timeline
 
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Kein Fill; Identitäts-/Dubletten-Klärfall bleibt offen. Erneuter Einzelabruf von Betreiber-Startseite, Impressum, Kontakt, Unternehmen, Team, Firmengeschichte und Presse bestätigt ausschließlich die Gesellschaft BANA Recycling GmbH & Co. KG am Standort Zeppelinstraße 31, 63667 Nidda; die Teamseite nennt Ahmad Astaq Arif und Ahmed Arif. Das unabhängige Registerportal führt HRA 4766 AG Friedberg mit derselben Firma/Adresse und Ahmad Astaq Arif sowie Ahmed Arif als Kommanditisten. Diese Belege stützen Bana Recycling, weisen den Dossier-Namensgeber aber nicht als eigenständigen Betrieb aus und lösen den Seed-Hinweis „distinct, andere Person“ gegenüber dem ähnlich lautenden Verzeichnis-Lead nicht belastbar auf. Keine Frontmatter-Felder vom Fremd-Dossier übernommen; weder zusammenführen noch schließen, pruefung bleibt; Quelle(n): https://bana-recycling.de/; https://bana-recycling.de/impressum/; https://bana-recycling.de/kontakt/; https://bana-recycling.de/unternehmen/; https://bana-recycling.de/team/; https://bana-recycling.de/firmengeschichte/; https://bana-recycling.de/presse/; https://handelsregister.live/hra/hessen/ag-friedberg/4766/bana-recycling-gmbh-co-kg/strukturiert; https://www.dastelefonbuch.de/Details/Nidda/Schrott-Ahmad-Astaq-Bana-Arif-Nidda-Zeppelinstr.html]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Direkter erneuter Abruf von Startseite und Impressum bestätigt BANA Recycling GmbH & Co. KG, HRA 4766 AG Friedberg, Zeppelinstraße 31, 63667 Nidda, Kontakt 06043 9845181 / 0160 4516560 und die Geschäftsführer Ahmed Arif sowie Ahmad Astaq Arif. Die Betreiberseite beschreibt Metallankauf zu marktgerechten, aber nicht bezifferten Preisen und Container-/Vor-Ort-Service; sie löst nicht die Identität des separaten Dossier-Slugs. Keine Felder übertragen. Ankauf — Marktpreise ohne veröffentlichte Beträge; Verkauf — keine Preisliste; Gebühren — keine Beträge auf der geprüften Startseite, Container-AGB verlinkt. Adresse erst nach Merge-/Identitätsprüfung geokodieren. Quelle(n): https://bana-recycling.de/; https://bana-recycling.de/impressum/; https://bana-recycling.de/wp-content/uploads/2019/05/AGB_Anlieferung-Version.pdf; https://bana-recycling.de/wp-content/uploads/2019/05/AGB_Container_Version.pdf]

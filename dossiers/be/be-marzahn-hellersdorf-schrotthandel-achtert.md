@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: tot
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der bisherige Datensatz stützt sich nur auf den Seed-/Verzeichnislead für Waldstr. 64, 12621 Berlin und 0173 4282425. Die Domain schrotthandel-achtert.de zeigt aktuell eine Domain-Verkaufsseite von fruits/get fruits GmbH, keinen Schrotthändler; der geforderte Domainpreis von 1.600 € netto ist kein Ankaufspreis, Verkaufspreis oder Tarif des Dossierbetriebs. Das beweist weder einen aktiven Betrieb noch dessen Schließung. Daher ist der Status auf Prüfung zurückgestuft. Keine bestätigten Annahmebedingungen oder Preise. Offen: Existenz, Inhaber, Anschrift und aktuelle Tätigkeit unabhängig bestätigen.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026
+
+- [Nachprüfung 06.10.2026: Die vorhandenen Angaben Waldstr. 64, 12621 Berlin und 0173 4282425 bleiben Seed-/Verzeichnisleads; die aktuelle Domain schrotthandel-achtert.de zeigt eine Verkaufsseite von fruits/get fruits GmbH statt eines Händlerauftritts. Dort geforderte 1.600 € zzgl. USt. beziehen sich ausdrücklich auf die Domain, nicht auf Schrottankauf, Materialverkauf oder eine Händlergebühr. Keine aktuelle unabhängige Quelle bestätigt Händleridentität oder Betriebsfortbestand. Deshalb status aktiv → pruefung; nicht als Schließung gewertet. Ohne verifizierten Betreiber sind Ankaufspreise, Verkaufspreise und Gebühren nicht bewertbar; es wurde keine belegte Händlerpreisliste gefunden. Adresse vor Geocoding unabhängig bestätigen. Quelle(n): https://schrotthandel-achtert.de/ ; vorherige Domain-/DNS-Prüfung vom 02.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

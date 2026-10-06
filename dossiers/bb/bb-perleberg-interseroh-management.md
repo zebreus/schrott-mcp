@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die ALBA-Betreiberseite belegt am Dossier-Ort einen aktuellen Schrottplatz der ALBA Metall Nord GmbH in Quitzow (Ortsteil von Perleberg), mit Annahme von Eisen- und Nichteisenmetallen, sofortiger Auszahlung und Containerdienst. Sie belegt aber keine Identität oder Rechtsnachfolge zur im Dossier genannten INTERSEROH Management GmbH; insbesondere weichen Firmenname und Telefonnummer ab. Numerische Ankaufspreise, Verkaufspreise und Gebühren sind auf der geprüften Standortseite nicht veröffentlicht. Offen bleibt die Beziehung zwischen dem alten Dossiereintrag und dem heutigen ALBA-Standort.
 
 ## Timeline
+
+### Recherche 06.10.2026 (Standort- und Preisabgleich)
+
+- [Recherche 06.10.2026: Die direkt gelesene ALBA-Standortseite bestätigt den Quitzower Schrottplatz als Betriebsstätte der ALBA Metall Nord GmbH, Buchholzer Chaussee 5, 19348 Quitzow, Telefon +49 3876 786602, E-Mail quitzow.metall@alba.info, Mo–Fr 07:00–12:15 und 12:45–16:00. Sie nennt Annahme von Eisen- und Nichteisenmetallen, sofortiges Bargeld, Container 7–36 m³, Demontage und weitere Gewerbeleistungen; „gute Preise“/„Bestpreise“ sind nicht beziffert. Keine numerische Ankaufspreisliste, keine Verkaufspreise und keine Gebühren-/Containerpreisliste auf dieser Standortseite. Das belegt den aktuellen Standort, nicht die Identität oder Rechtsnachfolge zur Dossiergesellschaft INTERSEROH Management GmbH; deren Telefonnummer 03876 789768 ist ebenfalls nicht die aktuelle Standortnummer. Offen: HR-/Historienbeleg für die konkrete Dossiergesellschaft und deren Verhältnis zu ALBA. Adresse für Geocoding nur als ALBA-Standort gesichert, nicht als bestätigter Datensatz der alten Dossiergesellschaft. Quelle(n): https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-quitzow ; https://metall.alba.info/unternehmen/standorte ; https://www.interzero.de/unternehmen/standorte/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

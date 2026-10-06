@@ -24,7 +24,9 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Verzeichnisse nennen Simone Lenhardt Schrotthandel an Gewerbegebiet Haidt 12, 97355 Kleinlangheim, Telefon 09325 980304; mehrere Portale stimmen bei Anschrift/Kontakt überein, aber ein Betreiber-/Registerbeleg fehlt. Die Angabe „Eisen ab 100 kg, NE ab 1 kg“ stammt nur aus einem lokalen Branchenportal und beschreibt Mindestannahmemengen, keine Preise.
+
+**Preise:** Ankauf — keine numerischen Ankaufskurse; 100 kg Eisen/1 kg NE sind lediglich katalogisierte Mindestmengen; Verkauf — keine Verkaufspreise; Gebühren — keine Tarife. **Geocoding:** Gewerbegebiet Haidt 12 ist eine vollständige, aber nur verzeichnisgestützte Kandidatenadresse; nach Betreiberbestätigung geokodieren. Offen bleiben Aktualität der Betriebsaufnahme, Mengenbedingungen und aktuelle Kontaktdaten.
 
 ## Timeline
 
@@ -35,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 97355)
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Das vorhandene Mengenminimum wurde erneut fachlich abgegrenzt: lokaleschrottplatz.de nennt Annahme ab 100 kg Eisen und ab 1 kg NE; das sind keine Euro-/kg-Ankaufspreise. Das Detail ist weiterhin nur ein einzelner Portalbeleg. Weitere Verzeichnisse stützen Name, Kandidatenanschrift Gewerbegebiet Haidt 12 und Telefon 09325 980304, jedoch keine Betreiberidentität. Keine Änderung der Felder. Ankauf — keine Preisrate; Verkauf — keine Liste; Gebühren — kein Tarif. Adresse nach Primärbestätigung geokodieren. Quelle(n): https://lokaleschrottplatz.de/simone-lenhardt-schrotthandel/; https://www.11880.com/branchenbuch/kleinlangheim/060440092B113196064/simone-lenhardt-schrotthandel.html]

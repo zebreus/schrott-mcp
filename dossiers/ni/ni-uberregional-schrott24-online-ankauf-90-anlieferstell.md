@@ -10,9 +10,9 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.schrott24.de
-website_status: ''
+website_status: aktiv
 status: aktiv
-description: ''
+description: Online-Schrottankauf über Partner-Anlieferstellen, Abholung oder Paketversand; genaue Annahmestelle und Preis hängen von Material, Standort und Transportart ab.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Überregional/Online (in NI aktiv)
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott24/Metaloop ist online erreichbar und vermittelt Verkäufe über Partnerannahmestellen; Niedersachsen-Seite listet u.a. Braunschweig, Hannover, Kettenkamp und Osnabrück, genaue Adressen/Zeiten kommen erst nach Onlineabschluss. Die Betreiberseite zeigt Ankaufpreise je kg, aber die abrufbare Preisseite ist mit „Tagesaktuelle Schrottpreise vom 14.11.2025“ datiert; deshalb sind Kartenwerte zum Recherchetag 06.10.2026 veraltet bzw. nicht als tagesaktuell belegbar. Insolvenz-/Abwicklungsstatus bleibt Prüfpunkt.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiberseiten live abgerufen; `website_status` auf aktiv gesetzt. Die Standortseite führt in Niedersachsen Braunschweig, Hannover, Kettenkamp und Osnabrück als Partner-Anlieferregionen; konkrete Annahmeadresse/Zeiten erst nach Onlineverkauf per E-Mail, Kleinmengen/Elektronik nicht an allen Partnerorten, und der Kunde erhält bei unangekündigter Anlieferung nur den lokalen Partnerpreis statt des online fixierten Preises. Keine NI-Adresse geocodieren, da Partnerstandort transaktionsabhängig bleibt. Die Schrottpreisseite nennt weiterhin ausdrücklich „Tagesaktuelle Schrottpreise vom 14.11.2025“; am Abruf 06.10.2026 sichtbare Karten sind als „Ankaufpreise*, €/kg“ beschriftet (also Auszahlung an den Verkäufer, kein Verkaufspreis): Silberkontakte 8,80 €/kg ab 1 kg, 8,85 ab 50/100 kg; Kleintrafos 0,55/0,60/0,65 €/kg ab 10/100/500 kg; Elektro-Motoren Low Grade 0,50/0,55/0,60 €/kg ab 10/100/500 kg; Speichermodule mit Au-Kante 0,05 €/kg ab 100/1.000/5.000 kg. Die Seite sagt, Werte seien Maximalpreise DE/AT und abhängig von Standort/Transport, zeigt zugleich „Bis zu: €0,00“; wegen veraltetem Datumsstand und dieser Anzeige keine Werte als gültige NI-Angebote übernommen. Keine separate Verkaufspreisliste verifiziert. Frühere Versandgebühren-Angaben (Support 5 €, Ablauf 6 €) bleiben widersprüchlich, keine verifizierte aktuelle Gebühr. Quelle(n): https://www.schrott24.de/standorte/ ; https://www.schrott24.de/schrottpreise/ ; https://www.schrott24.de/faq/support/ ; https://www.schrott24.de/ablauf/ ; Abruf 06.10.2026]
 
 ### Recherche 04.10.2026
 

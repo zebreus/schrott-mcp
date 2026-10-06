@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Website „Autoteile Schleicher“ nennt zwei Standorte: Hämbacher Kreuz 4, 36469 Bad Salzungen/Hämbach (Ersatzteillager, Gebrauchtteile, Fahrzeughandel) und Rotes Tal 7, 98530 Rohr (Autoverwertung/Demontage, zertifizierte Entsorgung, Fahrzeugannahme). Das Impressum ist nicht erreichbar; die Zuordnung zum Dossier bleibt trotz übereinstimmender Telefonnummer unvollständig. Die Seed-Adresse An der B 62 4 widerspricht dem Betreiberauftritt. Keine numerischen Fahrzeug-/Schrottankaufspreise, Verkaufspreise oder Entsorgungsgebühren veröffentlicht. Offen: rechtlicher Betreiber und Zuordnung der drei Adressen.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026 (Standorte und Preise)
+
+- [Nachprüfung 06.10.2026: Die direkt abgerufene Betreiber-Kandidatin autoteile-schleicher.de führt weiter zwei Standorte und trennt deren Aufgaben: Hämbacher Kreuz 4, 36469 Bad Salzungen/Hämbach (Ersatzteillager, Neu-/Gebrauchtteile, Internethandel/eBay-Shop, Gebrauchtfahrzeuge) sowie Rotes Tal 7, 98530 Rohr (Autoverwertung/Demontage, zertifizierte Entsorgung, Fahrzeugannahme). Sie nennt 03695 609811, info@autoteile-schleicher.de, Mo–Fr 08:00–16:30, Sa/So geschlossen. Die Startseite sagt, der Betrieb laufe normal, aber Impressum/Datenschutz liefern weiterhin 404 und nennen keinen Rechtsträger; daher keine Frontmatter-Übertragung. Die Gelbe-Seiten-/11880-Leads für An der B 62 4, 36469 Tiefenort/Hämbach, 03695 609811 bestätigen die Nummer/Seed-Adresse als Verzeichnisfakten, lösen den Konflikt mit den zwei Website-Standorten aber nicht. Preise: Website nennt Fahrzeug-Ankauf/-Verkauf und Ersatzteile, aber keine Europreise; keine Schrott-/Fahrzeugankaufspreisliste und keine Entsorgungsgebühr/Gratiszusage belegt. Offen: Betreiberidentität und welcher Standort dem Dossier entspricht. Bis dahin keinen der drei Kandidaten geocodieren oder die bestehende Adresse überschreiben. Quelle(n): https://www.autoteile-schleicher.de/ ; https://www.autoteile-schleicher.de/impressum.html (404) ; https://www.gelbeseiten.de/gsbiz/2036ae42-6111-460f-b320-0bbacba81237 ; https://www.11880.com/branchenbuch/tiefenort/060440459B100716765/autoverwertung-schleicher.html]
 
 ### Recherche 02.10.2026
 

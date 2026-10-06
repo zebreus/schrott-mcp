@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Das Register-/Gruppenbild stützt VS-Rohstoffe GmbH als industriellen Schrott-/Rohstoffhändler, aber nicht den aktuellen Betrieb einer öffentlichen Annahmestelle: HR-/NorthData-Spur nennt Friedrich-Franz-Straße 8, während 11880/Cylex Nr. 11 führen. Die Villmann-Website weist Nr. 8 aktuell ITB EVU und HLB zu, nicht VS-Rohstoffe. Website, Telefon, Adresse und Betriebsort daher nicht als aufgelöste Betreiberangaben behandeln. Keine öffentlichen Ankauf-/Verkaufspreise oder Gebühren gefunden; Geocoding erst nach bestätigter operativer Anschrift.
+Das Register-/Gruppenbild stützt VS-Rohstoffe GmbH als industriellen Schrott-/Rohstoffhändler, aber nicht den aktuellen Betrieb einer öffentlichen Annahmestelle: HR-/NorthData-Spur nennt Friedrich-Franz-Straße 8, während 11880/Cylex Nr. 11 führen. Die Villmann-Website weist Nr. 8 aktuell ITB EVU und HLB zu, nicht VS-Rohstoffe. Website, Telefon, Adresse und Betriebsort daher nicht als aufgelöste Betreiberangaben behandeln. Die auf der Villmann-Gruppenseite geprüften Preis-/Leistungsbereiche sind nicht VS-Rohstoffe zuzuordnen; für VS selbst bleiben Ankaufspreise, Verkaufspreise und Gebühren unbekannt. Offen sind eine aktuelle VS-Betriebsstätte und die Zuordnung der Telefonnummer. Geocoding erst nach bestätigter operativer Anschrift.
 
 ## Timeline
 

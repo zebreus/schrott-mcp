@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Chow“ ist über Telefon-/Verzeichnis-Leads auffindbar, aber die Geschäftsadresse ist widersprüchlich: Grille 75a, Grille 75b und ein weiterer Eintrag Meißener Weg 222. Nur Minden/PLZ und Telefonnummer sind mehrfach gelistet; die Treffer sind alles Branchenverzeichnisse. Ohne Betreiberquelle bleiben Straße, Annahmeort und Ankauf ungeklärt.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Neue Gegenprobe erweiterte den Adresskonflikt: Branchen-Info nennt „Schrotthandel S. Chow“, Meißener Weg 222, 32423 Minden, Tel. 0176 69754346; Gelbe Seiten nennt Grille 75b, 11880 Grille 75a, jeweils dieselbe Nummer. Der frühere npage-Webauftritt https://schrotthandel-minden.npage.de/ ist beim Direktabruf 404. Alle erreichbaren Standortangaben bleiben Verzeichnis-Leads, keine Betreiber-/Registerbestätigung; vorhandene PLZ/Telefonwerte nicht weiter aufgewertet, Straße bleibt leer. Keine veröffentlichte Ankaufpreisliste, Verkaufspreisliste oder Gebühren gefunden. Offen: richtige Anschrift, Betreiberidentität und Privatkundenannahme; Adresse erst nach Klärung geocodieren. Quelle(n): https://minden-mi.branchen-info.net/schrotthandel-s-chow/4707996 ; https://www.gelbeseiten.de/gsbiz/2cc60a07-b0ef-48cc-9c30-2e56c626562d ; https://www.11880.com/branchenbuch/minden-westfalen/060440090B102295179/schrotthandel-s-chow.html ; Direktabruf npage 06.10.2026]
 
 ### Recherche 02.10.2026
 

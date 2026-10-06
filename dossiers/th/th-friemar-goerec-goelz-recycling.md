@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für GOEREC Goelz Recycling UG wurde kein unabhängiger Firmen-/Betreiberbeleg gefunden; goerec.de war beim dokumentierten Direktabruf nicht erreichbar. Goelz Entsorgungs GmbH in Friemar ist ein abweichender Rechtsträger an anderer Adresse und darf nicht zusammengeführt werden. Keine bestätigte Tätigkeit, Annahme oder Preisangabe. Offen: Existenz und Identität der UG sowie Verhältnis zu einer möglichen Betriebsstätte in Friemar.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026
+
+- [Nachprüfung 06.10.2026: Identitätsabgrenzung erneut festgehalten: Die separat auftretende Goelz Entsorgungs GmbH, Windmühlenstr. 24, 99869 Friemar, ist nicht als GOEREC Goelz Recycling UG belegt; abweichender Firmenname/Rechtsträger und abweichende Adresse. Die frühere GOEREC-Domain bleibt kein verifizierter Betreiberbeleg. Keine aktuelle Betreiber-/Registerquelle zur Dossier-UG, daher Status pruefung und Felder unverändert. Keine zurechenbare Ankaufspreisliste, Verkaufspreise oder Entsorgungsgebühren gefunden; ohne identifizierten Betrieb ist kein Preisvergleich möglich. Offen: HRB/amtlicher Gewerbenachweis der UG, Betriebsadresse und tatsächliche Tätigkeit. Quelle(n): https://www.goelz-entsorgung.de/ ; https://goerec.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Name „Entsorgung und Recycling Bernd Zauritz“ erscheint nur in Aggregator-Leads; ein Betreiber- oder Registerbeleg fehlt. Ein gleichörtlicher „Transportservice Bernd Zauritz“ ist nicht als identisch oder als Recycling-/Schrotthändler bestätigt. Keine belegten Annahmeleistungen, Ankaufspreise, Verkaufspreise oder Gebühren. Offen: Identität, aktuelle Tätigkeit und tatsächliche Anschrift; die Seed-Adresse Zedlitz 19 sollte nicht geocodiert werden, bevor diese Punkte geklärt sind.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026
+
+- [Nachprüfung 06.10.2026: Der Abgleich der bereits dokumentierten 11880-/AZ-Deutschland-Spuren ergibt weiterhin nur Aggregatorangaben zu „Entsorgung und Recycling Bernd Zauritz“ bzw. „Transportservice Bernd Zauritz Transporte“ an Zedlitz 19, 07557; Telefonnummern weichen zwischen 036603 60099-0 und 036603600995 ab. Kein Betreiber-/Registerbeleg verknüpft beide Bezeichnungen oder belegt Recycling, Schrottannahme oder Ankauf. Daher kein Frontmatter-Fill. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren; Preislisten nicht prüfbar. Offen: ob derselbe aktuelle Betrieb gemeint ist, welcher Rechtsträger und welche tatsächliche Anschrift. Keine Geokodierung des Aggregator-Leads bis zur Identitätsklärung. Quelle(n): https://www.11880.com/branchenbuch/zedlitz/190685388B43441230/entsorgung-und-recycling-bernd-zauritz-entsorgungsunternehmen.html ; https://www.azdeutschland.com/firma/entsorgung_und_recycling_bernd_zauritz_zedlitz_th_zedlitz_19 ; https://www.gelbeseiten.de/branchen/transportunternehmen/weida]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

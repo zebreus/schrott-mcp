@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Fachbetrieberegister führt „Kurt Rieß Nachfolger Schrott und Metallhandel GbR“ an Dagersheimerstr. 16, 71139 Ehningen mit Lagertätigkeit. Das ist ein starker Standort-/Registrierungsbeleg, aber bislang kein Betreiberauftritt und keine Bestätigung einer öffentlich zugänglichen Schrottannahme oder des Privatankaufs. Keine Preislisten oder Gebühren belegt. Offen: aktueller Betreiberkontakt, Publikumsannahme und ob die registrierte Adresse als Annahmestelle genutzt wird.
 
 ## Timeline
+
+### Recherche 06.10.2026 (Annahme und Preise)
+
+- [Recherche 06.10.2026: Die verfügbare Fachbetriebsregister-Zusammenstellung führt weiterhin Kurt Rieß Nachfolger Schrott und Metallhandel GbR, Dagersheimerstr. 16, 71139 Ehningen, Tätigkeit „Lagern“. Die Listung verifiziert eine registrierte Betriebsadresse, nicht Öffnungszeiten, Kundenannahme, Ankauf oder aktuelle Preisgestaltung. Kein Betreiberkontakt, keine numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenübersicht aus dieser Quelle. Offen: direkter Register-/Betreiberkontakt und tatsächlicher Publikumsbetrieb. Die Anschrift ist als Registeradresse geocodierbar, aber nicht als belegter öffentlicher Schrottplatz zu interpretieren. Quelle(n): https://schrottregister.pages.dev/ort-ehningen (Quellenangabe: GESA-/Entsorgungsfachbetrieberegister, Abrufstand 11.08.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

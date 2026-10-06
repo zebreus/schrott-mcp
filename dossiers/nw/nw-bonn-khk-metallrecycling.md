@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+KHK Metallrecycling ist für Bonn über Verzeichnisse auffindbar, aber mit widersprüchlichen Standortangaben: Seed Brieger Weg 3 versus neuer Gelbe-Seiten-Eintrag Meckenheimer Str. 35, 53179 Bonn-Mehlem (0228 18032447). Die verlinkte Domain ist nicht als Betreiberseite verifizierbar. Keine Zuordnung/Adresskorrektur und keine Preise übernommen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Frischer Gelbe-Seiten-Detailabruf führt „KHK Metallrecycling“, Meckenheimer Str. 35, 53179 Bonn-Mehlem, Tel. 0228 18032447, und verlinkt khk-metallrecycling.de. Das widerspricht dem Seed-Hinweis Brieger Weg 3; die Website war im Direktabruf nicht auswertbar (403), daher ist weder ein Umzug noch Identität des Eintrags bewiesen. Auch Verzeichnisangaben zu weiteren KHK-Bezeichnungen/Adressen bleiben Leads. Keine Frontmatter-Änderung, status pruefung bleibt. Offen: Betreiber, aktuelle Anschrift, Kundenannahme und Material-/Preisbedingungen; keine numerische Ankaufpreisliste oder Gebührenordnung bestätigt. Kandidatenanschrift erst nach Klärung geocodieren. Quelle(n): https://www.gelbeseiten.de/gsbiz/cb6485ca-50dc-4f92-8d0e-4df27797e377 ; https://www.khk-metallrecycling.de/ (Direktabruf 403)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

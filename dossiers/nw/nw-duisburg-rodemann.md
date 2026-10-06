@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Duisburger Spur „Ludger Rodemann Schrotthandel“ nennt An der Geis 46, 47228 Duisburg und 02065 56968, ist aber weiterhin nur über Verzeichnisse belegt. Die frühere Rodemann-Domain zeigt keine Betreiberinhalte; ein Zusammenhang mit Raesfeld ist ungeklärt. Bestehende Anschrift/Kontakt daher nicht als neu bestätigt verstehen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Frische Namens-/Ortsgegenprobe lieferte für Duisburg erneut nur 11880 und werkenntdenbesten mit „Ludger Rodemann“, An der Geis 46, 47228 Duisburg-Bergheim; keine Betreiber-, Register- oder kommunale Bestätigung und kein Beleg zur Verbindung mit der früheren Raesfelder Spur. Der aktuelle Suchstand ändert daher weder Anschrift/Kontakt noch Status `pruefung`; Öffnungszeitenlabels sind kein Schließungsbeleg. Keine Betreiber-Preisliste und keine bestätigten Ankaufpreise, Verkaufspreise oder Gebühren gefunden. Wenn die Adresse später bestätigt/korrigiert wird, Koordinaten neu geocodieren. Quelle(n): https://www.11880.com/branchenbuch/duisburg/120674719B100936008/ludger-rodemann-schrotthandel.html ; https://www.werkenntdenbesten.de/e/100936008/altmaterialhandel/duisburg/ludger-rodemann-schrotthandel-bewertungen.html (beides Verzeichnis-Leads)]
 
 ### Recherche 04.10.2026
 

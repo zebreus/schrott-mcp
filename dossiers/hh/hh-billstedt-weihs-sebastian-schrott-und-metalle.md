@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die im Seed vorhandenen Angaben „Weihs Sebastian Schrott und Metalle“, Möllner Landstr. 141K, 22117 Hamburg, sind in der hier geprüften Recherche nicht durch eine Betreiber- oder Registerquelle bestätigt. Es gibt daher keine belastbare Tätigkeits-, Annahme- oder Preisangabe. Offen: Existenz/Identität des Betriebs, Adresse und direkter Kontakt; bis dahin keine Geokodierung.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026
+
+- [Nachprüfung 06.10.2026: Für den Seed-Eintrag „Weihs Sebastian Schrott und Metalle“, Möllner Landstr. 141K, 22117 Hamburg, ließ sich in dieser Runde keine zuordenbare Betreiberseite, Handelsregister-/Gewerberegisterquelle oder zweite zulässige Bestätigung sichern. Die Seed-Angaben bleiben ungeprüft; das ist kein Nachweis der Nichtexistenz. Keine belastbaren Öffnungszeiten, Leistungen, Ankaufspreise, Verkaufspreise oder Gebühren; ohne verifizierten Betrieb ist eine Preisprüfung nicht möglich. Offen: Namensschreibweise/Betreiberidentität und ob die Adresse eine Annahmestelle ist. Adresse nicht geocodieren, bevor sie bestätigt ist. Quelle(n): Seed-Angabe; unabhängiger Beleg in dieser Recherche nicht gefunden]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

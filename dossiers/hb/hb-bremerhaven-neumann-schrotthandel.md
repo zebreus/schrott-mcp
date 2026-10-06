@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Portal-Eintrag nennt Neumann Schrotthandel an Blumenstr. 2, 27580 Bremerhaven, Telefon (0471) 4818360; er enthält aber weder eine vollständige Beschreibung noch Öffnungszeiten oder Leistungen. Eine Betreiber-/Registerquelle fehlt, daher bleiben die Kontaktdaten Leads. Keine belastbare Aussage zu Ankauf, Verkauf oder Preisen. Offen: rechtlicher Betreiber, aktuelle Existenz und Tätigkeit am Standort.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026
+
+- [Nachprüfung 06.10.2026: Der direkt geöffnete Schrottplatz-Info-Eintrag führt „Neumann Schrotthandel“, Blumenstr. 2, 27580 Bremerhaven, Telefon (0471) 4 81 83 60; der Eintrag sagt ausdrücklich, dass Beschreibung, Öffnungszeiten und Leistungsangebot nicht vollständig erfasst seien. Das bleibt ein Aggregator-Lead, kein unabhängiger Betreiber- oder Registerbeleg; Telefonnummer deshalb nicht in die Frontmatter übernommen. Kein verifizierter Ankauf, keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren. Offen: Betreiberidentität und aktuelle Annahme am Standort. Die Seed-Adresse vor Geocoding bestätigen. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Bremerhaven/Neumann-Schrotthandel]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://schrottjungs.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: Bundesweiter Schrott-Abholservice für Privat und Gewerbe, auch in Hannover; Vergütung wertvoller Metalle nach tagesaktuellem Schrottpreis, Kleinmengen teils gebührenpflichtig.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Hannover / Region Hannover
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottjungs UG (Hamburg, HRB 196586) bietet laut eigener Website Schrottabholung ausdrücklich in Hannover und den Stadtteilen/Umland an; es gibt keinen belegten Hannover-Betriebshof. Wertige Metalle werden nach tagesaktuellem Schrottpreis vor Ort vergütet. Für Eisenschrott unter 300 kg bzw. Einzelgeräte kann eine Abholgebühr von ca. 40–80 € anfallen. Keine feste €/kg-Ankaufpreisliste.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiber-Impressum und Hannover-spezifische Leistungsseite erneut direkt abgerufen: Schrottjungs UG, Billwerder Steindamm 15a, 20537 Hamburg, HRB 196586, nennt Hannover samt Stadtteilen und Umland ausdrücklich als Einsatzgebiet; das belegt keinen lokalen Annahme-/Betriebsstandort, daher bleiben lokale Adressfelder leer. Für Kupfer, Messing, Kabel, Zinn, VHM und Wolfram verspricht der Betreiber Auszahlung des jeweils tagesaktuellen Schrottpreises vor Ort, aber veröffentlicht keine konkreten €/kg-Ankaufspreise. Laut Seite werden kleine Mengen wertiger Buntmetalle kostenlos abgeholt; für Eisenschrott unter 300 kg und Einzelgeräte (z. B. Waschmaschinen/Herde) können dagegen 40–80 € Abholgebühr anfallen. Die 40–80 € sind eine Kundengebühr, kein negativer Ankaufpreis. Eine Auszahlung wird für größere Mengen bzw. hochwertige Metalle genannt, ohne Materialtarife; keine Verkaufs-Preisliste für Materialien. Konkreter Umfang/Angebot bleibt mengen- und materialabhängig. Quelle(n): https://schrottjungs.de/impressum-datenschutz/ ; https://schrottjungs.de/schrottabholung-hannover/ ; https://schrottjungs.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

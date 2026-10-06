@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zwei Branchenverzeichnisse nennen „Pagel Jürgen Autohandel“ bzw. „Jürgen Pagel“ an Wiesbadener Landstraße 16, 65203 Wiesbaden, als Autohandel/Kraftwagen- und Teilehandel. Sie listen voneinander abweichende Telefonnummern (0611 6 18 19 vs. 0611 47393), belegen weder Schrott-/AV-Tätigkeit noch, dass dies der Seedbetrieb ist; AZDeutschland warnt zudem, dass sein Kartenpunkt nicht korrekt geokodiert wurde. Deshalb keine Adresse oder Telefonnummer in die Felder übernommen.
+
+**Preise:** Ankauf — keine Schrottpreise oder Fahrzeugankaufangebote für den Seed belegt; Verkauf — keine Preisliste; Gebühren — keine Tarife. Offen: Identität und Branche per Gewerberegister oder Inhaberbestätigung klären. **Geocoding:** Kandidat Wiesbadener Landstraße 16 erst nach Identitätsprüfung geokodieren; die gefundene Verzeichnisseite meldet selbst einen Geocoding-Fehler.
 
 ## Timeline
 
@@ -48,3 +50,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Gegenrecherche per Bing-Websuche (Direktabruf; Suchterme: Pagel/Wiesbaden/Schrott/Autoverwertung): keine Betreiber-Website, kein Impressum, kein Register-Treffer; Treffer nur namensgleiche Fremdfirma (PAGEL Spezial-Beton, Essen); kein Frontmatter-Fill (2-Beleg-Standard nicht erfuellbar); Klaerfall: Branche/Adresse/Telefon weiter unbelegt, Gewerberegister Wiesbaden noetig; Quelle(n): Bing-SERP 01.10.2026, Dossier-Timeline]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Zwei direkt abgerufene Branchenportalprofile finden „Pagel Jürgen Autohandel“/„Jürgen Pagel“ an Wiesbadener Landstr. 16, 65203, mit abweichenden Nummern (Gelbe Seiten 0611 6 18 19; AZDeutschland 0611 47393). Gelbe Seiten nennt die Kategorie Automobile; AZDeutschland Handel mit Kraftwagen und -teilen. Keines nennt Schrott/Autoverwertung oder einen Betreiberlink; AZDeutschland warnt vor fehlerhafter Geokodierung. Zwei Portal-Leads machen den möglichen Autohändler-Namensvetter greifbarer, bleiben aber kein Beleg für den Seed; keine Frontmatter-Füllung. Ankauf — keine Schrott-/Fahrzeugankaufspreise; Verkauf — keine Preise; Gebühren — keine Tarife. Kandidatenadresse erst nach Gewerbe-/Inhaberbestätigung geokodieren. Quelle(n): https://www.gelbeseiten.de/suche/pagel/wiesbaden; https://www.azdeutschland.com/firma/jurgen_pagel_wiesbaden_he_wiesbadener_landstr_16]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wilhelm Peters GmbH & Co. KG ist als Schrott-/Metallgroßhandel im Register-/Firmenprofil-Kontext identifiziert. Die frühere Anschrift Im Grunde 2b ist gegenüber der 2018 verzeichneten Geschäftsanschrift Vürfels 38 A, 51427 Bergisch Gladbach überholt; ob Vürfels Büro oder Annahmeplatz ist, bleibt offen. Die korrigierte Adresse muss neu geocodiert werden. Keine aktuelle Betreiberpreisliste gefunden.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Neue Gegenprobe stützt weiterhin den Adresswechsel: Creditreform beschreibt Wilhelm Peters GmbH & Co. KG als Großhandel in Schrott/Metallen und deren Verwertung; Cylex nennt die Verlegung von Im Grunde 2b nach Vürfels 38a bereits zum 20.08.2018. Cylex ist nur Verzeichnisbeleg, daher bleibt die im Registerkontext dokumentierte Vürfels-Anschrift maßgeblich; kein neuer Betriebsplatznachweis. Domain wilhelm-peters.de war in der Vorrecherche nur eine Plesk-Defaultseite, kein zurechenbarer Betreiberauftritt; keine aktuellen Ankauf-/Verkaufspreise oder Gebühren gefunden. Offen: Annahme für Privatkunden und Unterschied Büro/Platz. Bei bestehender Standortkorrektur Vürfels 38 A neu geocodieren. Quelle(n): https://firmeneintrag.creditreform.de/51427/5190017215/WILHELM_PETERS_GMBH_CO_KG ; https://web2.cylex.de/firma-home/wilhelm-peters-gmbh-_-co--kg-7038570.html ; Vorprüfung Domain: https://wilhelm-peters.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

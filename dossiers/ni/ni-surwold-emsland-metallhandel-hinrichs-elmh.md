@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Emsland Metallhandel Hinrichs (ELMH)“ in Surwold bleibt unidentifiziert. Die Betreiber-Domain ist beim erneuten Direktabruf nicht erreichbar; die Suche lieferte nur ähnlich benannte, aber ortsfremde Metallbau-/Metallbau-Hinrichsen-Treffer. Keine Kontakt-, Annahme- oder Preisangaben als Fakten übernommen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneuter Abruf von https://elmh.de endete mit Transportfehler; Exaktsuche „Emsland Metallhandel Hinrichs“/ELMH/Surwold ergab keinen zurechenbaren Betreiber-, Register- oder Kommunalbeleg. Der sichtbare Namensvetter Emsland Metallbau GmbH sitzt in Salzbergen und ist ausdrücklich nicht gleichgesetzt. `website_status: tot` und `status: pruefung` bleiben; keine Felder ergänzt. Offen: ob der Betrieb noch besteht, korrekte Kontakt-/Annahmeadresse sowie Ankauf/Abholung. Keine numerische Ankaufpreisliste, Verkaufspreisliste oder Gebühren gefunden. Quelle(n): https://elmh.de (Direktabruf 06.10.2026, Transportfehler); https://www.emsland-metallbau.de/en/contact/contact-to-us (Namensvetter-Gegenprobe); Exaktsuche: https://www.google.com/search?q=%22Emsland+Metallhandel+Hinrichs%22+Surwold]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die alte Oetjen-Rohstoffhandel-Spur ist nun mit einer aktiven REMONDIS-Annahmestelle in Zeven (Tannenkamp 6–8) räumlich und leistungsmäßig plausibel verbunden: die Betreiberseite nennt dort Schrott-/NE-Metallhandel zu Tagespreisen und direkte Anlieferung. Eine lokale Meldung dokumentiert den geplanten 100%-Erwerb von Oetjen durch REMONDIS. Die vollständige Register-/Rechtsnachfolgekette und der Bezug der Rotenburger Seed-Zeile zu den heutigen REMONDIS-Niederlassungen sind aber nicht abschließend belegt; keine Betreiberfelder übernommen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Neue Ketten-/Standort-Gegenprobe: Die aktuelle REMONDIS-Betreiberseite für Zeven nennt REMONDIS Niedersachsen GmbH, Tannenkamp 6–8, 27404 Zeven, Tel. 04281 2345; Standortseite beschreibt Rohstoffhandel mit Eisen-/NE-Metallen und Altfahrzeugen zu aktuellen Tagespreisen, Verkauf von neuen/gebrauchten Stahl- und Metall-Handelserzeugnissen, direkte Anlieferung sowie Mo–Fr 07:00–16:30. Die Kreiszeitung berichtete 2011, REMONDIS wolle Oetjen Rohstoffhandel zu 100 % übernehmen und der Name solle zunächst bleiben; zusammen mit der dokumentierten Oetjen-Sitz-/Namenshistorie ist dies eine plausible Betreiberkette, aber kein vollständiger aktueller Register-/Verschmelzungsnachweis. Der aktuelle Zeven-Standort ist daher nicht ungeprüft in die Rotenburg-Zeile eingetragen; `city`, `status` und leere Standortfelder bleiben unverändert. Offen: Rechtsnachfolge, heutiger Betreiber/Annahmeplatz in Rotenburg versus Zeven sowie Zuordnung der Zevener Adresse. Für REMONDIS Zeven sind Ankaufspreise nur als Tagespreise ohne konkrete €/kg-Tabelle beschrieben; der Verkauf neuer/gebrauchter Handelserzeugnisse ist ein gesonderter quote-basierter Verkaufsservice, keine Ankaufpreisliste. Keine bezifferten Gebühren veröffentlicht. Falls die Adresse Tannenkamp 6–8 übernommen wird, neu geocodieren. Quelle(n): https://www.remondis-zeven.de/ (Betreiber-Standortseite; Textabruf über r.jina.ai, 06.10.2026); https://www.remondis-zeven.de/impressum/ ; https://www.kreiszeitung.de/lokales/rotenburg/rotenburg-ort120515/entsorger-remondis-will-oetjen-rohstoffhandel-uebernehmen-1341614.html ; Register-/Namenshistorie aus den unten dokumentierten Northdata-Abrufen]
 
 ### Recherche 04.10.2026
 

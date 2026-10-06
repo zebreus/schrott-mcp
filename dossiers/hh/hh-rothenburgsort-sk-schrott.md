@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „SK Schrott“ an Billstr. 140 gibt es weiterhin keinen zuordenbaren Betreiber- oder Registerbeleg. Frühere Presseberichte zur Billstraße betreffen das Gebiet, nicht diesen Betrieb. Die Aktiv-Einstufung war daher unbelegt und ist auf Prüfung zurückgestuft. Keine bestätigten Ankaufspreise, Verkaufspreise oder Gebühren. Offen: Betreiberidentität, Anschrift/PLZ und ob dort aktuell eine Schrottannahme existiert.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026
+
+- [Nachprüfung 06.10.2026: Erneuter Abgleich des Dossiernamens/der Billstr. 140 mit den bereits geprüften Verzeichnis- und Behörden-/Pressequellen brachte keinen Betreiberbeleg; bekannte Treffer für Hanse Schrott an Billstr. 185 und Henry Schmidt Autoverwertung am Mühlenhagen 156 sind andere Unternehmen und keine Bestätigung. Da die Frontmatter-Statusangabe aktiv nicht belegt ist, status aktiv → pruefung; keine Schließung behauptet. Keine Betreiberpreisliste und keine belastbaren Ankaufspreise, Metallverkaufspreise oder Gebühren. Billstr. 140 und fehlende PLZ erst nach Identitätsbestätigung geocodieren. Quelle(n): https://www.gelbeseiten.de/branchen/schrotthaendler/hamburg ; https://www.hamburg.de/branchenbuch/hamburg/eintrag/1046934/ ; https://www.ndr.de/nachrichten/hamburg/billstrasse-in-hamburg-drei-jahre-nach-dem-grossfeuer,billstrasse-100.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

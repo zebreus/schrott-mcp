@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die einzige konkrete Spur ist ein Schrottplatz-Info-Eintrag zu Manz Alexander, Am Dilling 10, 66606 St. Wendel, 06851 907691. Er bestätigt weder Betreiber noch aktuelle Annahme; eine NorthData-Namenssuche ergab keinen kongruenten Händler. Keine Preise oder Gebühren belegt. Offen: Betreiberidentität, aktuelle Existenz und tatsächlicher Standort; Adresse bleibt vorerst ungeprüft und sollte nicht als Annahmestelle geocodiert werden.
 
 ## Timeline
+
+### Recherche 06.10.2026 (Lead-/Preisabgleich)
+
+- [Recherche 06.10.2026: Re-Check des einzigen konkreten Leads bestätigt weiterhin nur den Portal-Datensatz Manz Alexander, Am Dilling 10, 66606 St. Wendel, Telefon 06851 907691. Das Portal nennt keine Leistungen, Zeiten oder Preise und verlinkt keine echte Betreiberhomepage; NorthData weist in der geprüften Suche keinen passenden Schrotthändler aus. Keine unabhängige Betriebsbestätigung, keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren. Das ist kein Schließungsnachweis. Offen: rechtlicher Betreiber und aktuelle Annahme am Dilling 10; Seed-Adresse vor Geocoding bestätigen. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Sankt-Wendel/Manz-Alexander ; https://www.northdata.de/Alexander+Manz,+St.+Wendel]
 
 ### Recherche 05.10.2026
 

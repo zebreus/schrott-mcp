@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite präsentiert ein Einzelunternehmen von Roxana Weiß in Homburg und nennt Ankauf von Eisen-/Stahlschrott, Buntmetallen, Kabel- und Mischmetallen. Preise werden als tagesaktuell beschrieben; telefonisch gibt es zunächst eine Preisvorstellung, vor Ort gemeinsame Bewertung und Barzahlung, Abholung größerer Mengen nach Absprache. Es gibt keine numerische Ankaufsliste; Verkaufsangebote oder Abholgebühren sind nicht beziffert. Wegen fehlender unabhängiger Bestätigung bleiben Straße, Telefon und E-Mail in der Frontmatter leer; zusätzlich schwankt die Betreiberwebsite zwischen „Ortstraße“ und „Ortsstraße“.
 
 ## Timeline
+
+### Recherche 06.10.2026 (Preis- und Leistungsangaben)
+
+- [Recherche 06.10.2026: Die Betreiberseiten „Leistungen“ und „Ankaufsprozess“ wurden erneut direkt geprüft. Selbstangaben: Ankauf von Eisen-/Stahlschrott, Kupfer/Aluminium/Messing/Edelstahl sowie Kabelschrott/Mischmetallen; „faire Tagespreise“ bzw. erste Preisvorstellung am Telefon, gemeinsame Materialbewertung vor Ort, sofortige Barzahlung und Abholung größerer Mengen nach Absprache. Das sind ausschließlich Aussagen zu Ankaufspreisen/-ablauf, keine festen Eurobeträge; keine Verkaufs-Preisliste, keine ausgewiesene Abhol-/Containergebühr und kein Beleg, dass Abholung kostenfrei ist. Die Angaben stammen von derselben Betreiberwebsite; kein unabhängiger zulässiger Zweitbeleg für die Identität/Adresse, daher Frontmatter-Kontakte und offene Straße unverändert. Website variiert weiterhin zwischen Ortstraße 78 im Impressum und Ortsstraße 78 auf Kontakt/Start; kein Geocoding, bis Schreibweise/Ortsteil geklärt und Identität ausreichend bestätigt ist. Quelle(n): https://www.schrotthandel-r-weiss.de/leistungen ; https://www.schrotthandel-r-weiss.de/ankaufsprozess ; https://www.schrotthandel-r-weiss.de/impressum ; https://www.schrotthandel-r-weiss.de/kontakt]
 
 ### Nachprüfung 06.10.2026 (Feedback #4759)
 

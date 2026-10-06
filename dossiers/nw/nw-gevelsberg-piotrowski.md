@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Piotrowski“ ist weiterhin kein konkreter Gevelsberger Schrotthändler belegt. Die neue lokale Suche fand allgemeine Schrottabholungsangebote anderer/überregionaler Anbieter, aber keinen Namens- oder Betreiberbezug zum Seed. Keine Felder, Preise oder Abholbedingungen ergänzt.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Neue Ortsgegenprobe fand lokale Landingpages/Anzeigen für Schrottabholung in Gevelsberg (u.a. Schrotthandel.NRW und generische Anbieter), jedoch keinen Treffer, der „Piotrowski“ als Betreiber nennt. Diese lokalen Service-Seiten belegen weder den Seed noch einen konkreten Ankauf. Keine Felder geändert; offen bleiben vollständiger Name, Telefonnummer/Anschrift und ob ein eigenständiger mobiler Betrieb besteht. Keine belastbare Ankaufpreisliste, Verkaufspreise oder Gebühren für Piotrowski gefunden. Quelle(n): https://www.lifepr.de/pressemitteilung/schrotthandelnrw/schrottankauf-gevelsberg-direkt-bei-ihnen-vor-ort-ab-zu-lukrativen-preisen/boxid/922926 ; https://my-schrotthaendler.de/gevelsberg (nur lokale Anbieter-Leads)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

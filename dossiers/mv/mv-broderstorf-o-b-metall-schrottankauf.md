@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur ein Portalprofil stützt bisher „O.B. Metall Schrottankauf“ in Broderstorf, die PLZ 18184 und 0176 63446292; eine unabhängige Betreiber-/Registerquelle und eine Straßenanschrift fehlen. Status Prüfung bleibt. Keine belegten Leistungen über den Namens-/Portalhinweis hinaus, keine zurechenbare Preisliste. Offen: Betreiber, genaue Annahmestelle und aktuelle Tätigkeit.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026
+
+- [Nachprüfung 06.10.2026: Das 11880-Profil führt weiterhin nur Broderstorf/18184 und 0176 63446292; eine Straße, E-Mail, Öffnungszeiten oder Betreiberbestätigung enthält es nicht. Es bleibt ein Verzeichnislead, nicht ein zweiter unabhängiger Beleg. Kein neuer Beleg für Annahmebedingungen oder Preisangaben: keine bestätigten Ankaufspreise, Verkaufspreise oder Gebühren, und keine verifizierte Betreiberpreisliste. Offen: Betriebsstätte, Betreiberidentität und direkte Kontaktquelle. Ohne bestätigte Straßenadresse keine Geokodierung. Quelle(n): https://www.11880.com/branchenbuch/broderstorf/060440092B113628859/o-b-metall-schrottankauf.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
