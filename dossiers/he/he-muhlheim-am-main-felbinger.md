@@ -11,12 +11,12 @@ email: info@felbinger.de
 opening_hours: Mo-Fr 07:00-12:30 u. 13:00-17:00, Sa 08:00-12:00
 website: https://www.felbinger.de/
 website_status: aktiv
-status: pruefung
-description: ''
-dropoff_json: ''
+status: aktiv
+description: 'Wertstoffhof mit Selbstanlieferung von Metallen und Abfällen; Metallanlieferungen werden auf Wunsch sofort zu aktuellen Tagespreisen vergütet. Keine numerische öffentliche Preisliste.'
+dropoff_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Selbstanlieferung von Metallen am Wertstoffhof; Vergütung auf Wunsch sofort auf Basis der aktuellen Tagespreise. Montag bis Freitag 07:00-12:30 und 13:00-17:00, Samstag 08:00-12:00."}'
 pickup_json: ''
 provenance_section: Einträge
-provenance_ankauf_raw: unklar
+provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Korrektur 06.10.2026
+
+- [Korrektur 06.10.2026: Die aktuelle Betreiberseite "Wertstoffhof" sagt ausdrücklich: "Metallanlieferungen werden auf Basis der aktuell gültigen Tagespreise auf Wunsch sofort vergütet." Damit ist der Ankauf am Mühlheimer Standort belegt; die Korrektur vom 05.10. hatte die Betreiberseite zu eng gelesen. Status pruefung -> aktiv, provenance_ankauf_raw unklar -> ja; description und dropoff_json ergänzt. Keine numerischen Preise übernommen. Adresse, Kontakt und Öffnungszeiten bleiben unverändert. Quelle(n): https://www.felbinger.de/wertstoffhof/; https://www.felbinger.de/impressum/; https://www.northdata.de/Felbinger%20GmbH,%20M%C3%BChlheim%20a.%20Main/HRB%206821]
 
 ### Korrektur 05.10.2026
 
