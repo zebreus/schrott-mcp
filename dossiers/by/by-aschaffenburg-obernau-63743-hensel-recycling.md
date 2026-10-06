@@ -41,6 +41,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Nachprüfung 06.10.2026: Die aktuelle Betreiber-Standortübersicht führt Hensel Recycling GmbH unter Deutschland mit Mühlweg 10, 63743 Aschaffenburg, +49 6028 1209-0 und info@hensel-recycling.com; das Impressum bestätigt dieselben Anschrifts- und Kontaktdaten sowie Registergericht Amtsgericht Aschaffenburg, HR 7526. Die getrennten Orts- und PLZ-Felder (Aschaffenburg / 63743) und die Standortadresse sind bestätigt. Keine belastbare Öffnungszeit gefunden; Straße und Geokoordinaten bleiben unverändert. Quelle(n): https://hensel-recycling.com/unternehmen/standorte/; https://hensel-recycling.com/impressum/]
 
+### Ergänzende Identitätsprüfung 06.10.2026 (Feedback #4761)
+
+- [Nachprüfung 06.10.2026: Die aktuelle Register-Dossieransicht ordnet HRB 7526, Amtsgericht Aschaffenburg, exakt der Hensel Recycling GmbH am Mühlweg 10, 63743 Aschaffenburg zu; sie führt außerdem die früheren Firmierungen Duesmann & Hensel Recycling GmbH und Duesmann Recycling GmbH sowie den Gegenstand Sammlung, Transport und Recycling edelmetallhaltiger Materialien/Abfälle. Die Betreiber-Standortseite führt dieselbe Adresse als deutschen Standort. Der Registerverlauf bindet die früheren Firmierungen an dieselbe Gesellschaft; die aktuelle Betreiber-/Registeranschrift stützt die getrennten Frontmatter-Felder city Aschaffenburg und postcode 63743 statt des alten zusammengesetzten Ortswerts „Aschaffenburg-Obernau 63743“. Öffnungszeiten und eine allgemeine Publikumsannahme sind nicht belegt und werden nicht ergänzt; keine Änderung an Adresse oder Geokoordinaten. Quelle(n): https://hensel-recycling.com/unternehmen/standorte/; https://hensel-recycling.com/impressum/; https://www.northdata.de/Hensel%20Recycling%20GmbH,%20Aschaffenburg/HRB%207526]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Katalysatoren (Auto+Industrie), E-Schrott/Platinen, Edelmetalle

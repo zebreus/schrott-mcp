@@ -31,6 +31,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 06.10.2026 (Feedback #4768)
 
 - [Recherche 06.10.2026: Die Filialseite druckt „0361 / 65 78 24 70“ und verlinkt auf `tel:036165782470`; das Impressum gibt dieselbe Ortsnetznummer als „+49 (0)361 / 65 78 24 70“ an. Der beanstandete Wert ist numerisch gleich, nicht eine abweichende Rufnummer. Die Frontmatter-Schreibweise wurde zur sichtbaren Filialformatierung vereinheitlicht; Ziffern und Anschlussbehauptung bleiben unverändert. Beide Belege stammen von derselben Betreiber-Domain; das Impressum nennt Herrn Ilhan Kör, aber keine Handelsregisterangabe, daher ist kein unabhängiger Zweitbeleg zur Erreichbarkeit belegt. Quelle(n): https://www.goldankauf-boerse.de/standorte/erfurt/; https://www.goldankauf-boerse.de/unternehmen/impressum/]
+- [Produktionsabgleich 06.10.2026: Die lesende Prüfung von `public.db` zeigt noch die alte internationale Schreibweise `+49 (0)361 / 65 78 24 70`; die Dossierfassung `0361 / 65 78 24 70` ist dieselbe Rufnummer, nur an die Filialseite angeglichen. Produktionsdatenbank unverändert gelassen; der reine Formatabgleich greift erst mit dem nächsten Seed-Deploy. Quelle(n): https://www.goldankauf-boerse.de/standorte/erfurt/; https://www.goldankauf-boerse.de/unternehmen/impressum/]
 
 ### Korrektur 04.10.2026 (Feedback #4768)
 

@@ -40,6 +40,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Nachprüfung 06.10.2026: Die aktuelle Betreiber-Standortseite für Aschaffenburg bestätigt separat Weißenburger Str. 18, 63739 Aschaffenburg, die Öffnungszeiten (Mo–Fr 09:30–13:00 und 14:00–18:00; 1. und 3. Samstag 09:30–13:30), Telefon 06021 4542399 und info@edelmetallshop-aschaffenburg.de. Die Shop-Übersicht führt Aschaffenburg als eigenen Standort; die Einträge in Frontmatter (city Aschaffenburg, postcode 63739, Straße, Telefon, E-Mail und Öffnungszeiten) sind damit weiterhin konsistent. Keine Änderung an Produktionsdaten oder Geokoordinaten. Quelle(n): https://metallorum.de/verkaufsstellen/aschaffenburg/; https://metallorum.de/verkaufsstellen/edelmetallshops/]
 
+### Ergänzende Identitätsprüfung 06.10.2026 (Feedback #4762)
+
+- [Nachprüfung 06.10.2026: Die aktuelle Register-Dossieransicht identifiziert die Metallorum Edelmetallhandels GmbH unter HRB 13597, Amtsgericht Würzburg, mit Sitz An der Windmühle 6, 97294 Unterpleichfeld und Edelmetallhandel als Unternehmensgegenstand; sie führt als frühere Firmierung „Metallorum GmbH“. Die Betreiberseite weist Aschaffenburg separat als eigenen Edelmetallshop aus und nennt dort Weißenburger Str. 18, 63739 Aschaffenburg sowie die im Frontmatter geführten Öffnungszeiten, Telefonnummer und E-Mail. Damit ist die Abweichung zwischen Gesellschaftssitz und Aschaffenburger Filiale erklärt; die lokalen Frontmatter-Felder beschreiben die Filiale korrekt und werden nicht durch die Anschrift des Gesellschaftssitzes ersetzt. Keine Änderung an Adresse, Kontakten oder Geokoordinaten. Quelle(n): https://metallorum.de/verkaufsstellen/aschaffenburg/; https://metallorum.de/verkaufsstellen/edelmetallshops/; https://metallorum.de/impressum/; https://www.northdata.de/Metallorum%20Edelmetallhandels%20GmbH,%20Unterpleichfeld/HRB%2013597]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Gold/Silber, Münzen/Barren, Altgold — https://metallorum.de/unser-service/preislisten/ + /ankaufsrechner/ → prüfen
