@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die derzeitige Anschrift Am Güterbahnhof 1, 33330 Gütersloh und Tel. 05241 6410 stützen sich auf zwei Branchen-/Schrottplatzportale, nicht auf einen Betreiberbeleg. Ein anderer 11880-Lead „Maria Ossenbrink Rohstoffhandel“ führt die Nummern 05241 77566/701091 ohne Straße; zusätzlich ist Nordhorner Str. 79 als unbestätigter Straßenhinweis dokumentiert. Identität/Beziehung dieser Einträge und aktueller Standort bleiben offen; bestehende Werte sind deshalb als Portal-Leads zu behandeln, nicht als bestätigte Betriebsdaten. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
 
 ## Timeline
 

@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberseite beschreibt Metallverwertung Lars Appelt als familiengeführten Betrieb in der Sächsischen Schweiz (seit 1992) mit Ankauf von Buntmetallen und Eisenschrott sowie Containerstellung von 7–32 m³. Die Website nennt Cotta B 16H, 01796 Dohma; ältere Verzeichnisdaten nennen dagegen Leite 0 in Pirna. Diese Anschriftenabweichung bleibt ungeklärt, daher keine Adresse/Koordinate daraus ableiten.
+
+**Preise:** keine bezifferten Ankaufspreise veröffentlicht; die Website wirbt nur allgemein mit fairen Preisen. „Container ab 1 t kostenfrei“ bezeichnet eine Bedingung der Containerstellung, keinen Schrott-Ankaufspreis und keine allgemeine Gebührenfreiheit für Entsorgung.
 
 ## Timeline
 
@@ -40,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Impressum live verifiziert (Einzelbeleg, unsicher — Einzelunternehmen ohne HRB, Owner-Direktive greift NICHT): Metallverwertung Lars Appelt, Cotta B 16H, 01796 Dohma, Tel. +49 172 9785409, mvla@gmx.de; nur website_status → aktiv, keine Adress-/Kontakt-Fills ohne Zweitbeleg; Quelle(n): https://www.mv-larsappelt.de/impressum]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiber-Startseite erneut direkt geprüft: bestätigt Ankauf von Buntmetallen und Eisenschrott, private und gewerbliche Zielgruppen, Container 7–32 m³ sowie kostenfreie Containerstellung ab 1 t; Kontaktblock nennt Dohma und dieselbe Festnetznummer wie der bereits dokumentierte Verzeichnislead, die Anschrift bleibt wegen der abweichenden Straßenangabe ungeklärt. Ankauf: keine numerischen Materialpreise; Verkauf: keine Preisliste; Gebühren: keine Entsorgungsgebührentafel, die kostenlose Containerstellung gilt laut Seite nur ab 1 t. Keine Frontmatter-/Koordinatenänderung. Quelle(n): https://www.mv-larsappelt.de/ ; https://www.mv-larsappelt.de/impressum/]

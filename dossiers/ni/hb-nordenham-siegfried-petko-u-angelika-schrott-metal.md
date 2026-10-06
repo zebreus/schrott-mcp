@@ -2,7 +2,7 @@
 slug: hb-nordenham-siegfried-petko-u-angelika-schrott-metal
 name: Siegfried Petko u. Angelika Schrott & Metalle
 trader_type: schrotthaendler
-state: HB
+state: NI
 city: Nordenham
 street: Nordseestr. 10a
 postcode: '26954'
@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der alte Eintrag „Siegfried Petko u. Angelika Schrott & Metalle“ in Nordseestr. 10a, Nordenham, ist nicht als aktuelle Filiale der heute belegten Petko Schrott & Metalle GmbH nachgewiesen. Die Betreiberwebsite nennt Wildeshausen, Bassum und Osterholz-Scharmbeck; dort ist der letztgenannte Standort ausdrücklich nur Lager ohne Kundenverkehr/Warenannahme. Keine dieser Angaben bestätigt die Personenfirma oder die Adresse in Nordenham. Die offizielle Ortszuordnung ist Nordenham, Niedersachsen; deshalb `state: NI` korrigiert, Slug/Pfad bleiben stabil. Status `pruefung` ersetzt den bislang nicht unabhängig belegten Aktivstatus.
+
+**Preise:** Die Petko-GmbH-Seite nennt für ihre eigenen Betriebe Ankauf zu tagesaktuellen Preisen, aber keine Zahlenliste. Das ist nicht auf den ungeklärten Nordenham-Eintrag übertragbar. Keine lokalen Verkaufspreise oder Gebühren für Nordenham belegt.
 
 ## Timeline
 
@@ -40,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 04.10.2026: Namens-/Standortprüfung: Die live erreichbare Website petko-metalle.de gehört laut Impressum Petko Schrott & Metalle GmbH, Düngstruper Str. 91, 27793 Wildeshausen, vertreten durch Markus Petko. Die einzeln gelesenen Standortseiten führen Wildeshausen, Bassum und Osterholz-Scharmbeck, nicht Nordenham oder Nordseestr. 10a. Die OHZ-Seite bezeichnet ihren Platz ausdrücklich als Lager ohne Kunden-/Warenannahme. Weder die Personenfirmierung Siegfried Petko u. Angelika noch eine Übernahme-/Verlagerungskette nach Nordenham ist dadurch bewiesen; die Importaussage „3. Petko-Standort“ ist nicht als aktuelle Betreiberzuordnung bestätigt. Keine Kontaktdaten oder Domain dieses anderen Betreibers übertragen; Quelle(n): https://www.petko-metalle.de/ ; https://www.petko-metalle.de/impressum/ ; https://www.petko-metalle.de/kontakt/ ; https://www.petko-metalle.de/wildeshausen/ ; https://www.petko-metalle.de/bassum/ ; https://www.petko-metalle.de/osterholz-scharmbeck/ (Abruf jeweils 04.10.2026)]
 - [Recherche 04.10.2026: Auch Leistungen und Containerdienst wurden separat geprüft. Der Betreiber in Wildeshausen beschreibt Metallankauf zu tagesaktuellen Preisen, veröffentlicht auf diesen Seiten aber keine numerische Ankaufspreisliste. Diese Leistungen/Preisversprechen sind nicht für den unbestätigten Nordenham-Händler belegt; keine Service-JSONs, Öffnungszeiten, Website oder Beschreibung ergänzt. Zwei Seiten derselben Betreiberwebsite zählen nicht als zwei unabhängige Quellen; im Impressum fehlt zudem eine HRB-Angabe, sodass die vollständige Betreiber-Ausnahme nicht nachgewiesen ist; Quelle(n): https://www.petko-metalle.de/leistungen/ ; https://www.petko-metalle.de/containerdienst/ ; https://www.petko-metalle.de/impressum/ (Abruf jeweils 04.10.2026)]
 - [Recherche 04.10.2026: Restunsicherheit: aktuelle Existenz/Betreiberidentität, Nutzung der Nordseestr. 10a, Fortgeltung von 04731 21730 sowie tatsächlicher Ankauf nicht durch zwei geeignete Quellen bestätigt. Das bestehende status: aktiv bleibt ausschließlich wegen des Verbots, nichtleere Felder zu überschreiben, erhalten; es ist keine neue Aktivitätsverifikation. Owner soll die Personenfirma unabhängig klären und gegebenenfalls einen Prüfstatus setzen; fehlende Nennung auf der GmbH-Website beweist keine dauerhafte Schließung. Alle Frontmatter-Felder unverändert; Quelle(n): erhaltene Import-Timeline und Gegenprüfung https://www.petko-metalle.de/impressum/ ; https://www.petko-metalle.de/kontakt/ ; https://www.petko-metalle.de/wildeshausen/ ; https://www.petko-metalle.de/bassum/ ; https://www.petko-metalle.de/osterholz-scharmbeck/ (Abruf jeweils 04.10.2026)]
+
+### Recherche 06.10.2026
+
+- [Korrektur 06.10.2026: geografische Angabe Nordenham nochmals anhand Stadt- und Landesquelle als Niedersachsen bestätigt; `state` von HB auf NI korrigiert und Dossier unter `dossiers/ni/` abgelegt. Der unveränderliche Slug bleibt `hb-nordenham-siegfried-petko-u-angelika-schrott-metal`. Da keine unabhängige Betreiberbestätigung für die Personenfirma/Nordseestr. 10a vorliegt, `status` von aktiv auf pruefung gesetzt; dies ist keine Schließungsbehauptung. Petko-Betreiberseite erneut direkt geprüft: heutige GmbH und ihre Standorte sind Wildeshausen, Bassum und ein reines Lager in Osterholz-Scharmbeck; Nordenham wird nicht geführt. Die dortigen Betreiberangaben zu tagesaktueller Ankaufvergütung gelten nur für die Petko GmbH und werden nicht auf diesen ungeklärten Kandidaten übertragen. Keine numerische Ankaufspreisliste; keine Verkaufspreise oder Gebührenliste für Nordenham. Quelle(n): https://www.nordenham.de/de/kontakt ; https://www.petko-metalle.de/impressum/ ; https://www.petko-metalle.de/kontakt/ ; https://www.petko-metalle.de/leistungen/ ; https://www.petko-metalle.de/osterholz-scharmbeck/]

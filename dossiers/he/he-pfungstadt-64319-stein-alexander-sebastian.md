@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Dossier beruht weiterhin auf zwei Verzeichnisangaben für „Alexander-Sebastian Stein“ in Pfungstadt-Eschollbrücken (Tulpenweg 3, Telefon 06157 9110132). Es gibt keinen Betreiberauftritt, Register-/Impressumsbeleg oder sonstige aktuelle Primärquelle, die einen aktiven Schrottbetrieb bestätigt; die Adresse und Telefonnummer bleiben daher Verzeichnis-Leads, nicht verifizierte Betreiberangaben.
+
+**Preise:** keine Ankaufspreise, Verkaufspreise oder Entsorgungsgebühren veröffentlicht oder belastbar gefunden. Status `pruefung` bleibt; weder Betriebsaufgabe noch aktueller Ankauf ist belegt.
 
 ## Timeline
 

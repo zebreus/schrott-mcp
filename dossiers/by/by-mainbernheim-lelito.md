@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Lelito Niclas (Schrott- und Metallhandel)“ bleibt ein nicht primär bestätigter Verzeichniskandidat. Gelbe Seiten und 11880 liefern uneinheitliche Nummern (09323 8778981 bzw. 01514 1831313) sowie eine nur portalgestützte Adresse Badgasse 22; daraus folgt kein gesicherter Betreiberwechsel oder eine bestätigte Niederlassung. Es gibt keinen identifizierten Betreiberauftritt/Registerbeleg. Ankaufstätigkeit, Kontaktgültigkeit und Annahme sind offen; eine Bewertung mit „ein paar Euro“ ist kein belastbarer Preis. Keine aktuelle numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden; `status: pruefung` bleibt.
 
 ## Timeline
 

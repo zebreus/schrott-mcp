@@ -26,7 +26,7 @@ provenance_origin: table
 
 Eigene Betreiberwebsite gefunden: MTC Möbius-Transporte, Container & Recycling GbR, Gesellschafter Gerd und Marion Möbius. Der Leistungsfokus liegt auf Containerdienst, Baustoff-/Schüttgutlieferung und Entsorgung von Bauschutt, Baustellenabfällen und Grünschnitt, auch für Privatkunden und öffentliche Einrichtungen.
 
-Weder „Recycling“ im Namen noch allgemeine Entsorgungswerbung beweisen **vergüteten Metallankauf**. Die Website sagt auch nicht, dass die Impressumsanschrift eine frei zugängliche Schrottannahmestelle ist. Darum weiter `pruefung`, keine Annahme-/Abholzusage in JSON, Adresse und Kontakte nur als Betreiber-Einzelbeleg in der Timeline. Baustoffverkauf und Entsorgungsgebühren sind nicht Ankaufspreise; auf den gelesenen Seiten jeweils nur Angebot auf Anfrage.
+Weder „Recycling“ im Namen noch allgemeine Entsorgungswerbung beweisen **vergüteten Metallankauf**. Die Website sagt auch nicht, dass die Impressumsanschrift eine frei zugängliche Schrottannahmestelle ist. Darum weiter `pruefung`, keine Annahme-/Abholzusage in JSON, Adresse und Kontakte nur als Betreiber-Einzelbeleg in der Timeline. Baustoffverkauf und Entsorgungsgebühren sind nicht Ankaufspreise: für Baustoffe ist kein Zahlenpreis veröffentlicht, für Abfallentsorgung wird ein individuelles, unverbindliches Angebot angeboten. Eine Metall-Ankaufspreisliste wurde nicht gefunden.
 
 ## Timeline
 

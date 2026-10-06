@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiber-Domain nennt Björn Litzbach und eine Anschrift in Sittensen, doch Abrufe der aktuellen HTTPS-Seiten scheitern weiterhin; Suchindexangaben ersetzen keine aktuelle Prüfung des Impressums. Verzeichnisse widersprechen sich zudem bei der Anschrift (Nütteler Weg 12 vs. Lindenstraße 8). Deshalb bleiben Kontakt, Betrieb und die Zuordnung der Seed-Leistungsangaben offen. Keine belastbare Ankauf-, Verkauf- oder Gebührenpreisliste gefunden.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Korrektur website_status tot→blockiert — Domain lebt (http-Impressum 01.10.2026 abrufbar: Inhaber Bjoern Litzbach, Nuetteler Weg 12, 27419 Sittensen), https-Abruf schlaegt fehl; Frontmatter-Adresse/Telefon NICHT befuellt (Einzelunternehmen ohne HRB, Owner-Ausnahme greift nicht; 11880/Yelp nur Leads); Quelle(n): Betreiber http://ankauf-verkauf-litzbach.de/impressum.php + https-Fehlbeleg 01.10.2026]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiber-SERP verlinkt weiterhin Impressum/Kontakt mit Björn Litzbach, Nütteler Weg 12, 27419 Sittensen, Telefon +49 172 9507297 und E-Mail; der Direktabruf von HTTPS-Impressum, Startseite und einem mutmaßlichen Preise-Pfad scheiterte erneut mit Transportfehler. Ein Autoplenum-Aggregator führt abweichend Lindenstr. 8 / 04282 590962; nicht als Gegenbeleg oder Kontakt übernommen. Suchläufe ergaben keine verifizierbare numerische Preisliste. ANKAUF/VERKAUF: nicht bestätigt; GEBÜHREN: keine verifizierte Angabe. Website-Status bleibt blockiert, Identität/Anschrift weiter Owner-Prüffall. Quelle(n): https://www.ankauf-verkauf-litzbach.de/impressum (Suchindex, Direktabruf fehlgeschlagen); https://www.ankauf-verkauf-litzbach.de/kontakt (Suchindex); https://www.autoplenum.de/autoteile/sittensen/a1-autoteile-bjoern-litzbach-115795 (Aggregator-Lead).]

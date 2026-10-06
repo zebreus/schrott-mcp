@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der einzige lokal passende Direktkontakt bleibt ein 11880-Lead: Alan William Jones, Vogelweide 40, 22081 Hamburg, Tel. 040 2708902 (Portal-Eintragsdaten 16.05.2024). Es gibt keinen zuordenbaren lokalen Betreiber-/Registerbeleg; gleichnamige britische bzw. US-amerikanische Personen sind ausdrücklich nicht mit dem Hamburger Händler verknüpft. Aktuelle Tätigkeit, Kontaktgültigkeit, Annahme/Ankauf und Öffnungszeiten bleiben offen; kein Schließungsurteil aus Suchlücken. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
 
 ## Timeline
 

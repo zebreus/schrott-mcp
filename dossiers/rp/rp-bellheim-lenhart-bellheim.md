@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Eine Betreiberseite belegt Rohstoffe Karlheinz Lenhart in Bellheim (Am Weidensatz 33) mit Entsorgung von Schrott und Metallen. Sie verbindet diesen Betrieb jedoch nicht mit der Seed-Adresse Luisenstr. 16 oder den konkurrierenden Philipp-/Robert-Lenhart-Verzeichnistreffern. Die fehlerhafte Seed-Straße bleibt daher ungeändert und es werden keine Kontaktdaten in dieses Dossier übernommen. Preise nur auf Anfrage; kein öffentlicher Tarif.
 
 ## Timeline
 
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: neue Betreiber-Primärquelle gefunden: Rohstoffe Karlheinz Lenhart nennt Am Weidensatz 33, 76756 Bellheim und Kontakt. Das belegt nicht, dass dieser Betrieb mit den konkurrierenden Philipp-/Robert-Lenhart-Leads oder der Seed-Adresse Luisenstr. 16 identisch ist; widersprüchliche Bellheimer Clusteridentität bleibt offen. Vorhandene, fehlerhafte `street` nicht überschrieben; keine Fills. Quelle(n): https://rohstoffe-lenhart.de/; https://rohstoffe-lenhart.de/impressum.htm; https://www.gelbeseiten.de/gsbiz/af8ba9fa-b388-46cd-858c-38a6289b3959]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiber-Service-Seite erneut direkt geprüft: Rohstoffe Karlheinz Lenhart führt Entsorgung von Schrott/Metallen, Container (laut Seite meist mietfrei gestellt, 3-36 m³) und weitere Abfallarten auf; ausdrücklich heißt es, Preisangaben erfolgten auf persönliche Anfrage per Telefon/E-Mail. Das bestätigt die Leistungen und Angebotslogik dieses Webauftritts, aber weiterhin nicht die Identität mit dem Datensatz Luisenstr. 16 oder den anderen Lenhart-Kandidaten. Keine Frontmatter-Felder aus dem Kandidaten übertragen. ANKAUF: keine Zahlen; VERKAUF: An-/Verkauf von Gabelstaplern/Fahrzeugen erwähnt, aber keine Preisliste; GEBÜHREN: Container-/Entsorgungskonditionen auf Anfrage, kein Tarifblatt. Quelle(n): https://rohstoffe-lenhart.de/service.htm; https://rohstoffe-lenhart.de/impressum.htm; https://rohstoffe-lenhart.de/.]
 
 ### Recherche 02.10.2026
 

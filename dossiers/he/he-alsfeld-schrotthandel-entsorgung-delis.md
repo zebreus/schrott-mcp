@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Dossierfelder für „Schrotthandel & Entsorgung Delis“ beruhen auf übereinstimmenden Branchenverzeichnissen; dort werden Bürgermeister-Haas-Str. 18, 36304 Alsfeld, Telefon 0172 4350212 und Öffnungszeiten Mo–Fr 06:00–16:00/Sa 06:00–14:00 genannt. Die importierte Soldanstr. 8 bleibt ein widersprüchlicher Altwert. Eine Betreiberwebsite, aktueller Registerbeleg oder unabhängige Bestätigung der Betriebsanschrift fehlt; die Felder sind deshalb nicht als primär verifiziert zu verstehen.
+
+**Preise:** keine konkrete Ankaufpreisliste, Verkaufspreise oder Gebühren gefunden. Tagespreise oder Vergütung nicht allein aus „Schrotthandel“ ableiten; Status `pruefung` und Adressklärung bleiben erforderlich.
 
 ## Timeline
 

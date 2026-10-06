@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt „Moerser Str. 220“ (D7), während ein aktuellerer Suchtreffer von „Wer kennt den BESTEN“ Aloys Hill Schrotthandel an **Moerser Landstr. 220, 47802 Krefeld-Traar** listet. Das ist eine mögliche abweichende Straßenbezeichnung, aber weiterhin nur ein Verzeichnis-Lead; Betreiberidentität, Telefonnummer, aktuelle Tätigkeit und Annahme sind nicht unabhängig belegt. Deshalb keine Adresskorrektur oder Geocodierung vorgenommen. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
 
 ## Timeline
 
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Krefeld, Moerser Str. 220 (lt. D7)
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Ein Verzeichnis-Suchergebnis nennt „Aloys Hill Schrotthandel“, Moerser Landstr. 220, 47802 Krefeld-Traar; das weicht von der Seed-Angabe Moerser Str. 220 ab. Beide Schreibweisen dürfen ohne Betreiber-/Registerbeleg nicht zusammengeführt werden. Keine eigene Website, Telefonnummer, unabhängige Betreiberquelle oder Preis-/Gebührenangabe ermittelt. Keine Stammdaten gefüllt; Straße, Identität und aktueller Betrieb bleiben offen. Quelle (Aggregator-Lead): https://www.werkenntdenbesten.de/schrotthandel/krefeld]

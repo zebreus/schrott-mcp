@@ -28,11 +28,17 @@ SMB an der Coermühle 12 ist weiterhin ein **Portal-Lead ohne bestätigte Betrei
 
 Wichtige Abgrenzung: **SRM Schrott & Metallrecycling Münster GmbH** hat laut eigenem Impressum ihren Standort am Kesslerweg 37, HRB 11016 AG Münster. Die ähnlich klingende Firma ist kein belegter Nachfolger von SMB. Ihre Website, Annahmebedingungen, Preise oder Entsorgungsgebühren werden deshalb nicht auf diesen Eintrag übertragen. Nächster Klärschritt ist die Identifizierung des Coermühle-Betreibers, nicht das Auffüllen aus SRM-Daten.
 
+Zusätzlicher Verwechslungsschutz: An der **Coermühle 4a** tritt laut eigenem Impressum **A-Z Recycling / Udo Salzsieder** auf, also nicht an der SMB-Seedadresse Coermühle 12. Eine Nachfolge- oder Betreiberverbindung zu SMB ist nicht belegt; auch A-Z-Aussagen zu tagesaktuellen Schrottpreisen und kostenloser Abholung sind daher keine SMB-Preise oder -Konditionen.
+
 ## Timeline
 
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Verwechslungsschutz durch Betreiber-Impressum: srm-schrott.de gehört SRM Schrott & Metallrecycling Münster GmbH, Kesslerweg 37, 48155 Münster, HRB 11016, Geschäftsführer Jörg Persch-Rose/Holger Jansing. Abweichender Name und Standort gegenüber SMB Coermühle 12, kein Nachfolge-/Mergebeleg. SRM-Fakten nicht attribuiert; SMB-Altwerte bleiben unbestätigt, status pruefung. Keine neuen Preislisten für SMB; Quelle(n): https://www.srm-schrott.de/impressum; vorhandene SMB-Recherche 02.10.2026]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Weitere Identitätsabgrenzung: Die Betreiberseite „Schrottplatz Münster A-Z Recycling“ nennt im Impressum Udo Salzsieder, Coermühle 4a, 48157 Münster, Tel. 0251/277098 und Mobil 0172/5219649; das ist eine andere Hausnummer als der SMB-Lead Coermühle 12. Keine Nachfolge-/Identitätskette gefunden, daher A-Z-Kontakte, Öffnungszeiten und Konditionen nicht auf SMB übertragen. A-Z wirbt mit tagesaktuellen, per WhatsApp anzufragenden Schrottpreisen sowie kostenloser Abholung; dies ist weder eine numerische Preisliste noch ein SMB-Angebot. SMB-Status pruefung und Altwerte unverändert. Quellen: https://xn--schrottplatz-mnster-jbc.de/impressum ; https://xn--schrottplatz-mnster-jbc.de/]
 
 ### Recherche 02.10.2026
 

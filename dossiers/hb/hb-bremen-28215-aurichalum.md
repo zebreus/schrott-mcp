@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die vorhandenen Quellen belegen nur einen historischen Firmennamen „Aurichalum GmbH“ und eine frühere Adresse Findorffstr. 46/48, Bremen. Ein Registerspiegel führt die GmbH als gelöscht; ein aktueller Betreiber, Metallhandel oder eine Fortführung/Nachfolge ist nicht identifiziert. Die geocodierte Straße und heutige Nachbarschaft belegen keine Geschäftstätigkeit. Daher bleibt `pruefung`; keine Schließung eines konkreten Annahmehofs und keine Nachfolge behauptet.
+
+**Preise:** keine aktuelle Ankauf-, Verkaufs- oder Gebührenliste auffindbar; für diesen Kandidaten ist auch keine aktuelle Metallleistung bestätigt.
 
 ## Timeline
 

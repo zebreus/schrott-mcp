@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Die Seed-Angabe „AWH GmbH, Werkstraße 120, Schwerin“ ist weder einer Betreiberquelle noch einem belastbaren Register-/Kommunalbeleg zugeordnet. Gleichnamige AWH-Suchergebnisse betreffen andere Unternehmen. Identität, Adresse, Annahme und aktueller Betrieb bleiben offen; keine Geocodierung.
+Die Seed-Angabe „AWH GmbH, Werkstraße 120, Schwerin“ ist weder einer Betreiberquelle noch einem belastbaren Register-/Kommunalbeleg zugeordnet. Gleichnamige AWH-Suchergebnisse betreffen andere Unternehmen. Identität, Adresse, Annahme und aktueller Betrieb bleiben offen; die Hausnummer ist ausdrücklich unbestätigt und nicht geocodiert. ANKAUF, VERKAUF und GEBÜHREN: keine zuordenbare Preisangabe.
 
 ## Timeline
 

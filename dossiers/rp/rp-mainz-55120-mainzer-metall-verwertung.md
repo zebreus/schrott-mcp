@@ -11,7 +11,7 @@ email: info@mainzer-metall-verwertung.de
 opening_hours: ''
 website: ''
 website_status: tot
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Zeile „Mainzer-Metall-Verwertung GbR“ und der aktuelle Betreiber H.L.R. Rohstoffhandel GmbH teilen Industriestraße 1–3, 55120 Mainz, und die Telefonnummer 06131 215857. HLRs aktive Website belegt einen heutigen Schrott-/Metallankauf am Mainzer Standort, aber keine rechtliche Nachfolge, Umfirmierung oder Identität mit der GbR. Deshalb werden HLR-Kontakte/Website und Preise nicht auf die GbR übertragen. Die GbR-Identität und ihr eigener Betriebsstatus bleiben ein Register-/Gewerbeamt-Klärfall.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle, Nachtrag — TOT-Verdacht WIDERLEGT)
 
 - [Recherche 01.10.2026: Betrieb in DREI Verzeichnissen konsistent belegt — „Mainzer-Metall-Verwertung GbR“, Industriestr. 1(-3), 55120 Mainz-Mombach, Tel. 06131 215857, Fax 06131 215856, Branche Schrott (Metallschrott-/Elektroschrottankauf, Industriedemontagen), Öffnungszeiten Mo-Fr 08:00-16:00: GelbeSeiten + Das Örtliche (inkl. E-Mail-Feld/Website-Feld) + stadtbranchenbuch Mainz (inkl. E-Mail info@mainzer-metall-verwertung.de, Website www.mainzer-metall-verwertung.de). street/postcode/phone/email GEFÜLLT, trader_type → schrotthaendler, status pruefung → aktiv. E-Mail über stadtbranchenbuch + branchenportal24 (2 Quellen). Eigene Website mainzer-metall-verwertung.de per Direktabruf TOT (http 404, keine Inhalte) → website_status tot, website bleibt leer. WICHTIG — Adress-/Rufnummern-IDENTITÄT mit H.L.R. Rohstoffhandel GmbH (Industriestr. 1-3, 55120 Mainz, Tel. 06131 215857, hlr-rohstoffhandel.de, 3 Generationen Schrottplatz Mombach/Dotzheim): GbR möglicherweise Vorgänger/Zweiteintrag desselben Standorts — keine Verwechslung, aber Folgewelle sollte klären (Gewerberegister Mainz), ob GbR noch eigenständig existiert oder in HLR aufgegangen ist. Quelle(n): gelbeseiten.de, dasoertliche.de, mainz.stadtbranchenbuch.com, branchenportal24.de, hlr-rohstoffhandel.de (Kontext).]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: HLR-Startseite sowie Eisen- und Buntmetall-Ankaufseiten direkt geprüft. Sie bestätigen H.L.R. Herbert Lagerin Rohstoffhandel GmbH, Industriestraße 1-3, 55120 Mainz, als heutigen Ankaufstandort; Preise werden telefonisch/WhatsApp individuell erfragt, die Betreiberseiten sagen ausdrücklich, dass Ankaufpreise wegen laufender Schwankungen nicht veröffentlicht werden. Dies ist nur ein Preisbefund für HLR, nicht für die rechtlich ungeklärte Seed-GbR. Für „Mainzer-Metall-Verwertung GbR“ selbst: ANKAUF/VERKAUF/GEBÜHREN mangels eigener Betreiberquelle nicht verifiziert, keine auf den Datensatz übertragbare Preisliste. Status `aktiv` → `pruefung`, da der aktuelle Betreiber HLR heißt und eine Rechtsnachfolge/Identität mit der GbR nicht belegt ist. Register-/Gewerbezuordnung bleibt offen. Quelle(n): https://www.hlr-rohstoffhandel.de/; https://www.hlr-rohstoffhandel.de/eisenschrott/; https://www.hlr-rohstoffhandel.de/buntmetalle/; https://www.hlr-rohstoffhandel.de/impressum/.]

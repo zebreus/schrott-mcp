@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Register führt die namensgleiche Hennies Schrott und Metallrecycling GmbH (HRB 6847, Hannover) als in Liquidation; ob sie heute an der Seed-Adresse noch einen Schrottbetrieb unterhält, ist nicht belegt. Die ähnlich benannte Willi Hennies Recycling GmbH & Co. KG betreibt laut eigener Website Standorte in Hildesheim, nicht Hannover; eine Betreiber- oder Konzernverbindung zur HRB-6847-Gesellschaft ist nicht belegt. Adresse, Kontakt und konkrete Annahme deshalb ungeklärt; keine verifizierte Preisliste.
 
 ## Timeline
 
@@ -45,3 +45,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Korrektur der bisherigen Betreiber-Zuordnung: Northdata führt für Amtsgericht Hannover HRB 6847 die eigenständige Hennies Schrott und Metallrecycling GmbH (frühere Namen Horst-D. Hennies GmbH/H.D.H. Verwaltung), Hannover, als i. L.; der Registerverlauf nennt Liquidation 2016 und zuletzt einen Liquidator (Eintragung 08.12.2025). Creditreform führt dieselbe HRB-Gesellschaft in Hannover und bestätigt den Liquidator-Registerstand 2025. Daher Name im Frontmatter und Dossiertitel auf die belegte juristische Person korrigiert und status aktiv auf pruefung gesetzt, nicht geschlossen (kein Nachweis finaler Löschung oder aktueller Betriebsaufgabe). Northdata nennt Am Lindener Hafen 20/20 A, 30453 Hannover, aber eine zweite belastbare Quelle zur exakten Hausnummer bzw. zu einer aktuellen Annahmestelle fehlt; street/postcode, Website, Telefon, E-Mail und Öffnungszeiten bleiben deshalb leer bzw. unbekannt. Die tief geprüfte Website willi-hennies.de weist im Impressum HRA 869/HRB 39 Hildesheim aus, listet auf der Kontaktseite nur zwei Hildesheimer Standorte und beschreibt dort den TSR-Verkauf 2021; dies ist eine andere Gesellschaft und kein Beleg für HRB 6847. Die frühere TSR-Konzernzuordnung für diesen Hannover-Datensatz ist damit nicht bestätigt; Slug und Überblick unverändert. Quelle(n): https://www.northdata.de/Hennies+Schrott+und+Metallrecycling+GmbH,+Hannover/HRB+6847, https://www.northdata.de/?id=5886801033822208, https://firmeneintrag.creditreform.de/30453/2190241469/HENNIES_SCHROTT_UND_METALLRECYCLING_GMBH, https://www.willi-hennies.de/impressum/, https://www.willi-hennies.de/kontakt-anfahrt/, https://www.willi-hennies.de/unternehmen/.]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Preis-/Betreiberabgleich erneut gegen die bekannte Website und HRB-Spuren geprüft. Keine aktuelle Ankaufpreisliste lässt sich der Gesellschaft HRB 6847 zuordnen; die aktuellen Inhalte von willi-hennies.de betreffen die abweichende Hildesheimer Gesellschaft und dürfen weder deren Standorte noch etwaige Konditionen auf diese Hannover-Zeile übertragen. ANKAUF: für HRB 6847 unbestätigt; VERKAUF und GEBÜHREN: keine zuordenbare Liste gefunden. Hausnummer/aktive Annahmestelle und Register-Endstand bleiben offen. Quelle(n): https://www.northdata.de/Hennies+Schrott+und+Metallrecycling+GmbH,+Hannover/HRB+6847; https://www.willi-hennies.de/impressum/; https://www.willi-hennies.de/kontakt-anfahrt/; https://www.willi-hennies.de/unternehmen/.]

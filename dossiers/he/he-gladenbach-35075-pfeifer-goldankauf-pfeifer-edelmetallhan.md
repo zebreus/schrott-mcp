@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die bisherigen Nachweise für „Goldankauf Pfeifer Edelmetallhandel“ in Marktplatz 1, Gladenbach, sind Verzeichniseinträge. Der am 06.10.2026 aktualisierte 11880-Eintrag ist als inhaberbestätigt markiert, bietet aber keine verifizierbare Betreiberwebsite und zeigt als Kontaktadresse `info@aurum24.eu`. Am selben Marktplatz existiert außerdem ein separater 11880-Eintrag „EZEdelmetall Goldankauf“ mit abweichender Telefonnummer; ein weiterer Branchenbucheintrag führt „EZ Edelmetall, Inh. Elma Zuhric“. Die Namens-/Betreiberbeziehung ist nicht geklärt; nicht zusammenführen und keine Daten übertragen.
+
+**Preise:** keine veröffentlichte Ankaufpreisliste gefunden. Das Angebot ist als Gold-/Silberankauf klassifiziert, nicht als allgemeiner Schrottankauf; Verkaufspreise und Gebühren sind ebenfalls nicht belegt. Status `pruefung` bleibt.
 
 ## Timeline
 
@@ -36,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Goldankauf/Edelmetallhandel (Verzeichnis); adressgleich EZEdelmetall
 - Adresse: Gladenbach 35075, Marktplatz 1
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: direkte Prüfung der beiden 11880-Einträge: „Goldankauf Pfeifer Edelmetallhandel“ führt Marktplatz 1, 35075 Gladenbach, Tel. 06462 9414671, E-Mail-Weiterleitung zu info@aurum24.eu und ist dort als „vom Inhaber bestätigt“ markiert; daneben führt das Portal „EZEdelmetall Goldankauf“ an derselben Adresse, jedoch mit Tel. 06462 9417149 und ohne Website/E-Mail. Ein Branchenbucheintrag bezeichnet EZ Edelmetall als Inh. Elma Zuhric. Gleiche Anschrift allein beweist weder Betreiberidentität noch Nachfolge; keine Kontakt-/Website-Felder ergänzt. Preisprüfung: in diesen Einträgen keine numerische Gold-/Silber-Ankaufsliste, keine Verkaufspreise oder Gebühren; die Domain aurum24.eu ließ sich nicht als Betreiberseite verifizieren. Quelle(n): https://www.11880.com/branchenbuch/gladenbach/181726177B101725186/goldankauf-pfeifer-edelmetallhandel.html ; https://www.11880.com/branchenbuch/gladenbach/181726177B102544941/ezedelmetall-goldankauf.html ; https://www.total-lokal.de/branchenbuch/ez-edelmetall.html (Branchenbuch-Leads, keine Primärquellen)]

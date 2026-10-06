@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Scholz-Recycling-Website und ihr allgemeines Angebot für Selbstanlieferer sind aktuell. Eine aktuelle, Riesa zuordenbare Betreiber-Standortseite oder konkrete Annahmebestätigung ließ sich jedoch nicht finden; die dynamische Standortsuche belegt den konkreten Seed-Standort nicht. `status: pruefung` bleibt deshalb sachgerecht.
+
+**Preise:** keine Riesa-spezifischen numerischen Ankaufpreise, Verkaufspreise oder Gebühren gefunden. Der Konzern verweist allgemein auf Tagesmarktpreise und Foto-Schätzungen, das ist keine lokale Preisliste.
 
 ## Timeline
 
@@ -40,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Die Scholz-Domain und aktuelle Unternehmensseiten sind erreichbar, daher website_status aktiv ergänzt; der Standortfinder liefert für Riesa keine verifizierbaren Filialangaben und ein Riesa-Detail ließ sich nicht belegen. Die Betreiberidentität/aktive Domain belegt keinen Betrieb in Riesa; street, postcode, Telefon, E-Mail, Öffnungszeiten und Annahme-/Abholdetails bleiben leer und status pruefung unverändert. Keine Preise belegt; Quelle(n): https://www.scholz-recycling.com/; https://www.scholz-recycling.com/standorte/; https://www.scholz-recycling.com/impressum/]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: aktuelle Konzern-Standortseite und Schrott-/Selbstanliefererinformationen direkt geprüft. Der Standortfinder bleibt eine dynamische Kartenanwendung; keine Riesa-Filiale oder lokale Anlieferadresse wurde auf der Betreiberseite statisch verifiziert. Das allgemeine Konzernangebot nennt eine Wertschätzung auf Basis tagesaktueller Marktpreise nach Foto, aber keine veröffentlichten Riesa-Ankaufpreise. Keine lokale Verkaufspreisliste oder Gebührenordnung gefunden. Adresse, Kontakte und Aktivität der behaupteten Betriebsstätte bleiben offen. Quelle(n): https://www.scholz-recycling.com/standorte/ ; https://www.scholz-recycling.com/services/ ; https://www.scholz-recycling.com/geschaeftsbereiche/]

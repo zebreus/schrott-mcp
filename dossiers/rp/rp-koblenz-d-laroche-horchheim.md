@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Betreiberwebsite „D. Laroche Recycling“ weist Mendelssohnstraße 11, 56076 Koblenz, Telefon +49 162 3049215, E-Mail info@laroche-recycling.com und Mo–Fr 08:00–18:00 aus; das Impressum nennt abweichend Dominic **Larohe**. Schrotthandel, Metallhandel, Containerdienst und Demontage werden beworben. Mangels Register-/zweitem Identitätsbeleg bleibt offen, ob dieser Einzelbetrieb exakt der Seed-Zeile entspricht; deshalb keine Frontmatter-Übernahme. Preise werden als individuelles, kostenloses Angebot erfragt, keine numerische Liste.
 
 ## Timeline
 
@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Primärseiten-Kandidat gefunden, Identität aber nicht unabhängig genug für Übernahme. laroche-recycling.com präsentiert „D. Laroche Schrotthandel“ mit Mendelssohnstraße 11, 56076 Koblenz, Kontakt und Schrott-/Metallhandel; das Impressum nennt „Dominic Larohe“ (abweichende Schreibweise) ohne HRB/Registerangabe. Cylex/11880 wiederholen die Anschrift, zählen als Aggregator-Leads nicht als zweite zulässige Quelle; keine passende Register- oder Betreiber-Social-Bestätigung verifiziert. Bestehendes Adresskonglomerat nicht korrigiert, keine Website/Kontakte übernommen; Klärfall: Betreibername und genaue Zuordnung. Quelle(n): https://laroche-recycling.com/ ; https://laroche-recycling.com/impressum/ ; https://laroche-recycling.com/kontakt/ ; https://web2.cylex.de/firma-home/d--laroche-recycling-und-demontagen-aller-art-sowie-abbruch-und-rueckbau-von-industriemaschinen-16459074.html (Lead) ; https://www.11880.com/branchenbuch/koblenz-am-rhein/060440092B113564383/d-laroche-recycling-und-demontagen-aller-art-sowie-abbruch-und-rueckbau-von-industriemaschinen.html (Lead)]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Startseite, Impressum und Services direkt abgerufen: Betreiberauftritt nennt weiterhin Schrott-/Metallankauf, Abholung, Container, Demontage und seit 2008 Tätigkeit; Impressum lautet Dominic Larohe, die Marke/Seitentitel „D. Laroche“, Mendelssohnstraße 11, 56076 Koblenz. Website nennt Mo-Fr 08:00-18:00 und kostenlose unverbindliche Anfrage, aber keine konkreten Ankauf- oder Containerbeträge. ANKAUF: Tages-/Einzelangebot ohne veröffentlichte Sätze; VERKAUF: keine Preisliste; GEBÜHREN: Angebot auf Anfrage, keine veröffentlichte Tabelle. Einzelunternehmer-/Namenszuordnung weiterhin ungeklärt, keine Datenübernahme. Quelle(n): https://laroche-recycling.com/; https://laroche-recycling.com/impressum/; https://laroche-recycling.com/services/; https://laroche-recycling.com/kontakt/.]

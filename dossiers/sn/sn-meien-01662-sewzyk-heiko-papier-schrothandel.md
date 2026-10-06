@@ -28,6 +28,8 @@ Jetzt existiert ein konkret lesbarer Verzeichnis-Lead zum Seednamen: Gelbe Seite
 
 Das Profil liefert aber keine Betreiberwebsite, keine nachgewiesene Gewerbe-/Registeridentität und keine Aussage zur aktuellen Vergütung. Die vorhandene Straße bleibt als unbestätigter Altwert dokumentiert, PLZ/Telefon werden nicht allein aus dem Verzeichnis gefüllt. Keine garantierten Papier-/Schrottannahmebedingungen aus dem Namen ableiten.
 
+**Preise:** kein veröffentlichter Ankaufspreis für Papier oder Metall, keine Verkaufspreise und keine Gebührenordnung gefunden. Das Fehlen einer Preisliste ist kein Beleg dafür, dass der Betrieb geschlossen ist oder kein Ankauf stattfindet.
+
 ## Timeline
 
 ### Recherche 05.10.2026 (Abend-Welle)

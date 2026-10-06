@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zuordnung nach Erfurt ist nicht belegt. Aggregator-Treffer verorten einen Hans-Joachim Kühn in Haßleben, Vehraer Str. 265, 99189, Telefon 036201 60246; ohne Betreiber-/Registerbeleg wird diese Adresse nicht in den Erfurt-Datensatz übernommen. Eine namensgleiche Identität, ein aktueller Schrottankauf und Kontaktdaten bleiben offen. Keine Preislisten gefunden.
 
 ## Timeline
 
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KEINE Frontmatter-Fills — nur Leads, dazu City-Fehlvermerk: realer Sitz Haßleben (Vehraer Str. 265, 99189, Tel. 036201 60246, nur Aggregator-Leads), Dossier-City Erfurt unbewiesen; Straße/PLZ NICHT gefüllt (City-Mismatch); Quelle(n): keine belegfähige — nur Aggregatoren (Leads)]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneute exakte Suche für Kühn/Hans-Joachim/Schrotthandel/Erfurt und den alternativen Haßleben-Treffer ergab keinen qualifizierenden Betreiber-, Register- oder kommunalen Nachweis für diesen Dossierdatensatz. Die bekannte Anschrift und Nummer 036201 60246 bleiben Such-/Verzeichnis-Leads außerhalb Erfurts; keine Zuordnung und keine Frontmatter-Änderung. ANKAUF: ungeklärt; VERKAUF und GEBÜHREN: keine verifizierten Preisangaben. Quelle(n): vorhandene Aggregator-Hinweise/Abgrenzung in Recherche 01.10.2026; erneute Namens-/Ortssuche 06.10.2026.]
