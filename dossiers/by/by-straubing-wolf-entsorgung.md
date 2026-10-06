@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Import verweist auf einen amtlichen Registereintrag und Tätigkeiten Sammeln/Befördern/Lagern/Behandeln, aber enthält keine verifizierte Anschrift oder Website und keinen Beleg für einen Schrottankauf am Standort Straubing. Keine öffentliche Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung identifiziert. Nächste Klärung: Rechtsträger, konkrete Betriebsstätte und Annahme für externe Kunden.
 
 ## Timeline
 

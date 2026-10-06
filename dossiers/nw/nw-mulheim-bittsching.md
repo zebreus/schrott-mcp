@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Verzeichnisse beschreiben „Hans-Dieter Bittsching Schrotthandel“ an der Mausegattstr. 5, 45472 Mülheim; keine aktuelle Betreiberwebsite ließ sich den verlinkten Domains zuordnen. Die widersprüchliche Mobilnummer aus einzelnen Portalen ist nicht als aktueller Kontakt bestätigt. Status bleibt `pruefung`; vorhandene Seed-Kontaktdaten sind nicht auf Betreiberquellen-Niveau verifiziert.
+
+**Preise:** keine Bittsching zuordenbare Ankaufstabelle, Verkaufspreisliste oder Gebührenordnung in den geprüften Quellen. **Geocoding:** Mausegattstr. 5 ist ein wiederholt gelisteter Kandidat, aber mangels Betreiberbestätigung nicht als verifizierter Annahmehof zu pinnen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Keine neue Betreiber-Primärquelle für Bittsching gefunden; die zuvor geprüften Domains bleiben nicht als erreichbare Händlerseiten belegt. Generische Mülheimer Schrottangebote wurden wegen fehlender Betreiberidentität nicht zugeordnet. Keine belastbare Preisliste für Ankauf oder Verkauf und keine Gebühren-/Abholkonditionen; Mausegattstr. 5 bleibt ein ungeprüfter Geocoding-Kandidat. Quellen-/Quellenlage siehe Recherche 03.10.2026: https://www.gelbeseiten.de/gsbiz/25007e27-ae21-428a-a482-4d0e408096d0 ; https://www.yellowmap.de/Details/miROTbN3Rlh0htiV7PgutA==.aspx ; https://www.schrottpreis.org/schrottplaetze-in-muelheim-an-der-ruhr]
 
 ### Recherche 03.10.2026
 

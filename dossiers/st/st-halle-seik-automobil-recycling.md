@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zuordnung zu SEIK Automobil Recycling GmbH ist durch Verzeichnisangaben plausibel, aber die Betreiberwebsite seik.de war beim Direktabruf nicht erreichbar. Zusätzlich widersprechen sich zwei Verzeichnisse bei der Hausnummer: Gelbe Seiten nennt Grenzstr. 43, ÖffnungszeitenBuch Grenzstrasse 43c. Das bleibt ein Klärfall; Adresse/Kontakt nicht geokodieren, bis eine SEIK-Primärquelle die Hallenser Annahmestelle bestätigt. Keine belastbare öffentliche Ankauf-, Verkaufs- oder Gebührenliste gefunden.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Direktabrufe von https://www.seik.de/ und https://seik.de/ scheiterten mit Transportfehler; damit weder Website-Status noch Betreiberangaben erneut bestätigt. Die zusätzlich geprüfte Detailseite von ÖffnungszeitenBuch nennt Grenzstrasse 43c, 06112 Halle und Tel. 0345 5604666; Gelbe Seiten führt Grenzstr. 43 mit denselben Telefonnummern. Beides sind Verzeichnisquellen, daher bleibt der Hausnummernkonflikt ungelöst und es gibt keinen Frontmatter-Fill. Keine Preisangaben zu Ankauf, Verkauf oder Gebühren auf den zugänglichen Seiten gefunden; Geokodierung bis zur Klärung zurückstellen. Quelle(n): https://www.oeffnungszeitenbuch.de/filiale/Halle%20%2F%20Saale-Seik%20Automobil%20Recycling%20GmbH-839005K.html ; https://www.gelbeseiten.de/gsbiz/bc8e28c6-5746-4977-be17-bc4f58b53c38 (beide Verzeichnisse; Abruf 06.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

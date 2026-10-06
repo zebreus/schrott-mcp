@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Unbestätigter mobiler Schrottabhol-Lead mit der Altadresse Burgunderstr. 13 und Telefon 02821 7853033. Die doppelt importierte Firmen-/Ortsbezeichnung wurde aus dem Straßenfeld entfernt; das ist **Datenbereinigung, keine neue Adressverifikation**. Der direkt gelesene Portal-Eintrag nennt jetzt ebenfalls diese Straße und 47533 Kleve, bleibt aber ein Verzeichnislead.
+Unbestätigter mobiler Schrottabhol-Lead mit der Altadresse Burgunderstr. 13 und Telefon 02821 7853033. Die doppelt importierte Firmen-/Ortsbezeichnung wurde aus dem Straßenfeld entfernt; das ist **Datenbereinigung, keine neue Adressverifikation**. Der direkt gelesene Portal-Eintrag nennt jetzt ebenfalls diese Straße und 47533 Kleve, bleibt aber ein Verzeichnislead. Die erneute Prüfung am 06.10. brachte keine belegfähige Betreiberquelle.
 
-**Nicht mit schrottabholung-kleve.de zusammenführen:** Dessen Impressum nennt A. Lahib, Dinnendahlstraße 18 und eine andere Telefonnummer. Eine Verbindung zum Burgunderstraßen-Lead ist nicht belegt. Portalangaben zu Mindestgewichten, Materialsorten und Öffnungszeiten werden nicht als Betreiberbedingungen übernommen. Ankauf, Abholgebühren, Inhaber und aktueller Betrieb müssen durch zulässige Quellen geklärt werden; keine Anlieferstelle bestätigt.
+**Nicht mit schrottabholung-kleve.de zusammenführen:** Dessen Impressum nennt A. Lahib, Dinnendahlstraße 18 und eine andere Telefonnummer. Eine Verbindung zum Burgunderstraßen-Lead ist nicht belegt. Portalangaben zu Mindestgewichten, Materialsorten und Öffnungszeiten werden nicht als Betreiberbedingungen übernommen. **Preise:** keine verifizierte Ankauf- oder Verkaufspreisliste; Abholgebühren ebenfalls offen. Inhaber und aktueller Betrieb müssen durch zulässige Quellen geklärt werden; keine Anlieferstelle bestätigt. **Geocoding:** Burgunderstr. 13 erst nach Betreiber-/Adressverifikation als Händlerstandort pinnen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneute Suche nach dem konkreten Burgunderstraßen-/Telefon-Lead ergab keine neue Betreiber-Primärquelle; der bekannte Treffer bleibt ein Portalprofil und die Lahib-Website ein separat identifizierter Betreiber. Keine Identitäts- oder Standortkette, keine Preis-/Gebührenbedingungen zugeschrieben. Preisprüfung getrennt: kein belastbarer Ankaufspreis, keine Verkaufspreisliste, keine bestätigte Abholgebühr. Geocoding der Burgunderstr. 13 bleibt bis zur Standortverifikation zurückgestellt. Quelle(n): https://lokaleschrottplatz.de/klungelskerl-schrottabholung-kleve/ ; https://www.schrottabholung-kleve.de/impressum/]
 
 ### Recherche 05.10.2026
 

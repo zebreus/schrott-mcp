@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RWR-Identitäts-/Standortklärung offen: Die aktuelle Betreiberwebsite gehört laut Impressum zur RWR Recycling GmbH in Bassenheim; der Seed-Leitname „RWR Weißenthurm“ stammt bislang aus einem älteren WLW-Profil. Marken-/Kontaktähnlichkeit lässt eine Betreiberkontinuität vermuten, belegt aber weder Filiale noch Umzug oder Rechtsformkette. Die Angaben aus Bassenheim werden daher nicht als Weißenthurm-Adresse übernommen.
+
+**Preise:** RWR wirbt mit markt-/qualitätsabhängigen Tageshöchstpreisen und kostenlosem unverbindlichem Angebot; keine Zahlen-Ankaufstabelle oder Verkaufspreisliste. Angebot kostenlos bedeutet nicht, dass Abholung, Container oder Verwertung kostenlos sind; dafür keine Gebührenliste gefunden. **Geocoding:** keinen Weißenthurm-Pin setzen, bis der konkrete Standort (oder die Auflösung des Dossiers) bestätigt ist.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Aktuelle RWR-Seiten zu Impressum, Metallhandel und Hartmetall nochmals abgegrenzt. Rechtsträger laut Impressum: RWR Recycling GmbH, Am Bahnhof 9, 56220 Bassenheim, Rebecca Reinhardt, +49 1516 4024190, info@rwr-recycling.de; Registerfeld erscheint fehlerhaft formatiert und wurde nicht als verlässliche Registernummer übernommen. Metallhandelsseite beschreibt Ankauf nach Materialqualität/aktueller Marktlage, Tageshöchstpreis und kostenloses unverbindliches Angebot, aber keine Zahlenpreise. Kein Verkaufspreisblatt und keine Tarife für Abholung/Container; die kostenlose Angebotserstellung ist keine kostenlose Logistikzusage. WLW-Weißenthurm-Lead bleibt ohne bestätigte Standortkette; keine Anschrift gefüllt und kein Pin empfohlen. Quelle(n): https://www.rwr-recycling.de/ ; https://www.rwr-recycling.de/impressum/ ; https://www.rwr-recycling.de/metallhandel/ ; https://www.rwr-recycling.de/hartmetall ; https://www.wlw.de/de/firma/rwr-recycling-inh-rebecca-rheinhardt-22273459]
 
 ### Recherche 02.10.2026
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Das-Telefonbuch-Eintrag ordnet den Betrieb am Wiesendamm 15 in Spandau der Autoverwertung zu und stimmt mit dem Seed bei Anschrift und Telefonnummer überein. Der Eintrag ist ein Verzeichnisbeleg; „öffnet um 8:00“ ist nur ein Öffnungszeitfragment und keine vollständige Wochenzeit.
 
 ## Timeline
 
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Das Telefonbuch (Branche Autoverwertung) Adresse: Wiesendamm 15, 13597 Berlin; Tel. 030 77906961
 - Bezirk: Spandau Adressbeleg: seed/be.json (Telefonbuch Autoverwertung)
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Der erneute Das-Telefonbuch-Abruf bestätigt als Verzeichnisangaben „An- und Verkauf von KFZ Schrotthandel“, Wiesendamm 15, 13597 Berlin-Spandau, Tel. 030 77906961, Kategorie Autoverwertung; der Zeittext nennt nur „öffnet um 8:00“. Daraus folgen weder vollständige Öffnungszeiten noch ein unabhängiger zweiter Identitätsbeleg. PREISE: ANKAUF — keine öffentliche Ankaufspreisliste für Fahrzeuge/Teile gefunden. VERKAUF — keine Fahrzeug-/Teileverkaufspreise belegt. GEBÜHREN — keine Gebühren-, Abhol- oder Entsorgungstarife ausgewiesen. Geocoding: Wiesendamm 15 ist eine konkrete Kandidatenadresse; Pin gegen Hausnummer/Standort prüfen und nicht aus dem einzelnen Branchenbucheintrag als bestätigte Annahmestelle behandeln. Quelle(n): https://www.dastelefonbuch.de/Suche/Autoverwertung/Spandau (Verzeichnislead; Abgleich mit Seed-Eintrag).]

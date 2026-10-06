@@ -28,6 +28,10 @@ Der Seed „Putzer, Schrott, Telgte“ ist bisher ohne eindeutige Betreiberident
 
 ## Timeline
 
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneute direkte Prüfung des Telgter Das-Örtliche-Suchergebnisses zeigt nur private Putzer-Namensleads und ein sachfremdes Putzunternehmen, keinen belegten Schrotthandel. Ein allgemeines Schrottabhol-Angebot für Telgte eines anderen Orts-/Betreiberbezugs wurde nicht zugeordnet. Kein belegter Ankauf-/Verkaufspreis oder Abhol-/Annahmeentgelt; Geocoding nicht möglich, da keine Geschäftsadresse identifiziert. Quelle: https://www.dasoertliche.de/Themen/Putzer/Telgte.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

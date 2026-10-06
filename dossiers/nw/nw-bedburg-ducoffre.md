@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historischer Händler-Lead „Altstoffe Joachim Ducoffre“ in Bedburg, aber aktuelle Betreiberkontinuität und die Registerhistorie sind ungeklärt. Ein anderer Bedburger Betrieb, **RRK Rohstoffrecycling Kuhlen GmbH**, betreibt eine eigene Website unter Heinrich-Hertz-Str. 15; weder Name noch Quelle belegen eine Übernahme oder Verbindung zu Ducoffre. Daher keine RRK-Kontakte oder Leistungen in dieses Dossier übertragen.
+
+**Preise:** keine Ducoffre zuordenbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. **Geocoding:** Kandidaten Graf-Salm-Str. 33/33a nicht pinnen, bis die Betriebsanschrift und die Bedeutung der Registerlöschung geklärt sind.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Die offizielle RRK-Seite identifiziert einen anderen Bedburger Rohstoffbetrieb: RRK Rohstoffrecycling Kuhlen GmbH, Heinrich-Hertz-Str. 15, 50181 Bedburg; genannt werden Schrotthandel, NE-Metalle, Recycling, Container und Demontage. Kein Hinweis auf Ducoffre, Nachfolge oder Übernahme; RRK-Daten deshalb ausdrücklich nicht auf dieses Dossier übertragen. Für Ducoffre selbst weiterhin keine verifizierte Betreiberseite und keine Preis-/Gebührenliste. Die fragliche Altadresse 33/33a bleibt ungeklärt und ungeocodiert. Quelle(n): https://www.kuhlenrecycling.de/ ; https://www.11880.com/branchenbuch/bedburg-erft/060440090B102609685/altstoffe-joachim-ducoffre.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Namens- und Adresssuche liefert eine Gebr. Büchner Transport GmbH am Bahndamm 8 (HRB 10886), deren beschriebener Geschäftszweck Transport/Containerdienst ist. Das belegt noch nicht, dass sie mit dem Seed „Gebr. Büchner GmbH Entsorgungsfachbetrieb“ identisch ist oder Schrott annimmt; Namensgleichheit allein genügt nicht.
 
 ## Timeline
 
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Container/Transport
 - Adresse: Leipzig 04316, Am Bahndamm 8
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Northdata führt eine „Gebr. Büchner Transport GmbH“, HRB 10886 beim Amtsgericht Leipzig, Am Bahndamm 8, 04316 Leipzig; der Eintrag beschreibt Transportleistungen. Zwei 11880-Profile am selben Standort nennen Containerdienst/Entsorgung und Telefonnummer 0341 6512603. Die Identität gegenüber dem Seed-Namen „Gebr. Büchner GmbH Entsorgungsfachbetrieb“ sowie konkrete Schrottannahme sind damit nicht belegt; Northdata kennzeichnet automatisierte Inhalte zudem als fehleranfällig. Keine Rechtsform-/Namensänderung oder Branche in Frontmatter übertragen. PREISE: ANKAUF — keine zuordenbare Ankaufspreisliste. VERKAUF — keine Verkaufspreisliste. GEBÜHREN — keine belastbare Gebührentafel; Containerdienst-Eintrag allein belegt keine konkreten Tarife. Geocoding: Am Bahndamm 8, 04316 Leipzig ist nur Kandidat bis zur Identitätsklärung; nicht als bestätigter Schrottstandort pinnen. Quelle(n): https://www.northdata.de/Gebr.%20B%C3%BCchner%20Transport%20GmbH,%20Leipzig/HRB%2010886; https://www.11880.com/suche/gebr.-buechner/leipzig.]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite identifiziert Jürgen Jäger als Autoverwertungs-Meisterbetrieb in Schmalkalden-Näherstille, tätig seit 1990, mit Autoverwertung, Abschleppdienst, Neu-/Gebrauchtteilen, TÜV/DEKRA und Autoservice. Die Website nennt Burgweg 1a, 98574 Schmalkalden-Näherstille, 03683 488143, E-Mail und Mo–Fr 08:00–12:00/13:00–18:00; die genaue Adresse/Kontaktdaten sind bisher nur erstanbieter-seitig belegt und bleiben aus dem Frontmatter heraus. Kein Schrottankaufspreis, Teileverkaufspreis oder Gebührenblatt auf den geprüften Seiten gefunden.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Homepage und Impressum direkt erneut geprüft; Betriebsbeschreibung, Inhaber, Burgweg 1a, 98574 Schmalkalden-Näherstille, Telefon 03683 488143, E-Mail autoverwertung-jaeger@t-online.de und Öffnungszeiten Mo–Fr 08:00–12:00/13:00–18:00 bestätigt. Leistungen: Autoverwertung, Abschleppdienst, Neu-/Gebrauchtteile, TÜV/DEKRA und Autoservice; kein Schrottankauf auf der Leistungsübersicht ausgewiesen. Creditreform belegt nach Vorrecherche Name/Gewerbe und Sitz Schmalkalden, nicht die genaue Anschrift. Keine Frontmatter-Ergänzung, da Street/Telefon/E-Mail/Hours weiter nur vom Betreiber stammen. Ankauf: keine Schrott- oder Fahrzeugankaufspreise veröffentlicht; Verkauf: Neu-/Gebrauchtteile angeboten, keine allgemeine Preisliste auf den geprüften Seiten; Gebühren: keine Abschlepp-/Verwertungsgebühren ausgewiesen. Adresse bis zum unabhängigen Abgleich nicht geokodieren. Quelle(n): https://www.jaeger-autoverwertung.de/ ; https://www.jaeger-autoverwertung.de/impressum ; Creditreform-Nachweis siehe Recherche 01.10.2026 in diesem Dossier (Abruf 06.10.2026).]
 
 ### Recherche 01.10.2026
 

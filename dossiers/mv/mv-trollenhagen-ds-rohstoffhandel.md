@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+DS Rohstoffhandel ist nur über Portal-Leads (Fuchsberg 14, 17039 Trollenhagen-Podewall, Tel. 0395 4528862) greifbar. Die ähnlich benannte Domain ds-containerdienst.de gehört laut Vorrecherche einem anderen Unternehmen; Zuordnung, aktuelle Tätigkeit und Annahme bleiben offen. Kein Preisblatt und keine verifizierten Gebühren; Adresse nicht geokodieren, bevor der Betreiber bestätigt ist.
 
 ## Timeline
 

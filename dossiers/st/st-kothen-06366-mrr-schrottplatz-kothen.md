@@ -24,9 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-MRR ist als konkreter historischer Rechtsträger identifiziert: **MRR Mitteldeutsche Rohstoff-Recycling GmbH, HRB 201565 AG Stendal**. Die direkt gelesene Registerbekanntmachung vom **22.05.2023** erklärt die Liquidation für beendet und die Gesellschaft für erloschen.
+MRR ist als konkreter historischer Rechtsträger identifiziert: **MRR Mitteldeutsche Rohstoff-Recycling GmbH, HRB 201565 AG Stendal**. Die Registerbekanntmachung vom **22.05.2023** erklärt die Liquidation für beendet und die Gesellschaft für erloschen. Das belegt weder den heutigen Betrieb noch die Schließung oder Übernahme eines möglichen Platzes Am Güterbahnhof 3. Kein aktueller Betreiber für diese Adresse und keine zuordenbare Preis- oder Gebührenliste verifiziert; Anschrift deshalb nicht geokodieren.
 
-Das belegt weder einen heute betriebenen MRR-Platz noch die Schließung eines möglichen Nachfolgeplatzes **Am Güterbahnhof 3 in Köthen**. Betreiberkette/Standortgeschichte und Publikumsankauf offen; keine ALBA-Zuordnung oder Umbenennung ohne belegte Übernahme.
+Betreiberkette/Standortgeschichte und Publikumsankauf bleiben offen; keine ALBA-Zuordnung oder Umbenennung ohne belegte Übernahme.
 
 ## Timeline
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Harry Sell in Babenhausen bleibt ein ungeklärter Verzeichnis-Lead; Ostring 15 und 0171 8333254 sind noch nicht durch Betreiber-/Register-/Kommunalbeleg bestätigt. Kein Beleg für Zugehörigkeit zu Sell Recycling in Kitzingen oder zu Oskar Sell in Schaafheim. Der historische Dublettenhinweis betrifft `he-babenhausen-64832-he-sell-harry-schrotthandler`; beide stabilen Slugs bleiben bis zur gemeinsamen Prüfung erhalten, nicht als zwei bestätigte Betriebe zählen.
+Harry Sell in Babenhausen bleibt ein ungeklärter Verzeichnis-Lead; Ostring 15 und 0171 8333254 sind noch nicht durch Betreiber-/Register-/Kommunalbeleg bestätigt. Kein Beleg für Zugehörigkeit zu Sell Recycling in Kitzingen oder zu Oskar Sell in Schaafheim. Der historische Dublettenhinweis betrifft `he-babenhausen-64832-he-sell-harry-schrotthandler`; beide stabilen Slugs bleiben bis zur gemeinsamen Prüfung erhalten, nicht als zwei bestätigte Betriebe zählen. Preis- und Gebührenbedingungen sind nicht belegt.
 
 ## Timeline
 
@@ -42,3 +42,7 @@ Harry Sell in Babenhausen bleibt ein ungeklärter Verzeichnis-Lead; Ostring 15 u
 
 - [Recherche 05.10.2026: city rein formal „Babenhausen 64832“ → „Babenhausen“ bereinigt, schon vorhandene PLZ 64832 bleibt; leeres website_status zu unbekannt normalisiert. Keine neuen Daten aus Aggregatoren übernommen. Northdata-Aufruf nach Harry Sell/Babenhausen führt zu einer anderen Person (Eva Maria Sell), nicht zu einem Harry-Sell-Schrottbetrieb; ausdrücklich kein Identitätsbeleg und keine Betreiberkette. status pruefung, vorhandene Kontakt-/Adresswerte weiter unbestätigte Altangaben. Quelle: https://www.northdata.de/Harry+Sell,+Babenhausen (unscharfer Namensabruf, kein passender Treffer); ursprüngliche Adresse im Importabschnitt]
 - [Recherche 05.10.2026: ANKAUF/VERKAUF/GEBÜHREN — kein belastbarer Preislistenfund für Harry Sell in den geprüften Quellen. Nächster Schritt ist lokale Betreiber-/Gewerbeauskunft, nicht Namens-Merge mit Kitzingen/Schaafheim; keine Schließung aus fehlendem Webauftritt ableiten. Zusätzliche Volltext-Websuche im Verlauf durch HTTP 401 eingeschränkt. Quelle: Rechercheumfang 05.10.2026 und obiger Namensabruf]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Die Suche „Sell“ in Babenhausen im Telefonbuch fand keinen eindeutigen Harry-Sell-Schrotthandel und fiel auf eine Umkreissuche mit zahlreichen gleichnamigen, unpassenden Treffern zurück. Das ist kein Nichtexistenz-/Schließungsbeleg und klärt die historische Dublette nicht. ANKAUF, VERKAUF und GEBÜHREN: weiterhin kein zurechenbarer Preislistenfund; Ostring 15/Telefon bleiben unbestätigte Leads. Keine Geocodierung dieser Adresse, bevor Identität und Standort unabhängig bestätigt sind. Quelle(n): https://www.dastelefonbuch.de/Suche/Sell/Babenhausen; https://www.northdata.de/Harry+Sell,+Babenhausen]

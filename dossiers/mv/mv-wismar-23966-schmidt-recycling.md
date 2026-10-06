@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Northdata führt Schmidt Recycling GmbH, HRB 2712 AG Schwerin, mit einer Löschung am 22.04.2024. Das klärt den historischen Rechtsträger, nicht die heutige Nutzung oder einen möglichen Nachfolger am im Import genannten Zum Dock 6. Keine Übernahme/Schließung des Standorts ohne weiteren Beleg; keine Ankaufspreis-, Verkaufs- oder Gebührenliste und keine Geokodierung bis zur Nachfolgerklärung.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Northdata-Eintrag direkt geöffnet; exakte Gesellschaft Schmidt Recycling GmbH, AG Schwerin HRB 2712, mit Publikation „Löschung“ vom 22.04.2024 bestätigt. Der gelöschte Rechtsträger darf nicht als Beweis für den Betrieb oder die Schließung eines Nachfolgeplatzes Zum Dock 6 verwendet werden. Kein Frontmatter-Fill; status pruefung bleibt. Keine öffentliche Ankauf-, Verkaufs- oder Gebührenliste belegt; Standort erst nach Identifizierung eines aktuellen Betreibers geokodieren. Quelle(n): https://www.northdata.de/Schmidt+Recycling+GmbH,+Wismar/Amtsgericht+Schwerin+HRB+2712 (Publikationshistorie; Abruf 06.10.2026).]
 
 ### Recherche 02.10.2026
 

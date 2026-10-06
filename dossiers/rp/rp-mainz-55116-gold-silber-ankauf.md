@@ -26,9 +26,15 @@ provenance_origin: table
 
 Namensgleicher Mainzer Portallead **Gold & Silber Edelmetallhandel**, Flachsmarkt(-straße) 5, 55116 Mainz, 06131 6932911. Die dort verlinkte Betreiberwebsite gehört laut Impressum zur **DEUTSCHE EDELMETALL & GRUND DEG e.K., HRA 87094 AG Darmstadt, Sven Breitschaft**.
 
-Aktuelle Betreiberübersicht und alle drei einzeln geprüften Standortseiten führen Frankfurt, Darmstadt und Aschaffenburg, **keinen aktuellen Mainzer Standort**. Die Mainzer Telefonnummer steht noch im Aschaffenburger Fließtext: historischer Zusammenhang plausibel, Standort-/Umzugskette aber nicht bewiesen. Keine fremden Filialdaten oder Börsenkurse als Mainzer Ankaufspreise übernehmen.
+Aktuelle Betreiberübersicht und alle drei einzeln geprüften Standortseiten führen Frankfurt, Darmstadt und Aschaffenburg, **keinen aktuellen Mainzer Standort**. Die Mainzer Telefonnummer steht noch im Aschaffenburger Fließtext: historischer Zusammenhang plausibel, Standort-/Umzugskette aber nicht bewiesen. Eine separate Mainzer GoldSilberShop-Filiale (Rheinstr. 103) ist ein anderer Betreiber und wird nicht zusammengeführt.
+
+**Preise:** Die Kandidatenwebsite wirbt für Altschmuck mit „10 % mehr“ nur bei Vorlage eines schriftlichen lokalen Konkurrenzangebots; freibleibend und kein garantierter Festpreis. Kostenlose Bewertung/DHL-Abholung werden dort beworben, aber sind der Kandidatenwebsite und nicht einem nachgewiesenen aktuellen Mainzer Laden zuzuordnen. Kein numerischer Ankaufspreis oder Verkaufspreisliste; Kurscharts sind Marktindikatoren. Der separate GoldSilberShop zeigt dynamische An- und Verkaufspreise, aber gehört nicht zu diesem Lead. **Geocoding:** Flachsmarkt 5 erst bei bestätigter Filialzuordnung; Rheinstr. 103 nicht diesem Dossier zuordnen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Preis- und Namensabgrenzung vertieft. Kandidatenwebsite bietet kostenlose, unverbindliche Bewertung sowie bundesweite kostenlose DHL-Abholung; das „10 % mehr“-Versprechen gilt laut Seite nur für Altschmuck bei schriftlichem lokalem Konkurrenzangebot und bleibt freibleibend. Keine numerische EUR/g-Ankaufstabelle oder Verkaufspreisliste in den geprüften Kandidatenseiten; Börsencharts sind keine Händler-Auszahlungspreise. Separater Mainzer GoldSilberShop nennt Rheinstr. 103, 55116 Mainz und veröffentlicht unter /preisliste eine dynamische Tafelgeschäftstabelle mit Ankaufspreis/Verkaufspreis/Barpreis/MwSt.; am Abruf wurden keine Werte gerendert. Die Shopseite ist nicht mit dem Flachsmarkt-Lead bzw. DEG e.K. gleichgesetzt. Kandidatenseitige Bewertung/Versandabholung nicht als Mainzer Filialservice ausgeben; Gebührenliste für den Mainzer Seedbetrieb fehlt. Geocoding Flachsmarkt erst nach Filialbestätigung. Quelle(n): https://www.goldankauf-silber.de/ ; https://www.goldankauf-silber.de/verkaufen/ ; https://www.goldankauf-silber.de/standorte ; https://www.goldsilbershop.de/goldankauf/gold-verkaufen-mainz.html ; https://www.goldsilbershop.de/preisliste.html]
 
 ### Recherche 05.10.2026
 

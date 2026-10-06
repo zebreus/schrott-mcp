@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Identität und Straßenadresse von Dieter Rupp sind ungeklärt. Die bisherige Kransberger-Straße-Angabe ist ein einzelner Branchenbuch-Lead; der nahe Röhrig-Betrieb ist ein separat belegter Händler ohne nachgewiesene Verbindung. Keine zuordenbaren Preis- oder Gebührenangaben.
 
 ## Timeline
 
@@ -44,3 +44,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 03.10.2026: `website_status` leer → `unbekannt` normalisiert; für den Dossierbetrieb wurde heute keine aktuelle, zurechenbare Betreiberwebsite belegt. Quelle(n): Quellen und Gegenhinweise im folgenden Recherchevermerk dieses Dossiers.]
 
 - [Recherche 03.10.2026: Kein Frontmatter-Fill. Vorstadt Post führt „Dieter Rupp“ als Schrotthandel unter Kransberger Str. 37, 61267 Neu-Anspach, Tel. 06081 14460; das ist ein einzelner Branchenbuch-/Aggregator-Lead und nach README-Quellenhierarchie kein ausreichender Adress-, Kontakt- oder Aktivitätsbeleg. Cross-check gegen Namens-/Zusammenführungsfehler: Die separate Betreiberseite von Röhrig & Sohn GmbH nennt Saalburgstraße 41, 61267 Neu-Anspach; deren Impressum benennt Geschäftsführer Andreas/Günter Röhrig und HRB 11840 AG Bad Homburg. Vorstadt führt Röhrig zusätzlich als eigenen, 2,10 km entfernten Eintrag. Das belegt einen anderen gleichörtlichen Schrotthändler, aber keine Verbindung zu Dieter Rupp. Namenssuche lieferte außerdem nur einen unbestätigten LinkedIn-Snippet zu einem Dieter Rupp bei DIETER RUPP BÜRO KONZEPTE; der Direktabruf des Profils wurde mit 999 abgewiesen, und es gibt keinen Orts-/Adresslink zu Neu-Anspach (also kein Identitäts- oder Merge-Beleg). North-Data-Suche nach „Rupp“ + „Neu-Anspach“ zeigt im sichtbaren Ausschnitt keinen passenden Händler; Suchindex-Lücke beweist keine Nichtexistenz, besonders bei einem möglichen Einzelunternehmen. Kein Rupp-Betreiberauftritt, Register-/Kommunalbeleg oder zweiter zulässiger unabhängiger Beleg gefunden; Straßenlead, Telefon, Identität, Tätigkeit und aktuelle Aktivität bleiben Klärfälle. Stadt/PLZ bleibt nur Seed-Stand; website/status bleiben leer. Quelle(n): https://vorstadt-post.de/branchenbuch/neu-anspach/schrotthandel/dieter-rupp-4578/ ; http://www.roehrig-schrotthandel.de/ ; http://www.roehrig-schrotthandel.de/kontakt ; http://www.roehrig-schrotthandel.de/impressum ; https://www.linkedin.com/in/dieter-rupp-183615132 ; https://www.northdata.de/search?query=%22Rupp%22+%22Neu-Anspach%22]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Preisprüfung bleibt mangels sicherer Betreiberzuordnung ergebnisoffen: ANKAUF — keine belastbare, Rupp zurechenbare Preisliste im dokumentierten Quellenbestand; VERKAUF — keine Verkaufspreisliste; GEBÜHREN — kein Gebührentarif. Der Vorstadt-Post-Eintrag bleibt Lead, keine Preisquelle; Preise anderer Neu-Anspacher Händler dürfen nicht übertragen werden. Keine geocodierbare Betreiberadresse bestätigt; Kransberger Str. 37 bleibt Klärfall. Quelle(n): https://vorstadt-post.de/branchenbuch/neu-anspach/schrotthandel/dieter-rupp-4578/; Betreiber-/Registerquellen bislang nicht belegt]

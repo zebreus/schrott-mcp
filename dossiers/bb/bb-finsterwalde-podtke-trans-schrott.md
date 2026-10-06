@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Pödtke-Trans GbR Schrott wird von mehreren Verzeichnissen mit Frankenaer Weg 42, 03238 Finsterwalde und Tel. 0173 8124713 geführt. Die wiederholten Einträge sind eine Belegklasse; Northdata und das abrufbare kommunale Firmenverzeichnis lieferten keinen passenden Primärbeleg. Status pruefung bleibt, ohne daraus eine Schließung abzuleiten. Keine zuordenbare Ankaufspreisliste, Verkaufs- oder Gebührenpreise; Anschrift vor Geokodierung kommunal/bei Betreiber verifizieren.
 
 ## Timeline
 

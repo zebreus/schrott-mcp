@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die erreichbare Betreiberwebsite nennt eine Autoverwertung Bösenberg in Nordhausen, Manuela Sachse im Impressum, Schwarzer Weg 8, 99734 Nordhausen und Tel. 03631/897785. Sie beschreibt Recycling, Verkauf gebrauchter Ersatzteile, Online-Shop und DIY-Angebote; die Website nennt Mo–Do 09:00–12:00 Uhr. Gelbe Seiten führt dagegen „Bösenberg Dieter“, wodurch die Betreiber-/Namensgeschichte nicht unabhängig geklärt ist. Angaben bleiben Primärquellen-Kandidaten statt Frontmatter-Fills; Anschrift erst nach Identitätsabgleich geokodieren. Keine feste Ankaufspreisliste oder Gebühren; Shop-Verkauf erwähnt, aber auf den geprüften Seiten keine allgemeine Preisliste.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiberwebsite, Kontakt und Impressum erneut direkt abgerufen. Die Website nennt „Autoverwertung Bösenberg“, Beginn 01.07.1990, Recycling, Verkauf von Autoersatzteilen, Online-Shop und DIY-Angebote; Impressum/Kontakt nennen Manuela Sachse, Schwarzer Weg 8, 99734 Nordhausen, Tel. 03631/897785 und info@autoverwertung-boesenberg.de. Homepage nennt Öffnungszeiten Mo–Do 09:00–12:00, Fr–So geschlossen. Das ist ein Betreiber-Einzelbeleg; er löst die abweichende Verzeichnisbezeichnung „Bösenberg Dieter“ nicht. Keine scalar Fills/Statusänderung; Anschrift bleibt Kandidat und wird erst nach unabhängiger Identitätsbestätigung geokodiert. Ankauf: keine Fahrzeug-/Schrottankaufpreise auf den geprüften Seiten. Verkauf: Ersatzteilverkauf/Online-Shop wird beworben, aber keine allgemeine Preisliste auf Homepage/Kontakt/Impressum. Gebühren: keine Entsorgungs- oder Abholgebühren veröffentlicht. Quelle(n): https://autoverwertung-boesenberg.de/ ; https://autoverwertung-boesenberg.de/impressum ; https://autoverwertung-boesenberg.de/kontakt ; https://www.gelbeseiten.de/gsbiz/a1708816-d60a-4963-a92d-9f5a1d34cde2 ; https://www.11880.com/branchenbuch/nordhausen-thueringen/012080027B28152094/boesenberg-autoverwertung.html (Gegenhinweise; Abruf 06.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

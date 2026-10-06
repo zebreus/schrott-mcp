@@ -26,9 +26,13 @@ provenance_origin: table
 
 Metall Recycling Braun wirbt für Ankauf von Eisen/Stahl, Kupfer, Aluminium, Edelstahl, Messing und Kabeln für Privat und Gewerbe, auch per Abholung/Container. Die Betreiberseite nennt Martin Braun; sie reicht wegen weiterhin widersprüchlicher Kontaktdaten nicht zur sicheren Standortbefüllung.
 
-**Anschriftrollen offen:** Am Bellensee 6, Rohrbach auf der Startseite versus Wollmesheimer Hauptstraße 24, Landau im Impressum könnten Hof und Geschäftsanschrift sein, werden aber nicht eindeutig so erklärt. Dazu drei verschiedene Telefonnummern, eine offenkundiger Platzhalter. Keine ungeprüfte Vereinheitlichung oder Fusion mit Südpfalz Metall. Vor Anlieferung tatsächlichen Annahmeort beim Betreiber klären. Keine numerische Preisliste auf Root/FAQ/Kontakt gefunden, nur Tagespreise bzw. Preisanfrage.
+**Anschriftrollen offen:** Am Bellensee 6, Rohrbach auf der Startseite versus Wollmesheimer Hauptstraße 24, Landau im Impressum könnten Hof und Geschäftsanschrift sein, werden aber nicht eindeutig so erklärt. Dazu drei verschiedene Telefonnummern, eine offenkundiger Platzhalter. Keine ungeprüfte Vereinheitlichung oder Fusion mit Südpfalz Metall. Vor Anlieferung tatsächlichen Annahmeort beim Betreiber klären. **Preise getrennt:** Ankauf laut Website zu Tagespreisen/auf Anfrage, aber ohne Zahlenliste; keine Verkaufspreisliste; keine bezifferte Abhol-, Container- oder Annahmegebühr gefunden. **Geocoding:** vorhandenen/falschen Koordinatenblock nicht übernehmen oder geocodieren, bevor geklärt ist, ob Am Bellensee 6 der Hof und Wollmesheimer Hauptstraße 24 nur der Geschäftssitz ist.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Ergebnis der erneuten Preis-/Standortprüfung: „Jetzt Preis anfragen“ bzw. Tagespreise sind kein veröffentlichter Zahlen-Ankaufskurs; Verkaufspreise und Gebühren für Abholung/Container sind auf Root, FAQ und Kontakt nicht beziffert. Die Anbieterangabe zu Anlieferung/Abholung größerer Mengen ersetzt keine bestätigte Annahmestelle oder Kostenbedingung. Standortrollen und Telefonnummern bleiben widersprüchlich; bestehenden falschen Koordinatenwert nicht als Geocoding-Ausgangspunkt verwenden. Quelle(n): https://www.mr-braun.de/ ; https://www.mr-braun.de/impressum/ ; https://www.mr-braun.de/kontakt-schrottankauf-rohrbach/ ; https://www.mr-braun.de/schrottankauf-haeufige-fragen/]
 
 ### Recherche 05.10.2026 (Abend-Welle)
 

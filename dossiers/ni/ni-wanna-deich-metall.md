@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der bisherige Domain-Kandidat deich-metall.de zeigt nur STRATO-Parking; das ist weder ein aktueller Betreiberbeleg noch ein Schließungsnachweis. Die importierten Material-/Demontageangaben sind nicht durch eine Betreiberquelle bestätigt. Keine belastbare Anschrift, kein verifizierter Ankauf und keine öffentliche Kauf-, Verkaufs- oder Gebührenliste; daher keine Geokodierung.
 
 ## Timeline
 

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Verzeichnisse nennen „Schrotthandel Dimas“ an Alte Gärtnerei 38, 38239 Salzgitter-Bleckenstedt, Tel. 0163 2517272; eine Betreiber- oder Registerquelle fehlt. Die frühere Statusangabe aktiv beruhte nur auf Aggregator-Konsens und wurde deshalb auf pruefung zurückgenommen — nicht als Schließung gewertet. Ankauf nur als Verzeichnisbehauptung, keine Kauf-/Verkaufspreise oder Gebühren verifiziert. Geokodierung erst nach Bestätigung von Adresse und Betreiber.
 
 ## Timeline
+
+### Korrektur 06.10.2026
+
+- [Korrektur 06.10.2026: Der Vermerk vom 02.10.2026 bezeichnet die Quellenlage ausdrücklich als Cylex-/11880-/meinestadt-Konsens ohne Betreiber- oder Registerbeleg. Nach README-Quellenhierarchie sind mehrere Verzeichnisse keine zwei unabhängigen zulässigen Belege; der Seed-Status aktiv war damit nicht ausreichend abgesichert und wird auf pruefung zurückgesetzt. Das ist keine Schließungsfeststellung. Straße, PLZ und Telefonnummer bleiben als Suchleads erkennbar und müssen vor Geokodierung unabhängig bestätigt werden. Ankauf bleibt unbestätigt; keine öffentliche Preis-/Gebührenliste. Quelle(n): Recherche 02.10.2026 in diesem Dossier (dort benannte Verzeichnisquellen); README.md, „Feedback triage“ / Quellenhierarchie.]
 
 ### Recherche 02.10.2026
 

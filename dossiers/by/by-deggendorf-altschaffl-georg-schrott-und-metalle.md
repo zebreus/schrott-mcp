@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die wiederkehrenden Verzeichniseinträge nennen Georg Altschäffl, Untere Himmelreichstr. 13, 94469 Deggendorf und Tel. 0991 25233, sind aber keine unabhängigen Betreiber-/Registerbelege. Die Adresse bleibt Lead und sollte vor einer Geokodierung bestätigt werden; Identität, Aktivität und Annahme offen. Keine öffentliche Ankauf-, Verkaufs- oder Gebührenliste in den geprüften Quellen.
 
 ## Timeline
 

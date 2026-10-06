@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland ist als aktiver Betreiber belegt, aber die konkrete Niederlassungszuordnung ist widersprüchlich: eine aktuelle EfB-Bescheinigung nennt „Niederlassung Dresden-Heidenau“ am Lugaer Graben 20, 01259 Dresden; Branchenverzeichnisse nennen 01809 Heidenau. Der Betreiber-Webauftritt bestätigt derzeit keine auswertbare Heidenau-Filialseite. Nicht mit HMV Heidenau verwechseln.
 
 ## Timeline
 
@@ -49,3 +49,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 04.10.2026: Der erneute Direktabruf der TSR-Standort-/Kontaktseiten lieferte keine auswertbare Seite (Challenge Validation); eine aktuelle Heidenau-Filialseite mit Adresse/Kontakt ließ sich nicht unabhängig bestätigen. Die bereits dokumentierte EfB-Anschrift Am Lugaer Graben 20, 01259 Dresden bleibt im Konflikt mit den Verzeichnisangaben 01809 Heidenau; keine Zuordnung oder Schließung abgeleitet, keine Frontmatter-Änderung. Quelle(n): https://www.tsr-recycling.de/standorte/; https://www.tsr-recycling.de/standorte/schrotthaendler-dresden/; https://www.tsr-recycling.de/kontakt/]
 - [Recherche 04.10.2026: Die aktuelle, bis 22.04.2027 gültige EfB-Bescheinigung des unabhängigen Ingenieurbüro Ulbricht nennt „Niederlassung Dresden-Heidenau“, Am Lugaer Graben 20, 01259 Dresden; das widerspricht der vorhandenen Ortsangabe Heidenau und den nur als Aggregator-Leads bekannten 01809-Angaben. TSR führt die Bescheinigung in seiner Bibliothek, aber eine zweite unabhängige aktuelle Filialquelle für diese konkrete Anschrift ließ sich nicht verifizieren; deshalb keine Adressfelder ergänzt, city nicht überschrieben und keine Neu-Geocodierung ausgelöst. Telefon, E-Mail, Öffnungszeiten und Anliefer-/Abholdetails ebenfalls unbestätigt; keine Preise belegt; Quelle(n): https://www.tsr-recycling.de/uploads/tx_3slocations/EfB_Dresden%20%28Hafen%2CHeidenau%2920270422.pdf; https://www.tsr-recycling.de/bibliothek/; https://www.tsr-recycling.de/standorte/]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Im dokumentierten Quellenbestand bleibt die Anschriftenabweichung ungelöst: EfB-Bescheinigung mit „Niederlassung Dresden-Heidenau“, Am Lugaer Graben 20, 01259 Dresden (gültig bis 22.04.2027), gegenüber Aggregatorangaben 01809 Heidenau; TSR-Detail-/Kontaktseiten liefern wegen Challenge Validation keine auswertbare Filialbestätigung. Keine Schließung und keine konkrete Annahmeadresse daraus abgeleitet. PREISE: ANKAUF — keine öffentlich belegten örtlichen Ankaufskurse. VERKAUF — keine Verkaufspreise. GEBÜHREN — keine Filial-/Containergebühren belegt. Geocoding: blockiert, bis Standort/PLZ und der Bezug zu Dresden vs. Heidenau geklärt sind; die zwei Kandidaten nicht gleichsetzen. Quelle(n): https://www.tsr-recycling.de/uploads/tx_3slocations/EfB_Dresden%20%28Hafen%2CHeidenau%2920270422.pdf; https://www.tsr-recycling.de/bibliothek/; https://www.tsr-recycling.de/standorte/; https://www.oeffnungszeitenbuch.de/filiale/Heidenau-TSR%2520Recycling%2520GmbH%2520%2526%2520Co.%2520KG%2520%252F%252F%2520Niederlassung%2520Heidenau-4611089D.html; https://heidenau.stadtbranchenbuch.com/9423554.html.]

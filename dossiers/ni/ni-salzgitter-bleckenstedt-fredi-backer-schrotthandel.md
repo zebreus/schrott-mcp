@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fredi Bäcker Schrotthandel bleibt ein ungeklärter Bleckenstedter Verzeichniseintrag. „Alte Gärtnerei 13“ ist nicht unabhängig als Betriebsadresse belegt. Die ähnlich benannte Bäcker-&-Söhne-GbR ist ein anderer Betrieb und darf nicht als Betreiberbeleg dienen. Keine verifizierte Annahme, kein Preisblatt und keine Gebührenangabe; Adresse nicht geokodieren, bevor der Betrieb bestätigt ist.
 
 ## Timeline
 

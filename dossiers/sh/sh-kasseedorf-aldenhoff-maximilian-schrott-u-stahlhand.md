@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichniseinträge führen Maximilian Aldenhoff, Schrott- und Stahlhandel, Krückberg 21 A, 23717 Kasseedorf (Sagau), Tel. 04528 303. Trotz mehrerer Portalwiederholungen gibt es bislang keine Betreiberwebsite, Register-/Gewerbequelle oder unabhängige Bestätigung der heutigen Geschäftstätigkeit; die Kontakte bleiben ungeprüfte Seed-Leads.
+
+**Preise:** keine dem Betreiber zuordenbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. **Geocoding:** Krückberg 21 A nur als Verzeichnis-Kandidat führen und nicht als bestätigten Annahmehof pinnen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Folgesuche in 11880, Gelbe Seiten, Das Örtliche, MisterWhat/Yelp und Cylex ergaben nur Verzeichniseinträge, keine eigene Betreiberseite oder Registerquelle. Wiederholte Aggregatorangaben ändern den Status `pruefung` gemäß Quellenhierarchie nicht. Keine Ankaufspreise, Verkaufsliste oder Gebühren des Betreibers gefunden; Krückberg 21 A nicht als verifizierter Geocoding-Pin freigegeben. Quelle(n): https://www.dasoertliche.de/?form_name=search_nat&kw=Aldenhoff&ci=Kasseedorf ; https://www.schrottplatz-info.de/schrottplatz/Kasseedorf/Aldenhoff-Maximilian-SchrottHdl-u-StahlHdl-]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
