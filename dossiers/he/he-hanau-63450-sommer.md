@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Nachprüfung 06.10.2026 (Feedback #4758)
+
+- [Nachprüfung 06.10.2026: Das Feedback ist bereits umgesetzt. Die aktuelle Kontaktseite bestätigt Firma Sommer GmbH, Lothringer Str. 3-5, 63450 Hanau, Telefon 06181 256928, info@goldankauf-hanau.de sowie Geschäftszeiten Mo-Fr 09:00-17:00 und Sa 09:00-13:00; die Ankaufszeiten sind getrennt Mo-Fr 10:00-16:00 und samstags nach Vereinbarung. Das Impressum derselben Betreiberseite bestätigt Adresse und Kontakt. Das Impressum der verbundenen Sommer-GmbH-Domain nennt HRB 96003 AG Hanau und dieselbe Anschrift; NorthData führt denselben Rechtsträger und dieselbe Adresse. `city` und `postcode` sind bereits getrennt, Öffnungszeiten enthalten nur die allgemeinen Geschäftszeiten. Keine Frontmatter-Änderung erforderlich. Quelle(n): https://goldankauf-hanau.de/kontakt/; https://goldankauf-hanau.de/impressum/; https://www.firma-sommer.de/de/impressum/; https://www.northdata.de/Sommer+GmbH,+Hanau/HRB+96003]
+
 ### Recherche 05.10.2026
 
 - [Korrektur 05.10.2026: Aktueller Betreiberauftritt bestätigt Sommer GmbH, Filiale Lothringer Str. 3-5, 63450 Hanau; Kontaktseite veröffentlicht info@goldankauf-hanau.de, Geschäftszeiten Mo-Fr 09:00-17:00 und Sa 09:00-13:00, Ankauf Mo-Fr 10:00-16:00 und Sa nach Vereinbarung. NorthData führt Sommer GmbH, HRB 96003 AG Hanau; die zeitgestempelte Betreiber-Preisseite belegt laufenden Edelmetallankauf. Daher city PLZ-bereinigt, Kontakt-/Ankaufsfelder ergänzt, status aktiv und provenance_ankauf_raw ja. Preis-Snapshot, Stand 12:50: Gold 333 30,75 EUR/g; 585 55,40; 750 71,15; 900 95,60; 986 104,80; 999 Schmelzware 108,30; Zahngold bis 20 g 55,10; Ag 800 0,80; Ag 925 1,05; Ag 999 Schmelzware 1,30; 1-oz-999-Goldmünze 3.472 EUR. Dynamische Momentaufnahme, keine dauerhafte Frontmatter-Angabe. Quelle(n): https://goldankauf-hanau.de/preise/; https://goldankauf-hanau.de/kontakt/; https://goldankauf-hanau.de/impressum/; https://www.firma-sommer.de/de/impressum/; https://www.northdata.de/Sommer+GmbH,+Hanau/HRB+96003]

@@ -3,9 +3,9 @@ slug: sl-homburg-66424-schrotthandel-r-wei
 name: Schrotthandel R. Weiß
 trader_type: schrotthaendler
 state: SL
-city: Homburg 66424
+city: Homburg
 street: ''
-postcode: ''
+postcode: '66424'
 phone: ''
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Nachprüfung 06.10.2026 (Feedback #4759)
+
+- [Nachprüfung 06.10.2026: Der bestehende city-Wert enthielt bereits „Homburg 66424“; das wurde nur in `city: Homburg` und `postcode: '66424'` normalisiert. Die aktuelle Betreiberwebsite bestätigt Homburg und die PLZ. Für die Straße gibt es innerhalb derselben Betreiberquelle eine Abweichung: Impressum „Ortstraße 78“, Kontakt und Startseite „Ortsstraße 78“; Kontakt nennt zusätzlich Homburg-Kirrberg. Die Website veröffentlicht außerdem 0176 99575431, schrotthandel.weiss2022@gmail.com und auf der Startseite Mo-Sa 09:00-18:00. Das sind jedoch Seiten desselben Einzelunternehmens, dessen Impressum keine Handelsregisternummer nennt. Die Suche nach unabhängiger, zulässiger Bestätigung ergab keine solche Quelle; ein Kleinanzeigen-Treffer bleibt ein nicht unabhängig verifizierter Plattform-Lead und war beim Direktabruf nicht lesbar (HTTP 403). Daher Straße, Telefon, E-Mail und Öffnungszeiten weiterhin leer, `status: pruefung` unverändert. Keine Geokodierung ohne bestätigte Straße. Quelle(n): https://www.schrotthandel-r-weiss.de/; https://www.schrotthandel-r-weiss.de/kontakt; https://www.schrotthandel-r-weiss.de/impressum; Lead: https://www.kleinanzeigen.de/s-anzeige/schrotthandel-r-weiss-entsorgung-aller-art/3481870485-298-372]
 
 ### Recherche 04.10.2026
 
