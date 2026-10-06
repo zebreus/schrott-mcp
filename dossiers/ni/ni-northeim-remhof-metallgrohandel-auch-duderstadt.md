@@ -34,6 +34,10 @@ Frisch geprüfte Betreiberseiten lokalisieren **Werner Remhof Metallgroßhandel 
 
 - [Korrektur 05.10.2026: status aktiv → pruefung wegen weiterhin unbelegter Northeim-/Duderstadt-Zuordnung. remhof.de direkt gelesen: Werner Remhof Metallgroßhandel GmbH & Co. KG, Ölmühlenweg 18, 34123 Kassel; remhof-esw.de direkt gelesen: Remhof Metall-Recycling GmbH & Co. KG, Straßburger Str. 1a, 37269 Eschwege. Die geprüften Seiten bestätigen diese beiden Orte, nicht den Seed-Standort. Keine Firma/Adresse/Telefon übertragen und keine Aussage, dass weitere Filialen ausgeschlossen wären. Qualitative Tagespreiswerbung an anderen Orten ist keine Preis-/Aktivitätsquelle für Northeim; Quelle(n): https://www.remhof.de/; https://www.remhof-esw.de/; vorhandene Recherche 01./02.10.2026]
 
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Unabhängige Nachsuche nach „Remhof“ mit Northeim/Duderstadt ergab weiterhin keine konkrete Betriebsadresse oder Filialzuordnung. Die zwei belegten Remhof-Standorte bleiben Kassel und Eschwege; weder deren Tagespreiswerbung noch die vorhandene Northeimer Konkurrenz Resebeck belegen die Seed-Zuordnung. Ankauf: keine für Northeim/Duderstadt zurechenbare Preisangabe; Verkauf: keine Preisliste; Gebühren: keine. Mangels Adresse kein Geocoding. Status `pruefung` unverändert; das ist kein Schließungsurteil. Quelle(n): https://www.remhof.de/; https://www.remhof-esw.de/; https://resebeck.de/standorte-und-kontakt.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metallgroßhandel

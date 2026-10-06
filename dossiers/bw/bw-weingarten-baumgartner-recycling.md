@@ -1,18 +1,18 @@
 ---
 slug: bw-weingarten-baumgartner-recycling
-name: Baumgärtner Recycling GmbH
+name: August Baumgärtner GmbH & Co. KG
 trader_type: schrottplatz
 state: BW
 city: Weingarten
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Schussenstr. 10
+postcode: '88250'
+phone: 0751 56160-0
+email: info@baumgaertner.de
+opening_hours: 'Mo-Fr 07:00-12:00, 13:00-17:00; 1. Sa/Monat 08:00-12:00'
 website: https://www.baumgaertner.de/
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Schrott- und Metallannahme mit tagesabhängiger Vergütung; außerdem Verkauf gebrauchter Materialien und separate Annahme kostenpflichtiger Abfallarten.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Bodensee / Oberschwaben
@@ -20,13 +20,20 @@ provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
-# Baumgärtner Recycling GmbH
+# August Baumgärtner GmbH & Co. KG
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt führt den Weingartener Wertstoffhof unter **August Baumgärtner GmbH & Co. KG** (HRA 550019, AG Ulm); North Data bestätigt den aktuellen Rechtsträger und den Sitz Weingarten. Das frühere Seed-Label „Baumgärtner Recycling GmbH“ ist in den geprüften Quellen nicht als früherer Rechtsname belegt und wird daher nicht als bewiesene Umfirmierung dargestellt. Annahmeadresse: **Schussenstr. 10, 88250 Weingarten**. Öffnungszeiten und Kontakt stehen im Frontmatter; die letzte Annahme erfolgt laut Hofseite 30 Minuten vor Schließung.
+
+**Preise:** **Ankauf** von Schrott/Metall zu Tagespreisen, aber keine öffentliche numerische Metallpreisliste. **Verkauf** gebrauchter Materialien: veröffentlichte Einzelangebote, darunter 20 gebrauchte Industrieventilatoren zu **40 € je Stück inkl. MwSt.**; das ist ein einmaliges Materialverkaufsangebot, kein Schrottpreis, Verfügbarkeit nicht geprüft. **Gebühren**: die Privatkundenseite nennt kostenpflichtige Abfallannahme-Kategorien, aber keine bezifferten Tarife; keine öffentliche Metall-Ankaufsgebühr oder Containerpreisliste gefunden. Anschrift ist ein konkreter Geocoding-Kandidat; die frühere Dossiernotiz meldet eine starke Abweichung der gespeicherten Koordinate, daher Koordinate in der Produktionsdatenbank separat prüfen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiber-Impressum nennt August Baumgärtner GmbH & Co. KG, HRA 550019 AG Ulm; die Weingarten-Hofseite bestätigt Schussenstr. 10, 88250 Weingarten, Tel. 0751 56160-0, info@baumgaertner.de, Mo-Fr 07:00-12:00/13:00-17:00 und 1. Samstag 08:00-12:00. North Data bestätigt den aktuellen Rechtsträger und Firmensitz Weingarten; die Betreiberhistorie beschreibt 1971 die Umwandlung des Familienbetriebs in eine GmbH & Co. KG, belegt aber nicht den genauen Seed-Namen „Baumgärtner Recycling GmbH“ als früheren Rechtsnamen. Deshalb ist der Frontmatter-Name der aktuell nachgewiesene Betreiber, während das Seed-Label als ungeklärte Altbezeichnung dokumentiert bleibt; keine formale Umfirmierung behauptet, Slug beibehalten. Letzte Annahme 30 Minuten vor Schließung. Quelle(n): https://www.baumgaertner.de/impressum/ ; https://www.baumgaertner.de/wertstoffhof/ ; https://www.baumgaertner.de/unternehmen/geschichte/ ; https://www.northdata.de/August+Baumg%C3%A4rtner+GmbH+%26+Co.+KG,+Weingarten/Amtsgericht+Ulm+HRA+550019]
+- [Recherche 06.10.2026: Preisarten getrennt: ANKAUF Schrott/Metalle laut Hofseite tagespreisabhängig; keine numerischen Ankaufpreise. VERKAUF: auf der Gebrauchtwaren-Seite stehen u.a. 20 gebrauchte Industrieventilatoren zu 40 EUR/Stück inkl. MwSt. als einmaliges Einzelangebot (Verfügbarkeit nicht geprüft), nicht als Metallpreis. GEBÜHREN: Privatkundenseite nennt kostenpflichtige Abfallannahme, aber keine Beträge; keine öffentliche Container-Tarifliste gefunden. Die Adresse ist geocodierbar; bereits dokumentierte Koordinatenabweichung bitte in der Produktionsdatenbank prüfen, hier nicht geändert. Quelle(n): https://www.baumgaertner.de/wertstoffhof/ ; https://www.baumgaertner.de/verkauf/ ; https://www.baumgaertner.de/wertstoff-recycling/privatkunden/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

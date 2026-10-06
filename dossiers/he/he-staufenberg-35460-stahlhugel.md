@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registerspiegel führen die Stahlhügel GmbH mit Sitz Heinerweg 5, 64546 Mörfelden-Walldorf und Geschäftszweck Hartmetall-/Schrott- und Eisenwarenhandel. Der frühere Staufenberger Eintrag Gießener Str. 72 ist ein nicht bestätigter Zweigstellen-Lead; Annahmebetrieb dort ist offen. Status `pruefung`.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Re-Check der letzten Register-/Adresskorrektur: maßgeblich bleibt der registrierte Sitz Heinerweg 5, 64546 Mörfelden-Walldorf (AG Darmstadt HRB 107774); für eine Publikumsannahme an diesem Firmensitz liegt keine Betreiberseite vor. Gießener Str. 72, Staufenberg erscheint weiterhin nur in einem Verzeichnisdatensatz, daher weder Zweigstelle noch Schließung behauptet; Status `pruefung`. Preise: ANKAUF/VERKAUF – Unternehmensgegenstand belegt Handel, aber keine öffentlichen Kurse/Listen; GEBÜHREN – keine Tarifseite. Die aktuelle Sitzadresse sollte geocodiert werden; alten Staufenberg-Pin nicht als bestätigten Annahmestandort weiterverwenden. Quelle(n): https://www.northdata.de/Stahlh%C3%BCgel%20GmbH,%20M%C3%B6rfelden-Walldorf/Amtsgericht%20Darmstadt%20HRB%20107774; https://www.11880.com/branchenbuch/staufenberg-hessen/060440090B112514614/stahlhuegel-gmbh.html (Gegen-Lead zur früheren Anschrift).]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

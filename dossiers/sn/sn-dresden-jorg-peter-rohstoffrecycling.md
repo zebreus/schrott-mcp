@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite nennt **Jörg Peter Rohstoffrecycling**, Inhaber Ron Peter, Leipziger Str. 276a, 01139 Dresden. Angeboten werden Schrott-/Metallannahme, Altpapierankauf (keine Pappe), Containerdienst, Kabelrecycling, Altbatterien und E-Schrott; Öffnung Mo–Fr 10:00–16:00. Wegen weiterhin fehlendem unabhängigen Zweitbeleg bleiben Straße, Kontakt und Öffnungszeiten im Frontmatter leer.
+
+**Preise:** **Ankauf** von Schrott/Metall und Altpapier zu aktuellen Tageshöchstpreisen laut Betreiber, aber ohne numerische Preisliste. **Verkauf**: keine öffentliche Preisliste gefunden. **Gebühren**: keine bezifferten Container-, Abhol- oder Entsorgungstarife gefunden. Leipziger Str. 276a ist ein Geocoding-Kandidat, noch keine freigegebene Koordinate.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiberseite erneut einzeln geprüft: Ron Peter, Leipziger Str. 276a, 01139 Dresden; Annahme von Schrott/Metall zu aktuellen Tageshöchstpreisen und Ankauf von Zeitungen/Zeitschriften/Katalogen (keine Pappe); Mo-Fr 10:00-16:00, außerhalb nach Vereinbarung; Container 5–38 m³. Betreiberseite bleibt die einzige zulässige Identitäts-/Standortquelle (Einzelunternehmer, kein unabhängiger Register-/Zweitbeleg), daher Frontmatter-Felder unverändert. ANKAUF: keine numerischen Raten veröffentlicht. VERKAUF: keine Preisliste. GEBÜHREN: keine bezifferten Container-/Entsorgungskosten. Leipziger Str. 276a ist Geocoding-Kandidat, aber keine Produktionskoordinate geschrieben. Quelle(n): https://schrottpeter.de/ ; https://schrottpeter.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

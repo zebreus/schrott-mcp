@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Rosenbach Schrott und Metallhandel“ liegen weiterhin nur zwei widersprüchliche Verzeichnis-Leads vor: **Lange Str. 30** (Lehe) und **Spadener Str. 53** (Bremerhaven). Keine Betreiber- oder Registerquelle bestätigt Inhaber, Annahmestelle oder ob beide Adressen überhaupt denselben Betrieb betreffen.
+
+**Preise:** keine belegte Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung. **Geocoding:** beide Straßen sind getrennte Kandidaten; weder auswählen noch geocodieren, bis Betreiber und Geschäftsadresse geklärt sind.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneute Prüfung ergab keinen unabhängigen Betreiber-/Registerbeleg; bestehender Adresskonflikt bleibt: Gelbe Seiten führt Lange Str. 30, 27578 Lehe, Tel. 01575 3648535; Das Telefonbuch Spadener Str. 53, 27578 Bremerhaven, Tel. 0471 30713874. Beide Angaben sind nur Leads und können nicht zu einem gemeinsamen Betrieb zusammengeführt werden. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Zahlen oder Tarife. Geocoding für beide Kandidaten ausgesetzt. Quelle(n): https://www.gelbeseiten.de/ ; https://www.dastelefonbuch.de/ (Verzeichnis-Leads)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schneck und Sohn beschreibt auf dem eigenen Auftritt Schrotthandel, Recycling und Abbruch und nennt Goethestr. 11, 97215 Uffenheim. Es fehlen weiterhin eine unabhängige Bestätigung der Einzelunternehmer-Identität sowie belastbare Annahme-/Preisbedingungen; Frontmatter-Kontaktfelder bleiben deshalb offen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiberkontaktseite/Leistungsseite erneut direkt abgerufen: Schneck und Sohn nennt Goethestr. 11, 97215 Uffenheim, 0176 60409974 / 0170 7470342, schneckundsohn@gmx.de, Mo–Fr 06:00–18:00, Sa 08:00–16:00 und beschreibt Schrotthandel, Metallschrott-Recycling und Abbruch. Das Impressum weist weiterhin keinen HRB-Eintrag aus; keine unabhängige zweite Geschäftsquelle gefunden, daher keine Frontmatter-Füllung und Status `pruefung`. Preise: ANKAUF – „wettbewerbsfähige Preise“/individuelles Angebot, aber keine Zahlen oder Preisliste; VERKAUF – keine Schrott-/Metallpreisliste; GEBÜHREN – keine Gebührentafel. Goethestr. 11 ist als mögliche Adresse zu geocodieren, sobald die Geschäftszuordnung zweitbestätigt ist. Quelle(n): https://www.schneckundsohn.de/kontakt; https://www.schneckundsohn.de/leistungen; https://www.schneckundsohn.de/impressum.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

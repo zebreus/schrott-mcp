@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die überregionale Scholz-Recycling-Präsenz ist aktuell, aber die konkrete Betriebsstätte **Mittweida** ließ sich nicht verifizieren: der Standortfinder ist eine JavaScript-Karte ohne statische Standortliste und die vermutete Detailroute `/standorte/mittweida/` liefert HTTP 500. Deshalb bleiben Adresse, Kontaktdaten und Aktivstatus der lokalen Betriebsstätte offen; keine Gleichsetzung mit einer anderen Scholz-Niederlassung.
+
+**Preise:** keine belastbare, Mittweida zuordenbare Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. **Geocoding:** keine hinreichend belegte Straßenadresse als Kandidat.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Standortsuche erneut geprüft: Scholz-Seite `/standorte/` liefert eine dynamische Kartenanwendung; `/standorte/mittweida/` war beim Abruf nicht verfügbar (HTTP 500). Konzern-Impressum belegt Scholz Recycling GmbH/Essingen, aber nicht die Existenz oder aktuelle Tätigkeit eines Hofs in Mittweida. ANKAUF/VERKAUF/GEBÜHREN: keine lokalen numerischen Tarife/Preislisten gefunden. Adresse/Koordinate weiterhin ungeklärt, kein Frontmatter-Fill. Quelle(n): https://www.scholz-recycling.com/standorte/ ; https://www.scholz-recycling.com/standorte/mittweida/ ; https://www.scholz-recycling.com/impressum/]
 
 ### Recherche 01.10.2026
 

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Verzeichnis-Leads nennen Schrotthandel Bimm an Hohe Str. 10, 41179 Mönchengladbach-Rheindahlen. Eine 11880-Detailseite führt außerdem 0174 4523819; dieser Kontakt war in älteren Quellen nicht vorhanden und bleibt daher unbestätigter Aggregatorwert. Kein Betreiberauftritt, Impressum/Register oder belastbarer aktueller Aktivitätsnachweis. Status `pruefung`, ohne Schließungsbehauptung. Keine belegte Ankauf-, Verkaufs- oder Gebührenpreisliste; die Adresse bleibt eine Geocoding-Kandidatin, nicht bestätigte Betriebsstätte.
 
 ## Timeline
 
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Fill Strasse/PLZ (Hohe Str. 10, 41179 Moenchengladbach-Rheindahlen), Status pruefung zu aktiv — Beleglage offengelegt: drei uebereinstimmende Verzeichnisquellen, KEINE Telefonnummer in keiner Quelle gefunden (phone bleibt leer), kein Betreiber-Webauftritt, kein HR-Treffer; Ausnahmefall mit Restunsicherheit, Tel.-Klaerung Folgewelle; Quelle(n): 11880.com/schrotthandel-bimm, werkenntdenbesten.de/schrotthandel/moenchengladbach, oeffnungszeitenbuch.de/Schrotthandel-Bimm]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Früheren Satz „keine Telefonnummer in keiner Quelle“ präzisiert: 11880-Detailseite führt jetzt/erneut 0174 4523819 zu „Schrotthandel Bimm“, Hohe Str. 10, 41179 Mönchengladbach-Rheindahlen. Das ist weiterhin nur Aggregatorbeleg; Nummer daher nicht als bestätigt übernommen. Betreiberwebsite/Register/Impressum und aktuelle Aktivität weiterhin nicht gefunden. Status `aktiv` → `pruefung`; Adresse/Telefon nicht unabhängig bestätigen und Adresse nicht geokodieren. Ankauf: kein Preis/Sortiment primär belegt; Verkauf/Gebühren: keine Preisliste. Quelle(n): https://www.11880.com/branchenbuch/moenchengladbach/120674719B102222136/schrotthandel-bimm.html; https://www.werkenntdenbesten.de/schrotthandel/moenchengladbach (frühere Verzeichnis-Leads).]
 
 ### Recherche 01.10.2026
 

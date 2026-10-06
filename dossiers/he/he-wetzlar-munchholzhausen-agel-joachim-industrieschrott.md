@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten führt zwei Schrott-Einträge zu Agel Joachim an Sudetenstr. 73 in Wetzlar/Münchholzhausen; nur einer zeigt PLZ und Telefon. Das sind Aggregator-Leads, noch keine Betreiber- oder Registerbestätigung. Keine belastbare Preisliste.
+Gelbe Seiten führt zwei Einträge desselben Namens an Sudetenstr. 73; die Abweichung Wetzlar 35581 vs. Ortsteil Münchholzhausen und eine einzelne Telefonnummer bleiben Aggregator-Leads, nicht unabhängige Bestätigung. Kein Betreiber-/Registerbeleg und keine belastbare Preisliste. Geocoding der Kandidatenadresse erst nach Identitätsbestätigung.
 
 ## Timeline
 

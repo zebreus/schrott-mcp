@@ -28,7 +28,15 @@ Konkreter Betreiberkandidat statt bloßem Such-MISS: **A.S.M. Automobile GmbH**,
 
 Zuordnung des generischen Seed-Namens zu A.S.M., aktuelle Annahme und Zertifizierung bleiben offen. Keine ungeprüfte Umbenennung, Frontmatter-Füllung oder Preisübernahme; Status `pruefung`.
 
+Ein mobile.de-Händlerprofil-Suchergebnis verbindet A.S.M. Automobile GmbH mit „Autocenter Rehsen Autoverwertung“ und Rehsener Straße 31, bietet aber nur einen Drittanbieter-Lead; der Eintrag selbst war nicht direkt lesbar. Eine ähnlich benannte Website `asm-automobile.de` gehört zu ASM Autoservice Meißner e.K. in Blankenburg und ist kein Beleg für die Rehsener GmbH.
+
+**Preise:** keine dossierzuordenbare **Ankauf**- oder **Verkaufspreisliste**, keine Gebührenordnung. **Geocoding:** Rehsener Str. 31, 06785 Oranienbaum-Wörlitz OT Rehsen ist ein Register-/Händlerprofil-Kandidat, aber die direkte Betreiberverknüpfung fehlt.
+
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Drittes Händlerprofil-Suchergebnis bezeichnet „A.S.M. Automobile GmbH : AUTOCENTER REHSEN AUTOVERWERTUNG“ und nennt Rehsener Str. 31, 06785 Oranienbaum-Wörlitz OT Rehsen, Tel. +49 176 22585772. Es ist weiterhin ein Marktplatz-Eintrag (keine gelesene Betreiberseite/kein direkt geprüftes Impressum), daher nur eine stärkere Zuordnungs-Spur, keine Frontmatter- oder Händlerstatus-Freigabe. `asm-automobile.de` wurde als Namensgleichheit ausgeschlossen: die dortige ASM Autoservice Meißner e.K. sitzt in Blankenburg, nicht Rehsen. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren numerischen Preise; ein Portalwert „0 EUR“ ist keine Tarifangabe. Kandidatenadresse erst nach Betreiberbestätigung geocodieren. Quelle(n): https://home.mobile.de/ABAUTOMOBILEBERLIN3 ; https://www.asm-automobile.de/ ; Registerbeleg siehe Recherche 05.10.2026.]
 
 ### Recherche 05.10.2026
 

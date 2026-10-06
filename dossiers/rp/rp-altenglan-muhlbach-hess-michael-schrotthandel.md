@@ -28,7 +28,13 @@ Unaufgelöster Adresskonflikt: **Potzbergstraße 1** (bestehender Seed-/Portalwe
 
 Der vermeintliche Homepage-Link des Schrottplatzverzeichnisses ist ein technischer Fehler, kein Betreiberauftritt. Aktuelle Annahme, Öffnungszeiten und Preise bleiben ungeklärt; keine neuen Frontmatter-Füllungen.
 
+**Preisprüfung:** keine belegte Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung. **Geocoding:** weder Potzbergstr. 1 noch Hoffeldstr. 14 als heutige Betriebs-/Annahmestelle festlegen; beide bleiben ungeprüfte Kandidaten mit identischer Verzeichnis-Telefonnummer.
+
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Keine neue Betreiber- oder Registerquelle gefunden, die den dokumentierten Konflikt Potzbergstr. 1 vs. Hoffeldstr. 14 auflöst. Die verlinkte schrottplatz-info-Seite liefert weiterhin die abweichende Hoffeldstr. 14; ihr Homepage-Link ist kein Betreiberauftritt. ANKAUF, VERKAUF und GEBÜHREN bleiben ohne belastbare numerische Preisangaben. Keine Frontmatter-Änderung; beide Anschriften müssen vor Geocoding/Produktion durch den Betreiber verifiziert werden. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Altenglan/Hess-Michael-Schrotthandel]
 
 ### Recherche 05.10.2026
 

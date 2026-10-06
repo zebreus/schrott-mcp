@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dieburger Schrotthandel & Containerdienst ist in zwei Verzeichnissen mit Nieder-Röder-Str. 80 und einer Telefonnummer gelistet. Beide bleiben Aggregator-Leads; Betreiberidentität, Aktualität, Öffnungszeiten und aktuelle Annahme sind nicht primär bestätigt. Status `pruefung`.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Re-Check ergab weiterhin keine Betreiberwebsite, Register- oder kommunale Geschäftsquelle für „Dieburger Schrotthandel“. Die übereinstimmenden Angaben Nieder-Röder-Str. 80, 64859 Eppertshausen / 06071 8818865 stammen aus 11880 und Gelbe Seiten, also Verzeichnis-Leads, nicht zwei unabhängigen Belegen. Keine Frontmatter-Änderung; keine Zusammenführung mit dem separat gelisteten 1a Schrotthandel. Preise: ANKAUF – keine bestätigte Liste; VERKAUF – keine Liste; GEBÜHREN – keine Tarifseite. Adresse bleibt Kandidat, nicht geocodieren bis bestätigt. Quelle(n): https://www.11880.com/branchenbuch/eppertshausen/060371058B106647025/dieburger-schrotthandel-containerdienst.html; https://www.gelbeseiten.de/gsbiz/aa817a93-1191-42ee-acb7-181bc900b8eb.]
 
 ### Recherche 03.10.2026
 

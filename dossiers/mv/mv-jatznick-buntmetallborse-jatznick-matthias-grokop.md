@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Waldstr. 22 und die Telefonnummer sind weiterhin nur über einen Branchenverzeichniseintrag auffindbar. Ein Kartenobjekt für das Gebäude bestätigt keinen dort ansässigen Schrotthändler. Betreiber, Annahmebedingungen und Öffnungszeiten sind offen; Status `pruefung`.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneute Suche nach „Buntmetallbörse Jatznick“/Matthias Großkopf brachte keine belastbare Betreiber-, Register- oder kommunale Geschäftsquelle. Waldstr. 22, 17309 Jatznick und 039741 80461 bleiben Einzelbeleg aus Das Örtliche; der OSM-Gebäudepunkt ist kein Geschäfts- oder Betreiberbeleg. Keine Frontmatter-Füllung. Preise: ANKAUF – Portal nennt Buntmetallankauf, aber weder Kurs noch Preisliste; VERKAUF – keine Liste; GEBÜHREN – keine Angaben. Adresse nicht geocodieren, bevor Geschäftsbezug belegt ist. Quelle(n): https://www.dasoertliche.de/?form_name=search_nat&kw=Buntmetallb%C3%B6rse&ci=Jatznick; vorheriger OSM-Gebäudeabgleich (siehe Recherche 30.09.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

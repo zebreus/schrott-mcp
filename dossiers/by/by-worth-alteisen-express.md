@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiber-Unterpfad bestätigt Martin Stierstorfer, Hafnerhof 1 und einen mobilen Schrott-/Altmetallservice mit Abholung. Die eigene Domain war laut Recherche 02.10 ein Redirect-Stummel; der erneute HTTPS-Abruf am 06.10 scheiterte technisch. Betriebszeiten und Preisbedingungen sind nicht ausgewiesen. Abholkosten werden nur durch einen Verzeichnis-Lead als kostenlos beschrieben.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiber-Unterseite erneut abgerufen: Martin Stierstorfer, Hafnerhof 1, 93086 Wörth/Donau, Mobil 0174 2187 361, Festnetz 09482/671 (laut Betreiber nur bis ca. 08:00 Uhr erreichbar); angeboten werden kostenlose Abholung von Eisen-Schrott und Metallen sowie Abholung nach Termin. Das ist kein stationärer Annahmenachweis und kein Metallkurs. Preise: ANKAUF – keine Ankaufspreisliste; VERKAUF – keine Liste; GEBÜHREN – stadtplan.de behauptet kostenlose Abholung, aber kein veröffentlichter Tarif/keine belastbare Gebührenordnung. Die Adresse bleibt bereits geführter, aber nicht durch Register/Betreiber-Impressum unabhängiger Standortlead; kein neuer Geocoding-Auftrag. Der HTTPS-Abruf der separaten Domain schlug mit TLS-Fehler fehl; den früher dokumentierten Redirect-Stummel daher nicht als aktuellen Befund werten. Quelle(n): http://www.andersstein.de/alteisen-express/html/kontakt.html; https://stadtplan.de/item/alteisen-express-martin-stierstorfer (Kostenlos-Angabe, Lead); https://www.alteisen-express.de/ (TLS-Fehler beim Abruf 06.10.2026; vorheriger Befund siehe Recherche 02.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

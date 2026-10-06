@@ -28,6 +28,10 @@ Die aktive Betreiberwebsite bietet Schrott-/NE-Metallankauf für Privat und Gewe
 
 ## Timeline
 
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiber-Metallseite nennt Ankauf von Schrott, NE-Metallen, Kabeln und Legierungen; Preisermittlung ist markt-/tagesabhängig und Anfrage per Mail/WhatsApp. Die Materialliste umfasst u.a. Aluminium, Kupfer, Messing, Zink/Zinn und Eisenmetalle. ANKAUF: keine öffentlich bezifferten Kilopreise. VERKAUF: keine öffentliche Preisliste. GEBÜHREN: Container-/Transportangebote individuell, keine bezifferten Tarife gefunden. Geocoding-Kandidat Gewerbehof 24, 73441 Bopfingen bleibt Einzelbeleg des Betreibers; keine Koordinate/Frontmatter-Füllung bis Identitäts-/Standort-Zweitbeleg. Quelle(n): https://www.ostalb-recycling.de/metalle/ ; https://www.ostalb-recycling.de/containerdienst/ ; https://www.ostalb-recycling.de/transporte/ ; https://www.ostalb-recycling.de/impressum/]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Betreiberseiten Start, Impressum, Metalle, Kontakt, Containerdienst, Transporte, Bauschutt und Containerbestellung gelesen. Impressum nennt Ostalb Recycling GbR, Gewerbehof 24, 73441 Bopfingen, Tel. 0151 21398890, info@ostalb-recycling.de, USt-ID DE313707180; kein HR und keine ausgeschriebenen Gesellschafter. Metallankauf für Privat-/Gewerbekunden; Anlieferung nach Absprache; Container 5–40 m³. Weiterhin ein Quellenkomplex, keine unabhängige zweite zulässige Identitätsquelle; vorhandenes Owner-Gate bleibt bestehen.; Quelle(n): https://www.ostalb-recycling.de/ , https://www.ostalb-recycling.de/impressum/ , https://www.ostalb-recycling.de/metalle/ , https://www.ostalb-recycling.de/kontakt/ , https://www.ostalb-recycling.de/containerdienst/ , https://www.ostalb-recycling.de/transporte/ , https://www.ostalb-recycling.de/bauschutt/ , https://www.ostalb-recycling.de/containerdienst/container-bestellen/]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Eintrag ist trotz wiederholter Suche weiterhin nicht mit einer Betreiberseite, einem Registerbeleg oder einer verlässlichen Anschrift verknüpft. Namensvetter aus Obernburg, Rödermark und anderen Orten bleiben getrennte Betriebe. Identität, Standort und Ankauf offen; Status `pruefung`.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneuter Exact-Name-/Ortsabgleich „Schrotthandel Willeführ Gelnhausen/Altenhaßlau“ ergab keinen neuen Primär- oder Registerbeleg. Die bisherige 11880-/Facebook-Spur bleibt Lead; andere Willeführ-Dossiers belegen andere Orte und werden nicht übertragen. Keine Frontmatter-Füllung, Status `pruefung`. Preise: ANKAUF – keine belegte Liste; VERKAUF – keine Liste; GEBÜHREN – keine Angaben. Mangels bestätigter Adresse kein Geocoding. Quelle(n): Websuche 06.10.2026; Abgrenzung zu `by-obernburg-willefuhr` und den in Recherche 01.10.2026 genannten Namensvettern.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

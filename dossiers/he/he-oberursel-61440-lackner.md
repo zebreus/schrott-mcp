@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite ist erreichbar und beschreibt einen Ersatzteil-Shop sowie Auto-/Motorradankauf. Ihr Impressum nennt Pfeiffstr. 13; ein Verzeichnis-Lead nennt abweichend Hausnummer 11. Ohne unabhängige Klärung bleiben Straße, Kontakt und eine mögliche Schrottplatz-Einordnung ungefüllt; kein Geocoding.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiberwebsite und Impressum erneut direkt geprüft: Auto Lackner bietet einen Onlinehandel mit gebrauchten Kfz-Teilen sowie Auto-/Motorradankauf; Impressum/Fußbereich nennen Pfeiffstr. 13, 61440 Oberursel, 06171 57090 und info@auto-lackner.de. Der Hausnummernkonflikt zum Gelbe-Seiten-Lead Pfeiffstr. 11 bleibt ungelöst; Einzelunternehmen ohne HRB, daher keine neuen Frontmatter-Fills. Ein Kfz-Teile-Shop ist kein Beleg für Schrott-/Metallankauf und seine Einzelartikelpreise keine Metallpreisliste. Preise: ANKAUF – keine Metall-/Schrottpreise, Fahrzeugankauf nur auf Anfrage; VERKAUF – artikelbezogene Gebrauchtteile, keine allgemeine Schrott-/Metallpreisliste; GEBÜHREN – keine Gebührentafel gefunden. Kein Geocoding wegen Hausnummernkonflikt. Quelle(n): https://auto-lackner.de/impressum/; https://auto-lackner.de/kontaktformular/; Gelbe-Seiten-Lead Pfeiffstr. 11 (siehe Recherche 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

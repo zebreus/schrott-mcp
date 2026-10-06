@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Angabe „AWH GmbH, Werkstraße 120, Schwerin“ ist weder einer Betreiberquelle noch einem belastbaren Register-/Kommunalbeleg zugeordnet. Gleichnamige AWH-Suchergebnisse betreffen andere Unternehmen. Identität, Adresse, Annahme und aktueller Betrieb bleiben offen; keine Geocodierung.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Exakte Namens-/Adresssuche „AWH GmbH Werkstraße 120 Schwerin“ brachte keinen Betreiber- oder Registerbeleg für den Seed-Eintrag; gleichnamige Treffer zu Armaturenwerk Hötensleben bzw. anderen AWH-Unternehmen haben keinen Orts-/Identitätsbezug und wurden nicht zugeordnet. Auch die Schweriner Aggregator-Stadtseite liefert keinen Beleg für AWH. Keine Frontmatter-Änderung, Status `pruefung`. Preise: ANKAUF – keine verifizierte Ankaufstätigkeit/Preisliste; VERKAUF – keine Liste; GEBÜHREN – keine Angaben. Werkstraße 120 bleibt unbestätigt und wird nicht geocodiert. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Schwerin (Aggregator, nur Negativabgleich); Websuche 06.10.2026.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

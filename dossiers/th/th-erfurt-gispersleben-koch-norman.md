@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: Wertstoffhandel/Schrott (Kleinsammler, Baustellen-Service; GS 5.0/4 Bewertungen)
+description: Verzeichnis-/Seed-Angabe Wertstoffhandel/Schrott; Angebot, Baustellen-Service und Rating derzeit nicht bestätigt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
@@ -34,6 +34,10 @@ Der nun aufgelöste Gelbe-Seiten-Website-Link führt lediglich zu **schrottplatz
 
 - [Recherche 05.10.2026: Offenen Website-Button aus 02.10. durch direkten Gelbe-Seiten-Detailabruf aufgelöst: Ziel https://www.schrottplatz-info.de/schrottplatz/Erfurt/Koch-Norman, also weiterer Aggregator und KEIN Betreiberauftritt. GS nennt jetzt 01522 1032583, nicht die vorhandene 0174 3599235; Ziel-/Datenherkunft im Portal teilweise Golocal. Bestehende Telefon-/Adresswerte nicht überschrieben, der Konflikt bleibt ownerseitig zu klären. Keine neue E-Mail/Website/Öffnungszeit gefüllt. Primärbelegstandard trotz vieler Portalwiederholungen weiterhin nicht erfüllt; Quelle(n): https://www.gelbeseiten.de/gsbiz/300a778e-77c8-4fcc-b074-1b4d33174ec2.]
 - [Recherche 05.10.2026: Bewertungs-Aktivitätssignal vom 02.10. korrigiert: alle vier GS-Rezensionen stammen aus Golocal (eine Herkunft), datiert 14.01.2018, 28.05.2019 und zweimal 16.11.2019. Keine aktuelle Betreiberaktivität 2026 daraus ableiten; zwei Texte sind zudem wortgleich. Alte description aus Historienerhaltung nicht geändert, aber Leistungs-/Ratingaussagen nicht als verifiziert weiterverwendet. Keine bezifferte Ankauf-, Verkaufs- oder Gebührenliste und keine primär belegten Privat-Annahme-/Abholbedingungen. Nächster Schritt: Gewerbe-/Betreiberkontakt und heutige Nutzung der mehrfach belegten Anschrift prüfen, nicht PAS Stuckert oder andere dortige Firmen als Koch-Nachfolger einsetzen; Quelle(n): https://www.gelbeseiten.de/gsbiz/300a778e-77c8-4fcc-b074-1b4d33174ec2; bisherige Primär-/Adresskonfliktprüfung vom 03.10.2026 in dieser Timeline.]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneute exakte Suche bestätigt die Datenlücke statt eines neuen Primärbelegs: Das Telefonbuch führt Koch Norman weiter mit Camburger Str. 5, 99091 Erfurt-Gispersleben, aber mit 01522 1032583; das vorhandene Dossier enthält 0174 3599235. Dieser Konflikt bleibt offen, beide Angaben sind Verzeichnisdaten. Die jüngsten auffindbaren Bewertungen bleiben 2018/2019; keine gegenwärtige Betreiberseite, Register-/Kommunalbestätigung oder belastbare Aktivitätsmeldung gefunden. Ankauf: kein Preis/keine Annahmebedingungen belegt; Verkauf: keine Preisliste; Gebühren: keine Gebührentafel. Anschrift wegen konkurrierender Nutzung/Identität noch nicht koordinatenreif; kein Geocoding. Quelle(n): https://www.dastelefonbuch.de/Branchen/Entsorgungsbetriebe/Erfurt; https://www.gelbeseiten.de/gsbiz/300a778e-77c8-4fcc-b074-1b4d33174ec2.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

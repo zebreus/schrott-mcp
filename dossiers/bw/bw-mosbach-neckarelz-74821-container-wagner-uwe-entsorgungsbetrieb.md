@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt firmiert als **Firma Wagner**, vertreten durch Annegret Wagner, und unterscheidet Anschrift **Fasanenweg 2, 74842 Billigheim** von einem Lager in **Bahnhofstr. 8/3, 74821 Mosbach-Neckarelz**. Das bestehende Dossier nennt dagegen „Container Wagner Uwe“ und Bahnhofstr. 8; die Zuordnung von Person, Lager und öffentlich zugänglichem Annahmehof ist noch nicht aufgelöst. Daher keine weiteren Kontaktdaten oder Adresskorrektur ins Frontmatter.
+
+**Leistung/Preise:** Betreiberseite nennt Abrollcontainer 10–40 m³, Absetzcontainer 5–12 m³ und Wertstoffhof-Anlieferung Mo–Fr 09:00–16:00, ordnet den Hof aber nicht eindeutig der Neckarelzer Lageradresse zu. **Ankauf/Verkauf/Gebühren:** keine numerischen Schrottpreise, Materialverkaufspreise oder Container-/Entsorgungstarife veröffentlicht. Die Neckarelzer Adresse bleibt Geocoding-Kandidat, bis Kundenhof und genaue Hausnummer 8/3 bestätigt sind.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiber-Impressum nennt „Firma Wagner“, vertreten durch Annegret Wagner, Fasanenweg 2, 74842 Billigheim; separat wird Lager Bahnhofstr. 8/3, 74821 Mosbach-Neckarelz mit Tel. 06261/62293 geführt. Die Website nennt Containergrößen (Abroll 10–40 m³, Absetz 5–12 m³) sowie Anlieferung am Wertstoffhof Mo-Fr 09:00–16:00, verknüpft den Hof aber nicht eindeutig mit dem Neckarelzer Lager. Abweichung zur Seed-Bezeichnung „Uwe“ und die Rolle der beiden Anschriften offen; bestehende Frontmatter-Angaben unverändert, kein zusätzlicher Fill. Geocoding erst nach Klärung, ob Bahnhofstr. 8/3 die öffentlich zugängliche Annahmestelle ist. Quelle(n): https://www.schrott-wagner.de/impressum.html ; https://www.schrott-wagner.de/ ; https://www.schrott-wagner.de/container.html]
+- [Recherche 06.10.2026: Preise getrennt: ANKAUF – kein bezifferter Schrott-/Metallpreis gefunden. VERKAUF – keine öffentliche Materialpreisliste. GEBÜHREN – Containerangebot/-größen sind genannt, aber keine Miet-, Transport- oder Entsorgungssätze; individuelle Tarife ungeklärt. Quelle(n): https://www.schrott-wagner.de/ ; https://www.schrott-wagner.de/container.html]
 
 ### Recherche 02.10.2026
 

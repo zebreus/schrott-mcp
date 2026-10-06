@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für **Niebert Kurt** ist weiterhin weder ein identifizierter Betreiber noch eine konkrete Betriebsadresse belegt. Das Schrottregister-Mirror führt zwar einen Eintrag für Ratzeburg, ordnet ihn aber keiner Person „Niebert“ zu und weist dort keinen anerkannten Altfahrzeug-Demontagebetrieb aus. Die Seed-Kategorie Autoverwertung ist damit nicht bestätigt.
+
+**Preise:** keine belegte **Ankauf**- oder **Verkaufspreisliste**, keine Gebührenordnung. **Geocoding:** kein belastbarer Straßenadress-Kandidat vorhanden.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Mirror-Eintrag für Ratzeburg erneut geprüft; er nennt einen Betrieb im Ort, aber keinen Namen „Niebert Kurt“ und keinen anerkannten Altfahrzeug-Demontagebetrieb. Kein Register-/Betreiberbeleg für den Seed gefunden. ANKAUF/VERKAUF/GEBÜHREN: keine dossierzuordenbaren Preise/Tarife. Ohne Adresse kein Geocoding; status pruefung bleibt. Quelle(n): https://schrottregister.pages.dev/ort-ratzeburg]
 
 ### Recherche 04.10.2026
 

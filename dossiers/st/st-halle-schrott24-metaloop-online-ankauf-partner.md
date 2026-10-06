@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Plattform führt Halle als Anlieferstelle, identifiziert den lokalen Partner aber nicht öffentlich; Adresse und Öffnungszeiten werden erst nach erfolgreichem Online-Verkauf mitgeteilt. Das Dossier bleibt deshalb auf **Prüfung** und enthält keine fingierte lokale Betriebsadresse.
+
+**Preise und Gebühren (Plattform, nicht Halle-spezifisch):** **Ankauf**: die allgemeine Preisseite zeigte bei Recherche Höchstpreise mit Stand **14.11.2025** (u.a. Aluminium bis 2,48 €/kg, Blei 1,43 €/kg, Stahl/Eisen 0,21 €/kg). Das Veröffentlichungsdatum ist veraltet und die Preise sind weder aktuell für 06.10.2026 noch Hallenser Partnerpreise. **Verkauf**: keine öffentliche Preisliste für den Verkauf von Material an Kunden gefunden. **Gebühren**: Support/AGB nennen 5 € Abzug je genutztem Paketlabel, Big Bag 5 € zzgl. Versand, 2 % bei PayPal-Auszahlung und nach 12 Stunden kostenfreier Stornofrist 5 % des angegebenen Werts (mindestens 20 € bei Werten unter 400 €); LKW-/Containerabholung wird individuell bepreist. Diese Konditionen sind Plattformbedingungen, nicht als lokale Gebühren in Halle zu verstehen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Halle bleibt eine Plattform-Anlieferstelle ohne öffentlich identifizierten lokalen Partner; Standortadresse/-zeiten laut Standortseite erst nach erfolgreichem Online-Verkauf. Allgemeine Schrottpreise sind als tagesaktuelle Höchstpreise beschrieben, die Seite trägt jedoch den konkreten Stand 14.11.2025: Aluminium bis 2,48 EUR/kg, Blei 1,43 EUR/kg, Stahl/Eisen 0,21 EUR/kg. Diese historischen Deutschland-/Österreich-Listenwerte sind kein aktueller Hallenser Ankaufpreis. VERKAUF an Materialkunden: keine separate öffentliche Liste gefunden. GEBÜHREN (Plattformbedingungen, nicht Halle-spezifisch): verwendetes Paketlabel 5 EUR Abzug; Big Bag 5 EUR plus Versand; PayPal-Auszahlung 2 % Abzug; nach 12 Stunden kostenfreier Stornofrist 5 % des deklarierten Werts, Mindestbetrag 20 EUR bei deklariertem Wert unter 400 EUR; LKW-/Containerabholung auf Anfrage. Keine lokale Adresse geocodierbar, solange der Partner unbekannt ist. Quelle(n): https://www.schrott24.de/standorte/schrottplatz-halle/ ; https://www.schrott24.de/schrottpreise/ ; https://www.schrott24.de/faq/support/ ; https://www.schrott24.de/faq/agb/]
 
 ### Recherche 03.10.2026
 

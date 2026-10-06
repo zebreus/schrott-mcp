@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Horst Schmücker Schrotthandel“ fanden sich nur Verzeichnis-/Aggregator-Leads, darunter Ernst-Engelke-Ring ohne Hausnummer, PLZ 29339 und die Mobilnummer 0172 7948140. Kein Betreiberauftritt, Register-/Kommunalbeleg oder sicher zuordenbarer zweiter Standortnachweis gefunden. Ankauf: weder Annahmebedingungen noch Preise primär belegt; Verkauf und Gebühren: keine Preisliste. Ohne Hausnummer und bestätigte Betriebszuordnung kein Geocoding.
 
 ## Timeline
 
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Exaktsuche nach Name, Wathlingen und Schrotthandel ergab erneut nur Verzeichnis-Leads (u. a. Ernst-Engelke-Ring, 29339 Wathlingen, Tel. 0172 7948140); kein Betreiberauftritt/Impressum, Register- oder Gemeinde-Beleg. Die Straße hat in den Leads keine Hausnummer; Adresse und Telefonnummer daher nicht ins Frontmatter übernommen. Ankauf: keine Preis-/Annahmebedingungen; Verkauf und Gebühren: keine Preislisten. Für Geocoding fehlt bereits eine sichere Hausnummer und bestätigte Identität. Quelle(n): https://www.11880.com/suche/schrott/wathlingen; https://www.exa-online.de/ (Suchergebnisse/Verzeichnisleads, keine Primärquellen).]

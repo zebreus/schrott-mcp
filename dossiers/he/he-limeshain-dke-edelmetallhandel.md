@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Ankaufangebot auf Betreiberwebsite belegt. Hausnummer und Besuchszeiten bleiben offen, bis der Widerspruch zu Verzeichnisangaben geklärt ist.
+Die Betreiberwebsite belegt den Edelmetall-/Hartmetallankauf und nennt bedingte Ankaufspreise, aber keine allgemeingültige Metallpreisliste. Verkaufspreise und Gebühren sind nicht öffentlich ausgewiesen. Ronneburgstraße 45 A auf der Betreiberseite widerspricht Hausnummer 33 im Verzeichnis; daher bleiben Adresse, Zeiten und Geocoding offen.
 
 ## Timeline
 

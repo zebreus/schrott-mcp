@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**Identitäts- und Ortskonflikt:** Das Dossier meint „Oetjen Rohstoffhandel“ in Rotenburg (Wümme), aber der bisherige Registerbeleg zu Oetjen Rohstoffhandel GmbH weist nach Zeven. `oetjen.de` gehört zur Oetjen Logistik GmbH in Rotenburg und belegt keinen Rohstoffhandel. Zudem liegt Rotenburg (27356) in Niedersachsen, während das Frontmatter `state: HB` trägt; ungeklärt, ob der Seed falsch gruppiert ist oder einen anderen Betrieb meint. Daten daher nicht umbenannt oder neu befüllt.
+
+**Preise:** für den mutmaßlichen Rotenburger Betrieb keine verifizierte Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung. **Geocoding:** Otto-von-Guericke-Str. 4, 27356 ist nur Verzeichnis-/Seed-Kandidat; vor Geocoding zuerst Firmenidentität und Bundesland korrigieren/verifizieren.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Orts-/Namensprüfung präzisiert den Konflikt: oetjen.de und dessen Impressum gehören Oetjen Logistik GmbH, Hermann-Schlüter-Str. 1, 27356 Rotenburg (Logistik, kein Rohstoffhandel); Register-/Northdata-Belege „Oetjen Rohstoffhandel GmbH“ führen nach Zeven (HRB 13052 KI), nicht zur Seed-Adresse in Rotenburg. Einzelne Verzeichnis-Leads nennen Otto-von-Guericke-Str. 4/27356, liefern aber keinen Primärbeleg zur Identität. Rotenburg (Wümme) liegt in Niedersachsen; `state: HB` im Seed bleibt als möglicher Zuordnungsfehler offen und wird nicht stillschweigend geändert. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste. Nicht geocodieren, bevor Rechtsträger/Standort und State geklärt sind. Quelle(n): https://oetjen.de/ ; https://oetjen.de/impressum/ ; https://www.northdata.de/Oetjen%20Rohstoffhandel%20GmbH,%20Zeven/Amtsgericht%20Kiel%20HRB%2013052%20KI]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

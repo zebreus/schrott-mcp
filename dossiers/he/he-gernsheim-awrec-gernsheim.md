@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite beschreibt Schrott-, Buntmetall- und Kabelankauf zu Tagespreisen sowie Container- und Demontageleistungen. Kontakt/Adresse sind dort nur einzelbelegt; mangels unabhängiger Register-/Kommunalbestätigung bleiben die Frontmatter-Kontaktfelder leer und die genaue Betriebsstelle ein Klärfall.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Betreiberwebsite und Impressum erneut direkt erreichbar: AWRec Gernsheim / Andy Willeführ, Alte Landstraße 2a, 64579 Gernsheim; Betreiberkontakt 06258 99 23 660, 0176 64823402, info@awrec.de. Belegt sind Schrott-/Buntmetall-/Kabelankauf zu Tagespreisen, Containerdienst und Demontage; als Einzelunternehmen ohne HRB bleibt dies ein Betreiber-Einzelbeleg und wird gemäß bisheriger Willeführ-Präzedenz nicht in Kontaktfelder übernommen. Preise: ANKAUF – nur tagesaktuelle, nicht bezifferte Preisstellung; VERKAUF – keine Preisliste; GEBÜHREN – keine separate Gebührentafel. Alte Landstraße 2a ist ein möglicher Geocoding-Kandidat, aber Adresse zunächst zweitbestätigen. Quelle(n): https://awrec.de/schrotthandel-schrottankauf/; https://awrec.de/impressum/; https://awrec.de/kontakt/.]
 
 ### Recherche 01.10.2026
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zu „Schilling Tim“ in **Alsdorf, Eifelkreis Bitburg-Prüm (RP)** liegen nur Verzeichnis-Leads vor: Hauptstr. 36, 54668 Alsdorf. Betreiberidentität und Seed-Leistung „Autoentsorgung“ sind nicht verifiziert. Gleichnamige Anbieter im nordrhein-westfälischen Alsdorf sind nicht als dieser Betrieb zu behandeln.
+
+**Preise:** keine belegte Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung. **Geocoding:** Hauptstr. 36 ist nur ein Kandidat aus Verzeichnissen und nicht geocodierbar, bis der Betrieb/Standort direkt bestätigt ist.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: erneute Namens-/Ortsprüfung ergab keine belegfähige Betreiber-, Register- oder Kommunalquelle für „Schilling Tim“ in Alsdorf (54668, Eifelkreis Bitburg-Prüm). Hauptstr. 36 bleibt ein Verzeichnis-Lead; Seed-Angabe „Autoentsorgung“ unbestätigt. Gleichnamige Treffer aus Alsdorf (52477, NRW) sind aufgrund der Ortsabweichung ausgeschlossen. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren Preisangaben. Adresse nicht geocodieren, bevor Identität und Annahmestelle bestätigt sind. Quelle(n): keine neue Primärquelle; vorangegangene Verzeichnis-Leads Gelbe Seiten/Das Örtliche.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

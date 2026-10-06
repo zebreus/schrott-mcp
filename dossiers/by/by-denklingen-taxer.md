@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Taxer GmbH ist im Seed mit zwei widersprüchlichen Straßenangaben aus Verzeichnissen verknüpft; der Betreiber-Domainabruf ist weiterhin gestört. Weder aktive Annahme noch genaue Anschrift sind primär bestätigt. Status `pruefung`; nicht geocodieren.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Erneuter Direktabruf von taxer-gmbh.de endete in einem Verbindungs-Timeout; das bestätigt keine Schließung und löst den Widerspruch zwischen Dr.-Herbert-Quandt-Str. 10 und Dr.-Manfred-Hirschvogel-Str. 10 nicht auf. Es wurde kein Betreiber-/Registerbeleg zur konkreten Annahmestelle gefunden; bestehende Adress-/Telefonangaben bleiben Leads, Status `pruefung`. Preise: ANKAUF – keine bestätigte Metallpreisliste; VERKAUF – keine Liste; GEBÜHREN – keine aktuelle Gebühren-/Containerpreisliste belegt. Beide Straßenangaben nicht geocodieren, bis der Betreiber die richtige Anschrift bestätigt. Quelle(n): https://taxer-gmbh.de/ (Timeout beim Direktabruf); https://schrottplatz-info.de/schrottplatz/Denklingen/Taxer-GmbH-; https://www.wlw.de/ (abweichender Adress-Lead; siehe Recherche 01.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
