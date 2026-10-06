@@ -6,6 +6,8 @@ state: BY
 city: Kaufbeuren
 street: Im Hart 13
 postcode: '87600'
+lat: 47.8563301
+lon: 10.6058706
 phone: 08341 9525-0
 email: info@dorr.de
 opening_hours: ''
@@ -41,3 +43,4 @@ Die offizielle Dorr-Niederlassungsübersicht weist die Betriebsstätte Kaufbeure
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Der direkte Abruf der offiziellen Dorr-Niederlassungsübersicht löst den Adresskonflikt: Dorr GmbH & Co. KG, Betriebsstätte Kaufbeuren = Im Hart 13, 87600 Kaufbeuren, 08341 9525-0, info@dorr.de; Dieselstraße 32 ist ausdrücklich Betriebsstätte Kempten und zusätzlich Adresse der getrennten August Kutter Altfahrzeug-Annahmestelle. Das Impressum nennt Dorr GmbH & Co. KG, HRA 3309, AG Kempten. Deshalb die Seedanschrift korrigiert und Website/Kontakt ergänzt. Keine belegte Kaufbeurer Altmetallannahme oder Preisliste: Ankauf — keine Raten; Verkauf — keine Liste; Gebühren — keine örtlichen Tarife. Im Hart 13 zur Geokodierung vormerken. Quelle(n): https://www.dorr.de/niederlassungen; https://www.dorr.de/impressum]
+- [Geodaten 06.10.2026: Nominatim findet für die offizielle Kaufbeurer Betriebsstättenanschrift Im Hart 13, 87600 Kaufbeuren den Gebäude-Way 89994206 mit passender Hausnummer, Straße und PLZ; Gebäudeadresspunkt 47.8563301, 10.6058706. Dies ist die Lage der bestätigten Betriebsstättenadresse, kein Beleg für öffentliche Schrottannahme, Einfahrt oder Waage; `status: unbekannt` bleibt. Quelle(n): https://nominatim.openstreetmap.org/search?street=Im%20Hart%2013&postalcode=87600&city=Kaufbeuren&country=Deutschland&format=jsonv2&addressdetails=1&limit=5 ; https://www.openstreetmap.org/way/89994206 (© OpenStreetMap contributors, ODbL; Abruf 06.10.2026).]

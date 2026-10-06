@@ -6,6 +6,8 @@ state: NW
 city: Neuss
 street: Osterather Straße 6
 postcode: '41460'
+lat: 51.2202979
+lon: 6.6845469
 phone: 0151 70195329
 email: info@pundp-bender.de
 opening_hours: Mo-Fr 09:00-16:00; Sa-So geschlossen
@@ -31,6 +33,10 @@ P&P Bender GmbH ist über die eigene Website und das Impressum als Neusser Recyc
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Erstmals direkt auf der Betreiberseite gegengeprüft: Impressum nennt P&P Bender GmbH, Osterather Straße 6, 41460 Neuss, Geschäftsführer Philipp und Patrick Bender, AG Neuss HRB 23171; Kontaktseite nennt Philipp Bender 0151 70195329, Patrick Bender 0151 56085783, info@pundp-bender.de und Mo–Fr 09:00–16:00 (Sa/So geschlossen). Die Seite „Schrott und Metallankauf“ beschreibt Ankauf von Metallen/Schrotten für Industrie und Unternehmen, flexible Abholung nach Bewertung/Angebot und prompten Zahlungseingang. Website/Impressum sind live; `website_status` und Händlerstatus auf aktiv gesetzt, Anschrift/Kontakt/Öffnungszeiten ergänzt. Keine festen €/kg-Ankaufpreise, Verkaufspreisliste oder gesonderte Gebühren veröffentlicht; „Top Preise“ ist Werbeaussage, kein konkreter Tarif. Für Geocoding: Osterather Straße 6, 41460 Neuss. Quelle(n): https://www.pundp-bender.de/impressum ; https://www.pundp-bender.de/ (Kontaktbereich) ; https://www.pundp-bender.de/schrott-und-metallankauf ; https://www.pundp-bender.de/uber-uns ; Gegenprobe/HRB: https://firmeneintrag.creditreform.de/41460/5270289373/P_P_BENDER_GMBH]
+
+### Geodaten 06.10.2026
+
+- [Geodaten 06.10.2026: Nominatim findet für die durch Betreiber-Impressum und Kontaktseite bestätigte Anschrift Osterather Straße 6, 41460 Neuss den Gebäude-Way 93864004 mit passender Hausnummer, Straße und PLZ; Gebäudeadresspunkt 51.2202979, 6.6845469. Der Punkt bezeichnet das adressierte Gebäude, nicht eine vermessene Einfahrt oder Annahmestelle. Quelle(n): https://nominatim.openstreetmap.org/search?street=Osterather%20Stra%C3%9Fe%206&postalcode=41460&city=Neuss&country=Deutschland&format=jsonv2&addressdetails=1&limit=5 ; https://www.openstreetmap.org/way/93864004 (© OpenStreetMap contributors, ODbL; Abruf 06.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
