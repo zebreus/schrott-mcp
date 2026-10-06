@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite bewirbt Abholung von Altmetall und Schrott bei Privat- und Firmenkunden in Mannheim und Umgebung; bei größeren Mengen wird ein Containerdienst mit 2–40 m³ genannt. Die Seiten nennen weder Abholgebühr noch Mindestmenge oder feste Abholzeiten. `pickup_json` bleibt mangels unabhängiger Bestätigung leer.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026 (Feedback #4765)
+
+- [Nachprüfung 06.10.2026: Die live gelesenen Betreiberseiten präzisieren das Angebot: Abholung kleiner und großer Altmetall-/Schrottmengen bei Privatleuten und Firmen in Mannheim und Umgebung; für größere Mengen Containerdienst mit 2 bis 40 m³, außerdem Ladekran und Demontage größerer Maschinen vor Ort. Eine kostenlose Abholung, Mindestmenge, feste Abholtage oder Zeitfenster werden nicht zugesagt; „kostenlos anfragen“ bezieht sich auf die Anfrage und belegt keine kostenfreie Abholung. Die Ausschlussseite nennt Batterien/Akkus und Elektrogeräte als nicht angenommen, während die Startseite Autobatterien aufführt. Die Annahme von Batterien muss daher im Einzelfall geklärt werden. Root, Über-uns, Stadtseite, Impressum und Ausschlussseite gehören zur selben Betreiber-Domain und sind keine unabhängigen Zweitquellen. `pickup_json` bleibt nach Quellenstandard leer; status `pruefung` unverändert. Quelle(n): https://fett-schrott.de/ ; https://fett-schrott.de/ueber-uns.html ; https://fett-schrott.de/mannheim-schrott-abholen.html ; https://fett-schrott.de/nicht-erlaubt.html ; https://fett-schrott.de/impressum.html (Abruf 06.10.2026)]
 
 ### Korrektur 04.10.2026 (Feedback #4765)
 

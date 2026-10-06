@@ -9,8 +9,8 @@ postcode: '15366'
 phone: 03342 234480
 email: info@kfz-werkstatt-neuenhagen.de
 opening_hours: Mo-Fr 7-18
-website: ''
-website_status: unbekannt
+website: https://pries-und-friese.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die erreichbare Pries-&-Friese-Domain dokumentiert eine Übergabe der Aufträge an die LFP KFZ-Werkstatt oHG zum 02.01.2023 am bisherigen Standort; das aktuelle LFP-Impressum nennt HRA 4156 FF und Holger Pries als Vertreter. Die Altseite bietet weiterhin Autoverwertung an, während der aktuelle LFP-Auftritt nur Werkstattleistungen aufführt. Nachfolge und Website sind belegt, die heutige Annahme/Verwertung von Altfahrzeugen bleibt offen.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026 (Feedback #4763)
+
+- [Nachprüfung 06.10.2026: Die Website ist erreichbar und keine fremde Fehlzuordnung: Der Root-Auftritt von Pries & Friese erklärt ausdrücklich die Übergabe an die LFP KFZ-Werkstatt Neuenhagen zum 02.01.2023 und die weitere Bearbeitung aller Aufträge am bisherigen Standort. Das aktuelle LFP-Impressum nennt Rosa-Luxemburg-Damm 1, HRA 4156 FF und Holger Pries als Vertreter; ein North-Data-Registerspiegel zum HRA 4156 bestätigt den Standort Neuenhagen und führt als Unternehmensgegenstand u. a. Verwertung/Handel mit Autoersatzteilen. Die auf pries-und-friese.de weiterhin erreichbare Autoverwertungsseite beschreibt Altautoentsorgung und Abholung, ist aber mit der Nachfolge-/LFP-Fußzeile und dem aktuellen LFP-Impressum nicht als Beleg für eine heute tatsächlich angebotene Altfahrzeugannahme ausreichend. Der aktuelle LFP-Auftritt nennt Werkstatt-, nicht ausdrücklich Autoverwertungsleistungen. Daher Website auf die erreichbare Übergangs-/Alt-Domain gesetzt und `website_status: aktiv`; Name und `status: pruefung` bleiben unverändert, keine Schließung behauptet. Die Frage, ob LFP aktuell noch Fahrzeuge annimmt/verwertet und ob die frühere Zertifizierung fortgilt, bleibt offen. Quelle(n): https://pries-und-friese.de/ ; https://pries-und-friese.de/autoverwertung/ ; https://pries-und-friese.de/kontakt/ ; https://pries-und-friese.de/impressum/ ; https://kfz-werkstatt-neuenhagen.de/ ; https://kfz-werkstatt-neuenhagen.de/impressum/ ; https://www.northdata.de/LFP+KFZ-Werkstatt+oHG,+Neuenhagen (HRA 4156; Registerspiegel, Abruf 06.10.2026)]
 
 ### Korrektur 04.10.2026 (Feedback #4763)
 

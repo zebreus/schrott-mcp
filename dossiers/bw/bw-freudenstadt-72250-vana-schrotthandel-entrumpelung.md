@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite bewirbt Schrottabholung mit eigenem LKW/Kran für Privatkunden, Handwerk, Landwirtschaft und Industrie. Zur Kostenfreiheit nennt sie regional kostenlose Abholung, im Preisabschnitt aber eine nicht bezifferte Mengenschwelle; genaue Mindestmenge und Terminfenster fehlen. `pickup_json` bleibt mangels unabhängiger Bestätigung leer.
 
 ## Timeline
+
+### Nachprüfung 06.10.2026 (Feedback #4766)
+
+- [Nachprüfung 06.10.2026: Live-Auftritt und Impressum bestätigen VANA Services, Inhaber Vasil Radev, Hermann-Hesse-Straße 16, 72250 Freudenstadt sowie die Betreiber-Kontaktdaten. Die Website bewirbt Abholung mit eigenem LKW/Kran für Privatleute, Handwerksbetriebe, Landwirte und Industrie; für größere Mengen nennt sie Einsätze in ganz Baden-Württemberg. Die Start-/Abholtexte werben regional mit kostenloser Abholung, der Preisabschnitt schränkt dies jedoch auf „ab einer bestimmten Menge“ ein, ohne die Schwelle zu beziffern. Abholung/Preis/Termin sollen angefragt werden; keine konkreten Mindestmengen oder Zeitfenster. Die Seiten und das Impressum sind eine Betreiberquelle; ein unabhängiger Beleg für die Abholbedingungen wurde nicht lesbar gefunden (Creditreform-Direktabruf 403, daher nicht als Zweitbeleg gewertet). `pickup_json` bleibt nach Quellenstandard leer; insbesondere keine pauschal bedingungslose Kostenfreiheit ableiten. Quelle(n): https://vana-service.de/ ; https://vana-service.de/impressum/ ; https://firmeneintrag.creditreform.de/72250/7230477767/VASIL_RADEV_SCHROTTHANDEL (Direktabruf 403, nur Prüfpfad; Abruf 06.10.2026)]
 
 ### Korrektur 04.10.2026 (Feedback #4766)
 

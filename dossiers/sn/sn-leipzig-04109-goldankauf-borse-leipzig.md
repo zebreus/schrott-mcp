@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 06.10.2026 (Feedback #4764)
+
+- [Recherche 06.10.2026: Die aktuelle Filialseite führt die Adresse ausdrücklich als „Brühl 65 / 04109 Leipzig“; die Stadt Leipzig ordnet die Straße Brühl dem Stadtbezirk Mitte/Ortsteil Zentrum zu. Das bestätigt die Ortsfeld-Trennung `city: Leipzig`, `postcode: '04109'`; es gab keine Anschriftsänderung und keine neue Geocodierung. Die kommunale Quelle bestätigt nicht selbst Hausnummer oder Händler. Die Website-Impressumsseite nennt als Verantwortlichen Herrn Ilhan Kör, aber keine Gesellschaft/HRB; damit ist die dokumentierte Ausnahme für eine allein ausreichende Handelsregister-bestätigte Betreiberquelle nicht belegt. Das Leipziger Amtsblatt 23/2011 enthält zwar eine Anzeige derselben Goldankauf-Börse für Brühl 65, 04109 Leipzig, ist aber alt und als Anzeige kein unabhängiger aktueller Betreiberbeleg. Daher keine zusätzlichen aktuellen Kontaktfelder übernommen; eine unabhängige aktuelle Bestätigung für Händler/Einheit am Standort bleibt offen. Quelle(n): https://www.goldankauf-boerse.de/standorte/leipzig/; https://www.goldankauf-boerse.de/unternehmen/impressum/; https://www.leipzig.de/rathaus/unsere-stadt/gebietsgliederung-und-strassennamen/strassennamen/strassennamenverzeichnis/strasse/projekt/bruehl; https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/01.1_Geschaeftsbereich_OBM/12_Ref_Kommunikation/Amtsblatt/2011/amtsblatt_2011-23.pdf]
+
 ### Korrektur 04.10.2026 (Feedback #4764)
 
 - [Korrektur 04.10.2026: Die PLZ 04109 steht bereits separat in postcode; die Betreiberseite bestätigt Brühl 65, 04109 Leipzig. city „Leipzig 04109“ ist nicht leer und wird gemäß Fill-only-Regel nicht umgeschrieben. website_status auf aktiv gesetzt, da die Betreiberseite mit Filialangaben live erreichbar ist. Keine Adressänderung und keine Neu-Geocodierung; Quelle(n): https://www.goldankauf-boerse.de/standorte/leipzig/; https://www.goldankauf-boerse.de/]

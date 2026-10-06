@@ -37,6 +37,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 05.10.2026: city von „Aschaffenburg-Obernau 63743“ zu „Aschaffenburg“ normalisiert; postcode 63743 bleibt separat. Die frühere Notiz berief sich auf eine Fill-only-Regel, die das README nicht vorgibt: belegte nichtleere Felder dürfen mit dokumentierter Evidenz korrigiert werden. Standortseite und Impressum nennen Mühlweg 10, 63743 Aschaffenburg; das Impressum nennt HR 7526, NorthData stimmt mit Gesellschaft und Anschrift überein. Straße, Telefon, E-Mail und Website bleiben unverändert; Öffnungszeiten sind weiterhin nicht belegt. Die Adresse selbst änderte sich nicht, daher keine neue Geocodierung. Quelle(n): https://hensel-recycling.com/unternehmen/standorte/; https://hensel-recycling.com/impressum/; https://www.northdata.com/Hensel%20Recycling%20GmbH,%20Aschaffenburg/HRB%207526]
 
+### Nachprüfung 06.10.2026 (Feedback #4761)
+
+- [Nachprüfung 06.10.2026: Die aktuelle Betreiber-Standortübersicht führt Hensel Recycling GmbH unter Deutschland mit Mühlweg 10, 63743 Aschaffenburg, +49 6028 1209-0 und info@hensel-recycling.com; das Impressum bestätigt dieselben Anschrifts- und Kontaktdaten sowie Registergericht Amtsgericht Aschaffenburg, HR 7526. Die getrennten Orts- und PLZ-Felder (Aschaffenburg / 63743) und die Standortadresse sind bestätigt. Keine belastbare Öffnungszeit gefunden; Straße und Geokoordinaten bleiben unverändert. Quelle(n): https://hensel-recycling.com/unternehmen/standorte/; https://hensel-recycling.com/impressum/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Katalysatoren (Auto+Industrie), E-Schrott/Platinen, Edelmetalle

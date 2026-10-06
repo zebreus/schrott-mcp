@@ -6,7 +6,7 @@ state: TH
 city: Erfurt
 street: Bahnhofstr. 38
 postcode: '99084'
-phone: 0361/65782470
+phone: '0361 / 65 78 24 70'
 email: ''
 opening_hours: Mo-Fr 10:00-18:00, Sa 10:00-15:00, weitere Termine nach Vereinbarung
 website: https://www.goldankauf-boerse.de
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 06.10.2026 (Feedback #4768)
+
+- [Recherche 06.10.2026: Die Filialseite druckt „0361 / 65 78 24 70“ und verlinkt auf `tel:036165782470`; das Impressum gibt dieselbe Ortsnetznummer als „+49 (0)361 / 65 78 24 70“ an. Der beanstandete Wert ist numerisch gleich, nicht eine abweichende Rufnummer. Die Frontmatter-Schreibweise wurde zur sichtbaren Filialformatierung vereinheitlicht; Ziffern und Anschlussbehauptung bleiben unverändert. Beide Belege stammen von derselben Betreiber-Domain; das Impressum nennt Herrn Ilhan Kör, aber keine Handelsregisterangabe, daher ist kein unabhängiger Zweitbeleg zur Erreichbarkeit belegt. Quelle(n): https://www.goldankauf-boerse.de/standorte/erfurt/; https://www.goldankauf-boerse.de/unternehmen/impressum/]
 
 ### Korrektur 04.10.2026 (Feedback #4768)
 

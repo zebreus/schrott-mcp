@@ -28,6 +28,14 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 06.10.2026 (Feedback #4767)
+
+- [Recherche 06.10.2026: Der Betreiberauftritt bleibt widersprüchlich: Impressum nennt Mo–Fr 9:00–18:00 und Sa 9:30–14:00; Startseite nennt Mo–Fr 9:00–17:45 und Sa 9:00–13:45; Anfahrt nennt Mo–Fr 9:00–17:45 sowie Sa 9:00–13:00 im Sommer, 15:00 im Winter und 16:00 zur Weihnachtszeit. Die Startseite und Anfahrt stimmen werktags überein, aber nicht vollständig samstags; das Impressum weicht an beiden Tagen ab. Der Zeitstempel der Preistabelle auf der Startseite (06.10.2026) datiert nicht erkennbar den Öffnungszeitenblock, und die Saisonangabe der Anfahrt ist nicht datiert. Da alle drei Seiten derselben Betreiber-Domain angehören und keine belastbare Vorrangregel/aktuelle Saison ableitbar ist, bleibt `opening_hours` leer. Offen: Welche Zeiten gelten aktuell, und wann genau gelten die saisonalen Samstagszeiten? Quelle(n): https://scheideanstaltka.de/impressum-2/; https://scheideanstaltka.de/; https://scheideanstaltka.de/anfahrt/]
+
+### Produktionsabgleich 06.10.2026
+
+- [Produktionsabgleich 06.10.2026: Obwohl `opening_hours` seit der Dossierkorrektur vom 05.10. leer ist, enthielt `public.db` noch den alten Impressumswert mit Konflikthinweis. Die Seed-Logik bewahrt gespeicherte Werte, wenn das Dossierfeld leer ist; daher wurde der widersprüchliche Produktionswert nach Backup und mit Slug-/Altwert-Guard gezielt geleert. Die uneinheitlichen Betreiberangaben bleiben ungelöst; Öffnungszeiten werden nicht mehr als aktuell behauptet. Keine weitere Feld- oder Geokoordinatenänderung.]
+
 ### Korrektur 04.10.2026 (Feedback #4767)
 
 - [Korrektur 04.10.2026: Der Widerspruch der Öffnungszeiten ist bestätigt: Das Impressum nennt Mo-Fr 9:00-18:00 und Sa 9:30-14:00; die Anfahrtsseite weist abweichende Werktags- und saisonale Samstagszeiten aus. Da beide Angaben vom selben Betreiber stammen und kein eindeutiger Vorrang belegt ist, bleibt das nichtleere opening_hours-Feld unverändert; Konflikt bleibt offen; Quelle(n): https://scheideanstaltka.de/impressum; https://scheideanstaltka.de/anfahrt]
