@@ -6,6 +6,8 @@ state: HE
 city: Hanau-Klein-Auheim
 street: Am Wiesengrund 27
 postcode: '63456'
+lat: 50.0935351
+lon: 8.9313682
 phone: '+49 6181 908061-10'
 email: ''
 opening_hours: 'Mo-Fr 09:30-18:30; Sa nach Vereinbarung (Termin erforderlich)'
@@ -27,6 +29,10 @@ provenance_origin: prose
 Lokaler Edelmetallankauf und -verkauf in Hanau-Klein-Auheim. Die lokale Annahme und das Angebot werden durch einen unabhängigen GoldSilberShop-Vertriebspartner-Eintrag bestätigt; die Unternehmensseite verlinkt diesen Partner.
 
 ## Timeline
+
+### Koordinaten 06.10.2026
+
+- [Koordinaten 06.10.2026: Betreiber-/Partnerquellen nennen den Standort Am Wiesengrund 27, 63456 Hanau-Klein-Auheim. Der adressgenaue OSM/Nominatim-Treffer für Hausnummer 27 ist Gebäudepunkt Way 217314431, 50.0935351, 8.9313682. Gespeichert wird die vorhandene Standortadresse, nicht eine vom Rust-Code ermittelte Geokoordinate. Quelle(n): https://www.trigonus.de/anfahrt-kontakt/; https://www.goldsilbershop.de/goldankauf/gold-verkaufen-hanau.html; https://www.openstreetmap.org/way/217314431]
 
 ### Recherche 05.10.2026
 

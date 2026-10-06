@@ -6,6 +6,8 @@ state: HE
 city: Hanau
 street: Canthalstraße 2-4
 postcode: '63450'
+lat: 50.1237891
+lon: 8.9140307
 phone: '+49 6181 18 065-0'
 email: container@rmr-recycling.de
 opening_hours: ''
@@ -27,6 +29,10 @@ provenance_origin: prose
 RMR führt eine eigene Hanauer Niederlassung an der Canthalstraße 2-4, derselben Adresse wie Theo Steil. Die Rechtsträger sind verschieden; lokale Annahmebedingungen und Öffnungszeiten von RMR sind nicht separat belegt. Der Frankfurter Hauptstandort ist separat im Dossier `he-frankfurt-rhein-main-rohstoffe` dokumentiert.
 
 ## Timeline
+
+### Koordinaten 06.10.2026
+
+- [Koordinaten 06.10.2026: Die Betreiber-Kontaktseite nennt die Hanauer Niederlassung an Canthalstraße 2-4, 63450 Hanau. Der adressgenaue OSM/Nominatim-Treffer ist der Gebäudepunkt (Way 199293213) 50.1237891, 8.9140307. Die Koordinate bezeichnet die verifizierte Geschäftsadresse, nicht eine zusätzlich belegte Annahmestelle. Sie wird nur als Dossierwert gespeichert; die Rust-Anwendung führt kein Geocoding aus. Quelle(n): https://rmr-recycling.de/kontakt/; https://www.openstreetmap.org/way/199293213]
 
 ### Recherche 05.10.2026
 

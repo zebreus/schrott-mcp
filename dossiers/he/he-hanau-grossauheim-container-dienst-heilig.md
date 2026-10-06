@@ -6,6 +6,8 @@ state: HE
 city: Hanau-Großauheim
 street: Lise-Meitner-Straße 8
 postcode: '63457'
+lat: 50.1113313
+lon: 8.9358913
 phone: '06181 14577'
 email: info@containerdienst-heilig.de
 opening_hours: ''
@@ -27,6 +29,10 @@ provenance_origin: prose
 Hanauer Containerdienst mit ausdrücklich beworbenem Altmetallankauf. Eine öffentliche Selbstanlieferung ist nicht belegt; Metallangebote und Tagespreise sind telefonisch zu erfragen.
 
 ## Timeline
+
+### Koordinaten 06.10.2026
+
+- [Koordinaten 06.10.2026: Das Betreiber-Impressum nennt Lise-Meitner-Straße 8, 63457 Hanau. Der adressgenaue OSM/Nominatim-Treffer ist Gebäude 8 (Way 1196750590), 50.1113313, 8.9358913; OSM klassifiziert das Gebäude als Apartments. Die Koordinate bildet daher die veröffentlichte Kontaktadresse ab und belegt keinen Schrottplatz oder öffentliche Selbstanlieferung; das Dossier bleibt auf Abholung/Containerdienst begrenzt. Koordinate als Dossierwert, kein Geocoding in der Rust-Anwendung. Quelle(n): https://main-containerdienst.de/impressum/; https://www.openstreetmap.org/way/1196750590]
 
 ### Recherche 05.10.2026
 
