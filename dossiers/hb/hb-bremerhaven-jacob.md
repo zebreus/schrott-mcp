@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ungeklärte Betreiber-/Standortkette: Der Verzeichnis-Lead ordnet „Jacob GmbH & Co. KG“ Am Wischacker 2, 27576 Bremerhaven zu, aber die auffindbare Kurt Jacob GmbH & Co. KG (HRA 3064 BHV) wurde 2019 aufgelöst; Gleichheit mit dem Dossier und der Seed-Adresse ist nicht bewiesen. Eine kommunale Anlagenübersicht von 2024 nennt an Am Wischacker 2 stattdessen REDUX Recycling GmbH, ohne belegte Übernahme-/Nachfolgekette. Die Jacob-Domain leitet auf ein allgemeines Containerdienstportal. Keine Jacob zurechenbare numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden; allgemeine Container-Entsorgungskosten sind Servicegebühren eines anderen Anbieters, keine Schrottankaufspreise. Identität, heutiger Betreiber und Anlieferung offen; nicht geocodieren, solange die Standortzuordnung ungeklärt ist.
 
 ## Timeline
 

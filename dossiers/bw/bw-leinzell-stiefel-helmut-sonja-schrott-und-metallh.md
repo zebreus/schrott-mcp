@@ -6,6 +6,8 @@ state: BW
 city: Leinzell
 street: 'Hofwiesenweg 6/1'
 postcode: '73575'
+lat: 48.848579
+lon: 9.877973
 phone: '07175 909313'
 email: ''
 opening_hours: ''
@@ -24,9 +26,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der kommunale Firmendatensatz führt Helmut Stiefel am Hofwiesenweg 6/1 als Schrottentsorgung und bestätigt Adresse, Telefonnummer sowie einen präzisen kommunalen Kartenpunkt. Er nennt weder Ankaufspreise noch Annahme-/Abholbedingungen. Die zusätzliche Zuordnung von Sonja und die Abgrenzung zu Karl Stiefel am benachbarten Hofwiesenweg 6 bleiben ungeklärt; keine Preis- oder Gebührenliste gefunden.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Den von der Gemeinde Leinzell eingebundenen Cross-7-Firmendatensatz nochmals direkt ausgelesen. Er führt Helmut Stiefel, Schrottentsorgung, Hofwiesenweg 6/1, 73575 Leinzell, 07175 909313 und Koordinate 48.848579, 9.877973; Erstellungs-/Änderungsdatum 24.03.2026. Adresse und Telefon stimmen mit dem Dossier überein, weshalb der kommunale Kartenpunkt als Ortsgeokodierung übernommen wurde. Der Eintrag nennt nur Schrottentsorgung, nicht Ankauf, Preise, Annahmezeiten oder Abholung. Sonjas Betreiberrolle bleibt unbestätigt; in Leinzell existieren weitere Stiefel-Schrott-Leads am benachbarten Hofwiesenweg, daher keine Zusammenführung. Quelle(n): https://www.leinzell.de/de/wirtschaft/firmen ; https://api.cross-7.de/public/geo/4123/objects/42696056]
 
 ### Recherche 04.10.2026
 

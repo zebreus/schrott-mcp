@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klärfall: nur übereinstimmende Branchenverzeichnis-Leads für Am Lindenwäldle 24, 79114 Freiburg-Haslach und Telefon 0761 471321; kein Betreiber- oder Registerbeleg. Adresse, Telefon und Tätigkeit bleiben deshalb außerhalb der Frontmatter. Keine Preis-/Gebührenliste und kein belastbarer Geocoding-Punkt; vor Koordinaten- oder Kontaktübernahme erst Betreiber/Identität bestätigen.
 
 ## Timeline
 

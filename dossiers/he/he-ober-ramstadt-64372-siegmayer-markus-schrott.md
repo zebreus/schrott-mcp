@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Verzeichnisspur nennt konsistent das Telefon 0179 5979912, aber widersprüchliche Adressen: Am Vogelherd 5a in Ober-Ramstadt oder In den Bornwiesen 1c in Darmstadt. Ob Umzug, Zweitstandort oder veraltete Einträge vorliegen, ist nicht belegt; die Sternebewertung ist kein Existenz- oder Betriebsnachweis. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Wegen des Adresskonflikts weder Adresse noch Koordinate ergänzen; zuerst Betreiber/aktuelle Annahmestelle verifizieren.
 
 ## Timeline
 

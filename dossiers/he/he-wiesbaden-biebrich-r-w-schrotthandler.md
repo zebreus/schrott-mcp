@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die bisherige Spur besteht aus zwei Verzeichniseinträgen mit übereinstimmender Anschrift Im Mühltal 12, 65187 Wiesbaden-Biebrich, und Telefon 0178 2945870. Ohne Betreiber-, Register- oder kommunalen Beleg bleiben Identität, Aktualität und ein möglicher mobiler Annahmebetrieb ungeklärt; die Lead-Daten wurden nicht in das Frontmatter übernommen. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Kein Geocoding, solange kein bestätigter Betriebs- oder Kundenannahmeort vorliegt.
 
 ## Timeline
 

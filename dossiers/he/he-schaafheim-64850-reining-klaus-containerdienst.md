@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klärfall zum früheren Betreiber Klaus Reining. Die direkt abgerufene aktuelle Containerdienst-Website erklärt, dass Salih Gencsoy seit Mai 2020 den früheren Containerdienst Reining unter neuem Namen und neuer Inhaberschaft fortführt. Das ist ein Nachfolger an Ringstraße 7 und kein Beleg für die Fortexistenz von Klaus Reining am alten Datensatz Karlstraße 1. Keine Kontakt- oder Standortdaten zwischen den Personen übertragen.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Der Direktabruf der Nachfolger-Website bestätigt weiterhin Salih Gencsoy, Containerdienst Schaafheim, Ringstraße 7, 64850 Schaafheim, Kontakt 0170 8648439/06073 7447301 und den Betrieb seit Mai 2020 als neuer Inhaber des von Klaus Reining gegründeten Dienstes. Die Website nennt Transport/Entsorgung ungefährlicher Abfälle, Container und Schrott/Metalle; sie enthält keine numerische Ankaufspreisliste, Verkaufspreise oder Container-/Entsorgungsgebühren, sondern verweist auf individuelle Kontaktaufnahme. `/impressum` liefert 404; die erreichbare Datenschutz-/Impressumsseite zeigt Anschrift und Telefonnummer, aber keine nachvollziehbare vollständige Rechts-/Registerkette. Das bekräftigt die Trennung zum historischen Klaus-Reining-Datensatz, belegt aber weder dessen Abmeldung noch einen aktuellen Standort Karlstraße 1. Keine Frontmatter-Übertragung, keine Koordinate für diesen Datensatz. Offene Fragen: Abmeldung/Übernahme des alten Rechtsträgers und aktueller Status des Klaus-Reining-Eintrags; separate Nachfolger-Zuordnung samt Owner-Gate, falls gewünscht. Quelle(n): https://containerdienst-schaafheim.de/ ; https://containerdienst-schaafheim.de/datenschutz]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

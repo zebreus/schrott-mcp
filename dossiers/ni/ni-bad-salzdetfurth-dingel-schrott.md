@@ -27,13 +27,17 @@ provenance_origin: table
 
 **Dingel Schrott in Bad Salzdetfurth** bleibt ein Verzeichnislead ohne belegten Inhaber, Adresse oder Betreiberwebsite. Wiederholte Recherchen einschließlich der aktuellen Welle erbrachten keinen zulässigen Doppelbeleg. Das bedeutet keine bewiesene Geschäftsaufgabe; Such-/Registerabwesenheit ersetzt keinen Schließungsnachweis.
 
-Der in einem Ortsverzeichnis gefundene **ZAH Zweckverband Abfallwirtschaft Hildesheim** ist kein belegter Alias oder Nachfolger von Dingel. Kommunale Entsorgungsangebote dürfen nicht als privater Metallankauf attribuiert werden. Offen ist zunächst der vollständige Gewerbename bzw. die ursprüngliche Verzeichnisquelle; erst danach lassen sich Annahme, Abholung und Vergütung prüfen. Keine numerische Ankauf-, Verkaufs- oder Gebührenliste für Dingel belegt.
+Zwei aggregierte Profile führen „Dingel Schrott“ an Hinter dem Dorfe 25, 31162 Bad Salzdetfurth (Ortsteil Listringen); lokaleschrottplatz.de behauptet Annahme zahlreicher Metalle und Mindestmengen von 100 kg Eisenmetallen/1 kg Nichteisenmetallen, 11880 ergänzt Tel. 0173 5664616. Der 11880-Eintrag wurde am 04.10.2026 aktualisiert, weist aber Eintragsdaten vom 11.11.2025 aus und keine Inhaberbestätigung, Website oder Öffnungszeiten. Das sind weiterhin Verzeichnisleads ohne Betreiber-/Registerbeleg; Adresse/Telefon/Annahmebedingungen bleiben aus Frontmatter. Der **ZAH Zweckverband Abfallwirtschaft Hildesheim** ist kein belegter Alias oder Nachfolger. Mindestmengen sind keine Preise; numerische Ankauf-, Verkaufs- oder Gebührenliste für Dingel ist nicht belegt.
 
 ## Timeline
 
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Erneute Namens-/Ortssuche und direkt gelesene 11880-Suche Schrotthandel Bad Salzdetfurth ohne qualifizierten Dingel-Betreiberbeleg. Keine bloße Wiederholung von Portal-Negativbefunden als Schließungsbeweis. Überblick priorisiert vollständige Gewerbeidentität/Ursprungsquelle und grenzt kommunalen ZAH weiterhin ohne behauptete Betreiberkette ab. Frontmatter unverändert, status pruefung; Quelle(n): https://www.11880.com/suche/schrotthandel/bad-salzdetfurth; vorhandene Recherche 03.10.2026]
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: lokaleschrottplatz.de nennt als Verzeichnislead Hinter dem Dorfe 25, 31162 Bad Salzdetfurth, Metallannahme und Mindestmengen 100 kg Eisen/1 kg NE. Der direkt gelesene 11880-Eintrag nennt dieselbe Adresse im Ortsteil Listringen und Tel. 0173 5664616, wurde 04.10.2026 aktualisiert, weist aber Eintragsdaten vom 11.11.2025 aus und keine Inhaberbestätigung; Website/Öffnungszeiten fehlen. Zwei Verzeichnisse sind kein Betreiber-/Registerbeleg. Keine konkreten Ankaufpreise, Verkaufspreise oder Gebührenliste; Mindestgewichte sind Annahmebedingungen, nicht Preisangaben. Frühere Aussage „kein qualifizierter Betreiberbeleg“ bleibt unverändert. Frontmatter bleibt leer; geocodieren erst nach Primärbestätigung. Quelle(n): https://lokaleschrottplatz.de/dingel-schrott/ ; https://www.11880.com/branchenbuch/bad-salzdetfurth/060440092B112739424/dingel-schrott.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

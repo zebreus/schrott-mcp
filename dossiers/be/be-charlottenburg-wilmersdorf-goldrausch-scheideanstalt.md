@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+GoldRausch Scheideanstalt GmbH ist ein historischer Rechtsträger, keine aktuell bestätigte Annahmestelle: HRB 145771 B dokumentiert die Namenskette bis GoldRausch Global GmbH; die Hamburger PYT-Global GmbH ist laut NorthData/Handelsregister 2020 gelöscht. Berliner Straße 19 ist nur historisch mit der Firma verknüpft. Andere gleichnamige Gesellschaften und die heutige Solidus Scheide- und Analyseanstalt sind nicht als Nachfolger belegt. Vorhandene Adresse/Telefon bleiben ungeprüfte Alt-Verzeichniswerte; keine aktuellen Ankaufspreise, Verkaufspreise oder Gebühren und kein Standort für Geocoding bestätigt.
 
 ## Timeline
 

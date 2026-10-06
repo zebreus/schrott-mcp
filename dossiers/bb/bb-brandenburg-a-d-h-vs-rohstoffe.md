@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Register-/Gruppenbild stützt VS-Rohstoffe GmbH als industriellen Schrott-/Rohstoffhändler, aber nicht den aktuellen Betrieb einer öffentlichen Annahmestelle: HR-/NorthData-Spur nennt Friedrich-Franz-Straße 8, während 11880/Cylex Nr. 11 führen. Die Villmann-Website weist Nr. 8 aktuell ITB EVU und HLB zu, nicht VS-Rohstoffe. Website, Telefon, Adresse und Betriebsort daher nicht als aufgelöste Betreiberangaben behandeln. Keine öffentlichen Ankauf-/Verkaufspreise oder Gebühren gefunden; Geocoding erst nach bestätigter operativer Anschrift.
 
 ## Timeline
 
@@ -52,3 +52,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche VS-Rohstoffe GmbH, Brandenburg; Quelle(n): 11880-Brancheneintrag (JSON-LD, Stand Juni 2026: „VS-Rohstoffe GmbH", Friedrich-Franz-Str. 11, 14770 Brandenburg, Tel. (03381) 340411, Branche „Stahlrohr- und Röhrenwalzwerk, Schrotthandel & Altmaterialhandel"); OpenStreetMap-Nominatim (Friedrich-Franz-Str. 11 liegt im SWB-Industrie- und Gewerbepark, 14770 Brandenburg a.d.H. — Geocode-Hinweis, Gebäude als INVEHO Deutschland GmbH erfasst, VS-Rohstoffe als Mieter nicht separat bestätigt)]
 - PLZ 14770 + Telefon 03381/340411 aus 11880 übernommen (Lead + Geocode-Bestätigung, kein Impressum/HRB geprüft — kein zweiter unabhängiger Betreiber-Beleg).
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Aktuelle Gruppen-Startseite erneut gelesen: die Villmann-Gruppe stellt ITB Industrie­transportgesellschaft mbH, Hafenlogistik Brandenburg GmbH (HLB) und Villmann Immobiliengesellschaft mbH als getrennte Unternehmen dar; kein aktueller VS-Rohstoffe-Auftritt am Dossier-Ort. Das ergänzt die bereits dokumentierte Adresskollision: Register-/NorthData-Sitz Friedrich-Franz-Straße 8, Verzeichnislead Nr. 11, während die aktuelle Gruppenwebsite an Nr. 8 ITB/HLB ausweist. Rechtssitz/Gruppe allein beweist keinen operativen Schrottannahmeplatz. Keine aktuelle numerische Ankaufspreisliste, keine Verkaufspreisliste und keine Container-/Entsorgungsgebührentabelle auf den bereits geprüften Gruppen-/Kontakt-/Leistungsseiten gefunden. Bestehende nichtleere Felder unverändert; Nr. 8 oder 11 erst nach Betriebsstättenbestätigung geocodieren. Quelle(n): https://www.villmann-gruppe.de/ ; https://www.villmann-gruppe.de/impressum.html ; https://www.villmann-gruppe.de/itb-evu-kontakt.html ; https://www.villmann-gruppe.de/itb-evu-leistungen.html ; https://www.villmann-gruppe.de/hlb.html ; https://www.northdata.com/VS-Rohstoffe%20GmbH,%20Brandenburg%20a%C2%B7%20d%C2%B7%20Havel/Amtsgericht%20Potsdam%20HRB%2020852]

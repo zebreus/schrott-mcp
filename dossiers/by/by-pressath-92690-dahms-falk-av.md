@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klärfall trotz aktueller Branchenbuch-Leads: Das Verzeichnis führt Falk Dahms, Weidener Str. 47a, 92690 Pressath, Telefon 09644 365 und Öffnungszeiten; die Website ist weiterhin nicht direkt abrufbar (HTTP 403), daher fehlen Betreiber-Impressum und belastbare Identitätszuordnung. Die nur dort gelisteten Kontaktdaten bleiben unverifiziert. Keine öffentliche Ankaufspreisliste, Verkaufspreise oder Entsorgungsgebühren gefunden. Die Branchenbuch-Koordinaten nicht verwenden; kein geocoding bis Betreiberadresse bestätigt ist.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Die aktuelle Branchenbuchseite wurde direkt geprüft und listet Falk Dahms, Autoverwertung, Weidener Str. 47a, 92690 Pressath, Telefon 09644 365, Fax 09644/1284 und Mo-Fr 08:00-17:00/Sa 08:00-13:00. Das bleibt ein einzelner Aggregator-Lead. Die Seite zeigt eine fehlerhaft codierte Koordinatenangabe; diese wurde nicht übernommen. Der Direktabruf der dort verknüpften Betreiber-Domain lieferte HTTP 403, der zweite Verzeichnisabruf HTTP 403. Damit kein belastbarer Betreiber-/Registerbeleg für Anschrift, Öffnungszeiten oder aktuelle Autoverwertung; keine Frontmatter-Fills. Keine belastbare Preisliste für Fahrzeugankauf, Teileverkauf oder Entsorgungsgebühren gefunden. Offene Fragen: aktuelle Betreiberbestätigung, gültige Annahme-/Abmeldebedingungen und Herkunft/Qualität des Verzeichnisdatensatzes. Quelle(n): https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/falk-dahms-autoverwertung-pressath-73631450.html ; https://pressath.stadtbranchenbuch.com/1618675.html ; https://www.autoverwertung-dahms.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

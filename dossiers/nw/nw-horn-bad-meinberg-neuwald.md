@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur ein nicht bestätigter Verzeichnis-Lead zu „Manuel Neuwald Schrotthandel“ ist greifbar. Weitere Verzeichnistreffer wiederholen denselben Namen und dieselbe Telefonnummer; der separate Familiennamens-Treffer „Neuwald-Alberti“ belegt keine Geschäftsadresse. Keine Betreiberquelle, belastbare Straßenadresse oder Preisliste gefunden. Status bleibt `pruefung`; keine Geocodierung ohne bestätigte Adresse.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Gegenprüfung des 11880-Leads findet denselben „Manuel Neuwald Schrotthandel“ auch in BundesTelefonbuch und StadtBranche; Das Örtliche listet separat Tanja Alberti u. Manuel Neuwald-Alberti, aber ohne belegte Verbindung zum Schrotthandel. Das sind Verzeichnis-Leads, keine unabhängigen Betreiberbelege; keine Frontmatter-Fills. Keine numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. Quelle(n): https://www.11880.com/branchenbuch/horn-bad-meinberg/120674719B101482332/manuel-neuwald-schrotthandel.html ; https://www.bundes-telefonbuch.de/horn/schrott/neuwald-manuel-schrotthandel-bvg6091600700 ; https://www.dasoertliche.de/Themen/Alberti-Tanja-u-Neuwald-Alberti-Manuel-Horn-Bad-Meinberg]
 
 ### Recherche 03.10.2026
 

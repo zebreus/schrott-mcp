@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rechtsform- und Zuordnungsrisiko: Die benannte OHG (HRA 59, Abschlepp-/Bergungsdienst-Kandidat) ist nicht mit der separat geführten Hoffmann & Berger GmbH (HRB 9290) oder der erloschenen MAB Autoverwertung Hoffmann und Berger GmbH gleichzusetzen. Die GmbH wird mit Carl-von-Linde-Str. 4 und Verschrottungsleistungen beschrieben; eine vollständige Übernahme-/Ausgliederungskette zur OHG ist öffentlich nicht belegt. Deshalb keine GmbH-Adresse oder -Leistungen in die OHG-Zeile übertragen. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren für die OHG gefunden. OHG-Anschrift/Annahmeort ungeklärt; keine Geokodierung.
 
 ## Timeline
 

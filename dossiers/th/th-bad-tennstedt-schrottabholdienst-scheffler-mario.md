@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Schrottplatzverzeichnis nennt Am Kirchtal 5, 99955 Bad Tennstedt und Telefon 036041 33281. Es vermerkt ausdrücklich, dass weder Angebot/Leistungen noch Öffnungszeiten erfasst sind; die Homepage-Verknüpfung ist defekt. Das bleibt ein einzelner Verzeichnislead, kein Betreiber- oder Registerbeleg. Kein Ankauf, keine Anlieferung und keine Geokoordinate daraus ableiten.
 
 ## Timeline
 
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottabholdienst
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Der direkt gelesene Eintrag von Schrottplatz-Info nennt Am Kirchtal 5, 99955 Bad Tennstedt und Tel. 036041 33281, erklärt aber explizit, dass Angebot, Leistungen und Öffnungszeiten nicht erfasst sind. Die Homepage-URL im Datensatz ist fehlerhaft/leer; ein zweiter Portal-Treffer wiederholt keinen unabhängigen Betreiberbeleg. Keine Betreiberwebsite/Registerquelle gefunden, keine Materialannahme oder Ankaufart bestätigt. Keine Ankauf-/Verkaufspreise und keine Gebührenliste. Adresse und Telefonnummer bleiben Verzeichnisleads; Geocoding erst nach Betreiber-/Gewerbenachweis. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Bad-Tennstedt/Schrottabholdienst-Scheffler-Mario ; https://www.schrottplatz.org/bad-tennstedt/schrott-schrottabholdienst-scheffler-mario-aYEPSf.html]

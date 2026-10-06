@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Es gibt weiterhin keinen verifizierten Betreiberauftritt oder Registerbeleg. Verzeichnisse führen Daniel-Häberle-Straße 1 und Telefon 01590 6128392; zwei Kleinanzeigen-Suchergebnisse mit rechtlichen Anbieterangaben nennen dagegen einmal diese Adresse und einmal Stiftswaldstraße 35. Die Anzeigen waren beim Direktabruf gesperrt und sind deshalb nur widersprüchliche Leads. Keine Anschrift, Telefonnummer oder Preise in die strukturierten Felder übernehmen, bis Betreiber und Betriebsstätte bestätigt sind.
 
 ## Timeline
 
@@ -37,6 +37,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Daniel-Häberle-Str.
 - urspr. Website-Angabe: keine
 - Adresse: Kaiserslautern
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Zwei Kleinanzeigen-Treffer für Schrottabholung mit Anbieterangaben „Patrick Fernezy“ nennen dieselbe Mobilnummer 01590 6128392, aber unterschiedliche Betriebssitze: Daniel-Häberle-Straße 1, 67657 Kaiserslautern bzw. Stiftswaldstraße 35, 67657 Kaiserslautern. Beide Direktabrufe lieferten HTTP 403; Inhalt/Urheberschaft konnten daher nicht vollständig geprüft werden. Zusammen mit den schon dokumentierten 11880-/Cybo-Leads ist dies kein unabhängiger Beleg für die Anschrift, aber ein konkreter Adresskonflikt. Eine Anzeige bewirbt „kostenlose“ Abholung; das ist allenfalls eine nicht verifizierte Aussage zur Abholgebühr, kein Ankaufpreis und keine Preisgarantie. Keine kg-Ankaufpreise, Verkaufspreise oder sonstige Entsorgungsgebührentabelle gefunden. Straße/PLZ/Telefon bleiben leer; Geocoding erst nach Klärung, welche Adresse tatsächlich Betriebsstätte ist. Quelle(n): https://www.kleinanzeigen.de/s-anzeige/kostenlos-schrott-altmetall-abholung/3171006050-298-5467 ; https://www.kleinanzeigen.de/s-anzeige/schrott-altmetall-abholung/3522385158-298-5467 ; https://www.11880.com/branchenbuch/kaiserslautern/060442230B112610185/schrotthaendler-fernezy.html]
 
 ### Recherche 02.10.2026
 

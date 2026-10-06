@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klärfall: Für „Jährig Angelo“ ist in Hasselroth bislang weder ein Betreiberauftritt noch ein passender Register- oder kommunaler Gewerbenachweis auffindbar. Der SchrottRegister-Treffer zu Siegfried Kraus ist ein nicht-amtlicher Lead und weder Bestätigung noch Widerlegung dieses Betriebs. Keine belastbare Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden. Es gibt keine verifizierte Betriebsadresse zum Geocodieren; erst Identität und Annahmeort klären.
 
 ## Timeline
 

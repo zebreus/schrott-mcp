@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-Langenselbolder Edelmetallankauf; Anbieterangaben und aktueller Preisstand sind noch unabhängig zu bestätigen.
+Edelmetallankauf für Privatkunden und Edelmetallrecycling für Gewerbe/Industrie. Die Betreiberseite publiziert volatile Ankaufskurse je Gramm und erklärt, dass für Bestimmung und Einschmelzen keine zusätzlichen Kosten anfallen sollen. Das ist keine Verkaufspreisliste: Kunden-Verkaufspreise für Edelmetalle werden nicht beziffert. Kontakt- und Standortangaben bleiben wegen des Ein-Quellen-Nachweises in der Timeline; Kurswerte gehören nur als datierter Snapshot, nicht in statische Frontmatter.
 
 ## Timeline
+
+### Recherche 06.10.2026
+
+- [Recherche 06.10.2026: Die Betreiberseite wurde direkt abgerufen; sie weist am 06.10.2026 um 08:09:47 eine öffentliche Ankaufskurstabelle aus (alle Werte €/g, vom Händler an Einlieferer gezahlter Ankauf, ausdrücklich keine Verkaufspreise): Gold 999/986/916/900/750/585/375/333: 111,02 / 103,80 / 96,43 / 94,75 / 74,57 / 58,17 / 36,91 / 32,78; Zahngold 750/600: 74,57 / 59,66; Silber 999/925/900/835/800/625/500: 1,37 / 1,27 / 1,23 / 1,14 / 1,09 / 0,86 / 0,68; Goldbarren 999: 111,07 (nur gestempelt, neuwertig, bis 2 g laut Seitenhinweis); Platin 999/950/900/800/750: 42,20 / 40,13 / 38,02 / 33,79 / 31,68; Palladium 999/950/800/500: 28,52 / 27,12 / 22,84 / 14,27. Kurse sind volatil und am Besuchstag dokumentiert. Betreiber behauptet, dass durch eigene Analyse/Schmelzung keine weiteren Kosten anfallen; separate Gebührenliste oder Verkaufskurse für Ware des Händlers wurden nicht gefunden. Betreiber-Impressum bestätigt Severino Frumento und dieselbe Adresse; unabhängige zweite Identitätsquelle fehlt weiterhin, daher keine neuen Kontaktfills. Offene Fragen: Kursabruf vor Anlieferung, konkrete Abzüge/Feinheitsbestimmung bei Misch- und Scheidgut, getrennte Verkaufspreise sowie die unabhängige Bestätigung von Adresse und Öffnungszeiten. Quelle(n): https://www.frumento-goldhandel.de/ ; https://www.frumento-goldhandel.de/impressum/]
 
 ### Recherche 05.10.2026
 

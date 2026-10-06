@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klärfall auf Basis von Branchenbuch-Leads: 11880 führt „Heinrich Kuhn Alt- und Abfallstoffe“ an der Niddastraße 11, 65760 Eschborn, mit Telefon (06196) 42561; weitere Verzeichnissuchen liefern keinen unabhängigen Betreiber- oder Registerbeleg. Ob dort heute Schrottannahme statt allgemeiner Alt-/Abfallstoffhandel stattfindet, ist offen. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Die Lead-Adresse nicht geokodieren, bis Betriebsort und öffentliche Annahme bestätigt sind.
 
 ## Timeline
 
