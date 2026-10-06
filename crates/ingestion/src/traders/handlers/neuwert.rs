@@ -1,21 +1,17 @@
-//! NEUWERT Schrott & Altmetallhandel OHG (Braunschweig): exact weekly
-//! list prices in two Elementor shapes inside one window
-//! ("Altmetall-Preisliste für diese Woche" … "Häufig gestellte Fragen"):
-//! headline cards (`h2.elementor-heading-title` + three `ab … kg` tier
-//! spans) and swiper slides (`elementor-slide-heading` + `<li>` tiers).
-//! Every material quotes three quantity tiers (ab 1000/100/1 kg, steel
-//! cards ab 1000/500/1 kg) per kg — the tier rides in the variant, so no
-//! two sorts collapse. The pipeline normalizes EUR/kg into the iron
-//! catalog units (EUR/t) itself; this handler always records the honest
-//! page unit. No page date ("für diese Woche" only) → `published_at`
-//! stays `None`. Ambiguous grades (Erdkabel mit Stahl,
-//! Alu-Leitung mit Stahl, Sorte 3) skip loudly instead of being crammed.
+//! NEUWERT Schrott & Altmetallhandel OHG (Braunschweig): the current
+//! versioned JSON feed quotes each material at 1 kg, a middle breakpoint
+//! (100 or 500 kg), and a gross breakpoint (1000 kg). The site interpolates
+//! continuously between those reference quantities; they are not flat price
+//! bands. We retain the published breakpoint labels and exact EUR/kg values.
+//! The pipeline normalizes EUR/kg into the iron catalog units (EUR/t)
+//! itself. Ambiguous grades (Erdkabel mit Stahl, Alu-Leitung mit Stahl,
+//! Sorte 3) skip loudly instead of being crammed into a different material.
 
 use scraper::{Html, Selector};
 
-use super::super::{
-    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
-};
+#[cfg(test)]
+use super::super::parse_eur;
+use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo};
 use crate::IngestError;
 
 pub const SLUG: &str = "ni-braunschweig-neuwert-schrott-altmetallhandel";
@@ -25,13 +21,19 @@ pub const SLUG: &str = "ni-braunschweig-neuwert-schrott-altmetallhandel";
 pub const IMPRESSUM_URL: &str = "https://neu-wert.de/privacy-policy/";
 
 pub const URL: &str = "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/";
+pub const API_URL: &str = "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise";
 
-/// Category headline cards carry no tiers and are ignored (never labels).
+#[cfg(test)]
 const START_ANCHOR: &str = "Altmetall-Preisliste für diese Woche";
+#[cfg(test)]
 const END_ANCHOR: &str = "Häufig gestellte Fragen";
+#[cfg(test)]
 const H_MARKER: &str = "<h2 class=\"elementor-heading-title elementor-size-default\">";
+#[cfg(test)]
 const TIER_MARKER: &str = "elementor-icon-list-text\">";
+#[cfg(test)]
 const SLIDE_HEAD_MARKER: &str = "elementor-slide-heading\">";
+#[cfg(test)]
 const SLIDE_DESC_MARKER: &str = "elementor-slide-description\">";
 
 pub fn handler() -> Handler {
@@ -44,8 +46,8 @@ pub fn handler() -> Handler {
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    let (status, html) = fetch_text(client, URL).await?;
-    let (rows, mut skipped_labels) = parse(&html)?;
+    let (status, feed) = fetch_text(client, API_URL).await?;
+    let (published_at, rows, mut skipped_labels) = parse(&feed)?;
     let mut prices = Vec::with_capacity(rows.len());
     for (label, tier, price, unit) in rows {
         match grade_for(&label) {
@@ -84,10 +86,10 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
         trader_info,
         website_alive: true,
         skipped_labels,
-        fetch_url: URL.to_owned(),
+        fetch_url: API_URL.to_owned(),
         status_code: status,
-        byte_len: html.len(),
-        published_at: None,
+        byte_len: feed.len(),
+        published_at,
     })
 }
 
@@ -179,6 +181,12 @@ fn tier_variant(grade: &'static str, tier: Tier) -> Option<&'static str> {
         ("V4A", Tier::T1000) => Some("V4A / ab 1000 kg"),
         ("V4A", Tier::T100) => Some("V4A / ab 100 kg"),
         ("V4A", Tier::T1) => Some("V4A / ab 1 kg"),
+        ("V2A", Tier::T1000) => Some("V2A / ab 1000 kg"),
+        ("V2A", Tier::T100) => Some("V2A / ab 100 kg"),
+        ("V2A", Tier::T1) => Some("V2A / ab 1 kg"),
+        ("Sonderspäne", Tier::T1000) => Some("Sonderspäne / ab 1000 kg"),
+        ("Sonderspäne", Tier::T100) => Some("Sonderspäne / ab 100 kg"),
+        ("Sonderspäne", Tier::T1) => Some("Sonderspäne / ab 1 kg"),
         ("Schwerschrott", Tier::T1000) => Some("Schwerschrott / ab 1000 kg"),
         ("Schwerschrott", Tier::T500) => Some("Schwerschrott / ab 500 kg"),
         ("Schwerschrott", Tier::T1) => Some("Schwerschrott / ab 1 kg"),
@@ -250,6 +258,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("messing", "Ms-58 Späne"))
     } else if l.contains("ms-58") {
         Some(("messing", "Ms-58"))
+    } else if l.contains("messing sonderspäne") {
+        Some(("messing", "Sonderspäne"))
     } else if l.contains("messing hülsen") {
         Some(("messing", "Hülsen"))
     } else if l.contains("messing schwer") {
@@ -268,6 +278,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("kupfer-spaene", "Späne"))
     } else if l.contains("v4a") {
         Some(("edelstahl-v4a", "V4A"))
+    } else if l.contains("v2a") {
+        Some(("edelstahl-v2a", "V2A"))
     } else if l.contains("edelstahl") {
         Some(("edelstahl-gemischt", ""))
     } else if l.contains("aluminium profile farbe") || l.contains("profile farbe") {
@@ -314,7 +326,11 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else if l.contains("blei") {
         Some(("blei", ""))
     } else if l.contains("alu-kupfer") {
-        Some(("alu-cu-kuehler", ""))
+        if l.contains("unsauber") {
+            Some(("alu-cu-kuehler", "unsauber"))
+        } else {
+            Some(("alu-cu-kuehler", ""))
+        }
     } else if l.contains("elektromotoren") || l.contains("e-motoren") {
         Some(("elektromotoren", ""))
     } else {
@@ -468,7 +484,121 @@ fn strip_fragment(s: &str) -> String {
     out.split_whitespace().collect::<Vec<_>>().join(" ")
 }
 
-fn parse(html: &str) -> Result<(Vec<(String, Tier, f64, &'static str)>, Vec<String>), IngestError> {
+#[derive(serde::Deserialize)]
+struct PriceFeed {
+    version: u64,
+    stand: String,
+    sorten: Vec<PriceItem>,
+}
+
+#[derive(serde::Deserialize)]
+struct PriceItem {
+    schluessel: String,
+    name: String,
+    #[serde(default)]
+    anfrage: bool,
+    #[serde(default)]
+    ab1: Option<f64>,
+    #[serde(default, rename = "abMitte")]
+    ab_mitte: Option<f64>,
+    #[serde(default, rename = "abGross")]
+    ab_gross: Option<f64>,
+    #[serde(default)]
+    mitte: Option<u32>,
+    #[serde(default)]
+    gross: Option<u32>,
+}
+
+fn parse(
+    body: &str,
+) -> Result<
+    (
+        Option<String>,
+        Vec<(String, Tier, f64, &'static str)>,
+        Vec<String>,
+    ),
+    IngestError,
+> {
+    let feed: PriceFeed = serde_json::from_str(body)
+        .map_err(|error| parse_error(&format!("Preis-Feed-JSON ungültig: {error}")))?;
+    if feed.version != 1 {
+        return Err(parse_error(&format!(
+            "unbekannte Preis-Feed-Version: {}",
+            feed.version
+        )));
+    }
+    let published_at = chrono::DateTime::parse_from_rfc3339(&feed.stand)
+        .map(|date| date.to_rfc3339())
+        .map_err(|_| parse_error(&format!("ungültiger Preisstand: {}", feed.stand)))?;
+    if feed.sorten.is_empty() {
+        return Err(parse_error("Preis-Feed enthält keine Sorten"));
+    }
+
+    let mut seen = std::collections::HashSet::new();
+    let mut rows = Vec::new();
+    let mut skipped = Vec::new();
+    for item in feed.sorten {
+        let name = item.name.trim();
+        if item.schluessel.trim().is_empty() || name.is_empty() {
+            return Err(parse_error(
+                "Preis-Feed enthält Sorte ohne Schlüssel oder Namen",
+            ));
+        }
+        if !seen.insert(item.schluessel) {
+            return Err(parse_error("Preis-Feed enthält doppelte Sortenschlüssel"));
+        }
+        if item.anfrage {
+            skipped.push(format!("{name} (Preis nur auf Anfrage)"));
+            continue;
+        }
+
+        let middle_kg = item
+            .mitte
+            .ok_or_else(|| parse_error(&format!("mittlere Preisstufe fehlt: {name}")))?;
+        let middle_tier = match middle_kg {
+            100 => Tier::T100,
+            500 => Tier::T500,
+            other => {
+                return Err(parse_error(&format!(
+                    "unbekannte mittlere Preisstufe für {name}: {other} kg"
+                )))
+            }
+        };
+        if item.gross != Some(1000) {
+            return Err(parse_error(&format!(
+                "unbekannte Großmengen-Preisstufe für {name}: {:?} kg",
+                item.gross
+            )));
+        }
+
+        let breakpoints = [
+            (Tier::T1, item.ab1, "1 kg"),
+            (
+                middle_tier,
+                item.ab_mitte,
+                if middle_kg == 100 { "100 kg" } else { "500 kg" },
+            ),
+            (Tier::T1000, item.ab_gross, "1000 kg"),
+        ];
+        for (tier, price, quantity) in breakpoints {
+            match price.filter(|price| price.is_finite() && *price > 0.0 && *price < 1000.0) {
+                Some(price) => rows.push((name.to_owned(), tier, price, "EUR/kg")),
+                None => skipped.push(format!(
+                    "{name} (kein gültiger Ankaufspreis bei {quantity})"
+                )),
+            }
+        }
+    }
+    if rows.is_empty() {
+        return Err(parse_error("Preis-Feed enthält keine gültigen Preiswerte"));
+    }
+    Ok((Some(published_at), rows, skipped))
+}
+
+#[cfg(test)]
+fn parse_legacy_html(
+    html: &str,
+) -> Result<(Vec<(String, Tier, f64, &'static str)>, Vec<String>), IngestError> {
     let start = html.find(START_ANCHOR).ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
         detail: "Preisliste fehlt".to_owned(),
@@ -601,6 +731,7 @@ fn parse(html: &str) -> Result<(Vec<(String, Tier, f64, &'static str)>, Vec<Stri
 /// "ab 1000 kg: 11,40 €" → tier + price. The tier text must name kg —
 /// anything else skips loudly at the call site (a per-tonne price
 /// recorded as per-kg would be a 1000x error).
+#[cfg(test)]
 fn split_tier(text: &str) -> Option<(Tier, f64)> {
     let (left, right) = text.split_once(':')?;
     let tier = if left.contains("1000") {
@@ -620,9 +751,90 @@ fn split_tier(text: &str) -> Option<(Tier, f64)> {
     parse_eur(right).map(|p| (tier, p))
 }
 
+fn parse_error(detail: &str) -> IngestError {
+    IngestError::Parse {
+        url: API_URL.to_owned(),
+        detail: detail.to_owned(),
+    }
+}
+
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, grade_for, parse, skip_note, tier_variant, Tier};
+    use super::{extract_info, grade_for, parse, parse_legacy_html, skip_note, tier_variant, Tier};
+
+    const API_FIXTURE: &str = r#"{
+        "version": 1,
+        "stand": "2026-10-06T17:16:32+02:00",
+        "sorten": [
+            {
+                "schluessel": "kupfer-millberry",
+                "name": "Kupfer Millberry",
+                "kategorie": "kupfer",
+                "ab1": 10.6,
+                "abMitte": 10.9,
+                "abGross": 11.2,
+                "mitte": 100,
+                "gross": 1000
+            },
+            {
+                "schluessel": "blei-anfrage",
+                "name": "Blei (auf Anfrage)",
+                "kategorie": "zink-mehr",
+                "anfrage": true
+            }
+        ]
+    }"#;
+
+    #[test]
+    fn parses_the_current_json_price_feed_and_its_breakpoints() {
+        let (published_at, rows, skipped) =
+            parse(API_FIXTURE).expect("current public API response parses");
+
+        assert_eq!(published_at.as_deref(), Some("2026-10-06T17:16:32+02:00"));
+        assert_eq!(rows.len(), 3);
+        assert_eq!(
+            rows[0],
+            ("Kupfer Millberry".to_owned(), Tier::T1, 10.6, "EUR/kg")
+        );
+        assert_eq!(
+            rows[1],
+            ("Kupfer Millberry".to_owned(), Tier::T100, 10.9, "EUR/kg")
+        );
+        assert_eq!(
+            rows[2],
+            ("Kupfer Millberry".to_owned(), Tier::T1000, 11.2, "EUR/kg")
+        );
+        assert_eq!(
+            skipped,
+            vec!["Blei (auf Anfrage) (Preis nur auf Anfrage)".to_owned()]
+        );
+    }
+
+    #[test]
+    fn rejects_unknown_feed_versions_and_breakpoints() {
+        let unsupported = API_FIXTURE.replace("\"version\": 1", "\"version\": 2");
+        assert!(parse(&unsupported).is_err());
+
+        let unknown_middle = API_FIXTURE.replace("\"mitte\": 100", "\"mitte\": 250");
+        assert!(parse(&unknown_middle).is_err());
+
+        let invalid_stand = API_FIXTURE.replace("2026-10-06T17:16:32+02:00", "not-a-date");
+        assert!(parse(&invalid_stand).is_err());
+    }
+
+    #[test]
+    fn zero_api_quotes_skip_loudly_without_inventing_prices() {
+        let zero = API_FIXTURE
+            .replace("\"ab1\": 10.6", "\"ab1\": 0.0")
+            .replace("\"abMitte\": 10.9", "\"abMitte\": 0.0")
+            .replace("\"abGross\": 11.2", "\"abGross\": 0.0");
+        assert!(parse(&zero).is_err(), "an all-zero feed must fail closed");
+
+        let partial = API_FIXTURE.replace("\"ab1\": 10.6", "\"ab1\": 0.0");
+        let (_, rows, skipped) = parse(&partial).expect("remaining breakpoints stay usable");
+        assert_eq!(rows.len(), 2);
+        assert!(skipped[0].contains("bei 1 kg"));
+    }
 
     /// Real live markup, trimmed to two cards + two slides + anchors.
     const FIXTURE: &str = "<h2 class=\"elementor-heading-title elementor-size-default\">Altmetall-Preisliste für diese Woche</h2>\
@@ -642,7 +854,7 @@ mod tests {
 
     #[test]
     fn cards_and_slides_parse() {
-        let (rows, skips) = parse(FIXTURE).expect("parses");
+        let (rows, skips) = parse_legacy_html(FIXTURE).expect("parses historical page shape");
         assert_eq!(rows.len(), 12);
         assert!(skips.is_empty());
         assert_eq!(
@@ -661,21 +873,27 @@ mod tests {
 
     #[test]
     fn anchors_and_slides_fail_loudly() {
-        assert!(parse("<h2>Sonst was</h2>").is_err(), "start anchor missing");
+        assert!(
+            parse_legacy_html("<h2>Sonst was</h2>").is_err(),
+            "start anchor missing"
+        );
         let no_end = FIXTURE.replacen("Häufig gestellte Fragen", "Sonst was", 1);
-        assert!(parse(&no_end).is_err(), "end anchor missing");
+        assert!(parse_legacy_html(&no_end).is_err(), "end anchor missing");
         // Cards without any slider block: redesign, not success.
         let no_slides = FIXTURE
             .replace("<div class=\"elementor-slide-heading\">Erdkabel mit Stahl</div><div class=\"elementor-slide-description\"><l> \n<li> ab 1000 kg: 0,90 € </li>\n<li> ab 100 kg: 0,70 € </li>\n<li> ab 1 kg: 0,50 € </li>\n</l></div>", "")
             .replace("<div class=\"elementor-slide-heading\">V4A-Edelstahl</div><div class=\"elementor-slide-description\"><l> \n<li> ab 1000 kg: 1,60 € </li>\n<li> ab 100 kg: 1,40 € </li>\n<li> ab 1 kg: 1,20 € </li>\n</l></div>", "");
-        assert!(parse(&no_slides).is_err(), "missing slides error");
+        assert!(
+            parse_legacy_html(&no_slides).is_err(),
+            "missing slides error"
+        );
         // Foreign tier unit never defaults to kg.
         let bad_unit = FIXTURE.replacen(
             "ab 1000 kg: <b>11,40 €</b>",
             "ab Palette: <b>11,40 €</b>",
             1,
         );
-        let (rows, skips) = parse(&bad_unit).expect("parses");
+        let (rows, skips) = parse_legacy_html(&bad_unit).expect("parses historical page shape");
         assert_eq!(rows.len(), 11);
         assert_eq!(skips.len(), 1);
         assert!(skips[0].contains("Millberry"));
@@ -689,23 +907,43 @@ mod tests {
             <h2 class=\"elementor-heading-title elementor-size-default\">Häufig gestellte Fragen</h2>",
             1,
         );
-        let (rows, _) = parse(&dup).expect("parses");
+        let (rows, _) = parse_legacy_html(&dup).expect("parses historical page shape");
         assert_eq!(rows.len(), 12, "repeat slide dedups");
     }
 
     #[test]
     fn zero_price_skips_loudly() {
         let zero = FIXTURE.replacen("ab 1 kg: <b>10,80 €</b>", "ab 1 kg: <b>0,00 €</b>", 1);
-        let (rows, skips) = parse(&zero).expect("parses");
+        let (rows, skips) = parse_legacy_html(&zero).expect("parses historical page shape");
         assert_eq!(rows.len(), 11);
         assert_eq!(skips.len(), 1);
         assert!(skips[0].contains("Millberry") && skips[0].contains("kein Ankaufpreis"));
         let zero_slide = FIXTURE.replacen("ab 1 kg: 1,20 €", "ab 1 kg: 0,00 €", 1);
-        let (rows, skips) = parse(&zero_slide).expect("parses");
+        let (rows, skips) = parse_legacy_html(&zero_slide).expect("parses historical page shape");
         assert_eq!(rows.len(), 11);
         assert!(skips
             .iter()
             .any(|s| s.contains("V4A") && s.contains("kein Ankaufpreis")));
+    }
+
+    #[tokio::test]
+    #[ignore = "requires the live NEUWERT price API and impressum"]
+    async fn live_api_scrape_returns_current_quotes() {
+        let outcome = super::scrape(&reqwest::Client::new())
+            .await
+            .expect("live price API and impressum parse");
+
+        assert_eq!(outcome.status_code, 200);
+        assert_eq!(outcome.fetch_url, super::API_URL);
+        assert!(
+            outcome.prices.len() >= 120,
+            "too few live prices: {}",
+            outcome.prices.len()
+        );
+        assert!(outcome
+            .published_at
+            .as_deref()
+            .is_some_and(|date| date.starts_with("2026-")));
     }
 
     #[test]
@@ -755,10 +993,7 @@ mod tests {
             grade_for("Kupfer verzinnt"),
             Some(("kupfer-verzinnt", "verzinnt"))
         );
-        assert_eq!(
-            grade_for("Kupfer Candy"),
-            Some(("kupfer-candy", "Candy"))
-        );
+        assert_eq!(grade_for("Kupfer Candy"), Some(("kupfer-candy", "Candy")));
         assert_eq!(
             grade_for("Kupfer schwer"),
             Some(("kupfer-schwer", "schwer"))
@@ -823,8 +1058,25 @@ mod tests {
             Some(("stahlschrott-shredder", ""))
         );
         assert_eq!(grade_for("Widia / VHM"), Some(("hartmetall", "")));
-        assert_eq!(grade_for("Zinngeschirr"), Some(("zinn-geschirr", "Geschirr")));
+        assert_eq!(
+            grade_for("Zinngeschirr"),
+            Some(("zinn-geschirr", "Geschirr"))
+        );
         assert_eq!(grade_for("V4A-Edelstahl"), Some(("edelstahl-v4a", "V4A")));
+        assert_eq!(grade_for("Edelstahl V2A"), Some(("edelstahl-v2a", "V2A")));
+        assert_eq!(
+            grade_for("Messing Sonderspäne"),
+            Some(("messing", "Sonderspäne"))
+        );
+        assert_eq!(
+            grade_for("Alu-Kupfer-Kühler (unsauber)"),
+            Some(("alu-cu-kuehler", "unsauber"))
+        );
+        assert_eq!(grade_for("Alu-Kupfer-Kühler"), Some(("alu-cu-kuehler", "")));
+        assert_ne!(
+            tier_variant("unsauber", Tier::T100),
+            tier_variant("", Tier::T100)
+        );
         assert_eq!(grade_for("Edelstahl"), Some(("edelstahl-gemischt", "")));
         assert_eq!(grade_for("Elektromotoren"), Some(("elektromotoren", "")));
         assert_eq!(grade_for("Erdkabel mit Stahl"), None);
