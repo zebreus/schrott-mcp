@@ -744,7 +744,10 @@ mod tests {
     fn mapping_covers_every_arm() {
         let cases: &[(&str, Option<(&str, &str)>)] = &[
             ("Altblei", Some(("blei", ""))),
-            ("Altblei (Auswuchtblei)", Some(("blei-auswucht", "Auswuchtblei"))),
+            (
+                "Altblei (Auswuchtblei)",
+                Some(("blei-auswucht", "Auswuchtblei")),
+            ),
             (
                 "Altblei (Kabelschälblei) mit Anhaftungen",
                 Some(("blei-auswucht", "Kabelschälblei")),
@@ -1007,7 +1010,10 @@ mod tests {
             ("Messing Rotguss stückig", None),
             ("Messing schwer", Some(("messing", ""))),
             ("Messing Späne trocken gemischt", Some(("messing", "Späne"))),
-            ("Messing Wasseruhren", Some(("messing-leicht", "Wasseruhren"))),
+            (
+                "Messing Wasseruhren",
+                Some(("messing-leicht", "Wasseruhren")),
+            ),
             ("Mischschrott", Some(("mischschrott", ""))),
             ("Schreddervormaterial", Some(("stahlschrott-shredder", ""))),
             (

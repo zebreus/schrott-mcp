@@ -137,9 +137,7 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
             detail: "Annahmeliste fehlt".to_owned(),
         })?;
     let tail = &html[start..];
-    let end = tail
-        .find("in Rechnung stellen")
-        .unwrap_or(tail.len());
+    let end = tail.find("in Rechnung stellen").unwrap_or(tail.len());
     let window = &tail[..end];
     let doc = Html::parse_fragment(window);
     let h3 = Selector::parse("h3").expect("valid selector");
@@ -176,9 +174,9 @@ fn parse(html: &str) -> Result<Vec<String>, IngestError> {
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h2 = Selector::parse("h2").expect("valid selector");
-    let anchor = doc.select(&h2).find(|h| {
-        h.text().collect::<String>().contains("Angaben gem")
-    });
+    let anchor = doc
+        .select(&h2)
+        .find(|h| h.text().collect::<String>().contains("Angaben gem"));
     let Some(anchor) = anchor else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -218,9 +216,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         }
     }
     // Labeled contact lines after the "Kontakt" heading.
-    let kontakt = doc.select(&h2).find(|h| {
-        h.text().collect::<String>().trim() == "Kontakt"
-    });
+    let kontakt = doc
+        .select(&h2)
+        .find(|h| h.text().collect::<String>().trim() == "Kontakt");
     let Some(kontakt) = kontakt else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -328,14 +326,8 @@ mod tests {
             Some(vec![("edelstahl-gemischt", "")])
         );
         assert_eq!(grade_for("VA"), Some(vec![("edelstahl-gemischt", "")]));
-        assert_eq!(
-            grade_for("Eisen & Stahl"),
-            Some(vec![("mischschrott", "")])
-        );
-        assert_eq!(
-            grade_for("Kupfer"),
-            Some(vec![("kupfer-gemischt", "")])
-        );
+        assert_eq!(grade_for("Eisen & Stahl"), Some(vec![("mischschrott", "")]));
+        assert_eq!(grade_for("Kupfer"), Some(vec![("kupfer-gemischt", "")]));
         assert_eq!(grade_for("Messing"), Some(vec![("messing", "")]));
         assert_eq!(
             grade_for("Guss"),
@@ -345,10 +337,7 @@ mod tests {
             grade_for("Bremsscheiben"),
             Some(vec![("eisenschrott-gussbruch", "Bremsscheiben")])
         );
-        assert_eq!(
-            grade_for("Rotguss"),
-            Some(vec![("bronze-rotguss", "")])
-        );
+        assert_eq!(grade_for("Rotguss"), Some(vec![("bronze-rotguss", "")]));
         assert_eq!(grade_for("Blei"), Some(vec![("blei", "")]));
         assert_eq!(grade_for("Zink"), Some(vec![("zink", "")]));
         assert_eq!(grade_for("Zinn"), Some(vec![("zinn", "")]));

@@ -113,10 +113,12 @@ fn grade_for(label: &str) -> Option<Vec<(&'static str, &'static str)>> {
 /// `</select>`. Both anchors mandatory; an empty option list is `Err`
 /// (a silent empty success would hide a redesign of the calculator).
 fn parse(html: &str) -> Result<Vec<String>, IngestError> {
-    let start = html.find("id=\"metall\"").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Metall-Auswahl fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("id=\"metall\"")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Metall-Auswahl fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("</select>").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),

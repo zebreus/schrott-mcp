@@ -368,14 +368,8 @@ mod tests {
             skips[0].contains("Gold") && skips[0].contains("Feinunze"),
             "{skips:?}"
         );
-        assert!(
-            skips.iter().any(|s| s.contains("Platin")),
-            "{skips:?}"
-        );
-        assert!(
-            skips.iter().any(|s| s.contains("Palladium")),
-            "{skips:?}"
-        );
+        assert!(skips.iter().any(|s| s.contains("Platin")), "{skips:?}");
+        assert!(skips.iter().any(|s| s.contains("Palladium")), "{skips:?}");
         let note = kurse_skips("<div>Redesign</div>");
         assert_eq!(note.len(), 1);
         assert!(note[0].contains("Kurse-Block fehlt"), "{note:?}");

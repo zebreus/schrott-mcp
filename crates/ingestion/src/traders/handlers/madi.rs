@@ -280,10 +280,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
 /// footer changed shape → loud error, never a Hamburg fallback (that
 /// would write the wrong street into the Rosengarten row).
 fn extract_rosengarten_address(html: &str) -> Result<(String, String, String), IngestError> {
-    let start = html.find("Unsere Standorte").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Standortliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Unsere Standorte")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Standortliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let anchor = tail.find(ROSEN_ANCHOR).ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -628,8 +630,7 @@ mod tests {
 
     #[test]
     fn rosengarten_footer_extracts_nenndorf() {
-        let (street, postcode, city) =
-            extract_rosengarten_address(FOOTER_FIXTURE).expect("parses");
+        let (street, postcode, city) = extract_rosengarten_address(FOOTER_FIXTURE).expect("parses");
         assert_eq!(street, "Ohepark 5");
         assert_eq!(postcode, "21224");
         assert_eq!(city, "Rosengarten-Nenndorf");
@@ -660,7 +661,10 @@ mod tests {
 
     #[test]
     fn slugs_match_seed() {
-        assert_eq!(super::SLUG_HAMMERBROOK, "hh-hammerbrook-madi-metall-recycling");
+        assert_eq!(
+            super::SLUG_HAMMERBROOK,
+            "hh-hammerbrook-madi-metall-recycling"
+        );
         assert_eq!(
             super::SLUG_ROSENGARTEN,
             "ni-rosengarten-madi-metall-recycling"

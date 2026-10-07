@@ -74,7 +74,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
         (URL_HARDWARE, fetch_text(client, URL_HARDWARE).await?),
         (URL_ALTMETALLE, fetch_text(client, URL_ALTMETALLE).await?),
     ];
-    let status = pages[0].1.0;
+    let status = pages[0].1 .0;
     let mut byte_len = 0;
     // (label, price, min, max, unit) across the three pages.
     let mut rows: Vec<(String, f64, Option<f64>, Option<f64>, &'static str)> = Vec::new();
@@ -411,11 +411,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let para = Selector::parse("p").expect("valid selector");
     let link = Selector::parse("a").expect("valid selector");
-    let addr_p = doc.select(&para).find(|p| {
-        p.text()
-            .collect::<String>()
-            .contains("Betriebsstätte")
-    });
+    let addr_p = doc
+        .select(&para)
+        .find(|p| p.text().collect::<String>().contains("Betriebsstätte"));
     let Some(addr_p) = addr_p else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -437,10 +435,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
             if pc.len() == 5 && pc.chars().all(|c| c.is_ascii_digit()) {
                 postcode = pc.to_owned();
-                city = it
-                    .fold(ci.to_owned(), |a, w| a + " " + w)
-                    .trim()
-                    .to_owned();
+                city = it.fold(ci.to_owned(), |a, w| a + " " + w).trim().to_owned();
                 street = lines[lines.len() - 2].clone();
             }
         }
@@ -622,7 +617,10 @@ mod tests {
         assert!(skips[0].contains("Einheit"));
         assert!(unit_of("1,00 € / KG (Beraubt)").is_some());
         assert!(unit_of("5 € pro Sack").is_none());
-        assert_eq!(split_range("4,00 € - 40,00 € / Kilogramm"), Some((4.0, 40.0)));
+        assert_eq!(
+            split_range("4,00 € - 40,00 € / Kilogramm"),
+            Some((4.0, 40.0))
+        );
         assert_eq!(split_range("28,50 € / Kilogramm"), None);
     }
 
@@ -701,10 +699,7 @@ mod tests {
             grade_for("Laptop Leiterplatten"),
             Some(("platinen", "Laptop"))
         );
-        assert_eq!(
-            grade_for("Rückwände"),
-            Some(("platinen", "Rückwände"))
-        );
+        assert_eq!(grade_for("Rückwände"), Some(("platinen", "Rückwände")));
         assert_eq!(
             grade_for("Leiterplatten Klasse 2A"),
             Some(("platinen", "Klasse 2A"))
@@ -725,31 +720,25 @@ mod tests {
             grade_for("Laufwerk Platinen"),
             Some(("platinen", "Laufwerk"))
         );
-        assert_eq!(
-            grade_for("Handy-Leiterplatten"),
-            Some(("handys", "Handy"))
-        );
+        assert_eq!(grade_for("Handy-Leiterplatten"), Some(("handys", "Handy")));
         // RAM has its own material now (fallback records platinen).
-        assert_eq!(grade_for("Arbeitsspeicher Goldkante"), Some(("ram", "Goldkante")));
+        assert_eq!(
+            grade_for("Arbeitsspeicher Goldkante"),
+            Some(("ram", "Goldkante"))
+        );
         assert_eq!(
             grade_for("Arbeitsspeicher Goldkante mit Aluminium"),
             Some(("ram", "Goldkante mit Aluminium"))
         );
-        assert_eq!(grade_for("Arbeitsspeicher Silberkante"), Some(("ram", "Silberkante")));
+        assert_eq!(
+            grade_for("Arbeitsspeicher Silberkante"),
+            Some(("ram", "Silberkante"))
+        );
         assert_eq!(grade_for("Slot Prozessoren"), None);
-        assert_eq!(
-            grade_for("Kunststoffprozessoren mit Kupferkühler"),
-            None
-        );
+        assert_eq!(grade_for("Kunststoffprozessoren mit Kupferkühler"), None);
         assert_eq!(grade_for("Kunststoffprozessoren Schwarz"), None);
-        assert_eq!(
-            grade_for("Keramikprozessoren mit Aluminiumkühler"),
-            None
-        );
-        assert_eq!(
-            grade_for("Keramikprozessoren Pentium und AMD"),
-            None
-        );
+        assert_eq!(grade_for("Keramikprozessoren mit Aluminiumkühler"), None);
+        assert_eq!(grade_for("Keramikprozessoren Pentium und AMD"), None);
         assert_eq!(grade_for("Keramikprozessoren Goldcap"), None);
         assert_eq!(grade_for("Keramik und Kunststoff ICs / Eprom"), None);
         assert_eq!(grade_for("Prozessoren iCore Serie"), None);
@@ -773,20 +762,14 @@ mod tests {
             grade_for("Kupfer Millberry"),
             Some(("kupfer-millberry", ""))
         );
-        assert_eq!(
-            grade_for("Kupfer Raff"),
-            Some(("kupfer-gemischt", "Raff"))
-        );
+        assert_eq!(grade_for("Kupfer Raff"), Some(("kupfer-gemischt", "Raff")));
         assert_eq!(grade_for("Messing"), Some(("messing", "")));
         assert_eq!(grade_for("Zinn 99%"), Some(("zinn", "99%")));
         assert_eq!(
             grade_for("Zinngeschirr 85% - 98%"),
             Some(("zinn-geschirr", "Geschirr 85-98%"))
         );
-        assert_eq!(
-            grade_for("Kupferkabel"),
-            Some(("kabel-kupfer", ""))
-        );
+        assert_eq!(grade_for("Kupferkabel"), Some(("kabel-kupfer", "")));
         assert_eq!(
             grade_for("PC-Netzteil Kabel mit Stecker"),
             Some(("kabel-kupfer", "mit Stecker"))

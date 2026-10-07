@@ -113,7 +113,9 @@ fn grade_for(metal: &str) -> Option<(&'static str, &'static str)> {
 /// Parse the Konditionen window between the card badge and the next
 /// section heading. Returns (rows, skips); rows carry
 /// (metal, payout price in catalog unit, unit, label).
-fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str, String)>, Vec<String>), IngestError> {
+fn parse(
+    html: &str,
+) -> Result<(Vec<(String, f64, &'static str, String)>, Vec<String>), IngestError> {
     let start = html
         .find("Tagesaktuelle Konditionen")
         .ok_or_else(|| IngestError::Parse {
@@ -214,7 +216,8 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str, String)>, Vec<St
             skips.push(format!("{metal} (Vergütung 0,00 €: kein Kurs)"));
             continue;
         }
-        let label = format!("{metal} (Börsenkurs {kurs}, Abschlag {abschlag}, Vergütung {verg_text})");
+        let label =
+            format!("{metal} (Börsenkurs {kurs}, Abschlag {abschlag}, Vergütung {verg_text})");
         rows.push((metal, price, unit, label));
     }
     if rows.is_empty() {
@@ -235,7 +238,11 @@ fn price_of(attr: &str) -> Option<f64> {
         return None;
     }
     let v: f64 = s.parse().ok()?;
-    if v.is_finite() && v >= 0.0 { Some(v) } else { None }
+    if v.is_finite() && v >= 0.0 {
+        Some(v)
+    } else {
+        None
+    }
 }
 
 /// Bespoke unit matcher for THIS table's Vergütung cells: the machine
@@ -265,10 +272,12 @@ fn unit_of(attr: &str, text: &str) -> Option<&'static str> {
 /// `data-cfemail` attribute (hex-xor, decoded below — the page shows only
 /// "[email protected]"). Missing anchors → loud error, never guessed.
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
-    let start = imp.find("Verantwortlich i.S.d.").ok_or_else(|| IngestError::Parse {
-        url: IMPRESSUM_URL.to_owned(),
-        detail: "Verantwortlich-Block fehlt".to_owned(),
-    })?;
+    let start = imp
+        .find("Verantwortlich i.S.d.")
+        .ok_or_else(|| IngestError::Parse {
+            url: IMPRESSUM_URL.to_owned(),
+            detail: "Verantwortlich-Block fehlt".to_owned(),
+        })?;
     let tail = &imp[start..];
     let end = tail.find("USt-IdNr").ok_or_else(|| IngestError::Parse {
         url: IMPRESSUM_URL.to_owned(),
@@ -338,7 +347,11 @@ fn cf_decode(hex: &str) -> Option<String> {
     let key = u8::from_str_radix(&hex[..2], 16).ok()?;
     let mut bytes = Vec::with_capacity(hex.len() / 2 - 1);
     for i in (2..hex.len()).step_by(2) {
-        bytes.push(u8::from_str_radix(&hex[i..i + 2], 16).ok().map(|b| b ^ key)?);
+        bytes.push(
+            u8::from_str_radix(&hex[i..i + 2], 16)
+                .ok()
+                .map(|b| b ^ key)?,
+        );
     }
     String::from_utf8(bytes).ok()
 }
@@ -448,13 +461,17 @@ mod tests {
         assert_eq!(price_of(""), None);
         assert_eq!(price_of("116,21 €"), None);
         // Display-text fallback converts a per-kg quote into the catalog unit.
-        let fallback = FIXTURE
-            .replace("data-sg-eur=\"116.206542\" data-sg-unit=\"g\"", "data-sg-eur=\"\" data-sg-unit=\"\"");
+        let fallback = FIXTURE.replace(
+            "data-sg-eur=\"116.206542\" data-sg-unit=\"g\"",
+            "data-sg-eur=\"\" data-sg-unit=\"\"",
+        );
         let (rows, _) = parse(&fallback).expect("parses");
         assert!((rows[0].1 - 116.21).abs() < 1e-9);
         assert_eq!(rows[0].2, "EUR/g");
-        let fallback_kg = FIXTURE
-            .replace("data-sg-eur=\"1.629749\" data-sg-unit=\"kg\"", "data-sg-eur=\"\" data-sg-unit=\"\"");
+        let fallback_kg = FIXTURE.replace(
+            "data-sg-eur=\"1.629749\" data-sg-unit=\"kg\"",
+            "data-sg-eur=\"\" data-sg-unit=\"\"",
+        );
         let (rows, _) = parse(&fallback_kg).expect("parses");
         assert!((rows[1].1 - 1.63).abs() < 1e-9);
         assert_eq!(rows[1].2, "EUR/g");

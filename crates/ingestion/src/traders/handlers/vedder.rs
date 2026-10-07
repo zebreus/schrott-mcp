@@ -366,7 +366,8 @@ mod tests {
     }
 
     #[test]
-    fn impressum_extracts_contact() {        let imp = "<h3>Anschrift</h3><p>Vedder & Stockrahm GmbH & Co. KG<br>\
+    fn impressum_extracts_contact() {
+        let imp = "<h3>Anschrift</h3><p>Vedder & Stockrahm GmbH & Co. KG<br>\
             Senator-Bömers Straße 10<br>28197 Bremen</p>\
             <dl><dt>Telefon</dt><dd>+49 (0) 421 54 25 54</dd>\
             <dt>Fax</dt><dd>+49 (0) 421 54 25 53</dd>\
@@ -407,7 +408,10 @@ mod tests {
             grade_for("Zinn 80% - 98% (Geschirr)"),
             Some(("zinn-geschirr", "80-98%"))
         );
-        assert_eq!(grade_for("Zinn 50% - 59%"), Some(("zinn-geschirr", "50-59%")));
+        assert_eq!(
+            grade_for("Zinn 50% - 59%"),
+            Some(("zinn-geschirr", "50-59%"))
+        );
         // Hartmetall HAT Katalogmaterial (frühere None-Annahme war stale).
         assert_eq!(
             grade_for("Hartmetall Widia Platten und Bohrer"),

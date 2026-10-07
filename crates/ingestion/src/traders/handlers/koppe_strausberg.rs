@@ -503,7 +503,10 @@ mod tests {
         assert_eq!(grade_for("Messing"), Some(("messing", "")));
         assert_eq!(grade_for("Messing Hülsen"), Some(("messing", "Hülsen")));
         assert_eq!(grade_for("Altblei"), Some(("blei", "")));
-        assert_eq!(grade_for("Auswuchtblei"), Some(("blei-auswucht", "Auswucht")));
+        assert_eq!(
+            grade_for("Auswuchtblei"),
+            Some(("blei-auswucht", "Auswucht"))
+        );
         assert_eq!(grade_for("Elektormotore"), Some(("elektromotoren", "")));
         assert_eq!(
             grade_for("Elektromotore mit Getriebe"),

@@ -165,18 +165,20 @@ fn parse(html: &str) -> Result<(Vec<String>, Vec<String>), IngestError> {
         .map(|el| el.text().collect::<String>().trim().to_owned())
         .collect();
     let mut js_notes = Vec::new();
-    if !values.is_empty() && values.iter().all(|v| v == "0" || v == "–" || v == "-" || v.is_empty())
+    if !values.is_empty()
+        && values
+            .iter()
+            .all(|v| v == "0" || v == "–" || v == "-" || v.is_empty())
     {
         js_notes.push(
             "Tagespreise nur per JS (uabb-number-int statisch 0), keine Preise übernommen"
                 .to_owned(),
         );
-    } else if values.iter().any(|v| {
-        v.chars().any(|c| c.is_ascii_digit()) && v != "0" && !v.is_empty()
-    }) {
-        js_notes.push(
-            "Statische Zählerwerte erkannt — voller Preis-Handler prüfen".to_owned(),
-        );
+    } else if values
+        .iter()
+        .any(|v| v.chars().any(|c| c.is_ascii_digit()) && v != "0" && !v.is_empty())
+    {
+        js_notes.push("Statische Zählerwerte erkannt — voller Preis-Handler prüfen".to_owned());
     }
     Ok((labels, js_notes))
 }
@@ -229,10 +231,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
             if pc.len() == 5 && pc.chars().all(|c| c.is_ascii_digit()) {
                 postcode = pc.to_owned();
-                city = std::iter::once(ci)
-                    .chain(it)
-                    .collect::<Vec<_>>()
-                    .join(" ");
+                city = std::iter::once(ci).chain(it).collect::<Vec<_>>().join(" ");
             }
         }
     }
@@ -374,10 +373,7 @@ mod tests {
         assert_eq!(grade_for("V4A"), Some(vec![("edelstahl-v4a", "")]));
         assert_eq!(grade_for("Zink"), Some(vec![("zink", "")]));
         assert_eq!(grade_for("Mischschrott"), Some(vec![("mischschrott", "")]));
-        assert_eq!(
-            grade_for("Millberry"),
-            Some(vec![("kupfer-millberry", "")])
-        );
+        assert_eq!(grade_for("Millberry"), Some(vec![("kupfer-millberry", "")]));
         assert_eq!(
             grade_for("Kupferschwer"),
             Some(vec![("kupfer-gemischt", "schwer")])

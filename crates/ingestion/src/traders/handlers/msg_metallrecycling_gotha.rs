@@ -272,7 +272,10 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
                     postcode = pc.to_owned();
                     // "99867 Gotha, DE" → Stadt ohne Länderkürzel.
                     let after = line[pc.len()..].trim();
-                    let after = after.trim_end_matches(", DE").trim_end_matches(",DE").trim();
+                    let after = after
+                        .trim_end_matches(", DE")
+                        .trim_end_matches(",DE")
+                        .trim();
                     city = after.to_owned();
                     // Straße = Zeile direkt davor, wenn sie eine Nummer trägt.
                     if i > 0 && lines[i - 1].chars().any(|c| c.is_ascii_digit()) {
@@ -338,10 +341,12 @@ fn unit_of(tier: &str) -> Option<&'static str> {
 fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
     // Window discipline: only section#preiseSchrott. A stray "49 €" in
     // header/footer must never pair with a label into a phantom price.
-    let start = html.find("preiseSchrott").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisbereich fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("preiseSchrott")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisbereich fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("<footer").unwrap_or(tail.len());
     let window = &tail[..end];
@@ -524,9 +529,22 @@ mod tests {
         assert_eq!(rows[2].title, "Bremsscheiben");
         assert_eq!(rows[2].tier, "ab 100 kg:");
         assert_eq!(rows[2].price, 0.19);
-        assert!(skips.iter().any(|s| s.contains("Schlamm") && s.contains("0,00")), "{skips:?}");
-        assert!(skips.iter().any(|s| s.contains("Inconell") && s.contains("kein Preis")), "{skips:?}");
-        assert!(skips.iter().any(|s| s.contains("höhere Staffeln")), "{skips:?}");
+        assert!(
+            skips
+                .iter()
+                .any(|s| s.contains("Schlamm") && s.contains("0,00")),
+            "{skips:?}"
+        );
+        assert!(
+            skips
+                .iter()
+                .any(|s| s.contains("Inconell") && s.contains("kein Preis")),
+            "{skips:?}"
+        );
+        assert!(
+            skips.iter().any(|s| s.contains("höhere Staffeln")),
+            "{skips:?}"
+        );
     }
 
     #[test]
@@ -535,8 +553,15 @@ mod tests {
         let (rows, skips) = parse(&html).expect("parses");
         // Alu blank loses its kept tier (falls through: higher tiers are
         // still kg and parse — smallest priced tier wins).
-        assert!(rows.iter().any(|r| r.title == "Alu Bleche blank" && r.tier == "ab 100 kg:"), "{rows:?}");
-        assert!(skips.iter().any(|s| s.contains("Einheit unverständlich")), "{skips:?}");
+        assert!(
+            rows.iter()
+                .any(|r| r.title == "Alu Bleche blank" && r.tier == "ab 100 kg:"),
+            "{rows:?}"
+        );
+        assert!(
+            skips.iter().any(|s| s.contains("Einheit unverständlich")),
+            "{skips:?}"
+        );
     }
 
     #[test]
@@ -572,29 +597,68 @@ mod tests {
 
     #[test]
     fn mapping_covers_live_cards() {
-        assert_eq!(grade_for("Millberry (ab 1 kg:)"), Some(("kupfer-millberry", "Millberry")));
-        assert_eq!(grade_for("Kupfer Lackdraht (ab 1 kg:)"), Some(("kupfer-berry", "Lackdraht")));
+        assert_eq!(
+            grade_for("Millberry (ab 1 kg:)"),
+            Some(("kupfer-millberry", "Millberry"))
+        );
+        assert_eq!(
+            grade_for("Kupfer Lackdraht (ab 1 kg:)"),
+            Some(("kupfer-berry", "Lackdraht"))
+        );
         assert_eq!(
             grade_for("Kupfer Leitschienen Blank (ab 1 kg:)"),
             Some(("kupfer-gemischt", "Leitschienen Blank"))
         );
-        assert_eq!(grade_for("Kupfer Schwer (ab 1 kg:)"), Some(("kupfer-gemischt", "Schwer")));
-        assert_eq!(grade_for("Kupfer Leicht (ab 1 kg:)"), Some(("kupfer-gemischt", "Leicht")));
-        assert_eq!(grade_for("Kupfer Späne (ab 1 kg:)"), Some(("kupfer-gemischt", "Späne")));
+        assert_eq!(
+            grade_for("Kupfer Schwer (ab 1 kg:)"),
+            Some(("kupfer-gemischt", "Schwer"))
+        );
+        assert_eq!(
+            grade_for("Kupfer Leicht (ab 1 kg:)"),
+            Some(("kupfer-gemischt", "Leicht"))
+        );
+        assert_eq!(
+            grade_for("Kupfer Späne (ab 1 kg:)"),
+            Some(("kupfer-gemischt", "Späne"))
+        );
         assert_eq!(grade_for("Alu Kabel (ab 1 kg:)"), Some(("kabel-alu", "")));
-        assert_eq!(grade_for("Kabel 50% Kupfer (ab 1 kg:)"), Some(("kabel-kupfer", "50%")));
-        assert_eq!(grade_for("Kabel 60% Kupfer (ab 1 kg:)"), Some(("kabel-kupfer", "60%")));
-        assert_eq!(grade_for("Kabel 80% Kupfer (ab 1 kg:)"), Some(("kabel-kupfer", "80%")));
+        assert_eq!(
+            grade_for("Kabel 50% Kupfer (ab 1 kg:)"),
+            Some(("kabel-kupfer", "50%"))
+        );
+        assert_eq!(
+            grade_for("Kabel 60% Kupfer (ab 1 kg:)"),
+            Some(("kabel-kupfer", "60%"))
+        );
+        assert_eq!(
+            grade_for("Kabel 80% Kupfer (ab 1 kg:)"),
+            Some(("kabel-kupfer", "80%"))
+        );
         assert_eq!(grade_for("Kabel (ab 1 kg:)"), Some(("kabel-kupfer", "")));
-        assert_eq!(grade_for("Ms 58 Abfälle (ab 1 kg:)"), Some(("messing", "Ms 58 Abfälle")));
-        assert_eq!(grade_for("Ms Erodierdraht (ab 1 kg:)"), Some(("messing", "Ms Erodierdraht")));
-        assert_eq!(grade_for("Ms leicht (ab 1 kg:)"), Some(("messing", "Ms leicht")));
+        assert_eq!(
+            grade_for("Ms 58 Abfälle (ab 1 kg:)"),
+            Some(("messing", "Ms 58 Abfälle"))
+        );
+        assert_eq!(
+            grade_for("Ms Erodierdraht (ab 1 kg:)"),
+            Some(("messing", "Ms Erodierdraht"))
+        );
+        assert_eq!(
+            grade_for("Ms leicht (ab 1 kg:)"),
+            Some(("messing", "Ms leicht"))
+        );
         assert_eq!(
             grade_for("Ms Späne gemischt (ab 1 kg:)"),
             Some(("messing", "Ms Späne gemischt"))
         );
-        assert_eq!(grade_for("Schwermessing (ab 1 kg:)"), Some(("messing", "Schwermessing")));
-        assert_eq!(grade_for("Wasseruhren (ab 1 kg:)"), Some(("messing-leicht", "Wasseruhren")));
+        assert_eq!(
+            grade_for("Schwermessing (ab 1 kg:)"),
+            Some(("messing", "Schwermessing"))
+        );
+        assert_eq!(
+            grade_for("Wasseruhren (ab 1 kg:)"),
+            Some(("messing-leicht", "Wasseruhren"))
+        );
         assert_eq!(
             grade_for("Bronze Schrott (ab 1 kg:)"),
             Some(("bronze-rotguss", "Bronze Schrott"))
@@ -619,9 +683,18 @@ mod tests {
             grade_for("Alu Bleche Farbe (ab 1 kg:)"),
             Some(("aluminium-blech", "Bleche Farbe"))
         );
-        assert_eq!(grade_for("Alu Geschirr (ab 1 kg:)"), Some(("aluminium-blech", "Geschirr")));
-        assert_eq!(grade_for("Alu Felgen (ab 1 kg:)"), Some(("aluminium-guss", "Felgen")));
-        assert_eq!(grade_for("Alu Guss (ab 1 kg:)"), Some(("aluminium-guss", "Guss")));
+        assert_eq!(
+            grade_for("Alu Geschirr (ab 1 kg:)"),
+            Some(("aluminium-blech", "Geschirr"))
+        );
+        assert_eq!(
+            grade_for("Alu Felgen (ab 1 kg:)"),
+            Some(("aluminium-guss", "Felgen"))
+        );
+        assert_eq!(
+            grade_for("Alu Guss (ab 1 kg:)"),
+            Some(("aluminium-guss", "Guss"))
+        );
         assert_eq!(
             grade_for("Alu Profile blank (ab 1 kg:)"),
             Some(("aluminium-profile", "Profile blank"))
@@ -630,13 +703,31 @@ mod tests {
             grade_for("Alu Profile iso (ab 1 kg:)"),
             Some(("aluminium-profile", "Profile iso"))
         );
-        assert_eq!(grade_for("Alu Späne (ab 1 kg:)"), Some(("aluminium-gemischt", "Späne")));
+        assert_eq!(
+            grade_for("Alu Späne (ab 1 kg:)"),
+            Some(("aluminium-gemischt", "Späne"))
+        );
         assert_eq!(grade_for("Altblei (ab 1 kg:)"), Some(("blei", "")));
-        assert_eq!(grade_for("V2A Edelstahl (ab 1 kg:)"), Some(("edelstahl-v2a", "")));
-        assert_eq!(grade_for("V2A Edelstahl Späne (ab 1 kg:)"), Some(("edelstahl-v2a", "Späne")));
-        assert_eq!(grade_for("V4A Edelstahl (ab 1 kg:)"), Some(("edelstahl-v4a", "")));
-        assert_eq!(grade_for("V4A Edelstahl Späne (ab 1 kg:)"), Some(("edelstahl-v4a", "Späne")));
-        assert_eq!(grade_for("Elektromotoren (ab 1 kg:)"), Some(("elektromotoren", "")));
+        assert_eq!(
+            grade_for("V2A Edelstahl (ab 1 kg:)"),
+            Some(("edelstahl-v2a", ""))
+        );
+        assert_eq!(
+            grade_for("V2A Edelstahl Späne (ab 1 kg:)"),
+            Some(("edelstahl-v2a", "Späne"))
+        );
+        assert_eq!(
+            grade_for("V4A Edelstahl (ab 1 kg:)"),
+            Some(("edelstahl-v4a", ""))
+        );
+        assert_eq!(
+            grade_for("V4A Edelstahl Späne (ab 1 kg:)"),
+            Some(("edelstahl-v4a", "Späne"))
+        );
+        assert_eq!(
+            grade_for("Elektromotoren (ab 1 kg:)"),
+            Some(("elektromotoren", ""))
+        );
         assert_eq!(
             grade_for("Hartmetall Bohrer/Fräser/Plättchen (ab 1 kg:)"),
             Some(("hartmetall", "Bohrer/Fräser/Plättchen"))
@@ -645,21 +736,48 @@ mod tests {
             grade_for("Hartmetall Stückschrott (ab 1 kg:)"),
             Some(("hartmetall", "Stückschrott"))
         );
-        assert_eq!(grade_for("Bremsscheiben (ab 100 kg:)"), Some(("eisenschrott-gussbruch", "Bremsscheiben")));
-        assert_eq!(grade_for("Gusseisen (ab 100 kg:)"), Some(("eisenschrott-gussbruch", "Gusseisen")));
-        assert_eq!(grade_for("Mischschrott (ab 100 kg:)"), Some(("mischschrott", "")));
-        assert_eq!(grade_for("Mischschrott schwer (ab 100 kg:)"), Some(("mischschrott", "schwer")));
-        assert_eq!(grade_for("Schredderschrott (ab 100 kg:)"), Some(("stahlschrott-shredder", "")));
-        assert_eq!(grade_for("Zinn Geschirr (ab 1 kg:)"), Some(("zinn-geschirr", "Geschirr")));
-        assert_eq!(grade_for("Zinkblech neu und alt (ab 1 kg:)"), Some(("zink", "Blech neu und alt")));
+        assert_eq!(
+            grade_for("Bremsscheiben (ab 100 kg:)"),
+            Some(("eisenschrott-gussbruch", "Bremsscheiben"))
+        );
+        assert_eq!(
+            grade_for("Gusseisen (ab 100 kg:)"),
+            Some(("eisenschrott-gussbruch", "Gusseisen"))
+        );
+        assert_eq!(
+            grade_for("Mischschrott (ab 100 kg:)"),
+            Some(("mischschrott", ""))
+        );
+        assert_eq!(
+            grade_for("Mischschrott schwer (ab 100 kg:)"),
+            Some(("mischschrott", "schwer"))
+        );
+        assert_eq!(
+            grade_for("Schredderschrott (ab 100 kg:)"),
+            Some(("stahlschrott-shredder", ""))
+        );
+        assert_eq!(
+            grade_for("Zinn Geschirr (ab 1 kg:)"),
+            Some(("zinn-geschirr", "Geschirr"))
+        );
+        assert_eq!(
+            grade_for("Zinkblech neu und alt (ab 1 kg:)"),
+            Some(("zink", "Blech neu und alt"))
+        );
         assert_eq!(grade_for("Zinkguss (ab 1 kg:)"), Some(("zink", "Guss")));
         // Lauter Skip: Mischmetall, Doppel-Material, kein Katalogmaterial.
         assert_eq!(grade_for("Alu Cu Kühler (ab 1 kg:)"), None);
         assert_eq!(grade_for("Stahl- und Gussspäne (ab 100 kg:)"), None);
         assert_eq!(grade_for("Messer versilbert (ab 1 kg:)"), None);
         assert_eq!(grade_for("Silberbesteck 800 (ab 1 kg:)"), None);
-        assert_eq!(grade_for("Versilbertes Besteck gestempelt 60/40/20 (ab 1 kg:)"), None);
-        assert_eq!(grade_for("Versilbertes Besteck gestempelt 80/90/100 (ab 1 kg:)"), None);
+        assert_eq!(
+            grade_for("Versilbertes Besteck gestempelt 60/40/20 (ab 1 kg:)"),
+            None
+        );
+        assert_eq!(
+            grade_for("Versilbertes Besteck gestempelt 80/90/100 (ab 1 kg:)"),
+            None
+        );
         assert_eq!(grade_for("Inconell (ab 1 kg:)"), None);
         assert_eq!(grade_for("Nickel (ab 1 kg:)"), None);
         assert_eq!(grade_for("Indium (ab 1 kg:)"), None);

@@ -136,8 +136,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
 /// First fineness run in the label ("Ankauf 585 Gold" → "585").
 fn fineness(l: &str) -> &'static str {
     for fin in [
-        "999", "986", "959", "950", "925", "916", "900", "835", "800", "750", "585", "500",
-        "375", "333",
+        "999", "986", "959", "950", "925", "916", "900", "835", "800", "750", "585", "500", "375",
+        "333",
     ] {
         if l.contains(fin) {
             return fin;

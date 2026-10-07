@@ -197,10 +197,12 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
             detail: "Legierungspreise: Listen-Anker fehlt".to_owned(),
         })?;
     let tail = &html[start..];
-    let end = tail.find("further-services").ok_or_else(|| IngestError::Parse {
-        url: PRICE_URL.to_owned(),
-        detail: "Legierungspreise: Ende-Anker fehlt".to_owned(),
-    })?;
+    let end = tail
+        .find("further-services")
+        .ok_or_else(|| IngestError::Parse {
+            url: PRICE_URL.to_owned(),
+            detail: "Legierungspreise: Ende-Anker fehlt".to_owned(),
+        })?;
     let window = &tail[..end];
     let frag = Html::parse_fragment(&format!("<div>{window}</div>"));
     let box_sel = Selector::parse("div.price-box-wrapper").expect("valid selector");
@@ -436,10 +438,7 @@ mod tests {
 
     #[test]
     fn zero_price_skips_loudly() {
-        let html = FIXTURE.replace(
-            "108,42&nbsp;€",
-            "0,00&nbsp;€",
-        );
+        let html = FIXTURE.replace("108,42&nbsp;€", "0,00&nbsp;€");
         let (rows, skips) = parse(&html).expect("parses");
         assert_eq!(rows.len(), 5);
         assert_eq!(skips.len(), 1);
@@ -495,7 +494,12 @@ mod tests {
         assert_eq!(info.city, "Frankfurt am Main");
         assert_eq!(info.phone, "(069) 210 295 821");
         assert_eq!(info.email, "frankfurt@ophirum.de");
-        assert!(extract_info("<div>ohne Adressblock</div>", "Friedensstraße 6-10", "https://x").is_err());
+        assert!(extract_info(
+            "<div>ohne Adressblock</div>",
+            "Friedensstraße 6-10",
+            "https://x"
+        )
+        .is_err());
         // Fremde Filiale scheitert am Straßen-Anker.
         let other = imp.replace("Friedensstraße 6-10", "Fedelhören 12");
         assert!(extract_info(&other, "Friedensstraße 6-10", "https://x").is_err());
@@ -511,8 +515,7 @@ mod tests {
             <a href=\"tel:004942141650555\">(0421) 416 50555</a></div>\
             <div class=\"contact-icon store-shop-email\">\
             <a href=\"mailto:service@goldfuxx.de\">service@goldfuxx.de</a></div></div>";
-        let info =
-            extract_info(imp, "Fedelhören 12", "https://x/bremen").expect("parses");
+        let info = extract_info(imp, "Fedelhören 12", "https://x/bremen").expect("parses");
         assert_eq!(info.street, "Fedelhören 12");
         assert_eq!(info.postcode, "28203");
         assert_eq!(info.city, "Bremen");

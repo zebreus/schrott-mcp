@@ -403,7 +403,9 @@ mod tests {
         // A lone trailing terminator is fine; only stacking is out.
         assert!(validate_readonly_sql("SELECT 1;").is_ok());
         // Semicolons inside literals are data, not separators.
-        assert!(validate_readonly_sql("SELECT COUNT(*) FROM traders WHERE city LIKE '%;%'").is_ok());
+        assert!(
+            validate_readonly_sql("SELECT COUNT(*) FROM traders WHERE city LIKE '%;%'").is_ok()
+        );
         assert!(validate_readonly_sql("SELECT group_concat(slug, '; ') FROM traders").is_ok());
         assert!(validate_readonly_sql("SELECT 'a;b'; SELECT 2").is_err());
         assert!(validate_readonly_sql("WITH x AS (SELECT 1) UPDATE prices SET price=1.0").is_err());
@@ -457,7 +459,9 @@ mod tests {
         let mut stmt = conn
             .prepare("SELECT id FROM t; DELETE FROM t")
             .expect("prepare drops the tail silently");
-        let n: i64 = stmt.query_row([], |r| r.get(0)).expect("first statement runs");
+        let n: i64 = stmt
+            .query_row([], |r| r.get(0))
+            .expect("first statement runs");
         assert_eq!(n, 1);
         let left: i64 = conn
             .query_row("SELECT COUNT(*) FROM t", [], |r| r.get(0))
@@ -468,7 +472,6 @@ mod tests {
         );
         assert!(super::validate_readonly_sql("SELECT id FROM t; DELETE FROM t").is_err());
     }
-
 
     #[test]
     fn sql_tool_round_trip_with_truncation() {

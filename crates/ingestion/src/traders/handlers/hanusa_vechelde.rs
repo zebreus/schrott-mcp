@@ -144,12 +144,12 @@ fn parse(
             url: URL.to_owned(),
             detail: "Preisbox fehlt".to_owned(),
         })?;
-    let date_anchor = html[start..].find("Letzte Aktualisierung am").ok_or_else(|| {
-        IngestError::Parse {
+    let date_anchor = html[start..]
+        .find("Letzte Aktualisierung am")
+        .ok_or_else(|| IngestError::Parse {
             url: URL.to_owned(),
             detail: "Datumsanker fehlt".to_owned(),
-        }
-    })?;
+        })?;
     let window = &html[start..start + date_anchor + 600.min(html.len() - start - date_anchor)];
     let published_at = date_in(window);
     // Collect <p> texts in order (Jimdo: label and price are sibling

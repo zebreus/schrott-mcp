@@ -714,7 +714,8 @@ mod tests {
 
     /// Real live snippet shape: `<li>` grades under "Ankauf weitere
     /// Metalle" plus "Zinnschrott 99%" as its own priceless panel.
-    const ACCEPT_FIXTURE: &str = "<div class=\"textwidget\"><p><strong>Ankauf weitere Metalle</strong></p>\
+    const ACCEPT_FIXTURE: &str =
+        "<div class=\"textwidget\"><p><strong>Ankauf weitere Metalle</strong></p>\
         <ul><li>Alufelgen mit Reifen</li><li>Aluminiumkabel dick</li>\
         <li>Alu-Offset-Bleche Sauber</li><li>Alu-Blech-neu blank</li>\
         <li>Blei / Bleibatterie</li><li>Edilstahl-V2A-V4A</li>\

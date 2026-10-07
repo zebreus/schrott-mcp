@@ -174,16 +174,18 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         });
     }
     // Window, never whole page: head CSS and CTAs also carry €/spans.
-    let start = html.find("Ankaufpreise</h1>").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preis-Anker fehlt".to_owned(),
-    })?;
-    let end = html[start..].find("Individuelles Angebot").ok_or_else(|| {
-        IngestError::Parse {
+    let start = html
+        .find("Ankaufpreise</h1>")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preis-Anker fehlt".to_owned(),
+        })?;
+    let end = html[start..]
+        .find("Individuelles Angebot")
+        .ok_or_else(|| IngestError::Parse {
             url: URL.to_owned(),
             detail: "Fenster-Ende fehlt".to_owned(),
-        }
-    })?;
+        })?;
     let window = &html[start..start + end];
     let doc = Html::parse_fragment(window);
     let row_sel = Selector::parse("div.cms-list span.flex-basic").expect("valid selector");
@@ -451,7 +453,10 @@ mod tests {
 
     #[test]
     fn grade_table() {
-        assert_eq!(grade_for("Mischschrott (Sorte 3A)"), Some(("mischschrott", "")));
+        assert_eq!(
+            grade_for("Mischschrott (Sorte 3A)"),
+            Some(("mischschrott", ""))
+        );
         assert_eq!(
             grade_for("Schwerer Neuschrott (Sorte 2A)"),
             Some(("stahlschrott-sorte-1", ""))

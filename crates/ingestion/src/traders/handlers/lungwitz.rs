@@ -486,7 +486,10 @@ mod tests {
         );
         assert_eq!(grade_for("Rotguß"), Some(("bronze-rotguss", "")));
         assert_eq!(grade_for("V2A"), Some(("edelstahl-v2a", "")));
-        assert_eq!(grade_for("Chromstahl"), Some(("edelstahl-gemischt", "Chromstahl")));
+        assert_eq!(
+            grade_for("Chromstahl"),
+            Some(("edelstahl-gemischt", "Chromstahl"))
+        );
         assert_eq!(
             grade_for("E-motoren bis 300 kg/St."),
             Some(("elektromotoren", ""))

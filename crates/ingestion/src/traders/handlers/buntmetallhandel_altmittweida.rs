@@ -363,10 +363,7 @@ mod tests {
             grade_for("Kupfer Schwer"),
             Some(("kupfer-gemischt", "Schwer"))
         );
-        assert_eq!(
-            grade_for("Kupfer verzinnt"),
-            Some(("kupfer-verzinnt", ""))
-        );
+        assert_eq!(grade_for("Kupfer verzinnt"), Some(("kupfer-verzinnt", "")));
         assert_eq!(grade_for("Kupfer Berry"), Some(("kupfer-berry", "")));
         assert_eq!(grade_for("Kupfer Milbery"), Some(("kupfer-millberry", "")));
         assert_eq!(grade_for("Kupfer Kabel"), Some(("kabel-kupfer", "")));

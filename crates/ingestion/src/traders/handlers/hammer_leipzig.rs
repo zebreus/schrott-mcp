@@ -267,25 +267,23 @@ mod tests {
         assert!(parse(&no_proof).is_err());
         // Empty example groups → loud error, not silent success.
         let empty = FIXTURE
-            .replacen("(z. B.: Aluminium, Kupfer, Zink, rostfreie Materialien, Blei usw.)", "", 1)
+            .replacen(
+                "(z. B.: Aluminium, Kupfer, Zink, rostfreie Materialien, Blei usw.)",
+                "",
+                1,
+            )
             .replacen("(z. B.: isolierte Kupferkabel, Elektromotoren)", "", 1);
         assert!(parse(&empty).is_err());
     }
 
     #[test]
     fn mapping_covers_live_grades() {
-        assert_eq!(
-            grade_for("Eisenschrott"),
-            Some(vec![("mischschrott", "")])
-        );
+        assert_eq!(grade_for("Eisenschrott"), Some(vec![("mischschrott", "")]));
         assert_eq!(
             grade_for("Aluminium"),
             Some(vec![("aluminium-gemischt", "")])
         );
-        assert_eq!(
-            grade_for("Kupfer"),
-            Some(vec![("kupfer-gemischt", "")])
-        );
+        assert_eq!(grade_for("Kupfer"), Some(vec![("kupfer-gemischt", "")]));
         assert_eq!(grade_for("Zink"), Some(vec![("zink", "")]));
         assert_eq!(
             grade_for("rostfreie Materialien"),

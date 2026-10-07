@@ -243,13 +243,7 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
 /// loud error, never a silent success.
 fn parse(
     html: &str,
-) -> Result<
-    (
-        Vec<(String, &'static str, f64, &'static str)>,
-        Vec<String>,
-    ),
-    IngestError,
-> {
+) -> Result<(Vec<(String, &'static str, f64, &'static str)>, Vec<String>), IngestError> {
     let start = html
         .find("id=\"price\"")
         .ok_or_else(|| IngestError::Parse {
@@ -541,7 +535,10 @@ mod tests {
         assert_eq!(rows[1].2, 11.35);
         assert_eq!(rows[2].1, TIER_1000);
         assert_eq!(rows[2].2, 11.45);
-        assert_eq!(rows[3], ("Aluminiumkabel".to_owned(), TIER_BASE, 0.1, "EUR/kg"));
+        assert_eq!(
+            rows[3],
+            ("Aluminiumkabel".to_owned(), TIER_BASE, 0.1, "EUR/kg")
+        );
         assert_eq!(
             rows[4],
             ("Aluminiumkabel dick".to_owned(), TIER_BASE, 0.35, "EUR/kg")
@@ -609,15 +606,24 @@ mod tests {
         // continuity); staffel tiers append the payment condition so no
         // two (grade × tier) pairs ever share a variant.
         assert_eq!(
-            grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert", TIER_BASE),
+            grade_for(
+                "Kupfer Millberry nicht angelaufen, nicht lackiert",
+                TIER_BASE
+            ),
             Some(("kupfer-millberry", ""))
         );
         assert_eq!(
-            grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert", TIER_200),
+            grade_for(
+                "Kupfer Millberry nicht angelaufen, nicht lackiert",
+                TIER_200
+            ),
             Some(("kupfer-millberry", "ab 200 kg Überweisung"))
         );
         assert_eq!(
-            grade_for("Kupfer Millberry nicht angelaufen, nicht lackiert", TIER_1000),
+            grade_for(
+                "Kupfer Millberry nicht angelaufen, nicht lackiert",
+                TIER_1000
+            ),
             Some(("kupfer-millberry", "ab 1000 kg Überweisung"))
         );
         assert_eq!(
@@ -633,11 +639,17 @@ mod tests {
             Some(("kupfer-berry", "Schwer, ab 1000 kg Überweisung"))
         );
         assert_eq!(
-            grade_for("Kupfer Kerze (neu, ohne Anhaftung, nicht angelaufen)", TIER_200),
+            grade_for(
+                "Kupfer Kerze (neu, ohne Anhaftung, nicht angelaufen)",
+                TIER_200
+            ),
             Some(("kupfer-berry", "Kerze, ab 200 kg Überweisung"))
         );
         assert_eq!(
-            grade_for("Kupferkabel kein Antennen-, Fett-, ALCU-, Eisenkabel", TIER_200),
+            grade_for(
+                "Kupferkabel kein Antennen-, Fett-, ALCU-, Eisenkabel",
+                TIER_200
+            ),
             Some(("kabel-kupfer", "ab 200 kg Überweisung"))
         );
         assert_eq!(
@@ -687,9 +699,15 @@ mod tests {
             grade_for("Aluminiumschrott mit max. 5% Anhaftung", TIER_1000),
             Some(("aluminium-gemischt", "5% Anhaftung, ab 1000 kg Überweisung"))
         );
-        assert_eq!(grade_for("Messing ohne Schläuche", TIER_200), Some(("messing", "ab 200 kg Überweisung")));
+        assert_eq!(
+            grade_for("Messing ohne Schläuche", TIER_200),
+            Some(("messing", "ab 200 kg Überweisung"))
+        );
         assert_eq!(grade_for("Altblei", TIER_BASE), Some(("blei", "")));
-        assert_eq!(grade_for("Zink", TIER_1000), Some(("zink", "ab 1000 kg Überweisung")));
+        assert_eq!(
+            grade_for("Zink", TIER_1000),
+            Some(("zink", "ab 1000 kg Überweisung"))
+        );
         assert_eq!(
             grade_for("Elektromotoren", TIER_200),
             Some(("elektromotoren", "ab 200 kg Überweisung"))

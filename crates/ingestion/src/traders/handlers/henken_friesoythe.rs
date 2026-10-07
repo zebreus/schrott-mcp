@@ -286,11 +286,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     // `<br>`-split via inner HTML (scraper text() would glue lines).
     let mut street = String::new();
     let (mut postcode, mut city) = (String::new(), String::new());
-    let addr_p = doc.select(&para).find(|p| {
-        p.text()
-            .collect::<String>()
-            .contains("Henken GmbH")
-    });
+    let addr_p = doc
+        .select(&para)
+        .find(|p| p.text().collect::<String>().contains("Henken GmbH"));
     if let Some(p) = addr_p {
         for part in p.inner_html().split("<br") {
             // Drop tag residue first (`<br />` leaves `/>` behind).
@@ -544,11 +542,7 @@ mod tests {
         );
         assert_eq!(
             rows[10],
-            (
-                "Schrott - leicht (Mischschrott)".to_owned(),
-                180.0,
-                "EUR/t"
-            )
+            ("Schrott - leicht (Mischschrott)".to_owned(), 180.0, "EUR/t")
         );
         assert_eq!(rows[14], ("Kat klein".to_owned(), 25.0, "EUR/Stk"));
     }
@@ -615,7 +609,10 @@ mod tests {
     #[test]
     fn mapping_covers_live_table() {
         // Every live label lands deliberately — or on None with a reason.
-        assert_eq!(grade_for("Alu - Felgen"), Some(("aluminium-guss", "Felgen")));
+        assert_eq!(
+            grade_for("Alu - Felgen"),
+            Some(("aluminium-guss", "Felgen"))
+        );
         assert_eq!(
             grade_for("Alu - Geschirr u. Alu Guß"),
             Some(("aluminium-gemischt", "Geschirr u. Guß"))
@@ -624,10 +621,7 @@ mod tests {
             grade_for("Alu - Kabel   oder  Alu-Schälkabel"),
             Some(("kabel-alu", ""))
         );
-        assert_eq!(
-            grade_for("Alu - Neu"),
-            Some(("aluminium-gemischt", "Neu"))
-        );
+        assert_eq!(grade_for("Alu - Neu"), Some(("aluminium-gemischt", "Neu")));
         assert_eq!(
             grade_for("Alu - Schredder / Alu mit Anhaftungen"),
             Some(("aluminium-gemischt", "Schredder"))
@@ -684,10 +678,7 @@ mod tests {
             grade_for("Kupfer-Mischkupfer"),
             Some(("kupfer-gemischt", ""))
         );
-        assert_eq!(
-            grade_for("Kupfer-Neu"),
-            Some(("kupfer-gemischt", "Neu"))
-        );
+        assert_eq!(grade_for("Kupfer-Neu"), Some(("kupfer-gemischt", "Neu")));
         assert_eq!(
             grade_for("Kupfer-Schälkabel    (Gummikabel)"),
             Some(("kabel-kupfer", "Schälkabel"))
@@ -696,14 +687,8 @@ mod tests {
             grade_for("Messing                      (Badezimmeramaturen, Wasserhahn)"),
             Some(("messing", ""))
         );
-        assert_eq!(
-            grade_for("Messinghülsen"),
-            Some(("messing", "Hülsen"))
-        );
-        assert_eq!(
-            grade_for("Messingspäne"),
-            Some(("messing", "Späne"))
-        );
+        assert_eq!(grade_for("Messinghülsen"), Some(("messing", "Hülsen")));
+        assert_eq!(grade_for("Messingspäne"), Some(("messing", "Späne")));
         assert_eq!(grade_for("Rotguß"), Some(("bronze-rotguss", "")));
         assert_eq!(
             grade_for("Offset (Alu)"),
@@ -748,7 +733,9 @@ mod tests {
             Some(("stahlschrott-shredder", "Blech 1"))
         );
         assert_eq!(
-            grade_for("Blech 2 - Kühltheken oh. Gefahrstoffe, Draht mit Anhaftung - 30-50 % Müllanteil"),
+            grade_for(
+                "Blech 2 - Kühltheken oh. Gefahrstoffe, Draht mit Anhaftung - 30-50 % Müllanteil"
+            ),
             Some(("stahlschrott-shredder", "Blech 2"))
         );
         assert_eq!(
@@ -785,20 +772,14 @@ mod tests {
             grade_for("Altautos mit Brief (bei Anlieferung) / Busse ohne Motor"),
             None
         );
-        assert_eq!(
-            grade_for("Altauto ohne Papiere (bei Anlieferung)"),
-            None
-        );
+        assert_eq!(grade_for("Altauto ohne Papiere (bei Anlieferung)"), None);
         assert_eq!(
             grade_for("Altauto ohne Papiere (bei Anlieferung) ohne Motor"),
             None
         );
         assert_eq!(grade_for("Batterien (Blei  =Pb )"), None);
         // Katalysatoren je Stück.
-        assert_eq!(
-            grade_for("Kat klein"),
-            Some(("katalysatoren", "klein"))
-        );
+        assert_eq!(grade_for("Kat klein"), Some(("katalysatoren", "klein")));
         assert_eq!(
             grade_for("Kat normal (magnetisch)   nicht klappern u. keine Runden Netze)."),
             Some(("katalysatoren", "normal"))

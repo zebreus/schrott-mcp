@@ -559,7 +559,10 @@ mod tests {
             Some(("aluminium-gemischt", "mit Anhaftungen"))
         );
         assert_eq!(grade_for("Bleischrott sauber", ""), Some(("blei", "")));
-        assert_eq!(grade_for("Auswuchtblei", ""), Some(("blei-auswucht", "Auswucht")));
+        assert_eq!(
+            grade_for("Auswuchtblei", ""),
+            Some(("blei-auswucht", "Auswucht"))
+        );
         assert_eq!(
             grade_for("V4A Edelstahl Sofortanalyse", ""),
             Some(("edelstahl-v4a", ""))

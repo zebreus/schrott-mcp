@@ -29,14 +29,12 @@ CREATE TABLE IF NOT EXISTS geocode_cache (
 /// and the serial Nominatim script (same normalization there).
 pub fn geocode_key(street: &str, postcode: &str, city: &str) -> String {
     fn norm(s: &str) -> String {
-        s.split_whitespace().collect::<Vec<_>>().join(" ").to_lowercase()
+        s.split_whitespace()
+            .collect::<Vec<_>>()
+            .join(" ")
+            .to_lowercase()
     }
-    format!(
-        "{}|{}|{}",
-        norm(street),
-        postcode.trim(),
-        norm(city)
-    )
+    format!("{}|{}|{}", norm(street), postcode.trim(), norm(city))
 }
 
 impl InternalDb {

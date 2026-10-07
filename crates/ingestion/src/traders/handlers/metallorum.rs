@@ -310,9 +310,7 @@ fn parse(html: &str) -> Result<(Vec<(String, String, f64)>, Vec<String>), Ingest
             continue;
         }
         let Some(weight) = parse_eur(&weight_cell) else {
-            skipped.push(format!(
-                "{product} (Gewicht unverständlich: {weight_cell})"
-            ));
+            skipped.push(format!("{product} (Gewicht unverständlich: {weight_cell})"));
             continue;
         };
         // Gewicht steht seitenweit in Gramm; kg käme nur als Text und
@@ -323,9 +321,7 @@ fn parse(html: &str) -> Result<(Vec<(String, String, f64)>, Vec<String>), Ingest
         } else if lower_w.contains('g') {
             weight
         } else {
-            skipped.push(format!(
-                "{product} (Einheit unverständlich: {weight_cell})"
-            ));
+            skipped.push(format!("{product} (Einheit unverständlich: {weight_cell})"));
             continue;
         };
         if weight_g <= 0.0 {
@@ -333,9 +329,7 @@ fn parse(html: &str) -> Result<(Vec<(String, String, f64)>, Vec<String>), Ingest
             continue;
         }
         let Some(gross) = parse_eur(&gross_cell) else {
-            skipped.push(format!(
-                "{product} (Preis unverständlich: {gross_cell})"
-            ));
+            skipped.push(format!("{product} (Preis unverständlich: {gross_cell})"));
             continue;
         };
         // "0,00 €" heißt kein Tagespreis, kein Gratis-Geschenk.
@@ -508,7 +502,10 @@ mod tests {
         assert_eq!(rows[0].0, "1 Gramm Goldbarren (diverse Hersteller)");
         assert!((rows[0].2 - 113.39).abs() < 1e-9);
         // Tausenderpunkt im Gewicht ("1.000,0000 g") und im Preis.
-        let kg = rows.iter().find(|(l, _, _)| l.contains("1kg")).expect("kg row");
+        let kg = rows
+            .iter()
+            .find(|(l, _, _)| l.contains("1kg"))
+            .expect("kg row");
         assert!((kg.2 - 1.89897).abs() < 1e-9, "brutto/g: {kg:?}");
         let kru = rows
             .iter()
@@ -526,50 +523,222 @@ mod tests {
         // Alle 44 Ankauf-Produkte der Live-Seite (28.09.2026): kein Label
         // bleibt ungemappt, keine zwei teilen (Material, Variante).
         let live: &[(&str, &str, &str)] = &[
-            ("gold", "1 Gramm Goldbarren (diverse Hersteller)", "999-barren-1g"),
-            ("gold", "5 Gramm Goldbarren (diverse Hersteller)", "999-barren-5g"),
-            ("gold", "10 Gramm Goldbarren (diverse Hersteller)", "999-barren-10g"),
-            ("gold", "1/2 Unze Goldbarren C. Hafner geprägt", "999-barren-hafner-1-2oz"),
-            ("gold", "20 Gramm Goldbarren (diverse Hersteller)", "999-barren-20g"),
-            ("gold", "25 Gramm Goldbarren Feingold C. Hafner", "999-barren-hafner-25g"),
-            ("gold", "1 Unze Goldbarren C. Hafner geprägt", "999-barren-hafner-1oz"),
-            ("gold", "1 Unze Goldbarren (diverse Hersteller)", "999-barren-1oz"),
-            ("gold", "50 Gramm Goldbarren (diverse Hersteller)", "999-barren-50g"),
-            ("gold", "50 x 1 Gramm Goldbarren Combibarren / Tafelbarren / Goldtafel", "999-combitafel-50x1g"),
-            ("gold", "100 x 1g Goldbarren Valcambi CombiBar®", "999-combibar-valcambi-100x1g"),
-            ("gold", "100 Gramm Goldbarren (diverse Hersteller)", "999-barren-100g"),
-            ("gold", "250 Gramm Goldbarren (diverse Hersteller)", "999-barren-250g"),
-            ("gold", "500 Gramm Goldbarren (diverse Hersteller)", "999-barren-500g"),
-            ("gold", "1/10 Unze Goldmünze Wiener Philharmoniker (diverse Jahrgänge)", "999-philharmoniker-1-10oz"),
-            ("gold", "1/10 Unze Goldmünze Krügerrand (diverse Jahrgänge)", "916-kruegerrand-1-10oz"),
-            ("gold", "1/10 Unze Goldmünze Känguru Nugget (diverse Jahrgänge)", "999-kaenguru-1-10oz"),
-            ("gold", "1/10 Unze Goldmünze Maple Leaf (diverse Jahrgänge)", "999-maple-leaf-1-10oz"),
+            (
+                "gold",
+                "1 Gramm Goldbarren (diverse Hersteller)",
+                "999-barren-1g",
+            ),
+            (
+                "gold",
+                "5 Gramm Goldbarren (diverse Hersteller)",
+                "999-barren-5g",
+            ),
+            (
+                "gold",
+                "10 Gramm Goldbarren (diverse Hersteller)",
+                "999-barren-10g",
+            ),
+            (
+                "gold",
+                "1/2 Unze Goldbarren C. Hafner geprägt",
+                "999-barren-hafner-1-2oz",
+            ),
+            (
+                "gold",
+                "20 Gramm Goldbarren (diverse Hersteller)",
+                "999-barren-20g",
+            ),
+            (
+                "gold",
+                "25 Gramm Goldbarren Feingold C. Hafner",
+                "999-barren-hafner-25g",
+            ),
+            (
+                "gold",
+                "1 Unze Goldbarren C. Hafner geprägt",
+                "999-barren-hafner-1oz",
+            ),
+            (
+                "gold",
+                "1 Unze Goldbarren (diverse Hersteller)",
+                "999-barren-1oz",
+            ),
+            (
+                "gold",
+                "50 Gramm Goldbarren (diverse Hersteller)",
+                "999-barren-50g",
+            ),
+            (
+                "gold",
+                "50 x 1 Gramm Goldbarren Combibarren / Tafelbarren / Goldtafel",
+                "999-combitafel-50x1g",
+            ),
+            (
+                "gold",
+                "100 x 1g Goldbarren Valcambi CombiBar®",
+                "999-combibar-valcambi-100x1g",
+            ),
+            (
+                "gold",
+                "100 Gramm Goldbarren (diverse Hersteller)",
+                "999-barren-100g",
+            ),
+            (
+                "gold",
+                "250 Gramm Goldbarren (diverse Hersteller)",
+                "999-barren-250g",
+            ),
+            (
+                "gold",
+                "500 Gramm Goldbarren (diverse Hersteller)",
+                "999-barren-500g",
+            ),
+            (
+                "gold",
+                "1/10 Unze Goldmünze Wiener Philharmoniker (diverse Jahrgänge)",
+                "999-philharmoniker-1-10oz",
+            ),
+            (
+                "gold",
+                "1/10 Unze Goldmünze Krügerrand (diverse Jahrgänge)",
+                "916-kruegerrand-1-10oz",
+            ),
+            (
+                "gold",
+                "1/10 Unze Goldmünze Känguru Nugget (diverse Jahrgänge)",
+                "999-kaenguru-1-10oz",
+            ),
+            (
+                "gold",
+                "1/10 Unze Goldmünze Maple Leaf (diverse Jahrgänge)",
+                "999-maple-leaf-1-10oz",
+            ),
             ("gold", "20 Schweizer Franken Vreneli", "900-vreneli-20-chf"),
-            ("gold", "1/4 Unze Goldmünze Wiener Philharmoniker (diverse Jahrgänge)", "999-philharmoniker-1-4oz"),
-            ("gold", "1/4 Unze Goldmünze Maple Leaf (diverse Jahrgänge)", "999-maple-leaf-1-4oz"),
-            ("gold", "1/4 Unze Goldmünze Krügerrand (diverse Jahrgänge)", "916-kruegerrand-1-4oz"),
-            ("gold", "1/4 Unze Goldmünze Känguru Nugget (diverse Jahrgänge)", "999-kaenguru-1-4oz"),
-            ("gold", "1/2 Unze Goldmünze Wiener Philharmoniker (diverse Jahrgänge)", "999-philharmoniker-1-2oz"),
-            ("gold", "1/2 Unze Goldmünze Maple Leaf (diverse Jahrgänge)", "999-maple-leaf-1-2oz"),
-            ("gold", "1/2 Unze Goldmünze Krügerrand (diverse Jahrgänge)", "916-kruegerrand-1-2oz"),
-            ("gold", "1/2 Unze Goldmünze Känguru Nugget (diverse Jahrgänge)", "999-kaenguru-1-2oz"),
-            ("gold", "1 Unze Goldmünze American Buffalo (diverse Jahrgänge)", "999-buffalo-1oz"),
-            ("gold", "1 Unze Goldmünze Wiener Philharmoniker (diverse Jahrgänge)", "999-philharmoniker-1oz"),
-            ("gold", "1 Unze Goldmünze Maple Leaf (diverse Jahrgänge)", "999-maple-leaf-1oz"),
-            ("gold", "1 Unze Goldmünze American Eagle (diverse Jahrgänge)", "916-eagle-1oz"),
-            ("gold", "1 Unze Goldmünze Känguru Nugget (diverse Jahrgänge)", "999-kaenguru-1oz"),
-            ("gold", "1 Unze Goldmünze Krügerrand (diverse Jahrgänge)", "916-kruegerrand-1oz"),
-            ("silver", "100 x 1g Silberbarren UnityBox (Heimerle und Meule) (19 % MwSt)", "999-silberbarren-unitybox-100x1g"),
-            ("silver", "100 Gramm Silberbarren (diverse Hersteller)", "999-silberbarren-100g"),
-            ("silver", "250 Gramm Silberbarren Heraeus gegossen", "999-silberbarren-heraeus-250g"),
-            ("silver", "500g Silberbarren ( diverse Hersteller)", "999-silberbarren-500g"),
-            ("silver", "1kg Silberbarren (19 % MwSt)", "999-silberbarren-1kg"),
-            ("silver", "1 Unze Silbermünze Maple Leaf (19 % MwSt)", "999-maple-leaf-1oz-19pct"),
-            ("silver", "1 Unze Silbermünze Krügerrand (19 % MwSt)", "999-kruegerrand-1oz-19pct"),
-            ("silver", "1 Unze Silbermünze Känguru Nugget (19 % MwSt)", "999-kaenguru-1oz-19pct"),
-            ("silver", "1 Unze Silbermünze Känguru Nugget (Diff.-besteuert, diverse Jahrgänge)", "999-kaenguru-1oz-diff"),
-            ("silver", "1 Unze Silbermünze Krügerrand (Diff.-besteuert, diverse Jahrgänge)", "999-kruegerrand-1oz-diff"),
-            ("silver", "1 Unze Silbermünze Maple Leaf (Diff.-besteuert, diverse Jahrgänge)", "999-maple-leaf-1oz-diff"),
+            (
+                "gold",
+                "1/4 Unze Goldmünze Wiener Philharmoniker (diverse Jahrgänge)",
+                "999-philharmoniker-1-4oz",
+            ),
+            (
+                "gold",
+                "1/4 Unze Goldmünze Maple Leaf (diverse Jahrgänge)",
+                "999-maple-leaf-1-4oz",
+            ),
+            (
+                "gold",
+                "1/4 Unze Goldmünze Krügerrand (diverse Jahrgänge)",
+                "916-kruegerrand-1-4oz",
+            ),
+            (
+                "gold",
+                "1/4 Unze Goldmünze Känguru Nugget (diverse Jahrgänge)",
+                "999-kaenguru-1-4oz",
+            ),
+            (
+                "gold",
+                "1/2 Unze Goldmünze Wiener Philharmoniker (diverse Jahrgänge)",
+                "999-philharmoniker-1-2oz",
+            ),
+            (
+                "gold",
+                "1/2 Unze Goldmünze Maple Leaf (diverse Jahrgänge)",
+                "999-maple-leaf-1-2oz",
+            ),
+            (
+                "gold",
+                "1/2 Unze Goldmünze Krügerrand (diverse Jahrgänge)",
+                "916-kruegerrand-1-2oz",
+            ),
+            (
+                "gold",
+                "1/2 Unze Goldmünze Känguru Nugget (diverse Jahrgänge)",
+                "999-kaenguru-1-2oz",
+            ),
+            (
+                "gold",
+                "1 Unze Goldmünze American Buffalo (diverse Jahrgänge)",
+                "999-buffalo-1oz",
+            ),
+            (
+                "gold",
+                "1 Unze Goldmünze Wiener Philharmoniker (diverse Jahrgänge)",
+                "999-philharmoniker-1oz",
+            ),
+            (
+                "gold",
+                "1 Unze Goldmünze Maple Leaf (diverse Jahrgänge)",
+                "999-maple-leaf-1oz",
+            ),
+            (
+                "gold",
+                "1 Unze Goldmünze American Eagle (diverse Jahrgänge)",
+                "916-eagle-1oz",
+            ),
+            (
+                "gold",
+                "1 Unze Goldmünze Känguru Nugget (diverse Jahrgänge)",
+                "999-kaenguru-1oz",
+            ),
+            (
+                "gold",
+                "1 Unze Goldmünze Krügerrand (diverse Jahrgänge)",
+                "916-kruegerrand-1oz",
+            ),
+            (
+                "silver",
+                "100 x 1g Silberbarren UnityBox (Heimerle und Meule) (19 % MwSt)",
+                "999-silberbarren-unitybox-100x1g",
+            ),
+            (
+                "silver",
+                "100 Gramm Silberbarren (diverse Hersteller)",
+                "999-silberbarren-100g",
+            ),
+            (
+                "silver",
+                "250 Gramm Silberbarren Heraeus gegossen",
+                "999-silberbarren-heraeus-250g",
+            ),
+            (
+                "silver",
+                "500g Silberbarren ( diverse Hersteller)",
+                "999-silberbarren-500g",
+            ),
+            (
+                "silver",
+                "1kg Silberbarren (19 % MwSt)",
+                "999-silberbarren-1kg",
+            ),
+            (
+                "silver",
+                "1 Unze Silbermünze Maple Leaf (19 % MwSt)",
+                "999-maple-leaf-1oz-19pct",
+            ),
+            (
+                "silver",
+                "1 Unze Silbermünze Krügerrand (19 % MwSt)",
+                "999-kruegerrand-1oz-19pct",
+            ),
+            (
+                "silver",
+                "1 Unze Silbermünze Känguru Nugget (19 % MwSt)",
+                "999-kaenguru-1oz-19pct",
+            ),
+            (
+                "silver",
+                "1 Unze Silbermünze Känguru Nugget (Diff.-besteuert, diverse Jahrgänge)",
+                "999-kaenguru-1oz-diff",
+            ),
+            (
+                "silver",
+                "1 Unze Silbermünze Krügerrand (Diff.-besteuert, diverse Jahrgänge)",
+                "999-kruegerrand-1oz-diff",
+            ),
+            (
+                "silver",
+                "1 Unze Silbermünze Maple Leaf (Diff.-besteuert, diverse Jahrgänge)",
+                "999-maple-leaf-1oz-diff",
+            ),
         ];
         assert_eq!(live.len(), 44);
         let mut seen = std::collections::HashSet::new();
@@ -599,7 +768,10 @@ mod tests {
         assert_eq!(info.phone, "06021 4542399");
         assert_eq!(info.email, "info@edelmetallshop-aschaffenburg.de");
         // Fehlende Anker scheitern laut statt zu raten.
-        assert!(extract_info("<h3>Anfahrt</h3><p>Weißenburger Str. 18 | 63739 Aschaffenburg</p>").is_err());
+        assert!(
+            extract_info("<h3>Anfahrt</h3><p>Weißenburger Str. 18 | 63739 Aschaffenburg</p>")
+                .is_err()
+        );
         assert!(extract_info("<p>Neu hier</p>").is_err());
     }
 }

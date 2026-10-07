@@ -467,9 +467,18 @@ mod tests {
             grade_for("Zinn 80% - 98% (Geschirr)"),
             Some(("zinn-geschirr", "80-98%"))
         );
-        assert_eq!(grade_for("Zinn 70% - 79%"), Some(("zinn-geschirr", "70-79%")));
-        assert_eq!(grade_for("Zinn 60% - 69%"), Some(("zinn-geschirr", "60-69%")));
-        assert_eq!(grade_for("Zinn 50% - 59%"), Some(("zinn-geschirr", "50-59%")));
+        assert_eq!(
+            grade_for("Zinn 70% - 79%"),
+            Some(("zinn-geschirr", "70-79%"))
+        );
+        assert_eq!(
+            grade_for("Zinn 60% - 69%"),
+            Some(("zinn-geschirr", "60-69%"))
+        );
+        assert_eq!(
+            grade_for("Zinn 50% - 59%"),
+            Some(("zinn-geschirr", "50-59%"))
+        );
         // No catalog material for silver-plated cutlery (silber is EUR/g).
         assert_eq!(grade_for("Versilbertes Besteck 90 / 100"), None);
         assert_eq!(grade_for("Versilberte Messer"), None);

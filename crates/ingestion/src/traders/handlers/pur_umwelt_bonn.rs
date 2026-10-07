@@ -296,9 +296,7 @@ fn parse(
     // Window: start at the list head, end at the exclusion terminator
     // ("Keine Annahme von: …" is not a price, it ends the box).
     let start = full.find("ALTMETALLPREISE").expect("anchor checked");
-    let end = full
-        .find("Keine Annahme von:")
-        .unwrap_or(full.len());
+    let end = full.find("Keine Annahme von:").unwrap_or(full.len());
     let body = &full[start..end];
     // Page date: the ticker "Stand …" first, the "gültig ab: …" heading
     // as fallback (both live: 21.09.2026).
@@ -438,10 +436,7 @@ mod tests {
     #[test]
     fn ticker_and_date_parse() {
         let (published_at, rows, skips) = parse(FIXTURE).expect("parses");
-        assert_eq!(
-            published_at.as_deref(),
-            Some("2026-09-21T00:00:00+00:00")
-        );
+        assert_eq!(published_at.as_deref(), Some("2026-09-21T00:00:00+00:00"));
         // 28 ticker segments, all with prices and known units.
         assert_eq!(rows.len(), 28);
         assert!(skips.is_empty(), "{skips:?}");
@@ -464,12 +459,12 @@ mod tests {
         // Ticker without "Stand …" still dates via the "gültig ab" h3.
         let html = FIXTURE.replacen("Stand 21.09.2026", "Stand", 1);
         let (published_at, rows, _) = parse(&html).expect("parses");
+        assert_eq!(published_at.as_deref(), Some("2026-09-21T00:00:00+00:00"));
+        assert_eq!(rows.len(), 28);
         assert_eq!(
-            published_at.as_deref(),
+            de_date_after("gültig ab: 21.09.2026, 11:00", "gültig ab").as_deref(),
             Some("2026-09-21T00:00:00+00:00")
         );
-        assert_eq!(rows.len(), 28);
-        assert_eq!(de_date_after("gültig ab: 21.09.2026, 11:00", "gültig ab").as_deref(), Some("2026-09-21T00:00:00+00:00"));
         assert_eq!(de_date_after("Stand 32.13.2026", "Stand"), None);
     }
 
@@ -539,10 +534,7 @@ mod tests {
             grade_for("Misch./Privat ab 100 kg"),
             Some(("mischschrott", "Privat ab 100 kg"))
         );
-        assert_eq!(
-            grade_for("FE-Guss"),
-            Some(("eisenschrott-gussbruch", ""))
-        );
+        assert_eq!(grade_for("FE-Guss"), Some(("eisenschrott-gussbruch", "")));
         assert_eq!(
             grade_for("Bremsscheiben"),
             Some(("eisenschrott-gussbruch", "Bremsscheiben"))
@@ -560,10 +552,7 @@ mod tests {
             grade_for("Alu-Guss ohne Fe"),
             Some(("aluminium-guss", "ohne Fe"))
         );
-        assert_eq!(
-            grade_for("Alu-Späne"),
-            Some(("aluminium-gemisch", "Späne"))
-        );
+        assert_eq!(grade_for("Alu-Späne"), Some(("aluminium-gemisch", "Späne")));
         assert_eq!(
             grade_for("Alu-Isoprofile"),
             Some(("aluminium-profile", "Iso"))
@@ -578,10 +567,7 @@ mod tests {
             grade_for("Kupfer raff. 95%"),
             Some(("kupfer-gemischt", "Raff 95%"))
         );
-        assert_eq!(
-            grade_for("Millberry"),
-            Some(("kupfer-millberry", ""))
-        );
+        assert_eq!(grade_for("Millberry"), Some(("kupfer-millberry", "")));
         assert_eq!(
             grade_for("Kupfer-Späne"),
             Some(("kupfer-gemischt", "Späne"))
@@ -595,26 +581,17 @@ mod tests {
             Some(("kabel-kupfer", "mit Stecker"))
         );
         assert_eq!(grade_for("Messing"), Some(("messing", "")));
-        assert_eq!(
-            grade_for("Messing Späne"),
-            Some(("messing", "Späne"))
-        );
+        assert_eq!(grade_for("Messing Späne"), Some(("messing", "Späne")));
         assert_eq!(grade_for("V2A"), Some(("edelstahl-v2a", "")));
         assert_eq!(grade_for("V4A"), Some(("edelstahl-v4a", "")));
-        assert_eq!(
-            grade_for("V2A-Späne"),
-            Some(("edelstahl-v2a", "Späne"))
-        );
+        assert_eq!(grade_for("V2A-Späne"), Some(("edelstahl-v2a", "Späne")));
         assert_eq!(grade_for("Zink"), Some(("zink", "")));
         assert_eq!(
             grade_for("Zinngeschirr"),
             Some(("zinn-geschirr", "Geschirr"))
         );
         // Widia is hard metal, not an ambiguous either/or label.
-        assert_eq!(
-            grade_for("Hartmetall/Widia"),
-            Some(("hartmetall", ""))
-        );
+        assert_eq!(grade_for("Hartmetall/Widia"), Some(("hartmetall", "")));
         // No catalog material: loud skips, never guessed.
         assert_eq!(grade_for("Eisenspäne"), None);
         assert_eq!(grade_for("Verhüttung"), None);

@@ -1078,7 +1078,10 @@ mod tests {
         assert_eq!(grade_for("Zink-Blech neu"), Some(("zink", "Blech neu")));
         assert_eq!(grade_for("Zink-Blech alt"), Some(("zink", "Blech alt")));
         assert_eq!(grade_for("Zinn 60/40"), Some(("loetzinn", "60/40")));
-        assert_eq!(grade_for("Zinn Geschirr"), Some(("zinn-geschirr", "Geschirr")));
+        assert_eq!(
+            grade_for("Zinn Geschirr"),
+            Some(("zinn-geschirr", "Geschirr"))
+        );
         assert_eq!(
             grade_for("Eisenschrott leicht"),
             Some(("mischschrott", "leicht"))

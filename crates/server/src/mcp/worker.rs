@@ -62,8 +62,7 @@ struct WireReply {
 }
 
 /// Actionable cause shared by every out-of-memory kill path.
-const OOM_MESSAGE: &str =
-    "query used too much memory and was killed; narrow it with WHERE / LIMIT";
+const OOM_MESSAGE: &str = "query used too much memory and was killed; narrow it with WHERE / LIMIT";
 
 /// Turn a bare worker death (non-zero exit, no `{"error"}` envelope) into
 /// an actionable error. Kernel kills carry the cause in the exit status:

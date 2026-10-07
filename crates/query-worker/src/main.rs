@@ -38,8 +38,7 @@ fn parse_request(input: &str) -> Result<Request, String> {
     if input.len() > REQUEST_CAP {
         return Err("query text too long".to_owned());
     }
-    let req: Request =
-        serde_json::from_str(input).map_err(|e| format!("bad request JSON: {e}"))?;
+    let req: Request = serde_json::from_str(input).map_err(|e| format!("bad request JSON: {e}"))?;
     if req.sql.len() > REQUEST_CAP {
         return Err("query text too long".to_owned());
     }

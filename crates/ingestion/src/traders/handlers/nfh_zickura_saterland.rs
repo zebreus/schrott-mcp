@@ -82,7 +82,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
     // Mixed-metal coolers and assemblies: no single catalog material.
-    if l.contains("kühler") && (l.contains("messing") || (l.contains("alu") && l.contains("kupfer")))
+    if l.contains("kühler")
+        && (l.contains("messing") || (l.contains("alu") && l.contains("kupfer")))
     {
         return None;
     }
@@ -207,9 +208,10 @@ fn extract_info(contact: &str) -> Result<TraderInfo, IngestError> {
     let h1 = Selector::parse("h1").expect("valid selector");
     let h3 = Selector::parse("h3").expect("valid selector");
     let p = Selector::parse("p").expect("valid selector");
-    if !doc.select(&h1).any(|h| {
-        h.text().collect::<String>().trim() == "Kontaktiere uns"
-    }) {
+    if !doc
+        .select(&h1)
+        .any(|h| h.text().collect::<String>().trim() == "Kontaktiere uns")
+    {
         return Err(IngestError::Parse {
             url: CONTACT_URL.to_owned(),
             detail: "Kontakt-Anker fehlt".to_owned(),
@@ -352,7 +354,10 @@ fn parse(
     for h in price_table.select(&head) {
         let text: String = h.text().collect();
         for tok in text.split_whitespace() {
-            let parts: Vec<&str> = tok.trim_matches(|c: char| !c.is_ascii_digit()).split('.').collect();
+            let parts: Vec<&str> = tok
+                .trim_matches(|c: char| !c.is_ascii_digit())
+                .split('.')
+                .collect();
             if parts.len() == 3 {
                 if let Some(date) = parse_de_date(parts[0], parts[1], parts[2]) {
                     published_at = Some(date);
@@ -368,19 +373,17 @@ fn parse(
         if cells.len() < 2 {
             continue;
         }
-        let label = cells[0]
-            .trim()
-            .replace(['\u{a0}'], " ");
-        let label = label
-            .split_whitespace()
-            .collect::<Vec<_>>()
-            .join(" ");
+        let label = cells[0].trim().replace(['\u{a0}'], " ");
+        let label = label.split_whitespace().collect::<Vec<_>>().join(" ");
         if label.is_empty() || label.len() > 120 {
             continue;
         }
         // Tyre rows are disposal fees ("10€+19%"), not purchase prices.
         if label.to_lowercase().contains("reifen") {
-            skipped.push(format!("{label} (kein Ankauf: Entsorgungsgebühr {})", cells[1].trim()));
+            skipped.push(format!(
+                "{label} (kein Ankauf: Entsorgungsgebühr {})",
+                cells[1].trim()
+            ));
             continue;
         }
         // Empty price cell: loud skip, never a silent zero.
@@ -493,8 +496,12 @@ mod tests {
         let (_, rows, skips) = parse(&html).expect("parses");
         assert_eq!(rows.len(), 10);
         assert_eq!(skips.len(), 3);
-        assert!(skips.iter().any(|s| s.contains("Millberry") && s.contains("kein Preis")));
-        assert!(skips.iter().any(|s| s.contains("Messing") && s.contains("0,00")));
+        assert!(skips
+            .iter()
+            .any(|s| s.contains("Millberry") && s.contains("kein Preis")));
+        assert!(skips
+            .iter()
+            .any(|s| s.contains("Messing") && s.contains("0,00")));
     }
 
     #[test]
@@ -537,33 +544,69 @@ mod tests {
     #[test]
     fn mapping_covers_live_table() {
         assert_eq!(grade_for("Schrott-Misch"), Some(("mischschrott", "")));
-        assert_eq!(grade_for("Schrott-Schwer"), Some(("stahlschrott-scheren", "Schwer")));
+        assert_eq!(
+            grade_for("Schrott-Schwer"),
+            Some(("stahlschrott-scheren", "Schwer"))
+        );
         assert_eq!(grade_for("Schrott-Neu"), Some(("stahlschrott-sorte-1", "")));
-        assert_eq!(grade_for("Schrott-Blech"), Some(("stahlschrott-shredder", "Blech")));
+        assert_eq!(
+            grade_for("Schrott-Blech"),
+            Some(("stahlschrott-shredder", "Blech"))
+        );
         assert_eq!(grade_for("Schrott-Späne"), Some(("mischschrott", "Späne")));
         assert_eq!(grade_for("Eisenguß"), Some(("eisenschrott-gussbruch", "")));
-        assert_eq!(grade_for("Alu-Späne"), Some(("aluminium-gemischt", "Späne")));
+        assert_eq!(
+            grade_for("Alu-Späne"),
+            Some(("aluminium-gemischt", "Späne"))
+        );
         assert_eq!(grade_for("Alu-Felgen"), Some(("aluminium-guss", "Felgen")));
-        assert_eq!(grade_for("Alu-Geschirr"), Some(("aluminium-blech", "Geschirr")));
-        assert_eq!(grade_for("Alu-Schredder"), Some(("aluminium-gemischt", "Schredder")));
+        assert_eq!(
+            grade_for("Alu-Geschirr"),
+            Some(("aluminium-blech", "Geschirr"))
+        );
+        assert_eq!(
+            grade_for("Alu-Schredder"),
+            Some(("aluminium-gemischt", "Schredder"))
+        );
         assert_eq!(grade_for("Alu-Neu"), Some(("aluminium-gemischt", "Neu")));
         assert_eq!(grade_for("Alu-Kabel"), Some(("kabel-alu", "")));
         assert_eq!(grade_for("Erdkabel-Alu"), Some(("kabel-alu", "Erdkabel")));
-        assert_eq!(grade_for("Erdkabel-Kupfer"), Some(("kabel-kupfer", "Erdkabel")));
+        assert_eq!(
+            grade_for("Erdkabel-Kupfer"),
+            Some(("kabel-kupfer", "Erdkabel"))
+        );
         assert_eq!(grade_for("Kupfer-Misch"), Some(("kupfer-gemischt", "")));
         assert_eq!(grade_for("Kupfer-ISO"), Some(("kabel-kupfer", "ISO")));
         assert_eq!(grade_for("Kupfer-Neu"), Some(("kupfer-gemischt", "Neu")));
-        assert_eq!(grade_for("Kupfer-Millberry"), Some(("kupfer-millberry", "")));
-        assert_eq!(grade_for("Kupfer-Schälkabel"), Some(("kabel-kupfer", "Schälkabel")));
-        assert_eq!(grade_for("Kupfer-Kabel-unsauber"), Some(("kabel-kupfer", "unsauber")));
-        assert_eq!(grade_for("Kupfer-Kabel-sauber"), Some(("kabel-kupfer", "sauber")));
+        assert_eq!(
+            grade_for("Kupfer-Millberry"),
+            Some(("kupfer-millberry", ""))
+        );
+        assert_eq!(
+            grade_for("Kupfer-Schälkabel"),
+            Some(("kabel-kupfer", "Schälkabel"))
+        );
+        assert_eq!(
+            grade_for("Kupfer-Kabel-unsauber"),
+            Some(("kabel-kupfer", "unsauber"))
+        );
+        assert_eq!(
+            grade_for("Kupfer-Kabel-sauber"),
+            Some(("kabel-kupfer", "sauber"))
+        );
         assert_eq!(grade_for("Messing"), Some(("messing", "")));
         assert_eq!(grade_for("Messing-Späne"), Some(("messing", "Späne")));
         assert_eq!(grade_for("V2A"), Some(("edelstahl-v2a", "")));
         assert_eq!(grade_for("V4A"), Some(("edelstahl-v4a", "")));
         assert_eq!(grade_for("V2A-Späne"), Some(("edelstahl-v2a", "Späne")));
-        assert_eq!(grade_for("E-Motor sauber"), Some(("elektromotoren", "sauber")));
-        assert_eq!(grade_for("E-Motor unsauber"), Some(("elektromotoren", "unsauber")));
+        assert_eq!(
+            grade_for("E-Motor sauber"),
+            Some(("elektromotoren", "sauber"))
+        );
+        assert_eq!(
+            grade_for("E-Motor unsauber"),
+            Some(("elektromotoren", "unsauber"))
+        );
         assert_eq!(grade_for("Blei"), Some(("blei", "")));
         assert_eq!(grade_for("Auswuchblei"), Some(("blei", "Auswuchtblei")));
         assert_eq!(grade_for("Zink"), Some(("zink", "")));
@@ -571,7 +614,10 @@ mod tests {
         assert_eq!(grade_for("Offset Alu"), Some(("aluminium-blech", "Offset")));
         assert_eq!(grade_for("Rotguß"), Some(("bronze-rotguss", "")));
         assert_eq!(grade_for("Profile Neu"), Some(("aluminium-profile", "Neu")));
-        assert_eq!(grade_for("Profile Iso Neu"), Some(("aluminium-profile", "Iso Neu")));
+        assert_eq!(
+            grade_for("Profile Iso Neu"),
+            Some(("aluminium-profile", "Iso Neu"))
+        );
         assert_eq!(
             grade_for("Profile Bunt  (unsauber)"),
             Some(("aluminium-profile", "Bunt unsauber"))

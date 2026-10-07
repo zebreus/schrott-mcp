@@ -28,8 +28,7 @@ use std::path::{Path, PathBuf};
 
 /// States in dossier/build order (bw, by, be, bb, hb, hh, he, mv, ni, nw, rp, sl, sn, st, sh, th).
 const STATES: &[&str] = &[
-    "bw", "by", "be", "bb", "hb", "hh", "he", "mv", "ni", "nw", "rp", "sl", "sn", "st", "sh",
-    "th",
+    "bw", "by", "be", "bb", "hb", "hh", "he", "mv", "ni", "nw", "rp", "sl", "sn", "st", "sh", "th",
 ];
 
 /// Frontmatter keys (unknown keys = loud typo protection).
@@ -70,13 +69,17 @@ fn is_key_line(line: &str) -> bool {
     while i < bytes.len() && (bytes[i].is_ascii_alphanumeric() || bytes[i] == b'_') {
         i += 1;
     }
-    i > 0 && bytes.get(i) == Some(&b':') && matches!(bytes.get(i + 1), None | Some(b' ') | Some(b'\t'))
+    i > 0
+        && bytes.get(i) == Some(&b':')
+        && matches!(bytes.get(i + 1), None | Some(b' ') | Some(b'\t'))
 }
 
 /// Parse one logical `key: value` frontmatter line. Returns (key, scalar string).
 fn parse_kv(path: &str, lineno: usize, line: &str) -> (String, String) {
     let ctx = format!("{path}:{lineno}");
-    let colon = line.find(':').unwrap_or_else(|| fail(&ctx, &format!("kein ':': {line:?}")));
+    let colon = line
+        .find(':')
+        .unwrap_or_else(|| fail(&ctx, &format!("kein ':': {line:?}")));
     let key = line[..colon].to_string();
     if !KNOWN_KEYS.contains(&key.as_str()) {
         fail(&ctx, &format!("unbekannter Key {key:?} (Tippfehler?)"));
@@ -85,7 +88,10 @@ fn parse_kv(path: &str, lineno: usize, line: &str) -> (String, String) {
     let raw = match rest.strip_prefix([' ', '\t']) {
         Some(v) => v.trim_start_matches([' ', '\t']),
         None if rest.is_empty() => "",
-        None => fail(&ctx, &format!("erwarte Leerzeichen nach ':' bei Key {key:?}")),
+        None => fail(
+            &ctx,
+            &format!("erwarte Leerzeichen nach ':' bei Key {key:?}"),
+        ),
     };
     (key, parse_scalar(&ctx, raw))
 }
@@ -97,15 +103,15 @@ fn parse_scalar(ctx: &str, raw: &str) -> String {
         return String::new();
     }
     if let Some(inner) = raw.strip_prefix('\'') {
-        let body = inner.strip_suffix('\'').unwrap_or_else(|| {
-            fail(ctx, &format!("unbalanced single quotes: {raw:?}"))
-        });
+        let body = inner
+            .strip_suffix('\'')
+            .unwrap_or_else(|| fail(ctx, &format!("unbalanced single quotes: {raw:?}")));
         return body.replace("''", "'");
     }
     if let Some(inner) = raw.strip_prefix('"') {
-        let body = inner.strip_suffix('"').unwrap_or_else(|| {
-            fail(ctx, &format!("unbalanced double quotes: {raw:?}"))
-        });
+        let body = inner
+            .strip_suffix('"')
+            .unwrap_or_else(|| fail(ctx, &format!("unbalanced double quotes: {raw:?}")));
         let mut out = String::with_capacity(body.len());
         let mut it = body.chars();
         while let Some(c) = it.next() {
@@ -188,12 +194,12 @@ fn timeline_notes(body: &str) -> String {
 /// Parse one dossier into an ordered (key → value) row for JSON emission.
 fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, String)> {
     let name = path.display().to_string();
-    let body_start = text.strip_prefix("---\n").unwrap_or_else(|| {
-        fail(&name, "muss mit Frontmatter '---' beginnen")
-    });
-    let end = body_start.find("\n---\n").unwrap_or_else(|| {
-        fail(&name, "Frontmatter-Ende ('---') fehlt")
-    });
+    let body_start = text
+        .strip_prefix("---\n")
+        .unwrap_or_else(|| fail(&name, "muss mit Frontmatter '---' beginnen"));
+    let end = body_start
+        .find("\n---\n")
+        .unwrap_or_else(|| fail(&name, "Frontmatter-Ende ('---') fehlt"));
     let (front, rest) = body_start.split_at(end);
     let body = &rest["\n---\n".len()..];
 
@@ -205,9 +211,9 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
             continue;
         }
         if line.starts_with([' ', '\t']) {
-            let cur = logical.last_mut().unwrap_or_else(|| {
-                fail(&name, "Fortsetzungszeile ohne Key")
-            });
+            let cur = logical
+                .last_mut()
+                .unwrap_or_else(|| fail(&name, "Fortsetzungszeile ohne Key"));
             cur.1.push(' ');
             cur.1.push_str(line.trim());
         } else if is_key_line(line) {
@@ -258,8 +264,16 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
     let prov = |suffix: &str| get(&format!("provenance_{suffix}"));
     let mut row = Vec::with_capacity(19);
     for k in [
-        "slug", "name", "trader_type", "description", "street", "postcode", "phone", "email",
-        "opening_hours", "city",
+        "slug",
+        "name",
+        "trader_type",
+        "description",
+        "street",
+        "postcode",
+        "phone",
+        "email",
+        "opening_hours",
+        "city",
     ] {
         row.push((k.to_string(), get(k)));
     }
@@ -353,7 +367,11 @@ fn main() {
                     out.push_str(&format!("  {k:?}: {}{comma}\n", json_str(v)));
                 }
             }
-            out.push_str(if i + 1 == files.len() { " }\n" } else { " },\n" });
+            out.push_str(if i + 1 == files.len() {
+                " }\n"
+            } else {
+                " },\n"
+            });
         }
         out.push_str("]\n");
         fs::write(out_dir.join(format!("{st}.json")), out).expect("seed json schreiben");

@@ -25,7 +25,12 @@ pub const IMPRESSUM_URL: &str = "https://schrott-koeln.de/impressum/";
 pub const URL: &str = "https://schrott-koeln.de/preise/";
 
 pub fn handler() -> Handler {
-    Handler { slug: SLUG, url: URL, schedule: Schedule::every_6h(), scrape: |c| Box::pin(scrape(c)) }
+    Handler {
+        slug: SLUG,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape(c)),
+    }
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -145,10 +150,12 @@ fn kabel_variant(label: &str) -> Option<&'static str> {
 /// skips. `li` elements without `€` are structure/headers, never labels;
 /// `€` text without digits is a header, not a label. 0 priced rows = `Err`.
 fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), IngestError> {
-    let start = html.find("Ankaufspreise pro kg").ok_or_else(|| IngestError::Parse {
-        url: URL.to_owned(),
-        detail: "Preisliste fehlt".to_owned(),
-    })?;
+    let start = html
+        .find("Ankaufspreise pro kg")
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisliste fehlt".to_owned(),
+        })?;
     let tail = &html[start..];
     let end = tail.find("</ul>").ok_or_else(|| IngestError::Parse {
         url: URL.to_owned(),
@@ -206,7 +213,10 @@ fn parse(html: &str) -> Result<(Vec<(String, f64, &'static str)>, Vec<String>), 
         rows.push((label, price, unit));
     }
     if rows.is_empty() {
-        return Err(IngestError::Parse { url: URL.to_owned(), detail: "Preisliste leer".to_owned() });
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Preisliste leer".to_owned(),
+        });
     }
     Ok((rows, skips))
 }
@@ -221,7 +231,10 @@ fn unit_of(cell: &str) -> Option<&'static str> {
     let lower = cell.to_lowercase();
     if lower.contains("kg") {
         Some("EUR/kg")
-    } else if lower.split(|c: char| !c.is_alphanumeric()).any(|t| t == "t" || t == "to") {
+    } else if lower
+        .split(|c: char| !c.is_alphanumeric())
+        .any(|t| t == "t" || t == "to")
+    {
         Some("EUR/t")
     } else if lower.contains('/') || lower.contains("pro ") || lower.contains("je ") {
         None
@@ -241,15 +254,22 @@ fn unit_of(cell: &str) -> Option<&'static str> {
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h2 = Selector::parse("h2").expect("valid selector");
-    if !doc.select(&h2).any(|h| h.text().collect::<String>().contains("Impressum")) {
+    if !doc
+        .select(&h2)
+        .any(|h| h.text().collect::<String>().contains("Impressum"))
+    {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Impressum-Block fehlt".to_owned(),
         });
     }
     let p_sel = Selector::parse("p").expect("valid selector");
-    let addr_p = doc.select(&p_sel).find(|el| el.inner_html().contains("Inhaber:"));
-    let contact_p = doc.select(&p_sel).find(|el| el.inner_html().contains("Tel.:"));
+    let addr_p = doc
+        .select(&p_sel)
+        .find(|el| el.inner_html().contains("Inhaber:"));
+    let contact_p = doc
+        .select(&p_sel)
+        .find(|el| el.inner_html().contains("Tel.:"));
     let (Some(addr_p), Some(contact_p)) = (addr_p, contact_p) else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -292,7 +312,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
-    Ok(TraderInfo { street, postcode, city, phone, email })
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
 }
 
 /// Strip tags from a `<br>`-split fragment. Fragments start with a tag
@@ -354,8 +380,14 @@ mod tests {
         assert_eq!(rows.len(), 20);
         assert!(skips.is_empty());
         let get = |label: &str| rows.iter().find(|(l, _, _)| l == label).expect(label);
-        assert_eq!(get("Mischschrott"), &("Mischschrott".to_owned(), 0.17, "EUR/kg"));
-        assert_eq!(get("Kupfer Millberry"), &("Kupfer Millberry".to_owned(), 11.5, "EUR/kg"));
+        assert_eq!(
+            get("Mischschrott"),
+            &("Mischschrott".to_owned(), 0.17, "EUR/kg")
+        );
+        assert_eq!(
+            get("Kupfer Millberry"),
+            &("Kupfer Millberry".to_owned(), 11.5, "EUR/kg")
+        );
         assert_eq!(get("Messing"), &("Messing".to_owned(), 6.7, "EUR/kg"));
         assert_eq!(get("Kabel 38 %"), &("Kabel 38 %".to_owned(), 3.9, "EUR/kg"));
         assert_eq!(get("Kabel 80 %"), &("Kabel 80 %".to_owned(), 5.6, "EUR/kg"));
@@ -381,17 +413,29 @@ mod tests {
     #[test]
     fn mapping_keeps_sorts_apart() {
         assert_eq!(grade_for("Mischschrott"), Some(("mischschrott", "")));
-        assert_eq!(grade_for("Alu Geschirr"), Some(("aluminium-blech", "Geschirr")));
+        assert_eq!(
+            grade_for("Alu Geschirr"),
+            Some(("aluminium-blech", "Geschirr"))
+        );
         assert_eq!(grade_for("Alu Profil"), Some(("aluminium-profile", "")));
-        assert_eq!(grade_for("Alu Profil lackiert"), Some(("aluminium-profile", "lackiert")));
-        assert_eq!(grade_for("Alu Profil Iso"), Some(("aluminium-profile", "Iso")));
+        assert_eq!(
+            grade_for("Alu Profil lackiert"),
+            Some(("aluminium-profile", "lackiert"))
+        );
+        assert_eq!(
+            grade_for("Alu Profil Iso"),
+            Some(("aluminium-profile", "Iso"))
+        );
         assert_eq!(grade_for("Alu Felgen"), Some(("aluminium-guss", "Felgen")));
         assert_eq!(grade_for("V2A"), Some(("edelstahl-v2a", "")));
         assert_eq!(grade_for("V4A"), Some(("edelstahl-v4a", "")));
         assert_eq!(grade_for("Zink"), Some(("zink", "")));
         assert_eq!(grade_for("Blei"), Some(("blei", "")));
         // Specific before generic: Millberry must not land on gemischt.
-        assert_eq!(grade_for("Kupfer Millberry"), Some(("kupfer-millberry", "")));
+        assert_eq!(
+            grade_for("Kupfer Millberry"),
+            Some(("kupfer-millberry", ""))
+        );
         assert_eq!(grade_for("Kupfer schwer"), Some(("kupfer-gemischt", "")));
         assert_eq!(grade_for("Kabel 38 %"), Some(("kabel-kupfer", "38 %")));
         assert_eq!(grade_for("Kabel 50 %"), Some(("kabel-kupfer", "50 %")));
@@ -404,7 +448,10 @@ mod tests {
         // Tier-less cable ("Kupferkabel") skips too: no tier, no variant.
         assert_eq!(grade_for("Verhüttung"), None);
         assert_eq!(grade_for("Kupferkabel"), None);
-        assert_eq!(grade_for("Kupferkabel 50 %"), Some(("kabel-kupfer", "50 %")));
+        assert_eq!(
+            grade_for("Kupferkabel 50 %"),
+            Some(("kabel-kupfer", "50 %"))
+        );
         assert_eq!(grade_for("Katalysatoren"), None);
         assert_eq!(kabel_variant("Kabel 38 %"), Some("38 %"));
         assert_eq!(kabel_variant("Kabel 80%"), Some("80 %"));

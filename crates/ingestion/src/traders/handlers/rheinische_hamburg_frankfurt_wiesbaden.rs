@@ -106,7 +106,13 @@ pub fn handler_wiesbaden() -> Handler {
 }
 
 async fn scrape_hamburg(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    scrape_impl(client, URL_HAMBURG, IMPRESSUM_URL_HAMBURG, CITY_ANCHOR_HAMBURG).await
+    scrape_impl(
+        client,
+        URL_HAMBURG,
+        IMPRESSUM_URL_HAMBURG,
+        CITY_ANCHOR_HAMBURG,
+    )
+    .await
 }
 
 async fn scrape_frankfurt(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
@@ -393,10 +399,9 @@ fn strip_fragment(s: &str) -> String {
 #[cfg(test)]
 mod tests {
     use super::{
-        extract_info, grade_for, kurse_skips, parse, CITY_ANCHOR_FRANKFURT,
-        CITY_ANCHOR_HAMBURG, CITY_ANCHOR_WIESBADEN, IMPRESSUM_URL_FRANKFURT,
-        IMPRESSUM_URL_HAMBURG, IMPRESSUM_URL_WIESBADEN, URL_FRANKFURT, URL_HAMBURG,
-        URL_WIESBADEN,
+        extract_info, grade_for, kurse_skips, parse, CITY_ANCHOR_FRANKFURT, CITY_ANCHOR_HAMBURG,
+        CITY_ANCHOR_WIESBADEN, IMPRESSUM_URL_FRANKFURT, IMPRESSUM_URL_HAMBURG,
+        IMPRESSUM_URL_WIESBADEN, URL_FRANKFURT, URL_HAMBURG, URL_WIESBADEN,
     };
 
     // Verbatim excerpts of the live branch pages (29.09.2026): service
@@ -491,14 +496,8 @@ mod tests {
             skips[0].contains("Gold") && skips[0].contains("Feinunze"),
             "{skips:?}"
         );
-        assert!(
-            skips.iter().any(|s| s.contains("Platin")),
-            "{skips:?}"
-        );
-        assert!(
-            skips.iter().any(|s| s.contains("Palladium")),
-            "{skips:?}"
-        );
+        assert!(skips.iter().any(|s| s.contains("Platin")), "{skips:?}");
+        assert!(skips.iter().any(|s| s.contains("Palladium")), "{skips:?}");
         let note = kurse_skips("<div>Redesign</div>");
         assert_eq!(note.len(), 1);
         assert!(note[0].contains("Kurse-Block fehlt"), "{note:?}");
@@ -511,8 +510,8 @@ mod tests {
             <div class=\"address\">Steinstraße 27<br>20095 Hamburg</div>\
             <div class=\"phone\"><a href=\"tel:+4940248278787\">040-248278787</a>\
             <a class=\"d-block\" href=\"mailto:info-hamburg@rheinische-scheidestaette.de\">info-hamburg@rheinische-scheidestaette.de</a></div>";
-        let info = extract_info(imp_hh, IMPRESSUM_URL_HAMBURG, CITY_ANCHOR_HAMBURG)
-            .expect("parses");
+        let info =
+            extract_info(imp_hh, IMPRESSUM_URL_HAMBURG, CITY_ANCHOR_HAMBURG).expect("parses");
         assert_eq!(info.street, "Steinstraße 27");
         assert_eq!(info.postcode, "20095");
         assert_eq!(info.city, "Hamburg");
@@ -523,8 +522,8 @@ mod tests {
             <div class=\"address\">Hochstr. 29<br>60313 Frankfurt</div>\
             <div class=\"phone\"><a href=\"tel:+496977011759\">069-77011759</a>\
             <a class=\"d-block\" href=\"mailto:info-frankfurt@rheinische-scheidestaette.de\">info-frankfurt@rheinische-scheidestaette.de</a></div>";
-        let info = extract_info(imp_ffm, IMPRESSUM_URL_FRANKFURT, CITY_ANCHOR_FRANKFURT)
-            .expect("parses");
+        let info =
+            extract_info(imp_ffm, IMPRESSUM_URL_FRANKFURT, CITY_ANCHOR_FRANKFURT).expect("parses");
         assert_eq!(info.street, "Hochstr. 29");
         assert_eq!(info.postcode, "60313");
         assert_eq!(info.city, "Frankfurt");
@@ -536,8 +535,8 @@ mod tests {
             <div class=\"address\">Bahnhofstraße 15-17<br>65185 Wiesbaden</div>\
             <div class=\"phone\"><a href=\"tel:+4961198874968\">0611-98874968</a>\
             <a class=\"d-block\" href=\"mailto:info-wiesbaden@rheinische-scheidestaette.de\">info-wiesbaden@rheinische-scheidestaette.de</a></div>";
-        let info = extract_info(imp_wi, IMPRESSUM_URL_WIESBADEN, CITY_ANCHOR_WIESBADEN)
-            .expect("parses");
+        let info =
+            extract_info(imp_wi, IMPRESSUM_URL_WIESBADEN, CITY_ANCHOR_WIESBADEN).expect("parses");
         assert_eq!(info.street, "Bahnhofstraße 15-17");
         assert_eq!(info.postcode, "65185");
         assert_eq!(info.city, "Wiesbaden");
@@ -545,9 +544,7 @@ mod tests {
         assert_eq!(info.email, "info-wiesbaden@rheinische-scheidestaette.de");
 
         // Wrong-city anchor and anchorless pages fail loudly.
-        assert!(
-            extract_info(imp_hh, IMPRESSUM_URL_HAMBURG, CITY_ANCHOR_FRANKFURT).is_err()
-        );
+        assert!(extract_info(imp_hh, IMPRESSUM_URL_HAMBURG, CITY_ANCHOR_FRANKFURT).is_err());
         assert!(
             extract_info(
                 "<h3 class=\"h4\">Rheinische Scheidestätte GmbH - Wiesbaden</h3>",
@@ -557,9 +554,11 @@ mod tests {
             .is_err(),
             "hyphen must not match the en-dash anchor"
         );
-        assert!(
-            extract_info("<p>Neu hier</p>", IMPRESSUM_URL_WIESBADEN, CITY_ANCHOR_WIESBADEN)
-                .is_err()
-        );
+        assert!(extract_info(
+            "<p>Neu hier</p>",
+            IMPRESSUM_URL_WIESBADEN,
+            CITY_ANCHOR_WIESBADEN
+        )
+        .is_err());
     }
 }

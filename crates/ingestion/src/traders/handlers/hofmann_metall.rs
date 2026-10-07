@@ -686,7 +686,10 @@ mod tests {
             ("Zink - Schrott", &[("zink", "")]),
             (
                 "Sonstiges",
-                &[("blei-auswucht", "Auswucht"), ("mischschrott", "Stahl/Bunt-Mix")],
+                &[
+                    ("blei-auswucht", "Auswucht"),
+                    ("mischschrott", "Stahl/Bunt-Mix"),
+                ],
             ),
         ];
         for (label, want) in mapped {

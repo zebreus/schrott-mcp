@@ -28,6 +28,7 @@ pub mod esh;
 pub mod fairkat;
 pub mod frisch_recycling;
 pub mod geld_fuer_gold;
+pub mod gerwischer;
 pub mod gold_richtig;
 pub mod goldankauf_boerse;
 pub mod goldankauf_boerse_leipzig;
@@ -36,12 +37,10 @@ pub mod goldhaus_brb;
 pub mod goldschanze;
 pub mod goldtrans;
 pub mod gouchev;
-pub mod gerwischer;
 pub mod gutzmann;
 pub mod hafen_schrott;
 pub mod hammer_leipzig;
 pub mod hansa_goldankauf;
-pub mod sommer_hanau;
 pub mod hanusa_vechelde;
 pub mod harbi_kats;
 pub mod hein_schrotthandel;
@@ -76,8 +75,8 @@ pub mod ms_recycling_frankfurt;
 pub mod msg_metallrecycling_gotha;
 pub mod ne_metalle;
 pub mod nes_scheideanstalt;
-pub mod nfh_zickura_saterland;
 pub mod neuwert;
+pub mod nfh_zickura_saterland;
 pub mod nordkat;
 pub mod oder_metalle;
 pub mod on_schrott;
@@ -112,6 +111,7 @@ pub mod schrottmobil_oelsnitz;
 pub mod schrottplatz_roetgesbuettel;
 pub mod second_way;
 pub mod smr;
+pub mod sommer_hanau;
 pub mod springer_sohn_oldenburg;
 pub mod suitner;
 pub mod tappe;
@@ -132,7 +132,7 @@ use super::Handler;
 pub fn all() -> Vec<Handler> {
     vec![
         a_z_recycling_muenster::handler(),
-vedder::handler(),
+        vedder::handler(),
         lausitz::handler(),
         tappe::handler(),
         kupferhelden::handler(),
