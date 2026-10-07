@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Treffer bei Nordkurier ist ausdrücklich ein "Standard Profil"/Anzeige und nennt nur Juri-Gagarin-Ring 10, 19370 Parchim. Er liefert weder einen identifizierbaren Inhaber noch Telefon, Website oder belastbare Angaben zu Annahme und Preisen. Die alte Importnotiz "Öffnungszeiten publiziert" ist damit weiterhin nicht verifiziert; vor Anfahrt Betreiber und Standort direkt bestätigen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Das Nordkurier-Profil live geprüft; es ist als Anzeige/Standard-Profil gekennzeichnet und enthält nur die Anschrift Juri-Gagarin-Ring 10, 19370 Parchim, ohne Telefonnummer, E-Mail, Website oder Betreibername. Diese Quelle ist ein Verzeichnis-Lead, kein Betreiberbeleg. Die Anschrift bleibt Timeline-/Seed-Hinweis; keine aktuellen Öffnungszeiten oder Annahmebedingungen ableiten. Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden. Quelle(n): https://www.nordkurier.de/regionale-unternehmen/schrotthandel-parchim-203992]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

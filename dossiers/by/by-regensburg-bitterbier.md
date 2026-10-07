@@ -28,7 +28,7 @@ provenance_origin: table
 
 Northdata führt **Michael Johann Bitterbier** als Geschäftsführer der **Kernschrott-Recycling UG, HRB12051 Regensburg**. Diese Gesellschaft liegt nach Register an **Dieselstraße7**, hat einen eigenen Repo-Datensatz `by-regensburg-kernschrott-recycling` und ist nicht allein aufgrund des Personennamens als Nachfolger oder identischer Betrieb zuzuordnen. Eine mögliche Verbindung ist eine Recherchehypothese, keine belegte Umzugskette.
 
-`pruefung` statt der früheren Aggregator-Aktivitätsannahme. Keine eigenen Annahme-/Abholbedingungen oder Preislisten verifiziert; bitterbier.de bleibt ohne geprüften Firmenbezug unverlinkt.
+`pruefung` statt der früheren Aggregator-Aktivitätsannahme. Keine eigenen Annahme-/Abholbedingungen verifiziert. **Ankauf:** keine numerischen Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife gefunden. `bitterbier.de` bleibt ohne geprüften Firmenbezug unverlinkt. Offen sind Betreiberidentität, Telefonnummernvariante und ein möglicher — bisher unbelegter — Bezug zur getrennten Kernschrott-Recycling UG.
 
 ## Timeline
 
@@ -40,6 +40,10 @@ Northdata führt **Michael Johann Bitterbier** als Geschäftsführer der **Kerns
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Gelbe Seiten listet Metallhandel Bitterbier (Metallwaren + Schrotthandel), Vilshofener Str. 3, 93055 Regensburg-Ostenviertel, Tel. 0941 4611376 (2 weitere Nummern-Endungen -36/-37 als Varianten) — Adresse kongruent zum Seed-Registerfund (Vilshofener Str. 3) → street/postcode/phone gefüllt (Ausnahmefall: Verzeichnis-Lead + Register-Kongruenz, offen dokumentiert); bitterbier.de = Baustellen-Platzhalter ohne Firmenbezug → NICHT als website eingetragen, website_status unbekannt; Quelle(n): https://www.gelbeseiten.de/suche/bitterbier/regensburg (11880 ohne Treffer; Bing/Mojeek-Bot-Sperre, keine weitere Quelle erreichbar)]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute Suche ergab keine zusätzliche Betreiberquelle, die den Vilshofener-Straße-Eintrag, die gespeicherte Telefonnummer oder die Verbindung zur Kernschrott-Recycling UG klärt. Die frühere Telefonvariante 0941 4611378 und der separate Standort Dieselstraße 7 bleiben ausdrücklich nicht zusammengeführt. Kein Zielbetrieb-Preisbeleg: Ankaufskurse, Verkaufspreise und Gebühren weiterhin unbekannt; keine Frontmatter-Änderung. Quelle(n): https://www.dasoertliche.de/Themen/Metallhandel-Bitterbier-Schrotthandel-Regensburg-Ostenviertel-Vilshofener-Str ; https://www.northdata.de/Kernschrott-Recycling+UG,+Regensburg]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

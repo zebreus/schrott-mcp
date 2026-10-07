@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberwebsite wirbt für Ankauf von Gold, Silber und Platin sowie Verkauf von Schmuck/Uhren; das belegt das Leistungsangebot als Selbstaussage, nicht einen unabhängigen Rechtsträgernachweis. Die Seite enthält daneben einen separaten Barbarossa-Kontaktblock, der nicht diesem Dossier zugeschlagen wird. ANKAUF: unverbindliches Angebot zum aktuellen Goldkurs, aber keine konkrete €/g-/Feingehaltsliste; VERKAUF: kein Produktkatalog mit Preisen; GEBÜHREN: keine ausgewiesen. Frontmatter-Kontakte bleiben nach früherer Korrektur leer.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback 3139 berechtigt, eingearbeitet — city 'Gelnhausen 63571' → 'Gelnhausen'; phone 06051 4747746, email info@dergoldfachmann.de (Impressum; Kopfzeilen-Variante info@dergoldfachmann.com als Vermerk), opening_hours Mo-Fr 10-18/Sa 10-14; Hinweis: Seiten-Footer zeigt zusätzlich Barbarossa-Daten (06051 53 81 215, barbarossajuwelier@t-online.de) — strikt getrennt, NICHT übernommen (siehe Sibling-Dossier he-gelnhausen-63571-barbarossa-juwelier); website_status aktiv, status bleibt pruefung (GF Bidrus Cil, keine HR-Angabe, keine 2. Quelle). Quelle(n): https://www.dergoldfachmann.de/impressum (Abruf 01.10.2026)]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Direktprüfung der Betreiberhomepage und des Impressums bestätigt das beworbene Leistungsspektrum: Ankauf von Gold/Silber/Platin in verschiedenen Formen, außerdem Verkauf von Schmuck/Uhren und Reparatur-/Trauringleistungen. Die Seite spricht von einem unverbindlichen Angebot orientiert am aktuellen Goldpreis, veröffentlicht aber keine numerischen Ankaufsätze nach Metall/Feingehalt und keine Händler-Verkaufspreise. Separater, eingebetteter Barbarossa-Block führt abweichende Tel. 06051 53 81 215 und barbarossajuwelier@t-online.de; dieser Kontakt gehört nicht in dieses Dossier (bereits getrennt dokumentiert). Keine neuen Kontaktdaten übernommen. ANKAUF: werblich belegt, kein Preisblatt; VERKAUF: Sortiment beworben, keine Preisliste; GEBÜHREN: keine Tarifangaben. Offen: unabhängiger Rechts-/Registerabgleich und konkrete Preis-/Annahmebedingungen. Quelle(n): https://www.dergoldfachmann.de/; https://www.dergoldfachmann.de/impressum/]

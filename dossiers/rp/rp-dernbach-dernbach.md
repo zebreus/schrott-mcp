@@ -41,3 +41,7 @@ Der Seed-Datensatz nennt „Dernbach“ und Butterpfad 1 ohne belegte Betreiberi
 - Butterpfad 1
 - urspr. Website-Angabe: keine
 - Adresse: Dernbach
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Re-Check des AUTO-ZEITUNG-Berichts bestätigt nur den Medienbericht zur Rückkehr Peter Ludolfs an den historischen Platz an der Mittelstraße; keine neue Betreiber-/Registerquelle und keine Zuordnung zur Seed-Angabe Butterpfad 1. Daher keine Identitäts- oder Standortkorrektur. ANKAUF: aktueller Betrieb/Annahme nicht belegt; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Offen bleiben Gemeinde-/Standortzuordnung, Betreiber und Fortbestand. Quelle(n): https://www.autozeitung.de/die-ludolfs-2016-neue-folgen-119020.html; Seed-Hinweis Butterpfad 1 (Import-Abschnitt)]

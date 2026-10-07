@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Domain autoverwertung-nemitz.de ist bei direktem Abruf weiterhin blockiert (403). Der Suchindex der Betreiberdomain zeigt ein Auto-Center Nemitz am Ravensberg 21, 24214 Gettorf und beschreibt vor allem Gebrauchtwagen für Händler, Export und Privatkunden. Das belegt nicht, dass aktuell Altfahrzeuge oder Metallschrott angenommen werden. Verkauf gebrauchter Fahrzeuge ist nicht mit Ankauf von Schrott gleichzusetzen; eine aktuelle Schrottannahme bleibt offen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Suchindexeinträge zur Betreiberdomain zeigen Auto-Center Nemitz, Ravensberg 21, 24214 Gettorf und Gebrauchtwagenangebot für Händler/Export/Privat. Direkter Abruf von Homepage und Unterseite blieb mit HTTP 403 blockiert; deshalb sind die Suchindexangaben kein live gelesener Betreiberbeleg. Die Website-Sperre bleibt dokumentiert, die möglicherweise gebrauchten Fahrzeuge sind Verkauf und keine Schrottpreise; kein Nachweis einer Metallannahme, keine Ankaufspreisliste oder Entsorgungsgebühr gefunden. Keine Frontmatter-Änderung. Quelle(n): https://www.autoverwertung-nemitz.de/ ; https://www.autoverwertung-nemitz.de/consulting/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

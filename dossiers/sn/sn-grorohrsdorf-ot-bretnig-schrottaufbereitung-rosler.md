@@ -30,6 +30,10 @@ Adresse und Kontakt bleiben mangels unabhängiger Bestätigung Timeline-only. Di
 
 ## Timeline
 
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Betreiberseiten zu Ankauf und sortierten Schrottsorten direkt geprüft. Die Ankaufseite nennt Privat-/Gewerbeankauf zu Tagespreisen, bar oder per Überweisung; die separate Seite "Sortierte Schrotte für Verarbeiter und NE-Metalle" beschreibt Lieferungen von Vormaterial/Sortenschrott und NE-Metallen an Handel/Verarbeiter. Keine numerischen Ankaufspreise und keine Verkaufspreise für Vormaterial veröffentlicht. Die Zahlarten/Tagespreise sind Ankaufskonditionen, keine Verkaufspreisliste; Containerdienst ist ein weiteres, separat anzufragendes Angebot. Keine belastbare allgemeine Container-Gebührenliste gefunden. Vorhandene Kontakt-/Standorthistorie und das offene Zweitbeleg-Erfordernis bleiben unverändert. Quelle(n): https://schrott-roesler.de/schrott-und-metallankauf/ ; https://schrott-roesler.de/sortierte-schrotte/ ; https://schrott-roesler.de/containerdienst/]
+
 ### Recherche 05.10.2026 (Abend-Welle)
 
 - [Recherche 05.10.2026: Impressum und Leistungsseite erneut direkt gelesen: Veronika Rösler, Gewerbering Nord 18, 01900 Großröhrsdorf OT Bretnig, 035955 70110, kontakt@schrott-roesler.de. Annahme am Lager für Privat/Gewerbe, Auszahlung bar oder Überweisung; Container 1–34 m³, größere Mengen per eigenem Containerfahrzeug, kostenfreie Container nur für Daueranfallstellen. Website nennt Betriebsruhe am 03.10., 31.10. und 18.11.2026. Zeiten Mo–Fr 07–16, Sa 09–12, Januar/Februar samstags geschlossen; täglich 09–09:30 und 12–13 Uhr Pause. Kein Zahlenpreis, keine allgemeine Gebührenfreiheit ableiten. Creditreform-Suchtreffer bestätigt Namen/Ort als Gewerbebetrieb, Direktabruf HTTP 403; keine neu gelesene zweite Adressquelle, Frontmatter-Kontakte bleiben leer. Quelle(n): https://schrott-roesler.de/ ; https://schrott-roesler.de/impressum/ ; https://schrott-roesler.de/schrott-und-metallankauf/ ; https://firmeneintrag.creditreform.de/01900/3070301075/VERONIKA_ROESLER_SCHROTTAUFBEREITUNG_ROESLER (Suchtreffer, Abruf blockiert).]

@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed „Schrotthandel F. Weber“ führt die Region Hannover/Hildesheim und Telefon 0173 6115144. Die einzige bisher zuordenbare Spur ist ein Branchenportal-Eintrag in Schandelah (Gemeinde Cremlingen/Landkreis Wolfenbüttel), dessen Ortsangabe nicht zur Seed-Region passt. Keine Betreiberwebsite oder unabhängige Bestätigung von Identität, Einsatzgebiet oder Ankauf gefunden; Status `pruefung` bleibt. Keine Zielbetriebs-Preisliste für Ankauf/Verkauf oder Gebühren.
 
 ## Timeline
 
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Einziger Anhalt lokaleschrottplatz.de (F. Weber Schrotthandel, Schandelah/NI, Stahl/Eisen/Kupfer/Alu/Messing/Kabel, Tel +49 173 6115144 = Dossier-Telefon) — Schrottportal, kein Betreiberbeleg; kein Zweitbeleg, kein HR-/Kommunalbeleg, keine Betreiber-Website; Schandelah (Cremlingen, LK Wolfenbüttel) passt nicht zu Hannover/Hildesheim → Identität/Region ungeklärt; kein Fill, pruefung bleibt; Quelle(n): lokaleschrottplatz.de (Lead)]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute Namens-/Telefon-Suche brachte keinen unabhängigen Betreiber- oder Registerbeleg zum Seed. Der bereits bekannte Portaleintrag ordnet F. Weber nach Schandelah zu, nicht eindeutig Hannover/Hildesheim; dieser Ortskonflikt bleibt offen und ist kein Beleg, dass die Datensätze identisch sind. Telefon 0173 6115144 bleibt Seed-/Lead-Wert, nicht neu bestätigt. Keine verifizierten Ankaufskurse, Verkaufspreise oder Gebühren; keine Feld-/Statusänderung. Quelle(n): https://lokaleschrottplatz.de (Portal-Lead, siehe Recherche 02.10.2026)]

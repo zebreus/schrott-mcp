@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Seed nennt „Kleintransport“ in Oberhausen, aber keine identifizierbare Person/Firma, konkrete Anschrift oder belegte Schrottannahme. Die aktuelle Suche nach Theissen + Oberhausen + Schrott/Metallhandel lieferte keine passende Betreiber- oder Registerquelle; gleichnamige/SEO-Treffer sind nicht zuzuordnen. ANKAUF, VERKAUF und Gebühren daher unbestätigt; keine Preislisten gefunden.
 
 ## Timeline
 
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleintransport (GS)
 - Adresse: Oberhausen
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: erneute Suche nach „Theissen“ + Oberhausen + Schrott/Metallhandel brachte keine identifizierbare Betreiberseite und keinen zurechenbaren Register-/Stadtnachweis; gefundene allgemeine Oberhausen-Schrottseiten sind keine Identitätsbelege. Keine Frontmatter-Füllung. ANKAUF: nicht belegt; VERKAUF: nicht belegt; GEBÜHREN: kein Tarif gefunden. Offen: voller Name/Rechtsträger, Anschrift und ob der Seed-Kleintransport überhaupt Schrottbezug hat. Quelle(n): Suchabfrage/Leadprüfung https://www.google.com/search?q=%22Theissen%22+Oberhausen+Schrott+Metallhandel (Suchergebnis, kein Sachbeleg)]

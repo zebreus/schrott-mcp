@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse führen Winzer Helge als Schrotthändler in Ziepel, aber mit widersprüchlichem Betriebsort: Dorfstraße 10 sowie An der Kreuzung 1/Landhaus Zeddenick. Es fehlt ein Betreiberauftritt oder Registerbeleg, der Kontaktadresse, Betriebsstätte, Umzug oder Dublette klärt. Anschrift und Telefon bleiben unbestätigte Leads; vor Anfahrt direkt verifizieren.
+
+Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden. Ein generischer Schrottankauf-Eintrag in einem Verzeichnis ist keine Preiszusage.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gelbe Seiten und Schrottplatz.org erneut abgeglichen. Gelbe Seiten führt Dorfstr. 10, 39291 Ziepel und 0172 9037980; Schrottplatz.org führt daneben ein Profil "Schrott Winzer Helge" an An der Kreuzung 1 und ein zweites an Dorfstraße 10. Beide sind Aggregator-Leads und keine Betreiber-/Registerquelle; die bestehenden abweichenden Adressen bleiben unaufgelöst. Kein aktueller Preis, Öffnungsplan oder Annahmeumfang verifiziert; keine Frontmatter-Fills. Quelle(n): https://www.gelbeseiten.de/gsbiz/3ed5ad93-48b9-4d2c-a70a-5588a9caff9c ; https://www.schrottplatz.org/genthin/helge-winzer-5219466.html ; https://www.schrottplatz.org/genthin/schrott-winzer-helge-aYEPAg.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

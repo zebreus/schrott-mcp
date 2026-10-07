@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall, kein Frontmatter-Fill — Willeführ-Treffer gehören zur Gruppe (Gelnhausen, Industriedemontagen), kein Beleg für Standort Langen 63225; keine Betreiberquelle, kein HR-Eintrag mit Langen-Bezug; Status bleibt pruefung; Quelle(n): Websuche ohne belegfähigen Treffer]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Der direkte Betreiberauftritt containerdienst-willefuehr.de/schrottmetallhandel.html nennt Containerdienst Willeführ in Rödermark (Paul-Ehrlich-Str. 34, 63322), mit Ankauf von Schrott/Nichteisenmetallen, Containern und Abholung; es werden „faire Preise“, aber keine numerischen Sätze ausgewiesen. Ein Langen-Bezug in einem Suchsnippet bezeichnet Servicegebiet und belegt keine Filiale in 63225. Separater Willeführ-Auftritt schrotthandel-willefuehr.de betrifft Alexander Willeführ in Obernburg und ist ebenfalls kein Langen-Nachweis. Keine Kontaktdaten/Adresse auf das Langen-Dossier übertragen. ANKAUF: für den Rödermarker Betrieb beworben, Preise auf Anfrage; für Langen nicht bestätigt. VERKAUF: keine öffentliche Liste; GEBÜHREN: Container/Abholung nicht mit Preistarif belegt. Offen: gibt es eine eigenständige Betriebsstätte in Langen? Quelle(n): https://www.containerdienst-willefuehr.de/schrottmetallhandel.html; https://schrotthandel-willefuehr.de/]

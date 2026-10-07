@@ -28,6 +28,10 @@ Verzeichnisse nennen Hentschel Schrotthandel/Hausmeisterservice in Wutha-Farnrod
 
 ## Timeline
 
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Exakte Namens- und Ortsprüfung erneut durchgeführt. Das Örtliche und Gelbe Seiten führen weiterhin denselben Lead Theo-Neubauer-Str. 204, 99848 Wutha-Farnroda/Mosbach, 036921 306921; 11880 listet Hentschel ebenfalls im Ort. Das sind Verzeichnisprofile und können dieselbe zugelieferte Datengrundlage verwenden, also kein unabhängiger Betreiber-/Registerbeleg. Der Aue-Betrieb bleibt ein nicht verbundener Namensvetter. Keine Identität, aktuelle Tätigkeit oder Annahmestelle daraus abgeleitet; keine numerische Ankauf-, Verkaufs- oder Gebührenpreisliste gefunden. Quelle(n): https://www.dasoertliche.de/Themen/Hentschel-Schrotthandel-Hausmeisterservice-Wutha-Farnroda-Mosbach-Theo-Neubauer-Str ; https://www.gelbeseiten.de/gsbiz/87ea0bcf-a5cd-4b5f-900d-c42d7dca2e00 ; https://www.11880.com/suche/schrotthandel/wutha-farnroda ; https://www.hentschel-schrotthandel-aue.com/impressum]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Konkreter zusätzlicher LEAD, kein Zweitbeleg nach README: Das Örtliche nennt Hentschel Schrotthandel Hausmeisterservice, Theo-Neubauer-Str. 204, 99848 Wutha-Farnroda/Mosbach, 036921 306921. Kein Betreiberlink/Impressum aus diesem Profil gewonnen; Adresse und Telefon bleiben ausschließlich Recherchekandidaten. Quelle: https://www.dasoertliche.de/Themen/Hentschel-Schrotthandel-Hausmeisterservice-Wutha-Farnroda-Mosbach-Theo-Neubauer-Str .]

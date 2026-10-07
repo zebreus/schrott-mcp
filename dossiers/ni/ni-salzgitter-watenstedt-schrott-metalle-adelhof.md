@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Verzeichnisse führen „Schrott & Metalle – Adelhof“ an Hainholzweg 3, 38239 Salzgitter-Watenstedt, Mobil 0171 2022932; weitere Verzeichnisangaben nennen zusätzlich Festnetz 05341/25506. Die bisherigen Felder beruhen auf übereinstimmenden Verzeichnis-Leads, aber weiterhin ohne Betreiberwebsite oder Registerbeleg. Anschrift/Telefon nicht geokodieren oder erweitern, bis Betreiberidentität bestätigt ist. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
 
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Das direkt geöffnete 11880-Profil „Schrott & Metalle – Adelhof“ führt Hainholzweg 3, 38239 Salzgitter-Watenstedt und 0171 2022932; der Eintrag wurde laut Profil am 04.10.2026 aktualisiert, die Eintragsdaten stammen jedoch vom 10.08.2024. Das ist weiterhin nur ein Aggregatorbeleg, keine Betreiberseite/Registerbestätigung. Keine Änderung an Kontakt-/Adressfeldern und kein Geocoding. Keine numerische Ankaufsliste, Verkaufspreise oder Tarife für Container/Entsorgung gefunden. Quelle(n): https://www.11880.com/branchenbuch/salzgitter/060440092B113226133/schrott-metalle-adelhof.html]

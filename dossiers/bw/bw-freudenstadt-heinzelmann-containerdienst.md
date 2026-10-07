@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für Heinzelmann Containerdienst in Freudenstadt fehlt weiterhin ein aktueller eigener Betreiber-/Registerbeleg. Rudolf-Diesel-Straße 11 und die widersprüchlichen Telefonnummern sind Verzeichnis-Leads. Klumpp Rohstoffe GmbH an der Alten Poststraße 35 ist als eigener aktueller Betrieb belegt; gleiche/ähnliche Telefonnummern beweisen weder Übernahme noch Nachfolge, daher keine Klumpp-Daten übernehmen. Keine Heinzelmann-Preise: Ankauf, Verkauf und Container-/Entsorgungsgebühren unbekannt.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Containerdienst, Schrottentsorgung
 - Größe: klein
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute Identitäts- und Preisprüfung brachte keine eigene Heinzelmann-Betreiberseite oder belegte Verbindung zu Klumpp Rohstoffe. Die Klumpp-Seite belegt ausschließlich Klumpp; ihre Kontakt-/Containerbedingungen oder etwaige Preise sind nicht auf Heinzelmann übertragbar. Für Heinzelmann in den geprüften öffentlichen Spuren keine numerischen Ankaufskurse, Verkaufspreise oder Container-/Entsorgungsgebühren gefunden. Feld- und Statusstand unverändert, offene Frage bleibt Betreiber/Nachfolge. Quelle(n): https://www.klumpp-rohstoffe.de/impressum/ ; https://www.klumpp-rohstoffe.de/leistungen/container ; https://www.dasoertliche.de/Themen/Heinzelmann-Containerdienst-Freudenstadt-Wittlensweiler-Rudolf-Diesel-Str ; https://spedition-heinzelmann.de/]

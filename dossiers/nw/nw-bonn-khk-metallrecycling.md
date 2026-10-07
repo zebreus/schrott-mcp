@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-KHK Metallrecycling ist für Bonn über Verzeichnisse auffindbar, aber mit widersprüchlichen Standortangaben: Seed Brieger Weg 3 versus neuer Gelbe-Seiten-Eintrag Meckenheimer Str. 35, 53179 Bonn-Mehlem (0228 18032447). Die verlinkte Domain ist nicht als Betreiberseite verifizierbar. Keine Zuordnung/Adresskorrektur und keine Preise übernommen.
+Mehrere nicht verknüpfte Standort-/Identitätsleads: Seed Brieger Weg 3; Gelbe Seiten Meckenheimer Str. 35, Bonn, Tel. 0228 18032447; eine generierte geo.io-Seite ordnet dieselbe Nummer einer Adresse in Remagen zu; ein weiteres Profil nennt Severinsweg 8a, Bonn, mit anderer Nummer. Die Domain ist nicht als Betreiberseite verifizierbar. Keine Zuordnung/Adresskorrektur. ANKAUF, VERKAUF und Gebühren nicht bestätigt; keine Preislisten.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ KHK Metallrecycling ist für Bonn über Verzeichnisse auffindbar, aber mit wider
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KEINE Frontmatter-Fills — Domain khk-metallrecycling.de liefert nur geparkte Directory-Seite (Remagen-Bezug, kein Betreiberbezug Bonn/Brieger Weg); website_status blockiert beibehalten; Quelle(n): Domain-Abruf khk-metallrecycling.de (Parked-Page)]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: neue Gegenprobe ergibt zusätzliche Orts-/Identitätskonflikte, jedoch keine Primärquelle: Gelbe Seiten führt KHK Metallrecycling, Meckenheimer Str. 35, 53179 Bonn-Mehlem, 0228 18032447; eine generierte geo.io-Unterseite ordnet dieselbe Telefonnummer einer Adresse Mainzer Str. in 53424 Remagen zu und ist keine Betreiberwebsite; ein separates Verzeichnisprofil nennt KHK-Schrott & Metallrecycling, Severinsweg 8a, Bonn, 0228 30418348. Diese Treffer beweisen weder Umzug noch mehrere Standorte oder gemeinsamen Betreiber. Website-Status bleibt blockiert, Frontmatter leer; Kandidaten nicht geocodiert. ANKAUF: nicht bestätigt; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarifangabe. Offen: Rechtsträger/Betreiber, gültiger Standort und ob die Profile zusammengehören. Quelle(n): https://www.gelbeseiten.de/gsbiz/cb6485ca-50dc-4f92-8d0e-4df27797e377; https://khk-metallrecycling.geo.io/; https://www.khk-metallrecycling.de/ (Direktabruf 403); weiteres Profil nur als Verzeichnislead, Suchabfrage https://www.google.com/search?q=%22KHK-Schrott%22+Bonn+Severinsweg]

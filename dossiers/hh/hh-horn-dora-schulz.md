@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die derzeit auffindbaren Angaben zu Dora Schulz stammen aus Branchenverzeichnissen: Manshardtstr. 9a, 22119 Hamburg-Horn, Telefon 040 6516140, Altmaterial-/Schrotthandel. Eine Betreiberwebsite oder aktuell verifizierte Annahmebedingungen wurden nicht gefunden. Telefonnummer und Öffnungszeiten bleiben mit Vorsicht zu behandeln; keine unangekündigte Anlieferung empfehlen.
+
+Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren veröffentlicht.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: 11880-Profil und Hamburg-Suche live/über Suchindex erneut geprüft; das Profil führt Manshardtstr. 9a, 22119 Hamburg-Horn, 040 6516140 und die Branchen Altmaterialhandel/Schrotthandel, aber keine Öffnungszeiten oder Website. Das bleibt ein Verzeichnisbeleg und bestätigt keinen aktuellen Betreiber. Die früher dokumentierten Infobel-/Öffnungszeitenbuch-Treffer sind ebenfalls Verzeichnisquellen und nicht automatisch unabhängig. Keine Frontmatter-Fills, keine verifizierte Ankaufannahme und keine numerische Ankauf-, Verkaufs- oder Gebührenpreisliste. Quelle(n): https://www.11880.com/branchenbuch/hamburg/120674719B52834682/dora-schulz.html ; https://www.11880.com/suche/schrotthandel/hamburg]
 
 ### Recherche 02.10.2026
 

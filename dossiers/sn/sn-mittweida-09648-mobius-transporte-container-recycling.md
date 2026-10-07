@@ -30,6 +30,10 @@ Weder „Recycling“ im Namen noch allgemeine Entsorgungswerbung beweisen **ver
 
 ## Timeline
 
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Entsorgungs- und Baustoffseiten des Betreibers erneut direkt gelesen. MTC stellt für Abfallentsorgung ein kostenloses, unverbindliches individuelles Angebot in Aussicht; Baustoffseite nennt Kies, Sand, Splitt, Erden, Frostschutz, Rindenmulch, Fertigbeton ab Werk und Recycling-Verfüllmaterial, jedoch keine numerischen Verkaufspreise. Das Entsorgungsangebot ist eine Gebühren-/Angebotsanfrage und kein Ankaufpreis; weder Metallankauf noch Ankaufspreise werden ausgewiesen. Keine Frontmatter-Ergänzung, Betreiberanschrift bleibt wie dokumentiert Einzelbeleg. Quelle(n): https://mtc-mittweida.de/services/entsorgung/ ; https://mtc-mittweida.de/services/baustoffe/]
+
 ### Recherche 05.10.2026 (Abend-Welle)
 
 - [Korrektur 05.10.2026 (Owner-Gate): city syntaktisch von Mittweida 09648 auf Mittweida normiert; eingebettete PLZ nicht als neues belegtes postcode-Feld übernommen. Betreiber-Anschrift bleibt Einzelbeleg in der Recherche, keine Umzugs-/Annahmestellenbehauptung. Quelle(n): bestehender Seed-Ortswert und https://mtc-mittweida.de/impressum/ .]

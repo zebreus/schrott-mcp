@@ -9,8 +9,8 @@ postcode: '63755'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.containerdienst-heilmann.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,10 +24,14 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Domain `containerdienst-heilmann.de` führt „Heilmann Marcus – Schrott & Metall“ in Alzenau und nennt Schrottsammlung, Altmetallhandel, Entsorgung und Recycling. Ein vollständiges Impressum war beim Abruf nicht zugänglich; außerdem widersprechen sich die Telefonnummern: Betreiberseiten-/Verzeichnis-Snippets nennen 06023 9520985, Creditreform 06023 9520212. Deshalb nur Website und Erreichbarkeit des Hosts ergänzen; `status: pruefung` sowie Straße und Telefon bleiben offen. Max-Planck-Straße 1, 63755 ist eine Kandidatenanschrift, noch kein freigegebener Geocode. Keine numerischen Ankaufskurse, Verkaufspreise oder Container-/Entsorgungsgebühren verifiziert.
 
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 63755)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die Betreiber-Domain wird aktuell mit „Heilmann Marcus – Schrott & Metall | Alzenau“ und Leistungen rund um Schrott, Altmetall, Entsorgung/Recycling indexiert. Das Impressum/Kontakt war beim Direktabruf nicht erreichbar; Creditreform führt Marcus Heilmann Containerdienst mit derselben Domain, aber Telefonnummer 06023 9520212 statt 06023 9520985 aus den Website-/Verzeichnis-Snippets. Website-URL und `website_status: aktiv` ergänzt; die konkurrierenden Rufnummern und Max-Planck-Straße 1/63755 bleiben Klärfälle, `status: pruefung` bleibt. Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden; ein Angebot ist kein Beleg für kostenlose Entsorgung. Vor Geocoding Betreiberkontakt/Impressum klären. Quelle(n): https://www.containerdienst-heilmann.de/ ; https://firmeneintrag.creditreform.de/63755/8010177615/MARCUS_HEILMANN_CONTAINERDIENST_HEILMANN]

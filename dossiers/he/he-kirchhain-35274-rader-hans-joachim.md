@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Aktueller Verzeichnislead für „Hans-Joachim Rader Schrotthandel“ nennt Mühlweg 33, 35274 Kirchhain-Anzefahr, Tel. 06422 6822; Eintrag basiert auf Portalangaben, nicht Betreiberbestätigung. Weitere Portale zeigen abweichend Am Friedhof 10 bzw. andere Telefonnummer. Daher kein Straßen-/Kontaktfill. ANKAUF: keine verifizierten Bedingungen oder numerischen Preise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben.
 
 ## Timeline
 
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Kirchhain 35274
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: 11880-Detailseite führt „Hans-Joachim Rader Schrotthandel“, Mühlweg 33, 35274 Kirchhain (Anzefahr), Tel. 06422 6822; Profil ursprünglich 17.06.2023, als aktualisiert 03.10.2026 markiert. Der Aktualisierungsstempel belegt nicht, dass die Stammdaten aktuell vom Betreiber bestätigt wurden. Andere Schrottverzeichnisse liefern als abweichende Leads Am Friedhof 10 / 0171 2730874. Daher keine Straße, Telefonnummer, Öffnungszeiten oder Website ins Frontmatter übernommen; keine Geokodierung bei Adresskonflikt. ANKAUF: nur Branchenbezeichnung, keine gesicherte Annahme/Preise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Offen: aktueller Betreiberstatus, korrekte Adresse und direkte Bestätigung. Quelle(n): https://www.11880.com/branchenbuch/kirchhain/120674719B101402668/hans-joachim-rader-schrotthandel.html; Gegenleads aus Verzeichnissuche „Rader Kirchhain Schrotthandel“ (nicht verifiziert)]

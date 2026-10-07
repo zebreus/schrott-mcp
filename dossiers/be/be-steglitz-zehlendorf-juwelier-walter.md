@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite beschreibt das Goldschmiedeatelier & Juwelier Walter von Katharina Walter an der Königsallee 62, 14193 Berlin-Grunewald. Sie bewirbt Goldankauf (u. a. Alt-/Bruchgold, Zahngold, Schmuck, Münzen und weitere Edelmetalle) nach Gewicht/Feingehalt und tagesaktuellem Marktpreis. Das Niessing-Partnerprofil stimmt bei Inhaberin und Anschrift überein, ersetzt aber nicht den noch fehlenden unabhängigen Gewerbe-/Registerbeleg; deshalb bleiben `status: pruefung` und die nichtleeren Felder unverändert.
+
+Es gibt keine numerische Ankaufspreisliste; Preise werden angefragt bzw. vor Ort ermittelt. Schmuck-/Barrenangebote sind Verkauf oder Verrechnung, nicht Ankaufskurse; die Betreiberangabe "keine versteckten Gebühren" ist keine Gebührenpreisliste. Siehe Timeline-Recherchen 05.10. und 07.10.2026.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Goldankauf-Seite und Kontaktangaben der Betreiberwebsite erneut direkt gelesen. Die Betreiberin beschreibt Ankauf von Alt-/Bruchgold, Schmuck/Uhren, Edelmetallen, Münzen, Zahngold und Dentallegierungen; Bewertung nach Gewicht, Feingehalt und tagesaktuellem Marktpreis, Preis auf Anfrage bzw. vor Ort. Die Website wirbt mit Auszahlung und "keinen versteckten Gebühren", veröffentlicht aber keine numerische Ankaufspreisliste. Schmuckanfertigung, Barren/Münzen und weitere Schmuckangebote sind Verkauf bzw. Verrechnung und keine Ankaufspreise. Die Website-Seite ersetzt weder den bereits offenen unabhängigen Identitäts-/Gewerbebeleg noch klärt sie die Bezirkszuordnung; keine Frontmatter-Fills. Quelle(n): https://juwelier-walter.de/goldankauf/ ; https://juwelier-walter.de/kontakt/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

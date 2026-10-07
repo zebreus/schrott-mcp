@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mobiler NRW-Schrottankauf ist über den Seed und Suchindex angedeutet, aber Betreiberidentität und aktuelle Kontaktdaten sind nicht belastbar geklärt: aktuelle Domain nicht direkt abrufbar; die erreichbare ältere Domain nennt einen anderen Betreiber-/Adressstand. Keine Kontaktdaten übertragen. ANKAUF: numerische Preise nicht verifiziert; VERKAUF: keine Liste; GEBÜHREN: keine belastbare Tarifangabe. Status bleibt Klärfall.
 
 ## Timeline
 
@@ -43,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: website auf Domain-Root normalisiert. Betreiberseiten /schrottankauf und /schrottabholung-solingen sind im Suchindex mit Schrottankauf/Abholung in NRW, Kontaktangaben und aktuellen Copyright-Jahren auffindbar, konnten einzeln direkt jedoch nicht abgerufen werden (Root 403, relevante Unterseiten 404); daher keine Kontakt-, Öffnungszeit- oder Adressdaten daraus übernommen und website_status bleibt blockiert. Die direkt abrufbare ältere Domain nrw-schrott.de nennt Tarek El-Lahib, Robertstraße 70, 44809 Bochum, Kontakt 01525-2376589 und Inhalte mit RSS-Daten aus 2015; eine belastbare Betreiber-/Identitätsverknüpfung zur aktuellen Domain mit abweichenden indexierten Kontaktdaten fehlt. Frühere Such-Snippets zu Vorstadtstr. 65 und die abweichende Alt-Domain-Adresse bleiben Leads; keine Merge- oder Adressentscheidung. Quelle(n): https://schrotthandel.nrw/, https://schrotthandel.nrw/schrottankauf, https://schrotthandel.nrw/schrottabholung-solingen, https://schrotthandel.nrw/impressum, https://nrw-schrott.de/impressum.html, https://nrw-schrott.de/rss.xml]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute Direktprobe bestätigt: https://schrotthandel.nrw/ weiterhin 403, /schrottankauf und /impressum weiterhin 404. Der Suchindex führt zur Ankaufseite nun Telefon 0163 4630051, während frühere Snippets 0163 4694319 nennen; beide Nummern bleiben unbestätigte Leads und werden nicht ins Frontmatter übernommen. Die ältere, direkt erreichbare Domain https://nrw-schrott.de/impressum.html nennt Tarek El-Lahib, Robertstraße 70, Bochum, aber keine belegte Verbindung zum aktuellen Domainauftritt. ANKAUF: nur Werbeaussage/Indexhinweis, keine numerische Preisliste; VERKAUF: keine Liste gefunden; GEBÜHREN: keine überprüfbare Tarifangabe. Offen: aktuelle Betreiberidentität, korrekter Kontakt, Rechts-/Impressumsseite und ob tatsächlich Schrott angenommen wird. Quelle(n): https://schrotthandel.nrw/; https://schrotthandel.nrw/schrottankauf; https://schrotthandel.nrw/impressum; https://nrw-schrott.de/impressum.html; Suchindex-Abfrage als Lead: https://www.google.com/search?q=site%3Aschrotthandel.nrw+0163+Schrottankauf]

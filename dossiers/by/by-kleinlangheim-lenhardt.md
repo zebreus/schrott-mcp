@@ -41,3 +41,7 @@ Die Verzeichnisse nennen Simone Lenhardt Schrotthandel an Gewerbegebiet Haidt 12
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Das vorhandene Mengenminimum wurde erneut fachlich abgegrenzt: lokaleschrottplatz.de nennt Annahme ab 100 kg Eisen und ab 1 kg NE; das sind keine Euro-/kg-Ankaufspreise. Das Detail ist weiterhin nur ein einzelner Portalbeleg. Weitere Verzeichnisse stützen Name, Kandidatenanschrift Gewerbegebiet Haidt 12 und Telefon 09325 980304, jedoch keine Betreiberidentität. Keine Änderung der Felder. Ankauf — keine Preisrate; Verkauf — keine Liste; Gebühren — kein Tarif. Adresse nach Primärbestätigung geokodieren. Quelle(n): https://lokaleschrottplatz.de/simone-lenhardt-schrotthandel/; https://www.11880.com/branchenbuch/kleinlangheim/060440092B113196064/simone-lenhardt-schrotthandel.html]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Preisangaben erneut begrifflich getrennt: „Eisen ab 100 kg/NE ab 1 kg“ bezeichnet laut Portal die Mindestannahmemenge, nicht einen Ankaufskurs. Auch in den geprüften Verzeichnisquellen keine numerische Ankaufsliste, Verkaufspreise oder Tarife für Gebühren/Container gefunden. Keine neue Betreiberquelle; Anschrift bleibt nur Kandidatenadresse, Geocoding erst nach Primärbestätigung. Quelle(n): https://lokaleschrottplatz.de/simone-lenhardt-schrotthandel/ ; https://www.11880.com/branchenbuch/kleinlangheim/060440092B113196064/simone-lenhardt-schrotthandel.html]

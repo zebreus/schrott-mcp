@@ -30,6 +30,10 @@ Jetzt zwei zulässige Quellen für die Standort-/Betreiberzuordnung: Die Gemeind
 
 ## Timeline
 
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Kommunalen Brieselang-Eintrag direkt gelesen. Er führt weiterhin Autoverwertung Zeestow, Geschäftsführer Frank Ebel, Gewerbering 23, 14656 Brieselang OT Zeestow und nennt Telefon 033234 90367 / 22792, Mobil 0163 7042446, info@avw-zeestow.com sowie die .com-Domain. Die Betreiberwebsite ließ sich nicht erfolgreich abrufen; der kommunale Eintrag ist eine aktuelle amtliche Zuordnungsquelle, aber kein Nachweis der momentanen Öffnung, gültigen Altfahrzeug-Zertifizierung oder Ankaufkonditionen. Keine Preise für Fahrzeugankauf, Ersatzteilverkauf oder Gebühren veröffentlicht bzw. verifiziert. Bestehende zwei-Quellen-Historie und offene Statusprüfung bleiben erhalten; keine Kontaktdaten aus dieser einzelnen Quelle in Frontmatter übernommen. Quelle(n): https://www.gemeindebrieselang.de/Adressen/Autoverwertung-Zeestow.html ; https://www.avw-zeestow.com ; https://bravors.brandenburg.de/verwaltungsvorschriften/awp_gefaehrliche_abfaelle_2024]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Neue zulässige unabhängige Primärquelle gegenüber dem Owner-Gate 03.10.: kommunales Branchenbuch der Gemeinde Brieselang vollständig gelesen, „Autoverwertung Zeestow“, Ansprechpartner Frank Ebel, Gewerbering 23, 14656 Brieselang OT Zeestow. Amtlicher Abfallplan erneut gelesen, Tabelle 9.2 Stand November 2022 kongruent „Autoverwertung Zeestow Frank Ebel“. Name und PLZ jetzt aus zwei amtlichen Quellen präzisiert; Slug, Hauskoordinaten und status pruefung unverändert. Das undatierte kommunale Listing bestätigt Zuordnung, nicht aktuelle Öffnung/Zertifikatsgültigkeit.; Quelle(n): https://www.gemeindebrieselang.de/Branchenbuch-Eintraege/Autoverwertung-Zeestow.html , https://bravors.brandenburg.de/verwaltungsvorschriften/awp_gefaehrliche_abfaelle_2024]

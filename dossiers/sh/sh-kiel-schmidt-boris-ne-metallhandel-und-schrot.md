@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die bereits dokumentierten Registerprofile führen NE-Metallhandel Boris Schmidt e. K., AG Kiel HRA 4153 KI, an Grasweg 45-46, 24118 Kiel. Die Registerangaben stützen Identität, Anschrift und den im Dossier dokumentierten aktiven Registerstatus, liefern aber keine Kontaktdaten, aktuellen Material-/Annahmebedingungen oder Preise. Eine eigene Betreiberwebsite wurde nicht gefunden.
+
+Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebührenordnung belegt. Der aktuelle Ankauf und konkrete Konditionen bleiben direkt zu bestätigen; siehe Timeline-Recherchen 01.10. und 07.10.2026.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Preis-/Leistungsprüfung ohne neue Betreiberquelle. Die bestehende Zuordnung zu NE-Metallhandel Boris Schmidt e.K., AG Kiel HRA 4153 KI, beruht weiter auf den bereits dokumentierten Registerprofilen; bei der erneuten Suche fand sich keine Betreiberwebsite mit aktuellen Annahmebedingungen oder Preisen. Registerbelege verifizieren weder aktuelle Materialsorten noch Preise. Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebührenordnung belegt; aktuelle Konditionen bleiben offen. Quelle(n): bereits dokumentierte NorthData- und Online-Handelsregister-Belege, recherchiert 01.10.2026; eigenständige Websuche 07.10.2026 ohne neue Betreiberquelle.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

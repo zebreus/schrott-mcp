@@ -30,6 +30,10 @@ Die Scholz-Recycling-Website und ihr allgemeines Angebot für Selbstanlieferer s
 
 ## Timeline
 
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Scholz-Standortfinder und branchenspezifische Riesa-URL direkt geprüft. Der Standortfinder liefert bei statischem Abruf keine lesbaren Riesa-Einzelangaben; der Versuch einer geratenen Riesa-Detail-URL antwortet mit HTTP 500 und ist deshalb kein Beleg für eine dortige Filiale. Die bereits dokumentierte dynamische Kartenansicht löst den Seed-Standort Riesa weiterhin nicht auf. Konzernweite Services nennen Abrechnung nach Qualität/Gewicht zu tagesaktuellen Marktpreisen und Foto-Vorabschätzung, aber keine numerischen Riesa-Ankaufspreise; keine Riesa-Verkaufspreise oder Gebührenliste. Adresse, Annahme und Standortaktivität bleiben offen, Status pruefung unverändert. Quelle(n): https://www.scholz-recycling.com/standorte/ ; https://www.scholz-recycling.com/standort/riesa/ ; https://www.scholz-recycling.com/services/]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026 (Feedback-ID 2712, teilweise berechtigt, Klärfall): wie Schwester-Dossier Mittweida — Derichebourg-Branding auf Betreiber-Seite belegt (Logo „Scholz_DERICHEBOURG", Scholz Recycling GmbH Essingen, HRB 733963 Ulm); Standort Riesa per statischem Crawl NICHT verifizierbar (JS-Kartensuche, Detail-URL Geraten 500). Konsequenz strenger als Mittweida: status aktiv → pruefung (Branchexistenz unbelegt, keine einzige Adresse — kein plausible-looking-Fiction-Eintrag).; Quelle(n): https://www.scholz-recycling.com/impressum/, https://www.scholz-recycling.com/standorte/]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Datensatz bleibt ein Recherchekandidat: auch die erneute Suche nach dem exakten Namen zusammen mit Stadtroda/Donndorf ergab am 07.10.2026 keinen eindeutig zuordenbaren Betreiberauftritt oder belastbaren Registertreffer. Das ist kein Beleg für Nichtexistenz oder Schließung. Adresse, Kontakt, Annahme, Ankauf und Aktivität sind weiterhin offen; keine Anlieferung ohne vorherige Bestätigung.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Eigenständige Exact-name-Suche nach "Donndorf Herbert Schrott- und Metallhandel" und Kombinationen mit Stadtroda/Donndorf lieferte keinen eindeutig identifizierbaren Betreiber oder belastbaren Treffer. Negativbefund, kein Schließungs- oder Nichtexistenznachweis; keine Frontmatter-Felder ergänzt. Offene Fragen: vollständiger Firmen-/Inhabername, genauer Ort/Adresse, heutige Annahme und ob Ankauf oder Entsorgung gegen Gebühr angeboten wird. Keine numerische Ankauf-, Verkaufs- oder Gebührenpreisliste gefunden. Quelle(n): Eigenständige Websuche 07.10.2026 (Exact-name-Suchanfragen, ohne verifizierbaren Treffer).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
