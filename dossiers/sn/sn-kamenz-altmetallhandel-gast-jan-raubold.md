@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: tot
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für Altmetallhandel Gast/Jan Raubold wurde kein aktueller Betreiber- oder Registerbeleg und keine Betreiber-Website ermittelt. Der Treffer der kommunalen Gewerbedatenbank für Jesauer Feldweg 16 betrifft LGS/Stefan Vetter, nicht den Seed an Nr. 17; REMONDIS-Übernahmebehauptungen blieben unbestätigte Leads. Status bleibt `pruefung`. `website_status` ist `unbekannt` (kein verifizierter Website-URL bzw. Schließungsbeleg), nicht `tot`.
+
+**Preise:** **Ankauf** — Seed nennt Altmetall/Abholung und einen Ankauftag, aber keine aktuelle belegte Annahme oder Zahlenpreise. **Verkauf** — keine Preisliste. **Gebühren** — keine Gebührenliste. **Geokodierung:** Hausnummer 17 erst nach Klärung von Betrieb und Anschrift pinnen; die Nr. 16 ist ein anderer ermittelter Gewerbetreffer.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: `website_status` von `tot` auf `unbekannt` normalisiert: es ist keine konkrete Betreiber-Website im Frontmatter hinterlegt und die bisherige Recherche lieferte keinen Beleg für eine geschlossene Website oder einen aufgegebenen Betrieb. `status: pruefung` bleibt. Preisangaben aus dem Seed (Barankauf/fester Freitag) sind keine aktuelle Preisbestätigung; keine numerischen Ankaufpreise, Verkaufspreise oder Gebühren verifiziert. Geokodierung von Jesauer Feldweg 17 bis zur Klärung ausgesetzt; Quelle: https://www.kamenz.de/gewerbedatenbank.html ; https://www.remondis.de/unternehmen/standorte/ ; https://www.remondis-ost.de/.]
 
 ### Recherche 03.10.2026
 

@@ -4,8 +4,8 @@ name: Alteisensammlung Korkmaz
 trader_type: sonstige
 state: HE
 city: Reinheim
-street: 'Darmstädter Str. 21'
-postcode: '64354'
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,13 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Alteisensammlung Korkmaz“ bleibt ein nicht unabhängig bestätigter Eintrag. Darmstädter Straße 21 / 64354 Reinheim stammt ausschließlich aus Verzeichnissen; die drei dort gefundenen Telefonnummern widersprechen sich. Die E-Mail aus dem Cylex-Eintrag gehört laut Aktenlage zur Automatenaufstellung und ist nicht der Alteisensammlung zuzuordnen. Daher sind Straße/PLZ aus dem Frontmatter entfernt; die Verzeichnisangaben bleiben als Leads in der Historie.
+
+**Preise:** Ankauf durch den Betrieb nicht unabhängig bestätigt; keine numerische Ankaufpreisliste gefunden. Verkaufspreise und Annahme-/Entsorgungsgebühren sind in den ausgewerteten Quellen nicht angegeben. Öffentliche Selbstanlieferung und Abholung ebenfalls ungeklärt.
 
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alteisen-Sammlung (Verzeichnis)
+
+### Korrektur/Recherche 07.10.2026
+
+- [Korrektur 07.10.2026: Re-Check der früheren Adressfüllung gegen die dokumentierte Quellenlage: Darmstädter Str. 21 / 64354 stützt sich auf schrottplatz-info und Cylex, beides Verzeichnis-Leads; ein Betreiber-, Register- oder Kommunalbeleg fehlt. Daher street und postcode aus dem Frontmatter entfernt, nicht als Standortwechsel oder Schließung gewertet. NorthData-Suche nach „Alteisensammlung Korkmaz Reinheim“ ergab kein eindeutig passendes Firmenprofil; dies beweist keine Nichtexistenz. Die drei abweichenden Portalnummern und die nicht zuordenbare E-Mail bleiben ungelöst. ANKAUF: unbestätigt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in den ausgewerteten Quellen; Quelle: https://www.northdata.de/?query=Alteisensammlung%20Korkmaz%20Reinheim; https://www.schrottplatz-info.de/schrottplatz/Reinheim/Korkmaz; https://web2.cylex.de/firma-home/korkmaz-11947255.html]
 
 ### Recherche 01.10.2026
 

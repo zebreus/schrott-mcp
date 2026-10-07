@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Suchindexierung liefert mehrere Verzeichnis-Leads „Schrotthandel und Entrümpelung Kornely“ in Ingelheim, aber keine Betreiber-/Registerquelle. Die Adressangaben widersprechen sich: Seed Hinter der Ohrenbrücke 33, Firmania nennt Nr. 19, weitere Treffer lassen die Hausnummer weg bzw. wiederholen Nr. 33. Kein Standort-/Identitäts-Fill; Status `pruefung`.
+
+**Preise:** ANKAUF: Verzeichnis-Snippets nennen Materialarten und „aktuelle Preise“ auf Anfrage, jedoch keine bezifferten Ankaufssätze; Betreiberzuordnung und Bedingungen unbestätigt. VERKAUF: keine Preisliste. GEBÜHREN: keine belegten Tarife.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Neue Suchspur „Schrotthandel und Entrümpelung Kornely“ in Ingelheim: Suchindex-Treffer nennen u.a. Hinter der Ohrenbrücke 19 (Firmania), während Seed und ein anderer Eintrag Nr. 33 nennen; Cylex führt nur „Hinter der Ohrenbrücke“ und eine Telefonnummer. Direkte Abrufe der Cylex-/Firmania-Profile waren nicht verwertbar (403), das indexierte LokaleSchrottplatz-Profil lieferte 404. Das sind nicht unabhängig bestätigte Verzeichnisdaten und kein Nachweis, welche Adresse gilt. Frontmatter bleibt unverändert. ANKAUF: nur unbestätigtes Snippet „Materialien / aktuelle Preise anfragen“, keine Zahlen; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Offen: Betreiber, tatsächliche Adresse und ob das Profil noch aktiv ist; Quelle: https://web2.cylex.de/firma-home/schrotthandel-und-entruempelung-kornely-16663856.html ; https://firmania.de/ingelheim/schrotthandel-und-entruempelung-kornely-8212009 ; https://lokaleschrottplatz.de/schrotthandel-und-entruempelung-kornely/ (404 beim Direktabruf)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

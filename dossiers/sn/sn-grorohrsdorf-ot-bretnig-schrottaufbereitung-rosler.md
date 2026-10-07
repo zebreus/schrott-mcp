@@ -26,7 +26,9 @@ provenance_origin: table
 
 Familienbetrieb mit Betreiberin Veronika Rösler. Die eigene Website bietet ausdrücklich Schrott-/Metallankauf für Privat und Gewerbe, Barzahlung oder Überweisung zu Tagespreisen, Container von 1–34 m³ sowie Industriedemontagen an. Aktuelle Betriebsruhe-Hinweise für Oktober/November 2026 sprechen für gepflegte Inhalte.
 
-Adresse und Kontakt bleiben mangels unabhängiger Bestätigung Timeline-only. Die Einzelunternehmer-Website erfüllt die registergebundene Betreiber-Ausnahme der README nicht; mehrere Unterseiten oder ein dort veröffentlichtes Zertifikat sind keine zweite Quelle. Die Öffnungszeiten enthalten zusätzlich tägliche Pausen, die bei einem späteren Fill nicht fehlen dürfen. Keine numerische Ankaufspreisliste gefunden; Verkauf von Vormaterial ist ein eigenes Angebot, kein Ankaufspreis.
+Adresse und Kontakt bleiben mangels unabhängiger Bestätigung Timeline-only. Die Einzelunternehmer-Website erfüllt die registergebundene Betreiber-Ausnahme der README nicht; mehrere Unterseiten oder ein dort veröffentlichtes Zertifikat sind keine zweite Quelle. Die Öffnungszeiten enthalten zusätzlich tägliche Pausen, die bei einem späteren Fill nicht fehlen dürfen.
+
+**Preise:** **Ankauf** — Tagespreise, bar oder Überweisung; keine numerischen Raten veröffentlicht. **Verkauf** — sortierte Schrotte/Vormaterial und NE-Metalle für Verarbeiter werden angeboten, aber ohne öffentliche Verkaufspreise. **Gebühren** — Containergrößen 1–34 m³; kostenfreie Container laut Betreiber nur für Daueranfallstellen, sonstige Tarife auf Anfrage/nicht veröffentlicht. **Geokodierung:** Gewerbering Nord 18, 01900 Großröhrsdorf OT Bretnig ist ein Adresskandidat aus der Betreiberquelle; Koordinate noch nicht geschrieben und vor Freigabe unabhängig gegen Standort/Anfahrt prüfen.
 
 ## Timeline
 

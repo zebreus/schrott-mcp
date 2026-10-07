@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Adresse Kornstr. 8, 30167 Hannover ist in Verzeichnissen mehrfach genannt; die Telefonnummer 0163 1751448 stammt bislang nur aus einem einzelnen Verzeichniseintrag. Ein Betreiberauftritt, Register- oder Kommunalbeleg, der Identität und Ankauftätigkeit von „Khan Schrott-/Altmetallabholung“ bestätigt, fehlt. Straße/PLZ bleiben der bereits dokumentierte Lead; Telefon wird nicht übernommen, `status: pruefung` bleibt.
+
+- **Ankauf:** keine durch den Betreiber veröffentlichte Ankaufspreisliste.
+- **Verkauf:** keine Händler-Verkaufspreise belegt.
+- **Gebühren:** keine verifizierten Abhol-/Entsorgungsgebühren.
+- **Geokodierung:** Kornstr. 8, 30167 Hannover nach Identitäts- und Adressbestätigung neu geokodieren.
 
 ## Timeline
 

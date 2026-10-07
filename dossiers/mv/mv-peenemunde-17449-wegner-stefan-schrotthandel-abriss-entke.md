@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Vorhandene Seed-Adresse Müggenhof 1 und 038371 20757 sind konsistente **Verzeichnis-Leads**, aber keine aktuelle Betreiber-/Registerbestätigung. Die regionale Mikroseite hat keinen Stefan Wegner zugeordneten Impressumsnachweis, sondern nur Kontakt/Urheberhinweis des Portalbetreibers. Ein Suchergebnis oder mehrfach abgeschriebene Daten rechtfertigen deshalb keinen bestätigten Aktiv-Status. Alte Angaben bleiben mit offener Beleglage erhalten; kein Schließungsbeleg.
+Vorhandene Seed-Adresse Müggenhof 1 und 038371 20757 sind konsistente **Verzeichnis-Leads**, aber keine aktuelle Betreiber-/Registerbestätigung. Die regionale Mikroseite hat keinen Stefan Wegner zugeordneten Impressumsnachweis, sondern nur Kontakt/Urheberhinweis des Portalbetreibers. Ein Suchergebnis oder mehrfach abgeschriebene Daten rechtfertigen deshalb keinen bestätigten Aktiv-Status. Alte Angaben bleiben mit offener Beleglage erhalten; kein Schließungsbeleg. ANKAUF: keine numerische Vergütung; VERKAUF: keine Teile-/Materialpreisliste; GEBÜHREN: keine verifizierten Gebühren. Die alte Notiz vom 02.10. vermerkt automatische Neugeokodierung nach Adressfüllung; deren Abschluss wurde hier nicht überprüft.
 
 ## Timeline
 

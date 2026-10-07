@@ -4,9 +4,9 @@ name: Hartmann Recycling
 trader_type: schrotthaendler
 state: HE
 city: Darmstadt-Nord
-street: Gehaborner Weg 2
-postcode: '64293'
-phone: 01578 6795832
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -24,13 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Hartmann Recycling“ ist in den Akten nur als Branchenverzeichnis-Eintrag belegt. Gehaborner Weg 2, 64293 Darmstadt und 01578 6795832 erscheinen in Verzeichnisquellen; am selben Ort werden auch HaRec und FKS Recycling geführt. Eine Betreiber-, Register- oder Kommunalquelle belegt weder einen eigenständigen Hartmann-Betrieb noch eine Verbindung zu den beiden anderen Anbietern. Straße, PLZ und Telefon sind deshalb aus dem Frontmatter entfernt, nicht als Umzug oder Schließung interpretiert.
+
+**Preise:** Kein Betreiber-Ankauf belegt und keine numerische Ankaufpreisliste gefunden; Verkaufspreise und Gebühren sind in den ausgewerteten Quellen nicht veröffentlicht. Öffentliche Annahme/Abholung ist ungeklärt.
 
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler [Website-Recherche verzeichnis: services: Recycling; notes: Nur Gelbe Seiten (Hartmann Recycling); gleiche Adresse wie HaRec (Gehaborner Weg 2).] [Dedup 30.09.2026: eigenständig neben HaRec/FKS (drei Namen, drei Rufnummern, eine Adresse); Straße/PLZ ergänzt; Quelle: Gelbe Seiten Darmstadt]
+
+### Korrektur/Recherche 07.10.2026
+
+- [Korrektur 07.10.2026: Die dokumentierten Angaben Gehaborner Weg 2, 64293 Darmstadt und 01578 6795832 stammen aus Gelbe Seiten/Cylex/Firmania/Cybo bzw. weiteren Branchenverzeichnissen. Frühere Direkt-/Registersuche fand keine Betreiber- oder Kommunalquelle; die NorthData-Suche „Hartmann Recycling Darmstadt“ ergab kein eindeutig passendes Firmenprofil. Damit bleibt auch die Abgrenzung von HaRec und FKS offen. Die aggregatorbasierten street/postcode/phone-Felder wurden geleert; keine der drei Namen am selben Gelände wurde zusammengeführt. Das ist kein Schließungs- oder Nichtexistenzbeleg. ANKAUF: nicht bestätigt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in den ausgewerteten Quellen; Quelle: https://www.northdata.de/?query=Hartmann%20Recycling%20Darmstadt; https://www.gelbeseiten.de/gsbiz/bef6959a-3dc7-4f74-80a3-eab780ae9fd4; https://web2.cylex.de/firma-home/hartmann-recycling-14906826.html; https://www.firmania.de/darmstadt/hartmann-recycling-4456307; https://www.hartmann-recycling.de/ (im früheren Abruf NXDOMAIN)]
 
 ### Recherche 01.10.2026
 

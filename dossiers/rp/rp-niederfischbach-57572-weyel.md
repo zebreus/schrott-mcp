@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Registerspiegel führt eine aktuell gelistete Ralf Weyel GmbH (HRB 7055, AG Montabaur) mit Unternehmensgegenstand Rohstoffhandel und Erzeugnissen aus Eisen/Stahl; als Geschäftsanschrift steht Konrad-Adenauer-Straße 15, Niederfischbach. Die Ortsgemeinde bestätigt die Straße als Gemeindeanschrift, nicht als Händler-/Kundenstandort. Dossieridentität „Weyel“ und Betriebsstätte bleiben offen; Straße und Kontakte nicht übernehmen, Status `pruefung`.
+
+**Preise:** ANKAUF: Unternehmensgegenstand ist kein Ankaufbeleg; keine Händler-Ankaufspreise gefunden. VERKAUF: keine Preisliste. GEBÜHREN: keine Gebühren-/Container-Tarife belegt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Den Registerspiegel direkt geöffnet: HRB 7055, Ralf Weyel GmbH, Status „aktuell“, Sitz Niederfischbach, Gegenstand Handel mit Rohstoffen sowie Erzeugnissen aus Eisen/Stahl; der Auszug trägt Abrufvermerk 02.04.2024. Die aktuelle Gemeindeseite weist Konrad-Adenauer-Straße 15 als Kontakt der Ortsgemeinde aus, nicht als Händleradresse. Das bestätigt die bereits dokumentierte Trennung zwischen Registeranschrift und möglicher Betriebsstätte; kein Straßen-/Koordinaten-Fill. ANKAUF: keine Preisangaben; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Offen: ob die Ralf Weyel GmbH mit dem generischen Seed und einer öffentlichen Annahmestelle identisch ist; Quelle: https://handelsregister.live/hrb/rheinland-pfalz/ag-montabaur/7055/ralf-weyel-gmbh ; https://www.niederfischbach.de/kontakt]
 
 ### Recherche 03.10.2026
 

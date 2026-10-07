@@ -26,9 +26,15 @@ provenance_origin: table
 
 Unbestätigter Gold-/Silberankauf-Lead für **Hanau-Großauheim**, keine belegte allgemeine Schrottannahme. Die jetzt direkt gelesene 11880-Detailseite nennt MAIN-GOLD, Adalbert-Eisenhuth-Str. 6b, 63457 Hanau, 06181 9885552 und main-gold.de. Diese Daten sind nur Recherchekandidaten, keine verifizierten Betreiberkontakte.
 
-Das Portal mischt **Goldankauf und Teppichreinigung** und nennt eine E-Mail mit Bautenschutz-Domain. Das erhöht das Risiko eines vermischten Profils; Mail und Öffnungszeiten werden nicht übernommen. Die behauptete gemeinsame Hofadresse mit ARM/Entsorgung Hessen belegt weder denselben Inhaber noch eine Betreiberkette. main-gold.de lieferte keinen auswertbaren Betreiber-/Impressumsbeleg; ein Abrufproblem beweist keine Stilllegung. Offen: Rechtsträger, tatsächlich aktueller Edelmetallankauf und Preisberechnung nach Feingehalt; keine numerische Preisliste gefunden.
+Das Portal mischt **Goldankauf und Teppichreinigung** und nennt eine E-Mail mit Bautenschutz-Domain. Das erhöht das Risiko eines vermischten Profils; Mail und Öffnungszeiten werden nicht übernommen. Die behauptete gemeinsame Hofadresse mit ARM/Entsorgung Hessen belegt weder denselben Inhaber noch eine Betreiberkette. main-gold.de lieferte keinen auswertbaren Betreiber-/Impressumsbeleg; ein Abrufproblem beweist keine Stilllegung. Offen: Rechtsträger, tatsächlich aktueller Edelmetallankauf und Preisberechnung nach Feingehalt.
+
+**Preise:** ANKAUF: Edelmetallankauf als Portal-Lead, aber keine numerische Ankaufpreisliste / Feingehaltstabelle in den ausgewerteten Quellen. VERKAUF: keine Preisliste für Waren/Schmuck gefunden. GEBÜHREN: keine Angaben; keine Gebührenfreiheit ableiten.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: NorthData-Suche nach „Main Gold Hanau 63457“ ergab kein eindeutig passendes Firmenprofil. Das ist bei einem möglichen Einzelunternehmen kein Beleg gegen Existenz; die Portalangaben von 11880 bleiben jedoch ohne Betreiber-Impressum nicht verifiziert. Kein Preisblatt mit Ankaufs-/Verkaufskursen oder Gebühren gefunden; genaue Edelmetallabrechnung nach Feingehalt bleibt offen. ANKAUF: nur Portal-Lead, keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben; Quelle: https://www.northdata.de/?query=Main%20Gold%20Hanau%2063457; https://www.11880.com/branchenbuch/hanau/181726177B107439196/main-gold.html; https://www.main-gold.de]
 
 ### Recherche 05.10.2026
 

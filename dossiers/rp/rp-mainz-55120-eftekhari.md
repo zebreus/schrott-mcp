@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten führt als nicht bestätigten Lead eine „Eftekhari GmbH“ am Akazienweg 1, 55120 Mainz-Mombach. Die Registerspur HRB 48328 betrifft laut bisheriger Recherche dagegen eine GmbH mit Sitzverlegung nach Mainz-Kastel/Wiesbaden und Liquidationseintrag 2024; die Identität mit dem Mainzer Lead ist nicht belegt. Frontmatter bleibt offen und Status `pruefung`.
+
+**Preise:** ANKAUF: keine belastbaren Annahmebedingungen oder Preisangaben. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Quellenlage aus den Direktprüfungen vom 02./04.10. konsolidiert: Gelbe-Seiten-Lead Akazienweg 1 (55120) steht nicht auf derselben Anschrift wie die Eftekhari GmbH HRB 48328 in Mainz-Kastel; NorthData führt deren Liquidationseintrag 2024, und die angegebene Domain lieferte keinen nutzbaren Betreiberinhalt. Kein Beleg für Filiale, Gleichheit oder Fortbestand der Seed-Entität, daher keine Kontakt-/Adressübernahme. ANKAUF: kein Tarif; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Offen: Gewerbe-/Registerzuordnung Akazienweg 1 und aktuelle Geschäftstätigkeit; Quelle: https://www.gelbeseiten.de/gsbiz/b6215761-672e-4943-bdf0-b933a7660cf2 ; https://www.northdata.de/Eftekhari%20GmbH,%20Mainz/Amtsgericht%20Mainz%20HRB%2048328 ; https://eftekhari-gmbh.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

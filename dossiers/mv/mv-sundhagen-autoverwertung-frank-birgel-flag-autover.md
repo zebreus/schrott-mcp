@@ -28,6 +28,10 @@ Das amtliche Verzeichnis des Amtes Miltzow führt „KFZ Service Birgel“, Fran
 
 ## Timeline
 
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Die amtliche Leistungsangabe „Autoverwertung“ bestätigt keinen separaten Schrottankauf und nennt keinen Altauto-Ankaufspreis.; VERKAUF: Gebrauchtwaren-/Ersatzteilverkauf ist amtlich gelistet; eine Preisliste ist dort nicht veröffentlicht.; GEBÜHREN: Im geprüften amtlichen Eintrag keine Gebührenangaben.; GEOKODIERUNG: Jeesser 2–3, 18519 Jeeser ist im Frontmatter eingetragen; die Recherche vom 02.10.2026 vermerkt bereits eine Neugeokodierung. Ergebnis/Abschluss dieser früheren Aufgabe hier nicht verifiziert; keine erneute Geokodierung oder Datenbankänderung vorgenommen.; Quelle: https://www.amt-miltzow.de/verzeichnis/visitenkarte/vorstellung/mandat/37330/kfz-service-birgel.html (Abruf 06.10.2026; Preisangaben nicht enthalten).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung/Autorecycling

@@ -24,9 +24,18 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Marktgemeinde Burgpreppach und Registerprofil zu Korn GmbH (HRB 3319, AG Bamberg) stimmen bei Fitzendorfer Str. 14, 97496 Burgpreppach und Altmetall-/Schrotthandel bzw. Containerbereitstellung überein. Die Geschäftsanschrift ist belegt, aber nicht automatisch ein öffentlich zugänglicher Anlieferplatz; Kontaktdaten, Öffnungszeiten und aktuelle Annahmebedingungen bleiben offen.
+
+- **Ankauf:** keine konkreten Ankaufspreise oder Vergütung belegt; Registergegenstand ist kein Preis-/Annahmebeleg.
+- **Verkauf:** keine Verkaufspreise veröffentlicht.
+- **Gebühren:** keine Container- oder Entsorgungstarife gefunden.
+- **Geokodierung:** Fitzendorfer Str. 14, 97496 ist zu geokodieren; Ergebnis nicht als Kundenannahme ausgeben, solange diese nicht bestätigt ist.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die bereits geprüften unabhängigen Belege bleiben kongruent: Marktgemeinde Burgpreppach nennt Korn GmbH, Fitzendorfer Str. 14, 97496 sowie Schrott-/Metallhandel und Containerdienst; NorthData führt Korn GmbH, AG Bamberg HRB 3319, mit derselben Geschäftsanschrift und Registergegenstand Altmetall-/Schrotthandel/Containerbereitstellung. Keine Übernahme des nur kommunal genannten Telefons oder der E-Mail, da dafür weiterhin ein zweiter qualifizierender Beleg fehlt. Die ähnlich benannten Domains korngmbh.de und korn-gmbh.de gehören nach den dokumentierten Prüfungen anderen Firmen; korn-schrott.de ist nicht erreichbar, daraus keine Schließung ableiten. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren gefunden. Anschrift geokodieren, jedoch nicht ungeprüft als Anlieferstelle verwenden; Quelle: https://www.burgpreppach.de/wirtschaft/ ; https://www.northdata.de/Korn%20GmbH,%20Burgpreppach/Amtsgericht%20Bamberg%20HRB%203319 ; https://www.korn-schrott.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

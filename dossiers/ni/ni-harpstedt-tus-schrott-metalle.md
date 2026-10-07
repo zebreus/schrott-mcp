@@ -25,7 +25,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchen- und Schrottverzeichnisse führen TuS Schrott & Metalle an Ravenskamp 8, 27243 Harpstedt, Telefon 04244 919842, und nennen Schrott-/Metallannahme. Es fehlt weiterhin ein Betreiber-Impressum, Registerbeleg oder kommunale Gegenquelle; mehrere Verzeichnisse sind keine voneinander unabhängigen Betreiberbestätigungen. Die bisherigen Kontaktdaten bleiben daher mit Verzeichnisrestunsicherheit behaftet.
+
+- **Ankauf:** Schrott-/Metallannahme wird als Leistung gelistet; keine numerischen Ankaufskurse nachgewiesen.
+- **Verkauf:** keine Verkaufspreisliste.
+- **Gebühren:** keine Abhol-/Entsorgungsgebührentabelle.
+- **Geokodierung:** Ravenskamp 8, 27243 Harpstedt bei Bestätigung durch eine qualifizierte Quelle geokodieren; Öffnungszeiten bleiben unbekannt.
 
 ## Timeline
 

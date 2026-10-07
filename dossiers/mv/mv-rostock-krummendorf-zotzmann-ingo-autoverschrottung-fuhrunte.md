@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberseite identifiziert Ivo Zotzmann, Autoverwertung, De Striethoff 2, 18147 Rostock-Krummendorf, und beschreibt Ersatzteilhandel sowie Selbsthilfewerkstatt. Adresse/Kontakt bleiben nach dem dokumentierten Owner-Gate aus einem einzelnen Einzelunternehmer-Auftritt im Frontmatter unverändert; `status: pruefung` bleibt. Die veröffentlichte Preistafel betrifft Werkstatt-/Hilfsmittelnutzung und Entsorgung in der Selbsthilfewerkstatt, nicht den Ankauf von Schrott oder Fahrzeugen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: In den geprüften Betreiberseiten kein numerischer Altauto-/Metallankaufspreis.; VERKAUF: Gebraucht-/Neuteilehandel wird angeboten; Teilepreise gibt es nur auf Anfrage, eine artikelbezogene öffentliche Teilepreisliste wurde nicht gefunden.; GEBÜHREN: Die undatierte Preistafel der Selbsthilfewerkstatt nennt (Beträge je Nutzung): Hebebühne 7 €/30 Min. bzw. 14 €/Std.; Halle/Bühne außerhalb regulärer Zeiten 25 €/angefangene Std.; Außenstellplatz 10 €/Tag, Hallenstellplatz 10 €/Nacht; Sauger 3 €/15 Min.; Spezialwerkzeug 3 €, Schweißgerät 10 €/15 Min.; Altölentsorgung inkl. Gerät 5 €/Pkw, Bremsenentlüfter inkl. Flüssigkeit 10 €/Pkw. Weitere gelistete Werkzeug-/Servicepreise: Drehmomentschlüssel 2 €, Elektrogeräte 4 €, Federspanner 8 €, Winkelschleifer 4 €, großer Wagenheber 2 €, Getriebeheber 3 €, Heißluftpistole 6 €/Std., Werkstattpresse 5 €/Std., Handlampe 1 €, Kühlmittelentsorgung 5 €, Kleinwerkzeug 1 €, Druckluftgeräte 4 €, Motortester 15 €, Motorkran 5 €, Motorbrücke 9 €/3 Std., Stahlfelgenmontage 5 €, Alufelgenmontage 10 €, Ölfilterschlüssel 2 €, Steckschlüsselsatz 5 €. Diese Beträge sind keine Altauto-/Schrottannahmegebühr.; GEOKODIERUNG: Betreiberseite nennt De Striethoff 2, 18147; Frontmatter-Adresse bleibt wegen dokumentiertem Einzelbeleg-Gate leer. Falls diese Anschrift zur Aufnahme freigegeben wird, geokodieren; kein Lauf hier.; Quelle: https://www.autoverwertung-zotzmann.de/autoselbsthilfe (Preistafel, ohne ausgewiesenes Veröffentlichungsdatum); https://www.autoverwertung-zotzmann.de/ersatzteilhandel ; https://www.autoverwertung-zotzmann.de/kontakt-anfahrt (Abruf 07.10.2026).]
 
 ### Recherche 02.10.2026
 

@@ -25,7 +25,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für einen Hartong-Schrotthandel in Vechta gibt es nur widersprüchliche Verzeichnis-Leads: Fuhrenkamp 21 mit Festnetznummer versus Fuhrenkamp 19A bzw. 19 A mit Mobilnummer. Die Traueranzeige belegt den Tod eines Karl-Heinz Hartong 2018, aber keine Verbindung dieses Verstorbenen zum Händler. Betreiberidentität, Adresse, Aktivität und Ankauf sind daher nicht verifiziert; keine Schließung aus dem Todesfall ableiten.
+
+- **Ankauf:** keine verifizierte aktuelle Ankauftätigkeit oder Preisangabe.
+- **Verkauf:** keine Preisliste.
+- **Gebühren:** keine Abhol-/Entsorgungspreise.
+- **Geokodierung:** Fuhrenkamp 19A/21 nicht geokodieren, bevor der Adresswiderspruch und die Betreiberidentität geklärt sind.
 
 ## Timeline
 

@@ -4,9 +4,9 @@ name: Stein Alexander-Sebastian
 trader_type: schrotthaendler
 state: HE
 city: Pfungstadt 64319
-street: Tulpenweg 3
-postcode: '64319'
-phone: (06157) 9110132
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Das Dossier beruht weiterhin auf zwei Verzeichnisangaben für „Alexander-Sebastian Stein“ in Pfungstadt-Eschollbrücken (Tulpenweg 3, Telefon 06157 9110132). Es gibt keinen Betreiberauftritt, Register-/Impressumsbeleg oder sonstige aktuelle Primärquelle, die einen aktiven Schrottbetrieb bestätigt; die Adresse und Telefonnummer bleiben daher Verzeichnis-Leads, nicht verifizierte Betreiberangaben.
+Das Dossier beruht auf Verzeichnisangaben für „Alexander-Sebastian Stein“ in Pfungstadt-Eschollbrücken (früher gemeldet: Tulpenweg 3, Telefon 06157 9110132). Es gibt keinen Betreiberauftritt, Register-/Impressumsbeleg oder sonstige aktuelle Primärquelle, die einen aktiven Schrottbetrieb bestätigt. Adresse und Telefonnummer wurden aus dem Frontmatter entfernt; sie bleiben als unbestätigte Leads in der Recherchehistorie.
 
 **Preise:** keine Ankaufspreise, Verkaufspreise oder Entsorgungsgebühren veröffentlicht oder belastbar gefunden. Status `pruefung` bleibt; weder Betriebsaufgabe noch aktueller Ankauf ist belegt.
 
 ## Timeline
+
+### Korrektur/Recherche 07.10.2026
+
+- [Korrektur 07.10.2026: Die bisherigen Werte Tulpenweg 3, 64319 und 06157 9110132 beruhten auf 11880 und Stadtbranchenbuch, also ausschließlich Branchenverzeichnisquellen; ein Betreiber-, Register- oder Kommunalbeleg zur aktiven Schrottfirma fehlt. Deshalb street/postcode/phone aus dem Frontmatter entfernt, Werte und damalige Doppelbeleg-Entscheidung bleiben in der Historie nachvollziehbar. NorthData-Suche nach „Stein Alexander-Sebastian Pfungstadt“ ergab keinen eindeutig passenden Rechtsträger; das beweist keine Nichtexistenz. ANKAUF: nicht bestätigt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in den ausgewerteten Quellen. Offen: Identität, Adresse und aktueller Betrieb, ggf. Gewerberegister/Vor-Ort-Bestätigung; Quelle: https://www.northdata.de/?query=Stein%20Alexander-Sebastian%20Pfungstadt; https://www.11880.com/; https://pfungstadt.stadtbranchenbuch.com/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt „Zimmermann Vera Schrotthandel“ und Ziegeleistr. 23 in Woltersdorf, aber die Recherche vom 01.10.2026 fand keine Betreiberwebsite, Register- oder kommunale Bestätigung. Der Seed-Eintrag allein belegt weder, dass an der Adresse ein Schrotthandel betrieben wird, noch dass der Vorname korrekt zugeordnet ist. Alle Felder bleiben offen und `status: pruefung`.
+
+- **Ankauf:** keine Tätigkeit/Preisliste verifiziert.
+- **Verkauf:** keine Preisliste.
+- **Gebühren:** keine Abhol-/Entsorgungskosten verifiziert.
+- **Geokodierung:** Ziegeleistr. 23 erst nach Adress- und Identitätsbestätigung geokodieren; Postleitzahl ist ebenfalls offen.
 
 ## Timeline
 

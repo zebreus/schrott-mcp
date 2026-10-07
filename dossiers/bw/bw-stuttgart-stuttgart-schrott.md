@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Betreiberauftritt „Stuttgart Schrott“ nennt Tilsiter Str. 5/1, 70374 Stuttgart-Bad Cannstatt, Telefon 01523 4575602, E-Mail info@stuttgart-schrott.de und Mo–Fr 09:00–17:00. Das Impressum nennt jedoch weder eine juristische Betreiberfirma noch eine Registernummer. Die Angaben sind daher Betreiber-Selbstauskunft; Kontaktdaten bleiben bis zu einem belastbaren Identitätsbeleg außerhalb des Frontmatters.
+
+**Preise:** Ankauf — die Seite listet Kupfer, Aluminium, Edelstahl, Messing, Kabel, Blei, Zink sowie mehrere Eisenschrottsorten; Preise seien tagesabhängig, aber es gibt keine numerischen Kurse. Verkauf — keine Verkaufspreise ausgewiesen. Gebühren — kostenlose Abholung wird beworben; Containerpreise oder sonstige Gebühren sind nicht veröffentlicht.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Betreiberseiten erneut direkt gelesen: Impressum und Kontakt nennen Tilsiter Str. 5/1, 70374 Stuttgart-Bad Cannstatt, +49 1523 4575602, info@stuttgart-schrott.de und Mo–Fr 09:00–17:00. Das Impressum identifiziert aber keine juristische Person und enthält keine Registerangabe; daher keine Übernahme dieser Einzelquellen-Kontaktdaten in Frontmatter und keine Änderung am Aktivitätsstatus. Die Leistungs-/Preisseiten versprechen kostenlose Schrottabholung und Ankauf diverser NE- und FE-Sorten zu täglich variierenden, nur auf Anfrage genannten Preisen; kein numerischer Ankaufkurs, kein Verkaufspreisblatt und keine Containergebühr veröffentlicht. Adresse erst nach Identitätsbestätigung geokodieren; Quelle: https://stuttgart-schrott.de/impressum ; https://stuttgart-schrott.de/kontakt ; https://stuttgart-schrott.de/leistungen ; https://stuttgart-schrott.de/schrottpreise]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

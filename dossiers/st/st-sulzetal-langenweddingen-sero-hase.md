@@ -24,7 +24,11 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Existenz eines „Sero Hase“ genannten Schrottplatzes in Langenweddingen ist nicht durch eine Betreiber-, Register- oder kommunale Quelle bestätigt. Bisheriger Portal-Treffer ist nur ein Lead; die Domain sero-hase.de war bei der dokumentierten Prüfung nicht registriert und das SERO-System ist nicht als Verbindung zu „Hase“ belegt. Kein Schließungsurteil aus den negativen Suchtreffern ableiten.
+
+**Preise:** **Ankauf** – keine aktuelle Annahme oder Ankaufskurse belegt. **Verkauf** – keine Produkt-/Preisliste. **Gebühren** – keine Gebührenordnung.
+
+**Geokodierung:** Keine bestätigte Adresse; keine Geokodierung.
 
 ## Timeline
 

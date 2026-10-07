@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten führt „Riehm Schrott“ in Edenkoben, Lerchenweide 8, 67480, Tel. 0170 5016542; der Dossier-Seed lautet dagegen Kirrweiler/Marktstraße 42. Keine Betreiberquelle verbindet die Orte oder bestätigt einen Umzug. Das beschädigte Straßenfeld bleibt unbereinigt, Status `pruefung`.
+
+**Preise:** ANKAUF: keine Preise oder Annahmebedingungen belegt. VERKAUF: keine Preisliste. GEBÜHREN: keine Abhol-/Entsorgungstarife.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gelbe-Seiten-Suche „Riehm Schrotthandel“ in Edenkoben direkt abgerufen; sie zeigt genau einen Lead „Riehm Schrott“, Lerchenweide 8, 67480 Edenkoben, Tel. 0170 5016542. Das bestätigt den in der älteren Recherche festgestellten Ortskonflikt, nicht aber eine Beziehung zu Kirrweiler/Marktstr. 42. Keine Zusammenführung oder Feldänderung. ANKAUF/VERKAUF/GEBÜHREN: keine veröffentlichten Preise oder Tarife auffindbar. Offen: ob eigenständige Kirrweiler-Entität, Umzug oder Seed-Fehlzuordnung; Quelle: https://www.gelbeseiten.de/suche/riehm%20schrotthandel/edenkoben]
 
 ### Recherche 01.10.2026
 

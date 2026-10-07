@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten und Das Örtliche nennen Schrott Michael, Föhrenweg 4, 96120 Bischberg, Tel. 0951 5194113. Die übereinstimmenden Branchenverzeichnisse sind kein Nachweis für den Rechtsträger, Betreiberidentität oder aktuelle Annahme. Generische E-Mail-/Website-Schaltflächen liefern keine konkrete Kontaktadresse oder Domain.
+
+- **Ankauf:** keine bestätigten Annahmebedingungen oder Ankaufspreise.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine Angaben.
+- **Geokodierung:** Föhrenweg 4 bleibt eine Verzeichnisadresse; als Kundenstandort erst nach Betreiber-/Annahmebestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Aktuelle Gelbe-Seiten-Detailseite und Das-Örtliche-Schrotthandelssuche stimmen weiterhin bei Schrott Michael, Föhrenweg 4, 96120 Bischberg, 0951 5194113 überein. Gelbe Seiten zeigt generische E-Mail-/Website-Schaltflächen, aber keine konkrete Mail oder Domain. Es fehlt weiterhin eine Betreiber-, Register- oder Kommunalquelle; keine neuen Frontmatter-Felder und keine Änderung des Prüfstatus. Keine belegten Ankauf-/Verkaufspreise oder Gebühren. Vor Geokodierung klären, wer der Betreiber ist und ob Kundenannahme an der Verzeichnisadresse stattfindet; Quelle: https://www.gelbeseiten.de/gsbiz/c619384c-cb6a-41d0-aa45-61657904e781 ; https://www.dasoertliche.de/Themen/Schrotthandel/Bischberg.html]
 
 ### Recherche 01.10.2026
 

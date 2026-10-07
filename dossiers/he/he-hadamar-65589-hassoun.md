@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Hassoun“ in Hadamar ist bislang nur ein Seed-Lead mit möglicher Autoverwertung (AV); ein ausgeschriebener Firmenname, eine Anschrift und ein Betreiber-/Registerbeleg fehlen. Der AV-Vermerk belegt weder einen zugelassenen Demontagebetrieb noch Ankauf ganzer Fahrzeuge oder loser Metalle. Keine Anlieferung oder Abholung ableiten.
+
+**Preise:** kein Ankauf belegt und keine numerische Ankaufpreisliste gefunden; Verkaufspreise und Gebühren sind in den ausgewerteten Quellen nicht angegeben. Status `pruefung`; Identität, aktuelle Tätigkeit und Fahrzeugverwertungsnachweis offen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: NorthData-Suche nach „Hassoun Hadamar Schrott“ ergab keinen eindeutig zuordenbaren Firmenprofiltreffer. Das ist kein Nichtexistenz- oder Schließungsbeleg, insbesondere bei möglichem Einzelunternehmen. Die Seed-Klassifikation „AV / unklar“ bestätigt weder einen Demontagebetrieb noch Metallankauf; keine Kontakt-/Adressfelder ergänzt. ANKAUF: unbelegt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in den ausgewerteten Quellen. Offen: ausgeschriebener Betreiber, genaue Anschrift, aktuelle Fahrzeugannahme und Verwertungsnachweis; Quelle: https://www.northdata.de/?query=Hassoun%20Hadamar%20Schrott]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

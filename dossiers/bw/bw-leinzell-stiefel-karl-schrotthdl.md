@@ -28,7 +28,9 @@ Karl Stiefel bleibt ein Verzeichniskandidat: Hofwiesenweg **6**, 07175 8706. Hel
 
 Querverweis: `bw-leinzell-stiefel-helmut-sonja-schrott-und-metallh`. Keine automatische Zusammenführung, Übertragung der kommunal genannten E-Mail oder Adresskorrektur von 6 auf 6/1. Namensgleichheit ist kein Nachfolgebeleg. Rechtsform/Registerpflicht Karls bleiben offen; eine erfolglose Northdata-Suche beweist kein „Einzelunternehmen ohne HRB“.
 
-Aktiver Ankauf, Anlieferung/Abholung, Materialien, Zeiten und Preise sind nicht unabhängig verifiziert. `pruefung` statt des früher auf Aggregatoren gestützten `aktiv`.
+Aktiver Ankauf, Anlieferung/Abholung, Materialien und Zeiten sind nicht unabhängig verifiziert. `pruefung` statt des früher auf Aggregatoren gestützten `aktiv`.
+
+**Preise:** Ankauf — keine unabhängigen Kurse; Verkauf — keine Angaben; Gebühren — keine Angaben. Die Karl-Adresse Hofwiesenweg 6 nicht durch den kommunal bestätigten Nachbareintrag Helmut Stiefel, 6/1, ersetzen oder geokodieren.
 
 ## Timeline
 

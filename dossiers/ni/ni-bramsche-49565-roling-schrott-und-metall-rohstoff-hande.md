@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Verzeichniskonsens führt „Roling – Schrott und Metall / Rohstoff Handel Detlef“ an der Venner Str. 10, 49565 Bramsche-Engter, mit Telefon 0173 8459916. Gelbe Seiten und meinestadt.de stimmen bei Name und Adresse überein, sind aber beide Branchenverzeichnisse; eine Betreiberwebsite, ein Registerbeleg oder unabhängige kommunale Bestätigung ist nicht belegt. Deshalb bleibt `status: pruefung` und werden keine weiteren Felder aus den Verzeichnissen ergänzt.
+
+- **Ankauf:** Ankauf/Schrottannahme wird in Verzeichniseinträgen als Tätigkeit geführt; kein verifizierter Kurs oder numerischer Preis.
+- **Verkauf:** keine Händler-Preisliste belegt.
+- **Gebühren:** keine Gebühren-/Abholpreisliste belegt.
+- **Geokodierung:** Venner Str. 10, 49565 Bramsche-Engter erst nach Betreiber-/Adressbestätigung geokodieren; der frühere Recherchevermerk markiert die Adresse ausdrücklich als neuen Geokodierungsbedarf.
 
 ## Timeline
 
@@ -37,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Rohstoff — GS Top-1 + Telefon (NEU)
 - urspr. Website-Angabe: keine
 - Adresse: Bramsche 49565, Venner Str. 10
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die aktuelle Websuche lieferte erneut die bereits dokumentierten Verzeichnis-Leads Gelbe Seiten und meinestadt.de, aber keinen Betreiberauftritt/Register-/Kommunalbeleg. Name, Adresse und Telefonnummer bleiben deshalb unbestätigte Verzeichnisangaben und `status: pruefung` bleibt unverändert. Keine belastbaren Preislisten: Ankauf ohne Zahlen, Verkauf ohne Preise, Gebühren ohne Preise. Geokodierung weiterhin erst nach Identitätsbestätigung; Quelle: https://www.gelbeseiten.de/gsbiz/87bc1178-44b4-42f9-9d65-e4f538993c0d ; https://branchenbuch.meinestadt.de/bramsche/company/14210558]

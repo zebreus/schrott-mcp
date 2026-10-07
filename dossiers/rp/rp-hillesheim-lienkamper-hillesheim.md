@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zwei Branchenportale führen denselben Mobilkontakt 0175 9234327 für Schrotthandel Lienkämper in Hillesheim. 11880 nennt zusätzlich Bahnhofstr. 3, 54576 Hillesheim (Eintragsdaten 02.08.2025), während das Schrottplatzportal keine Straße angibt. Diese Adresse bleibt ein widersprüchlich abgesicherter Lead; kein bestätigter Betreiber-/Registerbeleg. Vorhandene Telefonangabe bleibt als dokumentierte Aggregator-Ausnahme, Status `pruefung`.
+
+**Preise:** ANKAUF: keine Zahlen; das Portal nennt bloß Materialarten und „aktuelle Preise“ auf Anfrage. Die Mindestmenge (100 kg Fe / 1 kg NE) ist nicht vom Betreiber bestätigt. VERKAUF: keine Preisliste. GEBÜHREN: keine verifizierten Tarife.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: 11880-Detailseite direkt geprüft: „Markus.lienkämper“, Bahnhofstr. 3, 54576 Hillesheim, Tel. 0175 9234327; Eintragsdaten vom 02.08.2025, kein Website-/E-Mail-Eintrag. Das ergänzt die schon bekannte Telefonnummer um einen veraltbaren Adress-Lead, ist aber keine unabhängige Primärquelle. Das direkt geprüfte Schrottplatzportal nennt dieselbe Telefonnummer, aber nur „Hillesheim“ als Adresse und behauptet 100 kg Fe / 1 kg NE Mindestgewicht; diese Bedingungen bleiben unbestätigt. Straße/PLZ und Konditionen nicht übernommen. ANKAUF: keine Zahlen; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Offen: aktuelle Betriebsstätte und Annahmebedingungen; Quelle: https://www.11880.com/branchenbuch/hillesheim-eifel/B108524729/markus-lienkaemper.html ; https://lokaleschrottplatz.de/schrotthandel-schaustellerbetrieb-lienkamper/]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

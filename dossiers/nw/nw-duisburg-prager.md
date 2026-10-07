@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse führen den Kandidaten als „Prager Axel Unfallwagenhdl.“ an Am Sportplatz 24, 47239 Duisburg-Rumeln-Kaldenhausen, Telefon 02151 940729. Das ist ein Aggregator-Lead ohne erreichbaren Betreiberauftritt oder Registerbeleg. Die beschriebene Unfallwagen-/Gebrauchtwagenleistung ist kein Nachweis für allgemeinen Metall- oder Schrottankauf; eine ältere Alternativadresse Dahlingstr. 90 ist im Verlauf ausdrücklich als unsicher verworfen.
+
+**Preise:** Ankauf: weder bestätigte Metallankauf- noch Fahrzeugankaufspreise gefunden. Verkauf: keine Preisliste. Gebühren: keine Angaben. **Offen:** aktuelle Betreiberidentität, Erreichbarkeit und ob überhaupt eine Altfahrzeugverwertung angeboten wird. Bestehende Adresse/Telefon nicht als Primärquelle bestätigt; nicht als Schrottannahmestelle geocodieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gezielte Suche zu Prager/Axel, Am Sportplatz 24 und Unfallwagenhandel brachte keine Betreiberwebsite oder belastbare Registerquelle; die auffindbaren Treffer bleiben Branchenverzeichnisse. Die zuletzt im Dossier belegten Adresse und Rufnummer sind damit nicht aufgewertet. Kein Nachweis für allgemeinen Schrott-/Metallankauf oder eine öffentliche Anlieferstelle. Preislisten getrennt: Ankauf/Fahrzeugankauf ohne Zahlenbeleg; Verkauf ohne Liste; Gebühren ohne Angaben. Identität/Tätigkeit offen, Status pruefung bleibt; Quelle: https://www.golocal.de/duisburg/autoverwertung/prager-axel-unfallwagenhdl-4nQv ; https://web2.cylex.de/firma-home/prager-axel-unfallwagenhdl--3148198.html ; https://www.kfz-fragen.de/autohaendler/profil/3420]
 
 ### Recherche 04.10.2026
 

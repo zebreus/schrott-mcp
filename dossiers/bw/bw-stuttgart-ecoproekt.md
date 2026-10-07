@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktive Gruppenseite nennt eine Stuttgarter ECOPROEKT-UG, Curießtraße 2, 70563 Stuttgart und stuttgart@ecoproekt.com. Das bleibt eine Betreiber-Selbstauskunft: ein passender Handelsregistereintrag/HRB und die aktuelle Zuordnung des Zertifikats zur deutschen UG sind nicht verifiziert. Keine Frontmatter-Kontaktfills und keine Geokodierung bis zur Identitäts-/Registerkonkordanz. Öffentliche Ankauf-, Verkaufspreise oder Entsorgungsgebühren wurden nicht gefunden.
+Die aktive Gruppenseite nennt eine Stuttgarter ECOPROEKT-UG, Curießstraße 2, 70563 Stuttgart und stuttgart@ecoproekt.com. Das bleibt eine Betreiber-Selbstauskunft: ein passender Handelsregistereintrag/HRB und die aktuelle Zuordnung des abgebildeten Zertifikats zur deutschen UG sind nicht verifiziert. Keine Frontmatter-Kontaktfills und keine Geokodierung bis zur Identitäts-/Registerkonkordanz.
+
+**Preise:** Ankauf — kein beziffertes Preisblatt gefunden; Verkauf — keine öffentlichen Material- oder Produktpreise verifiziert; Gebühren — keine bezifferten Entsorgungstarife. Konditionen bleiben offen.
 
 ## Timeline
 

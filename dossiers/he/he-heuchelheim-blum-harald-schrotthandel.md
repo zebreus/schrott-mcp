@@ -4,8 +4,8 @@ name: Blum Harald Schrotthandel
 trader_type: schrotthaendler
 state: HE
 city: Heuchelheim
-street: Am Hollerbusch 17
-postcode: 35452
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,11 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnislead **Harald Blum, Am Hollerbusch 17, 35452 Heuchelheim**; Adresse und bisheriger Telefonlead 0641 84898 sind nicht durch Betreiber-/Registerbelege bestätigt. Ein weiterer Eintrag für Marco Blum an derselben Anschrift beweist weder einen gemeinsamen Betrieb noch eine Nachfolge. Die Altadresse ist keine verifizierte Anlieferempfehlung.
+Verzeichnislead **Harald Blum, Heuchelheim**; die Kandidatenadresse Am Hollerbusch 17, 35452 und Telefon 0641 84898 sind nicht durch Betreiber-/Registerbelege bestätigt und bleiben daher aus dem Frontmatter entfernt. Ein weiterer Eintrag für Marco Blum an derselben Anschrift beweist weder einen gemeinsamen Betrieb noch eine Nachfolge. Die Altadresse ist keine verifizierte Anlieferempfehlung.
 
-Die direkt geprüfte schrottplatz-info-Seite enthält keine Betreiberbedingungen oder Zeiten. Ihr Link „zur Homepage“ führt lediglich zur Verzeichniswurzel, **nicht zu einer Händlerwebsite**. Auch unplausible Entfernungsvorschläge sind keine Standortbelege. Offen bleiben der aktive Inhaber, Metallankauf versus Entsorgung, Annahme und Gebühren; keine numerische Preisliste gefunden.
+Die direkt geprüfte schrottplatz-info-Seite enthält keine Betreiberbedingungen oder Zeiten. Ihr Link „zur Homepage“ führt lediglich zur Verzeichniswurzel, **nicht zu einer Händlerwebsite**. Auch unplausible Entfernungsvorschläge sind keine Standortbelege. Offen bleiben der aktive Inhaber, Metallankauf versus Entsorgung, Annahme und Gebühren.
+
+**Preise:** kein unabhängig bestätigter Ankauf und keine numerische Ankaufpreisliste; Verkaufspreise und Gebühren sind in den ausgewerteten Quellen nicht veröffentlicht.
 
 ## Timeline
+
+### Korrektur/Recherche 07.10.2026
+
+- [Korrektur 07.10.2026: Re-Check der Frontmatter-Adresse Am Hollerbusch 17 / 35452: Die bisher dokumentierten Stützen sind Telefonbuch und schrottplatz-info, also Verzeichnis-Leads; eine Betreiber-, Register- oder Kommunalquelle fehlt. Straße und PLZ deshalb aus dem Frontmatter entfernt. Der ähnlich lokalisierte Eintrag „Blum Marco“ belegt keine gemeinsame Firma oder Nachfolge. NorthData-Suche ergab keinen eindeutig passenden Firmenprofileintrag; das schließt ein Einzelunternehmen nicht aus. Keine Anlieferung/Abholung oder Ankauf bestätigt. ANKAUF: kein Betreiberbeleg/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in ausgewerteten Quellen; Quelle: https://www.northdata.de/?query=Blum%20Harald%20Heuchelheim%20Schrotthandel; https://www.dastelefonbuch.de/Heuchelheim%20a.%20d.%20Lahn/2-Recycling-Harald-Blum-Heuchelheim-a-d-Lahn-Am-Hollerbusch.html; https://www.schrottplatz-info.de/schrottplatz/Heuchelheim/Blum-Harald]
 
 ### Recherche 05.10.2026
 

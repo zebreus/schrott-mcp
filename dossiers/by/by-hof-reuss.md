@@ -24,9 +24,18 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für REUSS in Hof ist bisher kein Betreiberauftritt verifiziert; eine Straße fehlt. `reuss-hof.de` und `reuss-metalle.de` ließen sich beim Direktabruf nicht erreichen. `reuss-schrott.de` liefert aktuell Inhalte von BREITZMANN Edelmetalle & Diamanten in Bayreuth und gehört nicht zu diesem Dossier; deren Preisangaben dürfen nicht als REUSS-Preise übernommen werden.
+
+- **Ankauf:** keine REUSS-spezifischen Ankaufspreise.
+- **Verkauf:** keine REUSS-spezifischen Verkaufspreise.
+- **Gebühren:** keine Angaben.
+- **Geokodierung:** nicht möglich, da keine bestätigte Straßenadresse vorliegt; Bayreuther BREITZMANN-Adresse keinesfalls übertragen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: `reuss-hof.de` und `reuss-metalle.de` lieferten beim Direktabruf Transportfehler. `reuss-schrott.de` zeigt derzeit eine Seite „Goldankauf & Goldverkauf in Bayreuth bei BREITZMANN Edelmetalle & Diamanten“ mit Betreiber-/Standortangaben für Bayreuth; das ist eine fremde Firma und kein REUSS-Nachweis. Insbesondere dort sichtbare Edelmetallpreise sind nicht REUSS zuzuordnen. Keine Website-/Kontaktdaten oder Preise übernommen; Betreiber, genaue Hof-Adresse und Tätigkeit offen. Keine eigenen Ankauf-/Verkaufspreise oder Gebühren belegbar, keine Geokodierung; Quelle: https://www.reuss-hof.de/ ; https://www.reuss-metalle.de/ ; https://reuss-schrott.de/]
 
 ### Recherche 01.10.2026
 

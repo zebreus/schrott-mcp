@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Loew Alfred“ ist für Frankfurt 60388 bislang ein unbestätigter Seed-Eintrag; der vermutete Klein-Autoverwerter ist nicht belegt. Die bisherigen Namens-/Orts- und Registerrecherchen ergaben keinen passenden Schrott- oder Autoverwertungsbetrieb. Das ist kein Beweis der Nichtexistenz. Adresse, Kontakt und Leistungen bleiben leer; weder Anlieferung noch Fahrzeugankauf ist bestätigt.
+
+**Preise:** kein Ankauf belegt, keine numerische Ankaufpreisliste gefunden; keine Verkaufspreise oder Gebührenangaben in den ausgewerteten Quellen. Status `pruefung` bleibt.
 
 ## Timeline
 

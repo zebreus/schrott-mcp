@@ -28,9 +28,18 @@ Rechtsträger-Spur: **Helmut Zagler Altmaterialien, Neueisen und Transporte e.K.
 
 Gelbe Seiten/11880 nennen weiterhin Falkenberger Straße18; Telefonvarianten1294/1295 stammen nur aus Verzeichnissen. Geschäftsanschrift und öffentlicher Platz könnten auseinanderfallen; daher keine Auflösung des Standort-/Telefonkonflikts durch Mehrheitsentscheidung. Straße/Telefon bleiben leer, `pruefung` bleibt. Die alte Formulierung „Registeränderung ohne Straße“ ist durch den neuen Registerabruf präzisiert.
 
-Altmaterialien/Neueisen/Transporte sind im Firmennamen greifbar; Containerangebot, Privatkunden-Anlieferung und vergüteter Ankauf sind noch nicht betreiberbestätigt. Keine verifizierte eigene Website oder Preislisten. Kein Schließungsbeleg.
+Altmaterialien/Neueisen/Transporte sind im Firmennamen greifbar; Containerangebot, Privatkunden-Anlieferung und vergüteter Ankauf sind noch nicht betreiberbestätigt. Kein Schließungsbeleg.
+
+- **Ankauf:** keine bestätigten Annahmebedingungen oder numerischen Ankaufspreise.
+- **Verkauf:** keine Verkaufspreise belegt.
+- **Gebühren:** keine Container-/Servicegebühren belegt.
+- **Geokodierung:** erst nach Auflösung von Geschäftsanschrift (Nr. 6–8) versus Verzeichnislead/Annahmeadresse (Nr. 18); beide Kandidaten nicht als Kundenplatz markieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gelbe Seiten und Das Örtliche führen weiterhin Zagler Helmut in der Falkenberger Straße 18, 95643 Tirschenreuth; das Registerprofil HRA 1415 (AG Weiden) nennt dagegen als Geschäftsanschrift Falkenberger Straße 6–8. Telefonvarianten 09631 1294/1295 bleiben Verzeichnisangaben. Keiner der Adresshinweise belegt für sich einen aktuellen Kundenannahmeplatz; Straße und Telefon bleiben leer, Status `pruefung`. Keine belastbaren numerischen Ankauf-/Verkaufspreise oder Gebühren gefunden. Geokodierung erst nach Auflösung Geschäfts-/Annahmeadresse; Quelle: https://www.gelbeseiten.de/suche/schrotthandel/tirschenreuth ; https://www.dasoertliche.de/Themen/Schrotthandel/Tirschenreuth.html ; https://www.northdata.de/Helmut+Zagler+Altmaterialien,+Neueisen+und+Transporte+e.+K.,+Tirschenreuth/Amtsgericht+Weiden+HRA+1415]
 
 ### Recherche 05.10.2026
 

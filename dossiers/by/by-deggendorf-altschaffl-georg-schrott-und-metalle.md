@@ -25,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Die wiederkehrenden Verzeichniseinträge nennen Georg Altschäffl, Untere Himmelreichstr. 13, 94469 Deggendorf und Tel. 0991 25233, sind aber keine unabhängigen Betreiber-/Registerbelege. Die Adresse bleibt Lead und sollte vor einer Geokodierung bestätigt werden; Identität, Aktivität und Annahme offen. Keine öffentliche Ankauf-, Verkaufs- oder Gebührenliste in den geprüften Quellen.
+Die wiederkehrenden Verzeichniseinträge nennen Georg Altschäffl, Untere Himmelreichstr. 13, 94469 Deggendorf und Tel. 0991 25233, sind aber keine unabhängigen Betreiber-/Registerbelege. Eine aktuell geprüfte Gelbe-Seiten-Detailseite zeigt weiterhin diesen Branchenlead; ein Nutzerreview von 2015 ist kein Aktivitätsnachweis. Identität, Aktivität und Kundenannahme bleiben offen.
+
+- **Ankauf:** keine öffentlichen Ankaufspreise oder bestätigten Annahmebedingungen.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine Angaben.
+- **Geokodierung:** Untere Himmelreichstr. 13 nur nach unabhängiger Bestätigung von Betreiber und Standort geokodieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gelbe-Seiten-Detailseite live erneut geprüft: „Georg Altschäffl Schrott und Metalle“, Untere Himmelreichstr. 13, 94469 Deggendorf, Tel. 0991 25233, Kategorie Schrott. Die Seite liefert keinen Betreiber-/Registerbeleg; ein einzelnes sichtbares Nutzerreview von 13.05.2015 bestätigt keine aktuelle Aktivität. Kontakt- und Adressfelder bleiben deshalb leer; keine Preise, Öffnungszeiten oder Annahmebedingungen belegt. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren gefunden. Vor Geokodierung Identität und tatsächlichen Kundenstandort bestätigen; Quelle: https://www.gelbeseiten.de/gsbiz/71a95ad9-c068-4f05-bfda-688b14d81930]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

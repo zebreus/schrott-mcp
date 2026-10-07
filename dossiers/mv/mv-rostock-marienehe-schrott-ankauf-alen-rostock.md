@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zeile beruht auf einem Eintrag bei lokaleschrottplatz.de, der Handwerkstr. 5, die Telefonnummer und Rostock 18069 nennt. Betreiberidentität und unabhängige Bestätigung fehlen; Anschrift/PLZ und Öffnungszeiten wurden nicht in die Frontmatter übernommen. Das Portal ist ein Lead, keine Betreiberwebsite; `status: pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Das Portal beschreibt Schrottankauf, veröffentlicht im dokumentierten Eintrag aber keinen belastbaren, materialbezogenen Zahlenpreis; Betreiberbestätigung fehlt.; VERKAUF: Keine Teile-/Materialverkaufspreise im geprüften Portal-Eintrag.; GEBÜHREN: Keine verifizierte Anliefer-, Abhol- oder Servicegebühr.; GEOKODIERUNG: Handwerkstr. 5 ist nur ein Portal-Lead und der dort genannte Orts-/PLZ-Bezug (18069 Rostock) ist noch nicht geklärt; weder als Händleradresse bestätigen noch geokodieren.; Quelle: https://lokaleschrottplatz.de/schrott-ankauf-alen-rostock/ (Aggregator, Abruf 03.10.2026; nicht unabhängig bestätigt).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

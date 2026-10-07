@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse führen den Kandidaten teils als „Jaquemot Bastian Schrott & Reycling“, Buschhofer Weg 2, 52477 Alsdorf-Busch, 0176 30329435, teils als „Schrott Jaquemot Bastian“ am Grenzweg 25 mit derselben Mobilnummer. Gelbe Seiten nennt Containerdienst, Entrümpelungen und Recycling sowie täglich 08:00-18:00; Schrottplatz-Info hat keine Leistungs-/Öffnungszeiten erfasst. Das sind widersprüchliche Aggregatorangaben, kein Betreiber- oder Registerbeleg; das Frontmatter bleibt deshalb ungefüllt und der importierte Namens-/Adresslead nicht als gesicherter Hof behandelt.
+
+**Preise:** Ankauf: keine konkrete Kaufzusage oder Zahlenpreise, nur Schrott-/Recyclingkategorie im Branchenverzeichnis. Verkauf: keine Preisliste. Gebühren: keine Gebühren- oder Abholtarife. **Offen:** korrekter Firmenname, aktuelle Adresse (Buschhofer Weg 2 vs. Grenzweg 25), Betreiberauftritt und Betriebsaktivität. Keine der widersprüchlichen Adressen geocodieren, bis eine Primärquelle vorliegt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gelbe-Seiten-Detailseite direkt abgerufen: „Jaquemot Bastian Schrott & Reycling“, Buschhofer Weg 2, 52477 Alsdorf-Busch, 0176 30 32 94 35, Eintrag nennt Containerdienst/Entrümpelungen/Recycling und taeglich 08:00-18:00; verlinkte Domain bastianjaquemot.de.to liefert beim Direktabruf 404. Schrottplatz-Info nennt dieselbe Telefonnummer, aber Grenzweg 25, und hat keine Leistungsbeschreibung/Öffnungszeiten. Beide sind Verzeichnisse; keine Betreiberwebsite oder Registerquelle bestaetigt Namen/Adresse/Preise. Frontmatter unveraendert, Status pruefung. Ankauf: keine Zahlenpreisliste oder klare Verguetung; Verkauf: keine Preisliste; Gebuehren: keine Konditionen. Buschhofer Weg 2 und Grenzweg 25 bleiben ungepruefte und widerspruechliche Geocoding-Leads; Quelle: https://www.gelbeseiten.de/gsbiz/8b0f0318-2737-491b-92ee-08494dcdae5b ; https://www.schrottplatz-info.de/schrottplatz/Alsdorf/Jaquemot-Bastian-Schrott-und-Reycling ; http://bastianjaquemot.de.to/ (404)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

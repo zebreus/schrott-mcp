@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt Hauptstr. 7 in Wölschendorf; die Adresse und PLZ 23936 stammen bisher nur aus Verzeichnissen. Die Telefonnummern widersprechen sich (0171 9414788 vs. 01520 7124594), und ein Betreiberauftritt oder passender Registerbeleg fehlt. Daher kein bestätigter aktueller Ankauf, `status: pruefung` bleibt; beide Nummern sind nur Leads.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Schrotthandel wird in Verzeichnissen behauptet, aber kein konkreter oder numerischer Ankaufspreis ist belegt.; VERKAUF: Keine Teile-/Materialpreisliste in den dokumentierten Verzeichniseinträgen.; GEBÜHREN: Keine Anliefer-, Abhol- oder Containergebühr belegt.; GEOKODIERUNG: Hauptstr. 7 / 23936 bleibt aggregatorbasiert; wegen ungeklärter Betreiberidentität zunächst nicht geokodieren. Telefonkonflikt separat klären.; Quelle: https://www.schrottplatz-info.de/schrottplatz/Grevesmuehlen ; https://www.schrottplatz.org/bernstorf ; 11880-Eintrag laut Recherche 02.10.2026 (Portal, abweichende Telefonnummer).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

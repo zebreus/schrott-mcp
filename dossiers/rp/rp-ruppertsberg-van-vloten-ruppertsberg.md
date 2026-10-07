@@ -28,7 +28,13 @@ Neue namensbezogene Spur **Silke van Vloten VSI**, Obergasse 8D, 67152 Ruppertsb
 
 Das beschädigte importierte Straßenfeld ist weiterhin kein verifizierter Adresswert; keine stille Bereinigung oder Umbenennung ohne Primärbeleg. Umfangreiche Material-/Mindestmengenangaben des Schrottportals werden nicht übernommen, ebenso wenig dessen nicht erläuterte Anzeige „Geschlossen“.
 
+**Preise:** ANKAUF: keine Zahlen; die verzeichneten Materialarten und Mindestmengen (100 kg Fe / 1 kg NE) sind keine verifizierten Betreiberbedingungen. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
+
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Detailprofil direkt erneut geprüft: Verzeichnisname „Silke van Vloten VSI“, Obergasse 8D, 67152 Ruppertsberg, Tel. 06326 7673; Portalstatus „Geschlossen“ und Annahmekatalog einschließlich 100-kg-Fe/1-kg-NE-Mindestmengen. Kein Betreiberkontakt, Impressum, Registerbeleg oder Preisbetrag auf der Seite; die Statusanzeige und Konditionen bleiben daher unbestätigte Aggregator-Angaben. Keine Felder geändert. ANKAUF: keine Preisliste; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Offen bleiben Betreiber/Rechtsträger, tatsächlicher Betrieb und präzise Schreibweise des Seed-Straßenfelds; Quelle: https://lokaleschrottplatz.de/silke-van-vloten-vsi/]
 
 ### Recherche 05.10.2026
 

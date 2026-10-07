@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Registerprofile führen eine historische Hanse - Recycling GmbH (Amtsgericht Rostock, HRB 5006) inzwischen als gelöscht. Das belegt nicht, dass am Seed-Ort Am Seehafen 7 heute ein Recyclingbetrieb oder Nachfolger sitzt. Zusätzlich widersprechen sich ältere Adress-Leads (u.a. Am Skandinavienkai 8 und Ost-West-Straße 12); keine davon wird als aktuelle Betriebsstätte übernommen.
+Die historische Hanse - Recycling GmbH (AG Rostock HRB 5006) ging laut NorthData mit Wirkung vom 14.04.2011 durch Verschmelzung auf Schiffsmaklerei Baltic Shipping Agency GmbH (HRB 9753) über. NorthData führt auch diese Nachfolgegesellschaft inzwischen als gelöscht (08.06.2026). Das ist eine rechtshistorische Kette aus einer Register-Sekundärquelle, kein Beleg für die Nutzung des Seed-Ortes Am Seehafen 7 als Schrottplatz oder für eine physische Standortkontinuität. Ältere Adress-Leads widersprechen sich (u.a. Am Skandinavienkai 8 und Ost-West-Straße 12); keine davon wird als aktuelle Betriebsstätte übernommen.
 
 `status: pruefung` bleibt bestehen. Für einen heutigen Betreiber, eine aktuelle Annahmestelle und Ankaufbedingungen fehlt ein Betreiberbeleg.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Kein aktuell tätiger Schrottankäufer und kein numerischer Ankaufspreis belegt.; VERKAUF: Keine aktuelle Produkt-/Materialpreisliste belegt.; GEBÜHREN: Keine aktuelle Annahme- oder Abholgebühr belegt.; GEOKODIERUNG: Seed-Adresse Am Seehafen 7 und abweichende historische Leads keinem heutigen Händler zugeordnet; bis zur Betreiberklärung nicht geokodieren.; Quelle: https://www.northdata.de/?id=7430723 (Verschmelzungsereignis, berichtet 27.04.2011); https://www.northdata.de/Hanse+-%2D+Recycling+GmbH,+Rostock/Amtsgericht+Rostock+HRB+5006 ; https://www.northdata.de/Schiffsmaklerei+Baltic+Shipping+Agency+GmbH,+Rostock/Amtsgericht+Rostock+HRB+9753 (Registerdaten derselben Sekundärquelle; Abruf 07.10.2026).]
 
 ### Recherche 07.10.2026
 

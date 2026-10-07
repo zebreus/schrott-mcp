@@ -25,7 +25,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten und Das Telefonbuch führen einen ähnlich benannten „Sami Schrott und Altmetall Abholung“-Eintrag am Alter Markt 4, 31134 Hildesheim, Telefon 0176 68 28 96 10. Das sind Verzeichnis-Leads; die abweichende Namensform und fehlende Betreiber-/Registerquelle lassen die Identität mit dem Seed „Sami Schrott und Altmetall Entsorgung“ offen. Keine Kontaktfelder übernommen; `status: pruefung` bleibt.
+
+- **Ankauf:** weder Ankauftätigkeit noch Ankaufspreise für genau diesen Seed verifiziert.
+- **Verkauf:** keine Preisliste.
+- **Gebühren:** keine Gebühren-/Abholpreise.
+- **Geokodierung:** Alter Markt 4 nur als Lead; erst nach Bestätigung, dass dieser Eintrag derselbe Betrieb ist, geokodieren.
 
 ## Timeline
 

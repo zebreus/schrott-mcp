@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Bechtolsheimer Seed-Spur „Ayan“/Gau-Odernheimer Straße 1 bleibt von der Betreiberwebsite des Resul Ayan in Börrstadt getrennt: deren Impressum und Kontakt nennen ausschließlich Kaiserstraße 5, 67725 Börrstadt; keine Filiale oder Identitätsbrücke nach Bechtolsheim. Der örtliche Ayan-Lead bleibt ungeklärt, Status `pruefung`.
+
+**Preise:** ANKAUF: Die Börrstadter Betreiberseite nennt Materialankauf zu variablen Tagespreisen, aber keine Zahlen; diese Aussage ist nicht dem Bechtolsheim-Dossier zurechenbar. VERKAUF: auf der geprüften Materialankaufseite keine Preisliste. GEBÜHREN: keine konkreten Container-/Entsorgungstarife; kein Preisbeleg für Bechtolsheim.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Materialankauf-Seite der Betreiberwebsite von Resul Ayan erneut direkt geprüft: Sie nennt Kupfer, Kupferkabel, Messing, Zink, Aluminium, Mischschrott, Moniereisen, Bremsscheiben, Elektromotoren, V2A und Batterien; Vergütung „faire Tagespreise“ ohne Zahlen. Die Seite nennt als Betreiber/Kontakt R. Ayan, Kaiserstraße 5, 67725 Börrstadt. Das ist keine Quelle für den abweichenden Seed-Ort Bechtolsheim und wird nicht übertragen; sie schärft nur die Abgrenzung vom gleichnamigen Lead. ANKAUF: Tagespreis-Ankündigung ohne Preisstaffel, nur Börrstadt; VERKAUF: keine Preislistenangabe auf der geprüften Seite; GEBÜHREN: keine bezifferten Gebühren. Offen bleibt der lokale Rechtsträger „Ayan/Abdil Ayan“ und die Seed-Adresse; Quelle: https://www.schrotthandel-ayan.de/materialankauf ; https://www.schrotthandel-ayan.de/impressum ; https://www.schrotthandel-ayan.de/kontakt]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

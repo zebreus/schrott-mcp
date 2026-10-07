@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die vorhandenen Namens-/Regionstreffer belegen keinen Schrotthändler in Wertheim: Die auffindbare Lang-Schrotthandel-Seite gehört Thomas Lang in Würzburg; der separat für Wertheim werbende Mr.-Schrott-Auftritt nennt Robert Cam und Eppingen. Keine belastbare Betreiberquelle oder Verbindung zum Wertheimer Seed gefunden. `status: pruefung` ist keine Schließungsbehauptung.
+
+**Preise:** Ankauf — keine dem Wertheimer Datensatz zuordenbaren Kurse; Verkauf — keine Angaben; Gebühren — keine Angaben. Ohne bestätigte Betriebsadresse keine Geokodierung.
 
 ## Timeline
 

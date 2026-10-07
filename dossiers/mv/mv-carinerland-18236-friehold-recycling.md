@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Friehold Recycling GmbH sowie Kastanienallee 12 sind bisher Seed-Angaben ohne bestätigten Betreiberauftritt oder eindeutig zuordenbaren Registerbeleg. Die genaue NorthData-Abfrage lieferte keinen Treffer; dieser negative Sekundärquellenbefund beweist keine Nichtexistenz. Ein ähnlich erscheinender Schweriner HRB-Treffer wurde als branchenfremd ausgeschlossen. Status `pruefung`; Ort, Betrieb und Annahme bleiben offen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Kein zuordenbarer Beleg für Ankaufstätigkeit oder Ankaufspreise.; VERKAUF: Keine zuordenbare Produkt-/Materialpreisliste.; GEBÜHREN: Keine zuordenbare Annahme-, Abhol- oder Entsorgungsgebühr.; GEOKODIERUNG: Kastanienallee 12 ist eine ungeprüfte Seed-Adresse; bis zur Bestätigung des Betriebs und der Hausnummer nicht geokodieren.; Quelle: https://www.northdata.de/Friehold+Recycling+GmbH,+Carinerland (negative exakte Namenssuche, Sekundärquelle; kein Nichtexistenzbeweis); Verweis auf den ausgeschlossenen Fehlgriff siehe Recherche 02.10.2026.]
 
 ### Recherche 02.10.2026
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse beschreiben „PC-Schrott 24“ als Computer-/E-Schrottbetrieb und listen Am Senkelsgraben 26, 53842 Troisdorf-Spich sowie 01577 5305555. Diese Angaben stammen nur aus Aggregatoren; eine Betreiberwebsite, ein Impressum oder ein dazu passender Registerbeleg wurde weiterhin nicht gefunden. Die ältere abweichende Vorlagenadresse Adam-Riese-Str. 13a ist im Dossier dokumentiert, aber nicht als aktuelle Betriebsadresse bestätigt. Annahme von E-Schrott wird in den Seed-/Verzeichnisangaben nahegelegt; ein Ankauf ist nicht belegt.
+
+**Preise:** Ankauf: keine Ankaufspreise oder Kaufzusage. Verkauf: keine Preisliste. Gebühren: keine Annahme-/Entsorgungsgebühren publiziert. **Offen:** tatsächlicher Betreiber, aktuelle Adresse/Telefon und ob E-Schrott kostenlos angenommen, bezahlt oder nur gewerblich entsorgt wird. Bestehende Adresse nur als Lead behandeln; Geocoding vor Nutzung verifizieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute Suche nach PC-Schrott 24/Troisdorf und Am Senkelsgraben lieferte weiterhin keinen direkt erreichbaren Betreiberauftritt, Impressum oder Registerbeleg. Die gefundenen Verzeichnisse bestätigen teils die Adresse und Telefonnummer; abweichende Adress-/Telefonangaben sowie E-Mail und Öffnungszeiten einzelner Einträge bleiben unbestätigt. Kein Ankaufpreis, keine Verkaufspreisliste und keine Gebührenordnung gefunden. Frontmatter und Status unverändert; Quelle: https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Troisdorf.html ; https://www.yellowmap.de/Details/2SfWeEH34ic9qbBMp_IKYg==.aspx ; https://www.yellowmap.de/Details/PY10FxI1Lpq3K0WJgPkqkg==.aspx ; https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ITA Metal Company (T. Isajew) ist bislang nur über einen einzelnen Verzeichniseintrag für Neustrelitz belegt; dort stehen die Telefonnummer und eine Branchenzuordnung zu Containern. Ein Betreiberauftritt, eine ladungsfähige Anschrift oder ein unabhängiger Beleg für aktuellen Metallankauf liegen nicht vor. `status: pruefung` bleibt; die Seed-Telefonnummer ist nicht als aktueller Betreiberkontakt bestätigt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Der Import führt „ja lt. Portal“; das geprüfte Verzeichnis nennt keinen konkreten Materialankaufstarif und bestätigt keinen aktuellen Betrieb.; VERKAUF: Keine Verkaufspreise oder Teile-/Materialliste im geprüften Eintrag.; GEBÜHREN: Keine Preis- oder Gebührenangaben im geprüften Eintrag.; GEOKODIERUNG: Keine belastbare Straßenadresse vorhanden; bis zur Betreiber-/Standortbestätigung nicht geokodieren.; Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=ITA&ci=Neustrelitz (Einzelner Verzeichnishinweis, Abruf/Prüfung laut Eintrag 30.09.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

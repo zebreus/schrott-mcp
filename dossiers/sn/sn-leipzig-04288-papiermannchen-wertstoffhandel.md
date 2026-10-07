@@ -28,6 +28,8 @@ Registeridentität erstmals konkret belegt: **Papiermännchen-Wertstoffhandel Gm
 
 Verzeichnisse nennen zusätzlich Wurzner Straße 46 und Plaußiger Straße 25. Filialen, frühere Plätze oder Fehlzuordnungen sind noch nicht auseinandergehalten; keine Verlegung behauptet. Aktuelle Sorten, Privatkundenannahme, Kontakte und Preise offen.
 
+**Preise:** **Ankauf** — Unternehmensgegenstand „An- und Verkauf von Wertstoffen“ im Registerprofil, aber keine aktuellen Sorten oder Ankaufspreise belegt. **Verkauf** — keine aktuelle Preisliste. **Gebühren** — keine belastbare Gebühren-/Annahmetarife. **Geokodierung:** Hauptstraße 22 ist Registeranschrift, nicht bestätigter Annahmepunkt; Wurzner Str. 46 und Plaußiger Str. 25 sind reine Verzeichnis-Leads. Keinen Platz pinnen, bis Filiale/Betriebsstandort geklärt ist.
+
 ## Timeline
 
 ### Recherche 05.10.2026

@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://containerdienst-kaminski.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite nennt Containerdienst Kaminski & Sohn, Auerbacher Str. 70 A, 08107 Kirchberg, Telefon 0172-9998302 und Lagerannahme dienstags/donnerstags 15:00–17:30 Uhr sowie nach Vereinbarung. Sie bewirbt Metall- und Elektroschrottannahme von privaten und gewerblichen Kunden zu „fairen Preisen“. Website und Betriebsangebot sind direkt belegt; Rechts-/Betreiberidentität und aktuelle Öffnung bitte vor Anfahrt noch klären.
+
+**Preise:** **Ankauf** — „faire Preise“ laut Betreiber, keine numerischen Raten/Sortenpreise. **Verkauf** — keine Preisliste. **Gebühren** — Containerdienst vorhanden, aber keine Miet-, Transport- oder Entsorgungstarife veröffentlicht. **Geokodierung:** Auerbacher Str. 70 A, 08107 Kirchberg als Betreiber-Adresskandidat für Abgleich vormerken; noch keine Produktionskoordinate.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Betreiberwebsite und Kontaktseite direkt geprüft. Genannt werden Containerdienst Kaminski & Sohn, Auerbacher Str. 70 A, 08107 Kirchberg, Tel. 0172-9998302, E-Mail andre.kaminski@online-home.de; Lagerannahme dienstags und donnerstags 15:00–17:30 Uhr sowie nach Vereinbarung; Metall- und Elektroschrottannahme für private/gewerbliche Kunden zu „fairen Preisen“. Website-Zustand aktiv; wegen fehlender zweiter unabhängiger Identitätsquelle bleiben sonstige Frontmatterfelder unverändert. ANKAUF: keine numerischen Preise. VERKAUF: keine Preisliste. GEBÜHREN: Containerdiensttarife nicht veröffentlicht. Geokodierung: Adresse Kandidat, kein Produktionspunkt gesetzt; Quelle: https://containerdienst-kaminski.de/ ; https://containerdienst-kaminski.de/contact.html.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

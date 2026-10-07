@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten und Das Örtliche nennen übereinstimmend „Schrott Anita“, Untere Ringstr. 45, 92521 Schwarzenfeld, Tel. 09435 1475. Das sind weiterhin Verzeichnisbelege ohne Betreiber-, Register- oder Kommunalbestätigung; Status bleibt daher `pruefung`. Der separate Eintrag „Schrott Anton“ in Schwarzenfeld (Buchtalweg 15) ist nicht mit Anita zusammenzuführen.
+
+- **Ankauf:** keine belegten Ankaufspreise oder Annahmebedingungen.
+- **Verkauf:** keine Verkaufspreise veröffentlicht.
+- **Gebühren:** keine Angaben.
+- **Geokodierung:** vorhandene Verzeichnisadresse nur als Kandidat geokodieren; nicht als bestätigte Kundenannahme markieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gelbe-Seiten- und Das-Örtliche-Angaben weiterhin als übereinstimmende, aber nicht primäre Quellen zu werten: Untere Ringstr. 45, 92521 Schwarzenfeld, 09435 1475. Keine Betreiber-Website, Register- oder kommunale Bestätigung ergänzt; Frontmatter und Prüfstatus unverändert. Gegenüber dem getrennten Dossier by-schwarzenfeld-schrott-anton bleibt die Abgrenzung wichtig: dessen Anschrift Buchtalweg 15 ist kein Beleg für Anita. Keine Ankauf-/Verkaufspreise oder Gebühren gefunden. Die Telefonnummer und Adresse belegen weder aktuellen Betrieb noch Anlieferung; Quelle: https://www.dasoertliche.de/Themen/Schrott/Schwarzenfeld.html ; https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/schwarzenfeld]
 
 ### Recherche 02.10.2026
 

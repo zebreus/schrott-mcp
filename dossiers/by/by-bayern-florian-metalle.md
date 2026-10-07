@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite beschreibt Florian-Metalle als mobilen Schrott- und Buntmetallankauf im Raum Fürth/Nürnberg/Erlangen mit Abholung; eine stationäre Annahmestelle ist nicht ausgewiesen. Geschäftsanschrift, Telefon und E-Mail aus dem Impressum bleiben dokumentiert in der älteren Timeline, aber getrennt von der mobilen Einsatzregion im Seed. Auf der geprüften Website keine numerische Ankaufspreisliste gefunden: nur allgemeine Ankaufsaussagen; Verkaufspreise und Abhol-/sonstige Gebühren nicht ausgewiesen. Status `pruefung` bleibt wegen fehlendem unabhängigen Register-/Gewerbenachweis.
+Die Betreiberwebsite beschreibt Florian-Metalle als mobilen Schrott- und Buntmetallankauf im Raum Fürth/Nürnberg/Erlangen mit Abholung; eine stationäre Annahmestelle ist nicht ausgewiesen. Geschäftsanschrift, Telefon und E-Mail aus dem Impressum bleiben dokumentiert in der älteren Timeline, aber getrennt von der mobilen Einsatzregion im Seed.
+
+- **Ankauf:** allgemeines Ankaufangebot, aber keine numerischen Ankaufspreise.
+- **Verkauf:** keine Materialverkaufspreise ausgewiesen.
+- **Gebühren:** keine Abhol-/sonstigen Gebühren ausgewiesen.
+- **Geokodierung:** Geschäftsanschrift Albrecht-Dürer-Straße 15, 90766 Fürth nicht als Kundenannahme geokodieren; mobile Einsatzregion ist keine einzelne Adresse.
+
+Status `pruefung` bleibt wegen fehlendem unabhängigen Register-/Gewerbenachweis.
 
 ## Timeline
 

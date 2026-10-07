@@ -25,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Domain horst-habermann.de erscheint als möglicher Betreiberauftritt, war bei den direkten Abrufen von Startseite, Impressum, Kontakt und Leistungen jedoch nicht auslesbar. Die Seed-Angabe „Preisliste publiziert“ ist deshalb nicht anhand einer aktuellen Preisliste verifiziert. Name, Adresse und Händlerbezug bleiben Prüfungsdaten; keine Frontmatter-Ergänzung aus Suchtreffern.
+
+**Preise:** **Ankauf** – Altmetall-/NE-Ankauf und veröffentlichte Preisliste sind im Seed behauptet, aber keine aktuellen konkreten Kurse direkt verifiziert. **Verkauf** – kein bestätigtes Verkaufsangebot oder Preisblatt. **Gebühren** – keine aktuelle Gebühren-/Transporttarife belegt.
+
+**Geokodierung:** Seed-Adresse Taubenstraße 37 ist nicht primär bestätigt; keine neue Geokodierung.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: erneute direkte Abrufversuche der Domain horst-habermann.de (Startseite, Impressum, Kontakt, Leistungen sowie vermutete Preis-Unterseite) scheiterten weiterhin mit Transportfehlern. Der Seed-Hinweis auf veröffentlichte Altmetallpreise bleibt daher unbestätigt; keine Zahlen rekonstruierbar. **Ankauf:** Tätigkeit/Preis nur Seed-Behauptung, keine aktuellen Kurse geprüft; **Verkauf:** kein bestätigter Preis; **Gebühren:** keine Tarife. Keine Frontmatter-Felder ergänzt und Taubenstraße 37 nicht geokodiert, bis Standort/Betreiber primär bestätigt sind; Quelle: https://www.horst-habermann.de/ ; https://www.horst-habermann.de/impressum/ ; https://www.horst-habermann.de/kontakt/ ; https://www.horst-habermann.de/leistungen/ ; https://www.horst-habermann.de/preise/ (Direktabrufe ohne auslesbare Seite)]
 
 ### Recherche 04.10.2026
 

@@ -24,9 +24,18 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere plausible Steindl-Betriebe lassen sich dem Seednamen „Steindl“ nicht sicher zuordnen. Betreiberauftritt der Steindl GmbH in Peißenberg (Rudolf-Diesel-Str. 3) nennt Schrott-/Metallannahme, An- und Verkauf, Container und Kranabholung; eine andere Betreiberwebsite gehört zur Steindl Rohstoffe UG & Co. KG in Hohenpeißenberg. Keine der beiden Identitäten ist für diesen Datensatz gesichert.
+
+- **Ankauf:** Peißenberger Kandidat wirbt mit An-/Verkauf zu „fairen Preisen“, ohne Zahlen; Hohenpeißenberger Kandidat nennt aktuelle Ankaufspreise auf Anfrage. Beides nicht dem Seedbetrieb zurechenbar.
+- **Verkauf:** Kandidatenseiten beschreiben Materialverkauf, jedoch ohne numerische Verkaufspreise; nicht als Zielbetriebsangebot bestätigt.
+- **Gebühren:** beim Hohenpeißenberger Kandidaten wird Containerbereitstellung ohne Miete, aber kostenpflichtige Entsorgung der Abfallmenge genannt; keine konkreten Tarife. Nicht zurechenbar.
+- **Geokodierung:** keine für das Dossier. Rudolf-Diesel-Str. 3, 82380 nur dann geokodieren, wenn die Peißenberger GmbH als Ziel bestätigt wird.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Betreiberseiten der zwei plausiblen, aber nicht dem Seed sicher zuordenbaren Firmen erneut verglichen. Steindl GmbH in Peißenberg nennt Rudolf-Diesel-Straße 3, Schrott-/Metallannahme, An- und Verkauf, Container 3–36 m³ sowie Kranabholung ab bestimmten Mengen/Entfernungen; bewirbt „faire Preise“ ohne Zahlen. Steindl Rohstoffe UG & Co. KG in Hohenpeißenberg nennt Altmetallannahme und tagesaktuelle Ankaufspreise auf Anfrage; Container ohne Miete, Entsorgungskosten abhängig von der Abfallmenge. Für beide Kandidaten keine numerischen Ankaufskurse/Verkaufspreise oder vollständigen Gebührenlisten; diese Leistungen und Preise sind nicht auf den Dossierbetrieb übertragbar. Frontmatter unverändert, offene Frage: welcher Rechtsträger/Standort gehört zum Seed. Bis zur Identitätsklärung keine Geokodierung; bei Bestätigung der GmbH wäre Rudolf-Diesel-Str. 3 der Kandidat; Quelle: https://www.steindl-schrott-container.de/unternehmen ; https://www.steindl-schrott-container.de/leistungen ; https://www.steindl-schrott-container.de/impressum ; https://steindl-rohstoffrecycling.de/ ; https://steindl-rohstoffrecycling.de/kontakt.php]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

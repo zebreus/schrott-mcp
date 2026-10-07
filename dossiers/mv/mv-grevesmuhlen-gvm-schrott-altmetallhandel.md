@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt beschreibt Schrott-/Altmetallannahme für private Kleinlieferanten und Gewerbe, zwei geeichte Waagen sowie Container in 4,3, 6,5 und 8,6 m³, deren Austausch/Abholung nach Vereinbarung erfolgt. Das Impressum nennt Einzelinhaber Björn Makarewicz und Grüner Weg 11, 23936 Grevesmühlen; wegen des dokumentierten Einzelunternehmer-Beleg-Gates bleiben Adresse/Kontakt in der Timeline statt Frontmatter. Es gibt keine veröffentlichte Materialpreisliste; Containerangebot auf Anfrage.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Betreiberseite bestätigt Annahme von Buntmetallen, Misch- und schwerem Schrott; kein numerischer Ankaufspreis/Preisschema veröffentlicht.; VERKAUF: Keine Verkaufs-/Abgabepreisliste für Metalle, Schrott oder sonstige Ware veröffentlicht.; GEBÜHREN: Containergrößen 4,3/6,5/8,6 m³; Bereitstellung, Austausch und Abholung nach Vereinbarung, Langzeitcontainerangebot auf Anfrage, aber kein Tarif. Etwaige kommunale Sondernutzungsgebühren bei Aufstellung im öffentlichen Raum sind keine von GVM ausgewiesenen Händlergebühren.; GEOKODIERUNG: Betreiberkontaktseite nennt Grüner Weg 11, 23936 Grevesmühlen. Wenn Inhaberadresse nach Owner-Gate in Frontmatter übernommen wird, dafür geokodieren; kein Geocodinglauf und kein Datenbankzugriff in dieser Bearbeitung.; Quelle: https://www.gvm-schrott.de/ ; https://www.gvm-schrott.de/umwelt/ ; https://www.gvm-schrott.de/container/ ; https://www.gvm-schrott.de/kontakt-impressum/ (Abruf 07.10.2026; Website-Fußzeile trägt ©2023).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

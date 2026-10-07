@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Wagner Michael“ in Karlsruhe-Oberreut bleibt als konkrete Spur nur ein Branchenverzeichnis: Albert-Braun-Straße 11A, 76189 Karlsruhe, 0721 867737. Der gleichnamige Creditreform-Treffer hat eine andere PLZ; die Domain schrott-wagner.de gehört einem Betrieb in Billigheim/Mosbach und ist nicht mit diesem Datensatz verbunden. Betreiberidentität, tatsächlicher Standort und heutiger Schrottankauf sind nicht belegt; Status daher `pruefung`, nicht geschlossen.
+
+**Preise:** Ankauf — keine zuordenbare Preisliste; Verkauf — keine Angaben; Gebühren/Abholung — keine Angaben. Anschrift und Betrieb erst nach Betreiber- oder Registerbestätigung geokodieren.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: Der bisher bewahrte Seed-Status `aktiv` war nach dem dokumentierten Belegstand nicht belastbar: Gelbe-Seiten-/wemgehoert-Einträge sind Verzeichnis-Leads; der Creditreform-Namensfund betrifft PLZ 76133, die geprüfte schrott-wagner.de den anderen Betrieb in Billigheim/Mosbach. Keine Quelle bestätigt den Schrotthandel in Karlsruhe-Oberreut oder aktuellen Ankauf. Status `aktiv`→`pruefung`, keine Schließung behauptet; Adress- und Telefonnummern-Leads bleiben außerhalb des Frontmatters; Quelle: https://www.gelbeseiten.de/gsbiz/504446bb-1ac2-4373-9369-86c93719acf0 ; https://firmeneintrag.creditreform.de/76133/7110498542/MICHAEL_WAGNER ; https://schrott-wagner.de/impressum.html ; https://schrott-wagner.de/kontakt.html]
 
 ### Recherche 01.10.2026
 

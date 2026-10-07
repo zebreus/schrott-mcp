@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„ALLDEMONT“ und „In d. Mark 2“ stammen bislang nur aus dem Seed-Fragment; eine verifizierbare Betreiber-/Registerzuordnung in Weroth ließ sich nicht herstellen. Der Zusatz „Asbest+Schrott“ ist keine bestätigte Leistungs- oder Annahmeangabe. Keine Frontmatter-Felder ergänzt, Status `pruefung`.
+
+**Preise:** ANKAUF: keine Preis- oder Annahmebedingungen belegt. VERKAUF: keine Preisliste. GEBÜHREN: keine belastbaren Asbest-, Container- oder Entsorgungstarife.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute Suche nach der exakten Bezeichnung „ALLDEMONT“ in Verbindung mit Weroth, In der Mark 2, Schrott und Asbest ergab keinen zurechenbaren Betreiberauftritt oder Register-/Behördenbeleg. Die Seed-Notiz bleibt der einzige Beleg; insbesondere erlaubt „Asbest+Schrott“ keine Aussage zu Zertifizierung, Annahme oder Entsorgungszulassung. Keine Felder geändert. ANKAUF/VERKAUF/GEBÜHREN: keine belegten Preislisten oder Tarife. Offen: exakter Firmenname, Tätigkeit, Betriebsstandort und etwaige getrennte Asbest-/Schrottbetriebe; Quelle: keine belastbare Fundstelle.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
