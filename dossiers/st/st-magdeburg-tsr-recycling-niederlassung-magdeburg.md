@@ -33,6 +33,7 @@ Es wurde keine numerische Ankaufspreisliste gefunden. Markt-/Tagespreise bzw. ei
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Offizielle TSR-Standortseite Magdeburg direkt über Suchindex/Standortseite geprüft. Sie nennt TSR Deutschland GmbH & Co. KG, Am Zweigkanal 17c, 39126 Magdeburg, Telefon 0391 50907-0 und bewirbt Schrott-/Altmetallverkauf an den Standort. Anschrift und Telefonnummer ergänzt, Website als aktiv markiert. Abweichung zu älteren Verzeichnis-Leads Am Zweigkanal 19a ausdrücklich dokumentiert; diese Altadresse nicht übernommen. Konkrete Annahmebedingungen/Öffnungszeiten nicht aus den Suchtreffern gefüllt. Keine numerischen Ankaufpreise, Verkaufspreise oder Gebühren veröffentlicht. Quelle(n): https://www.tsr-recycling.de/standorte/schrotthaendler-magdeburg/ ; https://www.tsr-recycling.de/kunden/privatkunden/]
+- [Owner-Gate 07.10.2026: Für Am Zweigkanal 17c, 39126 Magdeburg keinen adressgenauen OSM-Hausnummernpunkt gefunden; Nominatim lieferte nur die Geometrie des Zweigkanals (OSM way/192116237, ohne Hausnummer). Deshalb keine Koordinaten eingetragen, statt einen Straßenmittelpunkt als Händlerstandort auszugeben. Quelle(n): https://www.openstreetmap.org/way/192116237]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

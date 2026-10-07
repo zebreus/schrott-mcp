@@ -33,6 +33,7 @@ Die Betreiber-Standortseite identifiziert die Niederlassung als TSR Deutschland 
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Die indexierte offizielle TSR-Standortseite und Standortsuche gezielt geprüft. Der Betreiber-Eintrag ordnet Großräschen der TSR Deutschland GmbH & Co. KG zu und nennt Birkenweg 20, 01983 Großräschen, Telefon 035753 639251, Schrottankauf/Aufbereitung sowie Containerdienst. Angezeigte Öffnungszeiten Mo-Fr 08:00-17:00; der Eintrag weist auf abweichende saisonale Zeiten ab 01.11.2026 hin. Deshalb Identität, Adresse, Telefon und Website präzisiert und den bisher ungeklärten Standort auf aktiv gesetzt; Öffnungszeiten nicht als dauerhaft stabil eingetragen. Keine numerische Ankaufspreisliste, Verkaufspreise oder Containergebühren gefunden; Tages-/Marktpreis bzw. individuelles Angebot ist kein Zahlenpreis. Quelle(n): https://www.tsr-recycling.de/standorte/schrotthaendler-grossraeschen/ ; https://www.tsr-recycling.de/kunden/privatkunden/]
+- [Owner-Gate 07.10.2026: Für Birkenweg 20, 01983 Großräschen keinen adressgenauen OSM-Hausnummernpunkt gefunden; Nominatim lieferte nur die Geometrie des Birkenwegs (OSM way/78554497, ohne Hausnummer). Deshalb keine Koordinaten eingetragen, statt einen Straßenmittelpunkt als Händlerstandort auszugeben. Quelle(n): https://www.openstreetmap.org/way/78554497]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

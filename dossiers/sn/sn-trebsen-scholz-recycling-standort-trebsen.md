@@ -6,6 +6,8 @@ state: SN
 city: Trebsen
 street: Industriegebietsstraße 3
 postcode: '04687'
+lat: 51.2786902
+lon: 12.7550946
 phone: '+49 34383 42034'
 email: ''
 opening_hours: ''
@@ -33,6 +35,7 @@ Der Scholz-Standortfinder listet Trebsen unter der Scholz Recycling GmbH mit Ans
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Scholz-Standortdetailseite Trebsen direkt aufgerufen (statische Ansicht zeigt den Standortnamen, aber keine Kontaktdaten); ergänzend den indexierten Eintrag des aktuellen Betreiber-Standortfinders sowie die Selbstanliefererangaben geprüft. Der Standortfinder nennt Scholz Recycling GmbH, Industriegebietsstraße 3, 04687 Trebsen und +49 34383 42034; Unternehmens-Impressum identifiziert den Betreiber als Scholz Recycling GmbH, AG Ulm HRB 733963. Selbstanlieferer aus Privat- und Gewerbe können an Standorten während der Öffnungszeiten liefern; Abrechnung nach Qualität/Klassifizierung und Gewicht. Adresse, Kontakt, spezifische Seite und Annahme deshalb präzisiert; Status auf aktiv gesetzt. Keine numerischen Trebsen-Ankaufspreise, Verkaufspreise oder örtliche Gebührenliste. Die Standortdetailseite zeigt in der statischen Ansicht keine Öffnungszeiten; vor Fahrt im dynamischen Standortfinder prüfen. Quelle(n): https://www.scholz-recycling.com/standorte/ ; https://www.scholz-recycling.com/standort/trebsen/ ; https://www.scholz-recycling.com/services/ ; https://www.scholz-recycling.com/impressum/]
+- [Owner-Gate 07.10.2026: lat/lon auf das OSM-Gebäude mit der exakt passenden Adresse Industriegebietsstraße 3, 04687 Trebsen gesetzt (51.2786902, 12.7550946). Nominatim bestätigt Hausnummer, Straße, PLZ und Ort; der Way-Mittelpunkt ist ein Gebäude-/Adresspunkt, kein verifizierter Eingang oder Waagenstandort. Quelle(n): https://www.openstreetmap.org/way/222517763]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
