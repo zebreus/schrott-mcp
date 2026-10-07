@@ -1,6 +1,6 @@
 ---
 slug: bb-neuenhagen-15366-pries-friese-autoverwertungscenter
-name: Pries & Friese Autoverwertungscenter
+name: LFP KFZ-Werkstatt oHG
 trader_type: autoverwertung
 state: BB
 city: Neuenhagen
@@ -9,26 +9,30 @@ postcode: '15366'
 phone: 03342 234480
 email: info@kfz-werkstatt-neuenhagen.de
 opening_hours: Mo-Fr 7-18
-website: https://pries-und-friese.de/
+website: https://kfz-werkstatt-neuenhagen.de/
 website_status: aktiv
 status: pruefung
-description: ''
-dropoff_json: ''
+description: LFP KFZ-Werkstatt oHG am bisherigen Pries-&-Friese-Standort. Von MINI als BMW-Verwertungspartner geführt; die kostenlose Rückgabe ist auf geeignete MINI-Altfahrzeuge gemäß den Herstellerbedingungen beschränkt. Allgemeiner Ankauf von Fahrzeugen oder Metallschrott ist nicht belegt.
+dropoff_json: '{"allowed":true,"conditions":"Kostenlose Rückgabe ausschließlich von MINI-Altfahrzeugen im Rahmen des MINI-Rücknahmenetzes. Das Fahrzeug muss zuletzt mindestens 1 Monat in der EU zugelassen gewesen sein, vollständig (insbesondere Motor/Antriebsaggregat, Karosserie, Katalysator und wertbestimmende Elektronik/wesentliche Bauteile) sowie frei von Abfällen sein. Keine allgemeine Annahme anderer Fahrzeuge oder von Metallschrott belegt; keine Vergütung belegt."}'
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
 ---
 
-# Pries & Friese Autoverwertungscenter
+# LFP KFZ-Werkstatt oHG (ehem. Pries & Friese Autoverwertungscenter)
 
 ## Überblick
 
-Die erreichbare Pries-&-Friese-Domain dokumentiert eine Übergabe der Aufträge an die LFP KFZ-Werkstatt oHG zum 02.01.2023 am bisherigen Standort; das aktuelle LFP-Impressum nennt HRA 4156 FF und Holger Pries als Vertreter. Die Altseite bietet weiterhin Autoverwertung an, während der aktuelle LFP-Auftritt nur Werkstattleistungen aufführt. Die dort verlinkte IWA-Bescheinigung nennt LFP als Demontagebetrieb für Altfahrzeuge, war aber ausdrücklich nur bis 31.10.2024 gültig. Eine aktuelle Annahme/Verwertung oder Folgebescheinigung ist nicht belegt.
+Die Pries-&-Friese-Domain dokumentiert die Übergabe an LFP KFZ-Werkstatt oHG zum 02.01.2023 am bisherigen Standort; das aktuelle LFP-Impressum nennt HRA 4156 FF und Holger Pries als Vertreter. MINI führt LFP 2026 als BMW-Verwertungspartner und beauftragte Rücknahmestelle. Belegt ist damit die kostenlose Rücknahme geeigneter MINI-Altfahrzeuge unter den MINI-Bedingungen, nicht aber eine allgemeine Annahme anderer Fahrzeuge oder ein Ankauf von Metallschrott. Die auf der Altseite verlinkte IWA-Bescheinigung war nur bis 31.10.2024 gültig und wird nicht als aktueller Beleg verwendet. Deshalb ist nur `dropoff_json` auf das MINI-Programm begrenzt gefüllt; `status: pruefung` und `provenance_ankauf_raw: unklar` bleiben für allgemeinen Ankauf unverändert.
 
 ## Timeline
 
-### Nachprüfung 07.10.2026
+### Nachprüfung 07.10.2026 (MINI-Rücknahmenetz)
+
+- [Nachprüfung 07.10.2026: Neue, eng begrenzte Annahmeleistung durch die offizielle MINI-Quelle belegt. Die aktuelle MINI-Recyclingseite (© MINI 2026) listet „LFP KFZ-Werkstatt oHG, Rosa-Luxemburg-Damm 1, 15366 Neuenhagen“, Telefon 03342 234480, unter Brandenburg → BMW Verwertungspartner; sie bezeichnet die gelisteten Stellen als von MINI beauftragte Rücknahmestellen und erklärt, dass das Netz kontinuierlich angepasst wird. MINI nimmt dort Fahrzeuge unentgeltlich zurück, wenn sie zuletzt mindestens einen Monat in der EU zugelassen, vollständig (u. a. Motor/Antriebsaggregat, Karosserie, Katalysator, wertbestimmende Elektronik/wesentliche Bauteile) und frei von Abfällen sind. LFP-Startseite und Impressum bestätigen aktuellen Betreiber, Adresse, Telefon, Öffnungszeiten Mo–Fr 7:00–18:00 Uhr sowie HRA 4156 FF; die Pries-&-Friese-Startseite dokumentiert LFP als Nachfolger und die Weiterbearbeitung aller Aufträge am bisherigen Standort seit 02.01.2023. Deshalb Name/Website auf den aktuellen Betreiber gesetzt und nur die MINI-Rückgabe in `dropoff_json` erfasst. `status: pruefung` und `provenance_ankauf_raw: unklar` bleiben: Die kostenlose, markengebundene Rücknahme belegt weder allgemeinen Fahrzeug-/Metallschrottankauf noch eine Vergütung oder Preise. Das verlinkte IWA-Zertifikat mit Ablauf 31.10.2024 wird nicht als aktueller Beleg verwendet. Quelle(n): https://www.mini.de/de_DE/home/services/recycling.html (Abruf 07.10.2026); https://kfz-werkstatt-neuenhagen.de/; https://kfz-werkstatt-neuenhagen.de/impressum/; https://pries-und-friese.de/]
+
+### Nachprüfung 07.10.2026 (vor MINI-Abgleich)
 
 - [Nachprüfung 07.10.2026: Pries-&-Friese-Startseite und Autoverwertungsseite direkt erneut abgerufen. Die Übergabemitteilung sagt weiterhin, dass seit 02.01.2023 alle Aufträge am bisherigen Standort von der LFP KFZ-Werkstatt bearbeitet werden; die Altseite wirbt weiterhin mit Altautoentsorgung und Abholung und verlinkt das bereits geprüfte, nur bis 31.10.2024 gültige Zertifikat. Der aktuelle LFP-Auftritt und sein Impressum führen LFP KFZ-Werkstatt oHG, Rosa-Luxemburg-Damm 1, HRA 4156 FF und Werkstattleistungen, belegen aber keine aktuelle Autoverwertung oder Schrottannahme. Daraus lässt sich weder eine Fortführung noch eine Einstellung der Autoverwertung zuverlässig ableiten. Deshalb keine Frontmatter-Änderung: `website_status: aktiv` beschreibt die erreichbare Domain, `status: pruefung` bleibt bis zur Klärung des aktuellen Leistungsangebots. Quelle(n): https://pries-und-friese.de/ ; https://pries-und-friese.de/autoverwertung/ ; https://kfz-werkstatt-neuenhagen.de/ ; https://kfz-werkstatt-neuenhagen.de/impressum/ ; https://pries-und-friese.de/wp-content/uploads/2023/05/Zertifizierung.pdf]
 
