@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Import führt „Cu, Blei, Zinn, Zink, Alu, Messing, Edelstahl, Kabel“ als Ankaufkategorien, aber es ließ sich keine aktuelle Betreiberquelle oder belastbare Bestätigung des Kunden-/Annahmebetriebs finden. Kontakt, Standort und Bedingungen bleiben offen; der Status ist `pruefung`, nicht geschlossen.
+
+Preisprüfung: ANKAUF — keine händlerspezifische Preisliste oder numerische Vergütung gefunden. VERKAUF — keine Liste. GEBÜHREN — keine Angaben.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: status aktiv → pruefung — gezielte Namens-/Orts- und Schrottankauf-Suche ergab keine dem Betrieb eindeutig zuordenbare Betreiberseite, Register-/Kommunalquelle oder aktuellen Annahmebedingungen; die Treffer waren themenfremd bzw. nicht eindeutig. Importierte Kategorien „Cu, Blei, Zinn, Zink, Alu, Messing, Edelstahl, Kabel“ bleiben als historische Seed-Angabe erhalten, sind aber kein Betreiberbeleg. Keine numerischen Preise (ANKAUF/VERKAUF/GEBÜHREN); kein Schließungsnachweis. Nächster Schritt: Betreiber- oder Gewerbeauskunft zur Identität/Adresse und Ankaufbedingungen.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

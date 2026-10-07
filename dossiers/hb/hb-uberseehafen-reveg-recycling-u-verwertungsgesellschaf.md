@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Rechtsperson ReVeG Recycling- und Verwertungsgesellschaft mbH (HRB 2957 BHV) ist durch Registerdaten belegt; eine Veröffentlichung vom 10.02.2026 nennt Großer Westring 17, 27572 Bremerhaven als Geschäftsanschrift. Die Seed-Adresse Brückenstr. 25 ist dagegen nicht als heutiger ReVeG-Standort bestätigt; die amtliche Anlagenübersicht 2024 nennt dort Nehlsen und Lloyd Werft. Keine Betreiber- oder Nachfolgekette ableitbar. Ob ReVeG dort Schrott annimmt oder ankauft, ist offen; keine zuordenbare Preisliste oder Gebühr. Status `pruefung`, nicht geocodieren bis zur Adressklärung.
 
 ## Timeline
 

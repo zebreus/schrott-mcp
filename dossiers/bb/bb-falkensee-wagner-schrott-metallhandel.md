@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Betrieb „Wagner Schrott- & Metallhandel“ am Seed-Standort Barkhausenstr. 75 ist bislang nicht durch eine Betreiber- oder Registerquelle bestätigt. Die namensähnlichen Wagner-Webtreffer betreffen andere Orte in Baden-Württemberg und sind ausdrücklich nicht diesem Falkenseer Eintrag zuzuordnen. Adresse, Annahme und Aktivität bleiben Klärfälle; kein verifizierter Ankaufs-, Verkaufs- oder Gebührenpreis.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Exakte Namenssuche lieferte keinen Betreiberauftritt für Falkensee. Der sichtbare Treffer „Wagner Schrott- und Metallhandel“ ist ein namensähnlicher Betrieb in Billigheim (Baden-Württemberg), kein Beleg für Barkhausenstr. 75; keine fremden Kontakt-/Leistungsangaben übertragen. Seed-Adresse bleibt unbestätigt, status pruefung; keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren. Quelle(n): https://www.schrott-wagner.de/leistungen.html (Betreiberseite eines namensähnlichen Betriebs); https://www.enfmetal.com/wagner-schrott-und-metallhandel (Standortlead Billigheim).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

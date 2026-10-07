@@ -31,6 +31,7 @@ Nur der Seed nennt Aue-Schrotthandel an Hermsdorfer Str. 17, 13469 Berlin, Telef
 ### Nachprüfung 06.10.2026
 
 - [Nachprüfung 06.10.2026: Re-Check der offenen Identitätsfrage bestätigt keinen neuen zulässigen Betreiber-/Registerbeleg für Aue-Schrotthandel in Berlin. Der bekannte Treffer Hentschel Schrotthandel Aue ist ein anderer Betrieb in Sachsen und darf nicht zusammengeführt werden. Seed-Adresse und Telefonnummer daher weiterhin unbestätigt; keine Preise, Preislisten oder Gebühren dem Dossier zurechenbar. Klärfragen: Gibt es den Berliner Betrieb noch, wer ist der Betreiber, und ist Hermsdorfer Str. 17 eine tatsächliche Annahmestelle? Keine Geokodierung bis zur Bestätigung. Quelle(n): https://hentschel-schrotthandel-aue.com/ ; bestehender Seed-Adresslead]
+- [Nachprüfung 07.10.2026: Die aktuelle Namens-/Adresssuche ergab zusätzlich Exa.ai und lokaleschrottplatz-Einträge mit derselben Hermsdorfer Straße 17 und Telefonnummer. Beide sind Verzeichnis-/Aggregationsseiten, kein Betreiber-, Register- oder Behördenbeleg; der zweite Lead ändert daher weder Identitätsstatus noch Kontaktdaten. Preise: ANKAUF — keine verifizierten Sätze; VERKAUF — keine Liste; GEBÜHREN — keine Tarifquelle. Quellen: https://exa.ai/library/place/mfrgrh7gh19 ; https://lokaleschrottplatz.de/aue-schrotthandel/]
 
 ### Recherche 02.10.2026
 

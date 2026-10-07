@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Hartmann Metallhandel“ am Kiefernweg 60, 27578 Bremerhaven liegen nur zwei übereinstimmende Schrottplatz-Verzeichnisse vor. Das ähnlich benannte W. Hartmann & Co. GmbH hat einen belastbaren Betreiberauftritt, aber Sitz und Aluminium-Halbzeuggeschäft in Oststeinbek; es gibt keinen Beleg für eine Bremerhaven-Niederlassung oder Verbindung. Seed-Adresse bleibt ein Lead, Telefon und Website werden nicht übernommen. Keine Schließung, Annahmebedingungen oder Preise belegt; Status `pruefung`.
 
 ## Timeline
 

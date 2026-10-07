@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur ein Einzel-Lead bei schrottplatz-info.de nennt Adzovic Safet Schrotthandel am Warwischer Hauptdeich 90, 21037; Betreiberwebsite, Registerbeleg und zweiter unabhängiger Nachweis fehlen. Ein hamburg.de-Eintrag zu „Adzovic“ nennt dagegen Von-Scheliha-Str. 34, 21035, Haushaltsauflösungen und Tel. 0176 65353877 – andere Adresse und Branche, daher keine sichere Personenzuordnung und kein Merge. Frontmatter-Kontakte bleiben leer; `status: pruefung`.
+
+**Preise (Ankauf/Verkauf/Gebühren):** keine verifizierbaren Preis- oder Gebührenangaben. **Offen:** Betreiberidentität, tatsächlicher Standort, Betriebsform (Schrotthandel vs. Haushaltsauflösung) und Annahmebedingungen klären; keine Schließung aus fehlenden Quellen ableiten. Quellen siehe Recherche 02.10.2026.
 
 ## Timeline
 

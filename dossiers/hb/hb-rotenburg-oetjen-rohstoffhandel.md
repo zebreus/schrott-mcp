@@ -28,6 +28,8 @@ provenance_origin: table
 
 **Preise:** für den mutmaßlichen Rotenburger Betrieb keine verifizierte Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung. **Geocoding:** Otto-von-Guericke-Str. 4, 27356 ist nur Verzeichnis-/Seed-Kandidat; vor Geocoding zuerst Firmenidentität und Bundesland korrigieren/verifizieren.
 
+Ein zusätzliches Drittverzeichnis nennt für exakt diese Adresse und Telefonnummer `info@oetjen-rohstoffhandel.de` sowie die gleichnamige Domain. Das ist kein aktueller Betreiberbeleg; die Domain war in der Vorrecherche nicht erreichbar. Diese Angaben bleiben ungeprüfte Kontakt-Leads und sind nicht in Frontmatter übernommen.
+
 ## Timeline
 
 ### Recherche 06.10.2026
@@ -48,3 +50,7 @@ provenance_origin: table
 - [Recherche 01.10.2026: Northdata-Beleg Oetjen GmbH, AG Tostedt HRB 203379, Adresse Herrenbruemmer 18, 27404 Zeven, Gegenstand Handel mit Rohstoffen aller Art, aktiv; ebenfalls Zeven-Sitz, kein Beleg fuer Seed-Adresse Otto-von-Guericke-Str. 4 Rotenburg; Quelle(n): https://www.northdata.de/Oetjen%20GmbH,%20Zeven/Amtsgericht%20Tostedt%20HRB%20203379]
 - [Recherche 01.10.2026: Verwechslung geklaert: oetjen.de ist Oetjen Logistik GmbH, Hermann-Schlueter-Str. 1, 27356 Rotenburg, Stueckgutlogistik, kein Rohstoffhandel, daher kein Website-Fill; Seed-Adresse und Seed-Telefon ohne Zweitbeleg, kein Fill, Klaerfall; Quelle(n): https://oetjen.de/ plus Impressum https://oetjen.de/impressum/ 01.10.2026]
 - [Recherche 01.10.2026: Seed-Adresse Otto-von-Guericke-Str. 4, 27356 Rotenburg + Tel. 04261 2025 bestätigt NUR via Verzeichnis-Leads (GelbeSeiten, bauunternehmen.org) — kein zweiter unabhängiger Beleg, daher kein Fill; Domain oetjen-rohstoffhandel.de per Webfetch tot/Fehler (dewebc zeigt REMONDIS-Redirect) daher kein Website-Fill; Status pruefung, Klärfall Folgewelle (HR-Sitz Zeven vs. Seed Rotenburg); Quelle(n): Verzeichnis-Leads + dewebc-Redirect-Hinweis 01.10.2026]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Ein zusätzliches Drittverzeichnis führt unter Otto-von-Guericke-Str. 4, 27356 Rotenburg, Tel. 04261 2025, die E-Mail info@oetjen-rohstoffhandel.de und Website www.oetjen-rohstoffhandel.de. Quelle ist ein generischer Business-Directory-Eintrag, nicht Betreiber-/Registerbeleg; die Domain war in der Vorrecherche nicht erreichbar und der Sitz-/Identitätskonflikt (Zeven vs. Rotenburg) bleibt ungelöst. E-Mail/Website nicht übernommen. Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren belegt. Quelle(n): http://www.business-directory.cc/mobile/index.php?moduleid=4&username=recyclingoetjen&action=contact ; https://www.gelbeseiten.de/gsbiz/ddda2543-f087-4516-90e3-3a15268a2856]

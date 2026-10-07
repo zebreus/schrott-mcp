@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein mobiler Ankauf durch Christian Lucia in Drebkau OT Schorbus ist bislang nicht unabhängig bestätigt. Der Seed führt Auraser Dorfstr. 2; ein Stadtplan-Treffer bestätigt nur den Ortsteil/PLZ-Bereich, nicht Hausnummer, Betreiber oder stationäre Annahme. Kontaktdaten und Preisbedingungen bleiben offen; kein belegter Ankaufspreis, Verkaufspreis oder Entgelt.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: status aktiv → pruefung — erneute Suche nach Betreiber/Ort ergab weiterhin keinen passenden Betreiberbeleg; die gefundenen Drebkau-Treffer betreffen andere Betriebe. Die Auraser Dorfstraße und der allgemeine PLZ-Hinweis bestätigen weder Hausnummer noch Tätigkeit; mobile Abholung nicht als stationären Platz behandeln. Keine Schließung behauptet, keine Kontaktdaten oder Preisangaben ergänzt; Ankauf, Verkauf und Gebühren unbeziffert/offen. Quelle(n): https://www.11880.com/suche/schrotthandel/drebkau (Aggregator-Suche, andere Betriebe); https://www.stadtplan.info/drebkau-drjowk/schorbus (Orts-/Straßenhinweis, keine Betreiberquelle).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

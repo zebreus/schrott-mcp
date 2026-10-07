@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Radke Ulrich wird in Branchenverzeichnissen unter Windmühlenstr. 21 als Autoverwertung geführt; Adresse, PLZ und Telefon stimmen dort überein. Eine aktuelle Betreiber-, Register- oder amtliche Quelle zur Annahme wurde nicht gefunden. Status pruefung bis Aktivitäts-/Ankaufsbestätigung, nicht geschlossen; keine belegten Ankaufspreise, Fahrzeug-Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: status aktiv → pruefung — Adresse/PLZ/Telefon stimmen in Gelben Seiten und 11880 überein, aber beide sind Verzeichnisbelege; keine Betreiber- oder aktuelle Annahmebestätigung gefunden. Das lässt die Auto-Verwertung und Ankauf ungeklärt, ohne eine Schließung zu behaupten. Keine Preise für Fahrzeugankauf, Fahrzeugverkauf oder Gebühren öffentlich verifiziert. Quelle(n): gelbeseiten.de und 11880.com, Detailseiten geprüft in Recherche 02.10.2026 (Verzeichnis-Leads).]
 
 ### Recherche 02.10.2026
 

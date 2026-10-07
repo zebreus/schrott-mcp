@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Verzeichnisse wiederholen für „Vikings Schrotthändler“ An Smidts Park 19, 28719 Bremen-Burg-Grambke, Tel. 0172 8364924. Golocal klassifiziert den Eintrag zusätzlich als Haushaltsauflösung, was nicht belegt, dass dort eine stationäre Schrottannahme besteht. Kein Betreiber-/Registerbeleg, daher Seed-Felder und Status `pruefung` unverändert. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
 
@@ -42,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Seed-Bestand bestätigt, keine neuen Fills — Gelbe Seiten (An Smidts Park 19, 28719 Bremen-Burg-Grambke, 0172 8364924) + golocal (gleiche Adresse, Überprüfte Adresse, gleiche Nummer) + Cylex-Profil (gleiche Adresse/Nummer) kongruent zu Seed-Frontmatter; kein Widerspruch, aber auch KEIN Betreiber-/Register-Beleg (Northdata nur Titel-Suche ohne HR-Treffer, vgl. Vorwelle) → Felder unverändert, Status bleibt pruefung. Quelle(n): Gelbe Seiten + golocal + Cylex (mehrere Aggregatoren, eine Belegklasse)]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Das aktuelle Golocal-Kategoriensignal führt Vikings als Haushaltsauflöser; zusammen mit den bisherigen Schrott-Verzeichniseinträgen spricht dies für ein mobiles Entrümpelungs-/Abholprofil, beweist aber weder eigene Schrottannahme noch einen Betreiberauftritt. Keine Frontmatter-Fills oder verifizierbaren Preise/Gebühren. Quelle: https://www.golocal.de/bremen/haushaltsaufloesungen/vikings-schrotthaendler-11XbMg]

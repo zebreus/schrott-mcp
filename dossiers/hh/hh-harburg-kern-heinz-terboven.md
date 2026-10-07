@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Prüffall ohne verifizierten Betreiberbeleg. Zwei 11880-Profile widersprechen sich zur Anschrift (Eißendorfer Str. 41 vs. 43), Telefonnummer und Schließungsangabe; die Einträge stammen aus demselben Aggregator und die NorthData-Suche ergab keinen eindeutig passenden Registertreffer. Weder Adresse/Telefon noch Schließung in die Frontmatter übernehmen; `status: pruefung` bleibt.
+
+**Preise (Ankauf/Verkauf/Gebühren):** kein belastbarer Ankaufskurs, Verkaufspreis oder Gebührenbeleg. **Offen:** Identität des Händlers, richtige Hausnummer, Kontakt und Fortbestand direkt verifizieren. Quellen: die widersprüchlichen, nicht unabhängigen Profile unter https://www.11880.com/suche/heinz-terboven/hamburg und https://www.11880.com/branchenbuch/hamburg/120674719B111438881/heinz-terboven-schrotthandel.html; siehe Recherche 03.–04.10.2026.
 
 ## Timeline
 

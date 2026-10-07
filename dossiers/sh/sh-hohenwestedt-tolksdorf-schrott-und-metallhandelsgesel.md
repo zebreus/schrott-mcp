@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Register- und Statuslage ist widersprüchlich: Northdata führt die Tolksdorf Schrott- und Metallhandelsgesellschaft mbH (AG Kiel HRB 18510 KI, Lindenstraße 45 a) als „i. L.“; der GLEIF-Datensatz mit ACTIVE-Status ist seit 2021 nicht aktualisiert und belegt keine aktuelle Geschäftstätigkeit. Frontmatter-Status `pruefung` markiert die ungeklärte aktuelle Ankaufstätigkeit; eine Schließung wird nicht behauptet. Vor einer Freigabe als aktiv ist ein aktueller Register-/Liquidator- oder Betreiberbeleg erforderlich. Keine öffentlich verifizierte Preisliste oder Gebühren gefunden (Recherche 05.10.2026).
 
 ## Timeline
+
+### Owner-Korrektur 07.10.2026
+
+- [Owner-Korrektur 07.10.2026: Status `aktiv` → `pruefung`. Die dokumentierte Liquidation „i. L.“/Insolvenzhistorie seit 2019 ist stärker als der GLEIF-Status ACTIVE, dessen LEI abgelaufen ist und dessen Datensatz zuletzt 15.07.2021 aktualisiert wurde; weder Quelle belegt aktuelle Annahme oder Geschäftsbetrieb. Keine Schließung gesetzt; Status bleibt Klärfall bis zu aktuellem Register-/Betreiberbeleg. Quelle(n): https://www.northdata.de/Tolksdorf+Schrott-+und+Metallhandelsgesellschaft+mbH,+Hohenwestedt/Amtsgericht+Kiel+HRB+18510+KI ; https://api.gleif.org/api/v1/lei-records/5299009W3O1JVG10WF75]
 
 ### Recherche 05.10.2026
 

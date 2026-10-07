@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zwei voneinander unabhängige Branchenverzeichnisse stimmen bei „Lenhart Ludwig sen. Schrotthandel“, Ringstr. 2, 97318 Kitzingen-Sickershausen und Telefon 09321 36648 überein. Schrottplatz-Info weist darauf hin, dass Leistungsangebot und Öffnungszeiten nicht erfasst sind und der Homepage-Link fehlerhaft/leer ist; damit sind Ankaufbetrieb und Bedingungen trotz doppeltem Adresslead nicht primär bestätigt. **Ankauf:** keine numerischen Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife belegt. Betreiberwebsite/aktuelle Annahme bleiben offen.
 
 ## Timeline
 
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Kitzingen (Adresse unklar)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Beide bereits bekannten Verzeichnis-Detailseiten direkt geprüft; sie stimmen weiter bei Ringstr. 2, 97318 Kitzingen-Sickershausen und 09321 36648 überein. Schrottplatz-Info erklärt, das Leistungsangebot und die Öffnungszeiten seien nicht erfasst; sein Homepage-Link ist fehlerhaft, daher keine Betreiberwebsite daraus ableiten. Gelbe Seiten hat keine Bewertungen. Kein numerischer Ankaufskurs, Verkaufspreis oder Gebühren-/Containerpreis veröffentlicht. Frontmatter unverändert; Offenpunkt bleibt Betreiberbestätigung/Annahmeleistung. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Kitzingen/Lenhart-Ludwig-sen-Schrotthandel ; https://www.gelbeseiten.de/gsbiz/d03204a3-917d-4297-91d3-e1b1ef218a05]

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Schrottplatz-Info führt „Autoverwertung Adler A.“ an Schierholzweg 5, 27578 Bremerhaven, mit 0471 86763; dort sind weder eine vollständige Beschreibung noch Öffnungszeiten oder Leistungsangaben eingetragen. Das ist ein Portal-Lead, kein Betreiberbeleg. Inhaber-Vorname, aktuelle Existenz und Annahmebedingungen sind offen; keine belegten Preise oder Gebühren. Die Seed-Adresse vor Geocoding unabhängig bestätigen.
+Schrottplatz-Info führt „Autoverwertung Adler A.“ an Schierholzweg 5, 27578 Bremerhaven, mit 0471 86763; dort fehlen vollständige Leistungsangaben. Eine markeneigene Website zu „Adler Abschlepp & Kfz-Technik GmbH“ nennt dagegen Alte Geesteschleife 3, 27576 und 0471 804900, mit Abschlepp-/Kfz-Leistungen. Das ist ein möglicher Namesake oder eine ungeklärte Betreiber-/Umzugskette, keine belegte Verbindung zur Schrottplatz-Leadadresse. Name, aktueller Betrieb und Annahmebedingungen bleiben offen; keine Preise/Gebühren belegt, Adresse vor Geocoding bestätigen.
 
 ## Timeline
 
@@ -45,3 +45,7 @@ Schrottplatz-Info führt „Autoverwertung Adler A.“ an Schierholzweg 5, 27578
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Tel. 0471 86763 in Frontmatter (2 Portal-Belege konsistent: schrottplatz-info.de + schrottplatz.org, beide Schierholzweg 5, 27578 Bremerhaven); Namensvariante Adolf Adler (Autoverwertung, Fax 0471 802328) vs Adler A. — Inhaber-Vorname unklar; Betreiber-Domain adler-kfz-recycling.de per Direktabruf TOT (Transport-Error) → kein operatorischer Webbeleg, website_status unbekannt; kein HRB → Status pruefung bleibt (Ausnahmefall: nur Portal-Belege, offen dokumentiert); Quelle(n): schrottplatz-info.de/schrottplatz/Bremerhaven/Adler-A-, schrottplatz.org/bremerhaven/adolf-adler-296505, branchen-info.net (Drittlead gleiche Adresse/Nummer)]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die erreichbare Website https://kfz.adler-abschlepp.de/main.php?site=43 (Impressum/Kontakt) nennt „Adler Abschlepp & Kfz-Technik GmbH“, Alte Geesteschleife 3, 27576 Bremerhaven, 0471 804900 und Büro-/Werkstattzeiten; Service-Unterseiten bewerben Abschleppen und Kfz-Technik, nicht Schrottannahme. Die Adresse/Nummer weichen von Schierholzweg 5 / 0471 86763 ab. Ohne Register- oder Betreiberkette bleibt offen, ob Namesake oder Umzug; keine Website-, Kontakt- oder Leistungsdaten übertragen. Keine Schrott-Ankaufspreise, Verkaufspreise oder Gebühren veröffentlicht. Quelle(n): https://kfz.adler-abschlepp.de/main.php?site=43 ; https://kfz.adler-abschlepp.de/main.php?site=21]

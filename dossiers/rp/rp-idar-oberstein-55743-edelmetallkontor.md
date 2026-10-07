@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter Goldankauf-Kandidat ohne eindeutig zugeordneten Betreiber, Ladengeschäft, Anschrift oder Betreiberkontakt. Die bisherige Suche fand keinen belegfähigen Idar-Obersteiner Betreiberauftritt oder Registereintrag; ähnlich benannte Edelmetallkontore in anderen Städten sind ausdrücklich keine Identitätsbelege. Keine Felder ergänzt. ANKAUF: kein konkretes Angebot/Ankaufskurs verifiziert; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Klärung erfordert lokalen Gewerbe-/Registerbeleg oder direkte Betreiberbestätigung.
 
 ## Timeline
 

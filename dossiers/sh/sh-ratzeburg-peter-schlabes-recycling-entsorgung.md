@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchenverzeichnisse nennen Peter Schlabes Recycling & Entsorgung an Heinrich-Hertz-Str. 11 A, Ratzeburg, Telefon 04541 803737; dies bleibt Aggregator-Konsens ohne Betreiber-/Registerbeleg. Ein separater Telefonbucheintrag „Schlabes Peter“ in der Roonstr. 5 ist nicht als dieselbe Person/Firma belegt. Status `pruefung`; weder Annahmebedingungen noch konkrete Ankauf-, Verkaufs- oder Gebührenpreise verifiziert (Recherche 03.10.2026).
 
 ## Timeline
 

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -28,6 +28,12 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Preis-Suchtreffer abgegrenzt: lokaleschrottplatz.de zeigt auf der Bergen-Auf-Rügen-Stadtseite einen Kupfer-Millberry-Richtwert von 9,70–11,40 €/kg. Die Zahl ist nicht als Angebot von Schrotti Rügen/Volkmar Scharf ausgewiesen und stammt aus einem Branchenportal, nicht vom Betreiber; sie wird daher ausdrücklich NICHT als Händlerpreis übernommen. ANKAUF: kein händlerspezifischer numerischer Kurs belegt; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quelle/Lead (Aggregator, kein Preisbeleg für diesen Händler): https://lokaleschrottplatz.de/mecklenburg-vorpommern/bergen-auf-ruegen/ (abgerufen 07.10.2026).]
+
+- [Korrektur 07.10.2026: status aktiv → pruefung — Nachprüfung der Händlerangaben ergab weiterhin nur Presse-/Verzeichnis-Leads, keine aktuelle Betreiberquelle, Register- oder kommunale Bestätigung. Adresse/Telefon bleiben als bisherige Leads im Frontmatter und werden nicht als neu verifiziert ausgegeben; kein Schließungsbeleg, daher kein geschlossen-Status. Ankauf bleibt ohne händlerspezifischen Preisnachweis offen. Quelle: vorgenannte Lead-Prüfung 07.10.2026; Aggregatorpreis nicht dem Händler zurechenbar.]
 
 ### Recherche 02.10.2026
 

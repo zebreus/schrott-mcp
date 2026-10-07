@@ -28,6 +28,8 @@ provenance_origin: table
 
 Die offizielle Immobilienseite der **AlsterCity** beschreibt Osterbekstraße **90 a–c** als Büro- und Geschäftshauskomplex mit rund 90.000 m² Bürofläche. Das ist ein belastbarer Hinweis zum Adressumfeld, aber weder ein Schließungsbeleg noch der Nachweis, dass dort kein Schrotthändler sein Büro haben könnte. Eine Firmenzone-Seite verbindet den Seednamen mit allgemeinen Kfz-Werkstattleistungen; ihre Nummer und PLZ bleiben unbestätigte Portal-Leads und werden nicht übernommen. Benötigt wird ein namentlicher Betreiber-/Gewerbenachweis samt Klärung von Büroadresse versus Materialannahme.
 
+**Preise (Ankauf/Verkauf/Gebühren):** keine verifizierten Schrottkurse oder Servicegebühren gefunden; die Firmenzone-Angabe ist nur ein Portal-Lead, die AlsterCity-Seite beschreibt die Immobilie, nicht einen Metallhändler. Öffentliche Annahme oder Ankauf nicht belegt.
+
 ## Timeline
 
 ### Recherche 05.10.2026

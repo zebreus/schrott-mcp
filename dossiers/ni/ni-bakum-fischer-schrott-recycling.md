@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Name „Fischer Schrott & Recycling“ in Bakum bleibt ungeklärt. `fischer-bakum.de` lieferte beim dokumentierten Direkt-/DNS-Check NXDOMAIN; Harmer Str. 27 ist lediglich ein einzelner Verzeichnis-Lead ohne Betreiber- oder Registerbestätigung. Der Domainausfall beweist keine dauerhafte Betriebsschließung. **Ankauf/Verkauf/Gebühren:** keine zuordenbare Annahmebestätigung oder Preisangaben. Status `pruefung` und offene Felder bleiben bestehen. Quelle(n): https://fischer-bakum.de (DNS-Check 02.10.2026); Verzeichnis-Lead Harmer Str. 27 (siehe Recherche 01.–02.10.2026)
 
 ## Timeline
 

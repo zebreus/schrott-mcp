@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Efb-/Schrottregister-Lead führt am Grünen Weg 3, 35792 Löhnberg einen „Lagerplatz Osswald“ (mit Doppel-s), und eine Polizeimeldung vom 19.09.2026 erwähnt den Lagerplatz. Das passt zum Seed-Ort, bestätigt aber nicht, dass der Platz dem als „Oswald“ importierten Schrotthandel gehört oder derzeit öffentlich Schrott annimmt. Straße/PLZ sind entsprechend nur als vorläufige Lead-Daten zu lesen; kein Betreiberkontakt oder Preisbeleg. ANKAUF/VERKAUF/GEBÜHREN: keine belegten Kurse bzw. Tarife. Schreibweise und Betreiberzuordnung bleiben offene Fragen.
 
 ## Timeline
 

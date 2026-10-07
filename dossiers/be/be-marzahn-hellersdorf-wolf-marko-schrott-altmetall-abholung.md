@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur ein Gelbe-Seiten-Eintrag nennt Altmetall-Abholung an der Boschpoler Straße 120 und Mo–So 07–17 Uhr. Der vollständige Betreibername und die fortbestehende Tätigkeit sind nicht unabhängig bestätigt; das frühere „Wolf Marko“ in Cottbus betrifft eine andere Branche und ist kein Identitätsbeleg. Status `pruefung`, keine Geokodierung bis zur Bestätigung. Keine zuordenbaren ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
 
@@ -41,3 +41,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Die frühere Gelbe-Seiten-Detailseite bleibt der einzige passende Lead für Boschpoler Str. 120; kein zweiter Betreiber-/Registerbeleg für Identität oder Aktivität gefunden. Der Namensabgleich zeigt außerdem einen anderen „Wolf Marko“ als Autolackiererei in Cottbus, ohne Verbindung zu Berlin. Das ungültige Telefon-Platzhalterzeichen „—“ wurde als leerer Wert normalisiert (kein Telefonnummern-Fill); keine Gelbe-Seiten-Kontaktdaten übernommen. Restunsicherheit: Berliner Betreibername, aktuelle Abholung und Adresse bleiben unbestätigt; Quelle(n): https://www.gelbeseiten.de/gsbiz/7fd35fc1-81e7-4f1a-833e-75f01e1e1b3a ; https://www.gelbeseiten.de/gsbiz/0f0470f7-085e-4449-998a-575b70faadd1]
+- [Korrektur 07.10.2026: Der geerbte Status `aktiv` war nicht durch den einzigen Gelbe-Seiten-Lead gedeckt und wird zu `pruefung` korrigiert. Die Mobilnummer und Öffnungszeiten aus dem Verzeichnis bleiben unübernommen; keine Identitätsbrücke zur Cottbuser Autolackiererei. Preise: ANKAUF — keine verifizierte Preisliste; VERKAUF — keine Liste; GEBÜHREN — keine Tarifangaben. Quelle: https://www.gelbeseiten.de/gsbiz/7fd35fc1-81e7-4f1a-833e-75f01e1e1b3a]

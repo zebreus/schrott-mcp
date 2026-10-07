@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Verzeichnis-Spur führt „Birko Andreas Kleintransporte und Schrott“ an Straße zum Schloßpark 2, Oranienburg, kategorisiert den Eintrag aber als Spedition. Betreiberidentität, aktueller Schrottankauf und eine Annahmestelle sind nicht durch Primärquellen bestätigt; Seed-Adresse und Telefon bleiben ungeprüfte Leads. Keine Preisangaben zu Ankauf, Verkauf oder Gebühren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute Namenssuche lieferte nur regionale Branchenverzeichnisse, die den Eintrag als Spedition führen; kein Betreiberauftritt oder eigenständiger Schrottannahme-Nachweis gefunden. Adresse/Telefon daher nicht neu bestätigt und nicht verändert. Offen: Gewerberegister-/Betreiberbestätigung, ob neben Kleintransporten aktuell Schrott angekauft wird. Keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren belegt. Quelle(n): https://www.gelbeseiten.de/branchen/transportunternehmen/oranienburg (Aggregator); https://www.dastelefonbuch.de/Branchen/Logistikunternehmen/Oranienburg (Aggregator).]
 
 ### Recherche 01.10.2026
 

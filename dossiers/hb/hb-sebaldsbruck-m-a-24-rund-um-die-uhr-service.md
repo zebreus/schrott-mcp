@@ -37,6 +37,10 @@ Verzeichnis-Leads führen „M&A 24 Rund um die Uhr Service“ bzw. „M&A Rund 
 - [Recherche 06.10.2026: Keine unabhängige Betreiberseite/Registerbestätigung zur Seed-Identität gefunden; Gelbe Seiten führt „M&A 24 Rund um die Uhr Service“, Sebaldsbrücker Heerstr. 160, 28309 Bremen, Tel. 0174 9159503. Werte bleiben Aggregator-Leads, Status pruefung. Quelle(n): https://www.gelbeseiten.de/branchen/schrottplatz/bremen ; https://www.11880.com/ (bestehender zweiter Verzeichnislead, Namensvariante; Abruf/Prüfung 02.10.2026)]
 - [Recherche 06.10.2026: Keine belastbare numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung. Anschrift nicht geocodieren, bevor Betreiberidentität und heutige Nutzung der Adresse bestätigt sind; „24“ im Namen belegt keine 24-Stunden-Erreichbarkeit.]
 
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Stadtbranchenbuch Bremen führt zusätzlich mohamed21altun@gmail.com beim Kandidaten „M&A Rund ums Haus Team“, Sebaldsbrücker Heerstr. 160, Tel. 0174 9159503. Das bleibt ein Verzeichnis-Kontaktlead ohne Betreiber-/Registerbestätigung und löst die Namensvariante nicht auf; Mail deshalb nicht in Frontmatter übernommen. Keine bezifferten Ankaufspreise, Verkaufspreise oder Gebühren. Quelle: https://bremen.stadtbranchenbuch.com/8581478.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott, mobile Abholung (klein)

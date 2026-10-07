@@ -26,6 +26,8 @@ provenance_origin: table
 
 Ein Registerspiegel führt eine Kohl Waste Trade GmbH (HRB 204471), aktuell mit Sitz in Bramsche und Unternehmensgegenstand Abfall-/Wertstoffhandel. In den Registerereignissen erscheint außerdem eine Zweigniederlassung im PLZ-Bereich 65189 Wiesbaden (2010); eine aktuelle Wiesbadener Anschrift oder fortbestehende Filiale ist nicht belegt. Nicht mit dem Bramscher Sitz gleichsetzen.
 
+Die aktuelle Betreiberseite der Kohl-Unternehmensgruppe bestätigt die eigenständige **Kohl Waste Trade GmbH**, HRB 204471, Am Flugplatz 26, 49565 Bramsche. Die beschriebene Leistung ist überregionaler Abfallhandel (u. a. Abfälle zur energetischen Verwertung, Ersatzbrennstoffe und Kunststoffströme) mit Logistik; eine Wiesbadener Annahmestelle für privaten Metallschrott wird dort nicht ausgewiesen. Öffentliche Ankauf-/Verkaufspreise oder Gebühren sind nicht veröffentlicht. Diese heutige Bramscher Betreiberangabe klärt nicht den Fortbestand der 2010 eingetragenen Wiesbadener Zweigniederlassung.
+
 ## Timeline
 
 ### Recherche 06.10.2026
@@ -36,3 +38,7 @@ Ein Registerspiegel führt eine Kohl Waste Trade GmbH (HRB 204471), aktuell mit 
 
 - evtl. Broker
 - Adresse: Wiesbaden 65189
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Direkter Crawl der aktuellen Betreiberseiten Impressum, Kontakt, Kohl-Waste-Trade-Leistungsspektrum und Unternehmenschronik. Das Impressum nennt Kohl Waste Trade GmbH, AG Osnabrück HRB 204471, Geschäftsführer Stefan Kohl/Karl-Peter Frubel und den heutigen Gruppenstandort Am Flugplatz 26, 49565 Bramsche; das Segment nennt +49 5461 9336-885. Die Unternehmenschronik datiert die Gründung der Kohl Waste Trade GmbH auf 2010 und beschreibt sie als europaweiten Abfallhandel; die Leistungsseite nennt industrielle Abfallströme und Verwertungsanlagen statt eines lokalen Schrottplatzes für Laufkundschaft. Der offizielle Betreiberkontakt führt heute Bramsche, aber belegt weder eine konkrete Wiesbadener Anschrift noch die Schließung der historischen 65189-Zweigniederlassung. Deshalb keine Bramscher Daten in dieses Dossier übertragen, Status pruefung und keine Geokodierung bleiben. ANKAUF — keine veröffentlichten Schrott-/Abfallkurse; VERKAUF — keine Materialpreisliste; GEBÜHREN — keine öffentlichen Tarife, geschäftsspezifische Angebote nicht ausgewiesen. Offen: Originalregisterbekanntmachung mit Adresse/Ende der Wiesbadener Niederlassung und möglicher Kundenverkehr vor Ort. Quelle(n): https://www.kohl-recycling.de/impressum/; https://www.kohl-recycling.de/kontakt/kontakt/; https://www.kohl-recycling.de/kohl-waste-trade/leistungsspektrum/; https://www.kohl-recycling.de/ueber-uns/chronik/; https://www.northdata.de/Kohl+Waste+Trade+GmbH]

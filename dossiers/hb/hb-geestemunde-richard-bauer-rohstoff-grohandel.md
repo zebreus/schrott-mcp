@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die offizielle BEG-Kontaktseite führt Richard Bauer Rohstoff-Großhandel GmbH & Co. KG am Weißenstein 2 in Bremerhaven, mit Telefon, E-Mail und Annahmezeiten. Sie beschreibt die Stelle ausdrücklich für Selbstanlieferung von Gartenabfällen sowie Reifenabgabe gegen Entgelt; damit ist eine **Gebühr** für Reifen belegt, aber weder deren Betrag noch ein Schrott-/Metallankauf oder eine Ankaufspreisliste. Kontakt- und Öffnungszeiten bleiben hier vorsichtshalber leer, da die BEG-Seite kein eigener Bauer-Auftritt ist. Status `pruefung` bleibt: Kundenannahme für Metallschrott ist nicht bestätigt.
 
 ## Timeline
 
@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott, Metalle, Entsorgung, Containerdienst, Großhandel
 - Adresse: Geestemünde, Weißenstein 2
 - Adressbeleg: beg-bhv.de (BEG-Partnerseite)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die offizielle BEG-Kontaktseite führt Richard Bauer Rohstoff-Großhandel GmbH & Co. KG am Weißenstein 2 und unterscheidet die Leistungen vor Ort: Selbstanlieferung von Gartenabfall sowie Reifenabgabe „gegen Entgelt“. Das belegt nur eine Reifen-Entsorgungsgebühr, nicht den Betrag und nicht Metallannahme/-ankauf. Kein numerischer Ankaufspreis, Verkaufspreis oder Gebührensatz für Schrott gefunden; keine Preiswerte ergänzt. Quelle: https://beg-bhv.de/kontakt]

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt nennt zwei Annahmestellen in Jena und wirbt mit Annahme von Metall, Altpapier, Pappe und Büchern sowie gewerblicher Abholung ausgewählter Wertstoffe. Bei Metall und Papier steht auf den Preisunterseiten ausdrücklich „Aktueller …preis: Auf Anfrage“; das ist ein aktueller Ankauf-/Vergütungs-Hinweis, aber kein veröffentlichter Betrag. Öffnungszeiten, genaue Standorte und Leistungen bleiben einzelne Betreiberangaben mit den bereits dokumentierten Anschriften-Widersprüchen; deshalb keine neue Frontmatter-Füllung und Status `pruefung` bleibt.
 
 ## Timeline
 
@@ -53,3 +53,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Ergänzende Betreiberangaben zur Annahme/Öffnung, nicht unabhängig zweitbelegt: Die aktuelle Standortseite nennt Am Alten Gaswerk 1, 07743 Jena, Montag 09:00–12:00 Uhr, sowie Geraer Str. 40, 07745 Jena-Burgau, Montag 14:00–16:30 Uhr und Donnerstag 09:00–12:00 Uhr. Die Website führt Papier, Metall, Pappe und Bücher als Wert-/Rohstoffe und nennt gewerbliche Abholung von Papier, Pappe und „Einrichtungen“; die Kontaktseite listet zusätzlich Mobil 0176 20054737 neben der bereits eingetragenen Festnetznummer. Sie enthält zudem einen inzwischen vergangenen Urlaubshinweis für 13.07.–08.08.2026; daraus folgt keine aktuelle Schließung. Creditreform stützt die Zuordnung von Betrieb, Website und Festnetz, aber nicht unabhängig Öffnungszeiten, Filialen oder Leistungsumfang. Mangels zweitem unabhängigen Beleg und wegen ungelöster Anschriftenabweichung (Seed Zöllnitzer Str. 3 gegenüber den Website-Filialen und widersprüchlichen Impressumsanschriften) bleiben opening_hours, description, dropoff_json, pickup_json und Adressfelder unverändert; keine Koordinaten-Neugeocodierung. Restunsicherheit: welche Filiale die Seed-Adresse repräsentiert und ob die veröffentlichten Standortzeiten/Leistungen derzeit gelten; Quelle(n): https://www.altstoffhandel-jena.de/ ; https://www.altstoffhandel-jena.de/kontakt ; https://firmeneintrag.creditreform.de/07607/3410065517/HEIKO_SCHMIDT_ALTSTOFFHANDEL (Abruf 04.10.2026).]
+
+### Preisnachprüfung 07.10.2026
+
+- [Preisnachprüfung 07.10.2026: Die direkt abgerufenen Betreiberseiten für Metall und Papier zeigen „Aktueller Metallpreis: Auf Anfrage“ bzw. „Aktueller Papierpreis: Auf Anfrage“ und fordern dazu auf, den aktuellen Tagespreis telefonisch zu erfragen; keine numerischen Preise im ausgelesenen Seiteninhalt. Das ist ein Ankauf-/Vergütungspreis an den Anliefernden (buy), nicht ein Verkaufspreis und keine Entsorgungsgebühr. Die Metallseite nennt Annahme sämtlicher Metallarten/-geräte, die Papierseite u.a. Zeitungen, Zeitschriften, Kataloge, Telefonbücher, Büropapiere und Bücher; größere Mengen können nach Vereinbarung vor Ort abgeholt werden. Keine Preisangabe ergänzt, da nur auf Anfrage. Die bisherigen Standort-/Anschriftenvorbehalte und `status: pruefung` bleiben; Preise sind Betreiberangaben, nicht unabhängig zweitbestätigt. Quelle(n): https://www.altstoffhandel-jena.de/wert-und-rohstoffe/metall/ ; https://www.altstoffhandel-jena.de/wert-und-rohstoffe/papier/ ; https://www.altstoffhandel-jena.de/kontakt/]

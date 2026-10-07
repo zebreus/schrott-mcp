@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchenverzeichnisse wiederholen Dolziger Str. 30 und 030 4225831, aber es fehlt ein Betreiber-, Register- oder Behördenbeleg für den Händler. Der Vermerk „Jetzt geschlossen“ bei einem Verzeichnis reicht nicht für eine Schließungsfeststellung; `pruefung` bleibt. Keine belastbaren ANKAUF-Sätze, VERKAUF-Preise oder Gebühren gefunden.
 
 ## Timeline
 

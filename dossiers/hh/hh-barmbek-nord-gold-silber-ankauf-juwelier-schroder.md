@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein einzelner Gelbe-Seiten-Lead nennt Gold & Silber Ankauf Juwelier Schröder an der Fuhlsbüttler Str. 108, 22305 Hamburg-Barmbek-Nord, Tel. 0176 64031214 und Mo–Sa 11:00–17:30. Die Domain `gold-barmbek.de` lieferte beim dokumentierten Direktabruf 404; Betreiber/Registerbeleg oder zweiter qualifizierter Nachweis fehlt. Frontmatter-Kontaktfelder bleiben deshalb leer, Status `pruefung`.
+
+**Preise (Ankauf/Verkauf/Gebühren):** keine verifizierten Gold-/Silberankaufskurse, Verkaufspreise oder Gebühren veröffentlicht. **Offen:** Betreiber, aktuelle Geschäftsadresse und Kaufbedingungen direkt bestätigen. Quelle: https://www.gelbeseiten.de/gsbiz/c1faf946-3775-401b-b294-618b785ca221 (Einzel-Lead); https://gold-barmbek.de/ (nicht erreichbar, siehe Recherche 02.10.2026).
 
 ## Timeline
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Dossier ist ein ungeklärter Identitäts-/Fehlkategorisierungsfall: Portalangaben verknüpfen „Schott Rainer“ und die Nummer 030 3819906 mit Gartenfelder Straße 86–88; ein anderes Verzeichnis nennt unter nahezu derselben Adresse und derselben Nummer einen Allgemeinmediziner. Keine Primärquelle bestätigt Schrotthandel oder die Personenidentität. Kontakt-/Adressfelder sind daher nicht als gesichert zu lesen. Keine zuordenbaren Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
 

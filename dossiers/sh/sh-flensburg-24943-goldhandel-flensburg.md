@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt beschreibt Gold-/Edelmetallankauf (u. a. Gold, Silber, Platin und Palladium) mit Terminpflicht für Vor-Ort-Besuche und zusätzlichem Versandankauf; FAQ und Versandseite sind bei den Abwicklungsbedingungen nicht vollständig deckungsgleich. Frontmatter-Kontakt/Adresse/Öffnungszeiten blieben nach Owner-Gate ungefüllt. Trotz Goldkurs-/Marktcharts wurde keine händlerspezifische numerische Ankaufspreisliste gefunden; keine belegten Schrott-Ankaufpreise oder Gebühren (Recherche 04.10.2026).
 
 ## Timeline
 

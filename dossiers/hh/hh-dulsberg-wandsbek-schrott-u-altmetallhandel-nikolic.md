@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur ein nicht verifizierter Verzeichnis-Lead: Cylex-Suchtreffer nennt Graudenzer Weg 10, 22049 Hamburg, Tel. 0176 81237816 und 24-Stunden-Betrieb; die Detailseite lieferte 403. Kein Betreiber-/Registerbeleg und kein bestätigter Schrottankauf. Die Lead-Daten bleiben außerhalb der Frontmatter; keine Schließung behauptet.
+
+**Preise (Ankauf/Verkauf/Gebühren):** keine verifizierte Preis- oder Gebührenliste. **Offen:** Betreiber, Anschrift, Telefon, tatsächliche Öffnungs-/Annahmebedingungen sowie Preise direkt prüfen. Quelle(n): https://web2.cylex.de/firma-home/schrott-und-altmetallhandel-nikolic-16663123.html (unverifizierter Suchlead; Detailabruf 403); https://www.northdata.de/Nikolic,+Hamburg.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: `status` aktiv → pruefung. Der im Dossier dokumentierte Aktenstand enthält keinen Betreiber-/Registerbeleg; der konkrete Cylex-Eintrag ist nur ein Aggregator-Lead und war direkt nicht zugänglich (403). Damit ist `aktiv` nicht belegt; kein Schließungsbeleg, Telefonnummer/Adresse und behauptete 24-Stunden-Angabe bleiben ungeprüft. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren. Quelle(n): https://web2.cylex.de/firma-home/schrott-und-altmetallhandel-nikolic-16663123.html; https://www.northdata.de/Nikolic,+Hamburg; README.md, Source hierarchy.]
 
 ### Recherche 02.10.2026
 

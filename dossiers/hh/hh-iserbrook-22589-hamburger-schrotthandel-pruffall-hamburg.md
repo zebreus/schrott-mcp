@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Weiterhin ein **Prüffall**: Die neu direkt geöffnete Schrottplatz.org-Seite führt „Schrott Hamburger Schrott“ am Heerbrook 4, 22589, mit Tel. 0173 611 05 24 – passend zu den historischen Seed-Daten, aber nur als Portal-Lead. Sie belegt weder den Betreiber noch den aktuellen Betrieb; die frühere DNS-Prüfung vom 01.10.2026 dokumentierte `hamburger-schrott.de` als nicht auflösbar. Nicht mit dem anderswo ansässigen Anbieter hamburger-schrottverwertung.de zusammenführen.
+
+**Preise (Ankauf/Verkauf/Gebühren):** weder der Portal-Lead noch eine verifizierte Betreiberquelle nennt Kurse oder Gebühren. **Offen:** Betreiber und Telefonnummer verifizieren; bis dahin keine Anlieferempfehlung, `status: pruefung` bleibt. Quellen- und Prüfverlauf siehe Timeline.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Direktabruf der Portal-Detailseite „Schrott Hamburger Schrott“ ergab Heerbrook 4, 22589 Hamburg-Iserbrook und Tel. 0173 6 11 05 24 – identisch zu den historischen Seed-Werten. Das ist ein weiterer Aggregator-Lead, kein Betreiber-/Registerbeleg; keine Telefonnummer/Adresse in Frontmatter übertragen und keine Identität oder Aktivität bestätigt. Profil enthält keine Ankaufskurse, Verkaufspreise oder Gebühren. Klärfall Betreiber/Telefon bleibt offen; Quelle(n): https://www.schrottplatz.org/hamburg/schrott-hamburger-schrott-aYEPV3.html; README.md, Source hierarchy.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zuordnung „Kerstin Schwarzenberger“ ist nicht belegt: ein Verzeichnis-Lead an der Finsterwalder Str. 45 kollidiert mit der offiziellen DLZ-Schmidt-Zuordnung derselben Adresse zu einem anderen Unternehmen; ein weiterer Schwarzenberger-Treffer betrifft Sascha an anderer Adresse. Keine dieser Spuren belegt Kerstins Betrieb oder aktuelle Annahme. Status pruefung, nicht geschlossen; keine bestätigten Ankauf-, Verkaufs- oder Gebührenpreise.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: status aktiv → pruefung — die erneute Prüfung bestätigt keine aktuelle Annahme und keine Betreiberquelle für Kerstin Schwarzenberger; der vorhandene Verzeichnis-Lead widerspricht der offiziellen DLZ-Zuordnung derselben Straße zu einem anderen Unternehmen. Kein Schließungsbeleg und keine Kontakt-/Adressübernahme. Keine veröffentlichten Ankauf-, Verkaufs- oder Gebührenpreise gefunden. Quelle(n): https://www.schrottplatz.org/lauchhammer/schrott-schwarzenberger-kerstin-wertstoffhandel-aYEPzc.html (Aggregator); https://www.dlz-mietpark.de/impressum.htm (Betreiberseite eines anderen Unternehmens an derselben Adresse); https://recyclinghof-wertstoffhof.de/recyclinghof/brandenburg/lauchhammer/wertstoffhandel-sascha-schwarzenberger-bockwitzer-str-97/ (anderer Vorname/Standort, Lead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

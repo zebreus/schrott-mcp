@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Alian Service ist bislang nur als Gelbe-Seiten-Lead an der Augustastr. 15, 31141 Hildesheim, mit Mobilnummer 0176 62994748 belegt. Betreiberwebsite, Register-/Kommunalbestätigung und unabhängiger Zweitbeleg fehlen; Felder bleiben deshalb Klärfall und status `pruefung`. **Ankauf:** Schrotthandel-Kategorie im Verzeichnis, aber kein bestätigtes Sortiment oder Ankaufspreis. **Verkauf/Gebühren:** keine belastbaren Angaben. Quelle(n): https://www.gelbeseiten.de/gsbiz/b299a9e3 (Aggregator-Lead, siehe Recherche 02.10.2026)
 
 ## Timeline
 

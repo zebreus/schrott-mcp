@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Branchenverzeichnisse führen ALEX Goldankauf an Roßmarkt 39 A, 63739 Aschaffenburg, Telefon 06021 9218508; sie sind jedoch keine Betreiberquelle. Das Facebook-Profil „ALEX Goldankauf Juwelier“ konnte die Anschrift/Betreiberidentität nicht unabhängig bestätigen, und juwelier-alex.de ist eine fremde Kölner Firma. Daher wird der Status auf `pruefung` zurückgesetzt: Es gibt keinen Schließungsbefund, aber die bisherige Einstufung `aktiv` beruhte auf Aggregatorbewertungen, die nach Quellenstandard nur Leads sind. **Ankauf:** keine öffentlich belegten numerischen Gold-/Schmuckankaufskurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Öffnungszeiten bleiben unbestätigt.
 
 ## Timeline
 
@@ -47,3 +47,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 04.10.2026: Keine Frontmatter-Änderung. Das Örtliche/Sellwerk/GoLocal wiederholen Roßmarkt 39 A, 63739 Aschaffenburg und die Seed-Telefonnummer, bleiben aber Aggregator-Leads. Ein Facebook-Auftritt „ALEX Goldankauf Juwelier“ ist ein möglicher Betreiber-Social-Lead, konnte nicht als unabhängige zweite Quelle für Anschrift oder Betreiberidentität bestätigt werden; kein Registerbeleg oder passende Betreiber-Website verifiziert. Bestehende Werte unverändert; Öffnungszeiten nicht übernommen. Quelle(n): https://www.dasoertliche.de/Themen/ALEX-GOLDANKAUF-ASCHAFFENBURG-Zahngold-und-Silberankauf-Schmuck-Uhrenservice-Aschaffenburg-Innenstadt-Ro%C3%9Fmarkt ; https://sellwerk.de/firmenprofil/alex-goldankauf-aschaffenburg-zahngold-und-silberankauf-schmuckuhrenservice ; https://www.golocal.de/aschaffenburg/sonstige-gewerbe/alex-goldankauf-aschaffenburg-zahngold-silberankauf-schmuck-uhrenservice-70UNg/ ; https://www.facebook.com/p/ALEX-Goldankauf-Juwelier-100057339164830/ (Social-Profil, keine unabhängige Bestätigung der Felder)]
 
 - [Recherche 04.10.2026: Ergänzender Aktualitätshinweis: Meinungsmeister zeigt ein seit 09.01.2026 gültiges Bewertungszertifikat mit „verifiziertem Kontakt“ und aktuelle Bewertungen, darunter Einträge vom 01.10.2026. Das ist ein Drittanbieter-Reputations-/Verzeichnisbeleg, keine zulässige unabhängige Betreiber-/Registerbestätigung; deshalb keine zusätzliche Frontmatter-Änderung und keine Übernahme nutzergemeldeter Öffnungszeiten. Restunsicherheit aus dem vorstehenden Rechercheeintrag bleibt bestehen; Quelle(n): https://www.meinungsmeister.de/zertifikat/alex-goldankauf-aschaffenburg-zahngold-silberankauf-schmuck-uhrenservice-70UNg/ ; https://www.dasoertliche.de/Themen/ALEX-GOLDANKAUF-ASCHAFFENBURG-Zahngold-und-Silberankauf-Schmuck-Uhrenservice-Aschaffenburg-Innenstadt-Ro%C3%9Fmarkt]
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: Status `aktiv` → `pruefung`. Die frühere Aktivitätseinstufung stützte sich auf aktuelle Bewertungen/Verzeichnisse; gemäß README-Quellenhierarchie sind diese Leads, keine Betreiber-/Registerbelege. Erneute Sichtung der bekannten Profile ergab keine bestätigte Betreiberwebsite oder unabhängig zugeordnete Betreiber-Social-Quelle. Keine Schließung behauptet; Name, Adresse und Telefon bleiben als offengelegte Verzeichnisangaben bestehen. In den geprüften Profilen keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren. Quelle(n): https://www.dasoertliche.de/Themen/ALEX-GOLDANKAUF-ASCHAFFENBURG-Zahngold-und-Silberankauf-Schmuck-Uhrenservice-Aschaffenburg-Innenstadt-Ro%C3%9Fmarkt ; https://sellwerk.de/firmenprofil/alex-goldankauf-aschaffenburg-zahngold-und-silberankauf-schmuckuhrenservice ; https://www.golocal.de/aschaffenburg/sonstige-gewerbe/alex-goldankauf-aschaffenburg-zahngold-silberankauf-schmuck-uhrenservice-70UNg/]

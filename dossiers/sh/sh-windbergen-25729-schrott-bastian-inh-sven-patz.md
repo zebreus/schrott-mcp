@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Name und Inhaberangabe „Schrott Bastian, Sven Pätz“ sind bislang nicht durch eine Betreiber- oder Registerquelle bestätigt. Ein Portal nennt stattdessen „Schrott Kalle, Inh. Sven Pätz“ an der Wodansberger Str. 6; die Namensabweichung ist ungeklärt und reicht nicht für eine Zusammenführung oder Adressübernahme. Status `aktiv` bleibt als Seed-Bestand, aber nicht neu verifiziert. Keine Preisangaben für Ankauf, Verkauf oder Gebühren.
 
 ## Timeline
 

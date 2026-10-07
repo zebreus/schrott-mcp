@@ -10,7 +10,7 @@ phone: 0152 25357262
 email: luckau@hsr-schrotthandel.eu
 opening_hours: Mo-Fr 08:00-18:00, Sa 09:00-17:00 (Kontaktzeiten)
 website: http://www.hsr-schrotthandel.eu
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberseite unterscheidet den lokalen Ansprechpartner Luckau (Schrottabholung) von der ausgewiesenen Niederlassung in Schlieben OT Wehrhain; eine Annahmestelle oder Straßenadresse in Luckau ist nicht belegt. Die allgemeine HSR-Service-Seite sagt, dass HSR Schrott und Metalle ankauft und sofort vor Ort bezahlt, veröffentlicht aber keine konkreten Sätze. Das belegt Ankauf, nicht Verkaufspreise oder Gebühren; die Luckau-Kontaktzeiten sind keine Öffnungszeiten eines Hofs.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Betreiberseiten einzeln erneut gelesen. Die Luckau-Seite nennt weiterhin nur einen Ansprechpartner für Schrottabholung, dieselbe Telefonnummer/E-Mail und Kontaktzeiten Mo–Fr 08:00–18:00, Sa 09:00–17:00; Impressum ordnet die erreichbare Website der HSR Schrotthandel Hidanovic GmbH, Niederlassung Wehrhain, zu (website_status unbekannt → aktiv). Die allgemeine Service-Seite sagt „Wir bezahlen für Ihren Schrott sofort vor Ort“, bietet Abholung oder Selbstanlieferung an und nennt Ankauf aller Metallarten sowie Altpapier; diese allgemeinen Aussagen belegen keine Annahmestelle in Luckau. Das ist Ankauf, nicht ein veröffentlichter €/kg-Kurs; keine Verkaufs- oder Gebührenpreise. Preis-/Marktpreis-Treffer zur Entsorgungs-GmbH Luckau bzw. HSR Herzberger Schrott Recycling UG gehören anderen Rechtsträgern und wurden nicht übertragen. Deshalb keine Adresse/Öffnungszeit für Luckau ergänzt, status pruefung bleibt. Quelle(n): http://www.hsr-schrotthandel.eu/index.php/luckau.html ; http://www.hsr-schrotthandel.eu/index.php/service.html ; http://www.hsr-schrotthandel.eu/index.php/impressum.html ; https://www.hs-recycling.eu/ (anderer Betreiber: HSR Herzberger Schrott Recycling UG); https://www.entsorgungs-gmbh.de/Dienstleistungen/Schrott-und-Buntmetallhandel/Schrott-und-Buntmetallhandel.html (anderer Luckauer Betreiber).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

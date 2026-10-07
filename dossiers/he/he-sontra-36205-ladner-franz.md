@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Stadt Sontra nennt weiterhin das „Betriebsgelände der Firma Ladner, Brodberg“ als kommunale Abgabestelle für Autobatterien/-zubehör und Reifen samt Felgen. Das ist eine aktuelle kommunale Standortbestätigung, aber nennt weder Hausnummer noch konkrete Annahme von Schrott gegen Vergütung. Für Ankauf, Materialverkauf und Ladner-Gebühren wurden keine Tarife bestätigt; `Brodberg 15` bleibt auf die bereits dokumentierten Quellen gestützt.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Metalle
 - Adresse: Sontra 36205
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die kommunale Seite „Sonstiger Abfall“ der Stadt Sontra direkt abgerufen; sie verweist bei Autobatterien/-zubehör und Reifen inkl. Felgen auf das „Betriebsgelände der Firma Ladner, Brodberg“. Das stärkt den Bezug des Unternehmens zum Brodberg, bestätigt aber nicht selbst die Hausnummer 15 (diese bleibt mit den bereits dokumentierten HR-/Adressquellen zu prüfen), Telefon, Öffnungszeiten oder einen Ankaufpreis. Die auf derselben Stadtseite genannten EUR 30 pro Fahrt gelten ausdrücklich für die Abholung von Elektrogeräten durch den städtischen Bauhof — **nicht** als Ladner-Gebühr und nicht als Metallpreis. ANKAUF — kein Ladner-Kurs; VERKAUF — keine Teile-/Materialpreisliste; GEBÜHREN — keine Ladner-Tarife belegt. Keine zusätzlichen Frontmatter-Fills; Status pruefung bleibt. Quelle(n): https://www.sontra.de/seite/254956/sonstiger-abfall.html]

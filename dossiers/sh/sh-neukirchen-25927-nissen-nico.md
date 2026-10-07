@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle kommunale Unternehmensübersicht enthält keinen passenden Eintrag; die frühere kommunale Detail-URL ist nicht mehr erreichbar. Verzeichnis-Leads widersprechen sich bei Telefonnummern und nennen teils Hochhörn 23, teils 29. Weder Inhaberidentität noch Ankauf/Autoverwertung sind unabhängig bestätigt; Seed-Adresse und Status `pruefung` bleiben offen. Keine verifizierten Ankaufs-/Verkaufspreise oder Gebühren gefunden (Recherche 04.10.2026).
 
 ## Timeline
 

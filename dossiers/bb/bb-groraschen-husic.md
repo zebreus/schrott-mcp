@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schrotthandel Husic“ an Karl-Marx-Str. 18 erscheint in 11880, bislang ohne unabhängige Betreiber- oder Registerquelle. Das städtische Verzeichnis nennt separat „Dienstleistung Transporte und Schrotthandel Hedt“ an Neu Bückgen 28; kein Beleg für eine Verbindung. Seed-Adresse bleibt ein Lead, nicht geokodierungs- oder kontaktreif. Keine veröffentlichten Ankaufspreise, Verkaufspreise oder Gebühren belegt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute Namenssuche ergab keinen Betreiberauftritt oder unabhängigen Nachweis zusätzlich zum 11880-Treffer; das kommunale Verzeichnis führt weiterhin den anderen Betrieb „Hedt“ an Neu Bückgen 28. Keine Verbindung konstruiert und keine Frontmatter-Fills. In den geprüften Quellen keine konkrete Ankaufpreisliste, Verkaufspreise oder Gebühren; Status pruefung bleibt. Quelle(n): https://www.11880.com/branchenbuch/grossraeschen/060441363B113521775/schrotthandel-husic.html (Aggregator); https://www.grossraeschen.de/verzeichnis/visitenkarte.php?mandat=21796 (kommunaler Eintrag für Hedt, kein Husic-Beleg).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

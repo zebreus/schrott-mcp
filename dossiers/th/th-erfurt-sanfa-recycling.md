@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registerdaten führen Sanfa-Recycling UG, HRB 511280 AG Jena, mit dem Gesellschaftszweck Handel mit Sekundärrohstoffen. Die Firmenprofile widersprechen sich beim Standort: North Data führt Stotternheimer Straße 37 b, 99087 Erfurt; Creditsafe führt Walter-Gropius-Straße 6, 99085 Erfurt. Beides sind Unternehmensdatenbank-Angaben und keine geprüfte heutige Annahmestelle. Anschrift und Tätigkeit vor Ort bleiben offen; Status `pruefung`. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
 
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Website-Status auf unbekannt gesetzt, da kein zurechenbarer Betreiberauftritt festgestellt wurde. NorthData nennt für Sanfa-Recycling UG (AG Jena HRB 511280) Stotternheimer Str. 37 b, 99087 Erfurt und den Zweck Handel mit Sekundärrohstoffen; dies ist hier nur ein einzelner Registerdatenbank-Beleg, ohne unabhängige Zweitquelle zur Identität/Anschrift und ohne ausreichenden Nachweis eines heutigen Betriebs bzw. aktueller Annahme. Daher Straße, PLZ, Beschreibung und Kontakte nicht übernommen; Prüfstatus unverändert, keine Schließung belegt. Quelle(n): https://www.northdata.de/?query=Sanfa-Recycling+UG+Erfurt ; https://www.northdata.de/Sanfa-Recycling%20UG,%20Erfurt/Amtsgericht%20Jena%20HRB%20511280.]
+
+### Adress-Gegenprobe 07.10.2026
+
+- [Adress-Gegenprobe 07.10.2026: Creditsafe führt die gleichnamige Sanfa-Recycling UG (haftungsbeschränkt) mit HRB 511280, Gründung 2015 und Anschrift Walter-Gropius-Straße 6, 99085 Erfurt; sein Firmenprofil stuft sie als „Actively Trading“ ein und nennt letzte hinterlegte Finanzdaten 2023. Das widerspricht der North-Data-Anschrift Stotternheimer Straße 37 b, 99087 Erfurt (dort HRB 511280 und Registerzweck Sekundärrohstoffhandel). Creditsafe ist ein Firmeninformationsdienst, keine Primärquelle für aktuelle Betriebs-/Annahmestellen; die Aktivitätskennzeichnung beweist keinen Schrottplatz-/Publikumsbetrieb. Anschrift/PLZ/Kontakte bleiben daher leer und Status pruefung. Kein Preisbeleg: weder konkrete Vergütung beim Ankauf noch Verkaufspreise oder Entsorgungsgebühren in den geprüften Unternehmensprofilen. Offen: aktuelle Registeranschrift und tatsächliche Betriebsadresse/Annahme. Quelle(n): https://www.creditsafe.com/business-index/en-ie/company/sanfa-recycling-ug-haftungsbeschrankt-de20186635 ; https://www.northdata.de/Sanfa-Recycling%20UG,%20Erfurt/Amtsgericht%20Jena%20HRB%20511280]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

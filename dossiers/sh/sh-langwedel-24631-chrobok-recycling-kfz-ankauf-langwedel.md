@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Kleinanzeigen-Profil unter dem Namen „Chrobok Recycling KFZ-Ankauf Langwedel“ und die weiterhin indexierten Anzeigen belegen einen Werbeauftritt, aber weder Betreiberidentität noch festen Betriebsstandort. Die in einem Suchtreffer sichtbaren 123 € VB sind nur ein nicht direkt abrufbarer Plattform-Anzeigenpreis; sie belegen weder eine verbindliche Ankaufvergütung für ein bestimmtes Fahrzeug/Material noch eine Gebühr. Status `pruefung` bleibt, bis Inhaber und Standort unabhängig verifiziert sind. Keine belastbare Preisliste gefunden.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die aktuelle Suchindexierung führt weiterhin das Kleinanzeigen-Profil „Chrobok Recycling KFZ-Ankauf Langwedel“ sowie die Anzeige „Ankauf von Altfahrzeugen Schrott PKW“ aus Nortorf; eine andere Profilanzeige zeigt 123 € VB. Kleinanzeigen blockierte den Direktabruf (HTTP 403), daher sind Identität, Anzeigevolltext und Preiszweck nicht unabhängig prüfbar. 123 € VB wird ausdrücklich nicht als tatsächlicher Ankaufpreis oder Entsorgungsgebühr übernommen; Adresse, Telefon und Status bleiben unverändert. Quelle(n): https://www.kleinanzeigen.de/pro/kfz-ankauf-langwedel ; https://www.kleinanzeigen.de/s-anzeige/ankauf-von-altfahrzeugen-schrott-pkw/3416361411-216-18924 (Suchindexierung 07.10.2026; Direktabruf 403)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

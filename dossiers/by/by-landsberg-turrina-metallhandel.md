@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registerprofil und HRB 24893 führen die Turrina Metallhandel UG (haftungsbeschränkt) als aktiv, mit Sitz Max-von-Eyth-Straße 6, 86899 Landsberg am Lech und Gesellschaftszweck Handel mit Bunt- und Edelmetallen, Elektronik und Schrott. Der Registergegenstand belegt nicht automatisch aktuelle Annahme von Privatkunden; eine Betreiberwebsite, Annahmebedingungen und tagesaktuelle Metallpreise wurden nicht gefunden. **Ankauf:** keine numerischen Kurse; **Verkauf:** keine öffentliche Preisliste; **Gebühren:** keine Tarife belegt. Telefon 08191 59436 stammt aus übereinstimmenden Branchenverzeichnissen, nicht aus einem gelesenen Betreiberauftritt.
 
 ## Timeline
 
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel
 - Adresse: Landsberg (Max-von-Eyth-Str. 6)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Registerprofil erneut direkt geprüft: Turrina Metallhandel UG (haftungsbeschränkt), HRB 24893 AG Augsburg, aktiv, Max-von-Eyth-Straße 6, 86899 Landsberg am Lech; der eingetragene Unternehmensgegenstand nennt Handel mit Bunt-/Edelmetallen, Elektronik und Schrott. Die Profilseite verweist auf Registerunterlagen mit Stand 07.10.2026; keine Betreiberwebsite, Öffnungszeiten, Annahmebedingungen oder numerischen Ankauf-/Verkaufspreise bzw. Gebühren. Keine Telefonübernahme aus Branchenverzeichnissen in die Betreiberquellenkategorie umgedeutet. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/by/Augsburg/HRB/24893/Turrina-Metallhandel-UG-haftungsbeschraenkt ; https://www.northdata.de/Turrina+Metallhandel+UG,+Landsberg+am+Lech]

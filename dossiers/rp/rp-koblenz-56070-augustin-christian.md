@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten und UPA-Online führen „Augustin Christian“ bzw. „Auto Augustin“ als Autoverwertung in Schönbornsluster Str. 29, 56070 Koblenz; Gelbe Seiten nennt 0261 82101 und UPA verlinkt auf autoaugustin.de. Das sind Verzeichnisleads, kein verifizierter Betreiber-/Registerbeleg; der verlinkte Betreiberauftritt konnte nicht unabhängig bestätigt werden. Keine Feldänderung, Name/Standort bleiben Klärfall. ANKAUF: keine Fahrzeugangebote/Preise verifiziert; VERKAUF: keine Ersatzteil-Preisliste; GEBÜHREN: Abholung/Verwertungskosten nicht belegt.
 
 ## Timeline
 
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altautos
 - Adresse: Koblenz 56070
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gegenrecherche fand Gelbe-Seiten-Listings „Augustin Christian Autoverwertung“, Schönbornsluster Str. 29, 56070 Koblenz, Tel. 0261 82101; UPA-Online führt „Auto Augustin“ an derselben Anschrift und verlinkt autoaugustin.de. Das sind zwei Verzeichnisquellen, keine Betreiber-/Registerbestätigung; direkter Abruf der Domain lieferte keinen verwertbaren Betreiberinhalt (Transportfehler ist kein Schließungsbeleg). Name „Christian“/Marke „Auto Augustin“ und aktuelle Annahme bleiben offen; keine Felder geändert. ANKAUF: keine numerischen Autoankaufspreise; VERKAUF: keine Preisliste; GEBÜHREN: keine verifizierten Verwertungs-/Abholgebühren. Quelle(n): https://www.gelbeseiten.de/branchen/gebrauchtwagen/koblenz%20am%20rhein ; https://www.upa-online.de/autoverwertung-autohandel-autoteile-u-zubehoer-koblenz-26fbfdf400.html ; http://autoaugustin.de (nicht verwertbarer Abruf).]

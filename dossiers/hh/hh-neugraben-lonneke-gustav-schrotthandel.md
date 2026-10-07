@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter Seed-/Verzeichnis-Lead „Lönneke Gustav Schrotthandel“ an der Cuxhavener Str. 394, 21149, mit Tel. 040 7018604. Die älteren Einträge bei MisterWhat/Stadtbranchenbuch und weiteren Verzeichnissen liefern keine Betreiberseite; die dokumentierte Gegenrecherche fand keinen Treffer in 11880 oder Gelbe Seiten Hamburg. Adresse, Telefonnummer und aktueller Betrieb bleiben ungeprüft; `status: pruefung` bleibt.
+
+**Preise (Ankauf/Verkauf/Gebühren):** in den aufgeführten Verzeichnis-Leads keine belastbaren Ankaufskurse, Verkaufspreise oder Gebühren. **Offen:** Existenz/Betreiber und Annahmeangebot direkt klären, bevor Kundschaft zur Adresse geschickt wird. Quelle(n): https://www.misterwhat.de/company/2120181-loenneke-gustav-schrotthdl-hamburg; https://hamburg.stadtbranchenbuch.com/116259.html; https://www.11880.com/suche/schrott/hamburg; https://www.gelbeseiten.de/branchen/schrott/hamburg.
 
 ## Timeline
 

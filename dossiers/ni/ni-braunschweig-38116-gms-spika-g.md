@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Derzeit nicht belastbar verifizierter Kleinhändler-Klärfall. Das Telefonbuch nennt „GMS Spika G.“ an Neudammstr. 20, 38116 Braunschweig-Lamme, Tel. 0531 5168773; der ältere Gelbe-Seiten-Lead stimmt damit überein. Beide sind Branchenverzeichnisse und zählen nach der Projektregel nicht als unabhängiger Betreiber-/Registerbeleg. **Ankauf:** nur als Schrott-Branche gelistet, kein verifizierter Ankaufskatalog oder Preis. **Verkauf/Gebühren:** keine Preis- oder Gebührendaten. Adresse und Kontakt bleiben unverifiziert. Quelle(n): https://www.dastelefonbuch.de/Branchen/Schrottplatz/Braunschweig ; https://www.gelbeseiten.de/branchen/schrott/braunschweig
 
 ## Timeline
 

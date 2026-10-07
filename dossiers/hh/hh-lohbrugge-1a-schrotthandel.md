@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Identität „1A Schrotthandel“ am Seed-Standort Korachstr. 7 ist weiter ungeklärt. Die hamburg.de-Detailseite für diese Hausnummer gehört zu einem Entrümpelungsangebot, nicht zu einem belegten Schrotthandel; der ähnliche Billbrooker Betrieb ist registerseitig eine andere Gesellschaft und nicht mit Lohbrügge verknüpft. Keine Umzugs-/Nachfolgekette und kein aktiver Annahmebetrieb belegt; keine Seed-Kontaktangaben transplantieren.
+
+**Preise (Ankauf/Verkauf/Gebühren):** kein zuordenbarer Preisbeleg; selbst die Billbrooker FAQ nennt nur individuelle Fahrzeugbewertungen und wäre hier ohnehin fremd. **Offen:** ob der Seed eine Entrümpelungsfirma falsch als Schrotthandel erfasste oder ein separater Betrieb existiert. Status `pruefung`, keine Schließung behauptet. Quellen siehe Recherche 04.10.2026.
 
 ## Timeline
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Kurt H.K.“ ist nur durch ältere Verzeichniseinträge mit Am Tidehafen 1/1A und Tel. 04404 3026 beschrieben; der aktuelle Betreiber am gemeinsamen Standort ist nicht geklärt. Die dort amtlich/primär belegte Sperling KG betreibt Behälter- und Apparatebau, was weder Kurt H.K. bestätigt noch dessen Nichtexistenz beweist. Elsfleth liegt in Niedersachsen (Seed-Bucket HB als offener Korrekturhinweis). Keine aktuelle Annahme oder bezifferten Ankaufspreise, Verkaufspreise oder Gebühren belegt; Status `pruefung`.
 
 ## Timeline
 

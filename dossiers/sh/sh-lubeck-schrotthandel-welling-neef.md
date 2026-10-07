@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Eintrag „Schrotthandel Welling-Neef GbR“ ist bislang nur durch Verzeichnisse auffindbar. Eine aktuelle Suche findet die Lead-Anschrift Einsiedelstr. 6; das offizielle Landesportal führt an derselben Adresse jedoch auch Lagerhaus Lübeck Dr. Pleines GmbH & Co. KG (sowie einen weiteren Betrieb). Das kann Mehrfachnutzung sein und beweist weder Identität noch Nichtexistenz; es ist ein Adress-Klärfall, keine Grundlage für eine Zuordnung. Status `pruefung`; keine verifizierten Ankaufpreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die Lübeck-Suche bei Gelbe Seiten führt „Schrotthandel Welling-Neef GbR“ an Einsiedelstr. 6, 23554 Lübeck; dies bleibt ein Verzeichnis-Lead. Das offizielle Landesportal Schleswig-Holstein listet an Einsiedelstraße 6 zugleich Lagerhaus Lübeck Dr. Pleines GmbH & Co. KG (und Johannsen & Sohn). Eine Mehrfachnutzung der Adresse ist möglich; daraus folgt keine Verbindung oder Widerlegung der Welling-Neef-Zeile. Keine Felder geändert; Identität/Standort weiter offen. Keine Preisangaben gefunden. Quelle(n): https://www.gelbeseiten.de/branchen/schrottplatz/l%C3%BCbeck ; https://umweltanwendungen.schleswig-holstein.de/Abfallentsorgungsanlagen/ap_login.php (amtliche Anlagenliste, letzte Aktualisierung 30.08.2024; Abruf 07.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

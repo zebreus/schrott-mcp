@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schrottplatz Lange Jörg“ ist in den bisherigen Recherchen ausschließlich als wiederholter Portal-Eintrag mit Ochsenweg 5 und Telefonnummer aufgetaucht; der dort verlinkte Homepage-Button führt zurück zum Verzeichnis. Kein Betreiber- oder Registerbeleg bestätigt Identität, Standort oder heutigen Betrieb. Status `pruefung`; keine Preis-, Annahme- oder Abholbedingungen belegt (Recherche 04.10.2026).
 
 ## Timeline
 

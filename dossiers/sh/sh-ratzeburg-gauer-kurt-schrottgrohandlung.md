@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Zeile beschreibt eine Schrottgroßhandlung in Ratzeburg, aber die bisherigen Recherchen fanden nur Verzeichnisangaben und keinen zuordenbaren Betreiber-/Registerbeleg. Name, Standort, heutige Tätigkeit und Annahmebedingungen bleiben daher ungeklärt; Status `pruefung`. Keine verifizierten Ankaufpreise, Verkaufspreise oder Gebühren gefunden.
 
 ## Timeline
 

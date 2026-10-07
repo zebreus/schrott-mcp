@@ -38,3 +38,7 @@ provenance_origin: table
 
 - [Recherche 06.10.2026: Gelbe Seiten führt „Schrott & Metall Peter Ziegler“, Im Knie 1, 28757 Bremen-Schönebeck, Tel. 0173 7182171; Das Örtliche gibt für denselben Eintrag abweichende Öffnungszeiten an. Da keine Betreiberseite/Registerquelle gefunden wurde und Stundenangaben widersprechen, keine Betriebszeit übernommen, Status pruefung. Schönebeck wird laut offizieller Bremer Stadtteilinformation dem Stadtteil Vegesack zugeordnet; city deshalb als Bremen-Schönebeck präzisiert. Quelle(n): https://www.gelbeseiten.de/gsbiz/f49e0fd8-4e2d-4b5c-8d73-fb7dce4162db ; https://www.dasoertliche.de/ (Suche „Peter Ziegler Schönebeck“) ; https://www.bremen.de/leben-in-bremen/wohnen/stadtteile/vegesack]
 - [Recherche 06.10.2026: Keine verifizierte numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. Im Knie 1 bleibt Verzeichnis-Kandidat; Geocoding erst nach Bestätigung der aktuellen Betreiberadresse.]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Golocal führt zusätzlich peter.ziegler11@yahoo.com für „Schrott & Metall Peter Ziegler“, Im Knie 1, 28757 Bremen, Tel. 0173 7182171. Dies ist ein dritter Verzeichniseintrag, keine Betreiber-/Registerquelle und keine unabhängige Verifikation; E-Mail daher als Kontaktlead dokumentiert, nicht in Frontmatter übernommen. Die abweichenden Portal-Öffnungszeiten bleiben ungeklärt. Keine Ankaufspreisliste, Verkaufspreise oder Gebühren belegt. Quelle: https://www.golocal.de/bremen/recycling/schrott-metall-peter-ziegler-YVap6/]

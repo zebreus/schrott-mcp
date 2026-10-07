@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt nur den häufigen Namen „Martin Schmidt“, Gießen 35398, und einen unbestätigten Juwelier-Verdacht. Die bisherigen Personen-/Unternehmenssuchen und der abweichende Aßlarer HR-Treffer ergeben keine eindeutig zuordenbare Schrott-, Autoverwertungs- oder Juweliereinheit. Es fehlen Betreiberbeleg, vollständige Anschrift und belastbare Kontaktdaten; Name/Ort nicht aus ähnlich benannten Betrieben ergänzen. ANKAUF, VERKAUF und GEBÜHREN: keine belegten Angaben. Status bleibt `pruefung`.
 
 ## Timeline
 

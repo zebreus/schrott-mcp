@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuelle Betreiberwebsite „D. Laroche Recycling“ weist Mendelssohnstraße 11, 56076 Koblenz, Telefon +49 162 3049215, E-Mail info@laroche-recycling.com und Mo–Fr 08:00–18:00 aus; das Impressum nennt abweichend Dominic **Larohe**. Schrotthandel, Metallhandel, Containerdienst und Demontage werden beworben. Mangels Register-/zweitem Identitätsbeleg bleibt offen, ob dieser Einzelbetrieb exakt der Seed-Zeile entspricht; deshalb keine Frontmatter-Übernahme. Preise werden als individuelles, kostenloses Angebot erfragt, keine numerische Liste.
+Die aktuelle Betreiberwebsite „D. Laroche Recycling“ weist Mendelssohnstraße 11, 56076 Koblenz, Telefon +49 162 3049215, E-Mail info@laroche-recycling.com und Mo–Fr 08:00–18:00 aus; das Impressum nennt abweichend Dominic **Larohe**. Die Services-Seite bewirbt kostenlosen Schrottabtransport ab 500 kg, Containerlösungen von 7–20 m³, sofortige Bezahlung vor Ort und Tagespreise, aber keine numerischen Ankaufssätze; die Bedingungen der als kostenlos beworbenen Container sind nicht näher spezifiziert. Mangels Register-/zweitem Identitätsbeleg bleibt offen, ob dieser Einzelbetrieb exakt der Seed-Zeile entspricht; deshalb keine Frontmatter-Übernahme. Verkaufspreise und weitere Gebühren sind nicht veröffentlicht.
 
 ## Timeline
 
@@ -45,3 +45,7 @@ Die aktuelle Betreiberwebsite „D. Laroche Recycling“ weist Mendelssohnstraß
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Startseite, Impressum und Services direkt abgerufen: Betreiberauftritt nennt weiterhin Schrott-/Metallankauf, Abholung, Container, Demontage und seit 2008 Tätigkeit; Impressum lautet Dominic Larohe, die Marke/Seitentitel „D. Laroche“, Mendelssohnstraße 11, 56076 Koblenz. Website nennt Mo-Fr 08:00-18:00 und kostenlose unverbindliche Anfrage, aber keine konkreten Ankauf- oder Containerbeträge. ANKAUF: Tages-/Einzelangebot ohne veröffentlichte Sätze; VERKAUF: keine Preisliste; GEBÜHREN: Angebot auf Anfrage, keine veröffentlichte Tabelle. Einzelunternehmer-/Namenszuordnung weiterhin ungeklärt, keine Datenübernahme. Quelle(n): https://laroche-recycling.com/; https://laroche-recycling.com/impressum/; https://laroche-recycling.com/services/; https://laroche-recycling.com/kontakt/.]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Aktuelle Betreiber-Services-Seite präzisiert die Abholschwelle: kostenfreie Schrottabholung ab 500 kg; Containergrößen 7–20 m³ werden als flexible/kostenfreie Lösungen beworben. Zugleich nennt dieselbe Seite sofortige Zahlung vor Ort und aktuelle Tagespreise, ohne Materialstaffel oder Zahlen zu veröffentlichen. ANKAUF: Tagespreis/sofortige Zahlung, keine numerischen Sätze; VERKAUF: keine Liste; GEBÜHREN: Abholung ab 500 kg kostenfrei beworben, Containerkonditionen/-einschränkungen nicht transparent spezifiziert. Identitäts-/Namensabweichung und keine rechtsträgerseitige Zweitquelle bleiben ungelöst, daher keine Frontmatter-Änderung. Quelle(n): https://laroche-recycling.com/services/ ; https://laroche-recycling.com/schrotthandel/ ; https://laroche-recycling.com/containerdienst/ ; https://laroche-recycling.com/impressum/.]

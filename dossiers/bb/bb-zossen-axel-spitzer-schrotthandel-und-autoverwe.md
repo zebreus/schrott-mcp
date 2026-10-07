@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unter An den Wulzen 10 führt 11880 „Metallaufbereitung Spitzer“ mit der Seed-Telefonnummer; ein zweites Verzeichnis stimmt bei diesen Daten überein. Der Zusatz „Axel“, Autoverwertung und die Betreiberidentität sind dadurch nicht belegt. Bis zur Klärung keine Umbenennung oder Anbieter-Merge. Status pruefung; keine verifizierten Preise für Ankauf, Fahrzeugverkauf oder Gebühren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: 11880 führt weiterhin „Metallaufbereitung Spitzer“ an An den Wulzen 10, Zossen, Tel. 03377 332630; Name und Kontaktdaten stimmen mit Seed-Werten außer dem Personenzusatz „Axel“ überein. Das bleibt ein einzelner Aggregator-Beleg und löst Identität/Autoverwertung nicht auf; keine Umbenennung oder Datenübertragung. Keine veröffentlichten Ankaufs-, Fahrzeugverkaufs- oder Gebührenpreise gefunden. Quelle: https://www.11880.com/branchenbuch/zossen-bei-berlin/060441364B26682097/metallaufbereitung-spitzer.html (Aggregator).]
 
 ### Recherche 02.10.2026
 

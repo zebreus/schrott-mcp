@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed ordnet „Josef Ziegler RohProd.“ der Mainstraße 4, Fulda 36043 zu, bisher nur mit Telefonverzeichnis als Provenienz. Ein eng begrenzter NorthData-Suchlauf findet für die dort normalisierte Anfrage keine Treffer; das verifiziert weder die Adresse noch schließt es einen nicht registerpflichtigen Einzelbetrieb aus. Es fehlen Betreiber-/Registerbeleg und aktuelle Geschäfts-/Annahmebestätigung. ANKAUF, VERKAUF und GEBÜHREN: keine belegten Kurse oder Tarife.
 
 ## Timeline
 
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott/Rohprodukte
 - Adresse: Fulda 36043 [Website-Recherche verzeichnis: services: Rohprodukte, Schrotthandel; notes: 11880-Verzeichnis (Josef Ziegler RohProd.).]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: NorthData-Suchansicht zur Kombination „Josef Ziegler RohProd., Fulda“ direkt geprüft. Die Suchmaschine normalisiert die Anfrage zu „Roh, Josef Ziegler, Fulda“ und meldet „Keine Resultate“; wegen dieser Normalisierung und der Registerspiegel-Abdeckung ist das nur ein begrenzter Suchbefund, kein Beweis für Nichtexistenz oder Geschäftsaufgabe. Keine passende Betreiberseite/Registereinheit, keine zweite Quelle zur Seed-Adresse Mainstr. 4 und kein aktueller Annahmenachweis gefunden. ANKAUF — kein Kurs; VERKAUF — keine Preisliste; GEBÜHREN — keine Angaben. Keine Frontmatter-Änderung, Status pruefung bleibt. Offen: Identität und heutiger Betrieb. Quelle(n): https://www.northdata.de/Josef+Ziegler+RohProd.,+Fulda (Suchansicht; normalisierte Anfrage „Roh, Josef Ziegler, Fulda“)]
