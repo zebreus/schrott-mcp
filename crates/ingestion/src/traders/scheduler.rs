@@ -3,8 +3,8 @@
 //! Each handler has a next-due timestamp (UTC). Every run executes what's
 //! due and advances its stamp — sequential, so overlap is impossible by
 //! construction and one failing trader never stops the rest. Initial
-//! stamps spread across the interval by slug hash (no thundering herd
-//! after restarts); `DailyAt` stamps are the configured local times.
+//! interval phases are stable across restarts and spread by slug hash (no
+//! thundering herd); `DailyAt` stamps are the configured local times.
 
 use std::collections::HashMap;
 use std::sync::Mutex;
@@ -37,7 +37,14 @@ fn stagger_secs(slug: &str, interval_secs: u64) -> u64 {
 pub fn initial_due(boot: DateTime<Utc>, slug: &str, schedule: &Schedule) -> DateTime<Utc> {
     match schedule {
         Schedule::Every { secs } => {
-            boot + chrono::Duration::seconds(stagger_secs(slug, *secs) as i64)
+            let interval = (*secs).max(1) as i64;
+            let phase = (stagger_secs(slug, *secs) as i64).rem_euclid(interval);
+            let elapsed = boot.timestamp().rem_euclid(interval);
+            let mut until_phase = (phase - elapsed).rem_euclid(interval);
+            if until_phase == 0 && boot.timestamp_subsec_nanos() > 0 {
+                until_phase = interval;
+            }
+            boot + chrono::Duration::seconds(until_phase)
         }
         Schedule::DailyAt { times } => next_daily_after(boot, times),
     }
@@ -264,6 +271,20 @@ mod tests {
             .unwrap()
             .signed_duration_since(*dues.iter().min().unwrap());
         assert!(span > chrono::Duration::minutes(30), "span {span}");
+    }
+
+    #[test]
+    fn interval_stagger_is_stable_across_restarts() {
+        let slug = "he-hanau-63450-goldfuxx-hanau-ophirum";
+        let period = 6 * 3600;
+        let phase = super::stagger_secs(slug, period);
+        let target = Utc.timestamp_opt((period * 100 + phase) as i64, 0).unwrap();
+        let schedule = Schedule::every_6h();
+        let first_boot = target - chrono::Duration::hours(3);
+        let second_boot = target - chrono::Duration::hours(2);
+
+        assert_eq!(initial_due(first_boot, slug, &schedule), target);
+        assert_eq!(initial_due(second_boot, slug, &schedule), target);
     }
 
     #[tokio::test]
