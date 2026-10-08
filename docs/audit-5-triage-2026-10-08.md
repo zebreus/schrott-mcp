@@ -78,7 +78,7 @@ Implementierung des Dossier-Koordinatenimports ist separat beauftragt.
 | 4780 | FTS-Wortsuche ist keine Teilwortsuche. Erwartung und tatsächliche Suchoberfläche prüfen, nicht allein aus LIKE-Vergleich einen Defekt ableiten. |
 | 4781 | Händlerübergreifende Schreibvarianten beweisen keine Kollision. Nicht ohne fachliche Prüfung Sorten verschiedener Händler vereinheitlichen. |
 | 4783 | Veraltete Mapping-Schlüssel: Alter allein ist kein Löschbeleg. Eng belegte Fehlmapping-Pointer werden per getesteter Migration bearbeitet; übrige 115 gemeldete Zeilen noch einzeln prüfen. |
-| 4784 | VHM: gemeldete JavaScript-Preise und bisherige Akzeptanz-only-Ingestion live prüfen; alte Hartmetallwerte sind nicht durch einen Website-Check bestätigt. Offen. |
+| 4784 | Bestätigt: Betreiber-Script lädt `/vhm-preise-aktuell.php`; Live-JSON liefert 53/50/53/50 EUR/kg und Schlamm nur nach Analyse, updatedAt 2026-10-05T08:51:01+00:00. Handler-Reparatur beauftragt; alte 65/63-Werte sind keine aktuellen Quellpreise. |
 | 4785 | Metallorum: Brutto-/Nettospalten und tatsächliche Ankaufskonditionen prüfen. Über Börsenkurs allein beweist keinen falschen Ankauf; steuerliche Vergleichbarkeit bleibt offen. |
 | 4786 | Rötgesbüttel: wechselnde Quellfassungen reproduzieren. Keine stille Auswahl des höheren oder niedrigeren Preises. Offen. |
 | 4787 | Zinn: Huth-Lötzinn/Geschirr gegen Originalsorten prüfen. Unspezifisches Zinn nicht nur anhand niedrigen Preises als Legierung einstufen. Offen. |
@@ -96,3 +96,17 @@ kanonische Betreiberzuordnung und sichtbare Konditionen sind noch zu klären.
 Normale HTTPS-Pushes scheiterten zuletzt an fehlenden Zugangsdaten.
 Ein Fehler von `gh` allein ist kein Beweis, dass Git-Push unmöglich ist;
 maßgeblich ist der tatsächliche Pushversuch.
+
+## Laufende Anschlussarbeiten
+
+Vier getrennte Code-/Quellenprüfungen: Dossier-Koordinatenimport,
+eng belegte Fehlmapping-Preispointer, VHM-Live-JSON sowie Metallorum-
+Steuer-/Kundenbasis. Noch kein Deployment dieser Arbeiten.
+
+VHM-Quellpfad vom Owner direkt gelesen:
+<https://www.vhm-hartmetall.de/script.js?v=vhm-preise-20260928-1>
+lädt <https://www.vhm-hartmetall.de/vhm-preise-aktuell.php> mit
+Cache-Buster und `no-store`. JSON am 08.10.2026 HTTP 200, `ok: true`:
+Wendeschneidplatten und VHM-Fräser/Bohrer 53,00 EUR/kg, gemischt und
+Widia 50,00 EUR/kg, Schlamm `amount: null` / „nach Analyse“.
+Hinweis: sauber sortiertes Material, alle Preise pro kg.
