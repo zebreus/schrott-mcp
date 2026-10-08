@@ -238,6 +238,17 @@ bestätigt. Weber-Websitefill trotz erreichbarer Seite nicht freigegeben:
 Identität bisher nur Einzelbeleg, URL bleibt im Text. Keine FMT-Schließung
 ohne unabhängige Bestätigung, keine geratenen Koordinaten oder Ankaufkurse.
 
+Release `fa2e115` am 08.10.2026 11:05 UTC deployed: acht Seed-Tests,
+Rustfmt und Diffprüfung grün; Arbeitsbaum vor Build/Installation sauber.
+Seed schreibt 20 Dossiers, Read-only Spotprüfung Alunorf/Schlör/Schriever/
+Weber bestätigt die freigegebenen Felder. Öffentliche Health-URL, Worker
+und MCP-Aufruf erfolgreich. Alle 60 Wellen-Dossiers nun integriert;
+Identitäts-/Annahme-Klärfälle bleiben offen, nicht pauschal geschlossen.
+Push auch mit explizitem `gh auth git-credential` ohne nutzbare Credentials.
+Backup `/var/tmp/schrott-mcp-backup-before-fa2e115/`.
+Server-SHA256: `dd936ff679092b16c5daa416173ed57141c137ca55e03d07e2e348b3ee24f6d9`.
+Worker-SHA256: `13f26d4f7837c49d194b374f706bba3ed4206a83e83b35ba97588248c8f857f5`.
+
 VHM-Quellpfad vom Owner direkt gelesen:
 <https://www.vhm-hartmetall.de/script.js?v=vhm-preise-20260928-1>
 lädt <https://www.vhm-hartmetall.de/vhm-preise-aktuell.php> mit
