@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Weinand bezeichnet die frühere Sammelstelle in Simmertal ausdrücklich als heute selbständige Weisi Schrott-Recycling GmbH und nennt Binger Landstraße 9, 55618 Simmertal, 06754/8148 sowie **derzeit keine Materialannahme**. Neu gefundenes Registerprofil: WEISI Schrott-Recycling GmbH, AG Bad Kreuznach HRB 3049, Geschäftsführer Manfred Weinand, registrierte Anschrift „Bahngelände“, 55618 Simmertal. Die unvollständige Registeranschrift ist nicht mit der konkret genannten Betriebsadresse gleichzusetzen. Registeraktivität belegt keine offene Materialannahme; Status bleibt `pruefung`, nicht `geschlossen`.
+
+**Preise:** Keine WEISI zuordenbare Ankauf-, Verkaufs- oder Gebührenliste. Weinands allgemeine Tagespreis-/Annahmetexte betreffen Bad Kreuznach und dürfen nicht trotz desselben Seitenauftritts auf Simmertal übertragen werden.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Registerfund)
+
+- [Recherche 08.10.2026: Frühere Aussage „kein Registerbeleg gefunden“ durch neuen Fund ergänzt, nicht als Nichtexistenz fortgeschrieben: direkt gelesenes Registercheck-Profil WEISI Schrott-Recycling GmbH, AG Bad Kreuznach HRB 3049, als aktiv geführt, Geschäftsanschrift Bahngelände ohne Hausnummer / 55618 Simmertal, Geschäftsführer Manfred Weinand; letzte dort ausgewiesene Eintragung 23.12.2022. Unternehmensgegenstand Metallrecycling/-handel, Grundstücksvermietung/-verpachtung, Frachtumschlag und Spedition. Creditreform-Suchtreffer führt ebenfalls eine WEISI Schrott-Recyling GmbH in Simmertal (Schreibweise des Suchtreffers), ohne voll geprüften Inhalt. Weinand-Startseite direkt gelesen: historische Verselbständigung der Sammelstelle unter Weisi-Name, aktueller Standortblock Binger Landstraße 9 / 55618 / 06754 8148 und „Derzeit keine Materialannahme an diesem Standort“. Das ist ein Fremdbeleg des früheren verbundenen Betreibers, keine eigenständige WEISI-Betreiberseite. Registercheck-Auszugdownload HTTP 403, kein Originalauszug geprüft. Keine Frontmatter-Adresse/Telefon ergänzt, weder geschlossen noch aktiv gesetzt. ANKAUF/VERKAUF/GEBÜHREN: keine WEISI-Preisliste; Weinands Tagespreisaussagen gelten nicht automatisch für den ausdrücklich nicht annehmenden Simmertaler Platz. Offen: HR-Originalauszug/Northdata, Betriebsadresse versus Bahngelände, Dauer/Grund der Annahmepause. Quelle(n): https://weinand.de ; https://www.registercheck.de/companies/weisi-schrott-recycling-gmbh ; https://www.registercheck.de/api/public/companies/weisi-schrott-recycling-gmbh/extract (gesperrt) ; https://firmeneintrag.creditreform.de/55618/6010060528/WEISI_SCHROTT_RECYLING_GMBH (Suchtreffer).]
 
 ### Recherche 02.10.2026
 

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.udo-schanko.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lesbare Betreiberseite mit Impressum für Udo Schanko Altmetallhandel, Zum Voßberg 23, 17498 Weitenhagen GT Helmshagen. Kontaktseite nennt 03834/884463, info@udo-schanko.de und Mo–Fr 09–16, Sa 09–11:30 Uhr, zusätzlich telefonische Vereinbarung; Brückentage geschlossen. Diese Angaben sind Betreiber-Einzelbelege, nicht mehrere unabhängige Quellen. Ein neuer Creditreform-Suchtreffer führt Udo Werner Rainer Schanko Altmetallhandel in Weitenhagen; vollständiger Feldabgleich steht aus.
+
+**Preise:** Die Ankaufseite veröffentlicht eine ausführliche Sortenliste, aber keine Zahlenkurse: tagesaktuelle Preise ausdrücklich telefonisch erfragen. Kein bestätigter Verkaufstarif oder Gebührenblatt. Ein Verzeichnislead Am Helmshäger Berg 6, Greifswald wird nicht als weiterer Standort oder Umzug übernommen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Betreiber-Kontakt und Impressum direkt gelesen; Domain erreichbar, website_status auf aktiv gesetzt. Impressum präzisiert Gemeinde Weitenhagen GT Helmshagen, Anschrift Zum Voßberg 23; Kontakt 03834/884463, Mobil 0171/1908368, info@udo-schanko.de; Mo–Fr 09–16, Sa 09–11:30, nach telefonischer Vereinbarung und Brückentage geschlossen. ANKAUF: Betreiber-Sortenliste und ausdrücklicher Hinweis Tagespreise telefonisch erfragen, keine numerische Liste; VERKAUF/GEBÜHREN: kein Tarif in geprüften Betreiberinformationen. Creditreform-Suchauszug nennt Udo Werner Rainer Schanko Altmetallhandel als Gewerbebetrieb in Weitenhagen; das bestätigt einen passenden Identitätskandidaten, aber nicht unabhängig jedes Kontakt-/Adressfeld. Deshalb keine Stammdatenfüllung jenseits website_status. 11880-Lead Am Helmshäger Berg 6, 17489 Greifswald mit gleicher Telefonnummer nicht als verifizierten Standort übernehmen. Offen: Vollabgleich Creditreform/Gewerberegister, eventuelle Greifswalder Altadresse, Verkaufs- und Abholbedingungen. Quelle(n): https://www.udo-schanko.de/kontakt ; https://www.udo-schanko.de/impressum/ ; https://www.udo-schanko.de/ankauf-schrottplatz-bestpreise-vorpommern-greifswald-demmin-ruegen-usedom ; https://firmeneintrag.creditreform.de/17498/3190201487/UDO_WERNER_RAINER_SCHANKO_ALTMETALLHANDEL (Suchauszug) ; https://www.11880.com/branchenbuch/greifswald-hansestadt/120674719B102223814/udo-werner-rainer-schanko-altmetallhandel.html (abweichender Lead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

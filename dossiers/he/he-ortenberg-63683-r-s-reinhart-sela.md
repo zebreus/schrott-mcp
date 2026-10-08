@@ -30,6 +30,10 @@ Mehrere Branchenverzeichnisse und Registerhinweise stützen R&S Reinhart & Sela 
 
 ## Timeline
 
+### Recherche 08.10.2026 (Register- und Namensvetterabgrenzung)
+
+- [Recherche 08.10.2026: Neue gezielte Suche HRA 4456 liefert Northdata-Profil R & S Reinhart & Sela GmbH & Co. KG, Ortenberg, AG Friedberg HRA 4456, Am Bahndamm 2 / 63683; Suchauszug nennt auch R+S Reinhart & Sela OHG als Namenshinweis, keine vollständige Umwandlungshistorie geprüft. Das ergänzt die bisherigen Registerleads, belegt aber nicht Kontakt, Annahmezeiten oder aktuelle Website. Kein Overwrite vorhandener Werte/status aktiv; Offenhaltung der Preis- und Betriebskonditionen. Suchtreffer reinhardt-entsorgung.de mit kostenloser Containerstellung gehört Neumarkt St. Veit (anderer Ort/Schreibweise), reinhardt-recycling.de ebenfalls nicht nachweislich dieser Gesellschaft zugeordnet. ANKAUF/VERKAUF/GEBÜHREN: keine Zielpreisliste, insbesondere Fremdanbieter-Gratiscontainer nicht übernehmen. Offen: Betreiberwebsite, vollständige rechtliche Namen-/Formhistorie, heutige Annahmebedingungen und Tarifblatt. Quelle(n): https://www.northdata.com/R%20&%20S%20Reinhart%20&%20Sela%20GmbH%20&%20Co%C2%B7%20KG,%20Ortenberg/Amtsgericht%20Friedberg%20HRA%204456 (Suchauszug) ; https://www.11880.com/branchenbuch/ortenberg-hessen/120674719B2154900/r-s-reinhart-und-sela-gmbh-co-kg.html ; https://www.reinhardt-entsorgung.de ; http://reinhardt-recycling.de (nicht zugeordnet).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - evtl. Ankauf

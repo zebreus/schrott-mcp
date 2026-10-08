@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neuer namensgenauer Lead **Schrottverwertung Christel Bruch**, Luise-Aston-Str. 2, 68519 Viernheim, 06204 620284 aus Yelp/11880 und Schrottplatz-info. Damit ist die ältere Ergebnislosigkeit überholt, nicht jedoch der Primärbelegstandard erfüllt. Keine Frontmatter-Adresse oder Telefonnummer aus Portalen übernehmen. Bruch & Söhne führt einen anderen Viernheimer Containerdienststandort Neuer Weg 4; eine Beziehung zu Christel Bruch ist nicht belegt.
+
+**Preise:** Keine zuordenbare Betreiber-Ankauf-, Verkaufs- oder Gebührenliste. Offen: Inhaberin, Fortbestand und Verhältnis zur anderen Bruch-Gesellschaft; ein fehlender Efb-Eintrag beweist keine Nichtexistenz eines Kleinbetriebs.
 
 ## Timeline
+
+### Recherche 08.10.2026 (neuer namensgenauer Lead)
+
+- [Recherche 08.10.2026: Die frühere Notiz „keine Verzeichnisse mit diesem Namen“ nicht fortgeschrieben: aktuelle Suche findet namensgenau Schrottverwertung Christel Bruch bei Yelp/11880 und Bruch Christel bei Schrottplatz-info. Yelp-Suchauszug nennt Luise-Aston-Str. 2 / 68519 Viernheim und 06204 620284, 11880 ebenfalls diese Nummer. Dies sind ausschließlich Aggregator-Leads, keine Betreiber-/Registerbestätigung. Betreiberseite Bruch & Söhne nennt abweichend Niederlassung Viernheim–Containerdienst Neuer Weg 4; daraus keine Identität, Familie oder Nachfolge ableiten. Kein Frontmatter-Fill, status pruefung. ANKAUF/VERKAUF/GEBÜHREN: keine Christel Bruch zugeordnete Primärpreisliste. Offen: Gewerberegister/Betreiberkontakt, Luise-Aston-Str.-Adresse und Verbindung oder Abgrenzung Bruch & Söhne. Quelle(n): https://www.yelp.com/biz/schrottverwertung-christel-bruch-viernheim ; https://www.11880.com/branchenbuch/viernheim/120674719B44351687/schrottverwertung-christel-bruch.html ; https://www.schrottplatz-info.de/schrottplatz/Viernheim/Bruch-Christel ; http://bruch-und-soehne.com.]
 
 ### Recherche 02.10.2026
 

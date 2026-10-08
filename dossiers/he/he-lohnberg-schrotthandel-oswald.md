@@ -30,6 +30,10 @@ Ein Efb-/Schrottregister-Auszug führt am Grünen Weg 3, 35792 Löhnberg einen �
 
 ## Timeline
 
+### Recherche 08.10.2026 (Betreiberkandidatin)
+
+- [Recherche 08.10.2026: Eigenständige Gegenrecherche mit Löhnberg/Grüner Weg findet Creditreform-Suchauszug „Dr. Katja Osswald Entsorgungsfachbetrieb“, Grüner Weg 3 / 35792 Löhnberg, +49 6471 8420. Direktabruf des Profils HTTP 403; Person-/Betreiberbeziehung zu Hans-Jürgen Osswald oder Lagerplatz Osswald dadurch noch nicht geklärt. Cylex führt Oswald, weitere Portale Hans-Jürgen Osswald, jeweils Grüner Weg 3 / 06471 8420; sie sind ausschließlich Leads. Neue Kandidatin als Rechercheansatz, keine automatische Umbenennung, kein Telefon-Fill oder Aktivsetzung; bestehende Adresse und status pruefung erhalten. ANKAUF/VERKAUF/GEBÜHREN: keine passende Primärpreisliste. Offen: aktueller Zertifikatsinhaber/Original-Efb-Auszug, Betreiberwechsel Hans-Jürgen → Katja, Namensschreibung, öffentlicher Ankauf und Anlieferbedingungen. Quelle(n): https://firmeneintrag.creditreform.de/35792/6170097694/DR_KATJA_OSSWALD_ENTSORGUNGSFACHBETRIEB (Suchauszug, Vollabruf gesperrt) ; https://www.11880.com/branchenbuch/loehnberg/060440092B28135368/hans-juergen-osswald-schrottentsorgung.html ; https://web2.cylex.de/firma-home/schrotthandel-oswald-16578650.html ; https://branchenbuch.meinestadt.de/loehnberg/company/3215447.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)

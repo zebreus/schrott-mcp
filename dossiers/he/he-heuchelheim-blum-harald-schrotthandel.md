@@ -32,6 +32,10 @@ Die direkt geprüfte schrottplatz-info-Seite enthält keine Betreiberbedingungen
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigenständige Suche Harald Blum Schrotthandel Heuchelheim liefert weiterhin ausschließlich Branchenverzeichnisse mit Am Hollerbusch 17 / 35452 / 0641 84898 (Meinestadt, 11880, GelbeSeiten, Telefonbuch). Northdata-Treffer Harald Blum in Krumbach betrifft BLUM Germany/Stromversorgungen, kein belegter Heuchelheimer Metallhändler. Keine erneute Füllung der am 07.10. entfernten Adresse, kein Website-/Kontakt-Fill; Marco-Blum-Bezug weiterhin unbewiesen. ANKAUF/VERKAUF/GEBÜHREN: keine passende Primärpreisliste; Portalkonsens ersetzt Betreiber-/Gewerbeabgleich nicht. Offen: heutiger Betreiber, Familien-/Nachfolgeverhältnis, gewerblicher Ankauf und Annahmeplatz. Quelle(n): https://www.11880.com/branchenbuch/heuchelheim-kreis-giessen/060440092B39898533/harald-blum-schrotthandel.html ; https://www.gelbeseiten.de/gsbiz/d675817e-00df-459c-8605-1a0780501e21 ; https://branchenbuch.meinestadt.de/heuchelheim-giessen/company/8825629 ; https://www.northdata.de/Blum,%20Harald,%20Krumbach/129f (nicht zugeordneter Namensvetter).]
+
 ### Korrektur/Recherche 07.10.2026
 
 - [Korrektur 07.10.2026: Re-Check der Frontmatter-Adresse Am Hollerbusch 17 / 35452: Die bisher dokumentierten Stützen sind Telefonbuch und schrottplatz-info, also Verzeichnis-Leads; eine Betreiber-, Register- oder Kommunalquelle fehlt. Straße und PLZ deshalb aus dem Frontmatter entfernt. Der ähnlich lokalisierte Eintrag „Blum Marco“ belegt keine gemeinsame Firma oder Nachfolge. NorthData-Suche ergab keinen eindeutig passenden Firmenprofileintrag; das schließt ein Einzelunternehmen nicht aus. Keine Anlieferung/Abholung oder Ankauf bestätigt. ANKAUF: kein Betreiberbeleg/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in ausgewerteten Quellen; Quelle: https://www.northdata.de/?query=Blum%20Harald%20Heuchelheim%20Schrotthandel; https://www.dastelefonbuch.de/Heuchelheim%20a.%20d.%20Lahn/2-Recycling-Harald-Blum-Heuchelheim-a-d-Lahn-Am-Hollerbusch.html; https://www.schrottplatz-info.de/schrottplatz/Heuchelheim/Blum-Harald]
