@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Technische Quellenprüfung 08.10.2026
+
+- [Recherche 08.10.2026: Regulärer Ingestion-Lauf 1146 fehlgeschlagen: HTTP 502 von http://www.amr-schrottplatz.de. Owner reproduziert den Fehler unabhängig per curl --fail --location: sowohl www- als auch nackte HTTP-Domain liefern 502; HTTPS-www scheitert vor Abruf an abgelaufenem TLS-Zertifikat (curl 60). Daher keine sichere bestätigte Ersatz-URL, keine TLS-Prüfung abgeschaltet und kein Parser-/Preisfallback erfunden. Dies ist eine technische Abrufstörung, kein Nachweis einer Betriebsschließung oder neuer Preise. Stammdaten und frühere Verifikation erhalten; Zeiten/Kontakte heute nicht erneut bestätigt. Quellen: http://www.amr-schrottplatz.de/ ; http://amr-schrottplatz.de/ ; https://www.amr-schrottplatz.de/ ; /var/lib/schrott-mcp/internal.db, ausschließlich SELECT zu Lauf 1146.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall + Hartmetall + Demontage, Container
