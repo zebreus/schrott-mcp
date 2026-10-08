@@ -35,7 +35,7 @@ Die Mappingversion wird auf 2 erhöht: Ein Unterschied gegenüber einer
 Beobachtung mit falscher alter Zuordnung darf kein vermeintliches neues
 Veröffentlichungsdatum erzeugen.
 
-**Noch nicht erledigt:** Veröffentlichung/Deployment und Produktionsverifikation.
+**Deployment abgeschlossen:** Commit `7cd8f4f` am 08.10.2026 09:34 UTC.
 Handler-Fixes allein entfernen keine alten Preispointer. Migration 6 ist
 jetzt implementiert und geprüft: transaktionale, idempotente Entfernung
 von elf anhand Händler, Quell-URL, Material, Variante und Quelllabel
@@ -44,8 +44,11 @@ Originalpreis/Datum/Provenienz erhalten, werden als Fehlmapping #4782
 annotiert (`approx`, Konfidenz 0). Keine erfundenen Ersatzbeobachtungen,
 kein Rückgriff auf eventuell ebenfalls falsche ältere Preise.
 30 Store-Tests einschließlich Replay, unveränderter Nachbarvarianten und
-Rollback grün. Noch nicht in Produktion angewandt; keine direkten
-SQL-Korrekturen. Der breitere Restzeilen-Backlog #4783/#4809 bleibt offen.
+Rollback grün. Normale Bootmigration in Produktion angewandt, Version 6:
+elf alte Current-Pointer entfernt, 243 historische Fehlzuordnungen
+annotiert (seit dem Vorab-Snapshot kamen sieben Beobachtungen hinzu).
+Keine direkten SQL-Korrekturen. Der breitere Restzeilen-Backlog
+#4783/#4809 bleibt offen.
 
 ## Dringend: #4770 Koordinaten
 
@@ -63,7 +66,8 @@ Seed-Compiler validierte Dossierkoordinaten, exportierte sie aber nicht;
 ein Dossier-Commit alleine korrigierte die Produktionskarte daher nicht.
 Die Importlücke ist nun mit paarweiser WGS84-Validierung, Hash-/Update-
 Semantik und Regressionstests repariert. Rust führt kein Geocoding aus.
-Die übrigen Adressfälle bleiben offen; Deploymentprüfung steht noch aus.
+Die übrigen Adressfälle bleiben offen; Deploymentprüfung bestätigt die
+fünf neuen Koordinatenpaare für EMR, PMK, SD, RHM und SHP in Produktion.
 
 Owner-Nachprüfung: SD-Kontaktseiten-HTML enthält den vollständigen
 Adressmarker 49.5513872/8.3477812; RHM verlinkt seinen Firmenmarker
@@ -113,7 +117,7 @@ Vier Code-/Quellenprüfungen abgeschlossen: Dossier-Koordinatenimport,
 eng belegte Fehlmapping-Preispointer, VHM-Live-JSON sowie Metallorum-
 Ankaufspalte. Gemeinsamer Workspace-Test: 563 bestanden, 0 fehlgeschlagen,
 3 ignorierte Live-/Spezialtests; `cargo fmt --all -- --check` grün.
-Noch kein Deployment dieser Arbeiten. Die laufende Dossierwelle wird
+Deployment dieser Arbeiten aus sauberem Commit abgeschlossen. Die laufende Dossierwelle wird
 getrennt geprüft und nicht ungeprüft mit ausgerollt.
 
 ## Neue Leads beim Anschluss-Check-in
@@ -125,6 +129,47 @@ Heinen-Standorte #4876/#4877 und der Identitätsfall KVR #4875 werden separat
 an Primärquellen geprüft; Berichte dienen der späteren Owner-Integration.
 Dienst aktiv, keine Warnungen in den letzten sechs Stunden, Bestand beim
 Check-in 3871 Händler / 52 Materialien / 2276 aktuelle Preise.
+
+### Anschluss nach unterbrochenem Release-Build
+
+- Commit `7cd8f4f` enthält die fertig geprüften Import-/Preisreparaturen.
+  Letzter tatsächlicher Push scheiterte wieder an fehlenden HTTPS-
+  Zugangsdaten; die frühere erfolgreiche Veröffentlichung bis `530538e`
+  bleibt davon unberührt.
+- Release-Build durch Neustart unterbrochen, anschließend im isolierten
+  Worktree desselben Commits fortgesetzt. Produktionsmigration noch nicht
+  angewandt (`user_version = 5`); Dienst und öffentliche Health-URL gesund.
+- Recherchewelle: Shard 1 mit Bericht abgeschlossen; Shard 2/3 und die
+  Heinen-/KVR-Prüfungen durch Nutzungslimit gestoppt. Vorhandene Änderungen
+  bleiben erhalten; Shard-3-Bericht ist noch kein abgeschlossener Test-/
+  Owner-Gate-Nachweis. Keine zusätzliche Welle gestartet.
+- Feedback inzwischen bis #5236: seit #4879 weitere 357 Hinweise
+  (60 high, 205 medium, 92 low), nicht pauschal verifiziert.
+- #5227 einzeln bestätigt: Brandmayr in Thierhaupten anhand Betreiber-
+  Leistungs-/Impressumsseiten plus unabhängigem kommunalem Firmeneintrag.
+  Neues Dossier erstellt, keine geratenen Koordinaten/Preise. Samstagregel
+  widerspricht dem genannten Oktoberdatum und wird nicht schematisiert.
+  #5228/#5229 und übrige neue Leads bleiben offen.
+
+### Deployment-Verifikation
+
+Beide Release-Binaries aus sauberem Worktree von `7cd8f4f` gebaut; dort
+acht Seed-Tests bestanden. Backups der vorherigen Binaries liegen unter
+`/var/tmp/schrott-mcp-backup-before-7cd8f4f/`. Normaler Dienstneustart:
+Seed schreibt 86 geänderte Datensätze, Händlerzahl unverändert 3871.
+Version 6 aktiv, Current-Preiszahl erwartungsgemäß 2265 statt 2276;
+alle elf konkret benannten alten Preis-IDs ohne Current-Pointer.
+243 markierte Historienzeilen bleiben erhalten (`approx`, Konfidenz 0).
+Keine Ersatzpreise erfunden; frische Preise müssen regulär gescrapt werden.
+
+Öffentliche Health-URL und Query-Worker-Roundtrip grün. Vor dem Neustart
+ein einzelner Worker-Spawn mit EAGAIN; danach erfolgreicher MCP-Aufruf
+und Worker-Test, Dienst mit 3 Tasks weit unter TasksMax 3647.
+Beobachten, keine unbelegte Ressourcen-Konfigurationsänderung.
+
+Installed SHA256:
+- Server: `368c39993f00adfb9dfa5facd8345b09953560440a9259cf5cc08075d1822b80`
+- Worker: `93b3fc1b87abf9a248762f27fbcedddfc62bdcc9fdfbaf37d72d18f81f371ac3`
 
 VHM-Quellpfad vom Owner direkt gelesen:
 <https://www.vhm-hartmetall.de/script.js?v=vhm-preise-20260928-1>
