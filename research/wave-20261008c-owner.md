@@ -95,3 +95,34 @@ Ein erster ad-hoc Typcheck nutzte eine unvollständige Liste und schlug
 deshalb fehl; kein Dossierfehler. Korrigierter Gate und echte Seedtests grün.
 Standortkoordinaten für Wolf/Eckhardt fehlen weiterhin; ECOPROEKT ist nur
 Geschäftsadresse. Keine neuen Punkte erfunden und keine Rust-Geokodierung.
+
+## Veröffentlichung verifiziert
+
+Commit `15421f6`, beide Release-Binaries aus sauberem Commit gebaut und
+atomar installiert. Neustart 08.10.2026 18:21:18 UTC; Bootseed bestätigt
+60 Zeilen aktualisiert. HTTPS-Health grün, installierter Read-only-Worker
+liefert 3881 Händler. Bestand 3881 Händler / 52 Materialien / 2280 Preise.
+Sieben Stammdaten-Spotchecks bestätigen Wolf/Eckhardt/ECOPROEKT-Fills,
+TuS/Wetzel/Hinze-Prüfstatus und leere DAR-Kontaktfelder. Zwei Notenchecks
+bestätigen SK-Gebührenfund und Schulz-Papierwerte in der veröffentlichten
+Timeline, nicht als erfundene Metallpreise.
+
+DB enthält weiter historische Punkte trotz fehlendem Frontmatter-Paar:
+Eckhardt51.2863/7.2939, Wolf48.8813/12.5739,
+ECOPROEKT48.76828/9.18614. Die Seed-Erhaltungsregel hat sie nicht neu
+geokodiert; diese Punkte wurden hier **nicht standortverifiziert** und
+bleiben gesonderter Dossier-Koordinatenprüfbedarf.
+
+Ein erster SQL-Spotcheck nutzte irrtümlich latitude statt lat und ein
+Workeraufruf fälschlich --data-dir statt Positionsargument; beide
+Diagnoseaufrufe korrigiert, tatsächliche Spotchecks/Worker danach grün.
+Reguläre Ingestion #1154 vor Neustart: 113 Preise, null Händlerfehler.
+Das beweist nicht die Behebung jedes früheren Einzelquellenfehlers.
+
+Backups: `/var/tmp/schrott-mcp-backup-before-15421f6/`.
+Push erneut konkret gescheitert: HTTPS-Benutzername nicht verfügbar.
+Keine fremden Änderungen im Hauptworktree angefasst.
+
+SHA256 Server: `5b82259ad16cf2c3e92da2f8485d04dde7bc7985923d9df6f825ca7a5a88c29a`
+
+SHA256 Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
