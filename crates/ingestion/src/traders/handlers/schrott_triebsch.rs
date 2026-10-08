@@ -86,6 +86,9 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("edelstahl-gemischt", ""))
     } else if l.contains("mill-berry") || l.contains("millberry") {
         Some(("kupfer-millberry", ""))
+    } else if l.contains("kabel") {
+        // "Kupferkabel" must not fall through to the generic copper arm.
+        Some(("kabel-kupfer", "o. Stecker"))
     } else if l.contains("kupfer") {
         Some(("kupfer-gemischt", ""))
     } else if l.contains("messing") {
@@ -96,8 +99,6 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("blei", ""))
     } else if l.contains("elektromotor") {
         Some(("elektromotoren", ""))
-    } else if l.contains("kabel") {
-        Some(("kabel-kupfer", "o. Stecker"))
     } else if l.contains("alu") && l.contains("felgen") {
         Some(("aluminium-guss", "Felgen"))
     } else if l.contains("alu") {
@@ -294,6 +295,29 @@ mod tests {
             "{skips:?}"
         );
         assert!(parse("<div>Kein Ankauf hier</div>").is_err());
+    }
+
+    #[test]
+    fn feedback_4782_copper_and_cable_have_distinct_keys() {
+        let html = "<h2>Tageshöchstpreise für Schrott</h2><table>\
+            <tr><td>Kupfer</td><td></td><td>9,50 Euro</td></tr>\
+            <tr><td>Kupferkabel o.Stecker</td><td></td><td>3,30 Euro</td></tr></table>";
+        let (rows, skips) = parse(html).expect("live table shape");
+        assert!(skips.is_empty());
+        let mapped: Vec<_> = rows
+            .iter()
+            .map(|(label, price, unit)| {
+                let (material, variant) = grade_for(label).expect("known live grade");
+                (material, variant, *price, *unit)
+            })
+            .collect();
+        assert_eq!(
+            mapped,
+            vec![
+                ("kupfer-gemischt", "", 9.50, "EUR/kg"),
+                ("kabel-kupfer", "o. Stecker", 3.30, "EUR/kg"),
+            ]
+        );
     }
 
     #[test]

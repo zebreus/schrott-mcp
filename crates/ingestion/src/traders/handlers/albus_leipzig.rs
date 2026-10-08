@@ -43,43 +43,7 @@ struct PriceRow {
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
     let (published_at, rows, mut skipped_labels) = parse(&html)?;
-    let mut prices = Vec::with_capacity(rows.len() * 2);
-    for row in rows {
-        let Some((material, _)) = grade_for(&row.label) else {
-            skipped_labels.push(row.label);
-            continue;
-        };
-        // Both legs share the material; the Kundenkarte leg wording is
-        // the variant (this page has no double grades per leg).
-        if let Some(price) = row.mit {
-            prices.push(ScrapedPrice {
-                material,
-                variant: "mit Kundenkarte",
-                price,
-                currency: "EUR",
-                unit: row.unit,
-                price_kind: "exact",
-                price_min: None,
-                price_max: None,
-                confidence: Some(1.0),
-                label: row.label.clone(),
-            });
-        }
-        if let Some(price) = row.ohne {
-            prices.push(ScrapedPrice {
-                material,
-                variant: "ohne Kundenkarte",
-                price,
-                currency: "EUR",
-                unit: row.unit,
-                price_kind: "exact",
-                price_min: None,
-                price_max: None,
-                confidence: Some(1.0),
-                label: row.label.clone(),
-            });
-        }
-    }
+    let prices = prices_from_rows(rows, &mut skipped_labels);
     // Impressum failure fails the whole step on purpose: a moved contact
     // page means the site changed and needs eyeballs before we trust
     // anything from it again.
@@ -98,6 +62,56 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     })
 }
 
+fn prices_from_rows(rows: Vec<PriceRow>, skipped_labels: &mut Vec<String>) -> Vec<ScrapedPrice> {
+    let mut prices = Vec::with_capacity(rows.len() * 2);
+    for row in rows {
+        let Some((material, grade)) = grade_for(&row.label) else {
+            skipped_labels.push(row.label);
+            continue;
+        };
+        // Keep both grade and Kundenkarte leg in the current-price key.
+        // Empty grades retain the existing standard variants.
+        let (mit_variant, ohne_variant) = match grade {
+            "" => ("mit Kundenkarte", "ohne Kundenkarte"),
+            "Bremsscheiben" => (
+                "Bremsscheiben, mit Kundenkarte",
+                "Bremsscheiben, ohne Kundenkarte",
+            ),
+            "Felgen" => ("Felgen, mit Kundenkarte", "Felgen, ohne Kundenkarte"),
+            _ => unreachable!("grade_for returned an unsupported ALBUS grade"),
+        };
+        if let Some(price) = row.mit {
+            prices.push(ScrapedPrice {
+                material,
+                variant: mit_variant,
+                price,
+                currency: "EUR",
+                unit: row.unit,
+                price_kind: "exact",
+                price_min: None,
+                price_max: None,
+                confidence: Some(1.0),
+                label: row.label.clone(),
+            });
+        }
+        if let Some(price) = row.ohne {
+            prices.push(ScrapedPrice {
+                material,
+                variant: ohne_variant,
+                price,
+                currency: "EUR",
+                unit: row.unit,
+                price_kind: "exact",
+                price_min: None,
+                price_max: None,
+                confidence: Some(1.0),
+                label: row.label.clone(),
+            });
+        }
+    }
+    prices
+}
+
 /// Explicit label → (material, variant) mapping. Anything unlisted is
 /// skipped. Specific arms first: "Kupfer-Kabel" and "Alufelgen" contain
 /// the generic "Kupfer"/"Alu" words, "Eisenguss" contains "Eisen".
@@ -114,6 +128,8 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("messing", ""))
     } else if l.contains("alufelgen") {
         Some(("aluminium-guss", "Felgen"))
+    } else if l.contains("alu-profile") {
+        Some(("aluminium-profile", ""))
     } else if l.contains("alu") {
         Some(("aluminium-gemischt", ""))
     } else if l.contains("edelstahl") {
@@ -423,6 +439,56 @@ mod tests {
         <tr class=\"row\"> <td class=\"cell\"></td> \
         <td class=\"cell\"></td> <td class=\"cell\">Stand: 21.09.2026</td> </tr> \
         </tbody> </table>";
+
+    #[test]
+    fn feedback_4782_grades_and_card_legs_have_distinct_keys() {
+        let html =
+            "<table><tr><td>Material</td><td>mit Kundenkarte</td><td>ohne Kundenkarte</td></tr>\
+            <tr><td>Alu</td><td>0,80 EUR</td><td>0,50 EUR</td></tr>\
+            <tr><td>Alu-Profile</td><td>1,65 EUR</td><td>1,15 EUR</td></tr>\
+            <tr><td>Eisenguss</td><td>0,15 EUR</td><td>0,12 EUR</td></tr>\
+            <tr><td>Bremsscheiben</td><td>0,19 EUR</td><td>0,16 EUR</td></tr>\
+            <tr><td>Alufelgen sauber</td><td>1,65 EUR</td><td>1,00 EUR</td></tr></table>";
+        let (_, rows, mut skips) = parse(html).expect("live table shape");
+        let prices = super::prices_from_rows(rows, &mut skips);
+        assert!(skips.is_empty());
+        let keys: std::collections::HashSet<_> =
+            prices.iter().map(|p| (p.material, p.variant)).collect();
+        assert_eq!(
+            keys.len(),
+            prices.len(),
+            "no grade may overwrite another: {prices:?}"
+        );
+        let actual: Vec<_> = prices
+            .iter()
+            .map(|p| (p.material, p.variant, p.price, p.unit))
+            .collect();
+        assert_eq!(
+            actual,
+            vec![
+                ("aluminium-gemischt", "mit Kundenkarte", 0.80, "EUR/kg"),
+                ("aluminium-gemischt", "ohne Kundenkarte", 0.50, "EUR/kg"),
+                ("aluminium-profile", "mit Kundenkarte", 1.65, "EUR/kg"),
+                ("aluminium-profile", "ohne Kundenkarte", 1.15, "EUR/kg"),
+                ("eisenschrott-gussbruch", "mit Kundenkarte", 0.15, "EUR/kg"),
+                ("eisenschrott-gussbruch", "ohne Kundenkarte", 0.12, "EUR/kg"),
+                (
+                    "eisenschrott-gussbruch",
+                    "Bremsscheiben, mit Kundenkarte",
+                    0.19,
+                    "EUR/kg"
+                ),
+                (
+                    "eisenschrott-gussbruch",
+                    "Bremsscheiben, ohne Kundenkarte",
+                    0.16,
+                    "EUR/kg"
+                ),
+                ("aluminium-guss", "Felgen, mit Kundenkarte", 1.65, "EUR/kg"),
+                ("aluminium-guss", "Felgen, ohne Kundenkarte", 1.00, "EUR/kg"),
+            ]
+        );
+    }
 
     #[test]
     fn table_date_and_legs_parse() {
