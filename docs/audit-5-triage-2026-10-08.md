@@ -215,6 +215,15 @@ Bericht `research/wave-20261008-shard2.md` unterscheidet Agentenabbruch
 von Owner-Abschluss. Die Nord-/West-Teilwelle bleibt separat offen.
 Tatsächlicher HTTPS-Push scheitert weiterhin an fehlenden Zugangsdaten.
 
+Teilwelle deployed als `877ba54` am 08.10.2026 10:35 UTC. Acht Seed-Tests
+im isolierten Commit-Worktree bestanden, beide Binaries gebaut und gesichert
+unter `/var/tmp/schrott-mcp-backup-before-877ba54/`. Seed schreibt 20
+geänderte Dossiers; Voigt/Sell/Schanko read-only in Produktion bestätigt,
+Health und Worker-Roundtrip grün. Ingestion #1119: 60 Preise, null Fehler.
+Die noch uncommitteten 20 Nord-/West-Dossiers wurden nicht eingebettet.
+Server-SHA256: `08f2a756cd32a94cc8477da382c812fb1ef415460b3fa601f1cbabb0d876e17e`.
+Worker-SHA256: `13f26d4f7837c49d194b374f706bba3ed4206a83e83b35ba97588248c8f857f5`.
+
 VHM-Quellpfad vom Owner direkt gelesen:
 <https://www.vhm-hartmetall.de/script.js?v=vhm-preise-20260928-1>
 lädt <https://www.vhm-hartmetall.de/vhm-preise-aktuell.php> mit
