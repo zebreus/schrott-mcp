@@ -6,6 +6,8 @@ state: TH
 city: Blankenhain
 street: Dorfanger 18
 postcode: '99444'
+lat: '50.8499271'
+lon: '11.4380395'
 phone: '036459 4910'
 email: ''
 opening_hours: ''
@@ -26,13 +28,17 @@ provenance_origin: table
 
 SHP Rohstoffrecycling GmbH ist über das aktuelle Betreiber-Impressum und den passenden Registereintrag (HRB 108478, Amtsgericht Jena) mit Dorfanger 18, 99444 Blankenhain OT Meckfeld verbunden. Die Website beschreibt derzeit vor allem Abbruch, Demontage, Bohr-/Sägearbeiten und Entsorgung; der Registerzweck umfasst zudem Handel, Lagerung und Verarbeitung von Rohstoffen einschließlich Schrott und NE-Metallen. Das belegt nicht automatisch eine frei zugängliche Schrottannahme oder Abholung für Privatkunden.
 
-**Preise:** **Ankauf** — kein numerischer Ankaufkurs und keine aktuelle Annahmebedingung veröffentlicht. **Verkauf** — keine Material-/Teilepreisliste. **Gebühren** — keine Preis- oder Entsorgungstarife ausgewiesen; Leistungen werden angefragt. Der neu belegte Standort ist noch zu geokodieren; in dieser Recherche wurde keine Koordinate ergänzt.
+**Preise:** **Ankauf** — kein numerischer Ankaufkurs und keine aktuelle Annahmebedingung veröffentlicht. **Verkauf** — keine Material-/Teilepreisliste. **Gebühren** — keine Preis- oder Entsorgungstarife ausgewiesen; Leistungen werden angefragt. Die Adresse ist auf einen OSM-Hauspunkt geokodiert; dieser belegt keine Grundstückseinfahrt oder konkrete Annahmestelle.
 
 ## Timeline
 
 ### Recherche 08.10.2026
 
-- [Recherche 08.10.2026: Primärquellenprüfung: SHP-Impressum nennt SHP Rohstoffrecycling GmbH, Dorfanger 18, 99444 Blankenhain OT Meckfeld und HRB 108478 beim Amtsgericht Jena; Kontaktseite nennt 036459 4910. Der Registerspiegel zeigt dieselbe Gesellschaft/Anschrift und Unternehmensgegenstand mit Rohstoff-, Schrott-, NE- sowie Eisen-/Stahlhandel (Datenbankhinweis beachten). Der aktuelle Betreiberauftritt beschreibt Abbruch, Demontage, Bohr-/Sägearbeiten und Entsorgung; anfallende Abfälle werden laut Leistungsseite zertifizierten Entsorgungsfachbetrieben zugeführt. Keine explizite offene Hofannahme, Privatkunden-Ankaufskondition oder Preislisten gefunden. Ankauf: keine numerischen Preise; Verkauf: keine Liste; Gebühren: keine Tarife. Straße neu belegt, Koordinate noch nicht ergänzt. Quellen: https://www.shp-rohstoffrecycling.de/index.php/impressum ; https://www.shp-rohstoffrecycling.de/index.php/kontakt ; https://www.shp-rohstoffrecycling.de/index.php/leistungen ; https://www.shp-rohstoffrecycling.de/index.php/unternehmen ; https://www.northdata.de/SHP%20Rohstoffrecycling%20GmbH,%20Blankenhain/Amtsgericht%20Jena%20HRB%20108478]
+- [Recherche 08.10.2026: Primärquellenprüfung: SHP-Impressum nennt SHP Rohstoffrecycling GmbH, Dorfanger 18, 99444 Blankenhain OT Meckfeld und HRB 108478 beim Amtsgericht Jena; Kontaktseite nennt 036459 4910. Der Registerspiegel zeigt dieselbe Gesellschaft/Anschrift und Unternehmensgegenstand mit Rohstoff-, Schrott-, NE- sowie Eisen-/Stahlhandel (Datenbankhinweis beachten). Der aktuelle Betreiberauftritt beschreibt Abbruch, Demontage, Bohr-/Sägearbeiten und Entsorgung; anfallende Abfälle werden laut Leistungsseite zertifizierten Entsorgungsfachbetrieben zugeführt. Keine explizite offene Hofannahme, Privatkunden-Ankaufskondition oder Preislisten gefunden. Ankauf: keine numerischen Preise; Verkauf: keine Liste; Gebühren: keine Tarife. Die Koordinate wurde nach dieser Quellenprüfung separat anhand des Hauspunkts verifiziert (siehe Geodaten-Notiz darunter). Quellen: https://www.shp-rohstoffrecycling.de/index.php/impressum ; https://www.shp-rohstoffrecycling.de/index.php/kontakt ; https://www.shp-rohstoffrecycling.de/index.php/leistungen ; https://www.shp-rohstoffrecycling.de/index.php/unternehmen ; https://www.northdata.de/SHP%20Rohstoffrecycling%20GmbH,%20Blankenhain/Amtsgericht%20Jena%20HRB%20108478]
+
+### Geodaten 08.10.2026
+
+- [Geodaten 08.10.2026: Exakte Nominatim-Abfrage für Dorfanger 18, 99444 Blankenhain findet OSM-Hauspunkt node 9365743991 mit übereinstimmender Hausnummer, Straße, Meckfeld, Blankenhain und PLZ: WGS84 50.8499271, 11.4380395. Koordinaten als dokumentarische Frontmatter-Felder ergänzt. Der Hauspunkt ist adressgenau, aber kein Nachweis für Grundstückseinfahrt, Betriebsfläche oder Annahmestelle. `build.rs` validiert lat/lon, importiert sie jedoch ausdrücklich nicht in die Datenbank. Quelle(n): https://nominatim.openstreetmap.org/search?street=Dorfanger%2018&city=Blankenhain&postalcode=99444&country=Germany&format=jsonv2&addressdetails=1&limit=5 ; https://www.openstreetmap.org/node/9365743991 (© OpenStreetMap contributors, ODbL; Abruf 08.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
