@@ -34,3 +34,20 @@ Owner-Gate: neue Datei, keine Bestandsüberschreibungen. YAML/Slug/Enums,
 Root-Website, leere JSON statt ungesicherter Servicebedingungen, endliches
 WGS84-Paar, Platzhalter und datierte Noten geprüft. Acht Seedtests,
 Diffcheck und Rustfmt grün, null Testfehler.
+
+## Deployment
+
+Commit `199f760`, beide Release-Binaries aus sauberem Commit gebaut und
+atomar installiert. Neustart 08.10.2026 17:34:47 UTC, Bootseed eine Zeile.
+Read-only-Spotcheck bestätigt Ortsstraße33/07318, Telefon und explizites
+Paar50.673711/11.322541 sowie ElektroG-Einschränkungen in Notizen;
+Mail/Zeiten wie beabsichtigt leer. 3881 Händler,52 Materialien,2280 Preise.
+Öffentliche Health und installierter Read-only-Query-Worker grün.
+Keine numerischen Preise eingeführt. Backups
+`/var/tmp/schrott-mcp-backup-before-199f760/`.
+Push konkret erneut fehlgeschlagen: HTTPS-Benutzername nicht verfügbar.
+Entfernten Schrott-Anton-TLS-Fehler nicht als behoben behauptet.
+
+SHA256 Server: `43c8b1d33708ef24e08abc5c09d07fad0f7b7898aa44e77194175cf9009b2cd4`
+
+SHA256 Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
