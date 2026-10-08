@@ -224,6 +224,31 @@ Die noch uncommitteten 20 Nord-/West-Dossiers wurden nicht eingebettet.
 Server-SHA256: `08f2a756cd32a94cc8477da382c812fb1ef415460b3fa601f1cbabb0d876e17e`.
 Worker-SHA256: `13f26d4f7837c49d194b374f706bba3ed4206a83e83b35ba97588248c8f857f5`.
 
+### Anschluss-Check-in: neue Standorte #5323/#5324
+
+Dienst aktiv, keine Warnungen im aktuellen Sechs-Stunden-Fenster;
+Ingestion #1123 mit 237 Preisen und null Händlerfehlern. Bestand vor
+Ergänzung: 3872 Händler / 52 Materialien / 2267 Current-Preise.
+Feedback #5313–#5327 (15 neue Hinweise) gesichtet, nicht pauschal freigegeben.
+
+- #5323 bestätigt mit wichtiger Identitätskorrektur: Recycling-KG ist
+  LR Leitl GmbH & Co. Recycling KG, HRA 7824; Leitl GmbH, HRB 4228,
+  ist die gruppenübergreifende persönlich haftende Gesellschaft.
+  Betreiber-Gruppendetail plus beide Registerprofile gelesen. Keine
+  pauschale GmbH-Gruppenzeile als Ankaufshof. Hofannahme belegt,
+  Vergütung offen; genaue Betreiber-Firmenmarkerkoordinate aus dem
+  Kartenlink statt abweichendem Feedback-Koordinatenfenster dokumentiert.
+- #5324 bestätigt: Carnuth-Straubing fehlt als separates Werk, Carnuth-
+  Bogen/Furth besteht bereits. Betreiberkontakt, Impressum, Registerprofil
+  und PÜG-PDF gelesen; PDF seit 30.09.2026 abgelaufen, keine aktuelle
+  Zertifizierung behauptet. Freitagszeiten widersprechen sich in mehreren
+  HTML-Blöcken, daher keine schematische neue Zeitfüllung. Privatannahme/
+  Vergütung offen, keine erfundenen Preise oder Koordinaten.
+
+Owner prüft drei Dossieränderungen, Historie/Slugs erhalten, zwei neue
+Root-URLs, keine Placeholder-Fills. Tatsächlicher Git-Push weiterhin ohne
+nutzbare HTTPS-Zugangsdaten fehlgeschlagen. Übrige neue Feedbacks offen.
+
 ### Anschluss-Check-in: Nord-/West-Teilwelle
 
 Dienst aktiv, keine Warnungen im aktuellen Sechs-Stunden-Fenster; 3872
