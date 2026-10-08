@@ -90,3 +90,29 @@ Keine neue qualifizierte numerische Metallankaufpreisliste. BBW-PDF:
 Baustoffverkauf und Kippgebühren, Hauptliste bereits am 30.09. abgelaufen;
 keine Preisbeobachtung erzeugt. ARR/Seitz/Wetzel/ReMi und Identitätszweifel
 AuDie/Gudrun bleiben konkrete offene Prüffälle statt behaupteter Schließung.
+
+## Veröffentlichung und Produktionsprüfung
+
+Gemeinsamer Dossier-/Berichtscommit `7465638`. Beide Release-Binaries
+aus sauberem Working Tree dieses Commits gebaut; Deployment/Neustart
+08.10.2026 12:23 UTC. Installation atomar ersetzt, nachdem direktes
+Kopieren auf die laufende Serverdatei mit Text-file-busy abgewiesen wurde.
+Backups: `/var/tmp/schrott-mcp-backup-before-7465638/`.
+Bootseed: genau 60 Zeilen aktualisiert. Service aktiv, öffentliche Health
+grün, installierter Read-only-Query-Worker bestätigt 3874 Händler.
+Sieben Produktions-Spotchecks bestätigen MAR-Kontakte/Zeiten/Root-Website,
+Waldi-/ASR-Paare, BBW/ahab/Reinert-Prüfstatus und Missal-Kostenpräzisierung.
+Aktuell 2277 Preiszeilen; normale parallele Ingestion, kein Preisimport
+durch diese Dossierwelle. Git-Push erneut konkret fehlgeschlagen:
+fehlender HTTPS-Benutzername, keine Remote-Veröffentlichung behauptet.
+
+**Offene Geo-Altlast:** MAR und BBW haben trotz fehlendem Dossier-Paar
+noch historische Produktionskoordinaten (MAR 48.5654/10.4297,
+BBW 52.12701333333334/11.617686666666666). Der Seed erhält fehlende
+Paare absichtlich; diese Altwerte sind daher nicht als neu verifizierte
+Betriebspunkte zu verstehen. Hausnummer-genaue Dossierpaare bleiben
+Folgearbeit; keine direkte DB-Löschung oder Rust-Geocodierung ausgeführt.
+
+Installed SHA256 nach Welle:
+- Server: `2654b72aae93f81dd098fc9cffd325c12d33b223b39b12f198c3b6749cb4fdb8`
+- Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
