@@ -30,6 +30,10 @@ Anlieferungszeiten sind veröffentlicht, aber die Website enthält widersprüchl
 
 ## Timeline
 
+### Feedback-Abgleich 08.10.2026 — #4912, #5324, #5517
+
+- [Korrektur 08.10.2026: Die zwei Fehlender-Händler-Meldungen #4912 und #5324 betreffen denselben Straubinger Standort Sachsenring 23; #5517 weist nochmals auf diese doppelte Meldung hin. Read-only-Produktionsabgleich bestätigt inzwischen dieses Dossier unter by-straubing-carnuth-stahlrecycling. Betreiber-Kontaktseite erneut gelesen und Straße/Ort/Standorttelefon kongruent. Fehlend ist daher als Bestandsbehauptung erledigt; offene Vergütungs-/Privatannahme-/Zeiten-/Zertifikatsfragen bleiben erhalten. Keine weitere Neuanlage, kein Merge mit Bogen/Furth und keine Aktivfreigabe aus dem Dublettenhinweis. Quellen: https://www.carnuth.de/kontakt/ ; /var/lib/schrott-mcp/public.db, ausschließlich SELECT am 08.10.2026; Feedback #4912/#5324/#5517 als Meldungsreferenzen, nicht unabhängige Betreiberbelege.]
+
 ### Verifikation 08.10.2026 — Feedback #5324
 
 - [Recherche 08.10.2026: Kontaktseite trennt Werk Straubing, Sachsenring 23, 94315 Straubing, 09421 9254-0, info@carnuth.de von Werk Bogen/Verwaltung, Industriestraße 16, 94327 Bogen, 09422 8503-0. Impressum H. Carnuth KG, HRA 1404 AG Straubing. Northdata bestätigt dieselbe KG/Registernummer sowie Geschäftsanschrift Sachsenring 23 in Bekanntmachung 18.11.2009. Kein Merge mit Carnuth-Bogen oder Straubinger Andorfer/Wolf. Quellen: https://www.carnuth.de/kontakt/ ; https://www.carnuth.de/impressum/ ; https://www.northdata.de/H%C2%B7%20Carnuth%20KG,%20Bogen/Amtsgericht%20Straubing%20HRA%201404 .]
