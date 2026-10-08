@@ -28,6 +28,10 @@ Klärfall trotz aktueller Branchenbuch-Leads: Das Verzeichnis führt Falk Dahms,
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Betreiber-Domain unabhängig direkt erneut angefragt: HTTP403, weiterhin kein lesbares Impressum/Preisangebot. Offizielle GESA-Informationsseite und ihr Registerlink geprüft; die GADSYS-Anwendung lieferte hier keinen auswertbaren Betriebseintrag. Keine aktuelle Demontageanerkennung und keinen Negativregisterauszug behauptet. Historische Pressather Verzeichnisanschrift/-Zeiten bleiben Leads, keine Übernahme als Betreiber-Fill; website_status blockiert unverändert. Ankauf/Teileverkäufe/Entsorgungs- und Abholgebühren nicht verifiziert. Offen: Originalzertifikat, heutiger Betreiber, verbindliche Anschrift/Annahmebedingungen; Quelle: https://www.autoverwertung-dahms.de/ (HTTP403) ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Die aktuelle Branchenbuchseite wurde direkt geprüft und listet Falk Dahms, Autoverwertung, Weidener Str. 47a, 92690 Pressath, Telefon 09644 365, Fax 09644/1284 und Mo-Fr 08:00-17:00/Sa 08:00-13:00. Das bleibt ein einzelner Aggregator-Lead. Die Seite zeigt eine fehlerhaft codierte Koordinatenangabe; diese wurde nicht übernommen. Der Direktabruf der dort verknüpften Betreiber-Domain lieferte HTTP 403, der zweite Verzeichnisabruf HTTP 403. Damit kein belastbarer Betreiber-/Registerbeleg für Anschrift, Öffnungszeiten oder aktuelle Autoverwertung; keine Frontmatter-Fills. Keine belastbare Preisliste für Fahrzeugankauf, Teileverkauf oder Entsorgungsgebühren gefunden. Offene Fragen: aktuelle Betreiberbestätigung, gültige Annahme-/Abmeldebedingungen und Herkunft/Qualität des Verzeichnisdatensatzes. Quelle(n): https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/falk-dahms-autoverwertung-pressath-73631450.html ; https://pressath.stadtbranchenbuch.com/1618675.html ; https://www.autoverwertung-dahms.de/]

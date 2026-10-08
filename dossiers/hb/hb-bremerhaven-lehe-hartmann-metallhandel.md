@@ -28,6 +28,10 @@ Für „Hartmann Metallhandel“ am Kiefernweg 60, 27578 Bremerhaven liegen nur 
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigenständige Register-Namenssuche Hartmann Metallhandel über Northdata-Suggest ohne Treffer; die historisch vom Verzeichnis verlinkte metalle-hartmann.de direkt erneut geprüft, TLS-Abbruch vor lesbarem Impressum. Nicht mit hartmann-metalle.de/Oststeinbek gleichsetzen und technischen Fehler nicht als Geschäftsaufgabe ausgeben. Adresse/Kontaktdaten bleiben wie historisch abgegrenzt, keine Website-Zuordnung. Preise Ankauf/Verkauf/Gebühren nicht verifiziert. Offen: aktueller Betreiber am Kiefernweg60, mobile/stationäre Tätigkeit und belastbarer Gewerbe-/Betreiberbeleg; Quelle: https://www.northdata.de/suggest.json?query=Hartmann%20Metallhandel&countries=DE ; https://www.metalle-hartmann.de/ (TLS-Abrufgrenze).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz

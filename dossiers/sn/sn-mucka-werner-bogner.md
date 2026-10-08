@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Werner Bogner in Mücka bleibt unbestätigter Seed-/Verzeichniskandidat. Die aktuelle Register-Namenssuche findet einen Werner Bogner in Kempten, aber keinen belegten Mücka-Bezug; dieser Homonym ist nicht zugeordnet. Status `pruefung` statt bisher unbelegt `aktiv`, keine Schließungsbehauptung.
+
+Die historische Spur Am Bahnhof 126/02906 Mücka/035893 6983 ist kein geprüfter Betreiberstandort. Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren. Offen: heutige Inhaberidentität, Gewerbenachweis, richtige Hausnummer und öffentliche Metallannahme.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigenständige Northdata-Suggest-Suche Werner Bogner liefert nur Person in Kempten; keine Verbindung zu Mücka nachgewiesen, Homonym nicht übernommen. DDG-Suche Werner Bogner/Mücka nur Bot-Challenge, Websuche ohne brauchbare Primärquelle; Recherchegrenze, kein amtlicher Negativnachweis. Alte deubiz/Schrottportal-Adress- und Materialspuren weiter nicht betreiberbelegt, keine Adress-/Kontaktfills. status aktiv→pruefung mangels verifizierter aktueller Annahme, nicht geschlossen. Ankauf/Verkauf/Gebühren nicht verifiziert. Offen: vollständige Betreiberbestätigung/Gewerbeauskunft am Mückaer Kandidatenstandort; Quelle: https://www.northdata.de/suggest.json?query=Werner%20Bogner&countries=DE .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

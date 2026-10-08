@@ -28,6 +28,10 @@ Mehrere Verzeichnisse wiederholen für „Vikings Schrotthändler“ An Smidts P
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigenständige registerorientierte Suche Vikings Schrott liefert keine Northdata-Vorschläge. Golocal-Detail live erneut gelesen: weiter Haushaltsauflösungen, An Smidts Park19/28719 Bremen/0172 8364924; zusätzlich eine unbestätigte Freemail-Adresse, keine Zeiten. Beide Bewertungen stammen aus 11880 vom10.05.2019, keine verifizierten Bewertungen und kein heutiger Betreiberbeleg. Freemail nicht übernommen; gleichlautende Portalattribute nicht als Zweitquelle zählen. Keine Frontmatter-Fills. Offen: Betreibername/ggf.Gewerbeanmeldung, mobile Abholung versus stationäre Annahme und tatsächlicher Metallankauf. Ankauf/Verkauf/Gebühren nicht verifiziert; Quelle: https://www.northdata.de/suggest.json?query=Vikings%20Schrott&countries=DE ; https://www.golocal.de/bremen/haushaltsaufloesungen/vikings-schrotthaendler-11XbMg (nur Lead).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (klein)

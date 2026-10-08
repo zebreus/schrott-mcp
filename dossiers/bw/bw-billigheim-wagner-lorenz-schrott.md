@@ -32,6 +32,10 @@ Der Betreiber trennt Büro/Kontakt Fasanenweg2 von Lager/Wertstoffhof **Bahnhofs
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Betreiber-Impressum und Kontakt separat erneut live gelesen: Annegret Wagner vertritt Firma Wagner Schrott- und Metallhandel; Fasanenweg 2/06265 95230 sind Büro/Kontakt, Lager dagegen Bahnhofstr.8/3 im Impressum bzw.8 im Kontakt/Seitenfuß, 74821 Neckarelz/06261 62293. Keine Aussage zu Lorenz als früherem/heutigem Inhaber gewonnen. Büro-/Wertstoffhofzeiten Mo-Fr09:00-16:00 deshalb nicht als öffentliche Billigheimer Hofannahme strukturieren; bestehende Identitäts-/Heinrich-Dublettenwarnung bleibt. Ankauf/Verkauf/Gebühren auf diesen Seiten nicht numerisch ausgewiesen. Offen: Lorenz→Annegret-Kette und richtige getrennte Annahmeadresse; keine neuen Frontmatter-Fills; Quelle: https://www.schrott-wagner.de/impressum.html ; https://www.schrott-wagner.de/kontakt.html .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Erstmals Betreiber-Vollcrawl statt bloßem GS-Lead: schrott-wagner.de Kontakt/Impressum nennen Firma Wagner, Fasanenweg2, 74842 Billigheim, 06265/95230, info@schrott-wagner.de; Vertretung Annegret Wagner, keine HRA/HRB. Startseite nennt private/gewerbliche Containerkunden und Wertstoffhofzeiten Mo-Fr09:00-16:00. Leistungsverzeichnis nennt Schrott, Späne, Bleche, Metalle, Alu-/VA-Abfälle und Kabelreste, aber keine numerischen Ankaufspreise. Diese Betreiberfakten stehen vorerst nur im Dossiertext: Lorenz→Annegret nicht register-/zweitbelegt, Betreiber-Ausnahme ohne Registerangabe greift nicht. status aktiv→pruefung wegen offener personenbezogener Zuordnung/Annahmeadresse, nicht wegen nachgewiesener Schließung; Quelle(n): https://www.schrott-wagner.de/ ; https://www.schrott-wagner.de/kontakt.html ; https://www.schrott-wagner.de/impressum.html ; https://www.schrott-wagner.de/leistungen.html ; https://www.schrott-wagner.de/container.html]

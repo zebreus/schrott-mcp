@@ -28,6 +28,10 @@ Schrotthandel-Kandidat in Peißenberg, in Verzeichnissen auch „GEIGER & ERHARD
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigenständig registerorientierte Suche Schrotthandel Geiger Peißenberg ohne Northdata-Vorschlag, kein amtlicher Nichtbestehensbeweis. GS-Detail neu live vollständig gelesen: weiter Forster Str.17A/82380/0160 95935540, Kontakttext Immer einfach anrufen, Leistungsumfang Metall/Schrott/Aushub/Gartenabfälle/LKW7,5 Tonnen mit Kran; kein Betreiber-Impressum oder juristischer Inhaber gewonnen. Keine Übernahme der ähnlich benannten Geiger-Gruppe. Kein neuer Frontmatter-Fill; Preise Ankauf/Verkauf/Gebühren nicht verifiziert. Offen: Geiger/Erhard-Rechtsträger, aktueller Kundenplatz und Abhol-/Annahmebedingungen; Quelle: https://www.northdata.de/suggest.json?query=Schrotthandel%20Geiger%20Pei%C3%9Fenberg&countries=DE ; https://www.gelbeseiten.de/gsbiz/658c0482-c3a3-4604-8be4-904de4044452 (nur Lead).]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Gelbe-Seiten-Detailseite live gelesen: „Schrotthandel GEIGER“, Forster Str. 17A, 82380 Peißenberg, 0160 95935540, Schrott/Metallrecycling; kein nachprüfbarer Betreiber-Weblink, Kontakttext „Immer einfach anrufen“ statt belastbarer Öffnungszeiten. Schrottplatz-info führt denselben Adress-/Telefonlead als „Schrotthandel GEIGER und ERHARD“. Diese Namensvariante ist kein Beleg für Inhaber, Gesellschaftsform oder Nachfolge; beide Portale bleiben Leads. Betreiber-/Registerkette und zweiter zulässiger Beleg fehlen, daher keine Frontmatter-Fills oder Freigabe als aktiver Ankaufshof. Quellen: https://www.gelbeseiten.de/gsbiz/658c0482-c3a3-4604-8be4-904de4044452; https://www.schrottplatz-info.de/schrottplatz/Peissenberg/Schrotthandel-GEIGER-und-ERHARD.]

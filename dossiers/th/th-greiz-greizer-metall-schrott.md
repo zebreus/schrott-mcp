@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Identität weiterhin unbestätigt: Die Seed-Bezeichnung „Greizer Metall & Schrott GmbH“ ist ohne konkrete Registerkennung oder Betreiberadresse. Die aktuelle registerorientierte Namenssuche liefert keinen passenden Vorschlag; das beweist kein Nichtbestehen. Andere Greizer Metallbetriebe nicht als Ersatz zuordnen. Status `pruefung`, keine belegte Schließung.
+
+Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren. Priorität: vollständige juristische Firmierung, HRB/Gericht oder kommunaler Gewerbenachweis und danach aktueller Standort/Annahme.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigenständige Register-Namenssuche nach Greizer Metall über Northdata-Suggest liefert HTTP200/results leer. Websuche ohne brauchbaren Betreiberbeleg, DDG nur Bot-Challenge; das ist eine Recherchegrenze, kein amtlicher Negativauszug und keine Nichtexistenz-/Schließungsbehauptung. Keine belastbare HRB, Straße oder Website gewonnen. Vorhandene Seed-Prosa allein bestätigt weder aktuelle GmbH noch Ankauf. Frontmatter unverändert, Überblick/konkrete offene Fragen ergänzt. Ankauf/Verkauf/Gebühren nicht verifiziert; Quelle: https://www.northdata.de/suggest.json?query=Greizer%20Metall&countries=DE (Suchergebnis, kein Betriebsbeleg).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

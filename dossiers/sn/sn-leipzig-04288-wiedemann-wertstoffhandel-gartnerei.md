@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die historischen Frontmatter-Kontakte stammen nur aus Gelbe Seiten, nicht aus Betreiber-/Registerbelegen. Die Detailseite führt zwar Gartenbaubetriebe als Hauptbranche, nennt aber im Leistungsumfang ausdrücklich Altkleider, Altpapier, Buntmetall, Schrott und Wertstoffhandel. Das frühere Gartenbau-Signal schließt Wertstoffhandel also nicht aus; ebenso belegt diese Portalprosa keinen aktuellen Ankauf oder stationären Hof.
+
+Status `pruefung`. Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren. Offen: Inhaber/Gewerbenachweis, heutiges Leistungsprofil, öffentlich zugängliche Annahme und Vergütung.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigenständige Northdata-Suggest-Suche Wiedemann Wertstoffhandel ohne Treffer. GS-Detail live neu vollständig gelesen: Name/Adresse/Telefon wie bisher; Hauptbranche Gartenbaubetriebe, aber Leistungsumfang Altkleider, Altpapier, Buntmetall, Schrott, Wertstoffhandel. Damit Detailprofil vollständiger als frühere ausschließliche Gartenbau-Klassifizierung dokumentiert; weiterhin nur Aggregator-Lead, kein Betreiberbeleg, keine Erklärung einer rechtmäßigen Zweiquellen-Ausnahme für die Altfills. Bestehende Felder aus Historie erhalten, keine neuen Fills und keine Freigabe des Ankaufs. Ankauf/Verkauf/Gebühren nicht verifiziert. Offen: Betreibername, aktive Kundenannahme und Vergütung; Quelle: https://www.northdata.de/suggest.json?query=Wiedemann%20Wertstoffhandel&countries=DE ; https://www.gelbeseiten.de/gsbiz/19137f15-0bf0-48b1-9ec7-8c6360b16607 (nur Lead).]
 
 ### Recherche 02.10.2026
 

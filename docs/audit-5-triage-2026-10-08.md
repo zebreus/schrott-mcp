@@ -171,6 +171,20 @@ Installed SHA256:
 - Server: `368c39993f00adfb9dfa5facd8345b09953560440a9259cf5cc08075d1822b80`
 - Worker: `93b3fc1b87abf9a248762f27fbcedddfc62bdcc9fdfbaf37d72d18f81f371ac3`
 
+### Nächster stündlicher Check-in
+
+Dienst aktiv, keine Warnungen im aktuellen Sechs-Stunden-Fenster. Migration
+6 weiterhin aktiv; Bestand 3871 Händler / 52 Materialien / 2267 Current-
+Preise. Letzte Ingestion #1116: 36 Preise übernommen, null Händlerfehler;
+#1115 ebenfalls fehlerfrei. Neue Feedbacks #5237–#5277 (41 Hinweise) noch
+nicht einzeln verifiziert. Tatsächlicher Pushversuch weiterhin ohne
+HTTPS-Zugangsdaten gescheitert.
+
+Abgeschlossene Süd-/Ost-Teilwelle (20 Dossiers) vom Owner vollständig
+reviewt; Primär-/Registerbelege der beiden Stammdaten-Fills nachgeprüft.
+Diese Teilwelle wird unabhängig von den am Nutzungslimit unterbrochenen
+40 Dossiers integriert. Keine neue Agentenwelle am bekannten Limit.
+
 VHM-Quellpfad vom Owner direkt gelesen:
 <https://www.vhm-hartmetall.de/script.js?v=vhm-preise-20260928-1>
 lädt <https://www.vhm-hartmetall.de/vhm-preise-aktuell.php> mit
