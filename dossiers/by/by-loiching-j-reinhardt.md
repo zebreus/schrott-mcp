@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott-/Metallhandel „J. Reinhardt“ bleibt ohne vollständige Betreiberidentität. Blumenstraße 4, 84180 Loiching-Kronwieden, Festnetz 08731 8630175 und Mo–So 07:00–18:00 stammen aus Telefonbüchern. Das Portal nennt dagegen Mobil 0170 2877975 und Mo–Fr 07:00–17:00; ein gemeinsamer heutiger Betreiber ist nicht bestätigt. Auch mosesm@hotmail.de ist nur eine Verzeichnisspur, kein Primärbeleg. **Ankauf / Verkauf / Gebühren:** keine identitätsgesicherten Preislisten. Gewerbeidentität und Festnetz-/Mobilzuordnung samt Annahmestelle zuerst klären, bestehende Daten nicht als primärverifiziert empfehlen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NorthData-Suche „Reinhardt Loiching“ erneut auf örtliche Kongruenz geprüft: im ersten auslesbaren Trefferblock kein passender örtlicher Schrottbetrieb; unscharfe/paginierte Suche kein Negativbeweis. Brave-Suche 429 verhindert weiterführende neue Betreiber-Social-Suche. Vorwellen-Konflikt Festnetz/Blumenstraße/7-Tage-Zeiten versus mobile Portalspur bleibt offen, keine erfundene Auflösung aus Namensähnlichkeit. Überblick jetzt mit Primärbestätigungsbedarf kuratiert, Frontmatter und gesamte Historie erhalten. Keine neuen Ankauf-/Verkaufspreise oder Gebühren; Quelle: https://www.northdata.de/?query=Reinhardt%20Loiching.]
 
 ### Recherche 04.10.2026
 

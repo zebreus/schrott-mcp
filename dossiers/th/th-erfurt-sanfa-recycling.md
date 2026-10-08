@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Registerdaten führen Sanfa-Recycling UG, HRB 511280 AG Jena, mit dem Gesellschaftszweck Handel mit Sekundärrohstoffen. Die Firmenprofile widersprechen sich beim Standort: North Data führt Stotternheimer Straße 37 b, 99087 Erfurt; Creditsafe führt Walter-Gropius-Straße 6, 99085 Erfurt. Beides sind Unternehmensdatenbank-Angaben und keine geprüfte heutige Annahmestelle. Anschrift und Tätigkeit vor Ort bleiben offen; Status `pruefung`. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren.
+Registerdaten führen Sanfa-Recycling UG, HRB 511280 AG Jena, mit dem Gesellschaftszweck Handel mit Sekundärrohstoffen. Die Firmenprofile widersprechen sich beim Standort: North Data führt Stotternheimer Straße 37 b, 99087 Erfurt; Creditsafe führt Walter-Gropius-Straße 6, 99085 Erfurt. Der am 08.10.2026 einzeln gelesene Registeränderungstext datiert den Wechsel zur Stotternheimer Straße ausdrücklich auf 10.11.2023; die Creditsafe-Adresse kann daher älter sein, ihr Bezugsdatum ist offen. Registeranschrift ist trotzdem keine geprüfte heutige Annahmestelle, und eine zweite zulässige Quelle fehlt. Anschrift und Tätigkeit vor Ort bleiben offen; Status `pruefung`. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Adresskonflikt zeitlich eingeordnet: Die einzeln gelesene NorthData-Registerpublikation vom 10.11.2023 (Eintragung Nr. 2) nennt explizit Änderung der Geschäftsanschrift zu Stotternheimer Straße 37 b, 99087 Erfurt und Geschäftsführerin Gabriele Farkas. Damit ist diese Anschrift eine datierte Registeränderung, nicht nur eine unkommentierte Profillistung. Das Creditsafe-Profil der Vorwelle mit Walter-Gropius-Straße 6 kann älter sein; dessen Datenzeitpunkt bleibt ungeklärt. NorthData-Profil und Publikation sind eine Quelle; keine aktuelle Annahmestelle/Betreiberseite und kein zweiter zulässiger Adressbeleg. Frontmatter bleibt leer/pruefung, keine Kundenadresse geokodieren. Ankauf/Verkauf/Gebühren: weiterhin kein numerischer Beleg; Quelle(n): https://www.northdata.de/?id=6635312440934400 ; https://www.northdata.de/Sanfa-Recycling%20UG,%20Erfurt/Amtsgericht%20Jena%20HRB%20511280.]
 
 ### Recherche 03.10.2026
 

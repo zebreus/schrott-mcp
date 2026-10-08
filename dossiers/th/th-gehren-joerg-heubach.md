@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Jörg Heubach Recycling/Transporte in Gehren ist bisher nur durch Verzeichnisse beschrieben (Lead Untere Marktstraße 47, Telefonnummer 036783 87384). Die seit 2018 bestehende Zugehörigkeit Gehrens zu Ilmenau erklärt unterschiedliche Ortsbezeichnungen, nicht aber die aktuelle Gewerbeidentität oder PLZ. Spedition Heubach in Waiblingen ist ein anderer Betreiber. Der kommunale Klärweg ist die Ilmenauer Gewerberegisterauskunft, nicht eine weitere Telefonbuchzählung. **Ankauf / Verkauf / Gebühren:** keine zugeordneten Preise. Betrieb, Annahme/Abholung und tatsächlicher Ankauf bleiben offen; pruefung.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Primär-/Registerweg fortgesetzt: Ilmenauer Gewerbeangelegenheiten-Seite erneut abgerufen; eine individuelle Gewerberegisterauskunft wurde nicht eingeholt. NorthData-Suche „Heubach Gehren“ zeigt im ersten auslesbaren Ergebnisblock nur nicht kongruente Unternehmen/Personen; unscharfe Suche ist kein Nachweis der Nichtexistenz eines Einzelunternehmens. Brave-Suche 429 begrenzt weitere Namenssuche. Untere Marktstraße 47 bleibt Lead und braucht Betreiber-/Gewerbeabgleich vor Koordinatenanlage. Keine neuen Stammdaten oder Ankauf-/Verkaufspreise/Gebühren; Quelle(n): https://www.ilmenau.de/de/wirtschaft/gewerbeangelegenheiten/ ; https://www.northdata.de/?query=Heubach%20Gehren.]
 
 ### Recherche 04.10.2026
 

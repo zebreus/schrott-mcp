@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Von-Bar-Str. 36 und 05468 1739 sind weiterhin nur Verzeichnis-Altwerte. Neue qualifizierte Spur: Creditreform hat einen Eintrag „Ralph Uszkoreit Containerdienst“, Branche Großhandel mit Altmaterialien und Reststoffen; Direktabruf jedoch 403, deshalb kein vollständig gelesener Firmen-/Adressbeleg. Betreiberwebsite/Gewerbeidentität und vergüteter Ankauf bleiben offen. Ankauf/Verkauf/Gebühren: keine verifizierten Listen. Vor Geocoding erst Betriebsadresse primär bestätigen.
 
 ## Timeline
 
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott, Container
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Suche nach vollständigem Namen erschließt Creditreform-Firmenprofil 2310143767, Suchindex nennt Ralph Uszkoreit Containerdienst, Bramsche und Großhandel mit Altmaterialien/Reststoffen. Direktabruf 403: nur Suchlead, keine behauptete Einsicht in aktuelle Firmenauskunft/Adresse/Rechtsform. Cylex/Marktplatz-Mittelstand wiederholen Von-Bar-Straße 36 und Telefon, bleiben Aggregatoren; deren Annahmekategorien kein Ankaufbeleg. Keine Stammdatenänderung; Zweitquelle nach README weiter offen. Owner: Betreiber-/Gewerbeauskunft, aktueller Hof vs. Container-/Demontagedienst und Vergütung klären. Keine Ankauf-, Verkauf- oder Gebührenliste verifiziert. Quelle(n): https://firmeneintrag.creditreform.de/49565/2310143767/RALPH_USZKOREIT_CONTAINERDIENST ; https://web2.cylex.de/firma-home/ralph-uszkoreit-schrott-_-containerdienst-2998513.html (Suchlead)]

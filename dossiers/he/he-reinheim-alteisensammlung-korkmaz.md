@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Primärquellen-Nachprüfung begrenzt: NorthData-Direktabfrage Alteisensammlung Korkmaz Reinheim HTTP 429, daher ausdrücklich kein neuer Register-Negativbefund. Vorherige Korrektur der Portaladresse und Abgrenzung Automatenaufstellung erhalten. Keine Betreiberquelle/Preisliste neu verifiziert; ANKAUF ohne bestätigte Zusage/Zahlen, VERKAUF ohne Liste, GEBÜHREN ohne Tarif. Nächster belastbarer Schritt Gewerberegister-/Betreiberbestätigung, nicht weitere Portal-Konsensbildung; Quelle: https://www.northdata.de/?query=Alteisensammlung%20Korkmaz%20Reinheim (Abruf blockiert)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alteisen-Sammlung (Verzeichnis)

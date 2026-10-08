@@ -28,6 +28,10 @@ Für Ludwigshafen ließ sich kein Betreiber „Claus Theodor“ identifizieren. 
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Impressum der Theodor Claus GmbH erneut direkt geprüft: Pfingstweidstr. 37, 68199 Mannheim, HRB 5236 Mannheim, Thomas Claus/Brigitte Janzer. Keine Ludwigshafen-Zuordnung oder Zweigniederlassung daraus ableitbar; keine Firmenwerte in LU-Frontmatter übertragen. Gegenprobe bestätigt nur die Mannheimer Seite, nicht eine separate LU-Entität. ANKAUF/VERKAUF/GEBÜHREN des LU-Dossiers bleiben ohne zuordenbare Preisquelle. Owner-Klärfall Seed-Ortsfehler vs. realer unidentifizierter LU-Händler; keine Löschung/Schließung inferiert. Quelle: https://www.claus-schrott.de/impressum]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Gegenprobe mit der Betreiber-Primärquelle der Theodor Claus GmbH: Impressum nennt Pfingstweidstr. 37, 68199 Mannheim, Amtsgericht Mannheim HRB 5236 und Geschäftsführer Thomas Claus/Brigitte Janzer; Kontaktseite bestätigt Mannheim, Tel. 0621 855550 und Öffnungszeiten Mo–Fr 07:00–16:30. Die Seite beschreibt Schrott-/Metallhandel, Containerdienst und Nutzeisen, aber keinen Standort in Ludwigshafen. Das bestätigt die bereits dokumentierte City-Mismatch-Warnung, nicht die Existenz eines Ludwigshafener Betriebs; keine Mannheimer Anschrift, Website oder Kontaktwerte in diesen LU-Datensatz übernommen. Offen: falscher Stadtbezug oder eigenständiger LU-Händler? Betreiberseite enthält keine numerische Ankaufpreisliste/Verkaufspreise oder Gebührenordnung; nur Leistungsbeschreibungen. Quelle(n): https://www.claus-schrott.de/impressum ; https://www.claus-schrott.de/kontakt ; https://www.claus-schrott.de/unsere-dienste]

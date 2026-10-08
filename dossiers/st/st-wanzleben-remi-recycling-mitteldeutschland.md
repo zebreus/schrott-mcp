@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für „ReMi Recycling Mitteldeutschland GmbH“ in Wanzleben gibt es weiterhin keinen bestätigten Betreiber-, Register- oder Kommunalnachweis. Eine offizielle REMONDIS-Standortseite führt separat die REMONDIS Sachsen-Anhalt GmbH, Niederlassung Wanzleben, An der Alten Tonkuhle 10; Namensähnlichkeit ist kein Beleg, dass das Dossier REMONDIS meint. Keine Anschrift oder Preise zwischen diesen Datensätzen übertragen.
+Ein Registerhinweis wurde inzwischen gefunden: NorthData führt **ReMi Recycling Mitteldeutschland GmbH, Wanzleben, HRB 9719 Stendal** mit Erloschen-Marker. Die ältere Aussage „kein Registertreffer“ ist dadurch überholt; Details zur Löschung, Sitzadresse und etwaiger Nachfolge sind noch nicht verifiziert (Detailabruf HTTP 429). Eine offizielle REMONDIS-Standortseite führt separat die REMONDIS Sachsen-Anhalt GmbH, Niederlassung Wanzleben, An der Alten Tonkuhle 10; Namensähnlichkeit und Erloschen-Marker beweisen keine Betreiberkette. Keine Anschrift oder Preise zwischen diesen Datensätzen übertragen; `pruefung` bis zur Kettenklärung.
 
 **Preise (Stand 08.10.2026):** **ANKAUF** – keine ReMi-Kurse belegt. **VERKAUF** – keine ReMi-Preisliste. **GEBÜHREN** – keine ReMi-Tarife; REMONDIS-Preise wären nicht dossierzuordenbar.
 
 ## Timeline
+
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Neuer konkreter Registerhinweis statt Phantomannahme: Die NorthData-Suche nach BBW Recycling Mittelelbe liefert als eigenen Treffer ReMi Recycling Mitteldeutschland GmbH, Wanzleben, Amtsgericht Stendal HRB 9719 mit Erloschen-Marker. Der Treffer beweist einen historischen Rechtsträger, nicht dessen heutige Betriebsstätte/Nachfolger oder eine Verbindung zu REMONDIS. Detailabruf HTTP 429; Löschungsdatum/-grund und Originalbekanntmachung offen. Vorherige Kein-Registertreffer-Aussage überholt, Historie erhalten. Frontmatter/status unverändert bis unabhängiger Kettenbeleg; alle Preisrichtungen weiterhin ohne verifizierte ReMi-Zahlen. Quelle(n): https://www.northdata.de/?query=BBW%20Recycling%20Mittelelbe ; https://www.northdata.de/ReMi%20Recycling%20Mitteldeutschland%20GmbH,%20Wanzleben/Amtsgericht%20Stendal%20HRB%209719 (Detailabruf blockiert)]
 
 ### Recherche 01.10.2026
 

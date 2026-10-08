@@ -48,3 +48,8 @@ Register- und Statuslage ist widersprüchlich: Northdata führt die Tolksdorf Sc
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NorthData und GLEIF-API erneut einzeln live HTTP 200 gelesen. Registerspiegel weiterhin i. L., Liquidation 18.12.2019 und Insolvenzhinweis AG Neumünster 92 IN 91/19, letzte sichtbare Rechnungslegung 2019 (Publikationen 2021); kein Fortsetzungs-/aktueller Betreiberbeleg. GLEIF Golden-Copy publishDate 08.10.2026, aber entity.status ACTIVE bei lastUpdateDate 15.07.2021, registration LAPSED, renewal 09.04.2020, conformity NON_CONFORMING. Tagesaktuelles API-Publikationsdatum nicht mit Stammdaten-/Betriebsaktualität verwechseln. Owner-Korrektur pruefung vom 07.10. ausdrücklich bestätigt; keine Schließung oder Aktivierung, keine Kontakt-/Ankauf-/Preisfills. Adresse historische Registeradresse, keine neu verifizierte Kundenannahmestelle. Quelle(n): https://www.northdata.de/Tolksdorf+Schrott-+und+Metallhandelsgesellschaft+mbH,+Hohenwestedt/Amtsgericht+Kiel+HRB+18510+KI ; https://api.gleif.org/api/v1/lei-records/5299009W3O1JVG10WF75]
+- [Recherche 08.10.2026: Ankauf: historische Materialliste kein aktueller Kaufbeleg, keine aktuelle Preisliste verifiziert. Verkauf: keine Liste. Gebühren: keine Tarife. Owner benötigt amtlichen heutigen Registerstatus/Fortsetzungsnachweis und Standort-/Liquidatorkontakt statt weiterer alter Verzeichnisse. Quelle(n): Register-/GLEIF-Abrufe wie oben]

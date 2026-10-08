@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Klucke bleibt ein Klärfall. Horstfelder Dorfstraße 2 und 03377 300471 sind historische Verzeichnisangaben, keine aktuelle Betreiberbestätigung. Neu gefundener Domain-Lead `autoteileklu.de` liefert HTTP 410; ohne lesbares Impressum ist auch die Zuordnung dieser Domain nicht unabhängig bestätigt. Ein toter Domain-Lead beweist keine Betriebsschließung.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Zahlenpreise. Offen: vollständiger Betreibername, aktuelle GESA-Bescheinigung, Betriebsfortbestand und heutige Annahmeadresse; keine Anlieferung aus der Portaladresse ableiten.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Verzeichnislead nennt autoteileklu.de neben Horstfelder Dorfstr. 2 und 03377 300471; Domain direkt verfolgt, HTTP 410 statt Betreiberinhalt. Keine Website in Frontmatter ergänzt und keine Schließung behauptet. Adresse/Telefon bleiben unverifiziert; Domainzuordnung ohne Impressum offen. ANKAUF/VERKAUF/GEBÜHREN ohne belegte Beträge. GESA verweist aktuell auf das Fachbetrieberegister (JavaScript/Vaadin, im Textabruf keine Betriebsergebnisse), individueller Anerkennungsnachweis noch nötig. Quelle(n): https://zossen-bb.sind-sie-sicher.info/autoverwertung-klucke (nur Lead) ; http://autoteileklu.de/ (410) ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

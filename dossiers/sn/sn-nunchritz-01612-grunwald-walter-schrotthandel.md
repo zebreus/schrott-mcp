@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Walter Grunwald Schrotthandel an Müllerstraße 8 in Nünchritz ist bisher nur eine Verzeichnisspur; Telefonnummer 035265 79486 und PLZ 01612 sind nicht als aktuelle Betreiberdaten bestätigt. Ein leeres Portal-Leistungsangebot ist weder Schließungsbeleg noch Nachweis eines Annahmehofs. **Ankauf / Verkauf / Gebühren:** keine zugeordneten Zahlen. Gewerbeidentität, gegenwärtige Tätigkeit und Material-/Kundenannahme über Betreiber oder örtliche Gewerbeauskunft prüfen; keine Geokodierung eines verifizierten Kundenstandorts behaupten.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NorthData-Suche „Grunwald Nünchritz“ im ersten auslesbaren Ergebnisblock ohne kongruente lokale Schrottidentität; unscharfe/paginierte Suche kein Nichtexistenznachweis. Direkt abgerufener Portalpfad Grunwald-Walter-Schrotthandel liefert nur generisches leeres Leistungsangebot, keine verwertbare Betreiberquelle. Bestehende Müllerstr. 8 erhalten, PLZ/Telefon nicht aus Verzeichnis-Leads hochgestuft. Kein neuer Ankauf-/Verkaufs-/Gebührenbeleg. Owner: Walter Grunwald und Tätigkeit an Müllerstraße 8 über kommunale Gewerbeauskunft prüfen; Quelle(n): https://www.northdata.de/?query=Grunwald%20N%C3%BCnchritz ; https://www.schrottplatz-info.de/schrottplatz/Nuenchritz/Grunwald-Walter-Schrotthandel (nur leerer Portalpfad).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

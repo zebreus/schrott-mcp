@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten und weitere Verzeichnisse führen Schrott Gudrun an der Pestalozzistraße 88A mit 030 6 21 84 98. Die Adresse wird nicht durch einen aktuellen Betreiberbeleg gestützt; ein anderer Verzeichniseintrag ordnet derselben Anschrift inzwischen einen Fahrradladen zu. Fortbestehen, Betreiber und Ankauf bleiben offen. Keine verifizierten ANKAUF-Preise, VERKAUF-Preise oder Gebühren.
+Verzeichnisse führen Schrott Gudrun an der Pestalozzistraße 88A mit 030 6 21 84 98. Die am 08.10. vollständig gelesene Telefonbuchseite nennt keine Schrott-/Entsorgungsleistung, behandelt den Namen wie einen Personeneintrag und verwendet im URL-Pfad Gudrun-Schrott: möglicher Vor-/Nachnamen-Fehlimport statt Schrotthändler. Das ist ein Verdacht, keine gesicherte Identität; andere gleichnamige Berliner Personen nicht zugeordnet. Die Adresse wird nicht durch einen Betreiber-/Gewerbebeleg gestützt; ein anderer Verzeichniseintrag ordnet derselben Anschrift einen Fahrradladen zu. Owner sollte primär prüfen, ob überhaupt ein Gewerbe gemeint war, nicht nur dessen Fortbestehen. Keine verifizierten ANKAUF-Preise, VERKAUF-Preise oder Gebühren; Stammdaten/Slug erhalten, Status pruefung.
 
 ## Timeline
 
@@ -39,3 +39,7 @@ Gelbe Seiten und weitere Verzeichnisse führen Schrott Gudrun an der Pestalozzis
 - Adresse: Pestalozzistr. 88A, 10625 Berlin
 - Bezirk: Charlottenburg-Wilmersdorf Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
 - [Recherche 30.09.2026: Tel. 030 6 21 84 98; Quelle: gelbeseiten.de (Verzeichnis)]
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Telefonbuch-Detailseite jetzt tatsächlich vollständig live gelesen: Name Schrott Gudrun, Pestalozzistr. 88A, 10625 Berlin, 030 6 21 84 98. Keine Schrottbranche/Ankauf-/Entsorgungsleistung auf der Seite; stattdessen Suche nach weiteren Personen Schrott sowie getrennte Firmen-/gewerbliche Einträge. URL dreht die Namen zu Gudrun-Schrott um. Starker Verdacht auf Fehlklassifikation eines Personennamens (Nachname Schrott, Vorname Gudrun), keine gesicherte Gewerbeidentität. Andere Suchtreffer zu Gudrun Schrott in Berlin nicht als Identitätsbeweis übertragen. Bestehende Felder als Altleads erhalten, status pruefung; Owner: Gewerbenachweis statt weiterer Telefonbuchkopien. Kein Schließungsbeweis. Ankauf/Verkauf/Gebühren jeweils nicht verifiziert. Quelle: https://kontakt-1.dastelefonbuch.de/Berlin/Gudrun-Schrott-Berlin-Pestalozzistr.html]

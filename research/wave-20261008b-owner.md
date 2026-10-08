@@ -42,3 +42,51 @@ Git-Push scheitert weiterhin an fehlenden HTTPS-Zugangsdaten.
 Installed SHA256:
 - Server: `72555cf938868d5fd71e34dfad0610ba454d4c485ecdd79180c3a1bb3f112afa`
 - Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
+
+## Shard 1 abgeschlossen — Teilreview
+
+Bericht `research/wave-20261008b-shard1.md` gelesen. MAR-Lauingen-
+Kontaktseite unabhängig erneut abgerufen: Adresse Nr. 25, Telefon,
+Materialannahme und standortspezifische Pausenzeiten bestätigt.
+Frontmatter-Website auf die Betreiber-Hauptseite normalisiert;
+Standort-/Kontaktbelege bleiben in der Timeline. Koordinaten noch offen.
+ARR-Löschung und Seitz-Schließung bleiben transparente Prüfhinweise,
+keine ungeprüfte Umstellung auf geschlossen. Gemeinsamer vollständiger
+Owner-Gate, Commit und Deployment erst nach Abschluss aller Shards.
+
+## Shard 3 abgeschlossen — Teilreview
+
+Bericht `research/wave-20261008b-shard3.md` und Waldi-/Missal-Diffs gelesen.
+Waldi-Kontaktseite unabhängig erneut gelesen: Kahlenbergstraße 9,
+Telefon und E-Mail kongruent; verlinkte Google-Place-Geometrie bestätigt
+49.2750147 / 7.1569562, noch nicht als geprüfter Anlieferpunkt übernommen.
+Abgelaufene Zertifikate werden nicht als heute gültig bezeichnet.
+AuDie/Gudrun-Branchenzweifel bleiben Prüffälle, keine Löschung aufgrund
+von Namensähnlichkeit. Missal-Zusatzarbeiten dürfen nicht als pauschal
+kostenlos gelten; structured Pickup-Formulierung im gemeinsamen Gate prüfen.
+
+## Gemeinsamer Owner-Gate
+
+Alle drei Shards abgeschlossen, alle Berichte gelesen; 60/60 Dossiers.
+Automatischer Vergleich gegen HEAD: sämtliche alten Timeline-Bullets
+erhalten, Slugs/Frontmatter-Schlüssel stabil; YAML, Enumwerte aus Seedcode,
+Root-Websites, fehlende Emdash-Platzhalter, Service-JSON, endliche gepaarte
+WGS84-Werte und datierte Nachträge geprüft. Diff-Check und Rustfmt grün;
+acht Seedtests bestanden, null Fehler.
+
+Nichtleere Überschreibungen einzeln geprüft: MAR-Typ/Aktivstatus durch
+identifizierten aktuellen Betreiber; ahab/Reinert zurück auf pruefung wegen
+fehlender belastbarer Aktivbestätigung; Missal-Kostenformulierung anhand
+erneut gelesener Betreiberpreise eingeschränkt. BBW bleibt als Schrott-
+Ankauffall pruefung trotz belegtem aktivem Baustoffbetrieb. Die Agenten-
+Recherche dazu bleibt erhalten, Owner-Korrektur ausdrücklich ergänzt.
+ASR-Standortpaar und Öffnungszeiten live auf Betreiberseite bestätigt;
+kommunaler Ortsteilbeleg löst Klieken/Coswig auf. Waldi-Paar aus expliziter
+Google-Place-Geometrie übernommen, als Adresspunkt, nicht Toreinfahrt.
+MAR und BBW: Nominatim nur Straßenobjekte ohne bestätigte Hausnummer;
+MAR-Kurzlink nur Kartenzentrum. Deshalb keine Ersatzkoordinaten erfunden.
+
+Keine neue qualifizierte numerische Metallankaufpreisliste. BBW-PDF:
+Baustoffverkauf und Kippgebühren, Hauptliste bereits am 30.09. abgelaufen;
+keine Preisbeobachtung erzeugt. ARR/Seitz/Wetzel/ReMi und Identitätszweifel
+AuDie/Gudrun bleiben konkrete offene Prüffälle statt behaupteter Schließung.

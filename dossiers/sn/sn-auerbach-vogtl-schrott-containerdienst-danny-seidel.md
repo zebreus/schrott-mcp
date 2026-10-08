@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der behauptete Auerbacher Schrott-/Containerbetrieb bleibt ohne gesicherte Betreiberidentität oder Adresse. Die ursprünglich genannten Fe-/NE-Materialien stammen aus einem Portal und sind keine bestätigte heutige Annahmeliste. NorthData findet gleichnamige Personen in anderen Orten und einen niederländischen Eintrag; nichts davon darf hier zugeordnet werden. **Ankauf / Verkauf / Gebühren:** keine zurechenbaren Zahlen. Vollständige Gewerbeadresse und Betreiber-Social/Gewerbeauskunft in Auerbach priorisieren; keine Schließung allein aus fehlenden Telefonbuchtreffern ableiten.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Register-Namensvetterprüfung: NorthData-Suche „Danny Seidel“ zeigt Danny Seidel in Assen/Niederlande, Danny Sven Seidel in Doberschau-Gaußig (Agrargenossenschaften) und Danny Seidel in Falkensee (Noplees!/autarKnow). Kein lokaler Auerbacher Schrottbezug im auslesbaren ersten Ergebnisblock; keine Person/Adresse übertragen. Das ist kein vollständiger Register-Negativbeweis, und Einzelgewerbe können fehlen. Betreiber-Suche zusätzlich durch Brave429 begrenzt. Frontmatter pruefung/leer erhalten; Owner: örtliche Gewerbeidentität und Ursprung der Portal-Materialliste klären. Keine Ankauf-/Verkaufs-/Gebührenlisten; Quelle: https://www.northdata.de/?query=Danny%20Seidel.]
 
 ### Recherche 02.10.2026
 

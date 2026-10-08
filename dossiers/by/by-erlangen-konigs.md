@@ -28,6 +28,10 @@ Für Walter Königs Schrott und Metalle Inh. Manfred Königs e. K. ist HRA 6851 
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NorthData-Profil erneut vollständig geprüft: HRA 6851 Fürth/EUID DED3304V.HRA6851, Unternehmensname und Inhaber Manfred Königs, aber profilseitige Adresse nur „Erlangen, Deutschland“; konkrete Neuenweiherstr. 6 erscheint allein in Bekanntmachung 22.09.2010. Kein aktueller Telefon-/Öffnungszeiten-/Mindestmengenbeleg gewonnen. Registeridentität nicht mit aktueller Kundenannahme gleichsetzen, bestehende Verzeichnisfelder und aktiv nicht neu bestätigt. Keine numerischen Ankauf-/Verkaufs-/Gebührenbelege. Owner: aktuelle Gewerbe-/Annahmebestätigung statt Übernahme der 2010er Registeradresse als aktuelle Betriebsprüfung; Quelle: https://www.northdata.de/Walter%20K%C3%B6nigs%20Schrott%20und%20Metalle%20Inh.%20Manfred%20K%C3%B6nigs%20e.%20K.,%20Erlangen/Amtsgericht%20F%C3%BCrth%20HRA%206851.]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: ok — Registerbeleg (starke Einzelquelle): Northdata handelsregisterlich Walter Königs Schrott und Metalle Inh. Manfred Königs e. K., AG Fuerth HRA 6851, Geschaeftsanschrift Neuenweiherstr. 6, 91056 Erlangen. Kongruent zweitbelegt via schrottplatz-info.de und lokaleschrottplatz.de (Adresse + Tel. 09131 992321, Annahmespektrum Alu/Elektromotoren/Stahl-Eisen, Mindestmengen). Name/trader_type korrigiert, Zeiten aus lokaleschrottplatz.de (Verzeichnis, offen dokumentiert). Keine Betreiber-Website (Referenz auf schrottplatz-info.de ist Verzeichnis, kein Fill). Status aktiv; Quelle(n): Northdata HRA-6851-Seite, https://www.schrottplatz-info.de/schrottplatz/Erlangen/Koenigs-Schrotthandel , https://lokaleschrottplatz.de/walter-konigs-schrott-und-metalle-inh-manfred-konigs-e-k/]

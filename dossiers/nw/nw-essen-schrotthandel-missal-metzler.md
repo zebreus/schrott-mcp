@@ -14,7 +14,7 @@ website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
-pickup_json: '{"allowed": true, "conditions": "Kostenlose Schrott-/Altmetallabholung im Ruhrgebiet/NRW inkl. Demontage/Brennarbeiten (Betreiber-Website, Feedback-Triage 01.10.2026)"}'
+pickup_json: '{"allowed": true, "conditions": "Kostenlose Schrott-/Altmetallabholung im Ruhrgebiet/NRW laut Betreiber; Demontage, Brennarbeiten, Sortierung und mögliche Entsorgungskosten vorab vereinbaren, nicht pauschal kostenlos. Ankaufpreis abhängig von Art, Menge und Aufwand."}'
 provenance_section: Essen / Mülheim / Oberhausen / Bottrop
 provenance_ankauf_raw: ja (mobil)
 provenance_origin: table
@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mobile Betreiber-Sphäre Metzler/Jürgen Missal mit belegter kostenloser Altmetallabholung im Ruhrgebiet/NRW. Impressum nennt Jürgen Missal, Kalthofweg 4, zusätzlich „Vertretungsberechtigt: Markus Metzler“. Historische Zum-Oberhof-Adresse und rechtliche Rollen bleiben ungeklärt, daher keine Kontakt-/Adressfills. **Ankauf:** ausdrücklich nur „je nach Art und Umfang“; telefonische Preisvereinbarung, keine EUR/kg-Liste. **Verkauf:** keine separate Liste. **Gebühren:** Abholung wird kostenlos beworben, Preisberechnung berücksichtigt aber Demontage, Sortierung und mögliche Entsorgungskosten; keine pauschale kostenlose Demontage/Entrümpelung zusagen.
 
 ## Timeline
 
@@ -41,3 +41,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Abholung, Demontage, Brennarbeiten (Zum Oberhof 32)
+
+### Recherche 08.10.2026
+
+- [Korrektur 08.10.2026: Owner hat Schrottpreise-Seite erneut gelesen und die bisherige pauschale inkl.-Formulierung in pickup_json präzisiert. Kostenlose Abholung bleibt Betreiberwerbung; Demontage-/Sortieraufwand und mögliche Entsorgungskosten fließen laut derselben Betreiberseite in die Preiskalkulation ein. Keine Zusage kostenloser Zusatzarbeiten. Quelle: https://schrotthandel-metzler-essen.de/schrottpreise/]
+
+- [Recherche 08.10.2026: Impressum, tatsächliche Schrottpreis-Seite und Ankaufseite einzeln live gelesen. Impressum enthält neben Jürgen Missal auch Vertretungsberechtigt Markus Metzler; keine HRB, USt-ID derzeit nicht erteilt. Beide Preis-/Ankaufseiten nennen 0170 3547895 UND 0175 9254651; letztere passt zur früheren Metzler-Verzeichnisspur, beweist aber keine Umzugs-/Rechtsträgerkette. Owner-Gate von 01.10. bleibt: keine Kontakt-/Adressfills, alle Domains derselben Sphäre kein unabhängiger Zweitbeleg. Quelle(n): https://schrotthandel-metzler-essen.de/impressum/ ; https://schrotthandel-metzler-essen.de/schrottpreise/ ; https://schrotthandel-metzler-essen.de/altmetall-alteisen-ankauf-essen-ruhrgebiet-nrw-fa-metzler/]
+- [Recherche 08.10.2026: PREISPRÄZISIERUNG ANKAUF: je nach Art und Umfang möglich, tagesaktuelle telefonische Angebote, keine numerische öffentliche Liste. Schrottpreise-Seite nennt Zusammensetzung/Menge, Demontage-/Sortieraufwand und mögliche Entsorgungskosten als Kalkulationsfaktoren. VERKAUF: keine separate Preisliste in den geprüften Seiten. GEBÜHREN: kostenlose Schrottabholung beworben, nicht automatisch kostenlose Zusatzarbeiten; keine Tariftabelle. Vorhandenes pickup_json bleibt erhalten, aber dessen Formulierung inkl. Demontage/Brennarbeiten darf nicht als Zusage kostenloser Zusatzarbeiten ausgelegt werden. Quelle(n): https://schrotthandel-metzler-essen.de/schrottpreise/ ; https://schrotthandel-metzler-essen.de/altmetall-alteisen-ankauf-essen-ruhrgebiet-nrw-fa-metzler/]

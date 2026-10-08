@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Katja Hartl in Regen ist derzeit ein unbestätigter Verzeichnisimport mit PLZ 94209, ohne Anschrift/Betreiberwebsite und ohne Primärnachweis für Schrottankauf. Ein Personenname allein begründet weder Einzelunternehmerstatus noch Zugehörigkeit zu anderen Hartl-Firmen. **Ankauf / Verkauf / Gebühren:** keine identitätsgesicherten Zahlen. Originaleintrag und örtliche Gewerbeidentität/Tätigkeit prüfen; keine spekulative Adresse oder Koordinaten ergänzen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NorthData-Personensuche „Katja Hartl“ geprüft; im ersten auslesbaren Ergebnisblock keine kongruente Person/Schrottfirma Regen. Unscharfe Suche und fehlende Registerpflicht möglicher Einzelgewerbe erlauben keine Nichtexistenz-/Schließungsbehauptung. Portal-Kandidat lokaleschrottplatz.de/katja-hartl/ HTTP403; Brave-Suche 429. Frontmatter bleibt unverändert, Kontakt-/Adressfelder nicht geraten. Owner-Klärweg: ursprünglichen Verzeichniseintrag samt Adresse rückverfolgen und Gewerbeauskunft der Stadt Regen; keine zugeordneten Ankauf-/Verkaufs-/Gebührenlisten; Quelle(n): https://www.northdata.de/?query=Katja%20Hartl ; https://lokaleschrottplatz.de/katja-hartl/ (Abrufgrenze).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

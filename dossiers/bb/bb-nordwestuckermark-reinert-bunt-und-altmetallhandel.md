@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Reinert Bunt- und Altmetallhandel“ wird im Gelbe-Seiten-Ortsbranchenbuch Nordwestuckermark als Name geführt; aktuelle Betreiberanschrift, Kontakt und Primärquelle sind nicht identifiziert. Der frühere Aktivstatus und Seed-Ankauf „ja“ waren damit stärker als ihre Beleggrundlage; nun `pruefung`. Namensähnliche Metallbau-Reinert- oder Reinhardt-Entsorgungsbetriebe außerhalb Nordwestuckermark nicht zuordnen.
+
+**ANKAUF:** unbelegt/keine Zahlenkurse. **VERKAUF / GEBÜHREN:** keine zuordenbare Liste. Offen: ausgeschriebener Inhaber, Ortsteil und aktueller Gewerbesitz; Gemeinde-Gewerbeauskunft statt Übernahme fremder Reinert-Websites.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Korrektur 08.10.2026: Name nur im Gelbe-Seiten-Ortsbranchenbuch als Lead gefunden; keine Primärquelle zur aktuellen Tätigkeit/Anschrift bestätigt. NorthData-Abfrage Reinert Nordwestuckermark HTTP 429, kein Negativnachweis. Daher ungestützten Aktivstatus zu pruefung korrigiert, historische Ankauf-ja-Seedangabe erhalten, keine neue Anschrift/Kontakte. Metallbau Reinert Weidenbach und Reinhardt Entsorgung Neumarkt St. Veit nicht gleichgesetzt. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Preise. Quelle(n): https://www.gelbeseiten.de/branchenbuch/staedte/brandenburg/uckermark/nordwestuckermark (Lead) ; https://www.northdata.de/?query=Reinert%20Nordwestuckermark (blockiert)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

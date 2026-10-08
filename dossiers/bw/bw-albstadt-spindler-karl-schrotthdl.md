@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Kleiner Schrotthändler nur durch Verzeichnis-Leads beschrieben: Chemnitzer Straße 91, 72458 Albstadt-Ebingen, 07431 74569. Die Ausnahmefüllung vom 02.10.2026 ist kein Nachweis nach heutigem README-Belegstandard; auch viele kongruente Telefonbuch-/Portalprofile ersetzen keine Betreiber- oder Gewerbequelle. Aktueller Betrieb, Ankauf und Kundenzugang bleiben offen, der bestehende Aktivstatus wurde nicht neu bestätigt. **Ankauf / Verkauf / Gebühren:** keine zurechenbaren Zahlen. Vor Anfahrt aktuelle Gewerbeidentität/Annahme telefonisch oder amtlich klären; vorhandene Adresse erst nach Primärbestätigung als Kundenstandort pinnen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Namens-/Ortsrecherche über Brave liefert Spindler Karl an Chemnitzer Str. 91 in Telefonbüchern/Portalen, aber keine zuordenbare Betreiberquelle. NorthData-Suche „Spindler Albstadt“ zeigt im auslesbaren ersten Ergebnisblock keinen kongruenten Schrotthändler; unscharfe/paginierte Suche und mögliche nicht eingetragene Einzelunternehmen erlauben keinen Existenz-Negativbeweis. Adresse/Telefon aus Ausnahmefüllung erhalten, ausdrücklich weiterhin nur Leads; aktiv nicht als neu verifiziert gewertet. Keine Preislisten Ankauf/Verkauf oder Gebühren gesichert. Owner: kommunale Gewerbeauskunft zum vollständigen Namen und aktueller Annahme; Quelle(n): https://search.brave.com/search?q=%22Spindler%22%20Schrott%20Albstadt&source=web (Such-Leads) ; https://www.northdata.de/?query=Spindler%20Albstadt.]
 
 ### Recherche 02.10.2026
 

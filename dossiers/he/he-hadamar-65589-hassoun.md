@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Namensvetter Autopark Hassoun e.K. über eigene Website als Meboldstr. 3, 72172 Sulz am Neckar verortet, kein Hadamar-Beleg; seine Fahrzeugankauf-/Kennzeichenpreise ausdrücklich nicht diesem Dossier zugerechnet. NorthData-Abfrage Hassoun Hadamar HTTP 429, kein Nichtbestehensbeleg. Aktuelle amtliche GESA-Suche liegt im JavaScript-Fachbetrieberegister, Textabruf liefert keine individuelle Anerkennung. Keine Adresse/Website gefüllt; ANKAUF/VERKAUF/GEBÜHREN für Hadamar ohne verifizierte Zahlen. Ausgeschriebener Inhaber/Gewerbeanschrift weiterhin zuerst nötig. Quelle(n): https://autopark-hassoun.de/ ; https://www.northdata.de/?query=Hassoun%20Hadamar (blockiert) ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: NorthData-Suche nach „Hassoun Hadamar Schrott“ ergab keinen eindeutig zuordenbaren Firmenprofiltreffer. Das ist kein Nichtexistenz- oder Schließungsbeleg, insbesondere bei möglichem Einzelunternehmen. Die Seed-Klassifikation „AV / unklar“ bestätigt weder einen Demontagebetrieb noch Metallankauf; keine Kontakt-/Adressfelder ergänzt. ANKAUF: unbelegt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in den ausgewerteten Quellen. Offen: ausgeschriebener Betreiber, genaue Anschrift, aktuelle Fahrzeugannahme und Verwertungsnachweis; Quelle: https://www.northdata.de/?query=Hassoun%20Hadamar%20Schrott]

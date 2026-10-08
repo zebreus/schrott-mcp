@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unvollständige Betreiberidentität „Jansen“: Flurweg 8, 93426 Roding, 0171 1884077 wurden 02.10.2026 aus Verzeichnis-Leads als Ausnahme gefüllt. Der damalige Hinweis „Kleinstbetrieb“ und fehlender HR-Beleg sind keine gesicherte Rechtsformprüfung. Aktueller Gewerbetreibender, Schrotthandel und Annahmestelle fehlen als Primärnachweis. **Ankauf / Verkauf / Gebühren:** keine zugeordneten Zahlen. Keine Kontakte namensgleicher Jansen-Betriebe außerhalb Roding übernehmen; vor Kundenempfehlung Gewerbeidentität/Anlieferung prüfen. Koordinaten der vorhandenen Adresse erst nach Primärabgleich.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NorthData-Suche „Jansen Roding“ zeigt im ersten Ergebnisblock keine kongruente lokale Schrottidentität; unscharfe/paginierte Treffer und nichtregisterpflichtige Gewerbe begrenzen die Aussage. Portal-Kandidat lokaleschrottplatz.de/jansen/ HTTP403, Brave-Namenssuche 429; kein neuer Betreiberbeleg und keine Preisprüfung an identitätsgesicherter Website möglich. Historische Flurweg-/Telefon-Ausnahme unverändert, ausdrücklich nicht als heutiger Zwei-Quellen-Nachweis gewertet. Owner: vollständigen Namen hinter Jansen und Gewerbetätigkeit an Flurweg 8 klären; Quelle(n): https://www.northdata.de/?query=Jansen%20Roding ; https://lokaleschrottplatz.de/jansen/ (Abrufgrenze).]
 
 ### Recherche 02.10.2026
 

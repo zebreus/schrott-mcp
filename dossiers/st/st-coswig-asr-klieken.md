@@ -4,15 +4,17 @@ name: ASR-Klieken
 trader_type: autoverwertung
 state: ST
 city: Coswig
-street: ''
-postcode: ''
+street: Fichtenbreite 1
+postcode: '06869'
+lat: 51.887961
+lon: 12.403071
 phone: 034903 4700
 email: info@autoneuteile.de
-opening_hours: ''
+opening_hours: 'Mo–Fr 08:00–17:00'
 website: https://www.autoneuteile.de
 website_status: aktiv
 status: pruefung
-description: ''
+description: Autoverwertung, Neu- und Gebrauchtteileverkauf sowie Schrottankauf in Coswig-Klieken. Vollständige Altfahrzeuge werden laut Betreiber kostenlos angenommen; Abholung nach Absprache.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -24,9 +26,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ASR GmbH & Co. KG betreibt die Autoverwertung an Fichtenbreite 1, 06869 Coswig. Der bisherige Ortskonflikt ist aufgelöst: Die Stadt Coswig (Anhalt) führt das Gewerbegebiet Fichtenbreite ausdrücklich unter Klieken; Coswig und Klieken bezeichnen hier nicht zwei nachgewiesene Filialen. Betreiber-Impressum und Anfahrt bestätigen denselben Platz. Öffnungszeiten Mo–Fr 08–17 Uhr; die Website nennt die Koordinaten 51.887961, 12.403071 (Betreiber-Kartenpunkt, keine vermessene Torposition).
+
+**ANKAUF:** Metallschrott, Batterien und u. a. Kupfer, errechneter Schrottpreis sofort bar; keine numerischen Materialkurse veröffentlicht. Fahrzeugkauf nur individuelles Angebot bei geeigneten Fahrzeugen. **VERKAUF:** Neu-/Gebrauchtteile, Reifen/Felgen, keine allgemeine Preisstaffel gefunden; Kleinanzeigen-Verkaufsangebote nicht als Ankaufkurse behandeln. **GEBÜHREN:** vollständiges Altfahrzeug kostenlos, ohne Termin, Verwertungsnachweis; Ausweis und Zulassungsbescheinigungen I/II, bei Vertretung Vollmacht. Altöl/Schrottreifen kostenpflichtig ohne Zahlen; Abschleppservice nach Absprache, kein belegter Nulltarif für Transport.
+
+Status bleibt vorsichtshalber `pruefung`: aktuelle Bescheinigung und genaue Gebühren/Annahmegrenzen fehlen; lose Metallabholung nicht aus Fahrzeug-Abschleppservice ableiten.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Ortskonflikt Coswig/Klieken durch kommunale Primärquelle aufgelöst: Bebauungsplan Nr. 07 Gewerbegebiet Fichtenbreite ist unter Klieken geführt. Betreiber-Anfahrt nennt Fichtenbreite 1, 06869 Coswig und Koordinaten 51.887961, 12.403071; Impressum nennt ASR GmbH & Co. KG, HRA 5528/HRB 24922 Stendal (Registerkongruenz bereits 02.10. dokumentiert). street/postcode, Betreiber-Kartenkoordinaten und jetzt vollständig lesbare Öffnungszeiten Mo–Fr 08–17 ergänzt; Punktgenauigkeit nur Betreiberkarte, keine neue separate Filiale behauptet. Quelle(n): https://www.coswigonline.de/de/klieken-mit-ot-buro.html ; https://www.autoneuteile.de/?p=anfahrt ; https://www.autoneuteile.de/impressum]
+- [Recherche 08.10.2026: Leistungsdetailseiten statt Suchsnippets gelesen. ANKAUF: Metall/Batterien/Kupfer mit sofortiger Barauszahlung, ohne veröffentlichte EUR/kg; Fahrzeuge ggf. individuelles Kaufangebot. VERKAUF: Teile-/Reifenhandel, kein allgemeiner Tarif. GEBÜHREN: vollständige Altfahrzeuge kostenlos, ohne Termin, mit Verwertungsnachweis; Schrottreifen/Altöl kleine Entsorgungsgebühren ohne Betrag. Abholung von Fahrzeugen nach Absprache, Transportpreis offen. Privat-/Gewerbekundenbedingungen und lose Metallabholung nicht inferiert, JSON leer. Quelle(n): https://www.autoneuteile.de/autoverwertung.html ; https://www.autoneuteile.de/schrottankauf.html ; https://www.autoneuteile.de/firmengeschichte.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
