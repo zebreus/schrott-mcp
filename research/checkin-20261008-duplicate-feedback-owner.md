@@ -65,3 +65,18 @@ oder Koordinatenänderung; sämtliche alten Timeline-Bullets erhalten.
 Diff-Check und Rustfmt grün, acht Seedtests bestanden, null Fehler.
 Änderung wird regulär über eingebetteten Dossier-Seed veröffentlicht,
 nicht über manuelle Produktions-Notizen oder Feedback-SQL.
+
+## Deployment
+
+Commit `0012697`, beide Release-Binaries aus sauberem Commit gebaut und
+atomar installiert. Neustart 08.10.2026 15:34:45 UTC; Bootseed genau eine
+Zeile geschrieben. Read-only-Spotcheck bestätigt #4912/#5517-Verknüpfung
+in Carnuth-Notizen, unveränderten Prüfstatus und Sachsenring 23.
+3878 Händler/2280 Preise, öffentliche Health und installierter Query-Worker
+grün. Keine neue Händlerzeile aus doppelt gemeldetem Carnuth erzeugt.
+Backups `/var/tmp/schrott-mcp-backup-before-0012697/`.
+Push erneut tatsächlich fehlgeschlagen: HTTPS-Benutzername nicht verfügbar.
+
+SHA256 Server: `588e85cbb593df8f738fee8227431c6e108811dce43100da5ecc01ba886435e0`
+
+SHA256 Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
