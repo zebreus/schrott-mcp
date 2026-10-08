@@ -10,8 +10,8 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nicht hinreichend identifiziertes Seed-Einzelunternehmen. NorthData bestätigt für die historische S.-Schriever GmbH, Aurich HRB 200536, den Zweck Autoverwertung/Schrott-/Metallhandel/PKW-Handel, Sylwia Schriever als frühere Geschäftsführerin/Liquidatorin, Liquidation 27.04.2016 und Löschung 12.02.2018. Daraus folgt weder Identität noch Schließung des Seed-Einzelunternehmens.
+
+Verzeichnis-Leads nennen Tjüchkampstraße 9, 26605 Aurich-Schirum und 04941 9901784; diese Daten bleiben unbestätigt. **Preise:** Keine Betreiber-Ankauf-, Verkaufs- oder Gebührenliste gefunden. **Offen:** Fortführung nach GmbH-Löschung, heutiger Gewerbetreibender und Annahmeort; deshalb nun `pruefung` statt unbelegtem Aktivstatus, ausdrücklich nicht `geschlossen`.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: S.-Schriever-GmbH-Detail erneut direkt gelesen: Aurich HRB 200536, Sylwia Schriever, Zweck Autoverwertung/Schrott-/Metallhandel/PKW-An-/Verkauf, Liquidation 27.04.2016, Löschung 12.02.2018. Identität mit dem Seed-Einzelunternehmen bleibt ungeklärt; keine Schließung daraus abgeleitet. Eigene Nachsuche bringt nur Portal-Leads Tjüchkampstraße 9, 26605 Aurich-Schirum, 04941 9901784, keine aktuelle Betreiberquelle. Leere Adress-/Kontaktfelder bleiben leer; website_status unbekannt, status aktiv auf pruefung als Identitäts-/Fortführungs-Klärfall gesetzt. Keine primär belegten Ankauf-/Verkaufspreise oder Gebühren. Quelle(n): https://www.northdata.de/S.-Schriever%20GmbH,%20Aurich ; https://schrottplatzmetall.de/sylwia-schriever-schrott-und-metallhandel-aurich/ (nur Lead)]
 
 ### Recherche 03.10.2026
 

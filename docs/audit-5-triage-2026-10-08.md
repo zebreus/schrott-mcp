@@ -224,6 +224,20 @@ Die noch uncommitteten 20 Nord-/West-Dossiers wurden nicht eingebettet.
 Server-SHA256: `08f2a756cd32a94cc8477da382c812fb1ef415460b3fa601f1cbabb0d876e17e`.
 Worker-SHA256: `13f26d4f7837c49d194b374f706bba3ed4206a83e83b35ba97588248c8f857f5`.
 
+### Anschluss-Check-in: Nord-/West-Teilwelle
+
+Dienst aktiv, keine Warnungen im aktuellen Sechs-Stunden-Fenster; 3872
+Händler / 52 Materialien / 2267 Current-Preise. Letzte Ingestion #1121:
+87 Preise und null Händlerfehler. Neue Feedbacks #5293–#5312 (20 Hinweise)
+noch ungeprüft; Push weiterhin wegen fehlender HTTPS-Zugangsdaten blockiert.
+
+Letzte 20 Dossierdiffs der Welle vom Owner vollständig gelesen. Alunorf-
+Betreiberidentität und JV-Partner gegen Betreiberseiten plus Registerdaten
+geprüft; Schlör-Adresse gegen Impressum plus Original-GZQ-Zertifikat
+bestätigt. Weber-Websitefill trotz erreichbarer Seite nicht freigegeben:
+Identität bisher nur Einzelbeleg, URL bleibt im Text. Keine FMT-Schließung
+ohne unabhängige Bestätigung, keine geratenen Koordinaten oder Ankaufkurse.
+
 VHM-Quellpfad vom Owner direkt gelesen:
 <https://www.vhm-hartmetall.de/script.js?v=vhm-preise-20260928-1>
 lädt <https://www.vhm-hartmetall.de/vhm-preise-aktuell.php> mit

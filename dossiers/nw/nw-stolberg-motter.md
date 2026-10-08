@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnis-Lead konkretisiert auf Karl-Heinz Motter Güter-/Nahverkehr, Transporte und Schrottentsorgung, Auf der Mühle 26, 52222 Stolberg-Münsterbusch, 02402 6883. Keine Betreiberwebsite, Register-/Gewerbequelle oder aktuelle Ankaufbestätigung zugeordnet. Name und Standort bleiben Kandidaten, nicht verifizierte neue Frontmatter-Werte.
+
+**Preise:** Keine Betreiber-Ankauf-, Verkaufs- oder Gebührenliste. **Offen:** Gewerbeidentität, heutige Tätigkeit am Standort und ob Schrottentsorgung vergüteter Ankauf oder kostenpflichtige Dienstleistung ist. Schrottentsorgung allein beweist keinen Ankauf; `pruefung`.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Anders als die bot-blockierte Erstsuche konkrete Leads gefunden: Karl-Heinz Motter Güter-/Nahverkehr, Transport und Schrottentsorgung, Auf der Mühle 26, 52222 Stolberg-Münsterbusch, 02402 6883 in Verzeichnissen. Kandidatenname damit eingegrenzt, aber weiterhin keine Betreiber-/Registerbestätigung. Gelbe-Seiten-Detailabruf zur möglichen Website-Verknüpfung 403; kein Betreiberauftritt daraus nachgewiesen. Adresse/Telefon/Name nicht überschrieben, website_status unbekannt ergänzt. Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren; Entsorgungsleistung ist kein Vergütungsbeleg. Quelle(n): https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/karl-heinz-motter-gueter--u-nahverkehr-transport-u-schrottentsorgung-stolberg-70776705.html (Lead) ; https://www.gelbeseiten.de/gsbiz/510e08dc-617a-4797-aef4-89b45f4515de (Lead, 403) ; https://www.11880.com/branchenbuch/stolberg-rheinland/060441364B26276568/karl-heinz-motter-gueter-u-nahverkehr-transport-u-schrottentsorgung.html (Lead)]
 
 ### Recherche 01.10.2026
 

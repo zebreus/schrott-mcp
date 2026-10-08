@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 Die Verzeichniseinträge führen Am Bornberg 12, 29690 Schwarmstedt und 05071 4465; LokaleSchrottplatz nennt Materialarten und Mindestmengen, ist aber kein Betreiberbeleg. Eine dortige Anzeige "Geschlossen" ist nicht eindeutig als dauerhafte Schließung zu verstehen. Adresse, Betrieb und Annahmebedingungen bleiben ungeklärt; nicht geocodieren. **Ankauf:** Verzeichnis-Leistungshinweis, keine Zahlenpreise; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
 
 ## Timeline
+
+### Primärquellen-Nachprüfung 08.10.2026
+
+- [Recherche 08.10.2026: Ergänzende gezielte Suche nach „Hartmut Stefan“/Schrotthandel und Betreiber-Social-Auftritt liefert nur 11880-Verzeichnistreffer, keinen zuordenbaren Betreiber-/Registerbeleg. Damit bleibt der bereits heute dokumentierte Lead Am Bornberg 12 einschließlich Portal-Mindestmengen unbestätigt; diese Angaben weder als Annahmebedingungen noch als aktuelle Aktivität übernehmen. Leeres website_status auf unbekannt präzisiert; keine übrigen Fills. Keine Betreiber-Ankauf-/Verkaufspreisliste oder Gebühren verifiziert. Quelle(n): https://www.11880.com/branchenbuch/schwarmstedt/060440090B43448043/hartmut-stefan-schrotthandel.html (Suchindex-Lead) ; https://lokaleschrottplatz.de/hartmut-stefan/ (bereits dokumentierter Lead, kein unabhängiger Betreiberbeleg)]
 
 ### Recherche 08.10.2026
 

@@ -1,18 +1,18 @@
 ---
 slug: nw-neuss-alunorf-hydro-speira-jv
-name: Alunorf (Hydro/Speira-JV)
+name: Aluminium Norf GmbH (Alunorf)
 trader_type: sonstige
 state: NW
 city: Neuss
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Koblenzer Str. 120
+postcode: '41468'
+phone: '+49 2131 937 0'
+email: info@alunorf.de
 opening_hours: ''
-website: https://www.speira.com/
-website_status: ''
+website: https://www.alunorf.de/
+website_status: aktiv
 status: pruefung
-description: ''
+description: Aluminiumschmelz- und Walzwerk mit Recyclingcenter in Neuss; Joint Venture von Speira und Novelis, Produktion ausschließlich für die Partner. Kein öffentlicher Schrottankauf belegt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten)
@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Alunorf ist die Aluminium Norf GmbH, nicht Speira selbst. Die eigene Betreiberwebsite und der Registerdatenabgleich bestätigen Koblenzer Str. 120, 41468 Neuss, HRB 1271. Das Werk produziert ausschließlich für seine Partner Speira und Novelis; die frühere Bezeichnung „Hydro/Speira-JV“ vermischt historische und heutige Beteiligungen.
+
+**Preise:** Auf den geprüften Unternehmens-, Kontakt- und Lieferantenseiten keine öffentliche Ankauf-/Verkaufspreisliste oder bezifferten Gebühren. Einkaufskontakt: einkauf@alunorf.de. **Offen:** Ob externe Schrottlieferanten zugelassen werden und unter welchen Spezifikationen/Mindestmengen; Recyclingcenter und allgemeiner Einkauf sind kein Nachweis eines öffentlichen Ankaufplatzes. Daher `status: pruefung`, keine Annahmebedingungen oder Öffnungszeiten erfunden.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Korrektur 08.10.2026: Eigene Betreiberwebsite vollständig in den Bereichen Impressum, Über uns, Kontakt/Anfahrt und Lieferanten geprüft. Impressum Aluminium Norf GmbH, Handelsregister Neuss HRB 1271, Koblenzer Str. 120, 41468 Neuss, +49 2131 937 0, info@alunorf.de; NorthData bestätigt dieselbe Registeridentität und Adresse mit aktuellen Publikationen 2026. Aktuelle Unternehmensseite nennt ausdrücklich Speira GmbH und Novelis Deutschland GmbH als JV-Partner und ausschließliche Produktion für die Partner; NorthData nennt ebenfalls Speira/Novelis in aktuellen Beteiligungs-/Abschlussmeldungen. Name und falsch zugeordnete Speira-Website korrigiert, eigene Kontaktdaten ergänzt (registerkongruenter aktueller Betreiberauftritt). Slug und Altbefunde erhalten. Quelle(n): https://www.alunorf.de/impressum ; https://www.alunorf.de/unternehmen/ueber-uns ; https://www.alunorf.de/kontakt-anfahrt ; https://www.northdata.de/ALUMINIUM%20NORF%20GmbH,%20Neuss/HRB%201271]
+- [Recherche 08.10.2026: Lieferantenseite bietet Anfrage zum Einkaufsprofil über einkauf@alunorf.de und Sicherheits-/Lieferantenerklärungen, aber keine Schrottankaufpreise, keine Verkaufspreise und keine Gebührenliste. Keine öffentliche Privatannahme oder externe Schrottvergütung daraus abgeleitet; status pruefung bleibt als Ankauf-Klärfall, nicht als Zweifel an der Existenz des Werks. Quelle(n): https://www.alunorf.de/lieferanten ; https://www.alunorf.de/unternehmen/ueber-uns]
 
 ### Recherche 01.10.2026 (Feedback 2527)
 

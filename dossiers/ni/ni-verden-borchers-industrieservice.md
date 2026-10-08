@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt nennt Iliyana Borchers, Zum Hutberger Graben 2, 27283 Verden (Aller), und beschreibt industrielle Demontage, Remontage, Rückbau und Brennschneidarbeiten samt Reststoffentsorgung. Das belegt das Dienstleistungsangebot als Betreiber-Selbstangabe, aber nicht die alte Seed-Schlussfolgerung „Ankauf ja“ oder einen öffentlichen Schrottplatz.
+
+**Preise:** „Starke Leistung zum fairen Preis“ / möglichst niedrige Kosten sind Dienstleistungswerbung, keine Ankaufspreise, Verkaufsliste oder numerische Gebühren. Kein ausdrücklicher vergüteter Materialankauf im gelesenen Leistungsangebot. **Offen:** unabhängiger Identitäts-/Gewerberegisterbeleg, aktueller Betriebssitz und ob Verwertungserlöse verrechnet werden. Kontaktangaben bleiben Betreiber-Einzelbeleg und daher nur in der Historie.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Impressum und Leistungsseite erneut live gelesen: Iliyana Borchers, Zum Hutberger Graben 2, 27283 Verden (Aller), +49 4231 9850940 / +49 173 6026888, iliyanaborchers@yahoo.de, USt-ID DE305103038, keine Handelsregisternummer. Einzelbeleg unverändert, keine Frontmatter-Fills. Leistungsseite nennt Demontage/Remontage, Rückbau und Brennschneidarbeiten sowie Entsorgung mit Nachweisen, aber keinen ausdrücklichen Ankauf zu Vergütung; alte Seed-Ableitung „ja (B2B-Demontage)“ deshalb nicht als frisch bestätigten Ankauf behandeln. Keine Ankauf-/Verkaufspreisliste oder bezifferten Gebühren; „fairer Preis“ und „möglichst niedrige Kosten“ betreffen Dienstleistungen. Quelle(n): https://www.borchersindustrieservice.com/impressum ; https://www.borchersindustrieservice.com/leistungen]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
