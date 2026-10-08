@@ -44,3 +44,19 @@ Neuanlage ohne Änderung von Bestandsdossiers. Slug/YAML/Enum/Root-Website,
 Emdash-Platzhalter, Service-JSON, WGS84-Paar und datierte Timeline geprüft.
 Seedcodegen plus acht Seedtests grün, null Fehler; Rustfmt und Diffcheck grün.
 Gemeinsamer Commit, beide Release-Binaries und Produktions-Spotchecks.
+
+## Deployment-Evidenz
+
+Commit `9f71ac6`; beide Release-Binaries aus sauberem Commit gebaut,
+atomar installiert. Neustart 08.10.2026 16:05:04 UTC, Bootseed eine Zeile
+geschrieben. Read-only-Spotcheck bestätigt Apolda-Adresse, Aktivstatus,
+Telefon/Mail, standortspezifische Zeiten, Servicebedingungen und exakt
+51.0324081/11.5251902. 3879 Händler, 52 Materialien, 2280 Preise.
+Öffentliche Health und installierter Read-only-Query-Worker grün.
+Keine numerischen Preiszeilen aus dieser Aufnahme erzeugt.
+Backups `/var/tmp/schrott-mcp-backup-before-9f71ac6/`.
+Push erneut konkret an fehlendem HTTPS-Benutzernamen gescheitert.
+
+SHA256 Server: `092c47bf2595e2d639e29e26ed96aa1e6a529776b4b30e6212149fa566d5e0d9`
+
+SHA256 Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
