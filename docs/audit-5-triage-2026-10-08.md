@@ -185,6 +185,19 @@ reviewt; Primär-/Registerbelege der beiden Stammdaten-Fills nachgeprüft.
 Diese Teilwelle wird unabhängig von den am Nutzungslimit unterbrochenen
 40 Dossiers integriert. Keine neue Agentenwelle am bekannten Limit.
 
+Release `2fb74c1` am 08.10.2026 10:04 UTC deployed, beide Binaries aus
+isoliertem Commit-Worktree. Acht Seed-Tests dort bestanden, Rustfmt und
+Diffprüfung grün. Normaler Seed-Start schreibt 21 Datensätze (20 geprüfte
+Dossiers plus Brandmayr). Produktion: 3872 Händler / 52 Materialien /
+2267 Current-Preise. Read-only Spotcheck bestätigt Gröger-Straße,
+PreZero-Pyral-Stammdaten, Berger-Status `pruefung` und neues Brandmayr-
+Dossier; Query-Worker liefert Brandmayr/Thierhaupten, öffentliche Health
+und MCP-Aufrufe erfolgreich. Übrige 40 Dossieränderungen nicht deployed.
+
+Backup: `/var/tmp/schrott-mcp-backup-before-2fb74c1/`.
+Server-SHA256: `f9557061a9928fb7658da699dc10a9b754e6b4fce8f8ad9e3a250cf3e6854478`.
+Worker-SHA256: `57d32b2ff1d720d6bbb67bbae2e790ab87c63add3c40e90dc59cdc78394873e1`.
+
 VHM-Quellpfad vom Owner direkt gelesen:
 <https://www.vhm-hartmetall.de/script.js?v=vhm-preise-20260928-1>
 lädt <https://www.vhm-hartmetall.de/vhm-preise-aktuell.php> mit
