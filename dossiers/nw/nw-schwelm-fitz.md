@@ -6,6 +6,8 @@ state: NW
 city: Schwelm
 street: Prinzenstraße 58
 postcode: '58332'
+lat: 51.2975279
+lon: 7.3025608
 phone: 02336 5018
 email: info@eckhardt-schrott.de
 opening_hours: Mo-Fr 07:00-16:00
@@ -29,6 +31,10 @@ Der verkürzte Seed „Fitz“ lässt sich über den Verzeichnislead „Fitz Eck
 **Ankauf:** Fe-/NE-Metalle, keine Zahlenkurse. **Verkauf:** Fe-/NE-Metalle, eigene Verkaufs-AGB, keine Materialpreisliste; standardmäßig netto ab Werk, Zusatzleistungen separat. **Gebühren:** Container-AGB nennen Miete/Transport/Entsorgung, zusätzliche Deponie-/Sortierkosten und zu vertretende Fehlfahrten/Wartezeiten, keine EUR-Tariftabelle. Verkaufs-AGB enthalten bedingtes Lagergeld 1 % des Rechnungsbetrags je angefangenem Monat; kein Schrottpreis. ESN-Zertifikat auf Betreiberseite bis 31.07.2027 gültig, mit Hinweis nur interner Bereich/nicht Behördenvorlage.
 
 ## Timeline
+
+### Owner-Koordinatenprüfung 08.10.2026
+
+- [Korrektur 08.10.2026: Betreiber-Impressum erneut gelesen: Fritz Eckhardt GmbH & Co. KG, HRA4174, Prinzenstraße58/58332Schwelm. Adressbezogener Nominatim-Abruf liefert genau das Gebäude OSMway96408544; OSM-Originalelement unabhängig gelesen und addr:street=Prinzenstraße, addr:housenumber=58, addr:postcode=58332, addr:city=Schwelm bestätigt. Frontmatter-Paar51.2975279/7.3025608 ist dessen Gebäudepunkt, keine behauptete Waage/Toreinfahrt und kein Stadt-/Straßenmittelpunkt. Historische Produktionskoordinaten51.2863/7.2939 waren nicht belegter Standortpunkt und werden durch das explizite Dossierpaar ersetzt; Adresse/Identität unverändert. Keine Geokodierung durch Rust zur Laufzeit. Quelle: https://www.eckhardt-schrott.de/impressum ; https://nominatim.openstreetmap.org/search?street=58+Prinzenstra%C3%9Fe&city=Schwelm&postalcode=58332&country=Germany&format=jsonv2&addressdetails=1&limit=5 ; https://www.openstreetmap.org/api/0.6/way/96408544.json .]
 
 ### Identitätsauflösung 08.10.2026
 
