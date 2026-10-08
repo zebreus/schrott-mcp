@@ -1,6 +1,6 @@
 # Audit 5: Triage am 08.10.2026
 
-Feedback #4770–#4782 ist ein Rechercheauftrag, keine automatische
+Feedback #4770–#4787 ist ein Rechercheauftrag, keine automatische
 Freigabe für Datenänderungen. Produktionsabfragen erfolgen read-only.
 
 ## Dringend: #4782 Preiszuordnung
@@ -56,6 +56,12 @@ Seed-Compiler validiert Dossierkoordinaten, exportiert sie aber nicht;
 ein Dossier-Commit alleine korrigiert die Produktionskarte daher nicht.
 Diese Importlücke und die übrigen Fälle bleiben offen.
 
+Owner-Nachprüfung: SD-Kontaktseiten-HTML enthält den vollständigen
+Adressmarker 49.5513872/8.3477812; RHM verlinkt seinen Firmenmarker
+51.4378111/6.8418507 (nicht den Kartenmittelpunkt). Dossieränderungen
+inklusive bestehender Historie geprüft; Seedtests 5 bestanden.
+Implementierung des Dossier-Koordinatenimports ist separat beauftragt.
+
 ## Weitere Meldungen: offen, nicht pauschal verworfen
 
 | ID | Einordnung / nächste Prüfung |
@@ -71,6 +77,11 @@ Diese Importlücke und die übrigen Fälle bleiben offen.
 | 4779 | Telefonplatzhalter sind keine Nummern; konkrete Felder und Betreiberkontakte prüfen. |
 | 4780 | FTS-Wortsuche ist keine Teilwortsuche. Erwartung und tatsächliche Suchoberfläche prüfen, nicht allein aus LIKE-Vergleich einen Defekt ableiten. |
 | 4781 | Händlerübergreifende Schreibvarianten beweisen keine Kollision. Nicht ohne fachliche Prüfung Sorten verschiedener Händler vereinheitlichen. |
+| 4783 | Veraltete Mapping-Schlüssel: Alter allein ist kein Löschbeleg. Eng belegte Fehlmapping-Pointer werden per getesteter Migration bearbeitet; übrige 115 gemeldete Zeilen noch einzeln prüfen. |
+| 4784 | VHM: gemeldete JavaScript-Preise und bisherige Akzeptanz-only-Ingestion live prüfen; alte Hartmetallwerte sind nicht durch einen Website-Check bestätigt. Offen. |
+| 4785 | Metallorum: Brutto-/Nettospalten und tatsächliche Ankaufskonditionen prüfen. Über Börsenkurs allein beweist keinen falschen Ankauf; steuerliche Vergleichbarkeit bleibt offen. |
+| 4786 | Rötgesbüttel: wechselnde Quellfassungen reproduzieren. Keine stille Auswahl des höheren oder niedrigeren Preises. Offen. |
+| 4787 | Zinn: Huth-Lötzinn/Geschirr gegen Originalsorten prüfen. Unspezifisches Zinn nicht nur anhand niedrigen Preises als Legierung einstufen. Offen. |
 
 ## Parallel abgeschlossene Preislistenrecherche
 
