@@ -6,6 +6,8 @@ state: BY
 city: München
 street: Rupert-Bodner-Straße 25
 postcode: '81245'
+lat: '48.1660421'
+lon: '11.4253651'
 phone: +49 89 820909-0
 email: info@schulz-schrott-metalle.de
 opening_hours: ''

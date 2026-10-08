@@ -6,6 +6,8 @@ state: BY
 city: München
 street: Rupert-Bodner-Str. 25
 postcode: '81245'
+lat: '48.1660421'
+lon: '11.4253651'
 phone: '089 864950-0'
 email: ca@cronimet-alfa.de
 opening_hours: ''

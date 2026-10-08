@@ -6,6 +6,8 @@ state: BW
 city: Weingarten
 street: Schussenstr. 10
 postcode: '88250'
+lat: '47.8121329'
+lon: '9.6408640'
 phone: 0751 56160-0
 email: info@baumgaertner.de
 opening_hours: 'Mo-Fr 07:00-12:00, 13:00-17:00; 1. Sa/Monat 08:00-12:00'
