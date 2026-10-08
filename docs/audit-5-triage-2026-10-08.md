@@ -59,9 +59,11 @@ Ersatzkoordinate. Teilweise kann auch das Bundesland falsch sein.
 Beauftragte Adress-/Betreiberprüfung: EMR Hamburg, PMK Hamburg,
 SD Frankenthal und RHM Mülheim. Koordinaten gehören mit Belegen in die
 Dossiers, nicht in einen Rust-Geocoding-Lauf. Wichtig: Der aktuelle
-Seed-Compiler validiert Dossierkoordinaten, exportiert sie aber nicht;
-ein Dossier-Commit alleine korrigiert die Produktionskarte daher nicht.
-Diese Importlücke und die übrigen Fälle bleiben offen.
+Seed-Compiler validierte Dossierkoordinaten, exportierte sie aber nicht;
+ein Dossier-Commit alleine korrigierte die Produktionskarte daher nicht.
+Die Importlücke ist nun mit paarweiser WGS84-Validierung, Hash-/Update-
+Semantik und Regressionstests repariert. Rust führt kein Geocoding aus.
+Die übrigen Adressfälle bleiben offen; Deploymentprüfung steht noch aus.
 
 Owner-Nachprüfung: SD-Kontaktseiten-HTML enthält den vollständigen
 Adressmarker 49.5513872/8.3477812; RHM verlinkt seinen Firmenmarker
@@ -85,8 +87,8 @@ Implementierung des Dossier-Koordinatenimports ist separat beauftragt.
 | 4780 | FTS-Wortsuche ist keine Teilwortsuche. Erwartung und tatsächliche Suchoberfläche prüfen, nicht allein aus LIKE-Vergleich einen Defekt ableiten. |
 | 4781 | Händlerübergreifende Schreibvarianten beweisen keine Kollision. Nicht ohne fachliche Prüfung Sorten verschiedener Händler vereinheitlichen. |
 | 4783 | Veraltete Mapping-Schlüssel: Alter allein ist kein Löschbeleg. Eng belegte Fehlmapping-Pointer werden per getesteter Migration bearbeitet; übrige 115 gemeldete Zeilen noch einzeln prüfen. |
-| 4784 | Bestätigt: Betreiber-Script lädt `/vhm-preise-aktuell.php`; Live-JSON liefert 53/50/53/50 EUR/kg und Schlamm nur nach Analyse, updatedAt 2026-10-05T08:51:01+00:00. Handler-Reparatur beauftragt; alte 65/63-Werte sind keine aktuellen Quellpreise. |
-| 4785 | Metallorum: Brutto-/Nettospalten und tatsächliche Ankaufskonditionen prüfen. Über Börsenkurs allein beweist keinen falschen Ankauf; steuerliche Vergleichbarkeit bleibt offen. |
+| 4784 | Bestätigt und repariert: Betreiber-Script lädt `/vhm-preise-aktuell.php`; Live-JSON liefert 53/50/53/50 EUR/kg und Schlamm nur nach Analyse, updatedAt 2026-10-05T08:51:01+00:00. Exakter Livehandler geprüft; alte 65/63-Werte sind keine aktuellen Quellpreise. Nächste reguläre Ingestion nach Deployment erforderlich. |
+| 4785 | Bestätigt und repariert: Betreiber-JS/CSS blendet MwSt./Brutto für Ankauf aus. Handler übernimmt die tatsächlich angezeigte Nettospalte statt verstecktem Brutto. Regression zuerst rot, danach grün; 44 Live-Ankaufzeilen geprüft. Keine erfundene Privat-/Gewerbesteuerregel; konkrete Abrechnung bleibt beim Betreiber. |
 | 4786 | Rötgesbüttel: wechselnde Quellfassungen reproduzieren. Keine stille Auswahl des höheren oder niedrigeren Preises. Offen. |
 | 4787 | Zinn: Huth-Lötzinn/Geschirr gegen Originalsorten prüfen. Unspezifisches Zinn nicht nur anhand niedrigen Preises als Legierung einstufen. Offen. |
 
@@ -100,15 +102,29 @@ kanonische Betreiberzuordnung und sichtbare Konditionen sind noch zu klären.
 
 ## Veröffentlichung
 
-Normale HTTPS-Pushes scheiterten zuletzt an fehlenden Zugangsdaten.
+Normale HTTPS-Pushes funktionieren wieder: Änderungen bis `530538e`
+wurden erfolgreich auf `owner/dossier-quality-2026-10-07` veröffentlicht.
 Ein Fehler von `gh` allein ist kein Beweis, dass Git-Push unmöglich ist;
-maßgeblich ist der tatsächliche Pushversuch.
+maßgeblich ist der tatsächliche Pushversuch. Kein Force-Push auf main.
 
 ## Laufende Anschlussarbeiten
 
-Vier getrennte Code-/Quellenprüfungen: Dossier-Koordinatenimport,
+Vier Code-/Quellenprüfungen abgeschlossen: Dossier-Koordinatenimport,
 eng belegte Fehlmapping-Preispointer, VHM-Live-JSON sowie Metallorum-
-Steuer-/Kundenbasis. Noch kein Deployment dieser Arbeiten.
+Ankaufspalte. Gemeinsamer Workspace-Test: 563 bestanden, 0 fehlgeschlagen,
+3 ignorierte Live-/Spezialtests; `cargo fmt --all -- --check` grün.
+Noch kein Deployment dieser Arbeiten. Die laufende Dossierwelle wird
+getrennt geprüft und nicht ungeprüft mit ausgerollt.
+
+## Neue Leads beim Anschluss-Check-in
+
+Feedback #4788–#4879 ist noch nicht vollständig verifiziert; keine pauschale
+Freigabe für neue Händler oder Massenkorrekturen. Seit der vorherigen
+Prüfung kamen #4838–#4879 (42 Meldungen) hinzu. Die hoch priorisierten
+Heinen-Standorte #4876/#4877 und der Identitätsfall KVR #4875 werden separat
+an Primärquellen geprüft; Berichte dienen der späteren Owner-Integration.
+Dienst aktiv, keine Warnungen in den letzten sechs Stunden, Bestand beim
+Check-in 3871 Händler / 52 Materialien / 2276 aktuelle Preise.
 
 VHM-Quellpfad vom Owner direkt gelesen:
 <https://www.vhm-hartmetall.de/script.js?v=vhm-preise-20260928-1>

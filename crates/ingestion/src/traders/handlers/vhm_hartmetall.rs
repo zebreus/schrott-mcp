@@ -1,11 +1,8 @@
-//! VHM Hartmetall Ankauf (Remscheid): acceptance-only since the 2026
-//! redesign — all five photo cards (`article.price-card-new` between the
-//! "Aktuelle Hartmetall Ankaufspreise" heading and the "Preisfaktoren"
-//! explainer) now read "Preis anfragen" instead of fixed €/kg prices.
-//! The former fixed-price parser was removed rather than left to fail
-//! loudly forever; if a card ever shows a fixed price again, the parse
-//! emits a loud "Festpreis erkannt" note (WKR precedent) instead of
-//! silently staying acceptance-only.
+//! VHM Hartmetall Ankauf (Remscheid): the page's script loads current
+//! prices from `/vhm-preise-aktuell.php`, not the placeholder HTML cards.
+//! Four fixed EUR/kg prices retain their historical variants; Schlamm
+//! remains acceptance-only ("nach Analyse"). API errors, contradictory
+//! amounts or unknown units fail loudly without HTML/old-price fallbacks.
 //!
 //! Mapping: all five bought grades map to the `hartmetall` catalog
 //! material, each with its own `variant` (conditions) so nothing
@@ -13,8 +10,12 @@
 //! those histories, hence a dedicated material or nothing.
 
 use scraper::{ElementRef, Html, Selector};
+use serde::Deserialize;
+use std::collections::BTreeMap;
 
-use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
+use super::super::{
+    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, ScrapedPrice, TraderInfo,
+};
 use crate::IngestError;
 
 pub const SLUG: &str = "nw-remscheid-vhm-hartmetall-ankauf";
@@ -23,6 +24,130 @@ pub const SLUG: &str = "nw-remscheid-vhm-hartmetall-ankauf";
 pub const IMPRESSUM_URL: &str = "https://www.vhm-hartmetall.de/impressum";
 
 pub const URL: &str = "https://www.vhm-hartmetall.de/aktueller-hartmetall-preis";
+pub const API_URL: &str = "https://www.vhm-hartmetall.de/vhm-preise-aktuell.php";
+
+#[derive(Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct PriceApi {
+    ok: bool,
+    prices: BTreeMap<String, ApiPrice>,
+    fields: ApiFields,
+    updated_at: String,
+    revision: String,
+}
+
+#[derive(Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct ApiPrice {
+    text: String,
+    amount: serde_json::Value,
+    schema_amount: serde_json::Value,
+}
+
+#[derive(Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct ApiFields {
+    einheit: String,
+    markt_hinweis: String,
+}
+
+fn parse_api(body: &str) -> Result<HandlerOutcome, IngestError> {
+    let error = |detail: String| IngestError::Parse {
+        url: API_URL.to_owned(),
+        detail,
+    };
+    let mut api: PriceApi =
+        serde_json::from_str(body).map_err(|e| error(format!("Preis-API JSON: {e}")))?;
+    if !api.ok {
+        return Err(error("Preis-API ok ist nicht true".to_owned()));
+    }
+    if api.fields.einheit.trim() != "alle Preise pro kg" {
+        return Err(error(format!(
+            "Preis-API Einheit unverständlich: {}",
+            api.fields.einheit
+        )));
+    }
+    if api.fields.markt_hinweis.trim().is_empty() || api.revision.trim().is_empty() {
+        return Err(error(
+            "Preis-API Markthinweis oder Revision leer".to_owned(),
+        ));
+    }
+    let date = chrono::DateTime::parse_from_rfc3339(&api.updated_at)
+        .map_err(|e| error(format!("Preis-API updatedAt: {e}")))?;
+    let mut out = HandlerOutcome {
+        published_at: Some(date.format("%Y-%m-%d").to_string()),
+        ..HandlerOutcome::default()
+    };
+    for (key, label) in [
+        ("wendeschneidplatten", "Wendeschneidplatten"),
+        ("hartmetallGemischt", "Hartmetall gemischt"),
+        ("vhmFraeserBohrer", "VHM-Fräser & VHM-Bohrer"),
+        ("widia", "Widia"),
+        ("hartmetallschlamm", "Hartmetallschlamm"),
+    ] {
+        let row = api
+            .prices
+            .remove(key)
+            .ok_or_else(|| error(format!("Preis-API Sorte fehlt: {key}")))?;
+        let (material, variant) = grade_for(label).expect("explicit mapped API label");
+        if key == "hartmetallschlamm" {
+            if !row.amount.is_null()
+                || !row.schema_amount.is_null()
+                || row.text.trim().to_lowercase() != "nach analyse"
+            {
+                return Err(error(
+                    "Preis-API Schlamm ist nicht ohne Festpreis / nach Analyse".to_owned(),
+                ));
+            }
+            out.acceptances.push(ScrapedAcceptance {
+                material,
+                conditions: variant.to_owned(),
+                label: label.to_owned(),
+            });
+        } else {
+            let price = row
+                .amount
+                .as_f64()
+                .ok_or_else(|| error(format!("Preis-API Festpreis fehlt: {key}")))?;
+            // Require three agreeing source representations, not a guessed
+            // unit or an old HTML/JSON-LD fallback. Prefixes such as "bis zu"
+            // are not exact prices.
+            let displayed = row
+                .text
+                .trim()
+                .strip_suffix(" €/kg")
+                .filter(|s| !s.is_empty() && s.chars().all(|c| c.is_ascii_digit() || c == ','))
+                .and_then(|s| s.replace(',', ".").parse::<f64>().ok());
+            if !price.is_finite()
+                || price <= 0.0
+                || row.schema_amount.as_f64() != Some(price)
+                || displayed != Some(price)
+            {
+                return Err(error(format!(
+                    "Preis-API Preis/Einheit widersprüchlich: {key}"
+                )));
+            }
+            out.prices.push(ScrapedPrice {
+                material,
+                variant,
+                price,
+                currency: "EUR",
+                unit: "EUR/kg",
+                price_kind: "exact",
+                price_min: None,
+                price_max: None,
+                confidence: Some(1.0),
+                label: label.to_owned(),
+            });
+        }
+    }
+    out.skipped_labels.extend(
+        api.prices
+            .into_keys()
+            .map(|key| format!("{key} (unbekannte API-Sorte)")),
+    );
+    Ok(out)
+}
 
 pub fn handler() -> Handler {
     Handler {
@@ -34,24 +159,41 @@ pub fn handler() -> Handler {
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    let (status, html) = fetch_text(client, URL).await?;
-    let (acceptances, skipped_labels) = parse(&html)?;
+    // Match the site's Date.now() cache buster and fetch cache: no-store.
+    // Keep the canonical API URL in provenance rather than the transient _.
+    let response = client
+        .get(API_URL)
+        .query(&[("_", chrono::Utc::now().timestamp_millis())])
+        .header(reqwest::header::CACHE_CONTROL, "no-cache, no-store")
+        .header(reqwest::header::ACCEPT, "application/json")
+        .send()
+        .await
+        .map_err(|source| IngestError::Fetch {
+            url: API_URL.to_owned(),
+            source,
+        })?;
+    let status = response.status().as_u16();
+    if !response.status().is_success() {
+        return Err(IngestError::Parse {
+            url: API_URL.to_owned(),
+            detail: format!("HTTP {status}"),
+        });
+    }
+    let body = response.text().await.map_err(|source| IngestError::Body {
+        url: API_URL.to_owned(),
+        source,
+    })?;
+    let mut out = parse_api(&body)?;
     // Impressum failure fails the whole step on purpose: a moved contact
     // page means the site changed and needs eyeballs before we trust
     // anything from it again.
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
-    let trader_info = extract_info(&imp_html)?;
-    Ok(HandlerOutcome {
-        prices: vec![],
-        acceptances,
-        trader_info,
-        website_alive: true,
-        skipped_labels,
-        fetch_url: URL.to_owned(),
-        status_code: status,
-        byte_len: html.len(),
-        published_at: None,
-    })
+    out.trader_info = extract_info(&imp_html)?;
+    out.website_alive = true;
+    out.fetch_url = API_URL.to_owned();
+    out.status_code = status;
+    out.byte_len = body.len();
+    Ok(out)
 }
 
 /// Explicit label → (material, conditions) mapping. All five bought
@@ -74,66 +216,6 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     } else {
         None
     }
-}
-
-fn parse(html: &str) -> Result<(Vec<ScrapedAcceptance>, Vec<String>), IngestError> {
-    // Window: the card grid between its heading and the "Preisfaktoren"
-    // explainer. The hero ticker above and the FAQ below (bare <article>
-    // tags with prose) stay out — the end anchor is load-bearing.
-    let start = html
-        .find("Aktuelle Hartmetall Ankaufspreise")
-        .ok_or_else(|| IngestError::Parse {
-            url: URL.to_owned(),
-            detail: "Preiskarten fehlen".to_owned(),
-        })?;
-    let tail = &html[start..];
-    let end = tail.find("Preisfaktoren").unwrap_or(tail.len());
-    let window = &tail[..end];
-    // Only content elements: scripts are never read as text (they glue
-    // addresses elsewhere).
-    let doc = Html::parse_fragment(window);
-    let card = Selector::parse("article.price-card-new").expect("valid selector");
-    let h3 = Selector::parse("h3").expect("valid selector");
-    let mut acceptances = Vec::new();
-    let mut skips = Vec::new();
-    for art in doc.select(&card) {
-        let text = art.text().collect::<String>();
-        let label = art
-            .select(&h3)
-            .next()
-            .map(|h| h.text().collect::<String>())
-            .unwrap_or_default()
-            .split_whitespace()
-            .collect::<Vec<_>>()
-            .join(" ");
-        if label.is_empty() {
-            skips.push("(Preiskarte ohne Bezeichnung)".to_owned());
-            continue;
-        }
-        // A fixed price on a card means the price list is back — say so
-        // loudly instead of silently staying acceptance-only.
-        if text.contains('€') {
-            skips.push(format!(
-                "{label} (Festpreis erkannt — Preis-Handler prüfen)"
-            ));
-            continue;
-        }
-        match grade_for(&label) {
-            Some((material, conditions)) => acceptances.push(ScrapedAcceptance {
-                material,
-                conditions: conditions.to_owned(),
-                label: label.clone(),
-            }),
-            None => skips.push(format!("{label} (kein Katalogmaterial)")),
-        }
-    }
-    if acceptances.is_empty() {
-        return Err(IngestError::Parse {
-            url: URL.to_owned(),
-            detail: "Preiskarten leer".to_owned(),
-        });
-    }
-    Ok((acceptances, skips))
 }
 
 /// Bespoke contact extraction for THIS impressum only: the `<p>` after the
@@ -246,81 +328,167 @@ fn block_lines(inner: &str) -> Vec<String> {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, grade_for, parse};
+    use super::{extract_info, grade_for};
 
-    // Verbatim structure of the live cards (2026-09-29, post-redesign):
-    // real class names, real h3 labels, "Preis anfragen" instead of fixed
-    // prices, real `&amp;` entity.
-    const FIXTURE: &str = "<div class=\"kicker\">Preise nach Material</div>\
-        <h2>Aktuelle Hartmetall Ankaufspreise</h2>\
-        <div class=\"price-card-grid category-photo-price-grid\">\
-        <article class=\"price-card-new price-card-with-photo category-photo-card\">\
-        <div class=\"price-card-content\">\
-        <div class=\"price-card-topline\">Beispiel: VHM-Werkzeuge</div>\
-        <h3>VHM-Fr&auml;ser &amp; VHM-Bohrer</h3>\
-        <div class=\"price-main-value\" data-price=\"vhmFraeserBohrer\">Preis anfragen</div>\
-        </div></article>\
-        <article class=\"price-card-new price-card-with-photo category-photo-card\">\
-        <div class=\"price-card-content\">\
-        <div class=\"price-card-topline\">Beispiel: WSP / Inserts</div>\
-        <h3>Wendeschneidplatten</h3>\
-        <div class=\"price-main-value\" data-price=\"wendeschneidplatten\">Preis anfragen</div>\
-        </div></article>\
-        <article class=\"price-card-new price-card-with-photo category-photo-card\">\
-        <div class=\"price-card-content\">\
-        <div class=\"price-card-topline\">Beispiel: Widia / St&uuml;cke</div>\
-        <h3>Widia</h3>\
-        <div class=\"price-main-value\" data-price=\"widia\">Preis anfragen</div>\
-        </div></article>\
-        <article class=\"price-card-new price-card-with-photo category-photo-card\">\
-        <div class=\"price-card-content\">\
-        <div class=\"price-card-topline\">Beispiel: gemischtes Material</div>\
-        <h3>Hartmetall gemischt</h3>\
-        <div class=\"price-main-value\" data-price=\"hartmetallGemischt\">Preis anfragen</div>\
-        </div></article>\
-        <article class=\"price-card-new price-card-with-photo category-photo-card\">\
-        <div class=\"price-card-content\">\
-        <div class=\"price-card-topline\">Beispiel: Schlamm / R&uuml;ckst&auml;nde</div>\
-        <h3>Hartmetallschlamm</h3>\
-        <div class=\"price-main-value price-analysis\" data-price=\"hartmetallschlamm\">Preis anfragen</div>\
-        </div></article>\
-        </div><div class=\"kicker\">Preisfaktoren</div>";
+    // Verbatim API response, read-only verified on 2026-10-08.
+    const API_FIXTURE: &str = r#"{"ok":true,"prices":{"wendeschneidplatten":{"text":"53,00 €/kg","amount":53,"schemaAmount":53},"hartmetallGemischt":{"text":"50,00 €/kg","amount":50,"schemaAmount":50},"vhmFraeserBohrer":{"text":"53,00 €/kg","amount":53,"schemaAmount":53},"widia":{"text":"50,00 €/kg","amount":50,"schemaAmount":50},"hartmetallschlamm":{"text":"nach Analyse","amount":null,"schemaAmount":null}},"fields":{"marktHinweis":"Aktuelle Ankaufspreise pro kg bei passender Sorte und sauber sortiertem Material","einheit":"alle Preise pro kg","kontakt":"info@vhm-hartmetall.de"},"updatedAt":"2026-10-05T08:51:01+00:00","revision":"b850f7af0b621ab51967ade0ecdb6f69f2714b5146e4e3b3cb41fb3b611ff49a"}"#;
 
     #[test]
-    fn cards_become_acceptances() {
-        let (acc, skips) = parse(FIXTURE).expect("parses");
-        assert_eq!(acc.len(), 5);
-        assert!(skips.is_empty(), "got {skips:?}");
-        assert_eq!(acc[0].material, "hartmetall");
-        assert_eq!(acc[0].conditions, "VHM-Fräser & Bohrer");
-        assert_eq!(acc[0].label, "VHM-Fräser & VHM-Bohrer");
-        assert_eq!(acc[4].conditions, "Schlamm");
+    fn api_restores_four_stable_variants_and_source_date() {
+        let out = super::parse_api(API_FIXTURE).expect("live API structure");
+        let rows: Vec<_> = out
+            .prices
+            .iter()
+            .map(|p| {
+                (
+                    p.material,
+                    p.variant,
+                    p.price,
+                    p.currency,
+                    p.unit,
+                    p.price_kind,
+                )
+            })
+            .collect();
+        assert_eq!(
+            rows,
+            vec![
+                (
+                    "hartmetall",
+                    "Wendeschneidplatten",
+                    53.0,
+                    "EUR",
+                    "EUR/kg",
+                    "exact"
+                ),
+                ("hartmetall", "gemischt", 50.0, "EUR", "EUR/kg", "exact"),
+                (
+                    "hartmetall",
+                    "VHM-Fräser & Bohrer",
+                    53.0,
+                    "EUR",
+                    "EUR/kg",
+                    "exact"
+                ),
+                ("hartmetall", "Widia", 50.0, "EUR", "EUR/kg", "exact"),
+            ]
+        );
+        assert_eq!(out.published_at.as_deref(), Some("2026-10-05"));
+        assert_eq!(out.acceptances.len(), 1);
+        assert_eq!(out.acceptances[0].material, "hartmetall");
+        assert_eq!(out.acceptances[0].conditions, "Schlamm");
+        assert!(out.skipped_labels.is_empty());
     }
 
     #[test]
-    fn fixed_price_cards_flag_loudly() {
-        // A fixed price on a card means the price list is back — loud
-        // note, never a silent acceptance.
-        let html = FIXTURE.replacen("Preis anfragen", "65,00 €/kg", 1);
-        let (acc, skips) = parse(&html).expect("parses");
-        assert_eq!(acc.len(), 4);
-        assert_eq!(skips.len(), 1);
-        assert!(skips[0].contains("Festpreis erkannt"), "got {skips:?}");
+    fn api_rejects_invalid_responses_without_fallback_prices() {
+        for (pointer, value) in [
+            ("/ok", serde_json::json!(false)),
+            ("/fields/einheit", serde_json::json!("alle Preise pro t")),
+            ("/fields/marktHinweis", serde_json::json!("")),
+            ("/updatedAt", serde_json::json!("heute")),
+            ("/revision", serde_json::json!("")),
+            ("/prices/widia/amount", serde_json::json!(null)),
+            ("/prices/widia/amount", serde_json::json!("50")),
+            ("/prices/widia/amount", serde_json::json!(0)),
+            ("/prices/widia/amount", serde_json::json!(-50)),
+            ("/prices/widia/schemaAmount", serde_json::json!(65)),
+            ("/prices/widia/text", serde_json::json!("50,00 €/t")),
+            ("/prices/widia/text", serde_json::json!("65,00 €/kg")),
+            ("/prices/widia/text", serde_json::json!("bis zu 50,00 €/kg")),
+            ("/prices/hartmetallschlamm/amount", serde_json::json!(50)),
+            (
+                "/prices/hartmetallschlamm/schemaAmount",
+                serde_json::json!(50),
+            ),
+            (
+                "/prices/hartmetallschlamm/text",
+                serde_json::json!("50,00 €/kg"),
+            ),
+        ] {
+            let mut body: serde_json::Value = serde_json::from_str(API_FIXTURE).unwrap();
+            *body.pointer_mut(pointer).unwrap() = value;
+            assert!(
+                super::parse_api(&body.to_string()).is_err(),
+                "accepted invalid {pointer}: {body}"
+            );
+        }
+        for pointer in [
+            "/prices",
+            "/fields",
+            "/prices/widia",
+            "/prices/hartmetallschlamm",
+            "/prices/hartmetallschlamm/amount",
+            "/prices/hartmetallschlamm/schemaAmount",
+        ] {
+            let mut body: serde_json::Value = serde_json::from_str(API_FIXTURE).unwrap();
+            let (parent, key) = pointer.rsplit_once('/').unwrap();
+            body.pointer_mut(parent)
+                .unwrap()
+                .as_object_mut()
+                .unwrap()
+                .remove(key);
+            assert!(
+                super::parse_api(&body.to_string()).is_err(),
+                "accepted missing {pointer}"
+            );
+        }
+        for body in [
+            "",
+            "<html>Preis anfragen 65,00 €/kg</html>",
+            "{}",
+            r#"{"ok":false,"error":"unavailable"}"#,
+        ] {
+            assert!(super::parse_api(body).is_err());
+        }
     }
 
     #[test]
-    fn windows_reject_loudly() {
-        // FAQ prose after the end anchor must not leak in (bare articles).
-        let html = FIXTURE.to_owned()
-            + "<article><h3>Was kostet 1 kg?</h3><p>Preis anfragen</p></article>";
-        let (acc, _) = parse(&html).expect("window holds");
-        assert_eq!(acc.len(), 5);
-        // Every card unparseable: loud error, not silent success.
-        let html = FIXTURE.replace("price-card-new", "price-other");
-        let err = parse(&html).expect_err("empty cards error");
-        assert!(err.to_string().contains("leer"));
-        // Missing heading: loud error.
-        assert!(parse("<p>Neu hier</p>").is_err());
+    fn api_uses_changed_source_amounts_and_flags_unknown_grades() {
+        let mut body: serde_json::Value = serde_json::from_str(API_FIXTURE).unwrap();
+        body["prices"]["widia"] =
+            serde_json::json!({"text":"49,25 €/kg", "amount":49.25, "schemaAmount":49.25});
+        body["prices"]["neueSorte"] =
+            serde_json::json!({"text":"99,00 €/kg", "amount":99, "schemaAmount":99});
+        let out = super::parse_api(&body.to_string()).expect("new prices, no hardcoded fallback");
+        assert_eq!(out.prices.len(), 4);
+        assert_eq!(out.prices[3].price, 49.25);
+        assert_eq!(out.skipped_labels, vec!["neueSorte (unbekannte API-Sorte)"]);
+    }
+
+    #[tokio::test]
+    #[ignore = "read-only live network verification; no store or record()"]
+    async fn live_handler_uses_api_prices_and_source_date() {
+        let client = reqwest::Client::builder()
+            .timeout(std::time::Duration::from_secs(30))
+            .build()
+            .unwrap();
+        let out = (super::handler().scrape)(&client)
+            .await
+            .expect("exact public live handler");
+        assert_eq!(out.fetch_url, super::API_URL);
+        assert_eq!(out.status_code, 200);
+        assert!(out.website_alive);
+        assert!(out.byte_len > 0);
+        assert_eq!(out.published_at.as_deref(), Some("2026-10-05"));
+        assert_eq!(
+            out.prices
+                .iter()
+                .map(|p| (p.variant, p.price))
+                .collect::<Vec<_>>(),
+            vec![
+                ("Wendeschneidplatten", 53.0),
+                ("gemischt", 50.0),
+                ("VHM-Fräser & Bohrer", 53.0),
+                ("Widia", 50.0),
+            ]
+        );
+        assert_eq!(out.acceptances.len(), 1);
+        assert_eq!(out.acceptances[0].conditions, "Schlamm");
+        assert!(out.skipped_labels.is_empty());
+        assert_eq!(out.trader_info.postcode, "42899");
+        assert_eq!(out.trader_info.email, "info@vhm-hartmetall.de");
+        eprintln!("Livehandler: {:?}", out);
     }
 
     #[test]

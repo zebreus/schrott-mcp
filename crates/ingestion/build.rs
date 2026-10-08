@@ -40,7 +40,7 @@ const KNOWN_KEYS: &[&str] = &[
     "city",
     "street",
     "postcode",
-    // Verified dossier-only WGS84 coordinates; not imported into the database.
+    // Evidence-backed WGS84 coordinates imported as a pair; blanks preserve DB values.
     "lat",
     "lon",
     "phone",
@@ -270,6 +270,8 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
         "description",
         "street",
         "postcode",
+        "lat",
+        "lon",
         "phone",
         "email",
         "opening_hours",
@@ -392,11 +394,15 @@ mod tests {
     }
 
     #[test]
-    fn accepts_documentary_coordinates_without_importing_them() {
+    fn exports_dossier_coordinates_and_preservation_blanks() {
         let row = coordinates("lat: '52.5'\nlon: '13.4'\n");
-        assert!(!row.iter().any(|(key, _)| key == "lat" || key == "lon"));
-        coordinates("");
-        coordinates("lat: ''\nlon: ''\n");
+        assert!(row.contains(&("lat".to_owned(), "52.5".to_owned())));
+        assert!(row.contains(&("lon".to_owned(), "13.4".to_owned())));
+        for fields in ["", "lat: ''\nlon: ''\n"] {
+            let row = coordinates(fields);
+            assert!(row.contains(&("lat".to_owned(), String::new())));
+            assert!(row.contains(&("lon".to_owned(), String::new())));
+        }
     }
 
     #[test]

@@ -8,6 +8,8 @@
 //! `<state>-<city>-<name>`, never hand-edited), name, trader_type, city,
 //! state, website, status, notes, provenance. Street/postcode are usually
 //! empty until scrapers enrich them.
+//! Evidence-backed lat/lon pairs override stored GEO; both absent/empty
+//! preserve it. Coordinates are dossier data, never geocoded here.
 //!
 //! Change detection: a hash of the canonical payload lives in
 //! `extra_json.seed_hash`. Rows whose seed payload did not change are
@@ -36,6 +38,11 @@ pub struct SeedTrader {
     pub street: String,
     #[serde(default)]
     pub postcode: String,
+    /// Evidence-backed WGS84 pair. Both missing/empty preserve stored coordinates.
+    #[serde(default)]
+    pub lat: String,
+    #[serde(default)]
+    pub lon: String,
     pub city: String,
     pub state: String,
     #[serde(default)]
@@ -71,6 +78,21 @@ pub struct SeedProvenance {
     pub ankauf_raw: String,
     #[serde(default)]
     pub origin: String,
+}
+
+impl SeedTrader {
+    fn coordinates(&self) -> Result<Option<(f64, f64)>, String> {
+        if self.lat.is_empty() && self.lon.is_empty() {
+            return Ok(None);
+        }
+        let bad = || format!("bad lat/lon WGS84 pair in {}", self.slug);
+        let lat = self.lat.parse::<f64>().map_err(|_| bad())?;
+        let lon = self.lon.parse::<f64>().map_err(|_| bad())?;
+        if !lat.is_finite() || !lon.is_finite() || lat.abs() > 90.0 || lon.abs() > 180.0 {
+            return Err(bad());
+        }
+        Ok(Some((lat, lon)))
+    }
 }
 
 /// Allowed enum values (mirror the `traders` CHECK-adjacent conventions).
@@ -125,6 +147,7 @@ pub fn validate_seeds(traders: &[SeedTrader]) -> Result<(), String> {
     use std::collections::HashSet;
     let mut slugs = HashSet::new();
     for t in traders {
+        t.coordinates()?;
         if t.slug.is_empty() || t.name.len() < 2 {
             return Err(format!("bad name/slug: {}", t.slug));
         }
@@ -222,6 +245,13 @@ fn payload_hash(
         fields.push(certifications);
     }
     fields.join("\x1f").hash(&mut h);
+    // Preserve historical hashes for dossiers without coordinates. Numeric
+    // hashing also avoids writes for equivalent decimal spellings.
+    if let Some((lat, lon)) = t.coordinates().expect("validated seed coordinates") {
+        "dossier-wgs84".hash(&mut h);
+        lat.to_bits().hash(&mut h);
+        lon.to_bits().hash(&mut h);
+    }
     format!("{:016x}", h.finish())
 }
 
@@ -244,12 +274,21 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
         url: "dossiers".to_owned(),
         detail,
     })?;
-    validate_seeds(&traders).map_err(|detail| super::IngestError::Parse {
+    apply_seed_traders(public, &traders, now)
+}
+
+/// Shared application path for embedded dossiers and isolated regression fixtures.
+fn apply_seed_traders(
+    public: &PublicDb,
+    traders: &[SeedTrader],
+    now: &str,
+) -> Result<usize, super::IngestError> {
+    validate_seeds(traders).map_err(|detail| super::IngestError::Parse {
         url: "dossiers".to_owned(),
         detail,
     })?;
     let mut wrote = 0;
-    for t in &traders {
+    for t in traders {
         let kept = public
             .existing_seed_state(&t.slug)
             .map_err(|source| super::IngestError::Catalog {
@@ -269,6 +308,10 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
         let certifications = keep(&t.certifications, &kept.certifications, "[]");
         let certification_payload =
             (!t.certifications.is_empty()).then_some(certifications.as_str());
+        let coordinates = t.coordinates().expect("validated seed coordinates");
+        let (lat, lon) = coordinates
+            .map(|(lat, lon)| (Some(lat), Some(lon)))
+            .unwrap_or((kept.lat, kept.lon));
         let hash = payload_hash(
             t,
             &description,
@@ -281,7 +324,7 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
             &opening_hours,
             certification_payload,
         );
-        if kept.seed_hash == Some(hash.clone()) {
+        if kept.seed_hash == Some(hash.clone()) && kept.lat == lat && kept.lon == lon {
             continue; // unchanged — keep updated_at meaningful
         }
         let extra = serde_json::json!({
@@ -301,11 +344,9 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
                 city: &t.city,
                 state: &t.state,
                 country: "DE",
-                // The seed never carries coordinates: always keep any
-                // geocoded enrichment (a geocode batch documents its run
-                // in its commit message, not per row).
-                lat: kept.lat,
-                lon: kept.lon,
+                // Dossier pair wins; absent/empty pair preserves stored GEO.
+                lat,
+                lon,
                 email: &email,
                 website: &website,
                 website_status: &website_status,
@@ -334,9 +375,109 @@ pub fn seed_traders(public: &PublicDb, now: &str) -> Result<usize, super::Ingest
 
 #[cfg(test)]
 mod tests {
-    use super::{load_seeds, seed_traders, validate_seeds};
+    use super::{apply_seed_traders, load_seeds, seed_traders, validate_seeds, SeedTrader};
     use crate::test_support::TempDbDir;
     use schrott_mcp_store::PublicDb;
+
+    fn coordinate_fixture(fields: serde_json::Value) -> SeedTrader {
+        let mut row = serde_json::json!({
+            "slug": "bb-coordinate-test", "name": "Coordinate test",
+            "trader_type": "schrotthaendler", "city": "Teststadt",
+            "state": "BB", "status": "aktiv"
+        });
+        row.as_object_mut()
+            .unwrap()
+            .extend(fields.as_object().unwrap().clone());
+        serde_json::from_value(row).expect("fixture parses")
+    }
+
+    #[test]
+    fn dossier_coordinates_insert_update_and_skip_unchanged() {
+        let dir = TempDbDir::new("seed-coordinates");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
+        let first_seen = "2026-10-07T00:00:00Z";
+        let changed = "2026-10-08T00:00:00Z";
+        let mut seed = coordinate_fixture(serde_json::json!({"lat": "52.5", "lon": "13.4"}));
+        assert_eq!(
+            apply_seed_traders(&db, &[seed.clone()], first_seen).unwrap(),
+            1
+        );
+        let initial = db.existing_seed_state(&seed.slug).unwrap().unwrap();
+        assert_eq!((initial.lat, initial.lon), (Some(52.5), Some(13.4)));
+        assert_eq!(
+            apply_seed_traders(&db, &[seed.clone()], changed).unwrap(),
+            0
+        );
+        seed.lat = "52.6".to_owned();
+        seed.lon = "13.5".to_owned();
+        assert_eq!(
+            apply_seed_traders(&db, &[seed.clone()], changed).unwrap(),
+            1
+        );
+        let updated = db.existing_seed_state(&seed.slug).unwrap().unwrap();
+        assert_eq!((updated.lat, updated.lon), (Some(52.6), Some(13.5)));
+        assert_ne!(initial.seed_hash, updated.seed_hash);
+        seed.lat = "52.6000".to_owned();
+        assert_eq!(
+            apply_seed_traders(&db, &[seed], "2026-10-09T00:00:00Z").unwrap(),
+            0
+        );
+        let dates = db
+            .query_sql(
+                "SELECT first_seen_at, updated_at FROM traders WHERE slug = 'bb-coordinate-test'",
+            )
+            .unwrap();
+        assert_eq!(dates.rows[0][0].as_str(), Some(first_seen));
+        assert_eq!(dates.rows[0][1].as_str(), Some(changed));
+    }
+
+    #[test]
+    fn absent_or_empty_dossier_coordinates_preserve_existing_pair() {
+        for fields in [
+            serde_json::json!({}),
+            serde_json::json!({"lat": "", "lon": ""}),
+        ] {
+            let dir = TempDbDir::new("seed-coordinate-keep");
+            let db = PublicDb::open(dir.path()).expect("test db opens");
+            let now = "2026-10-08T00:00:00Z";
+            let blank = coordinate_fixture(fields.clone());
+            assert_eq!(apply_seed_traders(&db, &[blank.clone()], now).unwrap(), 1);
+            let inserted = db.existing_seed_state(&blank.slug).unwrap().unwrap();
+            assert_eq!((inserted.lat, inserted.lon), (None, None));
+            assert_eq!(apply_seed_traders(&db, &[blank], now).unwrap(), 0);
+            let existing = coordinate_fixture(serde_json::json!({"lat": "52.5", "lon": "13.4"}));
+            apply_seed_traders(&db, &[existing], now).unwrap();
+            let mut seed = coordinate_fixture(fields);
+            assert_eq!(apply_seed_traders(&db, &[seed.clone()], now).unwrap(), 1);
+            assert_eq!(apply_seed_traders(&db, &[seed.clone()], now).unwrap(), 0);
+            seed.notes = "Dossier changed without GEO".to_owned();
+            assert_eq!(apply_seed_traders(&db, &[seed.clone()], now).unwrap(), 1);
+            let kept = db.existing_seed_state(&seed.slug).unwrap().unwrap();
+            assert_eq!((kept.lat, kept.lon), (Some(52.5), Some(13.4)));
+            assert_eq!(apply_seed_traders(&db, &[seed], now).unwrap(), 0);
+        }
+    }
+
+    #[test]
+    fn invalid_coordinate_pairs_fail_before_any_write() {
+        let dir = TempDbDir::new("seed-coordinate-invalid");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
+        for fields in [
+            serde_json::json!({"lat": "52.5"}),
+            serde_json::json!({"lon": "13.4"}),
+            serde_json::json!({"lat": "unknown", "lon": "13.4"}),
+            serde_json::json!({"lat": "NaN", "lon": "13.4"}),
+            serde_json::json!({"lat": "52.5", "lon": "inf"}),
+            serde_json::json!({"lat": "91", "lon": "13.4"}),
+            serde_json::json!({"lat": "52.5", "lon": "181"}),
+        ] {
+            let valid = coordinate_fixture(serde_json::json!({}));
+            let mut invalid = coordinate_fixture(fields);
+            invalid.slug = "bb-invalid".to_owned();
+            assert!(apply_seed_traders(&db, &[valid, invalid], "2026-10-08T00:00:00Z").is_err());
+            assert_eq!(db.counts().unwrap().traders, 0);
+        }
+    }
 
     #[test]
     fn seeds_parse_validate_and_count() {

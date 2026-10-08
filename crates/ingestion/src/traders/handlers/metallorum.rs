@@ -2,13 +2,18 @@
 //! An-/Verkaufs-Preisliste (`table.hwt-mp-table` auf
 //! `/unser-service/preislisten/`, live 28.09.2026: 88 Produktzeilen =
 //! 44 Produkte × An-/Verkauf, je Zeile `data-metal`/`data-direction`/
-//! `data-product` plus sichtbare Zellen Produkt/Gewicht/brutto).
+//! `data-product` plus Zellen Produkt/Gewicht/netto/MwSt./brutto).
 //!
 //! Nur `data-direction="ankauf"` wird übernommen (das zahlt der Händler
 //! aus); jede Verkauf-Zeile skippt laut ("Verkaufspreis, kein Ankauf").
 //! Katalogeinheit ist EUR/g, die Seite quotiert Summen je Produkt —
-//! `brutto / Gewicht` ist exakte Arithmetik mit zwei gedruckten Zahlen,
-//! kein Raten (Gewicht steht in jeder Zeile, alles Gramm).
+//! `netto / Gewicht` übernimmt den angezeigten Ankaufspreis. Audit
+//! #4785 (08.10.2026): widget.js setzt bei Ankauf `hwt-mp-dir-ankauf`,
+//! widget.css blendet MwSt. und Brutto aus (beide liegen weiter im HTML).
+//! Quellen: `/wp-content/plugins/hwt-metallpreise-tabelle-elementor/assets/`
+//! `js/widget.js?ver=1.0.1` und `css/widget.css?ver=1.0.1` auf metallorum.de.
+//! Das ist keine erfundene steuerliche Netto-Abrechnung: individuelle
+//! Gewerbe-/USt.-Konditionen nennt die Liste nicht. Keine Steuer zuschlagen.
 //!
 //! Feingehalt in der Variante: Anlagebarren/-münzen (Gold-Verkauf 0 %
 //! MwSt. = Anlagegold), Numismatik-Standard Krügerrand/Eagle 916,
@@ -254,7 +259,7 @@ fn grade_for(metal: &str, product: &str) -> Option<(&'static str, &'static str)>
 
 /// Parst das Fenster `table.hwt-mp-table` (Start-Anker; Ende am
 /// `</table>` — Footer-€ dahinter paart sich sonst mit Labels).
-/// Liefert (Produktlabel, Metall, €/g aus Brutto/Gewicht) plus Skips.
+/// Liefert (Produktlabel, Metall, €/g aus angezeigtem Netto/Gewicht) plus Skips.
 /// Verkauf-Zeilen sind dokumentierte Filter-Skips, kein Mapping-Fehler.
 fn parse(html: &str) -> Result<(Vec<(String, String, f64)>, Vec<String>), IngestError> {
     let mark = html
@@ -296,8 +301,8 @@ fn parse(html: &str) -> Result<(Vec<(String, String, f64)>, Vec<String>), Ingest
             ));
             continue;
         }
-        let (product, weight_cell, gross_cell) =
-            (cells[0].clone(), cells[1].clone(), cells[4].clone());
+        let (product, weight_cell, net_cell) =
+            (cells[0].clone(), cells[1].clone(), cells[2].clone());
         if product.is_empty() || product.len() > 120 {
             continue;
         }
@@ -328,16 +333,18 @@ fn parse(html: &str) -> Result<(Vec<(String, String, f64)>, Vec<String>), Ingest
             skipped.push(format!("{product} (Gewicht 0)"));
             continue;
         }
-        let Some(gross) = parse_eur(&gross_cell) else {
-            skipped.push(format!("{product} (Preis unverständlich: {gross_cell})"));
+        // Ankauf-Tab zeigt nur Netto: versteckte MwSt./Brutto-Zellen
+        // sind kein Beleg für einen Auszahlungsaufschlag.
+        let Some(net) = parse_eur(&net_cell) else {
+            skipped.push(format!("{product} (Preis unverständlich: {net_cell})"));
             continue;
         };
         // "0,00 €" heißt kein Tagespreis, kein Gratis-Geschenk.
-        if gross == 0.0 {
+        if net == 0.0 {
             skipped.push(format!("{product} (Preis 0,00, kein Tagespreis)"));
             continue;
         }
-        rows.push((product, metal, gross / weight_g));
+        rows.push((product, metal, net / weight_g));
     }
     if rows.is_empty() {
         return Err(IngestError::Parse {
@@ -498,7 +505,7 @@ mod tests {
         assert!(skips
             .iter()
             .any(|s| s.contains("10 Gramm Goldbarren") && s.contains("0,00")));
-        // Brutto durch gedrucktes Gewicht: Anzeige gewinnt, kein Raten.
+        // Im Ankauf-Tab sichtbares Netto durch gedrucktes Gewicht.
         assert_eq!(rows[0].0, "1 Gramm Goldbarren (diverse Hersteller)");
         assert!((rows[0].2 - 113.39).abs() < 1e-9);
         // Tausenderpunkt im Gewicht ("1.000,0000 g") und im Preis.
@@ -506,7 +513,7 @@ mod tests {
             .iter()
             .find(|(l, _, _)| l.contains("1kg"))
             .expect("kg row");
-        assert!((kg.2 - 1.89897).abs() < 1e-9, "brutto/g: {kg:?}");
+        assert!((kg.2 - 1.59577).abs() < 1e-9, "angezeigtes netto/g: {kg:?}");
         let kru = rows
             .iter()
             .find(|(l, _, _)| l.contains("Krügerrand"))
@@ -516,6 +523,43 @@ mod tests {
         // Redesign ohne Tabelle / leere Tabelle: lauter Fehler.
         assert!(parse("<div>Redesign ohne Tabelle</div>").is_err());
         assert!(parse("<table class=\"hwt-mp-table\"></table>").is_err());
+    }
+
+    #[test]
+    fn ankauf_uses_displayed_net_not_hidden_vat_or_gross() {
+        // Audit #4785, live 08.10.2026: widget.js setzt bei Ankauf
+        // hwt-mp-dir-ankauf; widget.css blendet MwSt. und Brutto aus.
+        // Die versteckten Zellen bleiben im HTML, auch bei Diff.-Münzen.
+        let html = "<table class=\"hwt-mp-table\"><tbody>\
+            <tr class=\"hwt-mp-row\" data-metal=\"silver\" data-direction=\"ankauf\">\
+            <td>1kg Silberbarren (19 % MwSt)</td><td>1.000,0000 g</td>\
+            <td>1.564,72 €</td><td>19 % (297,30 €)</td><td>1.862,02 €</td></tr>\
+            <tr class=\"hwt-mp-row\" data-metal=\"silver\" data-direction=\"ankauf\">\
+            <td>1 Unze Silbermünze Maple Leaf (19 % MwSt)</td><td>31,1000 g</td>\
+            <td>50,78 €</td><td>19 % (9,65 €)</td><td>60,43 €</td></tr>\
+            <tr class=\"hwt-mp-row\" data-metal=\"silver\" data-direction=\"ankauf\">\
+            <td>1 Unze Silbermünze Maple Leaf (Diff.- besteuert, diverse Jahrgänge)</td><td>31,1000 g</td>\
+            <td>50,79 €</td><td>7 % (3,55 €)</td><td>54,34 €</td></tr>\
+            </tbody></table>";
+        let (rows, skips) = parse(html).expect("parses live table shape");
+        assert_eq!(rows.len(), 3);
+        assert!(skips.is_empty());
+        for (row, expected) in rows
+            .iter()
+            .zip([1564.72 / 1000.0, 50.78 / 31.1, 50.79 / 31.1])
+        {
+            assert!(
+                (row.2 - expected).abs() < 1e-9,
+                "hidden gross used: {row:?}"
+            );
+        }
+        // Kein Rückfall auf Brutto, falls der sichtbare Ankaufspreis fehlt.
+        let (rows, skips) = parse(&html.replace("1.564,72 €", "unbekannt")).unwrap();
+        assert_eq!(rows.len(), 2);
+        assert!(skips.iter().any(|s| s.contains("Preis unverständlich")));
+        let (rows, skips) = parse(&html.replace("1.564,72 €", "0,00 €")).unwrap();
+        assert_eq!(rows.len(), 2);
+        assert!(skips.iter().any(|s| s.contains("kein Tagespreis")));
     }
 
     #[test]
