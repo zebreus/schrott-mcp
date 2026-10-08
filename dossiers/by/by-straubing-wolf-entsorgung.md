@@ -6,6 +6,8 @@ state: BY
 city: Straubing
 street: Röntgenstraße 11
 postcode: '94315'
+lat: 48.8890789
+lon: 12.625867
 phone: 09421 7073
 email: info@wolf-entsorgung.de
 opening_hours: 'Anlieferung Mo–Do 06:00–16:00, Fr 06:00–15:00; Abholung Mo–Do 07:00–15:00, Fr 07:00–13:00; samstags geschlossen'
@@ -27,9 +29,13 @@ provenance_origin: table
 
 Identität und Betrieb bestätigt: Wolf Entsorgung GmbH & Co. KG, HRA 7265 Straubing, Röntgenstraße 11. Betreiber-Impressum, Northdata und das aktuelle EdDE-Zertifikat sind kongruent. Privatkunden dürfen Abfälle selbst anliefern; Metalle/Mischschrott gehören zum Abfallkatalog. Das belegt Entsorgung/Annahme, nicht automatisch vergüteten Schrottankauf. Anlieferungs-, Abholungs- und Bürozeiten unterscheiden sich.
 
-**Ankauf:** keine numerische Liste und keine belegte Vergütungszusage. **Verkauf:** keine geprüfte Materialpreisliste. **Gebühren:** kein bezifferter Entsorgungs-/Container-Tarif in den gelesenen Seiten. Vor Anlieferung Material, Annahmebedingungen und Abrechnung klären. Adresse ergänzt, keine Geokoordinate gesetzt.
+**Ankauf:** keine numerische Liste und keine belegte Vergütungszusage. **Verkauf:** keine geprüfte Materialpreisliste. **Gebühren:** kein bezifferter Entsorgungs-/Container-Tarif in den gelesenen Seiten. Vor Anlieferung Material, Annahmebedingungen und Abrechnung klären. Adresse und adressbezogener Gebäudepunkt verifiziert; keine behauptete Toreinfahrt.
 
 ## Timeline
+
+### Owner-Koordinatenprüfung 08.10.2026
+
+- [Korrektur 08.10.2026: Betreiber-Impressum erneut gelesen: Wolf Entsorgung GmbH & Co. KG, HRA7265, Röntgenstraße11/94315Straubing. Strukturierte Nominatim-Adresssuche liefert Gebäudepunkt48.8890789/12.625867 von OSMway217805990; Originalelement direkt gegengeprüft: Firmenname, Straße, Hausnummer11, PLZ94315, StadtStraubing sowie Domain und Telefon kongruent. Frontmatter-Paar ergänzt, historische nicht standortbestätigte Produktionswerte48.8813/12.5739 durch den normalen Bootseed ersetzt. Gebäudepunkt ist keine Anlieferungseinfahrt. OSM-Öffnungszeiten unterscheiden sich vom Betreiber und wurden nicht übernommen; bestehende getrennte Anlieferungs-/Abholungszeiten unverändert. OSM dient nur dem adressbezogenen Geometriebeleg, nicht als Register-/Ankaufbeleg. Keine Rust-Laufzeit-Geokodierung. Quelle: https://www.wolf-entsorgung.de/rechtliches/impressum/ ; https://nominatim.openstreetmap.org/search?street=11+R%C3%B6ntgenstra%C3%9Fe&city=Straubing&postalcode=94315&country=Germany&format=jsonv2&addressdetails=1&limit=5 ; https://www.openstreetmap.org/api/0.6/way/217805990.json .]
 
 ### Recherche 08.10.2026 (Register-/Zertifikatsabgleich)
 
