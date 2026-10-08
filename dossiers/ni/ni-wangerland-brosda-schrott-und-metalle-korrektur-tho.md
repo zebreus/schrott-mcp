@@ -36,6 +36,10 @@ Der Betreiberauftritt nennt Thomas Brosda / Brosda Altmetallhandel, Fuhlrieger A
 
 ## Timeline
 
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Direkt gelesene Ankaufseite ergänzt wichtige Zugangskondition: Privat/Gewerbe, Barauszahlung gegen gültigen Personalausweis; Kühlgeräte und Bildschirme ausdrücklich ausgeschlossen, keine kostenpflichtige Annahme ableiten. Preise telefonisch04461965331, keine numerischen Kurse. Impressum nennt unter Handelsregister die Kennung DT01-14 90027 ohne Registergericht/HR-Art; keine validierte HRA/HRB und daher keine autoritative Betreiber-Ausnahme. Duplikat Jever ungeklärt, keine doppelte Befüllung. Verkauf-/Gebührenliste in diesen Seiten nicht vorhanden. Quelle(n): http://www.brosda.com/wir-kaufen/ ; http://www.brosda.com/impressum/]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Betreiber-Impressum, „Wir kaufen“-, Leistungs- und Öffnungszeiten-Seite direkt gelesen. Thomas Brosda / Brosda Altmetallhandel nennt Fuhlrieger Allee 1, 26434 Wangerland/Wiefels, Tel. 04461 965331, Fax 04461 965332 und vsbrosda@aol.com; Annahme von Privat/Gewerbe, LKW-Abholung und telefonische Preisabfrage. Öffnungszeiten laut Betreiberseite Di–Do 08:00–12:00 und 13:00–17:00, Mo/Fr/Sa geschlossen; deren Kartenlink enthält 53.590479, 7.871861. 11880 führt denselben Namen, Adresse und Telefon, ist aber nur ein Branchenverzeichnis und keine unabhängige Belegklasse. Das parallele Jever-Dossier mit derselben Telefonnummer ist ein ungeklärter Doppel-/Stadtmismatch; daher Kontaktfelder nicht doppelt übernommen und `status: pruefung`. Ankauf: Kurse nur telefonisch; Verkauf: keine Gesamtliste; Gebühren: keine Liste. Kartenkoordinate vor Übernahme nach Duplikatentscheidung unabhängig prüfen; Quelle: http://www.brosda.com/impressum/ ; http://www.brosda.com/wir-kaufen/ ; http://www.brosda.com/leistungen/ ; http://www.brosda.com/%C3%B6ffnungszeiten/ ; https://www.11880.com/suche/schrott/wangerland]

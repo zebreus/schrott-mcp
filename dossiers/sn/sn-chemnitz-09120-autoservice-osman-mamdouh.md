@@ -32,6 +32,10 @@ Böhlener Website, Telefon und Teilepreise gehören nicht in diesen Datensatz. E
 
 ## Timeline
 
+### Recherche 08.10.2026 (Quellenzugriff und Gebührenabgrenzung)
+
+- [Recherche 08.10.2026: Chemnitzer Creditreform-Detaileintrag erneut direkt angefragt, HTTP403; weiterhin nicht vollständig gelesen und daher kein neuer Zweitbeleg für Betreiber/Adresse. Das ist eine Zugriffssperre, kein Löschungs-/Schließungsbefund. Die direkt gelesene GESA-Informationsseite bestätigt zudem allgemein, dass Anerkennung als Demontagebetrieb nicht automatisch kostenlose Rücknahme oder Vergütung bedeutet; Hersteller-Rücknahmenetz/Marke/Vollständigkeit und Transportbedingungen sind gesondert zu klären. Mirror-Zertifikat ZASS00300004 bleibt gezielter Prüfansatz, keine amtliche Einzelakte. Keine Böhlener Kontaktdaten/Teile- oder Versandpreise übernommen. ANKAUF/VERKAUF/GEBÜHREN für Chemnitz ohne verifizierte Zahlen; nächste Prüfung Original-Zertifikatsdatensatz und heutiger Anlagenbetreiber. Quelle: https://firmeneintrag.creditreform.de/09120/3030241097/MAMDOUH_OSMAN_AUTOVERWERTUNG_OSMAN (403) ; https://www.altfahrzeugstelle.de/ .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Ergänzung gegenüber dem Stand 05.10., ohne die damalige Negativ-/Namensvetter-Historie zu überschreiben: Die nichtamtliche Spiegelung schrottregister.pages.dev weist „Autoservice Osman Mamdouh“, Altchemnitzer Str. 13, 09120 Chemnitz als Demontagebetrieb aus und nennt Zertifikatsnummer ZASS00300004; laut Spiegelanbieter stammt der Auszug aus dem amtlichen GESA-Register, Stand 11.08.2026. Der Spiegel ist selbst kein amtlicher Primärbeleg und der aktuelle Originaldatensatz bleibt anzufordern. Nicht mit Ahmad Herish Osman in Böhlen zusammenführen. ANKAUF: keine konkreten Altauto-Preise. VERKAUF: keine dem Chemnitzer Betrieb zuordenbare Preisliste. GEBÜHREN: keine belegte Gebührenliste. Geokodierung: Altchemnitzer Str. 13 nur als Kandidat, bis amtliche Einzelfallprüfung; Quelle: https://schrottregister.pages.dev/betrieb-autoservice-osman-mamdouh-chemnitz ; Ortssuche: https://schrottregister.pages.dev/ort-chemnitz.]

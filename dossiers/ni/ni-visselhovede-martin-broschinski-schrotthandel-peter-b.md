@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die eingetragene Website belegt Metallhandel BroZinski GbR von Riko Brozinski und Denny Broschinski, nicht unmittelbar Martin/Peter Broschinski aus dem Seed. Keine bewiesene Vorgänger-/Nachfolgerkette; Website und description bleiben als bereits dokumentierter Kandidat, nicht als gelöste Identität. Kontaktdaten weiterhin nicht übernehmen.
+
+**Ankauf beim Website-Kandidaten:** Messing/Kupfer/Kabel/Zink/Blei/Aluminium sowie V2A/V4A Stücke und Späne; Preise ausdrücklich telefonisch oder per E-Mail, keine Zahlenkurse. **Verkauf:** keine Liste in den geprüften Seiten. **Gebühren:** keine Container-/Demontagetarife. Keine Konditionen automatisch dem ungeklärten Martin/Peter-Seed zuordnen.
 
 ## Timeline
+
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Impressum und Ankaufseite erneut direkt gelesen: RikoBrozinski/DennyBroschinski, Wehnserweg25,27374Visselhövede; Martin/Peter weiterhin nicht genannt. Ankaufseite unterscheidet ausdrücklich V2A- und V4A-Stücke/Späne und nennt Preise telefonisch/perE-Mail; größere Mengen mit Behälterstellung, keine Mindestmenge/Gratisbehälter ableiten. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren gefunden. Keine Zuordnungskorrektur/Fills ohne Identitätskette. Quelle(n): http://www.metallhandel-brozinski.de/IMPRESSUM/ ; http://www.metallhandel-brozinski.de/UNSERE-LEISTUNGEN/Wir-kaufen-Ihr-Altmetall/]
 
 ### Recherche 04.10.2026
 

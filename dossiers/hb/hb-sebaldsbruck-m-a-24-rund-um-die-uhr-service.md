@@ -28,6 +28,10 @@ Verzeichnis-Leads führen „M&A 24 Rund um die Uhr Service“ bzw. „M&A Rund 
 
 ## Timeline
 
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Neuer Direktabruf des bisher dokumentierten Mailleads Stadtbranchenbuch liefert403; Mail mohamed21altun@gmail.com deshalb nicht frisch verifiziert und nicht strukturiert übernehmen. Generische Suche nach M&A liefert fremde Finanz-/Beratungsunternehmen, keine Identitätsbestätigung für Sebaldsbrück. Bestehende Straße/PLZ/Telefon aus Aggregator-Ausnahme bleiben unbestätigte Seedwerte; weder 24h-Service noch Annahmestelle/vergüteten Ankauf ableiten. Nächster belastbarer Weg Gewerberegister Bremen nach Anschrift/Inhaber, kein behaupteter Registerabruf. Keine verifizierten Ankauf-/Verkaufspreise/Gebühren. Quelle: https://bremen.stadtbranchenbuch.com/8581478.html (Direktabruf403); frühere Verzeichnisleads im erhaltenen Verlauf]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Ausnahme-Fills PLZ/Telefon (Aggregator-Konsens, offen dokumentiert): Gelbe Seiten (M&A 24 Rund um die Uhr Service, Schrott, Sebaldsbrücker Heerstr. 160, 28309 Bremen-Sebaldsbrück, 0174 9159503) + 11880 (M&A Rund ums Haus Team, gleiche Adresse) kongruent; Straßenname aus Seed bestätigt. KEIN Betreiber-/Register-Beleg → Status bleibt pruefung, Telefon mit Restunsicherheit. Quelle(n): Gelbe Seiten + 11880 (zwei Aggregatoren, eine Belegklasse — Ausnahmefall)]

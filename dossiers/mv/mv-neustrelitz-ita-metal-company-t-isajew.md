@@ -31,6 +31,11 @@ ITA Metal Company (T. Isajew) bleibt trotz mehrerer Suchtreffer nur durch Verzei
 
 ## Timeline
 
+### Evidenzprüfung 08.10.2026 (Welle Mittenordost)
+
+- Bisherige Recherche als Ausgangspunkt geprüft: Woldegker Chaussee 2 und beide E-Mail-Kandidaten bleiben widersprüchliche Portalhinweise, nicht bestätigte Identität. Keine unabhängige Betreiber-/Registerquelle neu gesichert; die wiedergegebenen Öffnungszeiten sind ausdrücklich keine aktuellen Betriebszeiten. Vorrecherche/Leads: https://www.gelbeseiten.de/gsbiz/20bc7e9c-e6aa-4d01-94ea-aefec4818a1f ; https://mobil.dasoertliche.de/Themen/ITA-Metal-Company-T-Isajew-Neustrelitz ; https://neustrelitz.stadtbranchenbuch.com/8177773.html
+- ANKAUF / VERKAUF / GEBÜHREN: keine belastbare numerische Liste. Klärung gezielt über Isajew/Inhaber und kommunalen Gewerbeabgleich statt weiterer Portalmehrheiten; Status und Felder unverändert. Kein Nachweis einer Schließung.
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Mehrere Verzeichnisse geprüft, aber kein Betreiber-Impressum/Registerbeleg gefunden. Gelbe Seiten und Das Örtliche nennen jeweils Mo–Fr 08:30–17:00 und Sa 08:30–14:00; Gelbe Seiten-Suchergebnis führt Woldegker Chaussee 2, während der Seitentext keine verlässlich bestätigte Straßenadresse bietet. Das Örtliche nennt ita-neustrelitz@t-online.de; ein weiteres Branchenbuch führt eine andere Adresse der E-Mail (ita-fbg@gmx.de). Kontakt-/Adressdaten bleiben widersprüchliche Verzeichnis-Leads und werden nicht gefüllt. Keine bestätigten Ankaufpreise, Verkaufspreise oder Gebühren. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/20bc7e9c-e6aa-4d01-94ea-aefec4818a1f ; https://mobil.dasoertliche.de/Themen/ITA-Metal-Company-T-Isajew-Neustrelitz ; https://neustrelitz.stadtbranchenbuch.com/8177773.html]

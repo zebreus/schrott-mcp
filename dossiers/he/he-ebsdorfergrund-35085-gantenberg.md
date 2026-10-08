@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Thorsten Gantenberg ist nur der konkrete Portal-Kandidat zur erhaltenen Ebsdorfer Straße 11 und Rufnummer. Ein NorthData-Personentreffer nennt örtliche Vereine, nicht den Schrotthandel: gleiche Person/Ort allein ist keine Gewerbeidentität. Keine bestätigte Betreiberwebsite, Privatannahme oder Preise; bestehende Adresse/Telefon als ungeprüfte Altwerte erhalten, Name nicht ergänzt und Status `pruefung`.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Welle Mittenordost)
+
+- 11880-Suchtreffer präzisiert Thorsten Gantenberg, Leidenhofen, Ebsdorfer Straße 11 / Seednummer. Datenstand laut Treffer 05.01.2023, Seitendatum 18.01.2025: keine neue Betreiberbestätigung. Lead: https://www.11880.com/branchenbuch/ebsdorfergrund/060440092B102464464/thorsten-gantenberg-schrotthandel.html
+- NorthData-Personenseite direkt: Verbindungen zu SV Beltershausen 1928 e.V. und Verkehrs-/Verschönerungsverein, kein belegter Schrotthandel-/Adresszusammenhang. Nicht als Zweitbeleg zählen. Quelle/Suchweg: https://www.northdata.de/Thorsten+Gantenberg,+Ebsdorfergrund
+- ANKAUF / VERKAUF / GEBÜHREN: keine belegten Zahlen. Folgeschritt Gewerbeabgleich für den Schrotthandel, nicht bloßer Namensabgleich mit Vereinsfunktionen. Frontmatter unverändert.
 
 ### Recherche 02.10.2026
 

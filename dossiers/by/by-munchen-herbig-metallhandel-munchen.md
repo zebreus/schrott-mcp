@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registerspur Rich. Herbig Metallhandel München GmbH, HRB 134478 München, Landsberger Straße 402; gegenwärtiger Publikums-/Schrottankauf bleibt unbelegt. NIEMET-Gruppenbezug ist dokumentiert, aber weder die Betreiberadresse Bremen noch die allgemeine Gruppenmail sind dadurch Münchner Standortkontakte. Die NIEMET-Vertriebsnetzseite verweist auf eine interaktive Standortkarte; im lesbaren Text ist nur Bremen genannt. Das ist eine technische Abdeckungsgrenze, kein Beweis, dass es keine Münchner Vertretung gibt.
+
+**Ankauf:** keine der Münchner Gesellschaft zugeordnete Preisliste. **Verkauf:** NIEMET-Halbzeugangebote gehören zur Gruppenwebsite, nicht automatisch dieser Gesellschaft; keine Münchner Preise. **Gebühren:** keine Tarife. Nächster Schritt: Münchner Betrieb/Annahmeort durch Betreiberbestätigung und registerkongruentes Impressum sichern, nicht Gruppenkontakte kopieren.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NIEMET-Vertriebsnetz erneut direkt gelesen: beschreibt weltweite Partner und interaktive Karte, sichtbarer Textkontakt ausdrücklich Manfred J.C. Niemann Zentrale KG, Auf dem Dreieck 6, 28197 Bremen, +49 421 5490-240, info@niemet.de. Keine Rich.-Herbig-München-Einzelstelle im lesbaren Text. Deshalb weder Negativbeweis zu München noch Übernahme von Gruppenmail/Website/Produkten/Verkaufspreisen. Bestehender Registerbefund HRB 134478 bleibt Ausgangspunkt, heutiger Münchner Ankauf/Öffnungszeiten ungeklärt; keine numerischen Ankauf-/Verkaufs-/Gebührentarife zugeordnet. Quelle: https://www.niemet.de/vertriebsnetz.htm ; Register-Ausgangsquelle der Vorwelle: https://www.northdata.de/Rich%C2%B7%20Herbig%20Metallhandel%20M%C3%BCnchen%20GmbH,%20M%C3%BCnchen/HRB%20134478 .]
 
 ### Recherche 04.10.2026
 

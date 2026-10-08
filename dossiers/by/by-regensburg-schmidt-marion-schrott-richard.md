@@ -28,6 +28,10 @@ Ein alter Das-Örtliche-Treffer nannte 93059 Regensburg und Telefon 0941 566865,
 
 ## Timeline
 
+### Recherche 08.10.2026 (Identität statt Rückschluss aus HTTP410)
+
+- [Recherche 08.10.2026: Alte Örtliche-Detailseite direkt angefragt, weiterhin HTTP410; Northdata-Suggest exakte Namenskombination HTTP200/results leer. Ein entfernter Telefonbucheintrag und eine leere Suggestsuche sind weder ein Gewerbe-/Schließungsnachweis noch ein Beleg dafür, dass „Schrott Richard“ eine Handelsbezeichnung statt eines Personen-Familiennamens war. Exakte Rechts-/Inhaberidentität deshalb als eigener Klärpunkt priorisiert. Keine Frontmatter-Übernahme der alten Nummer/PLZ, status pruefung, kein Geocoding. ANKAUF/VERKAUF/GEBÜHREN: kein zuordenbarer numerischer Befund; weiterer Rechercheweg Gewerbeauskunft Regensburg mit beiden Namen und historischem Telefonlead. Quelle: https://www.dasoertliche.de/Themen/Schmidt-Marion-Schrott-Richard-Regensburg ; https://www.northdata.de/suggest.json?query=Schmidt%20Marion%20Schrott%20Richard&countries=DE .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Kleinstbetrieb)

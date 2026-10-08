@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Cottbuser Rohstoffhof bleibt ein Standort-Klärfall. NorthData bestätigt Altmetall Wetzel UG am Sitz Drebkau, nicht die behauptete Cottbuser Niederlassung. Schmellwitzer Straße 69 und Telefon sind erhaltene Portalwerte. Die frühere Zweitstandort-Bestätigung war lediglich ein Verzeichnislead, daher Status auf `pruefung` korrigiert. Keine belegte Betreiberwebsite oder aktuelle Ankauf-/Verkaufs-/Gebührenliste; keine Verbindung mit anderen Schrott-Wetzel-Gesellschaften ableiten.
 
 ## Timeline
+
+### Recherche / Korrektur 08.10.2026 (Welle Mittenordost)
+
+- NorthData direkt: Altmetall Wetzel UG, AG Cottbus HRB 14999, Bahnhofstraße 23 in Drebkau; Geschäftsführerwechsel zu Tanja Zimmermann am 21.03.2025. Dies bestätigt nicht die Cottbuser Filiale. Die Formulierung „als Zweitstandort bestätigt“ vom 30.09. wird als unbelegte Schlussfolgerung korrigiert; Historie erhalten. Status aktiv → pruefung, übrige Legacy-Felder unverändert. Quelle: https://www.northdata.de/Altmetall%20Wetzel%20UG,%20Drebkau/Amtsgericht%20Cottbus%20HRB%2014999
+- Örtliche-Lead nennt weiter rostoffhof@web.de (Schreibweise der Quelle) und rohstoffhof.de. HTTPS ohne nutzbaren Abruf, HTTP-Verbindung beendet; das beweist keine Schließung. Keine E-Mail-/Domain-Fills. Quelle/Lead: https://www.dasoertliche.de/Themen/Altmetall-Wetzel-UG-Schrotthandel-Cottbus-Schmellwitz-Schmellwitzer-Str ; http://www.rohstoffhof.de/
+- ANKAUF / VERKAUF / GEBÜHREN: keine zuordenbare numerische Liste. Offen: register-/betreiberbestätigte Cottbuser Niederlassung, aktueller Betrieb und tatsächliche Annahmebedingungen.
 
 ### Importiert (Seed-Stand 2026-09-30)
 

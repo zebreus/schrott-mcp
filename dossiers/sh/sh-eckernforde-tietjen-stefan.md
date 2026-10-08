@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnis-Seed mit unbestätigten Kontakt-/Adresswerten Siemensstr.12,24340Eckernförde/01723721669; kein qualifizierter Zweitbeleg. Wichtig: die neue Suchspur stefan-tietjen.de ist eine private Link-/Affiliate-Sammlung, deren Impressum Lilienthal nennt. Deren externer Schrottpreislink ist keine Betreiber-Preisliste für Eckernförde und kein Umzugsnachweis. Nicht mit Barmstedter Tietjen oder Lilienthal gleichsetzen.
+
+**Ankauf:** Seed behauptet ja, heutige Vergütung unbestätigt, keine Händlerkurse. **Verkauf:** keine zugeordnete Liste. **Gebühren:** keine zugeordneten Tarife. Geocoding der Seed-Adresse erst nach Betriebsbestätigung.
 
 ## Timeline
+
+### Namesake-/Preisprüfung 08.10.2026
+
+- [Recherche 08.10.2026: Suchtreffer stefan-tietjen.de mit Schrottpreisverweis direkt gegengeprüft: Homepage Nützliches im Internet verweist auf externe schrottpreise-info.de, ausdrücklich regional/händlerabhängig; Impressum Stefan Tietjen,WesterwederStraße38,28865Lilienthal,01749458612. Andere Adresse/Telefon, keine belegte Verbindung zum Eckernförder Verzeichnis-Seed. Domain/Preise deshalb nicht übernehmen und keinen Umzug ableiten; vorhandene Seed-Adresse/Telefon bleiben ausdrücklich unbestätigt, status pruefung. Keine numerische Betreiber-Ankauf-/Verkaufspreisliste oder Gebühren gefunden. Quelle(n): https://www.stefan-tietjen.de/ ; https://www.stefan-tietjen.de/impressum.htm ; https://www.gelbeseiten.de/gsbiz/b8c972ce-123c-4d2e-85d1-eb40938c5332 (Suchindex-Lead)]
 
 ### Recherche 02.10.2026
 

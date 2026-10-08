@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Timo Becker Schrotthandel, Weidig 6, 96328 Küps-Au und 09264 995733 sind bisher ausschließlich Verzeichnis-Leads. Eine neue Suchspur „Timo Becker Becker's Schrotthandel“ nennt dagegen Geranienweg 13 und 09264 9928517; kein Primärbeleg verbindet die beiden Adressen oder weist einen Umzug nach. Nicht mit Brennholz-/Baudienstleistungs-Angeboten gleichen Namens vermischen.
+
+**Ankauf / Verkauf / Gebühren:** keine zugeordnete numerische Liste. Status pruefung, keine Frontmatter-Kontakte/Adresse aus Portalen; nächster Schritt Betreiber-/Gewerbeabgleich beider Anschriften.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Namens-/Ortswebsuche liefert neben Weidig 6/09264 995733 einen neuen meinestadt-Suchlead „Timo Becker Becker's Schrotthandel“, Geranienweg 13, 96328 Küps, 09264 9928517. Detailabruf hier Timeout: Angaben ausdrücklich nur Suchlead, kein gelesener Primärbeleg. Gleichnamige Brennholz-/Baudienstleistungsangebote dürfen nicht als Schrott-Betreiberbeleg dienen. Northdata-Suggest Timo Becker liefert Personen in anderen Orten, keinen Küpser kongruenten Rechtsträger; kein Nichtexistenzbeweis für einen Einzelunternehmer. Keine Felder gefüllt und keine Umzugsannahme, Ankauf/Verkauf/Gebühren ohne Zahlen; Kontakt-/Standortkonflikt für nächste Gewerbe-/Betreiberprüfung priorisiert. Quelle (Suchlead/Abrufgrenze): https://branchenbuch.meinestadt.de/kueps/company/8622941 ; https://www.northdata.de/suggest.json?query=Timo%20Becker&countries=DE .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

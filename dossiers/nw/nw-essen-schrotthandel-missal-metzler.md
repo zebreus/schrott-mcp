@@ -28,6 +28,10 @@ Mobile Betreiber-Sphäre Metzler/Jürgen Missal mit belegter kostenloser Altmeta
 
 ## Timeline
 
+### Vertiefung Nordwest 08.10.2026
+
+- [Recherche 08.10.2026: Schrottpreise-Seite separat erneut direkt gelesen: ausdrücklich telefonische Angebote, Kalkulation abhängig von Menge/Zusammensetzung, Demontage/Sortierung und möglichen Entsorgungskosten. Keine EUR/kg-Zahlen, keine datierte Liste. Bereits heute präzisiertes pickup_json sachgerecht und unverändert; keine kostenlose Zusatzarbeit aus Werbebanner ableiten. Drei Betreiberdomains weiterhin nicht drei unabhängige Belege, Rollen-/Adressklärung offen. Verkaufspreisliste/Gebührentarife auf der geprüften Seite nicht veröffentlicht. Quelle: https://schrotthandel-metzler-essen.de/schrottpreise/]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Bestaetigung + neue Zweitspur, Klaerfall bleibt: alle drei Betreiber-Domains live re-verifiziert (schrotthandel-metzler-essen.de HTTP 200; schrotthandel-missal-essen.de HTTP 301; schrott-in-essen.de live) + schrottradar-Portal „Schrott und Metallhandel J. Missal" Essen. NEU: cylex-Eintrag „Schrotthandel Metzler, Zum Oberhof, Essen-Kray, 0175 9254..." stuetzt die Seed-Adresse Zum Oberhof 32 gegen das Impressum (Kalthofweg 4, Juergen Missal) — Widerspruch damit weiter unaufgeloest (Aggregator vs. Impressum); Feedback-Triage-Entscheid 01.10.2026 (Felder leer lassen) bleibt gueltig, kein Fill. Quelle(n): Live-Abrufe + cylex (02.10.2026).]

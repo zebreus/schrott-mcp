@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: Schrott- und Metallhandel in Harpstedt — Schrottannahme von Stahl- und Eisenschrott, Aluminium, Kupfer, Edelstahl, Blei und Messing.
 dropoff_json: ''
 pickup_json: ''
@@ -33,6 +33,14 @@ Mehrere Branchen- und Schrottverzeichnisse führen TuS Schrott & Metalle an Rave
 - **Geokodierung:** Ravenskamp 8, 27243 Harpstedt bei Bestätigung durch eine qualifizierte Quelle geokodieren; Öffnungszeiten bleiben unbekannt.
 
 ## Timeline
+
+### Owner-Korrektur 08.10.2026
+
+- [Korrektur 08.10.2026: Aktivstatus auf pruefung zurückgenommen: bereits die Recherche 04.10. und die aktuelle Gegenprüfung dokumentieren ausschließlich Verzeichnisbelege, keinen Betreiber-/Registerbeleg für heutige Annahme. Bestehende Adresse/Telefon bleiben als ungeklärte Legacy-Werte erhalten. Weder Geschlossen im Portal noch erfolglose Namenssuche beweisen Betriebsende. Quelle: https://lokaleschrottplatz.de/tus-schrott-metalle/ ; erhaltene Recherche 04.10.2026 und Quellenkritik 08.10.2026.]
+
+### Quellenkritik 08.10.2026
+
+- [Recherche 08.10.2026: LokaleSchrottplatz-Einzelseite direkt gelesen, bestätigt nur Portal-Ravenskamp8/04244919842, zeigt Geschlossen ohne eindeutige Dauerschließung. Auffällig identische breite Materialliste und Mindestmengen Eisen100kg/NE1kg bei TuS,Halan und HartmutStefan; deswegen nicht als händlerspezifische Betreiberbedingungen übernehmen. Portalstatus kein Schließungsbeweis. Neue Namenssuche kein qualifizierter Betreiberbeleg; früheres aktiv ist weiterhin nicht nach README-Standard nachgewiesen, Owner sollte Statusdowngrade prüfen. Bestehende Werte nicht still überschrieben. Keine numerischen Ankauf-/Verkaufspreise/Gebühren. Quelle(n): https://lokaleschrottplatz.de/tus-schrott-metalle/ ; https://lokaleschrottplatz.de/halan-schrottabholung-wuppertal/ ; https://lokaleschrottplatz.de/hartmut-stefan/]
 
 ### Recherche 04.10.2026
 

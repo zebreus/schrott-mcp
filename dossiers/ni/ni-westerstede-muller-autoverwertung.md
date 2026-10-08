@@ -30,6 +30,10 @@ Neuer, getrennt recherchierter Lead; nicht „Schultze, K.“ und nicht Autorecy
 
 ## Timeline
 
+### Vertiefung Nordwest 08.10.2026
+
+- [Recherche 08.10.2026: Unabhängiger erneuter Direktabruf Impressum und Auto-/Metallrecycling bestätigt Betreiber-Einzelbeleg Bernd/BiancaMüller,LeererStr.41 sowie Preisvorschlag/Tagespreise, kleine Mengen per Anlieferung und geeichte50t-Waage. Dies ist dieselbe Betreiberherkunft, kein zweiter Identitätsbeleg; heutiges Owner-Gate bleibt, kein Website-/Kontaktfill. Zertifizierungsbehauptung auf Leistungsseite ersetzt kein gültiges Fachregister-Zertifikat. Keine Euro/kg-Kurse und keine Gebühren auf diesen Seiten; bestehende Verkaufs-/Öffnungszeiten-Konflikte bleiben erhalten. Quelle(n): https://www.mueller-autoverwertung.de/impressum.html ; https://www.mueller-autoverwertung.de/leistungen/auto-metallrecycling.html]
+
 ### Recherche 08.10.2026 (Feedback #5388)
 
 - [Korrektur 08.10.2026: Owner hält Website/description wie übrige ungesicherte Stammdaten vorerst strukturiert leer: vergüteter Ankauf auf Betreiberseite erneut bestätigt, unabhängige Identität jedoch noch offen. Website und sämtliche gelesenen Bedingungen bleiben in dieser Timeline; kein Informationsverlust, keine HR-Ausnahme für die nicht registerverifizierte GbR. Quelle: https://www.mueller-autoverwertung.de/leistungen/auto-metallrecycling.html]

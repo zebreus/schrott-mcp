@@ -28,6 +28,10 @@ Kurt Schlaich in Balingen-Erzingen ist derzeit nur durch Branchenverzeichnisse g
 
 ## Timeline
 
+### Recherche 08.10.2026 (Registergegenprüfung)
+
+- [Recherche 08.10.2026: Gegenrecherche über Namens-/Ortswebsuche und Northdata-Suggest Kurt Schlaich: Suggest HTTP200 mit results leer, Webtreffer nur Verzeichnisprofile zu Erlenstr. 58. Das ist keine vollständige Handelsregister-/Gewerbeprüfung und beweist keine Schließung, zumal Einzelunternehmen nicht zwingend im Handelsregister stehen. Vorhandene Adresse/Nummer bleiben historische Verzeichnis-Leads; aggregierte Zeiten nicht als Betreiberzeiten übernehmen. ANKAUF: aktuelle Auszahlung und numerische Preise ungeklärt. VERKAUF: keine Liste. GEBÜHREN: keine Container-/Abholungstarife. Nächster sinnvoller Belegweg Gewerbeauskunft Balingen bzw. direkt dokumentierte Betreiberbestätigung, nicht weitere kongruente Aggregatoren. Quelle: https://www.northdata.de/suggest.json?query=Kurt%20Schlaich&countries=DE ; Verzeichnis-Ausgangsquelle: https://www.11880.com/branchenbuch/balingen/130733657B27323519/kurt-schlaich-schrotthdl.html .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Evidenzkorrektur zur Runde 02.10.: drei kongruente Aggregatoren sind laut README keine zulässigen Betreiberbelege. 11880 vollständig gelesen, kongruent Erlenstr. 58, Balingen-Erzingen, 07433 35407; dort Mo–Fr 08:30–17 nur Verzeichnisangabe, Eintragsdaten 01.12.2022 und Aktualisierung 03.10.2026 belegen keine heutige Betreiberbestätigung. Alte Bewertung von 2015 keine aktuelle Preisquelle. Kein lesbarer Betreiber-/Register-/Kommunalbeleg gefunden; status aktiv → pruefung, bestehende Adress-/Telefonfelder als historische Leads erhalten, keine neuen Fills. Nicht als geschlossen bewertet.; Lead-Quelle: https://www.11880.com/branchenbuch/balingen/130733657B27323519/kurt-schlaich-schrotthdl.html]

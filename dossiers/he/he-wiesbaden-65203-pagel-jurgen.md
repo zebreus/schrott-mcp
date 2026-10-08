@@ -30,6 +30,11 @@ Zwei Branchenverzeichnisse nennen „Pagel Jürgen Autohandel“ bzw. „Jürgen
 
 ## Timeline
 
+### Evidenzprüfung 08.10.2026 (Welle Mittenordost)
+
+- Die früheren allgemeinen Negativsuchen sind durch den konkreten Autohandel-Lead aus 06.10. überholt, aber dieser ist weiterhin kein Beleg für Schrott/Autoverwertung. Wiesbadener Landstraße 16 mit 0611 61819 versus 0611 47393 nicht übernehmen; zwei Verzeichnisse erfüllen den README-Standard nicht. Vorrecherche/Leads: https://www.gelbeseiten.de/suche/pagel/wiesbaden ; https://www.azdeutschland.com/firma/jurgen_pagel_wiesbaden_he_wiesbadener_landstr_16
+- ANKAUF / VERKAUF / GEBÜHREN: keine belegten Tarife. Konkreter Folgeschritt: Gewerbeidentität und Tätigkeit Jürgen Pagel an der Kandidatenadresse klären; kein Löschungs- oder Schließungsschluss aus fehlenden Suchtreffern. Frontmatter unverändert.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinst-AV?

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: http://www.sk-serviceleistungen.info
-website_status: unbekannt
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiber-Einzelbeleg mit internem Identitätskonflikt: Impressum nennt René Stöcker, Neustraße 15; der Datenschutzabschnitt derselben Seite nennt Michel Kraus, Alkenstr. 30. Kein belegter Betreiberwechsel oder unabhängiger Zweitbeleg; Stammdaten bleiben leer und Status `pruefung`. HTTP-Auftritt ist erreichbar, HTTPS-Abruf scheiterte technisch.
+
+**Ankauf:** Zinn, Gold, Silber, Platin und Katalysatoren für Privat/Gewerbe; keine numerischen Ankaufkurse. **Verkauf:** keine Liste in den geprüften Seiten. **Gebühren:** Altmetall-/Elektroschrottabholung und Sammelbehälter kostenlos beworben, ausdrücklich ausgenommen Kühlschränke, Bildschirme und Fernseher: **15 € pro Gerät inkl. Entsorgungsnachweis**, Umsatzsteuerbasis/Gültigkeitsdatum nicht genannt. Kleine Mengen ausdrücklich möglich; 800 kg bezeichnet Fahrzeug-Zuladekapazität, keine Mindestabholmenge. Maximal 1.800 kg je Anfahrt, größere Mengen mit zwei Fahrzeugen nach Absprache.
 
 ## Timeline
+
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: HTTP-Root, Impressum und Leistungsseite direkt gelesen; website_status auf aktiv präzisiert, HTTPS-Transportfehler kein Schließungsnachweis. Neuer Konflikt: nicht nur Anschrift, sondern auch Person abweichend — Impressum René Stöcker/Neustraße 15, Datenschutzverantwortlicher Michel Kraus/Alkenstr. 30. Gleiche Domain und Facebook-Link ergeben keinen unabhängigen Zweitbeleg; keine Kontakt-/Adressfills. Quelle(n): http://www.sk-serviceleistungen.info/ ; http://www.sk-serviceleistungen.info/Impressum/]
+- [Recherche 08.10.2026: Gebührenfund 15 EUR je Kühlschrank/Bildschirm/Fernseher inklusive Entsorgungsnachweis; sonst kostenlose Altmetall-/Elektroschrottabholung und Bereitstellung von Gitterboxen/Sammelfässern laut Betreiber. Privat/Gewerbe und kleine Mengen ausdrücklich genannt, Fahrzeugkapazität 800 kg nicht Mindestmenge; maximal 1800 kg je Anfahrt, zwei Fahrzeuge bei größeren Mengen möglich. Einzugsgebiet Mayen-Koblenz, Vulkaneifel, Mosel, Westerwald, Ahrweiler, Köln-Bonn. Ankauf hochwertiger Metalle/Zinn/Gold/Silber/Platin/Katalysatoren ohne Zahlen; für Privatpersonen Barankauf möglich. Keine Verkaufsliste; Gebühren nicht als Metallankaufpreise behandeln. Keine Datums-/MwSt-Angabe beim 15-EUR-Tarif. Quelle: http://www.sk-serviceleistungen.info/Kostenlose-Schrottabholung/]
 
 ### Recherche 01.10.2026
 

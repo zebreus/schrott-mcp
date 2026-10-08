@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: Fünf separate, nur über Branchenverzeichnisse belegte Celle-Schrott-/Metallhändler; Sammeldatensatz, Identitäten und aktuelle Tätigkeit nicht primär bestätigt.
+description: 'Sammeldatensatz für fünf separate Celle-Händler. Wilhelm Biskupek Altstoffe GmbH & Co. KG ist registerbelegt, jedoch in Liquidation; Wermuth, Klapproth, Jans und Ahrend bleiben Verzeichnis-Leads. Aktuelle Ankauftätigkeit ungeklärt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Celle / Lüneburg / Heide / Uelzen / Harburg
@@ -24,11 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed fasst fünf unterschiedliche Namen und fünf verschiedene Adressen in einem Dossier zusammen: Wilhelm Biskupek, Benni Wermuth, Siegfried Klapproth, Michael Jans und Ahrend Recycling. Die dokumentierten Kontaktdaten stammen bislang nur aus Gelbe Seiten; es gibt keine tragfähige Betreiber-, Register- oder kommunale Bestätigung. Der Treffer „Biskupek-Vermögensverwaltung GmbH“ an Harburger Heerstr. 4c belegt nicht den behaupteten Schrottbetrieb. Ebenso ist die globale Möbelmarke Ahrend kein Beleg für das Celle-Listing „Ahrend Recycling“. Das Fehlen der Namen im Schrottregister beweist weder Schließung noch Nichtexistenz. Das Sammeldossier sollte erst nach Identitätsprüfung in Einzeldossiers geteilt werden; derzeit ist keine der fünf Adressen geocodingfähig.
+Der Seed fasst fünf unterschiedliche Namen und fünf verschiedene Adressen zusammen. **Wilhelm Biskupek Altstoffe GmbH & Co. KG** ist nun über Northdata HRA100063/Lüneburg an Harburger Heerstr.4c identifiziert, aber ausdrücklich **in Liquidation** (Publikationen 2015/2020). Biskupek Vermögensverwaltung GmbH war laut Registerauswertung persönlich haftende Gesellschafterin: nicht bloß beliebiger Namesake, aber auch kein Beweis laufenden Schrottankaufs. Benni Wermuth, Siegfried Klapproth, Michael Jans und Ahrend Recycling bleiben Verzeichnis-Leads. Möbelmarke Ahrend nicht gleichsetzen. Kein Sammelstatus geschlossen allein wegen Biskupek; die übrigen vier sind unabhängig zu klären. Keine einzelne Adresse für alle fünf übernehmen/geocodieren.
 
 Ankauf: in der Seed-Tabelle behauptet, nicht unabhängig belegt; keine Preise oder Materialannahmen gefunden. Verkauf: keine Liste. Gebühren: keine Liste. Die fünf Verzeichnisadressen sind zunächst nur Recherche-/Geocoding-Kandidaten, nicht geocoding-fähige Betriebsstandorte.
 
 ## Timeline
+
+### Registervertiefung 08.10.2026
+
+- [Korrektur 08.10.2026: Frühere pauschale Aussage nur Verzeichnisbelege überholt für Biskupek: Northdata vollständig gelesen, Wilhelm Biskupek Altstoffe GmbH & Co.KG, LüneburgHRA100063, HarburgerHeerstr.4c,29223Celle, Kennzeichnung i.L.; Liquidation30.12.2015, Liquidator Nadim Ahmad29.09.2020. Eintragung31.10.2005 nennt Biskupek Vermögensverwaltung GmbH als persönlich haftende Gesellschafterin; der bisherige Vermögensverwaltungs-Treffer hat also einen rechtlichen Zusammenhang, belegt aber keine aktuelle Annahme. Keine automatische Schließung aller fünf, keine Betriebsfortführung/Nachfolger behauptet. description präzisiert, Status pruefung und leere Sammelkontakte bleiben. Quelle: https://www.northdata.de/Wilhelm%20Biskupek%20Altstoffe%20GmbH%20%26%20Co%C2%B7%20KG,%20Celle/Amtsgericht%20L%C3%BCneburg%20HRA%20100063]
+- [Recherche 08.10.2026: Vier Einzelnamenssuchen liefern weiterhin Verzeichnis-Leads, keine qualifizierten Betreiber-/Registerbelege. Konkrete GS-Einzelseiten als nächste Prüfschlüssel ergänzt; keine Öffnungszeiten/Materialbedingungen daraus übernommen. Keine zugeordnete Ankauf-/Verkaufs-/Gebührenliste. Quelle(n): https://www.gelbeseiten.de/gsbiz/bb2539ba-75c9-4d1f-9292-92da7d078886 ; https://www.gelbeseiten.de/gsbiz/1809b977-ca66-4cba-929d-7902addf33f0 ; https://www.gelbeseiten.de/gsbiz/36b2eb83-7b0d-410f-977e-096d2ad667a9 ; https://www.gelbeseiten.de/gsbiz/46856cf5-a20d-4b72-8165-2093a16333ad (Suchindex-Leads)]
 
 ### Recherche 01.10.2026
 

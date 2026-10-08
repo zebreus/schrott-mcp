@@ -28,6 +28,10 @@ Neue gewerbliche Spur „Luczkow Schrotthandel“, jedoch nur in Aggregatoren: 1
 
 ## Timeline
 
+### Recherche 08.10.2026 (zusätzlicher Ortskonflikt)
+
+- [Recherche 08.10.2026: Neue zweite Orts-/Adressspur, nicht als unabhängiger Identitätsbeleg zu werten: Adressennet-Detailseite direkt gelesen, Luczkow Schrott und Metall Handel, Parksiedlung 28, 97711 Maßbach, 0175-8534027 und sascha.luczkow@gmx.de. Nummer stimmt mit Königsberger 11880-Lead überein; das macht einen Umzug/mehrere Standorte plausibel, beweist aber weder dieselbe Person noch die zeitliche Richtung. Northdata-Suggest Luczkow liefert nur Luczkowski-Personen in anderen Orten, keine kongruente Gewerbeidentität. Königsberg nicht auf Maßbach umhängen, Mail nicht übernehmen, keine Geokodierung. ANKAUF: Portal nennt Metallankauf, kein Betreiber-/Zahlenbeleg. VERKAUF/GEBÜHREN: keine verifizierten Tarife. Nächster Schritt Betreiber-/Gewerbeauskunft mit beiden Adressen und identischer Mobilnummer abgleichen. Quelle (Leads): https://www.adressennet.de/schrotthandel-metallankauf-schrottentsorgung-buntmetalle-massbach-3291de9400.html ; https://www.11880.com/branchenbuch/koenigsberg-in-bayern/120674719B104992012/luczkow-schrotthandel.html ; https://www.northdata.de/suggest.json?query=Luczkow&countries=DE .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Korrektur der früher zu engen Suchbilanz: ein gewerblicher Lead existiert. 11880-Detaileintrag vollständig gelesen: Luczkow Schrotthandel, Altershausen 77, 97486 Königsberg in Bayern (Altershausen), Telefon 0175 8534027; keine Betreiber-Domain, Mail oder Öffnungszeiten. Firmania/Cylex-Suchtreffer nennen dagegen Altershäuser Str. 77; Adresse nicht stillschweigend normalisiert. Alle bleiben Aggregator-Leads, kein unabhängiger Primärbeleg, deshalb keine Frontmatter-Fills und keine Zuordnung zu den früher gefundenen Bad-Rodacher Privatpersonen.; Lead-Quelle(n): https://www.11880.com/branchenbuch/koenigsberg-in-bayern/120674719B104992012/luczkow-schrotthandel.html , https://firmania.de/koenigsberg_in_bayern/luczkow-schrotthandel-8211917 , https://www.gelbeseiten.de/gsbiz/d38a3b56-83cd-472d-a9c4-badf4ba39d18]

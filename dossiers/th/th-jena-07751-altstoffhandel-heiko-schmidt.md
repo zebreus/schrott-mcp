@@ -28,6 +28,10 @@ Der Betreiberauftritt nennt zwei Annahmestellen in Jena und wirbt mit Annahme vo
 
 ## Timeline
 
+### Preis-/Parserprüfung 08.10.2026
+
+- [Recherche 08.10.2026: Metall- und Papier-Unterseiten erneut direkt HTTP200 gelesen: beide Preisfelder weiterhin „Auf Anfrage“. Zusätzlich steht auf beiden Seiten „sollte der Preis auf 0,00 Euro stehen, so gelten unsere Tagespreise. Bitte telefonisch erfragen.“ Ein etwaiges 0,00 ist daher ausdrücklich kein veröffentlichter Null-Ankaufspreis und darf nicht als Zahlenkurs/Gratisannahme ingestiert werden. Größere Mengen nach Absprache abholbar; das ist keine Gebührenfreiheitszusage. ANKAUF: nur telefonische Tagespreisanfrage. VERKAUF: kein Preisblatt in den gelesenen Seiten. GEBÜHREN: keine bezifferte Abholung/Entsorgung. Filial- und Impressumsunsicherheit der Vorwellen bleibt unberührt, keine neue Frontmatter-Füllung. Quelle: https://www.altstoffhandel-jena.de/wert-und-rohstoffe/metall/ ; https://www.altstoffhandel-jena.de/wert-und-rohstoffe/papier/ .]
+
 ### Recherche 04.10.2026 (Feedback #4760)
 
 - [Recherche 04.10.2026: Betreiberauftritt von Altstoffhandel Heiko Schmidt ist erreichbar und führt zwei aktuelle Jenaer Annahmestellen: Am Alten Gaswerk 1, 07743 sowie Geraer Str. 40, 07745; telefonisch wird 03641 801187 geführt. Impressum/Datenschutzseiten enthalten jedoch widersprüchliche Anschriften (Parkweg 2, Hainspitz und Zöllnitzer Str. 3, Jena), die Standorte unterscheiden sich außerdem von der Seed-Adresse. Daher nur den erreichbaren Domain-Root und website_status aktiv ergänzt; Straße/PLZ/E-Mail nicht ergänzt und vorhandenes Telefon nicht überschrieben. Beleglage: Betreiber-Standort-, Kontakt- und Impressumsseiten plus Creditreform-Firmeneintrag mit passender Domain/Telefon; Gelbe Seiten nur Lead; Quelle(n): https://www.altstoffhandel-jena.de/ ; https://www.altstoffhandel-jena.de/kontakt ; https://www.altstoffhandel-jena.de/impressum ; https://firmeneintrag.creditreform.de/07607/3410065517/HEIKO_SCHMIDT_ALTSTOFFHANDEL ; https://www.gelbeseiten.de/gsbiz/33f2c863-81c7-46dc-9ebc-75cebb19704a]

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historischer Entrümpelungs-/Schrottlead an Valckenburghstr.13; konkurrierende Verzeichnisadressen Im Arster Felde2c und Pfalzburger Straße71 sind keine bestätigte Umzugskette. Betreiberroot weiterhin404, städtische Bremen-Visitenkarte beim Direktabruf403: deren Suchindex ist kein gelesener kommunaler Gewerberegisterbeleg. Keine Gleichsetzung mit Hanse Wohnungsgesellschaft oder Lübecker Entrümpeler. Status `pruefung`; Altstraße unbestätigt, keine Geocodierung.
+
+**Ankauf:** Wertanrechnung/Entrümpelung nicht als vergüteten Metallankauf auslegen; keine Zahlen. **Verkauf:** keine Liste. **Gebühren:** kein zugeordnetes aktuelles Angebot/Tarifblatt.
 
 ## Timeline
+
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Betreiberroot erneut404, Bremen-Visitenkarte direkt403; Suchindex nennt weiterhin Valckenburghstraße13/015147817263/info@hanse-entruempelungen.de, bleibt ungelesener Lead. Zusätzlich KennstDuEinen-Suchindex PfalzburgerStraße71,28207Bremen; kein Betreiber-/Registerbeleg für einen Umzug zwischen drei Adressen. Alte Timeline samt Koluman-Frage erhalten, keine Feldoverrides oder Schließung aus404. Kein verifiziertes Ankauf-/Verkaufs-/Gebührenblatt. Quelle(n): https://www.hanse-entruempelungen.de/ ; https://www.bremen.de/visitenkarte/hanse-entruempelung-bremen-46559739 ; https://www.kennstdueinen.de/entruempelung-bremen-hanse-entruempelung-d2014815.html (nur Suchindex)]
 
 ### Recherche 03.10.2026 (Gesamtaudit B)
 

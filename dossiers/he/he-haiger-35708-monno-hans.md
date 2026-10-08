@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Sehr schwacher Seedlead ohne bestätigte Straßenadresse, Telefonnummer oder rechtlichen Betreiber. Erneute Namens-/Ortssuche liefert keinen eindeutig passenden Registerbeleg; Suchlücken sind kein Schließungsnachweis. RHH Haiger, andere Schrotthändler und ortsfremde Monno-Unternehmen nicht als Ersatzidentität übernehmen. Keine belegten Ankauf-, Verkaufs- oder Gebührentarife; `pruefung` und leere Felder bleiben.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Welle Mittenordost)
+
+- NorthData-Suche Hans Monno/Haiger direkt, keine eindeutig zuordenbare Firmenidentität; lose Personensuchergebnisse nicht als Registerbeleg verwenden. Ort-/Namenssuche erzeugt außerdem ortsfremde Monno-Gruppen, kein Zielunternehmen. Quelle/Suchweg: https://www.northdata.de/Hans+Monno,+Haiger
+- Vorrecherche Haiger enthält nur andere Händler; daraus weder Nachfolge noch Nichtexistenz ableiten. ANKAUF / VERKAUF / GEBÜHREN: keine zuordenbaren Preise. Konkreter nächster Weg kommunale Gewerbeauskunft zu Hans Monno und Importherkunft klären; ohne Straße nicht geokodieren. Vorrecherche/Lead: https://www.gelbeseiten.de/suche/schrotthandel/haiger
 
 ### Importiert (Seed-Stand 2026-09-30)
 

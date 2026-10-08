@@ -29,6 +29,12 @@ Die bisherige `aktiv`-Kennzeichnung war durch die dokumentierte Recherche nicht 
 
 ## Timeline
 
+### Recherche 08.10.2026 (Welle Mittenordost)
+
+- Neue konkrete Suchindex-Leads: Das Telefonbuch/Örtliche nennen Autoverwertung Gerd Mikosch, Weselsdorfer Weg 1, 19288 Warlow, Seedtelefon 038751 20162; anderes Schrottportal nennt „Weselsdorfer Straße 1“. Nur Verzeichnisse, Straßenbezeichnung und heutiger Betrieb nicht primär bestätigt. Keine Fills. Leads: https://www.dastelefonbuch.de/Telefonbuch/Warlow ; https://www.dasoertliche.de/Themen/Mikosch.html ; https://schrottregister.pages.dev/ort-warlow
+- NorthData-Namens-/Ortssuche ergab keinen eindeutig verwertbaren Firmenbeleg, beweist keine Nichtexistenz. Landkreis-Abfallbroschüre weiterhin ohne identifizierte Ausgabe/Originalfundstelle. Quelle/Suchweg: https://www.northdata.de/Gerd+Mikosch,+Warlow
+- ANKAUF / VERKAUF / GEBÜHREN: keine belegte numerische Liste. Folgeschritt: datiertes kommunales Original oder Gewerbe-/Betreiberbestätigung zur Kandidatenanschrift; Altfahrzeug-Annahme und gegebenenfalls Gebühren getrennt klären. Status pruefung unverändert.
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: ANKAUF: Der Seed-/Portalhinweis behauptet Schrottannahme, doch aktueller Betrieb und Ankaufspreise sind nicht unabhängig bestätigt.; VERKAUF: Keine verifizierte Verkaufsleistung oder Preisliste.; GEBÜHREN: Keine verifizierte Gebührenangabe.; GEOKODIERUNG: Keine Straßenadresse vorhanden; Ortsname Warlow allein ist keine hinreichende Händleranschrift. Nicht geokodieren.; Quelle: Importangabe „lokaleschrottplatz.de + Landkreis-Abfallbroschüre“; Recherche 01.10.2026.]

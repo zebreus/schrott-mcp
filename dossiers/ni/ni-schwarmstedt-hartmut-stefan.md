@@ -29,6 +29,10 @@ Die Verzeichniseinträge führen Am Bornberg 12, 29690 Schwarmstedt und 05071 44
 
 ## Timeline
 
+### Quellenkritik Nordwest 08.10.2026
+
+- [Recherche 08.10.2026: LokaleSchrottplatz erneut direkt gelesen; Materialliste und MindestgewichtEisen100kg/NE1kg textgleich zu Halan und TuS. Das macht sie nicht unabhängig und keine händlerspezifisch geprüfte Annahmebedingung. Namensvarianten StefanHartmut/HartmutStefan in Cylex/anderen Verzeichnissen nicht als geklärte Vor-/Nachnamensfolge oder zweite Betreiberquelle zählen. Adresse/Telefon, Aktivität und Portalstatus Geschlossen bleiben ungeklärt; keine Geocodierung/Fills. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren. Quelle(n): https://lokaleschrottplatz.de/hartmut-stefan/ ; https://lokaleschrottplatz.de/tus-schrott-metalle/ ; https://lokaleschrottplatz.de/halan-schrottabholung-wuppertal/ ; https://web2.cylex.de/firma-home/stefan-hartmut-3734637.html (Namensvariantensuchindex)]
+
 ### Primärquellen-Nachprüfung 08.10.2026
 
 - [Recherche 08.10.2026: Ergänzende gezielte Suche nach „Hartmut Stefan“/Schrotthandel und Betreiber-Social-Auftritt liefert nur 11880-Verzeichnistreffer, keinen zuordenbaren Betreiber-/Registerbeleg. Damit bleibt der bereits heute dokumentierte Lead Am Bornberg 12 einschließlich Portal-Mindestmengen unbestätigt; diese Angaben weder als Annahmebedingungen noch als aktuelle Aktivität übernehmen. Leeres website_status auf unbekannt präzisiert; keine übrigen Fills. Keine Betreiber-Ankauf-/Verkaufspreisliste oder Gebühren verifiziert. Quelle(n): https://www.11880.com/branchenbuch/schwarmstedt/060440090B43448043/hartmut-stefan-schrotthandel.html (Suchindex-Lead) ; https://lokaleschrottplatz.de/hartmut-stefan/ (bereits dokumentierter Lead, kein unabhängiger Betreiberbeleg)]
