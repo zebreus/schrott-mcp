@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-11880 führt Hartmut Stefan Schrotthandel aktuell mit Am Bornberg 12, 29690 Schwarmstedt und Tel. 05071 4465; der Eintrag nennt Altmaterial-/Schrotthandel, aber keine Website oder Öffnungszeiten. Das ist ein einzelner Verzeichnisbeleg, keine Betreiberbestätigung. Adresse und Telefonnummer bleiben Leads und dürfen noch nicht als bestätigte Betriebsstätte geocodiert werden.
+Die Verzeichniseinträge führen Am Bornberg 12, 29690 Schwarmstedt und 05071 4465; LokaleSchrottplatz nennt Materialarten und Mindestmengen, ist aber kein Betreiberbeleg. Eine dortige Anzeige "Geschlossen" ist nicht eindeutig als dauerhafte Schließung zu verstehen. Adresse, Betrieb und Annahmebedingungen bleiben ungeklärt; nicht geocodieren. **Ankauf:** Verzeichnis-Leistungshinweis, keine Zahlenpreise; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Unabhängige Nachsuche ergänzt den Lead, aber keinen belastbaren Betreiberbeleg: LokaleSchrottplatz listet Hartmut Stefan, Am Bornberg 12, 29690 Schwarmstedt, 05071 4465, zahlreiche angeblich angenommene Metalle und Mindestmengen Eisen ab 100 kg/NE ab 1 kg; die Seite zeigt zugleich "Geschlossen", ohne erkennbar zwischen derzeit und dauerhaft geschlossen zu unterscheiden. 11880 führt dieselbe Anschrift/Telefonnummer. Das sind Verzeichnisse, keine voneinander unabhängigen Betreiberquellen; keine Frontmatter-Änderung und kein Statuswechsel. **Preise:** Ankauf nur als Hinweis auf Anfrage aktueller Preise, keine numerische Preisliste; Verkaufspreise und Gebühren nicht gefunden. Quelle(n): https://lokaleschrottplatz.de/hartmut-stefan/ ; https://www.11880.com/branchenbuch/schwarmstedt/060440090B43448043/hartmut-stefan-schrotthandel.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ Die Seed-Angabe „AWH GmbH, Werkstraße 120, Schwerin“ ist weder einer Betrei
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Geprüfter AWH-Namensvetter ist Armaturenwerk Hötensleben GmbH, Hersteller von Armaturen mit Adresse Schulstr. 5–6, 39393 Hötensleben; weder Ort noch Tätigkeit passen zum Seed „AWH GmbH, Werkstraße 120, Schwerin“. Dieser Treffer wird ausdrücklich ausgeschlossen und nicht für Kontakt, Betrieb oder Preise zugerechnet. Für den Schweriner Seed bleiben Identität und Annahme unbestätigt; keine Ankaufspreise, Verkaufspreise oder Gebühren zuordenbar. Quelle: https://www.awh.eu/de/kontakt/awh.html]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: ANKAUF: Keine verifizierte Ankaufstätigkeit oder numerische Ankaufspreise.; VERKAUF: Keine verifizierte Ware oder Verkaufspreisliste.; GEBÜHREN: Keine Angaben zu Annahme, Abholung oder Entsorgung.; GEOKODIERUNG: Werkstraße 120 bleibt unbestätigte Seed-Adresse; keine Geokodierung bis Betreiber und Standort unabhängig zugeordnet sind. Kein Geocodinglauf/Datenbankzugriff in dieser Bearbeitung.; Quelle: https://www.schrottplatz-info.de/schrottplatz/Schwerin (Aggregator-Negativabgleich; die Auslassung belegt keine Nichtexistenz), ergänzend Recherche 06.10.2026.]

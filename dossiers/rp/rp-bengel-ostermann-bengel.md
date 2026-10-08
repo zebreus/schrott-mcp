@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein aktueller 11880-Suchlauf findet einen einzelnen Eintrag „Ute Ostermann“ unter Altmetallrecycling in Bengel: Zum Wiesental 26, 54538 Bengel, Tel. 06532 4344. Das ist weiterhin ein Aggregator-Lead; Betreiberidentität, Aktualität und Schrottannahme wurden nicht unabhängig bestätigt.
+
+**Preise (Stand 08.10.2026):** **ANKAUF** – keine veröffentlichten Kurse. **VERKAUF** – keine Liste. **GEBÜHREN** – keine Tarife belegt.
 
 ## Timeline
 
@@ -32,6 +34,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche ohne Fund: kein Treffer in Verzeichnissen oder Websuche (nur namensgleiche Unbeteiligte im Umland); Felder leer; Quelle(n): gelbeseiten.de (ohne Treffer), Websuche]
 - Klärfall: Existenz und Schrottbezug ungeklärt, ggf. Phantom-/Karteileiche. Status bleibt pruefung.
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: 11880-Suche nach Altmetallrecycling in Bengel liefert einen Eintrag „Ute Ostermann“, Zum Wiesental 26, 54538 Bengel, Tel. 06532 4344. Dies aktualisiert den Verzeichnislead, ist aber keine unabhängige Betreiber-/Registerbestätigung; keine Frontmatter-Felder übernommen und kein Schluss auf aktuellen Betrieb. ANKAUF: keine Beträge; VERKAUF: keine Liste; GEBÜHREN: keine Tarife gefunden. Quelle(n): https://www.11880.com/suche/altmetallrecycling/bengel]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

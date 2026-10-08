@@ -34,6 +34,10 @@ Ein direkt abgerufenes Gelbe-Seiten-Profil führt „Schrott Metall Handel Dechm
 
 - [Recherche 07.10.2026: Gelbe-Seiten-Suche „Dechmann“ in Koblenz direkt abgerufen; der Eintrag „Schrott Metall Handel Dechmann“ nennt Handwerkerstr. 47, 56070 Koblenz (Neuendorf), Tel. 0261 98 88 47 27. Aggregator-Lead, kein Betreiber-/Registerbeleg; weicht bei der Telefonnummer von der zuvor geprüften Verzeichnisangabe ab. Der Abgleich mit `rp-prum-dechmann-peter-schrott-und-metallhandel.md` zeigt einen separaten Prüffall mit Peter Dechmann in Prüm; kein Beleg für Filiale oder Rechtsträgerkette. Keine Frontmatter-Felder ergänzt. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren Preislisten oder Tarife gefunden; Quelle: https://www.gelbeseiten.de/suche/dechmann/koblenz ; https://www.dastelefonbuch.de/Suche/Dechmann/Koblenz]
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Direktabgleich ergab keine neue Betreiber-, Register- oder Preisquelle gegenüber dem 07.10.; die Koblenzer Anschrift/Nummer bleibt ein einzelner Branchenverzeichnis-Lead und die Beziehung zum Prüffall Dechmann Prüm ungeklärt. ANKAUF: keine belastbaren Kurs-/Annahmebedingungen; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Frontmatter-Fills. Quelle(n): https://www.gelbeseiten.de/suche/dechmann/koblenz ; https://www.dastelefonbuch.de/Suche/Dechmann/Koblenz]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallhandel (Verhältnis zu Dechmann Prüm Seed-Nr. 60 ungeklärt, ggf. Filiale)

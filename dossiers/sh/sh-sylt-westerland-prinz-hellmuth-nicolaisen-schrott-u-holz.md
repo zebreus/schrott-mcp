@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse führen Prinz Hellmuth / Helmut Nicolaisen, Nordhedig 9, 25980 Westerland, jedoch ohne Betreiber- oder Registerbeleg und mit uneindeutiger Telefonnummer (einige Verzeichnisse kennzeichnen 04651 929696 als Fax, andere listen sie als Kontakt). Keine Zuordnung zum getrennten Roselieb-Betrieb. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Gelbe Seiten und Das Örtliche wiederholen Prinz Hellmuth, Inh. Helmut Nicolaisen, Nordhedig 9, 25980 Sylt-Westerland. Rufnummern bleiben widersprüchlich: Gelbe Seiten nennt 04651 929696, Das Örtliche kennzeichnet dieselbe Nummer als Fax; 11880/Infobel führen 04651 22287. Dies sind keine Betreiber-/Registerbelege und die Zahlen werden nicht ins Dossier übernommen. Roselieb in Tinnum bleibt getrennt. **Preise:** keine Ankaufs- oder Verkaufspreisliste und keine Gebühren gefunden. Quelle(n): https://www.gelbeseiten.de/gsbiz/45846878-cad6-4b52-ab1d-9ac5052f669e ; https://www.dasoertliche.de/Themen/Prinz-Hellmuth-Inh-Helmut-Nicolaisen-Schrott-u-Holzentsorgung-Sylt-Westerland-Nordhedig ; https://www.11880.com/branchenbuch/sylt/060441364B27369003/hellmuth-prinz-helmut-nicolaisen.html ; https://www.infobel.com/de/germany/hellmuth_prinz_inh_helmut_nicolaisen_e_k/sylt/DE101717707-0465122287/businessdetails.aspx]
 
 ### Recherche 03.10.2026
 

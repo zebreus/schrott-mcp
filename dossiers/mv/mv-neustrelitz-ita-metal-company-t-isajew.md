@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-ITA Metal Company (T. Isajew) ist bislang nur über einen einzelnen Verzeichniseintrag für Neustrelitz belegt; dort stehen die Telefonnummer und eine Branchenzuordnung zu Containern. Ein Betreiberauftritt, eine ladungsfähige Anschrift oder ein unabhängiger Beleg für aktuellen Metallankauf liegen nicht vor. `status: pruefung` bleibt; die Seed-Telefonnummer ist nicht als aktueller Betreiberkontakt bestätigt.
+ITA Metal Company (T. Isajew) bleibt trotz mehrerer Suchtreffer nur durch Verzeichnisse belegt. Gelbe Seiten und Das Örtliche führen ähnliche Öffnungszeiten (Mo–Fr 08:30–17:00, Sa 08:30–14:00), während die direkt geprüften Seiten keine verifizierte Betreiberadresse liefern; Suchtreffer nennen Woldegker Chaussee 2, ein anderer Branchenbucheintrag dagegen eine abweichende E-Mail. Diese Angaben sind widersprüchliche Leads und werden nicht in die Frontmatter übernommen. Betreiberauftritt, ladungsfähige Anschrift und aktueller Metallankauf sind nicht unabhängig bestätigt; `status: pruefung` bleibt.
+
+**Preise:** **Ankauf** — kein bestätigter aktueller Ankauf und keine numerischen Kurse. **Verkauf** — keine Material-/Teileliste oder Preise. **Gebühren** — keine Gebührenangaben. Keine belastbare Straßenadresse für Geokodierung.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Mehrere Verzeichnisse geprüft, aber kein Betreiber-Impressum/Registerbeleg gefunden. Gelbe Seiten und Das Örtliche nennen jeweils Mo–Fr 08:30–17:00 und Sa 08:30–14:00; Gelbe Seiten-Suchergebnis führt Woldegker Chaussee 2, während der Seitentext keine verlässlich bestätigte Straßenadresse bietet. Das Örtliche nennt ita-neustrelitz@t-online.de; ein weiteres Branchenbuch führt eine andere Adresse der E-Mail (ita-fbg@gmx.de). Kontakt-/Adressdaten bleiben widersprüchliche Verzeichnis-Leads und werden nicht gefüllt. Keine bestätigten Ankaufpreise, Verkaufspreise oder Gebühren. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/20bc7e9c-e6aa-4d01-94ea-aefec4818a1f ; https://mobil.dasoertliche.de/Themen/ITA-Metal-Company-T-Isajew-Neustrelitz ; https://neustrelitz.stadtbranchenbuch.com/8177773.html]
 
 ### Recherche 07.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gerhard Czaja Schrotthandel wird weiterhin nur in Verzeichnissen mit dem Lead Graf-Enno-Str. 5, 26529 Upgant-Schott und Tel. 04934 5780 geführt. Betreiberidentität, aktuelle Tätigkeit und Annahmebedingungen bleiben unbestätigt; der private Namensvetter an Cirksenastr. 4 ist nicht zugeordnet. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: 11880, Cylex und Infobel führen weiterhin den älteren Gerhard-Czaja-Lead Graf-Enno-Str. 5, 26529 Upgant-Schott, Tel. 04934 5780; keine Quelle stammt vom Betreiber, und es wurde kein Register-/Kommunalbeleg oder aktueller Erstauftritt gefunden. Der separate private Eintrag "Czaja Franz und Johanne" bleibt wegen Name/Adresse/Telefon abweichend und wird nicht zusammengeführt. Keine Frontmatter-Änderung, Aktivität bleibt ungeklärt. **Preise:** keine Ankauf-, Verkaufspreise oder Gebührenliste gefunden. Quelle(n): https://www.11880.com/branchenbuch/upgant-schott/120674719B100598903/gerhard-czaja-schrotthandel.html ; https://web2.cylex.de/firma-home/schrotthandlung-gerhard-czaja-7782632.html ; https://www.infobel.com/de/germany/schrotthandlung_gerhard_czaja/upgant_schott/DE102943790-049345780/businessdetails.aspx]
 
 ### Recherche 04.10.2026
 

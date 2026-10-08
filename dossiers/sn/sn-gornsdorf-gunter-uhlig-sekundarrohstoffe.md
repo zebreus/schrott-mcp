@@ -30,6 +30,10 @@ Für Günter Uhlig Sekundärrohstoffe e.K. in Gornsdorf liegt weiterhin kein auf
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Die aktuelle, von der Gemeinde gepflegte Handelsübersicht führt Günter Uhlig Sekundärrohstoffe nicht auf; die Gemeinde erklärt selbst, dass Unternehmen einen Eintrag beantragen können und die Redaktion ihn prüft. Die Liste ist damit nicht vollständig und ihre Auslassung kein Nichtexistenz- oder Schließungsbeleg. Das Straßenverzeichnis bestätigt lediglich die Goethestraße, weder Hausnummer 12 noch den Händler. Keine Betreiber-/Registerbestätigung, daher bleiben Ankauf, Verkauf, Gebühren und Geokodierung ungeklärt. Quellen: https://gornsdorf-erzgebirge.de/wirtschaft/ ; https://gornsdorf-erzgebirge.de/wirtschaft/handel ; https://www.stadtplan.info/gornsdorf/strassen]
+
 ### Korrektur 07.10.2026
 
 - [Korrektur 07.10.2026: `status` von `aktiv` auf `pruefung` gesetzt, da die bestehende Recherche keinen aktuellen Betrieb oder die Seed-Hausnummer 12 bestätigt. Das ist kein Schließungsnachweis. Ankauf/Verkauf/Gebühren: keine belastbaren Preis- bzw. Tarifangaben, weil bereits die aktive Annahmestelle nicht verifiziert ist. Geokodierung ausgesetzt; Quelle: https://www.stadtplan.info/gornsdorf/strassen ; https://www.gornsdorf-erzgebirge.de/.]

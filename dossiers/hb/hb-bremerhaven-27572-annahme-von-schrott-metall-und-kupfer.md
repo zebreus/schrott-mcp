@@ -36,3 +36,7 @@ Der Seed beschreibt „Annahme von Schrott, Metall und Kupfer“ an Ringstr. 68,
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Exakte Suche nach „0471-3096572“/„0471 3096572“ zusammen mit Ringstraße 68, Bremerhaven ergab keinen unabhängigen Betreiber-, Register- oder Preisbeleg. Das ist ein Such-Negativbefund, kein Schließungsbeweis; Seed-Kontakt und behauptete Materialannahme bleiben unbestätigt. Keine Frontmatter-Fills. Keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Quelle(n): exakte Websuche (keine positiven Treffer); Seed-notes (Profilbeleg, nicht unabhängig verifiziert).]
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Identitäts- und Preisabgleich — erneute exakte Kombination der Seed-Telefonnummer mit Ringstraße 68 und Bremerhaven fand weiterhin keinen Betreiber-/Registereintrag oder belastbare Preisquelle. Die beschreibende Bezeichnung „Annahme von Schrott, Metall und Kupfer“ reicht nicht zur Identifizierung eines Händlers. Ankauf: keine Händlerpreise; Verkauf: keine Liste; Gebühren: keine Tarife. Seed-Anschrift und Telefonnummer bleiben ungeprüft, nicht geokodieren; kein Schließungsbeleg. Quelle: exakte Websuche nach 0471-3096572/0471 3096572 + Ringstraße 68, Bremerhaven; negativer Suchbefund, keine positive Quelle.]

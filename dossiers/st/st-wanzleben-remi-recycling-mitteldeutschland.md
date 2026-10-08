@@ -24,13 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „ReMi Recycling Mitteldeutschland GmbH“ in Wanzleben gibt es weiterhin keinen bestätigten Betreiber-, Register- oder Kommunalnachweis. Eine offizielle REMONDIS-Standortseite führt separat die REMONDIS Sachsen-Anhalt GmbH, Niederlassung Wanzleben, An der Alten Tonkuhle 10; Namensähnlichkeit ist kein Beleg, dass das Dossier REMONDIS meint. Keine Anschrift oder Preise zwischen diesen Datensätzen übertragen.
+
+**Preise (Stand 08.10.2026):** **ANKAUF** – keine ReMi-Kurse belegt. **VERKAUF** – keine ReMi-Preisliste. **GEBÜHREN** – keine ReMi-Tarife; REMONDIS-Preise wären nicht dossierzuordenbar.
 
 ## Timeline
 
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — ReMi Recycling Mitteldeutschland GmbH in HR-Portalen/Betreiber-Web/Verzeichnissen nicht auffindbar; Namensvetter REMI Möbelfabrik (Bobritzsch) und REMONDIS Mitteldeutschland (Weißenfels, HRB 207407) nicht zugeordnet; Wanzleben-Verzeichnis listet nur REMONDIS NL (An der alten Tonkuhle 10) und WIR-Entsorgungs-GmbH (Kummerberg 15): https://schrottregister.pages.dev/ort-wanzleben-borde; ggf. erloschen/umfirmiert/verwechselt — HR-Abgleich nötig]
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Offizielle REMONDIS-Seite bestätigt einen eigenständigen Standort „REMONDIS Sachsen-Anhalt GmbH, NL Wanzleben“, An der Alten Tonkuhle 10, 39164 Wanzleben-Börde, Tel. 039209 4920. Sie nennt nicht „ReMi Recycling Mitteldeutschland“ und es gibt keinen belegten Umfirmierungs-/Betreiberkettennachweis; nicht zusammenführen. Für ReMi weiter keine verifizierte Preisquelle. ANKAUF: keine ReMi-Beträge; VERKAUF: keine ReMi-Preisliste; GEBÜHREN: keine ReMi-Tarife. Quelle(n): https://www.remondis-entsorgung.de/wir-in-ihrer-naehe/remondis-im-osten ; https://schrottregister.pages.dev/ort-wanzleben-borde]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Schrotti Rügen Inh. Volkmar Scharf“ in Silvitz bei Bergen auf Rügen liegen weiterhin Presse- und Verzeichnis-Leads, aber kein aktueller Betreiberauftritt oder belastbarer Register-/Kommunalbeleg vor; die Seed-Anschrift und Telefonnummer sind nicht neu unabhängig bestätigt. Eine ähnlich benannte Firma „Schrott & Metalle Torsten Rüge“ in Ludwigslust ist ein anderer Betrieb und wird nicht zusammengeführt.
+
+**Preise:** **Ankauf** — kein händlerspezifischer Kurs belegt. Ein lokales Portal zeigt für Bergen einen Kupfer-Millberry-Richtwert von 9,70–11,40 €/kg, aber nicht als Angebot dieses Händlers. **Verkauf** — keine Verkaufspreisliste. **Gebühren** — keine Abhol- oder Annahmetarife. Status `pruefung` bedeutet fehlende aktuelle Bestätigung, nicht Schließung.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Ähnlich benannter Betreiber „Schrott & Metalle Torsten Rüge“ hat einen eigenen Auftritt und ist mit Steffen Tiede, Wöbbeliner Straße 69, 19288 Ludwigslust verbunden; Name, Kontakt und Ort stimmen nicht mit Schrotti Rügen/Volkmar Scharf in Silvitz überein. Daher weder Identitätszusammenführung noch Übertragung etwaiger Leistungs-/Preisangaben. Die lokale Kupfer-Millberry-Zahl 9,70–11,40 €/kg des Branchenportals bleibt nicht händlerspezifisch. Ankauf: kein belegter Kurs; Verkauf: keine Liste; Gebühren: keine Angaben. Quellen: https://www.schrott-ruege.de/ ; https://www.schrott-ruege.de/schrott ; Lead (nicht Händlerpreis): https://lokaleschrottplatz.de/mecklenburg-vorpommern/bergen-auf-ruegen/]
 
 ### Recherche 07.10.2026
 

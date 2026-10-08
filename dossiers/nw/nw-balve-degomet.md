@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Registerspiegel berichtet, dass die DEGOMET GmbH 2022 ihren Sitz von Balve nach Hamm verlegte; das belegt weder einen heute betriebenen Schrotthof in Balve noch die Identität des Seedstandorts mit einem aktuellen Betrieb. Die GmbH-Tätigkeit nennt Metallverarbeitung und -handel, aber keine konkreten Kundenannahmen. **Ankauf:** aktuelle Schrottannahme/Preise nicht belegt; **Verkauf:** keine Preisliste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Neue Suche nach DEGOMET, Balve/Hamm und HRB 10903 ergab keinen erreichbaren Betreiberauftritt mit aktuellem Standortangebot und keine publizierte Preisliste. Der bereits gefundene Registerspiegel meldet die Sitzverlegung Balve nach Hamm im Jahr 2022 zur Alten Soester Straße 51; diese historische Registerinformation beweist keinen weiterbetriebenen Standort in Balve. Kein Hamm-HQ als Ersatzadresse übernommen, kein Closure-Marker. **Ankauf:** Gesellschaftszweck Metallverarbeitung/-handel ist kein Ankaufangebot, keine Ankaufpreise gefunden; **Verkauf:** keine Verkaufspreise oder Produktliste gefunden; **Gebühren:** keine Servicegebühren gefunden. Quelle(n): https://www.northdata.de/?id=6421112089477120 ; https://firmeneintrag.creditreform.de/59071/4190193135/DEGOMET_GMBH]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

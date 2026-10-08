@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Eine live erreichbare Webador-Seite tritt als "Schrotthandel Tostmann" in Düren auf und bewirbt Abholung, Demontage und Ankauf, enthält aber weder Impressum noch konkrete Kontaktdaten und nennt nur 52353 Düren. Verzeichnisse führen Tostmann zudem mit unterschiedlichen Adressen/Telefonen, daher ist der Bezug zum Seedstandort Viandener Str. 12 offen. **Ankauf:** Betreiberseite verspricht faire Preise, aber keine Zahlen; **Verkauf:** keine Liste; **Gebühren:** keine Tarife gefunden.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Die von Cylex verlinkte Webador-Seite "Schrotthandel Tostmann" wurde direkt abgerufen: sie nennt Düren/52353, bewirbt Schrottabholung, Demontage von Altanlagen, Schrottankauf und nimmt laut FAQ Altmetalle, Elektroschrott und Kabel an. Kontakt läuft nur über ein Formular; die Kontaktseite enthält keine Kontaktangaben, die verlinkte Über-uns-Seite nur Navigation/Fußzeile, ein Impressumspfad fehlt (404). Daneben Cylex: Schrotthandel Tostmann, Behringstr. 29, 52353 Düren, 0179 5763894; ältere Verzeichnis-Spur zum Dossier: K. Tostmann, Viandener Str. 12, 52351, 02421 74879. Identitäts-/Adresskonflikt bleibt, keine Felder gefüllt. **Preise:** Ankauf wird mit "fairen Preisen" beworben, aber ohne Zahlen; Verkaufspreise und Gebühren nicht veröffentlicht. Quelle(n): https://gratis-4364038.webador.de/ ; https://gratis-4364038.webador.de/kontakt ; https://gratis-4364038.webador.de/ueberuns ; https://web2.cylex.de/firma-home/schrotthandel-tostmann-16655945.html ; https://www.schrottplatz-info.de/schrottplatz/Dueren/Tostmann-K-]
 
 ### Recherche 02.10.2026
 

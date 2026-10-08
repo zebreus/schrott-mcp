@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Peter Baum Schrott“ ist im Seed mit drei unterschiedlichen Ortsbezügen (Schweinfurt, Haßfurt und Bad Kissingen) zusammengefasst, aber ohne eindeutige Anschrift oder Kontakt. Die unabhängige Suche ergab keinen belastbaren Betreiberauftritt, Registereintrag oder kommunalen Beleg, der diese Treffer einer Person oder einem Betrieb zuordnet. Die drei Orte bleiben ungeklärte Leads und werden nicht als mehrere bestätigte Filialen dargestellt.
+
+**Preise:** **Ankauf** — Tätigkeit und Preise nicht verifiziert. **Verkauf** — keine Preisliste. **Gebühren** — keine Annahme-, Abhol- oder Entsorgungstarife. Keine Standortkoordinate ohne geklärte Anschrift.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Erneute Namens-/Ortsabfragen für Peter Baum Schrott in Schweinfurt, Haßfurt und Bad Kissingen ergaben keinen zulässigen Primär- oder unabhängigen Betriebsnachweis, der die Seed-Ortscluster zusammenführt. Das Suchergebnis ist kein Nichtexistenz- oder Schließungsbeleg. Keine bestätigte Annahme, Ankaufpreise, Verkaufspreise, Gebühren oder belastbare Adresse; keine Frontmatter-Fills und keine Geokodierung. Recherche: exakte Websuche nach Name plus den drei Ortsangaben; kein positiver Primärquellenfund.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

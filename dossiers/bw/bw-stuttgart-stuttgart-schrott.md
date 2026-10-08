@@ -26,9 +26,13 @@ provenance_origin: table
 
 Der aktuelle Betreiberauftritt „Stuttgart Schrott“ nennt Tilsiter Str. 5/1, 70374 Stuttgart-Bad Cannstatt, Telefon 01523 4575602, E-Mail info@stuttgart-schrott.de und Mo–Fr 09:00–17:00. Das Impressum nennt jedoch weder eine juristische Betreiberfirma noch eine Registernummer. Die Angaben sind daher Betreiber-Selbstauskunft; Kontaktdaten bleiben bis zu einem belastbaren Identitätsbeleg außerhalb des Frontmatters.
 
-**Preise:** Ankauf — die Seite listet Kupfer, Aluminium, Edelstahl, Messing, Kabel, Blei, Zink sowie mehrere Eisenschrottsorten; Preise seien tagesabhängig, aber es gibt keine numerischen Kurse. Verkauf — keine Verkaufspreise ausgewiesen. Gebühren — kostenlose Abholung wird beworben; Containerpreise oder sonstige Gebühren sind nicht veröffentlicht.
+**Preise:** **Ankauf** — der Betreiber nennt Kupfer, Aluminium, Edelstahl, Messing, Kabel, Blei, Zink und Eisenschrott; Kurse seien tagesabhängig und werden auf Anfrage genannt, aber es gibt keine numerischen Preise. **Verkauf** — keine Verkaufspreise ausgewiesen. **Gebühren** — kostenlose Abholung wird beworben; die FAQ setzt eine nicht bezifferte Mindestmenge voraus. Container sind als Leistung aufgeführt, aber es gibt keine Container- oder sonstige Gebührenliste. Schwellen und Bedingungen vor Auftrag bestätigen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Ergänzender Abgleich der direkten Leistungs-/FAQ-Texte: Betreiber bewirbt kostenfreie Abholung, erklärt zugleich, dass eine Mindestmenge vorhanden sein soll, nennt dafür aber keine Zahl oder verbindliche Sorten-/Gebietsbedingung. Container werden angeboten, ohne Gebühren-/Miettarif. Ankauf bleibt ein Preis-auf-Anfrage-Modell für aufgeführte NE- und FE-Sorten; kein numerischer Ankaufkurs. Kein Verkaufspreisblatt. Da das Impressum weiterhin keine juristische Person/Registerdaten nennt, bleiben Standort-/Kontaktangaben außerhalb der Frontmatter; diese Quelle bestätigt keine endgültige Betreiberidentität. Quellen: https://stuttgart-schrott.de/leistungen ; https://stuttgart-schrott.de/schrottpreise ; https://stuttgart-schrott.de/impressum]
 
 ### Recherche 07.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt beschreibt Schrott-/Altmetallannahme für private Kleinlieferanten und Gewerbe, zwei geeichte Waagen sowie Container in 4,3, 6,5 und 8,6 m³, deren Austausch/Abholung nach Vereinbarung erfolgt. Das Impressum nennt Einzelinhaber Björn Makarewicz und Grüner Weg 11, 23936 Grevesmühlen; wegen des dokumentierten Einzelunternehmer-Beleg-Gates bleiben Adresse/Kontakt in der Timeline statt Frontmatter. Es gibt keine veröffentlichte Materialpreisliste; Containerangebot auf Anfrage.
+Der Betreiberauftritt beschreibt Schrott-/Altmetallannahme für private Kleinlieferanten und Gewerbe, zwei geeichte Waagen sowie Container in 4,3, 6,5 und 8,6 m³, deren Austausch/Abholung nach Vereinbarung erfolgt. Für Container nennt die Seite 10–15 m Lkw-Zufahrt, 4 m Durchfahrtsbreite/-höhe und Befüllung nur bis zum Rand; öffentliche Aufstellung erfordert eine kommunale Erlaubnis. Das Impressum nennt Einzelinhaber Björn Makarewicz und Grüner Weg 11, 23936 Grevesmühlen; wegen des dokumentierten Einzelunternehmer-Beleg-Gates bleiben Adresse/Kontakt in der Timeline statt Frontmatter. Es gibt keine veröffentlichte Materialpreisliste; Containerangebot auf Anfrage.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Containerseite präzisiert die Einsatzbedingungen: angebotene Behälter 4,3/6,5/8,6 m³ für Schrott/Altmetall, Aufstellung insbesondere bei Gewerbe/Handwerk, Abholung/Austausch nach Absprache; erforderliche Zufahrt für 10–15-m-Lkw, mindestens 4 m Breite und Höhe, Ladung nicht über den Rand. Öffentliche Verkehrsfläche nur mit kommunaler Genehmigung; eine mögliche Sondernutzungsgebühr wäre eine Behördengebühr, nicht ein von GVM ausgewiesener Containerpreis. Weiterhin kein numerischer Ankaufkurs, Verkaufspreis oder Händler-Gebührentarif. Quelle: https://gvm-schrott.de/container]
 
 ### Recherche 07.10.2026
 

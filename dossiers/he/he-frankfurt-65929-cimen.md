@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der einzige konkrete Cimen-Schrotthandel-Lead ist weiterhin ein 11880-Eintrag für Königsteiner Str. 90, 65929 Frankfurt-Unterliederbach, Tel. 0179 4702226 (Portalstand 11.07.2024). Betreiberidentität, aktuelle Tätigkeit und Adresse sind nicht unabhängig bestätigt; die Seed-Telefonnummer bleibt deshalb ein ungeprüfter Hinweis.
+
+**Preise (Stand 08.10.2026):** **ANKAUF** – keine bestätigten Ankaufkurse. **VERKAUF** – keine Preisliste. **GEBÜHREN** – keine Tarife belegt. Das ist ein Recherche-Negativbefund, kein Beleg dafür, dass keine individuellen Angebote existieren.
 
 ## Timeline
 
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Re-Check ohne neuen Fund — Websuche „Cimen Schrotthandel Frankfurt“ weiter ergebnislos (keine Betreiber-Website, kein Register, kein Social, keine zweite Verzeichnis-Liste). Adress-Lead Königsteiner Str. 90 (11880, Stand 11.07.2024) bleibt Single-Source und UNGEFÜLLT. Frontmatter unverändert, status weiter pruefung. Folgewelle: unverändert Gewerberegister Frankfurt / Vor-Ort. Quelle(n): keine neuen.]
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Erneuter Abruf des 11880-Eintrags bestätigt nur den bestehenden Lead „Cimen Schrotthandel“, Königsteiner Str. 90, 65929 Frankfurt-Unterliederbach, Tel. 0179 4702226; keine neue Betreiber-, Register- oder zweite Verzeichnisquelle. Keine Felder übernommen. ANKAUF: keine veröffentlichten Beträge; VERKAUF: keine Liste; GEBÜHREN: keine Tarife gefunden. Quelle(n): https://www.11880.com/branchenbuch/frankfurt-am-main/060440092B108945313/cimen-schrotthandel.html (Einzelner Branchenverzeichniseintrag)]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SMR Schrott- und Metallhandel Recycling GmbH betreibt einen aktuellen Lüner Standort und veröffentlicht Annahmeleistungen; die alte Verzeichnisfirma "Lüner Schrott u. Metallhandel Recycling-Umschlag GmbH" ist aber nicht nachweislich derselbe Rechtsträger oder Vorgänger. Fakten zu SMR bleiben daher Kandidaten-Informationen, nicht Dossier-Fakten. **Ankauf:** SMR nennt Preise nur auf Anfrage; **Verkauf:** keine numerische Warenliste; **Gebühren:** Container 7-40 m3, Preise auf Anfrage, keine Gebührentafel.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Erneute Direktprüfung der SMR-Betreiberseiten bestätigt die bereits dokumentierte Kandidatenlage, nicht die Zuordnung zum knappen Seednamen "Lüner": SMR nennt Frydagstr. 11-17, 44536 Lünen und listet Sorten für Schrott/Metalle; beide Materialseiten sagen explizit "Preise auf Anfrage". Containerdienst nennt 7-40 m3, veröffentlicht aber keine Miete/Entsorgungsgebühren. Kein Nachweis, dass die historische Verzeichnisfirma "Lüner Schrott u. Metallhandel Recycling-Umschlag GmbH" in SMR aufgegangen ist; keine Frontmatter-Änderung. **Ankauf:** keine veröffentlichten Zahlenpreise; **Verkauf:** keine belegte Produktpreisliste; **Gebühren:** nur individuelles Angebot. Quelle(n): https://www.schrotthandel-luenen.de/de/schrotte.php ; https://www.schrotthandel-luenen.de/de/metalle.php ; https://www.schrotthandel-luenen.de/de/containerdienst.php ; https://www.schrotthandel-luenen.de/de/impressum.php ; https://www.northdata.de/SMR+Schrott+und+Metallhandel+Recycling+GmbH,+L%C3%BCnen/Amtsgericht+Dortmund+HRB+23741]
 
 ### Recherche 04.10.2026
 

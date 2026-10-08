@@ -30,6 +30,10 @@ Küstner Rohstoffe ist laut aktuellem Betreiberauftritt Timo Küstner e. K. (HRA
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Betreiber-Homepage und Impressum erneut direkt abgerufen. Sie bestätigen Timo Küstner e.K., Schwalbenbreite 5, 38350 Helmstedt, 05351 539211, info@kuestner-rohstoffe.de und Mo-Fr 07:30-16:30; die Homepage nennt Ankauf/Verwertung von Eisen- und NE-Metallen sowie Container 5-36 m3 für Bau, Gewerbe und Privat. **Preise:** Ankauf nur als Leistung genannt, keine numerischen Materialpreise oder Einheiten; **Verkauf:** keine Warenpreisliste; **Gebühren:** Containerpreise als "fair/transparente Preise" beworben, aber keine Tarife veröffentlicht. Keine Änderung an den bereits belegten Feldern. Quelle(n): https://kuestner-rohstoffe.de/ ; https://kuestner-rohstoffe.de/impressum/]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Betreiber-Website und Impressum direkt abgerufen. Impressum nennt Timo Küstner e.K., Schwalbenbreite 5, 38350 Helmstedt, Telefon 05351 5392 11, info@kuestner-rohstoffe.de, Amtsgericht Braunschweig HRA 100417 und USt-ID DE232377806; die Startseite/Kontaktbox bestätigt Telefon, Mail, Mo–Fr 07:30–16:30 und Betrieb für Helmstedt. Northdata führt dieselbe Firma unter HRA 100417; zusätzlich führt die bvse-Entsorgergemeinschaft Küstner als zertifizierten Entsorgungsfachbetrieb in Helmstedt. Entsprechend ergänzt: Adresse, Telefon, E-Mail, Zeiten, Website, Beschreibung sowie Annahme-/Containerleistungen; keine Koordinaten ergänzt, Adresse neu zu geokodieren. Preise: **Ankauf** Eisen-/NE-Metalle genannt, keine Zahlen/Preiseinheit; **Verkauf** keine Liste; **Gebühren** Containerpreise nur allgemein als transparent/fair beworben, keine Tarifliste. Quelle(n): https://kuestner-rohstoffe.de/ ; https://kuestner-rohstoffe.de/impressum/ ; https://www.northdata.de/K%C3%BCstner%20Rohstoffe,%20Inh%C2%B7%20Timo%20K%C3%BCstner%20e%C2%B7%20K%C2%B7,%20Helmstedt/Amtsgericht%20Braunschweig%20HRA%20100417 ; https://www.bvse-entsorgergemeinschaft.de/bvse-entsorgungsfachbetriebe/2120-kuestner-rohstoffe.html]

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-**Nur Abholung – keine Anlieferung:** Die am 05.10. erneut direkt gelesene Betreiberseite erklärt ausdrücklich, dass **an der Adresse keine Annahme stattfindet**. Sie beschreibt Schrott-/Metallabholung bei Privatkunden, Firmen und Baustellen sowie Besichtigung und Bezahlung vor Ort. Genannt werden Eisen, Kupfer, Kabel, Messing, Aluminium, Edelstahl und Zink; keine numerische Ankaufpreisliste gefunden.
+**Nur Abholung – keine Anlieferung:** Die am 05.10. erneut direkt gelesene Betreiberseite erklärt ausdrücklich, dass **an der Adresse keine Annahme stattfindet**. Sie beschreibt Schrott-/Metallabholung bei Privatkunden, Firmen und Baustellen sowie Besichtigung und Bezahlung vor Ort. Genannt werden Eisen, Kupfer, Kabel, Messing, Aluminium, Edelstahl und Zink; vor-Ort-Bezahlung ist kein veröffentlichter Kurs und es gibt keine numerische Ankaufpreisliste. Eine kostenlose Abholung wird nicht ausdrücklich zugesagt.
 
 Das Impressum nennt Gerard Denecke, Lübeckerstr. 10, 17389 Anklam, +49 1522 3936834 und gerarddenecke@web.de. Dies bleibt ein Betreiber-Einzelbeleg ohne unabhängige zulässige Bestätigung; das Einzelunternehmen erfüllt nicht die autoritative Register-/Filial-Ausnahme. Der bisherige Aktivstatus wird konsistent mit der offenen Beleglage auf Prüfung gesetzt. Die Website ist damit nicht als stillgelegt bezeichnet. `dropoff_json` bleibt gemäß der dokumentierten Owner-Triage ungefüllt; **das ist kein positives Annahmesignal**. Nicht mit Material zur Impressumsadresse fahren, sondern Abholung vorab abstimmen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Preisabgrenzung — die Betreiberseite nennt Besichtigung und Bezahlung vor Ort, jedoch keine numerischen Ankaufpreise oder Berechnungsformel. Keine Verkaufspreise für abgegebene Ware und keine Gebühren-/Abholtarife gefunden; insbesondere ist kostenlose Abholung nicht zugesagt. Der Betreiber beschreibt weiterhin ausschließlich Abholung und ausdrücklich keine Annahme an der Impressumsadresse. Keine Anlieferung ohne vorherige Klärung. Quelle: http://www.schrotthandel-anklam.de/ ; http://www.schrotthandel-anklam.de/impressum]
 
 ### Recherche 05.10.2026
 
