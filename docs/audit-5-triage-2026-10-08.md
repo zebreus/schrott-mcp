@@ -249,6 +249,16 @@ Owner prüft drei Dossieränderungen, Historie/Slugs erhalten, zwei neue
 Root-URLs, keine Placeholder-Fills. Tatsächlicher Git-Push weiterhin ohne
 nutzbare HTTPS-Zugangsdaten fehlgeschlagen. Übrige neue Feedbacks offen.
 
+Deployment `79dd103` am 08.10.2026 11:36 UTC aus sauberem Commit-Stand:
+acht Seed-Tests, Rustfmt und Diffprüfung grün, beide Release-Binaries
+gebaut. Backup `/var/tmp/schrott-mcp-backup-before-79dd103/`.
+Boot-Seed schreibt drei Dossiers; read-only Datenbank-/Workerprüfung
+bestätigt beide neuen Standorte, Leitl-Firmenmarker und bewusst leere
+Carnuth-Koordinaten. Health erfolgreich. Bestand nun 3874 Händler /
+52 Materialien / 2267 Current-Preise; keine erfundenen neuen Preise.
+Server-SHA256: `9fb15f5578f6c89b592f67d5905f212594dd18d6b9965567ccb0eb2cdc4d325d`.
+Worker-SHA256: `13f26d4f7837c49d194b374f706bba3ed4206a83e83b35ba97588248c8f857f5`.
+
 ### Anschluss-Check-in: Nord-/West-Teilwelle
 
 Dienst aktiv, keine Warnungen im aktuellen Sechs-Stunden-Fenster; 3872
