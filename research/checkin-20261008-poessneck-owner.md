@@ -32,3 +32,19 @@ Owner-Gate: neue Datei, keine Bestandsüberschreibungen. YAML/Slug/Enums,
 Root-Website, leere Service-JSON statt ungesicherter Bedingungen, endliches
 gepaartes WGS84, Emdash-Platzhalter und datierte Noten geprüft.
 Diffcheck/Rustfmt grün, acht Seedtests bestanden, null Fehler.
+
+## Deployment
+
+Commit `02502e9`, beide Release-Binaries aus sauberem Commit gebaut und
+atomar installiert. Neustart 08.10.2026 17:05:26 UTC, Bootseed eine Zeile.
+Read-only-Spotcheck bestätigt Standort ohne erfundene Hausnummer, Telefon,
+Paar50.690337/11.58344 und bewusst leere Mail/Zeiten. 3880 Händler,
+52 Materialien, 2280 Preise. Health und installierter Query-Worker grün.
+Backups `/var/tmp/schrott-mcp-backup-before-02502e9/`.
+Push erneut tatsächlich fehlgeschlagen: fehlender HTTPS-Benutzername.
+Keine numerischen Preise eingeführt, keine weiteren Standorte als erledigt
+behauptet und kein tatsächlicher Strausberg-Handlererfolg vorgetäuscht.
+
+SHA256 Server: `f3d1ec77c5cd926c3c72c470a00750f067f7800533485687ae7cb570ce5ef59e`
+
+SHA256 Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
