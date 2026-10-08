@@ -359,6 +359,65 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
              PRAGMA user_version = 5;",
         )?;
     }
+    // Migration 6 (#4782): retire only source-label/key contradictions proven
+    // by the six corrected handlers (21be8fa). Age and map_v alone prove
+    // nothing (#4783). Preserve the source label, amount, timestamps and
+    // provenance in history; this was a mapping error, not evidence that the
+    // trader's quote itself was wrong. Do not manufacture a corrected quote
+    // or restore a potentially overwritten older grade: fresh ingestion owns
+    // the corrected keys. A legitimate current pointer is never moved.
+    if version < 6 {
+        // Annotation and pointer retirement must succeed together, otherwise
+        // the exact-label matcher could miss an annotated row on retry.
+        let tx = conn.unchecked_transaction()?;
+        tx.execute_batch(
+            "DROP TABLE IF EXISTS temp.migration_6_mapping_errors;
+             CREATE TEMP TABLE migration_6_mapping_errors (id INTEGER PRIMARY KEY);
+             INSERT INTO migration_6_mapping_errors (id)
+             SELECT p.id FROM prices p
+             JOIN traders t ON t.id = p.trader_id
+             JOIN materials m ON m.id = p.material_id
+             WHERE p.price_kind = 'exact' AND (
+                 (t.slug = 'hh-lokstedt-hansa-goldankauf'
+                  AND p.source_url = 'https://hansa-goldankauf.de/'
+                  AND m.slug = 'gold' AND p.variant = ''
+                  AND p.notes = '875er Gold')
+              OR (t.slug = 'th-erfurt-goldankauf-boerse-filiale-erfurt'
+                  AND p.source_url = 'https://www.goldankauf-boerse.de/ankaufsrechner/'
+                  AND m.slug = 'silber' AND p.variant = ''
+                  AND p.notes = '625er Silber')
+              OR (t.slug = 'sn-frankenberg-volker-lungwitz-schrotthandel'
+                  AND p.source_url = 'https://vlschrott.de/einkaufspreise/'
+                  AND m.slug = 'aluminium-gemischt' AND p.variant = 'Blech/Guß o. Fe'
+                  AND p.notes = 'Zinkblech')
+              OR (t.slug = 'sn-rochlitz-db-recycling-denis-blum'
+                  AND p.source_url = 'https://www.dein-schrottplatz.de/pages/preise.php'
+                  AND m.slug = 'aluminium-gemischt' AND p.variant = 'Blech/Guß 2% Fe'
+                  AND p.notes = 'Zinkblech')
+              OR (t.slug = 'ni-wangerland-hooksiel-26434-manuel-triebsch-autoverwertung-altmetall'
+                  AND p.source_url = 'https://www.schrott-triebsch.de/'
+                  AND m.slug = 'kupfer-gemischt' AND p.variant = ''
+                  AND p.notes = 'Kupferkabel o.Stecker')
+              OR (t.slug = 'sn-leipzig-albus-leipzig'
+                  AND p.source_url = 'https://www.albus-leipzig.de/preise'
+                  AND p.variant IN ('mit Kundenkarte', 'ohne Kundenkarte')
+                  AND ((m.slug = 'aluminium-gemischt' AND p.notes = 'Alu-Profile')
+                    OR (m.slug = 'aluminium-guss' AND p.notes = 'Alufelgen sauber')
+                    OR (m.slug = 'eisenschrott-gussbruch' AND p.notes = 'Bremsscheiben')))
+             );
+
+             UPDATE prices
+             SET price_kind = 'approx', confidence = 0.0,
+                 notes = notes || '; Fehlmapping #4782 (2026-10-08): Quelllabel unter falschem Material/Variante gespeichert; historische Fehlzuordnung, kein aktueller Preis dieser Sorte'
+             WHERE id IN (SELECT id FROM migration_6_mapping_errors);
+
+             DELETE FROM current_prices
+             WHERE price_id IN (SELECT id FROM migration_6_mapping_errors);
+             DROP TABLE migration_6_mapping_errors;
+             PRAGMA user_version = 6;",
+        )?;
+        tx.commit()?;
+    }
     Ok(())
 }
 
@@ -1160,7 +1219,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 5);
+        assert_eq!(version, 6);
     }
 
     #[test]
@@ -1272,7 +1331,463 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 5);
+        assert_eq!(version, 6);
+    }
+
+    #[test]
+    fn migration_retires_4782_mismappings_without_inventing_replacements() {
+        for (slug, url, material_slug, variant, label, corrected_material, corrected_variant) in [
+            (
+                "hh-lokstedt-hansa-goldankauf",
+                "https://hansa-goldankauf.de/",
+                "gold",
+                "",
+                "875er Gold",
+                "gold",
+                "875",
+            ),
+            (
+                "th-erfurt-goldankauf-boerse-filiale-erfurt",
+                "https://www.goldankauf-boerse.de/ankaufsrechner/",
+                "silber",
+                "",
+                "625er Silber",
+                "silber",
+                "625",
+            ),
+            (
+                "sn-frankenberg-volker-lungwitz-schrotthandel",
+                "https://vlschrott.de/einkaufspreise/",
+                "aluminium-gemischt",
+                "Blech/Guß o. Fe",
+                "Zinkblech",
+                "zink",
+                "",
+            ),
+            (
+                "sn-rochlitz-db-recycling-denis-blum",
+                "https://www.dein-schrottplatz.de/pages/preise.php",
+                "aluminium-gemischt",
+                "Blech/Guß 2% Fe",
+                "Zinkblech",
+                "zink",
+                "",
+            ),
+            (
+                "ni-wangerland-hooksiel-26434-manuel-triebsch-autoverwertung-altmetall",
+                "https://www.schrott-triebsch.de/",
+                "kupfer-gemischt",
+                "",
+                "Kupferkabel o.Stecker",
+                "kabel-kupfer",
+                "o. Stecker",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "aluminium-gemischt",
+                "mit Kundenkarte",
+                "Alu-Profile",
+                "aluminium-profile",
+                "mit Kundenkarte",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "aluminium-gemischt",
+                "ohne Kundenkarte",
+                "Alu-Profile",
+                "aluminium-profile",
+                "ohne Kundenkarte",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "aluminium-guss",
+                "mit Kundenkarte",
+                "Alufelgen sauber",
+                "aluminium-guss",
+                "Felgen, mit Kundenkarte",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "aluminium-guss",
+                "ohne Kundenkarte",
+                "Alufelgen sauber",
+                "aluminium-guss",
+                "Felgen, ohne Kundenkarte",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "eisenschrott-gussbruch",
+                "mit Kundenkarte",
+                "Bremsscheiben",
+                "eisenschrott-gussbruch",
+                "Bremsscheiben, mit Kundenkarte",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "eisenschrott-gussbruch",
+                "ohne Kundenkarte",
+                "Bremsscheiben",
+                "eisenschrott-gussbruch",
+                "Bremsscheiben, ohne Kundenkarte",
+            ),
+        ] {
+            let (_dir, db, trader, _) = setup("4782-mismapping");
+            let add_material = |slug| {
+                db.upsert_material(&NewMaterial {
+                    slug,
+                    name_de: slug,
+                    category: "nichteisen",
+                    unit: "EUR/kg",
+                    description: "",
+                    updated_at: "2026-10-08T00:00:00Z",
+                })
+                .expect("material")
+            };
+            let material = add_material(material_slug);
+            let corrected = add_material(corrected_material);
+            let bad_id = db
+                .record_price(&NewPrice {
+                    variant,
+                    source_url: url,
+                    notes: label,
+                    extra_json: "{\"map_v\":1,\"published_at_basis\":\"page_stated\"}",
+                    ..price(
+                        trader,
+                        material,
+                        2.0,
+                        "2026-10-08T00:00:00Z",
+                        "2026-10-08T00:00:00Z",
+                    )
+                })
+                .expect("legacy mapping");
+            let good_id = db
+                .record_price(&NewPrice {
+                    variant: corrected_variant,
+                    source_url: url,
+                    notes: label,
+                    extra_json: "{\"map_v\":2}",
+                    ..price(
+                        trader,
+                        corrected,
+                        2.0,
+                        "2026-10-08T01:00:00Z",
+                        "2026-10-08T01:00:00Z",
+                    )
+                })
+                .expect("corrected mapping");
+            {
+                let conn = db.conn.lock().expect("lock");
+                conn.execute(
+                    "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                    rusqlite::params![slug, trader],
+                )
+                .expect("trader identity");
+                conn.execute_batch("PRAGMA user_version = 5;")
+                    .expect("pre-migration");
+                super::migrate(&conn).expect("migration");
+                super::migrate(&conn).expect("idempotent rerun");
+            }
+            assert!(
+                db.current_price_for(trader, material, variant)
+                    .expect("current")
+                    .is_none(),
+                "{slug}/{material_slug}/{variant}"
+            );
+            let history = db
+                .price_history(trader, material, variant, 10)
+                .expect("history");
+            assert_eq!(history.len(), 1, "no replacement observation");
+            assert_eq!(history[0].id, bad_id);
+            assert_eq!(history[0].price, 2.0);
+            assert_eq!(history[0].observed_at, "2026-10-08T00:00:00Z");
+            assert_eq!(
+                history[0].extra_json,
+                "{\"map_v\":1,\"published_at_basis\":\"page_stated\"}"
+            );
+            assert_eq!(history[0].price_kind, "approx");
+            assert_eq!(history[0].confidence, Some(0.0));
+            assert!(history[0].notes.starts_with(label), "source label retained");
+            assert!(history[0].notes.contains("Fehlmapping #4782"));
+            let good = db
+                .current_price_for(trader, corrected, corrected_variant)
+                .expect("corrected current")
+                .expect("corrected grade preserved");
+            assert_eq!(good.id, good_id);
+            assert_eq!(good.price_kind, "exact");
+            assert_eq!(good.confidence, Some(1.0));
+            assert_eq!(good.notes, label);
+        }
+    }
+
+    #[test]
+    fn migration_4782_preserves_neighboring_keys_sources_labels_and_old_quotes() {
+        // Change each evidence dimension independently. An old timestamp or
+        // map_v=1 is not a deletion criterion; genuine neighboring grades
+        // can have exactly the same price as a mismapped observation.
+        for (slug, url, material_slug, variant, label) in [
+            (
+                "another-trader",
+                "https://hansa-goldankauf.de/",
+                "gold",
+                "",
+                "875er Gold",
+            ),
+            (
+                "hh-lokstedt-hansa-goldankauf",
+                "https://example.test/",
+                "gold",
+                "",
+                "875er Gold",
+            ),
+            (
+                "hh-lokstedt-hansa-goldankauf",
+                "https://hansa-goldankauf.de/",
+                "silber",
+                "",
+                "875er Gold",
+            ),
+            (
+                "hh-lokstedt-hansa-goldankauf",
+                "https://hansa-goldankauf.de/",
+                "gold",
+                "875",
+                "875er Gold",
+            ),
+            (
+                "hh-lokstedt-hansa-goldankauf",
+                "https://hansa-goldankauf.de/",
+                "gold",
+                "",
+                "Gold",
+            ),
+            (
+                "th-erfurt-goldankauf-boerse-filiale-erfurt",
+                "https://www.goldankauf-boerse.de/ankaufsrechner/",
+                "silber",
+                "500",
+                "500er Silber",
+            ),
+            (
+                "sn-frankenberg-volker-lungwitz-schrotthandel",
+                "https://vlschrott.de/einkaufspreise/",
+                "aluminium-gemischt",
+                "Blech/Guß o. Fe",
+                "Al Blech / Guß o. Fe",
+            ),
+            (
+                "sn-rochlitz-db-recycling-denis-blum",
+                "https://www.dein-schrottplatz.de/pages/preise.php",
+                "aluminium-gemischt",
+                "Blech/Guß 2% Fe",
+                "Al Blech/Guß mit 2% Fe",
+            ),
+            (
+                "ni-wangerland-hooksiel-26434-manuel-triebsch-autoverwertung-altmetall",
+                "https://www.schrott-triebsch.de/",
+                "kupfer-gemischt",
+                "",
+                "Kupfer",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "aluminium-gemischt",
+                "mit Kundenkarte",
+                "Alu",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "aluminium-gemischt",
+                "ohne Kundenkarte",
+                "Alu",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "eisenschrott-gussbruch",
+                "mit Kundenkarte",
+                "Eisenguss",
+            ),
+            (
+                "sn-leipzig-albus-leipzig",
+                "https://www.albus-leipzig.de/preise",
+                "eisenschrott-gussbruch",
+                "ohne Kundenkarte",
+                "Eisenguss",
+            ),
+        ] {
+            let (_dir, db, trader, _) = setup("4782-neighbors");
+            let material = db
+                .upsert_material(&NewMaterial {
+                    slug: material_slug,
+                    name_de: material_slug,
+                    category: "nichteisen",
+                    unit: "EUR/kg",
+                    description: "",
+                    updated_at: "2026-01-01T00:00:00Z",
+                })
+                .expect("material");
+            let id = db
+                .record_price(&NewPrice {
+                    variant,
+                    source_url: url,
+                    notes: label,
+                    extra_json: "{\"map_v\":1}",
+                    ..price(
+                        trader,
+                        material,
+                        2.0,
+                        "2026-01-01T00:00:00Z",
+                        "2026-01-01T00:00:00Z",
+                    )
+                })
+                .expect("neighbor quote");
+            {
+                let conn = db.conn.lock().expect("lock");
+                conn.execute(
+                    "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                    rusqlite::params![slug, trader],
+                )
+                .expect("trader identity");
+                conn.execute_batch("PRAGMA user_version = 5;")
+                    .expect("pre-migration");
+                super::migrate(&conn).expect("migration");
+            }
+            let current = db
+                .current_price_for(trader, material, variant)
+                .expect("current")
+                .expect("neighbor retained");
+            assert_eq!(current.id, id);
+            assert_eq!(current.price_kind, "exact");
+            assert_eq!(current.confidence, Some(1.0));
+            assert_eq!(current.notes, label);
+            assert_eq!(current.observed_at, "2026-01-01T00:00:00Z");
+            assert_eq!(current.extra_json, "{\"map_v\":1}");
+        }
+    }
+
+    #[test]
+    fn migration_4782_flags_history_but_does_not_move_a_legitimate_current_pointer() {
+        let (_dir, db, trader, material) = setup("4782-current-survives");
+        let url = "https://www.schrott-triebsch.de/";
+        let bad_id = db
+            .record_price(&NewPrice {
+                source_url: url,
+                notes: "Kupferkabel o.Stecker",
+                ..price(
+                    trader,
+                    material,
+                    3.3,
+                    "2026-10-07T00:00:00Z",
+                    "2026-10-07T00:00:00Z",
+                )
+            })
+            .expect("mismapped history");
+        let good_id = db
+            .record_price(&NewPrice {
+                source_url: url,
+                notes: "Kupfer",
+                ..price(
+                    trader,
+                    material,
+                    9.5,
+                    "2026-10-08T00:00:00Z",
+                    "2026-10-08T00:00:00Z",
+                )
+            })
+            .expect("genuine newer copper quote");
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute(
+                "UPDATE materials SET slug = 'kupfer-gemischt' WHERE id = ?1",
+                [material],
+            )
+            .expect("material identity");
+            conn.execute("UPDATE traders SET slug = 'ni-wangerland-hooksiel-26434-manuel-triebsch-autoverwertung-altmetall' WHERE id = ?1", [trader]).expect("trader identity");
+            conn.execute_batch("PRAGMA user_version = 5;")
+                .expect("pre-migration");
+            super::migrate(&conn).expect("migration");
+            // Even an interrupted version bookkeeping / explicit replay must
+            // not append the diagnostic twice or invalidate a newer quote.
+            conn.execute_batch("PRAGMA user_version = 5;")
+                .expect("replay");
+            super::migrate(&conn).expect("idempotent replay");
+        }
+        assert_eq!(
+            db.current_price_for(trader, material, "")
+                .expect("current")
+                .expect("exists")
+                .id,
+            good_id
+        );
+        let history = db.price_history(trader, material, "", 10).expect("history");
+        assert_eq!(history.len(), 2);
+        assert_eq!(history[1].id, bad_id);
+        assert_eq!(history[1].notes.matches("Fehlmapping #4782").count(), 1);
+        assert_eq!(history[0].notes, "Kupfer");
+    }
+
+    #[test]
+    fn migration_4782_rolls_back_history_annotation_if_pointer_retirement_fails() {
+        let (_dir, db, trader, material) = setup("4782-atomic");
+        db.record_price(&NewPrice {
+            source_url: "https://hansa-goldankauf.de/",
+            notes: "875er Gold",
+            ..price(
+                trader,
+                material,
+                95.7,
+                "2026-10-08T00:00:00Z",
+                "2026-10-08T00:00:00Z",
+            )
+        })
+        .expect("legacy quote");
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute(
+                "UPDATE materials SET slug = 'gold' WHERE id = ?1",
+                [material],
+            )
+            .expect("material identity");
+            conn.execute(
+                "UPDATE traders SET slug = 'hh-lokstedt-hansa-goldankauf' WHERE id = ?1",
+                [trader],
+            )
+            .expect("trader identity");
+            conn.execute_batch(
+                "PRAGMA user_version = 5;
+                CREATE TEMP TRIGGER fail_retirement BEFORE DELETE ON current_prices
+                BEGIN SELECT RAISE(ABORT, 'test retirement failure'); END;",
+            )
+            .expect("failure injection");
+            assert!(super::migrate(&conn).is_err());
+        }
+        let row = db
+            .current_price_for(trader, material, "")
+            .expect("current")
+            .expect("unchanged pointer");
+        assert_eq!(
+            row.price_kind, "exact",
+            "failed migration must remain retryable"
+        );
+        assert_eq!(row.notes, "875er Gold");
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute_batch("DROP TRIGGER fail_retirement;")
+                .expect("allow retry");
+            super::migrate(&conn).expect("retry migration");
+        }
+        assert!(db
+            .current_price_for(trader, material, "")
+            .expect("current")
+            .is_none());
     }
 
     #[test]

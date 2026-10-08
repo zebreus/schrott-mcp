@@ -36,9 +36,16 @@ Beobachtung mit falscher alter Zuordnung darf kein vermeintliches neues
 Veröffentlichungsdatum erzeugen.
 
 **Noch nicht erledigt:** Veröffentlichung/Deployment und Produktionsverifikation.
-Handler-Fixes löschen keine falschen Historienzeilen und keine alten
-Preispointer mit nun unbenutzten Varianten. Deren Bereinigung benötigt
-eine gesonderte, getestete Migration; keine direkten SQL-Korrekturen.
+Handler-Fixes allein entfernen keine alten Preispointer. Migration 6 ist
+jetzt implementiert und geprüft: transaktionale, idempotente Entfernung
+von elf anhand Händler, Quell-URL, Material, Variante und Quelllabel
+belegten falschen Pointern. 236 historische Fehlzuordnungen bleiben mit
+Originalpreis/Datum/Provenienz erhalten, werden als Fehlmapping #4782
+annotiert (`approx`, Konfidenz 0). Keine erfundenen Ersatzbeobachtungen,
+kein Rückgriff auf eventuell ebenfalls falsche ältere Preise.
+30 Store-Tests einschließlich Replay, unveränderter Nachbarvarianten und
+Rollback grün. Noch nicht in Produktion angewandt; keine direkten
+SQL-Korrekturen. Der breitere Restzeilen-Backlog #4783/#4809 bleibt offen.
 
 ## Dringend: #4770 Koordinaten
 
