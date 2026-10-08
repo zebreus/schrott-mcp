@@ -27,3 +27,18 @@ Owner repariert diesen Quellpfad getrennt von den Wellen-Dossiers:
 roter exakter Handler-Livetest, Primärnavigation und neuer Impressumspfad
 bestätigt, danach grüner Handler-Test. Keine Preisinterpretation oder
 Materialkatalogerweiterung im Rahmen dieses kleinen Fixes.
+
+NORDKAT-Fix `5fff4db` getrennt von laufenden Dossieränderungen aus
+isoliertem Commit-Worktree gebaut und am 08.10.2026 12:07 UTC deployed.
+Vorher Livetest rot mit HTTP 404; danach alle vier NORDKAT-Tests inklusive
+echtem Livehandler grün. Workspace: 563 bestanden, null Fehler, vier
+ignorierte Spezial-/Livetests; Rustfmt grün. Beide Release-Binaries
+gesichert unter `/var/tmp/schrott-mcp-backup-before-5fff4db/`.
+Öffentliche Health-URL und Query-Worker grün, 3874 Händler bestätigt.
+Der Fix erfindet keine numerischen PDF-Preise; normaler nächster NORDKAT-
+Ingestion-Lauf steht als separate Produktionsverifikation noch aus.
+Git-Push scheitert weiterhin an fehlenden HTTPS-Zugangsdaten.
+
+Installed SHA256:
+- Server: `72555cf938868d5fd71e34dfad0610ba454d4c485ecdd79180c3a1bb3f112afa`
+- Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
