@@ -45,3 +45,16 @@ weitere Händler-, Geo- und Handlerfälle bleiben im dokumentierten Backlog.
 Owner-Gate: YAML-Frontmatter unverändert (damit Enums, Root-Website,
 Service-JSON und Koordinaten nicht überschrieben), alle alten Timeline-
 Bullets erhalten, Diffcheck/Rustfmt grün; acht Seedtests bestanden.
+
+Deployment des Diagnosenachtrags: Commit `14f7984`, beide Release-Binaries
+aus sauberem Commit gebaut und atomar installiert. Neustart 08.10.2026
+16:34:57 UTC, Bootseed eine Zeile geschrieben. Read-only-Spotcheck:
+AMR-Notizen enthalten Lauf1146/502 und TLS-Befund; Stammdaten unverändert.
+Öffentliche Health und installierter Query-Worker grün, 3879/52/2280.
+**Kein AMR-Quellenfix behauptet**: externe Abrufstörung bleibt offen.
+Backups `/var/tmp/schrott-mcp-backup-before-14f7984/`.
+Push tatsächlich erneut wegen fehlendem HTTPS-Benutzernamen gescheitert.
+
+SHA256 Server: `a3e972cd6b9d0f3cbbf3ab26cfe0797e0826e7e4c702c0f23004c03c1a532c52`
+
+SHA256 Worker: `c72d402b001a779dfc79f93e1972c0da4d86097789fdee0c62c13ce47cd99178`
