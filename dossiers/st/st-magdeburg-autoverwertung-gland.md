@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberseite von Autoverwertung Gland (Magdeburg) bewirbt Altfahrzeug-/Unfallwagenannahme, Gebrauchtteile und weitere Kfz-Leistungen. Die Website nennt Glindenberger Weg 11, 39126 Magdeburg und Kontaktdaten; das Impressum nennt B. Hamad, aber externe Betreiber-/Registerbestätigung fehlt bislang. Leistungen und Konditionen unten sind daher ausdrücklich Betreiberangaben, keine unabhängig verifizierten Daten.
+
+**Preise laut Betreiberseite (Stand 05.10.2026):** **ANKAUF** – bis zu 250 € „Entsorgungsprämie“ für vollständige Pkw mit Originalpapieren und ohne Fremdmüll; Höchstbetrag, keine garantierte Auszahlung und kein kg-Kurs. Unfallwagen erst nach Vor-Ort-Bewertung. **VERKAUF** – Gebrauchtteile werden angeboten, aber keine Teilepreisliste gefunden. **GEBÜHREN** – Website wirbt für qualifizierte Altfahrzeuge mit kostenfreier Entsorgung; Bedingungen beachten. Keine separate Gebührenliste; Crash-a-Car-Angebot ohne Preis.
 
 ## Timeline
 

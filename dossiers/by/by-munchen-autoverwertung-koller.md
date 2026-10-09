@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Registerdatenbank-Treffer führt eine Autoverwertung Koller GmbH (HRB 104724) mit Geschäftsanschrift Lochhausener Str. 104, 81249 München und Unternehmensgegenstand Fahrzeugverwertung/Ersatzteile. Der Eintrag zeigt jedoch ältere veröffentlichte Änderungen; der Betreiber-Domainabruf bleibt „Under construction“, sodass ein aktueller Betrieb an der Adresse nicht belegt ist. Die München.de-URL, die bei der Suche auftaucht, ist ein eingebetteter Drittanbieter-Branchenbucheintrag, keine städtische Gewerbe-/Registerbestätigung.
+
+**Preise:** **Ankauf** — kein aktueller Ankauf oder Ankaufkurs verifiziert. **Verkauf** — keine verfügbare Teile-/Fahrzeugpreisliste. **Gebühren** — keine Gebühren- oder Abholtarife gefunden. Adresse und Tätigkeitsfeld bleiben bis zum aktuellen Betreiber-/Standortnachweis ungefüllt und ungeokodiert; Status `pruefung` ist kein Schließungsbeleg.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Northdata führt HRB 104724 mit Anschrift Lochhausener Str. 104, 81249 München und Geschäftszweck Fahrzeugrecycling/Ersatzteile; sichtbare Historie reicht jedoch zu älteren Änderungen zurück und ist kein Beweis laufender Annahme am Standort. `muenchen.de`-Suchtreffer führt laut eigener Seite auf ein Angebot des Drittanbieters Stadtbranchenbuch/Opendi, nicht auf einen städtischen Gewerbeeintrag; dortige Telefonnummer/Adresse bleiben Verzeichnis-Leads. Domain `autoverwertung-koller.de` weiterhin nur „Under construction“. Keine bestätigten Ankaufpreise, Verkaufspreise für Teile/Fahrzeuge oder Gebühren. Keine Frontmatter-Fills. Quellen: https://www.northdata.de/Autoverwertung+Koller+GmbH,+M%C3%BCnchen/HRB+104724 ; https://www.muenchen.de/service/branchenbuch/A/35.html ; http://www.autoverwertung-koller.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

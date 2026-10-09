@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wichtige Präzisierung: NorthData führt Oetjen Rohstoffhandel GmbH und Oetjen Metall- und Wertstoffhandel GmbH tatsächlich in derselben historischen Namenskette (Neubrandenburg HRB 3806). Die frühere bloße Namensähnlichkeitsannahme ist damit registerseitig überholt. Das Profil nennt Liquidation 2021 und Löschung 16.01.2023; amtliche Zweitbestätigung und heutiger Standortbetreiber fehlen. Davidsohnweg 2B bleibt ungeprüfter Legacy-Wert, keine aktuelle Annahme/Preise bestätigt. Keine Verbindung zu Oetjen Logistik Rotenburg oder Zeven ableiten; Status `pruefung`.
 
 ## Timeline
+
+### Recherche / Präzisierung 08.10.2026 (Welle Mittenordost)
+
+- NorthData direkt einschließlich früherer Namen: HATRA Handel- und Transport-GmbH → Oetjen Rohstoffhandel GmbH (Namens-/Adressänderung 30.03.2012) → Oetjen Metall- und Wertstoffhandel GmbH (15.02.2013), alles AG Neubrandenburg HRB 3806. Liquidation laut Profil 28.01.2021, Löschung 16.01.2023. Die Behauptung aus Vorwellen, kein Registerhinweis für „Rohstoffhandel“ beziehungsweise nur ungeklärte Namensähnlichkeit, wird auf Quellenebene korrigiert. Historie unverändert erhalten. Quelle: https://www.northdata.de/Oetjen+Metall-+und+Wertstoffhandel+GmbH,+Demmin/HRB+3806
+- Nur eine registerabgeleitete Quelle für diese Kette; amtliche Registerprüfung als zweiter Beleg weiterhin erforderlich, kein endgültiger Merge-/Schließungsentscheid über den physischen Hof. NorthData-Profil nennt Demmin, nicht unabhängig die Legacy-Hausnummer 2B. Kein Aktivbeleg aus fortbestehenden Portalkarten; Kontakt-/PLZ-Felder leer, pruefung unverändert.
+- ANKAUF / VERKAUF / GEBÜHREN: keine aktuelle Zielpreisliste. Folgeschritt HRB-3806-Auszug inklusive Namenshistorie und heutiger Gewerbetreibender am Davidsohnweg; Rotenburg/Zeven nicht zuordnen. Gegenlead: https://oetjen.de/
 
 ### Recherche 04.10.2026
 

@@ -11,7 +11,7 @@ email: 'info@frankberger.com'
 opening_hours: ''
 website: https://www.frankberger.com
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Reale Berger-Außenstelle Ebendörfel laut Betreiber, aber die Zuordnung des Dossiers zur GmbH ist nicht gesichert: Unternehmensseite führt die Außenstelle beim Eisen-/Buntmetallrecycling-Einzelunternehmen Ronny Berger. Die beiden aktuellen Zertifikate betreffen ausschließlich Kottmar OT Obercunnersdorf, nicht Ebendörfel; sie schließen die örtliche Rechtsträgerlücke nicht. Daher Status `pruefung`, ohne Schließungsbehauptung und ohne Hauptsitzanschrift zu übernehmen.
+
+Betreiber behauptet an allen Standorten Annahme von Schrott/Buntmetallen gegen börsenabhängige Vergütung; Privatkunden sofortige Bezahlung mit Personalausweis, Firmen/öffentliche Träger Gutschrift per Überweisung. Keine numerischen Kurse, Verkaufspreise oder Gebührenliste gefunden. Standortanschrift, geltende Zeiten, rechtlicher Betreiber und lokales Zertifikat bleiben offen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Neue Zertifikatsprüfung statt Wiederholung der Website: Einzelunternehmen-PDF ESN 98-090156 (26)/ZZEE003002549009, gültig bis 31.07.2027, nennt Ronny Berger, Hintere Dorfstraße 15a, 02708 Kottmar OT Obercunnersdorf und nur eine dortige Standortanlage für Abfalltransport. GmbH-PDF visuell vollständig geprüft (18 PDF-Seiten inkl. Schmuckblatt), Zertifikat 2026/013/22/ZZRT003000518010, Prüfung 19.02.2026, Ausstellung 27.02.2026, gültig bis 18.08.2027, HRB 9477 AG Dresden: alle sechs Anlagen nennen Hintere Dorfstraße 15a/Kottmar, keine Ebendörfeler Anlage. Zertifizierung und Hauptsitzadresse nicht auf Außenstelle transplantieren. Da GmbH-/Einzelunternehmenzuordnung lokal offen bleibt, status aktiv→pruefung, keine Schließung behauptet; Quelle: https://www.frankberger.com/files/media/pdf/zertifikate/Zertifikat_2027_Conteinerdienst.pdf ; https://www.frankberger.com/files/media/pdf/zertifikate/Zertifikat_2027_GmbH.pdf ; https://www.frankberger.com/unternehmen-zertifikate.html .]
+- [Recherche 08.10.2026: Startseite erneut gelesen: Außenstelle Ebendörfel mit bestehender Nummer 03591/328620, Schrott-/Buntmetallannahme an allen Standorten zu börsenabhängigen Preisen; Privatpersonen sofortige Bezahlung gegen gültigen Personalausweis, Firmen/öffentliche Träger Gutschrift mit Überweisung. Dies ist Betreiber-Einzelbeleg für Bedingungen, keine numerische Ankaufsliste. Verkauf/Gebühren nicht beziffert. Öffentliche Website und zentrale E-Mail bleiben wie historisch dokumentiert; genaue Filialanschrift und Rechtsträgerzertifikat fehlen weiter; Quelle: https://www.frankberger.com/ ; https://www.frankberger.com/unternehmen-zertifikate.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Registerspiegel führt eine Heinz Will GmbH & Co. KG (HRA 3932) in Mainaschaff mit Geschäftsanschrift An der Senne 25, 63814; das kollidiert mit der Seed-Adresse Hauptstr. 72. Deshalb bleiben Anschrift, aktueller Geschäftsbetrieb und Beziehung des Seed-Eintrags zu heutigen Schrottangeboten ungeklärt; die Registeranschrift wird nicht ohne unabhängige Standortbestätigung in die Frontmatter übernommen. Die aktuelle Mehring GmbH am Standort Dorfprozelten ist rechtlich und räumlich abzugrenzen.
+
+**Preise:** **Ankauf** — kein aktueller, der Mainaschaffer KG zurechenbarer Ankaufskurs oder Annahmebeleg. **Verkauf** — keine verifizierte Produkt-/Materialpreisliste der KG. **Gebühren** — keine der KG zuordenbaren Abhol-, Container- oder Entsorgungstarife. Keine Geokodierung, solange der Adresskonflikt besteht.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Registerspiegel zu HRA 3932 führt Heinz Will GmbH & Co. KG mit An der Senne 25, 63814 Mainaschaff (Auszug/angezeigte Daten mit Stand 25.04.2024); das widerspricht Seed-Hauptstr. 72, daher kein Frontmatter-Overwrite oder Geocoding. Der historische Registerverlauf unterscheidet die ehemalige Heinz Will Verwaltungs-GmbH (HRB 8536, später Mehring GmbH Schrott, Recycling, Containerdienst; als KG-Komplementärin 2015 ausgeschieden) von der neu eingetretenen Heinz Will Verwaltungs GmbH (HRB 13418). Die heutige Mehring-Website weist auf einen Standort in Dorfprozelten hin und beschreibt diesen Betrieb getrennt; ihre Aussage „Wir vergüten Ihr Altmetall“ ist kein Kaufangebot der Mainaschaffer KG. Für die Zielgesellschaft kein verifizierter Ankaufspreis, Verkaufspreis oder Gebührentarif. Quellen: https://handelsregister.live/hra/bayern/ag-aschaffenburg/3932/heinz-will-gmbh-co-kg ; https://www.mehring-container.de/impressum/ ; https://www.mehring-container.de/ueber-uns/ ; https://www.mehring-container.de/schrott-und-metalle/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

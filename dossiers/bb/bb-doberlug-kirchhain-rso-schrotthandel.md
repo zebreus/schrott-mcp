@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RSO Schrotthandel wird von 11880 und Infobel mit Finsterwalder Str. 17B, 03253 Doberlug-Kirchhain geführt; Infobel nennt zusätzlich die Telefonnummer 035322 510774. Beides bleibt eine nicht unabhängig bestätigte Verzeichnis-Spur. Die benachbarte Autoverwertung Schulze an Nr. 17 ist ein separater Eintrag; keine Zusammenführung. Keine bestätigten Preise oder Gebühren; status pruefung.
 
 ## Timeline
 

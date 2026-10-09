@@ -4,7 +4,7 @@ name: Hombach M. Schrottverwertung
 trader_type: schrotthaendler
 state: HE
 city: Offenbach am Main
-street: Dieselstr. 38
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,13 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Hombach M. Schrottverwertung“ kursieren widersprüchliche Verzeichnis-Leads: Dieselstraße 38, 63071 Offenbach, sowie Mühlheimer Straße 181, 63075 Offenbach; dieselbe Telefonnummer erscheint bei beiden. Eine Betreiber-/Registerquelle oder belegte Umzugskette fehlt. Ein separates Dossier zu Marco Hombach dokumentiert dieselbe Kollision. Die Stadt führt den Wertstoffhof an Dieselstraße 37 – das ist nicht Hombachs Nachweis. Die nicht bestätigte Straße wurde aus dem Frontmatter entfernt; weder Zusammenführung noch Standortwechsel wird behauptet.
+
+**Preise:** Ankauf/Selbstanlieferung nicht unabhängig bestätigt; keine numerische Ankaufpreisliste. Verkaufspreise und Gebühren sind in den ausgewerteten Quellen nicht belegt. Offen: Betreiberidentität, richtige Anschrift und Verhältnis zum Marco-Hombach-Eintrag.
 
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottverwertung/Schrotthandel
+
+### Korrektur/Recherche 07.10.2026
+
+- [Korrektur 07.10.2026: Die Frontmatter-Straße Dieselstr. 38 war bislang nicht unabhängig bestätigt; die Verzeichnis-Leads widersprechen sich weiter (Dieselstr. 38, 63071 vs. Mühlheimer Str. 181, 63075 Offenbach, Telefon gleich). Street aus dem Frontmatter entfernt. Die Stadt Offenbach weist den kommunalen Wertstoffhof an Dieselstraße 37 aus; dies bestätigt weder Hombach an Nr. 38 noch eine Beziehung. Das parallel geführte Dossier „Schrotthandel Marco Hombach“ hat dieselbe Kollision; keine Zusammenführung oder Umzugsthese. ANKAUF: nicht belegt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Hombach-Angaben; Quelle: https://www.offenbach.de/stadtwerke/stadtservice/Entsorgung/Wertstoffhof/wertstoffhof.php; https://www.offenbach.de/vv/oe/holding/185010100000006685.php; https://www.gelbeseiten.de/gsbiz/10a7b116-ac3b-4c44-ae8a-8168bca54d14; https://www.dasoertliche.de/Themen/Schrotthaendler/Offenbach-am-Main.html; `dossiers/he/he-offenbach-buchhugel-schrotthandel-marco-hombach.md`]
 
 ### Recherche 01.10.2026
 

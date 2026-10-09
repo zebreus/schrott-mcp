@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registeridentität Vilsbiburger Autoverwertung Hertenberger GmbH, HRB 3576 Landshut, Solling 48 1/3, 84137 Vilsbiburg ist gesichert; NorthData weist sogar eine Jahresabschlussveröffentlichung vom 24.02.2026 für 2024 aus. Das beweist Unternehmensaktivität, nicht heutige Öffnungszeiten oder zertifizierte Altfahrzeugannahme. Geschäftsanschrift stammt aus Registerereignis 12.04.2012; Telefonnummer weiterhin nur Alt-Verzeichnisbeleg. Kein eigener Betreiberauftritt oder direkt ausgewerteter GESA-Datensatz. **Ankauf / Verkauf / Gebühren:** keine Preise. Hersteller-Rücknahmenetz und Transportkosten separat prüfen; nicht allein aus „Autoverwertung“ kostenlose Abholung oder Auszahlung ableiten.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Live NorthData HRB 3576 vertieft: EUID DED2404V.HRB3576, LEI 52990076OAWRCWH5SH57; Gegenstand Erwerb/Verwertung gebrauchter Fahrzeuge sowie Fahrzeughandel, daneben Tankstelle/Selbstbedienungswerkstätten/Heizölhandel. Neu konkreter Aktualitätsanker: Jahresabschluss 2024 publiziert 24.02.2026; Solling-Adresse aus Eintragung 12.04.2012. Daraus keine Bestätigung heutiger Kundenzugangs-/Verwertungsbedingungen. Offizielles GESA-Register verfolgt, im HTTP-Abruf nur JavaScript-Hülle, keine individuelle Hertenberger-Zertifikatsprüfung möglich. Allgemeine GESA-Hilfe trennt kostenlose Herstellerrücknahme von möglicher Annahmegebühr anderer Betriebe und Transportkosten. Frontmatter unverändert; Quelle(n): https://www.northdata.de/Vilsbiburger%20Autoverwertung%20Hertenberger%20GmbH,%20Vilsbiburg/Amtsgericht%20Landshut%20HRB%203576 ; https://hilfe.gadsys.de/fbrwiki/gesa-info ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung.]
 
 ### Recherche 01.10.2026
 

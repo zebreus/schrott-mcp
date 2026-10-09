@@ -30,6 +30,10 @@ Aktueller Betrieb, Annahmesorten, Publikumsankauf und Preise sind primär nicht 
 
 ## Timeline
 
+### Recherche 08.10.2026 (Registerroute und Ortszuordnung)
+
+- [Recherche 08.10.2026: Northdata-Suggest Gertz Altmetallhandel direkt HTTP200 gelesen, results leer; ergänzende Namens-/Ortssuche führt erneut nur Portalspuren Sonneberg/Judenbach/Föritztal. Leere Registervorschläge beweisen bei möglichem Einzelunternehmen weder Nichtexistenz noch Schließung. Kein kommunaler Gewerbe-Einzelfallbeleg und keine Betreiberwebsite gefunden, deshalb keine Normalisierung der City aus der PLZ oder dem URL-Ort und keine Zuschreibung fremder Edelmetallgesellschaften. ANKAUF: Name Altmetallhandel ist kein verifizierter Zahlungs-/Sortenbeleg. VERKAUF/GEBÜHREN: keine zugeordneten Zahlen. Nächster konkreter Schritt Gewerbeauskunft Föritztal zur Alten Handelsstr. 2D und historischen Telefonnummer statt geographischer Schätzung. Quelle: https://www.northdata.de/suggest.json?query=Gertz%20Altmetallhandel&countries=DE ; Portal-Ausgangslead: https://www.schrottplatz.org/foeritztal/schrott-gertz-altmetallhandel-aYEPHJ.html .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Namensgenaue Detailseite schrottplatz.org einzeln geöffnet: „Schrott Gertz Altmetallhandel“, Alte Handelsstr. 2D, 96515 Judenbach, 03675 469364; URL-Ort Föritztal, sichtbarer Ort Judenbach. Weiterhin Aggregator-Lead, keine Betreiberseite/HR-/Kommunal-Einzelfallquelle identifiziert. Gegenrecherche Register nach Name/Ort ergab keinen sicher passenden Rechtsträger; ähnlich bezeichnete Edelmetallgesellschaften sind kein Gertz-Beleg und deren Liquidationsdaten werden nicht übertragen. Unverändertes Frontmatter/status pruefung, keine Schließung aus Suchgrenzen. Kein bezifferter Ankauf-/Verkauf-/Gebührentarif verifiziert. Nächster Schritt: Gewerbe-/Betreiberbestätigung zu dieser exakten Anschrift und Ortszuordnung, nicht automatisch auf Sonneberg geocodieren; Quelle(n): https://www.schrottplatz.org/foeritztal/schrott-gertz-altmetallhandel-aYEPHJ.html; https://html.duckduckgo.com/html/?q=Gertz+Altmetallhandel+Judenbach (Suchleads).]

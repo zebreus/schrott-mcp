@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die direkt erreichbare, aber inhaltlich veraltete Betreiberseite nennt RRW Rückbau & Recycling Weserbergland GmbH, HRB 205308 AG Hildesheim, Gniesbreite 3, 37632 Eschershausen, sowie Rückbau-/Aufbereitungsleistungen. 11880 stimmt bei Anschrift/Telefon überein, ist aber nur ein Branchenverzeichnis; ein aktueller Registerstatus bzw. eine jüngere Betreiberbestätigung fehlt. Deshalb bleiben Status `pruefung` und Frontmatter-Kontaktfelder unverändert.
+
+- **Ankauf:** keine belastbare Schrott-Ankaufspreisliste; Umfang einer Metallannahme ist offen.
+- **Verkauf:** die Website bietet Sand, Kies, Mineralgemisch, Mulch, Kompost u. a. „nach telefonischer Absprache“; keine numerischen Verkaufspreise.
+- **Gebühren:** keine öffentliche Gebührentabelle.
+- **Geokodierung:** Gniesbreite 3, 37632 Eschershausen als neue Adresse geokodieren, sobald Aktualität/Zuordnung im Owner-Gate bestätigt ist.
 
 ## Timeline
 

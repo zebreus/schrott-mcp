@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Verzeichnisse wiederholen Sereetzer Weg 24 C, 23626 Ratekau und 04504 67371, bilden aber keine unabhängigen Betreiber-/Registerbelege. Die Felder bleiben deshalb als Seed-Leads; aktuelle Existenz, Inhaberidentität und Annahmebedingungen sind offen. Status `pruefung`. Keine Betreiberpreisliste und keine belastbaren Angaben zu Ankauf, Verkauf oder Gebühren gefunden (Recherche 02.10.2026).
 
 ## Timeline
 

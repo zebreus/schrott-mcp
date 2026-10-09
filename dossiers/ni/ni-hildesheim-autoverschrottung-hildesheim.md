@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt beschreibt einen mobilen, deutschlandweit verfügbaren Autoverschrottungsdienst mit kostenloser Abholung und Verwertungsnachweis; das Impressum nennt A. Lahib in Hildesheim, aber keine festen Zweigstellen. Die Angaben sind Betreiber-Einzelbelege und bestätigen keine öffentliche Annahmestelle in Hildesheim oder anderen Stadtseiten. **Ankauf:** Fahrzeugbewertung individuell, keine bezifferte Ankaufsliste; **Verkauf:** keine Ersatzteilpreisliste gefunden; **Gebühren:** Website wirbt mit kostenloser Abholung, aber veröffentlicht keine Gebühren-/Sonderkostenliste. Status `pruefung` bleibt wegen fehlender unabhängiger Identitäts-/Zertifikatsbestätigung. Quelle(n): https://autoverschrottung-hildesheim.de/ ; https://autoverschrottung-hildesheim.de/impressum/
 
 ## Timeline
 

@@ -24,7 +24,11 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Existenz eines „Sero Hase“ genannten Schrottplatzes in Langenweddingen ist nicht durch eine Betreiber-, Register- oder kommunale Quelle bestätigt. Bisheriger Portal-Treffer ist nur ein Lead; die Domain sero-hase.de war bei der dokumentierten Prüfung nicht registriert und das SERO-System ist nicht als Verbindung zu „Hase“ belegt. Kein Schließungsurteil aus den negativen Suchtreffern ableiten.
+
+**Preise:** **Ankauf** – keine aktuelle Annahme oder Ankaufskurse belegt. **Verkauf** – keine Produkt-/Preisliste. **Gebühren** – keine Gebührenordnung.
+
+**Geokodierung:** Keine bestätigte Adresse; keine Geokodierung.
 
 ## Timeline
 
@@ -35,6 +39,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: weiter kein Hase-Beleg — Gelbe Seiten (sero/langenweddingen) listet nur SERO-Firmen andernorts (Wittenberg, Oranienburg, Eisenhüttenstadt u.a.), kein Hase in Langenweddingen; plausible Domain sero-hase.de weiterhin nicht registriert (NXDOMAIN, 02.10.2026 bestätigt); Frontmatter bleibt leer, weiter Klärfall; Quelle(n): https://www.gelbeseiten.de/suche/sero/langenweddingen]
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Erneute Suche nach „Sero Hase“/Langenweddingen ergab keinen neuen Hase-spezifischen Betreiber-, Register- oder Kommunalbeleg; Gelbe Seiten listet unter der Suche andere SERO-Firmen, nicht diesen Betrieb. Negative Suchergebnisse beweisen keine Nichtexistenz oder Schließung. Keine Frontmatter-Felder und keine Adresse ergänzt. ANKAUF: keine bestätigten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle(n): https://www.gelbeseiten.de/suche/sero/langenweddingen]
 
 ### Recherche 01.10.2026
 

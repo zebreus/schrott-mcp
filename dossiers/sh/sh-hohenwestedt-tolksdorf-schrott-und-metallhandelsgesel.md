@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Register- und Statuslage ist widersprüchlich: Northdata führt die Tolksdorf Schrott- und Metallhandelsgesellschaft mbH (AG Kiel HRB 18510 KI, Lindenstraße 45 a) als „i. L.“; der GLEIF-Datensatz mit ACTIVE-Status ist seit 2021 nicht aktualisiert und belegt keine aktuelle Geschäftstätigkeit. Frontmatter-Status `pruefung` markiert die ungeklärte aktuelle Ankaufstätigkeit; eine Schließung wird nicht behauptet. Vor einer Freigabe als aktiv ist ein aktueller Register-/Liquidator- oder Betreiberbeleg erforderlich. Keine öffentlich verifizierte Preisliste oder Gebühren gefunden (Recherche 05.10.2026).
 
 ## Timeline
+
+### Owner-Korrektur 07.10.2026
+
+- [Owner-Korrektur 07.10.2026: Status `aktiv` → `pruefung`. Die dokumentierte Liquidation „i. L.“/Insolvenzhistorie seit 2019 ist stärker als der GLEIF-Status ACTIVE, dessen LEI abgelaufen ist und dessen Datensatz zuletzt 15.07.2021 aktualisiert wurde; weder Quelle belegt aktuelle Annahme oder Geschäftsbetrieb. Keine Schließung gesetzt; Status bleibt Klärfall bis zu aktuellem Register-/Betreiberbeleg. Quelle(n): https://www.northdata.de/Tolksdorf+Schrott-+und+Metallhandelsgesellschaft+mbH,+Hohenwestedt/Amtsgericht+Kiel+HRB+18510+KI ; https://api.gleif.org/api/v1/lei-records/5299009W3O1JVG10WF75]
 
 ### Recherche 05.10.2026
 
@@ -44,3 +48,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Stahl/Eisen/Alu/Kupfer/Blei/Messing
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NorthData und GLEIF-API erneut einzeln live HTTP 200 gelesen. Registerspiegel weiterhin i. L., Liquidation 18.12.2019 und Insolvenzhinweis AG Neumünster 92 IN 91/19, letzte sichtbare Rechnungslegung 2019 (Publikationen 2021); kein Fortsetzungs-/aktueller Betreiberbeleg. GLEIF Golden-Copy publishDate 08.10.2026, aber entity.status ACTIVE bei lastUpdateDate 15.07.2021, registration LAPSED, renewal 09.04.2020, conformity NON_CONFORMING. Tagesaktuelles API-Publikationsdatum nicht mit Stammdaten-/Betriebsaktualität verwechseln. Owner-Korrektur pruefung vom 07.10. ausdrücklich bestätigt; keine Schließung oder Aktivierung, keine Kontakt-/Ankauf-/Preisfills. Adresse historische Registeradresse, keine neu verifizierte Kundenannahmestelle. Quelle(n): https://www.northdata.de/Tolksdorf+Schrott-+und+Metallhandelsgesellschaft+mbH,+Hohenwestedt/Amtsgericht+Kiel+HRB+18510+KI ; https://api.gleif.org/api/v1/lei-records/5299009W3O1JVG10WF75]
+- [Recherche 08.10.2026: Ankauf: historische Materialliste kein aktueller Kaufbeleg, keine aktuelle Preisliste verifiziert. Verkauf: keine Liste. Gebühren: keine Tarife. Owner benötigt amtlichen heutigen Registerstatus/Fortsetzungsnachweis und Standort-/Liquidatorkontakt statt weiterer alter Verzeichnisse. Quelle(n): Register-/GLEIF-Abrufe wie oben]

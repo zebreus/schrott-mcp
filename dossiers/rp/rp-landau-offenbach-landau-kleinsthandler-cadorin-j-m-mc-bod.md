@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historischer Sammel-Seed für mehrere nicht unabhängig zugeordnete Kleinbetriebe, **keine einzelne juristische Person oder gemeinsame Annahmestelle**. Neue Portal-Leads Jeffrey/J. Cadorin, Cornichonstr. 13a, sowie Heiner Bodenstein, Sudetenstr. 4, widersprechen einer pauschalen Fortschreibung der älteren Suche, belegen aber weder Betreiberidentität noch eine Zuordnung aller Namen. Andere Cadorin-Adressen, MC, Engel, Benkler, Koch und Durmaz bleiben getrennte Klärfälle; keinen Kontakt stellvertretend für den Sammeldatensatz eintragen.
+
+**Preise:** Keine gemeinschaftliche oder einem verifizierten Zielbetrieb zugeordnete Ankauf-, Verkaufs- oder Gebührenliste. Offen: Einzelidentitäten und vom Owner zu entscheidende Aufteilung in stabile Einzeldossiers; keine automatische Aufteilung vorgenommen.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Sammelidentität)
+
+- [Recherche 08.10.2026: Neue Suche Cadorin/Bodenstein/Durmaz/Landau findet Portal-Leads Jeffrey Cadorin Schrotthändler, Cornichonstr. 13a / 76829 (GelbeSeiten), J. Cadorin gleicher Ort mit 0159 06279409 (GoLocal), Heiner Bodenstein Sudetenstr. 4 / 76829 und 0171 9525849 (GelbeSeiten/Schrottplatz-info). Keine Betreiber- oder Registerbelege verifiziert; das Label „überprüfte Adresse“ eines Portals erfüllt den README-Standard nicht. Neue Cadorin-Adresse versus älterer Lead An den Lerchenwiesen und verschiedene Vornamen nicht als Umzug oder gleiche Person deuten. Sammeldossier beschreibt mehrere mögliche Betriebe; keine gemeinsamen Adress-/Kontaktfelder, kein automatischer Merge oder Split. ANKAUF/VERKAUF/GEBÜHREN: keine belegbar zugeordnete Preisliste. Offen: Gewerbeidentitäten je Name, Cadorin J./Jeffrey/M., Bodensteins heutiger Geschäftszweck, MC/Engel/Benkler/Koch/Durmaz und Landau/Offenbach-Abgrenzung. Quelle(n): https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/landau%20in%20der%20pfalz ; https://www.golocal.de/landau-pfalz/schrotthandel/schrott-metallhandel-j-cadorin-MJnC3 ; https://www.gelbeseiten.de/gsbiz/f0f99464-7e88-473d-b55e-73a25723aada ; https://schrottplatz-info.de/schrottplatz/Landau-in-der-Pfalz/Bodenstein-Heiner.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

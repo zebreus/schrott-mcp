@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Handlerprüfung 08.10.2026
+
+- [Korrektur 08.10.2026: Ingestion #1126 scheitert am alten Impressumspfad https://www.nordkat.de/Impressum/ mit HTTP 404. Startseite verlinkt ausdrücklich https://www.nordkat.de/Kontakt/Impressum/; dort Impressum NORDKAT GmbH, Dietmar Kaun, Am Bauhof 5, 21698 Harsefeld, kontakt@nordkat.de unverändert bestätigt. Exakter Handler-Livetest reproduziert vor Änderung HTTP 404, nach gezielter Pfadkorrektur erfolgreich; keine Kontaktanker gelockert, keine imaginären PDF-Preise erzeugt. Historischen Adressbeleg erhalten. Quellen: https://www.nordkat.de/ ; https://www.nordkat.de/Kontakt/Impressum/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Katalysatoren/Zündkerzen/Lambdasonden/NOx, tagesaktuelle Bewertung, Versand deutschlandweit. PREISLISTE: https://www.nordkat.de/Preislisten-ankaufspreise-edelmetalle/

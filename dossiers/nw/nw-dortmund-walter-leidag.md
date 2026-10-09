@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed nennt „Walter Leidag GmbH“ an Juliusstr. 28, 44145 Dortmund und Telefon 0231 815645. Ein 2017er Verzeichnisfund verwendet dagegen „Schrotthandel Leidag GmbH“ an derselben Adresse; ein aktueller Register-/Betreiberbeleg für die Namensvariante oder den Betrieb fehlt. Die Telefonnummer wurde im Frontmatter lediglich um eine überzählige schließende Klammer bereinigt und ist nicht neu bestätigt. Keine aktuelle Ankaufstätigkeit/Preisliste, Verkaufs- oder Gebührenliste belegbar. Adresse nur als älterer Verzeichnislead, nicht geokodieren.
+Der Seed nennt „Walter Leidag GmbH“ an Juliusstr. 28, 44145 Dortmund und Telefon 0231 815645. Ein 2017er Verzeichnisfund verwendet dagegen „Schrotthandel Leidag GmbH“ an derselben Adresse; ein aktueller Register-/Betreiberbeleg für die Namensvariante oder den Betrieb fehlt. Die Telefonnummer wurde im Frontmatter lediglich um eine überzählige schließende Klammer bereinigt und ist nicht neu bestätigt.
+
+**Preise:** Ankauf: keine aktuelle Ankaufszusage oder Preisliste. Verkauf: keine Preisliste. Gebühren: keine Angaben. **Offen:** aktueller Rechtsname, Registerstatus und ob Juliusstr. 28 noch ein Schrottstandort ist. Adresse nur als älterer Verzeichnislead, nicht geokodieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Neue Namens-/Ortsabfragen zu Walter Leidag, Schrotthandel Leidag und Juliusstraße ergaben keinen zusätzlichen Betreiber- oder Registerbeleg. Vorhanden bleibt nur das bereits dokumentierte ältere Branchenverzeichnis sowie die Nichtnennung im Dortmunder Fachbetriebsregister; Nichtnennung ist kein Schließungsbeleg. Ankauf/Verkauf/Gebühren: keine aktuelle Preislistenquelle. Adresse/Tel. nicht als aktuell bestätigt, kein Geocoding; Quelle: https://schrottregister.pages.dev/ort-dortmund ; https://www.google.com/search?q=%22Walter+Leidag%22+Dortmund+Juliusstra%C3%9Fe ; https://www.google.com/search?q=site%3Akennstdueinen.de+%22Schrotthandel+Leidag%22+Dortmund]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Die Verzeichnis-Leads nennen Schrotthandel Bimm an Hohe Str. 10, 41179 Mönchengladbach-Rheindahlen. Eine 11880-Detailseite führt außerdem 0174 4523819; dieser Kontakt war in älteren Quellen nicht vorhanden und bleibt daher unbestätigter Aggregatorwert. Kein Betreiberauftritt, Impressum/Register oder belastbarer aktueller Aktivitätsnachweis. Status `pruefung`, ohne Schließungsbehauptung. Keine belegte Ankauf-, Verkaufs- oder Gebührenpreisliste; die Adresse bleibt eine Geocoding-Kandidatin, nicht bestätigte Betriebsstätte.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigene gezielte Nachsuche nach Schrotthandel Bimm/Betreiber-Social-Profil liefert keinen zuordenbaren Betreiberauftritt; kein Grund, die seit 06.10. bestehende pruefung aufzuheben. Hohe Str. 10 bleibt historischer Aggregator-Fill, 0174 4523819 weiterhin nicht unabhängig belegter Verzeichnis-Lead; keine Telefon-/Website-Fills oder Geocodierung. Leeres website_status auf unbekannt präzisiert. Keine dem Betrieb primär zurechenbaren Ankauf-/Verkaufspreise oder Gebühren gefunden. Negativsuche ist kein Schließungsbeleg; heutige Gewerbeidentität und Betriebsstätte bleiben offen. Quelle(n): https://www.11880.com/branchenbuch/moenchengladbach/120674719B102222136/schrotthandel-bimm.html (bereits dokumentierter Lead, kein neuer Primärbeleg)]
 
 ### Recherche 02.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der verkürzte Seedname "Schultze, K." könnte auf den Verzeichniseintrag "Karl-Heinz Schultze Autoverwertung" in Westerstede zielen, der Neuenburger Str. 112 und 04488 3210 nennt. Ohne Betreiber- oder Registerbeleg bleibt die Zuordnung offen und der Eintrag getrennt von Robert Schultze Altmetallgroßhandel in Düsseldorf. **Ankauf:** nicht verifiziert; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Erneute Suche findet weiter nur Branchenverzeichnisse zum Kandidaten Karl-Heinz Schultze Autoverwertung, Neuenburger Str. 112, 26655 Westerstede, Tel. 04488 3210. Die verkürzte Seedidentität "Schultze, K." ist damit nicht sicher aufgelöst; kein Betreiberauftritt, Register- oder Kommunalbeleg gefunden. Keine Felder gefüllt. **Preise:** weder Ankauf- noch Verkaufspreisliste oder Gebühren gefunden; das Verzeichnis belegt keine Konditionen. Quelle(n): https://westerstede.branchen-info.net/schultze-karl-heinz-autoverwertung/672661/ ; https://web2.cylex.de/suche/entsorgung/Westerstede]
 
 ### Recherche 04.10.2026
 

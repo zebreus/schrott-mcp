@@ -30,6 +30,10 @@ Anlieferung Mo-Sa 9–18 Uhr; Abholung laut Anzeige erst ab 2 t. Metallankauf na
 
 ## Timeline
 
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Betreiberroot schrotthandelschmitz.de und gewerbliches Kleinanzeigen-Pro-Profil erneut direkt403; aktuelle Anzeigen/Kurse nicht lesbar, ausdrücklich keine neue Bestätigung der zuvor dokumentierten Blatzheimer-Str.-Angaben behauptet. Historische Triererstr.10 und neue Betreiberanzeige BlatzheimerStr.2 bleiben ungeklärte Standortkette; kein Datum/Schließung/Gratisabholung aus Blockade ableiten. Ankauf-Tageskurse ohne Zahlen und Abholungab2t bleiben Recherche vom05.10., keine heutige Preisliste. Verkauf/Gebühren nicht neu verifiziert. Quelle(n): https://www.schrotthandelschmitz.de/ ; https://www.kleinanzeigen.de/pro/Schrotthandel-Schmitz]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Triererstr. 10, 0173-Nr.

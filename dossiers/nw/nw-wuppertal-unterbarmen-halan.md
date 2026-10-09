@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Portal nennt jetzt konkrete Adresse **Burgunderstraße19,42285Wuppertal**, dazu020276713022; kein bestätigter Betreiber-/Registerbeleg und keine Annahmestelle aus dem Firmennamen ableiten. Portalzeiten widersprüchlich: Status öffnet morgen um12:00, Wochenliste Mo-Sa08:00-20:00. Material-/Mindestmengenliste gleicht anderen Portalhändlern und ist nicht betreiberspezifisch validiert. Seed-Unterbarmen bleibt unbestätigt; Status `pruefung`, keine Kontakt-/Adressfills.
+
+**Ankauf:** Verzeichnisleistung ohne verifizierte Vergütung/Preise. **Verkauf:** keine Liste. **Gebühren:** keine Tabelle. Burgunderstraße erst nach Betreiber-/Standortbestätigung geocodieren.
 
 ## Timeline
+
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Bisherige Aussage Lead ohne Adresse aktualisiert: LokaleSchrottplatz direkt gelesen,Burgunderstraße19,42285Wuppertal,020276713022. WochenlisteMo-Sa08-20 widerspricht Status öffnet morgen12:00; MindestmengenEisen100kg/NE1kg und breite Materialliste identisch bei TuS/HartmutStefan. Keine Betreiberbestätigung/Materialbedingungen daraus übernehmen, keine Frontmatter-Fills. Suche nach Name/Telefon liefert keinen zuordenbaren Primärbeleg. Keine numerischen Ankauf-/Verkaufs-/Gebührenwerte, Verzeichnislead als konkreter Gewerberegister-Suchschlüssel erhalten. Quelle(n): https://lokaleschrottplatz.de/halan-schrottabholung-wuppertal/ ; https://lokaleschrottplatz.de/tus-schrott-metalle/ ; https://lokaleschrottplatz.de/hartmut-stefan/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

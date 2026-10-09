@@ -26,9 +26,13 @@ provenance_origin: table
 
 Ungeklärter Schrotthandel-Lead „Steuckmann“ für Plettenberg. Ein direkt abgerufener Firmenfinden-Eintrag nennt Friedrich Wilhelm Steuckmann, Herscheider Str. 89 a, 58840 Plettenberg, Altmetalle und 02391 148532; das ist weiterhin nur ein Branchenverzeichnis, keine Betreiber- oder Registerbestätigung. Der aktuelle TSR-Auftritt belegt einen eigenen Metallrecycling-Standort in Plettenberg, nicht die Identität oder Nachfolge von Steuckmann; die Betriebe werden nicht zusammengeführt.
 
-**Preise:** TSR nennt allgemein den Ankauf von FE-/NE-Metallen und faire Konditionen, aber keine numerischen Preise; dies gilt nicht als Steuckmann-Preisliste. Für Steuckmann sind Ankaufspreise, Verkaufspreise und Gebühren unbekannt. **Geocoding:** Max-Planck-Straße 3 erst nach Identitäts-/Adressbeleg verwenden.
+**Preise:** Steuckmann: keine belegte Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung. Die TSR-Website bewirbt für einen separaten Plettenberger Standort FE-/NE-Ankauf, nennt aber keine Zahlenpreise; das ist keine Steuckmann-Preisliste. **Offen:** ob Steuckmann dort noch aktiv ist und ob eine Verbindung/Nachfolge zu TSR besteht. Adresse Max-Planck-Straße 3 nicht ohne Primärbeleg geocodieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute gezielte Suche nach Steuckmann/Plettenberg/Altmetall sowie Abgleich der Betreiber-Standortseite von TSR ergaben keinen neuen Primärbeleg für den Steuckmann-Lead und keinen Beleg einer Übernahme. Die einzige konkrete Steuckmann-Adresse/Telefonnummer bleibt der im Dossier dokumentierte Firmenfinden-Verzeichnisfund; TSR Max-Planck-Straße 3 ist ein separater Betreiberstandort und wird nicht als Steuckmann-Adresse übernommen. Steuckmann Ankauf/Verkauf/Gebühren: keine Preislisten. TSR-Ankauf: allgemeine Konditionswerbung, keine Zahlenpreisliste; TSR-Verkauf/Gebühren: keine für Steuckmann zurechenbare Liste; Quelle: https://www.tsr-recycling.de/standorte/schrotthaendler-plettenberg ; https://www.firmenfinden.de/Content/MapSites/MapResult.cshtml?Key=090904116&optLtDs=1&pagesize=75&tfrow=75&toffset=3750]
 
 ### Recherche 06.10.2026
 

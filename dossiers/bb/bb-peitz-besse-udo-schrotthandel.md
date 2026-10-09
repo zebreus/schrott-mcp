@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Eintrag „Udo Besse“ an Ottendorfer Str. 1a ist nicht als derselbe Betrieb verifiziert wie die Landkreis-Seite zur „Schrotthandlung und Containerdienst“ von Lutz Besse: Diese weist den Betreiber an Ottendorfer Straße 1a, den Standort aber an Gewerbeparkstraße 12 aus. Namen, Nummern und Annahmestelle daher nicht vermischen. Für den Udo-Eintrag bleiben Identität und Ankauf offen; keine veröffentlichte Preisangabe in den geprüften Quellen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Landkreis-Spree-Neiße-Datensatz direkt gegengeprüft. Er nennt Lutz Besse als Betreiber, Ottendorfer Straße 1a als Betreiberanschrift, aber Gewerbeparkstraße 12 als Standort; Öffnungszeiten Mo–Fr 08:00–12:00 und 13:00–15:30, Tel. 03560 22589. Die Abweichung Udo/Lutz bleibt ungeklärt; diese Angaben gelten nicht als Beleg für den Udo-Datensatz und werden nicht übernommen. Keine Preisangabe im amtlichen Datensatz (kein Ankaufkurs, Verkaufspreis oder Gebühr). Quelle: https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze/4304-schrotthandlung-und-containerdienst.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

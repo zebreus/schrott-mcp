@@ -140,6 +140,7 @@ fn fineness(l: &str) -> &'static str {
                 "835" => "835",
                 "800" => "800",
                 "750" => "750",
+                "625" => "625",
                 "600" => "600",
                 "585" => "585",
                 "500" => "500",
@@ -440,6 +441,7 @@ mod tests {
 
     #[test]
     fn fineness_rides_in_variant() {
+        assert_eq!(grade_for("625er Silber"), Some(("silber", "625")));
         assert_eq!(grade_for("999er Feingold"), Some(("gold", "999")));
         assert_eq!(grade_for("916er Gold"), Some(("gold", "916")));
         assert_eq!(grade_for("585er Gold"), Some(("gold", "585")));

@@ -25,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neuer Betreiber-Kandidat: Schrotthandel Jörling / Pascal Rene Jörling unter http://xn--schrotthandel-jrling-ibc.de/ (HTTPS beim Abruf nicht erreichbar). Das Impressum nennt Ritzenburg 5, 32351 Stemwede, während das bisherige Facebook-Profil Bad Essen / Am langen Holz 20 und Verzeichnisse teils Belm nennen. Keine belegte Standort-/Umzugskette; nicht einfach Stemweder Daten auf den Bad-Essen-Seed übertragen.
+
+**Selbstangaben des Website-Kandidaten:** rein mobile Abholung, „Eigene Anlieferung ist nicht möglich“, Vergütung erst ab wechselnden Mindestmengen abhängig vom Tagespreis. Bei regelmäßiger Zusammenarbeit kostenlose Gestellung von Gitterboxen/Containern. **Preise:** keine numerische Ankaufsliste, keine Verkaufswerte oder bezifferten Gebühren; kostenlos gilt ausdrücklich für Behälter bei regelmäßiger Zusammenarbeit, nicht für jede Entsorgungsleistung. Offen: derselbe Betreiber im heutigen Bad Essen oder Umzug nach Stemwede; aktueller Betriebssitz und Gebühren-/Mindestmengenbedingungen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Eigenständige Nachsuche findet einen bisher fehlenden Betreiberauftritt. HTTP-Seiten Start, Impressum, Ankauf und Container vollständig gelesen; HTTPS scheitert mit Transportfehler. Impressum Pascal Rene Jörling, Schrotthandel Jörling, Ritzenburg 5, 32351 Stemwede, 0171/5383052, Pascal-Joerling@t-online.de. Suchindex des bereits bekannten Betreiber-Facebook-Profils nennt hingegen Bad Essen, Am langen Holz 20 und dieselbe Mobilnummer; andere Verzeichnis-Leads nennen Belm. Telefonkongruenz ist ein Identitätshinweis, keine unabhängige Standort-/Umzugsbestätigung. Website daher als Kandidat in der Historie, nicht als endgültige Bad-Essen-Zuordnung im Frontmatter; status pruefung bleibt. Quelle(n): http://xn--schrotthandel-jrling-ibc.de/Impressum ; http://xn--schrotthandel-jrling-ibc.de/ ; https://www.facebook.com/100063647079360/?locale=ur_PK (Suchindex, kein vollständiger Profilabruf)]
+- [Recherche 08.10.2026: Kandidatenseite Ankauf: Eigenanlieferung ausdrücklich ausgeschlossen; Mindestmenge für Vergütung hängt von aktuellen Schrottpreisen ab, kein Zahlenwert. Containerseite: kostenlose Behältergestellung nur bei regelmäßiger Zusammenarbeit, Tagespreisankauf, Kranwaage/Wiegekarte, Barauszahlung oder Überweisung. Keine numerische Ankauf-/Verkaufspreisliste und keine allgemeine Gebührenfreiheit. Quelle(n): http://xn--schrotthandel-jrling-ibc.de/Ankauf ; http://xn--schrotthandel-jrling-ibc.de/Container]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

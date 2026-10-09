@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Website bhagen.de belegt Unternehmensaktivitäten und Kontakt am Standort Neumünster, nicht einen heutigen Schrottannahmehof in Kramerhof. NorthData führt eine mögliche historische Hagen-Bau GmbH in Kramerhof und eine Löschung 2023; die Zuordnung zur Seed-Zeile ist nicht bewiesen. Die lokale Adresse Hauptstraße 34 stammt nur aus einem Aggregator. Daher keine Kontaktdaten zwischen Unternehmen/Orten übertragen; `status: pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Kein aktueller Metall-/Schrottankauf in Kramerhof belegt; die Neumünster-Website reicht dafür nicht.; VERKAUF: Keine Kramerhof-bezogene Baustoff-/Materialpreisliste belegt.; GEBÜHREN: Keine Kramerhof-bezogenen Annahme-, Abbruch- oder Entsorgungsgebühren belegt.; GEOKODIERUNG: Hauptstraße 34, 18445 Kramerhof bleibt Aggregator-Lead; die Neumünster-Adresse auf bhagen.de ist ein anderer Ort und darf nicht für diese Zeile geokodiert werden. Neu geokodieren erst nach Identitäts-/Adressbestätigung.; Quelle: https://www.bhagen.de/ ; https://www.northdata.de/Hagen%20-%20Bau%20GmbH,%20Kramerhof/Amtsgericht%20Stralsund%20HRB%2021097 ; https://bernd-hagen.geo.io/ (Aggregator-Lead; Details in Recherche 03.10.2026).]
 
 ### Korrektur 03.10.2026 (Feedback-Triage)
 

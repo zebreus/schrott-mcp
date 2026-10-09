@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Verzeichnisquellen beschreiben Leonhard Hartmann als Autoverwertung/Kfz-Gebrauchtteile an Boschensäge 4, 87480 Weitnau, Telefon 08375 8186. Eine eigene Betreiberseite oder Registerzuordnung ist nicht bestätigt; die offizielle Markt-Weitnau-Seite „Unternehmen am Ort“ lieferte bei der erneuten Prüfung keinen Treffer für Hartmann. Das beweist keine Schließung oder Nichtexistenz; die Verzeichnisangaben bleiben Leads und `status: pruefung` bleibt bestehen. **Ankauf:** keine Fahrzeug-/Schrottkurse; **Verkauf:** keine Teilepreise; **Gebühren:** keine Verwertungs-/Abholtarife belegt.
 
 ## Timeline
 
@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 03.10.2026
 
 - [Korrektur 03.10.2026: status von aktiv auf pruefung zurückgesetzt, weil die bisherige Aktivitätsbegründung ausschließlich aus übereinstimmenden Branchenverzeichnissen stammt; nach README-Quellenhierarchie sind diese nur Leads. Eine aktuelle Betreiberquelle oder unabhängige zulässige Bestätigung für den Betrieb an Boschensäge 4 wurde nicht gefunden. Gegenbeleg/Begrenzung: Die Gemeindeseite Weitnau bestätigt diesen Händler nicht, beweist aber ebenso wenig eine Schließung oder Nichtexistenz; Name, Adresse, Telefon und trader_type bleiben daher unverändert. Quelle(n): https://web2.cylex.de/firma-home/hartmann-leonhard-autoverwertung-kfzgebrauchtteile-3869922.html ; https://www.weitnau.de/markt-weitnau/wirtschaft-und-entwicklung/unternehmen-am-ort ; https://www.northdata.de/Leonhard+Hartmann,+Weitnau]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die kommunale Seite „Unternehmen am Ort“ wurde direkt geprüft; sie nennt keine Treffer für Hartmann. Da die Seite kein vollständiges amtliches Gewerberegister darstellt, ist das kein Gegenbeweis zur Existenz. Cylex-/Telefonbuchangaben bleiben nicht primär bestätigt, Frontmatter bleibt unverändert. Keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren in den geprüften Quellen. Quelle(n): https://www.weitnau.de/markt-weitnau/wirtschaft-und-entwicklung/unternehmen-am-ort ; https://web2.cylex.de/firma-home/hartmann-leonhard-autoverwertung-kfzgebrauchtteile-3869922.html]

@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-Der Betreiber-Unterpfad bestätigt Martin Stierstorfer, Hafnerhof 1 und einen mobilen Schrott-/Altmetallservice mit Abholung. Die eigene Domain war laut Recherche 02.10 ein Redirect-Stummel; der erneute HTTPS-Abruf am 06.10 scheiterte technisch. Betriebszeiten und Preisbedingungen sind nicht ausgewiesen. Abholkosten werden nur durch einen Verzeichnis-Lead als kostenlos beschrieben.
+Der Betreiber-Unterpfad bestätigt Martin Stierstorfer, Hafnerhof 1 und einen mobilen Schrott-/Altmetallservice mit Abholung. Die Service-Seite belegt selbst kostenlose Abholung von Eisen/Metallen im 25-km-Umkreis Wörth/Donau nach Termin, Container bis 40 m³ und Ladekran. Die bisherige Beschränkung dieser Kostenlos-Angabe auf einen Verzeichnis-Lead war falsch. Keine stationäre Annahmestelle oder Ankaufvergütung nachgewiesen; Zeiten und separate Tarife fehlen. Website-/Kontaktzuordnung bleibt mangels unabhängigen Zweitbelegs konservativ im Text.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Korrektur 08.10.2026: Betreiber-Service-Unterseite eigenständig live gelesen, nicht nur Kontakt oder stadtplan.de: ausdrücklich kostenlose Abholung von Eisen-Schrott und Metallen aller Art (u.a. Kupfer, Messing, Edelstahl, Alu, Blei, Zinn, Zink, Bronze, Rotguss, Kabel), im Umkreis von 25 km Wörth/Donau, Container bis max.40 m³, Ladekran, Terminvereinbarung. Kontakt bestätigt Martin Stierstorfer/Hafnerhof 1/93086 Wörth/Donau/0174-2187361, Festnetz nur bis ca.08 Uhr morgens. Somit Kostenlos-Angebot erstmals direkt auf Service-Seite nachvollzogen; alte portalbeschränkte Überblicksaussage korrigiert, historische Bullets erhalten. Keine Vergütung an Lieferanten und keine generell kostenlose Containerbereitstellung daraus ableiten. Ankauf/Verkauf: keine numerische Liste; Gebühren: keine weitergehende Tarifliste. Betreiber-Unterpfad bleibt Einzelbeleg, keine README-Ausnahme ohne Registerkongruenz; keine neuen Frontmatter-Fills. Quelle: http://www.andersstein.de/alteisen-express/index.html ; http://www.andersstein.de/alteisen-express/html/kontakt.html .]
 
 ### Recherche 06.10.2026
 

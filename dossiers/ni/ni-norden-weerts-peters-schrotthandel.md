@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbelegter kombinierter Seed-Name „Weerts / Peters“ ohne Kontakt/Adresse. Auch getrennte Namenssuchen liefern keine qualifizierte Zuordnung in Norden. „Schrotthandel Entrümpelungen Peters“ in Rechtsupweg ist nur ein anderer Orts-/Verzeichnislead, keine nachgewiesene Fortführung dieses Dossiers. Der historische Aktivstatus ist nicht neu bestätigt; Owner-Gate muss ihn prüfen. Ankauf/Verkauf/Gebühren: keine verifizierten Listen. Offen: ein Betrieb oder zwei verschmolzene Namen, vollständige Inhaber und tatsächliches Einsatzgebiet.
 
 ## Timeline
 
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 - Klärfall/miss: nichts belegbar; keine Betreiber-Website, kein Registerbeleg, nur Seed.
 - Quellen: keine.
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Kombinierter Seed-Name sowie Weerts und Peters getrennt mit Schrotthandel/Norden gesucht. Keine zuordenbare Betreiberwebsite, Registeridentität oder kommunaler Gewerbenachweis gefunden; Suchfehlen beweist keine Nichtexistenz. Neuer Lead Schrotthandel Entrümpelungen Peters, Kienholzstr. 49, 26529 Rechtsupweg (Gelbe Seiten) ist ein anderer Ort, nicht ohne Betreiberkettenbeleg nach Norden übertragen. Kein Kontakt-/Adressfill und kein Merge; bestehender status aktiv bleibt historischer, unbelegter Seed-Altwert für Owner-Prüfung, nicht bestätigte aktuelle Tätigkeit. Keine Ankauf-/Verkauf-/Gebührenlisten. Quelle: https://www.gelbeseiten.de/gsbiz/846a1239-0bd8-4ed4-ab98-c526323c2131 (Suchlead, kein Händlerbeleg)]

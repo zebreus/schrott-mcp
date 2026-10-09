@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Petko Schrott & Metalle GmbH ist für Wildeshausen (Düngstruper Straße 91, 27793) durch Betreiber-Impressum, Standortseite und HRB 214633 belegt. Die Betreiberseite führt außerdem Bassum und Osterholz-Scharmbeck; letztere Adresse wird ausdrücklich als Lagerfläche ohne Kundenverkehr/Warenannahme beschrieben. Eine aktuelle Sulingen-Standortseite fehlt, daher bleibt der Namenszusatz „auch Sulingen/Osterholz“ ein offener Reichweiten-/Standorthinweis und belegt keinen weiteren Kunden- oder Annahmestandort. **Ankauf:** bezahlte FE-/NE-Annahme belegt, Abholung großer Mengen ab 1 t; keine numerischen Materialpreise. **Verkauf:** keine Preisliste. **Gebühren:** Containerdienst vorhanden, aber keine belastbaren veröffentlichten Tarife; die Textauslese der Container-PDFs war leer und erlaubt keine Preisbehauptung. Keine Übernahme-/Identitätskette zu einem anderen Petko-Dossier unterstellt. Quelle(n): https://www.petko-metalle.de/impressum/ ; https://www.petko-metalle.de/wildeshausen/ ; https://www.petko-metalle.de/bassum/ ; https://www.petko-metalle.de/osterholz-scharmbeck/ ; https://www.petko-metalle.de/leistungen/ ; https://www.petko-metalle.de/containerdienst/ ; https://www.northdata.de/Petko+Schrott+%26+Metalle+GmbH,+Wildeshausen/Amtsgericht+Oldenburg+HRB+214633
 
 ## Timeline
 

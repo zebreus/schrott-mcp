@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Berliner Senatsliste anerkannter Demontagebetriebe (Stand 13.04.2026) führt Autoverwertung Nord, Holzstraße 4a, 13359 Berlin, Telefonnummer 030 40394959 und Anerkennungskennziffer LE 4501615. Ein eBay-Händlerprofil ist vorhanden, aber keine eigene Betreiber-Domain belegt. Das bestätigt den Demontagebetrieb, nicht konkrete Fahrzeug-Ankaufpreise, Teile-Verkaufspreise oder Gebühren; hierzu liegt keine Preisliste vor.
 
 ## Timeline
 

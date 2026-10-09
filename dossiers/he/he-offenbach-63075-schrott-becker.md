@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schrott-Becker“ ist für Offenbach 63075 bislang ein Branchenverzeichnis-Lead; ein Betreiberauftritt oder eindeutig zuordenbarer Rechtsträger ist nicht belegt. Die frühere Suche fand als Verzeichnisadresse nur den Lämmerspieler Weg ohne bestätigte Hausnummer. NorthData lieferte keinen eindeutigen Firmenmatch. Das Registerprofil der Autoverwertung Kitsakis nennt zwar Lämmerspieler Weg 151, doch gleicher Straßenname ohne Becker-Beleg verbindet die Einträge nicht.
+
+**Preise:** Ankauf, Verkauf und Annahme sind für Schrott-Becker nicht unabhängig bestätigt; keine numerische Ankauf-/Verkaufspreisliste und keine Gebührenangaben in den ausgewerteten Quellen. Status `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: NorthData-Suche nach „Schrott-Becker Offenbach 63075“ ergab keinen eindeutig passenden Rechtsträger. Der frühere Branchenportal-Lead verweist lediglich auf den Lämmerspieler Weg, ohne bestätigte Hausnummer; deshalb keine Adressfüllung. NorthData nennt Autoverwertung Kitsakis GmbH unter Lämmerspieler Weg 151, aber weder gleicher Straßenname noch Branchenähnlichkeit belegt eine Identität oder Beziehung. ANKAUF: unbelegt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben; Quelle: https://www.northdata.de/?query=Schrott-Becker%20Offenbach%2063075; https://www.northdata.de/Autoverwertung+Kitsakis+GmbH,+Offenbach+a.+Main/Amtsgericht+Offenbach+am+Main+HRB+5001; https://www.11880.com/suche/schrotthandel/offenbach-am-main]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lindauer & Co. GmbH ist im Register als in Liquidation geführt; Presseberichte zur Insolvenz 2018 belegen einen Erwerb beweglichen Anlagevermögens durch TSR, ausdrücklich aber keine Fortführung des operativen Lindauer-Geschäfts. Die im Registerprofil genannte c/o-Anwaltsadresse ist kein Schrottplatz; TSRs heutige Niederlassung wird nicht auf Lindauer übertragen. `status: geschlossen` bleibt als vorhandener, historisch begründeter Wert bestehen; eine rechtliche Löschung ist nicht behauptet.
+
+**Preise:** Ankauf — keine aktuelle Lindauer-Preisliste; Verkauf — keine Lindauer-Verkaufspreise; Gebühren — keine aktuellen Gebühren belegt. Offen bleiben rechtliche Vermögens-/Betreiberkette und Nutzung des früheren Betriebsgeländes; keine Geokodierung ohne belegte Betriebsanschrift.
 
 ## Timeline
 

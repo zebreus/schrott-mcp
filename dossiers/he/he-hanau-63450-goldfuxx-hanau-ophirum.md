@@ -48,3 +48,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 04.10.2026 (Feedback #4769)
 
 - [Korrektur 04.10.2026: Das neue Feedback korrigiert die frühere Meldung über eine dauerhaft geschlossene Filiale und entspricht der Gegenprüfung vom selben Tag: Die Hanauer Filialseite nennt reguläre Öffnungszeiten und Ankauf; der Newsbeitrag zur Neueröffnung am 16.09.2026 bestätigt den aktuellen Betrieb. status aktiv und die bestehenden Preise bleiben unverändert, kein weiterer Frontmatter-Fill; Quelle(n): https://www.ophirum.de/filialen/hanau; https://news.ophirum.de/artikel/neueroffnung-hanau-und-wolfsburg]
+
+### Nachprüfung 08.10.2026 (Feedback #4769)
+
+- [Nachprüfung 08.10.2026: Frischer Direktabruf der OPHIRUM-Seiten bestätigt weiterhin OPHIRUM Hanau by GOLDFUXX, Hirschstr. 11, 63450 Hanau, reguläre Filialzeiten Mo–Fr 10:00–13:00/14:00–18:00 und Sa 10:00–13:30 sowie den Goldankauf vor Ort. Die Goldankaufseite zeigt sechs Legierungs-Ankaufskurse und den Seitenstand 08.10.2026 00:31:38. Das Label „Öffnungszeiten geschlossen“ erschien beim Abruf um 00:32 CEST, also außerhalb der gelisteten Öffnungszeiten; es ist ein momentaner Öffnungsstatus, kein Schließungsbeleg. status aktiv bleibt bestätigt. Die Telefonnummer 069/21999744 ist als zentraler OPHIRUM-Service ausgewiesen; die Filialseite zeigt weiterhin keinen direkten Hanauer Tel-Link, daher kein Telefon-Fill. Keine Frontmatter-Änderung; Quelle: https://www.ophirum.de/filialen/hanau ; https://www.ophirum.de/filialen/hanau/goldankauf (Abruf 08.10.2026 00:32 CEST).]

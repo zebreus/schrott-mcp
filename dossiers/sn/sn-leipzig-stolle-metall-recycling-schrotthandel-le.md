@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite beschreibt Thomas Stolle Metall-Recycling in Leipzig-Plaußig: Ankauf von Buntmetallen und Eisen/Schrott zu aktuellen Tagespreisen, Kabelrecycling, Container bis 27 m³ und 50-t-Waage; Gewerbeabholung wird angeboten. Impressum nennt Am Schenkberg 6, 04349 Leipzig-Plaußig, Telefon 034298 63107. Identitäts-/Adressbeleg bleibt laut README ein einzelner Betreiberbeleg; Kontaktfelder deshalb nicht neu ins Frontmatter übernommen.
+
+**Preise:** **Ankauf** — aktuelle Tagespreise, aber keine numerischen Ratenliste gefunden. **Verkauf** — keine öffentliche Verkaufspreisliste. **Gebühren** — Container werden vermietet; Miet-, Transport- und Entsorgungsbeträge nicht veröffentlicht. **Geokodierung:** Am Schenkberg 6, 04349 Leipzig-Plaußig ist der Betreiber-Adresskandidat; Koordinate nur nach Gegenprüfung der Betriebszufahrt, noch nicht gesetzt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Aktuelle Betreiberseite und Impressum erneut inhaltlich ausgewertet. Der Betreiber bewirbt Ankauf von NE-Metallen und weiteren Schrotten zu Tagespreisen, Kabelrecycling, gewerbliche Abholung, Container bis 27 m³ als Mietcontainer und eine 50-t-Waage. Die Betreiberquelle nennt Am Schenkberg 6, 04349 Leipzig-Plaußig und Tel. 034298 63107; die als Gegenfund dokumentierte Gelbe-Seiten-Nennung ist nur ein Aggregator-Lead, daher kein neuer Frontmatter-Fill. ANKAUF: Tagespreise, keine Zahlenliste. VERKAUF: keine Preisliste. GEBÜHREN: keine bezifferten Container-/Transporttarife. Geokodierung: Standortkandidat aus Betreiber-Impressum, Betriebszufahrt noch validieren; Quelle: https://schrotthandel-leipzig.de/ ; https://schrotthandel-leipzig.de/impressum/ ; ergänzender Verzeichnislead https://www.gelbeseiten.de/branchen/schrotthandel/leipzig.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

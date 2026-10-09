@@ -24,9 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-Das Seed-Dossier „Otto Wiese GbR“ ist historisch zu verstehen: Der Lokalpresse zufolge übergaben Hans-Otto und Michael Wiese den Ihrhover Schrotthandel zum 01.02.2023 an die Bohmann-Gruppe. EUWID berichtet, dass RMG rückwirkend zum 01.01.2025 sämtliche Anteile der Bohmann-Gruppe übernahm; RMG führt die Firmengruppe Bohmann bis heute unter seinen Beteiligungen. Das belegt eine Unternehmensnachfolge, aber nicht, ob der alte Name als Marke fortlebt oder welche aktuelle Gesellschaft/Adresse in Westoverledingen Schrott annimmt. Aktuelle Standort-/Registerlisten nennen Bohmann in Westoverledingen; die genaue Verbindung der einzelnen Adresse zum früheren Otto-Wiese-Betrieb ist noch nicht ausreichend belegt. Status `pruefung`, keine aktuelle Anschrift/Telefonnummer übernommen.
+Das Seed-Dossier „Otto Wiese GbR“ ist historisch zu verstehen: Hans-Otto und Michael Wiese übergaben den Ihrhover Schrotthandel laut Lokalpresse zum 01.02.2023 an die Bohmann-Gruppe; RMG übernahm laut EUWID rückwirkend zum 01.01.2025 die Bohmann-Gruppe. Die aktuell erreichbaren RMG-/Bohmann-Auftritte bestätigen die heutige Gruppenverbindung, aber keine konkrete Nachfolgeadresse oder Annahmestelle des früheren Otto-Wiese-Betriebs in Westoverledingen. Daher bleiben Kontaktfelder leer und `status: pruefung`; daraus folgt keine Schließung.
 
-Ankauf, Verkauf und Gebühren: keine Otto-Wiese-spezifische Preisliste gefunden. Keine geocoding-fähige Adresse für das Dossier; Industriestraße 6 ist ein möglicher Bohmann-Standortlead, nicht bestätigter Wiese-Nachfolgestandort.
+- **Ankauf:** keine dem Otto-Wiese-Betrieb zurechenbare Preisangabe.
+- **Verkauf:** keine belegte Preisliste.
+- **Gebühren:** keine belegte Gebühren-/Containerpreisliste.
+- **Geokodierung:** zurückgestellt. Industriestraße 6 ist lediglich ein Bohmann-Standortlead und darf nicht als Wiese-Nachfolgestandort geokodiert werden, bevor die Betreiberkette bestätigt ist.
 
 ## Timeline
 
@@ -41,3 +44,7 @@ Ankauf, Verkauf und Gebühren: keine Otto-Wiese-spezifische Preisliste gefunden.
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Unternehmensnachfolge durch zwei voneinander unabhängige Quellen belastbarer rekonstruiert: OZ berichtet am 08.02.2023, dass Hans-Otto und Michael Wiese das 1947 gegründete, in Ihrhove ansässige Unternehmen zum 01.02.2023 an die Bohmann-Gruppe abgaben. EUWID berichtet am 27.08.2025, RMG habe rückwirkend zum 01.01.2025 sämtliche Anteile der Bohmann-Gruppe übernommen; RMG listet „Firmengruppe Bohmann“ weiter als Beteiligung. Das beweist keine aktuelle Schrottannahme am konkreten Ihrhover Betriebshof. Schrottregister führt Horst Bohmann Entsorgung GmbH in Westoverledingen (Industriestraße 6 und Göbelstraße 6); Who-is-Who-Aggregator „ehemals Otto Wiese“ an Industriestraße 6 ist nicht vom Betreiber verifiziert und wird nicht als sichere Zuordnung übernommen. Keine Frontmatter-Adressänderung. Ankauf/Verkauf/Gebühren: keine belastbare Otto-Wiese-Preisliste. Industriestraße 6 nur möglicher Geocoding-Lead, nicht Dossierkoordinate. Quelle(n): https://www.oz-online.de/artikel/1338039/Bohmann-Gruppe-uebernimmt-Schrotthandel-Otto-Wiese; https://www.euwid-recycling.de/news/wirtschaft/rmg-uebernimmt-bohmann-gruppe-270825; https://www.rmg-gmbh.de/unternehmen/beteiligungen; https://schrottregister.pages.dev/ort-westoverledingen; https://horst-bohmann-entsorgung-gmbh-ehemals-otto-wiese.wheree.com/.]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gegenprobe der heutigen Gruppenauftritte: RMG führt „Firmengruppe Bohmann“ weiterhin als Beteiligung; die Bohmann-Seite nennt Horst Bohmann Entsorgung GmbH als Teil der RMG-Unternehmensgruppe. Keine der beiden Betreiberseiten stellt die konkrete Westoverledinger Adresse oder heutige Schrottannahme mit dem früheren Otto-Wiese-Betrieb in Verbindung. Preisfunde bleiben Ankauf: nicht belegt; Verkauf: nicht belegt; Gebühren: nicht belegt. Industriestraße 6 weiterhin nicht geokodieren/übernehmen, bis die Nachfolge am Standort belegt ist; Quelle: https://www.rmg-gmbh.de/unternehmen/beteiligungen ; https://www.bohmann-gruppe.de/]

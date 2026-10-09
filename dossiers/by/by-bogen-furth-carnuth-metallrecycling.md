@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metallrecyclingwerk der H. Carnuth KG in Bogen/Furth, getrennt vom Stahlrecyclingwerk Straubing am Sachsenring 23. Das neue Straubinger Dossier ist ein zweiter Standort derselben Gesellschaft, keine Dublette dieses Hofes. Konkrete Privatannahme, Vergütung und verbindliche Zeiten bleiben zu klären.
 
 ## Timeline
+
+### Owner-Nachprüfung 08.10.2026 — Feedback #5324
+
+- [Recherche 08.10.2026: Kontakt/Impressum trennen Bogen und Straubing ausdrücklich; neues Standortdossier by-straubing-carnuth-stahlrecycling ergänzt, Bogen-Slug und historische Felder erhalten. Website enthält widersprüchliche Freitags-Zeitblöcke, vorhandene Bürozeiten nicht als neu bestätigte Annahmezeiten ausgeben. PÜG-PDF bestätigt beide Adressen, ist aber am 30.09.2026 abgelaufen; kein aktueller Zertifizierungsnachweis. Website benennt Verwaltung Bogen, PDF/ältere Registeranschrift Straubing; diese Rollenabweichung bleibt offen. Quellen: https://www.carnuth.de/kontakt/ ; https://www.carnuth.de/impressum/ ; https://www.carnuth.de/wp-content/uploads/2025/07/Deckblatt-2025-EfbV-_-H.-Carnuth-K.G.-.pdf .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

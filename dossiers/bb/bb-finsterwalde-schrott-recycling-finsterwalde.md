@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Identität und der heutige Betrieb am Zirkusplatz 1 sind ungeklärt: ein Verzeichnis-Lead nennt Frank Arland/Inhaber Ulf Schlemminger e.K.; die Gesellschaft SRF Schrott-Recycling Finsterwalde GmbH ist im Register unter Massener Straße 1 geführt. Das kann eine Namens-/Adresskette, aber keine Annahmestelle am Zirkusplatz belegen. Die früher genannte Website liefert aktuell keine lesbare Betreiberseite. Status pruefung, nicht geschlossen; kein verifizierter Preis.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: status aktiv → pruefung — die bekannte Domain schrottrecyclingfinsterwalde.de liefert beim direkten Abruf aktuell nur eine Redirect-/Loading-Seite mit ParkLogic-Router-Skript, keine lesbare Betreiberseite. Der Suchindex enthält zwar noch ältere Firmenseiten-Texte, die sind kein Live-Nachweis. Der Registerstatus von HRB 6969 belegt nicht den Betrieb am Zirkusplatz 1; daher keine Schließung behauptet und keine Website-/Öffnungszeiten-/Leistungs-Fills. Keine verifizierten Preise; keine Aussage, ob etwaige Angaben Ankauf, Verkauf oder Gebühr wären. Quelle(n): http://schrottrecyclingfinsterwalde.de/ (Direktabruf 07.10.2026); https://www.online-handelsregister.de/handelsregisterauszug/br/Cottbus/HRB/6969/SRF-Schrott-Recycling-Finsterwalde-GmbH; https://www.northdata.de/SRF%20Schrott-Recycling%20Finsterwalde%20GmbH,%20Finsterwalde/Amtsgericht%20Cottbus%20HRB%206969 (Registerdarstellungen, kein Standortbeleg).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

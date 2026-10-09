@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten führt „Mattern Mario Metallrecycling“ mit Mildengrund 1, 35083 Wetter-Niederwetter; ein älterer GoLocal-/Verzeichnis-Lead nennt denselben Mobilkontakt am Zum Kalkberg 3 in Marburg-Michelbach. Der gemeinsame Telefon-Lead macht einen Zusammenhang plausibel, belegt aber weder Umzug noch zwei Standorte. Kein Betreiber-/Registerbeleg für die Verknüpfung; die Verzeichnis-Leistungsangaben sind nicht als bestätigte Konditionen zu behandeln. ANKAUF — kein Preis belegt; VERKAUF — keine Preisliste; GEBÜHREN — keine belastbaren Tarife. Adresse und Status bleiben offen.
 
 ## Timeline
 

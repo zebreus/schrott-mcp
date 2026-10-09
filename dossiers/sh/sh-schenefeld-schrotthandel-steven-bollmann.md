@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein aktuelles SumUp-Buchungsprofil unter dem Firmennamen nennt einen 20-m³-Schrottcontainer (Abrollbehälter) für 120 € bei 45 Minuten. Das ist ein beworbener Service-/Buchungspreis, kein Ankaufpreis für Schrott; Mietzeitraum, Transportumfang und Umsatzsteuer sind dort nicht erläutert. Das Profil nennt Bahnhofstraße 15 und Mobilnummer 0151 52265026; ein 11880-Eintrag führt eine abweichende Telefonnummer, deshalb bleiben Kontaktfelder ungefüllt. Keine Material-Ankaufs- oder Verkaufspreisliste gefunden.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Das SumUp-Buchungsprofil unter „Schrotthandel Steven Bollmann“ führt „Schrottcontainer 20 Kubikmeter (Abrollbehälter)“, 45 Min. für 120,00 € und nennt Bahnhofstraße 15, 25560 Schenefeld, Mobil +49 151 52265026 sowie tägliche Zeiten 05:00–18:30. Die 120 € sind als Buchungs-/Servicepreis für den Container ausgewiesen, nicht als Schrott-Ankaufpreis; Mietdauer, Abholung/Transport, Mehrwertsteuer und Leistungsumfang bleiben offen. 11880 nennt für denselben Namen eine andere Mobilnummer (0160 96608233), daher keine Kontakt-Fills. Keine Material-Ankaufspreisliste, Verkaufspreise oder sonstigen Gebühren gefunden. Quelle(n): https://www.sumupbookings.com/schrotthandel-steven-bollmann ; https://www.11880.com/branchenbuch/schenefeld-mittelholstein/060442230B112541437/schrotthandel-steven-bollmann.html (Abruf 07.10.2026)]
 
 ### Recherche 04.10.2026
 

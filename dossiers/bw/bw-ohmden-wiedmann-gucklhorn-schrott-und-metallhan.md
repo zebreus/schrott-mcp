@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: 'Schrottplatz / Schrott- und Metallhandel'
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchenverzeichnisse führen Wiedmann & Gücklhorn am Stahlackerweg 95, 73275 Ohmden, mit 07023 7449999; ein Betreiberauftritt oder belastbarer Register-/Kommunalbeleg fehlt. Mobilnummer und E-Mail aus einem weiteren Verzeichnis widersprechen den stärker verbreiteten Kontaktdaten und bleiben unbestätigt. Die nur aggregatorenbasierte Aktivität wird als `pruefung` statt als gesichert aktiv markiert; keine Schließung behauptet.
+
+**Preise:** Ankauf — keine verifizierten Kurse; Verkauf — keine Angaben; Gebühren — keine Angaben. Auch die bestehende Adresse erst nach Identitätsbestätigung geokodieren.
 
 ## Timeline
+
+### Nachprüfung 07.10.2026
+
+- [Korrektur 07.10.2026: Die vorhandenen Standort-/Telefonangaben stammen ausschließlich aus Branchenverzeichnissen; der zusätzliche Mobil-/E-Mail-Eintrag steht nur bei Sellwerk und wurde nicht dem Händler als gesicherter Kontakt zugerechnet. Nach dem Repo-Belegstandard sind diese Verzeichniseinträge Leads, keine unabhängigen Betreiberbelege. Daher Status `aktiv`→`pruefung`; keine Schließung behauptet, Frontmatter-Leads und Historie bleiben sichtbar. Ankauf-, Verkaufs- und Gebührenpreise sind weiterhin unbelegt. Vor Geokodierung Betreiber-/Kommunalbestätigung einholen; Quelle: https://www.schrottplatz.org/ohmden/schrott-wiedmann-guecklhorn-aYEPDL.html ; https://www.misterwhat.de/company/97389-wiedmann-guecklhorn-ohmden ; https://www.schrottplatz-info.de/schrottplatz/Ohmden/Wiedmann-und-Guecklhorn ; https://sellwerk.de/firmenprofil/wiedmann--guecklhorn-schrott--und-metallhandel]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

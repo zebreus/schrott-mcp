@@ -112,8 +112,14 @@ direct build input — no JSON detour:
   build LOUDLY (unknown/duplicate keys, block scalars, missing slug).
   Slugs (`<state>-<city>-<name>`) are derived once and never hand-edited.
 - `crates/ingestion/src/seed_traders.rs` — parses/validates the embedded
-  via a payload hash in `extra_json.seed_hash`, so `updated_at` keeps
+  seeds and applies changes via a payload hash in `extra_json.seed_hash`, so `updated_at` keeps
   meaning "last real change" and `first_seen_at` survives.
+- Evidence-backed `lat`/`lon` frontmatter values are imported as a WGS84
+  pair and override existing DB coordinates, including on later dossier
+  changes. Both absent/empty preserve existing coordinates; one-sided,
+  non-finite or out-of-range pairs fail validation. Rust does not geocode
+  addresses. Sources and point accuracy belong in the dossier Timeline;
+  removing a pair does not clear DB GEO. See [seed semantics](docs/trader-seed.md).
 - `cargo test` validates the whole corpus (unique slugs, enum values,
   state codes, URL shapes, idempotency) — the CI gate for seed changes.
 

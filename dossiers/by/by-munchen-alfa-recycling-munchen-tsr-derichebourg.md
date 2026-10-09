@@ -6,6 +6,8 @@ state: BY
 city: München
 street: Rupert-Bodner-Straße 25
 postcode: '81245'
+lat: '48.1660421'
+lon: '11.4253651'
 phone: '+49 89 863006-0'
 email: info@alfa-recycling.de
 opening_hours: 'Mo-Do 07:00-16:00, Fr 07:00-14:00; Pausen 09:00-09:30 und 12:30-13:00'

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Weitzel bleibt ein nicht primär bestätigter Schrott-/Entrümpelungslead. Kleiner Weg 39, 67466 Lambrecht und 0176 27619999 stammen laut Historie aus Verzeichniskonsens, nicht aus drei unabhängigen Betreiber-/Registerquellen. Der andere Suchtreffer Dachdeckerei Weitzel C., Hauptstraße 33A ist ein Namensvetter, kein belegter Nachfolger oder Ersatzstandort.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Zahlenpreise. Offen: ausgeschriebener Inhaber, heutige Tätigkeit, Abgrenzung Entrümpelung gegen vergüteten Metallankauf, Bestätigung der Adresse durch Gewerberegister Lambrecht. Vorher keine Koordinaten/Anlieferung ableiten.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Quellengewicht berichtigt: Cylex/11880/Infobel-Konsens vom 02.10. ist weiterhin ausschließlich Verzeichnislead. Suchtreffer Dachdeckerei Weitzel C. an Hauptstr. 33A nicht zugeordnet; keine Namenskettenquelle. NorthData-Direktsuche Weitzel Lambrecht HTTP 429, kein neuer Register-Negativnachweis. Vorhandene Adress-/Telefonfelder als Altangaben erhalten, status pruefung. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Zahlen; Original-Gewerbeauskunft erforderlich. Quelle(n): https://www.northdata.de/?query=Weitzel%20Lambrecht (blockiert) ; https://www.dasoertliche.de/Themen/Dachdeckerei-Weitzel-C-Lambrecht-Hauptstr (nur Abgrenzungslead)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

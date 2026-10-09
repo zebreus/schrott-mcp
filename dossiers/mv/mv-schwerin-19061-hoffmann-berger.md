@@ -28,6 +28,10 @@ Rechtsform- und Zuordnungsrisiko: Die benannte OHG (HRA 59, Abschlepp-/Bergungsd
 
 ## Timeline
 
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Kein OHG-spezifischer, aktueller Schrott-/Fahrzeugankauf oder Preis belegt; Leistungen der gleichnamigen GmbH nicht auf die OHG übertragen.; VERKAUF: Keine OHG-spezifische Teile-/Materialpreisliste belegt.; GEBÜHREN: Keine OHG-spezifischen Abschlepp-, Annahme- oder Verwertungsgebühren belegt.; GEOKODIERUNG: OHG-Standort und genaue Anschrift unbekannt. Carl-von-Linde-Str. 4 gehört zum getrennten GmbH-Kandidaten und darf nicht für diese Zeile geokodiert werden.; Quelle: NorthData HRA 59 und getrennte GmbH-/MAB-Profile sowie Platzhalterseite, dokumentiert in Recherche 05.10.2026: https://www.northdata.de/Hoffmann%20%26%20Berger%20OHG%20-%20Abschleppu%C2%B7%20Bergungsdienst,%20Schwerin/HRA%2059 ; https://www.abschleppdienst-schwerin.de/.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - unklar (Lagern) — nur Register (PRÜFFALL)

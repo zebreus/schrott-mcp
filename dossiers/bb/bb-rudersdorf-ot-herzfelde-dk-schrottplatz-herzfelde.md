@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: 'unbekannt'
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„DK Schrottplatz Herzfelde“ ist nur über Branchenverzeichnisse auffindbar. Die Treffer stimmen bei Ahornstr. 7/7–11 überein, widersprechen sich aber bei der Telefonnummer; Betreiber, tatsächliche Annahmestelle und heutige Aktivität sind nicht unabhängig bestätigt. Status pruefung bedeutet keine Schließung. In den geprüften Treffern keine Preisangabe; Ankaufspreise, Verkaufspreise und Gebühren offen.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: status aktiv → pruefung — erneute Namenssuche ergab weiterhin nur Verzeichnistreffer: Gelbe Seiten und Das Telefonbuch nennen 0176 61 39 83 53, 11880 dagegen 0176 61807469. Das sind keine unabhängigen Betreiberbelege; keine Telefonnummer/Adresse ergänzt und keine Schließung behauptet. Kein verifizierter Ankauf, keine numerische Ankaufs- oder Verkaufspreisliste und keine Gebühren gefunden. Nächster Schritt: Betreiber-/Gewerberegisterbestätigung. Quelle(n): https://www.gelbeseiten.de/gsbiz/0ee43ded-cbed-4ff2-9820-e299f57e5f6c (Aggregator); https://adresse.dastelefonbuch.de/R%C3%BCdersdorf%20bei%20Berlin/3-Schrott-DK-Schrottplatz-Herzfelde-Herzfelde-Ahornstr.html (Aggregator); https://www.11880.com/branchenbuch/herzfelde-bei-strausberg/060440092B114037525/dk-schrottplatz-herzfelde.html (Aggregator).]
 
 ### Recherche 01.10.2026
 

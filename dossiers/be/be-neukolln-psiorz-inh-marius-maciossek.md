@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Name und Rotkehlchenweg 2 beruhen auf historischen Branchen-/Schrottplatzverzeichnissen; psiorz.de lieferte zuletzt nur eine geparkte Standardseite. Weder heutiger Betreiber noch Fortbestand oder Schrottannahme sind belegt. Keine aktuellen ANKAUF-Preise, VERKAUF-Preise oder Gebühren zurechenbar; `unbekannt` bleibt.
 
 ## Timeline
 

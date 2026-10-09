@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Die bisherigen Verzeichnisse nennen für „Intlekofer (Schrott)“ widersprüchlich Griesheimer Straße 27 bzw. 66; die gespeicherte Telefonnummer 0781 9708589 ist ebenfalls nur verzeichnisgestützt. Eine Betreiberwebsite oder ein eindeutig zugeordneter Registerbeleg fehlt, daher bleiben Straße und Telefonnummer Klärfälle und `status: pruefung` bestehen. Keine verifizierte Ankaufspreisliste; Verkaufspreise und Gebühren nicht belegt.
+Die bisherigen Verzeichnisse nennen für „Intlekofer (Schrott)“ widersprüchlich Griesheimer Straße 27 bzw. 66; die gespeicherte Telefonnummer 0781 9708589 ist ebenfalls nur verzeichnisgestützt. Eine Betreiberwebsite oder ein eindeutig zugeordneter Registerbeleg fehlt, daher bleiben Straße und Telefonnummer Klärfälle und `status: pruefung` bestehen.
+
+**Preise:** Ankauf — keine verifizierte Preisliste; Verkauf — keine Preise belegt; Gebühren — keine Gebührenliste belegt. Die widersprüchliche Hausnummer muss vor jeder Geokodierung geklärt werden.
 
 ## Timeline
 

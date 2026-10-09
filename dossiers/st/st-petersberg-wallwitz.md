@@ -24,9 +24,21 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Ortsbezug Wallwitz liefert mehrere voneinander abweichende Autoverwertungs-Kandidaten, aber noch keinen verifizierten Match für den Seed: ein Aggregator nennt eine Kolbe/Beutel-GbR in Am Kulturhaus 7, ein weiterer Branchenhinweis eine Rasche KG in Am Kulturhaus 2. Ein aktiver eBay-Shop und Facebook-Auftritt von BK Fahrzeugverwertung Wallwitz belegen einen dritten Kandidaten, jedoch keine rechtliche oder betriebliche Verbindung zu den beiden Einträgen oder zum Seed. Kandidaten nicht zusammenführen.
+
+**Preise:** **Ankauf** – keine dem Seed oder einem rechtlich bestätigten Zielbetrieb zuordenbaren Schrott-/Fahrzeugankaufspreise. **Verkauf** – im eBay-Shop von BK Fahrzeugverwertung sind einzelne Ersatzteil-/Shopangebote mit Einzelpreisen sichtbar; dies sind keine Schrottankaufskurse und der Shop ist nicht dem Seed zugeordnet. **Gebühren** – keine verifizierte Tarif-/Abholgebührenliste.
+
+**Geokodierung:** Am Kulturhaus 2 und 7 sind widersprüchliche Aggregator-Kandidaten; BK-Standort nicht bestätigt. Keine Adresse geokodieren oder ins Frontmatter übernehmen.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Shop-/Impressumsprüfung)
+
+- [Recherche 08.10.2026: eBay-Shop BK Fahrzeugverwertung Wallwitz direkt gelesen, aktive Verkäuferangebote mit Einzelpreisen, z.B. Stahlwolle-Meterware 1,25 €, Bremsenreiniger 10 l 45,90 €, Lack-Spraydose 400 ml 16,90 €; dies sind VERKAUFSangebote (Ware/Werkstattbedarf), keine Schrottankaufskurse oder Fahrzeugprämien. Die vom Portal dargestellten Grundpreise teils rechnerisch unplausibel, deshalb nicht übernehmen. Shop-Impressum-Tab beim Einzelabruf durch Identitätsprüfung blockiert. Örtliche liefert neuen Website-Lead fahrzeug-verwertung-wallwitz.de für Martin Kolbe & Ricardo Beutel GbR, Am Kulturhaus 7 / 06193 / 034606 20449; HTTP-Direktabruf dieser Domain 500, keine Betreiberidentität daraus verifiziert. Regional-seiten nennt BK mit gleicher Adresse/Nummer, bleibt Aggregator. Keine Verbindung Kolbe/Beutel ↔ BK ↔ Rasche oder eindeutige Seed-Zuordnung bewiesen, daher kein Name-/Adress-/Website-Fill. ANKAUF: keine Liste; GEBÜHREN: kein bestätigter Tarif. Offen: Verkäufer-Impressum, Gewerbe-/Registerkette und Adresse Am Kulturhaus 2 versus 7. Quelle(n): https://www.ebay.de/str/bkfahrzeugverwertungwallwitz ; https://www.ebay.de/str/bkfahrzeugverwertungwallwitz?_tab=about (Verifikationssperre) ; https://www.dasoertliche.de/Themen/Martin-Kolbe-Ricardo-Beutel-GbR-Fahrzeugverwertung-Petersberg-Wallwitz-Am-Kulturhaus ; http://www.fahrzeug-verwertung-wallwitz.de (HTTP 500) ; https://regional-seiten.de/adressen/bk-fahrzeugverwertung-wallwitz.]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gegenüberstellung der drei Kandidaten ohne Identitätsübernahme: Das Örtliche nennt Martin Kolbe & Ricardo Beutel GbR/Fahrzeugverwertung, Am Kulturhaus 7; recyclingpool nennt Kfz-Verwertung Wallwitz Heinrich Rasche KG, Am Kulturhaus 2. Beide sind Verzeichnis-/Branchenportalhinweise. Die Facebook-Seite und der eBay-Shop nennen BK Fahrzeugverwertung Wallwitz; im Shop sind individuelle Waren-/Ersatzteilangebote und Einzelpreise zu sehen, aber kein Schrottankaufspreisblatt und kein Beleg, dass BK mit dem Seed, Kolbe/Beutel oder Rasche identisch ist. **Ankauf:** kein zuordenbarer Preis; **Verkauf:** nur individuelle Shoppreise eines unbestätigten Kandidaten; **Gebühren:** keine Tarifliste. Kein Frontmatter-Fill/keine Geokodierung; Quelle: https://www.dasoertliche.de/Themen/Martin-Kolbe-Ricardo-Beutel-GbR-Fahrzeugverwertung-Petersberg-Wallwitz-Am-Kulturhaus ; https://www.recyclingpool.de/abfallwirtschaft-kfz-verwertung-wallwitz-heinrich-rasche-kg-in-wallwitz-815 ; https://www.facebook.com/BkFahrzeugverwertungWallwitz?locale=de_DE ; https://www.ebay.de/str/bkfahrzeugverwertungwallwitz]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

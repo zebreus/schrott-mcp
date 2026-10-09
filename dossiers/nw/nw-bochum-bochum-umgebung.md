@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Bochum-Umgebung“ ist ein nicht eindeutiger Importname ohne identifizierbaren Firmennamen. Die Wiederholungsrecherchen vom 1. und 2. Oktober sowie eine erneute Suche am 7. Oktober ergaben keine Betreiberwebsite, passende Registerfirma, konkrete Betriebsadresse oder bestätigte Telefonnummer. Der Eintrag bleibt ein ungelöster Lead und wird nicht mit einem der vielen tatsächlich in Bochum tätigen Schrotthändler zusammengeführt.
+
+**Preise:** Ankauf: keine zuordenbare Preisliste oder Ankaufsbestätigung. Verkauf: keine Preisliste. Gebühren: keine Angaben. **Offen:** vollständiger Betreibername oder belastbarer Ursprungsbeleg, bevor Kontakt-/Standortdaten ergänzt oder geocodiert werden.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Namens- und Ortsabfragen zu „Bochum-Umgebung“ plus Schrott/Schrottabholung erneut geprüft. Kein identifizierbarer Betreiber, Registereintrag, eigener Webauftritt oder unabhängiger Standortbeleg gefunden; der Ausdruck ist eine Gebietsbeschreibung und kein eindeutiger Firmenname. Keine Frontmatter-Fills, kein Statuswechsel. Ankauf/Verkauf/Gebühren: keine Preislisten oder Konditionen zuordenbar. Offen bleibt, auf welchen konkreten Betrieb der Importbeleg zielte; Quelle: bisherige Negativrecherchen 01./02.10.2026 in dieser Timeline; https://www.google.com/search?q=%22Bochum-Umgebung%22+Schrotthandel]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

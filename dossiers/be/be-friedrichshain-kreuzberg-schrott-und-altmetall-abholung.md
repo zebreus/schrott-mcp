@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seedadresse Möckernstr. 139, 10963 Berlin wird in Verzeichnissen mit der generischen Bezeichnung "Schrott und Altmetall Abholung" wiederholt, ergänzt um ein Mobiltelefon und eine E-Mail-Adresse. Betreiberidentität und Geschäfts-/Privatanschrift sind nicht bestätigt; Status `pruefung`. **Ankauf:** keine gesicherten Angaben oder Preise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Wiederholte Websuche findet weiter Drittanbieterprofile für "Schrott und Altmetall Abholung" an Möckernstr. 139, 10963 Berlin; Suchmachinenauskunft zeigt 0155 10713536, Gelbe Seiten/YellowMap weitere Profilvarianten. Kein zuordenbares Betreiber-Impressum, Register-/Kommunalbeleg oder Betreiber-Website gefunden; Varianten können Dubletten sein. Keine Kontaktdaten übernommen und keine Geocodierung, da Betriebsstätte unbestätigt. **Preise:** keine Ankaufspreise, Verkaufspreisliste oder Gebühren gefunden. Quelle(n): https://www.gelbeseiten.de/gsbiz/ae995147-4089-44c8-8e94-15a6996a6d7d ; https://www.yellowmap.de/Details/LS7agu2D8hzjjs7Ouq_p0g==.aspx ; https://suchmaschinenauskunft.com/dienstleistungen-handwerk/berlin/schrott-und-altmetall-abholung]
 
 ### Recherche 01.10.2026
 

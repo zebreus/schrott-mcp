@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Köcher Stefan“ liegen weiterhin zwei widersprüchliche Verzeichnis-Cluster vor: Heinrich-von-Gagern-Straße 17, 67549 Worms mit Tel. 06241 56721 vs. Nordendstraße 10, 67547 Worms mit Tel. 06241 45385. Kein Betreiber-/Registerbeleg verbindet diese Treffer; keine Adresse/Kontakte übernehmen, Status `pruefung`.
+
+**Preise:** ANKAUF: keine Bedingungen oder Preise verifiziert. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Vorhandene widersprüchliche Lead-Sets nochmals getrennt bewertet: Heinrich-von-Gagern-Str. 17 / 06241 56721 vs. Nordendstr. 10 / 06241 45385; beide stammen aus Branchenverzeichnissen, und keine Primärquelle, Registerzuordnung oder Namensbrücke wurde gefunden. Die widersprüchlichen Orte/PLZ können unterschiedliche Betriebe oder veraltete Profile bedeuten; eine Wahl zwischen ihnen wäre unbelegt. Keine Feldänderung. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Konditionen, Preise oder Tarifblätter. Offen: Betreiber-Vorname/Rechtsträger und welcher Wormser Standort, falls überhaupt, zum Seed gehört; Quelle: bereits dokumentierte Verzeichnis-Leads: Gelbe Seiten, schrottplatz-info, oeffnungszeitenbuch, branchenbuchdeutschland; branchen-info, Firmania und Cylex (Einzelbeleg je Lead-Cluster; kein Primärbeleg).]
 
 ### Recherche 01.10.2026
 

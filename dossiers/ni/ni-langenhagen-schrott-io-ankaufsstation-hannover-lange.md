@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische Ankaufsstation mit unbrauchbarer Betreiberdomain. Neuer Instagram-Account schrott.io ist im Suchindex als Online-Altmetallplattform greifbar, der direkte Abruf liefert aber keine lesbaren Profildaten/Adresse. Keine Bestätigung einer heute bestehenden Langenhagener Station an der Verzeichnisadresse MagdeburgerStr.7. Domainausfall beweist keine Betriebsschließung; Status `pruefung`. Alte Aussage DNS tot nicht mit dem früher berichteten301 vereinbaren und nicht als gesicherte DNS-Messung fortschreiben.
+
+**Ankauf:** historisches Plattformversprechen, keine aktuelle stationäre Vergütung/Kurse bestätigt. **Verkauf/Gebühren:** keine zugeordneten Listen. Keine Übernahme benachbarter Hannover-/Langenhagener Händler als Nachfolger ohne Kettenbeleg.
 
 ## Timeline
+
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Domainabruf erneut Transportfehler, keine aktuelle Redirect-/DNS-Messung gelungen; frühere Tot-/Weiterleitungsbeobachtungen nicht als Schließung interpretieren. Instagram schrott.io im Suchindex Online-Plattform für fairen Altmetallankauf, direkter Abruf nur Bild-/Loginhülle ohne lesbaren Standort, Betreiberidentität oder Datierung. Kein Nachweis der Langenhagener Annahmestelle; MagdeburgerStr.7 bleibt 11880-Lead. Keine aktuellen Ankauf-/Verkaufs-/Gebührenlisten bestätigt, kein Fill/Statuswechsel. Quelle(n): https://schrott.io/ ; https://www.instagram.com/schrott.io/ ; https://www.11880.com/suche/schrotthandel/langenhagen (Suchindexlead)]
 
 ### Recherche 04.10.2026
 

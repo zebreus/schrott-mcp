@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Autoverwertung-Seite des Carry-Freund-Kandidaten eigenständig erneut live gelesen: 60 Euro Entsorgung komplett selbst angelieferten Altfahrzeugs; Fahrzeuge rollfähig, zugänglich, dicht und frei von Fremdabfällen; Reifen5 Euro/Stück, Abmeldeservice40 Euro; Motoren und Eisenschrott kostenlos angenommen. Fahrzeugankauf abhängig von Typ/Baujahr/Zustand, inkomplette Fahrzeuge/Caravans auf Anfrage. Verkauf geprüfter gebrauchter Ersatzteile ohne numerische Liste. Damit Gebührenfunde bestätigt, keine Ankaufpreisliste und keine garantierte Vergütung für Metall. Thomas→Carry-Kette weiterhin nicht durch diese Seite bewiesen; weder Betreiberadresse noch Gebühren in Preis-DB/Thomas-Frontmatter übernommen. Offen: unabhängige Inhaberkette und widersprüchliche Freitagszeiten; Quelle: https://www.autoverwertung-freund.de/autoverwertung.htm .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - AV

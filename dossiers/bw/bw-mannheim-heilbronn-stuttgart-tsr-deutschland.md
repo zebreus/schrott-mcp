@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Dossier fasst drei Betreiberstandorte zusammen; deshalb bleiben Einzeladresse und einheitliche Kundenbedingungen aus den skalaren Feldern heraus. Betreiberseiten belegen Mannheim (Lagerstraße 25, Warenannahme Mo–Fr 06:00–16:00), Heilbronn (Benzstraße 2; Schrott/Altmetall Mo–Fr 07:00–15:30, NE-Metalle nur bis 15:00) und Stuttgart (Am Westkai 15, Mo–Fr 07:00–15:45; keine Privatkundenannahme). Preise und Gebühren sind standort-/materialabhängig und nicht als öffentliche Zahlenliste belegt.
+
+**Preise:** Ankauf — keine veröffentlichten numerischen Kurse gefunden; Verkauf — kein öffentliches Verkaufspreisblatt; Gebühren — keine einheitlichen Annahme-, Abhol- oder Containergebühren belegt. Privatkundenannahme ist für Stuttgart ausdrücklich ausgeschlossen; Bedingungen nicht auf die anderen Filialen übertragen. Keine Geokodierung in diesem Mehrstandort-Dossier; bei Bedarf je Filiale einzeln.
 
 ## Timeline
 

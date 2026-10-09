@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein aktueller 11880-Eintrag liefert einen konkreten Kandidaten "Johny Autoankauf Autokauf Duisburg" an der Mercatorinsel 36 mit 0203 80393030 und Verzeichnis-Kategorie Altmetallrecycling. Es fehlt ein Betreiber-/Registerbeleg und die Bezeichnung weist ebenso auf Fahrzeugankauf hin, nicht zwingend auf losen Schrottankauf. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Preisliste; **Gebühren:** keine Angaben. Daten nicht in die Felder übernommen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: 11880 führt "Johny Autoankauf Autokauf Duisburg", Mercatorinsel 36, 47119 Duisburg, Telefon 0203 80393030 und Kategorie Altmetallrecycling; 11880 weist den Eintrag als zuletzt aktualisiert am 04.10.2026 aus, Eintragsdaten vom 14.02.2026. Das ist ein einzelner Aggregator-Beleg ohne Website, E-Mail oder Betreiberbestätigung. Autoankauf kann Fahrzeughandel statt allgemeinem Metallschrott bedeuten; kein Merge mit anderen Ruhrort-Händlern. Keine Frontmatter-Änderung. **Ankauf:** keine Ankaufpreisliste gefunden; **Verkauf:** keine Verkaufspreise oder Produktliste gefunden; **Gebühren:** keine Gebührenangaben gefunden. Quelle(n): https://www.11880.com/branchenbuch/duisburg/060440092B113865961/johny-autoankauf-autokauf-duisburg.html]
 
 ### Recherche 01.10.2026
 

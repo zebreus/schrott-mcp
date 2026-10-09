@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zwei nicht deckungsgleiche Standortspuren sind zu trennen: eine Drittanbieter-Spiegelung eines GESA-Datenstands führt einen Demontagebetrieb **Autoverwertung Auto-Staron** an Hauptstraße 96, 01809 Heidenau; die live Betreiberwebsite **Autoverwertung Staron / Karl Staron** nennt dagegen Talstraße 68, 01156 Dresden ausdrücklich als Büro ohne Kundenverkehr und bewirbt kostenlose Fahrzeugabholung u. a. in Heidenau. Ob die Heidenauer Adresse die genehmigte Betriebsstätte derselben Firma ist, bleibt ungeklärt; die Betreiberseite ist kein Beleg für einen Annahmehof in Heidenau.
+
+**Preise:** **Ankauf** — Restwertzahlung für einzelne Fahrzeuge abhängig vom konkreten Fahrzeug, ohne veröffentlichte Beträge; kein allgemeiner Metallankaufspreis belegt. **Verkauf** — keine Preisliste. **Gebühren** — Betreiber wirbt mit kostenloser Fahrzeugabholung in Heidenau, aber keine allgemeine Verwertungs-/Entsorgungsgebührentafel; Kosten der Fahrzeugannahme schriftlich klären. **Geokodierung:** Heidenau Hauptstraße 96 bis zum Abgleich mit dem amtlichen GESA-Datensatz nicht als Auto-Staron pinnen. Dresdner Talstraße 68 ist laut Betreiber Büro ohne Kundenverkehr und kein Kunden-/Annahmepunkt.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: GESA-Primärweg konkretisiert: altfahrzeugstelle.de leitet auf offizielle GADSYS/GESA-Hilfe weiter und verlinkt fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung. Direkter Registerabruf liefert nur Vaadin-JavaScript-Hülle, keinen individuell auswertbaren Staron-Datensatz; Spiegelregister deshalb nicht zur amtlichen Bestätigung hochgestuft. Betreiber index.html erneut gelesen: Karl Staron, Büro Talstr. 68 ohne Kundenverkehr, kostenlose Abholung Dresden/Heidenau/Pirna, Restwert je Zustand/Alter/Modell, keine Beträge. GESA erläutert außerdem, dass kostenlose Herstellerrücknahme und Transportkosten zu trennen sind; daraus keine pauschale kostenlose Fahrzeugannahme bei Staron ableiten. Hauptstr. 96 weiterhin ungeklärt, keine Standort-/Kontaktübertragung. Ankauf individuell/unbeziffert, Verkauf keine Liste, Gebühren kostenlose Abholung laut Betreiber, Annahmegebühren offen; Quelle(n): https://autoverwertung-staron.de/index.html ; https://www.altfahrzeugstelle.de/ ; https://hilfe.gadsys.de/fbrwiki/gesa-info ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung.]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die direkte Betreiberwebsite https://autoverwertung-staron.de benennt Karl Staron/Autoverwertung Staron, Talstraße 68, 01156 Dresden als Büro „kein Kundenverkehr“, beschreibt Abholung von Altfahrzeugen in Dresden, Heidenau und Pirna, eine Restwertzahlung nur fahrzeugabhängig sowie zertifizierte Entsorgung. Eine nichtamtliche Spiegelung des GESA-Datenstands 11.08.2026 führt dagegen „Autoverwertung Auto-Staron“, Hauptstraße 96, 01809 Heidenau, als Demontagebetrieb mit Zertifikat ZAMS00100050. Es ist offen, ob Hauptstraße 96 eine aktive Betriebsstätte derselben Firma, eine frühere Adresse oder eine Fehlzuordnung ist; keine Adressmigration/Verknüpfung in Frontmatter. ANKAUF: Restwertangebot je Fahrzeug, ohne Beträge; keine allgemeinen Schrottankaufpreise. VERKAUF: keine Preisliste. GEBÜHREN: kostenlose Abholung laut Betreiber, aber keine bezifferte/umfassende Annahmegebühr bestätigt. Geokodierung Heidenau bis zum direkten amtlichen Register- und Betreiberabgleich aussetzen; Dresdner Adresse nicht als Kundenstandort pinnen; Quelle: https://autoverwertung-staron.de ; https://schrottregister.pages.dev/betrieb-autoverwertung-auto-staron-heidenau ; https://schrottregister.pages.dev/ort-heidenau.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

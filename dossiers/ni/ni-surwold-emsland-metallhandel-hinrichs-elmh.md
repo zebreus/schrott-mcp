@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-„Emsland Metallhandel Hinrichs (ELMH)“ in Surwold bleibt unidentifiziert. Die Betreiber-Domain ist beim erneuten Direktabruf nicht erreichbar; die Suche lieferte nur ähnlich benannte, aber ortsfremde Metallbau-/Metallbau-Hinrichsen-Treffer. Keine Kontakt-, Annahme- oder Preisangaben als Fakten übernommen.
+„Emsland Metallhandel Hinrichs (ELMH)“ in Surwold bleibt unidentifiziert. Die Betreiber-Domain ist beim erneuten Direktabruf nicht erreichbar; die Suche lieferte nur ähnlich benannte, aber ortsfremde Metallbau-/Metallbau-Hinrichsen-Treffer. Keine Kontakt- oder Annahmeangaben als Fakten übernommen.
+
+- **Ankauf:** unbestätigt; keine verifizierten Ankaufskurse.
+- **Verkauf:** keine Preisliste.
+- **Gebühren:** keine Gebühren-/Abholpreisliste.
+- **Geokodierung:** mangels bestätigter Anschrift keine Geokodierung.
 
 ## Timeline
 

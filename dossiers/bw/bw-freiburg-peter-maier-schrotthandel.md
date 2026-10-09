@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Peter Maier Schrotthandel“ in Freiburg fehlt weiterhin ein zurechenbarer Betreiberauftritt, Registerbeleg oder zweiter belastbarer Identitätsnachweis. Die Suche vom 03.10.2026 belegt weder eine Betriebseinstellung noch einen tatsächlichen Standort; `status: pruefung` bleibt statt einer Schließungsbehauptung.
+
+**Preise:** Ankauf — keine Preisliste; Verkauf — keine Angaben; Gebühren — keine Angaben. Ohne bestätigte Straße/PLZ keine Geokodierung.
 
 ## Timeline
 

@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt von H&S Autoverwertung Naumann GbR beschreibt eine zertifizierte Autoverwertung mit Altautoannahme und Verwertungsnachweis, Abmeldung/Abholung sowie Verkauf von Gebrauchtwagen und Ersatzteilen. Die vorhandenen Kontakt-/Adressangaben stehen bislang nur im Betreiberauftritt und bleiben deshalb wie zuvor ausschließlich in der Timeline; keine eigenständige Register- oder kommunale Bestätigung gefunden.
+
+**Preise (Abruf 07.10.2026):** **Ankauf** – keine konkreten Fahrzeugankauf-/Restwertbeträge oder Teileankaufpreise veröffentlicht. **Verkauf** – Gebrauchtwagen/Ersatzteile angeboten, aber keine lesbare öffentliche Preisliste. **Gebühren** – kostenlose Abgabe eines Altfahrzeugs wird ausdrücklich beworben; daraus folgt keine kostenlose Abholung oder Gebührenfreiheit weiterer Leistungen.
+
+**Geokodierung:** Die Adresse bleibt ungefüllt; Betreiberangaben allein wurden nach dem bestehenden Belegstandard nicht ins Frontmatter übertragen. Keine neue Geokodierung.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Aktuelle Leistungs-, Angebots-, Kontakt- und Impressumsseiten der Betreiberwebsite geprüft. Leistungen: zertifizierte Autoverwertung/Altautoannahme mit Verwertungsnachweis, Gebrauchtwagen und Ersatzteile; Kontaktseite nennt Mo–Fr 08:00–18:00, Samstag nach Vereinbarung. Die Leistungsseite sagt „kostenlos“ zur Altautoabgabe. Das ist ein Gebührenhinweis für die Abgabe am Standort und kein Beleg für kostenlose Abholung. In den auslesbaren Angebots-/Leistungsseiten keine konkreten Fahrzeugankaufsummen oder Verkaufspreise für Teile gefunden. Bestehende leere Frontmatter-Kontaktfelder bleiben leer, da für die GbR keine unabhängige zweite Identitäts-/Adressquelle vorliegt; website/status unverändert; Quelle: https://www.autoverwertung-merseburg-querfurt.de/leistungen ; https://www.autoverwertung-merseburg-querfurt.de/aktuelle-angebote ; https://www.autoverwertung-merseburg-querfurt.de/kontakt ; https://www.autoverwertung-merseburg-querfurt.de/impressum]
 
 ### Recherche 01.10.2026
 

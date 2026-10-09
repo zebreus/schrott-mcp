@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Eintrag „Joa“ mit Seed-Fragment „Streithühle 4“ bleibt ungeklärt. Der bereits dokumentierte Ortsregister-Auszug führt dort keinen Joa, sondern AVR GmbH an der Industriestraße 9; die Adresse darf nicht auf Joa übertragen werden. Ein zusätzlicher Webtreffer zu Stefan Joa betrifft Wölfersheim (Hessen) und ist ausdrücklich kein Identitätsbeleg für Altenglan. Status `pruefung`.
+
+**Preise:** ANKAUF: für Altenglan keine Preise/Annahmebedingungen belegt. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben. Der getrennte Wölfersheim-Auftritt wirbt mit Tagespreisen, aber ohne Beträge und ist nicht diesem Dossier zuzurechnen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Suchergebnis-Gegenprobe fand einen Betreiberauftritt „Stefan Joa Containerdienst“ mit Sitz in Wölfersheim, Hessen, Tel. 06036 988872; der Betreiberauftritt ordnet den Betrieb ausdrücklich Wölfersheim/Wetterau zu, nicht Altenglan. Dieser gleichnamige, räumlich klar abweichende Treffer wird nicht mit dem Seed verbunden. Der frühere Register-/EfB-Abgleich für Altenglan bleibt maßgeblich: nur AVR GmbH, Industriestraße 9, kein Joa. Keine Feldänderung. ANKAUF: die Wölfersheimer Seite nennt nur Tagespreise, keine Zahlen; für Altenglan nichts belegt. VERKAUF: keine Liste. GEBÜHREN: keine Tarife; Quelle: https://www.stefan-joa.de/ ; schrottregister ort-altenglan (GSA/EfB-Extrakt, Stand 11.08.2026, bereits dokumentiert)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

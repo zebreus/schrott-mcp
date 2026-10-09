@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Import weist Kopp am Branchweilerhof 17b aus. Bisherige Verzeichnis-Leads führen Marvin Kopp als Schrott- und Metallhandel, aber es fehlt eine verifizierte Betreiber-/Registerquelle; die über ein Verzeichnis verlinkte mutmaßliche Website lieferte 404. Deshalb weder Anschrift noch Kontakte oder aktuelle Betriebsaufnahme bestätigt. ANKAUF: keine verifizierten Preise/Bedingungen; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Status `pruefung` bleibt angemessen.
 
 ## Timeline
 

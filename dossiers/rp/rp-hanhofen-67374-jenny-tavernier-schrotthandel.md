@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Jenny Tavernier Schrotthandel“, Silzweg 38, Hanhofen, liegt weiterhin kein Betreiber- oder Registerbeleg vor. Ein lokales Branchenbuch nennt stattdessen andere, räumlich getrennte Schrott-/Container-Leads im Silzweg (Rudolf Lehr Nr. 16, Richard/Iris Lehr Nr. 19, Josef Kreischer Nr. 31); diese belegen weder Nr. 38 noch Tavernier und dürfen nicht zusammengeführt werden. ANKAUF: keine Preise oder Bedingungen belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Status `pruefung` bleibt.
 
 ## Timeline
 
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrotthandel
 - urspr. Website-Angabe: keine
 - Adresse: Hanhofen 67374, Silzweg 38
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Gegenprüfung im lokalen Stadtbranchenbuch Hanhofen fand Schrott-/Container-Leads für Rudolf Lehr (Silzweg 16, Containerdienst), Richard/Iris Lehr (Silzweg 19, Schrott) und Josef Kreischer (Silzweg 31, Schrott- und Metallhandel), aber keinen Jenny-Tavernier-Eintrag bzw. keinen Treffer an Silzweg 38. Das ist ein begrenzter Verzeichnisabgleich, kein Negativbeweis für eine Geschäftsaufgabe. Keine der benachbarten Firmen wurde mit dem Seed zusammengeführt; Adresse/Betreiber bleiben ungeklärt. Keine Preisquelle für ANKAUF, VERKAUF oder GEBÜHREN. Quelle(n): https://hanhofen.stadtbranchenbuch.com/ (Verzeichnislead, Abruf 07.10.2026).]

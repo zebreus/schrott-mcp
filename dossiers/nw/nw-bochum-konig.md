@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schrotti König“ ist weiterhin nur als mobiles Altmetallrecycling-Verzeichnisprofil greifbar. Berghofer Heide 64 b und 0160 91019956 sind historische Aggregator-Fills, nicht unabhängig qualifizierte Betreiberfakten; Beschreibung ausdrücklich verzeichnisbasiert. Namenssuche erschließt keine zuordenbare Betreiberwebsite/Registeridentität. Ankauf/Verkauf/Gebühren: keine verifizierten Listen oder Kaufzusage. Offen: vollständiger Inhabername, Gewerbe-/Betreiberkontakt, heutige Abholkonditionen; keine öffentliche Hofannahme aus der Wohn-/Kontaktadresse ableiten, GEO-Nutzung vorab bestätigen.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Bochum
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Erneute Namens-/Ortssuche nach Schrotti König und Betreiberwebsite liefert 11880/Öffnungszeitenbuch sowie unspezifische Namensvetter (u.a. Spedition/Kosmetik), keinen zuordenbaren Betreiber-/Registerbeleg. Vorhandene Adresse/Telefon nicht als zweifach qualifiziert bestätigt: zwei Aggregatoren erfüllen den README-Belegstandard nicht. Keine fremden König-Kontakte übertragen, keine Website oder Hofannahme aus Branchenbezeichnung abgeleitet. Stammdaten unverändert, status pruefung. Owner: Inhaber-Vorname/Gewerbeauskunft und tatsächliche mobile Vergütung/Kosten bestätigen; Ankauf-, Verkauf- und Gebührenlisten nicht verifiziert. Quelle(n): https://www.11880.com/branchenbuch/bochum/060440092B102034544/schrotthandel-schrotti-koenig.html (erneuter Suchlead); https://www.oeffnungszeitenbuch.de/filiale/Bochum-Schrotthandel%2520Schrotti%2520Koenig-3143746Q.html (Suchlead)]

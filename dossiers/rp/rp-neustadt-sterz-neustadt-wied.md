@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Verzeichnis führt „Sicherheitsdienst Norbert Sterz“ an der Mühlenstraße 21 in 53577 Neustadt (Wied); ein Schrottplatzportal hängt daran automatisch umfangreiche Schrott-Annahmekategorien. Weder dieser Lead noch die Seed-Bezeichnung „Sterz“ belegen einen Schrottbetrieb. Verwechslung/Kategorisierungsfehler offen; Status `pruefung` bleibt.
+
+**Preise:** ANKAUF: keine Betreiberpreise; Portal-Kategorien und Mindestmengen sind unbestätigte Vorlagenangaben. VERKAUF: keine Liste. GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Neues Namens-/Adresssignal im Schrottplatzportal: „Sicherheitsdienst Norbert Sterz“, Mühlenstraße 21, 53577 Neustadt (Wied), Statusanzeige „Geschlossen“. Auf derselben Seite erscheinen Schrottannahme-Kategorien und 100-kg-Fe/1-kg-NE-Mindestmengen; wegen der abweichenden Branchenbezeichnung und des Verzeichnischarakters ist das keine belastbare Schrotthändler-Evidenz, sondern möglicher Kategorien-/Datenmischfehler. Kein Register- oder Betreiberbeleg für Seed „Sterz“. Keine Feldänderung, keine Aufgabe des Betriebs ableitbar. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren Preise oder Tarife; Quelle: https://lokaleschrottplatz.de/sicherheitsdienst-norbert-sterz/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

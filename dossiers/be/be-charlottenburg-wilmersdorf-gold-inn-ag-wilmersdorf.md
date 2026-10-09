@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Name Gold Inn AG gehört zur dokumentierten Namenshistorie der DORMERO Hotel AG (HRB 80018 B), deren Gegenstand Hotelbetrieb ist. Das belegt keine Goldankaufsstelle an der früheren Aggregator-Adresse Bundesallee 39–40A; eine Identitätsbrücke zwischen Hotelgesellschaft und Händler-Lead fehlt. Status `pruefung`, keine konkrete Filiale oder Kontaktdaten ergänzt. Keine dem Dossier zurechenbaren ANKAUF-Preise, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
 

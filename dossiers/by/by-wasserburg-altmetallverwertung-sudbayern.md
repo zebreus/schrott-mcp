@@ -24,9 +24,22 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Altmetallverwertung Südbayern GmbH & Co. KG ist als Rechtsträgerin (HRA 10261, AG Traunstein) mit Geschäftsanschrift Am Burgfrieden 1, 83512 Wasserburg a. Inn, registerlich belegt. Eine Beteiligung der Zosseder Holding ist dokumentiert; Zosseders Webseite ordnet den Platz Am Burgfrieden einer Verwaltung mit Salzhallen zu, weist die Südbayern-KG aber nicht als Betreiberin einer öffentlichen Annahmestelle aus. Privat-/Gewerbeannahme und operative Händlerrolle bleiben offen.
+
+- **Ankauf:** keine KG-spezifischen Ankaufpreise belegt; Registergegenstand und allgemeine Recycling-/Containerseiten sind keine Vergütungszusage.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine KG-spezifischen Gebühren/Containerpreise.
+- **Geokodierung:** Am Burgfrieden 1 kann als registerliche Geschäftsanschrift verortet werden, aber nicht als Schrottannahme. Kundenstandort-Geokodierung erst nach KG-spezifischem Annahmebeleg.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Zugehörige Zosseder-Anfahrtseite eigenständig erneut geladen: Am Burgfrieden1/83512 Wasserburg am Inn weiterhin ausdrücklich Verwaltung mit Salzhallen. Andere Anlagen stehen getrennt: Schilchau20/Eiselfing, Wasserwiesen1a/Raubling, Limburg8/Wasserburg mit keine Privatanlieferung. Letzteren Ausschluss nicht auf die Südbayern-KG oder den Burgfrieden übertragen; ebenso keine Gruppenpreise/Kontakte. Die vorhandene Registerhistorie bleibt Ausgangspunkt, keine neue KG-spezifische operative Bestätigung. Ankauf/Verkauf/Gebühren für KG weiter nicht verifiziert, Frontmatter unverändert. Offen: operativer Ankauf oder nur Handel/Verwaltung, direkter KG-Kontakt und öffentlich zugänglicher Kundenplatz; Quelle: https://www.zosseder.de/anfahrt/ .]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Registerlage und Website-Zuordnung erneut abgegrenzt: HRA 10261 weist die Altmetallverwertung Südbayern GmbH & Co. KG mit Geschäftsanschrift Am Burgfrieden 1, 83512 Wasserburg a. Inn, aus; Zosseders Anfahrtseite nennt dort eine „Verwaltung am Burgfrieden mit Salzhallen“ sowie getrennte Betriebsanlagen an anderen Orten. Die Seite belegt weder KG-spezifischen Betrieb noch frei zugängliche Schrottannahme. Zosseder-Gruppenanschrift/-Kontakt nicht auf die KG übertragen; Frontmatter und status unbekannt bleiben unverändert. Keine belastbaren Ankauf-/Verkaufspreise oder Gebühren. Offen: aktueller operativer Betreiber am Platz, Anlieferung durch Privatkunden und direkter KG-Kontakt. Geokodierung der Geschäftsanschrift nur mit entsprechendem Standorttyp; keine Annahmestellen-Geokodierung ohne Nachweis; Quelle: https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml (Suche AG Traunstein HRA 10261, Dokument CD; Registerauszug bereits dokumentiert) ; https://www.northdata.de/Altmetallverwertung+S%C3%BCdbayern+GmbH+%26+Co.+KG,+Wasserburg+a.+Inn/Amtsgericht+Traunstein+HRA+10261 ; https://www.zosseder.de/anfahrt/]
 
 ### Recherche 04.10.2026
 

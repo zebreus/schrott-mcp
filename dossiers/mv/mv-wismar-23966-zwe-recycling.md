@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Website der zWe-Gruppe beschreibt zWe Recycling GmbH & Co. KG als Gruppengesellschaft für die Rückgewinnung hochwertiger Komponenten aus Anlagen erneuerbarer Energien. Das belegt keine öffentliche Schrottannahme. Das Gruppen-Impressum nennt zWe Ingenieure am Alten Holzhafen 3; das aktuelle TGZ-Verzeichnis führt dort click solutions GmbH, aber keine zWe Recycling. Rechtsträger, Annahmestelle und Seed-Adresse Alter Holzhafen 3 bleiben daher ungeklärt; `status: pruefung` bleibt bestehen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Auf den geprüften Betreiberseiten kein öffentlicher Metall-/Schrottankauf oder numerischer Ankaufspreis ausgewiesen; die Beschreibung des Anlagenkomponenten-Recyclings ist kein Beleg für Kundenankauf.; VERKAUF: Keine öffentliche Produkt-/Materialpreisliste auf den geprüften Seiten.; GEBÜHREN: Keine Annahme-, Abhol- oder Entsorgungsgebühr veröffentlicht.; GEOKODIERUNG: Seed-Adresse Alter Holzhafen 3 nicht zWe Recycling zugeordnet; erst nach bestätigter Betriebsstätte geokodieren. Kein Geocodinglauf und kein Datenbankzugriff in dieser Bearbeitung.; Quelle: https://www.zwe-i.de/ ; https://www.zwe-i.de/imprint ; https://www.tgz-mv.de/firmenverzeichnis-firmen-wismar (Abruf 07.10.2026; TGZ-Auslassung ist kein Schließungsbeleg).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

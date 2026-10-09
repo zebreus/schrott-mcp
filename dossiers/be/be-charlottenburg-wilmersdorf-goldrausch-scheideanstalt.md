@@ -28,6 +28,11 @@ GoldRausch Scheideanstalt GmbH ist ein historischer Rechtsträger, keine aktuell
 
 ## Timeline
 
+### Recherche 08.10.2026 (Welle Mittenordost)
+
+- NorthData direkt erneut: historische Namenskette GoldRausch Scheideanstalt / GoldRausch Global / PYT-Global, Berlin HRB 145771 B und Hamburg HRB 153740, Löschung 23.09.2020. Bestätigt den historischen Rechtsträgerbefund der amtlichen Vorrecherche vom 04.10., nicht einen heute betriebenen Berliner Ankaufshof. Quelle: https://www.northdata.de/GoldRausch+Scheideanstalt+GmbH,+Berlin
+- ANKAUF / VERKAUF / GEBÜHREN: keine aktuelle GoldRausch-Liste. Solidus, Kitco-Kursgrafiken und andere Scheideanstalten nicht als Zieltarife übernehmen. Offen bleibt heutiger Betreiber an Berliner Straße 19 beziehungsweise belastbare Standort-/Nachfolgekette; Altadresse/Telefon und pruefung erhalten.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Scheideanstalt, Edelmetall

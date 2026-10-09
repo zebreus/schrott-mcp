@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Altmetall Wetzel UG ist laut vorhandener Registerrecherche unter HRB Cottbus 14999 an Bahnhofstr. 23 geführt; das belegt allein weder einen heute geöffneten Schrottannahmebetrieb noch die in Verzeichnissen aufgeführte Cottbuser Adresse. Die ähnlich benannte Schrott Wetzel GmbH in Mannheim und die geparkte schrottwetzel.de sind nicht zuzuordnen. Status pruefung bis Betriebsbestätigung; keine verifizierte Preisliste.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: status aktiv → pruefung — die bestehende HRB-Cottbus-14999-Notiz belegt die Rechtsträgerin, nicht die aktuelle Schrottannahme am Standort. Das Örtliche führt sowohl Drebkau, Bahnhofstr. 23 als auch eine Cottbuser Adresse unter Altmetall Wetzel UG; als Verzeichniseintrag bestätigt das keine aktuelle Filiale oder Betriebszeiten. Ähnlich benannte Mannheimer Firma/Domain weiterhin getrennt halten. Kein Schließungsbeleg; keine aktuellen Ankaufspreise, Verkaufspreise oder Gebühren verifiziert. Quelle(n): https://www.dasoertliche.de/Themen/Wetzel.html (Aggregator); Northdata/HRB Cottbus 14999 (Registerhinweis aus Recherche 30.09.; kein Live-Standortbeleg).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

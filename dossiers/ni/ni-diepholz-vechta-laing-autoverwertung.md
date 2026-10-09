@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Recherche vom 02.10.2026 ordnet die Seed-Zeile dem inhabergeführten Betrieb Stephan Laing / L.S. Autoverwertung (GbR) in der Buchholzstr. 16, 49377 Vechta, zu. Name, Anschrift und Kontakt beruhen auf Verzeichnis-/Auskunftei-Belegen; eine aktuelle Betreiberwebsite oder ein Betreiber-Impressum ist nicht verifiziert. Die Zuordnung und die fortbestehende Tätigkeit bleiben daher `pruefung`, nicht als Schließung verstanden.
+
+- **Ankauf:** keine belastbare, numerische Ankaufspreisliste für Fahrzeuge oder Metalle.
+- **Verkauf:** keine verifizierte Ersatzteil-/Fahrzeug-Preisliste.
+- **Gebühren:** keine bestätigte Gebührenregel für Abholung, Verwertung oder Nachweis.
+- **Geokodierung:** neue Koordinate für Buchholzstr. 16, 49377 Vechta nötig, sobald die Adresse im Owner-Gate bestätigt ist; der Seed-Ort „Diepholz/Vechta“ ist nicht als Einzeladresse geokodierbar.
 
 ## Timeline
 

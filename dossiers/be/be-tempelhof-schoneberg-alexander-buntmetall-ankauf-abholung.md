@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein einzelner Gelbe-Seiten-Eintrag ist die einzige dokumentierte Quelle für Betreibername, Burgherrenstraße 1, Telefon und die behaupteten Leistungen. Auch die dort genannten Mindestmengen (Buntmetall ab 500 kg, Schrottabholung ab 1 t) und der „24h Service“ sind nicht unabhängig als Betreiberangaben bestätigt. `pruefung` bleibt; keine verifizierten ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
 

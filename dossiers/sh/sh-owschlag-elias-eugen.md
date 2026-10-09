@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur einzelne Branchenportal-Leads nennen „Elias Eugen“ als Schrotthandel in Owschlag (u. a. Blöcken 22 / 04336 3316); Betreiberidentität, heutige Tätigkeit und Anschrift sind nicht unabhängig bestätigt. Den separat geführten MW Containerdienst sowie andere Betriebe im Ort nicht zuordnen. Status `pruefung`; keine bestätigten Annahme-/Abholbedingungen und keine Ankaufspreise, Verkaufspreise oder Gebühren belegt (Recherche 03.10.2026).
 
 ## Timeline
 

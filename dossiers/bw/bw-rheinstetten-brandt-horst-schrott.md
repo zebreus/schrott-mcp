@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Zum Datensatz gibt es nur Verzeichnis-Leads, unter anderem Grünwinkler Str. 103, 76287 Rheinstetten und die Mobilnummer 0170 1479206; weder die Anschrift noch eine aktuelle Schrottannahme ist durch einen Betreiber- oder Registerbeleg bestätigt. Die frühere Einstufung als aktiv war daher zu sicher und ist auf Prüfung zurückgestuft. Keine dem Betrieb zurechenbaren Ankaufspreise, Verkaufspreise oder Gebühren belegt. Offen: Betreiberidentität, tatsächlicher Standort und aktuelle Tätigkeit.
+Zum Datensatz gibt es nur Verzeichnis-Leads, unter anderem Grünwinkler Str. 103, 76287 Rheinstetten und die Mobilnummer 0170 1479206; weder die Anschrift noch eine aktuelle Schrottannahme ist durch einen Betreiber- oder Registerbeleg bestätigt. Die frühere Einstufung als aktiv war daher zu sicher und ist auf Prüfung zurückgestuft. Offen: Betreiberidentität, tatsächlicher Standort und aktuelle Tätigkeit.
+
+**Preise:** Ankauf — keine dem Betrieb zurechenbaren Kurse; Verkauf — keine Preise belegt; Gebühren — keine Gebühren belegt. Anschrift erst nach Betreiberbestätigung geokodieren.
 
 ## Timeline
 

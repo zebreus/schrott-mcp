@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registerdatenquelle NorthData bestätigt Grün Thomanek Metallrecycling UG, Saarbrücken HRB 105872, Saarwiesenweg 2, 66333 Völklingen, Unternehmensgegenstand An-/Verkauf und Handel mit Altmetallen. Anders als die frühere pauschale Abwertung ist NorthData nach README eine zulässige Registerdatenquelle, aber alleine kein Zweitbeleg. Die hinterlegten Telefon-, Mail- und Zeitwerte stammen weiterhin aus Aggregatoren, nicht aus dem Register.
+
+**Aktueller Klärfall:** Registerbekanntmachung 11.06.2026 löscht Somchai Thomanek als Geschäftsführer von Amts wegen wegen Wegfalls rechtlicher Voraussetzungen; das ist keine Löschung der Gesellschaft. Kein Betreiberwebauftritt identifiziert, keine aktuelle Geschäftsführung/Annahmebedingungen bestätigt. **Preise:** Keine Betreiber-Ankaufsliste, Verkaufspreise oder bezifferten Gebühren. Bestehende Kontaktdaten nicht als neu verifiziert behandeln; kein Geocoding aus bloßen Kontakt-Leads.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: NorthData-Detailseite und Bekanntmachung live gelesen: HRB 105872, Saarwiesenweg 2, 66333 Völklingen, Gegenstand An- und Verkauf/Handel mit Altmetallen. README erkennt NorthData als Registerdatenquelle an; der Satz vom 04.10., NorthData sei nur ein nicht zulässiger Aggregator, ist insofern zu präzisieren. Dennoch nur Einzelbeleg zur Registeradresse; Creditreform nennt im Suchindex dieselbe Gesellschaft und denselben Gegenstand, Direktabruf 403, daher kein behaupteter Vollabgleich. Telefon/Mail/Zeiten aus 02.10. nicht primär nachbestätigt, unverändert mit Restunsicherheit; kein Website-Fill. Quelle(n): https://www.northdata.de/Gr%C3%BCn%20Thomanek%20Metallrecycling%20UG,%20V%C3%B6lklingen/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20105872 ; https://firmeneintrag.creditreform.de/66333/7290618562/GRUEN_THOMANEK_METALLRECYCLING_UG_HAFTUNGSBESCHRAENKT]
+- [Recherche 08.10.2026: Registermeldung 11.06.2026 ausdrücklich: Somchai Thomanek nicht mehr Geschäftsführer, Eintragung nach §395 FamFG wegen Wegfalls Voraussetzungen §6 Abs.2 GmbHG von Amts wegen gelöscht. Nicht mit Unternehmenslöschung/Schließung verwechseln; Nachweis heutiger Geschäftsführung/Betriebsaktivität offen. Keine Betreiber-Ankauf-/Verkaufspreise oder Gebührenliste gefunden. Quelle(n): https://www.northdata.de/?id=5080125068673024]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

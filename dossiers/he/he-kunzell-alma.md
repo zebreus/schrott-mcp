@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„ALMA“ in Künzell ist bislang ein nicht näher aufgelöster Seed-/Verzeichnisname. Ein Rechtsträger, eine Anschrift, ein Betreiberauftritt oder konkrete Recycling-/Schrotthandelsleistungen sind nicht unabhängig belegt; der Name ist zudem als Akronym nicht eindeutig. Keine Anlieferung oder Abholung ableiten.
+
+**Preise:** Ankauf nicht bestätigt, keine numerische Ankaufpreisliste gefunden; Verkaufspreise und Gebühren sind in den ausgewerteten Quellen nicht veröffentlicht. Status `pruefung`; Identität und Leistungsumfang offen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: NorthData-Suche nach „ALMA Künzell Schrotthandel“ lieferte kein eindeutig passendes Firmenprofil. Wegen des nicht unterscheidungskräftigen Namens und fehlender Anschrift/Betreiberquelle bleiben Identität und Recyclingbezug offen; weder Verzeichnis-Homonyme noch ein gleichnamiger Betrieb werden zugeordnet. Keine Felder ergänzt. ANKAUF: nicht bestätigt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in ausgewerteten Quellen; Quelle: https://www.northdata.de/?query=ALMA%20K%C3%BCnzell%20Schrotthandel]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

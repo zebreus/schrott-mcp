@@ -11,7 +11,7 @@ email: schrott-abfallhandel-baum@web.de
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: Schrott- und Altstoffhandel (Containerdienst, Abriss/Entsorgung)
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Angaben (Sophienstraße 2 E, Telefon und E-Mail) stammen bislang aus Verzeichnissen; die passende Domain enthält nur eine Baustellen-/Platzhalterseite und keine verifizierbare Betreiberidentität oder aktuellen Kontaktdaten. Das belegt weder einen laufenden Betrieb noch eine Schließung. Der Status wurde deshalb vorsichtig von `aktiv` auf `pruefung` zurückgesetzt, ohne vorhandene Kontaktfelder zu löschen; bitte aktuellen Betreiber und Annahme vor Veröffentlichung bestätigen.
+
+**Preise:** **Ankauf** – keine aktuelle Ankaufstätigkeit oder Materialkurse primär belegt. **Verkauf** – keine Produkt-/Preisliste belegt. **Gebühren** – Container-/Entsorgungsleistungen sind nur aus Verzeichnissen bzw. dem Platzhaltertext behauptet; keine aktuelle Tarifliste.
+
+**Geokodierung:** Die Seed-Adresse ist nicht primär bestätigt; keine neue Geokodierung vor Betreiber-/Adressbestätigung.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Qualitätskorrektur der Statusbewertung: Der am 04.10. direkt abgerufene Domaininhalt lautet weiterhin sinngemäß „Hier entsteht in Kürze die Internetpräsenz“ und enthält keine Firma, Anschrift, Register-/Betreiberangaben oder aktuelle Leistungs-/Kontaktinformationen. Die kommunale Broschürenprüfung war kein positiver Händlerbeleg; fehlende Anzeige ist kein Schließungsnachweis. Aggregator-Konsistenz allein reicht nicht als Bestätigung eines aktuellen Betriebs. Daher ausschließlich Status `aktiv` → `pruefung`; bestehende Seed-Kontakte/Felder bewusst nicht entfernt. **Ankauf:** kein aktueller Primärbeleg/Preis; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife bestätigt. Adresse nicht geokodieren, bis sie unabhängig bestätigt ist; Quelle: http://www.schrotthandel-baum.de/ ; https://www.allstedt.de/seite/862425/informationsbrosch%C3%BCre.html ; https://www.total-lokal.de/city/allstedt/data/06542_50_04_26.pdf (PDF-Auswertung ohne bestätigten Eintrag)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-Neue gewerbliche Spur „Luczkow Schrotthandel“, jedoch nur in Aggregatoren: 11880 nennt Altershausen 77, 97486 Königsberg und 0175 8534027. Andere Suchtreffer schreiben Altershäuser Straße 77; das ist nicht dieselbe wörtliche Adresse und bleibt ungeklärt. Die ältere Suche nach Privatpersonen war unergiebig, schließt diesen gewerblichen Lead aber nicht aus. Keine Betreiberquelle, keine sichere Adress-/Kontaktübernahme, keine bestätigten Ankaufpreise.
+Neue gewerbliche Spur „Luczkow Schrotthandel“, jedoch nur in Aggregatoren: 11880 nennt Altershausen 77, 97486 Königsberg und 0175 8534027. Andere Suchtreffer schreiben Altershäuser Straße 77; das ist nicht dieselbe wörtliche Adresse und bleibt ungeklärt. Das direkt geprüfte 11880-Profil führt keine E-Mail, Website oder Öffnungszeiten und ist kein Betreiberbeleg. Die frühere Suche nach Privatpersonen war unergiebig, schließt diesen gewerblichen Lead aber nicht aus. Keine sichere Adress-/Kontaktübernahme. **Ankauf:** keine numerischen Preise; **Verkauf:** keine Preise; **Gebühren:** keine Tarife belegt.
 
 ## Timeline
+
+### Recherche 08.10.2026 (zusätzlicher Ortskonflikt)
+
+- [Recherche 08.10.2026: Neue zweite Orts-/Adressspur, nicht als unabhängiger Identitätsbeleg zu werten: Adressennet-Detailseite direkt gelesen, Luczkow Schrott und Metall Handel, Parksiedlung 28, 97711 Maßbach, 0175-8534027 und sascha.luczkow@gmx.de. Nummer stimmt mit Königsberger 11880-Lead überein; das macht einen Umzug/mehrere Standorte plausibel, beweist aber weder dieselbe Person noch die zeitliche Richtung. Northdata-Suggest Luczkow liefert nur Luczkowski-Personen in anderen Orten, keine kongruente Gewerbeidentität. Königsberg nicht auf Maßbach umhängen, Mail nicht übernehmen, keine Geokodierung. ANKAUF: Portal nennt Metallankauf, kein Betreiber-/Zahlenbeleg. VERKAUF/GEBÜHREN: keine verifizierten Tarife. Nächster Schritt Betreiber-/Gewerbeauskunft mit beiden Adressen und identischer Mobilnummer abgleichen. Quelle (Leads): https://www.adressennet.de/schrotthandel-metallankauf-schrottentsorgung-buntmetalle-massbach-3291de9400.html ; https://www.11880.com/branchenbuch/koenigsberg-in-bayern/120674719B104992012/luczkow-schrotthandel.html ; https://www.northdata.de/suggest.json?query=Luczkow&countries=DE .]
 
 ### Recherche 05.10.2026
 
@@ -44,3 +48,7 @@ Neue gewerbliche Spur „Luczkow Schrotthandel“, jedoch nur in Aggregatoren: 1
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 97486)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Das 11880-Detailprofil wurde direkt geprüft und führt Luczkow Schrotthandel, Altershausen 77, 97486 Königsberg (Altershausen), Telefon 0175 8534027; es weist keine Website, E-Mail oder Öffnungszeiten aus. Der Eintrag nennt als Eintragsdatum 09.11.2025 und eine Aktualisierung am 03.10.2026, bleibt aber ein Verzeichnis-Lead. Keine Betreiber-/Registerzuordnung und keine Frontmatter-Füllung. Keine numerische Ankaufsliste, Verkaufspreise oder Gebühren gefunden. Offen: Identität, genaue Adressschreibweise und aktuelle Annahme. Quelle(n): https://www.11880.com/branchenbuch/koenigsberg-in-bayern/120674719B104992012/luczkow-schrotthandel.html]

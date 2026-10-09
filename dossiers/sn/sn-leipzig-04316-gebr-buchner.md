@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Namens- und Adresssuche liefert eine Gebr. Büchner Transport GmbH am Bahndamm 8 (HRB 10886), deren beschriebener Geschäftszweck Transport/Containerdienst ist. Das belegt noch nicht, dass sie mit dem Seed „Gebr. Büchner GmbH Entsorgungsfachbetrieb“ identisch ist oder Schrott annimmt; Namensgleichheit allein genügt nicht.
+Namens- und Adresssuche liefert eine Gebr. Büchner Transport GmbH am Bahndamm 8 (HRB 10886), deren beschriebener Geschäftszweck Transport/Containerdienst ist. Das belegt noch nicht, dass sie mit dem Seed „Gebr. Büchner GmbH Entsorgungsfachbetrieb“ identisch ist oder Schrott annimmt; Namensgleichheit allein genügt nicht. Die doppelte 11880-Nennung ist kein unabhängiger Primärbeleg.
+
+**Preise:** **Ankauf** — keine der Seed-Identität sicher zuordenbare Ankaufskondition oder Preisliste. **Verkauf** — keine Preisliste belegt. **Gebühren** — keine belastbare Tarifliste; ein Containerdienst-Eintrag belegt keine konkreten Container-/Entsorgungsgebühren. **Offen:** Betreiberidentität, aktuelle Annahme und Kontaktangaben. **Geokodierung:** Am Bahndamm 8, 04316 Leipzig nur als Kandidat vormerken; erst nach Klärung der Betreiber-/Standortidentität einen Schrottstandort pinnen.
 
 ## Timeline
 

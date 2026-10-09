@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Gelbe-Seiten-Eintrag führt „Schrott G.“ an Michelsberg 8, 96049 Bamberg, Telefon 0951 57704; Das Telefonbuch ordnet denselben Kurztreffer einer privaten Namensgruppe zu. Ein Betreiber-, Register- oder aktueller Annahmebeleg fehlt, daher ist auch die Gewerblichkeit nicht geklärt und die leeren Frontmatter-Kontakte bleiben leer. **Ankauf:** keine Preisangaben; **Verkauf:** keine Preisangaben; **Gebühren:** keine Tarife belegt. Offen ist insbesondere, ob es sich überhaupt um einen Schrotthändler oder um einen privaten Personentreffer handelt.
 
 ## Timeline
 
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (Kleinstbetrieb)
 - Adresse: Bamberg (Michelsberg 8)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die Gelbe-Seiten-Detailseite bestätigt nur den Verzeichniseintrag „Schrott G.“, Michelsberg 8, 96049 Bamberg, 0951 5 77 04; sie enthält keine Bewertungen, Betreiber-Website oder Annahme-/Preisbedingungen. Zusammen mit dem bereits dokumentierten privaten Telefonbuch-Treffer reicht dies nicht zur Gewerbe- oder Identitätsbestätigung. Keine Frontmatter-Änderung; Ankauf, Verkauf und Gebühren weiterhin unbelegt. Nächster sinnvoller Schritt bleibt eine Abfrage beim Gewerberegister Bamberg. Quelle(n): https://www.gelbeseiten.de/gsbiz/271673e0-9cc6-4f67-b076-a3a44032e55e]

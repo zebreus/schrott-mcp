@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData ordnet KMSR GmbH, HRB 9200, der Errichtung und dem Betrieb von Solar-/Windanlagen sowie der Vermarktung erzeugter Energie zu. Das ist ein möglicher Branchen-/Identitätskonflikt zum Schrotthändler-Seed, kein Beleg für Schrottannahme. Die dort genannte Dorfstr. 48 ist eine Registeranschrift und nicht als öffentlicher Hof bestätigt. `status: pruefung` bleibt; keine Kontaktdaten oder Betriebsadresse ergänzt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Im geprüften Firmenprofil keine Schrott-/Metallankaufstätigkeit oder Ankaufspreise belegt.; VERKAUF: Keine Schrott-/Materialangebote oder Verkaufspreise belegt.; GEBÜHREN: Keine Annahme-, Abhol- oder Entsorgungsgebühren belegt.; GEOKODIERUNG: Dorfstr. 48 ist im Registerprofil einer Energiegesellschaft zugeordnet, nicht als Schrotthof bestätigt; bis zur Identitätsklärung nicht geokodieren.; Quelle: https://www.northdata.de/KMSR+GmbH,+Schwerin/Amtsgericht+Schwerin+HRB+9200 (Sekundärregisterprofil, Abruf 07.10.2026).]
 
 ### Recherche 02.10.2026
 

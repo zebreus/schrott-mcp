@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schmeissel Reinhard“ / „Reinhard Schmeissel Schrotthandel“ wird in mehreren Branchenverzeichnissen mit Görzker Str. 46, Wiesenburg/Mark und Tel. 033849 50205 geführt. Das ist Verzeichniskonsens, keine Betreiber- oder Registerbestätigung; status pruefung bleibt, ohne Schließung zu behaupten. Keine veröffentlichte Ankaufpreisliste, Verkaufsangaben oder Gebühren belegt.
 
 ## Timeline
 

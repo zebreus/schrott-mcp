@@ -148,13 +148,13 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("elektromotoren", "Getriebe"))
     } else if l.contains("getriebe") {
         Some(("aluminium-guss", "Getriebe"))
-    } else if l.contains("blech") && l.contains("20-50") {
+    } else if l.starts_with("al blech") && l.contains("20-50") {
         Some(("aluminium-gemischt", "Blech 20-50% Fe"))
-    } else if l.contains("blech") && l.contains("10%") {
+    } else if l.starts_with("al blech") && l.contains("10%") {
         Some(("aluminium-gemischt", "Blech/Guß 10% Fe"))
-    } else if l.contains("blech") && l.contains("5%") {
+    } else if l.starts_with("al blech") && l.contains("5%") {
         Some(("aluminium-gemischt", "Blech/Guß 5% Fe"))
-    } else if l.contains("blech") {
+    } else if l.starts_with("al blech") {
         Some(("aluminium-gemischt", "Blech/Guß o. Fe"))
     } else if l.contains("al draht") || l.contains("alu draht") {
         Some(("aluminium-gemischt", "Draht blank"))
@@ -432,6 +432,51 @@ mod tests {
         <tr class=\"row-64\"><td class=\"column-1\">E-motoren bis 300 kg/St.</td><td class=\"column-2\">0,82 \u{20ac}/kg</td></tr>\
         <tr class=\"row-70\"><td class=\"column-1\">Al Shredderkabel</td><td class=\"column-2\">0,00 \u{20ac}/kg</td></tr>\
         </tbody></table>";
+
+    #[test]
+    fn zinc_sheet_does_not_overwrite_aluminium_grades() {
+        let html =
+            "<table><thead><tr><th>Preisliste vom</th><th>05.10.26 16:29</th></tr></thead><tbody>\
+            <tr><td>Al Blech / Guß o. Fe</td><td>1,00 €/kg</td></tr>\
+            <tr><td>Al Blech / Guß 5% Fe</td><td>0,95 €/kg</td></tr>\
+            <tr><td>Al Blech / Guß 10% Fe</td><td>0,85 €/kg</td></tr>\
+            <tr><td>Al Blech 20-50% Fe</td><td>0,30 €/kg</td></tr>\
+            <tr><td>Zinkblech</td><td>2,05 €/kg</td></tr>\
+            </tbody></table>";
+        let (_, rows, skips) = parse(html).expect("live table shape parses");
+        assert!(skips.is_empty());
+        assert_eq!(grade_for("Blech unbekannt"), None);
+        let mapped: Vec<_> = rows
+            .iter()
+            .map(|(label, price, unit)| (grade_for(label), *price, *unit))
+            .collect();
+        assert_eq!(
+            mapped,
+            vec![
+                (
+                    Some(("aluminium-gemischt", "Blech/Guß o. Fe")),
+                    1.0,
+                    "EUR/kg"
+                ),
+                (
+                    Some(("aluminium-gemischt", "Blech/Guß 5% Fe")),
+                    0.95,
+                    "EUR/kg"
+                ),
+                (
+                    Some(("aluminium-gemischt", "Blech/Guß 10% Fe")),
+                    0.85,
+                    "EUR/kg"
+                ),
+                (
+                    Some(("aluminium-gemischt", "Blech 20-50% Fe")),
+                    0.30,
+                    "EUR/kg"
+                ),
+                (Some(("zink", "")), 2.05, "EUR/kg"),
+            ]
+        );
+    }
 
     #[test]
     fn table_and_date_parse() {

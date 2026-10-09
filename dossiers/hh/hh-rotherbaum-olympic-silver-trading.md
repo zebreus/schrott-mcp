@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der historische Rechtsträger Olympic Silver Trading GmbH (HRB 54383 Hamburg) wurde am 12.05.2003 wegen Vermögenslosigkeit von Amts wegen gelöscht. Das Verzeichnisprofil in Rotherbaum/20146 nennt keine Straße und verknüpft sich nicht eindeutig mit dem Registerunternehmen; Grindelweg 4a ist nur eine historische Registeranschrift, kein bestätigter heutiger Ankaufspunkt. Der Link zum aktiven StoneX-Bullion-Auftritt belegt keinen Nachfolger.
+
+**Preise (Ankauf/Verkauf/Gebühren):** keine aktuell zurechenbaren Preise oder Gebühren; es gibt keinen belegten laufenden Händlerbetrieb. **Offen:** Zuordnung des Verzeichnis-Leads und möglicher Nachfolger; bis dahin keine Frontmatter-Adresse oder Schließung für den Lead erfinden. Quellen siehe Recherche 03.10.2026.
 
 ## Timeline
 

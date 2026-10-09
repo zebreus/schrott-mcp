@@ -1,15 +1,15 @@
 ---
 slug: bw-stuttgart-ecoproekt
-name: ECOPROEKT
+name: ECOPROEKT UG (haftungsbeschränkt)
 trader_type: sonstige
 state: BW
 city: Stuttgart
-street: ''
-postcode: ''
+street: Curiestraße 2
+postcode: '70563'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
+website: https://ecoproekt.com/
 website_status: aktiv
 status: pruefung
 description: ''
@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktive Gruppenseite nennt eine Stuttgarter ECOPROEKT-UG, Curießtraße 2, 70563 Stuttgart und stuttgart@ecoproekt.com. Das bleibt eine Betreiber-Selbstauskunft: ein passender Handelsregistereintrag/HRB und die aktuelle Zuordnung des Zertifikats zur deutschen UG sind nicht verifiziert. Keine Frontmatter-Kontaktfills und keine Geokodierung bis zur Identitäts-/Registerkonkordanz. Öffentliche Ankauf-, Verkaufspreise oder Entsorgungsgebühren wurden nicht gefunden.
+Rechtsträger und Geschäftsanschrift jetzt verifiziert: ECOPROEKT UG (haftungsbeschränkt), AG Stuttgart HRB 798917, Curiestraße 2, 70563 Stuttgart. Northdata und das auf der Betreiberseite veröffentlichte, vollständig gelesene audis-Zertifikat stimmen überein. Zertifizierter Tätigkeitsumfang ist **Handeln und Makeln von Abfällen weltweit**, nicht Sammeln, Befördern, Lagern oder Behandeln an dieser Anschrift. Die Gruppenseite ist zugeordnet; Kontaktwerte bleiben Betreiber-Einzelangaben. Geschäftsanschrift nicht als öffentlicher Schrottplatz/Annahmestelle geokodieren; Publikumsankauf und Anlieferung bleiben ungeklärt, status pruefung.
+
+**Preise:** Ankauf — kein beziffertes Preisblatt gefunden; Verkauf — keine öffentlichen Material- oder Produktpreise verifiziert; Gebühren — keine bezifferten Entsorgungstarife. Konditionen bleiben offen.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Identität und Zertifikatsumfang)
+
+- [Recherche 08.10.2026: Registeranker erstmals konkret verifiziert: Northdata ECOPROEKT UG, AG Stuttgart HRB 798917, Curiestr. 2, 70563 Stuttgart; Publikationen 12.03.2025 (Sitzverlegung aus ECOSFERA UG) und 05.01.2026. Die Betreiberseite nennt dieselbe UG und Adresse. Alle drei öffentlich verlinkten Zertifikatsbilder direkt heruntergeladen und visuell gelesen: audis 690-19-09-25, Vorgang ZZFT003006815001, ECOPROEKT UG, Curiestraße 2, HRB 798917 Stuttgart, Prüfung/Ausstellung 19.09.2025, gültig bis 18.03.2027. Anlage 1: ausschließlich Handeln/Makeln weltweit, Kennnummer H014010036; Anlage Abfallarten: alle Abfallarten. Leere Kästchen Sammeln/Befördern/Lagern/Behandeln/Verwerten/Beseitigen sind keine Betriebserlaubnis für diese Tätigkeiten. Name, Geschäftsanschrift und Domain mit Register-/Zertifikatskonkordanz ergänzt; Telefon/Mail bleiben Einzelbelege und status pruefung wegen unbestätigter Kundenannahme. Quelle: https://www.northdata.de/ECOPROEKT%20UG,%20Stuttgart/Amtsgericht%20Stuttgart%20HRB%20798917 ; https://ecoproekt.com/en/about ; https://ecoproekt.com/en/contacts ; https://ecoproekt.com/en/licenses ; https://static.tildacdn.one/tild6466-6465-4630-a161-663964363863/ECOPROECT-Efb-Zertif.jpg ; https://static.tildacdn.one/tild6637-3535-4932-b235-336239353234/ECOPROECT-Efb-Zertif.jpg ; https://static.tildacdn.one/tild6530-6661-4936-b339-663466613338/ECOPROECT-Efb-Zertif.jpg .]
+- [Preisprüfung 08.10.2026: Kontakte/About/Licenses ohne numerische Ankauf-, Verkaufs- oder Gebührenlisten; Brokerage-Zertifizierung allein belegt weder einen Ankaufspreis noch eine kostenlose Annahme. Öffentliche Anlieferung, Mindestmengen und Servicekonditionen bleiben anzufragen. Quelle: https://ecoproekt.com/en/contacts ; https://ecoproekt.com/en/about ; https://ecoproekt.com/en/licenses .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,18 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchenverzeichnisse führen einen Hammerschmidt-Recycling-Betrieb in der Karl-Koenigsdorfer-Str. 25A, 89335 Ichenhausen, mit ähnlichen Kontaktdaten. Die Namen der genannten Personen und Firmenzuordnungen weichen jedoch vom Seed-Namen Emil/Philip Hammerschmidt ab; die Identität ist offen. Die Kandidaten-Domain `hammerschmidt-recycling.de` hat beim letzten Direktabruf einen TLS-Zertifikatsfehler geliefert und ist kein verifizierter Betreiberauftritt.
+
+- **Ankauf:** keine belastbaren Ankaufspreise oder bestätigten Annahmebedingungen.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine Gebühren-/Containerpreise.
+- **Geokodierung:** keine, bis Betreiber und genaue Kundenanschrift zweifelsfrei zugeordnet sind.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die früher protokollierte Verzeichnis-Übereinstimmung zu Karl-Koenigsdorfer-Str. 25A, 89335 Ichenhausen, 08223 408217 und info@hammerschmidt-recycling.de bleibt wegen wechselnder Namenszuordnungen (u. a. Michael/Robert/M&R/Helmuth Fa. Bayer gegenüber Seed Emil/Philip) ein Lead, kein Identitätsnachweis. Direkter Abruf der als Kandidat notierten Betreiber-Domain scheitert weiterhin am abgelaufenen TLS-Zertifikat; dadurch weder Website-Inhalte noch Impressum geprüft. Keine Felder nachgetragen. Ankauf, Verkauf und Gebühren unbelegt; offene Frage ist Rechtsträger/Betreiber und die Zugehörigkeit der genannten Adresse. Bis dahin nicht geokodieren; Quelle: https://hammerschmidt-recycling.de/ ; vorhandene Verzeichnis-Leads Gelbe Seiten, Schrottradar, Branchenbuch Deutschland und Schrottplatz-Info (Detail-URLs in der Recherche vom 02.10.2026 nicht archiviert).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+H&G Gold An & Verkauf ist mit Hauptstr. 92, 63897 Miltenberg in der Mitgliederliste von MCity sowie in einem redaktionellen Beitrag vom 12.06.2024 belegt. Der Beitrag beschreibt den Betrieb des Ehepaars Kartal und Gold-/Silberhandel; kein Schrotthandel im engeren Sinn.
+
+- **Ankauf:** Alt-, Zahn- und Bruchgold sowie Münzen/Barren und Silber; Bewertung nach Feingehalt, Gewicht und aktuellem Goldbörsenkurs, aber kein numerischer Tarif veröffentlicht.
+- **Verkauf:** Gold-/Silberwaren sowie Goldbarren auf vorherige Bestellung; keine Verkaufspreise veröffentlicht.
+- **Gebühren:** Schmuckreinigung laut Beitrag kostenlos; weitere Gebühren/Tarife nicht ausgewiesen.
+- **Geokodierung:** Hauptstr. 92, 63897 Miltenberg neu geokodieren; Adresse ist belegt, Anliefer-/Besuchsannahmebedingungen sind nicht separat dokumentiert.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: MCity-Mitgliederliste führt H&G Gold An und Verkauf weiterhin unter Hauptstraße 92, 63897 Miltenberg. Der redaktionelle Beitrag vom 12.06.2024 beschreibt Ankauf von Alt-/Zahn-/Bruchgold, Goldmünzen/-barren und Silber; die Wertermittlung orientiere sich an Reinheit, Gewicht und aktuellem Goldbörsenkurs, ohne konkrete Ankaufskurse. Verkauf von Gold-/Silberwaren und Barren nach Vorbestellung wird erwähnt, aber ohne Verkaufspreise. Schmuckreinigung laut Beitrag kostenfrei; keine sonstige Gebührenliste. Kontaktdaten/Öffnungszeiten aus vorhandenem Quellenstand unverändert; keine neue Betreiberwebsite. Die bestätigte Anschrift ist für Geokodierung vorgesehen, Koordinaten bleiben nicht durch Datenbankabruf oder -änderung bestätigt; Quelle: https://mcity-miltenberg.de/mitglieder ; https://www.meine-news.de/miltenberg/c-wirtschaft/hundg-gold-an-und-verkauf-ein-ort-der-herzlichkeit-und-fachkompetenz-in-miltenberg_a177235]
 
 ### Recherche 02.10.2026
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Name „Schrott- u. Metallhandel Thiene Inh. Elke Schäfer“ ist bislang nur über Branchen-/Schrottplatzverzeichnisse mit Dorfstr. 24, Blankenhain/Thangelstedt und der Telefonnummer 036459 62238 verbunden. Ein Betreiberauftritt, Register- oder unabhängiger Kommunalbeleg wurde nicht gefunden; Anschrift und Telefon sind daher Leads, kein bestätigter aktueller Betriebsstand. Das ist kein Schließungsnachweis.
+
+**Preise:** **Ankauf** — Tätigkeit und aktueller Preis nicht bestätigt. **Verkauf** — keine Verkaufspreisliste gefunden. **Gebühren** — keine Abhol-, Annahme- oder Entsorgungstarife belegt. Anschrift vor Geokodierung durch belastbare Quelle bestätigen.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Erneuter Abgleich der vorhandenen Leads bestätigt nur Verzeichniseinträge, keinen Betreiber- oder Registerbeleg. Die dort genannten Daten (Dorfstr. 24, Thangelstedt/Blankenhain, 036459 62238) werden nicht als unabhängige Bestätigung gewertet. Keine belastbaren Angaben zu Ankaufspreisen, Verkaufspreisen oder Gebühren; die Abwesenheit von Primärquellen belegt keine Schließung. Quellen/Leads: https://blankenhain.defirmenkataloge.com/company/schrott-u-metallhandel-thiene-inh-elke-schafer ; https://www.schrottplatz-info.de/schrottplatz/Blankenhain/Schrott-u-Metallhandel-Thiene-Inh-Elke-Schaefer ; https://www.adressennet.de/schrott-schrotthandel-metallhandel-metalle-schrottentsorgung-thangelstedt-stadt-blankenheim-2cf93d6f00.html]
 
 ### Recherche 04.10.2026
 

@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seedname „Häffner“ ist bislang nicht als Schrotthändler in Asperg verifiziert. Der einzige namensähnliche, konkret identifizierte Betrieb ist Hugo Häffner GmbH & Co. KG, ein Chemiedistributor an der Friedrichstraße 3; ein Bezug zum Schrott-Seed ist nicht belegt. Den Verzeichnis-/Schrottregistertreffer an derselben Adresse nicht als Identitätsbeweis behandeln. Betreiber, tatsächliche Tätigkeit, Adresse und Status bleiben offen (`pruefung`).
+
+**Preise:** Ankauf — keine dem Seed zurechenbaren Kurse; Verkauf — keine Angaben; Gebühren — keine Angaben. Keine Geokodierung, bis Händleridentität und Standort geklärt sind.
 
 ## Timeline
 

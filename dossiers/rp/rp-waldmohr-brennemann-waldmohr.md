@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+11880 führt den Schrotthandel Brennemann aktuell an Nickelsweiher 15, 66914 Waldmohr, Tel. 01523 8835642; der Eintrag verweist auf `schrotthandelbrennemann.de`. Das stützt das Seed-Adressfragment nur als Aggregator-Lead. Ein weiterer Verzeichnistreffer nennt abweichend Höcherstraße 3; Betreiber-/Registerbeleg fehlt, deshalb keine Übernahme in Frontmatter und Status `pruefung`.
+
+**Preise:** ANKAUF: keine bezifferten Sätze; Portale verweisen nur auf „aktuelle Preise“/Anfrage. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Betreiber-Domainlead vertieft: https://www.schrotthandelbrennemann.de/ und https://schrotthandelbrennemann.de/ Transportfehler; http://schrotthandelbrennemann.de/ HTTP 404. Kein lesbares Impressum und kein bestätigter Umzug Nickelsweiher 15 vs Höcherstraße 3. NorthData-Direktsuche Brennemann Waldmohr HTTP 429, nicht als Kein-Registereintrag werten. Website weiter nicht attribuiert, Frontmatter unverändert. ANKAUF keine Zahlen, VERKAUF keine Liste, GEBÜHREN keine Tarife verifiziert; Betreiber-/Gewerberegisterprüfung nötig. Quelle(n): https://www.schrotthandelbrennemann.de/ ; https://schrotthandelbrennemann.de/ ; http://schrotthandelbrennemann.de/ ; https://www.northdata.de/?query=Brennemann%20Waldmohr]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: 11880-Profil direkt geprüft: Nickelsweiher 15, 66914 Waldmohr, 01523 8835642, Kategorie Altmetallrecycling; aktualisiert am 04.10.2026. Ein Verzeichnis-Snippet nennt dagegen Höcherstraße 3, während Seeds und 11880 Nickelsweiher 15 nennen. `schrotthandelbrennemann.de` ließ sich direkt nicht verwertbar abrufen (HTTP-Fehler/Transportfehler; kein Schließungsbeleg). Die Übereinstimmung von Seed und 11880 erhöht die Plausibilität, ersetzt nach Quellenstandard aber keine Betreiber-/Registerbestätigung. Keine Kontakt-/Adressfelder ergänzt. ANKAUF: keine veröffentlichten Zahlen; VERKAUF: keine Preisliste; GEBÜHREN: keine Gebührenordnung; Quelle: https://www.11880.com/branchenbuch/waldmohr/060440092B112831048/schrotthandel-brennemann.html ; https://www.oeffnungszeiten.com/schrott-und-metallhaendler-Brennemann/Waldmohr-Rheinland-Pfalz/Hoecherstrasse-3/ ; https://www.schrotthandelbrennemann.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -4,9 +4,9 @@ name: Schindling Stoffstrom Vertriebs GmbH
 trader_type: schrotthaendler
 state: HE
 city: Frankfurt 65933
-street: Eichenstr. 83
-postcode: 65933
-phone: (069) 39090562
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schindling Stoffstrom Vertriebs GmbH“ ist bislang nur über einen 11880-Eintrag mit Eichenstraße 83, 65933 Frankfurt und (069) 39090562 belegt. Ein unabhängiger Betreiber-, Register- oder Zweitbeleg wurde nicht gefunden; Straße, PLZ und Telefon sind daher aus dem Frontmatter entfernt. Eine NorthData-Suche nach dem Namen lieferte als ähnlich klingenden Treffer **Sperzel Stoffstrom Vertriebs GmbH**, HRB 76714, Frankfurt – kein Nachweis für Schindling und keine Grundlage, deren Daten zu übertragen. Stoffstromhandel/Verwertung und möglicher Brokerstatus bleiben Seed-Angaben.
+
+**Preise:** kein bestätigter Ankauf, keine numerische Ankaufpreisliste; keine Verkaufspreise oder Gebührenangaben in den ausgewerteten Quellen. Status `pruefung` bleibt; Firmenidentität und aktuelle Tätigkeit offen.
 
 ## Timeline
+
+### Korrektur/Recherche 07.10.2026
+
+- [Korrektur 07.10.2026: Straße Eichenstr. 83, PLZ 65933 und Telefon (069) 39090562 im Frontmatter stützten sich auf einen 11880-Eintrag; die frühere Timeline bezeichnete Adresse/Telefon als zwei Verzeichnisse, konnte dafür aber keine zweite belastbare Quelle ausweisen. Diese Felder daher entfernt. NorthData-Suche nach dem exakten Firmennamen zeigte als ähnlich klingenden Treffer „Sperzel Stoffstrom Vertriebs GmbH“, HRB 76714, Frankfurt; die andere Firma ist kein Beleg für Schindling, kein Namens-/Rechtsnachfolgenachweis und kein Grund zur Übernahme ihrer Daten. Keine Aussage zur Nichtexistenz oder Schließung. ANKAUF: nicht unabhängig belegt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in den ausgewerteten Quellen; Quelle: https://www.northdata.de/?query=Schindling%20Stoffstrom%20Vertriebs%20GmbH; https://www.11880.com/suche/schrotthandel/frankfurt-am-main]
 
 ### Recherche 02.10.2026
 

@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-Es gibt weiterhin keinen verifizierten Betreiberauftritt oder Registerbeleg. Verzeichnisse führen Daniel-Häberle-Straße 1 und Telefon 01590 6128392; zwei Kleinanzeigen-Suchergebnisse mit rechtlichen Anbieterangaben nennen dagegen einmal diese Adresse und einmal Stiftswaldstraße 35. Die Anzeigen waren beim Direktabruf gesperrt und sind deshalb nur widersprüchliche Leads. Keine Anschrift, Telefonnummer oder Preise in die strukturierten Felder übernehmen, bis Betreiber und Betriebsstätte bestätigt sind.
+Neu gefundener Eigenauftritt „Schrotthandel Fernezy“ auf Webador nennt Kaiserslautern und 01590 6128392, passend zum vorhandenen Telefonlead. Auf den gelesenen Seiten fehlt jedoch eine Straßenadresse und ein rechtlich zuordenbares Impressum; Patrick Fernezy und die widersprüchlichen Anzeigenadressen Daniel-Häberle-Straße 1/Stiftswaldstraße 35 sind damit noch nicht geklärt. Website zunächst nur in der Timeline, keine ungesicherten Stammdatenfills.
+
+**Ankauf:** Abholung/Recycling beworben, keine ausdrückliche vergütete Ankaufzusage oder Zahlenkurse in den geprüften Eigenangaben. **Verkauf:** keine Liste. **Gebühren:** Schrottabholung „kostenlos“ beworben; Kühlschränke/TV auf der Startseite nicht kostenlos, Leistungsseite schließt Kühl-/Fernsehgeräte dagegen aus. Annahme dieser Geräte und eventuelle Gebühr vorab klären; keine Zahlentarife.
 
 ## Timeline
+
+### Vertiefung 08.10.2026
+
+- [Recherche 08.10.2026: Bisherige Aussage kein Betreiberauftritt durch neuen Eigenauftritt ergänzt (alter Verlauf bleibt): https://gratis-5605067.webadorsite.com/ nennt Schrotthandel Fernezy, Kaiserslautern, 01590 6128392; Kontaktseite Telefon/WhatsApp, aber keine Straße/Vertretung/Registernummer. Keine Impressumsverlinkung im gelesenen Menü, unklarer rechtlicher Inhaber; gleiches Telefon stützt den Kandidaten, ersetzt nicht Register-/Adressprüfung. Keine Website-/Kontaktfills; status pruefung bleibt. Quelle(n): https://gratis-5605067.webadorsite.com/ ; https://gratis-5605067.webadorsite.com/kontakt]
+- [Recherche 08.10.2026: Eigenauftritt bewirbt kostenlose Schrottabholung, Altmetalle/Maschinen/Elektrogeräte für Firmen/Privat. Geräteausnahme widersprüchlich: Startseite keine kostenlose Kühlgeräte-/TV-Mitnahme; Dienstleistungen kein Kühlgeräte und Fernsehgeräte. Daraus weder kostenpflichtige Annahme noch Gratisannahme ableiten. Keine numerischen Ankauf-, Verkaufs- oder Gebührenlisten; kostenlos beschreibt Abholung, nicht Vergütung des Metalls. Quelle(n): https://gratis-5605067.webadorsite.com/dienstleistungen ; https://gratis-5605067.webadorsite.com/]
 
 ### Recherche 01.10.2026
 

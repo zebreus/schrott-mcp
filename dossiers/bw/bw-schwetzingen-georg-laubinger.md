@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Erreichbare Betreiberwebsite mit Impressum Georg Laubinger, Mannheimer Landstr. 30a, 68723 Schwetzingen. Sie beschreibt Autorecycling, Metallhandel, Container von 5–40 m³, Demontage/Abriss und Transport. Ein unabhängiger zulässiger Zweitbeleg für das Einzelunternehmen fehlt weiterhin; die primär belegten Kontakt- und Adresswerte bleiben in der Timeline statt als freigegebene Frontmatter-Fills. Konkrete Ankaufskurse, öffentliche Anlieferbedingungen, Öffnungszeiten und eine aktuelle Zertifikatsgültigkeit sind nicht verifiziert. Status `pruefung`; namensgleiche Betriebe in Mannheim-Rheinau/Westerhorn bleiben getrennt.
+Die Betreiberwebsite nennt Georg Laubinger und die Mannheimer Landstraße 30a, 68723 Schwetzingen, sowie Autorecycling, Metallhandel, Container (5–40 m³), Demontage/Abriss und Transport. Für das Einzelunternehmen fehlt weiterhin ein unabhängiger zulässiger Identitäts-Zweitbeleg; Kontakt- und Adressdaten bleiben daher Quellenangaben in der Timeline, keine Frontmatter-Fills. Namensgleiche Betriebe in Mannheim-Rheinau und Westerhorn sind getrennt.
+
+**Preise:** Ankauf — keine numerischen Kurse veröffentlicht; die Website verweist auf eine individuelle Preisanfrage. Verkauf — kein gebrauchter Lkw-/Pkw-Teileverkauf; daraus folgt keine Aussage zu sonstigem Metallverkauf. Gebühren — keine bezifferten Container-, Transport- oder Entsorgungstarife gefunden. Öffentliche Anlieferbedingungen, Öffnungszeiten und aktuelle Zertifikatsgültigkeit bleiben offen; Status `pruefung`.
 
 ## Timeline
 

@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische DIAS GmbH am Am Vulkanhafen 6, HRB 90741: Registerdaten enthalten 2014er Insolvenz- und Auflösungseinträge; ein Registerindex „aktiv“-Header und die spätere Nennung einer DCP-Zweigniederlassung dort belegen keinen aktuellen DIAS-Annahmebetrieb. Die 11880-Angaben stammen aus einem Datensatz mit Datenstand 2021. `status: pruefung` bleibt; Adresse/Telefon sind nicht als heutiger Standort bestätigt. Namensgleiche dias.de-Gesellschaft ist ein anderer Rechtsträger.
+
+**Preise (Ankauf/Verkauf/Gebühren):** keine belastbare Preis- oder Gebührenquelle für einen aktuellen DIAS-Annahmebetrieb; Register-/Verzeichnisdaten enthalten keine Kurse. Wegen Insolvenz-/Auflösungseinträgen keine historischen oder namensgleichen DIAS-Angebote als aktuelle Preise übernehmen. Offen bleibt ein möglicher Nachfolger bzw. die Beziehung der DCP-Zweigniederlassung zum früheren Rechtsträger.
 
 ## Timeline
 

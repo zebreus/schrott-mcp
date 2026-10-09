@@ -24,7 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt „EKS“ und den Ankauf von Katalysatoren/Batterien an Bahnhofstraße 13, 06369 Radegast. Für diese konkrete Firma ließ sich kein aktueller Betreiber-, Register- oder Kommunalnachweis finden; Suchtreffer zu anderen Firmen mit der Abkürzung EKS sind nicht zuordenbar. Name, Leistung und Adresse bleiben unbestätigte Seed-Angaben.
+
+**Preise:** **Ankauf** – weder die behauptete Annahme noch konkrete Katalysator-/Batteriepreise verifiziert. **Verkauf** – keine Angebots-/Preisliste. **Gebühren** – keine Gebührenordnung belegt.
+
+**Geokodierung:** Bahnhofstraße 13 ist nur Seed-Adresse und nicht als Händlerstandort bestätigt; keine neue Geokodierung.
+
+## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Exakte Suchkombinationen zu „EKS“, Katalysator-/Batterieankauf und Bahnhofstraße 13, Radegast führten in den aktuellen Treffern nicht zu einem eindeutig zuordenbaren Betreiber-, Register- oder kommunalen Beleg; Treffer zu gleichnamigen EKS-Unternehmen sind fachfremd/nicht zuordenbar. Der Seed bleibt ein offener Lead. Keine Kontaktdaten, Statusänderung oder Website ergänzt. **Ankauf:** Angebot und Kurse nicht bestätigt; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Bahnhofstraße 13 vor positiver Händlerbestätigung nicht geokodieren; Quelle: keine verifizierbare positive Betreiberquelle gefunden.]
 
 ## Timeline
 

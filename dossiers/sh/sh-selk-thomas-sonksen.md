@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchenportale führen Thomas Sönksen als Altmetall-/Schrotthändler am Moorredder 20 in Selk, einschließlich Telefonnummer 04621 934172; das ist weiterhin keine Betreiberbestätigung und keine Bestätigung, dass die Anschrift eine Geschäftsannahme ist. Seedstatus `aktiv` bleibt nicht durch eine neue Primärquelle abgesichert. **Ankauf:** keine Zahlenpreise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Cylex führt Thomas Sönksen als Schrotthändler, Moorredder 20, 24884 Selk, Telefon 04621 934172; 11880 klassifiziert ihn als Altmetallrecycling und zeigt "Geöffnet", aber keine konkreten Öffnungszeiten. Schrottplatz-Info nennt denselben Ort, ebenfalls nur als Verzeichnis. Diese Aggregatoren lösen den bisherigen Privatanschrift-/Betriebsstätten-Konflikt nicht und sind kein Primärbeleg. Keine Adresse/Kontakte übernommen, Status nicht geändert. **Preise:** keine Ankauf-/Verkaufspreise oder Gebührenliste gefunden. Quelle(n): https://web2.cylex.de/firma-home/thomas-soenksen-7084231.html ; https://www.11880.com/branchenbuch/selk/060440092B107437404/thomas-soenksen.html ; https://www.schrottplatz-info.de/schrottplatz/Selk]
 
 ### Recherche 02.10.2026
 

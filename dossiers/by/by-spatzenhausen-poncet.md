@@ -28,6 +28,10 @@ Die Betreiberwebsite nennt Poncet Horst Schrott-Metalle, Dorfstraße 33, 82418 H
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Betreiberquelle erneut angesteuert (Root www/non-www, Leistungen, Kontakt), diesmal durchgehend HTTP403; daher keine aktuelle Inhalts-/Preisbestätigung und kein Schluss auf Betriebsschließung. Die lesbaren Betreiberinhalte vom 04./06.10. bleiben historische Einzelbelege. NorthData-Suche „Poncet Hofheim“ im ersten Block ohne kongruente Schrottidentität; mehrdeutiges Hofheim und unscharfe Suche begrenzen Aussage. Keine Zweitquelle gewonnen, Frontmatter unverändert. Ankauf/Verkauf/Gebühren nicht als aktuell erneut geprüft darstellen. Owner: Horst Poncet in Hofheim/Gemeinde Spatzenhausen über Gewerbequelle bestätigen, nicht Hofheim am Taunus; Quelle(n): https://www.poncet-container.de/ ; https://www.poncet-container.de/leistungen ; https://www.poncet-container.de/kontakt ; https://www.northdata.de/?query=Poncet%20Hofheim.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 82418)

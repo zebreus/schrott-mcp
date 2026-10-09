@@ -30,6 +30,10 @@ Der Harburger Seed-Lead „Karl-Heinz Meyer Autoverwertung“ am Lewenwerder 4 i
 
 ## Timeline
 
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Namensvetter erneut zweiseitig gegen Betreiber-Primärquelle abgegrenzt: Impressum karl-meyer-hh.de nennt Karl Meyer Umweltdienste Hamburg GmbH & Co. KG, Ellerholzweg 18-28, 21107 Hamburg, Hamburg HRA 93030, Komplementärin HRB 77936; Startseite beschreibt industrielle Entsorgungs-/Vermarktungsleistungen. Weder Name, Adresse noch Gesellschaft stimmen mit Seed „Karl Heinz Meyer Autoverwertung“, Harburg/Lewenwerder überein; keine Betreiberkette genannt. Keine dieser Website-/Kontaktdaten übernommen. Seed-Identität und aktuelle Autoverwertung bleiben ungeklärt, pruefung ohne Schließungsannahme. Keine dem Seed zurechenbaren Ankauf-/Verkaufspreise oder Gebühren gefunden. Quelle(n): https://www.karl-meyer-hh.de/impressum/ ; https://www.karl-meyer-hh.de/ ; https://www.11880.com/branchenbuch/hamburg/250772337B28293611/karl-heinz-meyer-autoverwertung.html (historischer Seed-Lead, kein Betreiberbeleg)]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Betreiberwebsite karl-meyer-hh.de direkt als Abgrenzungsquelle geprüft: sie gehört zu Karl Meyer Umweltdienste Hamburg GmbH & Co. KG und beschreibt industrielle Umwelt-/Entsorgungsleistungen; sie bestätigt nicht „Karl-Heinz Meyer Autoverwertung“ am Lewenwerder 4. Den Website-Namensvetter daher nicht mit dem Seed-Dossier verknüpft. Für den Seed weiterhin kein Betreiber-Preisblatt: Ankaufspreise, etwa für Altfahrzeuge/Schrott, nicht nachgewiesen; keine Verkaufspreise oder Gebühren belegt. Standort bleibt ungeprüft und ungeocodet. Quelle(n): https://www.karl-meyer-hh.de/ ; https://www.11880.com/branchenbuch/hamburg/250772337B28293611/karl-heinz-meyer-autoverwertung.html]

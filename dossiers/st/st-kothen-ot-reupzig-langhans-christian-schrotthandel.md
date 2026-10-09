@@ -25,7 +25,11 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Langhans Christian Schrotthandel“ liegen bislang nur Portal-Leads vor. Die Ortszuordnung ist zusätzlich unklar: Reupzig ist laut Kommune eine eigene Ortschaft der Stadt Südliches Anhalt und nicht „Köthen OT“; „Dorfstraße 19“ kann sowohl in Reupzig als auch Hohnsdorf vorkommen, wobei für Hohnsdorf eine Umbenennung zu Preußenstraße belegt ist. Es gibt keinen Nachweis, dass Christian Langhans an einer dieser Anschriften tätig ist. Daher keine Adresskorrektur oder Betreiberzuordnung.
+
+**Preise:** **Ankauf** – Schrotthandel nur in Aggregator-Listings behauptet, keine aktuelle Annahme/Materialpreise bestätigt. **Verkauf** – keine Preisliste. **Gebühren** – keine Abhol-/Container-/Entsorgungsgebühren belegt.
+
+**Geokodierung:** Nicht geokodieren, bis Händleridentität, Ortsteil und konkrete aktuelle Hausnummer unabhängig bestätigt sind; `Dorfstraße 19` nicht durch `Preußenstraße 19` ersetzen.
 
 ## Timeline
 

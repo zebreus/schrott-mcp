@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„CHEMES“ ist bislang nur als Kleinst-Schrotthändler in Kassel 34123 importiert; Straße, Person/Firma und weitere Identifikatoren fehlen. Die Registerspiegel-Suche nach CHEMES/Kassel ist zu unscharf, um einen passenden Händler zuzuordnen. Weder Geschäftsbetrieb noch Kundenannahme sind bestätigt. ANKAUF — kein Kurs; VERKAUF — keine Liste; GEBÜHREN — keine Angaben. Status `pruefung`, keine Felder aus Namensähnlichkeiten ergänzen.
 
 ## Timeline
 
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Kassel 34123
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: NorthData-Suchansicht „CHEMES, Kassel“ direkt erneut geprüft. Sie zeigt 15 Resultate aus 1.000+ unscharfen Gesamttreffern; die sichtbaren Treffer sind überwiegend namensähnliche oder sachfremde Personen/Firmen und liefern keinen eindeutig zuordenbaren Kasseler Schrotthändler. Das ist wegen Suchbreite und begrenzter Trefferansicht ausdrücklich kein vollständiger Register-Negativnachweis. Keine Betreiberquelle, Kontaktdaten, Öffnungszeiten oder Annahmebedingungen verifiziert; ANKAUF — kein Kurs; VERKAUF — keine Liste; GEBÜHREN — keine Angaben. Keine Frontmatter-Änderung, kein Schließungsurteil. Offen: vollständiger Firmen-/Inhabername, Straße und Herkunft des Seeds. Quelle(n): https://www.northdata.de/CHEMES,+Kassel (Suchansicht, 15 von 1.000+ Resultaten)]

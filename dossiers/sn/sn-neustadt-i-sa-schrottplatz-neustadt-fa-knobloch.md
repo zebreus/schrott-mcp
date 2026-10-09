@@ -11,7 +11,7 @@ email: ''
 opening_hours: Mo-Mi 09:00-14:00, Do 11:00-17:00, Fr 09:00-12:00
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten nennt unter diesem Eintrag einen Schrott-/Wertstoffbetrieb mit den eingetragenen Zeiten; YellowMap/tellows stützen Am Güterbahnhof und eine Rufnummer. Die Belege sind Verzeichnisse, kein Betreiber- oder unabhängiger Primärbeleg. Eine mögliche Verbindung zur Klaus Dittrich GmbH & Co. Willy Knobloch KG in Sebnitz ist nicht als Betreiberkette belegt. Die frühere Angabe `status: aktiv` war daher zu stark und ist auf `pruefung` zurückgestuft; vorhandene Adresse/Kontakt/Zeit bleiben historische Verzeichniswerte, nicht verifiziert.
+
+**Preise:** **Ankauf** — Verzeichnistexte nennen Schrott/Buntmetall, aber keine verifizierte oder bezifferte Kondition. **Verkauf** — keine Preisliste. **Gebühren** — keine belastbaren Gebührenangaben. **Geokodierung:** „Am Güterbahnhof, 01844 Neustadt“ ist eine grobe Verzeichnisadresse ohne bestätigten Anlagenpunkt; keinen exakten Schrottplatz-Pin setzen, bis Betreiber und Grundstück belegt sind.
 
 ## Timeline
+
+### Korrektur 07.10.2026
+
+- [Korrektur 07.10.2026: `status` von `aktiv` auf `pruefung` zurückgestuft. Die bisherige Aktualitäts-/Betriebsannahme beruht auf Gelbe-Seiten-/YellowMap-/tellows-Verzeichniseinträgen; ein Betreiberauftritt oder zulässiger unabhängiger Primärbeleg zur aktuellen Schrottannahme wurde nicht verifiziert. Ankauf: nur nicht verifizierter Verzeichnistext, keine numerischen Preise. Verkauf: keine Preisliste. Gebühren: keine belegte Tarifliste. Die Sebnitzer Klaus-Dittrich-Firma wird nicht ohne Betreiberbeleg mit diesem Neustädter Eintrag verschmolzen; Quelle: https://www.gelbeseiten.de/gsbiz/152272da-747d-4db8-a1c1-7be1736e6715 ; https://www.yellowmap.de/D_01855_Sebnitz/0/Schrott.htm ; https://www.tellows.de/num/01725305984.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

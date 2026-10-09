@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HRH Transport & Metallhandel GmbH ist als HRB 141643 mit Registeranschrift Neuhöfer Damm 110, 21107 Hamburg und Metallrecycling-/Entsorgungstätigkeiten belegt. Das belegt die Gesellschaft und Geschäftszweck, aber keinen frei zugänglichen Schrottannahmeplatz oder Privatkundenankauf: eine eindeutig HRH-eigene Standort-/Kontaktseite fehlt. Die gleichlautende Adresse von RETRACO ist kein Beleg für Identität oder Verschmelzung.
+
+**Preise (Ankauf/Verkauf/Gebühren):** keine HRH zuordenbaren Ankaufskurse, Verkaufspreise oder Gebühren veröffentlicht. **Offen:** ob der Standort private Anlieferung/Abholung annimmt und welche Kunden- bzw. Preisbedingungen gelten. Quellen siehe Recherche 03.–04.10.2026.
 
 ## Timeline
 

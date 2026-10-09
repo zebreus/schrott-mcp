@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der generische Seed passt als Kandidat zu Auto-Gärtner/Horst Gärtner am Berkersheimer Weg 165, 60433 Frankfurt: Die Vorrecherche fand dieselbe Rufnummer 069 516778. Rechtliche Zuordnung und heutiger Betrieb sind jedoch nicht unabhängig bestätigt; Betreiberinhalte waren älter und E-Mail-Angaben widersprüchlich. Keine Umbenennung oder Adress-/Domainübernahme auf dieser Basis. Ankauf-, Verkaufs- und Gebührenpreise nicht gesichert; `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Welle Mittenordost)
+
+- Konkreten Kandidaten aus 03.10. priorisiert statt weiterer generischer Branchenkollegen: Auto-Gärtner-Impressum heute über HTTP mit Timeout, keine neue Inhaltsbestätigung. Vorrecherche identifiziert Horst Gärtner, Berkersheimer Weg 165 und Seedtelefon; ©2014 und E-Mail-Widerspruch bleiben Aktualitätsrisiken. Quelle/Abrufgrenze: http://www.xn--auto-grtner-q8a.de/impressum/ ; Vorrecherche: http://www.xn--auto-grtner-q8a.de/kontakt/
+- ANKAUF / VERKAUF / GEBÜHREN: keine aktuelle numerische Liste gesichert. Nächster belastbarer Schritt ist Inhaber-/Gewerbeabgleich des Kandidaten und Rufnummer, nicht die Übernahme von Preisen anderer Frankfurter Schrotthändler. Alle Frontmatter-Felder unverändert.
 
 ### Importiert (Seed-Stand 2026-09-30)
 

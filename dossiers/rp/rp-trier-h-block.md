@@ -1,18 +1,18 @@
 ---
 slug: rp-trier-h-block
 name: H. Block
-trader_type: sonstige
+trader_type: schrotthaendler
 state: RP
 city: Trier
-street: H. Block Trier Granastr. 8
-postcode: ''
+street: Granastraße 8
+postcode: '54294'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.h-block-schrotthandel.de/
+website_status: aktiv
 status: pruefung
-description: Ungeklärter Seed-Kandidat H. Block in Trier; weder Schrottbetrieb noch aktuelle Betreiberidentität belastbar zugeordnet.
+description: 'Ankauf von Schrott und Metallen; außerdem Entsorgung, Demontage, Abriss und Räumungen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net PROSE-Cluster (27.09.2026)
@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Der Import enthält nur den Namen H. Block und einen Adresshinweis Granastr. 8. Das Straßenfeld ist noch mit Name/Stadt vermischter Altbestand, kein verifizierter Betriebsstandort. Ohne eindeutige Identität sind weder Schrottankauf noch Kontakte oder Geocoding freizugeben. Gleichnamige Personen und unscharfe Registertreffer sind kein Betriebsbeleg.
+Die Betreiberwebsite identifiziert „H.Block Schrotthandel“ als Hans Block, Granastrasse 8, 54294 Trier; sie nennt Ankauf von Schrott/Metallen sowie Entsorgung, Abriss, Demontage und Räumungen. Creditreform führt Hans-Ulrich Block Schrotthandel an derselben Anschrift, bestätigt also Name/Ort als zweite Quelle, nennt aber eine abweichende Festnetznummer (0651 821711 statt der Betreiber-Mobilnummer 0151 19462827). Das Betreiber-Impressum enthält nicht ausgefüllte Register-/USt-ID-Platzhalter. Deshalb sind Anschrift, Postleitzahl, Website und Händlerart ergänzt; Telefon/Öffnungszeiten bleiben leer und status `pruefung` bleibt bis zur Betreiber-/Registerklärung. ANKAUF: Schrott-/Metallankauf beworben, keine numerischen Sätze; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben zu Abholung/Entsorgung.
 
 ## Timeline
 
@@ -37,3 +37,7 @@ Der Import enthält nur den Namen H. Block und einen Adresshinweis Granastr. 8. 
 - Granastr. 8
 - urspr. Website-Angabe: keine
 - Adresse: Trier
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Betreiberwebsite einschließlich Impressum/Kontakt direkt abgerufen: „H.Block Schrotthandel“, Hans Block, Granastrasse 8, 54294 Trier, Tel. 0151 19462827, E-Mail blockhans@hotmail.de; Angebot nennt Ankauf von Schrott und Metallen, Entsorgung von Altkarossen/Autoreifen, Abriss, Demontage und Räumungen. Creditreform führt „Hans-Ulrich Block Schrotthandel“ an Granastr. 8, 54294 Trier, aber mit abweichender Nummer 0651 821711. Die Website ist live, ihr Impressum lässt Registergericht/-nummer und USt-ID als Platzhalter stehen. Website, Straßen-/PLZ-Korrektur und trader_type `schrotthaendler` nun eingetragen; Telefonnummer wegen Quellenkonflikt nicht gefüllt, Name nicht über `H. Block` hinaus normalisiert, status bleibt pruefung. Anschrift neu bereinigt: Koordinaten bitte neu geocodieren. ANKAUF: keine numerischen Ankaufspreise; VERKAUF: keine Liste; GEBÜHREN: keine veröffentlichten Tarife. Quelle(n): https://www.h-block-schrotthandel.de/ ; https://www.h-block-schrotthandel.de/impressum/ ; https://www.h-block-schrotthandel.de/kontakt/ ; https://firmeneintrag.creditreform.de/54294/5350155734/HANS_ULRICH_BLOCK_SCHROTTHANDEL.]

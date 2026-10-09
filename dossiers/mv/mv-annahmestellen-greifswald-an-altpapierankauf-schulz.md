@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Stadtübergreifender Sammeleintrag, keine einzelne Annahmestelle. Die Betreiberseite belegt Greifswald Am Gorzberg 23 mit konkreten Terminen 2026; Anklam und Torgelow werden weiterhin als „in Planung“ bezeichnet. Einzeladresse und Zeiten daher nicht in die Sammelzeile übertragen. Nur eine Betreiberquelle, kein unabhängiger Standortbeleg.
+
+**Ankauf:** Greifswalder Tabelle enthält Papierpreise (Altpapier 0,06 €/kg, Glanzpapier 0,08 €/kg, Bücher 0,03 €/kg), Schrott dagegen nur „Tagespreis“. Pappe ausdrücklich derzeit keine Annahme; 0,00 € ist kein Beleg kostenloser Entsorgung. **Verkauf / Gebühren:** keine numerische Liste belegt.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Welle Mittenordost)
+
+- Greifswalder Tabelle direkt einschließlich HTML-Zeilenumbrüchen geprüft: Altpapier 0,06 €/kg = 60 €/t; Glanzpapier (Kataloge, Zeitschriften, Werbung) 0,08 €/kg = 80 €/t; Bücher 0,03 €/kg = 30 €/t. Die zwei Preise in der ersten Tabellenzeile gehören in derselben Reihenfolge zu zwei Materialien, nicht zu einer Preisspanne. Tragbare Altkleider und Schuhe je 0,00 €/kg; Pappe ebenfalls 0,00 €, aber ausdrücklich „derzeit keine Annahme“. Schrott/Altmetall nur Tagespreis, keine numerischen Metallkurse. Preise jederzeit veränderlich, kein ausdrücklich datierter Tarifgültigkeitszeitraum. Quelle: https://altpapierankauf-schulz.de/standorte/greifswald/
+- Betreibertermine Greifswald 10–18 Uhr: 06./20.10., 03./17.11., 01./15./29.12.2026; nächster veröffentlichter Termin nach dem Abruf ist 20.10.2026. Anklam/Torgelow direkt weiter „in Planung“. Keine Ableitung einer täglichen oder flächendeckenden Annahme. Quellen: https://altpapierankauf-schulz.de/standorte/anklam/ ; https://altpapierankauf-schulz.de/standorte/torgelow/
+- VERKAUF / GEBÜHREN: keine numerischen Angaben auf diesen Seiten. Bestehende Strukturentscheidung und Frontmatter unverändert; Website-Unterseiten sind keine unabhängigen Zweitbelege.
 
 ### Recherche 03.10.2026
 

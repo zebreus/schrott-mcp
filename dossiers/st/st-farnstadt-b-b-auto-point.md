@@ -24,7 +24,11 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für den Seed „B&B Auto Point“ lässt sich eine Kfz-Werkstatt-GbR von Carsten und Cornelia Bredy an der Eislebener Straße 1 b, 06279 Farnstädt als Kandidat nachweisen. Ein anderer Verzeichniseintrag nennt „B&B Auto Point GmbH“ und Autoverwertung; Rechtsform und Tätigkeit sind widersprüchlich. Werkstatt-/Abschlepphinweise bestätigen keine genehmigte Autoverwertung, Altautoannahme oder Schrottankauf. Domains/Social-Auftritt lieferten keinen direkt verifizierbaren Betreiberinhalt.
+
+**Preise:** **Ankauf** – keine bestätigten Fahrzeug-/Schrottankaufspreise. **Verkauf** – keine Ersatzteil-/Fahrzeugpreisliste belegt. **Gebühren** – keine Abschlepp-, Annahme- oder Entsorgungstarife bestätigt.
+
+**Geokodierung:** Eislebener Straße 1 b ist ein Identitätskandidat aus Creditreform, aber die Verbindung zur Autoverwertung nicht belegt; vor Geokodierung erst Betreiber und Geschäftstätigkeit bestätigen.
 
 ## Timeline
 

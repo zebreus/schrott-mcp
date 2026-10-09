@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die bisherige Betreiber-Standortseite von TSR nennt für Bad Essen „Gewerbegebiet 2, 49152 Bad Essen“ und Telefon 05472 8214999; das Handelsregister bestätigt die TSR-Rechtseinheit, nicht die einzelne Niederlassung. Der erneute Direktabruf der Standortseite war durch eine Challenge blockiert, deshalb bleibt die Adresse/Telefonnummer als belegter Seitenfund, aber nicht als ausreichend re-verifizierte Frontmatter-Angabe dokumentiert. Kein aktueller Filial-Impressums-/Kontaktbeleg nachgewiesen.
+
+- **Ankauf:** Fe-/NE-Metallgeschäft ist Seed-/Standorthinweis; keine materialbezogenen Ankaufskurse veröffentlicht oder für diese Zweigstelle verifiziert.
+- **Verkauf:** keine branchenspezifische Verkaufspreisliste gefunden.
+- **Gebühren:** keine Gebühren-/Containerpreisliste.
+- **Geokodierung:** „Gewerbegebiet 2, 49152 Bad Essen“ erst nach erfolgreichem Abruf/Bestätigung der offiziellen Standortseite geokodieren; genaue Anschrift bleibt zu verifizieren.
 
 ## Timeline
 

@@ -15,7 +15,7 @@ use crate::IngestError;
 pub const SLUG: &str = "ni-harsefeld-21698-nordkat";
 /// Bespoke, live-verified impressum URL. A move fails the step
 /// loudly (fix the URL) — never guessed, never shared.
-pub const IMPRESSUM_URL: &str = "https://www.nordkat.de/Impressum/";
+pub const IMPRESSUM_URL: &str = "https://www.nordkat.de/Kontakt/Impressum/";
 
 pub const URL: &str = "https://www.nordkat.de/Preislisten-ankaufspreise-edelmetalle/";
 
@@ -275,6 +275,28 @@ fn percent_decode(enc: &str) -> String {
 #[cfg(test)]
 mod tests {
     use super::{extract_info, grade_for, parse, percent_decode, skip_reason};
+
+    #[tokio::test]
+    #[ignore = "explicit live check against the operator website"]
+    async fn live_handler_keeps_verified_contact_and_acceptance() {
+        let client = reqwest::Client::builder()
+            .user_agent("schrott-mcp-ingestion/0.1")
+            .timeout(std::time::Duration::from_secs(30))
+            .build()
+            .expect("client");
+        let out = (super::handler().scrape)(&client)
+            .await
+            .expect("price page and linked impressum remain usable");
+        assert_eq!(out.status_code, 200);
+        assert_eq!(out.trader_info.street, "Am Bauhof 5");
+        assert_eq!(out.trader_info.city, "Harsefeld");
+        assert_eq!(out.trader_info.email, "kontakt@nordkat.de");
+        assert!(out
+            .acceptances
+            .iter()
+            .any(|a| a.material == "katalysatoren"));
+        assert!(out.prices.is_empty(), "no guessed prices from image PDFs");
+    }
 
     // Real structure, shortened: cm_table with paired h3 headers (h2 for
     // the last group), download widgets, the "bis 25" info paragraph,

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historischer Verzeichnis-Eintrag für B. Oetjen, Schrott- und Metallhandel, Quelkhorner Landstr. 74, 28870 Ottersberg, Tel. 04293 1516. Die bekannten Belege sind Verzeichnisse/Community-Profile (eines seit 2013), kein aktueller Betreiber- oder Registerbeleg; ähnlich benannte Oetjen-Betriebe an anderen Orten sind nicht zugeordnet. Adresse/Telefon bleiben Leads, status `pruefung`; keine belegten Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse führen Paul Haensel jun. an der Vorbeckstr. 12 in Lübeck und nennen Telefonnummern; Northdata-Suchen ergaben keine kongruent zuordenbare Schrotthandlung. Ohne Betreiber-, Register- oder Gewerbeauskunftsbeleg bleiben Identität, Adresse und aktueller Ankaufstatus ungeklärt; Status `pruefung`. Keine öffentlich belegten Ankaufpreise, Verkaufspreise oder Gebühren gefunden (Recherche 04.10.2026).
 
 ## Timeline
 

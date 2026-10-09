@@ -24,9 +24,18 @@ provenance_origin: prose
 
 ## Überblick
 
-Für „Trapp“ liegt bislang nur ein nicht mehr erreichbarer Verzeichnis-Detailtreffer vor; eine aktuelle 11880-Suche nach Schrotthandel in Lohr führte den Namen ebenfalls nicht. Das ist kein Beleg für eine Abmeldung; Betreiber und eine über die Seed-PLZ 97816 hinaus bestätigte Anschrift sowie das Annahmeangebot bleiben offen. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Kein Geocoding ohne bestätigten Kundenstandort.
+Das Örtliche führt aktuell als Suchtreffer „Trapp Uwe Schrotthändler“ in Lohr a. Main, 97816, mit Tel. 0171 4930690, jedoch ohne Straße. Eine parallele 11880-Suche nach Schrotthandel in Lohr zeigt keinen Trapp-Eintrag. Beide Befunde stammen aus Verzeichnissen und lösen Betreiberidentität, aktuelle Tätigkeit oder Kundenannahme nicht auf; das Fehlen bei 11880 ist kein Schließungsbeleg.
+
+- **Ankauf:** keine belastbaren Ankaufspreise oder Annahmebedingungen.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine Angaben.
+- **Geokodierung:** nicht möglich/angebracht, solange keine eindeutige Anschrift und Betreiberzuordnung vorliegen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Neue Verzeichnis-Spur direkt geprüft: Das Örtliche listet „Trapp Uwe Schrotthändler“, Lohr a. Main, 97816, Tel. 0171 4930690, aber keine Straße. Die aktuelle 11880-Suche für Schrotthandel in Lohr führt 15 Umfeldtreffer, keinen Trapp. Das ist kein Beleg für eine Abmeldung; Angaben von Das Örtliche sind ein Lead und die frühere nicht erreichbare Detailseite bleibt kein aktueller Betreiberbeleg. Name, Telefon, genaue Adresse und Kundenannahme nicht in Frontmatter übernommen. Keine Ankauf-/Verkaufspreise oder Gebühren gefunden. Geokodierung bis zur Anschriftsklärung zurückgestellt; Quelle: https://www.dasoertliche.de/Themen/Schrott/Lohr-a-Main.html ; https://www.11880.com/suche/schrotthandel/lohr-main]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

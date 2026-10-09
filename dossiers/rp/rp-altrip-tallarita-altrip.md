@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Wix-Onepager unter dem Branding „S. Tallarita Schrott & Metallhandel“ bewirbt Schrott-/Metallankauf (u.a. Kabel, Blei, Messing, Aluminium, Kupfer, Batterien), Fahrzeugankauf, Abholung sowie Abriss/Demontage. Der Seitenkopf nennt „Ludwigshafen am Rhein“, der Footer Altrip; 11880 führt Am Sandzug 16, 67122 Altrip und Tel. 0176 87355022. Der Standort-/Betreiberbezug bleibt deshalb vorsichtig zu lesen; ein formales Impressum fehlt.
+
+**Preise (Stand 08.10.2026):** **ANKAUF** – keine Sortenpreise; die Website wirbt allgemein mit Ankauf. **VERKAUF** – keine Teile-/Materialpreisliste. **GEBÜHREN** – keine Tarifliste; der Suchbegriff „Kostenlose Verschrottung“ auf der Seite enthält keine Bedingungen und ist kein belastbarer Gebührennachweis.
 
 ## Timeline
 
@@ -41,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Onepager st-gebrauchtgut.wixsite.com/staschrotthandeltall verifiziert (Header: „S. Tallarita Schrott & Metallhandel, Am Sandzug 16, Ludwigshafen am Rhein, 017687355022“; Footer: „©2022 STA Schrotthandel Tallarita Altrip“; Leistungen: Kabel/Blei/Schrott/Messing/Alu/Kupfer/Autobatterien, PKW-/LKW-/Baumaschinen-Ankauf, Schrottabholung, Abriss/Demontage). Kein formales Impressum (Name+Ort) — daher kein website-Eintrag, website_status unbekannt. Klärfall City: Onepager nennt „Ludwigshafen am Rhein“, Verzeichnisse einhellig Am Sandzug 16, 67122 Altrip — Straße/PLZ/City unverändert. Tel. 0176 87355022 nur Onepager-Einzelbeleg — Feld leer; Quelle(n): st-gebrauchtgut.wixsite.com/staschrotthandeltall, 11880.de (nur Lead)]
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Betreiber-Onepager erneut ausgewertet: Materialarten und Fahrzeugankauf sind Leistungswerbung, jedoch ohne konkreten Ankaufbetrag oder Sorten-/Einheitspreise. Die Phrase „Kostenlose Verschrottung“ erscheint als Such-/Seitentext ohne erläuterte Voraussetzungen, Fahrzeugzustand oder Leistungsumfang; daher nicht als allgemein kostenloser Tarif übernommen. VERKAUF: keine Ersatzteil-/Materialpreise; GEBÜHREN: keine belastbare Gebührenliste. Stadt-/Identitätskonflikt und fehlendes Impressum bleiben offen, keine Frontmatter-Ergänzung. Quelle(n): https://st-gebrauchtgut.wixsite.com/staschrotthandeltall ; https://www.11880.com/branchenbuch/altrip]

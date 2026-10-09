@@ -26,7 +26,7 @@ provenance_origin: table
 
 Die **Rolf Mütze Rohstoffe GmbH, HRB 76431 AG Frankfurt am Main**, ist als Rechtsträger in der bisherigen Registerrecherche identifiziert. Der am 05.10. direkt gelesene Northdata-Eintrag nennt als Unternehmensgegenstand Handel mit Rohstoffen, Metallen und Schrott. Das ist ein Handelszweck, **kein Nachweis einer öffentlich zugänglichen Ankaufstelle**.
 
-Adresskonflikt bleibt offen: Registerprofil **Schützenstr. 2**, Seed **Schützenstr. 2a**, jeweils 65795 Hattersheim. Das alte Straßenfeld bleibt unverändert und darf nicht als bestätigte Besuchsadresse gelten. Eine Betreiberwebsite, aktuelle Öffnungszeiten und belegte Kundenannahme fehlen. Northdata führt auch den früheren Namen M. Hippe Rohstoffe GmbH; daraus wird ohne unabhängigen Kettenbeleg keine zusätzliche Identitäts-/Nachfolgezuschreibung abgeleitet. Numerische Ankaufsangebote oder Preislisten wurden nicht gefunden.
+Adresskonflikt bleibt offen: Registerprofil **Schützenstr. 2**, Seed **Schützenstr. 2a**, jeweils 65795 Hattersheim. Das alte Straßenfeld bleibt unverändert und darf nicht als bestätigte Besuchsadresse gelten. Eine Betreiberwebsite, aktuelle Öffnungszeiten und belegte Kundenannahme fehlen. Northdata führt auch den früheren Namen M. Hippe Rohstoffe GmbH; daraus wird ohne unabhängigen Kettenbeleg keine zusätzliche Identitäts-/Nachfolgezuschreibung abgeleitet. **ANKAUF:** keine numerischen Angebote oder Preisliste gefunden; **VERKAUF:** keine Materialverkaufspreise gefunden; **GEBÜHREN:** mangels bestätigter öffentlicher Annahme keine belegten Annahme-, Container- oder Servicegebühren.
 
 ## Timeline
 

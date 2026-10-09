@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schrottplatz Rautheim“ ist bislang nur über eine SEO-Verzeichnisfamilie auffindbar. Die dort kursierenden Angaben „Zum Ackerberg“, Telefon +49 15510 829965 und Öffnungszeiten sind nicht durch einen Betreiber, ein Register oder eine unabhängige lokale Quelle bestätigt. Eine Gelbe-Seiten-Branchenliste weist keinen solchen Platz aus; ein realer, aktiver Betrieb ist damit nicht nachgewiesen, eine Schließung aber ebenso wenig. `status: pruefung` bleibt.
+
+- **Ankauf:** keine belastbare Annahme- oder Preisangabe.
+- **Verkauf:** keine Preis-/Sortimentsliste.
+- **Gebühren:** keine belegten Preise.
+- **Geokodierung:** keine; „Zum Ackerberg“ aus SEO-Seiten ist ein unbestätigter Lead und soll nicht als Betriebsadresse geokodiert werden.
 
 ## Timeline
 

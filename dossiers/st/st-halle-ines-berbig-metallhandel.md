@@ -24,7 +24,11 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die historische Verbindung zwischen Ines Berbig, dem früheren Standort Freiimfelder Straße 5 und der heutigen Metall-Blitz GmbH ist plausibel: Der Betreiberauftritt nennt Berbig als Gründerin, das Impressum und HRB 14537 führen sie als Geschäftsführerin. Das beweist aber nicht, dass dieser Datensatz „Ines Berbig Metallhandel“ mit der GmbH rechtlich identisch ist oder dass heute Schrott angekauft wird. Die aktuelle Produktseite bewirbt neue Dachentwässerung, Bleche, Coils und NE-Metalle; daraus keinen Schrottankauf ableiten.
+
+**Preise:** **Ankauf** – keine Schrott-/Altmetallankaufspreise gefunden. **Verkauf** – Metall-Blitz verkauft neue Dachrinnen, Fallrohre, Bleche, Coils und NE-Metalle; keine öffentliche Preisliste. **Gebühren** – keine Gebührenordnung.
+
+**Geokodierung:** Fiete-Schulze-Straße 5 ist aktuelle Metall-Blitz-Adresse, aber mangels nachgewiesener Nachfolge nicht auf diesen Datensatz übertragbar. Alte Freiimfelder Straße 5 ebenfalls nicht geokodieren.
 
 ## Timeline
 

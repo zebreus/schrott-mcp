@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dave's Schrotthandel in Trier bleibt ein namenstreuer Verzeichnislead, nicht bestätigter Betrieb. Die früher dokumentierte Ostallee-Angabe hat keine Hausnummer. Ein privates Facebook-Profil David Frankreiter mit Trier-Ortsbezug ist kein Betreiber-Social-Beleg für Dave's; die E-Mail im Portal beweist diese Identität ebenfalls nicht. Sascha/Frankreiter-Schrotthandelseinträge bleiben getrennt.
+
+**Preise:** Keine bestätigte Ankauf-, Verkaufs- oder Gebührenliste. Offen: Gewerberegister/Inhaber, vollständige Geschäftsadresse, Abholbetrieb oder Annahmehof und tatsächliche Erreichbarkeit.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Neue Suche „Dave Schrotthandel Trier David Frankreiter“ findet Dave's erneut in GelbeSeiten/Örtliche und ein Facebook-Personenprofil David Frankreiter mit Trier-Ortsbezug. Das Profil ist nicht als Betreiberauftritt eines Schrotthandels nachgewiesen; daher keine Identitätsableitung aus Profil + Portal-E-Mail und kein Frontmatter-Fill. Andere Frankreiter-Schrotthändler in Trier (Sascha, Trierweilerweg/Neustraße) nicht zusammenführen. Bestehenden Lead Ostallee ohne Hausnummer beibehalten, 24-Stunden-Portaldaten nicht als Hofzeiten übernehmen. ANKAUF/VERKAUF/GEBÜHREN: keine dem Zielbetrieb zugeordnete Primärpreisliste. Offen: Gewerberegister Trier, vollständige Adresse und Betreiberbezug David/Dave. Quelle(n): https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/trier ; https://www.dasoertliche.de/Top/Schrotth%C3%A4ndler/Trier ; https://www.facebook.com/david.frankreiter (Personenprofil, kein belegter Betreiberauftritt) ; https://www.schrottplatz-info.de/schrottplatz/Trier/Sascha-Frankreiter- (abzugrenzender Lead).]
 
 ### Recherche 03.10.2026
 

@@ -28,6 +28,11 @@ Biebertaler Lead „Manuel Blum“ mit aggregatgestützter Seed-Adresse Am Kalkb
 
 ## Timeline
 
+### Recherche 08.10.2026 (Welle Mittenordost)
+
+- Instagram entsorgungsdienst_blum erneut nur Login-Seite direkt lesbar: Suchindexhinweis bleibt möglicher Betreiber-Social-Ansatz, kein verifizierter aktueller Beitrag und keine Anschrift-/Telefonbestätigung. Kein Nachweis einer Verbindung Biebertal ↔ Sommerberg 15 in Gießen. Quelle/Zugriffsgrenze: https://www.instagram.com/entsorgungsdienst_blum/
+- ANKAUF / VERKAUF / GEBÜHREN: keine belastbare Betreiberliste. Namens-/Ortssuchtreffer von anderen Gießener Händlern nicht übertragen. Gezielt rechtliche Eigenangaben des Social-Profils oder Gewerbeauskunft zum erhaltenen Biebertaler Lead beschaffen; Aggregator-Ausnahme-Fills nicht nachträglich als primär verifiziert darstellen. Frontmatter unverändert.
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Adresse Am Kalkbruch 7, 35444 Biebertal-Rodheim-Bieber und Tel. 0178 3284627 (Seed-Nummer) konkordant in ZWEI Aggregatoren (Gelbe Seiten + Das Örtliche, dort als Blum Schrottabholung-Gießen). Ausnahme-Fill (nur Aggregator-Belege, offen dokumentiert): street + postcode; phone war bereits Seed-Stand. Kein Betreiber-Webauftritt, kein HR-/Kommunalbeleg gefunden. Gegenlead: schrottplatz-info/schrottplatz.org listen Schrotthandel Manuel Blum in GIESSEN, Sommerberg 15, 35394, Tel. (0641) 9446463, abweichende Adresse und Nummer, ungeklärt ob Umzug, Zweitstandort oder Namensvetter. Kein Merge. Status bleibt pruefung, website_status unbekannt; Quelle(n): gelbeseiten.de + dasoertliche.de (Fills) vs. schrottplatz-info.de/schrottplatz.org (Gegenlead Gießen)]

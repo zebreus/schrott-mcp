@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-Die Seed-Identität „Schrott and More“ in Oldenburg ist weiterhin nicht belastbar einem aktuellen Betreiber zugeordnet. Die ähnlich benannte Domain `schrott-oldenburg.de` gehört laut aktuellem Impressum Marco Heick / J. Heick Recycling an der August-Wilhelm-Kühnholz-Straße 33; sie ist kein Beleg für diesen Seed und wird nicht übertragen. Der Seed-Status `aktiv` ist damit nicht neu bestätigt. Für den gesuchten Betrieb ist keine Preisangabe verifiziert: Ankauf unbekannt, Verkaufspreise und Gebühren nicht belegt.
+Die Seed-Identität „Schrott and More“ in Oldenburg ist weiterhin nicht belastbar einem aktuellen Betreiber zugeordnet. Die ähnlich benannte Domain `schrott-oldenburg.de` gehört laut aktuellem Impressum Marco Heick / J. Heick Recycling an der August-Wilhelm-Kühnholz-Straße 33; sie ist kein Beleg für diesen Seed und wird nicht übertragen. Der Seed-Status `aktiv` ist damit nicht neu bestätigt.
+
+- **Ankauf:** für „Schrott and More“ nicht belegt.
+- **Verkauf:** keine verifizierte Preisliste.
+- **Gebühren:** keine verifizierte Gebühren-/Abholpreisliste.
+- **Geokodierung:** keine bestätigte Dossieradresse; Heicks August-Wilhelm-Kühnholz-Straße darf nicht auf diesen Seed übertragen/geokodiert werden.
 
 ## Timeline
 

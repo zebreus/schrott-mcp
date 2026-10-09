@@ -24,13 +24,21 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die importierte Identität „Hoffmann u. Hoffmann GbR Elektroschrottrecycling“ mit Gartenstraße 1 und Telefonnummer ist weiterhin nicht durch einen aktuellen Betreiber- oder Registerbeleg bestätigt. Ein eigener Recyclingbetrieb existiert in Gerwisch unter dem Namen **Gerwischer Rohstoffrecycling & Verwertungs GmbH**, Lostauer Straße 5 (HRB 1316); es gibt aber keinen Beleg für eine Verbindung zu Hoffmann u. Hoffmann. Die beiden Datensätze dürfen nicht zusammengeführt werden.
+
+**Preise:** **Ankauf** – für den Zielbetrieb Hoffmann u. Hoffmann keine Annahmebedingungen oder Preise belegt. **Verkauf** – keine Produkt-/Preisliste zuordenbar. **Gebühren** – keine E-Schrott-/Entsorgungsgebühren belegt.
+
+**Geokodierung:** Die Seed-Adresse Gartenstraße 1 bleibt unbestätigt; die Lostauer Straße 5 gehört einem anderen, nicht zugeordneten Unternehmen und darf nicht als Standort übernommen/geokodiert werden.
 
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Elektroschrottrecycling (lt. 11880)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Die offizielle Website von Gerwischer Rohstoffrecycling & Verwertungs GmbH nennt deren Standort Lostauer Straße 5 in Gerwisch; das Impressum führt HRB 1316. Die Leistungen betreffen Recycling/Verwertung, doch weder Website noch Registerbezug weisen eine Verbindung zur im Seed genannten Hoffmann u. Hoffmann GbR, Gartenstraße 1 oder 039292/9144 aus. Das sind daher getrennte Unternehmen/Kandidaten; keine Frontmatter-Felder übertragen. **Ankauf:** keine zuordenbaren Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Keine Geokodierung für den Seed; Quelle: https://gerwischer-recycling.de/ ; https://gerwischer-recycling.de/impressum/]
 
 ### Recherche 04.10.2026
 

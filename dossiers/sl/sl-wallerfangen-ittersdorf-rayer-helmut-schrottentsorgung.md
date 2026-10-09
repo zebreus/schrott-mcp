@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse stimmen weiterhin bei Zur Weisacht 15, 66798 Wallerfangen-Ittersdorf und 06837 909863 überein, aber es fehlt ein Betreiber-, Register- oder kommunaler Beleg. Adress-/Telefonfelder bleiben Leads; Aktivität und Annahmebedingungen sind offen. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Neue Suche und Direktprüfung der Branchenverzeichnisse wiederholen Rayer Helmut Schrottentsorgung, Zur Weisacht 15, 66798 Wallerfangen-Ittersdorf, Tel. 06837 909863. Kein Betreiberauftritt, Register- oder Kommunalbeleg wurde gefunden; Treffer bei Das Örtliche/Gelbe Seiten/Schrottplatz-Portalen bleiben nach Quellenstandard Aggregator-Leads und bestätigen weder Betrieb noch Geschäftsanschrift. Keine Frontmatter-Änderung. **Ankauf:** keine Ankaufpreise gefunden; **Verkauf:** keine Verkaufspreisliste gefunden; **Gebühren:** keine Entsorgungsgebühren gefunden. Quelle(n): https://www.dasoertliche.de/Themen/Rayer-Helmut-Schrottentsorgung-Wallerfangen-Ittersdorf-Zur-Weisacht ; https://www.gelbeseiten.de/gsbiz/d712bac2-57ea-45e3-b2e0-5f3d3736aee2 ; https://www.schrottplatz.org/wallerfangen/schrott-rayer-helmut-aYEPLs.html]
 
 ### Recherche 04.10.2026
 

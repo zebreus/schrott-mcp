@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed führt „HOLT (D)ER MANN“ als mobilen Schrottannahme-Anbieter in Bad Oldesloe; in der aktuellen Namenssuche ließ sich dazu kein eindeutig zuordenbarer Betreiberauftritt oder Registerbeleg finden. Adresse, Kontakt, Abholung und aktuelle Tätigkeit sind somit nicht verifiziert; der vorhandene Status `aktiv` ist ein Seed-Bestand, keine neue Bestätigung. Keine belastbaren Ankaufpreise, Verkaufspreise oder Gebühren gefunden.
 
 ## Timeline
 

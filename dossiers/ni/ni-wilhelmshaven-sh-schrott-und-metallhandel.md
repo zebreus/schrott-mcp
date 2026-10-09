@@ -24,7 +24,12 @@ provenance_origin: table
 
 ## Überblick
 
-Klärfall mit Registerwiderspruch: Das Dossier nennt SH Schrott- und Metallhandel UG, HRB 205502 AG Oldenburg, Gökerstr. 114. Northdata führt genau diese Gesellschaft als am 10.09.2019 gelöscht; eine ältere Recherche fand dagegen eine spätere Löschungsankündigung nach §394 FamFG. Originalbekanntmachung und möglicher Nachfolgebetrieb müssen geklärt werden. Keine Preis-/Gebührenliste und keine Geokodierung vor Bestätigung von Rechtsträger und Standort.
+Klärfall mit Registerwiderspruch: Das Dossier nennt SH Schrott- und Metallhandel UG, HRB 205502 AG Oldenburg, Gökerstr. 114. Northdata führt genau diese Gesellschaft als am 10.09.2019 gelöscht; eine ältere Recherche fand dagegen eine spätere Löschungsankündigung nach §394 FamFG. Originalbekanntmachung und möglicher Nachfolgebetrieb müssen geklärt werden.
+
+- **Ankauf:** keine aktuelle, SH Wilhelmshaven zurechenbare Ankauftätigkeit oder Preisangabe.
+- **Verkauf:** keine Preisliste.
+- **Gebühren:** keine Gebühren-/Containerliste.
+- **Geokodierung:** Gökerstr. 114, 26384 Wilhelmshaven nicht geokodieren, bevor Rechtsträger und aktueller Standort bestätigt sind.
 
 ## Timeline
 

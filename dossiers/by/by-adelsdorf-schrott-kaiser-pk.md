@@ -20,13 +20,26 @@ provenance_ankauf_raw: unklar
 provenance_origin: table
 ---
 
-# Schrott Kaiser (PK GmbH)
+# Metallrecycling Kaiser (Adelsdorf)
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für Metallrecycling Kaiser, Industriestr. 23, 91325 Adelsdorf existieren nur widersprüchliche bzw. wiederholte Branchenverzeichnis-Leads; ein passender Betreiber-, Register- oder Kommunalbeleg fehlt. Die ähnlich benannte Domain `schrottkaiser.de` gehört nach Impressumsprüfung zur PK GmbH in Lichtenfels und ist ausdrücklich nicht diesem Dossier zuzuordnen. Historische Import-Leistungen Autoverwertung/Abbruch/Abschleppen sind nicht bestätigt.
+
+- **Ankauf:** keine belastbaren Ankaufspreise oder Annahmebedingungen.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine Gebühren-/Containerpreise.
+- **Geokodierung:** Industriestr. 23 bleibt ein Verzeichnis-Lead; erst nach Betreiber-/Standortbestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Namens- und Domainabgrenzung)
+
+- [Recherche 08.10.2026: Sichtbare Dossierüberschrift korrigiert: „Schrott Kaiser (PK GmbH)“ suggerierte trotz korrigiertem Frontmatter weiterhin die ausgeschlossene Lichtenfelser Gesellschaft; jetzt Metallrecycling Kaiser (Adelsdorf), stabiler Slug unverändert. Impressum schrottkaiser.de direkt erneut gelesen: Abbruch-und Baggerbetrieb PK GmbH, Coburger Str. 109, 96215 Lichtenfels, Pia Kaiser, AG Coburg HRB 5653. Kein Adelsdorfer Betreiber-/Kettenbeleg. Northdata-Suggest Metallrecycling Kaiser results leer, keine vollständige Gewerbe-Negativauskunft. Adelsdorfer Branchenbuchkontakte weiterhin nur Leads; keine Betreiber-, Annahme- oder Preisdaten der Lichtenfelser Firma übertragen. ANKAUF/VERKAUF/GEBÜHREN: keine Adelsdorfer numerischen Befunde; nächster Schritt Gewerbeidentität Moreno Kaiser/Industriestr. 23 direkt abgleichen. Quelle: https://www.schrottkaiser.de/Impressum.htm ; https://www.northdata.de/suggest.json?query=Metallrecycling%20Kaiser&countries=DE ; historischer Adelsdorfer Lead: https://adelsdorf.stadtbranchenbuch.com/8760878.html .]
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Aktuelle lokale Suchseiten von Das Örtliche und Gelbe Seiten direkt geprüft; sie liefern keinen klaren, zu Metallrecycling Kaiser in Adelsdorf gehörigen Treffer. Die kommunale Adelsdorfer Website enthält keine umfassende Branchenliste und identifiziert den Betrieb nicht. Das sind begrenzte Suchbefunde, kein Beleg für Schließung. `schrottkaiser.de` bleibt ausgeschlossen: das live geprüfte Impressum ordnet die Domain der Abbruch-und Baggerbetrieb PK GmbH in Lichtenfels zu, nicht dem Adelsdorfer Lead. Keine Frontmatter-Felder ergänzt; Anschrift/Name bleiben historische Verzeichnisangaben, Telefonnummern widersprüchlich. Keine konkreten Ankauf-/Verkaufspreise oder Gebühren. Geokodierung bis zur Identitäts- und Annahmeklärung zurückgestellt; Quelle: https://www.dasoertliche.de/Themen/Schrott/Adelsdorf.html ; https://www.gelbeseiten.de/suche/schrott/adelsdorf ; https://www.adelsdorf.de/ ; https://www.schrottkaiser.de/Impressum.htm]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

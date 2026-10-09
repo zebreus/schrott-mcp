@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zuordnung „Kühn Entsorgung“ zu Nördliche Uferstraße 16 bleibt ungeklärt: Verzeichnisse führen dort mehrere Kühn-Einträge mit widersprüchlichen Telefonnummern; die früher gesetzte Domain leitet zur Kühl-Gruppe und ist kein Beleg für den Karlsruher Betrieb. Kein qualifizierter Betreiber- oder Registerbeleg für Identität, Annahme oder tatsächliche Telefonnummer. Status `pruefung`.
+
+**Preise:** Ankauf — keine betriebsbezogenen Preise; Verkauf — keine Angaben; Gebühren — keine belastbaren Container-/Entsorgungstarife. Nicht mit anderen Kühn-/Kühl-Betrieben zusammenführen und die Adresse bis zur Standortklärung nicht geokodieren.
 
 ## Timeline
 

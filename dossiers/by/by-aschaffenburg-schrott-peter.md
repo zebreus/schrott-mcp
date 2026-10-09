@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter Haibacher Branchenbuch-Lead „Schrott Peter“, Dalbergstraße 6, 63808 Haibach-Grünmorsbach, 06021 69677. Name kann in der Verzeichnisdarstellung auch Familienname Schrott/Vorname Peter sein; die Branche „Schrott“ allein löst diese Identität nicht. Bestehende Felder sind historische Aggregator-Fills, keine aktuelle Betreiberbestätigung. Keine Verbindung zum Privatkontakt Peter und Elisabeth Schrott an anderer Anschrift belegt.
+
+**Ankauf:** aktuelle Annahme und Preise offen. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Status pruefung; Rechts-/Betreiberidentität klären, bevor Annahmekonditionen oder Geokoordinaten ergänzt werden.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Gelbe-Seiten-Detaileintrag erneut vollständig gelesen: Schrott Peter, Branche Schrott, Dalbergstr. 6, Haibach-Grünmorsbach, 06021 69677. Eintrag bietet Inhaber-Aktualisierung/Website-Buttons, aber keine im Inhalt identifizierte Betreiberseite oder gesicherte Leistung. Wiederholung alter Daten bestätigt nicht deren Aktualität und ist kein unabhängiger zweiter Beleg. Namensreihenfolge Schrott Peter nicht ohne Inhaberbeleg als Handelsname interpretieren; keine Zusammenführung mit Peter/Elisabeth an der Würzburger Straße. Alt-Fills ausdrücklich als historische Leads erhalten, keine neuen Frontmatter-Felder, status pruefung. Keine numerischen Ankauf-/Verkaufs-/Gebührenbefunde. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/67d4bf03-1de1-4742-b0b0-8a9af804f2c0 .]
 
 ### Recherche 02.10.2026
 

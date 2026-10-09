@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für einen Schrotthändler "Mrad" in Lippstadt fand sich weiter keine zuordenbare Betreiber- oder Registerquelle. Die aktuellen Altmetall-Verzeichnissuchen zeigen andere Anbieter; ein gleichnamiges Social-Profil ist ohne Orts-/Identitätsbezug kein Treffer für diesen Datensatz. **Ankauf:** ungeklärt; **Verkauf:** keine Preisliste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Aktuelle 11880-Suche nach Altmetallrecycling in Lippstadt listet drei andere Firmen (u.a. Jäger Verwertungs GmbH, A&R Autoankauf und Wilhelm Knepper), keinen "Mrad"; die städtische Wirtschaftsseite bietet keinen passenden Eintrag. Ein Suchtreffer "Mrad Schrotthandel Metallhandel" in sozialen Medien hat keinen erkennbaren Lippstadtbezug und wird nicht zugeordnet. Verzeichnis-Auslassung ist kein Schließungsnachweis; keine Frontmatter-Änderung. **Preise:** keine Ankauf-, Verkaufspreise oder Gebühren für diesen Datensatz gefunden. Quelle(n): https://www.11880.com/suche/altmetallrecycling/lippstadt ; https://www.lippstadt.de/wirtschaft]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

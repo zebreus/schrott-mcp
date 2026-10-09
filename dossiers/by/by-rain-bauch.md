@@ -11,7 +11,7 @@ email: ''
 opening_hours: Mo-Fr 8-17
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: Autoverwertung in Rain-Überacker mit Schrott-/Metallannahme (Stahl, NE-Metalle, Kabel, E-Motoren, Altfahrzeuge)
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,18 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse nennen Franz u. Renate Bauch Autoverwertung, Brunntalweg 10, 86641 Rain (Überacker), Tel. 08432 1680 und Mo–Fr 8–17 Uhr. Diese Angaben sind nicht durch einen zugänglichen Betreiberauftritt oder Register-/Kommunalbeleg bestätigt; die Kandidaten-Domain liefert HTTP 503. Frühere Einstufung `aktiv` wird deshalb auf `pruefung` zurückgenommen. Suchtreffer ohne Bauch sind kein Schließungsbeweis.
+
+- **Ankauf:** keine belastbaren Preise oder Annahmebedingungen.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine Gebühren-/Abholpreise.
+- **Geokodierung:** Adresse bleibt ein Verzeichnis-Lead; Kundenstandort erst nach Betreiber-/Annahmebestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Betreiber-Domain autoverwertung-bauch.de liefert beim Direktabruf weiterhin HTTP 503. Aktuelle Gelbe-Seiten- und Das-Örtliche-Suchen für Autoverwertung in Rain am Lech zeigen Bauch nicht in den sichtbaren Treffern; solche Suchlücken belegen keine Schließung. Die hinterlegte Adresse Brunntalweg 10, 86641 Rain, Rufnummer 08432 1680 und Öffnungszeiten bleiben daher ausdrücklich Verzeichnis-Leads aus 11880/lokaleschrottplatz.de, nicht Betreiber-bestätigte Fakten. Status vorsorglich von `aktiv` auf `pruefung` gesetzt, ohne Kontaktdaten zu löschen; keine Aktivitäts- oder Schließungsbehauptung. Keine konkreten Ankauf-/Verkaufspreise oder Gebühren gefunden. Keine Geokodierung als Kundenannahme, bis Adresse und Annahme bestätigt sind; Quelle: https://www.autoverwertung-bauch.de/ ; https://www.gelbeseiten.de/suche/autoverwertung/rain-am-lech ; https://www.dasoertliche.de/Themen/Autoverwertung/Rain-am-Lech.html ; https://lokaleschrottplatz.de/autoverwertung-bauch/ ; https://www.11880.com/branchenbuch/rain-am-lech/012013892B29631461/franz-u-renate-bauch-autoverwertung.html]
 
 ### Recherche 02.10.2026
 

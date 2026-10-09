@@ -152,12 +152,14 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("aluminium-guss", "Felgen"))
     } else if l.contains("al getriebe") || (l.contains("getriebe") && !l.contains("motor")) {
         Some(("aluminium-guss", "Getriebe"))
-    } else if l.contains("blech") {
+    } else if l.starts_with("al blech") {
         Some(("aluminium-gemischt", "Blech/Guß 2% Fe"))
     } else if l.contains("al draht") {
         Some(("aluminium-gemischt", "Draht blank"))
     } else if l.contains("freileitung") {
         Some(("aluminium-gemischt", "Freileitung o. Fe"))
+    } else if l.contains("zink") {
+        Some(("zink", ""))
     } else if l.contains("wucht") && l.contains("kabel") {
         Some(("blei-auswucht", "Wucht-/Kabelblei"))
     } else if l.contains("altblei") {
@@ -479,6 +481,32 @@ mod tests {
         <tr class=\"row_65\"><td class=\"col_0\">Transport</td><td class=\"col_1\">90,00 €</td></tr>\
         <tr class=\"row_66\"><td class=\"col_0\">Gültig ab 09.09.2026</td><td class=\"col_1\"></td></tr>\
         </table>";
+
+    #[test]
+    fn zinc_sheet_does_not_overwrite_aluminium_grades() {
+        let html = "<table><tr><td>Schrottart</td><td>Vergütung</td></tr>\
+            <tr><td>Al Blech/Guß mit 2% Fe</td><td>1,00 €</td></tr>\
+            <tr><td>Zink</td><td>Preis/kg</td></tr>\
+            <tr><td>Zinkblech</td><td>2,00 €</td></tr></table>";
+        let (_, rows, skips) = parse(html).expect("live table shape parses");
+        assert!(skips.is_empty());
+        assert_eq!(grade_for("Blech unbekannt"), None);
+        let mapped: Vec<_> = rows
+            .iter()
+            .map(|(label, price, unit)| (grade_for(label), *price, *unit))
+            .collect();
+        assert_eq!(
+            mapped,
+            vec![
+                (
+                    Some(("aluminium-gemischt", "Blech/Guß 2% Fe")),
+                    1.0,
+                    "EUR/kg"
+                ),
+                (Some(("zink", "")), 2.0, "EUR/kg"),
+            ]
+        );
+    }
 
     #[test]
     fn table_and_date_parse() {

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Zeile benennt Autoverwertung Kort GbR und den als GESA-Demontagebetrieb importierten Hinweis; Adresse, Telefon und frühere Website sind bisher nur durch mehrere Verzeichnisse gestützt. Die Domain war beim dokumentierten Abruf nicht erreichbar. Ein aktueller Betreiber- oder Registerbeleg fehlt, daher bleibt `status: pruefung`; veröffentlichte Annahmebedingungen sind nicht bestätigt.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: ANKAUF: Die dokumentierten Verzeichnisse belegen keinen numerischen Altauto- oder Schrottankaufspreis; die frühere Einordnung als Demontagebetrieb ist kein Preisbeleg.; VERKAUF: Keine Teile-/Materialpreisliste in den dokumentierten Quellen.; GEBÜHREN: Keine Annahme-, Abhol- oder Entsorgungsgebühr in den dokumentierten Quellen.; GEOKODIERUNG: Crivitzer Chaussee 5, 19089 Demen wurde am 02.10. aus Verzeichnissen ins Frontmatter übernommen; die damalige Notiz fordert eine Neugeokodierung. Noch offen: Abschluss/Ergebnis dieser Aufgabe; hier nicht erneut ausgeführt und keine Datenbank berührt.; Quelle: Adress- und Kontaktdaten nur Verzeichnis-Leads, dokumentiert in Recherche 02.10.2026 (Branchenbuch Deutschland, Marktplatz Mittelstand, Schrottplatz.org, Autoplenum, Europages); keine Betreiberquelle.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

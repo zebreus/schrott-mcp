@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Yavuz“ ist nur als Verzeichnis-Kandidat an Leuschnerstr. 22, 67063 Ludwigshafen geführt. PLZ, Telefonnummer 0179 5476909 und Mo–So 07:00–20:00 stammen laut bisheriger Recherche aus zwei Aggregatoren; weder Betreiberidentität noch aktuelle Tätigkeit sind unabhängig verifiziert. Kein Betreiberauftritt/Preisbeleg, daher Felder nicht weiter ausbauen und status `pruefung` beibehalten. ANKAUF: keine Konditionen oder Zahlen; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben.
 
 ## Timeline
 

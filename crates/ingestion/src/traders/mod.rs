@@ -36,7 +36,9 @@ use schrott_mcp_store::{InternalDb, PublicDb};
 /// Mapping version stamped into every price row (`extra_json.map_v`).
 /// Bump when handler mappings change so a future central re-map can tell
 /// stale rows from current logic without SQL archaeology.
-pub const MAP_VERSION: u32 = 1;
+// Audit 5 corrects material/grade mappings. Do not infer a publication date
+// from a price difference against observations made with the old mappings.
+pub const MAP_VERSION: u32 = 2;
 
 /// Cross-category acceptance, asserted as domain fact (one entry per case,
 /// documented where): sorts of the left material are additionally accepted

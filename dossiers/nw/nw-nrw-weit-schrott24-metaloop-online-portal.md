@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott24/Metaloop ist ein überregionaler Online-Verkaufs- und Vermittlungsweg, kein belegter stationärer NRW-Händler: der Checkout vermittelt Partnerannahmestellen und Versand/Abholung; die konkrete Adresse kommt laut Ablaufseite erst nach Online-Abschluss. Das aktuelle Impressum nennt Metaloop Europe GmbH, Puchstraße 17, Graz, FN 638630 m. Website und Portal sind erreichbar, aber die im Dossier bereits belegte Insolvenz-/Abwicklungsfrage bleibt offen.
+
+**Preislistenfunde, getrennt:** Ankauf (Kunde verkauft Altmetall an Portal): der Online-Shop berechnet dynamische, transport- und ortsabhängige Ankaufspreise. Die Preisseite trägt den Stand 14.11.2025; die Kupferseite nennt allgemein 4-6 EUR/kg ohne aktuelle Güte-/Stichtagszuordnung. Das ist keine belastbare aktuelle NRW-Preisliste. Verkauf (Portal/Partner verkaufen Altmetall an Abnehmer): Website verlinkt „Altmetall kaufen“ und Partner-Webshop, aber in den geprüften Seiten keine öffentliche konkrete Verkaufspreisliste. Gebühren/Logistik: Ablaufseite und FAQ widersprechen sich bei genutzter Paketmarke (6 EUR je Paket versus 5 EUR je Marke); Big Bag 5 EUR/Stück plus Versand; Eigenanlieferung ab 100 EUR Materialwert; Palettenabholung wird nach Anzahl, Gewicht und Standort berechnet; Container/Greifer-LKW nach individuellem Angebot. AGB nennen außerdem eine Stornogebühr (5 % bzw. mindestens 20 EUR bei Warenwert unter 400 EUR) und 2 % PayPal-Abzug, verweisen aber noch auf „Schrott24 GmbH“, während das aktuelle Impressum Metaloop Europe GmbH nennt. Diese AGB-Beträge daher nur als Fund mit Aktualitäts-/Betreiber-Vorbehalt führen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Homepage, Ablauf, Preisseite, Kupferseite, AGB und aktuelles Impressum direkt abgerufen. Aktuelles Impressum nennt Metaloop Europe GmbH, Puchstraße 17, 8020 Graz, FN 638630 m; Gegenstand umfasst Plattformvermittlung und Altmetallhandel. Das Portal hat dynamische Tagespreise und nennt Abhängigkeit von Sorte, Standort und Transport. Die Seite /schrottpreise/ ist mit 14.11.2025 datiert; Kupferseite nennt allgemein 4-6 EUR/kg, aber keine Güte-/Stichtagskonkretisierung. Kein NRW-Standort und keine numerische, aktuelle Verkaufspreisliste gefunden. Gebührenfunde: /ablauf/ nennt Paketversandkosten von 6 EUR je Paket und Big Bags für 5 EUR/Stück plus Versand, Eigenanlieferung ab 100 EUR Materialwert; gleiche Seite/FAQ nennt abweichend 5 EUR je genutzter Paketmarke. Palettenabholung standort-/gewichtsabhängig, Containerabholung individuelles Angebot. AGB nennen kostenfreie Stornierung binnen 12 h, sonst 5 % bzw. 20 EUR bei Warenwert unter 400 EUR und 2 % PayPal-Abzug, beziehen sich aber auf Schrott24 GmbH statt des aktuellen Impressums Metaloop Europe GmbH; Aktualität dieser Konditionen ungeklärt. Bestehender Hinweis auf Insolvenz-/Abwicklungsunsicherheit bleibt bestehen, keine Preis-/Partner-/NRW-Adresse in Frontmatter ergänzt; Quelle: https://www.schrott24.de/ ; https://www.schrott24.de/ablauf/ ; https://www.schrott24.de/schrottpreise/ ; https://www.schrott24.de/altmetall-ankauf/kupfer/ ; https://www.schrott24.de/faq/agb/ ; https://www.schrott24.de/faq/impressum/]
 
 ### Recherche 01.10.2026
 

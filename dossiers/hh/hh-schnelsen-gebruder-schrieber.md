@@ -28,6 +28,8 @@ Juristische Person registerseitig bestätigt: Gebrüder Schrieber GmbH, HRB 1550
 
 Der konkrete Standort und der Ankauf bleiben mangels zweiter vollständig gelesener qualifizierter Quelle im Prüffall. Registeranschrift als neuer belastbarer Recherchebefund dokumentiert, aber noch nicht als Frontmatter-Fill veröffentlicht. Telefon, E-Mail und Öffnungszeiten aus Gelbe Seiten sind ausschließlich Leads.
 
+**Preise (Ankauf/Verkauf/Gebühren):** keine qualifizierte Betreiberpreisliste gefunden; der Gelbe-Seiten-Lead und Registerdaten enthalten keine bezifferten Schrottankaufskurse, Verkaufspreise oder Servicegebühren. Daher keine Portalpreise übernehmen. Offen bleibt insbesondere Privatkundenannahme/Preisbildung.
+
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

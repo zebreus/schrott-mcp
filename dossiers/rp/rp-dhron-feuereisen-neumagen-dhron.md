@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ingo Feuereisen Schrott- und Metallhandel ist als Betreiber-Social-Kandidat für Neumagen-Dhron sichtbar. Der aktuelle Suchauszug nennt Hochwaldstraße 33, 54347 und abweichend **01515 7778381**, **ingofeuereisen@gmail.com**. Der direkte Facebook-Abruf blieb ohne lesbaren Inhalt; diese Kontaktangaben sind daher noch nicht voll geprüft. Legacy-Festnetz 06507 702325 unverändert, keine neuen Kontakte ins Frontmatter.
+
+**Preise:** Keine bestätigte Ankauf-/Verkaufs-/Gebührenliste. Offen: öffentlich lesbarer Betreiber-About-Inhalt, Geschäftssitz, aktuelle Rufnummern und Annahmebedingungen; mehrfache Sprachversionen derselben Social-Seite sind keine unabhängigen Quellen.
 
 ## Timeline
+
+### Recherche 08.10.2026 (Social-Suchauszug)
+
+- [Recherche 08.10.2026: Neuer Suchauszug der Facebook-Betreiberseite Ingo Feuereisen Schrott- und Metallhandel nennt Hochwaldstraße 33 / Neumagen-Dhron / 54347, +49 1515 7778381 und ingofeuereisen@gmail.com. Sprachvarianten derselben Seite nicht als zweite Quelle zählen. Direktabruf der Seite erneut ohne lesbaren Inhalt; neue Mobilnummer/Mail nur hier dokumentiert, kein Frontmatter-Fill oder Festnetz-Overwrite. Der frühere 11880-Lead 06507 702325 bleibt ungeprüfter Legacy-Kontakt; status pruefung. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierte Liste. Offen: vollständiger About-/Impressum- und Inhaberabgleich, aktuelle Kontaktkombination, öffentlicher Anlieferbetrieb. Quelle(n): https://www.facebook.com/schrotthandelfeuereisen ; https://www.facebook.com/schrotthandelfeuereisen?locale=es_LA (Suchauszüge, keine unabhängigen Quellen) ; https://www.11880.com/branchenbuch/neumagen-dhron/060441364B100125559/ingo-feuereisen-schrotthandel.html.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

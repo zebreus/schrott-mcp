@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnis- und Creditreform-Spuren führen Selzam & Lettner Kfz-GmbH an der Äußeren Industriestr. 1, 86316 Friedberg; 11880 nennt dieselbe Adresse und Telefonnummer. Die zugänglichen Kategorien belegen Kfz-Handel/Werkstatt, nicht sicher eine aktuelle Autoverwertung oder Schrottannahme. Kein eigener Betreiberauftritt gefunden; Prüfstatus bleibt bestehen.
+
+- **Ankauf:** keine belastbaren Schrott-/Fahrzeugankaufspreise.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine Gebühren- oder Entsorgungstarife.
+- **Geokodierung:** keine neue Geokodierung; die vorhandene Adresse ist kein bestätigter Schrottannahmeort.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: 11880-Detailseite führt Selzam & Lettner Kfz-GmbH DS, Äußere Industriestr. 1, 86316 Friedberg und 0821 781533. Die dortigen Kategorien beziehen sich auf Kfz-Handel/-Werkstatt/Chauffeur, nicht auf einen belegten Schrott- oder Autoverwertungsannahmebetrieb. Creditreform-Detailabruf war blockiert (403), daher keine aktuelle registerliche Bestätigung aus diesem Abruf. Adresse/Telefon aus bestehendem Quellenstand nicht verändert; Status `pruefung`, keine Annahme- oder Aktivitätsbehauptung. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren. Geokodierung nicht als Schrottannahmeort ausgeben; Quelle: https://www.11880.com/branchenbuch/friedberg-bayern/060441414B28112582/selzam-lettner-kfz-gmbh.html ; https://firmeneintrag.creditreform.de/ (Detailabruf 403; bereits dokumentiert)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

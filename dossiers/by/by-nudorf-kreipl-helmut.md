@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt „Kreipl Helmut“ und Rauschbergstr. 2, ordnet den Ort aber nur als Nußdorf zu; Nußdorf am Inn und Nußdorf am Chiemsee bleiben als mögliche Ortsbezüge auseinanderzuhalten. Die direkte Gelbe-Seiten-Suche für Nußdorf am Inn zeigte nur namensähnliche Betriebe in Kolbermoor/Rosenheim, darunter AIB KREIPL Baumaschinen, nicht Helmut Kreipl oder Schrott. Keine Adresse/Kontakte bestätigt, `status: pruefung`. **Ankauf:** keine Preisangaben; **Verkauf:** keine Preise; **Gebühren:** keine Tarife belegt.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (nur GS)
 - Adresse: Nußdorf (Rauschbergstr. 2)
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Direkte Gelbe-Seiten-Suche für Kreipl in Nußdorf am Inn erneut abgerufen; die Seite zeigt keine passenden lokalen Ergebnisse und nur ortsnahe, fachfremde Unternehmen. Das klärt weder die Nußdorf-Ortszuordnung noch widerlegt es den Seed-Eintrag. Keine Feldübernahme; genaue Gemeinde, Betreiberidentität und aktuelle Schrottannahme offen. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren gefunden. Quelle(n): https://www.gelbeseiten.de/suche/kreipl/nussdorf]

@@ -24,7 +24,11 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR führt einen Standort Ströbeck/Halberstadt und bestätigt auf der Betreiberseite den Metallhandel. Für dieselbe Telefonnummer 03942 7314 widersprechen sich die Betreiberquelle („Im Hohen Weg 1“) und Branchenverzeichnisse („Am Bahnhof 12A“). Straße bleibt deshalb absichtlich leer; bereits vorhandene PLZ, Telefon, Website und Status nicht weiter ergänzen, bis der Standort die aktuelle Adresse bestätigt.
+
+**Preise:** **Ankauf** – FE-/NE-Schrottankauf ist belegt, aber keine numerischen Sortenpreise veröffentlicht. **Verkauf** – keine öffentliche Produktpreisliste gefunden. **Gebühren** – keine Container-/Anlieferungsgebühren belegt.
+
+**Geokodierung:** Wegen des Straßenwiderspruchs keine neue Geokodierung. Koordinate erst nach Bestätigung, ob Im Hohen Weg 1 oder Am Bahnhof 12A der aktuelle Standort ist.
 
 ## Timeline
 

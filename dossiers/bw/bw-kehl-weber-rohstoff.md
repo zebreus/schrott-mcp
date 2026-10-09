@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: Weber Rohstoff GmbH, vormals Altpapier Weber GmbH; Papier- und Abfallhandel, spezifischer Metallankauf nicht belegt.
+description: Weber Rohstoff GmbH, vormals Altpapier Weber GmbH; Schroll-Gruppe beschreibt Schwerpunkt Ankauf/Wiederverkauf von Recycling-Karton und -Papier sowie Abfallsammlung in Baden-Württemberg; spezifischer Metallankauf nicht belegt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Schroll-Gruppe führt Weber Rohstoff als Tochter und beschreibt den Schwerpunkt ausdrücklich als Ankauf und Wiederverkauf von Recycling-Karton und -Papier; außerdem nennt sie Abfallsammlung in Baden-Württemberg. Das stützt den Papier-/Abfallbezug, nicht aber einen spezifischen Metallankauf oder eine öffentliche Schrottannahme in Kehl. Firmenname/Adresse/Rechtsform bleiben anhand der bereits dokumentierten Northdata-/Creditreform-Leads zu prüfen; die Gruppenwebsite ist keine eigenständige Weber-Kontaktseite.
+
+**Preisrichtung:** Für Weber sind keine öffentlichen Ankaufskurse, Materialverkaufspreise oder Gebühren gefunden. Die Gruppenseite beschreibt Handelsaktivität, veröffentlicht aber keine Preislisten. Daher weder Ankauf von Metallschrott noch Publikumsannahme unterstellen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: offizielle Schroll-Gruppenseite zu Weber Rohstoff gelesen: Weber wird als Tochtergesellschaft bezeichnet; Aufgaben sind Ankauf und Wiederverkauf von Recycling-Karton/Papier, Kunden weltweit, sowie Abfallsammlung in Deutschland/Baden-Württemberg. Das präzisiert den bisherigen Papier-/Abfallhinweis, belegt aber keinen Metallankauf, keine Annahmestelle für Privatkunden und keinen Preis. Keine neuen Frontmatter-Fills oder Zuordnung einer eigenen Website; Kehl-Adresse bleibt über vorherige Firmenprofil-Quelle dokumentiert, aktueller Betreiber-/Standortbezug weiter zu prüfen. Quelle(n): https://schroll.fr/en/with-friends/companies/weber-rohstoff/ ; https://www.northdata.de/Weber%20Rohstoff%20GmbH,%20Kehl/Amtsgericht%20Freiburg%20HRB%20371288]
 
 ### Recherche 03.10.2026
 

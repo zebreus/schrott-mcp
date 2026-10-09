@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Dais“ in Viersen bleibt ein unaufgelöster Name ohne erkennbaren Bezug zu einem Schrott-/Metallbetrieb. Die frühere Suche fand nur ähnlich geschriebene, fachfremde Namen; die aktuelle Suche nach Dais/Viersen/Schrott lieferte weiterhin weder Betreiberauftritt noch Register-/Standortbeleg. Keine Zuordnung zu „Deis Martin“ (Arzt) oder dem Architektentreffer in Mönchengladbach.
+
+**Preise:** Ankauf: keine zuordenbare Ankaufzusage oder Preisliste. Verkauf: keine Preisliste. Gebühren: keine Angaben. **Offen:** vollständiger Firmen-/Inhabername, Adresse oder Ursprungsbeleg. Kein Geocoding ohne eine konkrete Betriebsadresse.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Erneute genaue Suche nach Dais/Viersen/Schrotthandel und Abgleich der bekannten Namensvetter ergaben keine Betreiberwebsite, kein Impressum, keinen Registerbeleg und keine Schrottbetriebsadresse. Das ähnlich geschriebene „Deis Martin“ bleibt fachfremd und wird nicht zugeordnet. Keine Frontmatter-Fills/Statusaenderung. Ankauf/Verkauf/Gebuehren: keine Preislisten oder Konditionen auffindbar; Quelle: https://www.gelbeseiten.de/suche/dais/viersen ; https://www.google.com/search?q=%22Dais%22+Viersen+Schrotthandel]
 
 ### Recherche 03.10.2026
 

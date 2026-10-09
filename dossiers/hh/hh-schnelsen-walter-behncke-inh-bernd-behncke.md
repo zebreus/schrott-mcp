@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Walter Behncke e.K., Inh. Bernd Behncke, ist für Kulemannstieg 32, 22457 Hamburg-Schnelsen in Firmen-/Registerspiegeln geführt; ein weiterer Recherchevermerk dokumentiert übereinstimmende Telefon-/Adressleads. Eine aktuelle Betreiberwebsite mit Publikumsbedingungen wurde nicht verifiziert. Anschrift und Telefon bleiben gemäß der bestehenden Ausnahmebeleglage erhalten; Öffnungszeiten/Privatannahme nicht daraus ableiten.
+
+**Preise (Ankauf/Verkauf/Gebühren):** keine Betreiberpreisliste oder belastbare Ankaufskurse/Verkaufspreise/Gebühren belegt. **Offen:** aktuelle Kundenannahme und Preisbildung direkt klären. Quellen und Beleggewichtung siehe Recherche 02.10. und 04.10.2026, insbesondere https://schrottregister.pages.dev/ort-hamburg.
 
 ## Timeline
 

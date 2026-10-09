@@ -42,3 +42,7 @@ B. Oetjen, Wacholderweg 14, 27404 Zeven, 04281 4722 bleibt ein historischer Verz
 - Schrott (klein; mögl. Oetjen-Familiennetzwerk, s. Aliasse)
 - urspr. Website-Angabe: keine (GS ohne Website-Button)
 - Adresse: Zeven (Umland), Wacholderweg 14, 27404, Tel. 04281 4722
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: Der aktuelle Cylex-Eintrag zu „B. Oetjen“, Wacholderweg 14, 27404 Zeven, gibt zusätzlich „Birgit Oetjen“ als Geschäftsname an. Das ist ein einzelner Verzeichnislead, kein Register-/Betreiberbeleg; daher weder Firmenname noch Kontaktfelder geändert. Kein Nachweis einer Verbindung zur Oetjen Rohstoffhandel GmbH oder zu den anderen Oetjen-Adressen; keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Quelle: https://web2.cylex.de/firma-home/b--oetjen-6489079.html]

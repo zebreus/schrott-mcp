@@ -28,6 +28,8 @@ Namensgenaue Verzeichnis-Spur **Wilfried Neumann Autorecycling/Autohandel/Sandst
 
 Aktueller Betreiber, zertifizierte Altautoannahme, Abholung und Preise sind noch nicht bestätigt. Historische Felder bleiben erhalten, werden aber nicht als gegenverifiziert dargestellt.
 
+**Preise:** **Ankauf** — keine verifizierten Altauto-Ankaufbeträge; Euro-Symbole in Verzeichnissen sind keine Preisliste. **Verkauf** — keine Teile-/Materialpreise belegt. **Gebühren** — keine belastbare Abhol-/Entsorgungstarife. **Geokodierung:** Radeberger Straße 17, OT Wünschendorf nur als Verzeichniskandidat; erst nach Betreiber-/GESA-Abgleich genaue Betriebsstätte geokodieren.
+
 ## Timeline
 
 ### Recherche 05.10.2026

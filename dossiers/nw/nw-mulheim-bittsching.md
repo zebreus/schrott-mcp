@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Verzeichnisse beschreiben „Hans-Dieter Bittsching Schrotthandel“ an der Mausegattstr. 5, 45472 Mülheim; keine aktuelle Betreiberwebsite ließ sich den verlinkten Domains zuordnen. Die widersprüchliche Mobilnummer aus einzelnen Portalen ist nicht als aktueller Kontakt bestätigt. Status bleibt `pruefung`; vorhandene Seed-Kontaktdaten sind nicht auf Betreiberquellen-Niveau verifiziert.
+Mehrere Verzeichnisse beschreiben „Hans-Dieter Bittsching Schrotthandel“ an der Mausegattstr. 5, 45472 Mülheim; keine aktuelle Betreiberwebsite ließ sich den verlinkten Domains zuordnen. Ein direkt abgerufenes YellowMap-Profil wiederholt Adresse und Festnetz, ergänzt eine Mobilnummer, ordnet die Firma aber der allgemeinen Branche „Autowerkstätten“ zu. Die widersprüchliche Mobilnummer aus einzelnen Portalen ist nicht als aktueller Kontakt bestätigt. Status bleibt `pruefung`; vorhandene Seed-Kontaktdaten sind nicht auf Betreiberquellen-Niveau verifiziert.
 
-**Preise:** keine Bittsching zuordenbare Ankaufstabelle, Verkaufspreisliste oder Gebührenordnung in den geprüften Quellen. **Geocoding:** Mausegattstr. 5 ist ein wiederholt gelisteter Kandidat, aber mangels Betreiberbestätigung nicht als verifizierter Annahmehof zu pinnen.
+**Preise:** Ankauf: keine zuordenbare Ankaufspreisliste oder bestätigte Vergütungsangabe. Verkauf: keine Preisliste. Gebühren: keine Gebühren-/Abholtarife. **Geocoding:** Mausegattstr. 5 ist ein wiederholt gelisteter Kandidat, aber mangels Betreiberbestätigung nicht als verifizierter Annahmehof zu pinnen.
 
 ## Timeline
+
+### Recherche 07.10.2026
+
+- [Recherche 07.10.2026: YellowMap-Profil direkt abgerufen: „Schrotthandel Bittsching“, Mausegattstraße 5, 45472 Mülheim, Tel. 0208 372277 und Mobil 0172 2560488; Profil ordnet den Betrieb jedoch der Branche Autowerkstätten zu und ist ein Aggregator. Die beiden früher verlinkten Domains schrotthandel-bittsching.de und schrotthandel-bittsching.com lieferten beim direkten Abruf Transportfehler; das beweist keine dauerhafte Aufgabe, aber auch keine aktuelle Betreiberwebsite. Kein neues Impressum/Register-/Betreiberbeleg. Ankauf/Verkauf/Gebühren: keine zuordenbare Preisliste. Frontmatter unveraendert, Adresse nur Verzeichnislead und nicht als Annahmehof geocodieren; Quelle: https://www.yellowmap.de/Details/miROTbN3Rlh0htiV7PgutA==.aspx ; https://www.gelbeseiten.de/gsbiz/25007e27-ae21-428a-a482-4d0e408096d0 ; direkte Abrufversuche: https://schrotthandel-bittsching.de/ und http://schrotthandel-bittsching.com/]
 
 ### Recherche 06.10.2026
 

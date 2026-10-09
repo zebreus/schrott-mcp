@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für "Dreßler Altmetallhandel UG / Michael Dreßler" in Lachendorf fand auch die erneute Suche keinen passenden Betreiberauftritt, Registerbeleg oder eindeutige lokale Geschäftsspur. Namensähnliche Treffer an anderen Orten belegen keine Verbindung. **Ankauf:** ungeklärt; **Verkauf:** keine Preisliste gefunden; **Gebühren:** keine Angaben gefunden. Identität und Standort bleiben Klärfall.
 
 ## Timeline
+
+### Recherche 08.10.2026
+
+- [Recherche 08.10.2026: Exakte und orthografisch variierte Suche nach "Dreler"/"Dreßler Altmetallhandel" und Michael Dreßler in Lachendorf ergab weiterhin keinen identifizierbaren Betreiber, Register-/Kommunalbeleg oder sicher lokalen Treffer. Treffer zu anderen Dreßler-Unternehmen und Personen sind nicht zurechenbar. Keine Frontmatter-Änderung. **Preise:** keine Quelle für Ankaufpreise, Verkaufspreise oder Gebühren gefunden. Quelle(n): https://www.google.com/search?q=%22Dre%C3%9Fler+Altmetallhandel%22+Lachendorf+Michael ; https://www.google.com/search?q=%22Dreler%22+Altmetallhandel+Lachendorf]
 
 ### Recherche 04.10.2026
 

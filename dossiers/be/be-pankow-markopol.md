@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schönhauser Straße 33 und 0178 4210569 beruhen auf Branchenverzeichnis-Leads; trotz mehrerer Wiederholungen ist kein Betreiber-Webauftritt oder Registerbeleg für diesen Händler gefunden. Eine zusätzliche E-Mail-Adresse aus golocal ist ebenfalls nicht primär bestätigt und bleibt leer. Aktuelle Annahme, Straße und Betreiber bleiben offen; keine zuordenbaren ANKAUF-Preise, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
 
