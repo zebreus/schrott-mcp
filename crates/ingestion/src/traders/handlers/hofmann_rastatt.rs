@@ -1,5 +1,5 @@
 //! Rastatt remuneration table; never the linked waste-disposal fee PDF.
-//! NE prices are EUR/t too. Unknown sorts (including batteries) are loud skips.
+//! NE prices are EUR/t too. Unknown sorts are loud skips.
 use super::super::{
     fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
 };
@@ -49,6 +49,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         "Blei alt" => ("blei", "alt"),
         "Zinkblech alt" => ("zink", "Zinkblech alt"),
         "Zinn" => ("zinn", ""),
+        "Bleibatterien / Starterbatterien" => ("batterien-blei", "Starterbatterien"),
         "Alu-Geschirr" => ("aluminium-gemischt", "Geschirr"),
         "Alu, bunt, eisenfrei" => ("aluminium-gemischt", "bunt, eisenfrei"),
         "Alu-Felgen, sauber – ohne Anhaftungen" => {
@@ -199,7 +200,7 @@ fn quote_price(raw: &str) -> Option<f64> {
     {
         return None;
     }
-    parse_eur(number).filter(|p| p.is_finite())
+    parse_eur(number).filter(|p| p.is_finite() && *p > 0.0)
 }
 
 #[cfg(test)]
@@ -209,8 +210,8 @@ mod tests {
     #[test]
     fn complete_live_table_preserves_grades_units_and_date() {
         let out = parse(FIXTURE).unwrap();
-        assert_eq!(out.prices.len(), 22);
-        assert_eq!(out.skipped_labels, ["Bleibatterien / Starterbatterien"]);
+        assert_eq!(out.prices.len(), 23);
+        assert!(out.skipped_labels.is_empty());
         assert_eq!(
             out.published_at.as_deref(),
             Some("2026-09-30T00:00:00+00:00")
@@ -236,7 +237,10 @@ mod tests {
         for price in &out.prices {
             assert!(keys.insert((price.material, price.variant)));
         }
-        assert_eq!(grade_for("Bleibatterien / Starterbatterien"), None);
+        assert_eq!(
+            grade_for("Bleibatterien / Starterbatterien"),
+            Some(("batterien-blei", "Starterbatterien"))
+        );
         assert_eq!(grade_for("Kupfer neue Sorte"), None);
         assert_eq!(
             grade_for("Kupfer Draht"),
@@ -248,6 +252,7 @@ mod tests {
         for changed in [
             FIXTURE.replacen("40 €/t", "40 €/kg", 1),
             FIXTURE.replacen("40 €/t", "-40 €/t", 1),
+            FIXTURE.replacen("40 €/t", "0 €/t", 1),
             FIXTURE.replacen("40 €/t", "bis zu 40 €/t", 1),
             FIXTURE.replacen("30.09.2026", "31.09.2026", 1),
             FIXTURE.replacen("30.09.2026", "29.09.2026", 1),
@@ -266,7 +271,7 @@ mod tests {
             .replacen("40 €/t", "auf Anfrage", 1)
             .replace("Handelsguss", "Neue Sorte");
         let out = parse(&changed).unwrap();
-        assert_eq!(out.prices.len(), 20);
+        assert_eq!(out.prices.len(), 21);
         assert!(out.skipped_labels.contains(&"Neue Sorte".to_owned()));
         assert!(out
             .skipped_labels

@@ -1,5 +1,19 @@
 # Handler-Owner Hofmann Rastatt — Feedback #5530
 
+## Owner-Nachprüfung nach RAM-Erweiterung am 09.10.2026
+
+`cargo test --locked -p schrott-mcp-ingestion hofmann`: zehn bestanden,
+darunter alle vier Rastatt-Tests. Kompilierter Rust-Livehandler: HTTP 200,
+255841 Bytes, 22 Preise, ein Batterie-Skip, Quellenstand 30.09.2026.
+Damit sind die früheren OOM-bedingt offenen lokalen Prüfungen nachgeholt.
+
+Im nächsten Schritt werden Starterbatterien explizit auf `batterien-blei`
+gemappt (150 EUR/t, nicht elementares Blei). Dieser Katalogeintrag kommt mit
+Trapper in den gemeinsamen Release. Die geänderte Regression besteht alle
+vier Rastatt-Tests; erneuter Rust-Livehandler liefert HTTP 200 und **23 Preise
+ohne Skips**, darunter 150 EUR/t Starterbatterien. Nullpreise werden ebenfalls
+abgelehnt. Workspace-Gate, Deployment und regulärer Produktionsnachweis offen.
+
 ## Stand / Übergabe (09.10.2026)
 
 Implementiert, **noch nicht rollout-ready**: erfolgreiche abschließende Rust-Regressionen und Live-Ausführung des kompilierten Handlers sowie regulärer Produktionsscrape fehlen. Kein Deployment und keine Produktionsdatenbank-Schreiboperation vorgenommen. Ownership bleibt offen.
