@@ -49,6 +49,7 @@ pub mod hendrichs_krefeld;
 pub mod henken_friesoythe;
 pub mod hensel_recycling;
 pub mod hofmann_metall;
+pub mod hofmann_rastatt;
 pub mod huth_aschaffenburg;
 pub mod kalkmann;
 pub mod katalysator_hai;
@@ -188,6 +189,7 @@ pub fn all() -> Vec<Handler> {
         hensel_recycling::handler(),
         hofmann_metall::handler_chemnitz(),
         hofmann_metall::handler_zwickau(),
+        hofmann_rastatt::handler(),
         huth_aschaffenburg::handler(),
         kalkmann::handler(),
         katalysator_hai::handler(),
