@@ -10,11 +10,11 @@ laufende Dossierarbeit bleibt erhalten.
 | Anforderung | Evidenz / noch offenes Gate |
 | --- | --- |
 | Vorhandene Arbeit erhalten | Original-Worktrees unter `/root/Documents/` erhalten; Release isoliert auf `owner/handler-release-20261009` |
-| Kein Rollback bestehender Produktion | Bereits deployter Stand `072cf25` mit main `53d647f` konfliktfrei zusammengeführt; Merge-Commit wartet auf Workspace-Gate |
+| Kein Rollback bestehender Produktion | Bereits deployter Stand `072cf25` mit main `53d647f` konfliktfrei zusammengeführt; Merge-Commit `82a7f21` mit 566 bestandenen Baseline-Tests, danach finaler Workspace ebenfalls grün |
 | ELNO PDF | Final 5 Regressionen, echte PDF-Fixture; Live HTTP 200, 36 Preise, 3 explizite Skips; Streaming-/Extraktionslimits und strikte Mengen-/Tokenprüfung |
 | AGH | 4 Tests bestanden; Rust live HTTP 200, 8 Preise, Quellenstand 09.10.2026 |
 | SAXONIA | 5 Tests bestanden; Rust live HTTP 200, 4 Ankaufspreise; 6 Nicht-Ankaufskurse explizit ausgeschlossen |
-| Hofmann Rastatt | 4 eigene Tests bestanden; final Rust live HTTP 200, 23 Preise inklusive Starterbatterien, keine Skips |
+| Hofmann Rastatt | 4 eigene Tests bestanden; Live und regulärer Prod-Step 5095 / Run 1226 erfolgreich, 23 Preise inklusive Starterbatterien, keine Skips/Canaries |
 | reGOLD | 6 Tests bestanden; Rust live HTTP 200, 20 indikative Preise, kein erfundenes Publikationsdatum; Historienregression `1d7a3f3` |
 | Trapper | Isolierte Commits übernommen; final 7 Regressionen und HTTP 200, 21 Preise ohne Skips, approx/0.8, Quellenstand 04.08.2026 |
 | PDF-Voraussetzungen | Beide: `/usr/bin/pdftotext` (poppler-utils) und `/usr/bin/prlimit` (util-linux), absolute Pfade; pdf-extract entfernt; Prozess-/Outputlimits dokumentiert |
@@ -23,7 +23,7 @@ laufende Dossierarbeit bleibt erhalten.
 | Review | Beide unabhängigen Reviews abgeschlossen; ELNO-Token-/Zeilenverlust und Prozessisolation sowie Trapper-Richtwertsemantik behoben; Follow-up bestätigt Code, Prerequisite-Doku korrigiert |
 | Main / Push | Einzelne Handler-Commits übernommen; Release `373414e` per Fast-forward in main integriert; `git push origin main` erfolgreich (`a6a0dbd..373414e`) |
 | Deployment | Beide Release-Binaries am 09.10.2026 20:04:12 UTC koordiniert ersetzt; Dienst active, öffentlicher Health ok, Query-Worker SELECT erfolgreich |
-| Produktions-Scrape | Vor Release alle sechs mit 0 aktuellen Preisen; ereignisbasierte Journal-Beobachtung und abschließender read-only Verifier gestartet, reguläre Fälligkeiten noch offen |
+| Produktions-Scrape | Hofmann regulär erfolgreich und read-only validiert; übrige fünf noch vor ihrer Fälligkeit. Vor Release alle sechs mit 0 aktuellen Preisen |
 
 ## Ressourcen und Ausgangslage
 
@@ -82,3 +82,21 @@ Sleep-/Statuspolling und kein Force-Ingest; danach wird
 `scripts/verify-handler-release.py --since 2026-10-09T20:04:11.553005+00:00`
 ausgeführt. Produktions-Evidenzdatei:
 `/root/Documents/handler-release-production-evidence.json` (erst nach Abschluss).
+
+## Regulärer Produktionsnachweis Hofmann Rastatt
+
+Beim Check-in am 09.10.2026 21:00 UTC read-only bestätigt:
+
+- Run 1226, Step 5095, Beginn 20:34:33.485684872 UTC,
+  Ende 20:34:34.562840477 UTC, status `ok`, 23 Preise, keine Skips/Canaries.
+- Fetch 5091, HTTP 200, 255845 Bytes,
+  `https://hofmann-entsorgung.de/preise-und-verguetungen/`.
+- Verifier: Hofmann `ok=true`, 23 aktuelle Preise, keine Validierungsfehler.
+- Normalisierung zusätzlich direkt geprüft: Starterbatterien 0.15 EUR/kg
+  (Quelle 150 EUR/t), Millberry 10.55 EUR/kg (10550 EUR/t), Zinn 11.5 EUR/kg
+  (11500 EUR/t). `exact`, page-stated 30.09.2026; kein heutiges Datum erfunden.
+- Reguläre Phase 20:28:15 plus Tick um 20:34; kein Force-Run ausgeführt.
+  Produktionsbestand jetzt 3881 Händler, 54 Materialien, 2306 aktuelle Preise.
+
+ELNO, Trapper, SAXONIA, reGOLD und AGH bleiben bis zu ihren regulären Steps
+offen; Hofmanns Erfolg wird nicht als Gesamterfolg aller Handler ausgegeben.

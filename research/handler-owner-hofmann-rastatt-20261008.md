@@ -1,5 +1,17 @@
 # Handler-Owner Hofmann Rastatt — Feedback #5530
 
+## Produktionsabschluss am 09.10.2026
+
+In main integriert und am 20:04:12 UTC gemeinsam mit beiden Binaries deployed
+(Code `373414e`). Regulärer Run 1226 / Step 5095 am 20:34:33–20:34:34 UTC:
+`ok`, **23 Preise**, keine Skips/Canaries. Fetch 5091: HTTP 200, 255845 Bytes.
+Read-only Verifier bestätigt 23 aktuelle Varianten, normierte Katalogeinheiten,
+exakte Ankaufspreise, richtige Quellen-URL und Datum-Basis `page_stated`.
+Direkt geprüft: Starterbatterien 0.15, Millberry 10.55, Zinn 11.5 EUR/kg;
+Quellenstand 30.09.2026 bleibt erhalten. Keine direkte Produktions-DB-Schreib-
+operation und kein Force-Ingest. Damit ist die Hofmann-Ownership abgeschlossen;
+die folgenden offenen Gates beschreiben ausschließlich frühere Übergabestände.
+
 ## Owner-Nachprüfung nach RAM-Erweiterung am 09.10.2026
 
 `cargo test --locked -p schrott-mcp-ingestion hofmann`: zehn bestanden,
