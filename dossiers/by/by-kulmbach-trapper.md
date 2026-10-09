@@ -30,6 +30,10 @@ Aktiver Schrottankäufer und Container-/Entsorgungsbetrieb, HRB 3736 Bayreuth. B
 
 ## Timeline
 
+### Handler-Verifikation 09.10.2026
+
+- [Recherche 09.10.2026: Betreiber-Impressum erneut kongruent: Trapper GmbH, HRB 3736 Bayreuth, Rainer Trapper, Am Goldenen Feld 31, 95326 Kulmbach. Preis-Seite verlinkt weiterhin Anlieferungs-PDF August 2026/KW32, gültig ab 04.08.2026, SHA256 15382e62e0ef36312f6df939133f99f738b148983f790912985267dbd4f9383d. 21 Ankaufssorten vollständig gelesen; 8 Tonnen- und 13 Kilogrammpreise. Keine aktuellen Oktober-Tagespreise behauptet. Handler entdeckt den Link bei jedem Lauf neu und erhält Sortenvarianten, PDF-Datum, PDF-Provenienz sowie die stahl-/gussbezogene 100-kg-Vergütungsgrenze. Nicht mit Annahmemindestmenge oder Verkauf/Gebühren vermengt.; Quellen: https://www.trapper-kulmbach.de/impressum, https://www.trapper-kulmbach.de/service/preise, https://www.trapper-kulmbach.de/upload/preisliste-trappergmbh-anlieferung-august-2026.pdf]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Register- und Betreiberidentität aufgelöst: Trapper GmbH, HRB 3736 Bayreuth, Am Goldenen Feld 31, 95326 Kulmbach; GF Rainer Trapper, Tel. 09221 90690, dispo@trapper-kulmbach.de. Northdata mit Jahresabschlussveröffentlichung 04.05.2026; eigene aktuelle Preis-/Zertifikatsdokumente. Name/Ort kongruent, Kontaktdaten/Zeiten/Ankauf/Container durch Betreiber; Frontmatter gefüllt, sonstige→schrotthaendler, unbekannt→aktiv. Website-, Unternehmens-, sämtliche Leistungs-, Preis-, Download-, Kontakt- und Anfahrtseiten einzeln gelesen.; Quelle(n): https://www.trapper-kulmbach.de/impressum, https://www.northdata.de/Trapper%20GmbH,%20Kulmbach, https://www.trapper-kulmbach.de/kontakt/, https://www.trapper-kulmbach.de/dienstleistungen/schrottverwertung, https://www.trapper-kulmbach.de/dienstleistungen/containerdienst]

@@ -116,6 +116,7 @@ pub mod sommer_hanau;
 pub mod springer_sohn_oldenburg;
 pub mod suitner;
 pub mod tappe;
+pub mod trapper;
 pub mod vana;
 pub mod vedder;
 pub mod vedder_delmenhorst;
@@ -136,6 +137,7 @@ pub fn all() -> Vec<Handler> {
         vedder::handler(),
         lausitz::handler(),
         tappe::handler(),
+        trapper::handler(),
         kupferhelden::handler(),
         metallankauf24::handler(),
         esh::handler(),

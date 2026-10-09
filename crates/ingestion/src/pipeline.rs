@@ -19,6 +19,20 @@ use super::seed_traders::seed_traders;
 /// the first scraper lands a price.
 const MATERIAL_CATALOG: &[(&str, &str, &str, &str, &str)] = &[
     (
+        "stahlschrott-traeger",
+        "Trägerschrott",
+        "eisen",
+        "EUR/t",
+        "Stahlträger-Schrott; Aufbereitungszustand und Abmessungen nach Händlerangabe.",
+    ),
+    (
+        "batterien-blei",
+        "Bleibatterien / Starterbatterien",
+        "elektronik",
+        "EUR/kg",
+        "Bleiakkumulatoren einschließlich Starterbatterien; keine Lithiumbatterien oder loses Weichblei.",
+    ),
+    (
         "stahlschrott-sorte-1",
         "Stahlschrott Sorte 1 (Neuschrott)",
         "eisen",
