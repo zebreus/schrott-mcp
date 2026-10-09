@@ -140,7 +140,7 @@ fn parse(html: &str) -> Result<(Vec<ScrapedPrice>, Vec<String>), IngestError> {
             variant,
             price,
             currency: "EUR",
-            unit: "g",
+            unit: "EUR/g",
             price_kind: "approx",
             price_min: None,
             price_max: None,
@@ -219,7 +219,7 @@ mod tests {
         let keys: std::collections::HashSet<_> =
             prices.iter().map(|p| (p.material, p.variant)).collect();
         assert_eq!(keys.len(), 20);
-        assert!(prices.iter().all(|p| p.unit == "g"
+        assert!(prices.iter().all(|p| p.unit == "EUR/g"
             && p.currency == "EUR"
             && p.price_kind == "approx"
             && p.confidence == Some(0.8)));
@@ -275,5 +275,55 @@ mod tests {
         let entries: Vec<_> = handlers.iter().filter(|h| h.slug == SLUG).collect();
         assert_eq!(entries.len(), 1);
         assert_eq!(entries[0].url, URL);
+    }
+
+    #[tokio::test]
+    async fn all_rates_record_to_real_catalog_and_keep_history() {
+        use schrott_mcp_store::{InternalDb, PublicDb};
+        let dir = crate::test_support::TempDbDir::new("regold");
+        let public = PublicDb::open(dir.path()).unwrap();
+        let internal = InternalDb::open(dir.path()).unwrap();
+        crate::seed_metadata(&public).unwrap();
+        let (prices, skipped_labels) = parse(FIXTURE).unwrap();
+        let mut outcome = HandlerOutcome {
+            prices,
+            skipped_labels,
+            fetch_url: URL.to_owned(),
+            ..Default::default()
+        };
+        let now = chrono::DateTime::parse_from_rfc3339("2026-10-08T20:00:00Z")
+            .unwrap()
+            .with_timezone(&chrono::Utc);
+        let first = super::super::super::record(&public, &internal, SLUG, &outcome, &now)
+            .await
+            .unwrap();
+        assert_eq!(first.recorded, 20);
+        assert!(first.skipped.is_empty());
+        assert!(first.canaries.is_empty());
+        let trader = public.find_trader_id(SLUG).unwrap().unwrap();
+        for price in &outcome.prices {
+            let material = public.find_material_id(price.material).unwrap().unwrap();
+            let current = public
+                .current_price_for(trader, material, price.variant)
+                .unwrap()
+                .unwrap();
+            assert_eq!(current.published_at, None);
+        }
+        // A second observation appends, not overwrites. Only a real price change
+        // gets an inferred date via the existing centrally documented policy.
+        outcome.prices[0].price += 0.01;
+        let later = now + chrono::Duration::hours(6);
+        let second = super::super::super::record(&public, &internal, SLUG, &outcome, &later)
+            .await
+            .unwrap();
+        assert_eq!(second.recorded, 20);
+        assert!(second.skipped.is_empty());
+        assert!(second.canaries.is_empty());
+        let rows = public
+            .query_sql(&format!(
+                "SELECT count(*) AS n FROM prices WHERE trader_id={trader}"
+            ))
+            .unwrap();
+        assert_eq!(rows.rows[0][0], serde_json::json!(40));
     }
 }
