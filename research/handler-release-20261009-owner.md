@@ -22,8 +22,8 @@ laufende Dossierarbeit bleibt erhalten.
 | Vollständige Tests | Final `cargo test --locked --workspace`: 597 bestanden, 0 fehlgeschlagen, 4 bestehende Tests ignoriert; Ingestion 540 bestanden |
 | Review | Beide unabhängigen Reviews abgeschlossen; ELNO-Token-/Zeilenverlust und Prozessisolation sowie Trapper-Richtwertsemantik behoben; Follow-up bestätigt Code, Prerequisite-Doku korrigiert |
 | Main / Push | Einzelne Handler-Commits übernommen; Release `373414e` per Fast-forward in main integriert; `git push origin main` erfolgreich (`a6a0dbd..373414e`) |
-| Deployment | Beide Binaries koordiniert ersetzen, Dienstgesundheit prüfen; noch nicht erfolgt |
-| Produktions-Scrape | Reguläre Scheduler-Steps plus aktuelle Preise/Quellsemantik read-only nachweisen; alle sechs Trader haben vor Release 0 aktuelle Preise |
+| Deployment | Beide Release-Binaries am 09.10.2026 20:04:12 UTC koordiniert ersetzt; Dienst active, öffentlicher Health ok, Query-Worker SELECT erfolgreich |
+| Produktions-Scrape | Vor Release alle sechs mit 0 aktuellen Preisen; ereignisbasierte Journal-Beobachtung und abschließender read-only Verifier gestartet, reguläre Fälligkeiten noch offen |
 
 ## Ressourcen und Ausgangslage
 
@@ -56,3 +56,29 @@ der jeweilige reguläre Lauf sechs Stunden später. Kein Force-Run als Ersatz.
 
 Lokale erfolgreiche Livehandler sind **kein** Produktionsnachweis. Die offenen
 Gates oben werden ausschließlich mit tatsächlichen Ergebnissen geschlossen.
+
+## Tatsächliches Deployment
+
+Release-Build erfolgreich nach 6m27s, Code-Stand `373414e`; spätere Commits
+ändern nur Verifier/Tests und Dokumentation, keine Crates oder Dossiers im
+Build-Worktree. Binaries am 09.10.2026 20:04:11–20:04:12 UTC ausgetauscht,
+mit vorheriger Sicherung und gestopptem Dienst während beider atomarer
+Dateiersetzungen. Backup/Manifest:
+`/root/Documents/schrott-mcp-deployment-backups/20261009T200411Z-373414e/`.
+
+- Server SHA256: `07fbc7ef44be06b7542c2d0874dcc3af8084523718e418a1ebd14c0f3c50dca4`
+- Worker SHA256: `b9c7f34c1622f6b0e13986e4583426970476c1a90556ffb380906aefdb4c4b2c`
+- Dienst active seit 20:04:12 UTC, MainPID 15872; keine neuen Warnungen.
+- `https://schrottindex.de/health`: `{"ok":true,"service":"schrott-mcp"}`.
+- Installierter Query-Worker führt read-only `SELECT count(*) FROM materials`
+  erfolgreich aus: 54. Boot-Seed ergänzt die beiden Katalogmaterialien; 3881
+  Händler und zunächst weiterhin 2283 aktuelle Preise. Uncommittete Recherche-
+  Dossiers sind nicht eingebaut und wurden nicht angetastet.
+
+Rollout verpasst die AGH-Phase 20:01:06 UTC: nächster regulärer Lauf
+**10.10.2026 02:01:06 UTC** plus Tick/Vorgänger. Die übrigen fünf nächsten
+Phasen stehen oben. Abschlussbeobachtung folgt Journalereignissen, kein
+Sleep-/Statuspolling und kein Force-Ingest; danach wird
+`scripts/verify-handler-release.py --since 2026-10-09T20:04:11.553005+00:00`
+ausgeführt. Produktions-Evidenzdatei:
+`/root/Documents/handler-release-production-evidence.json` (erst nach Abschluss).
