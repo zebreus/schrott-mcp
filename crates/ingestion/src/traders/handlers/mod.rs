@@ -25,6 +25,7 @@ pub mod dsh;
 pub mod eas_recycling_herdecke;
 pub mod easygold24_fellbach;
 pub mod edelcat;
+pub mod elno;
 pub mod esh;
 pub mod fairkat;
 pub mod frisch_recycling;
@@ -164,6 +165,7 @@ pub fn all() -> Vec<Handler> {
         eas_recycling_herdecke::handler(),
         easygold24_fellbach::handler(),
         edelcat::handler(),
+        elno::handler(),
         fairkat::handler(),
         frisch_recycling::handler(),
         geld_fuer_gold::handler(),

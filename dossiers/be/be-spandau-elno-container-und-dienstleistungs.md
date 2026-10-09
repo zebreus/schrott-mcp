@@ -29,6 +29,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Handlerprüfung 08.10.2026
+
+- [Recherche 08.10.2026: Fehlender Preis-Handler #5519 geprüft. Betreiber-Impressum bestätigt ELNO Container- und Dienstleistungs GmbH, HRB 141261 B, Tiefwerderweg 13, 13597 Berlin, kongruent zur erhaltenen Register-/Zertifikathistorie. Startseitenlink „Unsere Altmetall-Preise“ führt aktuell zum zweiseitigen PDF Preisliste_11.09.pdf. Die Liste gilt ausdrücklich nur für Privatkunden, freibleibend/tagesabhängig, Einstufung vor Ort; Gewerbekunden telefonisch anfragen. Metall-Ankaufpreise in €/kg, separat ausgewiesene Netto-Abfallgebühren in €/cbm bzw. €/to sind keine Ankaufpreise. Kein gedrucktes Gültigkeitsdatum: Uploadpfad und Dateiname werden nicht als published_at übernommen. Dynamischer Handler folgt bei jedem Abruf dem aktuellen Betreiber-PDF-Link; bisherige Dossierfelder/-historie unverändert. Sorten ohne exakte Katalogentsprechung werden gemeldet statt in ähnliche Materialien umgedeutet; Quelle(n): https://www.elno-container.de/ ; https://www.elno-container.de/impressum/ ; https://www.elno-container.de/wp-content/uploads/2026/09/Preisliste_11.09.pdf]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: certifications ergänzt: Entsorgungsfachbetrieb gemäß §56 KrWG, Zertifikat 121101 SBLBehHM (Vorgang ZZLE001000272009), ausgestellt am 24.02.2026 und gültig bis 02.04.2027. Das aktuelle Betreiber-PDF benennt ELNO Container und Dienstleistungs GmbH, HRB 141261 B, Tiefwerderweg 13, 13597 Berlin; Gesellschaft und Anschrift stimmen mit dem Impressum überein. Konflikt dokumentiert: Im Impressumstext ist noch ein altes Zertifikat bis 04/2025 verlinkt, der aktuelle Footer und die Schrottplatzseite verlinken das Zertifikat 2026 bis 04/2027. Nur den im aktuellen Footer verlinkten Beleg übernommen; keine zusätzlichen Zertifikate behauptet; Quelle(n): https://www.elno-container.de/wp-content/uploads/2026/03/EFB-Zertifikat-bis-04-2027.pdf; https://www.elno-container.de/schrottplatz/; https://www.elno-container.de/impressum/]
