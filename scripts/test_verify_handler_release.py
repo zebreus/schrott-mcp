@@ -8,6 +8,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+sys.dont_write_bytecode = True
 SCRIPT = Path(__file__).with_name("verify-handler-release.py")
 SPEC = importlib.util.spec_from_file_location("verifier", SCRIPT)
 VERIFIER = importlib.util.module_from_spec(SPEC)
