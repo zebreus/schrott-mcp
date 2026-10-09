@@ -85,7 +85,7 @@ async fn extract(bytes: &[u8], url: &str) -> Result<String, IngestError> {
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (_, html) = fetch_text(client, URL).await?;
     let url = discover(&html)?;
-    let response = client
+    let mut response = client
         .get(&url)
         .send()
         .await
@@ -97,11 +97,17 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     if !response.status().is_success() {
         return Err(error(&url, format!("HTTP {status}")));
     }
-    let bytes = response.bytes().await.map_err(|source| IngestError::Body {
+    let mut bytes = Vec::new();
+    while let Some(chunk) = response.chunk().await.map_err(|source| IngestError::Body {
         url: url.clone(),
         source,
-    })?;
-    if bytes.len() > 5_000_000 || !bytes.starts_with(b"%PDF-") {
+    })? {
+        if bytes.len() + chunk.len() > 5_000_000 {
+            return Err(error(&url, "PDF exceeds 5 MB"));
+        }
+        bytes.extend_from_slice(&chunk);
+    }
+    if !bytes.starts_with(b"%PDF-") {
         return Err(error(&url, "not a PDF or PDF exceeds 5 MB"));
     }
     let text = extract(&bytes, &url).await?;
@@ -153,7 +159,10 @@ fn parse(text: &str, url: &str) -> Result<HandlerOutcome, IngestError> {
     }
     // The threshold is part of our first five variants, so fail closed if it
     // changes instead of stamping an obsolete condition onto new prices.
-    if !text.contains("Mindestmenge 100kg für Vergütung") {
+    if !text.contains("Mindestmenge 100kg für Vergütung")
+        || !text.contains("Stahlschrott*")
+        || !text.contains("Gussbruch*")
+    {
         return Err(error(url, "steel/cast iron payment threshold changed"));
     }
     let date = text
@@ -278,11 +287,29 @@ mod tests {
         assert_eq!(out.prices[9].material, "kupfer-wicu");
     }
     #[test]
+    fn new_pdf_date_and_prices_are_not_frozen_to_fixture() {
+        let updated = FIXTURE
+            .replace("04.08.2026", "09.10.2026")
+            .replace("8,50 €", "9,15 €");
+        let out = parse(
+            &updated,
+            "https://www.trapper-kulmbach.de/upload/october.pdf",
+        )
+        .unwrap();
+        assert_eq!(
+            out.published_at.as_deref(),
+            Some("2026-10-09T00:00:00+00:00")
+        );
+        assert_eq!(out.prices[5].price, 9.15);
+        assert!(out.fetch_url.ends_with("october.pdf"));
+    }
+    #[test]
     fn fails_closed_on_changed_contract_and_reports_unknown_grades() {
         for changed in [
             FIXTURE.replace("Anlieferung:", "Verkauf:"),
             FIXTURE.replace("04.08.2026", "31.02.2026"),
             FIXTURE.replace("100kg", "200kg"),
+            FIXTURE.replace("Gussbruch*", "Gussbruch"),
             FIXTURE.replace("8,50 € kg", "8,50 € Stk"),
             FIXTURE.replace("8,50 €", "-8,50 €"),
         ] {
