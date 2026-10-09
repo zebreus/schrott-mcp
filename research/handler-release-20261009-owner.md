@@ -21,7 +21,7 @@ laufende Dossierarbeit bleibt erhalten.
 | Rustfmt | Vor jedem Codecommit und finalen Release `cargo fmt --all -- --check` |
 | Vollständige Tests | Final `cargo test --locked --workspace`: 597 bestanden, 0 fehlgeschlagen, 4 bestehende Tests ignoriert; Ingestion 540 bestanden |
 | Review | Beide unabhängigen Reviews abgeschlossen; ELNO-Token-/Zeilenverlust und Prozessisolation sowie Trapper-Richtwertsemantik behoben; Follow-up bestätigt Code, Prerequisite-Doku korrigiert |
-| Main / Push | Einzelne Handler-Commits übernehmen, geprüften Release in main integrieren; Push-Ergebnis dokumentieren |
+| Main / Push | Einzelne Handler-Commits übernommen; Release `373414e` per Fast-forward in main integriert; `git push origin main` erfolgreich (`a6a0dbd..373414e`) |
 | Deployment | Beide Binaries koordiniert ersetzen, Dienstgesundheit prüfen; noch nicht erfolgt |
 | Produktions-Scrape | Reguläre Scheduler-Steps plus aktuelle Preise/Quellsemantik read-only nachweisen; alle sechs Trader haben vor Release 0 aktuelle Preise |
 
@@ -32,11 +32,27 @@ Root-Dateisystem 75 GiB, 42 GiB frei. Produktionsdienst aktiv.
 Direkte SQL-Schreiboperationen in `/var/lib/schrott-mcp/*.db` bleiben verboten.
 Neue Preise dürfen nur durch den regulären Ingestionpfad entstehen.
 
+`scripts/verify-handler-release.py --since <rollout-RFC3339>` prüft beide DBs
+ausschließlich mit `mode=ro`: Stepstatus/-anzahl, explizite Skips, HTTP-Fetch,
+aktuelle Preise, normierte Einheiten, Unsicherheit, Quellen-URL und Datum-Basis.
+`python3 scripts/test_verify_handler_release.py`: vier lokale Fixturetests
+bestanden (grüner Vollbestand ohne DB-Dateiänderung sowie rote fehlende Steps,
+falsche Semantik/Einheiten/Provenienz/Freshness und Datum-Basis). Diese Tests
+sind kein Produktionsnachweis. Die DB speichert den Trigger-Typ nicht;
+reguläre Fälligkeit/Journal und das Nichtausführen eines Force-Runs müssen
+zusätzlich dokumentiert werden.
+
 Finale Logs: `/root/Documents/handler-release-reviewed-workspace.log` und
 `/root/Documents/handler-release-reviewed-live.log`. Alle sechs kompilierten
 Handler liefern HTTP 200. Read-only Service-Prerequisite-Gate: root, kein
 RootDirectory/RootImage, keine InaccessiblePaths/NoExecPaths; beide absolute
 Executables ausführbar, prlimit-beschränkter Poppler-Versionstest erfolgreich.
+
+Reguläre UTC-Hashphasen für den Produktionsnachweis (zuzüglich höchstens
+15 Minuten Tick-Raster und sequentieller Vorgänger): AGH 20:01:06,
+Hofmann 20:28:15, ELNO 22:02:05, Trapper 22:59:20, SAXONIA 23:45:15,
+reGOLD 23:53:54 am 09.10.2026. Wenn der Rollout eine Phase verpasst, folgt
+der jeweilige reguläre Lauf sechs Stunden später. Kein Force-Run als Ersatz.
 
 Lokale erfolgreiche Livehandler sind **kein** Produktionsnachweis. Die offenen
 Gates oben werden ausschließlich mit tatsächlichen Ergebnissen geschlossen.
