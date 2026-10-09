@@ -104,6 +104,7 @@ pub mod rheinische_kaiserslautern;
 pub mod rheinische_paderborn;
 pub mod rheinische_saarbruecken;
 pub mod rheinische_trier;
+pub mod saxonia;
 pub mod scheideanstalt_ka;
 pub mod schiefer_co;
 pub mod schrott_anton;
@@ -248,6 +249,7 @@ pub fn all() -> Vec<Handler> {
         rheinische_saarbruecken::handler(),
         rheinische_trier::handler(),
         scheideanstalt_ka::handler(),
+        saxonia::handler(),
         schiefer_co::handler(),
         schrott_anton::handler(),
         schrott_frankfurt::handler(),

@@ -28,6 +28,12 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Handler-Verifikation 08.10.2026 (#5555)
+
+- Betreiber: SAXONIA Edelmetalle GmbH, HRB 31481 (Amtsgericht Chemnitz), Erzstraße 9, 09633 Halsbrücke/Sachsen; Telefon +49 3731 20890 und info@saxonia.de im Betreiber-Impressum bestätigt. Quelle: https://saxonia.de/impressum/
+- Tageskurse: sichtbarer Stand 08.10.2026, vier explizite Ankaufskurse (Gold, Silber, Platin, Palladium), jeweils EUR/kg. Handler normalisiert nach EUR/g; verarbeitet/unverarbeitet sind keine ausdrücklich ausgewiesenen Ankaufspreise und werden nicht als Auszahlung übernommen. Quelle: https://saxonia.de/edelmetallhandel/tageskurse/
+- Edelmetallhandel beschreibt An- und Verkäufe sowie Transaktionen auf vereinbarter Preisbasis; Tageskurse sind keine garantierte Schrott-/Scheidgut-Auszahlung ohne individuelle Abrechnung. Quelle: https://saxonia.de/edelmetallhandel/
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Edelmetalle/Scheidgut (Gekrätz/Kat/E-Schrott/Dental) — Freiberger Hüttentradition, Ankauf + Recycling (NEU)
