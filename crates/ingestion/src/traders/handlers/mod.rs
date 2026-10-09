@@ -5,6 +5,7 @@
 //! unknown labels are reported via `skipped_labels`, never guessed.
 
 pub mod a_z_recycling_muenster;
+pub mod agh_altgoldhandel;
 pub mod albus_leipzig;
 pub mod allgaeu_zinn;
 pub mod altmetalle_kraft;
@@ -137,6 +138,7 @@ use super::Handler;
 pub fn all() -> Vec<Handler> {
     vec![
         a_z_recycling_muenster::handler(),
+        agh_altgoldhandel::handler(),
         vedder::handler(),
         lausitz::handler(),
         tappe::handler(),
