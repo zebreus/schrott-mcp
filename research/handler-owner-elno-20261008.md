@@ -30,7 +30,11 @@ Erneuter Rust-Livehandler nach Streaming-Härtung: HTTP 200, 210199 Bytes,
 gemeldet; Elektronikschrott wird als Anfragepreis ausgeschlossen.
 Autobatterien nutzen `batterien-blei`, dessen Katalogeintrag mit Trapper in
 den gemeinsamen Release kommt. PDF-Downloads werden bereits beim Lesen
-auf 5 MB begrenzt; reine Rust-PDF-Auswertung über `pdf-extract=0.10`.
+auf 5 MB begrenzt. Nach Review ersetzt ein abbrechbarer Poppler-Prozess die
+ursprüngliche Rust-PDF-Auswertung; `pdf-extract` und das Debug-Example wurden
+entfernt. Deployment benötigt `/usr/bin/prlimit` (util-linux) und
+`/usr/bin/pdftotext` (poppler-utils). Auswertung: 256 MiB Adressraum,
+15 Sekunden CPU, 20 Sekunden Laufzeit, 1 MB stdout und 64 KiB stderr.
 Rustfmt erfolgreich; Workspace-/Integrations-/Produktionsgate noch offen.
 
 Nach Commit integriert der Parent den isolierten Stand, baut und rollt **Server und Query-Worker** gemeinsam seriell aus. Danach regulären Schedulerlauf abwarten (kein manueller DB-Write und kein Force-Run als regulären Nachweis ausgeben). Read-only verifizieren: `ingestion_steps` erfolgreich mit Preisanzahl, `raw_fetches` tatsächliche PDF-URL/HTTP 200, `current_prices` Varianten/Einheiten und fehlendes erfundenes published_at. Ownership bleibt bis zu diesem Nachweis offen.

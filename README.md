@@ -255,6 +255,10 @@ the existing nginx, which terminates TLS for `schrottindex.de`
 (port 4001, data dir `/var/lib/schrott-mcp`). Binaries live in
 `/usr/local/bin/` (`schrott-mcp-server` next to
 `schrott-mcp-query-worker` — the worker must sit beside the server).
+ELNO and Trapper PDF handlers require `/usr/bin/prlimit` (`util-linux`)
+and `/usr/bin/pdftotext` (`poppler-utils`), including for their extraction tests.
+Extraction processes are killable and limited to 256 MiB address space,
+15 CPU seconds, 20 wall-clock seconds, 1 MB text output and 64 KiB diagnostics.
 Backups are WAL-safe only via `sqlite3 <db> ".backup '<dest>'"` —
 never plain `cp` (recent rows live in the `-wal` file).
 

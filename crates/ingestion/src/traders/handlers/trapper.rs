@@ -5,7 +5,7 @@ use crate::traders::{
 };
 use crate::IngestError;
 use scraper::{Html, Selector};
-use tokio::io::AsyncWriteExt;
+use tokio::io::{AsyncReadExt, AsyncWriteExt};
 
 const URL: &str = "https://www.trapper-kulmbach.de/service/preise";
 
@@ -55,8 +55,16 @@ fn discover(html: &str) -> Result<String, IngestError> {
     Ok(links.remove(0))
 }
 async fn extract(bytes: &[u8], url: &str) -> Result<String, IngestError> {
-    let mut child = tokio::process::Command::new("pdftotext")
-        .args(["-layout", "-", "-"])
+    let mut child = tokio::process::Command::new("/usr/bin/prlimit")
+        .args([
+            "--as=268435456",
+            "--cpu=15",
+            "--",
+            "/usr/bin/pdftotext",
+            "-layout",
+            "-",
+            "-",
+        ])
         .stdin(std::process::Stdio::piped())
         .stdout(std::process::Stdio::piped())
         .stderr(std::process::Stdio::piped())
@@ -64,23 +72,47 @@ async fn extract(bytes: &[u8], url: &str) -> Result<String, IngestError> {
         .spawn()
         .map_err(|e| error(url, format!("pdftotext unavailable: {e}")))?;
     let mut stdin = child.stdin.take().expect("piped stdin");
-    let (written, output) = tokio::join!(
-        async {
-            stdin.write_all(bytes).await?;
-            drop(stdin);
-            Ok::<_, std::io::Error>(())
-        },
-        child.wait_with_output()
-    );
-    written.map_err(|e| error(url, format!("PDF input: {e}")))?;
-    let output = output.map_err(|e| error(url, format!("PDF extraction: {e}")))?;
-    if !output.status.success() {
+    let stdout = child.stdout.take().unwrap();
+    let stderr = child.stderr.take().unwrap();
+    let (_, stdout, stderr, status) =
+        tokio::time::timeout(std::time::Duration::from_secs(20), async {
+            tokio::try_join!(
+                async {
+                    stdin.write_all(bytes).await?;
+                    drop(stdin);
+                    Ok::<_, std::io::Error>(())
+                },
+                read_output(stdout, 1_000_000),
+                read_output(stderr, 65_536),
+                child.wait()
+            )
+        })
+        .await
+        .map_err(|_| error(url, "PDF extraction timeout"))?
+        .map_err(|e| error(url, format!("PDF extraction: {e}")))?;
+    if !status.success() {
         return Err(error(
             url,
-            format!("pdftotext: {}", String::from_utf8_lossy(&output.stderr)),
+            format!("pdftotext: {}", String::from_utf8_lossy(&stderr)),
         ));
     }
-    String::from_utf8(output.stdout).map_err(|e| error(url, format!("PDF text: {e}")))
+    String::from_utf8(stdout).map_err(|e| error(url, format!("PDF text: {e}")))
+}
+async fn read_output<R: tokio::io::AsyncRead + Unpin>(
+    reader: R,
+    limit: usize,
+) -> std::io::Result<Vec<u8>> {
+    let mut bytes = Vec::new();
+    reader
+        .take(limit as u64 + 1)
+        .read_to_end(&mut bytes)
+        .await?;
+    if bytes.len() > limit {
+        return Err(std::io::Error::other(
+            "PDF extraction output limit exceeded",
+        ));
+    }
+    Ok(bytes)
 }
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (_, html) = fetch_text(client, URL).await?;
@@ -226,10 +258,10 @@ fn parse(text: &str, url: &str) -> Result<HandlerOutcome, IngestError> {
             price,
             currency: "EUR",
             unit,
-            price_kind: "exact",
+            price_kind: "approx",
             price_min: None,
             price_max: None,
-            confidence: Some(1.0),
+            confidence: Some(0.8),
             label: format!(
                 "{label}; freibleibender Richtwert, abhängig von Menge/Zusammensetzung; {variant}"
             ),
@@ -244,6 +276,23 @@ fn parse(text: &str, url: &str) -> Result<HandlerOutcome, IngestError> {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[tokio::test]
+    async fn extraction_rejects_invalid_input_and_bounds_output() {
+        assert!(extract(b"not a PDF", URL).await.is_err());
+        assert_eq!(read_output(&b"1234"[..], 4).await.unwrap(), b"1234");
+        assert!(read_output(&b"12345"[..], 4).await.is_err());
+    }
+
+    #[test]
+    fn source_richtwerte_are_structured_as_indicative() {
+        let out = parse(include_str!("fixtures/trapper-20260804.txt"), URL).unwrap();
+        assert_eq!(out.prices.len(), 21);
+        assert!(out
+            .prices
+            .iter()
+            .all(|price| price.price_kind == "approx" && price.confidence == Some(0.8)));
+    }
     const FIXTURE: &str = include_str!("fixtures/trapper-20260804.txt");
     #[test]
     fn discovers_current_link_not_a_fixed_month() {

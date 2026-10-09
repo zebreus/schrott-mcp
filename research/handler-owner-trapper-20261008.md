@@ -16,7 +16,14 @@ Am 09.10.2026 neu geprüft: Betreiber-Impressum Trapper GmbH, HRB 3736 Bayreuth,
 
 `trapper.rs`: HTML-Link bei jedem Lauf neu entdecken; eindeutiger HTTPS-Betreiber-PDF-Link, keine fest verdrahtete Monatsdatei. PDF über Poppler `pdftotext -layout - -` extrahieren, stdin/stdout ohne temporäre Dateien. Kindprozess wird bei Scheduler-Abbruch beendet. PDF-Identität, Anlieferungsrichtung, explizites Datum und 100-kg-Bedingung prüfen; geänderte Verträge/Einheiten/duplizierte Grades scheitern laut, unbekannte Sorten werden protokolliert. PDF-URL ist Preis-Provenienz; `record()` normalisiert €/t zu Katalog-€/kg für Motoren/Batterien/Platinen.
 
-**Deployment benötigt `pdftotext` (Poppler)**. Hier `/usr/bin/pdftotext` vorhanden; systemd `schrott-mcp.service` läuft als root ohne Prozess-Sandbox. Vor Rollout sicherstellen, dass es auch im Service-PATH erreichbar bleibt. Keine zusätzlichen Rust-Abhängigkeiten und keine DB-Migration.
+**Deployment benötigt `/usr/bin/pdftotext` (poppler-utils) und
+`/usr/bin/prlimit` (util-linux)**, beide mit absoluten Pfaden. systemd
+`schrott-mcp.service` läuft als root ohne Prozess-Sandbox. Vor Rollout beide
+Executables im Service-Dateisystem prüfen. Nach Review: 256 MiB Adressraum,
+15 Sekunden CPU, 20 Sekunden Laufzeit, stdout maximal 1 MB, stderr 64 KiB;
+Kindprozess wird auch bei Abbruch beendet. Richtwerte werden strukturiert als
+`approx` mit confidence 0.8 erfasst. Keine zusätzlichen Rust-Abhängigkeiten
+und keine DB-Migration.
 
 ## Verifikation / Übergabe
 

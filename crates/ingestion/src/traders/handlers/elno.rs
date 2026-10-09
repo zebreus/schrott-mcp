@@ -2,6 +2,7 @@
 use super::super::{fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice};
 use crate::IngestError;
 use scraper::{Html, Selector};
+use tokio::io::{AsyncReadExt, AsyncWriteExt};
 
 const URL: &str = "https://www.elno-container.de/";
 const IMPRESSUM_URL: &str = "https://www.elno-container.de/impressum/";
@@ -110,15 +111,76 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
         return Err(error(&url, "invalid or oversized price PDF"));
     }
     let len = bytes.len();
-    let text = tokio::task::spawn_blocking(move || pdf_extract::extract_text_from_mem(&bytes))
-        .await
-        .map_err(|e| error(&url, format!("PDF task: {e}")))?
-        .map_err(|e| error(&url, format!("PDF extraction: {e}")))?;
+    let text = extract(&bytes, &url).await?;
     let mut out = parse_text(&text, &url)?;
     out.status_code = status;
     out.byte_len = len;
     out.website_alive = true;
     Ok(out)
+}
+
+async fn read_output<R: tokio::io::AsyncRead + Unpin>(
+    reader: R,
+    limit: usize,
+) -> std::io::Result<Vec<u8>> {
+    let mut bytes = Vec::new();
+    reader
+        .take(limit as u64 + 1)
+        .read_to_end(&mut bytes)
+        .await?;
+    if bytes.len() > limit {
+        return Err(std::io::Error::other(
+            "PDF extraction output limit exceeded",
+        ));
+    }
+    Ok(bytes)
+}
+
+async fn extract(bytes: &[u8], url: &str) -> Result<String, IngestError> {
+    // OS limits bound decompression memory/CPU; dropping the future kills the
+    // same process (prlimit execs pdftotext), unlike a detached blocking task.
+    let mut child = tokio::process::Command::new("/usr/bin/prlimit")
+        .args([
+            "--as=268435456",
+            "--cpu=15",
+            "--",
+            "/usr/bin/pdftotext",
+            "-raw",
+            "-",
+            "-",
+        ])
+        .stdin(std::process::Stdio::piped())
+        .stdout(std::process::Stdio::piped())
+        .stderr(std::process::Stdio::piped())
+        .kill_on_drop(true)
+        .spawn()
+        .map_err(|e| error(url, format!("PDF tools unavailable: {e}")))?;
+    let mut stdin = child.stdin.take().unwrap();
+    let stdout = child.stdout.take().unwrap();
+    let stderr = child.stderr.take().unwrap();
+    let result = tokio::time::timeout(std::time::Duration::from_secs(20), async {
+        tokio::try_join!(
+            async {
+                stdin.write_all(bytes).await?;
+                drop(stdin);
+                Ok::<_, std::io::Error>(())
+            },
+            read_output(stdout, 1_000_000),
+            read_output(stderr, 65_536),
+            child.wait()
+        )
+    })
+    .await
+    .map_err(|_| error(url, "PDF extraction timeout"))?
+    .map_err(|e| error(url, format!("PDF extraction: {e}")))?;
+    let (_, output, stderr, status) = result;
+    if !status.success() {
+        return Err(error(
+            url,
+            format!("pdftotext failed: {}", String::from_utf8_lossy(&stderr)),
+        ));
+    }
+    String::from_utf8(output).map_err(|e| error(url, format!("PDF text: {e}")))
 }
 
 fn grade(label: &str) -> Option<(&'static str, &'static str)> {
@@ -175,10 +237,14 @@ fn parse_text(text: &str, url: &str) -> Result<HandlerOutcome, IngestError> {
     let lines: Vec<_> = text.lines().collect();
     for (index, line) in lines.iter().enumerate() {
         if let Some((before, _)) = line.split_once(" €/Kg") {
-            let Some((label, amount)) = before.trim().rsplit_once(char::is_whitespace) else {
-                continue;
-            };
+            let (label, amount) = before
+                .trim()
+                .rsplit_once(char::is_whitespace)
+                .unwrap_or(("", before.trim()));
             let mut label = label.split_whitespace().collect::<Vec<_>>().join(" ");
+            if label.is_empty() && index >= 2 {
+                label = format!("{} {}", lines[index - 2].trim(), lines[index - 1].trim());
+            }
             if matches!(
                 label.as_str(),
                 "Anhaftungen" | "Anhaftung" | "Autobatterien"
@@ -197,6 +263,9 @@ fn parse_text(text: &str, url: &str) -> Result<HandlerOutcome, IngestError> {
                     .push(format!("{label} (no exact catalog mapping)"));
                 continue;
             };
+            if !valid_amount(amount) {
+                return Err(error(url, format!("not an exact positive price: {line}")));
+            }
             let price = parse_eur(amount)
                 .filter(|price| price.is_finite() && *price > 0.0)
                 .ok_or_else(|| error(url, format!("invalid/non-positive price: {line}")))?;
@@ -219,7 +288,7 @@ fn parse_text(text: &str, url: &str) -> Result<HandlerOutcome, IngestError> {
             });
         }
     }
-    if out.prices.len() < 33 {
+    if out.prices.len() != 36 {
         return Err(error(
             url,
             format!(
@@ -235,13 +304,55 @@ fn parse_text(text: &str, url: &str) -> Result<HandlerOutcome, IngestError> {
     Ok(out)
 }
 
+fn valid_amount(amount: &str) -> bool {
+    let (whole, decimal) = amount.split_once(',').unwrap_or((amount, ""));
+    let groups: Vec<_> = whole.split('.').collect();
+    !whole.is_empty()
+        && groups
+            .iter()
+            .all(|group| !group.is_empty() && group.chars().all(|c| c.is_ascii_digit()))
+        && (groups.len() == 1
+            || (groups[0].len() <= 3 && groups[1..].iter().all(|group| group.len() == 3)))
+        && (!amount.contains(',')
+            || (!decimal.is_empty() && decimal.chars().all(|c| c.is_ascii_digit())))
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
 
-    #[test]
-    fn actual_two_page_pdf_preserves_grades_units_and_excludes_fees() {
-        let text = pdf_extract::extract_text_from_mem(include_bytes!("fixtures/elno-20261008.pdf"))
+    #[tokio::test]
+    async fn extraction_rejects_invalid_input_and_bounds_output() {
+        assert!(extract(b"not a PDF", URL).await.is_err());
+        assert_eq!(read_output(&b"1234"[..], 4).await.unwrap(), b"1234");
+        assert!(read_output(&b"12345"[..], 4).await.is_err());
+    }
+
+    #[tokio::test]
+    async fn changed_quote_tokens_and_units_are_not_silently_accepted() {
+        let original = extract(include_bytes!("fixtures/elno-20261008.pdf"), URL)
+            .await
+            .unwrap();
+        for replacement in [
+            "-10,30 €/Kg",
+            "10,30-11,00 €/Kg",
+            "10,30 €/t",
+            "10,30 €/kg",
+            "Auf Anfrage",
+        ] {
+            let changed = original.replacen("10,30 €/Kg", replacement, 1);
+            assert_ne!(changed, original, "fixture mutation did not reach quote");
+            assert!(
+                parse_text(&changed, URL).is_err(),
+                "accepted changed quote: {replacement}"
+            );
+        }
+    }
+
+    #[tokio::test]
+    async fn actual_two_page_pdf_preserves_grades_units_and_excludes_fees() {
+        let text = extract(include_bytes!("fixtures/elno-20261008.pdf"), URL)
+            .await
             .unwrap();
         let out = parse_text(&text, "https://www.elno-container.de/current.pdf").unwrap();
         assert_eq!(out.prices.len(), 36, "{:#?}\n{text}", out);
