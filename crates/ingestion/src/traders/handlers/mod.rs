@@ -11,6 +11,7 @@ pub mod altmetalle_kraft;
 pub mod amr_schrottplatz;
 pub mod antikart;
 pub mod asn_norderstedt;
+pub mod beller;
 pub mod bio_goldankauf;
 pub mod boehner_altmetalle;
 pub mod bruno_welz;
@@ -145,6 +146,7 @@ pub fn all() -> Vec<Handler> {
         amr_schrottplatz::handler(),
         antikart::handler(),
         asn_norderstedt::handler(),
+        beller::handler(),
         bio_goldankauf::handler(),
         boehner_altmetalle::handler(),
         bruno_welz::handler(),

@@ -33,6 +33,9 @@ With love as the secret ingredient.
   Lausitz, Tappe, Kupferhelden, Metallankauf24); trader #6..#500 = one
   new file + one registry line. `examples/live_handlers.rs` runs handlers
   against real pages without touching the DB (handler dev loop).
+  Beller Berlin's [handler](crates/ingestion/src/traders/handlers/beller.rs)
+  reads the HTML modal `PREISLISTE ANKAUF`, retaining grades and quantity
+  conditions; see the [owner verification](research/handler-owner-beller-20261008.md).
 - `crates/server` — axum web app: German marketing page, signup/login
   (username + password + "professional data-user" checkbox, nothing else),
   dashboard, OAuth 2.0 authorization server with dynamic client registration
