@@ -92,6 +92,7 @@ pub mod philoro_hamburg;
 pub mod plum;
 pub mod pur_umwelt_bonn;
 pub mod quell;
+pub mod regold;
 pub mod rheinische_berlin_kudamm;
 pub mod rheinische_berlin_mitte;
 pub mod rheinische_bremen;
@@ -229,6 +230,7 @@ pub fn all() -> Vec<Handler> {
         philoro_hamburg::handler(),
         plum::handler(),
         pur_umwelt_bonn::handler(),
+        regold::handler(),
         rheinische_berlin_kudamm::handler(),
         rheinische_berlin_mitte::handler(),
         rheinische_bremen::handler(),

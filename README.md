@@ -36,6 +36,9 @@ With love as the secret ingredient.
   Beller Berlin's [handler](crates/ingestion/src/traders/handlers/beller.rs)
   reads the HTML modal `PREISLISTE ANKAUF`, retaining grades and quantity
   conditions; see the [owner verification](research/handler-owner-beller-20261008.md).
+  reGOLD Spandau (`handlers/regold.rs`) reads 20 server-rendered precious-metal
+  fineness rates from `https://www.regold.de/vor-ort-ankauf.html`: EUR/g,
+  indicative (`approx`), Zahngold separate, no page-stated publication date.
 - `crates/server` — axum web app: German marketing page, signup/login
   (username + password + "professional data-user" checkbox, nothing else),
   dashboard, OAuth 2.0 authorization server with dynamic client registration
