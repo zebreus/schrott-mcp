@@ -1,5 +1,20 @@
 # reGOLD Handler #5520 — Owner / Übergabe
 
+## Owner-Nachprüfung am 09.10.2026 nach RAM-Erweiterung
+
+- `cargo test --locked -p schrott-mcp-ingestion regold`: **6 bestanden**.
+- Der erste vollständige Lauf deckte eine falsche Testannahme auf: der Store
+  dedupliziert unveränderte Kurse bewusst. Nach 20 Erstkursen und genau einer
+  Änderung sind 21 Historienzeilen richtig, nicht 40. Die Regression prüft jetzt
+  zusätzlich jeden aktuellen Wert sowie zwei Historienzeilen für den geänderten
+  und je eine für die 19 unveränderten Feingehalte. Der Store wurde nicht geändert.
+- Rust-Livehandler: HTTP 200, 13764 Bytes, **20 Preise**, keine Skips,
+  `EUR/g`, `approx`, confidence 0.8, `published_at=None`; Betreiberkontakt
+  Klosterstrasse 6-7 / 13581 Berlin korrekt extrahiert.
+- `cargo fmt --all` erfolgreich. Workspace-Gate, Main-Integration und
+  Deployment mit regulärem Produktions-Scrape bleiben offen. Die folgenden
+  OOM-/Testbeschreibungen dokumentieren den früheren Übergabestand.
+
 ## Stand
 
 - Worktree: `/root/Documents/schrott-mcp-regold-20261008`, aus Deploy-HEAD `072cf25`.

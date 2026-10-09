@@ -309,8 +309,8 @@ mod tests {
                 .unwrap();
             assert_eq!(current.published_at, None);
         }
-        // A second observation appends, not overwrites. Only a real price change
-        // gets an inferred date via the existing centrally documented policy.
+        // Only a changed quote appends a history row; unchanged quotes refresh
+        // their observation time without duplicating the price-change history.
         outcome.prices[0].price += 0.01;
         let later = now + chrono::Duration::hours(6);
         let second = super::super::super::record(&public, &internal, SLUG, &outcome, &later)
@@ -324,6 +324,24 @@ mod tests {
                 "SELECT count(*) AS n FROM prices WHERE trader_id={trader}"
             ))
             .unwrap();
-        assert_eq!(rows.rows[0][0], serde_json::json!(40));
+        assert_eq!(rows.rows[0][0], serde_json::json!(21));
+        for (index, price) in outcome.prices.iter().enumerate() {
+            let material = public.find_material_id(price.material).unwrap().unwrap();
+            let current = public
+                .current_price_for(trader, material, price.variant)
+                .unwrap()
+                .unwrap();
+            assert_eq!(current.price, price.price);
+            let history = public
+                .query_sql(&format!(
+                    "SELECT count(*) FROM prices WHERE trader_id={trader} AND material_id={material} AND variant='{}'",
+                    price.variant.replace('\'', "''")
+                ))
+                .unwrap();
+            assert_eq!(
+                history.rows[0][0],
+                serde_json::json!(if index == 0 { 2 } else { 1 })
+            );
+        }
     }
 }
