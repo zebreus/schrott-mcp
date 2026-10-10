@@ -13,7 +13,8 @@
 //!
 //! Change detection: a hash of the canonical payload lives in
 //! `extra_json.seed_hash`. Rows whose seed payload did not change are
-//! skipped, so `updated_at` keeps meaning "last real change" and repeat
+//! skipped unless authoritative coordinates or explicit `clear_fields`
+//! have drifted, so `updated_at` keeps meaning "last real change" and repeat
 //! runs are cheap. `first_seen_at` is only set on insert (see upsert).
 
 use std::collections::hash_map::DefaultHasher;
@@ -26,7 +27,7 @@ use schrott_mcp_store::{NewTrader, PublicDb};
 /// One seed row, as compiled at build time from a dossier by
 /// `crates/ingestion/build.rs`.
 /// `description`, service conditions and `certifications` preserve stored
-/// values when the dossier leaves them empty.
+/// values when the dossier leaves them empty, unless explicitly clear-marked.
 #[derive(Debug, Clone, Deserialize)]
 pub struct SeedTrader {
     pub slug: String,
@@ -63,6 +64,9 @@ pub struct SeedTrader {
     pub dropoff_json: String,
     #[serde(default)]
     pub pickup_json: String,
+    /// Opt-in comma-separated clear directive; blank retains historical behavior.
+    #[serde(default)]
+    pub clear_fields: String,
     pub status: String,
     #[serde(default)]
     pub notes: String,
@@ -81,6 +85,47 @@ pub struct SeedProvenance {
 }
 
 impl SeedTrader {
+    fn clear_fields(&self) -> Result<Vec<&str>, String> {
+        let mut fields = Vec::new();
+        if self.clear_fields.trim().is_empty() {
+            return Ok(fields);
+        }
+        for field in self.clear_fields.split(',').map(str::trim) {
+            let value = match field {
+                "phone" => &self.phone,
+                "email" => &self.email,
+                "website" => &self.website,
+                "website_status" => &self.website_status,
+                "opening_hours" => &self.opening_hours,
+                "description" => &self.description,
+                "certifications" => &self.certifications,
+                "dropoff_json" => &self.dropoff_json,
+                "pickup_json" => &self.pickup_json,
+                _ => {
+                    return Err(format!(
+                        "invalid clear_fields token {field:?} in {}",
+                        self.slug
+                    ))
+                }
+            };
+            if fields.contains(&field) {
+                return Err(format!(
+                    "duplicate clear_fields token {field:?} in {}",
+                    self.slug
+                ));
+            }
+            if !value.is_empty() {
+                return Err(format!(
+                    "clear_fields conflicts with populated {field} in {}",
+                    self.slug
+                ));
+            }
+            fields.push(field);
+        }
+        fields.sort_unstable();
+        Ok(fields)
+    }
+
     fn coordinates(&self) -> Result<Option<(f64, f64)>, String> {
         if self.lat.is_empty() && self.lon.is_empty() {
             return Ok(None);
@@ -147,6 +192,7 @@ pub fn validate_seeds(traders: &[SeedTrader]) -> Result<(), String> {
     use std::collections::HashSet;
     let mut slugs = HashSet::new();
     for t in traders {
+        t.clear_fields()?;
         t.coordinates()?;
         if t.slug.is_empty() || t.name.len() < 2 {
             return Err(format!("bad name/slug: {}", t.slug));
@@ -252,11 +298,17 @@ fn payload_hash(
         lat.to_bits().hash(&mut h);
         lon.to_bits().hash(&mut h);
     }
+    let clears = t.clear_fields().expect("validated clear_fields");
+    if !clears.is_empty() {
+        "dossier-clear-fields-v1".hash(&mut h);
+        clears.join(",").hash(&mut h);
+    }
     format!("{:016x}", h.finish())
 }
 
 /// Non-empty seed value wins, otherwise the stored (enriched) one survives.
-/// The seed never clobbers scraper/human enrichment with blanks.
+/// Ordinary blanks never clobber scraper/human enrichment; explicit clears
+/// bypass this helper and use the field's empty default.
 fn keep(seed: &str, stored: &str, fallback: &str) -> String {
     if !seed.is_empty() {
         seed.to_owned()
@@ -297,17 +349,38 @@ fn apply_seed_traders(
                 source,
             })?
             .unwrap_or_default();
-        let description = keep(&t.description, &kept.description, "");
-        let dropoff_json = keep(&t.dropoff_json, &kept.dropoff_json, "{}");
-        let pickup_json = keep(&t.pickup_json, &kept.pickup_json, "{}");
-        let website = keep(&t.website, &kept.website, "");
-        let website_status = keep(&t.website_status, &kept.website_status, "unbekannt");
-        let phone = keep(&t.phone, &kept.phone, "");
-        let email = keep(&t.email, &kept.email, "");
-        let opening_hours = keep(&t.opening_hours, &kept.opening_hours, "");
-        let certifications = keep(&t.certifications, &kept.certifications, "[]");
-        let certification_payload =
-            (!t.certifications.is_empty()).then_some(certifications.as_str());
+        let clears = t.clear_fields().expect("validated clear_fields");
+        let mut clear_drift = false;
+        let mut effective = |field: &str, seed: &str, stored: &str, fallback: &str| {
+            if clears.contains(&field) {
+                clear_drift |= stored != fallback;
+                fallback.to_owned()
+            } else {
+                keep(seed, stored, fallback)
+            }
+        };
+        let description = effective("description", &t.description, &kept.description, "");
+        let dropoff_json = effective("dropoff_json", &t.dropoff_json, &kept.dropoff_json, "{}");
+        let pickup_json = effective("pickup_json", &t.pickup_json, &kept.pickup_json, "{}");
+        let website = effective("website", &t.website, &kept.website, "");
+        let website_status = effective(
+            "website_status",
+            &t.website_status,
+            &kept.website_status,
+            "unbekannt",
+        );
+        let phone = effective("phone", &t.phone, &kept.phone, "");
+        let email = effective("email", &t.email, &kept.email, "");
+        let opening_hours = effective("opening_hours", &t.opening_hours, &kept.opening_hours, "");
+        let certifications = effective(
+            "certifications",
+            &t.certifications,
+            &kept.certifications,
+            "[]",
+        );
+        let certification_payload = (!t.certifications.is_empty()
+            || clears.contains(&"certifications"))
+        .then_some(certifications.as_str());
         let coordinates = t.coordinates().expect("validated seed coordinates");
         let (lat, lon) = coordinates
             .map(|(lat, lon)| (Some(lat), Some(lon)))
@@ -324,7 +397,11 @@ fn apply_seed_traders(
             &opening_hours,
             certification_payload,
         );
-        if kept.seed_hash == Some(hash.clone()) && kept.lat == lat && kept.lon == lon {
+        if kept.seed_hash == Some(hash.clone())
+            && kept.lat == lat
+            && kept.lon == lon
+            && !clear_drift
+        {
             continue; // unchanged — keep updated_at meaningful
         }
         let extra = serde_json::json!({
@@ -389,6 +466,265 @@ mod tests {
             .unwrap()
             .extend(fields.as_object().unwrap().clone());
         serde_json::from_value(row).expect("fixture parses")
+    }
+
+    fn enrich_clear_fixture(db: &PublicDb, extra: &str, now: &str) {
+        db.upsert_trader(&schrott_mcp_store::NewTrader {
+            slug: "bb-coordinate-test",
+            name: "Coordinate test",
+            trader_type: "schrotthaendler",
+            city: "Teststadt",
+            state: "BB",
+            country: "DE",
+            street: "",
+            postcode: "",
+            lat: Some(52.5),
+            lon: Some(13.4),
+            phone: "123",
+            email: "test@example.org",
+            website: "https://example.org",
+            website_status: "aktiv",
+            website_checked_at: "checked",
+            opening_hours: "Mo-Fr",
+            description: "Enriched",
+            certifications: Some(r#"["EFB"]"#),
+            dropoff_json: r#"{"allowed":true}"#,
+            pickup_json: r#"{"allowed":true}"#,
+            min_quantity_kg: None,
+            max_quantity_kg: None,
+            status: "aktiv",
+            notes: "",
+            extra_json: extra,
+            now,
+        })
+        .unwrap();
+    }
+
+    #[test]
+    fn seed_clear_each_field_restores_defaults_and_preserves_other_enrichment() {
+        let fields = [
+            "phone",
+            "email",
+            "website",
+            "website_status",
+            "opening_hours",
+            "description",
+            "certifications",
+            "dropoff_json",
+            "pickup_json",
+        ];
+        let enriched = [
+            "123",
+            "test@example.org",
+            "https://example.org",
+            "aktiv",
+            "Mo-Fr",
+            "Enriched",
+            r#"["EFB"]"#,
+            r#"{"allowed":true}"#,
+            r#"{"allowed":true}"#,
+        ];
+        let defaults = ["", "", "", "unbekannt", "", "", "[]", "{}", "{}"];
+        for (i, field) in fields.iter().enumerate() {
+            let dir = TempDbDir::new("seed-clear-field");
+            let db = PublicDb::open(dir.path()).unwrap();
+            enrich_clear_fixture(&db, "{}", "first");
+            let seed = coordinate_fixture(serde_json::json!({"clear_fields": field}));
+            assert_eq!(
+                apply_seed_traders(&db, &[seed.clone()], "cleared").unwrap(),
+                1
+            );
+            let mut expected = enriched.to_vec();
+            expected[i] = defaults[i];
+            let query = "SELECT phone,email,website,website_status,opening_hours,description,
+                certifications,dropoff_json,pickup_json,first_seen_at,updated_at,lat,lon,
+                website_checked_at FROM traders";
+            let assert_row = |updated: &str| {
+                let row = db.query_sql(query).unwrap().rows.remove(0);
+                for j in 0..fields.len() {
+                    assert_eq!(
+                        row[j].as_str(),
+                        Some(expected[j]),
+                        "clear {field}: {}",
+                        fields[j]
+                    );
+                }
+                assert_eq!(row[9].as_str(), Some("first"));
+                assert_eq!(row[10].as_str(), Some(updated));
+                assert_eq!(row[11].as_f64(), Some(52.5));
+                assert_eq!(row[12].as_f64(), Some(13.4));
+                assert_eq!(row[13].as_str(), Some("checked"));
+            };
+            assert_row("cleared");
+            assert_eq!(apply_seed_traders(&db, &[seed.clone()], "noop").unwrap(), 0);
+            assert_row("cleared");
+            let hash = db
+                .existing_seed_state(&seed.slug)
+                .unwrap()
+                .unwrap()
+                .seed_hash
+                .unwrap();
+            let extra = serde_json::json!({"seed_hash": hash}).to_string();
+            enrich_clear_fixture(&db, &extra, "reenriched");
+            assert_eq!(
+                apply_seed_traders(&db, &[seed.clone()], "restored").unwrap(),
+                1
+            );
+            assert_row("restored");
+            assert_eq!(
+                db.existing_seed_state(&seed.slug)
+                    .unwrap()
+                    .unwrap()
+                    .seed_hash
+                    .as_deref(),
+                Some(hash.as_str())
+            );
+            assert_eq!(apply_seed_traders(&db, &[seed], "noop2").unwrap(), 0);
+            assert_row("restored");
+        }
+    }
+
+    #[test]
+    fn seed_clear_validation_rejects_whole_batch_before_any_write() {
+        let dir = TempDbDir::new("seed-clear-invalid");
+        let db = PublicDb::open(dir.path()).unwrap();
+        let valid = coordinate_fixture(serde_json::json!({}));
+        let rejects = |fields: serde_json::Value| {
+            let mut invalid = coordinate_fixture(fields);
+            invalid.slug = "bb-invalid".to_owned();
+            assert!(apply_seed_traders(&db, &[valid.clone(), invalid], "invalid").is_err());
+            assert_eq!(db.counts().unwrap().traders, 0);
+        };
+        for directive in [
+            "lat",
+            "lon",
+            "slug",
+            "name",
+            "state",
+            "street",
+            "postcode",
+            "city",
+            "status",
+            "trader_type",
+            "website_checked_at",
+            "unknown",
+            "Phone",
+            "phone,phone",
+            "phone, phone",
+            ",phone",
+            "phone,",
+            "phone,,email",
+            ",",
+            "phone, ,email",
+        ] {
+            rejects(serde_json::json!({"clear_fields": directive}));
+        }
+        for (field, value) in [
+            ("phone", "123"),
+            ("email", "x@y.example"),
+            ("website", "https://example.org"),
+            ("website_status", "unbekannt"),
+            ("opening_hours", "Mo-Fr"),
+            ("description", " "),
+            ("certifications", "[]"),
+            ("dropoff_json", "{}"),
+            ("pickup_json", "{}"),
+        ] {
+            let mut fields = serde_json::json!({"clear_fields": field});
+            fields[field] = serde_json::json!(value);
+            rejects(fields);
+        }
+        for value in [
+            serde_json::json!(["phone"]),
+            serde_json::json!({"phone": true}),
+        ] {
+            let row = serde_json::json!({"slug": "test", "name": "Test", "trader_type": "mobil",
+                "city": "Test", "state": "BB", "status": "aktiv", "clear_fields": value});
+            assert!(serde_json::from_value::<SeedTrader>(row).is_err());
+        }
+    }
+
+    #[test]
+    fn seed_clear_hash_is_canonical_and_missing_or_empty_keeps_legacy_hash() {
+        let dir = TempDbDir::new("seed-clear-hash");
+        let db = PublicDb::open(dir.path()).unwrap();
+        let blank = coordinate_fixture(serde_json::json!({}));
+        assert_eq!(
+            apply_seed_traders(&db, &[blank.clone()], "first").unwrap(),
+            1
+        );
+        // Literal from the pre-directive payload contract (no GEO/certification ownership).
+        assert_eq!(
+            db.existing_seed_state(&blank.slug)
+                .unwrap()
+                .unwrap()
+                .seed_hash
+                .as_deref(),
+            Some("870c82e3dd902952")
+        );
+        for directive in ["", "   "] {
+            let seed = coordinate_fixture(serde_json::json!({"clear_fields": directive}));
+            assert_eq!(apply_seed_traders(&db, &[seed], "noop").unwrap(), 0);
+        }
+        let mut seed = coordinate_fixture(serde_json::json!({"clear_fields": "website, phone"}));
+        assert_eq!(
+            apply_seed_traders(&db, &[seed.clone()], "directive").unwrap(),
+            1
+        );
+        let hash = db
+            .existing_seed_state(&seed.slug)
+            .unwrap()
+            .unwrap()
+            .seed_hash;
+        assert_ne!(hash.as_deref(), Some("870c82e3dd902952"));
+        seed.clear_fields = "phone,website".to_owned();
+        assert_eq!(apply_seed_traders(&db, &[seed.clone()], "noop").unwrap(), 0);
+        seed.clear_fields = "phone".to_owned();
+        assert_eq!(
+            apply_seed_traders(&db, &[seed], "directive-change").unwrap(),
+            1
+        );
+        assert_ne!(
+            db.existing_seed_state(&blank.slug)
+                .unwrap()
+                .unwrap()
+                .seed_hash,
+            hash
+        );
+        assert_eq!(apply_seed_traders(&db, &[blank], "removed").unwrap(), 1);
+        let dates = db
+            .query_sql("SELECT first_seen_at,updated_at FROM traders")
+            .unwrap();
+        assert_eq!(dates.rows[0][0].as_str(), Some("first"));
+        assert_eq!(dates.rows[0][1].as_str(), Some("removed"));
+    }
+
+    #[test]
+    fn seed_clear_all_fields_on_insert_is_idempotent() {
+        let dir = TempDbDir::new("seed-clear-insert");
+        let db = PublicDb::open(dir.path()).unwrap();
+        let seed = coordinate_fixture(serde_json::json!({"clear_fields":
+            "phone,email,website,website_status,opening_hours,description,certifications,dropoff_json,pickup_json"}));
+        assert_eq!(
+            apply_seed_traders(&db, &[seed.clone()], "first").unwrap(),
+            1
+        );
+        assert_eq!(apply_seed_traders(&db, &[seed.clone()], "noop").unwrap(), 0);
+        let kept = db.existing_seed_state(&seed.slug).unwrap().unwrap();
+        assert_eq!(kept.phone, "");
+        assert_eq!(kept.email, "");
+        assert_eq!(kept.website, "");
+        assert_eq!(kept.website_status, "unbekannt");
+        assert_eq!(kept.opening_hours, "");
+        assert_eq!(kept.description, "");
+        assert_eq!(kept.certifications, "[]");
+        assert_eq!(kept.dropoff_json, "{}");
+        assert_eq!(kept.pickup_json, "{}");
+        let dates = db
+            .query_sql("SELECT first_seen_at,updated_at FROM traders")
+            .unwrap();
+        assert_eq!(dates.rows[0][0].as_str(), Some("first"));
+        assert_eq!(dates.rows[0][1].as_str(), Some("first"));
     }
 
     #[test]

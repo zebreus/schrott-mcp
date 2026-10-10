@@ -53,6 +53,7 @@ const KNOWN_KEYS: &[&str] = &[
     "description",
     "dropoff_json",
     "pickup_json",
+    "clear_fields",
     "provenance_section",
     "provenance_ankauf_raw",
     "provenance_origin",
@@ -231,6 +232,38 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
         }
     }
     let get = |k: &str| fm.get(k).cloned().unwrap_or_default();
+    let directive = get("clear_fields");
+    let mut clears = Vec::new();
+    if !directive.trim().is_empty() {
+        for field in directive.split(',').map(str::trim) {
+            if ![
+                "phone",
+                "email",
+                "website",
+                "website_status",
+                "opening_hours",
+                "description",
+                "certifications",
+                "dropoff_json",
+                "pickup_json",
+            ]
+            .contains(&field)
+            {
+                fail(&name, &format!("invalid clear_fields token {field:?}"));
+            }
+            if clears.contains(&field) {
+                fail(&name, &format!("duplicate clear_fields token {field:?}"));
+            }
+            if !get(field).is_empty() {
+                fail(
+                    &name,
+                    &format!("clear_fields conflicts with populated {field}"),
+                );
+            }
+            clears.push(field);
+        }
+        clears.sort_unstable();
+    }
     let lat = get("lat");
     let lon = get("lon");
     if lat.is_empty() != lon.is_empty() {
@@ -291,6 +324,10 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
         row.push((k.to_string(), get(k)));
     }
     row.push(("notes".to_string(), notes));
+    // Absent/empty directives must not change historical generated rows.
+    if !clears.is_empty() {
+        row.push(("clear_fields".to_string(), clears.join(",")));
+    }
     row.push((
         "provenance".to_string(),
         format!(
@@ -391,6 +428,80 @@ mod tests {
             &format!("---\nslug: coordinate-test\n{fields}---\n## Timeline\n"),
             "bb",
         )
+    }
+
+    #[test]
+    fn clear_fields_are_opt_in_and_canonical() {
+        let old = coordinates("");
+        assert_eq!(old, coordinates("clear_fields: ''\n"));
+        assert_eq!(old, coordinates("clear_fields: '   '\n"));
+        let row = coordinates("clear_fields: 'website, phone'\n");
+        assert!(row.contains(&("clear_fields".to_owned(), "phone,website".to_owned())));
+        assert_eq!(row, coordinates("clear_fields: 'phone,website'\n"));
+    }
+
+    #[test]
+    fn clear_fields_allow_only_the_nine_enrichment_fields() {
+        let row = coordinates("clear_fields: 'phone,email,website,website_status,opening_hours,description,certifications,dropoff_json,pickup_json'\n");
+        assert!(row.contains(&("clear_fields".to_owned(),
+            "certifications,description,dropoff_json,email,opening_hours,phone,pickup_json,website,website_status".to_owned())));
+        for directive in [
+            "lat",
+            "lon",
+            "slug",
+            "name",
+            "state",
+            "street",
+            "postcode",
+            "city",
+            "status",
+            "trader_type",
+            "website_checked_at",
+            "unknown",
+            "Phone",
+            "phone,phone",
+            "phone, phone",
+            ",phone",
+            "phone,",
+            "phone,,email",
+            ",",
+            "phone, ,email",
+        ] {
+            assert!(
+                std::panic::catch_unwind(|| coordinates(&format!("clear_fields: '{directive}'\n")))
+                    .is_err(),
+                "accepted {directive:?}"
+            );
+        }
+    }
+
+    #[test]
+    fn clear_fields_reject_populated_values_including_json_defaults() {
+        for (field, value) in [
+            ("phone", "123"),
+            ("email", "x@y.example"),
+            ("website", "https://example.org"),
+            ("website_status", "unbekannt"),
+            ("opening_hours", "Mo-Fr"),
+            ("description", " "),
+            ("certifications", "[]"),
+            ("dropoff_json", "{}"),
+            ("pickup_json", "{}"),
+        ] {
+            assert!(
+                std::panic::catch_unwind(|| coordinates(&format!(
+                    "clear_fields: '{field}'\n{field}: '{value}'\n"
+                )))
+                .is_err(),
+                "accepted conflict {field}"
+            );
+        }
+        assert!(std::panic::catch_unwind(|| coordinates("clear_fields: [phone]\n")).is_err());
+        assert!(std::panic::catch_unwind(|| coordinates(
+            "clear_fields: 'phone'\nclear_fields: 'email'\n"
+        ))
+        .is_err());
+        coordinates("clear_fields: 'phone'\nphone: null\n");
     }
 
     #[test]
