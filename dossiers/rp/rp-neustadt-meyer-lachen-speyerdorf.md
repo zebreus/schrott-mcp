@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite Schrotthandel Meyer nennt Sascha Meyer, Im Altenschemel 40a, 67435 Neustadt und Telefon 06327 2272 / Mobil 0171 8454611. Sie wirbt mit Ankauf und Abholung von Schrott, Metallen, NE-Metallen, Kabeln und Altautos sowie Demontage/Entkernung und Ankauf von Nutzfahrzeugen/Staplern; Barauszahlung wird für Schrott und Metalle genannt. Die Website belegt ihre eigenen Angaben, löst aber nicht sicher die Seed-Zuordnung „Meyer Lachen-Speyerdorf“ bzw. den konkurrierenden Patrick-Meyer-Adresslead. Deshalb keine Übertragung in Frontmatter. ANKAUF: keine numerischen Sätze; VERKAUF: keine Preisliste; GEBÜHREN: keine veröffentlichten Abhol-/Entsorgungstarife.
+Betreiber-Kandidat Sascha Meyer, Im Altenschemel 40a, 67435 Neustadt, 06327 2272/0171 8454611, bietet Schrott-/Metall-/Fahrzeugankauf, Demontage und Gebrauchtteileverkauf. Keine sichere Seed-/Patrick-Meyer-Kette und zweite zulässige Quelle; deshalb keine Frontmatter-Fills. Ankauf/Verkauf ohne numerische Liste. Zwei bedingte Gratisangebote: Altautoabholung, Mulden-Dauerbereitstellung für Geschäftspartner; keine universelle Privat-/Schrott-Gratiszusage oder numerischer Entsorgungstarif. Zeiten seit 2019 kein Frischebeleg.
 
 ## Timeline
+
+### Recherche 09.10.2026 / Gegenprüfung 10.10.2026
+
+- [Recherche 10.10.2026: Wave-D-Detailseiten direkt gegengeprüft: Service nennt kostenlose Altautoabholung und Wertermittlung/Auszahlung, „ebenso“ beim Metallankauf keine eindeutige universelle Gratisabholung. Mulden 2–10 m³, kostenlose Dauerbereitstellung ausdrücklich für Geschäftspartner. Autoverwertung nennt Schrott-/Unfallfahrzeugankauf, Export-Gebrauchtwagen, Gebrauchtteileverkauf; „zertifiziert“ Eigenwerbung ohne aktuelles Originalzertifikat. Öffnungszeiten ab 01.02.2019 Mo–Fr 08:00–12:30/13:00–16:30, Sa 09:00–14:00; Impressum Sascha Meyer/USt-ID DE174079343, keine HRB. Kein numerischer Ankauf-/Verkaufs-/Entsorgungstarif. Alle Angaben zum Kandidaten, Seed/Patrick-Zuordnung ungeklärt, Betreiber-Ausnahme nicht erfüllt, keine Fills. Quelle(n): https://schrotthandel-meyer.de/index.php/service ; https://schrotthandel-meyer.de/index.php/autoverwertung ; https://www.schrotthandel-meyer.de/index.php/oeffnungszeiten ; https://schrotthandel-meyer.de/index.php/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mathias/Matthias Scheller beziehungsweise MS Schrotthandel in Trier bleibt ungeklärte Betreiberidentität. Tessenowstr. 35/0175 2305407 und widersprüchliche Zeiten nur Verzeichnisleads; Facebook-Abruf liefert Login. Keine Kontakt-/Adress-/Zeit-Fills, keine aktuelle Ankauf-/Verkaufspreisliste oder Gebühren im geprüften Umfang. Status pruefung; gesperrte Anzeigen kein Aktivitäts-/Schließungsbeweis.
 
 ## Timeline
+
+### Recherche 09.10.2026 / Gegenprüfung 10.10.2026
+
+- [Recherche 10.10.2026: Wave-D-Facebook-Grenze unabhängig bestätigt: numerische Seiten-URL leitet auf Login weiter, HTTP 200 kein gelesener Betreiber-Social-Inhalt. Mathias/Matthias, Gewerbeidentität, Annahmestelle und Zeitenkonflikt ungelöst, keine zulässige zweite Quelle. Keine neuen Kontakt-/Adress-/Material-/Preis-Fills, status pruefung; Nichtfund nicht als Schließung lesen. Quelle: https://www.facebook.com/61554977015003 ; frühere Verzeichnis-/Anzeigenleads in erhaltener Timeline]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

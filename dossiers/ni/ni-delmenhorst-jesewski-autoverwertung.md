@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Delmenhorster Seed-Standort ungeklärt. Erreichbarer Betreiber Autoverwertung Jesewski, Mark Roßberg, nennt Neuer Steindamm 6, 28779 Bremen-Nord. Fahrzeugankauf und Gebrauchtteileverkauf dort keine Delmenhorster Standortkette; keine Bremer Kontakte/Website übernommen. Kein aktueller Fahrzeug-/Materialtarif, keine geprüften Einzelverkaufsangebote oder Gebühren. Status pruefung, keine Schließung aus Nichtfund.
 
 ## Timeline
+
+### Recherche 09.10.2026 / Gegenprüfung 10.10.2026
+
+- [Recherche 10.10.2026: Wave-D-Gegenbetrieb über HTTP-Homepage/Impressum direkt bestätigt: Mark Roßberg, Neuer Steindamm 6, 28779 Bremen, 0421 630090, info@jesewski.de, USt-ID DE360503786. Bremen-Nord/Vegesack/Blumenthal/Burglesum, Unfall-/Motorschaden-/ohne-TÜV-Fahrzeugankauf, Demontage, geprüfte Gebrauchtteile/Versand; keine Delmenhorster Filiale auf gelesenen Seiten, kein Beweis gegen frühere Filiale. HTTPS-Transportfehler in Wave kein Schließungsbeweis. Dort verlinktes eBay-Konto autoverwertungbremen nur Verkaufslead, kein separat gegengeprüftes Einzelangebot/Delmenhorstbeleg. Kein Ankaufssatz/Gebührentarif und keine fremden Frontmatter-Fills; Seedherkunft/Standortkette offen. Quelle(n): http://www.jesewski.de/ ; http://jesewski.de/impressum/ ; https://www.ebay.de/usr/autoverwertungbremen (Wave-Betreiberlink, Einzelangebote nicht geprüft)]
 
 ### Recherche 02.10.2026
 

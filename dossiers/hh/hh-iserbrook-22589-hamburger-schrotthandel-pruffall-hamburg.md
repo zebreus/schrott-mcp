@@ -6,11 +6,12 @@ state: HH
 city: Iserbrook 22589
 street: ''
 postcode: ''
-phone: 0173 6110524
+phone: ''
+clear_fields: 'phone,website'
 email: ''
 opening_hours: ''
-website: https://hamburger-schrott.de
-website_status: tot
+website: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,7 +29,16 @@ Weiterhin ein **Prüffall**: Die neu direkt geöffnete Schrottplatz.org-Seite f�
 
 **Preise (Ankauf/Verkauf/Gebühren):** weder der Portal-Lead noch eine verifizierte Betreiberquelle nennt Kurse oder Gebühren. **Offen:** Betreiber und Telefonnummer verifizieren; bis dahin keine Anlieferempfehlung, `status: pruefung` bleibt. Quellen- und Prüfverlauf siehe Timeline.
 
+Unbelegte Telefon-/Domainzuordnung aus aktueller Frontmatter zurückgenommen; alte Werte in Timeline. Erneuter rekursiver DNS-Befund NXDOMAIN bestätigt nur fehlende Domainauflösung, nicht Identität oder Schließung. Ohne zugeordnete Betreiberwebsite website_status unbekannt.
+
 ## Timeline
+
+- [Owner-Korrektur 10.10.2026: Explizite Seed-Direktive clear_fields für phone und website ergänzt. Leere Dossierwerte allein erhalten bestehende DB-Enrichmentwerte; nach geprüfter Veröffentlichung soll der normale Seed diese unbelegten Kontaktzuordnungen tatsächlich entfernen, nicht nur aus dem Markdown zurücknehmen. Keine direkte Produktionsmutation, keine GEO-Löschung, keine Schließungsbehauptung. Historische Werte und Gegenbelege unten erhalten. Grundlage: docs/trader-seed.md; research/checkin-20261010-waveD-nordwest-owner-gate.md.]
+
+### Recherche 09.10.2026 / Korrektur 10.10.2026
+
+- [Recherche 10.10.2026: Wave-D-Systemresolver gaierror -2 bedeutet nur fehlende Auflösung dieser Umgebung, kein ausgelesener autoritativer RCODE. Unabhängige Google-DNS-A-Abfrage für hamburger-schrott.de ergibt Status 3/NXDOMAIN, negative SOA de., Kommentar Response from 194.246.96.1, AD false. Rekursiver RCODE-Befund, keine eigene direkte autoritative/DNSSEC-Verifikation. Domain nicht auflösbar, kein Betriebsschließungsbeweis oder Nachweis der Betreiberzuordnung. Quelle(n): https://dns.google/resolve?name=hamburger-schrott.de&type=A ; geprüfter Host hamburger-schrott.de (Wave-D-Systemresolver 09.10.2026)]
+- [Korrektur 10.10.2026: Unbelegte Legacy phone 0173 6110524 und website https://hamburger-schrott.de aus aktueller Frontmatter geleert; zugeordneter website_status vorher tot auf unbekannt, weil keine verifizierte Betreiberwebsite zugeordnet ist. Alle alten Werte hier erhalten; Domain-NXDOMAIN als technisches Arbeitswissen bleibt gültig. Heerbrook 4/22589/Telefon nur Seed-/Portal-Lead, keine zwei zulässigen Identitäts-/Kontaktquellen. status pruefung, Ort/Slug/GEO/Typ erhalten; keine Anliefer-/Preis-/Gebührenzusage, keine Schließung aus Nichtfund. Namensähnliche Hamburger Anbieter nicht übernehmen; Quelle(n): https://www.schrottplatz.org/hamburg/schrott-hamburger-schrott-aYEPV3.html ; README.md, Source hierarchy; obiger DNS-Befund und ältere Timeline]
 
 ### Recherche 07.10.2026
 

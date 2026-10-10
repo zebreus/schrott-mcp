@@ -4,14 +4,14 @@ name: Klass M. Autoverwertung und Abschleppdienst
 trader_type: autoverwertung
 state: SH
 city: Rellingen 25462
-street: Adlerstr. 36
+street: ''
 postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klass M. Autoverwertung und Abschleppdienst ist nur als Verzeichnislead Adlerstr. 36, 25462 Rellingen, 0160 93311850 greifbar. Voller Betreibername, heutiger Betrieb und Original-Autoverwertungszertifikat fehlen. Aktivstatus zurückgenommen, importierte Straße nur historisch; keine aktuellen Kontakt-/Standort-/Preis-Fills und keine bestätigte Annahme. Typ/Seed-Ort bleiben ohne neue Typvermutung erhalten.
 
 ## Timeline
+
+### Recherche 09.10.2026 / Korrektur 10.10.2026
+
+- [Recherche 10.10.2026: GS-Detail aus Wave D erneut gelesen: Klass M., Adlerstr. 36, 25462 Rellingen, 0160 93311850; keine Betreiberwebsite/Zeiten. Einzelbewertung Golocal 26.12.2018 über Oldtimer/Teile und vorherigen Handyanruf, kein aktueller Betreiber-/Ankaufbeleg. Weitere Verzeichnistreffer sind keine unabhängige zulässige Quelle; Northdata-Nichtzuordnung kein amtlicher Negativbeweis. Keine numerischen Ankauf-/Verkaufspreise/Gebühren. Quelle(n): https://www.gelbeseiten.de/gsbiz/ab4492b4-2ea6-4c11-8fde-74fff1c983e2 ; https://www.northdata.de/?query=Klass+Autoverwertung+Rellingen]
+- [Korrektur 10.10.2026: Frühere Begründung „aktiv bleibt, kein Gegenbeleg“ ersetzt keinen positiven Nachweis. status aktiv auf pruefung und Legacy street „Adlerstr. 36“ geleert, alter Wert hier erhalten. Telefon/PLZ bleiben nur Leads; city „Rellingen 25462“ als historischer Seed-Ort unverändert, keine neue Standortbestätigung, kein Geocoding. Typ autoverwertung nicht durch Vermutung ersetzt, Originalzertifikat/Annahme weiter offen. Keine Schließung, Slug/GEO unverändert; Quelle: README.md, Source hierarchy; obige GS-Seite und Seed]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

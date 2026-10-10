@@ -26,9 +26,14 @@ provenance_origin: table
 
 Prison ist nicht sicher dem Mönchengladbacher Seed-Ort zuzuordnen. Bisherige Leads widersprechen sich: Wetschewell 4 ist als Standort von Zimmermanns Bauschutt gelistet; Maptons nennt für „Prison“ Wetschewell 2, während ein 11880-Essen-Treffer den Prison-/Kramer-Namen Essen zuordnet. Eine Betreiberquelle, die Name, Adresse und Rechtsträger zusammenbringt, fehlt. Telefonnummern aus Instagram (01578 8026296) und dem Aggregator (0171 4039142) stimmen nicht überein. Nicht geokodieren, bevor die Identität/Adresse geklärt ist.
 
-Preise: Kein verifiziertes Preisblatt. Ein Facebook-Suchtreffer zu „SchrottProfi Prison“ vom 26.01.2026 wirbt mit „VHM 25 € pro Kilo“; Materialgüte, Bedingungen, Anbieter- und Standortzuordnung sind nicht verifiziert und es ist kein allgemeines Preisblatt. Verkauf und Gebühren: keine belastbare Preisliste.
+Preise: Kein verifiziertes aktuelles Preisblatt. Der jetzt konkret gelesene Facebook-Post liefert Titel/OpenGraph „schrottprofi prison“ und „26.01.2026 VHM 25€ per kilo .“; Datum nur Anzeigentext, Materialgüte, Bedingungen, Seed-Rechtsträger und Standortzuordnung nicht verifiziert. Historischer Werbefund, keine allgemeine aktuelle Ankaufsliste. Ein weiteres konkretes 11880-Profil nennt Wetschewell 2/0171 4039142, bleibt Lead. Verkauf/Gebühren keine belastbare Preisliste.
 
 ## Timeline
+
+### Recherche 09.10.2026 / Gegenprüfung 10.10.2026
+
+- [Recherche 10.10.2026: Wave-D-Instagramabruf erneut Login ohne auswertbaren Betreiberinhalt; keine neue Telefon-/Aktivverifikation. Prison-Kramer/Essen erscheint im Alsleben-11880-Profil als empfohlener Anbieter, kein Nachweis einer Wetschewell-Kette. Kein Standortwechsel/Schließung, status pruefung; Quelle(n): https://www.instagram.com/schrotthandelprison/ ; https://www.11880.com/branchenbuch/leverkusen/060440092B113568443/entruempelung-schrotthandel-alsleben-kostenlose-schrottabholung.html]
+- [Recherche 10.10.2026: Eigenständig konkretes 11880-Profil Schrotthandel Prison/Mönchengladbach direkt gelesen: Wetschewell 2, 41199, 0171 4039142, Rechtsformbehauptung Einzelunternehmen/Zeiten; nur Lead, keine zweite zulässige Identitäts-/Kontaktquelle. Essen daher nicht als alleiniger wahrer Standort fortschreiben. Konkreter Facebook-Post direkt HTTP 200 ohne Login-Weiterleitung, Titel/OpenGraph „schrottprofi prison“ und „26.01.2026 VHM 25€ per kilo .“; Datum ist Anzeigentext, Publikationsdatum nicht separat bestätigt. Suchindex-Wetschewell nicht direkt gelesener Standortnachweis. Voller Betreiber/Adresse/Güte/Mengen-/Zeitbedingungen nicht auswertbar; historische numerische Werbeaussage, kein aktueller allgemeiner Ankaufskurs/keine Ingestionfreigabe. Wetschewell 2/4, Telefonkonflikt und Seed-Rechtsträger weiter offen; keine Frontmatter-/GEO-/Preis-Fills, Verkauf/Gebühren nicht belegt. Quelle(n): https://www.11880.com/branchenbuch/moenchengladbach/060440092B112918406/schrotthandel-prison.html ; https://www.facebook.com/61586302467268/posts/26012026-vhm25-per-kilo-/122107678911210082/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

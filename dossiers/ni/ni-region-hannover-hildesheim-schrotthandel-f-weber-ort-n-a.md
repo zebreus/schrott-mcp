@@ -6,7 +6,8 @@ state: NI
 city: Region Hannover/Hildesheim
 street: ''
 postcode: ''
-phone: 0173 6115144
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -25,9 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed „Schrotthandel F. Weber“ führt die Region Hannover/Hildesheim und Telefon 0173 6115144. Die einzige bisher zuordenbare Spur ist ein Branchenportal-Eintrag in Schandelah (Gemeinde Cremlingen/Landkreis Wolfenbüttel), dessen Ortsangabe nicht zur Seed-Region passt. Keine Betreiberwebsite oder unabhängige Bestätigung von Identität, Einsatzgebiet oder Ankauf gefunden; Status `pruefung` bleibt. Keine Zielbetriebs-Preisliste für Ankauf/Verkauf oder Gebühren.
+Der Seed „Schrotthandel F. Weber“ führt die Region Hannover/Hildesheim; historisches Telefon 0173 6115144 nur noch in Timeline. Ein Branchenportal ordnet dieselbe Nummer Schandelah/Cremlingen zu, kein Beleg für Seed-Identität oder Standortkette. Keine Ortsverschiebung und kein aktueller Telefon-Fill ohne Betreiber-/Gewerbezuordnung; status pruefung. Keine verifizierten Ankauf-/Verkaufspreise/Gebühren.
 
 ## Timeline
+
+- [Owner-Korrektur 10.10.2026: Explizite Seed-Direktive clear_fields für phone ergänzt, um nach geprüfter Veröffentlichung die ungeklärte Regions-/Telefonzuordnung durch normalen Seedupsert tatsächlich zurückzunehmen. Leerwert allein erhält gespeichertes Enrichment. Ortskonflikt und historische Nummer unten dokumentiert; keine Ortsverschiebung, GEO-Löschung oder direkte Produktionsmutation. Grundlage: docs/trader-seed.md; research/checkin-20261010-waveD-nordwest-owner-gate.md.]
+
+### Recherche 09.10.2026 / Korrektur 10.10.2026
+
+- [Recherche 10.10.2026: Wave-D-GS-Suche F Weber Schrotthandel/Schandelah erneut 0 Treffer/HTTP 404, nur Portal-Nichtfund. Gegenportal lokaleschrottplatz direkt gelesen: F.Weber, Schandelah, +49 173 6115144, generische Material-/Öffnungszeiten-/Mindestmengenangaben; keine Betreiberbelege oder Preisliste. Telefonübereinstimmung beweist keine Ortsverschiebung Hannover/Hildesheim → Cremlingen; Quelle(n): https://www.gelbeseiten.de/suche/f%20weber%20schrotthandel/schandelah ; https://lokaleschrottplatz.de/f-weber-schrotthandel/]
+- [Korrektur 10.10.2026: Legacy phone 0173 6115144 aus strukturierter Frontmatter zurückgenommen und hier vollständig erhalten. Voller Vorname/Gewerbeort/Telefonzuordnung fehlen, keine zwei zulässigen Quellen, keine Portal-Konditionen übernehmen. Slug/GEO/Typ/Region unverändert, keine Schließung; Quelle: README.md, Source hierarchy; obige Leads und Seed]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

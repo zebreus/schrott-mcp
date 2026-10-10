@@ -1,17 +1,17 @@
 ---
 slug: sl-merchweiler-schrott-weiler-matthias-wahrsch-gleiche
-name: Schrott Weiler Matthias (wahrsch. gleiche Familie wie Nr. 46)
+name: Schrott Weiler Matthias
 trader_type: schrotthaendler
 state: SL
 city: Merchweiler
-street: Eisenbahnstr. 1a
+street: ''
 postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -20,13 +20,18 @@ provenance_ankauf_raw: ja (lt. Verzeichnis)
 provenance_origin: table
 ---
 
-# Schrott Weiler Matthias (wahrsch. gleiche Familie wie Nr. 46)
+# Schrott Weiler Matthias
 
 ## Überblick
 
-Für „Schrott Weiler Matthias“ liegen hier bislang nur die importierte Anschrift Eisenbahnstraße 1a und die unbestätigte Notiz einer möglichen Familienbeziehung zu „Nr. 46“ vor. Eine aktuelle Betreiberquelle oder ein unabhängiger Beleg für die Identität bzw. den Ankauf wurde nicht gefunden. Die Familienzuordnung ist offen; der Seed-Status `aktiv` ist nicht neu bestätigt. Keine verifizierten Ankaufskurse, Verkaufspreise oder Gebühren.
+Matthias Weiler/Eisenbahnstraße 1a bleibt Verzeichnislead, kein bestätigter aktueller Betreiber-/Annahmestandort. Status auf pruefung, Straße leer; Familienspekulation aus aktuellem Namen entfernt und historisch erhalten. Zusätzlicher Bärbel-Weiler-Lead Eisenbahnstraße 1 beweist weder Familie noch Bezug zu „Nr. 46“. Keine verifizierten Ankauf-/Verkaufspreise/Gebühren; kein Schließungsschluss.
 
 ## Timeline
+
+### Recherche 09.10.2026 / Korrektur 10.10.2026
+
+- [Recherche 10.10.2026: Wave-D-GS-Suche Weiler Schrott Merchweiler erneut 0 Treffer/HTTP 404; begrenzter Nichtfund, kein amtlicher Gewerbe-/Schließungsnachweis. Eigenständig gefundene Portalübersicht meineoeffnungszeiten nennt Matthias Weiler, Eisenbahnstraße 1a, und Bärbel Weiler, Eisenbahnstraße 1, 66589 Merchweiler. Nur Leads, keine zweite zulässige Quelle/Betreiberkette. Namensvetter in Northdata sind kein negativer Registerbeweis. Quelle(n): https://www.gelbeseiten.de/suche/weiler%20schrott/merchweiler ; https://merchweiler.meineoeffnungszeiten.de/schrott-branche-2078-1 ; https://www.northdata.de/?query=Matthias+Weiler+Merchweiler]
+- [Korrektur 10.10.2026: status aktiv durch pruefung ersetzt, keine Schließung. Legacy street „Eisenbahnstr. 1a“ geleert; bisheriger name „Schrott Weiler Matthias (wahrsch. gleiche Familie wie Nr. 46)“ zu „Schrott Weiler Matthias“ bereinigt. Beide alten Werte hier erhalten, Familie/Nr. 46 ungeklärt. Kein aktueller Kontakt-/Standort-/Ankaufbeleg, keine Tarife. Slug/GEO/Typ/Ort erhalten; Quelle: README.md, Source hierarchy; obige Portal-Leads und Seed]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
