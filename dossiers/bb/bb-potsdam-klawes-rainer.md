@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klawes Rainer ist ein unbestätigter Potsdamer Schrottlead. Klopstockstraße 2, 14482 und 0331 714125 stammen nur aus einem Portal; dessen Homepage-Link führt zum Portal, nicht zum Betreiber. Der überlieferte Status `aktiv` ist keine aktuelle Primärbestätigung und wird am 10.10. wegen Beleglücke auf `pruefung` gesetzt, nicht auf `geschlossen`. Adresse/Kontakt bleiben ungefüllt und öffentliche Annahme ungeklärt.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreise. Offen: Rainer Klawes als Inhaber, Gewerbeanschrift und heutige Tätigkeit; fehlender Webtreffer beweist keine Schließung.
 
 ## Timeline
+
+### Ownerkorrektur 10.10.2026
+
+- [Korrektur 10.10.2026: Ownerentscheidung status aktiv→pruefung wegen Beleglücke: Name/Ort, aktuelle Gewerbetätigkeit und öffentliche Annahme nicht durch Betreiberwebsite, Register-/Gewerbedatensatz oder Betreiber-Social bestätigt. Klopstockstraße 2/0331 714125 bleiben Portal-Leads, Portal-Root ist keine Händlerwebsite. Eigene Gegenrecherche am 10.10. ohne Zielbetreiberbeleg ist nur Discovery-Grenze; keine Schließung/Nichtexistenz ableiten. Andere Frontmatter-Felder und Slug unverändert, keine Legacyfreigabe. Quelle: https://www.schrottplatz-info.de/schrottplatz/Potsdam/Klawes (Vorrecherche/Lead, kein neuer Live-Abruf); eigenständige Klawes/Potsdam/Schrott-Suche 10.10. ohne qualifizierten Zielbeleg.]
+
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Portalbefund 03.10. quellenkritisch verdichtet; neue Klawes/Potsdam/Schrott-Suche ohne Resultate, kein Existenznegativbeleg. Aktiv-Seedstatus unverändert, ausdrücklich nicht als gesicherte Annahme betrachten. Klopstockstraße zunächst auf Betriebs-/Privatanschrift und Inhaber prüfen; Portal-Root nicht als Händlerwebsite erfassen. ANKAUF/VERKAUF/GEBÜHREN keine Zahlenliste. Quelle: https://www.schrottplatz-info.de/schrottplatz/Potsdam/Klawes (Vorrecherche/Lead, kein neuer Live-Abruf).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Generischer Autoverschrottungslead in Frankfurt-Fechenheim, ohne identifizierten Betreiber. Vorrecherche findet Cassellastraße 31 mit Seednummer 01520 4045656 in 11880/Cylex; das korrigiert den älteren erfolglosen Suchvermerk desselben Tages, bleibt aber Verzeichnisbasis. Andere Autoankaufangebote an der Straße und der Cassellapark sind kein Firmenbeleg. Keine Straßenfüllung oder aktuelle Annahmebestätigung.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreise. Offen: Rechtsträger, Betriebsstätte oder bloßes Vermittlungs-/Abholangebot sowie ggf. anerkannter Demontagebetrieb.
 
 ## Timeline
+
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Chronologischen Widerspruch der zwei 04.10.-Notizen ausdrücklich aufgelöst: positiver 11880-/Cylex-Telefonlead ersetzt nur den älteren Such-Negativbefund, liefert weiterhin keinen Primärbeleg. Neue Telefonabfrage ohne Resultate ändert daran nichts. Betreiber hinter 01520 4045656 zuerst ermitteln; Autoankauf, Abholung und anerkannte Demontage nicht gleichsetzen. ANKAUF/VERKAUF/GEBÜHREN keine Zieltarife. Quellen: https://www.11880.com/suche/autoverschrottung/frankfurt ; https://web2.cylex.de/firma-home/autoverschrottung-frankfurt-am-main-14856607.html (Vorrecherche-Leads, nicht erneut live gelesen).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

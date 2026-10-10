@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Überlieferter GbR-Schrottplatz an Wittstocker Chaussee 1 mit 033962 805096 ist bislang nur durch Verzeichnisse gestützt. Eine registerbelegte Dahm & Bohnsack Handels- und Recycling GmbH existiert in Neustadt (Dosse), HRB 11108 Neuruppin, zuvor HRB 26488 Potsdam. Northdata nennt auch Heiligengrabe als Ortsbezug, beweist aber weder die GbR→GmbH-Nachfolge noch einen aktuellen Standort Wittstocker Chaussee 1. Keine automatische Umbenennung oder Verlagerung. Status `pruefung`; Legacy-Adresse/Telefon nicht aktuell bestätigt.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreisliste belegt. Offen: Betreiberkette, verbleibende Niederlassung und öffentliche Annahme.
 
 ## Timeline
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Northdata-GmbH-Profil live gelesen: Dahm & Bohnsack Handels- und Recycling GmbH, HRB 11108 Neuruppin / früher HRB 26488 Potsdam, Gewerbegebiet Ost 8, 16845 Neustadt (Dosse); weitere Ortsbezüge Heiligengrabe und Falkensee, Sitzverlegungs-Publikationen 2015, Jahresabschluss 2024 publiziert 12.03.2026. Gegenstand Schrott-/Buntmetallhandel, Recycling, Container, Transporte, Abriss, Papierankauf und Abfallannahme. Das belegt die GmbH, nicht die Identität mit Seed-GbR oder heutige Annahmestelle Heiligengrabe. Suchlead Das Örtliche nennt GmbH an alter Seedadresse; Aggregator ist kein Kettenbeleg. Kein Frontmatter geändert, keine Schließung/Umbenennung abgeleitet. ANKAUF/VERKAUF/GEBÜHREN: keine Zielpreise in den ausgewerteten Inhalten. Quellen: https://www.northdata.de/Dahm%20%26%20Bohnsack%20Handels-%20und%20Recycling%20GmbH,%20Neustadt%20(Dosse)/Amtsgericht%20Neuruppin%20HRB%2011108 ; https://www.dasoertliche.de/Themen/Dahm-Bohnsack-Handels-und-Recycling-GmbH-Heiligengrabe-Wittstocker-Chaussee (Suchlead)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

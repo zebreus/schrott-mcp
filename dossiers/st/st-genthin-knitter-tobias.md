@@ -30,6 +30,10 @@ Die Zuordnung „Knitter Tobias“ zum Schrotthandel in Genthin ist nicht verifi
 
 ## Timeline
 
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Neue Knitter/Genthin/Schrott-Abfrage ohne Resultate bestätigt keinen Schließungs-/Nichtexistenzbefund. Dorfstraße 15/39307 ohne Ortsteil ist für die Stadt mit mehreren Ortsteilen nicht eindeutig genug; Ortsteil vor Gewerbeabgleich und Geocodierung klären. Namensgleiche Privatperson oder Physiotherapie ist kein Schrottbeleg, weder positiv noch negativ. Keine Frontmatter-Füllung; ANKAUF/VERKAUF/GEBÜHREN ohne Zielpreise. Quelle: Seed und Vorrecherchen 02./06.10.; neue Suchintegration ohne belegfähigen Zieltreffer.]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Erneute Suche nach Tobias Knitter/Knitter Schrotthandel in Genthin ergab keinen belegfähigen Betreiber-, Register- oder Kommunalnachweis. Die Seed-Adresse Dorfstr. 15, 39307 bleibt unbestätigt; eine ähnlich benannte Person in Genthin ist kein Beleg für Schrotthandel. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Preislisten oder Tarife. Status pruefung und Frontmatter unverändert; Adresse vor Geocoding direkt prüfen. Quelle(n): keine neue Primärquelle; bisherige Gegenprüfung Das Örtliche/Websuche.]

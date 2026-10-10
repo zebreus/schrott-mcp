@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Decker-Autoverwertung in Dessau-Roßlau bleibt ein Identitätsklärfall: Verzeichnisse nennen Harald Decker, Neekener Straße 9B, 0340 618169, daneben Decker Autoverwertung/Autoservice, Neekener Straße 31, 0340 6610013. Weder zwei Betriebe noch Umzug/Nachfolge sind bewiesen. DEKRA und Wertstoffzentrum Dessau sind andere Betreiber. Keine Adresse/Kontakte als aktuelle Fakten übernommen.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreise belegt. Offen: Rechtsträger, Verhältnis beider Adressen und aktuelle Altfahrzeuganerkennung; KFZ-Service nicht automatisch Demontagebetrieb.
 
 ## Timeline
+
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Identitätsmatrix aus 03.10. erhalten: 9B/Harald/618169 versus 31/Autoservice/6610013. Neue gezielte Namenssuche ohne Resultate schafft keinen neuen Gegenbeleg. Kommunale Gewerbeauskunft und ggf. GESA-Demontageanerkennung zuerst auf konkreten Inhaber/Standort beziehen; DEKRA/Wertstoffzentrum und OWL-Deckers nicht zuordnen. Kein aktueller Preis-/Zulassungsnachweis; ANKAUF/VERKAUF/GEBÜHREN offen. Quellen: Vorrecherche 03.10.; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (Prüfziel, kein individuell gelesenes Suchresultat).]
 
 ### Recherche 01.10.2026
 

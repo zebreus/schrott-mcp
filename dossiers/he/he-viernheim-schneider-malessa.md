@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Das Handelsregister führt die Viernheimer Schneider & Malessa e.K. inzwischen als „Inhaberin Bettina Ringhof“ (HRA 83123); die Registeranschrift ist Am Straßenheimer Weg 4, 68519 Viernheim. Ein Registerdaten-Auszug aus GESA/Entsorgungsfachbetriebe führt dort zudem einen anerkannten Altfahrzeug-Demontagebetrieb. Das frühere OHG-Label ist historisch; Telefonnummer und Öffnungszeiten stammen nur aus Branchenverzeichnisquellen. Status bleibt `pruefung`, bis aktuelle Betriebs-/Annahmebedingungen bestätigt sind.
+Ein Registerspiegel führt Schneider & Malessa e.K., Inhaberin Bettina Ringhof (HRA 83123), Am Straßenheimer Weg 4, 68519 Viernheim. Sein sichtbarer Auszug vom 04.05.2024 dokumentiert aber nur OHG-Ereignisse, nicht die OHG→e.K.-Kette. Ein GESA-Daten-Spiegel nennt einen anerkannten Altfahrzeug-Demontagebetrieb; ein aktueller individueller GESA-Originaldatensatz wurde nicht gelesen. Inhabernachfolge und heutige Anerkennung bleiben daher ausdrücklich offen. Telefonnummer/Zeiten stammen nur aus Verzeichnissen; Domainparking beweist keine Betriebsschließung. Status `pruefung`, Frontmatter-Namensfüllung der Vorwelle nicht erneut bestätigt.
 
 **Preise (Stand 08.10.2026):** **ANKAUF** – keine veröffentlichten Fahrzeug- oder Materialpreise gefunden. **VERKAUF** – keine Teilepreisliste gefunden. **GEBÜHREN** – keine Annahme-/Entsorgungstarife gefunden; konkrete Bedingungen direkt erfragen.
 
 ## Timeline
+
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Widerspruch innerhalb Vorrecherche präzisiert: Überblicksformulierung „anerkannt“ ist als Registerspiegel-/Lead-Aussage zu lesen, nicht als am 09.10. bestätigte GESA-Zulassung. Neue Schneider/Malessa/Ringhof-Suche ohne Resultate; kein neuer Namenskettenbeleg. Aktueller Originalauszug HRA 83123 für OHG→e.K. und individuell gelesener GESA-Datensatz erforderlich; spiegelbasierte Inhaberin nicht stillschweigend als vollständig bewiesene Nachfolge behandeln. Domainparking ist keine Betriebsschließung. ANKAUF/VERKAUF/GEBÜHREN keine neu belegten Zahlen; Frontmatter unverändert. Quellen: Vorrecherche/Quellenkritik 08.10.; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (offenes Prüfziel, kein neuer Suchresultatbeleg).]
 
 ### Quellenkritische Vertiefung 08.10.2026
 

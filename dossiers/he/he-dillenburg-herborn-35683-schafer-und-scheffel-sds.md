@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schäfer und Scheffel (SDS)“ ist ein Seed-/Verzeichnisfragment ohne bestätigten Rechtsträger. Dillenburg/Herborn ist keine eindeutige Betriebsanschrift; 35683 bezeichnet den Dillenburger Kandidaten und bestätigt keinen Herborner Standort. Die Abkürzung SDS ist nicht eindeutig, allgemeine Sicherheitsdatenblatt-Treffer sind sachfremd. SUEZ ist kein Identitätsbeleg.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreisliste. Offen: originale Namensschreibweise, Auflösung SDS und Gewerbeort; keine plausible Firma aus Fragmenten konstruieren.
 
 ## Timeline
+
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Neue Suchabfrage Schäfer/Scheffel/Schrott/SDS liefert nur sachfremde Sicherheitsdatenblattseiten, keine Zielquelle. Vorrecherche 02.10. ausdrücklich ohne belegfähige Quelle; nicht als Register-Negativbeweis lesen. Dillenburg/Herborn getrennt kommunal prüfen, einschließlich Schäfer/Schaefer und Original-Seedbezeichnung. Keine Identitäts-, Kontakt- oder Preisfüllung; ANKAUF/VERKAUF/GEBÜHREN unbelegt. Quelle: eigene Suchintegration 09.10. ohne belegfähigen Zieltreffer; Seedhistorie und Vorrecherche 02.10.]
 
 ### Recherche 02.10.2026
 

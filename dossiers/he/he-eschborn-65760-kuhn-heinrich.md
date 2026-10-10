@@ -28,6 +28,10 @@ Klärfall auf Basis von Branchenbuch-Leads: 11880 führt „Heinrich Kuhn Alt- u
 
 ## Timeline
 
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Vorrecherche nennt Heinrich Kuhn Alt- und Abfallstoffe, aber keinen Primärbeleg. Neue Kuhn/Eschborn/Alt-Abfrage ohne Resultate ist kein Betriebsaufgabebeleg. An-/Verkauf von Altstoffen, kostenpflichtige Entsorgung und konkrete Metallannahme müssen getrennt geklärt werden; trader_type sonstige deshalb nicht ohne Betreiberbeleg in Schrotthandel ändern. Ortsfremde Kuhn-Recyclingbetriebe und Thorsten Kuhn nicht zuordnen. Nächster Schritt Inhaber-/Gewerbeabgleich Niddastraße 11, danach Kundentyp/Annahmebedingungen. ANKAUF/VERKAUF/GEBÜHREN keine belegten Zahlen. Quelle: Vorrecherchen 01./02.10. (11880 und weitere Verzeichnisse nur Leads); neue Suchintegration ohne Primärtreffer.]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: 11880-Eintrag verifiziert ("Heinrich Kuhn Alt- und Abfallstoffe", Niddastr. 11, 65760 Eschborn, (06196) 42561 - bestaetigt Seed-Frontmatter exakt, aber EIN Aggregator, kein Zweitbeleg); Gegenrecherche negativ: Das Oertliche (Schrotthandel/Eschborn, Altstoffe/Eschborn) kennt Kuhn nicht, Das Telefonbuch Name-Suche "Kuhn/Eschborn" ohne Heinrich-Treffer (nur Kuhn Thorsten, Mainstr. 2), kein HRB, keine Betreiber-Website (Branche Alt-/Abfallstoffe, evtl. kein klassischer Schrottankauf); website_status unbekannt; Frontmatter unveraendert, Status bleibt pruefung; Quelle(n): 11880.com 02.10.2026 (Lead), dasoertliche.de, dastelefonbuch.de (Negativbelege).]

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,21 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Stadt Prenzlau führt Autoverwertung Klinkow GbR mit Cornell Ramm, Am Quillow 38, 17291 Prenzlau/Klinkow, 03984 5701 und Mo–Fr 07–12 sowie 12:30–16. Ein kommunaler Unternehmensdatensatz, kein aktueller Gewerbe-/Zulassungsauszug. Unabhängiger README-konformer Zweitbeleg fehlt; bisheriger Seedstatus `aktiv` war keine bestätigte aktuelle Anerkennung und wird am 10.10. wegen Beleglücke auf `pruefung` gesetzt, nicht auf `geschlossen`. Keine Kontakte/Zeiten freigegeben. Kia-März-2026-Suchauszug und kommunal benannte Social-Profile sind zusätzliche Prüfziele, kein Aktivpass.
+
+Die Metallhandel & Containerdienst Ramm GmbH an Stettiner Straße 79 ist nicht automatisch GbR-Nachfolger. **ANKAUF:** keine Zielpreise. **VERKAUF:** gebrauchte Autoersatzteile laut Kommune, ohne Preise. **GEBÜHREN:** keine Zieltarife. Zwei Preislistenüberschriften der GmbH ohne abrufbare Zahlen gehören nicht ohne Kettenbeleg hierher.
 
 ## Timeline
+
+### Gegenprüfung und Ownerkorrektur 10.10.2026
+
+- [Korrektur 10.10.2026: Ownerentscheidung status aktiv→pruefung wegen fehlender aktueller README-konformer Betreiber-/Annahmebestätigung; keine Schließung und kein Nichtexistenzurteil. Kommunales Unternehmensverzeichnis am 10.10. live bestätigt GbR, Cornell Ramm, Am Quillow 38, 03984 5701, Mo–Fr 07–12/12:30–16 sowie Annahme Altfahrzeuge/Teileverkauf, ist aber kein ausgewiesener Gewerberegisterauszug. Kein qualifizierter unabhängiger Zweitbeleg und kein individuell gelesener aktueller GESA-Anerkennungsdatensatz. Andere Frontmatter-Felder und Slug unverändert; keine Legacyfreigabe. Quelle: https://www.prenzlau.eu/cms/detail.php/brandenburg_06.c.835762.de]
+- [Recherche 10.10.2026: Eigene Suche findet Kia-Rücknahmestellenliste März 2026; ausschließlich Suchauszug gelesen: Autoverwertung Klinkow GbR, Am Quillow 38, 17291 Klinkow, 03984/5701, Herr & Frau Ramm, autoverwertung-klinkow@t-online.de. Vertragliches Standortindiz, keine individuell gelesene aktuelle GESA-Anerkennung und kein automatischer Zweitbeleg aus der README-Liste; kein Aktivpass/Kontakt-Fill. Kommune nennt Facebook „Autoverwertung Klinkow GbR“ und Instagram av_klinkow als Betreiber-Social-Prüfziele; direkter Instagram-Abruf nur Bild-/Login-Inhalt ohne verwertbare Profilidentität. Aus E-Mail-Domain abgeleitetes Website-Prüfziel autoverwertung-klinkow.de mit Transportfehler, kein Schließungsbeleg. Quellen: https://www.kia.com/content/dam/kwcms/kme/de/de/assets/contents/service/recycling/Kia_Uebersicht-Annahmestellen_Maerz-2026.pdf (Suchauszug, kein PDF-Vollabruf) ; https://www.prenzlau.eu/cms/detail.php/brandenburg_06.c.835762.de ; https://www.instagram.com/av_klinkow/ ; https://www.autoverwertung-klinkow.de/]
+- [Recherche 10.10.2026: Ramm-GmbH-Downloadseite zusätzlich als HTML live gelesen: beide Preislistenüberschriften stehen in bloßen p-Texten ohne a-href; nur Zertifikat besitzt PDF-Link. Keine Preisdatei an diesen Überschriften im ausgelieferten HTML, nicht bloß Markdown-Extraktionsgrenze. GmbH-Stettiner-Straße/Telefon und Zertifikat nicht ohne Betreiberkettenbeleg der GbR zuordnen. ANKAUF/VERKAUF/GEBÜHREN keine verifizierten Zielpreise. Quelle: https://www.mcr-ramm.de/unsere-zertifikate]
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Kommunalprofil erneut live gelesen; GbR-Name, Cornell Ramm, Am Quillow 38, 03984 5701, Annahme Altfahrzeuge, Teileverkauf und geteilte Mo–Fr-Zeiten weiter sichtbar. Obfuskierte E-Mail im Textabruf nicht als neue Kontaktbestätigung verwendet. GmbH-Downloads erneut gelesen: „Aktuelle Preisliste für Abfälle“ und „Aktuelle Preisliste für MS+Buntmetall“ weiter nur Überschriften, keine Werte/Preislinks im ausgelieferten Markdown. Nicht zu GbR, Gebühren oder Ankaufpreisen umdeuten. Frontmatter unverändert; offen: unabhängiger Betreiberbeleg, aktuelle Demontageanerkennung und ggf. rechtliche Nachfolge. Quellen: https://www.prenzlau.eu/cms/detail.php/brandenburg_06.c.835762.de ; https://www.mcr-ramm.de/unsere-zertifikate]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

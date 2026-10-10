@@ -28,6 +28,10 @@ Die Seedadresse Möckernstr. 139, 10963 Berlin wird in Verzeichnissen mit der ge
 
 ## Timeline
 
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Vorrecherche 08.10. bleibt generische Dienstleistungsbezeichnung mit Verzeichnis-Kontaktleads; neue Suche Schrott/Altmetall-Abholung/Möckern ohne Resultate ist kein Existenznegativbeleg. Zemanbach@gmail.com liefert allein weder Inhaber noch Rechtsform. Möckernstraße 139 kann Kontakt-/Privatanschrift sein; keine öffentliche Abgabestelle oder erlaubte Abholung daraus ableiten. Betreibername/Gewerbeauskunft Kreuzberg zuerst klären und Varianten nicht als mehrere Händler zählen. ANKAUF/VERKAUF/GEBÜHREN weiterhin unbelegt, insbesondere keine kostenlose Abholung unterstellen. Quelle: https://www.gelbeseiten.de/gsbiz/ae995147-4089-44c8-8e94-15a6996a6d7d (Vorrecherche/Lead, kein neuer Live-Abruf).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Wiederholte Websuche findet weiter Drittanbieterprofile für "Schrott und Altmetall Abholung" an Möckernstr. 139, 10963 Berlin; Suchmachinenauskunft zeigt 0155 10713536, Gelbe Seiten/YellowMap weitere Profilvarianten. Kein zuordenbares Betreiber-Impressum, Register-/Kommunalbeleg oder Betreiber-Website gefunden; Varianten können Dubletten sein. Keine Kontaktdaten übernommen und keine Geocodierung, da Betriebsstätte unbestätigt. **Preise:** keine Ankaufspreise, Verkaufspreisliste oder Gebühren gefunden. Quelle(n): https://www.gelbeseiten.de/gsbiz/ae995147-4089-44c8-8e94-15a6996a6d7d ; https://www.yellowmap.de/Details/LS7agu2D8hzjjs7Ouq_p0g==.aspx ; https://suchmaschinenauskunft.com/dienstleistungen-handwerk/berlin/schrott-und-altmetall-abholung]

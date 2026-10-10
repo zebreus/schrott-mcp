@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+METALLWELT an Friedlebenstraße 50 mit 0176 41669708 ist ein 11880-/Seedlead ohne bestätigten Rechtsträger oder öffentliche Annahme. metallwelt.eu wurde bereits als Dachprofile-Hersteller abgegrenzt und ist nicht ohne Identitätsbeleg zuzuordnen. Anschrift/Telefon im Frontmatter sind historische Verzeichniswerte, keine aktuelle Primärbestätigung.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreisliste belegt. Offen: Inhaber, PLZ, Metallhandel versus Herstellung/Verkauf sowie Annahme-/Abholbedingungen.
 
 ## Timeline
+
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Neue exakte Suche METALLWELT/Friedleben ohne Resultate; nur Discovery-Grenze, kein Schließungsnachweis. Seed erklärt selbst die Nichtzuordnung metallwelt.eu; Dachprofil-Verkaufspreise wären kein Frankfurter Schrottankauf. Mobilnummer und Anschrift nicht als neuen Beleg zählen. Gewerbeabgleich Frankfurt unter Handelsbezeichnung und Inhaber nötig; keine PLZ aus Ortswissen ergänzen. ANKAUF/VERKAUF/GEBÜHREN unbelegt. Quelle: importierte Seednotiz 30.09.2026 (11880-Verzeichnis, kein aktueller Betreiberbeleg); neue Suchintegration ohne Zielquelle.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

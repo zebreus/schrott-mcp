@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metall Recycling Winterstein in Neu-Isenburg ist bislang nur ein Seedname ohne bestätigte Adresse/Betreiberidentität. Gleichnamige Schrotthändler in Alsfeld oder Wiesbaden sind keine Belege für diesen Ort. Der ältere Verzeichnis-Negativbefund und eine neue erfolglose Namenssuche reichen weder für Schließung noch für Nichtexistenz.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreisliste. Offen: Inhabervorname, Gewerbeanschrift und ggf. mobile Tätigkeit; keine fremde Winterstein-Website zuordnen.
 
 ## Timeline
+
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Winterstein/Neu-Isenburg/Metall-Suche ohne Resultate; Discovery-Grenze, kein Existenznegativbeleg. Vorrecherche 01.10. enthält nur eine 11880-Negativsuche, keine belastbare Primärquelle. Alsfeld/Wiesbaden weiter strikt getrennt halten. Gewerbeabgleich Neu-Isenburg mit Inhabervorname nötig, bevor Adress-/Preisrecherche sinnvoll zuordenbar ist. Frontmatter unverändert; ANKAUF/VERKAUF/GEBÜHREN unbelegt. Quelle: https://www.11880.com/suche/winterstein/neu-isenburg (alte Lead-/Negativsuche, kein neuer Live-Beleg).]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

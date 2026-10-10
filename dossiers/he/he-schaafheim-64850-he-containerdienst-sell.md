@@ -30,6 +30,10 @@ Mehrere weitere Sell-Kandidaten in Schaafheim: Charlie/Sascha Sell Im Herrngarte
 
 ## Timeline
 
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Vorhandene Sell-Identitätsmatrix aus 08.10. fortgeführt, nicht als neuer Live-Beleg ausgegeben. Neue Suche Containerdienst Sell/Schaafheim ohne Resultate ist kein Schließungsnachweis. Ziegelei-Inhaber weiterhin zuerst klären; Rudolf Sell/Babenhäuser Straße 28, Charlie/Sascha Sell/Im Herrngarten sowie Kitzingen nicht vermischen. Hausnummer 11/11a und Mobilnummer bleiben Legacy-Kandidaten. ANKAUF/VERKAUF/GEBÜHREN keine Zielpreise; Containerleistung beweist keinen bezahlten Metallankauf. Quelle: Vorrecherche 08.10. mit dortigen Verzeichnis-/Creditreform-Leads; neue Suchintegration ohne Zieltreffer.]
+
 ### Evidenzprüfung 08.10.2026 (Welle Mittenordost)
 
 - Identitätsmatrix der Vorrecherche beibehalten: Ziegelei 11a/11 + 0174 3576196 ist nicht durch den Creditreform-Kandidaten Rudolf Sell, Babenhäuser Straße 28, bestätigt. Charlie/Sascha Sell Im Herrngarten und Sell Recycling Kitzingen bleiben getrennte Kandidaten; keine Familien-/Nachfolgekette aus gleichem Nachnamen ableiten. Keine neue Primärbestätigung für den Zielstandort. Vorrecherche/Leads: https://www.gelbeseiten.de/gsbiz/60a0aa11-a544-4ea0-b84c-fc8903cb86e6 ; https://firmeneintrag.creditreform.de/64850/6210244614/RUDOLF_SELL_CONTAINERDIENST_ROHSTOFF_UND_KRAFTFAHRZEUGHANDEL

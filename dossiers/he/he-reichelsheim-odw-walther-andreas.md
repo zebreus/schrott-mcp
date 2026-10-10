@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Vorrecherche vom 07.10. quellenkritisch fortgeführt: fehlender Northdata-Treffer beweist keine fehlende Gewerbetätigkeit eines Einzelunternehmers. Neue gezielte Suchabfrage Walther/Andreas/Reichelsheim/Schrott ohne Resultate, nur Discovery-Grenze. Nicht mit dem anders geschriebenen Walter oder dem gleichnamigen Reichelsheim in der Wetterau verbinden. Offen: Ortsteil und vollständiger Gewerbename über Gemeinde Reichelsheim/Odenwald; danach Betreiber-/Annahmebeleg. Keine neuen Kontaktdaten oder Preise; ANKAUF/VERKAUF/GEBÜHREN unbelegt. Quelle: Vorrecherche 07.10. mit dort dokumentierter Northdata-Such-URL; neue Suchintegration ohne belegfähigen Treffer.]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Die NorthData-Suche nach „Walther Andreas Reichelsheim Odenwald Schrotthandel“ lieferte kein eindeutig passendes Firmenprofil. Das schließt ein nicht eingetragenes Einzelunternehmen nicht aus und beweist keine Betriebsaufgabe. Seed-Name und Ort bleiben Klärfall; keine Adresse/Kontaktdaten übernommen. ANKAUF: unbelegt/keine numerische Preisliste; VERKAUF: keine Liste gefunden; GEBÜHREN: keine Angaben in den ausgewerteten Quellen. Offen: Ortsteil, Gewerbe-/Betreiberbeleg und tatsächlicher Leistungsumfang; Quelle: https://www.northdata.de/?query=Walther%20Andreas%20Reichelsheim%20Odenwald%20Schrotthandel]

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Gerhardt August“ ist ein unbestätigter Kleinst-Schrotthändler-Lead für Zwingenberg/Bergstraße. Hohl 27a, 64673 stammt aus Verzeichnissen, nicht aus Betreiber-/Gewerbequellen; Frontmatter bewusst nicht ergänzt. Neue Namenssuche am 09.10. ohne Resultate ist kein Schließungsbeleg. Schreibvarianten Gerhardt/Gerhard und Namensreihenfolge zuerst klären, außerdem vom baden-württembergischen Zwingenberg abgrenzen.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine zuordenbare Liste belegt. Offen: aktueller Inhaber, Gewerbeanschrift und öffentliche Annahme.
 
 ## Timeline
+
+### Einordnung 09.10.2026
+
+- [Recherche 09.10.2026: Verzeichnis-Leads der Notiz 04.10. als Leads eingeordnet, nicht erneut als Primärbelege gezählt. Gezielte Suche nach Gerhardt August/Zwingenberg ohne Resultate; keine Aussage über Betriebsaufgabe. Hohl 27a bleibt Kandidat. Nächster Prüfschritt Gewerbeabgleich Zwingenberg/Bergstraße mit Schreibvarianten und Inhabervorname; bis dahin keine Füllung/Geocodierung. ANKAUF/VERKAUF/GEBÜHREN keine belegten Zahlen. Quelle: https://www.schrottplatz.org/zwingenberg/schrott-gerhardt-august-aYEPvf.html (Vorrecherche/Lead, nicht neu live geprüft).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

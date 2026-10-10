@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hofmann Metall GmbH bestätigt die Kleinannahmestelle Bahnhofstraße 5, **08144 Hirschfeld in Sachsen**, nicht Brandenburg. Hauptsitz Zwickau widerlegt diese Niederlassung nicht. Vorrecherche vom 04.10. belegt Betreiber/Filiale ausführlich; geografische BB-Zuordnung bleibt explizites Owner-Gate, Slug stabil halten. Keine sächsischen Kontakte stillschweigend in den widersprüchlichen BB-Datensatz importieren.
+
+Detailseite am 09.10.: Mo–Fr 07–16, länger/Samstag nach Absprache, Pausen 09–09:30 und 12–12:30. Der Zeitenkonflikt bleibt bestehen: Impressum-/Privatkunden-Footer am 10.10. nennt Mo–Do 07–16:30, Fr 07–16. Keine Öffnungszeitenübernahme. BB→SN sowie Adress-/Kontaktdatenkorrektur bleiben ein konkretes separates Identitätsgate; diesmal keine Stammdatenkorrektur. **ANKAUF:** keine standortspezifische Zahlenliste; BDSV/Börsenwerte sind keine Händlerpreise. **VERKAUF / GEBÜHREN:** keine Zieltarife belegt.
 
 ## Timeline
+
+### Gegenprüfung und Owner-Gate 10.10.2026
+
+- [Korrektur 10.10.2026: Der 09.10.-Befund ohne abweichenden Footer bezieht sich nur auf den extrahierten Standortdetail-Abruf, nicht auf den gesamten Betreiberauftritt. Eigenständige Live-Gegenprüfung am 10.10. reproduziert im Impressum und auf der Privat-/Kleingewerbeseite weiterhin den Hirschfeld-Footer Mo–Do 07–16:30, Fr 07–16, Samstag nach Absprache; Standortdetail nennt Mo–Fr 07–16. Beide nennen Pausen 09–09:30 und 12–12:30. Detail-Mail hirschfeld@hofmann-metall.de versus Footer info@hofmann-metall.de ebenfalls nicht durch Mehrheitszählung auflösen. KEINE Öffnungszeitenübernahme. Ownerentscheidung: BB→SN, PLZ-/Adress- und Kontaktdatenkorrektur diesmal nicht ausführen; konkretes separates Identitätsgate für Zuordnung des vorhandenen Namens/Bahnhofstraße-5-Leads zum sächsischen Betriebsteil, Slug stabil. Frontmatter vollständig unverändert. Quellen: https://www.hofmann-metall.de/standort/hirschfeld/ ; https://www.hofmann-metall.de/impressum/ ; https://www.hofmann-metall.de/privat-kleingewerbekunden/ ; https://www.northdata.de/Hofmann%20Metall%20GmbH,%20Zwickau/Amtsgericht%20Chemnitz%20HRB%205475]
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Standortdetail erneut live gelesen: Bahnhofstraße 5, 08144 Hirschfeld; Büro 037607 5531, Mobil 0172 3761211, hirschfeld@hofmann-metall.de; Privat-/Kleingewerbe-Wiedereröffnung 2004. Detailzeiten unverändert Mo–Fr 07–16 mit zwei Pausen, länger/Samstag nach Absprache. Der aktuelle extrahierte Footer enthält keine abweichenden Hirschfeld-Zeiten mehr; das präzisiert die alte Widerspruchsnotiz, ersetzt keine direkte Zeitenbestätigung. BB/SN-Zuordnung und Seed-Freigabe weiter beim Owner; Frontmatter unverändert. ANKAUF/VERKAUF/GEBÜHREN: auf dieser Detailseite keine Zahlen. Quelle: https://www.hofmann-metall.de/standort/hirschfeld/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
