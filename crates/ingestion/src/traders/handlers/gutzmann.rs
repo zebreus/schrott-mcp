@@ -119,9 +119,10 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     }
 }
 
-/// Bespoke contact extraction for THIS impressum only: the `<p>` after
-/// the "Angaben gemäß § 5 TMG:" heading holds firm + street + PLZ city,
-/// and the paragraphs after the "Kontakt:" heading carry labeled
+/// Bespoke contact extraction for THIS impressum only. Its address is
+/// the legal headquarters in Tottleben, not this handler's Gotha yard.
+/// Never enrich branch address fields from it. Paragraphs after "Kontakt:"
+/// carry labeled
 /// Telefon/E-Mail lines. Missing anchors → loud error, never a fallback.
 fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
@@ -130,38 +131,12 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let anchor = doc
         .select(&h3)
         .find(|h| h.text().collect::<String>().trim() == "Angaben gemäß § 5 TMG:");
-    let Some(anchor) = anchor else {
+    let Some(_) = anchor else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "Angaben-Block fehlt".to_owned(),
         });
     };
-    // Address lines: first <p> sibling after the heading.
-    let addr_p = anchor
-        .next_siblings()
-        .filter_map(ElementRef::wrap)
-        .find(|e| e.value().name() == "p");
-    let mut lines = Vec::new();
-    if let Some(p) = addr_p {
-        for part in p.inner_html().split("<br") {
-            let t = strip_fragment(part);
-            if !t.is_empty() {
-                lines.push(t);
-            }
-        }
-    }
-    let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
-    if lines.len() >= 2 {
-        let last = lines.last().expect("len checked");
-        let mut it = last.split_whitespace();
-        if let (Some(pc), Some(ci)) = (it.next(), it.next()) {
-            if pc.len() == 5 && pc.chars().all(|c| c.is_ascii_digit()) {
-                postcode = pc.to_owned();
-                city = it.fold(ci.to_owned(), |a, b| a + " " + b);
-                street = lines[lines.len() - 2].clone();
-            }
-        }
-    }
     // Labeled contact lines after the "Kontakt:" heading.
     let kontakt = doc
         .select(&h2)
@@ -205,16 +180,16 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         }
         el = node.next_sibling();
     }
-    if street.is_empty() && phone.is_empty() && email.is_empty() {
+    if phone.is_empty() && email.is_empty() {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
     Ok(TraderInfo {
-        street,
-        postcode,
-        city,
+        street: String::new(),
+        postcode: String::new(),
+        city: String::new(),
         phone,
         email,
     })
@@ -381,13 +356,20 @@ mod tests {
             <h2>Kontakt:</h2><p>Telefon: +49(0)03621 733 4660<br />Telefax: +49(0)3603 39 84 315</p>\
             <p>E-Mail: info@sdm-gutzmann.de</p>";
         let info = extract_info(imp).expect("parses");
-        assert_eq!(info.street, "Hauptstraße 46");
-        assert_eq!(info.postcode, "99947");
-        assert_eq!(info.city, "Tottleben");
+        // This handler owns Gotha, not the legal headquarters in Tottleben.
+        assert!(info.street.is_empty());
+        assert!(info.postcode.is_empty());
+        assert!(info.city.is_empty());
         assert_eq!(info.phone, "+49(0)03621 733 4660");
         assert_eq!(info.email, "info@sdm-gutzmann.de");
         assert!(extract_info("<h3>Anderes</h3>").is_err());
         assert!(extract_info("<h3>Angaben gemäß § 5 TMG:</h3><p>x</p>").is_err());
+        // An address alone must not masquerade as successful branch enrichment.
+        assert!(extract_info(
+            "<h3>Angaben gemäß § 5 TMG:</h3><p>Hauptstraße 46<br>99947 Tottleben</p>\
+             <h2>Kontakt:</h2><p>Telefax: 03603 39 84 315</p>"
+        )
+        .is_err());
     }
 
     #[test]
