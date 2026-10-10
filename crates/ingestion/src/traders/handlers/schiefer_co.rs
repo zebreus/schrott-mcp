@@ -40,7 +40,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
         match grade_for(&symbol) {
             Some((material, variant)) => prices.push(ScrapedPrice {
                 material,
-                variant,
+                variant: variant.into(),
                 price,
                 currency: "EUR",
                 unit,

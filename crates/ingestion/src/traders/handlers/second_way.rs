@@ -43,7 +43,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 let (price_kind, confidence) = kind_for(&label);
                 prices.push(ScrapedPrice {
                     material,
-                    variant,
+                    variant: variant.into(),
                     price,
                     currency: "EUR",
                     unit,

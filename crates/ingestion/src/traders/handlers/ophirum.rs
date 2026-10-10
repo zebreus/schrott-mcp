@@ -98,7 +98,7 @@ async fn scrape_branch(
         match grade_for(&label) {
             Some((material, variant)) => prices.push(ScrapedPrice {
                 material,
-                variant,
+                variant: variant.into(),
                 price,
                 currency: "EUR",
                 unit,

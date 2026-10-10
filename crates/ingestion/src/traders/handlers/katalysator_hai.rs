@@ -43,7 +43,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
         match grade_for(&label) {
             Some(material) => prices.push(ScrapedPrice {
                 material,
-                variant: converter_variant(&marke, &merkmal),
+                variant: converter_variant(&marke, &merkmal).into(),
                 price,
                 currency: "EUR",
                 unit,
@@ -82,13 +82,9 @@ fn grade_for(_label: &str) -> Option<&'static str> {
     Some("katalysatoren")
 }
 
-/// Per-converter variant ("Audi 8D0131701BS"). `ScrapedPrice.variant` is
-/// `&'static str` while converter identities are page data, so each
-/// identity is interned once via `Box::leak` — bounded (one small alloc
-/// per table row per run), and the only way to keep 25 grades from
-/// collapsing onto a single arbitrary current price.
-fn converter_variant(marke: &str, merkmal: &str) -> &'static str {
-    Box::leak(format!("{marke} {merkmal}").into_boxed_str())
+/// Owned per-converter variant ("Audi 8D0131701BS") from page data.
+fn converter_variant(marke: &str, merkmal: &str) -> String {
+    format!("{marke} {merkmal}")
 }
 
 /// Parse the converter table: the `<table>` whose header names

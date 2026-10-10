@@ -310,7 +310,7 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
                 .push(label.clone());
             out.prices.push(ScrapedPrice {
                 material,
-                variant,
+                variant: variant.into(),
                 price,
                 currency: "EUR",
                 unit: "EUR/kg",
@@ -404,8 +404,12 @@ mod tests {
             let mid = public.find_material_id(p.material).unwrap().unwrap();
             snapshot.push_str(&format!(
                 "{:?}{:?}",
-                public.current_price_for(tid, mid, p.variant).unwrap(),
-                public.price_history(tid, mid, p.variant, 100).unwrap()
+                public
+                    .current_price_for(tid, mid, p.variant.as_ref())
+                    .unwrap(),
+                public
+                    .price_history(tid, mid, p.variant.as_ref(), 100)
+                    .unwrap()
             ));
         }
         for a in &out.acceptances {
@@ -540,8 +544,11 @@ mod tests {
             .acceptances
             .iter()
             .all(|a| a.conditions.contains(EXCLUSION) && a.conditions.contains(RESERVATION)));
-        let unique: std::collections::HashSet<_> =
-            out.prices.iter().map(|p| (p.material, p.variant)).collect();
+        let unique: std::collections::HashSet<_> = out
+            .prices
+            .iter()
+            .map(|p| (p.material, p.variant.as_ref()))
+            .collect();
         assert_eq!(unique.len(), out.prices.len());
         let cpu = out
             .prices
@@ -594,7 +601,7 @@ mod tests {
         assert_eq!(
             out.prices
                 .iter()
-                .map(|p| (p.variant, p.material, p.price))
+                .map(|p| (p.variant.as_ref(), p.material, p.price))
                 .collect::<Vec<_>>(),
             vec![
                 ("Leiterplatten Kl. 1A", "platinen", 15.0),
@@ -823,7 +830,9 @@ mod tests {
         let tid = public.find_trader_id(SLUG).unwrap().unwrap();
         for price in &out.prices {
             let mid = public.find_material_id(price.material).unwrap().unwrap();
-            let history = public.price_history(tid, mid, price.variant, 10).unwrap();
+            let history = public
+                .price_history(tid, mid, price.variant.as_ref(), 10)
+                .unwrap();
             assert_eq!(history.len(), 1, "{}", price.variant);
             let stored = &history[0];
             assert_eq!(stored.price, price.price);

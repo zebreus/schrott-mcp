@@ -274,7 +274,7 @@ fn parse_text(text: &str, url: &str) -> Result<HandlerOutcome, IngestError> {
             }
             out.prices.push(ScrapedPrice {
                 material,
-                variant,
+                variant: variant.into(),
                 price,
                 currency: "EUR",
                 unit: "EUR/kg",
@@ -377,8 +377,11 @@ mod tests {
         assert_eq!(find("batterien-blei", "Autobatterien"), 0.275);
         assert_eq!(find("zinn", "Sammelzinn"), 5.0);
         assert_eq!(find("aluminium-gemischt", "Draht ohne Anhaftungen"), 1.95);
-        let keys: std::collections::HashSet<_> =
-            out.prices.iter().map(|p| (p.material, p.variant)).collect();
+        let keys: std::collections::HashSet<_> = out
+            .prices
+            .iter()
+            .map(|p| (p.material, p.variant.as_ref()))
+            .collect();
         assert_eq!(keys.len(), out.prices.len());
         assert!(!out
             .prices

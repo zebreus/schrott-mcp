@@ -137,7 +137,7 @@ fn build_prices(
         match grade_for(&label) {
             Some((material, variant)) => prices.push(ScrapedPrice {
                 material,
-                variant,
+                variant: variant.into(),
                 price,
                 currency: "EUR",
                 unit,
@@ -579,7 +579,7 @@ mod tests {
             .filter(|p| p.material == "mischschrott")
             .collect();
         assert_eq!(iron.len(), 3);
-        let mut variants: Vec<_> = iron.iter().map(|p| p.variant).collect();
+        let mut variants: Vec<_> = iron.iter().map(|p| p.variant.as_ref()).collect();
         variants.sort_unstable();
         variants.dedup();
         assert_eq!(variants.len(), 3);

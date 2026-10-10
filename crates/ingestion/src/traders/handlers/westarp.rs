@@ -48,11 +48,10 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     for (label, tier, price) in rows {
         match grade_for(&label) {
             Some((material, grade)) => {
-                let variant: &'static str = if grade.is_empty() {
-                    tier
+                let variant = if grade.is_empty() {
+                    std::borrow::Cow::Borrowed(tier)
                 } else {
-                    // Bounded: one small alloc per live row (fairkat-Präzedenz).
-                    Box::leak(format!("{grade} / {tier}").into_boxed_str())
+                    std::borrow::Cow::Owned(format!("{grade} / {tier}"))
                 };
                 prices.push(ScrapedPrice {
                     material,

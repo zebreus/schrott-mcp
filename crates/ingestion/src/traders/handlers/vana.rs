@@ -55,7 +55,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 };
                 prices.push(ScrapedPrice {
                     material,
-                    variant,
+                    variant: variant.into(),
                     price: max,
                     currency: "EUR",
                     unit,

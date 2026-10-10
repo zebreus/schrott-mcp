@@ -47,7 +47,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
         };
         prices.push(ScrapedPrice {
             material: "zinn",
-            variant: "90-95%",
+            variant: "90-95%".into(),
             price,
             currency: "EUR",
             unit: "EUR/kg",
@@ -480,7 +480,7 @@ mod tests {
         use super::super::super::ScrapedPrice;
         let row = |kind: &'static str, label: &str| ScrapedPrice {
             material: "zinn",
-            variant: "90-95%",
+            variant: "90-95%".into(),
             price: 28.0,
             currency: "EUR",
             unit: "EUR/kg",

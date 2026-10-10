@@ -148,7 +148,7 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
         }
         out.prices.push(ScrapedPrice {
             material,
-            variant,
+            variant: variant.into(),
             price,
             currency: "EUR",
             unit: "EUR/t",
@@ -235,7 +235,7 @@ mod tests {
         );
         let mut keys = std::collections::HashSet::new();
         for price in &out.prices {
-            assert!(keys.insert((price.material, price.variant)));
+            assert!(keys.insert((price.material, price.variant.as_ref())));
         }
         assert_eq!(
             grade_for("Bleibatterien / Starterbatterien"),

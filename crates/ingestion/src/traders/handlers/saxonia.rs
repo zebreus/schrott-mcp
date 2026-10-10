@@ -168,7 +168,7 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
             }
             out.prices.push(ScrapedPrice {
                 material,
-                variant: "",
+                variant: "".into(),
                 price,
                 currency: "EUR",
                 unit: "EUR/g",

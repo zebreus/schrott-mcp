@@ -340,7 +340,7 @@ mod tests {
         let out = HandlerOutcome {
             prices: vec![ScrapedPrice {
                 material: "ram",
-                variant: "Goldkante",
+                variant: "Goldkante".into(),
                 price: 70.0,
                 currency: "EUR",
                 unit: "EUR/kg",
@@ -412,7 +412,7 @@ mod tests {
             Ok(HandlerOutcome {
                 prices: vec![ScrapedPrice {
                     material: "nope-not-a-material",
-                    variant: "",
+                    variant: "".into(),
                     price: 1.0,
                     currency: "EUR",
                     unit: "EUR/kg",

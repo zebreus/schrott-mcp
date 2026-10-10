@@ -83,7 +83,7 @@ fn prices_from_rows(rows: Vec<PriceRow>, skipped_labels: &mut Vec<String>) -> Ve
         if let Some(price) = row.mit {
             prices.push(ScrapedPrice {
                 material,
-                variant: mit_variant,
+                variant: mit_variant.into(),
                 price,
                 currency: "EUR",
                 unit: row.unit,
@@ -97,7 +97,7 @@ fn prices_from_rows(rows: Vec<PriceRow>, skipped_labels: &mut Vec<String>) -> Ve
         if let Some(price) = row.ohne {
             prices.push(ScrapedPrice {
                 material,
-                variant: ohne_variant,
+                variant: ohne_variant.into(),
                 price,
                 currency: "EUR",
                 unit: row.unit,
@@ -452,8 +452,10 @@ mod tests {
         let (_, rows, mut skips) = parse(html).expect("live table shape");
         let prices = super::prices_from_rows(rows, &mut skips);
         assert!(skips.is_empty());
-        let keys: std::collections::HashSet<_> =
-            prices.iter().map(|p| (p.material, p.variant)).collect();
+        let keys: std::collections::HashSet<_> = prices
+            .iter()
+            .map(|p| (p.material, p.variant.as_ref()))
+            .collect();
         assert_eq!(
             keys.len(),
             prices.len(),
@@ -461,7 +463,7 @@ mod tests {
         );
         let actual: Vec<_> = prices
             .iter()
-            .map(|p| (p.material, p.variant, p.price, p.unit))
+            .map(|p| (p.material, p.variant.as_ref(), p.price, p.unit))
             .collect();
         assert_eq!(
             actual,

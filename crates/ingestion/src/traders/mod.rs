@@ -27,6 +27,7 @@
 pub mod handlers;
 pub mod scheduler;
 
+use std::borrow::Cow;
 use std::future::Future;
 use std::pin::Pin;
 
@@ -103,7 +104,8 @@ pub struct ScrapedPrice {
     pub material: &'static str,
     /// The trader's own sub-grade (`''` = standard grade). Two grades at
     /// different prices must never collapse into one material row.
-    pub variant: &'static str,
+    /// Static mappings borrow; identities parsed from page data own their text.
+    pub variant: Cow<'static, str>,
     pub price: f64,
     pub currency: &'static str,
     pub unit: &'static str,
@@ -307,9 +309,10 @@ pub async fn record(
         std::collections::HashMap::new();
     for p in &outcome.prices {
         if let Ok(Some(mid)) = public.find_material_id(p.material) {
-            let key = (mid, p.variant.to_owned());
+            let key = (mid, p.variant.as_ref().to_owned());
             if !before.contains_key(&key) {
-                if let Ok(Some(cur)) = public.current_price_for(trader_id, mid, &p.variant) {
+                if let Ok(Some(cur)) = public.current_price_for(trader_id, mid, p.variant.as_ref())
+                {
                     before.insert(key, cur);
                 }
             }
@@ -344,7 +347,7 @@ pub async fn record(
         let explicit_published_at = outcome.published_at.as_deref();
         let inferred_published_at = if explicit_published_at.is_none()
             && before
-                .get(&(material_id, p.variant.to_owned()))
+                .get(&(material_id, p.variant.as_ref().to_owned()))
                 .is_some_and(|previous| {
                     same_mapping_version(previous)
                         && comparable_price_changed(
@@ -376,7 +379,7 @@ pub async fn record(
         match public.record_price(&schrott_mcp_store::NewPrice {
             trader_id,
             material_id,
-            variant: &p.variant,
+            variant: p.variant.as_ref(),
             price,
             currency: p.currency,
             unit: &unit,
@@ -399,7 +402,7 @@ pub async fn record(
                 recorded += 1;
                 // Jump canary against the pre-write snapshot (same
                 // currency+unit only — anything else is not comparable).
-                if let Some(previous) = before.get(&(material_id, p.variant.to_owned())) {
+                if let Some(previous) = before.get(&(material_id, p.variant.as_ref().to_owned())) {
                     if previous.currency == p.currency
                         && previous.unit == unit
                         && previous.price > 0.0
@@ -658,7 +661,7 @@ mod tests {
                 prices: (0..10)
                     .map(|i| ScrapedPrice {
                         material: "kupfer-millberry",
-                        variant: if i % 2 == 0 { "a" } else { "b" },
+                        variant: (if i % 2 == 0 { "a" } else { "b" }).into(),
                         price: 9.8,
                         currency: "EUR",
                         unit: "EUR/kg",
@@ -768,6 +771,176 @@ mod tests {
     }
 
     #[tokio::test]
+    async fn owned_and_borrowed_variants_keep_current_identity() {
+        use std::borrow::Cow;
+
+        use super::{HandlerOutcome, ScrapedPrice};
+        use schrott_mcp_store::{InternalDb, NewMaterial, NewTrader, PublicDb};
+
+        let dir = crate::test_support::TempDbDir::new("owned-variant");
+        let public = PublicDb::open(dir.path()).expect("public db");
+        let internal = InternalDb::open(dir.path()).expect("internal db");
+        let initial_at = "2026-10-10T10:00:00+00:00";
+        public
+            .upsert_trader(&NewTrader {
+                slug: "owned-variant-test",
+                name: "Owned variant test",
+                trader_type: "schrotthaendler",
+                description: "",
+                street: "",
+                postcode: "",
+                city: "Gotha",
+                state: "TH",
+                country: "DE",
+                lat: None,
+                lon: None,
+                phone: "",
+                email: "",
+                website: "",
+                website_status: "unbekannt",
+                website_checked_at: "",
+                opening_hours: "",
+                dropoff_json: "{}",
+                pickup_json: "{}",
+                min_quantity_kg: None,
+                max_quantity_kg: None,
+                certifications: None,
+                status: "aktiv",
+                notes: "",
+                extra_json: "{}",
+                now: initial_at,
+            })
+            .expect("trader");
+        public
+            .upsert_material(&NewMaterial {
+                slug: "kupfer-gemischt",
+                name_de: "Kupfer gemischt",
+                category: "nichteisen",
+                unit: "EUR/kg",
+                description: "",
+                updated_at: initial_at,
+            })
+            .expect("material");
+        let tid = public
+            .find_trader_id("owned-variant-test")
+            .unwrap()
+            .unwrap();
+        let mid = public.find_material_id("kupfer-gemischt").unwrap().unwrap();
+        let row = |variant: Cow<'static, str>, price| ScrapedPrice {
+            material: "kupfer-gemischt",
+            label: variant.to_string(),
+            variant,
+            price,
+            currency: "EUR",
+            unit: "EUR/kg",
+            price_kind: "exact",
+            price_min: None,
+            price_max: None,
+            confidence: Some(1.0),
+        };
+        // Runtime input, not an interned/static grade or a hardcoded tier table.
+        let dynamic = |quantity| Cow::Owned(format!("Späne / ab {quantity} kg"));
+        let mut outcome = HandlerOutcome {
+            prices: vec![
+                row("".into(), 9.0),
+                row("Schwer".into(), 9.0),
+                row(dynamic(137), 9.0),
+                row(dynamic(250), 9.0),
+            ],
+            fetch_url: "https://example.test/preise".to_owned(),
+            ..HandlerOutcome::default()
+        };
+        assert!(matches!(outcome.prices[0].variant, Cow::Borrowed("")));
+        assert!(matches!(outcome.prices[2].variant, Cow::Owned(_)));
+        let first = chrono::DateTime::parse_from_rfc3339(initial_at)
+            .unwrap()
+            .with_timezone(&chrono::Utc);
+        assert_eq!(
+            super::record(&public, &internal, "owned-variant-test", &outcome, &first)
+                .await
+                .unwrap()
+                .recorded,
+            4
+        );
+        let current = |variant| {
+            public
+                .current_price_for(tid, mid, variant)
+                .unwrap()
+                .unwrap()
+        };
+        let ids: std::collections::HashSet<_> =
+            ["", "Schwer", "Späne / ab 137 kg", "Späne / ab 250 kg"]
+                .into_iter()
+                .map(|variant| {
+                    let price = current(variant);
+                    assert_eq!(price.variant, variant);
+                    assert_eq!(price.published_at, None);
+                    price.id
+                })
+                .collect();
+        assert_eq!(
+            ids.len(),
+            4,
+            "equal prices with distinct variants must not collapse"
+        );
+        let original = current("Späne / ab 137 kg").id;
+        // Borrowed and owned representations of the SAME text dedupe identically.
+        outcome.prices = vec![row("Späne / ab 137 kg".into(), 9.0)];
+        let second = first + chrono::Duration::hours(1);
+        super::record(&public, &internal, "owned-variant-test", &outcome, &second)
+            .await
+            .unwrap();
+        assert_eq!(current("Späne / ab 137 kg").id, original);
+        assert_eq!(
+            public
+                .price_history(tid, mid, "Späne / ab 137 kg", 10)
+                .unwrap()
+                .len(),
+            1
+        );
+        outcome.prices = vec![row(dynamic(137), 9.5)];
+        let third = second + chrono::Duration::hours(1);
+        super::record(&public, &internal, "owned-variant-test", &outcome, &third)
+            .await
+            .unwrap();
+        let changed = current("Späne / ab 137 kg");
+        assert_ne!(changed.id, original);
+        assert_eq!(
+            changed.published_at.as_deref(),
+            Some("2026-10-10T00:00:00+00:00")
+        );
+        assert_eq!(
+            serde_json::from_str::<serde_json::Value>(&changed.extra_json).unwrap()
+                ["published_at_basis"],
+            "observed_price_change"
+        );
+        assert_eq!(current("Späne / ab 250 kg").price, 9.0);
+        outcome.prices = vec![row(dynamic(137), 9.0)];
+        let fourth = third + chrono::Duration::hours(1);
+        super::record(&public, &internal, "owned-variant-test", &outcome, &fourth)
+            .await
+            .unwrap();
+        drop(outcome);
+        assert_eq!(
+            public
+                .price_history(tid, mid, "Späne / ab 137 kg", 10)
+                .unwrap()
+                .len(),
+            3
+        );
+        assert_eq!(current("Späne / ab 137 kg").price, 9.0);
+        assert_ne!(
+            current("Späne / ab 137 kg").id,
+            original,
+            "A -> B -> A is a new history event"
+        );
+        let count = public
+            .query_sql("SELECT COUNT(*) FROM current_prices")
+            .unwrap();
+        assert_eq!(count.rows[0][0], 4);
+    }
+
+    #[tokio::test]
     async fn published_date_is_inferred_only_for_comparable_price_changes() {
         use super::{HandlerOutcome, ScrapedPrice};
         use schrott_mcp_store::{InternalDb, NewMaterial, NewTrader, PublicDb};
@@ -785,7 +958,7 @@ mod tests {
             let outcome = HandlerOutcome {
                 prices: vec![ScrapedPrice {
                     material: "kupfer-millberry",
-                    variant: "",
+                    variant: "".into(),
                     price,
                     currency: "EUR",
                     unit: "EUR/kg",

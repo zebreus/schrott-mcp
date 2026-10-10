@@ -137,7 +137,7 @@ fn parse(html: &str) -> Result<(Vec<ScrapedPrice>, Vec<String>), IngestError> {
         }
         prices.push(ScrapedPrice {
             material,
-            variant,
+            variant: variant.into(),
             price,
             currency: "EUR",
             unit: "EUR/g",
@@ -216,8 +216,10 @@ mod tests {
         assert_eq!(prices[19].material, "palladium");
         assert_eq!(prices[19].variant, "500");
         assert_eq!(prices[19].price, 15.41);
-        let keys: std::collections::HashSet<_> =
-            prices.iter().map(|p| (p.material, p.variant)).collect();
+        let keys: std::collections::HashSet<_> = prices
+            .iter()
+            .map(|p| (p.material, p.variant.as_ref()))
+            .collect();
         assert_eq!(keys.len(), 20);
         assert!(prices.iter().all(|p| p.unit == "EUR/g"
             && p.currency == "EUR"
@@ -304,7 +306,7 @@ mod tests {
         for price in &outcome.prices {
             let material = public.find_material_id(price.material).unwrap().unwrap();
             let current = public
-                .current_price_for(trader, material, price.variant)
+                .current_price_for(trader, material, price.variant.as_ref())
                 .unwrap()
                 .unwrap();
             assert_eq!(current.published_at, None);
@@ -328,7 +330,7 @@ mod tests {
         for (index, price) in outcome.prices.iter().enumerate() {
             let material = public.find_material_id(price.material).unwrap().unwrap();
             let current = public
-                .current_price_for(trader, material, price.variant)
+                .current_price_for(trader, material, price.variant.as_ref())
                 .unwrap()
                 .unwrap();
             assert_eq!(current.price, price.price);

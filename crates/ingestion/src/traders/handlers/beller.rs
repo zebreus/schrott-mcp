@@ -156,7 +156,7 @@ fn build_outcome(status: u16, html: &str) -> Result<HandlerOutcome, IngestError>
         let (price, min, max, kind) = parse_price(&c[1])?;
         out.prices.push(ScrapedPrice {
             material,
-            variant,
+            variant: variant.into(),
             price,
             currency: "EUR",
             unit: "EUR/kg",
@@ -277,8 +277,11 @@ mod tests {
             .iter()
             .any(|p| p.variant == "Mischschrott (mind. 100 kg)"));
         assert!(out.prices.iter().all(|p| p.unit == "EUR/kg"));
-        let keys: std::collections::HashSet<_> =
-            out.prices.iter().map(|p| (p.material, p.variant)).collect();
+        let keys: std::collections::HashSet<_> = out
+            .prices
+            .iter()
+            .map(|p| (p.material, p.variant.as_ref()))
+            .collect();
         assert_eq!(keys.len(), 31);
     }
     #[test]

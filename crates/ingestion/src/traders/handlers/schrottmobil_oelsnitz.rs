@@ -59,7 +59,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 seen.push(key);
                 prices.push(ScrapedPrice {
                     material,
-                    variant,
+                    variant: variant.into(),
                     price,
                     currency: "EUR",
                     unit,

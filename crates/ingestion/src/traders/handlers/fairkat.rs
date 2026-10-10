@@ -52,12 +52,10 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             continue;
         }
         // Exact per-type list prices at full confidence; the Kat-Nr is
-        // the variant. Leaked once per card per run (bounded by the
-        // slider size) so types never collapse onto one current price.
-        let variant: &'static str = Box::leak(katnr.into_boxed_str());
+        // the owned variant so types never collapse onto one current price.
         prices.push(ScrapedPrice {
             material,
-            variant,
+            variant: katnr.into(),
             price,
             currency: "EUR",
             unit,

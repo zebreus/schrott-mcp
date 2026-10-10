@@ -129,7 +129,7 @@ fn parse_api(body: &str) -> Result<HandlerOutcome, IngestError> {
             }
             out.prices.push(ScrapedPrice {
                 material,
-                variant,
+                variant: variant.into(),
                 price,
                 currency: "EUR",
                 unit: "EUR/kg",
@@ -342,7 +342,7 @@ mod tests {
             .map(|p| {
                 (
                     p.material,
-                    p.variant,
+                    p.variant.as_ref(),
                     p.price,
                     p.currency,
                     p.unit,
@@ -474,7 +474,7 @@ mod tests {
         assert_eq!(
             out.prices
                 .iter()
-                .map(|p| (p.variant, p.price))
+                .map(|p| (p.variant.as_ref(), p.price))
                 .collect::<Vec<_>>(),
             vec![
                 ("Wendeschneidplatten", 53.0),

@@ -44,7 +44,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
                 if seen.insert((material, variant, price.to_bits())) {
                     prices.push(ScrapedPrice {
                         material,
-                        variant,
+                        variant: variant.into(),
                         price,
                         currency: "EUR",
                         unit,

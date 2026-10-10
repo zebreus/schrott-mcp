@@ -156,7 +156,7 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
             .ok_or_else(|| error(URL, "ungültiger Ankaufspreis"))?;
         out.prices.push(ScrapedPrice {
             material: "gold",
-            variant,
+            variant: variant.into(),
             price,
             currency: "EUR",
             unit: "EUR/g",
