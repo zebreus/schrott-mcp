@@ -30,6 +30,10 @@ Der Markt Pilsting führt in seinem offiziellen Gewerbeverzeichnis Horst Kroiß 
 
 ## Timeline
 
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Kommunales Gewerbeverzeichnis direkt gelesen; zusätzlich HTML wegen in Markdown ausgeblendeter Kontaktfelder geprüft. Datensatz 139 nennt ausdrücklich Ansprechperson Horst Kroiß, Landauer Weg 103, 94431 Pilsting, 09953 521, autokroiss@t-online.de unter KFZ-Werkstätte/Autoverwertung/Abschleppdienst/Auto- und Schrotthandel. Dies bleibt ein kommunaler Einzelbeleg, kein neues Betreiber-Zweitzeugnis und kein amtlicher Gewerberegisterauszug. Historischer Hausnummernkonflikt 103/106 deshalb nicht stillschweigend aufgelöst; keine Adress-/Kontaktfüllung, status pruefung erhalten. Northdata-Suggest Horst Kroiß results leer ist kein Schließungsnachweis. Ankauf/Verkauf/Gebühren: keine Zahlen im kommunalen Eintrag. Offen: Betreiberbestätigung der Betriebsstätte und Altauto-/Metallannahme, Agrarservice/Daniel Kroiß nicht zuordnen; Quellen: https://www.markt-pilsting.de/in-pilsting-zuhause/wirtschaft-und-gewerbe/gewerbe-am-ort ; https://www.northdata.de/suggest.json?query=Horst%20Kroi%C3%9F&countries=DE .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altautos — OSM

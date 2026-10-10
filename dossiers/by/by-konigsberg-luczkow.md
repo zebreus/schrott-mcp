@@ -28,6 +28,10 @@ Neue gewerbliche Spur „Luczkow Schrotthandel“, jedoch nur in Aggregatoren: 1
 
 ## Timeline
 
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Adressennet-Maßbach-Detail direkt gelesen: Luczkow Schrott und Metall Handel, Parksiedlung 28, 97711 Maßbach, 0175-8534027, sascha.luczkow@gmx.de. Damit der Ortskonflikt erneut als Lead bestätigt, nicht als Umzug bewiesen. Northdata-Suggest Luczkow liefert Luczkowski-Personen anderer Orte, keine kongruente Gewerbeidentität. Kein Frontmatter-Fill oder Umhängen der Königsberger Zeile; status pruefung erhalten. Ankauf wird nur als Portalrubrik genannt; keine numerischen Ankauf-/Verkaufs-/Gebührentarife. Offen: Gewerbe-/Betreiberabgleich Altershausen 77 gegen Parksiedlung 28 samt identischer Mobilnummer; Quellen: https://www.adressennet.de/schrotthandel-metallankauf-schrottentsorgung-buntmetalle-massbach-3291de9400.html ; https://www.northdata.de/suggest.json?query=Luczkow&countries=DE .]
+
 ### Recherche 08.10.2026 (zusätzlicher Ortskonflikt)
 
 - [Recherche 08.10.2026: Neue zweite Orts-/Adressspur, nicht als unabhängiger Identitätsbeleg zu werten: Adressennet-Detailseite direkt gelesen, Luczkow Schrott und Metall Handel, Parksiedlung 28, 97711 Maßbach, 0175-8534027 und sascha.luczkow@gmx.de. Nummer stimmt mit Königsberger 11880-Lead überein; das macht einen Umzug/mehrere Standorte plausibel, beweist aber weder dieselbe Person noch die zeitliche Richtung. Northdata-Suggest Luczkow liefert nur Luczkowski-Personen in anderen Orten, keine kongruente Gewerbeidentität. Königsberg nicht auf Maßbach umhängen, Mail nicht übernehmen, keine Geokodierung. ANKAUF: Portal nennt Metallankauf, kein Betreiber-/Zahlenbeleg. VERKAUF/GEBÜHREN: keine verifizierten Tarife. Nächster Schritt Betreiber-/Gewerbeauskunft mit beiden Adressen und identischer Mobilnummer abgleichen. Quelle (Leads): https://www.adressennet.de/schrotthandel-metallankauf-schrottentsorgung-buntmetalle-massbach-3291de9400.html ; https://www.11880.com/branchenbuch/koenigsberg-in-bayern/120674719B104992012/luczkow-schrotthandel.html ; https://www.northdata.de/suggest.json?query=Luczkow&countries=DE .]

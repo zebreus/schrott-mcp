@@ -10,8 +10,8 @@ phone: 07431 74569
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Kleiner Schrotthändler nur durch Verzeichnis-Leads beschrieben: Chemnitzer Straße 91, 72458 Albstadt-Ebingen, 07431 74569. Die Ausnahmefüllung vom 02.10.2026 ist kein Nachweis nach heutigem README-Belegstandard; auch viele kongruente Telefonbuch-/Portalprofile ersetzen keine Betreiber- oder Gewerbequelle. Aktueller Betrieb, Ankauf und Kundenzugang bleiben offen, der bestehende Aktivstatus wurde nicht neu bestätigt. **Ankauf / Verkauf / Gebühren:** keine zurechenbaren Zahlen. Vor Anfahrt aktuelle Gewerbeidentität/Annahme telefonisch oder amtlich klären; vorhandene Adresse erst nach Primärbestätigung als Kundenstandort pinnen.
+Kleiner Schrotthändler nur durch Verzeichnis-Leads beschrieben: Chemnitzer Straße 91, 72458 Albstadt-Ebingen, 07431 74569. Die Ausnahmefüllung vom 02.10.2026 ist kein Nachweis nach heutigem README-Belegstandard; auch viele kongruente Telefonbuch-/Portalprofile ersetzen keine Betreiber- oder Gewerbequelle. Aktueller Betrieb, Ankauf und Kundenzugang bleiben offen; Aktivstatus am 09.10.2026 auf pruefung korrigiert, ohne Schließungsbehauptung. **Ankauf / Verkauf / Gebühren:** keine zurechenbaren Zahlen. Vor Anfahrt aktuelle Gewerbeidentität/Annahme telefonisch oder amtlich klären; vorhandene Adresse erst nach Primärbestätigung als Kundenstandort pinnen.
 
 ## Timeline
+
+### Korrektur 09.10.2026
+
+- [Korrektur 09.10.2026: Örtliche-Einzelprofil direkt HTTP 200 gelesen: Chemnitzer Str. 91, 72458 Albstadt-Ebingen und 07431 74569, Rubrik Schrott; keine Betreiberwebsite/Ankaufskurse. Northdata-Suggest Spindler Albstadt ohne Treffer ist kein Nichtexistenzbeweis. Vorhandene Adresse/Telefon erhalten, aber Aktivstatus aus Aggregatoren entspricht nicht README: aktiv auf pruefung korrigiert, keine Schließung. website_status unbekannt normalisiert. Ankauf/Verkauf/Gebühren: keine verifizierten Zahlenlisten. Offen: kommunale Gewerbeauskunft und aktuelle Kundenannahme; Quellen: https://www.dasoertliche.de/Themen/Spindler-Karl-SchrottHdl-Albstadt-Ebingen-Chemnitzer-Str ; https://www.northdata.de/suggest.json?query=Spindler%20Albstadt&countries=DE .]
 
 ### Recherche 08.10.2026
 

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: tot
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberkandidat Autoverwertung Denk in Zeil: HTTP-Website erreichbar, Impressum Brigitte Denk, Wildgarten 5, 97475 Zeil, 09524/7191, 0171/7283577 und fraenklin.denk@t-online.de. Keine gesicherte Gleichsetzung mit dieser unspezifischen Seedzeile, dem Geschwisterdossier by-zeil-a-main-97475-autoverwertung-denk-denk-f oder Denk Haßfurt. Betreiber-/Dublettenfrage Brigitte/Elfriede/Fränklin bleibt offen; keine Zusammenführung oder Kontaktübertragung. Website-Status unbekannt statt unbegründet tot, da im Frontmatter keine identifizierte Domain steht. Ankauf von PKW, Verkauf von PKW/Teilen und Abholung/Entsorgung beworben, aber keine numerische Ankauf-, Verkaufs- oder Gebührenliste. Preisangebot/Termin telefonisch klären; Betriebs- und Dossieridentität zunächst unabhängig bestätigen.
 
 ## Timeline
+
+### Korrektur 09.10.2026
+
+- [Korrektur 09.10.2026: HTTP-Impressum und Leistungsseite erneut direkt erreichbar gelesen: Brigitte Denk, Wildgarten 5 in Zeil, PKW-Ankauf/-Verkauf, Ersatzteile und Altautoabholung ohne Zahlenpreise. Domain ist für diesen Kandidaten nicht tot. Frontmatter enthält jedoch keine zugeordnete Website; daher website_status tot auf unbekannt korrigiert statt Kandidatendomain ungeprüft zu übernehmen. Die historische Nichtüberschreib-Begründung vom 05.10. wird durch diese explizite evidenzbasierte Korrektur abgelöst. Keine Gleichsetzung mit Geschwisterdossier, Elfriede-/Fränklin-Spuren oder Haßfurter Andreas Denk. Kein zweiter Identitätsbeleg/aktuelles Zertifikat. Ankauf/Verkauf/Gebühren getrennt ohne Betrag; „günstige“ Ersatzteile kein Preis. Quellen: http://www.autoverwertung-denk.de/pg003.html ; http://www.autoverwertung-denk.de/pg001.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -10,7 +10,7 @@ phone: 09624 93 14 55
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Telefonbuch-Lead „Schrott Christian“, Wölsenbergstr. 15A, Kümmersbruck-Theuern. Frühere Ausnahmefüllung von Adresse/Telefon ist kein Primärnachweis. Northdata führt Christian Schrott in Kümmersbruck mit Vereinsfunktionen, nicht als Metallhändler; Schrott ist auch Familienname. Keine sichere Gleichsetzung mit dem Verzeichnisbetrieb oder Beweis eines Fehlimports. Aktuelle Kundenannahme und Ankauf offen. Ankauf / Verkauf / Gebühren: keine zurechenbaren Zahlen. Nächster Schritt kommunale Gewerbeauskunft; status pruefung, keine Schließung.
 
 ## Timeline
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Northdata-Suggest findet Christian Schrott, Kümmersbruck; direkt gelesenes Personenprofil zeigt Vereinsfunktionen (TSV Theuern/Förderverein Wirtschaftsschule), keinen kongruenten Metallbetrieb. Nicht als zweiten Gewerbebeleg gezählt. Suchauszüge wiederholen Adresse/Telefon nur in Aggregatoren. Historische Fills erhalten, nicht primär nachverifiziert; website_status unbekannt normalisiert. Ankauf/Verkauf/Gebühren: keine numerischen Listen. Offen: Gewerbeidentität/Annahme statt Ableitung aus Familienname/Rubrik; Quellen: https://www.northdata.de/Schrott,%20Christian,%20K%C3%BCmmersbruck/qce ; https://www.northdata.de/suggest.json?query=Christian%20Schrott%20K%C3%BCmmersbruck&countries=DE ; https://www.gelbeseiten.de/gsbiz/93ff8de8-da75-47c2-910f-fd80985830d2 (Suchlead).]
 
 ### Recherche 01.10.2026
 

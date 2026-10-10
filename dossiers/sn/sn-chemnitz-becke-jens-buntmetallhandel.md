@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Register-/Firmenprofil und mehrere Branchenverzeichnisse stützen die Zuordnung von Jens Becke zum Buntmetallhandel in Chemnitz, Borssenanger 16. Die recherchierten Einträge belegen keine aktuellen Ankaufskurse oder sonstigen Konditionen; Öffnungszeiten weichen beim Dienstagsschluss voneinander ab.
+Jens Becke Buntmetallhandel in Chemnitz, Borssenanger 16, bleibt ein Prüffall. Historisch dokumentiertes Creditreform-Profil ist ein Einzelbeleg; zusätzliche Verzeichnisse sind keine unabhängigen Primärbelege. Der Abruf vom 09.10.2026 ist blockiert. Vorhandene Adresse/Telefon bleiben als Legacy-Werte erhalten, ohne neue Bestätigung. Öffnungszeiten bleiben wegen abweichender Dienstagsangaben offen. Ankauf / Verkauf / Gebühren: keine verifizierten Zahlenlisten. Offen: aktueller Betreiber- oder kommunaler Gewerbenachweis und Kundenannahme.
 
 ## Timeline
+
+### Korrektur 09.10.2026
+
+- [Korrektur 09.10.2026: Aktivsetzung vom 02.10. war mit Creditreform plus Aggregatoren begründet; nach README zählt das nur als Einzelbeleg, nicht als Zwei-Quellen-Nachweis. Creditreform-Direktabruf heute HTTP 403; Northdata-Suggest Jens Becke liefert andere Orte/Becker-Namensvarianten, keine passende Chemnitzer Identität. Kein Nichtexistenzbeweis, keine Namensvetterzuordnung. status aktiv auf pruefung korrigiert; Adresse/Telefon und Historie erhalten. Ankauf/Verkauf/Gebühren unbekannt, keine numerischen Betreiberpreise verifiziert. Offen: aktuelle Gewerbeauskunft oder Betreiberbeleg; Quellen: https://firmeneintrag.creditreform.de/09113/3030231164 (Abruf blockiert); https://www.northdata.de/suggest.json?query=Jens%20Becke&countries=DE .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

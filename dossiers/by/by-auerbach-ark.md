@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registerkandidat ARK Schrott und Recycling UG (Amberg HRB 4617), Gegenstand Schrott-/Metallhandel und Recycling. Das direkt gelesene Northdata-Profil enthält eine widersprüchliche Adresszeile: Wellucker Str. 6, 91275 Auerbach und zugleich 95176 Oberpferdt. Keine aktuelle Betreiberseite oder Kundenannahme bestätigt. Siegfried Leipelt nicht ohne Betreiberkettenbeleg zuordnen. Ankauf, Verkauf und Gebühren: keine zurechenbaren Zahlenlisten. Offen: aktueller Registerauszug, Sitz/Betriebsstätte und Betreiberkontakt; keine Geokodierung der Mischadresse.
 
 ## Timeline
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Northdata-Profil direkt gelesen: HRB 4617 Amberg, Schrott-/Metallhandel und Recycling, widersprüchliche Adresszeile Auerbach/Oberpferdt weiterhin vorhanden. Sichtbare Publikationen umfassen Eintragung 2010 (Stephanie Braun) und Jahresabschluss 2011 veröffentlicht 2013; daraus keine heutige Betriebsaktivität oder Schließung ableiten. Einzelbeleg, keine neuen Kontakt-/Adressfüllungen. Ankauf/Verkauf/Gebühren: keine numerischen Listen. Offen: amtlicher aktueller Registerauszug und unabhängiger Betriebsstättenbeleg; Quelle: https://www.northdata.de/ARK+Schrott+und+Recycling+UG,+Oberpferdt/Amtsgericht+Amberg+HRB+4617 .]
 
 ### Recherche 03.10.2026
 

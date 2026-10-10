@@ -32,6 +32,10 @@ Northdata führt **Michael Johann Bitterbier** als Geschäftsführer der **Kerns
 
 ## Timeline
 
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Kernschrott-Recycling-Registerprofil erneut direkt HTTP 200 gelesen: HRB 12051 Regensburg, Dieselstr. 7, 93053 Regensburg, Geschäftsführer Michael Bitterbier ab 02.04.2019; Jahresabschluss 2024 publiziert 27.05.2026. Dies bestätigt den getrennten Gesellschaftskandidaten, NICHT den Metallhandel Bitterbier an Vilshofener Str. 3 oder eine Nachfolge-/Umzugskette. Kein Merge, keine Kontaktübertragung und keine Preise der Nachbarzeile zugeordnet. Bestehender Telefonnummernkonflikt bleibt offen, status pruefung erhalten. Ankauf/Verkauf/Gebühren: keine zurechenbaren Zahlenlisten für den Zielbetrieb. Nächster Schritt Gewerbe-/Betreiberabgleich beider Anschriften; Quelle: https://www.northdata.de/Kernschrott-Recycling+UG,+Regensburg .]
+
 ### Recherche 05.10.2026
 
 - [Korrektur 05.10.2026: Direkt gelesenes Örtliche-Profil bestätigt den Verzeichnis-Lead Vilshofener Str.3/93055, führt aber im Schreibweisenabschnitt0941 4611378; vorhandene Nummer0941 4611376 damit nicht neu kongruent bestätigt. Kein Austausch von Telefon/Adresse auf Aggregatorbasis. status aktiv→pruefung wegen fehlender primärer aktueller Betriebs-/Ankaufsbestätigung; keine Schließung angenommen; Quelle(n): https://www.dasoertliche.de/Themen/Metallhandel-Bitterbier-Schrotthandel-Regensburg-Ostenviertel-Vilshofener-Str]

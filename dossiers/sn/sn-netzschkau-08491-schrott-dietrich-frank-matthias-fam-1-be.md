@@ -10,7 +10,7 @@ phone: 03765 34546/36578/64404
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ungeklärter Sammelimport aus drei Telefonbucheinträgen. „Schrott“ kann hier Familienname sein; die Seed-Behauptung „Fam., 1 Betrieb“ ist kein belegter Zusammenschluss. Dietrich Schrott wird als Verzeichnis-Lead an Schützenstr. 26 geführt. Ein kommunaler Stadtanzeiger erwähnt 2015 eine Person Dietrich Schrott, aber keine Schrotthandelsleistung oder Betriebsadresse. Keine gemeinsame Betreiberidentität für Dietrich/Frank/Matthias nachgewiesen. Die historische zusammengesetzte Telefonnummer nicht als verifizierten Betriebskontakt verwenden. Ankauf / Verkauf / Gebühren: keine zurechenbaren Zahlen. Offen: Gewerbeauskunft, Einzelidentitäten und ein möglicher Fehlimport privater Namenseinträge; weder Split noch Schließung ohne Beleg.
 
 ## Timeline
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Websuche Schrott/Netzschkau/Dietrich zeigt Gelbe-Seiten-/Örtliche-Leads Dietrich Schrott, Schützenstr. 26, 03765 34546. Kommunaler Stadtanzeiger 09/2015 enthält eine Geburtstagsnennung Dietrich Schrott, keine Gewerbetätigkeit: Personennachweis ist kein Ankaufbeleg und beweist nicht dieselbe Person. Northdata-Suggest Schrott Netzschkau liefert results leer; Suchabdeckung ist kein Negativbeweis. Die importierte Familien-/Ein-Betrieb-Zusammenfassung bleibt unbewiesen, keine Namen/Kontakte zusammengeführt oder Preise erfunden. website_status unbekannt normalisiert; status pruefung bleibt. Offen: kommunale Gewerbeauskunft zur Schützenstraße und getrennte Prüfung der drei Namen. Quellen: https://www.gelbeseiten.de/gsbiz/0d05ec23-9c7b-47e1-8936-2eb7a3a7327d (Suchlead); https://www.dasoertliche.de/Themen/Schrott-Dietrich-Netzschkau-Sch%C3%BCtzenstr (Suchlead); https://www.netzschkau.de/fileadmin/stadtanzeiger/2015/09/files/basic-html/page5.html (Suchauszug); https://www.northdata.de/suggest.json?query=Schrott%20Netzschkau&countries=DE .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter Seed „SMG Schrott & Metall GmbH“, Gessentalstr. 5A in Gera. Keine kongruente Betreiber-/Registeridentität oder Kundenannahme nachgewiesen. Ortsbezogene Treffer zum Gessental belegen keinen Betrieb an der Hausnummer; österreichische SMG nicht zuordnen. Adresse bleibt historischer ungeprüfter Wert, nicht bestätigte Anlaufstelle. Ankauf / Verkauf / Gebühren: keine zurechenbaren Zahlenlisten. Offen: kommunale Gewerbe-/Adressauskunft mit genauer Firmierung; erfolglose Suche ist keine Schließung.
 
 ## Timeline
+
+### Gegenprüfung 10.10.2026
+
+- [Gegenprüfung 10.10.2026: Unabhängiger Owner-Gate ergänzt einen Portalhinweis zu scholz-recycling.de an Gessentalstr. 5A ausschließlich als Betreiberketten-Lead. Direkt gelesene Scholz-Gera-Seite vom 25.09.2017 enthält im Abruf keine zurechenbare lokale Adress-/Kontaktzeile. Aktuelle SMH-Standortseite nennt dagegen Fasaneninsel 10, 07548 Gera; anderer Name und Standort, keine belegte SMG-/Gessental-Nachfolge. Keine fremden Kontakte oder Zeiten übernommen. Exakte historische Firmierung/Registerdaten und Betreiberkette bleiben offen. Quellen: https://www.auskunft.de/firma/s8krqw7k-smg-schrott-und-metall-gmbh-gera (Suchlead); https://www.scholz-recycling.com/standort/gera ; https://www.smh-recycling.de/unternehmen/standorte ; research/checkin-20261010-waveD-suedost-owner-gate.md .]
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Suche SMG/Gessental liefert Orts-/Planungsquellen, keinen zuordenbaren Metallbetrieb. Northdata-Suggest SMG Gera liefert results leer; kein Existenz-Negativbeweis. Der frühere österreichische Namensvetter bleibt getrennt. website_status unbekannt normalisiert, übrige Legacy-Felder und status pruefung erhalten. Keine numerische Ankauf-, Verkaufs- oder Gebührenliste zugeordnet. Nächster Schritt amtliche Gewerbeauskunft zur exakten Firmierung/Adresse; Quellen: https://www.northdata.de/suggest.json?query=SMG%20Gera&countries=DE ; https://www.gera.de/bauen-stadtentwicklung/stadtplanung-gestaltung/verbindliche-bauleitplanung/bebauungsplaene/b/88/99-buga-2007-eingang-gessental (Suchauszug, nur Ortsquelle).]
 
 ### Recherche 03.10.2026
 

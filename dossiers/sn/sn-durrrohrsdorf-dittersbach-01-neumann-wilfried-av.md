@@ -10,7 +10,7 @@ phone: 035026 91519
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: Autorecycling, AutoHdl., Sandstrahlarbeiten (Wilfried Neumann)
 dropoff_json: ''
@@ -31,6 +31,10 @@ Aktueller Betreiber, zertifizierte Altautoannahme, Abholung und Preise sind noch
 **Preise:** **Ankauf** — keine verifizierten Altauto-Ankaufbeträge; Euro-Symbole in Verzeichnissen sind keine Preisliste. **Verkauf** — keine Teile-/Materialpreise belegt. **Gebühren** — keine belastbare Abhol-/Entsorgungstarife. **Geokodierung:** Radeberger Straße 17, OT Wünschendorf nur als Verzeichniskandidat; erst nach Betreiber-/GESA-Abgleich genaue Betriebsstätte geokodieren.
 
 ## Timeline
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Northdata-Suggest Wilfried Neumann liefert Personen in Bad Essen, Radebeul und Uffenheim, keine beweisbare Verknüpfung zur Wünschendorfer Autoverwertung; keine Übernahme von Namensvetterdaten. GADSYS-Fachbetrieberegister direkt HTTP 200 abgerufen, jedoch nur JavaScript-Shell ohne auswertbaren Neumann-Einzeldatensatz. Kein Negativbeweis für Zertifizierung oder Betrieb. website_status unbekannt normalisiert; Legacy-Telefon/-Beschreibung und status pruefung erhalten. Keine numerischen Ankauf-, Verkaufs- oder Gebührentarife verifiziert. Offen: exakter GESA-/Zertifikatsnachweis und kommunale Gewerbeauskunft zur Radeberger Str. 17; Quellen: https://www.northdata.de/suggest.json?query=Wilfried%20Neumann&countries=DE ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
 
 ### Recherche 05.10.2026
 

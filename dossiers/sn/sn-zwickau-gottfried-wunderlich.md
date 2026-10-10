@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -29,6 +29,10 @@ Die Seed-Angaben nennen einen Schrott-/Metallbetrieb Gottfried Wunderlich in Zwi
 **Preise:** **Ankauf** — Seed nennt Fe/Alu/Cu/Edelmetalle/Blei/Messing, aber Annahme und Preise sind nicht aktuell verifiziert. **Verkauf** — keine Preisliste. **Gebühren** — keine belastbaren Gebührenangaben. **Geokodierung:** Jacobstr. 4 nicht als Schrottplatz pinnen, bis die konkrete Betriebsstätte bestätigt ist.
 
 ## Timeline
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Register-Vorschlagssuche Gottfried Wunderlich direkt abgefragt, results leer. Das liefert keinen passenden Rechtsträger, beweist aber weder Nichtexistenz eines Einzelunternehmens noch Schließung. Kein zusätzlicher Primärbeleg für Jacobstr. 4 oder Ankauf ermittelt; historische Straße bleibt ungeprüft, status pruefung unverändert. website_status unbekannt normalisiert. Ankauf/Verkauf/Gebühren: weiterhin keine zurechenbaren Zahlenlisten. Nächster konkreter Schritt Gewerbeauskunft Zwickau nach vollständigem Namen und Anschrift, keine fremden Wunderlich-Betriebe zuordnen; Quelle: https://www.northdata.de/suggest.json?query=Gottfried%20Wunderlich&countries=DE .]
 
 ### Korrektur 07.10.2026
 

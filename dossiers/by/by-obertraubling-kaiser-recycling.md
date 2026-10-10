@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Identitätskandidat Jutta Kaiser Autorecycling an Werner-von-Siemens-Straße 1, 93083 Obertraubling. Die historische Creditreform-/Registermirror-Zuordnung ist kein aktuell direkt bestätigter Betreiber-Zweitbeleg; heutiger Creditreform-Abruf blockiert. Widersprüchliche Verzeichnistelefone nicht übernehmen. Keine allgemeine Altmetallannahme aus Autorecycling ableiten und keine fremden Kaiser-Recycling-Betriebe zuordnen. Ankauf / Verkauf / Gebühren: keine zurechenbaren Zahlenlisten. Offen: amtliche Gewerbeidentität, GESA-Zertifikatsnachweis und aktuelle Kontakt-/Kundenannahmebedingungen.
 
 ## Timeline
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Creditreform-Profil Jutta Kaiser Autorecycling direkt angefragt, HTTP 403; historische Zuordnung dadurch nicht neu verifiziert. Northdata-Suggest Jutta Kaiser Obertraubling results leer ist kein Schließungs-/Nichtexistenzbeweis. Registermirror nicht als unabhängige Betreiberbestätigung aufgewertet; vorhandene Adresse und status pruefung erhalten, Telefonnummernkonflikt weiterhin offen. Keine numerischen Ankauf-/Verkaufs-/Gebührentarife zugeordnet. Nächster Schritt kommunale Gewerbeauskunft/GESA zum exakten Betrieb, nicht namensähnliche Händler übernehmen; Quellen: https://firmeneintrag.creditreform.de/93083/8230781699/JUTTA_KAISER_AUTORECYCLING (403); https://www.northdata.de/suggest.json?query=Jutta%20Kaiser%20Obertraubling&countries=DE .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

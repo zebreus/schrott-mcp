@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur ein Aggregator-Lead ist direkt überprüfbar: Anas.metall-leipzig, Ludwig-Hupfeld-Straße 23, 04178 Leipzig, +49 176 84079209. Der Portaltext nennt Annahmezeiten und Mindestmengen, aber keine Betreiberidentität oder Preisbeträge. Diese Angaben bleiben außerhalb der strukturierten Kundenkonditionen. Aktivstatus ist nicht primär belegt; deshalb pruefung, nicht geschlossen. Offen: vollständiger Betreibername, aktuelle Annahmestelle und unabhängiger Gewerbe-/Betreiberbeleg. Ankauf / Verkauf / Gebühren: keine zurechenbaren Zahlenlisten.
 
 ## Timeline
+
+### Korrektur 09.10.2026
+
+- [Korrektur 09.10.2026: lokaleschrottplatz-Detail direkt erneut gelesen: Adresse Ludwig-Hupfeld-Straße 23, 04178 Leipzig, +49 176 84079209, Mo-Fr 09-17/Sa 09-12 und Eisen ab 100 kg/NE ab 1 kg stehen nur im Aggregator. Keine Betreiber-Website verlinkt. Automatische Anzeige „Geschlossen, öffnet morgen um 13:00“ widerspricht der ausgeschriebenen Zeittabelle und ist kein Schließungsnachweis. Historischer Aktivstatus auf pruefung korrigiert; kein Kontakt-/Konditions-Fill. Kategorienliste ohne numerische Ankauf-, Verkaufs- oder Gebührenpreise. Nächster Schritt Betreiber-/Gewerbeauskunft zur exakten Anschrift; Quelle (Lead): https://lokaleschrottplatz.de/anas-metall-leipzig/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

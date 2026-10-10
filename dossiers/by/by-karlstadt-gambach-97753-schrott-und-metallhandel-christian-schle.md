@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Christian Schlereth, Schrott-/Metallhandel in Karlstadt-Gambach, bleibt nur durch Verzeichnis-Leads an Frühlingstr. 43 beschrieben. Gelbe Seiten und GoLocal nennen 09353 509050; GoLocal zusätzlich Mobilnummer/E-Mail, die ohne Betreiberbeleg nicht übernommen werden. Gleichnamiger Hochschullehrer an der WHU ist kein Händlernachweis. Keine aktuelle Kundenannahme oder zurechenbare Ankauf-, Verkaufs- und Gebührenliste verifiziert. Offen: tatsächliche Betreiberwebsite hinter dem Portal-Weblink, Gewerbeidentität und Annahmebedingungen; Legacy-Adresse/-Telefon bleiben ungeprüft erhalten.
 
 ## Timeline
+
+### Gegenprüfung 10.10.2026
+
+- [Gegenprüfung 10.10.2026: Unabhängiger Owner-Gate findet im Facebook-Suchauszug eine Gambach-/Domainspur, aber keinen direkt lesbaren Betreiber-Socialbeleg. Die Kandidatendomain schrotthandel-schlereth.de nennt im direkt gelesenen Impressum Ewald Schlereth, ES-Schrott-Containerdienst Schlereth, Jahnstr. 28, 85134 Stammham, 08405 279 und 0172 9068749. Damit fremder Domainbetreiber, kein Identitätsbeleg für Christian Schlereth/Frühlingstr. 43/Karlstadt. Ungeklärte Verwandtschafts-/Zweigbeziehung und Portal-Weblink nicht als Kette behauptet; keine Website oder Kontakte übertragen. Quellen: https://www.facebook.com/SchrotthandelChristianSchlereth (Suchauszug); https://www.schrotthandel-schlereth.de/impressum ; research/checkin-20261010-waveD-suedost-owner-gate.md .]
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Suchauszüge Gelbe Seiten/GoLocal kongruent für Frühlingstr. 43, 97753 Karlstadt-Gambach und 09353 509050; GoLocal nennt oschlerethms@hotmail.de und 0172 6648042 ausschließlich als Leads, keine Feldübernahme. Direkter Gelbe-Seiten-HTML-Abruf HTTP 403; der angezeigte „Webseite“-Link konnte daher nicht als Betreiber-Domain verifiziert werden. Northdata-Suggest Christian Schlereth liefert Personen aus Aschaffenburg/Margetshöchheim, keine beweisbare Karlstadter Handelsidentität; WHU-Namensvetter nicht gleichgesetzt. Kein Primär-Zweitbeleg, keine Zahlenpreise Ankauf/Verkauf/Gebühren. status pruefung bleibt; Quelle(n): https://www.gelbeseiten.de/gsbiz/7ec0e13a-9c9f-4732-8509-1954dc1a375b ; https://www.golocal.de/karlstadt/schrotthandel/schrott-metallhandel-christian-schlereth-7sTis/ (Suchauszüge, Direktabruf nicht abgeschlossen); https://www.northdata.de/suggest.json?query=Christian%20Schlereth&countries=DE ; https://www.whu.edu/de/fakultaet-forschung/marketing-and-sales-group/digitales-marketing/christian-schlereth/ (Suchauszug).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
