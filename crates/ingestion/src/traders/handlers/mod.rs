@@ -55,6 +55,7 @@ pub mod hofmann_rastatt;
 pub mod huth_aschaffenburg;
 pub mod kalkmann;
 pub mod katalysator_hai;
+pub mod kernschrott;
 pub mod kiro;
 pub mod klix_recycling_pattensen;
 pub mod koppe_strausberg;
@@ -182,6 +183,7 @@ pub fn all() -> Vec<Handler> {
         gouchev::handler(),
         gerwischer::handler(),
         gutzmann::handler(),
+        kernschrott::handler(),
         hafen_schrott::handler(),
         hammer_leipzig::handler(),
         hansa_goldankauf::handler(),

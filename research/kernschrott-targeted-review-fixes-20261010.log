@@ -1,0 +1,19 @@
+   Compiling schrott-mcp-ingestion v0.1.0 (/root/Documents/schrott-mcp-kernschrott-20261008/crates/ingestion)
+warning: schrott-mcp-ingestion@0.1.0: seed codegen ok (dossiers -> $OUT_DIR/seed_traders)
+    Finished `test` profile [unoptimized] target(s) in 17.68s
+     Running unittests src/lib.rs (/root/Documents/kernschrott-cargo-target-20261010/debug/build/schrott-mcp-ingestion/c8795cfa38319319/out/schrott_mcp_ingestion-c8795cfa38319319)
+
+running 10 tests
+test traders::handlers::kernschrott::tests::identity_must_match ... ok
+test traders::handlers::kernschrott::tests::live_handler_verifies_identity_prices_and_date ... ignored, read-only live network verification; no database access
+test traders::handlers::kernschrott::tests::complete_live_snapshot_preserves_grades_conditions_and_zero ... ok
+test traders::handlers::kernschrott::tests::quote_is_exact_eur_amount_not_model_number_or_range ... ok
+test traders::handlers::kernschrott::tests::prices_change_and_new_unknown_grades_are_not_guessed ... ok
+test traders::handlers::kernschrott::tests::date_unit_duplicate_and_amount_guards ... ok
+test traders::handlers::kernschrott::tests::source_drift_blocks_instead_of_producing_partial_or_unconditional_snapshots ... ok
+test traders::handlers::kernschrott::tests::seeded_catalog_records_all_conditions_and_amount_change_history ... ok
+test traders::handlers::kernschrott::tests::unchanged_amount_changed_conditions_refreshes_existing_row_not_immutable_history ... ok
+test traders::handlers::kernschrott::tests::failed_parse_after_record_leaves_all_current_history_and_acceptances_unconfirmed ... ok
+
+test result: ok. 9 passed; 0 failed; 1 ignored; 0 measured; 510 filtered out; finished in 4.01s
+
