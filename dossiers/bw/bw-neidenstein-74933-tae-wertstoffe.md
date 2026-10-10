@@ -35,6 +35,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Wertstoffhof: Altmetall direkt anliefern ohne Termin während Öffnungszeiten (Privatkunden); Kunststoffe ausschließlich von Gewerbekunden — Einzelbeleg Betreiber, Zweitquelle fehlt (websearch ohne Ergebnis).
 - Website erreichbar → website_status aktiv.
 
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026 (Feedback-Audit 6080): Die Ankaufsfraktionen-Tabelle trägt Stand Juli 2026 und spezifiziert den vorhandenen B2B-Kunststoffankauf: sortenreine PP-/PE-, ABS-, PA6-/PA66- und POM-Fraktionen ab 2 t; weitere Thermoplaste nach Rücksprache. Typische Formen sind Produktions-Angüsse, Formteile, Mahlgut und Folienreste. Die 2-t-Grenze gilt für Kunststoff, nicht global für Metall oder Hartmetall. Preise und Abholung hängen von Material, Menge und Vereinbarung ab; keine pauschale Preisliste oder garantierte Abholung ab genau 2 t belegt. Bestehendes dropoff_json unverändert; keine Material-/Preiszeile abgeleitet. Quelle: https://tae-wertstoffe.de/materialankauf.html (Abruf 09.10.2026).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - NE/Kabel/Hartmetall/Aufbereitung — Lohnaufbereitung oder Ankauf (NEU)

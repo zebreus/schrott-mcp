@@ -8,11 +8,11 @@ street: Ramsdorfer Postweg 8
 postcode: '46325'
 phone: '+49 2861 8185'
 email: 'info@stienemann-borken.de'
-opening_hours: 'Warenannahme Mo-Fr 07:30-16:45, Sa 09:00-11:45; Büro Mo-Fr 08:00-17:00, Sa 09:00-12:00'
+opening_hours: 'Warenannahme Mo-Fr 07:30-16:45, Sa 09:00-11:45; Büro Mo-Fr 08:00-17:00, Sa 09:00-12:00; Pausen Mo-Fr 09:30-09:45 und 12:30-13:00'
 website: https://stienemann-borken.de/
 website_status: 'aktiv'
 status: aktiv
-description: ''
+description: 'Metall-, Textil- und Kunststoffhandel/-verwertung; An-/Verkauf, Verleih und Reparatur neuer und gebrauchter Paletten, Gitterboxen und Behälter.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neu, Ankauf verifiziert (ja)
@@ -31,6 +31,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback 2543 berechtigt: Adress-Tausch kreuzbestätigt — DB-Straße Hansestr. 25 gehört zu Dutz; korrekt für Stienemann ist Ramsdorfer Postweg 8, 46325 Borken (Telefon +49 2861 8185, Mail info@stienemann-borken.de, Warenannahme Mo-Fr 07:30-16:45/Sa 09:00-11:45, Büro Mo-Fr 08-17/Sa 09-12). Verifizierte Betreiber-Primärquelle (Impressum: Bernhard Stienemann GmbH & Co. KG, Ramsdorfer Postweg 8, 46325 Borken, HRA 3518 AG Coesfeld) + Kreuzbeleg Dutz-Kontakt (Hansestr. 25). DB-Koordinaten falsch → neu geocodieren. Hinweis: Handelsunternehmen Textil/Metall/Kunststoff/Paletten, trader_type sonstige bleibt.; Quelle(n): https://www.stienemann-borken.de/impressum/ + https://dutz-recycling.de/kontakt/ (zwei Betreiber-Quellen, Abruf 01.10.2026)]
+
+### Recherche 09.10.2026
+
+- [Recherche 09.10.2026: Betreiberseite bestätigt An-/Verkauf, Verleih und Reparatur neuer und gebrauchter Gitterboxen, Paletten und Behälter. Das Lieferprogramm ist keine Zusage, jede Einkaufsqualität anzunehmen. Identität jetzt über Impressum und NorthData kongruent: Bernhard Stienemann GmbH & Co. KG, HRA 3518 AG Coesfeld; Komplementärin Stienemann GmbH, HRB 5413. Der historische Dutz-Kreuzbeleg bestätigt den Adressunterschied, nicht einen NorthData-Abgleich am 01.10. Die publizierten Pausen Mo-Fr 09:30-09:45 und 12:30-13:00 sind in Frontmatter ergänzt. Preise, Zustands-/Mengen- und Abholbedingungen bleiben offen; keine Stückpreise als Metallpreise. Quellen: https://www.stienemann-borken.de/gitterboxen-und-paletten/; https://www.stienemann-borken.de/impressum/; https://www.northdata.de/Bernhard%20Stienemann%20GmbH%20%26%20Co.%20KG,%20Borken/Amtsgericht%20Coesfeld%20HRA%203518 (Abruf 09.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

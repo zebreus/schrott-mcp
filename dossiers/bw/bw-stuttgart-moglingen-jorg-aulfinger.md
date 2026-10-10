@@ -32,6 +32,12 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 01.10.2026: Feedback 1895 berechtigt — Betreiber-Primärquelle (Jörg Aulfinger GmbH & Co. KG, HRA 721213, Komplementär HRB 722689) mit zwei per-site Standorten verifiziert (Stuttgart-Feuerbach Vera-Vollmer-Str. 5, 70469, Tel 0711 858687 + Möglingen Daimlerstr. 56, 71696, Tel 07141 99150-0, info@aulfinger.de) + Anfahrt-/Schrott-Seiten (Wertstoffhöfe nehmen Schrott/Metalle von Privat mit Ausweis) — Owner-Ausnahme greift; Frontmatter mit HQ Stuttgart gefüllt, Möglingen als Zweitstandort hier + Geocodierungs-Hinweis (Koordinaten prüfen, DB lat/lon Mitte); kein Namesake-Zweitsitz; Quelle(n): https://www.aulfinger.de/de/impressum , https://www.aulfinger.de/de/kontakt/anfahrt , https://www.aulfinger.de/de/leistungen/schrott]
 
+### Feedback-Audit 09.10.2026 (#6071)
+
+- [Owner-Gate 09.10.2026: Die allgemeine Einschränkung für gefährliche Abfälle an den Wertstoffhöfen bleibt auch beim Aluminiumkrätze-Angebot zu beachten; konkrete Charge und Abfallschlüssel vor Anlieferung klären. Aus „jede Form“ keine bedingungslose Annahme gefährlicher Krätze und aus allgemeinen Mengenangaben keine universelle Krätze-Mindestmenge ableiten. Quelle: https://www.aulfinger.de/de/leistungen/abfaelle.]
+
+- [Recherche 09.10.2026: Die Betreiberseite zu Abfällen nennt ausdrücklich „jede Form von Aluminiumguss oder Aluminiumkrätze aus Produktion und Handwerk“ zur Annahme an den Wertstoffhöfen und Vergütung nach Aluminiumbörsen-Tagespreisen. Das belegt Aluminiumkrätze als Ankaufsmaterial, aber keine numerische Preisliste. „Aluminiumguss“ ist breiter belegt als der konkrete Begriff Fehlguss; Fehlguss/Gießereirücklauf deshalb nicht separat behauptet. Keine Frontmatter-Änderung. Quelle(n): https://www.aulfinger.de/de/leistungen/abfaelle (Abruf 09.10.2026)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott, E-Schrott, Container/Wertstoffhöfe

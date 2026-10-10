@@ -23,7 +23,7 @@ laufende Dossierarbeit bleibt erhalten.
 | Review | Beide unabhängigen Reviews abgeschlossen; ELNO-Token-/Zeilenverlust und Prozessisolation sowie Trapper-Richtwertsemantik behoben; Follow-up bestätigt Code, Prerequisite-Doku korrigiert |
 | Main / Push | Einzelne Handler-Commits übernommen; Release `373414e` per Fast-forward in main integriert; `git push origin main` erfolgreich (`a6a0dbd..373414e`) |
 | Deployment | Beide Release-Binaries am 09.10.2026 20:04:12 UTC koordiniert ersetzt; Dienst active, öffentlicher Health ok, Query-Worker SELECT erfolgreich |
-| Produktions-Scrape | Hofmann regulär erfolgreich und read-only validiert; übrige fünf noch vor ihrer Fälligkeit. Vor Release alle sechs mit 0 aktuellen Preisen |
+| Produktions-Scrape | Alle sechs regulär erfolgreich und read-only validiert; erste vollständige Evidenz am 10.10.2026 02:07 UTC, erneute Prüfung 14:00 UTC ohne Fehler |
 
 ## Ressourcen und Ausgangslage
 
@@ -98,5 +98,26 @@ Beim Check-in am 09.10.2026 21:00 UTC read-only bestätigt:
 - Reguläre Phase 20:28:15 plus Tick um 20:34; kein Force-Run ausgeführt.
   Produktionsbestand jetzt 3881 Händler, 54 Materialien, 2306 aktuelle Preise.
 
-ELNO, Trapper, SAXONIA, reGOLD und AGH bleiben bis zu ihren regulären Steps
-offen; Hofmanns Erfolg wird nicht als Gesamterfolg aller Handler ausgegeben.
+## Vollständiger Produktionsnachweis 10.10.2026
+
+Der Journalbeobachter hat alle sechs regulären Erfolgsereignisse erfasst und
+anschließend den read-only Verifier erfolgreich ausgeführt. Gesicherte erste
+Gesamtevidenz: `/root/Documents/handler-release-production-evidence.json`.
+Kein Force-Ingest und keine direkten SQL-Schreibzugriffe ausgeführt.
+
+| Handler | Erster erfolgreicher Step / Run | UTC | Preise |
+| --- | --- | --- | --- |
+| Hofmann | 5095 / 1226 | 09.10. 20:34 | 23 |
+| ELNO | 5129 / 1232 | 09.10. 22:05 | 36 |
+| Trapper | 5151 / 1236 | 09.10. 23:05 | 21 |
+| SAXONIA | 5174 / 1239 | 09.10. 23:51 | 4 |
+| reGOLD | 5182 / 1240 | 10.10. 00:06 | 20 |
+| AGH | 5212 / 1248 | 10.10. 02:07 | 8 |
+
+Beim Check-in 10.10.2026 14:00 UTC erneut tatsächliche Produktionsdaten
+geprüft: alle sechs `ok=true`, alle Quellabrufe HTTP 200, keine Validierungsfehler.
+Neueste Steps: ELNO 5392, Trapper 5414, AGH 5345, SAXONIA 5437,
+Hofmann 5358, reGOLD 5445. Einheiten, Datum-Basis, Quellen und Richtwertsemantik
+sind im Verifier abgedeckt; erwartete ELNO-/SAXONIA-Ausschlüsse bleiben sichtbar.
+Produktionsbestand: 3881 Händler, 54 Materialien, 2426 aktuelle Preise.
+Dienst active; keine Journalwarnungen in den letzten sechs Stunden.
