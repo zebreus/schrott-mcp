@@ -14,8 +14,8 @@
 //! Versilbertes/Silberbesteck hat keinen Katalogeintrag (Silber ist EUR/g)
 //! und wird laut geskippt; Edel-/Sondermetalle ohne Preis ("Preis auf
 //! Anfrage": Inconell, Nickel, Zinn Krätze, Au/Ag-Abfälle, Pd, Pt, Rh, W)
-//! ebenfalls; In/Ir/Co/Mo/Nb/Ta-Dummypreise (durchgehend 10,00) fallen
-//! über fehlende Katalogmaterialien raus.
+//! ebenfalls. Unsichtbare Webflow-CMS-Preiszeilen und deren versteckte
+//! Eltern werden ausgeschlossen, unabhängig von ihrem Materialmapping.
 
 use scraper::{ElementRef, Html, Selector};
 
@@ -338,6 +338,14 @@ fn unit_of(tier: &str) -> Option<&'static str> {
     }
 }
 
+/// Webflow's conditional visibility is inherited by descendant elements.
+/// Do not infer visibility from whether a material happens to be mapped.
+fn conditionally_hidden(element: ElementRef<'_>) -> bool {
+    std::iter::once(element)
+        .chain(element.ancestors().filter_map(ElementRef::wrap))
+        .any(|e| e.value().classes().any(|c| c == "w-condition-invisible"))
+}
+
 fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
     // Window discipline: only section#preiseSchrott. A stray "49 €" in
     // header/footer must never pair with a label into a phantom price.
@@ -366,6 +374,9 @@ fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
     let mut skipped = Vec::new();
     let mut higher_tiers = 0usize;
     for c in cards {
+        if conditionally_hidden(c) {
+            continue;
+        }
         let Some(t) = c.select(&title).next() else {
             continue;
         };
@@ -381,9 +392,14 @@ fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
         let mut kept = false;
         let mut zero_skipped = false;
         for tier_el in c.select(&tier_sel) {
-            // Four cells: tier ("ab 1 kg:"), hidden tier, value, "€".
+            if conditionally_hidden(tier_el) {
+                continue;
+            }
+            // Ignore the hidden kg/t alternative rather than depending on
+            // its position. Visible cells are quantity threshold, value, €.
             let cells: Vec<String> = tier_el
                 .select(&div)
+                .filter(|d| !conditionally_hidden(*d))
                 .map(|d| {
                     d.text()
                         .collect::<String>()
@@ -392,11 +408,12 @@ fn parse(html: &str) -> Result<(Vec<Row>, Vec<String>), IngestError> {
                         .join(" ")
                 })
                 .collect();
-            if cells.len() < 3 {
+            if cells.len() != 3 || cells[2].trim() != "€" {
+                skipped.push(format!("{name} (sichtbare Preiszellen unverständlich)"));
                 continue;
             }
             let tier = cells[0].trim().to_owned();
-            let value = cells[2].trim().to_owned();
+            let value = cells[1].trim().to_owned();
             if value.is_empty() {
                 // Empty CMS field (w-dyn-bind-empty): layout noise, silent
                 // unless the whole card has no price at all.
@@ -512,6 +529,38 @@ mod tests {
         <div class=\"text-size-medium w-dyn-bind-empty\"></div><div class=\"text-size-medium\">€</div></div>\
         </a></div></div>\
         </section><footer><p>Container ab 99 €</p></footer>";
+
+    #[test]
+    fn hidden_cms_prices_never_become_quotes() {
+        let html = FIXTURE.replacen(
+            "class=\"pricedisplay\"",
+            "class=\"pricedisplay w-condition-invisible\"",
+            1,
+        );
+        let (rows, _) = parse(&html).expect("other visible quotes remain");
+        let aluminium = rows.iter().find(|r| r.title == "Alu Bleche blank").unwrap();
+        assert_eq!(aluminium.tier, "ab 100 kg:");
+        assert_eq!(aluminium.price, 1.45);
+
+        // Position of a hidden CMS alternative does not define the value.
+        let html = FIXTURE.replace(
+            "<div class=\"text-size-medium\">ab 1 kg:</div>\
+         <div class=\"text-size-medium w-condition-invisible\">ab 1 t:</div>",
+            "<div class=\"text-size-medium w-condition-invisible\">ab 1 t:</div>\
+         <div class=\"text-size-medium\">ab 1 kg:</div>",
+        );
+        assert_ne!(html, FIXTURE, "fixture must actually reorder the cells");
+        let (rows, _) = parse(&html).expect("visible cells independent of hidden position");
+        assert_eq!(rows[0].tier, "ab 1 kg:");
+        assert_eq!(rows[0].price, 1.3);
+
+        // A hidden wrapper also hides its descendant cards and prices.
+        let html = FIXTURE.replace(
+            "class=\"product4_item\"",
+            "class=\"product4_item w-condition-invisible\"",
+        );
+        assert!(parse(&html).is_err());
+    }
 
     #[test]
     fn smallest_tier_wins_and_window_holds() {
