@@ -68,6 +68,27 @@ After actual completion, record binary hashes/link prerequisites and retain
 the build source commit even if later documentation-only commits are added.
 Do not install or restart before authenticated publication/coordinated gates.
 
+### Build completion verified
+
+Actual background completion notification received; retained log ends with
+`Finished release profile [optimized + debuginfo] ... in 6m 02s`, including
+both Main server and query-worker compilation. The earlier in-progress
+checkpoint above is historical, not the current build status.
+
+Artifacts under `/root/schrott-mcp-pending-release-20261011/release/`:
+
+- `schrott-mcp-server` SHA256
+  `f1ff2fcdea7ba2b672030f232b9486a722f191bd31699f466f33fb2f43937aab`.
+- `schrott-mcp-query-worker` SHA256
+  `071404c7a6af6f3a36395a29512aab15cc7065d2966a39f02e469a6e553e02b4`.
+
+`ldd` on both artifacts resolves libgcc_s, libm, libc and the dynamic loader;
+no missing dynamic library reported. Source commit remains `1c8326e7`; subsequent
+Main changes up to this checkpoint are only this rehearsal document. These
+hashes identify **pending artifacts**, not the files installed in production.
+No server execution, installation or restart performed on build completion.
+Authentication/publication and actual rollout/scheduler verification remain open.
+
 At real rollout: fresh WAL-safe backups, both verified binaries together,
 normal application schema/seed, regular scheduler phases, read-only release,
 Kernschrott, MSG/correction and MKM verifiers with real rollout cutoff plus
