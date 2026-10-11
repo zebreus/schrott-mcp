@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: 'Anerkannte Kfz-Verwertung (Demontagebetrieb): Altauto-Annahme, Gebrauchtteile'
+description: Historisch belegte Autoverwertung mit Unfallfahrzeugankauf und Ersatzteilverkauf; aktuelle Anerkennung und Annahmebedingungen offen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (Stand 2026-09-27)
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische Firmenanzeige in der Feuerwehr-Festschrift Aschbach 2002 (gedruckte Seite 46) bestätigt „Autoverwertung Volz GmbH“, Dillinger Str. 126, 66822 Lebach, 06881/1212. Dort werden Altautoentsorgung mit Nachweis, Unfallfahrzeugankauf und Ersatzteileverkauf ausdrücklich beworben. Ein historischer Eigenbeleg ergänzt damit die Verzeichnisleads; er bestätigt weder heutige Rechtsform/Inhaberin Renate Volz noch aktuelle GESA-Anerkennung.
+
+**Ankauf:** Unfallfahrzeuge historisch angeboten, keine Beträge. **Verkauf:** Ersatzteile historisch angeboten, keine Liste. **Gebühren:** kein Altauto-/Abholtarif; „mit Nachweis“ heißt nicht kostenfrei. **Geo:** Legacy-Adresse historisch gestützt, aktuelle Annahmestelle vor Geocoding bestätigen. Frontmatter-Kontaktwerte bleiben dokumentierte Altdaten; `pruefung` und aktuelle Anerkennung offen. Die bisher vorbehaltlos „anerkannte“ Beschreibung ist präzisiert.
 
 ## Timeline
+
+### Recherche / Korrektur 11.10.2026 (Wave E)
+
+- [Korrektur 11.10.2026: Beschreibung mit vorbehaltloser aktueller Anerkennung zurückgenommen: bisher nur Verzeichnisbehauptung, kein aktueller GESA-/Fachregisterdatensatz. Neue historische Primärquelle ist die eigene Firmenanzeige in Aschbacher Feuerwehr-Festschrift 2002, gedruckte S. 46: Anschrift/Telefon und Altautoentsorgung mit Nachweis, Unfallfahrzeugankauf, Ersatzteilverkauf. Quelle belegt Vergangenheit, nicht heutige Anerkennung oder Renate-Volz-/GmbH-Identitätskette. NorthData-Namenssuche liefert keinen zuordenbaren Treffer; das ist bei historischer GmbH/Einzelbetrieb kein Schließungsbeleg. Keine Preiszahlen oder aktuelle Zeiten. Quellen: https://www.kfv-saarlouis.de/files/PDF/Festschrift/Lebach/2002_Fw_Aschbach_75J.pdf ; https://www.northdata.de/Autoverwertung+Volz+GmbH,+Lebach (Suchbefund).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

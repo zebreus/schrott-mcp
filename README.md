@@ -132,6 +132,13 @@ direct build input — no JSON detour:
 
 ## Keeping the data fresh
 
+Wave E (11.10.2026): [Süd](research/wave-e-sued-20261011.md),
+[Nordwest](research/wave-e-nordwest-20261011.md) and
+[Ost/Mitte](research/wave-e-ost-mitte-20261011.md) document 60 freshly selected
+dossiers, price-source boundaries and remaining identity/site/GEO checks.
+Local integration is not evidence of production publication; see the
+[owner gate](research/wave-e-20261011-owner.md).
+
 1. **Seed updates (quarterly):** re-audit agents edit the dossiers
    (`dossiers/<state>/<slug>.md`: frontmatter scalars, Timeline bullets
    with `[Recherche DD.MM.YYYY: ...; Quelle: ...]`), `cargo test` must

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-„Herms-Recycling“ ist im Seed mit Schrott, Abbruch und Entrümpelung beschrieben, jedoch ohne Anschrift oder Primärquelle. In der aktuellen Recherche ließ sich weder eine Betreiber-/Registerquelle noch eine belastbare aktuelle Betriebsadresse in Jeseritz finden. Ein weiterer Gardelegener Lead nennt Hero Recycling an der Sachauer Straße 1; auch dieses separate Dossier hält die Rechts-/Standortzuordnung für ungeklärt. Eine Verbindung zu Herms ist nicht belegt; nicht zusammenführen.
+„Herms-Recycling“ bleibt ohne Betreiber-/Registerbeleg. Neu direkt gelesener 11880-Lead nennt Sachauer Str. **ohne Hausnummer**, 39638 Gardelegen (Jeseritz), 0171 4139280 und Schrott/Abbruch/Entrümpelung. Portal-Eintragsdaten stammen ausdrücklich vom 29.06.2021, obwohl ein Aktualisierungslabel Oktober 2026 zeigt; Letzteres ist kein Betriebsnachweis. Ein Cylex-Suchlead nennt HERO Recycling Guido Herms, Sachauer Straße 1 und andere Rufnummer: plausible Verbindung, aber nicht belegte Betreiber-/Namenskette. Keine Hausnummer 1 aus dem anderen Eintrag übertragen und kein Merge.
 
 **Preise:** **Ankauf** – Seed behauptet Schrotthandel, aber keine aktuelle Annahme oder Materialkurse belegt. **Verkauf** – keine Angebots-/Preisliste. **Gebühren** – Abriss/Entrümpelung/Entsorgung nur Seed-Behauptung; keine bestätigten Gebühren.
 
@@ -33,6 +33,10 @@ provenance_origin: table
 Quellen-/Dossierabgleich: `dossiers/st/st-gardelegen-hero-recycling.md` (dort dokumentierte Leads und offene Identität).
 
 ## Timeline
+
+### Recherche 11.10.2026 (Wave E — Portalspur konkretisiert)
+
+- [Recherche 11.10.2026: 11880 direkt HTTP 200 gelesen: Sachauer Str. ohne Hausnummer, 39638 Gardelegen/Jeseritz, 0171 4139280; keine Website/Mail/Zeiten. Seite nennt Eintragsdaten 29.06.2021 neben Aktualisierungslabel 09.10.2026. Der konkrete alte Lead korrigiert die bisher sehr pauschale Aussage „ohne Anschrift“, bleibt aber weder primär noch hausnummerngenau. HERO-Guido-Herms-Suchtreffer an Sachauer Str. 1/039087 987271 ist eine Identitätsprüfspur, keine Begründung zur Übernahme. ANKAUF/VERKAUF/GEBÜHREN keine numerische Händlerliste, Geo weiterhin nicht möglich. Quellen: https://www.11880.com/branchenbuch/gardelegen/120674719B110367388/schrottabbruchentruempelung-herms-recycling.html (direkt gelesener Lead) ; https://web2.cylex.de/firma-home/hero-recycling-guido-herms-7789134.html (Suchlead).]
 
 ### Recherche 07.10.2026
 

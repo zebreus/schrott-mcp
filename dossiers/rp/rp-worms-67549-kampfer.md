@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Identität und Standort weiterhin ungeklärt: Die Historie dokumentiert Töpferstr. 1 mit zwei unterschiedlichen Mobilnummern gegenüber Pfrimmanlage 9 mit einer dritten. Weder Betreiberquelle noch Umzugs-/Nachfolgenachweis löst diese Widersprüche. Die Suchnachprüfung liefert keinen zuordenbaren offiziellen Auftritt; das beweist keine Schließung. Edmund Winter/Alzeyer Str. 251 ist ausdrücklich kein Ersatz für Kämpfer.
+
+**Ankauf/Verkauf/Gebühren:** keine Kämpfer zuordenbare Preisquelle; Allgemeintexte anderer Wormser Schrotthändler nicht übernehmen. **Geo:** beide Anschriften gesperrte Kandidaten bis Identitäts-/Adressklärung; keine Koordinate. Nächster sinnvoller Beleg: Betreiber-Impressum beziehungsweise kommunale Gewerbeauskunft zu Name und einer der Rufnummern, nicht weiterer Verzeichnis-Konsens.
 
 ## Timeline
+
+### Recherche 11.10.2026 (Wave E)
+
+- [Recherche 11.10.2026: Namens-/Ortssuche Kämpfer + Worms + Schrotthandel/Website ohne positiven zuordenbaren Primärtreffer. Vorwellenkonflikt bleibt ausdrücklich offen; nicht als neuer Register-Negativnachweis oder geschlossener Betrieb ausgelegt. Keine neue Adresse, Telefonnummer oder Website gefüllt. Ankauf-/Verkaufs-/Gebührenpreise nicht zuordenbar, kein Geocoding. Quellenbasis für Konflikt: bereits dokumentierte Recherche 01./02.10.2026; heutige Websuche ohne positiven Primärbeleg.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

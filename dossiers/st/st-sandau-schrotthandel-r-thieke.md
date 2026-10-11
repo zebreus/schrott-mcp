@@ -30,6 +30,10 @@ Damit hat die Portaladresse erstmals einen Register-Einzelbeleg. Noch nicht bewi
 
 ## Timeline
 
+### Recherche 11.10.2026 (Wave E)
+
+- [Recherche 11.10.2026: Registerprofil HRB 22702 direkt erneut gelesen; O. Thieke GmbH/Bahnhofstr. 2–4, 39524 Sandau, GF Oliver Thieke bei Eintragung 04.01.2016 und Abschluss 2024 publiziert 12.02.2026 unverändert bestätigt. Keine R.-Thieke-Namenshistorie im gelesenen Profil, deshalb kein Rename/Ankaufstatus-Fill. Sammeln/Befördern sowie Abfalllagerung/Abriss sind Registergegenstand, nicht aktuelle Publikumsannahme oder Preisangebot. Legacy-Mobilnummer bleibt Verzeichnislead. ANKAUF/VERKAUF/GEBÜHREN keine numerische Liste. Geo: Registeradresse erst nach Namensketten- und Annahmestellenbeleg als Dossierhof freigeben. Quelle: https://www.northdata.de/Schrotthandel+%26+Containerdienst+O.+Thieke+GmbH,+Sandau+(Elbe)/Amtsgericht+Stendal+HRB+22702 .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: NorthData-Firmenprofil direkt gelesen: O. Thieke GmbH, HRB 22702 Stendal, Bahnhofstr. 2-4, 39524 Sandau; GF Oliver Thieke bei Eintragung 04.01.2016, Jahresabschluss 2024 publiziert 12.02.2026. Unternehmensgegenstand Sammeln/Befördern von Schrott/Buntmetallen sowie Abfalltransporte/Lagerung/Abriss. Erstmals Register-Einzelbeleg für O.-Firma/Adresse, aber kein Kettennachweis zu R. Thieke; deshalb kein Rename oder status aktiv. Verzeichnis-Telefon unbestätigt, öffentliche Annahme und Ankauf nicht aus Registergegenstand abgeleitet. ANKAUF keine Zahlen, VERKAUF/GEBÜHREN keine Liste gefunden. Quelle: https://www.northdata.de/Schrotthandel%20%26%20Containerdienst%20O%C2%B7%20Thieke%20GmbH,%20Sandau%20(Elbe)/Amtsgericht%20Stendal%20HRB%2022702]

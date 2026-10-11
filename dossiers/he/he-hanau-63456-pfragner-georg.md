@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnis-Leads führen Pfragner Georg als Kfz-Handel und Verwertung in Hanau-Klein-Auheim. Adresse und Telefonnummer sind nicht ausreichend verifiziert; die beiden Verzeichnisse nennen unterschiedliche Nummern. Keine belastbare Preisliste oder Betreiberquelle.
+Verzeichnis-Leads führen Pfragner Georg als Kfz-Handel und Verwertung in Hanau-Klein-Auheim. Adresse und Telefonnummer sind nicht ausreichend verifiziert; die beiden Verzeichnisse nennen unterschiedliche Nummern. Der neu direkt gelesene Pfragner-Containerdienst an der Dieselstraße 11 nennt keinen Georg und keine Brücke zum Behringstraßen-Seed; seine Website/Kontakte deshalb nicht zugeordnet. Keine belastbare Ankauf-/Verkauf-/Gebührenliste des Seeds. Inhaber-/Adressklärung vor Geocodierung nötig.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Neue Primärgegenprobe: Impressum containerdienst-pfragner.de direkt gelesen, nennt nur Pfragner Containerdienst, Dieselstraße 11, 63456 Hanau, 0172 3703560, pfragner-hanau@t-online.de; kein Georg, keine Behringstr. 1 A und keine Übernahme-/Umzugskette. Gemeinsamer Nachname/Ort reicht nicht für Website-/Kontaktzuordnung zum Kfz-Verwertungsseed. Frühere Aussage „keine Betreiberwebsite“ präzisiert: ein regionaler Namesake-Auftritt existiert, dessen Zuordnung offen ist. Seed weiter pruefung, keine Fills/Merge. Ankauf-/Verkauf-/Gebührenlisten des Seeds nicht belegt; Kandidatenleistungen nicht übertragen. GEO erst nach Identitäts-/Adressbrücke, keine Dieselstraße-Koordinaten für Georg. Quelle: https://containerdienst-pfragner.de/impressum/ ; https://www.gelbeseiten.de/gsbiz/8066a385-5fe4-40e3-b552-b5415b28b4a1 (Suchindex-Lead)]
 
 ### Recherche 01.10.2026
 

@@ -24,11 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
+Neue passendere Spur für den Seed: Creditreform-Suchindex führt Stephan Goldbach Schrotthandel in Fulda/36039 (Altmaterialien/Reststoffe); Vollabruf HTTP 403. Im Alten Roth 5, 36039 Fulda-Dietershan, 0661 65447 und info@schrotthandel-goldbach.de stehen nur in Verzeichnisleads. Domainabruf Transportfehler; Kontakte deshalb nicht gefüllt. Standort/Betreiber bei Gewerbeauskunft klären und erst dann geocodieren. Der Freddi-Auftritt unten ist **nicht** als Nachfolger oder derselbe Betrieb belegt.
+
 Ein Betreiberauftritt „Schrotthandel Freddi Goldbach“ sagt „seit 1957 in Fulda“, nennt als Inhaber Freddi Goldbach und als Anschrift Wadbergstraße 7, 36145 Hofbieber. Das ist ein konkreter regionaler Namenslead, aber weder der Vorname Stephan noch Fulda-Dietershan stimmen überein; keine Zuordnung und keine Frontmatter-Übernahme. Offen ist, ob es eine familiäre oder betriebliche Verbindung gibt.
 
 **Preise des Freddi-Goldbach-Kandidaten, nicht des Seeds:** Ankauf — Privatankauf auf Anfrage; ab 200 kg werden „Tageshöchstpreise“ versprochen, jedoch ohne numerische Kurse. Verkauf — keine Verkaufspreise. Gebühren/Service — Schrottabholung und Schrottentsorgung ab 200 kg sowie dauerhafte Containerstellung für Firmen/öffentliche Einrichtungen als gebührenfrei bzw. kostenlos beworben; keine Ablademöglichkeit. **Geocoding:** Wadbergstraße 7, 36145 Hofbieber nicht als Seedadresse übernehmen; erst bei bestätigter Beziehung geokodieren.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Neue passende Wirtschaftsauskunftspur: Creditreform-Suchindex führt Stephan Goldbach Schrotthandel in Fulda/36039, Branche Großhandel Altmaterialien/Reststoffe. Direktabruf 403; keine vollständige Adresse oder aktuelle Aktivität verifiziert. Verzeichnisleads nennen Im Alten Roth 5, 36039 Fulda-Dietershan, 0661 65447, info@schrotthandel-goldbach.de. Domain direkt versucht, Transportfehler. Freddi-Goldbach-Seite dagegen erneut direkt gelesen: Freddi/Wadbergstraße 7/Hofbieber, unverändert keine Ablademöglichkeit, kostenlose Entsorgung ab 200 kg und Containerservice für Firmen/öffentliche Einrichtungen; kein Stephan-/Dietershan-Bezug. Damit gezielter neuer Register-/Adresssuchansatz für Stephan, aber kein Merge/kein Kontaktfill. Ankauf/Verkauf/Gebühren des Seeds nicht verifiziert, Freddi-Preiswerbung nicht übertragen. GEO für Im Alten Roth 5 erst nach passender Primär-/Adressbestätigung, niemals Hofbieberpunkt für diesen Seed. Quelle: https://firmeneintrag.creditreform.de/36039/6090143184/STEPHAN_GOLDBACH_SCHROTTHANDEL ; https://www.schrotthandel-goldbach.de/ ; https://www.freddi-goldbach.de/ ; https://branchenbuch.meinestadt.de/fulda/company/13008108 ; https://fulda.stadtbranchenbuch.com/1247069.html (letzte zwei nur Suchindex-Leads)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

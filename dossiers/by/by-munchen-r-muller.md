@@ -4,15 +4,16 @@ name: R. Müller Altmetall u. Schrotthandel GmbH
 trader_type: schrotthaendler
 state: BY
 city: München
-street: Georg-Thiele-Str. 2
-postcode: '81829'
-phone: 089 908147
-email: mueller-altmetall@t-online.de
-opening_hours: Mo-Fr 7-17
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'description,email,opening_hours,phone'
+email: ''
+opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
-description: Altmetall- und Schrotthandel in München-Trudering, Annahme von Stahl, NE-Metallen, Kabeln, E-Motoren; Containerdienst
+status: pruefung
+description: ''
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
@@ -24,9 +25,17 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neue Register-/Wirtschaftsauskunft-Leads machen die Rechtsträgerfrage sichtbar: Creditreform führt sowohl R. Müller Altmetallhandel GmbH als auch Rudolf Müller Altmetall + Schrott e.K. Inhaber Eva u. Ina Müller (HRA 68506), jeweils München/81829. Kein vollständiger Registerabruf und keine belegte Rechtsnachfolge; die Namen nicht gleichsetzen. Der Domain-Direktabruf mueller-altmetall.de scheitert technisch, nicht als bewiesene Schließung werten.
+
+Georg-Thiele-Str. 2, 089 908147, mueller-altmetall@t-online.de und widersprüchliche Zeiten bleiben Verzeichnisleads. Unbelegter Aktivstatus und Kontaktskalare/Materialbehauptungen zurückgenommen. Ankauf/Verkauf/Gebühren: keine numerischen Betreiberlisten verifiziert. Owner sollte beide Rechtsträger/Adresse und ggf. bestehende GEO prüfen, bevor Kontaktfelder oder Aktivstatus zurückkehren.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Clear 11.10.2026: Telefon, E-Mail, Öffnungszeiten und Beschreibung werden wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege und offenen Rechtsträgerzuordnung explizit über clear_fields zurückgenommen. Altwerte/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]
+
+- [Korrektur 11.10.2026: Frische Rechtsträgersuche liefert zwei Creditreform-Profile im Suchindex: R. Müller Altmetallhandel GmbH und Rudolf Müller Altmetall + Schrott e.K. Inhaber Eva u. Ina Müller, HRA 68506. Die frühere Aussage „kein HR-Beleg gefunden“ ist damit als Suchbefund überholt, aber keine identitäts-/nachfolgesichere Zuordnung erreicht. Domain https://www.mueller-altmetall.de/ Direktabruf Transportfehler; nicht tot/geschlossen behaupten. Verzeichnis-Ausnahmefills in street/postcode/phone/email/opening_hours sowie unbelegte Materialbeschreibung geleert; aktiv auf pruefung. Frühere Kandidatenkontakte/Historie bleiben erhalten, kein fremder Rechtsträger übernommen. Ankauf/Verkauf/Gebühren ohne gelesene Betreiberliste; GEO nach Rechtsform-/Standortprüfung. Quelle: https://firmeneintrag.creditreform.de/81829/8170893280/R_MUELLER_ALTMETALLHANDEL_GMBH ; https://firmeneintrag.creditreform.de/81829/8170312783/RUDOLF_MUELLER_ALTMETALL_SCHROTT_E_K_INHABER_EVA_U_INA_MUELLER ; https://www.mueller-altmetall.de/]
 
 ### Recherche 02.10.2026
 

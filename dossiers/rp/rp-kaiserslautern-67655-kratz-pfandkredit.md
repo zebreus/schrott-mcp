@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Erreichbare Betreiber-Landingpage „Pfandkredit Christian Kratz“ bleibt eine Übergangsseite. Sie nennt Kaiserslautern, ehemals Leihhaus Wiewecke, Alleestraße 8, 67655, Telefon 0631 61440, Mo–Fr 09:30–18:00, Sa 09:30–14:00; daneben fünf weitere Städte, deren Kontakte nicht hierher übertragen werden. Kein aktuelles Impressum/Register-/Filialidentitäts-Zweitbeleg in diesem Abruf, daher Straße/Telefon/Zeiten weiterhin Timeline-only.
+
+**Ankauf:** Goldankauf aus der Historie, aber auf der aktuellen Übergangsseite weder Materialkurs noch konkrete Ankaufbedingung. **Verkauf:** keine Händlerliste. **Gebühren:** keine individuellen Pfandkredit-/Servicekonditionen; gesetzliche Pfandtarife wären keine veröffentlichte Händlerpreisliste. **Geo:** Alleestraße 8 als Betreiber-Einzelbeleg, unabhängige Filialbestätigung vor Freigabe. Status/Website unverändert, keine Übertragung aus Karlsruhe oder Schwesterfilialen.
 
 ## Timeline
+
+### Recherche 11.10.2026 (Wave E)
+
+- [Recherche 11.10.2026: Root erneut direkt HTTP 200 gelesen: unveränderte Übergangsseite mit Kaiserslauterner Adresse/Telefon und den oben getrennt dokumentierten Zeiten; keine verlinkten Impressums-/Preisunterseiten im gelesenen HTML. Filialkontakt nicht mit anderen Städten vermischt. Kein aktueller Goldkurs, Materialverkauf oder Händler-Gebührentarif gelesen. Belegstand bleibt Einzelquelle, Stammdatenfills offen; Quelle: https://pfandkredit-kratz.de/ .]
 
 ### Recherche 05.10.2026
 

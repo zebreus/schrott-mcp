@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Jimdo-Kandidat für Haushaltsauflösung/Entrümpelung bleibt auf Start- und Impressumsseite **403-blockiert**. Leonard Mulaj/Baro2/57368Lennestadt-Halberbracht/015128822038 ist weiterhin nur der alte Cylex-Lead; dessen Suchseite liefert beim erneuten Direktabruf ebenfalls403. Neue Suche fand keinen zugänglichen identitätsklärenden Betreiberbeleg. Kein bewiesener Alias zwischen L.Mulaj und Leonard Mulaj, keine bestätigte Schrottankaufstätigkeit aus Entrümpelungswerbung.
+
+Die im alten Vermerk unterschiedlich gruppierten Mobilnummern sind zifferngleich; dies war bereits03.10. korrigiert und ist kein Identitätsnachweis. Website/Kontakte/Adresse bleiben leer; `website_status: unbekannt` betrifft die ungeklärte Zuordnung, nicht einen behaupteten Domainausfall. Keine Ankauf-/Verkaufs-/Gebührenliste verifiziert. Owner: zugängliches Impressum/Gewerbe-/Adressnachweis, heutige Tätigkeit und Abholung versus Annahme klären; erst dann GEO. Abrufgrenzen: https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/ ; https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/impressum/ ; https://www.cylex.de/suche/lennestadt/mulaj
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Eigene neue Suche nach L./Leonard Mulaj und Lennestadt sowie Direktabrufe der Jimdo-Start-/Impressumsseite weiterhin403, Cylex-Suchseite403. Kein Inhalt/Betreiber aus blockiertem Abruf erfunden, keine heutigen Preise/Leistungen bestätigt. Alter Baro2-/Telefonlead bleibt unbestätigt; bereits korrigierte Zifferngleichheit der unterschiedlich formatierten Nummern erhalten, kein neuer Widerspruch behauptet. Historischer Backyard-Typ und Sternebewertungen kein qualifizierter Betriebstyp-/Existenzbeleg. Keine Frontmatter-Fills, pruefung bleibt; Ankauf/Verkauf/Gebühren und Hofannahme offen. GeoBedarf: Adresse/Gewerbe/Annahme erst bestätigen. Quelle(n): https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/ (403); https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/impressum/ (403); https://www.cylex.de/suche/lennestadt/mulaj (403)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

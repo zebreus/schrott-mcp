@@ -4,14 +4,15 @@ name: Heinrich Kleinschmidt RohProd.
 trader_type: schrotthaendler
 state: HE
 city: Spangenberg 34286
-street: Untergasse 5
-postcode: 34286
-phone: 05663 7145
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Heinrich Kleinschmidt RohProd. ist bisher nur als Verzeichnis-/Schrottportallead greifbar: Untergasse 5, 34286 Spangenberg, 05663 7145. Frische exakte Suche ergibt erneut keine gelesene Betreiber-, Register- oder Kommunalquelle. Branchenbuch-Aktualisierungsdaten sind kein Aktivitätsnachweis. Frühere Adresse-/Telefonfills und Aktivstatus deshalb zurückgenommen; nicht als Schließung verstehen.
+
+Ankauf/Verkauf/Gebühren ohne primär belegte Listen; „RohProd.“ nicht zu einem bestätigten Sortiment ausbauen. Inhaber und aktueller Betriebs-/Anlieferungsstandort kommunal klären. Keine automatische GEO-Annahme: Rust geocodiert laut README nicht; Untergasse 5 erst bei Standortbestätigung, vorhandene DB-GEO ggf. Owner prüfen.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]
+
+- [Korrektur 11.10.2026: Neue exakte Namens-/Ortssuche findet Das Örtliche/11880/Schrottportale, keine qualifizierte Primärbestätigung. street/postcode/phone-Verzeichnisfills vom 02.10. geleert und aktiv auf pruefung. Branchenbuch-Updated-Datum ist kein Betreiberlebenszeichen. Frühere Aussage automatisch laufender Geocodierung ist nicht README-konform: Rust geocodiert nicht, keine GEO-Veränderung durch diese Recherche. Untergasse 5/34286/05663 7145 bleiben Kandidaten in der Historie; Ankauf/Verkauf/Gebühren unbestätigt, kommunale Inhaber-/Standortprüfung erforderlich. Quelle: https://www.dasoertliche.de/Themen/Kleinschmidt/Spangenberg.html ; https://www.11880.com/suche/schrotthandel/spangenberg ; https://www.schrottplatz.org/spangenberg/schrott-kleinschmidt-heinrich-rohprod-aYEPHA.html (Suchindex-Leads)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

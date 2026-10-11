@@ -4,9 +4,10 @@ name: Pohl Anita
 trader_type: sonstige
 state: HE
 city: Bad Emstal 34308
-street: Wichdorfer Str. 2
-postcode: '34308'
-phone: (05624) 8510
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Anita/Arthur Pohl in Bad Emstal-Merxhausen bleibt ein ungeklärter Verzeichnislead (Wichdorfer Str. 2, 34308, 05624 8510). Die bisherige Behauptung „korrekt belegt“ gilt nicht nach README: zwei Branchenbücher sind keine zwei qualifizierten Belege, und die Namensvariante ist ungelöst. Kontaktskalare deshalb entfernt, Historie bewahrt; kein Schließungsnachweis.
+
+Primärgegenprobe motorenmeister.de: Anita & Marc Pohl GmbH & Co. KG, Homberger Str. 49, 34587 Felsberg-Gensungen, HRA 16296; deren Komplementärin hat HRB 11971. Diesen Registerwert nicht dem Merxhausener Seed zuordnen. Weder Namens-/Standortwechsel noch verwandtschaftliche Beziehung belegt. Ankauf/Verkauf/Gebühren des Seeds ohne belastbare Liste. Gewerberegister Bad Emstal und aktuelle Standortbestätigung nötig; vorher kein GEO-Fill.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]
+
+- [Korrektur 11.10.2026: Neues direkt gelesenes Impressum des Felsberger Namesakes trennt HRA 16296 (Anita & Marc Pohl GmbH & Co. KG) von HRB 11971 (VerwaltungsGmbH). Beides kein Registerbeleg für Anita/Arthur Pohl in Merxhausen. Frische Namenssuche ergab keine qualifizierte Primärquelle für den Seed. Aggregator-Konsens aus 02.10. nicht als verifiziert fortschreiben: street/postcode/phone geleert, Kandidatenwerte/Historie bleiben erhalten, status pruefung. Preise Ankauf/Verkauf/Gebühren nicht belegt; kein Schließungsurteil. GEO für Wichdorfer Str. 2 erst nach kommunaler Identitäts-/Standortklärung. Quelle: https://motorenmeister.de/impressum/ ; https://pohl-motoren.de/impressum/ (Suchindex-Gegenlead)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

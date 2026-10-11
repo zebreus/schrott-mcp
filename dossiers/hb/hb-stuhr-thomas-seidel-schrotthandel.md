@@ -10,7 +10,7 @@ phone: 04206 349
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Stuhr liegt in Niedersachsen; `state: NI` und stabiler Slug/Pfad unter `dossiers/hb/` bleiben erhalten. Der direkt gelesene Gelbe-Seiten-Eintrag nennt **nur28816 Stuhr und04206349**, keine Straße. „Website“ ist dort ein allgemeiner Bedienpunkt, keine ausgelesene Händlerdomain. Offizieller Gemeindeauftritt bestätigt den Ort, nicht das Unternehmen. Seedtelefon bleibt als unbestätigter Alt-Lead erhalten; keine Straße/PLZ/Kontakte geraten. Ankauf-/Verkaufs-/Gebührenlisten und öffentliche Annahme nicht belegt. Owner: Betreiber-/Gewerbeidentität sowie konkrete Zustell-/Annahmeadresse vor GEO klären; keine Gemeindezentrumskoordinaten. Quellen: https://www.stuhr.de/ ; Lead: https://www.gelbeseiten.de/gsbiz/0b3c0632-e707-4cc0-b31b-6129afdc516d
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Manifestpfad dossiers/hb bewusst benutzt, nicht aus stateNI neu konstruiert. Offiziellen Stuhr-Auftritt und Gelbe-Seiten-Detail direkt gelesen; Unternehmenslead weiterhin nur28816 Stuhr/04206349 ohne Straße. Gemeindequelle ist Ortsnachweis, kein unabhängiger Existenz-/Gewerbenachweis des Schrotthandels. Neue Suche lieferte ausschließlich Telefon-/Branchenportale, keinen verifizierbaren Betreiberauftritt. Keine Frontmatter-Fills außer website_status unbekannt; vorhandenes Telefon nicht neu bestätigt. Ankauf-/Verkaufs-/Gebührenlisten unbekannt. GeoBedarf: vollständige bestätigte Annahmeadresse erforderlich, stateNI kein Umzug und kein GEO-Auftrag. Quelle(n): https://www.stuhr.de/ ; https://www.gelbeseiten.de/gsbiz/0b3c0632-e707-4cc0-b31b-6129afdc516d (Lead)]
 
 ### Recherche 04.10.2026
 

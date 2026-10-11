@@ -1,12 +1,13 @@
 ---
 slug: he-eschborn-65760-pfaff-alexander
 name: Pfaff Alexander
-trader_type: mobil
+trader_type: sonstige
 state: HE
 city: Eschborn 65760
-street: Am Burggraben 7 c
-postcode: '65760'
-phone: (0172) 3694337
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Alexander Pfaff Schrotthandel bleibt Verzeichnislead (Am Burggraben 7 c, 65760 Eschborn, 0172 3694337). Eigene Namens-/Ortssuche findet 11880 und Öffnungszeitenbuch, aber keine gelesene Betreiber-/Register-/Kommunalquelle. „evtl. mobil“ im Import ist eine Hypothese, kein belegter Händlertyp; daher sonstige statt mobil. Unverifizierte Kontaktskalare entfernt, Prüfstatus bleibt.
+
+Ankauf/Verkauf/Gebühren ohne primär belegte Liste. Kein Abholdienst oder öffentliche Anlieferung bestätigt. Kommunale Inhaber-/Standortprüfung vor GEO; Wohn-/Kontaktadresse nicht automatisch Schrottplatzpunkt.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]
+
+- [Korrektur 11.10.2026: Neue exakte Suche Alexander Pfaff/Eschborn/Schrotthandel zeigt nur 11880/Öffnungszeitenbuch, keine qualifizierte Primärquelle. Kandidatenadresse Am Burggraben 7 c, 65760 und 0172 3694337 bleiben in der Recherche, street/postcode/phone aus Frontmatter geleert. trader_type mobil war aus „evtl. mobil“ abgeleitet, auf sonstige zurückgenommen; kein Abhol-/Anlieferungsobjekt erfunden. Preise Ankauf/Verkauf/Gebühren nicht primär bestätigt; kommunale Prüfung nötig, GEO erst nach Art/Standortklärung. Quelle: https://www.11880.com/branchenbuch/eschborn-taunus/060440092B102010443/alexander-pfaff-schrotthandel.html ; https://www.oeffnungszeitenbuch.de/filiale/Eschborn-Alexander%2520Pfaff%2520-%2520Schrotthandel-3140238H.html (nur Suchindex-Leads)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,11 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
+Neue Social-Spur: Facebook `HartmannRecyclingDarmstadt` wirbt im Suchindex für Recycling/Demontage/Entrümpelung/Entsorgung. Direktabruf lieferte keinen auswertbaren Profilinhalt; Inhaber/Impressum/Adresse nicht verifiziert. Das ist ein konkreter Folgeprüfansatz, aber kein Beleg zur Entflechtung HaRec/FKS. GEO für Gehaborner Weg 2 bleibt bis dahin bedingt.
+
 „Hartmann Recycling“ ist in den Akten nur als Branchenverzeichnis-Eintrag belegt. Gehaborner Weg 2, 64293 Darmstadt und 01578 6795832 erscheinen in Verzeichnisquellen; am selben Ort werden auch HaRec und FKS Recycling geführt. Eine Betreiber-, Register- oder Kommunalquelle belegt weder einen eigenständigen Hartmann-Betrieb noch eine Verbindung zu den beiden anderen Anbietern. Straße, PLZ und Telefon sind deshalb aus dem Frontmatter entfernt, nicht als Umzug oder Schließung interpretiert.
 
 **Preise:** Kein Betreiber-Ankauf belegt und keine numerische Ankaufpreisliste gefunden; Verkaufspreise und Gebühren sind in den ausgewerteten Quellen nicht veröffentlicht. Öffentliche Annahme/Abholung ist ungeklärt.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Neue mögliche Primärspur: Facebook HartmannRecyclingDarmstadt; Suchindex nennt Hartmann Recycling, Darmstadt und Eigenwerbung Recycling/Demontage/Entrümpelung/Entsorgung. Direktabruf der Profilseite liefert keinen auswertbaren Inhalt; Accountinhaber, Anschrift und Impressum nicht gelesen. hartmann-recycling.de erneut Direktabruf Transportfehler. Frühere absolute Aussage „keine Betreiberquelle“ präzisiert: Social-Kandidat existiert im Index, aber noch kein qualifizierter Identitäts-/Standortnachweis. Kein Aktiv-/Kontaktfill, kein Merge mit HaRec/FKS. Ankauf/Verkauf/Gebühren nicht verifiziert; GEO für Gehaborner Weg 2 erst nach Entflechtung. Quelle: https://www.facebook.com/HartmannRecyclingDarmstadt/ ; https://www.hartmann-recycling.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

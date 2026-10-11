@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Töpferweg47/23558 Lübeck und01602630207 sind weiterhin nur Verzeichnisleads, keine aktuell unabhängig belegte Betreiberidentität oder öffentliche Annahme. Die live gelesene11880-Seite verlinkt als „Website“ lediglich schrottplatz-info.de, also ein Fremdverzeichnis. topschrott.de transportgestört, Zuordnung nicht bewiesen. Status `aktiv` beruhte auf der am02.10. eingetragenen Verzeichnis-Ausnahme; am11.10. nach Quellenstandard auf `pruefung` korrigiert, ohne Schließung zu behaupten. „Geschlossen bis Mo.,08:00“ im Portal bezeichnet nur die Wochenendpause.
+
+Kontakte/Zeiten nicht aus Portalen gefüllt; vorhandene Straße/PLZ als Alt-Lead erhalten. Keine Ankauf-/Verkaufs-/Gebührenliste identifiziert. Owner: rechtlichen Betreiber (Torsten Pädtke bleibt unbestätigter Alt-Lead), heutige Existenz und Annahme Töpferweg47 anhand Gewerbe-/Betreiberbeleg bestätigen, danach GEO. Quelle (Lead): https://www.11880.com/branchenbuch/luebeck/060440092B100961638/topschrott-schrott.html ; https://topschrott.de/ (Transportfehler)
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Quellenkritische Statuskorrektur aktiv zu pruefung: neue Suche und direkt gelesener11880-Detaillead liefern weiterhin keine primäre Betreiber-/Aktivitätsbestätigung. Portaladresse/Telefon/Zeiten kongruent zur Altrecherche, Website-Link wiederum ausschließlich Fremdverzeichnis; topschrott.de erneut Transportfehler ohne belegte Zuordnung. Am04.10. ausdrücklich nicht überschriebener Aktivstatus wird jetzt im Qualitätsauftrag anhand seiner dokumentierten reinen Verzeichnisbasis korrigiert. Keine dauerhafte Schließung/kein heutiger Ankauf oder neuer Kontakt behauptet; Seedstraße/PLZ bleiben unbestätigte Leads. Kein numerischer Ankauf-, Verkaufs- oder Gebührentarif gefunden; GEO erst nach Gewerbe-/Betreiber-/Annahmebestätigung. Quelle(n): https://www.11880.com/branchenbuch/luebeck/060440092B100961638/topschrott-schrott.html (nur Lead); https://topschrott.de/ (Transportfehler)]
 
 ### Recherche 04.10.2026
 

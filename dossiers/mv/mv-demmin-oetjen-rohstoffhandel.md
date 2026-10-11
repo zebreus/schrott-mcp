@@ -28,6 +28,10 @@ Wichtige Präzisierung: NorthData führt Oetjen Rohstoffhandel GmbH und Oetjen M
 
 ## Timeline
 
+### Recherche 11.10.2026 (Wave E)
+
+- [Recherche 11.10.2026: NorthData-Profil HRB 3806 direkt erneut gelesen: drei Namen HATRA / Oetjen Rohstoffhandel / Oetjen Metall- und Wertstoffhandel, Liquidation 28.01.2021, Löschung 16.01.2023. Es nennt nur Demmin als Adresse, keine unabhängig bestätigte Hausnummer 2B. Registergegenstand umfasst Rohstoffhandel, Gebrauchtfahrzeuge, Stahlhandel, Transporte und Erdarbeiten; daraus keine heutige Publikumsannahme oder Betreiberfortsetzung ableiten. Der Gegenstand ist auch keine aktuelle Preisquelle. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare aktuelle Liste. Geo-Sperre für Legacy-Adresse bis heutiger Grundstücks-/Betreiberbeleg; amtlicher Auszug und Gewerbeauskunft bleiben sinnvolle Folgeschritte. Quelle: https://www.northdata.de/Oetjen+Metall-+und+Wertstoffhandel+GmbH,+Demmin/HRB+3806 .]
+
 ### Recherche / Präzisierung 08.10.2026 (Welle Mittenordost)
 
 - NorthData direkt einschließlich früherer Namen: HATRA Handel- und Transport-GmbH → Oetjen Rohstoffhandel GmbH (Namens-/Adressänderung 30.03.2012) → Oetjen Metall- und Wertstoffhandel GmbH (15.02.2013), alles AG Neubrandenburg HRB 3806. Liquidation laut Profil 28.01.2021, Löschung 16.01.2023. Die Behauptung aus Vorwellen, kein Registerhinweis für „Rohstoffhandel“ beziehungsweise nur ungeklärte Namensähnlichkeit, wird auf Quellenebene korrigiert. Historie unverändert erhalten. Quelle: https://www.northdata.de/Oetjen+Metall-+und+Wertstoffhandel+GmbH,+Demmin/HRB+3806

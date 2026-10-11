@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische KG und fortbestehendes GmbH-Profil müssen getrennt bleiben: NorthData führt die Dossier-KG HRA 31909 B mit Löschung 09.10.2007, die ähnlich benannte GmbH HRB 78212 B dagegen mit Bahnhofstr. 31 und Beteiligungs-/Beherrschungsbezügen zur Niemann-Gruppe. Ein Konzernzusammenhang ist damit registerabgeleitet erkennbar; er beweist weder KG→GmbH-Rechtsnachfolge noch heutigen öffentlichen Berliner Ankaufhof.
+
+NIEMETs Impressum nennt Metal-Marketing GmbH Bremen, die Vertriebsnetzseite Manfred J.C. Niemann Zentrale KG/Bremen. Kein Berliner standortspezifischer Betreiber-/Annahmebeleg; Domain deshalb nicht attribuiert. **Ankauf:** nicht bestätigt. **Verkauf:** NE-Halbzeugportfolio bei NIEMET, aber nicht als Berliner Herbig-Angebot belegbar; keine Preisübernahme. **Gebühren:** keine zugeordnete Liste. **Geo:** Bahnhofstr. 31 bleibt Legacy-/Registerkandidat, keine koordinatenbereite öffentliche Annahme. Keine Rename-/Merge-Entscheidung.
 
 ## Timeline
+
+### Recherche 11.10.2026 (Wave E — Konzernbezug ist keine Standortkette)
+
+- [Recherche 11.10.2026: Beide NorthData-Profile direkt neu gelesen: KG HRA 31909 B Löschung 09.10.2007, Kommanditist Manfred J.C. Niemann Zentrale KG bei Eintragung 04.01.2005; GmbH HRB 78212 B, Bahnhofstr. 31, nennt frühere Firma Rich. Herbig Metallhandel Berlin Beteiligungsgesellschaft mbH und Beherrschungs-/Gewinnabführungsvertrag mit Niemann Beteiligungs-GmbH sowie gruppenbezogene Publikationen 2025/2026. Damit ist pauschales „kein Zusammenhang“ zu eng: Konzernbezug erkennbar, aber weder aktuelle Berliner KG noch Rechtsnachfolge belegt. NIEMET-Impressum/Vertriebsnetz erneut direkt gelesen: Websitebetreiber Metal-Marketing GmbH, konkrete Anfahrt Bremen. Keine Berliner Standortattribuierung und keine Material-/Preisübernahme. Quellen: https://www.northdata.de/Rich.+Herbig+Metallhandel+Berlin+GmbH+%26+Co.+KG,+Berlin/Amtsgericht+Charlottenburg+(Berlin)+HRA+31909+B ; https://www.northdata.de/Rich.+Herbig+Metallhandel+Berlin+GmbH,+Berlin/Amtsgericht+Charlottenburg+(Berlin)+HRB+78212+B ; https://www.niemet.de/impressum.htm ; https://www.niemet.de/vertriebsnetz.htm .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

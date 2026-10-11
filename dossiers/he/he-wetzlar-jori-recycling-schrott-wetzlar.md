@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neue mögliche Betreiberkanäle: Facebook „Jori Recycling“ mit indexierter Schrottabholungswerbung für Wetzlar (Beitrag 2021) und eine Kleinanzeigen-Anzeige „Kostenlose Schrott Abholung“ vom gewerblichen Profil Jori Recycling. Facebook-Direktabruf endet an Loginwall, Kleinanzeigen bei HTTP 403; Impressum, Inhaber und genaue Anschrift nicht gelesen. Ein Infobel-Lead nennt nur Siegmund-Hiepe-Straße/35578 Wetzlar ohne belastbare Hausnummer. Keine Kontaktskalare oder Domainzuordnung übernehmen.
+
+Ankauf: kein Zahlenpreis verifiziert und Abholung ist kein Ankaufnachweis. Verkauf: keine verifizierte Liste. Gebühren: „kostenlose Abholung“ nur im Anzeigen-Suchindex, Bedingungen unbekannt; nicht pauschal als kostenlose Entsorgung speichern. Öffentliches gewerbliches Impressum/Betreiberantwort nötig; GEO ohne genaue bestätigte Adresse nicht sinnvoll.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Eigene Jori/Wetzlar-Suche findet Betreiber-Social-/Anzeigenkandidaten: Facebook-Beitrag Schrott/Schrottabholung/Wetzlar im Suchindex (2021), Kleinanzeigen „Kostenlose Schrott Abholung“ mit gewerblichem Profil Jori Recycling. Direktabrufe Facebook Loginwall und Kleinanzeigen 403; rechtlicher Inhaber/Impressum/Adresse/Servicebedingungen nicht geprüft. D&B-Suchindex führt Jori Recycling Schrott Wetzlar in Wetzlar, ist ohne Vollprofil keine Identitätsbrücke. Kein Aktiv-/Kontaktfill. Ankauf/Verkauf keine Zahlenlisten gelesen, Gebühren nur unbestätigte kostenlose Abholwerbung; keine pauschale Kostenfreiheit. GEO nach genauem Standort-/Inhaberbeleg. Quelle: https://www.facebook.com/100071103889074/photos/schrott-schrottabholung-wetzlar/355683816152092/ ; https://www.kleinanzeigen.de/s-anzeige/kostenlose-schrott-abholung/3503729439-298-4846 ; https://www.dnb.com/business-directory/company-information.miscellaneous_durable_goods_merchant_wholesalers.de.hessen.wetzlar ; https://www.infobel.com/de/germany/jori_recycling_schrott_wetzlar/wetzlar/DE111727597/businessdetails.aspx]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -4,9 +4,10 @@ name: Mertel Autoverwertung
 trader_type: autoverwertung
 state: BY
 city: Sennfeld 97526
-street: Schweinfurter Str. 6
-postcode: '97526'
-phone: 09721 5411644
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Mertel bleibt ungeklärter Verzeichnislead: Schweinfurter Str. 6 bzw. 6–8, 97526 Sennfeld, 09721 5411644. Frische allgemeine Suche sowie gezielte Suchen auf Stadt-/Landkreis-Schweinfurt und ZKS-Fachbetrieberegister liefern keinen verwertbaren Primärtreffer. Das ist **keine vollständige Registerabfrage** und kein Nachweis einer fehlenden Zulassung, Schließung oder Nichtexistenz. Im Import erwähnter Northdata-Beleg hat keine konkrete URL/Registerkennung und ist nicht nachvollziehbar verifiziert.
+
+Verzeichnisbasierte Kontaktskalare zurückgenommen, Prüfstatus erhalten. Ankauf/Verkauf/Gebühren ohne verifizierte Zahlenlisten; Autoverwertung impliziert weder kostenlosen Fahrzeugankauf noch gratis Entsorgung. Owner: Gewerbeauskunft Sennfeld/Landkreis und aktuelle Demontagezulassung prüfen; Hausnummernkonflikt vor GEO klären.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungs-/Zulassungsnegativnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]
+
+- [Korrektur 11.10.2026: Namens-/Ortssuche erneut nur Verzeichnisfund. Gezielte Websuchen Mertel/Sennfeld auf schweinfurt.de, schweinfurt-land.de und fachbetrieberegister.zks-abfall.de ohne verwertbare Treffer; keine Vollabfrage amtlicher Demontageregister, daher keine negative Zulassungsbehauptung. Northdata im Import nicht mit URL/Registernummer nachvollziehbar, GS+11880 sind keine qualifizierten Zweitbelege. street/postcode/phone-Aggregatorfills geleert, Kandidaten Schweinfurter Str. 6/6–8, 97526, 09721 5411644 bleiben im Überblick/Historie; weiter pruefung. Ankauf/Verkauf/Gebühren nicht primär bestätigt. GEO erst nach Inhaber/aktueller Hausnummer/Zulassung; vorhandene DB-GEO ggf. Owner prüfen. Quelle: https://www.11880.com/branchenbuch/sennfeld-unterfranken/060444720B112947840/autoverwertung-mertel.html (Suchindex-Lead); bisheriger GS-Lead https://www.gelbeseiten.de/gsbiz/866e17c9-18eb-437e-8f61-046c3a5057a0]
 
 ### Recherche 02.10.2026
 

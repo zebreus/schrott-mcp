@@ -24,6 +24,8 @@ provenance_origin: table
 
 ## Überblick
 
+**Zertifikatswarnung (11.10.2026):** Das tatsächlich veröffentlichte IWA-Zertifikat 124/2010/25 war nur bis 20.07.2026 gültig. Keine aktuelle Efb-Gültigkeit aus der weiterhin erreichbaren Zertifikatsseite ableiten; Nachfolgezertifikat beim Betreiber/IWA anfordern. Kein Schließungsnachweis.
+
 Familienbetrieb mit Betreiberin Veronika Rösler. Die eigene Website bietet ausdrücklich Schrott-/Metallankauf für Privat und Gewerbe, Barzahlung oder Überweisung zu Tagespreisen, Container von 1–34 m³ sowie Industriedemontagen an. Aktuelle Betriebsruhe-Hinweise für Oktober/November 2026 sprechen für gepflegte Inhalte.
 
 Adresse und Kontakt bleiben mangels unabhängiger Bestätigung Timeline-only. Die Einzelunternehmer-Website erfüllt die registergebundene Betreiber-Ausnahme der README nicht; mehrere Unterseiten oder ein dort veröffentlichtes Zertifikat sind keine zweite Quelle. Die Öffnungszeiten enthalten zusätzlich tägliche Pausen, die bei einem späteren Fill nicht fehlen dürfen.
@@ -31,6 +33,10 @@ Adresse und Kontakt bleiben mangels unabhängiger Bestätigung Timeline-only. Di
 **Preise:** **Ankauf** — Tagespreise, bar oder Überweisung; keine numerischen Raten veröffentlicht. **Verkauf** — sortierte Schrotte/Vormaterial und NE-Metalle für Verarbeiter werden angeboten, aber ohne öffentliche Verkaufspreise. **Gebühren** — Containergrößen 1–34 m³; kostenfreie Container laut Betreiber nur für Daueranfallstellen, sonstige Tarife auf Anfrage/nicht veröffentlicht. **Geokodierung:** Gewerbering Nord 18, 01900 Großröhrsdorf OT Bretnig ist ein Adresskandidat aus der Betreiberquelle; Koordinate noch nicht geschrieben und vor Freigabe unabhängig gegen Standort/Anfahrt prüfen.
 
 ## Timeline
+
+### Recherche 11.10.2026 (Wave E — Zertifikatsgrenze)
+
+- [Recherche 11.10.2026: Zertifikatsseite und Originalbild Seite 1 direkt gelesen: IWA Ingenieur- und Beratungsgesellschaft mbH, Zertifikat 124/2010/25, Vorgang ZZPT004001590008, Prüfung 26.02.2025, Ausstellung 01.04.2025, ausdrücklich gültig nur bis 20.07.2026. Am Recherchetag abgelaufen; die allgemeine Websiteaussage „zertifizierter Entsorgungsfachbetrieb“ darf nicht als verifizierte aktuelle Zertifizierung übernommen werden. Dokument nennt Gewerbering Nord 18, 01900 Großröhrsdorf und „Register: Nicht zutreffend“. Anlage 1 (Bild Seite 2) betrifft Sammeln/Befördern, Kennnummer SD92255719; weder universelle Annahmezusage noch Preisbeleg. Betreiberhost bleibt derselbe Quellenkanal, keine neue unabhängige aktuelle Adressbestätigung. Kontakt mit Pausen erneut direkt bestätigt, Frontmatter-Kontakte unverändert. Quellen: https://schrott-roesler.de/zertifikat/ ; https://schrott-roesler.de/wp-content/gallery/zertifikat/Zertifikat_2025_1_v_7.jpg ; https://schrott-roesler.de/wp-content/gallery/zertifikat/Zertifikat_2025_2_v_7.jpg ; https://schrott-roesler.de/kontakt/ .]
 
 ### Recherche 07.10.2026
 

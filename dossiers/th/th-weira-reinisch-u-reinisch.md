@@ -28,6 +28,10 @@ Zwei Verzeichnisse führen Reinisch u. Reinisch als Autoverwertung/Abschleppdien
 
 ## Timeline
 
+### Recherche 11.10.2026 (Wave E)
+
+- [Recherche 11.10.2026: Öffnungszeitenbuch erneut direkt HTTP 200, keine Betreiber-Website über dessen ausgehende Links identifiziert. NorthData-Namenssuche direkt gelesen, unscharfe Reinisch/Weinisch-Treffer außerhalb Weiras, kein zuordenbares Firmenprofil; kein vollständiger Register-Negativnachweis. Offizielles gadsys-Altfahrzeugregister HTTP 200 als Anwendung erreichbar, aber kein standortspezifischer Anerkennungsdatensatz in diesem Abruf auswertbar. Ein erreichbares Register-Frontend ist keine Anerkennungsbestätigung und fehlender HTML-Datensatz keine Ablehnung. ANKAUF keine bestätigten Fahrzeugbeträge, VERKAUF keine Teileliste, GEBÜHREN keine Altauto-/Abschlepptarife. Geo: Ortsstr. 63b bleibt Verzeichnislead, erst Betreiber-/Anerkennungsabgleich. Quellen: https://www.oeffnungszeitenbuch.de/filiale/Weira-Reinisch+u.+Reinisch+Autoverwertung+und+Abschleppdienst-1913481C.html ; https://www.northdata.de/Reinisch,+Weira ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Direkt gelesene Verzeichnis-Leads: Öffnungszeitenbuch nennt Reinisch u. Reinisch Autoverwertung und Abschleppdienst, Ortsstr. 63B, 07806 Weira, 036481 22381, aber keine Öffnungszeiten oder Betreiber-Website/E-Mail. OrtDienst führt Reinisch & Reinisch Altfahrzeugverwertung an Ortsstr. 63b, 07806 Weira mit demselben Telefon; abweichender Lausnitz-Breadcrumb ist kein anderer Betriebssitz. Allgemeine Portaltexte zu Abfall-/Elektrogeräteannahme sind keine betreiberspezifischen Leistungszusagen. Quellen (Leads): https://www.oeffnungszeitenbuch.de/filiale/Weira-Reinisch+u.+Reinisch+Autoverwertung+und+Abschleppdienst-1913481C.html ; https://www.ortsdienst.de/thueringen/saale-orla-kreis/lausnitz-bei-neustadt-an-der-orla/schrottplatz/reinisch-und-reinisch-altfahrzeugverwertung-inst368526/ .]

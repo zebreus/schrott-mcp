@@ -28,6 +28,10 @@ Mehrere Branchenportale führen „Schrott und Metall Reimann“ an der Daimlers
 
 ## Timeline
 
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Korrektur vom06.10. beibehalten und genauen 11880-Detaillead neu direkt gelesen: Schrott und Metall Reimann Metallschrotthandlung, Daimlerstr.12, 50859 Köln-Lövenich, 02234 4305969; Website/Mail/Zeiten dort nicht hinterlegt. Neue Suche weiterhin nur übereinstimmende Branchenportale, kein zuordenbares Betreiberimpressum oder kommunaler Identitätsbeleg. Portal-Preisrange-FAQ enthält keine Material-/Einheitsbeträge. Vorhandene Adresse/Telefon sind Alt-Leads, keine heutige Verifizierung; keine neuen Frontmatter-Fills/kein Rückwechsel auf aktiv. Ankauf-/Verkaufs-/Gebührenliste nicht gefunden. Owner: vollständiger Betreibername/Gewerbe und öffentlich zugänglicher Annahmestandort vor GEO bestätigen; keine fremden Reimann-Betriebe zuordnen. Quelle(n): https://www.11880.com/branchenbuch/koeln/120674719B44130217/schrott-und-metall-reimann-metallschrotthandlung.html (nur Lead)]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Fill Strasse/PLZ/Tel. (Daimlerstr. 12, 50859 Koeln-Loevenich, 02234 4305969), Status pruefung zu aktiv — Beleglage offengelegt: vier uebereinstimmende Verzeichnisquellen (11880-Detailseite, stadtbranchenbuch-Detailseite, schrottplatz24, werkenntdenBESTEN), kein Betreiber-Webauftritt, kein HR-Treffer; Ausnahmefall mit Restunsicherheit; Quelle(n): 11880.com/schrott-und-metall-reimann-metallschrotthandlung, koeln.stadtbranchenbuch.com/4559164 (Vollabruf 02.10.2026: Adresse+Tel. bestaetigt), schrottplatz24.net/stadt/koeln, werkenntdenbesten.de/schrotthandel/koeln]

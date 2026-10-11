@@ -28,6 +28,10 @@ Der Name „Entsorgung und Recycling Bernd Zauritz“ erscheint nur in Aggregato
 
 ## Timeline
 
+### Recherche 11.10.2026 (Wave E — Kontaktspur, keine Betreiberbestätigung)
+
+- [Recherche 11.10.2026: 11880 direkt erneut gelesen: Zedlitz 19, 07557, 036603 60099-0, weitere Kontaktzahl 60099-3; E-Mail aus dem Portal-HTML als zauritz@gmx.de lesbar, nur Lead, keine Website verlinkt. Portal kategorisiert Transport/Entsorgung/Recycling, bestätigt aber keinen Schrottankauf. Der Hauptkontakt 60099-0 ist weder 600995 noch Betreiberverifizierung. Keine Frontmatter-Fills und kein Geocoding. Eigenständige Namenssuche nach Entsorgung/Zauritz ohne positiven Primärtreffer; keine Schließungsfolgerung. Nächster Beleg: Betreiber-/Gewerbeidentität plus tatsächliche Annahmeleistungen, nicht allgemeiner Entsorgertext. ANKAUF/VERKAUF/GEBÜHREN weiterhin ohne belegte Liste. Quelle: https://www.11880.com/branchenbuch/zedlitz/190685388B43441230/entsorgung-und-recycling-bernd-zauritz-entsorgungsunternehmen.html (direkt gelesener Lead).]
+
 ### Nachprüfung 06.10.2026
 
 - [Nachprüfung 06.10.2026: Der Abgleich der bereits dokumentierten 11880-/AZ-Deutschland-Spuren ergibt weiterhin nur Aggregatorangaben zu „Entsorgung und Recycling Bernd Zauritz“ bzw. „Transportservice Bernd Zauritz Transporte“ an Zedlitz 19, 07557; Telefonnummern weichen zwischen 036603 60099-0 und 036603600995 ab. Kein Betreiber-/Registerbeleg verknüpft beide Bezeichnungen oder belegt Recycling, Schrottannahme oder Ankauf. Daher kein Frontmatter-Fill. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren; Preislisten nicht prüfbar. Offen: ob derselbe aktuelle Betrieb gemeint ist, welcher Rechtsträger und welche tatsächliche Anschrift. Keine Geokodierung des Aggregator-Leads bis zur Identitätsklärung. Quelle(n): https://www.11880.com/branchenbuch/zedlitz/190685388B43441230/entsorgung-und-recycling-bernd-zauritz-entsorgungsunternehmen.html ; https://www.azdeutschland.com/firma/entsorgung_und_recycling_bernd_zauritz_zedlitz_th_zedlitz_19 ; https://www.gelbeseiten.de/branchen/transportunternehmen/weida]

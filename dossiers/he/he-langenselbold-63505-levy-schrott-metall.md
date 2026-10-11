@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
+Neue Domainspur `levy-container.de` aus dem Suchindex; Direktabrufe Homepage/Impressum technisch gescheitert, daher keine Websitezuordnung. Preislisten Ankauf/Verkauf/Gebühren des Seeds nicht verifiziert; Weinbergring 33 erst bei bestätigter Betreiber-/Standortzuordnung geocodieren.
+
 Konkreter neuer Recherche-Lead: „Containerdienst und Schrotthandel Levy“, Weinbergring 33, 63505 Langenselbold, 0177 2822773. Diese Angaben erscheinen bisher nur in Verzeichnissen und sind **nicht ins Frontmatter übernommen**. Der bloß andere Ort beweist weder eine eigenständige Betreiberidentität noch eine Verbindung zum Darmstädter Levy oder KWL in Frankfurt. Betreibername, aktuelles Angebot und Identität müssen unabhängig geklärt werden.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Frische Ort-/Namenssuche nennt Weinbergring 33 weiterhin nur in Verzeichnisleads. Neu Domainlead levy-container.de aus regionalem Cybo-Suchindex; Homepage und /impressum/ direkt versucht, beide Transportfehler, kein Betreiberinhalt gelesen. Keine Zuordnung dieser Domain zu Langenselbold, Darmstadt oder KWL behauptet, website bleibt leer/status pruefung. Keine neuen Ankauf-/Verkauf-/Gebührentarife verifizierbar; Abruffehler beweist nicht, dass keine Liste oder kein Betrieb existiert. GEO für Weinbergring 33 bleibt nach Identitäts-/Adressbestätigung bedingt. Quelle: https://www.levy-container.de/ ; https://www.levy-container.de/impressum/ ; https://yellowpages-af.cybo.com/DE/langenselbold/waste-management-service (nur Suchindex-Domainlead)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

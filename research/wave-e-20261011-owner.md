@@ -1,6 +1,6 @@
 # Recherchewelle E — 2026-10-11
 
-Status: alle drei Recherche-Shards abgeschlossen; unabhängige Reviews und gemeinsamer Integrationsgate noch offen.
+Status: alle drei Quellenreviews begrenzt freigegeben; 60 Dossiers gemeinsam lokal integriert, Main-Tests und privater Seedtest grün; lokaler gemeinsamer Commit freigegeben, Veröffentlichung noch offen.
 Basis `ade525fd`. Keine Dossieränderungen auf Main in diesem Startcheckpoint.
 
 ## Auswahl und Isolation
@@ -230,3 +230,82 @@ Unabhängige weitere Reviews tatsächlich gestartet:
 Erneuter Health-/Feedbackcheck: Service active, keine Warnungen sechs Stunden,
 Feedback maximal6080 unverändert, Bestand3881/54/2426. Keine neuen Wellen-
 Dossiers auf Main, kein Push/Deployment/Prod-Clear in diesem Checkpoint.
+
+## Gemeinsame Integration nach Quellenfreigaben
+
+Süd-Nachreview bestätigte F1/F2 behoben und F3 separat korrekt dokumentiert.
+Ost/Mitte-Review zunächst19/20: Reinhardts neue Wix-Website und Website-Status
+wegen fehlender Identitätsbrücke zurückgehalten; alte Vorschläge historisch
+erhalten. Bobziens später direkt gelesene Anbieter-/Verkaufsangebote getrennt
+als Reviewbefund ergänzt, keine Metallankaufkurse oder Kontakt-/GEO-Fills.
+Nachreview bestätigte20/20 im begrenzten Quellen-/Identitäts-/Overwrite-Scope.
+
+Nordwest-Review20/20: zusätzliche unabhängige Bartsch-Registerprovenienz als
+datierte Reviewer-Feststellung dauerhaft ergänzt; Domainzuordnung begrenzt
+freigegeben, keine aktuelle Zertifizierungs-/Kontakt-/Hof-/Aktivfreigabe.
+Owner akzeptiert die drei `aktiv → pruefung`-Rücknahmen für Topschrott,
+Mairitsch und Hamburg als Rücknahme unbelegter Gewissheit, nicht Betriebs-
+änderung oder Schließung. NL-Preise bleiben strikt von Hamburg getrennt.
+
+Eigenes erneutes Scope-/Strukturgate für alle60: exakte Manifest-Dossiermengen,
+Main vor Integration jeweils bytegleich zur Basis, vollständige ursprüngliche
+Timeline-Suffixe erhalten, slug/state/city/GEO/provenance unverändert, neue
+datierte Notes, keine Überblick-Platzhalter, `git diff --check` erfolgreich.
+Alle60 Slugs via mode=ro/query_only in Prod vorhanden. Kein Prodwrite.
+Ost/Mitte und Nordwest nach Ownerkorrekturen je10 tatsächliche Seedtests grün;
+Main `cargo fmt --all -- --check` grün. Zusammenführung ersetzt finale Main-
+Tests nicht; die Reviews zertifizieren keine ungeklärten Legacy-Stammdaten.
+
+Reviewed tree artifacts über separate temporäre Git-Indizes erstellt, ohne
+Kandidatenbranch oder Kandidatenindex zu verändern; drei `cherry-pick --no-commit`
+auf Main führen60 Dossiers und3 Berichte in **einen gemeinsamen Wellen-Commit**.
+README-Deltas nicht blind übernommen, sondern3 Links gemeinsam gesetzt.
+Artefaktledger `/root/Documents/wave-e-integration-artifacts-20261011.json`:
+Süd `85ad108c`, Nordwest `fe94b5b2`, Ost/Mitte `e56b3db2`.
+Diese internen Baumobjekte sind keine separat veröffentlichten Wellencommits.
+
+Finales Main-Gate und privater Seed-Scope-Test folgen vor dem gemeinsamen
+Commit. Authentifizierter Push fehlt weiterhin; beide bisherigen pending
+Releasebinaries enthalten Wave E nicht und benötigen nach Commit einen Rebuild.
+
+## Tatsächlicher Main-Seed im privaten Produktionsklon
+
+Neue0700 Isolation `/root/schrott-mcp-wave-e-seed-rehearsal-20261011`, DB0600
+mit SQLite backup aus mode=ro/query_only (WAL-sicher). Externer Harness
+`/root/mkm-owner-unit-review/src/bin/wave_e_seed.rs` ruft die tatsächliche
+Main-`seed_metadata` auf; keine nachgebaute SQL-Simulation, kein Ingest/Prodwrite.
+Erster Buildaufruf timed out, zweiter tatsächlich erfolgreich beendet.
+
+**Wichtige korrigierte Annahme:** Normales Seed-Keep gilt für Enrichment,
+nicht street/postcode. Code `seed_traders.rs` übergibt diese direkt an den
+Upsert; der geänderte Seed überschreibt auch mit Leerwerten. Entgegen der
+früheren Dokumentation werden die neun geprüften Süd-Adresswithdrawals also
+tatsächlich angewendet. Owner akzeptiert diese als Rücknahme unqualifizierter
+Verzeichnisfills (Quellenreview ja), nicht als Standortwechsel oder Schließung.
+`clear_fields` selbst wirkt weiterhin ausschließlich auf Enrichment. Docs und
+Südbericht entsprechend korrigiert; kein neuer Clear-API-/Rust-GEO-Code.
+
+Nach tatsächlicher Anwendung alle60 Zeilen read-only geprüft: datierte Notes,
+street/postcode genau gleich zum Dossier, alle60 GEO-Paare und first_seen
+unverändert, neun genaue Enrichment-Clearsets tatsächlich leer. Alle weiterhin
+in Prod gefüllt. Reinhardt/Seiler zurückgehaltene Websites erzeugen keine neuen
+Domainfills. Bartsch/Scheuer Domainfills und TSR Name/Adresse/Kontakte sowie
+Volz/Bellmann-/Prüfstatusupdates entsprechen dem freigegebenen Quellen-Diff.
+GEO bleibt unbestätigt: insbesondere die neun withdrawn Adressen und TSRs neue
+Adresse liefern keinen neuen Koordinatennachweis. **Keine GEO-Freigabe erfunden.**
+Vollständiger60-Zeilenvergleich extern:
+`/root/Documents/wave-e-main-seed-rehearsal-audit-20261011.json`.
+
+Tatsächliche Main-Workspace-Tests erfolgreich (593 Ingestion,40 Store,16 Server,
+4 Worker plus Auth/Core; fünf explizite Livetests ignoriert, nicht als bestanden
+gezählt). Vollständige Ausgabe:
+`/root/.local/share/opencode/shell/42aa29071d6c1a29b482e0269f73393202254764/sh_12a3cda99001Xvuo9a6NSWrqlG.out`.
+Rebuild/Push/Deployment und Produktions-Postrollout bleiben separate Gates.
+
+Finales Main-Gate: erneut60 vollständige Originaltimeline-Suffixe, tatsächliche
+Repo-Enumvokabeln statt geratener Listen, datierte Notes, keine Überblicks-
+Platzhalter; `git diff --check HEAD` grün. Alle berichteten Quellenreviews
+vollständig gelesen, Source-/Deep-Link-/Preisrichtungsgrenzen enthalten.
+Python-Release-/Auditregressionen **33 bestanden**. Kein Rust-Code verändert,
+Main-Formatcheck grün. Ein gemeinsamer Commit für60 Dossiers,3 Berichte,
+README-Verweise, Ownerledger und korrigierten Seedvertrag freigegeben.

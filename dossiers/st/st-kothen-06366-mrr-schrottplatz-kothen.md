@@ -30,6 +30,10 @@ Betreiberkette/Standortgeschichte und Publikumsankauf bleiben offen; keine ALBA-
 
 ## Timeline
 
+### Recherche 11.10.2026 (Wave E)
+
+- [Recherche 11.10.2026: NorthData-HRB-201565-Profil direkt erneut gelesen: Löschung 22.05.2023 und historischer Sitz Bitterfeld-Wolfen/Halle bestätigt. Dort auch Gesellschafter-Erwähnung über Scholz vom 14.03.2024 — diese spätere Fremderwähnung hebt die Löschung nicht auf und beweist keinen aktiven Köthener Platz. Unternehmensgegenstand Schrott-/Metallhandel und Aufbereitung belegt nur Rechtsträgerhistorie. Keine Adresse Am Güterbahnhof 3 und kein aktueller Köthener Betreiber aus dem Profil verifiziert. ANKAUF/VERKAUF/GEBÜHREN keine heutige Standortliste; Geo gesperrt bis belegte Standort-/Nachfolgekette. Quelle: https://www.northdata.de/MRR+Mitteldeutsche+Rohstoff-Recycling+GmbH .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Kürzel aufgelöst: namensbezogene Köthener Suchleads führen „MRR Mitteldeutsche Rohstoff-Recycling GmbH“, Am Güterbahnhof 3, 06366 Köthen, 03496 212187. Exakte Northdata-Firmenseite ist der historische Rechtsträger mit Sitz Bitterfeld-Wolfen, HRB 201565 AG Stendal, dort als erloschen geführt. Separat gelesene Registerpublikation 22.05.2023 wörtlich „Die Liquidation ist beendet. Die Gesellschaft ist erloschen.“ Das ist belastbare Rechtsträgerhistorie, nicht nur ein verschwundener Webauftritt; Quelle(n): https://www.northdata.de/MRR+Mitteldeutsche+Rohstoff-Recycling+GmbH; https://www.northdata.de/?id=6673880380342272; https://html.duckduckgo.com/html/?q=MRR+Schrottplatz+K%C3%B6then (Suchleads); https://www.gelbeseiten.de/gsbiz/d1a052ae-d170-4d11-b298-f649e2c9720f (Lead).]

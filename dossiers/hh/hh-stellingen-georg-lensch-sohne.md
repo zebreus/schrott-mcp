@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**Kein verifizierter aktueller Autoverwerter:** Die im Seed genannte „Georg Lensch & Söhne GmbH“, Lederstr.33, ist nicht ohne Betreiberkette die fortbestehende **Georg Lensch & Söhne GmbH & Co. KG**, HRA78344, Lederstr.36–66. Deren Registerspiegel nennt Kommanditistenänderungen im August2025 und Grundstücksverwaltungs-GmbH als persönlich haftende Gesellschafterin, nicht heutigen öffentlichen Schrottankauf. Separat **Autoverwertung Lensch GmbH**, HRB37061, liquidiert 2020 und gelöscht am13.11.2023. Beides am11.10.2026 erneut im Spiegel gelesen, aber kein selbst abgerufenes Originalregister und keine bewiesene Standortkette.
+
+Seedstatus `geschlossen` erhalten; das Seed-Schließungsjahr2018 und die Hausnummer33 bleiben standortspezifisch unbestätigt. Keine Reaktivierung aus KG-Fortbestand, keine Vermischung von Eigentum und Betrieb. Keine neue Betreiberwebsite, aktuelle Annahme oder Ankauf-/Verkaufs-/Gebührenliste gefunden. Owner: Originalregister-/Gewerbe- und Betreiberkette zuerst klären; keine neuen GEO-Werte. Quellen: https://www.northdata.de/Georg+Lensch+%26+S%C3%B6hne+GmbH+%26+Co.+KG,+Hamburg/HRA+78344 ; https://www.northdata.de/Autoverwertung%20Lensch%20GmbH,%20Hamburg/HRB%2037061
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Vorrecherche nicht blind übernommen: KG HRA78344 und Autoverwertung GmbH HRB37061 separat live im Registerspiegel gelesen; KG Lederstr.36–66/22525 Hamburg, Kommanditistenmeldungen19./20.08.2025, PhG Grundstücksverwaltung; Autoverwertung GmbH Liquidation11.06.2020/Löschung13.11.2023. Kein belegter Alias zur Seed-GmbH/Lederstr.33, keine aktuelle Betreiberprimärquelle gefunden. geschlossen erhalten, aber weder Standortschließung2018 noch spätere Nachfolge neu bewiesen. Keine aktuellen Ankauf-, Teileverkaufs- oder Gebührentarife; Gewerbe-/Rechtsträgerkette für Owner offen, Geo gesperrt bis Standortbestätigung. Quelle(n): https://www.northdata.de/Georg+Lensch+%26+S%C3%B6hne+GmbH+%26+Co.+KG,+Hamburg/HRA+78344 ; https://www.northdata.de/Autoverwertung%20Lensch%20GmbH,%20Hamburg/HRB%2037061]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

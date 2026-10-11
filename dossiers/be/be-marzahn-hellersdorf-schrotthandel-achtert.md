@@ -28,6 +28,10 @@ Der bisherige Datensatz stützt sich nur auf den Seed-/Verzeichnislead für Wald
 
 ## Timeline
 
+### Recherche 11.10.2026 (Wave E)
+
+- [Recherche 11.10.2026: Domain direkt erneut HTTP 200 gelesen, weiterhin fruits-Domainverkauf mit 1600 EUR netto und get fruits GmbH im Footer. Der Seitenbetreiber ist nicht der Dossierhändler; Domainpreis weder Materialverkauf noch Ankauf oder Händlergebühr. Vorhandene Waldstr.-Adresse und Mobiltelefon bleiben unbestätigte Legacy-/Verzeichniswerte, keine erneute Betreiberverifizierung. Status pruefung beibehalten, website_status tot beschreibt den verlorenen Händlerauftritt, nicht Unternehmensschließung. Händleridentität/Gewerbeadresse zuerst unabhängig bestätigen; kein Geocoding, keine Ersatzfirma. Quelle: https://schrotthandel-achtert.de/ .]
+
 ### Nachprüfung 06.10.2026
 
 - [Nachprüfung 06.10.2026: Die vorhandenen Angaben Waldstr. 64, 12621 Berlin und 0173 4282425 bleiben Seed-/Verzeichnisleads; die aktuelle Domain schrotthandel-achtert.de zeigt eine Verkaufsseite von fruits/get fruits GmbH statt eines Händlerauftritts. Dort geforderte 1.600 € zzgl. USt. beziehen sich ausdrücklich auf die Domain, nicht auf Schrottankauf, Materialverkauf oder eine Händlergebühr. Keine aktuelle unabhängige Quelle bestätigt Händleridentität oder Betriebsfortbestand. Deshalb status aktiv → pruefung; nicht als Schließung gewertet. Ohne verifizierten Betreiber sind Ankaufspreise, Verkaufspreise und Gebühren nicht bewertbar; es wurde keine belegte Händlerpreisliste gefunden. Adresse vor Geocoding unabhängig bestätigen. Quelle(n): https://schrotthandel-achtert.de/ ; vorherige Domain-/DNS-Prüfung vom 02.10.2026]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der frühere vollständige Such-Miss ist durch einen konkreten **Verzeichnislead** ersetzt: Mar. Schrottabholung Gummersbach, Peter-Heuser-Str. 9, 51643 Gummersbach, 02261 5079155. Die direkt gelesene 11880-Seite nennt nur Altmetallrecycling, keine eigene Website, E-Mail oder Zeiten. Weder rechtlicher Betreiber noch mobiler/stationärer Betrieb und tatsächlicher Ankauf sind primär belegt. Nicht mit ähnlich benannten NRW-Abholdiensten oder den auf derselben Seite vorgeschlagenen Händlern zusammenführen. Adresse/Kontakt bleiben außerhalb des Frontmatters; vor GEO Gewerbe-/Betreiberbeleg und Annahmefunktion klären. Keine Ankauf-, Verkaufs- oder Gebührenliste gefunden. Quelle (nur Lead): https://www.11880.com/branchenbuch/gummersbach/060440092B113511650/mar-schrottabholung-gummersbach.html
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Eigenständige Suche nach MAR/Mar. Schrottabholung Gummersbach ergab erstmals konkret zuordenbaren Lead; 11880-Detailseite direkt gelesen: Peter-Heuser-Str.9, 51643 Gummersbach, 02261 5079155, Altmetallrecycling. Keine Website/Mail/Öffnungszeiten hinterlegt; Eintragsdaten 06.02.2025, Aktualisierungsanzeige 04.10.2026 ist kein Nachweis heutiger Tätigkeit. Kein neuer Betreiber-/Kommunal-/Originalregisterbeleg gefunden. Der Miss vom 01.10. ist hinsichtlich Discovery überholt, nicht hinsichtlich Verifizierung. Kein Frontmatter-Fill, website_status unbekannt normalisiert; kein Preis-/Gebührentarif aus den Euro-Symbol-FAQ ableitbar. Quelle(n): https://www.11880.com/branchenbuch/gummersbach/060440092B113511650/mar-schrottabholung-gummersbach.html (nur Verzeichnislead)]
 
 ### Recherche 01.10.2026
 

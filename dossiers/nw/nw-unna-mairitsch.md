@@ -10,8 +10,8 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der direkt gelesene eBay-Shop **Autoverwertung Mairitsch** verkauft aktuell gebrauchte Fahrzeugteile, bestätigt im öffentlich extrahierten Shopinhalt aber keine Betreiberadresse oder heutigen Rechtsträger. Die Verwaltungs-UG HRB10398 AG Hamm ist laut erneut gelesenem Registerspiegel seit21.05.2025 gelöscht; deren Gegenstand nennt zusätzlich eine UG & Co.KG. Das sind nicht automatisch derselbe heutige Shopbetreiber oder eine geschlossene Unnaer Annahmestelle. mairitsch.de zeigt weiterhin nur Wartungsseite „Mairitsch Kfz-Werkstatt“ ©2022. Status `aktiv` zu `pruefung`, keine Schließung behauptet.
+
+**Verkauf tatsächlich sichtbar:** Beispiel eBay-Shop am11.10.2026: FRK-Schaltgetriebe6-Gang VW Passat1.9TDI 300,00 €/Stück (Artikel820137239785), Turbolader k04199911 Suzuki Samurai150,90 €/Stück (820181780175). Das sind Einzelangebote/gebrauchte Teile, keine Schrottankaufskurse oder dauerhafte allgemeine Ersatzteilpreisliste. Shop-Impressumtab fordert Identitätsprüfung, einzelne Angebotsdetailseite403; Versand/USt/Konditionen nicht vollständig verifiziert. Ankauf- und Altfahrzeuggebührenliste nicht gefunden. Owner: aktuelle KG/Einzelunternehmer-/Shopidentität, Anerkennung und Dortmunder Str.88 versus90 klären; keine Hofkoordinaten aus den Verzeichnissen. Quellen: https://www.ebay.de/str/autoverwertungmairitsch ; https://www.ebay.de/str/autoverwertungmairitsch?_tab=about ; http://www.mairitsch.de/ ; https://www.northdata.de/Autoverwertung%20Andreas%20Mairitsch%20Verwaltungs%20UG,%20Unna/Amtsgericht%20Hamm%20HRB%2010398
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Betreiber-/Preisprüfung vertieft: eBay-Shop live gelesen, Autoteile-Einzelangebote mit Beträgen und Artikelnummern sichtbar, keine im ausgelesenen Inhalt belegte Unnaer Adresse. Tab about/Impressum liefert Identitätsprüfung; Angebotsdetail353977045593 liefert403. Keine Shop-Impressumsdaten erfunden. mairitsch.de überhttp weiterhin Wartungsseite/2022. Verwaltungs-UG HRB10398 im Registerspiegel erneut gelöscht21.05.2025, Gegenstand Beteiligung als PhG an UG&Co.KG; aktuelle KG/Shop-/Annahme-Kette noch offen. Daher Aktivstatus zu pruefung korrigiert, übrige Stammdaten unverändert, keine Schließung aus UG-Löschung abgeleitet. Verkauf z.B. FRK-Getriebe300€/Stück und Suzuki-Turbo150,90€/Stück als momentane Shopangebote, nicht Ankauf; Ankauf-/Gebührentarife nicht gefunden. GeoBedarf: heutigen Betreiber und Dortmunder Str.88/90 sowie öffentliche Annahme bestätigen. Quelle(n): https://www.ebay.de/str/autoverwertungmairitsch ; https://www.ebay.de/str/autoverwertungmairitsch?_tab=about (Identitätsprüfung); https://www.ebay.de/itm/353977045593 (403); http://www.mairitsch.de/ ; https://www.northdata.de/Autoverwertung%20Andreas%20Mairitsch%20Verwaltungs%20UG,%20Unna/Amtsgericht%20Hamm%20HRB%2010398]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

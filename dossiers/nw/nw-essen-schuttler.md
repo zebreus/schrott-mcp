@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Identitätskandidat bleibt **Sylvia Schüttler Metallhandel**, Stubbenkamp 6, 45309 Essen-Kray, 0178 4299833 – nur Verzeichnislead, kein belegter Alias des unspezifischen Seeds „Schüttler“. Die live gelesene 11880-Seite verbindet Schrotthandel mit Kleintransport, Montage und Möbeltransport, enthält aber keine Händlerwebsite/Annahmezeiten. Creditreform-Suchauszug beschreibt weitere Handwerks-/Hausmeistertätigkeiten; Detailabruf HTTP 403, deshalb keine verifizierte Gewerbegegenstandsbestätigung. Keine öffentlich ausgelesene Ankauf-/Verkaufs-/Gebührenliste. Owner: vollständigen Namen/Gewerbeidentität, heutige Tätigkeit und mobil versus öffentliche Annahmestelle klären; erst dann Standort/GEO. Quelle (Lead): https://www.11880.com/branchenbuch/essen-ruhr/190682936B113680307/sylvia-schuettler-metallhandel.html ; blockierter Lead: https://firmeneintrag.creditreform.de/45309/5110488342/SYLVIA_SCHUETTLER_METALLHANDEL
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Bestehenden 11880-Kandidaten direkt revalidiert: Sylvia Schüttler Metallhandel, Stubbenkamp6/45309 Essen, 0178 4299833, keine Website/Zeiten; Daten vom 13.10.2025 trotz aktueller Anzeige 04.10.2026. Neuer Creditreform-Suchlead vorhanden, Detailabruf 403; Suchsnippet nicht als gelesene Primär-/Registerquelle oder zweite Bestätigung gezählt. Neue Suche identifizierte keinen aktuellen Betreiberauftritt. Keine Namenspräzisierung/Kontakt-/Annahme-Fills; pruefung bleibt. Generischer Preisrange-FAQ ist keine Ankaufspreisliste. Quelle(n): https://www.11880.com/branchenbuch/essen-ruhr/190682936B113680307/sylvia-schuettler-metallhandel.html ; https://firmeneintrag.creditreform.de/45309/5110488342/SYLVIA_SCHUETTLER_METALLHANDEL (403)]
 
 ### Recherche 01.10.2026
 

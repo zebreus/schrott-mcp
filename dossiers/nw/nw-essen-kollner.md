@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkreter, weiterhin unbestätigter Kandidat **Winfried Köllner**, Grandhöhe20, 45357 Essen-Dellwig,0201693507. Die11880-Detailseite nennt Altmaterial-/Schrotthandel, aber keine Mail/Website/Zeiten. Deren Eintragsdaten stammen vom29.06.2021; Oktober2026-Aktualisierungsanzeige ist kein aktueller Betriebsnachweis. Andere Köllner in Dellwig dürfen nicht als Zweitbeleg dienen. Keine Ankauf-/Verkaufs-/Gebührenliste identifiziert. Owner: vollständige Betreiber-/Gewerbeidentität, Fortbestand und Hofannahme versus mobiler Dienst klären; Adresse erst dann in Frontmatter/GEO. Quelle (nur Lead): https://www.11880.com/branchenbuch/essen-ruhr/120674719B26210361/winfried-koellner.html
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026:11880-Detail direkt erneut gelesen: Winfried Köllner, Grandhöhe20/45357 Essen-Dellwig,0201693507; keine Website/Mail/Zeiten, Eintragsdaten29.06.2021 trotz aktualisiert01.10.2026. Neue Suche brachte nur Verzeichnisse/tellows und sachfremde Namensvetter, keine qualifizierende Primärbestätigung. Alte Gegenprobe K.Köllner/Kraienbruch bleibt andere Person, nicht zusammengeführt. Status pruefung, Frontmatter leer; allgemeiner Preisrange-FAQ keine Materialpreisliste. Ankauf/Verkauf/Gebühren offen, vor GEO Gewerbe-/Annahmebeleg erforderlich. Quelle(n): https://www.11880.com/branchenbuch/essen-ruhr/120674719B26210361/winfried-koellner.html (Lead)]
 
 ### Recherche 02.10.2026
 

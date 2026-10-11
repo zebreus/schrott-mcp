@@ -6,7 +6,7 @@ seed applies the embedded data, not live Markdown files.
 
 ## Explicit enrichment clears (opt-in)
 
-Blank dossier fields normally **keep stored enrichment**, not delete it.
+Blank enrichment fields listed below normally **keep stored enrichment**, not delete it.
 To withdraw a specific stored value, use an optional flat frontmatter scalar:
 
 ```yaml
@@ -54,6 +54,14 @@ changes its hash ownership; removal resumes ordinary keep behavior and does
 not restore old values. Rebuild before applying a changed directive.
 
 ## GEO contract
+
+Core address fields follow a different contract: `street` and `postcode` are
+passed directly to the normal trader upsert. On a changed seed, an empty dossier
+address therefore **replaces the stored address with an empty string**. They are
+not supported `clear_fields` tokens, but that does not imply blank-address
+preservation. Review address withdrawals independently from enrichment clears.
+Existing GEO is still retained when no dossier coordinate pair is supplied;
+withdrawing or changing an address does not validate or invalidate that pair.
 
 - `lat` and `lon` are evidence-backed WGS84 decimal scalars (quoted or
   plain). Document source, retrieval date and point accuracy in Timeline.

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Legacy-Datensatz eines als „Callcenter“ geführten Recycling-/Handelsleads. Auenstr. 55, 07552 Gera-Stublach und 0800 6874372 sind bislang nur verzeichnisgestützt, keine verifizierte Schrottannahmestelle. Aktuelle registerabgeleitete Namenssuche liefert lediglich unscharfe andere Firmen (u. a. CHS Recycling & Handels und ERV Ostthüringen); keine davon ist ohne Kettenbeleg der Dossierbetrieb.
+
+**Ankauf:** Firmenname „Handel“ oder Branche „Recycling“ beweisen keinen Publikumsankauf. **Verkauf/Gebühren:** keine zuordenbaren Listen. **Geo:** bestehende Adresse ist nicht koordinatenbereit; Rechtsträger, operative Tätigkeit und Hof versus Callcenter zuerst prüfen. Keine neue Domain/HRB-Zuordnung, `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 11.10.2026 (Wave E)
+
+- [Recherche 11.10.2026: NorthData-Namenssuche direkt gelesen, aber nur unscharfe Ergebnisse anderer Rechtsträger (CHS Recycling & Handels GmbH HRB 500670, ERV Entsorgung-Recycling und Verwertung GmbH Ostthüringen HRB 204690 u. a.). Kein exaktes Firmenprofil identifiziert; dies ist kein vollständiger Handelsregister-Negativnachweis. Verzeichnis-Altwerte nicht als neue Betreiberbestätigung dargestellt; keine Aktivsetzung, kein Merge, kein Schrott-/Ankauf- oder Zertifikatsbeleg. Quelle: https://www.northdata.de/Ostth%C3%BCringer+Recycling-+und+Handels+GmbH,+Gera .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

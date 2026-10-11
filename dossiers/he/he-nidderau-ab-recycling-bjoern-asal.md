@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-Nidderauer Metallankauf-Kandidat. Betreiberseite beschreibt den Ankauf; genaue Betriebs- und Anlieferungsbedingungen sind noch zu verifizieren.
+Betreiber Björn Asal nennt Saalburgstr. 12, 61130 Nidderau, 06187 470 88 85 und zusätzlich mobil 0151 17546606, abrecycling@gmx.de, Kontaktzeiten Mo–Fr 08–18 Uhr. Eigene Leistungen: Schrott-/NE-Metall- und Kabelankauf, Altfahrzeugverwertung mit Nachweis, ausdrücklich **keine Gebrauchtteile**, Abbruch/Demontage, Schneidbrennen, Transporte und Container von 3 bis 40 m³. Industriefirmen, Handwerk, Hausverwaltungen und Privathaushalte werden genannt. Das ist ein Betreiber-Einzelbeleg, keine unabhängige Identitäts-/Standortbestätigung und kein Nachweis einer öffentlichen Selbstanlieferung.
+
+Ankauf: Tageshöchstpreise beworben, keine Zahlenliste. Verkauf: kein Gebrauchtteileverkauf laut Betreiber, keine sonstige Verkaufsliste gefunden. Gebühren: keine numerische Entsorgungs-/Containerliste und keine pauschale Kostenfreiheit. Annahme-/Abholbedingungen und Aktualität erfragen; GEO für Saalburgstr. 12 erst nach Standortbestätigung.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Recherche 11.10.2026: Homepage, Impressum und Leistungen direkt gelesen. Neu präzisiert: zusätzliche Mobilnummer 0151 17546606; Privat-/Gewerbekunden; Kabelankauf, Altfahrzeugverwertung mit Nachweis, keine Gebrauchtteile, Container 3–40 m³, Schneidbrennen/Transporte. Stunden sind Kontaktzeiten, kein verifizierter Annahmeplan. Saalburgstr. 12 und Kontaktdaten weiter Betreiber-Einzelbeleg; kein neuer unabhängiger Zweitnachweis, keine Skalarfills. Ankauf nur Tageshöchstpreise ohne Zahlen; Verkauf keine Liste und Gebrauchtteile explizit ausgeschlossen; Gebühren keine Liste. GEO bedingt, Standort/Anlieferung klären; Quelle: https://www.ab-recycling.de/ ; https://www.ab-recycling.de/impressum/ ; https://www.ab-recycling.de/leistungen/]
 
 ### Recherche 05.10.2026
 

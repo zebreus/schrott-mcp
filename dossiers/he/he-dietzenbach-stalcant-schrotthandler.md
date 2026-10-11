@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://stalcant-schrotthaendler.de
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die direkt gelesene Betreiberwebsite bewirbt Kupfer/Kabel/Millberry, Messing, Aluminium und Eisen sowie Container, Demontage und Entrümpelung im Rhein-Main-Gebiet. Neu ausdrücklich: **Anlieferung oder Abholung nach Terminabsprache**, keine belegte frei zugängliche Annahmestelle. Kontakt-/Impressumsadresse Robert-Koch-Str. 9, 63128 Dietzenbach; Sebastian Traian Caldarar, 0163 5255962 und info@stalcant-schrotthaendler.de bleiben Einzelbelege. Die im Impressum genannte Behörde zur Reisegewerbekarte ist eine Betreiberaussage, keine abgerufene Behördenbestätigung. Weiterhin fehlerhafter Mailto-Link im Impressum; Homepage enthält zudem einen fremden Mailto-Link info@amboss-schrotthaendler.de, daraus keine Betreiberverbindung ableiten.
+
+Ankauf: Tagespreise und telefonische Auskunft, kein numerisches Preisblatt. „Kupfer verkaufen“ richtet sich an den Materialverkäufer und ist keine Händler-Verkaufspreisliste. Verkauf: keine Liste. Gebühren: Schrott-/Altmetallabholung ab 350 kg ausdrücklich kostenlos; Container/Demontage nicht pauschal kostenlos belegt. Identität/Zweitbeleg und Anlieferungsadresse vor GEO/Veröffentlichung klären, Status Prüfung statt unbegründetem Aktivstatus.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Review 11.10.2026: Neue Leistungsbeschreibung im Frontmatter zurückgehalten; Betreiberangaben zu Tagespreis, 350-kg-Abholung und Termin-Anlieferung bleiben Einzelbelege in der Recherche. Kein qualifizierter Identitäts-/Standortzweitbeleg und keine authoritative-primary-Ausnahme. Bestehende Website wird dadurch nicht neu zertifiziert; Prüfstatus bleibt. Quelle: https://www.stalcant-schrotthaendler.de/ ; https://www.stalcant-schrotthaendler.de/impressum]
+
+- [Korrektur 11.10.2026: Homepage/Impressum direkt gelesen. Website lebt, aber Einzelunternehmer ohne Registerbestätigung/qualifizierten Zweitbeleg; status aktiv auf pruefung zurückgenommen, keine Kontaktskalare gefüllt. Neues ausdrückliches Angebot: Anlieferung oder Abholung nach Termin; kostenloser Abholdienst ab 350 kg. Kupfer/Kabel/Millberry und Tagespreis-/Sofortauszahlungswerbung sind kein numerisches Preisblatt. Keine Händler-Verkaufspreisliste oder Container-/Demontagetarife gefunden. Impressum-mailto weiterhin Tippfehler; zusätzlich amboss-Mailto auf Homepage, kein Mergebeleg. GEO erst bei bestätigter Annahmestelle, Robert-Koch-Str. 9 bislang Kontaktadresse. Quelle: https://www.stalcant-schrotthaendler.de/ ; https://www.stalcant-schrotthaendler.de/impressum]
 
 ### Recherche 02.10.2026
 

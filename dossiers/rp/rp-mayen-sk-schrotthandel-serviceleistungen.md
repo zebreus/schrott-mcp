@@ -30,6 +30,10 @@ Betreiber-Einzelbeleg mit internem Identitätskonflikt: Impressum nennt René St
 
 ## Timeline
 
+### Recherche 11.10.2026 (Wave E — Gebührenfund erneut geprüft)
+
+- [Recherche 11.10.2026: Impressum/Datenschutz und Kostenlose-Schrottabholung per HTTP direkt erneut gelesen. Identitätskonflikt René Stöcker/Neustraße 15 versus Michel Kraus/Alkenstr. 30 besteht weiterhin auf derselben Seite, kein belegter Wechsel. SAM-Nr. GG0000087 bleibt Selbstauskunft, nicht unabhängige Genehmigungsprüfung. Gebührenbetrag 15 EUR je Kühlschrank/Bildschirm/Fernseher mit Entsorgungsnachweis bestätigt, ohne MwSt-/Gültigkeitsangabe; kein Metallankaufkurs. Kleine Mengen ausdrücklich erlaubt, 800 kg Fahrzeug-Zuladekapazität nicht Abholminimum; bis 1800 kg pro Anfahrt. ANKAUF Edelmetalle/Zinn/Katalysatoren ohne Zahlen, VERKAUF keine Liste, GEBÜHREN nur vorgenannte Geräte-Ausnahme. Geo: beide Personen-/Adressvarianten nicht als öffentlicher Hof geocodieren; mobile Abholung ist keine bestätigte Anlieferung. Quellen: http://www.sk-serviceleistungen.info/Impressum/ ; http://www.sk-serviceleistungen.info/Kostenlose-Schrottabholung/ .]
+
 ### Vertiefung 08.10.2026
 
 - [Recherche 08.10.2026: HTTP-Root, Impressum und Leistungsseite direkt gelesen; website_status auf aktiv präzisiert, HTTPS-Transportfehler kein Schließungsnachweis. Neuer Konflikt: nicht nur Anschrift, sondern auch Person abweichend — Impressum René Stöcker/Neustraße 15, Datenschutzverantwortlicher Michel Kraus/Alkenstr. 30. Gleiche Domain und Facebook-Link ergeben keinen unabhängigen Zweitbeleg; keine Kontakt-/Adressfills. Quelle(n): http://www.sk-serviceleistungen.info/ ; http://www.sk-serviceleistungen.info/Impressum/]

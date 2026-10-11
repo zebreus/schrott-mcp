@@ -4,9 +4,10 @@ name: Der Zerseeger Schrotthandel
 trader_type: schrotthaendler
 state: HE
 city: Darmstadt-Wixhausen
-street: Am Sportplatz 12
+street: ''
 postcode: ''
-phone: 01779333733
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Zerseeger ist bisher nur Verzeichnislead für Am Sportplatz 12, 64291 Darmstadt-Wixhausen, 0177 9333733. Neue Domainspur rheinmain-schrotthandel.de und info@rheinmain-schrotthandel.de aus Inteka-Suchindex; Homepage/Impressum direkt versucht, Transportfehler. Damit keine Betreiberidentität, Aktualität oder öffentliche Annahmestelle bestätigt. Unverifizierte Straße/Telefon aus Frontmatter entfernt; Nähe zu Levy (Hausnummer 11) weiterhin kein Mergebeleg.
+
+Ankauf/Verkauf/Gebühren: keine verifizierten Listen, nicht aus einer unlesbaren Website auf Nichtvorhandensein schließen. Gewerbeauskunft bzw. Betreiberantwort zur Domain-/Inhaber-/Adresszuordnung; Am Sportplatz 12 erst danach geocodieren, bestehende GEO ggf. Owner prüfen.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]
+
+- [Korrektur 11.10.2026: Frische Suche findet neue Domain-/Mailspur rheinmain-schrotthandel.de/info@rheinmain-schrotthandel.de bei Inteka; Direktabrufe Homepage und /impressum liefern Transportfehler, nicht als Betreiberbeleg oder tote Firma interpretieren. GS/11880 bestätigen nur Verzeichnisbestand; „Frontmatter korrekt“ vom 02.10. war kein README-konformer Primärbeleg. street/phone geleert, kein PLZ-/Websitefill; Levy-Nachbarschaft weiterhin ohne Identitätsbrücke. Preise Ankauf/Verkauf/Gebühren mangels Betreiberinhalt offen. GEO nach kommunaler Standort-/Inhaberprüfung. Quelle: https://www.rheinmain-schrotthandel.de/ ; https://www.rheinmain-schrotthandel.de/impressum ; https://inteka.de/Firmenverzeichnis/index.cfm?Eintrag=2657638 ; https://www.gelbeseiten.de/gsbiz/61244adb-16c2-4918-8641-6746e5f840a9 (letzte zwei Suchindex-Leads)]
 
 ### Recherche 02.10.2026
 

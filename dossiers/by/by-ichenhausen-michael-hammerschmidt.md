@@ -4,14 +4,15 @@ name: Michael Hammerschmidt
 trader_type: sonstige
 state: BY
 city: Ichenhausen
-street: Karl-Königsdorfer-Str. 25 A
-postcode: 89335
-phone: 08223 408217
-email: info@hammerschmidt-recycling.de
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'email,phone'
+email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -25,9 +26,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Michael Hammerschmidt/Hammerschmidt Recycling bleibt Identitätsprüffall. Karl-Königsdorfer-Str. 25 A, 89335 Ichenhausen, 08223 408217 und info@hammerschmidt-recycling.de stammen bisher aus Verzeichnissen; mehrere andere Hammerschmidt-Betriebe sind bekannt. Der Verzeichniskonsens von 02.10. löst die rechtliche Zuordnung nicht nach README. Domain mit und ohne www erneut direkt versucht, beide Transportfehler; keine Betreiberseite gelesen. Kontakte und unbegründeter Aktivstatus zurückgenommen, nicht geschlossen gesetzt.
+
+Ankauf-/Verkaufs-/Gebührenlisten nicht aus Betreiberinhalt verifiziert. Kommunale Gewerbeauskunft/Betreiberantwort zur Zuordnung Michael–Domain–Adresse erforderlich. GEO erst danach; Löschen der Frontmatter-Adresse entfernt vorhandene DB-Koordinaten nicht automatisch.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Clear 11.10.2026: Telefon und E-Mail werden wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege und offenen Namesake-Zuordnung explizit über clear_fields zurückgenommen. Altwerte/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]
+
+- [Korrektur 11.10.2026: Eigene Direktabrufe https://hammerschmidt-recycling.de/ und https://www.hammerschmidt-recycling.de/ liefern Transportfehler, keine neue gelesene Primärquelle; zusätzliche Register-/Creditreform-Namenssuche ohne verwertbaren Treffer (kein Nichtexistenzbeweis). „Slug-Ambiguität aufgelöst“ vom 02.10. beruhte nur auf Verzeichnis-Konsens und ist keine qualifizierte Identitätsprüfung. street/postcode/phone/email geleert, aktiv auf pruefung, website_status unbekannt; Namesakes nicht zusammengeführt. Ankauf/Verkauf/Gebühren mangels Betreiberinhalt offen; aktuelle Adresse und ggf. vorhandene DB-GEO Owner prüfen. Quelle: https://hammerschmidt-recycling.de/ ; https://www.hammerschmidt-recycling.de/ ; https://branchenbuch.meinestadt.de/ichenhausen/company/8630120 (historischer Verzeichnislead, nicht neu als Beleg gelesen)]
 
 ### Recherche 02.10.2026
 

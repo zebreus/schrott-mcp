@@ -4,9 +4,10 @@ name: Pfeifer Rainer Schrotthandel
 trader_type: schrotthaendler
 state: BY
 city: Würzburg-Versbach 97078
-street: Brunnfloßgasse 12
-postcode: '97078'
-phone: 0931 22357
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rainer Pfeifer bleibt Verzeichnislead: Brunnfloßgasse 12, 97078 Würzburg-Versbach, 0931 22357. Frische Suche zeigt weitere Pfeifer-Einträge (Christian und Jürgen), aber keine Betreiber-/Registerbrücke. Nähe oder gleicher Nachname beweist weder Familienbetrieb noch Nachfolge. Früherer Einzelbeleg-Fill wurde zurückgenommen; keine gesicherten Kontaktfelder.
+
+Ankauf/Verkauf/Gebühren: keine primär belegte Zahlenliste. Von Verzeichnis-Öffnungszeiten keine bestätigten Annahmezeiten ableiten. Kommunale Gewerbeauskunft zum genauen Inhaber/Standort nötig; GEO erst danach, bestehende DB-Koordinaten ggf. Owner prüfen.
 
 ## Timeline
+
+### Recherche 11.10.2026
+
+- [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege und offenen Namesake-Zuordnung explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]
+
+- [Korrektur 11.10.2026: Neue exakte Namenssuche findet Gelbe Seiten, Telefonbuch, Schrottportale und FragRegional, keine qualifizierte Primärquelle. Weitere Namesakes Christian/Jürgen in Würzburg sind Suchleads, kein Familien-/Mergebeleg. Ausnahmefüllung aus GS vom 02.10. in street/postcode/phone zurückgenommen; Werte bleiben Kandidaten im Überblick/Altverlauf. Preise Ankauf/Verkauf/Gebühren nicht primär verifiziert; keine Schließung behauptet. GEO erst nach Standort-/Inhaberprüfung. Quelle: https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c ; https://frag-regional.de/firma/pfeifer-rainer-schrotthandel/ ; https://www.schrottplatz-info.de/schrottplatz/Wuerzburg/Pfeifer-Christian-Schrotthandel (Suchindex-Leads)]
 
 ### Recherche 02.10.2026
 
