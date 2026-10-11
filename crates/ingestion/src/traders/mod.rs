@@ -286,6 +286,13 @@ pub async fn record(
     outcome: &HandlerOutcome,
     now: &DateTime<Utc>,
 ) -> Result<RecordSummary, super::IngestError> {
+    // Only MSG declares a complete, fail-closed source snapshot. Other
+    // handlers retain their observation-only semantics and write isolation.
+    if handler_slug == handlers::msg_metallrecycling_gotha::SLUG {
+        return handlers::msg_metallrecycling_gotha::record_snapshot(
+            public, internal, outcome, now,
+        );
+    }
     use super::IngestError;
     let Some(trader_id) =
         public

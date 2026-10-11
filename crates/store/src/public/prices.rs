@@ -479,10 +479,134 @@ impl PublicDb {
     /// Out-of-order backfills never clobber newer data: `current_prices`
     /// only moves forward in `observed_at` (ties: higher id wins).
     pub fn record_price(&self, p: &NewPrice<'_>) -> Result<i64, StoreError> {
+        let conn = self.lock()?;
+        Self::record_price_on(&conn, p)
+    }
+
+    /// Atomically publish a validated, complete source snapshot and retire only
+    /// explicitly proven legacy observations or observations owned by this
+    /// snapshot producer. History is never deleted/rewritten by retirement.
+    /// Foreign-source/producer key collisions and late snapshots fail without changes.
+    pub fn record_price_snapshot(
+        &self,
+        prices: &[NewPrice<'_>],
+        legacy_ids: &[i64],
+        owner: &str,
+    ) -> Result<usize, StoreError> {
+        let first = prices
+            .first()
+            .ok_or(StoreError::Rejected("empty price snapshot"))?;
+        if owner.is_empty() || first.source_url.is_empty() {
+            return Err(StoreError::Rejected("snapshot scope missing"));
+        }
+        let mut keys = std::collections::HashSet::new();
+        for p in prices {
+            let marker = serde_json::from_str::<serde_json::Value>(p.extra_json).ok();
+            if p.trader_id != first.trader_id
+                || p.source_url != first.source_url
+                || p.observed_at != first.observed_at
+                || !p.published
+                || p.source_type != "haendler_angabe"
+                || !p.price.is_finite()
+                || p.price <= 0.0
+                || marker
+                    .as_ref()
+                    .and_then(|v| v.get("snapshot_owner"))
+                    .and_then(|v| v.as_str())
+                    != Some(owner)
+                || !keys.insert((p.material_id, p.variant))
+            {
+                return Err(StoreError::Rejected("invalid or duplicate price snapshot"));
+            }
+        }
+        let mut conn = self.lock()?;
+        let tx = conn.transaction()?;
+        // Refuse foreign sources/producers; same-source unmarked rows may be adopted.
+        for p in prices {
+            let conflict: bool = tx.query_row(
+                "SELECT EXISTS(SELECT 1 FROM current_prices c JOIN prices p ON p.id=c.price_id
+                 WHERE c.trader_id=?1 AND c.material_id=?2 AND c.variant=?3 AND
+                  (p.source_url<>?4 OR p.source_type<>'haendler_angabe' OR p.published<>1 OR p.observed_at>?5
+                   OR COALESCE(json_extract(p.extra_json,'$.snapshot_owner'),'') NOT IN ('',?6)))",
+                params![p.trader_id, p.material_id, p.variant, p.source_url, p.observed_at, owner], |r| r.get(0))?;
+            if conflict {
+                return Err(StoreError::Rejected("foreign or newer current price"));
+            }
+        }
+        let candidates: Vec<(i64, i64, String, String, String)> = {
+            let mut stmt = tx.prepare(
+                "SELECT p.id,p.material_id,p.variant,p.observed_at,p.extra_json
+                 FROM current_prices c JOIN prices p ON p.id=c.price_id
+                 WHERE c.trader_id=?1 AND p.source_url=?2 AND p.source_type='haendler_angabe' AND p.published=1")?;
+            let rows = stmt
+                .query_map(params![first.trader_id, first.source_url], |r| {
+                    Ok((r.get(0)?, r.get(1)?, r.get(2)?, r.get(3)?, r.get(4)?))
+                })?
+                .collect::<Result<Vec<_>, _>>()?;
+            rows
+        };
+        let mut retire = Vec::new();
+        for (id, mid, variant, observed, extra) in candidates {
+            let Ok(extra) = serde_json::from_str::<serde_json::Value>(&extra) else {
+                continue;
+            };
+            let marker = extra.get("snapshot_owner");
+            if marker.is_some_and(|v| {
+                !v.is_null() && v.as_str() != Some("") && v.as_str() != Some(owner)
+            }) {
+                continue; // Explicit legacy IDs cannot retire another producer either.
+            }
+            let managed = marker.and_then(|v| v.as_str()) == Some(owner);
+            if managed || legacy_ids.contains(&id) {
+                if observed.as_str() > first.observed_at {
+                    return Err(StoreError::Rejected("late price snapshot"));
+                }
+                if !keys.contains(&(mid, variant.as_str())) {
+                    retire.push(id);
+                }
+            }
+        }
+        for p in prices {
+            let id = Self::record_price_on(&tx, p)?;
+            // An unchanged observation can predate the producer marker.
+            // Refresh ownership metadata without losing its retained date basis.
+            tx.execute(
+                "UPDATE prices SET extra_json=json_patch(extra_json,?1) WHERE id=?2",
+                params![p.extra_json, id],
+            )?;
+        }
+        for id in &retire {
+            tx.execute(
+                "DELETE FROM current_prices WHERE trader_id=?1 AND price_id=?2",
+                params![first.trader_id, id],
+            )?;
+        }
+        tx.commit()?;
+        Ok(retire.len())
+    }
+
+    /// Current observations from one source, for evidence-based legacy matching.
+    pub fn current_prices_from(
+        &self,
+        trader_id: i64,
+        source_url: &str,
+    ) -> Result<Vec<PriceRow>, StoreError> {
+        let conn = self.lock()?;
+        let mut stmt = conn.prepare(
+            "SELECT p.id,p.trader_id,p.material_id,p.variant,p.price,p.currency,p.unit,p.price_kind,
+             p.price_min,p.price_max,p.confidence,p.source_type,p.published,p.source_url,
+             p.observed_at,p.published_at,p.valid_from,p.valid_to,p.notes,p.extra_json,p.ingested_at
+             FROM current_prices c JOIN prices p ON p.id=c.price_id WHERE c.trader_id=?1 AND p.source_url=?2")?;
+        let rows = stmt
+            .query_map(params![trader_id, source_url], row_to_price)?
+            .collect::<Result<Vec<_>, _>>()?;
+        Ok(rows)
+    }
+
+    fn record_price_on(conn: &rusqlite::Connection, p: &NewPrice<'_>) -> Result<i64, StoreError> {
         if !PRICE_KINDS.contains(&p.price_kind) {
             return Err(StoreError::Rejected("unknown price_kind"));
         }
-        let conn = self.lock()?;
         // Dedupe only against the current observation. If a value returns
         // after a change (A -> B -> A), that is a new price-change event and
         // must not rewrite the older A row.
@@ -803,6 +927,314 @@ mod tests {
             extra_json: "{}",
             ingested_at: ingested,
         }
+    }
+
+    #[test]
+    fn snapshot_failure_rolls_back_prices_and_retirement() {
+        let (_dir, db, trader, material) = setup("snapshot");
+        let mut old = price(
+            trader,
+            material,
+            7.0,
+            "2026-10-09T00:00:00Z",
+            "2026-10-09T00:00:00Z",
+        );
+        old.source_url = "https://example.test/prices";
+        let legacy = db.record_price(&old).unwrap();
+        let mut a = price(
+            trader,
+            material,
+            8.0,
+            "2026-10-10T00:00:00Z",
+            "2026-10-10T00:00:00Z",
+        );
+        a.source_url = old.source_url;
+        a.variant = "a";
+        a.extra_json = "{\"snapshot_owner\":\"test\"}";
+        let b = NewPrice {
+            variant: "b",
+            ..price(trader, material, 9.0, a.observed_at, a.ingested_at)
+        };
+        let b = NewPrice {
+            source_url: a.source_url,
+            extra_json: a.extra_json,
+            ..b
+        };
+        db.lock().unwrap().execute_batch("CREATE TRIGGER fail_b BEFORE INSERT ON prices WHEN NEW.variant='b' BEGIN SELECT RAISE(ABORT,'injected failure'); END;").unwrap();
+        assert!(db
+            .record_price_snapshot(&[a, b], &[legacy], "test")
+            .is_err());
+        assert_eq!(
+            db.current_price_for(trader, material, "")
+                .unwrap()
+                .unwrap()
+                .id,
+            legacy
+        );
+        assert!(db
+            .current_price_for(trader, material, "a")
+            .unwrap()
+            .is_none());
+        assert_eq!(
+            db.test_query("SELECT COUNT(*) FROM prices")[0][0],
+            serde_json::json!(1)
+        );
+    }
+
+    #[test]
+    fn snapshot_retirement_failure_foreign_collision_and_late_input_are_safe() {
+        let (_dir, db, trader, material) = setup("snapshot-retire");
+        let mut old = price(
+            trader,
+            material,
+            7.0,
+            "2026-10-09T00:00:00Z",
+            "2026-10-09T00:00:00Z",
+        );
+        old.source_url = "https://example.test/prices";
+        let legacy = db.record_price(&old).unwrap();
+        let make_new = || NewPrice {
+            variant: "dynamic / ab 137 kg",
+            source_url: old.source_url,
+            extra_json: "{\"snapshot_owner\":\"test\"}",
+            ..price(
+                trader,
+                material,
+                8.0,
+                "2026-10-10T00:00:00Z",
+                "2026-10-10T00:00:00Z",
+            )
+        };
+        db.lock().unwrap().execute_batch("CREATE TRIGGER fail_retire BEFORE DELETE ON current_prices BEGIN SELECT RAISE(ABORT,'retirement failure'); END;").unwrap();
+        assert!(db
+            .record_price_snapshot(&[make_new()], &[legacy], "test")
+            .is_err());
+        assert!(db
+            .current_price_for(trader, material, "dynamic / ab 137 kg")
+            .unwrap()
+            .is_none());
+        assert_eq!(
+            db.current_price_for(trader, material, "")
+                .unwrap()
+                .unwrap()
+                .id,
+            legacy
+        );
+        db.lock()
+            .unwrap()
+            .execute_batch("DROP TRIGGER fail_retire;")
+            .unwrap();
+        let mut foreign = make_new();
+        foreign.source_url = "https://other.test/";
+        let foreign_id = db.record_price(&foreign).unwrap();
+        assert!(db
+            .record_price_snapshot(&[make_new()], &[legacy], "test")
+            .is_err());
+        assert_eq!(
+            db.current_price_for(trader, material, foreign.variant)
+                .unwrap()
+                .unwrap()
+                .id,
+            foreign_id
+        );
+        assert_eq!(
+            db.current_price_for(trader, material, "")
+                .unwrap()
+                .unwrap()
+                .id,
+            legacy
+        );
+        // Use a different new key to keep the foreign-source pointer untouched.
+        let mut fresh = make_new();
+        fresh.variant = "new / ab 250 kg";
+        assert_eq!(
+            db.record_price_snapshot(&[fresh], &[legacy], "test")
+                .unwrap(),
+            1
+        );
+        assert_eq!(
+            db.price_history(trader, material, "", 10).unwrap()[0].id,
+            legacy
+        );
+        let mut late = make_new();
+        late.variant = "too late";
+        late.observed_at = "2026-10-08T00:00:00Z";
+        assert!(db.record_price_snapshot(&[late], &[], "test").is_err());
+        assert!(db
+            .current_price_for(trader, material, "new / ab 250 kg")
+            .unwrap()
+            .is_some());
+        assert_eq!(
+            db.current_price_for(trader, material, foreign.variant)
+                .unwrap()
+                .unwrap()
+                .id,
+            foreign_id
+        );
+        assert!(db
+            .current_price_for(trader, material, "too late")
+            .unwrap()
+            .is_none());
+    }
+
+    #[test]
+    fn snapshot_rejects_foreign_producer_collision_without_changes() {
+        let (_dir, db, trader, material) = setup("snapshot-producer");
+        let mut legacy = price(
+            trader,
+            material,
+            7.0,
+            "2026-10-09T00:00:00Z",
+            "2026-10-09T00:00:00Z",
+        );
+        legacy.source_url = "https://example.test/prices";
+        let legacy_id = db.record_price(&legacy).unwrap();
+        let mut foreign = price(
+            trader,
+            material,
+            8.0,
+            legacy.observed_at,
+            legacy.ingested_at,
+        );
+        foreign.source_url = legacy.source_url;
+        foreign.variant = "canonical / ab 137 kg";
+        foreign.extra_json = "{\"snapshot_owner\":\"other-producer\"}";
+        let foreign_id = db.record_price(&foreign).unwrap();
+        let before = (
+            db.test_query("SELECT * FROM current_prices ORDER BY variant"),
+            db.test_query("SELECT * FROM prices ORDER BY id"),
+        );
+        let mut offered = price(
+            trader,
+            material,
+            8.0,
+            "2026-10-10T00:00:00Z",
+            "2026-10-10T00:00:00Z",
+        );
+        offered.source_url = legacy.source_url;
+        offered.variant = foreign.variant;
+        offered.extra_json = "{\"snapshot_owner\":\"this-producer\"}";
+        assert!(db
+            .record_price_snapshot(&[offered], &[legacy_id], "this-producer")
+            .is_err());
+        assert_eq!(
+            (
+                db.test_query("SELECT * FROM current_prices ORDER BY variant"),
+                db.test_query("SELECT * FROM prices ORDER BY id")
+            ),
+            before
+        );
+        let mut fresh = price(
+            trader,
+            material,
+            9.0,
+            "2026-10-10T00:00:00Z",
+            "2026-10-10T00:00:00Z",
+        );
+        fresh.source_url = legacy.source_url;
+        fresh.variant = "fresh / ab 250 kg";
+        fresh.extra_json = "{\"snapshot_owner\":\"this-producer\"}";
+        assert_eq!(
+            db.record_price_snapshot(&[fresh], &[legacy_id, foreign_id], "this-producer")
+                .unwrap(),
+            1
+        );
+        assert!(db
+            .current_price_for(trader, material, "")
+            .unwrap()
+            .is_none());
+        assert_eq!(
+            db.current_price_for(trader, material, foreign.variant)
+                .unwrap()
+                .unwrap()
+                .id,
+            foreign_id
+        );
+        assert_eq!(
+            db.price_history(trader, material, foreign.variant, 10)
+                .unwrap()
+                .len(),
+            1
+        );
+    }
+
+    #[test]
+    fn snapshot_adopts_explicitly_empty_producer_marker() {
+        let (_dir, db, trader, material) = setup("snapshot-empty-producer");
+        let mut p = price(
+            trader,
+            material,
+            7.0,
+            "2026-10-09T00:00:00Z",
+            "2026-10-09T00:00:00Z",
+        );
+        p.source_url = "https://example.test/prices";
+        p.variant = "canonical / ab 137 kg";
+        p.extra_json = "{\"snapshot_owner\":\"\"}";
+        let original = db.record_price(&p).unwrap();
+        p.observed_at = "2026-10-10T00:00:00Z";
+        p.extra_json = "{\"snapshot_owner\":\"test\"}";
+        assert_eq!(db.record_price_snapshot(&[p], &[], "test").unwrap(), 0);
+        let current = db
+            .current_price_for(trader, material, "canonical / ab 137 kg")
+            .unwrap()
+            .unwrap();
+        assert_eq!(current.id, original);
+        assert_eq!(
+            serde_json::from_str::<serde_json::Value>(&current.extra_json).unwrap()
+                ["snapshot_owner"],
+            "test"
+        );
+    }
+
+    #[test]
+    fn snapshot_refresh_stamps_ownership_and_keeps_publication_basis() {
+        let (_dir, db, trader, material) = setup("snapshot-marker");
+        let mut p = price(
+            trader,
+            material,
+            7.0,
+            "2026-10-09T00:00:00Z",
+            "2026-10-09T00:00:00Z",
+        );
+        p.variant = "dynamic / ab 137 kg";
+        p.source_url = "https://example.test/prices";
+        p.extra_json = "{\"published_at_basis\":\"observed_price_change\"}";
+        p.published_at = Some("2026-10-09T00:00:00Z");
+        let original = db.record_price(&p).unwrap();
+        p.observed_at = "2026-10-10T00:00:00Z";
+        p.published_at = None;
+        p.extra_json = "{\"snapshot_owner\":\"test\"}";
+        assert_eq!(db.record_price_snapshot(&[p], &[], "test").unwrap(), 0);
+        let current = db
+            .current_price_for(trader, material, "dynamic / ab 137 kg")
+            .unwrap()
+            .unwrap();
+        assert_eq!(current.id, original);
+        let extra: serde_json::Value = serde_json::from_str(&current.extra_json).unwrap();
+        assert_eq!(extra["snapshot_owner"], "test");
+        assert_eq!(extra["published_at_basis"], "observed_price_change");
+        let mut next = price(
+            trader,
+            material,
+            7.0,
+            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00Z",
+        );
+        next.variant = "new / ab 250 kg";
+        next.source_url = "https://example.test/prices";
+        next.extra_json = "{\"snapshot_owner\":\"test\"}";
+        assert_eq!(db.record_price_snapshot(&[next], &[], "test").unwrap(), 1);
+        assert!(db
+            .current_price_for(trader, material, "dynamic / ab 137 kg")
+            .unwrap()
+            .is_none());
+        assert_eq!(
+            db.price_history(trader, material, "dynamic / ab 137 kg", 10)
+                .unwrap()
+                .len(),
+            1
+        );
     }
 
     #[test]
