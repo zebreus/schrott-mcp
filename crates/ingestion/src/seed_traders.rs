@@ -795,6 +795,50 @@ mod tests {
     }
 
     #[test]
+    fn changed_seed_blank_address_replaces_core_fields_but_keeps_geo_and_enrichment() {
+        let dir = TempDbDir::new("seed-address-withdrawal");
+        let db = PublicDb::open(dir.path()).expect("test db opens");
+        let first = "2026-10-10T00:00:00Z";
+        let changed = "2026-10-11T00:00:00Z";
+        let original = coordinate_fixture(serde_json::json!({
+            "street": "Unverified legacy street 1", "postcode": "12345",
+            "lat": "52.5", "lon": "13.4", "phone": "123",
+            "description": "Stored enrichment"
+        }));
+        assert_eq!(apply_seed_traders(&db, &[original], first).unwrap(), 1);
+        let withdrawn = coordinate_fixture(serde_json::json!({
+            "street": "", "postcode": "", "lat": "", "lon": "",
+            "phone": "", "description": "", "notes": "Address evidence withdrawn"
+        }));
+        assert_eq!(
+            apply_seed_traders(&db, &[withdrawn.clone()], changed).unwrap(),
+            1
+        );
+        let row = db
+            .query_sql(
+                "SELECT street, postcode, lat, lon, phone, description, first_seen_at, updated_at
+             FROM traders WHERE slug = 'bb-coordinate-test'",
+            )
+            .unwrap();
+        assert_eq!(row.rows[0][0].as_str(), Some(""));
+        assert_eq!(row.rows[0][1].as_str(), Some(""));
+        assert_eq!(row.rows[0][2].as_f64(), Some(52.5));
+        assert_eq!(row.rows[0][3].as_f64(), Some(13.4));
+        assert_eq!(row.rows[0][4].as_str(), Some("123"));
+        assert_eq!(row.rows[0][5].as_str(), Some("Stored enrichment"));
+        assert_eq!(row.rows[0][6].as_str(), Some(first));
+        assert_eq!(row.rows[0][7].as_str(), Some(changed));
+        assert_eq!(apply_seed_traders(&db, &[withdrawn], changed).unwrap(), 0);
+        let repeated = db
+            .query_sql(
+                "SELECT street, postcode, lat, lon, phone, description, first_seen_at, updated_at
+             FROM traders WHERE slug = 'bb-coordinate-test'",
+            )
+            .unwrap();
+        assert_eq!(row.rows, repeated.rows);
+    }
+
+    #[test]
     fn invalid_coordinate_pairs_fail_before_any_write() {
         let dir = TempDbDir::new("seed-coordinate-invalid");
         let db = PublicDb::open(dir.path()).expect("test db opens");
