@@ -1,6 +1,6 @@
 # Recherchewelle E — 2026-10-11
 
-Status: drei Rechercheagenten gestartet, Ergebnisse noch nicht freigegeben.
+Status: alle drei Recherche-Shards abgeschlossen; unabhängige Reviews und gemeinsamer Integrationsgate noch offen.
 Basis `ade525fd`. Keine Dossieränderungen auf Main in diesem Startcheckpoint.
 
 ## Auswahl und Isolation
@@ -189,3 +189,44 @@ Keine Quellen-/Einheiten-/Datums-/Canaryfehler im bounded Releaseprüfer.
 GitHub-Anmeldung weiterhin fehlend, keine passenden GEO-Logs. Die geprüften
 pending Releaseartefakte wurden nicht installiert; Produktion unverändert.
 Keine Wellen-Dossiers auf Main übernommen, keine Produktions-Clears angewendet.
+
+## Abgeschlossene Shards und Süd-Ownerkorrekturen
+
+Alle drei Recherche-Sessions lieferten nach ihrer Fortsetzung einen abschließenden
+Handoff. Nordwest und Ost/Mitte enthalten je20 Dossiers, einen Bericht und kleine
+README-Reportlinks; keine Freigabe zum Überschreiben der gesamten Main-README.
+
+Das vollständige Süd-Quellenreview wurde gelesen und blockierte die Erstfassung:
+Scheuer versprach unbelegt Ankaufvergütung; Seilers Website/Beschreibung und
+STALCANTs Beschreibung übernahmen ungeprüfte Einzelbelege. Owner korrigierte im
+Süd-Worktree Scheuers Vergütungsformulierung und hielt die drei Einzelbelegfills
+zurück. Neuer Northdata-Register-/Adressnachweis aus dem unabhängigen Review
+separat als datierter Befund dokumentiert, keine weiteren Kontakt-/GEO-Fills.
+Die alte Timeline bleibt vollständig erhalten, auch die inzwischen überholten
+Recherchevorschläge werden durch neue Owner-Notes statt Löschen eingeordnet.
+
+Nach begrenzter Quellenfreigabe der neun Kontaktwithdrawals und dem oben
+verzeichneten read-only Prodvergleich: Owner wählte explizit neun Telefonclears,
+zusätzlich Delis-Zeiten, Müller-Mail/Zeiten/Beschreibung und Hammerschmidt-Mail.
+Nur zugelassene leere Enrichmentfelder, datierte Begründung je Dossier. Adresse
+und GEO bleiben davon unberührt und unbestätigte Legacy-Werte; keine direkte
+Produktionsbereinigung, kein falscher Claim eines Standort-Clears.
+
+Eigene Nachkorrekturtests im Süd-Worktree: **10 seed_traders-Tests + 9 build.rs-
+Tests bestanden**; kompletter Codegen erfolgreich. Strukturaudit erneut20
+Dossiers, alle historischen Timeline-Suffixe erhalten, slug/state/city/GEO
+unverändert,9 valide Clear-Direktiven, `git diff --check` grün. Diese Tests
+ersetzen nicht das gemeinsame Main-Gate oder Produktionsprüfung nach Rollout.
+
+Unabhängige weitere Reviews tatsächlich gestartet:
+
+- Ost/Mitte: `ses_ed5cc874bffeGGqJku7cUt5ZQu`, externer Bericht
+  `/root/Documents/wave-e-ost-mitte-independent-review-20261011.md`.
+- Nordwest: `ses_ed5c9bf82ffevhR1TCK5mcbtRI`, externer Bericht
+  `/root/Documents/wave-e-nordwest-independent-review-20261011.md`.
+- Süd-Reviewer bestehende Session zur begrenzten Prüfung der Ownerkorrekturen
+  fortgesetzt; finale Bestätigung noch ausstehend, keine Vollfreigabe erfunden.
+
+Erneuter Health-/Feedbackcheck: Service active, keine Warnungen sechs Stunden,
+Feedback maximal6080 unverändert, Bestand3881/54/2426. Keine neuen Wellen-
+Dossiers auf Main, kein Push/Deployment/Prod-Clear in diesem Checkpoint.
