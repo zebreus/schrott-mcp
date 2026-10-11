@@ -107,3 +107,37 @@ Check-in service active, warning journal empty for six hours, feedback unchanged
 at 6080, counts 3,881 / 54 / 2,426. No matching geocoding logs; no prior geocoding
 success inferred. GitHub authentication still absent. Main code and production
 databases unchanged; MKM integration remains blocked pending completed reviews.
+
+## Final F1–F5 review received; additional Owner F6 blocks integration
+
+Independent review completed: `RE-REVIEW.md` now includes the successful final
+143-case run, scoped F1–F5 closure, protected chronology/legacy neighbors and
+complete rollback evidence. DiskFull failure and subsequent successful run
+are retained separately; no failure is relabelled as a pass. The approval is
+limited to reviewed Store/recording/overview fixes, not the overall rollout.
+
+Owner subsequently read the full Store change diff, transaction/retirement
+control flow, complete typed recording implementation and registered fetch
+path. A new **P2 F6: missing catalog-unit normalization** was reproduced before
+integration. `recording.rs` constructs `NewPrice` directly with source price,
+max and unit, unlike normal recording's catalog normalization. The catalog
+contains `mischschrott` and `schrott-eisen-ne-gemischt` in EUR/t; parser quotes
+are EUR/kg. These two original articles are currently request-only, so this
+is **not a claim of wrong numeric quotes in today's source or production**.
+
+Owner scratch harness `/root/mkm-owner-unit-review/src/main.rs` uses actual
+candidate libraries, original parsed fixture, a complete otherwise unchanged
+typed snapshot, and a valid numeric MKM-SCH-02 article/price/tier contract in
+place of its request. With freshly seeded isolated TempDB, `record_articles`
+succeeds with 56 prices, storing **11.13 EUR/kg** against catalog **EUR/t**.
+The assertion requiring normalized **11,130 EUR/t** fails (exit 101). This is
+a typed-boundary/recording repro, not a claim that mutated HTML was fetched.
+
+Implementation session resumed for F6: normalize all numeric MKM prices and
+bounds into actual catalog units before transaction, preserve original source
+EUR/kg prices, quantity thresholds and all tier metadata, reject unsupported
+unit contracts without mutation. Required regression additionally uses mutated
+fixture HTML → real parser → typed Record → TempDB for both iron articles;
+remaining F1–F5/MSG/legacy and full gates must pass. No catalog-unit edits as a
+workaround. Fresh patch and independent F6 review remain mandatory. No patch
+has been applied to Main, and no deployment or production write occurred.
