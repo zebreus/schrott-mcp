@@ -84,6 +84,24 @@ class VerifyReleaseTests(unittest.TestCase):
         self.assertEqual(code, 1)
         self.assertIn("no post-rollout step", results[0]["failures"])
 
+    def test_connection_blocks_writes_even_if_query_only_is_disabled(self):
+        path = self.directory / "public.db"
+        before = path.read_bytes()
+        with VERIFIER.connect(path) as db:
+            self.assertEqual(db.execute("PRAGMA query_only").fetchone()[0], 1)
+            with self.assertRaises(sqlite3.OperationalError):
+                db.execute("DELETE FROM traders")
+            db.execute("PRAGMA query_only=OFF")
+            with self.assertRaises(sqlite3.OperationalError):
+                db.execute("DELETE FROM traders")
+        self.assertEqual(path.read_bytes(), before)
+
+    def test_readonly_connection_does_not_create_missing_database(self):
+        path = self.directory / "missing.db"
+        with self.assertRaises(sqlite3.OperationalError):
+            VERIFIER.connect(path)
+        self.assertFalse(path.exists())
+
     def test_wrong_semantics_provenance_units_and_freshness_fail(self):
         self.public.execute("UPDATE prices SET price_kind='approx', unit='EUR/t', "
                             "source_url='wrong', observed_at='2020-01-01' WHERE id=1")

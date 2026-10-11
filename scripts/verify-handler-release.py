@@ -22,7 +22,8 @@ HANDLERS = {
 
 
 def connect(path):
-    db = sqlite3.connect(path.resolve().as_uri() + "?mode=ro")
+    db = sqlite3.connect(path.resolve().as_uri() + "?mode=ro", uri=True)
+    db.execute("PRAGMA query_only=ON")
     db.row_factory = sqlite3.Row
     return db
 
