@@ -70,3 +70,40 @@ explicit prohibition on Main edits, deployment or self-approval. Fixes must
 preserve foreign/unproven provenance and legacy/MSG behavior. A new independent
 review and Owner full review remain required after the fixes. The candidate
 has **no integration or production approval**; no patch applied to Main.
+
+## Owner continuation after reviewer usage-limit interruption
+
+The F1–F5 follow-up session ended with a usage-limit error, not a completed
+review or an additional code finding. The same session was resumed. Work is
+split: independent reviewer owns Store/recording/overview remediation checks;
+Owner inspected the full pipeline/typed dispatch/scheduler diffs and complete
+scheduler control flow separately. No candidate edits or patch application.
+
+Owner code observations:
+
+- Only the exact MKM slug takes the typed fetch path. Non-MKM handlers retain
+  their function-pointer scrape path. Typed MKM under another slug is rejected;
+  untyped MKM recording is rejected. MSG still takes its existing snapshot path.
+- Scheduler retains sequential timeout/error/step handling and journals the
+  observation projection, but passes the complete typed outcome to recording.
+  No loss of article metadata at this dispatch boundary found in code review.
+- Full pipeline diff consists of 16 additive catalog entries. A local static
+  slug extraction found 66 baseline / 82 candidate entries, no duplicate slugs,
+  no removed old slugs; full diff showed no other pipeline changes. This is a
+  catalog-structure check, not source-to-material approval.
+- Candidate DDL adds `source_article_snapshots` and `article_acceptance_owners`
+  via `CREATE TABLE IF NOT EXISTS`. A read-only `sqlite_master` query against
+  production found neither table, verifying the stated first-creation premise
+  **at this check**, not authorizing any direct agent migration. Recheck before
+  coordinated deployment; normal application startup owns gated schema setup.
+
+Owner executed the actual candidate scheduler unit-test subset with locked
+dependencies and isolated existing target `/root/mkm-full-target-20261010`:
+**5 passed / 0 failed** (phase stability, stagger, Berlin daily times, failing
+handler isolation and legacy fallback acceptance). These are not a real MKM
+HTTP→scheduler→production proof; that rollout gate remains open.
+
+Check-in service active, warning journal empty for six hours, feedback unchanged
+at 6080, counts 3,881 / 54 / 2,426. No matching geocoding logs; no prior geocoding
+success inferred. GitHub authentication still absent. Main code and production
+databases unchanged; MKM integration remains blocked pending completed reviews.
