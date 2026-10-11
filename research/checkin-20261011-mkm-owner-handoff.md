@@ -43,3 +43,30 @@ Verified SHA256: `4420d866ff4e258e4858e6802a992b88ac529876ea37030feba4dee42190d0
 
 Main code and production databases are untouched by these handoff checks.
 No force ingestion, GEO changes, or modifications to candidate/other worktrees.
+
+## Independent review received: integration blocked
+
+Reviewer report: `/tmp/opencode/mkm-adversarial-review-20261011/REVIEW.md`.
+Owner read the complete report; these findings are supported by the reviewer's
+own actual-library/TempDB reproductions, not yet independently rerun by Owner.
+Reported green Store/MKM/MSG tests do not cover or negate these cases.
+
+1. **P1:** First typed import of the real 12 legacy Current rows directly to
+   a complete 0/60 request snapshot leaves 10 numeric Current quotes. Existing
+   transition tests first import typed numeric rows and miss the cutover case.
+2. **P1:** Public legacy `record_price()` with unmarked metadata can update an
+   existing typed MKM history row's timestamp. Immutable protection considers
+   incoming metadata but not the existing row owner.
+3. **P2:** Hidden label descendants can supply expected identity text despite
+   a changed visible article title.
+4. **P2:** Present but invalid page-change date becomes successful NULL metadata
+   rather than a parse error.
+5. **P2:** Unknown tier fields can be accepted and silently discarded instead
+   of rejecting an unreviewed source contract.
+
+Implementation session `ses_ed87d0283ffetNWpWACsi5NOwD` resumed with all five
+findings, mandatory red-to-green regression tests, full final gates, and an
+explicit prohibition on Main edits, deployment or self-approval. Fixes must
+preserve foreign/unproven provenance and legacy/MSG behavior. A new independent
+review and Owner full review remain required after the fixes. The candidate
+has **no integration or production approval**; no patch applied to Main.
