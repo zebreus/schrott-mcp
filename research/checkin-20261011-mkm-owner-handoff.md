@@ -141,3 +141,35 @@ fixture HTML → real parser → typed Record → TempDB for both iron articles;
 remaining F1–F5/MSG/legacy and full gates must pass. No catalog-unit edits as a
 workaround. Fresh patch and independent F6 review remain mandatory. No patch
 has been applied to Main, and no deployment or production write occurred.
+
+## Continued Owner parser/source review while F6 is being fixed
+
+Owner read the complete `overview.rs` production parser (types, all 60 exact
+article mappings, caption/group/row partition, visibility guards, price grammar,
+date/tier parsing, numeric/request projection and missing/duplicate diagnostics),
+the fixed per-article mapping oracle and complete independent Python audit.
+No additional demonstrated functional blocker found in this reading. Parser
+comments still describing the candidate as proof-only/without transport are
+stale; update during final integration without changing historical reports.
+
+Fresh Owner read-only HTTP requests for overview and imprint both returned
+200 at their exact canonical final URLs. Saved outside the repo:
+
+- `/root/Documents/mkm-owner-overview-20261011.html`, 253,811 bytes,
+  SHA256 `0bf08f47395c3436e97c8c002b150f4bb89a38d08425599a4f33610e3a0baa7e`.
+- `/root/Documents/mkm-owner-impressum-20261011.html`, 28,398 bytes,
+  SHA256 `77ca243d58b3e3127eccfb6edaf5bc17e36d0cbd5063ef166f56370e7f153f6d`.
+- `/root/Documents/mkm-owner-fresh-source-audit-20261011.json`: independent
+  inventory of the freshly fetched overview is 8 groups / 60 articles /
+  55 numeric / 5 requests; comparison of every source article contract and
+  fixed material/variant oracle against prior candidate projection has no gaps.
+
+This audit does not test catalog-normalized stored prices (F6 remains open),
+the page-date parser, browser visibility or production rollout. Saved sources
+are byte-identical to the previously reviewed source hashes. No re-fetch of
+all 60 detail pages claimed; their semantic review evidence remains separate.
+
+Latest check-in: service active, six-hour warning journal empty, feedback still
+6080, public counts 3,881 / 54 / 2,426. Main clean before this document update;
+GitHub auth absent, no matching geocoding logs. No candidate edits, duplicated
+implementation work, production DB writes, forced ingestion or deployment.
