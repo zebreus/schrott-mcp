@@ -274,12 +274,82 @@ pub const CANARY_GROWTH_FACTOR: f64 = 3.0;
 pub const CANARY_JUMP_RATIO: f64 = 3.0;
 
 /// Record one handler outcome: resolve ids, append observations.
+/// Typed boundary for MKM articles without adding optional fields to 130
+/// unrelated legacy outcome constructors. Other handlers, including MSG,
+/// retain their existing contracts unchanged.
+#[derive(Debug)]
+pub enum RecordOutcome {
+    Observation(HandlerOutcome),
+    MkmArticles(handlers::mkm_metals::overview::Snapshot),
+}
+
+impl RecordOutcome {
+    pub fn observation(&self) -> &HandlerOutcome {
+        match self {
+            Self::Observation(outcome) => outcome,
+            Self::MkmArticles(snapshot) => &snapshot.outcome,
+        }
+    }
+}
+
+/// Preserve MKM's typed source contract through scheduling; other handlers,
+/// including MSG's existing snapshot contract, keep their current transport.
+pub async fn scrape_record_outcome(
+    handler: &Handler,
+    client: &reqwest::Client,
+) -> Result<RecordOutcome, super::IngestError> {
+    if handler.slug == handlers::mkm_metals::SLUG {
+        return handlers::mkm_metals::scrape_articles(client)
+            .await
+            .map(RecordOutcome::MkmArticles);
+    }
+    (handler.scrape)(client)
+        .await
+        .map(RecordOutcome::Observation)
+}
+
+pub async fn record_outcome(
+    public: &PublicDb,
+    internal: &InternalDb,
+    handler_slug: &str,
+    outcome: &RecordOutcome,
+    now: &DateTime<Utc>,
+) -> Result<RecordSummary, super::IngestError> {
+    if let RecordOutcome::MkmArticles(snapshot) = outcome {
+        if handler_slug != handlers::mkm_metals::SLUG {
+            return Err(super::IngestError::Parse {
+                url: snapshot.outcome.fetch_url.clone(),
+                detail: "MKM typed snapshot under another trader".to_owned(),
+            });
+        }
+        return handlers::mkm_metals::record_articles(public, snapshot, now);
+    }
+    record(public, internal, handler_slug, outcome.observation(), now).await
+}
+
+/// Record one legacy handler outcome: resolve ids, append observations.
 /// Unknown materials are skipped loudly; an unknown trader slug fails the
 /// whole step (misconfiguration, must be heard). Fetch journaling lives
 /// in the scheduler so failed attempts are journaled too.
 /// Returns (recorded, skipped, canary_notes).
 #[allow(clippy::too_many_arguments)]
 pub async fn record(
+    public: &PublicDb,
+    internal: &InternalDb,
+    handler_slug: &str,
+    outcome: &HandlerOutcome,
+    now: &DateTime<Utc>,
+) -> Result<RecordSummary, super::IngestError> {
+    if handler_slug == handlers::mkm_metals::SLUG {
+        return Err(super::IngestError::Parse {
+            url: outcome.fetch_url.clone(),
+            detail: "MKM recording requires complete typed article evidence".to_owned(),
+        });
+    }
+    record_observation(public, internal, handler_slug, outcome, now).await
+}
+
+async fn record_observation(
     public: &PublicDb,
     internal: &InternalDb,
     handler_slug: &str,

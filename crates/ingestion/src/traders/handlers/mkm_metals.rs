@@ -1,28 +1,24 @@
-//! MKM Metals (Ludwigshafen): daily purchase prices for the Kupfer group
-//! on the /metallpreise overview (live "13 Sorten · bis 11,24 €/kg").
-//! Window = the `id="kupfer"` section up to `id="messing"`, table picked
-//! by its caption "Ankaufpreise für Kupfer" (columns Sorte /
-//! Artikelnummer / Höchstpreis / Geändert / Menge).
+//! MKM Metals (Ludwigshafen), operator purchase-price overview.
 //!
-//! "Höchstpreis" + the "bis … €/kg" group header are up-to prices →
-//! `price = price_max` = advertised value, confidence 0.5, kind "upto"
-//! (kupferhelden pattern). Every row quotes "/kg" plus a uniform "ab
-//! 250 kg" minimum quantity (documented here — no per-row field carries
-//! it). Page date: "Preisliste · Stand 27.09.2026" → `published_at`.
+//! The scheduler transports the complete typed article snapshot through the
+//! MKM-only atomic recording seam. A lossy plain Outcome cannot be recorded.
+//! Historical copper-only helpers remain test-only regression evidence.
 //!
-//! Scope is the Kupfer table only: Messing/Rotguss, Aluminium, Edelstahl,
-//! NE-Metalle, Blei/Zink/E-Motoren, Hartmetall and Schrott groups share
-//! the shape but are separate sections — a later step can extend the
-//! window per group. Kupfergranulat and Cu/Ms-Kühler have no catalog
-//! material and skip loudly.
+//! Höchstpreise are "upto", not universal small-quantity prices. Current
+//! source has heterogeneous minimum quantities and product dates; the page's
+//! "zuletzt geändert" date must not become every row's publication date.
 
 use scraper::{ElementRef, Html, Selector};
 
-use super::super::{
-    fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
-    TraderInfo,
-};
+#[cfg(test)]
+use super::super::parse_eur;
+use super::super::{parse_de_date, Handler, HandlerOutcome, Schedule, TraderInfo};
 use crate::IngestError;
+
+/// Full article-aware parser and diagnostic inventory.
+pub mod overview;
+mod recording;
+pub use recording::record_articles;
 
 pub const SLUG: &str = "rp-ludwigshafen-mkm-metals";
 /// Bespoke, live-verified impressum URL (site footer's own "Impressum"
@@ -30,8 +26,7 @@ pub const SLUG: &str = "rp-ludwigshafen-mkm-metals";
 /// never shared.
 pub const IMPRESSUM_URL: &str = "https://mkm-metals.de/impressum";
 
-/// Price overview; the Kupfer section is parsed, other metal groups are
-/// out of scope for this handler (see module docs).
+/// Operator's eight purchase tables; sales/fees are not quotes.
 pub const URL: &str = "https://mkm-metals.de/metallpreise";
 
 pub fn handler() -> Handler {
@@ -44,43 +39,45 @@ pub fn handler() -> Handler {
 }
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    let (status, html) = fetch_text(client, URL).await?;
-    let (published_at, rows, mut skipped_labels) = parse(&html)?;
-    // Höchstpreise are upper bounds: price = price_max = advertised.
-    let mut prices = Vec::with_capacity(rows.len());
-    for (label, price, unit) in rows {
-        match grade_for(&label) {
-            Some((material, variant)) => prices.push(ScrapedPrice {
-                material,
-                variant: variant.into(),
-                price,
-                currency: "EUR",
-                unit,
-                price_kind: "upto",
-                price_min: None,
-                price_max: Some(price),
-                confidence: Some(0.5),
-                label,
-            }),
-            None => skipped_labels.push(label),
-        }
+    Ok(scrape_articles(client).await?.outcome)
+}
+
+/// Typed transport used by the scheduler. Fetching is read-only; diagnostics
+/// are carried into the fail-closed recording boundary, never partial writes.
+pub async fn scrape_articles(client: &reqwest::Client) -> Result<overview::Snapshot, IngestError> {
+    let (status, html) = fetch_owned_source(client, URL).await?;
+    let (_, imp_html) = fetch_owned_source(client, IMPRESSUM_URL).await?;
+    overview::parse(&html, &imp_html, status)
+}
+
+async fn fetch_owned_source(
+    client: &reqwest::Client,
+    url: &str,
+) -> Result<(u16, String), IngestError> {
+    let response = client
+        .get(url)
+        .send()
+        .await
+        .map_err(|source| IngestError::Fetch {
+            url: url.to_owned(),
+            source,
+        })?;
+    validate_source_response(url, response.url().as_str(), response.status().as_u16())?;
+    let body = response.text().await.map_err(|source| IngestError::Body {
+        url: url.to_owned(),
+        source,
+    })?;
+    Ok((200, body))
+}
+
+fn validate_source_response(expected: &str, actual: &str, status: u16) -> Result<(), IngestError> {
+    if expected != actual || status != 200 {
+        return Err(IngestError::Parse {
+            url: expected.to_owned(),
+            detail: format!("changed MKM source identity/status: {actual} HTTP {status}"),
+        });
     }
-    // Impressum failure fails the whole step on purpose: a moved contact
-    // page means the site changed and needs eyeballs before we trust
-    // anything from it again.
-    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
-    let trader_info = extract_info(&imp_html)?;
-    Ok(HandlerOutcome {
-        prices,
-        acceptances: vec![],
-        trader_info,
-        website_alive: true,
-        skipped_labels,
-        fetch_url: URL.to_owned(),
-        status_code: status,
-        byte_len: html.len(),
-        published_at,
-    })
+    Ok(())
 }
 
 /// Explicit label → (material, variant) mapping. Anything unlisted is
@@ -88,6 +85,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 /// before any copper fallback, "Cu/Ms Kühler" must die on the kühler
 /// arm before cable/copper arms, and cable percentages stay apart via
 /// distinct variants (70% vs 60% vs 38-40% vs Stecker 30%).
+#[cfg(test)]
 fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
@@ -267,11 +265,12 @@ fn strip_fragment(s: &str) -> String {
     strip_tags(s)
 }
 
-/// Bespoke page-date reader: "Preisliste · Stand 27.09.2026" at the top
-/// of the page (one date per page — no per-material dates exist). Later
+/// Legacy page-date reader for historical "Stand" markup only. The current
+/// overview has per-product dates and a separate page-change date. Later
 /// "Stand …" decoys (JSON-LD FAQ: "mit dem Stand des jeweiligen Tages")
 /// parse to no date and are skipped — the first parseable dd.mm.yyyy
 /// after a "Stand " wins.
+#[cfg(test)]
 fn stand_date(html: &str) -> Option<String> {
     let mut rest = html;
     while let Some(i) = rest.find("Stand ") {
@@ -289,6 +288,7 @@ fn stand_date(html: &str) -> Option<String> {
     None
 }
 
+#[cfg(test)]
 fn parse(
     html: &str,
 ) -> Result<
@@ -388,6 +388,7 @@ fn parse(
 /// Bespoke unit matcher for THIS table's Höchstpreis cells (live: "/kg"
 /// on every copper row). Only kg exists here — anything else skips
 /// loudly at the call site.
+#[cfg(test)]
 fn unit_of(cell: &str) -> Option<&'static str> {
     if cell.to_lowercase().contains("kg") {
         Some("EUR/kg")
@@ -398,7 +399,42 @@ fn unit_of(cell: &str) -> Option<&'static str> {
 
 #[cfg(test)]
 mod tests {
+    #[test]
+    fn owned_source_response_cannot_redirect_or_change_http_contract() {
+        for url in [super::URL, super::IMPRESSUM_URL] {
+            assert!(super::validate_source_response(url, url, 200).is_ok());
+            for actual in [
+                "https://foreign.test/impressum",
+                "https://mkm-metals.de/impressum/",
+                "http://mkm-metals.de/metallpreise",
+            ] {
+                assert!(super::validate_source_response(url, actual, 200).is_err());
+            }
+            for status in [201, 204, 301, 404, 500] {
+                assert!(super::validate_source_response(url, url, status).is_err());
+            }
+        }
+    }
     use super::{grade_for, parse, stand_date};
+
+    #[test]
+    fn current_overview_all_numeric_articles_reach_real_mapping() {
+        let html = include_str!("fixtures/mkm-overview-20261010.html");
+        let imp = include_str!("fixtures/mkm-impressum-20261010.html");
+        let snapshot = super::overview::parse(html, imp, 200).expect("current operator snapshot");
+        assert_eq!(snapshot.outcome.prices.len(), 55);
+        assert_eq!(snapshot.outcome.acceptances.len(), 5);
+        assert!(
+            snapshot.diagnostics.is_empty(),
+            "{:?}",
+            snapshot.diagnostics
+        );
+        assert!(snapshot
+            .outcome
+            .prices
+            .iter()
+            .any(|p| p.label == "Nickel rein ab 99 %" && p.material == "nickel"));
+    }
 
     // Real live markup of the Kupfer table (caption + 4 of 13 rows: the
     // mapping-critical shapes Millberry/Kerze/Kabel-70/Kühler).

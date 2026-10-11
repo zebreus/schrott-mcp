@@ -1,0 +1,136 @@
+{
+  "captured_at": "2026-10-11T04:34:06.909802+00:00",
+  "finding": "F6 catalog-normalized Store projection, source contracts unchanged",
+  "implementation_scope": "recording.rs only; shared normalize_unit reused unchanged; source parser/audit/catalog unchanged",
+  "approval": "F1-F5 independent 143-case scope release retained; F6 independent review and owner integration review pending; no selfapproval",
+  "main_observed": "41b08cbf16a802f406593d253830888132d1d9e6; untouched",
+  "workspace_results": [
+    {
+      "passed": 4,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 3,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 593,
+      "failed": 0,
+      "ignored": 5
+    },
+    {
+      "passed": 4,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 16,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 40,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    }
+  ],
+  "workspace_passed": 660,
+  "workspace_ignored": 5,
+  "log_sha256": {
+    "owner_red": "3e98a02be633e74be6c8b9da3e86ae6a83069ec2cfc779e89a3c549d3f7a425f",
+    "owner_green": "0819e920f60cd89c8ac5e064a11583046e29dca79bdafe01d714f5bcdb4f489e",
+    "regression_red": "58578af4614d93507794d9a15f00794d974c7c2b191b1c9b62ae4feba7ba4c8d",
+    "regression_green": "93dae02df231ddca3bbbab197023de3c3826e023e38065f60ff50e2843c1ae27",
+    "workspace": "072abc5cf377f844cf2c66affb7b72bd54c16cedb1e5829674ad2d655cd29f9e",
+    "mkm": "0f3d0a555e9a895e99ae44d015c805d4b66b4f3efcf518010ff2cd4166535bc3",
+    "msg": "91a6bc4217a28f02875ff4cfa8c78d3a7ddf27b257e2a5022757b21f0656cd3f",
+    "python": "b47837459067d21d4dd8eae06886e9136d71e6634acc4f24e218e31a883c404f"
+  },
+  "owner_repro_output": [
+    "recorded=56, source_price=11.13, stored_price=11130, stored_unit=EUR/t, material=schrott-eisen-ne-gemischt",
+    "catalog=[[String(\"schrott-eisen-ne-gemischt\"), String(\"EUR/t\")]]"
+  ],
+  "reviewed_unit_expectation": {
+    "EUR/t_materials": [
+      "mischschrott",
+      "schrott-eisen-ne-gemischt"
+    ],
+    "other_MKM_material_units": "EUR/kg",
+    "all_60_articles_checked_against_fixed_expectation": true
+  },
+  "future_numeric_fixture_assertions": {
+    "article_ids": [
+      "MKM-SCH-01",
+      "MKM-SCH-02"
+    ],
+    "stored_unit": "EUR/t",
+    "stored_price": 11130.0,
+    "stored_price_max": 11130.0,
+    "source_price_eur_per_kg": 11.13,
+    "source_threshold_kg": 250.0,
+    "source_tiers": "all four unchanged; 0/40/100/250kg",
+    "stored_price_min": null,
+    "current_upto_does_not_activate_range_contracts": true,
+    "shared_seam_bounds_probe": {
+      "source_min": 10.6,
+      "source_max": 11.13,
+      "normalized_min": 10600.0,
+      "normalized_max": 11130.0
+    }
+  },
+  "unsupported_catalog_error_probes": [
+    "EUR/Stk numeric material",
+    "USD/t request-only material",
+    "empty request-only material"
+  ],
+  "error_invariance": "all prices/current/acceptances/manifest/owner rows unchanged before/after errors; own TempDB only",
+  "registered_live": {
+    "groups": 8,
+    "products": 60,
+    "numeric": 55,
+    "request_only": 5,
+    "diagnostics": [],
+    "production_ready": false
+  },
+  "source_audit_article_gaps": [],
+  "audit_scope": "Source €/kg and kg thresholds, not DB normalized projection; no masking/conversion of source reports",
+  "primary_sources": [
+    {
+      "url": "https://mkm-metals.de/metallpreise",
+      "path": "/tmp/opencode/mkm-f6-overview-20261011.html",
+      "sha256": "0bf08f47395c3436e97c8c002b150f4bb89a38d08425599a4f33610e3a0baa7e",
+      "bytes": 253811,
+      "headers": "HTTP/2 200 \nserver: nginx\ndate: Sun, 11 Oct 2026 04:33:08 GMT\ncontent-type: text/html; charset=utf-8\nvary: Accept-Encoding\ncache-control: private, max-age=0, must-revalidate\nset-cookie: mkm_session=d50462b62c5fe31cef9f4c8f32b4aff2; expires=Tue, 10 Nov 2026 04:33:07 GMT; Max-Age=2592000; path=/; secure; HttpOnly; SameSite=Lax\nx-content-type-options: nosniff\nx-frame-options: SAMEORIGIN\nreferrer-policy: strict-origin-when-cross-origin\npermissions-policy: geolocation=(), microphone=(), camera=()\ncontent-security-policy: default-src 'self';         img-src 'self' data: blob: https://*.google-analytics.com             https://*.googletagmanager.com https://*.gstatic.com             https://www.google.com https://client.crisp.chat             https://image.crisp.chat https://storage.crisp.chat;         style-src 'self' 'unsafe-inline' https://fonts.googleapis.com             https://client.crisp.chat;         font-src 'self' https://fonts.gstatic.com https://client.crisp.chat;         media-src 'self' https://client.crisp.chat;         script-src 'self' https://www.googletagmanager.com             https://apis.google.com https://www.gstatic.com             https://client.crisp.chat;         connect-src 'self' https://*.google-analytics.com             https://*.analytics.google.com https://*.googletagmanager.com             https://www.merchant-center-analytics.goog             https://apis.google.com https://www.google.com             https://client.crisp.chat wss://client.relay.crisp.chat;         frame-src https://www.google.com https://apis.google.com             https://storage.googleapis.com;         form-action 'self' https://accounts.google.com             https://www.facebook.com;         frame-ancestors 'self';         base-uri 'self'\netag: \"0bf08f47395c3436e97c8c002b150f4b\"\nvary: Accept-Encoding\nalt-svc: h3=\":443\"; ma=86400\nstrict-transport-security: max-age=15768000; includeSubDomains\n\n"
+    },
+    {
+      "url": "https://mkm-metals.de/impressum",
+      "path": "/tmp/opencode/mkm-f6-impressum-20261011.html",
+      "sha256": "77ca243d58b3e3127eccfb6edaf5bc17e36d0cbd5063ef166f56370e7f153f6d",
+      "bytes": 28398,
+      "headers": "HTTP/2 200 \nserver: nginx\ndate: Sun, 11 Oct 2026 04:33:08 GMT\ncontent-type: text/html; charset=utf-8\nvary: Accept-Encoding\ncache-control: private, max-age=0, must-revalidate\nset-cookie: mkm_session=0bf010af0c10144ad067a443ed646e03; expires=Tue, 10 Nov 2026 04:33:07 GMT; Max-Age=2592000; path=/; secure; HttpOnly; SameSite=Lax\nx-content-type-options: nosniff\nx-frame-options: SAMEORIGIN\nreferrer-policy: strict-origin-when-cross-origin\npermissions-policy: geolocation=(), microphone=(), camera=()\ncontent-security-policy: default-src 'self';         img-src 'self' data: blob: https://*.google-analytics.com             https://*.googletagmanager.com https://*.gstatic.com             https://www.google.com https://client.crisp.chat             https://image.crisp.chat https://storage.crisp.chat;         style-src 'self' 'unsafe-inline' https://fonts.googleapis.com             https://client.crisp.chat;         font-src 'self' https://fonts.gstatic.com https://client.crisp.chat;         media-src 'self' https://client.crisp.chat;         script-src 'self' https://www.googletagmanager.com             https://apis.google.com https://www.gstatic.com             https://client.crisp.chat;         connect-src 'self' https://*.google-analytics.com             https://*.analytics.google.com https://*.googletagmanager.com             https://www.merchant-center-analytics.goog             https://apis.google.com https://www.google.com             https://client.crisp.chat wss://client.relay.crisp.chat;         frame-src https://www.google.com https://apis.google.com             https://storage.googleapis.com;         form-action 'self' https://accounts.google.com             https://www.facebook.com;         frame-ancestors 'self';         base-uri 'self'\netag: \"77ca243d58b3e3127eccfb6edaf5bc17\"\nvary: Accept-Encoding\nalt-svc: h3=\":443\"; ma=86400\nstrict-transport-security: max-age=15768000; includeSubDomains\n\n"
+    }
+  ],
+  "production_access": "none; only live read-only operator HTTP and isolated TempDB writes"
+}

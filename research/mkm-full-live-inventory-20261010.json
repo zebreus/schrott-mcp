@@ -1,0 +1,1672 @@
+{
+  "activation_blocker": "shared per-article metadata and history-preserving reconciliation seam",
+  "articles": [
+    {
+      "article": "MET-KU-MILL",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer Millberry",
+      "material": "kupfer-millberry",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "11,13 € /kg ab 250 kg",
+      "price_eur_per_kg": 11.13,
+      "product_change_date": "2026-09-28",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 10.6
+        },
+        {
+          "ab": 40.0,
+          "preis": 10.81
+        },
+        {
+          "ab": 100.0,
+          "preis": 10.97
+        },
+        {
+          "ab": 250.0,
+          "preis": 11.13
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/kupfer-millberry",
+      "variant": ""
+    },
+    {
+      "article": "MKM-CU-01",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer Kerze",
+      "material": "kupfer-berry",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "10,92 € /kg ab 250 kg",
+      "price_eur_per_kg": 10.92,
+      "product_change_date": "2026-09-28",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 10.4
+        },
+        {
+          "ab": 40.0,
+          "preis": 10.61
+        },
+        {
+          "ab": 100.0,
+          "preis": 10.76
+        },
+        {
+          "ab": 250.0,
+          "preis": 10.92
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/kupfer-kerze",
+      "variant": "Kerze"
+    },
+    {
+      "article": "MKM-CU-03",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer Sammelschienen",
+      "material": "kupfer-gemischt",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "10,92 € /kg ab 250 kg",
+      "price_eur_per_kg": 10.92,
+      "product_change_date": "2026-09-28",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 10.4
+        },
+        {
+          "ab": 40.0,
+          "preis": 10.61
+        },
+        {
+          "ab": 100.0,
+          "preis": 10.76
+        },
+        {
+          "ab": 250.0,
+          "preis": 10.92
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/kupfer-sammelschienen",
+      "variant": "Sammelschienen"
+    },
+    {
+      "article": "MKM-CU-02",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfergranulat",
+      "material": "kupfer-granulat",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "10,50 € /kg ab 250 kg",
+      "price_eur_per_kg": 10.5,
+      "product_change_date": "2026-09-28",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 10.0
+        },
+        {
+          "ab": 40.0,
+          "preis": 10.2
+        },
+        {
+          "ab": 100.0,
+          "preis": 10.35
+        },
+        {
+          "ab": 250.0,
+          "preis": 10.5
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/kupfergranulat",
+      "variant": "Kupfergranulat"
+    },
+    {
+      "article": "SW10013",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer (Cu) schwer Basis 95% Kupfer-Inhalt",
+      "material": "kupfer-gemischt",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "10,40 € /kg ab 250 kg",
+      "price_eur_per_kg": 10.4,
+      "product_change_date": "2026-09-28",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 9.9
+        },
+        {
+          "ab": 40.0,
+          "preis": 10.1
+        },
+        {
+          "ab": 100.0,
+          "preis": 10.25
+        },
+        {
+          "ab": 250.0,
+          "preis": 10.4
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/cu-schwer-basis-95-kupfer-inhalt",
+      "variant": "schwer"
+    },
+    {
+      "article": "SW10014",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer Berry/98%",
+      "material": "kupfer-berry",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "10,29 € /kg ab 250 kg",
+      "price_eur_per_kg": 10.29,
+      "product_change_date": "2026-09-28",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 9.8
+        },
+        {
+          "ab": 40.0,
+          "preis": 10.0
+        },
+        {
+          "ab": 100.0,
+          "preis": 10.14
+        },
+        {
+          "ab": 250.0,
+          "preis": 10.29
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/cu-berry-98",
+      "variant": "Berry 98%"
+    },
+    {
+      "article": "MET-KU-RAFF",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer Raff",
+      "material": "kupfer-gemischt",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "10,29 € /kg ab 250 kg",
+      "price_eur_per_kg": 10.29,
+      "product_change_date": "2026-09-28",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 9.8
+        },
+        {
+          "ab": 40.0,
+          "preis": 10.0
+        },
+        {
+          "ab": 100.0,
+          "preis": 10.14
+        },
+        {
+          "ab": 250.0,
+          "preis": 10.29
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/kupfer-raff",
+      "variant": "Raff"
+    },
+    {
+      "article": "MKM-CU-04",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer leicht",
+      "material": "kupfer-gemischt",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "6,93 € /kg ab 250 kg",
+      "price_eur_per_kg": 6.93,
+      "product_change_date": "2026-09-28",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 6.6
+        },
+        {
+          "ab": 40.0,
+          "preis": 6.73
+        },
+        {
+          "ab": 100.0,
+          "preis": 6.83
+        },
+        {
+          "ab": 250.0,
+          "preis": 6.93
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/kupfer-leicht",
+      "variant": "leicht"
+    },
+    {
+      "article": "MET-KA-70",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupferkabel ca. 70%",
+      "material": "kabel-kupfer",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "5,99 € /kg ab 250 kg",
+      "price_eur_per_kg": 5.99,
+      "product_change_date": "2026-09-09",
+      "product_change_text": "am 09.09.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 5.7
+        },
+        {
+          "ab": 40.0,
+          "preis": 5.81
+        },
+        {
+          "ab": 100.0,
+          "preis": 5.9
+        },
+        {
+          "ab": 250.0,
+          "preis": 5.99
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/kupferkabel-ca-70",
+      "variant": "70%"
+    },
+    {
+      "article": "SW10017",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer/Messing Kühler ohne Eisen",
+      "material": "cu-ms-kuehler",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "5,10 € /kg ab 250 kg",
+      "price_eur_per_kg": 5.1,
+      "product_change_date": "2026-07-27",
+      "product_change_text": "am 27.07.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 4.86
+        },
+        {
+          "ab": 40.0,
+          "preis": 4.96
+        },
+        {
+          "ab": 100.0,
+          "preis": 5.03
+        },
+        {
+          "ab": 250.0,
+          "preis": 5.1
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/cu-ms-kuehler-ohne-fe",
+      "variant": "Kupfer/Messing Kühler ohne Eisen"
+    },
+    {
+      "article": "MET-KA-60",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupferkabel ca. 60%",
+      "material": "kabel-kupfer",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "4,94 € /kg ab 250 kg",
+      "price_eur_per_kg": 4.94,
+      "product_change_date": "2026-09-09",
+      "product_change_text": "am 09.09.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 4.7
+        },
+        {
+          "ab": 40.0,
+          "preis": 4.79
+        },
+        {
+          "ab": 100.0,
+          "preis": 4.86
+        },
+        {
+          "ab": 250.0,
+          "preis": 4.94
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/kupferkabel-ca-60",
+      "variant": "60%"
+    },
+    {
+      "article": "SW10015",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupferkabel gemischt (38-40% Kupfer)",
+      "material": "kabel-kupfer",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "3,89 € /kg ab 250 kg",
+      "price_eur_per_kg": 3.89,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 3.7
+        },
+        {
+          "ab": 40.0,
+          "preis": 3.77
+        },
+        {
+          "ab": 100.0,
+          "preis": 3.83
+        },
+        {
+          "ab": 250.0,
+          "preis": 3.89
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/cu-kabel-gemischt-38-40-cu",
+      "variant": "38-40%"
+    },
+    {
+      "article": "SW10016",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Kupfer Steckerkabel (30% Kupfer)",
+      "material": "kabel-mit-stecker",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "1,94 € /kg ab 250 kg",
+      "price_eur_per_kg": 1.94,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.85
+        },
+        {
+          "ab": 40.0,
+          "preis": 1.89
+        },
+        {
+          "ab": 100.0,
+          "preis": 1.91
+        },
+        {
+          "ab": 250.0,
+          "preis": 1.94
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/cu-steckerkabel-30-cu",
+      "variant": "Stecker 30%"
+    },
+    {
+      "article": "SW10035",
+      "group": "Ankaufpreise für Kupfer",
+      "label": "Alu Kupfer Kabel",
+      "material": "kabel-alu-cu",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "1,04 € /kg ab 250 kg",
+      "price_eur_per_kg": 1.04,
+      "product_change_date": "2026-07-26",
+      "product_change_text": "am 26.07.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 0.99
+        },
+        {
+          "ab": 40.0,
+          "preis": 1.01
+        },
+        {
+          "ab": 100.0,
+          "preis": 1.02
+        },
+        {
+          "ab": 250.0,
+          "preis": 1.04
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-kupfer-kabel",
+      "variant": "Alu Kupfer Kabel"
+    },
+    {
+      "article": "SW10024",
+      "group": "Ankaufpreise für Messing & Rotguss",
+      "label": "Rotguss-Stücke",
+      "material": "bronze-rotguss",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "9,14 € /kg ab 250 kg",
+      "price_eur_per_kg": 9.14,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 8.7
+        },
+        {
+          "ab": 2.0,
+          "preis": 8.87
+        },
+        {
+          "ab": 250.0,
+          "preis": 9.14
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/rotguss-stuecke",
+      "variant": "Rotguss-Stücke"
+    },
+    {
+      "article": "SW10025",
+      "group": "Ankaufpreise für Messing & Rotguss",
+      "label": "Rotguss-Späne",
+      "material": "bronze-rotguss",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "7,88 € /kg ab 250 kg",
+      "price_eur_per_kg": 7.88,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 7.5
+        },
+        {
+          "ab": 2.0,
+          "preis": 7.65
+        },
+        {
+          "ab": 250.0,
+          "preis": 7.88
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/rotguss-spaene",
+      "variant": "Rotguss-Späne"
+    },
+    {
+      "article": "SW10020",
+      "group": "Ankaufpreise für Messing & Rotguss",
+      "label": "Messing Hülsen",
+      "material": "messing",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "7,35 € /kg ab 250 kg",
+      "price_eur_per_kg": 7.35,
+      "product_change_date": "2026-10-02",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 7.0
+        },
+        {
+          "ab": 5.0,
+          "preis": 7.14
+        },
+        {
+          "ab": 250.0,
+          "preis": 7.35
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/messing-huelsen",
+      "variant": "Messing Hülsen"
+    },
+    {
+      "article": "SW10019",
+      "group": "Ankaufpreise für Messing & Rotguss",
+      "label": "Messing 63 Abfälle",
+      "material": "messing",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "7,09 € /kg ab 250 kg",
+      "price_eur_per_kg": 7.09,
+      "product_change_date": "2026-08-23",
+      "product_change_text": "am 23.08.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 6.75
+        },
+        {
+          "ab": 5.0,
+          "preis": 6.89
+        },
+        {
+          "ab": 250.0,
+          "preis": 7.09
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/messing-63-abfaelle",
+      "variant": "Messing 63 Abfälle"
+    },
+    {
+      "article": "SW10018",
+      "group": "Ankaufpreise für Messing & Rotguss",
+      "label": "Messing 58 Abfälle",
+      "material": "messing",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "6,62 € /kg ab 500 kg",
+      "price_eur_per_kg": 6.62,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 6.3
+        },
+        {
+          "ab": 5.0,
+          "preis": 6.43
+        },
+        {
+          "ab": 500.0,
+          "preis": 6.62
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/messing-58-abfaelle",
+      "variant": "Messing 58 Abfälle"
+    },
+    {
+      "article": "SW10021",
+      "group": "Ankaufpreise für Messing & Rotguss",
+      "label": "Messing schwer",
+      "material": "messing",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "6,20 € /kg ab 500 kg",
+      "price_eur_per_kg": 6.2,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 5.9
+        },
+        {
+          "ab": 5.0,
+          "preis": 6.02
+        },
+        {
+          "ab": 500.0,
+          "preis": 6.2
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/messing-schwer",
+      "variant": "Messing schwer"
+    },
+    {
+      "article": "SW10023",
+      "group": "Ankaufpreise für Messing & Rotguss",
+      "label": "Messing Späne",
+      "material": "messing",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "5,57 € /kg ab 500 kg",
+      "price_eur_per_kg": 5.57,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 5.3
+        },
+        {
+          "ab": 5.0,
+          "preis": 5.41
+        },
+        {
+          "ab": 500.0,
+          "preis": 5.57
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/messing-spaene",
+      "variant": "Messing Späne"
+    },
+    {
+      "article": "SW10022",
+      "group": "Ankaufpreise für Messing & Rotguss",
+      "label": "Messing leicht",
+      "material": "messing-leicht",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "4,52 € /kg ab 500 kg",
+      "price_eur_per_kg": 4.52,
+      "product_change_date": "2026-07-26",
+      "product_change_text": "am 26.07.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 4.3
+        },
+        {
+          "ab": 5.0,
+          "preis": 4.39
+        },
+        {
+          "ab": 500.0,
+          "preis": 4.52
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/messing-leicht",
+      "variant": "Messing leicht"
+    },
+    {
+      "article": "SW10011",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Kupfer Kühler Fe frei",
+      "material": "alu-cu-kuehler",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "2,94 € /kg ab 500 kg",
+      "price_eur_per_kg": 2.94,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 2.8
+        },
+        {
+          "ab": 10.0,
+          "preis": 2.86
+        },
+        {
+          "ab": 500.0,
+          "preis": 2.94
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-kupfer-kuehler-fe-frei",
+      "variant": "Alu Kupfer Kühler Fe frei"
+    },
+    {
+      "article": "MKM-AL-06",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Profile Neu",
+      "material": "aluminium-profile",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "2,34 € /kg ab 250 kg",
+      "price_eur_per_kg": 2.34,
+      "product_change_date": "2026-09-29",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 2.19
+        },
+        {
+          "ab": 5.0,
+          "preis": 2.23
+        },
+        {
+          "ab": 50.0,
+          "preis": 2.27
+        },
+        {
+          "ab": 100.0,
+          "preis": 2.3
+        },
+        {
+          "ab": 250.0,
+          "preis": 2.34
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-profile",
+      "variant": "Alu Profile Neu"
+    },
+    {
+      "article": "SW10001",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Profile blank/max. 10%eloxiert",
+      "material": "aluminium-profile",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "2,10 € /kg ab 500 kg",
+      "price_eur_per_kg": 2.1,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 2.0
+        },
+        {
+          "ab": 10.0,
+          "preis": 2.04
+        },
+        {
+          "ab": 500.0,
+          "preis": 2.1
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-profile-blank-max-10-eloxiert",
+      "variant": "Alu Profile blank/max. 10%eloxiert"
+    },
+    {
+      "article": "SW10002",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Felgen sauber",
+      "material": "aluminium-felgen",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "1,89 € /kg ab 500 kg",
+      "price_eur_per_kg": 1.89,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.8
+        },
+        {
+          "ab": 10.0,
+          "preis": 1.84
+        },
+        {
+          "ab": 500.0,
+          "preis": 1.89
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-felgen-sauber",
+      "variant": "Alu Felgen sauber"
+    },
+    {
+      "article": "SW10000",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Iso Profile Ausbau",
+      "material": "aluminium-isoprofile",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "1,89 € /kg ab 500 kg",
+      "price_eur_per_kg": 1.89,
+      "product_change_date": "2026-08-26",
+      "product_change_text": "am 26.08.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.8
+        },
+        {
+          "ab": 10.0,
+          "preis": 1.84
+        },
+        {
+          "ab": 500.0,
+          "preis": 1.89
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-iso-profile-ausbau",
+      "variant": "Alu Iso Profile Ausbau"
+    },
+    {
+      "article": "MKM-AL-01",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Profile mit Farbe",
+      "material": "aluminium-profile-beschichtet",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "1,89 € /kg ab 500 kg",
+      "price_eur_per_kg": 1.89,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.8
+        },
+        {
+          "ab": 10.0,
+          "preis": 1.84
+        },
+        {
+          "ab": 500.0,
+          "preis": 1.89
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-profile-farbe",
+      "variant": "Alu Profile mit Farbe"
+    },
+    {
+      "article": "SW10003",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Felgen unsauber",
+      "material": "aluminium-felgen",
+      "minimum_for_upper_bound_kg": 10000.0,
+      "price_cell": "2,03 € /kg ab 10.000 kg",
+      "price_eur_per_kg": 2.03,
+      "product_change_date": "2026-10-02",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.56
+        },
+        {
+          "ab": 100.0,
+          "preis": 1.66
+        },
+        {
+          "ab": 500.0,
+          "preis": 1.76
+        },
+        {
+          "ab": 10000.0,
+          "preis": 2.03
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-felgen-unsauber",
+      "variant": "Alu Felgen unsauber"
+    },
+    {
+      "article": "SW10004",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Geschirr max. 10% Anhaftungen",
+      "material": "aluminium-gemischt",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "1,47 € /kg ab 500 kg",
+      "price_eur_per_kg": 1.47,
+      "product_change_date": "2026-08-25",
+      "product_change_text": "am 25.08.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.4
+        },
+        {
+          "ab": 20.0,
+          "preis": 1.43
+        },
+        {
+          "ab": 500.0,
+          "preis": 1.47
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-geschirr-max-10-anhaftungen",
+      "variant": "Alu Geschirr max. 10% Anhaftungen"
+    },
+    {
+      "article": "MKM-AL-02",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Bleche neu blank",
+      "material": "aluminium-blech",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "1,37 € /kg ab 500 kg",
+      "price_eur_per_kg": 1.37,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.3
+        },
+        {
+          "ab": 20.0,
+          "preis": 1.33
+        },
+        {
+          "ab": 500.0,
+          "preis": 1.37
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-bleche-neu",
+      "variant": "Alu Bleche neu blank"
+    },
+    {
+      "article": "MKM-AL-03",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Aluminium gemischt",
+      "material": "aluminium-gemischt",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "1,37 € /kg ab 500 kg",
+      "price_eur_per_kg": 1.37,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.3
+        },
+        {
+          "ab": 20.0,
+          "preis": 1.33
+        },
+        {
+          "ab": 500.0,
+          "preis": 1.37
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/aluminium-gemischt",
+      "variant": "Aluminium gemischt"
+    },
+    {
+      "article": "MKM-AL-04",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Guss sauber",
+      "material": "aluminium-guss",
+      "minimum_for_upper_bound_kg": 10.0,
+      "price_cell": "1,30 € /kg ab 10 kg",
+      "price_eur_per_kg": 1.3,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.2
+        },
+        {
+          "ab": 10.0,
+          "preis": 1.3
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-guss-sauber",
+      "variant": "Alu Guss sauber"
+    },
+    {
+      "article": "MKM-AL-05",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Aluminiumkabel",
+      "material": "kabel-alu",
+      "minimum_for_upper_bound_kg": 10.0,
+      "price_cell": "0,90 € /kg ab 10 kg",
+      "price_eur_per_kg": 0.9,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 0.8
+        },
+        {
+          "ab": 10.0,
+          "preis": 0.9
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/aluminiumkabel",
+      "variant": "Aluminiumkabel"
+    },
+    {
+      "article": "SW10012",
+      "group": "Ankaufpreise für Aluminium",
+      "label": "Alu Späne Basis 5%",
+      "material": "aluminium-spaene",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "0,63 € /kg ab 500 kg",
+      "price_eur_per_kg": 0.63,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 0.6
+        },
+        {
+          "ab": 50.0,
+          "preis": 0.61
+        },
+        {
+          "ab": 500.0,
+          "preis": 0.63
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/alu-spaene-basis-5",
+      "variant": "Alu Späne Basis 5%"
+    },
+    {
+      "article": "SW10028",
+      "group": "Ankaufpreise für Edelstahl",
+      "label": "V4A Abfälle bis 1,5m",
+      "material": "edelstahl-v4a",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "1,66 € /kg ab 250 kg",
+      "price_eur_per_kg": 1.66,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.6
+        },
+        {
+          "ab": 50.0,
+          "preis": 1.63
+        },
+        {
+          "ab": 250.0,
+          "preis": 1.66
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/v4a-abfaelle-bis-1-5m",
+      "variant": "V4A Abfälle bis 1,5m"
+    },
+    {
+      "article": "SW10026",
+      "group": "Ankaufpreise für Edelstahl",
+      "label": "V2A Abfälle bis 1,5m",
+      "material": "edelstahl-v2a",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "0,84 € /kg ab 500 kg",
+      "price_eur_per_kg": 0.84,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 0.8
+        },
+        {
+          "ab": 25.0,
+          "preis": 0.82
+        },
+        {
+          "ab": 500.0,
+          "preis": 0.84
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/v2a-abfaelle-bis-1-5m",
+      "variant": "V2A Abfälle bis 1,5m"
+    },
+    {
+      "article": "SW10029",
+      "group": "Ankaufpreise für Edelstahl",
+      "label": "V2A-Späne",
+      "material": "edelstahl-v2a",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "0,53 € /kg ab 500 kg",
+      "price_eur_per_kg": 0.53,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 0.5
+        },
+        {
+          "ab": 50.0,
+          "preis": 0.51
+        },
+        {
+          "ab": 500.0,
+          "preis": 0.53
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/v2a-spaene",
+      "variant": "V2A-Späne"
+    },
+    {
+      "article": "MKM-NE-06",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Wolfram ab 99 %",
+      "material": "wolfram",
+      "minimum_for_upper_bound_kg": 50.0,
+      "price_cell": "49,35 € /kg ab 50 kg",
+      "price_eur_per_kg": 49.35,
+      "product_change_date": "2026-09-30",
+      "product_change_text": "vor einer Woche",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 47.0
+        },
+        {
+          "ab": 1.0,
+          "preis": 47.94
+        },
+        {
+          "ab": 50.0,
+          "preis": 49.35
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/wolfram",
+      "variant": "Wolfram ab 99 %"
+    },
+    {
+      "article": "SW10040",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Zinn 99%",
+      "material": "zinn",
+      "minimum_for_upper_bound_kg": 100.0,
+      "price_cell": "31,50 € /kg ab 100 kg",
+      "price_eur_per_kg": 31.5,
+      "product_change_date": "2026-09-09",
+      "product_change_text": "am 09.09.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 30.0
+        },
+        {
+          "ab": 1.0,
+          "preis": 30.6
+        },
+        {
+          "ab": 100.0,
+          "preis": 31.5
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/zinn-99",
+      "variant": "Zinn 99%"
+    },
+    {
+      "article": "SW10039",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Zinn 90%",
+      "material": "zinn-legierungen",
+      "minimum_for_upper_bound_kg": 100.0,
+      "price_cell": "25,73 € /kg ab 100 kg",
+      "price_eur_per_kg": 25.73,
+      "product_change_date": "2026-09-09",
+      "product_change_text": "am 09.09.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 24.5
+        },
+        {
+          "ab": 1.0,
+          "preis": 24.99
+        },
+        {
+          "ab": 100.0,
+          "preis": 25.73
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/zinn-90",
+      "variant": "Zinn 90%"
+    },
+    {
+      "article": "SW10042",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Zinn 60%",
+      "material": "loetzinn",
+      "minimum_for_upper_bound_kg": 100.0,
+      "price_cell": "15,75 € /kg ab 100 kg",
+      "price_eur_per_kg": 15.75,
+      "product_change_date": "2026-09-09",
+      "product_change_text": "am 09.09.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 15.0
+        },
+        {
+          "ab": 2.0,
+          "preis": 15.3
+        },
+        {
+          "ab": 100.0,
+          "preis": 15.75
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/zinn-60",
+      "variant": "Zinn 60%"
+    },
+    {
+      "article": "MKM-NE-05",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Nickel rein ab 99 %",
+      "material": "nickel",
+      "minimum_for_upper_bound_kg": 10.0,
+      "price_cell": "11,90 € /kg ab 10 kg",
+      "price_eur_per_kg": 11.9,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 11.4
+        },
+        {
+          "ab": 10.0,
+          "preis": 11.9
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/nickel-rein",
+      "variant": "Nickel rein ab 99 %"
+    },
+    {
+      "article": "MKM-NE-03",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Lötzinn",
+      "material": "loetzinn",
+      "minimum_for_upper_bound_kg": 10.0,
+      "price_cell": "8,50 € /kg ab 10 kg",
+      "price_eur_per_kg": 8.5,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 8.0
+        },
+        {
+          "ab": 10.0,
+          "preis": 8.5
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/loetzinn",
+      "variant": "Lötzinn"
+    },
+    {
+      "article": "SW10041",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Zinn 30%",
+      "material": "loetzinn",
+      "minimum_for_upper_bound_kg": 250.0,
+      "price_cell": "7,35 € /kg ab 250 kg",
+      "price_eur_per_kg": 7.35,
+      "product_change_date": "2026-09-09",
+      "product_change_text": "am 09.09.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 7.0
+        },
+        {
+          "ab": 5.0,
+          "preis": 7.14
+        },
+        {
+          "ab": 250.0,
+          "preis": 7.35
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/zinn-30",
+      "variant": "Zinn 30%"
+    },
+    {
+      "article": "MKM-NE-04",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Nickel 60-99 %",
+      "material": "nickel",
+      "minimum_for_upper_bound_kg": 10.0,
+      "price_cell": "6,90 € /kg ab 10 kg",
+      "price_eur_per_kg": 6.9,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 6.4
+        },
+        {
+          "ab": 10.0,
+          "preis": 6.9
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/nickel-60-99",
+      "variant": "Nickel 60-99 %"
+    },
+    {
+      "article": "MKM-NE-01",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Leiterplatten",
+      "material": "platinen",
+      "minimum_for_upper_bound_kg": null,
+      "price_cell": "auf Anfrage",
+      "price_eur_per_kg": null,
+      "product_change_date": null,
+      "product_change_text": "–",
+      "request_only": true,
+      "tiers": [],
+      "url": "https://mkm-metals.de/metallankauf/produkt/leiterplatten",
+      "variant": "Leiterplatten"
+    },
+    {
+      "article": "MKM-NE-02",
+      "group": "Ankaufpreise für NE-Metalle",
+      "label": "Neodym-Magnete",
+      "material": "neodym-magnete",
+      "minimum_for_upper_bound_kg": null,
+      "price_cell": "auf Anfrage",
+      "price_eur_per_kg": null,
+      "product_change_date": null,
+      "product_change_text": "–",
+      "request_only": true,
+      "tiers": [],
+      "url": "https://mkm-metals.de/metallankauf/produkt/neodym-magnete",
+      "variant": "Neodym-Magnete"
+    },
+    {
+      "article": "SW10031",
+      "group": "Ankaufpreise für Blei, Zink & E-Motoren",
+      "label": "Zink",
+      "material": "zink",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "2,10 € /kg ab 500 kg",
+      "price_eur_per_kg": 2.1,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 2.0
+        },
+        {
+          "ab": 10.0,
+          "preis": 2.04
+        },
+        {
+          "ab": 500.0,
+          "preis": 2.1
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/zink",
+      "variant": "Zink"
+    },
+    {
+      "article": "SW10030",
+      "group": "Ankaufpreise für Blei, Zink & E-Motoren",
+      "label": "Blei",
+      "material": "blei-gemischt",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "1,26 € /kg ab 500 kg",
+      "price_eur_per_kg": 1.26,
+      "product_change_date": "2026-09-09",
+      "product_change_text": "am 09.09.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.2
+        },
+        {
+          "ab": 20.0,
+          "preis": 1.22
+        },
+        {
+          "ab": 500.0,
+          "preis": 1.26
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/blei",
+      "variant": "Blei"
+    },
+    {
+      "article": "SW10033",
+      "group": "Ankaufpreise für Blei, Zink & E-Motoren",
+      "label": "E-Motoren ohne Anbauteile max. 500KG",
+      "material": "elektromotoren",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "0,53 € /kg ab 500 kg",
+      "price_eur_per_kg": 0.53,
+      "product_change_date": "2026-10-09",
+      "product_change_text": "gestern",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 0.5
+        },
+        {
+          "ab": 50.0,
+          "preis": 0.51
+        },
+        {
+          "ab": 500.0,
+          "preis": 0.53
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/e-motoren-ohne-anbauteile-max-500kg",
+      "variant": "E-Motoren ohne Anbauteile max. 500KG"
+    },
+    {
+      "article": "MKM-BL-01",
+      "group": "Ankaufpreise für Blei, Zink & E-Motoren",
+      "label": "Geschossblei",
+      "material": "blei-geschoss",
+      "minimum_for_upper_bound_kg": 500.0,
+      "price_cell": "0,42 € /kg ab 500 kg",
+      "price_eur_per_kg": 0.42,
+      "product_change_date": "2026-09-24",
+      "product_change_text": "vor zwei Wochen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 0.4
+        },
+        {
+          "ab": 50.0,
+          "preis": 0.41
+        },
+        {
+          "ab": 500.0,
+          "preis": 0.42
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/geschossblei",
+      "variant": "Geschossblei"
+    },
+    {
+      "article": "MKM-HM-01",
+      "group": "Ankaufpreise für Hartmetall",
+      "label": "Hartmetall gemischt",
+      "material": "hartmetall",
+      "minimum_for_upper_bound_kg": 50.0,
+      "price_cell": "54,20 € /kg ab 50 kg",
+      "price_eur_per_kg": 54.2,
+      "product_change_date": "2026-10-08",
+      "product_change_text": "vor 2 Tagen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 52.2
+        },
+        {
+          "ab": 10.0,
+          "preis": 53.2
+        },
+        {
+          "ab": 50.0,
+          "preis": 54.2
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/hartmetall-gemischt",
+      "variant": "Hartmetall gemischt"
+    },
+    {
+      "article": "SW10037",
+      "group": "Ankaufpreise für Hartmetall",
+      "label": "VHM Bohrer",
+      "material": "hartmetall",
+      "minimum_for_upper_bound_kg": 30.0,
+      "price_cell": "54,20 € /kg ab 30 kg",
+      "price_eur_per_kg": 54.2,
+      "product_change_date": "2026-10-08",
+      "product_change_text": "vor 2 Tagen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 52.2
+        },
+        {
+          "ab": 10.0,
+          "preis": 53.2
+        },
+        {
+          "ab": 30.0,
+          "preis": 54.2
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/vhm-bohrer",
+      "variant": "VHM Bohrer"
+    },
+    {
+      "article": "SW10036",
+      "group": "Ankaufpreise für Hartmetall",
+      "label": "Widia Wendeschneidplättchen",
+      "material": "hartmetall",
+      "minimum_for_upper_bound_kg": 30.0,
+      "price_cell": "54,20 € /kg ab 30 kg",
+      "price_eur_per_kg": 54.2,
+      "product_change_date": "2026-10-08",
+      "product_change_text": "vor 2 Tagen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 52.2
+        },
+        {
+          "ab": 10.0,
+          "preis": 53.2
+        },
+        {
+          "ab": 30.0,
+          "preis": 54.2
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/widia-wendeschneidplaettchen",
+      "variant": "Widia Wendeschneidplättchen"
+    },
+    {
+      "article": "MKM-HM-02",
+      "group": "Ankaufpreise für Hartmetall",
+      "label": "Hartmetall Stückschrott",
+      "material": "hartmetall",
+      "minimum_for_upper_bound_kg": 30.0,
+      "price_cell": "49,20 € /kg ab 30 kg",
+      "price_eur_per_kg": 49.2,
+      "product_change_date": "2026-10-07",
+      "product_change_text": "vor 3 Tagen",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 45.0
+        },
+        {
+          "ab": 10.0,
+          "preis": 47.0
+        },
+        {
+          "ab": 30.0,
+          "preis": 49.2
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/hartmetall-stueckschrott",
+      "variant": "Hartmetall Stückschrott"
+    },
+    {
+      "article": "SW10038",
+      "group": "Ankaufpreise für Hartmetall",
+      "label": "HSS Schnellarbeitsstahl",
+      "material": "hss-werkzeuge",
+      "minimum_for_upper_bound_kg": 10.0,
+      "price_cell": "1,70 € /kg ab 10 kg",
+      "price_eur_per_kg": 1.7,
+      "product_change_date": "2026-07-27",
+      "product_change_text": "am 27.07.2026",
+      "request_only": false,
+      "tiers": [
+        {
+          "ab": 0.0,
+          "preis": 1.5
+        },
+        {
+          "ab": 10.0,
+          "preis": 1.7
+        }
+      ],
+      "url": "https://mkm-metals.de/metallankauf/produkt/hss-schnellarbeitsstahl",
+      "variant": "HSS Schnellarbeitsstahl"
+    },
+    {
+      "article": "MKM-SCH-01",
+      "group": "Ankaufpreise für Schrott",
+      "label": "Eisenschrott",
+      "material": "mischschrott",
+      "minimum_for_upper_bound_kg": null,
+      "price_cell": "auf Anfrage",
+      "price_eur_per_kg": null,
+      "product_change_date": null,
+      "product_change_text": "–",
+      "request_only": true,
+      "tiers": [],
+      "url": "https://mkm-metals.de/metallankauf/produkt/eisenschrott",
+      "variant": "Eisenschrott"
+    },
+    {
+      "article": "MKM-SCH-03",
+      "group": "Ankaufpreise für Schrott",
+      "label": "Metallschrott",
+      "material": "metallschrott-gemischt",
+      "minimum_for_upper_bound_kg": null,
+      "price_cell": "auf Anfrage",
+      "price_eur_per_kg": null,
+      "product_change_date": null,
+      "product_change_text": "–",
+      "request_only": true,
+      "tiers": [],
+      "url": "https://mkm-metals.de/metallankauf/produkt/metallschrott",
+      "variant": "Metallschrott"
+    },
+    {
+      "article": "MKM-SCH-02",
+      "group": "Ankaufpreise für Schrott",
+      "label": "Mischschrott",
+      "material": "schrott-eisen-ne-gemischt",
+      "minimum_for_upper_bound_kg": null,
+      "price_cell": "auf Anfrage",
+      "price_eur_per_kg": null,
+      "product_change_date": null,
+      "product_change_text": "–",
+      "request_only": true,
+      "tiers": [],
+      "url": "https://mkm-metals.de/metallankauf/produkt/mischschrott",
+      "variant": "Mischschrott"
+    }
+  ],
+  "diagnostics": [],
+  "groups": 8,
+  "numeric": 55,
+  "page_change_date": "2026-10-09T00:00:00+00:00",
+  "production_ready": false,
+  "products": 60,
+  "request_only": 5,
+  "source": "https://mkm-metals.de/metallpreise"
+}

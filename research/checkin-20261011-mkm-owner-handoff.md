@@ -1,6 +1,8 @@
 # MKM owner handoff verification — 2026-10-11
 
-Status: candidate received, **not integrated or production-approved**.
+Status at initial handoff: candidate received, **not integrated or production-approved**.
+See the final Main-integration section below for the current state; historical
+checkpoints are retained and are not retroactive approvals.
 
 Candidate worktree: `/tmp/opencode/schrott-mcp-mkm-full-20261010`.
 Baseline for the complete candidate diff: `e3fcbbae`.
@@ -173,3 +175,66 @@ Latest check-in: service active, six-hour warning journal empty, feedback still
 6080, public counts 3,881 / 54 / 2,426. Main clean before this document update;
 GitHub auth absent, no matching geocoding logs. No candidate edits, duplicated
 implementation work, production DB writes, forced ingestion or deployment.
+
+## Final Owner integration gate — Main verified, production still pending
+
+Independent `F6-REVIEW.md` received and read completely: F6 closed with actual
+HTML→parser→typed-record→TempDB normalization/source-preservation checks,
+unsupported/missing catalog and overflow fail-closed, immutable/ownership/
+request-retirement/chronology and Legacy/MSG neighbors. This complements the
+previous completed 143-case F1–F5 approval; not a production approval.
+
+Owner read the final F6 implementation as well as full changed Store code,
+typed recording and source/dispatch/parser/pipeline/scheduler paths. Existing
+and new tests plus independent failure-path evidence cover all six findings.
+No remaining demonstrated integration blocker. Normalized Storeprojection
+is distinct from original source article prices, tiers and kg thresholds.
+
+Reviewed final patch SHA256:
+`4e399dfe83c842a270b52a76c06cdd0d3b11225b2b1cd0b2a72a8ec66a870ddd`.
+Candidate index tree `a74cec01cb1bae03873b9ffa83094388978e62f9` was verified
+byte-for-byte against that exact full patch relative to `e3fcbbae`. Created
+isolated reviewed integration commit `0ac5bf83b0dc668c6dd8446832fb0a0579e0c076`
+on `owner/mkm-reviewed-integration-20261011`, without moving the candidate
+branch or consuming/changing its staged/uncommitted work. Applied that delta
+to current Main with `git cherry-pick --no-commit`; no replacement of shared
+files with an old Worktree snapshot, no discarded Main additions.
+
+Only Owner follow-ups beyond reviewed functional code: correct stale parser
+comments to describe the actual typed transport and include `--registered`
+in example usage help, formatted as required. Core transferred files match
+reviewed hashes: recording `05216f11027bd1b9209b54d9107ce3099be60f9153feff95e400bc8e84fc6736`,
+Store `dedfda0e3e5cfc15935c0e8bd4dad36b9181f853e1f0bb97944794b4414d9de2`.
+
+### Actual Main gates
+
+- First full Main command exceeded its 120-second tool budget after building
+  Main libraries and starting tests; **not counted as a successful suite**.
+  Original log `/root/Documents/mkm-main-workspace-20261011.log` retained.
+- Repeated foreground command with 900-second budget completed exit 0:
+  `cargo test --locked --workspace`, **660 passed, 0 failed, 5 ignored**;
+  `/root/Documents/mkm-main-workspace-final-20261011.log`, actual result lines
+  independently totalled. Reused isolated root target, no production store.
+- Separate Main MKM, MSG, seed subsets and fmt all exit 0:
+  `/root/Documents/mkm-main-{mkm,msg,seed,fmt}-20261011.log`.
+- All Python script tests **25 passed** (9 source-audit plus 16 rollout-verifier
+  tests); this includes previously committed Owner verifier additions absent
+  from the candidate baseline.
+- Actual Main `mkm_inventory --registered` exit 0:
+  `/root/Documents/mkm-main-registered-live-20261011.{json,log}`. Typed
+  transport returns 8 groups / 60 articles / 55 prices / 5 requests, no
+  diagnostics. Every article contract and fixed material/variant oracle matches
+  independently fetched Owner source; this is read-only source proof, not
+  production ingestion or normalized-production-DB proof.
+- Code/document diffcheck green excluding only the two byte-preserved original
+  raw HTML fixtures. Their original whitespace remains an explicit exception;
+  no blanket full-diff whitespace claim or source-byte mutation.
+
+Owner permits the scoped Main implementation commit after these gates.
+Production is **not deployed or approved by this integration**. Remaining:
+authenticated publication, coordinated both-binary deployment, recheck new
+table absence/schema prerequisites and backups, then regular scheduler
+recording and read-only verification of all 60 article contracts/55 prices/
+5 requests, provenance/normalization/conditions/date policy and source-scoped
+legacy alias retirement with history preserved. No force-ingest or direct DB
+repair as a substitute; no Rust GEO and no other agent/worktree disruption.

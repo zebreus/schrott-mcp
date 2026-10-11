@@ -76,6 +76,18 @@ CREATE TABLE IF NOT EXISTS trader_materials (
     PRIMARY KEY (trader_id, material_id)
 );
 CREATE INDEX IF NOT EXISTS idx_trader_materials_material ON trader_materials(material_id);
+CREATE TABLE IF NOT EXISTS source_article_snapshots (
+    id INTEGER PRIMARY KEY, trader_id INTEGER NOT NULL REFERENCES traders(id),
+    source_url TEXT NOT NULL, owner TEXT NOT NULL, observed_at TEXT NOT NULL,
+    manifest_json TEXT NOT NULL,
+    UNIQUE(trader_id,source_url,owner,observed_at)
+);
+CREATE TABLE IF NOT EXISTS article_acceptance_owners (
+    trader_id INTEGER NOT NULL REFERENCES traders(id), material_id INTEGER NOT NULL REFERENCES materials(id),
+    source_url TEXT NOT NULL, owner TEXT NOT NULL,
+    conditions TEXT NOT NULL, observed_at TEXT NOT NULL,
+    PRIMARY KEY(trader_id,material_id)
+);
 ";
 
 /// View + variant-index DDL, applied AFTER migrations (SQLite validates
@@ -479,8 +491,13 @@ impl PublicDb {
     /// Out-of-order backfills never clobber newer data: `current_prices`
     /// only moves forward in `observed_at` (ties: higher id wins).
     pub fn record_price(&self, p: &NewPrice<'_>) -> Result<i64, StoreError> {
-        let conn = self.lock()?;
-        Self::record_price_on(&conn, p)
+        // Read ownership, append/dedupe and move Current in one SQLite
+        // transaction, including across independently opened connections.
+        let mut conn = self.lock()?;
+        let tx = conn.transaction()?;
+        let id = Self::record_price_on(&tx, p)?;
+        tx.commit()?;
+        Ok(id)
     }
 
     /// Atomically publish a validated, complete source snapshot and retire only
@@ -493,9 +510,72 @@ impl PublicDb {
         legacy_ids: &[i64],
         owner: &str,
     ) -> Result<usize, StoreError> {
-        let first = prices
-            .first()
-            .ok_or(StoreError::Rejected("empty price snapshot"))?;
+        if owner == "mkm-article-v1" {
+            return Err(StoreError::Rejected(
+                "article owner requires typed manifest transaction",
+            ));
+        }
+        self.record_snapshot_transaction(prices, legacy_ids, owner, None)
+    }
+
+    /// MKM-only extension of the existing atomic price-snapshot contract.
+    /// The caller must supply a validated complete typed article manifest.
+    /// Semantic price metadata is immutable; request evidence and material
+    /// acceptances commit with prices/retirement or all roll back together.
+    pub fn record_article_price_snapshot(
+        &self,
+        prices: &[NewPrice<'_>],
+        legacy_ids: &[i64],
+        manifest_json: &str,
+        acceptances: &[(i64, String)],
+    ) -> Result<usize, StoreError> {
+        self.record_snapshot_transaction(
+            prices,
+            legacy_ids,
+            "mkm-article-v1",
+            Some((manifest_json, acceptances)),
+        )
+    }
+
+    fn record_snapshot_transaction(
+        &self,
+        prices: &[NewPrice<'_>],
+        legacy_ids: &[i64],
+        owner: &str,
+        article_commit: Option<(&str, &[(i64, String)])>,
+    ) -> Result<usize, StoreError> {
+        let manifest_value = article_commit
+            .map(|(manifest, _)| {
+                serde_json::from_str::<serde_json::Value>(manifest)
+                    .map_err(|_| StoreError::Rejected("invalid article manifest"))
+            })
+            .transpose()?;
+        struct Scope<'a> {
+            trader_id: i64,
+            source_url: &'a str,
+            observed_at: &'a str,
+        }
+        let first = if let Some(p) = prices.first() {
+            Scope {
+                trader_id: p.trader_id,
+                source_url: p.source_url,
+                observed_at: p.observed_at,
+            }
+        } else if let Some(manifest) = &manifest_value {
+            Scope {
+                trader_id: manifest["trader_id"]
+                    .as_i64()
+                    .ok_or(StoreError::Rejected("missing article trader"))?,
+                source_url: manifest["source_url"]
+                    .as_str()
+                    .ok_or(StoreError::Rejected("missing article source"))?,
+                observed_at: manifest["observed_at"]
+                    .as_str()
+                    .ok_or(StoreError::Rejected("missing article time"))?,
+            }
+        } else {
+            return Err(StoreError::Rejected("empty price snapshot"));
+        };
         if owner.is_empty() || first.source_url.is_empty() {
             return Err(StoreError::Rejected("snapshot scope missing"));
         }
@@ -521,6 +601,84 @@ impl PublicDb {
         }
         let mut conn = self.lock()?;
         let tx = conn.transaction()?;
+        if let Some((manifest, acceptances)) = article_commit {
+            let json = manifest_value.as_ref().expect("validated manifest");
+            let slug: String = tx.query_row(
+                "SELECT slug FROM traders WHERE id=?1",
+                [first.trader_id],
+                |r| r.get(0),
+            )?;
+            if slug != "rp-ludwigshafen-mkm-metals"
+                || first.source_url != "https://mkm-metals.de/metallpreise"
+                || json["owner"] != owner
+                || json["source_url"] != first.source_url
+                || json["trader_id"] != first.trader_id
+                || json["observed_at"] != first.observed_at
+                || first.observed_at.len() != 35
+                || !first.observed_at.ends_with("+00:00")
+                || json["articles"].as_array().is_none_or(|a| a.len() != 60)
+            {
+                return Err(StoreError::Rejected(
+                    "article manifest scope/completeness mismatch",
+                ));
+            }
+            let mut article_ids = std::collections::HashSet::new();
+            for a in json["articles"].as_array().expect("validated array") {
+                let id = a["article"]
+                    .as_str()
+                    .filter(|s| !s.is_empty())
+                    .ok_or(StoreError::Rejected("missing manifest article"))?;
+                if !article_ids.insert(id) {
+                    return Err(StoreError::Rejected("duplicate manifest article"));
+                }
+            }
+            let previous: Option<(String,String)> = tx.query_row(
+                "SELECT observed_at,manifest_json FROM source_article_snapshots WHERE trader_id=?1 AND source_url=?2 AND owner=?3 ORDER BY observed_at DESC LIMIT 1",
+                params![first.trader_id,first.source_url,owner], |r| Ok((r.get(0)?,r.get(1)?))).optional()?;
+            if previous.as_ref().is_some_and(|(at, old)| {
+                at.as_str() > first.observed_at || (at == first.observed_at && old != manifest)
+            }) {
+                return Err(StoreError::Rejected("late or conflicting article snapshot"));
+            }
+            let mut mids = std::collections::HashSet::new();
+            for (mid, conditions) in acceptances {
+                if !mids.insert(*mid) || conditions.is_empty() {
+                    return Err(StoreError::Rejected("invalid article acceptance"));
+                }
+                let ownership: Option<(String,String,String,String)> = tx.query_row("SELECT source_url,owner,conditions,observed_at FROM article_acceptance_owners WHERE trader_id=?1 AND material_id=?2",
+                    params![first.trader_id,mid], |r| Ok((r.get(0)?,r.get(1)?,r.get(2)?,r.get(3)?))).optional()?;
+                if ownership.as_ref().is_some_and(|(source, producer, _, _)| {
+                    source != first.source_url || producer != owner
+                }) {
+                    return Err(StoreError::Rejected("foreign acceptance producer"));
+                }
+                let old: Option<(bool,String,String,Option<String>,Option<String>)> = tx.query_row("SELECT accepts,conditions,observed_at,valid_from,valid_to FROM trader_materials WHERE trader_id=?1 AND material_id=?2",
+                    params![first.trader_id,mid], |r| Ok((r.get(0)?,r.get(1)?,r.get(2)?,r.get(3)?,r.get(4)?))).optional()?;
+                if old.as_ref().is_some_and(|(_, _, at, from, to)| {
+                    at.as_str() > first.observed_at || from.is_some() || to.is_some()
+                }) {
+                    return Err(StoreError::Rejected("newer or foreign acceptance validity"));
+                }
+                if let Some((_, _, owned_conditions, owned_at)) = &ownership {
+                    if old.as_ref().is_none_or(|(accepts, conditions, at, _, _)| {
+                        !accepts || conditions != owned_conditions || at != owned_at
+                    }) {
+                        return Err(StoreError::Rejected(
+                            "acceptance changed outside owning article producer",
+                        ));
+                    }
+                }
+                if ownership.is_none()
+                    && old.as_ref().is_some_and(|(accepts, old, _, _, _)| {
+                        !accepts || (!old.is_empty() && old != conditions)
+                    })
+                {
+                    return Err(StoreError::Rejected(
+                        "unowned acceptance evidence conflicts",
+                    ));
+                }
+            }
+        }
         // Refuse foreign sources/producers; same-source unmarked rows may be adopted.
         for p in prices {
             let conflict: bool = tx.query_row(
@@ -570,16 +728,29 @@ impl PublicDb {
             let id = Self::record_price_on(&tx, p)?;
             // An unchanged observation can predate the producer marker.
             // Refresh ownership metadata without losing its retained date basis.
-            tx.execute(
-                "UPDATE prices SET extra_json=json_patch(extra_json,?1) WHERE id=?2",
-                params![p.extra_json, id],
-            )?;
+            if owner != "mkm-article-v1" {
+                tx.execute(
+                    "UPDATE prices SET extra_json=json_patch(extra_json,?1) WHERE id=?2",
+                    params![p.extra_json, id],
+                )?;
+            }
         }
         for id in &retire {
             tx.execute(
                 "DELETE FROM current_prices WHERE trader_id=?1 AND price_id=?2",
                 params![first.trader_id, id],
             )?;
+        }
+        if let Some((manifest, acceptances)) = article_commit {
+            for (mid, conditions) in acceptances {
+                tx.execute("INSERT INTO trader_materials(trader_id,material_id,accepts,conditions,observed_at,updated_at) VALUES(?1,?2,1,?3,?4,?4)
+                    ON CONFLICT(trader_id,material_id) DO UPDATE SET accepts=1,conditions=excluded.conditions,observed_at=excluded.observed_at,updated_at=excluded.updated_at",
+                    params![first.trader_id,mid,conditions,first.observed_at])?;
+                tx.execute("INSERT INTO article_acceptance_owners(trader_id,material_id,source_url,owner,conditions,observed_at) VALUES(?1,?2,?3,?4,?5,?6)
+                    ON CONFLICT(trader_id,material_id) DO UPDATE SET conditions=excluded.conditions,observed_at=excluded.observed_at", params![first.trader_id,mid,first.source_url,owner,conditions,first.observed_at])?;
+            }
+            tx.execute("INSERT INTO source_article_snapshots(trader_id,source_url,owner,observed_at,manifest_json) VALUES(?1,?2,?3,?4,?5)
+                ON CONFLICT(trader_id,source_url,owner,observed_at) DO NOTHING", params![first.trader_id,first.source_url,owner,first.observed_at,manifest])?;
         }
         tx.commit()?;
         Ok(retire.len())
@@ -610,12 +781,39 @@ impl PublicDb {
         // Dedupe only against the current observation. If a value returns
         // after a change (A -> B -> A), that is a new price-change event and
         // must not rewrite the older A row.
+        let immutable = serde_json::from_str::<serde_json::Value>(p.extra_json)
+            .ok()
+            .is_some_and(|v| v["snapshot_owner"] == "mkm-article-v1");
+        // Ownership belongs to the existing observation too, not just the
+        // incoming marker. Every public price writer funnels through here.
+        // An unmarked/foreign writer must not mutate or replace owned MKM
+        // evidence, even when its numeric contract happens to be identical.
+        let existing_owner: Option<(String,String,bool)> = conn.query_row(
+            "SELECT p.source_url,p.source_type,p.published FROM current_prices c JOIN prices p ON p.id=c.price_id
+             WHERE c.trader_id=?1 AND c.material_id=?2 AND c.variant=?3
+               AND json_extract(p.extra_json,'$.snapshot_owner')='mkm-article-v1'",
+            params![p.trader_id,p.material_id,p.variant],|r|Ok((r.get(0)?,r.get(1)?,r.get(2)?))).optional()?;
+        if existing_owner
+            .as_ref()
+            .is_some_and(|(source, kind, published)| {
+                !immutable
+                    || source != p.source_url
+                    || kind != p.source_type
+                    || *published != p.published
+            })
+        {
+            return Err(StoreError::Rejected(
+                "existing MKM observation belongs to another write contract",
+            ));
+        }
         let dup: Option<i64> = conn
             .query_row(
                 "SELECT p.id FROM current_prices c JOIN prices p ON p.id = c.price_id
                  WHERE c.trader_id = ?1 AND c.material_id = ?2 AND c.variant = ?3
                    AND p.price = ?4 AND p.currency = ?5 AND p.unit = ?6 AND p.price_kind = ?7
-                   AND p.price_min IS ?8 AND p.price_max IS ?9 AND p.confidence IS ?10",
+                    AND p.price_min IS ?8 AND p.price_max IS ?9 AND p.confidence IS ?10
+                    AND (?11=0 OR (p.extra_json=?12 AND p.notes=?13 AND p.source_url=?14 AND p.source_type=?15
+                        AND p.published=?16 AND p.published_at IS ?17 AND p.valid_from IS ?18 AND p.valid_to IS ?19))",
                 params![
                     p.trader_id,
                     p.material_id,
@@ -627,28 +825,32 @@ impl PublicDb {
                     p.price_min,
                     p.price_max,
                     p.confidence,
+                    immutable, p.extra_json, p.notes, p.source_url, p.source_type, p.published,
+                    p.published_at, p.valid_from, p.valid_to,
                 ],
                 |r| r.get(0),
             )
             .optional()?;
         let price_id = if let Some(id) = dup {
-            conn.execute(
-                "UPDATE prices SET observed_at = ?1, ingested_at = ?2, notes = ?3,
+            if !immutable {
+                conn.execute(
+                    "UPDATE prices SET observed_at = ?1, ingested_at = ?2, notes = ?3,
                  source_url = ?4, published = ?5,
                  published_at = COALESCE(?6, published_at),
                  extra_json = CASE WHEN ?6 IS NOT NULL THEN ?7 ELSE extra_json END
                  WHERE id = ?8",
-                params![
-                    p.observed_at,
-                    p.ingested_at,
-                    p.notes,
-                    p.source_url,
-                    i64::from(p.published),
-                    p.published_at,
-                    p.extra_json,
-                    id
-                ],
-            )?;
+                    params![
+                        p.observed_at,
+                        p.ingested_at,
+                        p.notes,
+                        p.source_url,
+                        i64::from(p.published),
+                        p.published_at,
+                        p.extra_json,
+                        id
+                    ],
+                )?;
+            }
             id
         } else {
             conn.execute(
@@ -926,6 +1128,193 @@ mod tests {
             notes: "",
             extra_json: "{}",
             ingested_at: ingested,
+        }
+    }
+
+    #[test]
+    fn article_semantic_metadata_change_must_append_immutable_evidence() {
+        let (_dir, db, trader, material) = setup("article-metadata");
+        let mut a = price(
+            trader,
+            material,
+            11.13,
+            "2026-10-10T00:00:00Z",
+            "2026-10-10T00:00:00Z",
+        );
+        a.source_url = "https://mkm-metals.de/metallpreise";
+        a.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\",\"minimum_kg\":250}";
+        db.record_price(&a).unwrap();
+        let before = db.price_history(trader, material, "", 10).unwrap()[0].clone();
+        let mut b = price(
+            trader,
+            material,
+            11.13,
+            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00Z",
+        );
+        b.source_url = "https://mkm-metals.de/metallpreise";
+        b.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\",\"minimum_kg\":500}";
+        db.record_price(&b).unwrap();
+        let history = db.price_history(trader, material, "", 10).unwrap();
+        assert_eq!(
+            history.len(),
+            2,
+            "same amount, different source conditions is a new observation"
+        );
+        assert_eq!(history[1].extra_json, before.extra_json);
+        assert_eq!(history[1].observed_at, before.observed_at);
+    }
+
+    #[test]
+    fn review_f2_public_single_write_keeps_owner_check_and_pointer_atomic() {
+        let (_dir, db, trader, material) = setup("mkm-public-write-rollback");
+        let mut owned = price(
+            trader,
+            material,
+            11.13,
+            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00Z",
+        );
+        owned.source_url = "https://mkm-metals.de/metallpreise";
+        owned.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
+        db.record_price(&owned).unwrap();
+        let before = db.current_price_for(trader, material, "").unwrap().unwrap();
+        db.lock().unwrap().execute_batch("CREATE TRIGGER reject_current BEFORE INSERT ON current_prices BEGIN SELECT RAISE(ABORT,'test failure'); END;").unwrap();
+        let changed = NewPrice {
+            price: 12.0,
+            observed_at: "2026-10-12T00:00:00Z",
+            ..owned
+        };
+        assert!(db.record_price(&changed).is_err());
+        assert_eq!(
+            db.price_history(trader, material, "", 10).unwrap().len(),
+            1,
+            "failed public write must not leave partial evidence"
+        );
+        let after = db.current_price_for(trader, material, "").unwrap().unwrap();
+        assert_eq!(format!("{after:?}"), format!("{before:?}"));
+    }
+
+    #[test]
+    fn review_f2_unmarked_or_foreign_writer_cannot_mutate_owned_history() {
+        let (_dir, db, trader, material) = setup("mkm-existing-owner");
+        let mut owned = price(
+            trader,
+            material,
+            11.13,
+            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00Z",
+        );
+        owned.source_url = "https://mkm-metals.de/metallpreise";
+        owned.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\",\"article\":\"MET-KU-MILL\"}";
+        let id = db.record_price(&owned).unwrap();
+        let before = db.current_price_for(trader, material, "").unwrap().unwrap();
+        for extra in ["{}", "{\"snapshot_owner\":\"other-producer\"}"] {
+            let mut incoming = price(
+                trader,
+                material,
+                11.13,
+                "2026-10-12T00:00:00Z",
+                "2026-10-12T00:00:00Z",
+            );
+            incoming.extra_json = extra;
+            incoming.source_url = owned.source_url;
+            assert!(
+                db.record_price(&incoming).is_err(),
+                "foreign/unmarked API write must reject owned key"
+            );
+            assert!(db
+                .record_price_snapshot(&[incoming], &[], "other-producer")
+                .is_err());
+            let after = db.current_price_for(trader, material, "").unwrap().unwrap();
+            assert_eq!(after.id, id);
+            assert_eq!(format!("{after:?}"), format!("{before:?}"));
+            assert_eq!(db.price_history(trader, material, "", 10).unwrap().len(), 1);
+        }
+    }
+
+    #[test]
+    fn article_owner_cannot_bypass_manifest_via_legacy_snapshot_api() {
+        let (_dir, db, trader, material) = setup("article-bypass");
+        let mut p = price(
+            trader,
+            material,
+            11.13,
+            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00Z",
+        );
+        p.source_url = "https://mkm-metals.de/metallpreise";
+        p.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
+        assert!(db
+            .record_price_snapshot(&[p], &[], "mkm-article-v1")
+            .is_err());
+        assert!(db
+            .current_price_for(trader, material, "")
+            .unwrap()
+            .is_none());
+    }
+
+    #[test]
+    fn article_transaction_rolls_back_after_acceptance_or_manifest_failure() {
+        for table in ["trader_materials", "source_article_snapshots"] {
+            let (_dir, db, trader, material) = setup(table);
+            db.lock()
+                .unwrap()
+                .execute(
+                    "UPDATE traders SET slug='rp-ludwigshafen-mkm-metals' WHERE id=?1",
+                    [trader],
+                )
+                .unwrap();
+            let now = "2026-10-11T00:00:00.000000000+00:00";
+            let mut old = price(
+                trader,
+                material,
+                7.0,
+                "2026-10-10T00:00:00Z",
+                "2026-10-10T00:00:00Z",
+            );
+            old.source_url = "https://mkm-metals.de/metallpreise";
+            old.variant = "legacy";
+            let id = db.record_price(&old).unwrap();
+            let mut p = price(trader, material, 11.13, now, now);
+            p.source_url = old.source_url;
+            p.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
+            let manifest = serde_json::json!({"owner":"mkm-article-v1","trader_id":trader,"source_url":p.source_url,"observed_at":now,
+                "articles":(0..60).map(|i| serde_json::json!({"article":format!("article-{i}")})).collect::<Vec<_>>()}).to_string();
+            db.lock().unwrap().execute_batch(&format!("CREATE TRIGGER reject_article BEFORE INSERT ON {table} BEGIN SELECT RAISE(ABORT,'test rollback'); END;")).unwrap();
+            assert!(db
+                .record_article_price_snapshot(
+                    &[p],
+                    &[id],
+                    &manifest,
+                    &[(material, "conditions".to_owned())]
+                )
+                .is_err());
+            assert_eq!(
+                db.current_price_for(trader, material, "legacy")
+                    .unwrap()
+                    .unwrap()
+                    .id,
+                id
+            );
+            assert!(db
+                .current_price_for(trader, material, "")
+                .unwrap()
+                .is_none());
+            assert_eq!(
+                db.price_history(trader, material, "legacy", 10)
+                    .unwrap()
+                    .len(),
+                1
+            );
+            assert!(db.existing_acceptance(trader, material).unwrap().is_none());
+            let conn = db.lock().unwrap();
+            for ledger in ["source_article_snapshots", "article_acceptance_owners"] {
+                let count: i64 = conn
+                    .query_row(&format!("SELECT COUNT(*) FROM {ledger}"), [], |r| r.get(0))
+                    .unwrap();
+                assert_eq!(count, 0);
+            }
         }
     }
 

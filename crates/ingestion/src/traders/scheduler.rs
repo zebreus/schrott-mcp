@@ -127,7 +127,8 @@ pub async fn run_due_with(
                 0
             }
         };
-        let outcome = tokio::time::timeout(HANDLER_TIMEOUT, (h.scrape)(client)).await;
+        let outcome =
+            tokio::time::timeout(HANDLER_TIMEOUT, super::scrape_record_outcome(h, client)).await;
         let stamped = Utc::now();
         if let Ok(mut map) = due_map().lock() {
             map.insert(h.slug, next_after(stamped, &h.schedule));
@@ -146,16 +147,17 @@ pub async fn run_due_with(
                 close_step(internal, step_id, "failed", 0, &format!("{e}"));
             }
             Ok(Ok(out)) => {
+                let observation = out.observation();
                 journal(
                     internal,
                     run_id,
                     h.slug,
-                    &out.fetch_url,
-                    i64::from(out.status_code),
-                    out.byte_len as i64,
+                    &observation.fetch_url,
+                    i64::from(observation.status_code),
+                    observation.byte_len as i64,
                     &stamped,
                 );
-                match super::record(public, internal, h.slug, &out, &stamped).await {
+                match super::record_outcome(public, internal, h.slug, &out, &stamped).await {
                     Err(e) => {
                         tracing::warn!(slug = h.slug, "record failed: {e}");
                         failed.push(format!("{}: {e}", h.slug));

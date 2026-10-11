@@ -1,0 +1,108 @@
+{
+  "captured_at": "2026-10-11T01:04:17.325432+00:00",
+  "review": "/tmp/opencode/mkm-adversarial-review-20261011/REVIEW.md",
+  "findings": {
+    "F1": "first request direct legacy cutover verified; proven-only scope",
+    "F2": "existing MKM owner checked in shared write core; immutable evidence protected",
+    "F3": "hidden label descendants blocked",
+    "F4": "invalid/ambiguous present date rejected; genuine missing date None",
+    "F5": "strict Tier schema rejects unknown/nested condition fields"
+  },
+  "approval": "No self-approval; renewed independent and owner full review required",
+  "workspace_results": [
+    {
+      "passed": 4,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 3,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 590,
+      "failed": 0,
+      "ignored": 5
+    },
+    {
+      "passed": 4,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 16,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 40,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    }
+  ],
+  "workspace_passed": 657,
+  "workspace_ignored": 5,
+  "log_sha256": {
+    "workspace": "14ddc0c07aab6339c60f5bcaaa5c3201bc1319e2855de2f2a14a835054f815ab",
+    "mkm": "798d406fdd263223ff7a52b0f711ade8c2c105fd9077a10a879cbe370677347f",
+    "msg": "8e866752d06b15f030a04df7615439330447fa9e018df5afc8bc9eb52118ca6d",
+    "python": "a8632d71b7fb64bb6b2cf753986d26cb4901427994b1dec9634fb01f0c911e76",
+    "external_red": "a62a8a7949c05c7c98e20abd29f109e9c90dbcd37d3f0de257039261c1bec770",
+    "ingestion_red": "7254c43574b00584ce4e0db037a68adc8a1a6964380674de7e1e31016b4dbbdb",
+    "store_red": "9be5acf3689c2f57269b2aa4043ee4368ac54878e168ff64ab4543680c016372",
+    "ingestion_green": "95beca777fb6880c03940e5442eff427b8511b6852bbc340e0adc8cb689ac1e7",
+    "store_green": "56596244b1a86bc2a08b396a84971ec1821f389bd86c68c69350ab765037812f",
+    "public_write_red": "bc81a0d8c474ef66c440f85b5b61bd7c2ff06350305a74a889e1c5bc202cead8",
+    "store_final": "92476d61cad991d74bd8e1af8fc9df337495c2dfef1452f120dfbdd0fcb4b367"
+  },
+  "registered_live": {
+    "groups": 8,
+    "products": 60,
+    "numeric": 55,
+    "request_only": 5,
+    "diagnostics": [],
+    "production_ready": false
+  },
+  "independent_article_gaps": [],
+  "mapping_scope": "Fixed per-article candidate material/variant oracle derived from the independent 2026-10-10 detail/catalog review; two documented domain corrections on 2026-10-11. Not production, visibility, price-grammar or register approval.",
+  "primary_sources": [
+    {
+      "url": "https://mkm-metals.de/metallpreise",
+      "path": "/tmp/opencode/mkm-review-fixed-overview-20261011.html",
+      "sha256": "0bf08f47395c3436e97c8c002b150f4bb89a38d08425599a4f33610e3a0baa7e",
+      "bytes": 253811,
+      "headers": "HTTP/2 200 \nserver: nginx\ndate: Sun, 11 Oct 2026 00:59:35 GMT\ncontent-type: text/html; charset=utf-8\nvary: Accept-Encoding\ncache-control: private, max-age=0, must-revalidate\nset-cookie: mkm_session=8a21e976e89792aeaa6f6bfeac718b3f; expires=Tue, 10 Nov 2026 00:59:35 GMT; Max-Age=2592000; path=/; secure; HttpOnly; SameSite=Lax\nx-content-type-options: nosniff\nx-frame-options: SAMEORIGIN\nreferrer-policy: strict-origin-when-cross-origin\npermissions-policy: geolocation=(), microphone=(), camera=()\ncontent-security-policy: default-src 'self';         img-src 'self' data: blob: https://*.google-analytics.com             https://*.googletagmanager.com https://*.gstatic.com             https://www.google.com https://client.crisp.chat             https://image.crisp.chat https://storage.crisp.chat;         style-src 'self' 'unsafe-inline' https://fonts.googleapis.com             https://client.crisp.chat;         font-src 'self' https://fonts.gstatic.com https://client.crisp.chat;         media-src 'self' https://client.crisp.chat;         script-src 'self' https://www.googletagmanager.com             https://apis.google.com https://www.gstatic.com             https://client.crisp.chat;         connect-src 'self' https://*.google-analytics.com             https://*.analytics.google.com https://*.googletagmanager.com             https://www.merchant-center-analytics.goog             https://apis.google.com https://www.google.com             https://client.crisp.chat wss://client.relay.crisp.chat;         frame-src https://www.google.com https://apis.google.com             https://storage.googleapis.com;         form-action 'self' https://accounts.google.com             https://www.facebook.com;         frame-ancestors 'self';         base-uri 'self'\netag: \"0bf08f47395c3436e97c8c002b150f4b\"\nvary: Accept-Encoding\nalt-svc: h3=\":443\"; ma=86400\nstrict-transport-security: max-age=15768000; includeSubDomains\n\n"
+    },
+    {
+      "url": "https://mkm-metals.de/impressum",
+      "path": "/tmp/opencode/mkm-review-fixed-impressum-20261011.html",
+      "sha256": "77ca243d58b3e3127eccfb6edaf5bc17e36d0cbd5063ef166f56370e7f153f6d",
+      "bytes": 28398,
+      "headers": "HTTP/2 200 \nserver: nginx\ndate: Sun, 11 Oct 2026 00:59:35 GMT\ncontent-type: text/html; charset=utf-8\nvary: Accept-Encoding\ncache-control: private, max-age=0, must-revalidate\nset-cookie: mkm_session=c5cf3fd843b27ea7cedc7dac27d30576; expires=Tue, 10 Nov 2026 00:59:35 GMT; Max-Age=2592000; path=/; secure; HttpOnly; SameSite=Lax\nx-content-type-options: nosniff\nx-frame-options: SAMEORIGIN\nreferrer-policy: strict-origin-when-cross-origin\npermissions-policy: geolocation=(), microphone=(), camera=()\ncontent-security-policy: default-src 'self';         img-src 'self' data: blob: https://*.google-analytics.com             https://*.googletagmanager.com https://*.gstatic.com             https://www.google.com https://client.crisp.chat             https://image.crisp.chat https://storage.crisp.chat;         style-src 'self' 'unsafe-inline' https://fonts.googleapis.com             https://client.crisp.chat;         font-src 'self' https://fonts.gstatic.com https://client.crisp.chat;         media-src 'self' https://client.crisp.chat;         script-src 'self' https://www.googletagmanager.com             https://apis.google.com https://www.gstatic.com             https://client.crisp.chat;         connect-src 'self' https://*.google-analytics.com             https://*.analytics.google.com https://*.googletagmanager.com             https://www.merchant-center-analytics.goog             https://apis.google.com https://www.google.com             https://client.crisp.chat wss://client.relay.crisp.chat;         frame-src https://www.google.com https://apis.google.com             https://storage.googleapis.com;         form-action 'self' https://accounts.google.com             https://www.facebook.com;         frame-ancestors 'self';         base-uri 'self'\netag: \"77ca243d58b3e3127eccfb6edaf5bc17\"\nvary: Accept-Encoding\nalt-svc: h3=\":443\"; ma=86400\nstrict-transport-security: max-age=15768000; includeSubDomains\n\n"
+    }
+  ],
+  "prod_access": "None this remediation; only saved independent prior readonly fixtures replayed into TempDB",
+  "main_observed": "2ca3028c708d109f6b3d79c907086e7bf376c9cc; no changes by MKM agent",
+  "F2_public_write_atomicity": "ownership read and observation/current update in one SQLite transaction; SQL-trigger failure rolls back new observation; red and green recorded"
+}

@@ -1,0 +1,107 @@
+{
+  "binary_sha256": "68a17dccf86a6bca5e9a5468f6468173fcd9446f618275f8338e8c03f97dd53c",
+  "source_sha256": "0bf08f47395c3436e97c8c002b150f4bb89a38d08425599a4f33610e3a0baa7e",
+  "impressum_sha256": "77ca243d58b3e3127eccfb6edaf5bc17e36d0cbd5063ef166f56370e7f153f6d",
+  "cases": [
+    {
+      "case": "baseline",
+      "exit": 0,
+      "error": "",
+      "products": 60,
+      "numeric": 55,
+      "diagnostics": [],
+      "production_ready": false,
+      "tin99_whole_fraction": [
+        "zinn-rein-formgemischt",
+        "Zinn 99%"
+      ],
+      "kerze_corrected_with_pending_alias": [
+        "kupfer-stanzabfaelle",
+        "Kerze"
+      ]
+    },
+    {
+      "case": "hidden-row",
+      "exit": 1,
+      "error": "Error: \"article coverage diagnostics; not complete\"",
+      "products": 59,
+      "numeric": 54,
+      "diagnostics": [
+        "MET-KU-MILL: missing known article; retirement NOT authorized"
+      ],
+      "production_ready": false
+    },
+    {
+      "case": "display-none-row",
+      "exit": 1,
+      "error": "Error: \"article coverage diagnostics; not complete\"",
+      "products": 59,
+      "numeric": 54,
+      "diagnostics": [
+        "MET-KU-MILL: missing known article; retirement NOT authorized"
+      ],
+      "production_ready": false
+    },
+    {
+      "case": "hidden-price-ancestor",
+      "exit": 1,
+      "error": "Error: \"article coverage diagnostics; not complete\"",
+      "products": 59,
+      "numeric": 54,
+      "diagnostics": [
+        "MET-KU-MILL: missing known article; retirement NOT authorized"
+      ],
+      "production_ready": false
+    },
+    {
+      "case": "hidden-section",
+      "exit": 1,
+      "error": "Error: \"article coverage diagnostics; not complete\"",
+      "products": 46,
+      "numeric": 41,
+      "diagnostics": [
+        "MET-KU-MILL: missing known article; retirement NOT authorized",
+        "MKM-CU-01: missing known article; retirement NOT authorized",
+        "MKM-CU-03: missing known article; retirement NOT authorized",
+        "MKM-CU-02: missing known article; retirement NOT authorized",
+        "SW10013: missing known article; retirement NOT authorized",
+        "SW10014: missing known article; retirement NOT authorized",
+        "MET-KU-RAFF: missing known article; retirement NOT authorized",
+        "MKM-CU-04: missing known article; retirement NOT authorized",
+        "MET-KA-70: missing known article; retirement NOT authorized",
+        "SW10017: missing known article; retirement NOT authorized",
+        "MET-KA-60: missing known article; retirement NOT authorized",
+        "SW10015: missing known article; retirement NOT authorized",
+        "SW10016: missing known article; retirement NOT authorized",
+        "SW10035: missing known article; retirement NOT authorized"
+      ],
+      "production_ready": false
+    },
+    {
+      "case": "unit-kgCO2",
+      "exit": 1,
+      "error": "Error: Parse { url: \"https://mkm-metals.de/metallpreise\", detail: \"MET-KU-MILL: unknown complete price-cell grammar: 11,13 € /kgCO2 ab 250 kg\" }"
+    },
+    {
+      "case": "unit-special-contract",
+      "exit": 1,
+      "error": "Error: Parse { url: \"https://mkm-metals.de/metallpreise\", detail: \"MET-KU-MILL: unknown complete price-cell grammar: 11,13 € /kg nur Sondervertrag ab 250 kg\" }"
+    },
+    {
+      "case": "invalid-German-group",
+      "exit": 1,
+      "error": "Error: Parse { url: \"https://mkm-metals.de/metallpreise\", detail: \"MET-KU-MILL: unknown complete price-cell grammar: 1.1,13 € /kg ab 250 kg\" }"
+    },
+    {
+      "case": "street-prefix40",
+      "exit": 1,
+      "error": "Error: Parse { url: \"https://mkm-metals.de/metallpreise\", detail: \"operator identity/address changed: MKM Metals e.K. Inhaber: Mubarik Ahmad Industriestraße 40 67063 Ludwigshafen am Rhein Deutschland\" }"
+    },
+    {
+      "case": "register-prefix616640",
+      "exit": 1,
+      "error": "Error: Parse { url: \"https://mkm-metals.de/metallpreise\", detail: \"operator register identity changed: HRA 61664 missing\" }"
+    }
+  ],
+  "scope": "Own independent CLI boundary verification against rebuilt real candidate, not a second-agent review or production approval."
+}
