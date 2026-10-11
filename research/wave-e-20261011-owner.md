@@ -116,3 +116,76 @@ Check-in beim Start: Service active, sechs Stunden keine Warnungen, Feedback
 unverändert bis 6080, Bestand 3,881 Händler / 54 Materialien / 2,426 Current.
 Kein laufender Rechercheerfolg oder Veröffentlichungsnachweis aus dem bloßen
 Agentenstart abgeleitet. Andere bestehende Worktrees unverändert erhalten.
+
+## Süd-Handoff eingegangen — Prüfung, noch keine Integration
+
+Süd-Session abgeschlossen: 20 Dossiers, Bericht im eigenen Worktree. Owner
+gelesen: Rücknahme von Verzeichnisfills, vier Statuswechsel auf `pruefung`,
+Primärbefunde und ausdrücklich begrenzte Such-/Abruflage. Die beiden anderen
+Wellen-Shards bleiben hiervon unberührt; gemeinsamer Gate noch ausstehend.
+
+Eigener struktureller Check gegen `ade525fd`: exakt die 20 zugeteilten Dossiers
+geändert, Slugs/state/city/GEO unverändert, erlaubte status/trader_type-Werte,
+alle ursprünglichen Timeline-Suffixe vollständig erhalten, datierte neue Notes,
+keine Überblick-Platzhalter. Main-Dossierstände noch bytegleich zur Shardbasis.
+Das ist keine Quellen-/Identitätsfreigabe.
+
+Read-only Produktionsvergleich der zurückgenommenen Frontmatterwerte:
+**neun Dossiers**, sämtliche dort geleerten Werte weiterhin in Prod vorhanden,
+alle neun mit gespeicherter GEO-Paarung:
+
+- Pohl: street/postcode/phone
+- Delis: street/postcode/phone/opening_hours
+- Pfeifer: street/postcode/phone
+- Müller: street/postcode/phone/email/opening_hours/description
+- Kleinschmidt: street/postcode/phone
+- Hammerschmidt: street/postcode/phone/email
+- Zerseeger: street/phone
+- Pfaff: street/postcode/phone
+- Mertel: street/postcode/phone
+
+Audit außerhalb git: `/root/Documents/wave-e-sued-owner-clear-audit-20261011.json`.
+**Keine Clears oder GEO-Änderungen angewendet.** Leere Dossierfelder lassen
+gespeicherte Anreicherungen/Adresse/GEO bestehen; `clear_fields` erlaubt nur
+bestimmte Enrichmentfelder, nicht street/postcode/GEO. Owner entscheidet nach
+Quellenreview ausdrücklich über zulässige Clears. Kein falscher Claim, dass
+eine spätere Dossierintegration diese Altwerte automatisch entfernen würde.
+
+Unabhängiges Quellen-/Overwrite-Review für Süd gestartet:
+`ses_ed6691d04ffeAxw6LMOhYuD3AJ`, eigener externer Bericht
+`/root/Documents/wave-e-sued-independent-review-20261011.md`.
+Scope: alle 20 Quellen-/Identitäts-/Overwritefälle, insbesondere Scheuer-
+Vergütungsbehauptung, STALCANT-Termin/350kg, Seiler-Postanschrift und Müller-
+Rechtsträgertrennung. Reviewer schreibt keine Dossiers/Main/Prod. Owner arbeitet
+separat an Seed-/Clear-/GEO- und Strukturprüfung; keine Duplikatrecherche.
+Bis Abschluss aller Shards und Gates keine gemeinsame Commit-/Deployfreigabe.
+
+## Fortsetzung nach Nutzungslimits
+
+Nordwest, Ost/Mitte und das unabhängige Süd-Quellenreview endeten mit
+`usage limit reached`, nicht mit einer abschließenden Freigabe. Erhaltene
+Nordwest-/Ostberichte gelesen: beide dokumentieren bereits alle 20 Dossiers
+und Seedtests; das ersetzt weder saubere Übergabe noch Owner-Quellenprüfung.
+Alle drei **gleichen Sessions** wurden fortgesetzt und haben die Fortsetzung
+angenommen. Auftrag: vorhandene Artefakte/Fehler prüfen, nur fehlende Gates
+abschließen, keine Neuerhebung oder Wiederholung bereits erledigter Arbeit.
+Die beiden Rechercheberichte erwähnen README-Änderungen; Scope offenlegen
+und prüfen lassen, nichts pauschal verwerfen oder alte Main-Dateien ersetzen.
+
+Server-Check bei dieser Fortsetzung: active, sechs Stunden keine Warnungen,
+Feedback unverändert bis ID 6080, Bestand 3,881 / 54 / 2,426. Read-only
+Sechs-Handler-Prüfer erneut vollständig grün (112 Current):
+
+| Handler | Preise | Letzter erfolgreicher Schritt UTC, 11.10.2026 |
+|---|---:|---|
+| ELNO | 36 | 04:20:22 |
+| Trapper | 21 | 05:20:39 |
+| AGH | 8 | 08:22:10 |
+| Saxonia | 4 | 06:06:06 |
+| Hofmann Rastatt | 23 | 08:52:23 |
+| reGOLD | 20 | 06:21:11 |
+
+Keine Quellen-/Einheiten-/Datums-/Canaryfehler im bounded Releaseprüfer.
+GitHub-Anmeldung weiterhin fehlend, keine passenden GEO-Logs. Die geprüften
+pending Releaseartefakte wurden nicht installiert; Produktion unverändert.
+Keine Wellen-Dossiers auf Main übernommen, keine Produktions-Clears angewendet.
