@@ -119,6 +119,7 @@ pub mod schrottplatz_roetgesbuettel;
 pub mod second_way;
 pub mod smr;
 pub mod sommer_hanau;
+pub mod sperling;
 pub mod springer_sohn_oldenburg;
 pub mod suitner;
 pub mod tappe;
@@ -188,6 +189,7 @@ pub fn all() -> Vec<Handler> {
         hammer_leipzig::handler(),
         hansa_goldankauf::handler(),
         sommer_hanau::handler(),
+        sperling::handler(),
         hanusa_vechelde::handler(), // TEMP-VERIFY
         harbi_kats::handler(),
         hein_schrotthandel::handler(),
