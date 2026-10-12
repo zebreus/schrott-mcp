@@ -24,7 +24,11 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Autoverwertung Hartmann“ bzw. „Fritz & Cornelia Hartmann Schrotthandlung“ ist weiterhin nur über widersprüchliche Branchenportale belegt (Himmelreichstr. 23 vs. 23 A; unterschiedliche Zeiten). Die frühere Domain antwortet nicht verlässlich; eine Trefferseite zu Autoneo Hartmann Autowerkstatt GmbH belegt keine Nachfolge. Adresse, Kontakt und aktuelle Betriebsidentität bleiben offen.
+
+- **Ankauf:** keine verifizierten Kurse oder Vergütung.
+- **Verkauf:** keine Fahrzeug-/Teile-/Materialpreisliste belegt.
+- **Gebühren:** keine Händler-Tarife verifiziert.
 
 ## Timeline
 
@@ -40,3 +44,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 05.10.2026: HTTP-/HTTPS-Domain-Check erneut: http://www.autoverwertung-hartmann.de/ liefert HTTP 404, HTTPS Transportfehler; kein Betreiber-Impressum erreichbar, keine Owner-Ausnahme und keine identifizierbaren relevanten Unterseiten für zwölfseitigen Crawl. Das ist eine Abrufgrenze, kein Beweis permanenter Geschäftsschließung. Keine Frontmatter-Fills, status pruefung unverändert, alte Fritz-/Cornelia-Namensvarianten weiterhin nicht registergestützt aufgelöst; Quelle(n): http://www.autoverwertung-hartmann.de/; https://www.autoverwertung-hartmann.de/]
 - [Recherche 05.10.2026: Zwei live gelesene Verzeichnisse sind KEINE unabhängigen qualifizierenden Belege: orte.muenchen.de ist ausdrücklich Stadtbranchenbuch/Opendi in Konzession, nicht kommunales Gewerberegister; es nennt Himmelreichstr. 23 und 08131 72159, Mo-Fr 08-12/13-17 sowie Sa 08-12. Das Örtliche nennt dagegen Himmelreichstraße 23 A, dieselbe Nummer, Mo-Do 08-12/13-17, Fr 08-12/13-16 und Sa Ruhetag, verlinkt zudem Sellwerk statt eigenem Impressum. Adresszusatz und Zeiten widersprüchlich, info@autoverwertung-hartmann.de nur Verzeichnis-Lead; nichts übernommen. Ein Suchtreffer zu autoneo Hartmann Autowerkstatt GmbH ist kein Nachweis einer Nachfolge des Autoverwerters. Kein unabhängiger aktueller Betriebs-/Registerbeleg und keine vollständige Händlerpreisliste für Ankauf, Verkauf oder Gebühren gefunden; Quelle(n): https://orte.muenchen.de/186491.html; https://www.dasoertliche.de/Themen/Autoverwertung-Hartmann-Bergkirchen-Neuhimmelreich-Himmelreichstra%C3%9Fe]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Neue Suche findet weiterhin Sellwerk/Das-Örtliche-/Schrottplatz-Info-Leads mit Himmelreichstraße 23/23 A, Bergkirchen und 08131 72159; kein kommunales Gewerberegister, Betreiber-Impressum oder belegte Verbindung zur GmbH Autoneo. `autoverwertung-hartmann.de` bleibt als bekannte Domain nicht zuverlässig abrufbar (frühere HTTP-404-/Transportfehler, siehe Recherche 05.10.); das beweist keine Schließung. Keine Frontmatter-Fills. Ankauf-/Verkaufskurse und Gebühren weiterhin unbelegt. Quelle(n): https://sellwerk.de/firmenprofil/autoverwertung-hartmann; https://www.dasoertliche.de/Themen/Autoverwertung-Hartmann-Bergkirchen-Neuhimmelreich-Himmelreichstra%C3%9Fe; https://www.schrottplatz-info.de/schrottplatz/Bergkirchen/Hartmann]

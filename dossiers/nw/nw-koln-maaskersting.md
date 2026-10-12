@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Maaskersting“ wird als mobiler Anbieter in Köln geführt, aber ohne Betreiberwebsite/Registerbeleg. Adressen widersprechen sich: Koelnerbranchen nennt Stegwiese 4, 11880 nennt Stegwiese 20; 11880 führt 0163 2954797 nur als Verzeichnisangabe. Keine Straße/Telefonie ins Frontmatter übernommen. ANKAUF: nicht unabhängig bestätigt, keine Preise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben.
+„Maaskersting“ wird als mobiler Anbieter in Köln geführt, aber ohne Betreiberwebsite/Registerbeleg. Der Adresskonflikt besteht fort: Kölner Branchen und weShopLocal nennen Stegwiese 4, während 11880/werkenntdenBESTEN Stegwiese 20 führen; die 11880-Stammdaten stammen aus 2021. Keine Straße/Telefonie ins Frontmatter übernommen. **Ankauf:** nicht unabhängig bestätigt, keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Unabhängige Suche bestätigt weiterhin zwei unvereinbare Verzeichnis-Adressen: Kölner Branchen und weShopLocal führen Stegwiese 4, 51067 Köln-Buchheim; 11880 und werkenntdenBESTEN führen Stegwiese 20. Der 11880-Datensatz nennt Herkunft 24.07.2021; sein Portalstempel 03.10.2026 datiert die Kontaktdaten nicht. Keine neue Betreiber-, Register- oder Behördenquelle und keine Auflösung des Namens/Standorts. Keine Frontmatter-Änderung oder Geocodierung. Ankauf/Verkauf/Gebühren weiter nicht verifiziert. Quelle(n): https://www.koelnerbranchen.de/schrott/buchheim ; https://www.weshoplocal.de/schrott/koeln/ ; https://www.11880.com/branchenbuch/koeln/120674719B107724488/maaskersting.html ; https://www.werkenntdenbesten.de/schrotthandel/koeln]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

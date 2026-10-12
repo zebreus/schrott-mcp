@@ -32,6 +32,10 @@ Die Profile liefern aber keine Betreiberwebsite, keine nachgewiesene Gewerbe-/Re
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Das Örtliche-Profil erneut als Verzeichnisquelle geprüft: Papier- und Schrothandel Heiko Sewzyk, Ossietzkystr. 37A, 01662 Meißen, Tel. 0174 3319765. Das wiederholt den Lead aus Gelbe Seiten, ist aber weder Betreiberbestätigung noch Nachweis aktueller Geschäftsaufnahme; kein Zusammenhang mit anderen Firmen an derselben Anschrift abgeleitet. Straße bleibt unbestätigter Altwert, PLZ/Telefon unverändert leer, `status: pruefung`. ANKAUF — keine Papier- oder Schrottkurse; VERKAUF — keine Preislisten; GEBÜHREN — keine Tarife. Quelle: https://www.dasoertliche.de/Themen/Schrottha%C3%A4ndler/Mei%C3%9Fen.html (Verzeichnis-Lead; Abruf 12.10.2026).]
+
 ### Recherche 05.10.2026 (Abend-Welle)
 
 - [Recherche 05.10.2026: Neues konkret abgerufenes Lead-Profil bei Gelbe Seiten: Papier- und Schrothandel Heiko Sewzyk, Ossietzkystr. 37A, 01662 Meißen, 0174 3319765, Branche Schrott. Generische Schaltflächen „E-Mail/Website“ enthalten im gelesenen Profil keinen konkreten Betreiberlink oder eine Adresse; nicht als Website-Fund gewertet. Der Lead stützt die Suchrichtung, ist ausdrücklich KEIN Beleg nach README und widerspricht keiner belegten Schließung. Straße bleibt unbestätigter Seed-Altwert; keine PLZ-/Telefon-/Material-Fills, weiter pruefung. Keine veröffentlichte Preisliste im Profil. Nächster sinnvoller Schritt Betreiber-/kommunale Gewerbebestätigung, nicht weitere Verzeichniskopien sammeln. Quelle(n): https://www.gelbeseiten.de/gsbiz/0e92aa1d-05a8-4d81-9a21-3ae061be55f5 (Lead, Direktabruf).]

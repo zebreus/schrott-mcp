@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die vorbefüllte Adresse Erwin-Topp-Str. 6, Telefonnummer und E-Mail werden weiterhin nur durch einen 11880-Eintrag getragen; dieser führt Stammdaten vom 29.09.2026 und einen Portalstempel 04.10.2026. Die E-Mail-Domain coskanrecycling.de war beim Direktabruf nicht erreichbar, ein Betreiberimpressum ließ sich nicht lesen. **Ankauf:** kein Betreiberbeleg/keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: 11880-Detailseite direkt gelesen: Coskan Recycling, Erwin-Topp-Str. 6, 44866 Bochum, 0177 4543752, info@coskanrecycling.de; Branchenlabels Recycling/Schrottplatz/Schrotthandel. Der Datensatz stammt vom 29.09.2026; Portalstempel „aktualisiert am 04.10.2026“ ist kein Betreiberbeleg. Eigene Domains mit dieser Firmenbezeichnung waren beim direkten HTTPS-Abruf nicht auslesbar; kein Impressum/Register gefunden. Die vorhandenen Kontaktfelder bleiben ausdrücklich portalbasiert, Status pruefung. Keine Betreiberpreisliste: Ankauf, Verkauf und Gebühren nicht quantifiziert/veröffentlicht. Quelle(n): https://www.11880.com/branchenbuch/bochum/060444309B114191627/coskan-recycling.html ; https://www.coskanrecycling.de/ ; https://www.coskanrecycling.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

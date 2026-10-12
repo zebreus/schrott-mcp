@@ -30,6 +30,10 @@ Registerzweck umfasst Abschleppen/Bergung, Autoverwertung/Entsorgung, Fahrzeug- 
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Die frühere Domain rilei.de erneut direkt aufgerufen; sie zeigt weiter eine Verkaufs-/Parkseite („steht zum Verkauf“), keine Betreiberinformationen. Das bestätigt nur, dass der Domainauftritt kein aktueller Betriebsnachweis ist; ältere Register-/GLEIF-Einträge bleiben historische Identitätsbelege und belegen weder aktiven Hofbetrieb noch GESA-Anerkennung. Verzeichnis-Kontaktangaben nicht übernommen. ANKAUF — keine aktuellen Schrott-/Fahrzeugpreise; VERKAUF — keine Ersatzteilpreisliste; GEBÜHREN — keine Tarife. Status `pruefung` unverändert. Quelle: https://www.rilei.de/ (direkt abgerufen 12.10.2026).]
+
 ### Recherche 05.10.2026 (Abend-Welle)
 
 - [Recherche 05.10.2026: Identitätsfund statt bisherigem „kein Befund“: NorthData HRB 737 Stendal nennt Rilei Automobile GmbH / RILEI Autoverwertung GmbH Badel, Zum Rundling 44, 39624 Cheinitz; Historie 19.11.2002 Name/Sitz Zethlingen OT Cheinitz, Geschäftsführer-/Adresspublikation 25.02.2009. GLEIF-API zu LEI 529900TGM8IAAPLG8W46 bestätigt legalName Rilei Automobile GmbH, registeredAs HRB 737, legalAddress Zum Rundling 44/Cheinitz/39624 und headquartersAddress Cheinitzer Rundling 44/Kalbe (Milde)/39624. entity.status ACTIVE, registration.status LAPSED, lastUpdateDate 19.07.2021: historisch korroborierte Identität, kein frischer Betriebsnachweis. Formalen Namen auf 2-Quellen-Basis präzisiert, keine Adress-/Telefon-Fills, status pruefung bleibt. Quelle(n): https://www.northdata.de/Rilei+Automobile+GmbH,+Kalbe+(Milde)/Amtsgericht+Stendal+HRB+737 ; https://api.gleif.org/api/v1/lei-records/529900TGM8IAAPLG8W46 .]

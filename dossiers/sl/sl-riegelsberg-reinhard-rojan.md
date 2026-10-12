@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Branchenverzeichnisse nennen Reinhard Rojan in Riegelsberg, darunter die bereits übernommene Adresse Überhofer Str. 111A, 66292. Die Kontaktnummern widersprechen sich (Mobilnummer 0172 6857888 gegenüber Festnetz 06806 480361); es gibt weiterhin keinen Betreiber-, Register- oder kommunalen Nachweis. Adresse und Tätigkeit bleiben daher verzeichnisgestützte Leads, aktuelle Annahme nicht bestätigt.
+
+**Preise:** ANKAUF — keine verifizierten Bedingungen oder Preise. VERKAUF — keine Liste gefunden. GEBÜHREN — keine Tarife gefunden.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute Namens-/Ortsprüfung brachte keinen Betreiberauftritt oder Register-/Kommunalbeleg. Das Örtliche/Gelbe-Seiten-/Cylex-Spuren bleiben Verzeichnis-Leads; bekannte Telefonangaben widersprechen sich und werden nicht vereinheitlicht. Keine Änderung an bereits als Verzeichnis-Konsens markierter Straße/PLZ oder Status `pruefung`; keine Schließung abgeleitet. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierbaren Preise, Preislisten oder Tarife. Quellen: https://www.gelbeseiten.de/gsbiz/cff2e64f-48bd-44af-a1d0-a4dd9cdcf3f8 ; https://web2.cylex.de/branchen/recyclingunternehmen/Riegelsberg/ (Cylex-Kategorieeintrag, Aggregator; Abruf/Suche 12.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

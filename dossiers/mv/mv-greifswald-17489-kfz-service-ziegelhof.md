@@ -30,6 +30,10 @@ Preisprüfung: ANKAUF — die Website enthält ein Formular „Ich habe ein Auto
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiberseiten erneut direkt geprüft: Kontakt/Impressum führen Matthias Görlich, Poggenweg 15, 17489 Greifswald, Tel. 0163 13 13 242 und info@autoverwertung-greifswald.de; die Werkstattseite nennt Reparaturen und Kfz-Neuteile, das Formular bietet eine unverbindliche Auto-Verkaufsanfrage. Keine öffentlich ausgewiesenen Ankaufbeträge oder -bedingungen, keine Verkaufspreisliste, keine Gebühren; daraus folgt kein allgemeiner Metallankauf. Im GESA-Fachbetrieberegister weiterhin kein hier verifizierbarer Nachweis gefunden; Annahme/Anerkennung offen, bestehende Felder und Status unverändert. Quellen: https://autoverwertung-greifswald.de/kontakt/ ; https://autoverwertung-greifswald.de/impressum/ ; https://autoverwertung-greifswald.de/kfz-service-autoverwertung-greifswald/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (Abruf 12.10.2026).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - anerkannter Demontagebetrieb (GESA)

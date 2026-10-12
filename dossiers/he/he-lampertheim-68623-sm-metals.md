@@ -3,16 +3,16 @@ slug: he-lampertheim-68623-sm-metals
 name: SM Metals GmbH
 trader_type: metallhaendler
 state: HE
-city: Lampertheim 68623
+city: Lampertheim
 street: Wilhelm-Herz-Ring 2
 postcode: '68623'
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+phone: 06206 9510626
+email: info@sm-metals.com
+opening_hours: 'Mo-Fr 08:00-16:30; Sa 09:00-14:00'
+website: https://www.sm-metals.com/
+website_status: aktiv
+status: aktiv
+description: 'Metallhandel und Anlagen-/Transformatorendemontage; laut Betreiber Ankauf von Eisen- und Buntmetallen, Kabeln und weiteren Metallen zu individuell ermittelten Tagespreisen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
@@ -24,7 +24,11 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der passende Betreiberauftritt ist **sm-metals.com**, nicht die zuvor notierte Domain `sm-metallhandel.com` (diese nennt eine abweichende UG ohne belegte Verbindung). Impressum und Kontakt von SM Metals GmbH stimmen mit Wilhelm-Herz-Ring 2, 68623 Lampertheim überein; der Betreiber nennt Geschäftsführer Muhammed Shahid. Die Anschrift wird als Postanschrift geführt; eine allgemeine öffentliche Schrott-Annahmestelle oder Privatkunden-Anlieferung ist nicht ausdrücklich bestätigt.
+
+- **Ankauf:** Betreiber wirbt mit Ankauf von Metallen (u. a. FE-Schrott, Kupfer, Messing, Aluminium, Edelstahl und Kabel), Klein- wie Großmengen; Preis nach Materialprüfung als aktuelles individuelles Tagesangebot, keine numerische Liste.
+- **Verkauf:** keine öffentliche Produkt-/Verkaufspreisliste gefunden.
+- **Gebühren:** keine Tarifliste. Abholung wird für Geschäftskunden angeboten; Preis/Bedingungen nicht veröffentlicht. Nicht als kostenfrei darstellen.
 
 ## Timeline
 
@@ -44,3 +48,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Die bereits als möglicher Nachfolger/Fremdtreffer notierte Domain ist aktuell abrufbar (Footer © 2026) und bezeichnet den Anbieter als „SM – Stahl und Metallhandel UG“; sie beschreibt Industrie-Demontage, Metall-/Schrotthandel, Maschinenankauf und Abholung von Kupfer, Kabel, Aluminium, Messing und Edelstahl. Ein Impressum unter dem naheliegenden Pfad liefert 404; die sichtbare Seite belegt weder Lampertheimer Anschrift noch HRB/Identität der im Dossier benannten SM Metals GmbH. Keine Frontmatter-Änderung; Website-Zuordnung und Status bleiben offen. Restunsicherheit: möglicher neuer Betreiber mit abweichender Rechtsform/Bezeichnung; nicht mit HRB 92336 zusammenführen; Quelle(n): https://sm-metallhandel.com/ ; https://sm-metallhandel.com/impressum]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Primärbeleg schließt die Website-Zuordnung: https://www.sm-metals.com/impressum/ nennt SM Metals GmbH, Wilhelm-Herz-Ring 2, 68623 Lampertheim, Geschäftsführer Muhammed Shahid, 06206 9510626 und info@sm-metals.com; Kontakt-/Leistungsseiten führen Mo-Fr 08:00-16:30, Sa 09:00-14:00 sowie Ankauf von FE-/NE-Metallen, Kabeln und Klein-/Großmengen nach Analyse zu Tagespreisen. Website liefert zudem ein als 2026 benanntes EFB-Zertifikat. Zusammen mit dem dokumentierten HRB 92336 (AG Darmstadt) ist die Identität zum Dossier plausibel; die abweichende `sm-metallhandel.com`-UG bleibt getrennt. Frontmatter mit offizieller Domain/Kontaktzeiten ergänzt, Stadt/PLZ getrennt; kein `dropoff_json`, da die Anschrift auf Kontaktseiten als Postanschrift bezeichnet und öffentliche Annahmebedingungen nicht klar geregelt sind. Verkaufspreise/Gebühren: keine Listen/Tarife. Quelle(n): https://www.sm-metals.com/impressum/; https://www.sm-metals.com/kontakt/; https://www.sm-metals.com/leistungen/; https://www.northdata.com/SM%20Metals%20GmbH,%20Lampertheim/Amtsgericht%20Darmstadt%20HRB%2092336]

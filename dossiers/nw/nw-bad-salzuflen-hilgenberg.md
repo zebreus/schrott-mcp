@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der einzige standortgenaue Schrotthändler-Lead bleibt „Johannes Hilgenberg Rohstoffe“, Kiliansweg 6, Bad Salzuflen, aus einem Branchenportal. Die eigene Website der Hilgenberg GmbH belegt ein Spezialglasunternehmen in Malsfeld, nicht diesen Rohstoffhändler; Namensgleichheit ist keine Identitätsbrücke. **Ankauf:** nicht aktuell bestätigt, keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute Suche nach „Johannes Hilgenberg Rohstoffe“/Kiliansweg 6 ergibt weiter den 11880-Verzeichniseintrag (32108 Bad Salzuflen), aber keine Betreiberwebsite, Handelsregister- oder Kommunalquelle für diesen Kandidaten. Die eigene Website Hilgenberg GmbH beschreibt weiterhin einen Spezialglashersteller; sie ist kein Treffer zum Bad-Salzufler Altmaterialhändler. Status pruefung und leere Kontaktfelder unverändert. Keine konkret bestätigten Annahmebedingungen, Ankauf-/Verkaufspreise oder Gebühren. Quelle(n): https://www.11880.com/branchenbuch/bad-salzuflen/060440090B26054969/johannes-hilgenberg-rohstoffe.html ; https://www.hilgenberg-gmbh.de/en/ ; https://www.hilgenberg-gmbh.de/en/company/locations]
 
 ### Recherche 02.10.2026
 

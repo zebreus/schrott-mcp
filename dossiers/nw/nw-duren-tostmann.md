@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Eine live erreichbare Webador-Seite tritt als "Schrotthandel Tostmann" in Düren auf und bewirbt Abholung, Demontage und Ankauf, enthält aber weder Impressum noch konkrete Kontaktdaten und nennt nur 52353 Düren. Verzeichnisse führen Tostmann zudem mit unterschiedlichen Adressen/Telefonen, daher ist der Bezug zum Seedstandort Viandener Str. 12 offen. **Ankauf:** Betreiberseite verspricht faire Preise, aber keine Zahlen; **Verkauf:** keine Liste; **Gebühren:** keine Tarife gefunden.
+Die live erreichbare Webador-Seite „Schrotthandel Tostmann“ wirbt in Düren mit Abholung, Demontage und Ankauf, nennt aber nur „52353 Düren“ und hat kein Impressum oder konkrete Kontaktdaten. Aktuelle Verzeichnis-Leads zeigen daneben „Erich Tostmann“ an der Dresdener Str. 1 und „Schrotthandel Tostmann“ an der Behringstr. 29; keine Quelle verbindet diese mit dem Seedstandort K. Tostmann, Viandener Str. 12. **Ankauf:** „faire Preise“ ohne Betrag; **Verkauf:** keine Liste; **Gebühren:** keine Tarife.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Webador-Startseite erneut direkt gelesen: Sie wirbt mit Schrottabholung, Demontage und Schrottankauf und nennt Düren/52353, aber kein Impressum, keine Telefonnummer und keine Straßenadresse; der Kontakt ist ein Webformular. Die aktuelle Suche zeigt zusätzlich Erich Tostmann, Dresdener Str. 1, 52351 Düren, Tel. 0171 6452649 (11880/Das Telefonbuch), neben den bereits dokumentierten Tostmann-Spuren. Diese abweichenden Namen/Standorte belegen keine Identität mit K. Tostmann, Viandener Str. 12. Felder bleiben unverändert. Ankauf: nur unbelegte Zahlenlos-Aussage „faire Preise“; Verkaufspreise und Gebühren nicht veröffentlicht. Quelle(n): https://gratis-4364038.webador.de/ ; https://web2.cylex.de/firma-home/schrotthandel-tostmann-16655945.html ; https://www.11880.com/suche/schrotthandel/dueren ; https://adresse.dastelefonbuch.de/D%C3%BCren/3-Erich-Tostmann-D%C3%BCren-Dresdener-Str.html]
 
 ### Recherche 08.10.2026
 

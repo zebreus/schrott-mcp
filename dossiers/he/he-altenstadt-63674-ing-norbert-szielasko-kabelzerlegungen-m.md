@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchenportale wiederholen den Lead „Ing. Norbert Szielasko Kabelzerlegungen Metalle“, Herrnstr. 36, 63674 Altenstadt, Tel. 06047 2901. Das bleibt ein Verzeichniscluster: kein Betreiber-Impressum, aktueller Register- oder qualifizierter kommunaler Beleg gefunden. Die frühere Rücknahme von Adresse/Kontakt und der Status `pruefung` bleiben bestehen.
+
+**Preise:** Ankauf — keine verifizierten Kurse; Verkauf — keine Liste; Gebühren — keine Tarife belegt.
 
 ## Timeline
 
@@ -40,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Adresse + Rufnummer 7-fach konsistent — „Ing. Norbert Szielasko Kabelzerlegungen Metalle“, Herrnstr. 36, 63674 Altenstadt(-Waldsiedlung), Tel. (06047) 2901 (meinestadt.de nennt zusätzlich Fax 06047 7670): golocal.de (Detailseite direkt abgerufen, offizieller Telefonbucheintrag) + dasoertliche.de + gelbeseiten.de + cylex.de + 11880.com + branchenbuchdeutschland.de + meinestadt.de (bedirect-Daten). Kein Betreiber-Impressum, keine Website auffindbar (website_status unbekannt), keine Öffnungszeiten belegt. street/postcode/phone bereits aus Seed korrekt, status pruefung → aktiv. Beleglage offen: alles Verzeichnisse/Portale, kein Register, keine Betreiberquelle — Kabelzerlegung als Kleinstbetrieb plausibel, aber Existenz nur verzeichnisbelegt. Quelle(n): golocal.de, dasoertliche.de, gelbeseiten.de, web2.cylex.de, 11880.com, branchenbuchdeutschland.de, branchenbuch.meinestadt.de.]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute Namens-/Branchenrecherche brachte nur den bereits bekannten 11880-/Aggregator-Eintrag für Herrnstr. 36, 63674 Altenstadt; kein Betreiber-Impressum, registerbasierter oder kommunaler Zweitbeleg und keine Preis-/Annahmebedingungen gefunden. Frontmatter bleibt bewusst bereinigt (`street`, `postcode`, `phone` leer; `status: pruefung`), da Mehrfachlistings keine unabhängigen qualifizierenden Quellen sind. Ankauf, Verkauf und Gebühren ungeklärt. Quelle(n): https://www.11880.com/branchenbuch/altenstadt-hessen/062392768B29597958/ing-norbert-szielasko-kabelzerlegungen-metalle.html; ältere Portalspuren siehe Recherche 02.10.]

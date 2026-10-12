@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein 11880-Profil zu „Schrotthandel Kiel“ in Langerwehe ist als „vom Inhaber bestätigt“ markiert und nennt Kapellenstr. 66, 52379, Telefon, E-Mail und werktägliche Öffnungszeiten. Das bleibt ein Portalprofil ohne Impressum/Register oder eigene Betreiberseite und belegt weder die Rechtsperson noch eine öffentliche Annahmestelle. Nicht mit der Kieler KSH GmbH verwechseln. **Ankauf:** Profil beschreibt Schrott/Metallhandel, keine Zahlenpreise; **Verkauf:** keine Liste; **Gebühren:** keine Tarife.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute Direktprüfung des 11880-Profils (Datensatz 18.09.2026, Portalstempel 05.10.2026) zeigt „vom Inhaber bestätigt“ und „Foto vom Inhaber“; aufgeführt sind Kapellenstr. 66, 52379 Langerwehe, 0174 5819431, rubel500@googlemail.com, Mo–Fr 07:00–18:00 sowie Schrott-/Metallhandel, Entrümpelung und Haushaltsauflösung. Die Bestätigung ist eine Portalaussage, keine überprüfbare Betreiber-Impressums- oder Registerquelle; deshalb keine Felder gefüllt und keine Annahmebedingungen abgeleitet. Die Portal-Bewertung „fairer Preis“ enthält keinen Betrag. Verkaufspreise/Gebühren fehlen. Quelle(n): https://www.11880.com/branchenbuch/langerwehe/120674719B112617682/schrotthandel-kiel.html ; https://web2.cylex.de/firma-home/schrotthandel-kiel-15568938.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

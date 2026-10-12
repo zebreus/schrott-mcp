@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein historischer Lokalbericht beschreibt eine Lorenz-Autoverwertung in **Westdorf** (heute Stadt Aschersleben), Welbslebener Chaussee 2, nicht jedoch eine Niederlassung im Ort Aschersleben oder die Identität des hier importierten Datensatzes. Ein aktueller Branchenverzeichnis-Treffer ist widersprüchlich als „geschlossen“ markiert und ersetzt keine Betreiber-/Registerbestätigung. Anschrift, Zuordnung und heutiger Betrieb bleiben offen; keine Daten der bayerischen Lorenz Recycling GmbH übertragen.
+
+**Preise:** historisch wird Gebrauchtteileverkauf erwähnt, aber ohne Preise. ANKAUF — keine aktuelle Preisliste. GEBÜHREN — keine Angaben.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Neue, aber nicht zeitgemäße Ortsquelle gefunden: Die Mitteldeutsche Zeitung schildert eine Lorenz-Autoverwertung in Westdorf und beschreibt den Umzug dorthin 2001/02; der Bericht vom 26.05.2004 nennt getrennte Werkstatt-/Autoverwertungsaktivitäten und Gebrauchtteileverkauf. Das ist ein plausibler regionaler Lead, beweist aber weder aktuellen Betrieb noch, dass er dem unbestimmten Seed „Lorenz, Aschersleben“ entspricht. Ein 11880-Ortsverzeichnis führt ebenfalls Lorenz in Westdorf, teils mit widersprüchlichem Schließungslabel; nicht als Schließungsbeleg gewertet. Keine Frontmatter-Fills oder Zusammenführung; Ankauf-/Verkaufspreise und Gebühren nicht veröffentlicht/belegt. Quellen: https://www.mz.de/lokal/aschersleben/leute-neue-existenz-dank-der-parksunder-2953135 (26.05.2004); https://www.11880.com/suche/autoverwertung/aschersleben (Verzeichnis-Lead; Abruf 12.10.2026).]
 
 ### Recherche 04.10.2026
 

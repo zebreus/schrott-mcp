@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Visitenkarte von Achim Behrendt und Verzeichniseinträge nennen Goethestr. 76 in Rathenow; daraus ergibt sich kein unabhängiger Nachweis, dass er die heutige Schmuckboutique betreibt. Der Cylex-Eintrag ist ein Branchenverzeichnis-Lead. Schmuckboutique und Altmetall-/Schrottankauf dürfen nicht gleichgesetzt werden; ein solcher Ankauf ist nicht belegt. Status `pruefung` bleibt.
+
+**Preise:** ANKAUF — kein verifizierter Schmuck- oder Metallankaufkurs. VERKAUF — keine Schmuckpreisliste. GEBÜHREN — keine Angaben.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute Prüfung der zu Goethestr. 76 passenden Treffer fand weiterhin keinen aktuellen Betreiberauftritt oder Registerbeleg. Die persönliche Visitenkarte nennt Achim Behrendt an der Anschrift, Cylex führt eine Schmuckboutique Behrendt; die Betreiberzuordnung und heutige Öffnung bleiben damit nicht unabhängig belegt. Eine ältere Bewertung zum Silberarmband weist keinen Ankaufkurs aus und belegt keinen Schrott-/Metallankauf. Bestehende Lead-Kontaktdaten bleiben als solche markiert, Status `pruefung`. ANKAUF — kein verifizierter Ankaufpreis; VERKAUF — keine Schmuckpreisliste; GEBÜHREN — keine Angaben. Quellen: http://achim-behrendt.visitenkarte.regio.de/ ; https://web2.cylex.de/firma-home/schmuckboutique-behrendt-3784824.html ; https://rathenow-bb.sind-sie-sicher.info/jewelry (Verzeichnis-/Visitenkarten-Leads; Abruf 12.10.2026).]
 
 ### Recherche 01.10.2026 (Erstprüfung)
 

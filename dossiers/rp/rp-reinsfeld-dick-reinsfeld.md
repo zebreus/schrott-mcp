@@ -30,6 +30,10 @@ Mehrere Verzeichnis-Leads stimmen auf **Edmund Dick Schrotthandel, Sonnenhang 22
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Das 11880-Firmenprofil führt Edmund Dick, Sonnenhang 22, 54421 Reinsfeld, Tel. 0162 2452078; die Seite meldet Aktualisierung am 03.10.2026, während die Eintragsdaten vom 06.09.2024 stammen. Das ist kein unabhängiger Betreiber-/Registerbeleg und löst den Telefonkonflikt mit dem alternativen 06503-99377-Eintrag nicht. Keine Frontmatter-Änderung, Adresse vor Geokodierung direkt bestätigen. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierbaren numerischen Preise oder Tarife; allgemeine Preisrange-Symbole des Portals sind kein konkretes Betreiberangebot. Quellen: https://www.11880.com/branchenbuch/reinsfeld-hunsrueck/120674719B101968124/edmund-dick-schrotthandel-dick.html ; https://recyclinghof-wertstoffhof.de/recyclinghof/rheinland-pfalz/trier (Verzeichnis-Leads; Abruf 12.10.2026).]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Wiederholte Recherche brachte keinen Betreiber-/Registerbeleg und löste den Telefonkonflikt nicht. Der Verzeichnis-Konsens zu Edmund Dick, Sonnenhang 22, 54421 Reinsfeld bleibt Lead, keine Tatsachenfeststellung; auch der aktuelle Eintrag bei Recyclinghof-Wertstoffhof.de führt ihn nur als Verzeichnisfund im Umfeld von Trier/Reinsfeld. ANKAUF: keine numerischen Preise; VERKAUF: keine öffentliche Materialpreisliste; GEBÜHREN: keine Tarife. Keine Frontmatter-Änderung, Adresse vor Geocoding direkt bestätigen. Quelle(n): https://recyclinghof-wertstoffhof.de/recyclinghof/rheinland-pfalz/trier ; weitere Verzeichnis-Leads: Gelbe Seiten, schrottplatz-info.de, 11880.com.]

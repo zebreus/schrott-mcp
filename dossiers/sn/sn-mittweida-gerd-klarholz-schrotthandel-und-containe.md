@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchenverzeichnisse führen Gerd Klarholz Schrotthandel/Containerdienst an Anton-Günther-Str. 7, 09648 Mittweida, Tel. 03727 91063. Die Anschrift und Nummer sind daher als konsistente Verzeichnis-Leads bereits erfasst; Betreiberwebsite, Register-/Kommunalbestätigung, aktuelle Öffnung und konkrete Annahmebedingungen fehlen. Ein Branchenregister ohne passenden Eintrag ist kein Beleg für Nichtexistenz oder Schließung.
+
+**Preise:** ANKAUF — keine verifizierten Schrott-/Papierpreise. VERKAUF — keine Materialpreisliste. GEBÜHREN — keine Container-/Entsorgungstarife gefunden.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Neue Suche brachte keinen belastbaren Betreiberbeleg über die bereits dokumentierten Branchenverzeichnisse hinaus. Dort wiederholt sich der Lead Anton-Günther-Str. 7, 09648 Mittweida, Tel. 03727 91063; andere Mittweidaer Betriebe (u. a. Möbius Transporte an anderer Adresse) sind nicht derselbe Datensatz. Sekundäre Schrottplatz-/Registerportale ersetzen keine amtliche Anerkennung. Keine Änderungen an bestehenden Lead-Feldern; `status: pruefung` bleibt. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Preislisten oder Tarife. Quellen: https://www.dasoertliche.de/Themen/Gerd-Klarholz-Schrotthandel-und-Containerdienst-Mittweida-Anton-Guenther-Str ; https://www.schrottregister.pages.dev/ort-mittweida (sekundäre Hinweise; Abruf 12.10.2026).]
 
 ### Recherche 02.10.2026
 

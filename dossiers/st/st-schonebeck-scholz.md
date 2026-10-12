@@ -4,13 +4,13 @@ name: Scholz
 trader_type: autoverwertung
 state: ST
 city: Schönebeck
-street: ''
-postcode: ''
+street: Wilhelm-Dümling-Str. 10
+postcode: '39218'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: http://auto-scholz-sbk.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,20 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt verwendet den Namen **AUTO-SCHOLZ** und nennt Wilhelm-Dümling-Str. 10, 39218 Schönebeck/Elbe. Die Stadt Schönebeck führt unabhängig davon „Auto Scholz Autoverwertung“ an Wilhelm-Dümling Straße 10 im Industriepark West; Name und Anschrift sind damit beidseitig gestützt. Telefon und E-Mail stehen nur auf dem undatierten Betreiberauftritt und bleiben deshalb nach dem README-Belegstandard ungefüllt. Die Betreiberseite wirbt mit kostenloser Altautoannahme, Pkw-Ankauf (auch Unfall-/Motorschadenfahrzeuge und ohne TÜV) sowie Pkw- und Teileverkauf; diese Angebote und die Selbstbezeichnung „zertifizierte Autoverwertung“ sind nicht aktuell unabhängig bestätigt. Status `pruefung` bleibt.
+
+**Preise:** ANKAUF — keine numerischen Fahrzeug-/Schrottpreise oder Auszahlungsbedingungen. VERKAUF — Pkw und Teile werden angeboten, aber keine Preisliste. GEBÜHREN — kostenlose Altautoannahme wird behauptet; Bedingungen/ausgeschlossene Fälle und sonstige Tarife sind nicht erläutert.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erstmals einen direkt erreichbaren, dem Namen passenden Betreiberauftritt gefunden: AUTO-SCHOLZ nennt Industriepark West, Wilhelm-Dümling-Str. 10, 39218 Schönebeck/Elbe und Kontakt 03928 42 50 95 / auto-scholz-sbk@t-online.de. Leistungsseite wirbt mit kostenloser Altautoannahme, Pkw-Ankauf einschließlich Unfall-/Motorschadenfahrzeugen und Fahrzeugen ohne TÜV sowie Pkw-/Alt- und Neuteileverkauf. Die undatierten statischen Seiten bestätigen keine heutige Öffnung; die Zertifizierungsformulierung ist Selbstaussage ohne sichtbaren aktuellen Nachweis. Kontaktdaten/Website gefüllt, `status: pruefung` beibehalten. Keine numerischen Ankaufs- oder Verkaufspreise; nur die kostenlose Annahmebehauptung, ohne Bedingungen/Tarifdetails. Quellen: http://auto-scholz-sbk.de/41685.html ; http://auto-scholz-sbk.de/41696.html ; http://auto-scholz-sbk.de/41233/home.html ; http://auto-scholz-sbk.de/41714.html (direkt abgerufen 12.10.2026).]
+- [Recherche 12.10.2026: Betreiberauftritt AUTO-SCHOLZ nennt Industriepark West, Wilhelm-Dümling-Str. 10, 39218 Schönebeck/Elbe und Telefon/E-Mail. Die Stadt Schönebeck listet unabhängig „Auto Scholz Autoverwertung“ an Wilhelm-Dümling Straße 10 im Industriepark West. Der Betreiberauftritt wirbt mit kostenloser Altautoannahme, Pkw-Ankauf einschließlich Unfall-/Motorschadenfahrzeugen und Fahrzeugen ohne TÜV sowie Pkw-/Alt- und Neuteileverkauf. Die undatierten statischen Seiten bestätigen keine heutige Öffnung; die Zertifizierungsformulierung ist Selbstaussage ohne sichtbaren aktuellen Nachweis. Status `pruefung` beibehalten. Keine numerischen Ankaufs- oder Verkaufspreise; nur die kostenlose Annahmebehauptung, ohne Bedingungen/Tarifdetails. Quellen: http://auto-scholz-sbk.de/41685.html ; http://auto-scholz-sbk.de/41696.html ; http://auto-scholz-sbk.de/41233/home.html ; http://auto-scholz-sbk.de/41714.html ; https://www.schoenebeck.de/de/industriepark-west.html (direkt abgerufen 12.10.2026).]
+
+### Owner-Gate 12.10.2026
+
+- [Korrektur 12.10.2026: Die kommunale Unternehmensseite bestätigt Name und Wilhelm-Dümling-Straße 10, nicht aber die Telefon- oder E-Mail-Angabe. Diese bleiben daher aus dem strukturierten Frontmatter zurückgenommen; Betreiberwebsite und `status: pruefung` bleiben. Die read-only-Produktionsprüfung ergab einen vorhandenen GEO-Punkt, der nicht plausibel zur Schönebecker Anschrift passt; eine Adressänderung korrigiert oder löscht GEO nicht. Keine Koordinaten ergänzt/geändert und keine Produktionsdaten geschrieben; GEO vor jeder späteren Seed-Veröffentlichung separat klären. Quelle(n): https://www.schoenebeck.de/de/industriepark-west.html ; Betreiberseiten in Recherche 12.10.2026; `docs/trader-seed.md`.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

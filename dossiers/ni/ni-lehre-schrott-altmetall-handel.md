@@ -29,6 +29,10 @@ Der Verzeichniseintrag "Schrott & Altmetall Handel" nennt Bockshornweg 7, 38165 
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute exakte Namens-/Adresssuche lieferte weiterhin nur Verzeichnisprofile am Bockshornweg 7 (u. a. „Schrott & Altmetall Handel“ und „Sandy’s Schrottkiste“), keine Betreiber-Impressums-, Register- oder kommunale Quelle zur Identitäts-/Nachfolgefrage. Der portalvermerkte Mindestannahmewert Eisen ab 100 kg/NE ab 1 kg ist keine Preisangabe und wurde nicht als bestätigte Betriebsbedingung übernommen. Kein Frontmatter-Fill; Ankaufspreise, Verkaufsliste und Gebühren nicht verifiziert. Quelle(n): https://lokaleschrottplatz.de/schrott-altmetall-handel/ ; https://web2.cylex.de/firma-home/sandys-schrottkiste-16759097.html ; https://www.11880.com/branchenbuch/lehre/060440092B113588619/sandy-s-schrottkiste.html]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Neue Identitäts-/Duplikatspur am Seedstandort: LokaleSchrottplatz führt "Schrott & Altmetall Handel", Bockshornweg 7, 38165 Lehre, Telefon 01577 9665499, mit angeblicher Annahme vieler Metallsorten und Mindestmengen Eisen ab 100 kg/NE ab 1 kg; das Profil zeigt "Geschlossen", aber nicht, ob temporär oder dauerhaft. Cylex/11880 führen am selben Standort zusätzlich "Sandy's Schrottkiste" mit anderer Nummer; City-map nennt Sandra Hartmann | Schrottkiste und die 01577-Nummer. Das sind Aggregator-Leads ohne belegte Betreiberbeziehung, daher keine Frontmatter-Füllung oder Schließungsmarkierung. Mindestmengen sind Annahmebedingungen, keine Preise. **Preise:** keine Zahlen für Ankauf oder Verkauf; Gebühren nicht genannt. Quelle(n): https://lokaleschrottplatz.de/schrott-altmetall-handel/ ; https://web2.cylex.de/firma-home/sandys-schrottkiste-16759097.html ; https://www.11880.com/branchenbuch/lehre/060440092B113588619/sandy-s-schrottkiste.html ; https://city-map.com/de/firma/sandra-hartmann-schrottkiste-schrotthandel]

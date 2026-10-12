@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hermann Arend GmbH wird mit Reisholzer Werftstr. 76, 40589 Düsseldorf und Containerdienst geführt; die Dossier-Domain war bei Direktabrufen nicht lesbar (neuer Versuch endete mit Transportfehler/HTTP 500). Solche Abruffehler belegen keine dauerhafte Schließung oder aktuelle Betreiberseite. **Ankauf:** Schrottannahme/Preise nicht unabhängig bestätigt; **Verkauf:** keine Liste; **Gebühren:** keine Tarife gefunden.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneuter direkter Abruf der früher genannten arend-container.de-Varianten ergab keinen auslesbaren Betreiberinhalt (HTTPS Transportfehler, www/http HTTP 500). Das ist ein Verfügbarkeitsfehler und kein Beleg für dauerhafte Nichtexistenz/Schließung. Suchtreffer für Hermann Arend GmbH führen weiter Reisholzer Werftstr. 76 / 40589 und Containerdienstdaten, aber nur über Branchen-/Firmenverzeichnisse; keine aktuelle Betreiber-Impressums-/Registerquelle für eine Schrottannahmestelle. Keine Frontmatter-Änderung. Ankaufspreise, Verkaufspreise und Gebühren nicht gefunden. Quelle(n): https://www.arend-container.de/ ; http://www.arend-container.de/ ; https://sellwerk.de/firmenprofil/arend-container ; https://firmeneintrag.creditreform.de/40589/5050389460/HERMANN_AREND_GMBH]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

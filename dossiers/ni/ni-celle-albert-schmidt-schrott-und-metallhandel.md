@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Albert Schmidt Schrott- und Metallhandel“ ist weiter nur über widersprüchliche Verzeichnis- und Kleinanzeigenangaben auffindbar. Gelbe Seiten/Cylex führen Immenweg 25, 29227 Celle und 0170 3121935; ältere Kleinanzeigen-Angaben weichen bei PLZ/E-Mail ab. Kein Betreiberauftritt, Register- oder aktueller Annahmenachweis; der bisherige `aktiv`-Wert war nicht aktuell belegt und ist auf `pruefung` korrigiert. **Ankauf:** unbestätigt, keine Zahlen; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Frische Suche findet weiter lediglich Verzeichnisprofile „A. Schmidt/Albert Schmidt Schrott und Metallhandel“ (Immenweg 25, 29227 Celle; 0170 3121935) und ältere Kleinanzeigen-Spuren mit abweichender PLZ/E-Mail. Keine Betreiberwebsite, eigenes Impressum, aktueller Register-/Kommunalbeleg oder unabhängige Betriebsbestätigung gefunden. Der Frontmatter-Status `aktiv` war damit nicht belegt; Korrektur auf `pruefung` (keine Schließungsbehauptung). Anschrift/Kontakte bleiben als ungeprüfte Alt-Leads leer. Ankauf, Verkauf und Gebühren ohne verifizierte Liste. Keine Zusammenführung mit Nienburger Schmidt-Betrieb. Quelle(n): https://www.gelbeseiten.de/gsbiz/29c1cab9-7e41-4788-a004-585507f0ea58 ; https://web2.cylex.de/firma-home/albert-schmidt-schrott-und-metallhandel-13354823.html ; https://metallschrott-nienburg.de]
 
 ### Recherche 01.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für „SK Schrott“ an Billstr. 140 gibt es weiterhin keinen zuordenbaren Betreiber- oder Registerbeleg. Frühere Presseberichte zur Billstraße betreffen das Gebiet, nicht diesen Betrieb. Die Aktiv-Einstufung war daher unbelegt und ist auf Prüfung zurückgestuft. Keine bestätigten Ankaufspreise, Verkaufspreise oder Gebühren. Offen: Betreiberidentität, Anschrift/PLZ und ob dort aktuell eine Schrottannahme existiert.
+Für „SK Schrott“ an Billstr. 140 gibt es weiterhin keinen zuordenbaren Betreiber- oder Registerbeleg. Ein aktueller Cybo-Scrap-Dealer-Eintrag liefert als zusätzlichen, aber nicht maßgeblichen Lead die Nummer 040 38634360 und PLZ 20539. Frühere Billstraßen-Berichte und Hamburg-Branchenbucheinträge betreffen andere Betriebe/Orte, nicht SK. Status `pruefung`; keine Schließungsbehauptung. **Ankauf/Verkauf:** keine bestätigten Preise; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Frische Namens-/Adresssuche ergab einen Cybo-Verzeichniseintrag „SK Schrott“, Billstraße 140, 20539 Hamburg, Telefon 040 38634360. Das ist nur ein Aggregator-Lead, ohne Betreiberimpressum oder Registerbeleg; Nummer/PLZ werden nicht ins Frontmatter übernommen. Die amtliche Hamburg.de-Seite, die im Billstraßen-Umfeld auftaucht, führt Henry Schmidt Autoverwertung am Mühlenhagen 156, 20539 (anderer Name/Standort), nicht SK. Identität, aktuelle Betriebsstätte/Annahme und Preise weiter offen; keine Feldänderung. Ankauf, Verkauf und Gebühren ohne belastbare Preisliste. Quelle(n): https://sk.cybo.com/DE/hamburg-hamburg/scrap-metal-dealer ; https://www.hamburg.de/branchenbuch/hamburg/eintrag/1046934/]
 
 ### Nachprüfung 06.10.2026
 

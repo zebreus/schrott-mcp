@@ -3,16 +3,17 @@ slug: mv-gustrow-18273-fahrzeugtechnik-und-karosseriebau-schwit
 name: Fahrzeugtechnik und Karosseriebau Schwittau
 trader_type: sonstige
 state: MV
-city: Güstrow 18273
-street: ''
-postcode: ''
-phone: ''
+city: Güstrow
+street: Primerburg 3
+postcode: '18273'
+phone: 03843-213066
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+clear_fields: 'email,opening_hours'
+website: https://www.kfz-schwittau.de/
+website_status: aktiv
 status: pruefung
-description: ''
+description: 'Kfz-Werkstatt (Reparatur, Diagnose, Karosserie, Reifen); Schrottannahme/Metallankauf auf der Website nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite identifiziert **Maik Schwittau Fahrzeugtechnik & Karosseriebau**, Primerburg 3, 18273 Güstrow, Tel. 03843 213066; Anschrift und Telefonnummer werden unabhängig durch den Creditreform-Firmeneintrag bestätigt. E-Mail und Öffnungszeiten erscheinen nur auf der Betreiberwebsite und bleiben bis zu einer unabhängigen Bestätigung ungefüllt (`clear_fields`). Die Website beschreibt Kfz-Werkstattarbeiten (u. a. Diagnose, Karosserie, Reifen), nicht Schrottannahme. Der Seed-Vermerk „zert. Demontagebetrieb (GESA)“ konnte nicht bestätigt werden; Status `pruefung` bleibt.
+
+**Preise:** ANKAUF — kein Schrott-/Metallankauf belegt, keine Ankaufpreise. VERKAUF — keine gebrauchten Teile-/Materialpreisliste auf den geprüften Seiten. GEBÜHREN — keine Entsorgungstarife veröffentlicht. Neue Anschrift vor Geokodierung abgleichen.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiber-Impressum und Kontaktseite direkt geprüft: Maik Schwittau, Primerburg 3, 18273 Güstrow, Tel. 03843-213066, kfz-schwittau@web.de; Mo–Fr 08:00–17:00, Samstag nach Vereinbarung. Website ©2026 und benennt Achsvermessung, Diagnose, Inspektion, Karosserie, Klima- und Reifenservice. Adresse/Kontakt/Website eingetragen; Anschrift neu geocodieren. Der Seed-Eintrag „zert. Demontagebetrieb (GESA)“ wird durch diese Werkstattseiten nicht bestätigt; weder Schrottannahme noch Metallankauf aus dem Werkstattangebot ableiten; `status: pruefung` bleibt. Keine öffentlichen Schrott-Ankauf-, Gebrauchtteile-Verkaufs- oder Gebührenpreise gefunden. Quellen: https://www.kfz-schwittau.de/impressum ; https://www.kfz-schwittau.de/kontakt-anfahrt ; https://www.kfz-schwittau.de/ (direkt abgerufen 12.10.2026).]
+- [Recherche 12.10.2026: Betreiber-Impressum und Kontaktseite direkt geprüft: Maik Schwittau, Primerburg 3, 18273 Güstrow, Tel. 03843-213066, kfz-schwittau@web.de; Mo–Fr 08:00–17:00, Samstag nach Vereinbarung. Der Creditreform-Firmeneintrag bestätigt unabhängig Namen, Anschrift, Telefon und Website, nicht aber E-Mail oder Öffnungszeiten. Deshalb bleiben E-Mail/Öffnungszeiten im Owner-Gate ungefüllt; Anschrift vor späterer Veröffentlichung geokodieren. Der Seed-Eintrag „zert. Demontagebetrieb (GESA)“ wird durch die Werkstattseiten nicht bestätigt; weder Schrottannahme noch Metallankauf ableiten; `status: pruefung` bleibt. Keine öffentlichen Schrott-Ankauf-, Gebrauchtteile-Verkaufs- oder Gebührenpreise gefunden. Quellen: https://www.kfz-schwittau.de/impressum ; https://www.kfz-schwittau.de/kontakt-anfahrt ; https://firmeneintrag.creditreform.de/18273/3190435545/MAIK_SCHWITTAU_FAHRZEUGTECHNIK_KAROSSERIEBAU ; https://www.kfz-schwittau.de/ (direkt geprüft 12.10.2026).]
+
+### Owner-Gate 12.10.2026
+
+- [Korrektur 12.10.2026: Das Creditreform-Profil deckt die Güstrower Anschrift, den Namen, die Telefonnummer und Betreiberwebsite ab, nicht aber E-Mail oder Öffnungszeiten. Diese beiden nur auf der Betreiberseite gefundenen Felder werden daher per `clear_fields: 'email,opening_hours'` im Seed ausdrücklich leer gehalten. Der Produktionsabgleich war read-only; das dort vorhandene GEO-Paar wird durch die neue Anschrift nicht validiert oder ersetzt. Kein GEO ergänzt/geändert; vor Veröffentlichung Koordinaten separat prüfen. Quelle(n): Creditreform-Profil und Betreiberseiten, direkt erneut geprüft 12.10.2026; `docs/trader-seed.md`.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

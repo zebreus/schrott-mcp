@@ -28,6 +28,10 @@ B. Oetjen, Wacholderweg 14, 27404 Zeven, 04281 4722 bleibt ein historischer Verz
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Das Örtliche-Detailprofil „Oetjen Schrott Eisen Metalle B.“ nennt Wacholderweg 14, 27404 Zeven, 04281 4722 und b.oetjen@t-online.de; Cylex/11880 zeigen dieselbe Adresse und Festnetz. Alles sind Branchenverzeichnisse, keine Betreiber-/Registerquelle, daher keine Kontakt-Fills oder Aktivbestätigung. Keine Zahlenpreise für Ankauf, keine Verkaufsliste, keine Gebühren. Geografiehinweis unverändert: Zeven liegt in Niedersachsen; bestehender HB-Pfad/State wird in dieser begrenzten Welle nicht verschoben. Quelle(n): https://www.dasoertliche.de/Themen/Oetjen-Schrott-Eisen-Metalle-B-Zeven-Wacholderweg ; https://web2.cylex.de/firma-home/b--oetjen-6489079.html ; https://www.11880.com/suche/altmaterialhandel/zeven ; https://www.zeven.de/Arbeit-und-Wirtschaft/Standortfaktoren.htm?waid=4]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Evidenzkorrektur zu 02.10.: Öffnungszeitenbuch/Gelbe Seiten/11880/Firmania sind Aggregator-Leads, nicht zwei zulässige unabhängige Betreiberbelege. Früherer 11880-Detailpfad leitet jetzt auf allgemeine Schrott-Kategorie Zeven statt Oetjen-Datensatz; das beweist keine Schließung. Keine lesbare Betreiber-/Register-/Kommunalquelle für B. Oetjen am Wacholderweg gefunden; status aktiv → pruefung, bestehende historische Adresse/Telefon nicht als neu verifiziert bewertet. Website unbekannt, keine Preise oder Öffnungszeiten übernommen.; Lead-Quelle: https://www.11880.com/branchenbuch/zeven/120674719B27324355/b-oetjen-schrott-eisen-metalle.html]

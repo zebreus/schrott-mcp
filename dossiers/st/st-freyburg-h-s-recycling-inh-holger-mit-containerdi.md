@@ -29,6 +29,10 @@ Einziger greifbarer Standortbeleg bleibt ein Verzeichniseintrag für H u. S Recy
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Die direkt aufgerufene Portal-Detailseite liefert weiterhin nur den Lead H u. S. Recycling mit Containerdienst, Am Gewerbepark 24, 06632 Freyburg (Unstrut), Tel. 034464 35656; die Seite sagt selbst, Angebot und Öffnungszeiten seien nicht vollständig erfasst. Keine Betreiber-/Registerquelle zur Identität „Holger …“ gefunden; Standort und Container-/Schrottannahme bleiben unbestätigt, deshalb keine Felder übernommen. ANKAUF — keine Bedingungen/Preise; VERKAUF — keine Liste; GEBÜHREN — keine Tarife. Quelle: https://www.schrottplatz-info.de/schrottplatz/Freyburg-Unstrut/H-u-S-Recycling-Mit-Containerdienst-Inh-Holger- (Aggregator-Lead, Abruf 12.10.2026).]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Die direkt geöffnete Portal-Detailseite bestätigt nur den Lead Am Gewerbepark 24, 06632 Freyburg (Unstrut), Tel. 034464 35656. Sie sagt ausdrücklich, dass Angebot/Leistungsbeschreibung noch nicht erfasst und Öffnungszeiten unvollständig sind; daraus lässt sich weder Schrottankauf noch Containerverfügbarkeit ableiten. Keine Preise für Ankauf, Verkauf oder Gebühren. Betreiberidentität und Anschrift bleiben Einzelbeleg; keine Frontmatter-Änderung oder Geokodierung. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Freyburg-Unstrut/H-u-S-Recycling-Mit-Containerdienst-Inh-Holger- (Portal-Lead; Abruf 06.10.2026).]

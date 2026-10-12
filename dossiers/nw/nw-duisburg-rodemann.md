@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die Duisburger Spur „Ludger Rodemann Schrotthandel“ nennt An der Geis 46, 47228 Duisburg und 02065 56968, ist aber weiterhin nur über Verzeichnisse belegt. Die frühere Rodemann-Domain zeigt keine Betreiberinhalte; ein Zusammenhang mit Raesfeld ist ungeklärt. Bestehende Anschrift/Kontakt daher nicht als neu bestätigt verstehen.
+Für „Ludger Rodemann“ ist inzwischen eine aktuelle Betreiber-Primärquelle auffindbar: Rodemann Recycling GmbH, HRB 23830, Zur Hofweide 5, Raesfeld. Die Website nennt Metallankauf/-verkauf und Abholung per Partner-Spedition, schließt aber private Schrottannahme am eigenen Hof ausdrücklich aus. Sie belegt nicht die Duisburger Spur An der Geis 46 / 02065 56968; die Zuordnung zu Duisburg bleibt offen. **Ankauf/Verkauf:** Geschäftsfelder bestätigt, keine Zahlenpreise; **Gebühren:** keine Liste.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Die aktuelle Betreiberwebsite nennt Rodemann Recycling GmbH, Geschäftsführer Ludger Rodemann, Sitz Zur Hofweide 5, 46348 Raesfeld und HRB 23830; sie bestätigt Metall-Ankauf/-Verkauf, Abholung per Partner-Spedition bis 40 t und ausdrücklich „keine Schrottannahme von Privatpersonen“ mangels eigenem Schrottplatz. NorthData führt die Eintragung/Ausgliederung aus „Schrott- und Metallhandel Ludger Rodemann e.K.“ 2026 in dieselbe Raesfelder GmbH. Das stärkt eine Namensverbindung mit Ludger Rodemann, nicht aber eine Duisburger Zweigstelle oder die Dossiernummer 02065 56968. Betreiberwebsite hat zudem uneinheitliche Telefone (Kontakt/Impressum vs. Kopfzeile); kein Kontakt-Fill. Status pruefung bleibt. Ankauf-/Verkaufspreise werden nur als „faire Konditionen“ beworben, ohne Liste; Gebühren nicht gefunden. Quelle(n): https://www.rodemann-recycling.de/ ; https://www.rodemann-recycling.de/impressum/ ; https://www.rodemann-recycling.de/kontakt/ ; https://www.northdata.de/Rodemann+Recycling+GmbH,+Raesfeld/Amtsgericht+Coesfeld+HRB+23830]
 
 ### Recherche 06.10.2026
 

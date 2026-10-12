@@ -3,10 +3,11 @@ slug: he-frankfurt-65929-cimen
 name: Cimen
 trader_type: schrotthaendler
 state: HE
-city: Frankfurt 65929
+city: Frankfurt
 street: ''
 postcode: ''
-phone: (0179) 4702226
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -50,3 +51,11 @@ Der einzige konkrete Cimen-Schrotthandel-Lead ist weiterhin ein 11880-Eintrag f�
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Erneuter Abruf des 11880-Eintrags bestätigt nur den bestehenden Lead „Cimen Schrotthandel“, Königsteiner Str. 90, 65929 Frankfurt-Unterliederbach, Tel. 0179 4702226; keine neue Betreiber-, Register- oder zweite Verzeichnisquelle. Keine Felder übernommen. ANKAUF: keine veröffentlichten Beträge; VERKAUF: keine Liste; GEBÜHREN: keine Tarife gefunden. Quelle(n): https://www.11880.com/branchenbuch/frankfurt-am-main/060440092B108945313/cimen-schrotthandel.html (Einzelner Branchenverzeichniseintrag)]
+
+### Korrektur/Re-Check 12.10.2026
+
+- [Korrektur/Re-Check 12.10.2026: Direktabruf des 11880-Eintrags zeigt „Cimen Schrotthandel“, Königsteiner Str. 90, 65929 Frankfurt-Unterliederbach, Tel. 0179 4702226. Profilseite nennt „aktualisiert am 03.10.2026“, aber zugleich „Eintragsdaten vom 28.12.2022“; kein Hinweis auf Inhaberbestätigung oder unabhängige Betreiber-/Registerquelle. Telefon daher aus `phone` zurückgenommen; Anschrift bleibt Lead, Status `pruefung`. Ankauf: keine Auszahlung/Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. Quelle(n): https://www.11880.com/branchenbuch/frankfurt-am-main/060440092B108945313/cimen-schrotthandel.html]
+
+### Owner-Gate 12.10.2026
+
+- [Korrektur 12.10.2026: Der read-only-Abgleich bestätigt, dass der frühere, allein aus 11880 stammende Telefonwert 0179 4702226 noch gespeichert ist. `clear_fields: phone` sorgt dafür, dass dieser im Frontmatter zurückgenommene Wert beim nächsten Seed explizit entfernt wird; keine Produktionsdaten geändert. Quelle(n): 11880-Profil in Korrektur/Re-Check 12.10.2026; `docs/trader-seed.md`.]
