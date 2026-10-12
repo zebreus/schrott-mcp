@@ -28,6 +28,10 @@ Der Betreiberauftritt nennt Josef Frauendienst und beschreibt Schrott-/Altmetall
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Aktuelle Leistungsseite direkt abgerufen: Frauendienst wirbt mit Schrott-/Altmetallannahme, An- und Verkauf, Containern und Entrümpelung; Preisangebote nur telefonisch oder per E-Mail individuell. Keine numerischen Ankaufskurse, Verkaufspreise oder Container-/Entsorgungsgebühren ausgewiesen. Impressum wurde in dieser Nachprüfung nicht erneut erfolgreich abgerufen; daher keine neuen Kontakt-/Adressfills. Öffnungszeiten und genaue Annahmebedingungen bleiben offen. Quelle: https://www.frauendienst-recycling.de/Leistungen/ (Abruf 12.10.2026).]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Betreiberwebsite und Impressum direkt geprüft: Josef Frauendienst, Von-Reischach-Str. 5, 78224 Singen, Tel. 0171 8033206, info@frauendienst-recycling.de. Die Leistungsseite nennt Schrott-/Altmetallannahme sowie An- und Verkauf, Containerbereitstellung und Entrümpelung/Haushalts- und Industrieauflösung; Preise nur auf individuelle Anfrage, keine Zahlenliste oder ausgewiesenen Gebühren gefunden. Mangels unabhängigen zweiten Identitätsbelegs keine neuen Frontmatter-Fills; Öffnungszeiten/Annahmebedingungen bleiben offen. Quelle(n): https://www.frauendienst-recycling.de/Leistungen/ ; https://www.frauendienst-recycling.de/Impressum/]

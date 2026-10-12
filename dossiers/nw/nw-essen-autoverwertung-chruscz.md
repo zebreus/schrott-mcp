@@ -30,6 +30,10 @@ Der Zweiquellenstandard ist noch nicht vollständig erfüllt: Creditreform best�
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiber-Impressum und Kontaktseite erneut direkt gelesen. Sie nennen weiterhin Peter Chruscz, Einzelunternehmen, Heegstraße 64, 45356 Essen, 0201 666086 und info@autoverwertung-chruscz.de; Kontaktseite bezeichnet 64 als Büro, Seitenfuß weiter 64–66 als Standort. Die Abweichung bleibt ungeklärt und ist kein belegter Umzug. Leistungsseite bestätigt als Betreiberbehauptung Ankauf von Altmetall/Stahlschrott (u. a. Kupfer, Aluminium, Messing) zu tagesaktuellen Preisen, ohne Zahlenkurse. Kostenlos sind ausdrücklich Fahrzeugabholung und Abmeldung, nicht beliebige Schrottabholung oder Entsorgung. Gebrauchte Ersatzteile werden verkauft, aber ohne Verkaufspreisliste; keine allgemeine Gebührenliste. Zweitbeleg/aktuelle unabhängige Betriebsbestätigung fehlt, deshalb keine Kontakt-/Adress-Fills und Status `pruefung`; keine GEO-Änderung. Quellen: https://www.autoverwertung-chruscz.de/impressum ; https://www.autoverwertung-chruscz.de/kontakt ; https://www.autoverwertung-chruscz.de/leistungen ; https://www.autoverwertung-chruscz.de/ (direkte Abrufe 12.10.2026).]
+
 ### Recherche 08.10.2026 — Feedback #5391
 
 - [Recherche 08.10.2026: Betreiber-Impressum nennt Autoverwertung Chruscz, Inhaber Peter Chruscz, Einzelunternehmen, Heegstraße 64, 45356 Essen, 0201 666086, info@autoverwertung-chruscz.de, USt-ID DE187318676. Kontaktseite bezeichnet Nr. 64 als Büro, Seitenfuß nennt Standort Heegstraße 64-66. Das ist eine ausdrücklich dokumentierte Büro-/Standortvariante, kein belegter Umzug und kein zweiter Betrieb; noch keine strukturierte Anschrift übernommen. Quelle: https://www.autoverwertung-chruscz.de/impressum ; https://www.autoverwertung-chruscz.de/kontakt .]

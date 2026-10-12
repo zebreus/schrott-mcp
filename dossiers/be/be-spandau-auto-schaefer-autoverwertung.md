@@ -28,6 +28,10 @@ Am Juliusturm 33 und 030 35402660 sind bislang durch Verzeichnisse gestützte Ko
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Gelbe Seiten listet Auto Schaefer Autoverwertung, Am Juliusturm 33, 13599 Berlin-Haselhorst, mit Telefonnummer 030 3343005. Das unterscheidet sich von der Seed-Telefonnummer 030 35402660; ein Creditreform-Suchergebnis führt Dieter Schaefer „Auto-Schaefer“ an Am Juliusturm 33–35 und beschreibt Gebrauchtwagen-/Ersatzteilhandel und Autoverwertung. Der direkte Creditreform-Abruf war nicht verfügbar; beide bleiben Verzeichnis-/Indexbelege, kein aktueller Betreiberbeleg. Nummer 33 vs. 33–35 und Telefon bleiben ungeklärt; keine Frontmatter-Änderung oder GEO. ANKAUF: keine Fahrzeug-/Metallpreise gefunden. VERKAUF: keine Gebrauchtwagen-/Teilepreisliste. GEBÜHREN: kein Verwertungs-/Abholtarif. Quellen (Abruf 12.10.2026): https://www.gelbeseiten.de/gsbiz/ec9e6cfc-8909-4e22-a9c0-e5cf5a246346 ; https://firmeneintrag.creditreform.de/13599/2010109630/DIETER_SCHAEFER_AUTO_SCHAEFER (Suchtreffer, Direktabruf nicht verfügbar).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung

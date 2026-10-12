@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData ordnet Klaus Dittrich GmbH & Co. Willy Knobloch KG, HRA 4467, den Registerort Steingäßchen 1, 01855 Sebnitz zu. Branchenverzeichnisse nennen dort zusätzlich Altpapier, Alttextilien, Wellpappe, Buntmetall und Schrott; sie belegen keine aktuelle Annahme oder Ankaufpreise. Ein Verkaufsangebot und Gebühren sind nicht belegt; genaue Hofzufahrt/GEO bleibt ungeprüft.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: NorthData bestätigt die Rechtseinheit Klaus Dittrich GmbH & Co. Willy Knobloch KG (Amtsgericht Dresden HRA 4467) und den Registerort Steingäßchen 1, 01855 Sebnitz; sichtbare Registerpublikationen sind älter und belegen für sich keinen aktuellen Geschäftsbetrieb. Das Örtliche und Gelbe Seiten führen dieselbe Anschrift und Telefonnummer 035971 53667 sowie Altpapier, Alttextilien, Wellpappe, Buntmetall und Schrott als Verzeichnisangaben; diese Portale sind keine unabhängigen Betreiberbelege und bestätigen keine heutige Annahme. Rechtsträger-/Registerort und tatsächliche Anlieferstelle deshalb getrennt; keine GEO-Präzisierung. ANKAUF: nur Materialarten als Verzeichnislead, keine Ankaufssätze. VERKAUF: keine Preisliste gefunden. GEBÜHREN: keine Tarife gefunden. Quellen (Abruf 12.10.2026): https://www.northdata.de/Klaus%20Dittrich%20GmbH%20%26%20Co%C2%B7%20Willy%20Knobloch%20KG,%20Sebnitz/Amtsgericht%20Dresden%20HRA%204467 ; https://www.dasoertliche.de/Themen/Klaus-Dittrich-GmbH-Co-Sebnitz-Steing%C3%A4%C3%9Fchen ; https://www.gelbeseiten.de/gsbiz/da8cc89d-81a0-49d3-b46f-aa23d73d581f.]
 
 ### Recherche 02.10.2026
 

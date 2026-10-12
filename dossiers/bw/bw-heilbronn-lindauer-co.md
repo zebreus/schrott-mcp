@@ -30,6 +30,10 @@ Lindauer & Co. GmbH ist im Register als in Liquidation geführt; Presseberichte 
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: NorthData-Unternehmensprofil erneut geprüft: Lindauer & Co. GmbH, HRB 101912 Stuttgart, weiterhin als in Liquidation ausgewiesen; angezeigte spätere Geschäftsanschrift ist c/o-Anwaltsadresse, kein belegter Annahmeort. Der Direktabruf der TSR-Standortseite lieferte keinen auswertbaren Text; deshalb weder heutige TSR-Adresse noch Betriebsfortführung Lindauer zugeschrieben. Historischer RecyclingToday-Bericht bleibt Beleg nur für den 2018 beschriebenen Erwerb von Teilen des beweglichen Anlagevermögens, nicht einer operativen Fortführung. Frontmatter, Koordinaten und Status geschlossen unverändert; aktuelle Lindauer-Ankaufspreise, Verkaufspreise und Gebühren nicht gefunden. Quellen: https://www.northdata.de/Lindauer%20%26%20Co%C2%B7%20GmbH,%20Heilbronn/Amtsgericht%20Stuttgart%20HRB%20101912 ; https://www.recyclingtoday.com/news/tsr-recycling-scrap-metal-acquisition-lindauer-germany/ ; https://www.tsr-recycling.de/standorte/schrotthaendler-heilbronn/ (letzterer Abruf 12.10.2026 ohne auswertbaren Seitentext).]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Register-Nachprüfung ergänzt die Alt-Recherche: Das erfolgreich abgerufene Northdata-Profil führt Lindauer & Co. GmbH, Heilbronn, Amtsgericht Stuttgart HRB 101912, ausdrücklich in Liquidation. Sichtbar sind Liquidationsereignisse vom 07.09.2018 und 15.08.2024, eine Liquidatorenänderung vom 11.11.2024 und die Geschäftsanschrift vom 13.03.2025. Das Insolvenzverfahren wurde laut sichtbarem Ereignis am 29.06.2023 aufgehoben. In Liquidation ist nicht erloschen und belegt keine aktuelle Schrottannahme. Der alte Hinweis auf das Fehlen in einem Branchen-Registerspiegel darf nicht als handelsregisterliche Löschung verstanden werden; Quelle(n): https://www.northdata.de/Lindauer%20%26%20Co%C2%B7%20GmbH,%20Heilbronn/Amtsgericht%20Stuttgart%20HRB%20101912 , https://www.northdata.de/?id=5299178281107456]

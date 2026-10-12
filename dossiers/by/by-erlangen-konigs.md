@@ -11,7 +11,7 @@ email: ''
 opening_hours: 'Mo-Fr 09:00-17:00, Sa 10:00-14:00'
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: 'Schrotthandel Erlangen-Kriegenbrunn: Stahl-/Eisenschrott (ab 100 kg), NE-Metalle (ab 1 kg), Alu, Elektromotoren; HRA 6851 AG Fuerth'
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-Für Walter Königs Schrott und Metalle Inh. Manfred Königs e. K. ist HRA 6851 beim Amtsgericht Fürth belegt. NorthData führt als Geschäftsanschrift Neuenweiherstr. 6, 91056 Erlangen jedoch nur ein Registerereignis von 2010; eine aktuelle Betreiberseite bzw. aktuelle Bestätigung der Annahme fehlt. Die Öffnungszeiten, Telefon- und Annahmeangaben im Seed stammen aus Verzeichnissen und sind keine aktuellen Betreiberangaben. **Ankauf:** keine numerischen Kurse gefunden; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Offen bleiben aktuelle Betriebsstelle, Öffnungszeiten und Material-/Mindestmengen.
+Für Walter Königs Schrott und Metalle Inh. Manfred Königs e. K. ist HRA 6851 beim Amtsgericht Fürth belegt. NorthData führt als Geschäftsanschrift Neuenweiherstr. 6, 91056 Erlangen jedoch nur ein Registerereignis von 2010; eine aktuelle Betreiberseite bzw. aktuelle Bestätigung der Annahme fehlt. Die Öffnungszeiten, Telefon- und Annahmeangaben im Seed stammen aus Verzeichnissen und sind keine aktuellen Betreiberangaben. Status `pruefung` bedeutet hier fehlende Bestätigung des aktuellen Betriebs/Annahmeorts, nicht belegte Schließung. **Ankauf:** keine numerischen Kurse gefunden; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Offen bleiben aktuelle Betriebsstelle, Öffnungszeiten und Material-/Mindestmengen.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Aktuellen Suchstand zum exakten Firmennamen erneut geprüft: das NorthData-Profil führt HRA 6851, aber die konkrete Anschrift Neuenweiherstr. 6 beruht weiterhin auf einem Registerereignis vom 22.09.2010; die Bing-Suche nach exaktem Firmennamen plus Erlangen lieferte auf der ersten Ergebnisseite keine passende aktuelle Betreiberseite. Suchtreffer sind keine Register- oder Aktivitätsbelege. Daher Status `aktiv` → `pruefung`; das ist kein Schließungsbeleg. Telefon, Öffnungszeiten, Mindestmengen und heutige Kundenannahme bleiben unbestätigte Verzeichnisangaben; keine Geokodierung. Ankauf: keine numerische Liste; Verkauf: keine Preisliste; Gebühren: keine Tarife. Quelle(n): https://www.northdata.de/Walter%20K%C3%B6nigs%20Schrott%20und%20Metalle%20Inh.%20Manfred%20K%C3%B6nigs%20e.%20K.,%20Erlangen/Amtsgericht%20F%C3%BCrth%20HRA%206851 ; https://www.bing.com/search?q=%22Walter+K%C3%B6nigs+Schrott+und+Metalle%22+Erlangen]
 
 ### Recherche 08.10.2026
 

@@ -34,6 +34,10 @@ Aktiver Ankauf, Anlieferung/Abholung, Materialien und Zeiten sind nicht unabhän
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Das Örtliche führt weiterhin „Stiefel Karl SchrottHdl.“ am Hofwiesenweg 6, 73575 Leinzell, 07175 8706, Produktgruppe Altmetalle. Das bleibt ein Verzeichnis-Lead; kein neuer Beleg verbindet Karl mit Helmut/Sonja oder bestätigt aktuelle Annahme. Die Gemeindequelle aus 2026 bezieht sich weiterhin ausdrücklich auf Helmut am Hofwiesenweg 6/1 und wird nicht übertragen. Keine Koordinate. Ankauf — keine Rate; Verkauf — keine Preise; Gebühren — keine Angaben. Quellen: https://www.dasoertliche.de/Themen/Stiefel-Karl-SchrottHdl-Leinzell-Hofwiesenweg ; https://www.leinzell.de/de/wirtschaft/firmen (Abruf 12.10.2026).]
+
 ### Recherche 05.10.2026
 
 - [Korrektur 05.10.2026: Namens-/Adresslage zweiseitig nachgeprüft: Das Örtliche führt Karl am Hofwiesenweg6 mit 07175 8706 und Helmut/Sonja separat an6/1 mit 07175 909313. Gemeinde-Datensatz über Cross-7 (id42696056, erstellt/geändert 24.03.2026) bestätigt nur Helmut Stiefel, Schrottentsorgung, Hofwiesenweg6/1, 73575 Leinzell, Fax909315, helmut-stiefel@t-online.de. Diese Werte ausdrücklich NICHT Karl übertragen. Früheres description-Postulat gemeinsamer Familienbetrieb/gleiche Adresse ersetzt; status aktiv→pruefung, weil Karl bislang ohne zulässigen unabhängigen Betreiber-/Registerbeleg bleibt. Bestandsadresse/Telefon nicht entfernt, als Leads gekennzeichnet. Keine belegte Schließung, keine Preise; Quelle(n): https://www.dasoertliche.de/Themen/Stiefel-Karl-SchrottHdl-Leinzell-Hofwiesenweg ; https://www.dasoertliche.de/Themen/Stiefel-Helmut-Sonja-Schrott-und-Metallhandel-Leinzell-Hofwiesenweg ; https://www.leinzell.de/de/wirtschaft/firmen ; https://api.cross-7.de/public/geo/4123/objects/42696056]

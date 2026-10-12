@@ -28,6 +28,10 @@ Die Betreiber-Website und das Impressum belegen Uhlmann & Finke GmbH, HRB 12446 
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Die aktuelle Betreiber-Startseite nennt unter „Handel“ Ankauf von Buntmetall und Schrott sowie Verkauf von Sand, Splitt, Schotter und Erde (letztere nach Absprache). Das Impressum nennt Uhlmann und Finke GmbH, HRB 12446, Am Gewerbegebiet 2b, 09661 Hainichen; es bestätigt den Rechtsträger-/Bürostandort, nicht die genaue Anlieferzufahrt. Die separat verlinkte ältere Route `/index.php/handel/` lieferte 404; die Inhalte stehen aktuell auf der Startseite. ANKAUF: Materialarten belegt, aber keine numerischen €/kg-Sätze. VERKAUF: Schüttgutangebot belegt, aber keine numerischen Produktpreise. GEBÜHREN: keine veröffentlichten Container-/Entsorgungstarife auf den geprüften Seiten. Keine Koordinaten oder ungesicherte Hofzufahrt ergänzt. Quellen (Abruf 12.10.2026): https://uhlmann-finke.de/ ; https://uhlmann-finke.de/index.php/impressum/ ; https://uhlmann-finke.de/index.php/handel/.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Lagern/Behandeln

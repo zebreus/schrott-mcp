@@ -28,6 +28,10 @@ FReSiTec (HRB 31259 Chemnitz) ist kein aktuell nachgewiesener Schrottannahmebetr
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: NorthData führt FReSiTec Freiberger Recycling und Silicium Technologie GmbH, HRB 31259, als am 22.03.2019 durch Verschmelzung erloschen; Geschäftsgegenstand war unter anderem Metall-/Siliciumrecycling. Die aktuelle LuxChemtech-Seite/impressum weist eine eigene LuxChemtech GmbH (HRB 32907), Alfred-Lange-Straße 18, 09599 Freiberg aus und beschreibt Silicium-/Photovoltaik-/Halbleiterwerkstoffe. Gleiche Stadt/Branchenbezug belegen keine Rechtsnachfolge oder Übernahme des alten Schrotthändlers; Adresse, Telefon und GEO daher nicht übertragen. ANKAUF: keine aktuelle FReSiTec-Preisliste. VERKAUF: keine zuordenbare Materialpreisliste. GEBÜHREN: keine gefunden. Quellen (Abruf 12.10.2026): https://www.northdata.de/FReSiTec%20Freiberger%20Recycling%20und%20Silicium%20Technologie%20GmbH,%20Freiberg/Amtsgericht%20Chemnitz%20HRB%2031259 ; https://lc-freiberg.de/impressum/ ; https://lc-freiberg.de/produkte-und-leistungen/ ; https://lc-freiberg.de/ueber-uns/.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling (Sparte unbelegt)

@@ -28,6 +28,10 @@ Klärfall: nur übereinstimmende Branchenverzeichnis-Leads für Am Lindenwäldle
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Aktuelle direkte Verzeichnisabrufe stimmen weiter auf Reinhardt Ludwig Schrott- und Metallrecycling, Am Lindenwäldle 24, 79114 Freiburg-Haslach, Tel. 0761 471321 überein. Beide bleiben Branchenverzeichnisse ohne nachgewiesene Datenunabhängigkeit; es wurde keine zugehörige Betreiber-/Registerquelle gefunden. Ähnlich benannte Reinhardt-/DeRo-Recycling-Websites in Freiburg sind nicht automatisch dieselbe Identität und werden nicht zusammengeführt. Keine Frontmatter-Fills/Koordinate; Ankauf, Verkauf und Gebühren ohne aktuelle Zahlenliste. Quellen (Leads): https://www.dasoertliche.de/Themen/Reinhardt-Ludwig-Schrott-und-Metallrecycling-Freiburg-im-Breisgau-Haslach-Am-Lindenw%C3%A4ldle ; https://www.gelbeseiten.de/gsbiz/76743943-de76-4d0f-9ca4-c924a8d29b69 (Abruf 12.10.2026).]
+
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Note/Blocker statt Kontakt-Fill: vollständig gelesener Örtliche-Eintrag nennt Reinhardt Ludwig Schrott- und Metallrecycling, Am Lindenwäldle 24, 79114 Freiburg-Haslach, 0761 471321; 11880-Suchtreffer kongruent, beides nur Verzeichnis-Leads mit unbekannter Datenunabhängigkeit. Keine zuordenbare Betreiberseite oder Register-Primärquelle gefunden; Berliner/Ulmer Reinhardt-Betriebe nicht übernommen. status pruefung statt unbestätigtem aktiv, website_status unbekannt; Adresse/Telefon/Website bleiben leer, keine Geocodierung. Suchmiss kein Nichtexistenzbeweis; Quelle(n): https://www.dasoertliche.de/Themen/Reinhardt-Ludwig-Schrott-und-Metallrecycling-Freiburg-im-Breisgau-Haslach-Am-Lindenw%C3%A4ldle ; https://www.11880.com/suche/schrotthandel/freiburg]

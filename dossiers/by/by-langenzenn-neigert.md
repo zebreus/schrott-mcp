@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt die Alexander Neigert Schrott- und Metallhandel GmbH, HRB 9379 AG Fürth, Sitz Langenzenn und den Unternehmensgegenstand Handel mit Schrott- und Metallwaren. Die konkrete Adresse Mecklenburger Str. 47 erscheint in einem älteren Registerereignis und Verzeichnis-Leads, ist aber nicht als heutige Kundenannahme bestätigt; ein aktueller Betreiberauftritt oder aktuelle Öffnungszeiten wurden nicht gefunden. Status `pruefung`. **Ankauf:** keine numerischen Kurse oder bestätigten Annahmebedingungen; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Adresse, Betriebsaktivität und GEO bleiben offen.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Registerprofil NorthData und Namenssuche erneut geprüft: Rechtsname/HRB 9379 und Tätigkeit Handel mit Schrott- und Metallwaren bleiben registerlich belegt; die Mecklenburger Str. 47 ist weiterhin nur einem älteren Registerereignis/Verzeichnis-Leads zuzuordnen. Die exakte Bing-Suche nach Alexander Neigert und Langenzenn erbrachte keine passende aktuelle Betreiberseite; Suchresultate sind kein Negativbeweis. Keine aktuelle Anschrift, Telefonnummer, Öffnungszeit oder Kundenannahme bestätigt; Status `pruefung`, kein GEO ergänzt. Ankauf/Verkauf/Gebühren: keine Preislisten. Quelle(n): https://www.northdata.de/Alexander%20Neigert%20Schrott-%20und%20Metallhandel%20GmbH,%20Langenzenn/Amtsgericht%20F%C3%BCrth%20HRB%209379 ; https://www.bing.com/search?q=%22Alexander+Neigert+Schrott-%22+Langenzenn]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

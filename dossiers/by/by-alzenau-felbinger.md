@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Betreiberwebsite und ihr Impressum ordnen die Felbinger GmbH dem Standort Dieselstraße 71, Gewerbegebiet Süd, 63165 Mühlheim am Main (HRB 6821 AG Offenbach) zu. Die Seite belegt keinen Standort in Alzenau und keine Identitätsbrücke zu diesem Seed; gleichnamige Firma und Alzenauer Lead dürfen nicht zusammengeführt werden. Keine Frontmatter-Felder oder GEO ergänzt. **Ankauf:** Selbstanlieferung von Metallen am Mühlheimer Wertstoffhof wird beschrieben, aber keine Ankaufskurse; dies ist kein Beleg für den Alzenau-Datensatz. **Verkauf:** Baustoffe/Schüttgüter werden angeboten, ohne Zahlenpreisliste. **Gebühren:** keine Tarifliste für den Alzenauer Lead.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiberhomepage und Impressum der Felbinger GmbH direkt abgerufen. Die Betreiberquelle nennt Dieselstraße 71, 63165 Mühlheim am Main, HRB 6821 AG Offenbach, Andreas Felbinger, Metallannahme am Mühlheimer Wertstoffhof und Entsorgungsgebiet Offenbach/Mühlheim samt Umgebung; kein Alzenauer Standort oder Alzenau-Bezug. Nicht als Beweis für Nichtexistenz eines anderen Felbinger-Betriebs werten, aber keine Identitäts-/Standortbrücke gefunden. Keine Felder übertragen, kein GEO. Ankauf — Annahme von Metallen am Mühlheimer Standort beschrieben, keine Zahlenkurse; Verkauf — Baustoffe/Schüttgüter ohne Zahlenpreise; Gebühren — keine Liste. Quellen: https://www.felbinger.de/ ; https://www.felbinger.de/impressum (direkte Abrufe 12.10.2026; belegt Mühlheim, nicht Alzenau).]
 
 ### Recherche 04.10.2026
 

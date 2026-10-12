@@ -3,7 +3,7 @@ slug: bw-kabelstr-metallrecycling-muller
 name: Metallrecycling Müller
 trader_type: metallhaendler
 state: BW
-city: Kabelstr.
+city: unbekannt
 street: ''
 postcode: ''
 phone: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 **Seed-Ortsfehler ungeklärt:** „Kabelstr.“ ist eine Straßenabkürzung, kein gesicherter Ort. Ohne Stadt, Hausnummer, PLZ und Rechtsnamen lässt sich Metallrecycling Müller keinem Betreiber belastbar zuordnen. NorthData findet u. a. Metallrecycling-Müller GmbH & Co. KG in Nobitz (Thüringen, HRA 501562, als erloschen gekennzeichnet); das ist kein Beleg für diesen BW-Eintrag. Weder Nobitz noch Müller-Betriebe in NRW übernehmen. **Ankauf / Verkauf / Gebühren:** keine identitätsgesicherten Zahlen. Vorrangig Originalimport/ursprüngliche Quelle auf vollständige Adresse rückverfolgen; keine Geokodierung mit „Kabelstr.“ als Stadt.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute exakte Namens-/Straßensuche nach „Metallrecycling Müller“ und „Kabelstr.“ ergab keinen zuordenbaren BW-Betrieb. Der einzige dokumentierte Register-Aggregator-Kandidat bleibt Metallrecycling-Müller GmbH & Co. KG in Nobitz (Thüringen), ausdrücklich kein Identitätsbeleg. Pseudo-Ortswert `Kabelstr.` aus dem aktuellen city-Feld entfernt; als ungeklärter Importtext in der folgenden Importhistorie erhalten. street, PLZ, Kontakt und GEO bleiben leer; keine Ankaufspreise, Verkaufspreise oder Gebühren identitätsgesichert. Quelle für den nicht passenden Kandidaten: https://www.northdata.de/?query=Metallrecycling%20M%C3%BCller (Abruf 12.10.2026); exakte Websuche ohne neuen belastbaren Treffer.]
 
 ### Recherche 08.10.2026
 

@@ -28,6 +28,10 @@ Der behauptete Auerbacher Schrott-/Containerbetrieb bleibt ohne gesicherte Betre
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Die heute geprüften Branchen-/Containerportale widersprechen sich beim Danny-Seidel-Datensatz: meinestadt nennt Dr.-Wilhelm-Külz-Str. 13, 08209 Auerbach; Infobel und containerdienst-portal listen Robert-Blum-Straße 28, 08209 Auerbach. Cylex führt einen ähnlich benannten „Containerdienst Seidel“ an der Robert-Blum-Straße ohne gesicherte Verknüpfung zum Danny-Seidel-Dossier. Die Portale sind Leads und kein Betreiber-/Registerbeleg; keine Adresse, Telefonnummer oder Materialannahme übernommen. Identität, Standort und eventuelle Namensgleichheit offen; keine GEO-Änderung. ANKAUF: keine verifizierte Material- oder Ankaufspreisliste. VERKAUF: keine Materialpreise. GEBÜHREN: kein Seidel-Tarif belegt; regionale Containerportal-Treffer sind keine Seidel-Preisliste. Quellen (Abruf 12.10.2026): https://branchenbuch.meinestadt.de/auerbach-vogtland/company/500257277 ; https://www.infobel.com/de/germany/schrott_containerdienst_danny_seidel/auerbach/DE110604564/businessdetails.aspx ; https://www.containerdienst-portal.de/containerdienst/auerbach-vogtland/ ; https://web2.cylex.de/firma-home/containerdienst-seidel-7823333.html.]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Register-Namensvetterprüfung: NorthData-Suche „Danny Seidel“ zeigt Danny Seidel in Assen/Niederlande, Danny Sven Seidel in Doberschau-Gaußig (Agrargenossenschaften) und Danny Seidel in Falkensee (Noplees!/autarKnow). Kein lokaler Auerbacher Schrottbezug im auslesbaren ersten Ergebnisblock; keine Person/Adresse übertragen. Das ist kein vollständiger Register-Negativbeweis, und Einzelgewerbe können fehlen. Betreiber-Suche zusätzlich durch Brave429 begrenzt. Frontmatter pruefung/leer erhalten; Owner: örtliche Gewerbeidentität und Ursprung der Portal-Materialliste klären. Keine Ankauf-/Verkaufs-/Gebührenlisten; Quelle: https://www.northdata.de/?query=Danny%20Seidel.]

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -35,6 +35,10 @@ Die bisher auffindbaren Rainer-Pfeifer-Schrotthandel-Leads liegen in Würzburg-V
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: ORTS-KLÄRFALL — kein Wertheim-Beleg: Gelbe Seiten (schrott/wertheim, pfeifer/wertheim) ohne Treffer; 11880 listet ZWEI Pfeifer-Schrotthändler in Würzburg-Versbach (Rainer Pfeifer Schrotthandel, Brunnfloßgasse 12, 97078 Würzburg, 0171 4457209, inhaberbestätigt; Schrott-/Metallhandel J. Pfeifer, Lengfelder Str. 38, 97078 Würzburg, 0931 286304) — mögliche Seed-Fehlzuordnung Wertheim→Würzburg, aber ohne Beleg keine Umschreibung; Frontmatter bleibt leer; Quelle(n): https://www.gelbeseiten.de/suche/schrott/wertheim , https://www.11880.com/suche/pfeifer-schrotthandel/wertheim]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute exakte Suche lieferte weiterhin keinen prüfbaren Wertheim-Beleg; die bereits einzeln geprüften Rainer-Pfeifer-Verzeichniseinträge zeigen nach Würzburg-Versbach und bleiben Aggregator-Leads ohne Verbindung zu diesem Seed. Der unbelegte Importstatus aktiv auf pruefung gesetzt; Stadt Wertheim weder nach Würzburg verschoben noch geokodiert. Keine dem Ziel zuordenbaren Ankaufspreise, Verkaufspreise oder Gebühren. Quellen der weiterhin nicht zuordenbaren Leads: https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c ; https://www.schrottplatz.org/wuerzburg/rainer-pfeifer-schrotthandel-aXRelr.html (Abruf/Statusprüfung 12.10.2026).]
 
 ### Recherche 06.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberseite nennt Karsten Hänsel, Hauptstraße 45, OT Ehrenberg, 01848 Hohnstein, und beschreibt Altfahrzeug-/Unfallwagenverwertung sowie Verkauf von Neu- und Gebrauchtteilen. Es gibt nur einen Betreiberbeleg ohne unabhängige Rechtsträger-/Standortbestätigung. Fahrzeugankauf wird individuell angeboten, aber ohne Zahlen; Teilepreise und Abhol-/Entsorgungsgebühren sind nicht veröffentlicht.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Die Betreiberseite und ihr Impressum nennen Karsten Hänsel, Hauptstraße 45, OT Ehrenberg, 01848 Hohnstein, Telefon 035975 8498 0 und 0171 7359685. Die Leistungsseite beschreibt die Behandlung von Altfahrzeugen/Unfallfahrzeugen, den An- und Verkauf von Unfallwagen, Neu-/Gebrauchtteile und Reifen; für ein Fahrzeug wird ein individuelles Ankaufangebot angekündigt. Das ist ein aktueller Betreiber-Einzelbeleg, aber weder unabhängiger Rechtsträger-/Filialbeleg noch numerische Preisliste. ANKAUF: keine festen Fahrzeug- oder Teile-Ankaufpreise; Fahrzeugangebot nur individuell. VERKAUF: keine Teile-/Reifenpreisliste. GEBÜHREN: keine belegten Abhol-, Verwertungs- oder Entsorgungstarife; „Abholung angeboten“ bedeutet nicht kostenlos. GEO bleibt ohne geprüften Annahmepunkt. Quellen (Abruf 12.10.2026): https://www.autoteile-haensel.de/autoverwertung.html?modules=content&cid=5 ; https://www.autoteile-haensel.de/impressum.html.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

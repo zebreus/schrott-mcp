@@ -30,6 +30,10 @@ Die Betreiberseite beschreibt Metallverwertung Lars Appelt als familiengeführte
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Die Betreiberseite nennt Cotta B 16H, 01796 Dohma, Festnetz 03501 755844 und Mobil 0172 9785409; sie beschreibt Buntmetall-/Eisenschrottankauf für private und gewerbliche Kunden sowie Container von 7–32 m³. „Ab 1 Tonne Tonnage kostenfrei“ bezieht sich auf die Containerstellung laut Betreiberseite und ist weder Ankaufkurs noch allgemeine Gebührenfreiheit. Ein Creditreform-Suchergebnis zeigt dieselbe Anschrift, der direkte Abruf war gesperrt; ältere Verzeichnisangabe Leite 0/Pirna bleibt als Konflikt im Dossier stehen. Keine Straßen-/GEO-Korrektur aus einem einzelnen Betreiberbeleg. ANKAUF: Materialarten bestätigt, keine €/kg-Preise. VERKAUF: keine Materialverkaufspreise. GEBÜHREN: kein allgemeiner Container-/Entsorgungstarif; nur die bedingte Containerstellung ab 1 t als Betreiberangabe. Quelle (Abruf 12.10.2026): https://www.mv-larsappelt.de/ ; https://firmeneintrag.creditreform.de/01796/3070527134/LARS_APPELT_METALLVERWERTUNG (Suchtreffer; Direktabruf 403).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Buntmetalle, Eisenschrott, Container 7–32 m³

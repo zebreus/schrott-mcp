@@ -28,6 +28,10 @@ Dog Water Autoverwertung bleibt ein unbestätigter Verzeichnisbestand in Berlin-
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Gelbe Seiten führt „Dog Water (kein Ersatzteilverkauf) Autoverwertung“, Schönerlinder Str. 29, 13127 Berlin, Tel. 0800 3649283; Das Örtliche listet dieselbe Adresse, aber abweichend 0175 7556515. Beides sind Branchenverzeichnis-Leads, kein Betreiberbeleg. GADSYS erläutert das offizielle Altfahrzeug-Fachbetrieberegister; die verlinkte Suchanwendung wurde nicht für einen namentlichen Dog-Water-Datensatz ausgewertet, daher weder Anerkennung noch Nichteintrag behauptet. Identität/Inhaber, aktive Annahmestelle und richtige Telefonnummer bleiben offen; keine GEO-Änderung. ANKAUF: keine Fahrzeugankaufpreise belegt. VERKAUF: keine Teilepreise; ein Verzeichnis behauptet „kein Ersatzteilverkauf“, nicht als Betreiberangabe übernommen. GEBÜHREN: keine Abhol-/Verwertungstarife gefunden. Quellen (Abruf 12.10.2026): https://www.gelbeseiten.de/gsbiz/adefd6c3-d1a5-4971-b2e1-94c21ffe39b8 ; https://www.dasoertliche.de/Themen/Dog-Water-kein-Ersatzteilverkauf-Autoverwertung-Berlin-Franz%C3%B6sisch-Buchholz-Sch%C3%B6nerlinder-Str ; https://www.gadsys.de/altfahrzeug-verordnung/fachbetrieberegister-demontagebetriebe-schredderanlagen ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung.]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Gelbe-Seiten-Detaileintrag vollständig gelesen: Dog Water Autoverwertung, Schönerlinder Str. 29, 13127 Berlin-Französisch Buchholz, 0800 3649283. Verzeichniszusatz „kein Ersatzteilverkauf“ nicht als aktuelle Betreiberregel übernommen; Website-Steuerelement liefert keine identifizierbare Domain. Cylex-Detail 403, anderslautende/teilweise Mobilnummer im Suchindex nur konfliktbehafteter Lead, keine Telefonersetzung. Keine zulässige aktuelle Betreiberquelle oder anerkannte Altfahrzeug-Zertifizierung gefunden.; Lead-Quelle(n): https://www.gelbeseiten.de/gsbiz/adefd6c3-d1a5-4971-b2e1-94c21ffe39b8]

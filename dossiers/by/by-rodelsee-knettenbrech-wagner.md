@@ -30,6 +30,10 @@ Kein belegter Rechtsnachfolge-/Übertragungsbeleg zwischen der Wagner-GmbH und d
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiber-Standortseite „Würzburg/Kitzingen“ und NorthData-Einträge erneut abgeglichen. Die aktuelle KNETTENBRECH + GURDULIC Franken GmbH & Co. KG betreibt einen Schrott-/Metallstandort Am Gries 1, 97348 Rödelsee; die frühere Knettenbrech + Wagner Metallhandel GmbH (HRB 14093) ist laut Registerspiegel erloschen. Kein Verschmelzungs-, Übertragungs- oder sonstiger Rechtsnachfolgebeleg verbindet beide Rechtsträger. KG-Kontakt/Öffnungszeiten bleiben daher vom alten Wagner-Slug getrennt; Status `pruefung`, keine Koordinaten ergänzt. Für den aktuellen KG-Standort keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren für den alten Slug gefunden. Quelle(n): https://www.knettenbrech-gurdulic.de/unternehmen/standorte/wuerzburg-/-kitzingen ; https://www.knettenbrech-gurdulic.de/unternehmen/standorte ; https://www.northdata.de/Knettenbrech%20+%20Wagner%20Metallhandel%20GmbH,%20R%C3%B6delsee/Amtsgericht%20W%C3%BCrzburg%20HRB%2014093 ; https://www.northdata.de/Knettenbrech+%2B+Gurdulic+Franken+GmbH+%26+Co.+KG,+R%C3%B6delsee/Amtsgericht+W%C3%BCrzburg+HRA+7455]
+
 ### Recherche 08.10.2026
 
 - [Korrektur 08.10.2026: Bisheriger Übersichts-Negativbefund zu Rödelsee widerlegt: Betreiber-Detailseite Würzburg/Kitzingen nennt ausdrücklich Rödelsee-Fröhstockheim, KNETTENBRECH + GURDULIC Franken GmbH & Co. KG, Am Gries 1, 97348 Rödelsee, +49 9323/938700, info-KT@knettenbrech-gurdulic.de; allgemeine Zeiten Mo-Fr 07:00-17:00, Metallhandel getrennt Mo-Do 07:00-15:30/Fr 07:00-14:00. Leistungsangebot Schrott/Altmetall, Containerdienst sowie Privat-/Handels-/Industriekunden. Northdata HRA 7455 bestätigt KG und Am Gries 1. Diese Daten belegen einen realen aktuellen Platz, nicht automatisch den Wagner-Slug; Quelle: https://www.knettenbrech-gurdulic.de/unternehmen/standorte/wuerzburg-/-kitzingen ; https://www.northdata.de/Knettenbrech+%2B+Gurdulic+Franken+GmbH+%26+Co.+KG,+R%C3%B6delsee/Amtsgericht+W%C3%BCrzburg+HRA+7455 .]

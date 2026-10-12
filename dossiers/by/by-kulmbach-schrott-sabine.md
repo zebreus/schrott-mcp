@@ -44,3 +44,7 @@ Das Örtliche und Gelbe Seiten stimmen beim Verzeichniseintrag „Schrott Sabine
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Beide bekannten Verzeichnisse direkt geprüft; Das Örtliche und Gelbe Seiten führen weiterhin dieselbe Adresse und Telefonnummer. Das Örtliche zeigt keine Bewertungen; beide Seiten geben keine Öffnungszeiten/Annahme- oder Preisbedingungen an. Kein Primärbeleg für Rechtsträger, aktuelle Tätigkeit oder Betreiberidentität; keine Frontmatter-Änderung. Ankauf, Verkauf und Gebühren bleiben preislich unbelegt. Quelle(n): https://www.dasoertliche.de/Themen/Schrott-Sabine-Kulmbach-Obere-Buchgasse ; https://www.gelbeseiten.de/gsbiz/3868fc2b-bf57-45ee-9266-3a728fe6fdfd]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Beide Profile direkt erneut abgerufen. Das Örtliche und Gelbe Seiten wiederholen „Schrott Sabine“, Obere Buchgasse 11, 95326 Kulmbach, 09221 83256; Das Örtliche zeigt keine Bewertungen. Es fehlen weiterhin Betreiber-Impressum/Register, Öffnungszeiten, konkrete Annahmebedingungen und eine unabhängige Bestätigung aktueller Tätigkeit. Die doppelten Portale sind Verzeichnis-Leads, kein zweiter qualifizierter Beleg. Frontmatter und `status: pruefung` unverändert, keine GEO-Änderung. Ankauf/Verkauf/Gebühren: keine veröffentlichten Preise. Quellen: https://www.dasoertliche.de/Themen/Schrott-Sabine-Kulmbach-Obere-Buchgasse ; https://www.gelbeseiten.de/gsbiz/3868fc2b-bf57-45ee-9266-3a728fe6fdfd (direkte Abrufe 12.10.2026).]

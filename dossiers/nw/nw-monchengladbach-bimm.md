@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Die 11880-Zeile führt „Schrotthandel Bimm“ an Hohe Str. 10, 41179 Rheindahlen und eine Mobilnummer, aber die Stammdaten stammen laut Profil vom 26.07.2021; der 03.10.2026-Stempel ist nur eine Portalaktualisierung. Kein Betreiber-Impressum/Register oder aktuelle Aktivitätsbestätigung. Status `pruefung`; keine Schließungsbehauptung. **Ankauf:** nicht verifiziert, keine Zahlenpreise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
+Die 11880-Zeile führt „Schrotthandel Bimm“ an Hohe Str. 10, 41179 Rheindahlen und eine Mobilnummer, aber die Stammdaten stammen laut Profil vom 26.07.2021; der 03.10.2026-Stempel ist nur eine Portalaktualisierung. Kein Betreiber-Impressum/Register oder aktuelle Aktivitätsbestätigung. Status `pruefung`; keine Schließungsbehauptung. **Ankauf:** nicht verifiziert, keine Zahlenpreise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. **GEO:** kein verifizierter Kundenstandort, keine neue Geokodierung und keine Koordinatenänderung.
 
 ## Timeline
 

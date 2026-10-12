@@ -3,9 +3,9 @@ slug: bw-tauberbischofsheim-distelhau-griesbaum-roland-schrotthandel
 name: Griesbaum Roland Schrotthandel
 trader_type: schrotthaendler
 state: BW
-city: Tauberbischofsheim-Distelhausen 97941
-street: Bundesstr. 13
-postcode: ''
+city: Tauberbischofsheim-Distelhausen
+street: ''
+postcode: '97941'
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt identifiziert Roland Griesbaum / Griesbaum Schrotthandlung mit Sitz in **Römerstraße 26a, 97944 Boxberg/Unterschüpf** und nennt Tauberbischofsheim als Einsatzgebiet für Abholung/Container, nicht als feste Niederlassung. Der überlieferte Lead „Bundesstr. 13, Distelhausen“ ist nicht belastbar Roland zugeordnet; daher wurde die Straße aus dem Frontmatter entfernt. Der unveränderte Slug/Datensatz bleibt ein Identitätsklärfall und wird nicht mit dem Boxberger Betrieb oder einem anderen Griesbaum zusammengeführt.
+
+**Preise:** Ankauf — keine numerischen Schrottankaufspreise veröffentlicht. Verkauf — keine Materialverkaufspreise gefunden. Gebühren — Betreiber bewirbt einen kostenfreien Containerdienst für Metalle; Bedingungen, Entfernung und mögliche Ausnahmen sind nicht beziffert, daher nur als Betreiberangabe, nicht als allgemein garantierter Nulltarif.
 
 ## Timeline
 
@@ -33,6 +35,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott — mögl. Familienzweig
 - urspr. Website-Angabe: keine
 - Adresse: Tauberbischofsheim-Distelhausen 97941, Bundesstr. 13
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiber-Homepage und Impressum erneut direkt geprüft: Roland Griesbaum / Griesbaum Schrotthandlung, Römerstraße 26a, 97944 Boxberg/Unterschüpf; Einsatzgebiet Main-Tauber mit Tauberbischofsheim, aber kein Beleg einer festen Niederlassung Bundesstr. 13 in Distelhausen. Der bisherige Bundesstr.-Lead bleibt dem Namensvetter/Betreiber unklar zugeordnet; Straße im Frontmatter geleert, PLZ 97941 als kommunaler Ortsbezug getrennt, keine Betreiberadresse/Kontakte übertragen und keine Koordinate gesetzt. Betreiber wirbt mit kostenlosem Containerdienst für Metalle, ohne Zahlen zu Ankauf oder Materialverkauf und ohne klare Ausnahme-/Entfernungsbedingungen. Quellen: https://griesbaum-schrott.de/ ; https://griesbaum-schrott.de/impressum/ ; https://griesbaum-schrott.de/kontakt/ ; https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/h-griesbaum-autoverwertung-und-abschleppdienst-tauberbischofsheim-71614357.html (Abruf 12.10.2026).]
 
 ### Recherche 03.10.2026
 

@@ -3,7 +3,7 @@ slug: bw-mosbach-neckarelz-74821-container-wagner-uwe-entsorgungsbetrieb
 name: Container Wagner Uwe / Entsorgungsbetrieb
 trader_type: containerdienst
 state: BW
-city: Mosbach-Neckarelz 74821
+city: Mosbach-Neckarelz
 street: Bahnhofstr. 8
 postcode: 74821
 phone: 06261 62293
@@ -34,6 +34,10 @@ Der Betreiberauftritt firmiert als **Firma Wagner**, vertreten durch Annegret Wa
 
 - [Recherche 06.10.2026: Betreiber-Impressum nennt „Firma Wagner“, vertreten durch Annegret Wagner, Fasanenweg 2, 74842 Billigheim; separat wird Lager Bahnhofstr. 8/3, 74821 Mosbach-Neckarelz mit Tel. 06261/62293 geführt. Die Website nennt Containergrößen (Abroll 10–40 m³, Absetz 5–12 m³) sowie Anlieferung am Wertstoffhof Mo-Fr 09:00–16:00, verknüpft den Hof aber nicht eindeutig mit dem Neckarelzer Lager. Abweichung zur Seed-Bezeichnung „Uwe“ und die Rolle der beiden Anschriften offen; bestehende Frontmatter-Angaben unverändert, kein zusätzlicher Fill. Geocoding erst nach Klärung, ob Bahnhofstr. 8/3 die öffentlich zugängliche Annahmestelle ist. Quelle(n): https://www.schrott-wagner.de/impressum.html ; https://www.schrott-wagner.de/ ; https://www.schrott-wagner.de/container.html]
 - [Recherche 06.10.2026: Preise getrennt: ANKAUF – kein bezifferter Schrott-/Metallpreis gefunden. VERKAUF – keine öffentliche Materialpreisliste. GEBÜHREN – Containerangebot/-größen sind genannt, aber keine Miet-, Transport- oder Entsorgungssätze; individuelle Tarife ungeklärt. Quelle(n): https://www.schrott-wagner.de/ ; https://www.schrott-wagner.de/container.html]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiber-Impressum, Container- und Leistungsseiten erneut geprüft. Die Betreiberseite unterscheidet Fasanenweg 2, 74842 Billigheim (Firma Wagner, vertreten durch Annegret Wagner) und Lager Bahnhofstr. 8/3, Mosbach-Neckarelz; derselbe Webauftritt zeigt im Footer verkürzt Bahnhofstr. 8. Das widerspricht dem „Uwe“-Seed nicht abschließend, aber Name/Rechtsinhaber und genaue Hausnummer eines öffentlichen Kundenhofs bleiben ungeklärt. Stadt und PLZ getrennt, bestehende Straße/Telefon bleiben ausdrücklich Kandidaten; keine neue Koordinate/Öffnungszeit-Füllung. Containergrößen 10–40 m³ Abroll/5–12 m³ Absetz, Wertstoffhof Mo–Fr 09:00–16:00; weder Ankauf noch Verkauf oder Container-/Entsorgungsgebühren numerisch ausgewiesen. Quellen: https://www.schrott-wagner.de/impressum.html ; https://www.schrott-wagner.de/container.html ; https://www.schrott-wagner.de/leistungen.html (Abruf 12.10.2026).]
 
 ### Recherche 02.10.2026
 

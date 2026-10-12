@@ -28,6 +28,10 @@ Registerseitig konkret rekonstruierte Betreiberkette: Peitzmann GmbH & Co. KG (H
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: PreZero-Zertifikatsübersicht führt „PreZero Metall GmbH“ am Standort Am Atlaswerk 22, 33106 Paderborn; die NorthData-Registerspiegelansicht führt HRB 13128, diese Adresse, die Namen Peitzmann GmbH/Peitzmann GmbH & Co. KG in der Historie sowie den Geschäftsführerwechsel 15.07.2026. Das stärkt aktuelle Rechtsträger-/Standortfakten, löst aber ohne unabhängige Bestätigung nicht die Alt→Neu-Identitätskette des Dossierlabels. Betreiberseite zu Schrott/Metallen beschreibt vergüteten Ankauf zu marktgerechten Preisen und die Versorgung mit Sekundärrohstoffen, jedoch ohne numerische Ankauf-/Verkaufskurse; die Leistungen sind gewerblich beschrieben und beweisen keine private Annahme. Keine Frontmatter- oder GEO-Änderung. Ankauf — keine Zahlenliste; Verkauf — keine Preisliste; Gebühren — keine Tarifliste. Quellen: https://prezero.com/de/zertifikate ; https://www.northdata.de/PreZero%20Metall%20GmbH,%20Paderborn/HRB%2013128 ; https://prezero.com/de/rohstoffe/schrotte-und-metalle (direkte Abrufe 12.10.2026; NorthData ist Registerspiegel).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Annahme von Metallschrott, Container (Am Atlaswerk 22), nur schrottradar-Profil

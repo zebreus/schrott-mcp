@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite „Bachinger Schrotthandel u. Demontagen“ nennt Uwe Bachinger, Gartenstraße 16, 86700 Otting, Kontaktwege und Mo–Sa 08:00–20:00 sowie Altmetallankauf/Abholung, Demontage und Abbruch. Der Impressum-Pfad war nicht erreichbar (404); ein unabhängiger Register- oder Identitätsbeleg, der Website und Seed-Eintrag verbindet, fehlt. Gleichnamige Betriebe in anderen Orten sind nicht derselbe Nachweis. Deshalb bleiben die strukturierten Kontaktdaten leer und der Status `pruefung`. **Ankauf:** Leistung nur als Betreiberangabe, keine numerische Preisliste; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Die Ottinger Betriebsstätte und GEO sind unabhängig zu bestätigen.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiberwebsite erneut direkt abgerufen: Kontaktseite nennt Uwe Bachinger, Gartenstraße 16, 86700 Otting, Telefon und E-Mail; Informationsseite nennt Mo–Sa 08:00–20:00 sowie mobilen Altmetallankauf, Abholung, Demontage und Abbruch. Diese Angaben bleiben eine Betreiber-Selbstauskunft; der Impressum-Pfad liefert weiterhin 404 und kein unabhängiger Register-/Zweitbeleg ordnet den Auftritt dem Seed-Rechtsträger zu. Gemeinde-Otting-Seite bezeichnet nur den kommunalen Recyclinghof, nicht Bachinger. Keine Frontmatter-Kontaktdaten oder Koordinaten ergänzt; Identität/Betriebsstätte bleiben offen. Ankauf: keine numerischen Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. Quelle(n): https://www.ubrecycling-demontagen.de/ ; https://www.ubrecycling-demontagen.de/kontakt ; https://www.ubrecycling-demontagen.de/informationen ; https://www.ubrecycling-demontagen.de/impressum ; https://www.gemeinde-otting.de/entsorgung/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt die deutsche Zweigniederlassung der WAETRANS LIETZEN Ltd. unter HRB 10194 als 2022 aufgehoben. Die heutige waetrans-abbruch.de-Seite nennt andere Rechtsträger (WAETRANS Entsorgung und Verwaltung GmbH und WAE Abbruchgesellschaft Oderland GmbH) an Fichtendamm 2, Vierlinden; eine Übernahme-/Nachfolgekette zur alten Limited ist nicht belegt. Historische Kontaktdaten bleiben ungeklärt; keine Preise.
 
 ## Timeline
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Die offizielle Website waetrans-abbruch.de zeigt weiterhin „Webseite in Bearbeitung“ und nennt unter Fichtendamm 2, 15306 Vierlinden die WAETRANS Entsorgung und Verwaltung GmbH sowie separat die WAE Abbruchgesellschaft Oderland GmbH, mit aktuellem Telefon 03346 8541618 und unterschiedlichen Funktions-E-Mail-Adressen. Der aktuelle Auftritt benennt nicht die alte WAETRANS LIETZEN Ltd. NorthData führt die deutsche Niederlassung dieser Ltd. (HRB 10194) weiterhin mit Aufhebungspublikation 22.02.2022. Keine belegte Verschmelzung/Nachfolge; heutige Rechtsträger/Adresse/Kontakt nicht auf das historische Ltd.-Dossier übertragen. ANKAUF: keine aktuelle, diesem Ltd.-Datensatz zuordenbare Preisliste. VERKAUF: keine. GEBÜHREN: keine aktuelle Tarifliste. Alte Anschrift Falkenhagener Str. 17 und Telefon bleiben historische, nicht verifizierte Leads; keine GEO-Änderung. Quellen (Abruf 12.10.2026): https://waetrans-abbruch.de/ ; https://www.northdata.de/WAETRANS%20LIETZEN%20Ltd%C2%B7,%20Lietzen/Amtsgericht%20Frankfurt%2FOder%20HRB%2010194.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

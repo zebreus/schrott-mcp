@@ -40,3 +40,7 @@ Verzeichnis-Leads führen „Schrott Jürgen“ an Thomas-Mann-Str. 49 A, 90471 
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Erneute Suche bestätigte nur die schon bekannten Verzeichniseinträge; kein zuordenbarer Betreiberauftritt oder passender Registerbeleg wurde gefunden. Keine Verknüpfung zu gleichnamigen Personen/Firmen angenommen. Die Listung belegt weder aktuelle Tätigkeit noch öffentliche Anlieferung; keine Preis- oder Gebührenangaben für diesen Betrieb gefunden. Adresse/Telefon bleiben offen und `status: pruefung` unverändert. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/9ef348af-0f18-4f93-9c55-0bf3ec08ca15 ; https://www.dasoertliche.de/Themen/Thomas--Mann--Str/N%C3%BCrnberg-Seite-2.htm ; https://www.dastelefonbuch.de/Branchen/Schrott/N%C3%BCrnberg]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Gelbe-Seiten-Profil direkt abgerufen; es wiederholt „Schrott Jürgen“, Thomas-Mann-Str. 49A, 90471 Nürnberg-Langwasser und 0911 81 33 48, ohne E-Mail, Website, Öffnungszeiten oder Rezensionen. Das bleibt ein Aggregator-Lead; weder der Personenname noch eine aktuelle Betriebs-/Annahmebestätigung ist damit geklärt. Keine Übernahme in Frontmatter, Status `pruefung` bleibt, keine Geokodierung. Ankauf — keine Preisliste; Verkauf — keine Liste; Gebühren — keine Angaben. Quelle: https://www.gelbeseiten.de/gsbiz/9ef348af-0f18-4f93-9c55-0bf3ec08ca15 (Abruf 12.10.2026).]

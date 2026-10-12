@@ -28,6 +28,10 @@ Ungeklärter Kölner Schrotthandels-Lead für Nikolaus Prison. Clemens-Hastrich-
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Das-Örtliche-Profil für Prison Nikolaus direkt geprüft; es kennzeichnet die Suche ausdrücklich als nicht exakt und zeigt nur den passendsten Treffer (Clemens-Hastrich-Str. 8, 50827 Köln, 0163 1496429). Gelbe Seiten wiederholt denselben Verzeichnisdatensatz. Das Betreiber-Impressum des anderen Betriebs Prison-Kramer nennt Claudia Prison-Kramer und Hövelstr. 254, 45356 Essen; die separate Essener Standortseite belegt keine Kölner Niederlassung oder Verbindung zu Nikolaus. Keine Übertragung von Identität, Adresse, Telefon oder Preisen; keine Geokodierung. Ankauf — für Nikolaus/Köln keine Preisliste; Verkauf — keine Liste; Gebühren — keine Tarife. Quellen: https://www.dasoertliche.de/Themen/Prison-Nikolaus-Schrotthandel-K%C3%B6ln-Bickendorf-Clemens-Hastrich-Str-8 ; https://www.gelbeseiten.de/gsbiz/05599b9e-957c-4f4e-ab63-5a09eb773343 ; https://schrottankauf-in.de/impressum.php ; https://schrottankauf-in.de/standort-schrottplatz-essen.php (direkte Abrufe 12.10.2026; Verzeichnisse sind Leads).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Prison-Verbund (Seed Essen + SMC GE + M. Prison Wesel) (GS)

@@ -33,6 +33,10 @@ Verzeichnis- und Creditreform-Spuren führen Selzam & Lettner Kfz-GmbH an der Ä
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Exakte Suche „Selzam Autoverwertung Friedberg“ erneut ausgeführt; die erste Bing-Ergebnisseite lieferte keine passende, zurechenbare Betreiber- oder Annahmeseite. Der 11880-Aufruf wird auf eine allgemeine Suchansicht umgeleitet und bestätigt die konkrete Firma/Leistung heute nicht. Diese Suchlücken sind kein Beleg für Schließung; Identität/Rechtsnachfolge, aktuelle Schrottannahme und GEO bleiben offen. Status `pruefung` bleibt; bestehende Adresse/Telefon werden nicht als geprüfte Annahmestelle ausgegeben. Ankauf: keine belastbaren Schrott-/Fahrzeugankaufskurse; Verkauf: keine Preise; Gebühren: keine Tarife. Quelle(n): https://www.bing.com/search?q=%22Selzam+Autoverwertung%22+Friedberg ; https://www.11880.com/branchenbuch/friedberg-bayern/060441414B28112582/selzam-lettner-kfz-gmbh.html]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: 11880-Detailseite führt Selzam & Lettner Kfz-GmbH DS, Äußere Industriestr. 1, 86316 Friedberg und 0821 781533. Die dortigen Kategorien beziehen sich auf Kfz-Handel/-Werkstatt/Chauffeur, nicht auf einen belegten Schrott- oder Autoverwertungsannahmebetrieb. Creditreform-Detailabruf war blockiert (403), daher keine aktuelle registerliche Bestätigung aus diesem Abruf. Adresse/Telefon aus bestehendem Quellenstand nicht verändert; Status `pruefung`, keine Annahme- oder Aktivitätsbehauptung. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren. Geokodierung nicht als Schrottannahmeort ausgeben; Quelle: https://www.11880.com/branchenbuch/friedberg-bayern/060441414B28112582/selzam-lettner-kfz-gmbh.html ; https://firmeneintrag.creditreform.de/ (Detailabruf 403; bereits dokumentiert)]

@@ -32,6 +32,10 @@ Privat-/Gewerbeankauf mit Ausweis, Container 0,5–12 m³ und gewerbliche Großm
 
 ## Timeline
 
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiber-Leistungsseite und Impressum erneut direkt geprüft. Die Seite nennt Teuringer Straße 57, 88045 Friedrichshafen, Telefon +49 7541 55504, info@regu-recycling.de, Mo–Fr 08:00–12:00/13:00–18:00 und Sa 08:00–12:00; Dienstleistung: privater/gewerblicher Metallankauf, auch Kleinmengen gegen Ausweis, Vergütung nach Tages-/Marktpreis und individuelle Container. Der Registereintrag HRB 631783 führt weiterhin Kapitän-Wagner-Straße 28, nicht den Hof; unabhängige Bestätigung der Teuringer Kundenannahme steht aus, daher unverändert keine Straßen-/Kontakt-/Zeit-Fills und keine Koordinate. Ankauf ohne Zahlenkurs; kein Verkaufspreis-Katalog und keine Containergebührentabelle. Quellen: https://www.regu-recycling.de/dienstleistungen/ ; https://www.regu-recycling.de/impressum/ ; https://www.northdata.de/REGU%20Recycling%20Metallhandels-GmbH,%20Friedrichshafen/Amtsgericht%20Ulm%20HRB%20631783 (Abruf 12.10.2026).]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Leistungsseite erneut gelesen: Metallankauf für Privat/Gewerbe und Vergütung abhängig von Tages-/Marktpreisen; Metalle u.a. Aluminium, Eisen/Stahl, Messing, Zinn, Kupfer, Zink und Edelstahl. Container 0,5–12 m³ und individuelle Geschäftskunden-Abholung. ANKAUF: keine Zahlenliste. VERKAUF: keine öffentliche Preis-/Materialliste. GEBÜHREN: Container- und Entsorgungsangebote individuell, keine öffentlichen Beträge/Tarife. Vorhandene Adress-/Kontaktgrenze bleibt: Teuringer Straße 57 ist Betreiber-Hofangabe, während HRB 631783 Kapitän-Wagner-Straße 28 als Registeranschrift führt; unabhängige Standortbestätigung fehlt. Keine Koordinate/Frontmatter geändert. Quelle(n): https://www.regu-recycling.de/dienstleistungen/ ; https://www.regu-recycling.de/fuhrpark/ ; https://www.regu-recycling.de/impressum/ ; https://www.northdata.de/REGU%20Recycling%20Metallhandels-GmbH,%20Friedrichshafen/Amtsgericht%20Ulm%20HRB%20631783]
