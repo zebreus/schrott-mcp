@@ -6,6 +6,8 @@ state: MV
 city: Güstrow
 street: Primerburg 3
 postcode: '18273'
+lat: 53.7931548
+lon: 12.2242372
 phone: 03843-213066
 email: ''
 opening_hours: ''
@@ -39,6 +41,10 @@ Die Betreiberwebsite identifiziert **Maik Schwittau Fahrzeugtechnik & Karosserie
 ### Owner-Gate 12.10.2026
 
 - [Korrektur 12.10.2026: Das Creditreform-Profil deckt die Güstrower Anschrift, den Namen, die Telefonnummer und Betreiberwebsite ab, nicht aber E-Mail oder Öffnungszeiten. Diese beiden nur auf der Betreiberseite gefundenen Felder werden daher per `clear_fields: 'email,opening_hours'` im Seed ausdrücklich leer gehalten. Der Produktionsabgleich war read-only; das dort vorhandene GEO-Paar wird durch die neue Anschrift nicht validiert oder ersetzt. Kein GEO ergänzt/geändert; vor Veröffentlichung Koordinaten separat prüfen. Quelle(n): Creditreform-Profil und Betreiberseiten, direkt erneut geprüft 12.10.2026; `docs/trader-seed.md`.]
+
+### Owner-GEO-Nachtrag 12.10.2026
+
+- [Korrektur 12.10.2026: Nominatim/OpenStreetMap findet „KFZ-Werkstatt Maik Schwittau“ als Gebäude an Primerburg 3, Güstrow (53.7931548, 12.2242372). Name und Anschrift stimmen mit Betreiber-Impressum und Creditreform überein; das neu ins Dossier eingetragene Paar wird bei einem späteren Seed den mehrere Kilometer entfernten Produktionspunkt ersetzen. Genauigkeit: Gebäudeschwerpunkt, kein vermessener Eingang. Nur Dossier geändert; Produktionsdatenbank read-only. Quelle(n): https://www.openstreetmap.org/way/169451888 ; https://nominatim.openstreetmap.org/search?street=Primerburg%203&city=G%C3%BCstrow&postalcode=18273&country=Germany&format=jsonv2&limit=5 ; Abruf 12.10.2026, © OpenStreetMap-Mitwirkende, ODbL 1.0.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

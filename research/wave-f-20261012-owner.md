@@ -48,4 +48,17 @@ Auch die vorhandenen Punkte für neue bzw. vervollständigte Standorte in Güstr
 
 ## Veröffentlichung
 
-Die geprüften Dossier- und Berichtänderungen werden nach dem grünen Owner-Gate in einem lokalen Commit auf `main` abgelegt. Push und Redeploy bleiben zurückgestellt: vor diesem Commit lag `main` bereits 34 Commits vor `origin/main`, sodass ein Push zusätzlich unreviewte lokale Historie veröffentlichen würde. Außerdem darf wegen der ungeklärten GEO-Punkte kein Dossier-Seed in Produktion angewendet werden. Es gab keine Produktionsdatenbank-Schreibzugriffe. Remote-Ancestry und GEO sind vor einer späteren Veröffentlichung separat zu klären.
+Die initial geprüften Dossiers und Berichte wurden lokal auf `main` als `8ae25764` committed. Push und Redeploy bleiben zurückgestellt: vor diesem Commit lag `main` bereits 34 Commits vor `origin/main`; der Branch ist seither ahead und enthält zusätzliche nicht hier geprüfte Änderungen. Außerdem darf wegen der noch ungeklärten GEO-Punkte kein Dossier-Seed in Produktion angewendet werden. Es gab keine Produktionsdatenbank-Schreibzugriffe. Remote-Ancestry und GEO sind vor einer späteren Veröffentlichung separat zu klären.
+
+## GEO-Nachtrag nach Commit
+
+Ein anschließender read-only-Nominatim-Abgleich hat jetzt vier hoch-konfidente Punkte für bereits bestätigte Adressen ergeben; die Koordinaten stehen mit OSM-Objekt- und Genauigkeitsangabe in den Timeline-Nachträgen der Dossiers:
+
+| Dossier | Dossier-GEO | OSM-Beleg / Punktart |
+|---|---|---|
+| `st-schonebeck-scholz` | 52.0254671, 11.6917707 | Benannter Auto-Scholz-POI, POI-Punkt statt vermessener Einfahrt. |
+| `mv-gustrow-18273-fahrzeugtechnik-und-karosseriebau-schwit` | 53.7931548, 12.2242372 | Maik-Schwittau-Werkstattgebäude, Gebäudeschwerpunkt. |
+| `bw-oberderdingen-cr-recycling-aydemir-cinar` | 49.0792416, 8.7783427 | CR-Recycling-Flächenobjekt, Polygon-Schwerpunkt. |
+| `sn-halsbrucke-muldenhutten-remondis-industrie-service-nl-freiberg-m` | 50.9019340, 13.3823251 | Gebäude an der offiziellen Muldenhütten-10-Adresse; OSM führt noch den Fehr-Namen. Die dokumentierte Übernahme der Fehr-Sonderabfallstandorte durch REMONDIS umfasst Muldenhütten. |
+
+Dies ändert ausschließlich die Dossierquellen; die Produktionspunkte bleiben unverändert, bis ein zulässiger Seed-Rollout erfolgt. Der Muldenhütten-Label-Konflikt ist durch die dokumentierte Fehr-Übernahme und die aktuelle offizielle REMONDIS-Niederlassung weitgehend aufgelöst; der Punkt bleibt als Gebäudeschwerpunkt und nicht als Eingang gekennzeichnet. Harsewinkel lieferte nur eine Straßenlinie. Für SM Metals liefert OSM einen nicht mit Betreibername markierten Gebäudepunkt an der als Postanschrift angegebenen Adresse; der wird nicht als Kundenstandort übernommen. Damit sind vier zuvor offene Standortpunkte genauer belegt, die übrigen alten/unsicheren GEO-Punkte und die Produktions-Read-only-Sperre bleiben offen. Die Seed-Tests wurden nach den vier Koordinatenänderungen erneut erfolgreich ausgeführt (14 bestanden, 0 fehlgeschlagen; 594 gefiltert). Der GEO-Follow-up bleibt ein lokaler Commit; kein Push oder Redeploy.

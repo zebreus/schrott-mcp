@@ -6,6 +6,8 @@ state: ST
 city: Schönebeck
 street: Wilhelm-Dümling-Str. 10
 postcode: '39218'
+lat: 52.0254671
+lon: 11.6917707
 phone: ''
 email: ''
 opening_hours: ''
@@ -38,6 +40,10 @@ Der Betreiberauftritt verwendet den Namen **AUTO-SCHOLZ** und nennt Wilhelm-Düm
 ### Owner-Gate 12.10.2026
 
 - [Korrektur 12.10.2026: Die kommunale Unternehmensseite bestätigt Name und Wilhelm-Dümling-Straße 10, nicht aber die Telefon- oder E-Mail-Angabe. Diese bleiben daher aus dem strukturierten Frontmatter zurückgenommen; Betreiberwebsite und `status: pruefung` bleiben. Die read-only-Produktionsprüfung ergab einen vorhandenen GEO-Punkt, der nicht plausibel zur Schönebecker Anschrift passt; eine Adressänderung korrigiert oder löscht GEO nicht. Keine Koordinaten ergänzt/geändert und keine Produktionsdaten geschrieben; GEO vor jeder späteren Seed-Veröffentlichung separat klären. Quelle(n): https://www.schoenebeck.de/de/industriepark-west.html ; Betreiberseiten in Recherche 12.10.2026; `docs/trader-seed.md`.]
+
+### Owner-GEO-Nachtrag 12.10.2026
+
+- [Korrektur 12.10.2026: Nominatim/OpenStreetMap liefert für „Auto Scholz Autoverwertung“ einen POI-Knoten (52.0254671, 11.6917707) und für Wilhelm-Dümling-Straße 10, 39218 Schönebeck ein nahegelegenes Gebäude. Zusammen mit der kommunal bestätigten Geschäftsidentität/-anschrift ist dieses Paar als neue dossier-eigene Koordinate eingetragen und wird bei einem späteren Seed den weit entfernten Produktionspunkt ersetzen. Genauigkeit: OSM-POI-Punkt, kein vermessener Eingang. Nur Dossier geändert; Produktionsdatenbank read-only. Quelle(n): https://www.openstreetmap.org/node/8661973565 ; https://www.openstreetmap.org/way/538349970 ; https://nominatim.openstreetmap.org/search?street=Wilhelm-D%C3%BCmling-Stra%C3%9Fe%2010&city=Sch%C3%B6nebeck%20%28Elbe%29&postalcode=39218&country=Germany&format=jsonv2&limit=5 ; Abruf 12.10.2026, © OpenStreetMap-Mitwirkende, ODbL 1.0.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
