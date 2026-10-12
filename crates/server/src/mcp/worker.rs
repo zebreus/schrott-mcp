@@ -24,6 +24,9 @@ const WORKER_WALL_SECS: u64 = 60;
 const WORKER_OUT_CAP: usize = 12 * 1024 * 1024;
 /// Unprivileged user the worker becomes when we started as root.
 const NOBODY: u32 = 65534;
+/// Retry only transient process-creation exhaustion; never retry other spawn errors.
+const WORKER_SPAWN_RETRIES: usize = 2;
+const WORKER_SPAWN_BACKOFF_MS: u64 = 25;
 
 /// Every way an isolated query can fail. Worker internals never leak:
 /// details stay in our logs, callers get one line.
@@ -143,6 +146,30 @@ fn worker_path() -> Result<PathBuf, WorkerError> {
     Ok(path)
 }
 
+/// Retry a worker spawn only when the OS reports temporary resource exhaustion.
+/// Each closure call must construct a fresh `Command`, since `spawn` can fail
+/// after partially preparing its stdio and confinement state.
+async fn retry_spawn<T, F>(mut spawn: F) -> std::io::Result<T>
+where
+    F: FnMut() -> std::io::Result<T> + Send,
+    T: Send,
+{
+    for attempt in 0..=WORKER_SPAWN_RETRIES {
+        match spawn() {
+            Ok(child) => return Ok(child),
+            Err(error)
+                if error.raw_os_error() == Some(libc::EAGAIN) && attempt < WORKER_SPAWN_RETRIES =>
+            {
+                let delay_ms = WORKER_SPAWN_BACKOFF_MS * (1_u64 << attempt);
+                tracing::warn!("query worker spawn hit EAGAIN; retrying in {delay_ms}ms: {error}");
+                tokio::time::sleep(std::time::Duration::from_millis(delay_ms)).await;
+            }
+            Err(error) => return Err(error),
+        }
+    }
+    unreachable!("bounded spawn retry loop always returns")
+}
+
 /// Run one SQL query in a confined worker and return the full result.
 pub async fn run_query(
     data_dir: &Path,
@@ -151,19 +178,24 @@ pub async fn run_query(
     let request = serde_json::json!({"sql": sql}).to_string();
     // SAFETY: `getuid` is async-signal-safe; read once, outside pre_exec.
     let drop_privs = unsafe { libc::getuid() == 0 };
-    let mut cmd = tokio::process::Command::new(worker_path()?);
-    // SAFETY: `confine` performs only async-signal-safe syscalls on stack
-    // values (see its own contract); the closure captures nothing but
-    // plain integers, so post-fork execution is sound.
-    unsafe {
-        cmd.arg(data_dir)
-            .stdin(std::process::Stdio::piped())
-            .stdout(std::process::Stdio::piped())
-            .stderr(std::process::Stdio::piped())
-            .env_clear()
-            .pre_exec(move || confine(drop_privs));
-    }
-    let mut child = cmd.spawn().map_err(|e| {
+    let path = worker_path()?;
+    let mut child = retry_spawn(|| {
+        let mut cmd = tokio::process::Command::new(&path);
+        // SAFETY: `confine` performs only async-signal-safe syscalls on stack
+        // values (see its own contract); the closure captures nothing but
+        // plain integers, so post-fork execution is sound.
+        unsafe {
+            cmd.arg(data_dir)
+                .stdin(std::process::Stdio::piped())
+                .stdout(std::process::Stdio::piped())
+                .stderr(std::process::Stdio::piped())
+                .env_clear()
+                .pre_exec(move || confine(drop_privs));
+        }
+        cmd.spawn()
+    })
+    .await
+    .map_err(|e| {
         // Includes pre_exec confinement failures: the errno stays in our
         // log, the client gets the safe one-liner below.
         tracing::warn!("query worker spawn failed: {e}");
@@ -273,8 +305,12 @@ pub async fn run_query(
 #[cfg(test)]
 mod tests {
     use std::os::unix::process::ExitStatusExt as _;
+    use std::sync::{
+        atomic::{AtomicUsize, Ordering},
+        Arc,
+    };
 
-    use super::{classify_death, WireReply, WorkerError, OOM_MESSAGE};
+    use super::{classify_death, retry_spawn, WireReply, WorkerError, OOM_MESSAGE};
     use super::{WORKER_CPU_SECS, WORKER_WALL_SECS};
 
     fn signal_status(sig: i32) -> std::process::ExitStatus {
@@ -379,5 +415,53 @@ mod tests {
             let msg = classify_death(&status, stderr).to_string();
             assert!(!msg.contains("/secret/path"), "{msg}");
         }
+    }
+
+    #[tokio::test]
+    async fn transient_eagain_retries_and_returns_the_successful_spawn() {
+        let attempts = Arc::new(AtomicUsize::new(0));
+        let calls = Arc::clone(&attempts);
+        let child = retry_spawn(move || {
+            if calls.fetch_add(1, Ordering::Relaxed) == 0 {
+                Err(std::io::Error::from_raw_os_error(libc::EAGAIN))
+            } else {
+                Ok("spawned")
+            }
+        })
+        .await
+        .expect("retry succeeds");
+
+        assert_eq!(child, "spawned");
+        assert_eq!(attempts.load(Ordering::Relaxed), 2);
+    }
+
+    #[tokio::test]
+    async fn persistent_eagain_stops_after_the_configured_retry_limit() {
+        let attempts = Arc::new(AtomicUsize::new(0));
+        let calls = Arc::clone(&attempts);
+        let error = retry_spawn(move || {
+            calls.fetch_add(1, Ordering::Relaxed);
+            Err::<(), _>(std::io::Error::from_raw_os_error(libc::EAGAIN))
+        })
+        .await
+        .expect_err("persistent EAGAIN stays an error");
+
+        assert_eq!(error.raw_os_error(), Some(libc::EAGAIN));
+        assert_eq!(attempts.load(Ordering::Relaxed), 3);
+    }
+
+    #[tokio::test]
+    async fn permanent_spawn_errors_are_not_retried() {
+        let attempts = Arc::new(AtomicUsize::new(0));
+        let calls = Arc::clone(&attempts);
+        let error = retry_spawn(move || {
+            calls.fetch_add(1, Ordering::Relaxed);
+            Err::<(), _>(std::io::Error::from(std::io::ErrorKind::PermissionDenied))
+        })
+        .await
+        .expect_err("permanent spawn errors stay errors");
+
+        assert_eq!(error.kind(), std::io::ErrorKind::PermissionDenied);
+        assert_eq!(attempts.load(Ordering::Relaxed), 1);
     }
 }
