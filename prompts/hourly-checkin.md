@@ -27,6 +27,8 @@ tief verifizieren, Impressum allein genügt nicht, Namensvetter-/Merge-Check.
 ```bash
 systemctl is-active schrott-mcp.service
 journalctl -u schrott-mcp.service -p warning --since "6 hours ago"
+# App-JSON enthält WARN-Ereignisse, wird von systemd aber als PRIORITY=6 erfasst:
+journalctl -u schrott-mcp.service --since "6 hours ago" --no-pager -o cat | grep -F '"level":"WARN"' || true
 sqlite3 -readonly /var/lib/schrott-mcp/public.db \
   'SELECT (SELECT COUNT(*) FROM traders), (SELECT COUNT(*) FROM materials), (SELECT COUNT(*) FROM current_prices);'
 ```
