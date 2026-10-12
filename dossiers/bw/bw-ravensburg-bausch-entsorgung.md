@@ -4,6 +4,8 @@ name: Bausch Entsorgung
 trader_type: schrotthaendler
 state: BW
 city: Ravensburg
+lat: 47.7928391
+lon: 9.6111644
 street: Bleicherstraße 35
 postcode: '88212'
 phone: '+49 751 36322-9'
@@ -42,3 +44,7 @@ Der Betreiber führt den **Wertstoffhof Ravensburg, Bleicherstraße 35, 88212 Ra
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Aktuelle Betreiber-Standortseite benennt Wertstoffhof Ravensburg, Bleicherstraße 35, 88212, Tel. +49 751 36322-9; Impressum bestätigt Bausch GmbH, allgemeinen Kontakt +49 751 36322-0 und bausch@bausch-entsorgung.de. Die Standortseite nennt Mo–Fr 07:00–17:00, Sa 07:00–12:00; die Metallseite nennt zusätzlich kleinere Mengen an Umladestellen Isny, Bad Waldsee und Bad Wurzach. Frontmatter auf die explizit benannte Ravensburger Annahmestelle normalisiert, Öffnungszeiten beziehen sich nur auf diesen Hof; keine strukturierten Drop-off-Bedingungen auf andere Standorte übertragen. Direkt verknüpfter Container-Shop „Sie bestellen direkt bei Bausch“ zeigt Ab-Preise inkl. MwSt.; aufgeführte Abfalltarife sind Gebühren, kein Schrottankauf. Mischschrott nur auf Anfrage. Quellen: https://www.bausch-entsorgung.de/standorte/wertstoffhof-ravensburg/ ; https://www.bausch-entsorgung.de/schrott-metall/ ; https://www.bausch-entsorgung.de/impressum/ ; https://containerdienst-shop.com/containerdienst-ravensburg (Abruf 12.10.2026).]
+
+### Koordinatenprüfung 12.10.2026
+
+- [Recherche 12.10.2026: Die Betreiber-Standortseite bestätigt Bleicherstraße 35 als Wertstoffhof Ravensburg. Die bisherige Produktionskoordinate 47.7781333, 9.5958667 lag rund 2,0 km vom adressbezogenen OSM-Gebäudepunkt entfernt; Frontmatter auf 47.7928391, 9.6111644 berichtigt. Punkt ist der OSM-Gebäude-/Adresspunkt, keine geprüfte Eingangstür. Nominatim-Suche (OSM-Weg 193316231, Abruf 12.10.2026): https://nominatim.openstreetmap.org/search?format=jsonv2&limit=3&q=Bleicherstra%C3%9Fe%2035%2C%2088212%20Ravensburg%2C%20Germany ; Daten © OpenStreetMap-Mitwirkende, ODbL 1.0.]
