@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Website und ihr Impressum identifizieren **Steel-Men GmbH**, HRB 30952 beim AG Landau, Sitz Europahof 1, 76831 Billigheim-Ingenheim; Geschäftsführer ist S. Ohlinger. Das Angebot beschreibt Entrümpelung, Tatortreinigung, Asbestentsorgung, Industrie-Demontage und Immobilienleistungen, nicht Schrottankauf oder Altmetallannahme. Neustadt wird als Einsatzgebiet/Region geführt, nicht mit einer örtlichen Betriebsanschrift oder Annahmestelle. Der ältere Verzeichnislead „A. Ohlinger Schrott“ an Schlachthofstraße 56 (weitere abweichende Adressspur Heidenbrunnenweg 4) ist damit nicht als Steel-Men-Schrottbetrieb bewiesen. Keine Werte/Statusübertragung auf die unklare Neustädter Zeile.
+
+**Preise:** keine Ankauf- oder Materialverkaufsliste. Dienstleistungen werden individuell angefragt; kein veröffentlichter, bezifferter Gebühren-/Containerpreis belegt. GEO weder am Neustädter Verzeichnislead noch am Billigheim-Ingenheimer Rechtssitz als Schrottannahmepunkt setzen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Aktueller Direktabruf von https://www.steel-men.de/ und Impressum bestätigt Steel-Men GmbH, Europahof 1, 76831 Billigheim-Ingenheim, HRB 30952 AG Landau, Geschäftsführer S. Ohlinger; aktuelle Leistungen: Entrümpelung, Tatortreinigung, Asbestentsorgung, Demontage und Immobilienservice. Neustadt/Haßloch/Bad Dürkheim erscheinen als Einsatzregionen, nicht als einzelne Niederlassung/Annahmeadresse. Keine Schrott-/Metallankaufleistung, kein Materialverkaufspreis und kein veröffentlichter konkreter Dienstleistungstarif auf dem geprüften Auftritt. Der alte A.-Ohlinger-Schrottlead Schlachthofstr. 56 (und konkurrierende Heidenbrunnenweg-4-Spur) bleibt vom Sitz/Servicegebiet Steel-Men getrennt; keine Adress-, Website- oder Statusübernahme. Keine GEO-Adresse für einen Neustädter Schrotthändler bestätigt. Quelle: https://www.steel-men.de/]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

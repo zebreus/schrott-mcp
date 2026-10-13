@@ -1,18 +1,18 @@
 ---
 slug: ni-northeim-groschel-recycling-container
-name: Gröschel Recycling/Container
+name: Resebeck GmbH (Standort Northeim)
 trader_type: schrotthaendler
 state: NI
 city: Northeim
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: 'unbekannt'
+street: Am Mühlenanger 46
+postcode: '37154'
+phone: '05551 8250'
+email: info@resebeck.de
+opening_hours: 'Mo-Fr 08:00-16:00 (Annahme und Kasse)'
+website: https://resebeck.de/
+website_status: aktiv
 status: aktiv
-description: ''
+description: 'Annahmestelle für FE-Schrott und NE-Metalle; heutiger Betreiber Resebeck GmbH, historisch Gröschel Recycling GmbH.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Göttingen / Northeim / Goslar-Harz / Hildesheim / Weserbergland
@@ -20,13 +20,19 @@ provenance_ankauf_raw: ja
 provenance_origin: table
 ---
 
-# Gröschel Recycling/Container
+# Resebeck GmbH (Standort Northeim)
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Resebeck-Standortseite führt Northeim unter **Am Mühlenanger 46, 37154 Northeim**, Tel. 05551 8250 und Mo–Fr 08:00–16:00 für Schrott-/Metallannahme und Kasse. Die bvse dokumentiert unabhängig, dass Gröschel Recycling GmbH seit 2006 zu Resebeck gehört; damit ist die historische Gröschel-Spur der heutigen Annahmestelle zugeordnet. Die genaue gesellschaftsrechtliche Form einer damaligen Umfirmierung wird damit nicht behauptet.
+
+**Ankauf:** FE-Schrott und NE-Metalle; historisch laut bvse zum Tagespreis, aber keine numerische aktuelle Kurstabelle. **Verkauf:** keine öffentliche Preisliste. **Gebühren:** keine separate Tarifliste auf der Standortseite. GEO/Annahmezufahrt ownerseitig prüfen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Identitäts-/Standortklärung mit zwei unabhängigen Quellen: Die aktuelle Betreiberseite nennt Resebeck GmbH, Standort Northeim, Am Mühlenanger 46, 37154, 05551 8250, info@resebeck.de, Annahme/Kasse Mo–Fr 08:00–16:00 und FE-Schrott/NE-Metalle. Der bvse-Beitrag zur Gröschel Recycling GmbH sagt, das Unternehmen gehöre seit 2006 zur Resebeck GmbH, und beschreibt Ankauf zu Tagespreisen; daraus wird keine unbelegte exakte Umfirmierung oder eigenständige heutige Gröschel-Rechtsform abgeleitet. Frontmatter auf den heutigen Standortbetreiber aktualisiert; alte Klärfallnotiz bleibt als damaliger Recherchestand erhalten. Ankauf: Tagespreis ohne Zahlenliste; Verkauf: keine Preisliste; Gebühren: keine veröffentlichte Liste. GEO der tatsächlichen Kunden-/Waageneinfahrt noch ownerseitig prüfen. Quelle(n): https://resebeck.de/standorte-und-kontakt ; https://bvse-entsorgergemeinschaft.de/presse/85-groeschel-recycling-erhaelt-urkunde-der-bvse-entsorgergemeinschaft-e-v.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

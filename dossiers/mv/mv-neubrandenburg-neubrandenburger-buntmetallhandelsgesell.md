@@ -28,6 +28,10 @@ NorthData liefert zwei gleichnamige Kandidaten, aber keinen Nachweis für einen 
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Zwei weitere Branchenportale führen die Seed-Adresse Steinstr. 10a, 17036 Neubrandenburg, Tel. 0395 4512635, aber ohne Primärbeleg oder Verbindung zu einem der gleichnamigen NorthData-Rechtsträger. Der ähnlich benannte Neubrandenburger Stahlhandel nennt auf seiner eigenen Kontaktseite dagegen Ihlenfelder Straße 118; dieser eigenständige Betrieb ist kein Beleg für Steinstr. 10a und wird nicht zusammengeführt. ANKAUF: keine bestätigte Annahmestelle oder Zahlenkurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Seed-Adresse bleibt ungeklärt und nicht geokodierbar. Quellen: https://neubrandenburg.stadtbranchenbuch.com/986991.html ; https://www.schrottplatz-info.de/schrottplatz/Neubrandenburg (Leads); https://neubrandenburger-stahlhandel.de?page_id=31 (anderer Betreiber/Adresse).]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: ANKAUF: Der Seed nennt Buntmetallhandel, aber es ist keine aktuelle öffentliche Annahmestelle oder ein numerischer Ankaufspreis belegt.; VERKAUF: Keine Verkaufs-/Materialpreisliste belegt.; GEBÜHREN: Keine Anliefer-, Abhol- oder Bearbeitungsgebühren belegt.; GEOKODIERUNG: Seed-Adresse Steinstraße 10a in Neubrandenburg ist nicht mit einem der zwei NorthData-Rechtsträger verknüpft; nicht geokodieren, bis Anschrift/Betreiber bestätigt sind.; Quelle: https://www.northdata.de/Neubrandenburger+Buntmetallhandelsgesellschaft+mbH,+V%C3%B6lschow/Amtsgericht+Neubrandenburg+HRB+5362 ; https://www.northdata.de/Neubrandenburger+Buntmetallhandelsgesellschaft+mbH,+V%C3%B6lschow/Amtsgericht+Stralsund+HRB+15362 (beide dieselbe Sekundärdatenquelle; Abruf 07.10.2026).]

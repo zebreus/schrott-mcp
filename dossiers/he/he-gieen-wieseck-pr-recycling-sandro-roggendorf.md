@@ -28,6 +28,10 @@ Die derzeit erreichbare Betreiberseite nennt Sandro Roggendorf / PR-Recycling, A
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberseiten einschließlich Impressum, Schrotthandel, Containerdienst und AGB erneut direkt geprüft; Fußzeile führt Copyright 2026. Ankauf wird weiterhin mit tagesaktuellen Höchstpreisen, kostenloser Verwiegung und Sofortauszahlung beworben, ohne Material-/€/kg-Zahlen. Keine Materialverkaufspreisliste. Containerseite wirbt teilweise mit kostenlosen Schrottcontainern für Gewerbekunden; AGB nennen daneben berechnete An-/Abfahrt, Sortiergebühr bei Fehlwurf und mögliche Vollberechnung bei Storno unter 24 Stunden, ohne Beträge. AGB-Anbieter ist nur „Containerdienst Gießen“, daher Gebühren nicht sicher PR-Recycling/Sandro zugeordnet; „kostenlos“ nicht verallgemeinern. Impressumsanschrift Am Siegborn 336, 35396 Gießen ist kein Nachweis für eine Kundenannahme in Wieseck. Felder unverändert; kein GEO gesetzt. Quellen: https://pr-recycling.de/ ; https://pr-recycling.de/impressum ; https://pr-recycling.de/leistungen/schrotthandel ; https://pr-recycling.de/leistungen/containerdienst ; https://pr-recycling.de/agb]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Alteisen/Altmetalle, Container (Doppel-Eintrag GS zusammengeführt)

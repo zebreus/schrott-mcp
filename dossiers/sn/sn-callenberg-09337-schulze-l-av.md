@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schulze L. AV“ ist in Callenberg mit Am Mühlengrund 5 nur über Branchenverzeichnisse greifbar. Die ähnlich benannte Autoverwertung dieautoverwertung.com gehört laut eigenem Impressum Torsten Schulze in Doberlug-Kirchhain (anderer Ort, Adresse und Telefonnummer) und ist kein Beleg für diesen Seed. Aktueller Betreiber, Annahme, Preise und Gebühren bleiben offen; `status: pruefung`. Keine **Ankaufspreise**, **Verkaufspreise** oder **Gebühren** für diesen Betrieb gefunden; Adresse vor GEO bestätigen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Verzeichnis-Lead Gelbe Seiten führt „Schulze L. AV“ am Mühlengrund 5, 09337 Callenberg-Reichenbach, Tel. 03723 43816. Ein Betreiberauftritt oder Register-/Kommunalbeleg für genau diese Einheit wurde nicht gefunden. Die gefundene Domain https://dieautoverwertung.com/ mit Impressum https://dieautoverwertung.com/impressum/ identifiziert Torsten Schulze in Doberlug-Kirchhain (Finsterwalder Straße 17d, andere Telefonnummer); diese Autoverwertung ist räumlich und personell nicht der Callenberg-Seed und ihre Leistungen/Preise werden nicht übertragen. ANKAUF: keine Fahrzeug-/Metallpreise; VERKAUF: keine Teilepreisliste; GEBÜHREN: keine Tarife. Kein GEO-Punkt für den bloßen Verzeichnis-Lead. Quelle: https://www.gelbeseiten.de/gsbiz/f6544976-4577-4511-9a08-ca2909539e96 (Lead); https://dieautoverwertung.com/impressum/ (anderer Betreiber).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

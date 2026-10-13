@@ -28,6 +28,10 @@ Der Name Gold Inn AG gehört zur dokumentierten Namenshistorie der DORMERO Hotel
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Gelbe Seiten führt „Gold Inn AG, Edelmetalle“ an Bundesallee 39–40A, 10717 Berlin, Tel. 0160 96 92 21 89; Das Örtliche wiederholt die Adresse. Beides sind Verzeichnis-Leads. NorthData dokumentiert Gold Inn AG als frühere Firmierung der DORMERO Hotel AG (HRB 80018 B) mit Hotelbetrieb als Gegenstand; aktuelles DORMERO-Impressum identifiziert einen Hotelbetreiber an Schlossstraße 67, nicht eine Edelmetallankaufsstelle an der Bundesallee. Keine Identitätsbrücke zum Verzeichniseintrag und keine Übertragung von Hotelkontakten. ANKAUF: kein Gold-/Silberkurs; VERKAUF: keine Edelmetall-Verkaufspreise; GEBÜHREN: keine Angaben. Bundesallee-Adresse vor GEO/Filialzuordnung erst mit einem Betreiberbeleg verbinden. Quellen: https://www.gelbeseiten.de/gsbiz/6c642b11-1224-4e3f-879d-17ea103463ac ; https://www.dasoertliche.de/Themen/Gold-Inn-AG-Berlin-Wilmersdorf-Bundesallee ; https://www.northdata.de/DORMERO%20Hotel%20AG,%20Berlin/Amtsgericht%20Charlottenburg%20%28Berlin%29%20HRB%2080018%20B ; https://www.dormero.de/impressum/.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Gold/Silber/Zahngold, Kette

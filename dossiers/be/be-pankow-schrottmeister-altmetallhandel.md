@@ -28,6 +28,10 @@ NorthData führt Schrottmeister altmetallhandel GmbH, HRB 283516 B, mit eingetra
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: NorthData-Profil erneut direkt geprüft: HRB 283516 B, Eintragung 02.02.2026, Blankenburger Str. 18–20, Geschäftsgegenstand nennt Schrottplatz sowie An- und Verkauf von Schrott/Metallen/Elektrogeräten. Ein Registergegenstand belegt keine tatsächliche Öffnung, Kundenzufahrt, aktuelle Annahme oder Verbindung zur separat auftretenden Website „Kiro Schrotthandel“; keine Frontmatter-Aufwertung oder Identitätsübernahme. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste. Adresse braucht Betreiber-/Kundenstandortbestätigung vor GEO. Quelle: https://www.northdata.de/Schrottmeister%20altmetallhandel%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20%28Berlin%29%20HRB%20283516%20B (Registerdatenbank, nicht Primärregisterauszug).]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: NorthData-Profil der Schrottmeister altmetallhandel GmbH erneut direkt gelesen: Amtsgericht Charlottenburg HRB 283516 B, Blankenburger Str. 18–20, 13089 Berlin, Geschäftszweck Schrottplatz sowie An-/Verkauf von Schrott, Metallen und Elektrogeräten; sichtbare Eintragung 02.02.2026. Das ist Register-/Unternehmensgegenstand, kein Beleg geöffneter Annahme, aktueller Ankauf oder Identität mit dem Betreiberauftritt „Kiro Schrotthandel“. Vorhandene Adresse daher nicht als bestätigte Hofzufahrt oder GEO-Punkt behandeln; Status bleibt ungeklärt. ANKAUF: kein konkreter Preis. VERKAUF: keine Material-/Elektrogerätepreisliste. GEBÜHREN: keine Entsorgungstarife gefunden. Quelle (Abruf 12.10.2026): https://www.northdata.de/Schrottmeister%20altmetallhandel%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20283516%20B.]

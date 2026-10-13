@@ -28,6 +28,10 @@ Unbestätigter Seed „SMG Schrott & Metall GmbH“, Gessentalstr. 5A in Gera. K
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Ein direkt abgerufener Branchenportal-Eintrag führt „SMG Schrott und Metall GmbH“ an Gessentalstr. 5A, 07551 Gera-Zwötzen, Tel. 0365 32002. Die Seite liefert keinen funktionierenden Betreiberbeleg, kein Impressum und keine verifizierte aktuelle Annahme; der Homepage-Link ist nicht verwertbar. Damit bleibt es ein zusätzlicher Aggregator-Lead, kein Identitäts-/Registerbeleg. Nicht mit der SMH Recycling GmbH an Fasaneninsel 10 oder einem namensähnlichen Gauern-Betrieb zusammengeführt. Keine Ankauf-/Verkaufspreise oder Gebühren; Adresse nicht GEO-fähig, bis Betrieb und Kundenzugang belegt sind. Quelle: https://www.schrottplatz-info.de/schrottplatz/Gera/SMG-Schrott-und-Metall-GmbH (Aggregator, Abruf 13.10.2026).]
+
 ### Gegenprüfung 10.10.2026
 
 - [Gegenprüfung 10.10.2026: Unabhängiger Owner-Gate ergänzt einen Portalhinweis zu scholz-recycling.de an Gessentalstr. 5A ausschließlich als Betreiberketten-Lead. Direkt gelesene Scholz-Gera-Seite vom 25.09.2017 enthält im Abruf keine zurechenbare lokale Adress-/Kontaktzeile. Aktuelle SMH-Standortseite nennt dagegen Fasaneninsel 10, 07548 Gera; anderer Name und Standort, keine belegte SMG-/Gessental-Nachfolge. Keine fremden Kontakte oder Zeiten übernommen. Exakte historische Firmierung/Registerdaten und Betreiberkette bleiben offen. Quellen: https://www.auskunft.de/firma/s8krqw7k-smg-schrott-und-metall-gmbh-gera (Suchlead); https://www.scholz-recycling.com/standort/gera ; https://www.smh-recycling.de/unternehmen/standorte ; research/checkin-20261010-waveD-suedost-owner-gate.md .]

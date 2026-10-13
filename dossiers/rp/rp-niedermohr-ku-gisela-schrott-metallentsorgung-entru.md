@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Frontmatter-Anschrift Luitpoldstr. 9, 66879 Niedermohr und 06383 1322 stammen weiterhin aus Gelbe-Seiten-/11880-Verzeichnisangaben; es gibt kein identifizierendes Betreiber-Impressum, keine qualifizierte Register-/Gewerbequelle und keinen belastbaren Betriebsstatusnachweis. Die vorhandenen Werte und der frühere `aktiv`-Status bleiben entsprechend des früheren Owner-Gates unverändert, sind aber **nicht durch diese Recherche qualifiziert bestätigt**. Das ist kein Schließungsbefund.
+
+**Preise:** Ankauf, Weiterverkauf und Entrümpelungs-/Abholgebühren sind für genau diesen Betrieb nicht verifiziert. Für GEO zuerst Gewerbe und aktuellen Kunden-/Annahmeort in Niedermohr klären.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Keine neue qualifizierte Quelle zur Identität/aktuellen Tätigkeit gefunden. Die bestehenden zwei Verzeichnisleads für Luitpoldstr. 9, 66879 und 06383 1322 bleiben Hinweise, nicht Betreiberbelege; der frühere NorthData-Namensaufruf ohne passenden Treffer ist keine amtliche Negativauskunft. Status-/Feldentscheidungen aus dem dokumentierten Owner-Gate nicht eigenmächtig verändert, kein Schließungsurteil. Kein bestätigter Metallankauf, Teileverkauf oder Gebührentarif. Für GEO ist eine aktuelle Gewerberegister-/Betreiberbestätigung nötig. Quellen-/Leads: https://www.northdata.de/Gisela+Ku%C3%9F,+Niedermohr ; https://www.gelbeseiten.de/ ; https://www.11880.com/]
 
 ### Recherche 05.10.2026
 

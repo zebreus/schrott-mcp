@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Erheblicher Identitäts-/Branchenklärfall, nicht einfach ein Händler ohne Website. NorthData führt eine ehemalige AuDie 24 GmbH (HRB 16360 Coesfeld/HRB 15250 Aachen) unter Feuerbestattung Nottuln GmbH, gelöscht 2025; Unternehmensgegenstand Krematorium. Die auffindbare AuDie-Website gehört dagegen laut Impressum einer AuDie GmbH, HRB 5932 Coesfeld, und beschreibt automatisierte Dienstleistungen/Arztterminsoftware. Gleiche Anschrift als Verzeichnislead ist keine Gleichsetzung dieser Rechtsträger. Keine Schrotttätigkeit primär belegt, keine Kontakte/Website ins Frontmatter übernommen, keine Schließung des unidentifizierten Seed-Händlers behauptet. Ankauf/Verkauf/Gebühren: keine zuordenbaren Listen.
+Erheblicher Identitäts-/Branchenklärfall, nicht einfach ein Händler ohne Website. NorthData führt eine ehemalige AuDie 24 GmbH (HRB 16360 Coesfeld/HRB 15250 Aachen) unter Feuerbestattung Nottuln GmbH, gelöscht 2025; Unternehmensgegenstand Krematorium. Die auffindbare AuDie-Website gehört dagegen laut Impressum einer AuDie GmbH, HRB 5932 Coesfeld, und beschreibt automatisierte Dienstleistungen/Arztterminsoftware. Ein aktueller 11880-Suchlead zu AuDie 24 GmbH/Altmaterialhandel an Esteresch 6 löst die widersprüchlichen Rechtsträger nicht auf. Keine Schrotttätigkeit primär belegt, keine Kontakte/Website ins Frontmatter übernommen, keine Schließung des unidentifizierten Seed-Händlers behauptet. **Ankauf:** keine zuordenbaren Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Erneuter Abgleich des 11880-Leads „AuDie 24 GmbH“/Altmaterial- und Schrotthandel an Esteresch 6 mit den getrennten Register-/Website-Spuren: HRB 16360/Feuerbestattung Nottuln ist 2025 gelöscht und war dem Krematorium zugeordnet; audie24.com-Impressum nennt AuDie GmbH, HRB 5932, Software/Termindienste. Der Verzeichnistreffer stellt keine Rechtsträger- oder Betreiberkette her und belegt keinen Schrottbetrieb. Keine Frontmatter-Änderung, keine Preise oder Gebühren. Esteresch 6 wegen Identitätskonflikt nicht geocodieren. Quelle(n): https://www.11880.com/branchenbuch/gronau-westfalen/060440090B73359953/audie-24-gmbh.html ; https://www.northdata.de/Feuerbestattung%20Nottuln%20GmbH,%20Gronau/Amtsgericht%20Coesfeld%20HRB%2016360 ; http://www.audie24.com/CompanyDetails.html]
 
 ### Recherche 01.10.2026
 

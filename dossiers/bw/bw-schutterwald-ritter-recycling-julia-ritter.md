@@ -30,6 +30,10 @@ Die Verzeichnisse führen „Ritter Recycling (Julia Ritter)“ an Am Ziegelplat
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Das direkt abrufbare 11880-Profil (aktualisiert 12.10.2026) führt weiterhin „Ritter Recycling Julia Ritter“, Am Ziegelplatz 17, 77746 Schutterwald, 0781 6057815, Kategorie Containerdienst, und verlinkt auf ritter-bau.de. Das ist weiterhin nur ein Aggregatorlead: die verlinkte Betreiberwebsite/im Impressum gehört der Ritter-Bau GmbH (HRB 710458, Geschäftsführer Mathias Ritter), beschreibt Bauleistungen und nennt die andere Nummer 0781 605780. Weder Julia Ritter/Ritter Recycling noch ein zweiter Betrieb am Grundstück werden dadurch mit Ritter-Bau identifiziert. Frontmatter bleibt unverändert, keine Preis-/Gebührenquelle und kein Schrottannahmebeleg; Adresse nicht für GEO dieses ungeklärten Händlers freigeben. Quellen: https://www.11880.com/branchenbuch/schutterwald/060371058B112262161/ritter-recycling-julia-ritter.html ; https://www.ritter-bau.de/ ; https://www.ritter-bau.de/impressum]
+
 ### Nachprüfung 07.10.2026
 
 - [Korrektur 07.10.2026: Die Betreiberwebsite von Ritter-Bau GmbH wurde einschließlich Impressum gelesen: sie nennt Am Ziegelplatz 17, 77746 Schutterwald, HRB 710458 beim AG Freiburg, Geschäftsführer Mathias Ritter und 0781 605780; beschrieben werden Bau- und Ingenieurleistungen. Das ist ein belegter anderer Rechtsträger als der Verzeichnisname „Ritter Recycling (Julia Ritter)“; kein Schrottangebot und keine Verbindung zur Julia-Ritter-Zeile nachgewiesen. Der alte Verzeichnisbeleg führt 0781 6057815. Die Abweichung macht den früheren Status `aktiv` zu sicher; auf `pruefung` korrigiert, keine Schließung behauptet und keine Ritter-Bau-Kontaktdaten übernommen. Preis-/Gebührenangaben des gesuchten Schrottbetriebs bleiben unbekannt; Quelle: https://www.ritter-bau.de/ ; https://www.ritter-bau.de/impressum ; https://www.gelbeseiten.de/gsbiz/7870ca15-347b-460d-b156-374feb1eec73 ; https://www.11880.com/branchenbuch/schutterwald/060371058B112262161/ritter-recycling-julia-ritter.html]

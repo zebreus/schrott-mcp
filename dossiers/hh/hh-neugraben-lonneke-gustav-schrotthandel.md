@@ -30,6 +30,10 @@ Unbestätigter Seed-/Verzeichnis-Lead „Lönneke Gustav Schrotthandel“ an der
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Ein weiterer Verzeichnis-Suchtreffer wiederholt Lönneke Gustav SchrottHdl. an Cuxhavener Str. 394, 21149 Hamburg. Da es sich um einen weiteren Aggregator ohne Betreiberbestätigung handelt, erhöht die Wiederholung nicht die Belegklasse; Anschrift/Telefon bleiben ungeprüft und werden nicht als aktuelle Annahmestelle empfohlen. Keine Ankaufspreisliste, Verkaufspreise oder Gebühren. Kein GEO-Pin. Quelle(n): https://www.schrottplatz.org/rosengarten ; bisherige Leads: https://www.misterwhat.de/company/2120181-loenneke-gustav-schrotthdl-hamburg ; https://hamburg.stadtbranchenbuch.com/116259.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Einzelhändler)

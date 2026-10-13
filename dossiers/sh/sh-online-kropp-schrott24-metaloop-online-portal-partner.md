@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott24 ist ein Online-Ankaufportal von Metaloop Europe GmbH; die offizielle Standortseite nennt für Schleswig-Holstein „Schleswig/Rendsburg“, aber keinen benannten Kropp-Partner. Den konkreten Lieferpunkt und Annahmezeiten erhalten Kund*innen laut Portal erst nach Online-Verkauf; Händlerpreise können je nach Standort abweichen. Kropp daher nicht als bestätigte Filiale oder Kundenannahmestelle behandeln.
+
+**Ankauf:** Am 13.10.2026 zeigte das Portal für Kupfer blank I / Millberry 8,20 €/kg ab 3 kg, 8,49 €/kg ab 100 kg und 8,79 €/kg ab 500 kg. Die Produktseite weist auf Abhängigkeit von PLZ/Transportart hin und nennt keinen Abruf-Stichtag; nur momentane Online-Angebote, keine Kropp-Partnerkurse. **Verkauf:** keine Liste. **Gebühren:** keine allgemeine Tarifliste; der Transportweg beeinflusst das Angebot, konkreter Lieferpunkt erst nach Verkauf.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiber-Impressum bestätigt Metaloop Europe GmbH als Portalgesellschaft. Die offizielle Standortseite führt Schleswig/Rendsburg, nicht Kropp; genauen Lieferpunkt und Öffnungszeiten gibt Schrott24 erst nach Online-Verkauf bekannt und weist auf mögliche Preisabweichung des lokalen Schrotthändlers hin. Produktseite Kupfer blank I/Millberry am Abrufdatum: Ankaufangebot 8,20 €/kg ab 3 kg, 8,49 €/kg ab 100 kg, 8,79 €/kg ab 500 kg. Die Seite nennt keinen Preis-Stichtag und bindet Werte an PLZ/Transportoption; nicht als garantierter Kurs oder Preis des Kropp-Partners interpretieren. Keine Händler-Verkaufspreisliste oder separate allgemeine Gebührenliste gefunden. Kein Kropp-Pin. Quelle(n): https://www.schrott24.de/faq/impressum ; https://www.schrott24.de/standorte ; https://www.schrott24.de/altmetall-ankauf/kupfer/kupfer-blank-i-millberry]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

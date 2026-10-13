@@ -10,9 +10,9 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.schrott24.de
-website_status: ''
+website_status: aktiv
 status: aktiv
-description: ''
+description: Bundesweites Online-Altmetall-Ankaufsangebot mit Paketversand, Abholung und Partner-Anlieferung; konkrete lokale Annahmeadresse wird nach Verkaufsabschluss mitgeteilt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 7) Überregional / mobil / online (in SN tätig)
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Schrott24/Metaloop ist ein Onlineangebot; das Impressum nennt Metaloop Europe GmbH in Graz, keine lokale Leipziger/Sächsische Annahmestelle. Die englische Preisseite zeigte beim Abruf indikative „bis zu“-Ankaufobergrenzen, während die deutsche Seite weiterhin eine alte Preisdatumszeile (14.11.2025) anzeigte. Werte sind standort-, mengen-, sorten- und transportabhängig, keine feste Zusage. Keine Material-Verkaufspreise; Versand-/Servicegebühren sind auf der FAQ widersprüchlich ausgewiesen.
+Schrott24/Metaloop ist ein aktives Onlineangebot; das Impressum nennt Metaloop Europe GmbH in Graz, aber keine lokale sächsische Annahmestelle. Die englische Preisseite zeigte indikative „bis zu“-**Ankauf**obergrenzen für Deutschland/Teilladung/angeliefert, ohne eindeutiges Aktualisierungsdatum; Beträge sind von Sorte, Qualität, Menge, Ort und Transport abhängig und keine Zusage. Die deutsche Preisseite zeigt weiterhin den alten Datumsstand 14.11.2025. **Verkauf** von Material an Kunden: keine öffentliche Preisliste. **Gebühren:** FAQ nennt €6 je Paket und an anderer Stelle €5 Erlösabzug je genutzter Versandmarke; Big Bag kostet €5 zzgl. Versand, Paletten-/Abholkosten variieren. 2 % PayPal-Auszahlung und Stornobedingungen sind Plattformtarife, nicht lokale sächsische Gebühren. Keine lokale Adresse oder Annahmestelle für GEO belegt.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberplattform und FAQ direkt abgerufen; Impressum nennt Metaloop Europe GmbH, Puchstraße 17, 8020 Graz, FN 638630m. Das belegt den Onlineanbieter, nicht eine Annahmestelle in Sachsen. **ANKAUF (indikative Plattformwerte, Deutschland/Teilladung/angeliefert, „up to“, ohne sichtbares Preisdatum):** Aluminium €2,48/kg, Blei €1,43/kg, Edelstahl €1,90/kg, Stahl €0,21/kg, Hartmetall €51/kg, Kabel €2,86/kg, Kupfer €5,90/kg, Messing €7,31/kg, Tombak/Legierung €9,30/kg, Zink €2,28/kg, Zinn €29,64/kg. Elektroschrott wird mit „up to €0,00/kg“ angezeigt und ist kein positiver Ankaufkurs. Die vorherige Dossieraufnahme vom 12.10. hielt für Elektroschrott €11,50/kg fest; der Direktabruf vom 13.10. zeigte €0,00/kg. Ursache dieses Darstellungs-/Abrufkonflikts unbekannt, keine Zahl als garantierten Kurs verwenden. Die deutsche Seite trägt weiter die alte Datumszeile 14.11.2025; deren Angaben sind nicht als aktuelle Tageskurse zu behandeln. **VERKAUF:** keine Material-Verkaufspreisliste. **GEBÜHREN:** FAQ zeigt €6 je Paket bis 31,5 kg, zugleich €5 Abzug je tatsächlich genutzter Marke (nicht genutzte kostenlos); Big Bag €5 je Stück zzgl. Versand; Abholung auf Palette nach Anzahl/Gewicht/Ort; PayPal 2 %; AGB-Stornierung nach 12 Stunden 5 % des deklarierten Werts, mind. €20 bei Wert unter €400. Unterschiedliche Paketangaben bleiben als Quellenkonflikt sichtbar. Adresse/Zeiten des Partners werden erst nach Online-Verkauf genannt; Eigenanlieferung ab €100 Materialwert. `website_status` auf `aktiv` gesetzt, da die Anbieterwebsite live ist; keine lokale Anschrift oder GEO ergänzt. Quellen: https://en.schrott24.de/scrap-prices ; https://www.schrott24.de/schrottpreise/ ; https://www.schrott24.de/faq ; https://www.schrott24.de/faq/agb/ ; https://www.schrott24.de/faq/impressum.]
 
 ### Recherche 12.10.2026
 

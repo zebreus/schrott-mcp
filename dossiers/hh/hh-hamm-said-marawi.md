@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Handelsregister bestätigt Said Marawi GmbH (HRB 127425) und die Geschäftsanschrift Süderstr. 199, 20537 Hamburg sowie den Gegenstand Autoverwertung/Autoselbsthilfe. Die Hamburger Behörden-/Branchenbuchseite nennt dort „Autoverwertung Hamm“ und 040 554 487 17; das ist kein Betreiberkontakt und keine Bestätigung öffentlicher Annahme. Registerstatus/Jahresabschluss belegen nicht, dass heute ein Hof geöffnet ist.
+
+**Ankauf:** keine bestätigte Kundschaftsannahme oder Fahrzeug-/Metallkurse. **Verkauf:** keine Liste. **Gebühren:** keine Angaben. Süderstr. 199 nicht als Kundenannahme-GEO setzen, bis Zufahrt und Öffnung bestätigt sind.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Offizieller Hamburg.de-Branchenbucheintrag erneut als Stadtverzeichnis-Lead geprüft: Bezeichnung „Autoverwertung Hamm“ und Telefonnummer 040 554 487 17 im Zusammenhang mit Hamburg; die Darstellung bestätigt weder Betreiberkontakt noch Annahmebetrieb der Said Marawi GmbH. Registeranschrift Süderstr. 199 bleibt Geschäftsanschrift, nicht automatisch Kundenhof. Kein Telefon-/Websitefill, keine Aktivitäts- oder GEO-Aussage. Keine belastbare Ankaufspreisliste, Verkaufspreise oder Gebühren. Quelle(n): https://www.hamburg.de/branchenbuch/hamburg/eintrag/10481552 ; https://handelsregister.live/hrb/hamburg/ag-hamburg/127425/said-marawi-gmbh]
 
 ### Recherche 03.10.2026
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Theobald Deichmann Schrotthandel“ in Groß-Rohrheim ist weiterhin kein Betreiber-/Registerbeleg identifiziert. Die seedgenannte Speyerstr. 40 hat keinen nachgewiesenen Betriebsbezug; Straßenname/-existenz (PLZ-Ort 68649) darf nicht als Geschäftsadresse gewertet werden. Die Frontmatter-Straße bleibt ein ungeprüfter Seedlead, nicht GEO-fähig.
+
+**Preise:** keine diesem Ziel zuordenbaren Ankaufspreise, Verkaufspreise oder Gebühren. Keine Nicht-Existenz oder Schließung aus Suchlücken ableiten.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Erneute Namens-/Ortssuche und NorthData-Abfrage nach Theobald Deichmann, Schrotthandel, Groß-Rohrheim lieferte keinen passenden Firmenbeleg. Das ist keine amtliche Gewerberegisterauskunft und kein Nicht-Existenz-/Schließungsnachweis. Speyerstr. 40 bleibt Seedangabe; Straßenexistenz allein belegt weder Händler noch Hausnummernzuordnung. Keine Frontmatter-Ergänzung, keine Preis-/Gebührenquelle. Vor GEO Betrieb und Adresse lokal/kommunal identifizieren. Suchabfrage: https://www.northdata.de/?query=Theobald+Deichmann+Gro%C3%9F-Rohrheim]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

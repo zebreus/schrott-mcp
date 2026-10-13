@@ -28,6 +28,10 @@ Die Seed-Zeile beschreibt eine Schrottgroßhandlung in Ratzeburg, aber auch aktu
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Ein zusätzlicher Aggregator-Suchtreffer wiederholt Kolberger Str. 18, 23909 Ratzeburg, führt den Treffer aber auf einer Seite mit dem Orts-/Seitentitel „Lüdersdorf“. Das ist kein unabhängiger Standortbeleg und verstärkt den Grund, den Lead nicht als bestätigte Anschrift oder Annahmestelle zu behandeln. Betreiber, Telefonnummernkonflikt und aktuelle Tätigkeit bleiben offen; keine Frontmatter-Änderung/GEO. Keine belegten Ankaufspreise, Verkaufsliste oder Gebühren. Quelle(n): https://www.schrottplatz.org/luedersdorf ; bereits dokumentierte Verzeichnisleads: https://www.dasoertliche.de/Themen/Gauer-Kurt-Schrottgro%C3%9Fhandlung-Ratzeburg-Kolberger-Str ; https://www.infobel.com/de/germany/gauer_kurt_schrottgrosshandlung/ratzeburg/DE100224105-0454182666/businessdetails.aspx]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Neue Direktabrufe der Branchenverzeichnisse bestätigen nur einen Lead zu "Gauer Kurt Schrottgroßhandlung", Kolberger Str. 18, 23909 Ratzeburg, mit den Stichworten Metall/Nutzeisen/Schrott. Gelbe Seiten/Das Örtliche nennen Mobil 0171 1945699, Infobel eine abweichende 04541 82666; kein Betreiberauftritt, Register- oder Kommunalbeleg gefunden. Keine Frontmatter-Füllung. **Preise:** keine Ankaufspreise, Verkaufsliste oder Gebühren gefunden. Quelle(n): https://www.dasoertliche.de/Themen/Gauer-Kurt-Schrottgro%C3%9Fhandlung-Ratzeburg-Kolberger-Str ; https://www.gelbeseiten.de/gsbiz/1a4b8566-79c7-4d12-a362-9c29737a3c2e ; https://www.infobel.com/de/germany/gauer_kurt_schrottgrosshandlung/ratzeburg/DE100224105-0454182666/businessdetails.aspx]

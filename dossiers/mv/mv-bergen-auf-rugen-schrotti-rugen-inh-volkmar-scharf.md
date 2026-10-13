@@ -31,6 +31,10 @@ Für „Schrotti Rügen Inh. Volkmar Scharf“ in Silvitz bei Bergen auf Rügen 
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Ein externer Ortsindex wiederholt für „Schrotti Rügen“ Silvitz 8, 18528, Tel. 0171 7246081 und nennt die alte Domain schrotti.de.rs; das ist ein Drittanbieter-Lead, kein aktueller Betreiberbeleg. Die dort angezeigten Koordinaten werden ausdrücklich nicht übernommen. Der Lead bestätigt weder Inhaber Volkmar Scharf noch aktuelle öffentliche Annahme/Abholung. ANKAUF: kein händlerspezifischer Preis; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Das lokale Kupfer-Richtwertband bleibt nicht dem Händler zurechenbar; Adresse/Eintritt vor GEO verifizieren. Quelle/Lead: https://exa.ai/library/place/zk41rqyx6vn (Drittanbieter-Ortsindex; keine Primärquelle).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Ähnlich benannter Betreiber „Schrott & Metalle Torsten Rüge“ hat einen eigenen Auftritt und ist mit Steffen Tiede, Wöbbeliner Straße 69, 19288 Ludwigslust verbunden; Name, Kontakt und Ort stimmen nicht mit Schrotti Rügen/Volkmar Scharf in Silvitz überein. Daher weder Identitätszusammenführung noch Übertragung etwaiger Leistungs-/Preisangaben. Die lokale Kupfer-Millberry-Zahl 9,70–11,40 €/kg des Branchenportals bleibt nicht händlerspezifisch. Ankauf: kein belegter Kurs; Verkauf: keine Liste; Gebühren: keine Angaben. Quellen: https://www.schrott-ruege.de/ ; https://www.schrott-ruege.de/schrott ; Lead (nicht Händlerpreis): https://lokaleschrottplatz.de/mecklenburg-vorpommern/bergen-auf-ruegen/]

@@ -28,6 +28,10 @@ Die B + M Metalle Berlin GmbH (HRB 132091 B) wurde laut dem dokumentierten Regis
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: NorthData zeigt für B + M Metalle Berlin GmbH, HRB 132091 B, weiterhin die Veröffentlichung vom 19.09.2025 zur Amtslöschung der vermögenslosen Gesellschaft (§ 394 FamFG). Das betrifft den Rechtsträger; eine spätere Nutzung der letzten Registeranschrift Kaiser-Wilhelm-Straße 88 durch einen anderen Händler ist damit weder bestätigt noch ausgeschlossen. Die Adresse im Frontmatter bleibt als historischer Registerstand, nicht als aktiver Annahmeort. Kein aktueller Betreiber oder Fortführer, kein zweiter unabhängiger aktueller Registerbeleg. ANKAUF: keine aktuelle zurechenbare Kursliste; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. GEO für den Händler-/Kundenpunkt bleibt offen. Quelle: https://www.northdata.de/B%20+%20M%20Metalle%20Berlin%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20132091%20B (Registerdatenbank).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - nur lokaleschrottplatz; verlinkte Website metallschrott-express.de gehört NRW-Abholer (kein Berlin-Bezug) → Zuordnung zweifelhaft Adresse: Borstellstr. 42, 12167 Berlin

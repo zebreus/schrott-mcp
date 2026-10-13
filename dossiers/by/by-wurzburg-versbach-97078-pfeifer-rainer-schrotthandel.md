@@ -31,6 +31,10 @@ Ankauf/Verkauf/Gebühren: keine primär belegte Zahlenliste. Von Verzeichnis-Öf
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Erneute exakte Namens-/Ortsabfrage erbrachte keinen verwertbaren neuen Betreiber-, Register- oder kommunalen Beleg. Die Werte Brunnfloßgasse 12 / 97078 / 0931 22357 bleiben ein Gelbe-Seiten-Portalhinweis; Christian und Jürgen Pfeifer bleiben getrennte Namesake-Leads ohne belegte Familien-/Nachfolgekette. Leere Kontaktfelder und `clear_fields: phone` bleiben bestehen; weder Betriebsschließung noch Ankauf ist daraus ableitbar. Kein zuordenbarer Ankaufspreis, Teileverkaufspreis oder Gebührentarif. Vor GEO Inhaber und Annahmeort prüfen. Quellen als Suchleads: https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c ; https://frag-regional.de/firma/pfeifer-rainer-schrotthandel/ ; https://www.schrottplatz-info.de/schrottplatz/Wuerzburg/Pfeifer-Christian-Schrotthandel]
+
 ### Recherche 11.10.2026
 
 - [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege und offenen Namesake-Zuordnung explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]

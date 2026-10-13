@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Bracht-Seed (Christenfeld 12) ist weiterhin nicht als Allmeta-Filiale belegt. Die aktuellen Allmeta-Betreiberseiten nennen ausschließlich den Standort Hontzlarstr. 18, 41238 Mönchengladbach; dessen Annahmebedingungen dürfen nicht auf Brüggen übertragen werden.
+
+**Nur für den bestätigten Mönchengladbacher Betrieb:** Ankauf von FE-Schrott ab 200 kg; NE-Metalle ab 1 kg; individuelle tagesaktuelle Angebote auf Anfrage, keine Zahlenkurse. Kleinere Eisenmengen können laut Betreiber kostenlos abgegeben oder zurückgenommen werden (keine Ankaufvergütung). Elektrogeräte werden am Hof nicht angenommen, einzelne elektrische Bestandteile ggf. angekauft. **Verkauf:** keine Preisliste. **Gebühren:** Containerdienst ohne veröffentlichte Tarife. Diese Schwellen und Leistungen sind kein Beleg für den Bracht-Seed.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Allmeta-Ankaufseite direkt geprüft: sie nennt als einzigen Standort Hontzlarstr. 18, 41238 Mönchengladbach; FE-Ankauf ab 200 kg, NE-Metalle ab 1 kg und individuelle tagesaktuelle Angebote ohne numerische Kurstabelle. Kleinere Eisenmengen können laut Seite kostenfrei abgegeben oder zurückgenommen werden, also nicht als vergüteter Ankauf zählen; Elektrogeräte werden am Hof nicht angenommen. Die Containerdienstseite veröffentlicht keine Tarifliste. Keine dieser Angaben belegt die Seed-Filiale Christenfeld 12/Bracht; keine Felder übertragen, Status pruefung bleibt, kein GEO. Ankaufspreise: keine Zahlenliste; Verkauf: keine Preisliste; Gebühren: keine Containergebühren veröffentlicht. Quelle(n): https://allmeta.de/altmetall-ankauf ; https://allmeta.de/containerdienst/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

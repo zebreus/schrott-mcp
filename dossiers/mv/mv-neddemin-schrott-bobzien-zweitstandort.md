@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für Neddemin gibt es einen Branchenlead „Karsten Bobzien“ an Dorfstraße 19, Hohenmin, sowie einen Creditreform-Eintrag zu Karsten Bobzien Maschinenhandel & Kläranlagen an derselben Anschrift. Das stützt einen örtlichen Maschinen-/Recyclingbezug, beweist aber weder öffentlichen Schrottankauf noch einen zweiten Schrottplatzstandort. Ein separater „Schrott Bobzien“-Lead in Neubrandenburg ist nicht mit Neddemin verbunden. **Ankauf**, **Verkauf** und **Gebühren:** keine händlerspezifischen Preislisten; Adresse und Zweitstandortfrage offen, daher keine GEO-Zuordnung.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: 11880 listet Karsten Bobzien, Dorfstr. 19, 17039 Neddemin/Hohenmin, als Abrissfirma, mit 0395 4226656 und zusätzlicher Nummer 03961 229312; auf der Seite ist der Datenstand 20.11.2025 angegeben. Creditreform nennt für Karsten Bobzien Maschinenhandel & Kläranlagen an gleicher Anschrift dagegen 03961 229311. Das sind Portal-/Datenbankangaben mit abweichenden Nummern und keine Bestätigung eines öffentlich betriebenen Schrottannahmepunkts. Der andere „Schrott Karsten Bobzien“-Lead in Neubrandenburg, Otto-Lilienthal-Str. 48, bleibt separat; Zweitstandortbeziehung nicht belegt. ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenpreise oder Tarife. Keine Adresse/Koordinate hochgestuft. Quellen: https://www.11880.com/branchenbuch/neddemin/290110001B27271838/karsten-bobzien.html ; https://firmeneintrag.creditreform.de/17039/3490062045/KARSTEN_BOBZIEN_MASCHINENHANDEL_KLAERANLAGEN.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

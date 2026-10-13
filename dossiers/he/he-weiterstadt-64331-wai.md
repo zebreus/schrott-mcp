@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt **Wai GmbH**, HRB 87307 beim AG Darmstadt, mit Geschäftsanschrift Georg-Storm-Str. 33, 64331 Weiterstadt und einem Zweck rund um Sortierung/Prüfung von Abfällen (u. a. Kunststoff, Papier, Metall), Recyclingberatung und Import/Export. Die sichtbare Historie enthält zunächst Liquidationsbekanntmachungen 2017, dann eine Fortsetzung und Geschäftsführerbestellung 2018. Das spricht gegen eine einfache Gleichsetzung der alten Auflösungsmeldung mit endgültiger Schließung; aktuelle Geschäftstätigkeit/öffentliche Annahme ist aber nicht belegt. Verzeichnisangaben zu Georg-Storm-Str. 33/Telefon und abweichend Lessingstr. 10/anderer Nummer sind nicht unabhängig verifiziert.
+
+**Preise:** keine zuordenbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung. Der registrierte Sitz ist nicht automatisch ein Annahmehof und noch kein GEO-Punkt.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Registerdatenbankprofil direkt geprüft: NorthData nennt Wai GmbH, HRB 87307 AG Darmstadt, Georg-Storm-Str. 33, 64331 Weiterstadt; Unternehmensgegenstand umfasst Sortierung von Abfällen für Dritte, Sortierkontrolle von Kunststoff/Papier/Metall, Recyclingberatung und Import/Export. Historie: Liquidationsveröffentlichungen vom 07.02.2017 und 21.02.2017, danach Fortsetzung/Geschäftsführer Ahmad Imran Wasim am 15.02.2018; daher weder aktuellen Aktivbetrieb noch endgültige Schließung daraus ableiten. Andere Directory-Leads widersprechen bei Straße/Telefon (Lessingstr. 10 vs. Georg-Storm-Str. 33); keiner als Betreiberkontakt gefüllt. Keine aktuelle Betreiberseite, öffentliche Annahme, Preise oder Tarife belegt. Frontmatter bleibt offen/pruefung; Georg-Storm-Str. 33 ist nur Registeradresse und keine bestätigte GEO-Annahmestelle. Quelle: https://www.northdata.de/Wai%20GmbH,%20Weiterstadt/Amtsgericht%20Darmstadt%20HRB%2087307 ; https://www.webvalid.de/company/Wai+GmbH,+Weiterstadt/HRB+87307 (abweichender/älterer Drittanbieterhinweis, nicht als Abschlussbeleg gewertet)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

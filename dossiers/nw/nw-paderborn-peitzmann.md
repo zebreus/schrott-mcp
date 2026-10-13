@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Registerseitig konkret rekonstruierte Betreiberkette: Peitzmann GmbH & Co. KG (HRA 7080) → Formwechsel 2017 zur Peitzmann GmbH (HRB 13128) → Umfirmierung 2019 PreZero Metall GmbH. Nicht mit der älteren 2004 erloschenen GmbH HRB 1586 vermengen. Am Atlaswerk 22, 33106 Paderborn ist durch Register und das bereits dokumentierte Betreiber-ZER-Zertifikat als PreZero-Standort bestätigt. Zwei Registerspiegel derselben Bekanntmachung sind aber kein wirklich unabhängiger historischer Kettenbeleg; Umbenennung/Frontmatter-Fills bleiben dem Owner nach zusätzlicher Bestätigung vorbehalten. **Ankauf:** Betreiber-Metallseite beschreibt Vergütung, keine Zahlenliste. **Verkauf:** industrielle Sekundärrohstoffe, keine öffentlich verifizierte Preisliste. **Gebühren:** keine Liste. **Offen:** unabhängiger Peitzmann→PreZero-Beleg, lokale Kundenannahme/Telefon/Zeiten, aktuelles Efb-Zertifikat. Bei Adressfreigabe Koordinaten neu prüfen.
+Registerseitig konkret rekonstruierte Betreiberkette: Peitzmann GmbH & Co. KG (HRA 7080) → Formwechsel 2017 zur Peitzmann GmbH (HRB 13128) → Umfirmierung 2019 PreZero Metall GmbH. Nicht mit der älteren 2004 erloschenen GmbH HRB 1586 vermengen. Am Atlaswerk 22, 33106 Paderborn ist durch Register und Betreiber-Zertifikatsübersicht als heutiger PreZero-Standort bestätigt. Zwei Registerspiegel derselben Bekanntmachung sind aber kein wirklich unabhängiger historischer Kettenbeleg; Umbenennung/Frontmatter-Fills bleiben dem Owner nach zusätzlicher Bestätigung vorbehalten. **Ankauf:** Betreiber-Metallseite beschreibt vergüteten, marktgerechten Ankauf, keine Zahlenliste. **Verkauf:** industrielle Sekundärrohstoffe, keine öffentlich verifizierte Preisliste. **Gebühren:** keine Liste. Die Metallseite belegt keine private Kundenannahme. **Offen:** unabhängiger Peitzmann→PreZero-Beleg, lokale Kundenannahme/Telefon/Zeiten und aktuelles Efb-Zertifikat. Bei Adressfreigabe Koordinaten neu prüfen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: PreZero-Rohstoffseite erneut direkt gelesen: Schrott-/Metallankauf gegen marktgerechte Vergütung und industrielle Lieferung von Sekundärrohstoffen; keine numerischen Einkaufs- oder Verkaufskurse und keine Gebühren-/Containerpreisliste. Die Seite beschreibt keine private Paderborner Annahme. Bereits dokumentierter Standort Am Atlaswerk 22 bleibt durch Register-/Zertifikatsbelege gestützt, aber historische Peitzmann→PreZero-Kette und Kundenannahme sind damit nicht unabhängig neu belegt. Keine Frontmatter-/GEO-Änderung. Quelle(n): https://www.prezero.com/de/rohstoffe/schrotte-und-metalle ; https://www.prezero.com/de/zertifikate]
 
 ### Recherche 12.10.2026
 

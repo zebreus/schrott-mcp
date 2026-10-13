@@ -28,6 +28,10 @@ Jörg Heubach Recycling/Transporte in Gehren ist bisher nur durch Verzeichnisse 
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Ein drittanbieterbasierter Ortsindex liefert für „Jörg Heubach“ an Untere Marktstr. 47, 98694 Gehren Koordinaten 50.651266, 11.008213. Das ist kein Betreiber-, Register- oder kommunaler Adressnachweis und bestätigt weder die aktuelle Betriebsidentität noch öffentlichen Schrottankauf; deshalb ausdrücklich keine Koordinaten oder Anschrift übernommen. Die aktuelle Zugehörigkeit Gehrens zu Ilmenau ist keine Händlerbestätigung. ANKAUF: keine Zahlenkurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Weiterhin individueller Abgleich über Gewerbeauskunft Ilmenau nötig. Quelle/Lead: https://exa.ai/library/place/784jhwdccsv ; kommunaler Kontext: https://www.ilmenau.de/Gehren.]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Primär-/Registerweg fortgesetzt: Ilmenauer Gewerbeangelegenheiten-Seite erneut abgerufen; eine individuelle Gewerberegisterauskunft wurde nicht eingeholt. NorthData-Suche „Heubach Gehren“ zeigt im ersten auslesbaren Ergebnisblock nur nicht kongruente Unternehmen/Personen; unscharfe Suche ist kein Nachweis der Nichtexistenz eines Einzelunternehmens. Brave-Suche 429 begrenzt weitere Namenssuche. Untere Marktstraße 47 bleibt Lead und braucht Betreiber-/Gewerbeabgleich vor Koordinatenanlage. Keine neuen Stammdaten oder Ankauf-/Verkaufspreise/Gebühren; Quelle(n): https://www.ilmenau.de/de/wirtschaft/gewerbeangelegenheiten/ ; https://www.northdata.de/?query=Heubach%20Gehren.]

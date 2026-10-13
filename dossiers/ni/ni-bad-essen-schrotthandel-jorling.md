@@ -27,9 +27,13 @@ provenance_origin: table
 
 Neuer Betreiber-Kandidat: Schrotthandel Jörling / Pascal Rene Jörling unter http://xn--schrotthandel-jrling-ibc.de/ (HTTPS beim Abruf nicht erreichbar). Das Impressum nennt Ritzenburg 5, 32351 Stemwede, während das bisherige Facebook-Profil Bad Essen / Am langen Holz 20 und Verzeichnisse teils Belm nennen. Keine belegte Standort-/Umzugskette; nicht einfach Stemweder Daten auf den Bad-Essen-Seed übertragen.
 
-**Selbstangaben des Website-Kandidaten:** rein mobile Abholung, „Eigene Anlieferung ist nicht möglich“, Vergütung erst ab wechselnden Mindestmengen abhängig vom Tagespreis. Bei regelmäßiger Zusammenarbeit kostenlose Gestellung von Gitterboxen/Containern. **Preise:** keine numerische Ankaufsliste, keine Verkaufswerte oder bezifferten Gebühren; kostenlos gilt ausdrücklich für Behälter bei regelmäßiger Zusammenarbeit, nicht für jede Entsorgungsleistung. Offen: derselbe Betreiber im heutigen Bad Essen oder Umzug nach Stemwede; aktueller Betriebssitz und Gebühren-/Mindestmengenbedingungen.
+**Selbstangaben des Website-Kandidaten:** rein mobile Abholung, „Eigene Anlieferung ist nicht möglich“, Vergütung erst ab wechselnden Mindestmengen abhängig vom Tagespreis. Bei regelmäßiger Zusammenarbeit kostenlose Gestellung von Gitterboxen/Containern. Ein kommunaler Ortschronik-Suchtreffer verortet „Schrotthandel Jörling“ historisch in Bad Essen-Harpenfeld, ist aber keine datierte aktuelle Betreiberbestätigung. **Preise:** keine numerische Ankaufsliste, keine Verkaufswerte oder bezifferten Gebühren; kostenlos gilt ausdrücklich für Behälter bei regelmäßiger Zusammenarbeit, nicht für jede Entsorgungsleistung. Offen: derselbe Betreiber im heutigen Bad Essen oder Umzug nach Stemwede; aktueller Betriebssitz und Gebühren-/Mindestmengenbedingungen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Ein Suchtreffer zur kommunalen Ortschronik/Foto-PDF enthält den historischen Bildhinweis „Am langen Holz 20, Bad Essen–Harpenfeld – Heute: Schrotthandel Jörling“. Veröffentlichungsdatum und Aktualität sind daraus nicht ersichtlich; der PDF-Inhalt wurde nicht als heutiger Betreiber- oder Adressbeleg verifiziert. Daher bleibt die bereits dokumentierte Betreiberwebsite Pascal Rene Jörling in Stemwede ein Kandidat, keine Standort-/Umzugskette zum Bad-Essen-Seed. Keine Frontmatter-Fills. Ankauf nur als variable Tagespreis-/Mengenbedingung auf der Kandidatenseite, keine Zahlenkurse; keine Verkaufspreise oder allgemeinen Gebühren. Quelle(n): https://daten2.verwaltungsportal.de/dateien/seitengenerator/c7f8b1223c1572943ab752a9a562994203458/Nr._60_Koch.pdf ; http://xn--schrotthandel-jrling-ibc.de/Impressum ; http://xn--schrotthandel-jrling-ibc.de/Ankauf ; http://xn--schrotthandel-jrling-ibc.de/Container]
 
 ### Recherche 08.10.2026
 

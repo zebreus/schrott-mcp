@@ -31,6 +31,10 @@ Primärgegenprobe motorenmeister.de: Anita & Marc Pohl GmbH & Co. KG, Homberger 
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Aktuelle 11880-Suche zeigt weiterhin den Treffer „Anita Pohl Autoverwertung“ in Wichdorfer Str. 2, 34308 Bad Emstal-Merxhausen, Telefon 05624 8510; das ist ein Aggregatorlead, kein Betreiber-/Registerbeleg und schließt die Anita/Arthur-Namensvariante nicht. Namens- und Autorecycling-Gegenprüfung liefert weiterhin die getrennte Felsberger Firma Anita & Marc Pohl GmbH & Co. KG (HRA 16296; Homberger Str. 49, 34587 Felsberg-Gensungen), nicht den Bad-Emstaler Seed. Kein zweiter qualifizierter Beleg für Merxhausen; Kontakt bleibt aus Frontmatter entfernt, `clear_fields: phone` bleibt bestehen; kein Schluss auf Schließung. Ankauf, Teileverkauf und Gebühren für den Zielbetrieb ungeklärt; vor GEO lokale Identität/Standort bestätigen. Quellen: https://www.11880.com/suche/anita-pohl-autoverwertung/deutschland ; https://motorenmeister.de/impressum/ ; https://pohl-motoren.de/impressum/]
+
 ### Recherche 11.10.2026
 
 - [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]

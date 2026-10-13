@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Frontmatter nennt Zum Lohfeld 2, 85435 Erding-Klettham und 08122 14246. Die Einträge bei Das Örtliche und Schrottplatz-info stimmen in diesen Angaben überein, bleiben nach Quellenstandard jedoch Verzeichnisleads; ein Betreiberimpressum, Registerbeleg oder unabhängige aktuelle Annahmebestätigung fehlt. Der Datensatz bleibt `pruefung`; Angaben sind nicht als verifizierte Betriebs-/Annahmeadresse zu verstehen.
+
+**Preise:** Ankauf, Materialverkauf und Gebühren sind für Soika nicht verifiziert. Adresse/Eintritt vor GEO erneut durch Betreiber oder Kommune bestätigen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Kein neuer Betreiber- oder Registerbeleg zum Erding-Kletthamer Lead gefunden. Zum Lohfeld 2, 85435 und 08122 14246 stehen weiterhin nur die in der Recherche vom 02.10. dokumentierten Verzeichnistreffer (Das Örtliche und Schrottplatz-info); gleichlautende Aggregatorwerte bestätigen weder aktuellen Betrieb noch öffentlichen Annahmeort. Die direkte Wiederholung des im Dossier verlinkten Schrottplatz-info-Aufrufs liefert aktuell keine Anbieterbeschreibung. Felder/Status bleiben wie vorgefunden, Preise Ankauf/Verkauf/Gebühren unbekannt. Vor GEO Betreiberidentität, Hausnummer und tatsächliche Zufahrt bestätigen. Quelle/Portal-Lead: https://www.schrottplatz-info.de/schrottplatz/Erding/Soika-Peter-SchrottHdl]
 
 ### Recherche 02.10.2026
 

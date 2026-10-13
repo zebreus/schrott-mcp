@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Plausibler Rechtsträgerkandidat ist **HAHN GmbH**, HRB 24161 beim AG Saarbrücken, eingetragene Anschrift Kohlbrunnenstr. 19, 66740 Saarlouis; der Gesellschaftszweck umfasst Handel mit Rohprodukten/Schrotthandel und Güternahverkehr. Seedname und Rechtsform passen, aber der Seedkontakt 0170 2020322 ist nicht mit diesem Rechtsträger verknüpft. Aktuelle Annahmestelle und Betrieb sind nicht belegt. **Hahn & Ecker GmbH (HRB 23595)** ist eine separate Firma und kein erwiesener Vorgänger/Nachfolger.
+
+**Preise:** keine zurechenbare Ankaufspreisliste, Materialverkaufspreisliste oder Gebührenordnung. Kohlbrunnenstr. 19 bleibt Rechtssitz-/Adresskandidat, nicht bestätigter öffentlicher Annahmepunkt/GEO.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Kein neuer Betreiberauftritt, aktueller Originalregisterauszug oder Zuordnungsbeleg für die Seed-Mobilnummer 0170 2020322 gefunden. Frühere Registerdatenbankspur HRB 24161 / Kohlbrunnenstr. 19 und Gesellschaftszweck Schrotthandel/Transport bleibt rechtsträgerbezogen, belegt aber keinen aktuell geöffneten Annahmeplatz. Domainversuche `hahn-saarlouis.de` bleiben nicht auswertbar; Ausfall nicht als Schließung gewertet. HRB 23595 Hahn & Ecker bleibt getrennte Rechtseinheit. Kein Ankaufskurs, Materialverkaufspreis oder Gebührentarif. Keine Felder geändert; Kohlbrunnenstr. 19 nur nach Prüfung der Punktart/Publikumszufahrt für GEO. Quellen: https://www.northdata.de/HAHN%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2024161 ; https://www.northdata.de/Hahn%20%26%20Ecker%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2023595 ; https://hahn-saarlouis.de/ ; https://saarlouis.stadtbranchenbuch.com/120832.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

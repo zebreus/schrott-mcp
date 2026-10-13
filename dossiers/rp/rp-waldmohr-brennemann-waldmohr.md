@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiber-Domain erneut direkt geprüft: HTTPS-Varianten blieben beim Transportfehler, HTTP-Root liefert 404; daraus keine Nichtexistenz oder Schließung geschlossen. Such-/Verzeichnisleads führen weiter Nickelsweiher 15, 66914, 01523 8835642 bzw. abweichend Höcherstr. 3 mit derselben Nummer; ohne Betreiber-/Registerbestätigung bleiben beide Ortsangaben ungeklärt. Keine Frontmatter-Fills/Statusänderung. Weder konkrete Ankaufskurse noch Materialverkaufspreise oder Gebühren verifiziert; Portalformulierungen zu Tagespreisen sind keine Preisliste. Beide Anschriften vor GEO prüfen. Quellen/Leads: https://www.schrotthandelbrennemann.de/ ; http://schrotthandelbrennemann.de/ ; https://www.11880.com/branchenbuch/waldmohr/060440092B112831048/schrotthandel-brennemann.html ; https://www.oeffnungszeiten.com/filiale/Waldmohr-Schrott-und-Metallhaendler-Brennemann-Hoecherstrasse-3/]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Betreiber-Domainlead vertieft: https://www.schrotthandelbrennemann.de/ und https://schrotthandelbrennemann.de/ Transportfehler; http://schrotthandelbrennemann.de/ HTTP 404. Kein lesbares Impressum und kein bestätigter Umzug Nickelsweiher 15 vs Höcherstraße 3. NorthData-Direktsuche Brennemann Waldmohr HTTP 429, nicht als Kein-Registereintrag werten. Website weiter nicht attribuiert, Frontmatter unverändert. ANKAUF keine Zahlen, VERKAUF keine Liste, GEBÜHREN keine Tarife verifiziert; Betreiber-/Gewerberegisterprüfung nötig. Quelle(n): https://www.schrotthandelbrennemann.de/ ; https://schrotthandelbrennemann.de/ ; http://schrotthandelbrennemann.de/ ; https://www.northdata.de/?query=Brennemann%20Waldmohr]

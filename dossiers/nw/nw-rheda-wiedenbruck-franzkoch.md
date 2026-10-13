@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Heinrich Franzkoch GmbH & Co. KG ist registerseitig als Gesellschaftsspur an Zum Sägewerk 153 dokumentiert; die Marke `franzkoch.de` leitet auf **DHS GmbH**, einen anderen Rechtsträger an derselben Adresse, weiter. Ein aktueller 11880-Eintrag führt Heinrich Franzkoch als Schrotthandel an Kupferstr. 40, widerspricht damit aber der anderen Anschrift und ist kein Betreiberbeleg. Keine der beiden Adressen wird ins Frontmatter übernommen, bis die Identität/Standortfunktion geklärt ist.
+
+**Ankauf:** DHS bewirbt Ankauf insbesondere von Behältern/Tanks und zugehöriger Technik; das ist kein allgemeines Franzkoch-Angebot. Keine bezifferten Kurse. **Verkauf:** keine öffentliche Liste. **Gebühren:** keine verifizierte Gebührenliste. Beide Anschriften vor GEO-Auflösung nicht geocodieren.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Der 11880-Eintrag für Heinrich Franzkoch GmbH & Co. KG nennt Schrotthandel, Kupferstr. 40, 33378 Rheda-Wiedenbrück, Tel. 05242 40808-0, info@franzkoch.de und Öffnungszeiten Mo–Fr 08–17 / Sa 08–12; Eintragsdaten 25.07.2026, Portal aktualisiert 02.10.2026. Das bleibt ein einzelner Aggregatorbeleg und kollidiert mit der registerseitig dokumentierten Anschrift Zum Sägewerk 153. Der offizielle DHS-Auftritt an Zum Sägewerk 153 gehört zur DHS GmbH (HRB 7116), nicht automatisch zu Franzkoch. Keine Felder gefüllt; beide Kandidatenadressen für GEO gesperrt bis Identitäts-/Standortklärung. Keine verifizierte Franzkoch-Ankaufspreisliste, Verkaufspreise oder Gebühren. Quelle(n): https://www.11880.com/branchenbuch/rheda-wiedenbrueck/120674719B26716348/franzkoch-heinrich-gmbh-co-kg.html ; https://www.dhs-metallwert.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

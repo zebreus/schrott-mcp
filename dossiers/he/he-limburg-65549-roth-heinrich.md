@@ -30,6 +30,10 @@ Die Zielidentität „Roth Heinrich, Limburg 65549“ ist nicht bestätigt. Neue
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Erneute exakte Suche nach Heinrich Roth/Schrott/Limburg ergab keine qualifizierte Quelle zur Zielidentität im Stadtgebiet. Der namensgenaue Lead Industriestr. 3–5, 65582 Diez bleibt ein anderer Ort und nicht als Umzug/Nachfolger belegt; Silvana Roth und Rohstoffe Roth bleiben getrennte Namens-/Branchenfunde. Keine Werte übertragen, kein Schließungsurteil. Ankauf, Verkauf und Gebühren bleiben für den Limburger Seed unbekannt. Weder Diezer Adresse noch Portaladresse in Limburg für Ziel-GEO freigeben. Quellen/Abgrenzung: https://www.schrottplatz-info.de/schrottplatz/Diez/Roth-Heinrich ; https://www.schrottplatz.org/limburg-an-der-lahn/silvana-roth-altmetallhandel-gmbh-1820711.html ; https://www.rohstoffe-roth.de]
+
 ### Recherche 08.10.2026 (Gegencheck Diez)
 
 - [Recherche 08.10.2026: Präzisierte Suche Roth/Schrotthandel/Limburg findet namensgenauen Schrottplatz-info-Lead „Roth Heinrich“, Industriestr. 3–5 / 65582 Diez, 06432 920292. Das ist eine Aggregator-Adresse in einem anderen Ort, keine bestätigte Ortskorrektur des Limburger Seeds. Silvana Roth Altmetallhandel GmbH (Limburg 65550, Portal) sowie Rohstoffe Roth (Graben-Neudorf, Betreiberwebsite) nicht zugeordnet. Keine passende Primär-/Registerquelle für Heinrich Roth in Limburg verifiziert; status pruefung, Frontmatter leer. ANKAUF/VERKAUF/GEBÜHREN: kein zuordenbares Preisblatt; Preise anderer Roth-Betriebe nicht übernehmen. Offen: Gewerberegister Limburg/Diez, Inhaber und ein belegbarer Zusammenhang der Ortsangaben. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Diez/Roth-Heinrich ; https://www.schrottplatz.org/limburg-an-der-lahn/silvana-roth-altmetallhandel-gmbh-1820711.html ; https://www.rohstoffe-roth.de (Fremdbetrieb).]

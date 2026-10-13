@@ -31,6 +31,10 @@ Der Seed-Datensatz „WRG Zeitz GmbH“ mit Am Güterbahnhof 5 und den bisherige
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Offizielle Scholz-Recycling-Standortseite „Zeitz“ ist weiterhin online, trägt jedoch den sichtbaren Datumsstand 25.09.2017 und enthält im Abruf keine aktuelle Adresse, Ansprechpartner oder Annahmezeiten. Scholz meldet den Abschluss des Verkaufs an Derichebourg Environnement SAS am 31.07.2026; weder diese Konzernmeldung noch die alte Standortseite belegen eine Verbindung zu „WRG Zeitz GmbH“ oder zum Seed-Standort Am Güterbahnhof 5. Kein Merge, keine Schließung abgeleitet. ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenlisten für WRG belegt. Seed-Adresse/Kontakte bleiben ungeklärte Portal-Leads; GEO erst nach Betreiber- und Annahmestellenklärung. Quellen: https://www.scholz-recycling.com/standort/zeitz ; https://www.scholz-recycling.com/news/ ; https://www.scholz-recycling.com/unternehmen/.]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Identitätskonflikt am Güterbahnhof erneut geprüft. Das sekundäre Portal schrottplatz.org führt WRG Zeitz GmbH sowie „SCHROTTPORTAL.EU-Verwaltung GmbH“ an Am Güterbahnhof 5; das nichtamtliche Schrottregister nennt als Zeitz-Eintrag stattdessen Scholz Recycling GmbH am Güterbahnhof. Für WRG selbst weiterhin keine erreichbare Betreiberseite/Registerquelle, die den Datensatz, den Standort oder heutige Leistungen verifiziert. Keine Zusammenführung und keine Aussage über Schließung; bestehende Seed-Kontaktdaten bleiben als ungeklärte Leads markiert, `status: pruefung`. ANKAUF/VERKAUF/GEBÜHREN: keine öffentlichen, dieser Firma zuordenbaren Preislisten oder Tarife. Quellen: https://www.schrottplatz.org/zeitz ; https://schrottregister.pages.dev/ort-zeitz (beide sekundär/nicht amtlich; Abruf 12.10.2026); http://wrg-recycling.de/ (kein verwertbarer Abruf).]

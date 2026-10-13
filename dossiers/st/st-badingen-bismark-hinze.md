@@ -30,6 +30,10 @@ Betreiberwebsite gefunden: Autoverwertung Hinze, Impressum Kai Goedecke, Scherni
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberseiten erneut direkt gelesen: Impressum nennt Autoverwertung Hinze, Kai Goedecke, Schernikauer Chaussee 21, 39628 Bismark OT Schernikau und 039320 322; Leistungsseite bewirbt Altfahrzeugverwertung, Abholung und Verwertungsnachweis und behauptet Zertifizierung. Die Website nennt keine konkreten Fahrzeugankaufbeträge, Ersatzteilpreise oder Abhol-/Entsorgungsgebühren; „Abholung auf Anfrage“ ist keine Zusage kostenloser Abholung. Separater Abschlepp-/Krandienst-Standort in Stendal (Tangermünder Str. 23) nicht als Autoverwertungsadresse oder Hoföffnungszeit übertragen. Betreiberangaben sind weiterhin nicht durch unabhängige aktuelle Quelle zur Nachfolge von Hans-Joachim Hinze ergänzt; Status bleibt `pruefung`. ANKAUF: keine Zahlenliste; VERKAUF: keine öffentliche Teilepreisliste; GEBÜHREN: keine Tarife. Adresse vorhanden, aber Kunden-/Hofeingang nicht eigenständig geokodiert. Quellen: https://www.abschleppdienst-stendal.de/impressum/ ; https://www.abschleppdienst-stendal.de/autoverwertung/ ; https://www.abschleppdienst-stendal.de/kontakt/ (Abruf 13.10.2026).]
+
 ### Recherche / Korrektur 08.10.2026 (Welle Mittenordost)
 
 - Betreiber-Impressum direkt nennt Kai Goedecke (Schreibweise der Quelle), Autoverwertung Hinze, Schernikauer Chaussee 21 / 39628 Bismark OT Schernikau, 039320 322, info@autoverwertung-hinze.de. Keine neue unabhängige zulässige zweite Quelle; Domain/E-Mail und Namensschreibweise nicht in Frontmatter übertragen. Quelle: https://www.abschleppdienst-stendal.de/impressum/

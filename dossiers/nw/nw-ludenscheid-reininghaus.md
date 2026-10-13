@@ -10,8 +10,8 @@ phone: 02351 71028
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: Schrott/Metallverarbeitung/Recyclinghof (OT Bruegge)
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Frontmatter-Daten Karl-Ernst u. Doris Reininghaus, Am Langen Acker 12, 58515 Lüdenscheid, Tel. 02351 71028 und „Recyclinghof“ beruhen auf übereinstimmenden Branchenverzeichnissen; ein aktueller Betreiberauftritt oder unabhängiger Register-/Behördenbeleg wurde nicht ermittelt. Deshalb ist die bisherige Einstufung `aktiv` auf `pruefung` zurückgenommen. Die Felder bleiben als Verzeichnis-Leads sichtbar, nicht als bestätigte Annahmestelle.
+
+**Ankauf:** keine Betreiberbestätigung oder Preisangaben. **Verkauf:** keine Liste. **Gebühren:** keine Liste. Adresse/Telefon erst nach Betreiberbestätigung geocodieren.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Re-Review der 02.10.-Ausnahmefüllung: Anschrift/Telefon und Recyclinghof-Kategorie beruhen auf Oeffnungszeitenbuch, Stadtbranchenbuch und 11880, also weiterhin nur auf Verzeichnisbelegen; gezielte Suche lieferte keinen aktuellen Betreiberauftritt oder unabhängigen Register-/Kommunalbeleg. Eine Aggregator-Konsenslage bestätigt keine aktuelle Aktivität/öffentliche Annahme. Deshalb status aktiv → pruefung und website_status → unbekannt; Adresse/Telefon bleiben als Lead im Frontmatter, ohne GEO. Keine verifizierten Ankaufskurse, Verkaufsliste oder Gebühren. Quelle(n): https://www.oeffnungszeitenbuch.de/ ; https://www.stadtbranchenbuch.com/ ; https://www.11880.com/ ; zuvor dokumentierte Registerleads Northdata HRB 10063/HRA 3488 (Lüdenscheid-Bezug ungeklärt)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
