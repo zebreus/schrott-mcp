@@ -123,10 +123,24 @@ TMPDIR with one Cargo build job, in the isolated current-Main integration tree:
 - Actual final DB-free live example: **HTTP 200, 117684 bytes, 11 prices, eight explicit skips, ten fully conditioned acceptances, `published_at=None`, empty trader info** (`owner-approved-final-live.log`). Full output inspected; example exit alone is not a gate. An initial ad-hoc count regex omitted `edelstahl-v2a` because it excluded digits; the output contains all 11 rows and the handler tests confirm the exact partition.
 - Independent final SPEC and Standards rereviews: **PASS**, exact final source/fixture hashes checked, no remaining concrete blockers within the stated HTML/embedded-CSS contract. Optional display-string grade recovery remains nonblocking. Reviews performed no writes or production access and do not claim deployment approval.
 
-No candidate code changed after this approved hash. Original candidate source,
-all correction/source/test/live evidence must be archived and hash-verified before
-removing its dirty historical worktree. Final actual Main validation and foreign
-file-preservation check remain required during transfer; no blanket staging.
+No candidate code changed after this approved hash. Local integration commit
+`ca654bfc` fast-forwarded Main from `733b6e5f`; all 155 foreign files remained
+hash-identical. Actual `cargo test --offline --locked --workspace` directly in
+Main then passed **713 tests / zero failures / seven ignored**, all Doc-tests
+complete (`main-workspace-ca654bfc.log`, separately repeated in
+`owner-main-ca654bfc-workspace.log`). These runs include the actual foreign
+dossier inputs, without staging or discarding them.
+
+Some `GIT_TERMINAL_PROMPT=0 git push origin main` attempts failed with
+`could not read Username for 'https://github.com': terminal prompts disabled`.
+A subsequent actual push succeeded (`b9e1a4d4..ca654bfc main -> main`), and a
+direct `git ls-remote origin refs/heads/main` confirmed remote
+`ca654bfc215765bb6837c06720741b5dcaa576b1`, matching local Main/origin at that
+point. Code publication is therefore proven; persistent authentication cannot
+be assumed from these mixed results. No deployment of the newer local Main was
+performed or claimed. Original candidate and final
+source/test/live evidence are archived with verified file hashes before removing
+the completed worktrees; all original branch/commit references remain preserved.
 
 Hourly check-in during this gate: production service active; 3881 traders,
 54 materials, 2426 current prices; feedback unchanged through ID7390. Latest app
