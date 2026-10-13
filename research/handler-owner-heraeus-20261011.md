@@ -1,0 +1,86 @@
+# Heraeus Goldstore Hanau — Handler-Ownership 11.10.2026
+
+## Status / Handoff
+
+### Initiale unabhängige Review-Befunde B1–B5 — fixes umgesetzt
+
+`/root/Documents/heraeus-handler-independent-review-20261011.md` vollständig gelesen. Das initiale Review fand B1 veraltete konstante Bedingungen trotz geänderter Webblöcke; B2 fehlende Hidden-/Ancestorprüfung; B3 historische/negierte Betreiber-/Filial-/Richtungsfragmente; B4 unvollständige Material-/Kunden-/Gebührengrenzen; B5 Redirectketten mit Rückkehr zum Ursprungsziel. Die damaligen RED-Regressionsfälle und Korrekturen sind unten als Verlauf dokumentiert. PDFpins bleiben approved konservativ, heutige Identitätsrollen unverändert.
+
+**RED tatsächlich gelaufen (vor Fix):** zehn Tests, fünf ursprüngliche grün, fünf neue B1–B5 rot. Konkrete Panics: B1 `159,50 €` akzeptiert; B2 versteckter Ankaufpreiswrapper akzeptiert; B3 neuer Betreiber vor früherer HMG-Identität akzeptiert; B4 `Silberkorpusware` fehlt in Notes; B5 reale Loopback-Kette `/start -> /hop -> /start` akzeptiert. Log `target/heraeus-evidence/b1-b5-red.log`, Exit 101. Expanded Rates-Fixture enthält nun vollständigen tatsächlichen Nicht-Preis-Maintext einschließlich aller FAQ/Annahme/Ausschluss/Gebühren/Filial/Status-/Barrenblöcke, nicht nur Keywordfragmente. Impressum-Fixture ebenfalls um vollständigen Primärblock erweitert.
+
+**GREEN der ersten Korrekturrunde:** 12 gezielte Tests; Workspace 673 passed, 0 failed, 5 bestehende ignored; fmt/diffcheck Exit 0; DB-freier Livehandler HTTP 200 mit 24 Preisen und 5 Acceptances. Diese Zahlen sind historische Baseline, nicht die letzte Verifikation.
+
+### Aktueller Stand nach frischem Rereview — 11.10.2026
+
+Das folgende Rereview fand einen zusätzlichen P1: Prosa direkt unter dem Listing-Root konnte durch zusätzliche Root-Klassen `card product-box` ausgeblendet werden, obwohl `.select()` nur Nachfahren einzeln prüfte. Eine neue Regression schlug vor dem Fix fehl. Die Prosa-Ausnahme stoppt jetzt vor dem eindeutigen `.cms-element-product-listing`-Root; nur passende Nachfahren können ausgenommen und später vollständig validiert werden. Fixture- und Actual-Source-Mutationen mit widersprüchlichem Root-Kind schlagen fail-closed fehl.
+
+Frisches unabhängiges Rereview: **PASS** für den Root-Bypass; keine B1/B2-Regression oder alternative Root-Umgehung. Nach dem Fix bestanden 16 gezielte Tests, der adversariale Test gegen direkt gespeicherte aktuelle Quell-HTML, `cargo fmt --all -- --check`, `git diff --check` und der Workspace-Lauf (**677 passed, 0 failed, 5 ignored; Ingestion 610**). Der DB-freie Livehandler lieferte erneut HTTP 200, 386432 Bytes, 24 Preise, 5 Acceptances und `published_at=None`. Das ist lokale Quellenevidenz, kein Produktions-/Deploymentnachweis.
+
+| Blocker | Implementierter Fix / Evidenz |
+|---|---|
+| B1 | Vollständiger normalisierter Nicht-Preis-Maintext gegen expanded qualifizierte Quelle verglichen, keine Keywordfragmente. Vollständige aktuelle Annahme/Ausschluss/Gebühr/Status/Filial-/FAQ-Blöcke einschließlich FAQ-Fragen. Auch neue Widerspruchssätze außerhalb erwarteter Klassen blockieren. Innerhalb des Preislistings sind nur bekannte Sortiertexte und kartenspezifische Preis-/Einheits-/Shopboilerplate-Texte erlaubt; neue Hinweise/Ausschlüsse/Verkaufsnegationen dort blockieren ebenfalls. RED 159,50 EUR; GREEN zusätzlich kein Goldankauf, neue Ausschlüsse, negierte 10-g-Regel, Aussetzung mit historischen Worten, neue ausgeschlossene Barrenhersteller. |
+| B2 | Explizite Sichtbarkeitsprüfung der relevanten Blöcke, Textnachfahren und aller Vorfahren sowie Preiswrapper, Preis-/Name-/Einheitsfelder und Listing. `hidden`, `aria-hidden=true`, übliche Hiddenklassen (`hidden`, `visually-hidden`, `sr-only`, `invisible`, Bootstrap `d-…-none`), Inline `display:none`, `visibility:hidden/collapse`, `content-visibility:hidden`, `opacity:0` blockieren. Legitimer reviewed FAQ-`.collapse` bleibt als ausklappbarer Beleg zulässig; Preis-/Identitätsbelege dürfen nicht in ungeöffnetem `.collapse` liegen. Reale und expanded HTML-Gegenproben einschließlich Preiswrapper, Preiselement, Listingwrapper/Vorfahren, H1 und Impressum blockieren. |
+| B3 | Exakter vollständiger qualifizierter Impressum-Maintext, eindeutiger Verantwortlich-für-den-Shop-Block; vollständiger Ankauf-Maintext enthält aktuelle Richtung und Filiale, nicht beliebige historische Substrings. `Neuer Betreiber … Früher …`, „Nicht mehr Rodenbacher Weg 2“, „Kein Ankauf … Verkaufspreise“ und historischer Titel werden abgelehnt. Keine Gleichsetzung HMG/AHD. |
+| B4 | Notes und alle fünf Acceptances nennen explizit Silberkorpusware/Silbermesser, versilberte/vergoldete Ware, Dentalgaumenplatten, Halbzeuge, Feilungen, Gussreste, Scheidgut; LBMA-Barren plus acht ausgeschlossene Hersteller; volljährige Verbraucher mit EU-/UK-Staatsangehörigkeit, persönliche Hanauer Abgabe; 59,50 EUR inkl. MwSt. als Analyse-/Rücktransportgebühr bei Ablehnung **oder unmöglicher Analyse**. Einzelassertions für jede wesentliche Bedingung und separate Web-/Primärvertrags-Quellenassertions. Relevant wörtliche Vertragsauszüge zusätzlich im neuen `fixtures/heraeus-goldstore-hanau-contract-excerpts.txt`. |
+| B5 | Ausschließlich handlerlokaler `SourceClient` aus privatem Konstruktor mit `Policy::none`, 30-s-Timeout und `schrott-mcp-ingestion/0.1`-UA. Private Clienttype verhindert versehentliche Übergabe des redirectfolgenden Sharedclients an `fetch`. Keine globale Policyänderung. Tatsächliche Loopbackkette `/start -> 302 /hop -> 302 /start -> 200` wird schon beim ersten 302 abgelehnt; Requestzähler exakt **1**, kein Hopkontakt. Dynamische zusätzliche HTTP-503-/Content-Length-/gestreamte Oversize-Proben bestehen. |
+
+**Bewusste Beleggrenzen:** Kein Browser/CSS-Rendering. Beliebige externe oder unerkannte Inline-CSS-Regeln, Pseudoelementtexte, JavaScript-Änderungen und Overlayeffekte sind nicht vollständig beweisbar; die automatische Sichtbarkeitsgrenze sind die oben konkret genannten HTML-/Klassen-/Stylemarker. Keine Behauptung, sämtliche CSS-versteckten Inhalte zu erkennen. Sourcequalifizierung umfasst den vollständigen aktuellen Maintext, nicht sämtliche Header/Footer-Texte einer beliebigen zukünftigen Site. Der konservative Maintext-Pin blockiert auch unverwandte Marketing-/Impressum-Copyänderungen bis Review; technische Layout-/Whitespace-/Entity-/Mediazeitstempeländerungen allein sind kein Preisdatum und können ohne inhaltliche Änderung bestehen. PDF-Metadatenänderungen blockieren wie approved. Ein fehlgeschlagener Scrape erzeugt kein neues Outcome/keine neuen Preise oder Acceptances, **retiriert bestehende alte DB-Preise aber nicht automatisch**.
+
+Der erste Liveversuch in dieser Korrekturrunde blockierte wegen fehlendem `/ Impressum`-Breadcrumb im expanded Fixture; mit Original-HTML verglichen und Fixture korrigiert, kein Gate abgeschwächt. Der erste Workspaceversuch wurde vom 120-s-Tooltimeout unterbrochen und zählt nicht als Testpass (`target/heraeus-evidence/workspace-timeout.log`). Wiederholung mit 600-s-Limit vollständig erfolgreich; Ingestion 106,62 s. Build-/TMP-/aktuelle Evidence ausschließlich im eigenen Worktree-`target`; kein ENOSPC in dieser Runde, keine fremden Artefakte gelöscht.
+
+**Lokal implementiert und unabhängig reviewed, nicht ausgerollt.** Isolierter Worktree `/root/Documents/schrott-mcp-heraeus-20261011`, Branch `handler-owner-heraeus-20261011`, Basis `d06f601d6de0bfe2c41fb76d4097c5722ec33759`. Kein Commit, Push, Mainwrite, Deploy oder Produktionszugriff. Main-/Deployment-Gate und regulärer Produktions-Scheduler-Nachweis bleiben offen. Dies ist ein Zwischenhandoff, keine Erfüllungsmeldung für die Gesamtaufgabe.
+
+Vorhanden: Handler `crates/ingestion/src/traders/handlers/heraeus_goldstore_hanau.rs`, zwei expanded HTML-Quellenfixtures, ein Primärvertragsauszug-Fixture, einmalige Registrierung, minimale sha2-Dependencykante. **Aktuell 16 gezielte Tests; Workspace 677 passed, 0 failed, 5 ignored.** Aktueller DB-freier Livehandler erfolgreich wie oben. Keine Dossieränderung. Cargo ist nur unter `/root/.cargo/bin/cargo` im aktuellen Environment verfügbar.
+
+Der erste tatsächliche Liveversuch scheiterte fail-closed mit `Ankauf identity/direction/conditions changed`: Der reduzierte Fixture enthielt die FAQ-Texte fälschlich als `.cms-element-text`; im Live-HTML stehen Richtwert-/AGB-Texte im `.netzp-powerpack6-collapse-body`. Der Handlerselektor wurde um diesen tatsächlich belegten FAQ-Bereich ergänzt, der Fixture entsprechend korrigiert. Keine Identitäts-/Preis-/Bedingungsgates entfernt. Danach beide tatsächlichen Liveabrufe erfolgreich.
+
+### Reproduzierbare lokale Verifikation
+
+- Aktuelle Source-Snapshots frisch direkt geladen unter `target/heraeus-evidence/source/{rates,impressum}.html`. Umgebungsvariablen für beide aktuellen Testläufe: `HERAEUS_TEST_SOURCE_DIR=/root/Documents/schrott-mcp-heraeus-20261011/target/heraeus-evidence/source`, `TMPDIR=/root/Documents/schrott-mcp-heraeus-20261011/target/tmp`. Ohne optionale Sourcevariable bleiben die gleichen Regressionen netzfrei an den expanded Fixtures ausführbar.
+- `/root/.cargo/bin/cargo test -p schrott-mcp-ingestion heraeus_goldstore_hanau::tests -- --nocapture`: **16/16 bestanden**. `expanded_fixture_or_actual_source_rejects_adversarial_changes` bestand zusätzlich mit `HERAEUS_TEST_SOURCE_DIR=/root/Documents/schrott-mcp-heraeus-20261011/target/heraeus-evidence/source`.
+- `/root/.cargo/bin/cargo test --workspace`: Auth 4, Core 3, Ingestion **610** (5 bestehende ignored), Query Worker 4, Server 16, Store 40; insgesamt **677 passed/0 failed**.
+- `/root/.cargo/bin/rustfmt --edition 2021 crates/ingestion/src/traders/handlers/heraeus_goldstore_hanau.rs`; `/root/.cargo/bin/cargo fmt --all -- --check`; `git diff --check`: alle Exit 0.
+- `/root/.cargo/bin/cargo run -p schrott-mcp-ingestion --locked --example live_handlers -- he-hanau-heraeus-goldstore-hanau-argor-heraeus-de`: DB-freier HTTP-Scrape nach dem letzten Fix, **HTTP 200, 386432 Bytes, 24 Preise, 5 Acceptances, `published_at=None`**. Keine Datenbank geöffnet/geschrieben. Das Beispieltool hat keinen verlässlichen Fehler-Exitcode, daher Output ausdrücklich geprüft. Dies ist lokale Quellenevidenz, keine Produktionsevidenz.
+- Lokaler Selbstreview gegen Auftrag/Repo-Stil: keine Shared-Parser-/Scheduler-/Schema-/GEO-Änderung, keine Kontaktübernahme des juristischen Sitzes als Filialadresse, keine Dossieränderung, unbekannte Karten blockieren ganzen Snapshot statt Teilpreise zu schreiben, reguläre 6h-Registry. Keine Subdelegation.
+
+### Lokale Livewerte (11.10.2026, nicht Produktionsdaten)
+
+| Material | Variante(n), sichtbarer EUR/g-Richtwert |
+|---|---|
+| Gold | 333 34,73; 375 39,24; 585 61,81; 750 79,55; 900 97,83; 916 99,57; 986 110,81; 999 113,97; 999,9 114,08 |
+| Palladium | 500 13,97; 950 23,89; 999 25,12 |
+| Platin | 600 24,78; 750 29,27; 950 35,31; 999 37,15 |
+| Silber | 625 0,86; 800 1,10; 835 1,15; 900 1,23; 925 1,30; 999 1,40 |
+| Zahngold | 500 49,74; 700 70,18 |
+
+## FIRST-Gate: Shopbetreiber und Ankauf-Vertragspartner getrennt belegt
+
+Der Quellenbericht `/root/Documents/checkin-20261011-handler-backlog-suedwest.md` wurde vollständig gelesen. Direktabrufe am 11.10.2026:
+
+1. <https://store.heraeus-gold.com/impressum/>: Verantwortlich für den Shop **Heraeus Metals Germany GmbH & Co. KG**, Heraeusstraße 12–14, 63450 Hanau, **HRA 93163 Amtsgericht Hanau**. Kein Beleg, dass diese Firma Ankauf-Vertragspartner wäre.
+2. <https://www.northdata.de/Heraeus+Metals+Germany+GmbH+Co.+KG,+Hanau/HRA+93163>: direkt gelesene Registerseite bestätigt Namen, Registerkennung/EUID `DEM1502.HRA93163`, Sitz und Metallhandel; ehemalige Bezeichnung Heraeus Metallhandelsgesellschaft mbH, nicht Argor-Heraeus Deutschland.
+3. <https://store.heraeus-gold.com/ankauf/> verlinkt AGB und Einreichungsformular. AGB-PDF Titel: **„ARGOR-HERAEUS DEUTSCHLAND GmbH (AHD) — Allgemeine Geschäftsbedingungen für den Ankauf von Altgold im Heraeus Goldstore durch AHD“**. §1 regelt Analyse/Ankauf durch AHD, §2 persönliche Abgabe im Goldstore, §4 Angebot nach Analyse.
+4. **Entscheidender Vertragsbeleg:** Einreichungsformular, Seite 1 nennt Abgabe **Rodenbacher Weg 2, 63450 Hanau**. Seite 2: „mein Vertragspartner für den Ankauf des von mir eingereichten Altgolds [ist] die **Argor-Heraeus Deutschland GmbH mit Sitz in Wurmberg**“. Fußzeile aller Seiten: **Amtsgericht Mannheim HRB 505728**, Sitz Wurmberg. Seite 3: Dachsteinstraße 35, 75449 Wurmberg. Es ist damit eine vertraglich ausdrücklich dokumentierte Rollenverteilung, keine aus Konzernnamen abgeleitete Gleichsetzung oder Umfirmierung.
+5. <https://www.northdata.de/ARGOR-HERAEUS%20DEUTSCHLAND%20GmbH,%20Wurmberg/Amtsgericht%20Mannheim%20HRB%20505728>: Registerkennung HRB 505728, EUID `DEB8535.HRB505728`, Dachsteinstr. 35, Wurmberg, Beschaffung edelmetallhaltigen Raffinationsmaterials, aktuelle Publikationen 2026. Die zuvor verwendete nichtkongruente URL mit Pforzheim/HRB 501836 leitete auf genau diese Gesellschaft um; **501836 ist kein Beleg und wird nicht als Registerkennung übernommen**.
+
+**Beleggrenze:** Keine Rechtsnachfolge/Umfirmierung der beiden Firmen belegt oder benötigt. Shop-Impressum beweist HMG als Shopbetreiber; ausdrücklich verlinkte Ankauf-Vertragsdokumente beweisen AHD als Käufer im Hanauer Goldstore. Allgemeine Shop-Verkaufs-AGB <https://store.heraeus-gold.com/agb/> betreffen den Verkauf an Verbraucher/GoldDepot, nicht diesen Altgoldankauf. Creditreform-Direktabruf 403, versuchter Argor-Impressumpfad 404: nicht als zusätzliche Belege gezählt. Keine Original-Handelsregister-Auszüge geladen; Northdata ist die nach Repo-Standard zulässige Register-Zweitquelle.
+
+### Vertragsquellen / Integritätsgrenze
+
+- AGB: <https://azweust1ieh606.blob.core.windows.net/azweusc1wjo540/media/43/a1/51/1737043797/AGB-Edelmetallankauf-Goldstore-Hanau.pdf?ts=1744274735>, SHA-256 `8f89a7bfe591addb9ccc2b42a1bc6dc59466fa6aa1195540adaa8dd6af2faa40`.
+- Formular: <https://azweust1ieh606.blob.core.windows.net/azweusc1wjo540/media/d4/4d/97/1737626990/Einreichungsformular-Edelmetalle-Goldstore-Hanau.pdf?ts=1769777018>, SHA-256 `3a791f306c7e6051f2423df6a7660b25f5d59d17578539e1b9ddf7208d1170a7`.
+- Abrufdateien und vollständig per `pdftotext -layout` gelesene Texte derzeit unter `/tmp/opencode/heraeus-20261011/`; externe temporäre Rechercheartefakte, nicht versioniert.
+- Handler prüft feste HTTPS-URLs, blockiert jeden Redirect vor Hopkontakt, begrenzt Bodygrößen und qualifiziert Webtexte/konkret definierte HTML-Sichtbarkeit/Impressum. Beide live erneut geladenen Vertrags-PDFs müssen exakt den geprüften Hash haben; Änderungen blockieren bis erneuter Vertragsqualifizierung. Das ist bewusst konservativ, auch reine PDF-Metadatenänderungen lösen Reviewbedarf aus.
+- Einzige neue direkte Dependency: `sha2 = 0.10`, bereits im Workspace-Lock vorhanden; Lockdiff nur die Ingestion-Dependencykante, **keine neuen Paketversionen**. Vermeidet PDF-Parser-/pdftotext-Runtimeabhängigkeit für die Identityprüfung. Preisparser selbst braucht weiter nur vorhandenes scraper/reqwest.
+
+## Preis-/Semantikgrenzen
+
+24 heute publizierte EUR/g-Ankauf-Richtwerte im auf explizite Hiddenmarker geprüften HTML, Feinheiten als Varianten; Gold/Silber/Platin/Palladium/Zahngold auf vorhandenen Katalog, Zahngold 500 und 700 getrennt von Gold. Nur gerundete HTML-Preiswerte, keine hidden JSON-Floats. `approx`, keine Garantie, keine erfundenen Min-/Maxwerte. Mindestens 10 g Edelmetall, Angebot nach Analyse zum Angebotstagskurs, aktuell eingeschränkter Ankauf/Bearbeitung bis drei Wochen. Vollständige wesentliche Material-/Barren-/Kunden-/Abgabegrenzen wie B4 oben. 59,50 EUR inkl. MwSt. bei Ablehnung oder unmöglicher Analyse ist Analyse-/Rücktransportgebühr, nie Preis. Bedingungen in Preisnotes und Materialacceptances. Keine Shop-Verkaufskarten, kein Preisdatum aus Medien-URL, PDF/HTTP-Metadaten oder Filialzeitstempel. `published_at=None`; bestehende Repo-Inferenz nur bei vergleichbarer Preisänderung und mit `observed_price_change`-Basis.
+
+## Offene Gates / nächste Schritte
+
+1. **Lokal erledigt, unabhängig reviewed, noch nicht integriert:** FIRST-Gate mit getrennten Register-/Vertragsrollen; B1–B5 RED/Fix/GREEN; Root-Bypass RED/Fix/GREEN; 16 gezielte Tests, Workspace, rustfmt/diffcheck und echter DB-freier Livehandler bestanden.
+2. **Rereview PASS:** keine B1/B2-Regression oder alternative Root-Umgehung. PDFpins unverändert; begrenzte CSS-Sichtbarkeit bleibt wie oben dokumentiert. Jeder Vertragsdokumentwechsel oder substantielle Maintextänderung blockiert bis Requalifizierung. Eigene `target`-Evidence/PDF-Downloads sind nicht Teil des Gitdiffs. Optionale neue Dossier-Timeline-Klärung koordiniert durch Owner; historischer Name-/Register-Klärfall bleibt unverändert.
+3. Owner review/integration/publication: **keine Freigabe für Commit/Push/Mainwrites erteilt**. Slug/Dossiername unverändert, kein Rust-GEO, keine anderen Agentenbereiche anfassen.
+4. Deployment nur mit Ownergate und echter Auth. Laut Auftrag fehlt Gitauth; hier nicht verändert oder als vorhanden behauptet.
+5. Nach tatsächlich erfolgtem Main-Rollout regulären Scheduler abwarten; Produktion strikt read-only kontrollieren (Step/Fetchevidenz und 24 current-price-Grades/Quelle/approx/Einheit/Bedingungen). Keine ForcedProdIngestion. Ohne diese Evidenz bleibt Ownership offen.

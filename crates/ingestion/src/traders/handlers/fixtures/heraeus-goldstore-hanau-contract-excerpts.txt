@@ -1,0 +1,23 @@
+Primary contractual excerpts, read 2026-10-11. Verbatim relevant clauses
+from the two source PDFs whose SHA-256 pins are documented in the handler
+and owner report. Line wrapping normalized; not a full legal transcription.
+
+AGB-Edelmetallankauf-Goldstore-Hanau.pdf, sections 1 and 2.1:
+Kunden der AHD im Heraeus Goldstore sind ausschließlich Verbraucher.
+Die Geschäftstätigkeit der AHD im Heraeus Goldstore richtet sich ausschließlich
+an Kunden, die volljährig sind und ihrer Staatsangehörigkeit in einem Land
+der Europäischen Union oder UK haben.
+Das AHD zum Ankauf angebotene Altgold ist vom Kunden persönlich im Heraeus
+Goldstore abzugeben.
+
+Einreichungsformular-Edelmetalle-Goldstore-Hanau.pdf, page 2:
+mein Vertragspartner für den Ankauf des von mir eingereichten Altgolds die
+Argor-Heraeus Deutschland GmbH mit Sitz in Wurmberg ist.
+bei Unmöglichkeit der Analyse des Altgolds oder meiner fristgerechten Ablehnung
+des Kaufangebots die bei der Argor-Heraeus Deutschland GmbH für die Analytik
+und den Rücktransport des Altgolds anfallenden Kosten in Höhe von 59,50 €
+inkl. MwSt. von mir übernommen werden.
+
+Form pages 1–3 footer:
+Registergericht: Amtsgericht Mannheim HRB 505728
+Sitz der Gesellschaft: Wurmberg
