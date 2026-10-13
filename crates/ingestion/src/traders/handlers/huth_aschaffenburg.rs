@@ -306,7 +306,8 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
         } else if l.contains("pure") {
             ("zinn", "pure, 99 %")
         } else if l.contains("solder") {
-            ("zinn", "solder")
+            // The catalog explicitly excludes solder alloys from pure tin.
+            ("loetzinn", "solder")
         } else if l.contains("harness") {
             ("zinn", "harness tin")
         } else {
@@ -1085,7 +1086,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Zinnschrott, Lötzinn", "from 25 kg"),
-            Some(("zinn", "solder, from 25 kg"))
+            Some(("loetzinn", "solder, from 25 kg"))
         );
         assert_eq!(
             grade_for("Altblei, gemischt", "from 500 kg"),
@@ -1432,7 +1433,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Tin scrap, solder", "up to 25 kg"),
-            Some(("zinn", "solder, up to 25 kg"))
+            Some(("loetzinn", "solder, up to 25 kg"))
         );
         assert_eq!(
             grade_for("Harness tin", "from 100 kg"),
