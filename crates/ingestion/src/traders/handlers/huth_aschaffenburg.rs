@@ -1,16 +1,15 @@
 //! Huth Schrott-Metall GmbH (Aschaffenburg): graduated purchase prices in
-//! `div.purchaseprices` tables (live 28.09.2026: 5 price tables with
-//! per-quantity columns, plus 1 opening-hours table without a Quantity
-//! header). Each material row carries one price per quantity tier
-//! ("up to 25 kg" / "from 25 kg" / "from 250 kg" / "from 1000 kg" on the
-//! Cu/Ms block; other blocks use their own thresholds), so every
-//! (grade × tier) pair becomes its own `variant` (`"candle, from 25 kg"`):
-//! same-material grades must never collapse onto one current price.
-//! Page date ("Metal purchase prices as of 28.09.2026") → `published_at`.
+//! `div.purchaseprices` tables. The live page has used both English labels
+//! (captured 28.09.2026) and German labels (live 13.10.2026): five price
+//! tables with per-quantity columns, plus one opening-hours table without a
+//! quantity header. Each material row carries one price per quantity tier
+//! (including explicit ranges), so every (grade × tier) pair becomes its own
+//! `variant` ("candle, from 25 kg"): same-material grades must never collapse
+//! onto one current price. Both page date formats populate `published_at`.
 //!
 //! Quirks, all pinned by tests:
-//! - Overview labels are English ("Copper, bare I, Millberry") while the
-//!   detail-page slugs are German — mapping keys off the visible labels.
+//! - English and German overview labels are normalized before explicit
+//!   material mapping; detail-page slugs are not used for price attribution.
 //! - No per-row unit is quoted anywhere; every live value is market-
 //!   plausible per kg (Cu ~10, tin ~30-40, Fe scrap 0.05-0.21 = 50-210 €/t
 //!   after record() normalizes into the EUR/t catalog units), so the page
@@ -102,13 +101,85 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     })
 }
 
-/// Explicit (label, tier) → (material, variant) mapping. Labels are the
-/// page's own English wording, matched specific-before-generic ("plug"
-/// before the bare "copper" fallthrough, "ram" before the "silver"
-/// trap). Anything unlisted is skipped loudly at the call site.
+/// Normalize the German labels now used by the live page to the vocabulary
+/// consumed by the explicit mapping below. Unknown labels are not guessed.
+fn normalize_label(label: &str) -> String {
+    let mut label = label
+        .to_lowercase()
+        .replace('ä', "ae")
+        .replace('ö', "oe")
+        .replace('ü', "ue")
+        .replace('ß', "ss");
+    for (from, to) in [
+        // Compounds must precede their component words.
+        ("rotguss", "gunmetal"),
+        ("mischschrott", "mixed scrap"),
+        ("neuschrott", "new scrap"),
+        ("loetzinn", "solder"),
+        ("erdkabel", "buried cable"),
+        ("elektronikschrott", "electronic scrap"),
+        ("leiterplatten", "boards"),
+        ("platinen", "boards"),
+        ("festplatten", "hard disks"),
+        ("laufwerke", "drives"),
+        ("netzteil", "power supplies"),
+        ("silberkontakte", "silver contacts"),
+        ("saegeblatt", "saw blade"),
+        ("wendeschneidplatten", "widia inserts"),
+        ("auswucht", "balancing"),
+        ("wuchtgewichte", "balancing weights"),
+        ("kupfer", "copper"),
+        ("kerze", "candle"),
+        ("messing", "brass"),
+        ("geschirr", "tableware"),
+        ("bleche", "sheets"),
+        ("blech", "sheet"),
+        ("guss", "cast"),
+        ("felgen", "rims"),
+        ("felge", "rim"),
+        ("kuehler", "cooler"),
+        ("muffen", "muff"),
+        ("zink", "zinc"),
+        ("blei", "lead"),
+        ("weich", "soft"),
+        ("zinn", "tin"),
+        ("leicht", "light"),
+        ("schwer", "heavy"),
+        ("spaene", "chips"),
+        ("gemischt", "mixed"),
+        ("sauber", "clean"),
+        ("behaftet", "affixed"),
+        ("handys", "phones"),
+        ("handy", "phone"),
+        ("klasse", "class"),
+        ("hartmetall", "carbide"),
+        ("bohrer", "drill"),
+        ("fraeser", "cutter"),
+        ("chromstahl", "chrome steel"),
+        ("stueckig", "lumpy"),
+        ("huelsen", "sleeves"),
+        ("loet", "solder"),
+        ("neu", "new"),
+        ("alt", "old"),
+        ("rein", "pure"),
+        ("lackiert", "lacquered"),
+        ("kabel", "cable"),
+        ("stecker", "plug"),
+        ("schredder", "shredder"),
+        ("elektronik", "electronic"),
+    ] {
+        label = label.replace(from, to);
+    }
+    label
+}
+
+/// Explicit (label, tier) → (material, variant) mapping. Labels are first
+/// normalized from the page's German wording; matching remains
+/// specific-before-generic ("plug" before bare "copper", "ram" before the
+/// "silver" trap). Anything unlisted is skipped loudly at the call site.
 fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static str)> {
-    let l = label.to_lowercase();
-    let l = l.as_str();
+    let normalized = normalize_label(label);
+    let l = normalized.as_str();
     // Mixed-material coolers/radiators have no catalog entry.
     if l.contains("cooler") || l.contains("radiator") {
         return None;
@@ -192,7 +263,7 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
             }
         } else if l.contains("offset") {
             ("aluminium-blech", "offset plates")
-        } else if l.contains("shav") {
+        } else if l.contains("shav") || l.contains("chip") {
             // Aluminium shavings: no catalog entry.
             return None;
         } else if l.contains("cable") {
@@ -214,7 +285,7 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
         }
     } else if l.contains("lead") {
         if l.contains("balanc") {
-            ("blei", "balancing weights")
+            ("blei-auswucht", "Auswuchtblei")
         } else if l.contains("soft") {
             ("blei", "soft")
         } else if l.contains("mixed") {
@@ -230,7 +301,9 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
         // Before the tin section: "castings" contains "tin".
         ("stahlschrott-sorte-1", "new")
     } else if l.contains("tin") {
-        if l.contains("pure") {
+        if l.contains("tableware") {
+            ("zinn-geschirr", "Geschirr")
+        } else if l.contains("pure") {
             ("zinn", "pure, 99 %")
         } else if l.contains("solder") {
             ("zinn", "solder")
@@ -455,10 +528,16 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
         ("mixed", "from 10 kg") => "mixed, from 10 kg",
         ("mixed", "from 100 kg") => "mixed, from 100 kg",
         ("mixed", "from 500 kg") => "mixed, from 500 kg",
-        ("balancing weights", "up to 50 kg") => "balancing weights, up to 50 kg",
-        ("balancing weights", "from 50 kg") => "balancing weights, from 50 kg",
-        ("balancing weights", "from 300 kg") => "balancing weights, from 300 kg",
-        ("balancing weights", "from 1000 kg") => "balancing weights, from 1000 kg",
+        ("Auswuchtblei", "up to 25 kg") => "Auswuchtblei, up to 25 kg",
+        ("Auswuchtblei", "from 25 kg") => "Auswuchtblei, from 25 kg",
+        ("Auswuchtblei", "up to 50 kg") => "Auswuchtblei, up to 50 kg",
+        ("Auswuchtblei", "from 50 kg") => "Auswuchtblei, from 50 kg",
+        ("Auswuchtblei", "from 300 kg") => "Auswuchtblei, from 300 kg",
+        ("Auswuchtblei", "from 1000 kg") => "Auswuchtblei, from 1000 kg",
+        ("Geschirr", "up to 25 kg") => "Geschirr, up to 25 kg",
+        ("Geschirr", "from 25 kg") => "Geschirr, from 25 kg",
+        ("Geschirr", "from 100 kg") => "Geschirr, from 100 kg",
+        ("Geschirr", "from 250 kg") => "Geschirr, from 250 kg",
         ("pure, 99 %", "up to 25 kg") => "pure, 99 %, up to 25 kg",
         ("pure, 99 %", "from 25 kg") => "pure, 99 %, from 25 kg",
         ("pure, 99 %", "from 100 kg") => "pure, 99 %, from 100 kg",
@@ -506,6 +585,20 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
         ("chrome steel", "from 250 kg") => "chrome steel, from 250 kg",
         ("chrome steel", "from 1000 kg") => "chrome steel, from 1000 kg",
         ("chips", "from 100 kg") => "chips, from 100 kg",
+        ("", "25-100 kg") => "25-100 kg",
+        ("", "100-250 kg") => "100-250 kg",
+        ("", "250-1000 kg") => "250-1000 kg",
+        ("", "100-1000 kg") => "100-1000 kg",
+        ("", "1000-5000 kg") => "1000-5000 kg",
+        ("new", "25-100 kg") => "new, 25-100 kg",
+        ("new", "100-1000 kg") => "new, 100-1000 kg",
+        ("new", "1000-5000 kg") => "new, 1000-5000 kg",
+        ("chips", "25-100 kg") => "chips, 25-100 kg",
+        ("chips", "100-250 kg") => "chips, 100-250 kg",
+        ("chips", "250-1000 kg") => "chips, 250-1000 kg",
+        ("chrome steel", "25-100 kg") => "chrome steel, 25-100 kg",
+        ("chrome steel", "100-250 kg") => "chrome steel, 100-250 kg",
+        ("chrome steel", "250-1000 kg") => "chrome steel, 250-1000 kg",
         _ => return None,
     };
     Some((material, variant))
@@ -515,10 +608,14 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
 /// table may pass — a renamed column skips its cells loudly at the call
 /// site instead of minting mystery variants.
 fn tier_key(raw: &str) -> Option<&'static str> {
-    match raw.trim().to_lowercase().as_str() {
+    let normalized = raw.trim().to_lowercase().replace('.', "");
+    match normalized.as_str() {
         "up to 25 kg" => Some("up to 25 kg"),
         "up to 10 kg" => Some("up to 10 kg"),
         "up to 50 kg" => Some("up to 50 kg"),
+        "bis 25 kg" => Some("up to 25 kg"),
+        "bis 10 kg" => Some("up to 10 kg"),
+        "bis 50 kg" => Some("up to 50 kg"),
         "from 3 kg" => Some("from 3 kg"),
         "from 5 kg" => Some("from 5 kg"),
         "from 10 kg" => Some("from 10 kg"),
@@ -535,6 +632,27 @@ fn tier_key(raw: &str) -> Option<&'static str> {
         "from 500 kg" => Some("from 500 kg"),
         "from 1000 kg" => Some("from 1000 kg"),
         "from 5000 kg" => Some("from 5000 kg"),
+        "ab 3 kg" => Some("from 3 kg"),
+        "ab 5 kg" => Some("from 5 kg"),
+        "ab 10 kg" => Some("from 10 kg"),
+        "ab 15 kg" => Some("from 15 kg"),
+        "ab 20 kg" => Some("from 20 kg"),
+        "ab 25 kg" => Some("from 25 kg"),
+        "ab 30 kg" => Some("from 30 kg"),
+        "ab 50 kg" => Some("from 50 kg"),
+        "ab 100 kg" => Some("from 100 kg"),
+        "ab 200 kg" => Some("from 200 kg"),
+        "ab 250 kg" => Some("from 250 kg"),
+        "ab 300 kg" => Some("from 300 kg"),
+        "ab 350 kg" => Some("from 350 kg"),
+        "ab 500 kg" => Some("from 500 kg"),
+        "ab 1000 kg" => Some("from 1000 kg"),
+        "ab 5000 kg" => Some("from 5000 kg"),
+        "25 kg bis 100 kg" => Some("25-100 kg"),
+        "100 kg bis 250 kg" => Some("100-250 kg"),
+        "250 kg bis 1000 kg" => Some("250-1000 kg"),
+        "100 kg bis 1000 kg" => Some("100-1000 kg"),
+        "1000 kg bis 5000 kg" => Some("1000-5000 kg"),
         // Live typo in the zinc block ("to 250 kg" between "from 25 kg"
         // and "from 1000 kg", values rising monotonically): same tier as
         // the "from 250 kg" columns elsewhere, so variants stay stable
@@ -578,12 +696,8 @@ fn parse(
     let tables: Vec<_> = doc
         .select(&table)
         .filter(|t| {
-            t.select(&head).any(|h| {
-                h.text()
-                    .collect::<String>()
-                    .to_lowercase()
-                    .contains("quantity")
-            })
+            t.select(&head)
+                .any(|h| is_quantity_header(&h.text().collect::<String>()))
         })
         .collect();
     if tables.is_empty() {
@@ -595,8 +709,8 @@ fn parse(
     let mut rows = Vec::new();
     let mut skipped = Vec::new();
     for table in tables {
-        // Column tiers come from the thead Quantity row; further
-        // Quantity rows inside the body (zinc → lead → …) switch them.
+        // Column tiers come from the thead Quantity/Menge row; further
+        // quantity rows inside the body (zinc → lead → …) switch them.
         let mut tiers: Vec<(String, Option<&'static str>)> = Vec::new();
         if let Some(head_row) = table
             .select(&row)
@@ -606,10 +720,7 @@ fn parse(
                 .select(&head)
                 .map(|h| clean(&h.text().collect::<String>()))
                 .collect();
-            if heads
-                .first()
-                .is_some_and(|h| h.to_lowercase().starts_with("quantity"))
-            {
+            if heads.first().is_some_and(|h| is_quantity_header(h)) {
                 tiers = heads[1..]
                     .iter()
                     .map(|h| (h.clone(), tier_key(h)))
@@ -627,7 +738,7 @@ fn parse(
             if cells.iter().all(|c| c.is_empty()) {
                 continue; // separator row
             }
-            if cells[0].to_lowercase().starts_with("quantity") {
+            if is_quantity_header(&cells[0]) {
                 tiers = cells[1..]
                     .iter()
                     .map(|h| (h.clone(), tier_key(h)))
@@ -685,12 +796,20 @@ fn parse(
     Ok((published_at, rows, skipped))
 }
 
-/// Page-stated validity date ("Metal purchase prices as of 28.09.2026").
-/// No date → None (`observed_at` carries the age instead).
+fn is_quantity_header(raw: &str) -> bool {
+    let header = clean(raw).to_lowercase();
+    header.starts_with("quantity") || header.starts_with("menge")
+}
+
+/// Page-stated validity date in either language (e.g. "Metal purchase prices
+/// as of 28.09.2026" or "Metalleinkaufspreise ab 13.10.2026"). No date → None
+/// (`observed_at` carries the age instead).
 fn page_date(window: &str) -> Option<String> {
-    let anchor = "purchase prices as of";
-    let i = window.to_lowercase().find(anchor)?;
-    let tail = window[i + anchor.len()..].trim_start().to_string();
+    let lower = window.to_lowercase();
+    let (i, marker_len) = ["purchase prices as of", "metalleinkaufspreise ab"]
+        .into_iter()
+        .find_map(|marker| lower.find(marker).map(|i| (i, marker.len())))?;
+    let tail = window[i + marker_len..].trim_start().to_string();
     let tok = tail.split_whitespace().next()?;
     let tok = tok.split('<').next().unwrap_or(tok);
     let mut parts = tok.split('.');
@@ -887,6 +1006,121 @@ mod tests {
         </div></main>";
 
     #[test]
+    fn german_live_markup_parses_headers_dates_ranges_and_materials() {
+        let html = r#"<main><div class="purchaseprices">
+            <p>Metalleinkaufspreise ab 13.10.2026</p>
+            <table><thead><tr><th>Menge:</th><th>bis 25 kg</th><th>25 kg bis 100 kg</th><th>ab 100 kg</th></tr></thead>
+            <tbody>
+            <tr><td>Kupfer, blank I, Millberry</td><td>10,15</td><td>11,40</td><td>11,55</td></tr>
+            <tr><td>Zink, neu</td><td>2,00</td><td>2,10</td><td>2,20</td></tr>
+            <tr><td>Menge:</td><td>ab 5 kg</td><td>ab 30 kg</td><td>ab 100 kg</td></tr>
+            <tr><td>Leiterplatten, Klasse 1A</td><td>4,50</td><td>5,40</td><td>5,60</td></tr>
+            </tbody></table>
+            <table><thead><tr><th>Menge:</th><th>bis 25 kg</th><th>ab 25 kg</th><th>ab 100 kg</th><th>ab 250 kg</th></tr></thead>
+            <tbody><tr><td>Geschirrzinn</td><td>9,06</td><td>12,64</td><td>14,55</td><td>18,13</td></tr></tbody></table>
+            <table><thead><tr><th>Menge:</th><th>bis 25 kg</th><th>ab 25 kg</th><th>ab 300 kg</th><th>ab 1000 kg</th></tr></thead>
+            <tbody><tr><td>Auswuchtblei, Wuchtgewichte Pb</td><td>0,10</td><td>0,30</td><td>0,35</td><td>0,40</td></tr></tbody></table>
+            </div></main>"#;
+
+        let (published_at, rows, skipped) = parse(html).expect("parses German page markup");
+        assert_eq!(published_at.as_deref(), Some("2026-10-13T00:00:00+00:00"));
+        assert_eq!(rows.len(), 17);
+        assert!(skipped.is_empty());
+
+        let millberry = rows
+            .iter()
+            .find(|(label, tier, _, _)| label.contains("Millberry") && *tier == "25-100 kg")
+            .expect("preserves the explicit 25–100 kg price tier");
+        assert_eq!(
+            grade_for(&millberry.0, millberry.1),
+            Some(("kupfer-millberry", "25-100 kg"))
+        );
+
+        let zinc = rows
+            .iter()
+            .find(|(label, tier, _, _)| label == "Zink, neu" && *tier == "from 100 kg")
+            .expect("parses German zinc grade and tier");
+        assert_eq!(
+            grade_for(&zinc.0, zinc.1),
+            Some(("zink", "new, from 100 kg"))
+        );
+
+        let boards = rows
+            .iter()
+            .find(|(label, tier, _, _)| label.starts_with("Leiterplatten") && *tier == "from 30 kg")
+            .expect("parses the repeated body quantity header");
+        assert_eq!(
+            grade_for(&boards.0, boards.1),
+            Some(("platinen", "class 1A, from 30 kg"))
+        );
+
+        let tinware = rows
+            .iter()
+            .find(|(label, tier, _, _)| label == "Geschirrzinn" && *tier == "from 100 kg")
+            .expect("parses the source's dedicated tinware material");
+        assert_eq!(
+            grade_for(&tinware.0, tinware.1),
+            Some(("zinn-geschirr", "Geschirr, from 100 kg"))
+        );
+
+        let balancing_lead = rows
+            .iter()
+            .find(|(label, tier, _, _)| label.starts_with("Auswuchtblei") && *tier == "from 300 kg")
+            .expect("parses the source's balancing-lead price tier");
+        assert_eq!(
+            grade_for(&balancing_lead.0, balancing_lead.1),
+            Some(("blei-auswucht", "Auswuchtblei, from 300 kg"))
+        );
+    }
+
+    #[test]
+    fn german_material_aliases_keep_unsupported_rows_out() {
+        assert_eq!(
+            grade_for("V2A-Späne", "250-1000 kg"),
+            Some(("edelstahl-v2a", "chips, 250-1000 kg"))
+        );
+        assert_eq!(
+            grade_for("Handy-, Smartphoneplatinen", "from 50 kg"),
+            Some(("handys", "phone boards, from 50 kg"))
+        );
+        assert_eq!(
+            grade_for("Zinnschrott, Lötzinn", "from 25 kg"),
+            Some(("zinn", "solder, from 25 kg"))
+        );
+        assert_eq!(
+            grade_for("Altblei, gemischt", "from 500 kg"),
+            Some(("blei", "mixed, from 500 kg"))
+        );
+        assert_eq!(
+            grade_for("Auswuchtblei, Wuchtgewichte Pb", "up to 25 kg"),
+            Some(("blei-auswucht", "Auswuchtblei, up to 25 kg"))
+        );
+        assert_eq!(
+            grade_for("Geschirrzinn", "from 250 kg"),
+            Some(("zinn-geschirr", "Geschirr, from 250 kg"))
+        );
+        assert_eq!(
+            grade_for("Neuschrott", "100-1000 kg"),
+            Some(("stahlschrott-sorte-1", "new, 100-1000 kg"))
+        );
+        assert_eq!(
+            grade_for("Hartmetall, Wendeschneidplatten Widia", "from 100 kg"),
+            Some(("hartmetall", "Widia inserts, from 100 kg"))
+        );
+
+        // Devices, surcharges, and unsupported mixed material must never be
+        // reclassified as ordinary metal prices by the language aliases.
+        assert_eq!(grade_for("Bleibatterien", "from 25 kg"), None);
+        assert_eq!(grade_for("Silberkontakte", "from 3 kg"), None);
+        assert_eq!(
+            grade_for("Aluminiumspäne, max. 5 % Anhaftungen", "from 25 kg"),
+            None
+        );
+        assert_eq!(grade_for("Kupfer-Messing-Kühler, rein", "from 25 kg"), None);
+        assert_eq!(grade_for("Schwerschrott / Handelsguß", "25-100 kg"), None);
+    }
+
+    #[test]
     fn tiers_date_and_loud_skips() {
         let (published_at, rows, skips) = parse(FIXTURE).expect("parses");
         assert_eq!(published_at.as_deref(), Some("2026-09-28T00:00:00+00:00"));
@@ -977,8 +1211,12 @@ mod tests {
         assert_eq!(rows.len(), 83);
         // Footer hours table (empty headers) is excluded by selection.
         assert!(!rows.iter().any(|(l, _, _, _)| l.contains("Montag")));
-        // No quantity header at all: loud error.
+        // The current operator page uses German quantity headers and keeps
+        // the same tier structure; an unrelated header still fails loudly.
         let html = FIXTURE.replace("Quantity:", "Menge:");
+        let (_, rows, _) = parse(&html).expect("recognizes Menge headers");
+        assert_eq!(rows.len(), 83);
+        let html = FIXTURE.replace("Quantity:", "Massenklasse:");
         assert!(parse(&html).is_err());
         // Missing price window: loud error, not silent success.
         assert!(parse("<html><body><p>Neu hier</p></body></html>").is_err());
@@ -1003,6 +1241,10 @@ mod tests {
         assert_eq!(tier_key("to 250 kg"), Some("from 250 kg"));
         assert_eq!(tier_key("from 200 kg"), Some("from 200 kg"));
         assert_eq!(tier_key("from 2000 kg"), None);
+        assert_eq!(tier_key("bis 25 kg"), Some("up to 25 kg"));
+        assert_eq!(tier_key("ab 1.000 kg"), Some("from 1000 kg"));
+        assert_eq!(tier_key("25 kg bis 100 kg"), Some("25-100 kg"));
+        assert_eq!(tier_key("100 kg bis 1.000 kg"), Some("100-1000 kg"));
     }
 
     #[test]
@@ -1182,7 +1424,7 @@ mod tests {
         );
         assert_eq!(
             grade_for("Balancing lead, balancing weights Pb", "from 300 kg"),
-            Some(("blei", "balancing weights, from 300 kg"))
+            Some(("blei-auswucht", "Auswuchtblei, from 300 kg"))
         );
         assert_eq!(
             grade_for("Tin, pure, at least 99 %", "from 250 kg"),
