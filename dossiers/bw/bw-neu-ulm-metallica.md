@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+North Data führt die exakte Metallica GmbH & Co. KG unter HRA 12842 Memmingen mit Unternehmensgegenstand Metallhandel/-bearbeitung/-verwertung und der Adresse Insel 18/1, 89231 Neu-Ulm; der Profilverlauf listet außerdem HRA 15788/Augsburg und Gersthofen. Neu-Ulm liegt in Bayern, während das Seed-Feld BW lautet. Ein aktueller Kundenstandort/Betreiberauftritt ist nicht bestätigt, daher keine Standort- oder Bundeslandkorrektur aus dem Spiegel allein. Keine Ankauf-, Verkaufs- oder Gebührenliste gefunden.
 
 ## Timeline
 
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Die exakte Metallica GmbH & Co. KG ist eine reale Neu-Ulmer Metallhandels-/Recyclinggesellschaft (Amtsgericht Memmingen HRA 12842); NorthData führt jüngste Jahresabschlussveröffentlichungen bis 2024, veröffentlicht 13.04.2026. Damit ist der frühere pauschale Namensvetterverdacht zu korrigieren, ohne bestehende Frontmatter zu überschreiben. Keine aktuelle Betreiber- oder Standortdetailseite gefunden; Adresse/Insel 18/1 und Telefon erscheinen nur in Registerspiegeln bzw. Verzeichnissen, daher nicht übernommen. Website-Suche ergab keinen verifizierten Betreiberauftritt, website_status auf unbekannt gesetzt; das bereits gesetzte state-Feld BW wegen No-overwrite nicht geändert, obwohl Neu-Ulm geographisch Bayern ist; Quelle(n): https://www.northdata.de/Metallica%20GmbH%20&%20Co%C2%B7%20KG,%20Neu-Ulm/Amtsgericht%20Memmingen%20HRA%2012842 ; https://handelsregister.ai/en/organizations/neu-ulm/music-publishers/metallica-gmbh-co-kg-6bb92652293bd2e9daf0d1a54004bf18 ; https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/neu-ulm (lead); https://www.goyellow.de/home/schrott-metallica-gmbh-co-kg-neu-ulm--gkgs60.html (lead)]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: North-Data-Profil erneut direkt geprüft: exakter Firmenname, HRA 12842 Memmingen, Sitz/Adresse Insel 18/1, 89231 Neu-Ulm, Gegenstand Metallhandel, Bearbeitung, Verwertung und Recycling; letzter sichtbarer Abschluss betrifft 2024 und wurde am 13.04.2026 veröffentlicht. Das Profil listet zusätzlich HRA 15788 Augsburg/Gersthofen, ohne daraus eine aktuelle Zweigstelle abzuleiten. Dies bestätigt eine reale Gesellschaft, aber nicht den Kundenbetrieb am Seed-Punkt und löst den State-Konflikt BW (Dossier) vs. Bayern (Neu-Ulm) nicht. Keine Preise. Kein Frontmatter-Fill; Klärung mit Owner/amtlichem Register und tatsächlicher Annahmestelle offen. Quelle: https://www.northdata.de/Metallica+GmbH+%26+Co.+KG,+Neu-Ulm/Amtsgericht+Memmingen+HRA+12842]
 
 ### Recherche 02.10.2026
 

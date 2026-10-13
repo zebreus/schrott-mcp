@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Zuordnung „Rau Rita und Joachim“ als Schrott-/Kompostbetrieb bleibt ungeklärt. Bisherige Aggregator-Leads nennen Wernesgrüner Str. 29; eine neue Suchmaschinenfundstelle nennt stattdessen Röthenbacher Str. 2 und eine abweichende Telefonnummer. Keiner der Einträge ist ein Betreiber-, Register- oder kommunaler Identitätsbeleg. Keine Adresse, Kontaktangabe, Annahmeleistung oder Preis ins Frontmatter übernehmen; keine Schließung oder Gleichsetzung mit anderen Rodewischer Händlern ableiten.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Neue widersprüchliche Leadspur: Ein Suchtreffer von Stadtbranchenbuch nennt „Rita und Joachim Rau Platz Schrotthandel u. Kompostierung“, Röthenbacher Str. 2, 08228 Rodewisch, Tel. 03744 436154. Der Direktabruf dieser Aggregatorseite war nicht möglich; die Angabe widerspricht den bisherigen Leads Wernesgrüner Str. 29 und Telefonhinweisen 03744 33670/33671. Das ist keine Betreiber- oder amtliche Quelle und keine Bestätigung einer zweiten Betriebsadresse. Offizielle Wirtschaftsseite der Stadt Rodewisch gelesen, aber keine konkrete Zuordnung zu Rau darin gewonnen. Alle Felder/Status unverändert; keine Ankaufpreise, Verkaufspreise oder Gebühren belegt. Quellen/Leads: https://rodewisch.stadtbranchenbuch.com/764407.html ; https://www.rodewisch.de/wirtschaft/ ; bestehende Verzeichnisleads siehe Recherche 03.10.2026.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

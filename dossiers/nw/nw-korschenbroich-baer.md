@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die 11880-Profilseite „Schrotthandel Sascha Baer“ trägt den Hinweis „vom Inhaber bestätigt“ (Profilaktualisierung 08.10.2026) und führt Bauesweg 8, 41352 Korschenbroich, 02161 6849964, 0177 8431631, sascha.baer@aol.de sowie werktägliche Öffnungszeiten. Das ist ein Plattform-Verifizierungslabel, kein unabhängig einsehbarer Betreiber-/Registerbeleg; Kontakte und Stunden daher nicht in Frontmatter übernommen. Kein belastbarer Preisnachweis.
+
+- **Ankauf/Verkauf:** keine numerische Preisangabe.
+- **Gebühren:** keine bestätigte Gebühren-/Abholliste.
+- **Geokodierung:** Adresse bleibt Verzeichnislead; Status pruefung.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: 11880 direkt geprüft; „Schrotthandel Sascha Baer“ am Bauesweg 8, 41352 Korschenbroich wird als „vom Inhaber bestätigt“ geführt, Profilstand 08.10.2026, mit Festnetz/Mobil, E-Mail und Öffnungszeiten. Das Inhaber-Label stammt von der Plattform und ersetzt keine selbst kontrollierbare Betreiberquelle oder unabhängige Registerbestätigung; daher keine Frontmatter-Übernahme. Gelbe Seiten/Golocal wiederholen ähnliche Leads. Keine Ankauf-/Verkaufspreise oder Gebühren gefunden. Quelle(n): https://www.11880.com/branchenbuch/korschenbroich/060441364B112859849/schrotthandel-sascha-baer.html ; https://www.gelbeseiten.de/gsbiz/4877f145-5aaf-4448-a59b-2eba3283a41b ; https://www.golocal.de/korschenbroich/schrotthandel/schrotthandel-sascha-baer-10WnPd/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

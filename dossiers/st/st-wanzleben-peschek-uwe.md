@@ -28,6 +28,10 @@ Uwe Pescheks aktuelle Betreiberwebsite belegt in Wanzleben-Börde einen Containe
 
 ## Timeline
 
+### Gegenprüfung 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberwebsite, Impressum und Abfallarten direkt erneut gelesen. Das Impressum bezeichnet „Uwe Peschek Containerdienst“ als Einzelunternehmen am Welsche Mühle 4 und nennt Uwe Peschek; die Leistungsseite bewirbt Container 3/4/5/7 m³ für u.a. Bauschutt, Sperrmüll, Mischabfall, Gartenabfälle und Bodenaushub sowie werktags 07–18 Uhr. Metalle erscheinen nur als mögliche Fraktion im Mischabfall; kein eigener Altmetallankauf oder Vergütungspreis belegt. Preise für Entsorgung/Container und Baustofflieferung bleiben individuelle Angebote auf Anfrage; keine Zahlenliste. Dies ist ein aktueller Betreiberbeleg für den Containerdienst, aber kein Zwei-Quellen-Nachweis für die Seed-Zeile als Schrotthändler; keine Frontmatterübernahme. Quellen: https://www.containerdienst-peschek.de/impressum ; https://www.containerdienst-peschek.de/abfallarten ; https://www.containerdienst-peschek.de/ .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Neuer Betreiber-Kandidat live gefunden, früherer Website-miss überholt: Uwe Peschek Containerdienst, Welsche Mühle 4, 39164 Wanzleben-Börde, 039209 3015, peschekupw@t-online.de, Mo-Fr 07:00-18:00. Impressum ausdrücklich Einzelunternehmen, USt-ID DE139322420, kein Handelsregister genannt. Root, Containerdienst, Impressum, Kontakt/Anfahrt, Abfallarten und Baustofftransport jeweils separat HTTP 200 gelesen. Damit ein Betreiber-Einzelbeleg, kein automatischer Identitätsbeweis des als Schrotthändler importierten Dossiers; Quelle(n): https://www.containerdienst-peschek.de/ + https://www.containerdienst-peschek.de/containerdienst-peschek + https://www.containerdienst-peschek.de/impressum + https://www.containerdienst-peschek.de/kontakt-und-anfahrt + https://www.containerdienst-peschek.de/abfallarten + https://www.containerdienst-peschek.de/transport-baustoffe]

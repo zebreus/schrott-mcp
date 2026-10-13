@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Eintrag „Altstoffhandel Zschornewitz (Maik Koch)“ bleibt eine ungeklärte Betreiberidentität; Ernst-Moyat-Str. 30 und Mobilnummer stammen aus Verzeichnissen. Der Landkreis Wittenberg listet eine öffentliche ALBA-Annahmestelle in Zschornewitz an einer anderen Anschrift (Burgkemnitzer Str. 1a-c). Das ist ein anderes, kommunal benanntes Angebot und kein Beleg für Koch oder dessen Adresse; beide nicht zusammenführen. Keine bestätigten Koch-Leistungen oder Preise.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Neue amtliche Orts-/Annahmestellenabgrenzung: Der Landkreis Wittenberg führt eine „Annahmestelle Zschornewitz“ des Betriebshofs ALBA Sachsen GmbH, Standort Rackith, an Burgkemnitzer Str. 1a-c, 06772 Gräfenhainichen OT Zschornewitz; dort werden u.a. Altmetall/Schrott aus Privathaushalten angenommen. Diese öffentliche Stelle liegt nicht an der Seed-/Verzeichnisadresse Ernst-Moyat-Str. 30 und ist nicht als Betrieb von Maik Koch bezeichnet. Keine Namens-/Standortübertragung und keine Übernahme möglicher kommunaler Konditionen. Im abgerufenen Landkreistext keine Tarife für Koch oder seine Leistungen. Bestehende Frontmatterwerte bleiben leer; Identität, Hausnummer und aktuelle Annahme offen. Quelle: https://www.landkreis-wittenberg.de/landkreis-wittenberg-entdecken/abfallwirtschaft/fragen-beantworten/entsorgungsunternehmen ; Aggregator-Lead Koch: https://www.gelbeseiten.de/gsbiz/9b7da049-c518-4521-86b7-99bdba85ac6a .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

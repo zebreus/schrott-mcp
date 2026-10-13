@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Automobile Reinharz“ wird in Verzeichnissen mit Reinharz 6 geführt; dabei erscheinen abweichende Telefonnummern und die Website-Kandidaten `automobile-reinharz.de` und `autoverwertung-leipzig.eu`. Gelbe Seiten verlinkt die .de-Domain, Suchnadel die .eu-Domain; direkte Abrufe beider Hosts scheiterten am 13.10.2026 an DNS-Auflösung. Damit sind weder Seiteninhalt noch Impressum geprüft; der technische Fehler belegt keine Schließung. Andere Seiten mit ähnlich benanntem „Autoverwertung Leipzig“ sind nicht automatisch derselbe Betreiber. Kostenlose Fahrzeugabholung/-abmeldung wird nur in Drittverzeichnissen behauptet und ist nicht als Betreiberzusage verifiziert. Keine Fahrzeugpreise, Gebühren oder aktuelle Betriebsidentität übernehmen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Suchindex und direkt gelesene Gelbe-Seiten-Seite führen „Automobile Reinharz“, Reinharz 6, 06905 Bad Schmiedeberg, Mobil 01577 6624404; die Seite nennt zusätzlich 034925 749820 und verlinkt `automobile-reinharz.de`. Suchnadel verlinkt separat `autoverwertung-leipzig.eu`. Direkte HTTP-/HTTPS-Abrufe beider Domains scheiterten mit „Could not resolve host“; das ist kein Schließungsbeleg und bestätigt keine Betreiberidentität. Weitere Verzeichnisprofile schreiben den Ansprechpartner Mirko Hausladen zu und behaupten kostenlose Altautoabholung/-abmeldung, sind aber Aggregator-Leads. Impressum und Betreiberzusage bleiben ungeprüft. Kein Preisnachweis: keine Fahrzeug-Ankaufbeträge, Ersatzteilverkaufspreise oder verbindlichen Entsorgungs-/Abschlepptarife aus einer Primärquelle. Keine Frontmatter-Änderung; Status pruefung bleibt. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/24e1e44d-a7cd-4b25-9fa0-355a8fb9f572 ; https://www.firmenpresse.de/verzeichnis/automobile-reinharz.html ; https://www.suchnadel.de/Kraftfahrzeuge/Recycling/_/_/Automobile_Reinharz_1123.htm ; https://www.automobile-reinharz.de/ ; https://autoverwertung-leipzig.eu/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

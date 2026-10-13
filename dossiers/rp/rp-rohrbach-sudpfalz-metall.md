@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite „Südpfalz Metall“ nennt Am Bellensee 6, 76865 Rohrbach, Telefon +49 176 24226146, info@suedpfalzmetall-gmbh.de und Mo–Fr 08:00–12:00/13:00–16:00; sie bewirbt Altmetallankauf, Abholung und Container. Das Impressum nennt Janneck Knecht und HRB 33727, AG Landau, aber keinen Firmennamen; eine unabhängige Registerbestätigung und die eindeutige Zuordnung des Impressums zur seedbenannten GmbH fehlen. Website ist daher kein bestätigter HRB-/Identitätsbeleg nach README-Kriterien. Keine Änderungen an strukturierten Feldern. „Faire Preise“ ohne Zahlen; keine Verkaufs- oder Gebührenliste.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Homepage, Leistungen und Impressum aktuell direkt abgerufen. Leistungen nennen Ankauf von Mischschrott, Kupfer, Messing, Kabeln, Altzinkblech und weiteren Metallen, Abholung „größerer Mengen“ sowie Container; Adresse, Telefon, E-Mail und Öffnungszeiten stehen im Seitenfuß. Impressum nennt Janneck Knecht, Am Bellensee 6, HRB 33727, Registergericht Amtsgericht Landau; die sichtbaren Kontaktfelder im Impressum selbst enthalten weiterhin Platzhalter, die Angaben stehen separat im Seitenfuß. Firmenname fehlt im Impressum, und ein unabhängiger Registertreffer/Live-Status zu HRB 33727 wurde nicht bestätigt. Daher weiterhin Einzelbeleg und keine Felder gefüllt; kein Schluss zur Betriebsaktivität allein aus der abrufbaren Website. ANKAUF: nur „faire Preise“/Angebot auf Anfrage, keine Zahlenkurse; VERKAUF: keine Warenpreisliste; GEBÜHREN: Container-/Abholkosten nicht veröffentlicht. Ein einzelner Homepage-Kundenkommentar („komplett kostenlos“) ist anekdotisch, keine allgemeine Gebührenregel. Quelle(n): https://suedpfalzmetall-gmbh.de/; https://suedpfalzmetall-gmbh.de/leistungen/; https://suedpfalzmetall-gmbh.de/impressum]
 
 ### Recherche 02.10.2026
 

@@ -28,6 +28,10 @@ Der genaue Rechtsträger **WRS-Wertstoff Recycling Service GmbH**, HRB 500985 (A
 
 ## Timeline
 
+### Gegenprüfung 13.10.2026
+
+- [Recherche 13.10.2026: Erneuter direkter Abruf des registerbezogenen Detailprofils zu HRB 500985 bestätigt den Status „gelöscht“ und die historische Anschrift Schäferstraße 36, Gotha. Die generische FAQ derselben Portalseite behauptet an anderer Stelle, das Unternehmen sei seit 19 Jahren aktiv; das widerspricht der rechtsträgerspezifischen Statusanzeige und wird nicht als Aktivbeleg gewertet. Aussage „geschlossen“ bleibt ausschließlich auf die exakt benannte GmbH beschränkt; weder heutiger Hof noch Nachfolger daraus abgeleitet. Keine aktuelle Ankauf-, Verkaufspreis- oder Gebührenliste gefunden; Portalkosten für Registerauszüge/Übersetzungen sind keine WRS-Tarife. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/th/Jena/HRB/500985/WRS-Wertstoff-Recycling-Service-GmbH .]
+
 ### Gegenprüfung 10.10.2026
 
 - [Gegenprüfung 10.10.2026: Unabhängiger Owner-Gate bestätigt erneut Liquidation/Löschung des exakten Rechtsträgers. Der heute gelesene FAQ-Text des Registerspiegels nennt ebenfalls gelöscht; der am 09.10. dokumentierte abweichende FAQ-Text ist historische Abrufbeobachtung, kein weiterhin behaupteter aktueller Quellenwiderspruch. Keine Schlussfolgerung zum heutigen Hof oder Nachfolger. Quellen: https://www.online-handelsregister.de/handelsregisterauszug/th/Jena/HRB/500985/WRS-Wertstoff-Recycling-Service-GmbH ; research/checkin-20261010-waveD-suedost-owner-gate.md .]

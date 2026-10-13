@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt die exakt benannte Bohnsack GmbH Schrott-Container-Abriß unter HRB 17388 beim Amtsgericht Potsdam; die bisherige Recherche ordnet ihr die Nauener Str. 118 zu. Ein ähnlich benanntes, separates Unternehmen „Dahm & Bohnsack Handels- und Recycling GmbH“ ist unter HRB 11108 in Neuruppin geführt. Das Örtliche bezeichnet den Eintrag an der Nauener Str. 118 als „Dahm & Bohnsack … c/o“, belegt damit aber keine Umfirmierung, Niederlassung oder Rechtsnachfolge. Da keine aktuellen, qualifizierenden Quellen die laufende Geschäftstätigkeit oder Annahme am Standort bestätigen, bleibt `status: pruefung`; das ist kein Schließungsnachweis. Keine konkrete Preis-/Annahmebedingung verifiziert.
 
 ## Timeline
+
+### Korrektur 13.10.2026 (Statusprüfung)
+
+- [Korrektur 13.10.2026: `status` aktiv → pruefung. Die bisherige Aktiv-Aufwertung stützte sich auf Register- und Verzeichnis-Konsens; nach README zählt Aggregator plus Registerquelle jedoch nicht als zwei unabhängige Belege. NorthData bestätigt den Rechtsträger HRB 17388, nicht die heutige Kundenannahme. Das Örtliche-„c/o“ bleibt ein Aggregator-Lead und belegt keine Niederlassung oder Rechtsnachfolge zu Dahm & Bohnsack (HRB 11108, AG Neuruppin). Kein Schließungsnachweis; Identität/aktuelle Tätigkeit/Annahme offen. Keine numerische Ankauf-, Verkaufspreis- oder Gebührentafel gefunden. Quellen: https://www.northdata.de/Bohnsack+GmbH+Schrott-Container-Abri%C3%9F,+Falkensee/Amtsgericht+Potsdam+HRB+17388+P ; https://www.northdata.de/Dahm+%26+Bohnsack+Handels-+und+Recycling+GmbH,+Neustadt+(Dosse)/Amtsgericht+Neuruppin+HRB+11108 ; https://www.dasoertliche.de/Themen/Dahm-Bohnsack-Handels-und-Recycling-GmbH-c-o-Falkensee-Nauener-Str .]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Datensatz „IKSCHROTT rovocar“ beruht bislang auf einem Kompass-Lead zu Ronny Voigt/„rovocar“ und nicht auf einem auswertbaren Betreiberauftritt. Schreibweise, Rechtsträger, Betriebsadresse und Zusammenhang zwischen „IKSCHROTT“ und „rovocar“ sind nicht belegt. Daher weder Ankauf noch Annahmeort oder aktuelle Tätigkeit behaupten; keine Preis- oder Gebührendaten.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Neue Suche nach der exakten Kombination „IKSCHROTT rovocar“, Ronny Voigt und Geraberg brachte keinen zuordenbaren Betreiber-, Register-, kommunalen oder Betreiber-Social-Beleg. Vereinzelte gleichnamige Personenprofile ohne Orts-/Betriebsbezug wurden nicht zugerechnet. Der bisherige Kompass-Eintrag bleibt ausschließlich Lead; „IKSCHROTT“ wird nicht als verifizierter Firmenname behandelt. Kein Schließungsbefund, aber auch kein Beleg aktueller Annahme. Keine belastbare Ankaufspreisliste, Materialverkaufspreise oder Gebühren gefunden. Quelle: Kompass-Lead aus der bisherigen Recherche (kein qualifizierter Primärbeleg); exakte Namens-/Ortsabfragen 13.10.2026 ohne passenden Treffer.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

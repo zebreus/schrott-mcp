@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Kandidat für Steffen Walter in Twedt bleibt durch Verzeichnisse gestützt: Schrottplatz-Info und Schrottplatz.org wiederholen Grumby 35, 24894 Twedt und 0172 4065874. Es fehlt weiterhin ein Betreiber-Impressum, Register- oder kommunaler Gewerbenachweis. Kontaktdaten/Annahme und aktueller Betrieb sind nicht unabhängig bestätigt; mehrere Portalwiederholungen zählen nicht als mehrere unabhängige Belegklassen.
+
+- **Ankauf:** keine verifizierten Preise oder aktuelle Ankaufbestätigung.
+- **Verkauf:** keine Liste.
+- **Gebühren:** keine Abhol-/Entsorgungsgebühr gefunden.
+- **Geokodierung:** Adresse erst nach Betreiber-/Registerbestätigung übernehmen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Re-Check der Einträge auf Schrottplatz-Info und Schrottplatz.org ergab weiterhin nur Portalwiederholungen für Grumby 35, 24894 Twedt, 0172 4065874; kein Betreiber-Impressum, Register- oder kommunaler Gewerbenachweis in den recherchierten Treffern. Keine aktuelle Betriebs-/Annahmebestätigung, Preise oder Gebührenliste gefunden. Bestehende Lead-Werte nicht in Frontmatter übernommen, status pruefung bleibt. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Tolk/Steffen-Walter-Schrotthandel ; https://www.schrottplatz.org/stolk]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

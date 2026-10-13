@@ -33,6 +33,10 @@ Für „Langhans Christian Schrotthandel“ liegen bislang nur Portal-Leads vor.
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Offizielle Firmenverzeichnis-Seite der Stadt Südliches Anhalt erneut direkt gelesen. Sie erklärt, dass Unternehmen einen Eintrag beantragen und die Redaktion ihn prüft; ein fehlender Treffer ist daher ausdrücklich kein vollständiger Register-/Existenznegativbeleg. Kein positiver Eintrag für Christian Langhans gewonnen. Die kommunale Quelle löst die bisher offenen Fragen Reupzig/Hohnsdorf, Dorfstraße/Preußenstraße, Hausnummer und Betreiberzuordnung nicht auf. Keine Frontmatteränderung; keine verifizierten Ankaufpreise, Warenverkaufspreise oder Gebühren. Quelle: https://www.suedliches-anhalt.de/firmenverzeichnis/ ; bekannte Portal-Leads und Straßenprüfung siehe Recherche 04.10.2026.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (lt. schrottplatz-info)

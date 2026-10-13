@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Identität bleibt offen: Verzeichnis- und Telefonbuchtreffer weisen auf einen „Schrott Müller J.“ bzw. „Müller Recycling & Abbruchtechnik“ in Münsterstr. 26c, 48167 Münster, Tel. 0251 2849070. Das passt zum generischen Namen, ist aber nicht durch eine Betreiberquelle belegt und wird nicht in Frontmatter übernommen. Eine gefundene Betreiberseite „Schrotthandel-Müller“ gehört nach ihrem Impressum zu einem anderen Betrieb in Mönchengladbach; nicht verknüpfen. Keine belastbare Preisliste oder geocodierbare Dossieradresse.
+Identität bleibt offen: ältere Verzeichnis-/Telefonbuchtreffer nennen „Schrott Müller J.“ bzw. „Müller Recycling & Abbruchtechnik“ in Münsterstr. 26c, 48167 Münster, Tel. 0251 2849070. Ein weiterer Recyclinghof-Eintrag nennt abweichend Münsterstraße 26 und 0173 5353936, erklärt aber selbst, Annahmeliste und Öffnungszeiten seien nicht verifiziert. Keiner der Leads ist eine Betreiberquelle; Straße, Telefon und Rechtsträger bleiben ungeklärt und werden nicht in Frontmatter übernommen. Die ähnlich benannte Betreiberseite „Schrotthandel-Müller“ gehört nach ihrem Impressum zu einem anderen Betrieb in Mönchengladbach. Keine belastbare Preisliste oder geocodierbare Dossieradresse.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Neuer Recyclinghof-Portal-Eintrag nennt Münsterstraße 26, 0173 5353936, aber keine verifizierte Annahmeliste/Öffnungszeiten; ältere Verzeichnisse nennen Münsterstr. 26c, 48167, 0251 2849070. Keine Quelle verbindet diese widersprüchlichen Datensätze sicher mit dem generischen Seed „Müller“. Kein Frontmatter-Fill und keine Preise übernommen. Quelle(n): https://recyclinghof-wertstoffhof.de/recyclinghof/nordrhein-westfalen/muenster/mueller-recycling-abbruchtechnik-muensterstrasse-26/ (Portal-Lead); ältere Lead-Quellen siehe Recherche 06.10.2026]
 
 ### Recherche 06.10.2026
 

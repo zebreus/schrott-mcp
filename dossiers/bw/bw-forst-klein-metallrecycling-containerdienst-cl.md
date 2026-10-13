@@ -30,6 +30,10 @@ Die Betreiberwebsite der Lausitzer Firma sagt, sie kaufe Altmetalle/Schrott von 
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberseite /page2 erneut direkt geprüft: die Lausitzer Firma sagt ausdrücklich, sie kaufe Altmetalle/Schrott von Privat, Handwerk und Gewerbe zu tagesaktuellen, nach Gewicht ermittelten Preisen und zahle sofort; für größere Mengen würden Absetzcontainer kostenlos bereitgestellt. Die Containerdienst-Seite nennt 7- bzw. 10-„qm“-Absetzcontainer mietfrei bis 14 Tage (Einheit wie auf der Seite dargestellt, nicht näher erklärt). Das sind konkrete Konditionen, aber keine Euro-Ankaufskurse und kein allgemeiner Erlass von Entsorgungsgebühren. Die Kreisverwaltung Spree-Neiße führt Claudia Klein, Albertstraße 32–34, 03149 Forst (Lausitz), Mo–Fr 07:00–17:00. Sämtliche Angaben gehören zur brandenburgischen Betreiberin, nicht nachweislich zum BW-Slug „Forst“; kein Fill/keine State-Korrektur. Quellen: https://www.schrotthandel-klein.com/page2; https://www.schrotthandel-klein.com/page3; https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze/4302-recycling-und-metallverwertung-autoverwertung-containerdienst.html?pageAlone=1&printPage=true]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Cross-State-Namensabgleich: Betreiberwebsite nennt „Metallrecycling und Containerdienst Klein, Inh. Claudia Klein“, Albertstraße 32–34, 03149 Forst/Lausitz; die zuständige Kreisverwaltung Spree-Neiße führt dieselbe Betreiberin/Adresse. Dossier ist als BW/Forst angelegt; mangels Verbindung zwischen den Orten keine Übernahme von Website, Kontaktdaten oder Betriebseigenschaften und keine Umdeutung der Geografie. Nur für die Lausitzer Firma belegt: Ankauf von Altmetall/Schrott von Privat/Handwerk/Gewerbe zu Tagespreisen nach Gewicht, sofortige Zahlung; keine Zahlenkurse oder Containergebühren veröffentlicht. Quelle(n): https://www.schrotthandel-klein.com/ ; https://www.schrotthandel-klein.com/form-map ; https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze/4302-recycling-und-metallverwertung-autoverwertung-containerdienst.html?pageAlone=1&printPage=true]

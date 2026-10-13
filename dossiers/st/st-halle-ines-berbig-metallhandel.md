@@ -32,6 +32,10 @@ Die historische Verbindung zwischen Ines Berbig, dem früheren Standort Freiimfe
 
 ## Timeline
 
+### Gegenprüfung 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberwebsite und Produktseite direkt erneut gelesen. Metall-Blitz GmbH bezeichnet sich als Metallfachhandel und bietet neue Dachrinnen/Fallrohre aus Kupfer, Zink und Aluminium, NE-Metalle, Tafel-/Band-/Coilware sowie Lohnarbeiten an. Die Unternehmenschronik nennt die Gründung durch Ines Berbig 1997, eine Lager-/Produktionshalle Freiimfelder Str. 5 ab 1998, Umwandlung in eine GmbH 2011 und Geschäftsräume Fiete-Schulze-Str. 5 ab 2015. Das stützt die historische Verbindung, belegt aber weiterhin nicht die rechtliche Identität/Nachfolge des als „Ines Berbig Metallhandel“ importierten Datensatzes oder Schrottankauf. Keine Zahlenpreise für Ankauf, Verkauf oder Gebühren auf den gelesenen Seiten. Quellen: https://www.metall-blitz.de/ueber-uns.html ; https://www.metall-blitz.de/produkte.php ; https://www.metall-blitz.de/impressum.php .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Neue Betreiber-/Nachfolgespur live, noch kein zulässiger Transfer: Metall-Blitz-Website berichtet Gründung des Fachgroßhandels durch Ines Berbig am 28.07.1997, Lager-/Produktionshalle Freiimfelder Straße 5 ab September 1998, Umwandlung in GmbH am 01.09.2011 und Umzug zur Fiete-Schulze-Straße 5, 06116 Halle, am 02.02.2015. Impressum Metall-Blitz GmbH, GF Ines Berbig, AG Stendal HRB 14537, 0345 5605544, info@metall-blitz.de. Damit plausibler Zusammenhang zum alten Seed-Ort, aber Eigenhistorie allein beweist weder rechtliche Nachfolge des konkret so benannten Dossiers noch aktuellen Schrottankauf; Quelle(n): https://www.metall-blitz.de/ + https://www.metall-blitz.de/ueber-uns.html + https://www.metall-blitz.de/impressum.php]

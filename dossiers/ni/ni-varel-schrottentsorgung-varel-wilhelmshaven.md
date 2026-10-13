@@ -33,6 +33,10 @@ Die bisherige Orts-/Kontaktnennung stammt aus einer SEO-/Branchenverzeichnisfami
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Direkter Re-Check der LokaleSchrottplatz-Seite bestätigt nur Portalangaben: Dangaster Str. 68, 26316 Varel, 01520 9774291, werktags 08:00–20:00, samstags 09:00–18:00; Portalstatus „geschlossen, öffnet morgen“ ist keine Dauerschließungsinformation. FE-Mindestmenge 100 kg und NE 1 kg sind Annahmeschwellen, keine Ankaufspreise. Trotz Materialliste keine Zahlenpreise oder belastbare Gebühren-/Abholliste gefunden. Keine Frontmatter-Fills/Geokodierung. Quelle: https://lokaleschrottplatz.de/schrottentsorgung-varel-wilhelmshaven/ (nicht betreibereigener Portalbeleg)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

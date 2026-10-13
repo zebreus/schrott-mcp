@@ -9,10 +9,10 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: tot
+website: https://www.arend-container.de/
+website_status: unbekannt
 status: pruefung
-description: ''
+description: "Containerdienst und Entsorgung in Düsseldorf; eine aktuelle öffentliche Schrottannahme oder ein Altmetall-Ankauf ist nicht belegt."
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Hermann Arend GmbH wird mit Reisholzer Werftstr. 76, 40589 Düsseldorf und Containerdienst geführt; die Dossier-Domain war bei Direktabrufen nicht lesbar (neuer Versuch endete mit Transportfehler/HTTP 500). Solche Abruffehler belegen keine dauerhafte Schließung oder aktuelle Betreiberseite. **Ankauf:** Schrottannahme/Preise nicht unabhängig bestätigt; **Verkauf:** keine Liste; **Gebühren:** keine Tarife gefunden.
+Die öffentliche Facebook-Metadatenansicht identifiziert „H. Arend GmbH – Entsorgungen / Containerdienst“ in Düsseldorf und beschreibt Containerdienst/Entsorgung. Sie stellte bei der Owner-Gegenprüfung aber weder Anschrift noch Telefon oder E-Mail bereit; der Creditreform-Abruf war gesperrt bzw. lieferte keinen auswertbaren Firmeneintrag. Die zuvor vom Recherche-Agenten gemeldeten Kontaktdaten und PLZ sind deshalb nicht in strukturierte Felder übernommen; die vorhandene Seed-Straße bleibt ein ungeprüfter Altstand. Die Domain arend-container.de ließ sich bei Direktabruf nicht auslesen (TLS-/HTTP-Fehler); dies belegt weder Nichtexistenz noch dauerhafte Schließung. Eine aktuelle Schrottannahme bleibt unbestätigt. **Ankauf:** keine bestätigte Annahme oder Preise; **Verkauf:** keine Liste; **Gebühren:** keine Tarife gefunden.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Gegenprüfung 13.10.2026: Öffentliche Facebook-Metadaten des Profils „H. Arend GmbH – Entsorgungen / Containerdienst“ nennen Düsseldorf sowie Container-/Entsorgungsbetrieb, aber die bei dieser Owner-Prüfung abrufbare Profilansicht enthält keine Anschrift, Telefonnummer oder E-Mail. Creditreform lieferte im direkten Abruf 403 bzw. keinen auswertbaren Firmeneintrag; die Firmen-/PLZ-Angabe aus URL und Agentenbericht ist damit hier nicht unabhängig überprüfbar. Die Agentenwerte für PLZ, Telefon und E-Mail wurden daher nicht als strukturierte Felder übernommen; die bereits vorhandene Seed-Straße bleibt ungeprüfter Altstand. Die Website-Domain ließ sich nicht zuverlässig laden; `website_status` daher unbekannt, nicht tot. Aktuelle Schrottannahme, Preise und Gebühren bleiben offen. Quelle(n): https://firmeneintrag.creditreform.de/40589/5050389460/HERMANN_AREND_GMBH ; https://www.facebook.com/p/H-Arend-GmbH-Entsorgungen-Containerdienst-100082617793064 ; https://www.arend-container.de/ ; https://www.arend-container.de/impressum/]
 
 ### Recherche 12.10.2026
 

@@ -25,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für den Bührener Seed ließ sich kein passender Betreiber-/Registerbeleg finden. Die direkt geprüfte Cylex-Seite „Schrott- und Metallhandel Martin Broschinski“ bezieht sich auf Visselhövede; weitere ähnlich geschriebene Namen führen zu anderen Orten bzw. Personen (u. a. Brozinski in Bünde). Keine belastbare Verbindung dieser Betriebe zu Bühren oder zu Peter Broschinski, daher keine Zusammenführung oder Stammdaten-Fills.
+
+- **Ankauf/Verkauf/Gebühren:** keine Bührener Preisliste oder Kondition gefunden.
+- **Geokodierung:** Bühren bleibt ungeklärte Seed-Zuordnung; keine Adresse.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Namens-/Ortsabgleich ergab keinen Bührener Beleg. Cylex-Eintrag für Martin Broschinski ist Visselhövede; Betreiberauftritt metallhandel-brozinski.de führt andere Schreibweise (Brozinski), Creditreform-Treffer Fernando Broschinski betrifft Bünde. Ähnliche Namen/Branchen sind kein Beleg für Identität oder Standortbezug; kein Merge, keine Stammdaten oder Preise ergänzt. Quelle(n): https://web2.cylex.de/firma-home/schrott--und-metallhandel-martin-broschinski-16486552.html ; https://metallhandel-brozinski.de/UeBER-UNS ; https://firmeneintrag.creditreform.de/32257/4170481406/FERNANDO_BROSCHINSKI_SCHROTTHANDEL]
 
 ### Recherche 04.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuelle Betreiberübersicht von ALBA Metall Nord nennt 13 Standorte; Torgelow ist nicht darunter. Ein Branchenbuch führt dagegen einen möglicherweise historischen Eintrag „ALBA Metall Ost GmbH“, Waldsiedlung 7, Torgelow, Tel. 03976 202392. Ein Übergang dieser Filiale zur heutigen ALBA Metall Nord oder ein aktueller Betrieb ist nicht belegt. `status: pruefung` bleibt angemessen. ALBA wirbt allgemein mit Schrottankauf zu Bestpreisen und individuellen Angeboten, veröffentlicht auf den geprüften Seiten aber keine numerischen Preislisten.
+Die aktuelle ALBA-Metall-Standortübersicht nennt 13 Treffer, keinen in Torgelow. Eine ALBA-Group-ISO-50001-Urkunde enthält als historische Anlage (gültig 24.06.2018–23.06.2021) jedoch die Adresse Waldsiedlung 7, 17358 Torgelow unter den gelisteten Standorten der ALBA Metall Nord. Das belegt einen historischen Standortbezug, nicht einen heutigen Publikumsannahmehof. Ein Branchenbuch nennt zusätzlich die frühere Bezeichnung „ALBA Metall Ost GmbH“; eine Umfirmierungs-/Nachfolgekette oder heutiger Betrieb in Torgelow ist nicht belegt. `status: pruefung` bleibt angemessen. ALBA wirbt gruppenweit mit Stahl-/Metallankauf, aber die geprüften Seiten veröffentlichen keine numerischen Preise.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Neue historische Standortspur aus einer direkt abgerufenen ALBA-Group-ISO-50001-Urkunde: Zertifikatsgültigkeit 24.06.2018 bis 23.06.2021; die Anlage enthält Waldsiedlung 7, 17358 Torgelow innerhalb der Standortliste, deren Abschnitt ALBA Metall Nord GmbH/Metallrecycling bezeichnet. Damit ist eine frühere ALBA-Metall-Standortzuordnung plausibel, aber weder aktueller Betrieb noch öffentliche Annahme 2026 belegt. Die heutige Betreiber-Standortübersicht wurde direkt gelesen und führt 13 Standorte ohne Torgelow. Keine Änderung an Status/Adresse/Telefon und keine Schließung behauptet. Die allgemeine ALBA-Ankaufseite bewirbt Metallannahme an den aktuellen Plätzen zu individuellen Konditionen, ohne Zahlenliste; sie belegt nicht Torgelow als heutigen Annahmeort. Quellen: https://alba-bs.de/fileadmin/user_upload/Zertifikate/Zertifikat_ISO_50001_ALBA_Group.pdf ; https://metall.alba.info/unternehmen/standorte/ ; https://metall.alba.info/ankauf/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

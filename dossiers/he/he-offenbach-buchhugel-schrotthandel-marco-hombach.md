@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die dokumentierten Branchenverzeichnisse widersprechen sich: Mühlheimer Str. 181, 63075 Offenbach, sowie Dieselstr. 38–40, 63071 Offenbach; die Rufnummern werden teils unterschiedlich gruppiert, teils mit anderen Kontakten kombiniert. Es gibt keinen Betreiber-, Register- oder kommunalen Beleg, der Adresse und Person Marco Hombach zusammenführt. Keine Kontaktdaten übernehmen oder geocodieren. Ankauf-/Verkaufspreise und Gebühren sind unbelegt.
 
 ## Timeline
 

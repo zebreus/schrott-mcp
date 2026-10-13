@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Derzeitiger Lead „WS Dienstleistungen“ wird nur von Gelbe Seiten mit Breslauer Str. 27a, 59320 Ennigerloh, 01523 7848604, Mo–Fr 8–18/Sa 8–12 und „kostenlose Schrottabholung“ gelistet. Das sind nicht unabhängig bestätigte Portalangaben; eine Verbindung zu der gefundenen Website `ws-dienstleistung.de` ließ sich nicht herstellen (deren Treffer beschreiben einen Anbieter aus dem Raum Limburg). Keine Kontaktdaten oder Gratis-Abholung übernommen.
+
+- **Ankauf:** keine bestätigte Ankaufskondition oder numerische Preise.
+- **Verkauf:** keine Liste.
+- **Gebühren:** die kostenlose Abholung ist ein unbestätigter Verzeichniseintrag, kein belastbarer Preis-/Gebührenbeleg.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Direkt geprüfter Gelbe-Seiten-Eintrag nennt Breslauer Str. 27a, 59320 Ennigerloh, 01523 7848604, Zeiten Mo–Fr 8–18/Sa 8–12 und „Kostenlose Schrottabholung“; weiterhin nur Aggregator-/Profilangabe, keine unabhängige Betriebsbestätigung. Suchtreffer zu ws-dienstleistung.de beziehen sich auf W&S Dienstleistungen im Raum Limburg; keine Zuordnung zum Ennigerloher Lead. Keine Frontmatter-Fills; die kostenlose Abholung nicht als verifizierte Kondition behandeln. Quelle(n): https://www.gelbeseiten.de/gsbiz/073c5efb-18b8-4fe4-8f0c-58426d504590 ; https://ws-dienstleistung.de/ (anderer/ungeklärter Anbieter, nicht zugeordnet)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

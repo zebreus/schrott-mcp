@@ -29,6 +29,10 @@ Ein Lokalbericht vom 22.10.2025 bestätigt, dass ein Recyclinghof unter dem Name
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiber-/Ortssuche mit gezielten Suchläufen zu Schwaförden, Samtgemeinde und Landkreis Diepholz brachte keinen belastbaren aktuellen Betreiberauftritt, Registereintrag oder veröffentlichten Genehmigungsbescheid zum Recyclinghof zutage. Das Ausbleiben von Suchtreffern ist kein Beleg für Nichtexistenz oder Schließung. Die Pressequelle vom 22.10.2025 bleibt der einzige konkret gelesene unabhängige Bericht: Betriebsbeginn Mitte September 2025 und Bellamy Wimmert als Betreiber; Hausnummer, Rechtsträger und heutiger Genehmigungsstand bleiben offen. Keine Preise oder Gebühren gefunden; keine Stammdaten ergänzt. Quelle(n): https://www.kreiszeitung.de/lokales/diepholz/schwafoerden-ort59235/ein-lastwagen-vor-dem-fenster-gegen-die-lebensfreude-94000215.html ; gezielte Suchen auf https://www.schwafoerden.de/ und https://www.diepholz.de/ (ohne verifizierbaren Treffer)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

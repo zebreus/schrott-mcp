@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „DTR Autoverwertung“ in Wittendörp liegt weiterhin nur der ältere Portal-/Verzeichnislead samt Seed-Mobilnummer 0174 4558806 vor. Die aktuelle Recherche fand keine zuordenbare Betreiberwebsite, Register-/Gewerbequelle oder kommunale Quelle. „Autoverwertung“ allein belegt weder eine konkrete öffentliche Annahmestelle noch Fahrzeugankauf, kostenlose Entsorgung oder Ersatzteilverkauf. Status `pruefung`; Anschrift, Betreiber, Leistungen und alle Preis-/Gebührenbedingungen offen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Erneute gezielte Suche nach „DTR Autoverwertung“, Schreibvarianten Wittendörp/Wittendorp und der Seed-Telefonnummer ergab keinen zuordenbaren Betreiberauftritt, Register-/Gewerbeeintrag oder kommunalen Primärbeleg. Der ältere Portalhinweis bleibt ein Suchlead, kein positiver Identitäts- oder Annahmebeleg; der Telefonnummernwert wird nicht aufgewertet. Keine Schließung behauptet. Keine verifizierte aktuelle Fahrzeug-Ankaufssumme, Ersatzteil-Verkaufsliste oder Entsorgungs-/Abschleppgebühr gefunden; ein Nichtfund ist kein Beweis, dass Preise nicht individuell genannt werden. Quelle: bisheriger Importlead lokaleschrottplatz.de (im Dossier ohne aufgelöste Detail-URL); gezielte Suchläufe 13.10.2026 ohne qualifizierten Treffer.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

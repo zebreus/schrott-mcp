@@ -34,6 +34,10 @@ Mehrere Branchen- und Schrottverzeichnisse führen TuS Schrott & Metalle an Rave
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Neue Gegenprüfung ergab keinen verifizierbaren Betreiber-/Register-/Kommunalbeleg über die bereits dokumentierten Verzeichnisquellen hinaus. Der direkte Abruf des Stadtbranchenbuch-Eintrags war mit HTTP 403 gesperrt; gezielte Suchen bei Gemeinde Harpstedt/Landkreis lieferten keinen belastbaren Nachweis (fehlende Treffer nicht als Nichtexistenzbeweis). Adresse, Telefon, Annahmeliste und Öffnungszeiten daher nicht neu bestätigt; keine Preise/Gebühren gefunden. Frontmatter bleibt unverändert, status pruefung. Quelle(n)/Suchpfad: https://harpstedt.stadtbranchenbuch.com/4213439.html ; https://www.harpstedt.de/ ; https://www.diepholz.de/ ; Portal-Lead: https://lokaleschrottplatz.de/tus-schrott-metalle/]
+
 ### Owner-Korrektur 08.10.2026
 
 - [Korrektur 08.10.2026: Aktivstatus auf pruefung zurückgenommen: bereits die Recherche 04.10. und die aktuelle Gegenprüfung dokumentieren ausschließlich Verzeichnisbelege, keinen Betreiber-/Registerbeleg für heutige Annahme. Bestehende Adresse/Telefon bleiben als ungeklärte Legacy-Werte erhalten. Weder Geschlossen im Portal noch erfolglose Namenssuche beweisen Betriebsende. Quelle: https://lokaleschrottplatz.de/tus-schrott-metalle/ ; erhaltene Recherche 04.10.2026 und Quellenkritik 08.10.2026.]

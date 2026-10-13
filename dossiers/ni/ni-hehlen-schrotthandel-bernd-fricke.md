@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der eingetragene Kandidat „Schrotthandel Bernd Fricke“ bleibt ungeklärt. Eine niedrig belastbare lokale Ortsseite nennt B. Fricke, Hauptstraße 42, 37619 Hehlen, 05533 3254 als Haushaltswaren-/Antiquitätengeschäft, nicht eindeutig als Schrotthandel. Das ist ein Identitäts-/Branchenwiderspruch und kein Beleg gegen die Existenz eines Schrotthandels. Adresse bleibt Lead; keine Frontmatter-Fills.
+
+- **Ankauf/Verkauf/Gebühren:** keine händlerspezifische Preis- oder Gebührenquelle gefunden.
+- **Geokodierung:** Hauptstraße 42 erst nach Betreiber-/Gewerbeabgleich bestätigen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Die Ortsseite „B. Fricke“ listet Hauptstraße 42, 37619 Hehlen, 05533 3254 in einer Haushaltswarenkategorie. Das stimmt mit einem alten Adresslead überein, bestätigt aber weder den Vornamen Bernd noch Schrotthandel/Altmetall-Annahme; Kategorieabweichung als offene Identitätsfrage festgehalten, nicht als Widerlegung. Kein Betreiber-/Registerbeleg, keine Stammdaten/Preise ergänzt. Quelle: https://hehlen-ni.sind-sie-sicher.info/b-fricke/ (niedrig belastbarer Ortsverzeichnis-Lead)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

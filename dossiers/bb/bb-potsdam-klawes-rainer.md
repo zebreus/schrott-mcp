@@ -30,6 +30,10 @@ Klawes Rainer ist ein unbestätigter Potsdamer Schrottlead. Klopstockstraße 2, 
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Das Örtliche direkt gelesen; der Eintrag wiederholt Klawes Rainer, Klopstockstr. 2, 14482 Potsdam, Tel. 0331 714125 und die Branchenbezeichnung Schrott, bietet aber keinen Betreiberlink oder Identitäts-/Registerbeleg. Es ist damit ein weiterer Aggregator-Lead, keine unabhängige Bestätigung des bisherigen schrottplatz-info-Eintrags. Keine Übernahme in Frontmatter, kein aktueller Annahmenachweis und keine Zahlen für Metallankauf, Materialverkauf oder Gebühren. Quelle/Lead: https://www.dasoertliche.de/Themen/Klawes-Rainer-Potsdam-Babelsberg-Nord-Klopstockstr .]
+
 ### Ownerkorrektur 10.10.2026
 
 - [Korrektur 10.10.2026: Ownerentscheidung status aktiv→pruefung wegen Beleglücke: Name/Ort, aktuelle Gewerbetätigkeit und öffentliche Annahme nicht durch Betreiberwebsite, Register-/Gewerbedatensatz oder Betreiber-Social bestätigt. Klopstockstraße 2/0331 714125 bleiben Portal-Leads, Portal-Root ist keine Händlerwebsite. Eigene Gegenrecherche am 10.10. ohne Zielbetreiberbeleg ist nur Discovery-Grenze; keine Schließung/Nichtexistenz ableiten. Andere Frontmatter-Felder und Slug unverändert, keine Legacyfreigabe. Quelle: https://www.schrottplatz-info.de/schrottplatz/Potsdam/Klawes (Vorrecherche/Lead, kein neuer Live-Abruf); eigenständige Klawes/Potsdam/Schrott-Suche 10.10. ohne qualifizierten Zielbeleg.]

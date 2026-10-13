@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Ungeklärter Kölner Schrotthandels-Lead für Nikolaus Prison. Clemens-Hastrich-Str. 8, 50827 Köln und 0163 1496429 sind bisher nur Verzeichnisangaben, keine verifizierten Betriebs-/Kontaktdaten. Der Betreiber Prison-Kramer in Essen hat eigene, andere Inhaberangaben und einen Essener Standort; weder Namensgleichheit noch NRW-weite Dienstleistung beweisen eine Kölner Niederlassung oder Familien-/Betreiberkette. Kein Merge und keine Schließung belegt.
+Ungeklärter Kölner Schrotthandels-Lead für Nikolaus Prison. Clemens-Hastrich-Str. 8, 50827 Köln und 0163 1496429 sind bisher nur Verzeichnisangaben, keine verifizierten Betriebs-/Kontaktdaten. Ein neu gefundener automatisch generierter Ortsdatensatz verortet „Schrott Abholung Nikolaus Prison“ stattdessen am Ossendorfer Weg 27; ohne Betreiber-/Registerverknüpfung ist das ein weiterer widersprüchlicher Lead, keine Korrektur. Der Betreiber Prison-Kramer in Essen hat eigene, andere Inhaberangaben und einen Essener Standort; weder Namensgleichheit noch NRW-weite Dienstleistung beweisen eine Kölner Niederlassung oder Familien-/Betreiberkette. Kein Merge und keine Schließung belegt.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Exa-Ortsseite nennt automatisch „Schrott Abholung Nikolaus Prison“ am Ossendorfer Weg 27 in Ehrenfeld; das widerspricht der bisherigen Clemens-Hastrich-Str.-8-Leadadresse und enthält keinen Betreiber-/Registerbeleg, der die Identität oder Verbindung klärt. Nicht als Beweis übernommen und keine Adresse/Koordinaten ergänzt. Das geprüfte Betreiber-Impressum von Prison-Kramer belegt weiterhin nur die Essener Firma/Standort, nicht Nikolaus Prison/Köln. Keine Kölner Preis- oder Gebührenliste. Quelle(n): https://exa.ai/library/place/phhl1wzlk6n (automatisch erzeugter Lead, nicht als Identitätsbeleg gewertet); https://schrottankauf-in.de/impressum.php ; https://schrottankauf-in.de/standort-schrottplatz-essen.php]
 
 ### Recherche 12.10.2026
 

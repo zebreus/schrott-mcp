@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Lead Karl Wolfgang Torner, Oben zum Holz 60, 42653 Solingen-Gräfrath, 0212 593422, weiterhin ausschließlich über Verzeichnisse. Kein aktueller Betreiberauftritt oder unabhängig identifizierter Register-/Gewerbebetrieb; kein Rückschluss von einem Portal-Aktualisierungsdatum auf echte Geschäftstätigkeit.
+Lead Karl Wolfgang Torner, Oben zum Holz 60, 42653 Solingen-Gräfrath, 0212 593422, weiterhin ausschließlich über Verzeichnisse. 11880 zeigt für den Eintrag einen Datenstand 29.06.2021 und ein Profilaktualisierungsdatum 03.10.2026; das spätere Plattformdatum verifiziert weder den Betreiber noch aktuelle Geschäftstätigkeit. Kein unabhängig identifizierter Register-/Gewerbebetrieb.
 
 **Preise:** Keine numerische Betreiber-Ankauf-/Verkaufspreisliste und keine Gebühren gefunden. **Offen:** heutige Betreiberidentität, Existenz des Betriebs am Standort, Ankauf/Abholung/Annahmezeiten. Adress-/Kontaktfelder bleiben leer und Standort ungeocodet, `pruefung`.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Direkt geprüfter 11880-Eintrag wiederholt Oben zum Holz 60, 42653 Solingen und 0212 593422; der Datensatz nennt als Datenstand 29.06.2021, während die Profilseite 03.10.2026 als Aktualisierung ausweist. Aktualisierung des Verzeichnisprofils ist kein Betreiber- oder Aktivitätsnachweis. Keine Betreiber-/Registerquelle, Preise oder Gebührenliste ermittelt; Frontmatter und status pruefung unverändert. Quelle: https://www.11880.com/branchenbuch/solingen/060440090B100462708/karl-wolfgang-torner.html (Verzeichnislead)]
 
 ### Recherche 08.10.2026
 

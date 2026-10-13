@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „R & W GbR“ liegt weiterhin kein Betreiber- oder Registerbeleg vor. Gelbe Seiten führt den Namen als Autoverwertung an Johann-Gottlob-Nathusius-Str. 12a mit 0179 4416940; MapQuest zeigt dieselbe Anschrift unter „Autoteile Krause und Rotte“. Beides sind Aggregator-Leads und lösen weder Betreiberidentität noch möglichen Namens-/Standortkonflikt. Die Seed-Adresse und Aktivitäten bleiben ungeprüft; kein aktueller Annahmebetrieb, Schrottankauf oder Preis/Tarif bestätigt.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Direktabruf des Gelbe-Seiten-Eintrags zeigt „R & W GbR“, Kategorie Autoverwertung, Johann-Gottlob-Nathusius-Str. 12a, 39340 Haldensleben, Tel. 0179 4416940; genannte Leistungen sind Gebraucht-Autoteile, Schrott und Autoverwertung. Der Eintrag ist ein Aggregator, kein Beleg für aktuellen Betrieb oder Identität. MapQuest führt unter derselben Anschrift den Lead „Autoteile Krause und Rotte“; auch das ist kein qualifizierter Zweitbeleg und wird nicht mit R & W zusammengeführt. Keine Annahmebedingungen, Fahrzeugankaufbeträge, Teilepreise oder Gebühren verifiziert. Quelle/Leads: https://www.gelbeseiten.de/gsbiz/bc74a25b-2080-4cf9-8895-9b369f3e58f6 ; https://www.mapquest.com/de/sachsen-anhalt/krause-rotte-806295516 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

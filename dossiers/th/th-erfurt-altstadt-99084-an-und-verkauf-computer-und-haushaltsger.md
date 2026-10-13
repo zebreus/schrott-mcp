@@ -28,6 +28,10 @@ Gelbe Seiten führt den Namen als „An- und Verkauf“ an Trommsdorffstr. 11, 9
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Exakte Namens-/Adresssuche ergab zusätzlich einen MapQuest-Eintrag, der gebrauchte Computer, Laptops und Küchengeräte beschreibt. MapQuest ist ein Aggregator und kein Betreiberbeleg; daraus weder eine aktuelle Nutzung noch Annahme von Schrott/Metall ableiten. Die bestehenden Gelbe-Seiten-/Telefonbuch-Leads bleiben ohne Betreiberwebsite, Register- oder kommunalen Identitätsbeleg. Reuse-Grenzfall, Kontaktdaten, Aktivität und Adresse deshalb unverändert ungeklärt; keine Ankauf-, Verkaufskurse für Metall oder Entsorgungsgebühren belegt. Quelle/Lead: https://www.mapquest.com/de/thuringen/an-und-verkauf-computer-und-haushaltsgerate-805471792 ; bestehender Verzeichnisbeleg: https://www.gelbeseiten.de/gsbiz/0b232c3f-a463-4daa-8ddb-929d9dfeff7d .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - An-/Verkauf — Gebraucht-IT/Haushaltsgeräte Reuse, kein Schrottnachweis (GRENZFALL)

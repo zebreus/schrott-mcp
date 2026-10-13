@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der bestehende Kandidat nennt die Hattinger Str. 272b und eine Mobilnummer nur als Seed-/Verzeichnislead. Ein Facebook-Profil „Schrottabholung Nagel“ wirbt laut Suchtreffer mit kostenloser Abholung; der direkte Abruf zeigt nur eine Login-Hülle. Die genannte Betreiber-Domain ließ sich ebenfalls nicht direkt abrufen. Daher sind Inhaber, Bochumer Adresse, Kontaktdaten und Gratis-Abholung nicht unabhängig bestätigt; kein Schließungsurteil aus den Abruffehlern.
+
+- **Ankauf:** keine verifizierten Materialpreise.
+- **Verkauf:** keine Liste.
+- **Gebühren:** kostenlose Abholung nur als unbestätigte Profilwerbung, keine bindende Kondition.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Facebook-Seite „Schrottabholung Nagel“ zeigt im Suchtreffer Werbung für kostenlose Abholung, der Direktabruf lieferte nur die Plattform-Login-Hülle. Direkte Aufrufe von schrottabholung-nagel.de und /impressum ergaben Transportfehler; diese belegen keine dauerhafte Nichtexistenz/Schließung. Hattinger Str. 272b und 0176 84776442 bleiben Verzeichnisleads, keine Frontmatter-Fills; Gratis-Abholung nicht verifiziert. Keine Preislisten gefunden. Quelle(n): https://www.facebook.com/SchrottabholungNagel ; https://www.schrottabholung-nagel.de/ ; Verzeichnislead: https://www.golocal.de/bochum/schrotthandel/schrottabholung-nagel-YUZMn]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

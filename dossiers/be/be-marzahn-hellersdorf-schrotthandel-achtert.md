@@ -28,6 +28,10 @@ Der bisherige Datensatz stützt sich nur auf den Seed-/Verzeichnislead für Wald
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Zusätzliche Suchtreffer bei Branchenheld, Internetbranchenbuch und weiteren Branchenverzeichnissen führen neben dem Seed-Mobiltelefon 0173 4282425 abweichende ältere Kontaktwerte (u.a. 030 65217526 und 0152 26487110) sowie teils den Namen Kerstin Achtert. Das sind Aggregator-Leads und keine unabhängigen Identitäts-/Aktivitätsbelege; widersprüchliche Nummern nicht in Kontaktfelder übernehmen. Die Domain bleibt eine Verkaufsseite von fruits und ihr dortiger Domainpreis ist kein Händlerpreis. Keine aktuelle Ankaufsliste, Verkaufspreise oder Gebühren nachgewiesen; keine Schließung abgeleitet. Quellen/Leads: https://www.branchenheld.de/Schrotthandel/Berlin/Mobiler-Schrotthandel-Achtert ; https://www.internetbranchenbuch.org/detail.php?id=18693 ; https://schrotthandel-achtert.de/ .]
+
 ### Recherche 11.10.2026 (Wave E)
 
 - [Recherche 11.10.2026: Domain direkt erneut HTTP 200 gelesen, weiterhin fruits-Domainverkauf mit 1600 EUR netto und get fruits GmbH im Footer. Der Seitenbetreiber ist nicht der Dossierhändler; Domainpreis weder Materialverkauf noch Ankauf oder Händlergebühr. Vorhandene Waldstr.-Adresse und Mobiltelefon bleiben unbestätigte Legacy-/Verzeichniswerte, keine erneute Betreiberverifizierung. Status pruefung beibehalten, website_status tot beschreibt den verlorenen Händlerauftritt, nicht Unternehmensschließung. Händleridentität/Gewerbeadresse zuerst unabhängig bestätigen; kein Geocoding, keine Ersatzfirma. Quelle: https://schrotthandel-achtert.de/ .]

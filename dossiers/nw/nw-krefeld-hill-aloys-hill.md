@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed nennt „Moerser Str. 220“ (D7), während ein aktuellerer Suchtreffer von „Wer kennt den BESTEN“ Aloys Hill Schrotthandel an **Moerser Landstr. 220, 47802 Krefeld-Traar** listet. Das ist eine mögliche abweichende Straßenbezeichnung, aber weiterhin nur ein Verzeichnis-Lead; Betreiberidentität, Telefonnummer, aktuelle Tätigkeit und Annahme sind nicht unabhängig belegt. Deshalb keine Adresskorrektur oder Geocodierung vorgenommen. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
+Der Seed nennt „Moerser Str. 220“ (D7), während ein Verzeichnis „Moerser Landstr. 220, 47802 Krefeld-Traar“ führt. NorthData weist eine Hill Schrott- und Nutzeisen GmbH, HRB 14653, mit diesem Sitz und passendem Geschäftszweck aus; ältere Registerhistorie nennt Aloys Hill als Geschäftsführer. Das belegt einen Rechtsträger am Ort, aber die verfügbare Register-/Firmenhistorie bestätigt nicht die heutige Tätigkeit, Annahmestelle oder Zuordnung zum konkreten Seed-Namen. Keine Adresskorrektur/Geokodierung und keine Preislisten.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: NorthData-Datensatz zur Hill Schrott- und Nutzeisen GmbH, HRB 14653, führt Moerser Landstr. 220, 47802 Krefeld und den Zweck Schrott-/Nutzeisenhandel; ältere Registerangabe nennt Aloys Hill als Geschäftsführer, zuletzt wurde ein Jahresabschluss 2024 am 29.07.2025 veröffentlicht. Der Registerbeleg stärkt die passende Rechtsträger-/Ortsspur, belegt aber keine aktuelle Annahme oder sichere Dossier-Zuordnung. Keine Frontmatter-Fills, aktuelle Betreiberquelle oder numerische Preise/Gebühren gefunden. Quelle(n): https://www.northdata.de/Hill%20Schrott-%20und%20Nutzeisen%20GmbH,%20Krefeld/HRB%2014653 ; Gegenprüfung: https://register.ai/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

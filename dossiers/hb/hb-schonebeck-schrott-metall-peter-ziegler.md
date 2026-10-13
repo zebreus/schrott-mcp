@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Schrott & Metall Peter Ziegler“ ist mit Im Knie 1, 28757 Bremen-Schönebeck und Telefon 0173 7182171 in Branchenverzeichnissen gelistet. Die kommunale Stadtteilquelle ordnet Schönebeck dem Bremer Stadtteil Vegesack zu; der Ortswert wird daher zu Bremen-Schönebeck präzisiert. Ein Betreiberauftritt oder Registerbeleg fehlt. Verzeichnis-Öffnungszeiten widersprechen sich (u. a. 08:00–20:00 gegenüber 07:00–00:00 täglich); keine Zeiten übernommen. Keine numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung. Adresse bleibt Lead und ist vor Geocoding zu bestätigen.
+„Schrott & Metall Peter Ziegler“ ist neben Branchenverzeichnissen auch im kommunalen Bremer Besucher-/Visitenkartenverzeichnis mit Im Knie 1, 28757 Bremen-Schönebeck und Telefon 0173 7182171 geführt. Das Stadtprofil ist ein zusätzlicher öffentlicher Lead außerhalb der in README definierten Belegklassen, kein kommunales Gewerberegister und kein Beleg für heutige Tätigkeit oder vom Betrieb gepflegte Kontaktdaten. Die kommunale Stadtteilquelle ordnet Schönebeck dem Bremer Stadtteil Vegesack zu. Verzeichnis-Öffnungszeiten widersprechen sich (u. a. 08:00–20:00 gegenüber 07:00–00:00 täglich); keine Zeiten übernommen. Keine numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung. Adresse bleibt vor Geocoding aktuell zu bestätigen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Das Bremer kommunale Visitenkartenverzeichnis enthält einen Eintrag „Schrott-Metall-Sammler Peter Ziegler“ mit Im Knie 1, 28757 Bremen und 0173 7182171. Dieser öffentliche Stadtprofil-Eintrag liegt außerhalb der in README definierten Belegklassen; er ist kein Handels-/Gewerberegister und keine aktuelle Betreiberbestätigung. Profilstand/Änderungshinweis 26.05.2023 ist nicht als heutiger Betriebsnachweis zu lesen. Keine Frontmatter-Kontakte oder Öffnungszeiten ergänzt, da bereits widersprüchliche Verzeichnisstunden bestehen. Preise/Gebühren nicht gefunden. Quelle: https://www.bremen.de/visitenkarte/schrott-metall-sammler-peter-ziegler]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

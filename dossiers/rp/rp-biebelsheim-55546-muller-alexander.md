@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Örtliche führt „Müller Alexander Schrotthandel“ in Hindenburgstr. 17, 55546 Biebelsheim, mit Tel. 0170 410 77 76. Die Detailseite bezieht ihre angezeigte Bewertung von 11880; das ist daher keine unabhängige Zweitquelle. Kein Betreiber-, Register- oder kommunaler Beleg gefunden. Adresse und Telefon bleiben Aggregator-Leads; keine belastbare Ankauf-, Verkaufs- oder Gebührenpreisliste.
 
 ## Timeline
 
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott
 - Adresse: Biebelsheim 55546
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Direktabruf der Das-Örtliche-Detailseite ergänzt einen konkreten Lead: „Müller Alexander Schrotthandel“, Hindenburgstr. 17, 55546 Biebelsheim, 0170 410 77 76. Die Seite weist ihre Bewertung als von 11880 übernommen aus (Bewertung datiert 2014); dies ist eine Verzeichnis-/Quellenfamilie, keine unabhängige Betreiberbestätigung. Keine Felder übernommen. ANKAUF: keine Rate; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Offen: Betreiber-/Registerbeleg, aktuelle Erreichbarkeit und tatsächliche Annahme. Quelle (Lead): https://www.dasoertliche.de/Themen/M%C3%BCller-Alexander-Schrotthandel-Biebelsheim-Hindenburgstr]

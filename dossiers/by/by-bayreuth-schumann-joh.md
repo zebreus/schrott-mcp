@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Schumann Joh.“ ist der Seed-Ort Bayreuth bislang nur ein Verzeichnis-Lead. Die Recherche vom 01.10.2026 fand weder einen passenden Betreiber- noch Registerbeleg; „Schumann Johannes“ in Plankenfels ist ein Namensvetter an einem anderen Ort und wird nicht zugeordnet. Keine belastbaren Angaben zu Ankauf, Verkauf oder Gebühren; Identität und Geschäftsmodell bleiben offen.
 
 ## Timeline
 

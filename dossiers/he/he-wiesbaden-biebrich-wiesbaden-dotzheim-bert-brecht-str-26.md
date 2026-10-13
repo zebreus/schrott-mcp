@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Seed und Slug widersprechen sich bereits intern: Frontmatter-Ort/Straße lauten Wiesbaden-Biebrich, Rathausstr. 25; der Slug nennt Dotzheim, Bert-Brecht-Str. 26. Es wurde keine Betreiber- oder Registerquelle gefunden, die einen Schrotthändler mit einer dieser Angaben verbindet. Keine Anschrift übernehmen oder geocodieren; Ankauf, Verkauf und Gebühren sind unbelegt.
 
 ## Timeline
 

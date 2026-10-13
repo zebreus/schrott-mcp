@@ -28,6 +28,10 @@ Die Seed-Angabe führt p & m metall Schrott an Lückstraße 13–14 mit 030 2408
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Erneute exakte Suche nach „p & m metall Schrott“, Lückstr. 13-14 und 030 24082295 fand keine zuordenbare Betreiberwebsite, Register-/Gewerbequelle, kommunale Unternehmensangabe oder Betreiber-Social-Seite. Suchergebnisse zu anderen Berliner Metallhändlern sind keine Identitätsbelege. Der bisherige schrottplatz-info-Datensatz bleibt ein historischer Portal-Lead; Adresse/Telefon und Status nicht bestätigt. Keine verifizierten Metall-Ankaufskurse, Material-Verkaufspreise oder Gebühren. Quelle: bisherige Seed-/Portalspur (schrottplatz-info; Detail-URL im Dossier nicht vorhanden); gezielte Namens-/Adresssuche 13.10.2026 ohne qualifizierten Treffer.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - nur schrottplatz-info (alt, keine Website) Adresse: Lückstr. 13-14, 10317 Berlin; Tel. 030 24082295

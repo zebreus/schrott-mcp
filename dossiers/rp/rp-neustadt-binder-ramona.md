@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein einzelner Gelbe-Seiten-Quellenverbund führt „Binder Ramona Schrottentsorgung“ in der Branchweilerhofstr. 61, 67433 Neustadt an der Weinstraße, mit Mobilnummer 0176 88035753. Das ist nur ein Adress-/Telefonlead; kein Betreiber-, Register- oder unabhängiger zweiter Beleg und keine Klärung gegenüber dem ähnlich benannten, aber abweichenden Scherr-Eintrag. Keine Felder gefüllt. Ankaufkurse, Verkaufspreise und Gebühren sind unbekannt.
 
 ## Timeline
 
