@@ -115,6 +115,7 @@ pub mod schrott_recycle_meikel;
 pub mod schrott_triebsch;
 pub mod schrottabholung_top;
 pub mod schrottabholung_zentrale;
+pub mod schrottjungs;
 pub mod schrottmobil_oelsnitz;
 pub mod schrottplatz_roetgesbuettel;
 pub mod second_way;
@@ -264,6 +265,7 @@ pub fn all() -> Vec<Handler> {
         schrottmobil_oelsnitz::handler(),
         schrottabholung_top::handler(),
         schrottabholung_zentrale::handler(),
+        schrottjungs::handler(),
         schrottplatz_roetgesbuettel::handler(),
         second_way::handler(),
         smr::handler(),

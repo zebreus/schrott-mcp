@@ -58,6 +58,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     // laut skippen, nie umrechnen, nie still fallenlassen.
     skipped_labels.extend(hero_unze_skip(&html));
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices: vec![],
         acceptances: vec![
             ScrapedAcceptance {

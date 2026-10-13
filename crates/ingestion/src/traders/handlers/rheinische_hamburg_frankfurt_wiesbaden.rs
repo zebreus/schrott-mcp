@@ -170,6 +170,7 @@ async fn scrape_impl(
     // anything from it again.
     let trader_info = extract_info(&html, impressum_url, city_anchor)?;
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices: vec![],
         acceptances,
         trader_info,

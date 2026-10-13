@@ -119,7 +119,7 @@ pub struct ScrapedPrice {
     pub label: String,
 }
 
-/// One accepted material without a price (product/acceptance lists).
+/// One explicit material acceptance (product lists or qualified price scope).
 #[derive(Debug, Clone)]
 pub struct ScrapedAcceptance {
     /// `materials.slug` from the handler's explicit mapping table.
@@ -156,7 +156,12 @@ impl TraderInfo {
 #[derive(Debug, Clone, Default)]
 pub struct HandlerOutcome {
     pub prices: Vec<ScrapedPrice>,
-    /// Accepted materials without prices (product lists).
+    /// Opt out of automatic direct AND fallback acceptances derived from prices.
+    /// Default false preserves legacy behavior. Explicit `acceptances` are always
+    /// recorded normally; conditioned feeds must supply their own proven scope.
+    pub skip_price_acceptances: bool,
+    /// Explicit material acceptances, recorded regardless of price-derived
+    /// acceptance policy. May qualify the same materials as `prices`.
     pub acceptances: Vec<ScrapedAcceptance>,
     /// Contact/address enrichment (Impressum + page).
     pub trader_info: TraderInfo,
@@ -493,40 +498,45 @@ async fn record_observation(
                         }
                     }
                 }
-                // A published price proves acceptance of the material.
-                if let Err(e) = public.set_acceptance(
-                    trader_id,
-                    material_id,
-                    true,
-                    "",
-                    None,
-                    None,
-                    &now_s,
-                    &now_s,
-                ) {
-                    tracing::warn!("ingestion: acceptance write failed for {handler_slug}: {e}");
-                }
-                // Cross-category acceptance (MATERIAL_FALLBACKS): asserted
-                // domain facts, recorded as acceptance with provenance —
-                // never as invented prices.
-                for (_, targets) in MATERIAL_FALLBACKS.iter().filter(|(m, _)| *m == p.material) {
-                    for target in targets.iter() {
-                        let Ok(Some(fallback_id)) = public.find_material_id(target) else {
-                            continue;
-                        };
-                        if let Err(e) = public.set_acceptance(
-                            trader_id,
-                            fallback_id,
-                            true,
-                            &format!("Annahme via {}-Ankauf", p.material),
-                            None,
-                            None,
-                            &now_s,
-                            &now_s,
-                        ) {
-                            tracing::warn!(
-                                "ingestion: fallback acceptance failed for {handler_slug}: {e}"
-                            );
+                if !outcome.skip_price_acceptances {
+                    // A published price proves acceptance of the material.
+                    if let Err(e) = public.set_acceptance(
+                        trader_id,
+                        material_id,
+                        true,
+                        "",
+                        None,
+                        None,
+                        &now_s,
+                        &now_s,
+                    ) {
+                        tracing::warn!(
+                            "ingestion: acceptance write failed for {handler_slug}: {e}"
+                        );
+                    }
+                    // Cross-category acceptance (MATERIAL_FALLBACKS): asserted
+                    // domain facts, recorded as acceptance with provenance —
+                    // never as invented prices.
+                    for (_, targets) in MATERIAL_FALLBACKS.iter().filter(|(m, _)| *m == p.material)
+                    {
+                        for target in targets.iter() {
+                            let Ok(Some(fallback_id)) = public.find_material_id(target) else {
+                                continue;
+                            };
+                            if let Err(e) = public.set_acceptance(
+                                trader_id,
+                                fallback_id,
+                                true,
+                                &format!("Annahme via {}-Ankauf", p.material),
+                                None,
+                                None,
+                                &now_s,
+                                &now_s,
+                            ) {
+                                tracing::warn!(
+                                    "ingestion: fallback acceptance failed for {handler_slug}: {e}"
+                                );
+                            }
                         }
                     }
                 }
@@ -537,7 +547,7 @@ async fn record_observation(
             }
         }
     }
-    // Material acceptances (product lists without prices): resolve, write
+    // Explicit material acceptances: resolve, write
     // only on change, count everything resolved.
     let mut accepted = 0usize;
     for a in &outcome.acceptances {
@@ -735,6 +745,7 @@ mod tests {
         use schrott_mcp_store::{InternalDb, NewMaterial, NewTrader, PublicDb};
         async fn pronto() -> HandlerOutcome {
             HandlerOutcome {
+                skip_price_acceptances: false,
                 prices: (0..10)
                     .map(|i| ScrapedPrice {
                         material: "kupfer-millberry",

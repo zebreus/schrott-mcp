@@ -62,6 +62,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     let (_, contact_html) = fetch_text(client, CONTACT_URL).await?;
     let trader_info = extract_info(&contact_html)?;
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices,
         acceptances: vec![],
         trader_info,

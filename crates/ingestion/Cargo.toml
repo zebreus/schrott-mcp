@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 schrott-mcp-store = { path = "../store" }
+cssparser = "0.35"
 reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls-webpki-roots"] }
 scraper = "0.24"
 serde = { version = "1", features = ["derive"] }

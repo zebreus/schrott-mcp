@@ -78,6 +78,7 @@ async fn scrape_hammerbrook(client: &reqwest::Client) -> Result<HandlerOutcome, 
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
     let trader_info = extract_info(&imp_html)?;
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices,
         acceptances: vec![],
         trader_info,
@@ -108,6 +109,7 @@ async fn scrape_rosengarten(client: &reqwest::Client) -> Result<HandlerOutcome, 
         email: imp.email,
     };
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices,
         acceptances: vec![],
         trader_info,

@@ -121,6 +121,7 @@ async fn scrape_branch(
     let (_, info_html) = fetch_text(client, info_url).await?;
     let trader_info = extract_info(&info_html, street_guard, info_url)?;
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices,
         acceptances: vec![],
         trader_info,

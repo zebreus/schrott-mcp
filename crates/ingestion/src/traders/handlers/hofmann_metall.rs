@@ -98,6 +98,7 @@ fn build_outcome(
         }
     }
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices: vec![],
         acceptances,
         trader_info,

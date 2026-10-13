@@ -340,6 +340,7 @@ mod tests {
                 .expect("material");
         }
         let out = HandlerOutcome {
+            skip_price_acceptances: false,
             prices: vec![ScrapedPrice {
                 material: "ram",
                 variant: "Goldkante".into(),
@@ -412,6 +413,7 @@ mod tests {
         use crate::traders::{HandlerOutcome, ScrapedPrice};
         async fn ok(_: &reqwest::Client) -> Result<HandlerOutcome, crate::IngestError> {
             Ok(HandlerOutcome {
+                skip_price_acceptances: false,
                 prices: vec![ScrapedPrice {
                     material: "nope-not-a-material",
                     variant: "".into(),

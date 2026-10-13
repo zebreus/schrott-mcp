@@ -100,6 +100,7 @@ pub(crate) fn prices_from_html(html: &str) -> Result<HandlerOutcome, IngestError
         return Err(parse_error("keine katalogisierten Preisangebote"));
     }
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices,
         acceptances: vec![],
         trader_info: TraderInfo::default(),

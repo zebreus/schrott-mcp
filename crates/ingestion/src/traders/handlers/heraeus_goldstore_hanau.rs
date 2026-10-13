@@ -554,6 +554,7 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
         });
     }
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices,
         acceptances: ["gold", "silber", "platin", "palladium", "zahngold"]
             .into_iter()

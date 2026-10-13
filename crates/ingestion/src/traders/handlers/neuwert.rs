@@ -81,6 +81,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
     let trader_info = extract_info(&imp_html)?;
     Ok(HandlerOutcome {
+        skip_price_acceptances: false,
         prices,
         acceptances: vec![],
         trader_info,
