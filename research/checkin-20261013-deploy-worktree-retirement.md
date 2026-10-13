@@ -83,3 +83,32 @@ oder freigegeben. Entfernen erst nach Sicherungs-/Prozess-/Commitprüfung.
 Check-in: Service aktiv; read-only 3881 Händler/54 Materialien/2426 Current.
 Feedback unverändert bis ID 7390. App-WARNs: Münster-Preisleiter fail-closed,
 AMR HTTP 502. Remote Main `a024a7b6` direkt bestätigt. Kein neues Deployment.
+
+## Tatsächliche Aufräumprüfung
+
+Nach Commit `dcd34339`, erneuter Prüfung aller 72 Original-Hashes und ohne
+aktive Prozessreferenzen wurde der Deploy-Worktree entfernt. Ignoriert war
+nur sein generierter `target/`-Ordner. Main-Recherche blieb unverändert.
+
+14 unbenutzte, nachweislich vollständig in Main enthaltene lokale Branches
+wurden mit exakten Archiv-Tags unter `archive/local-branch-cleanup-20261013/`
+gesichert und regulär gelöscht. Der angehängte Deploy-Branch wurde danach
+ebenfalls archiviert und gelöscht; seine alte Upstream-Bindung wurde gelöst,
+weil Git trotz bewiesener Main-Ancestry sonst die Löschung verweigerte.
+
+Der alte MKM-Branch `ccd4dc79` wurde ausdrücklich **nicht** zurückgemergt:
+seine zwei historischen Kandidatencommits sind im exakten Tag
+`archive/worktree-cleanup-20261013/schrott-mcp-mkm-full-20261010` erhalten.
+Der geprüfte Main-Diff zeigt statt seiner Kupfer-only-Registrierung den später
+integrierten typed Artikelpfad, zusätzliche fail-closed Prüfungen und atomare
+Recording-Seam. `d9fa958f` und `1c8326e7` sind Main-Vorfahren; der aktuelle
+Workspace testet diesen verbesserten Pfad. Der ersetzte Kandidatenbranch
+wurde nach Tag-/Ancestry-/Worktreeprüfung gelöscht, nicht dessen Historie.
+
+Ergebnis lokal: genau **ein Worktree und ein Branch, jeweils Main**.
+Remote-Inventur ergab zusätzlich zwei vollständig in Main enthaltene Branches:
+`copilot/security-audit` (`00663c7b`, 247/0 Divergenz) und
+`owner/dossier-quality-2026-10-07` (`530538e7`, 97/0 Divergenz).
+Ihre Löschung wird ausschließlich mit gesicherten Tags und exakten
+Expected-tip-Leases publiziert; der konkrete Pushausgang ist separat zu prüfen.
+Dokumentations-/Ref-Cleanup erfordert keinen neuen Produktionsrollout.
