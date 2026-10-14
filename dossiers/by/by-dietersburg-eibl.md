@@ -31,6 +31,10 @@ Ein älterer Import-/Verzeichnis-Lead bezeichnet den möglichen Betrieb als „E
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gelbe-Seiten-Suche live gelesen (200): ein Lead Eibl Daniel Schrotthandel Containerdienst, 84378 Dietersburg, 01512 3518337, weiterhin ohne Straßenangabe. Kein Betreiberlink/Impressum aus dem Suchresultat gewonnen; Bot-Challenge bei DuckDuckGo verhindert qualifizierte Nachsuche. Portal-Übereinstimmung hebt den bereits dokumentierten phone-Clear nicht auf; Langlohstraße 9 weiterhin unbestätigt, Alois Eibl nicht zugeschrieben. ANKAUF/VERKAUF/GEBÜHREN: keine primären Listen oder bestätigten Konditionen. Offen: aktueller Gewerbe-/Inhaberbeleg und Kundenanschrift, nicht nur Telefonnummer. Quelle: https://www.gelbeseiten.de/suche/eibl%20daniel/dietersburg ; https://html.duckduckgo.com/html/?q=%22Daniel%22%20Eibl%20Dietersburg%20Schrotthandel (Challenge).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 84378)

@@ -28,6 +28,10 @@ Britzer Damm 54 und Mobilnummer 0176 63060323 bleiben Verzeichnis-Leads, keine b
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Unternehmensseite direkt HTTP 200 gelesen: genauer Rechtsträger EE Hasimovic Schrotthandel UG, HRB 126794 B Charlottenburg, Zweck Schrott-/Altmetallhandel, Chronik Eintragung 26.05.2010 und Löschung 03.11.2011. Das bestätigt den historischen Registerbefund, keine heutige Betriebsidentität Britzer Damm 54; Straße dort nicht sichtbar. Suchtreffer Abaz Hasimovic/Bernsdorf nicht mit Berlin gleichsetzen. Keine Frontmatter-Fills oder pauschale Schließung des möglicherweise anderen heutigen Betriebs; Bestandskontakte weiter Leads, status unbekannt. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Zieltarife. Offen: unabhängige Zuordnung UG versus Seed/aktueller Inhaber; Quelle(n): https://www.northdata.de/EE%20Hasimovic%20Schrotthandel%20UG,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20126794%20B ; https://firmeneintrag.creditreform.de/02994/3050275294/ABAZ_HASIMOVIC_SCHROTTHANDEL (nur Suchlead, Fremdort)]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: street normiert (Mobil-Anhang entfernt, keine Loeschung der Historie), sonst keine Fills. Register: Northdata HRB 126794 B (Hasimovic, Sitz Zwinglistr. 9) am 03.11.2011 geloeschst, Tracxn bestaetigt — Rechtstraeger erloschen, heutiger Betrieb an Britzer Damm 54 nur Aggregator-belegt (schrottplatz-info/MisterWhat). Keine Betreiber-Website → website leer, website_status unbekannt, status unbekannt bleibt. Quelle(n): northdata.de HRB 126794 B + tracxn.com (Register, Abruf 02.10.2026).]

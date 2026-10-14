@@ -28,6 +28,10 @@ Identität bleibt offen: ältere Verzeichnis-/Telefonbuchtreffer nennen „Schro
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Münster-Kandidat erneut gegen namensähnliche Betreiberseite abgegrenzt: direkt gelesene Leistungsseite Schrotthandel-Müller nennt Kabelstraße 95, 41069 Mönchengladbach und 01722667887, nicht Münster. Dortige Ankauf-/Containerleistungen gehören deshalb nicht zum Dossier. Exakte Suche Münsterstr. 26c liefert einen Opendi-Telefonbuchlead, keinen qualifizierten Identitätsbeleg. Stammdaten unverändert; keine numerischen Ankauf-, Verkaufs- oder Gebührenwerte für Münster verifiziert. Offen: vollständiger Inhabername des Münsteraner Kandidaten, Hausnummer 26/26c und unabhängiger Betreiber-/Gewerbenachweis; Quelle(n): http://xn--schrotthandel-mller-kbc.de/?page_id=38 (HTTP 200, anderer Ort) ; https://search.brave.com/search?q=%22M%C3%BCller%22%20%22M%C3%BCnsterstr.%2026c%22 (Suchlead)]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Neuer Recyclinghof-Portal-Eintrag nennt Münsterstraße 26, 0173 5353936, aber keine verifizierte Annahmeliste/Öffnungszeiten; ältere Verzeichnisse nennen Münsterstr. 26c, 48167, 0251 2849070. Keine Quelle verbindet diese widersprüchlichen Datensätze sicher mit dem generischen Seed „Müller“. Kein Frontmatter-Fill und keine Preise übernommen. Quelle(n): https://recyclinghof-wertstoffhof.de/recyclinghof/nordrhein-westfalen/muenster/mueller-recycling-abbruchtechnik-muensterstrasse-26/ (Portal-Lead); ältere Lead-Quellen siehe Recherche 06.10.2026]

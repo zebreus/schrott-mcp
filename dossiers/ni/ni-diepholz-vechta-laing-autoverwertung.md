@@ -33,6 +33,10 @@ Die Recherche vom 02.10.2026 ordnet die Seed-Zeile dem inhabergeführten Betrieb
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: E-Mail-Domain ls-autoteile.de direkt geprüft, Namensauflösung scheitert; kein Betreiberinhalt gelesen. Das ist keine Bestätigung der Mailzustellbarkeit oder einer Geschäftsaufgabe. Zusätzliche exakte Laing-Suche endet an Brave-Captcha. Vorwellen-Zuordnung Stephan Laing/L.S. Autoverwertung und Vechta-Adresse bleibt als historischer Auskunftei-/Verzeichnisbefund erhalten, heute nicht unabhängig neu verifiziert; Diepholz/Vechta nicht normalisiert. Ankauf von Fahrzeugen/Metallen, Verkauf von Ersatzteilen und Verwertungs-/Abholgebühren jeweils ohne neuen Preis-/Konditionsbeleg. Offen: aktueller Gewerbebetrieb, Betreiberkontakt und Annahme-/Verwertungsnachweis; Quelle(n): https://ls-autoteile.de/ (DNS-Abruffehler) ; https://search.brave.com/search?q=%22Stephan%20Laing%22%20%22Autoverwertung%22 (Captcha)]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung (Flag)

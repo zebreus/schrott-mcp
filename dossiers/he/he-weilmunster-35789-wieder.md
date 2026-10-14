@@ -30,6 +30,10 @@ Der Seed enthält lediglich den Familiennamen „Wieder“ und Weilmünster/3578
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Neue namensgenaue Gelbe-Seiten-Suche live gelesen: HTTP 404 mit inhaltlicher Nulltreffer-Seite „Wieder in Weilmünster (0 Treffer)“, kein technischer Beleg für Gewerbeabmeldung. Google-Suche nur Consent-Seite, DuckDuckGo Bot-Challenge; keine qualifizierte Geschäftssuche daraus behauptet. Weiter keine passende Betreiberidentität, keine Felder nachgetragen. ANKAUF/VERKAUF/GEBÜHREN: nicht belegt. Offen: vollständiger Firmen-/Inhabername und ursprünglicher Seednachweis bzw. Gewerberegister; keine ähnliche auswärtige Wieder-Firma zugeschrieben. Quelle: https://www.gelbeseiten.de/suche/wieder/weilm%C3%BCnster ; https://www.google.com/search?q=%22Wieder%22+%22Weilm%C3%BCnster%22+Schrott (Consent, keine Sachquelle).]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: KEIN Beleg gefunden - 11880 Schrotthandel/Weilmuenster (11 Treffer, kein "Wieder"), Das Oertliche Weilmuenster (7 Treffer, kein "Wieder"), Das Telefonbuch Name-Suche "Wieder/Weilmuenster" ohne Schrott-Treffer; einziger Anhalt bleibt der Seed-Name "Wieder" (Weilmuenster 35789); kein HRB, keine Betreiber-Website; website_status unbekannt; Frontmatter unveraendert, Status bleibt pruefung - Klaerfall (Existenz fraglich, ggf. Gewerbeabmeldung); Quelle(n): keine Belege (Negativbelege 02.10.2026).]

@@ -4,7 +4,7 @@ name: Riehm Kirrweiler
 trader_type: sonstige
 state: RP
 city: Kirrweiler
-street: Riehm Kirrweiler Kirrweiler Marktstr. 42
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,11 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten führt „Riehm Schrott“ in Edenkoben, Lerchenweide 8, 67480, Tel. 0170 5016542; der Dossier-Seed lautet dagegen Kirrweiler/Marktstraße 42. Keine Betreiberquelle verbindet die Orte oder bestätigt einen Umzug. Das beschädigte Straßenfeld bleibt unbereinigt, Status `pruefung`.
+Gelbe Seiten führt „Riehm Schrott“ in Edenkoben, Lerchenweide 8, 67480, Tel. 0170 5016542; der Dossier-Seed lautet dagegen Kirrweiler/Marktstraße 42. Keine Betreiberquelle verbindet die Orte oder bestätigt einen Umzug. Das beschädigte, unbelegte Straßenfeld wurde am 14.10. zurückgenommen; der alte Wert bleibt in der Timeline. Status `pruefung`.
 
 **Preise:** ANKAUF: keine Preise oder Annahmebedingungen belegt. VERKAUF: keine Preisliste. GEBÜHREN: keine Abhol-/Entsorgungstarife.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Korrektur 14.10.2026: Owner bestätigt Rücknahme des beschädigten Straßenfelds, nicht eine Verlegung nach Edenkoben. Read-only Produktion enthält noch „Riehm Kirrweiler Kirrweiler Marktstr. 42“ und GEO 49.6333/7.5; die geänderte Seed-Adresse ersetzt das unqualifizierte Straßenfeld, behält aber GEO. Kein überprüfter Hofpunkt, separate GEO-/Ortsklärung nötig; status pruefung bleibt. Keine Koordinaten gesetzt, keine direkte Datenbankänderung. Quelle: Dossier-Historie und Recherche 14.10.2026; docs/trader-seed.md; read-only traders-Abfrage 14.10.2026.]
+
+- [Korrektur 14.10.2026: Gelbe-Seiten-Suche Edenkoben erneut live gelesen (200), genau ein Riehm-Schrott-Lead Lerchenweide 8/67480/0170 5016542. Kein Betreiberbeleg zur Verbindung Kirrweiler/Marktstr. 42; DuckDuckGo-Gegensuche durch Challenge begrenzt. Das beschädigte Frontmatter-Straßenfeld „Riehm Kirrweiler Kirrweiler Marktstr. 42“ als unqualifizierte Seed-Prosa geleert, nicht scheinbereinigt zu einer verifizierten Marktstr. 42 und nicht nach Edenkoben umadressiert. Altwert bleibt in dieser Note/Historie; leere Straße ersetzt beim regulären geänderten Seed die DB-Adresse, ohne vorhandene GEO zu löschen/validieren (docs/trader-seed.md); Owner-Adressenprüfung erforderlich, hier kein DB-/GEO-Eingriff. ANKAUF/VERKAUF/GEBÜHREN: keine qualifizierten Preise. Offen: eigenständiger Kirrweiler-Betrieb, Umzug oder Fehlattribution; unabhängiger Identitäts-/Standortbeleg nötig. Quelle: https://www.gelbeseiten.de/suche/riehm%20schrotthandel/edenkoben ; docs/trader-seed.md.]
 
 ### Recherche 07.10.2026
 

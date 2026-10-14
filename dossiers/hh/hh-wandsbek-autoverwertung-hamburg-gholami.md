@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Hamburg Gholami bleibt ein Verzeichnis-Einzelbeleg an Brauhausstieg 47. Aktuelles Profil enthält zwar (040) 683835, aber weder Beschreibung, Öffnungszeiten noch Leistungen; kein Betreiber- oder Registergegenbeleg. Historische Ausnahme-Adresse nicht als qualifiziert bestätigt behandeln, kein Telefon-Fill. Ankauf von Fahrzeugen, Ersatzteilverkauf und Verwertungs-/Abholgebühren jeweils unbestätigt; Status `pruefung`.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Konkretes Schrottplatz-Info-Profil direkt HTTP 200 gelesen: Autoverwertung - Hamburg Gholami, Brauhausstieg 47, 22041 Hamburg, (040) 683835. Beschreibung, Öffnungszeiten und Leistungsangebot ausdrücklich nicht vorhanden. Das bestätigt nur einen Aggregator-Eintrag, nicht Betreiberidentität, aktuelle Tätigkeit oder eine Annahme-/Ankaufzusage; Telefonnummer nicht übernommen. Northdata-Suche HTTP 429, Brave-Suche Captcha; keine unabhängige Identität gelesen. Vorwellen-Ausnahme-Adresse bleibt historisch transparent, keine Overrides. Ankauf/Fahrzeugankauf ohne verifizierte Vergütung, Verkauf/Ersatzteile ohne Liste, Gebühren/Verwertung ohne Angaben. Offen: Vorname/Rechtsträger und Gewerbe-/Betreiberbeleg an Brauhausstieg 47; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Hamburg/Autoverwertung-Hamburg-Gholami (Lead) ; https://www.northdata.de/?query=Gholami+Hamburg+Autoverwertung (HTTP 429)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

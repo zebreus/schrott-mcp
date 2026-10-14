@@ -6,7 +6,8 @@ state: BY
 city: Miltenberg 63897
 street: ''
 postcode: ''
-phone: 09371/3187
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die heute gelesene Mehring-Betreiberhistorie nennt ausdrücklich einen Umzug 2010 nach Dorfprozelten; damit ist die frühere Deutung einer aktuellen Miltenberger Zweigstelle nicht bestätigt. Impressum und Kontakt nennen ausschließlich Industriestraße 18, Dorfprozelten. Keine Umadressierung dieses Dossiers ohne unabhängig belegte Betreiber-/Standortkette. Historische Miltenberger Telefonnummer aus Frontmatter zurückgenommen; Ankauf in Dorfprozelten nicht als Miltenberger Preisquelle verwenden.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Korrektur 14.10.2026: Owner zieht historische 09371/3187 ausdrücklich mit clear_fields phone zurück; keine kuratierte aktuelle Rufnummer für Miltenberg und keine Übernahme des Dorfprozeltener Kontakts. Betreiberhistorie vom Owner direkt gelesen, bestätigt Umzug 2010, aber nicht unabhängig die konkrete alte Dossieridentität. Read-only Produktionsprüfung: Adresse leer, GEO 49.7045/9.2673 vorhanden; Direktive ändert keine GEO und validiert diesen Punkt nicht. Prüfstatus und offene Standortkette bleiben, kein Schließungsurteil und kein Produktionswrite. Quelle: https://www.mehring-container.de/ueber-uns/ ; Dossier-Historie 01.10.2026; docs/trader-seed.md; read-only traders-Abfrage 14.10.2026.]
+
+- [Korrektur 14.10.2026: Betreiber-Historie erstmals direkt gelesen: Standort Dorfprozelten „nach unserem Umzug in 2010“. Impressum nennt Mehring GmbH, Industriestraße 18, 97904 Dorfprozelten, GF Heinz Will, HRB 8536 Aschaffenburg; Kontakt ebenfalls nur Dorfprozelten. Das verbessert den alten Aggregator-Historienlead, belegt aber nicht unabhängig die konkrete Nikolaus-Fasel-Str.-Identität oder vollständige Kette. „historische Miltenberg-Zweigstelle“ aus 01.10. nicht als laufende Filiale fortschreiben; kein geschlossen-Status/Umzug im Frontmatter ohne Zweitbeleg. Historische 09371/3187 ungeprüft, phone geleert; Owner soll ausdrücklich phone-clear_fields prüfen, sonst bleibt DB-Anreicherung erhalten. Quelle: https://www.mehring-container.de/ueber-uns/ ; https://www.mehring-container.de/impressum/ ; https://www.mehring-container.de/contact/ ; docs/trader-seed.md.]
+- [Recherche 14.10.2026: ANKAUF am belegten Dorfprozelten-Auftritt: Vergütung nach Gewicht für privat/gewerblich, geeichte Waagen ab 500 g bis 50.000 kg, keine numerischen Ankaufskurse. VERKAUF: Schüttgüter/Recycling-Baustoffe beschrieben, keine Preisliste in den gelesenen Seiten. GEBÜHREN: FAQ nennt erste 7 Tage mietfrei, danach Absetzcontainer 1,50 EUR/Tag und Abrollcontainer 2,50 EUR/Tag; keine Umsatzsteuerangabe in dieser Passage, zusätzliche Fracht-/Entsorgungskosten bzw. Mehranfahrten möglich. Das sind Container-Mieten dieses anderen belegten Standorts, KEINE Schrottankaufspreise und keine Tarife einer unbestätigten Miltenberg-Filiale. Offen: unabhängiger Beleg für Altstandort/Umzug/Entität und Fortbestand Nikolaus-Fasel-Str. 2. Quelle: https://www.mehring-container.de/schrott-und-metalle/ ; https://www.mehring-container.de/wertstoffhof/ ; https://www.mehring-container.de/haeufige-fragen/ ; https://www.mehring-container.de/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Register-Einzelbeleg für Rainer Kälberer GmbH, HRB 10581 Dresden, Friedensstraße 14, 01917 Kamenz; aktuelle Registerchronik mit Abschlussveröffentlichung 2026. Unternehmenszweck: Baustoff-/Natursteinhandel und Güterkraftverkehr. Schrottankauf, Materialien und Telefon sind bislang Verzeichnis-Leads; Registerexistenz bestätigt nicht die Ankauffunktion. Nicht mit der Kälberer-Gruppe in Baden-Württemberg oder Immobilienmaklern verwechseln. Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Unternehmensseite direkt HTTP 200 bestätigt Name, HRB 10581 Dresden und Friedensstr. 14, 01917 Kamenz; Jahresabschluss zum 31.12.2024 veröffentlicht 13.02.2026. Zweck lautet Baustoff-/Natursteinhandel und Güterkraftverkehr, nicht ausdrücklich Schrottankauf. Creditreform-Direktabruf 403; Sellwerk-/Telefonbuch-Suchleads liefern Kontakt/Schrotthandel, sind keine unabhängigen zulässigen Belege. Korrektur des alten „Zweitbeleg-Fill“-Urteils: Register + Verzeichnis zählt als Einzelbeleg, Telefon bleibt ungeprüfter Bestandswert. Keine neuen Fills, status aktiv → pruefung wegen offener Ankauffunktion, keine Löschung/Schließung. ANKAUF — keine Zahlen; VERKAUF — keine Preisliste; GEBÜHREN — keine Tarife. Offen: Betreiberbeleg Kamenz und unabhängige Kontakt-/Ankaufbestätigung; Quelle(n): https://www.northdata.de/?query=Rainer+K%C3%A4lberer+GmbH ; https://firmeneintrag.creditreform.de/01917/3070117157 (403); https://sellwerk.de/firmenprofil/container-kaelberer-gmbh-container-schrott-transporte (Suchlead); README.md Quellenhierarchie]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

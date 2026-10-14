@@ -28,6 +28,10 @@ Für „R & W GbR“ liegt weiterhin kein Betreiber- oder Registerbeleg vor. Gel
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche R W/GbR/Haldensleben direkt HTTP 200 gelesen, sichtbare Treffer andere Haldenslebener Unternehmen/Vereine, keine identifizierte Ziel-GbR; fehlender Registertreffer schließt GbR nicht aus. Gelbe-Seiten-Detailseite diesmal HTTP 403, keine neuen lesbaren Betreiberangaben; der dokumentierte Lead von 13.10. bleibt unverifiziert und darf nicht aus erneutem Abruf als Zweitbeleg gewertet werden. GADSYS-Altfahrzeugregister HTTP 200 ohne auswertbaren Einzelfirmentext, keine Anerkennung bestätigt oder widerlegt. R & W versus Krause und Rotte nicht zusammengeführt. Keine Fills, status pruefung; ANKAUF/VERKAUF/GEBÜHREN keine numerischen Zieltarife. Offen: Namen der Gesellschafter, Gewerbe-/Betreiberbeleg Nathusius-Str. 12a und aktueller Demontagestatus; Quelle(n): https://www.northdata.de/?query=R+W+GbR+Haldensleben ; https://www.gelbeseiten.de/gsbiz/bc74a25b-2080-4cf9-8895-9b369f3e58f6 (403); https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (kein auswertbares Einzelfirmenresultat)]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Direktabruf des Gelbe-Seiten-Eintrags zeigt „R & W GbR“, Kategorie Autoverwertung, Johann-Gottlob-Nathusius-Str. 12a, 39340 Haldensleben, Tel. 0179 4416940; genannte Leistungen sind Gebraucht-Autoteile, Schrott und Autoverwertung. Der Eintrag ist ein Aggregator, kein Beleg für aktuellen Betrieb oder Identität. MapQuest führt unter derselben Anschrift den Lead „Autoteile Krause und Rotte“; auch das ist kein qualifizierter Zweitbeleg und wird nicht mit R & W zusammengeführt. Keine Annahmebedingungen, Fahrzeugankaufbeträge, Teilepreise oder Gebühren verifiziert. Quelle/Leads: https://www.gelbeseiten.de/gsbiz/bc74a25b-2080-4cf9-8895-9b369f3e58f6 ; https://www.mapquest.com/de/sachsen-anhalt/krause-rotte-806295516 .]

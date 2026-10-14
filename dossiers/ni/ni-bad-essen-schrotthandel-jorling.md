@@ -31,6 +31,10 @@ Neuer Betreiber-Kandidat: Schrotthandel Jörling / Pascal Rene Jörling unter ht
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Betreiberkandidat auf HTTP erneut mit Impressum, Ankauf und Container einzeln gelesen (HTTP 200). Pascal Rene Jörling, Ritzenburg 5, 32351 Stemwede, 0171 5383052, Pascal-Joerling@t-online.de. Ankauf vergütet erst ab vom Tagespreis abhängigen, unbezifferten Mindestmengen; Eigenanlieferung ausdrücklich nicht möglich. Kostenlose Gitterbox-/Containerbereitstellung nur bei regelmäßiger Zusammenarbeit; Bargeld oder Überweisung nach Bewertung/Verwiegung, keine Zahlenkurse. Verkaufsliste und sonstige Gebühren nicht genannt. Dieser aktuelle Website-Einzelbeleg löst weiterhin nicht Bad Essen/Stemwede/Belm oder einen Umzug auf; keine Frontmatter-Fills. Kommunaler Chronik-Suchlead vom 13.10. ist in dieser Welle nicht als PDF neu verifiziert. Offen: unabhängige Inhaber-/Standortkette und konkrete Abhol-/Vergütungsgrenzen; Quelle(n): http://xn--schrotthandel-jrling-ibc.de/Impressum ; http://xn--schrotthandel-jrling-ibc.de/Ankauf ; http://xn--schrotthandel-jrling-ibc.de/Container]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Ein Suchtreffer zur kommunalen Ortschronik/Foto-PDF enthält den historischen Bildhinweis „Am langen Holz 20, Bad Essen–Harpenfeld – Heute: Schrotthandel Jörling“. Veröffentlichungsdatum und Aktualität sind daraus nicht ersichtlich; der PDF-Inhalt wurde nicht als heutiger Betreiber- oder Adressbeleg verifiziert. Daher bleibt die bereits dokumentierte Betreiberwebsite Pascal Rene Jörling in Stemwede ein Kandidat, keine Standort-/Umzugskette zum Bad-Essen-Seed. Keine Frontmatter-Fills. Ankauf nur als variable Tagespreis-/Mengenbedingung auf der Kandidatenseite, keine Zahlenkurse; keine Verkaufspreise oder allgemeinen Gebühren. Quelle(n): https://daten2.verwaltungsportal.de/dateien/seitengenerator/c7f8b1223c1572943ab752a9a562994203458/Nr._60_Koch.pdf ; http://xn--schrotthandel-jrling-ibc.de/Impressum ; http://xn--schrotthandel-jrling-ibc.de/Ankauf ; http://xn--schrotthandel-jrling-ibc.de/Container]

@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der live gelesene Gelbe-Seiten-Lead nennt Stein An- u. Verkauf Waren aller Art, Breite Str. 16, und Antiquitäten/Goldankauf. Das ist keine qualifizierte Betreiberidentität und kein allgemeiner Schrottankaufsbeleg. Betreibername, Fortbestand, Annahmebedingungen und Ankauf-/Verkaufs-/Gebührenpreise bleiben offen; Prüfstatus und leere Kontaktskalare bleiben.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gelbe-Seiten-Detail live gelesen (200): Breite Str. 16, 66115 Saarbrücken-Malstatt, 0681 48460, An- und Verkauf mit Antiquitäten/Goldankauf. Nur Lead; weder Betreiber-/Registerquelle noch eine verifizierte Goldankaufsliste. DuckDuckGo-Namens-/Straßensuche HTTP 202 mit Bot-Challenge, Bing sachfremde Ergebnisse, daher kein Register-Negativbeweis. ANKAUF: Altgold nur Verzeichnisbehauptung, keine Kurse; VERKAUF: Antiquitäten nur Lead, keine Preise; GEBÜHREN: unbelegt. Offen: vollständiger Inhabername und Gewerbefortbestand an Breite Str. 16; keine Verallgemeinerung zu Metallannahme. Quelle: https://www.gelbeseiten.de/gsbiz/7194bc38-e7a9-4c6b-a773-b4f73ce3aee7 ; https://html.duckduckgo.com/html/?q=%22Stein%22%20An%20Verkauf%20Breite%2016%20Saarbr%C3%BCcken (nur Abrufgrenze).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

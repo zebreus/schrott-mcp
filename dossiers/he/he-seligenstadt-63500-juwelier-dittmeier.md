@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiber-Einzelbeleg: Juwelier Dittmeier, vertreten durch G. Acar, Aschaffenburger Str. 18, Seligenstadt. Goldankaufsseite beschreibt Zahngold, Bruchgold, Goldschmuck und Goldmünzen mit individueller Prüfung und marktpreisbezogenem Angebot, ohne numerische Kurse. Schmuck-/Uhrenverkauf nicht mit Ankauf verwechseln. Die verlinkte Instagram-Seite liefert keine lesbaren Profilfakten; unabhängige Identitäts-/Standortbestätigung fehlt weiter.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Start, Kontakt, Impressum und Goldankauf einzeln live gelesen (200). Impressum nennt G. Acar/Aschaffenburger Str. 18/63500, ohne HRB; Kontakt und Impressum nennen unterschiedliche E-Mail-Adressen wie schon 01.10. Verlinktes Instagram-Profil liefert nur Instagram-Hülle, keine lesbare zweite Betreiberbestätigung. Zwei Seiten derselben Domain sind keine unabhängigen Quellen; Kontakte bleiben leer, Website aktiv/status pruefung unverändert. ANKAUF: Zahngold, Bruchgold, Goldschmuck, Goldmünzen, Angebot nach Goldgehalt und aktuellen Marktpreisen, keine EUR/g-Tabelle. VERKAUF: Schmuck/Uhren-Angebot auf Startseite, keine dortige numerische Liste. GEBÜHREN: keine bezifferte Bewertungs-/Reparaturliste in den gelesenen Seiten. Offen: unabhängiger Betreiber-/Standortbeleg, vollständiger Name G. Acar. Quelle: https://juwelier-dittmeier.eu/ ; https://juwelier-dittmeier.eu/impressum/ ; https://juwelier-dittmeier.eu/kontakt/ ; https://juwelier-dittmeier.eu/goldankauf ; https://www.instagram.com/juwelier_dittmeier/ (Inhaltshülle).]
 
 ### Korrektur 05.10.2026
 

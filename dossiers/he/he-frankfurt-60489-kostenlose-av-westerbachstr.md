@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Kostenlose AV (Westerbachstr.)“ ist keine überprüfte Firmierung. Hausnummer, Inhaber und zuordenbare Betreiberquelle fehlen; Vorwellen-Werkstatt-/Autohero-Leads nicht als Autoverwertung übernehmen. Kostenfrei ist eine unbestätigte Seedbehauptung, keine Gebühr von null Euro. Ankauf und Teileverkauf ebenfalls unbelegt.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Historische Werkstatt-/Autohero-Mismatches gelesen, nicht erneut zu vermeintlichen Entsorgern gemacht. Neue DuckDuckGo-Suche kostenlose Autoverwertung/Westerbachstraße/Frankfurt liefert 202/Challenge; Gelbe-Seiten-Ortssuche Autoverwertung Frankfurt 403, Bing sachfremde Ergebnisse. Keine neue zugeordnete Geschäftssachquelle gelesen und keine vollständige Gewerberegisterabfrage behauptet. Felder leer/status pruefung. ANKAUF: keine Fahrzeugvergütung belegt; VERKAUF: keine Teilepreisliste; GEBÜHREN: „kostenlos“ im Seed bleibt unbelegt, keine Null-Euro-Beobachtung. Offen: Originalprofil, Hausnummer und rechtlicher Betreiber; Straße/PLZ allein reichen nicht. Quelle: https://html.duckduckgo.com/html/?q=%22kostenlose%22%20Autoverwertung%20Westerbachstra%C3%9Fe%20Frankfurt (Challenge); https://www.gelbeseiten.de/suche/autoverwertung/frankfurt%20am%20main (403).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

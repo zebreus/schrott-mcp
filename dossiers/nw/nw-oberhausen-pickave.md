@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberkandidat Schrott- und Metallhandel Markus Pickavé / der-schrotthaendler.com war am 03.10. mit passendem Impressum an Margaretenstr. 11 dokumentiert, aktuell jedoch mit HTTP 403 nicht lesbar. Kein unabhängiger Zweitbeleg und keine aktuelle Mail-/Standortauflösung. Ankauf, Verkauf und Gebühren ohne aktuelle verifizierte Zahlenliste; Status `pruefung`, keine Übertragung alter Website-Angaben in Frontmatter.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Kandidatenroot und tatsächlicher Footer-Impressumspfad /impressuma2cc232a direkt erneut abgerufen, beide HTTP 403. Nicht den früheren Platzhalterpfad mit dem am 03.10. korrekt gefundenen Impressum verwechseln; historische Betreiberangaben bleiben erhalten, wurden heute nicht erneut gelesen. Aus 403 weder tote Domain noch geschlossenen Betrieb ableiten. Zweiter zulässiger Identitätsbeleg und Auflösung der E-Mail-Varianten weiterhin offen. Keine Frontmatter-Änderungen; Ankauf-/Verkaufszahlen und Gebühren nicht aktuell verifiziert. Nächster Klärschritt Betreiber-/Gewerbegegenbeleg Markus Pickavé, Margaretenstr. 11, statt weiterer Aggregator-Konsens; Quelle(n): https://www.der-schrotthaendler.com/ ; https://www.der-schrotthaendler.com/impressuma2cc232a (je HTTP 403)]
 
 ### Recherche 01.10.2026
 

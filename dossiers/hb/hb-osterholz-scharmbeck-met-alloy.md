@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Met-Alloy GmbH bleibt ein unqualifizierter Verzeichnis-Kandidat in Osterholz-Scharmbeck; die separate MET-ALLOY Grundbesitz UG darf ohne Kettenbeleg nicht zugerechnet werden. Seed-Adresse und Telefon sind keine unabhängig verifizierten Betreiberfakten. Ankauf, Verkauf und Gebühren unbekannt. Zusätzlich prüfen: Osterholz-Scharmbeck liegt in Niedersachsen, während state und stabiler Slug hier HB tragen; keine GEO- oder Bundeslandänderung in dieser Welle.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Schrottplatz-Info-Profil direkt HTTP 200 gelesen: Soltkampweg 2, 27711 Osterholz-Scharmbeck, (04793) 478; Beschreibung, Öffnungszeiten und Leistungsangebot fehlen weiterhin. Dies bestätigt nur Fortbestand eines Aggregator-Eintrags, nicht Betrieb oder Schrottankauf. Northdata-Kandidat MET-ALLOY Grundbesitz UG, Hambergen, HRB 203241 direkt HTTP 429; aktuelle Registerdaten ungelesen, keine Namenskettenfeststellung. Brave-Nachsuche Captcha. Stammdaten unverändert. Ankauf/Verkauf/Gebühren ohne verifizierte Aussage; offen: exakte GmbH-Identität, aktueller Betrieb und unabhängige Bestätigung der Altadresse, außerdem HB/NI-Zuordnung vor Owner-Gate klären; Quelle(n): https://schrottplatz-info.de/schrottplatz/Osterholz-Scharmbeck/Met-Alloy-GmbH (Lead) ; https://www.northdata.de/MET-ALLOY+Grundbesitz+UG,+Hambergen/Amtsgericht+Walsrode+HRB+203241 (HTTP 429)]
 
 ### Recherche 04.10.2026
 

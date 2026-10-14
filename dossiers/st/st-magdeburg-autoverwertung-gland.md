@@ -30,6 +30,10 @@ Die Betreiberseite von Autoverwertung Gland (Magdeburg) bewirbt Altfahrzeug-/Unf
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Unternehmensseite und Impressum direkt erneut gelesen, Creditreform-Kandidat erneut HTTP 403. Betreiberprämie weiter „bis zu 250 Euro“, nur vollständiger PKW, keine artfremden Abfälle, Original-Fahrzeugbrief; Unfallwagen Entscheidung vor Ort. ANKAUF/Vergütung Höchstbetrag, kein garantierter 250-EUR-Preis und kein kg-Kurs; VERKAUF gebrauchte Teile angeboten, keine Zahlenliste auf Unternehmensseite; GEBÜHREN kostenfreie Fahrzeugentsorgung laut Betreiber, keine belegte kostenlose Abholung daraus ableiten. „Zertifiziert seit 1991“ ist Eigenwerbung, kein aktuell gelesenes Zertifikat. Weiter Betreiber-Einzelbeleg, keine Frontmatter-Fills/status-Änderung; offen unabhängige Betreiberidentität Bashar/B. Hamad und gültige Standortanerkennung; Quelle(n): http://www.glandautoverwertung.de/Startseite/Unternehmen/ ; http://www.glandautoverwertung.de/Impressum/ ; https://firmeneintrag.creditreform.de/39126/3170379883/BASHAR_HAMAD_AUTOVERWERTUNG_GLAND (403)]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Neuer Betreiber-Kandidat live gefunden; der Negativbefund vom 01.10. ist damit überholt, nicht jedoch die Identitätsprüfung. Gland AVG nennt Glindenberger Weg 11, 39126 Magdeburg, 0391 5096175 / 0391 7219516 / 0391 2583184, glandautoverwertung@gmx.de und Mo-Fr 08:00-18:00; samstags „bis auf Weiteres geschlossen“ ist keine dauerhafte Betriebsschließung. Das Impressum nennt B. Hamad, aber keine Handelsregisternummer; „Registergericht Magdeburg“ ohne Nummer reicht nicht für die README-Ausnahme. Der Creditreform-Kandidat „Bashar Hamad Autoverwertung Gland“ war HTTP 403: Suchtreffer ist kein verifizierter Zweitabruf. Betreiber-/Dossieridentität deshalb weiterhin Einzelbeleg, sämtliche Frontmatter-Felder unverändert; Quelle(n): http://www.glandautoverwertung.de/ + http://www.glandautoverwertung.de/Impressum/ + http://www.glandautoverwertung.de/123/ + https://firmeneintrag.creditreform.de/39126/3170379883/BASHAR_HAMAD_AUTOVERWERTUNG_GLAND (403 am 05.10.2026)]

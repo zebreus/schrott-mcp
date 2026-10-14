@@ -28,6 +28,10 @@ Die aktuelle Betreiberwebsite nennt als Impressumsinhaberin Hilde Waltraud Kebsc
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Betreiberseiten Impressum, Unternehmen, Kontakt, Autoverwertung und Schrotthandel einzeln live gelesen (HTTP 200). Hilde Waltraud Kebschull betreibt Autoverwertung und Containerdienst Becker, Fintenweg 5, 54516 Wittlich; Unternehmenshistorie nennt Rudolf Becker als Gründer 1972, nicht Mathilde. Mathilde→heutige Inhaberin bleibt unbelegte Betreiberkette; keine Identitätszusammenführung oder Frontmatter-Fills. Kontakt nennt Mo–Fr 08–12/13–17 und Sa geschlossen. ANKAUF: Schrott/Altmetall/Eisen/Stahl/Edelstahl sowie Kupfer/Messing/Legierungen zu erfragenden Tagespreisen, keine Euro-Kurse. VERKAUF: Gebrauchtteile/Unfallfahrzeuge in Unternehmensdarstellung, keine dortige numerische Liste. GEBÜHREN: in den gelesenen Seiten keine Tarife; Zertifizierungsbehauptung ohne aktuelles Zertifikat nicht als aktuelle Anerkennung übernommen. Offen: unabhängiger Register-/Behördenbeleg zur Mathilde-Kette. Quelle: https://www.autoverwertung-becker.de/impressum ; https://www.autoverwertung-becker.de/unternehmen ; https://www.autoverwertung-becker.de/kontakt-1 ; https://www.autoverwertung-becker.de/autoverwertung ; https://www.autoverwertung-becker.de/schrotthandel.]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Klaerfall, KEIN Fill (nur GS-Einzelbeleg) — GS: Becker Mathilde Autoverwertung, Fintenweg 5, 54516 Wittlich, Tel. 06571 7708. 11880 Wittlich (50 Eintraege): kein Becker. Kein Betreiber-Beleg, kein HRB. Folgewelle: Zweitverzeichnis/Gewerberegister Wittlich (AltfahrzeugV-Anerkennung pruefen).; Quelle(n): https://www.gelbeseiten.de/gsbiz/0ba13991-c700-46e5-89ca-41f766924efe + 11880-Negativbefund (Abruf 02.10.2026)]

@@ -32,6 +32,10 @@ Ankauf-/Verkaufs-/Gebührenlisten nicht aus Betreiberinhalt verifiziert. Kommuna
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Domain hammerschmidt-recycling.de mit/ohne www erneut normal geprüft; beide HTTPS-Abrufe liefern abgelaufenes Zertifikat, nicht nur unspezifischen Timeout. Kein Inhalt/Impressum gelesen und keine sichere Michael-Zuordnung gewonnen. DuckDuckGo-Namenssuche 202/Challenge, Bing allgemeine Michael-Treffer ohne Branchentreffer; das ist keine negative Registerauskunft. Bestehende email/phone-Clears, Prüfstatus und leere Website bleiben; Emil/Philip-Dossier nicht zusammengeführt. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierte Betreiberliste. Offen: kommunal/registergestützte Identität Michael↔Karl-Königsdorfer-Str. 25 A↔Domain und Abgrenzung der anderen Hammerschmidt-Entitäten. Quelle: https://hammerschmidt-recycling.de/ ; https://www.hammerschmidt-recycling.de/ (TLS-Fehler).]
+
 ### Recherche 11.10.2026
 
 - [Owner-Clear 11.10.2026: Telefon und E-Mail werden wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege und offenen Namesake-Zuordnung explizit über clear_fields zurückgenommen. Altwerte/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]

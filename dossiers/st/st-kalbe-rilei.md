@@ -30,6 +30,10 @@ Registerzweck umfasst Abschleppen/Bergung, Autoverwertung/Entsorgung, Fahrzeug- 
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Register-/GLEIF-Spur aus der Historie erneut direkt geprüft: NorthData HRB 737 führt Rilei Automobile GmbH, früher RILEI Autoverwertung GmbH Badel; die einzeln gelesenen Bekanntmachungen 22.04.2002 und 19.11.2002 bestätigen Unternehmenszweck und Umfirmierung/Sitz Cheinitz, nicht heutigen Annahmebetrieb. GLEIF liefert Golden-Copy-Datum 14.10.2026, aber weiterhin entity ACTIVE, Registrierung LAPSED und lastUpdateDate 19.07.2021; das Veröffentlichungsdatum ist kein frisches Betriebsprüfdatum. rilei.de erneut Domainverkauf. Keine aktuellen ANKAUF-Kurse, VERKAUF-Teilepreise oder Betriebsgebühren; Domainverkaufsbedingungen ausdrücklich nicht als Händlertarife werten. Keine Fills, status pruefung bleibt; Quelle(n): https://www.northdata.de/?query=RILEI+Automobile+GmbH ; https://www.northdata.de/?id=5068343485136896 ; https://www.northdata.de/?id=6163219433914368 ; https://api.gleif.org/api/v1/lei-records/529900TGM8IAAPLG8W46 ; https://www.rilei.de/]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Die frühere Domain rilei.de erneut direkt aufgerufen; sie zeigt weiter eine Verkaufs-/Parkseite („steht zum Verkauf“), keine Betreiberinformationen. Das bestätigt nur, dass der Domainauftritt kein aktueller Betriebsnachweis ist; ältere Register-/GLEIF-Einträge bleiben historische Identitätsbelege und belegen weder aktiven Hofbetrieb noch GESA-Anerkennung. Verzeichnis-Kontaktangaben nicht übernommen. ANKAUF — keine aktuellen Schrott-/Fahrzeugpreise; VERKAUF — keine Ersatzteilpreisliste; GEBÜHREN — keine Tarife. Status `pruefung` unverändert. Quelle: https://www.rilei.de/ (direkt abgerufen 12.10.2026).]

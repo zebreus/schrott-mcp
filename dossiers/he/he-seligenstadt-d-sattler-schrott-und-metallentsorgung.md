@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lesbarer Betreiber-Einzelbeleg D. Sattler, Beethovenweg 1, Seligenstadt. Startseite unterscheidet kostenlose Schrott-/Metallabholung und Bunt-/Edelmetallankauf von nur angefragten Entrümpelungen, Demontagen und Transporten. Kostenloses Angebot oder Besichtigung beweist keine kostenlose Entrümpelung. Keine Euro-Ankaufskurse, Verkaufs- oder Dienstleistungstarife; unabhängiger Gewerbe-/Standortbeleg fehlt.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Startseite und Kontakt/Impressum live einzeln gelesen (200). Kontakt bestätigt D. Sattler/Beethovenweg 1/63500/0163 6997236/daniel-sattler@gmx.de, Mo–Fr 7–17, Sa nach Vereinbarung; kein Registereintrag genannt. Betreiber-Einzelbeleg, keine neue qualifizierte zweite Quelle, Frontmatter bleibt unverändert. ANKAUF: Bunt-/Edelmetalle werden angekauft, Abholung kleiner/größerer Mengen, aber keine Euro-Kurse. VERKAUF: keine Liste. GEBÜHREN: Betreiber nennt kostenlose Abholungen von Schrott/Metallresten und kostenlose Besichtigungen/Angebote; Entrümpelung/Demontage auf Anfrage, Transporte nach Vereinbarung ohne Tarife. Kostenfreiheit nicht auf sämtliche Dienste ausdehnen. Materialliste nennt Felgen ohne Reifen; keine allgemeine Fahrzeugannahme abgeleitet. Offen: unabhängiger Gewerbe-/Inhaberbeleg und genaue Kosten-/Vergütungsbedingungen. Quelle: https://sattler-schrott-metallentsorgung.de/ ; https://sattler-schrott-metallentsorgung.de/kontaktimpressum.]
 
 ### Korrektur 05.10.2026
 

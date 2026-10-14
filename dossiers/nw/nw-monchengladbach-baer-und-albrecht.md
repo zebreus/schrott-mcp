@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische Betreiberkette Baer & Albrecht → PB Holding und separater operativer PB GmbH bleibt anhand der Recherche vom 04.10.2026 dokumentiert. Liquidations-/Insolvenzereignisse sind keine automatische Schließungsbestätigung für den Platz Siemensstraße 11–13. Aktueller Nachfolgerauftritt weiterhin nicht lesbar. Keine aktuellen Ankauf-/Verkaufspreise oder Gebühren bestätigt; insbesondere historische Annahmezeiten und Mindestmengen nicht fortschreiben. Name und fehlerhaft zusammengesetztes Straßenfeld bedürfen des Owner-Identitätsgates, kein ungeprüfter Override.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Aktuelle Nachfolgerdomain www.pb-schrotthandel.de erneut direkt geprüft: TLS-Handshakefehler, keine aktuelle Betreiberseite gelesen. Historische Register-/Archivbelege vom 04.10.2026 bleiben erhalten, werden nicht als heute neu verifizierte Betriebslage ausgegeben. Kein belegter neuer Rechtsträger und keine Fortführung/Schließung festgestellt; Stammdaten einschließlich Altname und zusammengesetztem street-Feld unverändert. Ankauf: Vorinsolvenz-Tagespreiswerbung ist kein aktueller Kurs; Verkauf und Gebühren: nicht verifiziert. Offen: Original-Ausgliederungsveröffentlichung und unabhängiger Fortführungsnachweis nach Insolvenz/Liquidation, PLZ-Widerspruch 41063/41066; Quelle(n): https://www.pb-schrotthandel.de/ (TLS-Abrufgrenze); historische Quellen und Rechtsträger HRB 11914/21953 siehe Recherche 04.10.2026]
 
 ### Recherche 04.10.2026
 

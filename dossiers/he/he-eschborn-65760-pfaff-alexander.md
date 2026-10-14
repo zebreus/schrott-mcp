@@ -31,6 +31,10 @@ Ankauf/Verkauf/Gebühren ohne primär belegte Liste. Kein Abholdienst oder öffe
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: 11880-Detail nun direkt inhaltlich gelesen (200): Alexander Pfaff – Schrotthandel, Am Burggraben 7 c, 65760 Eschborn, 0172 3694337, Altmetallrecycling; Website und Zeiten sollen hinzugefügt werden. Portal nennt Eintragsdaten 24.07.2021 und Aktualisierung 03.10.2026; letzteres beweist keinen aktuellen Gewerbebetrieb. Kein Betreiberprofil/Impressum verlinkt, kein qualifizierter Zweitbeleg. Zusätzliche DuckDuckGo-Suche endet in 202/Bot-Challenge. Bestehendes phone-Clear bleibt; keine Felder aus dem Portal zurückgefüllt. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Primärliste. Offen: Gewerbeidentität, Kontaktadresse versus Annahmeplatz und tatsächliches Leistungsgebiet. Quelle: https://www.11880.com/branchenbuch/eschborn-taunus/060440092B102010443/alexander-pfaff-schrotthandel.html ; https://html.duckduckgo.com/html/?q=%22Alexander%22%20Pfaff%20Schrotthandel%20Eschborn (Abrufgrenze).]
+
 ### Recherche 11.10.2026
 
 - [Owner-Clear 11.10.2026: Telefon wird wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege explizit über clear_fields zurückgenommen. Altwert/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]

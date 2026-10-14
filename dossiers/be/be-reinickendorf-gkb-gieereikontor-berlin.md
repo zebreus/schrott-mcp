@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registerfund statt bisheriger Such-MISS: GKB Gießereikontor Berlin GmbH, HRB 174139 B Charlottenburg. Die direkt gelesene Adressänderung vom 26.11.2025 nennt Eichborndamm 93, 13403 Berlin; Roedernallee 9 und Mobilnummer bleiben ungeprüfte historische Leads, nicht aktuelle Annahmedaten. Registerzweck ist Handel mit Gießereibedarfsstoffen, kein bestätigter allgemeiner Schrottankauf. Eine Quellenfamilie, keine Betreiber-/Register-Doppelbestätigung; `pruefung`, keine neuen strukturierten Felder. Keine Ankauf-/Verkaufs-/Gebührenliste.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche und Unternehmensseite direkt HTTP 200 gelesen: GKB Gießereikontor Berlin GmbH, Charlottenburg HRB 174139 B; Eintragung 05.02.2016 (Bekanntmachungsereignis 04.02.2016) nennt GF Erik Gust und Ankauf/Verkauf/Handel mit Gießereibedarfsstoffen. Einzelne Adresspublikation 26.11.2025 ausdrücklich Eichborndamm 93, 13403 Berlin; 2017-Bekanntmachung bestätigt nur redigierte Anschrift mit PLZ 13407. Damit früheres „kein Registerbeleg“ überholt, aber Roedernallee 9/0176 60010865 nicht aktuell bestätigt. Registerzweck nicht als Privat-Schrottannahme oder Auszahlung lesen. Keine Umbenennung/Adress-/Kontakt-Fills unter Zwei-Quellen-Standard; Altwerte historisch belassen, status pruefung. ANKAUF/VERKAUF/GEBÜHREN keine numerischen Tarife. Offen: Betreiberauftritt, unabhängige Dossierzuordnung und heutige Annahmefunktion; Quelle(n): https://www.northdata.de/GKB%20Gie%C3%9Fereikontor%20Berlin%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20174139%20B ; https://www.northdata.de/?id=1254555020 ; https://www.northdata.de/?id=4182305126 ; https://www.northdata.de/?id=6221136081453056]
 
 ### Recherche 03.10.2026
 

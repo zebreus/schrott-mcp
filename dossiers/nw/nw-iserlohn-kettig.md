@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: tot
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hans-Werner Kettig / Im Boden 1 bleibt anhand alter konvergenter Verzeichnis-Leads erfasst, nicht nach README als qualifiziert aktiver Betreiber bestätigt. Kandidatendomain h-kettig.de weiterhin nicht auflösbar; keine Schließung daraus ableiten. Ankauf, Verkauf und Gebühren unbekannt. Owner nimmt historische Ausnahme-Aktivierung auf `pruefung` zurück; aktuelle Gewerbe-/Betreiberidentität und Annahmefunktion bleiben offen.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Korrektur 14.10.2026: Owner nimmt historische Ausnahme-Aktivierung auf pruefung zurück: Verzeichniskonvergenz allein trägt keinen aktiven Betreiberstatus nach README. DNS-Ausfall beweist keine Geschäftsaufgabe; Anschrift/Kontakt bleiben historische ungeprüfte Bestandswerte, keine öffentliche Annahme bestätigt. Aktueller Gewerbe-/Betreiberbeleg bleibt nötig. Quelle: Dossier-Historie 02.10.2026 und nachfolgende Recherche 14.10.2026; README.md Quellenhierarchie.]
+
+- [Recherche 14.10.2026: www.h-kettig.de direkt versucht: DNS-Namensauflösung scheitert, keine Betreiberseite gelesen. Zusätzliche Namenssuche endet an Brave-Captcha. Vorwellen-Verzeichniskonvergenz vom 02.10. erfüllt nicht den README-Zwei-Quellen-Standard und rechtfertigt keinen neuen Aktivitätsnachweis; bestehendes status aktiv bleibt als expliziter Owner-Klärfall unverändert, nicht als heute bestätigt ausgegeben. Domainausfall ist kein Schließungsbeleg und nicht unabhängig beweiskräftig für Zugehörigkeit der Domain. Ankauf-/Verkaufslisten und Gebühren unbekannt. Offen: aktueller Inhaber-/Gewerbenachweis Hans-Werner Kettig, Im Boden 1, tatsächlicher Container-/Ankaufbetrieb und heutiger Kontakt; Quelle(n): https://www.h-kettig.de/ (DNS-Abruffehler) ; https://search.brave.com/search?q=%22Hans-Werner%20Kettig%22 (Captcha)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

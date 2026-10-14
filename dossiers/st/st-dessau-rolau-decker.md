@@ -30,6 +30,10 @@ Decker-Autoverwertung in Dessau-Roßlau bleibt ein Identitätsklärfall: Verzeic
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gezielte Dessau-/Decker-Suche und direkt gelesene NorthData-Suche liefern keinen passend identifizierten Betreiber; ähnliche Becker/Deneke-Firmen an Fremdorten nicht zuordnen. GADSYS-Altfahrzeugregister direkt HTTP 200 aufgerufen, Antwort ohne auswertbaren Text/Einzelfirmenresultat; damit keine Anerkennungsprüfung für Decker abgeschlossen und kein Negativnachweis. Historische Konfliktmatrix Neekener Str. 9B/Harald/618169 versus 31/Autoservice/6610013 unverändert. Keine Fills, kein Zusammenführen, status pruefung. ANKAUF/VERKAUF/GEBÜHREN keine Zieltarife. Offen: konkrete Inhaber/Adresskette per Gewerbeauskunft und individuell zugeordneter Anerkennungsnachweis; Quelle(n): https://www.northdata.de/?query=Decker+Autoverwertung+Dessau ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (kein auswertbares Einzelfirmenresultat); Dossier-Historie 03.10.2026]
+
 ### Einordnung 09.10.2026
 
 - [Recherche 09.10.2026: Identitätsmatrix aus 03.10. erhalten: 9B/Harald/618169 versus 31/Autoservice/6610013. Neue gezielte Namenssuche ohne Resultate schafft keinen neuen Gegenbeleg. Kommunale Gewerbeauskunft und ggf. GESA-Demontageanerkennung zuerst auf konkreten Inhaber/Standort beziehen; DEKRA/Wertstoffzentrum und OWL-Deckers nicht zuordnen. Kein aktueller Preis-/Zulassungsnachweis; ANKAUF/VERKAUF/GEBÜHREN offen. Quellen: Vorrecherche 03.10.; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (Prüfziel, kein individuell gelesenes Suchresultat).]

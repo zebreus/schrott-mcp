@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+D&C ist nicht sicher dem Verzeichnis-Kandidaten D & C Rohstoff GmbH zugeordnet. Kein aktueller Betreiber-/Registerbeleg gelesen; gleichnamige Dienstleistungs-/Chemiefirmen dürfen nicht übertragen werden. Ankauf, Verkauf und Gebühren unbestätigt; Status `pruefung`, keine Stammdatenfüllung.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Suche nach dem ausgeschriebenen Kandidaten D & C Rohstoff GmbH liefert nach explizitem Suchmaschinenhinweis zu wenige genaue Treffer und weicht auf andere Firmen aus, darunter DC&C Duehrkop Chemicals & Consulting in Hamburg. Kein Bottroper Identitätsbeleg daraus. Northdata-Suche D & C Rohstoff Bottrop direkt HTTP 429; kein Registerinhalt gelesen und keine Aussage kein Registereintrag. Bestehender Wilhelm-Tenhagen-Str.-Lead vom 03.10. bleibt unbestätigt, keine Kontaktdaten übernommen. Ankauf/Verkauf/Gebühren nicht einem verifizierten Betreiber zuordenbar. Offen: vollständige Firma, HRB oder kommunale Gewerbeauskunft für die Bottroper Kandidatenadresse; Quelle(n): https://search.brave.com/search?q=%22D%20%26%20C%20Rohstoff%20GmbH%22 (Suchresultate, kein Sachbeleg) ; https://www.northdata.de/?query=D+%26+C+Rohstoff+Bottrop (HTTP 429)]
 
 ### Recherche 02.10.2026
 

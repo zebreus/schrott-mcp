@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lutz Pfeiffer Buntmetallhandel bleibt ausschließlich über Verzeichnis-Leads beschrieben. Hallesche Straße 117, 06295 und Telefon 03475 612710 sind nicht als aktuelle Betreiberkontakte bestätigt; zwei Verzeichnisse erfüllen den README-Zwei-Quellen-Standard nicht. Kein nachgewiesener heutiger Ankaufbetrieb, Status `pruefung`; keine Ankauf-, Verkaufs- oder Gebührentarife.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gezielte Namens-/Buntmetallsuche liefert keinen neuen zulässigen Beleg. NorthData-Suche direkt HTTP 200 gelesen, sichtbare Ergebnisse andere Pfeiffer-/Pfeiffenberger-Entitäten und Eislebener Vereine, keine zugeordnete Zielgesellschaft; ein Einzelgewerbe wird dadurch nicht ausgeschlossen. Alte Aussage „doppelt belegt“ präzisiert: Gelbe Seiten + Das Örtliche sind zwei Aggregatoren, keine Belege nach README, Hallesche Str. 117/Telefon bleiben ungeprüfte Bestandswerte. Keine Fills, keine Schließung, status pruefung. ANKAUF — keine Kurse; VERKAUF — keine Liste; GEBÜHREN — keine Tarife. Offen: Gewerbeauskunft/Betreiberquelle zu Lutz Pfeiffer und heutige Annahme; Quelle(n): https://www.northdata.de/?query=Lutz+Pfeiffer+Eisleben ; Dossier-Historie 30.09.2026; README.md Quellenhierarchie]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

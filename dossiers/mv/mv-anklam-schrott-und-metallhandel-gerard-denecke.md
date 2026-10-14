@@ -30,6 +30,10 @@ Das Impressum nennt Gerard Denecke, Lübeckerstr. 10, 17389 Anklam, +49 1522 393
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Homepage und Impressum nun über HTTPS direkt gelesen: Gerard Denecke, Lübeckerstr. 10/17389 Anklam, Telefonnummer/Mail wie bisher; ausdrücklich ausschließlich Abholung, „keine Annahme an der Adresse“, Besichtigung und Bezahlung vor Ort. Gleiche Betreiberquelle, keine unabhängige Bestätigung; bestehende Owner-Triage zu dropoff_json respektiert, keine strukturierte Füllung oder Website-Umschreibung. ANKAUF — keine numerischen Kurse trotz Bezahlungsangebot; VERKAUF — keine Preisliste; GEBÜHREN — keine Abholtarife und keine kostenlose Abholung zugesagt. Status pruefung, Annahmewarnung bleibt maßgeblich. Offen: unabhängiger Gewerbe-/Betreiberbeleg und individuell vereinbarte Konditionen; Quelle(n): https://www.schrotthandel-anklam.de/ ; https://www.schrotthandel-anklam.de/impressum]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Preisabgrenzung — die Betreiberseite nennt Besichtigung und Bezahlung vor Ort, jedoch keine numerischen Ankaufpreise oder Berechnungsformel. Keine Verkaufspreise für abgegebene Ware und keine Gebühren-/Abholtarife gefunden; insbesondere ist kostenlose Abholung nicht zugesagt. Der Betreiber beschreibt weiterhin ausschließlich Abholung und ausdrücklich keine Annahme an der Impressumsadresse. Keine Anlieferung ohne vorherige Klärung. Quelle: http://www.schrotthandel-anklam.de/ ; http://www.schrotthandel-anklam.de/impressum]

@@ -30,6 +30,10 @@ Verzeichnisse führen den Kandidaten als „Prager Axel Unfallwagenhdl.“ an Am
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Neue zulässige Auskunftei-Spur recherchiert: Suchresultat nennt Axel Prager Kfz-Handel, Creditreform-ID 5070316492/47239. Direkte Detailseite HTTP 403, Northdata-Suche HTTP 429; beide Inhalte ungelesen und damit kein zweiter Identitäts-/Adressbeleg. Suchresultate wiederholen Am Sportplatz 24 und Dahlingstraße 90 nur als Verzeichnis-/Autobörsen-Leads; kein Umzug oder zwei Betriebsstellen bewiesen. Ankauf von Unfall-/Gebrauchtwagen nicht in allgemeinen Schrott-/Metallankauf umdeuten; keine zugeordneten Ankauf-/Verkaufslisten oder Gebühren gelesen. Keine Stammdatenänderung. Offen: Auskunftei-/Gewerbedetail und aktuelle Betreiberbestätigung an einer der beiden Anschriften; Quelle(n): https://search.brave.com/search?q=%22Axel%20Prager%22%20%22Duisburg%22 (gelesene Suchresultate) ; https://firmeneintrag.creditreform.de/47239/5070316492/AXEL_PRAGER_KFZ_HANDEL (HTTP 403) ; https://www.northdata.de/?query=Axel+Prager+Duisburg (HTTP 429)]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Gezielte Suche zu Prager/Axel, Am Sportplatz 24 und Unfallwagenhandel brachte keine Betreiberwebsite oder belastbare Registerquelle; die auffindbaren Treffer bleiben Branchenverzeichnisse. Die zuletzt im Dossier belegten Adresse und Rufnummer sind damit nicht aufgewertet. Kein Nachweis für allgemeinen Schrott-/Metallankauf oder eine öffentliche Anlieferstelle. Preislisten getrennt: Ankauf/Fahrzeugankauf ohne Zahlenbeleg; Verkauf ohne Liste; Gebühren ohne Angaben. Identität/Tätigkeit offen, Status pruefung bleibt; Quelle: https://www.golocal.de/duisburg/autoverwertung/prager-axel-unfallwagenhdl-4nQv ; https://web2.cylex.de/firma-home/prager-axel-unfallwagenhdl--3148198.html ; https://www.kfz-fragen.de/autohaendler/profil/3420]

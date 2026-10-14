@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Detlef Burbott, Milanweg 7, 14712 Rathenow und Telefon 03385 511497 sind Verzeichnis-Leads, keine bestätigten Betreiberkontakte. Der historische Fill aus 11880 erfüllt den README-Belegstandard nicht; Bestandswerte bleiben als ungeprüft dokumentiert. Schrottankauf und heutiger Betrieb offen, Status `pruefung`. Keine verifizierten Ankauf-, Verkaufs- oder Gebührentarife.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gezielte Namens-/Schrottsuche ohne neue passende Quelle. NorthData-Suche direkt gelesen liefert andere Personen und McSchrott Rathenow GmbH, keine identifizierte Zielgesellschaft; McSchrott nicht ohne Betreiberkette als Nachfolger behandeln. Der ältere postcode/phone-Fill aus 11880 ist nur ein Aggregator-Lead, kein zulässiger Einzelbeleg und kein Zweitbeleg. Keine neuen Fills, Bestandswerte ausdrücklich ungeprüft, status pruefung; Negativsuche ist kein Schließungsbeweis. ANKAUF/VERKAUF/GEBÜHREN jeweils keine belegte Liste. Offen: kommunale Gewerbeauskunft zu Detlef Burbott/Milanweg 7 und aktuelle Ankauffunktion; Quelle(n): https://www.northdata.de/?query=Detlef+Burbott+Rathenow ; Dossier-Historie 02.10.2026; README.md Quellenhierarchie]
 
 ### Recherche 02.10.2026
 

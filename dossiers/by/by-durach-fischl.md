@@ -28,6 +28,10 @@ Die Betreiberwebsite „Schrott Fischl“ nennt Inhaber Christian Fischl, Weidac
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Impressum, Handel, Altautoentsorgung, Containerklassen und Angebote live einzeln gelesen (200); Inhaber Christian Fischl/Weidacher Str. 32 A/87471 bestätigt als Betreiber-Einzelbeleg, kein HRB. Verlinktes Facebook-Profil liefert lediglich Seitentitel Schrott Fischl | Durach; Instagram nur Hülle, keine unabhängigen Identitäts-/Kontaktfakten. Somit keine Frontmatter-Fills nach Zwei-Quellen-Standard. Wichtige Ergänzung: Altautoentsorgung bezeichnet Betrieb als zertifizierte Altfahrzeugannahmestelle und sagt ausdrücklich „Bei uns gibt es keine Autoerstatzeile“; kein Teilehandel aus Autoverwertung ableiten. Aktuelles Zertifikat nicht geprüft. ANKAUF: Materialannahme, keine Euro-Kurse; VERKAUF: Teileverkauf ausdrücklich verneint, Angebotsseite ohne lesbare Produktpreise; GEBÜHREN: Containerklassen nur Anfragen, keine Tarife. Offen: qualifizierter Zweitbeleg/Anerkennung und Vergütungsbedingungen. Quelle: https://www.schrott-fischl.de/impressum.html ; https://www.schrott-fischl.de/handel.html ; https://www.schrott-fischl.de/altautoentsorgung.html ; https://www.schrott-fischl.de/klassenverzeichnis-f%C3%BCr-container.html ; https://www.schrott-fischl.de/angebote.html ; https://www.facebook.com/SchrottFischl/ ; https://instagram.com/schrott_fischl/.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 87471)

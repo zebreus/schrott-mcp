@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische ISR Schrotthandels-GmbH ist laut Registerspur eine Vorfirmierung der KBC Geschäftsführungs GmbH in Alzenau (HRB 8754, in Liquidation). Das beweist keine heutige Delitzscher Niederlassung und ist ohne unabhängige Nachfolgebestätigung kein Anlass zur Zusammenführung. Die heutige ISR Recycling GmbH & Co. KG in Itzehoe ist ein anderer zu trennender Betreiber; ihre gelesene Standortseite nennt keinen Delitzsch-Standort. Status `pruefung`; keine dossierzugehörigen Ankauf-, Verkaufs- oder Gebührentarife.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche direkt HTTP 200 gelesen bestätigt als sichtbaren Treffer KBC Geschäftsführungs GmbH, Alzenau, HRB 8754, in Liquidation, vormals ISR Schrotthandels-GmbH. Das erneuert dieselbe Registerspur, keine unabhängige Identitätskette. Betreiber-Impressum und Standortseite isr-recycling.de direkt gelesen: ISR Recycling GmbH & Co. KG, Hafenstraße 35 Itzehoe; kein Delitzsch in der gelesenen Standortliste. Deren Annahmeangebote/Entgeltverweise nicht dem historischen Delitzsch-Seed zuordnen. Keine Fills, keine Gleichsetzung mit Hans Schmidt, kein geschlossen-Status allein aus KBC-Liquidation. ANKAUF/VERKAUF/GEBÜHREN keine Zielpreise; offen: historische Rechtsträger-/Standortkette und unabhängiger heutiger Delitzsch-Beleg; Quelle(n): https://www.northdata.de/?query=ISR+Schrotthandels-GmbH+Delitzsch ; https://www.isr-recycling.de/index.php/impressum ; https://www.isr-recycling.de/index.php/standorte-isr]
 
 ### Recherche 03.10.2026
 

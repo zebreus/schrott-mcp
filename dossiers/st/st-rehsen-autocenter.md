@@ -34,6 +34,10 @@ Ein mobile.de-Händlerprofil-Suchergebnis verbindet A.S.M. Automobile GmbH mit �
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Registerbekanntmachung 18.11.2021 direkt erneut gelesen: A.S.M. Automobile GmbH HRB 30581 Stendal, Rehsener Straße 31, 06785 Oranienbaum-Wörlitz OT Rehsen, zuvor HRB 192270 B Berlin, GF Abdul Sattar Matar, Zweck PKW-Handel/Autoverwertung/Teileverkauf. Neue Kleinanzeigen-Profilspur als gewerblicher Anbieter gefunden, Direktabruf ebenso wie mobile.de HTTP 403; Anbieter-Impressum und aktuelle Angebote nicht gelesen. Damit keine unabhängig überprüfte Verknüpfung des generischen Autocenter-Seeds, keine Frontmatter-Fills. ANKAUF/VERKAUF/GEBÜHREN keine belastbaren numerischen Zieltarife; Marketplace-Angebote wären ohnehin Verkauf, nicht automatisch Ankauf. Offen: zugängliches Betreiberimpressum und Standortanerkennung; Quelle(n): https://www.northdata.de/?id=4939945124823040 ; https://home.mobile.de/ABAUTOMOBILEBERLIN3 (403); https://www.kleinanzeigen.de/pro/A-S-M-Automobile-GmbH-Autoverwertung-Ersatzteile-PKW-Handel (403)]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Drittes Händlerprofil-Suchergebnis bezeichnet „A.S.M. Automobile GmbH : AUTOCENTER REHSEN AUTOVERWERTUNG“ und nennt Rehsener Str. 31, 06785 Oranienbaum-Wörlitz OT Rehsen, Tel. +49 176 22585772. Es ist weiterhin ein Marktplatz-Eintrag (keine gelesene Betreiberseite/kein direkt geprüftes Impressum), daher nur eine stärkere Zuordnungs-Spur, keine Frontmatter- oder Händlerstatus-Freigabe. `asm-automobile.de` wurde als Namensgleichheit ausgeschlossen: die dortige ASM Autoservice Meißner e.K. sitzt in Blankenburg, nicht Rehsen. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren numerischen Preise; ein Portalwert „0 EUR“ ist keine Tarifangabe. Kandidatenadresse erst nach Betreiberbestätigung geocodieren. Quelle(n): https://home.mobile.de/ABAUTOMOBILEBERLIN3 ; https://www.asm-automobile.de/ ; Registerbeleg siehe Recherche 05.10.2026.]

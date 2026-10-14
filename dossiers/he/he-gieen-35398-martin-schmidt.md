@@ -28,6 +28,10 @@ Der Seed nennt nur den häufigen Namen „Martin Schmidt“, Gießen 35398, und 
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Historische NorthData-Personensuche live erneut versucht, diesmal HTTP 429 Too many requests statt inhaltlicher Suchansicht; DuckDuckGo 202/Bot-Challenge, Bing liefert allgemeine Martin-Treffer ohne Orts-/Branchenkongruenz. Kein neuer Firmenbeleg gelesen; frühere begrenzte Personensuche nicht als aktueller Registerbefund ausgegeben. Keine fremden Schmidt-Unternehmen zugeschrieben, status pruefung/Felder unverändert. ANKAUF/VERKAUF/GEBÜHREN: nicht belegt. Offen: ursprünglicher namensgenauer Firmenlead, vollständige Adresse und Branche; generischer Name plus PLZ reichen nicht. Quelle: https://www.northdata.de/Martin+Schmidt,+Gie%C3%9Fen (429); https://html.duckduckgo.com/html/?q=%22Martin%22%20Schmidt%20Gie%C3%9Fen%20Schrotthandel (Abrufgrenze).]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klaerfall, KEIN Frontmatter-Fill (kein Beleg); Quelle(n): keine Betreiber-Quelle, kein HR-Eintrag auffindbar. Name zu generisch (Personenregister-Treffer unverwandt); Juwelier-Verdacht aus Seed bleibt unbelegt.]

@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Registergegenprüfung zum Kandidaten Schrotti König Bochum endet direkt mit HTTP 429, Suchnachprüfung mit Brave-Captcha. Deshalb weder neue Inhaberidentität gelesen noch behaupteter fehlender Registereintrag. Historische Aggregator-Fills Berghofer Heide 64 b/0160 91019956 bleiben unqualifiziert und unverändert; keine fremden König-Kontakte übertragen. Ankauf ist nicht allein aus kostenloser Abholung oder Branche ableitbar; Ankauf-, Verkaufs- und Gebührenlisten weiterhin nicht verifiziert. Offen: vollständiger Inhabername und kommunaler Gewerbe-/Betreiberbeleg, mobile Abhol-/Vergütungskonditionen; keine Hofannahme aus Kontaktadresse ableiten; Quelle(n): https://www.northdata.de/?query=Schrotti+K%C3%B6nig+Bochum (HTTP 429) ; https://search.brave.com/search?q=%22Schrotti%20K%C3%B6nig%22%20%22Bochum%22 (Captcha)]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Kein Frontmatter-Fill — der aktuelle 11880-Eintrag bestätigt weiterhin Schrotti König, Berghofer Heide 64 b, 44805 Bochum und 0160 91019956; die zweite Spur im Öffnungszeitenbuch bleibt ein Aggregator-/UGC-Profil. Kein Betreiberauftritt, Impressum oder Registerbeleg für einen unabhängigen Zweitnachweis gefunden. Vorhandene Werte bleiben; Adresse nicht verändert, keine neue Geokodierung. Quelle(n): https://www.11880.com/branchenbuch/bochum/060440092B102034544/schrotthandel-schrotti-koenig.html ; https://www.oeffnungszeitenbuch.de/filiale/Bochum-Schrotthandel%2520Schrotti%2520Koenig-3143746Q.html]

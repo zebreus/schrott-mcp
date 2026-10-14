@@ -33,6 +33,10 @@ Mehrere Branchenverzeichnisse führen einen Hammerschmidt-Recycling-Betrieb in d
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Kandidatendomain mit und ohne www erneut mit normaler Zertifikatsprüfung versucht: beide Abrufe scheitern ausdrücklich an abgelaufenem TLS-Zertifikat, kein Betreiberinhalt/Impressum gelesen. Suchweg DuckDuckGo 202/Bot-Challenge, Bing unpassende Emil-Treffer; kein Identitätsbeleg Emil/Philip→Domain/Karl-Königsdorfer-Str. 25 A. Kein SSL-Bypass, keine gemeinsame Zuordnung mit Michael Hammerschmidt. Website unbekannt, status pruefung unverändert; Domain bleibt Kandidat, nicht verifizierte Identität. ANKAUF/VERKAUF/GEBÜHREN: keine gelesene zuordenbare Primärliste. Offen: vollständige Rechtsträger und Trennung Emil/Philip/Michael; Gemeinderegister oder direkte Betreiberbestätigung erforderlich. Quelle: https://hammerschmidt-recycling.de/ ; https://www.hammerschmidt-recycling.de/ (beide TLS-Fehler).]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Die früher protokollierte Verzeichnis-Übereinstimmung zu Karl-Koenigsdorfer-Str. 25A, 89335 Ichenhausen, 08223 408217 und info@hammerschmidt-recycling.de bleibt wegen wechselnder Namenszuordnungen (u. a. Michael/Robert/M&R/Helmuth Fa. Bayer gegenüber Seed Emil/Philip) ein Lead, kein Identitätsnachweis. Direkter Abruf der als Kandidat notierten Betreiber-Domain scheitert weiterhin am abgelaufenen TLS-Zertifikat; dadurch weder Website-Inhalte noch Impressum geprüft. Keine Felder nachgetragen. Ankauf, Verkauf und Gebühren unbelegt; offene Frage ist Rechtsträger/Betreiber und die Zugehörigkeit der genannten Adresse. Bis dahin nicht geokodieren; Quelle: https://hammerschmidt-recycling.de/ ; vorhandene Verzeichnis-Leads Gelbe Seiten, Schrottradar, Branchenbuch Deutschland und Schrottplatz-Info (Detail-URLs in der Recherche vom 02.10.2026 nicht archiviert).]

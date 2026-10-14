@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -29,6 +29,10 @@ Der aktuelle Verzeichnislead führt „Schrott Schneider Steffen“ an Hauptstr.
 **Preise:** keine verifizierte Ankaufpreisliste, Verkaufspreise oder Gebühren gefunden. Verzeichnisformulierungen wie „aktuelle Preise“ enthalten keine konkreten, dem Betrieb zuordenbaren Tarife.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gezielte Suche findet erneut Creditreform „Steffen Schneider Schrotthandel, Entkernung“, Ostritz; direkter Profilabruf bleibt HTTP 403. Suchvorschau nicht als gelesenen Register-/Betreiberbeleg zählen. Namensform Schnei/Schneider und Telefonnummernkonflikt weiter offen, kein Kontakt-/Adress-Fill. Status aktiv → pruefung korrigiert die bereits dokumentierte unzureichende Beleglage, nicht eine behauptete Schließung. ANKAUF — keine verifizierten Zahlenkurse; VERKAUF — keine Liste; GEBÜHREN — keine Tarife. Offen: zulässiger unabhängiger Identitätsbeleg und heutiger Inhaber/Standort; Quelle(n): https://firmeneintrag.creditreform.de/02899/3390072818/STEFFEN_SCHNEIDER_SCHROTTHANDEL_ENTKERNUNG (Suchvorschau, Direktabruf 403); https://www.schrottplatz-info.de/schrottplatz/Goerlitz/Schneider-Steffen (Suchlead); README.md Quellenhierarchie]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

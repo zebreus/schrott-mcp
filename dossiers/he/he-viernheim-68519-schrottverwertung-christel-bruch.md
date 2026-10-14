@@ -30,6 +30,10 @@ Neuer namensgenauer Lead **Schrottverwertung Christel Bruch**, Luise-Aston-Str. 
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: 11880-Detail inhaltlich gelesen (200), bestätigt nur den Portal-Lead Christel Bruch/Luise-Aston-Str. 2/06204 620284; kein Betreiberlink, E-Mail im gelesenen Text geschützt. Gegenprüfung direkt beim anderen Betreiber Bruch & Söhne: dessen Standortliste nennt Viernheim–Containerdienst, Neuer Weg 4; Team nennt Andreas Rübner als Standortmanagement Viernheim, keine Christel-Verbindung. Keine Übertragung der Leistungen, Kontakt- oder Öffnungszeiten dieses anderen Betriebs. DuckDuckGo-Suche 202/Bot-Challenge. ANKAUF/VERKAUF/GEBÜHREN für Christel: keine Primärliste. Offen: Christels rechtliche Identität/Fortbestand und gegebenenfalls belegte Verbindung zur anderen Gesellschaft; Namensgleichheit reicht nicht. Quelle: https://www.11880.com/branchenbuch/viernheim/120674719B44351687/schrottverwertung-christel-bruch.html ; http://bruch-und-soehne.com.]
+
 ### Recherche 08.10.2026 (neuer namensgenauer Lead)
 
 - [Recherche 08.10.2026: Die frühere Notiz „keine Verzeichnisse mit diesem Namen“ nicht fortgeschrieben: aktuelle Suche findet namensgenau Schrottverwertung Christel Bruch bei Yelp/11880 und Bruch Christel bei Schrottplatz-info. Yelp-Suchauszug nennt Luise-Aston-Str. 2 / 68519 Viernheim und 06204 620284, 11880 ebenfalls diese Nummer. Dies sind ausschließlich Aggregator-Leads, keine Betreiber-/Registerbestätigung. Betreiberseite Bruch & Söhne nennt abweichend Niederlassung Viernheim–Containerdienst Neuer Weg 4; daraus keine Identität, Familie oder Nachfolge ableiten. Kein Frontmatter-Fill, status pruefung. ANKAUF/VERKAUF/GEBÜHREN: keine Christel Bruch zugeordnete Primärpreisliste. Offen: Gewerberegister/Betreiberkontakt, Luise-Aston-Str.-Adresse und Verbindung oder Abgrenzung Bruch & Söhne. Quelle(n): https://www.yelp.com/biz/schrottverwertung-christel-bruch-viernheim ; https://www.11880.com/branchenbuch/viernheim/120674719B44351687/schrottverwertung-christel-bruch.html ; https://www.schrottplatz-info.de/schrottplatz/Viernheim/Bruch-Christel ; http://bruch-und-soehne.com.]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+J.E. Schrott & Recycling bleibt Karten-/Verzeichnislead: Exa nennt Diebacher Weg 121 und 01577 9264128. Kein Betreiberlink/Impressum oder ausgeschriebener Inhaber ermittelt. Kartenstatus Open und Einzelbewertung belegen keinen aktuellen Ankauf; Kontakte, Zeiten, Ankauf-/Verkaufs-/Gebührenkonditionen nicht strukturiert übernehmen.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Exa-Places-Detail live gelesen (200): J.E. Schrott & Recycling, Diebacher Weg 121/63452, +49 1577 9264128, Open/Salvage Yard, eine Bewertung vom 02.09.2025; sichtbarer Profilkopf September 14, 2026. Das bleibt ein Aggregator/Kartenlead, weder Betreiberprofil noch Gewerbenachweis. Kein Impressum-/Website-Link für Betreiber gefunden; DuckDuckGo-Nachsuche 202/Challenge, Bing unpassende Buchstaben-Treffer. Kontakte nicht gefüllt, kein aktueller Betriebsstatus aus Open abgeleitet. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbaren Primärlisten. Offen: ausgeschriebene J.E.-Identität, Inhaber, aktuelle Annahmefunktion am Diebacher Weg und Vergütung versus kostenlose Abholung. Quelle: https://exa.ai/library/place/vylzk5ln3y8 ; https://html.duckduckgo.com/html/?q=%22J%22%20E%20Schrott%20Recycling%20Hanau (Challenge).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gert Wießer, Ernst-Kohl-Straße 27, 99423 Weimar und Telefon 03643 59554 sind nur Verzeichnis-Leads. Die frühere Aussage „doppelt belegt“ zählt nach README nicht als Betreiber-/Registerbeleg. Bestandsname und Kontakte bleiben historisch erhalten, aktuelle Schrottplatz-/Ankauffunktion aber unbestätigt; Status `pruefung`, kein Schließungsurteil. Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gezielte Wießer-/Schrottsuche ohne neue zulässige Quelle. NorthData-Suche direkt HTTP 200 gelesen, sichtbare Treffer andere Personen und Firmen; weder Zielidentität noch Schließung damit belegt. Korrektur alter Belegwertung: branchen-info + schrottplatz.org sind Aggregatoren, kein unabhängiger Belegstandard. Status aktiv → pruefung wegen offener Betreiber-/Ankauffunktion; keine Umbenennung oder neuen Fills, bestehende Straße/PLZ/Telefon bleiben ungeprüft. ANKAUF/VERKAUF/GEBÜHREN keine dossierzuordenbaren Tarife. Offen: kommunale Gewerbeauskunft/Betreiberkontakt zu Ernst-Kohl-Str. 27; Quelle(n): https://www.northdata.de/?query=Gert+Wie%C3%9Fer+Weimar ; Dossier-Historie 01.10.2026; README.md Quellenhierarchie]
 
 ### Recherche 01.10.2026
 

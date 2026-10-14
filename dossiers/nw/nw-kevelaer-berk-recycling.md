@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Aktuelle Betreiberseiten bekräftigen BERK Recycling GmbH, HRB 18672 Kleve, Standort Kevelaer Velder Dyck 21, 47624; Telefon 02832 78597, info@berk-recycling.com, Mo–Fr 08:00–16:30, Sa geschlossen. Selbstanlieferung für Privat/Gewerbe/Industrie mit Personalausweis, größere Mengen telefonisch ankündigen; Container/Abholung auf Angebot. Ankauf sorten- und gewichtsabhängig zu telefonisch erfragbaren Tagespreisen, Auszahlung bar oder Überweisung, keine öffentliche Zahlenliste. Verkauf/Containergebühren nicht beziffert. Registerlivecheck aktuell blockiert: Frontmatter bleibt unverändert, insbesondere Telefon-Klammerartefakt als Owner-Korrektur vorgemerkt.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 5 A)
+
+- [Recherche 14.10.2026: Kontakt, Impressum und Kevelaer-Schrotthandelsdetail direkt HTTP 200 gelesen: BERK Recycling GmbH, Marius Kohl, HRB 18672 AG Kleve; Velder Dyck 21, 47624 Kevelaer, 02832 78597, info@berk-recycling.com, Mo-Fr 08:00-16:30/Sa geschlossen. Kevelaer-Selbstanlieferung ausdrücklich privat/gewerblich/industriell, Personalausweis, größere Mengen vorher ankündigen, sortenreine Klassifizierung und geeichte Waagen als Selbstangaben. Ankauf Kupfer/Kabel/Alu/Messing/Edelstahl/Eisen/Blei/Batterien/Zink/Zinn, Auszahlung bar oder Überweisung; Tageskurs am Telefon für den Anruftag, keine numerische Webliste. Verkaufspreise und Container-/Abholgebühren nicht beziffert; Pappe-/Papier-Kostenfreiheit im Banner ist weder Metallvergütung noch allgemeine Gebührenfreiheit. Northdata-Direktdatensatz aktuell HTTP 429; historische Registerkongruenz vom 01.10. nicht als neuer Livecheck ausgeben. Frontmatter unverändert, weil heutige unabhängige Registerbestätigung für die Betreiber-Ausnahme fehlt. Owner kann nach Live-Registergate Adresse/Mail/Zeiten füllen und Telefonartefakt korrigieren; Quelle(n): https://berk-recycling.com/kontakt/ ; https://berk-recycling.com/impressum/ ; https://berk-recycling.com/services/schrotthandel-kevelaer/ ; https://www.northdata.de/BERK+Recycling+GmbH,+Kevelaer/Amtsgericht+Kleve+HRB+18672 (HTTP 429)]
 
 ### Recherche 01.10.2026 (Feedback 2539)
 

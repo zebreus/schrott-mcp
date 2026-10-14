@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Branchenbezug Eisen/Schrott ist nicht bestätigt. Verzeichnisse führen einen Abschleppdienst Frank Dreblow in Löcknitz, aber keinen belegten Ankaufbetrieb. Gleichnamige Personen und andere Orts-/Branchenbezüge nicht ohne Identitätskette übernehmen. Status `pruefung`; keine bestätigten Ankauf-, Verkaufs- oder Gebührentarife.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Websuche Frank Dreblow/Löcknitz liefert Abschleppdienst-Verzeichnisleads sowie sachfremde Personentreffer; keiner belegt Schrottankauf. NorthData-Suche direkt HTTP 200 gelesen, sichtbare Resultate betreffen andere Personen/Firmen, keine identifizierte Zielgesellschaft; das ist keine amtliche Nichtexistenzfeststellung und schließt einen nicht registerpflichtigen Einzelbetrieb nicht aus. Keine Fills, keine Übernahme fremder Personendaten; status pruefung. ANKAUF/VERKAUF/GEBÜHREN jeweils ohne dossierzuordenbaren Preis. Nächster Schritt kommunale Gewerbeauskunft zum konkreten Abschleppbetrieb und Ankauffrage; Quelle(n): https://www.northdata.de/?query=Frank+Dreblow+L%C3%B6cknitz ; https://www.gelbeseiten.de/branchenbuch/staedte/mecklenburg-vorpommern/landkreis%20vorpommern-greifswald/l%C3%B6cknitz%20vorpom (nur Suchlead)]
 
 ### Recherche 01.10.2026
 
