@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://www.kfz-verwertung-habersack.de/
 website_status: aktiv
 status: pruefung
-description: Zertifizierte KFZ-Verwertung mit Meisterwerkstatt und Ersatzteileverkauf, Familienbetrieb in Hasselroth-Niedermittlau
+description: 'KFZ-Verwertung mit Meisterwerkstatt und Ersatzteileverkauf, Familienbetrieb in Hasselroth-Niedermittlau; aktuelle Zertifizierung nicht verifiziert.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
@@ -29,6 +29,11 @@ Betreiber-Impressum nennt Klaus Habersack; die Gemeinde bestätigt den Familienb
 **Ankauf:** Betreiber bietet An- und Verkauf von Fahrzeugen, keine Ankaufkurse. **Verkauf:** Fahrzeuge, Original- und Gebrauchtteile, keine Preislisten auf den gelesenen Seiten. **Gebühren:** Altwagenabholung und Entsorgung mit Verwertungsnachweis angeboten, keine Gratiszusage/Tarife. Die Zertifizierungswerbung verweist im Leistungstext auf alte Daten, darunter Anerkennung 2001–2009; aktuelle Gültigkeit bleibt gesondert zu prüfen. **GEO:** Struthweg 3 erst nach unabhängigem Adressbeleg freigeben.
 
 ## Timeline
+
+### Owner-Follow-up 14.10.2026 (18:30)
+
+- [Korrektur 14.10.2026: Unqualifiziertes Zertifizierte aus description zurückgenommen, alte Beschreibung und frühere Einschätzungen bleiben in der unveränderten Timeline nachvollziehbar. Owner liest Leistungstext erneut: lediglich historische Anerkennungsangabe 19.03.2001–01.03.2009 und ältere Seminar-/Überwachungsdaten, keine heute gültige Bescheinigung. Gemeindebericht vom 05.12.2023 bestätigt Familienbetrieb/Meisterwerkstatt in Niedermittlau, keine Straße und kein aktuelles Anerkennungsaudit. Daher keine aktuelle Zertifizierung als Fakt veröffentlichen; keine Behauptung eines rechtswidrigen oder geschlossenen Betriebs. status pruefung und übrige Frontmatter-Felder unverändert. Quellen: https://www.kfz-verwertung-habersack.de/zertifizierte-kfz-verwertung-habersack.html ; https://www.hasselroth.de/hasselroth/gewerbe/tour-de-hasselroth/fa-kfz-verwertung-habersack/]
+- [Recherche 14.10.2026: Follow-up-Agent führt öffentliche GESA-/Efb-Originalregistersuche tatsächlich aus: Habersack ohne Treffer, GESA-Positivkontrolle Mittelrhein ein Treffer. Owner liest gesicherte Serverantworten mit Nulltrefferlabels und Positivkontrolle, führt die sessionabhängige Suche nicht selbst erneut aus. Register-Nichtfund ist keine rechtsverbindliche Negativbescheinigung und keine Aussage über jedes Annahmestellenmodell; rechtliche Anerkennung und Struthweg 3 weiterhin offen. Reifen-Montagepartnerprofil nennt Anschrift, ist kein qualifizierter Zweitbeleg nach README; keine Kontakt-/Zeit-/GEO-Fills. Fahrzeugankauf/Abholung Betreiberangebot ohne Zahlentarif oder Gratiszusage, keine allgemeine Altmetallannahme daraus. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Habersack ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Habersack ; https://www.altfahrzeugstelle.de/ ; research/checkin-20261014-1830-habersack-certificate.md]
 
 ### Recherche 14.10.2026 — 18:00-Welle A
 
