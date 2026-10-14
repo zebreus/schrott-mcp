@@ -28,6 +28,13 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [aa-recycling.de](https://aa-recycling.de/) tatsächlich erneut aufgerufen: one.com-Baustellenseite, kein lesbares Betreiberimpressum/Leistungsangebot. Eine geparkte/noch nicht veröffentlichte Website beweist keine Geschäftsaufgabe.; Quelle: https://aa-recycling.de/]
+- [Recherche 14.10.2026: Historische Register-/Gesellschafterspur [Creditreform](https://firmeneintrag.creditreform.de/67133/7170394409/ISKENDER_ARSLAN_SUEKRUE_ARSLAN_RECYCLING_SCHROTTHANDEL) direkt angefragt, 403. Daher weder aktiven Registerstatus noch HRA 62154/Arslan-Nachfolgekette frisch bestätigt. Alte GbR-/OHG-Abweichung bleibt ausdrücklich ungelöst; Im-Horst-5-Lead nicht freigegeben.; Quelle: https://aa-recycling.de/ (gelesene Baustellenseite, kein Registerbeleg)]
+- [Recherche 14.10.2026: **Ankauf, Verkauf und Gebühren:** aus Baustellenseite nicht ermittelbar, keine Kurse/Tarife oder Gratisbedingungen. Zweitbeleg und Betreiberidentität bleiben offene Arbeit; Frontmatter unverändert, keine Primärquellen-Ausnahme.; Quelle: https://aa-recycling.de/]
+
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

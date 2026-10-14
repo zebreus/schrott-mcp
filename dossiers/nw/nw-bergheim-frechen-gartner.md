@@ -11,7 +11,7 @@ email: ''
 opening_hours: Mo-Fr 8-20, Sa 9-18
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gärtner in Frechen bleibt ein ungeklärter Verzeichnis-Kandidat. Hauptstr. 174 wird erneut als Lead gefunden, doch der direkt gelesene Eintrag nennt andere Telefonnummer und Öffnungszeiten als das historische Frontmatter. Ein „Manuel Gärtner“ an Römerstr. 133 in Bergheim-Thorr ist nicht als Zweitstandort desselben Betreibers belegt. Der bisher allein aggregatorgestützte Aktivstatus ist deshalb auf `pruefung` zurückgenommen; vorhandene Adresse, Telefon und Zeiten bleiben ausdrücklich unverifizierte Altdaten. Keine bestätigten Ankauf-/Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 14.10.2026 — Kontaktkonflikt, Aktivfreigabe zurückgenommen
+
+- [Recherche 14.10.2026: [11880-Detail Schrotthandel Gärtner](https://www.11880.com/branchenbuch/frechen/120674719B43111372/schrotthandel-gaertner-schrotthandel.html) direkt gelesen: Hauptstr. 174, 50226 Frechen, aber 02234 2024070 und Mo–Fr 08–18/Sa 09–14 statt historisch 02234 54905 und Mo–Fr 08–20/Sa 09–18. Keine Website/E-Mail; Eintrag 22.04.2025, Portal-Aktualisierung 03.10.2026. Alte Rezension von 2020 und Portaldatum bestätigen keine heutigen Betreiberangaben.; Quelle: https://www.11880.com/branchenbuch/frechen/120674719B43111372/schrotthandel-gaertner-schrotthandel.html]
+- [Recherche 14.10.2026: [Das Örtliche, Römerstraße Bergheim](https://www.dasoertliche.de/Themen/R%C3%B6merstra%C3%9Fe/Bergheim-Erft.htm) gelesen: Manuel Gärtner Schrotthandel, Römerstr. 133, 50127 Bergheim-Thorr, 02271 7593479. Ohne Betreiber-/Registerverbindung kein belegter Zweitstandort und keine Zusammenführung allein nach Nachnamen. Beide Quellen nur Discovery-Leads.; Quelle: https://www.dasoertliche.de/Themen/R%C3%B6merstra%C3%9Fe/Bergheim-Erft.htm]
+- [Recherche 14.10.2026: Nichtleerfeldänderung ausdrücklich: `status: aktiv` → `pruefung`, weil die alte Aggregatorfreigabe keine aktuelle Aktivitätsprüfung trägt und Kontakte/Zeiten widersprechen. Keine Schließung behauptet. Historische Straße/PLZ/Telefon/Zeiten bewahrt und hier relativiert, nicht mit konkurrierenden Portalwerten ersetzt. Keine qualifizierte Identitätsbestätigung, kein Geo-/Preisfill. Ankauf, Verkauf und Gebühren bleiben offen; Owner muss rechtlichen Betreiber und aktuelle Kontaktdaten klären.; Quelle: https://www.11880.com/branchenbuch/frechen/120674719B43111372/schrotthandel-gaertner-schrotthandel.html und https://www.dasoertliche.de/Themen/R%C3%B6merstra%C3%9Fe/Bergheim-Erft.htm]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

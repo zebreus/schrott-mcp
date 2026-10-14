@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Hannover-Seed führt „Wieland Dental + Technik GmbH & Co. KG“, Königstraße 9; die vorhandene Recherche weist auf ein Dental-Depot ohne Schrottankauf hin. Die offiziell dokumentierte Dentaltechnik-Gruppe Wieland/Ivoclar und Pforzheimer Unternehmensanschriften sind ein eigener Namens-/Historienhinweis, kein Beleg für eine Hannoveraner Schrottannahme. Keine Kontaktdaten von Pforzheim übertragen. Keine Zielpreise für Schrottankauf, -verkauf oder Gebühren verifiziert.
+Der Hannover-Seed führt „Wieland Dental + Technik GmbH & Co. KG“, Königstraße 9; die historische Einordnung als Dental-Depot bestätigt keinen Schrottankauf. Die offiziell dokumentierte Dentaltechnik-Gruppe Wieland/Ivoclar und Pforzheimer Unternehmensanschriften sind ein eigener Namens-/Historienhinweis, kein Beleg für eine Hannoveraner Schrottannahme. Auch ein heute gleichadressiger Finanzvermittler ist kein Nachfolgerbeleg. Keine fremden Kontaktdaten übertragen. Keine Zielpreise für Schrottankauf, -verkauf oder Gebühren verifiziert; Identität und heutige Tätigkeit des Hannover-Seeds bleiben offen.
 
 ## Timeline
+
+### Recherche 14.10.2026 — aktuelle Gruppen-/Adressquellen, kein Hannover-Ankauf
+
+- [Recherche 14.10.2026: [Ivoclar Group Companies](https://www.ivoclar.com/en_li/tools/group-companies) direkt gelesen: deutsche Gruppengesellschaften unter anderem in Ellwangen und Ivoclar Vivadent Services & Support GmbH, Lindenstr. 2, 75175 Pforzheim. Die gelesene Liste identifiziert den Hannover-Seed nicht; daraus keine lückenlose Filialhistorie, Schließung oder Nachfolge abgeleitet. Keine Pforzheimer Kontakte in das Dossier übertragen.; Quelle: https://www.ivoclar.com/en_li/tools/group-companies]
+- [Recherche 14.10.2026: [Koke-Consulting-Impressum](https://koke-consulting.de/impressum) nennt Königstraße 9, 30175 Hannover, aber einen Versicherungs-/Finanzvermittler. Tatsächlicher gleichadressiger fremder Betreiber, kein Nachfolgernachweis für Wieland und kein Beweis exklusiver Gebäudenutzung. Adresse allein genügt nicht zur Identität.; Quelle: https://koke-consulting.de/impressum]
+- [Recherche 14.10.2026: Kein zweiter qualifizierter Beleg für den Hannoveraner Dental-Seed oder dessen heutigen Betrieb gefunden. Frontmatter und `pruefung` erhalten. Dentaltechnik/-depot nicht als Schrottankauf behandelt; keine zugeordneten Ankauf-/Verkaufspreise oder Entsorgungsgebühren. Historische Seed-Anschrift bleibt zu verifizieren.; Quelle: https://www.ivoclar.com/en_li/tools/group-companies und https://koke-consulting.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

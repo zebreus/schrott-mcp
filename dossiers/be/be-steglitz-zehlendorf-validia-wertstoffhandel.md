@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-Validia GmbH Wertstoffhandel ist an der Potsdamer Chaussee 48, 14129 Berlin-Nikolassee, bislang nur als Verzeichnis-Lead belegt. Ein gleichadressierter Treffer „Validia Verwaltungs GmbH“ stellt keine belegte Identitäts- oder Betreiberverbindung her. Betreiber, aktuelle Annahme, Öffnungszeiten und Rechtsregisterzuordnung bleiben offen; Seed-Adresse und Telefon sind nicht als bestätigter Kundenstandort zu verstehen. Keine zurechenbaren **Ankaufspreise**, **Verkaufspreise** oder **Gebühren**; Adresse vor einer Geokodierung erst verifizieren.
+Neue registerbasierte Spur: Validia GmbH, zuvor Charlottenburg HRB 128295 B, danach Potsdam HRB 25902, ist laut NorthData 2020 gelöscht. Auch die Verschmelzung der separaten Validia Verwaltungs GmbH auf Validia GmbH 2013 wird dort aufgeführt; bloße Namensähnlichkeit ist damit auf Quellenebene überholt. Die genaue Verbindung dieses Dossiers zur gelöschten Gesellschaft und die Straßenanschrift sind noch nicht unabhängig bestätigt. Kein heutiger Annahmestandort oder Nachfolger belegt; Seed-Kontakte bleiben ungeprüfte Altwerte, `pruefung` unverändert. Keine zurechenbaren Ankauf-/Verkaufspreise oder Gebühren, keine GEO-Freigabe.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: Neue Registerprofile und Einzelpublikationen direkt gelesen: Validia GmbH, HRB 128295 B Charlottenburg / HRB 25902 Potsdam, Recyclingproduktehandel insbesondere Papier/Kunststoff/PET, Sitzverlegung 2013, Liquidation 30.06.2016, Löschung 20.08.2020. Publikation 18.01.2012 nennt Geschäftsanschrift D-14129 Berlin, Straßenname öffentlich maskiert; deshalb keine Primärbestätigung Potsdamer Chaussee 48. Verwaltungs-GmbH HRB 127707 B / HRB 25888 ist laut eigener Profilübersicht am 05.09.2013 durch Verschmelzung auf Validia GmbH gelöscht. Der verlinkte Verschmelzungsvolltext ist Premium-gesperrt, also nicht vollständig geprüft. Beide Profile sind dieselbe Quelle, kein Zweitbeleg; die alte Übersichtsaussage „keine Verbindung“ ist nun durch eine registerbasierte Verbindungsspur zu relativieren. Keine Dossierumbenennung oder Standortschließung behauptet. Quellen: https://www.northdata.de/Validia+GmbH,+Berlin ; https://www.northdata.de/Validia+Verwaltungs+GmbH,+Kleinmachnow ; https://www.northdata.de/?id=9924593 ; https://www.northdata.de/?id=10574838 ; https://www.northdata.de/?id=22236525 .]
+- [Recherche 14.10.2026: ANKAUF/VERKAUF — Registergegenstand Groß-/Einzelhandel ist keine heutige Annahme- oder Preisliste; GEBÜHREN — keine Zieltarife. Frontmatter vollständig unverändert; amtliche Namens-/Adresshistorie und heutiger Gewerbetreibender am Seedstandort bleiben offen. Alte Telefonnummer nicht freigegeben, keine Koordinaten übernommen. Quellen: vorgenannte NorthData-Profile/Publikationen.]
 
 ### Recherche 13.10.2026
 

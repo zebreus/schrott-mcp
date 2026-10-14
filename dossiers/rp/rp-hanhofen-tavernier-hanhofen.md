@@ -30,6 +30,13 @@ Verzeichnisabgleiche liefern inzwischen einen konkreten Kandidaten „Jenny Tave
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [Lokaleschrottplatz-Profil](https://lokaleschrottplatz.de/jenny-tavernier-schrotthandel-u-entrumplungen/) tatsächlich gelesen: Jenny Tavernier, Silzweg 38, 67374 Hanhofen, 0176 24048503; Portal behauptet Annahme/Abholung und Mindestmengen. Das ist ausschließlich ein Lead, keine Betreiberquelle; Stunden-/„geschlossen“-Widget kein Schließungsbeweis.; Quelle: https://lokaleschrottplatz.de/jenny-tavernier-schrotthandel-u-entrumplungen/]
+- [Recherche 14.10.2026: Namens-/Adressspur passt zum bereits historisch genannten Schwester-Dossier `rp-hanhofen-67374-jenny-tavernier-schrotthandel`; dieses nicht geändert. Dublette und Gleichheit des konkreten Seed-Betreibers müssen erst anhand qualifizierter Quelle geprüft werden. Malformiertes vorhandenes Straßenfeld nicht stillschweigend umgeschrieben.; Quelle: https://lokaleschrottplatz.de/jenny-tavernier-schrotthandel-u-entrumplungen/]
+- [Recherche 14.10.2026: **Ankauf:** keine eigene Vergütungs-/Kursquelle. **Verkauf:** nicht belegt. **Gebühren:** Entrümpelung/Abholung nicht pauschal kostenlos; keine Betreiberkonditionen verifiziert. Keine Kontakt-/Mengenfills. Frontmatter unverändert; Betreiberidentität und Fortbestand offen.; Quelle: https://lokaleschrottplatz.de/jenny-tavernier-schrotthandel-u-entrumplungen/]
+
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Direktabruf des lokalen Schrottplatzverzeichnisses zeigt „Jenny Tavernier Schrotthandel u. Entrümplungen“, Silzweg 38, 67374 Hanhofen, Tel. +49 176 24048503, Öffnungszeiten Mo–Fr 08–18 / Sa 09–13 und behauptete Annahme verschiedener Metalle/Altfahrzeuge mit Mindestmengen 100 kg Fe bzw. 1 kg NE. Das Portal kennzeichnet sich als Verzeichnis; weder Betreiber- noch Registerbeleg gefunden. Ein lokales Stadtbranchenbuch listet andere Betriebe an Silzweg 16/19/31, was Nr. 38 nicht widerlegt oder bestätigt. Schwesterakte `rp-hanhofen-67374-jenny-tavernier-schrotthandel.md` hat dieselbe Adresse: Dublettenprüfung vor Merge nötig. Keine Frontmatter-Änderung. ANKAUF: keine bezifferten Preise; Mindestmengen nur Aggregator-Angabe; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben; Quelle: https://lokaleschrottplatz.de/jenny-tavernier-schrotthandel-u-entrumplungen/ ; https://hanhofen.stadtbranchenbuch.com/]

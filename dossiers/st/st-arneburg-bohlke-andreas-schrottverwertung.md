@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der historische Andreas-Böhlke-Seed darf nicht automatisch zur Schrottverwertung Böhlke Verwaltungs GmbH oder zur inzwischen gelöschten KG umbenannt werden. Die amtliche UVP-Vorprüfungsbekanntgabe belegt einen Antrag der Verwaltungs-GmbH für eine Anlage in Arneburg, nicht eine erteilte Betriebsgenehmigung oder öffentliche Schrottankaufstelle. Altenzauner Str. 18 versus Osterburger Str. 7 bleibt ungeklärte Betriebs-/Registeradressfrage. Frontmatter leer und `pruefung`; keine belegten Ankauf-/Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: Kommunales Original-PDF neu heruntergeladen und textlich gelesen: Antrag der Schrottverwertung Böhlke Verwaltungs GmbH vom 04.03.2024 nach §4 BImSchG für zeitweilige Lagerung/Behandlung von Bauabfällen, Eisen- und Nichteisenschrotten in 39596 Arneburg. UVP-Vorprüfung ist keine Annahmefreigabe, Betriebsaufnahme oder Nachfolgekette zum alten Andreas-Böhlke-Eintrag. Die Angaben der Alttimeline zu KG-Löschung/Ausgliederung wurden in dieser Bearbeitung nicht durch neuen amtlichen Registerauszug zweitbestätigt. Daher keine Firmen-/Adressübernahme und kein Abschluss der Betreiberkette. Quelle: https://www.arneburg-goldbeck.de/wp-content/uploads/2025/10/24_06_Bekanntgabe_UVP-Vorpruefung_final_020925-1.pdf .]
+- [Recherche 14.10.2026: ANKAUF — genehmigungsbezogene Schrottarten sind kein belegtes vergütetes Publikumsangebot, keine Materialkurse; VERKAUF — keine Liste; GEBÜHREN — keine Tarife. Straße/Kontakte/Annahmeobjekte/GEO bleiben leer; Folgeschritt tatsächliche Anlagenzufahrt, Betreiberkette und erteilte Genehmigung. Quelle: vorgenannte Bekanntgabe.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

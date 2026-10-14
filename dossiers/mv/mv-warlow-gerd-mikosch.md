@@ -25,9 +25,14 @@ provenance_origin: table
 
 ## Überblick
 
-Die bisherige `aktiv`-Kennzeichnung war durch die dokumentierte Recherche nicht ausreichend gestützt: Importiert sind ein lokales Verzeichnis und ein Landkreis-Abfallbroschürenhinweis, aber weder eine aktuelle Betreiberquelle noch ein überprüfbarer Straßenstandort. Der Broschüreneintrag ist im Dossier ohne Ausgabedatum, Fundstelle oder URL hinterlegt. Status daher auf `pruefung` korrigiert; Telefonnummer und Leistungsbehauptung bleiben ungeprüfte Leads.
+Der bisher unidentifizierte kommunale Broschürenhinweis ist nun konkret: Der Abfallratgeber 2026 der ALP AöR nennt Autoverwertung Mikosch, Weselsdorfer Straße, 19288 Warlow, 038751 20162 und „Autoverwertung, Reifendienst, Schrottannahme“. Das ist ein qualifizierter Einzelbeleg, kein unabhängiger Zweitbeleg oder ausdrücklich vergüteter Ankauf. Hausnummer und Vorname Gerd fehlen; der Portal-Kandidat Weselsdorfer Weg 1 ist nicht bestätigt. `pruefung` bleibt, keine neue Anschrift/GEO-Freigabe.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: Neue konkrete kommunale Originalquelle tatsächlich heruntergeladen und textlich gelesen: ALP AöR, Abfallratgeber 2026, Druckseite 50 / PDF-Seite 52, „Adressen ausgewählter Entsorgungsfirmen“. Dort Autoverwertung Mikosch, Weselsdorfer Straße ohne Hausnummer, 19288 Warlow, Tel. 038751 20162; Leistungen Autoverwertung, Reifendienst, Schrottannahme. Damit ist der bisher unbelegte Broschürenhinweis präzisiert und das Seedtelefon kommunal gestützt, nicht mehr ausschließlich Portal-Lead. Vorname Gerd und Nummer 1 fehlen; Weselsdorfer Weg versus Straße bleibt offen. NorthData-Namens-/Ortssuche liefert keine Resultate, kein Nichtexistenzbeweis. Ein kommunaler Beleg allein erfüllt nicht den Zweiquellenstandard; Frontmatter unverändert. Quellen: https://alp-lup.de/media/custom/3626_100_1.PDF ; https://www.kreis-lup.de/redirect.phtml?extlink=1&La=1&url_fid=3378.1164.1 (Weiterleitung zum kommunalen Abfallwirtschaftsauftritt); https://www.northdata.de/Gerd+Mikosch,+Warlow .]
+- [Recherche 14.10.2026: ANKAUF — Schrottannahme im Ratgeber bedeutet nicht Auszahlung, keine Materialkurse. VERKAUF — Reifendienst bedeutet nicht belegten Reifen-/Teileverkauf mit Preisliste. GEBÜHREN — kommunale Abfallgebühren und Tarife anderer Firmen nicht Mikosch zuordnen; keine eigene Tarifliste geprüft. Nächster Schritt Betreiber-/Gewerbebeleg und genaue Kundenanschrift; keine Geokodierung. Quelle: https://alp-lup.de/media/custom/3626_100_1.PDF .]
 
 ### Recherche 08.10.2026 (Welle Mittenordost)
 

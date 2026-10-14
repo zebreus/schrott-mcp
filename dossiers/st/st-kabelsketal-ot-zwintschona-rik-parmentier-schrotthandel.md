@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rik Parmentier ist weiterhin nur als Verzeichnislead an Kastanienbogen 16 A, 06184 Kabelsketal-Zwintschöna mit 0345 5829437 belegt. Frühere Ausnahmefills ohne Betreiber-/Registerbeleg erfüllen den README-Zweiquellenstandard nicht. NorthData liefert bei der Namens-/Ortssuche unscharfe fremde Personen, keinen eindeutig zugeordneten lokalen Schrotthandel. Kein Betriebsschluss daraus ableiten; `pruefung`, keine aktuelle Annahme-/Ankaufkondition oder GEO-Freigabe. Keine belegten Ankauf-/Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: 11880-Kabelsketal-Ergebnis direkt gelesen: Rik Parmentier Schrotthandel, Kastanienbogen 16 A, 06184 Kabelsketal (Zwintschöna), 0345 5829437, keine Öffnungszeiten. Portalliste ist kein Betreiberbeleg; Feldzählung „Webseite (1)“ allein ist keine verifizierte Domain. NorthData-Suche Rik Parmentier/Kabelsketal bringt unscharfe Personenresultate überwiegend Belgien, keine eindeutig zugeordnete Betriebsidentität auf erster Seite. Das ist keine vollständige Register-Negativauskunft. Alte Ausnahmefills werden nicht als qualifizierte Belege fortgeschrieben; Frontmatter bleibt unverändert mit ausdrücklich offener Verifikation. Quellen: https://www.11880.com/suche/schrotthandel/kabelsketal (Lead); https://www.northdata.de/Rik+Parmentier,+Kabelsketal .]
+- [Recherche 14.10.2026: ANKAUF — Rubrik Schrotthandel ist keine Auszahlung/Annahmeliste; VERKAUF — keine Preise; GEBÜHREN — keine Konditionen. Früherer Geocodinghinweis ist kein heute ausgeführter Lauf; Betreiber-/Gewerbeauskunft und Kundenstandort offen. Quelle: vorgenannte Leadliste; keine ausreichende positive Quelle.]
 
 ### Recherche 02.10.2026
 

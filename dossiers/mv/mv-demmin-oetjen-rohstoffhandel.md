@@ -28,6 +28,11 @@ Wichtige Präzisierung: NorthData führt Oetjen Rohstoffhandel GmbH und Oetjen M
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: Neuer Detailbeleg statt nur Wiederholung des Profils: einzeln geöffnete NorthData-Publikation zur Löschung, Eintragung 6 vom 16.01.2023, nennt ausdrücklich „Die Liquidation ist beendet. Die Gesellschaft ist gelöscht.“ Profil erneut gelesen, HRB 3806 Neubrandenburg und historische Namen kongruent. Damit Löschungswortlaut dieser registerabgeleiteten Quelle geprüft; weiterhin keine amtliche unabhängige Zweitabfrage in dieser Bearbeitung. Publikation und Profil zählen als EINE Quelle. Keine Aussage über heutigen Grundstücksnutzer oder Schließung eines physischen Hofs; Hausnummer 2B weiter ungeprüft. Quellen: https://www.northdata.de/?id=6706641540481024 ; https://www.northdata.de/Oetjen+Metall-+und+Wertstoffhandel+GmbH,+Demmin/HRB+3806 .]
+- [Recherche 14.10.2026: ANKAUF/VERKAUF/GEBÜHREN — keine aktuelle dem historischen Rechtsträger zurechenbare Liste; Registergegenstand nicht als Annahmekondition verwenden. Frontmatter einschließlich Altadresse und pruefung unverändert. Folgeschritt amtlicher HRB-3806-Auszug plus heutige Gewerbe-/Grundstückszuordnung; keine Logistik-Oetjen-Namensvetter oder Koordinaten kopieren. Quellen: vorgenannte Registerspiegelquelle.]
+
 ### Recherche 11.10.2026 (Wave E)
 
 - [Recherche 11.10.2026: NorthData-Profil HRB 3806 direkt erneut gelesen: drei Namen HATRA / Oetjen Rohstoffhandel / Oetjen Metall- und Wertstoffhandel, Liquidation 28.01.2021, Löschung 16.01.2023. Es nennt nur Demmin als Adresse, keine unabhängig bestätigte Hausnummer 2B. Registergegenstand umfasst Rohstoffhandel, Gebrauchtfahrzeuge, Stahlhandel, Transporte und Erdarbeiten; daraus keine heutige Publikumsannahme oder Betreiberfortsetzung ableiten. Der Gegenstand ist auch keine aktuelle Preisquelle. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare aktuelle Liste. Geo-Sperre für Legacy-Adresse bis heutiger Grundstücks-/Betreiberbeleg; amtlicher Auszug und Gewerbeauskunft bleiben sinnvolle Folgeschritte. Quelle: https://www.northdata.de/Oetjen+Metall-+und+Wertstoffhandel+GmbH,+Demmin/HRB+3806 .]

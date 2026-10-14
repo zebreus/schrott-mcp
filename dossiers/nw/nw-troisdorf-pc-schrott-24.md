@@ -30,6 +30,12 @@ Verzeichnisse beschreiben „PC-Schrott 24“ als Computer-/E-Schrottbetrieb und
 
 ## Timeline
 
+### Recherche 14.10.2026 — Troisdorfer Verzeichnis und Plattform getrennt
+
+- [Recherche 14.10.2026: [koeln.de-Branchenverzeichnis PC-Schrott 24](https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24) direkt gelesen: Am Senkelsgraben 26, 53842 Troisdorf, 01577 5305555. Keine Betreiberidentität, eigene Website oder näheren Annahme-/Ankaufbedingungen. Ein redaktionell nicht verifiziertes Branchenverzeichnis auf einem Stadtportal ist kein kommunaler Gewerberegisterbeleg; der alte Adam-Riese-Str.-Konflikt bleibt offen.; Quelle: https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24]
+- [Recherche 14.10.2026: Tatsächliches [Schrott24-Impressum](https://www.schrott24.de/faq/impressum) gelesen: Metaloop Europe GmbH, Puchstr. 17, 8020 Graz, FN 638630m. Die Metallhandelsplattform ist nicht dem Troisdorfer „PC-Schrott 24“ zugeordnet. Domain, österreichischer Registerbezug, Plattformpreise und Leistungen nicht übertragen.; Quelle: https://www.schrott24.de/faq/impressum]
+- [Recherche 14.10.2026: Kein qualifizierter zweiter Identitätsbeleg zum Seed gefunden. Frontmatter unverändert; vorhandene Adresse/Telefon bleiben historische Leads. E-Schrottentsorgung ist kein bestätigter Ankauf; weder kostenlose Annahme noch Kaufpreise, Verkaufspreise oder Gebühren dem Zielbetreiber nachgewiesen.; Quelle: https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24 und https://www.schrott24.de/faq/impressum]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Erneute Suche nach PC-Schrott 24/Troisdorf und Am Senkelsgraben lieferte weiterhin keinen direkt erreichbaren Betreiberauftritt, Impressum oder Registerbeleg. Die gefundenen Verzeichnisse bestätigen teils die Adresse und Telefonnummer; abweichende Adress-/Telefonangaben sowie E-Mail und Öffnungszeiten einzelner Einträge bleiben unbestätigt. Kein Ankaufpreis, keine Verkaufspreisliste und keine Gebührenordnung gefunden. Frontmatter und Status unverändert; Quelle: https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Troisdorf.html ; https://www.yellowmap.de/Details/2SfWeEH34ic9qbBMp_IKYg==.aspx ; https://www.yellowmap.de/Details/PY10FxI1Lpq3K0WJgPkqkg==.aspx ; https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24]

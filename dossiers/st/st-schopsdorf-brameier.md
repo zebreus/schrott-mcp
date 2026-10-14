@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+brameier.de zeigt weiterhin nur „Wir bauen für Sie um“, © 2026 Brameier, ohne Anschrift, Verantwortlichen oder Autoverwertungsleistung. Der frühere BBS-/Schopsdorf-Kandidat aus 11880 bleibt ein Lead; Website-Erreichbarkeit ist keine verifizierte Dossier-/Betreiberidentität. Keine Standort-/Kontaktfills oder Aussage Betrieb geschlossen. `pruefung`, keine belegten Ankauf-/Verkaufspreise oder Gebühren, keine GEO-Freigabe.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: brameier.de tatsächlich neu gelesen, weiterhin allein Umbauhinweis und © 2026 Brameier. Zusätzlicher Abruf /impressum liefert HTTP 404/GitHub-Pages-Fehler, kein lesbares Händlerimpressum. Pfad wurde als Kandidat getestet, nicht als verlinktes vorhandenes Impressum behauptet. Domainnamengleichheit mit Aggregator-Mailadresse reicht nicht zum README-Zweiquellenstandard. Vorhandenes Websitefeld bezeichnet den erreichbaren Kandidaten, keine bestätigte Autoverwertungsstätte; Frontmatter unverändert. Quellen: https://brameier.de/ ; https://brameier.de/impressum (404).]
+- [Recherche 14.10.2026: ANKAUF — keine Fahrzeug-/Metallauszahlung belegbar; VERKAUF — keine aktuellen Ersatzteilangebote gelesen; GEBÜHREN — keine Abschlepp-/Entsorgungstarife. Kein Standortbetrieb oder Schließung aus Wartungsseite ableiten. Gewerbe-/Betreiberidentität und Schopsdorfer Industriestr. 7 aus Altlead bleiben offene Arbeit vor Adress-/GEO-Freigabe. Quelle: vorgenannter Domainabruf.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

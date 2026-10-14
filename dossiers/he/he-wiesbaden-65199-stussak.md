@@ -28,6 +28,13 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [Betreiberkontakt](http://schrottverwertung-fa-stussak.de/kontakt.html) tatsächlich erneut gelesen: Fa. Stussak, Thüringer Straße 27, 36284 Hohenroda (06676 918065), daneben Am Höhenweg 5, 36404 Vacha-Oberzella (036962 178828). Keine Wiesbadener Annahmestelle auf dieser Seite.; Quelle: http://schrottverwertung-fa-stussak.de/kontakt.html]
+- [Recherche 14.10.2026: Ein Rhein-Main-Einsatzgebiet aus alter Historie ersetzt keinen Standortbeleg für Wiesbaden/65199. Kontakte der anderen Orte nicht als Wiesbadener Hofdaten übernehmen; gleiche Betreiberwebsite ist nicht zwei unabhängige Quellen.; Quelle: http://schrottverwertung-fa-stussak.de/kontakt.html]
+- [Recherche 14.10.2026: **Ankauf, Verkauf, Gebühren:** aus dem Kontaktbeleg keine konkreten Leistungen, Kurse oder Tarife ableiten. Aktuelle Wiesbadener Betreiber-/Standortidentität bleibt offen; weder Umzug noch Schließung behauptet. Frontmatter unverändert, keine Primärquellen-Ausnahme.; Quelle: http://schrottverwertung-fa-stussak.de/kontakt.html]
+
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Keine Wiesbaden-spezifische Betreiber- oder Registerquelle neu aufgetaucht. Die zuvor einzeln geprüften Stussak-Seiten nennen nur Hohenroda/Vacha; Rhein-Main erscheint dort als Einzugsgebiet. Wiesbadener Suchtreffer betreffen sachfremde Anbieter oder Aggregator-Leads. Keine Adresse/Kontakte aus dem Thüringer Namensvetter übernommen; Stadt/Status unverändert, kein Merge; Quelle(n): http://schrottverwertung-fa-stussak.de/index.html ; http://schrottverwertung-fa-stussak.de/ueberuns/index.html ; http://schrottverwertung-fa-stussak.de/kontakt.html ; https://www.11880.com/suche/stussak/wiesbaden (Lead) ; https://www.gelbeseiten.de/suche/stussak/wiesbaden (Lead)]

@@ -30,6 +30,13 @@ Mehrere Branchenportale wiederholen den Lead „Ing. Norbert Szielasko Kabelzerl
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [11880-Einzelprofil](https://www.11880.com/branchenbuch/altenstadt-hessen/062392768B29597958/ing-norbert-szielasko-kabelzerlegungen-metalle.html) tatsächlich gelesen: Herrnstraße 36, 63674 Altenstadt/Waldsiedlung, 06047 2901; Kategorien u. a. Kabelmontage und Erz-/Metallgroßhandel. Kein qualifizierter Betriebs-/Annahmebeleg, keine Rücknahme der früheren Kontaktkorrektur. Aktualisierungswidget kein Fortbestandsnachweis.; Quelle: https://www.11880.com/branchenbuch/altenstadt-hessen/062392768B29597958/ing-norbert-szielasko-kabelzerlegungen-metalle.html]
+- [Recherche 14.10.2026: Neue [amtliche Kommunalwahl-PDF 2006](https://www.altenstadt.de/rathaus/wahlen-und-abstimmungen/kommunalwahl/2006/gve-ergebnis-bewerber.pdf) heruntergeladen und Text gelesen: „Szielasko, Norbert“ als Bewerber. Das ist eine historische Personenquelle, **kein Gewerbeeintrag**, keine Adresse/Rechtsform und keine unabhängige Bestätigung des Schrottbetriebs.; Quelle: https://www.altenstadt.de/rathaus/wahlen-und-abstimmungen/kommunalwahl/2006/gve-ergebnis-bewerber.pdf]
+- [Recherche 14.10.2026: **Ankauf:** Kabelzerlegung/Metallgroßhandel belegt keine vergütete Publikumsannahme. **Verkauf/Gebühren:** nicht belastbar belegt. Nächster Schritt: [offizielle Gewerberegister-Auskunft](https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_9848759), Verfahren gelesen, keine Bestellung. Leere Kontaktfelder/status unverändert; Identitäts-/Betriebsfrage offen.; Quellen: https://www.11880.com/branchenbuch/altenstadt-hessen/062392768B29597958/ing-norbert-szielasko-kabelzerlegungen-metalle.html, https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_9848759]
+
+
 ### Korrektur 05.10.2026
 
 - [Korrektur 05.10.2026: Die bisherige Adresse, Telefonnummer und Aktivitätsannahme beruhen ausschließlich auf Branchenverzeichnissen; die Recherche fand weder Betreiber-/Registerquelle noch qualifizierten kommunalen Beleg. Adresse und Telefon aus dem Frontmatter entfernt, city normalisiert, status auf pruefung gesetzt. Die früheren Werte bleiben in den Recherche- und Importnotizen als Leads sichtbar. Quelle(n): bisher dokumentierte Verzeichnis-Leads; keine qualifizierte Betreiberquelle gefunden]

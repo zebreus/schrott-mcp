@@ -28,6 +28,11 @@ NorthData führt die exakt benannte Bohnsack GmbH Schrott-Container-Abriß unter
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Korrektur 14.10.2026: Konkreter historischer Datumsfehler aus 01.10. berichtigt, ohne Althistorie zu löschen: NorthData-Profil HRB 17388 Potsdam nennt Nauener Str. 118 und aktuelle Abschlussveröffentlichung 23.02.2026 zum Geschäftsjahr 2024. Einzeln gelesene Adressbekanntmachung ist vom 15.06.2015 (Registerveränderung 12.06.2015) und nennt Nauener Straße 118, 14612 Falkensee; die 2013er Profilüberschrift nennt dagegen Wachtelfeld 7. „Nauener seit 11.04.2013“ war damit nicht zutreffend belegt. Neue registerbasierte Detailprüfung ist weiterhin nur eine Quelle; keine belegte heutige Publikumsannahme oder Dahm-&-Bohnsack-Nachfolge. Quellen: https://www.northdata.de/Bohnsack+GmbH+Schrott-Container-Abri%C3%9F,+Falkensee/Amtsgericht+Potsdam+HRB+17388+P ; https://www.northdata.de/?id=1081645011 .]
+- [Recherche 14.10.2026: ANKAUF — Registergegenstand Schrotthandel ist keine aktuelle Materialannahme-/Auszahlungsbedingung; VERKAUF — keine Liste; GEBÜHREN — Container/Abriss ohne Tarife. Frontmatter unverändert, insbesondere pruefung, vorhandenes Telefon weiterhin kein registerbestätigter Wert. Kein Geocoding oder Merge; unabhängige Betreiber-/Gewerbeprüfung bleibt erforderlich. Quellen: vorgenannter Registerspiegel.]
+
 ### Korrektur 13.10.2026 (Statusprüfung)
 
 - [Korrektur 13.10.2026: `status` aktiv → pruefung. Die bisherige Aktiv-Aufwertung stützte sich auf Register- und Verzeichnis-Konsens; nach README zählt Aggregator plus Registerquelle jedoch nicht als zwei unabhängige Belege. NorthData bestätigt den Rechtsträger HRB 17388, nicht die heutige Kundenannahme. Das Örtliche-„c/o“ bleibt ein Aggregator-Lead und belegt keine Niederlassung oder Rechtsnachfolge zu Dahm & Bohnsack (HRB 11108, AG Neuruppin). Kein Schließungsnachweis; Identität/aktuelle Tätigkeit/Annahme offen. Keine numerische Ankauf-, Verkaufspreis- oder Gebührentafel gefunden. Quellen: https://www.northdata.de/Bohnsack+GmbH+Schrott-Container-Abri%C3%9F,+Falkensee/Amtsgericht+Potsdam+HRB+17388+P ; https://www.northdata.de/Dahm+%26+Bohnsack+Handels-+und+Recycling+GmbH,+Neustadt+(Dosse)/Amtsgericht+Neuruppin+HRB+11108 ; https://www.dasoertliche.de/Themen/Dahm-Bohnsack-Handels-und-Recycling-GmbH-c-o-Falkensee-Nauener-Str .]

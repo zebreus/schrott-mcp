@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Passender Betreiber-Einzelbeleg für MVM – Metallverwertung Mudrow in Hameln gefunden, mit ausdrücklicher vergüteter Schrott-/Kabelannahme. Historische kommunale Nennung stützt den Kandidaten, ersetzt aber keinen aktuellen Gewerberegisterbeleg. Impressum und Geschäftsgrafik widersprechen sich bei der PLZ; daher noch keine Standort-/Kontaktübernahme.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Neu gefundene Betreiberwebsite MVM-Hameln/Metallverwertung Mudrow; Impressum vom Owner selbst gelesen, Geschäftsgrafik visuell geprüft. Impressum nennt Klaus und Margit Mudrow, Langes Feld 16, 31789 Hameln-Afferde, 05151 9924004, mudrow@web.de. Grafik nennt dieselbe Straße/Telefon/E-Mail, aber 31785 Hameln. Widerspruch nicht als bewiesener Grafikfehler aufgelöst. Keine Rechtsform erfunden; Kennzeichen „22 13008056“ im Impressum weder als geprüfte USt-ID noch HR-Nummer übernommen. Leere Frontmatter-Felder und bestehender Status unverändert; Quelle(n): https://www.mvm-hameln.de/ , https://www.mvm-hameln.de/Impressum.htm , https://www.mvm-hameln.de/mvm-seite.jpg ; Abruf 14.10.2026]
+- [Recherche 14.10.2026: Grafik ausdrücklich „Annahme mit Vergütung“ für Schrott, Handelsguss, Kupfer, Kabel, Messing, Zink, Blei, Aluminium und Bleiakkus. Gasflaschen, Elektroschrott, Elektrogeräte und Platinen dagegen ohne Vergütung. Kein Materialverkauf und keine Annahme von Feuerlöschern, Haushaltsmüll, Kühlschränken/Kühlaggregaten. Zeiten Mo–Mi 08–11:30 und 13–15 Uhr, Do 08–11:30 Uhr; Fr/Sa geschlossen. „Ab sofort“ ohne Kalenderdatum beweist keinen aktuellen Änderungsstand. Keine numerischen Ankaufpreise, keine Abhol-/Containerkonditionen gefunden; Angebote als Eigenangaben dokumentiert, keine Preis-/Konditionsfills; Quelle: https://www.mvm-hameln.de/mvm-seite.jpg ; Abruf 14.10.2026]
+- [Recherche 14.10.2026: Kommunales Planungsdokument zur Umgebung Südlich Langes Feld nennt auf PDF-S. 70 Metallverwertung Mudrow bei einer Stellungnahme vom 12.11.2019 und bestätigt in der Abwägung dort zulässige Metallverwertung. Historische Stütze, kein aktueller Gewerberegisterauszug; Hausnummer/Inhaber fehlen dort. Gesonderte Autoverwertung Zeaiter und Enertec nicht Mudrow zugerechnet. Betreiber-Impressum/Datenschutz/Grafik sind eine Quelle; Northdata-Abrufe lieferten nur Suchseiten, keinen Registerdatensatz. Zuordnung zum alten adresslosen Seed ist plausibel, aber nicht vollständig identitätsverifiziert. Offen bleiben zulässiger aktueller Zweitbeleg, PLZ und Aktualität; keine Schließung behauptet. Vollständiger Quellenreview: research/wave-20261014-4-mudrow-review.md; Quelle(n): https://ris.hameln.de/ris/hameln/file/getfile/69873 , https://www.mvm-hameln.de/Datenschutz.htm ; Abruf 14.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

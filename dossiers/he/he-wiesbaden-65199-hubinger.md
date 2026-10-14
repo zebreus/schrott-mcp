@@ -28,6 +28,13 @@ Die direkt erreichbare Betreiberseite identifiziert **Hübinger e.K., HRA 3884**
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [Hübinger-Impressum](https://www.abschleppdienst-huebinger.de/impressum) und [Leistungen](https://www.abschleppdienst-huebinger.de/services) tatsächlich erneut gelesen: Hübinger e. K., Holzstraße 48 A, **65197** Wiesbaden, HRA 3884, 0611 942842. Dossier-PLZ 65199/Seed-Identität nicht dadurch bestätigt; kein neuer unabhängiger Registerabruf.; Quellen: https://www.abschleppdienst-huebinger.de/impressum, https://www.abschleppdienst-huebinger.de/services]
+- [Recherche 14.10.2026: Betreiber nennt Abschleppen/Bergen/Pannenhilfe, Kran, Werkstatt, Mietwagen und Gutachten. Falschtanker-Kraftstoffentsorgung ist keine Metallannahme; Beratung zum Gebrauchtwagenkauf ist kein Autoankauf. 24-Stunden-Pannenhilfe nicht als Schrottplatz-Öffnungszeit verwenden.; Quelle: https://www.abschleppdienst-huebinger.de/services]
+- [Recherche 14.10.2026: **Ankauf:** Schrott-/Altfahrzeugvergütung nicht belegt. **Verkauf:** Dienstleistungen/Mietwagen, keine geprüften Schrott-/Teilepreise. **Gebühren:** keine belastbaren Schrotttarife. Betreiberzuordnung und PLZ-Konflikt bleiben offen; Kontakte/Adresse nicht übertragen, Frontmatter unverändert.; Quellen: https://www.abschleppdienst-huebinger.de/impressum, https://www.abschleppdienst-huebinger.de/services]
+
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - evtl. AV (Doppel-Nennung zusammengeführt)

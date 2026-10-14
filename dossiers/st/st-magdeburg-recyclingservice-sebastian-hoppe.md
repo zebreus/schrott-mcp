@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hoppe ist weiterhin nur anbieterbezogen über Verzeichnisse an Glindenberger Weg 5 / 39126 Magdeburg mit 0391 66277887 geführt; der frühere „Ausnahmefall“-Fill erfüllt die README-Quellenhierarchie nicht. BBW bestätigt aktuell in seinem eigenen Impressum Am Hansehafen 40, nicht eine heutige gemeinsame Kundenanschrift mit Hoppe. Kein belegtes BBW-/ALBA-Verhältnis und kein aktueller unabhängiger Hoppe-Betreiberbeleg. Altwerte bleiben unbestätigt, keine neue Freigabe oder GEO-Übernahme; `pruefung`. Ankauf, Verkauf und Gebühren nicht belegt.
 
 ## Timeline
+
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: Neuer zweiseitiger Gegenabgleich: BBW-Betreiberimpressum tatsächlich gelesen, BBW Recycling Mittelelbe GmbH, HRB 101822 Stendal, Am Hansehafen 40, 39126 Magdeburg, 0391 3003073. Damit alte gemeinsame Glindenberger-Weg-Notiz kein aktueller BBW-Standortbeleg; keine Hoppe-Nachfolge oder -Verlagerung daraus ableiten. NorthData-Suche Sebastian Hoppe/Magdeburg liefert unscharfe Personenresultate, auf erster Ergebnisseite keinen eindeutig zuordenbaren Recyclingservice; nicht vollständig negative Registerauskunft. Alte Portalkontakte bleiben ungeprüft. Die Behauptung vom 02.10., unabhängige Verlage seien genügend Zweitbeleg, wird ausdrücklich relativiert: zwei Aggregatoren erfüllen README nicht. Quellen: https://www.bbw-recycling.de/impressum ; https://www.northdata.de/Sebastian+Hoppe,+Magdeburg ; historische Portalquellen in Alttimeline.]
+- [Recherche 14.10.2026: ANKAUF — Recyclingrubrik beweist weder Auszahlung noch Materialannahme; VERKAUF — BBW-Baustoffangebot nicht Hoppe zuordnen; GEBÜHREN — keine Hoppe-Tarife. Keine Frontmatteränderung/Neugeokodierung; Gewerbe-/Betreiberbeleg für Hoppe und tatsächlicher Kundenstandort bleiben offene Prüfung. Quelle: vorgenanntes BBW-Impressum als Gegenquelle, kein Hoppe-Beleg.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

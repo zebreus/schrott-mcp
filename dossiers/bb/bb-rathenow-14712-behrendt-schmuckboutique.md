@@ -30,6 +30,11 @@ Die Visitenkarte von Achim Behrendt und Verzeichniseinträge nennen Goethestr. 7
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: Persönliche Regio-Visitenkarte direkt neu gelesen: Achim Behrendt, Goethestr.76, 14712 Rathenow, 03385/503710; Hauptinhalt nur „Ihre 1. persönliche Seite“, keine Boutique-/Goldankaufbeschreibung, Mailzeile ohne lesbare Adresse. Eine persönliche Karte ist ohne Betreiberzuordnung keine ausreichend verifizierte Händlerwebsite. Frühere verzeichnisgestützte Kontaktfills daher keine Freigabe nach README, trotz numerischer Übereinstimmung. Frontmatterwerte bleiben unbestätigte Altwerte, Status pruefung. Quelle: http://achim-behrendt.visitenkarte.regio.de/ .]
+- [Recherche 14.10.2026: ANKAUF — weder Edelmetallankauf noch Kurse aus persönlicher Adresse ableiten; VERKAUF — frühere Silberarmbandbewertung ist kein aktuelles Sortiment/Preisblatt; GEBÜHREN — keine Tarife. Frühere Aussage „Geocoding muss automatisch neu laufen“ ist keine hier ausgeführte Aktion oder Freigabe: keine GEO-Änderung, Betreiberidentität und heutiger Kundenstandort zuerst klären. Quelle: vorgenannte persönliche Karte; ältere Portalfundstellen bleiben Althistorie.]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Erneute Prüfung der zu Goethestr. 76 passenden Treffer fand weiterhin keinen aktuellen Betreiberauftritt oder Registerbeleg. Die persönliche Visitenkarte nennt Achim Behrendt an der Anschrift, Cylex führt eine Schmuckboutique Behrendt; die Betreiberzuordnung und heutige Öffnung bleiben damit nicht unabhängig belegt. Eine ältere Bewertung zum Silberarmband weist keinen Ankaufkurs aus und belegt keinen Schrott-/Metallankauf. Bestehende Lead-Kontaktdaten bleiben als solche markiert, Status `pruefung`. ANKAUF — kein verifizierter Ankaufpreis; VERKAUF — keine Schmuckpreisliste; GEBÜHREN — keine Angaben. Quellen: http://achim-behrendt.visitenkarte.regio.de/ ; https://web2.cylex.de/firma-home/schmuckboutique-behrendt-3784824.html ; https://rathenow-bb.sind-sie-sicher.info/jewelry (Verzeichnis-/Visitenkarten-Leads; Abruf 12.10.2026).]

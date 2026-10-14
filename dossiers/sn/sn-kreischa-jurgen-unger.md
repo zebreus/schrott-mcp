@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ungeklärter Verzeichnisfall für Rohstoffrückgewinnung in Kreischa/Lungkwitz. Die importierte Adresse und Materialannahme sind bisher nur Aggregator-Leads, keine unabhängig verifizierten Betriebsdaten. Die kommunale Firmensuche ist als neue Prüfroute gefunden, liefert im bisherigen Abruf aber keine auswertbare Trefferliste; aktueller Betrieb und Ankauf bleiben offen.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Erneute Namens-/Adresssuche nach Jürgen Unger, Kreischa, Grundstraße 1 und Rohstoffrückgewinnung liefert weiterhin nur Verzeichnis-/Schrottportal-Leads. Gezielte Suche nach Northdata/Creditreform sowie auf kreischa.de und landratsamt-pirna.de ohne auswertbaren Betriebs-/Registerbeleg. Kein Betreiberauftritt, kein numerischer Ankaufpreis und keine bestätigte Identitätskette gefunden. Mehrere Verzeichnisfundstellen sind nicht mehrere zulässige Quellen; weder Schließung noch aktuelle Aktivität aus fehlenden Treffern abgeleitet. Keine neuen Frontmatter-Fills oder Namensvetter-Zuordnung; importierter Bestand bleibt als ungeprüfter historischer Wert erhalten; Quelle(n): Websuche „Jürgen Unger Kreischa Schrott Grundstraße“, „Jürgen Unger Kreischa Northdata Creditreform“, „Unger Schrott site:kreischa.de“, „Unger Kreischa Rohstoff site:landratsamt-pirna.de“; Abruf 14.10.2026]
+- [Recherche 14.10.2026: Neue kommunale Prüfroute tatsächlich gelesen: Kreischa-Wirtschaftsseite verlinkt Firmensuche mit A–Z- und Ortsteilfiltern, darunter Lungkwitz. Abruf der Firmensuche sowie Suchformular-Anfragen zu U und Lungkwitz lieferten lediglich Suchmaske/Kategorien, keine auswertbare Ergebnisliste. Deshalb ausdrücklich KEIN amtlicher Negativnachweis und kein kommunaler Zweitbeleg für Unger. Rathausadresse, Rathausöffnungszeiten und Gemeindetelefon gehören nicht zum Händler und werden nicht übertragen. Offen: korrekt auswertbare kommunale Trefferliste oder Betreiber-/Registerbeleg; Quelle(n): https://www.kreischa.de/inhalte/kreischa/_inhalt/wirtschaft/wirtschaft , https://www.kreischa.de/inhalte/kreischa/_inhalt/wirtschaft/firmen-neu/gewerbesuche ; Abruf 14.10.2026]
 
 ### Recherche 01.10.2026
 

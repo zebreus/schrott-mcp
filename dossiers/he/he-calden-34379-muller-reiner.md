@@ -28,6 +28,13 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [11880-Einzelprofil](https://www.11880.com/branchenbuch/calden-hessen/060440090B27705242/reiner-mueller-schrott-und-metallhandel.html) tatsächlich als Fortbestands-/Kontaktlead gelesen; aktuelle Portalspur führt Oberweg 19 A, 34379 Calden, 05674 887, daneben 05674 7606. Weitere Nummer nicht als verifizierte Telefon-/Faxnummer importieren; historische Hausnummernabweichung 19/19 A bleibt ungeklärt.; Quelle: https://www.11880.com/branchenbuch/calden-hessen/060440090B27705242/reiner-mueller-schrott-und-metallhandel.html]
+- [Recherche 14.10.2026: Portal-Kategorien Altmaterial-/Schrotthandel, Metallware/Armaturen/Maschinenteile sind kein eigener Betreiberbeleg. Portaldatum/automatische FAQ „vom Inhaber bestätigt“ nicht als konkrete Bestätigung dieses Eintrags behandeln. Die alte aus zwei Portalen hergeleitete „Doppelbeleg“-Freigabe wird durch diese Nachprüfung nicht bestätigt.; Quelle: https://www.11880.com/branchenbuch/calden-hessen/060440090B27705242/reiner-mueller-schrott-und-metallhandel.html]
+- [Recherche 14.10.2026: **Ankauf/Verkauf/Gebühren:** keine eigene Vergütungs-, Verkaufs- oder Tarifquelle. [Amtliche hessische Gewerberegister-Auskunftsroute](https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_9848759) gelesen, keine Auskunft bestellt. Betreiberidentität/Fortbestand und qualifizierter Zweitbeleg offen; bestehende Frontmatterwerte unverändert, nicht neu freigegeben.; Quelle: https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_9848759]
+
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kleinst-Schrotthändler

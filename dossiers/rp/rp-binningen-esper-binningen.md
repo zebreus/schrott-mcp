@@ -28,6 +28,13 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [Offizielle Gemeinde Binningen](https://www.binningen.de/) tatsächlich gelesen: Rheinland-Pfalz/Landkreis Cochem-Zell, seit 01.07.2014 Verbandsgemeinde Kaisersesch. Damit korrekte kommunale Klärroute gefunden; keine Schweizer Gemeinde oder Hilzingen/BW als Standortersatz verwenden.; Quelle: https://www.binningen.de/]
+- [Recherche 14.10.2026: Homepage enthält keinen konkreten Esper-Gewerbe-/Betreiberbeleg. Das ist keine vollständige Registersuchenegative und kein Schließungsbeweis. Historische Hauptstraße-56-Spur und malformierter Seed-Straßenwert werden nicht anhand bloßer Ortsgleichheit korrigiert.; Quelle: https://www.binningen.de/]
+- [Recherche 14.10.2026: **Ankauf, Verkauf, Gebühren:** keine belastbare Betreiberquelle gefunden. Nächste Arbeit: Auskunft zur exakten Firmenidentität über zuständige Gewerbebehörde/Kaisersesch; keine Anfrage ausgelöst. Frontmatter unverändert, aktuelle Tätigkeit und Identität offen.; Quelle: https://www.binningen.de/]
+
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Hauptstr. 56

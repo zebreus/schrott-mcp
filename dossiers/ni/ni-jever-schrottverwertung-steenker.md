@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiber-Einzelbeleg für Schrott-/Metallankauf in Jever mit Abholung, Containern und separaten Fahrzeugtransporten. Die bisherige unabhängige Identitätsprüfung bleibt offen; deshalb keine Übernahme der noch leeren Standort-/Kontaktfelder. Veröffentlichte Kilometer- und Ladepauschalen sind Transportkosten, keine Ankaufpreise.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Impressum und Leistungsseiten erneut gelesen: Schrottverwertung Steenker/Steenker GbR, Am Hillernsen Hamm 41–43, 26441 Jever, 04461-2142; Mo–Fr 08–17 Uhr, Samstag nach telefonischer Vereinbarung. Die USt-ID DE321519009 ersetzt keinen live bestätigten Registereintrag. E-Mail im aktuellen Textabruf maskiert; die frühere HTML-Dekodierung bleibt als historischer Befund erhalten, wird nicht als heute erneut dekodiert ausgegeben. Gezielte kommunale/Registersuchen zu Steenker/Jever bei Jever, Friesland und Creditreform ergaben keinen verwertbaren unabhängigen Zweitbeleg. Das ist kein Schließungsnachweis; kein neuer Orts-/Namenswiderspruch. Frontmatter einschließlich bestehendem status bleibt unverändert; Quelle: https://www.schrottverwertung-steenker.de/impressum/ ; Abruf 14.10.2026]
+- [Recherche 14.10.2026: Recyclingseite bestätigt als Eigenangabe Stahl-/Metallankauf, darunter Kabel, Kupfer, Messing, Aluminium und V2A; sortenreine kleine Mengen ohne Anhaftungen werden kilogrammgenau vergütet. Kostenfreie Schrott-/Metallabholung für Haushalte, Gewerbe und öffentliche Einrichtungen sowie kostenlose Absetzcontainer sind Betreiberangebote, keine allgemein verifizierte kostenlose Transportleistung; Demontage/Brennarbeiten kostenpflichtig. Keine numerische Metall-Ankaufpreisliste gefunden, keine Konditionsfelder gefüllt; Quelle: https://www.schrottverwertung-steenker.de/unsere-dienstleistungen/schrott-recyling/ ; Abruf 14.10.2026]
+- [Recherche 14.10.2026: Transporttarif tatsächlich erneut gelesen: 0,90 EUR je gefahrenem Kilometer für Standort–Abholort–Lieferort–Standort, Ladepauschale 10 EUR für nicht fahrbereite, aber rollfähige Fahrzeuge; jeweils zusätzlich gesetzlicher Mehrwertsteuer. Sonderpreise bei mehreren Fahrzeugen nach Vereinbarung. Kein datierter Gültigkeitsstand. Beide Zahlen sind Gebühren für Fahrzeugtransporte, weder Schrottpreise noch Abholvergütungen; deshalb kein Preisimport/Handler aus diesen Zahlen abgeleitet; Quelle: https://www.schrottverwertung-steenker.de/unsere-dienstleistungen/transporte-von-pkw-trecker-baumaschinen/ ; Abruf 14.10.2026]
 
 ### Recherche 04.10.2026
 

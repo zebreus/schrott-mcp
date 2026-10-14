@@ -28,6 +28,13 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [11880-Einzelprofil](https://www.11880.com/branchenbuch/alsfeld/060440459B52803024/eduard-doerr-autoverwertung.html) tatsächlich frisch gelesen: Eduard Dörr, Altenburger Straße 78, 36304 Alsfeld, 06631 919565; keine Betreiberwebsite/E-Mail hinterlegt. Weitere Nummer 06631 919567 nicht als gesicherten Kontakt ergänzen. Portaldatum 02.10.2026/Eintragsdaten 24.07.2021 belegt keinen aktiven Geschäftsbetrieb.; Quelle: https://www.11880.com/branchenbuch/alsfeld/060440459B52803024/eduard-doerr-autoverwertung.html]
+- [Recherche 14.10.2026: Frühere Portalwerte bleiben als Bestandswerte erhalten, aber diese Nachprüfung erhebt sie ausdrücklich **nicht** zu zwei qualifizierten Quellen. Betreiberidentität, aktuelle Tätigkeit und Zertifizierung bleiben offen.; Quelle: https://www.11880.com/branchenbuch/alsfeld/060440459B52803024/eduard-doerr-autoverwertung.html]
+- [Recherche 14.10.2026: **Ankauf/Verkauf/Gebühren:** Portal-Kategorie Autoverwertung belegt weder Autoankauf noch Teileverkauf, Gratisabholung oder Annahmetarif; keine Preisquelle. [GESA](https://www.altfahrzeugstelle.de/) und [Fachbetrieberegister](https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung) aufgerufen; JavaScript-Suchanwendung, kein auswertbarer Dörr-Einzelbefund. Keine Negativ-Zertifikatsaussage, Frontmatter unverändert.; Quellen: https://www.11880.com/branchenbuch/alsfeld/060440459B52803024/eduard-doerr-autoverwertung.html, https://www.altfahrzeugstelle.de/, https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (nur Anwendungsseite, kein Einzelbefund)]
+
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Klein-AV?

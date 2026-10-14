@@ -30,6 +30,13 @@ Zwei Branchenverzeichnisse nennen „Pagel Jürgen Autohandel“ bzw. „Jürgen
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: Neuer tatsächlich gelesener Primärbeleg zur früheren Adressspur: [Hanna GmbH, Impressum](https://hannagmbh.com/impressum/) nennt Wiesbadener Landstraße 16, 65203 Wiesbaden, Dr. Bassam Hanna und HRB 33135/Wiesbaden. Das ist ein anderer Betreiber (Luftfracht/Logistik), kein Pagel-Beleg und keine belegte Nachfolge. Mehrfachbelegung oder ein früherer Pagel-Betrieb werden dadurch weder bestätigt noch ausgeschlossen.; Quelle: https://hannagmbh.com/impressum/]
+- [Recherche 14.10.2026: Pagel bleibt ohne qualifizierten aktuellen Betreiber-/Registerbeleg; historische widersprüchliche Telefonnummern nicht übernehmen. **Ankauf, Verkauf und Gebühren:** für Pagel nicht belastbar belegt; kein Autohandel-Lead als Schrottankauf ausgeben.; Quelle: https://hannagmbh.com/impressum/]
+- [Recherche 14.10.2026: [Offizielle hessische Gewerberegister-Auskunft](https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_9848759) tatsächlich gelesen: zuständig ist die Gemeinde; einfache Auskunft umfasst Name, Anschrift und Tätigkeit. Dies ist nur die nächste Klärroute, keine erteilte Auskunft. Keine Anfrage/Bestellung ausgelöst. Frontmatter bleibt unverändert; Identität und Fortbestand offen.; Quelle: https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_9848759]
+
+
 ### Evidenzprüfung 08.10.2026 (Welle Mittenordost)
 
 - Die früheren allgemeinen Negativsuchen sind durch den konkreten Autohandel-Lead aus 06.10. überholt, aber dieser ist weiterhin kein Beleg für Schrott/Autoverwertung. Wiesbadener Landstraße 16 mit 0611 61819 versus 0611 47393 nicht übernehmen; zwei Verzeichnisse erfüllen den README-Standard nicht. Vorrecherche/Leads: https://www.gelbeseiten.de/suche/pagel/wiesbaden ; https://www.azdeutschland.com/firma/jurgen_pagel_wiesbaden_he_wiesbadener_landstr_16

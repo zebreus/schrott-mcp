@@ -28,6 +28,14 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [Schrottpreis.org/Main-Tauber](https://www.schrottpreis.org/autoverwertung-in-main-tauber-kreis/) tatsächlich gelesen: SK Reifen/Teile/Zubehör US-Car Sven Krug, Bischofsheimer Straße 7, 97947 Grünsfeld, 09346 928579; Demontage-/Verwertungsnachweisbehauptung bleibt Aggregatorlead. Die frühere Freigabe aus Seed plus Portal ist kein README-konformer Zwei-Quellen-Beleg/keine Primärquellen-Ausnahme.; Quelle: https://www.schrottpreis.org/autoverwertung-in-main-tauber-kreis/]
+- [Recherche 14.10.2026: **Ankauf:** Preiswidget auf derselben Seite ausdrücklich „powered by schrott24“, mit Schrott24-/Affiliate-Verweisen und Konditionen. Weder angezeigte Metallkurse noch Portal-Koordinaten dem Krug-Betrieb zurechnen. **Verkauf:** Name/Teilekategorie ersetzt keine eigene Teilepreisliste. **Gebühren:** keine geprüften Krug-Annahme-/Abholtarife.; Quelle: https://www.schrottpreis.org/autoverwertung-in-main-tauber-kreis/]
+- [Recherche 14.10.2026: [Offizielle GESA-Seite](https://www.altfahrzeugstelle.de/) und [Fachbetrieberegister](https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung) tatsächlich aufgerufen; Register liefert hier nur JavaScript-Anwendung, keinen auswertbaren Krug-Einzelbefund. Zertifizierung weder bestätigt noch verneint. Hersteller-Altfahrzeugrücknahme nicht mit positivem Autoankauf oder generell kostenfreier Abholung gleichsetzen.; Quellen: https://www.altfahrzeugstelle.de/, https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (nur Anwendungsseite, kein Einzelbefund)]
+- [Recherche 14.10.2026: Frontmatter unverändert; aktueller Betreiber-/Registerbeleg, Zertifikat und konkrete Publikumsannahme bleiben offen. Keine Händler-/GEO-Freigabe aus dieser Nachprüfung.; Quellen: https://www.schrottpreis.org/autoverwertung-in-main-tauber-kreis/, https://www.altfahrzeugstelle.de/]
+
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Einzige inhaltliche Quelle schrottpreis.org (Aggregator, beruft sich auf AltfahrzeugV-Verzeichnis): Bischofsheimer Str. 7, 97947 Grünsfeld, Tel. 09346/928579, Demontagebetrieb — Adresse identisch mit Seed, daher als begründete Ausnahme übernommen (Seed + 1 Verzeichnis, offen dokumentiert). Kein Betreiber-Auftritt (reifen-krug.de = fremder Betrieb, SK Reifen GmbH Mannheim = fremde Firma), kein HR-/Kommunalbeleg, Telefon damit Einzelbeleg — weiter pruefung. trader_type auf autoverwertung präzisiert (Demontagebetrieb). Quelle(n): https://www.schrottpreis.org/autoverwertung-in-main-tauber-kreis/ (Einzelbeleg)]

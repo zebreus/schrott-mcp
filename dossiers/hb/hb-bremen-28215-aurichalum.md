@@ -24,11 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Die vorhandenen Quellen belegen nur einen historischen Firmennamen „Aurichalum GmbH“ und eine frühere Adresse Findorffstr. 46/48, Bremen. Ein Registerspiegel führt die GmbH als gelöscht; ein aktueller Betreiber, Metallhandel oder eine Fortführung/Nachfolge ist nicht identifiziert. Die geocodierte Straße und heutige Nachbarschaft belegen keine Geschäftstätigkeit. Daher bleibt `pruefung`; keine Schließung eines konkreten Annahmehofs und keine Nachfolge behauptet.
+Der Registerspiegel identifiziert eine historische „aurichalum GmbH“, Bremen, HRB 26550, mit dem Zweck Einzelhandel mit Edelmetallen und Antiquitäten. Die Löschungsveröffentlichung vom 01.03.2013 meldet abgeschlossene Liquidation und Erlöschen der Firma. Die Zuordnung zur Seed-Anschrift Findorffstr. 46/48 ist damit noch nicht unabhängig bestätigt; ein aktueller Betreiber oder Nachfolger fehlt. Daher bleibt `pruefung`: Löschung dieser GmbH, aber keine belegte Schließung eines konkreten Schrottannahmehofs. Edelmetall-Einzelhandel ist kein Nachweis von Schrottankauf.
 
 **Preise:** keine aktuelle Ankauf-, Verkaufs- oder Gebührenliste auffindbar; für diesen Kandidaten ist auch keine aktuelle Metallleistung bestätigt.
 
 ## Timeline
+
+### Recherche 14.10.2026 — Registerhistorie konkretisiert
+
+- [Recherche 14.10.2026: [Northdata-Firmenprofil](https://www.northdata.de/Aurichalum%20GmbH,%20Bremen/Amtsgericht%20Bremen%20HRB%2026550) vollständig gelesen: aurichalum GmbH, Bremen, Amtsgericht Bremen HRB 26550, EUID DEH1101.HRB26550HB; Zweck „Der Einzelhandel mit Edelmetallen und Antiquitäten“, Liquidationsereignis 29.07.2011. Das Profil nennt nur Bremen, nicht die Seed-Straße.; Quelle: https://www.northdata.de/Aurichalum%20GmbH,%20Bremen/Amtsgericht%20Bremen%20HRB%2026550]
+- [Recherche 14.10.2026: Die verlinkte [Registerveröffentlichung zur Löschung](https://www.northdata.de/?id=13094054) direkt gelesen: Veröffentlichung 01.03.2013, Registerbekanntmachung „Löschungen, 28.02.2013“, HRB 26550 HB, D-28215 Bremen; „Die Liquidation ist beendet. Die Firma ist erloschen.“ Veröffentlichungs-/Bekanntmachungsdatum nicht als Hof-Schließungsdatum umgedeutet. Profil und Meldung sind dieselbe Quellenfamilie, keine zwei unabhängigen Belege.; Quelle: https://www.northdata.de/?id=13094054]
+- [Recherche 14.10.2026: [Registercheck-Link](https://www.registercheck.de/companies/aurichalum-gmbh) diesmal HTTP 429, nicht frisch inhaltlich verifiziert. Kein Nachfolger oder aktueller Schrottbetrieb identifiziert. Keine PLZ aus der historischen Registermeldung in das offene Frontmatter übertragen; Findorffstr.-Zuordnung offen. Ankauf, Verkauf und Gebühren eines heutigen Zielbetriebs unbelegt; keine Preisübernahme.; Quelle: https://www.northdata.de/?id=13094054; Abrufversuch (429): https://www.registercheck.de/companies/aurichalum-gmbh]
 
 ### Recherche 03.10.2026 (Gesamtaudit B)
 

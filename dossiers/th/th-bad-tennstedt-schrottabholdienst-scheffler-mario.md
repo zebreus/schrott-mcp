@@ -30,6 +30,11 @@ Ein Schrottplatzverzeichnis nennt Am Kirchtal 5, 99955 Bad Tennstedt und Telefon
 
 ## Timeline
 
+### Recherche 14.10.2026 (Welle 4 — Shard C)
+
+- [Recherche 14.10.2026: Historische Betreiberanzeige erneut als Original-PDF abgerufen und textlich kontrolliert: PDF-Seite 30, Weihnachtsgrüße für 2012 und Praxisurlaub 27.–31.12.2011 verorten die Ausgabe konkret Ende 2011. „Fa Scheffler Tel.: 036041-33281“, sofortige Barzahlung und Mindestabholung 100 kg bleiben historische Eigenwerbung, weder Mario-Vollname noch Am Kirchtal 5 oder Fortbestand 2026 sind daraus bewiesen. Amtliches LAWP-2018-PDF erneut HTTP 403, Tabellenzeile unverifiziert; keine Suchauszüge als vollständig gelesenen Behördenbeleg ausgeben. Quellen: https://www.greussen.info/images/gaz/gaz220.pdf ; https://umwelt.thueringen.de/fileadmin/001_TMUEN/Unsere_Themen/Abfallwirtschaft/lawp-fortschreibung-2018.pdf (403).]
+- [Recherche 14.10.2026: ANKAUF — historische Auszahlung belegt, „Super Abholpreise“ ohne Zahlen; VERKAUF — benachbarte Kleinanzeigen nicht der Fa Scheffler zuordnen; GEBÜHREN — keine heutige Abhol-/Annahmegebühr bestätigt. Keine historischen Mindestmengen in aktuelle Bedingungsfelder übertragen. Frontmatter unverändert; aktuelle Gewerbe-/Standortprüfung offen. Quelle: https://www.greussen.info/images/gaz/gaz220.pdf .]
+
 ### Recherche 11.10.2026 (Wave E — historische Primärspur)
 
 - [Recherche 11.10.2026: Firmenanzeige auf PDF-Seite 30 in gaz220.pdf direkt textlich gelesen: „Fa Scheffler Tel.: 036041-33281“, Schrott = Bargeld, Abholung ab mindestens 100 kg, sofortige Barzahlung und Kran. Ausgabe durch Weihnachts-/Jahreswechselanzeigen und Veranstaltung 16.11.2011 als Ende 2011 einzuordnen. Primärquelle für die damalige Eigenwerbung, nicht aktueller Betrieb oder Am Kirchtal 5; kein Kontakt-/Bedingungsfill. Quelle: https://www.greussen.info/images/gaz/gaz220.pdf .]

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: tot
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -29,6 +29,13 @@ provenance_origin: table
 **Preise:** **Ankauf** — kein aktueller Ankauf oder Kurs dem Bremer Betrieb zugeordnet. **Verkauf** — keine Liste. **Gebühren** — keine Abhol-, Abschlepp- oder Entsorgungstarife belegt. Seed-Adresse und Kontakt nicht geokodieren, bis Identität bestätigt ist.
 
 ## Timeline
+
+### Recherche 14.10.2026 — fremde Betreiber gelesen, Seed weiterhin offen
+
+- [Recherche 14.10.2026: [Altun-Service-Rechtsseite unter `/impressum/`](https://altunservice.de/impressum/) direkt gelesen; der tatsächlich gelieferte Inhalt ist Datenschutz mit Verantwortlichem Altun Service GmbH/Burak Altun, Alter Rückinger Weg 43a, 63452 Hanau, 0175 2334120. Kein Bremer Betreiberbeleg; alte Namensvetterabgrenzung gestützt, aber die Seitenüberschrift nicht fälschlich als neu gelesenes vollständiges Impressum ausgegeben.; Quelle: https://altunservice.de/impressum/]
+- [Recherche 14.10.2026: [Schrotthändler Bremen](https://schrotthaendler-bremen.de/) und dessen [Impressum](https://schrotthaendler-bremen.de/impressum) gelesen: „Service rund ums Haus Team“, Yasin Akgül, Arberger Heerstraße 107, 28307 Bremen, 0177 3629556. Andere Identität/Adresse; Abholwerbung und Kontakte nicht dem Altun-Seed zugeordnet.; Quelle: https://schrotthaendler-bremen.de/ und https://schrotthaendler-bremen.de/impressum]
+- [Recherche 14.10.2026: Suchtreffer [Auftragsbank/Bremer Recycling Service](https://www.auftragsbank.de/firmen/bremer-recycling-service/73292) nennt Mohamed Altun und eine andere Bremer Anschrift; Direktabruf HTTP 403. Nicht inhaltlich gelesen, nur unbestätigter Namenslead, kein qualifizierter Beleg oder bestätigter Nachfolger.; Quelle: https://altunservice.de/impressum/ (Namensvetterabgrenzung); Suchtreffer/Abrufversuch (403, nicht inhaltlich gelesen): https://www.auftragsbank.de/firmen/bremer-recycling-service/73292]
+- [Recherche 14.10.2026: Nichtleerfeldänderung ausdrücklich: `website_status: tot` → `unbekannt`, da keine Seed-Website eingetragen oder als tot nachgewiesen ist. Das ist eine Unsicherheitskorrektur, keine Wiedereröffnung/Bestätigung des Unternehmens. Frontmatter sonst unverändert; Grönlandstr.-Zuordnung und Betreiber bleiben offen. Keine zugeordneten Ankauf-/Verkaufspreise oder Gebühren; fremde Abholdienste nicht zusammengeführt.; Quelle: https://altunservice.de/impressum/ und https://schrotthaendler-bremen.de/impressum]
 
 ### Recherche 08.10.2026
 

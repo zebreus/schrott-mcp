@@ -6,12 +6,12 @@ state: NI
 city: Jever
 street: ''
 postcode: ''
-phone: '04461 965331'
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Offener Orts-/Identitätsklärfall: Die Betreiberwebsite von Thomas Brosda nennt Altmetallankauf in Wangerland/Wiefels, nicht Jever. Der bisherige Verzeichnisbeleg verbindet diese Orte nicht ausreichend. Keine Schließung oder Verlegung bewiesen; Kontaktdaten und Leistungen bleiben als Betreiber-Einzelbeleg in der Timeline.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Korrektur 14.10.2026: Impressum erneut gelesen: Thomas Brosda/Brosda Altmetallhandel, Fuhlrieger Allee 1, 26434 Wangerland/Wiefels, 04461-965331, vsbrosda@aol.com. Der Telefonwert aus der Recherche 30.09.2026 ist zwar betreiberkongruent, aber Gelbe Seiten, Das Örtliche und 11880 sind nach README nur Leads, keine unabhängigen Belege. Deshalb strukturiertes Telefon geleert; der Wert bleibt hier und in der unveränderten Alttimeline erhalten. Jever-Zuordnung weiterhin nicht geklärt: status von aktiv auf pruefung gesetzt, ohne Slug-/City-Wechsel, Zusammenlegung, Umzugs- oder Schließungsbehauptung. Leere Adress-/Website-/Konditionsfelder bleiben leer; Quelle: http://www.brosda.com/impressum/ ; Abruf 14.10.2026]
+- [Korrektur 14.10.2026: Die ältere Aussage „kein HRB“ beweist keine Registerfreiheit. Das Impressum behauptet einen Handelsregistereintrag mit „DT01-14 90027“, nennt aber kein Registergericht und keine konventionelle HRA-/HRB-Kennung. Diese Angabe ist nicht unabhängig geprüft und wird weder als bestätigter Registereintrag noch als Zertifikat interpretiert; Betreiber-Ausnahme daher nicht belegt. Gezielte Register-/Kommunalsuchen nach Thomas Brosda und Brosda/Fuhlrieger Allee in Wangerland/Friesland ergaben keinen verwertbaren Zweitbeleg. Fehlende Treffer beweisen keine Nichtexistenz; Quelle: http://www.brosda.com/impressum/ ; Abruf 14.10.2026]
+- [Recherche 14.10.2026: Betreiber nennt Ankauf von Privat und Gewerbe, Barauszahlung gegen gültigen Personalausweis; Preise nur auf Anfrage. Genannt werden Alteisen, Schwerschrott, Aluminium/Alukabel, Blei, Elektromotoren, Kupfer/Kupferkabel, Messing, Rotguss, VA-Stahl, Zink, Zinn sowie Pb-Batterien/Akkumulatoren. Ausdrücklich keine Kühlgeräte und Bildschirme. LKW-/Kranmuldenabholung und Container sind Eigenangaben ohne numerischen Tarif oder pauschales Gratisversprechen. Autoteile-/Reifenverkauf ist kein Schrottankaufpreis; Bild-Cache-Zeitstempel sind kein datierter Fortbestandsbeleg. Keine Preise oder Bedingungen importiert; Quelle(n): http://www.brosda.com/wir-kaufen/ , http://www.brosda.com/leistungen/ , http://www.brosda.com/autoteile-zubeh%C3%B6r/ ; Abruf 14.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

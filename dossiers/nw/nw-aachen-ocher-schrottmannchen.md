@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Öcher Schrottmännchen ist weiterhin nur über historische Verzeichnisangaben und eine nicht als Betreiber verifizierte Kleinanzeige greifbar. Eingetragene Adresse, Telefon und Zeiten bleiben Altdaten/Leads, keine am 14.10. bestätigten Betriebsangaben. Die Anzeige bewirbt kostenlose Altmetallabholung und Ankauf von NE-Metallen beziehungsweise größeren Eisenmengen, identifiziert den rechtlichen Anbieter aber nicht. Keine öffentlich bestätigte stationäre Annahme, numerische Ankaufspreise, Verkaufspreise oder Gebührenordnung; `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 14.10.2026 — Kleinanzeige ist kein verifizierter Betreiberbeleg
+
+- [Recherche 14.10.2026: [Findix-Anzeige „Das Öcher Schrottmännchen“](https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen) direkt gelesen: Anzeige 00808165 von Nutzer „hillracer“, Aachen/Umland, kostenlose Altmetallabholung, Ankauf NE-Metalle und größere Eisenmengen, daneben Rasenmähen/Entrümpeln/Aufräumen. Kein belastbares Veröffentlichungsdatum oder überprüfter rechtlicher Betreiber aus dem Inhalt.; Quelle: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen]
+- [Recherche 14.10.2026: Plattformetiketten „Preis auf Anfrage“/„Kostenlos abzugeben“ sind Kleinanzeigen-Kategorien, keine Schrottankaufskurse oder vollständige Gebührenordnung. Kein Nachweis für die frühere Inhaberzuordnung zu Stefan Hillmann; anonymer Nutzername und Leistungen ersetzen kein Impressum oder qualifizierten Zweitbeleg.; Quelle: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen]
+- [Recherche 14.10.2026: Weitere Namenssuchen ohne zuordenbare qualifizierte Bestätigung. Historische Kontaktdaten/Zeiten bewahrt, aber nicht erneut freigegeben; kein Telefon-/Zeitfill und keine öffentliche Anlieferung aus der Abholanzeige abgeleitet. Ankaufwerbung bleibt unbestätigter Lead, Verkauf und tatsächliche Gebühren offen.; Quelle: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen]
 
 ### Recherche 03.10.2026 (Owner-Gate)
 

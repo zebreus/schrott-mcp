@@ -28,6 +28,13 @@ Klärfall auf Basis von Branchenbuch-Leads: 11880 führt „Heinrich Kuhn Alt- u
 
 ## Timeline
 
+### Recherche 14.10.2026 — Welle 4 / Shard B
+
+- [Recherche 14.10.2026: [11880-Einzelprofil](https://www.11880.com/branchenbuch/eschborn-taunus/060440090B100226494/heinrich-kuhn-alt-und-abfallstoffe.html) tatsächlich frisch gelesen: Heinrich Kuhn Alt- und Abfallstoffe, Niddastraße 11, 65760 Eschborn, 06196 42561. Dort keine Betreiberwebsite/E-Mail. Kategorien Altmaterial-/Schrotthandel bleiben Portalspuren; Datum 03.10.2026/Eintragsdaten 29.06.2021 ist kein aktueller Betreiberbeleg.; Quelle: https://www.11880.com/branchenbuch/eschborn-taunus/060440090B100226494/heinrich-kuhn-alt-und-abfallstoffe.html]
+- [Recherche 14.10.2026: Vorhandene Adress-/Telefonwerte unverändert, aber nicht durch diese erneute Portalprüfung qualifiziert. Kein kommunaler Wertstoffhof an anderer Adresse und dessen Bedingungen mit Kuhn zusammenführen.; Quelle: https://www.11880.com/branchenbuch/eschborn-taunus/060440090B100226494/heinrich-kuhn-alt-und-abfallstoffe.html]
+- [Recherche 14.10.2026: **Ankauf/Verkauf/Gebühren:** keine eigene Preis-/Vergütungs-/Annahmekonditionenquelle. Die tatsächlich gelesene [amtliche Gewerberegister-Auskunftsroute](https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_9848759) eröffnet die nächste Identitätsprüfung, ersetzt keine Auskunft. Keine Bestellung ausgelöst; qualifizierter Zweitbeleg/Fortbestand offen, Frontmatter unverändert.; Quellen: https://www.11880.com/branchenbuch/eschborn-taunus/060440090B100226494/heinrich-kuhn-alt-und-abfallstoffe.html, https://verwaltungsportal.hessen.de/leistung?leistung_id=L100001_9848759]
+
+
 ### Einordnung 09.10.2026
 
 - [Recherche 09.10.2026: Vorrecherche nennt Heinrich Kuhn Alt- und Abfallstoffe, aber keinen Primärbeleg. Neue Kuhn/Eschborn/Alt-Abfrage ohne Resultate ist kein Betriebsaufgabebeleg. An-/Verkauf von Altstoffen, kostenpflichtige Entsorgung und konkrete Metallannahme müssen getrennt geklärt werden; trader_type sonstige deshalb nicht ohne Betreiberbeleg in Schrotthandel ändern. Ortsfremde Kuhn-Recyclingbetriebe und Thorsten Kuhn nicht zuordnen. Nächster Schritt Inhaber-/Gewerbeabgleich Niddastraße 11, danach Kundentyp/Annahmebedingungen. ANKAUF/VERKAUF/GEBÜHREN keine belegten Zahlen. Quelle: Vorrecherchen 01./02.10. (11880 und weitere Verzeichnisse nur Leads); neue Suchintegration ohne Primärtreffer.]

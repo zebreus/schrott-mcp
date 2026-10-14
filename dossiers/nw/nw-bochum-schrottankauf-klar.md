@@ -30,6 +30,12 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 14.10.2026 — Domainversuche ohne verwertbaren Inhalt
+
+- [Recherche 14.10.2026: `https://schrottankauf-klar.de/` und `https://schrottankauf-klar.de/impressum/` erneut aufgerufen; beide Abrufe scheiterten mit Transportfehlern. Keine Inhalte, Inhaberschaft oder aktuellen Kontakte daraus gelesen. Abruffehler beweisen weder tote Website noch Geschäftsaufgabe; die frühere abweichende Rufnummer bleibt ein unbestätigter historischer Lead.; Quelle: Abrufversuche (Transportfehler, nicht inhaltlich gelesen): https://schrottankauf-klar.de/ und https://schrottankauf-klar.de/impressum/]
+- [Recherche 14.10.2026: Weitere Namens-/Bochum-Suchen ergaben keinen passend zuordenbaren qualifizierten Betreiber-/Zweitbeleg; ähnlich benannte Abholdienste nicht übernommen. Der dokumentierte Robertstr.-/Herner-Str.-Konflikt bleibt ungelöst, keine erneute Adresseintragung.; Quelle: Abrufversuche (Transportfehler, nicht inhaltlich gelesen): https://schrottankauf-klar.de/ und https://schrottankauf-klar.de/impressum/]
+- [Recherche 14.10.2026: Frontmatter unverändert; `pruefung` bedeutet hier weiterhin offene Identität. Keine aktuelle Kaufzusage, Ankaufskurse, Verkaufspreise oder Gebühren verifiziert. Owner benötigt eine erreichbare Betreiberquelle und die unabhängige Verbindung zu einem der Profile; nicht als abschließend identifiziert gemeldet.; Quelle: Abrufversuche (Transportfehler, nicht inhaltlich gelesen): https://schrottankauf-klar.de/ und https://schrottankauf-klar.de/impressum/]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Adress-/Telefonkonflikt: Schrottfinder führt Schrottankauf Klar, Robertstr. 1, 0163 0226727; Cylex listet unter derselben Nummer Herner Str. 87. Der Suchtreffer zu schrottankauf-klar.de nennt hingegen 0172 5883250; Direktabruf von Root/Impressum scheiterte, daher keine Domain-/Betreiberzuordnung. Malformiertes Feld „Schrottankauf Klar Bochum Robertstr. 1“ aus Frontmatter entfernt, Leads bleiben hier dokumentiert; Status pruefung. Nur Portalangabe mobile Abholung, keine verifizierten Ankaufskurse, Verkaufspreise oder Gebühren. Keine Adresse geocodieren. Quelle(n): https://schrottfinder.de/bochum ; https://web2.cylex.de/firma-home/schrottankauf-gegen-bares-15663507.html ; https://schrottankauf-klar.de/]

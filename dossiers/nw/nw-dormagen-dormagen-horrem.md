@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Dormagen Horrem“ bezeichnet im Seed einen Stadtteil, aber noch keinen identifizierten Betreiber. Eine Schrottabholungswebsite nennt Horrem als Einsatzgebiet und A. Lahib in Dormagen als Anbieter; ein Bezug zum historischen Profil mit 44 Bewertungen fehlt. Auch Altmetalle Kraft in Dormagen ist nicht automatisch dieser Kandidat. Kein Website-/Kontakt-/Adressfill aus dem Ortsnamen. Ankauf, Verkauf und Gebühren des Seeds ungeklärt; Abholwerbung anderer Anbieter ist kein Identitätsnachweis.
 
 ## Timeline
+
+### Recherche 14.10.2026 — Ortsmarketing vom Seed getrennt
+
+- [Recherche 14.10.2026: [Schrottabholung Dormagen](https://schrottabholung-dormagen.de/) und [Impressum](https://schrottabholung-dormagen.de/impressum/) direkt gelesen: A. Lahib, Unter den Hecken 86, 41539 Dormagen, 01522 4224277. Die Leistungsseite nennt Horrem neben weiteren Orten, Ankauf und kostenlose Abholung; keine numerischen Ankaufspreise. Kühlschränke/Bildschirme werden trotz breiter Abfallwerbung nicht kostenlos abgeholt.; Quelle: https://schrottabholung-dormagen.de/ und https://schrottabholung-dormagen.de/impressum/]
+- [Recherche 14.10.2026: Das ist ein tatsächlicher Betreiberauftritt, aber kein Beleg für das unidentifizierte Seed-/Bewertungsprofil. Keine Zuordnung allein aus Stadtteil oder Suchtreffer; kein qualifizierter zweiter Identitätsbeleg gefunden. Ebenso keine Zusammenlegung mit dem anderweitig gefundenen Altmetalle Kraft, Robert-Bosch-Str. 24, Dormagen.; Quelle: https://schrottabholung-dormagen.de/impressum/ und https://schrott-koeln.de/impressum/]
+- [Recherche 14.10.2026: Frontmatter unverändert. Seed-Ankauf nicht bestätigt, Verkaufspreise und Gebühren nicht bekannt. „Kostenlose Abholung“ dieses anderen Auftritts weder als EUR/kg-Ankaufspreis noch als pauschale Entsorgungsgebührenfreiheit des Seeds erfasst. Owner benötigt den ursprünglichen Profil-Link/rechtlichen Namen.; Quelle: https://schrottabholung-dormagen.de/]
 
 ### Recherche 03.10.2026
 

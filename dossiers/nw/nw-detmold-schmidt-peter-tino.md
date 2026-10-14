@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Peter Tino Schmidt bleibt ein Verzeichnis-Kandidat an Lichtenbergstr. 1, 32758 Detmold, Telefon 05232 963481. Die bereits eingetragenen Kontaktdaten sind historische Leads, keine neu bestätigten Betreiberangaben. Der ebenfalls in Detmold geführte H. Schmidt/Heinz-Henry Schmidt an Am Zwiebelkamp 1 ist nicht identisch nachgewiesen. Keine aktuelle Betreiber-/Registerquelle zugeordnet; Annahme, Abholung und Ankauf bleiben offen. Keine belegten Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 14.10.2026 — Lead erneut gelesen, Identität offen
+
+- [Recherche 14.10.2026: [11880-Detail Peter Tino Schmidt](https://www.11880.com/branchenbuch/detmold/120674719B100214631/peter-tino-schmidt-schrotthandel.html) direkt gelesen: Lichtenbergstr. 1, 32758 Detmold und 05232 963481; keine Website, E-Mail oder Öffnungszeiten. Eintragsdatum 29.06.2021 und Portal-Aktualisierung 03.10.2026 sind keine Bestätigung aktueller Geschäftstätigkeit.; Quelle: https://www.11880.com/branchenbuch/detmold/120674719B100214631/peter-tino-schmidt-schrotthandel.html]
+- [Recherche 14.10.2026: [11880-Suchliste](https://www.11880.com/suche/schrotthandel/vlotho) trennt davon H. Schmidt/Heinz-Henry Schmidt, Am Zwiebelkamp 1, 05232 85372. Beide sind nur Verzeichnis-Leads; Namensähnlichkeit rechtfertigt keine Zusammenführung.; Quelle: https://www.11880.com/suche/schrotthandel/vlotho]
+- [Recherche 14.10.2026: Namens-/Registersuchen ergaben keinen zuordenbaren qualifizierten Zweitbeleg; dies ist kein amtlicher Negativnachweis. Der alte [schrottplatz-info-Ortslink](https://www.schrottplatz-info.de/city/detmold) lieferte 404, was nichts über den Händlerstatus aussagt. Frontmatter unverändert; historische Aggregatorfreigabe nicht als neue Primärprüfung übernommen. Keine Zielpreise oder Gebühren verifiziert.; Quelle: https://www.11880.com/branchenbuch/detmold/120674719B100214631/peter-tino-schmidt-schrotthandel.html; Abrufversuch (404): https://www.schrottplatz-info.de/city/detmold]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
