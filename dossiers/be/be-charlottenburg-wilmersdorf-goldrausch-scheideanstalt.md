@@ -28,6 +28,10 @@ GoldRausch Scheideanstalt GmbH ist ein historischer Rechtsträger, keine aktuell
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Zusätzlich zum früheren Tagesstand neues Live-Profil geprüft: URL GoldRausch Scheideanstalt löst auf PYT-Global GmbH, Hamburg auf; Namenliste Gold-Rausch Berlin → GoldRausch Scheideanstalt → GoldRausch Holding → GoldRausch Global → PYT-Global, HRB 145771 B/HRB 153740. Publikationsfolge Löschungsankündigung 12.02.2020, Löschung 23.09.2020. Damit historische Gesellschaft weiter greifbar, kein heutiger Betreiber Berliner Straße 19 belegt; amtliche Abzüge der Vorrecherche nicht als neuer Abruf gezählt. Fremde Solidus-/GoldRausch-Berlin-Angebote nicht übernehmen. ANKAUF/VERKAUF historischer Edelmetallhandelsgegenstand ohne aktuelle Zielkurse, GEBÜHREN keine Scheide-/Analysetarife. pruefung/Altkontakte erhalten, kein GEO bis Nachfolge-/Standortidentität geklärt; Quelle: https://www.northdata.de/GoldRausch+Scheideanstalt+GmbH,+Berlin (direkt gelesener Registerspiegel, eine Quelle).]
+
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 
 - [Recherche 14.10.2026: NorthData-Profil direkt neu gelesen: Zielauflösung PYT-Global GmbH Hamburg, HRB 153740 / zuvor Charlottenburg HRB 145771 B, historische Namen einschließlich GoldRausch Scheideanstalt und Global, Löschung 23.09.2020. Nicht mit späterer GoldRausch Berlin oder Solidus gleichsetzen. Amtliche Blätterprüfung aus 04.10. bleibt historische Prüfung, kein neuer Live-Abruf des Registerportals in dieser Bearbeitung. Keine neue Aussage über einen heutigen Laden Berliner Straße 19; keine aktuelle Kontaktbestätigung. Quelle: https://www.northdata.de/GoldRausch+Scheideanstalt+GmbH,+Berlin .]

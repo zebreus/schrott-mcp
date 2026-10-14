@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische DST-Wertstoffsortierung und Recycling GmbH & Co. KG, Lemgo HRA 3207, laut direkt erneut geprüftem Register 2009 auf Tönsmeier Entsorgung verschmolzen und gelöscht. Die Verbindung des kurzen Seednamens zu dieser Firma und die vollständige Kette zum heutigen Standortbetreiber bleiben zu sichern. Der bisherige PreZero-Link unter prezero.de leitet inzwischen nur auf die allgemeine Startseite um; kein Detmolder Standortbeleg. Andere Anbieterzeiten nicht übertragen und keine Standortschließung aus dem verschwundenen Detailpfad abgeleitet.
+
+**Ankauf/Verkauf/Gebühren:** keine DST zurechenbare heutige Quelle. **GEO:** Westerfeldstraße 20 erst nach nachgewiesener Betreiberkette und heutigem Detailstandort.
 
 ## Timeline
+
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Northdata HRA 3207 erneut direkt geprüft: Verschmelzung auf Tönsmeier Entsorgung GmbH & Co. KG 10.06.2009, Löschung 16.07.2009. Neuer Gegenabruf des verzeichnisverlinkten PreZero-Pfads unter prezero.de liefert allgemeine aktuelle Konzernstartseite statt Detmold/Westerfeldstraße-Detail. Somit weder aktueller Standort noch vollständige DST→Tönsmeier→PreZero-Kette daraus freigegeben; Betreiberfinder/örtliches Zertifikat als nächste Schritte. Keine Frontmatter-Fills oder Schließungsmarkierung, keine Ankauf-/Verkaufs-/Gebührentarife; GEO offen. Quellen: https://www.northdata.de/DST-Wertstoffsortierung%20und%20Recycling%20GmbH%20%26%20Co%C2%B7%20KG,%20Detmold/Amtsgericht%20Lemgo%20HRA%203207 ; https://prezero.de/ueber-prezero/standorte/l/detmold/westerfeldstrasse-20/2761165]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

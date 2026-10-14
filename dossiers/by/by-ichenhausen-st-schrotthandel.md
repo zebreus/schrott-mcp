@@ -28,6 +28,10 @@ Die Betreiberseite ST-Schrotthandel bewirbt Metallankauf (u. a. Eisen, Stahl, Ku
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Homepage und Impressum erneut direkt gelesen: Hinter den Gärten 11/89335, +49 173 5344522 und info@st-schrotthandel.de; Impressum weiterhin ohne persönlichen Inhaber/Rechtsträger/HR-Nummer, keine autoritative Primärquellen-Ausnahme. Aktuelle FAQ differenziert Börsenpreis, Material, Menge und Qualität, individuelle Angebote, Bezahlung nach Vereinbarung bar/per Überweisung bei Abholung, Sammelrechnung für regelmäßige Kunden. ANKAUF ohne €/kg-Sätze; VERKAUF gebrauchte Industriemaschinen ohne allgemein veröffentlichte Preiswerte; GEBÜHREN Lieferung/Abholung laut FAQ im Einzugsgebiet inklusive, nicht pauschal jede Leistung kostenlos. Einzugsgebiet Günzburg, Neu-Ulm, Augsburg/Umgebung, größere Aufträge überregional; keine Mindestmenge daraus ableiten. Frontmatter unverändert, Betreiber-Geschäftsanschrift Einzelbeleg; GEO erst nach zweiter qualifizierender Standort-/Inhaberquelle und Klärung Kundenannahme; Quelle: https://st-schrotthandel.de/ ; https://st-schrotthandel.de/impressum.html .]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website verifiziert (Home, Impressum, Demontage-Unterseite einzeln abgerufen): Impressum nennt Hinter den Gärten 11, 89335 Ichenhausen, Tel +49 173 5344522, info@st-schrotthandel.de, USt-ID DE309409598, kein HRB (Einzelunternehmen) -> keine Owner-Ausnahme, daher Adresse/Tel/Email nur Timeline (Einzelbeleg, unsicher); Facebook-/Instagram-Profile verlinkt aber ohne Adressbeleg; Leistungen: Demontage, Schrottankauf (Fe/NE), Container 3-40 m3; Quelle(n): https://st-schrotthandel.de/, https://st-schrotthandel.de/impressum.html, https://st-schrotthandel.de/demontage.html]

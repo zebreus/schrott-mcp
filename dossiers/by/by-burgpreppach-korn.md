@@ -1,6 +1,6 @@
 ---
 slug: by-burgpreppach-korn
-name: Korn
+name: Korn GmbH
 trader_type: sonstige
 state: BY
 city: Burgpreppach
@@ -20,7 +20,7 @@ provenance_ankauf_raw: unklar (Register-Prosa)
 provenance_origin: prose
 ---
 
-# Korn
+# Korn GmbH
 
 ## Überblick
 
@@ -32,6 +32,10 @@ Marktgemeinde Burgpreppach und Registerprofil zu Korn GmbH (HRB 3319, AG Bamberg
 - **Geokodierung:** Fitzendorfer Str. 14, 97496 ist zu geokodieren; Ergebnis nicht als Kundenannahme ausgeben, solange diese nicht bestätigt ist.
 
 ## Timeline
+
+### Recherche/Korrektur 14.10.2026 (18:00-Welle B)
+
+- [Korrektur 14.10.2026: Name Korn zu Korn GmbH präzisiert, Slug unverändert. Gemeinde-Wirtschaftsseite und konkrete NorthData-Registerdetailseite unabhängig erneut live gelesen, beide nennen Korn GmbH/Fitzendorfer Str. 14/97496 Burgpreppach; HRB 3319 AG Bamberg, Gegenstand Altmetall-/Schrotthandel und Container. Kein angenommener Rechtsformwechsel, sondern belegte Vollfirmierung des bereits adresskongruenten Eintrags. Register nennt historische Anschrift Ibind Nr. 24 1/2 (2010), Anschriftsereignisse 2012, GF-Ereignis André Korn 12.03.2019 und Jahresabschluss 2024 publiziert 19.06.2026; Ibind nicht als zusätzliche Kundenstelle übernehmen. Gemeinde führt außerdem Sitzmöbel Korn/Inh. Jürgen Korn/Hohnhausen 3: andere lokale Identität, deren Kontakte keinesfalls übernehmen. Gemeinde-Telefon/Mail weiter Einzelangaben, Status pruefung wegen unbestätigtem aktuellen Ankauf/Kundenzugang. ANKAUF/VERKAUF/GEBÜHREN keine publizierten Zahlen auf diesen beiden Seiten. GEO der belegten Geschäftsadresse möglich, Annahmefunktion separat prüfen; Quelle: https://www.burgpreppach.de/wirtschaft/ ; https://www.northdata.de/Korn%20GmbH,%20Burgpreppach/Amtsgericht%20Bamberg%20HRB%203319 .]
 
 ### Recherche 07.10.2026
 

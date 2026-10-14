@@ -28,6 +28,10 @@ Hans-Werner Kettig / Im Boden 1 bleibt anhand alter konvergenter Verzeichnis-Lea
 
 ## Timeline
 
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Exakte Suche erneut ausgewertet: Treffer weiterhin überwiegend Verzeichnisse; deren Im-Boden-1-/02371-29913-Angaben zählen nicht als neue Belege. www.h-kettig.de erneut Transportfehler. CompanyHouse-Suchspur zu „Schrotthandel-Containerdienst Hans-Werner Kettig“ nur als nächste Registerrecherche, nicht als gelesener aktueller Nachweis. Ein Suchnachlauf zu Registerbegriffen endete mit HTTP 429; keine negative Existenzbehauptung. Der frühere Timeline-Satz „status aktiv bleibt“ ist historischer Arbeitsstand und wurde bereits vom Owner korrigiert; maßgeblich ist Frontmatter pruefung. Ankauf/Verkauf/Gebühren unbekannt; Im Boden 1 nicht neu geocodieren, bevor aktueller Betreiber-/Adressbeleg vorliegt. Quellen: https://search.brave.com/search?q=%22Hans-Werner+Kettig%22 ; https://www.h-kettig.de/]
+
 ### Recherche 14.10.2026 (Welle 5 A)
 
 - [Korrektur 14.10.2026: Owner nimmt historische Ausnahme-Aktivierung auf pruefung zurück: Verzeichniskonvergenz allein trägt keinen aktiven Betreiberstatus nach README. DNS-Ausfall beweist keine Geschäftsaufgabe; Anschrift/Kontakt bleiben historische ungeprüfte Bestandswerte, keine öffentliche Annahme bestätigt. Aktueller Gewerbe-/Betreiberbeleg bleibt nötig. Quelle: Dossier-Historie 02.10.2026 und nachfolgende Recherche 14.10.2026; README.md Quellenhierarchie.]

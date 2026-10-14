@@ -30,6 +30,10 @@ Ein Portal-Detail nennt Frank Perjak Schrottannahme, Am Damm 2, 01920 Oßling, T
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: NorthData-Suggest Frank Perjak erneut HTTP200/results leer; historische Portal-Detailseite direkt HTTP403. Am Damm 2/01920 somit nicht neu live bestätigt und keine unabhängige Zuordnung zum OT Trado gewonnen. Leere Registersuche widerlegt einen möglichen Einzelbetrieb nicht. ANKAUF/VERKAUF/GEBÜHREN mangels auswertbarer qualifizierter Quelle nicht prüfbar; Seedtelefon nicht als neu verifiziert ausgeben. GEO erst nach Gewerbezuordnung von Inhaber/Adresse/Ortsteil. Owner: kommunale Gewerbeauskunft Oßling gezielt zu Frank Perjak und Am Damm 2; Quelle: https://www.northdata.de/suggest.json?query=Frank+Perjak&countries=DE ; https://ossling.stadtbranchenbuch.com/8208061.html (403, nur historischer Lead).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Eigenständige Register-Namenssuche Frank Perjak über Northdata-Suggest HTTP200/results leer, kein Negativnachweis zu möglichem nicht eingetragenem Einzelbetrieb. Der bisherige Detaillead stadtbranchenbuch ist heute HTTP403; alte Angabe Am Damm2/01920 Oßling nicht als neu live bestätigt ausgegeben. Kein Betreiber-/kommunaler Beleg oder OT-Trado-Zuordnung gewonnen; Felder/Status unverändert. Ankauf/Verkauf/Gebühren nicht verifiziert. Offen: Betrieb am genannten Platz, rechtlicher Inhaber, exakte Ortsteilzuordnung und Bedingungen; Quelle: https://www.northdata.de/suggest.json?query=Frank%20Perjak&countries=DE ; https://ossling.stadtbranchenbuch.com/8208061.html (Abrufgrenze, nur historischer Lead).]

@@ -34,6 +34,10 @@ Mehrere Branchen- und Schrottverzeichnisse führen TuS Schrott & Metalle an Rave
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: LokaleSchrottplatz-Profil erneut direkt gelesen: Ravenskamp 8, 27243 Harpstedt, +49 4244 919842, Geschlossen ohne belegte Dauerschließung und ohne Betreiberzeiten. Annahmeliste reicht bis Altfahrzeuge, Elektromotoren, Nickel/Zinn/Hartmetalle; pauschal Eisen ab 100 kg/NE ab 1 kg exakt wie im gegengeprüften F.Weber-Profil. Keine individualisierten Händlerbedingungen oder numerischen Ankaufpreise daraus ableiten. Status pruefung/Legacy-Kontakte erhalten; Beschreibung/Materialliste nicht neu bestätigt. ANKAUF ungeprüfte Portalbehauptung, VERKAUF/GEBÜHREN keine Zahlen. Owner: tatsächlicher Gewerbeinhaber und aktuelle Annahme unter TuS klären; Ravenskamp 8 erst danach geokodieren; Quelle(n): https://lokaleschrottplatz.de/tus-schrott-metalle/ ; https://lokaleschrottplatz.de/f-weber-schrotthandel/ (beide Leads).]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Neue Gegenprüfung ergab keinen verifizierbaren Betreiber-/Register-/Kommunalbeleg über die bereits dokumentierten Verzeichnisquellen hinaus. Der direkte Abruf des Stadtbranchenbuch-Eintrags war mit HTTP 403 gesperrt; gezielte Suchen bei Gemeinde Harpstedt/Landkreis lieferten keinen belastbaren Nachweis (fehlende Treffer nicht als Nichtexistenzbeweis). Adresse, Telefon, Annahmeliste und Öffnungszeiten daher nicht neu bestätigt; keine Preise/Gebühren gefunden. Frontmatter bleibt unverändert, status pruefung. Quelle(n)/Suchpfad: https://harpstedt.stadtbranchenbuch.com/4213439.html ; https://www.harpstedt.de/ ; https://www.diepholz.de/ ; Portal-Lead: https://lokaleschrottplatz.de/tus-schrott-metalle/]

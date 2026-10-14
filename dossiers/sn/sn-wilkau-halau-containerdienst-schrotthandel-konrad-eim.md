@@ -11,7 +11,7 @@ email: ''
 opening_hours: 'Di 07:00-17:00, Fr 07:00-16:00; jeden 1.+3. Sa/Monat 08:00-12:00'
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konrad Eißmann, teils mit Inhaber Roland Schulz geführt, ist bislang ausschließlich über Branchenbuchleads verdichtet. Waldstraße 5 und Kirchberger Straße 38 sind nicht als Betriebs-/Büroanschrift auseinandergehalten. Die identische Telefonnummer mit einem separaten R.-Schulz-Eintrag ist ein Dubletten-/Nachfolgehinweis, kein Beweis einer Betreiberkette.
+
+Adresse, Telefon und Öffnungszeiten im Frontmatter sind erhaltene historische Verzeichnisangaben, nicht nach README-Standard verifiziert. **Ankauf / Verkauf / Gebühren:** keine qualifizierte Preisliste oder Tarifangabe. **GEO:** erst beide Anschriften und Inhaber klären; nicht beide als Annahmestellen veröffentlichen.
 
 ## Timeline
+
+### Korrektur/Recherche 14.10.2026 (18:00-Welle B)
+
+- [Korrektur 14.10.2026: status aktiv auf pruefung gesetzt. Die älteren Kontakt-/Zeitfills beruhen ausschließlich auf mehreren Aggregatoren, die gemeinsam keine unabhängigen qualifizierenden Belege darstellen. Eigenständige NorthData-Suggest-Abfragen Eißmann Wilkau und Roland Schulz Wilkau HTTP200/results leer, kein vollständiger Negativbeweis für Einzelunternehmen. Waldstraße 5 versus Kirchberger Straße 38 und Konrad Eißmann versus Inh. Roland Schulz bleiben offen; keine Felder gelöscht oder neue Inhaberidentität behauptet. ANKAUF/VERKAUF/GEBÜHREN keine geprüften Händlerpreise, GEO zurückstellen. Owner: Gewerbeakten Wilkau-Haßlau zu beiden Adressen/Namen und Überschneidung mit R.-Schulz-Dossier prüfen; Quelle: https://www.northdata.de/suggest.json?query=Ei%C3%9Fmann+Wilkau&countries=DE ; https://www.northdata.de/suggest.json?query=Roland%20Schulz%20Wilkau&countries=DE ; historische Aggregatorherkunft siehe 30.09./01.10.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

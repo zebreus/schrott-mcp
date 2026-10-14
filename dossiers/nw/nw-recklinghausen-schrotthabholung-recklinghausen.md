@@ -28,6 +28,10 @@ Der generische Seedname "Schrotthabholung Recklinghausen" und die Notiz zu einer
 
 ## Timeline
 
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Zweiseitige Gegenprobe zur naheliegenden Fremdseite: Rohstoffhandel-Recklinghausen-Impressum tatsächlich gelesen, Anbieter Nadim El Lahib, RHR Rohstoffhandel Recklinghausen, Zum Wetterschacht 28, Telefon 0176 88242010; intern widersprüchliche PLZ 44659 im Impressum/45659 im Footer. Keine Beziehung zum generischen Seednamen mit alter 0172-Notiz belegt. Weder Fremdadresse/Kontakte noch Schrottpreise dieses anderen Anbieters übertragen. Exakter Suchnachlauf zur 0172-Spur HTTP 429, kein Negativbeweis. Frontmatter unverändert; Betreiberidentität, Ankauf/Verkauf/Gebühren und GEO offen; Quelle: https://rohstoffhandel-recklinghausen.de/impressum/]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Aktuelle 11880-Suche nach Altmetallrecycling Recklinghausen zeigt mehrere andere Kandidaten (u.a. Alici Schrotthändler, Dala Schrottabholung und Gläser, Heiko); keiner heißt "Schrotthabholung Recklinghausen" und es gibt keinen Identitätsbeleg zur Seed-0172-Nummer. Daneben wirbt die Website Rohstoffhandel Recklinghausen mit tagesaktuellen Schrottpreisen und nennt Zum Wetterschacht 28/0176 88242010, aber sie belegt keine Beziehung zu diesem generischen Dossier; auch der allgemeine Landingpage-Anbieter Schrotthändler.org ist nicht zugeordnet. Keine Kontaktdaten oder Leistungen übertragen. **Preise:** für den Dossierbetrieb keine Ankaufzahlen, Verkaufsliste oder Gebühren gefunden; Fremdseiten nicht zurechenbar. Quelle(n): https://www.11880.com/suche/altmetallrecycling/recklinghausen ; https://rohstoffhandel-recklinghausen.de/ ; https://schrotthaendler.org/schrottabholung/recklinghausen]

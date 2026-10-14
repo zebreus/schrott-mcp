@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberseite ist für das Stammhaus Heudeber erreichbar, bestätigt aber weiterhin keine Filiale Thale. Straße des Friedens 339 A/06484 bleibt ein historischer Portal-Kandidat; Stammhausadresse Rudolf-Breitscheid-Straße 7/38855 Heudeber darf diesen Thale-Datensatz nicht füllen.
+
+**Ankauf:** Stammhaus wirbt mit Schrott-/NE-Ankauf privat/gewerblich ohne Zahlenkurse. **Verkauf:** keine gelesene Preisliste. **Gebühren:** kostenlose Abholung sowie kostenlose Containerstellung für Gewerbeschrott/NE-Metalle/Produktionsabfälle sind Betreiberwerbung des Stammhauses, keine bewiesenen Thale-Konditionen. **GEO:** Thale erst nach explizitem Filialnachweis; keine Schließung aus fehlender Nennung ableiten.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Kontakt und Handel-mit-Altmetall einzeln direkt gelesen: beide führen ausschließlich Rudolf-Breitscheid-Straße 7/38855 Heudeber, keine Thale-Filialadresse. Betreiber nennt Ankauf privat/gewerblich, kostenlose Abholung nach Anruf und kostenlose Container für Gewerbeschrott/NE/Produktionsabfälle; Ausschlüsse Kühlschränke, Plastikautoteile, ölhaltige Motoren, Reifen, Fernseher/Monitore. Weder Konditionen noch Ausschlüsse als Thale-Leistungs-JSON übernehmen. Kein numerischer Ankaufskurs, keine Verkaufsliste oder bezifferte Gebühren. Beleggrenze nicht mit Filialschließung verwechseln. Owner: Betreiber ausdrücklich nach Filiale Thale und Straße des Friedens 339 A fragen bzw. kommunale Gewerbequelle zuordnen; GEO bis dahin zurückstellen; Quelle: https://schrotthandel-heudeber.de/kontakt/ ; https://schrotthandel-heudeber.de/handel-mit-altmetall/ .]
 
 ### Recherche 01.10.2026 (Feedback-ID 2740)
 

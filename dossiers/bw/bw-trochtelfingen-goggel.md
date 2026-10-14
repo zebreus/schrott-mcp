@@ -28,7 +28,13 @@ Ein aktueller, Göggel-betriebener Auftritt zur Autoverwertung identifiziert And
 
 **Preise:** Ankauf — der Betreiber wirbt mit Ankauf von Fahrzeugen mit Restwert bzw. Angebot/Abrechnung auf Anfrage, ohne Zahlen. Abholung von Altfahrzeugen wird als kostenlos beworben (Betreiberangabe, keine Gebührenordnung/Teilnahmebedingungen). Verkauf — Gebrauchtteile werden angeboten, Einzelpreise sind produkt-/Verfügbarkeitsangebote, keine allgemeine Liste. Sonstige Gebühren nicht ausgewiesen.
 
+**Aktualitätswarnung 14.10.2026:** Das verlinkte, nun inhaltlich gelesene Zertifikat 2024 gilt nur bis Oktober 2025; die Website-Werbung „zertifiziert“ ist dadurch nicht aktuell nachgewiesen. Im Impressums-Navigationskopf erscheint zusätzlich 07022 990 1163, abweichend von Text/Footer/Homepage 07124 1548. Vor Kontakt-/Zertifizierungsfills diese Widersprüche klären.
+
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Homepage/Impressum und verlinktes PDF erstmals inhaltlich gegengeprüft. Zertifikat 2024 KK 0119-A des Sachverständigen Konrad Kulpok, ausgestellt 26.04.2024 nach Prüfung 25.04.2024, bestätigt historisch Fa. Göggel Autoverwertung/Daimlerstraße 13 und Demontagebetrieb; ausdrücklich Gültigkeit nur bis Oktober 2025, nächste Prüfung April 2025. Dieses PDF ist am heutigen Stichtag abgelaufen, kein aktueller Zertifizierungsnachweis und keine pauschale Gebührenfreiheit. Neue Abrufabweichung: Impressums-Navigationskopf verlinkt 07022 990 1163, während Impressumstext, Footer und Homepage 07124 1548 nennen. Erstgenannte Nummer nicht übernehmen. Betreiber wirbt weiterhin mit Restwertankauf, Gebrauchtteileverkauf, kostenloser Fahrzeugabholung und individuellem Angebot, ohne Zahlenpreise. Mangels aktuellem unabhängigen Register-/Gewerbebeleg keine Frontmatter-Fills/GEO; Owner: aktuelles Zertifikat und Gewerbeidentität sowie Telefonnummer klären; Quelle: https://autoverwertung-goeggel.de/ ; https://autoverwertung-goeggel.de/impressum/ ; https://autoverwertung-goeggel.de/wp-content/uploads/2024/07/Autoverwertung-Goeggel-Zertifikat-2024.pdf (PDF mit pdftotext gelesen).]
 
 ### Recherche 12.10.2026
 

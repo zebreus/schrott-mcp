@@ -25,9 +25,14 @@ provenance_origin: table
 
 ## Überblick
 
-Für "Dreßler Altmetallhandel UG / Michael Dreßler" in Lachendorf fand auch die erneute Suche keinen passenden Betreiberauftritt, Registerbeleg oder eindeutige lokale Geschäftsspur. Namensähnliche Treffer an anderen Orten belegen keine Verbindung. **Ankauf:** ungeklärt; **Verkauf:** keine Preisliste gefunden; **Gebühren:** keine Angaben gefunden. Identität und Standort bleiben Klärfall.
+Neuer historischer Registerbefund zu Dreßler Altmetallhandel UG: AG Lüneburg HRB 205646, 2015 Lachendorf, Geschäftsanschrift 2018 nach Wienhausen geändert, laut NorthData 23.08.2023 wegen Vermögenslosigkeit gelöscht. Die gelesenen Bekanntmachungen nennen Jessica Dreßler als Geschäftsführerin, nicht den im Seed beigefügten Michael; diese Personenverknüpfung bleibt offen. Einzelbeleg aus einem Registerspiegel, keine heutige Annahmestelle oder vollständige historische Straße bestätigt. **Ankauf/Verkauf:** historischer Unternehmensgegenstand, keine aktuellen Kurse; **Gebühren:** keine Tarife. `pruefung`, kein Rename, Ortswechsel oder GEO-Fill.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Neue orthografische Namenssuche ergibt tatsächlich Dreßler Altmetallhandel UG, Wienhausen, AG Lüneburg HRB 205646/EUID DEP2507.HRB205646; Profil und Einzelbekanntmachungen direkt gelesen. Eintragung 17.06.2015: D-29331 Lachendorf, Gegenstand An-/Verkauf von Altmetallen, Transport, Zerlegung/Trennung/Sortierung/Bearbeitung, Kapital 1.000 EUR, Geschäftsführerin Jessica Dreßler. Veränderung 30.08.2018: Geschäftsanschrift nach D-29342 Wienhausen, Jessica Dreßler; Straßen und Geburtsdaten maskiert. Profil führt 23.08.2023 Löschung gemäß §394 Abs.1 FamFG wegen Vermögenslosigkeit; verlinkter Einzeltext Premium-gesperrt. Das korrigiert frühere Such-Nichtfunde, liefert aber keinen zweiten unabhängigen Beleg und keine Michael-Zuordnung; Quelle(n): https://www.northdata.de/Dre%C3%9Fler%20Altmetallhandel%20UG,%20Wienhausen/Amtsgericht%20L%C3%BCneburg%20HRB%20205646 ; https://www.northdata.de/?id=1077895235 ; https://www.northdata.de/?id=4819611436 ; https://www.northdata.de/?id=4752613372854272 .]
+- [Recherche 14.10.2026: Namensvettergegenprobe: Wolfgang Dressler Schrotthandel in Lachendorf und Dressler-Schrotthandel GmbH Eschede erscheinen separat im Suchindex, ohne belegte Übernahme-/Personenkette. Keine Gleichsetzung mit Michael/Jessica/UG. status pruefung bleibt statt geschlossen, keine Straßen-/Telefon-Fills. Owner: amtlicher Abzug HRB 205646, Seed-Zusatz Michael und etwaiger Nachfolger getrennt klären. ANKAUF/VERKAUF nur historischer Gegenstand, keine aktuelle Liste; GEBÜHREN nicht belegt. GEO erst nach aktueller Betreiber-/Standortkette; Quelle(n): https://branchenbuch.meinestadt.de/lachendorf/company/501361960 ; https://www.schrottplatz-info.de/schrottplatz/Eschede/Dressler-Schrotthandel-GmbH (Suchindex-Leads, nicht Belege).]
 
 ### Recherche 08.10.2026
 

@@ -28,6 +28,10 @@ Nur Nachname und PLZ 91541 aus einem Verzeichnisimport; weder vollständiger Gew
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Gezielt NorthData-Suggest Eisenmann Rothenburg neu geprüft: HTTP200/results leer. Anders als unscharfe Suchseitenprüfung 08.10. ein neuer Suchweg, aber weder vollständiger Registerauszug noch Negativbeweis für ein Kleingewerbe. PLZ 91541 bleibt Seedwert; kein ortsfremder Anlagenbauer als Betreiber übernommen. ANKAUF/VERKAUF/GEBÜHREN keine zuordenbaren Preise; GEO mangels Anschrift gesperrt. Owner: ursprünglichen Portal-/Importbeleg auf vollständigen Vornamen/Gewerbenamen zurückführen und bei Rothenburg ob der Tauber kommunal zuordnen; Quelle: https://www.northdata.de/suggest.json?query=Eisenmann+Rothenburg&countries=DE .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: NorthData-Suche „Eisenmann Rothenburg“ liefert im ersten auslesbaren Block keine kongruente lokale Schrottidentität; unscharfe/paginierte Suche erlaubt keinen Existenz-Negativbeweis. Portal-Kandidat lokaleschrottplatz.de/eisenmann/ HTTP403, Brave-Prüfung 429; keine Betreiber-Website zugeordnet. Kein Frontmatter-Fill, keine ortsfremde Eisenmann-Gesellschaft übernommen. Owner: vollständigen Rechts-/Gewerbenamen und Ort innerhalb PLZ 91541 über Originalimport/Gewerbeauskunft klären; Ankauf/Verkauf/Gebühren bleiben unbelegt; Quelle(n): https://www.northdata.de/?query=Eisenmann%20Rothenburg ; https://lokaleschrottplatz.de/eisenmann/ (Abrufgrenze).]

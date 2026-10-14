@@ -32,6 +32,10 @@ Ein separates Dossier und der aktuelle Betreiberauftritt belegen **W.K.W. Recycl
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Impressum, Unternehmensseite und NE-Produktseite erneut direkt gelesen. Heute verlinkt die Unternehmensseite ausdrücklich Zertifikat 26-27; PDF heruntergeladen, aber ohne extrahierbaren Text (Scan), daher Laufzeit/Inhalt nicht als geprüft behauptet. Die eigene Unternehmensgeschichte nennt 1990/2014, weiterhin keine GbR-GmbH-Kette. Eigenständiger aktueller Betreiberbeleg für die GmbH ist kein Identitätsbeleg für diesen GbR-Altseed. Keine Übernahme von Anschrift, Telefon oder Samstagsregel und keine zweite GEO-Dublette erzeugt. ANKAUF/VERKAUF/GEBÜHREN: auf den gelesenen HTML-Seiten keine Zahlenpreise, Produktbeschreibung ist keine Ankaufsliste. Owner: GbR-Gesellschafter und Übergang anhand Register-/Gewerbeakten klären; Quelle: https://www.wkw-recycling.de/impressum.html ; https://www.wkw-recycling.de/uu.html ; https://www.wkw-recycling.de/pro2.html ; https://www.wkw-recycling.de/images/UU/Zertifikat%2026-27.pdf (Scan nicht inhaltlich verifiziert).]
+
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 
 - [Recherche 14.10.2026: Zusätzlich zum erneut gelesenen Impressum und NE-Metalltext die Betreiber-Unternehmensgeschichte direkt gelesen: WKW Recycling GmbH nennt Gründung 1990 und Erweiterung um Apolda 2014, jedoch keine ausdrückliche GbR→GmbH-Übertragung oder GbR-Gesellschafter. Impressum Kai Wetzel, HRB 25403, Kossaer Str. 3 b; Startseite mit Kalender 2026 und Söllichau-Samstagsregel. Dies belegt Angaben des heutigen GmbH-Auftritts, nicht die Identität des alten GbR-Seeds. 11880 führt weiter den alten GbR-Namen mit abweichendem Telefon 034243 21814; nur Lead, kein unabhängiger Kettenbeleg. Frontmatter und Schwester-Dossier unangetastet. Quellen: https://www.wkw-recycling.de/uu.html ; https://www.wkw-recycling.de/impressum.html ; https://www.wkw-recycling.de/ ; https://www.wkw-recycling.de/pro2.html ; https://www.11880.com/suche/schrotthandel/kabelsketal (Lead).]

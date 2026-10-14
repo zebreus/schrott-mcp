@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiber-Impressum nennt Klaus Habersack; die Gemeinde bestätigt den Familienbetrieb mit Klaus, Petra, Tim und Tino in Niedermittlau. Der frühere Satz, Klaus sei nicht belegt, ist damit überholt; der öffentliche Betriebsname bleibt Kfz-Verwertung Habersack. Struthweg 3, Mail und genaue Zeiten sind weiterhin Betreiber-Einzelbelege und werden nicht strukturiert ergänzt.
+
+**Ankauf:** Betreiber bietet An- und Verkauf von Fahrzeugen, keine Ankaufkurse. **Verkauf:** Fahrzeuge, Original- und Gebrauchtteile, keine Preislisten auf den gelesenen Seiten. **Gebühren:** Altwagenabholung und Entsorgung mit Verwertungsnachweis angeboten, keine Gratiszusage/Tarife. Die Zertifizierungswerbung verweist im Leistungstext auf alte Daten, darunter Anerkennung 2001–2009; aktuelle Gültigkeit bleibt gesondert zu prüfen. **GEO:** Struthweg 3 erst nach unabhängigem Adressbeleg freigeben.
 
 ## Timeline
+
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Impressum, Startseite und echte Leistungs-URL direkt gelesen: Annahme von Unfall-, Alt- und Schrottfahrzeugen, Abholung, Entsorgung mit Verwertungsnachweis sowie An-/Verkauf von Fahrzeugen. Teileverkauf auf Startseite belegt, kein numerischer Ankauf-/Verkaufs-/Gebührentarif. Keine Gleichsetzung von Abholung mit kostenloser Abholung. Leistungsseite nennt historische Anerkennungsdaten 19.03.2001–01.03.2009; verlinkte /zertifikate-kfz-verwertung.html liefert 404, somit kein heute gültiges Zertifikat geprüft. Bestehende Zertifizierungsbeschreibung ist als Prüfpunkt zu behandeln, nicht erneut aktuell bestätigt; Quellen: https://www.kfz-verwertung-habersack.de/ ; https://www.kfz-verwertung-habersack.de/impressum.html ; https://www.kfz-verwertung-habersack.de/zertifizierte-kfz-verwertung-habersack.html ; https://www.kfz-verwertung-habersack.de/zertifikate-kfz-verwertung.html]
+- [Korrektur 14.10.2026: Aussage der Vorwelle „nicht belegter Vorname Klaus“ im Arbeitsüberblick präzisiert: aktuelles Impressum nennt Inhaber Klaus Habersack; kommunaler Besuchsbericht vom 05.12.2023 nennt Klaus und Familie unabhängig ebenfalls. Öffentlicher Betriebsname unverändert. Kommune bestätigt weder Struthweg 3 noch Mail/Zeiten, daher weiterhin keine Detailfills oder GEO; Quellen: https://www.kfz-verwertung-habersack.de/impressum.html ; https://www.hasselroth.de/hasselroth/gewerbe/tour-de-hasselroth/fa-kfz-verwertung-habersack/]
 
 ### Korrektur 05.10.2026
 

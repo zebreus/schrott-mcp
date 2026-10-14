@@ -30,6 +30,10 @@ Der Seed „Schrotthandel F. Weber“ führt die Region Hannover/Hildesheim; his
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Bekannten Konfliktlead direkt neu gelesen: F.Weber Schrotthandel, nur Ortsangabe Schandelah ohne Straße, +49 173 6115144; Portal nennt Mo-Fr 08-18/Sa 08-13, gleichzeitig Geschlossen/öffnet morgen um 12:00. Das ist keine zuverlässige Betreiberzeit und kein Schließungsbeleg. Breite Materialliste sowie pauschal Eisen ab 100 kg/NE ab 1 kg sind identisch mit direkt gegengeprüftem TuS-Portalprofil und werden nicht übernommen. Namenssuche liefert daneben Schrottplatz Weber in Langenselbold, einen anderen Ort/Betreiber; dessen Tageshöchstpreis-Werbung und Auszahlungsgrenzen nicht dem Seed zurechnen. Keine Aufhebung von clear_fields: phone, kein Regionswechsel. ANKAUF/VERKAUF/GEBÜHREN ohne Zielbeleg; GEO erst nach vollem Gewerbenamen und tatsächlichem Betriebsort; Quelle(n): https://lokaleschrottplatz.de/f-weber-schrotthandel/ ; https://lokaleschrottplatz.de/tus-schrott-metalle/ (Portal-Leads); https://www.schrott-weber.de (Suchindex zu fremdem Betrieb, nicht als Seedquelle übernommen).]
+
 - [Owner-Korrektur 10.10.2026: Explizite Seed-Direktive clear_fields für phone ergänzt, um nach geprüfter Veröffentlichung die ungeklärte Regions-/Telefonzuordnung durch normalen Seedupsert tatsächlich zurückzunehmen. Leerwert allein erhält gespeichertes Enrichment. Ortskonflikt und historische Nummer unten dokumentiert; keine Ortsverschiebung, GEO-Löschung oder direkte Produktionsmutation. Grundlage: docs/trader-seed.md; research/checkin-20261010-waveD-nordwest-owner-gate.md.]
 
 ### Recherche 09.10.2026 / Korrektur 10.10.2026

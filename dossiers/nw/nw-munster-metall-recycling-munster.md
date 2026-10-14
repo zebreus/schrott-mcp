@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberkandidat metall-rm.de ist weiter technisch nicht auswertbar: Startseite, Impressum und Ankaufpfad jeweils HTTP 500. Der Suchindex nennt Metall Recycling Münster und Schrottankauf, ist aber kein gelesener Primärbeleg und bestätigt weder Rechtsträger noch Königsberger Str. 109. `website_status: unbekannt` und `status: pruefung` bleiben; Serverfehler nicht als Schließung gewertet.
+
+**Ankauf:** nur Suchindexwerbung, keine verifizierten Kurse/Annahmebedingungen. **Verkauf/Gebühren:** keine Angaben. **GEO:** Königsberger Str. 109 zunächst unabhängig verifizieren.
 
 ## Timeline
+
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Direkte HTTPS-Abrufe Startseite, /impressum/ und /metall-schrottankauf/ jeweils HTTP 500. Suchindex zeigt Betreiberkandidaten „Metall Recycling Münster“, Werbetexte zu Schrottankauf und Familienbetrieb, jedoch keine direkt lesbare Anbieterkennung; Snippets nicht zu heutigen Tatsachen/Preisen aufgewertet. Bestehende Domain nur Kandidat, Königsberger Str. 109 weiterhin ungeprüft. Kein Schließungsurteil oder Frontmatter-Fill; aktuelle Betreiberidentität, Ankaufkonditionen, Verkauf/Gebühren und GEO offen. Quellen: https://metall-rm.de/ ; https://metall-rm.de/impressum/ ; https://metall-rm.de/metall-schrottankauf/ ; https://search.brave.com/search?q=%22Metall+Recycling+M%C3%BCnster%22]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

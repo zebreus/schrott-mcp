@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+G. Herrschlein KG, Hauptstraße 30, 97922 Lauda-Königshofen, 09343/7683 ist ein bislang nicht qualifiziert bestätigter Seed-/Portal-Eintrag. Die Variante Gretel Herrschlein und die KG-Rechtsform sind nicht durch einen konkreten HRA-/Gewerbebeleg aufgelöst. Herschlein mit einfachem s ist nur eine Suchvariante, keine bewiesene Alias-Firmierung.
+
+**Ankauf:** FE ab 100 kg, NE ab 1 kg und Altfahrzeuge sind unbestätigte Seedbedingungen, keine numerischen Ankaufspreise. **Verkauf / Gebühren:** keine verifizierten Preise. **GEO:** Hauptstraße 30 erst nach aktueller Gewerbe- und Annahmestellenbestätigung; die frühere PLZ-Portalfüllung allein reicht nicht.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Eigene Namens-/KG-Suche ohne Webresultate; NorthData-Suggest Herrschlein zeigt lediglich ähnlich geschriebenen Personentreffer Elisabeth Olga Maria Herschlein in Königsfeld i. Schwarzwald, nicht Lauda-Königshofen. Zusätzliche Abfrage Gretel Herschlein results leer; keine vollständige Registerauskunft, keine Firmenlöschung bewiesen. KG-/Gretel-Identität und Hauptstraße 30 weiterhin ungeklärt; ursprüngliche kg-Mindestmengen nicht als neu bestätigte Annahmebedingungen oder Ankaufspreise ausgeben. ANKAUF/VERKAUF/GEBÜHREN ohne qualifizierte Zahlenpreise. Owner: HRA bzw. Gewerbeauskunft zu Herrschlein/Herschlein und Hauptstraße 30 anfordern, erst dann GEO; Quelle: https://www.northdata.de/suggest.json?query=Herrschlein&countries=DE ; https://www.northdata.de/suggest.json?query=Gretel%20Herschlein&countries=DE .]
 
 ### Recherche 02.10.2026
 

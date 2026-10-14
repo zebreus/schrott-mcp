@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Jenny Tavernier Schrotthandel“, Silzweg 38, Hanhofen, liegt weiterhin kein Betreiber- oder Registerbeleg vor. Ein lokales Branchenbuch nennt stattdessen andere, räumlich getrennte Schrott-/Container-Leads im Silzweg (Rudolf Lehr Nr. 16, Richard/Iris Lehr Nr. 19, Josef Kreischer Nr. 31); diese belegen weder Nr. 38 noch Tavernier und dürfen nicht zusammengeführt werden. ANKAUF: keine Preise oder Bedingungen belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Status `pruefung` bleibt.
+Für „Jenny Tavernier Schrotthandel“, Silzweg 38, Hanhofen, liegt weiterhin kein gelesener Betreiber- oder Registerbeleg vor. Neu ist der eigene Cylex-/Auskunft-Lead mit 0176 24048503 und einer business.site-Kandidatendomain; diese liefert 404. Benachbarte Leads (Rudolf Lehr Nr. 16, Richard/Iris Lehr Nr. 19, Josef Kreischer Nr. 31) sind andere Betriebe und werden nicht zusammengeführt. ANKAUF: keine Preise oder Bedingungen belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Status `pruefung` bleibt; GEO bis zum Primärnachweis gesperrt.
 
 ## Timeline
+
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Neue konkrete Spur zur tatsächlichen Seedbezeichnung: Cylex-Suchindex führt „Jenny Tavernier Schrotthandel u.Entrümplungen“, Silzweg 38, 67374 Hanhofen, 0176 24048503; Auskunft-Suchtreffer verlinkt jenny-tavernier-schrotthandel-uentrumplungen.business.site. Diese Kandidatendomain direkt versucht, HTTP 404, keine Betreiberseite/Impressum gelesen. Neue Leads widerlegen lediglich die zu enge bisherige Suchabdeckung, nicht den fehlenden Primärbeleg. Keine Gleichsetzung mit Lehr/Kreischer oder Schließungsableitung aus 404. Seedstraße bleibt ungeprüft, Tel/PLZ/Website nicht gefüllt; Ankauf/Verkauf/Gebühren unbelegt, GEO erst nach Betreiber-/Adressnachweis; Quellen: https://search.brave.com/search?q=%22Jenny+Tavernier%22+Hanhofen (Cylex-/Auskunft-Leads) ; https://jenny-tavernier-schrotthandel-uentrumplungen.business.site/ (404)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

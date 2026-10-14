@@ -28,6 +28,10 @@ Der einzige dokumentierte Kontaktlead nennt Koloniestraße 107–108, 13359 und 
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Beide Schreibweisen gezielt direkt im Registerspiegel gesucht: Baumgarter & Partner Metallrecycling GmbH, Berlin und Baumgartner & Partner Metallrecycling GmbH, Berlin. Beide NorthData-Abrufe landen auf unscharfen Suchansichten (je 15 von 1.000+), nicht auf kongruentem Firmenprofil; keine belastbare HRB/Umfirmierung/Betreiberkette im sichtbaren Block. Treffer Baumgartner GmbH, Baumgartner Hof Projekt GmbH und andere Berliner Recyclingfirmen nicht gleichgesetzt. Das ist eine begrenzte Suchprüfung, kein vollständiger Register-Nichtfund und kein Schließungsbeweis. Seed-Tippfehler nicht ohne Identitätsbrücke korrigieren. Adresse/Telefon bleiben ungeprüfte Altleads; ANKAUF/VERKAUF/GEBÜHREN keine Zielpreise. Offen: Originalfirmierung/HRB und tatsächlicher Betreiber Koloniestraße 107-108; GEO bis dahin gesperrt; Quelle(n): https://www.northdata.de/Baumgarter+%26+Partner+Metallrecycling+GmbH,+Berlin ; https://www.northdata.de/Baumgartner+%26+Partner+Metallrecycling+GmbH,+Berlin .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe + NE; Tel. 030 49916228

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Siegfried Grundler Autoverwertung, Oldenburger Landstr. 50, 27753 Delmenhorst, 04221 452156 ist weiterhin nur in Verzeichnissen greifbar. 11880 führt keine Website/E-Mail/Zeiten und keine konkrete Annahme- oder Preisauskunft. Die frühere Aktivierung allein aus zwei Aggregatoren wurde auf `pruefung` korrigiert; keine Schließung behauptet. **Ankauf/Verkauf/Gebühren:** keine belastbaren Listen. GEO bis zur Betreiber-/Standortbestätigung zurückstellen; zusätzlich ist die Seed-Bundeslandzuordnung HB bei Ortsangabe Delmenhorst ein eigener Owner-Klärfall, nicht still verändert.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: 11880-Profil neu direkt gelesen: Oldenburger Landstr. 50, 27753 Delmenhorst (Deichhorst), 04221 452156, Kategorien Autoverschrottung/Autoverwertung, E-Mail/Website/Zeiten nur zum Hinzufügen. Datenstand 29.09.2026, Aktualisierung 06.10.2026 ist Portal-Metadatum, kein Beleg einer 2026 vorgenommenen Betreiberbestätigung. Preis-FAQ bietet nur generische Euro-Symbol-Erklärung, keine Grundler-Tarife. NorthData-Namensabfrage direkt zeigt zwei andere Personen, keine zuordenbare Grundler-Identität; Registersuche deckt Einzelgewerbe nicht zwingend ab. Quelle(n): https://www.11880.com/branchenbuch/delmenhorst/060440459B52869439/autoverwertungen-siegfried-grundler.html (Lead); https://www.northdata.de/Siegfried+Grundler,+Delmenhorst .]
+- [Korrektur 14.10.2026: status aktiv → pruefung: Aktivierung 02.10. beruhte ausdrücklich auf Gelbe Seiten/11880, nicht zwei qualifizierten Belegen; aktuelle Gegenprobe löst weder Betreiberidentität noch heutige Annahme auf. Adresse/Telefon als Legacy erhalten, keine Schließung. ANKAUF keine Fahrzeug-/Schrottkurse; VERKAUF keine Teilepreise; GEBÜHREN keine Entsorgungs-/Abholtarife. GEO vorerst gesperrt; Owner soll außerdem HB/Delmenhorst-Zuordnung prüfen, bevor Standort veröffentlicht/geokodiert wird (Slug bleibt stabil). Quelle: vorgenannte Gegenprobe, README.md Quellenhierarchie und erhaltene Recherche 02./04.10.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

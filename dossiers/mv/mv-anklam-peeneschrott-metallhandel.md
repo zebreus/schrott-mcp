@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Peeneschrott Metallhandel GmbH ist im direkt gelesenen NorthData-Profil als Rechtsträger AG Neubrandenburg HRB 20815 an Kirschenweg 5, 17389 Anklam greifbar, einschließlich 2026 publizierter Jahresabschlussdaten. Gesellschaftsvertrag/Originaldokument 03.01.2019 und Eintragungspublikation 15.01.2019 sind zu unterscheiden. Die früher genannte Betreiber-Domain ist weiterhin nicht abrufbar; keine Betreiberzuordnung oder aktuelle öffentliche Annahme dort gelesen. Registerfortbestand ist nicht gleich Hofbetrieb. **Ankauf/Verkauf:** historischer Unternehmensgegenstand ohne Tageskurse; **Gebühren:** keine Container-/Abholtarife. Einzelbeleg, `pruefung`; aktuelle Annahme/Kontaktdaten vor GEO bestätigen.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: NorthData-Zielprofil neu direkt gelesen: Peeneschrott Metallhandel GmbH, AG Neubrandenburg HRB 20815/EUID DEN1105V.HRB20815, Kirschenweg 5, D-17389 Anklam. Gegenstand Handelsvermittlung Land-/Baumaschinen, An-/Verkauf Lkw/Pkw, Aufarbeitung Recyclingmaterial zum Wiedereinsatz als Sekundärrohstoff, Handel Gebrauchtgüter/Rohstoffe. Sichtbar 29.01.2026 Publikation Jahresabschluss zum 31.12.2024; Eintragungspublikation 15.01.2019, daneben Originaldokument Gesellschaftsvertrag 03.01.2019. Frühere Kurzangabe Gründung 03.01.2019 deshalb nicht als Eintragungsdatum lesen. Registerspiegel eine zulässige Einzelquelle, keine zweite Betreiber-/Kommunalbestätigung; aktueller Telefonwert wird im Profil nicht unabhängig belegt; Quelle: https://www.northdata.de/Peeneschrott+Metallhandel+GmbH,+Anklam .]
+- [Recherche 14.10.2026: Kandidatdomain www.peeneschrott-anklam.de erneut direkt angefragt, Transportfehler; keine Website/Impressum gelesen oder zugeordnet, daher Frontmatter website weiter leer und kein tot-Status aus Einzelabruf. ANKAUF/VERKAUF keine aktuellen Händlerkurse, GEBÜHREN keine Container-/Abriss-/Abholtarife. pruefung bleibt; Kirschenweg 5 nun klarer Register-Einzelbeleg, GEO dennoch bis Bestätigung einer aktuellen Annahmestelle zurückgestellt. Owner: Betreiberwebsite/kommunalen Gewerbenachweis und Annahme/Telefon prüfen; Quelle(n): https://www.peeneschrott-anklam.de (fehlgeschlagener Abruf); vorgenanntes Registerprofil.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

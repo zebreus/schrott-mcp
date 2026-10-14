@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Die Seed-Identität „Schrott and More“ in Oldenburg ist weiterhin nicht belastbar einem aktuellen Betreiber zugeordnet. Die ähnlich benannte Domain `schrott-oldenburg.de` gehört laut aktuellem Impressum Marco Heick / J. Heick Recycling an der August-Wilhelm-Kühnholz-Straße 33; sie ist kein Beleg für diesen Seed und wird nicht übertragen. Der Seed-Status `aktiv` ist damit nicht neu bestätigt.
+Die Seed-Identität „Schrott and More“ in Oldenburg ist weiterhin nicht belastbar einem aktuellen Betreiber zugeordnet. Ein konkreter neuer Gelbe-Seiten-Profillead nennt den Namen in 26133 Oldenburg, ist aber direkt gesperrt und kein Betreiberbeleg. Die ähnlich benannte Domain `schrott-oldenburg.de` gehört laut erneut gelesenem Impressum Marco Heick / J. Heick Recycling an der August-Wilhelm-Kühnholz-Straße 33; sie ist kein Beleg für diesen Seed und wird nicht übertragen. Unbelegten Seed-Status `aktiv` auf `pruefung` zurückgenommen, nicht auf `geschlossen`.
 
 - **Ankauf:** für „Schrott and More“ nicht belegt.
 - **Verkauf:** keine verifizierte Preisliste.
@@ -32,6 +32,11 @@ Die Seed-Identität „Schrott and More“ in Oldenburg ist weiterhin nicht bela
 - **Geokodierung:** keine bestätigte Dossieradresse; Heicks August-Wilhelm-Kühnholz-Straße darf nicht auf diesen Seed übertragen/geokodiert werden.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Neue exakte Suchspur Gelbe-Seiten-Profil d20060be-5399-4238-b86d-1fa96d5bd42e: Schrott and More in 26133 Oldenburg, Freitag 07:30-15:00 im Suchindex; Direktabruf HTTP 403, keine Straße/Betreiber-/Kontaktidentität gelesen. PLZ/Zeiten daher nicht füllen. NorthData direkt erneut nur unscharfe Fremdfirmen im ersten Block (15 von 1.000+), kein eindeutiges Zielprofil; kein Nichtexistenzbeweis. Fremdzuordnung ausdrücklich gegengeprüft: schrott-oldenburg.de-Impressum nennt Marco Heick, August-Wilhelm-Kühnholz Straße 33, 26135 Oldenburg, 01759942237. Keine belegte Identitätsbrücke zum Seed; Quelle(n): https://www.gelbeseiten.de/gsbiz/d20060be-5399-4238-b86d-1fa96d5bd42e (Suchindex/403, Lead); https://www.northdata.de/Schrott+and+More,+Oldenburg ; https://schrott-oldenburg.de/impressum .]
+- [Korrektur 14.10.2026: status aktiv → pruefung, weil bereits die erhaltenen Recherchen 03./05./07.10. keine belastbare aktuelle Zielidentität belegen und auch die neue Suche nur einen Aggregatorlead liefert. Keine dauerhafte Schließung behauptet, leere Kontakte bleiben leer. ANKAUF/VERKAUF/GEBÜHREN keine dem Seed zuordenbaren Kurse/Tarife; GEO blockiert ohne Betreiberadresse. Owner-Aufgabe: Herkunft des Seed-Profils und Inhaber zu neuem GS-Lead klären, nicht Heick übernehmen; Quelle: vorgenannte Quellen und Dossierhistorie; README.md Quellenhierarchie.]
 
 ### Recherche 03.10.2026
 

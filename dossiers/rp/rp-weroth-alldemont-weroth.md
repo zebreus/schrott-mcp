@@ -1,7 +1,7 @@
 ---
 slug: rp-weroth-alldemont-weroth
 name: AsEG-ALLDEMONT GmbH
-trader_type: schrotthaendler
+trader_type: sonstige
 state: RP
 city: Weroth
 street: In der Mark 2
@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Asbestentsorgung, Schadstoffsanierung, Abbruch und Industriedemontagen in Weroth; öffentlicher Schrottankauf nicht bestätigt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net PROSE-Cluster (27.09.2026)
@@ -24,11 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-AsEG-ALLDEMONT GmbH, AG Montabaur HRB 24373, ist mit Betreiber-Impressum und unabhängiger Registerquelle der Firmenanschrift In der Mark 2, 56414 Weroth zugeordnet. Nur Identität/Firmenadresse strukturiert gefüllt, keine bestätigte öffentliche Schrott-/Asbestannahme. Betreiberquelle asbest-entsorgung.de beschreibt Rückbau/Schadstoffsanierung; Kontaktdaten nur dort belegt und deshalb nicht strukturiert gefüllt. Status pruefung, Typ schrotthaendler bleibt ungeklärte Seed-Kategorie, nicht positiv bestätigt. Keine Aktualitätsausnahme oder bewiesene gesellschaftsrechtliche Zusammenschlusskette beansprucht.
+AsEG-ALLDEMONT GmbH, AG Montabaur HRB 24373, ist mit Betreiber-Impressum und unabhängiger Registerquelle der Firmenanschrift In der Mark 2, 56414 Weroth zugeordnet. Identität/Firmenadresse und Sanierungs-/Demontagetätigkeit sind belegt, keine bestätigte öffentliche Schrott-/Asbestannahme. Betreiberquelle asbest-entsorgung.de beschreibt Rückbau/Schadstoffsanierung; Kontaktdaten nur dort belegt und deshalb nicht strukturiert gefüllt. Status pruefung bleibt. Keine Aktualitätsausnahme oder bewiesene gesellschaftsrechtliche Zusammenschlusskette beansprucht.
 
-**Preise:** ANKAUF: keine Preis- oder Annahmebedingungen belegt. VERKAUF: keine Preisliste. GEBÜHREN: keine belastbaren Asbest-, Container- oder Entsorgungstarife.
+Die Seed-Kategorie Schrotthändler wurde am 14.10. auf `sonstige` korrigiert: Registergegenstand und aktuelle Betreiberleistungen belegen Sanierung/Abbruch/Demontage, nicht einen öffentlichen Ankaufhof. Der Hinweis ist keine Behauptung, dass jeglicher Metallhandel ausgeschlossen sei.
+
+**Preise:** ANKAUF: keine Preis- oder Annahmebedingungen belegt. VERKAUF: keine Preisliste. GEBÜHREN: Betreiber bietet kostenlose unverbindliche Baustellenbesichtigung; dies gilt nicht für Sanierung, Abtransport oder Annahme. Keine belastbaren Asbest-, Container- oder Entsorgungstarife. **GEO:** Firmenadresse belegt, tatsächlicher Annahmehof nicht; allenfalls Firmenadresspunkt nach Owner-Prüfung.
 
 ## Timeline
+
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Korrektur 14.10.2026: Northdata HRB 24373 und Betreiber-Impressum/Startseite erneut direkt gelesen: übereinstimmende Firma/Adresse, Registergegenstand Asbestentsorgung, Schadstoffsanierung, Abbruch und Industriedemontagen; Betreiber beschreibt dieselben Leistungen. Zweitbelegte sachliche Kategorisierung schrotthaendler→sonstige und entsprechende description ergänzt, kein Aktivstatus/öffentlicher Schrottankauf daraus abgeleitet. Kontaktfelder weiterhin ungefüllt; offener Geschäftsführungs-/Kettenkonflikt der Vorwelle nicht behauptet gelöst. Quellen: https://www.northdata.de/AsEG-ALLDEMONT%20GmbH,%20Weroth/Amtsgericht%20Montabaur%20HRB%2024373 ; https://asbest-entsorgung.de/impressum/ ; https://asbest-entsorgung.de/]
+- [Recherche 14.10.2026: Betreiber-Startseite nennt Recycling von Bauabfällen, darunter Stromkabel, und kostenlose unverbindliche Baustellenbesichtigung. Recyclingangebot ist keine Auszahlung/Zulieferannahme, Gratisbesichtigung kein Nulltarif für Demontage/Entsorgung. Kein numerischer Ankauf-/Verkaufs-/Gebührentarif. Bestätigte Firmenadresse In der Mark 2 kann bei Bedarf geocodiert werden, aber nicht als verifizierter Annahmehof; Quelle: https://asbest-entsorgung.de/]
 
 ### Recherche 09.10.2026 / Korrektur 10.10.2026
 

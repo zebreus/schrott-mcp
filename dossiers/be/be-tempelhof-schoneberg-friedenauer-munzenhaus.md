@@ -11,7 +11,7 @@ email: a.gayck@web.de
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die direkt gelesene Verbandsliste und Mitglied-Detailkarte führen Alexander Gayck, Bundesallee 91, 12161 Berlin, 030/85406040, a.gayck@web.de und Ankauf von Gold-/Silbermünzen ab 1800. Das ist ein fachlich relevanter Mitglieder-/Zertifizierungshinweis, aber kein gelesener Betreiber-/Registerbeleg zur Geschäftsbezeichnung Friedenauer Münzenhaus. Verband plus Aggregator erfüllt nicht die wörtliche README-Zwei-Quellen-Hierarchie; `aktiv` deshalb auf `pruefung` zurückgenommen, keine Schließung behauptet. **Ankauf:** Münzankauf in Verbandsquelle genannt, keine Zahlenkurse; **Verkauf/Gebühren:** keine Tarife. Kein Zahngold-/Schmuckankauf aus Münz-Zertifizierung ableiten; Zeiten und GEO bleiben klärungsbedürftig.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Goldankäuferliste und Alexander-Gayck-Detailkarte des Berufsverbands erstmals in dieser Welle direkt einzeln gelesen: Bundesallee 91, 12161 Berlin, 030/85406040, a.gayck AT web.de, Numismatische Gebiete Ankauf Gold- und Silbermünzen alle Welt ab 1800 China USA; zert. Goldankäufer Ja nach verbandseigenen Kriterien/Seminarurkunde. Beide Seiten gehören derselben Verbandsquelle; Webseitenfelder leer, keine Öffnungszeiten/Preisliste und auf Detailkarte keine Bezeichnung Friedenauer Münzenhaus. Zertifizierung nicht mit EFB oder amtlichem Nachweis verwechseln. Quelle(n): https://www.muenzenverband.de/zertifizierte-goldankaeufer/ ; https://www.muenzenverband.de/suchergebnis/?pdb=2598 .]
+- [Korrektur 14.10.2026: status aktiv → pruefung; der Altvermerk 01.10. 2-Beleg-Standard ERFÜLLT (Branchenverband + Verzeichnis) war zu weitgehend. Ein Fachverband ist wichtige Zusatzspur, aber nicht eine der in README.md genannten Betreiber-/Register-/Kommunal-/Operator-Social-Evidenzklassen; zudem fehlt die unabhängige Brücke zwischen Alexander Gayck und der Seed-Geschäftsbezeichnung. Vorhandene Adresse/Telefon/E-Mail als offengelegte Altwerte erhalten; keine Schließung. ANKAUF keine konkreten Kurse (Zahngold aus Import nicht erneut bestätigt), VERKAUF/GEBÜHREN keine Listen. Owner: Gewerbeinhaber und Geschäftsname verbinden, Zeiten primär prüfen, Bundesallee 91 erst danach geokodieren; Quelle: vorgenannte Verbandsseiten, erhaltene Recherche 01.10. und README.md Quellenhierarchie.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

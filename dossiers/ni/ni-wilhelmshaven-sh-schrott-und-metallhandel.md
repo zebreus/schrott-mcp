@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Klärfall mit Registerwiderspruch: Das Dossier nennt SH Schrott- und Metallhandel UG, HRB 205502 AG Oldenburg, Gökerstr. 114. Northdata führt genau diese Gesellschaft als am 10.09.2019 gelöscht; eine ältere Recherche fand dagegen eine spätere Löschungsankündigung nach §394 FamFG. Originalbekanntmachung und möglicher Nachfolgebetrieb müssen geklärt werden.
+Die vermeintliche Widerspruchslage ist im erneut gelesenen NorthData-Profil eine zeitliche Folge: SH Schrott- und Metallhandel UG, AG Oldenburg HRB 205502, Löschungsankündigung 30.07.2019, anschließend Löschung 10.09.2019. Der Löschungsdetailtext bleibt Premium-gesperrt; ein aktueller Nachfolger oder Annahmebetrieb an Gökerstr. 114 ist weiterhin nicht bestätigt. Einzelbeleg aus Registerspiegel, `pruefung` bleibt statt unbelegter Standortschließung.
 
 - **Ankauf:** keine aktuelle, SH Wilhelmshaven zurechenbare Ankauftätigkeit oder Preisangabe.
 - **Verkauf:** keine Preisliste.
@@ -32,6 +32,11 @@ Klärfall mit Registerwiderspruch: Das Dossier nennt SH Schrott- und Metallhande
 - **Geokodierung:** Gökerstr. 114, 26384 Wilhelmshaven nicht geokodieren, bevor Rechtsträger und aktueller Standort bestätigt sind.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Registerspiegelprofil direkt gelesen: SH Schrott- und Metallhandel UG, AG Oldenburg HRB 205502/EUID DEP3210.HRB205502, Unternehmensgegenstand Handel mit Schrott/Altmetallen, Eintragungspublikation 25.03.2011 (GF Nina Hasanovic, Kapital 500 EUR). Publikationsfolge ausdrücklich Löschungsankündigung 30.07.2019 und Löschung 10.09.2019. Damit ist der alte Vermerk zur beabsichtigten Löschung nicht zwingend ein Gegenbeleg, sondern kann eine ältere Prozessstufe referieren; die im Überblick zuvor behauptete spätere Ankündigung ist nicht belegt. Detail Löschung ?id=5560062171 direkt aufgerufen, Premium-gesperrt; kein vollständiger Wortlaut/amtlicher Originalabzug gelesen. Keine aktuelle Standort-/Nachfolgebehauptung; Quelle(n): https://www.northdata.de/SH+Schrott-und+Metallhandel+UG+(haftungsbeschr%C3%A4nkt),+Wilhelmshaven/Amtsgericht+Oldenburg+HRB+205502 ; https://www.northdata.de/?id=5560062171 .]
+- [Recherche 14.10.2026: Einzelbeleg präzisiert, nicht zu zwei Quellen hochgezählt. pruefung beibehalten; Gökerstraße und Kontakte nicht neu bestätigt. ANKAUF/VERKAUF/GEBÜHREN keine heutige Liste/Tätigkeit. Owner: amtliche Löschung/letzte Anschrift und etwaigen heutigen Gewerbeinhaber getrennt prüfen; GEO für historische Adresse weiterhin zurückstellen. Quelle: vorgenanntes Profil und erhaltene Dossierhistorie.]
 
 ### Recherche 06.10.2026
 

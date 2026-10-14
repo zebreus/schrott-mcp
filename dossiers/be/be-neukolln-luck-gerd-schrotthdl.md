@@ -28,6 +28,10 @@ Fritz-Erler-Allee 148 und 030 6032481 werden von fünf Verzeichnissen wiederholt
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Ergänzende direkte NorthData-Namensabfrage Gerd Lück/Berlin landet in unscharfer Suchansicht (15 von 428 Personenresultaten), im sichtbaren Block kein passender Gerd-Lück-Schrotthandel. Andere Lück/Glueck/Heck-Personen nicht übertragen; kein vollständiger HR-/Gewerbe-Nichtfund. Ohne Betreiber-/Kommunalidentität bleiben Fritz-Erler-Allee 148, 030 6032481 bloße Legacy-Leads und pruefung bestehen. ANKAUF/VERKAUF/GEBÜHREN keine verifizierten Zielquellen; GEO nicht aus Verzeichnis-Kartentreffern ableiten. Nächster belastbarer Schritt Gewerbeauskunft/Betreiberbestätigung zu Name und Adresse, nicht weitere Aggregatorzählung; Quelle: https://www.northdata.de/Gerd+L%C3%BCck,+Berlin .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (nur Verzeichnisbeleg schrottplatz-info)

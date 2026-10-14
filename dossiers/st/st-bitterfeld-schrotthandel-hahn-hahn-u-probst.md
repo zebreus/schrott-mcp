@@ -29,6 +29,10 @@ Der Seed-Eintrag „Schrotthandel Hahn (Hahn u. Probst)“ stützt sich weiter n
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Neue gezielte Register-Suggest-Abfrage Hahn Probst Bitterfeld HTTP200/results leer; nicht vollständig und kein Existenz-Negativbeweis. Einträge aus bisherigen Verzeichnissen bleiben Leads, keine Identitätskette Hahn/Probst gewonnen. Antonienstraße 31a nicht mit anderen Recyclingbetrieben derselben Straße vermischen. ANKAUF/VERKAUF/GEBÜHREN ohne zuordenbare geprüfte Preise; GEO/PLZ-Fill zurückstellen. Owner: kommunale Gewerbeauskunft zur Adresse und zu beiden Nachnamen, einschließlich aktuellem Inhaber und etwaiger Abmeldung; Quelle: https://www.northdata.de/suggest.json?query=Hahn+Probst+Bitterfeld&countries=DE .]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Nur Aggregator-Leads (Das Örtliche/Gelbe Seiten: Antonienstr. 31 A, 06749 Bitterfeld-Wolfen, Tel. 03493 22208; Buntmetall/Guss-Angebot); keine Betreiber-Website, kein HR-, kein Register-Beleg; Abgrenzung: Scholz Recycling (Antonienstr. 7) und Bitterfelder Metallrecycling sind ANDERE Betriebe — nicht vermischen; daher kein Fill, status pruefung; Quelle(n): Websuche 02.10.2026 (Aggregator-Leads, kein Beleg)]

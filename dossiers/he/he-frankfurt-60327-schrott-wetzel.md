@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische Frankfurter Standortspur, aber keine heute identifizierte Niederlassung. Das nun vollständig ausgewertete Efb-Zertifikat des Mannheimer Betreibers (15.06.2026, gültig bis 17.05.2027) enthält neun Anlagen ausschließlich für Mannheim und Karlsruhe. Es schließt die bisherige PDF-Prüflücke, beweist aber weder eine Frankfurter Schließung noch eine aktuelle Adresse in 60327. Keine Mannheimer Kontakte oder Konditionen übertragen.
+
+**Ankauf/Verkauf/Gebühren:** für Frankfurt keine zuordenbare Preisquelle. **GEO:** gesperrt, bis historische Adresse und heutiger Betreiber/Standort geklärt sind.
 
 ## Timeline
+
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Betreiber-Downloads erneut gelesen und dort verlinktes Efb-PDF vollständig als Text ausgewertet (27 Seiten). ZN ZertifizierungsNetzwerk GmbH, Zertifikat 2026-0102E / ZZHT010002243008, Prüfung 11.03.2026, Ausstellung 15.06.2026, gültig bis 17.05.2027; Hauptsitz Schrott-Wetzel GmbH, Holländer Straße 42–50, Mannheim, HRB 7220. Neun Standort-/Tätigkeitsanlagen nennen Mannheim und Karlsruhe, keine Frankfurter Anlage. Das fehlende Frankfurt ist ein begrenzter Zertifikatsumfang, kein Schließungsbeweis. PDF-Prüflücke vom 03.10. geschlossen; Frontmatter unverändert. Ankauf, Verkauf, Gebühren und geocodierbare Frankfurter Anschrift weiterhin offen; Quellen: https://www.schrott-wetzel.de/downloads.html ; https://www.schrott-wetzel.de/documents/2026-06-15-Zertifikat_EfBV.pdf]
 
 ### Recherche 03.10.2026
 

@@ -30,6 +30,10 @@ Die Frontmatter-Adresse Tullastraße 7, 75031 Eppingen und Telefonnummer 07262 8
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Bekannte www-Betreiberdomain erneut direkt abgerufen, weiterhin Transportfehler, kein Impressum oder Preisinhalt auswertbar. Frühere Zertifizierungs-/Leistungsbeschreibung im Frontmatter ist weiterhin nicht durch direkt gelesenes Originalregister oder Betreiberbeleg aktuell verifiziert; diese Welle bestätigt weder Anerkennung noch Inhaber Can Kaygun. ANKAUF/VERKAUF/GEBÜHREN: kein neuer belastbarer Kurs/Teilepreis/Abholtarif. Tullastraße 7/75031 nur historischer Kandidat; vor GEO aktuelle GESA-Originalauskunft und Gewerbeidentität prüfen, nicht aus Domainausfall Schließung ableiten; Quelle: https://www.autoverwertung-kaygun.de/ (Abrufgrenze); Verzeichnis-/Registerspiegelherkunft siehe 30.09./07.10.]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: AutoverwerterFinder führt „Autoverwertung Kaygun“ weiterhin an Tullastraße 7, 75031 Eppingen, 07262 8345, als Demontagebetrieb; Eintrag zuletzt 21.09.2026 aktualisiert und behauptet eine Prüfung im GESA-Fachbetrieberegister. Das ist ein Registerspiegel, nicht der direkt gelesene GESA-Originaleintrag. Dieselbe Seite listet Fahrzeugankauf, Abholung und Abmeldeservice, aber keine konkreten Preise oder Gebühren. Der dort verlinkte Betreiberauftritt https://www.autoverwertung-kaygun.de/ war beim Direktabruf nicht auswertbar (Transportfehler); alte Domainversuche bleiben ebenfalls dokumentiert. Kein Frontmatter-Fill und keine Statusänderung; offene Primärbelege: Originalregistereintrag, Betreiberidentität/Impressum, aktuelle Annahme- und Abholbedingungen. Keine Geokodierung bis zur Primärbestätigung; Quelle: https://autoverwerterfinder.de/autoverwerter/autoverwertung-kaygun/ ; https://www.autoverwertung-kaygun.de/]

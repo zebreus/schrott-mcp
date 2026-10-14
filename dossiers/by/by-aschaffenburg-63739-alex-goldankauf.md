@@ -28,6 +28,10 @@ Die Branchenverzeichnisse führen ALEX Goldankauf an Roßmarkt 39 A, 63739 Ascha
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Bekannten Facebook-Kandidaten direkt erneut abgerufen, aber kein auswertbarer Inhalt zurückgegeben. Damit weder aktueller Betreibername noch Roßmarkt 39 A noch Öffnungszeiten über Social verifiziert; früher genannte Bewertungen bleiben ausdrücklich kein Beleg. Eigene Websuche liefert keine Ergebnisse, das ist eine Recherchegrenze, kein Schließungsbefund. ANKAUF/VERKAUF/GEBÜHREN: keine neu gelesenen numerischen Preise, keine Übertragung Kölner Juwelierkurse. Frontmatter unverändert; GEO nur nach Gewerbe-/Social-Identitätsbestätigung. Owner: rechtlichen Inhaber des Ladens am Roßmarkt über Gewerbeauskunft Aschaffenburg ermitteln; Quelle: https://www.facebook.com/p/ALEX-Goldankauf-Juwelier-100057339164830/ (Abruf ohne auswertbaren Inhalt); Altleads siehe 04./07.10.]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: street/postcode gefüllt + status pruefung → aktiv (begründeter Ausnahmefall, offengelegt): Das-Örtliche-Detailseite nennt Roßmarkt 39 A, 63739 Aschaffenburg-Innenstadt, Tel 06021 9218508 (passt zu Seed-Telefon) + Zweitnummer 0176 23748176; Aktivität belegt durch 52 Bewertungen (5/5, neueste 30.09.2026) + Google 150 Bewertungen 5/5. KEINE Betreiber-Website, kein Registerbeleg; juwelier-alex.de bleibt Fremdfirma (Köln, s. 01.10.). Zeiten (golocal: Mo-Fr 10-18, Sa 10-16) sind als nutzergemeldet/unredaktionell markiert → KEIN opening_hours-Fill. Hinweis: PLZ stand bereits im city-Feld; Koordinaten ggf. neu zu geocodieren; Quelle(n): dasoertliche.de-Detailseite ALEX GOLDANKAUF ASCHAFFENBURG (Abruf 02.10.2026)]

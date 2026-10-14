@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seedname GEPARD lässt sich noch keiner Schrottfirma in Möglingen zuordnen. Die gezielte Register-Suggest-Suche bleibt leer, eine breitere GEPARD-Abfrage zeigt ortsfremde Firmen ohne Möglinger Zuordnung. Aulfinger ist keine bewiesene Nachfolge und darf den unbestimmten Datensatz nicht mit seinen Standortdaten füllen.
+
+**Ankauf / Verkauf / Gebühren:** keine zugeordneten Preise; auch „nur B2B“ ist lediglich Seedbehauptung. **GEO:** keine belastbare Adresse vorhanden. Owner muss Originalimport und kommunale Gewerbeidentität rückverfolgen, bevor Website, Kundentypen oder Koordinaten ergänzt werden.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: NorthData-Suggest GEPARD Möglingen results leer, breite GEPARD-Abfrage liefert u.a. Firmen in Faßberg, Oranienburg, Offenbach, Erkrath und Dortmund, keine kongruente lokale Identität. Trefferliste ist Suchhilfe, kein vollständiger Register-Negativbeweis und kein Beleg, dass die ortsfremden Firmen generell sachfremd sind; keine davon übernommen. Eigene Schrott-/Ortssuche ohne Ergebnisse. ANKAUF/VERKAUF/GEBÜHREN nicht zuordenbar; keine Domain geraten, keine GEO. Owner: vollständigen Gewerbenamen und Ausgangsquelle des B2B-Seeds ermitteln; Quelle: https://www.northdata.de/suggest.json?query=GEPARD+M%C3%B6glingen&countries=DE ; https://www.northdata.de/suggest.json?query=GEPARD&countries=DE .]
 
 ### Recherche 03.10.2026
 

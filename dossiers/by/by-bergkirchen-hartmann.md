@@ -32,6 +32,10 @@ provenance_origin: prose
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle B)
+
+- [Recherche 14.10.2026: Bekannte historische Domain direkt erneut geprüft: HTTP 404. NorthData-Suggest Hartmann Bergkirchen liefert HTTP200 mit results leer; das ist keine vollständige Registerauskunft, insbesondere kein Negativbeweis für eine nicht eingetragene Schrotthandlung. Fritz/Cornelia Hartmann, Himmelreichstraße 23 versus 23 A und etwaige Autoneo-Nachfolge bleiben unaufgelöst; frühere Verzeichniszeiten nicht neu bestätigt. ANKAUF/VERKAUF/GEBÜHREN: mangels auswertbarer Betreiberseite keine Preisprüfung möglich, keine Kostenfreiheit ableiten. GEO zurückstellen. Nächster qualifizierender Weg: Gewerbeauskunft Bergkirchen zu Fritz/Cornelia und der konkreten Hausnummer, dann aktuelle Annahmebedingungen; Quelle: http://www.autoverwertung-hartmann.de/ ; https://www.northdata.de/suggest.json?query=Hartmann+Bergkirchen&countries=DE .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 85232)

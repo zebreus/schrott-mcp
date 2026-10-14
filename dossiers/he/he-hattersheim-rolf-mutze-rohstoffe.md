@@ -30,6 +30,10 @@ Adresskonflikt bleibt offen: Registerprofil **Schützenstr. 2**, Seed **Schütze
 
 ## Timeline
 
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Registerprofil erneut direkt gelesen und Gegenstand/Adresse geprüft: HRB 76431, Rolf Mütze Rohstoffe GmbH, zuvor M. Hippe Rohstoffe GmbH, Schützenstr. 2, 65795 Hattersheim; Handel mit Rohstoffen, Metallen und Schrott. Der Seedwert 2a bleibt als historischer Konflikt erhalten, keine neue zweite zulässige Adressquelle erschlossen. Nicht mit dem gelöschten Einzelhandelsregister HRA 19785 oder Ferdinand Wegner/Helga Hippe HRA 81370 gleichsetzen; Namensnähe und ältere Telefonnummern sind keine Kettenbeweise. Keine öffentliche Annahme oder Preise für Ankauf/Verkauf/Gebühren bestätigt. GEO erst nach Klärung 2/2a und tatsächlichem Hof; Quelle: https://www.northdata.de/Rolf+M%C3%BCtze+Rohstoffe+GmbH,+Hattersheim+a.+Main/Amtsgericht+Frankfurt+am+Main+HRB+76431]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Northdata-Firmenprofil direkt gelesen: Rolf Mütze Rohstoffe GmbH, HRB 76431, EUID DEM1201.HRB76431, Schützenstr. 2, 65795 Hattersheim a. Main, Unternehmensgegenstand Handel mit Rohstoffen, Metallen und Schrott. Profil nennt Adresspublikation 16.01.2024 sowie Namen M. Hippe Rohstoffe GmbH/Umbenennungspublikation 12.06.2006; diese Historie allein ist keine neu zweitbelegte Betreiberkette. Registerzweck nicht mit laufendem Privatankauf verwechselt. Konflikt 2/2a ungelöst, keine Frontmatter-Überschreibung oder neue Annahmebehauptung; Quelle(n): https://www.northdata.de/Rolf+M%C3%BCtze+Rohstoffe+GmbH,+Hattersheim+a.+Main/Amtsgericht+Frankfurt+am+Main+HRB+76431]

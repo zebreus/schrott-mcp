@@ -30,6 +30,10 @@ Nur ein ungeklärter Verzeichnislead: 11880 führt „Autoverwertung Gurr“ an 
 
 ## Timeline
 
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Betreiber-Domain erneut direkt versucht, Transportfehler; keine Seite und kein Impressum gelesen. Damit keine unabhängige Bestätigung der älteren Am-Sandloch-8-/Kontaktleads, keine Umdeutung als bewiesene Betriebsaufgabe. Folgeschritt ist ein Betreiberprofil mit rechtlicher Anbieterkennung oder kommunale Gewerbeauskunft zur genauen Anschrift, nicht das Übernehmen von Verzeichniszeiten. Frontmatter unverändert; Ankaufvergütung, Teileverkaufpreise, Entsorgungs-/Abholgebühren sowie GEO bleiben offen. Quelle: https://autoverwertung-gurr.de/ (Abruffehler)]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Quellenlage nach erneutem Abgleich unverändert. Das 11880-Profil nennt Am Sandloch 8, 67065 Ludwigshafen-Rheingönheim und 0176 11055958 (Verzeichnislead); Cylex führt dieselbe Marke/Adresse, während GoLocal eine ältere abweichende Nummer nennt. `autoverwertung-gurr.de` war beim Direktaufruf nicht verwertbar; HTTP-/Transportfehler beweisen keine Nichtexistenz oder Schließung. Kein Betreiber-Impressum/Registerbeleg und kein Ankauf, Teileverkauf oder Gebührenmodell verifiziert. Frontmatter und Status `pruefung` unverändert; Adresse nicht für GEO freigegeben. Quellen: https://www.11880.com/branchenbuch/ludwigshafen-am-rhein/060440459B48886851/autoverwertung-gurr-autoverwertung.html ; https://web2.cylex.de/firma-home/autoverwertung-gurr-14955262.html ; https://autoverwertung-gurr.de/]

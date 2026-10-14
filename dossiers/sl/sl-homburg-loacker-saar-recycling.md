@@ -4,15 +4,15 @@ name: Loacker Saar Recycling GmbH
 trader_type: sonstige
 state: SL
 city: Homburg
-street: ''
-postcode: ''
+street: An der Remise 20
+postcode: '66424'
 phone: ''
 email: ''
 opening_hours: ''
 website: https://loacker-recycling.com/
 website_status: ''
 status: pruefung
-description: ''
+description: 'Recyclingbetrieb und Handel mit Stahl- und NE-Metallschrott in Homburg; Privatannahmebedingungen und Vergütung gesondert zu klären.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die deutsche Loacker Saar Recycling GmbH ist nun mit Betreiber-Standortseite und direkt gelesenem Northdata-Registerprofil (Saarbrücken HRB 3724) an An der Remise 20, 66424 Homburg belegt. Beide Quellen beschreiben auch die Umfirmierung SRP Saarländische Rohprodukte GmbH → Loacker Saar Recycling GmbH 2018. Dies ist eine Umfirmierung derselben Registereinheit, kein pauschaler Nachweis weiterer Übernahme-/Filialketten.
+
+Betreiber-HTML nennt Kundencenter für Privat-/Gewerbekunden, +49 6841 69060, homburg@loacker.cc und Warenannahme Mo–Fr 7–12/12:30–16, Annahmeschluss 15 Minuten vor Ende. Kundencenter separat Mo–Do 8–16/Fr 8–14. Diese Detailkonditionen bleiben Betreiber-Einzelbelege: Gruppenimpressum ist österreichisch, keine deutsche Aktualitätsausnahme beansprucht. **Ankauf/Verkauf:** Metallhandel belegt, keine Zahlenkurse; **Gebühren:** keine Tarife. Privatkundencenter ist keine pauschale Annahme aller Materialien. **GEO:** neue bestätigte Adresse geocodieren; Karte und GeoCircle enthalten unterschiedliche Kandidaten, keinen geprüften Torpunkt.
 
 ## Timeline
+
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Vorwellenblocker Register erstmals aufgelöst: Northdata direkt gelesen, Loacker Saar Recycling GmbH/HRB 3724, An der Remise 20, 66424 Homburg, vorheriger Name SRP Saarländische Rohprodukte GmbH und Namenspublikation 03.04.2018. Aktuelle Betreiber-Standortseite inklusive eingebettetem JSON separat gelesen; sie nennt identische Firma/Adresse, Stahl-/Buntmetallhandel und Umfirmierung 2018. Zwei unabhängige zulässige Quellen für Firmen-/Adressidentität und Umfirmierung; street/postcode/description gefüllt. Die ältere Einschränkung „Register/Kette offen“ ist insoweit überholt, nicht für Homburg II/Beeder Straße 21. Quellen: https://www.northdata.de/Loacker+Saar+Recycling+GmbH,+Homburg/Amtsgericht+Saarbr%C3%BCcken+HRB+3724 ; https://loacker-recycling.com/de/location/loacker-homburg-an-der-remise/]
+- [Recherche 14.10.2026: Betreiber-JSON nennt Privat- und Gewerbekundencenter, +49 6841 69060, homburg@loacker.cc, Warenannahme Mo–Fr 7–12/12:30–16. Kontakt/Zeiten/Annahmebedingungen nicht zweitbelegt, österreichisches Gruppenimpressum kein deutsches Betreiber-Impressum: daher keine entsprechenden Frontmatter-Fills oder Aktivierung. Keine numerischen Ankauf-/Verkaufskurse oder Gebühren. JSON-LD GeoCircle-Mittelpunkt 49.3216654/7.3236034 nicht als geprüfte Koordinate übernommen; neue bestätigte Adresse zur Owner-Geocodierung. Quelle: https://loacker-recycling.com/de/location/loacker-homburg-an-der-remise/]
+- [Recherche 14.10.2026: Vollständiger Datenabgleich unterscheidet Warenübernahme von Kundencenter: Annahmeschluss 15 Minuten vor Ende, Kundencenter Mo–Do 8–16/Fr 8–14. Eingebettete Standortkarte nennt 49.321737/7.3258792 und Google-place_id ChIJR1lp48PalUcRoZBOTY5W0XI, abweichend vom GeoCircle-Mittelpunkt. Beide Punkte sind Betreiber-Kandidaten; keine Genauigkeit/Torlage geprüft, deshalb kein lat/lon-Fill. Quelle: https://loacker-recycling.com/de/location/loacker-homburg-an-der-remise/]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

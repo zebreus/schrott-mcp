@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: 'Autoverwertung; historisch wurden wiederverwendbare Pkw-Teile vor der Verschrottung ausgebaut und angeboten.'
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Eberhard Kielows historische Autoverwertung und die Fortführung im Familienbetrieb sind im Unternehmerprofil von 2024 beschrieben; der dort heute porträtierte Betrieb ist Marians freie Kfz-Werkstatt mit Ersatzteilverkauf und Abschleppservice. EKIE-Findlinge gehört laut direkt gelesenem Impressum Marian Kielow, Schorbuser Ausbau 1, und ist keine spezifische Website für Eberhards Autoverwertung. Frühere Creditreform-Spur in dieser Welle 403-gesperrt; keine aktuelle Altfahrzeugannahme oder Zertifizierung neu belegt. Deshalb `pruefung` statt unqualifiziert aktuellem `aktiv`, keine Schließung. **Ankauf:** ungeklärt; **Verkauf:** historischer Teileverkauf/2024 Werkstattleistung ohne Preise; **Gebühren:** keine Tarife. GEO erst nach aktueller Betreiber-/Annahmeplatzbestätigung und Auflösung Schorbus-Ausbau/Schorbuser Ausbau.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Unternehmerprofil direkt neu gelesen (Webdatum 11.10.2024, eigene Quellenangabe Drebkauer Heimatblatt 28.09.2024): Marian betreibt seit 2001 freie Kfz-Werkstatt auf elterlichem Grundstück, Vater Eberhard gründete 1987 Autoverwertung, Marian führt Betrieb übergreifend fort; als Werkstattleistungen werden Reparatur, HU/AU, Reifenwechsel, Ersatzteilverkauf, Abschleppen genannt. Der Bericht beschreibt den Ausbau begehrter Teile vor Verschrottung historisch zu DDR-Zeiten. Kein Nachweis heutiger Annahmebedingungen/Autoverwertungszertifikat. EKIE-Impressum direkt gelesen: Marian Kielow, Schorbuser Ausbau 1, 03116 Drebkau, Tel./E-Mail im gelesenen Text leer. Creditreform-URL aus Vorrecherche heute HTTP 403; wirtschaftsaktiv daher nicht frisch bestätigt. Keine Betreiberkette Eberhard → Marian allein aus gemeinsamem Grundstück zu strukturiertem Rename machen; Quelle(n): https://www.drebkauer-ansichten.de/index.php/beitraege/alle-kategorien-in-einer-beitragskategorie-auflisten/ortsteile/schorbus-skjarbosc/drebkauer-unternehmerprofil ; https://www.ekie-findlinge.de/impressum/ ; https://firmeneintrag.creditreform.de/03116/3050002175/EBERHARD_KIELOW_GEBRAUCHTWAGENHANDEL_UND_AUTOVERWERTUNG (403).]
+- [Korrektur 14.10.2026: status aktiv → pruefung: frühere Creditreform-Einzelquelle plus regionales Profil sind keine zwei zulässigen unabhängigen Quellen nach README, und die gelesene Betreiberwebsite betrifft Findlinge/Marians Firmierung, nicht zweifelsfrei Eberhards heutige Autoannahme. Name/Adresse/Telefon/historische Beschreibung bleiben erhalten, keine Schließung. ANKAUF keine aktuellen Fahrzeug-/Schrottkurse; VERKAUF keine Teilepreisliste; GEBÜHREN keine Abschlepp-/Entsorgungstarife. Owner: heutige Gewerbe-/Zertifikatszuordnung und Adresse prüfen, dann GEO; Quelle: vorgenannte Quellen, README.md Quellenhierarchie und erhaltene Historie.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

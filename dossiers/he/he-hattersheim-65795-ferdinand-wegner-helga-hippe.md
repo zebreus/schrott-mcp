@@ -30,6 +30,10 @@ Die eingetragene Ferdinand Wegner und Helga Hippe KG (HRA 81370) wurde 2009 gel�
 
 ## Timeline
 
+### Recherche 14.10.2026 — 18:00-Welle A
+
+- [Recherche 14.10.2026: Northdata HRA 81370 erneut direkt gelesen: Registertitel „Ferdinand Wegner und Helga Hippe KG, Schrott und Metalle, Muldendienst, Abbruch- und Erdarbeiten“, Sitz Kelsterbach, Löschung 20.01.2009. Der bisherige URL-Text „GmbH & Co. KG“ ist nicht die vom Profil angezeigte aktuelle historische Firmierung und kein zweiter Rechtsträgerbeleg. Hattersheim-Zuordnung weiterhin nur Seed-/Verzeichnisspur; keine sichere Gleichsetzung mit HRA 19785 oder heute bestehender Rolf Mütze Rohstoffe GmbH HRB 76431. Kein Frontmatter-Status geschlossen für den ungeklärten Seedstandort, keine aktuellen Preise/Gebühren; keine Geocodierung historischer Fremdadressen. Quelle: https://www.northdata.de/Ferdinand+Wegner+%26+Helga+Hippe+GmbH+%26+Co.+KG,+Kelsterbach/Amtsgericht+Darmstadt+HRA+81370]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Registerbeleg: Ferdinand Wegner und Helga Hippe KG, Kelsterbach, AG Darmstadt HRA 81370 — erloschen (Löschung 20.01.2009, Northdata ✝︎). Hattersheim-Adresse (Am Welschgraben 1, Tel. 06190 899750) nur Aggregator-Leads; City-Mismatch ungeklärt. Kein Frontmatter-Fill aus Aggregatoren; Klärfall für Folgewelle (Nachfolge Rolf Mütze / Inh. Michael Ferdinand Hippe, HRA 19785 Hattersheim prüfen). Quelle(n): https://www.northdata.de/Ferdinand+Wegner+%26+Helga+Hippe+GmbH+%26+Co.+KG,+Kelsterbach/Amtsgericht+Darmstadt+HRA+81370.]

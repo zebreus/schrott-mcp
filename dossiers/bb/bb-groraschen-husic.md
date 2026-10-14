@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: 11880-Detail neu direkt gelesen: Schrotthandel Husic, Karl-Marx-Str. 18, 01983 Großräschen, 0155 61332975, Kategorien Entrümpelung/Schrotthandel, keine Zeiten, E-Mail/Website nur zum Hinzufügen; Datenstand 01.06.2026/Update 04.10.2026. FAQ-Verweis auf das allgemeine Label vom Inhaber bestätigt ist kein nachgewiesener Betreiber-Nachweis für diesen Eintrag. Kommunale Hedt-Detailkarte ebenfalls direkt gelesen: Monika Hedt, Neu Bückgen 28, eigene Festnetz-/Mobilnummern, Eintritt 01.06.2007. Sie belegt einen anderen Betrieb, nicht Husic. Keine Kontakte aus Leads gefüllt, pruefung unverändert. ANKAUF keine Zahlenkurse; VERKAUF/GEBÜHREN keine Listen. Offen: voller Name, Gewerbezuordnung und heutige Annahme/Abholung; Karl-Marx-Straße erst dann geokodieren; Quelle(n): https://www.11880.com/branchenbuch/grossraeschen/060441363B113521775/schrotthandel-husic.html (Lead); https://www.grossraeschen.de/verzeichnis/visitenkarte.php?mandat=21796 (kommunale Fremdbetriebsquelle).]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Erneute Namenssuche ergab keinen Betreiberauftritt oder unabhängigen Nachweis zusätzlich zum 11880-Treffer; das kommunale Verzeichnis führt weiterhin den anderen Betrieb „Hedt“ an Neu Bückgen 28. Keine Verbindung konstruiert und keine Frontmatter-Fills. In den geprüften Quellen keine konkrete Ankaufpreisliste, Verkaufspreise oder Gebühren; Status pruefung bleibt. Quelle(n): https://www.11880.com/branchenbuch/grossraeschen/060441363B113521775/schrotthandel-husic.html (Aggregator); https://www.grossraeschen.de/verzeichnis/visitenkarte.php?mandat=21796 (kommunaler Eintrag für Hedt, kein Husic-Beleg).]

@@ -28,6 +28,11 @@ Name, Gärtnerstr. 17–18, 13055, Mobilnummer, Einsatzgebiet und Öffnungszeite
 
 ## Timeline
 
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Schrottplatz-Info-Profil direkt erneut gelesen: Gärtnerstr.17-18, 13055 Berlin, 01708903685, Mo-Fr 09-18/Sa 09-15 sowie genannte Berliner Einzugsgebiete bleiben ausschließlich Portalangaben. Homepage-Link tatsächlich relativ /%20www.schrottpreise-in-berlin.de%20, also technisch kein sauberer externer Betreiberlink; die separat aufgerufene Domain https://schrottpreise-in-berlin.de/ liefert erneut Transportfehler, kein Impressum gelesen. NorthData-Namensabfrage zeigt nur unscharfe Personenresultate (15 von 69), keinen im sichtbaren Block passenden Kemal Kashev; keine exhaustive Register-/Gewerbeprüfung. Keine neuen Fills oder Schließungsbehauptung; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Berlin/Schrottankauf-Kemal-Kashev- ; https://schrottpreise-in-berlin.de/ ; https://www.northdata.de/Kemal+Kashev,+Berlin .]
+- [Recherche 14.10.2026: Offene Identitätsfrage gezielt: aktueller Gewerbeinhaber und Mitnutzung/Nachfolge bei Gärtnerstraße 17-18 (Autoverwertung Wagner) sind nicht geklärt. Historische Zeiten/Telefon nicht primär bestätigt. ANKAUF nur Portal-Leistungsbehauptung, keine Kashev-Zahlenkurse; VERKAUF und GEBÜHREN keine belegten Listen. GEO nicht auf den Wagner-Standort oder auf Portal-Kartenpunkt übernehmen, bevor Kashevs Annahmestelle bestätigt ist; Quelle: vorgenanntes Portalprofil und Dossierhistorie.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - schrottplatz-info-Detailseite mit Leistungsbeschreibung (Einzugsgebiet Marzahn/Lichtenberg/Pankow); gleiche Adresse wie Autoverwertung Wagner Adresse: Gärtnerstr. 17-18, 13055 Berlin; Mobil 0170 8903685

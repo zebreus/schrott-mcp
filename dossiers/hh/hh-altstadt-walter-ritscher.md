@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-Walter Ritscher GmbH an Ferdinandstr. 32 ist weiterhin lediglich als Hamburger Verzeichnis-Kandidat greifbar. Keine aktuelle Betreiberseite oder Registeridentität gelesen; historischer Schiffabbruch ist kein Nachweis heutiger öffentlicher Schrottannahme. Unbelegter Seed-Status `aktiv` vom Owner auf `pruefung` zurückgenommen, Anschrift ungeprüft. Ankauf, Verkauf und Gebühren ohne verifizierte Zahlen oder aktuelle Konditionen.
+Der neue Registerspiegelbefund identifiziert einen historischen Rechtsträger: Walter Ritscher GmbH, Hamburg HRB 12088, wurde 2007 FIS Brokerage GmbH (Schiffsvermittlung); NorthData verzeichnet die Löschung 2014. Das ist ein Einzelbeleg für die Namenskette, noch kein unabhängig bestätigter Abgleich zur konkreten Ferdinandstraße 32 und kein heutiger Schrottannahmeplatz. Der Portal-Homepage-Link führt lediglich zur Portalstartseite. `pruefung` bleibt; keine verifizierten Ankauf-/Verkaufskurse oder Gebühren. Keine GEO-Freigabe für die historische Büroanschrift.
 
 ## Timeline
+
+### Recherche 14.10.2026 (18:00-Welle C)
+
+- [Recherche 14.10.2026: Erstmals kongruenter historischer Rechtsträger im direkten NorthData-Abruf gefunden: Alias Walter Ritscher GmbH → FIS Brokerage GmbH, AG Hamburg HRB 12088, EUID DEK1101R.HRB12088. Die einzeln gelesene Bekanntmachung vom 30.10.2007 nennt den Beschluss 18.10.2007 zur Umfirmierung und als neuen Gegenstand erlaubnisfreie Vermittlung von Schiffen, schwimmenden Fahrzeugen, Schiffsausrüstung und Schiffsneubauten. Profil führt Löschung 02.07.2014; Löschungsdetail Premium-gesperrt, kein amtlicher Originalabzug in dieser Welle. Quellen desselben Registerspiegels sind nicht zwei unabhängige Belege; Quelle(n): https://www.northdata.de/Walter+Ritscher+GmbH,+Hamburg ; https://www.northdata.de/?id=5935718 ; https://www.northdata.de/?id=143775011 .]
+- [Recherche 14.10.2026: Portal-Schrottplatz-Info direkt gelesen: Ferdinandstr. 32, 20095 Hamburg, 040 331731, keine vollständige Beschreibung/Zeiten; als Homepage lediglich / auf demselben Portal. Keine Betreiberwebsite daraus ableiten. Registertext maskiert die Straße (nur D-20095 Hamburg sichtbar), deshalb keine unabhängig belegte Verknüpfung HRB 12088 ↔ Ferdinandstraße 32; weder Rename noch geschlossen gesetzt. Offen: Originalregister und historische Adressbrücke, gegebenenfalls heutiger Nachfolgebetreiber/Annahmeplatz. ANKAUF/VERKAUF/GEBÜHREN: keine zurechenbaren aktuellen Zahlen; GEO bis Standortklärung zurückstellen; Quelle: https://www.schrottplatz-info.de/schrottplatz/Hamburg/Walter-Ritscher-GmbH (Lead).]
 
 ### Recherche 14.10.2026 (Welle 5 A)
 
