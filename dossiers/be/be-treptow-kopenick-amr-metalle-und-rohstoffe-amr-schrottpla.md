@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+AMR Metalle und Rohstoffe GmbH an Schnellerstr. 20E, Berlin, wurde historisch über Betreiberseiten/Registerangabe recherchiert. Aktueller Inhalt ist jedoch nicht verifizierbar: HTTP liefert 502, HTTPS scheitert an einem abgelaufenen Zertifikat. Die vier gespeicherten Preiszeilen wurden zuletzt am 07.10.2026 beobachtet und sind kein heutiger Preisnachweis. Historische Kontakte und Zeiten sind nicht frisch bestätigt; keine Betriebsschließung aus der Abrufstörung ableiten. Ankaufskurse, Verkaufspreise und Gebühren heute nicht neu geprüft; kein ungeprüfter URL- oder Preisfallback.
 
 ## Timeline
+
+### Technische Nachprüfung 14.10.2026
+
+- [Recherche 14.10.2026: Owner reproduziert den regulären HTTP502 im DB-freien Live-Handler, Exit 1. Unabhängiger HTTP-www-Abruf ebenfalls 502; HTTPS-www-Startseite und Impressum mit normaler Zertifikatsprüfung beide explizit certificate has expired, keine Betreiberinhalte gelesen. Daher weder sichere HTTPS-Ersatzquelle noch neue Preise oder neue Betreiberlage bestätigt. Read-only current_prices/prices-Abfrage: vier AMR-Zeilen, jüngste Beobachtung 07.10.2026 10:29:14 UTC; Werte können veraltet sein und sind kein Preisnachweis vom heutigen Abruf. ANKAUF/VERKAUF/GEBÜHREN nicht neu verifiziert. Frontmatter und alte Recherchehistorie unverändert; kein TLS-Bypass, keine Cachepreise, kein Produktionswrite und kein Schließungsurteil. Quelle(n): http://www.amr-schrottplatz.de ; https://www.amr-schrottplatz.de ; https://www.amr-schrottplatz.de/impressum-und-datenschutz/ ; read-only SELECT auf /var/lib/schrott-mcp/public.db, 14.10.2026.]
 
 ### Technische Quellenprüfung 08.10.2026
 
