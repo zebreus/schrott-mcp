@@ -63,6 +63,7 @@ pub mod koppe_strausberg;
 pub mod kulisch_co;
 pub mod kupferhelden;
 pub mod lausitz;
+pub mod limekon;
 pub mod lungwitz;
 pub mod madi;
 pub mod mc_schrott;
@@ -209,6 +210,7 @@ pub fn all() -> Vec<Handler> {
         klix_recycling_pattensen::handler(),
         koppe_strausberg::handler(),
         kulisch_co::handler(),
+        limekon::handler(),
         lungwitz::handler(),
         madi::handler(),
         madi::handler_rosengarten(),
