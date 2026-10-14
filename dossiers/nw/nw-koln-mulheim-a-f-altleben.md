@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-**Schreibvarianten-/Identitätsklärfall:** Der erneut direkt gelesene Kölner Branchenindex führt „Alsleben“, Frankfurter Str.59,51065 Köln, nicht ausdrücklich „A.F.Altleben“. Diese Abweichung ist kein bewiesener Tippfehler oder Alias. Weitere Suchtreffer „Entrümpelung & Schrotthandel Alsleben“ haben keine belegte Betreiber-/Adresskette zum Seed. Keine Umbenennung oder Zusammenführung vorgenommen, Kontakte/Adresse/Website bleiben leer. Ankauf-/Verkaufs-/Gebührenlisten nicht gefunden. Owner: Seedidentität und eventuellen Alias mit Gewerbe-/Betreiberbeleg auflösen; anschließend mobil/stationär und konkrete Annahmeadresse vor GEO klären. Quelle (nur Lead): https://www.koelnerbranchen.de/schrott/koeln
+**Schreibvarianten-/Identitätsklärfall:** Neben dem früheren Alsleben-Lead nennt die neue Exaktsuche ausdrücklich „A.F. Schrottabholung-Entrümpelung Altleben“, Frankfurter Str. 59, 51065 Köln, 0177 6822530 in mehreren Verzeichnissen. Das stärkt die konkrete Altleben-Spur, beweist aber weder einen Alias noch die Betreiberidentität. Die dort verlinkte Domain schrottabholung-ankauf.de gehört laut direkt gelesenem Impressum Karlos Prosche in Bochum mit anderer Telefonnummer, nicht einem belegten Kölner Altleben-Betrieb. Keine Umbenennung/Zusammenführung und keine Übernahme fremder Website oder Kostenloszusage. Kontakte/Adresse/Website bleiben leer; Preise Ankauf/Verkauf/Gebühren nicht zurechenbar. Owner: Altleben/Alsleben und heutige Gewerbeidentität vor Standort-/GEO-Freigabe klären.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Eigene Exaktsuche bestätigt nun einen separaten Verzeichniscluster ausdrücklich A.F. Schrottabholung-Entrümpelung Altleben, Frankfurter Str. 59, 51065 Köln, 0177 6822530 (11880/Cylex/auskunft/Cybo). Schreibweise Altleben ist damit nicht nur ein isolierter Seedfehler; die Identität mit Alsleben bleibt trotzdem unbelegt. Cybo verlinkt schrottabholung-ankauf.de; Startseite und Impressum direkt gelesen: Karlos Prosche, Elisabethstraße 20, 44866 Bochum, 0174 8694036, info@schrottabholung-ankauf.de. Das ist ein abweichender Betreiber/Ort/Telefon, keine bestätigte Nachfolge und keine Altleben-Website. Keine fremden Kontakt-/Leistungsdaten übernommen; auch deren kostenlose Abholung nicht dem Kölner Seed zugeschrieben. Keine zurechenbare Preis-/Gebührenliste. Quellen: https://www.11880.com/branchenbuch/koeln/060440092B113983984/a-f-schrottabholung-entruempelung-altleben.html (Suchlead); https://www.auskunft.de/firma/a.f.-schrottabholung-entr%C3%BCmpelung-altleben/r9231xr1 (Suchlead); https://biashara.cybo.com/DE/k%C3%B6ln/scrap-metal-dealer (Domainlead); https://schrottabholung-ankauf.de/ ; https://schrottabholung-ankauf.de/impressum.html.]
 
 ### Recherche 11.10.2026
 

@@ -26,11 +26,15 @@ provenance_origin: table
 
 Eigenständiger DAPA-Verwertungsstandort, **nicht die Werkstatt am Hauptsitz Lüssow**. Die aktuelle Standortseite nennt Kranichblick 32, 18442 Duvendiek, und 038321 363. Der verzeichnisbasierte Gegenlead Hausnummer 30 ist kein gleichrangiger Beleg. Dennoch bleibt die Straße im Frontmatter vorerst leer: Die Betreiberadresse ist eine eindeutige Eigenangabe, aber es fehlt ein unabhängiger Hausnummerbeleg; das Impressum enthält keine HRB und erfüllt die strenge Alleinbeleg-Ausnahme des README nicht vollständig.
 
-Die juristische Betreiberidentität DAPA GmbH ist nun registerseitig mit dem Hauptsitz abgeglichen. Fahrzeuge werden verwertet, Unfallwagen angekauft und geprüfte Gebrauchtteile verkauft. Abholung ist **nicht pauschal kostenlos**, sondern Transport nach Aufwand. Website-Werkstattzeiten und der 24/7-Pannendienst gelten nicht automatisch für die Annahme in Duvendiek.
+Die juristische Betreiberidentität DAPA GmbH ist registerseitig mit dem Hauptsitz abgeglichen. Fahrzeuge werden verwertet, Unfallwagen angekauft und geprüfte Gebrauchtteile verkauft. Die am 14.10. gelesene Autoverwertungsseite schließt **Altmetall und sonstigen Schrott ausdrücklich aus**. Sie nennt nun standortbezogen 8:00–17:00 Uhr, aber keine Wochentage; kein vollständiger Öffnungsplan daraus erfunden. Der 24/7-Pannendienst und die Werkstattzeiten am Hauptsitz gelten nicht für die Annahme in Duvendiek. Abholung ist **nicht pauschal kostenlos**, sondern Transport nach Aufwand; auch die Verwertungskosten hängen laut FAQ von Zustand/Vollständigkeit und Transport ab.
 
 Preisfunde sind nicht austauschbar: individuelle Fahrzeugbewertung/vereinbarte Auszahlung (Ankauf), Gebrauchtteile nur auf Anfrage (Verkauf) und Abholtransport nach Aufwand mit Vorabangebot (Gebühr); ein fester öffentlicher Tarif ist nicht ausgewiesen. Hausnummer 30/32 bleibt in Konflikt, daher Adresse nicht geokodieren, bis sie geklärt ist.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Duvendiek-Detailseite, Autoverwertung und Impressum erneut direkt gelesen: Kranichblick 32 bleibt Betreiber-Eigenangabe, Impressum weiter ohne HRB; Hausnummer unabhängig nicht bestätigt, kein Straßen-/GEO-Fill. Wichtige Ergänzung: Autoverwertungsseite nennt jetzt ausdrücklich standortbezogen „Geöffnet von 8:00 bis 17:00 Uhr“/FAQ, aber keine Wochentage; frühere Aussage ohne Annahmezeiten damit eingeschränkt korrigiert, keine Mo–Fr-Ableitung aus HQ. Betreiber schließt Altmetall/sonstigen Schrott ausdrücklich aus; Pkw, weitere Fahrzeugarten nach Absprache. FAQ Kosten nach Zustand/Vollständigkeit/Selbstanlieferung oder Abholung, Transport nach Aufwand mit Vorabpreis. Einzelbeleg für neue Details, kein neuer Frontmatter-Öffnungs-/Leistungsfill. Ankauf individuell ohne Zahlentafel, Verkauf Teile/Fahrzeuge ohne Liste, Gebühren nicht pauschal kostenlos. Quelle: https://www.dapa-hst.de/locations/duvendiek/ ; https://www.dapa-hst.de/autoverwertung/ ; https://www.dapa-hst.de/standorte/impressum/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

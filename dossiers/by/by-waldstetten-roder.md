@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nikolaus Röder Schrotthandel ist jetzt zusätzlich als Creditreform-Suchindexkandidat an Hauptstr. 25, 89367 Waldstetten, 08223 6221 greifbar. Vollabruf gesperrt; eine zweite qualifizierte Betreiber-/Registerquelle fehlt. Bestehende Straße/Telefon aus der Verzeichnis-Ausnahmefüllung bleiben historisch erhalten, nicht nachträglich als unabhängig verifiziert dargestellt. Nicht mit Waldstetten in Baden-Württemberg verwechseln. Öffentliche Annahme, Zeiten und Preise offen.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Neuer höherwertiger Ansatz gegenüber reinen Verzeichnissen: Creditreform-Suchindex „Nikolaus Röder Schrotthandel“, Hauptstr. 25, 89367 Waldstetten, +49 8223 6221; Vollabruf 403. Ein qualifizierter wirtschaftlicher Suchhinweis, kein vollständig gelesener Doppelbeleg. Daher keine neue Namens-/Status-/Kontaktänderung; bisherige Ausnahme-Fills bleiben unsicher. Historischer Zeitungslead zum Pächter Nikolaus Röder in Waldstetten ist weder Gewerbe-/Ankaufbeleg noch aktuelle Betreiberquelle. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Zahlenliste. GEO der bestehenden Adresse erst nach qualifizierter aktueller Standortbestätigung. Quelle: https://firmeneintrag.creditreform.de/89367/8270257006/NIKOLAUS_ROEDER_SCHROTTHANDEL (Suchindex, Vollabruf 403).]
 
 ### Recherche 02.10.2026
 

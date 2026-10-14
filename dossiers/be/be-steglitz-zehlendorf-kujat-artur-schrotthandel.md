@@ -28,6 +28,10 @@ Reaumurstraße 27F und 030 7124003 sind bisher Seed-/Verzeichnisangaben; eine ak
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche Artur Kujat zeigt im gelesenen ersten Ergebnisblock überwiegend Kujawa-/Kujawski-Namensähnlichkeiten im Ausland, keinen eindeutig Berliner Schrottbetreiber. Nicht mit dem Dossier gleichgesetzt; Einzelgewerbe werden durch dieses begrenzte Registersuchergebnis nicht ausgeschlossen. Webtreffer zu Kujat erschienen als Umkreislinks fremder Schrottplatz-Profile, nicht als Betreiberquelle. Bestehende Reaumurstr. 27F/030 7124003 bleiben Leads; keine Aktivierung, keine Standort-/Kontaktfakten ergänzt. Ankauf, Verkauf und Gebühren weiterhin ohne verifizierte Zahlen; Quelle: https://www.northdata.de/?query=Artur%20Kujat ; https://www.schrottplatz-info.de/schrottplatz/Berlin/Reinhardt-Rohstoffe-GmbH-Nutzeisen-Schrott-Metall (Suchauszug, nur Umkreislead).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (nur Verzeichnisbeleg schrottplatz-info)

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mobiler Seed-Kandidat „Kieler Altmetall“ mit unbestätigter Rufnummer 0160-99288699. Der bereits gefundene Betreiberseiten-Kandidat kieler-altmetall.firmenimnetz.de bleibt im aktuellen Direktabruf nicht erreichbar (Timeout), kein Impressum gelesen. Die exakte Telefonsuche brachte keinen neuen zuordenbaren Beleg. Keine Gleichsetzung mit KSH/Boris Schmidt und keine fremden Anschriften übernommen.
+
+`pruefung` statt unbelegtem `aktiv`; Timeout und Suchlücken sind kein Schließungsbeweis. Größere Mengen „ggf. angekauft“ aus dem Seed ist keine bestätigte Auszahlung/Preisgarantie. Ankauf-, Verkaufs- und Gebührenlisten unbekannt; kein stationärer Annahmeort und kein GEO-Fill.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Korrektur 14.10.2026: Aktivstatus auf pruefung zurückgenommen, da weiterhin weder Betreiberidentität noch aktuelle Leistung/Standort qualifiziert belegt sind. Betreiberkandidat direkt per Webabruf (20 s) und unabhängig per requests (15 s) getestet, beide Timeout; keine dauerhafte Domainabschaltung oder Schließung daraus abgeleitet. Eigene exakte Telefonsuche Kieler/0160/99288699 ohne Treffer. Kein Adress-/Domain-/Leistungsfill, Website_status unbekannt bleibt. Preise Ankauf/Verkauf/Gebühren nicht verifiziert. Quelle/Abrufgrenze: https://kieler-altmetall.firmenimnetz.de/ ; Suchlauf 14.10.2026 (kein Tatsachenbeleg).]
 
 ### Recherche 04.10.2026
 

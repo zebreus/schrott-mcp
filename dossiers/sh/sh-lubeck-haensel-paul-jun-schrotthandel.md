@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Verzeichnisse führen Paul Haensel jun. an der Vorbeckstr. 12 in Lübeck und nennen Telefonnummern; Northdata-Suchen ergaben keine kongruent zuordenbare Schrotthandlung. Ohne Betreiber-, Register- oder Gewerbeauskunftsbeleg bleiben Identität, Adresse und aktueller Ankaufstatus ungeklärt; Status `pruefung`. Keine öffentlich belegten Ankaufpreise, Verkaufspreise oder Gebühren gefunden (Recherche 04.10.2026).
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Eigene Exaktsuche Haensel Paul + Schrotthandel bringt weiterhin Vorbeckstr. 12, 23554 Lübeck-Vorwerk nur in Telefon-/Branchenverzeichnissen, neu konkret Das-Telefonbuch-Detail. Keine kongruente Betreiber-/Registerquelle und keine eigene Domain identifiziert; zusätzliche Portale sind kein qualifizierter Zweitbeleg. Website_status leer → unbekannt normalisiert, keine Kontakte ergänzt. Gewerbeauskunft/Betreiberselbstauskunft bleibt sinnvoller Folgeschritt; fehlende Primärquelle ist kein Schließungsbeweis. Ankauf-, Verkaufs- und Gebührenpreise nicht verifiziert. Quellen: https://adresse.dastelefonbuch.de/L%C3%BCbeck/2-Recycling-Paul-jun-Haensel-L%C3%BCbeck-Vorbeckstr.html (Suchlead); https://www.gelbeseiten.de/gsbiz/42bf1ce1-a1f2-4864-8a24-48caed80b8f4 (Suchlead).]
 
 ### Recherche 04.10.2026
 

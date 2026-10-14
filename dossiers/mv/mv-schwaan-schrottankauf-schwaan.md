@@ -30,6 +30,10 @@ Preisprüfung: ANKAUF — keine händlerspezifische Preisliste oder numerische V
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche Schrottankauf Schwaan im ersten Ergebnisblock ohne örtlich zurechenbaren Betreiber; Treffer zu Schrotteinkaufsgesellschaften, Schweiz und Rumänien nicht übertragen. Websuche liefert überwiegend ortsfremde Schrottanbieter, darunter Heino Saß in Ludwigslust; die bloße MV-Region und gleiche Materialarten sind kein Identitätsbeleg. Import bleibt generischer Betriebsname ohne Adresse/Inhaber. Keine vollständige Negativauskunft und kein Schließungsnachweis; status pruefung, keine GEO oder Fills. Ankauf/Verkauf/Gebühren ohne zurechenbare Zahlen; Quelle: https://www.northdata.de/?query=Schrottankauf%20Schwaan ; https://schrott-und-container-sass.de/schrotthandel (Suchauszug, ortsfremder Gegenlead).]
+
 ### Korrektur 07.10.2026
 
 - [Korrektur 07.10.2026: status aktiv → pruefung — gezielte Namens-/Orts- und Schrottankauf-Suche ergab keine dem Betrieb eindeutig zuordenbare Betreiberseite, Register-/Kommunalquelle oder aktuellen Annahmebedingungen; die Treffer waren themenfremd bzw. nicht eindeutig. Importierte Kategorien „Cu, Blei, Zinn, Zink, Alu, Messing, Edelstahl, Kabel“ bleiben als historische Seed-Angabe erhalten, sind aber kein Betreiberbeleg. Keine numerischen Preise (ANKAUF/VERKAUF/GEBÜHREN); kein Schließungsnachweis. Nächster Schritt: Betreiber- oder Gewerbeauskunft zur Identität/Adresse und Ankaufbedingungen.]

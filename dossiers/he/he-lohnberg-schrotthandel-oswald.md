@@ -24,11 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-Ein Efb-/Schrottregister-Auszug führt am Grünen Weg 3, 35792 Löhnberg einen „Lagerplatz Osswald“ (Doppel-s), Zertifikat ZZFT01100349; die Datenquelle nennt GESA und Entsorgungsfachbetriebe-Register (Abrufstand 11.08.2026). Das passt zum Seed-Ort, bestätigt aber nicht, dass der Platz dem als „Oswald“ importierten Schrotthandel gehört oder derzeit öffentlich Schrott annimmt. Der Auszug nennt als erfasste Tätigkeiten Lagern/Behandeln und zahlreiche FE-/NE-Metallabfälle, darunter Eisen, Nichteisenmetalle, Kupfer/Messing, Aluminium, Blei, Zink und Kabel. Es fehlen Betreiberkontakt und Preisbeleg. Schreibweise, Betreiberzuordnung und öffentliche Anlieferung bleiben offen.
+Neue Registerspur: Osswald Entsorgungsfachbetrieb GmbH, AG Limburg a. d. Lahn HRB 7373, Grüner Weg 3, 35792 Löhnberg, eingetragen am 22.01.2025. Der lesbare Eintragungstext nennt Dr. Katja Oßwald, Roman Fuchs und Jens Rücker als Geschäftsführung und den An-/Verkauf von Eisen-/Nichteisenmetallen sowie Nutzmaterialhandel als Gegenstand. Das präzisiert die bisherige Katja-Osswald-Spur, beweist aber keine Übertragung des alten Hans-Jürgen-Osswald-Betriebs oder des Zertifikats ZZFT01100349 auf die GmbH. Der Drittregister-„Lagerplatz Osswald“ an gleicher Adresse ist kein Original-Efb-Beleg. Keine automatische Namensänderung des Seed-Leads; aktuelle öffentliche Anlieferung/Ankauf und Betreiberkette offen.
 
 **Preise:** **ANKAUF** – keine veröffentlichten Ankaufskurse. **VERKAUF** – keine Preisliste. **GEBÜHREN** – keine Tarife belegt; keine Annahmebedingungen ableiten.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Profil UND dortiger vollständiger Eintragungstext direkt gelesen: Osswald Entsorgungsfachbetrieb GmbH, HRB 7373 AG Limburg a. d. Lahn/EUID DEM1706.HRB7373, Grüner Weg 3, 35792 Löhnberg, Gegenstand An- und Verkauf von Eisen- und Nichteisenmetallen, Handel mit Nutzmaterial. Eintragung 22.01.2025, Gesellschaftsvertrag 09.12.2024, 25.000 EUR; GF Dr. Katja Oßwald, Roman Fuchs, Jens Rücker. Profil führt zusätzlich Jahresabschluss zum 31.12.2024 vom 03.02.2026. Unternehmensgegenstand ist kein aktueller Anlieferungs-/Kundenbeleg. Keine Klausel zum Übergang vom Einzelbetrieb im gelesenen Text: Hans-Jürgen → Katja → GmbH bleibt offene Kette, keine Umbenennung/Telefonfüllung. Die beiden NorthData-Seiten sind eine Quellenfamilie, kein unabhängiger Doppelbeleg. Quellen: https://www.northdata.de/Osswald+Entsorgungsfachbetrieb+GmbH,+Löhnberg/Amtsgericht+Limburg+HRB+7373 ; https://www.northdata.de/?id=5386451280986112 .]
+- [Recherche 14.10.2026: ANKAUF: Registergegenstand nennt Ankauf, keine numerischen Kurse oder aktuellen Annahmebedingungen. VERKAUF: Nutzmaterialhandel, keine Liste. GEBÜHREN: keine Tarife. Original-Efb-Zertifikat und gesellschaftsrechtlicher Übergangsbeleg beschaffen, bevor Lagerplatz/Telefon dem neuen Rechtsträger zugeordnet werden; bestehende Adresse bleibt, kein neuer GEO-Fill. Quellen: vorgenanntes Registerprofil/Eintragung.]
 
 ### Recherche 08.10.2026 (Betreiberkandidatin)
 

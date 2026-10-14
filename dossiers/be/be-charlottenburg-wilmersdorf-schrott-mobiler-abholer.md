@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Generischer Verzeichnisname ohne gesicherte Betreiberperson. Wilmersdorfer Str. 21, 10585 Berlin, und 01578 1835968 sind historische Portal-Leads; mehrere Telefonbuch-/Sellwerk-Einträge sind keine unabhängigen Betreiberbelege. Eine mobile Abholung beweist weder einen Schrottplatz noch Kundenverkehr an dieser Anschrift. Der GEO-Auftrag aus 02.10. wird deshalb bis zur Identitäts-/Standortbestätigung zurückgestellt.
+
+**Ankauf / Verkauf / Gebühren:** keine zurechenbaren Tarife. Zuerst Gewerbeidentität und Zuordnung der Mobilnummer klären; kostenlose Abholung oder Auszahlung nicht aus der Bezeichnung ableiten.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Korrektur 14.10.2026: Die Referenz auf „Zweitbeleg“ in 02.10. betrifft nur mehrere Aggregatoren, nicht zwei zulässige Primärquellen. Eigene Websuche nach der Mobilnummer lieferte themenfremde Zahlentreffer, die kombinierte Adresssuche schlug technisch fehl; keine neue Identitätsquelle. Kein Vollständigkeits-/Schließungsbefund. Straße/Telefon erhalten, aber kein GEO vor Betreiberbestätigung und kein Annahmehof aus mobiler Abholung abgeleitet. Ankauf, Verkauf und Gebühren ohne verifizierte Zahlen; Quelle der bestehenden Leads: https://www.gelbeseiten.de/ ; https://www.11880.com/ ; https://www.sellwerk.de/ (historische Detailprüfung siehe 02./04.10.2026; hier kein neuer Detailbeleg).]
 
 ### Recherche 02.10.2026
 

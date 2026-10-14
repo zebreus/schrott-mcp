@@ -28,6 +28,10 @@ Ein neuer, hochrangigerer Suchtreffer als die bisherigen Branchenbücher ist ein
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Creditreform-Suchindex bestätigt erneut den Kandidaten Guido Petri Schrottverwertung/Gillenfeld/Gewerbebetrieb, Vollabruf erneut 403. Zusätzlicher abweichender Adresslead im Öffnungszeitenbuch: Mühlenstr. 13, 54558 Gillenfeld statt bisher Bahnhofstr. 4. Kein Betreiber-/Registerbeleg für Umzug oder zwei Standorte; beide Adressen nur Kandidaten, keine Frontmatter-Füllung. Gemeinde-Gegenbegründung von 03.10. bleibt durch Korrektur vom 05.10. überholt (Bauer Nr. 42, nicht Nr. 4). ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Zahlenliste; GEO erst nach positiver Standortbestätigung. Quellen: https://firmeneintrag.creditreform.de/54558/5350100586/GUIDO_PETRI_SCHROTTVERWERTUNG (Suchindex, 403) ; https://www.oeffnungszeitenbuch.de/filiale/Gillenfeld-Guido%2520Petri%2520Schrottverwertung-2847811V.html (abweichender Lead).]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: KORREKTUR der Begründung vom 03.10.: Bauwirtschaft/Handwerk der Gemeinde nennt Marco Bauer, Bahnhofstr. 42, 54558 Gillenfeld, 06573 95168 – ausdrücklich nicht Bahnhofstr. 4. Das kommunale A–Z nennt denselben Namen/Telefon an Schulstraße 19, ebenfalls kein Petri-Nachweis. Diese Quellen belegen weder einen anderen Betreiber an Hausnummer 4 noch eine Petri-Verbindung zu dieser Adresse. Historische fehlerhafte Notiz bleibt nachvollziehbar erhalten, ist durch diese Korrektur überholt. Kein Petri-Eintrag auf den gelesenen Gemeindeseiten, aber das ist kein Existenz-/Schließungsnachweis. Adresse bleibt mangels positiver Zuordnung leer; kein neues Geocoding, Kontakt oder Preis. Quellen: https://www.gillenfeld.de/bauwirtschaft-handwerk/ ; https://www.gillenfeld.de/eintrag-abisz/ .]

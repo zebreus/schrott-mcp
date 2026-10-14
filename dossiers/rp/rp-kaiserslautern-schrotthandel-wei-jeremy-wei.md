@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkreter Jeremy-Weiß-Verzeichnislead an Königsau 23, 67661 Kaiserslautern. Neu gefundenes YouTube-Video „Schrotthandel Weiß“ nennt diese Anschrift/Telefon im Suchindex, ist aber beim Direktabruf nicht inhaltlich lesbar; Herausgeber/Betreiberkontrolle ungeprüft. Weder dieses Video noch mehrere Verzeichnisse ersetzen den qualifizierten Betreiber-/Registerbeleg. Silvio Weiß in Freisen bleibt getrennt; keine Website-/Kontaktfüllung.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gezielte Königsau-Suche findet neben 11880 „Schrotthandel weiß jeremy“, Königsau 23, 67661 Kaiserslautern, ein YouTube-Video I5hjFv4QJ2c mit Suchindex „Schrotthandel Weiß … Königsau 23 … (0176) 62162938“. Direktabruf nur YouTube-Rahmenseite; Kanalinhaber, Veröffentlichungsdatum, Beschreibung und eventuelles Impressum nicht geprüft. Deshalb Video nur Medienlead, nicht betreibergeführte Social-Primärquelle; Kontaktdaten/Adresse bleiben ungefüllt. Kein Bezug zu Silvio Weiß/Freisen aus Namensgleichheit. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Zahlenliste. Quellen: https://www.11880.com/branchenbuch/kaiserslautern/060440092B107874158/schrotthandel-weiss-jeremy.html (Lead) ; https://www.youtube.com/watch?v=I5hjFv4QJ2c (Suchindex, Direktinhalt unvollständig).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

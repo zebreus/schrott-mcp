@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mobile Schrottabholung/Ankauf in NRW, Betreiber-Einzelquelle Mahmoud El-Lahib, Bahnhofstraße 3, 44866 Bochum-Wattenscheid, 0157 35855388, info@schrottabholung.org. Vorhandene Frontmatter-Kontakte werden nicht als neu unabhängig bestätigt ausgegeben. Impressumsadresse ist kein belegter Annahmeplatz, `dropoff_json` unbekannt; kein stationärer GEO-Fill. Verwandte Lahib-Domains/Telefonnetze sind keine automatisch identischen Betriebe.
+
+**Ankauf:** Auszahlung bei Abholung laut Betreiber, metall-/mengen-/reinheitsabhängiges Angebot. FAQ nennt Zinn 14 €/kg, Lötzinn ca. 40 % 4 €/kg, Kupfer 6 €/kg, Eisen 0,30 €/kg ausdrücklich als **Beispielpreise**, ohne Gültigkeitsdatum; keine aktuellen Kurse, keine Preisingestion. **Verkauf:** keine Händler-Verkaufsliste. **Gebühren:** gewöhnliche Abholung kostenlos, große Demontagen ggf. kostenpflichtig nach vorheriger Absprache; Kühlschränke/Fernseher ausgeschlossen. Beim vereinbarten Ankauf sind Demontage/Verladen/Abtransport laut Seite bereits im Angebot enthalten, nicht mit einer separaten Gebührenliste verwechseln.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Impressum, Ankauf und Abholung live einzeln gelesen. Mahmoud El-Lahib/Bahnhofstraße 3/44866 Bochum-Wattenscheid und bisheriges 0157-Telefon kongruent, nur Betreiber-Einzelquelle, kein neuer unabhängiger Identitäts-/Adressbeleg. Servicezeiten Mo–Sa 7–21 und Vereinbarung. Ankauf erfolgt nach Anfrage mit Sorte/Menge/Montagezustand/Ort und Preisabstimmung, Auszahlung bei Abholung; FAQ verlangt bestimmte, nicht numerisch definierte Mindestmenge je Metall. Keine pauschale Auszahlung für jede Abholung. Keine Anlieferung an Impressumssitz bestätigt, keine Merge-/GEO-Änderung. Quellen: https://schrottabholung.org/impressum/ ; https://schrottabholung.org/schrottankauf/ ; https://schrottabholung.org/schrottabholung/.]
+- [Preisfund 14.10.2026: FAQ auf Ankaufseite nennt reines Zinn 14 Euro/kg, Lötzinn ca. 40 % 4 Euro/kg, reines Kupfer 6 Euro/kg und Eisen 30 Cent/kg. Seite sagt ausdrücklich „beispielhafte Preise, um die Metallsorten zu vergleichen“, aktuelle Kurse täglich schwankend; kein Gültigkeits-/Publikationsdatum. Nur illustrative Ankaufbeispiele, nicht aktuelle Kurse oder Verkaufspreise, kein Handlerkandidat. Abholseite bewirbt kostenlos, schränkt größere Arbeiten auf vorherige Kostenabsprache ein und schließt Kühlschränke/Fernseher aus. Ankaufangebot enthält laut Seite Abbau/Abholung ohne versteckte Kosten; das ist eine Angebotsbedingung, keine universelle Gebührenfreiheit. Quellen: https://schrottabholung.org/schrottankauf/ ; https://schrottabholung.org/schrottabholung/.]
 
 ### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
 

@@ -28,6 +28,10 @@ Die bisherigen Verzeichnisse führen Robert Bern als Altmaterial-/Schrotthandel 
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Exakte Personen-/Ortssuche liefert erneut nur Verzeichnis-Leads Robert Bern, Römerstr. 67, Wiesbaden-Delkenheim; konkrete 11880-Detailadresse jetzt als nachprüfbarer URL festgehalten. Kein Betreiber-/Registerzweitbeleg, keine aktuelle Annahmebestätigung. Die im Eintrag 02.10. als „2 Verzeichnisbelege“ gefüllten Daten bleiben erhalten, gelten nach README aber nicht als verifiziert. ANKAUF/VERKAUF/GEBÜHREN: keine dem Betrieb zuordenbare Zahlenliste im Suchmaterial. GEO erst nach qualifizierter Betriebsadressbestätigung; keine Schließung aus fehlender Website ableiten. Quelle (Lead): https://www.11880.com/branchenbuch/wiesbaden/120674719B100459659/robert-bern.html .]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: street Roemerstr. 67, PLZ 65205, Tel. 06122 52567 gefuellt (2 Verzeichnisbelege: Gelbe Seiten + 11880/Das Oertliche, adress- und telefonkongruent). deubiz-HRB-642697-Angabe ist Scraper-Lead ohne Registerzweitbeleg → nicht uebernommen. Keine Betreiber-Website → website leer, website_status unbekannt. Adresse neu → Koordinaten neu zu geocodieren. Quelle(n): gelbeseiten.de + 11880.com (Detailseiten, Abruf 02.10.2026).]

@@ -28,6 +28,10 @@ Adresskonflikt Leyendeckerstr. 41 vs. Sömmeringstr. 51 weiterhin offen; vorhand
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Betreiber-Domain schrotthafiz.de direkt erneut Transport-/DNS-Fehler (requests NameResolutionError), keine Schließung abgeleitet. Creditreform ID 5191096576 direkt erneut 403; eigener Suchindex nennt Ibrahim Hafiz Schrotthandel in Köln. Meinestadt-Suchlead verbindet Ibrahim Hafiz mit Sömmeringstr. 51, 50823 und 0178 6576803, aber bleibt Aggregator. Konflikt zu Leyendeckerstr. 41 nicht durch Mehrheitsabstimmung der Portale aufgelöst; kein Umzug/zweiter Platz bewiesen. Kontakt-/Adressfrontmatter unverändert, keine GEO-Nutzung oder neue Ankauf-/Verkaufs-/Gebührenliste. Quellen: https://schrotthafiz.de/ ; https://firmeneintrag.creditreform.de/50823/5191096576/IBRAHIM_HAFIZ_SCHROTTHANDEL ; https://branchenbuch.meinestadt.de/koeln/company/502583345 (Suchlead).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Leyendeckerstr. 41, 0178-Nr. (Backyard-Typ)

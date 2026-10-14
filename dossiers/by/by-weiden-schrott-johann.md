@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ungeklärter Verzeichnislead Johann Schrott in Weiden. „Schrott“ kann hier Familienname sein; eine kategorisierte Verzeichnisseite allein beweist keinen aktiven Schrotthandel. Ein gleichnamiger landwirtschaftlicher Sachverständiger erscheint auf einer Verbandsseite, jedoch an Hofmarkstraße 16, 85296 Rohrbach, nicht in Weiden. Kein Merge mit diesem Namensvetter oder den anderen Weidener Entsorgern Kraus/Bergler. Straßenadresse, Inhaber, Tätigkeit und Preise offen.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Exaktnamenssuche findet Das-Telefonbuch-Lead „Schrott Johann“ in Weiden i.d.OPf. sowie direkt gelesenes Verbandsprofil HLBS „Johann Schrott“, Dipl.-Ing. agr./Sachverständiger, Hofmarkstraße 16, 85296 Rohrbach. Der HLBS-Suchauszug enthält zusätzlich einen anderen Ansprechpartner in Weiden (Andreas Gierisch); diesen Ort nicht dem Johann-Schrott-Profil zuschlagen. Namesake-/Suchsnippet-Grenze dokumentiert, keine Zuordnung oder Widerlegung des Weidener Leads; Frontmatter unverändert. ANKAUF/VERKAUF/GEBÜHREN: keine dem Seed zuordenbare Liste. Quellen: https://adresse.dastelefonbuch.de/Weiden%20i.d.OPf./1-Schrott-Johann-Schrott-Weiden-i-d-OPf.html (Lead) ; https://hlbs.de/experten/johann-schrott/ (Verbandsprofil direkt gelesen, nur Gegenprobe).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

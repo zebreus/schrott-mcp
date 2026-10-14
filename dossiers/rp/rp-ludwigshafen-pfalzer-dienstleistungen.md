@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lead Pfälzer Dienstleistungen, Goerdelerplatz 13, 67063 Ludwigshafen-Friesenheim/Nord, mit Schwerpunkt Entrümpelung/Reinigung laut Verzeichnis. Neue Recherchewege sind das verlinkte Instagram-Profil Pfaelzerdienstleistungen und ein CHECK24-Profil; beide liefern beim Direktabruf keine prüfbaren rechtlichen Betreiberangaben. Die Kategorie Schrott ist kein Beleg für vergüteten Altmetallankauf. Keine neuen Kontakt-/Öffnungs-/Leistungsfills; Betreiberidentität und Annahmestelle offen.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Gelbe Seiten direkt gelesen: Goerdelerplatz 13, 67063 Ludwigshafen, 0178 3903284, Selbstbeschreibung Entrümpelung/Reinigung und bundesweit unterwegs; Seite kennzeichnet Teile ausdrücklich als Golocal-Informationen. Website-Link geht auf CHECK24-Profil movmoywpek, Direktabruf zeigt nur allgemeine Umzugsvermittlung, nicht konkrete Firma. Social-Link Instagram/Pfaelzerdienstleistungen direkt ohne auswertbares Profil/Impressum (nur Bildinhalt). Kein Primärbeleg, keine Betreiberperson aus Bewertungen ableiten und keine Fremdfirma gleichen Tätigkeitsfeldes zuordnen; Seed-Straße unverändert, PLZ/Telefon/Zeiten bleiben Leads. ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenliste; „günstig“/Angebot keine Gebührentabelle. Quellen: https://www.gelbeseiten.de/gsbiz/1354e24e-118f-4456-8277-66f7bc4c7322 (Lead) ; https://umzug.check24.de/umzug/profil/movmoywpek (generische Zielseite) ; https://www.instagram.com/Pfaelzerdienstleistungen (Abrufgrenze).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

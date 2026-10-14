@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Mehrere Treffer führen „Rudolf/Reichwald Schrotthandel“ an Wildweg 4B, 50374 Erftstadt-Friesheim, Telefon 02235 78795. Die Einträge sind überwiegend Branchenverzeichnisse; Creditreform führt ebenfalls einen Firmeneintrag, konnte aber beim Direktabruf nicht gelesen werden. Straße ist Seed-Altbestand, PLZ/Telefon bleiben unbestätigte Leads und werden nicht in Frontmatter ergänzt.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Creditreform ID 5030607055 in eigener Suche erneut kongruent Rudolf Reichwald Schrotthandel, Wildweg 4 b, 50374 Erftstadt, +49 2235 78795; qualifizierte Spur, aber Direktabruf wieder HTTP 403. Suchauszug nicht als gelesene aktuelle Firmenauskunft zählen. Kein unabhängiger Betreiber-/Gewerbezweitbeleg, keine PLZ-/Telefon-Fills; Netphener Stahlhandel weiter nicht zugeordnet. Website_status unbekannt normalisiert. Keine öffentlichen Ankauf-/Verkaufs-/Gebührenkurse verifiziert und keine neue GEO-Freigabe. Quellen: https://firmeneintrag.creditreform.de/50374/5030607055/RUDOLF_REICHWALD_SCHROTTHANDEL (Suchindex/Direktabruf 403); https://www.dasoertliche.de/Themen/Schrotthandel-Rudolf-Reichwald-Erftstadt-Friesheim-Wildweg (Suchlead).]
 
 ### Recherche 06.10.2026
 

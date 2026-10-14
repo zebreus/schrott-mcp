@@ -33,6 +33,10 @@ Der Betreiberauftritt ist aktuell erreichbar und führt Mierko Hoppe Schrott- un
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Impressum und Ankaufseite erneut vollständig live gelesen. Impressum kongruent Mierko Hoppe/Saarbrückener Straße 263/38116/0531 5161506/hoppe@schrott-und-metallhandel.de, USt-ID DE275815484. Ankaufseite präzisiert Anlieferung Mo–Fr 07–16 Uhr, Abholung größerer/sperriger Mengen, Privat/Gewerbe, Verwiegung und Auszahlung bar oder Gutschrift/Überweisung; Beratung kostenlos, NICHT pauschal Abholung kostenlos. Wichtiger expliziter Ausschluss: „keine Autoverwertung“ und „keine Ersatzteile für PKW´s“. Numerische Tageskurse nur auf Anfrage, keine Verkaufsliste/Entsorgungstarife. Eigene Suche entdeckt gewerbliches Kleinanzeigen-Profil seit 20.06.2018 und BA-Unternehmensdarstellung, aber Kleinanzeigen direkt 403 und BA-Suchauszug kein lesbarer Adressbeleg: kein unabhängiger Zweitbeleg für neue Frontmatter-Fills. Ingo Hoppe nicht vermischt. Quellen: https://schrott-und-metallhandel.de/impressum ; https://schrott-und-metallhandel.de/ankauf-von-schrott-und-buntmetall-in-braunschweig ; https://www.kleinanzeigen.de/pro/schrott-und-metallhandel (Suchlead/Direktabruf 403); https://web.arbeitsagentur.de/vermittlung/ag-darstellung-ui/anzeigen/5Aq7xCalq38_Dmy4ueNJO0OYkyFjCfD2uacroTHbEj4= (Suchlead).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Buntmetall

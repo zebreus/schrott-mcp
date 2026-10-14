@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Weiterhin nur ein Verzeichnis-Lead „Udo Metallhandel aller Art Containerservice“, Höhenstr. 11, 63584 Gründau-Lieblos, 06051 16121. „Udo“ identifiziert keinen vollständigen Rechtsträger; die Verzeichniskategorie Metallwaren belegt keinen Schrottankauf. Betreiber-/Registerquelle und heutige Container-/Annahmebedingungen fehlen. Keine Adress-, Telefon- oder Domainfüllung und kein GEO vor Identitätsklärung.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Eigenständige Suche nach Udo/Metallhandel/Gründau liefert erneut den bekannten 11880-Detaillead und dessen kategorisierte Suchseiten, keinen unabhängigen Betreiber-/Registerbeleg. Die mehrfachen Seiten desselben Verzeichnisses sind keine zusätzlichen Quellen. Anschrift/Telefon nur als Lead erhalten; vollständigen Inhabernamen und Gewerbestatus bei Gründau klären. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare numerische Liste im geprüften Suchmaterial; Container-Service allein belegt weder kostenlosen Service noch Auszahlung. Quelle (Lead): https://www.11880.com/branchenbuch/gruendau/130733657B101620036/udo-metallhandel-aller-art-containerservice.html .]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

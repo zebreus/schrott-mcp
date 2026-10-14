@@ -29,6 +29,10 @@ Ein konkretes Verzeichnisprofil bestätigt den Seed-Lead Kleinblittersdorfer Gol
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Neue historische Identitätsspur: Suchindex des Saarbrücker-Zeitung-Artikels vom 29.07.2016 „Goldankauf Judith Schuster feiert Neueröffnung“ nennt den Kleinblittersdorfer Goldankauf und Wiedereröffnung am 13. August; Direktabruf ohne auswertbaren Text. Das ist ein historischer Pressehinweis, kein aktueller Betreiber-/Adressnachweis und keine qualifizierte zweite Quelle nach README. Verzeichnis-Leads führen Judith Schuster außerdem in Kirkel, Blieskasteler Straße 6, 66459; Domain-Kandidat goldankaufschuster.de beim Direktabruf mit Transportfehler. Weder Umzug nach Kirkel noch Verbindung zum CH Goldhaus an Elsässer Str. 51A bewiesen. Alle Frontmatter-Felder bleiben unverändert; ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenliste zugeordnet. Quellen (historischer Hinweis/Leads): https://www.pressreader.com/germany/saarbruecker-zeitung/20160729/282338269241829 ; https://www.11880.com/branchenbuch/kirkel/181726177B114136620/judith-schuster-kirkeler-goldankauf.html ; https://goldankaufschuster.de/ (Abruffehler, kein Inhaltsbeleg).]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Zwei getrennte Verzeichnis-Leads direkt gelesen: Kleinblittersdorfer Goldankauf, Elsässer Str. 22, 66271 Kleinblittersdorf, 06805 9087977, Kategorie An- und Verkauf; daneben CH Goldhaus, Elsässer Str. 51A, 66271 Kleinblittersdorf, 06805 9438768, Gold-/Silberwaren. Unterschiedliche Anschriften/Telefone sind kein Nachfolgenachweis; keine Zusammenführung oder Umbenennung. Beide Profile liefern keinen konkreten Betreiberlink. Kontaktdaten nur Timeline, status pruefung; keine öffentlich belegte numerische Ankauf-/Verkauf-/Gebührenliste. Quellen (Leads): https://www.gelbeseiten.de/gsbiz/afa65c63-49b6-4377-b9a1-4f92e4159a37 ; https://www.gelbeseiten.de/gsbiz/b178a8e4-2f1f-47f1-93a7-ce72997a7373 .]

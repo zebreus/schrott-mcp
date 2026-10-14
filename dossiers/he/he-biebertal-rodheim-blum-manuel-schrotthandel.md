@@ -28,6 +28,10 @@ Biebertaler Lead „Manuel Blum“ mit aggregatgestützter Seed-Adresse Am Kalkb
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Namenssuche findet weiterhin Instagram @entsorgungsdienst_blum mit Suchindex „Manuel Blum“/„Schrottabholung giessen“; Direktabruf liefert keine auswertbaren Profil-/Impressumsdaten, nur Bildinhalt. Betreiberzuordnung, Am Kalkbruch 7 und Sommerberg 15 dadurch nicht zweitbelegt. Gegenprobe Gebrüder Blum ist ein anderer Betrieb mit anderer Region/Telefon und wird nicht zugeordnet. Historische Aggregator-Fills erhalten, kein Umzugs-/Filialschluss. ANKAUF/VERKAUF/GEBÜHREN: keine belastbare zuordenbare Liste. Quellen: https://www.instagram.com/entsorgungsdienst_blum/ (Suchindex; Direktinhalt nicht auswertbar) ; https://www.schrottplatz-info.de/schrottplatz/Giessen/Schrotthandel-Manuel-Blum (abweichender Adresslead) ; https://gebruederblum.de/ (nur Suchtreffer-Gegenprobe, keine Attribution).]
+
 ### Recherche 08.10.2026 (Welle Mittenordost)
 
 - Instagram entsorgungsdienst_blum erneut nur Login-Seite direkt lesbar: Suchindexhinweis bleibt möglicher Betreiber-Social-Ansatz, kein verifizierter aktueller Beitrag und keine Anschrift-/Telefonbestätigung. Kein Nachweis einer Verbindung Biebertal ↔ Sommerberg 15 in Gießen. Quelle/Zugriffsgrenze: https://www.instagram.com/entsorgungsdienst_blum/

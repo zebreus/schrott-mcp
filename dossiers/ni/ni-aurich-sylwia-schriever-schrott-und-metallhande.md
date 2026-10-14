@@ -30,6 +30,10 @@ Verzeichnis-Leads nennen Tjüchkampstraße 9, 26605 Aurich-Schirum und 04941 990
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Neue Registerspur in eigener Suche: OpenRegister indexiert Autoverwertung/Kfz-Service Schriever GmbH, Emden, HRB 202619, mit Sylwia Schriever in historischen Leitungs-/Liquidationsereignissen. Direktabruf HTTP 403; deshalb weder Bekanntmachungstext noch aktuelle Adresse/Status gelesen. Diese andere Registernummer ist NICHT ohne Nachfolgenachweis mit S.-Schriever GmbH HRB 200536 oder dem Auricher Seed-Einzelunternehmen gleichgesetzt. Fortführungs-/Betreiberkette weiter offen, keine Emder Anschrift übertragen. Tjüchkampstraße 9 bleibt Portalspur; keine aktuelle Betreiber-Ankauf-/Verkaufs-/Gebührenliste gefunden. Quelle: https://openregister.de/company/DE-HRB-P3101-202619 (Suchindex, Direktzugriff blockiert); https://schrottplatzmetall.de/sylwia-schriever-schrott-und-metallhandel-aurich/ (nur Suchlead).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: S.-Schriever-GmbH-Detail erneut direkt gelesen: Aurich HRB 200536, Sylwia Schriever, Zweck Autoverwertung/Schrott-/Metallhandel/PKW-An-/Verkauf, Liquidation 27.04.2016, Löschung 12.02.2018. Identität mit dem Seed-Einzelunternehmen bleibt ungeklärt; keine Schließung daraus abgeleitet. Eigene Nachsuche bringt nur Portal-Leads Tjüchkampstraße 9, 26605 Aurich-Schirum, 04941 9901784, keine aktuelle Betreiberquelle. Leere Adress-/Kontaktfelder bleiben leer; website_status unbekannt, status aktiv auf pruefung als Identitäts-/Fortführungs-Klärfall gesetzt. Keine primär belegten Ankauf-/Verkaufspreise oder Gebühren. Quelle(n): https://www.northdata.de/S.-Schriever%20GmbH,%20Aurich ; https://schrottplatzmetall.de/sylwia-schriever-schrott-und-metallhandel-aurich/ (nur Lead)]

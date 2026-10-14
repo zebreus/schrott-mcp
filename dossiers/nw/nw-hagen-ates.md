@@ -30,6 +30,10 @@ Das ist ein besserer Betreiberkandidat, aber noch kein unabhängig bestätigter 
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Root und das tatsächlich eingebundene JavaScript erneut direkt abgerufen (HTTP 200, weiterhin /assets/index-CVUfJLY8.js). Impressumskomponente nennt erneut Hakan Güngörmez, Kleingewerbe/Einzelunternehmen, Hagen; Hinweis „Fuer ein vollstaendiges Impressum ist eine ladungsfaehige Anschrift mit Strasse, Hausnummer, Postleitzahl und Ort erforderlich.“ Vollständige Rechtsanschrift fehlt weiterhin. Eigene Suche Hakan Güngörmez + ATES ohne unabhängigen Identitätsbeleg. Vorwellen-Match und interne Adresswidersprüche nicht aufgelöst; keine Website-/Adress-/Kontaktübernahme. Keine neue numerische Ankauf-/Verkaufs-/Gebührenliste belegt. Owner: vollständige Betreiberanschrift und Bezug zum Seed/älteren Adressclustern prüfen, nicht Bahnhofstraße als Annahmestelle geokodieren. Quellen: https://www.ates-schrotthandel.de/ ; https://www.ates-schrotthandel.de/assets/index-CVUfJLY8.js ; https://www.ates-schrotthandel.de/impressum.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - mobil (GS)

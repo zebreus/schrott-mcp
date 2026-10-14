@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Neue Social-Primärquellen-Kandidaten NachtigaellerSchrott (Facebook) und nachtigallerschrotthandel (Instagram), mit Bezug Ennigerloh-Westkirchen im Suchindex. Öffentlich auslesbarer Direktabruf von Facebook bestätigt nur Profiltitel, keine Adresse/Leistungen; Betreiber-Domain nicht DNS-auflösbar. Warendorfer Str. 55 und 0170 5577892 bleiben Verzeichnisleads, eine andere Telefonnummer aus Infobel kein Betreiberbeleg. Ankauf/Verkauf/Gebühren: keine verifizierten Listen. Offen: Karl-Nachtigäller-/Profilidentität, aktuelle Kontaktdaten, Haus-/Gewerbeservice vs. vergüteter Ankauf. Keine neue Geokodierung ohne Standortbeleg.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Eigene Suche findet erneut Betreiberprofil-Kandidaten Facebook NachtigaellerSchrott („Haus- und Gewerbeservice in Ennigerloh-Westkirchen“) und Instagram nachtigallerschrotthandel („Der Schrotti aus Westkirchen“). Facebook-Direktabruf liefert diesmal keinen auswertbaren Inhalt; keine Flyer-/Kontaktdaten behauptet. Karl-Nachtigäller-Infobelspur nennt abweichende Nummer, Portale bestätigen nur den Warendorfer-Str.-Lead. Keine neue unabhängige Profil-/Gewerbezuordnung; Kontakt-/Adressfelder unverändert und Website_status unbekannt normalisiert. Vergüteter Ankauf, Verkauf und Gebühren weiterhin nicht primär verifiziert; Profil-Follower/Portalbewertungen sind kein Betriebsnachweis. Quellen: https://www.facebook.com/NachtigaellerSchrott/ ; https://www.instagram.com/nachtigallerschrotthandel/ (Suchindex); https://www.infobel.com/de/germany/karl_nachtigaller_schrotthandel/ennigerloh/DE108776172/businessdetails.aspx (Suchlead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche MRJ Metallrecycling liefert im ersten Ergebnisblock unter anderem MRJ Metal Recycling sp. z o.o. in Toruń/Polen (KRS0000227168), aber keinen eindeutigen Potsdamer Match. Ausländischen Namensähnlichkeitstreffer nicht dem Dossier zugeordnet; M&R/MRH/MRM-Webtreffer sind ebenfalls keine Identitätsbelege. Kein vollständiger Register-Negativbeweis für Einzelgewerbe. Ahornstr. 28–32/0331 7040990 bleiben ungeprüfte historische Verzeichnisleads, GEO weiter zurückstellen. Keine zurechenbaren Ankauf-, Verkaufs- oder Gebührensätze; Quelle: https://www.northdata.de/?query=MRJ%20Metallrecycling ; vorhandene Verzeichnisbasis siehe Recherche/Korrektur 02./06.10.2026.]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: PLZ 14482, Tel. 0331 7040990 gefuellt (Seed-Strasse Ahornstr. 28-32 bestaetigt via 2 Verzeichnisbelege: Gelbe Seiten + 11880). Keine Betreiber-Website → website leer, website_status unbekannt. Adresse ergaenzt → Koordinaten neu zu geocodieren. Quelle(n): gelbeseiten.de + 11880.com (Detailseiten, Abruf 02.10.2026).]

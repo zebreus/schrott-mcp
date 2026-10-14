@@ -1,6 +1,6 @@
 ---
 slug: by-munchen-herbig-metallhandel-munchen
-name: Herbig Metallhandel München
+name: Rich. Herbig Metallhandel München GmbH
 trader_type: metallhaendler
 state: BY
 city: München
@@ -9,10 +9,10 @@ postcode: '81241'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: unbekannt
+website: https://www.niemet.de/vertriebsnetz.htm
+website_status: aktiv
 status: pruefung
-description: ''
+description: NE-Metallhalbzeughandel der NIEMET-Gruppe in München, Landsberger Straße 402; Standort in Betreiberkarte und ISO-9001-Zertifikatsanhang genannt. Schrottankauf und öffentliche Anlieferung nicht bestätigt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
@@ -20,15 +20,20 @@ provenance_ankauf_raw: unklar
 provenance_origin: table
 ---
 
-# Herbig Metallhandel München
+# Rich. Herbig Metallhandel München GmbH
 
 ## Überblick
 
-Registerspur Rich. Herbig Metallhandel München GmbH, HRB 134478 München, Landsberger Straße 402; gegenwärtiger Publikums-/Schrottankauf bleibt unbelegt. NIEMET-Gruppenbezug ist dokumentiert, aber weder die Betreiberadresse Bremen noch die allgemeine Gruppenmail sind dadurch Münchner Standortkontakte. Die NIEMET-Vertriebsnetzseite verweist auf eine interaktive Standortkarte; im lesbaren Text ist nur Bremen genannt. Das ist eine technische Abdeckungsgrenze, kein Beweis, dass es keine Münchner Vertretung gibt.
+Rich. Herbig Metallhandel München GmbH, HRB 134478 München, Landsberger Straße 402, ist nun auch im aktuellen NIEMET-Betreiberauftritt konkret belegt: Die eingebundene Karten-Datei `js/map_glob.js` enthält den Münchner Standort mit Telefon +49 89 318995-0. Der LRQA-ISO-9001-Zertifikatsanhang nennt separat dieselbe Gesellschaft/Adresse sowie Lagerhaltung und Handel von Aluminium-/Kupferhalbzeugen. Die Vorwellen hatten nur den statischen Seitentext gelesen; die fehlende Münchner Nennung war eine Abrufgrenze. Gruppenwebsite jetzt zugeordnet, jedoch keine Übernahme der Bremer Mail. Telefon bleibt als Betreiber-Einzelbeleg in der Timeline, nicht als unabhängig bestätigter Kontakt im Frontmatter.
 
-**Ankauf:** keine der Münchner Gesellschaft zugeordnete Preisliste. **Verkauf:** NIEMET-Halbzeugangebote gehören zur Gruppenwebsite, nicht automatisch dieser Gesellschaft; keine Münchner Preise. **Gebühren:** keine Tarife. Nächster Schritt: Münchner Betrieb/Annahmeort durch Betreiberbestätigung und registerkongruentes Impressum sichern, nicht Gruppenkontakte kopieren.
+**Ankauf:** Schrottankauf/öffentliche Anlieferung nicht belegt; `pruefung` bleibt. **Verkauf:** zertifizierter Halbzeughandel, keine Münchner Zahlenpreisliste. **Gebühren:** keine Tarife. GEO: Betreiberkarte liefert einen Marker, dessen Punktgenauigkeit vor Import zu prüfen ist.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Technische Lücke der Vorwelle geschlossen: Vertriebsnetz-HTML lädt js/map_glob.js; dort Münchner Infofenster „Rich. Herbig Metallhandel München GmbH“, Landsbergerstraße 402, 81241 München, +49 89 318995-0, Fax +49 89318995-20. Standortmarker lat 48.1453329/lon 11.4817358, nur Betreiber-Kartenpunkt, Genauigkeit nicht unabhängig geprüft → keine GEO-Füllung. Vollständig heruntergeladener LRQA-ISO-9001:2015-Anhang S. 3/4 bestätigt Gesellschaft/Adresse und „Lagerhaltung und Handel von Profilen, Rohren, Fittingen, Flanschen, Stangen, Platten, Blechen, Bändern aus Aluminium, Kupfer und deren Legierungen“; Zertifikat Nr. 10575982 vom 01.02.2024, gültig bis 31.01.2027. NorthData direkt gelesen bestätigt HRB 134478 und Adresse sowie Niemann-Gruppenbezug. Name präzisiert, Gruppen-Vertriebsnetz als website gesetzt (Register plus Zertifikat/Betreiberkarte), description ergänzt; keine Bremer Kontaktübernahme, Telefon nur attribuierter Einzelbeleg. Keine Verwechslung mit Nürnberger Rich. Herbig Bayerischer Metallhandel GmbH, die im Anhang separat steht. Quellen: https://www.niemet.de/vertriebsnetz.htm ; https://www.niemet.de/js/map_glob.js ; https://www.niemet.de/upload/pdf/de/ISO_9001_2015_de.pdf ; https://www.northdata.de/Rich%C2%B7%20Herbig%20Metallhandel%20M%C3%BCnchen%20GmbH,%20M%C3%BCnchen/HRB%20134478 .]
+- [Recherche 14.10.2026: ANKAUF: kein Schrott-/Altmetallankauf aus Halbzeughandel ableiten, keine Zahlenkurse. VERKAUF: Tätigkeitsbeleg, keine öffentlichen standortbezogenen Preise in den geprüften Dokumenten. GEBÜHREN: keine Tarife. status pruefung bedeutet offener Ankauf, nicht fehlende Existenz der Gesellschaft. Quellen: vorgenannte Betreiberkarte/Zertifikat/Registerprofil.]
 
 ### Recherche 08.10.2026
 

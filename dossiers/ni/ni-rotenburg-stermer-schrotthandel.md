@@ -30,6 +30,10 @@ Hoher Dublettenverdacht zu `hb-rotenburg-stermer-schrotthandel-rotenburg`: gleic
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Eigene aktuelle Namens-/Ortssuche bringt weiterhin vorwiegend Verzeichnisse zu Upaltenweg 8 und 0178 7857176, darunter Das Telefonbuch; keine aktuelle Betreiber-/Registerquelle zur Abweichung Verdener Str. 200-8 gefunden. Das ist keine negative Gewerbeauskunft. Historische Betreiberarchive und Dublettenverdacht zum HB-Slug bleiben erhalten, nicht erneut als aktueller Primärbeleg ausgegeben. Kein Feldfill, kein Merge und kein Schließungsstatus. Ankauf-/Verkaufs-/Gebührenliste weiterhin nicht aktuell belegt; kostenlose Abholung aus 2016 bleibt historische Gebührenaussage, kein heutiger Ankaufpreis. Neue Discovery-Quelle: https://adresse.dastelefonbuch.de/Rotenburg%20%28W%C3%BCmme%29/3-Schrott-Stermer-Schrotthandel-Rotenburg-Rotenburg-W%C3%BCmme-Upaltenweg.html (Suchlead); https://www.gelbeseiten.de/gsbiz/4af61e3b-79da-4a92-b4e4-49a4a48bf0f5 (Suchlead).]
+
 ### Recherche 05.10.2026
 
 - [Korrektur 05.10.2026: Status aktiv → pruefung, weil die Freigabe bislang nur auf Verzeichnisübereinstimmung beruhte und keine aktuelle Betreiber-/Registerbestätigung vorliegt; keine Schließung behauptet. Vorhandene Straße/PLZ/Telefon bleiben ausdrücklich unbestätigte Leads, keine neuen Kontakt-, Öffnungszeit- oder Leistungs-Fills. city zu Rotenburg (Wümme) präzisiert: Stadtseite nennt 27356 Rotenburg (Wümme), Landkreisseite geo.region DE-NI. Diese Primärquellen bestätigen nur die geografische Zuordnung, nicht Stermer als Betrieb. Slug/NI-Ablage und Import-Historie bleiben erhalten; website bleibt leer, website_status unbekannt. Quellen: https://www.rotenburg-wuemme.de/; https://www.lk-row.de/; Belegregel: README.md, Abschnitt Feedback triage.]

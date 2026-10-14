@@ -10,7 +10,7 @@ phone: 0171 2022932
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 Die Verzeichnisse führen „Schrott & Metalle – Adelhof“ an Hainholzweg 3, 38239 Salzgitter-Watenstedt, Mobil 0171 2022932; weitere Verzeichnisangaben nennen zusätzlich Festnetz 05341/25506. Die bisherigen Felder beruhen auf übereinstimmenden Verzeichnis-Leads, aber weiterhin ohne Betreiberwebsite oder Registerbeleg. Anschrift/Telefon nicht geokodieren oder erweitern, bis Betreiberidentität bestätigt ist. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Eigene Namens-/Ortssuche ergibt zusätzlich einen Cylex-Suchindex mit Geschäftsname Renate Adelhof/Kfz-Verwertung und einen Cybo-Lead mit schrott-metalle-adelhof.business.site sowie abweichender Nummer 01515 7588457. Keine gelesene Betreiber-/Registerbestätigung für diese Angaben; Name, Branche und vorhandene Mobilnummer nicht damit überschrieben. Renate/H. Adelhof nicht als bewiesene Betreiberkette ausgegeben. Frontmatter-Altadresse Hainholzweg 3/38239 und 0171 2022932 weiterhin Verzeichniswerte. Website_status leer → unbekannt normalisiert; kein GEO und keine Ankauf-/Verkaufs-/Gebührenliste verifiziert. Quellen: https://web2.cylex.de/firma-home/adelhof-h--3700321.html (Suchlead); https://et.cybo.com/DE/braunschweig/scrap-metal-dealer (Suchlead); https://www.11880.com/branchenbuch/salzgitter/060440092B113226133/schrott-metalle-adelhof.html (Suchlead).]
 
 ### Recherche 02.10.2026
 

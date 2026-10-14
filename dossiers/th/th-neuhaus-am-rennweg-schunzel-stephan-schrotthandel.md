@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schünzel Stephan bleibt ein nicht gesicherter Einzelgewerbe-/Identitätsfall. Die Seed-Nummer 0172 4777304 ist nicht aktuell primär bestätigt. Der erneut gelesene Verzeichniseintrag „Schrott und Metalle“, Waldweg 2, 98724 Neuhaus am Rennweg, nennt eine andere Nummer und keinen Schünzel; seine Adresse und Leistungen dürfen nicht übertragen werden. Kein Nachweis einer Schließung.
+
+**Ankauf / Verkauf / Gebühren:** keine zuordenbaren numerischen Listen. Nächster Schritt ist die örtliche Gewerbezuordnung des Seed-Namens und der Telefonnummer, nicht Geocoding des Waldweg-Leads.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche Schünzel Stephan im gelesenen ersten Ergebnisblock mit Künzel-/Münzel-Namensähnlichkeiten, ohne örtlich zurechenbaren Schrotthandel; keine Homonyme übernommen, keine vollständige Negativauskunft. Waldweg-Detailseite erneut gelesen: „Schrott und Metalle“, 0171 3422024, kein Inhabername; bestätigt den Zuordnungsvorbehalt aus 02.10.2026, nicht die Identität. Allgemeine Websuche technisch erfolglos. Keine Frontmatter-Fills, keine Preise für Ankauf/Verkauf/Gebühren; Quelle: https://www.northdata.de/?query=Sch%C3%BCnzel%20Stephan ; https://www.gelbeseiten.de/gsbiz/7203bf93-dcaf-4eac-b40b-1432624fe7b7 (nur Lead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

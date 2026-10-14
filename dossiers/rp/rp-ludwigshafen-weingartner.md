@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Johann Weingärtner/Schrotthandel Weingärtner bleibt ein Verzeichnis-Kandidat an Burgundenstr. 34, 67059 Ludwigshafen. Neue Gegenadresse: Schrott Weingärtner J., Hintere Burgstr. 10, 67063 Ludwigshafen, mit derselben früher notierten Mobilnummer 0174 6140734. Das ist ein Rechercheansatz für Umzug/Zweitstandort, kein Nachweis der Betreiberkette. Historische Adresse/Kontakte bleiben unverändert, aber nicht primär verifiziert; aktuelle Annahme, Website und Preise offen.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Adressgegenprobe findet Schrott Weingärtner J., Hintere Burgstr. 10, 67063 Ludwigshafen, 0174 6140734 auf Schrottplatz-Info; Schrottplatz.org führt dieselbe Gegenadresse. Diese Mobilnummer war im 11880-Lead der Vorwelle als Zweitnummer notiert. Namens-/Nummernüberschneidung verbindet die Rechercheansätze, beweist aber weder Umzug noch Zweigstelle; Burgundenstr. 34 nicht überschreiben. Korrektur der Belegwertung von 02.10.: 11880 plus Gelbe Seiten sind Verzeichnis-Leads, keine qualifizierte Adress-/Kontaktverifikation nach README. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Zahlenliste. Quellen (Leads): https://www.schrottplatz-info.de/schrottplatz/Ludwigshafen-am-Rhein/Weingaertner-J- ; https://www.schrottplatz.org/ludwigshafen/schrott-weingaertner-j-aYEPyq.html ; https://www.gelbeseiten.de/gsbiz/dbfc22ab-2715-4c57-8903-cca6c126b55d .]
 
 ### Recherche 02.10.2026
 

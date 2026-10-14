@@ -28,6 +28,10 @@ Für Walter Königs Schrott und Metalle Inh. Manfred Königs e. K. ist HRA 6851 
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Neuer unabhängiger Rechercheansatz: Creditreform-Suchindex führt exakten Rechtsnamen Walter Königs Schrott und Metalle Inh. Manfred Königs e. K., Neuenweiherstr. 6, 91056 Erlangen; Direktabruf 403, Aktualität/Publikationen/Annahme dort nicht lesbar. Facebook-Treffer ist eine /pages/-Ortsseite, nicht als betreibergeführt verifiziert; daher kein Social-Zweitbeleg. HRA-6851-Identität und frühere Registeranschrift bleiben, status pruefung nicht aktiv setzen. Die Seed-Mindestmengen/Öffnungszeiten bleiben Verzeichnisangaben, nicht qualifiziert aktuell bestätigt. ANKAUF/VERKAUF/GEBÜHREN: keine numerische Betreiberliste im geprüften Suchmaterial. Quellen: https://firmeneintrag.creditreform.de/91056/8190227942/WALTER_KOENIGS_SCHROTT_UND_METALLE_INH_MANFRED_KOENIGS_E_K (Suchindex, Vollabruf 403) ; https://m.facebook.com/pages/Walter-K%C3%B6nigs-Schrott-und-Metalle/106632539890548 (nur Suchindex/Seitenlead).]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Aktuellen Suchstand zum exakten Firmennamen erneut geprüft: das NorthData-Profil führt HRA 6851, aber die konkrete Anschrift Neuenweiherstr. 6 beruht weiterhin auf einem Registerereignis vom 22.09.2010; die Bing-Suche nach exaktem Firmennamen plus Erlangen lieferte auf der ersten Ergebnisseite keine passende aktuelle Betreiberseite. Suchtreffer sind keine Register- oder Aktivitätsbelege. Daher Status `aktiv` → `pruefung`; das ist kein Schließungsbeleg. Telefon, Öffnungszeiten, Mindestmengen und heutige Kundenannahme bleiben unbestätigte Verzeichnisangaben; keine Geokodierung. Ankauf: keine numerische Liste; Verkauf: keine Preisliste; Gebühren: keine Tarife. Quelle(n): https://www.northdata.de/Walter%20K%C3%B6nigs%20Schrott%20und%20Metalle%20Inh.%20Manfred%20K%C3%B6nigs%20e.%20K.,%20Erlangen/Amtsgericht%20F%C3%BCrth%20HRA%206851 ; https://www.bing.com/search?q=%22Walter+K%C3%B6nigs+Schrott+und+Metalle%22+Erlangen]

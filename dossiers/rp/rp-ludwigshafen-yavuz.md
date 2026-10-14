@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Exakte Adress-/Namenssuche konkretisiert den Lead als „Yavuz Metallhandel“, Leuschnerstr. 22, 67063 Ludwigshafen, 0179 5476909. Die Treffer auf unterschiedlichen Gelbe-Seiten-Kategorien sind dieselbe Quellenfamilie; kein vollständiger Inhabername oder qualifizierter aktueller Betreiberbeleg. Vorhandene Adresse/Telefon/Öffnungszeiten bleiben ausdrücklich historische Verzeichnis-Fills, nicht neu verifiziert; keine Namenspräzisierung ohne Identitätsbeleg. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare numerische Liste; keine offene Anlieferung aus den katalogisierten Öffnungszeiten ableiten. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/16e064e4-76bc-4b07-b075-e2d70c0b6e85 .]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: PLZ 67063, Tel. 0179 5476909, OeZ Mo-So 07:00-20:00 gefuellt (Seed-Strasse Leuschnerstr. 22 bestaetigt via 2 Verzeichnisbelege: Gelbe Seiten + 11880). Keine Betreiber-Website → website leer, website_status unbekannt. Adresse ergaenzt → Koordinaten neu zu geocodieren. Quelle(n): gelbeseiten.de + 11880.com (Detailseiten, Abruf 02.10.2026).]

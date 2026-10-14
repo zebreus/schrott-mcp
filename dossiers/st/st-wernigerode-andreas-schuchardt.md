@@ -28,6 +28,10 @@ Mehrere Branchenverzeichnisse führen „Schuchardt Andreas Schrotthandel, Eilku
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche Schuchardt Wernigerode im auslesbaren ersten Ergebnisblock ohne örtlich passenden Andreas-Schuchardt-Schrotthandel; Werner Schuchardt/Duisburg und Schuchardt & Wenderoth/Niederorschel sind keine Matches. Kein Vollständigkeits-/Schließungsbeweis; Einzelgewerbeauskunft zum Kandidaten Mühlental 48 bleibt erforderlich. Allgemeine Websuche technisch fehlgeschlagen. Vorhandene Verzeichnisleads aus 06.10. weder gelöscht noch zu Primärbelegen hochgestuft; keine Kontakt-/Adress-Fills, kein GEO. Keine numerischen Ankauf-, Verkaufs- oder Gebührenlisten; Quelle: https://www.northdata.de/?query=Schuchardt%20Wernigerode ; Verzeichnisquellen siehe 06.10.2026.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme (lt. Verzeichnis)

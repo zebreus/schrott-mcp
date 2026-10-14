@@ -30,6 +30,10 @@ Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden. Ein 
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Suche Helge Winzer im ersten Ergebnisblock ohne eindeutigen Ziepel-Schrottbezug; Holger Winzer/Bauunternehmen in Gleina und Helge-Wind-/Melzer-Treffer sind andere Namen/Orte. Keine Gleichsetzung, kein vollständiger Negativbeweis. Betreiber-/Betriebsstättenabgleich Dorfstr. 10 gegen An der Kreuzung 1/Landhaus Zeddenick bleibt offen; vorhandene Angaben unverändert als Leads, kein GEO. Keine zurechenbare numerische Preisliste für Ankauf, Verkauf oder Gebühren; Quelle: https://www.northdata.de/?query=Helge%20Winzer ; zwei Standortleads und URLs siehe 03./07.10.2026.]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Gelbe Seiten und Schrottplatz.org erneut abgeglichen. Gelbe Seiten führt Dorfstr. 10, 39291 Ziepel und 0172 9037980; Schrottplatz.org führt daneben ein Profil "Schrott Winzer Helge" an An der Kreuzung 1 und ein zweites an Dorfstraße 10. Beide sind Aggregator-Leads und keine Betreiber-/Registerquelle; die bestehenden abweichenden Adressen bleiben unaufgelöst. Kein aktueller Preis, Öffnungsplan oder Annahmeumfang verifiziert; keine Frontmatter-Fills. Quelle(n): https://www.gelbeseiten.de/gsbiz/3ed5ad93-48b9-4d2c-a70a-5588a9caff9c ; https://www.schrottplatz.org/genthin/helge-winzer-5219466.html ; https://www.schrottplatz.org/genthin/schrott-winzer-helge-aYEPAg.html]

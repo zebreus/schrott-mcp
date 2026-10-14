@@ -28,6 +28,10 @@ Die Betreiber-Website belegt D&F Wertstoffhandel mit Sitz in Koblenz (Friedrich 
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Impressum, Wertstoffhandel und Containerseite direkt erneut gelesen. Friedrich Laroche/Sitz Fritz-Zimmer-Straße 1A, 56070 Koblenz bleibt Eigenangabe; Containerseite überschreibt „Containerdienst in Koblenz, Andernach & Umgebung“ und bietet 4–40 m³, nicht eine Annahmestelle in Andernach. Der Andernacher Adresslead An den Billenbäumen 1 bleibt unbestätigt; keine Umadressierung zu Koblenz und keine Websitefüllung für die ungeklärte Filialzeile. ANKAUF: FE/NE-Tageshöchstpreise auf Anfrage, keine Beträge. VERKAUF: keine Liste. GEBÜHREN: Kosten niedrig/„preiswert“, keine Tarife, keine Kostenloszusage. Quellen: https://df-wertstoffhandel.de/impressum/ ; https://df-wertstoffhandel.de/wertstoffhandel/ ; https://df-wertstoffhandel.de/container/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Wertstoffhandel

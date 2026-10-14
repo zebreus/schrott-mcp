@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die frühere Aussage „keine PEG auffindbar/Fehlanlage möglich“ ist zu korrigieren: NorthData führt **Parchimer Entsorgungs GmbH-PEG**, HRB 219 Schwerin, Parchim, mit Löschungspublikation vom 03.12.2012 und öffentlicher Abfallentsorgung/Müllumladestation Paarsch/Wertstoffhöfen als Gegenstand. Die historische juristische Person ist damit plausibel identifiziert, kein aktuell belegter privater Metallankauf.
+
+Walter-Hase-Str. 42 ist laut eigener Behördenwebsite weiterhin Amt Parchimer Umland. Das schließt eine historische Geschäftsadresse dort nicht aus, belegt aber keinen heutigen Schrottplatz. Die Stadt Parchim nennt für Haushaltsschrott/Elektroschrott heute REMONDIS Mecklenburg am Paarscher Weg 64; ohne belegte Betreiberkette weder REMONDIS-Adresse noch Gebühren auf PEG übertragen. Registerlöschung bislang eine Quellfamilie, Nachfolge offen: `pruefung`, nicht ungeprüft `geschlossen`. **Ankauf / Verkauf / Gebühren:** keine PEG-Liste; keine GEO-Übertragung.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Korrektur 14.10.2026: NorthData-Suche und individuellen Datensatz gelesen: Parchimer Entsorgungs GmbH-PEG, AG Schwerin HRB 219, EUID DEN1308V.HRB219, Löschung 03.12.2012, Gegenstand öffentliche Abfallentsorgung/Müllumladestation Paarsch/Abfalltransport/Wertstoffhöfe/Deponienachsorge. Damit ist die pauschale Nichtauffindbarkeit aus 01.10. widerlegt; Name+Parchim sind kein bloßes Behörden-Phantom. Löschungsgrund/Rechtsnachfolge nicht öffentlich ausgelesen, unabhängiger Zweitbeleg fehlt, status pruefung erhalten. Quelle: https://www.northdata.de/Parchimer%20Entsorgungs%20GmbH-PEG,%20Parchim/Amtsgericht%20Schwerin%20HRB%20219.]
+- [Recherche 14.10.2026: Amt-Website bestätigt Walter-Hase-Str. 42 als aktuelle Amtsanschrift. Stadt Parchim nennt öffentliche Zuständigkeit Abfallwirtschaft Ludwigslust-Parchim und Annahme Haushaltsschrott/Elektroschrott bei REMONDIS Mecklenburg GmbH, Paarscher Weg 64, 19370 Parchim. Kommunale Seite ist kein Beleg einer PEG→REMONDIS-Verschmelzung und kein Ankaufpreis; keine Betreiber-/Adressmigration, keine Gebührenübernahme, kein GEO. Keine bezifferten PEG-Ankauf-/Verkaufs-/Gebührenlisten; Quelle: https://www.amt-parchimer-umland.de/ ; https://www.parchim.de/de/buergerservice-1/buergerservice/umwelt-klima-und-natur/abfall-und-reinigung/abfallentsorgung/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

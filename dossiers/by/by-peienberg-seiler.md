@@ -30,6 +30,10 @@ Ankauf: keine Zahlenpreise, individuelle Anfrage. Verkauf: keine Liste. Gebühre
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Betreiberhomepage und Impressum erneut direkt gelesen: Alexander Seiler, Telefon 0160 3820883, info@schrotthandel-seiler.de; Weilheimerstr. 1 ausdrücklich Postanschrift. NEU: exakte Name-/Domain-Suche zeigt im Creditreform-Suchindex diesmal ausdrücklich www.schrotthandel-seiler.de unter Alexander Seiler Metall -und Schrotthandel. Das ist ein unabhängiger Domainhinweis, aber Profilvollabruf weiterhin 403; der Owner-Vorbehalt vom 11.10. wird nicht durch einen als vollständig gelesen ausgegebenen Treffer umgangen. Website-/Kontakt-Fills bleiben zur Owner-Prüfung zurückgehalten; keine Orts-/Annahmebestätigung aus Postanschrift. ANKAUF: hochwertige Schrotte/Metalle, Abholung, keine Zahlenpreise. VERKAUF: keine Liste. GEBÜHREN: kostenlose Containerwerbung und kostenloses Entrümpelungsangebot, keine kostenlos zugesagte Entrümpelung oder Gesamttariftabelle. Quellen: https://www.schrotthandel-seiler.de/ ; https://www.schrotthandel-seiler.de/impressum/ ; https://firmeneintrag.creditreform.de/82380/8290784918/ALEXANDER_SEILER_METALL_UND_SCHROTTHANDEL (Suchindex mit Domain, Vollabruf 403).]
+
 ### Recherche 11.10.2026
 
 - [Owner-Review 11.10.2026: Neue Website- und Beschreibungsfills zurückgehalten, weil der unabhängig gelesene Domain-/Identitätszweitbeleg weiterhin fehlt. Betreiberleistungen bleiben attribuierte Einzelbelege in der Recherche, nicht qualifizierte Seed-Fakten; website_status aktiv bleibt der bereits historisch belegte technische Abrufstatus. Der folgende Rechercheeintrag dokumentiert den vor dieser Korrektur vorgeschlagenen Domain-Fill, nicht den finalen Seed. Quelle: https://www.schrotthandel-seiler.de/ ; https://www.schrotthandel-seiler.de/impressum/ ; https://firmeneintrag.creditreform.de/82380/8290784918/ALEXANDER_SEILER_METALL_UND_SCHROTTHANDEL]

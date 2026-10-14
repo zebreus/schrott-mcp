@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkreter neuer Verzeichnislead statt alleiniger Negativsuche: 11880-Detail „Auto verschrotten | Entsorgen“, Dülmener Str. 21, 48653 Coesfeld, 01522 6680463. Direkt gelesen, aber ohne Betreibername/Impressum/Website und nur Eintragsdaten vom 12.11.2024; Profil-Update 04.10.2026 ist kein aktueller Gewerbenachweis. Kontakte/Adresse bleiben deshalb außerhalb der Frontmatter.
+
+Gleiche Nummer in Cybo-Leads zu Düsseldorf (Opladener Str. 31) und Recklinghausen (Hochstraße 12) deutet auf einen möglichen mobilen/SEO-Auftritt, beweist aber weder Betreiberidentität noch Niederlassungen. Dort genannte Domain schrott-shhhhh.de beim Abruf Transportfehler. Kein Merge/Annahmestellen-/Zertifikatsnachweis. Ankauf/Auszahlung, Verkauf und Gebühren unbekannt; keine kostenlose Abholung vom Düsseldorfer Profil auf Coesfeld übertragen. Kein GEO aus einem Portalpunkt.
 
 ## Timeline
+
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Eigenständige Exaktsuche und 11880-Detail live gelesen: „Auto verschrotten | Entsorgen“, Dülmener Str. 21, 48653 Coesfeld, 01522 6680463; Kategorie Altmetallrecycling, Website/E-Mail/Öffnungszeiten fehlen, Eintragsdaten 12.11.2024, Profil aktualisiert 04.10.2026. Korrigiert bisherigen Such-Miss, aber bleibt Aggregator ohne Betreiberidentität. Adresse/Telefon nicht gefüllt; keine aktuelle Bestätigung, Autoverwertungsanerkennung oder Betriebsschließung daraus abgeleitet. Quelle: https://www.11880.com/branchenbuch/coesfeld/060440092B113399944/auto-verschrotten-entsorgen.html.]
+- [Recherche 14.10.2026: Eigene exakte Telefonrecherche findet dieselbe Nummer in Cybo-Suchleads für „Autoverschrotten Markt | Abholung kostenlos“, Opladener Str. 31, 40591 Düsseldorf, und „Autoverschrottung | Auto entsorgen DE“, Hochstraße 12, 45661 Recklinghausen. Verlinkte Domain schrott-shhhhh.de direkt Transportfehler; keine Rechtsidentität/Niederlassungs- oder Nachfolgekette gelesen. Keine Netzwerkzusammenführung und keine fremde Gebührenzusage übertragen. Keine numerische Ankauf-/Verkaufs-/Gebührenliste gefunden. Quellen: https://hr.cybo.com/DE/d%C3%BCsseldorf/junkyard (Suchlead); https://negocis.cybo.com/DE/dorsten/scrap-metal-dealer?p=3 (Suchlead); https://schrott-shhhhh.de/ (Abrufgrenze).]
 
 ### Recherche 04.10.2026
 

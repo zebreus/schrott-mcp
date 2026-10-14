@@ -30,6 +30,10 @@ Zwei nicht deckungsgleiche Standortspuren sind zu trennen: eine Drittanbieter-Sp
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: Betreiber-index direkt erneut gelesen: Impressum/Datenschutz benennt Karl Staron und Talstr. 68, 01156 Dresden ausdrücklich Büro ohne Kundenverkehr, 0171 6547877 und Info@Autoverwertung-Staron.de. Fahrzeugangebot PKW/Transporter/LKW/Motorrad, kostenlose Abholung Dresden/Heidenau/Pirna/Umgebung, Restwert nur je Zustand/Alter/Modell, Verwertungsnachweis. Dies ist weiterhin dieselbe Betreiber-Quellfamilie, kein zweiter Beleg für Hauptstr. 96 oder deren aktuelle Betriebsstättenidentität. Keine Kontakt-/Website-/Adress-Fills für das Heidenauer Dossier, kein Büro-GEO als Annahmepunkt. Ankauf unbezifferter Restwert; Verkauf keine Liste; Gebühren kostenlose Abholung laut Betreiber, Annahme-/Verwertungskosten nicht pauschal als kostenlos bestätigt. Quelle: https://autoverwertung-staron.de/index.html ; amtlicher GESA-Prüfweg siehe 08.10.2026.]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: GESA-Primärweg konkretisiert: altfahrzeugstelle.de leitet auf offizielle GADSYS/GESA-Hilfe weiter und verlinkt fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung. Direkter Registerabruf liefert nur Vaadin-JavaScript-Hülle, keinen individuell auswertbaren Staron-Datensatz; Spiegelregister deshalb nicht zur amtlichen Bestätigung hochgestuft. Betreiber index.html erneut gelesen: Karl Staron, Büro Talstr. 68 ohne Kundenverkehr, kostenlose Abholung Dresden/Heidenau/Pirna, Restwert je Zustand/Alter/Modell, keine Beträge. GESA erläutert außerdem, dass kostenlose Herstellerrücknahme und Transportkosten zu trennen sind; daraus keine pauschale kostenlose Fahrzeugannahme bei Staron ableiten. Hauptstr. 96 weiterhin ungeklärt, keine Standort-/Kontaktübertragung. Ankauf individuell/unbeziffert, Verkauf keine Liste, Gebühren kostenlose Abholung laut Betreiber, Annahmegebühren offen; Quelle(n): https://autoverwertung-staron.de/index.html ; https://www.altfahrzeugstelle.de/ ; https://hilfe.gadsys.de/fbrwiki/gesa-info ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung.]

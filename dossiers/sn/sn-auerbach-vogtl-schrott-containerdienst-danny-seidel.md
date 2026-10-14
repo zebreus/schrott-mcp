@@ -28,6 +28,10 @@ Der behauptete Auerbacher Schrott-/Containerbetrieb bleibt ohne gesicherte Betre
 
 ## Timeline
 
+### Recherche 14.10.2026
+
+- [Recherche 14.10.2026: NorthData-Ergebnisliste Danny Seidel direkt erneut geprüft: Assen/Niederlande, Danny Sven Seidel Doberschau-Gaußig und Danny Seidel Falkensee, keine zurechenbare Auerbacher Schrott-/Containeridentität im ersten Ergebnisblock. Der Namensvetterbefund aus 08.10. bleibt bestehen; er beweist nicht, dass ein nicht registerpflichtiges Einzelgewerbe fehlt. Allgemeine Websuche lieferte überwiegend themenfremde Containeranbieter. Die zwei Standortleads Dr.-Wilhelm-Külz-Str. 13 und Robert-Blum-Str. 28 bleiben ungeklärt; keine Fills, keine Schließung oder GEO. Ankauf/Verkauf/Gebühren ohne zuordenbare Zahlen; Quelle: https://www.northdata.de/?query=Danny%20Seidel ; Adressleads siehe Recherche 12.10.2026.]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Die heute geprüften Branchen-/Containerportale widersprechen sich beim Danny-Seidel-Datensatz: meinestadt nennt Dr.-Wilhelm-Külz-Str. 13, 08209 Auerbach; Infobel und containerdienst-portal listen Robert-Blum-Straße 28, 08209 Auerbach. Cylex führt einen ähnlich benannten „Containerdienst Seidel“ an der Robert-Blum-Straße ohne gesicherte Verknüpfung zum Danny-Seidel-Dossier. Die Portale sind Leads und kein Betreiber-/Registerbeleg; keine Adresse, Telefonnummer oder Materialannahme übernommen. Identität, Standort und eventuelle Namensgleichheit offen; keine GEO-Änderung. ANKAUF: keine verifizierte Material- oder Ankaufspreisliste. VERKAUF: keine Materialpreise. GEBÜHREN: kein Seidel-Tarif belegt; regionale Containerportal-Treffer sind keine Seidel-Preisliste. Quellen (Abruf 12.10.2026): https://branchenbuch.meinestadt.de/auerbach-vogtland/company/500257277 ; https://www.infobel.com/de/germany/schrott_containerdienst_danny_seidel/auerbach/DE110604564/businessdetails.aspx ; https://www.containerdienst-portal.de/containerdienst/auerbach-vogtland/ ; https://web2.cylex.de/firma-home/containerdienst-seidel-7823333.html.]
