@@ -4,11 +4,11 @@ name: BERK Recycling GmbH
 trader_type: sonstige
 state: NW
 city: Kevelaer
-street: ''
+street: Velder Dyck 21
 postcode: ''
-phone: 02832 78597)
-email: ''
-opening_hours: ''
+phone: 02832 78597
+email: info@berk-recycling.com
+opening_hours: 'Mo-Fr 08:00-16:30; Sa geschlossen'
 website: https://www.berk-recycling.com/
 website_status: aktiv
 status: aktiv
@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-Aktuelle Betreiberseiten bekräftigen BERK Recycling GmbH, HRB 18672 Kleve, Standort Kevelaer Velder Dyck 21, 47624; Telefon 02832 78597, info@berk-recycling.com, Mo–Fr 08:00–16:30, Sa geschlossen. Selbstanlieferung für Privat/Gewerbe/Industrie mit Personalausweis, größere Mengen telefonisch ankündigen; Container/Abholung auf Angebot. Ankauf sorten- und gewichtsabhängig zu telefonisch erfragbaren Tagespreisen, Auszahlung bar oder Überweisung, keine öffentliche Zahlenliste. Verkauf/Containergebühren nicht beziffert. Registerlivecheck aktuell blockiert: Frontmatter bleibt unverändert, insbesondere Telefon-Klammerartefakt als Owner-Korrektur vorgemerkt.
+BERK Recycling GmbH, HRB 18672 Kleve, ist im aktuellen Registergegencheck bestätigt. Betreiber-Standortdetail nennt Velder Dyck 21, Telefon 02832 78597, info@berk-recycling.com und Mo–Fr 08:00–16:30, Sa geschlossen; diese Angaben nach Owner-Prüfung übernommen. PLZ bewusst offen: Betreiber 47624, Register 47625. Keine Verlegung oder postalische Auflösung behauptet. Selbstanlieferung für Privat/Gewerbe/Industrie mit Personalausweis, größere Mengen telefonisch ankündigen. Ankauf nach Sorte/Gewicht zu telefonisch erfragbaren Tagespreisen, bar oder Überweisung, keine Zahlenliste. Containerstellung/Transport können berechnet oder verrechnet werden, keine allgemeine Gratiszusage. Zertifikate/Genehmigungsbescheide nicht verifiziert; vorhandene GEO nicht durch Kontaktfreigabe validiert.
 
 ## Timeline
+
+### Owner-Follow-up 14.10.2026
+
+- [Korrektur 14.10.2026: Owner liest Impressum, Kontakt, Kevelaer-Standortdetail, Betreiber-Sitemap und NorthData-HRB18672 selbst. Firma/Ort/HRB/Geschäftsführer Marius Kohl kongruent; Register nennt Velderdyck 21, 47625, Betreiber Velder Dyck 21, 47624. Street als veröffentlichte Anlieferadresse gefüllt, PLZ wegen Gegenbefund leer gelassen; kein Umzug oder Registerfehler behauptet. Kontaktmail und Mo-Fr 08:00-16:30/Sa geschlossen aus echten Kevelaer-Blöcken übernommen; Telefon 02832 78597) zu 02832 78597 korrigiert, nur Schlussklammer entfernt, Ziffern unverändert. Owner akzeptiert die README-Betreiber-Ausnahme für diese eigenen Standortfakten: registerkongruentes Impressum, lebende Registergesellschaft, konkrete Standortseite, datierte Pflege-Signale der spezifischen Sitemapseiten (Standort 27.09.2026, Container Kevelaer 05.10.2026). Sitemap ist Betreiber-Selbstauskunft, kein unabhängiger Vor-Ort- oder Zertifikatsnachweis. Genehmigungs-/Zertifizierungswerbung deshalb nicht als Zertifizierung übernommen. Read-only DB-GEO 51.58322/6.24828 bleibt ungeprüfter Bestand; kein GEO gesetzt oder neu bestätigt. Historie und Slug erhalten. Quelle(n): https://berk-recycling.com/impressum/ ; https://berk-recycling.com/kontakt/ ; https://berk-recycling.com/services/schrotthandel-kevelaer/ ; https://berk-recycling.com/page-sitemap.xml ; https://www.northdata.de/BERK+Recycling+GmbH,+Kevelaer/Amtsgericht+Kleve+HRB+18672 ; docs/trader-seed.md; read-only traders-Abfrage 14.10.2026.]
+- [Recherche 14.10.2026: Follow-up-Agent liest amtliche AD/CD HRB18672, aktuelle BERK Recycling GmbH und frühere BERK GmbH; Owner hat diese sessionabhängigen PDFs nicht selbst erneut abgerufen, sein unabhängiger Registergegencheck ist NorthData. Ankaufkurse weiterhin telefonisch, keine Zahlenliste. Containerstellung und Transport laut Betreiber abhängig von Menge/Sorte/Standzeit berechenbar oder mit Schrottwert verrechenbar; kein kostenloses Gesamtangebot. Shop wurde nicht ausgelesen: keine Aussage, Containerpreise seien nirgends öffentlich. Kostenfreier Banner nur Pappe/Papier, keine Metallvergütung. Verkaufspreise nicht erhoben. Quelle(n): https://www.handelsregister.de/rp_web/welcome.xhtml (AD/CD-Abrufbeschreibung im Follow-up-Bericht); https://berk-recycling.com/schrottcontainer/ ; https://berk-recycling.com/containerdienst-kevelaer/ ; research/checkin-20261014-berk-kevelaer-followup.md.]
 
 ### Recherche 14.10.2026 (Welle 5 A)
 
