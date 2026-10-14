@@ -17,14 +17,38 @@ pub fn handler() -> Handler {
     }
 }
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
+    let snapshot = scrape_dated(client).await?;
+    legacy_observation(snapshot)
+}
+
+/// Keeps row publication dates bound to the parsed price order. Fields are
+/// private so callers cannot edit prices independently of their dates.
+#[derive(Debug)]
+pub struct DatedSnapshot {
+    outcome: HandlerOutcome,
+    row_dates: Vec<String>,
+}
+
+impl DatedSnapshot {
+    pub fn observation(&self) -> &HandlerOutcome {
+        &self.outcome
+    }
+
+    pub(crate) fn row_dates(&self) -> &[String] {
+        &self.row_dates
+    }
+}
+
+pub(crate) async fn scrape_dated(client: &reqwest::Client) -> Result<DatedSnapshot, IngestError> {
     // A 429 is a real failed attempt, not a cached successful price scrape.
     let (status, html) = fetch_text(client, URL).await?;
-    let mut out = parse(&html)?;
+    let mut snapshot = parse_dated(&html)?;
+    let out = &mut snapshot.outcome;
     out.status_code = status;
     out.byte_len = html.len();
     out.fetch_url = URL.to_owned();
     out.website_alive = true;
-    Ok(out)
+    Ok(snapshot)
 }
 fn error(detail: impl Into<String>) -> IngestError {
     IngestError::Parse {
@@ -49,6 +73,7 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         "Blei alt" => ("blei", "alt"),
         "Zinkblech alt" => ("zink", "Zinkblech alt"),
         "Zinn" => ("zinn", ""),
+        "Zinn alt" => ("zinn", "alt"),
         "Bleibatterien / Starterbatterien" => ("batterien-blei", "Starterbatterien"),
         "Alu-Geschirr" => ("aluminium-gemischt", "Geschirr"),
         "Alu, bunt, eisenfrei" => ("aluminium-gemischt", "bunt, eisenfrei"),
@@ -72,7 +97,21 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     })
 }
 
+#[cfg(test)]
 fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
+    legacy_observation(parse_dated(html)?)
+}
+
+fn legacy_observation(snapshot: DatedSnapshot) -> Result<HandlerOutcome, IngestError> {
+    if snapshot.outcome.published_at.is_none() {
+        return Err(error(
+            "mixed row publication dates require typed dated snapshot",
+        ));
+    }
+    Ok(snapshot.outcome)
+}
+
+fn parse_dated(html: &str) -> Result<DatedSnapshot, IngestError> {
     let doc = Html::parse_document(html);
     let heading = Selector::parse("h2, h3").unwrap();
     let headings: Vec<_> = doc.select(&heading).map(text).collect();
@@ -99,7 +138,11 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
     let tr = Selector::parse("tbody tr").unwrap();
     let td = Selector::parse("td").unwrap();
     let stand = Selector::parse("span.hmp-stand").unwrap();
-    let mut out = HandlerOutcome::default();
+    let mut out = HandlerOutcome {
+        fetch_url: URL.to_owned(),
+        ..HandlerOutcome::default()
+    };
+    let mut row_dates = Vec::new();
     let mut keys = std::collections::HashSet::new();
     for row in table.select(&tr) {
         let cells: Vec<_> = row.select(&td).collect();
@@ -117,18 +160,6 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
         }
         let raw_date = text(dates[0]);
         let date = row_date(&raw_date).ok_or_else(|| error(format!("invalid date: {label}")))?;
-        // HandlerOutcome currently has only one date. Fail closed on mixed
-        // publication days rather than silently assigning another row's date.
-        if out
-            .published_at
-            .as_ref()
-            .is_some_and(|previous| previous != &date)
-        {
-            return Err(error(
-                "mixed row publication dates: row-date support required",
-            ));
-        }
-        out.published_at = Some(date);
         let raw = text(cells[1]);
         let quote = raw
             .strip_suffix(&raw_date)
@@ -158,11 +189,20 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
             confidence: Some(1.0),
             label,
         });
+        row_dates.push(date);
     }
     if out.prices.is_empty() {
         return Err(error("no mapped remuneration prices"));
     }
-    Ok(out)
+    // Preserve the uniform legacy summary, but never choose one row's date
+    // for a page with mixed publication days.
+    if row_dates.iter().all(|date| date == &row_dates[0]) {
+        out.published_at = Some(row_dates[0].clone());
+    }
+    Ok(DatedSnapshot {
+        outcome: out,
+        row_dates,
+    })
 }
 
 fn row_date(raw: &str) -> Option<String> {
@@ -248,6 +288,212 @@ mod tests {
         );
     }
     #[test]
+    fn zinn_alt_keeps_the_operators_grade() {
+        let changed = FIXTURE.replace("<td>Zinn</td>", "<td>Zinn alt</td>");
+        let out = parse(&changed).unwrap();
+        assert_eq!(out.prices.len(), 23);
+        let zinn = out.prices.iter().find(|p| p.material == "zinn").unwrap();
+        assert_eq!(zinn.variant, "alt");
+        assert_eq!(zinn.label, "Zinn alt");
+        assert_eq!(zinn.price, 11500.0);
+        assert!(out.skipped_labels.is_empty());
+    }
+    #[test]
+    fn mixed_dates_can_be_transportable_without_relabelling_prices() {
+        let changed = FIXTURE.replacen("30.09.2026", "14.10.2026", 1);
+        let snapshot =
+            parse_dated(&changed).expect("independently dated rows must be transportable");
+        let out = snapshot.observation();
+        assert_eq!(out.prices.len(), 23);
+        assert!(
+            out.published_at.is_none(),
+            "no single page date for mixed rows"
+        );
+        assert_eq!(snapshot.row_dates[0], "2026-10-14T00:00:00+00:00");
+        assert!(snapshot.row_dates[1..]
+            .iter()
+            .all(|date| date == "2026-09-30T00:00:00+00:00"));
+    }
+    #[test]
+    fn skipped_rows_do_not_shift_publication_dates() {
+        let changed = FIXTURE
+            .replacen("30.09.2026", "14.10.2026", 3)
+            .replacen("40 €/t", "auf Anfrage", 1)
+            .replace("Mischschrott leicht", "Neue Sorte");
+        let snapshot = parse_dated(&changed).unwrap();
+        assert_eq!(snapshot.outcome.prices.len(), 21);
+        assert_eq!(snapshot.row_dates.len(), 21);
+        assert_eq!(snapshot.outcome.prices[0].label, "Mischschrott schwer");
+        assert_eq!(snapshot.row_dates[0], "2026-10-14T00:00:00+00:00");
+        assert!(snapshot.row_dates[1..]
+            .iter()
+            .all(|date| date == "2026-09-30T00:00:00+00:00"));
+        assert!(snapshot
+            .outcome
+            .skipped_labels
+            .contains(&"Altblech: auf Anfrage".to_owned()));
+        assert!(snapshot
+            .outcome
+            .skipped_labels
+            .contains(&"Neue Sorte".to_owned()));
+    }
+    #[test]
+    fn mixed_publication_dates_remain_fail_closed() {
+        let context = "<h2>Auszahlung von Vergütungen</h2><h2>Preise Schrott &amp; Metalle</h2><h3>Für Privatkunden</h3>";
+        let old = "<tr><td>V2A</td><td>850 €/t<span class='hmp-stand'>Stand: 30.09.2026, 16:22 Uhr</span></td></tr>";
+        let new = "<tr><td>Altblech</td><td>35 €/t<span class='hmp-stand'>Stand: 14.10.2026, 07:22 Uhr</span></td></tr>";
+        let page = |rows: &str| {
+            format!("{context}<table class='hmp-table'><thead><tr><th>Sorte</th><th>Preis pro t</th></tr></thead><tbody>{rows}</tbody></table>")
+        };
+        assert!(parse(&page(old)).is_ok());
+        assert!(parse(&page(new)).is_ok());
+        let err = parse(&page(&format!("{old}{new}"))).unwrap_err();
+        assert!(err.to_string().contains("mixed row publication dates"));
+    }
+    #[tokio::test]
+    async fn typed_recording_keeps_each_date_and_rejects_lossy_transport() {
+        use crate::traders::{record, record_outcome, RecordOutcome};
+        use schrott_mcp_store::{InternalDb, PublicDb};
+
+        let dir = crate::test_support::TempDbDir::new("hofmann-row-dates");
+        let public = PublicDb::open(dir.path()).unwrap();
+        let internal = InternalDb::open(dir.path()).unwrap();
+        crate::pipeline::seed_metadata(&public).unwrap();
+        let now = chrono::DateTime::parse_from_rfc3339("2026-10-20T22:30:00Z")
+            .unwrap()
+            .with_timezone(&chrono::Utc);
+        let snapshot = parse_dated(FIXTURE).unwrap();
+        let legacy = snapshot.observation().clone();
+        assert!(record(&public, &internal, SLUG, &legacy, &now)
+            .await
+            .is_err());
+        let typed = RecordOutcome::HofmannDated(snapshot);
+        assert!(
+            record_outcome(&public, &internal, "wrong-trader", &typed, &now)
+                .await
+                .is_err()
+        );
+        assert_eq!(
+            public
+                .query_sql("SELECT COUNT(*) FROM current_prices")
+                .unwrap()
+                .rows[0][0],
+            0
+        );
+        assert_eq!(
+            record_outcome(&public, &internal, SLUG, &typed, &now)
+                .await
+                .unwrap()
+                .recorded,
+            23
+        );
+
+        // The first quote changes and is newly dated; all other prices keep
+        // the older stated date even when a (conflicting) page date exists.
+        let changed = FIXTURE
+            .replacen("30.09.2026", "14.10.2026", 1)
+            .replacen("40 €/t", "45 €/t", 1)
+            .replacen("850 €/t", "900 €/t", 1);
+        let mut snapshot = parse_dated(&changed).unwrap();
+        snapshot.outcome.published_at = Some("2026-10-19T00:00:00+00:00".into());
+        let typed = RecordOutcome::HofmannDated(snapshot);
+        assert_eq!(
+            record_outcome(&public, &internal, SLUG, &typed, &now)
+                .await
+                .unwrap()
+                .recorded,
+            23
+        );
+        let trader = public.find_trader_id(SLUG).unwrap().unwrap();
+        for (index, p) in typed.observation().prices.iter().enumerate() {
+            let material = public.find_material_id(p.material).unwrap().unwrap();
+            let current = public
+                .current_price_for(trader, material, p.variant.as_ref())
+                .unwrap()
+                .unwrap();
+            assert_eq!(
+                current.published_at.as_deref(),
+                typed.price_published_at(index)
+            );
+            assert_eq!(
+                serde_json::from_str::<serde_json::Value>(&current.extra_json).unwrap()
+                    ["published_at_basis"],
+                "row_stated"
+            );
+            assert_eq!(current.source_url, URL);
+        }
+        let material = public
+            .find_material_id("stahlschrott-shredder")
+            .unwrap()
+            .unwrap();
+        let history = public
+            .price_history(trader, material, "Altblech", 10)
+            .unwrap();
+        assert_eq!(history.len(), 2);
+        assert!(history
+            .iter()
+            .any(|p| p.published_at.as_deref() == Some("2026-09-30T00:00:00+00:00")));
+        assert!(history
+            .iter()
+            .any(|p| p.published_at.as_deref() == Some("2026-10-14T00:00:00+00:00")));
+
+        // Date-only updates must work at unchanged prices too. Removing one
+        // date or corrupting it rejects the entire batch before any write.
+        let all_new = changed.replace("30.09.2026", "15.10.2026");
+        let mut invalid = parse_dated(&all_new).unwrap();
+        invalid.row_dates.pop();
+        assert!(record_outcome(
+            &public,
+            &internal,
+            SLUG,
+            &RecordOutcome::HofmannDated(invalid),
+            &now
+        )
+        .await
+        .is_err());
+        let mut invalid = parse_dated(&all_new).unwrap();
+        invalid.row_dates[22] = "invalid".into();
+        assert!(record_outcome(
+            &public,
+            &internal,
+            SLUG,
+            &RecordOutcome::HofmannDated(invalid),
+            &now
+        )
+        .await
+        .is_err());
+        let v2a = public.find_material_id("edelstahl-v2a").unwrap().unwrap();
+        assert_eq!(
+            public
+                .current_price_for(trader, v2a, "")
+                .unwrap()
+                .unwrap()
+                .published_at
+                .as_deref(),
+            Some("2026-09-30T00:00:00+00:00")
+        );
+        let typed = RecordOutcome::HofmannDated(parse_dated(&all_new).unwrap());
+        record_outcome(&public, &internal, SLUG, &typed, &now)
+            .await
+            .unwrap();
+        assert_eq!(
+            public
+                .current_price_for(trader, v2a, "")
+                .unwrap()
+                .unwrap()
+                .published_at
+                .as_deref(),
+            Some("2026-10-15T00:00:00+00:00")
+        );
+        assert_eq!(
+            public
+                .query_sql("SELECT COUNT(*) FROM current_prices")
+                .unwrap()
+                .rows[0][0],
+            23
+        );
+    }
+    #[test]
     fn rejects_unit_direction_date_and_structure_changes() {
         for changed in [
             FIXTURE.replacen("40 €/t", "40 €/kg", 1),
@@ -255,7 +501,6 @@ mod tests {
             FIXTURE.replacen("40 €/t", "0 €/t", 1),
             FIXTURE.replacen("40 €/t", "bis zu 40 €/t", 1),
             FIXTURE.replacen("30.09.2026", "31.09.2026", 1),
-            FIXTURE.replacen("30.09.2026", "29.09.2026", 1),
             FIXTURE.replace("Für Privatkunden", "Entsorgungskosten"),
             FIXTURE.replace("Auszahlung von Vergütungen", "Annahmekosten"),
             FIXTURE.replace("hmp-table", "changed-table"),
@@ -263,6 +508,7 @@ mod tests {
             FIXTURE.replace("Kupfer Berry", "Kupfer Millberry"),
         ] {
             assert!(parse(&changed).is_err());
+            assert!(parse_dated(&changed).is_err());
         }
     }
     #[test]

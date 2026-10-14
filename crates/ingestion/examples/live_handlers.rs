@@ -34,12 +34,13 @@ async fn run_handlers(
         }
         matched = true;
         println!("=== {} ===", h.slug);
-        match (h.scrape)(client).await {
+        match schrott_mcp_ingestion::traders::scrape_record_outcome(&h, client).await {
             Err(e) => {
                 failed = true;
                 eprintln!("FAILED: {e}");
             }
-            Ok(out) => {
+            Ok(record_outcome) => {
+                let out = record_outcome.observation();
                 println!(
                     "status={} bytes={} published_at={:?} acceptances={} alive={} info={:?}",
                     out.status_code,
@@ -49,13 +50,14 @@ async fn run_handlers(
                     out.website_alive,
                     out.trader_info,
                 );
-                for p in &out.prices {
+                for (index, p) in out.prices.iter().enumerate() {
                     println!(
-                        "  {:22} {:>8.3} {:7} conf={:?} [{}]",
+                        "  {:22} {:>8.3} {:7} conf={:?} published_at={:?} [{}]",
                         p.material,
                         p.price,
                         p.unit,
                         p.confidence,
+                        record_outcome.price_published_at(index),
                         p.label.chars().take(48).collect::<String>()
                     );
                 }

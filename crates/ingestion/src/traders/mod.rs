@@ -279,13 +279,14 @@ pub const CANARY_GROWTH_FACTOR: f64 = 3.0;
 pub const CANARY_JUMP_RATIO: f64 = 3.0;
 
 /// Record one handler outcome: resolve ids, append observations.
-/// Typed boundary for MKM articles without adding optional fields to 130
-/// unrelated legacy outcome constructors. Other handlers, including MSG,
-/// retain their existing contracts unchanged.
+/// Typed boundaries for MKM articles and Hofmann row dates without adding
+/// optional fields to 130 unrelated legacy outcome constructors. Other
+/// handlers, including MSG, retain their existing contracts unchanged.
 #[derive(Debug)]
 pub enum RecordOutcome {
     Observation(HandlerOutcome),
     MkmArticles(handlers::mkm_metals::overview::Snapshot),
+    HofmannDated(handlers::hofmann_rastatt::DatedSnapshot),
 }
 
 impl RecordOutcome {
@@ -293,12 +294,21 @@ impl RecordOutcome {
         match self {
             Self::Observation(outcome) => outcome,
             Self::MkmArticles(snapshot) => &snapshot.outcome,
+            Self::HofmannDated(snapshot) => snapshot.observation(),
+        }
+    }
+
+    /// Explicit row date where available; otherwise the legacy page date.
+    pub fn price_published_at(&self, index: usize) -> Option<&str> {
+        match self {
+            Self::HofmannDated(snapshot) => snapshot.row_dates().get(index).map(String::as_str),
+            _ => self.observation().published_at.as_deref(),
         }
     }
 }
 
-/// Preserve MKM's typed source contract through scheduling; other handlers,
-/// including MSG's existing snapshot contract, keep their current transport.
+/// Preserve MKM article evidence and Hofmann row dates through scheduling;
+/// other handlers, including MSG, keep their existing transport contracts.
 pub async fn scrape_record_outcome(
     handler: &Handler,
     client: &reqwest::Client,
@@ -307,6 +317,11 @@ pub async fn scrape_record_outcome(
         return handlers::mkm_metals::scrape_articles(client)
             .await
             .map(RecordOutcome::MkmArticles);
+    }
+    if handler.slug == handlers::hofmann_rastatt::SLUG {
+        return handlers::hofmann_rastatt::scrape_dated(client)
+            .await
+            .map(RecordOutcome::HofmannDated);
     }
     (handler.scrape)(client)
         .await
@@ -328,6 +343,23 @@ pub async fn record_outcome(
             });
         }
         return handlers::mkm_metals::record_articles(public, snapshot, now);
+    }
+    if let RecordOutcome::HofmannDated(snapshot) = outcome {
+        if handler_slug != handlers::hofmann_rastatt::SLUG {
+            return Err(super::IngestError::Parse {
+                url: snapshot.observation().fetch_url.clone(),
+                detail: "Hofmann dated snapshot under another trader".to_owned(),
+            });
+        }
+        return record_dated_observation(
+            public,
+            internal,
+            handler_slug,
+            snapshot.observation(),
+            now,
+            Some(snapshot.row_dates()),
+        )
+        .await;
     }
     record(public, internal, handler_slug, outcome.observation(), now).await
 }
@@ -351,6 +383,12 @@ pub async fn record(
             detail: "MKM recording requires complete typed article evidence".to_owned(),
         });
     }
+    if handler_slug == handlers::hofmann_rastatt::SLUG {
+        return Err(super::IngestError::Parse {
+            url: outcome.fetch_url.clone(),
+            detail: "Hofmann recording requires typed row publication dates".to_owned(),
+        });
+    }
     record_observation(public, internal, handler_slug, outcome, now).await
 }
 
@@ -361,6 +399,30 @@ async fn record_observation(
     outcome: &HandlerOutcome,
     now: &DateTime<Utc>,
 ) -> Result<RecordSummary, super::IngestError> {
+    record_dated_observation(public, internal, handler_slug, outcome, now, None).await
+}
+
+async fn record_dated_observation(
+    public: &PublicDb,
+    internal: &InternalDb,
+    handler_slug: &str,
+    outcome: &HandlerOutcome,
+    now: &DateTime<Utc>,
+    row_dates: Option<&[String]>,
+) -> Result<RecordSummary, super::IngestError> {
+    // Validate the entire date transport before enrichment or price writes.
+    if let Some(dates) = row_dates {
+        if dates.len() != outcome.prices.len()
+            || dates
+                .iter()
+                .any(|date| DateTime::parse_from_rfc3339(date).is_err())
+        {
+            return Err(super::IngestError::Parse {
+                url: outcome.fetch_url.clone(),
+                detail: "invalid or incomplete row publication dates".to_owned(),
+            });
+        }
+    }
     // Only MSG declares a complete, fail-closed source snapshot. Other
     // handlers retain their observation-only semantics and write isolation.
     if handler_slug == handlers::msg_metallrecycling_gotha::SLUG {
@@ -403,7 +465,7 @@ async fn record_observation(
     let mut recorded = 0i64;
     let mut skipped = outcome.skipped_labels.clone();
     let mut canaries: Vec<String> = Vec::new();
-    for p in &outcome.prices {
+    for (index, p) in outcome.prices.iter().enumerate() {
         let Some(material_id) =
             public
                 .find_material_id(p.material)
@@ -426,7 +488,8 @@ async fn record_observation(
             p.price_max,
             p.unit,
         )?;
-        let explicit_published_at = outcome.published_at.as_deref();
+        let row_published_at = row_dates.map(|dates| dates[index].as_str());
+        let explicit_published_at = row_published_at.or(outcome.published_at.as_deref());
         let inferred_published_at = if explicit_published_at.is_none()
             && before
                 .get(&(material_id, p.variant.as_ref().to_owned()))
@@ -448,7 +511,9 @@ async fn record_observation(
         };
         let published_at = explicit_published_at.or(inferred_published_at.as_deref());
         let mut extra = serde_json::json!({ "map_v": MAP_VERSION });
-        if let Some(basis) = if explicit_published_at.is_some() {
+        if let Some(basis) = if row_published_at.is_some() {
+            Some("row_stated")
+        } else if explicit_published_at.is_some() {
             Some("page_stated")
         } else if inferred_published_at.is_some() {
             Some("observed_price_change")
