@@ -2,26 +2,43 @@
 //! Usage: cargo run -p schrott-mcp-ingestion --example live_handlers [slug]
 //! Prints parsed prices per handler — the fastest way to check a handler
 //! against the real page while developing it.
+//! Exit 1 if no handler matches or any selected scrape fails; otherwise exit 0.
 
 use schrott_mcp_ingestion::traders::handlers;
+use schrott_mcp_ingestion::traders::Handler;
+use std::process::ExitCode;
 
 #[tokio::main]
-async fn main() {
+async fn main() -> ExitCode {
     let want = std::env::args().nth(1);
     let client = reqwest::Client::builder()
         .user_agent("schrott-mcp-ingestion/0.1")
         .timeout(std::time::Duration::from_secs(30))
         .build()
         .expect("client");
-    for h in handlers::all() {
-        if let Some(ref w) = want {
+    run_handlers(&client, handlers::all(), want.as_deref()).await
+}
+
+async fn run_handlers(
+    client: &reqwest::Client,
+    handlers: Vec<Handler>,
+    want: Option<&str>,
+) -> ExitCode {
+    let mut matched = false;
+    let mut failed = false;
+    for h in handlers {
+        if let Some(w) = want {
             if h.slug != w {
                 continue;
             }
         }
+        matched = true;
         println!("=== {} ===", h.slug);
-        match (h.scrape)(&client).await {
-            Err(e) => println!("FAILED: {e}"),
+        match (h.scrape)(client).await {
+            Err(e) => {
+                failed = true;
+                eprintln!("FAILED: {e}");
+            }
             Ok(out) => {
                 println!(
                     "status={} bytes={} published_at={:?} acceptances={} alive={} info={:?}",
@@ -55,5 +72,79 @@ async fn main() {
                 }
             }
         }
+    }
+    if !matched {
+        eprintln!("FAILED: no handler matched {:?}", want);
+    }
+    if matched && !failed {
+        ExitCode::SUCCESS
+    } else {
+        ExitCode::FAILURE
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use schrott_mcp_ingestion::traders::{HandlerOutcome, Schedule};
+    use schrott_mcp_ingestion::IngestError;
+    use std::sync::atomic::{AtomicUsize, Ordering};
+
+    static SUCCESS_CALLS: AtomicUsize = AtomicUsize::new(0);
+
+    fn success() -> Handler {
+        Handler {
+            slug: "success",
+            url: "https://example.invalid/success",
+            schedule: Schedule::every_6h(),
+            scrape: |_| {
+                Box::pin(async {
+                    SUCCESS_CALLS.fetch_add(1, Ordering::SeqCst);
+                    Ok(HandlerOutcome::default())
+                })
+            },
+        }
+    }
+
+    fn failure() -> Handler {
+        Handler {
+            slug: "failure",
+            url: "https://example.invalid/failure",
+            schedule: Schedule::every_6h(),
+            scrape: |_| {
+                Box::pin(async {
+                    Err(IngestError::Parse {
+                        url: "https://example.invalid/failure".into(),
+                        detail: "controlled scrape failure".into(),
+                    })
+                })
+            },
+        }
+    }
+
+    // One async test keeps the call counter deterministic. No HTTP or DB access.
+    #[tokio::test]
+    async fn exit_status_tracks_selected_scrapes_without_stopping_after_failure() {
+        let client = reqwest::Client::new();
+        assert_eq!(
+            run_handlers(&client, vec![failure()], Some("failure")).await,
+            ExitCode::FAILURE
+        );
+        assert_eq!(
+            run_handlers(&client, vec![success()], Some("unknown")).await,
+            ExitCode::FAILURE
+        );
+        assert_eq!(SUCCESS_CALLS.load(Ordering::SeqCst), 0);
+        assert_eq!(run_handlers(&client, vec![], None).await, ExitCode::FAILURE);
+        assert_eq!(
+            run_handlers(&client, vec![failure(), success()], None).await,
+            ExitCode::FAILURE
+        );
+        assert_eq!(SUCCESS_CALLS.load(Ordering::SeqCst), 1);
+        assert_eq!(
+            run_handlers(&client, vec![failure(), success()], Some("success")).await,
+            ExitCode::SUCCESS
+        );
+        assert_eq!(SUCCESS_CALLS.load(Ordering::SeqCst), 2);
     }
 }
