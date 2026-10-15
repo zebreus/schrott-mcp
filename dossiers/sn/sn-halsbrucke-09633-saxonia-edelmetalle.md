@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SAXONIA Edelmetalle GmbH, Halsbrücke, veröffentlicht vier ausdrücklich als Ankauf bezeichnete Tages-Richtwerte für Gold, Silber, Platin und Palladium. Seit der Websiteumstellung ist die offiziell verlinkte Kursseite `https://saxonia.de/tageskursanzeiger/`; der alte Pfad liefert am 15.10.2026 HTTP 404. Die neue Seite nennt unverbindliche, auf Spotpreisen gegen 9 Uhr beruhende Richtwerte, keine garantierte Schrott-/Scheidgutvergütung. Individuelle aktuelle Preise auf Anfrage. Kein neuer Status-, Kontakt- oder GEO-Fill aus der Pfadänderung.
 
 ## Timeline
+
+### Handler-Korrektur 15.10.2026
+
+- [Korrektur 15.10.2026: Regulärer Schedulerabruf 12:55 UTC scheitert an HTTP 404 des bisherigen Kurs-Pfads. Offizielle Navigation/Sitemap verlinken nun https://saxonia.de/tageskursanzeiger/ ; direkter Abruf und korrigierter datenbankfreier Rust-Livecheck HTTP 200. Sichtbarer Tageskurs 15.10.2026: Gold 117611.5, Silber 1595.63, Platin 44731.94, Palladium 29786.96 jeweils EUR/kg. Handler normalisiert nach EUR/g und kennzeichnet die laut Seitentext unverbindlichen Spot-basierten Richtwerte als approx, nicht als garantierte Exaktvergütung. Sechs verarbeitet/unverarbeitet-Zeilen weiter ausgeschlossen, kein historisches Chartdatum als heutiges Datum. Neues Impressumsformat nennt weiterhin SAXONIA Edelmetalle GmbH, HRB 31481 Chemnitz, Erzstraße 9, 09633 Halsbrücke/Sachsen, aber dort keine Telefon-/Mailangaben; keine Kontakte aus Altfixture erfunden. Website-/Betreiberwechsel oder Geschäftsaufgabe durch den 404 nicht belegt. Lokaler erfolgreicher Livecheck ist kein Rolloutnachweis; vor Deployment bleiben vier ältere Produktionsbeobachtungen mit Kursdatum 14.10.2026 bestehen. Quellen: https://saxonia.de/tageskursanzeiger/ ; https://saxonia.de/impressum/ ; https://saxonia.de/wp-sitemap-posts-page-1.xml ; https://saxonia.de/edelmetallhandel/ .]
 
 ### Handler-Verifikation 08.10.2026 (#5555)
 

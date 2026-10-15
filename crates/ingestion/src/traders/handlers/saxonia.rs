@@ -10,7 +10,7 @@ use super::super::{
 use crate::IngestError;
 
 pub const SLUG: &str = "sn-halsbrucke-09633-saxonia-edelmetalle";
-pub const URL: &str = "https://saxonia.de/edelmetallhandel/tageskurse/";
+pub const URL: &str = "https://saxonia.de/tageskursanzeiger/";
 pub const IMPRESSUM_URL: &str = "https://saxonia.de/impressum/";
 
 pub fn handler() -> Handler {
@@ -43,13 +43,18 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 
 fn extract_info(html: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(html);
-    let sel = Selector::parse(".entry-content").unwrap();
+    // The October 2026 Elementor migration replaced .entry-content with main.
+    // Never fall back to the whole document (navigation/footer are not legal identity).
+    let sel = Selector::parse("main, .entry-content").unwrap();
     let body = doc
         .select(&sel)
         .next()
         .map(text)
         .ok_or_else(|| error("Impressumsinhalt fehlt"))?;
-    if !body.contains("SAXONIA Edelmetalle GmbH") || !body.contains("HRB 31481") {
+    let words: Vec<_> = body.split_whitespace().collect();
+    if !body.contains("SAXONIA Edelmetalle GmbH")
+        || !words.windows(2).any(|w| w == ["HRB", "31481"])
+    {
         return Err(error("SAXONIA Betreiberidentität im Impressum fehlt"));
     }
     let address = body
@@ -60,19 +65,21 @@ fn extract_info(html: &str) -> Result<TraderInfo, IngestError> {
     let (street, rest) = address
         .split_once("09633 ")
         .ok_or_else(|| error("Halsbrücker Adresse fehlt"))?;
-    if street.trim() != "Erzstraße 9" || !rest.starts_with("Halsbrücke/Sachsen") {
+    if street.trim() != "Erzstraße 9"
+        || rest.split_whitespace().next() != Some("Halsbrücke/Sachsen")
+    {
         return Err(error("SAXONIA Standort geändert: manuelle Prüfung nötig"));
     }
     let phone = body
         .split_once("Telefon:")
         .and_then(|(_, t)| t.split_once("Telefax:"))
         .map(|(t, _)| t.trim().to_owned())
-        .ok_or_else(|| error("Telefon fehlt"))?;
+        .unwrap_or_default();
     let email = body
         .split_once("E-Mail:")
         .and_then(|(_, t)| t.split_whitespace().next())
         .filter(|t| t.ends_with("@saxonia.de"))
-        .ok_or_else(|| error("Betreiber-E-Mail fehlt"))?;
+        .unwrap_or_default();
     Ok(TraderInfo {
         street: street.trim().to_owned(),
         postcode: "09633".to_owned(),
@@ -172,10 +179,12 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
                 price,
                 currency: "EUR",
                 unit: "EUR/g",
-                price_kind: "exact",
+                // The current page explicitly calls these non-binding spot-based
+                // Richtwerte. Never turn a precise number into a guaranteed payout.
+                price_kind: "approx",
                 price_min: None,
                 price_max: None,
-                confidence: Some(1.0),
+                confidence: Some(0.8),
                 label,
             });
         }
@@ -190,6 +199,56 @@ fn parse(html: &str) -> Result<HandlerOutcome, IngestError> {
 mod tests {
     use super::*;
     const PAGE: &str = include_str!("fixtures/saxonia-20261008.html");
+    const CURRENT_PAGE: &str = include_str!("fixtures/saxonia-20261015.html");
+    const CURRENT_IMPRINT: &str = include_str!("fixtures/saxonia-impressum-20261015.html");
+
+    #[test]
+    fn changed_city_including_matching_prefix_is_rejected() {
+        for city in [
+            "Dresden/Sachsen",
+            "Halsbrücke/Sachsenhausen",
+            "Halsbrücke/Sachsen-Nord",
+        ] {
+            assert!(extract_info(&CURRENT_IMPRINT.replace("Halsbrücke/Sachsen", city)).is_err());
+        }
+    }
+
+    #[test]
+    fn migrated_source_keeps_four_indicative_buying_quotes_and_current_legal_identity() {
+        assert_eq!(handler().url, "https://saxonia.de/tageskursanzeiger/");
+        let out = parse(CURRENT_PAGE).unwrap();
+        assert_eq!(
+            out.published_at.as_deref(),
+            Some("2026-10-15T00:00:00+00:00")
+        );
+        assert_eq!(out.prices.len(), 4);
+        assert_eq!(out.skipped_labels.len(), 6);
+        for (p, (material, amount)) in out.prices.iter().zip([
+            ("gold", 117.6115),
+            ("silber", 1.59563),
+            ("platin", 44.73194),
+            ("palladium", 29.78696),
+        ]) {
+            assert_eq!(p.material, material);
+            assert!((p.price - amount).abs() < 1e-10);
+            assert_eq!(p.unit, "EUR/g");
+            assert_eq!(p.price_kind, "approx");
+            assert_eq!(p.confidence, Some(0.8));
+        }
+        let info = extract_info(CURRENT_IMPRINT).unwrap();
+        assert_eq!(info.street, "Erzstraße 9");
+        assert_eq!(info.postcode, "09633");
+        assert!(info.phone.is_empty());
+        assert!(info.email.is_empty());
+        for (old, new) in [
+            ("HRB 31481", "HRB 314819"),
+            ("Erzstraße 9", "Erzstraße 99"),
+            ("SAXONIA Edelmetalle GmbH", "SAXONIA Holding GmbH"),
+        ] {
+            assert!(extract_info(&CURRENT_IMPRINT.replace(old, new)).is_err());
+        }
+    }
+
     #[test]
     fn current_buying_prices_units_date_and_direction() {
         let out = parse(PAGE).unwrap();
@@ -209,7 +268,7 @@ mod tests {
             assert!((p.price - price).abs() < 1e-10);
             assert_eq!(p.unit, "EUR/g");
             assert_eq!(p.variant, "");
-            assert_eq!(p.confidence, Some(1.0));
+            assert_eq!(p.confidence, Some(0.8));
         }
     }
     #[test]

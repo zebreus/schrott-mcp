@@ -40,9 +40,12 @@ With love as the secret ingredient.
   fineness rates from `https://www.regold.de/vor-ort-ankauf.html`: EUR/g,
   indicative (`approx`), Zahngold separate, no page-stated publication date.
   [SAXONIA Halsbrücke handler](crates/ingestion/src/traders/handlers/saxonia.rs)
-  reads four dated Ankaufskurse, converts EUR/kg to EUR/g, and excludes
+  reads four dated indicative Ankaufskurse from
+  `https://saxonia.de/tageskursanzeiger/` (`approx`, EUR/kg to EUR/g), and excludes
   the verarbeitet/unverarbeitet quotes from purchase prices. See
   [owner verification and rollout handoff](research/handler-owner-saxonia-20261008.md).
+  The [October 15 migration check](research/checkin-20261015-1300-owner.md)
+  documents the new path, indicative semantics and pending production rollout.
 - `crates/server` — axum web app: German marketing page, signup/login
   (username + password + "professional data-user" checkbox, nothing else),
   dashboard, OAuth 2.0 authorization server with dynamic client registration
