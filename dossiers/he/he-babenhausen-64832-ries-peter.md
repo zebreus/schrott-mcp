@@ -30,6 +30,10 @@ Peter Ries Schrotthandel, Feldbergstraße 10, 64832 Babenhausen, 06073 61957 ist
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: 11880-Detail erstmals hier konkret mit URL live nachgeprüft: Peter Ries Schrotthandel, Feldbergstr. 10, 64832 Babenhausen-Hergershausen, 06073 61957, ohne Website/E-Mail/Zeiten. Portal nennt Eintragsdaten 29.06.2021, Aktualisierung 02.10.2026; Aktualisierungsdatum beweist keine heutige Tätigkeit. Frische Suchtreffer bleiben Verzeichnisse bzw. fremde Nutzerempfehlungen, kein Betreiber-/Register-/Gewerbenachweis. Legacy-Kontakte erhalten, aber nicht als verifiziert aufgewertet; status pruefung. ANKAUF/VERKAUF/GEBÜHREN ohne Händlerliste; allgemeine Portalfrage nach Euro-Symbolen kein Preisfund. GEO erst nach Bestätigung, ob Adresse überhaupt Annahmestelle statt nur Kontakt-/Wohnadresse ist. Quelle: https://www.11880.com/branchenbuch/babenhausen-hessen/060440092B27631836/peter-ries-schrotthandel.html (live, Lead).]
+
 ### Einordnung 09.10.2026
 
 - [Recherche 09.10.2026: Die Formulierung „aus 2 Verzeichnisquellen bestätigt“ vom 02.10. bezeichnet nur Lead-Übereinstimmung, nicht README-konforme Verifikation. Neue Ries/Babenhausen/Schrotthandel-Suche ohne Resultate beweist keine Schließung. Kommunale Gewerbeauskunft Babenhausen/Hessen mit Peter Ries/Feldbergstraße 10 nötig; öffentlichen Hofbetrieb nicht aus Branchenrubrik ableiten. Keine neuen Felder/Geocodierung. ANKAUF/VERKAUF/GEBÜHREN unbelegt. Quelle: https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Babenhausen-Hess (Vorrecherche-Lead, nicht neu live gelesen).]

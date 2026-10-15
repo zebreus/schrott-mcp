@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für einen Schrottbetrieb „Schneider“ in Niestetal-Sandershausen gibt es weiterhin keinen belastbaren Treffer mit Betreiberidentität, Betriebsadresse oder Registerzuordnung. Eine neue Suche nach Name und Ort fand keine passende Betreiberquelle; gleichnamige Schneider-Unternehmen an anderen Orten sind keine Identitätsbelege. Der Kandidat bleibt `pruefung` und wird weder als aktiv noch als geschlossen behauptet.
+Neu ist ein direkt gelesener Gelbe-Seiten-Lead „Schneider“, Schrott, Dr.-Elisabeth-Selbert-Straße 33, 34266 Niestetal-Sandershausen, 0176 26432933. Damit ist die frühere reine Suchtrefferarmut überholt, nicht jedoch die fehlende Betreiber-/Registeridentität. Vorname, Rechtsform und öffentliche Annahme sind weiterhin unbekannt. Kandidat bleibt `pruefung`; kein Adress-/Telefon-Fill allein aus dem Portal, keine Namensvetter übernehmen.
 
-**Preise:** keine Ankaufpreise, Verkaufspreise oder Entsorgungsgebühren belegbar; es gibt keine Betreiberpreisliste.
+**Preise:** keine zuordenbare Ankauf-, Verkaufs- oder Gebührenliste verifiziert; das ist keine Aussage, dass der Betrieb keine Preise veröffentlicht. GEO erst nach aktuellem Betriebsstätten-/Gewerbeabgleich.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Neue konkrete Spur nach eigener Suche und Direktabruf: Gelbe Seiten Schneider/Schrott, Dr.-Elisabeth-Selbert-Str. 33, 34266 Niestetal-Sandershausen, 0176 26432933. Kein tatsächlicher Betreiberlink, keine rechtliche Firmierung und keine Zeiten im gelesenen Detail. Nummernsuche ergab keine zuordenbare Primärquelle; das ist kein Existenz-Negativbeweis. Frühere Such-Misses damit nicht fortschreiben; Adress-/Telefonspur für kommunale Gewerbeauskunft nutzen, aber Frontmatter nicht füllen. ANKAUF/VERKAUF/GEBÜHREN keine numerischen Zieltarife; GEO bis zur Betreiber-/Standortbestätigung zurückgestellt. Quelle: https://www.gelbeseiten.de/gsbiz/e0064a1a-f9c4-421d-8a0d-9d62a26dc580 (live, nur Lead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

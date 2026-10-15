@@ -30,6 +30,10 @@ Kein vollständiger rechtlicher Betreibername oder öffentlich bestätigter Anka
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: GoLocal-Profil live erneut gelesen: Wöhlerstr. 9, 22113 Hamburg-Billbrook, 040 6781656, keine Öffnungszeiten, nur eine Bewertung von 2013 und Nutzerfotos vom 23.07.2020. Profil bietet Eintrag übernehmen an; Betreiberführung ist nicht nachgewiesen. Neue Suchtreffer bei Europages/wlw bleiben Lieferantenverzeichnisse, kein zulässiger zweiter Identitätsbeleg. Bewertungsautor nicht zum Inhaber erklären. Seed-PLZ 21113 weiterhin Konflikt zu 22113, aber keine unbelegte Überschreibung/Schließung. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Liste; GEO Wöhlerstraße erst nach amtlichem PLZ- und aktuellem Betreiber-/Annahmeabgleich, keine Oststeinbek-Zuordnung. Quelle: https://www.golocal.de/hamburg/schrotthandel/alt-buntmetallhandel-dejan-MJ4Gz/ (live, Lead).]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Eigenständige Suche und GoLocal-Detail direkt gelesen: Alt- und Buntmetallhandel Dejan, Wöhlerstr.9/22113 Hamburg,0406781656, keine Öffnungszeiten; einzig sichtbare Bewertung05.12.2013, Fotos23.07.2020. Neuer PLZ-Konflikt zu Seed21113 offengelegt, keine ungeprüfte Portal-Korrektur; Suchlead Mobil015152435208 widerspricht nicht zwingend Festnetz, ist aber nicht verifiziert. Keine aktuelle Händlerdomain mit Impressum oder qualifizierender Primärbeleg gefunden. Frontmatter-Seedwerte erhalten, website_status unbekannt, pruefung bleibt. Ankauf/Verkauf/Gebühren unbekannt, vor GEO Adresse/PLZ/Betreiber und öffentliche Annahme klären. Quelle(n): https://www.golocal.de/hamburg/schrotthandel/alt-buntmetallhandel-dejan-MJ4Gz/ (Lead)]

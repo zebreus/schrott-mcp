@@ -28,6 +28,10 @@ Für „Adam“ in Düsseldorf-Gerresheim bleibt die Betreiberidentität unaufge
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Schrottplatz.org-Detail diesmal direkt vollständig gelesen: Schrott Ametovic Adam, Dreherstr. 27, 40625 Düsseldorf Gerresheim, Telefon 0152 33860754. Neuer konkreter Telefonlead, aber nur Aggregator; keine Gleichsetzung mit Bislimi/Adam B. ohne qualifizierten Identitätsnachweis. Der eingeblendete Branchenbegriff Schrottplatz belegt keine öffentliche Annahmestelle. Frontmatter leer/pruefung bleibt. Ankauf/Verkauf/Gebühren keine zugeordneten Kurse; allgemeine Portal-Entsorgervermittlung kein Händlerangebot. GeoBedarf: Betreiberidentität an Dreherstraße 27 und tatsächliche Annahme-/Abholfunktion vor Pin bestätigen. Quelle (Lead): https://www.schrottplatz.org/duesseldorf/schrott-ametovic-adam-aYEPW7.html .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Neue unabhängige Suche Adam + Schrotthandel + Gerresheim bringt schrottplatz.org-Detail „Schrott Ametovic Adam“, Dreherstr. 27, 40625 Düsseldorf-Gerresheim; weitere Treffer Adam B. Schrottabholung/Entrümpelung und Bislimi Adam/teils Camila Bislimi in Telefonportalen. Dies korrigiert nur die Aussage „keine konkrete Spur“, nicht die Identität: kein Betreiber-Impressum/Register-/Gewerbenachweis zur Zuordnung oder Nachfolge gefunden. Straße/PLZ/Kontakte bleiben leer; Website_status unbekannt normalisiert. Keine Preis-/Gebührenliste oder Öffentlichkeit einer Annahmestelle belegt. Quellen: https://www.schrottplatz.org/duesseldorf/schrott-ametovic-adam-aYEPW7.html ; https://www.golocal.de/duesseldorf/entruempelungen/adam-b-schrottabholung-entruempelung-MJ5oA/ ; https://www.dasoertliche.de/Themen/Bislimi-Adam-D%C3%BCsseldorf-Gerresheim-Dreherstr (ausschließlich Such-/Verzeichnisleads).]

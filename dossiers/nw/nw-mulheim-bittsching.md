@@ -30,6 +30,10 @@ Mehrere Verzeichnisse beschreiben „Hans-Dieter Bittsching Schrotthandel“ an 
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Zugeordneter Creditreform-Kandidat beim Direktabruf HTTP 403 ohne auswertbaren Firmentext; Betreiber-Domain schrotthandel-bittsching.de scheitert an DNS-Auflösung. Historischer Creditreform-Suchindex bleibt historischer Einzelbeleg, keine heutige Registerauskunft und keine Schließung aus technischen Fehlern. Vorhandene Straße/PLZ/Festnetz unverändert, aber nicht neu verifiziert; Mobilnummer nicht ergänzt. Ankauf/Verkauf/Gebühren keine neuen qualifizierten Zahlen. GeoBedarf: Mausegattstraße 5 vor Verwendung als Annahmehof aktuell bestätigen. Quellen/Abrufgrenzen: https://firmeneintrag.creditreform.de/45472/5250203757/HANS_DIETER_BITTSCHING_SCHROTTHANDEL ; https://schrotthandel-bittsching.de/ .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: YellowMap-Profil direkt abgerufen: „Schrotthandel Bittsching“, Mausegattstraße 5, 45472 Mülheim, Tel. 0208 372277 und Mobil 0172 2560488; Profil ordnet den Betrieb jedoch der Branche Autowerkstätten zu und ist ein Aggregator. Die beiden früher verlinkten Domains schrotthandel-bittsching.de und schrotthandel-bittsching.com lieferten beim direkten Abruf Transportfehler; das beweist keine dauerhafte Aufgabe, aber auch keine aktuelle Betreiberwebsite. Kein neues Impressum/Register-/Betreiberbeleg. Ankauf/Verkauf/Gebühren: keine zuordenbare Preisliste. Frontmatter unveraendert, Adresse nur Verzeichnislead und nicht als Annahmehof geocodieren; Quelle: https://www.yellowmap.de/Details/miROTbN3Rlh0htiV7PgutA==.aspx ; https://www.gelbeseiten.de/gsbiz/25007e27-ae21-428a-a482-4d0e408096d0 ; direkte Abrufversuche: https://schrotthandel-bittsching.de/ und http://schrotthandel-bittsching.com/]

@@ -30,6 +30,10 @@ Schrott24/Metaloop präsentiert sich als überregionaler Online-Verkaufs- und Ve
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Impressum und Ablauf erneut direkt vollständig gelesen. Impressum weiterhin Metaloop Europe GmbH/FN 638630 m/Puchstraße 17 Graz; verlinkt ausdrücklich Metaloop-AGB unter metaloop.com/terms-and-conditions/, daneben Footerlink zu alten Schrott24-AGB. Das ist ein zusätzlicher Vertragsquellen-Prüfauftrag, keine Feststellung, welche Fassung einen konkreten Verkauf bindet; Ziel-AGB in dieser Welle nicht gelesen. Keine neue Insolvenzentscheidung/Ediktsdatei gelesen, frühere Abwicklungsunsicherheit nicht als behoben darstellen. Ablauf weiterhin Paket DE/AT 6 EUR bis 31,5 kg gegen 5 EUR je genutzter Versandmarke in FAQ, Big Bags 5 EUR/Stück exkl. Versand, Eigenanlieferung ab 100 EUR Materialwert, Auszahlungswiderspruch fünf Arbeitstage/48 Stunden. Mindestmaterialwert ist keine Gebühr; Big-Bag-Kauf ist kein Metallverkaufspreis. Ankauf dynamisch nach Transport/Standort; keine neuen numerischen Händlerkurse extrahiert. Verkauf keine neue Metallpreisliste; Gebührenfunde nicht verbindlich vereinheitlicht. Leere {}-Bedingungen, pruefung und fehlende NRW-Adresse bewusst erhalten; GEO als Onlineportal ohne belegten NRW-Hof nicht setzen. Quellen: https://www.schrott24.de/faq/impressum/ ; https://www.schrott24.de/ablauf/ ; verlinktes, ungelesenes Prüfziel https://www.metaloop.com/terms-and-conditions/ .]
+
 ### Recherche 09.10.2026 / Korrektur 10.10.2026
 
 - [Korrektur 10.10.2026: dropoff_json/pickup_json bewusst als explizite leere Objekte {} statt leere Strings gesetzt: seed_traders.rs keep() würde bei leeren Strings alte DB-Bedingungen erhalten, ein nichtleeres {} ersetzt diese ohne neue allowed-false-Behauptung. Alte allowed-true-Objekte unten vollständig historisch erhalten. Keine Builds/DB-Zugriffe, Owner prüft effektiven Seed; Quelle: crates/ingestion/src/seed_traders.rs, keep()/apply_seed_traders]

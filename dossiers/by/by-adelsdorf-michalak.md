@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+AME MICHALAK Metallrecycling ist durch die kommunal publizierte Ortsplan-Anzeige 2026 als konkrete Spur dokumentiert: Industriestraße 27a, 91325 Adelsdorf, 0177 8191325, olaandrzej1986@gmail.com (PDF in der Recherche 04.10. gelesen). Das ist ein Einzelbeleg, keine vollständige Betreiber-/Gewerbeidentität. Neue Verzeichnis-Treffer nennen teils 27 statt 27a; nicht als Umzug interpretieren. Annahme, Ankaufbedingungen, Preise und Zeiten bleiben offen, ebenso ein unabhängiger Zweitbeleg. Keine Frontmatter-Fills oder GEO vor Klärung.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Kommunale Nachricht vom 16.01.2026 direkt erneut geöffnet: Ortsplan 2026 bleibt als Original-PDF (12,17 MB) verlinkt. In dieser Welle nur Nachricht und Link geprüft, Anzeige/PDF nicht neu extrahiert; deren genaue Angaben stammen ausdrücklich aus der dokumentierten PDF-Lektüre 04.10. Neue Suche liefert weiterhin nur Portale, Cylex mit Industriestr. 27 gegenüber bisherigen 27a-Leads; keine qualifizierte zweite Betreiberquelle. Kommunales Hosting macht eine Anzeige nicht zu einem Gewerberegisterauszug. Keine Fills/kein Aktiv-Upgrade. ANKAUF/VERKAUF/GEBÜHREN ohne neu verifizierte Zahlenliste; GEO nach Identitäts- und Hausnummerabgleich. Quellen: https://www.adelsdorf.de/nachrichten/artikel/ortsplan-gemeinde-adelsdorf-2026 (live); https://www.adelsdorf.de/fileadmin/Gemeinde_Adelsdorf/documents/6_News/Ortsplan_2026/Ortsplan_Gemeinde_Adelsdorf_2026.pdf (verlinkt, nicht neu gelesen); https://web2.cylex.de/firma-home/ame-michalak-16877856.html (Suchlead).]
 
 ### Recherche 04.10.2026
 

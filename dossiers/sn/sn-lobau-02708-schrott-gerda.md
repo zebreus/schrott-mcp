@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schrott Gerda“, Am Kombinat 8, 02708 Löbau-Kittlitz, 03585 410212, bleibt ein Branchenbuchlead. Die umgekehrte Namensfolge „Gerda Schrott“ kann ein Personenname sein; daraus folgt weder ein bestätigter Schrotthändler noch eine Identität mit anderen Trägern des Namens Schrott. Bestehende Adresse und Telefon historisch erhalten, nicht qualifiziert bestätigt. Keine aktuelle Ankauf-/Verkaufs-/Gebührenliste und keine Betreiberwebsite identifiziert. Vor GEO Firmen-/Personenidentität und tatsächliche Annahmestelle klären; city enthält historisch noch die PLZ.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18C
+
+- [Recherche 15.10.2026 Welle18C: Gelbe-Seiten-Einzelseite erneut vollständig im Kontaktbereich gelesen: Schrott Gerda, Schrott, Am Kombinat8, 02708 Löbau-Kittlitz, 03585 410212. Standardbuttons Website/E-Mail, aber kein zugeordneter Betreiberlink oder Impressum im gelesenen Inhalt. Die Branchenetikettierung löst die seit 05.10. offene Personennamensfolge Gerda Schrott nicht; fremde Händler im Suchumfeld, etwa Bärsch, sind keine Nachfolger. Historischer 410-Telefonbuchabruf nicht als Geschäftsaufgabe interpretiert. Keine Frontmatter-Überschreibung durch Aggregator; Quelle: https://www.gelbeseiten.de/gsbiz/b346d10b-99e6-4a12-a1df-6f976a2f0ea4 .]
+- [Recherche 15.10.2026 Welle18C: ANKAUF/VERKAUF/GEBÜHREN keine Beträge im gelesenen Eintrag. Gewerbeauskunft zu genauer Person/Firma und Am Kombinat8 als nächster Schritt; danach Stadt-/PLZ-Normalisierung und GEO nur bei nachgewiesener Annahmestelle. Vorhandene Seed-Kontakte sind kein aktueller Annahmebeleg; Quelle: https://www.gelbeseiten.de/gsbiz/b346d10b-99e6-4a12-a1df-6f976a2f0ea4 .]
 
 ### Recherche 05.10.2026
 

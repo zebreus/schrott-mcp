@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registeridentität Metall-Recycling Künzer GmbH, AG Saarbrücken HRB 104554, Am Holzplatz 5, 66333 Völklingen, erneut bestätigt; NorthData führt inzwischen einen am 07.01.2026 veröffentlichten Abschluss 2024. Der namensgleiche Instagram-Auftritt beschreibt Schrott-/Metallankauf und Barauszahlung gegen gültigen Personalausweis; die vollständigere Suchindex-Bio schließt Elektrogeräte aus. Social-Zuordnung und Einzelbedingungen bleiben ohne zweiten standortkongruenten Betreiberbeleg Timeline-only. Keine numerischen Ankauf-, Verkaufs- oder Gebührentarife; ältere Adam-Künzer-Gesellschaft nicht ohne Registerkette gleichsetzen.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18C
+
+- [Recherche 15.10.2026 Welle18C: NorthData HRB104554 direkt gelesen: Am Holzplatz 5, 66333 Völklingen, Gegenstand Metallrecycling/Industrieabbrüche/Betrieb eines Entsorgungsfachbetriebes; neue Aktualitätsverdichtung Publikation 07.01.2026 Abschluss zum 31.12.2024. Unternehmensgegenstand ist kein aktuelles EFB-Zertifikat; keines eingesehen. Historische HRB8765/Adam-Künzer-Spur weiter nicht als Umfirmierung dieser 2018 eingetragenen GmbH behauptet; Quelle: https://www.northdata.de/Metall-Recycling%20K%C3%BCnzer%20GmbH,%20V%C3%B6lklingen/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20104554 .]
+- [Recherche 15.10.2026 Welle18C: Instagram-Profil metall.recycling_kuenzer direkt auslesbar: Metall Recycling Künzer GmbH, Ankauf von Schrott und Metall, Barauszahlung gegen gültigen Personalausweis. Sichtbare Bio bricht nach WIR ab; Suchindex zeigt WIR NEHMEN KEINE ELEKTROGERÄTE. Facebook-Direktabruf liefert keinen auswertbaren Text. Deshalb Bedingungen nur hier mit Abrufgrenze, kein strukturierter Annahme-/Ausweispflichtfill und keine Öffnungszeiten ergänzt. ANKAUF ohne Material-/EUR-Sätze, VERKAUF/GEBÜHREN keine verifizierten Listen. GEO für Am Holzplatz 5 nach Quellen-/Eingangsprüfung möglich, keine Koordinaten in dieser Welle erhoben; Quelle(n): https://www.instagram.com/metall.recycling_kuenzer/ ; https://www.facebook.com/metallrecyclingkuenzer .]
 
 ### Recherche 02.10.2026
 

@@ -30,6 +30,11 @@ Erreichbare Betreiber-Landingpage „Pfandkredit Christian Kratz“ bleibt eine 
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18C
+
+- [Recherche 15.10.2026 Welle18C: Betreiber-Root erneut direkt gelesen: Kaiserslautern ausdrücklich ehemals Leihhaus Wiewecke, Alleestraße 8, 67655 Kaiserslautern, 0631 61440; gemeinsamer Öffnungsblock für Saarbrücken/Mainz/Wiesbaden/Kaiserslautern/Darmstadt Mo-Fr 09:30-18:00, Sa09:30-14:00, Trier separat. Kein neues Impressum/Registerabgleich auf dieser Übergangsseite. Wichtiges Herkunftssignal: Verbandslink und Logo-URL enthalten web.archive.org/web/20240716095154; also Archivverweise im heutigen HTML, keine neue unabhängige Verbandsbestätigung und kein Beleg eines Preis-/Inhaltsstands 2026; Quelle: https://pfandkredit-kratz.de/ .]
+- [Recherche 15.10.2026 Welle18C: ANKAUF keine bezifferten Goldkurse, VERKAUF keine Artikelpreisliste, GEBÜHREN keine individuelle Pfandtariftabelle im gelesenen Inhalt. Erreichbare Root ist kein Beleg, dass sämtliche Bedingungen aktuell sind. Anschrift/Telefon/Zeiten weiter qualifizierter Betreiber-Einzelbeleg; unverändertes Frontmatter. GEO nach unabhängiger Filial-/Betreiberkettenbestätigung Alleestraße 8, keine Daten anderer Städte übernehmen; Quelle: https://pfandkredit-kratz.de/ .]
+
 ### Recherche 11.10.2026 (Wave E)
 
 - [Recherche 11.10.2026: Root erneut direkt HTTP 200 gelesen: unveränderte Übergangsseite mit Kaiserslauterner Adresse/Telefon und den oben getrennt dokumentierten Zeiten; keine verlinkten Impressums-/Preisunterseiten im gelesenen HTML. Filialkontakt nicht mit anderen Städten vermischt. Kein aktueller Goldkurs, Materialverkauf oder Händler-Gebührentarif gelesen. Belegstand bleibt Einzelquelle, Stammdatenfills offen; Quelle: https://pfandkredit-kratz.de/ .]

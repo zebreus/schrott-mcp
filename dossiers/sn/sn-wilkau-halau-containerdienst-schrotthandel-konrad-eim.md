@@ -30,6 +30,11 @@ Adresse, Telefon und Öffnungszeiten im Frontmatter sind erhaltene historische V
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18C
+
+- [Recherche 15.10.2026 Welle18C: Gelbe-Seiten-Detail direkt gelesen: Konrad Eißmann Containerdienst-Schrotthandel Inh. Roland Schulz, Kirchberger Str.38/08112 Wilkau-Haßlau, 0375 671180 und 0152 33620916; Branche Metallwaren, keine konkrete Betreiberdomain/Öffnungszeiten im gelesenen Kontaktbereich. Damit ist der zweite Adresslead nachvollziehbar belegt, aber nicht als neuer Betriebshof/Umzug verifiziert. Waldstr.5 bleibt historischer Seedwert, nicht durch Portalmehrheit überstimmt. Beide Adressen, Inhaberbezug und identische Nummer beim separaten R.-Schulz-Eintrag vor Merge individuell prüfen; Quelle: https://www.gelbeseiten.de/gsbiz/d47fca13-2ed3-4d65-a798-861a476f3930 .]
+- [Recherche 15.10.2026 Welle18C: ANKAUF/VERKAUF/GEBÜHREN keine konkrete Händlerpreisliste oder Tarifangabe im gelesenen Detail. status pruefung sowie alte Zeitangaben unverändert, nicht neu bestätigt. GEO für Waldstraße und Kirchberger Straße bis Gewerbe-/Betreiberbestätigung zurückstellen; Mobilnummer nur Recherchekontakt, kein neuer strukturierter Ansprechpartner; Quelle: https://www.gelbeseiten.de/gsbiz/d47fca13-2ed3-4d65-a798-861a476f3930 .]
+
 ### Korrektur/Recherche 14.10.2026 (18:00-Welle B)
 
 - [Korrektur 14.10.2026: status aktiv auf pruefung gesetzt. Die älteren Kontakt-/Zeitfills beruhen ausschließlich auf mehreren Aggregatoren, die gemeinsam keine unabhängigen qualifizierenden Belege darstellen. Eigenständige NorthData-Suggest-Abfragen Eißmann Wilkau und Roland Schulz Wilkau HTTP200/results leer, kein vollständiger Negativbeweis für Einzelunternehmen. Waldstraße 5 versus Kirchberger Straße 38 und Konrad Eißmann versus Inh. Roland Schulz bleiben offen; keine Felder gelöscht oder neue Inhaberidentität behauptet. ANKAUF/VERKAUF/GEBÜHREN keine geprüften Händlerpreise, GEO zurückstellen. Owner: Gewerbeakten Wilkau-Haßlau zu beiden Adressen/Namen und Überschneidung mit R.-Schulz-Dossier prüfen; Quelle: https://www.northdata.de/suggest.json?query=Ei%C3%9Fmann+Wilkau&countries=DE ; https://www.northdata.de/suggest.json?query=Roland%20Schulz%20Wilkau&countries=DE ; historische Aggregatorherkunft siehe 30.09./01.10.]

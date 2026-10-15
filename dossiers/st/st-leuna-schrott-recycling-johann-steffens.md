@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberwebsite zu Johann Steffens mit Schrott-/Metallankauf, Industriedemontage, Rückbau und Containerdienst; die Vorwelle dokumentiert zusätzlich einen unabhängigen Leuna-Echo-Bericht, der jedoch nicht zu den README-Belegklassen zählt. Die direkt lesbare Kontaktseite nennt Am Haupttor Bau 3525a, **06236** Leuna, 03461 436261, 0171 7734887 und schrott-recycling-steffens@leuna.de. Diese Angaben sind Betreiber-Einzelbelege; keine Hausnummer aus der Baunummer konstruieren und die abweichende Verzeichnis-PLZ 06237 nicht stillschweigend korrigieren. Keine Handelsregisternummer auf der gelesenen Kontaktseite, deshalb keine Autoritätsausnahme behauptet. Status pruefung.
+
+Ankaufspreise: kein numerisches Blatt im geprüften Kontaktinhalt. Verkaufspreise und Gebühren ebenfalls nicht ausgewiesen. GEO erst nach aktueller Adress-/PLZbestätigung und Klärung der öffentlichen Zufahrt im Industrieareal; ein Kontaktsitz ist nicht automatisch frei zugänglicher Annahmehof.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Kontaktseite per HTTP direkt lesbar: Schrott Recycling Johann Steffens, Hauptsitz Am Haupttor Bau 3525a, 06236 Leuna, 03461 436261, Mobil 0171 7734887, schrott-recycling-steffens@leuna.de; Geschäftsführer Johann Steffens, Steuer-/Unternehmensnummer, keine HRB. Als Betreiber-Einzelbeleg vom Vorwellen-Bericht Leuna-Echo unterscheiden: Redaktioneller Bericht ist kein Handels-/Gewerberegister und fällt nicht unter die README-Belegklassen. Daher keine Adress-/Kontaktfills auf vermeintlichem Zwei-Beleg-Standard. Numerische Ankauf-, Verkaufs- oder Gebührenpreise auf der gelesenen Kontaktseite nicht vorhanden; keine umfassende neue Preiscrawlbehauptung. GeoBedarf: Bau 3525a/PLZkonflikt/Annahmezugang klären. Quellen: http://www.schrott-recycling-steffens.leuna.de/kontakt.html ; https://www.leunaecho.de/rueckbau-fuer-neustart/ (nur Vorrecherche 04.10., nicht heute neu gelesen).]
 
 ### Recherche 04.10.2026
 

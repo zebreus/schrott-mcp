@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberauftritt Horski Edelmetalle nennt Frank Thein, Welserstraße 7, 90489 Nürnberg, 0911 553988 und info@horski-edelmetalle.de. Neu ist ein passender Creditreform-Suchauszug Frank Thein Edelmetallhandel; Vollabruf 403, unabhängige Vollprüfung noch offen. Ankaufseite nennt neben Schmuck, Münzen, Barren, Zahngold und Besteck auch edelmetallhaltige Industrieabfälle/Feilung/Dentallegierungen; kein gewöhnlicher Schrottankauf belegt. Angebot vor Ort und sofortige Barzahlung, keine numerischen Tageskurse; „Aktuell“ meldet keine Neuigkeiten. Verkauf/Gebühren ohne Liste. Keine neuen Frontmatter-Fills; GEO nach unabhängiger Identitäts-/Adressbestätigung.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Startseite, Ankauf, Aktuell und Impressum live gelesen; Frank Thein/Welserstr. 7/90489, unverbindliche Bewertung vor Ort und Barzahlung. Ankaufseite ausdrücklich auch edelmetallhaltige Industrieabfälle, Feilung und Dentallegierungen; daraus kein allgemeiner Eisen-/NE-Schrottankauf. Keine numerischen Kurse; Aktuell enthält nur keine Neuigkeiten. Neuer Creditreform-Suchauszug 8190620761 heißt Frank Thein Edelmetallhandel und nennt Horski Edelmetalle/Nürnberg; Vollabruf 403. Deshalb zweite Quelle nur ausschnittsweise sichtbar, noch keine vollständige Zwei-Beleg-Freigabe für Firmierung/Domain-/Kontakt-Fills. ANKAUF individuell, VERKAUF/GEBÜHREN keine Liste; GEO nach unabhängiger Adressprüfung. Quellen: https://www.horski-edelmetalle.de/ ; https://www.horski-edelmetalle.de/ankauf ; https://www.horski-edelmetalle.de/aktuell ; https://www.horski-edelmetalle.de/impressum ; https://firmeneintrag.creditreform.de/90489/8190620761/FRANK_THEIN_EDELMETALLHANDEL (Suchauszug, direkt 403).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

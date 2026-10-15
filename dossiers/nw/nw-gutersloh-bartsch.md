@@ -30,6 +30,10 @@ Der direkt geprüfte Betreiberauftritt gehört zu **Bartsch GmbH & Co. KG**, HRA
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Zertifikatseite erneut direkt gelesen: verlinkt weiterhin ausdrücklich zertifikat_2025.pdf und schmuck_zertifikat_2025.pdf; kein neueres Dokument auf dieser gelesenen Seite verlinkt. Das in der Vorwelle vollständig gelesene Zertifikat endete am 09.10.2026. Daraus folgt lediglich fehlender aktueller Zertifikatsnachweis in dieser Quelle, nicht Verlust der Zertifizierung oder Betriebsaufgabe. Betreiberwerbung seit 2011 zertifiziert ersetzt keine gültige Urkunde. Bestehende Domainzuordnung bleibt, keine neuen Kontakt-/Annahmefelder. Ankauf: Vorbefund Tages-/Monatsabrechnung ohne Materialbeträge; Verkauf: keine neue Liste; Gebühren: keinen neuen Tarif gelesen, frühere kostenlose Muldenlogistik nicht als kostenlose Inhaltsentsorgung auslegen. GeoBedarf weiterhin Marienstraße 20/26 versus Elisabethstraße 48 und tatsächliche öffentliche Zufahrt abklären. Quelle: https://bartsch-entsorgung.de/zertifikat/ ; historische Urkunde: https://bartsch-entsorgung.de/pdf/zertifikat_2025.pdf (dieser Welle nicht erneut vollständig extrahiert).]
+
 ### Recherche 11.10.2026
 
 - [Owner-Review 11.10.2026: Unabhängiger Reviewer las zusätzlich NorthData vollständig: Bartsch GmbH & Co. KG, HRA 3863 AG Gütersloh, EUID DER2103.HRA3863, Elisabethstr. 48, Prokura 13.11.2024 und Jahresabschlussveröffentlichung 26.01.2026 zum 31.12.2024. Registerkongruenz neben Betreiberimpressum trägt nur die begrenzte Domainzuordnung. Keine heutige Zertifizierung, operative Aktivität oder Hofzufahrt daraus bewiesen; Status bleibt pruefung, keine Kontakt-/Adress-/GEO-Fills. Die vorherigen Abrufgrenzen bleiben als Recherchehistorie erhalten. Quelle: https://www.northdata.de/Bartsch+GmbH+%26+Co.+KG,+G%C3%BCtersloh/HRA+3863 ; https://bartsch-entsorgung.de/impressum/ ; https://bartsch-entsorgung.de/pdf/zertifikat_2025.pdf]

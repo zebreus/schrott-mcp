@@ -30,6 +30,10 @@ Generischer Autoverschrottungslead in Frankfurt-Fechenheim, ohne identifizierten
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Neue Telefonnummernsuche zeigt dieselbe 01520 4045656 bei zahlreichen Städten. Tatsächlich gelesene Betreiberseite autoverschrottung-herford.de/impressum nennt A. Lahib, Hansastraße 14, 32049 Herford und exakt diese Nummer; ausdrücklich zentraler mobiler Dienst, KEINE festen Niederlassungen in anderen Städten, Städtenennungen dienen regionaler Auffindbarkeit. Das ist starkes Gegenindiz gegen die ungeprüfte Interpretation Cassellastr. 31 als Annahmehof, aber noch kein unabhängiger Identitätskettenbeleg für den Frankfurter Seed. Weder umbenannt noch nach Herford verschoben, status pruefung. ANKAUF: Herford wirbt bis 900 EUR für bestimmte Modelle, FAQ nennt abweichende allgemeine Spannen/Schrottpreise ohne Gültigkeitsdatum, nicht als Frankfurter Kurs übertragen. VERKAUF: keine belastbare Liste. GEBÜHREN: derselbe Herford-Auftritt behauptet kostenlos, nennt in FAQ aber ca. 50 EUR für Abmeldung; kein sicherer Frankfurter Tarif. GEO Cassellastraße aussetzen, mobilen Dienst nicht als lokalen Hof geocodieren. Quellen: https://www.autoverschrottung-herford.de/impressum ; https://www.autoverschrottung-herford.de/ (live); https://www.11880.com/suche/autoverwertung/frankfurt (frischer Suchlead Cassellastr. 31/Seednummer).]
+
 ### Einordnung 09.10.2026
 
 - [Recherche 09.10.2026: Chronologischen Widerspruch der zwei 04.10.-Notizen ausdrücklich aufgelöst: positiver 11880-/Cylex-Telefonlead ersetzt nur den älteren Such-Negativbefund, liefert weiterhin keinen Primärbeleg. Neue Telefonabfrage ohne Resultate ändert daran nichts. Betreiber hinter 01520 4045656 zuerst ermitteln; Autoankauf, Abholung und anerkannte Demontage nicht gleichsetzen. ANKAUF/VERKAUF/GEBÜHREN keine Zieltarife. Quellen: https://www.11880.com/suche/autoverschrottung/frankfurt ; https://web2.cylex.de/firma-home/autoverschrottung-frankfurt-am-main-14856607.html (Vorrecherche-Leads, nicht erneut live gelesen).]

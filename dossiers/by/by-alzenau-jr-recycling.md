@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Import verweist nur auf Facebook, ohne Profil-URL oder Inhaber. JR-Recycling/Alzenau lässt sich bei den begrenzten aktuellen Suchabrufen keinem Betreiberprofil zuordnen. Keine fremden JR-Unternehmen übernehmen; Identität, Anschrift, Ankauf, Verkauf und Gebühren bleiben offen. Status pruefung.
+Der Import verweist nur auf Facebook, ohne Profil-URL oder Inhaber. Neue Spur: Gelbe Seiten ordnet JR-Recycling einer Adresse in Freigericht-Somborn zu und verlinkt Facebook/Instagram unter ACContainerdienst. Das löst die Alzenau-Identität nicht: Umzug, Alias oder anderer Betrieb bleiben offen, ebenso die Zuordnung zur älteren Hasselrother JR-Spur. Profile waren inhaltlich nicht lesbar. Keine fremden Kontakte übernehmen; Ankauf, Verkauf und Gebühren unbelegt. Status pruefung, kein Alzenauer Standortpin.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Neuer Direktlead Gelbe Seiten: JR-Recycling, Raiffeisenstr. 26, 63579 Freigericht-Somborn, 01577 0259794; konkrete Links https://www.facebook.com/ACContainerdienst und https://www.instagram.com/AC_Containerdienst. Facebook-Abruf lieferte keinen Inhalt, Instagram nur Bild-/Shellinhalt ohne auswertbare Betreiberangaben. Damit nun originale Profil-URLs als Rechercheansatz, aber kein tatsächlich gelesener Betreiberbeleg. Suchtreffer Hasselroth/Neuenhasslau mit gleicher Nummer nur weiterer Verzeichnislead, keine bewiesene Umzugs-/Namenskette oder Alzenau-Zweigstelle. Keine Frontmatter-Fills/Ortsänderung, status pruefung. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Tarife. GEO erst nach rechtlicher Identität und tatsächlichem Standort, nicht aus Entfernungssuche Alzenau ableiten. Quelle: https://www.gelbeseiten.de/gsbiz/b4179829-6019-4dd1-8b6a-f6af9fcbade9 (live, Lead); vorstehende Social-URLs (Abrufgrenzen).]
 
 ### Recherche 14.10.2026
 

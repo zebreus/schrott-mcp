@@ -29,6 +29,11 @@ Verzeichnisse wiederholen Gifhorner Str. 41, 29379 Wittingen und 05834 530148, w
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18C
+
+- [Recherche 15.10.2026 Welle18C: Sellwerk-Profil Ingo Adam direkt gelesen: Gifhorner Str. 41, 29379 Wittingen, 05834-274, adam-schrott-knesebeck@t-online.de. Das macht aus dem 08.10.-Hinweis einen konkreten Gegenkandidaten mit exakt derselben Hausnummer; es beweist keine Uta/Ingo-Umbenennung oder Nachfolge. Profil enthält Keywords Metallschrottankauf, aber kein individuelles Betreiber-Impressum/Registerbeleg und keine qualifiziert bestätigte Uta-Identität. Uta-Anschluss 05834 530148 weder durch Ingo-Nummer ersetzen noch beide als aktuelle Uta-Kontakte publizieren; Quelle: https://sellwerk.de/firmenprofil/ingo-adam-schrott--und-metallhandlung .]
+- [Recherche 15.10.2026 Welle18C: ANKAUF nur Verzeichnis-Keyword beim Ingo-Kandidaten, keine Kurse; VERKAUF/GEBÜHREN keine Liste im gelesenen Profil. Historische Seed-Fills bleiben unbestätigt; GEO erst nach Gewerbeauskunft zur Betreiberfolge Uta/Ingo an Gifhorner Str. 41 und Klärung, ob dort Publikumsannahme stattfindet. Kein Fill aus der eingebetteten Google-Karte; Quelle: https://sellwerk.de/firmenprofil/ingo-adam-schrott--und-metallhandlung .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Neue Suchrunde bestätigt nur die bisherige Aggregatorlage: Cylex/Nochoffen wiederholen Uta Adam, Gifhorner Str. 41, 29379 Wittingen und 05834 530148; Infobel führt in der Telefonnummern-URL abweichend 05834 274. Öffnungszeitenbuch führt zusätzlich "Ingo Adam Metallschrotthandlung" in derselben Straße, aber ohne belastbare Betreiber-/Registerquelle oder belegte Beziehung zu Uta Adam. Kein Merge, keine Feldänderung; Anschrift und Telefon bleiben Leads. **Preise:** keine Ankaufspreise, Verkaufspreise oder Gebührenliste in Betreiberquellen gefunden. Quelle(n): https://web2.cylex.de/firma-home/uta-adam-schrott--und-metallhandlung-5834950.html ; https://www.nochoffen.de/wittingen-uta-adam-schrott-und-metallhandlung ; https://www.infobel.com/de/germany/uta_adam_schrott_und_metallhandlung/wittingen/DE107013708-05834274/businessdetails.aspx ; https://www.oeffnungszeitenbuch.de/filiale/Wittingen-Ingo%2520Adam%2520Metallschrotthandlung-5077712I.html]

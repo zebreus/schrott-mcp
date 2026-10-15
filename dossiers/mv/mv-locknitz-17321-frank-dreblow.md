@@ -28,6 +28,10 @@ Der Seed-Branchenbezug Eisen/Schrott ist nicht bestätigt. Verzeichnisse führen
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: schrottplatz.org-Detail direkt gelesen: Frank Dreblow, Talerweg 6, 17321 Löcknitz, 039754/20344, aber keine konkrete Leistungs-/Ankaufbeschreibung. Frischer abschleppservice.org-Suchauszug nennt dagegen Siedlerweg 6; 11880-Suchauszug Abschleppdienst/Talerweg 6. Straßenkonflikt und bloßes Portal-Listing lösen weder Betriebsstätte noch Branchenklassifikation. Sachfremde Personen-/Politiktreffer nicht als Gewerbenachweis verwendet. Keine Fills, kein Negativbeweis, pruefung bleibt. ANKAUF/VERKAUF/GEBÜHREN ohne zuordenbare Tarife; GEO bis zu Gewerbe-/Betreiberbestätigung gesperrt. Quellen: https://www.schrottplatz.org/loecknitz/frank-dreblow-5384382.html (live, Lead); https://www.abschleppservice.org/loecknitz/frank-dreblow-3376890.html (Suchauszug, Lead); https://www.11880.com/branchenbuch/loecknitz-vorpommern/251092496B27885904/frank-dreblow-abschleppdienst.html (Suchauszug).]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Websuche Frank Dreblow/Löcknitz liefert Abschleppdienst-Verzeichnisleads sowie sachfremde Personentreffer; keiner belegt Schrottankauf. NorthData-Suche direkt HTTP 200 gelesen, sichtbare Resultate betreffen andere Personen/Firmen, keine identifizierte Zielgesellschaft; das ist keine amtliche Nichtexistenzfeststellung und schließt einen nicht registerpflichtigen Einzelbetrieb nicht aus. Keine Fills, keine Übernahme fremder Personendaten; status pruefung. ANKAUF/VERKAUF/GEBÜHREN jeweils ohne dossierzuordenbaren Preis. Nächster Schritt kommunale Gewerbeauskunft zum konkreten Abschleppbetrieb und Ankauffrage; Quelle(n): https://www.northdata.de/?query=Frank+Dreblow+L%C3%B6cknitz ; https://www.gelbeseiten.de/branchenbuch/staedte/mecklenburg-vorpommern/landkreis%20vorpommern-greifswald/l%C3%B6cknitz%20vorpom (nur Suchlead)]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registerseitiger historischer Identitätsanker: Kupfer Recycling Rheydt GmbH, HRB 13678 Mönchengladbach. NorthData zeigt eine Löschung am 29.07.2021; dieser Einzelbeleg sagt noch nichts über Nachnutzung oder heutige Annahme an Mittelstraße 50 aus. Keine verifizierte Betreiber-/Nachfolgerkette, keine Telefonnummer mit fremder Vorwahl ergänzen. Status pruefung bis unabhängigem Abgleich; keine pauschale Hofschließung behauptet. Ankauf, Verkauf und Gebühren ohne zuordenbare aktuelle Preisliste. GEO nicht aus historischer Firmenadresse als aktueller Annahmehof ableiten.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: NorthData-Firmendetail direkt HTTP 200 gelesen, erneut Kupfer Recycling Rheydt GmbH mit †-Marker und Publikationsübersicht Löschung 29.07.2021/Löschungsankündigung 31.08.2020. Keine zugrunde liegende Originalbekanntmachung oder unabhängige Zweitquelle in dieser Welle gelesen; daher Bestätigung des vorhandenen Register-Einzelbefundes, keine neue Schließungs-/Nachfolgetatsache. Mittelstraße 50 bleibt historischer Adresslead; aktuelle Nutzung nicht geprüft. Keine neuen numerischen Ankauf-, Verkaufs- oder Gebührenwerte. GeoBedarf: Rechtsträgerende und tatsächliche heutige Standortnutzung getrennt klären, keine automatische Annahmestellen-Geokodierung. Quelle: https://www.northdata.de/Kupfer-Recycling%20Rheydt%20GmbH,%20M%C3%B6nchengladbach/Amtsgericht%20Moenchengladbach%20HRB%2013678 .]
 
 ### Recherche 03.10.2026
 

@@ -33,6 +33,10 @@ Der Seed-Kandidat für Steffen Walter in Twedt bleibt durch Verzeichnisse gestü
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Schrottplatz-Info-Detail direkt gelesen: Grumby 35, 24894 Twedt, 0172 4065874; Homepage-Link führt lediglich auf den Portalroot /, nicht auf eine Betreiberwebsite. Keine vollständige Beschreibung, Öffnungszeiten oder Leistungen erfasst. Geografische Pfadbezeichnung Tolk ist eine Portalkategorie und kein Umzugsbeleg von Twedt. Nachbarlink Schrotthandel & Güternahverkehr Steffen/Idstedt ist nicht ohne Identitätskette Walter Steffen zuzuordnen. Status pruefung und leere Kontaktfelder erhalten. Ankauf/Verkauf/Gebühren nicht qualifiziert belegt; GeoBedarf aktuelle Zuordnung Grumby 35 und Annahmefunktion. Quelle (Lead): https://www.schrottplatz-info.de/schrottplatz/Tolk/Steffen-Walter-Schrotthandel .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Re-Check der Einträge auf Schrottplatz-Info und Schrottplatz.org ergab weiterhin nur Portalwiederholungen für Grumby 35, 24894 Twedt, 0172 4065874; kein Betreiber-Impressum, Register- oder kommunaler Gewerbenachweis in den recherchierten Treffern. Keine aktuelle Betriebs-/Annahmebestätigung, Preise oder Gebührenliste gefunden. Bestehende Lead-Werte nicht in Frontmatter übernommen, status pruefung bleibt. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Tolk/Steffen-Walter-Schrotthandel ; https://www.schrottplatz.org/stolk]

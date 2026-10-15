@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der frühere Such-Nichtfund ist durch konkrete Verzeichnisleads überholt: S&TJanek Schrotthandel, Barbarossastraße 12A, 66849 Landstuhl, 06371 630245. Das bestätigt nur die Spur, nicht die Betreiberidentität oder heutigen Gewerbebetrieb. Keine qualifizierte Betreiber-/Registerquelle oder Preisquelle identifiziert. Seed-Straße historisch erhalten, Status pruefung; Gewerbeauskunft und Bestätigung einer tatsächlichen Annahmestelle vor GEO erforderlich.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18C
+
+- [Recherche 15.10.2026 Welle18C: Korrektur der Suchlage aus 01./02.10.: Gelbe-Seiten-/Örtliche-Suchtexte führen jetzt konkret S&TJanek Schrotthandel, Barbarossastr. 12A, 66849 Landstuhl, 06371 630245; Cylex findet denselben Kandidaten. Die damalige Aussage kein Treffer in Verzeichnissen ist damit nicht mehr aktuell, bleibt als historische Recherche erhalten. Mehrere Aggregatoren sind weiterhin kein qualifizierter Doppelbeleg. Keine PLZ/Telefon-/Websitefills und keine Inhabernamen aus Initialen erfunden; Quelle(n): https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/landstuhl ; https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Landstuhl.html ; https://web2.cylex.de/firma-home/s_tjanek-schrotthandel-12388522.html (Suchindextexte).]
+- [Recherche 15.10.2026 Welle18C: ANKAUF nur Branchenlead, keine vergüteten Sorten/Beträge belegt; VERKAUF/GEBÜHREN keine Händlerlisten in den gelesenen Suchtexten. Konkreter Owner-Schritt: Gewerbeauskunft Landstuhl zu S&T/Janek und Barbarossastraße12A, Kontaktlead 06371 630245 zur Standort-/Annahmeprüfung. GEO nicht aus dem Portalpunkt oder bloßer Wohn-/Geschäftsanschrift setzen; Quelle: https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Landstuhl.html .]
 
 ### Recherche 02.10.2026
 

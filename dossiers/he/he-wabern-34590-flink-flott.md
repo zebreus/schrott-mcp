@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkreter neuer Suchansatz: 11880 führt Flink & Flott Schrotthandel an Bahnhofstraße 19, 34590 Wabern, 05683 922594. Das widerlegt die frühere Suchtrefferarmut als Arbeitsgrundlage, ist aber nur ein Verzeichnislead ohne Inhaber/Betreiberseite. Keine bestätigte Annahme oder Preisbedingungen; Status pruefung, keine Adresse/Kontakte ins Frontmatter übernommen. GEO bis zum Betreiber-/Gewerbeabgleich aussetzen.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: 11880-Detail live gelesen: Bahnhofstr. 19, 34590 Wabern, 05683 922594, Altmaterial-/Schrotthandel, keine Website/E-Mail/Öffnungszeiten. Portal nennt Eintragsdaten 01.03.2022 und Aktualisierung 03.10.2026; letzteres ist kein Betriebsnachweis 2026. Neue konkrete Adress-/Telefonspur statt bloßem Such-Miss; gemäß README trotzdem kein zulässiger Primär-/Zweitbeleg. Keine Fills, keine Schließung. ANKAUF/VERKAUF/GEBÜHREN unbekannt; allgemeine Portal-FAQ zur Euro-Preisspanne ist keine Händlerpreisliste. GEO blockiert bis zur Gewerbe-/Betreiberbestätigung. Quelle: https://www.11880.com/branchenbuch/wabern-hessen/120674719B100944962/flink-flott-schrotthandel.html (nur Lead).]
 
 ### Recherche 03.10.2026
 

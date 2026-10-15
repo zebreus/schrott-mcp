@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lenhart Valentin Gebrauchtwagen Autoverwertung ist an Augsfelder Straße 30, 97437 Haßfurt nur durch Verzeichnisleads verknüpft. Die frühere Ausnahmefüllung ist kein README-konformer Zweiquellenbeleg. Andere Lenhart-Adressen und Mathias/Philipp/Tino nicht zusammenführen. Status pruefung; keine gesicherte Annahme/Anerkennung, keine numerischen Ankauf-, Verkaufs- oder Gebührenlisten. GEO erst nach unabhängigem Betriebsstättennachweis.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Gelbe-Seiten-Detail tatsächlich gelesen: Lenhart Valentin Gebrauchtwagen Autoverwertung, Augsfelder Str. 30, 97437 Haßfurt, 09521 1810 sowie zusätzliche Nummer 09521 7168, ohne Betreiberlink oder Zeiten. Weiterer verlinkter Portaleintrag an derselben Adresse ist kein zweiter Standortnachweis. Namens-/Creditreform-Suche liefert u.a. Tino Lenhart/Bellheim und einen französischen Entwickler; nicht zugeschrieben. Adresse/Tel bleiben unbestätigte Legacywerte, keine neue Nummer übernommen. Keine gesicherte aktuelle Demontageanerkennung und keine Ankauf-/Verkaufs-/Gebührenliste. GEO bis zu Betreiber-/Gewerbeabgleich offen. Quelle: https://www.gelbeseiten.de/gsbiz/75ff7bcd-f690-44b7-a1c1-2dde7427f1e0 (direkt gelesener Lead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

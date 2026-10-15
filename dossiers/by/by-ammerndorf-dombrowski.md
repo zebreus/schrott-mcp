@@ -28,6 +28,10 @@ Ungeklärter Kandidat „Schrott & Metallhandel Fa. Dombrowski“. Verzeichnis-L
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Früher nur indexierte Fürther Gegenspur nun als 11880-Detail live gelesen: Schrott & Metall Handel Fa. Dombrowski, Hiltmannsdorfer Str. 8/90768 Fürth, 01590 6770625; Eintragsdaten 20.11.2025, keine Website/Zeiten. Ammerndorfer Detail ebenfalls live: Pelzetleite 32/90614 mit gleicher Nummer und E-Mail-Link dombrowskischrotthandel@gmail.com; Portal behauptet täglich 0–24 Uhr, kein belegter Annahmehofbetrieb. Beide stammen aus derselben Verzeichnisfamilie und liefern keine unabhängige Identitäts-/Umzugskette. Neue Kontaktspur nur Timeline, keine Übernahme in Frontmatter oder Zusammenführung mit anderen Dombrowski. ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenlisten, generische Euro-FAQ ist kein Tarif. GEO bis zur aktuellen Betriebsstättenklärung gesperrt. Quellen: https://www.11880.com/branchenbuch/fuerth-bayern/060440092B112425089/schrott-metall-handel-fa-dombrowski.html ; https://www.11880.com/branchenbuch/ammerndorf/120674719B107430542/fa-dombrowski.html (beide live, Leads).]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Frische Suchtreffer zu „Schrott & Metallhandel Fa. Dombrowski“ führen Pelzetleite 32, 90614 Ammerndorf, 01590 6770625 (Cylex/Schrottplatz-Verzeichnisse). Sellwerk ist mit gleichem Betriebslabel und gleicher Nummer, aber Hiltmannsdorfer Str. 8, 90768 Fürth indexiert; die konkrete Profil-URL liefert beim Direktabruf HTTP 404. Daher Sellwerk-Adresse ausdrücklich nur Suchindex-Lead, keine gelesene aktuelle Betreiberquelle. Keine auflösende Identitäts-/Umzugskette gefunden; vorhandene PLZ bleibt Seedwert und Status pruefung. Quellen/Leads: https://web2.cylex.de/suche/schrotthandel/Nuernberg; https://lokaleschrottplatz.de/?city=nrnberg-bayern; https://sellwerk.de/firmenprofil/schrott--metall-handel-fa-dombrowski.]

@@ -32,6 +32,10 @@ Preisfunde sind nicht austauschbar: individuelle Fahrzeugbewertung/vereinbarte A
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Standortdetail und Autoverwertung live erneut gelesen: Duvendiek/Kranichblick 32/038321 363, Fahrzeugverwertung und geprüfte Ersatzteile; ausdrücklicher Ausschluss von Altmetall und sonstigem Schrott bleibt bestehen. Detailseite selbst enthält nur globale Werkstattzeiten, die Autoverwertungsseite nennt für Duvendiek 8–17 Uhr OHNE Wochentage. Kein Wochentagsfill und keine Übernahme 24/7. ANKAUF: Fahrzeug-Einzelangebot, keine Zahlenliste; VERKAUF: Gebrauchtteile auf konkrete Anfrage; GEBÜHREN: Transport nach Aufwand, Vorabpreis telefonisch, Verschrottung abhängig von Zustand/Vollständigkeit. Gleiches Webangebot ist kein unabhängiger zweiter Hausnummerbeleg; Straße/GEO bleiben zurückgestellt, keine Stammdatenänderung. Quellen: https://www.dapa-hst.de/locations/duvendiek/ ; https://www.dapa-hst.de/autoverwertung/.]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Duvendiek-Detailseite, Autoverwertung und Impressum erneut direkt gelesen: Kranichblick 32 bleibt Betreiber-Eigenangabe, Impressum weiter ohne HRB; Hausnummer unabhängig nicht bestätigt, kein Straßen-/GEO-Fill. Wichtige Ergänzung: Autoverwertungsseite nennt jetzt ausdrücklich standortbezogen „Geöffnet von 8:00 bis 17:00 Uhr“/FAQ, aber keine Wochentage; frühere Aussage ohne Annahmezeiten damit eingeschränkt korrigiert, keine Mo–Fr-Ableitung aus HQ. Betreiber schließt Altmetall/sonstigen Schrott ausdrücklich aus; Pkw, weitere Fahrzeugarten nach Absprache. FAQ Kosten nach Zustand/Vollständigkeit/Selbstanlieferung oder Abholung, Transport nach Aufwand mit Vorabpreis. Einzelbeleg für neue Details, kein neuer Frontmatter-Öffnungs-/Leistungsfill. Ankauf individuell ohne Zahlentafel, Verkauf Teile/Fahrzeuge ohne Liste, Gebühren nicht pauschal kostenlos. Quelle: https://www.dapa-hst.de/locations/duvendiek/ ; https://www.dapa-hst.de/autoverwertung/ ; https://www.dapa-hst.de/standorte/impressum/.]

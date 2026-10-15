@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Bremer Visitenkarte direkt nun HTTP 403, anders als historisch gelesener Profiltext vom 13.10.; kein heutiger Inhalt hinter Sperre gelesen. Kommunale Hostingdomain würde den Branchenprofileintrag ohnehin nicht zum Gewerberegister machen. Vorhandene Im-Knie-/Telefonwerte erhalten, aber nicht als frisch bestätigt ausgeben; widersprüchliche Portalzeiten und Maillead weiter außerhalb des Frontmatters. Ankauf/Verkauf/Gebühren keine neuen qualifizierten Tarifdaten. GeoBedarf: aktuelle Betriebszuordnung Im Knie 1 und öffentliche Annahme prüfen, nicht nur Gebäude lokalisieren. Quelle/Abrufgrenze: https://www.bremen.de/visitenkarte/schrott-metall-sammler-peter-ziegler .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Das Bremer kommunale Visitenkartenverzeichnis enthält einen Eintrag „Schrott-Metall-Sammler Peter Ziegler“ mit Im Knie 1, 28757 Bremen und 0173 7182171. Dieser öffentliche Stadtprofil-Eintrag liegt außerhalb der in README definierten Belegklassen; er ist kein Handels-/Gewerberegister und keine aktuelle Betreiberbestätigung. Profilstand/Änderungshinweis 26.05.2023 ist nicht als heutiger Betriebsnachweis zu lesen. Keine Frontmatter-Kontakte oder Öffnungszeiten ergänzt, da bereits widersprüchliche Verzeichnisstunden bestehen. Preise/Gebühren nicht gefunden. Quelle: https://www.bremen.de/visitenkarte/schrott-metall-sammler-peter-ziegler]

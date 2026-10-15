@@ -30,6 +30,10 @@ Das ist ein besserer Betreiberkandidat, aber noch kein unabhängig bestätigter 
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Root HTTP 200 und daraus verlinktes Bundle index-CVUfJLY8.js erneut HTTP 200 gelesen. Impressumskomponente weiterhin Hakan Güngörmez/ATES SCHROTTHANDEL/Einzelunternehmen/Hagen mit ausdrücklichem Hinweis auf noch erforderliche ladungsfähige Anschrift. Kein neuer amtlicher Identitätsbeleg, keine Auflösung der Adresscluster aus der Historie. Der technische Primärbefund ist keine vollständige Betreiberadressbestätigung; keine Kontakt-/Website-/Adressfills, pruefung bleibt. Ankauf: keine neue numerische Kurstabelle; Verkauf: keine verifizierte Liste; Gebühren: kostenlose Besichtigung im Bundle ist weder Ankaufspreis noch Beleg für generell kostenlose Demontage/Entsorgung. GeoBedarf: vollständige Rechtsanschrift und Bezug zum knappen Seed vor Bahnhofstraße-/Lange-Straße-Pin bestätigen. Quellen: https://www.ates-schrotthandel.de/ ; https://www.ates-schrotthandel.de/assets/index-CVUfJLY8.js .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Root und das tatsächlich eingebundene JavaScript erneut direkt abgerufen (HTTP 200, weiterhin /assets/index-CVUfJLY8.js). Impressumskomponente nennt erneut Hakan Güngörmez, Kleingewerbe/Einzelunternehmen, Hagen; Hinweis „Fuer ein vollstaendiges Impressum ist eine ladungsfaehige Anschrift mit Strasse, Hausnummer, Postleitzahl und Ort erforderlich.“ Vollständige Rechtsanschrift fehlt weiterhin. Eigene Suche Hakan Güngörmez + ATES ohne unabhängigen Identitätsbeleg. Vorwellen-Match und interne Adresswidersprüche nicht aufgelöst; keine Website-/Adress-/Kontaktübernahme. Keine neue numerische Ankauf-/Verkaufs-/Gebührenliste belegt. Owner: vollständige Betreiberanschrift und Bezug zum Seed/älteren Adressclustern prüfen, nicht Bahnhofstraße als Annahmestelle geokodieren. Quellen: https://www.ates-schrotthandel.de/ ; https://www.ates-schrotthandel.de/assets/index-CVUfJLY8.js ; https://www.ates-schrotthandel.de/impressum.]

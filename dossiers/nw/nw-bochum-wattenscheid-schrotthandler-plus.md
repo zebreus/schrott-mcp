@@ -30,6 +30,10 @@ Zusätzliche Portaladressen Hochstr.25 bzw. Vorstadtstr.65 sind ungeklärte Wide
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Konkreter Impressumspfad erneut direkt HTTP 404; kein lesbarer Betreiber-/Registermatch hinzugewonnen. Das ist ein Pfadbefund, kein Beleg für Domainaufgabe oder Geschäftsaufgabe. Die drei Portaladressspuren Hochstraße 28, Hochstraße 25 und Vorstadtstraße 65 bleiben ungeklärte Leads, Issam EL-Lahib aus PR kein heutiger unabhängiger Gewerbenachweis. Keine Frontmatter-Änderung und kein beliebiger PLZ-/Telefonfill. Ankauf/Verkauf/Gebühren weiter ohne verifizierte Händlerpreise; kostenlos aus historischen PR-Texten nicht als generelle Zusage. GeoBedarf: Betreiber und aktuelle Annahmefunktion vor Auswahl einer der Adressen klären. Quelle/Abrufgrenze: https://www.schrotthaendler-plus.de/impressum ; Lead-/Konfliktquellen siehe 11.10.2026.]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Gegenüber01.10. konkret zugeordneter Domain-/Mailkandidat aus direkt gelesenem GoLocal-Profil gefunden: Hochstr.28/44866 Bochum, 015736548705, info@schrotthaendler-plus.de, verlinkte Bochum-Leistungsseite; Adresse als von issam175 gemeldet markiert. Root mit und ohne www403, verlinkte Leistungsseite und Impressum404 (auch /impressum/404). Keine Umgehung/kein Impressumsinhalt behauptet, Domain nicht als tot gewertet; website_status unbekannt für ungeprüfte Zuordnung. Suchleads Hochstr.25 und Vorstadtstr.65 stehen im Widerspruch zum Seed, deshalb kein PLZ-/Adress-/Kontaktfill. pruefung bleibt. Ankauf-/Verkaufs-/Gebührenliste nicht verifiziert. GeoBedarf: Betreiber/Umzug/Annahmefunktion klären statt irgendeine der drei Adressen zu geocodieren. Quelle(n): https://www.golocal.de/bochum/schrotthandel/schrottabholung-bochum-umgebung-M371X/ (Lead); https://schrotthaendler-plus.de/ (403); https://www.schrotthaendler-plus.de/ (403); https://www.schrotthaendler-plus.de/schrottabholung-bochum (404); https://www.schrotthaendler-plus.de/impressum (404); https://schrotthaendler-plus.de/impressum/ (404)]

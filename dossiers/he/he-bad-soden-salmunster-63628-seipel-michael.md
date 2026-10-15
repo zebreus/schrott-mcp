@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Creditreform-Suchauszug liefert nun den konkreten Kandidaten Michael-Alois Seipel An- und Verkauf von Altmetall, Hufeisenstraße 3, 63628 Bad Soden-Salmünster, 06056 2390. Vollprofil nicht lesbar; deshalb bleibt die Beleggrenze offen und status pruefung. Seipel GmbH/Wölfersheim ist kein Zweitbeleg. Legacy-Adresse/-Telefon nicht als aktuelle Annahmebestätigung verstehen; keine Zahlenpreise oder Gebühren, GEO erst nach Betriebsstättenabgleich.
 
 ## Timeline
+
+### Recherche 15.10.2026 Welle18B
+
+- [Recherche 15.10.2026: Gegenüber der bisherigen reinen 11880-Spur neuer qualifizierender Quellenkandidat: Creditreform-ID 6090114269, Suchauszug nennt Michael-Alois Seipel An- und Verkauf von Altmetall, Hufeisenstr. 3, 63628 Bad Soden-Salmünster, +49 6056 2390. Direktabruf HTTP 403, daher keine Behauptung eines gelesenen Vollprofils oder zweier unabhängiger Belege. 11880 bestätigt nur Lead-Kongruenz; kein Datenübertrag von Seipel GmbH Wölfersheim. Frontmatter unverändert. ANKAUF/VERKAUF: Bezeichnung An-/Verkauf, keine Zahlenliste; GEBÜHREN unbelegt. GEO bis zur aktuellen Betreiber-/Gewerbeprüfung zurückgestellt. Quelle: https://firmeneintrag.creditreform.de/63628/6090114269/MICHAEL_ALOIS_SEIPEL_AN_UND_VERKAUF_VON_ALTMETALL (Suchauszug; 403); https://www.11880.com/branchenbuch/bad-soden-salmuenster/120674719B102470155/michael-alois-seipel-altmetallhandel.html (Suchlead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

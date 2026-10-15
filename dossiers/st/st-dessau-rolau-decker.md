@@ -30,6 +30,10 @@ Decker-Autoverwertung in Dessau-Roßlau bleibt ein Identitätsklärfall: Verzeic
 
 ## Timeline
 
+### Recherche 15.10.2026 Welle18A
+
+- [Recherche 15.10.2026 Welle18A: Historischen konkreten Harald-Decker-Lead erneut direkt geprüft; Cylex liefert HTTP 403/Cloudflare statt Firmendaten. Kein Inhalt hinter Sperre behauptet, kein Negativnachweis für Harald Decker oder einen anerkannten Demontagebetrieb. Konflikt Neekener Straße 9B/0340 618169 gegenüber 31/0340 6610013 aus Vorrecherche bleibt ungelöst, kein Merge und keine Gleichsetzung mit DEKRA/OWL-Deckers. Anerkennungsregister in dieser Welle nicht als erfolgreich abgefragt dargestellt. Ankauf, Ersatzteil-/Materialverkauf und Entsorgungsgebühren sämtlich ohne neue qualifizierte Zahlen. GeoBedarf: Inhaber/Adresskette und aktuelle Annahme-/Demontagefunktion vor Standortkoordinaten bestätigen. Quelle/Abrufgrenze: https://web2.cylex.de/firma-home/harald-decker-75992.html ; Konfliktquellen in Recherche 03.10.2026.]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Gezielte Dessau-/Decker-Suche und direkt gelesene NorthData-Suche liefern keinen passend identifizierten Betreiber; ähnliche Becker/Deneke-Firmen an Fremdorten nicht zuordnen. GADSYS-Altfahrzeugregister direkt HTTP 200 aufgerufen, Antwort ohne auswertbaren Text/Einzelfirmenresultat; damit keine Anerkennungsprüfung für Decker abgeschlossen und kein Negativnachweis. Historische Konfliktmatrix Neekener Str. 9B/Harald/618169 versus 31/Autoservice/6610013 unverändert. Keine Fills, kein Zusammenführen, status pruefung. ANKAUF/VERKAUF/GEBÜHREN keine Zieltarife. Offen: konkrete Inhaber/Adresskette per Gewerbeauskunft und individuell zugeordneter Anerkennungsnachweis; Quelle(n): https://www.northdata.de/?query=Decker+Autoverwertung+Dessau ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (kein auswertbares Einzelfirmenresultat); Dossier-Historie 03.10.2026]
