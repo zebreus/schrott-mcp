@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Leuschner R., Klosterbergestraße 20, 39104 Magdeburg und 0391 5209424 beruhen weiter ausschließlich auf Verzeichnisleads. Weder ausgeschriebener Inhabername noch heutiger Hofbetrieb oder Betreiberwebsite sind qualifiziert belegt. Mehrfache Übernahme in Portalumkreislisten ist kein unabhängiger Nachweis. **Ankauf / Verkauf / Gebühren:** keine qualifizierten Zahlen oder Konditionen. **GEO:** bis Gewerbe-/Annahmestellenprüfung zurückstellen; die vorhandene Straße allein beweist keinen Kundenhof. Kein Schließungsbeleg, pruefung bleibt.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Eigene Leuschner/Magdeburg/Schrott-Suche findet wieder Schrottplatz.org und Nachbarschaftsverweise auf Schrottplatz-Info sowie sachfremde Leuschner-Treffer, keinen zugeordneten Betreiber-/Registerbeleg. Suchergebnis Klosterbergestr. 20 bestätigt lediglich die bestehende Portalspur; keine Namensauflösung R. oder aktuelle Annahme daraus abgeleitet. Kein Fill/keine Schließungsbehauptung, ANKAUF/VERKAUF/GEBÜHREN ohne qualifizierte Zahlen. Owner: Gewerbeauskunft zur Anschrift/Inhaberidentität vor Kontakt-/GEO-Freigabe. Quellen (Suchleads): https://www.schrottplatz.org/magdeburg/schrott-leuschner-r-aYEPCb.html ; https://www.schrottplatz-info.de/schrottplatz/Moeckern .]
 
 ### Recherche 04.10.2026
 

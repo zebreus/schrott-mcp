@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die direkt gelesene HTTP-Leistungsseite beschreibt mobile Schrottabholung und Containerservice. Wichtig gegenüber bloßem Gratis-Abholdienst: Sie verspricht zusätzlich eine **Vergütung abhängig von Art und Menge**. Das ist Ankauf-/Vergütungswerbung, aber keine numerische Preisliste und keine Garantie eines konkreten Betrags. Kostenfreie Abholung ist davon getrennt zu behandeln.
+
+Betreiber-Einzelquelle ohne hinreichenden unabhängigen Identitäts-/Kontaktbeleg; leere Felder bleiben leer. **Verkauf:** keine Liste auf den gelesenen Seiten. **Gebühren:** Werbung kostenfrei, kein Container-/Demontagetarif. Fritz-Pütter-Str. 13 ist nicht als verifizierter Anlieferhof oder GEO-Punkt freigegeben.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Start und leistungen.html direkt per HTTP gelesen. Leistungsseite präzisiert: Schrottabholung kostenfrei und zusätzlich Geld abhängig von Menge/Art des Schrotts; damit nicht fälschlich als ausschließlich kostenlose Entsorgung ohne mögliche Vergütung darstellen. Keine EUR/kg-Werte, kein Veröffentlichungsdatum, keine Verkaufsliste und kein positiver Container-/Demontagetarif. Nur ein Betreiberquellenkomplex, keine neue unabhängige Bestätigung der im Alt-Impressum dokumentierten Identität Uwe Müller/Anschrift. Bestehende HTTPS-URL nicht wegen erfolgreichem HTTP-Abruf umgeschrieben; keine Kontakt-/GEO-Fills. Quellen: http://schrottdirektor.de/ ; http://schrottdirektor.de/leistungen.html .]
 
 ### Recherche 04.10.2026
 

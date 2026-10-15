@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nicht aufgelöste Standort-/Identitätsspur: Der historische Freyburger Name wird in Portalen mit Naumburg 06618 und 03445 2615502 geführt; eine neue Suchspur nennt Kroppentalstraße 1 und ein anderes Telefon 03445 781628, eine weitere Lauchaer Straße 17 in Freyburg. Keine der Spuren ist Betreiber-/Registerbeleg. Keine Zusammenführung mit R+S/Rank an Kroppentalstraße 40a oder H&S in Freyburg; keine neue Straße/Domain übertragen. **Ankauf / Verkauf / Gebühren:** keine qualifizierten Zahlen, Annahme und heutiger Betreiber offen. **GEO:** Stadtmigration aus 02.10. war nur portalgestützt; bis zum Gewerbe-/Betriebsstättenabgleich keinen Naumburger oder Freyburger Marker als bestätigt ausgeben.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Eigenständige exakte Namenssuche erschließt zusätzliche widersprüchliche Leads: Yelp-Suchtreffer Kroppentalstr. 1, 06618 Naumburg, 03445 781628; stadtbranchenbuch-Freyburg-Verzeichnis nennt Lauchaer Str. 17, 06632 Freyburg, 034464 28880. Detailabruf Yelp HTTP403, daher Angaben nur Suchsnippet, nicht inhaltlich direkt bestätigt. Bestehender Naumburger Telefonlead 03445 2615502 bleibt davon verschieden. Weder Umzugskette noch Firmenidentität oder Nachfolge zu R+S/Rank bzw. H&S nachgewiesen; keine Datenübertragung, pruefung bleibt. ANKAUF/VERKAUF/GEBÜHREN ohne qualifizierte Zahlen; GEO aussetzen. Quellen (Leads): https://m.yelp.com/biz/freyburger-kabel-und-buntmetall-recycling-naumburg ; https://freyburg-unstrut.stadtbranchenbuch.com/F/firmenverzeichnis.html ; https://naumburg.stadtbranchenbuch.com/6100427.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

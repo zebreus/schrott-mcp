@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Mobiler Seed-Kandidat „Kieler Altmetall“ mit unbestätigter Rufnummer 0160-99288699. Der bereits gefundene Betreiberseiten-Kandidat kieler-altmetall.firmenimnetz.de bleibt im aktuellen Direktabruf nicht erreichbar (Timeout), kein Impressum gelesen. Die exakte Telefonsuche brachte keinen neuen zuordenbaren Beleg. Keine Gleichsetzung mit KSH/Boris Schmidt und keine fremden Anschriften übernommen.
+Mobiler Seed-Kandidat „Kieler Altmetall“ mit unbestätigter Rufnummer 0160-99288699. Die erneute Namens-/Telefonsuche findet den bereits bekannten Betreiberseiten-Kandidaten nun auch unter www.kieler-altmetall.firmenimnetz.de: Suchindextext nennt genau diese Nummer, kostenlose Abholung und möglichen Ankauf größerer Mengen. Direktabrufe mit/ohne www, HTTP/HTTPS sowie Impressumspfad bleiben im Timeout; kein Impressum gelesen. DNS-Auflösung funktioniert, der Timeout belegt keine gelöschte Domain. Kein unabhängiger Identitätsbeleg und keine Gleichsetzung mit KSH/Boris Schmidt oder Schrottjungs; keine fremden Anschriften/Preise übernommen.
 
-`pruefung` statt unbelegtem `aktiv`; Timeout und Suchlücken sind kein Schließungsbeweis. Größere Mengen „ggf. angekauft“ aus dem Seed ist keine bestätigte Auszahlung/Preisgarantie. Ankauf-, Verkaufs- und Gebührenlisten unbekannt; kein stationärer Annahmeort und kein GEO-Fill.
+`pruefung` statt unbelegtem `aktiv`; Timeout und Suchlücken sind kein Schließungsbeweis. **Ankauf:** „ggf.“ bei größeren Mengen nur indexierter Kandidatentext, keine bestätigte Auszahlung oder numerische Preisliste. **Verkauf:** keine verifizierte Liste. **Gebühren:** „kostenlos“ im indexierten Abhol-/Kfz-Anlieferungstext ist eine unbestätigte Servicekondition, kein Ankaufpreis und keine aktuelle Gebührenfreiheit. Kein stationärer Annahmeort und kein GEO-Fill.
 
 ## Timeline
+
+### Recherche 15.10.2026
+
+- [Recherche 15.10.2026: Exaktsuche Kieler Altmetall/99288699 reproduziert Suchindextreffer http://www.kieler-altmetall.firmenimnetz.de/ mit Telefon 0160-99288699, „Wir holen Ihren Stahl Und Metallschrott kostenlos ab“, Kfz bei Anlieferung kostenlos und „Größere Mengen werden ggf. auch angekauft“. Ausschließlich Suchindexinhalt, kein neuer gelesener Betreiber-Vollbeleg. Direktabrufe HTTPS ohne www und HTTP mit www (20 s), zusätzlich requests auf www-/impressum.html (18 s) enden Timeout. DNS ohne www löst auf 195.14.212.15 auf; nicht als Domainabschaltung missdeuten. Betreiberperson, Ladungsanschrift, Impressum und unabhängiger Zweitbeleg weiterhin offen. Kein Feldfill; pruefung/unbekannt bleiben, Seed-Telefon unbestätigt. Ankauf/Verkauf ohne verifizierte numerische Liste; kostenlose Abholung im Kandidatentext nur unbestätigte Gebühren-/Serviceaussage, keine Auszahlung. Quellen/Abrufgrenzen: http://www.kieler-altmetall.firmenimnetz.de/ ; https://kieler-altmetall.firmenimnetz.de/ ; http://www.kieler-altmetall.firmenimnetz.de/impressum.html .]
 
 ### Recherche 14.10.2026
 

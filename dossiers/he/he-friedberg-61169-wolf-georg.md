@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Identität und heutiger Betrieb von „WOLF Georg“ an der Dorheimer Str. 43 bleiben ungeklärt. Die vorhandene Anschrift/Rufnummer sind Altbestand aus einem Verzeichnis, keine frisch bestätigten Betreiberangaben. Namensgleiche Musiker- und Traueranzeigen-Treffer dürfen weder zugerechnet noch als Schließungsbeleg benutzt werden.
+
+**Ankauf / Verkauf / Gebühren:** jeweils keine betriebsspezifische Liste belegt. **Offen:** kommunale Gewerbeauskunft bzw. Betreiberbeleg für Name, Anschrift und Autoverwertung; erst danach Annahme, Vergütung und GEO prüfen.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Eigenständige Suche nach „Georg Wolf“ + Friedberg + Schrott sowie Wolf + Dorheimer Str. 43 erbrachte keinen passenden zulässigen Betreiber-/Registerbeleg. Suchtreffer zum Musiker Georg Wolf und zu einer bayerischen Traueranzeige sind keine Evidenz für den hessischen Schrotthändler; keine Attribution und kein Schließungsurteil. Altadresse und Telefon bleiben ausdrücklich unbestätigt, status pruefung unverändert. Keine Ankauf-/Verkaufskurse oder Gebühren gefunden; keine Geocodierung der bloßen Altadresse. Suchspuren: https://www.google.com/search?q=%22Georg+Wolf%22+%22Friedberg%22+Schrott ; https://www.google.com/search?q=%22Wolf%22+%22Dorheimer+Str.+43%22 (Suchabfragen, keine Sachbelege).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

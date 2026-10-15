@@ -28,6 +28,10 @@ Die Betreiberwebsite nennt Poncet Horst Schrott-Metalle, Dorfstraße 33, 82418 H
 
 ## Timeline
 
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Vorwellen-403 für Leistungsseite heute überholt: direkt lesbar, erneut Dorfstraße 33/82418 Hofheim, 08847 264, Mobil 0171 5218834, info@poncet-container.de und Mo–Fr 07–17. Seite nennt Materialannahme/Ankauf von Altwaren, Kranabholung größerer Schrottmengen und Container 7–10 m³ sowie 40 m³. Annahme von Altholz I–IV, Mischabfall, Edelmetallen, Alteisen, Bauschutt, Grüngut ist keine Zusage, jede Fraktion zu vergüten oder kostenlos zu entsorgen. Keine numerischen ANKAUF-/VERKAUF-/GEBÜHRENpreise auf Leistungsseite, keine neue Zweitquelle; Frontmatter unverändert. Betreiber verlinkt einen Maps-Place-Punkt, doch Identitäts-/Zweitquellen-Gate bleibt offen; keine Koordinaten aus Kartenansicht oder Kartenmittelpunkt gesetzt. Quelle: https://www.poncet-container.de/leistungen .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Betreiberquelle erneut angesteuert (Root www/non-www, Leistungen, Kontakt), diesmal durchgehend HTTP403; daher keine aktuelle Inhalts-/Preisbestätigung und kein Schluss auf Betriebsschließung. Die lesbaren Betreiberinhalte vom 04./06.10. bleiben historische Einzelbelege. NorthData-Suche „Poncet Hofheim“ im ersten Block ohne kongruente Schrottidentität; mehrdeutiges Hofheim und unscharfe Suche begrenzen Aussage. Keine Zweitquelle gewonnen, Frontmatter unverändert. Ankauf/Verkauf/Gebühren nicht als aktuell erneut geprüft darstellen. Owner: Horst Poncet in Hofheim/Gemeinde Spatzenhausen über Gewerbequelle bestätigen, nicht Hofheim am Taunus; Quelle(n): https://www.poncet-container.de/ ; https://www.poncet-container.de/leistungen ; https://www.poncet-container.de/kontakt ; https://www.northdata.de/?query=Poncet%20Hofheim.]

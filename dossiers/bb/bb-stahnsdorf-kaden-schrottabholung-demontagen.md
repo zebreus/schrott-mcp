@@ -28,6 +28,11 @@ Ruhlsdorfer Str. 95 ist weiterhin eine übernommene Verzeichnisadresse, kein neu
 
 ## Timeline
 
+### Recherche 15.10.2026
+
+- Erneuter direkter Abruf von https://www.schrott-kaden.de/ bestätigt weiterhin ausschließlich „Diese Domain steht nun zum Verkauf! Infos und Angebote unter info@thistec.de !“. Das ist eine Domainverkaufsanzeige, kein aktueller Leistungs-, Kontakt- oder Standortbeleg für Kaden. Die Verkäuferadresse nicht als Händlerkontakt übernehmen; weder Betriebsschließung noch aktuelle kostenlose Abholung aus dem Domainzustand ableiten.
+- Kein aktueller Betreiberbeleg für Ruhlsdorfer Str. 95 aus diesem Abruf gewonnen. Die früheren Verzeichnis-/Instagram-Leads wurden damit nicht unabhängig bestätigt; heute keine erneute Instagram-Prüfung behauptet. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren auf der abgerufenen Seite. Frontmatter unverändert, Status Prüfung; ein Annahmehof und dessen Geocoding bleiben offen.
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: 11880 direkt geprüft: Kaden Schrottabholung – Demontagen, Ruhlsdorfer Str. 95, 14532 Stahnsdorf, 0176 41520797, info@schrott-kaden.de und Link schrott-kaden.de. Der Domain-Direktabruf liefert ausschließlich „Diese Domain steht nun zum Verkauf! Infos und Angebote unter info@thistec.de!“; thistec ist kein Kaden-Kontakt. Keine aktive Betreiberwebsite, Domain-Mail möglicherweise obsolet, Mobilnummer nur Lead. Bestehende Adresse historisch erhalten, keine zusätzlichen Felder füllen und keine Schließung ableiten. Quellen: https://www.11880.com/branchenbuch/stahnsdorf/120674719B106667073/kaden-schrottabholung-demontagen.html ; https://www.schrott-kaden.de/ .]

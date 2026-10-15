@@ -30,6 +30,10 @@ Die Werbung „100 % kostenlos“ wird in der FAQ eingeschränkt: **geeignetes M
 
 ## Timeline
 
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Homepage samt ausführlichem aktuellem Leistungstext und sichtbarer FAQ-Antwort direkt gelesen. Konkretisierung: Fotos/Materialart/Menge/Zugänglichkeit und Verlade-/Demontageaufwand entscheiden vor Termin über kostenlose Abholbarkeit; Gefahrstoffe und gefüllte Behälter müssen ausdrücklich vorab genannt werden. Das ist keine pauschale Annahmezusage für diese Stoffe. Wieder nur Mail-Link „Rechtliche Angaben anfragen“, kein genannter Inhaber/Sitz; Bochum weiterhin Einsatzgebiet und kein Hof. Keine numerischen Ankauf-/Verkaufskurse; Kostenfreiheitswerbung weiterhin bedingt, kein veröffentlichter Sonderfalltarif. Frontmatter unverändert, kein GEO eines Einsatzgebiets. Quelle: https://schrott-abholung24.de/ .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Homepage inklusive FAQ direkt erneut gelesen: kostenlose Abholung nur bei geeigneten Materialien und wirtschaftlich abholbarer Menge; jede Anfrage wird nach Material/Menge/Standort/Ladeaufwand vor Termin geprüft. Die Schlagzeile „100 % kostenlos“ nicht als voraussetzungslose Garantie übernommen. Bochum nur in NRW-Einsatzgebiet, keine Standortadresse. Weiterhin nur Mail-Link „Rechtliche Angaben anfragen“, keine öffentlich identifizierte Rechtsperson/ladungsfähige Anschrift. Ein Quellenkomplex, kein Zweitbeleg; Frontmatter unverändert. Kostenlose Dienstleistung separat von Ankaufvergütung, keine numerische Metallpreisliste gefunden; Quelle(n): https://schrott-abholung24.de/]

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Einheitsstr. 22, Siegen-Weidenau und 0271 88047111 sind weiterhin Verzeichnis-Leads. Ein neuer Creditreform-Treffer mit fast gleichem Namen gehört dagegen zu **45130 Essen**, Rufnummer 0201 779814: nicht als zweiter Beleg oder Betreiberkette für Siegen nutzbar. Ein zulässiger aktueller Betreiber-/Registerbeleg für die Siegener Zeile fehlt.
+
+**Ankauf / Verkauf / Gebühren:** keine betriebsspezifische Liste bestätigt. **Offen:** Siegener Betreiberidentität unabhängig klären; erst danach bestehende Straße, PLZ, Annahme und GEO validieren. Verzeichnis-Öffnungszeiten nicht hochstufen.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Suche nach Detlev Schmidt Siegen Schrott liefert erneut Siegener Verzeichnisse, aber auch zulässigen Quellenkandidaten Creditreform mit entscheidendem Ortskonflikt: URL-PLZ 45130 und Nummer +49 201 779814 weisen auf Essen, nicht Einheitsstr. 22/57076 Siegen mit 0271 88047111. Diesen Namesake nicht als unabhängige Siegener Bestätigung benutzt; keine Übernahme oder Umzug behauptet. Siegener Adresse/Telefon/Zeiten bleiben nur Leads, Straße als Altbestand nicht neu validiert; status pruefung, kein Fill/GEO. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Liste. Suchspuren: https://firmeneintrag.creditreform.de/45130/5110175534/DETLEV_SCHMIDT_SCHROTT_UND_METALLHANDEL_CONTAINERSERVICE (nur Suchindex gelesen); https://www.dasoertliche.de/Themen/Schmidt-Detlev-Schrotthandel-Siegen-Weidenau-Einheitsstr ; https://www.google.com/search?q=%22Detlev+Schmidt%22+%22Siegen%22+Schrott .]
 
 ### Recherche 01.10.2026
 

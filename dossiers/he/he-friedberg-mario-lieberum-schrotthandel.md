@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiber-Impressum nennt Mario Lieberum, Pfingstweide 19, 61169 Friedberg (Hessen). Die einzeln gelesene Ankaufseite nennt FE-/NE-Metalle, Kabel, Kupfer, Messing, Aluminium, Blei, Edelstahl und Zink, Abholung für Privat/Gewerbe nach Vereinbarung sowie kostenfreie Container. **Ausdrücklicher Ausschluss: kein Handel mit Fahrzeugteilen oder ähnlichem Zubehör.**
+
+**Ankauf:** aktuelle Tagespreise nur telefonisch, keine numerische Liste auf der gelesenen Seite. **Verkauf:** Fahrzeugteile ausgeschlossen, sonst keine Liste. **Gebühren:** kostenlose Container als Leistungswerbung, keine pauschale Gebührenfreiheit sämtlicher Abbruchleistungen ableiten. Nur Betreiber-Einzelquelle: kein Frontmatter-Fill. Die früher dokumentierte GEO-Fehlzuordnung nach BW bleibt vorrangig zu korrigieren, sobald die Standortfreigabe vorliegt; heutiger DB-Zustand wurde nicht geprüft.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Impressum und Ankaufseite einzeln direkt gelesen: Mario Lieberum/Pfingstweide 19/61169 Friedberg, Abholung privat/gewerblich und kostenfreie Container nach Vereinbarung. Neue wichtige Abgrenzung: Betreiber handelt ausdrücklich NICHT mit Fahrzeugteilen/ähnlichem Zubehör. Tageshöchstpreise werden nur auf telefonische Anfrage angeboten, keine numerischen Kurse erfasst. Containerwerbung ist Gebühren-/Serviceinformation, kein Metallpreis und keine pauschale Kostenfreiheit für Industrieabbruch. Einzelunternehmen ohne HRB; zweite unabhängige Quelle fehlt weiterhin, daher keine Frontmatter-Fills oder Koordinaten. Frühere BW-GEO-Fehlmeldung bleibt Owner-Priorität; keine Produktionsabfrage ausgeführt. Quellen: https://www.schrott-rhein-main.de/impressum/ ; https://www.schrott-rhein-main.de/schrott-und-metallankauf .]
 
 ### Recherche 01.10.2026
 

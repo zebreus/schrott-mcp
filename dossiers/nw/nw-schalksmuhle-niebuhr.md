@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die frühere erfolglose Suche ist überholt: Es gibt einen konkreten Register-/Standortkomplex am Mühlenweg 19, 58579 Schalksmühle. Verzeichnis-Leads nennen Gunter Niebuhr Metalle, Schrotte, Entsorgungslogistik, Inh. Carsten Niebuhr e.K. (HRA 3404 als Registersuchspur); North Data führt separat Niebuhr Eisenmetallwerke GmbH & Co. KG, HRA 5105, am selben Ort. Eine Rechtsnachfolge zwischen diesen Firmen und die genaue Zuordnung des knappen Seeds „Niebuhr“ sind noch nicht bewiesen.
+
+Die SIHK dokumentiert die Insolvenzeröffnung der KG vom 04.05.2026 (106 IN 36/26) und die Abweisung mangels Masse bei Niebuhr Verwaltungs GmbH vom 28.05.2026 (106 IN 35/26). Insolvenz/Liquidation ist **kein Beleg für Betriebsschließung**. Keine aktuelle Annahme oder Preisliste bestätigt. Erst Betreiberkette und Fortführung klären; Adresse nicht voreilig in Frontmatter/GEO übernehmen.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Neue Suche liefert Mühlenweg 19 und zwei getrennte Rechtsträger als Gegenbefund zur Recherche 02.10. Registernahe Suchspur e.K.: HRA 3404; direkt gelesenes North-Data-Profil der Niebuhr Eisenmetallwerke GmbH & Co. KG nennt HRA 5105, Mühlenweg 19, 58579 Schalksmühle und An-/Verkauf/Aufbereitung von Metallen/Schrotten, Status i.L. (Liquidationspublikation 12.05.2026). Unabhängig direkt gelesene SIHK-Meldung: Insolvenzverfahren KG am 04.05.2026 eröffnet, Verwalter Dr. Martin Plappert; Verwaltungs-GmbH HRB 7908 am 28.05.2026 mangels Masse abgewiesen. Diese konkreten Firmen dürfen nicht allein wegen Name/Adresse mit dem e.K. oder dem Seed gleichgesetzt werden. Kein Name-/Adress-/Status-geschlossen-Fill, keine Kontaktdaten aus Aggregatoren; niebuhr-metallhandel.de Transportfehler. ANKAUF/VERKAUF/GEBÜHREN: keine aktuelle numerische Liste. GEO erst nach Zuordnung/Fortführungsprüfung. Quellen: https://www.northdata.de/Niebuhr%20Eisenmetallwerke%20GmbH%20%26%20Co.%20KG,%20Schalksm%C3%BChle/Amtsgericht%20Iserlohn%20HRA%205105 ; https://www.ihk.de/hagen/recht/insolvenzen/mai-2026-7046390 ; https://www.online-handelsregister.de/handelsregisterauszug/nw/Iserlohn/HRA/3404/Gunter-Niebuhr-Metalle-Schrotte-Entsorgungslogistik-Inh-Carsten-Niebuhr-eK (nur Suchindexspur, kein gelesener Registerauszug); https://www.niebuhr-metallhandel.de/ (Abrufgrenze).]
 
 ### Recherche 02.10.2026
 

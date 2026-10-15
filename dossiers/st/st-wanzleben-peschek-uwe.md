@@ -28,6 +28,10 @@ Uwe Pescheks aktuelle Betreiberwebsite belegt in Wanzleben-Börde einen Containe
 
 ## Timeline
 
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Betreiber-Impressum direkt erneut gelesen: Uwe Peschek Containerdienst, Einzelunternehmen, Welsche Mühle 4, 39164 Wanzleben-Börde, 039209 3015, peschekupw@t-online.de, USt-ID DE139322420. Footer Mo–Fr 07–18. Weiterhin derselbe Betreiberbeleg für Containerdienst, kein unabhängiger Identitäts-/Ankaufnachweis des Schrotthändler-Seeds. Leistungs-/Preisseiten heute nicht erneut gelesen; historische Material-/Containerangaben nicht als frische Preisprüfung ausgeben. ANKAUF weiterhin ungeklärt, VERKAUF/GEBÜHREN heute keine neuen Zahlen verifiziert; kein Frontmatter-Fill. GEO erst nach fachlicher Händler-/Kundenstandortzuordnung. Quelle: https://www.containerdienst-peschek.de/impressum .]
+
 ### Gegenprüfung 13.10.2026
 
 - [Recherche 13.10.2026: Betreiberwebsite, Impressum und Abfallarten direkt erneut gelesen. Das Impressum bezeichnet „Uwe Peschek Containerdienst“ als Einzelunternehmen am Welsche Mühle 4 und nennt Uwe Peschek; die Leistungsseite bewirbt Container 3/4/5/7 m³ für u.a. Bauschutt, Sperrmüll, Mischabfall, Gartenabfälle und Bodenaushub sowie werktags 07–18 Uhr. Metalle erscheinen nur als mögliche Fraktion im Mischabfall; kein eigener Altmetallankauf oder Vergütungspreis belegt. Preise für Entsorgung/Container und Baustofflieferung bleiben individuelle Angebote auf Anfrage; keine Zahlenliste. Dies ist ein aktueller Betreiberbeleg für den Containerdienst, aber kein Zwei-Quellen-Nachweis für die Seed-Zeile als Schrotthändler; keine Frontmatterübernahme. Quellen: https://www.containerdienst-peschek.de/impressum ; https://www.containerdienst-peschek.de/abfallarten ; https://www.containerdienst-peschek.de/ .]

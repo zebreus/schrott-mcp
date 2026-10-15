@@ -29,6 +29,11 @@ SDW-Recycling/Falk Wimmer bleibt ungeklärter Klein-Trebbower Schrott-/Recycling
 
 ## Timeline
 
+### Recherche 15.10.2026
+
+- http://sdw-recycling.de/ erneut direkt als HTML gelesen: ausschließlich doctype, html/head, UTF-8-Metadatum und Titel „SDW-Recycling“, ohne Body, Frames, Impressum, Betreibername, Adresse oder Preisinhalt. Bestätigt den technischen Minimalbefund vom 05.10., nicht die historische Frames-Annahme und nicht die heutige Firmenidentität. Keine neue HTTPS-/TLS-Prüfung aus diesem HTTP-Abruf ableiten.
+- Alte Gärtnerei 12/19069 und die vorhandene Mobilnummer bleiben unbestätigte Alt-/Verzeichnisangaben. Keine aktuellen numerischen Ankauf-/Verkaufspreise oder Gebühren auf dem abgerufenen Dokument; keine allgemeine Nichtexistenz solcher Angebote behauptet. Frontmatter unverändert, Status Prüfung und website_status unbekannt. Keine Schließung abgeleitet, keine Koordinaten gesetzt; Betreiber-/Gewerbebeleg weiterhin nötig.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - lokaleschrottplatz.de + Gelbe Seiten + Cylex/11880/Firmania + Kleinanzeigen-Inserat "mobiler Schrotthandel, faire Ankaufspreise"; sdw-recycling.de nur Frames, Inhalt nicht prüfbar

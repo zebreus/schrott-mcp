@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: ProvenExpert-Profil direkt neu gelesen: Schließungstext letzter Ankauftag 12.08.2023 unverändert, letzte Aktualisierung 04.08.2023, Manuel Seitz/Nordstraße 3 und historische Mail/Telefon kongruent. Die gleichzeitig eingeblendeten historischen April-2023-Öffnungszeiten und Termine auf Anfrage widerlegen die ausdrücklich angekündigte Schließung nicht; nicht als aktuelle Annahmezeiten übertragen. Profil-Selbstdarstellung ist weiterhin kein unabhängig bestätigter Gewerbe-/Betreiber-Social-Nachweis. Wiedereröffnung nicht verifiziert, status pruefung statt unbelegter endgültiger Schließung; Owner soll Gewerbeauskunft bzw. zugängliche Betreiberbestätigung priorisieren. ANKAUF nur historisch Papier/Buntmetall ohne Kurse; VERKAUF/GEBÜHREN keine Zahlen; GEO nicht als aktive Annahmestelle freigeben. Quelle: https://www.provenexpert.com/de-de/wertstoffankauf-seitz/ .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: ProvenExpert-Profil vollständig gelesen: Unternehmensbeschreibung kündigt Geschäftsschließung an, letzter Ankauftag 12.08.2023; Ansprechpartner Manuel Seitz, Nordstraße 3, 99310 Arnstadt, Telefon kongruent zum Seed, historische Mail arnstadt@wsh-seitz.de; letzte Profilaktualisierung 04.08.2023. Profiltext ist eine starke Betreiber-Selbstaussagen-Spur, aber keine der im README ausdrücklich zugelassenen unabhängigen Register-/Betreiber-Social-Gegenquellen. Facebook-Verweis direkt verfolgt, nur Login; business.site 404; wsh-seitz.de TLS-Handshakefehler. Keine Änderung an Status/Adress-/Kontaktfeldern und keine neuen Öffnungszeiten. Hohe Priorität: Schließung/Wiedereröffnung amtlich oder über zugeordnetes Betreiber-Social klären. Kein numerischer Ankauf-, Verkauf- oder Gebührenbeleg; Quelle(n): https://www.provenexpert.com/de-de/wertstoffankauf-seitz/ ; https://www.facebook.com/WertstoffankaufSeitz/ ; https://wertstoffankauf-seitz.business.site/ ; https://wsh-seitz.de/.]

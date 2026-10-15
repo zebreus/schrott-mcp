@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiber-FAQ bestätigt kleine Privatmengen mit Ausweispflicht; Ausweis ohne Adresse nur zusammen mit Meldebescheinigung. Keine Privatabholung, gewerbliche Container/individuelle Lösungen nach Kontakt. Auch Stahl-/Mischschrott wird genannt. Ausgeschlossen sind u.a. Haushaltsgroßgeräte, Druckbehälter, Öltanks, Autos sowie Benzin-/Dieselmotoren; diese Ausschlüsse nicht aus dem allgemeinen Metallangebot ableiten oder übergehen.
+
+**Ankauf:** tagesaktuelle Angebote mit LME-Orientierung, keine numerischen Kurse in der gelesenen FAQ. **Verkauf:** Elektrolytkupfergranulat „1A Grob 1 GR“ und Kupferpakete als Industrieprodukte, ohne Preise. **Gebühren:** Kabelumarbeitung ist Lohnarbeit/Dienstleistung, kein Ankaufkurs; kein Tarif veröffentlicht auf der gelesenen Leistungsseite. Adressrollen Niederlosheimer Str. 121 / Lehmweg 11 und fehlender unabhängiger Standortbeleg bleiben offen; keine GEO-Freigabe.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: FAQ, Kupfergranulat, Kupferpakete und Lohnarbeit einzeln direkt gelesen. Neue Präzisierung gegenüber pauschalem NE-Metallangebot: FAQ nennt auch Stahl-/Mischschrott, verlangt Personalausweis (ohne Adresse zusätzlich Meldebescheinigung), nimmt kleine Privatmengen an und schließt Privatabholung aus. Ausschlüsse: Elektro-/Haushaltsgroßgeräte, Gasflaschen/Druckbehälter, Feuerlöscher/Spraydosen, betriebsmittelberührte Behälter, Öltanks, Autos und Verbrennungsmotoren. ANKAUF: LME-orientierte Tagesangebote, keine Zahlenliste; VERKAUF: Granulat 1A Grob 1 GR und gepresste Kupferpakete ohne Preis; GEBÜHREN: Kabelumarbeitung als Dienstleistung ohne veröffentlichten Tarif. Alle Angaben nur Betreiber-Einzelquelle; kein zusätzlicher unabhängiger Adressbeleg, deshalb keine Frontmatter-/GEO-Fills. Quellen: https://www.straub-metallhandel.de/index.php/faq ; https://www.straub-metallhandel.de/index.php/cu-granulat ; https://www.straub-metallhandel.de/index.php/kupferpakete ; https://www.straub-metallhandel.de/index.php/lohnarbeit .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

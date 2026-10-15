@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+S.L.A. bewirbt laut Suchindex des bereits bekannten Facebook-Profils eine Ankaufstelle Ignaz-Büttner-Str. 115, Lu-Maudach, für Privat und Gewerbe mit sofortiger Auszahlung (Kupfer, Messing, Kabel). Diese Werbespur bestätigt aber keinen unabhängig identifizierten Rechtsträger. Die verlinkte Domain ist weiterhin nicht auswertbar; Spiegel desselben Facebook-Profils sind keine zweite Quelle.
+
+Mangels belastbarer aktueller Betreiber-/Standortzuordnung nun **pruefung**, nicht geschlossen. **Ankauf:** keine Zahlenkurse verifiziert. **Verkauf/Gebühren:** keine Liste belegt. Standort, Rechtsinhaber und Annahmebedingungen unabhängig klären, danach GEO; keine aktuellen Feiertags-/Öffnungszeiten aus undatierten Posts ableiten.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Korrektur 15.10.2026: status aktiv → pruefung, weil der ursprüngliche Aktiv-/Annahmestellenstatus auch nach erneuter Gegenprüfung nur einem nicht unabhängig zugeordneten Social-Profil/Verzeichnis-Komplex gegenübersteht. Kein Schließungsurteil: schrotthandel-ludwigshafen.de liefert nur Transportfehler, Facebook-Direktabruf keinen auswertbaren Inhalt. Neue Suchindexspuren desselben Profils nennen Privat/Gewerbe, sofortige Auszahlung und Ignaz-Büttner-Str. 115 Lu-Maudach; nur Rechercheansatz, keine neuen Frontmatter-Fakten, keine Preisbeobachtung. Post „ab 6. Januar wieder da“ ohne belastbares Jahr nicht als heutige Öffnung verwendet. Betreiberidentität/Standort unabhängig prüfen; GEO gesperrt. Quellen/Abrufgrenzen: https://schrotthandel-ludwigshafen.de/ ; https://www.facebook.com/p/SLA-Altmetall-Schrotthandel-Ludwigshafen-61570918898445 ; https://www.google.com/search?q=%22S.L.A%22+%22Ludwigshafen%22+Schrotthandel .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

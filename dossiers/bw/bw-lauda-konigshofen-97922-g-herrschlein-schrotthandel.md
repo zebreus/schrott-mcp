@@ -30,6 +30,10 @@ G. Herrschlein KG, Hauptstraße 30, 97922 Lauda-Königshofen, 09343/7683 ist ein
 
 ## Timeline
 
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Exakte Namens-/KG-Websuche liefert lokaleschrottplatz und Cybo mit Hauptstraße 30/09343 7683, aber keinen neuen qualifizierten Register-/Betreiberbeleg. Portal-Siegel Zertifiziert und generische Ankaufsliste nicht als Efb-/HRA-Nachweis übernommen; Hauptstraße 30 bleibt trotz übereinstimmender Portale kein bestätigter aktueller Annahmehof. Kein Beleg für Umfirmierung Gretel/G. oder Herrschlein/Herschlein, keine Schließung aus Nichtfund. ANKAUF/VERKAUF/GEBÜHREN ohne qualifizierte Zahlen; HRA-/Gewerbeauskunft erforderlich, GEO zurückstellen. Quellen (Suchleads): https://lokaleschrottplatz.de/g-herrschlein-kg-schrotthandel/ ; https://biashara.cybo.com/DE-simu-kiambishi/9343/viwanda?p=5 .]
+
 ### Recherche 14.10.2026 (18:00-Welle B)
 
 - [Recherche 14.10.2026: Eigene Namens-/KG-Suche ohne Webresultate; NorthData-Suggest Herrschlein zeigt lediglich ähnlich geschriebenen Personentreffer Elisabeth Olga Maria Herschlein in Königsfeld i. Schwarzwald, nicht Lauda-Königshofen. Zusätzliche Abfrage Gretel Herschlein results leer; keine vollständige Registerauskunft, keine Firmenlöschung bewiesen. KG-/Gretel-Identität und Hauptstraße 30 weiterhin ungeklärt; ursprüngliche kg-Mindestmengen nicht als neu bestätigte Annahmebedingungen oder Ankaufspreise ausgeben. ANKAUF/VERKAUF/GEBÜHREN ohne qualifizierte Zahlenpreise. Owner: HRA bzw. Gewerbeauskunft zu Herrschlein/Herschlein und Hauptstraße 30 anfordern, erst dann GEO; Quelle: https://www.northdata.de/suggest.json?query=Herrschlein&countries=DE ; https://www.northdata.de/suggest.json?query=Gretel%20Herschlein&countries=DE .]

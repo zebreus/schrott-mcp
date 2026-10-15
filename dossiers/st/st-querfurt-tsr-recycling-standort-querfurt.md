@@ -32,6 +32,10 @@ Aktuelle standortspezifische Betreiberseite bestätigt TSR Deutschland GmbH & Co
 
 ## Timeline
 
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Querfurter Betreiber-Detailseite erneut angefordert: Textabruf ohne Inhalt, anschließender HTML-Abruf liefert Challenge Validation statt Standortdaten. Keine heutige Aktualitätsbestätigung von Kontakten, Preisen oder Zertifikaten; belegte Füllungen und Betreiberkette vom 11.10. bleiben unverändert erhalten. Insbesondere abgelaufenes Efb nicht stillschweigend verlängert und A|U|F nicht als Efb behandelt. ANKAUF/VERKAUF/GEBÜHREN heute wegen Quellenausfall offen, keine neuen Zahlen. GEO weiterhin Hofzufahrt/Koordinaten ownerseitig prüfen; keine Neu-Geocodierung durchgeführt. Quelle: https://www.tsr-recycling.de/standorte/schrotthaendler-querfurt/ .]
+
 ### Recherche / Korrektur 11.10.2026 (Wave E)
 
 - [Korrektur 11.10.2026: Vorwellen-Blockade überholt: Standortseite direkt HTTP 200 gelesen. Name TSR Recycling → TSR Deutschland; Anschrift, Telefon, Zeiten und Website aus aktueller Standortseite gefüllt. E-Mail aus deren TYPO3-mailto-Token (Vektor 1) als querfurt@tsr.eu dekodiert, nicht aus zentralem Lünen-Kontakt. Impressum HRA 19743 Dortmund, Registerprofil kongruent; NorthData nennt Eintragung 19.07.2024 und Übernahme/Ausgliederung von TSR Recycling 14.10.2024. Betreiber-Ausnahme gemäß README: standortspezifische Seite + Registerabgleich + datiertes A|U|F-Zertifikat 2026. Quellen: https://www.tsr-recycling.de/standorte/schrotthaendler-querfurt/ ; https://www.tsr-recycling.de/impressum/ ; https://www.northdata.de/TSR+Deutschland+GmbH+%26+Co.+KG,+L%C3%BCnen/HRA+19743 .]

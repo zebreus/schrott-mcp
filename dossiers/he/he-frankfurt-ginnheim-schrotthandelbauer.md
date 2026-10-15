@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die vorhandene Domain war erneut nicht auswertbar (Transportfehler). Das ist keine Bestätigung der früheren konkreten Webador-404 und kein Beleg für Betriebsaufgabe. Die Telefonnummer 01772614891 bleibt Portal-Altbestand ohne heutigen unabhängigen Betreiberbeleg; „Bauer“ allein genügt nicht zur Verknüpfung anderer Händler.
+
+**Ankauf / Verkauf / Gebühren:** keine Liste verifiziert. **Offen:** Betreiber hinter Name/Nummer sowie tatsächlicher Sitz oder mobiles Einsatzgebiet; ohne Anschrift keine Geocodierung. Website-Status tot bleibt historische Einstufung, nicht neues heutiges Messergebnis.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Direkter HTTPS-Abruf schrotthandelbauer.de heute nur Transportfehler, kein lesbarer Betreiberinhalt und kein verlässlich festgestellter HTTP-404. Deshalb Altstatus tot nicht als frische technische Feststellung ausgegeben und Betriebsstatus pruefung nicht auf geschlossen gesetzt. Frontmatter-Telefon stammt weiterhin nur aus Portal-Altbestand; keine Wiederbestätigung behauptet. Keine Ankauf-/Verkaufsliste oder Gebühren, kein Sitz-/GEO-Beleg. Quelle/Abrufgrenze: https://schrotthandelbauer.de/ ; historische konkrete Webador-404 siehe Recherche 03.10.2026.]
 
 ### Recherche 04.10.2026
 

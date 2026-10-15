@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertungslead an Boßdorfer Dorfstraße 6, 06889 Lutherstadt Wittenberg-Boßdorf mit 034920 20223. Portale nennen teils Jens, teils Werner Rieger; eine dokumentierte Inhaber-/Nachfolgekette fehlt. Das Mercedes-Autohaus auto-rieger.de in Süddeutschland bleibt abgegrenzt. Adresse/PLZ nicht allein aus dem Verzeichniskonsens füllen; aktuelle Demontagezulassung und tatsächlicher Annahmehof sind amtlich zu prüfen. **Ankauf / Verkauf / Gebühren:** keine qualifizierten Zahlen, keine kostenlose Altautoannahme unterstellen. **GEO:** erst aktueller Betreiber-/GESA-Beleg, nicht bloß historische Namens-/Telefonübereinstimmung.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Neue gezielte Suche Rieger/Boßdorf/Autoverwertung zeigt Jens Rieger in Das Örtliche/Gelbe Seiten/11880, dagegen Werner Rieger bei stadtbranchenbuch und Cylex jeweils an Dorfstraße 6 und teils gleicher Telefonnummer. Das sind Suchtreffer-Leads, keine unabhängig nachgewiesene Nachfolge; bisheriges Telefon nicht neu qualifiziert. Jens-Rieger-Personentreffer an Dorfstraße 1 B mit Mobilnummer ist ebenfalls kein Nachweis einer Standortverlegung des Betriebs. Keine Adress-/Website-Fills und kein Merge mit Autohaus Rieger. Owner: GESA bzw. Gewerbeauskunft für Dorfstraße 6 mit aktuellem Inhaber und Zertifikatsgültigkeit; ANKAUF/VERKAUF/GEBÜHREN keine qualifizierten Zahlen. Quellen (Leads): https://www.gelbeseiten.de/gsbiz/8b1af5a6-43f4-4b69-98c2-569a3df07dc2 ; https://lutherstadt-wittenberg.stadtbranchenbuch.com/1621853.html ; https://www.11880.com/branchenbuch/lutherstadt-wittenberg/060440459B102439172/jens-rieger.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

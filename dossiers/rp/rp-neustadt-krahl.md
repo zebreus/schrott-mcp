@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkreter Betreiberkandidat ist Krahl Schrotthandel, Moltkestraße 18, 67433 Neustadt an der Weinstraße. Der Suchindex des Betreiber-Impressums nennt **Jessica Krahl** als Inhaberin, Kontakt 0160/95825480 und 0171/3461089. Direktabrufe bleiben jedoch HTTP 403; die Angaben sind damit Suchspuren, kein heute gelesener Primärbeleg. Der zusammengesetzte Seed-Straßenwert ist nicht als geprüfte Anschrift zu behandeln.
+
+**Ankauf:** indexierter Betreibertext beschreibt Ankauf vor Ort, mobile Waage/Wiegekarte, Barzahlung oder Überweisung; keine Zahlenkurse verifiziert. **Verkauf/Gebühren:** keine Liste belegt. Offen sind zugängliches Impressum, unabhängiger Betreiber-/Adressbeleg und Abholkonditionen; keine Annahmehof- oder GEO-Zusage.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Neue Suche erschließt Betreiber-Unterseiten Kontakt, Impressum und Über uns im Index; Impressumsnippet nennt Jessica Krahl, Moltkestraße 18, 67433 Neustadt an der Weinstraße, USt-ID DE315489290. Über-uns-Snippet beschreibt mobilen Ankauf mit Waage/Wiegekarte und Bar-/Überweisungsauszahlung. Direktabrufe /impressum/ und /ueber-uns/ heute jeweils HTTP 403; daher keine Angaben als direkt verifizierte Tatsachen hochgestuft und keine Frontmatter-Korrektur anhand von Snippets oder Cylex/11880. Insbesondere „Geschlossen“ im Portal nicht als Geschäftsaufgabe gewertet. ANKAUF: keine verifizierte numerische Liste; VERKAUF/GEBÜHREN ebenso offen. Quellen/Suchspuren: https://www.krahl-schrotthandel.de/impressum/ ; https://www.krahl-schrotthandel.de/kontakt/ ; https://www.krahl-schrotthandel.de/ueber-uns/ ; https://www.google.com/search?q=%22Krahl%22+%22Schrotthandel%22+Neustadt .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

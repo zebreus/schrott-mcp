@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wilhelm Wacker e.K., HRA 6762 Osnabrück, ist laut einzeln gelesener Registerbekanntmachung vom 08.07.2026 erloschen. Das belegt nicht die Schließung eines möglicherweise fortgeführten Standorts oder eine Nachfolge. Artlandstr. 84 bleibt unbestätigter Seed-/Verzeichniswert; auch die Registerbekanntmachung zur Anschrift von 2010 zeigt die Straße nicht öffentlich auswertbar. Die dort genannte historische Orts-PLZ 49610 ist kein unabhängiger aktueller Annahmestellenbeleg und wird nicht ins Frontmatter übernommen.
+
+**Ankauf / Verkauf / Gebühren:** keine aktuelle dem Zielbetrieb zugeordnete Liste verifiziert. Betreiber-/Nachfolgeridentität und heutige Annahme zuerst klären; status pruefung, keine pauschale Geschäftsschließung und keine Geocodierung der ungesicherten Straße.
 
 ## Timeline
+
+### Recherche 15.10.2026 (Owner-Fallback, Welle C)
+
+- [Recherche 15.10.2026: NorthData-Firmenprofil sowie zwei tatsächlich verlinkte Registerbekanntmachungen einzeln gelesen: HRA 6762 Osnabrück, Löschung 08.07.2026 mit ausdrücklichem Wortlaut Die Firma ist erloschen; Anschriftseintragung 28.04.2010 zeigt öffentlich nur ungenannte Straße und D-49610 Quakenbrück. Damit erstmals konkreter Bekanntmachungstext statt bloßer Chronikzeile geprüft; weiterhin kein Nachweis Artlandstr. 84, kein aktueller Nachfolger und keine heutige Kundenannahme. Beide Veröffentlichungen sind derselbe Registerquellenkomplex, keine zwei unabhängigen Belege. Frontmatter unverändert, keine PLZ aus historischem Ortsbezug übernommen. ANKAUF/VERKAUF/GEBÜHREN aktuell ohne zuordenbare Liste; kein GEO oder Schließungsurteil über mögliche Nachfolgebetriebe. Quellen: https://www.northdata.de/Wilhelm+Wacker+e.K.,+Quakenbr%C3%BCck/Amtsgericht+Osnabr%C3%BCck+HRA+6762 ; https://www.northdata.de/?id=5122667340496896 ; https://www.northdata.de/?id=6484655692316672 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

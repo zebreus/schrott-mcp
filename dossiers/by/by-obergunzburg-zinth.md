@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Markus Zinth Schrott- und Metallabholung bleibt ein Verzeichnislead an Oberer Markt 44, 87634 Obergünzburg. Bestehende Adresse/Festnetz sind nicht durch Betreiber-/Registerquelle bestätigt. Suchtreffer nennen zudem unterschiedliche Mobilnummern; keine als aktuellen Betreiberkontakt übernehmen. **Ankauf:** Abholung in der Rubrik belegt keine Vergütung, Mindestmenge oder kostenlose Leistung. **Verkauf / Gebühren:** keine qualifizierten Zahlen. **GEO:** frühere Formulierung einer automatisch laufenden Geocodierung ist kein Ausführungsnachweis; tatsächlichen Annahmehof zuerst bestätigen, dann gezielt geocodieren.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Eigene Zinth/Schrott/Obergünzburg-Suche erneut nur Portale: 11880, Schrottplatz-Info, Branchenbuch Deutschland nennen Markus Zinth/Oberer Markt 44. branchen-info-Suchtreffer führt Schrott und Metalle Zinth mit 0175 4684345, abweichend vom historischen Mobil-Lead 01511 2307192; keine davon ohne Betreiberbeleg bevorzugt. Kein qualifizierter Identitäts-/Aktivitätsbeleg und keine neuen Zahlen für ANKAUF/VERKAUF/GEBÜHREN. Frontmatter erhalten, pruefung bleibt. Historischer Hinweis Geocodierung läuft automatisch nicht heute bestätigt: kein Lauf/keine DB-Schreiboperation, Kundenstandort und GEO weiter offen. Quellen (Suchleads): https://www.11880.com/branchenbuch/oberguenzburg/120674719B53505844/markus-zinth-schrott-und-metallabhohlung.html ; https://oberguenzburg.branchen-info.net/branche/schrott/1852/ ; https://www.schrottplatz-info.de/schrottplatz/Oberguenzburg/Zinth-Markus-Schrott-und-Metallabhohlung .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

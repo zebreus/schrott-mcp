@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Branchenportale führen Thomas Sönksen als Altmetall-/Schrotthändler am Moorredder 20 in Selk, einschließlich Telefonnummer 04621 934172; das ist weiterhin keine Betreiberbestätigung und keine Bestätigung, dass die Anschrift eine Geschäftsannahme ist. Seedstatus `aktiv` bleibt nicht durch eine neue Primärquelle abgesichert. **Ankauf:** keine Zahlenpreise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
+Mehrere Branchenportale führen Thomas Sönksen als Altmetall-/Schrotthändler am Moorredder 20 in Selk, einschließlich Telefonnummer 04621 934172; das ist weiterhin keine Betreiberbestätigung und keine Bestätigung, dass die Anschrift eine Geschäftsannahme ist. Der bisherige Seedstatus `aktiv` wird deshalb auf `pruefung` korrigiert, nicht auf geschlossen. Die bei 11880 angezeigten täglichen 0–24-Uhr-Zeiten sind kein verifizierter Annahmebetrieb. **Ankauf:** keine bestätigten Zahlenpreise; **Verkauf/Gebühren:** keine zugeordneten Tarife.
 
 ## Timeline
+
+### Recherche 15.10.2026
+
+- [Korrektur 15.10.2026: status aktiv → pruefung. Erneut abrufbare 11880-Seite nennt Moorredder 20/24884 Selk, 04621 934172 und jetzt tabellarisch täglich 0–24 Uhr; Eintragsdaten vom 30.06.2021, Portalaktualisierung 03.10.2026. Das Branchenlabel ist ein Lead, keine aktuelle Betreiberbestätigung. Weder die Zeiten als echte Kundenannahme noch die Adresse als Schrotthof übernommen. Gegenbeleg zur pauschalen Annahme einer Geschäftsstätte bleibt der frühere private Telefonbuchbezug; dieser wurde heute nicht neu abgerufen. Quelle: https://www.11880.com/branchenbuch/selk/060440092B107437404/thomas-soenksen.html .]
+- Detailseite Schrottplatz-Info direkt gelesen: gleicher Adress-/Telefonlead, aber ausdrücklich kein erfasstes Leistungsangebot und keine vollständig erfassten Öffnungszeiten. Der als „zur Homepage“ bezeichnete Link enthält lediglich einen PHP-Deprecated-Fehler wegen leerer URL; er führt zu keiner verifizierten Betreiberwebsite. Schrottplatz.org ist ein weiterer Aggregator, nicht ein unabhängiger Primärbeleg. Quellen: https://www.schrottplatz-info.de/schrottplatz/Selk/-Soenksen-Thomas-Schrotthandel ; https://www.schrottplatz.org/geltorf/schrott-soenksen-thomas-schrotthandel-aYEPI7.html .
+- NorthData-Namens-/Ortssuche liefert hier stattdessen „Thomas Seegelken, Selke“ mit sachfremden Firmenverbindungen. Diesen falschen Treffer ausdrücklich verworfen; keine Firmenregisteridentität für Sönksen daraus abgeleitet und keine allgemeine Register-Nichtexistenz behauptet. Cylex-Direktabruf HTTP 403. Suche „Thomas Sönksen Selk Schrott“ ergibt weiterhin hauptsächlich Portal-Leads. Keine verifizierte numerische Ankauf-/Verkaufspreisliste oder Gebührenordnung gewonnen. Keine Adress-/Kontaktfüllung und kein Geocoding vor Betreiber-/Gewerbenachweis. Quellen: https://www.northdata.de/Thomas+S%C3%B6nksen,+Selk ; https://web2.cylex.de/firma-home/thomas-soenksen-7084231.html .
 
 ### Recherche 08.10.2026
 

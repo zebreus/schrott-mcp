@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Britzer Damm 54 und Mobilnummer 0176 63060323 bleiben Verzeichnis-Leads, keine bestätigte Betreiberanschrift oder aktuelle Annahmestelle. Der historische Rechtsträger „Hasimovic“, HRB 126794 B, ist laut der bereits dokumentierten Registerrecherche gelöscht; eine Verbindung zu einem heutigen Betrieb am Britzer Damm ist nicht belegt. Keine zuordenbaren ANKAUF-Preise, VERKAUF-Preise oder Gebühren.
+Britzer Damm 54 und Mobilnummer 0176 63060323 bleiben Verzeichnis-Leads, keine bestätigte Betreiberanschrift oder aktuelle Annahmestelle. Der historische Rechtsträger EE Hasimovic Schrotthandel UG, HRB 126794 B, ist laut NorthData gelöscht; am 15.10. gelesene Einzelpublikationen präzisieren Registerereignis und Veröffentlichung, liefern aber keine Verbindung zum Britzer Damm. Keine Übertragung gleichnamiger Betriebe anderer Orte. Keine zuordenbaren ANKAUF-Preise, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
+
+### Recherche 15.10.2026
+
+- [Recherche 15.10.2026: NorthData-Unternehmensseite und BEIDE Einzelpublikationen live gelesen. Neueintragung trägt Publikationsdatum 26.05.2010 mit Klammer „Neueintragungen, 19.05.2010“, Gesellschaftsvertrag 29.04.2010; Löschung trägt 03.11.2011 mit Klammer „Löschungen von Amts wegen, 02.11.2011“. Diese Datumsrollen nicht als widersprüchliche oder neue Registerereignisse behandeln. Beide Texte zeigen D-10555 Berlin, die genaue Straße ist als „Ungenannte Str. ??“ maskiert. Die am 02.10. notierte Zwinglistraße 9 ist somit heute nicht erneut direkt verifiziert. HRB 126794 B/EUID DEF1103R.HRB126794B und Zweck Schrott-/Altmetallhandel lesbar; alles derselbe Registerdatenanbieter, keine zwei unabhängigen Quellen. Suche nach Name + Britzer Damm sowie Name + Mobilnummer liefert weiterhin nur Verzeichnis-Leads, kein verifiziertes Betreiberprofil. Der ähnlich benannte Hasis Schrotthandel im Raum Rosenheim ist kein Beleg für Berlin; keine Datenübernahme. Status unbekannt, keine Schließung des Seed-Eintrags aus UG-Löschung ableiten. Offen für Owner: Gewerbeinhaber und Nachweis einer etwaigen Verbindung von Britzer Damm 54/017663060323 zur UG oder einem Einzelgewerbe. ANKAUF: kein Betreiberkurs. VERKAUF: keine zuordenbare Liste. GEBÜHREN: kein Tarif; 1 EUR Stammkapital ist kein Preis. Quellen (Abruf 15.10.2026): https://www.northdata.de/EE%20Hasimovic%20Schrotthandel%20UG,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20126794%20B ; https://www.northdata.de/?id=9939110 ; https://www.northdata.de/?id=10050021 ; https://www.schrottplatz-info.de/schrottplatz/Berlin/Hasimovic-Schrotthandel (Suchlead).]
 
 ### Recherche 14.10.2026
 

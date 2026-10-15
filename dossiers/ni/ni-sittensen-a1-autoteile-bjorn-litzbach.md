@@ -25,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiber-Domain nennt Björn Litzbach und eine Anschrift in Sittensen, doch Abrufe der aktuellen HTTPS-Seiten scheitern weiterhin; Suchindexangaben ersetzen keine aktuelle Prüfung des Impressums. Verzeichnisse widersprechen sich zudem bei der Anschrift (Nütteler Weg 12 vs. Lindenstraße 8). Deshalb bleiben Kontakt, Betrieb und die Zuordnung der Seed-Leistungsangaben offen. Keine belastbare Ankauf-, Verkauf- oder Gebührenpreisliste gefunden.
+Impressum, Kontakt und Über-uns sind am 15.10.2026 über HTTP mit abschließendem Schrägstrich wieder direkt lesbar: Björn Litzbach, Nütteler Weg 12 (Kontaktseite „Nüttelerweg“), 27419 Sittensen, +49 172 950 72 97, a1-autoteile@ewetel.net. HTTPS-Seiten scheitern im selben Prüflauf weiterhin. Die pauschale Aussage „nur Suchindex, kein aktuelles Impressum lesbar“ ist damit überholt; eine unabhängige Betreiber-/Geschäftsstellenbestätigung fehlt dennoch. Autoplenum führt abweichend Lindenstr. 8/04282 590962 und nur Autozubehör. Weder gesicherte Umzugskette noch heutige Schrottannahme aus diesem Portal ableiten; Frontmatter-Kontakte und Adresse bleiben leer. Keine verifizierte Ankauf-, Verkauf- oder Gebührenpreisliste.
 
 ## Timeline
+
+### Recherche 15.10.2026
+
+- Technischer Befund differenziert: http://ankauf-verkauf-litzbach.de/impressum/ , http://ankauf-verkauf-litzbach.de/kontakt/ und http://ankauf-verkauf-litzbach.de/ueber-uns/ tatsächlich direkt mit Inhalt gelesen. Impressum nennt Inhaber Björn Litzbach, Nütteler Weg 12/27419 Sittensen, +49 172 950 72 97, a1-autoteile@ewetel.net; Kontaktseite bestätigt dieselben Eigenangaben und Über-uns den Namen/Ort. Das sind drei Seiten desselben Betreibers, keine drei unabhängigen Quellen. Kein HRB/HRA angegeben; bloß „Amtsgericht Zeven“ ohne Registernummer erfüllt die autoritative Betreiber-Ausnahme nicht. Die auffällige als USt-ID bezeichnete Zeichenfolge nicht als verifizierte Registernummer interpretiert.
+- Gegenprüfung: https://www.ankauf-verkauf-litzbach.de/ , https://www.ankauf-verkauf-litzbach.de/impressum/ und https://www.ankauf-verkauf-litzbach.de/kontakt/ scheitern mit Transportfehler; alter HTTP-Pfad /impressum.php antwortet 404. Kein Abschalten von TLS-Prüfungen. Vorhandene HTTPS-Website und website_status blockiert unverändert; HTTP-Teilabrufbarkeit nicht als vollständige HTTPS-Reparatur ausgegeben.
+- Autoplenum tatsächlich gelesen: A1 Autoteile Björn Litzbach, Lindenstr. 8/27419, 04282 590962, Dienstleistung Autozubehör, keine Website. Das steht neben den anderslautenden aktuellen Eigenangaben; Portal ist nur Lead, kein Nachweis einer Verlegung oder Schrottannahme an einer der beiden Adressen. NorthData-Suche Björn Litzbach/Sittensen ohne Resultat ist kein Beweis der Nichtexistenz eines Einzelunternehmens. Quellen: https://www.autoplenum.de/autoteile/sittensen/a1-autoteile-bjoern-litzbach-115795 ; https://www.northdata.de/Bj%C3%B6rn+Litzbach,+Sittensen .
+- Domainbezogene Websuche liefert weiter Startseiten-Snippets mit Haushaltsauflösung/Entrümpelung, Schrott, Fahrzeug- und Baumaschinenhandel. Die Startseite war direkt nicht lesbar: diese Angebote daher heute nicht als vollständig primär verifizierte Leistung übernommen. Auf den drei tatsächlich gelesenen Unterseiten keine numerischen Ankauf-/Verkaufspreise oder Gebühren. Kontakte/Adresse nicht aus Einzelbeleg aufgefüllt, Status Prüfung, keine Koordinaten. Offener nächster Beleg: unabhängige Gewerbe-/Betreiberbestätigung mit konkreter Annahme-/Abholleistung.
 
 ### Importiert (Seed-Stand 2026-09-30)
 

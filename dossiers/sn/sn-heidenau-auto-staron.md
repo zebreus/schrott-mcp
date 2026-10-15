@@ -30,6 +30,10 @@ Zwei nicht deckungsgleiche Standortspuren sind zu trennen: eine Drittanbieter-Sp
 
 ## Timeline
 
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: Betreiber-index erneut direkt gelesen: Karl Staron/Autoverwertung Staron, Talstr. 68 Dresden ausdrücklich Büro ohne Kundenverkehr; kostenlose Abholung in Dresden/Heidenau/Pirna, Restwertzahlung je Zustand/Alter/Modell weiterhin ohne Beträge. Keine Nennung Hauptstr. 96 im gelesenen Text, damit weder Heidenauer Standort noch Umzugskette bestätigt. GESA heute nicht erneut individuell ausgelesen; historische Spiegelquelle bleibt unzureichend für Betriebsstättenidentität und Zulassungsgültigkeit. Keine Kontakt-/Adress-/Websiteübertragung. ANKAUF individueller unbezifferter Restwert, VERKAUF keine Liste, GEBÜHREN nur Abholung als kostenlos beworben, keine umfassende Entsorgungsgebührentafel. Beide Standorte nicht als bestätigten Kundenhof geocodieren. Quelle: https://autoverwertung-staron.de/index.html .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Betreiber-index direkt erneut gelesen: Impressum/Datenschutz benennt Karl Staron und Talstr. 68, 01156 Dresden ausdrücklich Büro ohne Kundenverkehr, 0171 6547877 und Info@Autoverwertung-Staron.de. Fahrzeugangebot PKW/Transporter/LKW/Motorrad, kostenlose Abholung Dresden/Heidenau/Pirna/Umgebung, Restwert nur je Zustand/Alter/Modell, Verwertungsnachweis. Dies ist weiterhin dieselbe Betreiber-Quellfamilie, kein zweiter Beleg für Hauptstr. 96 oder deren aktuelle Betriebsstättenidentität. Keine Kontakt-/Website-/Adress-Fills für das Heidenauer Dossier, kein Büro-GEO als Annahmepunkt. Ankauf unbezifferter Restwert; Verkauf keine Liste; Gebühren kostenlose Abholung laut Betreiber, Annahme-/Verwertungskosten nicht pauschal als kostenlos bestätigt. Quelle: https://autoverwertung-staron.de/index.html ; amtlicher GESA-Prüfweg siehe 08.10.2026.]

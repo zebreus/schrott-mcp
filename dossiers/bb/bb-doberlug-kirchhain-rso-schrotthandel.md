@@ -24,9 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-RSO Schrotthandel wird von 11880 und Infobel mit Finsterwalder Str. 17B, 03253 Doberlug-Kirchhain geführt; Infobel nennt zusätzlich die Telefonnummer 035322 510774. Beides bleibt eine nicht unabhängig bestätigte Verzeichnis-Spur. Die benachbarte Autoverwertung Schulze an Nr. 17 ist ein separater Eintrag; keine Zusammenführung. Keine bestätigten Preise oder Gebühren; status pruefung.
+RSO Schrotthandel bleibt ein Verzeichnis-Lead für Finsterwalder Str. 17B, 03253 Doberlug-Kirchhain, Telefonlead 035322 510774. Kein verifizierter Betreiber oder Rechtsträger. Wichtiges neues Gegenstück: Der amtliche Abfallwirtschaftsplan nennt Autoverwertung Torsten Schulze an Nr. 17d; yellow-tec Motorsport/Torsten Schulze bestätigt 17d selbst. Keine belegte Verbindung zu RSO/17B, daher keine Zusammenführung oder Kontaktübernahme. ANKAUF, VERKAUF und GEBÜHREN jeweils ohne verifizierte Zielpreise; status pruefung.
 
 ## Timeline
+
+### Recherche 15.10.2026
+
+- [Recherche 15.10.2026: Amtliche Gegenprüfung statt Übernahme weiterer Verzeichnisse: Abfallwirtschaftsplan Brandenburg, Fortschreibung 2023, Teilplan Gefährliche Abfälle vom 08.07.2024, Anhang 9.2, führt Autoverwertungsanlage Autoverwertung Torsten Schulze an Finsterwalder Straße 17 d, 03253 Doberlug-Kirchhain (lfd. Nr. 75 bzw. 66 in den zwei Anlagentabellen). Betreiber-Kontaktseite yellow-tec Motorsport nennt Torsten Schulze, dieselbe Nr. 17 d, Telefon 035322 34424. Damit ist der Nachbar separat amtlich und durch Selbstauskunft greifbar, aber keine RSO-Identität oder Betreiberkette belegt. Die bisherige Kurzform „Schulze Nr.17“ wird hier auf 17d präzisiert, RSO-Frontmatter 17B nicht umgeschrieben. Im gelesenen Plan kein RSO-Namensfund; wegen begrenzten sachlichen Geltungsbereichs gefährliche Abfälle und Datenalter weder Negativnachweis für Schrotthandel noch Schließungsbeweis. Quellen (Abruf 15.10.2026): https://bravors.brandenburg.de/verwaltungsvorschriften/awp_gefaehrliche_abfaelle_2024 (Anhang 9.2); https://yellow-tec.de/ (Betreiber-Kontakt).]
+- [Recherche 15.10.2026: Neue Portalspur lokaleschrottplatz.de direkt gelesen: RSO/17B, 035322510774, Mo–Fr 07–18 Uhr/Sa 09–15 Uhr, breites Materialangebot und Mindestgewicht Eisen 100 kg/NE 1 kg. Die Seite bezeichnet sich ausdrücklich als Verzeichnis; keine nachgewiesene Betreiberautorschaft, kein Impressum des RSO-Betriebs, kein Zertifikatsnachweis. Daher weder Öffnungszeiten, Mindestmengen, Materialien noch Telefon als bestätigte Stammdaten übernommen. „Geschlossen, öffnet morgen“ bezeichnet dort einen Öffnungszustand, keine Betriebsschließung. ANKAUF: keine bezifferten Betreiberkurse. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Offen für Owner: ausgeschriebener RSO-Rechtsträger/Inhaber, Gewerbeexistenz an 17B, etwaige Beziehung zu Schulze/17d und aktueller Kontakt anhand Betreiber- oder Gewerberegisterbeleg; keine Anfrage oder telefonische Bestätigung erfolgt. Quelle (Abruf 15.10.2026): https://lokaleschrottplatz.de/rso-schrotthandel/ (nur Lead).]
 
 ### Recherche 04.10.2026
 

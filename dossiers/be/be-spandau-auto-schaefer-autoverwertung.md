@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Am Juliusturm 33 und 030 35402660 sind bislang durch Verzeichnisse gestützte Kontakt-Leads; die genannte Domain auto-schaefer.de lieferte beim dokumentierten Abruf keinen nutzbaren Betreiberauftritt. Ohne aktuelle Betreiber- oder Behördenquelle ist `pruefung` angemessener als bestätigter Aktivbetrieb. Keine verifizierten ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
+Am Juliusturm 33 und 030 35402660 bleiben unbestätigte aktuelle Kontakte. Eine nun gelesene Anzeige in Firmenstimme nennt diese Daten und Dieter Schaefer, ihre Betreiberautorschaft und Aktualität sind aber nicht unabhängig gesichert. Die genannte Domain auto-schaefer.de lieferte weiterhin keinen nutzbaren Betreiberauftritt. Gegenüber 030 3343005 und Hausnummer 33–35 besteht Klärbedarf; `pruefung` bleibt. Keine verifizierten ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
+
+### Recherche 15.10.2026
+
+- [Recherche 15.10.2026: Neue Spur vollständig gelesen: minianzeigen-Anzeige „Autoverwertung Schaefer“, ID ATSPT835278, zeigt 19.10.2025, Anbieterprofil „Privater Anbieter“, aktiv seit 19.10.2010. Text in Firmenstimme nennt Auto-Schaefer, Am Juliusturm 33 (Auffahrt Shell-Tankstelle), 030/35402660 und /35402661, autoverwertungschaefer (at) googlemail.com, auto-schaefer.de und „Geschäftsführer: Dieter Schaefer“; Angebot gebrauchte/neue Ersatzteile, Schwerpunkt Japaner/Franzosen. Das ist eine mögliche historische Selbstauskunft, keine verifizierte Betreiber-Website oder gesichert aktuelle Betreiberanzeige: Multiposting-Portal und privates Profil lassen Autorschaft/Datierung offen. Creditreform-Direktabruf 403, Suchindex nennt weiterhin Dieter Schaefer und Gebrauchtwagen-/Ersatzteilhandel/Autoverwertung; kein zweiter aktuell lesbarer Identitätsbeleg. HTTPS www.auto-schaefer.de Transportfehler, HTTP auto-schaefer.de 403: keine Aussage „Betrieb geschlossen“ oder „Domain tot“ ableiten. Bestandsfelder bleiben, neue Mail/zweite Nummer/Leistungen nicht importiert; Owner muss Dieter Schaefer, aktuelle Hausnummer 33 versus 33–35 und Telefonkonflikt 35402660 versus 3343005 mit Betreiber-/Gewerbenachweis klären. ANKAUF: keine bezifferten Fahrzeug-/Schrottkurse. VERKAUF: Teileangebot ohne Preise („Keine Angabe“ ist kein Nullpreis). GEBÜHREN: keine Abhol-/Verwertungstarife. Quellen (Abruf 15.10.2026): https://www.minianzeigen.de/kleinanzeige/Autoverwertung-Schaefer/131230 ; https://firmeneintrag.creditreform.de/13599/2010109630/DIETER_SCHAEFER_AUTO_SCHAEFER (Index, direkt 403); https://www.auto-schaefer.de ; http://auto-schaefer.de .]
 
 ### Recherche 12.10.2026
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die direkt gelesene Seite kuester-rs.de gehört weiterhin **RC Küster GmbH, Bauunternehmen**, Betriebshof Auf dem Knapp 3, Geschäftsführer Rosario Cutruneo. Weder angebotene Entrümpelung noch gleicher Nachname belegen Identität oder Rechtsnachfolge zur Küster-Schrottgroßhandlung/Lenneper Str. 57.
+
+Lenneper-Str.-Adresse und 02191 31089 bleiben Verzeichnis-Leads; kein aktueller Betreiber-/Registerbeleg gewonnen. **Ankauf / Verkauf / Gebühren:** keine der Schrottfirma zurechenbare Liste. Kein Bauunternehmen als Ersatzhändler verknüpft, keine Geocodierung einer ungesicherten Altadresse; status pruefung bleibt.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: kuester-rs.de direkt gelesen: RC Küster GmbH, inhabergeführtes Bauunternehmen, Betriebshof Auf dem Knapp 3, 42855 Remscheid, Geschäftsführer Rosario Cutruneo, 02191 927100. Das angebotene Entrümpelungsgewerk liefert keine Identitäts-/Übernahmekette zur Dossier-Schrottgroßhandlung an Lenneper Str. 57; keine Website-/Kontakt-/Adressübernahme und keine falsche Schließung der alten Firma abgeleitet. Betreiberbeleg für die Schrottfirma weiterhin offen; Altstatus website_status tot nicht heute neu gemessen. ANKAUF/VERKAUF/GEBÜHREN: keine attribuierbare Schrott-Preisliste; GEO weiter gesperrt. Gegenquelle: https://www.kuester-rs.de/ .]
 
 ### Recherche 01.10.2026
 

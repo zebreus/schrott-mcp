@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die vorhandene Anschrift/Rufnummer beruhen auf der dokumentierten früheren Verzeichnisausnahme, nicht auf heute erreichter Zwei-Quellen-Verifikation. Neu gefundene Werbeseite schrotthaendler-in-der-naehe.de/worms nennt Schrotthandel Grünewald, 67549 Worms und dieselbe Nummer, kostenlose Abholung privat/gewerblich sowie Mo–Sa 08–18 Uhr. **Das Portal-Impressum gehört aber Reinhold Paisler, Schwalbach/Dillingen – nicht Grünewald.** Daher keine Betreiberwebsite oder unabhängig geprüften Öffnungszeiten daraus machen.
+
+**Ankauf:** keine Vergütung/Kurse belegt. **Verkauf:** keine Liste. **Gebühren:** kostenlose Abholung als Fremdportalwerbung, nicht mit Ankaufzahlung gleichsetzen. Speerstr. 5 weiterhin vor GEO als realen Betriebssitz/ggf. bloße Kontaktadresse verifizieren; kein Annahmehof bewiesen.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Neue Wormser Werbeseite und deren Impressum einzeln direkt gelesen. Landingpage nennt Schrotthandel Grünewald, 67549 Worms, 0176 21165384, kostenlose Abholung für privat/gewerblich, Mo–Sa 08–18 Uhr, aber keine Straße. Impressum nennt Reinhold Paisler, Bergstraße 40, 66773 Schwalbach, Büro Röntgenstraße 9, 66763 Dillingen/Saar. Damit ist dies kein belegter Grünewald-eigener Betreiberauftritt, trotz übereinstimmender Rufnummer; keine website-/hours-Fills und keine Scheinsicherheit für die alte Verzeichnisausnahme. Die neue Shpock-Suchspur nennt Oglou, nicht Grünewald, und wird nicht zugerechnet. Ankauf-/Verkaufsliste nicht gefunden; Gratis-Abholung getrennte Gebührenwerbung. Frontmatter bleibt mit explizitem Altbeleg-Vorbehalt unverändert, keine GEO-Freigabe. Quellen: https://schrotthaendler-in-der-naehe.de/worms ; https://schrotthaendler-in-der-naehe.de/impressum ; https://www.shpock.com/de-de/i/WxQvrlbY01aqNSca/schrott-kostenlos (nur Suchindex, Gegenabgrenzung).]
 
 ### Recherche 01.10.2026
 

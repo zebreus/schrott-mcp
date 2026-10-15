@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Euro-Metall Körner, Sorge 48, 08412 Werdau, 0163 8771513 ist weiterhin nur portalgestützt; aktueller Betreiber und aktive Annahme sind nicht qualifiziert bestätigt. Auch 11880 übernimmt dieselbe GoLocal-Bewertung vom 20.05.2017 und liefert keinen unabhängigen Betreiberbeleg. Zeiten widersprechen sich zwischen Portalen; keine davon in Stammdaten übertragen. Owner-Gegenprüfung hat den bisherigen Aktivstatus auf `pruefung` korrigiert, nicht auf geschlossen. Nicht mit Körner in Klingenthal gleichsetzen. **Ankauf / Verkauf / Gebühren:** keine qualifizierte Zahlenliste; **GEO:** erst nach aktueller Betreiber-/Annahmestellenbestätigung, keine automatische Freigabe der alten Portaladresse.
 
 ## Timeline
+
+### Owner-Gegenprüfung 15.10.2026
+
+- [Korrektur 15.10.2026: status aktiv → pruefung. 11880 durch den Owner direkt gegengeprüft: Sorge 48/08412, 0163 8771513, kein Website-/Mailbeleg; Bewertung ausdrücklich von GoLocal vom 20.05.2017. Eintragsdaten 26.09.2023, heute angezeigte Portalaktualisierung 15.10.2026, nicht mehr das im früheren Abruf beobachtete Datum 04.10.2026. Frischer Seitentimestamp ist kein aktueller Betreiber-/Aktivitätsbeleg. Bisheriger Aktivstatus nur portalgestützt, daher Prüfung statt bestätigter Annahme oder unbelegter Schließung. Altadresse/Telefon nicht als frisch bestätigt ausgegeben, keine GEO-Freigabe. Quelle: https://www.11880.com/branchenbuch/werdau-sachsen/060441364B112830064/euro-metall-koerner.html .]
+
+### Recherche 15.10.2026 (00:00-Welle B)
+
+- [Recherche 15.10.2026: 11880-Detail erstmals in dieser Gegenprüfung direkt gelesen: Sorge 48/08412, 0163 8771513, keine Website/E-Mail, Mo–Do 08–14:30 und Fr 08–13:30; erneut abweichend von den historischen GS-/Öffnungszeitenbuch-Zeiten. Die 5-Sterne-Bewertung ist ausdrücklich derselbe GoLocal-Text vom 20.05.2017; keine unabhängige Aktivitätsbestätigung 2026. Eintragsdaten 26.09.2023 trotz Seitenaktualisierung 04.10.2026. Keine qualifizierte Betreiberquelle aus eigener Websuche, keine Zeitfüllung/kein Merge, vorhandenes aktiv und Adresse weiter Owner-Klärfall. ANKAUF/VERKAUF/GEBÜHREN ohne qualifizierte Zahlen, GEO erst nach Betriebsstättenbestätigung. Quelle (Lead): https://www.11880.com/branchenbuch/werdau-sachsen/060441364B112830064/euro-metall-koerner.html .]
 
 ### Recherche 02.10.2026
 

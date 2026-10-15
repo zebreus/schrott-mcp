@@ -24,13 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-**Identitäts- und Ortskonflikt:** Das Dossier meint „Oetjen Rohstoffhandel“ in Rotenburg (Wümme), aber der bisherige Registerbeleg zu Oetjen Rohstoffhandel GmbH weist nach Zeven. `oetjen.de` gehört zur Oetjen Logistik GmbH in Rotenburg und belegt keinen Rohstoffhandel. Zudem liegt Rotenburg (27356) in Niedersachsen, während das Frontmatter `state: HB` trägt; ungeklärt, ob der Seed falsch gruppiert ist oder einen anderen Betrieb meint. Daten daher nicht umbenannt oder neu befüllt.
+**Zwei getrennte Registerketten:** Die konkrete Bekanntmachung von 2012 verbindet die frühere Oetjen Rohstoffhandel GmbH, Rotenburg (Wümme), HRB 70444 Walsrode ausdrücklich mit der umbenannten Oetjen GmbH, Zeven, HRB 203379 Tostedt. Die andere Oetjen Rohstoffhandel GmbH, HRB 13052 KI Kiel, wurde dagegen 2011 mit Sitz Melsdorf gegründet und erlosch 2022 durch Verschmelzung. Diese Gesellschaften nicht allein wegen des gleichen Namens zusammenführen. Die konkrete Seed-Annahmestelle Otto-von-Guericke-Str. 4 und deren heutige Fortführung sind damit weiterhin nicht bewiesen. `oetjen.de` gehört nach der Vorrecherche zur getrennten Oetjen Logistik GmbH. Rotenburg (27356) liegt in Niedersachsen, nicht im bisherigen Seed-Bundesland HB; ohne geklärte Standortidentität kein automatischer Umzug, Namenswechsel oder Bundesland-Fill.
 
 **Preise:** für den mutmaßlichen Rotenburger Betrieb keine verifizierte Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung. **Geocoding:** Otto-von-Guericke-Str. 4, 27356 ist nur Verzeichnis-/Seed-Kandidat; vor Geocoding zuerst Firmenidentität und Bundesland korrigieren/verifizieren.
 
 Ein zusätzliches Drittverzeichnis nennt für exakt diese Adresse und Telefonnummer `info@oetjen-rohstoffhandel.de` sowie die gleichnamige Domain. Das ist kein aktueller Betreiberbeleg; die Domain war in der Vorrecherche nicht erreichbar. Diese Angaben bleiben ungeprüfte Kontakt-Leads und sind nicht in Frontmatter übernommen.
 
 ## Timeline
+
+### Recherche 15.10.2026
+
+- Die bei NorthData wiedergegebene Registerbekanntmachung (Neueintragung 19.04.2012, Seitenüberschrift 24.04.2012) nennt ausdrücklich Gesellschaftsvertrag vom 22.12.1982, bisherigen Sitz Rotenburg (Wümme), bisherige Firma Oetjen Rohstoffhandel GmbH/HRB 70444 Walsrode und nun Oetjen GmbH/HRB 203379 Tostedt, Herrenbrümmer 18, 27404 Zeven. Damit ist eine historische Rotenburg–Zeven-Rechtsträgerkette belegt, nicht aber die konkrete Seed-Straße oder ein heute öffentlich zugänglicher Schrottankauf dort. Quelle: https://www.northdata.de/?id=10936116 .
+- Abgrenzung des Namensvetters: Die Neueintragung 06.07.2011 (Seitenüberschrift 08.07.2011) zu HRB 13052 KI nennt Gesellschaftsvertrag 01.06.2011, Sitz Melsdorf und Geschäftsanschrift Zeven, Kapital 25.000 EUR. Die Veränderung 13.07.2022 (Seitenüberschrift 26.07.2022) dokumentiert dessen Erlöschen durch wirksame Verschmelzung am 08.07.2022 auf den Rechtsträger HRB 120486 Osnabrück; die Seitenüberschrift nennt REMONDIS Niedersachsen GmbH. Keine daraus abgeleitete Übernahme der Rotenburger Seed-Annahmestelle oder unbelegte Betriebsübertragung zwischen den beiden Oetjen-Gesellschaften. Beide Bekanntmachungstexte einzeln gelesen, nicht bloß Suchüberschriften. Quellen: https://www.northdata.de/?id=16936767 ; https://www.northdata.de/?id=6697757222371328 .
+- Registerwiedergaben desselben Anbieters sind keine zwei unabhängigen Standortbelege. Keine aktuelle numerische Ankauf-/Verkaufspreisliste oder Gebührenordnung dem Rotenburger Standort zugeordnet. Frontmatter und Slug unverändert, Status Prüfung; kein Geocoding vor Klärung der konkreten Annahmestelle und des Bundeslandes. Die frühere Recherchehistorie bleibt erhalten, ihre pauschale Zeven-Diskrepanz wird durch die ausdrücklich belegte historische Kette präzisiert.
 
 ### Recherche 06.10.2026
 

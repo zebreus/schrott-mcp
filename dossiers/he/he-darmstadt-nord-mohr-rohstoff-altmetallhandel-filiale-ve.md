@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Darmstädter Kontaktseite verlinkt unmittelbar auf das Impressum der **Mohr Rohstoff GmbH**, René Fousseret, Saarbrücker Allee 5, Wiesbaden. Damit ist die Selbstdarstellung als zusammengehöriger Webauftritt konkret nachvollziehbar; eine unabhängige juristische Filial-/Nachfolgekette ersetzt dieser Link nicht. Darmstadt nennt weiterhin Pfnorstraße 3, 64293, 06151 8053964 und darmstadt@schrott-mohr.de; abweichende Seed-Nummer nicht bestätigt.
+
+Nur Betreiber-Einzelquelle, Impressum weiter ohne HRB: keine stillschweigende Telefonnummernkorrektur oder Gleichsetzung mit anderen MOHR-/Mainzer Einträgen. **Ankauf:** beworben, ohne gelesene Kurse. **Verkauf/Gebühren:** keine Liste auf den geprüften Seiten. Vor GEO und Kontakt-Fill Filialzuordnung unabhängig absichern.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Darmstädter Standort-Kontakt und das dort direkt verlinkte Wiesbadener Impressum einzeln gelesen. Erstere nennt Pfnorstraße 3/64293/06151 8053964/darmstadt@schrott-mohr.de; letzteres Mohr Rohstoff GmbH, René Fousseret, Saarbrücker Allee 5/65201 Wiesbaden, AG Wiesbaden ohne HRB. Das belegt die Betreiber-eigene Verknüpfung der Seiten, nicht unabhängig eine gesellschaftsrechtliche Niederlassungs-/Nachfolgegeschichte. Telefonkonflikt zum Frontmatter 061512772486 weiter offen; keine aggregatordatenbasierte Übernahme. Ausnahmegate weiterhin nicht erfüllt, Frontmatter unverändert. ANKAUF/VERKAUF/GEBÜHREN: keine numerischen Listen auf diesen Seiten; keine neue GEO-Freigabe. Quellen: https://www.schrott-mohr-darmstadt.de/kontakt/ ; https://www.schrott-mohr.de/impressum .]
 
 ### Recherche 04.10.2026
 

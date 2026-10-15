@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiber-Leistungsseite nennt gewerbliche und private Kunden, kurzfristig mögliche Abholung und Containerstellung **1–7 m³**. Der Text behauptet eine Genehmigung nach § 53 KrWG und Fachkunde für Leitungs-/Aufsichtspersonal von Entsorgungsfachbetrieben; **das ist kein vorgelegtes aktuelles EFB-Zertifikat des Betriebs**. Keine Zertifizierung aus dieser Formulierung ableiten.
+
+**Ankauf:** als Schlagwort genannt, keine numerische Liste. **Verkauf/Gebühren:** kein Tarif auf der gelesenen Seite, insbesondere keine belegte generelle Gratis-Abholung. Betreiberquelle nennt 35398 Gießen ohne Straße; Leimenkauter Weg 34 bleibt Verzeichnis-Lead. Zweitbeleg/Identität und Standort vor Frontmatter-/GEO-Fill klären.
 
 ## Timeline
+
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Schrotthandel-Leistungsseite direkt erneut gelesen: Privat/Gewerbe, kurzfristige Abholung, Container 1–7 m³. Präzisierung der Nachweisqualität: Betreiber schreibt selbst „Genehmigung nach § 53 Kreislaufwirtschaftsgesetz liegt vor“ und „Zertifikat für den Erwerb der Fachkunde für Leitungs- und Aufsichtspersonal von Entsorgungsfachbetrieben“. Das ist kein geprüfter aktueller EFB-Betriebsnachweis; certifications nicht gefüllt. Adresse weiterhin nur 35398 Gießen, keine Straße. Kein weiterer unabhängiger Beleg gewonnen; alle Frontmatter-Felder unverändert. ANKAUF: nur Werbeschlagwörter, keine Kurse; VERKAUF/GEBÜHREN: keine Liste, keine Gratis-Zusage aus Entsorgungswerbung abgeleitet. GEO erst nach belastbarer Standortklärung. Quelle: https://www.schrott-giessen.de/schrotthandel/ .]
 
 ### Recherche 03.10.2026
 

@@ -32,6 +32,10 @@ Die Firma Ladner Recycling GmbH (HRB 2690) ist bei North Data mit Brodberg 15, 3
 
 ## Timeline
 
+### Recherche 15.10.2026 (00:00-Welle A)
+
+- [Recherche 15.10.2026: Kommunale Abfallseite erneut direkt gelesen. Ladner bleibt dort ausdrücklich nur bei Autobatterien/-zubehör und Reifen inkl. Felgen am Betriebsgelände Brodberg genannt. Zeit 07–12 Uhr gilt für Elektroschrottannahme am städtischen Bauhof Husarenpark 11, NICHT für Ladner; ebenso 30 EUR/Fahrt ausschließlich städtische Geräteabholung. Diese beiden Übertragungsfallen nicht als Ladner-Öffnungszeit/Gebühr übernommen. Heutiger Abruf bestätigt keine Hausnummer 15, keine persönliche Rechtsnachfolge Franz Ladner → GmbH und keinen Metallankauf. Altadresse beibehalten; ANKAUF/VERKAUF/GEBÜHREN ohne Ladner-Zahlenliste. GEO-Bedarf Brodberg 15 bleibt nach Adress-/Annahmeprüfung, keine Koordinaten erfunden. Quelle: https://www.sontra.de/seite/254956/sonstiger-abfall.html .]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Fill street/postcode — Gelbe Seiten (2 Eintraege: Ladner Franz + Ladner Franz Recycling Autoverwertung Schrott Metalle Altholzannahme, beide Brodberg 15, 36205 Sontra) bestaetigt HR-nahen Spiegel (Ladner Recycling GmbH, Brodberg 15, GF Franz Ladner, HRB 2690 AG Eschwege) + kommunale Quelle (Stadt Sontra: Betriebsgelaende Brodberg) + Schrottregister-Spiegel. Phone NICHT gefuellt: nur GS-Einzelbeleg (05653 7378). Hinweis: Adresse neu befuellt — Koordinaten neu zu geocodieren. 11880 Sontra: kein Ladner-Eintrag (kein Widerspruch, GS+HR wesentlich). Status bleibt pruefung (HRB aus Spiegelquelle, nicht Primärregister).; Quelle(n): https://www.gelbeseiten.de/gsbiz/124b6831-154e-4ed7-b059-a5bdedf9d483 + https://www.gelbeseiten.de/gsbiz/f86310b9-6de3-442f-a591-ee409702037e + s. 01.10-Quellen (Stadt Sontra, handelsregister.live-Spiegel, Schrottregister)]
