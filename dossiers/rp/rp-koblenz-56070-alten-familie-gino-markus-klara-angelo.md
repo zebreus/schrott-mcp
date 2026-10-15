@@ -30,6 +30,10 @@ Das Dossier beschreibt einen vermuteten Familien-Schrotthandel, während ein akt
 
 ## Timeline
 
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Gino-Alten-Detail direkt erneut gelesen: Brenderweg 141/56070 Koblenz-Neuendorf, 0176 32734007, alle Wochentage 0–24; kein Web-/Mail-Link, keine eigenen Preisangaben. Portalstand aktualisiert 03.10.2026, Eintragsdaten 01.01.2023; kein frisches Betriebs- oder Familienidentitätssignal. Die 24-Stunden-Angabe ist kein belegter öffentlicher Annahmehof. Die allgemeine FAQ zu Eurozeichen/Inhaberbestätigung ist keine konkrete Preis-/Autorisierungsquelle. Weiter offen: ob Gino alleiniger Betreiber ist und ob Markus/Klara/Angelo überhaupt dazugehören; keine Umbenennung, Zusammenführung oder Frontmatter-Fills. Ankauf/Verkauf/Gebühren nicht bestätigt; Quelle: https://www.11880.com/branchenbuch/koblenz-am-rhein/120674719B105301954/gino-alten-schrotthandel-entruempelungen.html]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: 11880-Detailseite führt „Gino Alten Schrotthandel & Entrümpelungen“, Brenderweg 141, 56070 Koblenz-Neuendorf, Tel. 0176 32734007 und rund um die Uhr geöffnete Zeiten; Eintrag datiert auf 2023 und ist 2026 aktualisiert, bleibt aber ein einzelner Aggregator. Die konkrete Gino-Angabe bestätigt weder Markus/Klara/Angelo noch einen Familienbetrieb, Betreiberwebsite oder aktuelle Bedingungen. Keine numerischen Ankauf-/Verkaufspreise und keine verifizierten Entrümpelungs-/Abholgebühren. Kandidatenadresse nicht geocodieren, bis Betreiber und Standort direkt verifiziert sind. Quelle: https://www.11880.com/branchenbuch/koblenz-am-rhein/120674719B105301954/gino-alten-schrotthandel-entruempelungen.html]

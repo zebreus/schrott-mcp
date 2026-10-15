@@ -28,6 +28,10 @@ Nur ein Gelbe-Seiten-Eintrag nennt Altmetall-Abholung an der Boschpoler Straße 
 
 ## Timeline
 
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Gelbe-Seiten-Detailabruf diesmal HTTP403, Northdata-Direktversuch „Marko Wolf Berlin“ HTTP429; die frühere Telefon-/Zeit-/Adressbehauptung ist deshalb in dieser Welle nicht frisch bestätigt. Gesperrter Verzeichniseintrag und Register-Rate-Limit sind keine Schließungsbelege. Sämtliche Angaben aus dem alten GS-Lead bleiben unbestätigt; insbesondere trägt die generische Geschäftsbezeichnung „Schrott Altmetall Abholung“ keine verifizierte Brücke zum Personennamen Wolf Marko. Keine Preisquelle für Ankauf, Verkauf oder Gebühren neu zugänglich. Offene Identitätsfrage zuerst über Berliner Gewerbeauskunft/Betreiberbestätigung zur Boschpoler Str. 120 und der historischen Mobilnummer klären; nicht mit Cottbuser Namensvetter verbinden. Keine Frontmatter-Änderung. Quelle(n): https://www.gelbeseiten.de/gsbiz/7fd35fc1-81e7-4f1a-833e-75f01e1e1b3a (HTTP403) ; https://www.northdata.de/?query=Marko%20Wolf%20Berlin (HTTP429).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mobile Abholung Berlin/Brandenburg

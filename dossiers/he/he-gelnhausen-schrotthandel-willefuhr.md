@@ -28,6 +28,10 @@ Der Eintrag ist trotz wiederholter Suche weiterhin nicht mit einer Betreiberseit
 
 ## Timeline
 
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Konkrete Gegenquelle erstmals in dieser Welle direkt gelesen: Impressum schrotthandel-willefuehr.de nennt Alexander Willeführ, Odenwaldstraße 63/63785 Obernburg und 06022 70 99680, keinen Gelnhauser Standort. Root wirbt für Aschaffenburg, nicht als Gelnhauser Zweigstellenbeleg. Keine Übertragung von Kontakten/Zeiten oder dem Link Börsen Preise: fremde Börsenpreise sind keine Ankaufsliste dieses Gelnhauser Leads. Northdata-Suche Willeführ Gelnhausen liefert in den ersten 15 unscharfen Treffern keinen zuordenbaren Einzelbeleg, kein amtlicher Negativbescheid. Betreiber/Standort in Gelnhausen bzw. Altenhaßlau weiterhin offen; keine Frontmatter-Fills, keine zugeordnete Ankauf-/Verkaufs-/Gebührenliste; Quelle(n): https://schrotthandel-willefuehr.de/impressum/ ; https://schrotthandel-willefuehr.de/ (Suchindex); https://www.northdata.de/?query=Willef%C3%BChr%20Gelnhausen]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Erneuter Exact-Name-/Ortsabgleich „Schrotthandel Willeführ Gelnhausen/Altenhaßlau“ ergab keinen neuen Primär- oder Registerbeleg. Die bisherige 11880-/Facebook-Spur bleibt Lead; andere Willeführ-Dossiers belegen andere Orte und werden nicht übertragen. Keine Frontmatter-Füllung, Status `pruefung`. Preise: ANKAUF – keine belegte Liste; VERKAUF – keine Liste; GEBÜHREN – keine Angaben. Mangels bestätigter Adresse kein Geocoding. Quelle(n): Websuche 06.10.2026; Abgrenzung zu `by-obernburg-willefuhr` und den in Recherche 01.10.2026 genannten Namensvettern.]

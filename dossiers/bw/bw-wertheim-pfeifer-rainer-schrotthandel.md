@@ -28,6 +28,10 @@ Die bisher auffindbaren Rainer-Pfeifer-Schrotthandel-Leads liegen in Würzburg-V
 
 ## Timeline
 
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Recherche 15.10.2026: Schrottplatz.org-Detaileintrag direkt HTTP 200 gelesen: Rainer Pfeifer, Brunnfloßgasse 12, 97078 Würzburg, Mobil +49 171 4457209; benachbarte Einträge führen Christian Pfeifer/Versbacher Straße 185 und Jürgen Pfeifer/Lengfelder Straße 38 separat. Damit neue konkrete Namesake-Abgrenzung: Rainer, Christian und Jürgen weder vereinigen noch für einen unbewiesenen Wertheim-Umzug verwenden. Die angezeigten 00:00–24:00/„24h Service“ sind Portalzeiten und beweisen keine rund um die Uhr offene Hofannahme. Gelbe-Seiten-Abruf heute 403, keine zweite zulässige Primärquelle. ANKAUF/VERKAUF/GEBÜHREN: keine numerischen Zieltarife; „kostenlos“ beim Angebotsvermittler ist keine kostenlose Händlerleistung. Wertheim-Identität weiter durch Gewerbeauskunft zu klären, keine Felder übertragen; Quelle: https://www.schrottplatz.org/wuerzburg/rainer-pfeifer-schrotthandel-aXRelr.html ; https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c (403).]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Die einzeln geprüften Gelbe-Seiten- und Schrottplatz.org-Einträge für Rainer Pfeifer verorten den Schrotthandel an Brunnfloßgasse 12, 97078 Würzburg-Versbach, nicht Wertheim. Beides sind Aggregatoren und belegt keine Verbindung zum Wertheim-Dossier; keine Adresse, Telefonnummer oder Website übertragen und keinen Datensatz korrigiert. Wertheim-Zuordnung bleibt Klärfall. Quelle(n): https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c; https://www.schrottplatz.org/wuerzburg/rainer-pfeifer-schrotthandel-aXRelr.html]

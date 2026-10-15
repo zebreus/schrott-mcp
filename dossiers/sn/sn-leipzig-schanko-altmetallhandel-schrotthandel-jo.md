@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -26,7 +26,13 @@ provenance_origin: table
 
 Der Datensatz bündelt mehrere möglicherweise verschiedene Leipziger Gewerbe: „Schrotthandel John“ an der Idastraße, „Altmetallhandel Schanko“ an der Reineckestraße und weitere namensbasierte Treffer. Eine neue Suche findet außerdem „Schanko Detlef“ an der Virchowstraße. Keine Quelle belegt, dass diese Namen und Anschriften zu einem Unternehmen gehören; vor einer Vereinheitlichung ist eine Identitäts-/Aufteilungsprüfung nötig.
 
+Die frühere Bezeichnung Verzeichnis + OSM als Doppelbeleg erfüllt die README-Quellenhierarchie nicht. Deshalb `pruefung` statt Aktivfreigabe eines Sammeldatensatzes. Neu abgegrenzt: Udo Schanko in Helmshagen besitzt eine eigene Betreiberwebsite, gehört aber nicht ohne Leipziger Kettenbeleg hierher. Keine Preisübertragung von Namensvettern.
+
 ## Timeline
+
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Korrektur 15.10.2026: Schrottplatz.org-Leipzig direkt HTTP 200 nennt weiterhin zwei John-Varianten an Idastraße 43; beide sind Einträge desselben Portals, keine unabhängigen Betreiberbelege. Auch der früher verwendete OSM-Gebäudeeintrag gehört nicht zu den vom README zugelassenen Identitätsbelegen. Aktivstatus des ungeklärten Sammeldatensatzes daher aktiv → pruefung, Name/Slug/Bestandsadresse erhalten; keine automatische Aufspaltung in neue Dossiers. Neu gefundene Betreiberseite udo-schanko.de/impressum direkt gelesen: Udo Schanko Altmetallhandel, Zum Voßberg 23, 17498 Weitenhagen GT Helmshagen, +49 3834 884463. Sie beweist diesen fremden Betreiber, aber keine Verbindung zu Reinecke-/Virchow-/Idastraße oder Kürschner R&K. ANKAUF/VERKAUF/GEBÜHREN: keine dem Leipziger Ziel zuordenbaren Listen. Offen: getrennte kommunale/Betreiberidentitäten John, Schanko und Kürschner, danach ownerseitige Aufteilungsentscheidung ohne Slugverlust. Quellen: https://www.schrottplatz.org/leipzig/ ; https://www.udo-schanko.de/impressum ; README.md Quellenhierarchie.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

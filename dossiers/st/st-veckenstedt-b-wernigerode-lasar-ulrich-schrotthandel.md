@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter Schrotthandelslead in Veckenstedt. Schauener Weg 15, 38871 und die bestehende Telefonnummer stammen aus 11880, nicht aus einer Betreiberbestätigung. Der Portaltext erklärt seine Datenherkunft ausdrücklich als Telekommunikationsdaten, ergänzt um Recherche/Nutzerfeedback; die allgemeine FAQ zur Inhaberbestätigung ist kein individuelles Gütesiegel. Zusammenhang mit „Handel und Demontage von Anlagen“ und heutige Annahme bleiben offen. **Ankauf:** keine verifizierte Liste; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Keine Standortkoordinaten ableiten.
 
 ## Timeline
+
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: 11880-Detail erneut direkt gelesen: Schauener Weg 15 / 38871 / 039451 42299 unverändert, weiterhin keine Website, E-Mail oder Öffnungszeiten. Neue Quellenbewertung: Das Portal beschreibt Telekommunikationsanbieter, Eigenrecherche und Nutzerfeedback als Datenherkunft; die FAQ zur Kennzeichnung „vom Inhaber bestätigt“ ist allgemein und bestätigt diesen Betrieb nicht individuell. Eintragsdaten weiterhin 11.11.2025 trotz Aktualisierungslabel 03.10.2026. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren; die generische Eurozeichen-FAQ ist keine Preisliste. Northdata-Direktabfrage in dieser Welle HTTP429, Suchdienst HTTP401/alternative Suche Challenge: keine neue negative Register-/Existenzbehauptung. Offener nächster Beleg: Gewerbeauskunft Nordharz zu Ulrich Lasar, Schauener Weg 15, einschließlich möglicher Demontagefirmierung und tatsächlicher Annahme. Kein Frontmatter-Fill; Quelle(n): https://www.11880.com/branchenbuch/veckenstedt/060440090B53952770/lasar-ulrich-schrotthandel.html ; https://www.northdata.de/?query=Ulrich%20Lasar (Abrufgrenze).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

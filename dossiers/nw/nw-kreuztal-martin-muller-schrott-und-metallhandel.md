@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die historische Kandidatendomain llermartin.de hat auch am 15.10.2026 einen DNS-NXDOMAIN-Befund. Ihre Zuordnung zu Martin Müller in Kreuztal ist selbst ungeklärt; eine tote Kandidatendomain beweist keine Geschäftsaufgabe. Die Mobilnummer 0173 6646494 bleibt ein älterer Aggregatorlead, keine bestätigte Betreiberverbindung.
+
+**Offen:** vollständige gewerbliche Identität, aktueller Standort/Kontakt und mobiler Dienst versus Annahmehof. Keine zugeordneten Ankauf-/Verkaufs-/Gebührentarife; insbesondere keine Vergütung oder kostenlose Abholung belegt. Keine anderen Müller-Betriebe im Siegerland zuordnen.
 
 ## Timeline
+
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Google-DNS-JSON-Endpunkt für llermartin.de A direkt gelesen: Status 3 (NXDOMAIN), somit vorheriger technischer Domainbefund unabhängig vom Seitenrenderer reproduziert. Das bestätigt weder Domaininhaber noch Betriebsschließung. Erneute Namens-/Ortswebsuche erbrachte keinen zuordenbaren Betreiberauftritt; Mobilnummer bleibt nur historischer Portalhinweis. website leer, bisheriger website_status tot und status pruefung unverändert; Betreiberidentität und Ankauf/Verkauf/Gebühren weiter offen; Quelle: https://dns.google/resolve?name=llermartin.de&type=A]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

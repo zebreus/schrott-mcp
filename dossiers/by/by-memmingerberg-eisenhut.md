@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Amtliche Verwerterliste Unterallgäu (September 2026, erneut gelesen 15.10.) nennt Eisenhut Schrott und Metalle, Am Ziegelstadel 24, 87766 Memmingerberg, 08331 3437, unter Alteisen und Schrott. Das ist ein kommunaler Einzelbeleg mit ausdrücklichem Aktualitäts-/Gewährleistungsvorbehalt, kein geprüfter heutiger Ankauf oder Inhaberbeleg. Besonders wichtig: Annahme- bzw. Abholtermine laut Listenpräambel direkt vereinbaren; keine frei zugängliche Dauerannahme aus der Aufnahme ableiten.
+
+Die historische Domain zeigt weiterhin nur einen Freischaltungsplatzhalter; webmaster@ ist kein bestätigter Händlerkontakt. Ankauf-, Verkaufs- und Gebührentarife fehlen. Offen: verantwortlicher Inhaber, Annahme-/Vergütungsbedingungen, Materialabgrenzung und Termine.
 
 ## Timeline
+
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Recherche 15.10.2026: Landkreis-PDF vollständig direkt HTTP 200 geladen und als Text gelesen; September-2026-Stand bestätigt Eisenhut Schrott und Metalle unter Alteisen und Schrott, Am Ziegelstadel 24, 87766 Memmingerberg, 08331 3437. Neu herausgearbeitete Bedingung der Präambel: „Annahme- bzw. Abholtermine sind mit den Firmen direkt zu vereinbaren.“ Am Ende ausdrücklich keine Empfehlung, Bewertung, Prüfung oder Gewährleistung und kein Anspruch auf Aktualität/Vollständigkeit. Kein zweiter unabhängiger Betreiberbeleg, daher keinen aktuellen Ankauf/Öffnungszeiten ergänzen. HTTP-Domain liefert weiterhin nur „soeben freigeschaltete Homepage“ und webmaster@, keine Betreiberidentifikation. ANKAUF: keine Eurokurse; VERKAUF: keine Liste; GEBÜHREN: weder freie Annahme noch kostenlose Abholung ausgewiesen. Quelle: https://www.landratsamt-unterallgaeu.de/fileadmin/eigene_dateien/LRA/Abfallentsorgung/Verwerterliste.pdf (S. 1/4); http://eisenhut-schrott.de/ .]
 
 ### Recherche 04.10.2026
 

@@ -28,6 +28,10 @@ Nur ein nicht bestätigter Verzeichnis-Lead zu „Manuel Neuwald Schrotthandel�
 
 ## Timeline
 
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: 11880-Detail erneut direkt vollständig gelesen: Manuel Neuwald, 32805 Horn-Bad Meinberg, 0171 9355622; weiterhin keine Straße, Website, E-Mail oder Zeiten. Aktualisierung 03.10.2026 / Eintragsdaten 03.01.2023 unverändert, kein neues Betreiber-Lebenszeichen. Generische FAQ zu Eurozeichen und Inhaberbestätigung sind weder Preisangaben noch individuell nachgewiesene Betreiberautorisierung. Ergänzende Northdata-Suche Manuel Neuwald liefert unter den ersten 15 unscharfen Treffern keinen zuordenbaren Einzelbeleg; keine Nichtexistenz ableiten. Identität/Adresse und heutiger Ankauf bleiben offen; keine Frontmatter-Fills, keine Ankauf-/Verkaufs-/Gebührenliste; Quelle(n): https://www.11880.com/branchenbuch/horn-bad-meinberg/120674719B101482332/manuel-neuwald-schrotthandel.html ; https://www.northdata.de/?query=Manuel%20Neuwald]
+
 ### Vertiefung 08.10.2026
 
 - [Recherche 08.10.2026: 11880-Einzelseite direkt gelesen: Manuel Neuwald,32805Horn-BadMeinberg/01719355622, weiterhin ohne Straße/Website/Mail/Öffnungszeiten. Portal meldet aktualisiert03.10.2026, Eintragsdaten03.01.2023 — dies ist kein Betreiber-Lebenszeichen. Andere Neuwald-P.-Leads betreffen BadDriburg (AufderSteinbrücke7/01608006461) bzw. NeuwaldK./P. in Nieheim; keine Identitätskette nach Horn-BadMeinberg, nicht vermischen. Keine Ankauf-/Verkaufs-/Gebührentarife, keine Fills. Quelle(n): https://www.11880.com/branchenbuch/horn-bad-meinberg/120674719B101482332/manuel-neuwald-schrotthandel.html ; https://www.schrottplatz-info.de/schrottplatz/Bad-Driburg/Neuwald-P- ; https://www.schrottplatz-info.de/schrottplatz/Nieheim/Neuwald-K-u-Neuwald-P- (letzte zwei nur Suchindex-Leads)]

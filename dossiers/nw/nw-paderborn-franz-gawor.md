@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Franz Gawor ist bislang ein Rohprodukte-/Verzeichnislead, kein unabhängig belegter aktueller Schrottankäufer. Hermann-Kirchhoff-Straße 35, 33102 Paderborn, 05251 32195 und die früheren Portalzeiten bleiben unbestätigt. Die neue Northdata-Suche führt unter den ersten 15 Ergebnissen keinen zugeordneten Einzelbeleg; ein nicht eingetragener Einzelbetrieb kann dadurch nicht ausgeschlossen werden.
+
+**Offen:** vollständige gewerbliche Identität, heutiger Standort und Tätigkeit sowie Primärbestätigung der Kontakte. Keine zugeordneten Ankauf-/Verkaufs-/Gebührenlisten; aus „Rohprodukte“ nicht bestimmte Materialien oder eine öffentliche Annahme ableiten.
 
 ## Timeline
+
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Eigene Namens-/Ortswebsuche ohne zuordenbare Betreiberseite; Northdata-Suche Franz Gawor Paderborn direkt gelesen. Erste 15 Treffer nur unscharfe andere Namen/Organisationen, kein identifizierter Gawor-Betrieb. Kein amtlicher Negativbescheid; fehlender Registertreffer beweist bei möglichem Einzelbetrieb weder Nichtexistenz noch Schließung. Vorrecherche-Adresse Hermann-Kirchhoff-Straße 35 und 05251 32195 nicht neu belegt und nicht übertragen. Offen sind Betreiber-/Gewerbenachweis und aktueller Ankauf, nicht bloß weitere Verzeichnisduplikate. Keine Ankauf-/Verkaufs-/Gebührenliste zugeordnet; Quelle: https://www.northdata.de/?query=Franz%20Gawor%20Paderborn]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -32,6 +32,10 @@ Derzeitiger Lead „WS Dienstleistungen“ wird nur von Gelbe Seiten mit Breslau
 
 ## Timeline
 
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Gelbe-Seiten-Detail diesmal HTTP 403, daher frühere Angaben nicht als neu gelesen ausgeben. Ergänzende Northdata-Suche WS Dienstleistungen Ennigerloh direkt geprüft: erste 15 unscharfe Treffer betreffen andere Orte, darunter eine frühere WS Dienstleistungen GmbH mit Registergericht Münster, aber Firmenort Neustadt a. d. Weinstraße. Allein das nahe Registergericht stellt keine Identität mit Ennigerloh her. Breslauer Straße/Telefon/Zeiten und Gratisabholung bleiben Leads; kein Kontaktfill und keine Betriebs-/Schließungsentscheidung. Ankauf-/Verkaufs-/Gebührentarife nicht bestätigt; Quelle(n): https://www.gelbeseiten.de/gsbiz/073c5efb-18b8-4fe4-8f0c-58426d504590 (403); https://www.northdata.de/?query=WS%20Dienstleistungen%20Ennigerloh]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Direkt geprüfter Gelbe-Seiten-Eintrag nennt Breslauer Str. 27a, 59320 Ennigerloh, 01523 7848604, Zeiten Mo–Fr 8–18/Sa 8–12 und „Kostenlose Schrottabholung“; weiterhin nur Aggregator-/Profilangabe, keine unabhängige Betriebsbestätigung. Suchtreffer zu ws-dienstleistung.de beziehen sich auf W&S Dienstleistungen im Raum Limburg; keine Zuordnung zum Ennigerloher Lead. Keine Frontmatter-Fills; die kostenlose Abholung nicht als verifizierte Kondition behandeln. Quelle(n): https://www.gelbeseiten.de/gsbiz/073c5efb-18b8-4fe4-8f0c-58426d504590 ; https://ws-dienstleistung.de/ (anderer/ungeklärter Anbieter, nicht zugeordnet)]

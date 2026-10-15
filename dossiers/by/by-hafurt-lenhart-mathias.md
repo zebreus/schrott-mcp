@@ -28,6 +28,10 @@ Ungeklärter Altbestand „Mathias Lenhart, Autohandel/LKW-Autoverwertung“ in 
 
 ## Timeline
 
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Recherche 15.10.2026: 11880-Detail direkt HTTP 200 bestätigt nur Portalstand: 97437 Haßfurt ohne Straße, 09521 4513, zweite Nummer 09521 7888 ohne Funktionsbezeichnung, keine Website/Zeiten. Branchen „An- und Verkauf“, Nutzfahrzeuge, Baumaschinen und Altmetallrecycling sind kein anlagenbezogenes Demontagezertifikat. GESA-Hilfe und verlinkte Fachregister-Suchoberfläche unabhängig aufgesucht; Oberfläche nur JavaScript/Vaadin-Hülle, keine Betriebsabfrage ausgewertet und deshalb kein negativer Registerbefund zu Lenhart. Die Seedanschrift Galgenanger 4 bleibt ungeprüft. ANKAUF: keine Fahrzeugvergütung; VERKAUF: keine Teile-/Fahrzeugliste; GEBÜHREN: keine Tarife. GESA erläutert ausdrücklich, dass kostenlose Rücknahme nur im Herstellernetz unter Bedingungen gilt und Transportkosten gesondert anfallen können; keine kostenlose Entsorgung aus „Autoverwertung“ ableiten. Offen: Inhaber-/Gewerbezuordnung Galgenanger und heutige Anlagenanerkennung. Quellen: https://www.11880.com/branchenbuch/hassfurt/012053901B27042077/mathias-lenhart-autohdl-lkw-autoverwertung.html ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: 11880-Detaileintrag vollständig gelesen: „Mathias Lenhart AutoHdl. LKW Autoverwertung“, 97437 Haßfurt, Telefon 09521 4513, weitere Nummer 09521 7888 ohne belastbare Funktionszuordnung; Straße, eigene Domain und E-Mail fehlen im gelesenen Eintrag. Eintrags-/Aktualisierungsdaten 24.03.2026/02.10.2026 sind Verzeichnis-Metadaten, keine Aktivitätsbestätigung. Cylex liefert Galgenanger 4 nur als zusätzlichen Lead. Keine Frontmatter-Fills aus diesen Aggregatoren, keine numerischen Ankauf-/Verkaufs-/Gebührenpreise.; Lead-Quelle(n): https://www.11880.com/branchenbuch/hassfurt/012053901B27042077/mathias-lenhart-autohdl-lkw-autoverwertung.html , https://web2.cylex.de/firma-home/lenhart-mathias-autohdl--lkw-autoverwertung-10873658.html]

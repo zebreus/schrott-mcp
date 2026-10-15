@@ -30,6 +30,10 @@ Ankauf/Verkauf/Gebühren: keine qualifiziert gelesenen Preislisten; Social-Inhal
 
 ## Timeline
 
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Recherche 15.10.2026: Instagram-Kandidat direkt HTTP 200, auswertbarer Seitentext aber nur „Instagram“; keine öffentlichen Inhaber-/Adress-/Preisangaben gelesen. HTTP 200 ist hier kein Nachweis eines verifizierten Betreiberprofils. Altershausen 77 und Mobilnummer aus alten Portalen nicht neu bestätigt, keine Ergänzung/Domainübernahme. Auch die werbliche Bezeichnung Containerdienst erlaubt keine Ableitung öffentlicher Hofannahme oder kostenloser Containerstellung. ANKAUF/VERKAUF/GEBÜHREN: wegen nicht lesbarem Profil nicht prüfbar, kein negativer Befund über eventuell dort veröffentlichte Listen. Konkret offen: vollständiger Inhabername, Zuordnung Altershausen 77 durch Gemeinde/Betreiberimpressum und gegebenenfalls öffentlich zugängliche Preisinformation. Quelle/Abrufgrenze: https://www.instagram.com/anger_schrott_und_metallhandel/ .]
+
 ### Recherche 14.10.2026 (18:00-Welle B)
 
 - [Recherche 14.10.2026: Instagram-Direktabruf des bekannten Kandidaten zeigt erneut nur Login, keine Anschrift, Kontaktdaten oder öffentlich gelesene Posts. NorthData-Suggest Anger Königsberg results leer; keine vollständige Registerprüfung. Altershausen 77 bleibt alter Verzeichnislead, nicht neu bestätigt; keine Social-Website/Felder übertragen. ANKAUF/VERKAUF/GEBÜHREN nicht prüfbar, keine vermutete Abholungskostenfreiheit. GEO zurückstellen. Owner: vollständigen Inhabernamen und Altershausen-Adresse über Gewerbeauskunft Königsberg i.Bay. zuordnen; Quelle: https://www.instagram.com/anger_schrott_und_metallhandel/ ; https://www.northdata.de/suggest.json?query=Anger+K%C3%B6nigsberg&countries=DE .]

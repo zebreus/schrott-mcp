@@ -32,6 +32,10 @@ Zwei Verwechslungen vermeiden: **Altmetalle Knodel in Niederzier** ist ein ander
 
 ## Timeline
 
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Recherche 15.10.2026: Gegenprüfung beider Knodel-Domainspuren: schrott-knodel-fichtenau.de per HTTP weiterhin DNS-Auflösungsfehler; Niederzier-Seite /der-betrieb heute HTTP 403, daher deren ältere Anschrift nicht als neu gelesen ausgeben. Keine Impressumsverbindung zwischen Dieter/Lindenweg 23 und Marktstraße 58 gewonnen. Keine der Abrufgrenzen ist ein Schließungs- oder Nachfolgebeleg. Status pruefung und historische Kontaktfelder bleiben unverändert. ANKAUF: keine Dieter Knodel zugeordneten Raten; VERKAUF: keine Liste; GEBÜHREN: keine Entsorgungs-/Abholtarife. Gewerbeauskunft muss den vollständigen Namen und die konkrete Hausadresse klären, nicht nur „Knodel Fichtenau“. Quellen: http://schrott-knodel-fichtenau.de/ (DNS); https://www.schrott-knodel.de/der-betrieb (403).]
+
 ### Recherche 05.10.2026
 
 - [Korrektur 05.10.2026: Gelbe-Seiten-Detail erneut gelesen: Lindenweg 23, 74579 Fichtenau-Unterdeufstetten, 07962 8563. Das ist weiterhin nur ein Verzeichnis-Lead; frühere Ausnahmefills bleiben historisch erhalten, sind nicht zweifach primärbestätigt. status aktiv→pruefung wegen fehlendem heutigen Betreiber-/Ankaufsbeleg, keine Schließung behauptet. Northdata-Namensabfrage liefert einen ortsnahen, aber unpassenden Dieter Kranz; kein Beweis für Nichtexistenz oder fehlende Registerpflicht; Quelle(n): https://www.gelbeseiten.de/gsbiz/e689feaf-d6f9-4b2e-af71-00a583bc830a ; https://www.northdata.de/Knodel+Dieter,+Fichtenau]

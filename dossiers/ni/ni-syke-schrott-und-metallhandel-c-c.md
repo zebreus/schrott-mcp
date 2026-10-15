@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Name „Schrott- und Metallhandel C&C“ ist bisher nur ein Syker Seed-/Verzeichnislead ohne Betreibername, Straße oder eigene Website. Eine unscharfe Registersuche liefert andere Schrottfirmen, keine Identitätsbrücke. Nicht mit ähnlich abgekürzten Betrieben anderer Orte vermischen. **Ankauf:** nicht verifiziert/keine Liste; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Sinnvoller nächster Schritt ist eine kommunale Gewerbeauskunft zur Geschäftsbezeichnung statt weiterer Übernahme generischer Portalangaben.
 
 ## Timeline
+
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Northdata-Suche „Schrott Metallhandel C C Syke“ direkt gelesen. Der erste Ergebnisblock (15 von über 1000) enthält u.a. KL/Österreich, SH/Wilhelmshaven und AEL/Gummersbach, aber keine klar zugeordnete C&C-Identität in Syke. Das ist eine unscharfe Rangliste, kein vollständiger Register-Negativnachweis; keine fremden Adressen/Leistungen übernommen. Allgemeine Websuche in dieser Welle durch HTTP401 bzw. Challenge eingeschränkt; kein neuer Betreiberauftritt verifiziert. Ankauf/Verkauf/Gebühren ohne zurechenbare Preisquelle. Frontmatter bleibt leer, pruefung bleibt. Konkreter Klärbedarf: vollständiger Inhaber/Rechtsträger, Betriebsanschrift und aktuelle vergütete Annahme über Gewerbeauskunft Syke. Quelle: https://www.northdata.de/?query=Schrott%20Metallhandel%20C%20C%20Syke.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

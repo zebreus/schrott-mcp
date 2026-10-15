@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Pfeil ist weiterhin ein ungeklärter Autoverwertungs-/Ersatzteilverkaufslead in Kassel-Bettenhausen. Die Vorrecherche dokumentiert Ellenbacher Straße 10 versus 12; keine der Hausnummern ist durch zwei qualifizierte Quellen gesichert. pfeil-recycling.de scheitert aktuell am TLS-Verbindungsaufbau. Die Northdata-Suchen liefern keinen zugeordneten Kasseler Einzelbeleg unter den ersten Treffern; das ist kein Nachweis einer gelöschten KG.
+
+**Offen:** HRA/Betreiberidentität, exakte Betriebsanschrift und aktuelle Zertifizierung. **Ankauf:** nicht aus Autoverwertung ableiten. **Verkauf:** Ersatzteilverkauf nur Portalspur. **Gebühren:** keine bestätigte Liste oder Gratiszusage. Keine öffentlichen Annahmezeiten übernehmen.
 
 ## Timeline
+
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: pfeil-recycling.de im eigenen Direktabruf TLSV1_ALERT_INTERNAL_ERROR; kein gelesener Betreiberinhalt und keine Schließung ableitbar. Ergänzend Northdata-Suchen Pfeil Kassel und Pfeil Autoverwertung direkt gelesen, erste jeweils 15 unscharfe Treffer ohne zugeordnete Kasseler KG. Treffer Pfeil KG in Bergkirchen betrifft einen anderen Ort und ist keine Nachfolgekette. Vorhandener Hausnummernkonflikt Ellenbacher Straße 10/12 bleibt offen, ebenso HRA und Zertifikatsnachweis; keine Frontmatter-Fills. Ankauf, Ersatzteilverkaufspreise und Gebühren nicht primär bestätigt; Quelle(n): https://pfeil-recycling.de/ ; https://www.northdata.de/?query=Pfeil%20Kassel ; https://www.northdata.de/?query=Pfeil%20Autoverwertung]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

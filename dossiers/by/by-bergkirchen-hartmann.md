@@ -32,6 +32,10 @@ provenance_origin: prose
 
 ## Timeline
 
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Recherche 15.10.2026: Historische Betreiber-Domain erneut direkt geprüft: HTTP 404 mit generischer „Not found“-Seite, kein Impressum/Kontakt. Zusätzlich amtlichen Prüfweg konkretisiert: GESA verweist für anerkannte Altfahrzeugbetriebe auf das Fachbetrieberegister; dessen Suchoberfläche liefert hier nur eine JavaScript/Vaadin-App ohne auswertbare Betriebsergebnisse. Daher ausdrücklich KEINE negative GESA-Auskunft zu Hartmann und keine Ablehnung einer Zertifizierung behaupten. Die GESA-Erläuterung unterscheidet Demontagebetrieb von Annahme-/Rücknahmestelle; letztere werden nicht vollständig erfasst. ANKAUF/VERKAUF/GEBÜHREN: nicht verifiziert; selbst eine Anerkennung wäre kein Beleg für kostenlosen Transport oder Vergütung. Offen: aktuelle Betreiberidentität Fritz/Cornelia versus mögliche Autoneo-Verbindung, Hausnummer 23/23 A sowie gültige anlagenbezogene Bescheinigung; Quellen: http://www.autoverwertung-hartmann.de/ ; https://www.altfahrzeugstelle.de/ (Weiterleitung GESA-Hilfe); https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (nur App-Hülle gelesen).]
+
 ### Recherche 14.10.2026 (18:00-Welle B)
 
 - [Recherche 14.10.2026: Bekannte historische Domain direkt erneut geprüft: HTTP 404. NorthData-Suggest Hartmann Bergkirchen liefert HTTP200 mit results leer; das ist keine vollständige Registerauskunft, insbesondere kein Negativbeweis für eine nicht eingetragene Schrotthandlung. Fritz/Cornelia Hartmann, Himmelreichstraße 23 versus 23 A und etwaige Autoneo-Nachfolge bleiben unaufgelöst; frühere Verzeichniszeiten nicht neu bestätigt. ANKAUF/VERKAUF/GEBÜHREN: mangels auswertbarer Betreiberseite keine Preisprüfung möglich, keine Kostenfreiheit ableiten. GEO zurückstellen. Nächster qualifizierender Weg: Gewerbeauskunft Bergkirchen zu Fritz/Cornelia und der konkreten Hausnummer, dann aktuelle Annahmebedingungen; Quelle: http://www.autoverwertung-hartmann.de/ ; https://www.northdata.de/suggest.json?query=Hartmann+Bergkirchen&countries=DE .]

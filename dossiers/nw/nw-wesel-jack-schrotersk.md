@@ -30,6 +30,10 @@ Keine zuordenbare Betreiberwebsite oder Ankauf-/Verkaufs-/Gebührenliste gefunde
 
 ## Timeline
 
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Maptons-Kandidatenlink erneut direkt aufgerufen, HTTP 403; damit weiterhin kein gelesener Standort-/Betreiberinhalt. Ergänzende Northdata-Suche nach Jack Schrotersk liefert in den ersten 15 Ergebnissen nur unscharfe Namensähnlichkeiten (u.a. Schrooten Jack in Belgien), keinen zuordenbaren Weseler Betrieb. Dies ist kein amtlicher Negativnachweis und keine Grundlage für eine Namenskorrektur. Hummelweg 3 bleibt ausdrücklich Seedlead; keine PLZ/Telefon-/Website-Füllung. Offene Frage: exakte gewerbliche Firmierung und Nachweis des Betriebs in Wesel. Ankauf/Verkauf/Gebühren: keine zuordenbare Preisquelle; Quelle(n): https://qa.maptons.com/p/3175754291 (403); https://www.northdata.de/?query=Jack%20Schrotersk (Suchergebnis, kein passender Einzelbeleg)]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Gegenüber vorherigem Miss neuer vollständiger Telefon-/PLZlead aus Suchauszügen: Jack Schrotersk, Hummelweg3/46485 Wesel,015770060539. Maptons-Detail und Cybo-Liste beim Direktabruf403; Kartenpunkt aus Suchsnippet nicht verifiziert und nicht ins Dossier-GEO kopiert. Kein zuordenbarer Betreiber-/Kommunalbeleg gefunden. Historische Bezeichnung Backyard-Typ ist unbewiesene Charakterisierung, keine Recherchefeststellung; auf keine Tätigkeit/Existenz geschlossen. Keine Fills/kein Schließungsurteil; Ankauf/Verkauf/Gebühren offen. Quelle(n): https://qa.maptons.com/p/3175754291 (403; Suchlead); https://biashara.cybo.com/DE/bocholt/scrap-metal-dealer (403; Suchlead)]

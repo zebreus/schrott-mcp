@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historischer Metalports-Standortlead Hemelinger Hafendamm 11; die erhaltene Registerrecherche verbindet die frühere Firma über HRB 24174 mit der heutigen BREWELO GmbH. Deren Impressum nennt Hermann-Funk-Straße 4, nicht den Altstandort. Rechtsträgerkette und Fortbestand eines konkreten Annahmeplatzes sind getrennte Fragen: kein automatischer Umzug, kein Merge, keine Übertragung heutiger BREWELO-Kontakte. **Ankauf:** keine dem Altstandort zugeordnete Liste; **Verkauf:** BREWELO-Marktplatz bietet andere Produktgruppen, kein Metalports-Preisbeleg; **Gebühren:** kein zugeordneter Tarif.
 
 ## Timeline
+
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Betreiber-Gegenprüfung erneut direkt: BREWELO-Impressum führt GmbH / HRB 24174 Bremen / Hermann-Funk-Straße 4. Damit bleibt der bereits dokumentierte Registeranschluss plausibel, aber Hemelinger Hafendamm 11 wird nicht als heutiger Standort bestätigt. Marktplatzübersicht und verlinkte Propangas-Detailseite einzeln gelesen: Alttextilien, Holz/Kompost, Propangas und gesackte Gartenprodukte; Propangas 5- bis 33-kg-Flaschen nur Angebot auf Anfrage, keine Zahlentarife. Diese Verkaufsprodukte weder als Schrottankauf noch als Gebühren- oder Altstandortbeleg verwenden. Bestehender Telefonwert beruht weiter auf den alten Verzeichnissen. Offene Fragen: historische Grundstücks-/Betreiberzuordnung und tatsächliche Fortführung/Verlagerung des Metalports-Platzes; ohne diese kein Namens-/Adresswechsel. Quelle(n): https://www.brewelo.de/impressum/ ; https://www.brewelo.de/produkte/marktplatz/ ; https://www.brewelo.de/produkt/transportvertrieb-von-propangasflaschen/ (Direktabrufe).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Alfons Schaller bleibt ein Rohprodukte-/Schrott-Verzeichnislead ohne verifizierten heutigen Betreiber. Die jetzt direkt gelesene Schrottplatz-Info-Detailseite nennt Mühlenstraße 31, 66450 Bexbach und 06826 2217, aber weder Kleinottweiler noch eigene Website, Zeiten oder Leistungen. Ihr „Homepage“-Link führt nur zur Portalstartseite, nicht zum Händler.
+
+**Offen:** aktueller Betrieb, genaue Ortsteil-/Adresszuordnung und Ankauf/Annahme. Northdata-Suche zeigt keine zugeordnete Bexbacher Einheit unter den ersten Treffern; Schweizer und Kölner Namensvetter nicht zuordnen. Keine belegte Ankauf-/Verkaufs-/Gebührenliste, keine Kontakt-/Adressfills.
 
 ## Timeline
+
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Über bloße Bexbach-Liste hinaus nun Detailseite direkt vollständig gelesen: Schrott Schaller Alfons, Mühlenstr. 31/66450 Bexbach, 06826 2217; Beschreibung, Leistungen und Zeiten fehlen ausdrücklich. Angeblicher Homepage-Link verweist nur auf / des Portals; keine neu gefundene Betreiberwebsite. Damit Telefonnummerlead präzisiert, aber weiterhin Aggregator und kein qualifizierter Zweitbeleg; Kleinottweiler wird nicht belegt. Northdata-Suche Alfons Schaller Bexbach zeigt in den ersten 15 Treffern unverbundene Namen in Schweiz/Köln, keinen zugeordneten Bexbacher Einzelbeleg. Keine Fills, kein Schließungsurteil; Ankauf/Verkauf/Gebühren nicht bestätigt; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Bexbach/Schaller-Alfons ; https://www.northdata.de/?query=Alfons%20Schaller%20Bexbach]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

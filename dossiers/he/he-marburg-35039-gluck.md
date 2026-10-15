@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Glück“ ist bislang keine vollständig identifizierte Betreiberperson/-firma. Ginseldorfer Weg 50 und 01520 9471757 sind historische Portalspuren, nicht zwei unabhängige Betreiberbelege. Aktuelle Namens-/Orts- und Registerrecherche löst die Identität nicht auf. Andere Schrotthändler am Ginseldorfer Weg sind keine Nachfolgebelege.
+
+**Offen:** Vorname/Firmierung, gewerbliche Existenz, genaue Adresse und aktuelle Annahme-/Abholbedingungen. Die historische Einordnung als „Kleinst-Schrotthändler“ ist unbestätigt. Ankauf, Verkauf und Gebühren: keine zugeordnete Liste; keine Frontmatter-Füllung auf Basis des bloßen Orts-/PLZseeds.
 
 ## Timeline
+
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Eigene Orts-/Namenssuche und direkt gelesene Northdata-Suche Glück Marburg Schrott: neun unscharfe Ergebnisse, kein zuordenbarer Marburger Glück-Betrieb. Das Suchergebnis ersetzt keine amtliche Gewerberegisterauskunft. Suchindex führt andere Händler am Ginseldorfer Weg 44; weder diese andere Hausnummer noch fremde Kontakte auf Glück am Seedlead 50 übertragen. Nach wie vor voller Betreibername und Standort unabhängig zu klären; keine Kontakt-/Adressfills, keine Schließungsbehauptung. Keine zuordenbare Ankauf-/Verkaufs-/Gebührenquelle; Quelle(n): https://www.northdata.de/?query=Gl%C3%BCck%20Marburg%20Schrott ; https://www.dasoertliche.de/Themen/Ginseldorfer-Weg/Marburg.htm (Suchindex-Gegenlead, kein Betreiberbeleg)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkreter, aber nur verzeichnisgestützter Kandidat Johannes Funk, Am Steinbrünnlein 1, 97450 Arnstein-Heugrumbach, 09363 997311. Direkt gelesene Portalzeiten Mo–Fr 08–14 Uhr sind keine Betreiberbestätigung. Die Aktualisierungsanzeige vom 15.10.2026 steht neben alten Eintragsdaten vom 18.09.2024 und darf nicht als Betriebsprüfung missverstanden werden. Straße/Zeiten nicht übernommen; vorhandenes Telefon ist ungeprüfter Altbestand.
+
+Keine eigene Website, Preise oder aktuelle Abholbedingungen belegt. Nicht mit weiteren Funk-Metallhändlern gleichsetzen. Offen: gewerbliche Identität und aktuelle Betriebsanschrift sowie Annahme-/Vergütungsbedingungen; Status `pruefung`, keine Schließung behauptet.
 
 ## Timeline
+
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Recherche 15.10.2026: 11880-Detail direkt HTTP 200 geprüft: Am Steinbrünnlein 1, Arnstein (Heugrumbach), 09363 997311, Mo–Fr 08–14 Uhr, keine Betreiberwebsite/E-Mail. Seite zeigt „aktualisiert am 15.10.2026“, zugleich Eintragsdaten 18.09.2024 und lediglich eine ungeprüfte Nutzerbewertung von 2014; keine dieser Anzeigen bestätigt Gegenwartsbetrieb oder Abholzuverlässigkeit. ANKAUF: keine numerischen Kurse; VERKAUF: keine Liste; GEBÜHREN: Euro-Symbol-FAQ des Portals kein Händlertarif. Keine Frontmatter-Fills aus diesem Lead. Nächster Primärschritt: Gewerbe-/Betreiberbestätigung Johannes Funk zur konkreten Anschrift, danach Zeiten und Materialannahme. Quelle: https://www.11880.com/branchenbuch/arnstein-unterfranken/120674719B54274221/johannes-funk-schrott-und-metallhandel.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

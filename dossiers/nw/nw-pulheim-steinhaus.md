@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Kurzname „Steinhaus“ verweist laut bisheriger Registerrecherche auf Steinhaus Metallgroßhandel GmbH, AG Köln HRB 40226, Boschstraße 22, 50259 Pulheim. Das jetzt direkt gelesene Northdata-Einzelprofil bestätigt Adresse und Gegenstand Metallgroßhandel; letzte sichtbare Bilanzpublikation am 23.10.2025 für 2024. Das belegt keine aktuelle öffentliche Schrottannahme oder einen vergüteten Ankauf von Privatkunden.
+
+Kein Betreiberauftritt zugeordnet. Creditreform-Einzelprofil im Direktabruf 403, Registercheck 429; deren Suchauszüge nicht als gelesene zweite Vollquelle behandeln. Bestehende Adresse bleibt auf Basis der dokumentierten Vorrecherche erhalten, Kurzname unverändert. **Offen:** Betreiberkontakt, heutiger Tätigkeitsumfang/Annahme und Bezug des Metallgroßhandels zum Schrottlead. Keine zugeordnete Ankauf-/Verkaufs-/Gebührenliste.
 
 ## Timeline
+
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Northdata-Einzelprofil Steinhaus Metallgroßhandel GmbH/AG Köln HRB 40226 direkt gelesen: Boschstr. 22/50259 Pulheim, Gegenstand Großhandel mit Metallen aller Art; Bilanz 2024 laut Publikationsübersicht am 23.10.2025 veröffentlicht. Kein Beleg für Hofannahme, private Anlieferer oder Schrottankauf. Creditreform-Kandidat direkt 403, Registercheck direkt 429, daher deren Suchauszüge nicht als heute voll geprüften unabhängigen Doppelbeleg ausgeben. Bestehende Vorrecherche-Adresse unverändert, kein Namens-/Status-/Websitewechsel allein aus neuem Einzelbeleg. Offen bleiben Betreiberkontakt und tatsächliches Angebot; keine Ankauf-/Verkaufs-/Gebührenliste zugeordnet; Quelle(n): https://www.northdata.de/Steinhaus%20Metallgro%C3%9Fhandel%20GmbH,%20Pulheim/Amtsgericht%20K%C3%B6ln%20HRB%2040226 ; https://firmeneintrag.creditreform.de/50259/5190085872/STEINHAUS_METALLGROSSHANDEL_GESELLSCHAFT_MIT_BESCHRAENKTER_HAFTUNG (403); https://www.registercheck.de/companies/steinhaus-metallgrosshandel-gesellschaft-mit-beschraenkter-haftung (429)]
 
 ### Recherche 01.10.2026
 

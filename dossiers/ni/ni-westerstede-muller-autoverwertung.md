@@ -30,6 +30,10 @@ Neuer, getrennt recherchierter Lead; nicht „Schultze, K.“ und nicht Autorecy
 
 ## Timeline
 
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Startseite, Impressum, Auto-/Metallrecycling und AGB erneut einzeln gelesen. Betreiber-Einzelbeleg und 50-t-Waage/Tagespreise/Anlieferung kleiner Mengen bestätigt; weiter keine Zahlenankaufsliste. Öffnungszeitenkonflikt besteht unverändert zwischen Seitenkontakt (Mo-Fr 08:00–12:30/14:00–17:00, Sa geschlossen) und AGB-Fließtext (13:30–18:00 nachmittags, Sa 08:00–13:00). Kein Änderungsdatum zur Auflösung; keine Zeiten übernommen. Wichtig für Gebührenrecherche: AGB regeln ausdrücklich Ersatzteilverkauf/-lieferung, nennen zusätzliche Versandkosten bei Teilleistungen und Zölle/Gebühren außerhalb der EU, aber keine Beträge; das sind Verkaufsnebenkosten, keine Schrottannahme-/Abholgebühren. Verkaufspreise und Entsorgungs-/Containertarife nicht gefunden. Startseite nennt außerdem Uplengen-Remels/Edewecht-Jeddeloh im Werbetext; ohne individuelle Filialangaben keine weiteren Standorte ableiten. GbR weiterhin ohne unabhängig gelesenen Zweitbeleg; keine HR-Ausnahme, kein Stammdatenfill. Quelle(n): https://www.mueller-autoverwertung.de/ ; https://www.mueller-autoverwertung.de/impressum.html ; https://www.mueller-autoverwertung.de/leistungen/auto-metallrecycling.html ; https://www.mueller-autoverwertung.de/agb.html.]
+
 ### Vertiefung Nordwest 08.10.2026
 
 - [Recherche 08.10.2026: Unabhängiger erneuter Direktabruf Impressum und Auto-/Metallrecycling bestätigt Betreiber-Einzelbeleg Bernd/BiancaMüller,LeererStr.41 sowie Preisvorschlag/Tagespreise, kleine Mengen per Anlieferung und geeichte50t-Waage. Dies ist dieselbe Betreiberherkunft, kein zweiter Identitätsbeleg; heutiges Owner-Gate bleibt, kein Website-/Kontaktfill. Zertifizierungsbehauptung auf Leistungsseite ersetzt kein gültiges Fachregister-Zertifikat. Keine Euro/kg-Kurse und keine Gebühren auf diesen Seiten; bestehende Verkaufs-/Öffnungszeiten-Konflikte bleiben erhalten. Quelle(n): https://www.mueller-autoverwertung.de/impressum.html ; https://www.mueller-autoverwertung.de/leistungen/auto-metallrecycling.html]

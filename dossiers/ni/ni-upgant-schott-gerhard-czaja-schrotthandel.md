@@ -28,6 +28,10 @@ Gerhard Czaja Schrotthandel wird weiterhin nur in Verzeichnissen mit dem Lead Gr
 
 ## Timeline
 
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: 11880-Detail direkt neu gelesen: Graf-Enno-Str. 5 / 26529 / 04934 5780 weiterhin nur Portalangaben, kein Website-/E-Mail-Link und keine Öffnungszeiten. Eintragsdaten 01.03.2022 neben Aktualisierungslabel 03.10.2026; das Label belegt keine aktuelle Gewerbeausübung. FAQ-Verweis auf „vom Inhaber bestätigt“ ist allgemeiner Portalerklärungstext, kein konkreter Betreiberbeleg. Das eingebundene werkenntdenBESTEN-Siegel stammt aus demselben 11880-Umfeld und liefert keine zweite unabhängige Identitätsquelle. Eurozeichen-/Preisspannen-FAQ enthält keine Materialpreise. Ankauf/Verkauf/Gebühren ohne Zahlenquelle; Frontmatter bleibt leer. Northdata-Direktversuch HTTP429, deshalb kein neuer Register-Negativbefund. Klärschritt: Gewerbeauskunft zur benannten Person/Adresse, keine Vermischung mit privaten Czaja-Einträgen. Quelle(n): https://www.11880.com/branchenbuch/upgant-schott/120674719B100598903/gerhard-czaja-schrotthandel.html ; https://www.northdata.de/?query=Gerhard%20Czaja (HTTP429).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: 11880, Cylex und Infobel führen weiterhin den älteren Gerhard-Czaja-Lead Graf-Enno-Str. 5, 26529 Upgant-Schott, Tel. 04934 5780; keine Quelle stammt vom Betreiber, und es wurde kein Register-/Kommunalbeleg oder aktueller Erstauftritt gefunden. Der separate private Eintrag "Czaja Franz und Johanne" bleibt wegen Name/Adresse/Telefon abweichend und wird nicht zusammengeführt. Keine Frontmatter-Änderung, Aktivität bleibt ungeklärt. **Preise:** keine Ankauf-, Verkaufspreise oder Gebührenliste gefunden. Quelle(n): https://www.11880.com/branchenbuch/upgant-schott/120674719B100598903/gerhard-czaja-schrotthandel.html ; https://web2.cylex.de/firma-home/schrotthandlung-gerhard-czaja-7782632.html ; https://www.infobel.com/de/germany/schrotthandlung_gerhard_czaja/upgant_schott/DE102943790-049345780/businessdetails.aspx]

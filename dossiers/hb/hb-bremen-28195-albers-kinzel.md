@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ungeklärte Altgesellschaft Albers & Kinzel; die erhaltene Registercheck-Recherche nennt Juwelier Albers & Kinzel GmbH, HRB 29079, als gelöscht. Am überlappenden Standort Pelzerstraße 4 wirbt heute Juwelier Cohrs mit identischer Telefonnummer. Das belegt einen anderen aktuellen Betreiberauftritt, nicht die Rechtsnachfolge oder Identität dieses Dossiers. Keine Cohrs-Kontakte, Zeiten oder Ankaufangebote auf Albers übertragen. **Ankauf/Verkauf/Gebühren:** keine Albers & Kinzel sicher zugeordnete Preisquelle. Klärfall bleibt statt automatischem Merge/Schließung.
 
 ## Timeline
+
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Aktuelle Cohrs-Filialdetailseite erneut gelesen: Pelzerstraße 4, 28195 Bremen / 0421 3015774, Edelmetall-/Schmuck-/Münzankauf, Mo-Fr 10–18/Sa 10–16. Sie enthält keine ausdrückliche Albers-&-Kinzel-Übernahme oder Rechtsnachfolgekette. Gleiche Telefonnummer/überlappende Adresse reichen dafür nicht; diese Cohrs-Werte bleiben nur Gegenprüfung und werden nicht transplantiert. Registercheck zum Albers-Rechtsträger heute HTTP429, daher frühere Löschungsangabe nicht als frisch bestätigt ausgeben und kein neues Löschdatum erfinden. Kein numerischer Albers-Ankauf, keine Albers-Verkaufsliste oder Gebührenquelle. Nächster belastbarer Schritt: Registerakte HRB 29079 und dokumentierter Übergang/Übernahme, getrennt von Cohrs HRB 225939. Quelle(n): https://juwelier-cohrs.de/filialen/bremen-pelzerstrasse/ ; https://www.registercheck.de/companies/juwelier-albers-kinzel-gmbh (HTTP429).]
 
 ### Recherche 03.10.2026 (Gesamtaudit B)
 

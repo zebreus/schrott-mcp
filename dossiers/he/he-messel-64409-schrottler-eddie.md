@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**Neuer Register-Einzelbeleg:** Northdata identifiziert Schrottler Eddie GmbH, AG Darmstadt HRB 96053 / EUID DEM1103.HRB96053. Als Geschäftsanschrift erscheint **Zeilharderstr. 23 a, 64409 Messel**, nicht die importierte Hausnummer 25a. Gegenstand: Annahme, Abholung, Sortierung und Verwertung von Eisen und Metallen. Die Eintragung vom 28.11.2016 nennt Erwin Hahn als Geschäftsführer; heutige Annahmekonditionen folgen daraus nicht.
+
+Registeranschrift noch nicht unabhängig bestätigt, daher kein Frontmatter-Adressfill. Vorhandene Telefonnummer stammt nur aus dem Seed/Verzeichnis und wurde heute nicht primär bestätigt. Betreiberwebsite, aktuelle Erreichbarkeit, Annahmezeiten und Vergütung offen. Keine numerische Ankauf-/Verkaufs-/Gebührenliste gefunden; Registergegenstand ist kein Preisangebot.
 
 ## Timeline
+
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Erstmals qualifizierter Register-Einzelbeleg direkt gelesen: Schrottler Eddie GmbH, Messel, AG Darmstadt HRB 96053, EUID DEM1103.HRB96053, Zeilharderstr. 23 a/64409 Messel. Gegenstand Annahme, Abholung, Sortierung und Verwertung von Eisen und Metallen; Publikationsübersicht nennt Eintragung 28.11.2016 mit Geschäftsführer Erwin Hahn. Widerspruch zum Import Zeilharder Str. 25a ausdrücklich nicht als Umzug aufgelöst. Keine Betreiberseite oder zweite unabhängige qualifizierte Quelle gefunden; Adresse/PLZ nicht gefüllt, Seedtelefon 06159/7179588 bleibt unbestätigter Altbestand. Offen: unabhängiger Register-/Betreiberabgleich zu 23a, aktueller Betrieb und vergüteter Ankauf statt bloßer Verwertung. Keine Ankauf-/Verkaufs-/Gebührentarife; Quelle: https://www.northdata.de/Schrottler%20Eddie%20GmbH,%20Messel/Amtsgericht%20Darmstadt%20HRB%2096053]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

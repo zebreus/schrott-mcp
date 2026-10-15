@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Frank Busanny bleibt ein unbestätigter Stralsunder Betreiberlead. Zur Sternschanze 60, 18439, Telefon und Öffnungszeiten wurden früher allein aus Gelbe Seiten übernommen; die damalige „Aggregator-Ausnahme“ erfüllt nicht den heutigen README-Belegstandard. Die Werte sind keine aktuelle Annahmebestätigung. **Ankauf:** weder vergütete Annahme noch Liste belegt; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Vor weiterer Nutzung der Adresse Betreiber-/Gewerbeauskunft und tatsächliche Platznutzung klären.
 
 ## Timeline
+
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Die historische Aggregator-Ausnahme ausdrücklich neu bewertet: bestehende Straße/PLZ/Telefon/Zeiten bleiben erhaltene Leads, keine verifizierten Betriebsfakten. Gelbe-Seiten-Branchenabruf aktuell HTTP403, deshalb keine frische Bestätigung des alten Inhalts. Separat gelesene Northdata-Suche „Frank Busanny“ liefert im ersten Block nur unscharfe Namensähnlichkeiten (u.a. Frank Bussmann / Frank Busk Heitmann), keinen zurechenbaren Stralsunder Schrottbetreiber; 15 von über 1000 Treffern sind kein erschöpfender Negativnachweis und kein Schließungsbeleg. Keine belastbare Ankauf-/Verkaufspreis- oder Gebührenquelle gewonnen. Offener nächster Schritt: kommunale Gewerbeauskunft Stralsund zu Frank Busanny und Zur Sternschanze 60, einschließlich Annahmezugang und aktueller Erreichbarkeit. Quelle(n): https://www.northdata.de/?query=Frank%20Busanny ; https://www.gelbeseiten.de/branchen/schrott/stralsund (HTTP403).]
 
 ### Recherche 02.10.2026
 

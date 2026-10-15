@@ -30,6 +30,10 @@ Anschrift/Kontakte bleiben bis Betreiber-, Register- oder kommunaler Bestätigun
 
 ## Timeline
 
+### Recherche 15.10.2026 (12:00-Welle B)
+
+- [Recherche 15.10.2026: SELLWERK-Detaileintrag direkt HTTP 200 erneut gelesen: Am Geheeg 6, 07356 Bad Lobenstein, 036651-30881/0174-2612819 und „Schrotthandel & Kleintransporte“. Kein Betrieb-im-eigenen-Impressum-Nachweis; „SELLWERK Trusted“/Registrieren und das Impressum des Portalbetreibers dürfen nicht als operator-run Social-Profil oder geprüfte Inhaberbestätigung gezählt werden. Der Zusatz Kleintransporte belegt außerdem weder Hofannahme noch kostenlose Abholung und keine Nachfolge eines Hausservice-Betriebs. ANKAUF: keine Zahlen; VERKAUF: keine Liste; GEBÜHREN: keine Transporttarife. Nächster sinnvoller Primärschritt: Gewerbeauskunft John Sinnig/Am Geheeg 6 mit Tätigkeitsumfang, nicht weiteres Zählen von Portalduplikaten; Frontmatter unverändert. Quelle: https://sellwerk.de/firmenprofil/sinnig-john-schrotthandel--kleintransporte .]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Erneute breite Namens-/Ortsprüfung bestätigt nur die bereits dokumentierten Branchenportal-Spuren zu John Sinnig/Am Geheeg 6; kein Betreiberauftritt, Handelsregister- oder kommunaler Gewerbenachweis zum Schrotthandel gefunden. Ähnlich benannte Hausservice-/Privatprofile reichen nicht zur Gleichsetzung oder zur Bestätigung einer Annahmestelle. Keine Frontmatter-Änderung, Status `pruefung`; weder Schließung noch aktuelle Tätigkeit behauptet. ANKAUF — keine Preise/Bedingungen; VERKAUF — keine Preisliste; GEBÜHREN — keine Tarife. Quellen/Leads: https://sellwerk.de/firmenprofil/sinnig-john-schrotthandel--kleintransporte ; https://web2.cylex.de/firma-home/sinnig-john-schrotthandel---hausservice-7184683.html ; https://www.schrottplatz.org/bad-lobenstein/schrott-sinnig-john-schrotthandel-und-hausservice-aYEPyH.html (Portal-Leads; geprüft 12.10.2026).]

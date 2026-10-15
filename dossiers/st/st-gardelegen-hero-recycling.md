@@ -28,6 +28,11 @@ Domain-Kandidat hero-recycling.com liefert eine umfangreiche Ankaufsliste im Sei
 
 ## Timeline
 
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Root und Impressum erneut separat direkt abgerufen; beide liefern weiterhin denselben passwortgeschützten Inhalt mit im normalen Abruf mitgelieferter Ankaufstabelle (keine Anmeldung/Umgehung). 30 numerisch belegte Materialzeilen plus Rotguss ohne Preis, weiterhin undatiert: u.a. Millberry 10,10 €/kg, E-Cu 10,05, Kupferapparate mind.85% 2,40–4,40, Schälkabel ab2,5cm ab3,40, Mischschrott 0,10 und Stahl über6mm 0,21. Vollständige Werte der Recherche06.10. unverändert lesbar; fehlenden Rotgusspreis nicht interpolieren, Spannen/ab-Schwellen nicht in Fixpreise umwandeln. Neu ausdrücklich dokumentiert: Kassenzeiten Mo-Fr09:00–16:00, Annahme Mo-Fr09:00–15:45; das sind unterschiedliche Zeitfenster, nicht bis16:00 anliefern ableiten. Weiter Barpreise ohne MwSt., private Auszahlung nach Wiegen gegen Ausweis, ohne Abzüge/Skonto; kein Beleg für kostenlose Container/Abholung. Quelle(n): https://hero-recycling.com/ ; https://hero-recycling.com/impressum.]
+- [Recherche 15.10.2026: Identitäts-/Kontaktproblem bleibt: keine ladungsfähige Anschrift, kein vollständiger Rechtsträger/HR-Eintrag im vermeintlichen Impressum. Zusätzlich weicht der Telefonlink tel:+439087987271 von der sichtbar deutschen Nummer039087987271 ab; nicht als österreichischen oder verifizierten deutschen Kontakt übernehmen. Preisfragen-Link017674556632 ist ebenfalls nur Domainangabe. Keine sichere Verbindung zum Gardelegen/Sachauer-Str.-1-Lead oder zu Herms. Tabelle daher nur undatierter Domain-Preisfund, keine freigegebene Händlerpreisquelle und keine neue Frontmatter-Zeit/Telefon/Website. Verkauf: keine Liste; Gebühren: keine Tarife, Aussage „ohne Skontogebühren“ betrifft Auszahlung, nicht Entsorgungsentgelte. Owner muss Rechtsträger und konkrete Standortzuordnung vor Preisveröffentlichung unabhängig beweisen; Quelle(n): https://hero-recycling.com/ ; https://hero-recycling.com/impressum.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

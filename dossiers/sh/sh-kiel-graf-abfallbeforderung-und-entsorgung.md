@@ -33,6 +33,10 @@ Das Betreiber-Impressum führt Martin Graf e.K., Kolonnenweg 31, 24113 Kiel, HRA
 
 ## Timeline
 
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Impressum, Containerleistung und zusätzliche Elektroschrott-Detailseite einzeln gelesen. Impressum bestätigt Martin Graf e.K., HRA 12865 KI und Kolonnenweg 31. Elektroschrottleistung ausdrücklich für Kiel, Hamburg und Schleswig-Holstein: Küchen-/Hausgeräte, Kommunikations-/Unterhaltungselektronik und Werkzeuge aus Haus/Garten, Gewerbe sowie Privat. Dies belegt ein Entsorgungsangebot, nicht vergüteten Ankauf, kostenlose Rücknahme oder freien Selbstanlieferungszugang am Kolonnenweg. Container 1–35 m³ und Preise ausdrücklich auf Anfrage. Ankauf: keine Zahlen/kein belegtes aktuelles Altmetall-Ankaufangebot; Verkauf: keine Liste; Gebühren: keine numerische Tabelle, Entsorgungs-/Containerangebot individuell klären. Keine Bedingungen strukturiert als pauschales Ja eingetragen; status pruefung bleibt. Quelle(n): https://www.graf-entsorgung.de/info/impressum.html ; https://www.graf-entsorgung.de/leistungen/container/ ; https://www.graf-entsorgung.de/entsorgung/elektroschrott/ (Direktabrufe).]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Betreiber-Impressum identifiziert Martin Graf e.K. am Kolonnenweg 31, 24113 Kiel, HRA 12865 KI, 0431 52 16 18, info@graf-entsorgung.de; NorthData führt denselben Rechtsträger/HR-Eintrag. Der aktuelle Betreiberauftritt beschreibt Entsorgungsleistungen und Container 1–35 m³, Preis auf Anfrage. Die Über-uns-Seite nennt Schrotthandel nur als historischen zweiten Geschäftsbereich; keine aktuelle Annahme/Ankaufspreise daraus ableiten. Stammdaten ergänzt, Status bleibt pruefung, da aktive Entsorgung nicht gleichbedeutend mit aktiver Schrottannahme ist. Quelle(n): https://www.graf-entsorgung.de/info/impressum.html ; https://www.graf-entsorgung.de/leistungen/container/ ; https://www.graf-entsorgung.de/info/ueber-uns.html ; https://www.northdata.de/Martin%20Graf%20e.K.,%20Kiel/HRA%2012865%20KI]

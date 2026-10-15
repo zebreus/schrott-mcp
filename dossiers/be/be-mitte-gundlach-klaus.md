@@ -28,6 +28,10 @@ Adresse und Mobilnummer stammen bislang nur aus einem Branchenportal. Weder Betr
 
 ## Timeline
 
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Konkreten Portal-Datensatz direkt neu gelesen: Ungarnstr. 68 / 13349 und 0171 9935369 nur Verzeichniswerte; „zur Homepage“ verlinkt tatsächlich auf die Portalwurzel /, nicht auf eine Betreiberwebsite. Beschreibungs-, Leistungs- und Öffnungszeitenbereiche sind ausdrücklich leer. Damit keine aktuelle Annahme oder Ankaufsvergütung belegt und kein Website-Fill aus dem irreführenden Link. Portal-Umkreislinks sind keine gesellschaftsrechtlichen Verbindungen. Ankauf/Verkauf/Gebühren ohne Preisquelle; kein neuer Kontaktfill oder Statuswechsel. Klärfrage für Gewerbeauskunft: vollständiger Inhaber, aktuelle Nutzung Ungarnstr. 68 und mobile Abholung versus zugänglicher Platz. Quelle: https://www.schrottplatz-info.de/schrottplatz/Berlin/Gundlach-Klaus.]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Re-Check des Seed-Leads „Gundlach Klaus“, Ungarnstr. 68, 13349 Berlin, Mobil 0171 9935369: auffindbar bleibt nur der Aggregator-Eintrag bei schrottplatz-info; keine unabhängige Betreiber-, Register- oder kommunale Quelle zur Berliner Person/Firma gefunden. Die irrtümlich an die Straße angehängte Mobilnummer wurde aus dem Straßenfeld entfernt und bleibt nur als unbestätigter Portal-Lead in dieser Notiz, nicht im strukturierten Kontaktfeld; Straße und PLZ sind ebenfalls ungeprüft. Status aktiv → pruefung. Preise: ANKAUF – nur Portalbehauptung „ja“, kein Kurs/keine Preisliste; VERKAUF – keine Liste; GEBÜHREN – keine Tarifquelle. Geocoding zurückgestellt, bis Adresse und Betrieb bestätigt sind. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Berlin/Gundlach-Klaus; Websuche 06.10.2026 (kein Primärtreffer).]

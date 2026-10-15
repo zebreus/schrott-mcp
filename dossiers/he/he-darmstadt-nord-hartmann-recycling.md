@@ -32,6 +32,10 @@ Neue Social-Spur: Facebook `HartmannRecyclingDarmstadt` wirbt im Suchindex für 
 
 ## Timeline
 
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Facebook direkt HTTP 200, lesbarer Text jedoch nur Hartmann Recycling | Darmstadt, ohne auswertbare Inhaber-/Adress-/Kontaktangaben. hartmann-recycling.de im Direktabruf weiterhin Namensauflösung fehlgeschlagen. Neue Northdata-Suche liefert unter anderem Hartmann GmbH in Offenbach a. Main (vormals Hartmann Recycling GmbH, HRB 58329), aber keine belegte Verbindung zum Darmstädter Lead: nicht als Umbenennung/Nachfolge oder HaRec/FKS-Identität übernehmen. Offen bleibt die Entflechtung des Gehaborner-Weg-Clusters. Keine Frontmatter-Fills und keine zuordenbare Ankauf-/Verkaufs-/Gebührenliste; Quelle(n): https://www.facebook.com/HartmannRecyclingDarmstadt/ ; https://www.hartmann-recycling.de/ ; https://www.northdata.de/?query=Hartmann%20Recycling%20Darmstadt]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Neue mögliche Primärspur: Facebook HartmannRecyclingDarmstadt; Suchindex nennt Hartmann Recycling, Darmstadt und Eigenwerbung Recycling/Demontage/Entrümpelung/Entsorgung. Direktabruf der Profilseite liefert keinen auswertbaren Inhalt; Accountinhaber, Anschrift und Impressum nicht gelesen. hartmann-recycling.de erneut Direktabruf Transportfehler. Frühere absolute Aussage „keine Betreiberquelle“ präzisiert: Social-Kandidat existiert im Index, aber noch kein qualifizierter Identitäts-/Standortnachweis. Kein Aktiv-/Kontaktfill, kein Merge mit HaRec/FKS. Ankauf/Verkauf/Gebühren nicht verifiziert; GEO für Gehaborner Weg 2 erst nach Entflechtung. Quelle: https://www.facebook.com/HartmannRecyclingDarmstadt/ ; https://www.hartmann-recycling.de/]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registeridentität WSR Warnemünder Schrott und Recycling GmbH, HRB 13748 Rostock, vormals Lüneburger Rohstoffhandel und Recycling GmbH, dokumentiert. Gartenstraße 23 ist eine Geschäftsanschrift, bislang keine bestätigte öffentliche Annahmestelle. Die zuletzt sichtbare Abschlussveröffentlichung betrifft 2021; daraus weder fortbestehende Kundenannahme noch Schließung ableiten. **Ankauf:** keine konkrete Liste; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Unabhängige aktuelle Betreiber-/Standortquelle fehlt.
 
 ## Timeline
+
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Northdata-Gesellschaftsprofil direkt erneut vollständig im öffentlich lesbaren Teil geprüft: HRB 13748, frühere Firma Lüneburger Rohstoffhandel und Recycling GmbH, Gartenstr. 23, 18119 sowie Gegenstand Metalle/Altholz bestätigt. Sichtbare Publikationen reichen weiterhin bis 27.12.2022 (Abschluss 2021); keine neue Standort-/Annahmequelle aus dem Profil. Fehlende jüngere Abschlüsse sind kein Schließungsnachweis. Registergegenstand ist keine Zusage vergüteter Annahme für private Anlieferer. Kein eigener Kontakt/Betreiberpreisstand erschlossen; Ankauf-, Verkaufspreise und Gebühren bleiben offen. Der Überblick trennt jetzt Registeridentität und realen Platzbetrieb; Status und Stammdaten unverändert. Quelle: https://www.northdata.de/WSR+Warnem%C3%BCnder+Schrott+und+Recycling+GmbH,+Rostock/Amtsgericht+Rostock+HRB+13748.]
 
 ### Recherche 04.10.2026
 

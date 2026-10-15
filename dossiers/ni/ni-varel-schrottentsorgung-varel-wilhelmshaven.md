@@ -33,6 +33,10 @@ Die bisherige Orts-/Kontaktnennung stammt aus einer SEO-/Branchenverzeichnisfami
 
 ## Timeline
 
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Portal direkt erneut gelesen. Auffälliger interner Widerspruch: dynamischer Kopf „Geschlossen, öffnet morgen um 12:00“ versus Wochenplan Mo-Fr 08:00–20:00/Sa 09:00–18:00. Weder Kopf noch Wochenplan als Betreiberzeiten oder Dauerschließung interpretieren. Auf der Seite fehlt weiterhin eine identifizierte Rechtsperson/Betreiberwebsite; Materialrubriken sind Verzeichnis-Kategorielinks, keine Händlerpreisliste. Eisen ab 100 kg/NE ab 1 kg bleiben unbestätigte Mindestgewichtsangaben, nicht €/kg-Preise und keine kostenlosen Abholbedingungen. Keine Ankauf-, Verkaufspreise oder Gebühren in der gelesenen Seite. Unveränderter Klärfall: wer betreibt den unter Dangaster Str. 68 / 01520 9774291 gelisteten Dienst, gibt es dort Anlieferung oder nur mobile Abholung? Kein Fill/keine Geokodierung. Quelle: https://lokaleschrottplatz.de/schrottentsorgung-varel-wilhelmshaven/.]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Direkter Re-Check der LokaleSchrottplatz-Seite bestätigt nur Portalangaben: Dangaster Str. 68, 26316 Varel, 01520 9774291, werktags 08:00–20:00, samstags 09:00–18:00; Portalstatus „geschlossen, öffnet morgen“ ist keine Dauerschließungsinformation. FE-Mindestmenge 100 kg und NE 1 kg sind Annahmeschwellen, keine Ankaufspreise. Trotz Materialliste keine Zahlenpreise oder belastbare Gebühren-/Abholliste gefunden. Keine Frontmatter-Fills/Geokodierung. Quelle: https://lokaleschrottplatz.de/schrottentsorgung-varel-wilhelmshaven/ (nicht betreibereigener Portalbeleg)]

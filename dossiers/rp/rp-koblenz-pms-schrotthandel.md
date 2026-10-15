@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberseite nennt Pascal Schneider in Koblenz, Hintermark 35–37; die Kontakt-/Adressübernahme bleibt wegen des dokumentierten Belegklärfalls offen. Der eigene Auftritt bestätigt Schrott-/NE-Metallankauf, Abholung mit Ladekran, Container und Demontage für Gewerbe, Industrie und Privatkunden. Kleinmengen werden nur nach Wirtschaftlichkeitsprüfung abgeholt, nicht bedingungslos. Keine öffentliche Annahmezeit daraus ableiten.
+
+**Ankauf:** individuelle Vergütung nach Metall, Qualität, Sortierung, Menge und Markt; Transport/Demontage können berücksichtigt werden, keine Zahlenliste. **Verkauf:** Kfz-Teilehandel ausdrücklich ausgeschlossen. **Gebühren:** Containerstellung 7–40 m³ nur abhängig von Material/Menge/Einsatzort kostenfrei; Fehlbefüllung und Vermischung können Zusatzkosten verursachen. Standzeit individuell, kein Eurotarif. Impressum nennt info@pms-schrotthandel.de, Seitenkopf pms.schrotthandel@gmail.com; nicht stillschweigend eine Mail bevorzugen.
 
 ## Timeline
+
+### Recherche 15.10.2026, Welle 12:00 A
+
+- [Recherche 15.10.2026: Impressum, Ankauf- und Containerseite erneut einzeln gelesen. Präzisierung gegenüber pauschalem Gratis-/Ankaufverständnis: auch kleinere Mengen nur nach Prüfung von Metallart/Gewicht/Entfernung; Anhaftungen, Transport und Demontage beeinflussen Vergütung. Container 7–40 m³ nur bedingt kostenfrei, Standzeit individuell; Fehlbefüllung/Vermischung können Mehrkosten auslösen. Kein An-/Verkauf von Kfz-Teilen, Katalysatoren nur nach Abstimmung/Prüfung. Keine numerische Ankauf-/Verkaufs-/Gebührenliste in diesen Seiten. Inhaber und beide verschiedenen Mailangaben unverändert; Northdata-Personensuche ergibt in den ersten 15 Treffern keinen zuordenbaren Koblenzer Einzelbeleg, nicht als Nichtexistenz werten. Bestehender EGRW-Nachweis bleibt historische Zusatzquelle, heute nicht neu zertifikatsgeprüft. Frontmatter mangels neuem qualifiziertem Zweitbeleg unverändert; Quelle(n): https://www.pms-schrotthandel.de/impressum/ ; https://www.pms-schrotthandel.de/schrotthandel-metallankauf/ ; https://www.pms-schrotthandel.de/containerdienst-fuer-schrott-metallabfaelle/ ; https://www.northdata.de/?query=Pascal%20Schneider%20Koblenz]
 
 ### Recherche 05.10.2026
 

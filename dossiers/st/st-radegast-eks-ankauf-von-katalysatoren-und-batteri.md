@@ -32,6 +32,10 @@ Der Seed nennt „EKS“ und den Ankauf von Katalysatoren/Batterien an Bahnhofst
 
 ## Timeline
 
+### Recherche 15.10.2026 (Welle 1200 C)
+
+- [Recherche 15.10.2026: Northdata-Suche „EKS Radegast“ direkt gelesen: erste15 von über1000 Treffern bestehen aus Radegast-Namensähnlichkeiten/ausländischen Gesellschaften (u.a. Tennisverein in Tschechien, Radegast-Gesellschaften in Bulgarien/Niederlanden), kein zurechenbarer Kat-/Batterieankäufer an Bahnhofstraße13. Diese unscharfe Rangliste widerlegt die Existenz eines nicht eingetragenen Einzelgewerbes nicht; keine falsche Zuordnung über die bloße Abkürzung EKS. Kein Betreiber-/Kontaktfill, keine Schließung. Ankauf/Verkauf/Gebühren ohne verifizierten Zahlenfund. Konkrete nächste Frage an Gewerbeauskunft Südliches Anhalt: wofür steht EKS, wer ist Inhaber an Bahnhofstraße13 und wird dort aktuell vergüteter Kat-/Batterieankauf betrieben? Bis dahin bleibt die Adresse Seed-Lead ohne neue Geokodierung. Quelle: https://www.northdata.de/?query=EKS%20Radegast.]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Exakte Suchkombinationen zu „EKS“, Katalysator-/Batterieankauf und Bahnhofstraße 13, Radegast führten in den aktuellen Treffern nicht zu einem eindeutig zuordenbaren Betreiber-, Register- oder kommunalen Beleg; Treffer zu gleichnamigen EKS-Unternehmen sind fachfremd/nicht zuordenbar. Der Seed bleibt ein offener Lead. Keine Kontaktdaten, Statusänderung oder Website ergänzt. **Ankauf:** Angebot und Kurse nicht bestätigt; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Bahnhofstraße 13 vor positiver Händlerbestätigung nicht geokodieren; Quelle: keine verifizierbare positive Betreiberquelle gefunden.]
