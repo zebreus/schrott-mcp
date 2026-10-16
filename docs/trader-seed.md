@@ -55,6 +55,21 @@ not restore old values. Rebuild before applying a changed directive.
 
 ## GEO contract
 
+### Legacy service flags and retained claims
+
+Old databases may still contain `accepts_dropoff` / `accepts_pickup` columns.
+They are not part of the current trader schema or the MCP documented contract;
+their old defaults (including `accepts_dropoff=1` on new inserts into an old
+table) are **not verified service facts**. Use the conditional `dropoff_json` /
+`pickup_json` objects instead; missing `allowed` means unknown, not yes or no.
+Raw SQL users can still see the obsolete columns: do not infer service from
+them or assume that a seed updates them to match the JSON.
+
+An empty dossier service field keeps stored JSON, including an old
+`{"allowed":true}`. Changing `status` to `pruefung` does not withdraw it.
+Withdrawing such a claim requires its own reviewed `clear_fields` directive;
+neither a status correction nor an address withdrawal proves the stored claim.
+
 Core address fields follow a different contract: `street` and `postcode` are
 passed directly to the normal trader upsert. On a changed seed, an empty dossier
 address therefore **replaces the stored address with an empty string**. They are

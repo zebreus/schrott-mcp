@@ -7,6 +7,7 @@ city: Jever
 street: ''
 postcode: ''
 phone: ''
+clear_fields: phone
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +28,10 @@ provenance_origin: table
 Offener Orts-/Identitätsklärfall: Die Betreiberwebsite von Thomas Brosda nennt Altmetallankauf in Wangerland/Wiefels, nicht Jever. Der bisherige Verzeichnisbeleg verbindet diese Orte nicht ausreichend. Keine Schließung oder Verlegung bewiesen; Kontaktdaten und Leistungen bleiben als Betreiber-Einzelbeleg in der Timeline.
 
 ## Timeline
+
+### Seed-Wirkungsprüfung 16.10.2026
+
+- [Korrektur 16.10.2026: Die am 14.10. begründete Rücknahme des Jever-Telefonfelds war im Seed unwirksam: leere Enrichmentfelder erhalten gespeicherte Werte. Echte seed_metadata-Probe auf privater Produktionskopie bestätigte, dass 04461 965331 ohne Direktive bestehen bleibt. Deshalb clear_fields: phone ausdrücklich gesetzt; beim nächsten regulären Seed wird nur das Telefon zurückgenommen, Historie und andere Felder bleiben erhalten. Keine neue Identitäts-/Umzugsentscheidung, keine Behauptung entfernter Koordinaten oder Annahmezusagen. Belegbasis bleibt die Quellenbewertung vom 14.10.; Wirkungsvertrag docs/trader-seed.md und research/checkin-20261016-0300-upgrade-seed-review.md. Keine Produktions-SQL-Änderung.]
 
 ### Recherche 14.10.2026
 
