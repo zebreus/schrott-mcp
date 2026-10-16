@@ -4,7 +4,7 @@ name: Heine
 trader_type: autoverwertung
 state: ST
 city: Bernburg
-street: Schachtstr.
+street: ''
 postcode: 06406
 phone: 03471 311901
 email: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Neuer Betreiberauftritt Fahrzeugverwertung & Service Heine, Inhaber Thomas Heine, nennt Friedenshaller Ring 4, 06406 Bernburg mit derselben Rufnummer 03471 311901. Die alte Schachtstraße ist nur Portal-Lead; Umzug/Adresskette und unabhängige Zuordnung sind nicht abschließend belegt. Deshalb Adresse nicht überschrieben und bisheriges `aktiv` zu `pruefung` präzisiert, keine Schließungsbehauptung. Betreiber wirbt mit Fahrzeugankauf, Verwertung mit Verwertungsnachweis, Ersatzteil-/Reifenverkauf und Abschleppdienst, aber ohne numerische Ankauf-, Verkaufs- oder Gebührentarife. GEO erst nach Adresskettenprüfung.
+Neuer Betreiberauftritt Fahrzeugverwertung & Service Heine, Inhaber Thomas Heine, nennt Friedenshaller Ring 4, 06406 Bernburg mit derselben Rufnummer 03471 311901. Die alte Schachtstraße ist nur Portal-Lead; Umzug/Adresskette und unabhängige Zuordnung sind nicht abschließend belegt. Nach gezielter Gegenprüfung zieht der Owner die ungesicherte Straße aus dem aktuellen Feld zurück, ohne die neue Adresse als Ersatz freizugeben. Status bleibt `pruefung`, keine Schließungsbehauptung. Historische PLZ und Telefonnummer sind dadurch nicht neu qualifiziert bestätigt. Betreiber wirbt mit Fahrzeugankauf, Verwertung mit Verwertungsnachweis, Ersatzteil-/Reifenverkauf und Abschleppdienst, aber ohne numerische Ankauf-, Verkaufs- oder Gebührentarife. GEO erst nach Adresskettenprüfung.
 
 ## Timeline
+
+### Owner-Korrektur 16.10.2026, Nachprüfung 00:30
+
+- [Korrektur 16.10.2026: Gezielten Heine-Review vollständig gelesen und mit erhaltenem Dossier/der eigenen Impressumsprüfung der vorherigen Welle abgeglichen. Schachtstr. war allein aus Gelbe Seiten plus Seed-Kongruenz gefüllt; das genügt der README-Quellenhierarchie nicht. Deshalb street geleert; historischer Straßen-/Telefonfund vom 02.10. bleibt unten erhalten. Aktuelle Betreiber-Selbstauskunft Friedenshaller Ring 4 bleibt Einzelbeleg, kein Ersatz-Fill, kein bewiesener Umzug oder Schließung. Creditreform-Detail weiterhin 403; GESA-Suchanwendung lieferte dem Review keinen geprüften Firmendatensatz, keine Anerkennung/Abwesenheit behauptet. Leere Kernstraße überschreibt beim nächsten geänderten Seed die gespeicherte Straße tatsächlich; vorhandenes GEO bleibt dagegen technisch erhalten und wird dadurch nicht korrigiert. Kein GEO-Punkt freigegeben, status pruefung bleibt. Quellen: https://fahrzeugverwertung-heine.de/impressum/ ; https://www.gelbeseiten.de/suche/autoverwertung/bernburg (historischer Lead 02.10.2026); https://firmeneintrag.creditreform.de/06406/3290239757/THOMAS_HEINE_FAHRZEUGVERWERTUNG_SERVICE_HEINE (Review-Abruf 403).]
 
 ### Recherche 16.10.2026 — Shard 1
 

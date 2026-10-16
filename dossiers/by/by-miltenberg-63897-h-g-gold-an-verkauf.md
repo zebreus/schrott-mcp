@@ -35,6 +35,10 @@ Die folgenden Leistungen stammen aus der Anzeige von 2024, nicht aus einer aktue
 
 ## Timeline
 
+### Nachprüfung 16.10.2026, Check-in 00:30
+
+- [Recherche 16.10.2026: Gezielter Review findet neue Suchspur Hasan Kartal Gold An- und Verkauf, Creditreform 7090212951; Zielseite 403, daher ausdrücklich kein gelesener Rechtsträger-/Aktivbeleg oder freigegebener Inhabername. Owner hat MCity-Liste selbst gelesen: H&G-Name/Bild verlinken auf die bekannte Anzeige vom 12.06.2024, keine eigene Betreiberwebsite; außerdem Adelberger ebenfalls Hauptstraße 92 mit anderer Telefonnummer. Daraus weder Nachfolge noch heutige Doppelbelegung oder Schließung ableiten, fremde Nummer nicht übernehmen. Review las weitere Anzeige vom 22.12.2024 mit abgelaufener Verkaufsaktion 10 Prozent auf Silber nur 23.12.2024 bis Ende Januar 2025: kein Ankaufskurs, keine heutige Zusage oder unabhängiger Zweitbeleg. Frontmatter unverändert, status pruefung; historische Adresse/Kontakte/Zeiten bleiben unbestätigt. GEO zurückstellen, zunächst aktuellen Betreiber-/Gewerbebeleg zur Hasan-Kartal-Spur beschaffen. Quellen: https://mcity-miltenberg.de/mitglieder ; https://firmeneintrag.creditreform.de/63897/7090212951/HASAN_KARTAL_GOLD_AN_UND_VERKAUF (Review: Suchsnippet, Detail 403); https://www.meine-news.de/miltenberg/c-hobby-und-freizeit/hundg-gold-an-und-verkauf-10-nachlass-auf-das-gesamte-silber-sortiment_a191522 (Review: historische Anzeige).]
+
 ### Owner-Korrektur 16.10.2026
 
 - [Korrektur 16.10.2026: Owner hat den meine-news-Beitrag selbst gelesen: Datum 12.06.2024, direkt am Beitrag Anzeige und werblicher Inhalt. Redaktion als Autorenzeile macht die Anzeige nicht zum unabhängigen redaktionellen Zweitbeleg. Deshalb bisherige Aktivbestätigung auf pruefung zurückgenommen, keine Schließung behauptet. Historische Kontakt-/Adress-/Leistungswerte bleiben ausdrücklich unbestätigter Bestand; keine neuen Fills oder GEO-Freigabe. Für erneute Aktivierung aktuellen Betreiber-/Standortbeleg und unabhängige Identitätsbestätigung beschaffen. Quelle: https://www.meine-news.de/miltenberg/c-wirtschaft/hundg-gold-an-und-verkauf-ein-ort-der-herzlichkeit-und-fachkompetenz-in-miltenberg_a177235]
