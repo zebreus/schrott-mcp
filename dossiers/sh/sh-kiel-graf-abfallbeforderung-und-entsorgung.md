@@ -6,8 +6,8 @@ state: SH
 city: Kiel
 street: Kolonnenweg 31
 postcode: '24113'
-phone: 0431 52 16 18
-email: info@graf-entsorgung.de
+phone: ''
+email: ''
 opening_hours: ''
 website: https://www.graf-entsorgung.de/
 website_status: aktiv
@@ -32,6 +32,10 @@ Das Betreiber-Impressum führt Martin Graf e.K., Kolonnenweg 31, 24113 Kiel, HRA
 - **Geokodierung:** Betreiberadresse ist belegt; Koordinaten wurden in dieser Welle nicht geändert.
 
 ## Timeline
+
+### Kontaktgate 16.10.2026
+
+- Betreiber-Impressum und BFSG-Erklärung (erstellt 28.06.2025, überprüft 23.07.2025) belegen 0431 52 16 18 und info@graf-entsorgung.de; die geschützte Mail wurde tatsächlich dekodiert und stimmt mit dem Schwester-Impressum überein. Beide Domains gehören demselben Betreiber und sind keine unabhängigen Kontaktquellen. Northdata bestätigt Martin Graf/HRA 12865 KI, lieferte aber keinen positiven aktuellen Registerstatus. Kontakte deshalb bis zum vollständigen Quellen-/Ausnahmegate nicht strukturiert veröffentlichen; kein Urteil, die Kontakte seien falsch. Produktionskontaktfelder am 16.10.2026 nur lesend leer vorgefunden: leere Dossierwerte sind bewusst Keep, kein dauerhafter Clear. Status pruefung, Identität, Adresse und GEO unverändert; keine Öffnungszeiten oder öffentliche Schrottannahme hinzuinterpretieren. Quellen: https://www.graf-entsorgung.de/info/impressum.html ; https://www.graf-entsorgung.de/info/bfsg.html ; https://www.graf-entruempelung.de/impressum ; https://www.northdata.de/Martin%20Graf%20e.K.,%20Kiel/HRA%2012865%20KI . Vollständige Grenzen: research/checkin-20261016-0300-contact-gates-a.md.
 
 ### Recherche 15.10.2026 (Welle 1200 C)
 

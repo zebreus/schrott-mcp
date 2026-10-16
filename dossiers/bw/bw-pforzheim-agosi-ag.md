@@ -39,6 +39,10 @@ Die Betreiberseite nennt Kanzlerstr. 17 als AGOSI-Kontakt, einen Kundenschalter 
 
 ## Timeline
 
+### Zentralkontaktgate 16.10.2026
+
+- Telefon +49 7231 960-0 und info@agosi.de bleiben als Zentralkontakt freigegeben: Betreiber-Impressum und funktionsgetrennte Kontaktseite stimmen mit HRB 740361/LEI 529900IXMCVMVVHZWC76 überein. Der tatsächlich gelesene GLEIF-Datensatz nennt entity.status ACTIVE, registration.status ISSUED und FULLY_CORROBORATED; das gelesene Betriebsruhe-PDF enthält konkrete Termine 2026 und Wiedererreichbarkeit ab 04.01.2027. Damit ist die Ausnahme für genau diese beiden eigenen Kontakte belegt, nicht eine pauschale Standort-/Annahmefreigabe. Telefonzeiten der Zentrale, Kundenschalterzeiten Robert-Bauer-Straße und NE-Anlieferzeiten Am Hauptgüterbahnhof bleiben getrennt; kein neuer Stunden-/Adress-/GEO-Fill. Quellen: https://agosi.de/impressum/ ; https://agosi.de/kontakt/ ; https://api.gleif.org/api/v1/lei-records/529900IXMCVMVVHZWC76 ; https://www.agosi.de/wp-content/uploads/Holiday-Kalender-2026.pdf . Vollständige Prüfung: research/checkin-20261016-0300-contact-gates-a.md.
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Edelmetall + NE-Metallhandel (Am Hauptgüterbahnhof)

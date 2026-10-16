@@ -6,9 +6,9 @@ state: NI
 city: Neustadt am Rübenberge
 street: Justus-von-Liebig-Straße 22
 postcode: '31535'
-phone: 05032 4683
-email: info@fernau-containerdienst.de
-opening_hours: 'Mo–Fr 07:00–17:00 Uhr'
+phone: ''
+email: ''
+opening_hours: ''
 website: https://fernau-containerdienst.de/
 website_status: aktiv
 status: aktiv
@@ -32,6 +32,10 @@ Das Betreiber-Impressum identifiziert die Fernau Containerdienst GmbH, Justus-vo
 - **Geokodierung:** tatsächliche Betreiberadresse ist nun belegt; Koordinaten hier nicht geändert und sollten für Neustadt neu ermittelt/geprüft werden.
 
 ## Timeline
+
+### Kontaktgate 16.10.2026
+
+- Telefon 05032 4683 und info@fernau-containerdienst.de sind zusätzlich im fachlichen Auditbericht vom November 2025 (S.3) genannt; Betreiber-Footer nennt Mo–Fr 07:00–17:00. Das Original-Efb-Zertifikat 25-8052-18-28 gilt bis 19.05.2027 und bestätigt Neustadt/HRB 110122. Die Registerpublikation vom 17.04.2026 belegt die Umfirmierung zur Fernau Containerdienst GmbH. Ein positiver aktueller Registerstatus wurde jedoch nicht gewonnen; Klaus Dietrich Urban im heutigen Impressum widerspricht dem aktuellen Ein-Geschäftsführer-Strukturstand des Registerspiegels. Deshalb Kontakte/Stunden bis zur vollständigen Ausnahmeprüfung nicht strukturiert veröffentlichen. Produktionsfelder am 16.10.2026 nur lesend sämtlich leer vorgefunden: leere Dossierwerte bedeuten bewusst Keep, kein Clear und keine Behauptung gelöschter Altwerte. Kein Falschheits-/Schließungsurteil, keine Rückkehr zum falschen Nienburger Betriebsort, keine GEO-Änderung. Quellen: https://fernau-containerdienst.de/impressum ; https://fernau-containerdienst.de/files/pdf/zzct004000811009-efb-zertifikat.pdf ; https://fernau-containerdienst.de/files/pdf/251120-auditbericht-fernau-2025.pdf ; https://www.northdata.de/?id=5840317941153792 . Vollständige Grenzen: research/checkin-20261016-0300-contact-gates-a.md.
 
 ### Korrektur 13.10.2026
 

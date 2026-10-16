@@ -6,8 +6,8 @@ state: BY
 city: Aschaffenburg
 street: Ruchelnheimstr. 3B
 postcode: '63743'
-phone: '06028 21188 / 0170 4765501'
-email: info@willefuehr-whg.de
+phone: ''
+email: ''
 opening_hours: ''
 website: https://www.willefuehr-whg.de
 website_status: aktiv
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der frühere Seedname „Willeführ Tanksanierung/Demontage/Metallhandel“ passt zum aktuellen Betreiberauftritt **Willeführ-WHG**: Dessen Impressum nennt Romano A. Willeführ, HRA 3535 und Ruchelnheimstraße 3B, 63743 Aschaffenburg. NorthData ordnet HRA 3535 der ROWIS Industrieservice e.K. mit Inhaber Romano Willeführ zu; der sichtbare ältere Registerstand nennt noch Ruchelnheimstraße 3a (2009), und einen aktuellen Registerstatus konnte ich daraus nicht bestätigen. Kontaktdaten und Website sind deshalb als Betreiberangaben übernommen; der Status bleibt `pruefung`, weil weder Metallankauf noch ein öffentlicher Schrottannahmepunkt belegt sind. Ein separates Schrotthandel-Willeführ-Angebot nennt Alexander Willeführ in Obernburg; eine Verbindung zu Romano ist nicht belegt und wird nicht unterstellt.
+Der frühere Seedname „Willeführ Tanksanierung/Demontage/Metallhandel“ passt zum aktuellen Betreiberauftritt **Willeführ-WHG**: Dessen Impressum nennt Romano A. Willeführ, HRA 3535 und Ruchelnheimstraße 3B, 63743 Aschaffenburg. NorthData ordnet HRA 3535 der ROWIS Industrieservice e.K. mit Inhaber Romano Willeführ zu; der sichtbare ältere Registerstand nennt noch Ruchelnheimstraße 3a (2009), und einen aktuellen Registerstatus konnte ich daraus nicht bestätigen. Die Website bleibt als Betreiberangabe dokumentiert; die Kontakte stehen nach dem Kontaktgate vom 16.10.2026 nur in der Recherchehistorie, nicht als strukturierte Veröffentlichung. Der Status bleibt `pruefung`, weil weder Metallankauf noch ein öffentlicher Schrottannahmepunkt belegt sind. Ein separates Schrotthandel-Willeführ-Angebot nennt Alexander Willeführ in Obernburg; eine Verbindung zu Romano ist nicht belegt und wird nicht unterstellt.
 
 **Preise:** keine zuordenbaren Angaben zu Metallankauf, Warenverkauf, Demontageangeboten oder Gebühren. Vor GEO zuerst Betreiberidentität, Hausnummer/Postleitzahl und Kundenzugang belegen.
 
 ## Timeline
+
+### Kontaktgate 16.10.2026
+
+- Festnetz 06028 21188, Mobilnummer 0170 4765501 und info@willefuehr-whg.de sind echte Betreiberangaben, aber zwei Betreiberdomains sind kein unabhängiger Doppelbeleg. Positiver aktueller Registerfortbestand HRA 3535, Rolle von ROWIS gegenüber Willeführ-WHG und die 3a-/3B-Zuordnung bleiben offen; aus Zertifikatsbildern wurde keine Gültigkeit verifiziert. Kontakte daher nicht strukturiert veröffentlichen, ohne sie als falsch oder den Betrieb als geschlossen zu bezeichnen. Produktionskontaktfelder am 16.10.2026 nur lesend leer: leere Dossierfelder sind bewusst Keep, kein persistenter Clear. Status pruefung, Adresse, Website und GEO unverändert. Keine Verbindung zu Alexander Willeführ/Obernburg unterstellen. Quellen: https://www.willefuehr-whg.de/kopie-von-kontakt ; https://www.willefuehr-whg.de/kontakt ; https://www.willefuehr-whg.de/zertifikate ; https://willefuehr-whg-maengelbeseitigung.de/impressum ; https://www.northdata.de/ROWIS%20Industrieservice%20e.%20K.,%20Aschaffenburg/HRA%203535 . Vollständige Grenzen: research/checkin-20261016-0300-contact-gates-a.md.
 
 ### Recherche 13.10.2026
 
