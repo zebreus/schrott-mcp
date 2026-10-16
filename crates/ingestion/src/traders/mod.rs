@@ -357,7 +357,7 @@ pub async fn record_outcome(
             handler_slug,
             snapshot.observation(),
             now,
-            Some(snapshot.row_dates()),
+            Some(snapshot),
         )
         .await;
     }
@@ -408,8 +408,10 @@ async fn record_dated_observation(
     handler_slug: &str,
     outcome: &HandlerOutcome,
     now: &DateTime<Utc>,
-    row_dates: Option<&[String]>,
+    dated: Option<&handlers::hofmann_rastatt::DatedSnapshot>,
 ) -> Result<RecordSummary, super::IngestError> {
+    let row_dates = dated.map(|snapshot| snapshot.row_dates());
+    let ungraded_tin_present = dated.is_some_and(|snapshot| snapshot.ungraded_tin_present());
     // Validate the entire date transport before enrichment or price writes.
     if let Some(dates) = row_dates {
         if dates.len() != outcome.prices.len()
@@ -446,6 +448,20 @@ async fn record_dated_observation(
         });
     };
     let now_s = now.to_rfc3339();
+    // Validated source-row coexistence is a durable non-retirement decision,
+    // even if neither tin row is numeric. Do not infer absence from prices.
+    if handler_slug == handlers::hofmann_rastatt::SLUG
+        && outcome.fetch_url == handlers::hofmann_rastatt::URL
+        && dated.is_some_and(|snapshot| snapshot.both_tin_grades_present())
+    {
+        public
+            .preserve_hofmann_tin_grades(trader_id, &now_s)
+            .map_err(|source| IngestError::Catalog {
+                what: "Hofmann tin coexistence",
+                name: handler_slug.to_owned(),
+                source,
+            })?;
+    }
     let baseline = internal.last_ok_step_items(handler_slug).unwrap_or(None);
     // Snapshot current prices BEFORE writing, for change inference and jump
     // detection.
@@ -523,7 +539,7 @@ async fn record_dated_observation(
             extra["published_at_basis"] = serde_json::json!(basis);
         }
         let extra_json = extra.to_string();
-        match public.record_price(&schrott_mcp_store::NewPrice {
+        let new_price = schrott_mcp_store::NewPrice {
             trader_id,
             material_id,
             variant: p.variant.as_ref(),
@@ -544,7 +560,21 @@ async fn record_dated_observation(
             notes: &p.label,
             extra_json: &extra_json,
             ingested_at: &now_s,
-        }) {
+        };
+        // All typed Hofmann tin writes use the persistent cutover contract,
+        // including old-key replays and explicit request-only coexistence.
+        let result = if handler_slug == handlers::hofmann_rastatt::SLUG
+            && row_dates.is_some()
+            && outcome.fetch_url == handlers::hofmann_rastatt::URL
+            && p.material == "zinn"
+        {
+            public
+                .record_hofmann_tin_price(&new_price, ungraded_tin_present)
+                .map(|_| ())
+        } else {
+            public.record_price(&new_price).map(|_| ())
+        };
+        match result {
             Ok(_) => {
                 recorded += 1;
                 // Jump canary against the pre-write snapshot (same

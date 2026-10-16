@@ -1418,6 +1418,7 @@ dependencies = [
 name = "schrott-mcp-store"
 version = "0.1.0"
 dependencies = [
+ "chrono",
  "rusqlite",
  "schrott-mcp-core",
  "serde",

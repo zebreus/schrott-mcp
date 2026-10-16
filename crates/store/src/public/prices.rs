@@ -774,7 +774,11 @@ impl PublicDb {
         Ok(rows)
     }
 
-    fn record_price_on(conn: &rusqlite::Connection, p: &NewPrice<'_>) -> Result<i64, StoreError> {
+    pub(super) fn record_price_on(
+        conn: &rusqlite::Connection,
+        p: &NewPrice<'_>,
+    ) -> Result<i64, StoreError> {
+        let hofmann_time = super::hofmann_tin::guard_write_on(conn, p)?;
         if !PRICE_KINDS.contains(&p.price_kind) {
             return Err(StoreError::Rejected("unknown price_kind"));
         }
@@ -898,7 +902,15 @@ impl PublicDb {
         let newer = match current {
             None => true,
             Some((old_id, old_observed)) => {
-                (p.observed_at, price_id) > (old_observed.as_str(), old_id)
+                if let Some(incoming) = &hofmann_time {
+                    // Guarded keys accept several UTC spellings, including
+                    // existing raw rows. Carry the exact same time ordering
+                    // through to Current, without rewriting their history.
+                    let previous = super::hofmann_tin::utc_key(&old_observed)?;
+                    (incoming.as_str(), price_id) > (previous.as_str(), old_id)
+                } else {
+                    (p.observed_at, price_id) > (old_observed.as_str(), old_id)
+                }
             }
         };
         if newer {
@@ -1021,7 +1033,7 @@ impl PublicDb {
     }
 }
 
-fn row_to_price(r: &rusqlite::Row<'_>) -> rusqlite::Result<PriceRow> {
+pub(super) fn row_to_price(r: &rusqlite::Row<'_>) -> rusqlite::Result<PriceRow> {
     Ok(PriceRow {
         id: r.get(0)?,
         trader_id: r.get(1)?,

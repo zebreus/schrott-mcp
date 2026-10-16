@@ -22,6 +22,7 @@
 //! - `extra_json` on every table is reserved headroom for future fields —
 //!   the schema grows by adding columns, never by breaking old ones.
 
+mod hofmann_tin;
 pub mod materials;
 pub mod prices;
 pub mod traders;
@@ -275,6 +276,7 @@ impl PublicDb {
         conn.execute_batch(traders::SCHEMA)?;
         conn.execute_batch(materials::SCHEMA)?;
         conn.execute_batch(prices::SCHEMA)?;
+        conn.execute_batch(hofmann_tin::SCHEMA)?;
         conn.execute_batch(LEGACY_DROP)?;
         traders::migrate(&conn)?;
         prices::migrate(&conn)?;
