@@ -4,6 +4,21 @@
 into embedded seed JSON. Rebuild the binary after dossier changes; the
 seed applies the embedded data, not live Markdown files.
 
+## Material catalog refresh is not source freshness
+
+`seed_metadata` also upserts the static material catalog. Its
+`materials.updated_at` is the time that catalog definition was applied/refreshed,
+including when the definition did not change. Repeated upserts can advance the
+SQLite sequence without adding material rows. Neither effect proves new research,
+a fresh price, or a trader's acceptance of that material.
+
+Use price `published_at` / `observed_at` and acceptance evidence for those separate
+questions. A new catalog entry alone creates no price or acceptance. Source-specific
+grades and overlapping material fractions remain distinct; the catalog is not a
+globally disjoint taxonomy. Units are normalization targets, not price quotations.
+This timestamp is publicly queryable; external SQL consumers must not interpret
+it as a source-verification timestamp.
+
 ## Explicit enrichment clears (opt-in)
 
 Blank enrichment fields listed below normally **keep stored enrichment**, not delete it.
