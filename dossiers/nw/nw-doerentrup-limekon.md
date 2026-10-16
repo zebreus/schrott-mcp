@@ -6,15 +6,16 @@ state: NW
 city: Dörentrup-Bega
 street: Bahnhofstr. 23
 postcode: '32694'
-phone: '+49 5263 9561906'
-email: info@limekon.de
-opening_hours: 'Mo-Di 09:00-17:00; andere Wochentage nach Absprache; Betriebsferien 16.12.2026-10.01.2027'
+phone: ''
+email: ''
+opening_hours: ''
+clear_fields: 'phone,email,opening_hours,dropoff_json,pickup_json'
 website: https://limekon.de/pages/ankauf.php
 website_status: aktiv
 status: aktiv
-description: 'Ankauf von Zinn und Zinnlegierungen, versilbertem Besteck sowie Silber, Gold und weiteren Edelmetallen. Persönliche Anlieferung mit Analyse und Auszahlung in Dörentrup-Bega oder Zusendung; Abholung größerer Mengen nach Vereinbarung. Versandgebühren und Abholschwellen sind auf den Betreiberseiten widersprüchlich.'
-dropoff_json: '{"allowed":true,"days":["Mo","Di"],"time_windows":["09:00-17:00"],"conditions":"Persönlicher Ankauf mit Sortierung und RFA-Analyse; weitere Wochentage nach Absprache. Umgehende Auszahlung per Überweisung oder PayPal, bar gegen Personalausweis bis 1500 EUR. Betriebsferien 16.12.2026-10.01.2027. Paketannahme laut Betreiber an allen Tagen, Bearbeitung vorrangig Montag bis Mittwoch; kein Beleg für tägliche persönliche Öffnung."}'
-pickup_json: '{"allowed":true,"conditions":"Abholung/Vor-Ort-Bewertung nur nach Terminvereinbarung für größere Mengen. Ankaufseite nennt ab ca. 200 kg und Deutschland/Schweiz, Startseite ab 300 kg/10000 EUR und Deutschland/Österreich/Schweiz. Schwellen und Gebiet vor Auftrag klären; keine uneingeschränkte oder kostenlose Abholung behauptet."}'
+description: 'Metall-/Edelmetallankauf; laut Betreiber Zinn und Zinnlegierungen, versilbertes Besteck, Silber, Gold sowie persönliche Anlieferung, Zusendung und Abholung nach Vereinbarung. Konkrete Servicebedingungen sind nicht unabhängig bestätigt; Versandgebühren und Abholschwellen widersprechen sich zwischen Betreiberseiten.'
+dropoff_json: ''
+pickup_json: ''
 provenance_section: 'Aufnahmegate Audit 7 Feedback #6549 / #7008 (Index 29)'
 provenance_ankauf_raw: ja
 provenance_origin: feedback
@@ -31,6 +32,10 @@ Lippisches Metall Kontor ist die auf der aktuellen Startseite erklärte Namensau
 Die Preisliste vom 14.10.2026 zeigt Ankauf-Richtpreise, keinen Warenverkauf und keine Entsorgungsgebühren. Die separate Paketmarkengebühr darf nicht in Materialpreise umgedeutet werden. Versandkosten, Abholschwellen und Zinngrade unterscheiden sich zwischen Unterseiten; Einzelheiten und spätere Handlergrenzen stehen in research/feedback-20261014-limekon-admission.md. Keine Preise, Koordinaten oder Zertifizierungsnachweise importiert; die EFB-Aussage ist Betreiber-Selbstauskunft ohne abgerufenes Zertifikat.
 
 ## Timeline
+
+### Owner-Nachprüfung 16.10.2026
+
+- [Korrektur 16.10.2026: Identität/Adresse/Domain und Aktivität der LIMEKON GmbH durch Betreiber, NorthData HRB7953/Lemgo und frische GLEIF-Originaldaten bestätigt. Telefon+49 5263 9561906, info@limekon.de, persönliche Zeiten Mo/Di09–17/sonst Absprache und Ferien16.12.2026–10.01.2027 bleiben jedoch nur Betreiber-belegt. Creditreform-Original403, Suchindex nur Lead. Aktuellem Impressum fehlt HRB; die bereits14.10. ausdrücklich nicht beanspruchte README-Ausnahme wird nicht nachträglich behauptet. Daher Kontakt-/Stundenfelder und positive Anliefer-/Abhol-JSON ausdrücklich zurückgenommen, clear_fields verhindert Erhalt gespeicherter Altzusagen. Beschreibung formuliert Detailleistungen als Betreiberangabe statt kuratierter Zusage. Kein negatives allowed:false, keine Schließung, keine Preis-/GEOänderung. Versand7/10EUR und Abholschwellen200/300kg/10000EUR bleiben widersprüchliche Eigenangaben in der Historie. Quellen: https://limekon.de/pages/impressum1.php ; https://limekon.de/pages/ankauf.php ; https://limekon.de/ ; https://limekon.de/pages/paketmarke.php ; https://api.gleif.org/api/v1/lei-records/52990009EHJQWTYJ7757 ; Detailreview: research/checkin-20261016-0300-contact-gates-b.md.]
 
 ### Recherche 14.10.2026
 

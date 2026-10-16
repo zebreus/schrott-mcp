@@ -6,9 +6,10 @@ state: HE
 city: Lampertheim
 street: Wilhelm-Herz-Ring 2
 postcode: '68623'
-phone: 06206 9510626
-email: info@sm-metals.com
-opening_hours: 'Mo-Fr 08:00-16:30; Sa 09:00-14:00'
+phone: ''
+email: ''
+opening_hours: ''
+clear_fields: 'phone,email,opening_hours'
 website: https://www.sm-metals.com/
 website_status: aktiv
 status: aktiv
@@ -31,6 +32,10 @@ Der passende Betreiberauftritt ist **sm-metals.com**, nicht die zuvor notierte D
 - **Gebühren:** keine Tarifliste. Abholung wird für Geschäftskunden angeboten; Preis/Bedingungen nicht veröffentlicht. Nicht als kostenfrei darstellen.
 
 ## Timeline
+
+### Owner-Nachprüfung 16.10.2026
+
+- [Korrektur 16.10.2026: Frischer Review verifizierte Betreiber/HRB92336 Darmstadt/Adresse und GLEIF ACTIVE; Original-PÜG K12534-20251218-Efb-de/ZZHT004002540008, ausgestellt18.12.2025 und gültig bis27.05.2027, tatsächlich gelesen. Anlagen nennen Lager und Transformatorendemontage an Wilhelm-Herz-Ring2; bloßer Postanschriftvorbehalt ersetzt keine Prüfung der Anlage, öffentliche Privatannahme bleibt dennoch unbelegt. Identität, Domain und Aktivstatus als Metallhandels-/Demontagegesellschaft freigegeben, keine Verbindung zur fremden sm-metallhandel.com-UG. Kontakt06206 9510626/info@sm-metals.com und Stunden Mo–Fr08–16:30/Sa09–14 sind nur Betreiber-belegt; aktuellem Impressum fehlt HRB, vollständige README-Ausnahme nicht erfüllt. Diese Detailfelder daher ausdrücklich mit clear_fields zurückgenommen, nicht als falsch oder Betriebsschließung bezeichnet. Frühere Betreiberangaben und Historie bleiben erhalten; keine neuen Service-/GEO-/Preiszusagen. Quellen: https://www.sm-metals.com/impressum/ ; https://www.sm-metals.com/kontakt/ ; https://www.sm-metals.com/wp-content/uploads/2025/12/EFB-Zertifikat-2026.pdf ; https://api.gleif.org/api/v1/lei-records/529900MCN7P34NCZFE79 ; Detailreview: research/checkin-20261016-0300-contact-gates-b.md.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

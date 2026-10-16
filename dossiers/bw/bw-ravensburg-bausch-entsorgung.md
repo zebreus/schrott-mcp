@@ -8,9 +8,10 @@ lat: 47.7928391
 lon: 9.6111644
 street: Bleicherstraße 35
 postcode: '88212'
-phone: '+49 751 36322-9'
-email: bausch@bausch-entsorgung.de
-opening_hours: 'Mo-Fr 07:00-17:00; Sa 07:00-12:00'
+phone: ''
+email: ''
+opening_hours: ''
+clear_fields: 'phone,email,opening_hours'
 website: https://www.bausch-entsorgung.de/
 website_status: aktiv
 status: aktiv
@@ -26,11 +27,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiber führt den **Wertstoffhof Ravensburg, Bleicherstraße 35, 88212 Ravensburg**, als Annahmestelle für Schrott und Metall; kleinere Mengen werden laut Betreiber auch an den Umladestellen Isny, Bad Waldsee und Bad Wurzach angenommen. Öffnungszeiten des Ravensburger Hofs: Mo–Fr 07:00–17:00, Sa 07:00–12:00. Standorttelefon: +49 751 36322-9; allgemeiner Kontakt: +49 751 36322-0, bausch@bausch-entsorgung.de. Die Einordnung als aktiver Standort wird von der aktuellen Betreiberseite gestützt; Annahmebedingungen der weiteren Umladestellen sind nicht näher beschrieben.
+Der **Wertstoffhof Ravensburg, Bleicherstraße 35, 88212 Ravensburg**, ist durch Betreiber, Registerspiegel und aktuelles DEKRA-Zertifikat belegt. Die separate Metallannahme nennt abweichend vom allgemeinen Hof Mo–Fr 07–12/13–17, samstags keine Metallannahme und Barauszahlung bis16 Uhr. Die bislang strukturierte Nummer mit Endung -9 ist falsch; der Betreiber nennt -29. Kontakt- und Stundenangaben bleiben mangels vollständigem README-Feldbeleg nur attribuierte Betreiberinformation in der Timeline; keine Übertragung der allgemeinen Hofzeiten auf Metallannahme oder andere Standorte.
 
 **Preisrichtungen:** Ankauf — keine numerischen Schrottpreise veröffentlicht; „Sammelschrott/Mischschrott“ im Bestellportal nur „Jetzt anfragen“. Verkauf — keine Materialverkaufspreise gefunden. **Gebühren** — der mit Bausch verknüpfte Container-Shop zeigt Ab-Preise für Abfallcontainer; sie sind Entsorgungs-/Containergebühren, keine Ankaufskurse (Details im Wave-Bericht). Dort angezeigte Festpreise schließen laut Shop Lieferung, Standzeit, Abholung und fachgerechte Entsorgung ein; Postleitzahl für exakte Auswahl erforderlich.
 
 ## Timeline
+
+### Owner-Korrektur 16.10.2026
+
+- [Korrektur 16.10.2026: Aktuelle dedizierte Metallannahmeseite ownerseitig gelesen: Bleicherstraße35, +49 751 36322-29, bausch@bausch-entsorgung.de; Mo–Fr07–12/13–17, samstags keine Metallannahme, Barauszahlung bis16Uhr. Bisherige Endung -9 widerspricht diesem Primärbeleg; allgemeine Wertstoffhofzeiten einschließlich Samstag sind keine Metallannahmezeiten. Register HRB550546/Ulm und Original-DEKRA121197659/ZZHT003006615011 bis08.05.2027 bestätigen laut frischem Review Identität/Adresse und aktuellen Entsorgungsbetrieb, nicht unabhängig diese Details. Aktuelles Impressum ohne HRB erfüllt die Betreiber-Ausnahme nicht. Daher Telefon/E-Mail/Stunden strukturiert zurückgenommen, explizit clear_fields gegen Keep-Semantik; kein ungeprüfter Ersatzfill -29. Aktivstatus, belegte Adresse und vorhandener Gebäude-/Adresspunkt unverändert; keine neue GEO-/Privatannahmefreigabe oder Schließung. Quellen: https://www.bausch-entsorgung.de/standorte/schrott-und-metallannahme/ ; https://www.bausch-entsorgung.de/standorte/wertstoffhof-ravensburg/ ; https://www.bausch-entsorgung.de/impressum/ ; https://www.bausch-entsorgung.de/wp-content/uploads/2025/09/Entsorgungsfachbetrieb_EFB-Zertifikat_2027.pdf ; vollständiger Quellenreview: research/checkin-20261016-0300-contact-gates-b.md.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
