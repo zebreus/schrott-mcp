@@ -15,7 +15,7 @@ HANDLERS = {
     "be-spandau-elno-container-und-dienstleistungs": (36, "exact", False, 3),
     "by-kulmbach-trapper": (21, "approx", True, 0),
     "he-erlensee-agh-altgoldhandel": (8, "exact", True, 0),
-    "sn-halsbrucke-09633-saxonia-edelmetalle": (4, "exact", True, 6),
+    "sn-halsbrucke-09633-saxonia-edelmetalle": (4, "approx", True, 6),
     "bw-rastatt-hofmann": (23, "exact", True, 0),
     "be-spandau-regold-edelmetallhandel": (20, "approx", False, 0),
 }
@@ -80,8 +80,9 @@ def main():
             if fetch and row["source_url"] != fetch["url"]:
                 failures.append("price/fetch provenance mismatch")
             if dated:
-                if not row["published_at"] or json.loads(row["extra_json"]).get("published_at_basis") != "page_stated":
-                    failures.append("page-stated publication date missing")
+                basis = "row_stated" if slug == "bw-rastatt-hofmann" else "page_stated"
+                if not row["published_at"] or json.loads(row["extra_json"]).get("published_at_basis") != basis:
+                    failures.append(f"{basis.replace('_', '-')} publication date missing")
             elif row["published_at"] is not None:
                 # Later comparable price changes may legitimately infer a date.
                 if json.loads(row["extra_json"]).get("published_at_basis") != "observed_price_change":

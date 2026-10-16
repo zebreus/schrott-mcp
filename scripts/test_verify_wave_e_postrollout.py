@@ -16,26 +16,79 @@ SPEC = importlib.util.spec_from_file_location("wave_e_verifier", SCRIPT)
 VERIFIER = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFIER)
 SINCE = "2026-10-11T09:00:00Z"
+NOTES_FIXTURE = SCRIPT.parent / "fixtures" / "wave-e-20261011-notes.json"
+DOSSIER_REVISION = "db6c81e048458b12a0d9fd1aefde6fbcb7320a40"
 
 
-def dossier_notes(slug):
-    # Fixture extraction follows documented build.rs Timeline formatting only;
-    # actual rehearsal evidence was independently taken from the seeded DB.
-    path = SCRIPT.parent.parent / "dossiers" / slug[:2] / (slug + ".md")
-    bullets = []
-    timeline = False
-    for line in path.read_text().splitlines():
-        if not timeline:
-            timeline = line.rstrip() == "## Timeline"
-            continue
-        if line.startswith("## ") and line[3:4] and not line[3].isspace():
-            break
-        text = line.strip()
-        if text.startswith("- "):
-            bullets.append(text[2:].strip())
-        elif text and not text.startswith("#") and bullets:
-            bullets[-1] += " " + text
-    return " | ".join(" ".join(bullet.split()) for bullet in bullets)
+def load_notes_fixture(path=NOTES_FIXTURE):
+    # Frozen Timeline output from db6c81e0, independently checked against all
+    # 60 historical manifest digests. Never read current dossiers or Git here.
+    fixture = json.loads(path.read_text())
+    manifest = VERIFIER.load_manifest()
+    if (set(fixture) != {"version", "dossier_revision", "traders"}
+            or fixture["version"] != 1
+            or fixture["dossier_revision"] != DOSSIER_REVISION
+            or manifest["dossier_revision"] != DOSSIER_REVISION[:8]):
+        raise ValueError("historical notes fixture revision mismatch")
+    rows = fixture["traders"]
+    expected = {row["slug"]: row["notes_sha256"] for row in manifest["traders"]}
+    if (len(rows) != 60
+            or any(set(row) != {"slug", "notes"} for row in rows)
+            or len({row["slug"] for row in rows}) != 60
+            or {row["slug"] for row in rows} != expected.keys()):
+        raise ValueError("historical notes fixture scope mismatch")
+    for row in rows:
+        if (not isinstance(row["notes"], str)
+                or hashlib.sha256(row["notes"].encode()).hexdigest() != expected[row["slug"]]):
+            raise ValueError("historical notes fixture digest mismatch: " + row["slug"])
+    return {row["slug"]: row["notes"] for row in rows}
+
+
+class WaveENotesFixtureTests(unittest.TestCase):
+    def test_loading_requires_only_static_fixture_and_manifest(self):
+        read_text = Path.read_text
+        allowed = {NOTES_FIXTURE.resolve(), VERIFIER.MANIFEST.resolve()}
+
+        def static_read(path, *args, **kwargs):
+            self.assertIn(path.resolve(), allowed)
+            return read_text(path, *args, **kwargs)
+
+        with patch.object(Path, "read_text", static_read), \
+                patch.object(subprocess, "run", side_effect=AssertionError("no runtime Git")), \
+                patch.object(subprocess, "check_output", side_effect=AssertionError("no runtime Git")):
+            self.assertEqual(len(load_notes_fixture()), 60)
+
+    def test_historical_revision_scope_and_all_manifest_hashes(self):
+        notes = load_notes_fixture()
+        expected = VERIFIER.load_manifest()["traders"]
+        self.assertEqual(len(notes), 60)
+        self.assertEqual(set(notes), {row["slug"] for row in expected})
+        for row in expected:
+            with self.subTest(slug=row["slug"]):
+                self.assertEqual(hashlib.sha256(notes[row["slug"]].encode()).hexdigest(),
+                                 row["notes_sha256"])
+
+    def test_fixture_rejects_wrong_revision_scope_or_content(self):
+        base = json.loads(NOTES_FIXTURE.read_text())
+        mutations = [lambda f: f.update(version=2),
+                     lambda f: f.update(dossier_revision="81a64832"),
+                     lambda f: f["traders"].pop(),
+                     lambda f: f["traders"].append(f["traders"][0]),
+                     lambda f: f["traders"].__setitem__(0, f["traders"][1]),
+                     lambda f: f["traders"][0].update(slug="unrelated"),
+                     lambda f: f["traders"][0].update(extra="unexpected"),
+                     lambda f: f["traders"][0].update(notes=None),
+                     lambda f: f["traders"][0].update(notes=""),
+                     lambda f: f["traders"][0].update(notes=f["traders"][0]["notes"] + " changed")]
+        with tempfile.TemporaryDirectory(dir="/tmp/opencode") as directory:
+            path = Path(directory) / "notes.json"
+            for index, mutate in enumerate(mutations):
+                with self.subTest(mutation=index):
+                    fixture = json.loads(json.dumps(base))
+                    mutate(fixture)
+                    path.write_text(json.dumps(fixture))
+                    with self.assertRaises(ValueError):
+                        load_notes_fixture(path)
 
 
 class WaveEPostrolloutTests(unittest.TestCase):
@@ -46,10 +99,11 @@ class WaveEPostrolloutTests(unittest.TestCase):
         self.db = sqlite3.connect(self.directory / "public.db")
         self.addCleanup(self.db.close)
         self.expected = VERIFIER.load_manifest()["traders"]
+        self.notes = load_notes_fixture()
         columns = sorted(VERIFIER.FIELDS | {"slug", "notes", "updated_at", "lat", "lon"})
         self.db.execute("CREATE TABLE traders (" + ",".join(f"{c} TEXT" for c in columns) + ")")
         for expected in self.expected:
-            notes = dossier_notes(expected["slug"])
+            notes = self.notes[expected["slug"]]
             self.assertEqual(hashlib.sha256(notes.encode()).hexdigest(), expected["notes_sha256"])
             values = {"slug": expected["slug"], "notes": notes, "updated_at": SINCE,
                       **expected["values"]}
@@ -103,7 +157,7 @@ class WaveEPostrolloutTests(unittest.TestCase):
         self.assertEqual(result["checked_count"], 59)
 
     def test_notes_missing_changed_or_history_removed(self):
-        for notes in (None, "", "Recherche 11.10.2026", dossier_notes(self.expected[0]["slug"]) + " changed"):
+        for notes in (None, "", "Recherche 11.10.2026", self.notes[self.expected[0]["slug"]] + " changed"):
             with self.subTest(notes=notes):
                 self.db.execute("UPDATE traders SET notes=? WHERE slug=?", (notes, self.expected[0]["slug"]))
                 self.db.commit()

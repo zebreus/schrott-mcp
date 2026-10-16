@@ -45,6 +45,10 @@ class VerifyReleaseTests(unittest.TestCase):
         """)
         price_id = 0
         for trader, (slug, (count, kind, dated, skips)) in enumerate(VERIFIER.HANDLERS.items(), 1):
+            # Independently model current handler output, not the verifier's contract.
+            if slug == "sn-halsbrucke-09633-saxonia-edelmetalle":
+                kind = "approx"
+            basis = "row_stated" if slug == "bw-rastatt-hofmann" else "page_stated"
             url = f"https://fixture.invalid/{slug}"
             self.public.execute("INSERT INTO traders VALUES (?, ?)", (trader, slug))
             for _ in range(count):
@@ -52,7 +56,7 @@ class VerifyReleaseTests(unittest.TestCase):
                 self.public.execute("INSERT INTO prices (id,price,currency,unit,price_kind,confidence,source_type,published,source_url,observed_at,published_at,extra_json) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", (
                     price_id, 1.0, "EUR", "EUR/g", kind, 0.8 if kind == "approx" else 1.0,
                     "haendler_angabe", 1, url, SINCE, SINCE if dated else None,
-                    json.dumps({"published_at_basis": "page_stated"} if dated else {}),
+                    json.dumps({"published_at_basis": basis} if dated else {}),
                 ))
                 self.public.execute("INSERT INTO current_prices VALUES (?,1,?)", (trader, price_id))
             message = f"{count} Preise übernommen" + (f", {skips} übersprungen" if skips else "")
@@ -83,6 +87,27 @@ class VerifyReleaseTests(unittest.TestCase):
         code, results = self.verify()
         self.assertEqual(code, 1)
         self.assertIn("no post-rollout step", results[0]["failures"])
+
+    def test_saxonia_old_exact_semantics_fail(self):
+        self.public.execute("UPDATE prices SET price_kind='exact', confidence=1.0 WHERE id IN "
+                            "(SELECT c.price_id FROM current_prices c JOIN traders t ON t.id=c.trader_id "
+                            "WHERE t.slug='sn-halsbrucke-09633-saxonia-edelmetalle')")
+        self.public.commit()
+        code, results = self.verify()
+        self.assertEqual(code, 1)
+        result = next(r for r in results if r["slug"] == "sn-halsbrucke-09633-saxonia-edelmetalle")
+        self.assertIn("quote uncertainty mismatch", result["failures"])
+
+    def test_hofmann_requires_row_stated_dates(self):
+        self.public.execute("UPDATE prices SET extra_json=? WHERE id IN "
+                            "(SELECT c.price_id FROM current_prices c JOIN traders t ON t.id=c.trader_id "
+                            "WHERE t.slug='bw-rastatt-hofmann')",
+                            (json.dumps({"published_at_basis": "page_stated"}),))
+        self.public.commit()
+        code, results = self.verify()
+        self.assertEqual(code, 1)
+        result = next(r for r in results if r["slug"] == "bw-rastatt-hofmann")
+        self.assertIn("row-stated publication date missing", result["failures"])
 
     def test_connection_blocks_writes_even_if_query_only_is_disabled(self):
         path = self.directory / "public.db"
