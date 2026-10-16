@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Klärfall zum früheren Betreiber Klaus Reining. Die direkt abgerufene aktuelle Containerdienst-Website erklärt, dass Salih Gencsoy seit Mai 2020 den früheren Containerdienst Reining unter neuem Namen und neuer Inhaberschaft fortführt. Das ist ein Nachfolger an Ringstraße 7 und kein Beleg für die Fortexistenz von Klaus Reining am alten Datensatz Karlstraße 1. Keine Kontakt- oder Standortdaten zwischen den Personen übertragen.
+Klärfall zum früheren Betreiber Klaus Reining. Die Vorrecherche dokumentiert eine Nachfolger-Erklärung zu Salih Gencsoy seit Mai 2020. Der heutige Webauftritt ist neu als JavaScript-Anwendung aufgebaut: öffentlich ausgelieferte Über-uns-Komponente nennt den Betrieb seit Mai 2020 ausdrücklich „laut bisheriger Website“, während Vorgänger-/Historienaussagen noch Kundenfreigabe benötigen. Das heutige Impressum hat Platzhalter für Rechtsform/USt-ID. Die Nachfolgekette bleibt deshalb unabhängig zu belegen, nicht als neu bestätigte Registertatsache behandeln. Gencsoy/Ringstraße 7 nicht auf Klaus Reining/Karlstraße 1 übertragen.
+
+**Ankauf / Verkauf / Gebühren:** für Klaus Reining keine bestätigte Zahlenliste; Container-/Schüttgut-/Maschinenangebote des heutigen Auftritts gehören nicht automatisch zum Altbetreiber. **GEO:** Karlstraße 1 nicht auf Ringstraße 7 verschieben; zuerst Altgewerbe/Abmeldung und Übernahme klären.
 
 ## Timeline
+
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Home und /datenschutz liefern HTTP 200, aber nur eine App-Hülle; kein erneut gelesener alter Seitentext. Daraufhin tatsächlich ausgelieferte JS-Quellen gelesen: Seo-Konfiguration nennt Salih Gencsoy, Ringstraße 7, 64850 Schaafheim, 0170 8648439/06073 7447301 und operatingSince Mai 2020, historyPredecessor leer. Über-uns-Komponente sagt seit Mai 2020 laut bisheriger Website und ausdrücklich: Aussagen zur Firmengeschichte und möglichem Vorgänger erst nach Kundenfreigabe. Impressums-Komponente enthält Rechtsform/USt-ID vom Kunden ergänzen. Neuer Auftritt ist daher kein neuer unabhängiger Beweis der Reining-Nachfolge; frühere Aussagen als Historie erhalten. Kein Rename/Kontakttransfer, keine Ankauf-/Verkaufspreise oder Gebühren des Altbetreibers verifiziert. GEO erst nach rechtlicher/örtlicher Klärung. Quellen: https://containerdienst-schaafheim.de/ ; https://containerdienst-schaafheim.de/datenschutz ; https://containerdienst-schaafheim.de/assets/index-CY3DI_9e.js ; https://containerdienst-schaafheim.de/assets/Seo-DTvtlKDA.js ; https://containerdienst-schaafheim.de/assets/UeberUns-CamdrXxU.js ; https://containerdienst-schaafheim.de/assets/Impressum-DA8ZMBv_.js ; https://containerdienst-schaafheim.de/assets/Kontakt-u3FhrzKh.js.]
 
 ### Recherche 06.10.2026
 

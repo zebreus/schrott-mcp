@@ -28,6 +28,10 @@ Namens-/Umzugsklärfall: Die bisherige Kandidatendomain schrotthandel-dortmund.d
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Versa-Kandidatenimpressum direkt HTTP 200 gelesen: Schrotthandel Dortmund, Inhaber Mahmud El Chahine, Huckarder Str. 118a, 44147 Dortmund, 0231 33038683, DE321317500; Datenschutztext nennt Versa, Impressum keine HRB. Beweist weiter nicht die historische Kressenweg-Zuordnung oder eine neue Rechtsnachfolge; Betreiber-Ausnahme nicht angewandt. A&R-Abgrenzung aus Vorrecherche erhalten. ANKAUF: Tageshöchstpreis-Werbung ohne Zahlen; VERKAUF: keine Zielpreisliste; GEBÜHREN: kostenlose Abholung im Kandidatenheader, nicht diesem ungeklärten Dossier zusichern. GEO: Kressenweg-/Versa-Kette vor Huckarder-Standortpunkt beweisen. Quelle: https://schrotthaendler-dortmund.de/impressum/]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein belastbarer Beleg. Kandidaten-Domain schrotthandel-dortmund.de per Tooling nicht lesbar (JS/bot-blockiert); nur Aggregator-Leads ("mobil", Dortmund); DDG-Captcha-blockiert. Adresse/Website/Ankaufstatus ungeklärt - Folgewelle. Quellen: keine (Leads zaehlen nicht).]

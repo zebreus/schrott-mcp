@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Niemann Schrott und Abriss bleibt ohne geklärten Inhaber oder Betreiberauftritt. Altschmiedestraße 24, 18055 Rostock und 0177 8672278 werden im Schrottplatzportal geführt, sind aber keine qualifizierten Standort-/Kontaktbelege. Das Portal erklärt selbst, Angebot und Öffnungszeiten seien nicht erfasst; die Einordnung als öffentlich zugänglicher Schrottplatz ist damit nicht bestätigt. Industriebedarf Niemann-Laes und SANi Team Bau sind keine nachgewiesenen Identitäten dieses Seeds.
+
+**Ankauf:** weder vergütete Annahme noch Zahlenkurse bestätigt. **Verkauf:** keine Liste. **Gebühren:** Abriss/Abholung ohne belegte Bedingungen oder Tarife. **GEO:** Inhaber, aktuelle Betriebsstätte und Kundenannahme zuerst prüfen; Portalanschrift nicht automatisch als Hof geokodieren.
 
 ## Timeline
+
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Schrottplatz-Info-Detail direkt gelesen (HTTP 200): Altschmiedestr. 24/18055/0177 8672278, Angebot und Öffnungszeiten ausdrücklich nicht erfasst, defekter/leerer Homepageverweis. Neue Suche Niemann Schrott Abriss Rostock Altschmiedestraße liefert u.a. Industriebedarf Niemann-Laes/Schmarler Damm und SANi Team Bau/Carl-Hopp-Straße; kein Identitäts-/Nachfolgebeleg, keine Übertragung. Bestehende Portal-Fills nicht als verifiziert neu bestätigt. ANKAUF/VERKAUF/GEBÜHREN keine Zielpreisliste; GEO erst nach Betreiber-/Annahmeprüfung. Quelle: https://www.schrottplatz-info.de/schrottplatz/Rostock/Niemann-Schrott-und-Abriss.]
 
 ### Recherche 02.10.2026
 

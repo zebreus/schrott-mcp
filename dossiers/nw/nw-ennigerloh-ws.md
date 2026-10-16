@@ -32,6 +32,10 @@ Derzeitiger Lead „WS Dienstleistungen“ wird nur von Gelbe Seiten mit Breslau
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Neue konkret gelesene Gegenadresse im Handwerkerportal: W.s Dienstleistungen, Am Rottkamp 7, 59320 Ennigerloh, clean-house@freenet.de, Haushaltsauflösung/Entrümpelung/Umzüge; Eintrag fragt nach Übernahme durch Inhaber und ist kein verifizierter Betreiberauftritt. Breslauer Str. 27a aus GS versus Am Rottkamp 7 nicht als Umzug bewiesen; kein Kontakt-/Mailfill. WSD Hamburg/W&S Iserlohn nicht zuordnen. ANKAUF: kein Zielkurs; VERKAUF: keine Liste; GEBÜHREN: keine Tarifordnung, GS-Gratisabholung bleibt unbestätigt. GEO: vollständiger Anbietername und Adresshistorie vor Koordinaten. Quelle: https://suchehandwerker.de/betrieb/w-s-dienstleistungen-180756/]
+
 ### Recherche 15.10.2026, Welle 12:00 A
 
 - [Recherche 15.10.2026: Gelbe-Seiten-Detail diesmal HTTP 403, daher frühere Angaben nicht als neu gelesen ausgeben. Ergänzende Northdata-Suche WS Dienstleistungen Ennigerloh direkt geprüft: erste 15 unscharfe Treffer betreffen andere Orte, darunter eine frühere WS Dienstleistungen GmbH mit Registergericht Münster, aber Firmenort Neustadt a. d. Weinstraße. Allein das nahe Registergericht stellt keine Identität mit Ennigerloh her. Breslauer Straße/Telefon/Zeiten und Gratisabholung bleiben Leads; kein Kontaktfill und keine Betriebs-/Schließungsentscheidung. Ankauf-/Verkaufs-/Gebührentarife nicht bestätigt; Quelle(n): https://www.gelbeseiten.de/gsbiz/073c5efb-18b8-4fe4-8f0c-58426d504590 (403); https://www.northdata.de/?query=WS%20Dienstleistungen%20Ennigerloh]

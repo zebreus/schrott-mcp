@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neue historische Namensspur: Ein Vereinsbeitrag von 2019 bedankt sich bei „Rohstoffverwertung Norbert Reisigel“. Das ist kein aktueller Betreiber-/Registerbeleg und sichert weder Helmsgrün 106 noch den konkurrierenden Gewerbegebiet-3-Lead. **Ankauf / Verkauf / Gebühren:** keine belegte Liste. **GEO:** Anschrift und Rechtsträger zuerst klären; `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: Eigenständige Suche fand historischen Sponsorbeitrag des VfR Bad Lobenstein vom 07.07.2019, direkt gelesen: Rohstoffverwertung Norbert Reisigel ausdrücklich genannt. Das erweitert die Namenssuche um Norbert, beweist aber keinen aktuellen Betrieb/Ankauf oder Adresse; Vereinsseite gehört nicht zur README-Belegklasse Betreiber/Register/Kommune. Suchtreffer führen neben Helmsgrün 106 auch Helmsgrün Gewerbegebiet 3 (meinestadt-Umgebungslead); Adresskonflikt nicht durch Übernahme auflösen. ANKAUF/VERKAUF/GEBÜHREN: keine aktuelle numerische Quelle. GEO zurückstellen, nächster Schritt Gewerbeauskunft unter Norbert Reisigel und beiden Adressspuren. Quelle: https://www.vfr-badlobenstein.de/news/4120-2019-saisonabschluss-der-d-junioren]
 
 ### Recherche 02.10.2026
 

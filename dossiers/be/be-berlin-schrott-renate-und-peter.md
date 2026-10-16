@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Gelbe-Seiten-Listeneintrag nennt „Schrott Renate und Peter“ und 030 6842306, aber weiterhin keine Straße/PLZ. Unklar ist schon, ob „Schrott“ Firmenbezeichnung oder Personenname ist; Inhaber, Gewerbe und tatsächliche Annahmestelle sind nicht belegt. Die frühere Formulierung „doppelbestätigt“ aus Verzeichniswiederholungen erfüllt nicht den README-Quellenstandard.
+
+**Ankauf:** Branche Schrott ist kein Vergütungs-/Annahmebeweis, keine Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. **GEO:** keine Adresse vorhanden; weder Telefonnummer noch Stadtmitte als Standort geokodieren. Gewerbe-/Betreiberidentität zuerst klären.
 
 ## Timeline
+
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: GS-Branchenliste Berlin direkt gelesen (200), enthält Schrott Renate und Peter/030 6842306 ohne Anschrift. Neue Namens-/Nummernsuche liefert keinen passenden qualifizierten Betreiberbeleg. Wort Schrott im Namen nicht als gesicherte Rechtsträger-/Personenidentität interpretiert; Portalwiederholung ist kein Belegpaar. Telefon als unbestätigter Altbestand erhalten, Straße/PLZ/Website unverändert leer und status pruefung. ANKAUF/VERKAUF/GEBÜHREN keine Zielzahlenliste; GEO mangels bestätigter Adresse zurückstellen. Quelle: https://www.gelbeseiten.de/branchen/schrottplatz/berlin.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

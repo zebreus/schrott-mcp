@@ -3,9 +3,9 @@ slug: th-zedlitz-07557-entsorgung-und-recycling-bernd-zauritz
 name: Entsorgung und Recycling Bernd Zauritz
 trader_type: sonstige
 state: TH
-city: Zedlitz 07557
+city: Zedlitz
 street: ''
-postcode: ''
+postcode: '07557'
 phone: ''
 email: ''
 opening_hours: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Der Name „Entsorgung und Recycling Bernd Zauritz“ erscheint nur in Aggregator-Leads; ein Betreiber- oder Registerbeleg fehlt. Ein gleichörtlicher „Transportservice Bernd Zauritz“ ist nicht als identisch oder als Recycling-/Schrotthändler bestätigt. Keine belegten Annahmeleistungen, Ankaufspreise, Verkaufspreise oder Gebühren. Offen: Identität, aktuelle Tätigkeit und tatsächliche Anschrift; die Seed-Adresse Zedlitz 19 sollte nicht geocodiert werden, bevor diese Punkte geklärt sind.
 
 ## Timeline
+
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: 11880-Profil direkt erneut gelesen: Zedlitz 19, 07557, 036603 60099-0 und 60099-3, zauritz@gmx.de; keine Website, Branchen Transport/Entsorgung/Recycling ohne Schrottankaufbeleg. Eintragsdaten 18.03.2025 und Portal-Aktualisierung 02.10.2026 sind keine Betreiberbestätigung. ANKAUF/VERKAUF/GEBÜHREN keine bezifferten Tarife; Preisrange-FAQ ist generischer Portaltext. Nur syntaktische Frontmatter-Normalisierung des vorhandenen Seed-Orts Zedlitz 07557 zu city Zedlitz und postcode 07557, keine neue Adressverifikation. GEO: Zedlitz 19 weiterhin nicht als bestätigten Annahmeplatz pinnen; Betreiber-/Gewerbeidentität und tatsächliche Annahme zuerst klären. Quelle: https://www.11880.com/branchenbuch/zedlitz/190685388B43441230/entsorgung-und-recycling-bernd-zauritz-entsorgungsunternehmen.html]
 
 ### Recherche 11.10.2026 (Wave E — Kontaktspur, keine Betreiberbestätigung)
 

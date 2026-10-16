@@ -30,6 +30,10 @@ Die im alten Vermerk unterschiedlich gruppierten Mobilnummern sind zifferngleich
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Erneuter Direktabruf des Jimdo-Impressums HTTP 403. Neue Suche erschließt unser-stadtplan/MyHammer, aber keine lesbare zweite zulässige Betreiber-/Registerquelle; Bewertungsprofile und Suchsnippets nicht als Identitätsfreigabe gezählt. Alte Zifferngleichheit der Mobilnummer erhalten, kein künstlicher Nummernkonflikt. ANKAUF: Entrümpelung ist kein bestätigter Schrottankauf; VERKAUF: keine Liste; GEBÜHREN: keine numerischen Entrümpelungs-/Abholtarife verifiziert. GEO: Leonard/L.-Alias und Baro-2-Gewerbe-/Annahmefunktion vor Punkt klären. Keine Fills. Quelle: https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/impressum/ (403); zusätzliche Suchleads https://www.my-hammer.de/auftragnehmer/l-mulaj und https://m.unser-stadtplan.de/Stadtplan/Lennestadt/Partner/Baro-2/Haushaltsaufloesungen-Entruempelung-L-Mulaj.map (nicht direkt gelesen).]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Eigene neue Suche nach L./Leonard Mulaj und Lennestadt sowie Direktabrufe der Jimdo-Start-/Impressumsseite weiterhin403, Cylex-Suchseite403. Kein Inhalt/Betreiber aus blockiertem Abruf erfunden, keine heutigen Preise/Leistungen bestätigt. Alter Baro2-/Telefonlead bleibt unbestätigt; bereits korrigierte Zifferngleichheit der unterschiedlich formatierten Nummern erhalten, kein neuer Widerspruch behauptet. Historischer Backyard-Typ und Sternebewertungen kein qualifizierter Betriebstyp-/Existenzbeleg. Keine Frontmatter-Fills, pruefung bleibt; Ankauf/Verkauf/Gebühren und Hofannahme offen. GeoBedarf: Adresse/Gewerbe/Annahme erst bestätigen. Quelle(n): https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/ (403); https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/impressum/ (403); https://www.cylex.de/suche/lennestadt/mulaj (403)]

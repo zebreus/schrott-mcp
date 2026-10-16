@@ -28,6 +28,10 @@ Ungeklärte Altgesellschaft Albers & Kinzel; die erhaltene Registercheck-Recherc
 
 ## Timeline
 
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: Cohrs-Pelzerstraßen-Detailseite direkt erneut gelesen: Cohrs wirbt unverändert am überlappenden Ort mit gleicher Telefonnummer, aber ohne ausdrückliche Albers-Kinzel-Nachfolgekette. Registercheck-Direktabruf erneut 429; alte Löschungsnotiz daher nicht frisch bestätigt und keine neue Schließungsfeststellung. ANKAUF/VERKAUF/GEBÜHREN: keine Albers-Kinzel zugeordnete Zahlenquelle, fremde Cohrs-Angebote nicht transplantieren. GEO: auch bei identischem Gebäude keine Cohrs-Koordinate auf ungeklärte Altgesellschaft übernehmen; Registerakte HRB 29079 und Übergang belegen. Quellen: https://juwelier-cohrs.de/filialen/bremen-pelzerstrasse/ ; https://www.registercheck.de/companies/juwelier-albers-kinzel-gmbh (429).]
+
 ### Recherche 15.10.2026 (Welle 1200 C)
 
 - [Recherche 15.10.2026: Aktuelle Cohrs-Filialdetailseite erneut gelesen: Pelzerstraße 4, 28195 Bremen / 0421 3015774, Edelmetall-/Schmuck-/Münzankauf, Mo-Fr 10–18/Sa 10–16. Sie enthält keine ausdrückliche Albers-&-Kinzel-Übernahme oder Rechtsnachfolgekette. Gleiche Telefonnummer/überlappende Adresse reichen dafür nicht; diese Cohrs-Werte bleiben nur Gegenprüfung und werden nicht transplantiert. Registercheck zum Albers-Rechtsträger heute HTTP429, daher frühere Löschungsangabe nicht als frisch bestätigt ausgeben und kein neues Löschdatum erfinden. Kein numerischer Albers-Ankauf, keine Albers-Verkaufsliste oder Gebührenquelle. Nächster belastbarer Schritt: Registerakte HRB 29079 und dokumentierter Übergang/Übernahme, getrennt von Cohrs HRB 225939. Quelle(n): https://juwelier-cohrs.de/filialen/bremen-pelzerstrasse/ ; https://www.registercheck.de/companies/juwelier-albers-kinzel-gmbh (HTTP429).]

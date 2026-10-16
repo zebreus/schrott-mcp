@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Jürgen Broschart Schrotthandel bleibt vom separaten Containerdienst Broschart GmbH (HRB 109524) abzugrenzen. Dessen Registeradresse Kohlengrubstraße 112 darf nicht auf den Schrotthandel übertragen werden. Seed-Telefon und An-den-Eichen-Lead aktuell unbestätigt. **Ankauf / Verkauf / Gebühren:** keine zurechenbare Liste. **GEO:** bis Identitäts-/Adressbestätigung zurückgestellt.
 
 ## Timeline
+
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: Northdata-Gegenprobe zum separaten Containerdienst direkt gelesen: GmbH HRB 109524 Saarbrücken, Kohlengrubstr. 112, Geschäftsführer Markus Schorr (Eintragung 01.08.2023), Unternehmensgegenstand Containerverwaltung/-nutzung/-veräußerung und verbundene Dienste. Kein Nachweis einer Identität oder Übernahme des eigenständigen Jürgen-Broschart-Schrotthandels. Exaktnamenssuche ergab keinen neuen qualifizierten Primärbeleg; alte Creditreform-Notiz nicht als heute erneut bestätigt ausgeben. ANKAUF/VERKAUF/GEBÜHREN für dieses Dossier unbelegt; keine GmbH-Tarife zuordnen. GEO: An den Eichen 1 und Seed-Telefon erst separat verifizieren. Quelle: https://www.northdata.de/Containerdienst%20Broschart%20GmbH,%20Schiffweiler/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20109524]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

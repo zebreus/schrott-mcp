@@ -31,6 +31,10 @@ Ankauf/Verkauf/Gebühren: keine primär belegte Zahlenliste. Von Verzeichnis-Öf
 
 ## Timeline
 
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: GS-Detail direkt bestätigt weiterhin nur Lead Brunnfloßgasse 12/0931 22357. Neu vertieft: 11880-Detail direkt gelesen, gleicher Name/Adresse, aber 0171 4457209 und 0931 28788082, rainer.schrotthandel@gmail.com und 24h-Service; Badge vom Inhaber bestätigt ist keine nachgewiesene Betreiberquelle nach README. Nicht als 24h-Anlieferhof oder neue Primärkontakte übernehmen. Zweitseitenprüfung: echtes Impressum von J. Pfeifer nennt ausdrücklich Inhaber Jürgen Pfeifer, Lengfelder Str. 38, 0931 286304, Registerfelder dort Platzhalter; keine Brücke zu Rainer. Frühere Familienhypothese nicht wiederbeleben. clear_fields phone unverändert. ANKAUF/VERKAUF/GEBÜHREN keine Zielpreisliste, GEO erst nach Rainer-Inhaber-/Annahmebestätigung. Quellen: https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c ; https://www.11880.com/branchenbuch/wuerzburg/012010409B28972471/rainer-pfeifer-schrotthandel.html ; https://www.j-pfeifer-schrotthandel.de/impressum.]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Erneute exakte Namens-/Ortsabfrage erbrachte keinen verwertbaren neuen Betreiber-, Register- oder kommunalen Beleg. Die Werte Brunnfloßgasse 12 / 97078 / 0931 22357 bleiben ein Gelbe-Seiten-Portalhinweis; Christian und Jürgen Pfeifer bleiben getrennte Namesake-Leads ohne belegte Familien-/Nachfolgekette. Leere Kontaktfelder und `clear_fields: phone` bleiben bestehen; weder Betriebsschließung noch Ankauf ist daraus ableitbar. Kein zuordenbarer Ankaufspreis, Teileverkaufspreis oder Gebührentarif. Vor GEO Inhaber und Annahmeort prüfen. Quellen als Suchleads: https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c ; https://frag-regional.de/firma/pfeifer-rainer-schrotthandel/ ; https://www.schrottplatz-info.de/schrottplatz/Wuerzburg/Pfeifer-Christian-Schrotthandel]

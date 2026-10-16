@@ -28,6 +28,10 @@ Die ALBA-Betreiberseite belegt am Dossier-Ort einen aktuellen Schrottplatz der A
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: ALBA-Standortdetail Quitzow direkt erneut gelesen: weiterhin ALBA Metall Nord GmbH, Buchholzer Chaussee 5, 19348 Quitzow, 03876 786602, quitzow.metall@alba.info; Privat-/Gewerbeannahme und sofortiges Entgelt. Diese Betreiberquelle identifiziert nicht die INTERSEROH Management GmbH; neue exakte Namenssuche liefert vorwiegend alte Portalprofile, keinen belegten Management→ALBA-Rechtsübergang. Kein Rename/Telefonüberschreiben und keine Dublettenfusion. ANKAUF: gute/attraktive Preise ohne Zahlen; VERKAUF: keine numerische Liste auf der Standortseite; GEBÜHREN: Container 7–36 m³ ohne Tarife. GEO: Platz als ALBA belegt, Dossier-Zuordnung vor Koordinaten klären. Quelle: https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-quitzow ; Suchleads nicht als zweiter Beleg gezählt.]
+
 ### Recherche 08.10.2026 (Primärquelle erneut gelesen)
 
 - [Recherche 08.10.2026: ALBA-Standortdetail Quitzow erneut vollständig gelesen: ALBA Metall Nord GmbH, Buchholzer Chaussee 5 / 19348 Quitzow, 03876 786602, quitzow.metall@alba.info, Mo–Fr 07–12:15 und 12:45–16, Sa geschlossen. Privatkundenannahme FE-/NE-Metalle und Altbatterien, sofortiges Entgelt/Bargeld, Container 7–36 m³. Die Seite belegt den aktuellen ALBA-Platz, KEINE Identität oder Rechtsnachfolge der konkreten INTERSEROH Management GmbH. Vorhandene alte Telefonnummer 03876 789768 bleibt als Legacy-Wert erhalten, aktuelle ALBA-Nummer nicht überschrieben; kein Website-Fill. ANKAUF: nur gute/attraktive Preise, keine Zahlentabelle. VERKAUF/GEBÜHREN: keine Preisliste auf der Standortseite. Offen bleibt gezielter Register-/Umwandlungsbeleg für Management GmbH und Abgrenzung zum bereits separat erfassten ALBA-/INTERSEROH-Metallaufbereitungs-Dossier. Quelle(n): https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-quitzow.]

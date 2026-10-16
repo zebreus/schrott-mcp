@@ -28,6 +28,10 @@ Schrott-/Metallhandel „J. Reinhardt“ bleibt ohne vollständige Betreiberiden
 
 ## Timeline
 
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Örtliche-Detail direkt HTTP 200 gelesen: Blumenstr. 4/84180 Loiching-Kronwieden/08731 8630175 und 7-Tage-Zeiten bleiben Portalangaben. Kommunale Suchergebnisseite direkt geladen, kein auslesbarer Reinhardt-Firmenbeleg; das ist kein Negativattest des Gewerbeamts. Neue Suche findet auch Reinhardt Rohstoffe GmbH Berlin, ausdrücklich keine Identität zu J. Reinhardt/Loiching; keine Berliner Preise/Kontakte übertragen. Frühere Mobil-/Zeitenwidersprüche nicht aufgelöst, vollständiger Inhaber weiter offen. ANKAUF/VERKAUF/GEBÜHREN keine identitätsgesicherte Liste. GEO und Annahmeort bis Primärbestätigung zurückstellen, Altwerte unverändert. Quellen: https://www.dasoertliche.de/Themen/Reinhardt-Schrott-und-Metallhandel-Loiching-Kronwieden-Blumenstr ; https://www.loiching.de/suchergebnisseite?q=Reinhardt&bid=18&app=search&lang=de.]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: NorthData-Suche „Reinhardt Loiching“ erneut auf örtliche Kongruenz geprüft: im ersten auslesbaren Trefferblock kein passender örtlicher Schrottbetrieb; unscharfe/paginierte Suche kein Negativbeweis. Brave-Suche 429 verhindert weiterführende neue Betreiber-Social-Suche. Vorwellen-Konflikt Festnetz/Blumenstraße/7-Tage-Zeiten versus mobile Portalspur bleibt offen, keine erfundene Auflösung aus Namensähnlichkeit. Überblick jetzt mit Primärbestätigungsbedarf kuratiert, Frontmatter und gesamte Historie erhalten. Keine neuen Ankauf-/Verkaufspreise oder Gebühren; Quelle: https://www.northdata.de/?query=Reinhardt%20Loiching.]

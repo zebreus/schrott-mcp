@@ -33,6 +33,10 @@ Das Seed-Dossier „Otto Wiese GbR“ ist historisch zu verstehen: Hans-Otto und
 
 ## Timeline
 
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: RMG-Beteiligungsseite direkt erneut gelesen: Firmengruppe Bohmann wird weiterhin mit Rastede und Link zur Bohmann-Gruppe geführt. Daraus ergibt sich weder eine Wiese-Nachfolge am Ihrhover Hof noch Schrottannahme an Industriestraße 6. Frühere Presse-Rekonstruktion bleibt historische Recherche, heute nicht erneut volltextverifiziert. Kein Merge/Adress-Fill. ANKAUF/VERKAUF/GEBÜHREN: kein Otto-Wiese-spezifischer Zahlenfund auf der gelesenen Seite. GEO bleibt bis konkreter Standort-/Betreiberkette gesperrt. Quelle: https://www.rmg-gmbh.de/unternehmen/beteiligungen]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle

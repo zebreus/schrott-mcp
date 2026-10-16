@@ -30,6 +30,10 @@ Identität und heutiger Betrieb von „WOLF Georg“ an der Dorheimer Str. 43 bl
 
 ## Timeline
 
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Eigene Websuche Georg Wolf/Friedberg/Schrott ohne passenden qualifizierten Treffer; biografische, genealogische und Traueranzeigen-Namesakes nicht zugerechnet. NorthData-Suche direkt 429, kein Register-Negativnachweis. Dorheimer Str. 43 und 06031 5883 bleiben unbestätigter Altbestand, keine Fills oder Schließungsbehauptung. ANKAUF/VERKAUF/GEBÜHREN keine identitätsgesicherte Liste. GEO: Gewerbe-/Betreiberbeleg und heutige Betriebs-/Annahmestelle vor Geokodierung prüfen. Quelle/Abrufgrenze: https://www.northdata.de/?query=Georg%20Wolf%20Friedberg.]
+
 ### Recherche 15.10.2026 (00:00-Welle A)
 
 - [Recherche 15.10.2026: Eigenständige Suche nach „Georg Wolf“ + Friedberg + Schrott sowie Wolf + Dorheimer Str. 43 erbrachte keinen passenden zulässigen Betreiber-/Registerbeleg. Suchtreffer zum Musiker Georg Wolf und zu einer bayerischen Traueranzeige sind keine Evidenz für den hessischen Schrotthändler; keine Attribution und kein Schließungsurteil. Altadresse und Telefon bleiben ausdrücklich unbestätigt, status pruefung unverändert. Keine Ankauf-/Verkaufskurse oder Gebühren gefunden; keine Geocodierung der bloßen Altadresse. Suchspuren: https://www.google.com/search?q=%22Georg+Wolf%22+%22Friedberg%22+Schrott ; https://www.google.com/search?q=%22Wolf%22+%22Dorheimer+Str.+43%22 (Suchabfragen, keine Sachbelege).]

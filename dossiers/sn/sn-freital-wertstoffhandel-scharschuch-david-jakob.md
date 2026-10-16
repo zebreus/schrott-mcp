@@ -28,6 +28,10 @@ Der Datensatz vermischt ältere Jakob-/Freital-Texte mit dem Dresdner Wertstoffh
 
 ## Timeline
 
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: Dresdner Startseite direkt erneut gelesen. Weiter Altpapiermeldung ab 01.01.2023 mit 0,08 EUR ohne Einheit im Meldungssatz, Nickerner Weg 8 im Header versus 5 im Text; zeitlich begrenzter Schließhinweis 02.–04.10.26 weiterhin sichtbar, keine Dauerschließung ableiten. ANKAUF: historischer Dresdner Papierbetrag, kein Freitaler Tageskurs und keine Einheit ergänzen. VERKAUF/GEBÜHREN: keine zuordenbare Zahlenliste auf Startseite. Alte Jakob-/Freital-Verweise in Linktiteln beweisen weiterhin keinen aktuellen Freitaler Betreiber oder Standort. Website bleibt vom Dossier getrennt; GEO nicht aus Dresdner Adressen kopieren, Owner muss Gewerbe-/Nachfolgeidentität klären. Quelle: http://www.entsorgung-dresden.de/]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Preisfund nur als fremdstandörtige/historisch datierte Spur: entsorgung-dresden.de Startseite veröffentlicht „Ab 01.01.2023 zahlen wir für ihr Altpaier 0,08€“ ohne Einheit im Meldungssatz. Die einzeln erneut gelesenen Papier-/Metallunterseiten weisen weiterhin ältere Inhalte auf; keine aktuelle Freitaler Annahmestelle gesichert. Der Wert ist Ankauf (Zahlung an Lieferanten), kein Verkaufspreis/keine Gebühr, darf weder mit angenommener Einheit noch dem Freital-Slug als aktueller Preis zugeschrieben werden. Temporärer Schließungshinweis 02.–04.10.26 bleibt kein Dauerschließungsbeweis. wertstoffhandel-jakob.de liefert diesmal DNS-Auflösungsfehler, keine gesicherte Geschäftsaufgabe. Frontmatter/ältere Korrekturhistorie erhalten; Quelle(n): http://www.entsorgung-dresden.de/ ; http://www.entsorgung-dresden.de/wertstoffe/wertstoff-ankauf/altpapier-pappe.html ; http://www.entsorgung-dresden.de/wertstoffe/wertstoff-ankauf/metall-schrott.html ; http://www.wertstoffhandel-jakob.de/.]

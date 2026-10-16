@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Albrecht“ in Velden ist kein hinreichend bestimmter Rechtsträger. Verzeichnisleads nennen Daniela Albrecht/Schrotthandel an Lindenstraße 13, 91235 Velden; die frühere Spur Jochen Albrecht und zwei Telefonnummern bleibt ungelöst. Weder Familien-/Nachfolgekette noch aktueller Ankaufplatz sind belegt; Albrecht Logistik in Deißlingen ist nicht zuzuordnen.
+
+**Ankauf:** keine primär bestätigten Bedingungen oder Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. **GEO:** erst Daniela/Jochen, Gewerbeexistenz und tatsächlichen Kundenannahmeort klären; keine Koordinate aus dem bloßen PLZ-/Straßenlead.
 
 ## Timeline
+
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Stadtbranchenbuch-Detail direkt 403, nicht als erfolgreich gelesen ausgegeben. Aktuelle Websuche Albrecht/Velden/Schrotthandel zeigt im Stadtbranchenbuch-Suchindex erneut Daniela Albrecht/Lindenstr. 13/91235; weiterhin Aggregatorlead, keine unabhängige Primärbestätigung. Jochen-/Daniela- und Telefonnummernkonflikt unaufgelöst, keine Kontaktdaten/Website gefüllt und keine Schließung abgeleitet. ANKAUF/VERKAUF/GEBÜHREN keine identitätsgesicherte Liste, GEO bis Inhaber-/Annahmeprüfung offen. Quelle/Abrufgrenze: https://velden-mittelfranken.stadtbranchenbuch.com/9364190.html (403); https://velden-mittelfranken.stadtbranchenbuch.com/ (nur Suchindex).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

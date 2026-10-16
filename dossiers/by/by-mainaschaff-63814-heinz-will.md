@@ -30,6 +30,10 @@ Der Registerspiegel führt eine Heinz Will GmbH & Co. KG (HRA 3932) in Mainascha
 
 ## Timeline
 
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Chronologischen Registerspiegel HRA 3932 erneut direkt gelesen (HTTP 200), ausdrücklich Abdruck vom 25.04.2024, kein neu amtlich bestätigter Tagesstatus. Geschäftsanschrift seit Eintragung 12.01.2010 An der Senne 25/63814 Mainaschaff; 20.08.2015 Ausscheiden der Mehring GmbH (früher Heinz Will Verwaltungs-GmbH), HRB 8536, und Eintritt Heinz Will Verwaltungs GmbH HRB 13418. Dies ist eine Komplementäränderung, keine Beweisbrücke für einen heutigen Mehring-Ankaufplatz der KG an Seed-Hauptstr. 72. Adresskonflikt und aktuelle Tätigkeit bleiben offen; kein Overwrite. ANKAUF/VERKAUF/GEBÜHREN im gelesenen Auszug keine Preise. GEO vor Klärung Hauptstr. 72 versus An der Senne 25 und Annahmefunktion gesperrt. Quelle: https://handelsregister.live/hra/bayern/ag-aschaffenburg/3932/heinz-will-gmbh-co-kg.]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Registerspiegel zu HRA 3932 führt Heinz Will GmbH & Co. KG mit An der Senne 25, 63814 Mainaschaff (Auszug/angezeigte Daten mit Stand 25.04.2024); das widerspricht Seed-Hauptstr. 72, daher kein Frontmatter-Overwrite oder Geocoding. Der historische Registerverlauf unterscheidet die ehemalige Heinz Will Verwaltungs-GmbH (HRB 8536, später Mehring GmbH Schrott, Recycling, Containerdienst; als KG-Komplementärin 2015 ausgeschieden) von der neu eingetretenen Heinz Will Verwaltungs GmbH (HRB 13418). Die heutige Mehring-Website weist auf einen Standort in Dorfprozelten hin und beschreibt diesen Betrieb getrennt; ihre Aussage „Wir vergüten Ihr Altmetall“ ist kein Kaufangebot der Mainaschaffer KG. Für die Zielgesellschaft kein verifizierter Ankaufspreis, Verkaufspreis oder Gebührentarif. Quellen: https://handelsregister.live/hra/bayern/ag-aschaffenburg/3932/heinz-will-gmbh-co-kg ; https://www.mehring-container.de/impressum/ ; https://www.mehring-container.de/ueber-uns/ ; https://www.mehring-container.de/schrott-und-metalle/]

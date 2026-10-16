@@ -30,6 +30,10 @@ Decker-Autoverwertung in Dessau-Roßlau bleibt ein Identitätsklärfall: Verzeic
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Neue Suchspur meinestadt ordnet Harald Decker nun Neekener Str. 31 zu; Direktabruf läuft in Timeout. Damit als Suchlead dokumentiert, nicht als Auflösung von 9B/618169 gegenüber 31/6610013. GS-/Telefonbuchtreffer nennen weiter 31; mehrere Portale sind keine unabhängigen Betreiberbelege. Kein Name-/Adressmerge, keine Anerkennung aktuell geprüft. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Zahlen. GEO: Gewerbe-/Adresshistorie und heutige Demontagestätte zuerst; reine Ersatzteilwerbung nicht als Annahmezusage. Quelle/Abrufgrenze: https://branchenbuch.meinestadt.de/dessau-rosslau/company/1706667 (Suchlead, Direktabruf Timeout); Historie 03.10.2026.]
+
 ### Recherche 15.10.2026 Welle18A
 
 - [Recherche 15.10.2026 Welle18A: Historischen konkreten Harald-Decker-Lead erneut direkt geprüft; Cylex liefert HTTP 403/Cloudflare statt Firmendaten. Kein Inhalt hinter Sperre behauptet, kein Negativnachweis für Harald Decker oder einen anerkannten Demontagebetrieb. Konflikt Neekener Straße 9B/0340 618169 gegenüber 31/0340 6610013 aus Vorrecherche bleibt ungelöst, kein Merge und keine Gleichsetzung mit DEKRA/OWL-Deckers. Anerkennungsregister in dieser Welle nicht als erfolgreich abgefragt dargestellt. Ankauf, Ersatzteil-/Materialverkauf und Entsorgungsgebühren sämtlich ohne neue qualifizierte Zahlen. GeoBedarf: Inhaber/Adresskette und aktuelle Annahme-/Demontagefunktion vor Standortkoordinaten bestätigen. Quelle/Abrufgrenze: https://web2.cylex.de/firma-home/harald-decker-75992.html ; Konfliktquellen in Recherche 03.10.2026.]

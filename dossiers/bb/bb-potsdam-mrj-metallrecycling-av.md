@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Neuer Namensansatz statt bloßer Akronymsuche: potsdam-abc-Kurzinfo direkt gelesen, MRJ Metallrecycling Jaretzke, Ahornstr. 28, 14482 Potsdam, 0331 7040990. D&B-Suchtreffer nennt Bernd Jaretzke/MRJ Metallrecycling, Direktdetail 403; damit keine vollständig geprüfte unabhängige Register-/Betreiberzuordnung. Yelp-/weitere Portalsuchtreffer nennen teils 7040940 statt 7040990, nicht stillschweigend korrigieren oder als Fax erklären. Jaretzke ist neuer Recherchepfad, kein gesicherter Frontmatter-Name. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Zahlen; GEO: 28 versus 28–32, Rechtsträger und heutige Hof-/Demontagefunktion zuerst prüfen. Quellen: https://www.potsdam-abc.de/verzeichnis/mandat.php?mandat=488&kategorie=624 ; https://www.dnb.com/business-directory/company-profiles.bernd_jaretzke.86114eaee7219836b7784a565b649b20.html (403; Suchlead).]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: NorthData-Suche MRJ Metallrecycling liefert im ersten Ergebnisblock unter anderem MRJ Metal Recycling sp. z o.o. in Toruń/Polen (KRS0000227168), aber keinen eindeutigen Potsdamer Match. Ausländischen Namensähnlichkeitstreffer nicht dem Dossier zugeordnet; M&R/MRH/MRM-Webtreffer sind ebenfalls keine Identitätsbelege. Kein vollständiger Register-Negativbeweis für Einzelgewerbe. Ahornstr. 28–32/0331 7040990 bleiben ungeprüfte historische Verzeichnisleads, GEO weiter zurückstellen. Keine zurechenbaren Ankauf-, Verkaufs- oder Gebührensätze; Quelle: https://www.northdata.de/?query=MRJ%20Metallrecycling ; vorhandene Verzeichnisbasis siehe Recherche/Korrektur 02./06.10.2026.]

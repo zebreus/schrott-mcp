@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiberwebsite zu Robert Hammerschmidt, Recycling-/Container-Service in Langweid/Augsburg. Impressum und Footer nennen Gartenstraße 14a, 86462 Langweid; die Maschinenverkaufsseite nennt zusätzlich **Ebnerstrasse 25**. Ob Verkaufs-/Lagerplatz oder Altadresse, ist offen. Website bleibt Einzelbeleg ohne Register-/Zweitnachweis; keine Kontaktfelder ergänzt und keine bestätigte öffentliche Schrottannahme an einer der Adressen behauptet.
+
+**Ankauf:** gebrauchte Produktions-/Werkzeugmaschinen, Stapler, LKW, Elektromotoren und Altlagerbestände ausdrücklich angeboten; Schrottentsorgung nicht mit pauschaler Ankaufvergütung gleichsetzen. Keine Zahlenkurse. **Verkauf:** Maschinen-/Werkzeugangebot mit Beispielfotos, Bestand auf Anfrage, keine Preise. **Gebühren:** Container, Entrümpelung, Entkernung und Demontage ohne Tarif. **GEO:** Gartenstraße 14a versus Ebnerstrasse 25 und tatsächliche Kundenannahme vor Geokodierung klären; vorhandener Aktivstatus ist kein Zwei-Quellen-Prüfsiegel.
 
 ## Timeline
+
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Home, Impressum, Leistungen und Maschinenverkauf direkt gelesen. Neuer Adresskonflikt innerhalb derselben Website: Impressum/Footer Gartenstraße 14a versus Informationsblock Maschinenverkauf Ebnerstrasse 25, jeweils 86462 Langweid. Beide sind eine Betreiberquelle, kein unabhängiges Belegpaar; Annahme-/Lagerfunktion unklar. Kontaktpfad beim zusätzlichen Abruf 403, keine Schließung daraus abgeleitet. Expliziter Maschinenankauf und Verkauf dokumentiert; keine numerischen Ankauf-/Verkaufspreise oder Service-/Containergebühren. Frontmatter unverändert; GEO und unabhängiger Betreiberbeleg offen. Quellen: https://hammerschmidt-schrott.de/ ; https://hammerschmidt-schrott.de/impressum/ ; https://hammerschmidt-schrott.de/unsere-leistungen/ ; https://hammerschmidt-schrott.de/maschinenverkauf/ ; https://hammerschmidt-schrott.de/kontakt/ (403).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

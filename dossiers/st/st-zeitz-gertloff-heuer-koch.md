@@ -28,6 +28,10 @@ Birkenweg 77, 06711 Zeitz-Theißen und 03441 681784 sind Verzeichnisleads; die b
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Neue Namenssuche erschließt konkreteren Register-Prüfpfad: CompanyHouse-Suchtreffer zu Henry Gertloff/ Horst Koch nennen Gertloff, Heuer & Koch OHG, Theissen, Stendal HRA 1502 und eine Meldung 28.11.1994. Personendetail direkt HTTP 403; daher Suchhinweis, nicht neu gelesene Registerbekanntmachung oder heutiger Fortbestand. NorthData-Suche mit Komma/& direkt gelesen, nur neun unscharfe Fremdtreffer; Shell-Abruf derselben Quellenklasse zusätzlich 429, kein Negativbeweis. Owner kann nun gezielt HRA 1502 und dessen aktuelle Registerhistorie abgleichen. ANKAUF/VERKAUF/GEBÜHREN: keine Zielzahlen verifiziert. GEO: Birkenweg 77 erst nach HRA-/Betreiberverknüpfung bestätigen; keine Fills. Quellen: https://www.companyhouse.de/p/Henry-Gertloff-Theissen-Fleischer-sXlndzMXrnynR9gg2gev5kgUSmw (403; Suchlead); https://www.northdata.de/?query=Gertloff%2C+Heuer+%26+Koch]
+
 ### Recherche 15.10.2026 (Welle 1200 C)
 
 - [Recherche 15.10.2026: 11880-Detail und separate Northdata-Suche direkt gelesen. Portal wiederholt Birkenweg 77 / 03441 681784, Eintragsdaten 29.06.2021, Aktualisierung 02.10.2026; keine eigene Website/E-Mail/Zeiten. FAQ zur Eurozeichen-Preisspanne ist generischer Text ohne Ankaufwerte, der Hinweis auf Inhaberbestätigung kein individuelles Siegel. Northdata liefert neun unscharfe Ergebnisse (u.a. Apotheke Honauer-Koch, Küperkoch-Steuerungstechnik), keines identifiziert die benannte oHG; Suchalgorithmus ist kein amtlicher Nichtbestehensnachweis. Nicht mit anderen Koch-/Heuer-Firmen zusammenführen. Kein Kontaktfill, keine Aktivierung oder Schließung. Ankauf/Verkauf/Gebühren weiter ohne Zahlen. Klärschritt: oHG-Registeridentität/HRA und kommunale Gewerbeauskunft zur Adresse, anschließend Annahmebedingungen prüfen. Quelle(n): https://www.11880.com/branchenbuch/zeitz-elster/060440090B26877244/gertloff-heuer-koch-ohg.html ; https://www.northdata.de/?query=Gertloff%20Heuer%20Koch.]

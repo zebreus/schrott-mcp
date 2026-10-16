@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Harry Sell bleibt ein Verzeichnislead an Ostring 15, 64832 Babenhausen, 0171 8333254. Die live gelesene Gelbe-Seiten-Seite bestätigt nur den Portalbestand, keine heutige Betreiberidentität oder zugängliche Annahmestelle. Familien-/Nachbarbetriebe Sell nicht ohne Rechts-/Betreiberbrücke zuordnen; im Altverlauf genannte Dublette nur als Querverweis behandeln, Slug erhalten.
+
+**Ankauf:** Vergütung/Annahme nicht primär belegt, keine Kurse. **Verkauf:** keine Liste. **Gebühren:** mobile Abholung/Entsorgung nicht als kostenlos bestätigt. **GEO:** Gewerbeidentität und Betriebs-/Annahmeadresse vor Geokodierung prüfen, nicht eine mobile Dienstleistung als Schrottplatz markieren.
 
 ## Timeline
+
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: GS-Detail direkt HTTP 200 gelesen: Harry Sell/Ostring 15/64832/0171 8333254; kein qualifizierter Zweitbeleg. Zusätzliche Namens-/Orts-/Straßensuche liefert vor allem Verzeichniswiederholungen und einen anderen Schrott-Harry mit 03303-Vorwahl; nicht zugeordnet. Altwerte unverändert und ausdrücklich nicht primärbestätigt, status pruefung. ANKAUF/VERKAUF/GEBÜHREN keine zuordenbare Zahlenliste. GEO und Dublettenidentität durch Betreiber/Gewerbeamt prüfen. Quelle: https://www.gelbeseiten.de/gsbiz/9acdeeec-fe52-42f1-8b9c-19234b19f948 ; Suchabfrage: Schrott Harry Sell Ostring 15 Babenhausen.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Findix-Anzeige 00808165 erneut direkt gelesen: hillracer wirbt mit kostenloser Altmetallabholung sowie Ankauf von NE-Metallen/größeren Eisenmengen, ohne geprüfte rechtliche Identität oder Veröffentlichungsdatum. Neue Suchspuren Facebook SchrottAachen und Instagram fa_oecher_schrottmaennchen; Direktabrufe liefern keinen auswertbaren Betreiber-/Impressumstext (Instagram nur Bilddaten), daher nicht als verifizierte Betreiber-Social-Quelle gezählt. Keine Stammdatenfreigabe. ANKAUF: Werbelead, keine Zahlen; VERKAUF: keine Liste; GEBÜHREN: Gratisbehauptung ohne geprüften Anbieter, keine Tarifordnung. GEO: Betreiberbindung des Kroitzheider Wegs und öffentliche Annahme weiterhin zuerst klären, kein neuer Punkt. Quellen: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen ; https://www.facebook.com/SchrottAachen/ ; https://www.instagram.com/fa_oecher_schrottmaennchen/]
+
 ### Recherche 14.10.2026 — Kleinanzeige ist kein verifizierter Betreiberbeleg
 
 - [Recherche 14.10.2026: [Findix-Anzeige „Das Öcher Schrottmännchen“](https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen) direkt gelesen: Anzeige 00808165 von Nutzer „hillracer“, Aachen/Umland, kostenlose Altmetallabholung, Ankauf NE-Metalle und größere Eisenmengen, daneben Rasenmähen/Entrümpeln/Aufräumen. Kein belastbares Veröffentlichungsdatum oder überprüfter rechtlicher Betreiber aus dem Inhalt.; Quelle: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen]

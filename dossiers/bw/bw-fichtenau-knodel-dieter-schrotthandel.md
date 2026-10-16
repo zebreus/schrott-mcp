@@ -32,6 +32,10 @@ Zwei Verwechslungen vermeiden: **Altmetalle Knodel in Niederzier** ist ein ander
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: GS-Detail direkt wieder lesbar, nennt Dieter Knodel/Lindenweg 23/74579 Fichtenau-Unterdeufstetten/07962 8563; erneut nur Aggregator, kein unabhängiger Betreiberbeleg. Fichtenauer Kandidatendomain per HTTP weiterhin DNS-Auflösungsfehler, kein Impressum gelesen. Marktstr.- und Niederzier-Spuren weiter getrennt, keine Umzugs-/Nachfolgespekulation. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Zieltarife. GEO: aktuelles Dieter-Knodel-Gewerbe am Lindenweg und Kundenannahme vor Standortkoordinate bestätigen. Quellen: https://www.gelbeseiten.de/gsbiz/e689feaf-d6f9-4b2e-af71-00a583bc830a ; http://schrott-knodel-fichtenau.de/ (DNS-Fehler).]
+
 ### Recherche 15.10.2026 (12:00-Welle B)
 
 - [Recherche 15.10.2026: Gegenprüfung beider Knodel-Domainspuren: schrott-knodel-fichtenau.de per HTTP weiterhin DNS-Auflösungsfehler; Niederzier-Seite /der-betrieb heute HTTP 403, daher deren ältere Anschrift nicht als neu gelesen ausgeben. Keine Impressumsverbindung zwischen Dieter/Lindenweg 23 und Marktstraße 58 gewonnen. Keine der Abrufgrenzen ist ein Schließungs- oder Nachfolgebeleg. Status pruefung und historische Kontaktfelder bleiben unverändert. ANKAUF: keine Dieter Knodel zugeordneten Raten; VERKAUF: keine Liste; GEBÜHREN: keine Entsorgungs-/Abholtarife. Gewerbeauskunft muss den vollständigen Namen und die konkrete Hausadresse klären, nicht nur „Knodel Fichtenau“. Quellen: http://schrott-knodel-fichtenau.de/ (DNS); https://www.schrott-knodel.de/der-betrieb (403).]

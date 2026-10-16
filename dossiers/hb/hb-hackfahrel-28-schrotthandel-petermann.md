@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: 11880-Einzelprofil direkt gelesen: Hackfahrel 28, 27572 Bremerhaven/Wulsdorf, 01514 3651620, Hausmeisterservice plus Schrottankauf, Besichtigung nach telefonischer Vereinbarung. Kein eigener Website-Link; Werbetext im Portal bleibt Aggregatorlead, kein qualifizierter Betreiberbeleg. Die Telefonformatierung entspricht dem bisherigen 0151-43651620-Lead, kein neuer unabhängiger Kontakt. ANKAUF: nur allgemeine faire Konditionen ohne Zahlen; VERKAUF/GEBÜHREN: keine Liste. GEO: Frontmatter-city Hackfahrel 28 ist ein importierter Feldfehler und kein Ortsname; Bremerhaven als Lead im Überblick dokumentiert, Adress-/Betriebsbestätigung für Korrektur und Punktprüfung noch nötig. Quelle: https://www.11880.com/branchenbuch/bremerhaven/060692243B108404918/schrotthandel-petermann-gbr.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (klein)

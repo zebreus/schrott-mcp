@@ -30,6 +30,10 @@ Zwei voneinander unabhängige Branchenverzeichnisse stimmen bei „Lenhart Ludwi
 
 ## Timeline
 
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: NorthData-Detail direkt diesmal 429, Vorwellenbefund Angelika Lenhart/Ringstr. 2/HRB 13456 nicht als neu gelesen ausgegeben. Eigenständige Suche liefert Registercheck-Suchindex mit gleicher Gesellschaft/Adresse und Gegenstand Altmetallhandel; direkter Detailabruf ebenfalls 429, daher kein heute gelesener unabhängiger zweiter Registerbeleg. Namesakes Ludwig sen./jun./Angelika weiterhin getrennt; weder Familien-/Rechtsnachfolge noch heutiger Ludwig-sen.-Ankauf belegt. status pruefung/Owner-Korrektur erhalten. ANKAUF/VERKAUF/GEBÜHREN keine zuordenbaren Zahlen; GEO nach Auflösung Betreiber und Kundenannahme. Quellen/Abrufgrenzen: https://www.northdata.de/Angelika%20Lenhart%20-%20Rohproduktenhandel%20UG,%20Kitzingen/Amtsgericht%20W%C3%BCrzburg%20HRB%2013456 ; https://www.registercheck.de/companies/angelika-lenhart-rohproduktenhandel-ug-haftungsbeschraenkt (Suchindex gelesen, Detail 429).]
+
 ### Owner-Gegenprüfung 15.10.2026
 
 - [Korrektur 15.10.2026: status aktiv → pruefung. NorthData-Profil HRB 13456 Würzburg durch den Owner direkt gelesen: Angelika Lenhart - Rohproduktenhandel UG, Ringstr. 2/97318 Kitzingen, Handel mit Altmetallen. Das ist kein Nachweis einer Nachfolge zu Ludwig sen. und keine Bestätigung seiner heutigen Annahme. Der frühere Aktivstatus beruhte nur auf Verzeichnissen; aktuelle Betreiberidentität des Seeds bleibt offen. Kein Rename, keine Kontaktdatenübertragung, keine Schließung behauptet und keine Koordinaten gesetzt. Quelle: https://www.northdata.de/Angelika%20Lenhart%20-%20Rohproduktenhandel%20UG,%20Kitzingen/Amtsgericht%20W%C3%BCrzburg%20HRB%2013456 .]

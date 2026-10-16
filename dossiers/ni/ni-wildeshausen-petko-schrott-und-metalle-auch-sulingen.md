@@ -28,6 +28,10 @@ Petko Schrott & Metalle GmbH ist für Wildeshausen (Düngstruper Straße 91, 277
 
 ## Timeline
 
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: Wildeshausen-Detailseite, Impressum und Leistungen direkt erneut gelesen. Düngstruper Str. 91, 04431/71826 und Mo–Do 07–17/Fr 07–13 weiter genannt; Impressum weiterhin ohne HRB und mit erklärungsbedürftiger Komplementärin, daher keine neue Betreiber-Ausnahme oder Kontakt-Fills. Leistungen unterscheiden vergütete Metall-/Schrottannahme auch kleiner Privatmengen von sonstiger Abfallentsorgung; Abholung ab 1 Tonne laut Betreiber. Osterholz im Seitenfuß ausdrücklich nur Lagerfläche ohne Kundenverkehr/Warenannahme; Sulingen bleibt unbelegt. ANKAUF: Tagespreise ohne Beträge; VERKAUF: keine Zahlenliste; GEBÜHREN: keine auf diesen drei HTML-Seiten, frühere PDF-Leselücke nicht aufgehoben. GEO: Wildeshausener Waageneinfahrt prüfen, keine Pins für den Sulingen-Lead oder öffentlich zugängliche Osterholzer Annahme erzeugen. Quellen: https://www.petko-metalle.de/wildeshausen/ ; https://www.petko-metalle.de/impressum/ ; https://www.petko-metalle.de/leistungen/]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle

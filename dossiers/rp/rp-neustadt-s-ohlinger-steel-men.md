@@ -30,6 +30,10 @@ Die aktuelle Website und ihr Impressum identifizieren **Steel-Men GmbH**, HRB 30
 
 ## Timeline
 
+### Recherche 16.10.2026
+
+- [Recherche 16.10.2026: Steel-Men-Startseite einschließlich eingeblendetem Impressum/Kontakt erneut direkt gelesen: HRB 30952 AG Landau, Europahof 1 in Billigheim-Ingenheim; Neustadt wird als Einsatzregion genannt. Weiterhin Entrümpelung/Asbest/Tatortreinigung/Demontage, kein ausdrücklicher Altmetallankauf. Die Heidenbrunnenweg-Spur der aktuellen Suche ist nur Verzeichnislead, kein Nachweis einer Niederlassung oder Identität mit dem Schlachthofstraßen-Seed. ANKAUF: keine Zahlenliste; VERKAUF: keine Materialpreisliste; GEBÜHREN: individuelle Anfrage, keine bezifferten Tarife auf der gelesenen Seite. GEO: keine der konkurrierenden Adressen als bestätigten Neustädter Annahmeplatz übernehmen. Quelle: https://www.steel-men.de/]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Aktueller Direktabruf von https://www.steel-men.de/ und Impressum bestätigt Steel-Men GmbH, Europahof 1, 76831 Billigheim-Ingenheim, HRB 30952 AG Landau, Geschäftsführer S. Ohlinger; aktuelle Leistungen: Entrümpelung, Tatortreinigung, Asbestentsorgung, Demontage und Immobilienservice. Neustadt/Haßloch/Bad Dürkheim erscheinen als Einsatzregionen, nicht als einzelne Niederlassung/Annahmeadresse. Keine Schrott-/Metallankaufleistung, kein Materialverkaufspreis und kein veröffentlichter konkreter Dienstleistungstarif auf dem geprüften Auftritt. Der alte A.-Ohlinger-Schrottlead Schlachthofstr. 56 (und konkurrierende Heidenbrunnenweg-4-Spur) bleibt vom Sitz/Servicegebiet Steel-Men getrennt; keine Adress-, Website- oder Statusübernahme. Keine GEO-Adresse für einen Neustädter Schrotthändler bestätigt. Quelle: https://www.steel-men.de/]

@@ -28,6 +28,10 @@ Mehrere Verzeichnisse führen „Wertstoffhandel Sudenburg“ an Braunlager Str.
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Cybo-Detail direkt HTTP 403/JS-Sperre; keine heutigen Firmendaten hinter der Sperre gelesen. Gezielte Suche nach Name/Betreiber liefert Drittanbieter-Wertstoffhoflisten, keine qualifizierte Zuordnung. Braunlager Str. 35/0178 8886603 bleiben ausdrücklich Legacy-Leads, keine Aktivierung aus Listenhäufigkeit. ANKAUF: keine verifizierten Raten; VERKAUF: keine Liste; GEBÜHREN: keine Zieltarife. GEO: Grundstück/Betreiber und tatsächliche Fe-/NE-Annahme vor Koordinaten bestätigen; vorhandene Adresse nicht als kommunaler Wertstoffhof behandeln. Quelle/Abrufgrenze: https://www.cybo.com/DE-biz/wertstoffhandel-sudenburg (403); Vorrecherche 06.10.2026.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Fe/NE (lt. Verzeichnis)

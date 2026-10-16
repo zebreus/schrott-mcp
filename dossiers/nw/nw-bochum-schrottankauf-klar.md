@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Kandidaten-Impressum erneut Transportfehler, kein Inhalt gelesen. Frische Suche zeigt inzwischen Cylex-Lead Schrottankauf gegen Bares mit Am Kortländer/017680355… statt der historisch zugeordneten Herner-Str.-/0163-Daten; gleichbleibende Portal-URL ist somit kein dauerhafter Identitätsbeweis. GS-/Golocal-Suchtreffer führen Klar weiter Herner Str. 87/0163 0226727, andere Portale 0172 5883250. Robertstraße/Herner Straße/Am Kortländer nicht vereinigen; kein Betreiber-/Adressfill. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Zieltarife. GEO bis zur rechtlichen Anbieter-/Adresszuordnung aussetzen. Quellen: https://schrottankauf-klar.de/impressum/ (Transportfehler); https://web2.cylex.de/firma-home/schrottankauf-gegen-bares-15663507.html (nur neuer Suchlead, nicht direkt gelesen); https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/bochum (Suchlead).]
+
 ### Recherche 14.10.2026 — Domainversuche ohne verwertbaren Inhalt
 
 - [Recherche 14.10.2026: `https://schrottankauf-klar.de/` und `https://schrottankauf-klar.de/impressum/` erneut aufgerufen; beide Abrufe scheiterten mit Transportfehlern. Keine Inhalte, Inhaberschaft oder aktuellen Kontakte daraus gelesen. Abruffehler beweisen weder tote Website noch Geschäftsaufgabe; die frühere abweichende Rufnummer bleibt ein unbestätigter historischer Lead.; Quelle: Abrufversuche (Transportfehler, nicht inhaltlich gelesen): https://schrottankauf-klar.de/ und https://schrottankauf-klar.de/impressum/]

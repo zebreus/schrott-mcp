@@ -28,6 +28,10 @@ Schönhauser Straße 33 und 0178 4210569 beruhen auf Branchenverzeichnis-Leads; 
 
 ## Timeline
 
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Golocal-Detail diesmal tatsächlich direkt HTTP 200 gelesen: Schönhauser Str. 33/13158 Berlin und 0178 4210569, keine Öffnungszeiten. Portalsiegel überprüfte Adresse ersetzt weder Gewerbe-/Betreiberbeleg noch Nachweis eines öffentlichen Schrottplatzes. Neue Namenssuche liefert u.a. polnische Markopol-Metallverarbeiter/Marcopol; keine Namens- oder Standortbrücke zu Berlin, nicht zugeordnet. Inhabername und heutige Annahme bleiben offen, keine Frontmatter-Fills. ANKAUF/VERKAUF/GEBÜHREN keine Zielpreisliste. GEO: Rosenthaler Schönhauser Straße, nicht Schönhauser Allee; erst Betreiber-/Annahmeort prüfen. Quelle: https://www.golocal.de/berlin/schrotthandel/markopol-10X2jH/.]
+
 ### Einordnung 09.10.2026
 
 - [Recherche 09.10.2026: Vorrecherche 04.10. bleibt ausschließlich Verzeichnisbasis; neue Markopol/Schrott/Berlin-Suche ohne Resultate beweist keine Betriebsaufgabe. „Markopol“ kann Handelsbezeichnung sein und identifiziert keinen Inhaber. Nicht Schönhauser Straße 33/13158 mit Schönhauser Allee 33 verwechseln; Bezirk/Ortsteil allein bestätigt keinen öffentlich zugänglichen Schrottplatz. Markopol65@gmail.com bleibt ungeprüfter Kontaktlead. Nächster Schritt Betreibername/Gewerbeauskunft Pankow; ANKAUF/VERKAUF/GEBÜHREN weiterhin unbelegt. Quelle: https://www.golocal.de/berlin/schrotthandel/markopol-10X2jH/ (Vorrecherche/Lead, nicht erneut live gelesen).]

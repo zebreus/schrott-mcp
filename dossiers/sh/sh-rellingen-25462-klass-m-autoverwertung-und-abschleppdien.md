@@ -28,6 +28,10 @@ Klass M. Autoverwertung und Abschleppdienst ist nur als Verzeichnislead Adlerstr
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: GS-Detail direkt lesbar: Adlerstr. 36 / 25462 Rellingen / 0160 93311850, Abhol-Abschleppdienst und Autoverwertung ausschließlich als Portal-Leistungsumfang; enthaltene Golocal-Bewertung unverändert vom 26.12.2018, kein aktueller Anerkennungs-/Betreiberbeleg. Neue Namenssuche nur weitere Telefonbuchkopien; keine unabhängige Quelle gewonnen. ANKAUF: kein Fahrzeugbetrag; VERKAUF: Oldtimer-/Teilebewertung keine Preisliste; GEBÜHREN: kein Abschlepp-/Verwertungstarif. GEO: voller Betreiber, heutige Hofadresse und Anerkennung vor Standortpunkt klären. Frontmatter bleibt unverändert, kein erneutes Befüllen der zurückgenommenen Straße. Quelle: https://www.gelbeseiten.de/gsbiz/ab4492b4-2ea6-4c11-8fde-74fff1c983e2]
+
 ### Recherche 09.10.2026 / Korrektur 10.10.2026
 
 - [Recherche 10.10.2026: GS-Detail aus Wave D erneut gelesen: Klass M., Adlerstr. 36, 25462 Rellingen, 0160 93311850; keine Betreiberwebsite/Zeiten. Einzelbewertung Golocal 26.12.2018 über Oldtimer/Teile und vorherigen Handyanruf, kein aktueller Betreiber-/Ankaufbeleg. Weitere Verzeichnistreffer sind keine unabhängige zulässige Quelle; Northdata-Nichtzuordnung kein amtlicher Negativbeweis. Keine numerischen Ankauf-/Verkaufspreise/Gebühren. Quelle(n): https://www.gelbeseiten.de/gsbiz/ab4492b4-2ea6-4c11-8fde-74fff1c983e2 ; https://www.northdata.de/?query=Klass+Autoverwertung+Rellingen]

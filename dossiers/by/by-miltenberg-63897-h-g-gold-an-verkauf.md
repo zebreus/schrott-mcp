@@ -11,7 +11,7 @@ email: ''
 opening_hours: 'Mo-Fr 10:00-18:00, Sa 10:00-16:00'
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: 'Gold-/Silber-An- und Verkauf Miltenberg (Alt-/Zahn-/Bruchgold, Muenzen, Barren; Bar-Auszahlung)'
 dropoff_json: ''
 pickup_json: ''
@@ -24,14 +24,24 @@ provenance_origin: table
 
 ## Überblick
 
-H&G Gold An & Verkauf ist mit Hauptstr. 92, 63897 Miltenberg in der Mitgliederliste von MCity sowie in einem redaktionellen Beitrag vom 12.06.2024 belegt. Der Beitrag beschreibt den Betrieb des Ehepaars Kartal und Gold-/Silberhandel; kein Schrotthandel im engeren Sinn.
+H&G Gold An & Verkauf wird unter Hauptstr. 92, 63897 Miltenberg in der MCity-Mitgliederliste geführt. **Quellenkorrektur 16.10.:** Der meine-news-Beitrag vom 12.06.2024 ist ausdrücklich als „Anzeige“ gekennzeichnet, kein unabhängiger redaktioneller Zweitbeleg. MCity ist eine Gewerbevereinsliste, kein kommunales Gewerberegister. Aktuelle rechtliche Betreiberidentität und Kontaktdaten sind deshalb nach README-Standard noch offen; die alten Felder bleiben bis Owner-Gegenprüfung als unbestätigter Bestand erhalten, nicht als frisch verifiziert ausgeben. Die Anzeige beschreibt das Ehepaar Kartal und Gold-/Silberhandel, keinen allgemeinen Schrotthandel.
+
+Die folgenden Leistungen stammen aus der Anzeige von 2024, nicht aus einer aktuellen Betreiberbestätigung:
 
 - **Ankauf:** Alt-, Zahn- und Bruchgold sowie Münzen/Barren und Silber; Bewertung nach Feingehalt, Gewicht und aktuellem Goldbörsenkurs, aber kein numerischer Tarif veröffentlicht.
 - **Verkauf:** Gold-/Silberwaren sowie Goldbarren auf vorherige Bestellung; keine Verkaufspreise veröffentlicht.
 - **Gebühren:** Schmuckreinigung laut Beitrag kostenlos; weitere Gebühren/Tarife nicht ausgewiesen.
-- **Geokodierung:** Hauptstr. 92, 63897 Miltenberg neu geokodieren; Adresse ist belegt, Anliefer-/Besuchsannahmebedingungen sind nicht separat dokumentiert.
+- **Geokodierung:** Hauptstr. 92 ist ein plausibler Listen-/Anzeigenhinweis, aber vor GEO zunächst aktuelle Betreiber-/Standortbestätigung beschaffen. Keine Koordinaten gesetzt.
 
 ## Timeline
+
+### Owner-Korrektur 16.10.2026
+
+- [Korrektur 16.10.2026: Owner hat den meine-news-Beitrag selbst gelesen: Datum 12.06.2024, direkt am Beitrag Anzeige und werblicher Inhalt. Redaktion als Autorenzeile macht die Anzeige nicht zum unabhängigen redaktionellen Zweitbeleg. Deshalb bisherige Aktivbestätigung auf pruefung zurückgenommen, keine Schließung behauptet. Historische Kontakt-/Adress-/Leistungswerte bleiben ausdrücklich unbestätigter Bestand; keine neuen Fills oder GEO-Freigabe. Für erneute Aktivierung aktuellen Betreiber-/Standortbeleg und unabhängige Identitätsbestätigung beschaffen. Quelle: https://www.meine-news.de/miltenberg/c-wirtschaft/hundg-gold-an-und-verkauf-ein-ort-der-herzlichkeit-und-fachkompetenz-in-miltenberg_a177235]
+
+### Recherche 16.10.2026 (Shard 2)
+
+- [Korrektur 16.10.2026: Beide Quellen direkt gelesen. MCity nennt H&G Gold An und Verkauf/Hauptstraße 92. Meine-news zeigt beim konkreten Beitrag mehrfach Anzeige/ANZEIGE trotz Autorenzeile Redaktion; die frühere Einordnung als unabhängiger redaktioneller Beleg wird zurückgenommen. Weder Vereinsliste noch Werbung erfüllt allein den README-Zwei-Qualifizierte-Quellen-Standard. Keine Kontaktfelder neu gefüllt oder gelöscht; vorhandener Aktivstatus ist Owner-Klärfall, kein heutiger Registerbeweis und kein Schließungsgrund. Anzeigeninhalt vom 12.06.2024: Alt-/Zahn-/Bruchgold, Münzen/Barren/Silber gegen Bewertung/Barzahlung, Barrenverkauf vorbestellen, kostenlose Schmuckreinigung; alles historische Werbeaussagen, keine aktuelle Zusage/Preisliste. ANKAUF und VERKAUF ohne Zahlenkurse, GEBÜHREN außer damaliger Reinigungswerbung offen. GEO bis aktueller Betreiber-/Standortbestätigung zurückstellen. Quellen: https://mcity-miltenberg.de/mitglieder ; https://www.meine-news.de/miltenberg/c-wirtschaft/hundg-gold-an-und-verkauf-ein-ort-der-herzlichkeit-und-fachkompetenz-in-miltenberg_a177235.]
 
 ### Recherche 07.10.2026
 

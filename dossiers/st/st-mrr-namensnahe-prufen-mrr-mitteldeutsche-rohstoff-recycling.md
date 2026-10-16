@@ -28,6 +28,10 @@ MRR Mitteldeutsche Rohstoff-Recycling GmbH ist jetzt registerbasiert unter Stend
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Konkrete MRR-Löschungsbekanntmachung per eigenem Direktabruf HTTP 429, daher deren Inhalt heute nicht neu gelesen; verifizierter Befund 14.10.2026 bleibt historisch erhalten. Keine Aussage zur heutigen Scholz-/MRR-Rechtsnachfolge aus Rate-Limit ableiten. Bestehender fehlerhafter Seed-Ort ist ausdrücklich kein echter Ort und kein Geocoding-Eingang; Owner muss anhand belegter Identität und Nachfolge entscheiden, nicht den Halle-Kandidaten stillschweigend übernehmen. ANKAUF/VERKAUF/GEBÜHREN: keine neu geprüften MRR-Tarife, keine Scholz-Preise übertragen. Kein Rename, keine Aktivierung oder Hofschließung. Quelle/Abrufgrenze: https://www.northdata.de/?id=6673880380342272 (429); Dossier-Vorrecherche 14.10.2026.]
+
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 
 - [Recherche 14.10.2026: Neuer tatsächlicher Registerbeleg statt bislang alleiniger Branchenliste: NorthData-Profil MRR Mitteldeutsche Rohstoff-Recycling GmbH, HRB 201565 Stendal, Halle→Bitterfeld-Wolfen (Sitzänderung 12.06.2014), Liquidationsereignisse 2020, Löschung 22.05.2023. Verlinkte Löschung einzeln gelesen: „Die Liquidation ist beendet. Die Gesellschaft ist erloschen.“ Scholz-Gesellschafterpublikationen sind keine automatische Verschmelzung/Betriebsübertragung; 2024er Publikation „über Scholz“ belegt keinen MRR-Fortbestand. Profil und Einzelpublikation sind EINE registerbasierte Quelle. Quellen: https://www.northdata.de/MRR+Mitteldeutsche+Rohstoff-Recycling+GmbH,+Halle ; https://www.northdata.de/?id=6673880380342272 .]

@@ -37,6 +37,10 @@ Altmaterialien/Neueisen/Transporte sind im Firmennamen greifbar; Containerangebo
 
 ## Timeline
 
+### Recherche 16.10.2026 (Shard 2)
+
+- [Recherche 16.10.2026: Bekanntes NorthData-Detail HRA 1415 direkt erneut versucht, diesmal 429; Registeradresse Falkenberger Straße 6–8 bleibt konkret dokumentierter Vorwellenbefund vom 05.10., nicht als heute neu gelesener Auszug ausgegeben. Namens-/Orts-Websuche ergab keinen passenden neuen Betreiberbeleg; LinkedIn-Namesake Langquaid nicht zugerechnet. Konflikt Nr. 6–8/18 und Rufnummern 1294/1295 ungelöst. Keine Straße/Telefon gefüllt, keine Schließung behauptet. ANKAUF/VERKAUF/GEBÜHREN keine Zielzahlenliste; GEO erst Geschäfts-/Annahmeadresse auseinanderhalten und bestätigen. Quelle/Abrufgrenze: https://www.northdata.de/Helmut+Zagler+Altmaterialien,+Neueisen+und+Transporte+e.+K.,+Tirschenreuth/Amtsgericht+Weiden+HRA+1415.]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Gelbe Seiten und Das Örtliche führen weiterhin Zagler Helmut in der Falkenberger Straße 18, 95643 Tirschenreuth; das Registerprofil HRA 1415 (AG Weiden) nennt dagegen als Geschäftsanschrift Falkenberger Straße 6–8. Telefonvarianten 09631 1294/1295 bleiben Verzeichnisangaben. Keiner der Adresshinweise belegt für sich einen aktuellen Kundenannahmeplatz; Straße und Telefon bleiben leer, Status `pruefung`. Keine belastbaren numerischen Ankauf-/Verkaufspreise oder Gebühren gefunden. Geokodierung erst nach Auflösung Geschäfts-/Annahmeadresse; Quelle: https://www.gelbeseiten.de/suche/schrotthandel/tirschenreuth ; https://www.dasoertliche.de/Themen/Schrotthandel/Tirschenreuth.html ; https://www.northdata.de/Helmut+Zagler+Altmaterialien,+Neueisen+und+Transporte+e.+K.,+Tirschenreuth/Amtsgericht+Weiden+HRA+1415]

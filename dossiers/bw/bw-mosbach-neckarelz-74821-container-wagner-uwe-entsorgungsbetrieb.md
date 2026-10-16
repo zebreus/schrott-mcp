@@ -30,6 +30,10 @@ Der Betreiberauftritt firmiert als **Firma Wagner**, vertreten durch Annegret Wa
 
 ## Timeline
 
+### Recherche 16.10.2026 — Shard 1
+
+- [Recherche 16.10.2026: Impressum/Leistungen/Container/Zertifikatseite eigenständig erneut gelesen: Firma Wagner, vertreten durch Annegret Wagner, Billigheim; Lager Bahnhofstr. 8/3, Footer verkürzt 8, 06261 62293. Leistungen führen Schrott, Späne, Bleche, Metalle, Papier, Aluminium-/VA-Abfälle und Kabelreste; daraus keine kostenlose Annahme oder Ankauf aller Sorten ableiten. Zertifikatseite als HTML ohne auswertbaren Zertifikatinhalt; keine Anerkennung/Gültigkeit neu behauptet. Uwe→Annegret-Kette sowie öffentliche Hofzuordnung weiter offen, keine Stammdatenüberschreibung. ANKAUF: keine bezifferten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Container-/Miet-/Entsorgungstarife, Größen 10–40/5–12 m³ sind keine Preise. GEO: Hofzugang/8 versus 8/3 und Billigheim-Abgrenzung klären. Quellen: https://www.schrott-wagner.de/impressum.html ; https://www.schrott-wagner.de/leistungen.html ; https://www.schrott-wagner.de/container.html ; https://www.schrott-wagner.de/zertifikat.html]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Betreiber-Impressum nennt „Firma Wagner“, vertreten durch Annegret Wagner, Fasanenweg 2, 74842 Billigheim; separat wird Lager Bahnhofstr. 8/3, 74821 Mosbach-Neckarelz mit Tel. 06261/62293 geführt. Die Website nennt Containergrößen (Abroll 10–40 m³, Absetz 5–12 m³) sowie Anlieferung am Wertstoffhof Mo-Fr 09:00–16:00, verknüpft den Hof aber nicht eindeutig mit dem Neckarelzer Lager. Abweichung zur Seed-Bezeichnung „Uwe“ und die Rolle der beiden Anschriften offen; bestehende Frontmatter-Angaben unverändert, kein zusätzlicher Fill. Geocoding erst nach Klärung, ob Bahnhofstr. 8/3 die öffentlich zugängliche Annahmestelle ist. Quelle(n): https://www.schrott-wagner.de/impressum.html ; https://www.schrott-wagner.de/ ; https://www.schrott-wagner.de/container.html]
