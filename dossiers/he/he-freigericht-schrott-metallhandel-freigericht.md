@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der generische Seedname ist weiterhin keinem konkreten Betreiber zugeordnet. **AC Containerdienst UG**, Im Schwalbengrund 14, ist im Impressum mit Merle Federau/HRB 101188 belegt. **TSR**, Gewerbepark Birkenhain 13–15, ist eine ältere separate Standortspur; der Direktabruf am 17.10. lieferte keinen lesbaren Inhalt, also keine heutige unabhängige Neuverifikation. Keine Quelle verbindet AC/TSR mit diesem generischen Datensatz oder einer früheren Raiffeisenstraßen-Adresse. Zieladresse/Website bleiben leer, Status `pruefung` unverändert.
+
+**Abgrenzung der neuen Preisliste:** AC veröffentlicht Entsorgungs- und Containergebühren sowie Schüttgutverkaufspreise auf Anfrage; das sind keine Preise dieses ungeklärten Seedbetriebs. Siehe Recherche 13.10.2026 und Bericht. Für den Zielbetrieb sind Ankauf, Verkauf und Gebühren unbekannt.
 
 ## Timeline
+
+### Korrektur 17.10.2026 (Quellengrenze)
+
+- [Korrektur 17.10.2026: Review bestätigt AC-Impressum: UG, Merle Federau, HRB 101188, Im Schwalbengrund 14. TSR-Direktabruf ohne lesbaren Inhalt, deshalb keine heute erneut unabhängig bestätigte TSR-Adresse behaupten. AC-/TSR-Spuren und AC-Gebühren bleiben fremde Betreiber, keine Zielpreise oder Nachfolgekette. Raiffeisenstraßen-/Website-Status-Korrektur schon am 05.10. integriert. Kein neuer Fill/Clear, keine GEO-Freigabe. Quelle: https://www.ac-containerdienst.de/impressum/; https://www.tsr-recycling.de/standorte/schrotthaendler-freigericht/; research/checkin-20261017-1700-wave13-b-review.md]
 
 ### Korrektur 05.10.2026
 
@@ -43,3 +49,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: miss - Websuche (Schrott/Metallhandel + Freigericht + Raiffeisenstr.) bringt nur Branchenfremde (Baustoffhandel, Fensterbauer) und das Schrottregister (1 Betrieb in Freigericht, Identitaet ungeprueft, keine Zuordnung zu Raiffeisenstr. 26 moeglich); kein Betreiber, kein Zweitbeleg; kein Fill; website_status tot weiter unbelegt (kein Re-Test einer konkreten URL dokumentiert); Quelle(n): Websuche 02.10.2026]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Preis-/Betreiber-Gegenprüfung trennt den Seed ausdrücklich von AC Containerdienst UG (Im Schwalbengrund 14, 63579; HRB 101188 AG Hanau laut Betreiberimpressum) und dem TSR-Standort im Gewerbepark Birkenhain 13–15; kein Namens-/Rechtsnachfolgebeleg zum generischen „Schrott & Metallhandel Freigericht“. ACs aktuelle Betreiberseite bewirbt Altmetallankauf zu Tagespreisen; keine numerischen Ankaufskurse. Sie veröffentlicht dagegen Gebühren für Entsorgung/Container (Einzelheiten und Widersprüche im Wave-Bericht), während Schüttgutpreise ausdrücklich nur auf Anfrage stehen. Nichts davon dem Zieldatensatz zugeordnet. Keine Zielpreise, Felder oder GEO ergänzt. Quelle: https://www.ac-containerdienst.de/impressum/; https://www.ac-containerdienst.de/schrotthandel-schrottankauf/; https://www.ac-containerdienst.de/containerdienst-abfallentsorgung; https://www.tsr-recycling.de/standorte/schrotthaendler-freigericht/]

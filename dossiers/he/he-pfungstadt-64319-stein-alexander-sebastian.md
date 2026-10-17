@@ -30,6 +30,10 @@ Das Dossier beruht auf Verzeichnisangaben für „Alexander-Sebastian Stein“ i
 
 ## Timeline
 
+### Korrektur 17.10.2026 (Keep/Clear-Grenze)
+
+- [Korrektur 17.10.2026: Frühere Feldrücknahmen bereits am 07.10. integriert, nicht als neue Wellenbereinigung zählen. Weiter nur Portal-Leads, keine Primärbestätigung/Schließungsbehauptung. street/postcode leer ersetzen bei geändertem Seed die gespeicherte Kernadresse; phone leer hält ohne clear_fields dagegen gespeicherte Anreicherung. Kein zusätzlicher Telefon-Clear autorisiert, daher keine DB-wirksame Telefonrücknahme behaupten. Servicefelder bleiben unbekannt/Keep, keine GEO-Freigabe; ohne Paar bleiben vorhandene Koordinaten erhalten, kein automatisches Geocoding. Quelle: research/checkin-20261017-1700-wave13-b-review.md; docs/trader-seed.md; Portal-Leads der alten Recherche]
+
 ### Korrektur/Recherche 07.10.2026
 
 - [Korrektur 07.10.2026: Die bisherigen Werte Tulpenweg 3, 64319 und 06157 9110132 beruhten auf 11880 und Stadtbranchenbuch, also ausschließlich Branchenverzeichnisquellen; ein Betreiber-, Register- oder Kommunalbeleg zur aktiven Schrottfirma fehlt. Deshalb street/postcode/phone aus dem Frontmatter entfernt, Werte und damalige Doppelbeleg-Entscheidung bleiben in der Historie nachvollziehbar. NorthData-Suche nach „Stein Alexander-Sebastian Pfungstadt“ ergab keinen eindeutig passenden Rechtsträger; das beweist keine Nichtexistenz. ANKAUF: nicht bestätigt/keine Zahlenpreise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben in den ausgewerteten Quellen. Offen: Identität, Adresse und aktueller Betrieb, ggf. Gewerberegister/Vor-Ort-Bestätigung; Quelle: https://www.northdata.de/?query=Stein%20Alexander-Sebastian%20Pfungstadt; https://www.11880.com/; https://pfungstadt.stadtbranchenbuch.com/]
@@ -46,3 +50,7 @@ Das Dossier beruht auf Verzeichnisangaben für „Alexander-Sebastian Stein“ i
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle, Nachtrag)
 
 - [Recherche 01.10.2026: Adress-/Telefon-Fund in ZWEI konsistenten Verzeichnissen — 11880 („Alexander-Sebastian Stein Schrotthandel“, Tulpenweg 3, 64319 Pfungstadt-Eschollbrücken, (06157) 9110132, Rubrik Schrotthandel/Altmetallrecycling) + stadtbranchenbuch Pfungstadt („Alexander-Sebastian Stein, Tulpenweg 3, 64319 Pfungstadt, 06157 9110132“): street/postcode/phone daher GEFÜLLT, aber Beleglage offen dokumentiert (beide Aggregatoren, KEIN Betreiber-Beleg, kein Register) — status bleibt pruefung. Keine Betreiber-Website, kein Impressum, kein Social. Namensvariante „Alexander Sebastian Stein“ (11880-Suche) vs. „Alexander-Sebastian Stein“ (11880-Profil) dokumentiert. Folgewelle: Gewerberegister Pfungstadt / Vor-Ort Eschollbrücken. Quelle(n): 11880.com, pfungstadt.stadtbranchenbuch.com.]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Erneute Suche nach exaktem Namen, Pfungstadt und „Schrott“ ergab keine neue Betreiber-, Register- oder kommunale Quelle. Der frühere Tulpenweg-3-/64319-/06157-9110132-Treffer bleibt ein Verzeichnislead; die bereits dokumentierte Entfernung dieser Felder aus Frontmatter wird bestätigt. Negativbefund ist kein Nichtexistenz-/Schließungsnachweis. ANKAUF: nicht bestätigt/keine Zahlenpreise; VERKAUF/GEBÜHREN: keine Listen. Kein verifizierter Standort für GEO. Quelle/Suchweg: https://www.northdata.de/?query=Stein%20Alexander-Sebastian%20Pfungstadt; https://www.11880.com/; https://pfungstadt.stadtbranchenbuch.com/]

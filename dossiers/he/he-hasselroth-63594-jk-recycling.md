@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der einzige konkrete Hasselrother Lead bleibt das GoLocal-Profil „Schrotthandel JK-RECYCLING“: Alte Hanauer Landstr. 3, 63594 Hasselroth/Neuenhaßlau, 01575 2395941 und `schrotthandel.kasch@gmail.com`. Es fehlen Betreiber-/Registerbeleg und unabhängige zweite Quelle. Namensähnliche JK-Recycling-Betriebe in Darmstadt/Aglasterhausen sowie SKC Textilrecycling sind nicht zugeordnet; die kommunale Gewerbeübersicht ist kein vollständiges Register.
+
+**Preise/GEO:** keine bestätigte Ankaufspreisliste, Verkaufspreise oder Gebühren; Adresse und Annahme-/Abholbedingungen unbestätigt, daher keine Koordinate.
 
 ## Timeline
+
+### Korrektur 17.10.2026 (Integrationsgrenze)
+
+- [Korrektur 17.10.2026: GoLocal/Kasch bleibt unbestätigter Lead, keine neue qualifizierende Quelle. Neue Suchtreffer zu überwiegend US-Namensvettern beweisen nichts gegen Hasselroth. Aglasterhausen/Darmstadt/SKC bleiben getrennt; Gegenrecherche schon am 04.10. integriert. Nur vorsichtige Textnotiz freigegeben, pruefung bleibt; keine Kontakt-/Servicefills, Clears oder GEO-Freigabe. Quelle: https://www.golocal.de/hasselroth/sonstige-dienstleistungen/schrotthandel-jk-recycling-11X8ly/; research/checkin-20261017-1700-wave13-b-review.md]
 
 ### Recherche 02.10.2026
 
@@ -45,3 +51,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 04.10.2026: Unscharfe Register-Zuordnung ausdrücklich verworfen: Der Direktabruf der Northdata-Suchadresse JK-Recycling, Hasselroth zeigte stattdessen SKC Textilrecycling KG, Hanau HRA 92979, mit Hasselroth/Maintal-Bezug und Textilrecycling. Anderer Firmenname und Gegenstand, keine belegte Umbenennung von JK. Keine Übernahme dieser Anschrift/Registerdaten und kein Merge; Quelle(n): https://www.northdata.de/JK-Recycling,+Hasselroth]
 - [Recherche 04.10.2026: Kommunale Gegenprüfung: Hasselrother Startseite, Gewerbeseite und Tour-de-Hasselroth-Unterseite einzeln direkt gelesen. Die Übersicht über besuchte Unternehmen enthält keinen eindeutig zugeordneten JK-Einzelnachweis, ist aber kein vollständiges kommunales Gewerberegister. Genannte andere Verwertungsunternehmen nicht als Ersatzidentität verwendet. Aus fehlender Erwähnung weder Nichtexistenz noch Schließung abgeleitet; Quelle(n): https://www.hasselroth.de/ ; https://www.hasselroth.de/hasselroth/gewerbe/ ; https://www.hasselroth.de/hasselroth/gewerbe/tour-de-hasselroth/]
 - [Recherche 04.10.2026: KLÄRFALL bleibt offen: Keine qualifizierende Primärquelle für die Hasselrother Betreiberidentität oder die neuen Kontakt-Leads; bestehendes city Hasselroth 63594, website_status unbekannt und status pruefung unverändert, sonstige leere Frontmatter-Felder nicht gefüllt. Vollständiger Betreibername, heutige Nutzung der genannten Anschrift und Mail/Mobilnummer sowie tatsächliche Annahme-/Abholbedingungen und Zeiten müssen bestätigt werden. Allgemeine Websuche ohne verwertbare neue Ergebnisse, Direktabrufe wie oben abgegrenzt; keine zuordenbare Ankaufspreisliste, keine Preis- oder Koordinatenübernahme; Quelle(n): https://www.golocal.de/hasselroth/sonstige-dienstleistungen/schrotthandel-jk-recycling-11X8ly/ ; https://www.hasselroth.de/hasselroth/gewerbe/ ; https://www.northdata.de/JK+Recycling+UG,+Aglasterhausen/Amtsgericht+Mannheim+HRB+735887]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Re-Check nach exaktem Namen/Ort brachte keine neue qualifizierende Quelle; der GoLocal-Eintrag vom 04.10. bleibt ein Verzeichnislead, keine Betreiberbestätigung. Fehlende Treffer auf der kommunalen Übersichtsseite beweisen keine Nichtexistenz. Vollständiger Rechtsträger, fortbestehende Nutzung von Alte Hanauer Landstr. 3, Kontakte, Zeiten und tatsächliche Annahme/Abholung bleiben offen. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbaren Preise. Keine GEO-Daten gesetzt. Quelle: https://www.golocal.de/hasselroth/sonstige-dienstleistungen/schrotthandel-jk-recycling-11X8ly/; https://www.hasselroth.de/hasselroth/gewerbe/]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Datensatz bleibt ein Recherchekandidat: auch die erneute Suche nach dem exakten Namen zusammen mit Stadtroda/Donndorf ergab am 07.10.2026 keinen eindeutig zuordenbaren Betreiberauftritt oder belastbaren Registertreffer. Das ist kein Beleg für Nichtexistenz oder Schließung. Adresse, Kontakt, Annahme, Ankauf und Aktivität sind weiterhin offen; keine Anlieferung ohne vorherige Bestätigung.
+Der Datensatz bleibt ein Recherchekandidat. Eine neue Schrottplatz.org-Listung nennt „Schrott Donndorf Herbert Schrott- und Metallhandel“, Breiter Weg 82, 07646 Stadtroda; es ist jedoch nur ein Branchenportal, ohne Betreiber-/Registerbeleg. Die neue Spur ersetzt den früheren Negativbefund „kein eindeutig zuordenbarer Treffer“, belegt aber weder aktuelle Tätigkeit noch Annahme/Ankauf. Adresse und Kontakt bleiben unbestätigt; keine Anlieferung ohne Bestätigung.
 
 ## Timeline
+
+### Korrektur 17.10.2026 (Namensfehler)
+
+- [Korrektur 17.10.2026: „Name, Adresse und Kontaktdaten bleiben aus Frontmatter“ vom 13.10. ist falsch formuliert: name steht dort unverändert; gemeint sind keine neuen Adress-/Kontaktfills. Breiter Weg 82/07646 und zusätzlicher Telefonlead 03642 840180 bleiben Portalspuren ohne Primärbestätigung. Datierter Negativbefund vom 07.10. bleibt historisch erhalten, nicht als heutige vollständige Trefferlosigkeit lesen. Kein aktueller Ankauf, Schließung oder Annahme nachgewiesen, keine Clears/GEO-Freigabe. Quelle: https://www.schrottplatz.org/albersdorf-thueringen/schrott-donndorf-herbert-schrott-und-metallhandel-aYEPHg.html; research/checkin-20261017-1700-wave13-b-review.md]
 
 ### Recherche 07.10.2026
 
@@ -35,3 +39,8 @@ Der Datensatz bleibt ein Recherchekandidat: auch die erneute Suche nach dem exak
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott- und Metallhandel
+
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Neue Portalspur auf Schrottplatz.org gelesen: „Schrott Donndorf Herbert Schrott- und Metallhandel“, Breiter Weg 82, 07646 Stadtroda. Das ist eine Verzeichnislistung, keine Primär-/Registerbestätigung; sie schränkt die frühere Suche ohne eindeutigen Treffer ein, beweist aber keine Aktivität oder tatsächliche Annahme. Name, Adresse und Kontaktdaten bleiben aus Frontmatter; Ankauf/Verkauf/Gebühren und Preise offen. GEO nicht aus Portaladresse abgeleitet. Quelle (Lead): https://www.schrottplatz.org/stadtroda; https://www.schrottplatz.org/albersdorf-thueringen/schrott-donndorf-herbert-schrott-und-metallhandel-aYEPHg.html]

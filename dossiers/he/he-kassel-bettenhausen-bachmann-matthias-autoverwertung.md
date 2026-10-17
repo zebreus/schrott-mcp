@@ -1,6 +1,6 @@
 ---
 slug: he-kassel-bettenhausen-bachmann-matthias-autoverwertung
-name: Bachmann Matthias Autoverwertung
+name: Matthias Bachmann Autoverwertung GmbH & Co. KG
 trader_type: autoverwertung
 state: HE
 city: Kassel-Bettenhausen
@@ -20,13 +20,25 @@ provenance_ankauf_raw: AV / unklar
 provenance_origin: table
 ---
 
-# Bachmann Matthias Autoverwertung
+# Matthias Bachmann Autoverwertung GmbH & Co. KG
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Betreiberauftritt nennt **Matthias Bachmann Autoverwertung GmbH & Co. KG**, Heiligenröder Straße 45, 34123 Kassel, Telefon 0561 523934 und `info@bachmann-ks.de`; das Impressum führt HRA 7347 AG Kassel, kongruent zum NorthData-Profil. Die Website bewirbt den individuellen Ankauf defekter Fahrzeuge, Autoverwertung und gebrauchte Ersatzteile. Keine allgemeine Annahme loser Altmetalle daraus ableiten.
+
+**Feldgrenze 17.10.2026 nach Endabnahme:** Name/Identität und bereits integrierte Adresse sind durch Betreiber/NorthData gestützt. Telefon und Domain zusätzlich nur im Creditreform-Suchindex kongruent, kein vollständig gelesener unabhängiger Feldabgleich. Deshalb bleiben auch phone, website und website_status auf dem bisherigen leeren Seedstand; ebenso kein Mailfill, kein neuer Aktivstatus und keine individuelle Ankaufserweiterung der Description. Die oben genannten Kontakte/Ankaufbedingungen sind zugeschriebene Betreiberangaben, keine strukturiert freigegebenen Fakten. Erreichbarkeit beweist weder die vollständige Betreiber-Ausnahme noch aktuelle Zertifizierung; `pruefung` bleibt.
+
+**Preise:** Betreiber nennt individuelle Fahrzeugbewertung, keine festen Kurse. Shopabruf vom 13.10. ohne verifizierbare Artikelpreise; keine Gebührenliste. Demontage-Zertifikat nur bis 24.12.2024 gültig, kein aktueller Zertifizierungsnachweis und kein Schließungsindiz. Keine GEO-Freigabe.
 
 ## Timeline
+
+### Endabnahme 17.10.2026 (Kontaktfills zurückgestellt)
+
+- [Korrektur 17.10.2026: Die folgende frühere Teilfreigabe wird durch die unabhängige Endabnahme eingeschränkt: Telefon, Website und Website-Status bleiben leer wie im bisherigen Seed, weil der Creditreform-Suchindex keinen vollständig nachgeprüften unabhängigen Feldabgleich ersetzt. Name/H1 und bestehende Adresse/Kerntätigkeit bleiben im belegten Umfang präzisiert; keine neue Mail, Aktivierung oder Ankaufserweiterung. Keine neuen Liveabrufe in dieser Disposition, kein Clear vorhandener Anreicherung und kein GEO-Auftrag. Quelle: research/checkin-20261017-2130-wave13-b-owner-final.md; https://www.bachmann-ks.de/impressum/; https://firmeneintrag.creditreform.de/34123/6150052355/MATTHIAS_BACHMANN_AUTOVERWERTUNG_GMBH_CO_KG]
+
+### Korrektur 17.10.2026 (Feldbezogene Teilfreigabe)
+
+- [Korrektur 17.10.2026: Die pauschale Freigabe vom 13.10. wird präzisiert: heutiger Rechtsträger/HRA 7347 und Identitätsgeschichte 2013 durch Betreiber und NorthData gestützt, H1 angeglichen, frühere Bezeichnung in Historie erhalten. Adresse/Kerntätigkeit bereits am 04.10. integriert. Telefon 0561 523934 und Domain zusätzlich im Creditreform-Suchindex kongruent; Suchindex, kein Vollabruf/Universalbeleg. Diese Felder einschließlich erreichbarem Website-Status bleiben; email, Händlerstatus und description gezielt auf HEAD leer/pruefung/bisherige Kerntätigkeit gehalten. Kein qualifizierender Zweitbeleg für neue Mail/individuelle Ankaufserweiterung; keine vollständige README-Betreiber-Ausnahme. TÜV-PDF gültig nur bis 24.12.2024, kein aktuelles Zertifikat oder Schließungsbeleg. NorthData-Publikation paywallgeschützt, kein Originalvollauszug behauptet. Leere Servicefelder bedeuten Keep/unbekannt, kein Clear. Alte Geocodierungshinweise sind historisch: kein automatisches Geocoding, keine GEO-Freigabe. Quelle: https://www.bachmann-ks.de/impressum/; https://www.bachmann-ks.de/fahrzeugankauf/; https://www.northdata.de/Matthias+Bachmann+Autoverwertung+GmbH+%26+Co.+KG,+Kassel/Amtsgericht+Kassel+HRA+7347; https://firmeneintrag.creditreform.de/34123/6150052355/MATTHIAS_BACHMANN_AUTOVERWERTUNG_GMBH_CO_KG; https://www.bachmann-ks.de/wp-content/uploads/2023/12/Zertifikat-2023-2024.pdf; research/checkin-20261017-1700-wave13-b-review.md; Ownerdisposition 17.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
@@ -42,3 +54,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 04.10.2026: Weitere relevante Unterseiten Inspektion, Reifenservice, Klima-Service und Ölwechsel jeweils erfolgreich gelesen; sie beschreiben Werkstattleistungen, keine zusätzlich unabhängig belegten Schrottankaufsbedingungen. Öffnungszeiten, aktueller Zertifikatsnachweis und Aktualität der Leistungsbedingungen weiter zu bestätigen; Quelle(n): https://www.bachmann-ks.de/inspektion/ ; https://www.bachmann-ks.de/reifenservice/ ; https://www.bachmann-ks.de/klima-service/ ; https://www.bachmann-ks.de/oelwechsel/]
 - [Recherche 04.10.2026: Preisprüfung: Fahrzeugankauf nennt individuelle Bewertung, keine feste Ankaufspreisliste. Fahrzeugverkauf wurde einzeln gelesen und enthält alte Verkaufsangebote mit Verfügbarkeitsdatum 20.04.2023, daher keine aktuellen Ankaufspreise. Der verlinkte Ersatzteil-Shop ist erreichbar und zeigt Verkaufspreise für Gebrauchtteile; sein Kontaktformular wurde separat gelesen. Verkauf nicht mit Ankauf verwechseln; keine Preise übernommen. In diesen abgerufenen Angeboten keine Schrott-/Metallankaufspreisliste nachgewiesen; Quelle(n): https://www.bachmann-ks.de/fahrzeugankauf/ ; https://www.bachmann-ks.de/fahrzeugverkauf/ ; http://shop.bachmann-ks.de/ ; https://shop.bachmann-ks.de/ ; https://shop.bachmann-ks.de/pages/contact]
 - [Recherche 04.10.2026: Unabhängige kommunale Gegenprüfung: kassel.de-Suche nach Bachmann zeigte auf der gelesenen ersten Ergebnisseite vor allem Namensvetter in der Stadtverwaltung; Suche nach Autoverwertung meldete keine Treffer. Das ist kein Gewerberegisterauszug und weder Existenz- noch Schließungsnachweis. Die allgemeine Suchintegration lieferte wiederholt keine Ergebnisse, auch bei bekanntem Firmennamen; deshalb keine Vollständigkeit der Websuche behauptet. Weitere Kontaktdaten benötigen einen qualifizierenden Zweitbeleg; status bleibt pruefung; Quelle(n): https://www.kassel.de/suche.php?sp%3Aq=Bachmann&sp%3Asearch=siteSearch ; https://www.kassel.de/suche.php?sp%3Aq=Autoverwertung&sp%3Asearch=siteSearch]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Erneut direkt gelesene Betreiberseiten/Impressum bestätigen Matthias Bachmann Autoverwertung GmbH & Co. KG, HRA 7347 AG Kassel, Heiligenröder Straße 45, 34123, 0561 523934 und info@bachmann-ks.de; NorthData ist kongruent. Daher `name`, Website/aktiv-Status und leere Kontaktfelder auf Betreiberstand gebracht; die Seite „Fahrzeugankauf“ bietet defekte Fahrzeuge aller Marken/Modelle mit individueller Bewertung und nach Angebotsannahme Abholung/Transport, jedoch keinen Zahlenkurs. Verkauf gebrauchter Teile wird beworben; der verlinkte Shop lieferte beim Abruf HTTP 402, daher keine aktuellen Verkaufspreise verifiziert. GEBÜHREN: keine Tabelle, keine kostenlose Entsorgung behauptet. Das Betreiber-PDF zur §5-Zertifizierung endet am 24.12.2024; kein aktueller Zertifizierungsnachweis. GEO: Adresse bestätigt, Zufahrt/Hofpunkt separat prüfen; keine Koordinaten gesetzt. Quelle: https://www.bachmann-ks.de/impressum/; https://www.bachmann-ks.de/unternehmen/; https://www.bachmann-ks.de/fahrzeugankauf/; https://www.bachmann-ks.de/autoverwertung/; https://www.bachmann-ks.de/wp-content/uploads/2023/12/Zertifikat-2023-2024.pdf; https://www.northdata.de/Matthias+Bachmann+Autoverwertung+GmbH+%26+Co.+KG,+Kassel/Amtsgericht+Kassel+HRA+7347; https://shop.bachmann-ks.de/]

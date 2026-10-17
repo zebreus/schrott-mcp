@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Schindling Stoffstrom Vertriebs GmbH“ ist bislang nur über einen 11880-Eintrag mit Eichenstraße 83, 65933 Frankfurt und (069) 39090562 belegt. Ein unabhängiger Betreiber-, Register- oder Zweitbeleg wurde nicht gefunden; Straße, PLZ und Telefon sind daher aus dem Frontmatter entfernt. Eine NorthData-Suche nach dem Namen lieferte als ähnlich klingenden Treffer **Sperzel Stoffstrom Vertriebs GmbH**, HRB 76714, Frankfurt – kein Nachweis für Schindling und keine Grundlage, deren Daten zu übertragen. Stoffstromhandel/Verwertung und möglicher Brokerstatus bleiben Seed-Angaben.
+„Schindling Stoffstrom Vertriebs GmbH“ ist weiterhin nicht durch Betreiber- oder Registerquellen bestätigt. Verzeichnisangaben widersprechen sich: Eichenstraße 83, 65933 Frankfurt und 069 39090562 (11880/Öffnungszeitenbuch) stehen neben einer MisterWhat-Angabe mit Eichenstraße 59 und der Ortsbezeichnung „Frankfurt (Oder)“ trotz PLZ 65933. `schindling.de` scheiterte beim Direktabruf; das ist kein Beleg für eine geschlossene Firma. **Sperzel Stoffstrom Vertriebs GmbH** und **Schindling Kieshandel GmbH** sind andere Firmen und werden nicht zusammengeführt.
 
 **Preise:** kein bestätigter Ankauf, keine numerische Ankaufpreisliste; keine Verkaufspreise oder Gebührenangaben in den ausgewerteten Quellen. Status `pruefung` bleibt; Firmenidentität und aktuelle Tätigkeit offen.
 
 ## Timeline
+
+### Korrektur 17.10.2026 (Beleg- und Seedgrenze)
+
+- [Korrektur 17.10.2026: Eichenstr. 59/83 und Frankfurt-(Oder)-Portalfehler bleiben Leads; Sperzel und Schindling Kieshandel nicht transplantieren. Review-Suchtreffer zu Klaus Schindling/LinkedIn mit „Schindling Stoffstrom Vertriebsgesellschaft mbH“, 2005–2007, ist nur eine historische personenbezogene Identitätsspur, keine aktuelle Firmenbestätigung. Feldrücknahmen bereits am 07.10. integriert, kein neuer Erfolg dieser Welle. Leere Kernadresse ersetzt gespeicherte Adresse; phone leer ohne clear_fields garantiert keine gespeicherte Telefonrücknahme. Kein Alt-Clear autorisiert, keine Service-/GEO-Freigabe, keine automatische Neu-Geocodierung. Quelle: research/checkin-20261017-1700-wave13-b-review.md; docs/trader-seed.md; konkrete Portal-Leads der Recherche 13.10.2026]
 
 ### Korrektur/Recherche 07.10.2026
 
@@ -42,3 +46,8 @@ provenance_origin: table
 
 - Schrott, evtl. Broker
 - Adresse: Frankfurt 65933 [Website-Recherche verzeichnis: services: Stoffstromhandel, Verwertung; notes: 11880-Verzeichnis (Schindling Stoffstrom Vertriebs GmbH).]
+
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Verzeichnis-Gegenprüfung verschärft den Adress-/Identitätskonflikt: Öffnungszeitenbuch und 11880 nennen Eichenstr. 83 / 65933 Frankfurt, 069 39090562; MisterWhat betitelt den Treffer „Frankfurt (Oder)“ und nennt Eichenstr. 59 bei derselben PLZ. Diese Verzeichnisse sind Leads, kein unabhängiger Identitätsbeleg. Direktabruf https://www.schindling.de/ scheiterte technisch; keine Aussage über Nichtexistenz. Die gleichnamig-nahe Schindling Kieshandel GmbH in Hattersheim und Sperzel Stoffstrom Vertriebs GmbH HRB 76714 in Frankfurt sind getrennte Rechtsträger/Spuren. ANKAUF: keine numerischen Preise; VERKAUF/GEBÜHREN: keine Preislisten gefunden. Keine Adresse/Telefon/GEO übernommen. Quelle: https://www.oeffnungszeitenbuch.de/filiale/Frankfurt-Schindling%2520Stoffstrom%2520Vertriebs%2520GmbH-2844824T.html; https://www.misterwhat.de/company/938909-schindling-stoffstrom-vertriebs-gmbh-frankfurt-oder; https://www.schindling.de/; https://schindling-hattersheim.de/; https://www.northdata.de/?query=Schindling%20Stoffstrom%20Vertriebs%20GmbH]

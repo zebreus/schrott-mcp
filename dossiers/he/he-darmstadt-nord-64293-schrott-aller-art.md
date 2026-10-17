@@ -4,8 +4,8 @@ name: Schrott Aller Art
 trader_type: schrotthaendler
 state: HE
 city: Darmstadt
-street: Mainzer Str. 83
-postcode: '64293'
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zuordnung bleibt ungeklärt. Verzeichnisse nennen Mainzer Str. 83, 64293 Darmstadt, widersprechen sich aber beim Mobiltelefon; eine Betreiber- oder Registerquelle fehlt. Die Domain `schrottallerart.de` zeigte beim Abruf am 13.10.2026 nur eine one.com-Parkseite. Adresse und Telefonnummer bleiben daher Leads, nicht bestätigte Kontaktdaten.
+
+**Preise:** keine zuordenbare Ankaufspreisliste, Verkaufspreise oder Entsorgungsgebühren gefunden. `status: pruefung`; weder aktuelle Tätigkeit noch Schließung belegt.
 
 ## Timeline
+
+### Korrektur 17.10.2026 (Integrationsdisposition)
+
+- [Korrektur 17.10.2026: Die Rücknahme Mainzer Str. 83/64293 ist als Entzug unqualifizierter Kuratierung freigegeben, nicht als Beweis einer falschen Adresse oder Schließung. Die früheren Aggregatorkonsens-Bestätigungen vom 30.09./02.10. sind nach README keine qualifizierende Verifikation. Konkurrierende Kirschenallee-/PLZ-Portalspuren bleiben ungefüllt. Leere Kernadresse ersetzt beim geänderten Seed gespeicherte Adresse; leere Kontakt-/Servicefelder dagegen Keep, ohne neues Clear. Keine GEO-Freigabe: vorhandene Koordinaten werden ohne geliefertes Paar weder korrigiert noch automatisch neu geocodiert. Quelle: research/checkin-20261017-1700-wave13-b-review.md; README.md §§ Feedback triage; docs/trader-seed.md §§ Explicit enrichment clears/GEO contract; Portal-Leads der Recherche 13.10.2026]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
@@ -44,3 +50,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Adress-Konsens über 5 Aggregatoren (gelbeseiten/cylex/firmania/yellowmap/mapquest: Mainzer Str. 83, 64293 Darmstadt) bestätigt Frontmatter; Telefon widersprüchlich (0157 72840206 gelbeseiten vs 0177 5452343 cylex) → kein Phone-Fill; weiter kein Betreiber/HR; pruefung bleibt; Quelle(n): s.o. Aggregatoren (Leads)]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Direktabruf `http://schrottallerart.de` zeigt eine one.com-Parkseite ohne Firmeninhalt; der HTTPS-Abruf scheiterte technisch und wird nicht als Abschaltungsbeleg gewertet. Aktuelle Verzeichnis-Leads nennen Mainzer Str. 83 / 64293 und 0177 5452343 (Das Örtliche/Cylex), Gelbe Seiten führt an derselben Anschrift abweichend 0157 72840206. Alles Aggregatoren, keine Betreiber-/Registerquelle; deshalb Straße und PLZ aus Frontmatter entfernt, Leads bleiben dokumentiert. ANKAUF: keine Preise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. GEO: Anschrift erst nach Identitätsbestätigung prüfen/geocodieren; kein Punkt gesetzt. Quelle: http://schrottallerart.de; https://www.dasoertliche.de/Themen/Schrott-Aller-Art-Darmstadt-Nord-Mainzer-Str; https://web2.cylex.de/firma-home/schrott-aller-art-11512470.html; https://www.gelbeseiten.de/gsbiz/b4d478bc-4793-4054-9540-5ed86a08e7b9]

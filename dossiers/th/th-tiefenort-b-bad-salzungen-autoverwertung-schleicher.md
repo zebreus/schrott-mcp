@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuelle Website „Autoteile Schleicher“ nennt zwei Standorte: Hämbacher Kreuz 4, 36469 Bad Salzungen/Hämbach (Ersatzteillager, Gebrauchtteile, Fahrzeughandel) und Rotes Tal 7, 98530 Rohr (Autoverwertung/Demontage, zertifizierte Entsorgung, Fahrzeugannahme). Das Impressum ist nicht erreichbar; die Zuordnung zum Dossier bleibt trotz übereinstimmender Telefonnummer unvollständig. Die Seed-Adresse An der B 62 4 widerspricht dem Betreiberauftritt. Keine numerischen Fahrzeug-/Schrottankaufspreise, Verkaufspreise oder Entsorgungsgebühren veröffentlicht. Offen: rechtlicher Betreiber und Zuordnung der drei Adressen.
+Die Website „Autoteile Schleicher“ nennt Hämbacher Kreuz 4, 36469 Bad Salzungen/Hämbach (Teilelager/Fahrzeughandel), mit 03695 609811 und Rotes Tal 7, 98530 Rohr (Demontage/Fahrzeugannahme), mit eigener Nummer **036844 30245**. „Zertifizierte Entsorgung“ ist Betreiberwerbung, kein aktueller Zertifikatsnachweis. Rechtlicher Betreiber und Zuordnung zum Seed An der B 62 4 bleiben offen; kein Adress-/Websitefill. Die alte Verzeichnis-Mehrheitsentscheidung ist keine Verifikation nach README. Keine numerischen Ankauf-, Verkaufs- oder Gebührenlisten; keine GEO-Freigabe oder automatische Neu-Geocodierung.
 
 ## Timeline
+
+### Korrektur 17.10.2026 (Standortnummern/Altverifikation)
+
+- [Korrektur 17.10.2026: Heutiger Direktabruf bestätigt Standortaufteilung: Hämbacher Kreuz 4/36469 Bad Salzungen, Teilelager/Fahrzeughandel, 03695 609811; Rotes Tal 7/98530 Rohr, Demontage/Fahrzeugannahme, eigene Nummer 036844 30245. „Gemeinsame Nummer“ vom 13.10. ist als Standortbehauptung falsch. Werbeaussage „zertifizierte Entsorgung“ kein aktueller Zertifikatsbeleg. Alte „zwei Verzeichnisse/Mehrheitsbeleg verifiziert“-Entscheidung vom 02.10. ausdrücklich überholt: Portale sind nach README nur Leads, keine qualifizierende Verifikation. HEAD-Adresse/Telefon bleiben als offener Altbestand unverändert, keine neue Standort-/Websitefreigabe; rechtlicher Betreiber und Verhältnis zu An der B 62 4 weiter klären. Historische automatische Neu-Geocodierungshinweise vom 02./04.10. technisch unzutreffend: Seed geocodiert nicht, ohne Paar bleiben gespeicherte GEO erhalten. Keine GEO-Freigabe/Tests/Produktivprüfung. Quelle: https://www.autoteile-schleicher.de/; https://www.gelbeseiten.de/gsbiz/2036ae42-6111-460f-b320-0bbacba81237; https://www.11880.com/branchenbuch/tiefenort/060440459B100716765/autoverwertung-schleicher.html; README.md; docs/trader-seed.md; research/checkin-20261017-1700-wave13-b-review.md]
 
 ### Nachprüfung 06.10.2026 (Standorte und Preise)
 
@@ -45,3 +49,8 @@ Die aktuelle Website „Autoteile Schleicher“ nennt zwei Standorte: Hämbacher
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung (Flag: Schrottankauf nicht nachgewiesen)
+
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberkandidatin https://www.autoteile-schleicher.de/ erneut direkt geprüft; die Seite trägt den Aufbaustand „Art Nr. 2026-WEB-01“ und sagt, der Betrieb laufe normal. Sie trennt Hämbacher Kreuz 4, 36469 Bad Salzungen/Hämbach (Teilelager, Neu-/Gebrauchtteile, Gebrauchtfahrzeuge) von Rotes Tal 7, 98530 Rohr (Autoverwertung/Demontage, zertifizierte Entsorgung, Fahrzeugannahme); gemeinsame Nummer 03695 609811 und Mo–Fr 08:00–16:30 werden genannt. Impressum bleibt 404; Seed-Anschrift An der B 62 4 wird von Verzeichnissen geführt, ist aber nicht mit den beiden Betreiberstandorten abgeglichen. Daher keine Kontakt-/Website-/Adressübertragung. ANKAUF: Fahrzeugannahme beworben, keine Eurokurse; VERKAUF: Neu-/Gebrauchtteile und eBay, keine verifizierte aktuelle Zahlenliste; GEBÜHREN: keine Entsorgungsgebühr oder pauschale Gratiszusage belegt. GEO bis zur Klärung der drei Anschriften gesperrt. Quelle: https://www.autoteile-schleicher.de/; https://www.autoteile-schleicher.de/impressum.html; https://www.gelbeseiten.de/gsbiz/2036ae42-6111-460f-b320-0bbacba81237; https://www.11880.com/branchenbuch/tiefenort/060440459B100716765/autoverwertung-schleicher.html]

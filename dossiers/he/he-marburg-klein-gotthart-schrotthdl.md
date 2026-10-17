@@ -28,6 +28,10 @@ Die Betreiberwebsite bestätigt ein Marburger Familienunternehmen seit 1986 und 
 
 ## Timeline
 
+### Korrektur 17.10.2026 (Alt-Gate bleibt)
+
+- [Korrektur 17.10.2026: Review-Direktprüfung bestätigt Betreiberangaben Tageskursverzicht und Abholung größerer Mengen auf Anfrage; keine kostenlose Abholung oder öffentlicher Hof nachgewiesen. Gelbe Seiten ist kein qualifizierender Zweitbeleg für Adresse/Telefon. Vorhandenes Owner-Gate bleibt; Sorten-/Preisgrenze schon am 06.10. integriert, keine neue Feldfreigabe. Keine Clears oder GEO-Freigabe; alte Hinweise auf späteres Geocoding sind kein automatischer Seedablauf. Quelle: https://www.klein-schrotthandel.de/wir-kaufen/; https://www.klein-schrotthandel.de/about/; research/checkin-20261017-1700-wave13-b-review.md; docs/trader-seed.md]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler
@@ -47,3 +51,7 @@ Die Betreiberwebsite bestätigt ein Marburger Familienunternehmen seit 1986 und 
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Betreiberseiten erneut abgerufen. „Wir kaufen“ nennt Kupferschrott, Kupferkabel, Messing, Aluminium-Geschirr/-Profile, Blei, Zink und VA-Stahl; die Seite sagt ausdrücklich, wegen Tagespreisen keine Preisangaben zu machen. Größere Mengen: Fahrzeugabholung auf Anfrage. ANKAUF: Sortiment belegt, keine bezifferte Preis- oder Sortenpreisliste. VERKAUF: keine Verkaufspreisliste auf den geprüften Betreiberseiten. GEBÜHREN: keine Gebührentafel; Abholung nur auf Anfrage, nicht als kostenfrei behauptet. Das Betreiberimpressum nennt Gotthard Klein und Ginseldorferweg 26a, 35039 Marburg; wegen des bereits dokumentierten Einzelbeleg-/Owner-Gate-Klärfalls keine Frontmatter-Füllung. Falls diese Kandidatenadresse später bestätigt und übernommen wird, ist sie neu zu geocodieren. Quelle(n): https://www.klein-schrotthandel.de/wir-kaufen/; https://www.klein-schrotthandel.de/about/; https://www.gelbeseiten.de/gsbiz/bfccb291-1f03-4656-bf71-e0496121b303]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberseite „Wir kaufen“ erneut direkt gelesen: Kupferschrott/-kabel, Messing, Aluminium-Geschirr/-Profile, Blei, Zink und VA-Stahl; wegen Tageskursen ausdrücklich keine Preisangaben. Fahrzeugabholung bei größeren Mengen nur auf Anfrage, nicht als kostenlos ausgewiesen. Keine Verkaufspreisliste oder Gebührentafel auf den geprüften Seiten. Die Anschrift Ginseldorferweg 26a bleibt trotz passendem Gelbe-Seiten-Lead wegen des dokumentierten Einzelbeleg-/Owner-Gates aus Frontmatter; erst danach GEO prüfen. Quelle: https://www.klein-schrotthandel.de/wir-kaufen/; https://www.klein-schrotthandel.de/about/; https://www.gelbeseiten.de/gsbiz/bfccb291-1f03-4656-bf71-e0496121b303]
