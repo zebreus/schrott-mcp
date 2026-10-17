@@ -188,7 +188,7 @@ fn grade(label: &str) -> Option<(&'static str, &'static str)> {
         "Cu-Raff 95%" => ("kupfer-gemischt", "Cu-Raff 95%"),
         "Cu-Millberry" => ("kupfer-millberry", ""),
         "Cu.Haardraht" => ("kupfer-berry", "Cu.Haardraht"),
-        "u-Kerze, sauber/ neu" => ("kupfer-berry", "Kerze, sauber/neu"),
+        "u-Kerze, sauber/ neu" | "Cu-Kerze, sauber/ neu" => ("kupfer-berry", "Kerze, sauber/neu"),
         "Cu-Schienen, sauber" => ("kupfer-schwer", "Schienen, sauber"),
         "Cu Kabel ca. 38%" => ("kabel-kupfer", "ca. 38%"),
         "Ms-Milbe, 1% Anhaftung" => ("messing", "Milbe, 1% Anhaftung"),
@@ -415,6 +415,77 @@ mod tests {
             "ELNO Container- und Dienstleistungs GmbH HRB 141261 B Tiefwerderweg 13 13597 Berlin";
         assert!(verify_operator(impressum).is_ok());
         assert!(verify_operator(&impressum.replace("HRB 141261 B", "HRB 999999 B")).is_err());
+    }
+
+    #[tokio::test]
+    async fn actual_october_pdf_preserves_kerze_grades_and_quote_guards() {
+        let old_text = extract(include_bytes!("fixtures/elno-20261008.pdf"), URL)
+            .await
+            .unwrap();
+        let text = extract(include_bytes!("fixtures/elno-20261017.pdf"), URL)
+            .await
+            .unwrap();
+        assert_eq!(old_text.matches(" €/Kg").count(), 38);
+        assert_eq!(text.matches(" €/Kg").count(), 38);
+        let old_out = parse_text(&old_text, URL).unwrap();
+        let out = parse_text(&text, URL).unwrap();
+        assert_eq!(old_out.prices.len(), 36);
+        assert_eq!(out.prices.len(), 36);
+        let keys = |out: &HandlerOutcome| {
+            out.prices
+                .iter()
+                .map(|p| (p.material, p.variant.to_string()))
+                .collect::<std::collections::BTreeSet<_>>()
+        };
+        assert_eq!(keys(&out).len(), 36);
+        assert_eq!(keys(&out), keys(&old_out));
+        assert_eq!(out.skipped_labels, old_out.skipped_labels);
+        assert_eq!(out.skipped_labels.len(), 3);
+        assert!(out
+            .skipped_labels
+            .contains(&"Cu-MS Kühler (no exact catalog mapping)".to_owned()));
+        assert!(out
+            .skipped_labels
+            .contains(&"Sorte 3 (no exact catalog mapping)".to_owned()));
+        assert!(out
+            .skipped_labels
+            .iter()
+            .any(|label| label.contains("auf Anfrage")));
+        assert!(old_out.published_at.is_none());
+        assert!(out.published_at.is_none());
+        assert!(out.prices.iter().all(|p| p.unit == "EUR/kg"
+            && p.currency == "EUR"
+            && p.price.is_finite()
+            && p.price > 0.0));
+        let kerze = out
+            .prices
+            .iter()
+            .find(|p| p.material == "kupfer-berry" && p.variant == "Kerze, sauber/neu")
+            .unwrap();
+        assert_eq!(kerze.price, 10.30);
+        assert!(kerze.label.starts_with("Cu-Kerze, sauber/ neu;"));
+
+        const QUOTE: &str = "Cu-Kerze, sauber/ neu 10,30 €/Kg";
+        assert_eq!(text.matches(QUOTE).count(), 1);
+        for replacement in [
+            "-10,30 €/Kg",
+            "+10,30 €/Kg",
+            "0,00 €/Kg",
+            "10,30-11,00 €/Kg",
+            "10,30 €/t",
+            "10,30 €/kg",
+            "10,30 €/g",
+            "10,30 USD/Kg",
+            "Auf Anfrage",
+        ] {
+            let changed = text.replace(QUOTE, &format!("Cu-Kerze, sauber/ neu {replacement}"));
+            assert_ne!(changed, text);
+            assert!(parse_text(&changed, URL).is_err(), "accepted {replacement}");
+        }
+        assert!(parse_text(&text.replace(QUOTE, ""), URL).is_err());
+        assert!(parse_text(&format!("{text}\n{QUOTE}"), URL).is_err());
+        // Both source spellings denote the same grade, never two current prices.
+        assert!(parse_text(&format!("{text}\nu-Kerze, sauber/ neu 10,30 €/Kg"), URL).is_err());
     }
 
     #[test]
