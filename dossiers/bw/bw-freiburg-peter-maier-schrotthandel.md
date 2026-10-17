@@ -28,7 +28,13 @@ Für „Peter Maier Schrotthandel“ in Freiburg fehlt weiterhin ein zurechenbar
 
 **Preise:** Ankauf — keine Preisliste; Verkauf — keine Angaben; Gebühren — keine Angaben. Ohne bestätigte Straße/PLZ keine Geokodierung.
 
+Neue Suchspur vom 17.10.2026: Verzeichnisse nennen Blochackerweg 7, 79115 Freiburg-Haslach, 0761 34075. Damit gibt es nun einen konkreten Adresslead für die Gewerbe-/Betreiberprüfung, aber noch keine qualifizierte aktuelle Anschriftenbestätigung. Portal-Aktualisierungsdaten sind kein Betriebsnachweis; strukturierte Felder bleiben leer.
+
 ## Timeline
+
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: Neue konkrete Suchleads gegenüber dem früher adresslosen Befund: mehrere Verzeichnisse führen Peter Maier Schrotthandel, Blochackerweg7, 79115 Freiburg-Haslach, Telefon0761 34075. Dies sind keine Betreiber-/Registerquellen; Datumsangaben Mai2026/Portalaktualisierung belegen nur den Verzeichnisstand, nicht den Weiterbetrieb. Gezielte Suche nach Creditreform zu Name/Adresse liefert keinen passenden Nachweis; kein amtlicher Negativbeleg. Keine Frontmatter-Fills und kein Schluss auf Schließung. Ankauf: keine Liste; Verkauf: keine Zahlen; Gebühren: keine Tarife. GEO-Bedarf neuen Adresslead Blochackerweg7 erst über Betreiber-/Gewerbequelle bestätigen. Quellen: https://www.11880.com/branchenbuch/freiburg-im-breisgau/060440090B29033769/peter-maier-schrotthandel.html ; https://adresse.dastelefonbuch.de/Freiburg%20im%20Breisgau/2-Recycling-Peter-Maier-Freiburg-im-Breisgau-Blochackerweg.html ; https://freiburg-im-breisgau.branchen-info.net/peter-maier/4023427/ (jeweils Suchleads).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der generische Seedname „Eisen & Metallhandel Ankauf und Verkauf“ ist weiterhin keinem rechtlichen Betreiber oder Standort zugeordnet. Das erneut direkt gelesene Possiel-Profil nennt ausdrücklich Karl-Heinz Possiel, An der Meine 23, 38448 Wolfsburg-Vorsfelde, 05363 7848; das ist nur ein abweichend benannter Verzeichnislead, kein bewiesener Alias. Stadt-Landingpages anderer Metallankäufer lösen diese Identitätsfrage nicht.
+
+**Ankauf:** Wort im Seednamen ist kein aktueller Leistungs-/Preisbeleg. **Verkauf:** ebenso kein bewiesenes Angebot oder Preiskatalog. **Gebühren:** keine zuordenbaren Tarife. **GEO:** ohne Betreiber-/Adressbrücke nicht freigeben; keine Possiel-Adresse oder fremde Stadtpreise übernehmen. `pruefung` bleibt, Kontakt-/Standortfelder leer.
 
 ## Timeline
+
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Erneute Exaktnamens-/Vorsfelde-Suche liefert keinen hinreichenden Identitätsbeleg für den generischen Seednamen. Possiel-Gelbe-Seiten-Detail direkt gelesen: Karl-Heinz Possiel Metallschrotthandlung, An der Meine 23/38448/05363 7848, keine dort belegte Namensbrücke. Ergebnislosigkeit ist kein amtlicher Negativnachweis. Andere Wolfsburg-Stadtseiten mit Metallkursen/Versand-/Abholpreisen nicht diesem Dossier zugeordnet. Ankauf/Verkauf/Gebühren unverifiziert; keine Fills und kein GEO vor Betreiberklärung. Quelle: https://www.gelbeseiten.de/gsbiz/5b09b32c-bebf-4e55-9eca-56778086aff0 .]
 
 ### Recherche 01.10.2026
 

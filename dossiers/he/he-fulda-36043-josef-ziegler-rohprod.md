@@ -28,6 +28,10 @@ Der Seed ordnet „Josef Ziegler RohProd.“ der Mainstraße 4, Fulda 36043 zu, 
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: 11880-Suchseite Altmaterialhandel Fulda direkt gelesen, nennt Josef Ziegler RohProd., Mainstr. 4, 36043 Fulda-Südend und 0661 41251; ordnet denselben Eintrag gleichzeitig Altmaterialhandel, Schrotthandel und Niedergelassener Arzt zu. Die unplausible Branchenmischung ist ein zusätzlicher Datenqualitätshinweis, kein Nachweis ärztlicher Tätigkeit oder einer zweiten Firma. Link zum spezifischen Detailprofil gewonnen, kein Betreiber-/Registerbeleg. Altfelder nicht frisch verifiziert. ANKAUF: keine Bestätigung/Vergütung; VERKAUF: keine Zahlenliste; GEBÜHREN: keine Tarife. Offen: voller Gewerbename, heutige Nutzung der Mainstr. 4 und Ursache des Kategorienmixes; GEO erst nach Primärklärung. Quellen: https://www.11880.com/suche/altmaterialhandel/fulda (direkt) ; https://www.11880.com/branchenbuch/fulda/110070199B27918604/josef-ziegler-rohprod.html (entdeckter Detail-Link, heute nicht separat gelesen).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Rohprodukte

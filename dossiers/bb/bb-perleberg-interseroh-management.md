@@ -28,6 +28,10 @@ Die ALBA-Betreiberseite belegt am Dossier-Ort einen aktuellen Schrottplatz der A
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: ALBA-Detailseite Quitzow direkt erneut gelesen: ALBA Metall Nord GmbH, Buchholzer Chaussee 5, 19348 Quitzow, 03876 786602; kein Beleg zur konkreten INTERSEROH Management GmbH. Standorttext enthält am Ende zusätzlich die Überschrift Schrottplatz Ludwigslust, obwohl die Detailanschrift Quitzow lautet; diesen redaktionellen Ortswechsel nicht als weitere Filiale oder Verlagerung interpretieren. ANKAUF: sofortiges Entgelt, keine Zahlen; VERKAUF: Navigationspunkt Verkauf ist keine gelesene Standortpreisliste; GEBÜHREN: Container 7–36 m³ ohne Tarif. Kein Rename/Telefon-Fill, Status pruefung bleibt. Offen: rechtsträgerspezifischer Management→ALBA-Beleg und Abgrenzung vom Geschwisterdossier; GEO-Zuordnung weiterhin gesperrt. Quelle: https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-quitzow .]
+
 ### Recherche 16.10.2026 — Shard 1
 
 - [Recherche 16.10.2026: ALBA-Standortdetail Quitzow direkt erneut gelesen: weiterhin ALBA Metall Nord GmbH, Buchholzer Chaussee 5, 19348 Quitzow, 03876 786602, quitzow.metall@alba.info; Privat-/Gewerbeannahme und sofortiges Entgelt. Diese Betreiberquelle identifiziert nicht die INTERSEROH Management GmbH; neue exakte Namenssuche liefert vorwiegend alte Portalprofile, keinen belegten Management→ALBA-Rechtsübergang. Kein Rename/Telefonüberschreiben und keine Dublettenfusion. ANKAUF: gute/attraktive Preise ohne Zahlen; VERKAUF: keine numerische Liste auf der Standortseite; GEBÜHREN: Container 7–36 m³ ohne Tarife. GEO: Platz als ALBA belegt, Dossier-Zuordnung vor Koordinaten klären. Quelle: https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-quitzow ; Suchleads nicht als zweiter Beleg gezählt.]

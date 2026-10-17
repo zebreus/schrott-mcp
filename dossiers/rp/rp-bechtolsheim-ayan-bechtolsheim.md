@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Die Bechtolsheimer Seed-Spur „Ayan“/Gau-Odernheimer Straße 1 bleibt von der Betreiberwebsite des Resul Ayan in Börrstadt getrennt: deren Impressum und Kontakt nennen ausschließlich Kaiserstraße 5, 67725 Börrstadt; keine Filiale oder Identitätsbrücke nach Bechtolsheim. Der örtliche Ayan-Lead bleibt ungeklärt, Status `pruefung`.
+Die Bechtolsheimer Seed-Spur „Ayan“/Gau-Odernheimer Straße 1 wird nicht der Betreiberwebsite von Resul Ayan in Börrstadt zugeordnet. Deren im Review vom 17.10.2026 gelesenes Impressum nennt Kaiserstraße 5, 67725 Börrstadt und Platzhalter für Steuerkennungen. Eine Filial- oder Identitätsbrücke nach Bechtolsheim ist nicht belegt; ihr Fehlen im Impressum beweist jedoch keine sicher getrennten Rechtsträger. Diese Abgrenzung ist bereits in der älteren Historie dokumentiert, kein neuer Identitätsfund. Der örtliche Lead bleibt ungeklärt, Status `pruefung`.
 
 **Preise:** ANKAUF: Die Börrstadter Betreiberseite nennt Materialankauf zu variablen Tagespreisen, aber keine Zahlen; diese Aussage ist nicht dem Bechtolsheim-Dossier zurechenbar. VERKAUF: auf der geprüften Materialankaufseite keine Preisliste. GEBÜHREN: keine konkreten Container-/Entsorgungstarife; kein Preisbeleg für Bechtolsheim.
 
 ## Timeline
+
+### Ownerkorrektur 17.10.2026
+
+- [Korrektur 17.10.2026: Das im Review vom 17.10. direkt gelesene Börrstadter Impressum stützt nur Resul Ayans dortige Selbstauskunft, nicht den Bechtolsheimer Seed. Aus einer fehlenden Filialnennung folgt keine bewiesene Nichtverbindung; zulässig bleibt ausschließlich „keine belegte Identitätsbrücke“. Die bereits am 03./07.10. integrierte Abgrenzung und Tagespreiswerbung werden nicht als neue Funde ausgegeben. Kein weiterer Webabruf im Korrekturschritt, keine Übertragung von Website, Kontakten oder Leistungen; keine neue Zahlenpreisliste nachgewiesen. Quelle(n): https://www.schrotthandel-ayan.de/impressum (Direktabruf im Review); https://www.schrotthandel-ayan.de/materialankauf (historische Preisgegenprobe vom 07./13.10., hier nicht erneut gelesen).]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Die Abgrenzung bleibt bestehen: Die Betreiberseiten von Resul Ayan weisen Resul Ayan und Kaiserstraße 5, 67725 Börrstadt aus; kein Beleg für eine Bechtolsheimer Niederlassung oder Verbindung zum Seed-Lead „Ayan/Abdil Ayan“, Gau-Odernheimer Str. 1. Website, Tagespreis-Ankündigung und Börrstadter Kontakt nicht übertragen. ANKAUF: für Börrstadt nur variable Tagespreise ohne Beträge; für Bechtolsheim kein Preisbeleg. VERKAUF: keine Liste; GEBÜHREN: keine lokalen Tarife. GEO: kein Bechtolsheim-Pin ohne Identitäts- und Adressbeleg. Quelle(n): https://www.schrotthandel-ayan.de/impressum ; https://www.schrotthandel-ayan.de/kontakt ; https://www.schrotthandel-ayan.de/materialankauf (Betreiberseite ausschließlich Börrstadt); örtliche Leads siehe Direktprüfung 03.10.2026.]
 
 ### Recherche 07.10.2026
 

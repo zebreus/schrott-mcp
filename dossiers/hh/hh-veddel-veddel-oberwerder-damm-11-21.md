@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**Adress-/Betreiberkonflikt:** Titel und Slug nennen Oberwerder Damm 11–21, Frontmatter dagegen Hovestr. 21; die historischen Telefon-/Zeiten-Fills stammen lediglich aus Gelbe Seiten und 11880 zu „Wagner Metall GmbH“. Zwei Aggregatoren waren nach README keine ausreichenden Belege, daher sind diese Werte ausdrücklich unverifizierte Altdaten. Keine nachgewiesene Umzugs-/Aliasverbindung beider Straßen und kein verifizierter aktueller Rechtsträger. Die neue Anfrage an wagner-metall.de timeoutet; das beweist weder Parkseite noch Schließung.
+
+**Ankauf:** keine zurechenbare Liste/Annahme bestätigt. **Verkauf:** keine Liste. **Gebühren:** keine Liste. **GEO:** entgegen dem Vermerk 02.10. nicht bereits freigegeben; zuerst Betreiberkette, richtige Anschrift und Hofzugang prüfen. `pruefung` und historische Felder bewahrt, keine fremde Wagner-Firma zugeordnet.
 
 ## Timeline
+
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Korrektur 17.10.2026: Belegklasse der Fills 02.10. ausdrücklich relativiert: Gelbe Seiten plus 11880 sind zwei Verzeichnisleads, keine zwei README-zulässigen Betreiber-/Registerbelege. Titel Oberwerder Damm 11–21 versus Frontmatter Hovestr. 21 ungeklärt; Telefon/Zeiten nicht neu bestätigt und nicht ohne Gegenbeleg gelöscht. Domain wagner-metall.de im Direktabruf Verbindungs-Timeout nach 22 Sekunden, keine Aussage über Inhalt/Parkseite oder Betrieb. Neue Namens-/Adresssuche ergibt keine belegte Betreiberkette. Ankauf/Verkauf/Gebühren nicht verifiziert. Frühere pauschale GEO-Empfehlung nicht ausführen, erst Identität/Adresse/Hof bestätigen. Quelle/Abrufgrenze: https://wagner-metall.de ; Altdatenquellen und ihre Grenzen siehe Recherche 02.10. dieses Dossiers.]
 
 ### Recherche 02.10.2026
 

@@ -28,6 +28,10 @@ Koloniestr. 114 und Holzstr. 4 werden mit derselben Telefonnummer, aber ohne una
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: HTTPS-Direktabruf der bisherigen Domainspur autotechnik-wedding.de scheitert erneut mit Transportfehler, kein lesbares Impressum oder aktueller Schließungsbeleg. Das bestätigt weder eine tote Domain noch den historischen Suchindex-Titel als heutige Betriebsaufgabe. Die bereits dokumentierten Adressen Koloniestr. 114/Holzstr. 4 bleiben ungelöst; kein Status-/Website-Fill aus Abruffehler. ANKAUF: kein zuordenbarer Fahrzeug-/Metallkurs; VERKAUF: keine gelesene Teilepreisliste; GEBÜHREN: keine Annahme-/Abholtarife. Offen: Betreiberidentität und zeitlicher Adressverlauf, danach Betriebsbestätigung und erst anschließend GEO-Bedarf. Quelle: https://www.autotechnik-wedding.de/ (Transportfehler am 17.10.2026); Adresskonflikt weiterhin Vorrecherche 05.10.2026, heute nicht neu bestätigt.]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Adresskonflikt präzisiert: Stadtbranchenbuch und das indexierte Gelbe-Seiten-Profil nennen Koloniestr. 114, 13359 Berlin; OrtDienst nennt Holzstr. 4, 13359 Berlin. Beide Adressbilder führen 030 60504949. Damit ist auch die pauschale frühere Zuordnung der Verzeichnisse zu Holzstr. 4 nicht tragfähig. Alles bleibt Verzeichnis-Lead, kein weiterer Adress-/Telefon-Fill. Quellen: https://berlin.stadtbranchenbuch.com/3834425.html ; https://www.gelbeseiten.de/gsbiz/9597f026-de08-4379-9d65-19f6e50746f1 ; https://www.ortsdienst.de/berlin/mitte-tiergarten-wedding/wedding/schrottplatz/autoteile-wedding-inst367842/ .]

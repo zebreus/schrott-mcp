@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die bestehende Seed-Adresse Weinbergweg 90 ist zugleich Registeranschrift der anders benannten Containerdienste, Schrott, Metallhandel Ulm UG (HRB 747275); der Verzeichniszusatz „Mitbenutzer: Reinhardt Schrotthandel“ beweist keine gemeinsame Betreiber- oder Nachfolgekette. Der Website-Kandidat lieferte beim erneuten Impressumsabruf am 17.10.2026 HTTP503. Daher keine UG-Kontakte oder Leistungen auf Reinhardt übertragen und keine Umbenennung. Der geerbte Frontmatter-Status `aktiv` ist **nicht aktuell bestätigt**; Owner-Prüfung auf `pruefung` empfohlen, kein Schließungsnachweis.
+
+**Ankauf:** keine Reinhardt-spezifische Zahlenliste bestätigt. **Verkauf:** keine zugeordnete Preisliste. **Gebühren:** keine Tarife. **GEO-Bedarf:** tatsächlichen Reinhardt-Annahmeort und Verhältnis zur UG klären; vorhandene Straße ist kein neu bestätigter Hofpunkt. Keine Koordinaten ermittelt.
 
 ## Timeline
+
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: Website-Kandidat/Impressum erneut direkt angefordert, weiterhin HTTP503. Das verifiziert kein Impressum und beweist keine Schließung; die in der Historie belegte Registergesellschaft am Weinbergweg 90 bleibt eine andere Identität ohne bewiesene Zuordnung zu Reinhardt. Frontmatter/Altstatus nicht stillschweigend als geprüft umgedeutet: aktiv ist unbelegter Altwert, Owner soll pruefung erwägen. Ankauf/Verkauf/Gebühren: keine Reinhardt-spezifischen Zahlen; GEO erst nach Betreiber-/Mitbenutzerklärung. Quelle: https://www.containerdienste-schrott-metallhandel.de/impressum (Abrufgrenze); Register-/Verzeichnisbelege siehe Recherche 04.10.2026.]
 
 ### Recherche 04.10.2026
 

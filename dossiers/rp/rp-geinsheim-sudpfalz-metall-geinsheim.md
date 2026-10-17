@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Geinsheimer Seed-Lead „SÜDPFALZ METALL“ ist weiterhin nicht sicher einem Betreiber zuzuordnen. Die im Review vom 17.10.2026 gelesenen Impressen nennen AH-Drucktechnik GmbH an Böbinger Str. 9 und einen Rohrbacher Auftritt mit Janneck Knecht/HRB 33727 an Am Bellensee 6. Das bestätigt weder eine Geinsheimer Metallannahme noch die Identität des Seeds; Mit-/Vornutzung derselben Hausnummer oder eine Betreiberkette sind damit nicht ausgeschlossen. Keine fremde Anschrift oder Website übertragen. `website_status: tot` beschreibt nur den früheren, im Review nicht erneut geprüften sachfremden Domainbefund, keine Betriebsschließung.
+
+**Preise:** Keine lokalen Ankaufspreise, Verkaufspreise oder Gebühren belegt. GEO bleibt offen.
 
 ## Timeline
+
+### Ownerkorrektur 17.10.2026
+
+- [Korrektur 17.10.2026: Die Direktabrufe im Review vom 17.10. nennen ah-drucktechnik GmbH, Böbinger Straße 9/Geinsheim, HRB 64280, sowie im Rohrbacher Impressum Janneck Knecht, Am Bellensee 6, HRB 33727; dort teils Kontaktplatzhalter. Ein anderer Adressnutzer widerlegt keine frühere oder gemeinsame Nutzung. Der Rechtsträger des Geinsheimer Seeds ist ungeklärt; deshalb keine sichere Trennung zum Rohrbacher Rechtsträger aus dem bloßen Ortsunterschied ableiten, aber ebenso keine Zuordnung. Die sachfremde Altdomain wurde im Review nicht erneut gelesen; ältere Direktabrufe bleiben historisch. Kein neuer Webabruf im Korrekturschritt, keine Frontmatter-Fills und keine Schließung. Quelle(n): https://www.ah-drucktechnik.de/impressum.html ; https://suedpfalzmetall-gmbh.de/impressum (beide im Review direkt gelesen).]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Keine neue Quelle zur Betreiberidentität oder einem Geinsheimer Annahmestandort gefunden; die bisherigen Gegenproben lassen den Lead „Böbinger Str. 9“ unbestätigt und trennen sowohl AH-Drucktechnik an der Hausnummer als auch die GmbH in Rohrbach vom Dossier. `website_status: tot` bleibt auf den früher dokumentierten sachfremden Domaininhalt/Redirect begrenzt und ist keine Aussage über Betriebsaufgabe. ANKAUF/VERKAUF/GEBÜHREN: keine örtliche Preisliste oder Tarifangabe. GEO: keine Koordinaten ohne Betreiber-/Standortbeleg. Quelle(n): https://www.suedpfalz-metall.de/ ; https://www.ah-drucktechnik.de/impressum.html ; https://suedpfalzmetall-gmbh.de/impressum (anderer Betreiber/Ort; frühere Direktprüfung 03.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

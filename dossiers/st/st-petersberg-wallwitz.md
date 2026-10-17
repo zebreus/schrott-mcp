@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Der Ortsbezug Wallwitz liefert mehrere voneinander abweichende Autoverwertungs-Kandidaten, aber noch keinen verifizierten Match für den Seed: ein Aggregator nennt eine Kolbe/Beutel-GbR in Am Kulturhaus 7, ein weiterer Branchenhinweis eine Rasche KG in Am Kulturhaus 2. Ein aktiver eBay-Shop und Facebook-Auftritt von BK Fahrzeugverwertung Wallwitz belegen einen dritten Kandidaten, jedoch keine rechtliche oder betriebliche Verbindung zu den beiden Einträgen oder zum Seed. Kandidaten nicht zusammenführen.
+Der Ortsbezug Wallwitz liefert mehrere voneinander abweichende Autoverwertungs-Kandidaten, aber noch keinen verifizierten Match für den Seed: ein Aggregator nennt eine Kolbe/Beutel-GbR in Am Kulturhaus 7, ein weiterer Branchenhinweis eine Rasche KG in Am Kulturhaus 2. Die am 17.10. direkt gelesenen gewerblichen Verkäuferangaben des BK-eBay-Shops verbinden BK nun ausdrücklich mit Ricardo Beutel und Martin Kolbe, Am Kulturhaus 7. Damit ist BK nicht länger eine völlig unverbundene dritte Spur. Ein unabhängiger aktueller Gewerbebeleg, die Verbindung zur Rasche KG und die eindeutige Seed-Zuordnung fehlen weiterhin; keine Fusion oder Feldübernahme.
 
 **Preise:** **Ankauf** – keine dem Seed oder einem rechtlich bestätigten Zielbetrieb zuordenbaren Schrott-/Fahrzeugankaufspreise. **Verkauf** – im eBay-Shop von BK Fahrzeugverwertung sind einzelne Ersatzteil-/Shopangebote mit Einzelpreisen sichtbar; dies sind keine Schrottankaufskurse und der Shop ist nicht dem Seed zugeordnet. **Gebühren** – keine verifizierte Tarif-/Abholgebührenliste.
 
-**Geokodierung:** Am Kulturhaus 2 und 7 sind widersprüchliche Aggregator-Kandidaten; BK-Standort nicht bestätigt. Keine Adresse geokodieren oder ins Frontmatter übernehmen.
+**GEO-Bedarf:** Am Kulturhaus 7 ist nun durch die BK-Shop-Selbstauskunft konkretisiert, Am Kulturhaus 2 bleibt historische Gegenkandidatenspur. Vor Punktprüfung aktuellen Gewerbestand und Seed-Zuordnung sichern; keine Koordinaten ermittelt oder ins Frontmatter übernommen.
 
 ## Timeline
+
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: Bisher blockierte Shop-Identität über den direkt lesbaren eBay-Über-uns-Tab auf benl.ebay.be konkretisiert: gewerbliche Verkäuferangaben Ricardo Beutel & Martin Kolbe GbR BK Racing GbR, Martin Kolbe, Am Kulturhaus 7, Wallwitz, 06193 Petersberg, 03460620449, info@fahrzeug-verwertung-wallwitz.de, USt-ID DE267212096. Das ist eine Betreiberselbstauskunft im eigenen Shop und verbindet BK nun mit den Namen Kolbe/Beutel sowie Hausnummer 7; die bisherige pauschale Aussage keinerlei Verbindung ist insoweit überholt. Sie ist aber noch kein unabhängiger Register-/Gewerbebeleg, keine Rasche-KG-Nachfolgekette und keine eindeutige Erklärung des bloßen Seeds Wallwitz. Daher kein Frontmatter-Fill/keine Fusion. ANKAUF: keine Metall-/Fahrzeugliste im gelesenen Über-uns-Tab; VERKAUF: Betreiber beschreibt Original-/Ersatzteilverkauf verschiedener Marken; GEBÜHREN: kein Annahme-/Abholtarif. Offen: aktueller Gewerbenachweis und mögliche Historie Am Kulturhaus 2; GEO-Bedarf erst nach Seed-Zuordnung. Quelle: https://www.benl.ebay.be/str/bkfahrzeugverwertungwallwitz?_tab=about .]
 
 ### Recherche 13.10.2026
 

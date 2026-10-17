@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Autoverwertung Klucke bleibt ein Klärfall. Horstfelder Dorfstraße 2 und 03377 300471 sind historische Verzeichnisangaben, keine aktuelle Betreiberbestätigung. Neu gefundener Domain-Lead `autoteileklu.de` liefert HTTP 410; ohne lesbares Impressum ist auch die Zuordnung dieser Domain nicht unabhängig bestätigt. Ein toter Domain-Lead beweist keine Betriebsschließung.
+Autoverwertung Klucke bleibt ein Klärfall. Der Direktabruf von Schrottplatz.org im Review vom 17.10.2026 bestätigt den Portaltext: Klucke mit Horstfelder Dorfstr. 2, 15806 Zossen und 03377 300471; HEBE Autoparts an Nr. 4 steht separat unter „Schrottplätze in der Nähe“. Das korrigiert eine mögliche Suchsnippet-Verwechslung, belegt aber weder aktuellen Betreiber/Betrieb noch Anerkennung als Altfahrzeugbetrieb. HTTP 410 für den Domainlead `autoteileklu.de` ist ein historischer Abrufbefund, kein am 17.10. neu geprüftes Ergebnis und kein Schließungsnachweis.
 
 **ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Zahlenpreise. Offen: vollständiger Betreibername, aktuelle GESA-Bescheinigung, Betriebsfortbestand und heutige Annahmeadresse; keine Anlieferung aus der Portaladresse ableiten.
 
 ## Timeline
+
+### Ownerkorrektur 17.10.2026
+
+- [Korrektur 17.10.2026: Auf Basis des Direktabrufs im Review vom 17.10., ohne weiteren Live-Abruf im Korrekturschritt: Das Klucke-Profil nennt Nr. 2/03377 300471; HEBE an Nr. 4 ist eine eigene Nachbarkarte, keine Ersetzung des Profilinhabers. Verifiziert ist allein der Portalinhalt, nicht der Betrieb. Frühere HTTP-410- und Registerzugriffsgrenzen bleiben historische Befunde; Betreiber, aktueller Annahmestandort und individueller Anerkennungsnachweis weiterhin offen. Kein neuer Kontakt-/Website-Fill, keine Schließung und keine Aufwertung der bestehenden aggregierten Werte. Quelle(n): https://www.schrottplatz.org/zossen/autoverwertung-autoverwertung-klucke-aYEPN2.html (im Review direkt gelesen); https://www.schrottplatz.org/zossen/autoverwertung-hebe-autoparts-handels-gmbh-aYEPN0.html (separater verlinkter Nachbareintrag, kein Betreiberbeleg).]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Direkter Abruf der Schrottplatz.org-Seite zeigt weiterhin den Eintrag „Autoverwertung Klucke“, Horstfelder Dorfstr. 2, 15806 Zossen, Tel. (03377) 30 04 71, Kategorie Fahrzeugrecycling; auf derselben Seite steht HEBE Autoparts Handels GmbH als eigener Eintrag an Horstfelder Dorfstr. 4. Damit wird die frühere Suchtreffer-Vermutung einer Seitenverwechslung mit HEBE nicht bestätigt; die Seite bleibt gleichwohl ein Verzeichnislead ohne Betreiberverifizierung. Bestehende Adresse/Telefon nicht aufgewertet, status `pruefung`. ANKAUF: kein Fahrzeugpreis; VERKAUF: keine Teilepreise; GEBÜHREN: keine Tarife. GEO: #2 nicht als bestätigter Eingang/Annahmeplatz geocodieren. Quelle(n): https://www.schrottplatz.org/zossen/autoverwertung-autoverwertung-klucke-aYEPN2.html (Direktabruf 13.10.2026); https://www.schrottplatz.org/zossen/autoverwertung-hebe-autoparts-handels-gmbh-aYEPN0.html (separater Eintrag #4); http://autoteileklu.de/ (früherer Abruf: HTTP 410, kein Schließungsbeleg).]
 
 ### Recherche 08.10.2026
 

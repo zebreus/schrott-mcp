@@ -28,6 +28,10 @@ Gärtner in Frechen bleibt ein ungeklärter Verzeichnis-Kandidat. Hauptstr. 174 
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Frechener 11880-Detail direkt erneut gelesen; Portal-Aktualisierung jetzt 15.10.2026, Eintragsdaten unverändert 22.04.2025. Weiterhin Hauptstr. 174/50226, 02234 2024070, Mo–Fr 08–18/Sa 09–14; Widerspruch zu historischer Frontmatter-Nummer 02234 54905/Zeiten 08–20 und 09–18 bleibt. „Geschlossen bis Mo., 08:00“ bezeichnet Wochenöffnungszeit, keinen Schließungsbeleg. Kein neuer Betreiber-/Registerbeleg oder belegte Kette zu Bergheim-Thorr; Altdaten ausdrücklich nicht neu bestätigt. Ankauf/Verkauf/Gebühren: keine numerischen Betreiberlisten. GEO erst nach Betreiber-, Kontakt- und Standortklärung, keine Koordinatenänderung. Quelle: https://www.11880.com/branchenbuch/frechen/120674719B43111372/schrotthandel-gaertner-schrotthandel.html .]
+
 ### Recherche 14.10.2026 — Kontaktkonflikt, Aktivfreigabe zurückgenommen
 
 - [Recherche 14.10.2026: [11880-Detail Schrotthandel Gärtner](https://www.11880.com/branchenbuch/frechen/120674719B43111372/schrotthandel-gaertner-schrotthandel.html) direkt gelesen: Hauptstr. 174, 50226 Frechen, aber 02234 2024070 und Mo–Fr 08–18/Sa 09–14 statt historisch 02234 54905 und Mo–Fr 08–20/Sa 09–18. Keine Website/E-Mail; Eintrag 22.04.2025, Portal-Aktualisierung 03.10.2026. Alte Rezension von 2020 und Portaldatum bestätigen keine heutigen Betreiberangaben.; Quelle: https://www.11880.com/branchenbuch/frechen/120674719B43111372/schrotthandel-gaertner-schrotthandel.html]

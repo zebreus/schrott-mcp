@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Sammelname Baur/Bayer/Graf/Bauer ist weiterhin keiner einzelnen Betreiberidentität zugeordnet. Der Kandidat Schrott & Metall Recycling BAYER nennt im Impressum Helmuth Hammerschmidt und Am Bahnhof 2–3, während die Datenschutzerklärung Kevin Bayer, Poststraße 3 nennt. Beide Seiten wurden am 17.10.2026 erneut gelesen; der Widerspruch besteht fort und ist kein Beleg einer Übernahme. Website-/Kontaktangaben dieses Kandidaten bleiben außerhalb der strukturierten Felder. Ein weiterer Social-Treffer ST-Schrotthandel in Ichenhausen mit Kevin-Bayer-Namensspur belegt ebenfalls keine Identität des gesamten Sammelimports.
+
+**Ankauf:** Kandidatenwebsite bewirbt Metallankauf, keine dem Sammeldossier zurechenbaren Zahlen. **Verkauf:** keine zugeordnete Preisliste. **Gebühren:** keine zugeordneten Tarife. **GEO-Bedarf:** erst Einzelidentitäten und tatsächliche Annahmestellen auseinanderhalten; Am Bahnhof/Poststraße nicht willkürlich auswählen.
 
 ## Timeline
+
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: BAYER-Impressum und Datenschutz einzeln direkt gelesen: weiterhin Helmuth Hammerschmidt/Am Bahnhof 2–3 gegen Kevin Bayer/Poststraße 3; Impressum verlangt vorheriges Anrufen/Anmelden. Dies sind Angaben eines Kandidaten, keine zwei unabhängigen Quellen und kein Nachweis für Baur/Graf/Bauer. Suchtreffer zu ST-Schrotthandel/Facebook mit Kevin Bayer nur weiterer Zuordnungslead, Socialprofil nicht als geprüft behandelt. Keine Frontmatter-Fills oder Firmenzusammenführung. Ankauf/Verkauf/Gebühren: keine identitätsgesicherten Zahlen; GEO erst nach Entflechtung. Quellen: https://www.schrott-bayer.de/impressum ; https://www.schrott-bayer.de/datenschutzerklarung ; https://www.facebook.com/stschrotthandel/ (Suchlead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

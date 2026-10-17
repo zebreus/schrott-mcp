@@ -30,6 +30,10 @@ Status bleibt `pruefung`: die genaue Zuordnung der Seed-Adresse und ein eventuel
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Northdata-Detail direkt erneut gelesen: HRB 13634 AG Essen, Adresse öffentlich nur Bochum; Gegenstand einschließlich Metall-/Schrotthandel und Container. Publikationsübersicht nennt weiter Löschung wegen Vermögenslosigkeit am 25.04.2024 und Insolvenzbezug 163 IN 178/08. Nicht als gelesener amtlicher Originalauszug ausgegeben. Rechtsträgerlöschung bestätigt weder exaktes Schließungsdatum der Essener Seed-Annahmestelle noch Nachfolger an Manderscheidtstr. 91; `pruefung` erhalten. Ankauf/Verkauf/Gebühren: kein heutiger Tarif aus Registergegenstand ableitbar. GEO des Altstandorts nicht freigegeben; Owner benötigt Standort-/Nachfolgerkette. Quelle: https://www.northdata.de/CBR%20Bracke%20GmbH,%20Bochum/Amtsgericht%20Essen%20HRB%2013634 .]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Neu identifizierter Registerspiegel live gelesen: CBR Bracke GmbH, HRB 13634 AG Essen, EUID DER2503.HRB13634, letzter Ort Bochum; Publikationsübersicht nennt 25.04.2024 Löschung gemäß §394 Abs.1 FamFG wegen Vermögenslosigkeit, davor Insolvenzverfahren 163 IN 178/08. Eintragungs-Text vom 31.10.2000 separat gelesen: Sitz Essen, Entsorgung/Container/Metallhandel. Adresspublikation 04.10.2010 nennt Bochum 44869, Straße öffentlich redigiert. Löschungstext selbst Premium-blockiert; Spiegelübersicht nicht als selbst abgerufener Originalregistertext ausgegeben. Status pruefung bleibt, keine aktuelle Essener Annahme oder Schließungsdatum des Seed-Hofs behauptet. Frontmatter-Seedstraße erhalten, aber unbestätigt. Quelle(n): https://www.northdata.de/CBR%20Bracke%20GmbH,%20Bochum/Amtsgericht%20Essen%20HRB%2013634 ; https://www.northdata.de/?id=5346167336992768 ; https://www.northdata.de/?id=5115169902952448 ; https://www.northdata.de/?id=6291354124812288 (Premium-Sperre)]

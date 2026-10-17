@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-RWR-Identitäts-/Standortklärung offen: Die aktuelle Betreiberwebsite gehört laut Impressum zur RWR Recycling GmbH in Bassenheim; der Seed-Leitname „RWR Weißenthurm“ stammt bislang aus einem älteren WLW-Profil. Marken-/Kontaktähnlichkeit lässt eine Betreiberkontinuität vermuten, belegt aber weder Filiale noch Umzug oder Rechtsformkette. Die Angaben aus Bassenheim werden daher nicht als Weißenthurm-Adresse übernommen.
+RWR-Identitäts-/Standortklärung offen: Die im Review vom 17.10.2026 gelesenen Betreiber-/NorthData-Seiten stimmen bei RWR Recycling GmbH, AG Koblenz HRB 32106, Am Bahnhof 9, 56220 Bassenheim überein. **DET2210V.HRB32106 ist die echte EUID**, nicht eine verstümmelte Kennung; im Betreiberimpressum steht sie unter der falschen Überschrift „USt-IdNr.“ und ist kein Beleg einer USt-ID. Der Seed-Leitname „RWR Weißenthurm“ stammt aus einem älteren WLW-Profil; die Identitäts-/Umzugs-/Rechtsformkette und ein öffentlicher Annahmepunkt dort sind nicht belegt. Bassenheimer Anschrift, Website, Kontakt und Leistungen nicht in den Weißenthurm-Datensatz übertragen.
 
-**Preise:** RWR wirbt mit markt-/qualitätsabhängigen Tageshöchstpreisen und kostenlosem unverbindlichem Angebot; keine Zahlen-Ankaufstabelle oder Verkaufspreisliste. Angebot kostenlos bedeutet nicht, dass Abholung, Container oder Verwertung kostenlos sind; dafür keine Gebührenliste gefunden. **Geocoding:** keinen Weißenthurm-Pin setzen, bis der konkrete Standort (oder die Auflösung des Dossiers) bestätigt ist.
+**Preise:** Die im Review vom 17.10.2026 gelesene Bassenheimer Metallhandelsseite wirbt mit markt-/qualitätsabhängigen Tageshöchstpreisen und kostenlosem Angebot ohne Zahlenkurse. Auf den geprüften Seiten keine verifizierte Verkaufs-/Gebührenliste; „Angebot kostenlos“ ist keine Zusage kostenfreier Abholung, Container oder Verwertung. Diese Servicegrenze war bereits am 06.10. dokumentiert und ist keine neue lokale Weißenthurm-Kondition.
 
 ## Timeline
+
+### Ownerkorrektur 17.10.2026
+
+- [Korrektur 17.10.2026: Zwingende Präzisierung gegenüber 13.10. und früher: DET2210V.HRB32106 ist laut dem im Review vom 17.10. direkt gelesenen NorthData-Profil die EUID der RWR Recycling GmbH, nicht eine verstümmelte/fehlformatierte Nummer. Das ebenfalls gelesene Betreiberimpressum ordnet diese echte Kennung fälschlich als „USt-IdNr.“ ein; eine echte Umsatzsteuer-ID wird daraus nicht abgeleitet. NorthData nennt Koblenz HRB 32106, Bassenheim/Am Bahnhof 9, Eintragung 22.07.2026 mit Rebecca Reinhardt. Das stärkt die Bassenheim-Zuordnung, beweist aber keine Kette zum historischen Weißenthurm-WLW-Lead. Metallhandelsseite ohne Zahlenkurse; kostenloses Angebot keine kostenlose Logistik. Kein neuer Live-Abruf im Korrekturschritt, keine Frontmatter-Fills. Die falsche frühere Interpretation bleibt ausschließlich als qualifizierte Historie stehen. Quelle(n): https://www.rwr-recycling.de/impressum/ ; https://www.northdata.de/RWR%20Recycling%20GmbH,%20Bassenheim/Amtsgericht%20Koblenz%20HRB%2032106 ; https://www.rwr-recycling.de/metallhandel/ (im Review direkt gelesen); https://www.wlw.de/de/firma/rwr-recycling-inh-rebecca-rheinhardt-22273459 (historischer Orts-/Rechtsformlead).]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Der Direktabruf des RWR-Impressums nennt RWR Recycling GmbH, Am Bahnhof 9, 56220 Bassenheim und Rebecca Reinhardt; die dortige USt-/Registerzeile „DET2210V.HRB32106“ ist erkennbar fehlerhaft formatiert. NorthData bestätigt den Rechtsträger im AG Koblenz HRB 32106, Anschrift Bassenheim und eine Veröffentlichung/Neueintragung vom 22.07.2026 mit Rebecca Reinhardt als Geschäftsführerin. Der aktuelle Betreiberauftritt bewirbt Ankauf von FE/NE, Edel-/Sondermetallen, Elektronikschrott u. a.; Metallhandels-FAQ nennt markt-/qualitätsabhängige Tageshöchstpreise und kostenloses unverbindliches Angebot. Silber-, Zinn-, Sonder- und Hartmetallseiten nennen Ankauf/Anfrage ohne Zahlenkurse. Container-/Abholservice wird angeboten, aber weder Transport noch Container sind durch die kostenlose Angebotserstellung als gratis belegt. Das stärkt die Rechtsträgerklärung für Bassenheim, nicht die historische/aktuelle Identität des Weißenthurm-Leads; website_status für dieses Dossier bleibt unbekannt. ANKAUF: keine Zahlenliste. VERKAUF: keine Produkt-/Materialverkaufspreise veröffentlicht. GEBÜHREN: keine konkreten Container-, Abhol- oder Verwertungstarife. GEO: kein Weißenthurm-Pin; Bassenheim ist im Impressumssitz kein Beleg für den Zielort. Quelle(n): https://www.rwr-recycling.de/impressum/ ; https://www.northdata.de/RWR%20Recycling%20GmbH,%20Bassenheim/Amtsgericht%20Koblenz%20HRB%2032106 ; https://www.rwr-recycling.de/metallhandel/ ; https://www.rwr-recycling.de/schrotthandel/ ; https://www.rwr-recycling.de/containerdienst/ ; https://www.rwr-recycling.de/silbermetalle/ ; https://www.rwr-recycling.de/zinn/ ; https://www.rwr-recycling.de/sondermetall/ ; https://www.rwr-recycling.de/hartmetall/ (Betreiberangaben, Abruf 13.10.2026); https://www.wlw.de/de/firma/rwr-recycling-inh-rebecca-rheinhardt-22273459 (älterer Weißenthurm-Lead).]
 
 ### Recherche 06.10.2026
 

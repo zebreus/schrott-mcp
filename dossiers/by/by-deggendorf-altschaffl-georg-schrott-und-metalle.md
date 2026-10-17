@@ -27,12 +27,18 @@ provenance_origin: table
 
 Die wiederkehrenden Verzeichniseinträge nennen Georg Altschäffl, Untere Himmelreichstr. 13, 94469 Deggendorf und Tel. 0991 25233, sind aber keine unabhängigen Betreiber-/Registerbelege. Eine aktuell geprüfte Gelbe-Seiten-Detailseite zeigt weiterhin diesen Branchenlead; ein Nutzerreview von 2015 ist kein Aktivitätsnachweis. Identität, Aktivität und Kundenannahme bleiben offen.
 
+Am 17.10.2026 zusätzlich als **Georg Altschäffl Metallhandel Containerdienst** im Creditreform-Suchindex an derselben Adresse gefunden. Das ist ein neuer qualifizierter Quellenkandidat statt eines weiteren bloßen Branchenportals, aber der Profilabruf scheiterte an HTTP403. Kein als gelesen behandelter Registervolltext, keine Kontaktfüllung oder Aktivitätsaufwertung; Treffer als „ähnliche Firma“ bei anderen Entsorgern belegen keine Unternehmensgruppe.
+
 - **Ankauf:** keine öffentlichen Ankaufspreise oder bestätigten Annahmebedingungen.
 - **Verkauf:** keine Verkaufspreise.
 - **Gebühren:** keine Angaben.
 - **Geokodierung:** Untere Himmelreichstr. 13 nur nach unabhängiger Bestätigung von Betreiber und Standort geokodieren.
 
 ## Timeline
+
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: Neue qualifizierte Quellenkategorie als Kandidat gefunden: Creditreform-Suchindex nennt Georg Altschäffl Metallhandel Containerdienst, Untere Himmelreichstr.13, 94469 Deggendorf, +49 99125233. Direktabruf HTTP403, daher kein gelesener Profil-/Aktivitätsbeleg und noch kein Quellenpaar für Frontmatter-Fills. Treffer als ähnliche Firmen auf Avas-/Carnuth-Profilen sind keine Zugehörigkeit oder Nachfolgekette; diese Unternehmen nicht übernehmen. Der präzisere Suchname Metallhandel Containerdienst kann die nächste Register-/Gewerbeprüfung leiten. Ankauf: keine Kursliste; Verkauf: keine Preise; Gebühren: keine Container-/Entsorgungstarife. GEO-Bedarf Adresse weiterhin unabhängig volltextlich bestätigen. Quelle: https://firmeneintrag.creditreform.de/94469/8230186164/GEORG_ALTSCHAEFFL_METALLHANDEL_CONTAINERDIENST (Indexfund/HTTP403).]
 
 ### Recherche 07.10.2026
 

@@ -30,6 +30,10 @@ Kein belegter aktueller Annahmeort für diese Seedzeile, keine Ankauf-, Verkaufs
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Registerspiegel der Schrott-Sasse KG erneut direkt gelesen: HRA 5881, Lippstädter Str. 61/33378, Abschluss 2024 veröffentlicht 02.03.2026. Neu geprüfte Domain schrott-sasse.de leitet auf www weiter und liefert HTTP 200, aber praktisch leeres HTML mit leerem body, kein lesbares Impressum/Kontakt. Das ist kein verifiziert aktiver Betreiberauftritt und ebenso kein Beweis der Betriebsschließung. Knapper Seed Sasse bleibt gegenüber Hermann/Südring 107 ungeklärt; keine Zuordnung der KG ohne Betreiberkette. Ankauf/Verkauf/Gebühren: keine numerischen Listen abrufbar. GEO: beide alten Adresskandidaten gesperrt bis Seedidentität geklärt. Quellen: https://www.northdata.de/Schrott-Sasse%20GmbH%20&%20Co%C2%B7%20KG,%20Rheda-Wiedenbr%C3%BCck/Amtsgericht%20G%C3%BCtersloh%20HRA%205881 ; https://schrott-sasse.de .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: North-Data-Detail direkt gelesen: Schrott-Sasse GmbH & Co. KG, HRA 5881 Gütersloh, Lippstädter Str. 61, 33378 Rheda-Wiedenbrück; Zweck Schrott-/Metallhandel, Containerdienst, Sammlung/Transport von Abfällen; Abschluss 2024 veröffentlicht 02.03.2026. Creditreform-Suchtreffer ID 4130094982 nennt gleiche KG/Adresse und 05242 5217, nicht separat als gelesene Firmenauskunft gewertet. Gegenrecherche findet Sasse Hermann/H. am Südring 107 mit 05242 577515 in Verzeichnissen. Keine belegte Personen-/Betreiberkette zwischen beiden, kein Namens- oder Adressfill. Ankauf/Verkauf/Gebühren und Öffentlichkeit des Platzes nicht aus Registerzweck ableiten. Quellen: https://www.northdata.com/Schrott-Sasse%20GmbH%20%26%20Co%C2%B7%20KG,%20Rheda-Wiedenbr%C3%BCck/Amtsgericht%20G%C3%BCtersloh%20HRA%205881 ; https://firmeneintrag.creditreform.de/33378/4130094982/SCHROTT_SASSE_GMBH_CO_KG (Suchlead); https://www.schrottplatz-info.de/schrottplatz/Rheda-Wiedenbrueck/Sasse-H- ; https://www.dasoertliche.de/Themen/Sasse-Hermann-Schrott-und-Metalle-Rheda-Wiedenbr%C3%BCck-Wiedenbr%C3%BCck-S%C3%BCdring (nur Leads).]

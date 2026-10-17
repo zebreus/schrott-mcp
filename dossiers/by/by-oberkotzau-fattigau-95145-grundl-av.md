@@ -30,6 +30,10 @@ Die offizielle Oberkotzauer Gemeindeseite listet eine Auto-Grundl oHG an Hauptst
 
 ## Timeline
 
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: Gemeindeseite erneut direkt gelesen: Auto-Grundl oHG, Hauptstr.28, 09286 6123, ausschließlich Rubrik Abschleppdienste. Die unten stehenden Rathausöffnungszeiten gehören nicht dem Händler. Neue Suchspur auto.grundl auf Instagram nennt im Suchindex Abschleppdienst/Pannenhilfe, Kfz-Meisterbetrieb und Autoverwertung; Direktabruf liefert jedoch nur eine Loginseite, Betreiberzuordnung/Adresse und aktueller Profilinhalt nicht prüfbar. Daher noch kein qualifiziertes Quellenpaar für Grundl AV oder aktuelle Altfahrzeugannahme, kein Kontaktfill. Ankauf: keine Zahlen; Verkauf: keine Ersatzteilpreise; Gebühren: keine Abschlepp-/Entsorgungstarife. GEO-Bedarf Hauptstraße28 als tatsächliche Annahmestelle unabhängig bestätigen, nicht aus Karten-/Wetterportalen ableiten. Quellen: https://oberkotzau.de/verzeichnis/atuo-grundl-ohg ; https://www.instagram.com/auto.grundl/ (Indexspur/Login-Grenze).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Gemeindeverzeichnis Oberkotzau führt „Auto-Grundl oHG“ unter Abschleppdienste, Hauptstr. 28, Tel. 09286 6123; das ist ein möglicher Namens-/Ortsabgleich, aber kein aktueller Beleg für Autoverwertung oder Altfahrzeug-/Schrottannahme. Ein Creditreform-Firmeneintrag und eine ältere Umweltprämienliste bieten weitere Identitätsleads, ersetzen aber keinen aktuellen Tätigkeitsnachweis. Keine Preise zu Ankauf, Verkauf oder Gebühren der Zielzeile gefunden; keine Frontmatter-Fills. Quellen/Leads: https://oberkotzau.de/verzeichnis/atuo-grundl-ohg ; https://firmeneintrag.creditreform.de/95145/8110012272/AUTO_GRUNDL_OHG ; https://radio-games.de/umweltpraemie/bayern.html]

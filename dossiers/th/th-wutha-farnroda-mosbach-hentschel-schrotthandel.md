@@ -28,6 +28,10 @@ Verzeichnisse nennen Hentschel Schrotthandel/Hausmeisterservice in Wutha-Farnrod
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: Das-Örtliche-Profil direkt gelesen: Hentschel Schrotthandel Hausmeisterservice, Theo-Neubauer-Str. 204, 99848 Wutha-Farnroda-Mosbach, 036921 306921; kein Betreiber-Impressum/Website-Link oder konkret verifizierte Annahme daraus. 11880-Suchseite Fulda führt denselben Hentschel als Umkreistreffer, ist aber kein zweiter unabhängiger Primärbeleg. Exakte neue Suche ohne qualifizierten Betreiberfund ist kein Nachweis einer Geschäftsaufgabe. Aue-Namensvetter bleibt getrennt. ANKAUF: keine Kurse/Annahmebedingungen; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Offen: voller Gewerbeinhaber, heutiger Betrieb und Anlieferung versus Hausmeister-/Abholdienst; kein Fill, GEO erst nach Bestätigung. Quellen: https://www.dasoertliche.de/Themen/Hentschel-Schrotthandel-Hausmeisterservice-Wutha-Farnroda-Mosbach-Theo-Neubauer-Str ; https://www.11880.com/suche/altmaterialhandel/fulda .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Exakte Namens- und Ortsprüfung erneut durchgeführt. Das Örtliche und Gelbe Seiten führen weiterhin denselben Lead Theo-Neubauer-Str. 204, 99848 Wutha-Farnroda/Mosbach, 036921 306921; 11880 listet Hentschel ebenfalls im Ort. Das sind Verzeichnisprofile und können dieselbe zugelieferte Datengrundlage verwenden, also kein unabhängiger Betreiber-/Registerbeleg. Der Aue-Betrieb bleibt ein nicht verbundener Namensvetter. Keine Identität, aktuelle Tätigkeit oder Annahmestelle daraus abgeleitet; keine numerische Ankauf-, Verkaufs- oder Gebührenpreisliste gefunden. Quelle(n): https://www.dasoertliche.de/Themen/Hentschel-Schrotthandel-Hausmeisterservice-Wutha-Farnroda-Mosbach-Theo-Neubauer-Str ; https://www.gelbeseiten.de/gsbiz/87ea0bcf-a5cd-4b5f-900d-c42d7dca2e00 ; https://www.11880.com/suche/schrotthandel/wutha-farnroda ; https://www.hentschel-schrotthandel-aue.com/impressum]

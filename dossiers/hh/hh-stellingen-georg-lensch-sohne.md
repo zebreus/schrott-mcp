@@ -30,6 +30,10 @@ Seedstatus `geschlossen` erhalten; das Seed-Schließungsjahr2018 und die Hausnum
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Beide Registerspiegel erneut direkt gelesen: Georg Lensch & Söhne GmbH & Co. KG HRA 78344 weiterhin Lederstr. 36–66, Änderungen Kommanditisten 19./20.08.2025; Autoverwertung Lensch GmbH HRB 37061 weiterhin Liquidation 11.06.2020/Löschung 13.11.2023. Keine neue Primärkette zur Seed-GmbH/Lederstr. 33. `geschlossen` bleibt historischer Seedstatus, nicht aus KG-Fortbestand reaktiviert; Standortschließung 2018 weiterhin nicht eigenständig belegt. Ankauf/Verkauf/Gebühren: keine aktuellen zurechenbaren Listen in diesen Registerquellen; Registerzweck kein heutiger Teileverkauf. GEO bleibt bis Originalregister-/Gewerbe-/Nachfolgerklärung gesperrt. Quellen: https://www.northdata.de/Georg+Lensch+%26+S%C3%B6hne+GmbH+%26+Co.+KG,+Hamburg/HRA+78344 ; https://www.northdata.de/Autoverwertung%20Lensch%20GmbH,%20Hamburg/HRB%2037061 .]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Vorrecherche nicht blind übernommen: KG HRA78344 und Autoverwertung GmbH HRB37061 separat live im Registerspiegel gelesen; KG Lederstr.36–66/22525 Hamburg, Kommanditistenmeldungen19./20.08.2025, PhG Grundstücksverwaltung; Autoverwertung GmbH Liquidation11.06.2020/Löschung13.11.2023. Kein belegter Alias zur Seed-GmbH/Lederstr.33, keine aktuelle Betreiberprimärquelle gefunden. geschlossen erhalten, aber weder Standortschließung2018 noch spätere Nachfolge neu bewiesen. Keine aktuellen Ankauf-, Teileverkaufs- oder Gebührentarife; Gewerbe-/Rechtsträgerkette für Owner offen, Geo gesperrt bis Standortbestätigung. Quelle(n): https://www.northdata.de/Georg+Lensch+%26+S%C3%B6hne+GmbH+%26+Co.+KG,+Hamburg/HRA+78344 ; https://www.northdata.de/Autoverwertung%20Lensch%20GmbH,%20Hamburg/HRB%2037061]

@@ -10,7 +10,7 @@ phone: 01575 7025957
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Die Zuordnung zu einem realen Metallankäufer bleibt unbestätigt. Ein Schrottplatzverzeichnis führt „Metallankauf Bach“ mit Bahnhofstraße 1, 54538 Kinderbeuern, Telefonnummer 01575 7025957, Öffnungszeiten und Mindestmengen; ein zweiter Verzeichniseintrag wiederholt Name und Telefon. Das verlinkte angebliche Betreiber-Webangebot war beim Direktabruf nicht erreichbar. Daher bleiben Adresse, Kontakt, Öffnungszeiten und Materialannahme Verzeichnisleads, nicht bestätigte Betreiberangaben; `status: pruefung` bleibt sachgerecht. Keine dieser Angaben geocodieren, bevor Standort und Betreiber unabhängig bestätigt sind.
+Die Zuordnung zu einem realen Metallankäufer bleibt unbestätigt. Bahnhofstraße 1, 54538 Kinderbeuern, 01575 7025957, Öffnungszeiten und Mindestmengen sind Verzeichnisangaben, keine bestätigten Betreiberwerte; die älteren Aggregator-Fills sind nicht als aktuell verifiziert anzusehen. Der Domainlead metallankauf-bach.de war bereits am 06.10. dokumentiert, kein Neufund vom 13.10. Root und Impressum scheiterten auch im Review vom 17.10.2026 mit Transportfehler; das beweist weder Inhaberschaft noch dauerhafte Nichterreichbarkeit. Ein zusätzlicher Bausendorf-Portal-Lead ist kein Umzugsnachweis. `status: pruefung`; Identität, Standort und öffentliche Annahme offen.
+
+**Preise:** Auf den geprüften Quellen keine verifizierten Zahlenkurse oder Verkaufs-/Gebührentarife. Die Portalwerte 100 kg Fe/1 kg NE sind unbestätigte Mindestannahmen, keine Preise.
 
 ## Timeline
+
+### Ownerkorrektur 17.10.2026
+
+- [Korrektur 17.10.2026: Der Domainlead ist spätestens seit der Recherche vom 06.10. bekannt; der 13.10.-Absatz ist kein neuer Domainfund. Im Review vom 17.10. scheiterten Root und Impressum erneut mit Transportfehler, ohne Aussage über dauerhafte Verfügbarkeit oder Zuordnung. Die Suchgegenprobe fand außerdem einen Bausendorf-Portal-Lead, aber keine belegte Standortkette. Alte Formulierungen „verifiziert“ mittels zweier Verzeichnisse werden ausdrücklich nicht als heutiger Belegstandard übernommen; Mindestannahmen bleiben Portalangaben. Frontmatter einschließlich ownerakzeptiertem website_status unverändert. Keine weiteren Live-Abrufe im Korrekturschritt. Quelle(n): https://www.metallankauf-bach.de/ ; https://www.metallankauf-bach.de/impressum (Transportfehler im Review); https://www.klick-deinen-schrottplatz.de/schrottplatz-schrotthaendler-bausendorf-rheinland-pfalz-metallankauf-bach-ID232 (Suchlead im Review); https://www.11880.com/branchenbuch/kinderbeuern/060440092B113980474/metallankauf-bach.html ; https://lokaleschrottplatz.de/metallankauf-bach/ (historische Portalangaben, kein aktueller Betreiberbeleg).]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Suchindex zeigte einen neueren, offiziell wirkenden Webauftritt unter metallankauf-bach.de mit Leistungsunterseiten (u. a. Entkernung); Direktabrufe von Root, Impressum, Kontakt und Leistungsseite scheiterten jedoch mit Transportfehler. Das ist weder eine bestätigte Betreiberquelle noch ein Beleg für dauerhafte Nichterreichbarkeit oder Eigentümerschaft. Verzeichnisdaten Bahnhofstr. 1/01575 7025957 und die Mindestmengen 100 kg Fe bzw. 1 kg NE bleiben unbestätigte Leads. Website-Enum leer → unbekannt. ANKAUF: nur Preisnachfrage, keine Zahlenkurse; Mindestmengen sind Annahmeschwellen, keine Preise. VERKAUF: keine Preisliste; GEBÜHREN: keine belegt. GEO: nicht geocodieren, bevor Betreiber und Abgabepunkt bestätigt sind. Quelle(n): https://www.metallankauf-bach.de/ ; https://www.metallankauf-bach.de/impressum ; https://www.metallankauf-bach.de/kontakt ; https://www.metallankauf-bach.de/leistungen/entkernung/ (Direktabrufe mit Transportfehler 13.10.2026); https://lokaleschrottplatz.de/metallankauf-bach/ (Verzeichnislead).]
 
 ### Recherche 04.10.2026
 

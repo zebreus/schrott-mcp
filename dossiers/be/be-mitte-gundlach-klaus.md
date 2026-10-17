@@ -28,6 +28,10 @@ Adresse und Mobilnummer stammen bislang nur aus einem Branchenportal. Weder Betr
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: Portal-Detail direkt erneut gelesen: Gundlach Klaus, Ungarnstr. 68, 13349 Berlin, 0171 9935369. Homepage-Verweis weiterhin nur / zur Portalwurzel; Beschreibung/Leistungsangebot fehlen und Zeiten nicht vollständig erfasst. Im Umkreis wird sogar Waschelewski in Elsdorf-Westermühlen mit 4,02 km Abstand zu Berlin angezeigt: die Portalnähe ist daher ersichtlich kein zuverlässiger Standort- oder Firmenbeziehungsbeleg. ANKAUF: keine bestätigte Annahme/Vergütung; VERKAUF: keine Preise; GEBÜHREN: keine Tarife. Kein Kontakt-/Website-Fill, Status pruefung bleibt. Offen: vollständige Gewerbeidentität und aktuelle Nutzung Ungarnstr. 68, danach GEO-Bedarf. Quelle: https://www.schrottplatz-info.de/schrottplatz/Berlin/Gundlach-Klaus .]
+
 ### Recherche 15.10.2026 (Welle 1200 C)
 
 - [Recherche 15.10.2026: Konkreten Portal-Datensatz direkt neu gelesen: Ungarnstr. 68 / 13349 und 0171 9935369 nur Verzeichniswerte; „zur Homepage“ verlinkt tatsächlich auf die Portalwurzel /, nicht auf eine Betreiberwebsite. Beschreibungs-, Leistungs- und Öffnungszeitenbereiche sind ausdrücklich leer. Damit keine aktuelle Annahme oder Ankaufsvergütung belegt und kein Website-Fill aus dem irreführenden Link. Portal-Umkreislinks sind keine gesellschaftsrechtlichen Verbindungen. Ankauf/Verkauf/Gebühren ohne Preisquelle; kein neuer Kontaktfill oder Statuswechsel. Klärfrage für Gewerbeauskunft: vollständiger Inhaber, aktuelle Nutzung Ungarnstr. 68 und mobile Abholung versus zugänglicher Platz. Quelle: https://www.schrottplatz-info.de/schrottplatz/Berlin/Gundlach-Klaus.]

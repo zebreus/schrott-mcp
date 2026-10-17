@@ -30,6 +30,10 @@ Die im alten Vermerk unterschiedlich gruppierten Mobilnummern sind zifferngleich
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Jimdo-Impressum direkt erneut HTTP 403/Cloudflare-Sperrseite, keine Betreiberangaben gelesen. Kein Schließungsschluss und kein Domainstatus tot aus Sperre. Frühere zifferngleiche Telefonnummern und Leonard/L.-Alias bleiben unverändert als ungeklärte Leads; Entrümpelung ist nicht schon Metallankauf. Ankauf: keine zurechenbare Liste; Verkauf: keine Liste; Gebühren: keine verifizierten Entrümpelungs-/Abholtarife. Frontmatter unverändert; GEO benötigt zuerst Gewerbe-/Betreiberbeleg und Annahmefunktion für Baro 2. Quelle: https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/impressum/ .]
+
 ### Recherche 16.10.2026 — Shard 1
 
 - [Recherche 16.10.2026: Erneuter Direktabruf des Jimdo-Impressums HTTP 403. Neue Suche erschließt unser-stadtplan/MyHammer, aber keine lesbare zweite zulässige Betreiber-/Registerquelle; Bewertungsprofile und Suchsnippets nicht als Identitätsfreigabe gezählt. Alte Zifferngleichheit der Mobilnummer erhalten, kein künstlicher Nummernkonflikt. ANKAUF: Entrümpelung ist kein bestätigter Schrottankauf; VERKAUF: keine Liste; GEBÜHREN: keine numerischen Entrümpelungs-/Abholtarife verifiziert. GEO: Leonard/L.-Alias und Baro-2-Gewerbe-/Annahmefunktion vor Punkt klären. Keine Fills. Quelle: https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/impressum/ (403); zusätzliche Suchleads https://www.my-hammer.de/auftragnehmer/l-mulaj und https://m.unser-stadtplan.de/Stadtplan/Lennestadt/Partner/Baro-2/Haushaltsaufloesungen-Entruempelung-L-Mulaj.map (nicht direkt gelesen).]

@@ -28,6 +28,10 @@ Die importierte Nummer 09367 2200 und die bisherige Verzeichnisadresse Herrngass
 
 ## Timeline
 
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: Offizielle Seite Gewerbetreibende & Register erneut direkt vollständig geprüft: weiterhin kein Kopp-/Schrotthandeleintrag, Aufnahme ausdrücklich durch ausgefüllten unterschriebenen Erhebungsbogen. Kein vollständiges amtliches Negativregister, kein Schließungsbeweis. Die Navigation bietet jetzt einen konkreten Klärweg Gewerbeauskunft über den bayerischen Formularserver; Formular nicht ausgefüllt/abgeschickt. Vorhandene09367 2200 bleibt unbestätigter Altwert, Herrngasse13 Lead. Kommunale Verwaltungsgebühren und Rathauszeiten dieser Seite sind keine Händlerpreise/-zeiten. Ankauf: kein Kurs; Verkauf: keine Liste; Gebühren: keine Kopp-Tarife. GEO-Bedarf Identität und tatsächliche Annahmeadresse über Gewerbeauskunft bestätigen; keine Koordinaten. Quelle: https://vgem-bergtheim.de/home-oberpleichfeld/gewerberegister/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Altmetalle — Tel. 09367 2200

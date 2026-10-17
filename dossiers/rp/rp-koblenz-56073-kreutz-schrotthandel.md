@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Kreutz Schrotthandel“ in Koblenz bleiben Dominicusstr. 43/0176 73627308 und ältere Angaben Peter-Friedhofen-Str. 15 mit anderer Nummer widersprüchliche Verzeichnisleads. Der Konflikt war bereits am 04.10. dokumentiert. Die Suchgegenprobe im Review vom 17.10.2026 fand eine weitere Kleinanzeigen-Anzeige mit Anbieter René Kreutz, deren Direktabruf jedoch HTTP 403 lieferte; Urheberschaft, Rechtliche Angaben und Bedingungen sind nicht bestätigt. Portalwort „geschlossen“ ist ohne Kontext kein Nachweis einer Betriebsaufgabe. Keine qualifizierte Betreiber-/Registerzuordnung; `website_status: unbekannt`, kein Adress-/Kontakt-Fill.
+
+**Preise:** Verzeichnisse nennen Materialarten und Mindestannahmen (100 kg Eisen, 1 kg NE), aber keine Ankaufskurse. Keine Verkaufspreise oder Gebühren verifiziert.
 
 ## Timeline
+
+### Ownerkorrektur 17.10.2026
+
+- [Korrektur 17.10.2026: Der Review vom 17.10. fand eine konkrete weitere Anzeige mit Anbieter René Kreutz im Suchindex; Direktabruf HTTP 403. Das ist ausschließlich eine Folgeprüfspur, kein verifiziert betreibergeführter Kanal und kein Beleg für eine der konkurrierenden Anschriften. Der Portalstatus „geschlossen“ aus dem 13.10.-Befund ist nicht auf Betriebsaufgabe versus momentane Öffnungszeit aufgelöst und trägt deshalb keinen Schließungsentscheid. Mindestmengen sind keine Kurse, Bewertungen keine Preis-/Waagengarantie. Keine Frontmatter-Füllung, kein neuer Live-Abruf im Korrekturschritt; alte Abrufe und Adresskonflikte bleiben datiert erhalten. Quelle(n): https://www.kleinanzeigen.de/s-anzeige/schrotthandel-schrotthaendler-kostenlose-abholung-metall-ankauf/3517253616-298-5424 (Suchlead im Review, Direktabruf 403); https://lokaleschrottplatz.de/schrott-und-metallhandel-rene-kreutz/ ; https://www.gelbeseiten.de/gsbiz/d7a768a8-b28e-4add-9b62-2627eed1f23c ; https://www.schrottplatz.org/koblenz/schrott-kreutz-aYEPwR.html (historische Portalquellen, keine aktuelle Primärbestätigung).]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Drei direkt geprüfte Branchenverzeichnisse führen René/Kreutz an Dominicusstr. 43, 56073 Koblenz, Tel. +49 176 73627308; lokaleschrottplatz.de listet Fe/Stahl, Aluminium, Kupfer, Edelstahl, Blei, Messing/Rohrmessing, Zink, Nickel, Zinn, Kabel, Hart-/Sondermetalle, Kühler, Altfahrzeuge und Elektromotoren sowie Mindestannahmen von 100 kg Fe bzw. 1 kg NE und einen Status „geschlossen“. Auch Gelbe Seiten/Golocal stützen Adresse/Nummer als Leads; Golocal-Bewertung zum Wiegen/fairer Bezahlung ist keine veröffentlichte Waagen- oder Preisgarantie. Ältere Peter-Friedhofen-Str.-15-Angabe und andere Nummer bleiben Konflikt. Betreiber- und aktuelle Öffnungs-/Annahmebestätigung fehlen; website_status leer → unbekannt. ANKAUF: keine Zahlenpreise; Mindestmengen sind keine Preise. VERKAUF: keine Liste; GEBÜHREN: keine Tarife. GEO: keinen der widersprüchlichen Portalstandorte als verifizierten Eingang markieren. Quelle(n): https://lokaleschrottplatz.de/schrott-und-metallhandel-rene-kreutz/ ; https://www.gelbeseiten.de/gsbiz/d7a768a8-b28e-4add-9b62-2627eed1f23c ; https://www.golocal.de/koblenz/schrotthandel/kreutz-MJmeS/ (Verzeichnisse/Bewertung, Abruf 13.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

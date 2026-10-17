@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-Einziger greifbarer Standortbeleg bleibt ein Verzeichniseintrag für H u. S Recycling mit Containerdienst, Am Gewerbepark 24, 06632 Freyburg (Unstrut), Tel. 034464 35656. Die Seite weist selbst darauf hin, dass Leistungsangebot und Öffnungszeiten nicht erfasst sind; sie ist keine Betreiberquelle und bestätigt weder den ausgeschriebenen Inhaber noch Ankauf. Keine Preis-/Gebührenliste; Adresse vor Geokodierung unabhängig bestätigen.
+Neu ist ein historischer kommunaler Namensbeleg: Das Amtsblatt 02/2008 der Verwaltungsgemeinschaft Unstruttal nennt auf Seite 20 H u. S Recycling mit Containerdienst Holger Pilling, Freyburg, in einer Unterstützerliste. Das konkretisiert den bisher abgebrochenen Namen Holger …, bestätigt jedoch weder heutigen Gewerbebestand noch Hofadresse oder Inhaberschaft 2026. Am Gewerbepark 24, 06632 Freyburg (Unstrut), 034464 35656 bleiben Portalwerte. Keine aktuellen Ankauf-/Verkaufspreise oder Gebühren; aktuelle Adresse vor späterer GEO-Punktprüfung unabhängig bestätigen.
 
 ## Timeline
+
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: Kommunales Original-PDF Amtsblatt Ausgabe 02/2008 vom 22.02.2008 direkt geladen und im Speicher per pdftotext gelesen, Seite 20 nennt wörtlich H u. S Recycling mit Containerdienst Holger Pilling, Freyburg, in der Unterstützerliste zum Kinderspielplatz Braugasse. Das ist ein historischer lokaler Namens-/Branchenbeleg unabhängig vom Branchenportal, aber keine heutige Gewerbeauskunft, kein Beleg für Am Gewerbepark 24 und keine Aktivitätsbestätigung 2026. Suchindex von Stadtbranchenbuch/Öffnungszeitenbuch wiederholt Holger Pilling an dieser Portaladresse; auch AIR-LIQUIDE-Zuordnung dort ist nur Lead, keine verifizierte Betreiberpartnerschaft. Frontmatter einschließlich unvollständigem Namen unverändert bis heutige Identität geklärt. ANKAUF: keine Vergütung/Kurse; VERKAUF: keine Liste, insbesondere kein belegter Gaspreis; GEBÜHREN: keine Container-/Entsorgungstarife. Offen: Fortbestand/Inhaber und aktuelle Kundenadresse; GEO-Bedarf erst danach. Quellen: https://www.verbgem-unstruttal.de/de/datei/anzeigen/id/205,1117,1/ausgabe_02-2008_vom_22.02.2008.pdf (Original, S. 20) ; https://freyburg-unstrut.stadtbranchenbuch.com/8233093.html (nur Suchlead).]
 
 ### Recherche 12.10.2026
 

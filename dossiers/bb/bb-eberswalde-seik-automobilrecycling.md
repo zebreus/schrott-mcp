@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Eberswalder Eintrag bleibt ungeklärt. Die Suchgegenprobe im Review vom 17.10.2026 zeigt Verzeichnisleads für Teuberstraße 1 bzw. 1A; sie entscheidet weder die Hausnummer noch den Betreiber. Die Herten-Zuordnung von seik.de und das dort gemeldete Betriebsende zum 30.06.2026 sind historische Recherchebefunde vom 03.10., keine am 17.10. erneut bestätigten Betreiberangaben: Unternehmen, Impressum und News scheiterten im Review mit Transportfehler. Eine Verbindung zu Eberswalde ist nicht belegt; weder Website noch Herten-Betriebsstatus übertragen. Identität und öffentlicher Annahmepunkt bleiben offen.
+
+**Preise:** Für Eberswalde keine verifizierten Ankaufspreise, Ersatzteil-Verkaufspreise oder Gebühren. Keine Herten-Angaben übertragen.
 
 ## Timeline
+
+### Ownerkorrektur 17.10.2026
+
+- [Korrektur 17.10.2026: Ownerfreigegebene Präzisierung nach dem Review vom selben Tag; kein weiterer Live-Abruf in diesem Korrekturschritt. Die Suchgegenprobe im Review fand Onlinestreet mit Teuberstraße 1 und Stadtbranchenbuch mit 1A; beides nur Leads. Das am 03.10. dokumentierte Herten-Betriebsende wird nicht als frisch bestätigter Befund ausgegeben: seik.de/unternehmen, /impressum und /news waren im Review wegen Transportfehler nicht lesbar. Kein Nachweis einer Eberswalder Filiale, aber auch kein Beweis ihres Nichtbestehens. Frontmatter unverändert; keine belegten lokalen Zahlenpreise auf den geprüften Quellen. Die älteren Rechercheeinträge bleiben als historische Befunde erhalten. Quelle(n): https://onlinestreet.de/poi/ZGVBZE9PbnViaC9lN05jSVZuVW0rUT09 ; https://eberswalde.stadtbranchenbuch.com/1738216.html (Verzeichnisleads im Review); https://seik.de/unternehmen ; https://seik.de/impressum ; https://seik.de/news (Transportfehler im Review).]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: onlinestreet führt „SEIK Automobilrecycling“ in Eberswalde an Teuberstraße 1, 16225, Tel. 03334 384520 und zeigt seik.de als Website-Link. Das weicht bei der Hausnummer von der Seed-Angabe Teuberstr. 1a ab und bleibt ein Verzeichnislead, keine Betreiberbestätigung oder Filialzuordnung. Die bereits geprüfte Betreiber-/Registerspur zu SEIK Automobil Recycling GmbH betrifft Herten; das Unternehmen meldete das Ende des Geschäftsbetriebs zum 30.06.2026. Daher weder Domain noch Herten-Leistungen, Preise oder Betriebsstatus auf Eberswalde übertragen. ANKAUF: kein Eberswalder Fahrzeugangebot belegt; VERKAUF: keine Teilepreise; GEBÜHREN: keine Tarife. GEO: keine Koordinaten, bis Hausnummer, Rechtsträger und öffentlicher Annahmepunkt geklärt sind. Quelle(n): https://onlinestreet.de/poi/ZGVBZE9PbnViaC9lN05jSVZuVW0rUT09 (Verzeichnis, Abruf 13.10.2026); https://seik.de/unternehmen ; https://seik.de/impressum ; https://seik.de/news ; https://www.northdata.de/SEIK+Automobil+Recycling+GmbH,+Herten/Amtsgericht+Recklinghausen+HRB+4841]
 
 ### Recherche 03.10.2026
 

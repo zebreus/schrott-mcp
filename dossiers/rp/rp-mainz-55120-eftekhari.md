@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten führt als nicht bestätigten Lead eine „Eftekhari GmbH“ am Akazienweg 1, 55120 Mainz-Mombach. Die Registerspur HRB 48328 betrifft laut bisheriger Recherche dagegen eine GmbH mit Sitzverlegung nach Mainz-Kastel/Wiesbaden und Liquidationseintrag 2024; die Identität mit dem Mainzer Lead ist nicht belegt. Frontmatter bleibt offen und Status `pruefung`.
+Gelbe Seiten führt als unbestätigten Lead eine „Eftekhari GmbH“ am Akazienweg 1, 55120 Mainz-Mombach. Das im Review vom 17.10.2026 gelesene NorthData-Profil führt dieselbe Gesellschaft unter aktueller Kennung **AG Wiesbaden HRB 34887** und früherer **AG Mainz HRB 48328**, Anschrift Am Fort Biehler 12, 55252 Mainz-Kastel, Sitzverlegung März 2024 und Liquidationseintrag 27.09.2024. Alte/neue HRB sind kein Beweis für getrennte Rechtsträger. Unbewiesen bleibt die Zuordnung des Akazienweg-Leads zu dieser Gesellschaft bzw. Niederlassung; die Liquidation darf nicht als Betriebsaufgabe der ungeklärten Seed-Zeile übertragen werden. Frontmatter bleibt unverändert, Status `pruefung`.
 
 **Preise:** ANKAUF: keine belastbaren Annahmebedingungen oder Preisangaben. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Ownerkorrektur 17.10.2026
+
+- [Korrektur 17.10.2026: Registerpräzisierung anhand des im Review vom 17.10. direkt gelesenen NorthData-Profils, ohne weiteren Live-Abruf im Korrekturschritt. Wiesbaden HRB 34887 ist die aktuelle, Mainz HRB 48328 die frühere Kennung derselben Gesellschaft; Am Fort Biehler 12, 55252 Mainz-Kastel, Sitzverlegung März 2024, Liquidation 27.09.2024. Die frühere HRB-Verkürzung begründet keinen anderen Rechtsträger. Offen bleibt das Seedmatch Akazienweg 1/55120: weder Filiale noch Gleichheit/Trennung sind ausreichend belegt. Liquidation kein Schließungsbeweis dieser Seed-Zeile. Domain-404 und Verzeichnisdaten aus 02./04./13.10. sind historische Abrufbefunde, keine neuen Prüfungen; keine Kontakt-/Adress-/Statusübernahme. Quelle(n): https://www.northdata.de/Eftekhari%20GmbH,%20Mainz-Kastel/Amtsgericht%20Wiesbaden%20HRB%2034887 (Profil im Review gelesen); https://www.gelbeseiten.de/gsbiz/b6215761-672e-4943-bdf0-b933a7660cf2 (historischer Akazienweg-Lead).]
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Keine neue Verbindung zwischen dem Gelbe-Seiten-Lead Akazienweg 1, 55120 Mainz und der Eftekhari GmbH HRB 48328 am abweichenden Sitz Mainz-Kastel/Wiesbaden gefunden. Der frühere Domainabruf von eftekhari-gmbh.de lieferte keinen Betreiberinhalt; dies ist kein Schließungsbeleg. Website-Enum leer → unbekannt, keine Adresse/Kontakte übertragen. ANKAUF: keine Annahme- oder Preisangaben; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. GEO: Adresse und Geschäftstätigkeit zunächst amtlich/primär klären. Quelle(n): https://www.gelbeseiten.de/gsbiz/b6215761-672e-4943-bdf0-b933a7660cf2 (Lead); https://www.northdata.de/Eftekhari%20GmbH,%20Mainz/Amtsgericht%20Mainz%20HRB%2048328 (anderer Registerstand/Ort laut bisheriger Prüfung); https://eftekhari-gmbh.de/ (Direktabruf 404 am 02.10.2026).]
 
 ### Recherche 07.10.2026
 

@@ -30,6 +30,10 @@ Gelbe Seiten führt einen aktuellen Lead „ABC Schrott“ in der Schorndorfer S
 
 ## Timeline
 
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: HTTPS-Website erneut direkt angefordert, Transportfehler ohne auswertbaren Betreiberinhalt. Kein Beweis für Domainaufgabe oder Betriebsschließung und kein belastbarer Website-Status tot. Frühere Schorndorfer-Straße-/Kontakt-/Kostenlos-Angaben bleiben ausdrücklich Verzeichnisleads, nicht heute primär bestätigt. Ankauf: keine qualifizierten Zahlen; Verkauf: keine Liste; Gebühren: kostenloser Abhollead belegt weder Auszahlung noch kostenlose Entsorgung aller Materialien. GEO-Bedarf aktuelle Betreiberidentität und Esslinger Annahme-/Kontaktadresse bestätigen, bis dahin kein Standortpunkt. Quelle: https://www.abc-schrott.de (Abrufgrenze); bisheriger Gelbe-Seiten-Lead siehe Recherche 07./08.10.2026.]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Gelbe-Seiten-Lead erneut gegenüber dem nicht auswertbaren Domainabruf abgegrenzt. Die dort beworbene kostenlose Abholung bleibt eine nicht unabhängig bestätigte Verzeichnisangabe und begründet weder einen Ankaufskurs noch eine gesicherte Gebührenfreiheit. Kein aktueller Betreiber-/Registerbeleg, keine numerische Ankaufpreisliste, keine Verkaufspreise und keine belastbaren sonstigen Gebühren. Anschrift bleibt Lead, nicht geokodieren; keine Schließung behauptet. Quellen: https://www.gelbeseiten.de/gsbiz/06ced40f-5f72-441f-b216-433a56d26557 ; http://www.abc-schrott.de ; https://www.abc-schrott.de]

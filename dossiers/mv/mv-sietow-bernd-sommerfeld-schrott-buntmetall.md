@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Überlieferte Anschrift, Telefon und Materialliste beruhen auf Portalen; die Ausnahmeentscheidung vom 02.10. bleibt Historie, nicht ein erfüllter Zwei-Beleg-Standard. Neu ist eine lokale Sponsorennennung „Schrott- und Buntmetallhandel Bernd Sommerfeld“ in einem Festbericht vom 15.08.2025. Sie stützt den lokalen Namens-/Branchenbezug, nennt aber weder Hofadresse noch heutige Annahmebedingungen. `aktiv` bleibt ein nicht frisch primärverifizierter Altwert.
+
+**Ankauf:** keine bestätigten Zahlen oder Vergütungsbedingungen. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. **GEO:** Neubaustr. 5 vor späterer Punktprüfung als aktuelle Kundenstelle bestätigen.
 
 ## Timeline
+
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: Den neu gefundenen lokalen Festbericht 725 Jahre Sietow (15.08.2025) direkt gelesen: Sponsor ausdrücklich Schrott- und Buntmetallhandel Bernd Sommerfeld. Kein reines Branchenportal, aber auch keine Gewerbeauskunft/Betreiberquelle; daraus keine Verifikation von Neubaustr. 5, 039931 51004, Materialannahme oder Öffnungszeiten. Portalmehrheit vom 02.10. bleibt unter README kein unabhängiger Mehrfachbeleg. Keine neuen Frontmatter-Fills oder Aktivitätsaufwertung. ANKAUF: keine Zahlen/aktuellen Bedingungen; VERKAUF: keine Preise; GEBÜHREN: keine Tarife. Offen: aktueller Gewerbebestand, heutige Kundenstelle und Vergütung je Material; GEO erst danach. Quelle: https://sietowwandelweg.info/725-jahre-ein-ereignisreiches-wochenende .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

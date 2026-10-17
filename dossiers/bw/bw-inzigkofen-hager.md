@@ -30,6 +30,10 @@ Für den Hager-Datensatz selbst bleiben Identität, aktuelle Tätigkeit und Anka
 
 ## Timeline
 
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: KORN-Kontaktseite erneut direkt gelesen: Buwiesen1, 72514 Inzigkofen, 07571/72473-0, Mo–Fr08–12/13–17:30, Sa08–12. Keine Erklärung eines Hager-Übergangs im gelesenen Standortabschnitt. Aktuelle KORN-Anwesenheit beseitigt weder die Identitätslücke noch belegt sie Hagers Schließung; keine KORN-Daten für Hager gefüllt. Ankauf: keine Hager-Zahlenliste; Verkauf: keine Hager-Preise; Gebühren: kontaktloses Bezahlen ist nur KORN-Zahlungsmöglichkeit, keine Hager-Gebührenfreiheit. GEO-Bedarf zuerst Hager als Vorgänger/Mitnutzer/eigenständiger Betrieb und dessen aktuelle Annahmestelle klären; kein KORN-Punkt für Hager. Quelle: https://korn-recycling.de/kontakt.html .]
+
 ### Recherche 08.10.2026 (Zweiseitiger Abgleich)
 
 - [Recherche 08.10.2026: KORN-Standortkontakt direkt erneut gelesen: Buwiesen 1, 72514 Inzigkofen, 07571/72473-0, Mo–Fr 08–12/13–17:30, Sa 08–12, kontaktloses Bezahlen möglich. Betreiber bestätigt damit KORN, nicht Alexander Hager. Northdata-Suggest Alexander Hager liefert Personen Berlin/Krauchenwies, keine eindeutige Zuordnung zur Seed-Identität; Namen/regionale Nähe sind kein Betreiber-Kettenbeleg. Aktuelle Stellenportal-Treffer unter Transporte/Verwertungen/Nutzfahrzeuge bleiben Drittanbieter-Leads, keine verifizierte Hager-Ankaufstelle. Keine KORN-Domain-/Kontakt-/Preisübernahme. ANKAUF/VERKAUF/GEBÜHREN: keine Hager-spezifischen Zahlen; Hinweis auf kontaktloses Bezahlen bei KORN ist kein Ankaufpreis-/Gebührenbeleg für Hager. Nächster Schritt Gewerbe-/Übernahmeauskunft, ob Hager frühere Betriebsführung oder eigenständiges Transportunternehmen ist. Quelle: https://korn-recycling.de/kontakt.html ; https://www.northdata.de/suggest.json?query=Alexander%20Hager&countries=DE .]

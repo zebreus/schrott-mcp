@@ -30,6 +30,10 @@ Klawes Rainer ist ein unbestätigter Potsdamer Schrottlead. Klopstockstraße 2, 
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 2100 C
+
+- [Recherche 17.10.2026: Neuer konkreter Adresswiderspruch: potsdam-abc direkt gelesen, Klawes Schrottentsorgung, Fritz-Zubeil-Str. 33, 14482 Potsdam, 0331 714125 und Fax 0331 7046256. Dieselbe Telefonnummer wie der bisherige Klopstockstr.-2-Lead, aber andere Straße. Ein Regionalverzeichnis ist weder kommunale Gewerbeauskunft noch Betreiberbeleg; gleiche Nummer beweist keine Verlagerung, Firmenidentität oder heutige Annahmestelle. Suchindex zeigt außerdem D&B-Profil Rainer Klawes, jedoch hier kein gelesener Registerbeleg. Keine Adress-/Kontaktübernahme. ANKAUF: keine verifizierte Vergütung/Liste; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Offen: Geschäfts-/Privatanschrift, möglicher Umzug und heutiger Inhaber; GEO für beide Adresskandidaten zurückstellen. Quellen: https://www.potsdam-abc.de/verzeichnis/index.php?kategorie=860 (direkt) ; https://www.dnb.com/business-directory/company-profiles.rainer_klawes.d977d61344606921ee5fee96e35e4706.html (nur Suchlead).]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Das Örtliche direkt gelesen; der Eintrag wiederholt Klawes Rainer, Klopstockstr. 2, 14482 Potsdam, Tel. 0331 714125 und die Branchenbezeichnung Schrott, bietet aber keinen Betreiberlink oder Identitäts-/Registerbeleg. Es ist damit ein weiterer Aggregator-Lead, keine unabhängige Bestätigung des bisherigen schrottplatz-info-Eintrags. Keine Übernahme in Frontmatter, kein aktueller Annahmenachweis und keine Zahlen für Metallankauf, Materialverkauf oder Gebühren. Quelle/Lead: https://www.dasoertliche.de/Themen/Klawes-Rainer-Potsdam-Babelsberg-Nord-Klopstockstr .]

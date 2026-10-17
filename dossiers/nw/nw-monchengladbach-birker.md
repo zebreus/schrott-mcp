@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**Mehrdeutiger Nachname jetzt konkretisiert:** An Friedrich-Ebert-Str. 198, 41236 Mönchengladbach-Rheydt führen die direkt gelesenen Portale zwei Vornamen und verschiedene Telefone: Karl-Wilhelm Birker (02166 23385) sowie Veronika Birker (02166 23341). Keine verifizierte Personen-/Nachfolgebrücke; der Seed „Birker“ entscheidet nicht zwischen ihnen. 11880 markiert Karl-Wilhelm als „geschlossen“, aber das bleibt ein Portalhinweis und rechtfertigt keinen Seed-Schließungsstatus.
+
+**Ankauf:** kein Betreiber-/Preisbeleg. **Verkauf:** keine belegte Liste. **Gebühren:** keine belegte Liste. **GEO:** trotz gemeinsamer Portaladresse erst richtigen Betreiber und aktuelle Hofannahme prüfen. Keine Kontakt-/Adressfills und kein Alias; `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Neue Namenssuche, 11880 Karl-Wilhelm und schrottplatz-info Veronika direkt gelesen. Beide nennen Friedrich-Ebert-Str. 198/41236, aber 02166 23385 versus 23341; keine Primärquelle bestätigt Alias oder Nachfolge. Karl-Wilhelm-Profil ausdrücklich „geschlossen“, Portalstand 01.10.2026/Eintragsdaten 13.05.2026; daraus keine amtliche Schließung, kein Datum erfunden. Veronika-Link „zur Homepage“ führt nur zur Portalwurzel, nicht zu einer Betreiberwebsite. Kein Fill allein aus wiederholten Verzeichnissen. Ankauf/Verkauf/Gebühren ohne numerische belegte Listen; GEO gesperrt bis Identitäts-/Annahmeprüfung. Quellen: https://www.11880.com/branchenbuch/moenchengladbach/060440090B26098462/karl-wilhelm-birker-schrott-und-metallhandel.html ; https://www.schrottplatz-info.de/schrottplatz/Moenchengladbach/Birker-Veronika-Schrott .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

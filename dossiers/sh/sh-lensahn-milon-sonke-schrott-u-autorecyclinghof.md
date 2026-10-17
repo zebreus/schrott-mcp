@@ -34,6 +34,10 @@ Die Domain-Kandidatin milon-recycling.de liefert HTTP 503 mit lesbarer Wartungss
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Landes-Anlagenportal und Northdata erneut direkt gelesen: Lensahn/Ottostr. 11 und separat Lübeck/Mühlenkamp 8, Portal-Seitenstand weiterhin 30.08.2024; HRA 2053 OL mit Prokura Finn/Nina Milon 02.05.2024. Heutige Hoföffnung folgt nicht aus altem Anlagenlistenstand. Domain-Impressum erneut HTTP 503, kein neues lesbares Betreiberimpressum; alte Wartungsseiten-Zeiten nicht ungeprüft hochgestuft. Northdata zeigt öffentlich weiterhin nur Lensahn, kein neuer Straßenbeleg aus dem Register behauptet. Ankauf: keine aktuelle numerische Liste; Verkauf: keine Liste; Gebühren: keine Liste/keine Fortgeltung der 2023-Aktion. GEO nach heutiger Annahme-/Adressbestätigung, Lübeck getrennt lassen. Quellen: https://umweltanwendungen.schleswig-holstein.de/Abfallentsorgungsanlagen/ap_login.php?sbuchst=S ; https://www.northdata.de/Schrott-+und+Autorecyclinghof+S%C3%B6nke+Milon+e.K.,+Lensahn/Amtsgericht+L%C3%BCbeck+HRA+2053+OL ; https://milon-recycling.de/impressum/ (503).]
+
 ### Recherche 15.10.2026
 
 - [Korrektur 15.10.2026: Name vom invertierten Seed-Namen „Milon Sönke Schrott- u. Autorecyclinghof“ auf Schrott- und Autorecyclinghof Sönke Milon e.K. normalisiert; Slug unverändert. Zwei unabhängige zulässige Quellen: Landes-Anlagenportal führt Lensahn Ottostr. 11 und separat Lübeck Mühlenkamp 8; Northdata bestätigt HRA 2053 OL, EUID DEX1721R.HRA2053OL, Sitz Lensahn sowie Prokura Finn/Nina Milon vom 02.05.2024. Öffentliche Bekanntmachung 02.08.2019 nennt D-23738 Lensahn, Straße maskiert: PLZ ergänzt, bestehende Straße nicht aus maskierten Daten neu behauptet. Kein Umzugs-/Schließungsbeleg und keine Verschmelzung mit Lübecker Dossier. Quellen: https://umweltanwendungen.schleswig-holstein.de/Abfallentsorgungsanlagen/ap_login.php?sbuchst=S ; https://www.northdata.de/Schrott-+und+Autorecyclinghof+S%C3%B6nke+Milon+e.K.,+Lensahn/Amtsgericht+L%C3%BCbeck+HRA+2053+OL ; https://www.northdata.de/?id=5535064211 .]

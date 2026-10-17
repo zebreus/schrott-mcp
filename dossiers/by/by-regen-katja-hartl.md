@@ -26,7 +26,13 @@ provenance_origin: prose
 
 Katja Hartl in Regen ist derzeit ein unbestätigter Verzeichnisimport mit PLZ 94209, ohne Anschrift/Betreiberwebsite und ohne Primärnachweis für Schrottankauf. Ein Personenname allein begründet weder Einzelunternehmerstatus noch Zugehörigkeit zu anderen Hartl-Firmen. **Ankauf / Verkauf / Gebühren:** keine identitätsgesicherten Zahlen. Originaleintrag und örtliche Gewerbeidentität/Tätigkeit prüfen; keine spekulative Adresse oder Koordinaten ergänzen.
 
+Die neue Indexspur vom 17.10.2026 konkretisiert den Kandidaten zu **Katja Hartl Schrotthandlung, Reinhartsmais 1**: Creditreform und ein gewerbliches Kleinanzeigen-Angebot nennen denselben Namen/Ort. Ihre Volltexte waren direkt mit HTTP403 gesperrt; die Anbieteridentität und heutige Annahme sind deshalb noch nicht abschließend geprüft, kein Frontmatter-Fill. **Ankauf:** Anzeigentitel behauptet Schrottkauf, ohne Kurse. **Verkauf:** keine Liste. **Gebühren:** separate Container-/Entrümpelungsanzeige mit „VB“, kein fester Tarif. **GEO-Bedarf:** Reinhartsmais 1 erst volltextlich als Betriebs-/Annahmestelle bestätigen; keine Verbindung zur gleichnamigen Lehrkraft annehmen.
+
 ## Timeline
+
+### Recherche 17.10.2026 (Welle 21:00 A)
+
+- [Recherche 17.10.2026: Deutlich konkretere Kandidatenspur: Creditreform-Suchindex führt Katja Hartl Schrotthandlung, Reinhartsmais1, 94209 Regen, Gewerbebetrieb/Altmaterialien; ein gewerbliches Kleinanzeigen-Angebot Wir Kaufen deinen Schrott nennt denselben Namen/Ort und09921/9702966 sowie0175/5678920. Zweite Anzeige Containerdienst & Entrümpelung nennt VB, keinen festen Preis. Beide direkten Abrufe (Creditreform und Ankaufanzeige) HTTP403; weder Profilvolltext noch rechtliche Anbieterangaben daher als geprüft behandelt. Branchenportale nennen zudem abweichende Mobilnummern, nicht zusammenmischen. Keine Frontmatter-Fills aus Indexfragmenten; keine falsche Verknüpfung mit der fachfremden Lehrkraft Katja Hartl. Ankauf: Titel behauptet Kauf, keine materialspezifischen Zahlen; Verkauf: keine Liste; Gebühren: VB für Dienstleistung ist kein Tarif und kein Ankaufkurs. GEO-Bedarf Reinhartsmais1 als neue Kandidatenadresse erst unabhängig volltextlich bestätigen. Quellen: https://firmeneintrag.creditreform.de/94209/8230770206/KATJA_HARTL_SCHROTTHANDLUNG ; https://www.kleinanzeigen.de/s-anzeige/wir-kaufen-deinen-schrott/3151512410-298-5994 ; https://www.kleinanzeigen.de/s-anzeige/containerdienst-entruempelung/3151522754-239-5994 (letztere nur Suchindex).]
 
 ### Recherche 08.10.2026
 

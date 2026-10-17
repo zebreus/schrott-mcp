@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 17.10.2026 — Welle 21:00 B
+
+- [Recherche 17.10.2026: Gegen-Impressum schrottabholung-ankauf.de direkt erneut gelesen: Karlos Prosche, Elisabethstraße 20/44866 Bochum, 0174 8694036. Damit weiterhin keine belegte Zuordnung zum Kölner A.F. Altleben/Alsleben/Frankfurter Str. 59. Zusätzlich im Suchlauf gefundene af-schrott.de/impressum.html direkt gelesen: im extrahierten Text nur Navigation und Bilddateien, kein lesbarer Betreibername/Adressbeleg; kein Alias aus Initialen konstruiert. Ankauf/Verkauf/Gebühren nicht dem Seed zurechenbar; keine Gratiszusage des Bochumer Anbieters übernommen. Frontmatter unverändert, GEO bis Gewerbe-/Aliasbeleg gesperrt. Quellen: https://schrottabholung-ankauf.de/impressum.html ; https://www.af-schrott.de/impressum.html (textliche Abrufgrenze; Bildinhalt nicht ausgewertet).]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Eigene Exaktsuche bestätigt nun einen separaten Verzeichniscluster ausdrücklich A.F. Schrottabholung-Entrümpelung Altleben, Frankfurter Str. 59, 51065 Köln, 0177 6822530 (11880/Cylex/auskunft/Cybo). Schreibweise Altleben ist damit nicht nur ein isolierter Seedfehler; die Identität mit Alsleben bleibt trotzdem unbelegt. Cybo verlinkt schrottabholung-ankauf.de; Startseite und Impressum direkt gelesen: Karlos Prosche, Elisabethstraße 20, 44866 Bochum, 0174 8694036, info@schrottabholung-ankauf.de. Das ist ein abweichender Betreiber/Ort/Telefon, keine bestätigte Nachfolge und keine Altleben-Website. Keine fremden Kontakt-/Leistungsdaten übernommen; auch deren kostenlose Abholung nicht dem Kölner Seed zugeschrieben. Keine zurechenbare Preis-/Gebührenliste. Quellen: https://www.11880.com/branchenbuch/koeln/060440092B113983984/a-f-schrottabholung-entruempelung-altleben.html (Suchlead); https://www.auskunft.de/firma/a.f.-schrottabholung-entr%C3%BCmpelung-altleben/r9231xr1 (Suchlead); https://biashara.cybo.com/DE/k%C3%B6ln/scrap-metal-dealer (Domainlead); https://schrottabholung-ankauf.de/ ; https://schrottabholung-ankauf.de/impressum.html.]
