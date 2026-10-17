@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Taxer GmbH ist im Seed mit zwei widersprüchlichen Straßenangaben aus Verzeichnissen verknüpft; der Betreiber-Domainabruf ist weiterhin gestört. Weder aktive Annahme noch genaue Anschrift sind primär bestätigt. Status `pruefung`; nicht geocodieren.
+Neuer Registerbefund: NorthData führt TAXER GmbH, Augsburg HRB 21987 (früher München HRB 61867), mit Ortsgeschichte München/Denklingen/Germering und metallrecyclingbezogenem Gegenstand als erloschen; Veröffentlichung „Löschung“ vom 23.09.2025, zuvor Liquidation 2022. Das bloße Profil klärt noch nicht, ob der ehemalige Denklinger Hof weiterbetrieben oder übernommen wurde. Keine Gleichsetzung „Domain tot = Hof geschlossen“.
+
+Die Verzeichnisadressen Dr.-Herbert-Quandt-Str. 10 versus Dr.-Manfred-Hirschvogel-Str. 10 bleiben ungeklärt; historische Registerpublikation nennt zusätzlich Mühlstraße 10. Website erneut Timeout. **Ankauf / Verkauf / Gebühren:** keine aktuell zugeordnete Zahlenliste. Status `pruefung`; keine aktuelle Hofadresse und kein GEO ohne Betreiber-/Nachfolgenachweis.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: NorthData-Profil TAXER GmbH direkt gelesen, Augsburg HRB 21987/München HRB 61867, Gegenstand Handel/Entsorgung/Recycling von Schrott und Metallen, Ortsgeschichte Denklingen und Germering. Profil markiert erloschen, Löschung 23.09.2025, Liquidation März 2022; sichtbarer Publikationstitel 28.09.2010 nennt Mühlstraße 10/86920 Denklingen. Einzelabrufe Löschung und Anschrift 2011 zusätzlich per Shell HTTP429, keine Originaltexte daraus behauptet. Erneuter taxer-gmbh.de-Abruf Timeout. Befund erweitert Klärfall über bloßen Straßenwiderspruch hinaus: rechtlichen Abschluss und eventuellen Standortnachfolger prüfen, nicht aus GmbH-Löschung sichere Hofschließung folgern. Keine Frontmatter-Änderung, keine numerischen Ankauf-/Verkauf-/Gebührenpreise, GEO gesperrt. Quellen: https://www.northdata.de/TAXER%20GmbH,%20Germering/Amtsgericht%20Augsburg%20HRB%2021987 ; https://www.northdata.de/?id=5812355554082816 (Abrufgrenze); https://taxer-gmbh.de/ (Timeout).]
 
 ### Recherche 06.10.2026
 

@@ -28,6 +28,10 @@ Die Betreiberwebsite nennt Poncet Horst Schrott-Metalle, Dorfstraße 33, 82418 H
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Leistungen und Impressum wieder direkt lesbar. Betreiber nennt weiterhin Dorfstraße 33, 82418 Hofheim, Horst Poncet, Kontakte und Mo–Fr 07–17; Impressumstext teilweise buchstabenvertauscht, keine HR-Nummer gelesen. Gezielte Websuche nach Poncet auf spatzenhausen.de ohne Ergebnis, nicht als Gewerbe-Negativbeweis gewertet. Kein unabhängiger Zweitbeleg gewonnen. ANKAUF: allgemeiner Altwarenankauf neben Abfallannahme, ohne Zahl; VERKAUF: keine Liste; GEBÜHREN: Container/Krantransport ohne Tarife. Betreiber-Maps-Link enthält einen Place-Punkt und einen anderen Ansichts-Mittelpunkt; ohne Identitäts-/Punktprüfung nichts in lat/lon übernommen. Frontmatter unverändert. Quellen: https://www.poncet-container.de/leistungen ; https://www.poncet-container.de/impressum .]
+
 ### Recherche 15.10.2026 (00:00-Welle B)
 
 - [Recherche 15.10.2026: Vorwellen-403 für Leistungsseite heute überholt: direkt lesbar, erneut Dorfstraße 33/82418 Hofheim, 08847 264, Mobil 0171 5218834, info@poncet-container.de und Mo–Fr 07–17. Seite nennt Materialannahme/Ankauf von Altwaren, Kranabholung größerer Schrottmengen und Container 7–10 m³ sowie 40 m³. Annahme von Altholz I–IV, Mischabfall, Edelmetallen, Alteisen, Bauschutt, Grüngut ist keine Zusage, jede Fraktion zu vergüten oder kostenlos zu entsorgen. Keine numerischen ANKAUF-/VERKAUF-/GEBÜHRENpreise auf Leistungsseite, keine neue Zweitquelle; Frontmatter unverändert. Betreiber verlinkt einen Maps-Place-Punkt, doch Identitäts-/Zweitquellen-Gate bleibt offen; keine Koordinaten aus Kartenansicht oder Kartenmittelpunkt gesetzt. Quelle: https://www.poncet-container.de/leistungen .]

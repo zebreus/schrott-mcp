@@ -29,6 +29,10 @@ Neuer historischer Registerbefund zu Dreßler Altmetallhandel UG: AG Lüneburg H
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Profil HRB205646 erneut vollständig direkt gelesen: Dreßler Altmetallhandel UG, Wienhausen/Lachendorf, historische An-/Verkaufs- und Zerlegungstätigkeit, Publikation23.08.2023 Löschung wegen Vermögenslosigkeit §394Abs.1FamFG. Dies bleibt ein Registerspiegel und enthält keinen Nachweis der Seed-Person Michael oder eines heutigen Nachfolgebetriebs. Keine aktuelle Annahmestelle aus historischem Unternehmensgegenstand ableiten und keinen kombinierten Seed pauschal geschlossen setzen. ANKAUF/VERKAUF/GEBÜHREN ohne aktuelle Zahlen; GEO ohne aktuelle Straßen-/Betreiberbrücke gesperrt. Owner: Originalregister und separate Michael-Gewerbeidentität, keine Gleichsetzung mit Eschede/Wolfgang Dressler. Quelle: https://www.northdata.de/Dre%C3%9Fler%20Altmetallhandel%20UG,%20Wienhausen/Amtsgericht%20L%C3%BCneburg%20HRB%20205646 .]
+
 ### Recherche 15.10.2026 Welle18C
 
 - [Recherche 15.10.2026 Welle18C: NorthData-Unternehmensprofil HRB 205646 erneut direkt gelesen: gelöschte Dreßler Altmetallhandel UG, Wienhausen/Lachendorf; Publikationsübersicht führt 14.06.2023 Nicht mehr Geschäftsführer (eine Person) und 23.08.2023 Löschung wegen Vermögenslosigkeit nach §394 Abs.1 FamFG. Dies ist ein positiver historischer Registerspiegelbefund, keine bloße erfolglose Namenssuche. Aktueller Originalregisterauszug und zweite unabhängige Quelle weiterhin nicht gelesen. Vor allem ist Seed-Zusatz Michael nicht mit der historisch gelesenen Geschäftsführerin Jessica verknüpft; deshalb keine pauschale Schließung des kombinierten Seed-Dossiers und keine Gleichsetzung mit Dressler Eschede; Quelle: https://www.northdata.de/Dre%C3%9Fler%20Altmetallhandel%20UG,%20Wienhausen/Amtsgericht%20L%C3%BCneburg%20HRB%20205646 .]

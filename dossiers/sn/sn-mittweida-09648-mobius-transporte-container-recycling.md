@@ -30,6 +30,10 @@ Weder „Recycling“ im Namen noch allgemeine Entsorgungswerbung beweisen **ver
 
 ## Timeline
 
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Betreiberseiten Entsorgung und Baustoffe direkt erneut gelesen: Entsorgung für Privat/Firmen/öffentliche Institutionen mit kostenlosem unverbindlichem Angebot; Baustofflieferung Kies/Sand/Splitt/Erden/Frostschutz/Rindenmulch/Fertigbeton/Recycling-Verfüllmaterial ohne Zahlentafel. „Kostenlos“ betrifft die Angebotserstellung, NICHT die Entsorgung. ANKAUF: auf diesen Seiten keine vergütete Metallannahme und keine Ankaufsliste; VERKAUF: Baustoffangebot ohne Zahlenpreise; GEBÜHREN: Entsorgung individuell, kein Tarif. Telefon 03727 91667 und Fax 03727 612320 im Footer sauber getrennt. Erreichbarkeit 07–16 Uhr keine belegte Hofannahme. Frontmatter unverändert; GEO benötigt erst Nachweis einer Kundenannahmeadresse, nicht bloß Impressumsanschrift. Quellen: https://mtc-mittweida.de/services/entsorgung/ ; https://mtc-mittweida.de/services/baustoffe/ .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Entsorgungs- und Baustoffseiten des Betreibers erneut direkt gelesen. MTC stellt für Abfallentsorgung ein kostenloses, unverbindliches individuelles Angebot in Aussicht; Baustoffseite nennt Kies, Sand, Splitt, Erden, Frostschutz, Rindenmulch, Fertigbeton ab Werk und Recycling-Verfüllmaterial, jedoch keine numerischen Verkaufspreise. Das Entsorgungsangebot ist eine Gebühren-/Angebotsanfrage und kein Ankaufpreis; weder Metallankauf noch Ankaufspreise werden ausgewiesen. Keine Frontmatter-Ergänzung, Betreiberanschrift bleibt wie dokumentiert Einzelbeleg. Quelle(n): https://mtc-mittweida.de/services/entsorgung/ ; https://mtc-mittweida.de/services/baustoffe/]

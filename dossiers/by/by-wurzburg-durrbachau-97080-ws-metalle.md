@@ -30,6 +30,10 @@ WS-Metalle ist derzeit ein Verzeichnis-Lead, nicht unabhängig bestätigter Schr
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Erneute Namens-/Ortssuche liefert Gelbe Seiten/Telefonbuch mit Karl-Ferdinand-Braun-Str. 3 und Metalle/Metallhalbzeuge, aber keinen qualifizierten Betreiber- oder Registertreffer. Zusätzlich auftauchendes WR Metalle GmbH an Winterhäuser Str. 95 ist eine abweichende Namens-/Adressspur, keine WS-Identität. Deshalb keine Domain, keine Halbzeug-Verkaufsliste und keinen Schrottankauf aus Umgebungstreffern zugeordnet. Im Suchumfang keine verifizierte Ankauf-/Verkauf-/Gebührenpreisliste; GEO gesperrt. Quellen (Suchleads, nicht neu als Primärseiten gelesen): https://www.gelbeseiten.de/gsbiz/18aba902-8360-43c9-9677-7bd80c8b4857 ; https://adresse.dastelefonbuch.de/W%C3%BCrzburg/1-Metalle-WS-Metalle-W%C3%BCrzburg-Karl-Ferdinand-Braun-Str.html ; https://www.mapquest.com/de/bayern/wr-metalle-gmbh-818177355 .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Namens-/Ortssuche und direktes Gelbe-Seiten-Detailprofil liefern den konkreten Adresslead Karl-Ferdinand-Braun-Str. 3, 97080 Würzburg-Dürrbachau, 0931 26059273. Kategorie lautet Metalle und Metallhalbzeuge, nicht ausdrücklich Schrottankauf. Generische Buttons E-Mail/Website im Portal sind keine verifizierte Betreiber-Domain oder Kontaktangabe; im ausgelesenen Inhalt keine passende Domain, keine Preis-/Leistungsdaten. Suchtreffer Telefonbuch/GoLocal/11880 wiederholen Verzeichnisdaten und erfüllen keinen Doppelbeleg. Daher keine Fills, keine bestätigte Annahme, status pruefung. ANKAUF/VERKAUF/GEBÜHREN getrennt ohne numerische Befunde. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/18aba902-8360-43c9-9677-7bd80c8b4857 .]

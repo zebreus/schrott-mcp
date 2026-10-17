@@ -28,6 +28,10 @@ Mehrere nicht verknüpfte Standort-/Identitätsleads: Seed Brieger Weg 3; Gelbe 
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Domain erneut direkt HTTP403, kein Impressum gelesen. GS-Einzelprofil direkt bestätigt nur den bekannten Lead Meckenheimer Str.35/53179 Bonn-Mehlem/0228 18032447/Link khk-metallrecycling.de; Schlagwort Schrottankauf ist Portalinhalt, nicht Betreiberbeleg. Keine unabhängige Verbindung zu Seed Brieger Weg3 oder den Remagen-/Severinsweg-Spuren. Frontmatter und Blockiertstatus erhalten, keine Umzugsbehauptung. ANKAUF/VERKAUF/GEBÜHREN keine verifizierten Kurse/Tarife. GEO: keine Auswahl einer der widersprechenden Anschriften, bevor Rechtsträger und tatsächlicher Annahmeplatz geklärt sind. Quelle(n): https://www.khk-metallrecycling.de/ (403); https://www.gelbeseiten.de/gsbiz/cb6485ca-50dc-4f92-8d0e-4df27797e377 .]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Frischer Gelbe-Seiten-Detailabruf führt „KHK Metallrecycling“, Meckenheimer Str. 35, 53179 Bonn-Mehlem, Tel. 0228 18032447, und verlinkt khk-metallrecycling.de. Das widerspricht dem Seed-Hinweis Brieger Weg 3; die Website war im Direktabruf nicht auswertbar (403), daher ist weder ein Umzug noch Identität des Eintrags bewiesen. Auch Verzeichnisangaben zu weiteren KHK-Bezeichnungen/Adressen bleiben Leads. Keine Frontmatter-Änderung, status pruefung bleibt. Offen: Betreiber, aktuelle Anschrift, Kundenannahme und Material-/Preisbedingungen; keine numerische Ankaufpreisliste oder Gebührenordnung bestätigt. Kandidatenanschrift erst nach Klärung geocodieren. Quelle(n): https://www.gelbeseiten.de/gsbiz/cb6485ca-50dc-4f92-8d0e-4df27797e377 ; https://www.khk-metallrecycling.de/ (Direktabruf 403)]

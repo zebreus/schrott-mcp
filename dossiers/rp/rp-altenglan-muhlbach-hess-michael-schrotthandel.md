@@ -28,9 +28,15 @@ Unaufgelöster Adresskonflikt: **Potzbergstraße 1** (bestehender Seed-/Portalwe
 
 Der vermeintliche Homepage-Link des Schrottplatzverzeichnisses ist ein technischer Fehler, kein Betreiberauftritt. Aktuelle Annahme, Öffnungszeiten und Preise bleiben ungeklärt; keine neuen Frontmatter-Füllungen.
 
+Neu gefunden: Eigenwerbung „M.Hess Schrotthandel“ in einer Kusel-Altenglan-Broschüre nennt die bereits bekannte Mobilnummer und E-Mail sowie Schrott-/Metall-/Altfahrzeugentsorgung. Die Anzeige ist undatiert und enthält keine eindeutig zugehörige Straße. Bahnhofstraße 58 im selben Seitenextrakt gehört zur Bauunternehmung Drees, nicht zu Hess. Der Adresskonflikt ist damit nicht gelöst.
+
 **Preisprüfung:** keine belegte Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung. **Geocoding:** weder Potzbergstr. 1 noch Hoffeldstr. 14 als heutige Betriebs-/Annahmestelle festlegen; beide bleiben ungeprüfte Kandidaten mit identischer Verzeichnis-Telefonnummer.
 
 ## Timeline
+
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Eigenständige Suche findet erstmals M.Hess-Werbeeintrag auf S. 62 der „Image & Tourismus Broschüre Kusel-Altenglan“; Seite direkt gelesen: „M.Hess Schrotthandel“, 0177 7714091, MichaelHess72@web.de, Entsorgung von Schrott/Metall/Altfahrzeugen sowie Entrümpelungen/Haushaltsauflösungen. Kontaktdaten passen zu alten Portal-Leads; Eigenwerbung in Drittmedium mit unbekanntem Publikationsdatum, keine aktuelle Standortbestätigung und keine unabhängige zweite Identitätsquelle. Unmittelbar folgende Bahnhofstr. 58/Tel. 06381 5529 ist Drees-Bauanzeige, keinesfalls Hess-Adresse. Frontmatter unverändert; nicht mit Hess Entsorgung in Deißlingen verbinden. ANKAUF: Entsorgungswerbung ohne Vergütung/Kurs; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. GEO: Potzbergstr. 1 versus Hoffeldstr. 14 weiterhin beim Betreiber/Gewerberegister auflösen. Quelle: https://www.findcity.de/images_flipbook/66869c/62 (Direktabruf); https://www.hess-entsorgung.de (nur Suchauszug, Fremdbetrieb).]
 
 ### Recherche 08.10.2026
 

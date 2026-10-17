@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnis-Kandidatin Beate Farruggia, Kasseler Straße 17, 34630 Gilserberg, Telefonlead 06696 7598. Keine verifizierte Betreiberwebsite oder aktuelle Gewerbe-/Registerbestätigung. Das Schrottplatzportal hat keine erfasste Leistungsbeschreibung und keinen funktionierenden Betreiberlink. Daher weder Annahmeangebot noch E-Schrott-Leistung oder Vergütung allein aus Portalrubriken ableiten. Keine Preislisten und kein freigegebener GEO-Punkt.
 
 ## Timeline
+
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Gegenüber regionaler Suchliste nun Schrottplatz-Info-Detail direkt gelesen: Kasseler Str. 17/34630, 06696 7598; Angebot/Leistungen nicht erfasst, Öffnungszeiten unvollständig. „Zur Homepage“ enthält PHP-Deprecated-Fehler statt Betreiber-URL, somit kein Betreiberfund. Suchauszug von schrottplatz.org bewirbt E-Schrott-Dienstleistung, aber ohne qualifizierte Betreiberautorschaft; keine Annahme-/Materialfreigabe daraus. ANKAUF/VERKAUF/GEBÜHREN: jeweils keine zuordenbare numerische Liste. Identität, aktuelle Gewerbeaktivität und Adresse vor GEO prüfen, keine Fills. Quellen: https://www.schrottplatz-info.de/schrottplatz/Gilserberg/Farruggia-Beate-Schrotthandel (direkt); https://www.schrottplatz.org/gilserberg/schrott-farruggia-beate-schrotthandel-aYEPZK.html (Suchlead).]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

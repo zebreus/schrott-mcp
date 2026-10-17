@@ -28,6 +28,10 @@ N-S-R Recycling in Griesheim bleibt verzeichnisgestützt. Vorhandene Sterngasse 
 
 ## Timeline
 
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Eigenständige Suche „N-S-R Recycling“/Griesheim findet wiederum Gelbe-Seiten-Lead Sterngasse 2/64347/0152 27030059 und keine neue qualifizierte Betreiber-/Registerquelle. Weitere Suchergebnisse betreffen MS Recycling Frankfurt-Griesheim oder internationale NSR-Firmen; deren Ankauf-/Containerleistungen nicht auf N-S-R übertragen. Keine neuen Öffnungszeiten-/Kontaktfills; vorhandene Ausnahmefills bleiben als unsichere Altwerte dokumentiert, keine neue Clear-Direktive ohne Owner-Abgleich. ANKAUF/VERKAUF/GEBÜHREN: keine N-S-R zugeordnete Liste. GEO: rechtlicher Betreiber, aktuelle Gewerbeanschrift und tatsächlicher Kundenannahmepunkt zuerst prüfen; kein Pin ergänzt. Quellen (Suchauszüge): https://www.gelbeseiten.de/gsbiz/efa82b50-4c32-4823-8057-35722af7aa2b ; https://www.msr-frankfurt.de/en/about-us (ausdrücklich Fremdfirma).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling/Schrott

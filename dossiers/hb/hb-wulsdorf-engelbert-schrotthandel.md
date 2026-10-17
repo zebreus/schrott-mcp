@@ -28,6 +28,10 @@ Verzeichnisse liefern zwei nicht deckungsgleiche Kontaktprofile am Osterwiesenwe
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: GS-Einzelprofil live gelesen: Engelbert Schrotthandel, Osterwiesenweg11/27572 Bremerhaven/0176 85118210, Kategorien Entsorgung/Gehwegreinigung/Schrotthandel; kein qualifizierter Betreiberlink oder Impressum. Der Eintrag löst die bestehende GmbH-/Telefonabweichung nicht auf. Wulsdorf ist Stadtteilbezeichnung; keine unbelegte Betreiber-/Kontaktübernahme oder Stadt-/PLZ-Korrektur nur aus Aggregator. ANKAUF nicht allein aus Branchenrubrik bestätigt; ANKAUF/VERKAUF/GEBÜHREN ohne Zahlen. GEO: zunächst Profile/rechtlichen Inhaber und tatsächliche öffentliche Annahme klären, keine Portal-Kartenkoordinaten übernehmen. Quelle: https://www.gelbeseiten.de/gsbiz/35b67f30-35d2-4a6d-a4c4-5707ae2a98c5 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (klein)

@@ -31,6 +31,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Neue Namens-/Ortssuche liefert Delis Marco erneut nur als Gelbe-Seiten-/Cybo-Lead; keine gelesene qualifizierte Betreiber-/Registerquelle zur Auflösung Soldanstraße 8 versus Bürgermeister-Haas-Straße 18. Die ebenfalls gefundene Betreiberseite „Schrotthandel Wagner … Alsfeld“ ist ein anderer Anbieter (Wagner, andere Rufnummer), kein Delis-Beleg und kein Grund zur Websiteverknüpfung. Clear-Direktiven/Historie unverändert. ANKAUF/VERKAUF/GEBÜHREN: keine Delis zugeordnete numerische Liste; GEO: Adress- und Betreiberklärung zuerst, vorhandene DB-Pins ggf. Owner auditieren. Quellen/Leads (Suchauszüge): https://www.gelbeseiten.de/gsbiz/e276495b-bafb-4951-a874-92e9a09f3729 ; https://mk.cybo.com/DE/alsfeld/scrap-metal-dealer ; https://www.schrotthandel-wagner-marburg.de/schrott_hessen/schrotthandel-schrottankauf-schrotthandler-alsfeld (Fremdanbieter).]
+
 ### Recherche 11.10.2026
 
 - [Owner-Clear 11.10.2026: Telefon und Öffnungszeiten werden wegen der nachfolgend dokumentierten unqualifizierten Verzeichnisbelege explizit über clear_fields zurückgenommen. Altwerte/Historie erhalten; kein Schließungsnachweis. Bestehende DB-Adresse/GEO werden durch diese Direktive nicht verändert.]

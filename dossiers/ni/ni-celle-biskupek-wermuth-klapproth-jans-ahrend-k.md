@@ -30,6 +30,10 @@ Ankauf: in der Seed-Tabelle behauptet, nicht unabhängig belegt; keine Preise od
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Biskupek-Profil direkt erneut gelesen: HRA100063 Lüneburg, Harburger Heerstr.4c/29223 Celle, i.L., Liquidator2020. Übersicht enthält zusätzlich Insolvenzverfahrensspuren 13.11.2015/18.06.2019 zum Aktenzeichen34 IN81/15; Einzeltext2019 nicht vollständig frei gelesen, Verfahrensausgang daraus nicht ergänzt. Kein Beweis heutiger Annahme/Schließung der übrigen vier. Ahrend-GS-Einzelseite separat direkt gelesen: Steindamm1/29225 Celle/0170 1517685, ohne Betreiberwebsite; bleibt Aggregatorlead und kein Möbelmarken-Match. ANKAUF/VERKAUF/GEBÜHREN: keine gemeinsame oder individuell verifizierte Preisliste. GEO: Sammelzeile hat keinen einheitlichen Standort; spätere Einzelprüfung/Splitting nur durch Owner, hier keine zusätzlichen Dossiers angelegt. Quelle(n): https://www.northdata.de/Wilhelm%20Biskupek%20Altstoffe%20GmbH%20%26%20Co%C2%B7%20KG,%20Celle/Amtsgericht%20L%C3%BCneburg%20HRA%20100063 ; https://www.northdata.de/?id=4801435896643584 (nur beschränkter Text); https://www.gelbeseiten.de/gsbiz/46856cf5-a20d-4b72-8165-2093a16333ad .]
+
 ### Registervertiefung 08.10.2026
 
 - [Korrektur 08.10.2026: Frühere pauschale Aussage nur Verzeichnisbelege überholt für Biskupek: Northdata vollständig gelesen, Wilhelm Biskupek Altstoffe GmbH & Co.KG, LüneburgHRA100063, HarburgerHeerstr.4c,29223Celle, Kennzeichnung i.L.; Liquidation30.12.2015, Liquidator Nadim Ahmad29.09.2020. Eintragung31.10.2005 nennt Biskupek Vermögensverwaltung GmbH als persönlich haftende Gesellschafterin; der bisherige Vermögensverwaltungs-Treffer hat also einen rechtlichen Zusammenhang, belegt aber keine aktuelle Annahme. Keine automatische Schließung aller fünf, keine Betriebsfortführung/Nachfolger behauptet. description präzisiert, Status pruefung und leere Sammelkontakte bleiben. Quelle: https://www.northdata.de/Wilhelm%20Biskupek%20Altstoffe%20GmbH%20%26%20Co%C2%B7%20KG,%20Celle/Amtsgericht%20L%C3%BCneburg%20HRA%20100063]

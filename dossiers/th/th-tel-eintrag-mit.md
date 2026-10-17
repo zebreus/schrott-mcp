@@ -28,6 +28,10 @@ Das Seed-Fragment ist keinem Betrieb zuzuordnen: „Eintrag mit“ ist kein iden
 
 ## Timeline
 
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Eigenständige exakte Websuche nach „Eintrag mit“/„03641“/Schrott/Jena ohne Treffer in der benutzten Suchintegration. Das ist nur ein begrenzter Suchbefund und kein Register-Negativnachweis. Die Primärlücke bleibt das fehlende Subjekt des Prosaimports; weitere Händlersuche anhand einer Vorwahl kann keinen künstlichen Firmennamen heilen. Keine Umbenennung in einen Jenaer Betrieb, kein Merge, keine Frontmatter-Fills. ANKAUF/VERKAUF/GEBÜHREN mangels identifizierter Firma nicht zuordenbar; GEO ausgeschlossen, bis Originalimport einen realen Rechtsträger und Standort belegt. Quellenbasis: dokumentierter Seed-/Provenienzbefund in diesem Dossier; Websuche 16.10.2026 (keine qualifizierende Zielquelle).]
+
 ### Provenienzprüfung 08.10.2026
 
 - [Recherche 08.10.2026: Repo-Gegenprüfung statt weiterer Suche nach einem künstlichen Firmennamen: Die exakte Fragmentkombination ist nur in diesem Dossier erhalten; das in der Importhistorie vorausgesetzte ursprüngliche Register-/Tabellensubjekt ist hier nicht rekonstruierbar. Dieses Ergebnis gilt für den geprüften Markdown-Korpus, nicht für alle früheren Datenstände. `provenance_origin: prose` und `name: Eintrag mit` bleiben aus Gründen der Slug-/Historienstabilität erhalten, sind aber kein Betriebsbeleg; city unbekannt ist ausschließlich Schema-Platzhalter. Nicht mit dem Jenaer Heiko-Schmidt-Dossier zusammenführen, nur weil Vorwahl 03641 passt. ANKAUF/VERKAUF/GEBÜHREN: mangels identifizierter Firma nicht zuordenbar, nicht als preislose reale Annahmestelle darstellen. Offener Primärschritt: Originalimport/Registernummer beschaffen. Quelle: dieses Dossier, Importiert (Seed-Stand 2026-09-30), repo-interne Textsuche 08.10.2026; Validierungsbezug crates/ingestion/src/seed_traders.rs .]

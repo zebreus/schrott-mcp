@@ -28,6 +28,10 @@ RSO Schrotthandel bleibt ein Verzeichnis-Lead für Finsterwalder Str. 17B, 03253
 
 ## Timeline
 
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: 11880-Detail direkt gelesen: RSO, Finsterwalder Str. 17 B/03253, 035322 510774, Branche Altmetallrecycling, Website/E-Mail/Öffnungszeiten zum Hinzufügen leer. Seite unterscheidet „aktualisiert am 15.10.2026“ von „Eintragsdaten vom 24.06.2026“; ersteres ist kein Betreiber-Lebenszeichen. Herkunftserklärung nennt Telekommunikationsdaten, Eigenrecherche und Nutzerfeedback; keine konkret nachgewiesene RSO-Betreiberbestätigung. Ungezielte exakte Websuche lieferte überwiegend sachfremde RSO-Abkürzungstreffer, kein Gegenbeweis zur Existenz. ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenliste, allgemeiner FAQ-Text zur Preisspanne ist kein Händlerpreis. 17B nicht mit amtlichem Nachbar 17d gleichsetzen; heutiger Betreiber und Annahmeadresse vor GEO weiter offen. Keine Frontmatter-Fills. Quelle: https://www.11880.com/branchenbuch/doberlug-kirchhain/060440092B114056021/rso-schrotthandel.html .]
+
 ### Recherche 15.10.2026
 
 - [Recherche 15.10.2026: Amtliche Gegenprüfung statt Übernahme weiterer Verzeichnisse: Abfallwirtschaftsplan Brandenburg, Fortschreibung 2023, Teilplan Gefährliche Abfälle vom 08.07.2024, Anhang 9.2, führt Autoverwertungsanlage Autoverwertung Torsten Schulze an Finsterwalder Straße 17 d, 03253 Doberlug-Kirchhain (lfd. Nr. 75 bzw. 66 in den zwei Anlagentabellen). Betreiber-Kontaktseite yellow-tec Motorsport nennt Torsten Schulze, dieselbe Nr. 17 d, Telefon 035322 34424. Damit ist der Nachbar separat amtlich und durch Selbstauskunft greifbar, aber keine RSO-Identität oder Betreiberkette belegt. Die bisherige Kurzform „Schulze Nr.17“ wird hier auf 17d präzisiert, RSO-Frontmatter 17B nicht umgeschrieben. Im gelesenen Plan kein RSO-Namensfund; wegen begrenzten sachlichen Geltungsbereichs gefährliche Abfälle und Datenalter weder Negativnachweis für Schrotthandel noch Schließungsbeweis. Quellen (Abruf 15.10.2026): https://bravors.brandenburg.de/verwaltungsvorschriften/awp_gefaehrliche_abfaelle_2024 (Anhang 9.2); https://yellow-tec.de/ (Betreiber-Kontakt).]

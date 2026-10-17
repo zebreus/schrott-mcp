@@ -28,7 +28,13 @@ Ein direkt abgerufenes Gelbe-Seiten-Profil führt „Schrott Metall Handel Dechm
 
 **Preise:** ANKAUF: keine bestätigten Annahmebedingungen oder Preisangaben. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife.
 
+Neue Gegenprobe verschärft den Standortkonflikt: Schrottplatz-Info nennt **Daimlerstraße 8** und **0261 98884728**, gegenüber Handwerkerstraße 47/Nummer …727 bei Gelbe Seiten. Kein Umzug und keine zwei Betriebsstätten belegt. Beide Adressen bleiben Kandidaten, kein GEO; keine Verbindung zu Dechmann Prüm oder anderen Koblenzer Händlern ableiten.
+
 ## Timeline
+
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Eigenständige Namenssuche findet abweichenden Schrottplatz-Info-Lead; Detail direkt gelesen: Dechmann Schrott Metall Handel, Daimlerstr. 8/56070 Koblenz Industriegebiet, 0261 98884728. Homepage-Link ist PHP-Deprecated-Fehler; Leistungen/Öffnungszeiten nicht erfasst. Widerspricht Handwerkerstr. 47/0261 98884727 im früheren Gelbe-Seiten-Befund. Telefonbuch-Suchauszug führt nun ebenfalls Handwerkerstr. 47; frühere Nichttreffer daher keine belastbare Negativaussage. Kein Betreiber-/Registerbeleg und keine Verlegung bewiesen; keine Fills, kein Prüm-Merge. ANKAUF/VERKAUF/GEBÜHREN: keine Listen; andere Koblenzer Anbieter mit Preisen/Abholgebühren nicht zuordnen. GEO bis Klärung beider Adressen/Nummern gesperrt. Quellen: https://www.schrottplatz-info.de/schrottplatz/Koblenz/Dechmann-Schrott-Metall-Handel (direkt); https://adresse.dastelefonbuch.de/Koblenz/3-Dechmann-Schrott-Metall-Handel-Koblenz-Handwerkerstr.html (Suchauszug); https://www.gelbeseiten.de/gsbiz/b7fda703-64ae-4126-ba97-ad3385d01602 (Suchauszug).]
 
 ### Recherche 13.10.2026
 

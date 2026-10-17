@@ -28,6 +28,10 @@ Der neue Registerspiegelbefund identifiziert einen historischen Rechtsträger: W
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Historisches Profil direkt erneut gelesen: FIS Brokerage GmbH/Walter Ritscher GmbH, Hamburg HRB12088/EUID DEK1101R.HRB12088, Gegenstand erlaubnisfreie Schiffsvermittlung, Publikation Löschung02.07.2014. Zusätzlich zeigt Übersicht Anschrift17.01.2012, aber freie Profiladresse nur Hamburg; die alte Ferdinandstraße32 wird dadurch nicht verifiziert. Keine unabhängige Adressbrücke oder heutiger Annahmebetreiber, daher weder Rename/Schließung des Seeds noch PLZ-Fill. ANKAUF/VERKAUF/GEBÜHREN: historische Registerdaten sind keine heutige Preisliste. GEO: City-Bürolead nicht als Schrottplatz freigeben. Nächster Schritt Originalregister/Anschriftspublikation und aktueller Standortnachfolger. Quelle: https://www.northdata.de/Walter+Ritscher+GmbH,+Hamburg .]
+
 ### Recherche 14.10.2026 (18:00-Welle C)
 
 - [Recherche 14.10.2026: Erstmals kongruenter historischer Rechtsträger im direkten NorthData-Abruf gefunden: Alias Walter Ritscher GmbH → FIS Brokerage GmbH, AG Hamburg HRB 12088, EUID DEK1101R.HRB12088. Die einzeln gelesene Bekanntmachung vom 30.10.2007 nennt den Beschluss 18.10.2007 zur Umfirmierung und als neuen Gegenstand erlaubnisfreie Vermittlung von Schiffen, schwimmenden Fahrzeugen, Schiffsausrüstung und Schiffsneubauten. Profil führt Löschung 02.07.2014; Löschungsdetail Premium-gesperrt, kein amtlicher Originalabzug in dieser Welle. Quellen desselben Registerspiegels sind nicht zwei unabhängige Belege; Quelle(n): https://www.northdata.de/Walter+Ritscher+GmbH,+Hamburg ; https://www.northdata.de/?id=5935718 ; https://www.northdata.de/?id=143775011 .]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+R. Peters Schrotthandel, Buscher Weg 51, 41751 Viersen-Dülken, 02162 52767 ist weiterhin nur durch 11880 belegt. Die früher ausnahmsweise gefüllten Stammdaten sind ausdrücklich unbestätigte Legacy-Leads, nicht nach heutiger README-Regel verifiziert. Kein Betreiberauftritt, Annahme-/Abholmodell oder unabhängiger Register-/Gewerbebeleg. Status `pruefung`; keine Ankauf-, Verkaufspreisliste oder Gebühren gefunden. GEO erst nach Betreiber-/Adressbestätigung, nicht allein wegen vorhandener Straßenfelder.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Exakte Namens-/Adresssuche ergibt nur 11880; Detailseite direkt gelesen: R. Peters Schrotthandel, Buscher Weg51/41751 Viersen-Dülken/02162 52767, keine Website, E-Mail oder Öffnungszeiten. Eintragsdaten29.06.2021, Aktualisierung03.10.2026 belegt keine heutige Händleraktivität. Frühere Ausnahme-Einzelfills bleiben als Legacy-Werte erhalten, sind ausdrücklich kein zulässiger qualifizierter Standortbeleg. Kein neuer Fill oder Aktivstatus. ANKAUF/VERKAUF/GEBÜHREN ohne Zahlen; generische Preisrange-FAQ nicht verwerten. GEO: entgegen der alten unmittelbaren Geocodierungsnotiz erst unabhängige Betriebs-/Adressbestätigung. Quelle: https://www.11880.com/branchenbuch/viersen/120674719B101639785/r-peters-schrotthandel.html .]
 
 ### Recherche 02.10.2026
 

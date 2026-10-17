@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mobiler Ankaufs-/Abholdienst mit Betreiber-Einzelbeleg A. Lahib, Tulpenstraße 23, Hamm; kein bestätigter Publikumsannahmeplatz. Startseite bietet Abholung für Privat und Gewerbe nach Einigung/Termin an, nennt aber keine numerischen Materialkurse. „Kostenlos“ bezieht sich auf die beworbene vereinbarte Schrottabholung, nicht nachgewiesen auf jede Entrümpelung oder Demontage. Schwesterseiten und gleiche Rufnummer sind kein unabhängiger Identitätsbeleg. Kontakte bleiben bis zum qualifizierten Zweitbeleg ungefüllt; Einsatzgebiet nicht als Hofpunkt geocodieren.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Root und Impressum direkt gelesen: A. Lahib, Tulpenstraße 23, 59063 Hamm, 01522-422-4277; weiterhin keine Registerkennung und kein qualifizierter Zweitbeleg. Startseite nennt ausdrücklich Privatkunden/Gewerbe, Kupfer, Messing, Aluminium, Edelstahl sowie weitere Altmetalle und Terminvereinbarung nach Einigung. ANKAUF: individuelles Angebot, keine EUR/kg-Liste. VERKAUF: keine Liste im gelesenen Inhalt. GEBÜHREN: kostenlose Schrottabholung und ohne Extrakosten beworben; keine belastbare allgemeine Entrümpelungs-/Demontagetarifordnung oder Mindestmengenangabe. Alles Betreiber-Selbstauskunft, keine neue Frontmatter-Freigabe. GEO: Postanschrift nicht mit öffentlichem Platz gleichsetzen. Quelle(n): https://schrottankauf-hamm.de/ ; https://schrottankauf-hamm.de/impressum/ .]
 
 ### Recherche 02.10.2026
 

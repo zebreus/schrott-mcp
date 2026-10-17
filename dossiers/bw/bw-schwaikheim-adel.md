@@ -30,6 +30,10 @@ Für „Adel“ in Schwaikheim ist weiterhin nur ein Branchenverzeichnis-Lead au
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Örtliche-Detail direkt neu gelesen, Adel Hosseini Autoverwertung, Heinkelstr. 4/71409, 07195 51565, Mo–Do 08–16/Fr 08–13 weiterhin nur Portalangaben. Rezensionen stammen ausdrücklich von 11880 (2023); das ist keine unabhängige Betreiberquelle und kein aktuelles Zertifikat. Verlinkter Google-Place-Punkt nicht als verifizierte Hofkoordinate übernommen. Keine Betreiber-/Register-/Kommunalbestätigung gewonnen, deshalb keine Fills oder Aktivierung. ANKAUF/VERKAUF/GEBÜHREN keine Zahlenlisten; Bewertungen zu Teilepreisen sind keine publizierte Verkaufspreisliste. Quelle (Lead): https://www.dasoertliche.de/Themen/Adel-Hosseini-Autoverwertung-Schwaikheim-Heinkelstr .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung

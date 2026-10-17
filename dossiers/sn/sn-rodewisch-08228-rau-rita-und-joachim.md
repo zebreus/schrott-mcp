@@ -26,7 +26,13 @@ provenance_origin: table
 
 Die Seed-Zuordnung „Rau Rita und Joachim“ als Schrott-/Kompostbetrieb bleibt ungeklärt. Bisherige Aggregator-Leads nennen Wernesgrüner Str. 29; eine neue Suchmaschinenfundstelle nennt stattdessen Röthenbacher Str. 2 und eine abweichende Telefonnummer. Keiner der Einträge ist ein Betreiber-, Register- oder kommunaler Identitätsbeleg. Keine Adresse, Kontaktangabe, Annahmeleistung oder Preis ins Frontmatter übernehmen; keine Schließung oder Gleichsetzung mit anderen Rodewischer Händlern ableiten.
 
+Die Portale unterscheiden inzwischen erkennbar **„Büro“** (Wernesgrüner Straße 29) und **„Platz“** (Röthenbacher Straße 2). Das ist eine plausible Erklärung statt zwingender Umzugswiderspruch, aber nur eine Portalhypothese. Ob Büro und Platz aktuell zum selben Betreiber gehören, bleibt primär zu bestätigen; Büroanschrift nicht als Annahmestelle geocodieren.
+
 ## Timeline
+
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Neue Namenssuche unterscheidet die Labels „Büro für Schrotthandel und Kompostierung“ an Wernesgrüner Str. 29 (schrottplatz.org, Suchauszug; 03744 33670 Telefon/33671 Fax) und „Platz Schrotthandel“ an Röthenbacher Str. 2. Letzteren Schrottplatz-Info-Eintrag direkt gelesen: 03744 436154, Angebot/Leistungen nicht erfasst, Zeiten unvollständig, Homepage-Link PHP-Deprecated-Fehler statt Betreiberseite. Damit zwei Rollen plausibel, aber kein belegter Doppelstandort/Umzug und keine heutige Betreiberidentität. Gelbe-Seiten-Suchauszug führt 33671 ohne sichere Telefon-/Faxtrennung, nicht übernehmen. ANKAUF: kein Kurs; VERKAUF: keine Kompost-/Materialpreise; GEBÜHREN: keine Grünabfalltarife. GEO erst mit qualifiziertem Beleg des aktuellen Platzes, Büro nicht als Annahmestelle behandeln. Quellen: https://www.schrottplatz-info.de/schrottplatz/Rodewisch/Rau-Rita-und-Joachim-Platz-Schrotthandel (direkt); https://www.schrottplatz.org/rodewisch/rita-rau-und-joachim-rau-4855046.html (Suchauszug); https://www.gelbeseiten.de/gsbiz/c64bf040-21f2-4746-a265-fb05994f5ae2 (Suchauszug).]
 
 ### Recherche 15.10.2026 (12:00-Welle B)
 

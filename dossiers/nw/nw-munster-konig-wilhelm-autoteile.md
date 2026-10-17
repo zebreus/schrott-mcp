@@ -30,6 +30,11 @@ Mehrere Seiten derselben Website sind keine unabhängigen Quellen. Kein vollstä
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Betreiber-Autoverwertungsseite erneut direkt gelesen: Verwertungsnachweis, optionale Abmeldung und Abschleppabholung in Münster/Umkreis; günstige Abholpauschale ohne Zahl, teilweise kostenfrei je nach KFZ/Zustand/Entfernung. Kein pauschales kostenloses Schrottabholen und kein aktuelles Zertifikat unabhängig eingesehen. ANKAUF weiterhin keine numerischen Fahrzeug-/Metallkurse; VERKAUF betrifft Teile-Shop, nicht Schrottankauf. Qualifizierter Zweitbeleg/Standortfreigabe und GEO bleiben offen. Quelle: https://koenig-wilhelm.com/Autoverwertung .]
+- [Recherche 16.10.2026: Neue GEBÜHREN-/VERKAUF-Konditionsquelle separat direkt gelesen: Versandinformationen nennt inklusive gesetzlicher Mehrwertsteuer Paketversand DE bis31,5kg kostenlos, Kleinpaket DE bis1000g kostenlos, Sperrgut DE bis31,5kg kostenlos; Spedition DE bis50kg80EUR, bis150kg120EUR, bis200kg140EUR, bis250kg160EUR, bis300kg170EUR, bis350kg180EUR, bis400kg190EUR. Beispiel Ausland Österreich Paket bis2kg19EUR. Gebrauchte Teile, bei denen auch Versand/Sperrgut/Spedition angeboten wird, erhalten laut Text10% Selbstabholrabatt; nur Selbstabholung ohne Versand dagegen ohne Rabatt. Abschließende Versandkosten erst im Warenkorb; keine Bestellung ausgeführt. Das sind Teileverkaufs-/Versandkonditionen, KEINE Metallabholkosten oder Altfahrzeugentsorgungsgebühren. Kein Seiten-Veröffentlichungsdatum sichtbar. Quelle: https://koenig-wilhelm.com/Versandinformationen .]
+
 ### Recherche 08.10.2026 — Feedback #5392
 
 - [Recherche 08.10.2026: Impressum nennt König Wilhelm Autoteile - Einbrodt & Schubert GbR, Dahlweg 122, 48153 Münster, Telefon 0251 791170, Fax 0251 790631, Gesellschafter Dirk Einbrodt und Ulrich Schubert, USt-ID DE126103793. Anfahrtseite nennt gleiche Adresse und Öffnungszeiten Mo-Fr 09:00-12:30 und 13:00-17:00. Cloudflare-E-Mail-Schutzlink auf Anfahrt/Autoverwertung decodiert zu info@koenig-wilhelm.com; diese Adresse ist Betreiberquelleninhalt, keine aus Domain erratene Adresse. Qualifizierter unabhängiger Vollbeleg fehlt, daher noch kein Frontmatter-Fill. Quelle: https://koenig-wilhelm.com/Impressum ; https://koenig-wilhelm.com/Anfahrt ; https://koenig-wilhelm.com/Autoverwertung .]

@@ -28,6 +28,10 @@ Erheblicher Identitäts-/Branchenklärfall, nicht einfach ein Händler ohne Webs
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: AuDie-Impressum erneut direkt gelesen: AuDie GmbH, Ludwig Terstriep, Esteresch 6, HRB5932 Coesfeld; Navigation Terminanfrage24/Kosten-Nutzen/Werbung, Copyright2007-2008. Das ist kein Beleg aktuellen Altmetallhandels und keine Bestätigung der im Seed vermuteten AuDie24-Registeridentität. Namensähnlichkeit/gleiche Adresse ersetzt die Betreiberkette nicht; Kontakte/Domain nicht zugeordnet. ANKAUF/VERKAUF/GEBÜHREN: keine Schrott-Preisquelle; Software-Kosten-Nutzen-Link nicht als Metallpreisliste verwenden. GEO Esteresch6 bis Branchen-/Rechtsträgerklärung zurückstellen. Quelle: http://www.audie24.com/CompanyDetails.html .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Erneuter Abgleich des 11880-Leads „AuDie 24 GmbH“/Altmaterial- und Schrotthandel an Esteresch 6 mit den getrennten Register-/Website-Spuren: HRB 16360/Feuerbestattung Nottuln ist 2025 gelöscht und war dem Krematorium zugeordnet; audie24.com-Impressum nennt AuDie GmbH, HRB 5932, Software/Termindienste. Der Verzeichnistreffer stellt keine Rechtsträger- oder Betreiberkette her und belegt keinen Schrottbetrieb. Keine Frontmatter-Änderung, keine Preise oder Gebühren. Esteresch 6 wegen Identitätskonflikt nicht geocodieren. Quelle(n): https://www.11880.com/branchenbuch/gronau-westfalen/060440090B73359953/audie-24-gmbh.html ; https://www.northdata.de/Feuerbestattung%20Nottuln%20GmbH,%20Gronau/Amtsgericht%20Coesfeld%20HRB%2016360 ; http://www.audie24.com/CompanyDetails.html]

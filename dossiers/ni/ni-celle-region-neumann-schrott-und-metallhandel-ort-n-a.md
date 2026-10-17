@@ -29,6 +29,10 @@ Für den Seed-Namen „Neumann Schrott- und Metallhandel“ bleibt die Celle-Zuo
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Paginierung der Telefonbuch-Entsorgungsübersicht tatsächlich verfolgt: Kandidat Neumann Entsorgungen und Entrümpelungen steht auf Seite2, Eulenpfad23/29225 Celle. Das liefert einen reproduzierbaren direkten Lead statt nur Suchauszug, aber weiterhin keinen Betreiber-/Gewerbebeleg für den Seed und keine Verknüpfung der abweichenden Telefonnummern. Frühere Nummer0151 70535315 nicht aus Seed0157 0535315 rechnerisch korrigieren. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste; Entrümpelung nicht automatisch Metallankauf. GEO weiter gesperrt; Eulenpfad weder bestätigte Seedadresse noch belegter Annahmeplatz. Quelle(n): https://www.dastelefonbuch.de/Branchen/Entsorgungsbetriebe/Celle ; https://www.dastelefonbuch.de/Branchen/Entsorgungsbetriebe/Celle/2 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

@@ -30,6 +30,10 @@ Beide Ortsseiten bleiben getrennt zu prüfen: Ein Portal führt Rudolf Schwanzer
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Betreiberkontakt und Leistungsseite erneut direkt gelesen: Gewerbegebiet Natzing 3, 83125 Eggstätt, 08056 903690, r.schwanzer@web.de, Mo–Fr 07:30–12/13–17. Neu präzisiert: Minicontainer ausdrücklich zur Vermietung, Bring-/Abholdienst mit LKW-Kranwagen; nicht als kostenlose Abholung interpretieren. VERKAUF von Nutzmaterial/Heimwerkerbedarf und Kfz-Teilen ohne Zahlen, ANKAUF ohne bezifferte Kurse, GEBÜHREN ohne Tarife. Weiter keine belegte Umzugskette vom Rimstinger Lead Westernach 4; keine Eggstätter Kontakte/Adresse in diesen Seed und keine Koordinaten übernommen. Quellen: https://www.schwanzer-entsorgung.de/kontakt ; https://www.schwanzer-entsorgung.de/leistungen .]
+
 ### Recherche 15.10.2026 (00:00-Welle B)
 
 - [Recherche 15.10.2026: Gegenseite des Ortskonflikts konkretisiert: Schrottplatz.org-Detail direkt gelesen, Rudolf Schwanzer, Westernach 4, 83253 Rimsting, 08051/2606, Fax 08051/64815. Nur Portal-Lead, keine Betriebsstättenbestätigung. Betreiber-Leistungen und Impressum separat direkt gelesen: Eggstätt Gewerbegebiet Natzing 3, 08056 903690, Nutzmaterial/Kfz-Teileverkauf, Minicontainer und LKW-Kranwagenservice, Altautoannahmestelle als Eigenaussage; Footer Mo–Fr 07:30–12:00/13:00–17:00. Impressum extrahiert teils buchstabenvertauscht, keine Registerkette Westernach→Natzing gewonnen. Betreiberseite beweist Eggstätter Angebot, nicht Identität des Rimstinger Seeds; alle Frontmatter-Felder unverändert. ANKAUF/VERKAUF/GEBÜHREN ohne Zahlen, keine kostenlose Abholung aus preiswert abgeleitet. GEO weiter gesperrt. Quellen: https://www.schrottplatz.org/rimsting/rudolf-schwanzer-3670482.html (Lead); https://www.schwanzer-entsorgung.de/leistungen ; https://www.schwanzer-entsorgung.de/impressum .]

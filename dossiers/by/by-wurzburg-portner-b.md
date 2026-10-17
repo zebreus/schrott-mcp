@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Pörtner B.“ ist als Bernhard Pörtner Rohproduktenhandel, Holzweg 25, 97084 Würzburg ein konkreter Recherchekandidat. Creditreform ist als Firmenprofil auffindbar, beim Direktabruf aber HTTP403: Suchausschnitt nicht als gelesenen Register-/Wirtschaftsaktivitätsbeleg ausgeben. Die alte Nummer 0931 611145 und abweichende Verzeichniskontakte sind nicht unabhängig verifiziert; kein Namens- oder Kontakt-Fill.
+
+**Ankauf / Verkauf / Gebühren:** keine verifizierte Zahlenliste im geprüften Umfang. **GEO:** Holzweg 25 bleibt Adresslead, kein gesicherter Annahmepunkt. Owner sollte zunächst vollständigen Inhaber und heutigen Betrieb bestätigen.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Neue Suchspur Creditreform-Crefonummer 8310512326 für Bernhard Pörtner Rohproduktenhandel, Suchausschnitt Holzweg 25/97084/0931 611145. Direktabruf HTTP403, daher keine behauptete Volltextprüfung und kein zweiter qualifizierter Beleg. Auch ein Sellwerk-Suchtreffer mit Schrott/Abbruch/Asbest bleibt Portaltext, keine Betreiberqualifikation. Keine neuen Stammdaten, keine Preise für Ankauf/Verkauf/Gebühren und kein GEO-Fill. Quelle (Abrufgrenze): https://firmeneintrag.creditreform.de/97084/8310512326/BERNHARD_POERTNER_ROHPRODUKTENHANDEL ; Suchlead: https://sellwerk.de/firmenprofil/poertner-b .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

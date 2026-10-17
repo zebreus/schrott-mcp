@@ -30,6 +30,10 @@ Die Betreiberwebsite der Lausitzer Firma sagt, sie kaufe Altmetalle/Schrott von 
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Betreiber-Impressum und Containerseite erneut direkt gelesen, Claudia Klein, 03149 Forst, auf diesen Seiten Schreibweise Alberstr.32–34 (abweichend zum vorher kommunal belegten Albertstraße). Nicht stillschweigend normalisiert oder auf BW übertragen. Containerseite weiterhin 7qm/10qm, mietfrei bis 14 Tage; Transport von Betonrecycling/Kies/Schotter/Mutterboden ist kein bezifferter Materialverkauf und keine kostenlose Gesamtentsorgung. ANKAUF keine neue Euro-Liste; VERKAUF keine Liste; GEBÜHREN nur genannte bedingte Mietfreiheit für den BB-Kandidaten, keine BW-Kondition. Identitäts-/Regionalisierungsklärung vor jeglichen Kontakten oder GEO; Frontmatter unverändert. Quellen: https://www.schrotthandel-klein.com/impressum ; https://www.schrotthandel-klein.com/page3 .]
+
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 
 - [Recherche 14.10.2026: [Betreiberkontakt](https://www.schrotthandel-klein.com/form-map) und [kommunaler SPN-Eintrag](https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze/4302-recycling-und-metallverwertung-autoverwertung-containerdienst.html?pageAlone=1&printPage=true) tatsächlich erneut gelesen: Claudia Klein, Albertstraße 32–34, **03149 Forst/Lausitz, Brandenburg**. Zwei qualifizierte Quellen für diesen BB-Kandidaten, nicht für den BW-Seed. Kein Länder-/City-/Slug-Wechsel und keine Übernahme der dortigen Kontakte/Zeiten.; Quellen: https://www.schrotthandel-klein.com/form-map, https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze/4302-recycling-und-metallverwertung-autoverwertung-containerdienst.html?pageAlone=1&printPage=true]

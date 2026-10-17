@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Schroll-Gruppe führt Weber Rohstoff als Tochter und beschreibt den Schwerpunkt ausdrücklich als Ankauf und Wiederverkauf von Recycling-Karton und -Papier; außerdem nennt sie Abfallsammlung in Baden-Württemberg. NorthData führt Weber Rohstoff GmbH, vormals Altpapier Weber GmbH, HRB 371288 Freiburg, Rheinstr. 75, 77694 Kehl. Das stützt den Papier-/Abfallbezug, nicht aber einen spezifischen Metallankauf oder eine öffentliche Schrottannahme in Kehl. Die Gruppenwebsite ist keine eigenständige Weber-Kontaktseite; ein Kundenannahmeort an der eingetragenen Adresse ist nicht belegt.
+Die Schroll-Gruppe führt Weber Rohstoff als Tochter und beschreibt den Schwerpunkt ausdrücklich als Ankauf und Wiederverkauf von Recycling-Karton und -Papier; außerdem nennt sie Abfallsammlung in Baden-Württemberg. NorthData führt historisch im Dossier Weber Rohstoff GmbH, vormals Altpapier Weber GmbH, HRB 371288 Freiburg, Rheinstr. 75, 77694 Kehl. Neu direkt gelesen: Die offizielle Gruppen-Standortliste führt **WEBER ROHSTOFF GMBH, Rheinstrasse 75, D-77694 Kehl, +49 (0)7851/4346**, getrennt vom Weber-Eintrag in Strasbourg. Damit ist die Adresse nicht mehr nur Register-/Telefonbuchlead, sondern auch gruppenseitig als Standort benannt. Das beweist noch keine Metallankaufkonditionen oder freie Privatannahme; die englischen Kategorien „Recyparc/Household waste sorting center“ sind ohne lokale Bedingungen keine Annahmezusage.
 
 **Preisrichtung:** Für Weber sind keine öffentlichen Ankaufskurse, Materialverkaufspreise oder Gebühren gefunden. Die Gruppenseite beschreibt Handelsaktivität, veröffentlicht aber keine Preislisten. Daher weder Ankauf von Metallschrott noch Publikumsannahme unterstellen.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Firmenprofil und erstmals die vollständige offizielle Standortliste direkt gelesen. Kehl nennt WEBER ROHSTOFF GMBH, Rheinstrasse 75, D-77694 Kehl, +49 (0)7851/4346; Strasbourg nennt gesondert 6 rue de Cherbourg und französische Nummer. Frühere Lücke eines gruppenseitigen Kehl-Standortbelegs damit geschlossen, aber Kontakt bleibt neuer Einzelbeleg, kein Telefon-Fill ohne vollständiges Quellen-Gate. Unternehmensprofil weiterhin Papier-/Karton-Ankauf und Wiederverkauf, ca. 120.000 t/Jahr im Handel; nicht als Kapazität einer Metallannahme interpretieren. ANKAUF/VERKAUF/GEBÜHREN keine Zahlenlisten in den zwei Seiten. GEO: Standortadresse besser gestützt, Annahmeeingang/Koordinaten und Privatkundenbedingungen separat prüfen. Quellen: https://schroll.fr/en/with-friends/companies/weber-rohstoff/ ; https://www.schroll.fr/en/with-friends/schroll-group-locations/ .]
 
 ### Recherche 07.10.2026
 

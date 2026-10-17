@@ -34,6 +34,10 @@ Für einen Hartong-Schrotthandel in Vechta gibt es nur widersprüchliche Verzeic
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Frische Namens-/Branchensuche bestätigt nur den Cylex-Suchlead Fuhrenkamp 21/04441 5172, Detailabruf HTTP403; keine neue Primärquelle und kein Gegenbeweis zur abweichenden 19A-Spur. Ein Suchindexdatum 2026 belegt keine Weiterführung des Betriebs. Die frühere Löschkandidaten-Formulierung wegen einer unverbundenen Traueranzeige bleibt ausdrücklich keine belastbare Schlussfolgerung. Owner: Gewerbe-/Inhaber- und Adressabgleich statt Schließung aus Namensgleichheit. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Liste; GEO wegen 19A/21-Konflikt gesperrt. Quelle: https://web2.cylex.de/firma-home/karl-heinz-hartong-schrotthandel-16610577.html (Suchlead; Direktabruf403).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott

@@ -30,6 +30,10 @@ Mehrere Branchenverzeichnisse führen Wiedmann & Gücklhorn am Stahlackerweg 95,
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Schrottplatz-info-Profil erneut direkt gelesen, Stahlackerweg 95/73275, 07023 7449999. Als Homepage verlinkt es nur die eigene Portalwurzel /; kein Betreiber-Webauftritt daraus ableitbar. Seite sagt ausdrücklich Beschreibung, Öffnungszeiten und Leistungsangebot nicht erfasst. Neue Namens-/Ortssuche brachte keinen nutzbaren Primärbeleg; ähnlich benannte Wiedmann-Firmen aus anderen Orten sind keine Ersatzidentität. Frontmatter unverändert und weiterhin pruefung; für Ankauf/Verkauf/Gebühren keine verifizierte Liste, Adresse vor GEO zuerst kommunal/betreiberseitig bestätigen. Quelle (Lead): https://www.schrottplatz-info.de/schrottplatz/Ohmden/Wiedmann-und-Guecklhorn .]
+
 ### Nachprüfung 07.10.2026
 
 - [Korrektur 07.10.2026: Die vorhandenen Standort-/Telefonangaben stammen ausschließlich aus Branchenverzeichnissen; der zusätzliche Mobil-/E-Mail-Eintrag steht nur bei Sellwerk und wurde nicht dem Händler als gesicherter Kontakt zugerechnet. Nach dem Repo-Belegstandard sind diese Verzeichniseinträge Leads, keine unabhängigen Betreiberbelege. Daher Status `aktiv`→`pruefung`; keine Schließung behauptet, Frontmatter-Leads und Historie bleiben sichtbar. Ankauf-, Verkaufs- und Gebührenpreise sind weiterhin unbelegt. Vor Geokodierung Betreiber-/Kommunalbestätigung einholen; Quelle: https://www.schrottplatz.org/ohmden/schrott-wiedmann-guecklhorn-aYEPDL.html ; https://www.misterwhat.de/company/97389-wiedmann-guecklhorn-ohmden ; https://www.schrottplatz-info.de/schrottplatz/Ohmden/Wiedmann-und-Guecklhorn ; https://sellwerk.de/firmenprofil/wiedmann--guecklhorn-schrott--und-metallhandel]

@@ -30,6 +30,10 @@ Die Verzeichnisse führen „Ritter Recycling (Julia Ritter)“ an Am Ziegelplat
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Ritter-Bau-Impressum erneut direkt gelesen: Ritter-Bau GmbH, Mathias Ritter, AG Freiburg HRB 710458, Am Ziegelplatz 17/77746, 0781 605780. Damit bleibt der aktuelle Websiteinhaber am Seed-Grundstück konkret belegt, nicht aber seine Verbindung zu Julia Ritter/Ritter Recycling. Kein Nachfolger-/Umbenennungsnachweis und kein Schrottankauf aus Bauleistungen abgeleitet. Frontmatter-Leads erhalten, status pruefung; keine Preislisten für Ankauf/Verkauf/Gebühren des Zielbetriebs und kein GEO-Fill. Nächster Schritt kommunale Gewerbeidentität/Co-Standort statt erneuter Portalmehrfachzählung. Quelle: https://www.ritter-bau.de/impressum .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Das direkt abrufbare 11880-Profil (aktualisiert 12.10.2026) führt weiterhin „Ritter Recycling Julia Ritter“, Am Ziegelplatz 17, 77746 Schutterwald, 0781 6057815, Kategorie Containerdienst, und verlinkt auf ritter-bau.de. Das ist weiterhin nur ein Aggregatorlead: die verlinkte Betreiberwebsite/im Impressum gehört der Ritter-Bau GmbH (HRB 710458, Geschäftsführer Mathias Ritter), beschreibt Bauleistungen und nennt die andere Nummer 0781 605780. Weder Julia Ritter/Ritter Recycling noch ein zweiter Betrieb am Grundstück werden dadurch mit Ritter-Bau identifiziert. Frontmatter bleibt unverändert, keine Preis-/Gebührenquelle und kein Schrottannahmebeleg; Adresse nicht für GEO dieses ungeklärten Händlers freigeben. Quellen: https://www.11880.com/branchenbuch/schutterwald/060371058B112262161/ritter-recycling-julia-ritter.html ; https://www.ritter-bau.de/ ; https://www.ritter-bau.de/impressum]

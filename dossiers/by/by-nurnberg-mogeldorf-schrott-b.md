@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Schrott B.“ an Thäterstraße 43, 90480 Nürnberg, Telefon 0911 5460688 bleibt ein Verzeichnis-Lead; eine kurze Namensform erlaubt keine sichere Betreiber-/Namesake-Zuordnung. Die Quellen widersprechen sich zudem: Gelbe Seiten/Das Örtliche führen den Eintrag, während die geprüften 11880-Suchen ihn nicht zeigen. Keine Betreiberwebsite, kein unabhängiger aktueller Adress-/Telefonbeleg. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren.
+„Schrott B.“ an Thäterstraße 43, 90480 Nürnberg, Telefon 0911 5460688 bleibt ein Verzeichnis-Lead; eine kurze Namensform erlaubt keine sichere Betreiber-/Namesake-Zuordnung. Gelbe Seiten/Das Örtliche führen den Eintrag, während die geprüften 11880-Suchen ihn nicht zeigen; diese Suchlücke widerlegt weder Existenz noch Adresse. Keine Betreiberwebsite, kein unabhängiger aktueller Adress-/Telefonbeleg. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Gelbe-Seiten-Detail erneut direkt gelesen, weiterhin nur Schrott B., Thäterstr. 43/90480, 0911 5460688. Generische E-Mail-/Website-Aktionsknöpfe ohne konkrete Betreiberangabe sind keine Domainbestätigung. Keine ausgeschriebene Person, keine Zeiten und keine Ankauf-/Verkauf-/Gebührenliste gewonnen; die ältere Abwesenheit in anderen Suchlisten nicht als Widerspruch zur Existenz oder als Schließung bewerten. Frontmatter unverändert. Nächster sinnvoller Nachweis Gewerbeidentität an der Adresse, nicht weitere übereinstimmende Portale; keine Geokodierung eines unbestätigten Betriebs. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/d45cc9c0-85dc-4f8e-96f2-a02aff3f89c9 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

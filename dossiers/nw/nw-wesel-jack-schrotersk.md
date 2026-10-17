@@ -30,6 +30,10 @@ Keine zuordenbare Betreiberwebsite oder Ankauf-/Verkaufs-/Gebührenliste gefunde
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Eigenständige Suche nach exaktem Namen und Wesel liefert erneut ausschließlich Maptons-/Cybo-Spuren; mehrere Sprach-/Länderdomains wiederholen denselben Datensatz Hummelweg 3/01577 0060539 und sind keine unabhängigen Betreiberquellen. Deshalb kein zusätzlicher Identitätsbeleg trotz vieler Treffer. Betreibername/Gewerbe und öffentliche Annahme weiterhin ungeklärt, kein Telefon-/PLZ-Fill. ANKAUF/VERKAUF/GEBÜHREN: keine zurechenbare Preisquelle aus dieser Suche. GEO bis Betreiber-/Standortklärung zurückstellen; Karten-Snippets nicht übernehmen. Quelle(n): https://lr.maptons.com/p/3175754291 ; https://hu.cybo.com/DE/wesel/scrap-metal-dealer (Suchindex-Leads, keine gelesenen Betreiberseiten).]
+
 ### Recherche 15.10.2026, Welle 12:00 A
 
 - [Recherche 15.10.2026: Maptons-Kandidatenlink erneut direkt aufgerufen, HTTP 403; damit weiterhin kein gelesener Standort-/Betreiberinhalt. Ergänzende Northdata-Suche nach Jack Schrotersk liefert in den ersten 15 Ergebnissen nur unscharfe Namensähnlichkeiten (u.a. Schrooten Jack in Belgien), keinen zuordenbaren Weseler Betrieb. Dies ist kein amtlicher Negativnachweis und keine Grundlage für eine Namenskorrektur. Hummelweg 3 bleibt ausdrücklich Seedlead; keine PLZ/Telefon-/Website-Füllung. Offene Frage: exakte gewerbliche Firmierung und Nachweis des Betriebs in Wesel. Ankauf/Verkauf/Gebühren: keine zuordenbare Preisquelle; Quelle(n): https://qa.maptons.com/p/3175754291 (403); https://www.northdata.de/?query=Jack%20Schrotersk (Suchergebnis, kein passender Einzelbeleg)]

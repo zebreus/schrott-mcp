@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fahrzeughandels-Kandidat, nicht als Schrottankäufer oder anerkannte Altfahrzeugannahme bestätigt. Dieselstraße 54 und die historischen Telefonnummern sind Verzeichnis-Leads. Ein gefundenes berufliches Namensprofil nennt Fahrzeughandel, aber keinen eindeutig zugeordneten Mühlheimer Verwertungsbetrieb. Keine Annahme-, Abhol- oder Vergütungszusage; aktuelle Gewerbeidentität und Geschäftsgegenstand vor GEO klären.
 
 ## Timeline
+
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Eigenständige Suche Dasan/Bilal/Fahrzeughandel liefert erneut Dieselstr. 54/63165 aus Verzeichnissen. Neu: Suchtreffer des LinkedIn-Profils „Bilal Dasan“, Fahrzeughändler bei bilal Dasan, Region Hessen. Profil nur als Suchauszug gelesen; weder konkrete Betriebsanschrift noch Schrott-/AV-Leistung oder überprüfte Betreiberautorschaft daraus ableitbar. Kein qualifizierter Zweitbeleg, keine Wiederherstellung der am 05.10. entfernten Felder. ANKAUF: kein Schrottkurs; VERKAUF: keine zugeordnete Fahrzeug-/Teilepreisliste geprüft; GEBÜHREN: keine Tarife. GEO: gesperrt bis Betreiber und heutige Annahmestelle bestätigt sind; Quelle(n): https://de.linkedin.com/in/bilal-dasan-27bb25113 (Suchauszug); https://www.autobranche.org/autohaendler-verzeichnis/bilal-dasan-fahrzeughandel-und-verwertung (Suchlead); https://www.dasoertliche.de/Themen/Dasan-Bilal-Fahrzeughandel-M%C3%BChlheim-am-Main-Dieselstr (Suchlead).]
 
 ### Korrektur 05.10.2026
 

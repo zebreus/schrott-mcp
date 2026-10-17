@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Registergestützter Kandidat: Roku Schrott- und Metallrecycling GmbH, Straubing HRB 12239, Nolteweg 12, 94336 Hunderdorf. NorthData zeigt inzwischen eine Veröffentlichung vom 07.10.2026 zum Abschluss 2022; das ist kein Beleg für heutige Hoföffnung. Der alte Telefonwert ist dort weiterhin nicht belegt. Der Seedstatus `aktiv` ist ein historischer Registerstatus, keine verifizierte Publikumsannahme.
+
+**Ankauf:** Unternehmensgegenstand Schrott-/Metallhandel, keine verifizierten Kurse oder Annahmebedingungen. **Verkauf:** keine Preisliste. **Gebühren:** keine Tarife. **GEO:** Anschrift vorhanden, aber Betriebs-/Annahmepunkt erst mit Betreiberbestätigung freigeben; nicht aus Registeranschrift einen Hofeingang ableiten.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: NorthData-Profil direkt neu gelesen: HRB 12239, Nolteweg 12 und Gegenstand unverändert; neu sichtbar Veröffentlichung 07.10.2026 zum Jahresabschluss 2022 (nicht Geschäftsjahr 2026). Telefonnummer und heutige Öffnung daraus nicht belegbar. Die Alt-Aktivierung bleibt zur Ownerprüfung sichtbar, keine neuen strukturierten Leistungs-/Kontaktzusagen. Im Registerprofil keine Ankauf-, Verkaufs- oder Gebührenliste; GEO benötigt tatsächlichen Annahmeort und Punktquelle. Quelle: https://www.northdata.de/Roku%20Schrott-%20und%20Metallrecycling%20GmbH,%20Hunderdorf/Amtsgericht%20Straubing%20HRB%2012239 .]
 
 ### Recherche 05.10.2026
 

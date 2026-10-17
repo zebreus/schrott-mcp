@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wichtiger Register-Klärfall: NorthData führt Schrott- und Metallverwertung Sindlhauser GmbH & Co. KG, Regensburg HRA 9000, Gegenstand Schrott-/Metallverwertung mit Containerdienst, als erloschen. Die einzeln gelesene Löschungsveröffentlichung vom 15.01.2026 lautet „Die Gesellschaft ist aufgelöst. Die Firma ist erloschen.“ Das ist ein Rechtsträgerbefund, kein Nachweis, dass ein Hof Am Esper 32 geschlossen ist oder ob ein Nachfolger arbeitet. Die Identität des knappen Seeds und der Vornamenkonflikt Robert/Klaus bleiben zusätzlich aufzulösen.
+
+**Ankauf / Verkauf / Gebühren:** keine aktuelle zugeordnete Zahlenliste. **GEO:** bis zur Klärung von Rechtsträger und tatsächlichem Standortbetrieb gesperrt; `pruefung` statt unbelegter Standortschließung.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: NorthData-Firmenprofil HRA 9000 und die verlinkte Löschung einzeln direkt gelesen: 15.01.2026, Gesellschaft aufgelöst/Firma erloschen. Das Profil gibt heute nur Roding als Adresse aus; Am Esper 32 steht im Creditreform-Suchlead und in Altverzeichnissen. NorthData + dessen eigene Publikation sind nur eine Quellenfamilie. Keine ungeprüfte Gleichsetzung des Seeds Robert/Klaus mit der KG und kein Schluss auf physische Hofschließung. Frontmatter status pruefung bewahrt; Owner benötigt ursprüngliche Firmen-/Inhaberkette und kommunalen oder Betreiberbeleg zum heutigen Standort. Ankauf-, Verkaufs- und Gebührenpreise nicht belegt; keine Koordinaten. Quellen: https://www.northdata.de/Schrott-%20und%20Metallverwertung%20Sindlhauser%20GmbH%20&%20Co%C2%B7%20KG,%20Roding/Amtsgericht%20Regensburg%20HRA%209000 ; https://www.northdata.de/?id=6180279508795392 ; Suchlead: https://firmeneintrag.creditreform.de/93426/8230592136/SCHROTT_UND_METALLVERWERTUNG_SINDLHAUSER_GMBH_CO_KG .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

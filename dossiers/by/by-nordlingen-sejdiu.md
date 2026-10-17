@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-Der Seed führt „Sejdiu“ in Nördlingen, aber es liegt weiterhin kein belastbarer Betreiber-, Register- oder Standortbeleg für einen passenden Schrott-/Metallbetrieb vor. Die aktuelle Namens-/Orts-Suche ergab vor allem nicht zuordenbare Sejdiu-Treffer aus anderen Branchen und Orten; das ist weder Identitätsbeleg noch Beweis der Nichtexistenz. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Adresse, Kontakt, Annahmeort und GEO bleiben offen; Status `pruefung`.
+Der ursprüngliche Portal-Lead ist jetzt konkret rückverfolgt: lokaleschrottplatz.de führt „Sejdiu – Demontage & Schrotthandel“, **Erninger Str. 3, 86720 Nördlingen, +49 170 8648235**. Das ersetzt die frühere reine Suchlücke durch eine überprüfbare Spur, aber noch nicht durch einen Betreiber-/Registerbeleg. Die Portalzeiten Mo–Sa 08–20 widersprechen der dynamischen Anzeige „öffnet morgen um 12:00“; generische Materiallisten/100-kg-/1-kg-Grenzen nicht als Betriebsbedingungen übernehmen.
+
+**Ankauf:** nicht primär verifiziert, keine Preise; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Frontmatter und GEO bleiben bis zur Identitäts-/Standortbestätigung offen, `pruefung`. Andere Nördlinger Händler sind keine Ersatzidentität.
 
 ## Timeline
+
+### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
+
+- [Recherche 16.10.2026: Original-Portalpfad /sejdiu/ direkt erfolgreich gelesen: Sejdiu – Demontage & Schrotthandel, Erninger Str. 3/86720, +49 170 8648235, Mo–Sa 08–20; dynamische Öffnungsanzeige abweichend 12 Uhr. Neue konkrete Suchspur, jedoch Aggregator nach README und keine aktuelle Betreiberbestätigung. Gegenprüfung Namens-/Orts-/Adress-/Telefon-Suche ohne passende qualifizierte Zweitquelle; kein Negativbeweis. Keine Frontmatter-Fills, Materialkategorien und standardartig wirkende 100-kg-Eisen-/1-kg-NE-Grenzen nicht importiert. Ankauf/Verkauf/Gebühren ohne Zahlen; GEO bis tatsächliche Firma/Annahmestelle geklärt ist gesperrt. Quelle (Lead): https://lokaleschrottplatz.de/sejdiu/ .]
 
 ### Recherche 12.10.2026
 

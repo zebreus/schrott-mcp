@@ -34,6 +34,10 @@ Gelbe Seiten und Das Telefonbuch führen einen ähnlich benannten „Sami Schrot
 
 ## Timeline
 
+### Recherche 16.10.2026 — Welle 13:00 B
+
+- [Recherche 16.10.2026: Gelbe-Seiten-Detail erstmals in dieser Welle vollständig gelesen: Sami Schrott und Altmetall Abholung, Alter Markt 4/31134, 0176 68289610; keine eigenständige Betreiberwebsite im nutzbaren Inhalt. Die zwei Bewertungen sind von Golocal importiert und datieren 03.09.2015/22.02.2018; weder aktueller Aktivitätsnachweis noch zwei unabhängige Firmenbelege. Neue Suchspur auf einer fremden Entrümpelungsseite nennt Sami Schrott und Altmetall Endsorgung an Dinklarstraße/31137 ohne Hausnummer: zusätzlicher Namens-/Adresskonflikt, keine Umzugskette. Keine Übernahme, Betreiberidentität weiter offen. ANKAUF/VERKAUF/GEBÜHREN: keine zurechenbaren Zahlen; AWL-Entrümpelungspreise gehören nicht Sami. GEO: beide Kandidaten zurückstellen. Quelle(n): https://www.gelbeseiten.de/gsbiz/3d62c1c3-5c09-4b35-9fdf-41fe2daa4c9e (Direktabruf); https://awl-zentrum.de/entruempelung-hildesheim/ (nur Suchindex-Lead).]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Gelbe Seiten und Das Telefonbuch führen „Sami Schrott und Altmetall Abholung“ am Alter Markt 4, 31134 Hildesheim, mit 0176 68 28 96 10. Namensform und angebotene Tätigkeit weichen vom Dossier ab; beide Treffer sind Verzeichnis-Leads, kein Betreiber-/Registerbeleg zur Identität. Keine Adresse oder Kontaktdaten übernommen. Quelle(n): https://www.gelbeseiten.de/gsbiz/3d62c1c3-5c09-4b35-9fdf-41fe2daa4c9e; https://www.dastelefonbuch.de/Branchen/Schrotthandel/Hildesheim]

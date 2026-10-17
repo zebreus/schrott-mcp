@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://www.dk-edelmetalle.de/
 website_status: aktiv
 status: pruefung
-description: 'Ankauf von Edelmetallen, Schmuck/Uhren, Diamanten und Hartmetall laut Betreiberwebsite; Filialanschrift und Öffnungszeiten widersprüchlich.'
+description: 'Ankauf von Edelmetallen und Wertsachen laut Betreiberwebsite; aktuell Termine nach Vereinbarung, Rechnerkurse ausdrücklich nur Platzhalter.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Hanau +30-km Recherchewelle 05.10.2026'
@@ -24,9 +24,16 @@ provenance_origin: prose
 
 ## Überblick
 
-Die Betreiberwebsite belegt den Edelmetall-/Hartmetallankauf und nennt bedingte Ankaufspreise, aber keine allgemeingültige Metallpreisliste. Verkaufspreise und Gebühren sind nicht öffentlich ausgewiesen. Ronneburgstraße 45 A auf der Betreiberseite widerspricht Hausnummer 33 im Verzeichnis; daher bleiben Adresse, Zeiten und Geocoding offen.
+Die neu gestaltete Betreiberwebsite nennt nun selbst Ronneburgstraße 33, 63694 Limeshain, Denis Kunz, Termine ausschließlich nach Vereinbarung und Hausbesuche nach Absprache. Der frühere Betreiberwert 45 A ist als aktueller Webseitenbefund überholt, ein Umzug damit nicht bewiesen. Unabhängiger Standort-/Gewerbebeleg fehlt weiter; keine Kontaktfelder oder GEO ergänzt.
+
+**Wichtig:** Der alte Pfad `/i/ankaufspreise` liefert jetzt die neue Startseite. Die historischen Ankaufbedingungen vom 06.10. sind nicht mehr als aktuelle Liste verwendbar. Neue Rechnerwerte sind ausdrücklich „Platzhalter-Kurse, Stand 30. Aug. 2026“, keine Tages-Ankaufskurse. Bewertung kostenfrei und keine Abzüge für Prüfung/Schmelze beworben; keine allgemeine Gebührentafel oder Verkaufspreisliste.
 
 ## Timeline
+
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Korrektur 16.10.2026: Betreiberseiten neu gelesen: alter Preispfad zeigt neue Startseite statt früherer Bedingungen; Impressum (Eigenstand 01.10.2026) und Kontakt nennen jetzt übereinstimmend Denis Kunz, Ronneburgstraße 33/63694 Limeshain, 0160 1870367, kunz@dk-edelmetalle.de, ausschließlich Termine nach Vereinbarung; Hausbesuch nach Absprache. Damit früherer aktueller Webadresskonflikt 45 A versus 33 überholt, aber kein Nachweis eines Umzugs oder zweite unabhängige Gewerbequelle. Status pruefung und leere Adress-/Kontaktfelder bleiben; Beschreibung auf aktuellen Inhalt korrigiert, Hartmetall nicht ohne neuen Leistungsbeleg fortgeschrieben. Quellen: https://www.dk-edelmetalle.de/i/ankaufspreise ; https://www.dk-edelmetalle.de/impressum/ ; https://www.dk-edelmetalle.de/kontakt/ .]
+- [Recherche 16.10.2026: ANKAUF: Rechner ausdrücklich „Platzhalter-Kurse, Stand 30. Aug. 2026“; angezeigte Gold 95,40, Silber 1,05, Platin 33,10, Palladium 30,20 EUR je Gramm fein sind KEINE aktuell verifizierten Ankaufskurse. Rechner trennt Materialwert/Ankaufsfaktor/Schätzung, verbindlicher Preis erst nach Prüfung vor Ort. Historische „210 Euro unter London Fix“, Zinn/Späne/Diamantenwerte nicht mehr als heutige Liste belegt. VERKAUF: keine numerische Liste im gelesenen Inhalt. GEBÜHREN: kostenlose Bewertung und keine Abzüge für Prüfung/Schmelze beworben, ohne allgemeine Tarifordnung; nicht auf alle Services ausweiten. GEO: aktuelle Betreiberadresse 33 als Kandidat, unabhängige Bestätigung/Annahmepunkt nötig; keine Koordinaten erfunden. Quelle: https://www.dk-edelmetalle.de/i/ankaufspreise (liefert neue Startseite).]
 
 ### Recherche 05.10.2026
 

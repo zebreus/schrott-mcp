@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unidentifizierter historischer Kandidat für Schrottsammlung in Frankenthal. Die erneute Suche findet ein gleichnamiges privates Facebookprofil, aber keinen belegten Betriebs-/Ortsbezug; Namensgleichheit reicht nicht zur Zuordnung. Mobile Sammlung ist nur Seed-Vermutung. Kein Rechtsträger, keine Anschrift, keine verifizierte Annahme, Preise oder GEO-Daten; Originalimport und lokale Gewerbeauskunft wären die nächsten sinnvollen Schritte.
 
 ## Timeline
+
+### Recherche 16.10.2026 (13:00-Welle C)
+
+- [Recherche 16.10.2026: Eigenständige Suche „Jimmy Roose“/Schrott/Frankenthal liefert u.a. privates Facebookprofil gleichen Namens und fremde Roos-Genealogietreffer. Profil nur als Suchauszug, ohne passenden Betriebs-/Orts-/Dienstleistungsnachweis; daher nicht als betreibergeführtes Socialprofil anerkannt oder in Website übernommen. Die alte Aussage „kein Treffer“ wird auf „kein qualifiziert zugeordneter Betriebstreffer“ präzisiert, nicht als Schließungsnachweis verwendet. ANKAUF/VERKAUF/GEBÜHREN: mangels Firmenzuordnung keine belastbaren Listen. GEO ohne Betreiber und reale Annahmeadresse ausgeschlossen; Quelle/Lead: https://www.facebook.com/jimmy.roose (Suchauszug, ausdrücklich nicht zugeordnet); Seed-Provenienz in diesem Dossier.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
