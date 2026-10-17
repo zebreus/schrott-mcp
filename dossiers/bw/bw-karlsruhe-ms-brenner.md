@@ -30,6 +30,10 @@ Die Betreiberwebsite ist erreichbar und beschreibt Schrott-/Metallankauf, Rohsto
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Impressum, Kontakt/Fußzeile, Schrotthandel und Containerdienst erneut direkt geprüft. Der Adresskonflikt bleibt bestehen: Impressum Unterfeldstraße 30/0721 9563959 gegen Kontakt/Fußzeile Unterer Dammweg 6/0176 63014584 und Mo–Do 07:30–16:00, Fr 07:30–11:30; eine Domain ist nur eine Quelle. Ankauf: Betreiber kauft Metalle/Rohstoffe zu Tagespreisen, aber ohne Beträge. Verkauf: kein Material-Verkaufspreisblatt. Gebühren: Containerdienst und Abholung werden angeboten, Preise nur nach Anfrage; verlinkte Einkaufs-/Verkaufsbedingungen sind keine öffentliche Preisliste. Keine Stammdatenänderung bis zur Klärung, ob Kontakt- oder Annahmestelle gemeint ist. Quelle: https://www.ms-brenner.de/impressum.html ; https://www.ms-brenner.de/kontakt.html ; https://www.ms-brenner.de/schrotthandel.html ; https://www.ms-brenner.de/containerdienst.html ; Abruf 13.10.2026.]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Betreiberseiten aktuell direkt geprüft: Kontakt und Seitenfuß nennen Unterer Dammweg 6, 76149 Karlsruhe, Mobil 0176 63014584 und Mo–Do 07:30–16:00, Fr 07:30–11:30; das Impressum nennt weiterhin Unterfeldstraße 30, 76149 Karlsruhe und 0721 9563959. Gleiche Domain bleibt eine Quelle und löst den Standort-/Telefonkonflikt nicht; keine Frontmatter-Fills. Betreiber bestätigt Ankauf von Metallen/Rohstoffen zu Tagespreisen ohne Zahlen; Containerdienst/Abholung werden angeboten, Preise werden nicht veröffentlicht. Kein öffentlicher Verkaufspreis oder Gebührenblatt; Quelle: https://www.ms-brenner.de/kontakt.html ; https://www.ms-brenner.de/impressum.html ; https://www.ms-brenner.de/schrotthandel.html ; https://www.ms-brenner.de/containerdienst.html]

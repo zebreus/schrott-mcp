@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberidentität bleibt bei mehreren Müllers ungeklärt: aktuelle Verzeichnisse nennen Marcel Müller, Böcklinstraße 89, 41069, Festnetz 02161 6853177; das Dossier enthält das Mobiltelefon 0172 1817205, ältere Webspuren „Günter Müller“ und die Schreibweise Böcklingstraße 89. Die Straßenlage ist ähnlich, beweist aber keine Personen-/Betriebsidentität. Bestehende Frontmatter-Felder bleiben deshalb Review-Kandidaten statt bestätigter Kundendaten.
+
+**Preise:** Keine operatorseitig bestätigte Ankaufspreisliste, Verkaufspreise oder Gebühren. Keine GEO-Änderung ohne Klärung von Person, Telefonnummer und korrekter Straßenform.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Aktuelle Suche bestätigt den Identitätskonflikt statt ihn zu lösen: Marcel Müller/Böcklinstr. 89/02161 6853177 in Branchenverzeichnissen gegenüber der gespeicherten Mobilnummer 0172 1817205 und Altauftritt-Spur „Günter Müller“/„Böcklingstraße 89“. Kein neuer direkt erreichbarer Betreiberbeleg und keine Register-/Preisliste. Ankauf: keine verifizierte Quote; Verkauf: keine Preisliste; Gebühren: keine Tarife. Bestehende Straße/PLZ/Telefon nicht ergänzen oder geocodieren, bevor Owner die Personenkette bestätigt. Quellen: https://www.gelbeseiten.de/gsbiz/223fab6b-3cd4-4469-a384-ad2df86d7d9d ; https://adresse.dastelefonbuch.de/M%C3%B6nchengladbach/1-Schrott-Schrotthandel-M%C3%BCller-Marcel-M%C3%B6ller-M%C3%B6nchengladbach-B%C3%B6cklinstr.html ; http://xn--schrotthandel-mller-kbc.de?page_id=49 ; Abruf 13.10.2026.]
 
 ### Recherche 04.10.2026
 

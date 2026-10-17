@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Eco“ bleibt für den Bochumer Seed nicht eindeutig identifizierbar. `eco-schrottabholung.de` ist erreichbar und präsentiert einen allgemeinen mobilen Abholservice mit Telefon 0152 11485966, aber ohne Bochum-Bezug oder transparentes Betreiber-Impressum; im Fußbereich wird „Schrottabholung DE“ als Partner genannt. Weitere ähnliche NRW-Domains sind keine belastbare Identitätsbrücke.
+
+**Preise:** Kein zuordenbarer Ankaufspreis, keine Verkaufspreisliste und keine Gebühren-/Abholtabelle. Kein GEO ohne eindeutigen Betreiber- und Ortsbeleg.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: `eco-schrottabholung.de` live geprüft: generisches Angebot und Kontakt 0152-11485966/info@eco-schrottabholung.de, Öffnungsangabe Mo–Sa 07–21, aber kein Bochum-Ort oder eindeutiges Impressum; Footer nennt Partner „Schrottabholung DE“. `ecorecycling-nrw.de` ist ebenfalls ein regional generischer Auftritt ohne Beleg zur Seed-Marke Eco. Keine Attribution, keine Frontmatter-Fills. Ankauf: kein verifizierter Bochumer Betreiber-/Konditionsbeleg und keine numerische Preisliste; Verkauf: keine Liste; Gebühren: keine Tarife. Kein GEO. Quellen: https://eco-schrottabholung.de/ ; https://eco-schrottabholung.de/kontakt ; https://ecorecycling-nrw.de/ ; Abruf 13.10.2026.]
 
 ### Recherche 01.10.2026
 

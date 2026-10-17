@@ -26,11 +26,15 @@ provenance_origin: table
 
 Der alte Eintrag „Lorenz Wagner“ an Fasanenweg2 wird heute von einem echten Betreiberauftritt **Firma Wagner Schrott- und Metallhandel** gestützt: gleiche Billigheimer Kontaktadresse/Telefonnummer, im Impressum vertreten durch **Annegret Wagner**. Der persönliche Betreiberwechsel Lorenz→Annegret ist damit nicht bewiesen; `pruefung` bleibt als Identitäts-/Nachfolgethema notwendig.
 
-Der Betreiber trennt Büro/Kontakt Fasanenweg2 von Lager/Wertstoffhof **Bahnhofstraße8 in74821 Mosbach-Neckarelz**. Impressum nennt8/3, aktuelles EFB-Zertifikat8. Die veröffentlichte Zeit Mo–Fr09:00–16:00 gilt für Büro und Wertstoffhof, belegt aber keinen Wertstoffhof am Fasanenweg. Der Billigheimer Datensatz darf nicht zur vermeintlichen öffentlichen Annahmestelle umgedeutet werden.
+Der Betreiber trennt Büro/Kontakt Fasanenweg2 von Lager **Bahnhofstraße8 in74821 Mosbach-Neckarelz** (Impressum nennt8/3, aktuelles EFB-Zertifikat8). Die aktuell geprüfte Containerseite wirbt ausdrücklich mit Anlieferungen auf einem Wertstoffhof Mo–Fr09:00–16:00; sie ordnet diesen Hof aber keiner der beiden Anschriften eindeutig zu. Damit ist eine Betreiber-Anlieferung belegt, nicht ein öffentlicher Hof am Fasanenweg. Der Billigheimer Datensatz darf nicht zur vermeintlichen Annahmestelle umgedeutet werden.
 
 **Dubletten-/Zuordnungswarnung:** `bw-billigheim-74842-wagner-heinrich-schrotthandel` enthält bereits dieselbe Betreiberwebsite/Kontaktadresse, während ein separater Heinrich-Wagner-Verzeichnislead Wellenweg6/06265 927025 nennt. Ohne gesicherte Betreiberkette keine der Personen zusammenführen oder ihre Angaben verteilen. Schrott, Späne, Bleche, Aluminium, VA und Kabelreste werden vom Betreiber als Recyclingmaterial genannt; öffentliche Ankaufsvergütung und numerische Preislisten fehlen.
 
 ## Timeline
+
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiber-Containerseite erneut live geprüft: Anlieferungen am „Wertstoffhof“ werden Mo–Fr 09:00–16:00 angeboten; die Seite nennt jedoch weder Fasanenweg 2 noch Bahnhofstraße 8/8/3 als eindeutigen Hofstandort. Containergrößen: Abroll 10–40 m³, Absetz 5–12 m³; keine Containergebühren oder numerischen Ankaufspreise ausgewiesen. Ankauf: Metallannahme/Sortiment beschrieben, aber keine Beträge; Verkauf: keine Preisliste; Gebühren: keine Tarife. Offene GEO-/Identitätsfrage bleibt die konkrete Annahmeadresse und Lorenz→Annegret-Zuordnung; keine Frontmatter-Fills. Quelle: https://www.schrott-wagner.de/container.html ; https://www.schrott-wagner.de/impressum.html ; Abruf 13.10.2026.]
 
 ### Recherche 08.10.2026
 

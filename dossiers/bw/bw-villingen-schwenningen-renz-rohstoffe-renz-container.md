@@ -28,6 +28,10 @@ Gerhard Renz betreibt die erreichbare HTTP-Website; Zuordnung zu HSR Brandenburg
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: Betreiberseiten über HTTP erneut direkt abgerufen; Rohstoffseite nennt Ankauf aller Metallarten in kleinen Mengen bis Containerladung für Privat/Gewerbe zu Tagespreisen nach Anfrage, ohne Zahlen. Containerseite bestätigt 6/7/10/17/36 m³ und eine Gutschrift für verwertbares Altmetall nach dessen Verkauf. Ankauf: Tagespreis, keine öffentliche Preisliste. Verkauf: kein öffentliches Material-Verkaufsangebot/Preisblatt. Gebühren: keine Container- oder Entsorgungstarife veröffentlicht; Gutschrift ist kein Beleg für kostenlose Gesamtentsorgung. Zwei Domains desselben Betreibers sind kein unabhängiger Zweitbeleg; strukturierte Felder bleiben unverändert. GEO-Prüfung nur nach zweiter Identitätsquelle und Abgleich von Klippeneckstraße 62 mit Kundenzufahrt. Quellen: http://renz-rohstoffe.de/ ; http://renzcontainer.de/ ; Abruf 13.10.2026.]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: HTTP-Startseite und Impressum erneut vollständig gelesen: Gerhard Renz, Klippeneckstr. 62, 78056 Villingen-Schwenningen, Tel. 07720 7777, info@renz-rohstoffe.de. Ankauf für Privat/Gewerbe, kleine Mengen bis Containerladungen, Sortierung/Demontage, Tagespreise anfragen. HTTPS-Abruf scheitert technisch, HTTP funktioniert; nicht als tote Website gewertet. Weiterhin kein zweiter zulässiger Identitätsbeleg, deshalb Owner-Gate und leere neue Adress-/Kontaktfelder beibehalten.; Quelle(n): http://renz-rohstoffe.de/ , http://renz-rohstoffe.de/impressum.html]

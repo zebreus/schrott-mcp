@@ -30,6 +30,10 @@ Portal nennt jetzt konkrete Adresse **Burgunderstraße19,42285Wuppertal**, dazu0
 
 ## Timeline
 
+### Recherche 13.10.2026
+
+- [Recherche 13.10.2026: LokaleSchrottplatz-Profil erneut live geprüft: Burgunderstraße 19, 42285 Wuppertal, 0202 76713022 und Standardmaterial-/Mindestmengenangaben bleiben ausschließlich ein Portal-Lead. Seine Anzeige „öffnet morgen 12:00“ steht weiterhin im Konflikt mit der Wochenliste Mo–Sa 08–20 Uhr; die Mindestmengen-Eisen/NE-Formulierungen gleichen den MAR-/Mario-Deutsch-Profilen und sind nicht als betreiberspezifische Kondition belastbar. Kein Primärbeleg für Halan/Annahmeadresse. Ankauf: keine bestätigte Vergütung oder Preise; Verkauf: keine Liste; Gebühren: keine Tarife. Keine GEO-/Frontmatter-Änderung. Quelle: https://lokaleschrottplatz.de/halan-schrottabholung-wuppertal/ ; Abruf 13.10.2026.]
+
 ### Vertiefung 08.10.2026
 
 - [Recherche 08.10.2026: Bisherige Aussage Lead ohne Adresse aktualisiert: LokaleSchrottplatz direkt gelesen,Burgunderstraße19,42285Wuppertal,020276713022. WochenlisteMo-Sa08-20 widerspricht Status öffnet morgen12:00; MindestmengenEisen100kg/NE1kg und breite Materialliste identisch bei TuS/HartmutStefan. Keine Betreiberbestätigung/Materialbedingungen daraus übernehmen, keine Frontmatter-Fills. Suche nach Name/Telefon liefert keinen zuordenbaren Primärbeleg. Keine numerischen Ankauf-/Verkaufs-/Gebührenwerte, Verzeichnislead als konkreter Gewerberegister-Suchschlüssel erhalten. Quelle(n): https://lokaleschrottplatz.de/halan-schrottabholung-wuppertal/ ; https://lokaleschrottplatz.de/tus-schrott-metalle/ ; https://lokaleschrottplatz.de/hartmut-stefan/]
