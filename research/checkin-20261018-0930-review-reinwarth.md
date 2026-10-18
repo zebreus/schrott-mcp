@@ -1,0 +1,55 @@
+# Review Reinwarth – 18.10.2026
+
+## Urteil zum uncommitteten Diff gegen HEAD
+
+**Feldentscheidungen freigeben, Text/Datierung vor Integration korrigieren; keine Veröffentlichungsfreigabe.** Geprüft: `git diff HEAD -- dossiers/sn/sn-frankenberg-rainer-reinwarth-bde.md`, README (insbesondere Quellenhierarchie/zweiseitige Triage) und `docs/trader-seed.md`. Dossier ausschließlich gelesen. Keine Produktionsabfrage, kein Seed/Deploy, keine GEO-Recherche und keine Tests durchgeführt; Integration und Tests liegen beim Owner.
+
+| Feld | Entscheidung | Begründung / Seed-Wirkung |
+|---|---|---|
+| `street` | `''` beibehalten statt `Hohe Str. 31` | Nur Verzeichnislead; aktuelle Annahmestelle/Betreiberzuordnung nicht ausreichend belegt. Leerer Kernadresswert ersetzt gespeicherten Wert beim geänderten Seed. |
+| `postcode` | `''` beibehalten statt `'09669'` | Rücknahme der nicht ausreichend belegten konkreten Händleradresse, nicht Behauptung einer falschen Orts-PLZ. Gleiche Upsert-Semantik wie Straße. |
+| `phone` | `''` beibehalten statt `037206 70542` | Rückwärtssuche bestätigt nur einen Verzeichniseintrag, weder Erreichbarkeit noch aktuellen Betreiber. |
+| `clear_fields` | exakt `'phone'` beibehalten | Nötig, weil leeres Telefon allein gespeicherte Anreicherung erhält. Keine Straße/PLZ/GEO/Status-Tokens ergänzen: dafür ist diese API nicht zulässig. |
+| `status` | `pruefung` beibehalten statt `aktiv` | Aktueller Betrieb/Ankauf nicht belegt; auch verbleibende Name-Ort-Entität bleibt Klärfall. Keine Schließungsquelle, daher ausdrücklich nicht `geschlossen`. |
+| Name/Slug/Ort | unverändert als Klärfall, keine Umbenennung/Verlagerung | Kein belastbarer Identitäts-, Nachfolge- oder Namesake-Merge-Beleg. Slug stabil lassen. |
+| Website/Mail/Zeiten/Leistungen | keine neuen Fills oder Clears aus diesem Review | Keine geeigneten neuen Belege. Leere Leistungsfelder bedeuten nicht Ablehnung oder kostenlose Entsorgung. |
+
+Diese Rücknahme bedeutet **„kein kuratierter aktueller Fakt“**, nicht „Adresse/Telefon nachweislich falsch“. Die alten Werte samt Material-/Annahme-Leads müssen in der historischen Timeline bleiben. Zwei übereinstimmende Verzeichnisse erfüllen README zufolge gerade nicht den Zwei-Beleg-Standard. Auch ein direkt abgerufenes Verzeichnis ist keine Betreiberprimärquelle.
+
+## Eigenständige zweiseitige Recherche (tatsächliche Abrufe am 18.10.2026)
+
+### Name/Betreiber → Ort/Adresse/Telefon
+
+1. **Direkt abgerufen, aber nur Lead:** [Gelbe Seiten Detail](https://www.gelbeseiten.de/gsbiz/c4323bb5-5bdf-44ae-acc8-998d3cd7db95). Nennt „BDE Dienstleistungen Reinwarth Rainer Metall Kabel Schrott“, Branche Schrott, Hohe Str. 31, 09669 Frankenberg/Sa., `037206 7 05 42`. Kein im abgerufenen Inhalt identifizierter externer Betreiberlink, kein Betreiberimpressum/Registerbeleg und keine überprüfbaren aktuellen Annahmebedingungen. Generische Bedienelemente „Website“/„E-Mail“ sind kein Nachweis einer vorhandenen Betreiberwebsite/-mail. „Aktuelles aus erster Hand“ führt hier zu Werbung/„Sind Sie Inhaber“, nicht zu einer verifizierten Betreiberbestätigung.
+2. **Direkt abgerufen, derselbe Lead:** [Gelbe Seiten Ortssuche](https://www.gelbeseiten.de/suche/reinwarth/frankenberg%20sa) zeigt einen Treffer mit denselben Angaben; keine zweite unabhängige Quelle.
+
+### Telefon/Adresse → tatsächlicher Betreiber; Namesakes
+
+3. **Direkt abgerufener Rückwärtslead:** [Das Örtliche Rückwärtssuche](https://www.dasoertliche.de/?form_name=search_inv&ph=03720670542) zeigt „Treffer 1–1 von 1“, exakt denselben BDE-Namen und dieselbe Adresse. Damit besteht auf Verzeichnisebene kein sichtbarer anderer Telefoninhaber; aktuelle Nummerninhaberschaft/Erreichbarkeit ist trotzdem nicht verifiziert. Kein Anruf getätigt.
+4. **Namesake-Suche, direkt abgerufen, nur Leads:** [Gelbe Seiten bundesweit „Reinwarth“](https://www.gelbeseiten.de/suche/reinwarth/bundesweit) enthält u. a. Reinwarth GmbH (Garten-/Landschaftsbau, Berlin, Potsdamer Str. 48, andere Telefonnummer), Anna-Lisa Reinwarth (München, Schreibbüro) sowie weitere fach-/ortsfremde Namen. Im sichtbaren Ergebnis kein zweiter passender Reinwarth-Schrotthändler und kein belegter Nachfolger. Keine dieser Firmen dem Frankenberger Datensatz zuordnen. Das ist keine vollständige Namesake-Ausschlussprüfung.
+5. **Direkt abgerufene kommunale Quelle, aber kein Händlerbeleg:** [Firmendatenbank der Stadt Frankenberg/Sa.](https://www.frankenberg-sachsen.de/Wirtschaft/firmendatenbank/). Einträge sind freiwillig („Möchten Sie auch hier gelistet sein … gewerbe@frankenberg-sachsen.de“); dies ist **kein amtlicher Gewerberegisterauszug**. Nach Auslesen des Suchformulars wurden lesende Such-POSTs mit `FIRMENNAME=Reinwarth`, `BDE` bzw. `Hohe`, jeweils `BRANCHEN=` und `suchen=jetzt suchen`, ausgeführt: jeweils 0 Treffer. Das belegt weder Nichtexistenz noch Schließung, und die Firmennamensuche ist keine vollständige Adressrückwärtssuche. Keine Anfrage ans Gewerbeamt versandt.
+6. **Adress-Gegenprüfung ohne belastbares Resultat:** Exakte Websuchen nach Hohe Straße/Hohe Str. 31 in Frankenberg sowie Name/Telefon lieferten über das Suchtool keine Treffer. [Gelbe-Seiten-Suche „Hohe Straße“](https://www.gelbeseiten.de/suche/hohe%20stra%C3%9Fe/frankenberg%20sachsen) weicht ausdrücklich auf bundesweite, unpassende Treffer aus; nicht als lokale Adressauskunft verwerten. Eine andere reale Firma an Hausnummer 31 ist damit weder identifiziert noch ausgeschlossen. Keine Karten-/GEO-Links geöffnet.
+
+**Primärquellenbilanz:** Kein belastbarer Reinwarth-Betreiber-, Register- oder amtlicher Gewerbeeinzelbeleg gewonnen. Kommunale Website ist eine Direktquelle nur für ihre eigene freiwillige Datenbank und den Klärungsweg, nicht für die Händleridentität. Die Recherche bleibt für Betreiber und konkrete Annahmestelle offen; der Verzeichnislead wird durch heutige Gegenrecherche nicht in einen Primärbeleg verwandelt.
+
+### Such-/Zugriffslücken ausdrücklich nicht als Evidenz werten
+
+- Suchtool-Anfragen zu `"Reinwarth" "Frankenberg"`, Adresse/Schrott, `"037206" "70542"`, `Rainer Reinwarth BDE Dienstleistungen`, `Reinwarth Frankenberg Metall Kabel Schrott` sowie Registerkombination ergaben keine Ergebnisse. Das ist kein Negativregisterbeleg.
+- Google-Abrufe zu exaktem Namen und ausgeschriebener Adresse lieferten nur eine Zugriffshilfeseite; Bing zu Name/Ort sachfremde Ergebnisse. Daraus keine Tatsachen ableiten.
+- [Northdata-Abruf](https://www.northdata.de/?id=0&name=Rainer+Reinwarth) lieferte lediglich die allgemeine Start-/Suchseite, keinen konkreten Firmen- oder Personenbeleg. Kein Handelsregisterauszug erfolgreich abgerufen; keine Löschung/fehlende Registerpflicht behaupten.
+- Ein Gelbe-Seiten-Suchversuch mit `hohe str. 31` endete 404; die erste Örtliche-Abfrage mit `kw=03720670542` zeigte nur die Startseite. Nur die oben dokumentierte echte Rückwärtssuche ergab den Lead.
+- `lokaleschrottplatz` wurde in diesem Review nicht direkt abgerufen. Der Altverweis ist ausschließlich historische Dossierüberlieferung, kein heutiger Abruf und keine von diesem Review bestätigte historische Abrufspur.
+
+## Vor Integration notwendige Datierungs-/Textkorrekturen
+
+1. **Keine Rückdatierung auf 12.10.2026 legitimieren.** Die beiden neuen uncommitteten Abschnitte „Korrektur 12.10.2026“ und „Owner-Korrektur 12.10.2026“ sind durch dieses Review weder als damalige Recherche noch als damalige DB-Abfrage nachgewiesen. Ohne separat belegte damalige Ereignisse Überschriften und innere Datumsangaben auf **18.10.2026** umstellen und als heutige Review-/Integrationsentscheidung formulieren. Falls ein authentischer älterer Bericht existiert, diesen ausdrücklich mit seinem echten Datum zitieren; heutige Befunde getrennt datieren. Vorhandene Alt-Timeline 01./02.10. nicht nachträglich umschreiben oder durch heutige Abrufe bestätigen.
+2. **Unbelegte Produktionsabfrage streichen/relativieren.** Die Formulierungen „Der read-only-Abgleich … zeigt“, „read-only-Abfrage 12.10.2026“, konkreter gespeicherter Status/Telefon/Adresse und GEO-Wert sind hier nicht unabhängig verifiziert. Ohne tatsächliche Owner-Abfrage samt Datum/Protokoll nicht als eigenen aktuellen Befund stehen lassen. Stattdessen: „Nach Seed-Dokumentation …; ein im Altdatenbestand etwa vorhandener GEO-Punkt wird nicht gelöscht oder validiert. Produktionsstand in diesem Review nicht abgefragt.“ Historische Angaben dürfen als ausdrücklich zugeschriebene, ungeprüfte Altangaben erhalten bleiben.
+3. **Quellenwortlaut aktualisieren:** „ausschließlich Gelbe Seiten/lokaleschrottplatz“ zu „bisher nur Verzeichnis-Leads; heutiger Direktabruf Gelbe Seiten und Örtliche, lokaleschrottplatz nur aus Alt-Timeline“ präzisieren. „keine … Quelle existiert“ vermeiden; korrekt ist „in dieser Prüfung kein ausreichender Betreiber-/Register-/Gewerbeeinzelbeleg gewonnen“. „Kontaktfelder“ besser „Straße, PLZ und Telefon“, weil nicht alle Kontaktfelder zurückgenommen wurden.
+4. **Telefon-Clear-Semantik präzisieren:** „beim nächsten geänderten Seed entfernt“ ist für die erstmalige Einführung mit Rebuild richtig, aber unvollständig. Laut `docs/trader-seed.md` bleibt die Direktive autoritativ und entfernt später erneut eingetragenes Telefon auch bei unverändertem `seed_hash` beim nächsten Seed. Leere Adresse wird dagegen beim geänderten Payload regulär überschrieben; Statuswechsel allein zieht weder Telefon noch gespeichertes Service-JSON zurück.
+5. **Veröffentlichungsblocker ausdrücklich beibehalten:** Ungeprüfter erhaltener GEO bleibt Blocker. Leere Straße/PLZ und `pruefung` lösen diesen nicht. Keine Koordinaten setzen, berechnen oder als gültig übernehmen. Dieses Review empfiehlt keine Produktionsmutation und keine GEO-Sonderbereinigung; Owner muss den Blocker vor Veröffentlichung unabhängig auflösen.
+
+## Vorschlag für einen wahrheitsgemäßen neuen Timeline-Bullet (Owner integriert)
+
+> [Korrektur 18.10.2026: Review des uncommitteten Diffs gegen HEAD. Gelbe Seiten führt weiterhin BDE Dienstleistungen Reinwarth Rainer Metall Kabel Schrott, Hohe Str. 31, 09669 Frankenberg/Sa., Tel. 037206 70542; Örtliche-Rückwärtssuche führt denselben Verzeichnislead. Keine ausreichende aktuelle Betreiber-/Registerbestätigung oder bestätigte Annahmestelle gewonnen; Namensträger und Adressgegenprüfung nicht abschließend geklärt. Straße, PLZ und Telefon daher als kuratierte aktuelle Fakten zurückgenommen; clear_fields phone für gespeichertes Telefon erforderlich; Status pruefung, kein Schließungsbefund. Alte Leads bleiben erhalten. Kein Produktionsabgleich in diesem Review, kein Seed/Deploy und keine GEO-Recherche. Ein etwa erhaltener ungeprüfter GEO-Punkt bleibt Veröffentlichungsblocker. Quellen: https://www.gelbeseiten.de/gsbiz/c4323bb5-5bdf-44ae-acc8-998d3cd7db95 ; https://www.dasoertliche.de/?form_name=search_inv&ph=03720670542 ; Review research/checkin-20261018-0930-review-reinwarth.md; Seed-Semantik docs/trader-seed.md.]
+
+**Owner-Gate:** Text/Datum und gegebenenfalls belegten Produktions-Snapshot integrieren, einschlägige Seed-Tests ausführen; lokaler erfolgreicher Test wäre keine Produktionsveröffentlichung und kein Identitäts-/GEO-Beweis.

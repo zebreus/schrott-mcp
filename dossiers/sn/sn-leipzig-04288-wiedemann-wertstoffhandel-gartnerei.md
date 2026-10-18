@@ -3,10 +3,11 @@ slug: sn-leipzig-04288-wiedemann-wertstoffhandel-gartnerei
 name: Wiedemann Wertstoffhandel & Gärtnerei
 trader_type: wertstoffhaendler
 state: SN
-city: Leipzig 04288
-street: Liebertwolkwitzer Str. 49
-postcode: '04288'
-phone: 034297 43296
+city: Leipzig
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,9 @@ provenance_origin: table
 
 ## Überblick
 
-Die historischen Frontmatter-Kontakte stammen nur aus Gelbe Seiten, nicht aus Betreiber-/Registerbelegen. Die Detailseite führt zwar Gartenbaubetriebe als Hauptbranche, nennt aber im Leistungsumfang ausdrücklich Altkleider, Altpapier, Buntmetall, Schrott und Wertstoffhandel. Das frühere Gartenbau-Signal schließt Wertstoffhandel also nicht aus; ebenso belegt diese Portalprosa keinen aktuellen Ankauf oder stationären Hof.
+Die am 18.10.2026 gelesene Gelbe-Seiten-Detailseite nennt Wiedemann Wertstoffhandel & Gärtnerei, Liebertwolkwitzer Str. 49, 04288 Leipzig und 034297 43296; Aggregator-Lead ohne zugeordneten Betreiber-/Registerbeleg. Gartenbaubetriebe als Hauptbranche und Leistungsprosa zu Altkleidern, Altpapier, Buntmetall, Schrott und Wertstoffhandel belegen weder aktuellen Ankauf noch zugänglichen Hof. Straße/PLZ/Telefon im Dossier zurückgenommen; Ortslead Leipzig lediglich um PLZ-Anhang bereinigt, kein neuer Sitznachweis. Produktive Anwendung erst nach Freigabe/Rebuild/Seed.
 
-Status `pruefung`. Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren. Offen: Inhaber/Gewerbenachweis, heutiges Leistungsprofil, öffentlich zugängliche Annahme und Vergütung.
+Status `pruefung`, kein Schließungsnachweis. Keine belastbar zugeordneten Ankauf-/Verkaufspreise oder Gebühren. Inhaber/Gewerbenachweis, heutige Leistungen, Annahme und Vergütung offen. Andere Wiedemann-Betreiber nicht zuordnen; ungeprüftes erhaltenes DB-GEO bleibt Veröffentlichungsblocker, keine GEO-Prüfung/-Änderung dieses Reviews.
 
 ## Timeline
 
@@ -42,3 +43,11 @@ Status `pruefung`. Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren. Of
 
 - Wertstoffhandel
 - Adresse: Leipzig 04288, Liebertwolkwitzer Str. 49
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Gelbe-Seiten-Detail heute direkt gelesen: Liebertwolkwitzer Str. 49, 04288 Leipzig, 034297 43296 und gemischte Gartenbau-/Wertstoffprosa bleiben Aggregator-Leads, kein Betreiber-/Annahmebeleg. NorthData-Suggest liefert results leer, nur begrenzter Suchbefund, keine Negativregisterauskunft. Adresse/Telefon separat gesucht, kein belastbarer anderer Betreiber genau dort identifiziert und keine Nichtexistenz bewiesen. Gelesene Schlosserei-Wiedemann-Seiten nennen Ingo Wiedemann/Mierendorffstraße; Blumen-Wiedemann nennt Landsberg, Wiedemann Sarstedt haustechnischen Großhandel; keine Verbindung zur Zielidentität belegt, keine fremden Daten übertragen oder vollständige Trennung behauptet. Straße/PLZ/Telefon im Frontmatter zurückgenommen, clear_fields phone eng begrenzt freigegeben. Stadt Leipzig 04288 zu Leipzig nur syntaktisch normalisiert, kein aktueller Sitznachweis. Alte Ausnahmefall-Fills erfüllen den heutigen Quellenstandard nicht; historische 02./08.10.-Abrufe nicht rückwirkend bestätigt, uncommitteter 12.10.-Entwurf belegt keinen damaligen Abruf. Status pruefung, keine Schließung oder Preis-/Service-Fills. Ungeprüftes GEO bleibt erhalten und Veröffentlichungsblocker, keine GEO-Aktion. Quellen: https://www.gelbeseiten.de/gsbiz/19137f15-0bf0-48b1-9ec7-8c6360b16607 ; https://www.northdata.de/suggest.json?query=Wiedemann%20Wertstoffhandel&countries=DE ; https://www.schlosserei-wiedemann.de/ ; https://www.schlosserei-wiedemann.de/kontakt/ ; https://blumen-wiedemann.de/gaertnerei-wiedemann ; https://blumen-wiedemann.de/impressum/ ; https://www.wiedemann.de/ueber-uns/unternehmensgruppe/wiedemann-sarstedt]
+
+### Owner-Korrektur 18.10.2026 (Seed-Verhalten)
+
+- [Owner-Korrektur 18.10.2026: Heutiger mode=ro/query_only-Abgleich mit public.db zeigt Telefon 034297 43296, Liebertwolkwitzer Str. 49, PLZ 04288 und Stadt Leipzig 04288 weiterhin gespeichert; nur Bestandsaufnahme, keine sachliche Verifikation oder Bestätigung einer im Entwurf behaupteten 12.10.-Abfrage. Nach Integration/Rebuild entfernt clear_fields phone das gespeicherte Telefon und bleibt bei jedem Seed gegen spätere Drift autoritativ, auch bei gleichem Seed-Hash; leer allein würde Telefon behalten. Kernadresse/Stadt beim geänderten Seed geleert/normalisiert. Fehlende Dossierkoordinaten behalten das DB-Paar 51.354503225806454/12.369174193548387 unverändert und unvalidiert. Ungeklärte Identität/Standort-/Punktzuordnung bleibt Veröffentlichungsblocker; pruefung ist kein technischer Publikationsfilter. Keine Produktions-/GEO-Mutation dieses Check-ins. Grundlage docs/trader-seed.md und heutige Abfrage /tmp/opencode/checkin-20261018-0930-production-gate.json.]
