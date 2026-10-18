@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: 11880-Einzelprofil eigenständig direkt gelesen: Görzker Str. 46, 14827 Wiesenburg, 033849 50205, keine Mail/Website und keine konkrete Wochenstundentafel. Das sichtbare „geschlossen“ steht im Öffnungszeitenkontext und ist kein belegter dauerhafter Betriebsabschluss. Vermerk „aktualisiert 03.10.2026“, Eintragsdaten 07.05.2026, beweist keine Betreiberprüfung; die allgemeine Erklärung zu „vom Inhaber bestätigt“ ist kein solches Siegel am konkreten Betrieb. Frühere Notiz „doppelt belegt“ weiterhin nur Portalkonsens, kein zulässiger Zweitbeleg. ANKAUF/VERKAUF/GEBÜHREN keine Zielpreise; generische Eurozeichen-FAQ ist keine Preisliste. Offen: Gewerbe-/Betreiberbeleg zur aktuellen Annahme, keine GEO-Arbeit. Quelle: https://www.11880.com/branchenbuch/wiesenburg-mark/060440090B100467319/reinhard-schmeissel-schrotthandel.html]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Name+Adresse doppelt belegt - 11880 ("Reinhard Schmeissel Schrotthandel", Goerzker Str. 46, 14827 Wiesenburg, (033849) 50205) + Das Telefonbuch (Eintrag "Schmeissel Reinhard", Goerzker-Str.-Umfeld 14827, Brancheneintrag Schrotthandel); Fill: phone (11880-Einzelbeleg, Adresse beidseitig bestaetigt - offen dokumentiert); kein HRB, keine Betreiber-Website; website_status unbekannt; Status bleibt pruefung; Quelle(n): 11880.com, dastelefonbuch.de/Suche/Schmeissel/Wiesenburg 02.10.2026.]

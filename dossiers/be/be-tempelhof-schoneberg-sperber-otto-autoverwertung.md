@@ -28,6 +28,10 @@ Neue Rechtsträgerspur: Creditreform indexiert Ralf Sperber „Autoverwertung Ot
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Creditreform-Identitätskandidat Ralf Sperber / Autoverwertung Otto Sperber, Profil 2012429735, erneut direkt geprüft: HTTP 403. Der ältere Suchauszug bleibt nur Suchspur; keine Vollbestätigung für Inhaberwechsel oder heutige Autoverwertung und keine Grundlage, Gotenstraße wieder in Frontmatter einzutragen. ANKAUF: keine verifizierten Fahrzeug-/Schrottkurse; VERKAUF: keine Zielliste; GEBÜHREN: keine bestätigte Verschrottungs-/Abholgebühr. Offen: Gewerbeidentität und aktuelle Demontage-/Annahmestelle; keine Anerkennung aus Branchenbezeichnung ableiten, keine GEO-Arbeit. Quelle/Abrufgrenze: https://firmeneintrag.creditreform.de/10829/2012429735/RALF_SPERBER_AUTOVERWERTUNG_OTTO_SPERBER]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: Eigene Suche findet Creditreform 2012429735 mit exaktem Titel Ralf Sperber „Autoverwertung Otto Sperber“, Berlin, Branche sonstige Dienstleistungen für den Landverkehr. Vollabruf 403; Suchauszug ist konkrete neue Identitätsspur, kein vollständig gelesener Gewerbenachweis. Örtliche/Gelbe Seiten führen weiterhin Otto Sperber an Gotenstr. 26–28, 10829; Portale sind kein zweiter zulässiger Beleg und Kundenbewertungen keine heutige Demontageanerkennung. Keine Umbenennung in Ralf/kein Frontmatter-Fill. ANKAUF/VERKAUF/GEBÜHREN ohne bestätigte Liste; vor GEO Inhaber, aktuelle Betriebsstätte und Anerkennung prüfen. Quellen: https://firmeneintrag.creditreform.de/10829/2012429735/RALF_SPERBER_AUTOVERWERTUNG_OTTO_SPERBER (Suchauszug; direkt 403); https://www.gelbeseiten.de/gsbiz/2ddc3a1c-dc0a-4223-9815-4b10b156ea8f (Suchlead).]

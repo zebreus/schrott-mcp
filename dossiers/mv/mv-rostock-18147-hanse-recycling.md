@@ -30,6 +30,10 @@ Die historische Hanse - Recycling GmbH (AG Rostock HRB 5006) ging laut NorthData
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Online-Handelsregister-Profil HRB 5006 direkt gelesen: Hanse - Recycling GmbH, Eintragung 10.09.1993, historisch Ost-West-Straße 12/18147 Rostock, Status gelöscht. Die Verkaufsseite für Registerdokumente zeigt dynamisch „aktuellste Fassung 18.10.2026“; das ist kein heutiges Betriebsdatum und keine neu gelesene Verschmelzungsurkunde. Vorrecherchierte Nachfolgekette bleibt als solche erhalten, physischer Betrieb am Seehafen weiterhin unbewiesen; keine Adress-/Aktivstatusänderung. ANKAUF/VERKAUF/GEBÜHREN keine aktuellen Händlerwerte; die 29,80 EUR auf der Quelle sind Kosten für Registerdokumente und ausdrücklich kein Schrott- oder Annahmepreis. Offen: unabhängige Betreiber-/Standortkette, keine GEO-Arbeit. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/mv/Rostock/HRB/5006/Hanse-Recycling-GmbH]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: ANKAUF: Kein aktuell tätiger Schrottankäufer und kein numerischer Ankaufspreis belegt.; VERKAUF: Keine aktuelle Produkt-/Materialpreisliste belegt.; GEBÜHREN: Keine aktuelle Annahme- oder Abholgebühr belegt.; GEOKODIERUNG: Seed-Adresse Am Seehafen 7 und abweichende historische Leads keinem heutigen Händler zugeordnet; bis zur Betreiberklärung nicht geokodieren.; Quelle: https://www.northdata.de/?id=7430723 (Verschmelzungsereignis, berichtet 27.04.2011); https://www.northdata.de/Hanse+-%2D+Recycling+GmbH,+Rostock/Amtsgericht+Rostock+HRB+5006 ; https://www.northdata.de/Schiffsmaklerei+Baltic+Shipping+Agency+GmbH,+Rostock/Amtsgericht+Rostock+HRB+9753 (Registerdaten derselben Sekundärquelle; Abruf 07.10.2026).]

@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Ursprünglichen Portal-Kandidaten und Register-Suchpfad unabhängig erneut direkt versucht: lokaleschrottplatz HTTP403/Challenge, Northdata-Suche HTTP429. Neue Websuche ebenfalls eingeschränkt (Brave 429, Bing-RSS themenfremd); daraus weder Nichtexistenz noch Bestätigung des älteren Nobitz-Kandidaten ableiten. Kein Inhalt gewonnen, der Stadt/PLZ oder Rechtsträger zum Fragment „Kabelstr.“ ergänzt. Historischer Importtext erhalten, city unbekannt und leere Kontaktfelder unverändert. Ankauf/Verkauf/Gebühren mangels zugeordnetem Betreiber nicht recherchierbar; keine fremden Müller-Preise übertragen. Vorrangiger offener Beleg ist die ungekürzte Originalimportzeile mit Ort, Hausnummer und Quellenherkunft, nicht ein geographischer Rateversuch. Quellen (Abrufgrenzen): https://lokaleschrottplatz.de/metallrecycling-muller/ ; https://www.northdata.de/?query=Metallrecycling%20M%C3%BCller .]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Erneute exakte Namens-/Straßensuche nach „Metallrecycling Müller“ und „Kabelstr.“ ergab keinen zuordenbaren BW-Betrieb. Der einzige dokumentierte Register-Aggregator-Kandidat bleibt Metallrecycling-Müller GmbH & Co. KG in Nobitz (Thüringen), ausdrücklich kein Identitätsbeleg. Pseudo-Ortswert `Kabelstr.` aus dem aktuellen city-Feld entfernt; als ungeklärter Importtext in der folgenden Importhistorie erhalten. street, PLZ, Kontakt und GEO bleiben leer; keine Ankaufspreise, Verkaufspreise oder Gebühren identitätsgesichert. Quelle für den nicht passenden Kandidaten: https://www.northdata.de/?query=Metallrecycling%20M%C3%BCller (Abruf 12.10.2026); exakte Websuche ohne neuen belastbaren Treffer.]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zum Firmenkern existiert nun ein direkt gelesener Registerdatenbezug: Wilfried Seeberg Schrott-/Metallgroßhandel Inh. Petra Seeberg e. K., HRA 130084 Oldenburg; Northdata führt den Inhaberwechsel zu Petra vom 05.03.2010. Das bestätigt nicht die frühere Behauptung aktueller Aktivität aus Portal-Aktualisierungsdaten. Mühlenweg 2, Telefon und Öffnungszeiten bleiben unbestätigte Verzeichnis-Altwerte. Ein neuer Registerportal-Suchlead nennt Tonndeichstraße 29; ob Registeranschrift und Annahmeplatz auseinanderfallen, ist offen. Keine automatische Adressänderung, keine Domainzuordnung aus der E-Mail abgeleitet. Ankauf/Verkauf/Gebühren: keine verifizierten Kurse oder Tarife.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Northdata-Firmenseite direkt gelesen: HRA 130084 Oldenburg, heutige Namenszeile mit Petra Seeberg, Publikation Inhaberwechsel 05.03.2010; sichtbare Adresszeile nur Wilhelmshaven, keine Hausadresse. Openregister-Suchergebnis nennt dagegen Tonndeichstraße 29, Direktabruf HTTP 403. Dieser neue Adresskonflikt ist nicht durch eine Betriebsverlagerung erklärt; Mühlenweg 2 deshalb nicht überschrieben. Domainprobe www.seeberg-altmetalle.de Transportfehler, kein Impressum gelesen; keine Website-/Mailübernahme. Der historische Registerbezug ist neu belastbarer als Verzeichniskonsens, aber kein aktueller Annahme-/Aktivitätsnachweis. Ankauf/Verkauf/Gebühren: keine Zahlenquelle. Owner: Originalauszug und Betreiber zur Registeranschrift versus tatsächlichem Annahmeplatz abgleichen. Quellen: https://www.northdata.com/Wilfried%20Seeberg%20Schrottu%C2%B7%20Metallgro%C3%9Fhandel%20Inh%C2%B7%20Petra%20Seeberg%20e%C2%B7%20K%C2%B7,%20Wilhelmshaven/Amtsgericht%20Oldenburg%20HRA%20130084 ; https://openregister.de/company/DE-HRA-P3210-130084-P3215 (Suchlead, direkt 403) ; https://www.seeberg-altmetalle.de/ (Transportfehler).]
 
 ### Recherche 04.10.2026
 

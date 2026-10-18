@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Mehrere Branchenverzeichnisse führen einen Hammerschmidt-Recycling-Betrieb in der Karl-Koenigsdorfer-Str. 25A, 89335 Ichenhausen, mit ähnlichen Kontaktdaten. Die Namen der genannten Personen und Firmenzuordnungen weichen jedoch vom Seed-Namen Emil/Philip Hammerschmidt ab; die Identität ist offen. Die Kandidaten-Domain `hammerschmidt-recycling.de` hat beim letzten Direktabruf einen TLS-Zertifikatsfehler geliefert und ist kein verifizierter Betreiberauftritt.
+Mehrere Branchenverzeichnisse führen einen Hammerschmidt-Recycling-Betrieb in der Karl-Koenigsdorfer-Str. 25A, 89335 Ichenhausen, mit ähnlichen Kontaktdaten. Die Namen der genannten Personen und Firmenzuordnungen weichen jedoch vom Seed-Namen Emil/Philip Hammerschmidt ab; die Identität ist offen. Die Kandidaten-Domain `hammerschmidt-recycling.de` hat beim letzten Direktabruf einen TLS-Zertifikatsfehler geliefert und ist kein verifizierter Betreiberauftritt. Der neue Impressums-Suchindex nennt ausdrücklich Michael, nicht Emil/Philip; deshalb insbesondere keine Übertragung seiner Adresse/Kontakte. Auch ob „Emil/Philip“ einen gemeinsamen Betrieb meint, ist nicht primär belegt.
 
 - **Ankauf:** keine belastbaren Ankaufspreise oder bestätigten Annahmebedingungen.
 - **Verkauf:** keine Verkaufspreise.
@@ -32,6 +32,10 @@ Mehrere Branchenverzeichnisse führen einen Hammerschmidt-Recycling-Betrieb in d
 - **Geokodierung:** keine, bis Betreiber und genaue Kundenanschrift zweifelsfrei zugeordnet sind.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Gegenprüfung der im Frontmatter nur als Kandidat geführten Domain: neuer Suchindex zum konkreten Impressumspfad nennt ausdrücklich „Inhaber: Michael Hammerschmidt“, nicht Emil oder Philip, mit Karl-Königsdorfer-Str. 25a/89335. Indexauszug ist kein aktuell gelesenes Impressum; HTTPS-Direktabruf des Pfads und der Startseite scheitert am abgelaufenen Zertifikat. Trotzdem ist dies ein zusätzliches Warnsignal gegen die Übertragung der Michael-Kontakte auf Emil/Philip. Keine Zusammenführung, keine Adress-/Kontakt-Fills; website_status unbekannt, status pruefung. Auch keine Schließung aus TLS-Fehler abgeleitet. Ankauf/Verkauf/Gebühren für Emil/Philip nicht verifiziert. Offen: ob Emil und Philip einen gemeinsamen Rechtsträger bilden oder schon der Seed zwei Personen vermengt; kommunaler Primärbeleg erforderlich. Quellen: https://search.brave.com/search?q=%22Michael+Hammerschmidt%22+Recycling+Ichenhausen (nur Indexlead) ; https://hammerschmidt-recycling.de/impressum/impressum.html ; https://hammerschmidt-recycling.de/ (Abrufgrenze).]
 
 ### Recherche 14.10.2026
 

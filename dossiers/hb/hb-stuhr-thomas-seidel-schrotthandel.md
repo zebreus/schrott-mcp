@@ -28,6 +28,10 @@ Stuhr liegt in Niedersachsen; `state: NI` und stabiler Slug/Pfad unter `dossiers
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Eigenständige exakte Suche Thomas Seidel/Stuhr/Schrotthandel liefert erneut Das Örtliche, Gelbe Seiten und Das Telefonbuch; kein sicher zurechenbarer Betreiber-/Gewerbeauftritt in den gelesenen Suchergebnissen. Örtliche nennt weiterhin nur 28816 Stuhr, GS weiterhin 04206 349; Wiederholung derselben Telefonbuchdaten ist kein unabhängiger Existenz-/Aktivitätsbeleg. Keine neue Straße, keine Website geraten, bestehendes Telefon als Alt-Lead erhalten. Ankauf/Verkauf/Gebühren unverifiziert. Offen bleibt vollständige Gewerbeidentität samt Annahme-/Zustellanschrift; stabiler HB-Pfad und state NI unverändert. Quellen: https://www.dasoertliche.de/Themen/Thomas-Seidel-Schrotthandel-Stuhr ; https://www.gelbeseiten.de/gsbiz/0b3c0632-e707-4cc0-b31b-6129afdc516d ; https://adresse.dastelefonbuch.de/Stuhr/3-Thomas-Seidel-Schrotthandel-Stuhr.html (Suchleads).]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Manifestpfad dossiers/hb bewusst benutzt, nicht aus stateNI neu konstruiert. Offiziellen Stuhr-Auftritt und Gelbe-Seiten-Detail direkt gelesen; Unternehmenslead weiterhin nur28816 Stuhr/04206349 ohne Straße. Gemeindequelle ist Ortsnachweis, kein unabhängiger Existenz-/Gewerbenachweis des Schrotthandels. Neue Suche lieferte ausschließlich Telefon-/Branchenportale, keinen verifizierbaren Betreiberauftritt. Keine Frontmatter-Fills außer website_status unbekannt; vorhandenes Telefon nicht neu bestätigt. Ankauf-/Verkaufs-/Gebührenlisten unbekannt. GeoBedarf: vollständige bestätigte Annahmeadresse erforderlich, stateNI kein Umzug und kein GEO-Auftrag. Quelle(n): https://www.stuhr.de/ ; https://www.gelbeseiten.de/gsbiz/0b3c0632-e707-4cc0-b31b-6129afdc516d (Lead)]

@@ -28,6 +28,10 @@ Der generische Seed passt als Kandidat zu Auto-Gärtner/Horst Gärtner am Berker
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Auto-Gärtner-Impressum und Autoankauf-Seite diesmal direkt wieder lesbar, die Timeout-Grenze vom 08.10. dadurch für diesen Abruf überholt. Horst Gärtner, Berkersheimer Weg 165/60433, 069 516778 und auto.gaertner@web.de im Impressum; kein unabhängiger Beleg zur generischen Dossieridentität gewonnen. Footer weiterhin ©2014, kein aktueller Betriebs-/Genehmigungsnachweis. ANKAUF: Fahrzeugangebot per Formular mit eigener Preisvorstellung, keine numerische Ankaufsliste. VERKAUF: keine Preise auf den geprüften Seiten. GEBÜHREN: Autoankauf-Seite wirbt mit „kostenlose Verschrottung“ und kostenlosem Fahrzeugangebot; keine pauschale Zusage für Abholung, jedes Fahrzeug oder jeden Zusatzaufwand daraus ableiten. Nur Kandidatenangebot, keine verifizierte Dossier-Kondition. Frontmatter unverändert, offen: Gewerbeidentität/Aktualität und Reichweite des Gratisangebots; keine GEO-Arbeit. Quellen: http://www.xn--auto-grtner-q8a.de/impressum/ ; http://www.xn--auto-grtner-q8a.de/autoankauf-pkw-lkw/]
+
 ### Recherche 08.10.2026 (Welle Mittenordost)
 
 - Konkreten Kandidaten aus 03.10. priorisiert statt weiterer generischer Branchenkollegen: Auto-Gärtner-Impressum heute über HTTP mit Timeout, keine neue Inhaltsbestätigung. Vorrecherche identifiziert Horst Gärtner, Berkersheimer Weg 165 und Seedtelefon; ©2014 und E-Mail-Widerspruch bleiben Aktualitätsrisiken. Quelle/Abrufgrenze: http://www.xn--auto-grtner-q8a.de/impressum/ ; Vorrecherche: http://www.xn--auto-grtner-q8a.de/kontakt/

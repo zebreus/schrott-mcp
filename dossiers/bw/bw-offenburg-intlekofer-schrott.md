@@ -30,6 +30,10 @@ Die bisherigen Verzeichnisse nennen für „Intlekofer (Schrott)“ widersprüch
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Beide widersprüchlichen Detailseiten heute direkt gelesen: Gelbe Seiten nennt Griesheimer Str. 27, Schrottplatz-info Nr. 66; beide führen 0781 9708589. Damit ist der Hausnummernkonflikt aktuell im Quellenbestand vorhanden und nicht nur eine alte Suchindexabweichung. Gleiche Telefonnummer beweist weder Umzug noch identischen Rechtsträger, zwei Verzeichnisse bleiben Leads. Schrottplatz-info hat weiterhin keine vollständigen Zeiten/Leistungen. Straße bleibt leer, übrige historische Felder nicht als neu primärbestätigt ausgegeben. Ankauf/Verkauf/Gebühren ohne Preislisten auf beiden Seiten. Offen: Inhaber, Annahmeadresse und belastbare Zeit-/Umzugsfolge aus Betreiber/Kommunalquelle; kein GEO. Quellen (Leads): https://www.gelbeseiten.de/gsbiz/a6ce9769-8a71-43f0-b21d-bca4b96bfd50 ; https://www.schrottplatz-info.de/schrottplatz/Offenburg/Intlekofer .]
+
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 
 - [Recherche 01.10.2026: Hausnummernkonflikt — KEIN Street-Fill: Gelbe Seiten (+ oeffnungszeitenbuch 5338452B) nennen Griesheimer Str. 27, 77652 Offenburg-Griesheim vs. schrottplatz-info + oeffnungszeitenbuch 2861405K (Ralf Intlekofer) + Telefonbuch nennen Griesheimer Str. 66, 77652 Offenburg. PLZ 77652 konsistent → Postcode-Fill; Telefon 0781 9708589 2-fach (schrottplatz-info + infobel DE106095535-07819708589). KEINE Betreiber-Website, KEIN Register; Status aktiv → pruefung (Hausnummer offen). Quelle(n): https://www.gelbeseiten.de/gsbiz/a6ce9769-8a71-43f0-b21d-bca4b96bfd50 (Nr. 27) + https://www.schrottplatz-info.de/schrottplatz/Offenburg/Intlekofer (Nr. 66, Tel) + https://www.oeffnungszeitenbuch.de/filiale/Offenburg-Ralf%20Intlekofer%20Schrotthaendler-2861405K.html (Nr. 66).]

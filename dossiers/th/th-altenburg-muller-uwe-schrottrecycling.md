@@ -28,6 +28,10 @@ Konkreter, aber unbestätigter Lead: Schrottplatz-Info nennt Müller Uwe Schrott
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Geweniger-Impressum als Gegenprobe eigenständig direkt gelesen: GEWENIGER RECYCLING GmbH, Bismarckring 2/04610 Meuselwitz, Rainer Geweniger, HRB 203073 Jena. Es liefert keine Identitäts-/Übernahmekette zu Uwe Müller. Geweniger-Kontakte, Annahmestellen oder Vergütungsangebote dürfen nicht auf den vorliegenden Werksiedlung-Lead übertragen werden. ANKAUF/VERKAUF/GEBÜHREN keine Müller-eigenen Zahlen hiermit belegt. Offen: Gewerbeidentität Uwe Müller sowie heutiger Standort, keine Umbenennung und keine GEO-Arbeit. Quelle: https://www.geweniger-recycling.de/Impressum.html]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Schrottplatz-Info-Einzelseite direkt HTTP 200 gelesen: Müller Uwe Schrottrecycling, Werksiedlung 31, 04603 Nobitz Kotteritz, 03447 504107; Angebot und Öffnungszeiten ausdrücklich nicht erfasst, Homepage-Link fehlerhafter Platzhalter. Präzisiert den bisherigen dünnen Ortslead, ist aber Aggregator und kein zulässiger Feldbeleg. Betreiber-Impressum schrotthandel-mueller.de direkt gelesen: Benjamin Müller, Wärderstraße 1-3, 21502 Geesthacht — ausdrücklich andere Identität, keine Website-Zuordnung. Geweniger-Verbindung weiterhin nicht bewiesen. Keine Fills/Umbenennung, status pruefung; ANKAUF/VERKAUF/GEBÜHREN keine Zieltarife. Offen: Gewerberegister zu Uwe Müller/Werksiedlung 31; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Altenburg/-Mueller-Uwe-Schrottrecycling (Lead); https://www.schrotthandel-mueller.de/impressum (Nichtidentität)]

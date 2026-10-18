@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Max Kurt Gust, Altmetalle und Rohprodukte e.K., HRA 110443 Hannover, ist registerbezogen identifizierbar. Der jetzt direkt gelesene Bekanntmachungstext vom 28.05.2014 dokumentiert die Verlegung aus Garbsen, Kampweg 8 A, nach Neustadt am Rübenberge, Wunstorfer Str. 167. Diese historische Registeranschrift ist kein aktueller öffentlicher Annahmenachweis. Das Portal führt die Firma als aktiv, ohne betriebliche Öffnungszeiten/Kontakt; der Dossier-Prüfstatus bleibt sachgerecht. Ankauf-/Verkaufs-/Gebührenlisten nicht gefunden; Portalpreise für Registerauszüge sind keine Händlerpreise.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Online-Handelsregister-Firmendetail direkt gelesen, inklusive veröffentlichter Veränderung vom 28.05.2014: HRA 110443, vorher Garbsen/Kampweg 8 A, neue Geschäftsanschrift Wunstorfer Str. 167, 31535 Neustadt, Verlegung der Niederlassung. Das liefert einen konkreten historischen Datumsanker zur vorhandenen Adresse, keinen neuen Annahmeplatzbeleg. Portalstatus aktiv nicht mit aktuellem Schrottankauf gleichgesetzt; Kontaktfelder sind dort ebenfalls nicht befüllt. Suchabgleich Creditreform/Northdata bestätigt Firmen-/Registernummer, kein Betreiberauftritt. Vorhandene Straße/PLZ nicht überschrieben, Telefonlead 05137 72489 weiter nicht übernommen. Ankauf/Verkauf/Gebühren: keine Zielpreise; 29,80 EUR für Registerdokumente sind fremde Portalgebühren und strikt auszuschließen. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/ni/Hannover/HRA/110443/Max-Kurt-Gust ; https://firmeneintrag.creditreform.de/31535/2190435409/MAX_KURT_GUST_ALTMETALLE_UND_ROHPRODUKTE_E_K (Suchabgleich).]
 
 ### Recherche 02.10.2026
 

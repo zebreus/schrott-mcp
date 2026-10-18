@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Direkt gelesener Portal-Lead „Biberovic Schrotthandel“, Klosterstr. 15, 13581 Berlin, Mobilnummer 0178 6568584. Das Portal hat weder Leistungsbeschreibung noch Öffnungszeiten erfasst; sein Homepage-Link führt auf die eigene Portalwurzel, nicht zu einer Betreiberwebsite. Vollständiger Inhabername und heutiger Geschäftsbetrieb bleiben unbelegt. Vorhandene Anschrift ist weiterhin Alt-/Verzeichnisbestand, kein frisch bestätigter Schrottplatz.
+
+**Ankauf / Verkauf / Gebühren:** keine Zahlenlisten oder verifizierten Bedingungen. Kontakt-Fill unterbleibt mangels Betreiber-/Gewerbebeleg; status pruefung. Nächster Schritt: Gewerbeidentität an der Klosterstraße klären, keine bloße Nachbarschaft zu anderen Spandauer Händlern zurechnen.
 
 ## Timeline
+
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Schrottplatz-Info-Detail eigenständig direkt gelesen, Name/Adresse und 0178 6568584 als Verzeichnislead rekonstruiert. Portal nennt Angebot, Leistungen und Zeiten ausdrücklich nicht erfasst; Homepage-Link ist Portalwurzel. Zusätzliche Misterwhat-/Schrottplatz.org-Treffer wiederholen dieselben Daten, sind keine zwei zulässigen Sachbelege. Keine neue Telefonnummer/Website gesetzt, bestehende Adresse nicht als bestätigt erklärt. ANKAUF/VERKAUF/GEBÜHREN keine Zielwerte; offen bleiben vollständiger Gewerbename, heutige Annahmestelle und Betreiberkontakt. Keine GEO-Arbeit. Quelle: https://www.schrottplatz-info.de/schrottplatz/Berlin/Biberovic-Schrotthandel]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

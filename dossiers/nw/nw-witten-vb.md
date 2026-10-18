@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„VB“ bleibt in Witten als Händlerkürzel nicht identifiziert. Aktuelle Suche ergibt generische Schrottabholungsseiten und andere, nicht zugehörige Unternehmen, aber keinen belastbaren Treffer für den Seed. Keine Anbieter-/Kontaktübernahme. ANKAUF, VERKAUF und Gebühren nicht verifiziert; keine Preisliste.
+Für das Kürzel „VB“ gibt es jetzt einen konkreten, aber noch nicht verifizierten Kandidaten: VB Dienstleistungen, Eckardtstr. 142, 58453 Witten, 0171 6193359, vedatsdienstleistungen@yahoo.com. Der direkt gelesene 11880-Eintrag nennt Schrotthandel/Schrottankauf, Entrümpelung und Containerdienste und ist im Eintragskopf als „Vom Inhaber bestätigt“ markiert. Trotzdem bleibt er nach README ein Aggregator-Lead, kein Betreiber-Impressum und kein Beweis für die Identität des knappen Seeds. Keine Kontaktdatenübernahme, keine Umbenennung. Ankauf/Verkauf/Gebühren: keine Zahlenliste; Eurozeichen-FAQ ist kein Preis.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Neuer konkreter Suchtreffer VB DIENSTLEISTUNGEN direkt bei 11880 gelesen: Eckardtstr. 142, 58453 Witten, 0171 6193359, Mail im Linktitel vedatsdienstleistungen@yahoo.com; Schrottankauf/Schrotthandel, Entrümpelung, Containerdienst. Anders als beim allgemeinen FAQ steht Vom Inhaber bestätigt tatsächlich im Eintragskopf; dies bleibt dennoch ein Portalbadge ohne lesbares Betreiber-Impressum oder Gewerbeinhabernamen. Eintragsdaten 13.03.2026, Portallabel aktualisiert 04.10.2026 sind keine unabhängig geprüfte Aktivität. Suche nach Vedat/Witten liefert keine belastbare Rechtsidentität; aus Mailpräfix keinen Inhabernamen geraten. Golocal/Yellowmap wiederholen den Kandidaten, kein zweiter qualifizierter Beleg. Neuer Ermittlungsansatz ersetzt frühere pauschale Suchlosigkeit, aber kein Frontmatter-Fill. Ankauf/Verkauf/Gebühren keine numerischen Angebote. Quellen: https://www.11880.com/branchenbuch/witten/120674719B113735662/vb-dienstleistungen.html ; https://www.golocal.de/witten/schrotthandel/ ; https://www.yellowmap.de/Details/hSG5jO3VNngxNqQDsawfQw==.aspx (letztere Suchleads).]
 
 ### Recherche 14.10.2026 (Welle 5 A)
 

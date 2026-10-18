@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+KVJ Dienstleistungen ist dem bisherigen Betreiber-Einzelbeleg zufolge Viktor Jakobi in Wolfsburg zugeordnet. Die früher aus dem Impressum gelesene Jenaer Str. 27 ist keine zweifach belegte öffentliche Schrottannahmeadresse. Der aktuelle Direktabruf ist durch HTTP 403 begrenzt; das beweist weder eine tote Website noch eine Betriebsschließung. Keine Annahme-/Abholbedingungen oder aktuellen Ankauf-, Verkaufs- und Gebührenkurse verifiziert. Straße und weitere Kontaktdaten bleiben bis zu Betreiber-/Gewerbeabgleich leer.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Impressum direkt erneut angefragt, HTTP 403; kein neuer Impressumsinhalt gelesen und den alten Proxy-Befund vom 01.10. nicht als aktuellen Abruf ausgegeben. Neue Namenssuche findet Cylex mit Viktor Jakobi, aber der Aggregator ist keine unabhängige Primärbestätigung. Bestehende Website/aktiv bleiben Altstand; keine Straße/PLZ/Telefon ergänzt, keine unbestätigte Wohn-/Geschäftsanschrift zum Schrottplatz erklärt. Ankauf, Verkauf, Gebühren: keine verifizierte Zahlenquelle. Offen: lesbarer Betreiberauftritt plus unabhängiger Gewerbe-/Identitätsbeleg und ausdrücklicher Annahmenachweis. Quellen: https://www.kvj-dienstleistungen.de/impressum (HTTP 403) ; https://web2.cylex.de/firma-home/kvj-dienstleistungen-16365195.html (Suchlead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

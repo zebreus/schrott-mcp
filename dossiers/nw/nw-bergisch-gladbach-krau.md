@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed „Krauß“ ist weiterhin nicht mit einem konkreten Schrotthandel identifiziert. Eine neue Verzeichnis-Spur zu Adolf Krauß nennt einen Containerdienst in Bergisch Gladbach-Bensberg (Im Alten Feld 27, 51429); weder Name noch Tätigkeit belegen, dass dies der gesuchte Datensatz ist. Felder und Prüfstatus bleiben deshalb unverändert.
+Der Seed „Krauß“ ist weiterhin nicht mit einem konkreten Betreiber identifiziert. Der Verzeichnis-Kandidat Adolf Krauß Containerdienst in Bergisch Gladbach-Bensberg (Im Alten Feld 27, 51429) wird im Portal auch unter Schrott-/Altmaterialhandel geführt. Das ist eine breitere Branchenspur als zuvor festgehalten, aber kein Betreiberbeleg und keine sichere Identität zum bloßen Seed-Nachnamen. Felder und Prüfstatus bleiben deshalb unverändert; keine zurechenbaren Ankauf-, Verkaufs- oder Gebührenpreise.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Neue gezielte Namens-/Ortssuche findet erneut Adolf Krauß Containerdienst, Im Alten Feld 27, und nun auch 11880-Kategorien Altmaterialhandel/Schrotthandel. Ergänzung zur bisherigen Branchenabgrenzung: Das Portal führt also mehr als nur Containerdienst; die Kategorien sind dennoch kein Betreiber-/Ankaufnachweis und verbinden den bloßen Seed-Nachnamen nicht sicher mit Adolf Krauß. Kein qualifizierter neuer Zweitbeleg, keine Adresse/Telefon/Website ergänzt. Ankauf/Verkauf/Gebühren ohne zurechenbare Zahlenquelle. Owner: ursprünglichen GS-Eintrag oder Gewerbeauskunft zum vollständigen Namen beschaffen; Status pruefung, keine Schließungsbehauptung. Quellen: https://www.11880.com/branchenbuch/bergisch-gladbach/120674719B100463105/adolf-krauss-containerdienst.html ; https://www.11880.com/suche/schrotthandel/bergisch-gladbach (neue Suchleads).]
 
 ### Recherche 13.10.2026
 

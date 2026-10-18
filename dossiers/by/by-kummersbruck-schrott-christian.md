@@ -28,6 +28,10 @@ Telefonbuch-Lead „Schrott Christian“, Wölsenbergstr. 15A, Kümmersbruck-The
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Gelbe-Seiten-Detail direkt gelesen: Kurzform „Schrott Christian“, Wölsenbergstr. 15A/92245, 09624 931455, Rubrik Schrott; kein ausgeschriebener Firmenname, keine Zeiten oder individuelle Leistungsbeschreibung. Der Portalauftritt bestätigt nicht, ob „Schrott“ hier als Nachname falsch branchenklassifiziert wurde. Personenprofil Northdata antwortet diesmal HTTP429; damit kein neuer Registerbefund und kein Nachweis, dass Vereinsfunktion und Gewerbelead dieselbe Person sind. Historische Felder unverändert, nicht neu primärbestätigt. Ankauf/Verkauf/Gebühren ohne Preise. Klärung braucht eine Gewerbeauskunft zur tatsächlichen Tätigkeit an der Adresse; weder Aktivierung noch Schließung aus dem Portal ableiten. Quellen: https://www.gelbeseiten.de/gsbiz/93ff8de8-da75-47c2-910f-fd80985830d2 (Lead) ; https://www.northdata.de/Schrott,%20Christian,%20K%C3%BCmmersbruck/qce (429).]
+
 ### Recherche 09.10.2026
 
 - [Recherche 09.10.2026: Northdata-Suggest findet Christian Schrott, Kümmersbruck; direkt gelesenes Personenprofil zeigt Vereinsfunktionen (TSV Theuern/Förderverein Wirtschaftsschule), keinen kongruenten Metallbetrieb. Nicht als zweiten Gewerbebeleg gezählt. Suchauszüge wiederholen Adresse/Telefon nur in Aggregatoren. Historische Fills erhalten, nicht primär nachverifiziert; website_status unbekannt normalisiert. Ankauf/Verkauf/Gebühren: keine numerischen Listen. Offen: Gewerbeidentität/Annahme statt Ableitung aus Familienname/Rubrik; Quellen: https://www.northdata.de/Schrott,%20Christian,%20K%C3%BCmmersbruck/qce ; https://www.northdata.de/suggest.json?query=Christian%20Schrott%20K%C3%BCmmersbruck&countries=DE ; https://www.gelbeseiten.de/gsbiz/93ff8de8-da75-47c2-910f-fd80985830d2 (Suchlead).]

@@ -30,6 +30,10 @@ Ein Registerdatenbank-Treffer führt eine Autoverwertung Koller GmbH (HRB 104724
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: HTTP-Domain neu direkt gelesen, weiterhin ausschließlich „Under constrcution!“, kein Impressum oder Annahmeangebot. Eigenständige Namenssuche findet zusätzlich autoverwertung-koller.net als Verzeichnis-Websitekandidat; HTTPS-Direktabruf scheitert an DNS-Auflösung. Nicht als bestätigte frühere/neue Betreiberwebsite zuordnen. Der Index mischt am Münchner Adresslead Nummern 089 8112929, 08141 44077 und 01515 0502294; die 08141-Spur erscheint zugleich beim Emmeringer Lead Moosfeldstr. 13. Das ist ein Zuordnungskonflikt, keine bewiesene Zweigstelle oder Verlegung. Kein aktueller qualifizierter Betreiberbeleg gewonnen, Frontmatter unverändert. Ankauf: keine verifizierten Fahrzeug-/Schrottkurse; Verkauf: keine Teilepreise; Gebühren: keine Abhol-/Verwertungstarife. Offen: Register-/Betreiberbrücke München↔Emmering und gegenwärtiger Hof. Quellen: http://www.autoverwertung-koller.de/ ; https://www.autoverwertung-koller.net/ (DNS-Fehler) ; https://search.brave.com/search?q=%22Autoverwertung+Koller%22+M%C3%BCnchen (nur Suchleads).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Northdata führt HRB 104724 mit Anschrift Lochhausener Str. 104, 81249 München und Geschäftszweck Fahrzeugrecycling/Ersatzteile; sichtbare Historie reicht jedoch zu älteren Änderungen zurück und ist kein Beweis laufender Annahme am Standort. `muenchen.de`-Suchtreffer führt laut eigener Seite auf ein Angebot des Drittanbieters Stadtbranchenbuch/Opendi, nicht auf einen städtischen Gewerbeeintrag; dortige Telefonnummer/Adresse bleiben Verzeichnis-Leads. Domain `autoverwertung-koller.de` weiterhin nur „Under construction“. Keine bestätigten Ankaufpreise, Verkaufspreise für Teile/Fahrzeuge oder Gebühren. Keine Frontmatter-Fills. Quellen: https://www.northdata.de/Autoverwertung+Koller+GmbH,+M%C3%BCnchen/HRB+104724 ; https://www.muenchen.de/service/branchenbuch/A/35.html ; http://www.autoverwertung-koller.de/]

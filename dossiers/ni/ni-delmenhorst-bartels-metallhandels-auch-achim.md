@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ungeklärter Ortsdatensatz: Bartels Metallhandels GmbH & Co. KG betreibt laut eigener Kontakt-/Impressumsseite den Standort Zum Panrepel 30–32, 28307 Bremen (HRA 26091 Bremen). Die Suche nach Achim liefert auch Umkreistreffer mit ausdrücklich Bremer Adresse; dies ist kein Filialnachweis. Delmenhorst und Achim bleiben unbelegt. Bremer Kontaktdaten, Verwiegungszeiten und Leistungen nicht in den leeren Delmenhorster Datensatz übertragen; der alte Aktivstatus ist nicht frisch standortbestätigt. Keine zurechenbaren Ankauf-/Verkaufs-/Gebührentarife für diesen Ortsdatensatz.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Betreiber-Impressum und Kontakt erneut direkt gelesen: Bremen/HRA 26091; Mo–Fr 7–16 Uhr, letzte Verwiegung 15:45 Uhr ausschließlich beim Bremer Betreiberauftritt. Neue Achim-/Delmenhorst-Suche zeigt unter anderem eine Achimer Verzeichnis-Ergebnisliste mit Bartels in Bremen und 6,1 km Entfernung. Das erklärt eine mögliche Umkreis-Verwechslung, beweist aber nicht die Seed-Entstehung oder eine Filiale. Keine Website-/Adress-/Kontaktübernahme, kein Umzug oder Merge. Ankauf/Verkauf/Gebühren: keine Zieltarife; Bremer Verwiegungszeit ist kein Preis. Offen: ursprünglicher Ortsbeleg oder Betreiberbestätigung einer weiteren Annahmestelle; bestehendes aktiv ist Altwert, kein Ergebnis dieser Welle. Quellen: https://www.bartels-altmetall.de/unternehmen/impressum ; https://www.bartels-altmetall.de/unternehmen/kontakt/ ; https://www.gelbeseiten.de/branchen/recycling/achim%20bei%20bremen (Umkreis-Lead aus neuer Suche).]
 
 ### Recherche 04.10.2026
 

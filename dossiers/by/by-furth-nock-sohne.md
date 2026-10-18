@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Nock & Söhne“ in Fürth ist bisher nur ein Such-/Verzeichnislead mit der unbestätigten Adresse Friedrich-Ebert-Str. 184, 90766 Fürth und Telefonnummer 0172 8171416. Eine erneute Das-Telefonbuch-Suche nach Nock in Fürth zeigte private Nock-Treffer an anderen Straßen, nicht den behaupteten Schrotthandel; keine Zuordnung zu diesen Personen vorgenommen. Kein Betreiber-/Registerbeleg oder verifizierter Annahmebetrieb. **Ankauf:** keine Preisangaben; **Verkauf:** keine Preise; **Gebühren:** keine Tarife belegt. Die Kontaktdaten bleiben deshalb leer und `status: pruefung`.
+„Nock & Söhne Schrotthandel“ wird in der gezielten Das-Telefonbuch-**Firmensuche** an Friedrich-Ebert-Str. 184, 90766 Fürth, mit 0172 8171416 geführt. Die ältere Personensuche war auf private Treffer beschränkt und ist kein Gegenbeleg zum Gewerbeeintrag. Dennoch bleibt dies nur ein Verzeichnislead, kein Betreiber-/Registerbeleg oder verifizierter Annahmebetrieb; private Nock-Treffer nicht zuordnen. **Ankauf:** keine Preisangaben; **Verkauf:** keine Preise; **Gebühren:** keine Tarife belegt. Die Kontaktdaten bleiben leer und `status: pruefung`; vollständiger Inhaber und aktuelle gewerbliche Tätigkeit müssen primär bestätigt werden.
 
 ## Timeline
+
+### Korrektur 18.10.2026 — Welle 02:00 / a
+
+- [Korrektur 18.10.2026: Suchfilterfehler der Vorrecherche eingegrenzt: /Suche/Nock/Fürth leitet zur Personensuche (zwei private Treffer); /Firmen/Nock/Fürth liefert dagegen einen gewerblichen Treffer „Nock & Söhne Schrotthandel“, Friedrich-Ebert-Str. 184/90766 und 0172 8171416. Die frühere Nichtauffindbarkeit bezog sich somit nur auf die Personensuche, nicht auf den gesamten Anbieterbestand. Gewerbeeintrag bleibt Aggregator-Lead und erfüllt nicht den README-Belegstandard; keine Frontmatter-Fills, kein Aktiv-/Schließungsurteil. Ankauf-, Verkaufs- und Gebührenpreise aus diesen Seiten nicht belegt. Offen: Inhaber/Rechtsform, aktueller Hofbetrieb und Betreiberbestätigung dieser Anschrift. Quellen (Leads): https://www.dastelefonbuch.de/Firmen/Nock/F%C3%BCrth ; https://www.dastelefonbuch.de/Suche/Nock/F%C3%BCrth .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ Die Verzeichnis-Leads ordnen „Hans Schmitz Autoverwertung“ der Wehrberger St
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Eigene Namens-/Ortssuche Hans Schmitz/Hameln/Autoverwertung liefert neben Verzeichnissen eine alte Umweltprämienliste mit Hans Schmitz Altfahrzeug-Demontagebetrieb, Wehrberger Str. 54 und 05151/42224. Diese nicht amtliche Sammlung zum damaligen Abwrackprämienkontext ist weder heutige Zertifizierung noch aktuelle Betriebs-/Annahmebestätigung; historische Wiederholung ersetzt keinen Betreiber-/Registerbeleg. Nicht mit Schmitz-Recycling Celle zusammengeführt. Vorhandene Stammdaten bleiben Altleads, Status pruefung. Ankauf: keine Fahrzeugvergütung; Verkauf: keine Teilepreise; Gebühren: keine belegten Demontage-/Abschlepptarife. Owner: aktueller GESA-/Behörden- oder Gewerbenachweis erforderlich. Quellen: http://www.radio-games.de/umweltpraemie/niedersachsen.html ; https://www.yellowmap.de/D_31785_Hameln/0/3228_Autoverwertungsunternehmen.htm (neue Suchleads, keine Primärbelege).]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Nochmals nach Betreiberwebsite, Impressum/Handelsregister und aktuellen Filialdetails gesucht; keine Betreiber-Primärquelle gefunden. Adresse, Telefonnummer und Autoverwertungsangaben bleiben durch übereinstimmende Branchenverzeichnisse belegt, nicht durch unabhängige Primär-/Registerquellen. E-Mail, Öffnungszeiten und Website daher leer; vorhandene Werte sowie status `aktiv` unverändert; Quelle(n): https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/hameln (Aggregator-Suche); https://www.google.com/search?q=%22Hans+Schmitz%22+Autoverwertung+Hameln+Wehrberger (Suchpfad zu Verzeichnis-Leads; Abruf 04.10.2026)]

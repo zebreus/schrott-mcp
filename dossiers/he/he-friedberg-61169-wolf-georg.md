@@ -30,6 +30,10 @@ Identität und heutiger Betrieb von „WOLF Georg“ an der Dorheimer Str. 43 bl
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Eigene exakte Suche nach Georg Wolf und Dorheimer erneut ohne einschlägigen qualifizierten Betreiber-/Registertreffer; Suchdienst liefert überwiegend fachfremde Namensvetter. Suchmangel ist kein Löschungs-/Todesnachweis und bestätigt auch die Altadresse nicht. Keine Übernahme fremder Personendaten oder Branchen; bestehende Straße/Telefon bleiben unbestätigt. ANKAUF: keine Zielkurse; VERKAUF: keine Zielliste; GEBÜHREN: keine Zieltarife. Nächster sinnvoller Beleg ist die Gewerbeauskunft zum alten Betrieb an Dorheimer Str. 43, nicht weitere Namensgleichheit. Keine GEO-Arbeit. Suchprotokoll: https://www.google.com/search?q=%22Georg+Wolf%22+%22Dorheimer%22 (Suchabfrage, kein Sachbeleg).]
+
 ### Recherche 16.10.2026 (Shard 2)
 
 - [Recherche 16.10.2026: Eigene Websuche Georg Wolf/Friedberg/Schrott ohne passenden qualifizierten Treffer; biografische, genealogische und Traueranzeigen-Namesakes nicht zugerechnet. NorthData-Suche direkt 429, kein Register-Negativnachweis. Dorheimer Str. 43 und 06031 5883 bleiben unbestätigter Altbestand, keine Fills oder Schließungsbehauptung. ANKAUF/VERKAUF/GEBÜHREN keine identitätsgesicherte Liste. GEO: Gewerbe-/Betreiberbeleg und heutige Betriebs-/Annahmestelle vor Geokodierung prüfen. Quelle/Abrufgrenze: https://www.northdata.de/?query=Georg%20Wolf%20Friedberg.]

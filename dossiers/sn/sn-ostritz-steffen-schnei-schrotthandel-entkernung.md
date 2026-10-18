@@ -30,6 +30,10 @@ Der aktuelle Verzeichnislead führt „Schrott Schneider Steffen“ an Hauptstr.
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Konkretes Creditreform-Zielprofil 3390072818 erneut direkt angefordert, weiterhin HTTP 403. Keine neuen gelesenen Angaben zu Inhaber, Hauptstr. 1 oder den widersprüchlichen Rufnummern; Suchvorschau nicht zur unabhängigen Vollbestätigung hochstufen. Schnei/Schneider weiterhin ungeklärt; der Chemnitzer Ronny Schneider bleibt getrennt. ANKAUF/VERKAUF/GEBÜHREN keine identitätsgesicherten Zieltarife; aus Profilblockade keine Schließung ableiten. Offen: aktueller Gewerbe-/Betreiberbeleg zur vollständigen Namensform und Betriebsstätte. Keine Frontmatter-/GEO-Änderung. Quelle/Abrufgrenze: https://firmeneintrag.creditreform.de/02899/3390072818/STEFFEN_SCHNEIDER_SCHROTTHANDEL_ENTKERNUNG]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Gezielte Suche findet erneut Creditreform „Steffen Schneider Schrotthandel, Entkernung“, Ostritz; direkter Profilabruf bleibt HTTP 403. Suchvorschau nicht als gelesenen Register-/Betreiberbeleg zählen. Namensform Schnei/Schneider und Telefonnummernkonflikt weiter offen, kein Kontakt-/Adress-Fill. Status aktiv → pruefung korrigiert die bereits dokumentierte unzureichende Beleglage, nicht eine behauptete Schließung. ANKAUF — keine verifizierten Zahlenkurse; VERKAUF — keine Liste; GEBÜHREN — keine Tarife. Offen: zulässiger unabhängiger Identitätsbeleg und heutiger Inhaber/Standort; Quelle(n): https://firmeneintrag.creditreform.de/02899/3390072818/STEFFEN_SCHNEIDER_SCHROTTHANDEL_ENTKERNUNG (Suchvorschau, Direktabruf 403); https://www.schrottplatz-info.de/schrottplatz/Goerlitz/Schneider-Steffen (Suchlead); README.md Quellenhierarchie]

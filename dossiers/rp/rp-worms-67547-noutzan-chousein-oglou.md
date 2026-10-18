@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkreter, erneut auffindbarer Gelbe-Seiten-Lead: „Noutzan Chousein Oglou Schrott“, Herzogenstr. 24, 67547 Worms-Innenstadt, 0179 1730483. Schreibweise des vollständigen Gewerbenamens, heutige Tätigkeit und Betriebsstätte sind weiterhin nicht durch Betreiber-/Gewerbequellen bestätigt. Die einzelne Portalfamilie zählt nicht als unabhängiger Doppelbeleg; Straße, PLZ und Telefon bleiben ungefüllt.
+
+**Ankauf / Verkauf / Gebühren:** keine verifizierten Listen. Die dynamische Anzeige „Geschlossen – Öffnet um 08:00“ ist kein dauerhafter Schließungsbeleg und keine vollständige Wochenstundentafel. status pruefung bleibt; Gewerbeauskunft zum Lead erforderlich.
 
 ## Timeline
+
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Eigenständige Suche Noutzan/Schrott/Herzogenstr findet den bereits vorhandenen Adresslead erneut im Gelbe-Seiten-Suchauszug (Herzogenstr. 24, 67547 Worms, 0179 1730483). Engere Vollnamenssuche liefert überwiegend themenfremde Ergebnisse; weder diese noch Portalabwesenheit beweisen Nichtexistenz. Kein qualifizierter unabhängiger Betreiber-/Gewerbenachweis gewonnen, keine Frontmatter-Fills. ANKAUF/VERKAUF/GEBÜHREN keine identitätsgesicherten Listen; dynamischen Öffnungsstatus nicht in geschlossen umdeuten. Offen: zuständiges Gewerberegister, heutiger Inhaber und Standort; keine GEO-Arbeit. Suchlead: https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/worms]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

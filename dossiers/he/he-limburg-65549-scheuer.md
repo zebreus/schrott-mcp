@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Betreiberwebsite und Impressum ordnen Scheuer GmbH dem Standort Im Elbboden 1, 65549 Limburg an der Lahn zu (HRB 3767, Amtsgericht Limburg, Geschäftsführer Karl-Heinz Scheuer). Eigener Schrottplatz auf 12.000 m² für Metalle und Mischschrott. Schrottplatzzeiten ausdrücklich Mo–Fr 07:30–12:00/13:00–17:00, Sa 08:00–12:00; nicht mit dem 24/7-Abschleppdienst verwechseln. Telefon 06431 93470, info@scheuer-limburg.de sind Betreiberangaben. Registeridentität zusätzlich im Suchindex von Northdata/Creditreform sichtbar, aber kein vollständiger aktueller Registerabruf; deshalb Kontakte nur hier und Status weiterhin Prüfung. Website erreichbar ist kein Aktualitätsnachweis für alle Betriebsangaben.
+Betreiberwebsite und Impressum ordnen Scheuer GmbH dem Standort Im Elbboden 1, 65549 Limburg an der Lahn zu (HRB 3767, Amtsgericht Limburg, Geschäftsführer Karl-Heinz Scheuer). Eigener Schrottplatz auf 12.000 m² für Metalle und Mischschrott. Schrottplatzzeiten ausdrücklich Mo–Fr 07:30–12:00/13:00–17:00, Sa 08:00–12:00; nicht mit dem 24/7-Abschleppdienst verwechseln. Telefon 06431 93470, info@scheuer-limburg.de sind Betreiberangaben. Der Owner-Review vom 11.10. dokumentiert zusätzlich einen vollständig gelesenen unabhängigen Northdata-Nachweis für Name, HRB und Anschrift; die ältere Einschränkung auf Suchindexdaten ist dadurch überholt. Kontakte bleiben ohne unabhängigen Nachweis nur hier; Status weiterhin Prüfung. Website erreichbar ist kein Aktualitätsnachweis für alle Betriebsangaben.
 
 Ankauf: keine numerische Liste oder ausdrückliche Vergütung in den abgerufenen Seiten. Verkauf: keine Liste. Gebühren: kein Tarif. Anlieferungsbedingungen, Privatannahme und Mengenlimits erfragen. Nach qualifizierter Standortbestätigung Im Elbboden 1 geocodieren, nicht den bisherigen Orts-/PLZ-Text.
 
 ## Timeline
+
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Impressum, Schrotthandel und Öffnungszeiten erneut einzeln direkt gelesen. Im Elbboden 1/HRB 3767 und firmeneigener Schrottplatz bestätigt als Betreiberangaben. Leistungsseite formuliert unpräzise „täglich“, die eigene Öffnungszeiten-Seite begrenzt jedoch ausdrücklich auf Montag bis Freitag plus Samstag; kein Sonntags-/24h-Schrottplatz ableiten. Überblick mit bereits vorhandenem vollständigem Northdata-Ownerbeleg abgeglichen statt dessen alte Suchindexgrenze fortzuschreiben. ANKAUF: keine numerischen Kurse/keine Vergütungszusage; VERKAUF: keine Liste; GEBÜHREN: kein Tarif. Privatannahme und Vergütungsbedingungen bleiben offen; keine GEO-Arbeit und keine Frontmatter-Fills. Quellen: https://www.scheuer-autokrane.de/impressum/impressum.html ; https://www.scheuer-autokrane.de/leistungen/schrotthandel.html ; https://www.scheuer-autokrane.de/kontakt/oeffnungszeiten.html]
 
 ### Recherche 11.10.2026
 

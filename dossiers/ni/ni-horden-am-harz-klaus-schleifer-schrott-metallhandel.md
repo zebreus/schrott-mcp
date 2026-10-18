@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klaus Schleifer Schrott-/Metallhandel ist weiterhin nur durch Orts-/Telefonbuchleads an Mittelstr. 31 in Hörden am Harz erschlossen. Die Varianten Klaus/Klaus Dieter stammen aus Verzeichnissen, nicht aus einem verknüpften Gewerbenachweis. Neue Suche liefert keine zurechenbare Betreiberseite; die Harzer Schrott und Recycling GmbH ist kein Ersatztreffer. Bestehende Straße bleibt unbestätigter Altwert, PLZ/Telefon/Website leer; keine aktuelle Annahme oder Auszahlung belegt. Ankauf, Verkauf und Gebühren ohne verifizierte Liste.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Neue exakte Suche Klaus Schleifer/Hörden ergibt meinestadt-Ortslisten mit Mittelstr. 31, 37412 Hörden sowie ein Schrottportal, aber keinen Betreiber-/Registerbeleg in den gelesenen Ergebnissen. Viele Nachbarortseiten desselben Portals zählen nicht als unabhängige Quellen; ein Standortlisten-Eintrag beweist keinen heutigen Betrieb. Straße als Altwert erhalten, übrige Felder nicht ergänzt; frühere Abgrenzung zur anderen Harzer Schrottgesellschaft gilt fort. Ankauf/Verkauf/Gebühren ohne Zahlenbeleg. Owner: kommunale Gewerbeauskunft bzw. identifizierbarer Inhaberauftritt statt weiterer Verzeichniswiederholung. Quellen: https://branchenbuch.meinestadt.de/osterode-am-harz/brazl/100-19055-19059-72481-54222 ; https://lokaleschrottplatz.de/niedersachsen/hoerden-am-harz/?sort=rating_desc (Suchleads).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

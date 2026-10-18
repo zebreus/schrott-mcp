@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Exakte Namens-/Straßensuche und Gelbe-Seiten-Detail direkt geprüft. Weiterhin nur Kurzname „Schrott B.“, Thäterstr. 43/90480 und 0911 5460688, keine ausgeschriebene Betreiberperson, keine belastbare Domain/Annahmebeschreibung. Suchindex liefert hierzu nur einen Örtliche-Lead; Portale sind keine unabhängigen Primärbelege. „Schrott“ kann auch Familienname sein, daher keine Gewerbeidentität allein aus Name/Rubrik ableiten. Keine Frontmatter-Fills. Ankauf/Verkauf/Gebühren: auf dem gelesenen Profil keine Zahlenliste. Offener entscheidender Beleg: vollständiger Gewerbename und Tätigkeit an Thäterstr. 43 aus Betreiber- oder kommunaler Auskunft; Suchlücken nicht als Schließung verwenden. Quellen: https://search.brave.com/search?q=%22Schrott+B.%22+%22Th%C3%A4ter%22 ; https://www.gelbeseiten.de/gsbiz/d45cc9c0-85dc-4f8e-96f2-a02aff3f89c9 (direkt gelesener Lead).]
+
 ### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
 
 - [Recherche 16.10.2026: Gelbe-Seiten-Detail erneut direkt gelesen, weiterhin nur Schrott B., Thäterstr. 43/90480, 0911 5460688. Generische E-Mail-/Website-Aktionsknöpfe ohne konkrete Betreiberangabe sind keine Domainbestätigung. Keine ausgeschriebene Person, keine Zeiten und keine Ankauf-/Verkauf-/Gebührenliste gewonnen; die ältere Abwesenheit in anderen Suchlisten nicht als Widerspruch zur Existenz oder als Schließung bewerten. Frontmatter unverändert. Nächster sinnvoller Nachweis Gewerbeidentität an der Adresse, nicht weitere übereinstimmende Portale; keine Geokodierung eines unbestätigten Betriebs. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/d45cc9c0-85dc-4f8e-96f2-a02aff3f89c9 .]

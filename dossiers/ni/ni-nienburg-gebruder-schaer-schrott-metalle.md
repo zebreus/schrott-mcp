@@ -28,6 +28,10 @@ Der Betreiberauftritt der Gebrüder Schaer GbR nennt Hagenburg als Sitz und den 
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Über-uns des Betreiber-Kandidaten erneut direkt gelesen: seit 1950 Hagenburger Gewerbegebiet, GbR seit 1991, Nienburg ausdrücklich als Landkreis im Tätigkeitsgebiet. Footer weiterhin Am Wasserwerk 2, Hagenburg; neue Verzeichnissuche nennt teils Hausnummer 3. Weder abweichender Aggregator noch Dienstleistungsgebiet rechtfertigen Orts-/Adress-Fill des Nienburger Seeds. Annahmewerbung für Schrott/Metall ist nicht automatisch bezahlter Ankauf. Ankauf ohne Zahlenkurs und ohne Seed-Brücke; Verkauf/Gebühren keine Zielpreisliste. Weiterhin keine qualifizierte zweite Identitätsquelle, keine Betriebsverlagerung oder Filiale behauptet. Quelle: https://abbrucharbeiten-schaer.de/ueber-uns/ ; https://www.mapquest.com/de/gebruder-schaer-gbr-805557308 (abweichender Suchlead, nicht Beleg).]
+
 ### Recherche 14.10.2026 (18:00-Welle C)
 
 - [Recherche 14.10.2026: Betreiber-Kandidat Schaer direkt an Über-uns und Impressum geprüft. Seit Gründung 1950 im Hagenburger Gewerbegebiet; Umfirmierung 1991 zu GbR/Joachim und Michael Schaer. Einsatzgebiete Großraum Hannover, Landkreis Schaumburg sowie Landkreis Nienburg. Impressum: Am Wasserwerk 2, 31558 Hagenburg, 05033 7286, schaer@abbrucharbeiten-schaer.de. Über-uns lädt zur Abgabe von Holz/Stein/Schrott/Metall und alten Küchengeräten im Gewerbegebiet ein. Die Nennung Nienburg ist Dienstleistungsgebiet, kein per-site Niederlassungsnachweis. Beide Seiten eine Betreiberquelle; GbR ohne registerkongruente Primärquellen-Ausnahme, keine unabhängige Seed-Brücke. Kein Merge/Ortswechsel/Kontakt-Fill. ANKAUF Annahmewerbung des Fremdort-Kandidaten ohne kg-Kurse; VERKAUF/GEBÜHREN keine Zielpreisliste. Offen: ursprünglicher Seedbeleg und eigenständiger Nienburger Betrieb; bis dahin kein GEO; Quelle(n): https://abbrucharbeiten-schaer.de/ueber-uns ; https://abbrucharbeiten-schaer.de/impressum/ .]

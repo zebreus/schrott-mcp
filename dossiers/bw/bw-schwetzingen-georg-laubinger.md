@@ -30,6 +30,10 @@ Die Betreiberwebsite nennt Georg Laubinger und die Mannheimer Landstraße 30a, 6
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Betreiber-Startseite und Impressum direkt neu gelesen. Name/Schwetzinger Adresse und Kontakt konsistent, weiterhin keine Registernummer im Impressum. Startseite nennt Verwertungsnachweis, enthält aber auch historische Rechtsformulierungen zu 1998 und vorübergehender Stilllegung; das ist keine aktuelle Zertifikats-/GESA-Bestätigung. Zertifizierung und Rechtslage daraus nicht übernehmen. Für Preise ausdrücklich Kundendienstanfrage; „kein gebrauchtteile Verkauf von LKW und PKW“ bezieht sich auf Ersatzteile, nicht pauschal auf Metallverkauf. Ankauf ohne Zahlenkurs, Verkauf ohne Preisliste, Container/Transport/Asbestentsorgung ohne Gebührenbeträge auf diesen Seiten. Zweite unabhängige zulässige Identitätsquelle weiter offen, keine Frontmatter-Fills/Annahmebedingungen ergänzt. Quellen: https://g-laubinger.de/ ; https://g-laubinger.de/impressumdatenschutz.html .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Betreiber-Startseite und Impressum erneut live gelesen. Impressum bestätigt Georg Laubinger, Mannheimer Landstr. 30a, 68723 Schwetzingen, 06202 9708383, Mobil 0170 2064178 und service@g-laubinger.de; keine HRB/HRA-Angabe. Die Startseitenwerbung „35 Jahre in Mannheim“ identifiziert keinen zweiten Standort und widerlegt nicht automatisch die Schwetzinger Impressumsadresse. Eine Northdata-Namens-/Ortssuche lieferte keine eindeutig zuordenbare Firma; das ist kein Nachweis fehlender Eintragung oder Geschäftsaufgabe. Der schon dokumentierte Zweitbeleg-Miss bleibt: keine neuen Frontmatter-Fills, Website weiter aktiv, Betriebsstatus pruefung. Quellen: https://g-laubinger.de/; https://g-laubinger.de/impressumdatenschutz.html.]

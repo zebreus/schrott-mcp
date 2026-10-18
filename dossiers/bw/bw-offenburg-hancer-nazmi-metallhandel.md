@@ -28,6 +28,10 @@ Konkreter Kandidat Nazmi Hancer Metallhandel, Carl-Benz-Str. 6A, 77652 Offenburg
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Wirtschaftsprofil Creditreform erneut direkt 403, also keine neu gelesene Wirtschaftsauskunft. Gelbe-Seiten-Detail direkt abrufbar: Carl-Benz-Str. 6A/77652, 0781 23123 sowie zusätzliche Nummer 0781 22386 und Mo–Do 08:00–15:30, Fr 08:00–14:00, Sa 09:00–11:30. Die zweite Nummer ist ohne Beschriftung im lesbaren Kontaktblock kein sicherer Fax- oder Zweitanschluss; nicht umdeuten. Generische E-Mail-/Website-Schaltflächen sind weiterhin kein belegter Betreiberkontakt. Keine Fills und kein Aktivstatus allein aus dynamischem „öffnet Montag“. Ankauf/Verkauf/Gebühren: keine numerische Liste auf der gelesenen Quelle. Unabhängige qualifizierte Identitäts-/Standortbestätigung bleibt offen. Quellen: https://firmeneintrag.creditreform.de/77652/7210163553/NAZMI_HANCER_METALLHANDEL (403) ; https://www.gelbeseiten.de/gsbiz/8e0f1d9d-bfc1-44e5-b033-9b3b5b808681 (Lead).]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Creditreform-Suchindex nennt Nazmi Hancer Metallhandel, Carl-Benz-Str. 6 a, 77652 Offenburg, +49 781 23123; Profil direkt 403. Das ist eine grundsätzlich höherwertige Wirtschaftsauskunft, jedoch nur indexbasiert gelesen und nicht unabhängig zweitbelegt. Gelbe-Seiten-Profil direkt gelesen: gleiche Anschrift/Telefon, Mo–Do 08:00–15:30, Fr 08:00–14:00, Sa 09:00–11:30; kein konkreter Betreiberlink trotz Website-Label. Verzeichnisangaben nicht füllen. status aktiv → pruefung, weil frühere Recherche selbst nur Klärfall ohne qualifizierten aktuellen Ankaufbeleg dokumentierte; kein Schließungsbefund. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare numerische Liste. Quellen: https://firmeneintrag.creditreform.de/77652/7210163553/NAZMI_HANCER_METALLHANDEL (Suchindex, Vollabruf 403) ; https://www.gelbeseiten.de/gsbiz/8e0f1d9d-bfc1-44e5-b033-9b3b5b808681 (Lead).]

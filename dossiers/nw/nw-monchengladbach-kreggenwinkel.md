@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Franz-Josef Kreggenwinkel in Rheindahlen ist bisher hauptsächlich über Verzeichnisdaten erschlossen; Name, Max-Reger-Str. 50, Telefon und aktiv sind Altwerte, keine neu primär bestätigten Betriebsdaten. Ein Facebook-Profil „Schrotthandel Kreggenwinkel“ ist ein neuer möglicher Betreiberansatz und beschreibt Altmetallhandel, Abbrüche und Entrümpelungen. Die aktuelle Auslese liefert jedoch keinen überprüfbaren Profilinhalt/Impressumsabgleich; Betreiberführung und Zuordnung bleiben offen. Ankaufpreise, Verkauf und Gebühren nicht verifiziert; öffentliche Anlieferung nicht aus der Adresse ableiten.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Neue exakte Suche findet Facebook SchrotthandelKreggenwinkel mit Beschreibung Altmetallhandel/Abbrüche/Entrümpelungen. Direkter Facebook-Abruf lieferte keinen auslesbaren Inhalt, daher kein verifiziertes betreibergeführtes Profil und kein zweiter Identitätsbeleg. Die übrigen Ergebnisse wiederholen nur Max-Reger-Str. 50/02161 6535780 aus Verzeichnissen. Keine Umwertung des früheren Aggregator-Fills zu Primärdaten; Stammdaten nicht überschrieben. Ankauf, Verkauf und Gebühren ohne verifizierte Zahlenliste. Nächster konkreter Schritt: Profil-Impressum/Betreiberführung und Gewerbeidentität gegen vorhandene Daten prüfen. Quellen: https://www.facebook.com/SchrotthandelKreggenwinkel/ (Suchauszug, Direktabruf ohne Inhalt) ; https://www.gelbeseiten.de/gsbiz/d030ac55-9c80-4b87-8446-6d8f8b6f057f (Suchlead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

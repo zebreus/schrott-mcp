@@ -30,6 +30,10 @@ Mobile Schrottabholung/Ankauf in NRW, Betreiber-Einzelquelle Mahmoud El-Lahib, B
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Impressum, Ankauf und Abholung erneut direkt einzeln gelesen. Weiterhin Mahmoud El-Lahib, Bahnhofstraße 3 Bochum-Wattenscheid und 0157 35855388, eine Betreiberquelle; weder stationäre Annahme noch unabhängiger Gewerbebeleg gewonnen. Ankauf-FAQ weiterhin Zinn 14 EUR/kg, Lötzinn ca. 40 Prozent 4 EUR/kg, reines Kupfer 6 EUR/kg, Eisen 0,30 EUR/kg ausdrücklich nur beispielhaft zum Sortenvergleich, ohne Publikationsdatum: keine aktuellen Ankaufskurse und kein Handler-Fund. Verkauf: keine Händler-Verkaufspreisliste. Gebühren: Abholung grundsätzlich kostenlos beworben, umfangreiche Arbeiten nach vorheriger Kostenabsprache; keine bezifferte Demontagegebühr, keine pauschale Nullgebühr für alle Aufträge. Schrottankaufangebot enthält Abbau/Abholung und richtet sich nach Menge, Sorte und Zustand; mengenabhängiger Ankauf nicht mit jeder kostenlosen Abholung gleichsetzen. Keine Frontmatter-/JSON-Änderung oder Lahib-Netzwerkzusammenführung. Quellen: https://schrottabholung.org/impressum/ ; https://schrottabholung.org/schrottankauf/ ; https://schrottabholung.org/schrottabholung/.]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Impressum, Ankauf und Abholung live einzeln gelesen. Mahmoud El-Lahib/Bahnhofstraße 3/44866 Bochum-Wattenscheid und bisheriges 0157-Telefon kongruent, nur Betreiber-Einzelquelle, kein neuer unabhängiger Identitäts-/Adressbeleg. Servicezeiten Mo–Sa 7–21 und Vereinbarung. Ankauf erfolgt nach Anfrage mit Sorte/Menge/Montagezustand/Ort und Preisabstimmung, Auszahlung bei Abholung; FAQ verlangt bestimmte, nicht numerisch definierte Mindestmenge je Metall. Keine pauschale Auszahlung für jede Abholung. Keine Anlieferung an Impressumssitz bestätigt, keine Merge-/GEO-Änderung. Quellen: https://schrottabholung.org/impressum/ ; https://schrottabholung.org/schrottankauf/ ; https://schrottabholung.org/schrottabholung/.]

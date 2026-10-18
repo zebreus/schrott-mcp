@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neuer konkreter Betreiberkandidat ist Dürwald Recycling, Inhaber Tobias Dürwald. Dessen direkt gelesenes Impressum nennt Galbergweg 11, 59929 Brilon, nicht Korbach. Die eigene Anlieferungsseite nennt Untern Omenberg 21 in Marsberg; ältere Portalleads nennen Oesterstraße 20. Eine Niederlassung Korbach oder die Identität des generischen Korbacher Seed-Eintrags ist damit nicht bewiesen. Keine automatische Orts-/Bundeslandverlagerung, Website- oder Kontaktübernahme; status pruefung bleibt.
+
+**Ankauf:** keine Zahlenkurse. **Verkauf:** Betreiberkandidat nennt Brennholz 50 EUR „pro Meter“, ohne präzise Mengendefinition. **Gebühren:** Elektroschrott- und Metallschrottabholung jeweils 28 EUR, Containeraufstellung 100 bzw. 200 EUR nach Größenangaben. Diese Funde gehören ausschließlich zum noch nicht identitätsgesicherten Kandidaten, nicht zu einem nachgewiesenen Korbacher Standort; keine Übernahme in Händlerpreise. Steuerbasis, Gültigkeit, Leistungsumfang und Standortbezug bleiben ungeklärt.
 
 ## Timeline
+
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Eigene Suche führt zu tobias-duerwald.biz; Impressum, Standort Marsberg Anlieferung und Service-Kosten direkt gelesen. Inhaber Tobias Dürwald, Impressum Galbergweg 11/59929 Brilon; Anlieferung Untern Omenberg 21/34431 Marsberg, mit fehlerhaft wirkender Telefon-/Mail-Schreibweise. Verzeichnislead Oesterstraße 20 nicht zur aktuellen Betreiberadresse erklären. Kein Korbach-Beleg, kein unabhängiger Identitäts-/Standortnachweis: alle Frontmatter-Felder unverändert. ANKAUF keine numerische Vergütung; VERKAUF Brennholz 50 EUR pro „Meter“ (Einheit unpräzise); GEBÜHREN Abholung Elektro-/Metallschrott je 28 EUR, Containeraufstellen Größen „5 &7 &10“ 100 EUR und „25 &45“ 200 EUR, Demontage Elektroanlagen 68 EUR/Stunde, Transporte 5 EUR/km. Preise ohne sichtbaren Gültigkeits-/Steuerhinweis und ausschließlich Kandidatenfunde, keine Korbach-Preise. Offen: Gewerbeidentität, möglicher alter Korbach-Bezug und heutige Betriebsstätten. Keine GEO-Arbeit. Quellen: https://tobias-duerwald.biz/Impressum ; https://tobias-duerwald.biz/Standort-Marsberg-Anlieferung ; https://tobias-duerwald.biz/Service-Kosten]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ Klärfall trotz aktueller Branchenbuch-Leads: Das Verzeichnis führt Falk Dahms,
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Betreiber-Domain erneut HTTP403, kein Impressum/Preisinhalt lesbar. Branchenbuchdetail separat direkt gelesen: Falk Dahms, Weidener Str. 47a/92690 Pressath, 09644 365, Mo–Fr 08:00–17:00/Sa 08:00–13:00. Trotz erneutem Abruf keine Primärbestätigung und keine aktuelle Demontageanerkennung; das Copyright 2026 des Portals datiert nicht die Betriebsdaten. Beschädigt codierte Verzeichniskoordinaten weiterhin nicht verwenden. Kein Frontmatter-Fill, blockiert/pruefung bleiben. Ankauf: keine Fahrzeug-/Schrottkurse; Verkauf: keine Ersatzteilpreise; Gebühren: keine Abhol-/Entsorgungstarife. Offen: Betreiberantwort oder gültiger Zertifikats-/Behördeneintrag mit kongruentem Inhaber und Standort. Quellen: https://www.autoverwertung-dahms.de/ (403) ; https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/falk-dahms-autoverwertung-pressath-73631450.html (Lead).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Betreiber-Domain unabhängig direkt erneut angefragt: HTTP403, weiterhin kein lesbares Impressum/Preisangebot. Offizielle GESA-Informationsseite und ihr Registerlink geprüft; die GADSYS-Anwendung lieferte hier keinen auswertbaren Betriebseintrag. Keine aktuelle Demontageanerkennung und keinen Negativregisterauszug behauptet. Historische Pressather Verzeichnisanschrift/-Zeiten bleiben Leads, keine Übernahme als Betreiber-Fill; website_status blockiert unverändert. Ankauf/Teileverkäufe/Entsorgungs- und Abholgebühren nicht verifiziert. Offen: Originalzertifikat, heutiger Betreiber, verbindliche Anschrift/Annahmebedingungen; Quelle: https://www.autoverwertung-dahms.de/ (HTTP403) ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]

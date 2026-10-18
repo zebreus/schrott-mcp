@@ -28,6 +28,10 @@ Das Register-/Gruppenbild stützt VS-Rohstoffe GmbH als industriellen Schrott-/R
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Aktuelles Villmann-Impressum eigenständig direkt gelesen. Friedrich-Franz-Str. 8 und 03381/3404-11 ausdrücklich ITB Industrietransportgesellschaft mbH Brandenburg EVU (HRB 33907P) sowie Hafenlogistik Brandenburg GmbH (HRB 12637) zugeordnet; VS-Rohstoffe dort nicht als Betreiber genannt. Das ist ein positiver Gegenbeleg zur unbesehenen Übernahme des Gruppenkontakts, kein Beweis der VS-Schließung. Nr. 11 und Alttelefon bleiben unbestätigter Bestand; Nr. 8 nicht als Annahmestelle füllen. ANKAUF/VERKAUF/GEBÜHREN: keine VS-eigene Preisliste aus diesem Fremdbetreiber-Impressum ableitbar. Offen: operativer Standort und direkter Ansprechpartner von VS; keine GEO-Arbeit. Quelle: https://www.villmann-gruppe.de/impressum.html]
+
 ### Recherche 03.10.2026 (Owner-Gate)
 
 - [Recherche 03.10.2026: street-Korrektur auf Nr. 8 und neue description zurückgenommen. Northdata ist eine zulässige Quelle, belegt jedoch den Register-/Gruppensitz; die gleichlautende Nummer und Nr. 8 bei Villmann betreffen andere Rechtsträger, 11880 bleibt Lead. Eine zweite unabhängige Quelle für VS-Rohstoffe an Nr. 8 bzw. aktuelle Leistungen fehlt; Seed-Adresse bleibt bis zur Klärung unverändert und gilt nicht als bestätigt.; Quelle(n): https://www.northdata.com/VS-Rohstoffe%20GmbH,%20Brandenburg%20a%C2%B7%20d%C2%B7%20Havel/Amtsgericht%20Potsdam%20HRB%2020852, https://www.11880.com/B100564904, https://www.villmann-gruppe.de/impressum.html]

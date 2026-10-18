@@ -30,6 +30,10 @@ Der Registerspiegel führt eine aktuell gelistete Ralf Weyel GmbH (HRB 7055, AG 
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Kommunale Kontaktseite eigenständig direkt erneut gelesen: Ortsgemeinde Niederfischbach ausdrücklich Konrad-Adenauer-Straße 15, Aktionsgemeinschaft dagegen Nr. 148. Keine Nennung eines Weyel-Schrottplatzes in diesen Kontaktangaben; der vorhandene Registeradresskandidat bleibt daher ohne operative Standortbestätigung. Gewerbe kann eine Geschäftsanschrift mit anderen Nutzern teilen; Gemeindeanschrift allein beweist weder Identität noch Nichtidentität der Ralf Weyel GmbH. ANKAUF/VERKAUF/GEBÜHREN: keine der Gemeinde-/Vereinsangaben sind Händlerpreise. Offen: Betreiberbeleg zum generischen Seed und tatsächlicher Annahmeort. Keine Frontmatter-/GEO-Änderung. Quelle: https://www.niederfischbach.de/kontakt]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Den Registerspiegel direkt geöffnet: HRB 7055, Ralf Weyel GmbH, Status „aktuell“, Sitz Niederfischbach, Gegenstand Handel mit Rohstoffen sowie Erzeugnissen aus Eisen/Stahl; der Auszug trägt Abrufvermerk 02.04.2024. Die aktuelle Gemeindeseite weist Konrad-Adenauer-Straße 15 als Kontakt der Ortsgemeinde aus, nicht als Händleradresse. Das bestätigt die bereits dokumentierte Trennung zwischen Registeranschrift und möglicher Betriebsstätte; kein Straßen-/Koordinaten-Fill. ANKAUF: keine Preisangaben; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Offen: ob die Ralf Weyel GmbH mit dem generischen Seed und einer öffentlichen Annahmestelle identisch ist; Quelle: https://handelsregister.live/hrb/rheinland-pfalz/ag-montabaur/7055/ralf-weyel-gmbh ; https://www.niederfischbach.de/kontakt]

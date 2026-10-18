@@ -32,6 +32,10 @@ Privat-/Gewerbeankauf mit Ausweis, Container 0,5–12 m³ und gewerbliche Großm
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Impressum, Dienstleistungen und Fuhrpark jeweils direkt gelesen: weiterhin Betreiber-Hof Teuringer Straße 57, ohne HRB im Impressum; unabhängige Hofbestätigung damit nicht nachgeholt. Leistungsseite sagt ausdrücklich „An- und Verkauf von Metallabfällen“, hat aber nur Ankaufablauf und keine Verkaufspreisliste. Sofortige Vergütung privater Kleinmengen/Ausweis und börsenabhängige Tagespreise sind Eigenangaben, keine Zahlenkurse. Neu zu beachten: die Kategorien „Zinn“ und „Zink“ enthalten auf der Website teils identische/vermischte Stofflisten; daraus keine neue Materialnormalisierung ableiten. Fuhrparktext „Euro-6“ betrifft Emissionen, nicht eine aktuelle EFB-Anerkennung. Gebühren: Container 0,5–12 m³ ohne Beträge; kein kostenloser Service zugesichert. Frontmatter unverändert, keine Koordinate. Offen bleiben unabhängiger Hofbeleg und aktuelles Zertifikat. Quellen: https://www.regu-recycling.de/impressum/ ; https://www.regu-recycling.de/dienstleistungen/ ; https://www.regu-recycling.de/fuhrpark/ .]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Betreiber-Leistungsseite und Impressum erneut direkt geprüft. Die Seite nennt Teuringer Straße 57, 88045 Friedrichshafen, Telefon +49 7541 55504, info@regu-recycling.de, Mo–Fr 08:00–12:00/13:00–18:00 und Sa 08:00–12:00; Dienstleistung: privater/gewerblicher Metallankauf, auch Kleinmengen gegen Ausweis, Vergütung nach Tages-/Marktpreis und individuelle Container. Der Registereintrag HRB 631783 führt weiterhin Kapitän-Wagner-Straße 28, nicht den Hof; unabhängige Bestätigung der Teuringer Kundenannahme steht aus, daher unverändert keine Straßen-/Kontakt-/Zeit-Fills und keine Koordinate. Ankauf ohne Zahlenkurs; kein Verkaufspreis-Katalog und keine Containergebührentabelle. Quellen: https://www.regu-recycling.de/dienstleistungen/ ; https://www.regu-recycling.de/impressum/ ; https://www.northdata.de/REGU%20Recycling%20Metallhandels-GmbH,%20Friedrichshafen/Amtsgericht%20Ulm%20HRB%20631783 (Abruf 12.10.2026).]

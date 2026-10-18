@@ -28,6 +28,10 @@ Betreiberwebsite nennt Danika Dettmann, Anthony-Fokker-Straße 5, 19061 Schwerin
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Preisunterseite eigenständig direkt gelesen; weiterhin ausschließlich telefonische Tagespreisauskunft ab 8 Uhr, keine Zahlenkurse. Derselbe Abruf enthält gleichzeitig Mo–Fr 7–17 in der Sidebar und 7–16 im Footer; deshalb weiterhin kein strukturierter Stunden-Fill. ANKAUF: Alteisen/Buntmetalle ausdrücklich gekauft, 10 kg/10 t nur Beispiel; VERKAUF: keine Liste; GEBÜHREN: kein Tarif auf dieser Seite, aus „Abholung“ keine Kostenfreiheit ableiten. Unabhängiger Inhaber-/Adressbeleg weiterhin offen; vorhandene Website nicht mit einem zweiten Betreiberbeleg verwechseln. Keine GEO-Arbeit. Quelle: https://www.fair-metall.de/schrottpreise/]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: Startseite, Schrottpreise und Impressum live gelesen: Danika Dettmann, Anthony-Fokker-Straße 5/19061, 0385 6768090, info@fair-metall.de. Neuer Creditreform-Suchauszug 3330219281 nennt denselben Namen, Anschrift, Telefon und Domain; Vollabruf HTTP 403, deshalb nur transparenter Quellenkandidat, kein Zwei-Vollbeleg-Fill. Neuer Zeitkonflikt: Sidebar auf Preis-/Impressumsseite Mo–Fr 7–17 Uhr, Footer derselben Seiten und Startseite 7–16 Uhr; Sa 9–13. opening_hours bleibt leer. Containerangabe lautet 5qm bis 40qm; alte Timeline-m³ nicht als technisch gesicherten Wert fortschreiben. ANKAUF: Tagespreise ausschließlich telefonisch täglich ab 8 Uhr, Barvergütung/Verwiegung; 10 kg oder 10 t ist Werbebeispiel, keine belegte Mindestmenge. VERKAUF/GEBÜHREN keine numerischen Tarife; Abholung nicht als kostenlos beworben übernehmen. GEO erst nach unabhängigem Adressnachweis. Quellen: https://www.fair-metall.de/ ; https://www.fair-metall.de/schrottpreise/ ; https://www.fair-metall.de/impressum/ (live); https://firmeneintrag.creditreform.de/19061/3330219281/DANIKA_DETTMANN_FAIR_METALL (Suchauszug, direkt 403).]

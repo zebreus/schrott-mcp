@@ -28,6 +28,10 @@ Der Seed enthält nur den Namen „Schubert“ und Roßtal. Die recherchierte Ot
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Roßtaler Kandidatenfirma Otto Schubert GmbH nochmals zweiseitig direkt gelesen (Startseite/Impressum): Gewerbestraße 8, HRB 3993 Fürth, Mechanik/Gehäusebau, ausdrücklicher Hersteller- statt Händlerhinweis. Urlaubshinweis August 2026 belegt datierten Herstellerinhalt, nicht einen Schrotthandel. Die genannte Zahl 20 EUR ist ein Mindestbestellwert für Herstellerbestellungen, weder Schrott-Ankaufskurs noch Verkaufspreis eines Materials oder Entsorgungsgebühr. Keine Identitätsbrücke zum unbestimmten Seednamen „Schubert“, keine Kontakt-/Adress-/Websiteübernahme. Für den Zielbetrieb Ankauf/Verkauf/Gebühren weiter unbelegt; ursprünglichen Importbeleg oder vollständigen Inhaber benötigt. Quellen: https://www.schubert-gehaeuse.de/ ; https://www.schubert-gehaeuse.de/impressum.html .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 90574)

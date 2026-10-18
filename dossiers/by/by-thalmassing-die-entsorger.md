@@ -30,6 +30,10 @@ provenance_origin: prose
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Kalweit-Portalprofil direkt neu gelesen: Münchener Str. 30/91177 und 0151 12156389, weiterhin PHP-Fehler statt nutzbarer Homepage sowie fehlende Beschreibung/Zeiten/Leistungen. Es gibt damit aus dieser Seite keine aktuelle Inhaber- oder Preisbestätigung. Exakte neue Suche war bei Brave 429 und Bing-RSS sachfremd; kein zulässiger Negativbefund zum Gewerbebestand. Ältere Telefonnummer 0171 1269839 und Landeckstraße nicht zugunsten des gerade abrufbaren Portals verwerfen. Frontmatter unverändert, keine GEO-Arbeit. Ankauf/Verkauf/Gebühren: keine qualifizierten Zahlen auf der gelesenen Quelle. Nächste Frage an kommunale/Betreiberquelle: vollständiger Name Kalweit und Verhältnis beider Anschriften/Nummern. Quelle (Lead): https://www.schrottplatz-info.de/schrottplatz/Thalmaessing/Kalweit-Die-Entsorger .]
+
 ### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
 
 - [Recherche 16.10.2026: Schrottplatz-info direkt neu gelesen: Kalweit „Die Entsorger“, Münchener Str. 30/91177, 0151 12156389; Homepage-Link weiterhin PHP/htmlspecialchars-Fehler, keine vollständigen Zeiten/Leistungen. Namens-/Ortssuche ergab keine neue qualifizierte Betreiberquelle. Thalmassing bei Regensburg ist ein anderer Ort als Thalmässing/91177; die dort auftauchende AVAS-Serviceseite nicht zugeordnet. Telefonkonflikt und Landeckstraße bleiben offene Inhaber-/Standortfragen. Keine Preise für Ankauf/Verkauf/Gebühren, keine neuen Stammdaten oder GEO-Punkte. Quelle (Lead): https://www.schrottplatz-info.de/schrottplatz/Thalmaessing/Kalweit-Die-Entsorger .]

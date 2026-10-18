@@ -30,6 +30,10 @@ Der Betreiberauftritt identifiziert Roland Griesbaum / Griesbaum Schrotthandlung
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Betreiber-Startseite/Impressum in Boxberg und gegenteiligen Distelhäuser Verzeichnislead direkt neu gelesen. Betreiber Roland Griesbaum bleibt Römerstraße 26a/97944; Main-Tauber-Städte sind Einsatzgebiet. Branchenbuch nennt Bundesstr. 13/97941 ausdrücklich H. Griesbaum, 09341 5287, und führt Roland Boxberg separat unter weiteren Einträgen. Keine familiäre/rechtliche Verbindung daraus bewiesen. Betreiber wirbt für Metalle mit kostenfrei bereitgestellten Containern, ohne Zahlen für Ankauf/Materialverkauf und ohne vollständige Tarifbedingungen für Transport, Fremdstoffe oder Entsorgung. Dies ist insbesondere kein Nulltarif des ungeklärten Distelhäuser Datensatzes. Keine Website/Kontakte vom Boxberger Betreiber übernommen, keine Zusammenführung/GEO; status pruefung. Offen: vollständiger Name von H. Griesbaum und zeitlich belegte Inhaberkette zum Seed Roland. Quellen: https://griesbaum-schrott.de/ ; https://griesbaum-schrott.de/impressum/ ; https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/h-griesbaum-autoverwertung-und-abschleppdienst-tauberbischofsheim-71614357.html (Lead).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott — mögl. Familienzweig

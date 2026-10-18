@@ -30,6 +30,10 @@ Ankauf/Auszahlung und öffentliche Anlieferung nicht belegt; keine zurechenbaren
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 0200 B)
+
+- [Recherche 18.10.2026: Erneute Suche Alles Entschrotter/Köln/Impressum führt zu Frank-Müller-Verzeichnisclustern, nicht zu einer verknüpfenden Betreiber-/Registerquelle. Vermutete Jimdo-Domain erneut direkt Transportfehler; kein Impressum und keine Preise gelesen. Die frühere Axel-Adler-Gegenspur bleibt ausdrücklich ungelöst; das Überwiegen Müller-bezogener Suchtreffer beweist keine Nachfolge oder Alleinidentität. Keine leeren Felder gefüllt, keine Schließung aus Abruffehler. Ankauf/Verkauf/Gebühren weiterhin nicht zurechenbar. Owner: juristische Person bzw. Gewerbeinhaber an Mathias-Brüggen-Str. 12 historisch und aktuell getrennt abgleichen. Quellen: https://schrottplatz-koeln.jimdo.com/ (Transportfehler) ; https://www.schrottplatz24.net/stadt/koeln/cat/schrotthandel/ ; https://www.werkenntdenbesten.de/schrotthandel/koeln (neue Suchleads).]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Eigene Suche Alles Entschrotter Köln findet weiterhin Frank-Müller- und Axel-Adler-Cluster, beide Mathias-Brüggen-Str. 12, 50827; Adler-Suchauszug jetzt michaell19777@gmail.com statt älterer axel.adler@outlook.de, nicht als Betreiberänderung gewertet. Jimdo-Domain direkt Transportfehler, kein lesbares Impressum/Leistungs-/Preisblatt; kein dauerhafter Tot- oder Schließungsnachweis. Keine Kontaktdatenfill, keine unbelegte Nachfolge Frank Müller → Axel Adler. Ankauf/Verkauf/Gebühren nicht verifiziert. Quellen: https://www.11880.com/branchenbuch/koeln/060440090B102237748/alles-entschrotter-frank-mueller.html (Suchlead); https://koeln.stadtbranchenbuch.com/6340043.html (Suchlead); https://schrottplatz-koeln.jimdo.com/ (Abrufgrenze).]

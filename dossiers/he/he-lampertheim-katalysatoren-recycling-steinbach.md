@@ -30,6 +30,10 @@ Die Leistung „Katalysatoren-Recycling“ lässt offen, ob Kauf, Analyse/Abrech
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Eigene Namens-/Ortssuche liefert erstmals konkrete Zusatzleads: auskunft.de-Suchauszug Römerstraße 94/68623 Lampertheim; Exa-Place-Aggregat nur Römerstraße und 0176 73861525, Rezensionen aus März 2021. Vollabruf auskunft.de HTTP 500. Weder Portaldaten noch Bewertungen sind zulässige unabhängige Betreiberbelege; keine Adresse/Telefon übernehmen und aus „Open“ keinen heutigen Aktivstatus ableiten. ANKAUF: Rezension „guten Preis“ ohne Zahl ist keine veröffentlichte Ankaufsliste; VERKAUF/GEBÜHREN keine belegten Tarife. Offen: vollständiger Inhabername und kommunale Gewerbe-/Betreiberbestätigung zu Römerstraße 94; keine GEO-Arbeit. Quellen/Abrufgrenzen: https://www.auskunft.de/a/schrotthaendler/worms ; https://exa.ai/library/place/0m8ncs7pm8s (Suchindex-Leads).]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Namens-/Ortssuche und direkt gelesene 11880-Suche Katalysatoren Lampertheim lieferten keinen belegfähigen Betreiber-/Registertreffer für diesen Seednamen. Verzeichnisabwesenheit nicht als Schließung gewertet; fremde Steinbach-/Katalysatoren-Unternehmen nicht attribuiert. Überblick konkretisiert offenen Identitäts- und Leistungsnachweis, Frontmatter bleibt leer/status pruefung; Quelle(n): https://www.11880.com/suche/katalysatoren/lampertheim; importierter Verzeichnislead (ohne rekonstruierbare Primärquelle)]

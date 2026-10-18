@@ -28,6 +28,10 @@ Die Altmetall Wetzel UG ist laut vorhandener Registerrecherche unter HRB Cottbus
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Northdata-Profil diesmal direkt vollständig gelesen: Altmetall Wetzel UG, AG Cottbus HRB 14999, EUID DEG1103.HRB14999CB, Bahnhofstr. 23, 03116 Drebkau; Gegenstand Handel und Aufbereitung von Altmetallen. Publikationen nennen am 21.03.2025 Tanja Zimmermann als Geschäftsführerin statt Nico Kurpat, 2022 zuvor Wechsel von Egon Heinrich Wetzel zu Nico Kurpat. Das konkretisiert die Rechtsträger-/Leitungsspur, bestätigt aber weder öffentliche Annahme noch die Seed-Bezeichnung „Filiale“. Keine unbewiesene Betreiberkette zur Mannheimer Schrott Wetzel GmbH; keine Umbenennung ohne unabhängigen Identitätsbeleg. ANKAUF/VERKAUF/GEBÜHREN keine veröffentlichten Zieltarife im Registerprofil; Stammkapital ist kein Preis. Offen: aktueller operativer Drebkauer Standort, Filialverhältnis und Annahmekonditionen. Keine GEO-Arbeit. Quelle: https://www.northdata.de/Altmetall+Wetzel+UG,+Drebkau/HRB+14999]
+
 ### Korrektur 07.10.2026
 
 - [Korrektur 07.10.2026: status aktiv → pruefung — die bestehende HRB-Cottbus-14999-Notiz belegt die Rechtsträgerin, nicht die aktuelle Schrottannahme am Standort. Das Örtliche führt sowohl Drebkau, Bahnhofstr. 23 als auch eine Cottbuser Adresse unter Altmetall Wetzel UG; als Verzeichniseintrag bestätigt das keine aktuelle Filiale oder Betriebszeiten. Ähnlich benannte Mannheimer Firma/Domain weiterhin getrennt halten. Kein Schließungsbeleg; keine aktuellen Ankaufspreise, Verkaufspreise oder Gebühren verifiziert. Quelle(n): https://www.dasoertliche.de/Themen/Wetzel.html (Aggregator); Northdata/HRB Cottbus 14999 (Registerhinweis aus Recherche 30.09.; kein Live-Standortbeleg).]

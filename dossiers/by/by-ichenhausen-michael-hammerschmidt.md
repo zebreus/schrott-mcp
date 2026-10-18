@@ -28,9 +28,15 @@ provenance_origin: table
 
 Michael Hammerschmidt/Hammerschmidt Recycling bleibt Identitätsprüffall. Karl-Königsdorfer-Str. 25 A, 89335 Ichenhausen, 08223 408217 und info@hammerschmidt-recycling.de stammen bisher aus Verzeichnissen; mehrere andere Hammerschmidt-Betriebe sind bekannt. Der Verzeichniskonsens von 02.10. löst die rechtliche Zuordnung nicht nach README. Domain mit und ohne www erneut direkt versucht, beide Transportfehler; keine Betreiberseite gelesen. Kontakte und unbegründeter Aktivstatus zurückgenommen, nicht geschlossen gesetzt.
 
+Neue Spur vom 18.10.: Der Suchindex des konkreten Impressumspfads nennt Michael als Inhaber und die Ichenhausener Kandidatenadresse, jedoch zugleich „Stuttgart und Umgebung“ im Seitentitel. Direktabruf bleibt wegen abgelaufenem TLS-Zertifikat unmöglich; dies ist ein präziserer Lead, keine nun gelesene Betreiberbestätigung.
+
 Ankauf-/Verkaufs-/Gebührenlisten nicht aus Betreiberinhalt verifiziert. Kommunale Gewerbeauskunft/Betreiberantwort zur Zuordnung Michael–Domain–Adresse erforderlich. GEO erst danach; Löschen der Frontmatter-Adresse entfernt vorhandene DB-Koordinaten nicht automatisch.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 02:00 / a
+
+- [Recherche 18.10.2026: Neue gezielte Websuche findet erstmals einen konkreten Impressumspfad der Kandidatendomain. Der Brave-Index zitiert „Inhaber: Michael Hammerschmidt“, Karl-Königsdorfer-Str. 25a/89335 und Mobil +49 174 3206664; der Seitentitel nennt zugleich „Stuttgart und Umgebung“. Wichtig: nur Suchindex, kein neu gelesenes Betreiber-Impressum. HTTP und HTTPS des Impressumspfads scheitern mit normaler TLS-Prüfung am abgelaufenen Zertifikat; kein Bypass. Zusätzlich indexierte michael-hammerschmidt.de ist beim Direktabruf nicht auflösbar. Der indexierte Inhaber ist ein gezielter neuer Lead, erfüllt aber keinen aktuellen Direkt-/Zweitbeleg und löst die Stuttgart-/Ichenhausen-Zuordnung nicht. Keine Kontakte restauriert, keine Website gesetzt, clear_fields und pruefung bleiben. Ankauf/Verkauf/Gebühren ohne gelesene Primärliste. Gegen Emil/Philip weiterhin strikt abgrenzen. Quellen: https://search.brave.com/search?q=%22Michael+Hammerschmidt%22+Recycling+Ichenhausen ; https://hammerschmidt-recycling.de/impressum/impressum.html (TLS-Fehler) ; http://hammerschmidt-recycling.de/impressum/impressum.html (Weiterleitung, TLS-Fehler) ; https://michael-hammerschmidt.de/ (DNS-Fehler).]
 
 ### Recherche 14.10.2026
 

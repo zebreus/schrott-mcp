@@ -30,6 +30,10 @@ Ein Schrottplatzverzeichnis nennt Am Kirchtal 5, 99955 Bad Tennstedt und Telefon
 
 ## Timeline
 
+### Recherche 18.10.2026 (02:00-Welle C)
+
+- [Recherche 18.10.2026: Amtliche LAWP-2018-Datei erneut direkt angefordert, HTTP 403. Die historische Suchspur zu Mario Scheffler/Bleibatterielager ist damit nach wie vor kein gelesener Behördenbeleg; nicht als aktuelle Genehmigung oder Öffnung ausgeben. Eigenständige ergänzende Namens-/Branchensuche ohne qualifizierten neuen Betreiberbeleg; gleichnamige IT-/Auslandsprofile nicht zugeordnet. Die 2011er Anzeige bleibt historischer Ankaufbeleg ohne heutige Mengenbedingungen. ANKAUF: keine aktuellen Zahlen; VERKAUF: keine Liste; GEBÜHREN: keine belegten aktuellen Tarife. Offen: heutige Gewerbe-/Standortbestätigung und vollständige amtliche Tabellenzeile, keine GEO-Arbeit. Quelle/Abrufgrenze: https://umwelt.thueringen.de/fileadmin/001_TMUEN/Unsere_Themen/Abfallwirtschaft/lawp-fortschreibung-2018.pdf]
+
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 
 - [Recherche 14.10.2026: Historische Betreiberanzeige erneut als Original-PDF abgerufen und textlich kontrolliert: PDF-Seite 30, Weihnachtsgrüße für 2012 und Praxisurlaub 27.–31.12.2011 verorten die Ausgabe konkret Ende 2011. „Fa Scheffler Tel.: 036041-33281“, sofortige Barzahlung und Mindestabholung 100 kg bleiben historische Eigenwerbung, weder Mario-Vollname noch Am Kirchtal 5 oder Fortbestand 2026 sind daraus bewiesen. Amtliches LAWP-2018-PDF erneut HTTP 403, Tabellenzeile unverifiziert; keine Suchauszüge als vollständig gelesenen Behördenbeleg ausgeben. Quellen: https://www.greussen.info/images/gaz/gaz220.pdf ; https://umwelt.thueringen.de/fileadmin/001_TMUEN/Unsere_Themen/Abfallwirtschaft/lawp-fortschreibung-2018.pdf (403).]
