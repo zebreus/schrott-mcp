@@ -1375,6 +1375,7 @@ dependencies = [
  "chrono-tz",
  "cssparser",
  "reqwest",
+ "rusqlite",
  "schrott-mcp-store",
  "scraper",
  "serde",

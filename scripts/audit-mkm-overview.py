@@ -16,7 +16,7 @@ import re
 from pathlib import Path
 
 DEFAULT_MAPPING_ORACLE = (Path(__file__).resolve().parent.parent /
-    "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261011.json")
+    "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261018.json")
 
 
 def text(fragment):
@@ -46,7 +46,7 @@ def inventory(document):
             request = "auf Anfrage" in price_text
             if bool(quote) == request:
                 raise ValueError(f"Ambiguous quote/request: {price_text}")
-            tiers = re.search(r'\bdata-staffel="([^\"]*)"', cells[3])
+            tiers = re.search(r"""\bdata-staffel=(["'])(.*?)\1""", cells[3], re.S)
             date = re.search(r'<time\b[^>]*datetime="([^\"]+)"', cells[2])
             rows.append(
                 {
@@ -62,7 +62,7 @@ def inventory(document):
                     ),
                     "price_cell": price_text,
                     "product_change_date": date[1] if date else None,
-                    "embedded_tiers": json.loads(html.unescape(tiers[1])) if tiers else None,
+                    "embedded_tiers": json.loads(html.unescape(tiers[2])) if tiers else None,
                 }
             )
     if not rows or len({r["article"] for r in rows}) != len(rows):

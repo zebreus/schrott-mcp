@@ -5,11 +5,11 @@ use chrono::{DateTime, Utc};
 use schrott_mcp_store::{NewPrice, PublicDb};
 
 use super::{
-    overview::{quote_cell, Snapshot, GROUPS, MAPPINGS},
     SLUG, URL,
+    overview::{GROUPS, MAPPINGS, Snapshot, quote_cell},
 };
-use crate::traders::{RecordSummary, MAP_VERSION};
 use crate::IngestError;
+use crate::traders::{MAP_VERSION, RecordSummary};
 
 const OWNER: &str = "mkm-article-v1";
 // Only these ten canonical identities are independently evidenced in the
@@ -327,8 +327,16 @@ mod tests {
     use schrott_mcp_store::{InternalDb, PriceRow};
     const HTML: &str = include_str!("../fixtures/mkm-overview-20261010.html");
     const IMP: &str = include_str!("../fixtures/mkm-impressum-20261010.html");
+    include!("recording_historical_transition_test.rs");
     fn fixture(html: &str) -> Snapshot {
-        super::super::overview::parse(html, IMP, 200).unwrap()
+        // Synthetic complete input for legacy-layout/date mutation regressions.
+        // The real 18 October capture test above/below bypasses this helper.
+        super::super::overview::parse(
+            &super::super::overview::augment_legacy_test_html(html),
+            IMP,
+            200,
+        )
+        .unwrap()
     }
     fn setup(
         name: &str,
@@ -456,11 +464,307 @@ mod tests {
     }
 
     #[tokio::test]
+    async fn reviewed_20261018_capture_records_distinct_ms58_variant() {
+        // Owner-reviewed source capture, not a constructed typed Snapshot.
+        // Keep this success expectation red until mapping AND Store review land.
+        let (_dir, db, internal, _) = setup("mkm-reviewed-20261018-capture");
+        let snapshot = super::super::overview::parse(
+            include_str!("../fixtures/mkm-overview-20261018-sanitized.html"),
+            include_str!("../fixtures/mkm-impressum-20261018-sanitized.html"),
+            200,
+        )
+        .expect("sanitized operator capture must parse before the recording assertion");
+        assert_eq!(snapshot.articles.len(), 61);
+        assert_eq!(
+            snapshot.articles.iter().filter(|a| a.request_only).count(),
+            5
+        );
+        let now = DateTime::parse_from_rfc3339("2026-10-18T18:02:00+00:00")
+            .unwrap()
+            .with_timezone(&Utc);
+        // Do not assert empty diagnostics or inject a mapping before this call:
+        // the real recording guard must see the original unknown article.
+        let outcome = crate::traders::RecordOutcome::MkmArticles(snapshot);
+        let summary = crate::traders::record_outcome(&db, &internal, SLUG, &outcome, &now)
+            .await
+            .expect(
+                "reviewed 61-article capture must record through the real MKM Store transaction",
+            );
+        assert_eq!((summary.recorded, summary.accepted), (56, 5));
+
+        let tid = db.find_trader_id(SLUG).unwrap().unwrap();
+        assert_eq!(db.current_prices_from(tid, URL).unwrap().len(), 56);
+        let p = current(&db, "messing", "Messing 58 blank neu").unwrap();
+        assert_eq!(p.price, 6.51);
+        assert_eq!(p.price_max, Some(6.51));
+        assert_eq!(p.price_min, None);
+        assert_eq!(p.unit, "EUR/kg");
+        assert_eq!(p.currency, "EUR");
+        assert_eq!(p.price_kind, "upto");
+        assert_eq!(p.confidence, Some(0.5));
+        assert_eq!(p.source_url, URL);
+        assert_eq!(
+            (p.published_at, p.valid_from, p.valid_to),
+            (None, None, None)
+        );
+        let extra: serde_json::Value = serde_json::from_str(&p.extra_json).unwrap();
+        assert_eq!(extra["snapshot_owner"], "mkm-article-v1");
+        let article = &extra["article"];
+        assert_eq!(article["article"], "MKM-MS-01");
+        assert_eq!(article["material"], "messing");
+        assert_eq!(article["variant"], "Messing 58 blank neu");
+        assert_eq!(
+            article["url"],
+            "https://mkm-metals.de/metallankauf/produkt/messing-58-blank-neu"
+        );
+        assert_eq!(article["price_eur_per_kg"], 6.51);
+        assert_eq!(article["minimum_for_upper_bound_kg"], 500.0);
+        assert_eq!(article["product_change_date"], "2026-10-18");
+        assert_eq!(
+            article["tiers"],
+            serde_json::json!([
+                {"ab": 0.0, "preis": 6.20},
+                {"ab": 5.0, "preis": 6.32},
+                {"ab": 500.0, "preis": 6.51}
+            ])
+        );
+        for variant in [
+            "Messing Hülsen",
+            "Messing 63 Abfälle",
+            "Messing 58 Abfälle",
+            "Messing schwer",
+            "Messing Späne",
+        ] {
+            assert_ne!(current(&db, "messing", variant).unwrap().id, p.id);
+        }
+        let acceptance = db.existing_acceptance(tid, p.material_id).unwrap().unwrap();
+        let members: Vec<serde_json::Value> = serde_json::from_str(&acceptance.1).unwrap();
+        assert_eq!(members.len(), 6);
+        assert_eq!(
+            members
+                .iter()
+                .filter(|a| a["article"] == "MKM-MS-01")
+                .count(),
+            1
+        );
+        assert!(members.iter().any(|a| a == article));
+
+        let ledger = db
+            .query_sql("SELECT manifest_json FROM source_article_snapshots")
+            .unwrap();
+        assert_eq!(ledger.rows.len(), 1);
+        let manifest: serde_json::Value =
+            serde_json::from_str(ledger.rows[0][0].as_str().unwrap()).unwrap();
+        let articles = manifest["articles"].as_array().unwrap();
+        assert_eq!(articles.len(), 61);
+        let old_oracle: serde_json::Value = serde_json::from_str(include_str!(
+            "../fixtures/mkm-reviewed-mapping-oracle-20261011.json"
+        ))
+        .unwrap();
+        assert_eq!(old_oracle["expected"].as_object().unwrap().len(), 60);
+        for (id, mapping) in old_oracle["expected"].as_object().unwrap() {
+            let matches: Vec<_> = articles
+                .iter()
+                .filter(|a| a["article"] == id.as_str())
+                .collect();
+            assert_eq!(matches.len(), 1, "preserve historical article {id}");
+            assert_eq!(matches[0]["material"], mapping[0]);
+            assert_eq!(matches[0]["variant"], mapping[1]);
+        }
+        assert_eq!(
+            articles
+                .iter()
+                .filter(|a| a["article"] == "MKM-MS-01")
+                .count(),
+            1
+        );
+    }
+
+    #[tokio::test]
+    async fn reviewed_capture_unknown_62_and_same_count_replacement_cannot_mutate_evidence() {
+        let (_dir, db, internal, now) = setup("mkm-unreviewed-article-guard");
+        let html = include_str!("../fixtures/mkm-overview-20261018-sanitized.html");
+        let imp = include_str!("../fixtures/mkm-impressum-20261018-sanitized.html");
+        commit(
+            &db,
+            &internal,
+            super::super::overview::parse(html, imp, 200).unwrap(),
+            now,
+        )
+        .await
+        .unwrap();
+        let evidence = || {
+            [
+                "prices",
+                "current_prices",
+                "trader_materials",
+                "source_article_snapshots",
+                "article_acceptance_owners",
+            ]
+            .iter()
+            .map(|t| {
+                db.query_sql(&format!("SELECT * FROM {t} ORDER BY rowid"))
+                    .unwrap()
+                    .rows
+            })
+            .collect::<Vec<_>>()
+        };
+        let before = evidence();
+        let row = html
+            .lines()
+            .find(|line| line.contains("<td>MKM-MS-01</td>"))
+            .unwrap();
+        let unknown = row
+            .replace("MKM-MS-01", "MKM-MS-02")
+            .replace("Messing 58 blank neu", "Messing unreviewed")
+            .replace("messing-58-blank-neu", "messing-unreviewed");
+        for (changed, count) in [
+            (html.replacen(row, &format!("{row}\n{unknown}"), 1), 62),
+            (html.replacen(row, &unknown, 1), 61),
+        ] {
+            let s = super::super::overview::parse(&changed, imp, 200).unwrap();
+            assert_eq!(s.articles.len(), count);
+            assert!(
+                s.diagnostics
+                    .iter()
+                    .any(|d| d.contains("MKM-MS-02: unknown article"))
+            );
+            if count == 61 {
+                assert!(
+                    s.diagnostics
+                        .iter()
+                        .any(|d| d.contains("MKM-MS-01: missing known article"))
+                );
+            }
+            let error = commit(&db, &internal, s, now + chrono::Duration::minutes(1))
+                .await
+                .unwrap_err();
+            assert!(
+                error
+                    .to_string()
+                    .contains("incomplete or invalid MKM source contract")
+            );
+            assert_eq!(evidence(), before);
+        }
+        // A source reverting to the old 60 rows is not retirement authority.
+        let old = super::super::overview::parse(HTML, IMP, 200).unwrap();
+        assert!(
+            commit(&db, &internal, old, now + chrono::Duration::minutes(1))
+                .await
+                .is_err()
+        );
+        assert_eq!(evidence(), before);
+        for changed_row in [
+            row.replace("Messing 58 blank neu", "Messing 58 blank changed"),
+            row.replace(
+                "/produkt/messing-58-blank-neu",
+                "/produkt/messing-different",
+            ),
+        ] {
+            let changed = html.replacen(row, &changed_row, 1);
+            let s = super::super::overview::parse(&changed, imp, 200).unwrap();
+            assert!(
+                s.diagnostics
+                    .iter()
+                    .any(|d| d.contains("MKM-MS-01: changed identity"))
+            );
+            assert!(
+                commit(&db, &internal, s, now + chrono::Duration::minutes(1))
+                    .await
+                    .is_err()
+            );
+            assert_eq!(evidence(), before);
+        }
+        let bad_tiers = html.replacen(row, &row.replace("6,51 €", "6,52 €"), 1);
+        assert!(
+            super::super::overview::parse(&bad_tiers, imp, 200)
+                .unwrap_err()
+                .to_string()
+                .contains("tiers disagree")
+        );
+        assert_eq!(evidence(), before);
+        assert!(
+            super::super::overview::parse(
+                &html.replacen(row, &format!("{row}\n{row}"), 1),
+                imp,
+                200
+            )
+            .is_err()
+        );
+    }
+
+    #[tokio::test]
+    async fn reviewed_ms58_request_transition_preserves_immutable_history_and_other_brass_keys() {
+        let (_dir, db, internal, now) = setup("mkm-ms58-request-history");
+        let html = super::super::overview::augment_legacy_test_html(HTML);
+        commit(&db, &internal, fixture(&html), now).await.unwrap();
+        let before = current(&db, "messing", "Messing 58 blank neu").unwrap();
+        let other = current(&db, "messing", "Messing 58 Abfälle").unwrap();
+        let prices_before = db
+            .query_sql("SELECT * FROM prices ORDER BY id")
+            .unwrap()
+            .rows;
+        let ledgers_before = db
+            .query_sql("SELECT * FROM source_article_snapshots ORDER BY id")
+            .unwrap()
+            .rows;
+        commit(&db, &internal, fixture(&html), now).await.unwrap();
+        assert_eq!(
+            db.query_sql("SELECT * FROM prices ORDER BY id")
+                .unwrap()
+                .rows,
+            prices_before
+        );
+        assert_eq!(
+            db.query_sql("SELECT * FROM source_article_snapshots ORDER BY id")
+                .unwrap()
+                .rows,
+            ledgers_before
+        );
+        let requested = change_row(&html, "MKM-MS-01", true, None);
+        let summary = commit(
+            &db,
+            &internal,
+            fixture(&requested),
+            now + chrono::Duration::minutes(1),
+        )
+        .await
+        .unwrap();
+        assert_eq!((summary.recorded, summary.accepted), (55, 6));
+        assert!(current(&db, "messing", "Messing 58 blank neu").is_none());
+        assert_eq!(
+            current(&db, "messing", "Messing 58 Abfälle").unwrap().id,
+            other.id
+        );
+        let history = db
+            .price_history(before.trader_id, before.material_id, &before.variant, 10)
+            .unwrap();
+        assert_eq!(history.len(), 1);
+        assert_eq!(format!("{:?}", history[0]), format!("{before:?}"));
+        let summary = commit(
+            &db,
+            &internal,
+            fixture(&html),
+            now + chrono::Duration::minutes(2),
+        )
+        .await
+        .unwrap();
+        assert_eq!((summary.recorded, summary.accepted), (56, 5));
+        assert!(current(&db, "messing", "Messing 58 blank neu").is_some());
+        assert_eq!(
+            db.query_sql("SELECT * FROM source_article_snapshots ORDER BY id")
+                .unwrap()
+                .rows[0],
+            ledgers_before[0]
+        );
+    }
+
+    #[tokio::test]
     async fn readonly_legacy_alias_replay_preserves_history_and_matches_independent_oracle() {
         let (_dir, db, internal, now) = setup("mkm-alias-replay");
         let old = replay_readonly(&db);
         let oracle: serde_json::Value = serde_json::from_str(include_str!(
-            "../fixtures/mkm-reviewed-mapping-oracle-20261011.json"
+            "../fixtures/mkm-reviewed-mapping-oracle-20261018.json"
         ))
         .unwrap();
         let s = fixture(HTML);
@@ -469,7 +773,7 @@ mod tests {
         assert!(current(&db, "kupfer-berry", "Kerze").is_none());
         assert_eq!(
             db.current_prices_from(old[0].trader_id, URL).unwrap().len(),
-            55
+            56
         );
         for a in fixture(HTML).articles {
             let reviewed = &oracle["expected"][&a.article];
@@ -542,14 +846,15 @@ mod tests {
         )
         .await
         .unwrap();
-        assert_eq!((summary.recorded, summary.accepted), (54, 6));
+        assert_eq!((summary.recorded, summary.accepted), (55, 6));
         assert!(current(&db, "kupfer-millberry", "").is_none());
-        assert!(db
-            .existing_acceptance(tid, mid)
-            .unwrap()
-            .unwrap()
-            .1
-            .contains("auf Anfrage"));
+        assert!(
+            db.existing_acceptance(tid, mid)
+                .unwrap()
+                .unwrap()
+                .1
+                .contains("auf Anfrage")
+        );
         assert_eq!(db.price_history(tid, mid, "", 10).unwrap().len(), 2);
         assert!(
             commit(
@@ -591,7 +896,7 @@ mod tests {
         let (_dir, db, internal, now) = setup("mkm-all-request");
         let original = fixture(HTML);
         commit(&db, &internal, fixture(HTML), now).await.unwrap();
-        let mut html = HTML.to_owned();
+        let mut html = super::super::overview::augment_legacy_test_html(HTML);
         for article in original.articles.iter().filter(|a| !a.request_only) {
             html = change_row(&html, &article.article, true, None);
         }
@@ -606,12 +911,12 @@ mod tests {
                 requests.outcome.prices.len(),
                 requests.outcome.acceptances.len()
             ),
-            (0, 60)
+            (0, 61)
         );
         let result = commit(&db, &internal, requests, now + chrono::Duration::minutes(1))
             .await
             .unwrap();
-        assert_eq!((result.recorded, result.accepted), (0, 60));
+        assert_eq!((result.recorded, result.accepted), (0, 61));
         let tid = db.find_trader_id(SLUG).unwrap().unwrap();
         assert!(db.current_prices_from(tid, URL).unwrap().is_empty());
         for article in original.articles.iter().filter(|a| !a.request_only) {
@@ -651,10 +956,12 @@ mod tests {
         let extra: serde_json::Value = serde_json::from_str(&after.extra_json).unwrap();
         assert_eq!(extra["article"]["product_change_date"], "2026-09-29");
         assert_eq!(extra["page_change_date"], "2026-10-10T00:00:00+00:00");
-        assert!(extra["page_change_precision"]
-            .as_str()
-            .unwrap()
-            .contains("not source time"));
+        assert!(
+            extra["page_change_precision"]
+                .as_str()
+                .unwrap()
+                .contains("not source time")
+        );
         assert_eq!(after.published_at, None);
         let history = db
             .price_history(before.trader_id, before.material_id, "", 10)
@@ -770,14 +1077,16 @@ mod tests {
             db.set_acceptance(tid, mid, true, conditions, None, None, at, at)
                 .unwrap();
             let before = current(&db, "kupfer-millberry", "").unwrap();
-            assert!(commit(
-                &db,
-                &internal,
-                fixture(&change_first_row(HTML, false, Some(500))),
-                now + chrono::Duration::minutes(1)
-            )
-            .await
-            .is_err());
+            assert!(
+                commit(
+                    &db,
+                    &internal,
+                    fixture(&change_first_row(HTML, false, Some(500))),
+                    now + chrono::Duration::minutes(1)
+                )
+                .await
+                .is_err()
+            );
             assert_eq!(current(&db, "kupfer-millberry", "").unwrap().id, before.id);
             assert_eq!(
                 db.existing_acceptance(tid, mid).unwrap().unwrap().1,
@@ -917,7 +1226,7 @@ mod tests {
                 snapshot.outcome.prices.len(),
                 snapshot.outcome.acceptances.len()
             ),
-            (57, 3)
+            (58, 3)
         );
         commit(&db, &internal, snapshot, now + chrono::Duration::minutes(1))
             .await
@@ -1007,7 +1316,9 @@ mod tests {
         let tiers = serde_json::to_string(&source.tiers)
             .unwrap()
             .replace('"', "&quot;");
-        let cells=format!("<td class=\"num\"><strong>11,13 €</strong> /kg ab 250 kg</td><td><time datetime=\"2026-09-28\">28.09.2026</time></td><td><input data-price=\"10.6\" data-staffel=\"{tiers}\"></td>");
+        let cells = format!(
+            "<td class=\"num\"><strong>11,13 €</strong> /kg ab 250 kg</td><td><time datetime=\"2026-09-28\">28.09.2026</time></td><td><input data-price=\"10.6\" data-staffel=\"{tiers}\"></td>"
+        );
         format!("{}{}{}", &html[..start], cells, &html[end..])
     }
 
@@ -1015,15 +1326,20 @@ mod tests {
     async fn review_f1_first_request_cutover_retires_all_proven_legacy_quotes() {
         let (_dir, db, internal, now) = setup("mkm-first-request-cutover");
         let old = replay_readonly(&db);
-        let mut html = HTML.to_owned();
+        let mut html = super::super::overview::augment_legacy_test_html(HTML);
         for a in fixture(HTML).articles.iter().filter(|a| !a.request_only) {
             html = change_row(&html, &a.article, true, None);
         }
         let snapshot = fixture(&html);
         assert!(snapshot.diagnostics.is_empty());
         let result = commit(&db, &internal, snapshot, now).await.unwrap();
-        assert_eq!((result.recorded, result.accepted), (0, 60));
-        assert!(db.current_prices_from(old[0].trader_id,URL).unwrap().is_empty(),"first typed import must retire all 12 proven legacy keys, without prior typed numeric import");
+        assert_eq!((result.recorded, result.accepted), (0, 61));
+        assert!(
+            db.current_prices_from(old[0].trader_id, URL)
+                .unwrap()
+                .is_empty(),
+            "first typed import must retire all 12 proven legacy keys, without prior typed numeric import"
+        );
         for before in old {
             let history = db
                 .price_history(before.trader_id, before.material_id, &before.variant, 10)
@@ -1064,9 +1380,10 @@ mod tests {
                 ingested_at: "2026-10-12T00:00:00+00:00",
             };
             assert!(db.record_price(&p).is_err());
-            assert!(db
-                .record_price_snapshot(&[p], &[], "foreign-producer")
-                .is_err());
+            assert!(
+                db.record_price_snapshot(&[p], &[], "foreign-producer")
+                    .is_err()
+            );
             let after = current(&db, "kupfer-millberry", "").unwrap();
             assert_eq!(format!("{after:?}"), format!("{before:?}"));
             assert_eq!(
@@ -1116,7 +1433,7 @@ mod tests {
             })
             .unwrap();
             let protected = current(&db, "kupfer-millberry", "").unwrap();
-            let mut html = HTML.to_owned();
+            let mut html = super::super::overview::augment_legacy_test_html(HTML);
             for a in fixture(HTML).articles.iter().filter(|a| !a.request_only) {
                 html = change_row(&html, &a.article, true, None);
             }
@@ -1184,7 +1501,8 @@ mod tests {
         cases.push(HTML.replacen("&quot;ab&quot;:40", "&quot;ab&quot;:{&quot;kg&quot;:40}", 1));
         for (i, html) in cases.iter().enumerate() {
             assert_ne!(html, HTML, "mutation {i} actually applied");
-            if let Ok(snapshot) = super::super::overview::parse(html, IMP, 200) {
+            let complete = super::super::overview::augment_legacy_test_html(html);
+            if let Ok(snapshot) = super::super::overview::parse(&complete, IMP, 200) {
                 assert!(
                     commit(&db, &internal, snapshot, now).await.is_err(),
                     "review mutation {i} accepted"
@@ -1226,19 +1544,22 @@ mod tests {
                 .await
                 .is_err()
         );
-        assert!(crate::traders::record_outcome(
-            &db,
-            &internal,
-            "foreign-trader",
-            &crate::traders::RecordOutcome::MkmArticles(s),
-            &now
-        )
-        .await
-        .is_err());
-        assert!(db
-            .current_prices_from(db.find_trader_id(SLUG).unwrap().unwrap(), URL)
-            .unwrap()
-            .is_empty());
+        assert!(
+            crate::traders::record_outcome(
+                &db,
+                &internal,
+                "foreign-trader",
+                &crate::traders::RecordOutcome::MkmArticles(s),
+                &now
+            )
+            .await
+            .is_err()
+        );
+        assert!(
+            db.current_prices_from(db.find_trader_id(SLUG).unwrap().unwrap(), URL)
+                .unwrap()
+                .is_empty()
+        );
     }
 
     #[tokio::test]

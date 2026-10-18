@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Read-only persisted MKM rollout gate, not a fresh source or trigger oracle.
 
-Pair with source audit/deployment journal. Fixed 55/5 needs review on source drift.
+Pair with source audit/deployment journal. Fixed 56/5 needs review on source drift.
 Databases are independently sampled. No ingestion or production DB mutations.
 """
 import argparse
@@ -13,7 +13,7 @@ from pathlib import Path
 SLUG = "rp-ludwigshafen-mkm-metals"
 URL = "https://mkm-metals.de/metallpreise"
 OWNER = "mkm-article-v1"
-ORACLE = Path(__file__).resolve().parent.parent / "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261011.json"
+ORACLE = Path(__file__).resolve().parent.parent / "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261018.json"
 
 
 def connect(path):
@@ -42,8 +42,8 @@ def verify(public, internal, since):
     if not {"source_article_snapshots", "article_acceptance_owners"} <= tables:
         return {"ok": False, "failures": ["typed MKM schema missing; deployment not proven"]}
     step = internal.execute("SELECT * FROM ingestion_steps WHERE scraper=? AND julianday(started_at)>=julianday(?) ORDER BY id DESC LIMIT 1", (SLUG, since)).fetchone()
-    if step is None or step["status"] != "ok" or step["items_upserted"] != 55 or not fresh(step["finished_at"]) or "CANARY" in (step["message"] or ""):
-        failures.append("successful completed post-rollout 55-price step missing")
+    if step is None or step["status"] != "ok" or step["items_upserted"] != 56 or not fresh(step["finished_at"]) or "CANARY" in (step["message"] or ""):
+        failures.append("successful completed post-rollout 56-price step missing")
     if step is not None:
         fetch = internal.execute("SELECT * FROM raw_fetches WHERE run_id=? AND scraper=? AND url=? ORDER BY id DESC LIMIT 1", (step["run_id"], SLUG, URL)).fetchone()
         if fetch is None or fetch["status_code"] != 200 or fetch["byte_len"] <= 0:
@@ -66,8 +66,8 @@ def verify(public, internal, since):
     if step is not None and public.execute("SELECT julianday(?) BETWEEN julianday(?) AND julianday(?)", (ledger["observed_at"], step["started_at"], step["finished_at"])).fetchone()[0] != 1:
         failures.append("manifest is not from latest completed step window")
     expected = json.loads(ORACLE.read_text())["expected"]
-    if len(articles) != 60 or len(by_id) != 60 or set(by_id) != set(expected):
-        failures.append("reviewed 60-article partition mismatch")
+    if len(articles) != 61 or len(by_id) != 61 or set(by_id) != set(expected):
+        failures.append("reviewed 61-article partition mismatch")
     prices = public.execute("SELECT p.*,m.slug AS material,m.unit AS catalog_unit FROM current_prices c JOIN prices p ON p.id=c.price_id JOIN materials m ON m.id=p.material_id WHERE c.trader_id=? AND p.source_url=?", (ledger["trader_id"], URL)).fetchall()
     indexed = {(p["material"], p["variant"]): p for p in prices}
     wanted_keys = set()
@@ -135,8 +135,8 @@ def verify(public, internal, since):
             failures.append("invalid numeric metadata/tier contract")
         if row["published_at"] is not None or row["valid_from"] is not None or row["valid_to"] is not None or row["source_type"] != "haendler_angabe" or row["published"] != 1 or not fresh(row["observed_at"]) or public.execute("SELECT julianday(?)<=julianday(?)", (row["observed_at"], ledger["observed_at"])).fetchone()[0] != 1:
             failures.append("quote provenance/date/freshness mismatch")
-    if (numeric, requests) != (55, 5):
-        failures.append(f"article quote/request partition {numeric}/{requests} != 55/5")
+    if (numeric, requests) != (56, 5):
+        failures.append(f"article quote/request partition {numeric}/{requests} != 56/5")
     if set(indexed) != wanted_keys or len(prices) != numeric:
         failures.append("unexpected same-source Current keys; legacy alias or unproven leftovers require review")
     acceptances = public.execute("SELECT tm.*,m.slug AS material,o.source_url AS owner_source,o.owner,o.conditions AS owner_conditions,o.observed_at AS owner_at FROM trader_materials tm JOIN materials m ON m.id=tm.material_id LEFT JOIN article_acceptance_owners o ON o.trader_id=tm.trader_id AND o.material_id=tm.material_id WHERE tm.trader_id=?", (ledger["trader_id"],)).fetchall()

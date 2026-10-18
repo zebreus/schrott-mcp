@@ -7,10 +7,10 @@ use std::collections::BTreeSet;
 use scraper::{ElementRef, Html, Selector};
 use serde::{Deserialize, Serialize};
 
-use crate::traders::{HandlerOutcome, ScrapedAcceptance, ScrapedPrice};
 use crate::IngestError;
+use crate::traders::{HandlerOutcome, ScrapedAcceptance, ScrapedPrice};
 
-use super::{extract_info, parse_de_date, URL};
+use super::{URL, extract_info, parse_de_date};
 
 #[derive(Debug, Clone, Deserialize, Serialize, PartialEq)]
 #[serde(deny_unknown_fields)]
@@ -52,7 +52,7 @@ impl Snapshot {
             "source": URL,
             "production_ready": false,
             "activation_blocker": "owner full review and integration/deployment of typed MKM transaction candidate",
-            "recording_contract": "MKM typed 60-article validation; atomic quote/acceptance/manifest/current-pointer reconciliation; immutable price metadata",
+            "recording_contract": "MKM typed 61-article validation; atomic quote/acceptance/manifest/current-pointer reconciliation; immutable price metadata",
             "page_change_precision": "calendar_day; UTC midnight is normalization, not source time",
             "visibility_scope": "Explicit hidden attributes and inline display:none on products/ancestors; no external CSS/browser visibility proof.",
             "required_alias_migrations": [{
@@ -245,6 +245,14 @@ pub(super) const MAPPINGS: &[Mapping] = &[
         "messing-schwer",
         "messing",
         None,
+        1,
+    ),
+    (
+        "MKM-MS-01",
+        "Messing 58 blank neu",
+        "messing-58-blank-neu",
+        "messing",
+        Some("Messing 58 blank neu"),
         1,
     ),
     (
@@ -643,8 +651,12 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
         .find(|e| e.value().name() == "p")
         .map(text)
         .ok_or_else(|| fail("operator identity paragraph missing"))?;
-    if address != "MKM Metals e.K. Inhaber: Mubarik Ahmad Industriestraße 4 67063 Ludwigshafen am Rhein Deutschland" {
-        return Err(fail(format!("operator identity/address changed: {address}")));
+    if address
+        != "MKM Metals e.K. Inhaber: Mubarik Ahmad Industriestraße 4 67063 Ludwigshafen am Rhein Deutschland"
+    {
+        return Err(fail(format!(
+            "operator identity/address changed: {address}"
+        )));
     }
     let register_heading = identity_doc
         .select(&heading_sel)
@@ -961,16 +973,110 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
     })
 }
 
+/// Synthetic test input only: preserve old dates/layout mutation targets while
+/// adding the independently reviewed new row. Never used by production parsing.
+#[cfg(test)]
+pub(super) fn augment_legacy_test_html(html: &str) -> String {
+    if html.contains("MKM-MS-01") {
+        return html.to_owned();
+    }
+    let row = include_str!("../fixtures/mkm-overview-20261018-sanitized.html")
+        .lines()
+        .find(|line| line.contains("<td>MKM-MS-01</td>"))
+        .expect("reviewed capture row")
+        .replacen(
+            "<td>MKM-MS-01</td>",
+            "<td class=\"muted small\">MKM-MS-01</td>",
+            1,
+        )
+        .replacen("<td><strong>", "<td class=\"num\"><strong>", 1)
+        .replacen("<td><input", "<td style=\"min-width: 9.5rem;\"><input", 1);
+    let group = html
+        .find("Ankaufpreise für Messing &amp; Rotguss")
+        .expect("legacy brass table");
+    let end = group + html[group..].find("</tbody>").expect("legacy brass tbody");
+    format!("{}{}\n{}", &html[..end], row, &html[end..])
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
 
     const HTML: &str = include_str!("../fixtures/mkm-overview-20261010.html");
     const IMP: &str = include_str!("../fixtures/mkm-impressum-20261010.html");
-    const ORACLE: &str = include_str!("../fixtures/mkm-reviewed-mapping-oracle-20261011.json");
+    const ORACLE: &str = include_str!("../fixtures/mkm-reviewed-mapping-oracle-20261018.json");
 
     fn snapshot(html: &str) -> Snapshot {
-        parse(html, IMP, 200).expect("operator snapshot")
+        parse(&augment_legacy_test_html(html), IMP, 200)
+            .expect("synthetic complete regression input")
+    }
+
+    #[test]
+    fn historical_60_article_capture_is_preserved_but_no_longer_complete() {
+        let s = parse(HTML, IMP, 200).unwrap();
+        assert_eq!(
+            (
+                s.articles.len(),
+                s.outcome.prices.len(),
+                s.outcome.acceptances.len()
+            ),
+            (60, 55, 5)
+        );
+        assert_eq!(
+            s.diagnostics,
+            vec!["MKM-MS-01: missing known article; retirement NOT authorized"]
+        );
+        let old: serde_json::Value = serde_json::from_str(include_str!(
+            "../fixtures/mkm-reviewed-mapping-oracle-20261011.json"
+        ))
+        .unwrap();
+        let new: serde_json::Value = serde_json::from_str(ORACLE).unwrap();
+        assert_eq!(old["expected"].as_object().unwrap().len(), 60);
+        assert_eq!(new["expected"].as_object().unwrap().len(), 61);
+        for a in &s.articles {
+            assert_eq!(old["expected"][&a.article], new["expected"][&a.article]);
+            assert_eq!(a.material, old["expected"][&a.article][0].as_str());
+            assert_eq!(a.variant, old["expected"][&a.article][1].as_str().unwrap());
+        }
+        assert_eq!(
+            new["expected"]["MKM-MS-01"],
+            serde_json::json!(["messing", "Messing 58 blank neu"])
+        );
+    }
+
+    #[test]
+    fn reviewed_61_article_capture_matches_additive_independent_oracle() {
+        let s = parse(
+            include_str!("../fixtures/mkm-overview-20261018-sanitized.html"),
+            include_str!("../fixtures/mkm-impressum-20261018-sanitized.html"),
+            200,
+        )
+        .unwrap();
+        assert!(s.diagnostics.is_empty(), "{:?}", s.diagnostics);
+        assert_eq!(
+            (
+                s.articles.len(),
+                s.outcome.prices.len(),
+                s.outcome.acceptances.len()
+            ),
+            (61, 56, 5)
+        );
+        let oracle: serde_json::Value = serde_json::from_str(ORACLE).unwrap();
+        let ids: BTreeSet<_> = s.articles.iter().map(|a| a.article.as_str()).collect();
+        let expected: BTreeSet<_> = oracle["expected"]
+            .as_object()
+            .unwrap()
+            .keys()
+            .map(String::as_str)
+            .collect();
+        assert_eq!(ids, expected);
+        for a in &s.articles {
+            assert_eq!(a.material, oracle["expected"][&a.article][0].as_str());
+            assert_eq!(
+                a.variant,
+                oracle["expected"][&a.article][1].as_str().unwrap()
+            );
+        }
     }
 
     fn first_product_row(html: &str, attrs: &str) -> String {
@@ -1011,19 +1117,21 @@ mod tests {
         ] {
             assert_ne!(html, HTML, "mutation must reach real fixture");
             let s = snapshot(&html);
-            assert!(!s
-                .outcome
-                .prices
-                .iter()
-                .any(|p| p.material == "kupfer-millberry"));
-            assert!(s
-                .diagnostics
-                .iter()
-                .any(|d| d.contains("MET-KU-MILL: missing known article")));
+            assert!(
+                !s.outcome
+                    .prices
+                    .iter()
+                    .any(|p| p.material == "kupfer-millberry")
+            );
+            assert!(
+                s.diagnostics
+                    .iter()
+                    .any(|d| d.contains("MET-KU-MILL: missing known article"))
+            );
         }
         assert_eq!(
             snapshot(HTML).outcome.prices.len(),
-            55,
+            56,
             "visually-hidden captions are legitimate"
         );
     }
@@ -1081,12 +1189,14 @@ mod tests {
         ] {
             assert!(parse(HTML, &IMP.replace(old, new), 200).is_err(), "{new}");
         }
-        assert!(parse(
-            HTML,
-            &IMP.replace("HRA 61664", "HRA 61664 Registernummer: HRA 616640"),
-            200
-        )
-        .is_err());
+        assert!(
+            parse(
+                HTML,
+                &IMP.replace("HRA 61664", "HRA 61664 Registernummer: HRA 616640"),
+                200
+            )
+            .is_err()
+        );
     }
 
     #[test]
@@ -1144,8 +1254,8 @@ mod tests {
             .collect();
         let actual: BTreeSet<_> = s.articles.iter().map(|a| a.article.as_str()).collect();
         assert_eq!(actual, expected);
-        assert_eq!(s.articles.len(), 60);
-        assert_eq!(s.outcome.prices.len(), 55);
+        assert_eq!(s.articles.len(), 61);
+        assert_eq!(s.outcome.prices.len(), 56);
         assert_eq!(s.outcome.acceptances.len(), 5);
         assert_eq!(s.report()["groups"], 8);
         assert!(s.diagnostics.is_empty());
@@ -1176,11 +1286,12 @@ mod tests {
                 assert!(a.tiers.is_empty());
                 assert!(a.price_eur_per_kg.is_none());
                 assert!(!s.outcome.prices.iter().any(|p| p.label == a.label));
-                assert!(s
-                    .outcome
-                    .acceptances
-                    .iter()
-                    .any(|p| p.label == a.label && p.conditions.contains(&a.article)));
+                assert!(
+                    s.outcome
+                        .acceptances
+                        .iter()
+                        .any(|p| p.label == a.label && p.conditions.contains(&a.article))
+                );
             } else {
                 let p = s
                     .outcome
@@ -1304,29 +1415,33 @@ mod tests {
     #[test]
     fn same_count_unknown_and_changed_identity_are_not_complete() {
         let s = snapshot(&HTML.replacen("MKM-CU-02", "NEW-CU-02", 1));
-        assert_eq!(s.articles.len(), 60);
-        assert_eq!(s.outcome.prices.len(), 54);
-        assert!(s
-            .diagnostics
-            .iter()
-            .any(|d| d.contains("NEW-CU-02: unknown article")));
-        assert!(s
-            .diagnostics
-            .iter()
-            .any(|d| d.contains("MKM-CU-02: missing known article")));
+        assert_eq!(s.articles.len(), 61);
+        assert_eq!(s.outcome.prices.len(), 55);
+        assert!(
+            s.diagnostics
+                .iter()
+                .any(|d| d.contains("NEW-CU-02: unknown article"))
+        );
+        assert!(
+            s.diagnostics
+                .iter()
+                .any(|d| d.contains("MKM-CU-02: missing known article"))
+        );
         let s = snapshot(&HTML.replace("Kupfergranulat</a>", "Kupfergranulat neu</a>"));
-        assert!(s
-            .diagnostics
-            .iter()
-            .any(|d| d.contains("MKM-CU-02: changed identity")));
+        assert!(
+            s.diagnostics
+                .iter()
+                .any(|d| d.contains("MKM-CU-02: changed identity"))
+        );
         let s = snapshot(&HTML.replace(
             "href=\"/metallankauf/produkt/kupfergranulat\"",
             "href=\"/metallankauf/produkt/anderer-artikel\"",
         ));
-        assert!(s
-            .diagnostics
-            .iter()
-            .any(|d| d.contains("MKM-CU-02: changed identity")));
+        assert!(
+            s.diagnostics
+                .iter()
+                .any(|d| d.contains("MKM-CU-02: changed identity"))
+        );
     }
 
     #[test]
@@ -1335,19 +1450,22 @@ mod tests {
             "Ankaufpreise für Hartmetall",
             "Verkaufpreise für Hartmetall",
         ));
-        assert_eq!(s.articles.len(), 55);
-        assert!(s
-            .diagnostics
-            .iter()
-            .any(|d| d.contains("SW10038: missing known article; retirement NOT authorized")));
+        assert_eq!(s.articles.len(), 56);
+        assert!(
+            s.diagnostics
+                .iter()
+                .any(|d| d.contains("SW10038: missing known article; retirement NOT authorized"))
+        );
         assert!(parse(&HTML.replacen("MKM-CU-02", "MET-KU-MILL", 1), IMP, 200).is_err());
         assert!(parse(HTML, IMP, 206).is_err());
-        assert!(parse(
-            "<table><caption>Ankaufpreise für Kupfer</caption><tbody></tbody></table>",
-            IMP,
-            200
-        )
-        .is_err());
+        assert!(
+            parse(
+                "<table><caption>Ankaufpreise für Kupfer</caption><tbody></tbody></table>",
+                IMP,
+                200
+            )
+            .is_err()
+        );
     }
 
     #[test]
@@ -1356,45 +1474,55 @@ mod tests {
         // occurrences to ensure the real visible product cell is exercised.
         assert!(parse(&HTML.replace("11,13 €", "0,00 €"), IMP, 200).is_err());
         assert!(parse(&HTML.replacen("/kg</span>", "/t</span>", 1), IMP, 200).is_err());
-        assert!(parse(
-            &HTML.replacen("ab 250 kg</span>", "ab 300 kg</span>", 1),
-            IMP,
-            200
-        )
-        .is_err());
-        assert!(parse(
-            &HTML.replacen("&quot;preis&quot;:11.13", "&quot;preis&quot;:99", 1),
-            IMP,
-            200
-        )
-        .is_err());
-        assert!(parse(
-            &HTML.replacen("data-price=\"10.6000\"", "data-price=\"99\"", 1),
-            IMP,
-            200
-        )
-        .is_err());
+        assert!(
+            parse(
+                &HTML.replacen("ab 250 kg</span>", "ab 300 kg</span>", 1),
+                IMP,
+                200
+            )
+            .is_err()
+        );
+        assert!(
+            parse(
+                &HTML.replacen("&quot;preis&quot;:11.13", "&quot;preis&quot;:99", 1),
+                IMP,
+                200
+            )
+            .is_err()
+        );
+        assert!(
+            parse(
+                &HTML.replacen("data-price=\"10.6000\"", "data-price=\"99\"", 1),
+                IMP,
+                200
+            )
+            .is_err()
+        );
         assert!(parse(&HTML.replace("11,13 €", "-11,13 €"), IMP, 200).is_err());
-        assert!(parse(
-            &HTML.replacen("ab 250 kg</span>", "ab -250 kg</span>", 1),
-            IMP,
-            200
-        )
-        .is_err());
-        assert!(parse(
-            HTML,
-            &IMP.replace("Inhaber: Mubarik Ahmad", "Inhaber: Andere Firma"),
-            200
-        )
-        .is_err());
+        assert!(
+            parse(
+                &HTML.replacen("ab 250 kg</span>", "ab -250 kg</span>", 1),
+                IMP,
+                200
+            )
+            .is_err()
+        );
+        assert!(
+            parse(
+                HTML,
+                &IMP.replace("Inhaber: Mubarik Ahmad", "Inhaber: Andere Firma"),
+                200
+            )
+            .is_err()
+        );
     }
 
     #[test]
     fn selling_fee_and_navigation_decoys_are_ignored() {
         let extra = "<table><caption>Verkaufpreise für Kupfer</caption><tbody><tr><th scope=row><a href='/metallankauf/produkt/fee'>Versand 6 Euro</a></th><td>FEE</td><td>6 €/kg</td><td></td><td></td></tr></tbody></table>";
         let s = snapshot(&(HTML.to_owned() + extra));
-        assert_eq!(s.articles.len(), 60);
-        assert_eq!(s.outcome.prices.len(), 55);
+        assert_eq!(s.articles.len(), 61);
+        assert_eq!(s.outcome.prices.len(), 56);
         assert!(s.diagnostics.is_empty());
     }
 
@@ -1413,7 +1541,7 @@ mod tests {
             crate::traders::record_outcome(&public, &internal, super::super::SLUG, &outcome, &now)
                 .await
                 .unwrap();
-        assert_eq!((result.recorded, result.accepted), (55, 5));
+        assert_eq!((result.recorded, result.accepted), (56, 5));
         let tid = public.find_trader_id(super::super::SLUG).unwrap().unwrap();
         let mid = public
             .find_material_id("kupfer-millberry")
@@ -1443,7 +1571,12 @@ mod tests {
         // Actual additive catalog and actual dossier trader seed, no mock
         // materials, no production path, no scheduler, no geocoding.
         crate::pipeline::seed_metadata(&public).unwrap();
-        let s = snapshot(HTML);
+        // Preserve the original 60-article legacy-writer evidence, not the
+        // synthetic complete typed contract used by current recording tests.
+        let s = parse(HTML, IMP, 200).unwrap();
+        let expected_missing =
+            vec!["MKM-MS-01: missing known article; retirement NOT authorized".to_owned()];
+        assert_eq!(s.diagnostics, expected_missing);
         let now = chrono::DateTime::parse_from_rfc3339("2026-10-10T12:00:00+00:00")
             .unwrap()
             .with_timezone(&chrono::Utc);
@@ -1485,7 +1618,10 @@ mod tests {
             .unwrap();
         assert_eq!(result.recorded, 55);
         assert_eq!(result.accepted, 5);
-        assert!(result.skipped.is_empty(), "{:?}", result.skipped);
+        // This deliberately historical 60-row projection now carries exactly
+        // the new-article diagnostic through the private legacy writer. Keep
+        // proving its original 55/5 behavior, never silence arbitrary skips.
+        assert_eq!(result.skipped, expected_missing);
         for p in &s.outcome.prices {
             let mid = public.find_material_id(p.material).unwrap().unwrap();
             let current = public
@@ -1508,22 +1644,28 @@ mod tests {
                 public.existing_acceptance(tid, mid).unwrap(),
                 Some((true, a.conditions.clone()))
             );
-            assert!(public
-                .current_price_for(tid, mid, &a.label)
-                .unwrap()
-                .is_none());
+            assert!(
+                public
+                    .current_price_for(tid, mid, &a.label)
+                    .unwrap()
+                    .is_none()
+            );
         }
         // Explicitly verify what remains unsafe rather than calling this a
         // complete production fix. Append-only history is not touched.
         let mid = public.find_material_id("kabel-kupfer").unwrap().unwrap();
-        assert!(public
-            .current_price_for(tid, mid, "Stecker 30%")
-            .unwrap()
-            .is_some());
-        assert!(public
-            .current_price_for(tid, mid, "historisch entfernt")
-            .unwrap()
-            .is_some());
+        assert!(
+            public
+                .current_price_for(tid, mid, "Stecker 30%")
+                .unwrap()
+                .is_some()
+        );
+        assert!(
+            public
+                .current_price_for(tid, mid, "historisch entfernt")
+                .unwrap()
+                .is_some()
+        );
         assert_eq!(
             public
                 .price_history(tid, mid, "Stecker 30%", 10)

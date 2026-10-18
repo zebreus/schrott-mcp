@@ -572,6 +572,9 @@ impl PublicDb {
         owner: &str,
         article_commit: Option<(&str, &[(i64, String)])>,
     ) -> Result<usize, StoreError> {
+        // Current reviewed MKM contract: the original 60 identities plus
+        // MKM-MS-01 (blank new MS58). Historical ledgers remain readable.
+        const MKM_ARTICLE_COUNT: usize = 61;
         let manifest_value = article_commit
             .map(|(manifest, _)| {
                 serde_json::from_str::<serde_json::Value>(manifest)
@@ -644,7 +647,9 @@ impl PublicDb {
                 || json["observed_at"] != first.observed_at
                 || first.observed_at.len() != 35
                 || !first.observed_at.ends_with("+00:00")
-                || json["articles"].as_array().is_none_or(|a| a.len() != 60)
+                || json["articles"]
+                    .as_array()
+                    .is_none_or(|a| a.len() != MKM_ARTICLE_COUNT)
             {
                 return Err(StoreError::Rejected(
                     "article manifest scope/completeness mismatch",
@@ -1323,17 +1328,19 @@ mod tests {
             p.source_url = old.source_url;
             p.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
             let manifest = serde_json::json!({"owner":"mkm-article-v1","trader_id":trader,"source_url":p.source_url,"observed_at":now,
-                "articles":(0..60).map(|i| serde_json::json!({"article":format!("article-{i}")})).collect::<Vec<_>>()}).to_string();
+                "articles":(0..61).map(|i| serde_json::json!({"article":format!("article-{i}")})).collect::<Vec<_>>()}).to_string();
             db.lock().unwrap().execute_batch(&format!("CREATE TRIGGER reject_article BEFORE INSERT ON {table} BEGIN SELECT RAISE(ABORT,'test rollback'); END;")).unwrap();
-            assert!(
-                db.record_article_price_snapshot(
+            let error = db
+                .record_article_price_snapshot(
                     &[p],
                     &[id],
                     &manifest,
-                    &[(material, "conditions".to_owned())]
+                    &[(material, "conditions".to_owned())],
                 )
-                .is_err()
-            );
+                .unwrap_err();
+            // Prove the injected write failure was reached, not merely an
+            // earlier wrong-cardinality rejection masquerading as rollback.
+            assert!(error.to_string().contains("test rollback"), "{error}");
             assert_eq!(
                 db.current_price_for(trader, material, "legacy")
                     .unwrap()
@@ -1360,6 +1367,124 @@ mod tests {
                     .unwrap();
                 assert_eq!(count, 0);
             }
+        }
+    }
+
+    #[test]
+    fn reviewed_mkm_61_contract_preserves_prior_60_ledger_and_rejects_partial_retirement() {
+        // Structural Store contract test. Synthetic article IDs deliberately
+        // do not claim to replace the real parser/capture/mapping regressions.
+        let (_dir, db, trader, material) = setup("mkm-60-to-61-ledger");
+        const URL: &str = "https://mkm-metals.de/metallpreise";
+        const OWNER: &str = "mkm-article-v1";
+        const BEFORE: &str = "2026-10-17T00:00:00.000000000+00:00";
+        const NOW: &str = "2026-10-18T00:00:00.000000000+00:00";
+        let manifest = |count: usize, at: &str| {
+            serde_json::json!({
+            "owner": OWNER, "trader_id": trader, "source_url": URL, "observed_at": at,
+            "articles": (0..count).map(|i| serde_json::json!({"article": format!("article-{i}")})).collect::<Vec<_>>()
+        }).to_string()
+        };
+        let old_manifest = manifest(60, BEFORE);
+        {
+            // Seed only historical evidence; never make the production writer
+            // accept stale 60-row sources merely to construct a test fixture.
+            let conn = db.lock().unwrap();
+            conn.execute(
+                "UPDATE traders SET slug='rp-ludwigshafen-mkm-metals' WHERE id=?1",
+                [trader],
+            )
+            .unwrap();
+            conn.execute("INSERT INTO source_article_snapshots(trader_id,source_url,owner,observed_at,manifest_json) VALUES(?1,?2,?3,?4,?5)",
+                rusqlite::params![trader, URL, OWNER, BEFORE, old_manifest]).unwrap();
+        }
+        let mut old = price(trader, material, 7.0, BEFORE, BEFORE);
+        old.variant = "legacy";
+        old.source_url = URL;
+        old.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
+        let id = db.record_price(&old).unwrap();
+        let original_history = db
+            .query_sql("SELECT * FROM prices ORDER BY id")
+            .unwrap()
+            .rows;
+        let evidence = || {
+            [
+                "prices",
+                "current_prices",
+                "trader_materials",
+                "source_article_snapshots",
+                "article_acceptance_owners",
+            ]
+            .iter()
+            .map(|t| {
+                db.query_sql(&format!("SELECT * FROM {t} ORDER BY rowid"))
+                    .unwrap()
+                    .rows
+            })
+            .collect::<Vec<_>>()
+        };
+        let before = evidence();
+        for count in [60, 62] {
+            let mut p = price(trader, material, 11.13, NOW, NOW);
+            p.source_url = URL;
+            p.extra_json = old.extra_json;
+            let error = db
+                .record_article_price_snapshot(
+                    &[p],
+                    &[id],
+                    &manifest(count, NOW),
+                    &[(material, "conditions".to_owned())],
+                )
+                .unwrap_err();
+            assert!(
+                error
+                    .to_string()
+                    .contains("article manifest scope/completeness mismatch")
+            );
+            assert_eq!(
+                evidence(),
+                before,
+                "wrong cardinality cannot retire or write evidence"
+            );
+        }
+        let mut p = price(trader, material, 11.13, NOW, NOW);
+        p.source_url = URL;
+        p.extra_json = old.extra_json;
+        let new_manifest = manifest(61, NOW);
+        db.record_article_price_snapshot(
+            &[p],
+            &[id],
+            &new_manifest,
+            &[(material, "conditions".to_owned())],
+        )
+        .unwrap();
+        let ledger = db
+            .query_sql("SELECT manifest_json FROM source_article_snapshots ORDER BY id")
+            .unwrap()
+            .rows;
+        assert_eq!(ledger.len(), 2);
+        assert_eq!(ledger[0][0].as_str(), Some(old_manifest.as_str()));
+        assert_eq!(ledger[1][0].as_str(), Some(new_manifest.as_str()));
+        assert!(
+            db.current_price_for(trader, material, "legacy")
+                .unwrap()
+                .is_none()
+        );
+        assert_eq!(
+            db.price_history(trader, material, "legacy", 10)
+                .unwrap()
+                .len(),
+            1
+        );
+        let after = db
+            .query_sql("SELECT * FROM prices ORDER BY id")
+            .unwrap()
+            .rows;
+        for row in original_history {
+            assert!(
+                after.contains(&row),
+                "historical stored fields remain immutable"
+            );
         }
     }
 

@@ -12,7 +12,7 @@ use scraper::{ElementRef, Html, Selector};
 
 #[cfg(test)]
 use super::super::parse_eur;
-use super::super::{parse_de_date, Handler, HandlerOutcome, Schedule, TraderInfo};
+use super::super::{Handler, HandlerOutcome, Schedule, TraderInfo, parse_de_date};
 use crate::IngestError;
 
 /// Full article-aware parser and diagnostic inventory.
@@ -419,21 +419,23 @@ mod tests {
 
     #[test]
     fn current_overview_all_numeric_articles_reach_real_mapping() {
-        let html = include_str!("fixtures/mkm-overview-20261010.html");
-        let imp = include_str!("fixtures/mkm-impressum-20261010.html");
+        let html = include_str!("fixtures/mkm-overview-20261018-sanitized.html");
+        let imp = include_str!("fixtures/mkm-impressum-20261018-sanitized.html");
         let snapshot = super::overview::parse(html, imp, 200).expect("current operator snapshot");
-        assert_eq!(snapshot.outcome.prices.len(), 55);
+        assert_eq!(snapshot.outcome.prices.len(), 56);
         assert_eq!(snapshot.outcome.acceptances.len(), 5);
         assert!(
             snapshot.diagnostics.is_empty(),
             "{:?}",
             snapshot.diagnostics
         );
-        assert!(snapshot
-            .outcome
-            .prices
-            .iter()
-            .any(|p| p.label == "Nickel rein ab 99 %" && p.material == "nickel"));
+        assert!(
+            snapshot
+                .outcome
+                .prices
+                .iter()
+                .any(|p| p.label == "Nickel rein ab 99 %" && p.material == "nickel")
+        );
     }
 
     // Real live markup of the Kupfer table (caption + 4 of 13 rows: the

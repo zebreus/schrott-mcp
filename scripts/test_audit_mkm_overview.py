@@ -20,14 +20,28 @@ ROW = '''<tr><th><a href="/metallankauf/produkt/example">Example</a></th>
 <td><input data-staffel="[{&quot;ab&quot;:0,&quot;preis&quot;:10.6},
 {&quot;ab&quot;:250,&quot;preis&quot;:11.13}]"></td></tr>'''
 TABLE = '<table><caption>Ankaufpreise für Kupfer</caption>' + ROW + '</table>'
+OLD_ORACLE = json.loads((SCRIPT.parent.parent / "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261011.json").read_text())
 
 
 class InventoryTests(unittest.TestCase):
+    def test_reviewed_61_capture_preserves_ms58_identity_and_single_quoted_tiers(self):
+        root = SCRIPT.parent.parent
+        rows = AUDIT.inventory((root / "crates/ingestion/src/traders/handlers/fixtures/mkm-overview-20261018-sanitized.html").read_text())
+        self.assertEqual(len(rows), 61)
+        self.assertEqual(sum(r["quote_kind"] == "upper_bound" for r in rows), 56)
+        new = next(r for r in rows if r["article"] == "MKM-MS-01")
+        self.assertEqual((new["title"], new["price_eur_per_kg"], new["price_cell"]),
+                         ("Messing 58 blank neu", 6.51, "6,51 € /kg ab 500 kg"))
+        self.assertEqual(new["embedded_tiers"], [{"ab": 0, "preis": 6.2}, {"ab": 5, "preis": 6.32}, {"ab": 500, "preis": 6.51}])
+        oracle = json.loads(AUDIT.DEFAULT_MAPPING_ORACLE.read_text())["expected"]
+        self.assertEqual(set(oracle), {r["article"] for r in rows})
+        self.assertEqual(oracle["MKM-MS-01"], ["messing", "Messing 58 blank neu"])
+
     def test_preserved_pre_fix_artifact_exposes_tin_and_kerze_mappings(self):
         root = SCRIPT.parent.parent
         rows = AUDIT.inventory((root / "crates/ingestion/src/traders/handlers/fixtures/mkm-overview-20261010.html").read_text())
         old_candidate = json.loads((root / "research/mkm-full-live-inventory-20261010.json").read_text())
-        gaps = AUDIT.compare_candidate(rows, old_candidate)
+        gaps = AUDIT.compare_candidate(rows, old_candidate, OLD_ORACLE)
         self.assertEqual({gap.split(":", 1)[0] for gap in gaps}, {"SW10040", "MKM-CU-01"})
         self.assertTrue(all("reviewed mapping material differs" in gap for gap in gaps))
 
@@ -36,11 +50,11 @@ class InventoryTests(unittest.TestCase):
         document = (root / "crates/ingestion/src/traders/handlers/fixtures/mkm-overview-20261010.html").read_text()
         candidate = json.loads((root / "research/mkm-full-live-inventory-20261011.json").read_text())
         rows = AUDIT.inventory(document)
-        self.assertEqual(AUDIT.compare_candidate(rows, candidate), [], "corrected actual candidate must be baseline green")
+        self.assertEqual(AUDIT.compare_candidate(rows, candidate, OLD_ORACLE), [], "corrected historical candidate must be baseline green")
         for row in candidate["articles"]:
             row["material"] = "batterien-blei"
             row["variant"] = "WRONG"
-        gaps = AUDIT.compare_candidate(rows, candidate)
+        gaps = AUDIT.compare_candidate(rows, candidate, OLD_ORACLE)
         self.assertEqual(len(gaps), 120, "each of 60 material AND variant mutations must be diagnosed")
         self.assertEqual({gap.split(":", 1)[0] for gap in gaps}, {row["article"] for row in rows})
         self.assertTrue(all("reviewed mapping" in gap for gap in gaps))
