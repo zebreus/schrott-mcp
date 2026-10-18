@@ -28,6 +28,10 @@ Vorhandene Seed-Adresse Müggenhof 1 und 038371 20757 sind konsistente **Verzeic
 
 ## Timeline
 
+### Recherche 18.10.2026
+
+- [Recherche 18.10.2026: Regionale-Onlinepräsenz im unabhängigen Review direkt gelesen: Portal-Mikroseite nennt Stefan Wegner, Müggenhof 1, 17449 Peenemünde, 038371-20757 sowie Termine und Abholung/Anlieferung; im gelesenen Inhalt nur Portal-Kontakt/Urheberhinweis, kein Stefan Wegner zugeordnetes Impressum. Angaben bleiben unbestätigte Leads, keine verbindlichen Servicebedingungen. Keine numerischen Ankaufspreise, Materialverkaufspreise oder Gebühren auf dieser Seite. Kein firmenspezifischer Registerbefund erhoben und kein historischer Abruf am 12.10. verifiziert. Vorhandene Frontmatter-Werte und status pruefung unverändert; keine GEO-Aktion, frühere automatische Geocodierung nicht geprüft. Quelle: http://wegner-schrotthandel.regionale-onlinepräsenz.de/ ; Abruf im Review 18.10.2026.]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Adresse Müggenhof 1, 17449 Peenemünde + Tel. (038371) 20757 in drei Verzeichnissen konsistent (Das Örtliche + 11880 + Gelbe Seiten) — als begründete Ausnahme übernommen (alles Aggregatoren, offen dokumentiert). Mobil 0160 94589675 nur aus Das Örtliche (Einzelbeleg, nicht übernommen). Verzeichnis-Mikroseite wegner-schrotthandel.regionale-onlinepräsenz.de bleibt Lead ohne Betreiber-Impressum. Kein Betreiber-Webauftritt, keine E-Mail/Website belegbar. City-Feld von „Peenemünde 17449“ bereinigt. Koordinaten-Neugeocodierung läuft automatisch. Quelle(n): Das-Örtliche-Eintrag Müggenhof 1 + 11880-Eintrag + Gelbe-Seiten-Eintrag]

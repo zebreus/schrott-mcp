@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Name und Rufnummer 01633384899 sind nach der vorhandenen Aktenlage unbestätigte Seed-/Portalangaben. Der alte Timeline-Eintrag berichtet einen auf Frankfurt begrenzten Portal-Negativbefund; der damalige Abruf wurde im Review nicht reproduziert. Kein belastbarer Identitätsbeleg liegt im Dossier vor. Auch die bereits im Frontmatter enthaltene Rufnummer wird damit nicht verifiziert.
+
+**ANKAUF/VERKAUF/GEBÜHREN:** keine belastbaren Preise oder Tarifbedingungen in der vorliegenden Evidenz. Status `pruefung`.
 
 ## Timeline
 
@@ -35,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mobile Abholung (Portal, Tel. 01633384899)
+
+### Recherche 18.10.2026
+
+- [Recherche 18.10.2026: Aktenbewertung im Review, keine erneute Exaktsuche oder historische Abrufbestätigung. Der Timeline-Eintrag vom 02.10. berichtet einen begrenzten Frankfurt-Portalabgleich, keinen Nachweis der Nichtexistenz im gesamten Rhein-Main-Gebiet. Betreiberidentität und Seed-Rufnummer 01633384899 bleiben unverifiziert; bereits vorhandene Frontmatter-Nummer durch diese Bewertung nicht bestätigt. Keine belastbaren Preis-/Tarifbelege in der vorliegenden Akte; keine neuen Stammdaten oder GEO. Quelle: vorhandener Timeline-Eintrag 02.10.2026 und Seed-Import, jeweils als unbestätigte Aktenangaben.]

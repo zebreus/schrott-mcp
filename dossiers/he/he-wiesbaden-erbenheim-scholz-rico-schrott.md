@@ -41,3 +41,7 @@ Ein Gelbe-Seiten-Profil ist der einzige belastbare Lead für „Scholz Rico Schr
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Gelbe-Seiten-Profil direkt geprüft: „Scholz Rico Schrott“, Rennbahnstr. 1, 65205 Wiesbaden-Erbenheim, Tel. 0163 6217680; Beschreibung nennt Schrottabholung, An-/Verkauf und Haushaltsauflösungen. Weiterhin nur Aggregator-Einzelbeleg; keine unabhängige Betreiber-/Registerquelle gefunden, keine Felder übernommen. ANKAUF: keine Beträge; VERKAUF: keine Liste; GEBÜHREN: keine Abholungs- oder Räumungstarife belegt. Quelle(n): https://www.gelbeseiten.de/gsbiz/6a97e5cb-cd63-41ac-9ec8-891337258cc7]
+
+### Recherche 18.10.2026
+
+- [Recherche 18.10.2026: Aktenbewertung im Review, kein bestätigter erneuter Suchlauf. Die Timeline vom 08.10. führt ein Gelbe-Seiten-Profil als Lead für Rennbahnstr. 1, 65205 Wiesbaden-Erbenheim, 0163 6217680 und dort genannte Leistungen an; damaliger Abruf hier nicht rückwirkend verifiziert. Kein zulässiger Primär-/Identitätsbeleg in der vorliegenden Akte. Bereits vorhandene Frontmatter-Straße und Verzeichnisleistungen dadurch nicht bestätigt; „belastbarer Lead“/„Aggregator-Einzelbeleg“ in älterer Historie kein qualifizierter README-Identitätsbeleg. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren Preis-/Tarifbelege in der Akte. Keine neuen Stammdaten oder GEO; Status pruefung. Aktenquelle/Lead, nicht Primärbeleg: https://www.gelbeseiten.de/gsbiz/6a97e5cb-cd63-41ac-9ec8-891337258cc7 .]
