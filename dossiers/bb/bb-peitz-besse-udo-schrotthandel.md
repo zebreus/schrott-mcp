@@ -28,6 +28,10 @@ Der Seed-Eintrag „Udo Besse“ an Ottendorfer Str. 1a ist nicht als derselbe B
 
 ## Timeline
 
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Amtliche Einzelstandortseite des Landkreises erneut selbst direkt gelesen: Betreiber und Ansprechpartner Lutz Besse, Betreiberanschrift Ottendorfer Straße 1 a/03185 Peitz, Kundenstandort Gewerbeparkstraße 12, Mo–Fr 08–12/13–15:30, 03560 22589. Die Seite unterscheidet ausdrücklich Betreiberanschrift und Standort; weder aus gemeinsamem Nachnamen noch Adressübereinstimmung ergibt sich die Kette Udo → Lutz oder eine bestätigte Annahme am Wohn-/Firmensitz. Vertiefung Udo/Lutz per Suchintegration heute HTTP 401, also kein neuer Gegenbeleg oder Aliasnachweis. Keine Namens-/Adress-/Telefontransplantation, kein GEO an Ottendorfer Straße aus der amtlichen Lutz-Seite legitimiert. Für Udo Ankauf, Verkauf und Gebühren weiterhin ohne Zahlenbeleg. Frontmatter/status pruefung unverändert. Quelle: https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze/4304-schrotthandlung-und-containerdienst.html .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Landkreis-Spree-Neiße-Datensatz direkt gegengeprüft. Er nennt Lutz Besse als Betreiber, Ottendorfer Straße 1a als Betreiberanschrift, aber Gewerbeparkstraße 12 als Standort; Öffnungszeiten Mo–Fr 08:00–12:00 und 13:00–15:30, Tel. 03560 22589. Die Abweichung Udo/Lutz bleibt ungeklärt; diese Angaben gelten nicht als Beleg für den Udo-Datensatz und werden nicht übernommen. Keine Preisangabe im amtlichen Datensatz (kein Ankaufkurs, Verkaufspreis oder Gebühr). Quelle: https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze/4304-schrotthandlung-und-containerdienst.html]

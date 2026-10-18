@@ -25,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mobiler Dienst unter A. Lahib/Autoverschrottung Bochum laut Impressum, Ganghoferstraße 9, 44791 Bochum. Derselbe Text behauptet zentralen Sitz Rostock, während die Kontaktseite nur den Platzhalter Straße/18055 Rostock zeigt; kein fester Rostocker Hof. Ankauf-/Entsorgungsseiten werben zugleich mit eigenem zertifiziertem Demontagebetrieb, ohne im gelesenen Inhalt einen konkreten anerkannten Betrieb samt Nummer zu identifizieren. Mobile Werbung und tatsächliche Demontageberechtigung nicht gleichsetzen.
+
+**Ankauf:** Restwertangebot nach Fahrzeugdaten/Besichtigung, Barzahlung nur bei Restwert, keine festen Fahrzeugpreise. **Verkauf:** keine eigene Teile-/Materialverkaufsliste. **Gebühren:** Betreiberwerbung kostenlose Abholung/Entsorgung; allgemeiner FAQ-Satz um 100 Euro ist kein eigener Tarif. Ohne unabhängigen Identitäts-/Anerkennungsbeleg bleiben `pruefung`, leere Service-JSON und fehlende lokale Adresse sachgerecht. **GEO:** kein Rostocker Hof nachgewiesen; weder Stadtmittelpunkt noch Bochumer Impressumspunkt als örtliche Annahmestelle setzen.
 
 ## Timeline
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Impressum, Kontakt, Schrottauto-Ankauf und Auto-entsorgen heute selbst einzeln direkt gelesen. Impressum A. Lahib/Autoverschrottung Bochum, Ganghoferstraße 9/44791 Bochum, ohne USt-ID/Registerkennung; im selben Text mobiler deutschlandweiter Dienst mit behauptetem Sitz/zentraler Abwicklung Rostock. Kontakt weiterhin Platzhalter Straße/18055 Rostock. Ankaufseite behauptet eigenen zertifizierten Demontagebetrieb, Entsorgungsseite nennt anerkannten Betrieb im gesamten Raum Nordrhein-Westfalen, zugleich Abtransport in den Demontagebetrieb. Kein konkret zugeordneter aktueller Zertifikats-/Anerkennungsdatensatz gelesen. Diese Aussagen lösen den Identitäts-/Standortwiderspruch nicht und sind kein Nachweis einer Rostocker Niederlassung. Betreiber-Ausnahme nicht erfüllt; keine Kontakt-/Adress-/Service-Fills. Quellen: https://www.autoverschrottung-rostock.de/impressum ; https://www.autoverschrottung-rostock.de/kontakt ; https://www.autoverschrottung-rostock.de/schrottauto-ankauf ; https://www.autoverschrottung-rostock.de/auto-entsorgen .]
+- [Recherche 18.10.2026: Preisrichtungen aus den tatsächlich gelesenen Leistungsseiten präzisiert: Ankauf unverbindliche Bewertung anhand Fahrzeugdaten/Fotos, Angebot und Barzahlung bei verbliebenem Restwert, keine numerischen Kurse. Kein Teile-/Material-Verkaufskatalog. Gebührenwerbung Abholung und Entsorgung kostenlos/keine Servicegebühr, Abmeldung auf Wunsch; keine unabhängig garantierte Durchführung, kein strukturiertes Gratisangebot. FAQ Auto-entsorgen nennt allgemein Verschrottung eines PKW um 100 Euro, unmittelbar gefolgt vom eigenen Kostenlos-Versprechen: allgemeines Kostenbeispiel NICHT als 100-EUR-Händlertarif erfassen. Identitäts-/Anerkennungsprüfung vor Preisfreigabe; GEO für mobilen Service ohne belegten Hof nicht erzwingen. Quellen: https://www.autoverschrottung-rostock.de/schrottauto-ankauf ; https://www.autoverschrottung-rostock.de/auto-entsorgen .]
 
 ### Korrektur 03.10.2026 (Feedback-Triage)
 

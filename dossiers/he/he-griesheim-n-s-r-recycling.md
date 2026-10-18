@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: N-S-R Recycling ist ein ungeklärter Griesheimer Verzeichnislead; bestehende Sterngasse-2-Kontaktdaten nicht primär bestätigt. Nicht mit MS Recycling Frankfurt-Griesheim oder internationalen NSR-Firmen verwechseln.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge
@@ -27,6 +27,10 @@ provenance_origin: table
 N-S-R Recycling in Griesheim bleibt verzeichnisgestützt. Vorhandene Sterngasse 2, 64347 und 0152 27030059 sind keine primär bestätigten Kontaktdaten. Der aktuelle Gelbe-Seiten-Abruf zeigt nun eine vollständige Werktags-Zeittabelle; das korrigiert den früheren technischen Befund „Rest nicht ausgewiesen“, ersetzt aber keine Betreiberbestätigung. Nicht mit MS Recycling in Frankfurt-Griesheim oder ausländischen NSR-Unternehmen vermischen.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Recherche 18.10.2026: Neue Identitätssuche liefert weiterhin ausschließlich Gelbe-Seiten-Profil N-S-R Recycling/Sterngasse 2/64347/0152 27030059 mit Werbestichworten Entrümpelung, Schrottdemontage, KFZ-Entsorgung. Diese Leistungsstichworte sind kein gelesener Betreiberbeleg und keine Ankaufvergütung. Northdata-Suggest N-S-R Recycling HTTP 429; internationale NS Recycling/North Star/NR und Duisburger RS Recycling sind ortsfremd. description macht Unsicherheit der alten Ausnahmefills im Seed explizit; kein Kontakt-/Zeitenfill und keine Primärbestätigung alter GEO. ANKAUF/VERKAUF/GEBÜHREN ohne Liste. Owner zuerst vollständigen Gewerbetreibenden und Annahmepunkt ermitteln. Quellen: https://www.gelbeseiten.de/gsbiz/efa82b50-4c32-4823-8057-35722af7aa2b (Suchauszug/Lead); https://www.northdata.de/suggest.json?query=N-S-R%20Recycling&countries=DE (429).]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

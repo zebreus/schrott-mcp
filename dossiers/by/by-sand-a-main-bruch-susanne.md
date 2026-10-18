@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: Susanne Bruch Schrotthandel und Demontagen bleibt ein Verzeichnislead am Kirchplatz 16 in Sand am Main; Betreiberidentität, aktuelle Tätigkeit und Annahmekonditionen sind nicht qualifiziert belegt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
@@ -29,6 +29,10 @@ Seed führt Susanne Bruch, Kirchplatz 16, Sand a. Main als kleinen Schrott-/Demo
 **Ankauf / Verkauf / Gebühren:** keine zugeordneten Preise oder Annahmekonditionen. **GEO:** Kirchplatz 16 bleibt unbestätigter Seedkandidat; vor Geokodierung rechtlichen Inhaber und Betriebs-/Geschäftsanschrift per Gewerbeauskunft Sand a. Main prüfen.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Recherche 18.10.2026: Gegenüber dem Nulltreffer der Vorwelle jetzt exakter Verzeichnisfund Susanne Bruch SchrottHdl. Demontagenarbeiten, Kirchplatz 16/97522 Sand/09524 5192, zusätzlich Schrottplatz-Info mit derselben Nummer. Das konkretisiert nur den historischen Lead; keine Betreiberseite und kein rechtlicher Zweitbeleg. Northdata-Suggest Susanne Bruch HTTP 429, nicht leerer Registerbefund. Keine PLZ-/Telefonfüllung aus den Portalen; description benennt den ungeklärten Zustand. ANKAUF/VERKAUF/GEBÜHREN ohne Liste; GEO Kirchplatz 16 erst nach kommunaler Gewerbeidentität/aktuellem Betriebsnachweis. Quellen (Leads): https://sand-am-main.stadtbranchenbuch.com/2258555.html ; https://schrottplatz-info.de/schrottplatz/Sand-am-Main/Bruch-Susanne-SchrottHdl-Demontagenarbeiten ; https://www.northdata.de/suggest.json?query=Susanne%20Bruch&countries=DE (429).]
 
 ### Recherche 14.10.2026 (18:00-Welle B)
 

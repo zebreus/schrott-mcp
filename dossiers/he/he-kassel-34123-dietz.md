@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: tot
 status: pruefung
-description: ''
+description: Autoverwertung Dietz in Kassel bleibt ungeklärt; frühere Domain nicht inhaltlich erreichbar und Facebook nur Login. Standort, heutiger Betreiber und kostenlose Verwertung nicht bestätigt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
@@ -29,6 +29,10 @@ Autoverwertung Dietz bleibt ein ungeklärter Kasseler Betrieb. Lossestraße 105 
 **Offen:** aktuelle Betreiberperson, Standort, Zertifizierung und Erreichbarkeit. Ankaufvergütung ist nicht bestätigt; kein Verkaufstarif und keine belastbare Gebühren-/Gratiszusage. Keine Zeiten/Kontakte anderer Kasseler Autoverwerter übernehmen.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Recherche 18.10.2026: Eigene Primärgegenprobe altauto.net wieder mit Transportfehler, Facebook leitet auf Logintext ohne Betriebsinhalt. Daher kein aktueller Betreiber-/Adressnachweis; insbesondere keine erneute Bestätigung des früheren 404- oder DNS-Befunds aus einem bloßen Transportfehler. description trennt technischen Zugriff von Betriebsstatus. Website-Status tot bleibt historischer Altwert ohne eingetragene URL, nicht Beweis der Schließung; Owner technische Statusbereinigung separat entscheiden. ANKAUF ohne Vergütungsbeleg, VERKAUF ohne Liste, GEBÜHREN inklusive angeblicher Gratisabholung/Verwertungsnachweis unbelegt. Lossestraße 105 nicht geokodiert/Alt-GEO nicht bestätigt. Quellen: http://www.altauto.net/ (Transportfehler); https://www.facebook.com/Autoverwertung.Dietz/ (Loginseite).]
 
 ### Recherche 15.10.2026, Welle 12:00 A
 

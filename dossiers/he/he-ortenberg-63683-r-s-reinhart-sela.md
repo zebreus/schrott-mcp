@@ -11,8 +11,8 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
-description: ''
+status: pruefung
+description: Registerkandidat R & S Reinhart & Sela GmbH & Co. KG nennt Am Bahndamm 2 in Ortenberg; Zuordnung zum knappen Seed und vollständige OHG-/KG-Kette nicht abschließend qualifiziert. Heutige öffentliche Annahme, Betreiberkontakte und Zertifizierung bleiben offen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
@@ -24,11 +24,21 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Branchenverzeichnisse und Registerhinweise stützen R&S Reinhart & Sela GmbH & Co. KG am Bahndamm 2, 63683 Ortenberg-Bleichenbach (Tel. 06041 1085) als Schrott-/Metallhandel mit Containerdienst. Der frühere Website-Kandidat `schrott-ortenberg.de` war beim Direktaufruf nicht erreichbar; deshalb keine Betreiber-Website und keine Betreiber-Preisliste bestätigt. Öffnungszeiten bleiben wegen Einzelquellenstatus ungefüllt.
+Das nun direkt gelesene Northdata-Profil nennt R & S Reinhart & Sela GmbH & Co. KG, HRA 4456 AG Friedberg, Am Bahndamm 2, 63683 Ortenberg; frühere Bezeichnung R+S Reinhart & Sela OHG. Die Publikationsübersicht nennt am 21.02.2013 den Eintritt der Verwaltungs- und Beteiligungs-GmbH als persönlich haftender Gesellschafter; Originaltext ist Premium-gesperrt, vollständige Rechtsformkette deshalb noch offen. Registergegenstand ist Entsorgungsfachunternehmen sowie Fahrzeug-/Maschinenhandel, kein aktueller Annahme- oder Zertifizierungsnachweis. Telefon 06041 1085 und Container-/Metallankauf bleiben historische Verzeichnisangaben. Der frühere Website-Kandidat `schrott-ortenberg.de` ist nicht neu bestätigt; Öffnungszeiten bleiben leer.
 
 **Preise (Stand 08.10.2026):** **ANKAUF** – keine veröffentlichten Materialpreise gefunden. **VERKAUF** – keine öffentliche Preisliste gefunden. **GEBÜHREN** – keine Container-/Entsorgungsgebührenliste gefunden; Konditionen erfragen.
 
 ## Timeline
+
+### Ownerdisposition 18.10.2026
+
+- [Korrektur 18.10.2026: status aktiv zu pruefung, nicht geschlossen. Northdata HRA 4456 nennt den KG-Kandidaten Am Bahndamm 2 und die frühere OHG; Originalpublikation zum Rechtsformverlauf ist Premium-gesperrt und eine unabhängige vollständige Kettenbestätigung fehlt. Registergegenstand Entsorgung/Fahrzeughandel ist kein aktueller Kundenannahme- oder Zertifizierungsnachweis, historisches Telefon bleibt unbestätigt. description ausdrücklich als Registerkandidat mit offener Seedzuordnung statt Umgehungs-Namensfill; Frontmatter-name, Adresse, Kontakte, Services und GEO unverändert, keine pauschale Löschung; Quelle: https://www.northdata.de/R%20%26%20S%20Reinhart%20%26%20Sela%20GmbH%20%26%20Co%C2%B7%20KG,%20Ortenberg/Amtsgericht%20Friedberg%20HRA%204456 ; https://www.northdata.de/?id=15958345 (dokumentierte Premiumsperre).]
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Nachprüfung 18.10.2026: Nach HTTP 429 im Shell-Abruf gelang separater Direktabruf des deutschen Northdata-Profils. Tatsächlich gelesen: R & S Reinhart & Sela GmbH & Co. KG, frühere Bezeichnung R+S Reinhart & Sela OHG, HRA4456/AG Friedberg, Am Bahndamm 2/63683, Gegenstand Entsorgungsfachunternehmen und Handel mit Fahrzeugen/Maschinen. Publikationsübersicht 21.02.2013 nennt Eintritt R & S Reinhart & Sela Verwaltungs- und Beteiligungs-GmbH als persönlich haftender Gesellschafter; Originalpublikation Premium-gesperrt. Registeradresse jetzt frisch bestätigt, aktuelle öffentliche Annahme, Schrottvergütung, Telefon und Zertifizierung dadurch nicht bestätigt. Kein Namensoverwrite ohne vollständigen Zwei-Quellen-Kettenbeleg; description/Überblick präzisiert. Quellen: https://www.northdata.de/R%20%26%20S%20Reinhart%20%26%20Sela%20GmbH%20%26%20Co%C2%B7%20KG,%20Ortenberg/Amtsgericht%20Friedberg%20HRA%204456 ; https://www.northdata.de/?id=15958345 (Premiumsperre).]
+
+- [Recherche 18.10.2026: Rechtsträger-Gegenprobe gezielt auf AG Friedberg HRA4456 begrenzt; direkter Northdata-Abruf HTTP 429, kein verwertbarer aktueller Registerinhalt und kein negativer Treffer. Vorrecherche/alte Registerleads bleiben erhalten, werden nicht als heute gelesen ausgegeben. description macht erstmals im Seed sichtbar, dass aktuelle Website/Annahmebedingungen fehlen; bestehender Status/Kontakt nicht neu verifiziert. Umwandlung OHG→GmbH & Co KG weiterhin nicht vollständig belegt. ANKAUF/VERKAUF/GEBÜHREN ohne neue Zahlenquelle; fremde Reinhardt-/R+S-Unternehmen nicht zuordnen. Am Bahndamm 2 kein neu bestätigter Alt-GEO-Punkt, aktuelle Geschäfts-/Kundenannahmeadresse noch getrennt prüfen. Quelle: https://www.northdata.com/R%20%26%20S%20Reinhart%20%26%20Sela%20GmbH%20%26%20Co%C2%B7%20KG,%20Ortenberg/Amtsgericht%20Friedberg%20HRA%204456 (429).]
 
 ### Recherche 08.10.2026 (Register- und Namensvetterabgrenzung)
 

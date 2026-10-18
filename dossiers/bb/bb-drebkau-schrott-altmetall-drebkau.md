@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Registerkandidat Altmetall Drebkau GmbH, HRB 9224 Cottbus, ist seit 29.05.2018 gelöscht; NorthData nennt Liquidation bereits 25.09.2015 und einen Liquidatorwechsel 20.12.2017. Der Seedname Schrott-Altmetall Drebkau GmbH ist damit noch nicht zweifelsfrei als dieselbe Firma identifiziert. Weder einen heutigen Hof noch eine Nachfolge aus dem historischen Registerzweck ableiten; `pruefung` bleibt statt unbelegter pauschaler Schließung.
+
+**Ankauf / Verkauf / Gebühren:** keine aktuelle Betreiberpreisliste. **Offen:** Alias-/Identitätskette zum Seed und etwaiger heutiger Betreiber an Bahnhofstraße 23. **GEO:** keine Kundenstandortfreigabe aus einer gelöschten Gesellschaft.
 
 ## Timeline
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: NorthData-Profil Altmetall Drebkau GmbH/HRB 9224 Cottbus heute vollständig direkt gelesen: Erloschen-Markierung, Löschung 29.05.2018, Liquidation 25.09.2015, Liquidator Egon Wetzel 20.12.2017. Damit ältere Notiz präzisiert: 20.12.2017 ist sichtbarer Liquidatorwechsel, nicht erst der Beginn der Liquidation. Profil zeigt als Adresse nur Drebkau/Deutschland; Bahnhofstraße 23 dadurch nicht frisch bestätigt. Unternehmensgegenstand umfasst Schrott/Metalle, aber auch Antikmöbel/Textilien/Gastronomie; keine heutige Leistung daraus ableiten. Zweiter direkter Webvalid-Abruf Transportfehler, kein neuer Zweitbeleg; alte Registerspiegel nicht als jetzt gelesen ausgeben. Keine Identitätskette vom Seednamen Schrott-Altmetall zu diesem Rechtsträger abschließend belegt, keine Standortschließung oder Nachfolge behauptet. Ankauf-/Verkaufs-/Gebührenliste und heutige Annahme offen, GEO gesperrt bis Betreiberklärung. Quellen: https://www.northdata.de/Altmetall%20Drebkau%20GmbH,%20Drebkau/Amtsgericht%20Cottbus%20HRB%209224 ; https://www.webvalid.de/company/Altmetall+Drebkau+GmbH,+Drebkau/HRB+9224+CB (Abruf fehlgeschlagen).]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

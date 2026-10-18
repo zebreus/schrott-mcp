@@ -30,6 +30,10 @@ Kein belegter aktueller Annahmeort für diese Seedzeile, keine Ankauf-, Verkaufs
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Neuer unabhängiger Identitätsdatenabgleich zur KG: GLEIF-API LEI391200DERUQIA2FILR68 direkt gelesen, Schrott-SasseGmbH&Co.KG/HRA5881/LippstädterStr.61/33378Rheda-Wiedenbrück, entityACTIVE, registrationISSUED, lastUpdate18.04.2026, nextRenewal12.06.2027. Registerdetail live kongruent und Abschluss2024 veröffentlicht02.03.2026. Das stützt den konkreten KG-Kandidaten, löst aber die Seedzuordnung Sasse versus Hermann/Südring107 nicht. Website technisch kontrolliert: HTTP200, exakt119Bytes HTML mit leerem body, kein Impressum oder Kontaktdetail; nicht als aktive Betreiberwebsite bzw. Schließungsbeleg gewertet. GLEIF ist Identitätsdatenquelle, kein zulässiger Ersatz für unabhängige historische Betreiberkette oder Annahmenachweis. Kein Stammdaten-/GEO-Fill, keine Ankauf-/Verkaufs-/Gebührenliste. Quellen: https://api.gleif.org/api/v1/lei-records/391200DERUQIA2FILR68 ; https://www.northdata.de/Schrott-Sasse%20GmbH%20&%20Co%C2%B7%20KG,%20Rheda-Wiedenbr%C3%BCck/Amtsgericht%20G%C3%BCtersloh%20HRA%205881 ; https://www.schrott-sasse.de/ .]
+
 ### Recherche 17.10.2026 — Welle 21:00 B
 
 - [Recherche 17.10.2026: Registerspiegel der Schrott-Sasse KG erneut direkt gelesen: HRA 5881, Lippstädter Str. 61/33378, Abschluss 2024 veröffentlicht 02.03.2026. Neu geprüfte Domain schrott-sasse.de leitet auf www weiter und liefert HTTP 200, aber praktisch leeres HTML mit leerem body, kein lesbares Impressum/Kontakt. Das ist kein verifiziert aktiver Betreiberauftritt und ebenso kein Beweis der Betriebsschließung. Knapper Seed Sasse bleibt gegenüber Hermann/Südring 107 ungeklärt; keine Zuordnung der KG ohne Betreiberkette. Ankauf/Verkauf/Gebühren: keine numerischen Listen abrufbar. GEO: beide alten Adresskandidaten gesperrt bis Seedidentität geklärt. Quellen: https://www.northdata.de/Schrott-Sasse%20GmbH%20&%20Co%C2%B7%20KG,%20Rheda-Wiedenbr%C3%BCck/Amtsgericht%20G%C3%BCtersloh%20HRA%205881 ; https://schrott-sasse.de .]

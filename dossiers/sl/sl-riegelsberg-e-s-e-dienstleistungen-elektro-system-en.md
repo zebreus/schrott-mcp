@@ -12,7 +12,7 @@ opening_hours: ''
 website: http://www.elektro-system-entsorgung.de
 website_status: aktiv
 status: pruefung
-description: ''
+description: ESE Dienstleistung ist eine nicht abschließend qualifizierte Betreiberspur; Elektrogeräteentsorgung und EDV-Demontage sind Website-/Socialangaben, keine verifizierten Leistungen. Rechtliche Betreiberperson, aktuelle Anlagenzertifizierung und zahlender Ankauf bleiben offen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3 (Stand 2026-09-27)
@@ -27,6 +27,14 @@ provenance_origin: table
 Die Betreiberseite bestätigt ESE Dienstleistung an Hilschbacher Straße 66, 66292 Riegelsberg, mit Telefon 0151 65134087 und info@elektro-system-entsorgung.de. Schwerpunkt ist eine Erstbehandlungsanlage für Elektro-/Elektronikgeräte mit Abholung und Nachweisverfahren sowie Haushaltsentrümpelung/Baudienstleistungen; ein Ankauf von Altmetall ist nicht belegt. Die Seite ist erreichbar, trägt aber einen Copyright-Stand 2020–2023. Keine veröffentlichten Ankauf-/Verkaufspreise oder Gebühren gefunden; Abhol-/Entsorgungskonditionen beim Betreiber erfragen.
 
 ## Timeline
+
+### Ownerdisposition 18.10.2026
+
+- [Korrektur 18.10.2026: description auf nicht abschließend qualifizierte Website-/Socialangaben begrenzt. Anbieterkennzeichnung ohne rechtliche Betreiberperson/HR-Kennung, Social nur Suchauszug; Webmaster Rolf Zemolka ist kein belegter Inhaber. Keine verifizierte Erstbehandlungsanlage oder Leistung aus der Beschreibung ableiten, keine Identitäts-/Namensänderung; übrige Felder unverändert, status pruefung bleibt; Quelle: https://www.elektro-system-entsorgung.de/index-00.html ; https://www.elektro-system-entsorgung.de/index-5.html ; https://www.facebook.com/p/E-S-E-Dienstleistungen-100027588019351 (Indexlead).]
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Recherche 18.10.2026: HTTPS-Kontakt und Anbieterkennzeichnung direkt gelesen. ESE Dienstleistung/Hilschbacher Strasse 66/66292/0151 65134087/info@elektro-system-entsorgung.de stehen weiterhin dort; die rechtliche Seite nennt aber keine natürliche Betreiberperson, kein Handelsregister und kein aktuelles Anlagenzertifikat. Der dort genannte Rolf Zemolka ist ausdrücklich Webmaster/conas, nicht als ESE-Inhaber übernehmen. Facebook-Suchauszug E-S-E Dienstleistungen/Riegelsberg ergänzt EDV-Demontage und Metallhandel, ist ohne Vollprofil/Adressbezug kein unabhängiger aktueller Identitätsbeleg. Kein Kontaktfill, keine neue Bestätigung der behaupteten Erstbehandlungsanlage. ANKAUF ohne Vergütungsbeleg/Kurse, VERKAUF ohne Liste, GEBÜHREN ohne Tarife. Hilschbacher Straße 66 bleibt Kandidat für GEO nach Betreiber-/Anlagenprüfung, kein Alt-Pin bestätigt. Quellen: https://www.elektro-system-entsorgung.de/index-5.html ; https://www.elektro-system-entsorgung.de/index-00.html ; https://www.facebook.com/p/E-S-E-Dienstleistungen-100027588019351 (nur Suchauszug).]
 
 ### Recherche 01.10.2026
 

@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: Dechmann Schrott Metall Handel in Koblenz ist ein ungeklärter Verzeichnislead mit widersprüchlichen Adressen Handwerkerstraße 47 und Daimlerstraße 8; keine belegte Verbindung zu Dechmann Prüm.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -31,6 +31,10 @@ Ein direkt abgerufenes Gelbe-Seiten-Profil führt „Schrott Metall Handel Dechm
 Neue Gegenprobe verschärft den Standortkonflikt: Schrottplatz-Info nennt **Daimlerstraße 8** und **0261 98884728**, gegenüber Handwerkerstraße 47/Nummer …727 bei Gelbe Seiten. Kein Umzug und keine zwei Betriebsstätten belegt. Beide Adressen bleiben Kandidaten, kein GEO; keine Verbindung zu Dechmann Prüm oder anderen Koblenzer Händlern ableiten.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Recherche 18.10.2026: Neue Suche bestätigt weiterhin zwei unterschiedliche Verzeichnisstränge: Gelbe Seiten Handwerkerstr. 47/0261 98884727 plus Mobil 0171 4988141; Auskunft Daimlerstraße 8/0261 98884728. Telefonbuch liefert zusätzlich Koordinaten zum Handwerkerstraßen-Lead; diese sind keine Betreiberbestätigung und werden ausdrücklich NICHT als neues oder bestätigtes Alt-GEO übernommen. Kein Umzug/Filialnachweis. Northdata-Suggest Dechmann Koblenz HTTP 429, kein negativer Identitätsbeweis. description mit Standortkonflikt gefüllt; keine Kontaktübernahme/Prüm-Zusammenführung. ANKAUF/VERKAUF/GEBÜHREN ohne Zieltarife; Preise und 25-Euro-Abholpauschale anderer Koblenzer Anbieter sind Fremddaten. Quellen (Verzeichnis-Suchauszüge): https://www.gelbeseiten.de/gsbiz/b7fda703-64ae-4126-ba97-ad3385d01602 ; https://www.auskunft.de/firma/a2ht5x5z-dechmann-schrott-metall-handel-koblenz ; https://adresse.dastelefonbuch.de/Koblenz/3-Dechmann-Schrott-Metall-Handel-Koblenz-Handwerkerstr.html ; https://www.northdata.de/suggest.json?query=Dechmann%20Koblenz&countries=DE (429).]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

@@ -30,6 +30,10 @@ Verzeichnisse beschreiben „PC-Schrott 24“ als Computer-/E-Schrottbetrieb und
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Adresskonflikt gezielt von der Gegenseite geprüft: 11880-Einzeldetail live führt tatsächlich Adam-Riese-Str. 13 A/53842 Troisdorf-Oberlar, gleiche 01577 5305555, Mail-Link geisterbrummi@gmail.com und Mo–Fr 09–15, Termine nach Vereinbarung. Nicht nur eine alte Vorlage: Portal nennt Eintragsdaten 30.03.2026 und Aktualisierung 15.10.2026; auch das belegt keinen Umzug oder Betreiber. Die E-Mail wiederholt den früher dokumentierten YellowMap-Lead, bleibt aber ohne Betreiber-/Registerabgleich unbestätigt. Profilwerbung komplett kostenfrei ist weder Betreiberverifikation noch Ankaufzusage. Bewertungen 2021/2023 und Portalsiegel keine aktuelle Betriebserlaubnis. Adam-Riese/Senkelsgraben bleiben zwei Kandidaten, keinerlei Kontakt-/Adresswechsel oder GEO-Fill. Ankauf/Verkauf ohne Kurse; Gebührenfreiheitswerbung nur ungeprüfter Verzeichnistext, nicht als Tarif eingetragen. Quelle: https://www.11880.com/branchenbuch/troisdorf/060441364B107305703/pc-schrott-24.html .]
+
 ### Recherche 14.10.2026 — Troisdorfer Verzeichnis und Plattform getrennt
 
 - [Recherche 14.10.2026: [koeln.de-Branchenverzeichnis PC-Schrott 24](https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24) direkt gelesen: Am Senkelsgraben 26, 53842 Troisdorf, 01577 5305555. Keine Betreiberidentität, eigene Website oder näheren Annahme-/Ankaufbedingungen. Ein redaktionell nicht verifiziertes Branchenverzeichnis auf einem Stadtportal ist kein kommunaler Gewerberegisterbeleg; der alte Adam-Riese-Str.-Konflikt bleibt offen.; Quelle: https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24]

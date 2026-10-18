@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Unbestätigter Autoverwertungskandidat Ahmad Bataineh/Jordan, historische Adressspur Heinsdorfer Straße 25b in Reichenbach. Weder aktuelle Betreiberidentität noch Demontageanerkennung unabhängig verifiziert. Register-Namenssuche ohne passenden Treffer; das öffentlich verlinkte GADSYS-Register ließ sich hier nicht inhaltlich auslesen, also kein negativer Betriebsnachweis.
+Autoverwertungskandidat Ahmad Bataineh/Jordan, historische Adressspur Heinsdorfer Straße 25b in Reichenbach. Neuer Suchauszug eines mutmaßlich betreibergeführten TikTok-Profils nennt Jordan-Autoverwertung/Heinsdorfer Straße 25 sowie Kontakte; der Originalbeitrag ließ sich nicht inhaltlich abrufen. Das ist ein neuer Social-Lead, kein gelesener Betreiber-/Anerkennungsnachweis. GADSYS lädt technisch nur eine JavaScript-Anwendung, kein Betriebsdatensatz wurde ausgewertet; kein negativer Registerbefund.
 
 Ankauf/Verkauf/Gebühren nicht verifiziert. Offene Fragen: genaue Rechtsform/Inhaber, heutiger Standort, aktuelle Anerkennungsnummer, Fahrzeug- und Teilehandel sowie Annahme-/Abholbedingungen. Kein Adress-Fill oder Geocoding aus der Seed-Spur.
 
 ## Timeline
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Eigene Suche Jordan Autoverwertung/Bataineh findet mutmaßlichen Betreiber-Social-Beitrag TikTok @ahmadbataineh41, Video 7534967477260799254; Suchauszug nennt Jordan-Autoverwertung, Heinsdorfer Str. 25/08468 Reichenbach, 03765 521599, 0173 9682348, bataineh530@gmail.com. Individuellen Beitrag direkt abgerufen, Tool lieferte keinen auswertbaren Inhalt; daher NUR indexierter Lead, Betreiberkontrolle, Beitragstermin und Aktualität nicht verifiziert. Hausnummer 25 versus alter Spur 25b nicht glätten, Kontakte nicht füllen. GADSYS heute direkt HTTP 200, aber nur leere Vaadin-/JavaScript-Hülle mit ./VAADIN/build/indexhtml-BSsZwGIF.js; keine durchgeführte Betriebssuche/kein Nulltreffer. Neue NorthData-Suggest-Route HTTP 429 statt früherer Leerlisten, ebenfalls kein negativer Firmenbefund. Für Anerkennung weiterhin konkreten amtlichen Datensatz samt gültiger Nummer lesen; Social-Marketing ersetzt ihn nicht. Ankauf-/Teileverkaufs-/Gebührenliste nicht belegt; Frontmatter/GEO unverändert. Quellen: https://www.tiktok.com/@ahmadbataineh41/video/7534967477260799254 (nur Suchauszug, Original nicht auswertbar) ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung ; https://www.northdata.de/suggest.json?query=Jordan%20Autoverwertung&countries=DE (429).]
 
 ### Recherche 12.10.2026
 

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -29,6 +29,10 @@ Aktuelle Betreiberanzeigen nennen **Blatzheimer Str. 2, 53909 Zülpich**, Inhabe
 Anlieferung Mo-Sa 9–18 Uhr; Abholung laut Anzeige erst ab 2 t. Metallankauf nach Tageskurs, Gewicht und Material, keine numerische Liste. Die Anzeigen-Kategorien „Zu verschenken“ und „VB“ sind **keine Metallpreise und keine Zusage kostenloser Abholung**.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Adresskette erneut gezielt geprüft: Betreiberdomain /impressum/ und /ueber-uns/ sowie konkretes Creditreform-Profil5030775804 direkt403. Suchindex zeigt jetzt auch Creditreform mit BlatzheimerStr.2/53909 sowie Betreiber-Über-uns mit Besuchseinladung; Indextext ist kein gelesener Firmenvolltext und kein unabhängiger Standortnachweis. Keine neue Bestätigung von Anlieferzeiten/2t-Abholgrenze behauptet: diese bleiben historische Eigenangaben05.10. Website_status leer zu unbekannt, da Domainzuordnung noch nicht vollständig freigegeben; nicht tot aus403. Keine Überschreibung Triererstr.10. Nötiger nächste Beleg ist die kommunale Gewerbe-/Standortauskunft zu KlausSchmitz/BlatzheimerStr.2 samt Verhältnis zur Triererstraße, kein weiterer Portal-Konsens. Keine neu gelesene numerische Ankauf-/Verkauf-/Gebührenliste; Kleinanzeigen-Kategorien weiter keine Händlerpreise. GEO weder für alte noch neue Adresse freigegeben. Quellen: https://www.schrotthandelschmitz.de/impressum/ ; https://www.schrotthandelschmitz.de/ueber-uns/ ; https://firmeneintrag.creditreform.de/53909/5030775804/KLAUS_SCHMITZ_SCHROTTHANDEL_SCHMITZ (Direkt403, Indexlead).]
 
 ### Vertiefung 08.10.2026
 

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Seed nennt „Kleintransport“ in Oberhausen, aber keine identifizierbare Person/Firma, konkrete Anschrift oder belegte Schrottannahme. Die aktuelle Suche nach Theissen + Oberhausen + Schrott/Metallhandel lieferte keine passende Betreiber- oder Registerquelle; gleichnamige/SEO-Treffer sind nicht zuzuordnen. ANKAUF, VERKAUF und Gebühren daher unbestätigt; keine Preislisten gefunden.
+**Neuer konkreter Kandidat:** Jens Theissen Transporte, Alstadener Str. 126, 46049 Oberhausen-Alstaden, 0208 8486706, wird im direkt gelesenen 11880-Profil unter Kleintransport, Altmaterialhandel und Schrotthandel geführt. Das passt zum knappen Seed, beweist aber weder dessen Identität noch heutige Tätigkeit oder Ankauf. Kein Betreiberimpressum/qualifizierter Zweitbeleg; Name/Adress-/Kontaktfelder nicht damit ersetzt. ANKAUF, VERKAUF und Gebühren ohne bestätigte Liste. Vor GEO erst Jens-Theissen-Zuordnung, Gewerbestatus und Annahmefunktion klären; keine Schließungsbehauptung.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Zielgerichtete Suche Kleintransport statt nur Schrott erschließt erstmals Jens Theissen Transporte. 11880-Detail direkt gelesen: Alstadener Str.126/46049 Oberhausen, 0208 8486706, zusätzliche Kontaktnummer 0208 8483735, keine eigene Domain/E-Mail/Zeiten; Branchen Kleintransport, Altmaterialhandel, Schrotthandel. Eintragsdaten 29.06.2021, Portalaktualisierung 03.10.2026 kein Gewerbenachweis. Andere Namens-/Socialtreffer nicht sicher zugeordnet. Einzel-Lead ausdrücklich nicht zum Primärbeleg aufgewertet; voller Name/Adresse nicht strukturiert. Keine Ankauf-/Verkaufskurse oder Gebührentabelle; keine Anlieferung aus Branchenrubrik ableiten. website_status auf unbekannt normalisiert; kommunale Gewerbeauskunft für Jens/Alstadener Straße sinnvoller nächster Klärschritt. Quelle: https://www.11880.com/branchenbuch/oberhausen-rheinland/190682936B101020212/jens-theissen-transporte.html .]
 
 ### Recherche 01.10.2026
 

@@ -28,6 +28,10 @@ Ein Betrieb „Wagner Schrott- & Metallhandel“ am Seed-Standort Barkhausenstr.
 
 ## Timeline
 
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Eigene exakte Namens-/Adresssuche liefert neuen 11880-Detaillead, heute direkt gelesen: Schrott- & Metallhandel Wagner, Barkhausenstr. 75/14612 Falkensee, 03322 238933, Fax 03322 238935, Mo–Fr 08–16:30/Sa 09:30–12, kein Website-/Mailziel. Eintragsdaten 01.07.2021, sichtbare Aktualisierung 02.10.2026. Portal FAQ spricht nur allgemein von vom Inhaber bestätigten Einträgen, belegt keine tatsächliche Inhaberbestätigung dieser Firma. Keine dieser Angaben als zweite Betreiberquelle oder frische Betriebsverifikation behandeln. Register-Suggest Wagner Schrott Falkensee HTTP 429, kein Firmen-Nichttreffer; keine fremde Wagner-Domain zuordnen. Neue Kontaktspur eignet sich für künftige Betreiber-/Gewerbeklärung, nicht für Frontmatter-Fills oder GEO. Kein numerischer Ankauf, Verkauf oder Gebührentarif; insbesondere Portal-Euro-Zeichen/Preisspannen-FAQ keine Kurse. Quellen: https://www.11880.com/branchenbuch/falkensee/120671391B52907236/schrott-metallhandel-wagner.html (Lead) ; https://www.northdata.de/suggest.json?query=Wagner%20Schrott%20Falkensee&countries=DE (429).]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Exakte Namenssuche lieferte keinen Betreiberauftritt für Falkensee. Der sichtbare Treffer „Wagner Schrott- und Metallhandel“ ist ein namensähnlicher Betrieb in Billigheim (Baden-Württemberg), kein Beleg für Barkhausenstr. 75; keine fremden Kontakt-/Leistungsangaben übertragen. Seed-Adresse bleibt unbestätigt, status pruefung; keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren. Quelle(n): https://www.schrott-wagner.de/leistungen.html (Betreiberseite eines namensähnlichen Betriebs); https://www.enfmetal.com/wagner-schrott-und-metallhandel (Standortlead Billigheim).]

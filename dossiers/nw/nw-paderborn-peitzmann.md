@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Registerseitig konkret rekonstruierte Betreiberkette: Peitzmann GmbH & Co. KG (HRA 7080) → Formwechsel 2017 zur Peitzmann GmbH (HRB 13128) → Umfirmierung 2019 PreZero Metall GmbH. Nicht mit der älteren 2004 erloschenen GmbH HRB 1586 vermengen. Am Atlaswerk 22, 33106 Paderborn ist durch Register und Betreiber-Zertifikatsübersicht als heutiger PreZero-Standort bestätigt. Zwei Registerspiegel derselben Bekanntmachung sind aber kein wirklich unabhängiger historischer Kettenbeleg; Umbenennung/Frontmatter-Fills bleiben dem Owner nach zusätzlicher Bestätigung vorbehalten. **Ankauf:** Betreiber-Metallseite beschreibt vergüteten, marktgerechten Ankauf, keine Zahlenliste. **Verkauf:** industrielle Sekundärrohstoffe, keine öffentlich verifizierte Preisliste. **Gebühren:** keine Liste. Die Metallseite belegt keine private Kundenannahme. **Offen:** unabhängiger Peitzmann→PreZero-Beleg, lokale Kundenannahme/Telefon/Zeiten und aktuelles Efb-Zertifikat. Bei Adressfreigabe Koordinaten neu prüfen.
+Registerseitige Betreiberkette: Peitzmann GmbH & Co. KG (HRA 7080) → Formwechsel2017 Peitzmann GmbH (HRB13128) → Umfirmierung2019 PreZero Metall GmbH. **Neue Präzisierung:** Auch die ältere GmbH/HRB1586 ist nicht einfach ein geschlossener Namensvetter: Bekanntmachung25.11.2004 dokumentiert ausdrücklich Formwechsel in Peitzmann GmbH & Co. KG/HRA4797. Die Registerkennungen müssen auseinandergehalten werden, die Formwechselkette darf aber nicht abgeschnitten werden. Unabhängiger historischer Kettenbeleg weiterhin offen; Name/Adresse nicht ohne Owner-Freigabe ersetzt.
+
+Am Atlaswerk22/33106Paderborn ist aktueller PreZero-Standort in Register und Zertifikatsübersicht. **Ankauf:** marktgerechte Vergütung beworben, keine Zahlenliste. **Verkauf:** industrielle Sekundärrohstoffe, keine verifizierte Liste. **Gebühren:** keine Liste. Keine private Annahme aus allgemeiner Metallseite ableiten. Lokale Annahme/Telefon/Zeiten, unabhängige Betreiberkette und Efb-Dokumentinhalt vor GEO/Umbenennung klären.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Gegenprüfung der früheren Warnung vor HRB1586: aktuelles NorthData-Detail aggregiert HRB13128/HRA7080/HRA9063/HRA4797/HRB1586 in derselben Historie. Einzeln gelesene Bekanntmachung25.11.2004 nennt ausdrücklich Umwandlung der Gesellschaft durch Formwechsel gemäß Beschluss11.08.2004 in PeitzmannGmbH&Co.KG, AGPaderbornHRA4797. Das ist kein Liquidations-/Betriebsschließungsnachweis und kein Beweis eines unverbundenen Namensvetters. Begleitende Eintragungs-Publikation id6304733323591680 ist Premium-gesperrt, Volltext nicht gelesen. Nur registerseitige Kette präzisiert, keine zweite unabhängige Kettenquelle erfunden. PreZero-Zertifikatsübersicht erneut als heutiger Standortbeleg gelesen; keine Umbenennung/Fills aus bloßer Registeraggregation. website_status unbekannt normalisiert. Kein numerischer Preisfund, keine GEO-Freigabe; frühere Preis-/PDF-Befunde nicht als heute neu geprüft ausgegeben. Quellen: https://www.northdata.de/PreZero%20Metall%20GmbH,%20Paderborn/HRB%2013128 ; https://www.northdata.de/?id=4709752708268032 ; https://www.northdata.de/?id=6304733323591680 (Premium); https://prezero.com/de/zertifikate .]
 
 ### Recherche 13.10.2026
 

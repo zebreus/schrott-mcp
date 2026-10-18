@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autodienst Dürrhennersdorf GbR an Bahnhofstraße 20 ist weiterhin nur über Verzeichnisleads greifbar. Die frühere Ausnahmefüllung von PLZ/Telefon aus Örtlichem und Gelben Seiten ist nach heutigem Quellenstandard keine Zwei-Primärquellen-Verifikation. Die Portalbezeichnung Autoverwertung beweist weder Inhaber noch aktuelle Demontageanerkennung. Frontmatter bleibt historisch erhalten, nicht neu legitimiert.
+
+**Ankauf / Verkauf / Gebühren:** keine zuordenbare Betreiberpreisliste. **Offen:** Inhaber/Gesellschafter der GbR, eigene Präsenz, aktueller Anerkennungsdatensatz und Annahme-/Abholbedingungen. **GEO:** Bahnhofstraße 20 ohne qualifizierte Betreiberprüfung nicht als verifizierten Kundenhof freigeben.
 
 ## Timeline
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Eigene Suche lieferte GS/Örtliches/Telefonbuch/Cylex/Autoplenum, keine qualifizierte Betreiberwebsite. GS-Einzelseite direkt gelesen: Bahnhofstr. 20/02708 und 0170 5828181, Portalzeiten Mo–Fr 08–16, keine tatsächliche externe Betreiber-URL im gelesenen Inhalt trotz generischem Website-Label. Das sind neue Leadabrufe, keine neue Primärverifikation und keine heutige Rechtfertigung der alten Ausnahmefüllung. GADSYS direkt HTTP 200, bloß Vaadin-/JS-Anwendung ohne ausgewerteten Betriebsdatensatz; NorthData-Suggest Autodienst Dürrhennersdorf HTTP 429. Weder Nichtanerkennung noch Nichtexistenz aus technischen Grenzen folgern. Keine Zeiten/Website/Services aus Portalen übertragen; Inhaber-/Gewerbebeleg und konkrete Anerkennung bleiben offen. Ankauf/Teileverkauf/Gebühren keine Zahlenliste, GEO nicht qualifiziert. Quellen: https://www.gelbeseiten.de/gsbiz/7baa8c4e-3efa-4c6d-88bd-7def60473a21 (Lead) ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung ; https://www.northdata.de/suggest.json?query=Autodienst%20D%C3%BCrrhennersdorf&countries=DE (429).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

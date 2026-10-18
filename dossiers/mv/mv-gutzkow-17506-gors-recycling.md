@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: Recyclingunternehmen am Kleinbahnhof 2 in Gützkow.
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Görs Recycling GmbH, HRB 7114 Stralsund, ist durch Registerprofil und kommunales Branchenbuch am Kleinbahnhof 2 identifiziert. Der öffentliche Schrottankauf auf spedition-goers.de wird dagegen von der rechtlich getrennten Speditions- u. Handelsgesellschaft mbH Armin Görs, HRB 5624, beworben. Gemeinsame Anschrift und Telefon lösen die Betreiberfrage nicht. Die Kandidatendomain goers-recycling.de bleibt eine Baustellenseite. Der vorhandene Aktivstatus ist keine neue Bestätigung einer öffentlichen Annahme durch HRB 7114.
+
+**Ankauf / Verkauf / Gebühren:** keine der Recycling-GmbH zurechenbare Zahlenliste. **Offen:** tatsächlicher Vertragspartner bei Anlieferung, Kundenzugang, Materialien und Zeiten. **GEO:** Anschrift ist belegt, aber kein neuer genauer Hof-/Zufahrtspunkt geprüft; Alt-GEO nicht freigegeben.
 
 ## Timeline
+
+### Ownerdisposition 18.10.2026
+
+- [Korrektur 18.10.2026: status aktiv zu pruefung, nicht geschlossen. Registerprofil und kommunales Branchenbuch identifizieren Görs Recycling GmbH HRB 7114 am Kleinbahnhof 2; die Schrottankaufwerbung gehört laut Impressum dagegen zur getrennten Speditions- u. Handelsgesellschaft HRB 5624. Gemeinsame Adresse/Telefon beweisen keine Übertragung des Ankaufgeschäfts; goers-recycling.de liefert nur eine Baustellenseite. Daher keine hinreichend belegte aktuelle öffentliche Annahme durch den Seedbetreiber. Andere Stammdaten, Kontakte, Services und GEO unverändert, keine pauschale Löschung; Quelle: https://guetzkow.de/cms/index.php/5863-2/ ; https://www.northdata.de/G%C3%B6rs+Recycling+GmbH,+G%C3%BCtzkow/Amtsgericht+Stralsund+HRB+7114 ; https://www.spedition-goers.de/impressum ; https://www.spedition-goers.de/leistungen ; https://www.goers-recycling.de/ .]
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Kommunales Branchenbuch und vollständiges NorthData-Profil HRB 7114 neu direkt gelesen: Am Kleinbahnhof 2/17506 Gützkow, kommunal 038353-6020; Registergegenstand An-/Verkauf und Aufbereitung von Recyclingprodukten, jüngster im Profil sichtbarer Abschluss 2023 veröffentlicht 04.04.2025, Prokura Jerome Albrecht 14.10.2024. Das bestätigt Gesellschaft/Anschrift, nicht die heutige öffentliche Annahme. Impressum und Leistungen der Spedition ebenfalls neu gelesen: ausdrücklich HRB 5624, dort Ankauf Schrott, Container und Recycling. Kein Beleg einer Verschmelzung oder Übertragung des Ankaufgeschäfts. goers-recycling.de heute HTTP 200 mit lediglich Hier entsteht eine neue Internetseite; kein Impressum-/Annahme-/Preisbeleg. Keine Übertragung der Speditionswebsite, Mail oder Servicebedingungen. Frontmatter unverändert; Ankauf-/Verkaufs-/Gebührenzahlen für HRB 7114 nicht belegt, GEO bleibt gesondertes Präzisionsgate. Quellen: https://guetzkow.de/cms/index.php/5863-2/ ; https://www.northdata.de/G%C3%B6rs+Recycling+GmbH,+G%C3%BCtzkow/Amtsgericht+Stralsund+HRB+7114 ; https://www.spedition-goers.de/impressum ; https://www.spedition-goers.de/leistungen ; https://www.goers-recycling.de/ .]
 
 ### Recherche 04.10.2026
 

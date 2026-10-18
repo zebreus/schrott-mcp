@@ -11,9 +11,10 @@ email: info@schrotthaendler-24.de
 opening_hours: Mo-Fr 08:00-20:00, Sa 10:00-17:00
 website: https://schrotthaendler-24.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
+clear_fields: dropoff_json
 pickup_json: ''
 provenance_section: Mobile / NRW-weite Händler (ohne geprüften stationären Platz)
 provenance_ankauf_raw: mobil/ja
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthändler24 ist der Auftritt Dany Abouds, Bövinghauser Str.38, 44388 Dortmund, nicht Schrott24/Metaloop oder Schrott-Handel24. Impressum und Preisübersicht erreichbar; kein registerkonformes Impressum und kein unabhängiger aktueller Betreiberbeleg. Die historische Aktivfreigabe deshalb zu `pruefung` korrigiert, technische Website bleibt aktiv. Alte Kontaktdaten nicht neu als zweifach bestätigt ausgegeben.
+
+**Ankauf:** zwölf undatierte EUR/kg-Werbeobergrenzen „bis zu“, darunter Kupfer/Kabel 7,20 und Elektronikschrott 66,00; keine garantierten aktuellen Tageskurse oder Qualitätsklassen. **Verkauf:** keine geprüfte Verkaufsliste. **Gebühren:** Anbieter wirbt auf der Preisübersicht mit kostenloser NRW-Abholung, kein vollständiger Tarif. Impressumssitz nicht als Annahmehof belegt; Anlieferungsort und unabhängige Betreiberidentität vor GEO/Leistungsfreigabe klären.
 
 ## Timeline
+
+### Ownerdisposition 18.10.2026
+
+- [Korrektur 18.10.2026: Owner-Readonly-Impact enthält gespeichert dropoff_json allowed:true, obwohl keine öffentliche Hofannahme belegt ist. Betreiberimpressum nennt einen Sitz, die NRW-Abholwerbung keine verifizierte Selbstanlieferungsstelle; unabhängiger aktueller Betreiber-/Annahmebeleg fehlt. Gezielt clear_fields dropoff_json bei leerem dropoff_json gesetzt: beim Seed unbekanntes Objekt {}, ausdrücklich nicht allowed:false, keine Annahmeverweigerung oder Schließung. Status pruefung, Pickup, Kontakte, Adresse und GEO unverändert; Quelle: /tmp/opencode/wave-20261018-1800-production-impact.json (Owner-Readonly-Export, slug nw-nrw-weit-schrotthandler24); https://schrotthaendler-24.de/impressum/ ; https://schrotthaendler-24.de/schrottpreise/ .]
+
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Korrektur 18.10.2026: Impressum und Preisübersicht live gelesen: Dany Aboud, Bövinghauser Str.38/44388 Dortmund, 01629588664, info@schrotthaendler-24.de, ohne HR-Nummer. Frühere Betreiber-Einzelquellenlage ist kein nachträglicher Zweitbeleg; status aktiv zu pruefung korrigiert, technische Erreichbarkeit website_status aktiv bleibt. Keine Stammkontaktüberschreibung. Auf den heute gelesenen beiden Unterseiten führt auch der Footer-WhatsApp-Link korrekt auf 491629588664; das löst den am04.10. speziell für die Root dokumentierten abweichenden Link nicht automatisch. Keine öffentliche Annahmeadresse, keine GEO-Bestätigung. Quelle: https://schrotthaendler-24.de/impressum/ ; https://schrotthaendler-24.de/schrottpreise/ .]
+- [Preisabgrenzung 18.10.2026: Preisübersicht weiterhin zwölf bis-zu-Werte in EUR/kg: Alu2,40; Blei1,35; Edelstahl2,95; Eisen/Stahl0,30; Elektronikschrott66,00; Hartmetall/HSS14,00; Kabel7,20; Kupfer7,20; Messing4,76; Rotguss5,76; Zink1,62; Zinn23,16. Kein sichtbarer Preisstichtag; unveränderte Werte gegenüber04.10. nicht als heutige Kursbildung darstellen. Gerade E-Schrott66,00 ohne Unterqualität nicht als universellen Platinen-/Gerätepreis ingestieren. Ankaufwerbung, keine Verkaufskurse. Kostenlose Abholung laut Seite nur NRW; keine vollständige Gebührenliste oder bedingungslose bundesweite Gratiszusage. Quelle: https://schrotthaendler-24.de/schrottpreise/ .]
 
 ### Recherche 04.10.2026
 

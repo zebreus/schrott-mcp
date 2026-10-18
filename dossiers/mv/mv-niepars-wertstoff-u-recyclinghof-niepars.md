@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Privater Recyclinghof-Kandidat Zur alten Mühle in Niepars; historische Anschrift/Telefon bleiben Verzeichnisleads, keine frisch verifizierten Stammdaten. Neuer Firmenlead ist Clemens Hövemann mit Geschäftsbezeichnung Recycling Hof, jedoch ist die Zuordnung zum Seed noch offen. Der Landkreis führt Niepars nicht in seiner Liste kommunaler Wertstoffhöfe; das beweist keine Schließung eines privaten Hofes.
+
+**Ankauf / Verkauf / Gebühren:** keine zugeordnete Liste. Insbesondere kommunale Gebührenfreiheit für Haushaltsschrott nicht übertragen. **Offen:** Inhaber, genaue Hofanschrift, aktuelle Annahme und Preis-/Gebührenbedingungen. **GEO:** erst diese Identität und den tatsächlichen Kundenhof klären, nicht die alte Straße automatisch geocodieren.
 
 ## Timeline
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Eigene Suche liefert erstmals Creditreform-Kandidat Clemens Hövemann, Crefonummer 3190275847, Geschäftsbezeichnung Recycling Hof/Niepars, im Suchauszug 038321 60068; individuelle Seite direkt HTTP 403, daher weder vollständigen Gewerbedatensatz noch Identität mit dem Seed behaupten. Abweichendes Telefon nicht übernehmen. Amtliche Liste der Wertstoffhöfe des Landkreises vollständig direkt gelesen: Barth, Camitz, Grimmen, Ribnitz-Damgarten, Samtens, Stralsund, Sagard; kein Niepars. Diese Liste kommunaler Entsorgungsangebote ist kein abschließendes Privatbetriebsregister und damit kein Schließungsbeleg. Kommunale Regeln unterscheiden gebührenfreie Annahme u.a. Haushaltsschrott und gebührenpflichtige Abfälle, teils an Anschluss des Grundstücks gebunden; gelten nicht automatisch hier. Ankauf, Verkauf und Gebühren dieses privaten Kandidaten unbelegt. Frontmatter/GEO unverändert. Quellen: https://firmeneintrag.creditreform.de/18442/3190275847/CLEMENS_HOEVEMANN (Suchauszug, Detail 403) ; https://www.lk-vr.de/Kreisverwaltung/Abfallwirtschaft/Entsorgung/Wertstoffh%C3%B6fe .]
 
 ### Recherche 02.10.2026
 

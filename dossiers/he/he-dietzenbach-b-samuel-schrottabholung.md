@@ -10,9 +10,9 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://schrottabholung-samuel.de/
-website_status: unbekannt
+website_status: aktiv
 status: pruefung
-description: ''
+description: Die eingetragene Samuel-Domain zeigt eine Baustellenseite mit R. Samuel statt B. Samuel und der ungeklärten Orts-/PLZ-Angabe 63128 Dietzenbach. Technische Erreichbarkeit ist kein Nachweis der Betreiberidentität oder aktueller Leistungen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Der historische Seed beschreibt „B. Samuel Schrottabholung“ mit angeblich kostenloser Abholung von Altmetall/Kupfer/V2A/Kabeln, aber ohne klare Ankauf- oder Auszahlungszusage. Suchindex-/Verzeichnis-Leads nennen Max-Planck-Straße 3, 63128 Dietzenbach und „Rusain/Rusalin Braica“ (Namensschreibung uneinheitlich); kein aktueller Betreiberinhalt konnte direkt gelesen werden. „Kostenlose Abholung“ ist eine unbestätigte Gebühren-/Serviceaussage, keine Materialvergütung.
+Die Domain ist jetzt direkt erreichbar und zeigt eine neue Baustellenseite **„R. Samuel Schrotthändler“**, Max-Planck-Straße 3, 63128 Dietzenbach, +49 157 58 128 133, kontakt@schrottabholung-samuel.de. Sie erklärt ausdrücklich, dass der Service während des Websiteumbaus weiterläuft. Der bisherige technische Nichtabrufbefund ist überholt; `website_status` deshalb aktiv. Der abweichende Initialbuchstabe R. statt B. und fehlende vollständige Anbieterkennzeichnung lassen die Identitätsfrage offen: kein Namensoverwrite, keine ungeprüften Kontaktfills.
 
-**Preise:** Ankauf — keine numerischen Ankaufspreise und keine bestätigte Auszahlungszusage; Verkauf — keine Verkaufspreise; Gebühren — „kostenlose Abholung“ nur als unbestätigte Index-/Seed-Aussage, kein Tarifnachweis. Status `pruefung`; Website-Status `unbekannt`, da der aktuelle Direktabruf Transportfehler lieferte (kein Löschungs-/404-Nachweis). **Geocoding:** Max-Planck-Straße 3 erst nach aktueller Betreiberbestätigung als Geschäftsadresse geokodieren.
+**Preise:** Ankauf — aktuelle Baustellenseite ohne Zahlen oder Auszahlungszusage; Verkauf — keine Liste; Gebühren — frühere Gratisabholung dort nicht zugesagt, keine Tarife. Status `pruefung`. **GEO:** Max-Planck-Straße 3 ist nun direkt auf der Domain genannt, aber erst nach rechtlicher Betreiberklärung und Prüfung eines Kundenannahmepunkts geokodieren.
 
 ## Timeline
+
+### Ownerdisposition 18.10.2026
+
+- [Korrektur 18.10.2026: website_status aktiv bleibt ausschließlich technische Beobachtung der bereits eingetragenen Domain, nicht Aktivfreigabe für B. Samuel; status pruefung unverändert. description auf Domaininhalt begrenzt: Seite nennt R. Samuel und 63128 Dietzenbach, B./R.-Identität und Orts-/PLZ-Zuordnung sind ungeklärt. Kein bestätigter Betreiberwechsel, kein neuer Betreiberort und keine Servicebestätigung; Adresse, Kontakte, Services und GEO nicht übertragen oder pauschal gelöscht. Fehlende vollständige Anbieterkennzeichnung bleibt Gegenevidenz; Quelle: https://schrottabholung-samuel.de/ ; https://schrottabholung-samuel.de/impressum (dokumentierter 404 mit Baustellenhülle).]
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Korrektur 18.10.2026: Neuer erfolgreicher Direktabruf von https://schrottabholung-samuel.de/ zeigt R. Samuel Schrotthändler, Baustellenankündigung, weiterlaufenden Service, Max-Planck-Straße 3/63128, +49 157 58 128 133, kontakt@schrottabholung-samuel.de; Website-Status unbekannt auf aktiv, keine Betriebsschließung. Logo-Pfad enthält 2026/10 (Dateipfad, kein Veröffentlichungsdatum). /impressum liefert HTTP 404 mit identischer Baustellenhülle; keine vollständige rechtliche Identität. B.→R. ist weder bestätigte Umbenennung noch Betreiberwechsel; Braica-Schreibweisen nicht auflösen. Nur Website-Status und vorsichtige description verbessert, Anschrift/Kontakte noch kein Zwei-Quellen-Fill. Keine aktuellen Ankauf-/Verkaufszahlen und keine Gratis-/Gebührenzusage. Quellen: https://schrottabholung-samuel.de/ ; https://schrottabholung-samuel.de/impressum (HTTP 404).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

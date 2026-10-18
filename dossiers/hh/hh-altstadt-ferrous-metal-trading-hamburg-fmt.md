@@ -30,6 +30,10 @@ Historischer Hamburger Metall-/Rohstoff-Trader, nicht als aktueller Ankaufplatz 
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: NorthData-Einzelbekanntmachung23.04.2026 erneut vollständig textgelesen: Eintragung3, Gesellschaft erloschen. GLEIF-JSON separat frisch gelesen: goldenCopy.publishDate18.10.2026, aber registration.lastUpdateDate unverändert13.11.2024, LAPSED/NON_CONFORMING, entity.ACTIVE und HRB17438PI/Neuenkampsweg4. Neue Abgrenzung: Tagesdatum des API-Datenexports ist KEIN Aktualisierungsdatum der Firmenentität und darf die spätere Registerlöschung nicht überstimmen. Kein zweiter unabhängiger aktueller Löschungsbeleg gewonnen; pruefung statt reaktivieren oder ohne Owner-Gate geschlossen. Alte Hamburger Adresse/Telefon bleiben unbestätigte Historie, Kölln-Reisieker Sitz nicht als Schrottannahme übernommen. Keine Ankauf-/Verkaufs-/Gebührenliste aus Firmenregister oder LEI ableitbar; kein GEO. Quellen: https://www.northdata.de/?id=4971158197895168 ; https://api.gleif.org/api/v1/lei-records/391200LQQQBD6H950F50 .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Register-Nachsuche findet die bislang fehlende Betreiberkette: NorthData führt Ferrous & Metal Trading Hamburg GmbH (FMT GmbH), früher Hamburg HRB 56376, später Pinneberg HRB 17438 PI, Sitzverlegung Kölln-Reisiek 03./04.05.2023, Liquidation 23.07.2025, Löschung 23.04.2026. Zugehörige Registerbekanntmachung vollständig gelesen: Eintragung 3, „Die Gesellschaft ist erloschen“, Datum 23.04.2026. Gegenstand historisch Großhandel/Im- und Export von Rohstoffen für Stahlerzeugung und deklassierten Walzwerkserzeugnissen, kein öffentlicher Schrottplatz. NorthData-Detail und Bekanntmachung zählen zusammen als eine Quelle, nicht zwei. Quelle(n): https://www.northdata.de/Ferrous%20&%20Metal%20Trading%20Hamburg%20GmbH%20(FMT%20GmbH),%20K%C3%B6lln-Reisiek/Amtsgericht%20Pinneberg%20HRB%2017438%20PI ; https://www.northdata.de/?id=4971158197895168]

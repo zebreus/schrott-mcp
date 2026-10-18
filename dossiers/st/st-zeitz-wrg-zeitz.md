@@ -25,11 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed-Datensatz „WRG Zeitz GmbH“ mit Am Güterbahnhof 5 und den bisherigen Kontaktangaben beruht auf Branchenportalen. Eine aktuelle Betreiberquelle konnte nicht erreicht werden. Ein sekundäres Registerportal führt für Zeitz stattdessen „Scholz Recycling GmbH“ am Güterbahnhof; ein weiteres Portal listet WRG und einen anderen Rechtsträger an derselben Adresse. Diese Identitäts-/Standortabweichung ist ungeklärt; weder zusammenführen noch Schließung ableiten. Status `pruefung` bleibt.
+Registerkette neu konkretisiert: WRG Zeitz GmbH heißt seit 2017 WRG Recycling GmbH, HRB 22861 Stendal, Am Güterbahnhof 5. NorthData führt sie in Liquidation; der zusätzlich gelesene Registerspiegel enthält die Auflösungsbekanntmachung 18.10.2018 trotz widersprüchlichem generischem Aktiv-Badge. Das ist kein Nachweis einer aktuellen Annahmestelle oder einer Übernahme durch Scholz. Scholz nennt heute ausdrücklich Donaliesstraße 17, nicht Am Güterbahnhof 5. Eine weitere Gesellschaft WRV am Güterbahnhof ist ein getrenntes Nachfolgekandidaten-Gate, keine bewiesene Fortsetzung.
 
 **Preise:** ANKAUF — keine verifizierbaren Preise oder Annahmebedingungen. VERKAUF — keine Materialpreisliste. GEBÜHREN — keine Tarife.
 
 ## Timeline
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Vollständiges NorthData-Profil erstmals in dieser Welle direkt gelesen: Namen WRG Recycling GmbH/WRG Zeitz GmbH, HRB 22861 Stendal, Am Güterbahnhof 5, i.L.; Namensänderung 20.09.2017, Liquidation 18.10.2018. Zusätzlicher direkter Registerspiegel liest die Bekanntmachung wörtlich: Beschluss Charlottenburg 01.10.2018, 36w IN 4066/18, Insolvenz eröffnet/Gesellschaft aufgelöst; Änderung Firma durch Beschluss 14.09.2017. Generische Aktiv-FAQ des Spiegels widerspricht dessen eigener Bekanntmachung, daher nicht als Fortführungsbeleg verwenden. Gleicher Registerursprung ist keine unabhängige Bestätigung eines heutigen Hofbetriebs. Creditreform 3130412475 im Suchindex HRB-kongruent, Detail 403. Name vorerst als historischer Seed stehen gelassen bis Owner-Gegenprüfung der Kette/zweiten Quelle, keine unbewiesene Schließung. Quellen: https://www.northdata.de/WRG%20Recycling%20GmbH,%20Zeitz/Amtsgericht%20Stendal%20HRB%2022861 ; https://www.online-handelsregister.de/handelsregisterauszug/st/Stendal/HRB/22861/WRG-Recycling-GmbH ; https://firmeneintrag.creditreform.de/06712/3130412475/WRG_RECYCLING_GMBH .]
+- [Recherche 18.10.2026: Scholz-Finder-JSON vollständig geparst und Zeitz-Eintrag einzeln gelesen: Donaliesstraße 17, 06712 Zeitz, +49 3441 219803, zeitz@scholz-recycling.de. Damit den alten sekundären Güterbahnhof-/Scholz-Lead nicht weiter als Standortgleichheit behandeln. Registerspiegel verlinkt außerdem WRV GmbH Wertstoff Recycling Verwertung, HRB 26540 Stendal, am Güterbahnhof 5; individuelle Seite direkt gelesen, Status gelöscht, Historie Elsteraue/Zeitz. Keine Übernahme-/Verschmelzungsurkunde und keine bewiesene Beziehung WRG → WRV. Telefon/Zeiten des Seeds bleiben unverifizierte Leads. Ankauf-/Verkaufs-/Gebührenlisten für WRG nicht belegt, Registerdokument-Kaufpreise sind keine Schrotttarife. GEO am Güterbahnhof erst nach aktuellem Betreiber-/Annahmestellennachweis; Scholz-Punkt nicht übertragen. Quellen: https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ; https://www.online-handelsregister.de/handelsregisterauszug/st/Stendal/HRB/26540/WRV-GmbH-Wertstoff-Recycling-Verwertung .]
 
 ### Recherche 13.10.2026
 

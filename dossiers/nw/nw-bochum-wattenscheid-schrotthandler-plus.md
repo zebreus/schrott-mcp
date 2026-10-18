@@ -30,6 +30,10 @@ Zusätzliche Portaladressen Hochstr.25 bzw. Vorstadtstr.65 sind ungeklärte Wide
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Neue personengeführte Socialspur live gelesen: XING issam_ellahib nennt issam el lahib, Selbstständig/SchrottabholungBochum/SchrotthändlerPlus, Bochum, Tätigkeiten seit2005/2019 und kostenlose Entsorgung ab500kg für Gewerbe/Privat; größere Mengen Ankauf ohne Zahlen. Profil hat keine überprüfbare Anschrift/Domain-/Kontaktbindung und kein sichtbares Aktualisierungsdatum; laufende Jahreszählung belegt keine Aktualität des Leistungstextes. Selbstbeschreibung stützt historischen Personenkandidaten, reicht ohne Rechtsträger-/Kontaktabgleich nicht als unabhängig verifiziertes Betreiberprofil oder Standorthistorie. Nicht mit mehreren Abschriften derselben PR als Zweitbeleg verrechnet. Domain-Impressum weiterhin404. Keine Kontakte/Adresse/Gratisbedingung strukturiert, drei Adressvarianten weiter offen und kein GEO. Ankauf keine bezifferten Kurse, Verkauf keine Liste, Gebühren nur bedingte Eigenwerbung des unvollständig zugeordneten Profils. Quellen: https://www.xing.com/profile/issam_ellahib ; https://www.schrotthaendler-plus.de/impressum .]
+
 ### Recherche 15.10.2026 Welle18A
 
 - [Recherche 15.10.2026 Welle18A: Konkreter Impressumspfad erneut direkt HTTP 404; kein lesbarer Betreiber-/Registermatch hinzugewonnen. Das ist ein Pfadbefund, kein Beleg für Domainaufgabe oder Geschäftsaufgabe. Die drei Portaladressspuren Hochstraße 28, Hochstraße 25 und Vorstadtstraße 65 bleiben ungeklärte Leads, Issam EL-Lahib aus PR kein heutiger unabhängiger Gewerbenachweis. Keine Frontmatter-Änderung und kein beliebiger PLZ-/Telefonfill. Ankauf/Verkauf/Gebühren weiter ohne verifizierte Händlerpreise; kostenlos aus historischen PR-Texten nicht als generelle Zusage. GeoBedarf: Betreiber und aktuelle Annahmefunktion vor Auswahl einer der Adressen klären. Quelle/Abrufgrenze: https://www.schrotthaendler-plus.de/impressum ; Lead-/Konfliktquellen siehe 11.10.2026.]

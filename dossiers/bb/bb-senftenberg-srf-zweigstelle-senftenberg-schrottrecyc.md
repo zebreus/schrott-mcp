@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Senftenberger Zweigstellenkandidat der Schrott-Recycling Finsterwalde GmbH, Grubenstraße 100. Die historische Betreiberdomain ist weiter im Suchindex vertreten, ihr Inhalt war heute jedoch nicht verlässlich direkt lesbar (Loading-Hülle/Verbindungsabbruch, HTTPS-Zertifikatsfehler). Daher aktuelle Existenz/Annahme dieser Zweigstelle nicht bestätigt. Das vorhandene `aktiv` bleibt ein Owner-Prüffall, keine in dieser Welle neu verifizierte Öffnung; keine unbelegte Schließung oder Übernahme behauptet.
+
+**Ankauf / Verkauf / Gebühren:** keine direkt lesbare zugeordnete Preisliste. **Offen:** aktueller Betreiber/HRB-Kongruenz, individuelle Senftenberger Standortseite, Annahme und Kontakte. **GEO:** Grubenstraße 100 erst als aktuelle Betriebsstätte bestätigen und dann Hof-/Zufahrtspunkt abgleichen.
 
 ## Timeline
+
+### Ownerdisposition 18.10.2026
+
+- [Korrektur 18.10.2026: status aktiv zu pruefung, nicht geschlossen. Historische Betreiber-Indextreffer zur Senftenberger Grubenstraße 100 ersetzen keinen aktuellen gelesenen Zweigstellenbeleg; dokumentierte Direktabrufe lieferten Loading-Hülle, Verbindungsabbruch bzw. HTTPS-Zertifikatsfehler, die Registerroute 429. Das beweist weder Domain-Tod noch Betriebsaufgabe, trägt aber keine heutige Aktivfreigabe. Betreiber-/HRB-Kongruenz, öffentliche Annahme und Kontakte bleiben offen; bestehende Adresse, Kontakte, Services und GEO unverändert, keine pauschale Löschung; Quelle: http://schrottrecyclingfinsterwalde.de/index.php/standorte ; http://schrottrecyclingfinsterwalde.de/ ; https://schrottrecyclingfinsterwalde.de/ ; https://www.northdata.de/suggest.json?query=Schrott%20Recycling%20Finsterwalde&countries=DE (dokumentierter 429).]
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Eigene Suche liefert alte Betreiber-Indextreffer HOME und /index.php/standorte mit Finsterwalde/Zirkusplatz 1 versus Senftenberg/Grubenstraße 100. Standortseite direkt per webfetch nur Loading; HTTP-Startseitenabruf per requests Verbindungsabbruch, HTTPS scheitert an Zertifikatsvalidierung. Zertifikatsprüfung nicht abgeschaltet. Das ist technische Nichterreichbarkeit dieser Abrufe, kein dauerhafter Domain-Tod/Schließungsbeleg; Suchauszüge nicht als gelesene Standortseite ausgeben. Neue Register-Suggest-Anfrage Schrott Recycling Finsterwalde HTTP 429, kein neuer aktueller HRB-Beleg. Deshalb Frontmatter unverändert und vorhandener Aktivstatus ausdrücklich Owner-Gate, nicht durch Portal-/Suchcache wieder legitimiert. Keine aktuellen Öffnungszeiten oder Website gefüllt. Ankauf tagesaktueller Höchstpreise nur Portalwerbung, keine veröffentlichte Zahl; Verkauf/Gebühren keine lesbare Liste. GEO nicht freigegeben. Quellen: http://schrottrecyclingfinsterwalde.de/index.php/standorte ; http://schrottrecyclingfinsterwalde.de/ ; https://schrottrecyclingfinsterwalde.de/ ; https://www.northdata.de/suggest.json?query=Schrott%20Recycling%20Finsterwalde&countries=DE (429).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

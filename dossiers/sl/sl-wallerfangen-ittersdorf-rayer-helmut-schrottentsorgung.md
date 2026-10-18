@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: Rayer Helmut Schrottentsorgung bleibt ein ungeklärter Ittersdorfer Verzeichnislead; aktuelle Gewerbeidentität, Schrottvergütung und Kundenannahmestelle fehlen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
@@ -27,6 +27,10 @@ provenance_origin: table
 Verzeichnisse stimmen weiterhin bei Zur Weisacht 15, 66798 Wallerfangen-Ittersdorf und 06837 909863 überein, aber es fehlt ein Betreiber-, Register- oder kommunaler Beleg. Adress-/Telefonfelder bleiben Leads; Aktivität und Annahmebedingungen sind offen. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Recherche 18.10.2026: Neue exakte Personen-/Branchensuche findet wieder nur Zur Weisacht 15/66798/06837 909863 in Verzeichnissen; Schrottplatz-Info nennt ausdrücklich keine vollständige Betriebsbeschreibung. Kein Betreiberlink bzw. qualifizierter aktueller Gewerbebeleg gefunden. Register-Suggest Rayer Wallerfangen HTTP 429; kein negativer Registerbefund daraus ableiten. description erstmals mit klarer Unsicherheit statt suggeriertem Vollprofil gefüllt. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Zahlenliste; Gewerbeauskunft Wallerfangen für Person/Anschrift und tatsächliche Annahme vor GEO erforderlich. Keine neue Bestätigung alter Koordinaten. Quellen (Leads): https://www.schrottplatz-info.de/schrottplatz/Wallerfangen/Rayer-Helmut ; https://www.dasoertliche.de/Themen/Rayer-Helmut-Schrottentsorgung-Wallerfangen-Ittersdorf-Zur-Weisacht ; https://www.northdata.de/suggest.json?query=Rayer%20Wallerfangen&countries=DE (429).]
 
 ### Recherche 12.10.2026
 

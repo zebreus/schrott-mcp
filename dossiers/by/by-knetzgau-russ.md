@@ -12,7 +12,7 @@ opening_hours: ''
 website: http://www.schrotthandel-hammerschmidt.de/
 website_status: aktiv
 status: pruefung
-description: ''
+description: schrotthandel-hammerschmidt.de nennt Thomas Ruß in Knetzgau; nur Betreiber-Einzelbeleg, unabhängige Seedzuordnung und Hammerschmidt-Nachfolge ungeklärt. Beworbener Ankauf, Abholung und Containerdienst sind keine abschließend qualifiziert verifizierten Leistungen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
@@ -31,6 +31,16 @@ Die Startseite wirbt ausdrücklich mit Schrott-/Metallankauf, Schrottabholung un
 Creditreform führt einen passenden Firmensuchtreffer Thomas Ruß/Schrotthandel, der Detailabruf war jedoch403. Aggregatoren stimmen bei Ringstraße33/Telefon überein, zählen nicht als Zweitbeleg. Website live ergänzt; sonstige leere Kontakt-/Adress-/Servicefelder und `pruefung` bleiben bis zur unabhängigen Bestätigung unverändert.
 
 ## Timeline
+
+### Ownerdisposition 18.10.2026
+
+- [Korrektur 18.10.2026: description ausdrücklich als Betreiber-Einzelbeleg mit offener Seed-/Nachfolgezuordnung formuliert, kein Umgehungs-Namensfill und keine verifizierte Leistungsfreigabe. Impressum Thomas Ruß ohne HR-Kennung; Creditreform-Suchtitel Thomas Ruß und Text Hammerschmidt bei Detailabruf 403 beweisen weder Übernahme noch unabhängige aktuelle Kontaktbestätigung. Frontmatter-name und übrige Felder unverändert, status pruefung bleibt; Quelle: http://www.schrotthandel-hammerschmidt.de/ ; http://www.schrotthandel-hammerschmidt.de/impressum/ ; https://firmeneintrag.creditreform.de/97478/8310424279/THOMAS_RUSS_SCHROTTHANDEL (Indexlead, Detail 403).]
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Nachprüfung 18.10.2026: Zusätzlich Startseite und Impressum selbst direkt gelesen, nicht nur Index: Thomas Ruß, Ringstr.33/97478 Knetzgau, 09527 4149401, 0160 94671365, polo_vw@web.de. Startseite bestätigt ausdrücklich Ankauf/Abholung/Container und telefonische Preisanfrage ohne Zahlen; Impressum keine HR-Registernummer. Das verbessert die aktuelle Betreiberbasis, liefert aber weiterhin keinen zweiten unabhängigen Kontakt-/Adressbeleg oder belegte Hammerschmidt-Nachfolge. Quellen: http://www.schrotthandel-hammerschmidt.de/ ; http://www.schrotthandel-hammerschmidt.de/impressum/ .]
+
+- [Recherche 18.10.2026: Neuer Betreiber-Suchauszug nennt weiter Thomas Ruß/Knetzgau und telefonische Preisauskunft; Creditreform hat im Titel Thomas Ruß Schrotthandel, im Text jedoch weiterhin Schrotthandel Hammerschmidt. Eigener Creditreform-Detailabruf 403. Diese konkrete Titel-/Textabweichung plus Sitemap-Alttitel Hammerschmidt Alexander erklärt die mögliche Namensgeschichte, beweist aber weder Inhaberwechsel noch Übernahmezeitpunkt. Kein Namens-/Adress-/Kontaktfill; description erstmals mit ausdrücklichem Ankauf und telefonischem Preisweg samt Identitätsgrenze. ANKAUF ohne Zahlen, VERKAUF ohne Liste, GEBÜHREN für Abholung/Container unbekannt. Ringstraße 33 kein neuer GEO-Punkt; Neu-Ulmer Russ Entsorgung nicht zuordnen. Quellen: http://www.schrotthandel-hammerschmidt.de/ ; http://www.schrotthandel-hammerschmidt.de/sitemap (beide Suchauszüge); https://firmeneintrag.creditreform.de/97478/8310424279/THOMAS_RUSS_SCHROTTHANDEL (Suchauszug, Direktabruf 403).]
 
 ### Recherche 05.10.2026
 

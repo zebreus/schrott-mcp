@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Suche gezielt nach Betreiberimpressum statt weiterer Branchenbelege, kein passender Primärfund. Facebook-SchrottAachen erneut ohne auswertbaren Betreibertext; nicht als zweites Betreiberprofil gezählt. Findix-Anzeige live gelesen: lediglich hillracer/AachenUmland, kostenlose Altmetallabholung/AnkaufNE/größereAlteisenmengen, zusätzlich Garten-/Räumdienste, ohne Datum und rechtlichen Namen. Suchindex/Anzeige verbinden nicht unabhängig den KroitzheiderWeg oder StefanHillmann mit dem heutigen Anbieter. Keine pauschale kostenlose Entsorgung von Garten-/Räumabfällen aus der Schrottzeile ableiten. Ankauf keine Zahlen, Verkauf keine Liste, Gebühren keine vollständige verifizierte Ordnung. Bestehende Adresse/Kontakte/Zeiten bleiben unbestätigte Altwerte, alter Photon-Hauspunkt ist nur Adressgeocoding und wird nicht als Betriebs-GEO freigegeben. Quellen: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen ; https://www.facebook.com/SchrottAachen/ .]
+
 ### Recherche 16.10.2026 — Shard 1
 
 - [Recherche 16.10.2026: Findix-Anzeige 00808165 erneut direkt gelesen: hillracer wirbt mit kostenloser Altmetallabholung sowie Ankauf von NE-Metallen/größeren Eisenmengen, ohne geprüfte rechtliche Identität oder Veröffentlichungsdatum. Neue Suchspuren Facebook SchrottAachen und Instagram fa_oecher_schrottmaennchen; Direktabrufe liefern keinen auswertbaren Betreiber-/Impressumstext (Instagram nur Bilddaten), daher nicht als verifizierte Betreiber-Social-Quelle gezählt. Keine Stammdatenfreigabe. ANKAUF: Werbelead, keine Zahlen; VERKAUF: keine Liste; GEBÜHREN: Gratisbehauptung ohne geprüften Anbieter, keine Tarifordnung. GEO: Betreiberbindung des Kroitzheider Wegs und öffentliche Annahme weiterhin zuerst klären, kein neuer Punkt. Quellen: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen ; https://www.facebook.com/SchrottAachen/ ; https://www.instagram.com/fa_oecher_schrottmaennchen/]

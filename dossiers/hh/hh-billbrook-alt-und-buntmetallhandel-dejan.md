@@ -30,6 +30,10 @@ Kein vollständiger rechtlicher Betreibername oder öffentlich bestätigter Anka
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Namens-/Adress-/Registergegenrecherche ohne zuordenbaren Betreiber-/Registerfund, keine amtliche Nichtbestehensbehauptung. GoLocal-Einzeldetail vollständig live gelesen: Wöhlerstr.9/22113/0406781656, kein rechtlicher Nachname/Impressum, keine Zeiten; Bewertender MartinSabanovic ist Nutzer, nicht als Inhaber zu identifizieren. Profil ausdrücklich übernehmbar, Bewertungen nicht automatisch geprüft, null verifizierte Bewertungen; das Portal-Adresshäkchen ist damit kein unabhängiger Gewerbebeleg. Europages/wlw bleiben B2B-Verzeichnisse; Oststeinbek-Schrottplatz-URL kein Beleg für einen zweiten Standort. Kein Überschreiben21113→22113 allein aus Portalhäufung, aber PLZ-Konflikt bleibt ausdrückliche GEO-Sperre. Keine Ankauf-/Verkaufs-/Gebührenliste. Nächster Klärschritt aktueller rechtlicher Betreiber an Wöhlerstraße9 samt amtlicher PLZ-/Gewerbezuordnung. Quelle: https://www.golocal.de/hamburg/schrotthandel/alt-buntmetallhandel-dejan-MJ4Gz/ .]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: GoLocal-Profil live erneut gelesen: Wöhlerstr. 9, 22113 Hamburg-Billbrook, 040 6781656, keine Öffnungszeiten, nur eine Bewertung von 2013 und Nutzerfotos vom 23.07.2020. Profil bietet Eintrag übernehmen an; Betreiberführung ist nicht nachgewiesen. Neue Suchtreffer bei Europages/wlw bleiben Lieferantenverzeichnisse, kein zulässiger zweiter Identitätsbeleg. Bewertungsautor nicht zum Inhaber erklären. Seed-PLZ 21113 weiterhin Konflikt zu 22113, aber keine unbelegte Überschreibung/Schließung. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Liste; GEO Wöhlerstraße erst nach amtlichem PLZ- und aktuellem Betreiber-/Annahmeabgleich, keine Oststeinbek-Zuordnung. Quelle: https://www.golocal.de/hamburg/schrotthandel/alt-buntmetallhandel-dejan-MJ4Gz/ (live, Lead).]

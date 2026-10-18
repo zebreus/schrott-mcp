@@ -28,6 +28,10 @@ Peter Tino Schmidt bleibt ein Verzeichnis-Kandidat an Lichtenbergstr. 1, 32758 D
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Exakte Namenssuche mit Register/Gewerbe sowie Anschriftssuche bringt keinen zuordenbaren Primärbeleg; ähnlich benannte Fach-/Personenprofile in anderen Städten nicht übernommen. 11880-Detail live: Lichtenbergstr.1/32758Pivitsheide/05232963481, Rubriken Altmaterial-/Schrotthandel, keine Mail/Domain/Zeiten. Keine Händlerkurse. Die FAQ zur Preisspanne beschreibt nur etwaige Euro-Symbole des Portals, keine Annahmegebühren oder Ankaufwerte. Kontakt-/Adressbestand wird nicht als neue Freigabe bestätigt; Name nicht mit Heinz-HenrySchmidt oder TinoLissel vermischt. Nachhaltiger nächster Schritt kommunaler Gewerbeabgleich PeterTinoSchmidt/Lichtenbergstraße, nicht weiteres Wiederlesen desselben Portals; vorher kein GEO. Ankauf, Verkauf und Gebühren weiterhin ohne Primärliste. Quelle: https://www.11880.com/branchenbuch/detmold/120674719B100214631/peter-tino-schmidt-schrotthandel.html (nur Lead).]
+
 ### Recherche 17.10.2026 — Welle 21:00 B
 
 - [Recherche 17.10.2026: 11880-Einzeldetail direkt erneut gelesen, weiter Peter Tino Schmidt, Lichtenbergstr. 1/32758/05232 963481; keine Website/E-Mail/Zeiten. Portal-Aktualisierung 03.10.2026/Eintragsdaten 29.06.2021 unverändert, kein zusätzlicher Betreiberbeleg. Historische Felder nicht als neue Bestätigung ausgegeben, H./Heinz-Henry Schmidt weiterhin nicht zusammengeführt. Ankauf: kein Kurs/kein belegt vergüteter Ankauf; Verkauf: keine Liste; Gebühren: keine Tarifangaben. `pruefung` bleibt; vor GEO Adresse als aktuelle Gewerbe-/Annahmestelle bestätigen. Quelle: https://www.11880.com/branchenbuch/detmold/120674719B100214631/peter-tino-schmidt-schrotthandel.html .]

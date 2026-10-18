@@ -30,6 +30,10 @@ Aktuelle Annahme, Ankauf, Kundenzugang und Kontaktdaten sind damit noch nicht be
 
 ## Timeline
 
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: NorthData-Firmenprofil heute direkt vollständig gelesen, nicht nur alte Notiz wiederholt: RAST-recycling GmbH/HRB 15329 Schwerin, Ringstr. 1 b, D-19258 Boizenburg; Gegenstand Schrotthandel, Autoreifenhandel/Montage und Autoersatzteile. Sichtbare Eintragung 26.08.2025 mit Randy Schölzel, Gesellschafterliste 24.10.2025; im gelesenen Profil keine Erloschen-Markierung. Das ist ein Registerbeleg für die Firma, nicht der Nachweis einer zugänglichen aktuellen Ankaufstelle. Eigene exakte Namenssuche lieferte vor dem anschließenden HTTP-401-Ausfall keine brauchbare Betreiberquelle; kein Schluss auf Nichtexistenz. Kein privater Kundenverkehr/Abholung aus dem Gegenstand abgeleitet, keine Daten von RAST-Namensvettern übertragen. Ankauf-/Verkaufs-/Gebührenliste nicht belegt; Annahmestelle und Vertragspartner vor GEO prüfen. Frontmatter unverändert. Quelle: https://www.northdata.de/RAST-recycling%20GmbH,%20Boizenburg/Amtsgericht%20Schwerin%20HRB%2015329 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmaterial-Großhandel

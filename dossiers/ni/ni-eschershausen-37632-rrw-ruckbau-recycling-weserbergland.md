@@ -3,16 +3,16 @@ slug: ni-eschershausen-37632-rrw-ruckbau-recycling-weserbergland
 name: RRW GmbH Rückbau & Recycling Weserbergland
 trader_type: sonstige
 state: NI
-city: Eschershausen 37632
-street: ''
-postcode: ''
+city: Eschershausen
+street: Gniesbreite 3
+postcode: '37632'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: unbekannt
+website: http://www.rueckbau-weserbergland.de/
+website_status: aktiv
 status: pruefung
-description: ''
+description: Rückbau- und Recyclinggesellschaft in Liquidation; eingetragene Geschäftsanschrift in Eschershausen, operative Fortführung und öffentliche Schrottannahme ungeklärt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
@@ -32,6 +32,11 @@ provenance_origin: table
 - **Geokodierung:** Gniesbreite 3, 37632 Eschershausen erst nach Klärung operativer Fortführung/Annahme nutzen, nicht als aktuell aktiven Schrottplatz ausgeben.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Aktuelles NorthData-Unternehmensdetail, Originalbekanntmachung im Registerspiegel vom 12.02.2025 und Betreiberimpressum einzeln live gelesen. Detail führt weiter i. L., HRB 205308 Hildesheim, Gniesbreite 3/37632 Eschershausen; Bekanntmachung Gesellschaft aufgelöst, Hauke Fickert Liquidator. Impressum nennt denselben Rechtsträger, HRB, Namen und Anschrift, aber weiter Geschäftsführer. Aus diesen zwei unabhängigen Ursprüngen werden jetzt ausschließlich gesicherte Identität/registrierte Geschäftsanschrift/zugehörige erreichbare Domain strukturiert: city Eschershausen 37632 zu Eschershausen, street Gniesbreite 3, postcode 37632, Website und technischer website_status aktiv; Beschreibung macht Liquidation und ungeklärte Annahme ausdrücklich sichtbar. Keine Aktivsetzung des Unternehmens, keine Übernahme alter Öffnungszeiten/Telefone und kein dropoff/pickup. Das Registerdetail zeigt neben der konkreten Eschershäuser Anschrift auch Bodenwerder als Zusatzort; nicht als Umzug interpretiert. Quellen: https://www.northdata.de/RRW%20R%C3%BCckbau%20und%20Recycling%20Weserbergland%20GmbH,%20Eschershausen/Amtsgericht%20Hildesheim%20HRB%20205308 ; https://www.northdata.de/?id=5540046999650304 ; http://www.rueckbau-weserbergland.de/kontakt-impressum/ .]
+- [Preis-/GEO-Abgrenzung 18.10.2026: Schüttgutseite live: Verkauf nach telefonischer Absprache, keine Eurobeträge; Körnungen keine Preise. Keine Schrottankauf-/Gebührenliste. Neu strukturierte Geschäftsanschrift ist kein aktiver Annahmehof: keine Koordinaten gesetzt, operative Fortführung und Annahmefunktion vor GEO-Publikation klären; alte DB-Koordinaten dadurch weder bestätigt noch gelöscht. Quelle: http://www.rueckbau-weserbergland.de/schuettgut-verkauf/ .]
 
 ### Recherche 14.10.2026
 

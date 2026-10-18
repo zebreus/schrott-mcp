@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed-Name und Rotkehlchenweg 2 beruhen auf historischen Branchen-/Schrottplatzverzeichnissen; psiorz.de lieferte zuletzt nur eine geparkte Standardseite. Weder heutiger Betreiber noch Fortbestand oder Schrottannahme sind belegt. Keine aktuellen ANKAUF-Preise, VERKAUF-Preise oder Gebühren zurechenbar; `unbekannt` bleibt.
+Neue direkte Webspur: psiorz-dienstleistungen.de nennt Psiorz Dienstleistungen, Kornblumenring 8b, 12357 Berlin, Entrümpelungen/Sperrmüll-/Gartenabfuhr und eine Marius-Maciossek-Mailadresse. Das ist nicht die zuvor allein geprüfte Parkdomain psiorz.de. Die Seite hat kein auswertbares Betreiberimpressum und beweist weder eine Verlagerung von Rotkehlchenweg 2 noch heutigen Schrottankauf; ein neuer Portalname Clemens Maciossek steht zusätzlich im Raum. Keine Kontakte oder Adresse übertragen. **Ankauf / Verkauf / Gebühren:** keine Zahlen; **GEO:** beide Adressspuren erst rechtlich und betrieblich verbinden, kein Punkt-Fill.
 
 ## Timeline
+
+### Recherche 18.10.2026 (18:00-Welle, Shard 1)
+
+- [Recherche 18.10.2026: Eigene Namenssuche entdeckt andere Domain http://www.psiorz-dienstleistungen.de/; vollständig direkt gelesen, HTTP 200: Psiorz Dienstleistungen, Entrümpelungen/Sperrmüllabfuhr/Gartenabfälle, Kornblumenring 8b/12357 Berlin, 0177 3250539, 030 66509077, Fax 030 66509078, marius.maciossek@freenet.de. Keine weiteren Inhalts-/Impressumlinks im HTML. Mail und mit altem Portal kongruente Festnetznummer sind Zuordnungsindizien, kein unabhängiger Nachweis einer Inhaber- oder Standortkette. Cylex-Suchlead nennt stattdessen Psiorz Inhaber Clemens Maciossek; nicht als bewiesene Nachfolge behandeln. Register-Suggest Marius Maciossek HTTP 429, keine negative Registersuche; Berliner Gewerbeauskunft technisch Timeout, kein Ergebnisdatensatz. Keine Umgehung der Sperren. Keine Preisangaben auf der gelesenen Einseitenpräsenz: Ankauf nicht beworben, Verkauf keine Liste, Gebühren der Abfuhr nicht beziffert. status unbekannt und Frontmatter bleiben, keine GEO-/Umzugsbehauptung. Quellen: http://www.psiorz-dienstleistungen.de/ ; https://web2.cylex.de/firma-home/psiorz-inhaber-clemens-maciossek-15257303.html (nur Suchlead) ; https://www.northdata.de/suggest.json?query=Marius%20Maciossek&countries=DE (429) ; https://gewerbeauskunft.berlin.de/ (Timeout).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

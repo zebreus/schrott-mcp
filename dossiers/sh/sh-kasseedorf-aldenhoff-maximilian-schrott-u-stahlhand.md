@@ -10,7 +10,7 @@ phone: '04528 303'
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -29,6 +29,10 @@ Verzeichniseinträge führen Maximilian Aldenhoff, Schrott- und Stahlhandel, Kr�
 **Preise:** keine dem Betreiber zuordenbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. **Geocoding:** Krückberg 21 A nur als Verzeichnis-Kandidat führen und nicht als bestätigten Annahmehof pinnen.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Konkretes GS-Detail live gelesen, Krückberg21A/23717Sagau/04528303 und Fax04528919947; Zeiten Mo–Fr08–12/13–17, Sa08–12 werden nur vom Portal angegeben und nicht übernommen. Wichtig: Gratisanruf ist der Vermittlungsservice des Telefonbuchs, weder kostenlose Schrottabholung noch Annahmebedingung. Zusätzlicher Infobel-Suchlead nennt StendorferWeg ohne Hausnummer statt Krückberg; nicht als erwiesener Umzug oder identische Betriebsstätte interpretiert. Namens-/Registergegenrecherche ohne zuordenbaren Primärfund, kein amtlicher Negativnachweis. Bestehende Anschrift/Telefon bleiben historische Leads, website_status unbekannt normalisiert, pruefung bleibt. Keine Händler-Ankauf-/Verkaufs-/Gebührenliste; aktuelle Gewerbezuordnung und Straßenkonflikt vor GEO prüfen. Quellen: https://www.gelbeseiten.de/gsbiz/002c2171-f50b-4ee1-bd95-224ab020df88 ; https://www.infobel.com/de/germany/schrotthandel_maximilian_aldenhoff/kasseedorf/DE101716193-04528303/businessdetails.aspx (nur Suchindexlead).]
 
 ### Recherche 06.10.2026
 

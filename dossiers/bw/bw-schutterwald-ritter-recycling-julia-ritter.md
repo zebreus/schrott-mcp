@@ -10,9 +10,9 @@ phone: 0781 6057815
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: Ritter Recycling Julia Ritter bleibt ein Identitätsklärfall; ritter-container.de ist ein Betreiber-Einzelbeleg ohne HR-Kennung. Das EFB-Audit ist Zusatzinformation, keine zweite qualifizierte Quellenklasse; unabhängige Identitätsbestätigung und Schrottvergütung bleiben offen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)
@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Die Verzeichnisse führen „Ritter Recycling (Julia Ritter)“ an Am Ziegelplatz 17, 77746 Schutterwald, mit 0781 6057815. Die aktuelle Betreiberwebsite an exakt dieser Adresse gehört jedoch der Ritter-Bau GmbH (HRB 710458) und beschreibt Bauleistungen, nicht Recycling; sie nennt außerdem die abweichende Nummer 0781 605780. Eine Verbindung von Julia Ritter/Ritter Recycling mit Ritter-Bau oder eine zweite Firma am Grundstück ist nicht belegt. Die frühere `aktiv`-Einstufung wird deshalb auf `pruefung` gesetzt, nicht auf geschlossen. Adresse und Telefon bleiben ungeprüfte Verzeichnis-Leads.
+Der bisher übersehene eigene Betreiberauftritt **ritter-container.de** identifiziert Ritter Recycling + Containerdienst, Geschäftsinhaberin Julia Ritter, Am Ziegelplatz 17, 77746 Schutterwald, 0781 6057815, info@ritter-container.de. Ein unmittelbar gelesenes ZN-Zertifikat 2026-0084, ausgestellt 07.04.2026 und gültig bis 11.09.2027, nennt dieselbe Inhaberin und denselben Standort. Der frühere Co-Standort-/Existenzzweifel ist damit substanziell geklärt; **keine** rechtliche Gleichsetzung mit Ritter-Bau GmbH und keine erfundene Übernahme. Website ergänzt, `pruefung` wegen ungeklärter Ankaufvergütung beibehalten.
 
-**Preise:** Ankauf — keine belastbaren Schrottkurse; Verkauf — keine Angaben; Gebühren — keine Angaben. Standort nicht für diesen Händler geokodieren, bevor die Identität bzw. ein möglicher Co-Standort geklärt ist.
+**Ankauf:** Kein ausdrücklicher zahlender Schrottankauf in den gelesenen Leistungsseiten. **Verkauf:** Recycling-Baustoffe/Schüttgüter, Produktübersicht vorhanden, noch kein Zahlentarif. **Gebühren:** Service-Seite bietet Genehmigungsbeschaffung ausdrücklich „gegen eine kleine Gebühr“, ohne Betrag; keine kostenfreie Containerstellung ableiten. Recyclinghof nimmt laut Service-Seite Sperrmüll, Verpackungs- und Holzabfälle an; Merkblätter/Herkunftserklärung beachten. **GEO:** Am Ziegelplatz 17 nun durch Betreiber und aktuelles Fremdaudit gestützt; neuer Punkt erst nach separater Geokodierung, Alt-GEO nicht bestätigt.
 
 ## Timeline
+
+### Ownerdisposition 18.10.2026
+
+- [Korrektur 18.10.2026: Neue Websitefüllung zurückgestellt, website leer und website_status unbekannt, nicht tot; status pruefung bleibt. Impressum Julia Ritter/Am Ziegelplatz 17 ohne HR-Kennung und aktuelles EFB-PDF plausibilisieren den Kandidaten, erfüllen aber weder die vollständige autoritative Betreiber-Ausnahme noch zwei zulässige unabhängige Quellenklassen. Das Fremdaudit ersetzt keinen qualifizierten Zweitbeleg; frühere Aussage eines abgeschlossenen Existenz-/Co-Standortgates entsprechend begrenzt. description nennt nur Einzelbeleg-/Identitätsunsicherheit, keine verifizierten Services; keine Gleichsetzung mit Ritter-Bau. Bestehende Kontakte/Adresse/Services/GEO bleiben unverändert und sind nicht neu freigegeben; Quelle: https://www.ritter-container.de/impressum ; https://www.ritter-container.de/images/ritter/ritter_recycling_containerdienst/dokumente/2026-Ritter-ZZHT010002984003_EFB-Zertifikat.pdf ; https://www.ritter-bau.de/impressum (anderer Rechtsträger).]
+
+### Recherche 18.10.2026 — Welle 18:00 / Shard 3
+
+- [Korrektur 18.10.2026: Eigene Betreiberwebsite gefunden: Impressum nennt Julia Ritter, Am Ziegelplatz 17/77746 und 0781 6057815; nicht Ritter-Bau-Kontakt 0781 605780. ZN-Fremdaudit als PDF heruntergeladen und per pdftotext gelesen: 2026-0084/ZZHT010002984003, Prüfung 12.03.2026, Ausstellung 07.04.2026, gültig bis 11.09.2027; Ritter Recycling Inh. Julia Ritter am identischen Standort, kein Handelsregistereintrag. Zertifizierte Anlagen betreffen unter anderem mineralische Bauabfälle und Holz; kein Beweis einer Auszahlung für Metalle. Existenz-/Co-Standortzweifel der Vorwellen überholt, keine GmbH-Verschmelzung ableiten. Website aktiv ergänzt; weitere Kontakt-/Zeitfills trotz Websiteangabe Mo–Fr 07–16:30 bis Owner-Belegprüfung zurückgestellt. Ankauf ohne Kurse, Verkauf Sekundärbaustoffe ohne Zahlenliste, Genehmigungsservice gebührenpflichtig ohne Betrag. Quellen: https://www.ritter-container.de/impressum ; https://www.ritter-container.de/recycling ; https://www.ritter-container.de/entsorgung ; https://www.ritter-container.de/service ; https://www.ritter-container.de/images/ritter/ritter_recycling_containerdienst/dokumente/2026-Ritter-ZZHT010002984003_EFB-Zertifikat.pdf .]
 
 ### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Betreiberkandidat Schrott- und Metallhandel Markus Pickavé / der-schrotthaendler.com war am 03.10. mit passendem Impressum an Margaretenstr. 11 dokumentiert, aktuell jedoch mit HTTP 403 nicht lesbar. Kein unabhängiger Zweitbeleg und keine aktuelle Mail-/Standortauflösung. Ankauf, Verkauf und Gebühren ohne aktuelle verifizierte Zahlenliste; Status `pruefung`, keine Übertragung alter Website-Angaben in Frontmatter.
+Betreiberkandidat Schrott- und Metallhandel Markus Pickavé / der-schrotthaendler.com ist wieder lesbar: korrekt verlinktes Impressum nennt **Büro** Margaretenstr. 11, 46049 Oberhausen und +49 176 23145837. Kein unabhängiger Zweitbeleg; Mailkonflikt mpi-ob@o2online.de versus info@der-schrotthaendler.de bleibt. Die Adresse ist ausdrücklich Büro, nicht bestätigter öffentlicher Annahmeplatz. Leistungsseite nennt kostenlose Abholung, aber Kühlgeräte gegen Gebühr ohne Betrag. Keine bezifferten Ankauf-/Verkaufspreise oder Gebührenliste. `pruefung` bleibt; keine vorbehaltlose Gratisabholung und keine Annahmeadresse strukturiert.
 
 ## Timeline
+
+### Recherche 18.10.2026 — Welle 18:00 Shard 2
+
+- [Recherche 18.10.2026: Frühere Abrufblockade nicht mehr reproduzierbar: tatsächliches Footer-Impressum und tatsächlicher Leistungspfad live textgelesen. Impressum nennt Schrott- und Metallhandel Markus Pickavé, Büro Margaretenstr.11/46049, Mobil +49 176 23145837, mpi-ob@o2online.de; Kopf/Footer info@der-schrotthaendler.de. Steuer- und Gerichtsstandsangaben sind keine Handelsregisternummer. Leistungsseite ausdrücklich kostenlose Abholung, daneben Mitnahme von Kühlgeräten gegen Gebühr, keine Höhe. Kein Ankaufkurs/Verkaufspreis. Vorlagenreste und fehlende Aktualitätsbelege bleiben; verlinktes Facebook-Profil lieferte keinen lesbaren Betreibertext. Ein Betreiberursprung, keine README-Ausnahme/kein Kontaktfill. Neue Erkenntnis: Büro != Annahmehof und Gratisleistung hat explizite Ausnahme; vor GEO öffentliche Annahmefunktion unabhängig klären. Quellen: https://www.der-schrotthaendler.com/impressuma2cc232a ; https://www.der-schrotthaendler.com/leistungene7e43447 ; https://www.facebook.com/DerSchrotthaendler/ .]
 
 ### Recherche 14.10.2026 (Welle 5 A)
 
