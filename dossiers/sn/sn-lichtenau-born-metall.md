@@ -24,9 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Für Born Metall GmbH ist in der bisherigen Prüfung nur ein Branchenbuch-Lead zur Chemnitzer Landstr. 53, Telefon 0371 4584610 dokumentiert; aktuelle Betreiberseite, Register- oder unabhängiger Standortbeleg fehlen. `status: aktiv` wird deshalb auf `pruefung` zurückgestuft, ohne einen Schließungsbefund zu behaupten. Sorten und Annahme sind Seed-/Verzeichnisangaben.
+NorthData führt Born Metall GmbH, HRB 20368 Chemnitz, an Chemnitzer Landstr. 53, 09244 Lichtenau. Der am 18.10.2026 gelesene GLEIF-Datensatz nennt dieselbe Gesellschaft/HRB und Rechts-/Hauptsitzadresse in Lichtenau OT Auerswalde. Die Annahme, es gebe nur einen Branchenbuch-Lead und keinen Registerbeleg, ist überholt; die vorgeschlagene Straßenleerung wird deshalb nicht übernommen. Gesellschaftsadresse ist jedoch kein bestätigter aktueller Annahmeplatz. GLEIF ist nicht ausdrücklich Teil der geschlossenen README-Quellenliste; daher keine formal erfüllte Zwei-Quellen-Freigabe für neue Felder oder Aktivstatus behauptet. Verifizierte Betreiberwebsite, aktuelles Telefon und Annahmebedingungen bleiben offen; `status: pruefung`, kein Schließungsbefund.
 
-**Preise:** **Ankauf** — keine aktuelle Annahme oder numerischen Ankaufspreise belegt. **Verkauf** — keine Preisliste. **Gebühren** — keine Tarifangaben. **Geokodierung:** Chemnitzer Landstr. 53 erst nach Bestätigung, dass dort aktuell dieser Betrieb sitzt, als Händlerstandort pinnen.
+In den gelesenen Quellen keine aktuellen numerischen Ankaufspreise, Verkaufspreise oder Gebühren gefunden; kein umfassender Preislisten-Negativnachweis. Sorten/Annahme sind historischer Seed-/Verzeichnisbestand, nicht heute bestätigt. Keine Geokodierung dieses Reviews; die Gesellschaftsadresse nicht als bestätigten Annahmepunkt behandeln. Eine Straßenkorrektur oder Status `pruefung` bereinigt weder gespeicherte GEO noch alte Servicebehauptungen automatisch.
 
 ## Timeline
 
@@ -42,3 +42,7 @@ Für Born Metall GmbH ist in der bisherigen Prüfung nur ein Branchenbuch-Lead z
 ### Recherche 01.10.2026
 
 - [Recherche Born Metall Lichtenau: nur stadtbranchenbuch-Lead Chemnitzer Landstr. 53 Tel 0371 4584610 (Einzelbeleg, unsicher), kein 2. unabhängiger Beleg, daher kein Frontmatter-Fill, Klärfall; Quelle(n): stadtbranchenbuch Lead only]
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Der alte Befund nur Branchenbuch-Lead/kein Registerbeleg ist überholt. Heute gelesene NorthData-Seite nennt Born Metall GmbH, früher Born Hofmann Metall GmbH, HRB 20368 Chemnitz, Chemnitzer Landstr. 53, 09244 Lichtenau; Publikationsüberschriften gelesen, Originalbekanntmachungen nicht geöffnet. GLEIF-LEI 391200B8EYWAF2DLPV79 führt dieselbe Gesellschaft/HRB, Rechts-/Hauptsitzadresse Lichtenau OT Auerswalde, Datensatz aktualisiert 21.01.2026; ACTIVE/ISSUED belegt keinen Publikumsverkehr, Golden-Copy-Datum keine Vor-Ort-Prüfung. GLEIF steht nicht ausdrücklich in der README-Quellenliste; Bloomberg ist derselbe LEI-Datenbestand, kein weiterer unabhängiger Beleg. Keine neue formale Zwei-Quellen-Freigabe; die vorgeschlagene Straßenleerung wird wegen des konkreten Gegenbefunds nicht übernommen, alle Frontmatter-Werte bleiben wie im Ausgangs-HEAD. Aktuelle Annahmestätte/Öffnung, Telefon und Betreiberwebsite weiterhin ungeklärt. Historische Telefonnummer 0371 4584610 nur Verzeichnislead, weitere Suchnummern nicht übertragen; Creditreform-Direktabruf 403. Keine Schließung, neue Preise oder GEO abgeleitet. Die uncommittete 12.10.-Leerungsnotiz belegt keinen damaligen Abruf; alte 01./07.10.-Historie bleibt erhalten und ist mit diesem Gegenbefund überholt. Quellen: https://www.northdata.de/Born%20Metall%20GmbH,%20Lichtenau/Amtsgericht%20Chemnitz%20HRB%2020368 ; https://api.gleif.org/api/v1/lei-records/391200B8EYWAF2DLPV79 ; Telefonspur, nur Lead: https://www.schrottplatz-info.de/schrottplatz/Lichtenau/BORN-METALL-GmbH]
