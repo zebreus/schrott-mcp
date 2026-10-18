@@ -4,9 +4,10 @@ name: Jansen
 trader_type: sonstige
 state: BY
 city: Roding
-street: Flurweg 8
-postcode: '93426'
-phone: 0171 1884077
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,7 +25,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Unvollständige Betreiberidentität „Jansen“: Flurweg 8, 93426 Roding, 0171 1884077 wurden 02.10.2026 aus Verzeichnis-Leads als Ausnahme gefüllt. Der damalige Hinweis „Kleinstbetrieb“ und fehlender HR-Beleg sind keine gesicherte Rechtsformprüfung. Aktueller Gewerbetreibender, Schrotthandel und Annahmestelle fehlen als Primärnachweis. **Ankauf / Verkauf / Gebühren:** keine zugeordneten Zahlen. Keine Kontakte namensgleicher Jansen-Betriebe außerhalb Roding übernehmen; vor Kundenempfehlung Gewerbeidentität/Anlieferung prüfen. Koordinaten der vorhandenen Adresse erst nach Primärabgleich.
+Unvollständige Betreiberidentität „Jansen“: Flurweg 8, 93426 Roding und 0171 1884077 als unzureichend belegte aktuelle Fakten im Dossier-Frontmatter zurückgenommen; frühere, heute nicht unabhängig verifizierte Leadbehauptungen bleiben Historie. Ein am 18.10.2026 direkt gelesener Telefonbuch-Aggregator nennt Romano Jansen an derselben Adresse, aber 09461 401336; konkreter lokaler Gegenhinweis, kein Nachweis eines Schrotthändlers oder Anlieferorts. Weder Namen noch neue Nummer übernehmen, die alte Mobilnummer nicht als falsch/abgeschaltet widerlegt. Status `pruefung`, keine Schließung. Keine belastbar zugeordneten veröffentlichten Zahlen für Ankauf, Verkauf oder Gebühren; keine identitätsgesicherte Betreiberquelle für eine Preisprüfung. Datenbankübernahme erst nach Integration/Rebuild/Seed. Kein GEO dieses Reviews; erhaltene ungeprüfte Punkte bleiben Rolloutgate, alte Geokodierankündigung keine aktuelle Freigabe.
 
 ## Timeline
 
@@ -39,3 +40,11 @@ Unvollständige Betreiberidentität „Jansen“: Flurweg 8, 93426 Roding, 0171 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 93426)
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Straße/PLZ/Telefon im Frontmatter zurückgenommen, clear_fields phone eng begrenzt freigegeben; Rücknahme unzureichend belegter aktueller Tatsachen, keine Widerlegung der Adresse oder Nummer. Heute direkt gelesener Aggregator telefonbuchsuche.de nennt Romano Jansen, Flurweg 8, 93426 Roding und 09461 401336; kein Betreiber-/Schrottbeleg, keine Namens-/Telefonübernahme. Katrin Maier nur Suchsnippet-Lead, keine Betreiberrolle. NorthData-Suchen Jansen Roding/Romano Jansen im gelesenen ersten Block ohne kongruente Zuordnung, keine vollständige Negativregisterauskunft. lokaleschrottplatz.de/jansen heute HTTP 404, historisches 403 nicht als heutiger Befund fortgeschrieben. Gelesene Jansen-Recycling-Group-Seite nennt niederländische Standorte, P.A.-Jansen-Impressum Ahrweiler; keine Roding-Kette belegt, keine fremden Daten übertragen. Weitere Suchen teilweise 401/CAPTCHA/irrelevant, keine erschöpfenden Negativbefunde. Status pruefung; keine Schließung, Aktivierung oder belastbar zugeordneten Preis-/Gebührenzahlen. Historische 02./08.10.-Abrufe nicht nachträglich verifiziert, uncommittierter 12.10.-Entwurf kein Nachweis damaliger Recherche. Alte Geokodierungsankündigung nicht geltend; ungeprüftes DB-GEO bleibt erhalten und Rolloutgate. Quellen: https://telefonbuchsuche.de/romano-jansen-flurweg-93426-roding ; https://www.northdata.de/?query=Jansen%20Roding ; https://www.northdata.de/?query=Romano%20Jansen ; https://lokaleschrottplatz.de/jansen/ ; https://jansengroup.com/de/ ; https://www.jansen.de/impressum/]
+
+### Owner-Korrektur 18.10.2026 (Seed-Verhalten)
+
+- [Owner-Korrektur 18.10.2026: Heutiger mode=ro/query_only-Abgleich mit public.db zeigt Telefon 0171 1884077 und Flurweg 8/93426 weiterhin gespeichert; nur Bestandsaufnahme, keine Tatsachenverifikation oder Bestätigung der im Entwurf behaupteten 12.10.-Abfrage. Nach Rebuild/Integration entfernt clear_fields phone das gespeicherte Telefon und bleibt bei jedem Seed autoritativ, auch gegen spätere Drift mit gleich gebliebenem Seed-Hash. Leeres Telefon allein würde Enrichment behalten. Straße/PLZ werden beim geänderten Seed leer überschrieben, vorhandenes GEO 49.1943/12.5196 dagegen behalten und nicht neu validiert. Ungeklärte Händler-/Punktzuordnung bleibt Veröffentlichungsblocker, keine GEO- oder Produktionsmutation dieses Check-ins. Grundlage: docs/trader-seed.md; heutige Abfrage dokumentiert in /tmp/opencode/checkin-20261018-0900-production-gate.json.]

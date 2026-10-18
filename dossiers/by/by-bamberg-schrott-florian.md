@@ -4,9 +4,10 @@ name: Schrott Florian
 trader_type: schrotthaendler
 state: BY
 city: Bamberg
-street: Heumannstr. 1
-postcode: '96050'
-phone: 0951 30945195
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,7 +25,12 @@ provenance_origin: table
 
 ## Überblick
 
-Nur Verzeichnis-Kandidat „Schrott Florian“, Heumannstr. 1, 96050 Bamberg, 0951 30945195. Die neue Prüfung bestätigt die Existenz des Gelbe-Seiten-Eintrags, nicht den laufenden Betrieb. Ob „Schrott“ Firmen-/Branchenbezeichnung oder Personenname ist, bleibt ohne Betreiberbeleg offen. Frühere Einzelfund-Fills von PLZ/Telefon bleiben als ungeprüfte Leads sichtbar; keine weiteren Fills oder Aktivsetzung. Keine gesicherte Annahmeliste, Ankauf, Öffnungszeiten oder öffentliche Anlieferung.
+Verzeichnis-Kandidat „Schrott Florian“: Gelbe Seiten und Das Örtliche nennen im Review am 18.10.2026 Heumannstr. 1, 96050 Bamberg und 0951 30945195. Zwei Verzeichnisoberflächen sind keine unabhängige zulässige Betreiberbestätigung. Straße, PLZ und Telefon im Dossier-Frontmatter als unzureichend belegte aktuelle Fakten zurückgenommen, nicht als falsche oder abgeschaltete Kontakte widerlegt; Datenbankanwendung erst nach Freigabe/Rebuild/Seed. Ob Schrott Name oder Branchenbezeichnung ist, bleibt offen. Aktuelle Identität, Annahme und Leistungen unbestätigt; `status: pruefung`, keine Schließung. Erhaltenes ungeprüftes GEO bleibt Veröffentlichungsblocker.
+
+- **Ankauf:** keine bestätigten Bedingungen oder Preise.
+- **Verkauf:** keine für diesen Kandidaten bestätigte Preisliste.
+- **Gebühren:** keine für diesen Kandidaten bestätigten Tarife.
+- **Geokodierung:** keine GEO-Prüfung/-Änderung; fehlende Dossierkoordinaten behalten DB-GEO, ohne dessen Händlerzuordnung zu bestätigen.
 
 ## Timeline
 
@@ -41,3 +47,11 @@ Nur Verzeichnis-Kandidat „Schrott Florian“, Heumannstr. 1, 96050 Bamberg, 09
 
 - Schrott (Kleinstbetrieb)
 - Adresse: Bamberg (Heumannstr. 1)
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Gelbe-Seiten-Detail sowie Das-Örtliche-Namens-/Telefonrückwärtssuche heute gelesen: Schrott Florian, Heumannstr. 1, 96050 Bamberg und 0951 30945195 bleiben konkrete Verzeichnisleads, keine Betreiberbestätigung. NorthData-Namenssuche einschließlich Folgeseiten und Adresssuchversuch ohne kongruente Zuordnung; kein negativer Registerauszug oder Ausschluss nichtregisterpflichtiger Gewerbe. Florian Fischer/CUTMETALL nicht gleichsetzen; gelesene CUTMETALL-Betreiberseiten nennen eigene Firma und andere Kontakte. Kein alternativer Betreiber an der Leadadresse bewiesen, keine vollständige Trennung historischer Einheiten behauptet. Straße/PLZ/Telefon im Frontmatter zurückgenommen, clear_fields phone eng begrenzt freigegeben; keine Ersatzadresse, neue Kontakte, Aktivsetzung oder Schließung. Keine zuordenbaren Preise/Tarife bestätigt. Historische Abrufbehauptungen nicht rückwirkend nachgewiesen, der uncommittete 12.10.-Entwurf belegt keinen damaligen Abruf. Quellen: https://www.gelbeseiten.de/gsbiz/aa2e23f3-e1e1-4579-a2e7-84f566a7dafe ; https://www.dasoertliche.de/?form_name=search_nat&kw=Schrott+Florian&ci=Bamberg ; https://www.dasoertliche.de/?form_name=search_inv&ph=095130945195 ; https://www.northdata.de/Florian+Schrott,+Bamberg ; https://www.northdata.de/Heumannstr.+1,+Bamberg ; https://www.cutmetall.com/de/legal/impressum/ ; https://www.cutmetall.com/en/company/contact/]
+
+### Owner-Korrektur 18.10.2026 (Seed-Verhalten)
+
+- [Owner-Korrektur 18.10.2026: Heutiger mode=ro/query_only-Abgleich mit public.db zeigt Telefon 0951 30945195 und Adresse Heumannstr. 1/96050 weiterhin gespeichert; dies ist Bestandsaufnahme, keine sachliche Verifikation oder Bestätigung der im Entwurf behaupteten 12.10.-Abfrage. Nach Rebuild/Integration entfernt clear_fields phone das gespeicherte Telefon und bleibt bei jedem Seed autoritativ, auch bei gleich gebliebenem Seed-Hash oder später neu angereichertem Telefon. Leeres Telefon allein würde Enrichment behalten. Straße/PLZ werden beim geänderten Seed geleert, vorhandenes GEO 49.8925/10.897025 dagegen behalten und nicht neu validiert. Ungeklärte Händler-/Punktzuordnung bleibt Veröffentlichungsblocker, keine GEO- oder Produktionsmutation dieses Check-ins. Grundlage: docs/trader-seed.md; heutige Abfrage dokumentiert in /tmp/opencode/checkin-20261018-0900-production-gate.json.]
