@@ -3,7 +3,7 @@ slug: th-muehlhausen-mrg-rueckbau-und-recycling
 name: MRG Rueckbau und Recycling GmbH
 trader_type: sonstige
 state: TH
-city: Muehlhausen
+city: Mühlhausen
 street: ''
 postcode: ''
 phone: ''
@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische MRG-Spur in Mühlhausen, keine zweite aktive MRC-Filiale. North Data gibt die MRG-Sitzverlegung von Mühlhausen (Jena HRB 401958) nach Stadtoldendorf (Hildesheim HRB 205183) im März 2017 wieder. MRC Mitteldeutsche Recycling GmbH wurde dagegen unter Jena HRB 512953 im Dezember 2016 neu eingetragen. MRCs eigene Historie beschreibt die Übernahme der MRG-Geschäftstätigkeit in Mühlhausen/Nordhausen 2017; das ist keine belegte Umfirmierung MRG zu MRC. Ein zweiter unabhängiger zugelassener Beleg des eigentlichen Betriebsübergangs fehlt weiterhin. MBG Thüringen ist ein ergänzender Finanziererbericht, keine zweite Belegklasse nach README.
+
+Bereits vorhanden: [MRC Mühlhausen](th-muhlhausen-mrc-mitteldeutsche-recycling.md), [MRC Nordhausen](th-nordhausen-mrc-mitteldeutsche-recycling.md) und [MRG Stadtoldendorf](../ni/ni-stadtoldendorf-37627-mrg-ruckbau-und-recycling.md). Ihre Adressen und Kontakte nicht auf diese historische Zeile übertragen, keine neue Dublette erzeugen. Der knappe alte Import nennt keine Straße; seine genaue Standortrolle bleibt offen. Keine aus der Sitzverlegung abgeleitete Unternehmens- oder Hofschließung. Name und `pruefung` bleiben, nur Stadt orthografisch zu `Mühlhausen` normalisiert. `pruefung` ist kein technischer Veröffentlichungsfilter.
+
+- **Ankauf/Verkauf/Gebühren:** Keine für diese historische MRG-Mühlhausen-Zeile verifizierten aktuellen Konditionen. MRCs aktuelle Altmetall-FAQ verweist auf täglich LME-orientierte Preise auf Anfrage, ohne hier gefundene Zahlenkurse; dies betrifft den separat erfassten Betreiber, nicht diese Zeile. Entsorgungsleistungen sind nicht automatisch vergüteter Ankauf. MRC-Rabatt-/Containerentgelte nicht als Preise dieser MRG-Zeile übernehmen.
+- **GEO/Produktion:** Rein lesende Aufnahme 18.10.2026: alter MRG-Name, `Muehlhausen`, leere Kontakte/Adresse, Status `pruefung`, kein GEO und Serviceobjekte `{}`. Die drei Geschwister sind bereits separat in Produktion vorhanden. Historische SQL-Flags `accepts_dropoff=1` sind kein Annahmebeleg. Kein GEO-Auftrag, keine neue genehmigte Anschrift, keine DB-Änderung oder Zusammenführung. Identitäts-/Standortmodell vor Veröffentlichung weiter klären.
 
 ## Timeline
+
+### Review 18.10.2026
+
+- [Review 18.10.2026: Vorgeschlagene MRC-Umbenennung und Befüllung dieser MRG-Zeile abgelehnt. North-Data-Bekanntmachung 16.03.2017 belegt MRG-Sitzverlegung Mühlhausen/Jena HRB 401958 zu Stadtoldendorf/Hildesheim HRB 205183; Bekanntmachung 21.03.2017 nennt den Registerwechsel, keine Schließung. MRC wurde separat am 16.12.2016 unter HRB 512953 mit Gesellschaftsvertrag 29.11.2016 neu eingetragen. MRC beschreibt die operative Übernahme 2017 selbst; MBG nur ergänzend, nicht zweiter zugelassener Identitätsbeleg. Aktuelle MRG-Website gehört zum fortbestehenden MRG-Rechtsträger; MRC-Mühlhausen und MRG-Stadtoldendorf sind bereits separat erfasst. Deshalb keine MRC-Kontakte/Adresse/Leistungen oder Aktivierung hier übernehmen, keine Löschung oder Slugänderung; nur Umlautbereinigung des historischen Orts. Alte Recherche vom 04.10. bleibt erhalten: getrennt gegenüber MRC bedeutet nicht historisch unverbunden mit Mühlhausen. Original des uncommitteten 12.10.-Entwurfs gesichert; heutige Abrufe belegen kein damaliges Abrufereignis. Owner hat beide entscheidenden Registertexte selbst gelesen und die Geschwister lokal und in Produktion rein lesend nachgewiesen; keine DB-/GEO-Änderung. Quelle(n): https://www.northdata.de/?id=3367205006 ; https://www.northdata.de/?id=3377565076 ; https://www.northdata.de/?id=3042175047 ; https://www.mrc-umwelt.de/uber-uns ; https://www.mrc-umwelt.de/impressum ; https://www.mrg-konzept.de/impressum ; https://mbg-thueringen.de/ueber-uns/firmenportraits ; Review research/checkin-20261018-1000-review-mrg-mrc.md]
 
 ### Recherche 04.10.2026
 
