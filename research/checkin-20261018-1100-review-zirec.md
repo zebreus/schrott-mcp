@@ -1,0 +1,92 @@
+# Check-in 18.10.2026, 11:00 — Review ZIREC Bensheim
+
+## Ergebnis / Integrationsentscheidung
+
+**Bedingt integrierbarer, plausibel eigenständiger Standort; keine Freigabe als öffentlich zugänglicher, vergütender Schrottankauf.** Der ungetrackte Entwurf `dossiers/he/he-bensheim-64625-zirec-kabelaufbereitung.md` trifft mit `status: pruefung`, `provenance_ankauf_raw: unklar` und leeren Annahme-/Abholfeldern die angemessene Grenze. Name, Adresse, Telefon und Kabelaufbereitung sind heute primär belegt. Eine Umstellung auf `aktiv`, Kunden-/Materialannahme oder Preise wäre aus den geprüften Quellen nicht gerechtfertigt.
+
+Vor Integration die heutige Nachprüfung **als 18.10.2026** dokumentieren, die Produktions-Dublettenbehauptung getrennt prüfen und fehlende Koordinaten ausdrücklich als offene Rolloutfrage kennzeichnen. Keine Zusammenführung mit KUMETA, METIMO oder KK Metallhandel. Der README-Identitätsstandard ist durch Betreiberimpressum plus registerkongruentes NorthData-Profil für die Grundidentität erfüllt; eine aktuelle amtliche Registerauskunft wurde nicht eingeholt. KUMETAs genaue heutige Beteiligungsquote ist damit nicht abschließend registerrechtlich geprüft.
+
+**Umfang:** ausschließlich dieser Bericht wurde erstellt. Dossier, Datenbanken, GEO und Git-Index/Commits wurden nicht verändert. Keine GEO-Ermittlung, keine Datenbankabfrage, kein Build/Seed/Rollout. Der Delegationsversuch der geladenen Research-Anweisung wurde vom Harness mit `Subagent depth limit reached (1)` abgewiesen; die Quellenprüfung erfolgte unmittelbar in dieser Sitzung.
+
+## Maßstab und Datierungsgrenzen
+
+- Maßstab: `README.md:160–240`, insbesondere Zwei-Seiten-/Namensvetterprüfung, zwei unabhängige zugelassene Belege beziehungsweise qualifizierte Betreiber-Primärquelle und zusätzliche Absicherung von Identitätsketten. Mehrere Seiten derselben Domain sind **keine zwei unabhängigen Quellen**. KUMETA und ZIREC gehören nach Eigenauskunft zusammen; ihre gegenseitigen Links sind ebenfalls keine unabhängigen Registerbelege.
+- Heute abgerufene Betreiberseiten sind Primärquellen für ihre eigenen Aussagen. NorthData ist **keine amtliche Primärquelle**, aber nach README ausdrücklich ein zulässiger zusätzlicher Identitätsbeleg. Dessen automatisch erzeugte Beteiligungsangaben nicht wie geprüfte Originalregisterdokumente behandeln.
+- Sämtliche unten beschriebenen externen Abrufe erfolgten **18.10.2026**. „11:00“ bezeichnet den Check-in, keine behauptete sekundengenaue Abrufzeit. Es wurden keine archivierten Fassungen vom 12.10.2026 beschafft. Heutige Übereinstimmung bestätigt **nicht**, was am 12.10. tatsächlich abgerufen wurde oder damals online stand.
+- Die bestehende Timeline vom 12.10. bleibt historische Vorrecherche. Neue Kontaktseiten-/Zertifikatsbefunde dürfen nicht in deren damaligen Abrufstand hineingeschrieben werden. Historie bei späterer Integration erhalten und eine neue datierte Reviewnotiz ergänzen.
+- NorthData zeigt heute die Publikation vom **22.09.2026** zum Jahresabschluss **31.12.2025**. Das Publikationsdatum liegt zwar vor dem 12.10.; heutiger Abruf beweist dennoch keinen damaligen Abruf. Jahresabschluss, Registerleben, operativer Betrieb und öffentlicher Ankauf sind verschiedene Aussagen.
+- Copyright 2025 auf ZIREC und ©2026 auf KUMETA sind keine verlässlichen Aktualisierungsdaten einzelner Inhalte. Zertifikatsgültigkeit ist ebenfalls kein Seitenausgabedatum.
+
+## Feldweise Empfehlungen
+
+| Feld / Aussage im Entwurf | Empfehlung | Heutiger Beleg und Grenze |
+|---|---|---|
+| `slug` | Unverändert lassen. | Neuer lokaler Entwurf; keine belastbare Grundlage für Umbenennung oder Zuordnung zu einem Bestands-Key. Slug-Stabilität nach README. |
+| `name: ZIREC Kabelaufbereitungs-GmbH` | Beibehalten. | ZIREC-Impressum schreibt „Zirec Kabelaufbereitungs GmbH“, Kontakt und NorthData die Bindestrichvariante; HRB 21522 ist kongruent [S1, S2, S7]. ISO-Zertifikat nennt ebenfalls ZIREC Kabelaufbereitungs-GmbH [S6]. Schreibvarianten sind kein Umfirmierungsnachweis. |
+| Betreiber / HRB / Rechtssitz | HRB 21522, Amtsgericht Darmstadt in Überblick/Timeline belassen. | [S1, S7]; kein heutiger amtlicher Registerauszug, keine geprüfte vollständige Historienkette. Keine zusätzliche Geschäftsführer- oder Gesellschafterstruktur erfinden. |
+| `trader_type: metallhaendler` | Als bestehende breite Einordnung vertretbar; Schwerpunkt ausdrücklich „Kabelaufbereitung/Rohstoffrecycling“. | Betreiber nennt Aufbereitung, Rohstofflieferanten und industrielle Abnehmer; NorthData nennt zusätzlich Handel und Vertrieb [S3–S5, S7]. Daraus folgt kein Publikumsankauf. |
+| `state: HE`, `city: Bensheim`, `street: Werner-von-Siemens-Str. 1-5`, `postcode: '64625'` | Beibehalten. | Impressum, echte Kontaktseite „Zentrale“ und ISO-Zertifikat decken die konkrete Betriebsanschrift, nicht nur eine generische Konzernadresse [S1, S2, S6]. NorthData ist kongruent [S7]. |
+| `phone: '06251 1003-0'` | Beibehalten. | Zentrale und Impressum [S1, S2]. Dass KUMETA dieselbe Zentrale nutzt, beweist keine rechtliche Identität. |
+| `email: ''` | Konservativ weiterhin leer zulässig. Bei gezielter Kontaktanreicherung ist **`info@zirec.de` die begründete Empfehlung**, nicht zwingend dauerhaft leer. | Die eigene Kontaktseite weist ausdrücklich „Zentrale … E-Mail: info@zirec.de“ aus, zusätzlich Rohstoffseite und Footer; Impressum nennt `mail@zirec.de` [S1, S2, S4]. Das sind zwei veröffentlichte Rollen-/Kontaktadressen, kein belegter Ausfall einer Adresse. Bei Übernahme Quellenpriorität „operative Zentrale“ und abweichende Impressumsadresse dokumentieren; nicht auf 12.10. rückdatieren. Persönliche Mitarbeitermails nicht anstelle der Zentrale setzen. |
+| `opening_hours: ''` | Leer lassen. | Keine belastbaren öffentlichen Annahmezeiten in den geprüften Seiten. „Rund um die Uhr“ betrifft Verarbeitung beziehungsweise Speditionsausgang, nicht Kundenöffnungszeiten [S5]. |
+| `website: https://zirec.de/`, `website_status: aktiv` | Beibehalten. | Startseite, Impressum und Kontakt heute inhaltlich erreichbar [S1–S3]. Web-Erreichbarkeit ist keine Ankauffreigabe. |
+| `status: pruefung` | Unbedingt beibehalten. | Industrieller Materialeingang ist belegt; Publikumszugang, Kundenberechtigung und Vergütung sind offen [S3–S5]. Nicht `geschlossen` und nicht „kein Ankauf“ behaupten. |
+| `provenance_ankauf_raw: unklar` | Beibehalten. | Kein ausdrückliches Ankauf-/Auszahlungsversprechen für ZIREC in den geprüften Quellen. Fehlende Konditionen sind keine negative Betreiberbestätigung. |
+| `description: ''` | Leer vertretbar; optional eng gefasste Beschreibung nach Owner-Review. | Vorschlag: „Industrielle Kabelaufbereitung und Rückgewinnung von Metall- und Kunststofffraktionen in Bensheim. Öffentliche Anliefer- und Ankaufbedingungen sind nicht geklärt.“ [S3–S5]. Keine unbelegten Mengen-/Kundenzusagen aufnehmen. |
+| `dropoff_json: ''`, `pickup_json: ''` | Leer/ungeklärt lassen; weder `allowed: true` noch `false` setzen. | Verwiegung angelieferter Chargen belegt einen Prozess, keine Annahmeberechtigung für jedermann; Ausgangscontainer/Speditionen sind keine Abholung beim Schrottlieferanten [S5]. |
+| Materialien / Preise | Keine strukturierten Annahme- oder Preisdatensätze ableiten. | Eingänge Industriekabel, Händlerkabel, Altkabel, Kupfer/NE-Schrotte sind Betreiberprozesswissen [S4]. „Metall-Tageskurse bestimmen den Wert“ ist weder Preisnotierung noch Vergütungszusage. Produktgranulate sind Ausgangsprodukte, nicht automatisch Ankaufmaterialien. |
+| Zertifizierungen | Gegenwärtig nicht ungeprüft als EFB ergänzen. ISO 9001:2015 wäre mit genauer Gültigkeit belegbar, falls separat gewünscht. | [S6]: GZQ, Nr. Z-001299-1, Geltungsbereich Kabelaufbereitung, gültig 27.01.2026–07.01.2029. Das EFB-PDF war erreichbar, aber hier nicht inhaltlich lesbar [S6b]. Alte Footerlinks auf 2022 sind kein aktueller Zertifizierungsnachweis. |
+| `provenance_section`, `provenance_origin: feedback`, Feedback #6563 | Als Herkunftsmetadaten erhalten; nicht mit externer Evidenz verwechseln. | Nur im lokalen Entwurf nachgelesen; das ursprüngliche Feedback wurde in dieser Sitzung nicht eingesehen. |
+| `lat`, `lon` | **Beide fehlen; nicht ergänzt.** | Keine Koordinaten recherchiert oder bestimmt. Nach `docs/trader-seed.md:96–106` bleibt ein tatsächlich neuer Datensatz ohne Paar NULL; bei bestehendem Datensatz werden vorhandene DB-Koordinaten bewahrt. Dossier ohne Paar beweist daher nicht, dass die Produktionszeile GEO-frei ist. |
+| „GEO muss vor Seed-Rollout extern geprüft werden“ | Als offenes Owner-/Veröffentlichungsgate kennzeichnen, nicht als technische Build-Voraussetzung darstellen. | README und Seed-Vertrag erlauben neue Händler ohne GEO. Fehlendes Paar ist eine Datenlücke, kein Paar-Validierungsfehler. Diese Sitzung schließt das Gate ausdrücklich nicht. |
+| „Kein passender ZIREC-Produktionsdatensatz“ | Nicht als heute verifiziert übernehmen. | Lokale Dossiers geprüft; keine Produktions-/DB-Abfrage. Vor Integration separate read-only Owner-Dublettenprüfung erforderlich. |
+
+Bei einer späteren Integration in eine bereits vorhandene DB-Zeile sind leere Kontakt-/Servicefelder kein automatisches Löschen: `docs/trader-seed.md:22–69,73–106` beschreibt Erhalt bestehender Anreicherung und GEO. `status: pruefung` zieht alte Annahmebehauptungen nicht zurück. Hier wird weder ein vorhandener Wert behauptet noch ein `clear_fields`-Auftrag abgeleitet.
+
+## Identität und Bensheimer Abgrenzung
+
+### ZIREC versus KUMETA
+
+- ZIREC: HRB **21522**, USt-ID **DE111670264**, Kabelaufbereitung [S1]. KUMETA: eigene Firma **KUMETA Kunststoff- und Metallaufbereitungs-GmbH**, HRB **24132**, USt-ID **DE111645405**, `info@kumeta.de` [S8]. Gleiche Adresse, Geschäftsführerin und Zentralnummer sind angesichts der erklärten Verbindung plausibel, aber **kein Merge-Kriterium**.
+- ZIREC verlinkt KUMETA als Tochterunternehmen [S3, S4]; KUMETA bezeichnet sich als Tochter der ZIREC und beschreibt Kunststoffaufbereitung/Weiterverwertung aus Kabelrecycling sowie Herstellung von Recyclingkunststoffprodukten [S9]. Die Aussage „100-prozentige Tochter“ steht in der **Gründungserzählung 1991**. Nicht ohne Registerprüfung als heutige Beteiligungsquote fortschreiben.
+- NorthData führt beide Gesellschaften getrennt an derselben Anschrift und mit unterschiedlichem Unternehmensgegenstand [S7, S10]. Beteiligungslabels wechseln in den Zusammenfassungen zwischen „Beteiligung an“ und „Gesellschafter“, insbesondere zur Publikation 22.09.2026. Die Richtung einer heutigen Beteiligung daraus nicht algorithmisch rekonstruieren; Originalunterlagen wurden nicht geöffnet. Keine belegte Umbenennung/Verschmelzung von ZIREC in KUMETA.
+- Empfehlung: Tochterbeziehung als **Betreiberauskunft** mit beiden Impressumsidentitäten referenzieren; KUMETAs Material-/Kontakt-/Produktfakten nicht in ZIREC-Annahmefelder kopieren. Eine eigenständige KUMETA-Ankaufzeile wäre separat zu prüfen, nicht aus dieser Abgrenzung genehmigt.
+
+### KK Metallhandel
+
+Bestand: `dossiers/he/he-bensheim-kk-metallhandel-mario-kominek-ex-jens-re.md`. Heutiges Betreiberimpressum nennt **KK Metallhandel / Mario Kominek, Neuwiesenfeld 7, 64625 Bensheim** [S11], nicht ZIREC. Header/Footer führen 0151/64044842; im Impressumskörper bleibt 0175-4892994 stehen. Diese im Bestand dokumentierte Abweichung wird hier nicht korrigiert.
+
+Die KK-Ankaufseite sagt ausdrücklich „Sie fahren bei uns auf den Hof“, „Wir wiegen und entladen Ihren Schrott“ und **„Wir zahlen zu fairen & aktuellen Tagespreisen“** [S12]. Gerade der letzte Baustein fehlt in ZIRECs Prozessdarstellung. KK-Konditionen, Öffnungszeiten, Kundenansprache und Zahlungsaussagen gehören ausschließlich zu KK. Kein Anlass zur Zusammenführung oder Übertragung des Status `aktiv` auf ZIREC.
+
+### METIMO
+
+Bestand: `dossiers/he/he-bensheim-64625-metimo.md`. Die heute erreichbare eigene Homepage nennt **METIMO GmbH, Fabrikstr. 23, 64625 Bensheim, 06251 62021**, Hans/Klaus Zieringer und Petra Ehrhard sowie Metallhandel/Kabelschrott und Drähtevertrieb [S13]. Damit ist der abweichende Bestandsstandort primär nachvollziehbar.
+
+Die Familiennamen Zieringer und der gemeinsame Kabel-/Metallbezug sind kein Nachweis rechtlicher Identität, Nachfolge oder aktueller Gruppenstruktur mit ZIREC. METIMOs Homepage bietet in der abgerufenen Fassung keinen HRB-/Impressumsnachweis. Für eine vollständige METIMO-Identitätsprüfung wären zusätzliche zugelassene Quellen nötig; hier keine Änderung des Bestands oder dessen ungewöhnlichen `city: Bensheim 64625`.
+
+Die lokale Dossiersuche nach ZIREC/KUMETA/Bensheim ergab neben diesen drei Bensheimer Dateien auch das Alsbach-Hähnleiner Hedderich-Dossier mit historischem Hinweis auf eine Bensheimer Filiale **Ampèrestr. 2d**. Das ist ein anderer Standort-/Dienstleistungsfall, kein ZIREC-Beleg; Hedderich wurde heute extern nicht nachgeprüft. Die Suche ist keine vollständige Betreiberzählung Bensheims und keine Produktions-Dublettenprüfung.
+
+## Quellen und Abrufgrenzen (alle Abruf 18.10.2026)
+
+- **S1 — ZIREC Impressum:** https://zirec.de/impressum.html — Betreibername, Petra Zieringer, Anschrift, Zentrale, `mail@zirec.de`, HRB 21522, USt-ID; Footer `info@zirec.de`. Inhalt abrufbar. Impressum allein beweist noch keine Zuordnung einer beliebigen Händlerzeile.
+- **S2 — ZIREC Kontakt:** https://zirec.de/kontakt.html — konkrete Zentrale mit Adresse, Telefonnummer und `info@zirec.de`; Mitarbeitende mit Funktionen. Abrufbar, ohne belastbares Veröffentlichungsdatum oder öffentliche Annahmezeiten. „CEO“ auf einer Mitarbeiterseite nicht automatisch mit registerrechtlichem Geschäftsführer gleichsetzen.
+- **S3 — ZIREC Startseite:** https://zirec.de/ — Kabelwerke als Rohstofflieferanten, industrielle Produktabnehmer, Tochterlink KUMETA, konkrete Standortdaten. Abrufbar; Mengen-/Mitarbeiterangaben nicht unabhängig auf Aktualität geprüft.
+- **S4 — ZIREC Rohstoffe:** https://zirec.de/rohstoffe.html — Industriekabel, Händlerkabel einschließlich unsortierter Haushaltskabel, Altkabel und NE-Schrotte; Wertfaktoren. Haushaltskabel im Input beweisen keine Zulassung privater Anlieferer. Abrufbar.
+- **S5 — ZIREC Technologie:** https://zirec.de/technologie.html — Eingangsverwiegung, Entladung, Sortierung und Verarbeitung; spätere Kundenbelieferung durch Speditionen. Abrufbar; keine konkreten Vergütungs-/Publikumsannahmebedingungen.
+- **S6 — Zertifikatsübersicht / ISO-Original:** https://zirec.de/download.html und https://zirec.de/dl/0b5d1aa2af2df8d6867e8aad32fa923e/ISO_9001_2015_2026_de.pdf — Übersicht abrufbar; PDF HTTP 200. Webfetch unterstützt hier PDF nicht; Text anschließend direkt aus dem HTTP-Inhalt mit `pdftotext` im Speicher extrahiert. GZQ-Zertifikat mit Name, Adresse, Kabelaufbereitung, ISO 9001:2015, Z-001299-1, Ausstellung 27.01.2026 und Gültigkeit bis 07.01.2029. Ausstellerdokument auf Betreiberhosting, keine separate Live-Verifikation bei GZQ; kein Register- oder Ankaufbeleg.
+- **S6b — EFB-Link, begrenzter Abruf:** https://zirec.de/dl/a6b44cd82af6a892352de7640d8a50e8/ESN_050129_2026_S.pdf — HTTP 200/application/pdf; `pdftotext` lieferte keinen nutzbaren Text. OCR-Versuch nicht möglich (`tesseract` nicht installiert); keine inhaltliche Sichtprüfung und keine Validierung von Umfang, Aussteller, Standort oder Ablaufdatum. Dateiname allein nicht als gültige Zertifizierung ausgeben. Keine temporären PDF-Dateien angelegt.
+- **S7 — NorthData ZIREC (README-zugelassener Registerprofilbeleg, nicht amtliches Original):** https://www.northdata.de/ZIREC%20Kabelaufbereitungs-GmbH,%20Bensheim/Amtsgericht%20Darmstadt%20HRB%2021522 — Name, HRB, Adresse, Gegenstand und Publikation 22.09.2026 frei lesbar. Strukturdetails und Originalunterlagen teilweise Premium; aktuelle vollständige Vertreter-/Gesellschafterstruktur nicht geprüft. Keine Originalpublikation von Handelsregister/Unternehmensregister abgerufen.
+- **S8 — KUMETA Impressum:** https://kumeta.de/impressum/ — eigene HRB 24132, USt-ID, Geschäftsführerin, gleiche Anschrift/Zentrale, eigene Mail. Abrufbar.
+- **S9 — KUMETA Eigendarstellung/Geschichte:** https://kumeta.de/ueber-uns-kumeta-firmengeschichte/ — Tochterbezeichnung, Kunststoffaufbereitung aus Kabelrecycling, Gründungserzählung 1991 und Produktfertigung. Abrufbar; keine unabhängige Bestätigung heutiger Beteiligungsquote. Einzelne historische Bildunterschriften und Jahresdarstellungen nicht auf Widerspruchsfreiheit geprüft.
+- **S10 — NorthData KUMETA (wie S7 begrenzt):** https://www.northdata.de/Kumeta%20Kunststoff-und%20Metall-Aufbereitungs-GmbH,%20Bensheim/Amtsgericht%20Darmstadt%20HRB%2024132 — separate HRB, Anschrift und Kunststoff-Verwertungsgegenstand frei lesbar; automatisch erzeugte historische Namens-/Beteiligungslabels ersetzen keine Originalkettenprüfung.
+- **S11 — KK Impressum:** https://kkmetallhandel.de/impressum/ — Mario Kominek und abweichender Standort, Telefon-/Mailvarianten. Abrufbar. Interner Impressums-Zeitstempel 2020 ist nicht heutiges Recherche- oder Aktualisierungsdatum.
+- **S12 — KK Ankauf:** https://kkmetallhandel.de/schrotthandel-metallankauf/ — ausdrückliche Hofanlieferung und Auszahlung zu Tagespreisen. Abrufbar; allein dem dort genannten Betreiber zuzuordnen.
+- **S13 — METIMO Homepage:** https://www.metimo.de — eigene Firmen-/Standort-/Kontakt- und Leistungsangaben abrufbar. Kein lesbarer HRB-Nachweis in der abgerufenen Homepage; deshalb keine vollständige Registeridentitätsfreigabe oder bewiesene gesellschaftsrechtliche Unabhängigkeit allein aus dieser Seite.
+
+## Owner-Handoff
+
+1. Neue datierte Reviewnotiz 18.10.2026 ergänzen; 12.10.-Historie nicht rückwirkend anreichern. Keine heutige Produktionsabwesenheit behaupten.
+2. Nach separater Dubletten-/Seedprüfung Integration allenfalls als `pruefung`; Materialien, Preise, Privat-/Gewerbezulassung, Abholung, Öffnungszeiten und Vergütung bleiben offen. Telefonische oder schriftliche Betreiberklärung wäre der nächste sachliche Ankaufbeleg, ist hier nicht erfolgt.
+3. `info@zirec.de` kann anhand der heutigen Zentralenkontaktseite gegenüber der Impressumsvariante begründet priorisiert werden; leer bleibt als konservative Entscheidung möglich.
+4. **Koordinaten fehlen weiterhin vollständig.** Keine GEO-Freigabe oder Publikationsbehauptung. Der technische Seedvertrag erlaubt fehlendes GEO, ein vom Owner gesetztes Veröffentlichungs-GEO-Gate bleibt unerledigt.
+5. Keine Änderung oder Zusammenführung der Bestandsdossiers aus diesem Review ableiten. Tests, Commit, Seed-Anwendung und Produktionsverifikation sind nicht Teil dieser rein recherchierenden Prüfung und wurden nicht ausgeführt.
