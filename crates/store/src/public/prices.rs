@@ -23,7 +23,7 @@
 //! scan. The `v_current_prices` view pre-joins everything agents usually
 //! want.
 
-use rusqlite::{params, OptionalExtension as _};
+use rusqlite::{OptionalExtension as _, params};
 
 use super::PublicDb;
 use crate::error::StoreError;
@@ -427,6 +427,34 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
              WHERE price_id IN (SELECT id FROM migration_6_mapping_errors);
              DROP TABLE migration_6_mapping_errors;
              PRAGMA user_version = 6;",
+        )?;
+        tx.commit()?;
+    }
+    // Migration 7: Goldtrans published zero quotes for these 14 known keys.
+    // Retire only their current pointers; keep every historical field intact
+    // and never present an older positive observation as a fresh buy quote.
+    if version < 7 {
+        let tx = conn.unchecked_transaction()?;
+        tx.execute_batch(
+            "DELETE FROM current_prices AS c
+             WHERE EXISTS (
+                 SELECT 1 FROM prices p
+                 JOIN traders t ON t.id = p.trader_id
+                 JOIN materials m ON m.id = p.material_id
+                 WHERE p.id = c.price_id
+                   AND p.trader_id = c.trader_id
+                   AND p.material_id = c.material_id
+                   AND p.variant = c.variant
+                   AND t.slug = 'hh-wandsbek-goldtrans-edelmetallhandel'
+                   AND p.source_url = 'https://www.goldtrans.de/goldankauf-preise-aktueller-goldpreis-ankauf-in-hamburg.html'
+                   AND p.currency = 'EUR' AND p.unit = 'EUR/g'
+                   AND p.price = 0
+                   AND ((m.slug = 'gold' AND p.variant IN (
+                       '999','986','980','965','916','900','875',
+                       '833','750','585','416','375','333'))
+                     OR (m.slug = 'zahngold' AND p.variant = ''))
+             );
+             PRAGMA user_version = 7;",
         )?;
         tx.commit()?;
     }
@@ -1235,9 +1263,10 @@ mod tests {
                 db.record_price(&incoming).is_err(),
                 "foreign/unmarked API write must reject owned key"
             );
-            assert!(db
-                .record_price_snapshot(&[incoming], &[], "other-producer")
-                .is_err());
+            assert!(
+                db.record_price_snapshot(&[incoming], &[], "other-producer")
+                    .is_err()
+            );
             let after = db.current_price_for(trader, material, "").unwrap().unwrap();
             assert_eq!(after.id, id);
             assert_eq!(format!("{after:?}"), format!("{before:?}"));
@@ -1257,13 +1286,15 @@ mod tests {
         );
         p.source_url = "https://mkm-metals.de/metallpreise";
         p.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
-        assert!(db
-            .record_price_snapshot(&[p], &[], "mkm-article-v1")
-            .is_err());
-        assert!(db
-            .current_price_for(trader, material, "")
-            .unwrap()
-            .is_none());
+        assert!(
+            db.record_price_snapshot(&[p], &[], "mkm-article-v1")
+                .is_err()
+        );
+        assert!(
+            db.current_price_for(trader, material, "")
+                .unwrap()
+                .is_none()
+        );
     }
 
     #[test]
@@ -1294,14 +1325,15 @@ mod tests {
             let manifest = serde_json::json!({"owner":"mkm-article-v1","trader_id":trader,"source_url":p.source_url,"observed_at":now,
                 "articles":(0..60).map(|i| serde_json::json!({"article":format!("article-{i}")})).collect::<Vec<_>>()}).to_string();
             db.lock().unwrap().execute_batch(&format!("CREATE TRIGGER reject_article BEFORE INSERT ON {table} BEGIN SELECT RAISE(ABORT,'test rollback'); END;")).unwrap();
-            assert!(db
-                .record_article_price_snapshot(
+            assert!(
+                db.record_article_price_snapshot(
                     &[p],
                     &[id],
                     &manifest,
                     &[(material, "conditions".to_owned())]
                 )
-                .is_err());
+                .is_err()
+            );
             assert_eq!(
                 db.current_price_for(trader, material, "legacy")
                     .unwrap()
@@ -1309,10 +1341,11 @@ mod tests {
                     .id,
                 id
             );
-            assert!(db
-                .current_price_for(trader, material, "")
-                .unwrap()
-                .is_none());
+            assert!(
+                db.current_price_for(trader, material, "")
+                    .unwrap()
+                    .is_none()
+            );
             assert_eq!(
                 db.price_history(trader, material, "legacy", 10)
                     .unwrap()
@@ -1362,9 +1395,10 @@ mod tests {
             ..b
         };
         db.lock().unwrap().execute_batch("CREATE TRIGGER fail_b BEFORE INSERT ON prices WHEN NEW.variant='b' BEGIN SELECT RAISE(ABORT,'injected failure'); END;").unwrap();
-        assert!(db
-            .record_price_snapshot(&[a, b], &[legacy], "test")
-            .is_err());
+        assert!(
+            db.record_price_snapshot(&[a, b], &[legacy], "test")
+                .is_err()
+        );
         assert_eq!(
             db.current_price_for(trader, material, "")
                 .unwrap()
@@ -1372,10 +1406,11 @@ mod tests {
                 .id,
             legacy
         );
-        assert!(db
-            .current_price_for(trader, material, "a")
-            .unwrap()
-            .is_none());
+        assert!(
+            db.current_price_for(trader, material, "a")
+                .unwrap()
+                .is_none()
+        );
         assert_eq!(
             db.test_query("SELECT COUNT(*) FROM prices")[0][0],
             serde_json::json!(1)
@@ -1407,13 +1442,15 @@ mod tests {
             )
         };
         db.lock().unwrap().execute_batch("CREATE TRIGGER fail_retire BEFORE DELETE ON current_prices BEGIN SELECT RAISE(ABORT,'retirement failure'); END;").unwrap();
-        assert!(db
-            .record_price_snapshot(&[make_new()], &[legacy], "test")
-            .is_err());
-        assert!(db
-            .current_price_for(trader, material, "dynamic / ab 137 kg")
-            .unwrap()
-            .is_none());
+        assert!(
+            db.record_price_snapshot(&[make_new()], &[legacy], "test")
+                .is_err()
+        );
+        assert!(
+            db.current_price_for(trader, material, "dynamic / ab 137 kg")
+                .unwrap()
+                .is_none()
+        );
         assert_eq!(
             db.current_price_for(trader, material, "")
                 .unwrap()
@@ -1428,9 +1465,10 @@ mod tests {
         let mut foreign = make_new();
         foreign.source_url = "https://other.test/";
         let foreign_id = db.record_price(&foreign).unwrap();
-        assert!(db
-            .record_price_snapshot(&[make_new()], &[legacy], "test")
-            .is_err());
+        assert!(
+            db.record_price_snapshot(&[make_new()], &[legacy], "test")
+                .is_err()
+        );
         assert_eq!(
             db.current_price_for(trader, material, foreign.variant)
                 .unwrap()
@@ -1461,10 +1499,11 @@ mod tests {
         late.variant = "too late";
         late.observed_at = "2026-10-08T00:00:00Z";
         assert!(db.record_price_snapshot(&[late], &[], "test").is_err());
-        assert!(db
-            .current_price_for(trader, material, "new / ab 250 kg")
-            .unwrap()
-            .is_some());
+        assert!(
+            db.current_price_for(trader, material, "new / ab 250 kg")
+                .unwrap()
+                .is_some()
+        );
         assert_eq!(
             db.current_price_for(trader, material, foreign.variant)
                 .unwrap()
@@ -1472,10 +1511,11 @@ mod tests {
                 .id,
             foreign_id
         );
-        assert!(db
-            .current_price_for(trader, material, "too late")
-            .unwrap()
-            .is_none());
+        assert!(
+            db.current_price_for(trader, material, "too late")
+                .unwrap()
+                .is_none()
+        );
     }
 
     #[test]
@@ -1515,9 +1555,10 @@ mod tests {
         offered.source_url = legacy.source_url;
         offered.variant = foreign.variant;
         offered.extra_json = "{\"snapshot_owner\":\"this-producer\"}";
-        assert!(db
-            .record_price_snapshot(&[offered], &[legacy_id], "this-producer")
-            .is_err());
+        assert!(
+            db.record_price_snapshot(&[offered], &[legacy_id], "this-producer")
+                .is_err()
+        );
         assert_eq!(
             (
                 db.test_query("SELECT * FROM current_prices ORDER BY variant"),
@@ -1540,10 +1581,11 @@ mod tests {
                 .unwrap(),
             1
         );
-        assert!(db
-            .current_price_for(trader, material, "")
-            .unwrap()
-            .is_none());
+        assert!(
+            db.current_price_for(trader, material, "")
+                .unwrap()
+                .is_none()
+        );
         assert_eq!(
             db.current_price_for(trader, material, foreign.variant)
                 .unwrap()
@@ -1582,8 +1624,7 @@ mod tests {
             .unwrap();
         assert_eq!(current.id, original);
         assert_eq!(
-            serde_json::from_str::<serde_json::Value>(&current.extra_json).unwrap()
-                ["snapshot_owner"],
+            serde_json::from_str::<serde_json::Value>(&current.extra_json).unwrap()["snapshot_owner"],
             "test"
         );
     }
@@ -1626,10 +1667,11 @@ mod tests {
         next.source_url = "https://example.test/prices";
         next.extra_json = "{\"snapshot_owner\":\"test\"}";
         assert_eq!(db.record_price_snapshot(&[next], &[], "test").unwrap(), 1);
-        assert!(db
-            .current_price_for(trader, material, "dynamic / ab 137 kg")
-            .unwrap()
-            .is_none());
+        assert!(
+            db.current_price_for(trader, material, "dynamic / ab 137 kg")
+                .unwrap()
+                .is_none()
+        );
         assert_eq!(
             db.price_history(trader, material, "dynamic / ab 137 kg", 10)
                 .unwrap()
@@ -1896,10 +1938,11 @@ mod tests {
             .expect("gold current")
             .expect("prior valid gold buy quote restored");
         assert_eq!(current_gold.id, prior_gold);
-        assert!(db
-            .current_price_for(trader, silber, "999")
-            .expect("silver current")
-            .is_none());
+        assert!(
+            db.current_price_for(trader, silber, "999")
+                .expect("silver current")
+                .is_none()
+        );
 
         let history = db.price_history(trader, gold, "999", 10).expect("history");
         assert_eq!(history[0].price_kind, "approx");
@@ -2052,7 +2095,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 6);
+        assert_eq!(version, 7);
     }
 
     #[test]
@@ -2142,10 +2185,11 @@ mod tests {
                 .id,
             prior_gold
         );
-        assert!(db
-            .current_price_for(trader, silber, "")
-            .expect("current silver")
-            .is_none());
+        assert!(
+            db.current_price_for(trader, silber, "")
+                .expect("current silver")
+                .is_none()
+        );
 
         for (material, suspect_id) in [(gold, old_gold_sale), (silber, old_silver_sale)] {
             let history = db.price_history(trader, material, "", 10).expect("history");
@@ -2164,7 +2208,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 6);
+        assert_eq!(version, 7);
     }
 
     #[test]
@@ -2617,10 +2661,329 @@ mod tests {
                 .expect("allow retry");
             super::migrate(&conn).expect("retry migration");
         }
-        assert!(db
-            .current_price_for(trader, material, "")
-            .expect("current")
-            .is_none());
+        assert!(
+            db.current_price_for(trader, material, "")
+                .expect("current")
+                .is_none()
+        );
+    }
+
+    // Legacy repair regression only: seed historical evidence directly in an
+    // isolated database, then exercise the normal application startup seam.
+    // Owner observed the pre-fix red run (14 remaining instead of 0) before
+    // authorizing migration 7; see the Goldtrans current-repair report.
+    #[test]
+    fn startup_migration_retires_only_14_goldtrans_zero_current_keys_preserving_history() {
+        const SLUG: &str = "hh-wandsbek-goldtrans-edelmetallhandel";
+        const URL: &str =
+            "https://www.goldtrans.de/goldankauf-preise-aktueller-goldpreis-ankauf-in-hamburg.html";
+        const BEFORE: &str = "2026-10-18T12:30:09.018060442+00:00";
+        const NOW: &str = "2026-10-18T18:32:56.399800153+00:00";
+        const GRADES: [(&str, f64); 13] = [
+            ("999", 110.70),
+            ("986", 109.15),
+            ("980", 108.49),
+            ("965", 106.83),
+            ("916", 101.40),
+            ("900", 99.63),
+            ("875", 96.86),
+            ("833", 92.21),
+            ("750", 83.03),
+            ("585", 64.76),
+            ("416", 46.05),
+            ("375", 41.51),
+            ("333", 36.86),
+        ];
+
+        // Each guard case uses the same known keys, not a different variant
+        // that would hide an overbroad source/currency/unit/amount predicate.
+        for (case, amount, source, currency, unit, retire) in [
+            ("zero", 0.0, URL, "EUR", "EUR/g", true),
+            ("positive", 1.0, URL, "EUR", "EUR/g", false),
+            (
+                "other-source",
+                0.0,
+                "https://example.test/buy",
+                "EUR",
+                "EUR/g",
+                false,
+            ),
+            ("other-currency", 0.0, URL, "USD", "EUR/g", false),
+            ("other-unit", 0.0, URL, "EUR", "EUR/kg", false),
+        ] {
+            let (dir, db, trader, copper) = setup(&format!("goldtrans-current-{case}"));
+            let mut materials = Vec::new();
+            for (slug, name) in [("gold", "Gold"), ("zahngold", "Zahngold")] {
+                materials.push(
+                    db.upsert_material(&NewMaterial {
+                        slug,
+                        name_de: name,
+                        category: "edelmetall",
+                        unit: "EUR/g",
+                        description: "",
+                        updated_at: BEFORE,
+                    })
+                    .expect("fixture material"),
+                );
+            }
+            let gold = materials[0];
+            let dental = materials[1];
+            let keys: Vec<_> = GRADES
+                .iter()
+                .map(|&(v, p)| (gold, v, p))
+                .chain(std::iter::once((dental, "", 68.63)))
+                .collect();
+            let mut candidate_ids = Vec::new();
+            {
+                let conn = db.lock().expect("fixture lock");
+                conn.execute(
+                    "UPDATE traders SET slug=?1 WHERE id=?2",
+                    rusqlite::params![SLUG, trader],
+                )
+                .expect("fixture Goldtrans identity");
+                conn.execute(
+                    "INSERT INTO traders (slug,name,first_seen_at,updated_at) VALUES ('other-goldtrader','Other',?1,?1)",
+                    [BEFORE],
+                ).expect("fixture other trader");
+                let other = conn.last_insert_rowid();
+                // Raw inserts model already-persisted legacy evidence without
+                // depending on future handler/write guards or write deduping.
+                let insert = |tid: i64,
+                              mid: i64,
+                              variant: &str,
+                              value: f64,
+                              cur: &str,
+                              u: &str,
+                              src: &str,
+                              at: &str,
+                              current: bool| {
+                    conn.execute(
+                        "INSERT INTO prices (trader_id,material_id,variant,price,currency,unit,
+                         price_kind,confidence,source_type,published,source_url,observed_at,published_at,
+                         notes,extra_json,ingested_at)
+                         VALUES (?1,?2,?3,?4,?5,?6,'exact',1.0,'haendler_angabe',1,?7,?8,
+                         '2026-10-18T00:00:00+00:00','retained source label',
+                         '{\"map_v\":2,\"published_at_basis\":\"page_stated\"}',?8)",
+                        rusqlite::params![tid,mid,variant,value,cur,u,src,at],
+                    ).expect("legacy history fixture");
+                    let id = conn.last_insert_rowid();
+                    if current {
+                        conn.execute(
+                            "INSERT INTO current_prices (trader_id,material_id,variant,price_id,updated_at)
+                             VALUES (?1,?2,?3,?4,?5)",
+                            rusqlite::params![tid,mid,variant,id,at],
+                        ).expect("legacy current fixture");
+                    }
+                    id
+                };
+                // An older zero that is no longer Current must remain raw
+                // history too. Every affected key also has a positive ancestor:
+                // retiring the zero must NOT resurrect that stale quote.
+                insert(
+                    trader,
+                    gold,
+                    "916",
+                    0.0,
+                    "EUR",
+                    "EUR/g",
+                    URL,
+                    "2026-09-30T17:06:58+00:00",
+                    false,
+                );
+                for &(mid, variant, positive) in &keys {
+                    insert(
+                        trader, mid, variant, positive, "EUR", "EUR/g", URL, BEFORE, false,
+                    );
+                    candidate_ids.push(insert(
+                        trader, mid, variant, amount, currency, unit, source, NOW, true,
+                    ));
+                }
+                // Neighboring material/variant/trader identities are outside
+                // the confirmed 14-key scope even at the same zero/source.
+                for (tid, mid, variant) in [
+                    (other, gold, "999"),
+                    (other, dental, ""),
+                    (trader, copper, "999"),
+                    (trader, gold, ""),
+                    (trader, gold, "9999"),
+                    (trader, dental, "999"),
+                ] {
+                    insert(tid, mid, variant, 0.0, "EUR", "EUR/g", URL, NOW, true);
+                }
+                // Seed explicit acceptance evidence so absence of changes is
+                // tested against actual rows rather than an empty table.
+                conn.execute(
+                    "INSERT INTO trader_materials
+                     (trader_id,material_id,accepts,conditions,observed_at,updated_at)
+                     VALUES (?1,?2,0,'acceptance must remain unchanged',?3,?3)",
+                    rusqlite::params![trader, gold, BEFORE],
+                )
+                .expect("acceptance fixture");
+                conn.execute_batch("PRAGMA user_version = 6;")
+                    .expect("simulate existing pre-repair application database");
+            }
+            assert_eq!(keys.len(), 14);
+            let history = db.test_query("SELECT * FROM prices ORDER BY id");
+            let traders = db.test_query("SELECT * FROM traders ORDER BY id");
+            let materials = db.test_query("SELECT * FROM materials ORDER BY id");
+            let acceptance =
+                db.test_query("SELECT * FROM trader_materials ORDER BY trader_id,material_id");
+            let pointers = db
+                .test_query("SELECT * FROM current_prices ORDER BY trader_id,material_id,variant");
+            let expected_pointers: Vec<_> = pointers
+                .iter()
+                .filter(|row| {
+                    !retire
+                        || !candidate_ids
+                            .iter()
+                            .any(|id| row[3] == serde_json::json!(id))
+                })
+                .cloned()
+                .collect();
+            assert_eq!(
+                pointers.len() - expected_pointers.len(),
+                if retire { 14 } else { 0 }
+            );
+            drop(db);
+
+            // PublicDb::open is the real startup caller, not a replacement
+            // DELETE in the test. The second reopen checks idempotence and
+            // prevents history-based pointer reconstruction on later startups.
+            for startup in 1..=2 {
+                let db = PublicDb::open(dir.path()).expect("normal startup migration");
+                let version: i64 = db
+                    .lock()
+                    .expect("version lock")
+                    .query_row("PRAGMA user_version", [], |r| r.get(0))
+                    .expect("version");
+                assert_eq!(version, 7);
+                assert_eq!(
+                    db.test_query("SELECT * FROM prices ORDER BY id"),
+                    history,
+                    "{case}, startup {startup}: raw SQL history must remain byte-for-byte in its stored fields"
+                );
+                assert_eq!(db.test_query("SELECT * FROM traders ORDER BY id"), traders);
+                assert_eq!(
+                    db.test_query("SELECT * FROM materials ORDER BY id"),
+                    materials
+                );
+                assert_eq!(
+                    db.test_query("SELECT * FROM trader_materials ORDER BY trader_id,material_id"),
+                    acceptance
+                );
+                let mut remaining = 0;
+                for &(mid, variant, _) in &keys {
+                    let current = db
+                        .current_price_for(trader, mid, variant)
+                        .expect("current API");
+                    remaining += usize::from(current.is_some());
+                    let rows = db
+                        .price_history(trader, mid, variant, 10)
+                        .expect("history API");
+                    assert_eq!(
+                        rows.len(),
+                        if mid == gold && variant == "916" {
+                            3
+                        } else {
+                            2
+                        }
+                    );
+                    assert_eq!(rows[0].price, amount);
+                }
+                assert_eq!(
+                    remaining,
+                    if retire { 0 } else { 14 },
+                    "{case}, startup {startup}: retire only confirmed zero Current; never revive positive ancestors"
+                );
+                assert_eq!(
+                    db.test_query(
+                        "SELECT * FROM current_prices ORDER BY trader_id,material_id,variant"
+                    ),
+                    expected_pointers,
+                    "{case}, startup {startup}: preserve every out-of-scope pointer and timestamp"
+                );
+                let view = db.query_sql(&format!(
+                    "SELECT material_slug,variant,price FROM v_current_prices WHERE trader_slug='{SLUG}'
+                     AND ((material_slug='gold' AND variant IN
+                     ('999','986','980','965','916','900','875','833','750','585','416','375','333'))
+                     OR (material_slug='zahngold' AND variant=''))"
+                )).expect("public current view");
+                assert_eq!(view.rows.len(), if retire { 0 } else { 14 });
+            }
+        }
+    }
+
+    #[test]
+    fn migration_7_goldtrans_rolls_back_partial_retirement_and_allows_retry() {
+        let (_dir, db, trader, _) = setup("goldtrans-retirement-rollback");
+        let now = "2026-10-18T18:32:56.399800153+00:00";
+        let gold = db
+            .upsert_material(&NewMaterial {
+                slug: "gold",
+                name_de: "Gold",
+                category: "edelmetall",
+                unit: "EUR/g",
+                description: "",
+                updated_at: now,
+            })
+            .expect("gold fixture");
+        for variant in ["999", "585"] {
+            db.record_price(&NewPrice {
+                variant,
+                unit: "EUR/g",
+                source_url: "https://www.goldtrans.de/goldankauf-preise-aktueller-goldpreis-ankauf-in-hamburg.html",
+                ..price(trader, gold, 0.0, now, now)
+            })
+            .expect("legacy zero fixture");
+        }
+        {
+            let conn = db.lock().expect("fixture lock");
+            conn.execute(
+                "UPDATE traders SET slug='hh-wandsbek-goldtrans-edelmetallhandel' WHERE id=?1",
+                [trader],
+            )
+            .expect("Goldtrans identity");
+            // FAIL in an AFTER trigger leaves the first deletion applied to
+            // the statement. Only transaction rollback restores that pointer.
+            conn.execute_batch(
+                "PRAGMA user_version = 6;
+                 CREATE TEMP TRIGGER fail_goldtrans_retirement AFTER DELETE ON current_prices
+                 BEGIN SELECT RAISE(FAIL, 'injected partial retirement'); END;",
+            )
+            .expect("failure injection");
+        }
+        let history = db.test_query("SELECT * FROM prices ORDER BY id");
+        let pointers = db.test_query("SELECT * FROM current_prices ORDER BY variant");
+        assert_eq!(pointers.len(), 2);
+        {
+            let conn = db.lock().expect("migration lock");
+            assert!(super::migrate(&conn).is_err());
+            assert!(
+                conn.is_autocommit(),
+                "failed migration must end its transaction"
+            );
+            let version: i64 = conn
+                .query_row("PRAGMA user_version", [], |r| r.get(0))
+                .expect("failed migration version");
+            assert_eq!(version, 6, "failure must leave migration retryable");
+        }
+        assert_eq!(db.test_query("SELECT * FROM prices ORDER BY id"), history);
+        assert_eq!(
+            db.test_query("SELECT * FROM current_prices ORDER BY variant"),
+            pointers
+        );
+        {
+            let conn = db.lock().expect("retry lock");
+            conn.execute_batch("DROP TRIGGER fail_goldtrans_retirement;")
+                .expect("allow retry");
+            super::migrate(&conn).expect("retry migration");
+            let version: i64 = conn
+                .query_row("PRAGMA user_version", [], |r| r.get(0))
+                .expect("successful retry version");
+            assert_eq!(version, 7);
+        }
+        assert_eq!(db.test_query("SELECT * FROM prices ORDER BY id"), history);
+        assert!(db.test_query("SELECT * FROM current_prices").is_empty());
     }
 
     #[test]

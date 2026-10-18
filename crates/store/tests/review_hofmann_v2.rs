@@ -121,7 +121,11 @@ fn review_typed_newer_fraction_must_advance_existing_generic_current() {
         .current_price_for(trader, material, "alt")
         .unwrap()
         .unwrap();
-    assert_eq!(current.id, second, "typed write accepted +1ns after generic Current, but must also advance its pointer; old price is {}", current.price);
+    assert_eq!(
+        current.id, second,
+        "typed write accepted +1ns after generic Current, but must also advance its pointer; old price is {}",
+        current.price
+    );
     assert_eq!(current.price, 13.0);
 }
 
@@ -151,6 +155,9 @@ fn review_boot_from_v6_without_ledger_is_additive_and_preserves_prices() {
     drop(db);
     let conn = rusqlite::Connection::open(dir.join("public.db")).unwrap();
     conn.execute("DROP TABLE hofmann_tin_cutovers", []).unwrap();
+    // setup() opens the latest schema. Reconstruct the explicit v6 legacy
+    // state under test rather than requiring the latest schema to stay at 6.
+    conn.pragma_update(None, "user_version", 6).unwrap();
     let version: i64 = conn
         .query_row("PRAGMA user_version", [], |r| r.get(0))
         .unwrap();
@@ -179,7 +186,7 @@ fn review_boot_from_v6_without_ledger_is_additive_and_preserves_prices() {
         db.query_sql("SELECT user_version FROM pragma_user_version")
             .unwrap()
             .rows[0][0],
-        6
+        7
     );
 }
 
@@ -289,7 +296,11 @@ fn v3_calendar_validation_is_strict_for_public_tin_apis_without_partial_writes()
     }
     cutover(&db, trader, material);
     let before = persisted_state(&db);
-    assert!(db.record_price(&quote(trader, material, "", "2027-02-31T03:00:00Z", 12.0)).is_err(), "generic guarded writer must strictly validate too, not merely compare an impossible future day");
+    assert!(
+        db.record_price(&quote(trader, material, "", "2027-02-31T03:00:00Z", 12.0))
+            .is_err(),
+        "generic guarded writer must strictly validate too, not merely compare an impossible future day"
+    );
     assert_eq!(persisted_state(&db), before);
 }
 
