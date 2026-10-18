@@ -10,8 +10,8 @@ phone: '0431 79602'
 email: ''
 opening_hours: 'Mo-Fr 09:00-17:00'
 website: ''
-website_status: tot
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die im Review am 18.10.2026 gelesene Website der Koch Autoverwertung nennt Kristin Koch, Wasserwerksweg 16, 24222 Schwentinental und 0431/79602. Eine Betreiber-/Registerkette zum überlieferten Seednamen „Autohof Brehm“ ist nicht erschlossen; dessen Existenz und Zuordnung bleiben ungeklärt. Bestehende Adresse, Telefon und Zeiten passen zu Kochs Selbstdarstellung, ihre Zuordnung zu Brehm bleibt jedoch unbestätigt. Kein Rename, keine Koch-Website oder zusätzlichen Leistungen ins Frontmatter; Status `pruefung`. Das fehlerverdächtige Ortsfeld ist damit nicht bestätigt. In den gelesenen Texten keine numerischen Preise; FAQ-Bildinhalte nicht ausgewertet. „Faire Preise“ belegt keine Rate, Abholung nach Absprache keine kostenlose Abholung.
 
 ## Timeline
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Status aktiv → pruefung; website_status tot → unbekannt nimmt ein nicht sauber einer Brehm-Website zugeordnetes Alturteil zurück, nicht aus Kochs Erreichbarkeit abgeleitet. Im heutigen Review Startseite, Impressum, Kontakt und Über-uns von Koch gelesen: Kristin Koch, Wasserwerksweg 16, 0431/79602; Klausdorf-Bezug im Bild-Alternativtext, kein erschlossener Brehm-Kettenbeleg. USt-ID ist kein Handelsregisternachweis; mehrere Seiten bleiben eine Betreiberquellenfamilie. Alte Brehm-Domains, autohof-klausdorf.de und Portalbelege heute nicht erneut gelesen. Frontmatter-Kontakte bleiben unbestätigte Brehm-Zuordnung, nicht als neu verifiziert freigegeben; keine Website-/Namensübertragung oder Schließungsentscheidung. Keine numerischen Preise in gelesenen Texten, FAQ-Bildinhalte nicht geprüft; keine kostenlose Abholung ableitbar. Der uncommittete Entwurf vom 12.10. belegt keinen damaligen Abruf. Quelle(n): https://www.koch-autoverwertung.de/ ; https://www.koch-autoverwertung.de/about ; https://www.koch-autoverwertung.de/kontakt/ ; https://www.koch-autoverwertung.de/%C3%BCber-uns/ ; https://www.koch-autoverwertung.de/faq/]
 
 ### Recherche 04.10.2026
 

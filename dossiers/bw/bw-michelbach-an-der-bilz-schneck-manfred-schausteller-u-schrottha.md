@@ -10,8 +10,8 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
-status: aktiv
+website_status: unbekannt
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -29,6 +29,10 @@ Die Michelbacher Seed-Spur bezeichnet Manfred Schneck, Schausteller und Schrotth
 Die Fichtenauer Website belegt keine Preise: Ankauf wird nicht numerisch beziffert; Container-/Entsorgungstarife sind nicht veröffentlicht. Die Michelbacher Adress-/Telefonangaben bleiben Verzeichnis-Leads; aktuelle Öffnungszeiten, Annahme/Abholung und Preise für diesen Datensatz sind offen.
 
 ## Timeline
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Status aktiv → pruefung, leeres website_status → unbekannt; keine Michelbacher Betreiberwebsite zugeordnet. Im heutigen Review nennen Startseite und Impressum von Schrotthandel Schneck Manfred Schneck, Kapellenstraße 13, 74579 Fichtenau, 07962 700464; ein Registerbeleg wurde nicht gelesen. Das ist eine Betreiberquellenfamilie. Die direkt gelesene Michelbacher Portalseite nennt dagegen Bahnhofstr. 5 und 0791 41161, nur als Lead. Ein Zusammenhang ist weder belegt noch widerlegt; ein Merge derzeit nicht belegt und deshalb nicht zulässig. Keine Fichtenauer Kontakte/Leistungen übertragen. In den gelesenen Fichtenauer Texten keine numerischen Preise, für Michelbach keine belastbare Preis-/Tarifquelle erschlossen. Kein belegter Abruf am Entwurfsdatum 12.10.; dieser Eintrag dokumentiert den tatsächlichen Review vom 18.10. Quelle(n): https://schrott-schneck.de/ ; https://schrott-schneck.de/impressum/ ; Lead: https://www.schrottplatz-info.de/schrottplatz/Michelbach-an-der-Bilz/Schneck-Manfred-Schausteller-u-Schrotthandel]
 
 ### Recherche 07.10.2026
 

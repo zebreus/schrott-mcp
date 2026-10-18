@@ -11,7 +11,7 @@ email: ''
 opening_hours: Mo-Fr 09:00-16:00
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seedname ist nicht als heute aktiver Betrieb bestätigt. Im Review am 18.10.2026 führt NorthData „NeWa Metall- und Kunststoffhandel GmbH“ ausdrücklich als früheren Namen der NeWa GmbH, HRB 210405 Hannover, Kennzeichnung i. L., Anschrift Lister Damm 35. Die dort wiedergegebene Auflösungsbekanntmachung von 2017 ist kein aktueller amtlicher Registerauszug. Der Zusammenhang mit dem Verzeichnisstandort Engelbosteler Damm 7 bleibt offen, eine heutige Schließung ist damit nicht bewiesen. Status `pruefung`; bestehende Adresse, PLZ, Telefon und Zeiten bleiben ausdrücklich unbestätigte strukturierte Alt-Leads und ein offener Datenqualitätsmangel, nicht neu freigegebene Fakten. Keine belastbare Preis-/Tarifquelle erschlossen.
 
 ## Timeline
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Status aktiv → pruefung. Im heutigen Review NorthData-Profil und dortige historische Bekanntmachung gelesen: früherer Name NeWa Metall- und Kunststoffhandel GmbH, heute dargestellter Name NeWa GmbH (i. L.), HRB 210405, Lister Damm 35; Auflösung laut Bekanntmachung durch Beschluss vom 09.10.2017, Eintragung 16.10.2017. Beide Seiten sind eine Quellenfamilie, kein aktueller amtlicher Auszug und kein Nachweis eines durchgehend geprüften Zustands seit 2017. Keine verifizierte Verbindung zum Standort Engelbosteler Damm 7, keine Schließungs-/Adresswechselentscheidung. Die alten strukturierten Kontakt-/Zeitfelder sind weiterhin unbestätigt und bereinigungsbedürftig; ihre Beibehaltung in diesem begrenzten Statuspaket bestätigt sie nicht. Keine belastbare Preis-/Tarifquelle erschlossen. Die Portalangaben wurden heute nur im Suchindex gefunden, nicht als Seiteninhalt gelesen; auch der uncommittete Entwurf vom 12.10. belegt keinen damaligen Abruf. Quelle(n): https://www.northdata.de/NeWa+GmbH,+Hannover/HRB+210405 ; https://www.northdata.de/?id=4081885234 ; Leads: https://www.11880.com/branchenbuch/hannover/060440092B102344491/newa-metall-und-kunststoffhandel-gmbh.html ; https://web2.cylex.de/firma-home/newa-metall--und-kunststoffhandel-gmbh-16533040.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

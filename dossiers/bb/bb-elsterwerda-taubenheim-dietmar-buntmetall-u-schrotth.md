@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die alte Dossierhistorie nennt einen Verzeichniskonsens für Ludwig-Jahn-Str. 60, 04910 Elsterwerda und 03533 2710. Im Review am 18.10.2026 wurde davon nur das Portal schrottplatz-info direkt gelesen; dessen Detailseite wiederholt diesen Lead, bestätigt aber weder aktuelle Tätigkeit noch Ankauf. Keine qualifizierte Betreiber-/Registerquelle erschlossen, keine kommunale Registerprüfung nachgewiesen. Der frühere Status `aktiv` wird deshalb auf `pruefung` zurückgenommen, ohne eine Schließung zu behaupten.
+
+Für Ankauf, Verkauf und Gebühren keine belastbare Preis-/Tarifquelle erschlossen. Straße und Telefon bleiben unbestätigte Alt-Leads, nicht neu freigegebene Kontaktdaten.
 
 ## Timeline
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Status aktiv → pruefung. Der Ausnahmeentscheid vom 02.10. bleibt als historische Recherche erhalten, sein Verzeichniskonsens genügt der heutigen README-Quellenhierarchie jedoch nicht. Heute nur Orts- und Detailseite von schrottplatz-info gelesen; die sieben weiteren behaupteten Verzeichnisbelege nicht erneut geprüft. Die Detailseite nennt Dietmar Taubenheim, Ludwig-Jahn-Str. 60 und 03533 2710, aber keine erfassten Leistungen/Zeiten; der defekte Homepage-Link erschließt keine Betreiberquelle. Aktuelle Tätigkeit, Kontaktdaten und Ankauf bleiben offen; keine belastbare Preis-/Tarifquelle erschlossen, kein Schließungsnachweis. Der bisher uncommittete, auf 12.10. datierte Rechercheentwurf ist kein belegter damaliger Abruf. Quelle(n), nur Leads: https://www.schrottplatz-info.de/schrottplatz/Elsterwerda/ ; https://www.schrottplatz-info.de/schrottplatz/Elsterwerda/Taubenheim-Dietmar-Buntmetall-u-SchrottHdl-]
 
 ### Recherche 02.10.2026
 
