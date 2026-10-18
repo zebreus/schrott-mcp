@@ -45,3 +45,7 @@ Metall Recycling Braun wirbt für Ankauf von Eisen/Stahl, Kupfer, Aluminium, Ede
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kupfer, Alu, Edelstahl, Messing, Kabel, Mischschrott; Südpfalz-mobil
+
+### Belegprüfung 18.10.2026
+
+- [Recherche 18.10.2026: Root, Impressum, Kontakt und FAQ im unabhängigen Review direkt gelesen; historischer Direktabruf 12.10. nicht bestätigt. Root nennt Am Bellensee 6, 76865 Rohrbach, 017646157693; Impressum Martin Braun/Metall Recycling Braun, Wollmesheimer Hauptstraße 24, 76829 Landau, +49 176 4615769. Kontaktseite Rohrbach ohne Straße, mutmaßlicher Platzhalter +49 123 456789. Keine erklärte Hof-/Geschäftssitzrollentrennung; vier Seiten einer Website kein unabhängiger Zweitbeleg. FAQ nennt Eisen, Stahl, Kupfer, Aluminium, Edelstahl, Messing, Kabelreste, Anlieferung, Abholung größerer Mengen, Container/Privatkunden; attributierte Betreiberangaben, keine neue Standort-/Servicefreigabe. Root Tagespreise, FAQ Preis anfragen; auf diesen vier Seiten keine numerischen Ankaufskurse, Verkaufspreise oder bezifferten Abhol-/Container-/Annahmegebühren. Keine Kostenfreiheit ableiten. Keine bewiesene Identität/Nachfolge mit Südpfalz Metall. Frontmatter unverändert, insbesondere status aktiv nicht neu geprüft/freigegeben; keine Adress-/Telefon-/GEO-Fills. Quellen: https://www.mr-braun.de/ ; https://www.mr-braun.de/impressum/ ; https://www.mr-braun.de/kontakt-schrottankauf-rohrbach/ ; https://www.mr-braun.de/schrottankauf-haeufige-fragen/ .]

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Frontmattername ist Budnik; die bisherige Historie ordnet Kontaktfelder dem Verzeichnislead Rolf Budnik Schrott-RohstoffHdl., Sternhelle 18, 59757 Arnsberg-Herdringen, 02932 36942 zu. Keine aktuelle Betreiberidentität bestätigt; Portal-Aktualisierungsdatum ersetzt Betreiberprüfung nicht. Betreiber-/Registerbeleg und numerische Ankaufskurse, Verkaufspreise oder Gebühren in den Unterlagen nicht dokumentiert. Status pruefung; alte Kontakt-/Beschreibungsfelder unverifiziert. Der frühere Geocoding-Befund bestätigt die Hausnummer nicht und wird heute nicht neu geprüft.
 
 ## Timeline
 
@@ -41,3 +41,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 03.10.2026: 11880-Detailseite direkt gelesen, bestätigt den vorhandenen Lead Rolf Budnik Schrott-RohstoffHdl., Sternhelle 18, 59757 Arnsberg, 02932 36942, Branchen Schrott/Altmaterial/Recycling. Ursprung des Eintrags 29.06.2021 trotz ausgewiesener Aktualisierung 02.10.2026; Letztere beweist keine kürzlich erfolgte Betreiberverifikation. Kein erfolgreiches eigenes Impressum, keine registerkongruente Betreiberquelle/aktuelle Annahme-/Abholbedingungen oder Zeiten. Frühere Verzeichnisausnahme nicht zu gesicherter Aktivität hochstufen: status aktiv zu pruefung korrigiert, bestehende Kontaktleads bewahrt, kein neuer Fill und keine Schließungsbehauptung. Fachlich passend, keine Entfernung empfohlen.; Quelle(n): https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html]
 - [Recherche 03.10.2026: Photon-Abfrage voller Adresse Sternhelle 18/59757/Arnsberg liefert type street für Sternhelle, ohne Hausnummer; weitere Treffer fremde Straße Zu den Ohlwiesen 18a und Arnsberger Straße 18. Kein exakter Haus-/Standortmatch. Keine lat/lon übernommen; Straßenmitte 51.4217345/7.9604906 ausdrücklich ungeeignet. Zusätzlich Betreiberbindung nur Verzeichnislead. website_status unbekannt bleibt. Audit-C-Zwischenstand, sechs Stunden Gründlichkeit bislang nicht erfüllt.; Quelle(n): https://photon.komoot.io/api/?q=Sternhelle%2018%2059757%20Arnsberg&limit=3&lang=de, https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html]
+
+### Aktenprüfung 18.10.2026
+
+- [Recherche 18.10.2026: Heutige Aktenbewertung, keine erneute Namens-/Adress-/Registersuche. Sternhelle 18 und 02932 36942 bleiben Verzeichnisleads; Betreiber-/Registerbeleg und numerische Ankaufskurse, Verkaufspreise oder Gebühren in vorliegenden Unterlagen nicht dokumentiert. Frühere Abrufe/GEO-Ergebnisse nicht neu bestätigt. Frontmatter unverändert, status pruefung; keine Kontakt-, Standort-, Aktivitätsfreigabe oder Schließungsaussage. Quellenbasis: Timeline 02./03.10.; dortiger Lead heute nicht neu verifiziert: https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html .]

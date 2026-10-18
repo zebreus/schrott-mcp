@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Frontmattername ist Wiese. Die Historie führt den 11880-Lead Gerhard Wiese Alt- und Abfallstoffe, Zur Porta 19, 32457 Porta Westfalica (Lerbeck), 0571 74313. Dieser Einzelfund bestätigt weder heutige Betreiberidentität noch Annahme vor Ort. Betreiber-/Registerbeleg und numerische Ankaufskurse, Verkaufspreise oder Gebühren in vorliegenden Unterlagen nicht dokumentiert; keine heutige erneute Suche behauptet. Kontaktwerte unverifizierte Altfelder, nicht als bestätigte Anlieferadresse verwenden. Status pruefung; keine Schließung abgeleitet.
 
 ## Timeline
 
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Miss — kein Schrottbetrieb Wiese Porta Westfalica verifizierbar (Treffer nur Wiese Foto+Film, fachfremd); keine Adresse, kein Register, keine Website; kein Frontmatter-Fill ausser website_status unbekannt; Quelle(n): keine]
+
+### Aktenprüfung 18.10.2026
+
+- [Recherche 18.10.2026: Heutige Aktenbewertung, keine erneute Exakt-/Betreiber-/Registersuche. Zuordnung Gerhard Wiese, Zur Porta 19, 0571 74313 beruht auf historischer 11880-Verzeichnisnotiz; qualifizierter Betreiber-/Registerbeleg darin nicht dokumentiert. Alte Abrufe nicht neu bestätigt. Frontmatter unverändert, status pruefung; Kontakt-/Standortfelder unverifiziert. Keine numerischen Ankaufskurse, Verkaufspreise oder Gebühren in geprüften Unterlagen belegt; keine Schließung. Quellenbasis: Timeline 02.10., dortiger 11880-Einzelfund ohne konkrete Detail-URL, kein heute neu gelesener Sachbeleg.]

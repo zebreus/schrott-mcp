@@ -29,7 +29,13 @@ provenance_origin: table
 
 Zwei aggregierte Profile führen „Dingel Schrott“ an Hinter dem Dorfe 25, 31162 Bad Salzdetfurth (Ortsteil Listringen); lokaleschrottplatz.de behauptet Annahme zahlreicher Metalle und Mindestmengen von 100 kg Eisenmetallen/1 kg Nichteisenmetallen, 11880 ergänzt Tel. 0173 5664616. Der 11880-Eintrag wurde am 04.10.2026 aktualisiert, weist aber Eintragsdaten vom 11.11.2025 aus und keine Inhaberbestätigung, Website oder Öffnungszeiten. Das sind weiterhin Verzeichnisleads ohne Betreiber-/Registerbeleg; Adresse/Telefon/Annahmebedingungen bleiben aus Frontmatter. Der **ZAH Zweckverband Abfallwirtschaft Hildesheim** ist kein belegter Alias oder Nachfolger. Mindestmengen sind keine Preise; numerische Ankauf-, Verkaufs- oder Gebührenliste für Dingel ist nicht belegt.
 
+Die Aktenprüfung vom 18.10. stellt keinen neuen Betreiber-/Registerbeleg fest; Kontakt- und Mindestmengenangaben bleiben Verzeichnisleads. Status pruefung; nur als Lead genannte Adresse nicht als Händlerstandort bestätigt. In den vorliegenden Unterlagen keine belegten numerischen Ankaufskurse, Verkaufspreise oder Entsorgungsgebühren. Keine heutige erneute Web-/Registersuche behauptet.
+
 ## Timeline
+
+### Aktenprüfung 18.10.2026
+
+- [Recherche 18.10.2026: Heutige Aktenprüfung, kein protokollierter erneuter Suchlauf. Hinter dem Dorfe 25, 0173 5664616 und Mindestmengen 100 kg Eisen/1 kg NE bleiben unbestätigte Verzeichnisleads; frühere Abrufe nicht neu beglaubigt. Kein Betreiber-/Registerbeleg in vorliegenden Unterlagen, keine Zuordnung zu ZAH oder Schließungsnachweis. Frontmatter unverändert, status pruefung; keine Standort-/Preisfreigabe. Quellenbasis: Timeline insbesondere 06.10.; dortige Leads heute nicht neu verifiziert: https://lokaleschrottplatz.de/dingel-schrott/ ; https://www.11880.com/branchenbuch/bad-salzdetfurth/060440092B112739424/dingel-schrott.html .]
 
 ### Recherche 05.10.2026
 

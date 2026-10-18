@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Gerolstein“ ist hier Orts-/Suchcluster, kein bestätigter Betreibername. Sarresdorfer Str. 8 nur importierter Adresslead; in den Dossierunterlagen keine Verbindung zu konkreter Person/Firma oder bestätigter Annahmestelle belegt. Betreiber-/Registerbeleg und numerische Ankaufskurse, Verkaufspreise oder Gebühren darin nicht dokumentiert. Status pruefung; keine Schließung/Nichtexistenz behauptet. Keine heutige erneute Web-/Registersuche oder Standort-/GEO-Freigabe.
 
 ## Timeline
 
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Sarresdorfer Str. 8
 - urspr. Website-Angabe: keine
 - Adresse: Gerolstein
+
+### Aktenprüfung 18.10.2026
+
+- [Recherche 18.10.2026: Heutige Aktenbewertung des importierten Leads Sarresdorfer Str. 8 und der Historie. Darin kein zugeordneter Betreibername oder Betreiber-/Registerbeleg dokumentiert. Frühere GS-/11880-Trefferprüfung kein Nichtexistenzbeleg; damalige Suche heute nicht bestätigt, keine neue externe Suche. Frontmatter unverändert, status pruefung; ungeklärter Suchcluster statt Firma. Keine bestätigte Annahmestelle oder numerischen Ankaufskurse, Verkaufspreise/Gebühren in Unterlagen. Frühere Löschkandidaten-Notiz keine heutige Löschfreigabe. Quellenbasis: Timeline 02.10. und Import 30.09.2026.]

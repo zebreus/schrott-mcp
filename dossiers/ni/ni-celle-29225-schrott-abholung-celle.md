@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Datensatz bleibt ungeklärter Portal-/SEO-Lead. Denickestraße, 29225 Celle und 0162 8769770 sind unverifizierte Altfelder; 24/7-Erreichbarkeit und Mindestmengen nur historische Portalangaben. Die angeführte URL unter tierheilpraxis-henke.com lieferte im Review am 18.10. HTTP 404; früherer Inhalt und Betreiberzuordnung dadurch nicht bestätigt. Kein Betreiber-/Registerbeleg in den Unterlagen; status pruefung, Annahme/Abholung nicht freigegeben. 100 kg Eisen/1 kg NE wären Mindestmengen, keine Preise. Numerische Ankaufskurse, Verkaufspreise und Gebühren in den Unterlagen nicht belegt.
 
 ## Timeline
+
+### Belegprüfung 18.10.2026
+
+- [Recherche 18.10.2026: https://tierheilpraxis-henke.com/schrottabholungcelle lieferte beim Direktabruf im unabhängigen Review HTTP 404. Früheren Inhalt, Impressum und behauptete Portalwiederholung nicht bestätigt; insbesondere kein Abruf vom 12.10. beglaubigt. Dossierhistorie liefert keinen qualifizierten Betreiber-/Registerbeleg. Adresse, Telefon, 24/7 und Mindestmengen bleiben unverifizierte Altfelder/Portalbehauptungen; keine Annahme-, Abhol- oder Preisfreigabe. Frontmatter und status pruefung unverändert, keine Schließung abgeleitet. Bisheriger Lead laut Akte https://lokaleschrottplatz.de/schrott-abholung-celle/ heute nicht neu verifiziert.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -40,3 +40,7 @@ Die registergeführte Identität ist **BRH Bochumer Rohstoffhandel GmbH**, HRB 1
 
 - Schrott (GS)
 - Adresse: Bochum
+
+### Belegprüfung 18.10.2026
+
+- [Recherche 18.10.2026: Im unabhängigen Review direkt gelesene Northdata-Seite nennt BRH Bochumer Rohstoffhandel GmbH, AG Bochum HRB 19036, Dieselstr. 45-47, 44805 Bochum, Gegenstand Schrotthandel. Creditreform lieferte 403; früher dort dokumentierte Telefonnummer 0234 90413152 heute nicht bestätigt. brh-recycling.de im lesbaren Abruf nur externes Trackingbild/Datenschutzlink, keine BRH-Kundeninformation oder Betreiberzuordnung; keine pauschale erneute JS-Challenge behauptet. Historische Direktabrufe 12.10. nicht bestätigt. Keine heutige Annahme-, Aktivitäts-, Preisfreigabe oder Schließungsaussage. Frontmatter einschließlich status pruefung und altem website_status blockiert unverändert, keine Altfeld-Neufreigabe. Quellen: https://www.northdata.de/BRH%20Bochumer%20Rohstoffhandel%20GmbH,%20Bochum/HRB%2019036 ; https://firmeneintrag.creditreform.de/44805/4050638012/BRH_BOCHUMER_ROHSTOFFHANDEL_GMBH ; https://brh-recycling.de/ .]

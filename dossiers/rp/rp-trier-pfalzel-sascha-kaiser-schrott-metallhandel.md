@@ -24,7 +24,10 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die am 18.10.2026 im unabhängigen Review gelesenen Website-Seiten nennen Sascha Kaiser, Schrott- und Metallhandel, Pfalzeler Straße 11, 54293 Trier, 01520 6623504 und info@schrotthandel-kaiser-trier.de sowie Entsorgungs-/Demontageleistungen für Privatpersonen und Firmen. Footer © 2014 ist kein gesicherter Aktualitätsstand dieser Angaben. Ein unabhängiger aktueller Identitäts-/Registerabgleich liegt der Prüfung nicht vor. Leere Adress-/Kontaktfelder und status pruefung unverändert; Websiteangaben nur Einzelbeleg.
+
+- **Ankauf/Verkauf:** Auf gelesenen Impressums-/Leistungsseiten keine numerische Preisliste dokumentiert; keine Aussage über sämtliche anderen Veröffentlichungen.
+- **Gebühren:** Kostenfreie Container nur für feste Firmenkunden beworben. Umfang, Neben-/Transportkosten und heutige Gültigkeit nicht unabhängig bestätigt; keine allgemeine Gratisabholung ableiten.
 
 ## Timeline
 
@@ -39,6 +42,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Abholung, Container, Demontage, KFZ-Entsorgung; Trier–Eifel–Hunsrück
+
+### Quellenprüfung 18.10.2026
+
+- [Recherche 18.10.2026: Impressum und Leistungsseite im unabhängigen Review direkt gelesen; dort Sascha Kaiser, Pfalzeler Straße 11, 54293 Trier, 01520 6623504, info@schrotthandel-kaiser-trier.de und Entsorgungs-/Demontageleistungen privat/gewerblich. Footer © 2014 ist kein gesichertes Aktualitätsdatum. Kostenfreie Container nur für feste Firmenkunden beworben; keine allgemeine Gratisabholung oder numerische Ankauf-/Verkaufspreisliste aus diesen Seiten abgeleitet. Einzelbeleg, keine neue Status-/Kontakt-/Adressfreigabe oder Freigabe der alten Klassifikation autoverwertung. Historischer Abruf 12.10. ohne vorgelegtes Protokoll nicht bestätigt. Quellen: http://www.schrotthandel-kaiser-trier.de/impressum.html ; http://www.schrotthandel-kaiser-trier.de/leistungen.html .]
 
 ### Korrektur 30.09.2026 (Feedback-Triage)
 

@@ -28,6 +28,10 @@ Nur einzelne Branchenportal-Leads nennen „Elias Eugen“ als Schrotthandel in 
 
 ## Timeline
 
+### Aktenprüfung 18.10.2026
+
+- [Recherche 18.10.2026: Der vorliegende Entwurf nennt als weiteren, hier nicht erneut inhaltlich verifizierten Verzeichnis-Lead https://www.11880.com/branchenbuch/owschlag/060440092B102285883/eugen-elias.html . Weder behauptete Namenssuche noch Abruf am 12.10. durch vorgelegtes Protokoll bestätigt. Portalübereinstimmung wäre kein Betreiber-/Registerbeleg oder unabhängige Bestätigung der vorhandenen Telefonnummer. Betreiberidentität, heutige Anschrift/Tätigkeit, Annahme-/Abholbedingungen und Preis-/Gebührenangaben bleiben ungeklärt. Keine Gleichsetzung mit MW Containerdienst, keine Frontmatteränderung oder Schließungsaussage.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Nur via lokaleschrottplatz.de (Tel. 04336 3316, breite Materialliste)
