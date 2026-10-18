@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Name „Schrotthandel Münstermann“ ist in Gießen nicht unabhängig einem Betrieb zuzuordnen. Verzeichnisse führen als Lead die Nummer 0152 33664340, aber ohne Straße und ohne Betreiberbeleg. Das gelesene Impressum von `schrotthandel-giessen.de` nennt Michael Schulz in Wettenberg (Mittelmark 18); eine Identitätsverbindung zum Münstermann-Lead ist nicht belegt. Die Seite hat durch ihren Auftritt als „Schrotthandel Giessen“ durchaus einen Gießen-Bezug, aber keinen nachgewiesenen Bezug zum konkreten Seed. Ihre Kontaktdaten werden nicht übertragen; keine frühere Betreiber-/Nachfolgekette ausgeschlossen.
+
+**ANKAUF:** kein belastbarer Ankaufnachweis oder Preis. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine bestätigten Tarife. Adresse und Kontaktdaten bleiben offen; Status `pruefung`.
 
 ## Timeline
 
@@ -40,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Telefon/PLZ über Verzeichnis-Familie konsistent, aber KEIN Zweitbeleg und KEINE Straße — Gelbe Seiten + Das Örtliche + golocal + 11880 übereinstimmend: „35394 Gießen, 0152 33664340“, durchgehend OHNE Straßenadresse (Abholservice-Profil, kein Platz). Negativbeleg 01.10.2026 bestätigt (schrotthandel-giessen.de = Michael Schulz, anderweitig). Kein Betreiber-Impressum, kein Register. Frontmatter bleibt LEER (street/phone), status weiter pruefung. Folgewelle: Gewerberegister Gießen. Quelle(n): gelbeseiten.de + dasoertliche.de + golocal.de + 11880.com (eine Beleglage, keine Straße).]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Betreiber-Impressum der ähnlich benannten Domain erneut direkt geprüft: `schrotthandel-giessen.de` nennt Michael Schulz, Mittelmark 18, 35435 Wettenberg sowie 0641 8778567 / 0172 1596177; keine Identitätsverbindung zum als Münstermann geführten Gießener Seed-Eintrag belegt. Diese Kontaktdaten bleiben ausdrücklich ausgeschlossen. Die Verzeichnisnummer 0152 33664340 ist weiterhin nicht durch eine Betreiberquelle bestätigt. ANKAUF/VERKAUF/GEBÜHREN: im ausgewerteten Material keine belegten Preise oder Tarife. Keine Frontmatter-Füllung; Status `pruefung`. Quelle: https://schrotthandel-giessen.de/impressum/ . Identitätsabgrenzung bei Owner-Review 18.10.2026 präzisiert; der heutige Abruf bestätigt nicht den historischen Abrufvorgang.]

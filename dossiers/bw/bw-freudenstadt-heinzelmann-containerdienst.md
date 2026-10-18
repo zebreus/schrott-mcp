@@ -44,3 +44,7 @@ Für Heinzelmann Containerdienst in Freudenstadt fehlt weiterhin ein aktueller e
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Erneute Identitäts- und Preisprüfung brachte keine eigene Heinzelmann-Betreiberseite oder belegte Verbindung zu Klumpp Rohstoffe. Die Klumpp-Seite belegt ausschließlich Klumpp; ihre Kontakt-/Containerbedingungen oder etwaige Preise sind nicht auf Heinzelmann übertragbar. Für Heinzelmann in den geprüften öffentlichen Spuren keine numerischen Ankaufskurse, Verkaufspreise oder Container-/Entsorgungsgebühren gefunden. Feld- und Statusstand unverändert, offene Frage bleibt Betreiber/Nachfolge. Quelle(n): https://www.klumpp-rohstoffe.de/impressum/ ; https://www.klumpp-rohstoffe.de/leistungen/container ; https://www.dasoertliche.de/Themen/Heinzelmann-Containerdienst-Freudenstadt-Wittlensweiler-Rudolf-Diesel-Str ; https://spedition-heinzelmann.de/]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Der erneute Direktcheck der Klumpp-Betreiberseite bestätigt weiterhin Klumpp Rohstoffe GmbH an Alte Poststraße 35, nicht eine Heinzelmann-Filiale oder dokumentierte Übernahme. Die aktuelle offizielle Klumpp-Seite ist kein Primärbeleg für Heinzelmann; die Verbindung bleibt offen. Keine Heinzelmann-Preise übernommen: konkrete Ankaufskurse, Materialverkaufspreise und Container-/Entsorgungsgebühren nicht belegt. Quelle(n): https://www.klumpp-rohstoffe.de/ ; https://www.klumpp-rohstoffe.de/impressum/]

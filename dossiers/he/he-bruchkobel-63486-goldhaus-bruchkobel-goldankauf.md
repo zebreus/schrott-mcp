@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Goldhaus Bruchköbel“ ist bislang nicht über einen Betreiberauftritt oder Registereintrag identifiziert. Hauptstraße 12, 63486, 06181 9069266, Öffnungszeiten und der Name H. Joseph stammen ausschließlich aus älteren Branchenverzeichnis-Leads und stehen deshalb nicht im Frontmatter. Die am 02.10.2026 untersuchte Kandidatendomain `goldhaus-bruchkoebel.de` wurde damals laut Timeline mit NXDOMAIN protokolliert; der dort erwähnte Wayback-Treffer wurde als Redirect-Stub beschrieben. Eine Betreiberzuordnung ist damit nicht belegt. Der Transportfehler im Review vom 18.10. ist keine neue DNS-Messung; weder Schließung noch Nicht-Existenz folgt daraus.
+
+**ANKAUF:** Goldankauf als Verzeichnis-Kategorie, aber keine zuordenbaren Ankaufkurse oder aktuellen Konditionen. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Angaben. Status `pruefung`.
 
 ## Timeline
 
@@ -41,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Kein Betreiber-Beleg. Domain goldhaus-bruchkoebel.de NXDOMAIN (DNS 02.10.2026); Wayback-Snapshot 2015 nur Redirect-Stub ohne Inhalt; Gelbe-Seiten-Detail bestätigt Seed-Adresse Hauptstr. 12 als Lead. Aggregatoren nennen Tel. 06181 9069266, Mo-Fr 09-18/Sa 09-13, Inh. H. Joseph (alles Leads, kein Beleg) — KEINE Frontmatter-Füllung, status bleibt pruefung; Klärfall Folgewelle (Gewerberegister Bruchköbel); Quelle(n): DNS-NXDOMAIN + Wayback-Redirect-Stub 2015 + Gelbe-Seiten-Profil (Lead).]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Direkter erneuter Abruf von `https://goldhaus-bruchkoebel.de` scheiterte mit Transportfehler; dies ist kein Beleg für Schließung. Keine aktuelle Betreiberseite oder Registerquelle für das Bruchköbeler Goldhaus gefunden. Hauptstr. 12, Telefon, Zeiten und H.-Joseph-Nennung bleiben ältere Verzeichnis-Leads und werden nicht übernommen. ANKAUF: keine Goldankaufpreise belegbar; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Quelle (Lead): Gelbe-Seiten-Profil, wie in Recherche 02.10.2026 dokumentiert; Website-Direktprobe: https://goldhaus-bruchkoebel.de]

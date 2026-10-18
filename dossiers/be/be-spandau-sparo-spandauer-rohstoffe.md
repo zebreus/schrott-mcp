@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+North Data dokumentiert SPARO Spandauer Rohstoffe GmbH (HRB 73519 B, AG Charlottenburg) mit Geschäftsgegenstand Handel mit Schrott/Altmetallen/NE-Metallen an Brunsbütteler Damm 430. Telefon und E-Mail stammen aus Verzeichnissen; ein eigener Betreiberauftritt/Impressum wurde nicht gefunden. Der Register-Sekundärdienst ist keine Bestätigung aktueller Annahme oder öffentlicher Preise. **Ankauf/Verkauf/Gebühren:** im ausgewerteten Material keine verifizierten Kurse, Verkaufslisten oder Gebührentarife; kostenlose Abholung nicht belegt. Telefon, E-Mail und Status aktiv sind unverändert übernommene, hier nicht revalidierte Altfelder; Feldprüfung offen. Die historische Zweiquellenfreigabe wird nicht bestätigt.
 
 ## Timeline
+
+### Owner-Nachprüfung 18.10.2026
+
+- [Owner-Nachprüfung 18.10.2026: Unabhängiger Review las das North-Data-Firmendetail direkt; Implisense lieferte beim heutigen Review HTTP 403, keine frische Zweitbestätigung. Die historische Aussage vom 01.10. zum erfüllten Zweiquellenstandard wird nicht bestätigt: Verzeichnisse zählen nicht als zweiter qualifizierter Beleg. Telefon, E-Mail und Status aktiv sind unverändert übernommene, hier nicht revalidierte Altfelder; Feldprüfung offen. Kein Clear oder positive Stammdatenfreigabe durch diese begrenzte Textintegration. Quellen: https://www.northdata.de/SPARO+Spandauer+Rohstoffe+GmbH,+Berlin/HRB+73519+B ; https://implisense.com/de/companies/sparo-spandauer-rohstoffe-gmbh-berlin-DEEPKBNWUK13 .]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Erneute Suche nach einem Betreiber-eigenen SPARO-Auftritt/Impressum ergab keine passende Primärquelle. HRB 73519 B und Unternehmensgegenstand „Handel mit Schrott/Altmetallen/NE-Metallen“ bleiben über Register-Sekundärdienste dokumentiert; Telefon/E-Mail und konkrete Ankaufleistungen bleiben Verzeichnis-Leads. Keine numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenliste gefunden; insbesondere keine kostenlose Abholung belegt. Kein Frontmatter-Fill/-Löschen. Quelle(n): https://www.northdata.de/SPARO+Spandauer+Rohstoffe+GmbH,+Berlin/HRB+73519+B ; https://implisense.com/de/companies/sparo-spandauer-rohstoffe-gmbh-berlin-DEEPKBNWUK13]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

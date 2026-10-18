@@ -42,3 +42,7 @@ provenance_origin: table
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Erneute Gegenprüfung zu „Loew Alfred“/„Alfred Löw“ und 60388 ergab in NorthData keinen passenden lokalen Schrott-/AV-Betrieb; 11880-Suchen nach Schrotthandel und Altmaterialhandel in Frankfurt lieferten andere Anbieter, aber keinen belastbaren Treffer zur Identität. Das sind Recherche-Nulltreffer, kein Beleg für Nichtexistenz; „Klein-AV?“ bleibt unbestätigt, Anschrift/Kontakt/Website bleiben leer und Status pruefung. website_status auf unbekannt gesetzt, da keine Betreiber-Website nachgewiesen ist. Quelle(n): https://www.northdata.de/?query=Alfred%20Loew%20Frankfurt, https://www.northdata.de/?query=Alfred+L%C3%B6w+Frankfurt, https://www.northdata.de/?query=Loew+Alfred+60388, https://www.11880.com/suche/schrotthandel/frankfurt-am-main, https://www.11880.com/suche/altmaterialhandel/frankfurt-am-main]
+
+### Recherche 12.10.2026
+
+- [Recherche 12.10.2026: Exakte Namens-/Ortsvarianten „Loew Alfred“, „Alfred Löw“ und 60388 nochmals gegen passende Betreiber- und Registerhinweise geprüft; kein zuordenbarer Primärbeleg gefunden. Der Nulltreffer ist kein Nichtexistenznachweis. Seed-Klassifikation „Klein-AV?“ bleibt offen; weder Ankauf noch Anlieferung, Verkauf oder Gebühren bestätigt. Keine Preise oder Kontaktdaten ergänzt; Status `pruefung`. Frühere Suchquellen siehe Recherche 03.10.2026.]
