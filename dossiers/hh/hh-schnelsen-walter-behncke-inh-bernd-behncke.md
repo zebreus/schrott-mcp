@@ -6,7 +6,7 @@ state: HH
 city: Schnelsen
 street: Kulemannstieg 32
 postcode: 22457
-phone: 040 5508707
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'dropoff_json,phone'
 provenance_section: Nachtrag Audit-Runde 4
 provenance_ankauf_raw: ja (lt. Register)
 provenance_origin: table
@@ -24,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Walter Behncke e.K., Inh. Bernd Behncke, ist für Kulemannstieg 32, 22457 Hamburg-Schnelsen in Firmen-/Registerspiegeln geführt. Der aktuell gelesene Schrottregister-Spiegel bezeichnet sich ausdrücklich als nichtamtlich und nennt Datenabruf 11.08.2026. Das ist ein plausibler Anlagenlead, kein heute direkt geprüfter Register-/Zertifikatsnachweis und kein Beleg aktueller Kundenannahme. Anschrift und Telefonnummer bleiben unverifizierte Bestandswerte; der frühere Aggregator-Ausnahmefall genügt nicht für gesicherten Aktivstatus, deshalb pruefung (keine Schließungsfeststellung).
+Walter Behncke e.K., Inh. Bernd Behncke, ist für Kulemannstieg 32, 22457 Hamburg-Schnelsen in Firmen-/Registerspiegeln geführt. Der Schrottregister-Spiegel bezeichnet sich ausdrücklich als nichtamtlich und nennt Datenabruf 11.08.2026. Das ist ein plausibler Anlagenlead, kein heute direkt geprüfter Register-/Zertifikatsnachweis und kein Beleg aktueller Kundenannahme. Im Review 18.10.2026 neu gelesene NorthData-Historie nennt HRA 76337 Hamburg und Inhaber Bernd Behncke, bestätigt aber weder heutiges Telefon noch Publikumsannahme. Alttelefon 040 5508707 und pauschales Annahme-JSON deshalb gezielt als unbekannt zurückgenommen; Anschrift bleibt ungeprüfter Bestandswert, status pruefung, keine Schließungs- oder Ablehnungsfeststellung.
 
 **Preise (Ankauf/Verkauf/Gebühren):** keine Betreiberpreisliste oder belastbare Ankaufskurse/Verkaufspreise/Gebühren belegt. **Offen:** aktuelle Kundenannahme und Preisbildung direkt klären. Quellen und Beleggewichtung siehe Recherche 02.10. und 04.10.2026, insbesondere https://schrottregister.pages.dev/ort-hamburg.
 
 ## Timeline
+
+### Kontakt-/Annahmeprüfung 18.10.2026 (Owner-Check-in 13:00)
+
+- [Korrektur 18.10.2026: Alttelefon 040 5508707 im Frontmatter geleert und clear_fields dropoff_json,phone gewählt. Lesende Produktionsaufnahme 13:00 führte noch diese Nummer und dropoff_json allowed:true; leeres Dossier-Annahmefeld oder status pruefung würden beide Claims nicht entfernen. Neuer Review las NorthData-Unternehmensdetail Walter Behncke e. K./HRA 76337 AG Hamburg/EUID DEK1101R.HRA76337: historische Eintragung 17.04.2002/Inhaber Bernd Behncke und Anschriftsereignis 24.03.2010, keine konkrete heutige Straße, Telefonnummer oder Kundenbedingungen. Gefundener Creditreform-Einzellink direkt HTTP 403, Suchsnippet nicht als gelesenen Vollbeleg aufgewertet. Owner las nichtamtliches Schrottregister-Profil selbst: Momentaufnahme 11.08.2026, Register nennt ausdrücklich kein Telefon/keine Mail, Lagern/Behandeln/Abfallschlüssel sind keine Selbstanlieferzusage. Amtliche Registeranwendung lieferte im Review keinen Einzeldatensatz. Kein zulässiger aktueller Telefon-/Kundenannahmebeleg gewonnen; historische Verzeichnisübereinstimmung vom 02.10. nicht rehabilitiert. Rücknahme heißt phone leer und dropoff_json leeres Objekt/unknown über normalen Seed, nicht allowed:false oder falsche Nummer bewiesen. Direktive bleibt bis bewusstem Ersatz autoritativ; keine Termin-/Nur-Gewerbe-Bedingungen erfinden. Keine Schließung, kein Merge oder Nachbartransfer von Schrieber/Kulemannstieg 33; Name, Anschrift, Status pruefung, Pickup und GEO unverändert, nicht neu bestätigt. Keine Produktionsmutation. Quellen: https://www.northdata.de/Walter%20Behncke%20e%C2%B7%20K%C2%B7,%20Hamburg/HRA%2076337 ; https://firmeneintrag.creditreform.de/22457/2150124974/WALTER_BEHNCKE_SCHROTTPLATZ (Direktabruf 403 im Review); https://schrottregister.pages.dev/betrieb-walter-behncke-e-k-inh-bernd-behncke-hamburg ; https://schrottregister.pages.dev/daten .]
 
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 
