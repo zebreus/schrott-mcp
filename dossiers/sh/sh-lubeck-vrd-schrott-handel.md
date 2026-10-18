@@ -11,8 +11,8 @@ email: vrd-schrotthandel@outlook.de
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
-description: VRD Schrott- und Metallhandel — mobiler Schrottankauf/Abholung in Lübeck (Sankt Lorenz Nord)
+status: pruefung
+description: 'VRD Schrott-Handel in Lübeck: historischer Anzeigen-/Verzeichnislead; aktuelle Betreiberidentität, Geschäftsaktivität und Leistungen nicht bestätigt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historischer VRD-Anzeigen-/Verzeichnislead in Lübeck. Laut älterer Dossiernotiz stammen Kontaktdaten auch aus einer Betreiberanzeige; deren Inhalt und rechtliche Angaben konnten am 18.10.2026 wegen HTTP 403 nicht erneut gelesen werden. Heute gelesene Verzeichnisse nennen dieselbe Telefonnummer, widersprechen sich aber bei Hausnummerzusatz und Öffnungszeiten und gelten laut README nur als Leads. Anschrift, Telefon und E-Mail bleiben als ungeklärter Altbestand erhalten, nicht als neu freigegebene Fakten. Aktuelle Betreiberidentität, Geschäftsaktivität, mobiler Ankauf und Abholung sind nicht bestätigt; Status daher `pruefung`, nicht `geschlossen`. Keine belastbare Betreiberpreis-/Tarifquelle für Ankauf, Verkauf oder Gebühren erschlossen, kein Beleg kostenloser Abholung.
 
 ## Timeline
+
+### Korrektur 18.10.2026
+
+- [Korrektur 18.10.2026: Status aktiv → pruefung; Beschreibung auf historischen Anzeigen-/Verzeichnislead ohne aktuelle Betreiber-/Leistungsbestätigung begrenzt. Historisch zitierte Kleinanzeigen-Anzeige und VRD-Suchseite liefern heute HTTP 403; Inhalte und rechtliche Angaben nicht gelesen. Direkt gelesene Verzeichnisse Gelbe Seiten und 11880 nennen dieselbe Telefonnummer, aber abweichende Hausnummerzusätze und Öffnungszeiten; beide nur Leads, keine zulässigen unabhängigen Betreiberbelege. Auch die alte Bewertung Betreiber plus vier Verzeichnis-Zweitbelege erfüllt den heutigen README-Standard nicht. Die ersten 15 angezeigten NorthData-Suchtreffer identifizieren keinen kongruenten VRD-Betreiber; keine vollständige Registerprüfung, kein Schließungsnachweis oder LSH-/Topschrott-Kettenbeleg. Anschrift, Telefon und E-Mail bleiben unveränderter, nicht aktuell bestätigter Altbestand; E-Mail heute nicht belegt. Keine neue Bestätigung von mobilem Ankauf, Abholung, Preis-/Gebührenbeträgen oder Kostenlosigkeit. Frühere Abruf-/Betreiberangaben nicht rückwirkend bestätigt; der uncommittete 12.10.-Entwurf ist kein Nachweis eines damaligen Abrufs. Quelle(n): https://www.kleinanzeigen.de/s-anzeige/3021501441 ; https://www.kleinanzeigen.de/s-vrd-schrotthandel/k0 ; https://www.gelbeseiten.de/gsbiz/8ebc5465-f328-4933-805c-02a204fdf8e2 ; https://www.11880.com/branchenbuch/luebeck/060440092B112741573/vrd-schrott-u-metallhandel.html ; https://www.northdata.de/?query=VRD%20Schrotthandel%20L%C3%BCbeck (Abruf 18.10.2026)]
 
 ### Recherche 04.10.2026
 

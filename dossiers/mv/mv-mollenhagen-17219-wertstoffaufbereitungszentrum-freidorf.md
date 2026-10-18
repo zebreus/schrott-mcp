@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: Wertstoffaufbereitung/Entsorgung (GmbH, HRB 4382 AG Neubrandenburg)
+description: 'Wertstoffaufbereitung/Entsorgung (HRB 4382 AG Neubrandenburg); heutige Betreiber- und Standortzuordnung ungeklärt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData nennt im Review am 18.10.2026 HRB 4382 als übertragenden und REMONDIS Seenplatte GmbH, HRB 484 Neubrandenburg, als übernehmenden Rechtsträger der Verschmelzung vom Dezember 2017. Ausführliche Bekanntmachung und Gegenbekanntmachung sind dort gelesen, bleiben aber eine Register-Sekundärquellenfamilie; amtliches Original beziehungsweise unabhängiger zulässiger Zweitbeleg und heutige Betriebsstättenzuordnung fehlen. Daraus keine Standortschließung ableiten. Status `pruefung`, bestehende Kontakte unverändert und nicht neu bestätigt.
+
+Die überlieferten Standortangaben Industriegelände 1/039928 70090 und Chaussee 4/039928 87820 weichen voneinander ab. Das private Profil online-handelsregister.de nennt Chaussee 4 bereits für die Altgesellschaft; die Adresse ist daher nicht ausschließlich ein neuer Gegenstandort. Adressänderung, Umadressierung und Grundstücksidentität sind weder bewiesen noch widerlegt. REMONDIS-Seiten liefern heute eine Challenge statt lesbarer Betreiberinhalte: bisher notierte Kontakte, Betriebszeiten und Leistungen sind nicht aktuell bestätigt. Betriebszeiten wären ohnehin kein Beleg für Privatkundenannahme oder Ankauf. Kein aktueller Preis-/Gebührenbefund aus den gesperrten Seiten, keine neue Adresse oder GEO-Bearbeitung freigegeben.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Registertexte, Standort offen)
+
+- [Recherche 18.10.2026: NorthData-Profil HRB 4382 und dortige Wiedergabe der Löschungsbekanntmachung vom 13.12.2017 gelesen: Wertstoffaufbereitungszentrum Freidorf GmbH als übertragender, REMONDIS Seenplatte GmbH, AG Neubrandenburg HRB 484, als übernehmender Rechtsträger, Vertrag/Beschlüsse 08.12.2017. Gegenbekanntmachung beim selben Dienst gelesen; dort Schreibabweichung Werkstoffaufbereitungszentrum bei identischer HRB 4382, kein neuer Unternehmensname daraus. Mehrere NorthData-Seiten sind kein unabhängiger Zweitbeleg und kein hier gelesenes amtliches Original. Privater Auszugsvermittler online-handelsregister.de nennt zur Altgesellschaft Chaussee 4 und Löschdatum 13.12.2017; kein zulässiger unabhängiger Kettenbeleg und keine heutige Standortbestätigung. REMONDIS-Dienstleistungs-/Impressumsseiten heute ohne lesbaren Betreiberinhalt, HTML mit Challenge. Frühere Standortkontakte, Zeiten, Leistungen und Preisnegativa daher nicht neu bestätigt; auch der uncommittete 12.10.-Entwurf belegt keinen damaligen Abruf. Zuordnung Industriegelände 1/Chaussee 4 und heutiger Standortbetrieb offen. Beschreibung konservativ auf ungeklärte Betreiber-/Standortzuordnung begrenzt; Status pruefung und alte Kontaktdaten unverändert, nicht neu verifiziert. Keine Schließung, Adressübertragung oder GEO. Quellen: https://www.northdata.de/Wertstoffaufbereitungszentrum+Freidorf+GmbH,+M%C3%B6llenhagen/Amtsgericht+Neubrandenburg+HRB+4382 ; https://www.northdata.de/?id=4273235007 ; https://www.northdata.de/REMONDIS+Seenplatte+GmbH,+Neubrandenburg/HRB+484 ; https://www.northdata.de/?id=4267145441 ; https://www.online-handelsregister.de/handelsregisterauszug/mv/Neubrandenburg/HRB/4382/Wertstoffaufbereitungszentrum-Freidorf-GmbH ; Abrufversuche: https://www.remondis-seenplatte.de/dienstleistungen/ ; https://www.remondis-seenplatte.de/impressum/]
 
 ### Recherche 04.10.2026
 
