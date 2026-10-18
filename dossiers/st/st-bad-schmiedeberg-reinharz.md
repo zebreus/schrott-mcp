@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Automobile Reinharz“ wird in Verzeichnissen mit Reinharz 6 geführt; dabei erscheinen abweichende Telefonnummern und die Website-Kandidaten `automobile-reinharz.de` und `autoverwertung-leipzig.eu`. Gelbe Seiten verlinkt die .de-Domain, Suchnadel die .eu-Domain; direkte Abrufe beider Hosts scheiterten am 13.10.2026 an DNS-Auflösung. Damit sind weder Seiteninhalt noch Impressum geprüft; der technische Fehler belegt keine Schließung. Andere Seiten mit ähnlich benanntem „Autoverwertung Leipzig“ sind nicht automatisch derselbe Betreiber. Kostenlose Fahrzeugabholung/-abmeldung wird nur in Drittverzeichnissen behauptet und ist nicht als Betreiberzusage verifiziert. Keine Fahrzeugpreise, Gebühren oder aktuelle Betriebsidentität übernehmen.
+„Automobile Reinharz“ wird in Verzeichnissen mit Reinharz 6 geführt. Das heute gelesene Gelbe-Seiten-Profil führt beide bekannten Rufnummern gemeinsam; das ist nicht zwingend ein Widerspruch, aber weiterhin kein Primärbeleg. Website-Kandidaten sind `automobile-reinharz.de` und `autoverwertung-leipzig.eu`; beide scheitern auch am 18.10.2026 an DNS-Auflösung. Damit sind weder Seiteninhalt noch Impressum geprüft; der technische Fehler belegt keine Schließung. Andere Seiten mit ähnlich benanntem „Autoverwertung Leipzig“ sind nicht automatisch derselbe Betreiber. Kostenlose Fahrzeugabholung/-abmeldung wird nur in Drittverzeichnissen behauptet und ist nicht als Betreiberzusage verifiziert. Keine Fahrzeugpreise, Gebühren oder aktuelle Betriebsidentität übernehmen.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Gelbe-Seiten-Detail heute gelesen, weiterhin Automobile Reinharz/Reinharz 6, 06905, Mobil 01577 6624404 UND Festnetz 034925 749820 im selben Profil. Die frühere Deutung zweier Telefonnummern als Konflikt ist daher nicht zwingend: beide können parallel verwendet werden, sind aber weiterhin nicht primär bestätigt. Beide Websitekandidaten www.automobile-reinharz.de und autoverwertung-leipzig.eu heute direkt abgerufen, jeweils DNS-Auflösungsfehler; keine Impressumsprüfung möglich, kein Schließungsbeweis. Keine Verknüpfung mit fremden Leipziger Autoverwertern, status pruefung und Legacy-Daten erhalten. Ankauf ohne Betrag, Verkauf ohne Teileliste, Gebühren ohne verbindlichen Tarif; Portal-Leistungswörter ersetzen keine Betreiberzusage. GEO erst nach Inhaber-/GESA- und Standortabgleich. Quellen: https://www.gelbeseiten.de/gsbiz/24e1e44d-a7cd-4b25-9fa0-355a8fb9f572 ; https://www.automobile-reinharz.de/ ; https://autoverwertung-leipzig.eu/ .]
 
 ### Recherche 13.10.2026
 

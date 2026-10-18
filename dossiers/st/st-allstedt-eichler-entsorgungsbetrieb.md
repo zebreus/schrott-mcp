@@ -28,6 +28,10 @@ Neue Recherchewege statt des alten negativen 11880-Befunds: 11880 führt mittler
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: 11880-Detail erneut direkt gelesen: Am Gehren 6, 06542 Allstedt, 01577 6298898, Mo–Fr 08–17, weiterhin Link zu räumungsfinder statt eigener Betreiberseite; Aktualisierung 04.10.2026 ist Portalmetadatum, kein Nachweis heutiger Betreiberbestätigung. Facebook-Profilabruf liefert nur Titel Schrottentsorgung Eichler/Allstedt, keine auswertbaren Inhaber-/Kontakt-/Postdaten. Damit nicht als verifiziert betreiberkontrolliertes Social-Profil zählen. Kein Frontmatter-Fill oder Aktivstatus; bestehender Klärfall erhalten. Portalstatus Geschlossen bis Montag ist Uhrzeitstatus, keine dauerhafte Schließung. Ankauf/Verkauf/Gebühren ohne qualifizierte Zahlen; keine Portal-Mindestmengen übernehmen. Inhaber/Gewerbe und Kundenhof vor GEO klären. Quellen: https://www.11880.com/branchenbuch/allstedt/060444720B112890685/eichler-entsorgungsbetrieb-allstedt.html ; https://www.facebook.com/p/Schrottentsorgung-Eichler-100055980041473/ .]
+
 ### Recherche 15.10.2026 (00:00-Welle B)
 
 - [Recherche 15.10.2026: Bisherigen 11880-Nichtfund korrigiert: Detailseite heute direkt gelesen, Am Gehren 6, 06542 Allstedt, 01577 6298898, Mo–Fr 08–17, Eintragsdaten 23.08.2026/aktualisiert 04.10.2026. Website-Link führt nur zu raeumungsfinder.de, kein Betreiberbeleg. Eigene Websuche findet Facebook Schrottentsorgung Eichler/Allstedt und Beitrag 20 Jahre Eichler Entsorgungsbetrieb; direkte Profil-/Postabrufe liefern keinen auswertbaren Inhalt, daher Betreiberkontrolle, Inhaber und aktuelle Anschrift nicht verifiziert. Nancy Eichler/KKR als zusätzlicher Suchlead nicht ohne Beleg zur Firma erklärt. Keine Zahlenpreise, kein Fill; FE-/NE-Mindestmengen aus Vorwelle bleiben unbestätigte Portalinformation. Quellen: https://www.11880.com/branchenbuch/allstedt/060444720B112890685/eichler-entsorgungsbetrieb-allstedt.html (Lead); https://www.facebook.com/p/Schrottentsorgung-Eichler-100055980041473/ ; https://www.facebook.com/100055980041473/posts/1108227154386609/ (nicht auswertbar).]

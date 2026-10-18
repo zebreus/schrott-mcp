@@ -29,9 +29,13 @@ Das Seed-Dossier „Otto Wiese GbR“ ist historisch zu verstehen: Hans-Otto und
 - **Ankauf:** keine dem Otto-Wiese-Betrieb zurechenbare Preisangabe.
 - **Verkauf:** keine belegte Preisliste.
 - **Gebühren:** keine belegte Gebühren-/Containerpreisliste.
-- **Geokodierung:** zurückgestellt. Industriestraße 6 ist lediglich ein Bohmann-Standortlead und darf nicht als Wiese-Nachfolgestandort geokodiert werden, bevor die Betreiberkette bestätigt ist.
+- **Geokodierung:** zurückgestellt. Industriestraße 6 ist als heutiger Bohmann-Standort primär belegt, aber nicht als konkrete Wiese-Nachfolge nachgewiesen; deshalb nicht für dieses Dossier geokodieren, bevor die Betreiberkette bestätigt ist.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Bohmann-Detail Ihrhove erneut live gelesen: Horst Bohmann Entsorgung GmbH, Industriestraße 6, 26810 Westoverledingen-Ihrhove, leer@bohmann-gruppe.de, 04955/1097; Leistungen kommunale Sammlung/Transport, Containerdienst, Altautoverwertung. Kein Wiese-Bezug oder Rechts-/Betriebsübergangsbeleg auf dieser Detailseite, keine belegte lose Metall-/Privatannahme oder vergüteter Metallankauf. Überblick korrigiert: Adresse ist seit Owner-Prüfung 16.10. ein Primärbeleg für Bohmann, nicht bloßer Portal-Lead, dennoch kein Wiese-Fill. Alte Presse-/Zertifikatsbefunde nicht als heute erneut voll geprüft ausgegeben. status pruefung und leere Website/Kontakte erhalten, keine Schließung/Merge. Ankauf/Verkauf/Gebühren weiterhin ohne diesem Wiese-Dossier zuordenbare Zahlen; GEO gesperrt bis konkrete Kette. Quelle: https://www.bohmann-entsorgung.de/unternehmen/standorte/ihrhove .]
 
 ### Vertiefung 16.10.2026 (Owner-Check-in 01:30)
 

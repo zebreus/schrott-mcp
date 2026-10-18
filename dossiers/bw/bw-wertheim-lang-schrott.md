@@ -30,6 +30,10 @@ Die vorhandenen Namens-/Regionstreffer belegen keinen Schrotthändler in Werthei
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Lang-Startseite und Impressum heute einzeln HTTP 200 direkt gelesen: Thomas Lang, Georg-Böhm-Straße 1, 97080 Würzburg, Unterfranken als Einsatzregion, keine explizite Wertheimer Betriebsstätte. Mr.-Schrott-Impressum ebenfalls HTTP 200: Robert Cam/Erlen 14-1/75031 Eppingen-Richen; Wertheim-Regionalunterseite heute HTTP 503, historische Werbeaussage nicht als heute gelesen ausgegeben. Weder andere Betreiberwebsite noch Servicegebiet beweist die Wertheimer Seedidentität. Keine Frontmatter-Füllung/Umbenennung/Umzug, pruefung bleibt. Ankauf: keine diesem Datensatz zuordenbaren Zahlen; Verkauf: keine Preise; Gebühren: keine Tarife, kostenlose Beratung bei Thomas Lang keine kostenlose Entsorgung. GEO mangels eigener bestätigter Betriebsanschrift zurückstellen. Quellen: https://sites.google.com/view/lang-schrotthandel/startseite ; https://sites.google.com/view/lang-schrotthandel/impressum-datenschutz ; https://regio.mr-schrott.de/wertheim ; https://www.mr-schrott.de/impressum/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott, mobil

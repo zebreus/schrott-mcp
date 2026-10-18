@@ -33,6 +33,10 @@ Die Altmetallverwertung Südbayern GmbH & Co. KG ist als Rechtsträgerin (HRA 10
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Zosseder-Anfahrt und Impressum einzeln HTTP 200 gelesen. Am Burgfrieden 1 weiterhin ausdrücklich Verwaltung mit Salzhallen; Impressum nennt Zosseder Holding und weitere Gruppenunternehmen, keinen daraus ableitbaren Südbayern-KG-Kundenhof. Attel/Limburg 8 mit keine Privatanlieferung, Schilchau und Wasserwiesen bleiben getrennte Standorte; weder Ausschluss noch Annahme/Kontakte auf die KG übertragen. Die amtliche Beteiligungskette aus 04.10. bleibt historischer Beleg, heute kein neuer Registerauszug behauptet. Frontmatter/status unbekannt unverändert. Ankauf/Verkauf/Gebühren: keine KG-spezifischen Zahlen in den gelesenen Seiten. GEO nur als Geschäfts-/Verwaltungsanschrift erwägen, keine Annahmestellen-Koordinaten; operative KG-Rolle weiter offen. Quellen: https://www.zosseder.de/anfahrt/ ; https://www.zosseder.de/impressum/ .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Zugehörige Zosseder-Anfahrtseite eigenständig erneut geladen: Am Burgfrieden1/83512 Wasserburg am Inn weiterhin ausdrücklich Verwaltung mit Salzhallen. Andere Anlagen stehen getrennt: Schilchau20/Eiselfing, Wasserwiesen1a/Raubling, Limburg8/Wasserburg mit keine Privatanlieferung. Letzteren Ausschluss nicht auf die Südbayern-KG oder den Burgfrieden übertragen; ebenso keine Gruppenpreise/Kontakte. Die vorhandene Registerhistorie bleibt Ausgangspunkt, keine neue KG-spezifische operative Bestätigung. Ankauf/Verkauf/Gebühren für KG weiter nicht verifiziert, Frontmatter unverändert. Offen: operativer Ankauf oder nur Handel/Verwaltung, direkter KG-Kontakt und öffentlich zugänglicher Kundenplatz; Quelle: https://www.zosseder.de/anfahrt/ .]

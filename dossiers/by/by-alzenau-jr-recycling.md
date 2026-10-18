@@ -28,6 +28,10 @@ Der Import verweist nur auf Facebook, ohne Profil-URL oder Inhaber. Neue Spur: G
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Facebook-Altlink heute auf https://www.facebook.com/AC.Containerdienst/ weitergeleitet; HTTP 200 liefert nur Titel AC Containerdienst & Schrotthandel | Freigericht, keine lesbare Inhaber-/Adress-/JR-Historie. Instagram auf Login umgeleitet, keine Profilinhalte gelesen. Konkrete neue kanonische Social-Spur, aber kein Nachweis JR→AC oder Alzenau→Freigericht; keine Kontakte/Ortsdaten transplantiert. Status pruefung unverändert. Ankauf: keine geprüften Kurse; Verkauf: keine Liste; Gebühren: keine Tarife. GEO erst nach Identitätskette und aktuellem Annahmeort; Titel/Redirect genügt dafür nicht. Quellen: https://www.facebook.com/ACContainerdienst ; https://www.facebook.com/AC.Containerdienst/ ; https://www.instagram.com/AC_Containerdienst .]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: Neuer Direktlead Gelbe Seiten: JR-Recycling, Raiffeisenstr. 26, 63579 Freigericht-Somborn, 01577 0259794; konkrete Links https://www.facebook.com/ACContainerdienst und https://www.instagram.com/AC_Containerdienst. Facebook-Abruf lieferte keinen Inhalt, Instagram nur Bild-/Shellinhalt ohne auswertbare Betreiberangaben. Damit nun originale Profil-URLs als Rechercheansatz, aber kein tatsächlich gelesener Betreiberbeleg. Suchtreffer Hasselroth/Neuenhasslau mit gleicher Nummer nur weiterer Verzeichnislead, keine bewiesene Umzugs-/Namenskette oder Alzenau-Zweigstelle. Keine Frontmatter-Fills/Ortsänderung, status pruefung. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Tarife. GEO erst nach rechtlicher Identität und tatsächlichem Standort, nicht aus Entfernungssuche Alzenau ableiten. Quelle: https://www.gelbeseiten.de/gsbiz/b4179829-6019-4dd1-8b6a-f6af9fcbade9 (live, Lead); vorstehende Social-URLs (Abrufgrenzen).]

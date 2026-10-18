@@ -28,6 +28,10 @@ Das Dossier ist ein ungeklärter Identitäts-/Fehlkategorisierungsfall: Portalan
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Schrottportal-Detail heute HTTP 403/JS-Cookie-Challenge; NorthData-Suggest Rainer Schott HTTP 429. Kein heute gelesener Unternehmens-/Arztregistereinzelnachweis, daher frühere medizinische Gegenidentität ausdrücklich nur historischer Lead, weder bestätigt noch widerlegt. Keine neue Grundlage für Händleraktivierung oder Schließung; status unbekannt erhalten. Straßenfeld mit Telefonzusatz bleibt als Altfehler sichtbar und darf ohne sauberen Standortbeleg nicht geokodiert werden. Ankauf/Verkauf/Gebühren ohne verifizierte Daten; nächste Prüfung zweitseitig Gewerbe/Schrotttätigkeit versus Arzt-Namensvetter zur Gartenfelder Straße und Rufnummer, keine Übernahme möglicher Privat-/Praxiskontakte als gesicherte Händlerdaten. Quellen/Abrufversuche: https://lokaleschrottplatz.de/schott-rainer/ ; https://www.northdata.de/suggest.json?query=Rainer%20Schott&countries=DE .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - nur lokaleschrottplatz (Kleinsthändler-Typ) Adresse: Gartenfelder Str. 86-88, 13599 Berlin; Tel. 030 3819906

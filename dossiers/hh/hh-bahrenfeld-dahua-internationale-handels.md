@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hamburger Seed-/Portalname DaHua Internationale Handels GmbH mit Albert-Einstein-Ring 21; heutige Identität und Schrottankauf ungeklärt. Der Websitekandidat dahuagmbh.com nennt aktuell Berner Straße 62, 60437 Frankfurt am Main, Frankfurter Telefonnummer und Handel/Logistik/Kunststoff/Solar. Das ist keine belegte Hamburger Betreiber- oder Umzugskette. Domain und Frankfurter Kontakte werden daher nicht attribuiert; Hamburger Altanschrift bleibt unverifizierter Lead, nicht bestätigter Ankaufhof. **Ankauf / Verkauf / Gebühren:** keine dem Hamburger Dossier zuordenbaren Zahlen. **GEO:** nach Register-/Standortklärung, nicht Frankfurt als Ersatz setzen.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Websitekandidat Startseite und /contact/ heute tatsächlich gelesen: Kontakt Berner Str. 62, 60437 Frankfurt am Main, +49 69 98557338, info@dahuagmbh.com; Angebot China/EU-Handel, Kunststoff, Solar, Wein/Bier und Logistik, keine belegte Hamburger Schrottannahme. NorthData-Suggest DaHua Internationale Handels HTTP 429; dadurch kein heutiger Registerabgleich und keine nachgewiesene Hamburg→Frankfurt-Kette. Zweitseitige Grenze: Frankfurt-Seite erreichbar, aber verbleibende Hamburger Zeile weiterhin nicht unabhängig identifiziert; status pruefung, Website/Kontakt leer belassen, Altadresse nur Lead. Ankauf/Verkauf/Gebühren ohne zuordenbare Tarife, keine GEO-Änderung. Quellen: https://dahuagmbh.com/ ; https://dahuagmbh.com/contact/ ; https://www.northdata.de/suggest.json?query=DaHua%20Internationale%20Handels&countries=DE .]
 
 ### Recherche 02.10.2026
 

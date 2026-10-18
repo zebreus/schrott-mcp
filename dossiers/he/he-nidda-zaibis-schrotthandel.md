@@ -28,6 +28,10 @@ Ungeklärter Verzeichnis-Lead: weder Betreiberidentität noch genaue Adresse ode
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 West)
+
+- [Recherche 18.10.2026: Direkt geprüfte Namens-/Ortssuchen: Gelbe Seiten meldet null passende Einträge (HTTP 404 mit Suchinhalt), 11880 keine Ergebnisse (HTTP 200). Das sind nur Portal-Suchlücken, keine Registerauskunft und kein Nichtexistenzbeweis. Google liefert Consent, DuckDuckGo HTTP 202/Bot-Challenge, daher kein neuer Betreiberinhalt aus diesen Abrufen. Gersfeld-Spur nicht nach Nidda übertragen; Betreibername, Nidda-Betriebsstätte und tatsächliche Ankauftätigkeit bleiben offen. Ankauf: keine zuordenbare Zahlenliste; Verkauf: keine verifizierte Liste; Gebühren: kein verifizierter Tarif. Keine Stammdaten- oder GEO-Ergänzung; Quelle(n): https://www.gelbeseiten.de/suche/zaibis/nidda ; https://www.11880.com/suche/zaibis/nidda ; https://html.duckduckgo.com/html/?q=%22Zaibis%22%20Schrotthandel%20Nidda .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mobile Schrottabholung (Verzeichnis)

@@ -30,6 +30,10 @@ Für „Theobald Deichmann Schrotthandel“ in Groß-Rohrheim ist weiterhin kein
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 West)
+
+- [Recherche 18.10.2026: NorthData-Namens-/Ortssuche direkt HTTP 429, daher keine aktuelle Firmenprüfung. Gelbe-Seiten-Suche Deichmann/Groß-Rohrheim liefert ausdrücklich nur auswärtige Schuhhandels-Homonyme, keinen Beleg zum Theobald-Deichmann-Lead. Google Consent und DDG Challenge begrenzen zusätzliche Discovery; kein Nichtexistenzbeweis. Speyerstr. 40 bleibt unbestätigter Seedwert; weder Straßenexistenz noch Schuhfiliale als Gegenbetrieb/Annahmestelle übernehmen. Ankauf: keine zuordenbaren Preise; Verkauf: keine zuordenbare Liste; Gebühren: kein verifizierter Tarif. Lokale Gewerbe-/Betreiberidentifizierung vor GEO erforderlich; Quelle(n): https://www.northdata.de/?query=Theobald+Deichmann+Gro%C3%9F-Rohrheim ; https://www.gelbeseiten.de/suche/deichmann/gro%C3%9F-rohrheim .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Erneute Namens-/Ortssuche und NorthData-Abfrage nach Theobald Deichmann, Schrotthandel, Groß-Rohrheim lieferte keinen passenden Firmenbeleg. Das ist keine amtliche Gewerberegisterauskunft und kein Nicht-Existenz-/Schließungsnachweis. Speyerstr. 40 bleibt Seedangabe; Straßenexistenz allein belegt weder Händler noch Hausnummernzuordnung. Keine Frontmatter-Ergänzung, keine Preis-/Gebührenquelle. Vor GEO Betrieb und Adresse lokal/kommunal identifizieren. Suchabfrage: https://www.northdata.de/?query=Theobald+Deichmann+Gro%C3%9F-Rohrheim]

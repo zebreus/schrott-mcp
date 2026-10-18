@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Exakte NorthData-Suggest-Abfrage ahab-metall heute HTTP 429/Zu viele Abfragen; kein aktueller Registerbefund und insbesondere keine Bestätigung des e.K.-Zusatzes, Inhabers oder HRA. Der frühere beschränkte Nichtfund bleibt historische Recherche, keine Negativauskunft. Carl-Zeiss-Str. 14 weiter ungesicherter Seed-Lead, kein öffentlicher Ankaufhof nachgewiesen; status pruefung und Bestandswerte erhalten. Ankauf/Verkauf/Gebühren ohne verifizierte Zahlen. Weiterer Belegweg kommunale Gewerbeauskunft Premnitz plus registergenauer Inhaber-/Firmenschreibweisenabgleich, danach Betriebsstätte/GEO. Quelle/Abrufversuch: https://www.northdata.de/suggest.json?query=ahab-metall&countries=DE .]
+
 ### Recherche 08.10.2026
 
 - [Korrektur 08.10.2026: Belegaudit: bisheriger Aktivstatus/Ankauf-ja beruhen ausschließlich auf Schrottradar-Lead. NorthData-Suche ahab-metall direkt lesbar, erste Trefferseite ohne eindeutig passendes Premnitzer Unternehmen; keine vollständige Registerauskunft und kein Schließungsbeleg. status pruefung gesetzt, vorhandene Anschrift erhalten; keine Kontakte/Website gefüllt. Für e.K. insbesondere Inhaber und HRA ermitteln. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Zahlen. Quelle(n): https://www.northdata.de/?query=ahab-metall ; historische Seednotiz Schrottradar (kein Primärbeleg)]

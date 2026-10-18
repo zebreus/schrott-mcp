@@ -28,6 +28,10 @@ Reaumurstraße 27F und 030 7124003 sind bisher Seed-/Verzeichnisangaben; eine ak
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Konkretes Schrottplatz-info-Profil erneut live gelesen: Reaumurstr. 27F, 12207 Berlin-Lichterfelde, 030 7124003; Homepage-Verweis weiterhin PHP-Deprecated-Fehler wegen null statt Betreiber-URL, Angebot/Zeiten ausdrücklich nicht erfasst. NorthData-Suggest Artur Kujat heute HTTP 429; weder Inhaber-/Gewerbestatus noch aktuelle Betriebsstätte damit belegt. Kein Website-Fill aus defektem Link, keine Aktivierung, Altadresse/Telefon als Leads erhalten. Ankauf/Verkauf/Gebühren keine Zahlen im gelesenen Profil. Nächster Belegschritt kommunale Gewerbe-/Adressprüfung, erst danach Hof-GEO; keine Koordinaten aus Portalkarte setzen. Quellen: https://www.schrottplatz-info.de/schrottplatz/Berlin/Kujat-Artur-Schrotthandel ; https://www.northdata.de/suggest.json?query=Artur%20Kujat&countries=DE .]
+
 ### Recherche 15.10.2026 (Welle 1200 C)
 
 - [Recherche 15.10.2026: Erstmals in dieser Welle die konkrete Kujat-Detailseite statt Umkreislinks direkt gelesen: Reaumurstr. 27F, 12207 Berlin Lichterfelde und 030 7124003 sind dort tatsächlich als Portalwerte vorhanden. Der „zur Homepage“-Link enthält jedoch eine PHP-Deprecated-Fehlermeldung wegen eines null-Wertes, keine echte Betreiberadresse; daraus keinesfalls eine Website konstruieren. Angebot, Leistungsbeschreibung und Öffnungszeiten fehlen ausdrücklich. Somit präzisierter Lead, kein neuer Betreiber-/Registerbeleg und keine Annahmebestätigung. Ankauf/Verkauf/Gebühren ohne Zahlentabelle. Offene Frage bleibt Gewerbeidentität und fortbestehende Tätigkeit an der behaupteten Adresse; keine Frontmatter-Ergänzung. Quelle: https://www.schrottplatz-info.de/schrottplatz/Berlin/Kujat-Artur-Schrotthandel (Detailabruf).]

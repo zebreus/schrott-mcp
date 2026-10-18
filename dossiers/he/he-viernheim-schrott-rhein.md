@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott-Rhein Containerservice wird im heute gelesenen Gelbe-Seiten-Detail an Wilhelm-Busch-Str. 13, 68519 Viernheim, 06204 986617 geführt. Das ist weiterhin nur ein Verzeichnislead, kein Betreiber-/Gewerbenachweis; die alten Doppelbeleg-Formulierungen rechtfertigen keine Primärquellenaufwertung. Containerbranche allein bestätigt weder Metallankauf noch öffentliche Anlieferung. Nicht mit SRM Schrotthandel Rhein-Main in Messel gleichsetzen. Ankauf, Verkauf und Gebühren offen; vor GEO tatsächliche Betriebsstätte/Annahmefunktion prüfen.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 1202 West)
+
+- [Recherche 18.10.2026: Gelbe-Seiten-Detail direkt HTTP 200 gelesen: Schrott-Rhein Containerservice/Wilhelm-Busch-Str. 13/68519 Viernheim/06204 986617, zusätzliche Nummer 06204 7086949. Branche Container, kein Betreiberlink und keine konkret belegten Material-/Kundenannahmen. Bestehende Kontakt-/Adresswerte aus Verzeichnissen bleiben ungeprüfte Legacywerte; zwei Portale sind nicht zwei zulässige Belege. Kein neuer Betreiber-/Registerbeleg, keine Zuordnung zum namensähnlichen SRM in Messel. Ankauf: keine Preise/gesicherte Ankaufzusage; Verkauf: keine Liste; Gebühren: keine Containertarife. GEO erst nach Betriebsstätten-/Gewerbeabgleich, keine Koordinaten gesetzt; Quelle: https://www.gelbeseiten.de/gsbiz/97cf95b8-8f75-41ef-bc6d-86830814e110 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

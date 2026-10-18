@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Rupy Schrotthändler“, Schönböckener Straße 96 und 01514 1346971 werden weiterhin von Gelbe Seiten geführt, aber nicht durch eine zulässige Betreiber-/Registerquelle bestätigt. Bestandsadresse und Telefonnummer bleiben ausdrücklich Leads; keine bestätigte stationäre Annahmestelle oder Aktivität daraus ableiten. **Ankauf:** Seed-ja nicht primär belegt, keine Kurse. **Verkauf / Gebühren:** keine belastbare Liste. **GEO:** alte Adressfüllung erst nach Betreiber-/Gewerbeprüfung geokodieren.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Gelbe-Seiten-Detail live gelesen: unverändert Schönböckener Str. 96, 23556 und 01514 1346971, keine im gelesenen Inhalt identifizierbare eigene Betreiberwebsite oder Preis-/Annahmekonditionen. NorthData-Suggest Rupy HTTP 429; DuckDuckGo CAPTCHA, Google Consent statt Ergebnisse. Kein Primär- oder zweiter zulässiger Beleg und kein Negativbeweis zur Existenz. Bestandswerte nicht als neu bestätigt ausgegeben, status pruefung erhalten. Ankauf/Verkauf/Gebühren nicht beziffert; GEO zurückstellen bis Inhaber/Gewerbe und Kundenstandort belegt. Quellen: https://www.gelbeseiten.de/gsbiz/9f33fbf8-1dd6-445b-878c-1c5d0120fc76 (Lead) ; https://www.northdata.de/suggest.json?query=Rupy&countries=DE (Zugriff gesperrt).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ Die Betreiber-Website belegt D&F Wertstoffhandel mit Sitz in Koblenz (Friedrich 
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 West)
+
+- [Recherche 18.10.2026: Impressum, Container- und Wertstoffhandelsseite erneut direkt HTTP 200 gelesen. Friedrich Laroche/Fritz-Zimmer-Straße 1A/56070 Koblenz, Andernach auf Containerseite als Servicegebiet, keine Andernacher Annahmestelle ausgewiesen. Die im Impressum angegebene Telefonnummer 0263 – 22 44 99 85 ist kein unabhängiger Beweis für eine Andernacher Betriebsstätte; kein Schluss von Vorwahl/Servicegebiet auf Hofadresse. Keine Koblenzer Daten als Andernacher Filialstammdaten übernommen und keine Standort-/Rechtsnachfolge behauptet. Ankauf: FE/NE-Tageshöchstpreise und Anfrage, keine Beträge; Verkauf: keine Liste in geprüften Seiten; Gebühren: Container 4–40 m³ sind Volumina, preiswert ist kein Tarif/Nullpreis. Andernacher Altadresslead bleibt ungeklärt, GEO zurückgestellt; Quelle(n): https://df-wertstoffhandel.de/impressum/ ; https://df-wertstoffhandel.de/container/ ; https://df-wertstoffhandel.de/wertstoffhandel/ .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Impressum, Wertstoffhandel und Containerseite direkt erneut gelesen. Friedrich Laroche/Sitz Fritz-Zimmer-Straße 1A, 56070 Koblenz bleibt Eigenangabe; Containerseite überschreibt „Containerdienst in Koblenz, Andernach & Umgebung“ und bietet 4–40 m³, nicht eine Annahmestelle in Andernach. Der Andernacher Adresslead An den Billenbäumen 1 bleibt unbestätigt; keine Umadressierung zu Koblenz und keine Websitefüllung für die ungeklärte Filialzeile. ANKAUF: FE/NE-Tageshöchstpreise auf Anfrage, keine Beträge. VERKAUF: keine Liste. GEBÜHREN: Kosten niedrig/„preiswert“, keine Tarife, keine Kostenloszusage. Quellen: https://df-wertstoffhandel.de/impressum/ ; https://df-wertstoffhandel.de/wertstoffhandel/ ; https://df-wertstoffhandel.de/container/ .]

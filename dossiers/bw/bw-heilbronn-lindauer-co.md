@@ -30,6 +30,10 @@ Lindauer & Co. GmbH ist im Register als in Liquidation geführt; Presseberichte 
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Exaktes Northdata-Profil HRB 101912 heute HTTP 429; RecyclingToday-Artikel antwortet HTTP 200, aber ohne auswertbaren Seitentext. Deshalb weder aktueller Registerstatus noch der historische Asset-Kauf heute neu volltextlich bestätigt; tragende Altbelege bleiben mit ihrem ursprünglichen Abrufdatum erhalten. Keine rechtliche TSR-Nachfolge, Übertragung der TSR-Niederlassung oder Wiedereröffnung angenommen. status geschlossen bleibt historischer Bestandswert, nicht aus Abruffehlern hergeleitet. Ankauf: keine neu gelesene Lindauer-Liste; Verkauf: keine Preise; Gebühren: keine Tarife. GEO der c/o-Kanzlei weiterhin kein Schrottplatz; Betreiber-/Grundstückskette offen. Quellen: https://www.northdata.de/Lindauer%20%26%20Co%C2%B7%20GmbH,%20Heilbronn/Amtsgericht%20Stuttgart%20HRB%20101912 ; https://www.recyclingtoday.com/news/tsr-recycling-scrap-metal-acquisition-lindauer-germany/ .]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: NorthData-Unternehmensprofil erneut geprüft: Lindauer & Co. GmbH, HRB 101912 Stuttgart, weiterhin als in Liquidation ausgewiesen; angezeigte spätere Geschäftsanschrift ist c/o-Anwaltsadresse, kein belegter Annahmeort. Der Direktabruf der TSR-Standortseite lieferte keinen auswertbaren Text; deshalb weder heutige TSR-Adresse noch Betriebsfortführung Lindauer zugeschrieben. Historischer RecyclingToday-Bericht bleibt Beleg nur für den 2018 beschriebenen Erwerb von Teilen des beweglichen Anlagevermögens, nicht einer operativen Fortführung. Frontmatter, Koordinaten und Status geschlossen unverändert; aktuelle Lindauer-Ankaufspreise, Verkaufspreise und Gebühren nicht gefunden. Quellen: https://www.northdata.de/Lindauer%20%26%20Co%C2%B7%20GmbH,%20Heilbronn/Amtsgericht%20Stuttgart%20HRB%20101912 ; https://www.recyclingtoday.com/news/tsr-recycling-scrap-metal-acquisition-lindauer-germany/ ; https://www.tsr-recycling.de/standorte/schrotthaendler-heilbronn/ (letzterer Abruf 12.10.2026 ohne auswertbaren Seitentext).]

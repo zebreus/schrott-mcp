@@ -28,6 +28,10 @@ Ein Registerspiegel berichtet, dass die DEGOMET GmbH 2022 ihren Sitz von Balve n
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 West)
+
+- [Recherche 18.10.2026: NorthData-Bekanntmachung zur DEGOMET GmbH erneut direkt über webfetch erreichbar; historische Sitzverlegung Balve nach Hamm bleibt der konkrete Registeransatz, keine Bestätigung eines heutigen Balver Kundenhofs. Creditreform-Direktabruf HTTP 403 ohne verwertbares Profil; damit kein neuer unabhängiger aktueller Betriebsbeleg. Heutige Google-/DDG-Suchen durch Consent/Challenge begrenzt. Keine Hamm-Sitzadresse als Balver Annahmestelle übernommen; Rechts-/Standortkette und Balver Fortbestand offen, keine geschlossen-Markierung. Ankauf: Metallhandelszweck ist keine bestätigte Kundenannahme oder Preisliste; Verkauf: keine zuordenbare Liste; Gebühren: keine zuordenbaren Tarife. GEO erst nach Betriebsstättenprüfung; Quelle(n): https://www.northdata.de/?id=6421112089477120 ; https://firmeneintrag.creditreform.de/59071/4190193135/DEGOMET_GMBH .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Neue Suche nach DEGOMET, Balve/Hamm und HRB 10903 ergab keinen erreichbaren Betreiberauftritt mit aktuellem Standortangebot und keine publizierte Preisliste. Der bereits gefundene Registerspiegel meldet die Sitzverlegung Balve nach Hamm im Jahr 2022 zur Alten Soester Straße 51; diese historische Registerinformation beweist keinen weiterbetriebenen Standort in Balve. Kein Hamm-HQ als Ersatzadresse übernommen, kein Closure-Marker. **Ankauf:** Gesellschaftszweck Metallverarbeitung/-handel ist kein Ankaufangebot, keine Ankaufpreise gefunden; **Verkauf:** keine Verkaufspreise oder Produktliste gefunden; **Gebühren:** keine Servicegebühren gefunden. Quelle(n): https://www.northdata.de/?id=6421112089477120 ; https://firmeneintrag.creditreform.de/59071/4190193135/DEGOMET_GMBH]

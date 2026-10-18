@@ -30,6 +30,10 @@ Neu ist ein direkt gelesener Gelbe-Seiten-Lead „Schneider“, Schrott, Dr.-Eli
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 West)
+
+- [Recherche 18.10.2026: Gelbe-Seiten-Detail direkt HTTP 200 gelesen: Schneider/Schrott, Dr.-Elisabeth-Selbert-Str. 33/34266 Niestetal-Sandershausen, 0176 26432933. Kein Vorname/Rechtsform/Betreiberlink oder Öffnungszeit im Inhalt; kein zweiter zulässiger Beleg. Übereinstimmung mit dem Lead vom 15.10. ist nur Wiederabruf derselben Quelle, keine Identitätsbestätigung. Ankauf: keine Zahlen/konkreten Annahmebedingungen; Verkauf: keine Liste; Gebühren: keine Tarife. Keine Kontakte ergänzt, keine Namensvetter verknüpft; Betreiber-/Gewerbeabgleich und Annahmefunktion vor GEO offen; Quelle: https://www.gelbeseiten.de/gsbiz/e0064a1a-f9c4-421d-8a0d-9d62a26dc580 .]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: Neue konkrete Spur nach eigener Suche und Direktabruf: Gelbe Seiten Schneider/Schrott, Dr.-Elisabeth-Selbert-Str. 33, 34266 Niestetal-Sandershausen, 0176 26432933. Kein tatsächlicher Betreiberlink, keine rechtliche Firmierung und keine Zeiten im gelesenen Detail. Nummernsuche ergab keine zuordenbare Primärquelle; das ist kein Existenz-Negativbeweis. Frühere Such-Misses damit nicht fortschreiben; Adress-/Telefonspur für kommunale Gewerbeauskunft nutzen, aber Frontmatter nicht füllen. ANKAUF/VERKAUF/GEBÜHREN keine numerischen Zieltarife; GEO bis zur Betreiber-/Standortbestätigung zurückgestellt. Quelle: https://www.gelbeseiten.de/gsbiz/e0064a1a-f9c4-421d-8a0d-9d62a26dc580 (live, nur Lead).]

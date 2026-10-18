@@ -30,6 +30,10 @@ Zum Datensatz gibt es nur Verzeichnis-Leads, unter anderem Grünwinkler Str. 103
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Creditreform-Kandidat 7110514137 für Karlsruhe heute direkt HTTP 403, kein lesbarer Volltext. Ergänzende Suche Horst Brandt/Schrott bzw. Brandt/Grünwinkler liefert keinen qualifizierten Betreiberfund. Damit weder Gleichsetzung Karlsruhe↔Rheinstetten noch Umzug/Schließung belegt; bestehender Grünwinkler-Str.-103-Lead bleibt unbestätigt. Frontmatter leer und pruefung unverändert. Ankauf: keine zuordenbaren Kurse; Verkauf: keine Preise; Gebühren: keine Tarife. GEO-Bedarf erst eindeutige Person/Gewerbeidentität und aktuelle Rheinstettener Betriebsanschrift klären; kein Pin aus Karlsruhe übernehmen. Quelle: https://firmeneintrag.creditreform.de/76189/7110514137 .]
+
 ### Nachprüfung 06.10.2026
 
 - [Nachprüfung 06.10.2026: Die vorhandenen Spuren bleiben Verzeichnisleads (Gelbe Seiten/Dastelefonbuch: „Brandt Horst Schrott“, Grünwinkler Str. 103, 76287 Rheinstetten, Mobil 0170 1479206); kein zulässiger unabhängiger Betreiberbeleg für Name, Adresse oder aktuellen Betrieb. Der Creditreform-Suchtreffer „Horst Brandt Schrott- und Edelmetallhändler“ in 76189 Karlsruhe ist nicht adressgleich und darf nicht als Bestätigung des Rheinstettener Dossiers behandelt werden. Status aktiv → pruefung, keine Schließung behauptet. Keine zuordenbare Preisliste; Ankaufspreise, etwaige Metallverkaufspreise und Gebühren bleiben unbekannt. Adresse vor Geocoding bestätigen. Quelle(n): https://www.gelbeseiten.de/ ; https://www.dastelefonbuch.de/ ; https://firmeneintrag.creditreform.de/76189/7110514137 (Suchtreffer/Detailabruf zuvor nicht verfügbar)]

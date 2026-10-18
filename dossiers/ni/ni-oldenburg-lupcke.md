@@ -28,6 +28,10 @@ Der aktuelle, belegte Betrieb Michael Lüpcke GmbH sitzt in Wardenburg (HRB 2031
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Betreiber-Impressum live gelesen: Michael Lüpcke GmbH, Diedrich-Dannemann-Straße 35, 26203 Wardenburg, HRB 203176 AG Oldenburg, vertreten durch Meike Haferkamp. Registergerichtsname Oldenburg nicht mit Betriebssitz Oldenburg verwechseln. Neuer Detailvorbehalt: sichtbare Kontakttelefonnummer 0441 2336570, Footer-Tel-Link verweist dagegen auf +49 441 504294; keine unbesehene Kontaktübernahme. Weiter kein Identitätsbeleg zur separaten Seed-Zeile Lüpcke GmbH/Oldenburg, keine Umadressierung oder Merge und status pruefung bleibt. Historische Registerketten nicht heute neu geprüft. Ankauf/Verkauf/Gebühren aus diesem Impressumsabruf nicht bezifferbar; keine Preisfreiheit behauptet. GEO erst nach Oldenburg-/Wardenburg-Zuordnung. Quelle: https://container-luepcke.de/impressum/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle

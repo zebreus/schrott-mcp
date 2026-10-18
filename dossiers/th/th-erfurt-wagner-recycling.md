@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Seed „Wagner Recycling GmbH“, Erfurt, ohne gesicherte Straße, Registerkennung oder Betreiberwebsite. Der Domainkandidat wagner-recycling.de ist heute DNS-seitig nicht auflösbar; das beweist weder eine frühere Betreiberzuordnung noch fehlende Registrierung oder Schließung. Namensähnliche Wagner-Entsorger nicht als Ersatz attribuieren. **Ankauf / Verkauf / Gebühren:** keine Erfurter Leistungs-/Preisbelege. **GEO:** kein belastbarer Adresskandidat; zuerst GmbH/Register- und Gewerbeidentität klären.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: HTTPS-Abruf wagner-recycling.de scheitert an DNS-Auflösung. Präzisierung gegenüber Altvermerk: kein Nachweis unregistriert, sondern technischer Fehler eines unzugeordneten Domainkandidaten. NorthData-Suggest Wagner Recycling HTTP 429, Google Consent und DuckDuckGo CAPTCHA verhindern belastbaren neuen Register-/Suchbefund. Kein aktueller Erfurter Betreiber, keine konkrete Adresse oder Nachfolge bewiesen. status pruefung und leere Kontaktfelder bleiben; keine behauptete Schließung. Ankauf/Verkauf/Gebühren ohne Zahlen, GEO zurückgestellt. Quellen/Abrufversuche: https://wagner-recycling.de/ ; https://www.northdata.de/suggest.json?query=Wagner%20Recycling&countries=DE ; https://html.duckduckgo.com/html/?q=%22Wagner+Recycling%22+%22Erfurt%22 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

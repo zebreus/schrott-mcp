@@ -28,6 +28,10 @@ Creditreform führt einen namens- und ortskongruenten Kandidaten „Jörg Schmit
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 West)
+
+- [Recherche 18.10.2026: schutzplanken-schmitz.de erneut direkt HTTP 200 gelesen: Wartungsseite mit 06571 9537840/info@schutzplanken-schmitz.de, keine vollständige Betreiber-/Register-/Standortzuordnung. Historische NorthData-Änderungsbekanntmachung id=5105564257 heute HTTP 429/Abfragebegrenzung, keine neue Registergegenprüfung. Frühere Registerfakten bleiben historische Recherche, keine bewiesene aktuelle Übernahmekette Einzelbetrieb Ürzig → J. Schmitz GmbH Wittlich. Keine Wittlicher Adresse oder Kontakte in Ürziger Stammdaten übernommen. Ankauf: keine Zahlen/aktuelle Annahmezusage auf Wartungsseite; Verkauf: keine Liste; Gebühren: keine Tarife. Rechtsnachfolge, Ürziger Betriebsbestand und GEO bleiben offen; Quelle(n): https://schutzplanken-schmitz.de/ ; https://www.northdata.de/?id=5105564257 .]
+
 ### Recherche 15.10.2026 Welle18C
 
 - [Recherche 15.10.2026 Welle18C: Neuer qualifizierter Rechercheansatz: Creditreform-Suchindex benennt Jörg Schmitz Schrotthandel und Industrieabbruch, Ürzig, Großhandel mit Altmaterialien und Reststoffen, Kennung 5350279286/54539. Direkter Detailabruf HTTP403: keine gelesene Vollanschrift, kein aktueller Gewerbestand daraus behauptet. Straßenbauportal nennt separat Jörg Schmitz GmbH Schutzplanken-Demontage, Wittlicherstrasse 13, 54539 Ürzig; das ist ein Branchenportal-Lead, kein Registerbeleg. Name/Ort/Tätigkeitsnähe allein reichen nicht zur Gleichsetzung Einzelbetrieb/GmbH; Quelle(n): https://firmeneintrag.creditreform.de/54539/5350279286/JOERG_SCHMITZ_SCHROTTHANDEL_UND_INDUSTRIEABBRUCH ; https://www.strassenbauportal.de/firmendetails_Joerg_Schmitz_GmbH_Schutzplanken_Demontage_id_504257.html (Suchindex).]

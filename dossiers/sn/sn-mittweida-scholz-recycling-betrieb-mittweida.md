@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die überregionale Scholz-Recycling-Präsenz ist aktuell, aber die konkrete Betriebsstätte **Mittweida** ließ sich nicht verifizieren: der Standortfinder ist eine dynamische Karte ohne statische Standortliste und die vermutete Detailroute `/standorte/mittweida/` lieferte beim Abruf HTTP 500. Deshalb bleiben Adresse, Kontaktdaten und Aktivstatus der lokalen Betriebsstätte offen; keine Gleichsetzung mit einer anderen Scholz-Niederlassung. Die Konzernseite bietet allgemein Schrott-Selbstanlieferung und Schätzungen anhand tagesaktueller Marktpreise nach Foto an; das bestätigt weder einen Hof in Mittweida noch eine lokale Preisliste.
+Die überregionale Scholz-Recycling-Präsenz ist aktuell, die konkrete Betriebsstätte **Mittweida** bleibt ungeklärt. Der am 18.10.2026 erstmals hier ausgewertete öffentliche JSON-Datenendpunkt des offiziellen Standortfinders enthält keinen Mittweida-Eintrag; die Karte ist also nicht grundsätzlich unlesbar. Marienberg und Chemnitz sind dagegen konkret enthalten. Fehlende Listung ist kein Schließungsbeleg und berechtigt nicht zum Umzug auf einen anderen Hof. Adresse, Kontaktdaten und lokale Aktivität bleiben offen. Allgemeine Scholz-Fotoanfrage/Marktpreisschätzung bestätigt keinen Mittweida-Ankaufhof.
 
 **Preise:** keine belastbare, Mittweida zuordenbare Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. **Geocoding:** keine hinreichend belegte Straßenadresse als Kandidat.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Neuen Rechercheweg genutzt: Standortfinder-HTML enthält dataLocation /standorte-json-nicht-loeschen/, JSON vollständig live gelesen. Kein Eintrag mit Mittweida; konkret vorhandene Marienberg-/Chemnitz-Datensätze nicht übertragen. Damit frühere Annahme einer ausschließlich unzugänglichen JS-Karte korrigiert, aber keine Betriebsaufgabe behauptet. Betreiber-Impressum HRB 733963 Essingen belegt nur Konzernidentität. Status pruefung und leere Ortskontakte erhalten, keine Standort-/Rename-/Merge-Entscheidung. ANKAUF/VERKAUF/GEBÜHREN: keine Mittweida zuordenbaren Zahlen; GEO mangels belegter Adresse zurückstellen. Quellen: https://www.scholz-recycling.com/standorte/ ; https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ; https://www.scholz-recycling.com/impressum/ .]
 
 ### Recherche 06.10.2026
 

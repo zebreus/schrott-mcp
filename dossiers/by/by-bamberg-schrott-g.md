@@ -28,6 +28,10 @@ Ein Gelbe-Seiten-Eintrag führt „Schrott G.“ an Michelsberg 8, 96049 Bamberg
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Gelbe-Seiten-Detail heute HTTP 200 gelesen, weiterhin Schrott G./Michelsberg 8/96049 Bamberg ohne tatsächlich zugeordneten Betreiberauftritt oder Annahmeangebot. Allgemeine E-Mail-/Website-UI ist kein Betreiberbeleg. Namenssuche liefert keinen qualifizierten Identitätsnachweis; früherer privater Telefonbuchverdacht bleibt Verdacht, keine festgestellte Privatperson und kein Schließungsbeweis. Status pruefung, keine Kontakte gefüllt. Ankauf: keine Kurse; Verkauf: keine Preise; Gebühren: keine Tarife. GEO vorerst gesperrt, zunächst Gewerblichkeit und ausgeschriebenen Betreiber kommunal prüfen. Quelle: https://www.gelbeseiten.de/gsbiz/271673e0-9cc6-4f67-b076-a3a44032e55e .]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klaerfall Fehlzuordnung-Verdacht — KEIN Fill: Gelbe Seiten fuehrt "Schrott G." zwar in der Schrotthaendler-Rubrik Bamberg (Michelsberg 8, 96049 Bamberg, Tel. 0951 5 77 04), Das Telefonbuch listet denselben Eintrag aber als Privatperson (Familienname Schrott, u.a. "Schrott G., Michelsberg" neben Elvira/Uwe, Florian, Maria); bei Wohnlage Michelsberg + fehlendem Vornamen wahrscheinlicher kein Gewerbe; kein Betreiber-Nachweis, kein Ankaufbeleg; Status pruefung; Folgewelle: Gewerberegister Bamberg; Quelle(n): https://www.gelbeseiten.de/gsbiz/271673e0-9cc6-4f67-b076-a3a44032e55e + Das-Telefonbuch-Personentreffer (Lead, kein Beleg)]

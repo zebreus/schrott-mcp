@@ -28,6 +28,10 @@ Verzeichnis-Leads führen „Schrott Jürgen“ an Thomas-Mann-Str. 49 A, 90471 
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Gelbe-Seiten-Detail heute HTTP 200 direkt gelesen, weiterhin Schrott Jürgen/Thomas-Mann-Str. 49A/90471 Nürnberg-Langwasser; keine zugeordnete Betreiberwebsite oder aktuelle Annahmebedingungen. Allgemeine Website-/E-Mail-Schaltflächen belegen keinen Händlerauftritt. Personen-/Namensreihenfolge und Gewerblichkeit bleiben offen, keine Vereins- oder anderen Jürgen-Schrott-Daten zugeschrieben. Frontmatter/status pruefung unverändert. Ankauf: keine Zahlen; Verkauf: keine Preise; Gebühren: keine Tarife. GEO nach unabhängigem Identitäts- und Kundenstandortbeleg, nicht nach Portalpunkt. Quelle: https://www.gelbeseiten.de/gsbiz/9ef348af-0f18-4f93-9c55-0bf3ec08ca15 .]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: Gelbe-Seiten-Detail erneut direkt gelesen: weiterhin Thomas-Mann-Str. 49A, 90471 Nürnberg-Langwasser, 0911 813348, Kategorie Schrott, ohne konkrete Website, Zeiten oder Leistungsbeleg. Die allgemeine UI-Schaltfläche Website ist kein Betreiberlink. Namenssuche liefert daneben Jürgen Schrott im Vereinskontext Tourenclub D’Bergfex’n; ohne eindeutige Personen-/Geschäftsverbindung kein Identitätsnachweis und keine Übernahme dieser Daten. Verzeichnislead bleibt Lead, pruefung und leere Kontakte bleiben. Ankauf: keine Liste; Verkauf: keine Preise; Gebühren: keine Tarife. GEO-Bedarf: Händleridentität und tatsächliche Annahmestelle an Thomas-Mann-Straße erst unabhängig bestätigen. Quellen: https://www.gelbeseiten.de/gsbiz/9ef348af-0f18-4f93-9c55-0bf3ec08ca15 ; https://www.companyhouse.de/en/Tourenclub-DBergfexn-1912-eV-Nuernberg (nur Suchlead, keine Personenverknüpfung).]

@@ -30,6 +30,10 @@ Der direkt geprüfte Verzeichnislead nennt Katharina Wagner Schrotthandel, Im Ba
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Portal-Detail heute HTTP 200 direkt gelesen, weiterhin Im Barnholz 5/74731 Walldürn/06282 928204; Homepage-Zeile enthält PHP-Deprecated-Fehler, Angebot und Zeiten ausdrücklich nicht erfasst. Namenssuche führt unter anderem zum Wagner-Auftritt Billigheim/Neckarelz; ohne Katharina-/Walldürn-Verbindung nicht zurechnen. Räumliche Nähe zu Bruch ist ebenfalls keine Nachfolgekette. Keine Frontmatter-Füllung, pruefung bleibt. Ankauf: keine Kurse; Verkauf: keine Liste; Gebühren: keine Tarife. GEO erst nach aktuellem Gewerbe-/Betreiberbeleg zur Katharina-Wagner-Identität und Annahmestelle. Quelle: https://www.schrottplatz-info.de/schrottplatz/Wallduern/Wagner-Katharina-Schrotthandel .]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: Schrottplatz-Info-Detail direkt gelesen: Im Barnholz 5, 74731 Walldürn, 06282 928204; Homepage-Link enthält PHP-Deprecated-Fehler und keinen verwertbaren Betreiber-URL. Öffnungszeiten und Angebot ausdrücklich nicht erfasst. Namenssuche findet weitere Portale, aber keine qualifizierte Betreiber-/Registerbestätigung; Übereinstimmung mehrerer Portale genügt nicht. Keine Kontaktdaten übernommen, keine Verknüpfung mit Bruch & Söhne. Ankauf: keine Zahlen; Verkauf: keine Liste; Gebühren: keine Angaben. GEO-Bedarf erst nach Identitäts-/Adressnachweis; Quelle: https://www.schrottplatz-info.de/schrottplatz/Wallduern/Wagner-Katharina-Schrotthandel (Lead); https://wallduern.branchen-info.net/fp_2546444.php (Suchlead).]

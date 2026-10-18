@@ -36,6 +36,10 @@ Am 17.10.2026 zusätzlich als **Georg Altschäffl Metallhandel Containerdienst**
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Exaktes Creditreform-Profil 8230186164 heute erneut direkt versucht, HTTP 403 ohne lesbaren Profiltext. Der qualifizierte Quellenkandidat ist damit weiterhin nicht volltextlich geprüft; weder Betreiber-/Aktivstatus noch Anschrift neu bestätigt. Altschäffl-Schreibweise und Metallhandel Containerdienst als Suchvarianten erhalten, keine Verbindung zu anderen Deggendorfer Entsorgern angenommen. Frontmatter/status unbekannt unverändert. Ankauf: keine geprüften Zahlen; Verkauf: keine Liste; Gebühren: keine Container-/Entsorgungstarife. GEO erst nach aktuellem Betreiber-/Standortbeleg zur Unteren Himmelreichstraße; der blockierte Abruf ist kein Schließungsbeleg. Quelle: https://firmeneintrag.creditreform.de/94469/8230186164/GEORG_ALTSCHAEFFL_METALLHANDEL_CONTAINERDIENST .]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: Neue qualifizierte Quellenkategorie als Kandidat gefunden: Creditreform-Suchindex nennt Georg Altschäffl Metallhandel Containerdienst, Untere Himmelreichstr.13, 94469 Deggendorf, +49 99125233. Direktabruf HTTP403, daher kein gelesener Profil-/Aktivitätsbeleg und noch kein Quellenpaar für Frontmatter-Fills. Treffer als ähnliche Firmen auf Avas-/Carnuth-Profilen sind keine Zugehörigkeit oder Nachfolgekette; diese Unternehmen nicht übernehmen. Der präzisere Suchname Metallhandel Containerdienst kann die nächste Register-/Gewerbeprüfung leiten. Ankauf: keine Kursliste; Verkauf: keine Preise; Gebühren: keine Container-/Entsorgungstarife. GEO-Bedarf Adresse weiterhin unabhängig volltextlich bestätigen. Quelle: https://firmeneintrag.creditreform.de/94469/8230186164/GEORG_ALTSCHAEFFL_METALLHANDEL_CONTAINERDIENST (Indexfund/HTTP403).]

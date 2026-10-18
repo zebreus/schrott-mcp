@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Walter Behncke e.K., Inh. Bernd Behncke, ist für Kulemannstieg 32, 22457 Hamburg-Schnelsen in Firmen-/Registerspiegeln geführt; ein weiterer Recherchevermerk dokumentiert übereinstimmende Telefon-/Adressleads. Eine aktuelle Betreiberwebsite mit Publikumsbedingungen wurde nicht verifiziert. Anschrift und Telefon bleiben gemäß der bestehenden Ausnahmebeleglage erhalten; Öffnungszeiten/Privatannahme nicht daraus ableiten.
+Walter Behncke e.K., Inh. Bernd Behncke, ist für Kulemannstieg 32, 22457 Hamburg-Schnelsen in Firmen-/Registerspiegeln geführt. Der aktuell gelesene Schrottregister-Spiegel bezeichnet sich ausdrücklich als nichtamtlich und nennt Datenabruf 11.08.2026. Das ist ein plausibler Anlagenlead, kein heute direkt geprüfter Register-/Zertifikatsnachweis und kein Beleg aktueller Kundenannahme. Anschrift und Telefonnummer bleiben unverifizierte Bestandswerte; der frühere Aggregator-Ausnahmefall genügt nicht für gesicherten Aktivstatus, deshalb pruefung (keine Schließungsfeststellung).
 
 **Preise (Ankauf/Verkauf/Gebühren):** keine Betreiberpreisliste oder belastbare Ankaufskurse/Verkaufspreise/Gebühren belegt. **Offen:** aktuelle Kundenannahme und Preisbildung direkt klären. Quellen und Beleggewichtung siehe Recherche 02.10. und 04.10.2026, insbesondere https://schrottregister.pages.dev/ort-hamburg.
 
 ## Timeline
+
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Korrektur 18.10.2026: Schrottregister-Ortsseite live gelesen: Walter Behncke e.K., Inh. Bernd Behncke, Kulemannstieg 32, Lagern/Behandeln; Seite kennzeichnet sich als unabhängiges, nicht amtliches Angebot mit Registerabruf 11.08.2026. Kein direkt eingesehener aktueller EFB-/HR-Einzelnachweis; NorthData-Suggest Walter Behncke heute HTTP 429. Altvermerk Creditreform ohne konkrete URL nicht als frisch verifiziert behandelt. Bestehende Adresse/Telefon als Legacy-Leads erhalten, status aktiv → pruefung wegen unzureichender aktueller Betreiber-/Annahmebestätigung; kein Schließungsurteil, kein Zusammenschluss mit Nachbarn Kulemannstieg 33. Ankauf/Verkauf/Gebühren ohne Zahlen. GEO erst nach aktueller Betriebs-/Annahmestellenprüfung. Quellen: https://schrottregister.pages.dev/ort-hamburg (nichtamtlicher Lead) ; https://www.northdata.de/suggest.json?query=Walter%20Behncke&countries=DE (HTTP 429).]
 
 ### Recherche 04.10.2026
 

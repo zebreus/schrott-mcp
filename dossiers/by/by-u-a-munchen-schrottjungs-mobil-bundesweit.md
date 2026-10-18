@@ -28,6 +28,10 @@ Mobiler Vermittlungs-/Partnerdienst für Privat/Gewerbe, keine eigene Münchner 
 
 ## Timeline
 
+### Recherche 18.10.2026 — Welle 12:02 Süd
+
+- [Recherche 18.10.2026: Root, Impressum, Gewerbe und München heute einzeln HTTP 200 direkt gelesen; Impressum Schrottjungs UG/Magnus Ditz/HRB 196586 Hamburg/Billwerder Steindamm 15a; München nennt weiterhin Anlieferung Entel GmbH, Lerchenstraße 19, 80995 München. Keine eigene Münchner Filiale, keine neue Registerprüfung oder Vollcrawl sämtlicher Serviceorte behauptet. ANKAUF: alle 19 am 16.10. ausgeschriebenen Zahlen weiterhin sichtbar und unverändert, ausschließlich unverbindliche BIS-ZU-Großmengenrichtpreise in EUR/t FE bzw. EUR/kg NE, Kleinmengen andere Konditionen, Tagespreise auf Anfrage, kein Seitengültigkeitsdatum/USt-Basis gelesen. VERKAUF: keine Liste in diesen Seiten. GEBÜHREN: Root weiterhin 40–80 EUR versus Kosten-FAQ 20–50 EUR, München 40–80 EUR; dort Eisen unter 300 kg zugleich Ausschluss und kostenpflichtige Ausnahme. Mietfreie Gewerbecontainer nur bei Schrottbefüllung. Keine Zahlen als garantierte Entel-/Privatkundenkurse ausgeben. Frontmatter unverändert, GEO eigene Station unzulässig; Partner separat halten. Quellen: https://schrottjungs.de/ ; https://schrottjungs.de/impressum-datenschutz/ ; https://schrottjungs.de/gewerbe/ ; https://schrottjungs.de/schrottabholung-muenchen/ .]
+
 ### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
 
 - [Recherche 16.10.2026: Root, Gewerbe, München und Impressum einzeln neu direkt gelesen. Impressum weiterhin Schrottjungs UG/Magnus Ditz, Hamburg HRB 196586, Billwerder Steindamm 15a; München weiterhin Partneranlieferung Entel GmbH/Lerchenstraße 19/80995, keine eigene SchrottJungs-Filiale. Nur diese vier Seiten neu geprüft, kein erneuter Vollcrawl sämtlicher Stadtseiten behauptet. Kein Standort-/GEO-Fill und Frontmatter unverändert. Quellen: https://schrottjungs.de/ ; https://schrottjungs.de/gewerbe/ ; https://schrottjungs.de/schrottabholung-muenchen/ ; https://schrottjungs.de/impressum-datenschutz/ .]

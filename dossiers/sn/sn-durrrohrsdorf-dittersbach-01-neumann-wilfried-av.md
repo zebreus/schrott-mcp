@@ -32,6 +32,10 @@ Aktueller Betreiber, zertifizierte Altautoannahme, Abholung und Preise sind noch
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: GADSYS-Altfahrzeugregister heute direkt HTTP 200, auswertbarer Text jedoch leer/JS-Anwendung; kein Neumann-Einzelbetrieb und keine Zertifikatslaufzeit ausgelesen. Deshalb weder Anerkennung bestätigen noch aus fehlendem Text Aberkennung oder Schließung ableiten. Bestehende Wünschendorfer Radeberger-Str.-17-Spur, Telefon und Beschreibung weiterhin nur Legacy-/Verzeichnisleads; kein Orts-/Kontaktfill, status pruefung erhalten. Ankauf ohne geprüften Betrag, Verkauf ohne Teilepreise, Gebühren ohne Abhol-/Entsorgungstarif. Nächster Gate-Schritt konkrete GESA-/Gewerbeauskunft Wilfried Neumann/Radeberger Straße 17 statt weiterer Verzeichniszählung; erst danach Hof-GEO. Quelle: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 09.10.2026
 
 - [Recherche 09.10.2026: Northdata-Suggest Wilfried Neumann liefert Personen in Bad Essen, Radebeul und Uffenheim, keine beweisbare Verknüpfung zur Wünschendorfer Autoverwertung; keine Übernahme von Namensvetterdaten. GADSYS-Fachbetrieberegister direkt HTTP 200 abgerufen, jedoch nur JavaScript-Shell ohne auswertbaren Neumann-Einzeldatensatz. Kein Negativbeweis für Zertifizierung oder Betrieb. website_status unbekannt normalisiert; Legacy-Telefon/-Beschreibung und status pruefung erhalten. Keine numerischen Ankauf-, Verkaufs- oder Gebührentarife verifiziert. Offen: exakter GESA-/Zertifikatsnachweis und kommunale Gewerbeauskunft zur Radeberger Str. 17; Quellen: https://www.northdata.de/suggest.json?query=Wilfried%20Neumann&countries=DE ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]

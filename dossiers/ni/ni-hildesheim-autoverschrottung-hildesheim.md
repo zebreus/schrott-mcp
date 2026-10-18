@@ -29,6 +29,10 @@ Der Betreiberauftritt beschreibt einen mobilen, deutschlandweit verfügbaren Aut
 
 ## Timeline
 
+### Recherche 18.10.2026 (Welle 1202 Nordost)
+
+- [Recherche 18.10.2026: Impressum heute live gelesen: A. Lahib, Braunschweiger Str. 18, 31134, ausdrücklich mobiler Dienst, zentrale Abwicklung Hildesheim, andere Stadtseiten keine festen Niederlassungen; Abholung durch Team oder geprüfte Partnerbetriebe, aber kein konkret benannter Partnerhof/Zertifikat in diesem Inhalt. Ohne HR-Kennung/zulässigen unabhängigen Identitätsbeleg weiterhin Betreiber-Einzelbeleg, keine Owner-Ausnahme. Status pruefung, leere Hof-/Kontaktfelder erhalten; Impressumsadresse nicht als Annahmehof/GEO behandeln. Ankauf: Werbeaussage bares Geld ist kein garantierter Betrag; Verkauf: keine Preisliste; Gebühren: heutiger Impressumsabruf liefert keine Tarife, ältere kostenlose Servicewerbung nicht als neuen Tarifnachweis ausgegeben. Quelle: https://autoverschrottung-hildesheim.de/impressum/ .]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Impressum sowie konkrete Ankauf-/Entsorgungsseiten neu live gelesen. A.Lahib/Braunschweiger Str.18/31134 Hildesheim, mobiler zentraler Dienst ohne feste andere Niederlassungen unverändert. Neue Qualitätsgrenze: Leistungsseiten bezeichnen sich als zertifizierten Demontagebetrieb, auto-entsorgen erwähnt sogar Tätigkeit im gesamten Raum Nordrhein-Westfalen; im gelesenen Inhalt kein konkret benannter zertifizierter Partnerhof, Sachverständigenbescheid oder Betriebsnummer. Das ist keine Anerkennungsbestätigung. GESA-Informationsseite erklärt fachlich Demontagebetrieb versus Annahmestelle und verweist auf Betriebssuche; aus der Anwendung kein zugeordneter Hildesheimer Betriebsdatensatz ausgelesen. Kein Hof-GEO aus der Impressumsadresse. Quelle(n): https://autoverschrottung-hildesheim.de/impressum/ ; https://autoverschrottung-hildesheim.de/schrottauto-ankauf ; https://autoverschrottung-hildesheim.de/auto-entsorgen ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung]
