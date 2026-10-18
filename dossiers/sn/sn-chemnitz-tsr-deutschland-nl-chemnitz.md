@@ -6,6 +6,8 @@ state: SN
 city: Chemnitz
 street: Frankenberger Straße 155a
 postcode: '09131'
+lat: 50.860415
+lon: 12.941881
 phone: +49 371 3563998-0
 email: chemnitz@tsr.eu
 opening_hours: 'Mo, Mi, Fr 07:00–16:00; Di, Do 07:00–17:30'
@@ -26,9 +28,13 @@ provenance_origin: table
 
 TSR Deutschland GmbH & Co. KG betreibt den Chemnitzer Standort Frankenberger Straße 155a. Konkrete Betreiber-Detailseite und EdDE-Zertifikat bestätigen dieselbe Niederlassung; nicht mit Scholz an der Uhlestraße 20 verwechseln. Die Detailseite nennt vergütete Fe-/NE-Annahme für Privat-, Gewerbe- und Industriekunden, Kleinmengen, mögliche Auszahlung vor Ort, Abholung und Containerdienst. Altfahrzeugankauf wird mit individuellem Angebot beworben; daraus keinen garantierten Restwert oder bestimmten Demontagezertifikatsumfang ableiten.
 
-**Ankauf:** tagesaktuell/individuelles Angebot, keine bezifferten Kurse. **Verkauf:** keine standortspezifische Liste. **Gebühren:** keine veröffentlichten Container-/Abholtarife. **GEO:** Frankenberger Straße 155a ist nun belegter Adresskandidat für Owner-Prüfung; keine Koordinaten gesetzt.
+**Ankauf:** tagesaktuell/individuelles Angebot, keine bezifferten Kurse. **Verkauf:** keine standortspezifische Liste. **Gebühren:** keine veröffentlichten Container-/Abholtarife. **GEO:** 50.860415/12.941881 als abgeleitete Mitte des adresskongruenten TSR-Gebäudes (OSM-Way 520190347), nicht als bestätigtes Tor, Kundenannahmepunkt oder Gesamtgeländezentrum; Owner-Abgleich 18.10.2026.
 
 ## Timeline
+
+### GEO-Prüfung 18.10.2026 (Owner-Check-in 12:30)
+
+- [Korrektur 18.10.2026: WGS84-Paar lat 50.860415/lon 12.941881 als adresskongruenten Gebäudereferenzpunkt ins Frontmatter übernommen. Owner las um 12:34 UTC vollständige OSM-Geometrie separat HTTP 200: Way 520190347 Version 5, Objektstand 16.11.2019, Name TSR Recycling, Frankenberger Straße 155a/09131 Chemnitz. Vier verschiedene Eckknoten 5070711907/1909/1910/1908 bilden ein Parallelogramm; Mittelwert 50.86041545/12.94188145 entspricht dessen Flächenschwerpunkt, auf sechs Dezimalstellen gerundet. Dezimalstellen sind Reproduktionspräzision, keine Submeter-Vermessung; Gebäude etwa 47 mal 60 m, kein daraus abgeleiteter Fehlerkreis. Alte OSM-Firmierung beweist keine heutige Rechtsform/Nachfolge: Karten lokalisieren den schon separat register-/betreibergeprüften Standort. Nicht Hausnummer 155/155c/155d, benachbarte WMS oder Scholz/Uhlestraße verwenden. Keine bestätigte Zufahrt, Waage oder Gesamtgeländemitte; kartierte service/driveway-Wege nicht als Tor umdeuten. Betreiber-Detailabruf im GEO-Teilauftrag lieferte Challenge, deshalb kein Paar als heute gelesene Betreiberkartenkoordinate behauptet. Produktionsaltpaar 50.82073333333334/12.910466666666668 aus lesendem Bestandsabgleich liegt rund 4,93 km entfernt; Agenten-Umfeldprüfung im kartierten Wohngebiet Parkstraße/Herderstraße. Keine historische Verlagerung daraus abgeleitet. Keine Nominatim-Anfrage in diesem Teilauftrag, keine Sperrumgehung, kein Rust-Geocoding oder Produktionsschreiben. Quellen: https://www.openstreetmap.org/api/0.6/way/520190347/full.json ; https://www.openstreetmap.org/way/520190347 ; https://www.openstreetmap.org/api/0.6/map?bbox=12.9094,50.8200,12.9115,50.8214 (Umfeldprüfung im separaten GEO-Bericht); https://www.tsr-recycling.de/standorte/schrotthaendler-chemnitz/ (GEO-Abruf mit Challenge, Standortbelege in früherer Recherche).]
 
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 

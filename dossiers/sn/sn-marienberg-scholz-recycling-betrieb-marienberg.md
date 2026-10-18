@@ -6,6 +6,8 @@ state: SN
 city: Marienberg
 street: Reitzenhainer Straße 35 c
 postcode: '09496'
+lat: 50.64031
+lon: 13.15493
 phone: +49 3735 22495
 email: marienberg@scholz-recycling.de
 opening_hours: 'Mo–Do 07:00–09:00, 09:15–12:00, 12:30–16:00; Fr 07:00–09:00, 09:15–12:00, 12:30–13:45; laut Sonderhinweis 1. Samstag im Monat 08:00–12:00, sonst Sa geschlossen; Feiertagsausnahmen beachten'
@@ -26,9 +28,13 @@ provenance_origin: table
 
 Aktueller Scholz-Recycling-Schrottplatz an der Reitzenhainer Straße 35 c, 09496 Marienberg. Der öffentliche Datenendpunkt des offiziellen Standortfinders liefert standortspezifische Anschrift, Telefon, Mail und Zeiten; das ESN-EFB-Zertifikat 2026 stützt Aktualität und Betriebsstätte. Der nachträgliche Registerabgleich im Review vom 18.10.2026 qualifiziert den Betreiber für die autoritative Betreiber-Ausnahme, nicht eine erfundene zweite Quellenklasse EFB. Die alte, praktisch leere Detailseite mit Datum 25.09.2017 war daher kein ausreichender Maßstab für die heutige Standortlage. Standortdaten enthalten einen Samstagswiderspruch: Standardfeld geschlossen, Sonderhinweis erster Samstag 08–12; vor Besuch bestätigen.
 
-**Preise:** **Ankauf** — keine branchenspezifischen Zahlen; allgemeine Scholz-Fotoanfrage für eine marktorientierte Wertschätzung, Preis auf Anfrage. **Verkauf** — keine Standort-Verkaufspreise gefunden. **Gebühren** — keine Standorttarife gefunden. Das Zertifikat bestätigt Fe-/NE-Schrottlagerung/-behandlung, nicht pauschal einen anerkannten PKW-Demontagebetrieb: AVV 160106 ist ausdrücklich auf Fahrzeuge außerhalb der AltfahrzeugV eingeschränkt. Kategorie deshalb Schrottplatz statt unbestätigter Autoverwertung. Privatannahme und einzelne Annahmebedingungen vorab klären. **GEO:** neue belegte Anschrift nach Owner-Gate prüfen/geokodieren; keine Koordinaten übernommen.
+**Preise:** **Ankauf** — keine branchenspezifischen Zahlen; allgemeine Scholz-Fotoanfrage für eine marktorientierte Wertschätzung, Preis auf Anfrage. **Verkauf** — keine Standort-Verkaufspreise gefunden. **Gebühren** — keine Standorttarife gefunden. Das Zertifikat bestätigt Fe-/NE-Schrottlagerung/-behandlung, nicht pauschal einen anerkannten PKW-Demontagebetrieb: AVV 160106 ist ausdrücklich auf Fahrzeuge außerhalb der AltfahrzeugV eingeschränkt. Kategorie deshalb Schrottplatz statt unbestätigter Autoverwertung. Privatannahme und einzelne Annahmebedingungen vorab klären. **GEO:** Betreiber-Standortmarker 50.64031/13.15493 unmittelbar beim adresskongruenten Betriebsgebäude, kein bestätigter Zufahrtspunkt oder vermessenes Geländezentrum; Owner-Abgleich 18.10.2026, 12:32 UTC.
 
 ## Timeline
+
+### GEO-Prüfung 18.10.2026 (Owner-Check-in 12:30)
+
+- [Korrektur 18.10.2026: WGS84-Paar lat 50.64031/lon 13.15493 aus dem öffentlichen Betreiber-JSON ins Frontmatter übernommen. Owner hat um 12:32 UTC JSON und vollständiges OSM-Objekt separat direkt gelesen: eindeutiger Datensatz Scholz Recycling GmbH/Reitzenhainer Straße 35 c/09496 Marienberg mit genau diesem Paar, Telefon und lokaler Mail. OSM-Way 587548042 Version 2, Objektstand 18.11.2018, nennt denselben Namen, Straße und Hausnummer 35C; Gebäuderepräsentationspunkt etwa 15 m nördlich. Betreiberpunkt daher Standortmarker unmittelbar beim Betriebsgebäude, kein Gebäude-/Geländezentrum, keine verifizierte Waage oder Kundenzufahrt, kein seriös belegter numerischer Genauigkeitsradius. Keine Mittelung, kein Gewerbepolygon als Betreibergrenze; Hausnummern 35/35a und Nachbarbetriebe nicht übertragen. Produktionsaltpaar 50.6132/13.1883 im heutigen lesenden Bestandsabgleich rund 3,82 km entfernt, Agenten-Umfeldprüfung im kartierten Wald; nicht als haltbarer Punkt zur neuen Adresse behandeln. Keine historische Verlagerung daraus abgeleitet. Karten lokalisieren den bereits register-/betreibergeprüften Standort, ersetzen keine Firmenkette. Privatannahme und altes Produktions-Annahme-JSON bleiben eigenes offenes Gate. Keine Produktionsänderung, kein Rust-Geocoding. Quellen: https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ; https://www.openstreetmap.org/api/0.6/way/587548042/full ; https://www.openstreetmap.org/way/587548042 ; https://www.openstreetmap.org/api/0.6/map?bbox=13.1858,50.6115,13.1908,50.6149 (Umfeldprüfung im separaten GEO-Bericht).]
 
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 
