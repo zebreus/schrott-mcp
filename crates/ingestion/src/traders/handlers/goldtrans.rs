@@ -9,8 +9,8 @@
 use scraper::{Html, Selector};
 
 use super::super::{
-    Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo, fetch_text, parse_de_date,
-    parse_eur,
+    fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -660,12 +660,10 @@ mod tests {
         assert_eq!(rows[0].2, "EUR/g");
         assert_eq!(rows[2].0, "Zahngold (Ohne Z\u{00e4}hne, Gelb)");
         assert_eq!(rows[2].1, 69.02);
-        assert!(
-            published
-                .as_deref()
-                .unwrap_or_default()
-                .starts_with("2026-09-27")
-        );
+        assert!(published
+            .as_deref()
+            .unwrap_or_default()
+            .starts_with("2026-09-27"));
         assert_eq!(unit_of("111,33 \u{20ac}/g"), Some("EUR/g"));
         assert_eq!(unit_of("auf Anfrage"), None);
         assert!(

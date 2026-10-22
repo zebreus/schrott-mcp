@@ -7,10 +7,10 @@ use std::collections::BTreeSet;
 use scraper::{ElementRef, Html, Selector};
 use serde::{Deserialize, Serialize};
 
-use crate::IngestError;
 use crate::traders::{HandlerOutcome, ScrapedAcceptance, ScrapedPrice};
+use crate::IngestError;
 
-use super::{URL, extract_info, parse_de_date};
+use super::{extract_info, parse_de_date, URL};
 
 #[derive(Debug, Clone, Deserialize, Serialize, PartialEq)]
 #[serde(deny_unknown_fields)]
@@ -1117,17 +1117,15 @@ mod tests {
         ] {
             assert_ne!(html, HTML, "mutation must reach real fixture");
             let s = snapshot(&html);
-            assert!(
-                !s.outcome
-                    .prices
-                    .iter()
-                    .any(|p| p.material == "kupfer-millberry")
-            );
-            assert!(
-                s.diagnostics
-                    .iter()
-                    .any(|d| d.contains("MET-KU-MILL: missing known article"))
-            );
+            assert!(!s
+                .outcome
+                .prices
+                .iter()
+                .any(|p| p.material == "kupfer-millberry"));
+            assert!(s
+                .diagnostics
+                .iter()
+                .any(|d| d.contains("MET-KU-MILL: missing known article")));
         }
         assert_eq!(
             snapshot(HTML).outcome.prices.len(),
@@ -1189,14 +1187,12 @@ mod tests {
         ] {
             assert!(parse(HTML, &IMP.replace(old, new), 200).is_err(), "{new}");
         }
-        assert!(
-            parse(
-                HTML,
-                &IMP.replace("HRA 61664", "HRA 61664 Registernummer: HRA 616640"),
-                200
-            )
-            .is_err()
-        );
+        assert!(parse(
+            HTML,
+            &IMP.replace("HRA 61664", "HRA 61664 Registernummer: HRA 616640"),
+            200
+        )
+        .is_err());
     }
 
     #[test]
@@ -1286,12 +1282,11 @@ mod tests {
                 assert!(a.tiers.is_empty());
                 assert!(a.price_eur_per_kg.is_none());
                 assert!(!s.outcome.prices.iter().any(|p| p.label == a.label));
-                assert!(
-                    s.outcome
-                        .acceptances
-                        .iter()
-                        .any(|p| p.label == a.label && p.conditions.contains(&a.article))
-                );
+                assert!(s
+                    .outcome
+                    .acceptances
+                    .iter()
+                    .any(|p| p.label == a.label && p.conditions.contains(&a.article)));
             } else {
                 let p = s
                     .outcome
@@ -1417,31 +1412,27 @@ mod tests {
         let s = snapshot(&HTML.replacen("MKM-CU-02", "NEW-CU-02", 1));
         assert_eq!(s.articles.len(), 61);
         assert_eq!(s.outcome.prices.len(), 55);
-        assert!(
-            s.diagnostics
-                .iter()
-                .any(|d| d.contains("NEW-CU-02: unknown article"))
-        );
-        assert!(
-            s.diagnostics
-                .iter()
-                .any(|d| d.contains("MKM-CU-02: missing known article"))
-        );
+        assert!(s
+            .diagnostics
+            .iter()
+            .any(|d| d.contains("NEW-CU-02: unknown article")));
+        assert!(s
+            .diagnostics
+            .iter()
+            .any(|d| d.contains("MKM-CU-02: missing known article")));
         let s = snapshot(&HTML.replace("Kupfergranulat</a>", "Kupfergranulat neu</a>"));
-        assert!(
-            s.diagnostics
-                .iter()
-                .any(|d| d.contains("MKM-CU-02: changed identity"))
-        );
+        assert!(s
+            .diagnostics
+            .iter()
+            .any(|d| d.contains("MKM-CU-02: changed identity")));
         let s = snapshot(&HTML.replace(
             "href=\"/metallankauf/produkt/kupfergranulat\"",
             "href=\"/metallankauf/produkt/anderer-artikel\"",
         ));
-        assert!(
-            s.diagnostics
-                .iter()
-                .any(|d| d.contains("MKM-CU-02: changed identity"))
-        );
+        assert!(s
+            .diagnostics
+            .iter()
+            .any(|d| d.contains("MKM-CU-02: changed identity")));
     }
 
     #[test]
@@ -1451,21 +1442,18 @@ mod tests {
             "Verkaufpreise für Hartmetall",
         ));
         assert_eq!(s.articles.len(), 56);
-        assert!(
-            s.diagnostics
-                .iter()
-                .any(|d| d.contains("SW10038: missing known article; retirement NOT authorized"))
-        );
+        assert!(s
+            .diagnostics
+            .iter()
+            .any(|d| d.contains("SW10038: missing known article; retirement NOT authorized")));
         assert!(parse(&HTML.replacen("MKM-CU-02", "MET-KU-MILL", 1), IMP, 200).is_err());
         assert!(parse(HTML, IMP, 206).is_err());
-        assert!(
-            parse(
-                "<table><caption>Ankaufpreise für Kupfer</caption><tbody></tbody></table>",
-                IMP,
-                200
-            )
-            .is_err()
-        );
+        assert!(parse(
+            "<table><caption>Ankaufpreise für Kupfer</caption><tbody></tbody></table>",
+            IMP,
+            200
+        )
+        .is_err());
     }
 
     #[test]
@@ -1474,47 +1462,37 @@ mod tests {
         // occurrences to ensure the real visible product cell is exercised.
         assert!(parse(&HTML.replace("11,13 €", "0,00 €"), IMP, 200).is_err());
         assert!(parse(&HTML.replacen("/kg</span>", "/t</span>", 1), IMP, 200).is_err());
-        assert!(
-            parse(
-                &HTML.replacen("ab 250 kg</span>", "ab 300 kg</span>", 1),
-                IMP,
-                200
-            )
-            .is_err()
-        );
-        assert!(
-            parse(
-                &HTML.replacen("&quot;preis&quot;:11.13", "&quot;preis&quot;:99", 1),
-                IMP,
-                200
-            )
-            .is_err()
-        );
-        assert!(
-            parse(
-                &HTML.replacen("data-price=\"10.6000\"", "data-price=\"99\"", 1),
-                IMP,
-                200
-            )
-            .is_err()
-        );
+        assert!(parse(
+            &HTML.replacen("ab 250 kg</span>", "ab 300 kg</span>", 1),
+            IMP,
+            200
+        )
+        .is_err());
+        assert!(parse(
+            &HTML.replacen("&quot;preis&quot;:11.13", "&quot;preis&quot;:99", 1),
+            IMP,
+            200
+        )
+        .is_err());
+        assert!(parse(
+            &HTML.replacen("data-price=\"10.6000\"", "data-price=\"99\"", 1),
+            IMP,
+            200
+        )
+        .is_err());
         assert!(parse(&HTML.replace("11,13 €", "-11,13 €"), IMP, 200).is_err());
-        assert!(
-            parse(
-                &HTML.replacen("ab 250 kg</span>", "ab -250 kg</span>", 1),
-                IMP,
-                200
-            )
-            .is_err()
-        );
-        assert!(
-            parse(
-                HTML,
-                &IMP.replace("Inhaber: Mubarik Ahmad", "Inhaber: Andere Firma"),
-                200
-            )
-            .is_err()
-        );
+        assert!(parse(
+            &HTML.replacen("ab 250 kg</span>", "ab -250 kg</span>", 1),
+            IMP,
+            200
+        )
+        .is_err());
+        assert!(parse(
+            HTML,
+            &IMP.replace("Inhaber: Mubarik Ahmad", "Inhaber: Andere Firma"),
+            200
+        )
+        .is_err());
     }
 
     #[test]
@@ -1644,28 +1622,22 @@ mod tests {
                 public.existing_acceptance(tid, mid).unwrap(),
                 Some((true, a.conditions.clone()))
             );
-            assert!(
-                public
-                    .current_price_for(tid, mid, &a.label)
-                    .unwrap()
-                    .is_none()
-            );
+            assert!(public
+                .current_price_for(tid, mid, &a.label)
+                .unwrap()
+                .is_none());
         }
         // Explicitly verify what remains unsafe rather than calling this a
         // complete production fix. Append-only history is not touched.
         let mid = public.find_material_id("kabel-kupfer").unwrap().unwrap();
-        assert!(
-            public
-                .current_price_for(tid, mid, "Stecker 30%")
-                .unwrap()
-                .is_some()
-        );
-        assert!(
-            public
-                .current_price_for(tid, mid, "historisch entfernt")
-                .unwrap()
-                .is_some()
-        );
+        assert!(public
+            .current_price_for(tid, mid, "Stecker 30%")
+            .unwrap()
+            .is_some());
+        assert!(public
+            .current_price_for(tid, mid, "historisch entfernt")
+            .unwrap()
+            .is_some());
         assert_eq!(
             public
                 .price_history(tid, mid, "Stecker 30%", 10)

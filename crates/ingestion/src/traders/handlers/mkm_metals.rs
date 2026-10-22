@@ -12,7 +12,7 @@ use scraper::{ElementRef, Html, Selector};
 
 #[cfg(test)]
 use super::super::parse_eur;
-use super::super::{Handler, HandlerOutcome, Schedule, TraderInfo, parse_de_date};
+use super::super::{parse_de_date, Handler, HandlerOutcome, Schedule, TraderInfo};
 use crate::IngestError;
 
 /// Full article-aware parser and diagnostic inventory.
@@ -429,13 +429,11 @@ mod tests {
             "{:?}",
             snapshot.diagnostics
         );
-        assert!(
-            snapshot
-                .outcome
-                .prices
-                .iter()
-                .any(|p| p.label == "Nickel rein ab 99 %" && p.material == "nickel")
-        );
+        assert!(snapshot
+            .outcome
+            .prices
+            .iter()
+            .any(|p| p.label == "Nickel rein ab 99 %" && p.material == "nickel"));
     }
 
     // Real live markup of the Kupfer table (caption + 4 of 13 rows: the

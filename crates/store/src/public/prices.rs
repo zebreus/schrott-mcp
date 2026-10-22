@@ -23,7 +23,7 @@
 //! scan. The `v_current_prices` view pre-joins everything agents usually
 //! want.
 
-use rusqlite::{OptionalExtension as _, params};
+use rusqlite::{params, OptionalExtension as _};
 
 use super::PublicDb;
 use crate::error::StoreError;
@@ -1268,10 +1268,9 @@ mod tests {
                 db.record_price(&incoming).is_err(),
                 "foreign/unmarked API write must reject owned key"
             );
-            assert!(
-                db.record_price_snapshot(&[incoming], &[], "other-producer")
-                    .is_err()
-            );
+            assert!(db
+                .record_price_snapshot(&[incoming], &[], "other-producer")
+                .is_err());
             let after = db.current_price_for(trader, material, "").unwrap().unwrap();
             assert_eq!(after.id, id);
             assert_eq!(format!("{after:?}"), format!("{before:?}"));
@@ -1291,15 +1290,13 @@ mod tests {
         );
         p.source_url = "https://mkm-metals.de/metallpreise";
         p.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
-        assert!(
-            db.record_price_snapshot(&[p], &[], "mkm-article-v1")
-                .is_err()
-        );
-        assert!(
-            db.current_price_for(trader, material, "")
-                .unwrap()
-                .is_none()
-        );
+        assert!(db
+            .record_price_snapshot(&[p], &[], "mkm-article-v1")
+            .is_err());
+        assert!(db
+            .current_price_for(trader, material, "")
+            .unwrap()
+            .is_none());
     }
 
     #[test]
@@ -1348,11 +1345,10 @@ mod tests {
                     .id,
                 id
             );
-            assert!(
-                db.current_price_for(trader, material, "")
-                    .unwrap()
-                    .is_none()
-            );
+            assert!(db
+                .current_price_for(trader, material, "")
+                .unwrap()
+                .is_none());
             assert_eq!(
                 db.price_history(trader, material, "legacy", 10)
                     .unwrap()
@@ -1436,11 +1432,9 @@ mod tests {
                     &[(material, "conditions".to_owned())],
                 )
                 .unwrap_err();
-            assert!(
-                error
-                    .to_string()
-                    .contains("article manifest scope/completeness mismatch")
-            );
+            assert!(error
+                .to_string()
+                .contains("article manifest scope/completeness mismatch"));
             assert_eq!(
                 evidence(),
                 before,
@@ -1465,11 +1459,10 @@ mod tests {
         assert_eq!(ledger.len(), 2);
         assert_eq!(ledger[0][0].as_str(), Some(old_manifest.as_str()));
         assert_eq!(ledger[1][0].as_str(), Some(new_manifest.as_str()));
-        assert!(
-            db.current_price_for(trader, material, "legacy")
-                .unwrap()
-                .is_none()
-        );
+        assert!(db
+            .current_price_for(trader, material, "legacy")
+            .unwrap()
+            .is_none());
         assert_eq!(
             db.price_history(trader, material, "legacy", 10)
                 .unwrap()
@@ -1520,10 +1513,9 @@ mod tests {
             ..b
         };
         db.lock().unwrap().execute_batch("CREATE TRIGGER fail_b BEFORE INSERT ON prices WHEN NEW.variant='b' BEGIN SELECT RAISE(ABORT,'injected failure'); END;").unwrap();
-        assert!(
-            db.record_price_snapshot(&[a, b], &[legacy], "test")
-                .is_err()
-        );
+        assert!(db
+            .record_price_snapshot(&[a, b], &[legacy], "test")
+            .is_err());
         assert_eq!(
             db.current_price_for(trader, material, "")
                 .unwrap()
@@ -1531,11 +1523,10 @@ mod tests {
                 .id,
             legacy
         );
-        assert!(
-            db.current_price_for(trader, material, "a")
-                .unwrap()
-                .is_none()
-        );
+        assert!(db
+            .current_price_for(trader, material, "a")
+            .unwrap()
+            .is_none());
         assert_eq!(
             db.test_query("SELECT COUNT(*) FROM prices")[0][0],
             serde_json::json!(1)
@@ -1567,15 +1558,13 @@ mod tests {
             )
         };
         db.lock().unwrap().execute_batch("CREATE TRIGGER fail_retire BEFORE DELETE ON current_prices BEGIN SELECT RAISE(ABORT,'retirement failure'); END;").unwrap();
-        assert!(
-            db.record_price_snapshot(&[make_new()], &[legacy], "test")
-                .is_err()
-        );
-        assert!(
-            db.current_price_for(trader, material, "dynamic / ab 137 kg")
-                .unwrap()
-                .is_none()
-        );
+        assert!(db
+            .record_price_snapshot(&[make_new()], &[legacy], "test")
+            .is_err());
+        assert!(db
+            .current_price_for(trader, material, "dynamic / ab 137 kg")
+            .unwrap()
+            .is_none());
         assert_eq!(
             db.current_price_for(trader, material, "")
                 .unwrap()
@@ -1590,10 +1579,9 @@ mod tests {
         let mut foreign = make_new();
         foreign.source_url = "https://other.test/";
         let foreign_id = db.record_price(&foreign).unwrap();
-        assert!(
-            db.record_price_snapshot(&[make_new()], &[legacy], "test")
-                .is_err()
-        );
+        assert!(db
+            .record_price_snapshot(&[make_new()], &[legacy], "test")
+            .is_err());
         assert_eq!(
             db.current_price_for(trader, material, foreign.variant)
                 .unwrap()
@@ -1624,11 +1612,10 @@ mod tests {
         late.variant = "too late";
         late.observed_at = "2026-10-08T00:00:00Z";
         assert!(db.record_price_snapshot(&[late], &[], "test").is_err());
-        assert!(
-            db.current_price_for(trader, material, "new / ab 250 kg")
-                .unwrap()
-                .is_some()
-        );
+        assert!(db
+            .current_price_for(trader, material, "new / ab 250 kg")
+            .unwrap()
+            .is_some());
         assert_eq!(
             db.current_price_for(trader, material, foreign.variant)
                 .unwrap()
@@ -1636,11 +1623,10 @@ mod tests {
                 .id,
             foreign_id
         );
-        assert!(
-            db.current_price_for(trader, material, "too late")
-                .unwrap()
-                .is_none()
-        );
+        assert!(db
+            .current_price_for(trader, material, "too late")
+            .unwrap()
+            .is_none());
     }
 
     #[test]
@@ -1680,10 +1666,9 @@ mod tests {
         offered.source_url = legacy.source_url;
         offered.variant = foreign.variant;
         offered.extra_json = "{\"snapshot_owner\":\"this-producer\"}";
-        assert!(
-            db.record_price_snapshot(&[offered], &[legacy_id], "this-producer")
-                .is_err()
-        );
+        assert!(db
+            .record_price_snapshot(&[offered], &[legacy_id], "this-producer")
+            .is_err());
         assert_eq!(
             (
                 db.test_query("SELECT * FROM current_prices ORDER BY variant"),
@@ -1706,11 +1691,10 @@ mod tests {
                 .unwrap(),
             1
         );
-        assert!(
-            db.current_price_for(trader, material, "")
-                .unwrap()
-                .is_none()
-        );
+        assert!(db
+            .current_price_for(trader, material, "")
+            .unwrap()
+            .is_none());
         assert_eq!(
             db.current_price_for(trader, material, foreign.variant)
                 .unwrap()
@@ -1749,7 +1733,8 @@ mod tests {
             .unwrap();
         assert_eq!(current.id, original);
         assert_eq!(
-            serde_json::from_str::<serde_json::Value>(&current.extra_json).unwrap()["snapshot_owner"],
+            serde_json::from_str::<serde_json::Value>(&current.extra_json).unwrap()
+                ["snapshot_owner"],
             "test"
         );
     }
@@ -1792,11 +1777,10 @@ mod tests {
         next.source_url = "https://example.test/prices";
         next.extra_json = "{\"snapshot_owner\":\"test\"}";
         assert_eq!(db.record_price_snapshot(&[next], &[], "test").unwrap(), 1);
-        assert!(
-            db.current_price_for(trader, material, "dynamic / ab 137 kg")
-                .unwrap()
-                .is_none()
-        );
+        assert!(db
+            .current_price_for(trader, material, "dynamic / ab 137 kg")
+            .unwrap()
+            .is_none());
         assert_eq!(
             db.price_history(trader, material, "dynamic / ab 137 kg", 10)
                 .unwrap()
@@ -2063,11 +2047,10 @@ mod tests {
             .expect("gold current")
             .expect("prior valid gold buy quote restored");
         assert_eq!(current_gold.id, prior_gold);
-        assert!(
-            db.current_price_for(trader, silber, "999")
-                .expect("silver current")
-                .is_none()
-        );
+        assert!(db
+            .current_price_for(trader, silber, "999")
+            .expect("silver current")
+            .is_none());
 
         let history = db.price_history(trader, gold, "999", 10).expect("history");
         assert_eq!(history[0].price_kind, "approx");
@@ -2310,11 +2293,10 @@ mod tests {
                 .id,
             prior_gold
         );
-        assert!(
-            db.current_price_for(trader, silber, "")
-                .expect("current silver")
-                .is_none()
-        );
+        assert!(db
+            .current_price_for(trader, silber, "")
+            .expect("current silver")
+            .is_none());
 
         for (material, suspect_id) in [(gold, old_gold_sale), (silber, old_silver_sale)] {
             let history = db.price_history(trader, material, "", 10).expect("history");
@@ -2786,11 +2768,10 @@ mod tests {
                 .expect("allow retry");
             super::migrate(&conn).expect("retry migration");
         }
-        assert!(
-            db.current_price_for(trader, material, "")
-                .expect("current")
-                .is_none()
-        );
+        assert!(db
+            .current_price_for(trader, material, "")
+            .expect("current")
+            .is_none());
     }
 
     // Legacy repair regression only: seed historical evidence directly in an

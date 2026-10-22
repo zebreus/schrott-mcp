@@ -5,11 +5,11 @@ use chrono::{DateTime, Utc};
 use schrott_mcp_store::{NewPrice, PublicDb};
 
 use super::{
+    overview::{quote_cell, Snapshot, GROUPS, MAPPINGS},
     SLUG, URL,
-    overview::{GROUPS, MAPPINGS, Snapshot, quote_cell},
 };
+use crate::traders::{RecordSummary, MAP_VERSION};
 use crate::IngestError;
-use crate::traders::{MAP_VERSION, RecordSummary};
 
 const OWNER: &str = "mkm-article-v1";
 // Only these ten canonical identities are independently evidenced in the
@@ -624,26 +624,22 @@ mod tests {
         ] {
             let s = super::super::overview::parse(&changed, imp, 200).unwrap();
             assert_eq!(s.articles.len(), count);
-            assert!(
-                s.diagnostics
-                    .iter()
-                    .any(|d| d.contains("MKM-MS-02: unknown article"))
-            );
+            assert!(s
+                .diagnostics
+                .iter()
+                .any(|d| d.contains("MKM-MS-02: unknown article")));
             if count == 61 {
-                assert!(
-                    s.diagnostics
-                        .iter()
-                        .any(|d| d.contains("MKM-MS-01: missing known article"))
-                );
+                assert!(s
+                    .diagnostics
+                    .iter()
+                    .any(|d| d.contains("MKM-MS-01: missing known article")));
             }
             let error = commit(&db, &internal, s, now + chrono::Duration::minutes(1))
                 .await
                 .unwrap_err();
-            assert!(
-                error
-                    .to_string()
-                    .contains("incomplete or invalid MKM source contract")
-            );
+            assert!(error
+                .to_string()
+                .contains("incomplete or invalid MKM source contract"));
             assert_eq!(evidence(), before);
         }
         // A source reverting to the old 60 rows is not retirement authority.
@@ -663,11 +659,10 @@ mod tests {
         ] {
             let changed = html.replacen(row, &changed_row, 1);
             let s = super::super::overview::parse(&changed, imp, 200).unwrap();
-            assert!(
-                s.diagnostics
-                    .iter()
-                    .any(|d| d.contains("MKM-MS-01: changed identity"))
-            );
+            assert!(s
+                .diagnostics
+                .iter()
+                .any(|d| d.contains("MKM-MS-01: changed identity")));
             assert!(
                 commit(&db, &internal, s, now + chrono::Duration::minutes(1))
                     .await
@@ -676,21 +671,17 @@ mod tests {
             assert_eq!(evidence(), before);
         }
         let bad_tiers = html.replacen(row, &row.replace("6,51 €", "6,52 €"), 1);
-        assert!(
-            super::super::overview::parse(&bad_tiers, imp, 200)
-                .unwrap_err()
-                .to_string()
-                .contains("tiers disagree")
-        );
+        assert!(super::super::overview::parse(&bad_tiers, imp, 200)
+            .unwrap_err()
+            .to_string()
+            .contains("tiers disagree"));
         assert_eq!(evidence(), before);
-        assert!(
-            super::super::overview::parse(
-                &html.replacen(row, &format!("{row}\n{row}"), 1),
-                imp,
-                200
-            )
-            .is_err()
-        );
+        assert!(super::super::overview::parse(
+            &html.replacen(row, &format!("{row}\n{row}"), 1),
+            imp,
+            200
+        )
+        .is_err());
     }
 
     #[tokio::test]
@@ -848,13 +839,12 @@ mod tests {
         .unwrap();
         assert_eq!((summary.recorded, summary.accepted), (55, 6));
         assert!(current(&db, "kupfer-millberry", "").is_none());
-        assert!(
-            db.existing_acceptance(tid, mid)
-                .unwrap()
-                .unwrap()
-                .1
-                .contains("auf Anfrage")
-        );
+        assert!(db
+            .existing_acceptance(tid, mid)
+            .unwrap()
+            .unwrap()
+            .1
+            .contains("auf Anfrage"));
         assert_eq!(db.price_history(tid, mid, "", 10).unwrap().len(), 2);
         assert!(
             commit(
@@ -956,12 +946,10 @@ mod tests {
         let extra: serde_json::Value = serde_json::from_str(&after.extra_json).unwrap();
         assert_eq!(extra["article"]["product_change_date"], "2026-09-29");
         assert_eq!(extra["page_change_date"], "2026-10-10T00:00:00+00:00");
-        assert!(
-            extra["page_change_precision"]
-                .as_str()
-                .unwrap()
-                .contains("not source time")
-        );
+        assert!(extra["page_change_precision"]
+            .as_str()
+            .unwrap()
+            .contains("not source time"));
         assert_eq!(after.published_at, None);
         let history = db
             .price_history(before.trader_id, before.material_id, "", 10)
@@ -1077,16 +1065,14 @@ mod tests {
             db.set_acceptance(tid, mid, true, conditions, None, None, at, at)
                 .unwrap();
             let before = current(&db, "kupfer-millberry", "").unwrap();
-            assert!(
-                commit(
-                    &db,
-                    &internal,
-                    fixture(&change_first_row(HTML, false, Some(500))),
-                    now + chrono::Duration::minutes(1)
-                )
-                .await
-                .is_err()
-            );
+            assert!(commit(
+                &db,
+                &internal,
+                fixture(&change_first_row(HTML, false, Some(500))),
+                now + chrono::Duration::minutes(1)
+            )
+            .await
+            .is_err());
             assert_eq!(current(&db, "kupfer-millberry", "").unwrap().id, before.id);
             assert_eq!(
                 db.existing_acceptance(tid, mid).unwrap().unwrap().1,
@@ -1380,10 +1366,9 @@ mod tests {
                 ingested_at: "2026-10-12T00:00:00+00:00",
             };
             assert!(db.record_price(&p).is_err());
-            assert!(
-                db.record_price_snapshot(&[p], &[], "foreign-producer")
-                    .is_err()
-            );
+            assert!(db
+                .record_price_snapshot(&[p], &[], "foreign-producer")
+                .is_err());
             let after = current(&db, "kupfer-millberry", "").unwrap();
             assert_eq!(format!("{after:?}"), format!("{before:?}"));
             assert_eq!(
@@ -1544,22 +1529,19 @@ mod tests {
                 .await
                 .is_err()
         );
-        assert!(
-            crate::traders::record_outcome(
-                &db,
-                &internal,
-                "foreign-trader",
-                &crate::traders::RecordOutcome::MkmArticles(s),
-                &now
-            )
-            .await
-            .is_err()
-        );
-        assert!(
-            db.current_prices_from(db.find_trader_id(SLUG).unwrap().unwrap(), URL)
-                .unwrap()
-                .is_empty()
-        );
+        assert!(crate::traders::record_outcome(
+            &db,
+            &internal,
+            "foreign-trader",
+            &crate::traders::RecordOutcome::MkmArticles(s),
+            &now
+        )
+        .await
+        .is_err());
+        assert!(db
+            .current_prices_from(db.find_trader_id(SLUG).unwrap().unwrap(), URL)
+            .unwrap()
+            .is_empty());
     }
 
     #[tokio::test]
