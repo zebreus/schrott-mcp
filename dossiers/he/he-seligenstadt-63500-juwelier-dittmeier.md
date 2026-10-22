@@ -28,6 +28,10 @@ Betreiber-Einzelbeleg: Juwelier Dittmeier, vertreten durch G. Acar, Aschaffenbur
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Impressum, Kontakt und Goldankauf des Betreiberauftritts erneut direkt geprüft. Impressum nennt Juwelier Dittmeier, vertreten durch G. Acar, Aschaffenburger Str. 18, 63500 Seligenstadt und 06182 21961; Kontaktseite nennt weiterhin eine abweichende E-Mail zum Impressum. Mangels unabhängiger Standort-/Identitätsbestätigung bleiben zuvor geleerte Kontaktfelder leer und `status: pruefung` bestehen; keine GEO-Freigabe. **Ankauf:** Zahngold, Bruchgold, Goldschmuck und Goldmünzen; Angebot laut Betreiber nach Goldgehalt/aktuellem Marktpreis, keine EUR/g-Tabelle. **Verkauf:** Schmuck und Uhren werden angeboten, aber keine numerische Verkaufsliste. **Gebühren:** keine bezifferte Bewertungs-/Reparaturgebühr gefunden. Quellen: https://juwelier-dittmeier.eu/impressum/ ; https://juwelier-dittmeier.eu/kontakt/ ; https://juwelier-dittmeier.eu/goldankauf/]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Start, Kontakt, Impressum und Goldankauf einzeln live gelesen (200). Impressum nennt G. Acar/Aschaffenburger Str. 18/63500, ohne HRB; Kontakt und Impressum nennen unterschiedliche E-Mail-Adressen wie schon 01.10. Verlinktes Instagram-Profil liefert nur Instagram-Hülle, keine lesbare zweite Betreiberbestätigung. Zwei Seiten derselben Domain sind keine unabhängigen Quellen; Kontakte bleiben leer, Website aktiv/status pruefung unverändert. ANKAUF: Zahngold, Bruchgold, Goldschmuck, Goldmünzen, Angebot nach Goldgehalt und aktuellen Marktpreisen, keine EUR/g-Tabelle. VERKAUF: Schmuck/Uhren-Angebot auf Startseite, keine dortige numerische Liste. GEBÜHREN: keine bezifferte Bewertungs-/Reparaturliste in den gelesenen Seiten. Offen: unabhängiger Betreiber-/Standortbeleg, vollständiger Name G. Acar. Quelle: https://juwelier-dittmeier.eu/ ; https://juwelier-dittmeier.eu/impressum/ ; https://juwelier-dittmeier.eu/kontakt/ ; https://juwelier-dittmeier.eu/goldankauf ; https://www.instagram.com/juwelier_dittmeier/ (Inhaltshülle).]

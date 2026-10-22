@@ -30,6 +30,10 @@ Die offizielle Oberkotzauer Gemeindeseite listet eine Auto-Grundl oHG an Hauptst
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Suche bestätigt den möglichen Namens-/Adresskandidaten Auto-Grundl oHG, Hauptstr. 28, 95145 Fattigau/Oberkotzau: das Gemeindeverzeichnis führt ihn in der Rubrik Abschleppdienste; ein Instagram-Suchergebnis beschreibt Auto-Grundl OHG zusätzlich als Autoverwertung/Kfz-Meisterbetrieb. Das sind Belege zum Kandidaten Auto-Grundl, aber keine eindeutige Zuordnung zum Seed-Namen „Grundl AV“ und keine unabhängige Bestätigung, dass dort derzeit Schrott/Altfahrzeuge von Kunden angenommen werden. Daher keine Kontakt-/Adressübernahme oder GEO-Freigabe. **Ankauf:** keine Schrottkurse; **Verkauf:** keine Teilepreise; **Gebühren:** keine Tarife des Seeds. Quellen: https://oberkotzau.de/verzeichnis/atuo-grundl-ohg/ ; https://www.instagram.com/auto.grundl/ (Profilinhalt beim vorigen Direktabruf nicht zugänglich).]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: Gemeindeseite erneut direkt gelesen: Auto-Grundl oHG, Hauptstr.28, 09286 6123, ausschließlich Rubrik Abschleppdienste. Die unten stehenden Rathausöffnungszeiten gehören nicht dem Händler. Neue Suchspur auto.grundl auf Instagram nennt im Suchindex Abschleppdienst/Pannenhilfe, Kfz-Meisterbetrieb und Autoverwertung; Direktabruf liefert jedoch nur eine Loginseite, Betreiberzuordnung/Adresse und aktueller Profilinhalt nicht prüfbar. Daher noch kein qualifiziertes Quellenpaar für Grundl AV oder aktuelle Altfahrzeugannahme, kein Kontaktfill. Ankauf: keine Zahlen; Verkauf: keine Ersatzteilpreise; Gebühren: keine Abschlepp-/Entsorgungstarife. GEO-Bedarf Hauptstraße28 als tatsächliche Annahmestelle unabhängig bestätigen, nicht aus Karten-/Wetterportalen ableiten. Quellen: https://oberkotzau.de/verzeichnis/atuo-grundl-ohg ; https://www.instagram.com/auto.grundl/ (Indexspur/Login-Grenze).]

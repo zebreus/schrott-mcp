@@ -30,6 +30,10 @@ Aktueller Betrieb, Annahmesorten, Publikumsankauf und Preise sind primär nicht 
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Namensgenaue Schrottplatz.org-Seite erneut direkt geprüft: „Schrott Gertz Altmetallhandel“, Alte Handelsstr. 2D, 96515 Judenbach, 03675 46 93 64, Kategorie „Anbieter für Metalle“. Die Seite ist ein einzelner Branchenportalbeleg; es gibt weiterhin kein Betreiberimpressum, keine aktuelle Betreiberwebsite und keinen passenden Register-/Kommunalbeleg. Die Ortsabweichung Sonneberg/Judenbach bleibt ungelöst. Keine Telefonnummer/PLZ/City übernommen und kein GEO. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbaren Sortenpreise, Verkaufsliste oder Gebühren gefunden. Quelle: https://www.schrottplatz.org/foeritztal/schrott-gertz-altmetallhandel-aYEPHJ.html .]
+
 ### Recherche 15.10.2026 Welle18C
 
 - [Recherche 15.10.2026 Welle18C: Namensgenaue schrottplatz.org-Detailseite erneut direkt gelesen: Alte Handelsstr.2D, 96515 Judenbach, 03675 469364, Anbieter für Metalle. Portalnavigation/URL nennt Föritztal, sichtbare Adresse Judenbach, während der historische Schrottplatz-Info-Suchtreffer unter Sonneberg einsortiert ist. Das erklärt einen möglichen Umkreis-/Ortsimportfehler, löst aber Betreiber und amtliche aktuelle Ortsadresse nicht. Kein eigenständiger Betreiberlink im gelesenen Detail. Keine city/PLZ/Telefonänderung aus dieser einzelnen Aggregatorspur; Quelle(n): https://www.schrottplatz.org/foeritztal/schrott-gertz-altmetallhandel-aYEPHJ.html ; https://www.schrottplatz-info.de/schrottplatz/Sonneberg/Gertz-Altmetallhandel (Suchindex).]

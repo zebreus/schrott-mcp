@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-11880 listet Timo Seliger Schrottabholung, Vöcklinghauser Str. 1, 45130 Essen, Telefon 0163 2474456 und Altmaterialhandel/Schrotthandel/Altmetallrecycling. Die Kontaktdaten erscheinen auch in einem zweiten Branchenverzeichnis, aber es gibt keine Betreiberwebsite, kein Impressum/Register und keine verifizierte aktuelle Aktivität. Bei 11880 sind die Eintragsdaten ursprünglich vom 04.01.2023; die Portalaktualisierung 04.07.2026 ist keine Belegbestätigung des Betreibers. Status deshalb `pruefung`, nicht geschlossen. Keine verifizierte Ankaufspreisliste, Verkaufs- oder Gebührenliste. Die Adresse ist präzise, aber Verzeichnis-only; vor Koordinatenverwendung Betreiberstandort bestätigen.
+11880 listet Timo Seliger Schrottabholung, Vöcklinghauser Str. 1, 45130 Essen, Telefon 0163 2474456 und Altmaterialhandel/Schrotthandel/Altmetallrecycling. Ein zweites Branchenverzeichnis wiederholt die Kontaktdaten; Betreiberwebsite, Impressum/Register und verifizierte aktuelle Aktivität fehlen. Der 11880-Eintrag datiert vom 04.01.2023; der aktuelle Portalstand 03.10.2026 ist keine Betreiberbestätigung. Status deshalb `pruefung`, nicht geschlossen. **Ankauf:** keine verifizierten Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Adresse ist Verzeichnis-only; vor Koordinatenverwendung Betreiberstandort bestätigen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Detail bestätigt erneut Timo Seliger Schrottabholung, Vöcklinghauser Str. 1/45130/0163 2474456 und die Kategorien Altmaterialhandel/Schrotthandel/Altmetallrecycling. Eintragsdatum bleibt 04.01.2023, Portalaktualisierung im aktuellen Direktabruf 03.10.2026; dieses Datum ist kein Betreiberkontakt oder Tätigkeitsbeleg. Keine Betreiberwebsite/E-Mail/Öffnungszeiten. Die einzelne Nutzerbewertung wird nicht als Sachbeleg gewertet. Ankauf, Verkauf und Gebühren: keine belastbare Preis-/Tarifliste. Adresse bleibt Verzeichnislead; kein GEO. Quelle: https://www.11880.com/branchenbuch/essen-ruhr/060440090B102237809/timo-seliger-schrottabholung.html]
 
 ### Recherche 02.10.2026
 

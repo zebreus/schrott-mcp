@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Hausnummernkonflikt ist jetzt zeitlich eingrenzbar: North Data führt **Bexbacher Buntmetallverwertung GmbH, HRB 19113, Obere Hochstr. 182, 66450 Bexbach**; die einzeln gelesene Registerpublikation vom 13.04.2023 meldet die Änderung zur Geschäftsanschrift 182. Das ist mehr als ein Verzeichnis-Lead, bestätigt aber weder einen heutigen Annahmehof an 182 noch die Nachfolge von Ludwig Feix & Sohn an 161. Die frühere pauschale Konfliktbeschreibung bleibt in der Historie erhalten.
+Der Hausnummernkonflikt ist jetzt zeitlich eingrenzbar: North Data führt **Bexbacher Buntmetallverwertung GmbH, HRB 19113, Obere Hochstr. 182, 66450 Bexbach**; die einzeln gelesene Registerpublikation vom 13.04.2023 meldet die Änderung zur Geschäftsanschrift 182. Eine andere Gesellschaft, **MM Recycling GmbH (HRB 110387)**, weist aktuell auf ihrer eigenen Website dieselbe Obere Hochstraße 182 als Anschrift aus und beschreibt Metallankauf. Das belegt weder, dass dort beide Firmen denselben Hof betreiben, noch eine Umfirmierung/Übernahme oder die Nachfolge von Ludwig Feix & Sohn an 161. Diese Rechtsträger werden nicht zusammengeführt; die frühere pauschale Konfliktbeschreibung bleibt in der Historie erhalten.
 
-Betreiber-Domain weiter nicht auswertbar; aktuelle Annahme/Betreiberkette nicht unabhängig gesichert, daher **pruefung**, nicht geschlossen. Keine Straße eingefüllt, keine Hausnummer voreilig geocodiert. **Ankauf / Verkauf / Gebühren:** keine betriebseigene Zahlenliste; allgemeiner SchrottRadar-Marktpreisrechner ist kein Bexbacher Ankaufkurs.
+Die Domain der Bexbacher Buntmetallverwertung bleibt nicht auswertbar; aktuelle Annahme/Betreiberkette nicht unabhängig gesichert, daher **pruefung**, nicht geschlossen. Keine Straße eingefüllt, keine Hausnummer voreilig geocodiert. **Ankauf:** die separate MM Recycling GmbH bewirbt Materialgruppen wie Aluminium, Batterien, Blei, Edelstahl, Eisenschrott, Kabel, Kupfer und Messing, aber ohne Zahlenpreise; diese Liste wird nicht Bexbacher Buntmetallverwertung zugeschrieben. **Verkauf / Gebühren:** für den Dossierbetrieb keine Preisliste bzw. Tarifangabe. Allgemeiner SchrottRadar-Marktpreisrechner ist kein Bexbacher Ankaufkurs.
 
 ## Timeline
+
+### Recherche 22.10.2026 — gleicher Geschäftsadresswert, getrennte Rechtsträger
+
+- [Recherche 22.10.2026: Neue aktuelle Betreiberquelle zum Adresskonflikt gefunden: Die Website und das Impressum der MM Recycling GmbH nennen Obere Hochstraße 182, 66450 Bexbach und HRB 110387; der Betrieb listet verschiedene Metall-Ankaufgruppen. Das ist ein anderer Rechtsträger als die in North Data geführte Bexbacher Buntmetallverwertung GmbH (HRB 19113), deren Geschäftsanschrift 182 bereits durch eine Registerpublikation von 2023 belegt ist. Gleiche Geschäftsadresse beweist weder denselben Hof noch Rechtsnachfolge/Umfirmierung; auch keine belegte Verbindung zur Ludwig Feix & Sohn GmbH an Nr. 161. Bexbacher-Domain bleibt nicht abrufbar, daher keine Frontmatter-Änderung, keine GEO und `status: pruefung`. ANKAUF: MM Recycling nennt Metallsorten, keine Zahlenkurse; nicht auf Bexbacher übertragen. VERKAUF/GEBÜHREN der Zielgesellschaft: keine Angaben. Quellen: https://www.mmrecycling.de/ ; https://www.mmrecycling.de/accessibility-statement (Impressum/HRB) ; https://www.northdata.de/Bexbacher%20Buntmetallverwertung%20GmbH,%20Bexbach/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2019113 ; https://www.northdata.de/?id=5251532176490496 .]
 
 ### Recherche 21.10.2026
 

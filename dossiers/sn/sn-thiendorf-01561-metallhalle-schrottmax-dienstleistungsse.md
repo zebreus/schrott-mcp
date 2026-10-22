@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite **Metallhalle Sylke Kärst / Schrottmax** beschreibt den Ankauf von Stahl- und Buntmetallschrott am Standort Zur Brüdergemeinde 4b, 01561 Thiendorf. Die Seite unterscheidet Schrottannahme (Mo–Fr 09:00–18:00), Büro (Mo–Fr 09:00–14:00) und Verkauf (Mo–Fr 09:00–20:00); die Adress-/Identitätsdaten stammen bislang nur aus dieser Betreiberquelle. Deshalb keine Felder aus dem Einzelbeleg gefüllt und `status: pruefung` beibehalten.
+
+**Ankauf:** Stahl und Buntmetalle nach Sorte/Qualität; Stahlpreise „frei Platz“, variabel nach Liefermenge. Buntmetall-Tagespreis hängt laut Betreiber von der Metallbörse ab; keine numerischen Ankaufkurse publiziert. Abholungskosten werden gesondert berechnet; Fahrzeug-/Container-Mindestauslastung gilt, Verunreinigungen mindern das vergütete Gewicht; Bauschutt/Reifen verursachen zusätzliche, nicht bezifferte Entsorgungskosten. **Verkauf:** der verlinkte Schrottmax-Onlineshop verkauft Metallhalbzeuge/Neuware, nicht Schrottankaufsmaterial. Am 22.10.2026 waren z. B. 1 kg Reinzinn Sn99,9 für 70,01 € brutto und Mengenstaffeln bis 63,95 €/kg (100–249 kg) sichtbar, jeweils zzgl. Versand; Versandkosten sind separat zu erfragen. Diese Shoppreise sind keine Ankaufkurse und können sich mit Börsennotierungen ändern. **GEO:** keine Koordinate aus dem nicht unabhängig verifizierten Ein-Beleg-Standort abgeleitet.
 
 ## Timeline
+
+### Recherche 22.10.2026 — Ankauf/Verkauf/Gebühren getrennt
+
+- [Recherche 22.10.2026: Schrottmax-Stahl- und Buntmetall-Ankaufsseiten sowie den verlinkten Schrottmax-Shop direkt abgerufen. ANKAUF: Betreiber wirbt mit sortenreinem Stahl-/Buntmetallankauf, „frei Platz“ bei Stahl und börsenabhängigem Tagespreis bei Buntmetallen; keine numerische Ankaufspreisliste. Abholungen: Transportkosten separat nach Mindest-Auslastung von Fahrzeug/Container; Verunreinigungen werden vom ermittelten Gewicht abgezogen, Bauschutt/Reifen mit zusätzlichen Entsorgungskosten, ohne Zahlen. VERKAUF: sichtbare Shopliste ist Neuware/Metallhalbzeuge und keine Schrottankaufspreisliste; Produktdetail Reinzinn Sn99,9 nennt für 1 kg 70,01 € brutto inkl. MwSt., zzgl. Versand; Staffel 100–249 kg 63,95 €/kg. Versandkosten separat, Tagespreise laut Shop rohstoffabhängig. Ein Anbieterauftritt ohne zweiten unabhängigen Betreiber-/Registerbeleg erfüllt nicht die dokumentierte Owner-Ausnahme; keine Frontmatter-Fills/kein GEO, `pruefung` bleibt. Quellen: https://www.schrottmax.de/schrottankauf/stahlschrott/ ; https://www.schrottmax.de/schrottankauf/buntmetallschrott/ ; https://www.schrottmax.com/shop-dresden.html ; https://www.schrottmax.com/dresden-p3h14s24-004-Reinzinn-Sn99-9-.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -28,6 +28,10 @@ Die Adresse Am Mondschein 10, 59557 Lippstadt und Telefon 02941 59069 stehen ber
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktueller 11880-Detaillead für „Janzon Otto GmbH & Co. KG Rohprodukten-Großhandel/Entsorgungsfachbetrieb“ nennt ebenfalls Am Mondschein 10, Lippstadt, Telefon 02941 3515; Profil aktualisiert 15.10.2026. Das ist eine andere benannte Firma mit eigener Nummer und kein Beleg, dass sie Dorozala fortführt oder dass Dorozala-Schrottannahme heute dort stattfindet. Gleichadresse zwingt zur erneuten Nutzer-/Gewerbezuordnung vor GEO. Dorozala-Stammdaten bleiben historische Register-/Verzeichnisangaben, keine aktuelle Betriebsfreigabe. **Ankauf:** kein Kurs; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Quelle (Aggregatorlead): https://www.11880.com/branchenbuch/lippstadt/060441364B49838890/janzon-otto-gmbh-co-kg-rohprodukten-grosshandel-entsorgungsfachbetrieb.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

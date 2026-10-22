@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Import führt „Cu, Blei, Zinn, Zink, Alu, Messing, Edelstahl, Kabel“ als Ankaufkategorien, aber es ließ sich keine aktuelle Betreiberquelle oder belastbare Bestätigung des Kunden-/Annahmebetriebs finden. Kontakt, Standort und Bedingungen bleiben offen; der Status ist `pruefung`, nicht geschlossen.
+Der Import führt „Cu, Blei, Zinn, Zink, Alu, Messing, Edelstahl, Kabel“ als Ankaufkategorien; das ist eine historische Seed-Angabe, keine aktuelle Betreiberbestätigung. Neue Branchenportal-Treffer nennen „Schrottankauf Schwaan“ und als mögliche Domain schrottankauf-schwaan.de, aber die Adresse/Telefonnummern widersprechen sich und die Website war beim Direktabruf technisch nicht erreichbar. Es fehlt ein lesbares Impressum bzw. eine verifizierte Betreiberidentität. Kontakt, Standort und Annahmebedingungen bleiben offen; `pruefung` bedeutet nicht geschlossen.
 
-Preisprüfung: ANKAUF — keine händlerspezifische Preisliste oder numerische Vergütung gefunden. VERKAUF — keine Liste. GEBÜHREN — keine Angaben.
+**Ankauf:** keine händlerspezifische Preisliste oder bestätigte Vergütung. **Verkauf:** keine Liste. **Gebühren:** keine Angaben. **GEO:** weder Verlängerte Güstrower Straße noch eine konkrete Hausnummer ist als aktueller Annahmepunkt verifiziert.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Neue Suchspur zu „Schrottankauf Schwaan“: Cylex nennt Verlängerte Güstrower Straße in Schwaan und eine Telefonnummer beginnend mit 01525; Cybo führt abweichend Verlängerte Güstrower Str. 4, 18258 Schwaan, 01521 0315342 und die Domain schrottankauf-schwaan.de. Das sind Portalangaben und widersprechen sich. Die Domain ließ sich im aktuellen Direktabruf nicht laden (Transportfehler); daraus folgt weder Inaktivität noch Schließung. Es fehlt ein Impressum/Betreiberbeleg, daher keine Felder/GEO gefüllt. Seed-Materialkategorien bleiben unbestätigt. **Ankauf/Verkauf/Gebühren:** keine Zahlenlisten. Quellen/Leads: https://web2.cylex.de/firma-home/schrottankauf-schwaan-13798508.html ; https://schrottankauf-schwaan.de/ ; https://keltaisten-sivujen.cybo.com/DE/rostock/scrap-metal-dealer .]
 
 ### Recherche 14.10.2026
 

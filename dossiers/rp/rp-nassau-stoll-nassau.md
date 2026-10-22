@@ -28,6 +28,10 @@ Neuer konkreter Verzeichnislead: „Schrott und Metallhandel Stoll“, Bahnhofst
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Detailseite zu „Schrott und Metallhandel Stoll“, Bahnhofstr. 16, 56377 Nassau, 01573 5709600 direkt gegengeprüft; sie bietet weiterhin die Möglichkeit, Öffnungszeiten hinzuzufügen und verlinkt nicht zu einer Betreiberwebsite. Der zuletzt dokumentierte Link auf metallbauer.io ist ein übernehmbarer Branchenportaleintrag, kein Betreiber-Impressum. Keine unabhängige aktuelle Standort-/Identitätsbestätigung oder Leistungsliste gefunden; Straße im Frontmatter bleibt unverändert als ungeklärtes Importartefakt. ANKAUF/VERKAUF/GEBÜHREN: keine zugeordneten Kurse/Tarife. GEO offen. Quelle: https://www.11880.com/branchenbuch/nassau-lahn/060440092B113459929/schrott-und-metallhandel-stoll.html ; https://metallbauer.io/nassau/15173-schrott-und-metallhandel-stoll .]
+
 ### Recherche 18.10.2026 (Welle 1202 West)
 
 - [Recherche 18.10.2026: 11880-Suche und Nassau-Detail direkt gelesen (HTTP 200): Schrott und Metallhandel Stoll, Bahnhofstr. 16, 56377 Nassau, 01573 5709600. Website-Link einzeln verfolgt: metallbauer.io ist ausdrücklich ein übernehmbarer Portal-Eintrag, kein Betreiberimpressum; dort genannte Zeiten Mo–Sa 7–18 bleiben unbestätigte Portalangaben. Koblenzer Namensvetter einzeln geprüft: St.-Sebastianer-Str. 25/56070 Koblenz-Bubenheim, 0155 69191581, Portalbranche Autoverwertung. Keine Betreiberidentität/Verlegung zwischen beiden bewiesen. Straßenfeld enthält weiterhin den ungeprüften Importtext, kein Fill oder Normalisierung allein durch zwei Aggregatoren. Ankauf: kein nachgewiesenes Auszahlungsmodell; Verkauf: keine Liste; Gebühren: keine Tarife, Portalwort kostenlos bezieht sich auf Anfrage und nicht Entsorgung. GEO gesperrt bis Betreiber-/Adressbeleg; Quelle(n): https://www.11880.com/branchenbuch/nassau-lahn/060440092B113459929/schrott-und-metallhandel-stoll.html ; https://metallbauer.io/nassau/15173-schrott-und-metallhandel-stoll ; https://www.11880.com/branchenbuch/koblenz-am-rhein/060440459B114038260/schrott-und-metallhandel-stoll.html .]

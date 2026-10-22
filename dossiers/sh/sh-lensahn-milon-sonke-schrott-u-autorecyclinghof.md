@@ -34,6 +34,10 @@ Die Domain-Kandidatin milon-recycling.de liefert HTTP 503 mit lesbarer Wartungss
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Ergänzende lokale Quellen geprüft: „Milon kommt“ im Reporter vom 13.09.2023 ist ein gekennzeichneter Werbe-/Ratgeberbeitrag; er schreibt Sönke Milon dem Lensahner Betrieb zu und beschreibt Annahme zu Tageshöchstpreisen sowie Fahrzeugankauf/Teileverkauf, aber nennt keine Eurobeträge. Eine Anzeige im Reporter-Archiv vom 04.09.2024 nennt Schrott-/Metallannahme zu „Tagesspitzenpreisen“, Abholung möglich, Ottostraße 11 und 04363-1822; auch dies ist ein zeitgebundener Pressebeleg, kein heutiger Preis-/Öffnungsnachweis. **Ankauf:** historisch qualitativ, keine aktuelle numerische Liste. **Verkauf:** Teileangebot historisch, keine Preislisten. **Gebühren:** keine aktuelle Liste; 2023-Rabattaktion bleibt abgelaufen. Keine aktuelle Betreiberquelle oder GEO-Freigabe ergänzt; Lensahn und Lübeck weiter getrennt. Quellen: https://www.der-reporter.de/ratgeber/thema/bauen-sonderseiten-66/artikel/milon-kommt ; https://www.archiv.der-reporter.de/neustadt/2024/09_04_September_2024.pdf]
+
 ### Recherche 17.10.2026 — Welle 21:00 B
 
 - [Recherche 17.10.2026: Landes-Anlagenportal und Northdata erneut direkt gelesen: Lensahn/Ottostr. 11 und separat Lübeck/Mühlenkamp 8, Portal-Seitenstand weiterhin 30.08.2024; HRA 2053 OL mit Prokura Finn/Nina Milon 02.05.2024. Heutige Hoföffnung folgt nicht aus altem Anlagenlistenstand. Domain-Impressum erneut HTTP 503, kein neues lesbares Betreiberimpressum; alte Wartungsseiten-Zeiten nicht ungeprüft hochgestuft. Northdata zeigt öffentlich weiterhin nur Lensahn, kein neuer Straßenbeleg aus dem Register behauptet. Ankauf: keine aktuelle numerische Liste; Verkauf: keine Liste; Gebühren: keine Liste/keine Fortgeltung der 2023-Aktion. GEO nach heutiger Annahme-/Adressbestätigung, Lübeck getrennt lassen. Quellen: https://umweltanwendungen.schleswig-holstein.de/Abfallentsorgungsanlagen/ap_login.php?sbuchst=S ; https://www.northdata.de/Schrott-+und+Autorecyclinghof+S%C3%B6nke+Milon+e.K.,+Lensahn/Amtsgericht+L%C3%BCbeck+HRA+2053+OL ; https://milon-recycling.de/impressum/ (503).]

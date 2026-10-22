@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Scholz-Recycling-Website und ihr allgemeines Angebot für Selbstanlieferer sind aktuell. Eine aktuelle, Riesa zuordenbare Betreiber-Standortseite oder konkrete Annahmebestätigung ließ sich jedoch nicht finden; die dynamische Standortsuche belegt den konkreten Seed-Standort nicht. `status: pruefung` bleibt deshalb sachgerecht.
+Die Scholz-Recycling-Website und ihr allgemeines Angebot für Selbstanlieferer sind aktuell. Eine aktuelle, Riesa zuordenbare Betreiber-Standortseite oder konkrete Annahmebestätigung ließ sich jedoch nicht finden; die dynamische Standortsuche belegt den konkreten Seed-Standort nicht. Ein Portalverzeichnis führt einen Scholz-Schrottplatz in Gröditz (Am Stahlwerk 12), nicht Riesa; das ist weder ein Betreiberbeleg noch ein Grund, die Orte zu verschmelzen. `status: pruefung` bleibt deshalb sachgerecht.
 
 **Preise:** keine Riesa-spezifischen numerischen Ankaufpreise, Verkaufspreise oder Gebühren gefunden. Der Konzern verweist allgemein auf Tagesmarktpreise und Foto-Schätzungen, das ist keine lokale Preisliste.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiber-Standortübersicht und Services erneut direkt geprüft. Die statisch lesbare Standortseite enthält keine Riesa-spezifische Anschrift/Annahmebestätigung; die Websuche liefert nur für „Schrottplatz Gröditz Scholz Recycling GmbH“ Am Stahlwerk 12, 01609 Gröditz einen Portaleintrag. Nicht auf Riesa übertragen. Die konzernweiten Selbstanlieferer-/Serviceinfos nennen Abrechnung nach Materialqualität, Gewicht und aktuellem Marktpreis, aber keine Riesa-spezifischen Zahlen. Ankaufspreise, Verkaufsprodukte/-preise und Gebühren für den Seed-Standort weiter offen; kein GEO/kein Frontmatter-Fill. Quelle(n): https://www.scholz-recycling.com/standorte/ ; https://www.scholz-recycling.com/services/ ; https://www.schrottplatz.org/riesa .]
 
 ### Recherche 07.10.2026
 

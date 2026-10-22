@@ -30,6 +30,10 @@ Der Gelbe-Seiten-Listeneintrag nennt „Schrott Renate und Peter“ und 030 6842
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Gelbe-Seiten-Detailseite direkt geöffnet. Sie zeigt den Listennamen „Schrott Renate und Peter“, Branche Schrott und 030 6842306, aber keine Anschrift, E-Mail, Website oder Öffnungszeiten. Portalangabe bleibt Einzelbeleg ohne geklärten Inhaber-/Betreiberbezug; kein Straßenfeld oder GEO ergänzt, Telefon nur als ungeprüfter Altbestand. ANKAUF: keine aktuelle Annahme-/Vergütungsbestätigung. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Quelle: https://www.gelbeseiten.de/gsbiz/700fe83d-04c4-4de9-9c1b-507d9812f8b3 .]
+
 ### Recherche 16.10.2026 (Shard 2)
 
 - [Recherche 16.10.2026: GS-Branchenliste Berlin direkt gelesen (200), enthält Schrott Renate und Peter/030 6842306 ohne Anschrift. Neue Namens-/Nummernsuche liefert keinen passenden qualifizierten Betreiberbeleg. Wort Schrott im Namen nicht als gesicherte Rechtsträger-/Personenidentität interpretiert; Portalwiederholung ist kein Belegpaar. Telefon als unbestätigter Altbestand erhalten, Straße/PLZ/Website unverändert leer und status pruefung. ANKAUF/VERKAUF/GEBÜHREN keine Zielzahlenliste; GEO mangels bestätigter Adresse zurückstellen. Quelle: https://www.gelbeseiten.de/branchen/schrottplatz/berlin.]

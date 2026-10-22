@@ -33,6 +33,10 @@ Die bisherige Orts-/Kontaktnennung stammt aus SEO-/Branchenverzeichnissen: Danga
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die LokaleSchrottplatz-Seite erneut direkt gelesen: Dangaster Str. 68, 26316 Varel, 01520 9774291, Portal-Öffnungszeiten und FE-/NE-Mindestmengen bleiben reine Verzeichnisangaben; auf der Seite fehlt ein identifizierter Betreiber oder ein Impressum. Die dynamische Statusmeldung widerspricht weiterhin dem Wochenplan und wird nicht als Dauerschließung oder sichere Öffnungszeit ausgelegt. Keine Ankaufspreise, Verkaufsliste oder konkreten Gebühren gefunden; Mindestmengen sind keine Preise. Keine Frontmatter-Fills und kein GEO. Quelle: https://lokaleschrottplatz.de/schrottentsorgung-varel-wilhelmshaven/ .]
+
 ### Recherche 20.10.2026 — Eigenrecherche
 
 - [Recherche 20.10.2026: Suchindex zu Cylex zeigt für „Schrottentsorgung Varel-Wilhelmshaven“ Dangaster Str. 68, 26316 Varel und 01520 9774291 sowie einen Zeitabschnitt 09:00–18:00 (Tagzuordnung im Snippet unklar); der Direktabruf der Cylex-Seite lieferte 403. Das weicht vom LokaleSchrottplatz-Wochenplan 08:00–20:00 ab und wird wegen Portalstatus nicht als Betreiberzeit übernommen. Kein neuer Betreiber-/Registerbeleg, keine Preis- oder Gebührenliste. Mindestmengen bleiben Annahmeschwellen, keine €/kg-Preise; kein GEO. Quelle(n): https://web2.cylex.de/firma-home/schrottentsorgung-varel-wilhelmshaven-16622521.html (Suchindex; Direktabruf 403) ; https://lokaleschrottplatz.de/schrottentsorgung-varel-wilhelmshaven/.]

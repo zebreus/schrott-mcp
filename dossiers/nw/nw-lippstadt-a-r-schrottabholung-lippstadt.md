@@ -28,6 +28,10 @@ Für den Seed-Betrieb „A&R Schrottabholung Lippstadt“ stimmen zwei Verzeichn
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Detail zu „A&R Autoankauf Lippstadt“ live erneut geprüft: Im Heidekamp 23, 59555, 02941 2503018, Kategorie Altmetallrecycling; Eintragsdatum 14.02.2026, Portalaktualisierung 15.10.2026. Keine Betreiberwebsite, Mail, Zeiten oder Preisangaben im Profil. Das ist kein Alias-/Identitätsbeleg für den Seednamen „A&R Schrottabholung“ und keine Bestätigung einer Annahmestelle. Ankauf: keine numerischen Auto-/Metallwerte; Verkauf: keine Liste; Gebühren/Abholung: keine Konditionen. Adresse bleibt Verzeichnis-Kandidat, kein GEO; Dortmunder A&R weiterhin getrennt. Quelle: https://www.11880.com/branchenbuch/lippstadt/060440092B113866256/a-r-autoankauf-lippstadt.html]
+
 ### Recherche 17.10.2026 — Welle 21:00 B
 
 - [Recherche 17.10.2026: 11880-Detail erneut direkt gelesen: A&R Autoankauf, Im Heidekamp 23/59555, 02941 2503018; Portal-Aktualisierung jetzt 15.10.2026 statt zuletzt 04.10., Eintragsdaten weiterhin 14.02.2026. Diese Datumsänderung ist kein neuer Betreiber- oder Aliasbeleg für A&R Schrottabholung. Weiterhin keine eigene Website/E-Mail/Zeiten im Detail. Ankauf: kein numerischer Auto-/Metallpreis; Verkauf: keine Liste; Gebühren: keine Abholbedingungen. Keine Kontaktdaten aus diesem Lead hochgestuft, keine Zusammenlegung mit Dortmund; Im Heidekamp 23 erst nach Gewerbe-/Betreiberzuordnung für GEO prüfen. Quelle: https://www.11880.com/branchenbuch/lippstadt/060440092B113866256/a-r-autoankauf-lippstadt.html .]

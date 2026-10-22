@@ -35,6 +35,10 @@ Frisch geprüfte Betreiberseiten lokalisieren **Werner Remhof Metallgroßhandel 
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Betreiberseiten von Werner Remhof Metallgroßhandel erneut direkt geprüft, insbesondere die Leistungsseite Eisen & Metall. Sie nennt Metall-/Schrottankauf zu Tageshöchstpreisen, Materialarten und ausschließlich den Kasseler Betrieb am Ölmühlenweg 18, 34123 Kassel (Kontakt/Zeiten im Seitenfuß). Keine Northeim- oder Duderstadt-Filiale auf dieser Betreiberseite gefunden; das ist kein Beweis, dass keine weitere Niederlassung besteht. Kasseler Leistungen/Kontakte und Tagespreiswerbung werden nicht auf den Seed-Ort übertragen. Northeim/Duderstadt-Ankauf: keine Preise; Verkauf/Gebühren: keine zielortspezifischen Angaben; GEO weiter offen. Quelle: https://www.remhof.de/leistungen/eisen-metall ; https://www.remhof.de/ ; Eschwege-Gegenprüfung: https://www.remhof-esw.de/ .]
+
 ### Recherche 05.10.2026
 
 - [Korrektur 05.10.2026: status aktiv → pruefung wegen weiterhin unbelegter Northeim-/Duderstadt-Zuordnung. remhof.de direkt gelesen: Werner Remhof Metallgroßhandel GmbH & Co. KG, Ölmühlenweg 18, 34123 Kassel; remhof-esw.de direkt gelesen: Remhof Metall-Recycling GmbH & Co. KG, Straßburger Str. 1a, 37269 Eschwege. Die geprüften Seiten bestätigen diese beiden Orte, nicht den Seed-Standort. Keine Firma/Adresse/Telefon übertragen und keine Aussage, dass weitere Filialen ausgeschlossen wären. Qualitative Tagespreiswerbung an anderen Orten ist keine Preis-/Aktivitätsquelle für Northeim; Quelle(n): https://www.remhof.de/; https://www.remhof-esw.de/; vorhandene Recherche 01./02.10.2026]

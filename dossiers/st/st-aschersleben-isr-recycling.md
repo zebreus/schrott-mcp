@@ -6,6 +6,7 @@ state: ST
 city: Aschersleben
 street: 'Wilslebener Straße 6'
 postcode: '06449'
+clear_fields: geo
 phone: '03473 2880'
 email: ''
 opening_hours: ''
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### GEO-Prüfung 22.10.2026
+
+- [GEO-Prüfung 22.10.2026: Die read-only Produktionszeile für `st-aschersleben-isr-recycling` enthielt 51.7574, 11.4608; Nominatim-Reverse landet auf dem Wohnhaus Herrenbreite 13b (OSM-Way 199333782), nicht am von der Betreiberwebsite belegten Schrottplatz Wilslebener Straße 6. Die strukturierte Adresssuche für Wilslebener Straße 6 liefert in Aschersleben nur Straßenlinien, keine Hausnummer oder Annahmeeinfahrt. Der alte Punkt wird daher mit `clear_fields: geo` beim regulären Seed entfernt; keine Straßenkoordinate als Ersatz und keine Produktionsschreiboperation. Quellen: https://www.isr-recycling.de/index.php/standorte-isr ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.7574&lon=11.4608&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?format=jsonv2&street=Wilslebener%20Stra%C3%9Fe%206&city=Aschersleben&postalcode=06449&country=Germany&addressdetails=1&limit=5 ; https://www.openstreetmap.org/way/199333782 .]
 
 ### Recherche 01.10.2026
 

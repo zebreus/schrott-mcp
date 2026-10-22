@@ -30,6 +30,10 @@ Die Seed-Adresse Weinbergweg 90 ist zugleich Registeranschrift der anders benann
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Erneute genaue Suche nach „Reinhardt Schrotthandel“/Ulm und Weinbergweg 90 brachte keinen eigenen aktuellen Betreiberbeleg. Vorhandener Website-Kandidat/Impressum war zuletzt mit HTTP 503 nicht inhaltlich abrufbar. Die Registergesellschaft Containerdienste, Schrott, Metallhandel Ulm UG an Weinbergweg 90 bleibt ein anders benannter Rechtsträger; weder „Mitbenutzer“-Verzeichniszeile noch die gemeinsame Branche belegen Alias, Übernahme oder Nachfolge. Keine Daten/Kontakte, Preise oder Annahmebedingungen der UG auf Reinhardt übertragen. **Ankauf/Verkauf/Gebühren:** keine Reinhardt-spezifischen Preislisten. **GEO:** tatsächliche Annahmestelle und Betreiberverhältnis weiterhin offen; keine Koordinaten. Quellen/Leads: https://www.containerdienste-schrott-metallhandel.de/impressum (Abrufgrenze dokumentiert) ; https://www.northdata.de/Containerdienste,%20Schrott,%20Metallhandel%20Ulm%20UG%20(haftungsbeschr%C3%A4nkt),%20Ulm/Amtsgericht%20Ulm%20HRB%20747275 ; https://www.dasoertliche.de/Themen/Schrott-u-Metallhandel-Mitbenutzer-Reinhardt-Schrotthandel-Ulm-Eselsberg-Weinbergweg .]
+
 ### Owner-GEO-Prüfung 21.10.2026
 
 - [Owner-GEO-Prüfung 21.10.2026: Der gespeicherte Produktionspunkt löst auf die B 10 auf, rund 1,4 km vom Weinbergweg 90 entfernt. Weinbergweg 90 bleibt ein Verzeichnis-Lead mit unklarer Betreiberzuordnung; die dortige andere UG und ein nicht erreichbarer Website-Kandidat belegen keinen Reinhardt-Annahmeort. Kein bestätigter GEO-Kandidat; offen. Quellen: [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.4107857142857&lon=9.97451428571429&zoom=18&addressdetails=1), [OSM-Objekt am Produktionspunkt](https://www.openstreetmap.org/way/316420480), [Owner-Bericht](../../research/wave-20261021-0900-geo-bw.md).]

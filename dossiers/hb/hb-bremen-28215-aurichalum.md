@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Registerspiegel identifiziert eine historische „aurichalum GmbH“, Bremen, HRB 26550, mit dem Zweck Einzelhandel mit Edelmetallen und Antiquitäten. Die Löschungsveröffentlichung vom 01.03.2013 meldet abgeschlossene Liquidation und Erlöschen der Firma. Die Zuordnung zur Seed-Anschrift Findorffstr. 46/48 ist damit noch nicht unabhängig bestätigt; ein aktueller Betreiber oder Nachfolger fehlt. Daher bleibt `pruefung`: Löschung dieser GmbH, aber keine belegte Schließung eines konkreten Schrottannahmehofs. Edelmetall-Einzelhandel ist kein Nachweis von Schrottankauf.
+Der Registerspiegel identifiziert eine historische „aurichalum GmbH“, Bremen, HRB 26550, mit dem Zweck Einzelhandel mit Edelmetallen und Antiquitäten. Die Löschungsveröffentlichung vom 01.03.2013 meldet abgeschlossene Liquidation und Erlöschen der Firma. Die Zuordnung zur Seed-Anschrift Findorffstr. 46/48 ist damit noch nicht unabhängig bestätigt. Eine aktuelle Betreiberwebsite weist heute **Alliance BMX / Lukas Wolpmann** an derselben Hausnummer aus; eine Nachfolge- oder Übernahmebeziehung zu Aurichalum ist nicht belegt. Daher bleibt `pruefung`: Löschung dieser GmbH, aber keine belegte Schließung eines konkreten Schrottannahmehofs. Edelmetall-Einzelhandel ist kein Nachweis von Schrottankauf.
 
-**Preise:** keine aktuelle Ankauf-, Verkaufs- oder Gebührenliste auffindbar; für diesen Kandidaten ist auch keine aktuelle Metallleistung bestätigt.
+**Preise:** keine aktuelle Ankauf-, Verkaufs- oder Gebührenliste für Aurichalum auffindbar; für diesen Kandidaten ist auch keine aktuelle Metallleistung bestätigt. Der aktuelle BMX-Betrieb ist keine Metallleistung des Seeds.
 
 ## Timeline
+
+### Recherche 22.10.2026 — Belegung der Seed-Adresse
+
+- [Recherche 22.10.2026: Der aktuelle Betreiberauftritt Alliance BMX wurde direkt geöffnet: Impressum nennt Lukas Wolpmann, Alliance BMX, Findorffstraße 46/48, 28215 Bremen, Telefon 0421 68558420; dieselbe Seite nennt Shopzeiten Di–Fr 13–18 Uhr, Sa 10–16 Uhr und verlinkt einen Google-Maps-Pin 53.0884573, 8.8089499. Das verifiziert den aktuellen BMX-Betrieb an dieser Anschrift, aber weder Aurichalums frühere Belegung dort noch Übernahme/Nachfolge. Koordinate und Kontaktdaten gehören Alliance BMX, nicht diesem Dossier, und wurden nicht übertragen. Ankauf/Verkauf/Gebühren für Aurichalum weiter unbelegt; aktuelle Metallleistung nicht bestätigt. Quellen: https://alliance-bmx.de/policies/legal-notice ; https://www.alliance-bmx.de/ ; historische GmbH-Gegenprüfung: https://www.northdata.de/Aurichalum%20GmbH,%20Bremen/Amtsgericht%20Bremen%20HRB%2026550 .]
 
 ### Recherche 14.10.2026 — Registerhistorie konkretisiert
 

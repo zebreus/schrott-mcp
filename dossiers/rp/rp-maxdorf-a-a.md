@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„A&A Recycling“ in Maxdorf, Im Horst 5 ist ein plausibler Kandidat, aber Quellen widersprechen sich bei Rechtsträger (OHG vs. GbR), Namen und Telefonnummer. Creditreform führt Iskender/Sükrü Arslan und A&A Recycling OHG; Verzeichnisse führen teils GbR. Die angegebene Domain ist derzeit nur eine Baustellenseite. Keine Frontmatter-Kontakte übernommen. ANKAUF: Schrotthandel nur als Verzeichnis-/Firmendatenhinweis, keine numerischen Preise; VERKAUF: keine Liste; GEBÜHREN: keine belastbare Tarifangabe.
+„A&A Recycling“ in Maxdorf, Im Horst 5 ist ein plausibler, aber unbestätigter Kandidat; Portale widersprechen sich bei Rechtsträger (OHG vs. GbR), Adresse (Nr. 5 vs. Nr. 15) und Telefonnummer. Ein aktueller Meinestadt-Suchtreffer nennt die OHG an Nr. 5; dieselbe Hausnummer findet sich auch im Impressum des anderslautenden **A&A Express Kurier**. Für eine Verbindung dieser Firmen gibt es keinen Beleg. Die angegebene Domain `aa-recycling.de` ist weiterhin nur eine Baustellenseite. Keine Frontmatter-Kontakte übernommen. **Ankauf:** Schrotthandel nur als Verzeichnis-/Firmendatenhinweis, keine numerischen Preise. **Verkauf:** keine Liste. **Gebühren:** keine belastbare Tarifangabe. **GEO:** wegen Adresskonflikt nicht geokodieren.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Neuer Meinestadt-Suchtreffer führt A&A Recycling oHG, Im Horst 5, 67133 Maxdorf; die direkte Prüfung der Domain aa-recycling.de zeigt weiterhin nur eine Baustellenseite. Ein eigener Betreiberauftritt von A&A Express Kurier nennt ebenfalls Im Horst 5, aber anderen Namen und eigene Domain; daraus folgt keine Verbindung zu A&A Recycling. Ein Stadtplan-Verzeichniseintrag für A&A Recycling-Schrotthandel GbR führt dagegen Im Horst 15, zudem stehen OHG/GbR- und Telefonnummernabweichungen weiter offen. Keine Übernahme von Kontakt-/Standortfeldern und keine Koordinate. Ankauf/Verkauf/Gebühren: keine aktuelle, dem Recycling-Betrieb zurechenbare Leistung oder Preisliste verifiziert. Quellen: https://home.meinestadt.de/maxdorf/muell (Verzeichnislead) ; https://aa-recycling.de/ (Baustellenseite) ; http://www.aa-expresskurier.eu/impressum.html (Namensvetter/Adresse, keine Zuordnung) ; https://www.stadtplan.net/branchenbuch/aunda-recycling-schrotthandel-gbr .]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Wilms“ ist im Seed nur mit Ort und mobiler Kategorie erfasst. Die aktuelle Wilms-Gruppenwebsite weist für Niederkrüchten die WILMS Tiefkühl-Service GmbH, Sohlweg 2, 41372, aus; deren dokumentiertes Geschäft ist Tiefkühl-/Lebensmittellogistik, nicht Schrotthandel. Das ist ein namensgleicher Ortsbetrieb, aber kein Identitätsbeleg für den Seed und keine Grundlage für eine Zuordnung. Betreiber, Ankauf/Abholung und Standort bleiben offen. **Ankauf:** keine Zielpreise. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Kein GEO.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Wilms-Gruppen-Impressum direkt geprüft: WILMS Tiefkühl-Service GmbH, Sohlweg 2, 41372 Niederkrüchten, HRB 9904; Website beschreibt Kühl-/Lebensmittellogistik. Kein Hinweis auf Schrott, Metallankauf oder einen Bezug zum nur „Wilms“ benannten Seedbetrieb. Nicht als Zielbetreiber identifiziert; keine Stammdatenübernahme und kein GEO. Ankauf-/Verkaufspreise und Gebühren für den Seed nicht belegt. Quelle: https://www.wilms-gruppe.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der generische Seedname „Schrotthandel Gießen“ ist keinem Betreiber sicher zugeordnet. Primärseiten zeigen mehrere eigenständige Kandidaten in/um Gießen: MP Schneider GmbH, Schlachthofstr. 38 (HRB 9721); Michael Schulz, Schrotthandel, Wettenberg; und Schrotthandel Müller/Andreas Müller in Gießen. Kein Beleg verbindet einen davon mit dem generischen SchrottRadar-Seed. Kontaktdaten und Leistungen nicht übertragen. Keine belastbaren Preislisten dem Seed zuordenbar.
+Der generische Seedname „Schrotthandel Gießen“ ist keinem Betreiber sicher zugeordnet. Primärseiten zeigen mehrere eigenständige Kandidaten in/um Gießen: MP Schneider GmbH, Schlachthofstr. 38 (HRB 9721); Michael Schulz, Schrotthandel, Wettenberg; und Schrotthandel Müller/Andreas Müller in Gießen. Kein Beleg verbindet einen davon mit dem generischen SchrottRadar-Seed. Müller beschreibt eigene Container (1–7 m³) als kostenfrei, sofern sie für Metall-/Eisenschrott genutzt werden; diese anbieterspezifische Bedingung ist keine Gebührenregel dieses Dossiers. Kontaktdaten und Leistungen nicht übertragen. Für den Seed keine belastbaren Ankauf-, Verkaufs- oder Gebührenlisten.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die drei getrennten Betreiber-Impressen erneut direkt gegengeprüft; keine Quelle verbindet MP Schneider, Michael Schulz/Wettenberg oder Andreas Müller mit dem generischen SchrottRadar-Seed. Müllers Betreiberseite nennt Container von 1–7 m³ und kostenfreie Stellung, wenn Metall-/Eisenschrott eingefüllt wird; das ist eine bedingte Serviceaussage dieses Kandidaten, weder ein Ankaufspreis noch eine dem Seed zurechenbare Gebührenliste. Keine Frontmatter-Fills/GEO. **Ankauf:** keine Zahlen für den Seed; **Verkauf:** keine Liste; **Gebühren:** Kandidatenbedingung nicht übertragbar, seedbezogene Tarife fehlen. Quellen: https://www.mpschneidermetall.de/impressum/ ; https://schrotthandel-giessen.de/impressum/ ; https://www.schrott-giessen.de/impressum/ ; https://www.schrott-giessen.de/container]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

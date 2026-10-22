@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die dokumentierten Branchenverzeichnisse widersprechen sich: Mühlheimer Str. 181, 63075 Offenbach, sowie Dieselstr. 38–40, 63071 Offenbach; die Rufnummern werden teils unterschiedlich gruppiert, teils mit anderen Kontakten kombiniert. Es gibt keinen Betreiber-, Register- oder kommunalen Beleg, der Adresse und Person Marco Hombach zusammenführt. Keine Kontaktdaten übernehmen oder geocodieren. Ankauf-/Verkaufspreise und Gebühren sind unbelegt.
+Die direkt geprüften Branchenbuch-Einzelseiten widersprechen sich weiterhin: Das Örtliche führt „Schrotthandel Inh. M. Hombach“ an Mühlheimer Str. 181, 63075; 11880 führt „Hombach M. Schrotthandel“ an Dieselstr. 38, 63071. Beide zeigen dieselbe Mobilnummer, aber kein Betreiber-, Register- oder kommunaler Beleg verbindet die Person Marco Hombach mit einer der Adressen bzw. erklärt den Ortswechsel. Keine Kontaktdaten übernehmen oder geocodieren. **Ankauf:** keine Material-/Kursangaben. **Verkauf:** keine Liste. **Gebühren:** kein Tarif belegt.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Beide Detailprofile erneut direkt geprüft: Das Örtliche nennt Mühlheimer Str. 181, 63075 Offenbach, 0151 51 28 59 06; 11880 nennt Dieselstr. 38, 63071, dieselbe Rufnummer anders gruppiert, und führt Eintragsdatum 12.04.2023 sowie Portalstand 03.10.2026. Gleiche Telefonnummer und Portaldatum belegen weder Alias noch Umzug. Kein Betreiber-/Register-/Kommunalbeleg gefunden, der die Person und einen aktuellen Betriebsstandort verknüpft. Frontmatter unverändert, kein GEO. Ankauf/Verkauf/Gebühren: keine dem Zielbetrieb zuordenbaren Preislisten. Quellen: https://www.dasoertliche.de/Themen/Schrotthandel-Inh-M-Hombach-Schrottverwertung-Offenbach-am-Main-M%C3%BChlheimer-Str ; https://www.11880.com/branchenbuch/offenbach-am-main/060440092B101427626/hombach-m-schrotthandel.html]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

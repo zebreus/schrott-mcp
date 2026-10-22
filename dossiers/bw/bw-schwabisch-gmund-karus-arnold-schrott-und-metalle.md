@@ -30,6 +30,10 @@ Ankauf-/Verkaufspreise und Gebühren nicht verifiziert. Zuerst Schreibweise und 
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Neue Namens-/Orts-Suche bestätigt nur dieselbe Branchenverzeichnis-Spur: Deinbacher Str. 4/1, 73527 Schwäbisch Gmünd-Rehnenhof/Wetzgau, Telefon 07171 79115. Die Einträge schwanken zwischen „Karus Arnold“ und „Arnold Karus“; ein Betreiberauftritt, Register-/Kommunalbeleg oder Beleg zur tatsächlichen Kundenannahme wurde nicht gefunden. Keine Anschrift/Telefonnummer in Frontmatter übernommen, kein GEO. **Ankauf:** keine verifizierten Sorten/Kurse. **Verkauf/Gebühren:** keine Listen. Quellen (Verzeichnisleads): https://www.dasoertliche.de/Themen/Karus-Arnold-Schrott-und-Metalle-Schw%C3%A4bisch-Gm%C3%BCnd-Rehnenhof-Wetzgau-Deinbacher-Str ; https://www.gelbeseiten.de/gsbiz/31f52673-f199-4e4d-ada5-da576241fcf3 ; https://adresse.dastelefonbuch.de/Schw%C3%A4bisch%20Gm%C3%BCnd/2-Schrott-Arnold-Karus-Schw%C3%A4bisch-Gm%C3%BCnd-Deinbacher-Str.html .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Neue Namenssuche findet einen konkreten, aber ausschließlich aggregierten Standort-Lead: Karus Arnold Schrott und Metalle, Deinbacher Str. 4/1, 73527 Schwäbisch Gmünd-Rehnenhof/Wetzgau, 07171 79115; Das Örtliche führt „Altmetalle“ als Produkt, Gelbe Seiten denselben Namen/Standort. Die Treffer stammen aus Verzeichnissen und zählen nicht als qualifizierender Betreiber-/Register-/Kommunalnachweis; Inhaber, heutige Annahme und die Schreibweise „Arnold Karus“ bleiben offen. ANKAUF: kein Kurs/keine Sortenliste belegt; VERKAUF/GEBÜHREN: keine Preislisten. Adresse/Telefon nicht ins Frontmatter übernommen, keine Schließung behauptet. Quellen: https://www.dasoertliche.de/Themen/Karus-Arnold-Schrott-und-Metalle-Schw%C3%A4bisch-Gm%C3%BCnd-Rehnenhof-Wetzgau-Deinbacher-Str (Lead), https://www.gelbeseiten.de/gsbiz/31f52673-f199-4e4d-ada5-da576241fcf3 (Lead).]

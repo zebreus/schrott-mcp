@@ -246,6 +246,7 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
                 "certifications",
                 "dropoff_json",
                 "pickup_json",
+                "geo",
             ]
             .contains(&field)
             {
@@ -254,7 +255,12 @@ fn parse_dossier(path: &Path, text: &str, dir_state: &str) -> Vec<(String, Strin
             if clears.contains(&field) {
                 fail(&name, &format!("duplicate clear_fields token {field:?}"));
             }
-            if !get(field).is_empty() {
+            let populated = if field == "geo" {
+                !get("lat").is_empty() || !get("lon").is_empty()
+            } else {
+                !get(field).is_empty()
+            };
+            if populated {
                 fail(
                     &name,
                     &format!("clear_fields conflicts with populated {field}"),
@@ -438,6 +444,23 @@ mod tests {
         let row = coordinates("clear_fields: 'website, phone'\n");
         assert!(row.contains(&("clear_fields".to_owned(), "phone,website".to_owned())));
         assert_eq!(row, coordinates("clear_fields: 'phone,website'\n"));
+    }
+
+    #[test]
+    fn geo_clear_is_explicit_pairwise_and_requires_empty_coordinates() {
+        let row = coordinates("clear_fields: 'geo'\n");
+        assert!(row.contains(&("clear_fields".to_owned(), "geo".to_owned())));
+        assert!(row.contains(&("lat".to_owned(), String::new())));
+        assert!(row.contains(&("lon".to_owned(), String::new())));
+        for pair in ["lat: '50.6'\nlon: '8.6'\n", "lat: '50.6'\n", "lon: '8.6'\n"] {
+            assert!(
+                std::panic::catch_unwind(|| {
+                    coordinates(&format!("clear_fields: 'geo'\n{pair}"))
+                })
+                .is_err(),
+                "accepted GEO clear conflict: {pair:?}"
+            );
+        }
     }
 
     #[test]

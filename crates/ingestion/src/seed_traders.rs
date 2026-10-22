@@ -9,7 +9,8 @@
 //! state, website, status, notes, provenance. Street/postcode are usually
 //! empty until scrapers enrich them.
 //! Evidence-backed lat/lon pairs override stored GEO; both absent/empty
-//! preserve it. Coordinates are dossier data, never geocoded here.
+//! preserve it unless the dossier explicitly clears the pair. Coordinates are
+//! dossier data, never geocoded here.
 //!
 //! Change detection: a hash of the canonical payload lives in
 //! `extra_json.seed_hash`. Rows whose seed payload did not change are
@@ -92,6 +93,15 @@ impl SeedTrader {
         }
         for field in self.clear_fields.split(',').map(str::trim) {
             let value = match field {
+                "geo" => {
+                    if !self.lat.is_empty() || !self.lon.is_empty() {
+                        return Err(format!(
+                            "clear_fields conflicts with populated geo in {}",
+                            self.slug
+                        ));
+                    }
+                    ""
+                }
                 "phone" => &self.phone,
                 "email" => &self.email,
                 "website" => &self.website,
@@ -382,9 +392,13 @@ fn apply_seed_traders(
             || clears.contains(&"certifications"))
         .then_some(certifications.as_str());
         let coordinates = t.coordinates().expect("validated seed coordinates");
-        let (lat, lon) = coordinates
-            .map(|(lat, lon)| (Some(lat), Some(lon)))
-            .unwrap_or((kept.lat, kept.lon));
+        let (lat, lon) = if clears.contains(&"geo") {
+            (None, None)
+        } else {
+            coordinates
+                .map(|(lat, lon)| (Some(lat), Some(lon)))
+                .unwrap_or((kept.lat, kept.lon))
+        };
         let hash = payload_hash(
             t,
             &description,
@@ -618,6 +632,13 @@ mod tests {
             "phone, ,email",
         ] {
             rejects(serde_json::json!({"clear_fields": directive}));
+        }
+        for fields in [
+            serde_json::json!({"clear_fields": "geo", "lat": "50.6", "lon": "8.6"}),
+            serde_json::json!({"clear_fields": "geo", "lat": "50.6"}),
+            serde_json::json!({"clear_fields": "geo", "lon": "8.6"}),
+        ] {
+            rejects(fields);
         }
         for (field, value) in [
             ("phone", "123"),
@@ -886,12 +907,58 @@ mod tests {
 
     #[test]
     fn seed_is_idempotent_and_skips_unchanged() {
+        use schrott_mcp_store::NewTrader;
+
         let dir = TempDbDir::new("seed");
         let db = PublicDb::open(dir.path()).expect("test db opens");
         let now = "2026-09-27T00:00:00Z";
+
+        // Model the stale production GEO for Wettenberg. The real embedded
+        // dossier explicitly withdraws this pair and supplies no replacement.
+        db.upsert_trader(&NewTrader {
+            slug: "he-wettenberg-krofdorf-blum-marco-schrottentsorgung",
+            name: "Blum Marco Schrottentsorgung",
+            trader_type: "schrotthaendler",
+            description: "",
+            street: "Höhenstr. 27A",
+            postcode: "",
+            city: "Wettenberg-Krofdorf",
+            state: "HE",
+            country: "DE",
+            lat: Some(50.6167),
+            lon: Some(8.65),
+            phone: "",
+            email: "",
+            website: "",
+            website_status: "unbekannt",
+            website_checked_at: "",
+            opening_hours: "",
+            dropoff_json: "{}",
+            pickup_json: "{}",
+            min_quantity_kg: None,
+            max_quantity_kg: None,
+            certifications: Some("[]"),
+            status: "pruefung",
+            notes: "",
+            extra_json: "{}",
+            now,
+        })
+        .expect("legacy Wettenberg row inserts");
+
         let first = seed_traders(&db, now).expect("first seed writes");
         assert!(first > 2000);
         assert_eq!(db.counts().expect("counts").traders as usize, first);
+        let wettenberg = db
+            .query_sql(
+                "SELECT street,lat,lon,status FROM traders
+                 WHERE slug = 'he-wettenberg-krofdorf-blum-marco-schrottentsorgung'",
+            )
+            .expect("read seeded Wettenberg row");
+        assert_eq!(wettenberg.rows.len(), 1);
+        assert_eq!(wettenberg.rows[0][0].as_str(), Some(""));
+        assert_eq!(wettenberg.rows[0][1].as_f64(), None);
+        assert_eq!(wettenberg.rows[0][2].as_f64(), None);
+        assert_eq!(wettenberg.rows[0][3].as_str(), Some("pruefung"));
         let certifications = db
             .query_sql(
                 "SELECT certifications FROM traders

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die direkt erreichbare Betreiberseite identifiziert **Hübinger e.K., HRA 3884**, jedoch mit Sitz Holzstraße 48A, **65197 Wiesbaden**, nicht im Seed-PLZ-Bereich 65199. Der Betreiber beschreibt Abschleppen, Bergen und Transportieren; ein Schrott- oder Autoverwertungsangebot für 65199 ist auf den geprüften Betreiberseiten nicht ausgewiesen. Daher bleibt dieser Wiesbaden-65199-Eintrag ein ungeklärter Identitäts-/Ortsfall; Kontaktdaten des 65197-Betriebs nicht übertragen.
+Die direkt erreichbare Betreiberseite identifiziert **Hübinger e.K., HRA 3884**, mit Sitz Holzstraße 48A, **65197 Wiesbaden**, nicht im Seed-PLZ-Bereich 65199. Sie beschreibt Abschleppen, Bergen und Transportieren, kein Schrott- oder Autoverwertungsangebot. Ein Branchenportal führt zusätzlich „Hübinger Autoverwertung“ an Schwarzenbergstraße 9a, 65189 Wiesbaden, aber ohne Betreiber-/Registerbrücke. Keiner der Kandidaten ist dem 65199-Seed zugeordnet. Kontaktdaten nicht übertragen; vor GEO sind Zielbetreiber und Standort zu klären. **Ankauf:** keine Schrott-/Fahrzeugkurse. **Verkauf:** keine Materialpreisliste. **Gebühren:** keine Schrotttarife.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiberseiten von Hübinger e.K. (HRA 3884, Holzstraße 48A, 65197, 0611 942842) erneut gelesen; keine Schrottannahme/Autoverwertung für 65199 ausgewiesen. Separater Aggregatorlead „Hübinger Autoverwertung“ nennt Schwarzenbergstraße 9a, 65189 und 0611/74422; nur Such-/Verzeichnisbeleg, keine Verbindung zu Hübinger e.K. oder zum 65199-Seed. Keine Felder gefüllt, keine Adresse geocodiert. Ankauf/Verkauf/Gebühren für den Seed bleiben ohne verifizierte Liste. Quellen: https://www.abschleppdienst-huebinger.de/impressum ; https://www.abschleppdienst-huebinger.de/services ; https://www.schrottpreis.org/autoverwertung-in-wiesbaden/ (Aggregatorlead)]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

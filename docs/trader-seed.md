@@ -38,6 +38,7 @@ Only these fields are allowed:
 | `website_status` | `unbekannt` |
 | `certifications` | `[]` |
 | `dropoff_json`, `pickup_json` | `{}` |
+| `geo` | both `lat` and `lon` become SQL `NULL` |
 
 - Missing/empty `clear_fields` (also whitespace-only or YAML null) retains
   the previous keep and hash contract. No corpus-wide rewrite is needed.
@@ -53,9 +54,12 @@ Only these fields are allowed:
   special SQL mutation. Other enrichment fields retain their normal keep
   behavior. Clearing `website` does not implicitly clear `website_status`;
   select both explicitly when appropriate. `website_checked_at` is retained.
-- GEO, slug, name, state, city, street/postcode, trader type and trader status
-  cannot be cleared by this API. Existing address and GEO semantics are
-  unchanged. This is not a general record-deletion API.
+- `geo` is the only coordinate clear token and always clears the pair. It
+  conflicts with either populated `lat` or `lon`; individual `lat`/`lon`
+  tokens remain forbidden. Without the explicit token, absent/empty pairs
+  preserve stored GEO as described below.
+- Slug, name, state, city, street/postcode, trader type and trader status
+  cannot be cleared by this API. This is not a general record-deletion API.
 - A clear means “no curated current fact”, **not** proof of closure,
   rejection of customers/materials, free service or negative certification.
   Document the withdrawn claim, evidence and date in Timeline; preserve
@@ -97,8 +101,9 @@ withdrawing or changing an address does not validate or invalidate that pair.
   plain). Document source, retrieval date and point accuracy in Timeline.
 - Both supplied: finite latitude −90…90 and longitude −180…180 required.
   The pair replaces stored coordinates on insert or dossier change.
-- Both missing/empty (including YAML null): preserve the existing DB pair.
-  New traders without a pair retain NULL coordinates.
+- Both missing/empty (including YAML null): preserve the existing DB pair,
+  unless `clear_fields: 'geo'` explicitly withdraws it. New traders without
+  a pair retain NULL coordinates.
 - Only one supplied, non-numeric, non-finite or out-of-range: build fails.
   Seed validation also rejects invalid pairs before any DB writes.
 - No Rust geocoding, address lookup or inferred coordinates. An address

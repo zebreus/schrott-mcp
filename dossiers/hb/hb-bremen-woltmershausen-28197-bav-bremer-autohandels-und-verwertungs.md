@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Das Verzeichnis nennt als Kandidat die **BAV Bremer Autohandels- und Verwertungs GmbH** an der Simon-Bolivar-Str. 38, 28197 Bremen; der Seed nennt keinen Betreiberbeleg. Die unter `bav-bremen.de` auffindbare aktuelle Website gehört laut eigenem Impressum dem **Bremer Außenhandelsverband e.V.**, Am Markt 13, Vereinsregister Bremen VR 2497. Diese gleichnamige Abkürzung ist eine andere Organisation und belegt weder die GmbH noch den Seed-Standort. Website, Kontakt, Betriebsstatus und Verbindung zum Mit-Seed Roßberg bleiben offen.
+Das Verzeichnis nennt als Kandidat die **BAV Bremer Autohandels- und Verwertungs GmbH** an der Simon-Bolivar-Str. 38, 28197 Bremen; der Seed nennt keinen Betreiberbeleg. Die unter `bav-bremen.de` auffindbare aktuelle Website gehört laut eigenem Impressum dem **Bremer Außenhandelsverband e.V.**, Am Markt 13, Vereinsregister Bremen VR 2497. Diese gleichnamige Abkürzung ist eine andere Organisation und belegt weder die GmbH noch den Seed-Standort. Website, Kontakt, Betriebsstatus und Verbindung zum Mit-Seed Roßberg bleiben offen. **GEO:** die Seed-Anschrift ist nicht unabhängig bestätigt und wird nicht geokodiert.
 
 **Preise:** Ankauf: keine GmbH-spezifischen Bedingungen/Kurse; Verkauf: keine Liste; Gebühren: keine Tarife belegt.
 

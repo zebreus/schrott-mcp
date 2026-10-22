@@ -6,6 +6,7 @@ state: ST
 city: Aschersleben
 street: ''
 postcode: ''
+clear_fields: geo
 phone: ''
 email: ''
 opening_hours: ''
@@ -31,6 +32,10 @@ Ein historischer Lokalbericht beschreibt eine Lorenz-Autoverwertung in **Westdor
 Ein aktueller Telefonbuchtreffer nennt Michael Lorenz, Welbslebener Chaussee 2, 06449 Aschersleben-Westdorf, Tel. 03473 815031, jedoch nur in der Branche Kfz-Reparaturen. Ohne Identitäts-/Betriebsbeleg wird diese Person nicht dem historischen Autoverwerter gleichgesetzt.
 
 ## Timeline
+
+### GEO-Prüfung 22.10.2026
+
+- [GEO-Prüfung 22.10.2026: Die read-only Produktionszeile `st-aschersleben-lorenz` enthielt 51.7574, 11.4608. Nominatim-Reverse löst diesen Punkt auf ein Wohnhaus an der Herrenbreite 13b (OSM-Way 199333782); das Lorenz-Dossier hat keine verifizierte Geschäftsadresse oder Betreiberidentität. Der identitätslose Punkt wird deshalb mit `clear_fields: geo` beim regulären Seed entfernt. Keine Ersatzkoordinate und keine Produktionsschreiboperation. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.7574&lon=11.4608&zoom=18&addressdetails=1 ; https://www.openstreetmap.org/way/199333782 .]
 
 ### Recherche 12.10.2026
 

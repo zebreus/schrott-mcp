@@ -30,6 +30,10 @@ Franz Gawor ist bislang ein Rohprodukte-/Verzeichnislead, kein unabhängig beleg
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Frischer 11880-Suchlistenlead führt „Franz Gawor RohProd.Ankauf Paderborn“, Hermann-Kirchhoff-Str. 35, 33102 Paderborn, Tel. 05251 32195, unter Altmaterial-/Schrotthandel. Das ist ein Verzeichnistreffer, keine Betreiber-/Registerquelle und keine erneute Bestätigung der bisherigen Kontaktdaten oder heutigen Tätigkeit. Keine Stammdatenübernahme/kein GEO. **Ankauf:** Bezeichnung legt Ankauf nahe, aber weder Materialien noch Kurs/Abholbedingungen sind verifiziert. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Quelle (Suchlistenlead): https://www.11880.com/suche/altmaterialhandel/lage]
+
 ### Recherche 15.10.2026, Welle 12:00 A
 
 - [Recherche 15.10.2026: Eigene Namens-/Ortswebsuche ohne zuordenbare Betreiberseite; Northdata-Suche Franz Gawor Paderborn direkt gelesen. Erste 15 Treffer nur unscharfe andere Namen/Organisationen, kein identifizierter Gawor-Betrieb. Kein amtlicher Negativbescheid; fehlender Registertreffer beweist bei möglichem Einzelbetrieb weder Nichtexistenz noch Schließung. Vorrecherche-Adresse Hermann-Kirchhoff-Straße 35 und 05251 32195 nicht neu belegt und nicht übertragen. Offen sind Betreiber-/Gewerbenachweis und aktueller Ankauf, nicht bloß weitere Verzeichnisduplikate. Keine Ankauf-/Verkaufs-/Gebührenliste zugeordnet; Quelle: https://www.northdata.de/?query=Franz%20Gawor%20Paderborn]

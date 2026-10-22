@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnis-Leads führen Pfragner Georg als Kfz-Handel und Verwertung in Hanau-Klein-Auheim. Adresse und Telefonnummer sind nicht ausreichend verifiziert; die beiden Verzeichnisse nennen unterschiedliche Nummern. Der neu direkt gelesene Pfragner-Containerdienst an der Dieselstraße 11 nennt keinen Georg und keine Brücke zum Behringstraßen-Seed; seine Website/Kontakte deshalb nicht zugeordnet. Keine belastbare Ankauf-/Verkauf-/Gebührenliste des Seeds. Inhaber-/Adressklärung vor Geocodierung nötig.
+Verzeichnis-Leads führen Pfragner Georg als Kfz-Handel und Verwertung in Hanau-Klein-Auheim. Adresse und Telefonnummer sind nicht ausreichend verifiziert; die Verzeichnisse nennen unterschiedliche Nummern. Eine aktuelle Betreiberseite belegt an derselben Behringstraße 1a stattdessen ein Prüfzentrum von Tim Pfragner; eine Verbindung zu Georg oder zum Seedbetrieb ist nicht ausgewiesen. Der Containerdienst Pfragner an der Dieselstraße 11 ist ein weiterer, getrennt zu behandelnder Auftritt. **Ankauf:** kein dem Seed zurechenbarer Kurs. **Verkauf:** keine Liste. **Gebühren:** kein Tarif. Inhaber-/Adressklärung vor Geocodierung nötig.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiber-Impressum des Prüfzentrums Hanau direkt geprüft: Ingenieurbüro Pfragner, Tim Pfragner, Behringstraße 1a, 63456 Hanau, 06181 7022466; dies bestätigt einen anderen konkret benannten Betrieb an der Kandidatenadresse, nicht „Pfragner Georg Kfz-Handel und Verwertung“. Aktuelle Örtliche-Detailseite führt den Seednamen an Behringstr. 1A mit 0171 2714411; älterer Gelbe-Seiten-Lead nennt 06181 60146. Telefonkonflikt bleibt. Containerdienst-Impressum führt Pfragner Containerdienst, Dieselstraße 11, 0172 3703560; kein Zuordnungsbeleg. Keine Frontmatter-Füllung oder GEO-Freigabe. Ankauf/Verkauf/Gebühren: für Georg keine Liste. Quellen: https://pruefzentrum-hanau.de/impressum/ ; https://www.dasoertliche.de/Themen/Pfragner-Georg-Hanau-Klein-Auheim-Behringstr ; https://www.gelbeseiten.de/gsbiz/8066a385-5fe4-40e3-b552-b5415b28b4a1 ; https://containerdienst-pfragner.de/impressum/]
 
 ### Recherche 11.10.2026
 

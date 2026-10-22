@@ -30,6 +30,10 @@ Der aktuelle Suchlauf findet weiterhin nur Verzeichnis-Leads für „Lehmann Wil
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Namens-/Orts-Suche findet weiter nur Branchenportale zu „Lehmann Willi SchrottHdl.“ an Schulstr. 31, 77731 Willstätt, Tel. 07852 7503. Die Gemeindeseite bietet ein freiwilliges Unternehmensverzeichnis; ein fehlender Eintrag wäre kein Gegenbeweis und bestätigt den Betrieb auch nicht. Es fehlt weiter ein eigener Betreiberauftritt, Registerbeleg und Nachweis, dass die Adresse eine Kundenannahmestelle ist. **Ankauf:** nicht bestätigt, keine Preise. **Verkauf/Gebühren:** keine Listen. Kein GEO und keine Kontaktfelder ergänzt. Quellen: https://www.gelbeseiten.de/gsbiz/4177d88f-b2f9-4b59-8b7a-e6f25ff9b66c ; https://www.schrottplatz-info.de/schrottplatz/Willstaett/Lehmann-Willi-SchrottHdl- ; https://www.willstaett.de/de/Wirtschaft-Arbeit/Unternehmen-A-Z .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Erneute Suche findet denselben Lead Schulstr. 31, 77731 Willstätt/07852 7503 auf Schrottplatz-Info, weiterhin ohne Betreiberbeleg oder verifizierte Leistungen. Die offizielle Gemeindeliste bleibt freiwillig und liefert keinen Gegenbeweis. Ankauf: nicht verifiziert, ohne Preise; Verkauf: keine Preisliste; Gebühren: unbekannt. Anschrift nicht für GEO übernehmen, bis Betreiber/Adresse bestätigt sind; Status `pruefung` und leere Kontaktfelder bleiben. Quellen: https://www.schrottplatz-info.de/schrottplatz/Willstaett/Lehmann-Willi-SchrottHdl- ; https://www.willstaett.de/de/Wirtschaft-Arbeit/Unternehmen-A-Z ; Abruf 13.10.2026.]

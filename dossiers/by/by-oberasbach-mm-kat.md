@@ -6,14 +6,14 @@ state: BY
 city: Oberasbach
 street: ''
 postcode: ''
-phone: ''
-email: ''
+phone: '+49 911 384 330 00'
+email: info@mm-kat.de
 opening_hours: ''
 website: https://mm-kat.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
-description: ''
-dropoff_json: ''
+description: 'Ankauf und Recycling von Auto-, LKW-, Bus- und Industriekatalysatoren, Dieselpartikelfiltern, Monolithen und metallischen Trägern; Bewertung nach Material/Analyse, Angebot auf Anfrage.'
+dropoff_json: '{"allowed": true, "conditions": "Betreiberwebsite nennt Anlieferung nach Vereinbarung in Mathildenstraße 20, 90489 Nürnberg. Nur nach Termin; die Adresse ist nicht als regulär geöffneter Hof oder rechtlicher Hauptsitz bestätigt. Hauptanschrift im Impressum: Flurstr. 24, 90522 Oberasbach."}'
 pickup_json: ''
 provenance_section: Betriebe mit geprüfter Website
 provenance_ankauf_raw: ja
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Betreiberwebsite und das Impressum nennen **MM-Kat GbR**, Flurstr. 24, 90522 Oberasbach, mit den Gesellschaftern Sascha und Jochen Müller. Der Betrieb bewirbt Ankauf/Recycling von Auto-, LKW-, Bus- und Industriekatalysatoren, DPF, Monolithen sowie metallischen Trägern. Das Impressum und der allgemeine Seitenfuß führen +49 911 384 330 00 und info@mm-kat.de; eine Stadt-Landingpage nennt zusätzlich +49 176 466 25 709. Die Telefonnummern daher nicht als einheitlichen Kontakt missverstehen.
+
+**Ankauf:** Bewertung/Angebot nach Material, Sortierung und Analyse; die Website verweist auf eine Ankaufsliste/Katalog, aber auf den geprüften Seiten war keine numerische Preisliste auslesbar. **Verkauf:** keine Verkaufspreisliste. **Gebühren:** keine veröffentlichten Tarife gefunden. **GEO:** Flurstr. 24 ist die Impressumsanschrift, nicht ausdrücklich als Kundenannahme belegt; die Website nennt Anlieferung nach Vereinbarung an Mathildenstraße 20, 90489 Nürnberg. Diesen Terminstandort nicht als Filiale oder dauerhaft geöffneten Hof ausgeben.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Website und Impressum direkt gelesen: Beide identifizieren MM-Kat GbR an Flurstr. 24, 90522 Oberasbach; das Impressum nennt Sascha und Jochen Müller sowie +49 911 384 330 00 / info@mm-kat.de. Die allgemeine Website nennt zusätzlich die Anlieferung nach Vereinbarung an Mathildenstraße 20, 90489 Nürnberg; dies ist ein appointment-only Lieferhinweis, kein Beleg für eine öffentliche Filiale. Die Start-/Impressumsseiten nennen 0911 38433000, während die Suchindex-Landingpage „Katalysator Ankauf Nürnberg“ 0176 46625709 anzeigt; der Widerspruch bleibt sichtbar, daher wurde nur die Nummer des Impressums als allgemeiner Kontakt übernommen. Ankauf von Auto-/Industriekatalysatoren, DPF, Monolithen und metallischen Trägern bestätigt, aber keine numerischen Kurse auf den gelesenen Seiten. Verkaufspreise und Gebühren: keine Listen. Quellen: https://mm-kat.de/ ; https://mm-kat.de/impressum/ ; https://mm-kat.de/ankaufsliste/ ; https://mm-kat.de/katalysatoren-ankauf-nuernberg/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

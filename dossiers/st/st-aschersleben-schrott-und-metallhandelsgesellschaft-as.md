@@ -6,6 +6,7 @@ state: ST
 city: Aschersleben
 street: Majoranweg 4
 postcode: 06449
+clear_fields: geo
 phone: 03473/801132
 email: info@schrotthandel-asl.de
 opening_hours: ''
@@ -25,11 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite bestätigt die Schrott- und Metallhandelsgesellschaft Aschersleben mbH (HRB 110001, Amtsgericht Stendal), Geschäftsführerin Anne Pögel, Kontakt Majoranweg 4, 06449 Aschersleben, 03473/801132 und info@schrotthandel-asl.de. Das ersetzt im Frontmatter die ältere Verzeichnisadresse Walter-Kersten-Str. 15; beide Adressen bleiben als Konflikt dokumentiert, und der neue Standort ist noch zu geokodieren sowie als tatsächliche Kundenannahme zu bestätigen. Website live; `status: aktiv` bleibt.
+Die Betreiberwebsite bestätigt die Schrott- und Metallhandelsgesellschaft Aschersleben mbH (HRB 110001, Amtsgericht Stendal), Geschäftsführerin Anne Pögel, Kontakt Majoranweg 4, 06449 Aschersleben, 03473/801132 und info@schrotthandel-asl.de. Das ersetzt im Frontmatter die ältere Verzeichnisadresse Walter-Kersten-Str. 15; beide Adressen bleiben als Konflikt dokumentiert. Der alte Produktionspunkt 51.7574, 11.4608 reverse-geocodiert auf ein Wohnhaus an der Herrenbreite 13b, rund 2 km vom Majoranweg entfernt. Die strukturierte Adresssuche nach Majoranweg 4 löst nur die Straße, keine Hausnummer oder Annahmeeinfahrt auf. Deshalb wird das falsche Alt-GEO beim normalen Seed explizit entfernt; es gibt keinen belegten Ersatzpunkt. Website live; `status: aktiv` bleibt.
 
 **ANKAUF:** Betreiberseite nennt Eisen, Messing, Kupfer, Aluminium, Zink, Blei, Kabel und weitere Metalle zu „Tageshöchstpreisen“ ohne Zahlen; Papier wird nach Gewicht bezahlt, ebenfalls ohne Kurs. **VERKAUF:** die Website nennt Ankauf und Verkauf von Alt-/Neuschrotten, aber keine Verkaufspreisliste. **GEBÜHREN:** Container 1,5–38 m³ nach individuellem Angebot; Wartezeiten, Überfüllung, Fehlbefüllung oder Fehlfahrt können zusätzliche Kosten auslösen, ohne veröffentlichte Beträge. Öffnungszeiten auf der Betreiberseite: Mo–Do 07:30–16:00, Fr 07:30–14:00, Sa 08:00–11:30; der bisherige Verzeichnisstand zur alten Adresse wird dadurch nicht als aktuell bestätigt.
 
 ## Timeline
+
+### GEO-Prüfung 22.10.2026
+
+- [GEO-Prüfung 22.10.2026: Read-only Produktionszeile für diesen exakten Slug: 51.7574, 11.4608. Nominatim-Reverse identifiziert dort Gebäude 13b, Herrenbreite, Aschersleben (OSM-Way 199333782), nicht Majoranweg 4. Strukturierte Suche nach „Majoranweg 4, 06449 Aschersleben“ liefert nur die Straße (OSM-Way 115828445), ohne adressgenauen Geschäftspunkt; die Betreiberquellen bestätigen die Anschrift, aber ein Straßenlinienpunkt wäre kein belastbarer Eingang. `clear_fields: geo` entfernt deshalb das falsche Alt-Paar beim regulären Seed; keine Ersatzkoordinate geraten und keine Produktionsdaten geschrieben. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.7574&lon=11.4608&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Majoranweg%204%2C%2006449%20Aschersleben%2C%20Germany&addressdetails=1&limit=5 ; https://www.openstreetmap.org/way/199333782 ; https://www.openstreetmap.org/way/115828445 .]
 
 ### Recherche 22.10.2026
 

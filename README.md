@@ -129,7 +129,8 @@ direct build input — no JSON detour:
   changes. Both absent/empty preserve existing coordinates; one-sided,
   non-finite or out-of-range pairs fail validation. Rust does not geocode
   addresses. Sources and point accuracy belong in the dossier Timeline;
-  removing a pair does not clear DB GEO. See [seed semantics](docs/trader-seed.md).
+  removing a pair does not clear DB GEO unless `clear_fields: 'geo'` explicitly
+  withdraws the stored coordinate pair. See [seed semantics](docs/trader-seed.md).
 - `cargo test` validates the whole corpus (unique slugs, enum values,
   state codes, URL shapes, idempotency) — the CI gate for seed changes.
 

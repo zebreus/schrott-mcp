@@ -6,6 +6,7 @@ state: BY
 city: Roßtal
 street: ''
 postcode: '90574'
+clear_fields: geo
 phone: ''
 email: ''
 opening_hours: ''
@@ -27,6 +28,14 @@ provenance_origin: prose
 Der Seed enthält nur den Namen „Schubert“ und Roßtal. Die recherchierte Otto Schubert GmbH an der Gewerbestraße 8 ist ein Gehäuse-/Mechanikhersteller; ihre Website erklärt ausdrücklich, Hersteller und kein Händler zu sein. GLEIF bestätigt unabhängig den Rechtsträger Otto Schubert GmbH, HRB 3993 und dieselbe Anschrift, aber keine Verbindung zum unbestimmten Seed. Es gibt keinen Beleg, dass diese Firma der gesuchte Schrotthandel ist. Keine Übertragung von Kontakten, Koordinaten oder Produktpreisen; für den Seed sind Ankauf, Verkaufspreise und Gebühren ungeklärt.
 
 ## Timeline
+
+### GEO-Prüfung 22.10.2026
+
+- [GEO-Prüfung 22.10.2026: Die read-only Produktionskoordinate 49.3957, 10.8885 reverse-geocodiert auf Wohnhaus 31, Nürnberger Straße, Trettendorf/Roßtal (OSM-Way 139624550). Das ist weder eine verifizierte Geschäftsadresse des unbestimmten Seed-Händlers noch die Adresse des abgegrenzten Namesake-Herstellers. `clear_fields: geo` entfernt das nicht belegte Alt-Paar beim normalen Seed; es wird kein Ersatzpunkt geraten. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.3957&lon=10.8885&zoom=18&addressdetails=1 ; https://www.openstreetmap.org/way/139624550 .]
+
+### Gegenprüfung 22.10.2026
+
+- [Die offizielle Website und ihr Impressum wurden erneut direkt geprüft: Otto Schubert GmbH, Gewerbestraße 8, 90574 Roßtal, HRB 3993 Fürth; die Firma bezeichnet sich als Hersteller und ausdrücklich nicht als Händler. Das stützt die Abgrenzung des Namesakes, nicht die Identität mit dem unvollständig benannten Seed „Schubert“. Anschrift, Kontakt und Hersteller-Mindestbestellwert werden deshalb nicht auf den gesuchten Schrotthandel übertragen. Ankauf, Verkaufspreise und Gebühren für den Seed bleiben unbelegt; keine Feldfüllung oder GEO. Quellen: https://www.schubert-gehaeuse.de/ ; https://www.schubert-gehaeuse.de/impressum.html .]
 
 ### Recherche 22.10.2026
 

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Seed-Angaben nennen einen Schrott-/Metallbetrieb Gottfried Wunderlich in Zwickau, Jacobstr. 4; als bisherige Grundlage ist lediglich ein älterer lokaleschrottplatz-Eintrag dokumentiert. Ein aktueller Betreiberauftritt, Register-/Kommunalbeleg oder unabhängiger Nachweis für die konkrete Annahmestelle wurde nicht ermittelt. `status: aktiv` wird deshalb auf `pruefung` zurückgestuft; dies ist kein Schließungsnachweis.
+Die Seed-Angaben nennen einen Schrott-/Metallbetrieb Gottfried Wunderlich in Zwickau, Jacobstr. 4; Grundlage bleibt ein älterer Verzeichniseintrag. Ein aktueller Betreiberauftritt, Register-/Kommunalbeleg oder unabhängiger Nachweis für die konkrete Annahmestelle wurde nicht ermittelt. Neue Suchtreffer wiederholen als Portalcluster „Wunderlich SchrottHdl.“, Jacobstr. 4 und eine Telefonnummer; sie sind keine voneinander unabhängigen Belege. `status: pruefung` ist kein Schließungsnachweis.
 
 **Preise:** **Ankauf** — Seed nennt Fe/Alu/Cu/Edelmetalle/Blei/Messing, aber Annahme und Preise sind nicht aktuell verifiziert. **Verkauf** — keine Preisliste. **Gebühren** — keine belastbaren Gebührenangaben. **Geokodierung:** Jacobstr. 4 nicht als Schrottplatz pinnen, bis die konkrete Betriebsstätte bestätigt ist.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Ein aktueller Suchlauf findet als Lead „Wunderlich SchrottHdl.“ an Jacobstr. 4, 08060 Zwickau-Marienthal und die Nummer +49 375 524290. Die sichtbaren Treffer verweisen auf ein Verzeichnis-/Portalcluster (Maptons); mehrere Sprach-/Spiegelansichten zählen nicht als unabhängige Quellen, und es ließ sich kein Betreiber-Impressum, Register- oder Kommunalbeleg bestätigen. Die Treffer qualifizieren weder die Seedidentität noch den Standort als Annahmestelle; Nummer, Straße und GEO daher unverändert/ungefüllt. ANKAUF/VERKAUF/GEBÜHREN: keine für den Kandidaten belegten aktuellen Leistungen oder Preise. Quelle: https://uy.maptons.com/p/2883766444 (Suchindex; Direktabruf zuvor nicht verfügbar).]
 
 ### Recherche 16.10.2026
 

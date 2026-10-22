@@ -28,6 +28,10 @@ MRR Mitteldeutsche Rohstoff-Recycling GmbH ist jetzt registerbasiert unter Stend
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Gegenprüfung ändert den Rechtsstatus nicht: NorthData-Suche führt die MRR Mitteldeutsche Rohstoff-Recycling GmbH weiterhin im Kontext HRB 201565 Stendal und bestätigt die historische Rechtsträger-Spur, nicht einen aktiven Ankaufbetrieb. Die dokumentierte Löschung nach beendeter Liquidation am 22.05.2023 bleibt maßgeblich. Neue Suchtreffer zu Am Saalehafen 5 umfassen fortbestehende Verzeichnisdatensätze mit MRR-Namen sowie den heutigen Betreiber-Kandidaten Scholz Recycling; sie beweisen keine Rechts- oder Betriebsnachfolge. Fehlerhafter Seed-Ort bleibt ungeändert und ist kein GEO-Punkt. **Ankauf/Verkauf/Gebühren:** keine MRR-Preisliste; keine Scholz-Konditionen übertragen. Quellen: https://www.northdata.de/MRR+Mitteldeutsche+Rohstoff-Recycling+GmbH,+Bitterfeld-Wolfen/Amtsgericht+Stendal+HRB+201565 ; https://www.northdata.de/?id=6673880380342272 ; https://www.scholz-recycling.com/standorte/ .]
+
 ### Recherche 16.10.2026 — Shard 1
 
 - [Recherche 16.10.2026: Konkrete MRR-Löschungsbekanntmachung per eigenem Direktabruf HTTP 429, daher deren Inhalt heute nicht neu gelesen; verifizierter Befund 14.10.2026 bleibt historisch erhalten. Keine Aussage zur heutigen Scholz-/MRR-Rechtsnachfolge aus Rate-Limit ableiten. Bestehender fehlerhafter Seed-Ort ist ausdrücklich kein echter Ort und kein Geocoding-Eingang; Owner muss anhand belegter Identität und Nachfolge entscheiden, nicht den Halle-Kandidaten stillschweigend übernehmen. ANKAUF/VERKAUF/GEBÜHREN: keine neu geprüften MRR-Tarife, keine Scholz-Preise übertragen. Kein Rename, keine Aktivierung oder Hofschließung. Quelle/Abrufgrenze: https://www.northdata.de/?id=6673880380342272 (429); Dossier-Vorrecherche 14.10.2026.]

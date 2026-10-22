@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed „Sieber Gerd Metallrecycling u. Containerdienst“ in Olbernhau ist weiterhin nicht identifiziert. Die aktuelle Betreiberwebsite von **Ralf Sieber / Sieber Recycling & Containerdienst** nennt zwei Annahmestellen ausschließlich in Chemnitz (Am Rummel 5 und Thalheimer Str. 17–21); ihre Unternehmensgeschichte nennt Gerhard Sieber als Gründer, belegt aber weder „Gerd“ noch einen Standort in Olbernhau. Die Adresse Wernsdorfer Str. 21 gehört laut eigener Betreiberangabe zur separaten SWING Recycling GmbH und ist kein Beleg für den Seedbetrieb. Keine Übernahme- oder Umbenennungskette zwischen diesen Unternehmen belegt.
+
+**Ankauf:** kein aktueller Olbernhau-Ankauf belegt; die Chemnitzer Angebote sind nicht übertragbar. **Verkauf:** keine dem Seed zurechenbare Preisliste. **Gebühren:** keine belastbaren Tarife. **GEO:** weder die Olbernhauer Straße noch ein Punkt verifiziert; keine Koordinaten.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die aktuelle Betreiberwebsite und das Impressum von Sieber Recycling & Containerdienst direkt geprüft: Ralf Sieber, Am Rummel 5, 09123 Chemnitz; die aktuelle Standortübersicht nennt außerdem Thalheimer Str. 17–21, 09125 Chemnitz. Sie belegt keinen Olbernhau-Standort und stellt keine Verbindung zum Seed „Gerd Sieber“ her. Die Olbernhauer Wernsdorfer Str. 21 bleibt separat der SWING Recycling GmbH zugeordnet; weder Betreiberkette noch Übernahme belegt. Keine Kontaktdaten oder GEO übernommen. ANKAUF/VERKAUF/GEBÜHREN: keine dem Olbernhauer Kandidaten zurechenbaren Preislisten. Quellen: https://www.recycling-sieber.de/ ; https://www.recycling-sieber.de/impressum ; https://swing-cut.de/impressum .]
 
 ### Recherche 02.10.2026
 

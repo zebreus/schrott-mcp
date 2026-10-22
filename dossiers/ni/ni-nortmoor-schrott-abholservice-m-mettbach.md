@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Schrott Abholservice M. Mettbach“ bleibt ein ungeklärter Verzeichniseintrag, kein bestätigter Betreiber. 11880 nennt Dorfstr. 65 a, 26845 Nortmoor und 0163 9815302; es weist keine Website und keine Öffnungszeiten aus. Die Seite bezeichnet die Datengrundlage als Eintragsdaten vom 12.11.2024, zuletzt aktualisiert 04.10.2026. Straße im Frontmatter ist ein historischer, unbestätigter Seedwert; die Nummer bleibt ein Portal-Lead und wird nicht als gesicherter Betreiberkontakt geführt.
+
+**Ankauf:** weder Annahme noch Auszahlung aktuell vom Betreiber belegt. **Verkauf:** keine Liste. **Gebühren:** keine Abhol-/Entsorgungstarife oder kostenlosen Bedingungen verifiziert. **GEO:** wegen unbestätigter Betreiberidentität keine Geokodierung.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Detailseite direkt gelesen. Sie nennt Schrott Abholservice M.Mettbach, Mobil 0163 9815302 und Dorfstr. 65 a, 26845 Nortmoor; Öffnungszeiten und Website fehlen. Die Seite selbst gibt an: Eintragsdaten vom 12.11.2024, zuletzt aktualisiert am 04.10.2026; keine Kennzeichnung als inhaberbestätigt erkennbar. Damit bleibt es ein einzelner Aggregatorbeleg, kein Betreiber-/Register-/Kommunalnachweis. Telefonnummer nur im Überblick als ungeprüfter Lead; Frontmatter/status, Annahme- und Abholbedingungen sowie GEO unverändert. Keine Preis- oder Gebührenliste. Quelle: https://www.11880.com/branchenbuch/nortmoor/060440092B113391551/schrott-abholservice-m-mettbach.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

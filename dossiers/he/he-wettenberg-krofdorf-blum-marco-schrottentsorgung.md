@@ -11,6 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
+clear_fields: geo
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -33,6 +34,7 @@ Der bisherige Lead „Marco Blum, Höhenstraße 27A, Wettenberg“ passt zu Pers
 ### Recherche/Korrektur 22.10.2026
 
 - [Korrektur 22.10.2026: Betreiber-Impressum und Startseite von Julias Container weiterhin mit Marco Blum, Höhenstraße 27a, 35435 Wettenberg und Telefon 0641 49815208; die offizielle Seite belegt Container-/Entsorgungsleistungen, nicht aber Schrottankauf oder einen öffentlichen Annahmehof. Die Preistabelle wurde erneut über die offizielle Seite gefunden: Containerstellung, Entsorgung und bis zu 8 Wochen Standzeit kosten 1 m³ 349 €, 3 m³ 549 €, 3,5 m³ 599 €, 4 m³ 649 €, 5,5 m³ 799 €, 7 m³ 949 €, 10 m³ 1.249 € (Festpreise inkl. MwSt.); Schüttgutverkauf (Schotter, Sand, Erde, Rindenmulch) nur auf Anfrage. Das sind ausschließlich Gebühren/Verkauf des Kandidaten Julias Container, keine Preise des ungeklärten Schrott-Seedbetriebs. Creditreform-Direktabruf 403, daher kein neuer unabhängiger Identitätsbeleg. `street` aus dem strukturierten Seed entfernt, da die Zuordnung weiterhin offen ist; keine anderen Felder freigegeben. ANKAUF: kein Metall-/Schrottkurs; VERKAUF: Schüttgut auf Anfrage, keine Zahlenpreise; GEBÜHREN: siehe Containerstaffel. Quelle(n): https://www.julias-container.de/; https://www.julias-container.de/impressum; https://firmeneintrag.creditreform.de/35435/6110597532/MARCO_BLUM_ENTSORGUNGSTEAM (Direktabruf 403).]
+- [GEO-Prüfung 22.10.2026: Rein lesende Abfrage der Produktionszeile: `Höhenstr. 27A`, `50.6167/8.65`; keine Produktionsänderung. Nominatim-Reverse des gespeicherten Punkts löst auf das Gebäude Auf dem Falkenberg 10 (OSM-Way 441823326). Die strukturierte Nominatim-Suche nach Höhenstraße 27a, 35435 Wettenberg findet separat Haus 27 A (OSM-Way 426220375; `50.6165178/8.6418640`), rund 574 m vom Produktionspunkt entfernt. Die direkt geprüften OSM-Wege sind nur mit Haus-/Adress- und Gebäudetags versehen; sie benennen weder einen Betreiber noch eine Schrottannahmestelle. Das belegt einen Konflikt des alten GEOs mit dem aktuellen Adresskandidaten, aber weder die Identität des historischen Schrott-Seedbetriebs noch eine öffentliche Metallannahme oder eine passende Annahmestellenkoordinate. Deshalb bleibt das Dossier ohne Ersatz-`lat`/`lon`; `clear_fields: geo` weist den regulären Seed explizit an, das nicht belegte Alt-Paar zu entfernen. Erst nach geprüftem Build/Rollout wird die Produktionszeile geändert; keine Schließung oder Ablehnung von Kunden wird behauptet. Quellen: https://www.openstreetmap.org/way/441823326 ; https://www.openstreetmap.org/way/426220375 ; https://api.openstreetmap.org/api/0.6/way/441823326 ; https://api.openstreetmap.org/api/0.6/way/426220375 ; https://nominatim.openstreetmap.org/reverse?lat=50.6167&lon=8.65&format=jsonv2&addressdetails=1&extratags=1 ; https://nominatim.openstreetmap.org/search?street=H%C3%B6henstra%C3%9Fe%2027a&city=Wettenberg&postalcode=35435&country=Germany&format=jsonv2&addressdetails=1&limit=5 ; docs/trader-seed.md.]
 
 ### Endabnahme 17.10.2026 (Identitätspaket zurückgestellt)
 

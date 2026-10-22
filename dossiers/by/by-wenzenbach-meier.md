@@ -30,6 +30,10 @@ provenance_origin: prose
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Neue gezielte Namens-/Orts-Suche liefert weiterhin nur Portal-/Branchenbuch-Leads zu „Meier Schrott + Metalle“ an Ladestraße 5; Namen und Telefonnummern variieren zwischen Gerhard und Michael Meier. Karl-Heinz/Markus Meier am Führsamweg bleibt davon getrennt. Keine aktuelle Betreiberquelle, amtliche Gewerbebestätigung oder nachgewiesene Annahmestelle gefunden. Frontmatter unverändert vorsichtig; kein GEO. Ankauf/Verkauf/Gebühren: keine identitätsgesicherten Preislisten. Beispiele für die Verzeichnis-Leads: https://www.golocal.de/wenzenbach/metalle-metallwaren/meier-schrott-metalle-10Wh8z/ ; https://mme-firmenbuch.de/meier-schrott-metalle .]
+
 ### Recherche 18.10.2026 — Welle 02:00 / a
 
 - [Recherche 18.10.2026: Eigenständige Brave-Suche erweitert den Identitätskonflikt: an Ladestr. 5 stehen Gerhard Meier (0941 62892), „Meier Schrott + Metalle“ (auch 0170 2354374) und Michael Meier (0941 67747) in verschiedenen Portalen. Letzteren Schrottplatz-info-Eintrag direkt gelesen; er liefert weder vollständige Beschreibung noch Zeiten/Leistungen. Karl-Heinz/Markus Meier, Führsamweg 6, ist ein anderer Adresslead, nicht automatisch Ersatz/Umzug. Kein Firmenverbund oder Generationswechsel bewiesen. Frontmatter unverändert, kein GEO. Ankauf/Verkauf/Gebühren: keine identitätsgesicherten Preise. Nächster Beleg muss Inhaber und Verhältnis Gerhard/Michael an Ladestr. 5 klären, nicht nur denselben Nachnamen bestätigen. Quellen: https://search.brave.com/search?q=%22Meier%22+%22Wenzenbach%22+Schrott (Suchleads) ; https://www.schrottplatz-info.de/schrottplatz/Wenzenbach/Meier-Michael-SchrottHdl- (direkt gelesener Lead).]

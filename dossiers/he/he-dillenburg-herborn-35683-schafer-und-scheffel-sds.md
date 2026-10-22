@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Schäfer und Scheffel (SDS)“ ist ein Seed-/Verzeichnisfragment ohne bestätigten Rechtsträger. Dillenburg/Herborn ist keine eindeutige Betriebsanschrift; 35683 bezeichnet den Dillenburger Kandidaten und bestätigt keinen Herborner Standort. Die Abkürzung SDS ist nicht eindeutig, allgemeine Sicherheitsdatenblatt-Treffer sind sachfremd. SUEZ ist kein Identitätsbeleg.
+Eine Primärquelle belegt jetzt die **SDS-Rohstoffverwertung Schäfer & Scheffel GmbH**, Buderusstraße 8, 35232 Dautphetal, Tel. 06461 9550-0. Name und Rohstoffverwertung passen stark zum Seedfragment, aber die Seed-Ortsangabe Dillenburg/Herborn 35683 weicht vom Betreiber-Impressum ab; ohne Anbieter-ID/Umzugskette wird der Kandidat nicht stillschweigend als identisch gesetzt und keine Stammdaten-/GEO-Übernahme vorgenommen. Allgemeine Sicherheitsdatenblatt-Treffer sind sachfremd; SUEZ ist kein Identitätsbeleg.
 
-**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreisliste. Offen: originale Namensschreibweise, Auflösung SDS und Gewerbeort; keine plausible Firma aus Fragmenten konstruieren.
+**ANKAUF:** keine öffentlich belegte numerische Liste gefunden. **VERKAUF:** keine Preisliste. **GEBÜHREN:** kein Tarif. Offen: Brücke zwischen Seed und dem exakt benannten Dautphetaler Betrieb sowie Grund der Ortsabweichung; keinen Kandidatenstandort vor dieser Klärung geocodieren.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Exakte Primärquelle erstmals gefunden: Impressum der SDS-Rohstoffverwertung Schäfer & Scheffel GmbH nennt Buderusstraße 8, 35232 Dautphetal, 06461 9550-0, info@sds-rohstoffverwertung.de, www.sds-rohstoffverwertung.de. Das ist ein starker Namens-/Tätigkeitskandidat für „Schäfer und Scheffel (SDS)“, aber keine belegte Verbindung zur im Seed genannten Region Dillenburg/Herborn 35683. Daher keine Frontmatter-Fills oder Geo-Übernahme bis zur Abklärung der Originalquelle/Anbieter-ID; nicht als Nichtexistenz der Seedentität werten. Die Betreiberquelle nennt keine öffentlich numerischen Ankaufkurse, Verkaufswerte oder Gebühren. Quelle: http://sds-rohstoffverwertung.de/Impressum/Datenschutz]
 
 ### Einordnung 09.10.2026
 

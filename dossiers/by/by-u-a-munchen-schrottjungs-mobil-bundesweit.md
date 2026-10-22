@@ -6,6 +6,7 @@ state: BY
 city: u. a. München
 street: ''
 postcode: ''
+clear_fields: geo
 phone: 0173 8705566
 email: info@schrottjungs.de
 opening_hours: ''
@@ -24,9 +25,19 @@ provenance_origin: table
 
 ## Überblick
 
-Mobiler Vermittlungs-/Partnerdienst für Privat/Gewerbe, keine eigene Münchner Hofadresse. Anlieferung ausschließlich beim getrennten Partner Entel, Lerchenstraße 19, 80995 München. Gewerbeseite veröffentlicht **Ankauf-Richtpreise „bis zu“ für Großmengen**, nicht garantierte Kleinmengen-Tagespreise. **Gebühren:** München nennt ca. 40–80 € für Einzelgeräte/kleine Eisenmengen, Startseiten-FAQ teilweise 20–50 €; auch die Eisen-300-kg-Ausschlusszeile widerspricht kostenpflichtigen Ausnahmen. Annahme und Endpreis vor Termin bestätigen. Mietfreie Gewerbecontainer nur bei Schrottbefüllung, keine pauschale kostenlose Entsorgung aller Abfälle.
+Die Website identifiziert den Betreiber im Impressum als Schrottjungs UG, Hamburg (HRB 196586; Geschäftsführer Magnus Ditz). Der Anbieter beschreibt Abholungen über lokale Partnerbetriebe. Für München nennt er als **separaten Anlieferpunkt** Entel GmbH, Lerchenstraße 19, 80995 München; das ist keine eigene SchrottJungs-Filiale.
+
+**Ankauf:** Die Gewerbeseite veröffentlicht unverbindliche „bis zu“-Richtpreise für Großmengen (FE in €/t, NE in €/kg; Einzelwerte siehe Timeline), keine garantierten Tages- oder Privatkundenpreise; Tageskurse auf Anfrage. **Verkauf:** keine Material-Verkaufspreisliste auf den geprüften Seiten. **Gebühren:** München und Startseite nennen für Einzelgeräte/kleine Eisenmengen 40–80 €, die FAQ auf der Startseite jedoch 20–50 €. Außerdem steht „Eisenschrott <300 kg“ zugleich als Ausschluss und als mögliche gebührenpflichtige Ausnahme. Vor Abholung konkrete Annahme und Kosten schriftlich bestätigen. Gewerbecontainer 3–40 m³ werden als mietfrei bei Schrottbefüllung beworben; das ist kein allgemeiner Entsorgungstarif.
 
 ## Timeline
+
+### GEO-Prüfung 22.10.2026
+
+- [GEO-Prüfung 22.10.2026: Die read-only Produktionskoordinate 48.1436973, 11.559808 reverse-geocodiert auf eine Spielhalle an der Dachauer Straße (OSM-Knoten 5216471121), nicht auf SchrottJungs oder den Partner Entel. `clear_fields: geo` entfernt ausschließlich diesen nicht zuordenbaren eigenen GEO-Punkt beim normalen Seed; der separat genannte Partnerstandort Lerchenstraße 19 wird nicht als eigenes Ersatz-GEO übernommen. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.1436973&lon=11.559808&zoom=18&addressdetails=1 ; https://www.openstreetmap.org/node/5216471121 ; https://schrottjungs.de/schrottabholung-muenchen/ .]
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Direktcheck von Startseite, Gewerbeseite, München-Seite und Impressum. Identität/Kontakt laut Impressum: Schrottjungs UG, Billwerder Steindamm 15a, 20537 Hamburg, Magnus Ditz, HRB 196586; die Startseite sagt, Abholungen erfolgen durch lokale Partnerbetriebe. München nennt weiterhin Anlieferung bei der getrennten Entel GmbH, Lerchenstraße 19, 80995 München, nicht an einer eigenen SchrottJungs-Filiale. **ANKAUF – unverbindliche Großmengen-Richtpreise, ausdrücklich „bis zu“, ohne publiziertes Gültigkeitsdatum/USt-Basis:** FE €/t: Scherenvormaterial 200, Mischschrott leicht 170/schwer 210, Sorte 3 240, Trägerschrott 230, Bremsscheiben 240, Zerlegematerial 540; NE €/kg: Kupfer Raff 8,50, Millberry 9,50, Kupferschiene 9,20, Messing gemischt 4,50, Rotguss 8, Kabel diverse 5,20, Aluminium diverse 2,50, V2A 1,10, Zink 1,90, Blei 1,40, Zinn 22, Hartmetall/Wolfram 55. Mengen-, Qualitäts-, Sortierungs- und marktbedingt; Kleinmengen anders, tagesaktuelle Preise auf Anfrage. Diese Listenwerte sind keine garantierten Münchner Abhol- oder Entel-Hofkurse. **VERKAUF:** keine Liste. **GEBÜHREN:** München nennt ca. 40–80 €, Startseiten-FAQ weiterhin abweichend 20–50 €; unter 300 kg Eisen zugleich Ausschluss/Mindestmengenhinweis und gebührenpflichtige Ausnahme. Container 3–40 m³ mietfrei nur im Gewerbe-/Schrottkontext; keine allgemeine Gratisentsorgung zugesagt. Quellen: https://schrottjungs.de/ ; https://schrottjungs.de/gewerbe/ ; https://schrottjungs.de/schrottabholung-muenchen/ ; https://schrottjungs.de/impressum-datenschutz/ .]
 
 ### Recherche 19.10.2026: Welle 03:30 / Shard a
 

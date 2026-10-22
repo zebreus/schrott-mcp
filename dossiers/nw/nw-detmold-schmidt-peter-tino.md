@@ -28,6 +28,10 @@ Peter Tino Schmidt bleibt ein Verzeichnis-Kandidat an Lichtenbergstr. 1, 32758 D
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Profil direkt nochmals geprüft: Peter Tino Schmidt, Lichtenbergstr. 1, 32758 Detmold, 05232 963481; Eintragsdatum 29.06.2021, Portalaktualisierung 03.10.2026. Keine Betreiberwebsite, E-Mail oder Öffnungszeiten. Die Portal-FAQ erklärt Euro-Symbole als grobe Preisspannen, nicht als Material-Ankaufskurse, Verkaufspreise oder Annahmegebühren. Daten bleiben Verzeichnis-Leads; kein aktueller Betreiber-/Annahmestellenbeleg und daher keine GEO-Freigabe. Quellen: https://www.11880.com/branchenbuch/detmold/120674719B100214631/peter-tino-schmidt-schrotthandel.html]
+
 ### Recherche 19.10.2026: Welle 03:30 B
 
 - [Recherche 19.10.2026: Direktes 11880-Profil weiterhin PeterTinoSchmidt/Lichtenbergstr.1/32758Pivitsheide/05232963481, keine Domain/Mail/Zeiten, Eintragsdaten29.06.2021 und Portalaktualisierung03.10.2026. FAQ beschreibt ausdrücklich Euro-Symbole als Preisspannen, keine Materialpreise. Erneute qualifizierte Namenssuche ohne passend zuordenbaren Register-/Betreiberfund; allgemeine H.Schmitt/HinnerkSchmidt-Treffer sind andere Unternehmen, kein Abgleich oder Merge. Bestehende Felder bleiben historische Leads, keine heutige Bestätigung. Ankauf/Verkauf/Gebühren ohne Liste. Gewerbeinhaber und Hof-/Kontaktadressart kommunal klären, dann GEO prüfen; bestehender DB-Punkt nicht freigegeben. Quelle (nur Lead): https://www.11880.com/branchenbuch/detmold/120674719B100214631/peter-tino-schmidt-schrotthandel.html .]

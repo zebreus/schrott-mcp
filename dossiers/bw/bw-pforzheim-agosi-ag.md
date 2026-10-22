@@ -26,18 +26,22 @@ provenance_origin: table
 
 Die Betreiberseite nennt Kanzlerstr. 17 als AGOSI-Kontakt, einen Kundenschalter in der Robert-Bauer-Straße und den getrennten NE-Metallhandel am Hauptgüterbahnhof 24 (Materialanlieferung Mo-Fr bis 14:30). Da dies unterschiedliche Funktionen/Standorte sind, bleibt `street` leer; die exakte Lieferstelle hängt von Material und Geschäft ab.
 
-**Betreiber-Preisliste, Tageskurse vom 12.10.2026 (Eröffnungspreise; indikativ, kleine Mengen; aktuelle Preise auf Anfrage):**
+**Betreiber-Preisliste, Tageskurse vom 22.10.2026 (Eröffnungspreise; indikativ, kleine Mengen; aktuelle Preise auf Anfrage):**
 
 | Material | Ankauf | Verkauf unverarbeitet | Verkauf verarbeitet |
 |---|---:|---:|---:|
-| Gold | 117,82 €/g | 127,28 €/g | 133,35 €/g |
-| Silber | 1.711,20 €/kg | 1.901,90 €/kg | 2.042,80 €/kg |
-| Platin | 46,80 €/g | nicht ausgewiesen | 51,75 €/g |
-| Palladium | 32,35 €/g | nicht ausgewiesen | 36,50 €/g |
+| Gold | 114,37 €/g | 123,58 €/g | 129,46 €/g |
+| Silber | 1.576,90 €/kg | 1.753,90 €/kg | 1.883,90 €/kg |
+| Platin | 43,95 €/g | nicht ausgewiesen | 48,65 €/g |
+| Palladium | 29,45 €/g | nicht ausgewiesen | 33,20 €/g |
 
 > Tabelle ist ein Snapshot, kein Festpreis oder allgemeiner Endkundenanspruch; die Betreiberseite weist auf schnelle Kursschwankungen und unverbindliche Indikationen hin. **Gebühren:** keine Gebührentarife gefunden.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Betreiberkursseite direkt abgerufen; die angezeigte Tabelle ist ausdrücklich „Tageskurse vom 22.10.2026“. Eröffnungspreise: **Ankauf** Gold 114,37 €/g, Silber 1.576,90 €/kg, Platin 43,95 €/g, Palladium 29,45 €/g; **Verkauf unverarbeitet** Gold 123,58 €/g und Silber 1.753,90 €/kg; **Verkauf verarbeitet** Gold 129,46 €/g, Silber 1.883,90 €/kg, Platin 48,65 €/g, Palladium 33,20 €/g. Für Platin/Palladium wird kein Verkaufspreis unverarbeitet ausgewiesen. Die Seite kennzeichnet Werte als indikativ und ohne Gewähr, betont Schwankungen und bittet um aktuelle Anfrage; Snapshot nicht als Festpreis. Kontaktseite bestätigt unterschiedliche Funktionen: Zentralkontakt Kanzlerstr. 17, Kundenschalter Robert-Bauer-Straße, NE-Metallhandel Am Hauptgüterbahnhof 24 mit Materialanlieferung bis 14:30 Uhr. Keine Gebührenliste gefunden. Quellen: https://edelmetallkurse.agosi.de/index.php/frontend/show_detail/de ; https://agosi.de/kontakt/ ; https://agosi.de/impressum/ .]
 
 ### Zentralkontaktgate 16.10.2026
 

@@ -6,7 +6,8 @@ state: ST
 city: Molau 1
 street: ''
 postcode: ''
-phone: '036694 22739'
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -27,6 +28,10 @@ provenance_origin: table
 Fred/Sonnenberg Fred Autoverwertung bleibt ein nicht unabhängig bestätigter Branchenverzeichnis-Lead. 11880 und Gelbe Seiten nennen Molau 1, 06618 Molauer Land und 036694 22739; andere Verzeichnisse führen Molau 61. Die Öffnungszeitangaben sind nicht konsistent, und ein erreichbarer Betreiberauftritt/Impressum oder Registerbeleg fehlt. Keine dieser Adressen ist als Kundenannahmestelle oder GEO-Punkt verifiziert. **Ankauf**, **Verkauf** und **Gebühren:** keine zurechenbaren Preislisten.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Suche bestätigt weiterhin nur Aggregator-Spuren: 11880 führt „Molau 1“, 06618 Molauer Land und 036694 22739; Cylex führt den Namensgleichlautenden an Molau 61. Diese abweichenden Anschriften sind ungelöst. Kein zugänglicher eigener Betreiberauftritt, Impressum oder amtlicher Nachweis zur Kundenannahme gefunden. Telefonnummer aus Frontmatter zurückgenommen und `clear_fields: phone` gesetzt; das ist keine Aussage, dass die Nummer abgeschaltet ist. **Ankauf/Verkauf/Gebühren:** keine zurechenbaren Preislisten. **GEO:** weder Molau 1 noch Molau 61 als heutiger Kundenstandort bestätigt; keine Koordinaten. Quellen/Leads: https://www.11880.com/branchenbuch/molauer-land/060440459B28090002/fred-sonnenberg-autoverwertung.html ; https://web2.cylex.de/firma-home/sonnenberg-fred-autoverwertung-169466.html ; https://www.gelbeseiten.de/gsbiz/9c1df6b1-ab43-4eaf-9e07-055341cf8e4f .]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

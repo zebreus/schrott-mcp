@@ -3,9 +3,10 @@ slug: by-aschaffenburg-alzenau-ak-containerdienst
 name: AK Containerdienst
 trader_type: containerdienst
 state: BY
-city: Aschaffenburg/Alzenau
+city: Aschaffenburg
 street: ''
 postcode: ''
+clear_fields: geo
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite und NorthData identifizieren AK Containerdienst GmbH, HRB 53757, mit Sitz/Adresse Carl-Zeiss-Straße 37, 63322 Rödermark. Die AGB (Stand 15.01.2022) nennen diese Adresse ausdrücklich als Metall-Anlieferplatz für private und gewerbliche Lieferanten. Der Seed führt die Firma unter BY und Aschaffenburg/Alzenau, während der belegte Annahmeplatz in Hessen liegt. Diese Cross-State-Zuordnung ist nicht stillschweigend aufgelöst; `state`, `city`, Straße und PLZ bleiben im Frontmatter unverändert, bis die Zuordnung des Live-Datensatzes geklärt ist. Die Website zeigt aktuell ein Online-Bestellformular mit Entsorgungsgebühren pro Tonne; deren Gültigkeit ist nicht datiert und die Homepage widerspricht sich beim Mischmüllpreis.
+Die Betreiberwebsite und NorthData identifizieren AK Containerdienst GmbH, HRB 53757, mit Sitz/Adresse Carl-Zeiss-Straße 37, 63322 Rödermark. Die AGB (Stand 15.01.2022) nennen diese Adresse ausdrücklich als Metall-Anlieferplatz für private und gewerbliche Lieferanten. Die Homepage führt Aschaffenburg ausdrücklich als Lieferort im Rhein-Main-Servicegebiet; Alzenau wird nicht ausdrücklich genannt. Der Seed bleibt als BY-Servicegebietszeile erhalten, nicht als bayerischer Betriebs- oder Metallannahmestandort. Der belegte Metall-Anlieferplatz liegt in Hessen und wird nicht auf diesen BY-Datensatz übertragen. Die bisherige GEO-Koordinate führte zu einem Jugendkulturzentrum in Aschaffenburg und wird beim regulären Seed explizit entfernt; kein Ersatzpunkt ist belegt. Die Website zeigt aktuell ein Online-Bestellformular mit Entsorgungsgebühren pro Tonne; deren Gültigkeit ist nicht datiert und die Homepage widerspricht sich beim Mischmüllpreis.
 
 **Ankauf:** Schrottabholung laut Homepage zum jeweiligen Tagespreis; Werkstätten und Metallbetriebe können kostenlos einen Container für Metall/Eisenschrott erhalten, der Inhalt werde vergütet. Die AGB nennen börsenabhängige Tagespreise auf Anfrage, einen Abschlag bei mehr als 1 % Fremdmaterial und keinen Vergütungsanspruch für Container-Schrott unter 1.000 kg. Keine numerischen Ankaufskurse. **Verkauf:** keine eigene Verkaufspreisliste belegt. **Gebühren:** Das Onlineformular zeigte beim Abruf am 22.10.2026 folgende Entsorgungspreise je Tonne (zzgl. 19 % MwSt.): Baumischabfall/Mischmüll 220 €, reiner Bauschutt ab 55 €, Holz A1–A3 75 €, Holz A4 149 €, Erdaushub ohne Wurzeln/Steine/Grasnarbe 55 €, mit diesen Beimengungen ab 85 €, Rigips/Gipsputz 150 €, Grünschnitt ohne Wurzeln/Stammholz 85 €, mit Wurzeln/Stammholz 149 €, Leichtbaustoffe/Ytong 150 €, Porenbeton 150 € und Glas 89 €. Auf demselben Homepageabruf warb ein Banner zugleich mit „Frühjahrsputzpreise Mischmüll“ von 189 €/t; der Widerspruch und die nicht ausgewiesene Gültigkeitsdauer lassen offen, welcher Preis anwendbar ist. Die AGB (15.01.2022) setzen bei Entsorgungscontainern mindestens 1 t an; Anlagen-/Genehmigungskosten können zusätzlich berechnet werden. Die Mietdauer ist im Text widersprüchlich (max. 30 Tage im Geschäftsgegenstand, an anderer Stelle 5 Tage; 5 €/netto/Tag erst jenseits von 30 Tagen). Diese alten Bedingungen sind keine pauschale aktuelle Gebührenzusage; Konditionen vor Auftrag erfragen.
 
 ## Timeline
+
+### GEO-Prüfung 22.10.2026
+
+- [GEO-Prüfung 22.10.2026: Die read-only Produktionszeile für diesen exakten Slug enthielt 49.9718667, 9.1479667. Nominatim-Reverse ordnet den Punkt dem Jugendkulturzentrum am Kirchhofweg, Aschaffenburg, zu (OSM-Way 124365324), nicht AK Containerdienst. Die aktuelle Betreiberhomepage nennt Aschaffenburg ausdrücklich im Container-Liefergebiet; Alzenau nicht. Die AGB nennen Rödermark als Metall-Anlieferplatz. Deshalb wird `city` auf das direkt belegte Servicegebiet Aschaffenburg eingeengt, `state: BY` als bisherige Servicegebietszuordnung nicht stillschweigend umklassifiziert und `clear_fields: geo` entfernt das nicht zuordenbare Alt-Paar beim normalen Seed. Weder Rödermark noch das Jugendkulturzentrum werden als Ersatz-GEO übernommen. Quellen: https://ak-containerdienst.de/ ; https://ak-containerdienst.de/agb/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.9718667&lon=9.1479667&zoom=18&addressdetails=1 ; https://www.openstreetmap.org/way/124365324 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
