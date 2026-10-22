@@ -425,7 +425,11 @@ async fn record_dated_observation(
             });
         }
     }
-    // Only MSG declares a complete, fail-closed source snapshot. Other
+    let wahl_snapshot = handler_slug == handlers::wahl_co_zella_mehlis::SLUG;
+    if wahl_snapshot {
+        handlers::wahl_co_zella_mehlis::validate_snapshot(outcome)?;
+    }
+    // MSG and Wahl declare complete, fail-closed source snapshots. Other
     // handlers retain their observation-only semantics and write isolation.
     if handler_slug == handlers::msg_metallrecycling_gotha::SLUG {
         return handlers::msg_metallrecycling_gotha::record_snapshot(
@@ -448,6 +452,27 @@ async fn record_dated_observation(
         });
     };
     let now_s = now.to_rfc3339();
+    let wahl_legacy_ids = if wahl_snapshot {
+        for p in &outcome.prices {
+            if public
+                .find_material_id(p.material)
+                .map_err(|source| IngestError::Catalog {
+                    what: "material",
+                    name: p.material.to_owned(),
+                    source,
+                })?
+                .is_none()
+            {
+                return Err(IngestError::Parse {
+                    url: outcome.fetch_url.clone(),
+                    detail: format!("Wahl-Katalogmaterial fehlt: {}", p.material),
+                });
+            }
+        }
+        wahl_legacy_cable_price_ids(public, trader_id)?
+    } else {
+        Vec::new()
+    };
     // Validated source-row coexistence is a durable non-retirement decision,
     // even if neither tin row is numeric. Do not infer absence from prices.
     if handler_slug == handlers::hofmann_rastatt::SLUG
@@ -478,6 +503,17 @@ async fn record_dated_observation(
             }
         }
     }
+    let wahl_retired = if wahl_snapshot {
+        Some(record_wahl_price_snapshot(
+            public,
+            trader_id,
+            outcome,
+            &now_s,
+            &wahl_legacy_ids,
+        )?)
+    } else {
+        None
+    };
     let mut recorded = 0i64;
     let mut skipped = outcome.skipped_labels.clone();
     let mut canaries: Vec<String> = Vec::new();
@@ -563,7 +599,12 @@ async fn record_dated_observation(
         };
         // All typed Hofmann tin writes use the persistent cutover contract,
         // including old-key replays and explicit request-only coexistence.
-        let result = if handler_slug == handlers::hofmann_rastatt::SLUG
+        let result = if wahl_snapshot {
+            // Wahl's complete snapshot was committed atomically above. Do not
+            // pass its rows through the generic writer, which could mutate a
+            // foreign current key before the snapshot collision guard runs.
+            Ok(())
+        } else if handler_slug == handlers::hofmann_rastatt::SLUG
             && row_dates.is_some()
             && outcome.fetch_url == handlers::hofmann_rastatt::URL
             && p.material == "zinn"
@@ -641,6 +682,22 @@ async fn record_dated_observation(
                 skipped.push(format!("{} (Schreibfehler)", p.label));
             }
         }
+    }
+    if wahl_snapshot {
+        if recorded as usize != outcome.prices.len() {
+            return Err(IngestError::Parse {
+                url: outcome.fetch_url.clone(),
+                detail: format!(
+                    "Wahl-Snapshot nicht vollständig geschrieben: {recorded}/{} Preise",
+                    outcome.prices.len()
+                ),
+            });
+        }
+        tracing::info!(
+            slug = handler_slug,
+            retired = wahl_retired.unwrap_or_default(),
+            "Wahl source snapshot reconciled"
+        );
     }
     // Explicit material acceptances: resolve, write
     // only on change, count everything resolved.
@@ -739,6 +796,144 @@ async fn record_dated_observation(
         skipped,
         canaries,
     })
+}
+
+fn wahl_legacy_cable_price_ids(
+    public: &PublicDb,
+    trader_id: i64,
+) -> Result<Vec<i64>, super::IngestError> {
+    use super::IngestError;
+    let source = handlers::wahl_co_zella_mehlis::URL;
+    let catalog_error = |source| IngestError::Catalog {
+        what: "Wahl legacy price",
+        name: handlers::wahl_co_zella_mehlis::SLUG.to_owned(),
+        source,
+    };
+    let cable_id = public
+        .find_material_id("kabel-kupfer")
+        .map_err(&catalog_error)?
+        .ok_or_else(|| IngestError::Parse {
+            url: source.to_owned(),
+            detail: "Katalogmaterial kabel-kupfer fehlt".to_owned(),
+        })?;
+    let rows = public
+        .current_prices_from(trader_id, source)
+        .map_err(catalog_error)?;
+    Ok(rows
+        .into_iter()
+        .filter(|row| {
+            row.material_id == cable_id
+                && row.variant.is_empty()
+                && row.price_kind == "upto"
+                && row.currency == "EUR"
+                && row.unit == "EUR/kg"
+                && row.price.is_finite()
+                && row.price > 0.0
+                && row.price_min.is_none()
+                && row.price_max == Some(row.price)
+                && row.source_type == "haendler_angabe"
+                && row.published
+                && row.notes.starts_with("Kabelpreis: bis zu ")
+        })
+        .map(|row| row.id)
+        .collect())
+}
+
+fn record_wahl_price_snapshot(
+    public: &PublicDb,
+    trader_id: i64,
+    outcome: &HandlerOutcome,
+    now: &str,
+    legacy_ids: &[i64],
+) -> Result<usize, super::IngestError> {
+    use super::IngestError;
+
+    struct Prepared {
+        material_id: i64,
+        variant: String,
+        price: f64,
+        unit: String,
+        price_kind: &'static str,
+        price_min: Option<f64>,
+        price_max: Option<f64>,
+        confidence: Option<f64>,
+        label: String,
+        extra_json: String,
+    }
+
+    let mut prepared = Vec::with_capacity(outcome.prices.len());
+    for p in &outcome.prices {
+        let material_id = public
+            .find_material_id(p.material)
+            .map_err(|source| IngestError::Catalog {
+                what: "material",
+                name: p.material.to_owned(),
+                source,
+            })?
+            .ok_or_else(|| IngestError::Parse {
+                url: outcome.fetch_url.clone(),
+                detail: format!("Wahl-Katalogmaterial fehlt: {}", p.material),
+            })?;
+        let (price, price_min, price_max, unit) = normalize_unit(
+            public,
+            material_id,
+            p.price,
+            p.price_min,
+            p.price_max,
+            p.unit,
+        )?;
+        let mut extra = serde_json::json!({"map_v": MAP_VERSION, "snapshot_owner": handlers::wahl_co_zella_mehlis::SNAPSHOT_OWNER});
+        extra["published_at_basis"] = serde_json::json!("page_stated");
+        prepared.push(Prepared {
+            material_id,
+            variant: p.variant.to_string(),
+            price,
+            unit,
+            price_kind: p.price_kind,
+            price_min,
+            price_max,
+            confidence: p.confidence,
+            label: p.label.clone(),
+            extra_json: extra.to_string(),
+        });
+    }
+    let published_at = outcome.published_at.as_deref();
+    let prices: Vec<_> = prepared
+        .iter()
+        .map(|p| schrott_mcp_store::NewPrice {
+            trader_id,
+            material_id: p.material_id,
+            variant: &p.variant,
+            price: p.price,
+            currency: "EUR",
+            unit: &p.unit,
+            price_kind: p.price_kind,
+            price_min: p.price_min,
+            price_max: p.price_max,
+            confidence: p.confidence,
+            source_type: "haendler_angabe",
+            published: true,
+            source_url: handlers::wahl_co_zella_mehlis::URL,
+            observed_at: now,
+            published_at,
+            valid_from: None,
+            valid_to: None,
+            notes: &p.label,
+            extra_json: &p.extra_json,
+            ingested_at: now,
+        })
+        .collect();
+    public
+        .record_price_snapshot(
+            &prices,
+            legacy_ids,
+            handlers::wahl_co_zella_mehlis::SNAPSHOT_OWNER,
+        )
+        .map_err(|source| IngestError::Catalog {
+            what: "Wahl price snapshot",
+            name: handlers::wahl_co_zella_mehlis::SLUG.to_owned(),
+            source,
+        })
 }
 
 fn same_mapping_version(previous: &schrott_mcp_store::PriceRow) -> bool {
@@ -951,6 +1146,354 @@ mod tests {
             "{:?}",
             r.canaries
         );
+    }
+
+    #[tokio::test]
+    async fn wahl_complete_snapshots_retire_only_proven_legacy_and_owned_current() {
+        use super::{HandlerOutcome, ScrapedPrice};
+        use schrott_mcp_store::{InternalDb, NewMaterial, NewPrice, NewTrader, PublicDb};
+
+        fn outcome(variants: std::ops::Range<i32>) -> HandlerOutcome {
+            HandlerOutcome {
+                prices: variants
+                    .map(|i| ScrapedPrice {
+                        material: "kupfer-millberry",
+                        variant: format!("grade-{i}").into(),
+                        price: 9.0 + f64::from(i) / 100.0,
+                        currency: "EUR",
+                        unit: "EUR/kg",
+                        price_kind: "approx",
+                        price_min: None,
+                        price_max: None,
+                        confidence: Some(0.5),
+                        label: format!("Millberry grade {i}"),
+                    })
+                    .collect(),
+                fetch_url: super::handlers::wahl_co_zella_mehlis::URL.to_owned(),
+                status_code: 200,
+                published_at: Some("2026-10-21T14:44:01+00:00".to_owned()),
+                ..HandlerOutcome::default()
+            }
+        }
+
+        let dir = crate::test_support::TempDbDir::new("wahl-snapshot-retirement");
+        let public = PublicDb::open(dir.path()).expect("public db");
+        let internal = InternalDb::open(dir.path()).expect("internal db");
+        let initial = "2026-10-21T03:30:55+00:00";
+        let trader_id = public
+            .upsert_trader(&NewTrader {
+                slug: super::handlers::wahl_co_zella_mehlis::SLUG,
+                name: "Wahl & Co.",
+                trader_type: "schrotthaendler",
+                description: "",
+                street: "",
+                postcode: "98544",
+                city: "Zella-Mehlis",
+                state: "TH",
+                country: "DE",
+                lat: None,
+                lon: None,
+                phone: "",
+                email: "",
+                website: "",
+                website_status: "unbekannt",
+                website_checked_at: "",
+                opening_hours: "",
+                dropoff_json: "{}",
+                pickup_json: "{}",
+                min_quantity_kg: None,
+                max_quantity_kg: None,
+                certifications: None,
+                status: "aktiv",
+                notes: "",
+                extra_json: "{}",
+                now: initial,
+            })
+            .expect("trader");
+        let copper_id = public
+            .upsert_material(&NewMaterial {
+                slug: "kupfer-millberry",
+                name_de: "Kupfer Millberry",
+                category: "nichteisen",
+                unit: "EUR/kg",
+                description: "",
+                updated_at: initial,
+            })
+            .expect("copper material");
+        let cable_id = public
+            .upsert_material(&NewMaterial {
+                slug: "kabel-kupfer",
+                name_de: "Kupferkabel",
+                category: "nichteisen",
+                unit: "EUR/kg",
+                description: "",
+                updated_at: initial,
+            })
+            .expect("cable material");
+        public
+            .record_price(&NewPrice {
+                trader_id,
+                material_id: cable_id,
+                variant: "",
+                price: 5.0,
+                currency: "EUR",
+                unit: "EUR/kg",
+                price_kind: "upto",
+                price_min: None,
+                price_max: Some(5.0),
+                confidence: Some(0.5),
+                source_type: "haendler_angabe",
+                published: true,
+                source_url: super::handlers::wahl_co_zella_mehlis::URL,
+                observed_at: initial,
+                published_at: None,
+                valid_from: None,
+                valid_to: None,
+                notes: "Kabelpreis: bis zu 5 €/kg – je nach Kupferanteil",
+                extra_json: "{}",
+                ingested_at: initial,
+            })
+            .expect("legacy cable quote");
+
+        let now1 = chrono::DateTime::parse_from_rfc3339("2026-10-22T10:00:00+00:00")
+            .unwrap()
+            .with_timezone(&chrono::Utc);
+        assert!(
+            super::record(
+                &public,
+                &internal,
+                super::handlers::wahl_co_zella_mehlis::SLUG,
+                &outcome(0..40),
+                &now1,
+            )
+            .await
+            .is_err(),
+            "an incomplete snapshot cannot retire legacy Current"
+        );
+        assert!(public
+            .current_price_for(trader_id, cable_id, "")
+            .unwrap()
+            .is_some());
+
+        let first = outcome(0..41);
+        let result = super::record(
+            &public,
+            &internal,
+            super::handlers::wahl_co_zella_mehlis::SLUG,
+            &first,
+            &now1,
+        )
+        .await
+        .expect("complete snapshot reconciles");
+        assert_eq!(result.recorded, 41);
+        assert!(public
+            .current_price_for(trader_id, cable_id, "")
+            .unwrap()
+            .is_none());
+        assert_eq!(
+            public
+                .price_history(trader_id, cable_id, "", 10)
+                .unwrap()
+                .len(),
+            1,
+            "retirement preserves the historical quote"
+        );
+        let managed = public
+            .current_price_for(trader_id, copper_id, "grade-0")
+            .unwrap()
+            .expect("current snapshot row");
+        assert_eq!(
+            serde_json::from_str::<serde_json::Value>(&managed.extra_json).unwrap()
+                ["snapshot_owner"],
+            super::handlers::wahl_co_zella_mehlis::SNAPSHOT_OWNER
+        );
+
+        let now2 = now1 + chrono::Duration::hours(1);
+        super::record(
+            &public,
+            &internal,
+            super::handlers::wahl_co_zella_mehlis::SLUG,
+            &outcome(1..42),
+            &now2,
+        )
+        .await
+        .expect("next snapshot reconciles owned Current");
+        assert!(public
+            .current_price_for(trader_id, copper_id, "grade-0")
+            .unwrap()
+            .is_none());
+        assert_eq!(
+            public
+                .price_history(trader_id, copper_id, "grade-0", 10)
+                .unwrap()
+                .len(),
+            1,
+            "managed-key retirement preserves history too"
+        );
+    }
+
+    #[tokio::test]
+    async fn wahl_foreign_current_collision_blocks_all_snapshot_writes() {
+        use super::{HandlerOutcome, ScrapedPrice};
+        use schrott_mcp_store::{InternalDb, NewMaterial, NewPrice, NewTrader, PublicDb};
+
+        let dir = crate::test_support::TempDbDir::new("wahl-foreign-current-collision");
+        let public = PublicDb::open(dir.path()).expect("public db");
+        let internal = InternalDb::open(dir.path()).expect("internal db");
+        let initial = "2026-10-21T03:30:55+00:00";
+        let trader_id = public
+            .upsert_trader(&NewTrader {
+                slug: super::handlers::wahl_co_zella_mehlis::SLUG,
+                name: "Wahl & Co.",
+                trader_type: "schrotthaendler",
+                description: "",
+                street: "",
+                postcode: "98544",
+                city: "Zella-Mehlis",
+                state: "TH",
+                country: "DE",
+                lat: None,
+                lon: None,
+                phone: "",
+                email: "",
+                website: "",
+                website_status: "unbekannt",
+                website_checked_at: "",
+                opening_hours: "",
+                dropoff_json: "{}",
+                pickup_json: "{}",
+                min_quantity_kg: None,
+                max_quantity_kg: None,
+                certifications: None,
+                status: "aktiv",
+                notes: "",
+                extra_json: "{}",
+                now: initial,
+            })
+            .expect("trader");
+        let copper_id = public
+            .upsert_material(&NewMaterial {
+                slug: "kupfer-millberry",
+                name_de: "Kupfer Millberry",
+                category: "nichteisen",
+                unit: "EUR/kg",
+                description: "",
+                updated_at: initial,
+            })
+            .expect("copper material");
+        let cable_id = public
+            .upsert_material(&NewMaterial {
+                slug: "kabel-kupfer",
+                name_de: "Kupferkabel",
+                category: "nichteisen",
+                unit: "EUR/kg",
+                description: "",
+                updated_at: initial,
+            })
+            .expect("cable material");
+        public
+            .record_price(&NewPrice {
+                trader_id,
+                material_id: copper_id,
+                variant: "grade-0",
+                price: 99.0,
+                currency: "EUR",
+                unit: "EUR/kg",
+                price_kind: "exact",
+                price_min: None,
+                price_max: None,
+                confidence: Some(1.0),
+                source_type: "haendler_angabe",
+                published: true,
+                source_url: "https://foreign.example/prices",
+                observed_at: initial,
+                published_at: None,
+                valid_from: None,
+                valid_to: None,
+                notes: "foreign current price",
+                extra_json: "{}",
+                ingested_at: initial,
+            })
+            .expect("foreign current price");
+        public
+            .record_price(&NewPrice {
+                trader_id,
+                material_id: cable_id,
+                variant: "",
+                price: 5.0,
+                currency: "EUR",
+                unit: "EUR/kg",
+                price_kind: "upto",
+                price_min: None,
+                price_max: Some(5.0),
+                confidence: Some(0.5),
+                source_type: "haendler_angabe",
+                published: true,
+                source_url: super::handlers::wahl_co_zella_mehlis::URL,
+                observed_at: initial,
+                published_at: None,
+                valid_from: None,
+                valid_to: None,
+                notes: "Kabelpreis: bis zu 5 €/kg – je nach Kupferanteil",
+                extra_json: "{}",
+                ingested_at: initial,
+            })
+            .expect("legacy cable price");
+
+        let prices = (0..41)
+            .map(|i| ScrapedPrice {
+                material: "kupfer-millberry",
+                variant: format!("grade-{i}").into(),
+                price: 9.0 + f64::from(i) / 100.0,
+                currency: "EUR",
+                unit: "EUR/kg",
+                price_kind: "approx",
+                price_min: None,
+                price_max: None,
+                confidence: Some(0.5),
+                label: format!("Millberry grade {i}"),
+            })
+            .collect();
+        let outcome = HandlerOutcome {
+            prices,
+            fetch_url: super::handlers::wahl_co_zella_mehlis::URL.to_owned(),
+            status_code: 200,
+            published_at: Some("2026-10-21T14:44:01+00:00".to_owned()),
+            ..HandlerOutcome::default()
+        };
+        let now = chrono::DateTime::parse_from_rfc3339("2026-10-22T10:00:00+00:00")
+            .unwrap()
+            .with_timezone(&chrono::Utc);
+        let foreign_before = public
+            .current_price_for(trader_id, copper_id, "grade-0")
+            .unwrap()
+            .expect("foreign baseline");
+
+        assert!(super::record(
+            &public,
+            &internal,
+            super::handlers::wahl_co_zella_mehlis::SLUG,
+            &outcome,
+            &now,
+        )
+        .await
+        .is_err());
+
+        let foreign_after = public
+            .current_price_for(trader_id, copper_id, "grade-0")
+            .unwrap()
+            .expect("foreign current survives");
+        assert_eq!(foreign_after.id, foreign_before.id);
+        assert_eq!(foreign_after.source_url, foreign_before.source_url);
+        assert_eq!(foreign_after.price, 99.0);
+        assert!(public
+            .current_price_for(trader_id, cable_id, "")
+            .unwrap()
+            .is_some());
+        assert!(public
+            .price_history(trader_id, copper_id, "grade-1", 10)
+            .unwrap()
+            .is_empty());
     }
 
     #[tokio::test]

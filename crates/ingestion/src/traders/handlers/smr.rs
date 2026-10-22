@@ -18,6 +18,7 @@ pub const SLUG: &str = "bb-lubben-neuendorf-smr";
 /// loudly (fix the URL) — never guessed, never shared.
 pub const IMPRESSUM_URL: &str = "https://smr-luebben.de/impressum/";
 
+// The no-slash route redirects here; the canonical slash route returns 200.
 pub const URL: &str = "https://smr-luebben.de/smr-preise/";
 /// Marker of the htmx price embed on URL. The endpoint URL itself is
 /// extracted live from the page's `hx-get` (tunnel hostnames rot) —
@@ -332,6 +333,11 @@ mod tests {
     use super::{extract_info, grade_for, parse};
 
     const PAGE: &str = "<div hx-get=\"https://wafery-mole-3614.dataplicity.io/ssp/get/PriceList/?f=html&t=p\" hx-swap=\"innerHTML\" hx-trigger=\"load\">Unsere aktuellen Preise werden abgerufen ...</div>";
+
+    #[test]
+    fn uses_the_live_canonical_price_page_route() {
+        assert_eq!(super::URL, "https://smr-luebben.de/smr-preise/");
+    }
 
     const LIST: &str = "<table><thead><tr><th>Nr</th><th>Name</th>\
         <th>stk. Preis</th><th>Einheit</th></tr></thead><tbody>\
