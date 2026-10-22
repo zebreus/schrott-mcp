@@ -7,7 +7,7 @@ city: Frankenberg
 street: ''
 postcode: ''
 phone: ''
-clear_fields: 'phone'
+clear_fields: 'dropoff_json,geo,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -25,18 +25,22 @@ provenance_origin: table
 
 ## Überblick
 
-„Rainer Reinwarth BDE“ bleibt ein Verzeichniskandidat. Am 18.10.2026 gelesene Gelbe-Seiten-Detailseite und Örtliche-Rückwärtssuche nennen Hohe Str. 31, 09669 Frankenberg/Sa. und 037206 70542, keine ausreichende aktuelle Betreiber-/Registerbestätigung oder bestätigte Annahmestelle. lokaleschrottplatz ist hier nur Alt-Timeline, nicht heute gelesen. Straße/PLZ/Telefon im Dossier als unzureichend belegte aktuelle Fakten zurückgenommen; keine Widerlegung der Adresse/Nummer. Status `pruefung`, kein Schließungsbefund. Datenbankanwendung erst nach Freigabe/Rebuild/Seed; ungeklärte Händler-/Punktzuordnung bleibt Veröffentlichungsblocker.
+„Rainer Reinwarth BDE“ bleibt ein Verzeichniskandidat. Am 18.10.2026 gelesene Gelbe-Seiten-Detailseite und Örtliche-Rückwärtssuche nennen Hohe Str. 31, 09669 Frankenberg/Sa. und 037206 70542, keine ausreichende aktuelle Betreiber-/Registerbestätigung oder bestätigte Annahmestelle. lokaleschrottplatz ist hier nur Alt-Timeline, nicht heute gelesen. Straße/PLZ/Telefon im Dossier als unzureichend belegte aktuelle Fakten zurückgenommen; keine Widerlegung der Adresse/Nummer. Status `pruefung`, kein Schließungsbefund. Die alte Produktionskoordinate und Annahmezusage sind nicht dem Kandidaten zugeordnet und werden beim nächsten regulären Seed ausdrücklich zurückgenommen; es gibt keinen Ersatzpunkt und keine Aussage über tatsächliche Annahme oder Schließung.
 
 - **Ankauf:** keine aktuelle Annahme oder bezifferten Kurse bestätigt.
 - **Verkauf:** keine diesem Kandidaten bestätigte Preisliste.
 - **Gebühren:** keine bestätigten Tarife.
-- **Geokodierung:** keine GEO-Prüfung/-Änderung; fehlende Dossierkoordinaten behalten DB-GEO, ohne dessen Händlerzuordnung zu bestätigen. Status pruefung zieht alte Servicebehauptungen nicht automatisch zurück.
+- **Geokodierung:** kein Betreiberstandort belastbar belegt; `clear_fields: geo` zieht den nicht zugeordneten Altpunkt beim nächsten regulären Seed zurück. Status `pruefung` zieht alte Servicebehauptungen nicht automatisch zurück; dafür wird `dropoff_json` separat geleert.
 
 ## Timeline
 
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Gelbe-Seiten-Einzelseite und Das-Örtliche-Rückwärtssuche live gelesen: beide zeigen „BDE Dienstleistungen Reinwarth Rainer Metall Kabel Schrott“, Hohe Str. 31, 09669 Frankenberg/Sa., 037206 70542. Das sind weiterhin Branchenverzeichnis-Leads und weder ein Betreiber-/Registerbeleg noch zwei zulässige unabhängige Nachweise für aktuelle Erreichbarkeit/Annahme. Die kommunale Firmensuche liefert bei der abrufbaren Suchmaske keine individuell auswertbare Trefferliste; das ist kein amtlicher Negativnachweis. Keine Ersatzkontakte oder Betriebsfortführung abgeleitet. ANKAUF: keine verifizierten Annahmebedingungen/Euro-Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Vorhandene Clear-Regel/Frontmatter nicht geändert. Quellen (Leads/Prüfroute): https://www.gelbeseiten.de/gsbiz/c4323bb5-5bdf-44ae-acc8-998d3cd7db95 ; https://www.dasoertliche.de/?form_name=search_inv&ph=03720670542 ; https://www.kreischa.de/inhalte/kreischa/_inhalt/wirtschaft/firmen-neu/gewerbesuche .]
+
+### Owner-Korrektur 22.10.2026
+
+- [Owner-Korrektur 22.10.2026: Eine frische read-only-Abfrage der exakten Produktionszeile fand weiterhin `dropoff_json={"allowed":true}` und GEO 50.9259/13.0596. Die dokumentierten Reviews vom 18. und 21.10. fanden nur Verzeichnis-Leads, keine aktuelle Betreiber-/Registerbestätigung, keine bestätigte Annahmestelle und keine Zuordnung dieses Punkts zum Händler. Das beweist weder eine falsche Adresse noch eine Annahmeverweigerung; es reicht aber nicht, die positive Pin- und Annahmebehauptung weiterzuführen. Owner zieht deshalb ausschließlich `dropoff_json` und das alte GEO-Paar via `clear_fields: 'dropoff_json,geo'` beim regulären Seed zurück; `phone`-Clear bleibt bestehen. Ergebnis ist unbekanntes `{}` und GEO `NULL`, nicht `allowed:false`, Schließung oder Ersatzkoordinate. Quellen/Evidenz: `research/checkin-20261018-0930-review-reinwarth.md`; `research/checkin-20261018-1331-release-gates.md`; Recherche 21.10.2026 oben; read-only Produktionsabfrage vom 22.10.2026.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
