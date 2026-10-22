@@ -24,9 +24,18 @@ provenance_origin: prose
 
 ## Überblick
 
-Ungeklärter Kandidat „Schrott & Metallhandel Fa. Dombrowski“. Verzeichnis-Leads verbinden Pelzetleite 32, 90614 Ammerndorf und 01590 6770625; ein indexierter Sellwerk-Treffer verbindet dieselbe Nummer hingegen mit Hiltmannsdorfer Str. 8, 90768 Fürth. Kein Beleg klärt Umzug, Filiale oder Datenfehler. Betreiber, Rechtsform, aktuelle Betriebsadresse und tatsächlicher Ankauf sind nicht verifiziert. Status `pruefung`; keine Übernahme fremder Dombrowski-Kontakte und keine Adress-/Telefon-Fills.
+Eine am 22.10.2026 direkt gelesene Dombrowski-Betreiberseite nennt im Impressum **Dombrowski, Inhaberin Jasmin Demas**, Pelzetleite 32, 90614 Ammerndorf und 01590 6770625. Sie passt damit in Name, Ort, Adresse und einer Telefonnummer genau zum älteren Ammerndorfer Verzeichnis-Lead; sie ist aber kein zweiter unabhängiger Identitätsbeleg für die frühere Bezeichnung „Schrott & Metallhandel Fa. Dombrowski“. Die abweichende Fürther Portalspur mit derselben Nummer bleibt ebenfalls ungelöst. Der jetzige Webauftritt belegt für den dort auftretenden Anbieter Schrott-/Metallankauf und Abholung; die Zuordnung zum Seed und die Betreiber-/Namenskontinuität bleiben bis zu einem zweiten qualifizierten Beleg offen. Daher keine Frontmatter-Fills, kein GEO und Status `pruefung`.
+
+- **Ankauf (Kandidat Dombrowski, nicht als Seed-Fakt übernommen):** Die Betreiberseite nennt Eisen- und NE-Metalle, Kabel, Katalysatoren und weitere geeignete Materialien; Anfragen/Ersteinschätzung per Foto, Menge und Standort, keine veröffentlichten Zahlenkurse.
+- **Verkauf:** keine Materialverkaufspreise oder Produktliste gefunden.
+- **Gebühren:** Abholung, Behälter/Container sowie Umschlag/Lagerplatz nur nach Absprache; weder Preis noch Kostenfreiheit veröffentlicht.
+- **GEO:** Pelzetleite 32 wäre erst nach Identitäts-/Kontinuitätsbestätigung als Standort dieses Dossiers zu geokodieren.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Neuer Direktfund der Betreiberseite metall-logistik.de: Auftritt „Dombrowski“, Impressum nennt Inhaberin Jasmin Demas, Pelzetleite 32, 90614 Ammerndorf sowie 0160 94 96 51 83, 01590 67 70 625 und info@metall-logistik.de. Die Leistungsseite erklärt Ankauf/Abholung für Privat und Gewerbe und nennt u. a. Eisen, NE-Metalle, Kabel und Katalysatoren; Mengen/Material/Abholung werden abgestimmt, ohne publizierte Metallpreise. Exakte Übereinstimmung von Pelzetleite 32 und einer Mobilnummer mit dem älteren Ammerndorfer Portal-Lead, aber keine zweite qualifizierte unabhängige Quelle für die Identität bzw. Namenskontinuität „Fa. Dombrowski“; die alte Fürther Portal-Gegenspur bleibt offen. Deshalb keine Übernahme von Straße, Kontakten oder Website ins Frontmatter. VERKAUF: keine Materialpreisliste. GEBÜHREN: Behälter und Abholung nur nach Absprache, kein bezifferter oder als kostenlos ausgewiesener Tarif. Kein GEO; offen ist auch, ob die aktuelle Inhaberin die frühere Seed-Firma fortführt. Quellen (Betreiberseite, kein Handelsregistereintrag im Impressum): https://metall-logistik.de/ ; https://metall-logistik.de/schrott-metall/ ; https://metall-logistik.de/impressum ; ältere Portal-Gegenspur: Recherche 15.10.2026.]
 
 ### Recherche 15.10.2026 Welle18B
 

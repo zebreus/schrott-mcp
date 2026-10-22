@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Betreiberkandidat Schrott- und Metallhandel Markus Pickavé / der-schrotthaendler.com ist wieder lesbar: korrekt verlinktes Impressum nennt **Büro** Margaretenstr. 11, 46049 Oberhausen und +49 176 23145837. Kein unabhängiger Zweitbeleg; Mailkonflikt mpi-ob@o2online.de versus info@der-schrotthaendler.de bleibt. Die Adresse ist ausdrücklich Büro, nicht bestätigter öffentlicher Annahmeplatz. Leistungsseite nennt kostenlose Abholung, aber Kühlgeräte gegen Gebühr ohne Betrag. Keine bezifferten Ankauf-/Verkaufspreise oder Gebührenliste. `pruefung` bleibt; keine vorbehaltlose Gratisabholung und keine Annahmeadresse strukturiert.
+Betreiberkandidat Schrott- und Metallhandel Markus Pickavé / der-schrotthaendler.com war am 22.10.2026 erneut direkt lesbar. Das verlinkte Impressum nennt **Büro** Margaretenstr. 11, 46049 Oberhausen und +49 176 23145837; es enthält keine Handelsregisternummer und Vorlagen-/Alttext. Die E-Mail-Varianten mpi-ob@o2online.de (Impressum) und info@der-schrotthaendler.de (Kopf/Startseite) bleiben ungelöst. Die Adresse ist ausdrücklich Büro, kein bestätigter öffentlicher Annahmeplatz. Die Leistungsseite bewirbt kostenlose Abholung, nennt aber Kühlgeräte als gebührenpflichtige Ausnahme ohne Betrag. Kein Ankaufskurs, Verkaufspreis oder vollständiges Gebührenverzeichnis; Status `pruefung`, keine pauschale Gratisabholung.
 
 ## Timeline
+
+### Recherche 22.10.2026: Betreiberseiten erneut direkt lesbar
+
+- [Recherche 22.10.2026: Startseite, korrekt verlinktes Impressum `/impressuma2cc232a` und Leistungspfad `/leistungene7e43447` direkt gelesen. Startseite benennt Markus Pickavé, Mobil +49 176 23 145 837, info@der-schrotthaendler.de; Impressum nennt „Schrott- und Metallhandel Markus Pickavé“, **Büro** Margaretenstr. 11, 46049 Oberhausen, dieselbe Mobilnummer und mpi-ob@o2online.de. Keine Handelsregisternummer, allgemeine Vorlagen-/Alttextbausteine; kein unabhängiger zweiter qualifizierter Betreiberbeleg. Leistungstext: Altmetall-/Fahrzeugabholung, „Abholung kostenlos“, jedoch Kühlgeräte „gegen Gebühr“ ohne Betrag. Weder tatsächlicher Annahmehof noch Ankaufskurse/Verkaufspreise oder vollständige Gebühren belegt. Keine Frontmatter-Fills oder GEO; E-Mail-Konflikt und `pruefung` bleiben. Quellen: https://www.der-schrotthaendler.com/ ; https://www.der-schrotthaendler.com/impressuma2cc232a ; https://www.der-schrotthaendler.com/leistungene7e43447 .]
 
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2
 

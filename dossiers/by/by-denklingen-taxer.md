@@ -31,6 +31,10 @@ Die Verzeichnisadressen Dr.-Herbert-Quandt-Str. 10 versus Dr.-Manfred-Hirschvoge
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Erneute Suche nach TAXER GmbH/Denklingen, den beiden bekannten Straßenangaben und der ehemaligen Domain erbrachte keinen Betreiber- oder Standortnachfolgerbeleg. Der zuletzt direkt dokumentierte Registerspiegel nennt die Löschung am 23.09.2025; das klärt weder den Fortbestand einer Annahmestelle noch einen möglichen Nachfolger. Der alte Website-Timeout und aggregierte Straßenvarianten sind keine Schließungs- oder Standortbestätigung. Keine Feldänderung. ANKAUF: kein zuordenbarer Kurs; VERKAUF: keine Preisliste; GEBÜHREN: keine aktuelle Gebührenliste. Beide Straßenangaben und Mühlstraße 10 bleiben ungeklärt und dürfen nicht geokodiert werden. Quellenstand: NorthData-Profil und Website-Timeout, siehe direkte Prüfung 16.10.2026: https://www.northdata.de/TAXER%20GmbH,%20Germering/Amtsgericht%20Augsburg%20HRB%2021987 ; https://taxer-gmbh.de/ (Timeout).]
+
 ### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
 
 - [Recherche 16.10.2026: NorthData-Profil TAXER GmbH direkt gelesen, Augsburg HRB 21987/München HRB 61867, Gegenstand Handel/Entsorgung/Recycling von Schrott und Metallen, Ortsgeschichte Denklingen und Germering. Profil markiert erloschen, Löschung 23.09.2025, Liquidation März 2022; sichtbarer Publikationstitel 28.09.2010 nennt Mühlstraße 10/86920 Denklingen. Einzelabrufe Löschung und Anschrift 2011 zusätzlich per Shell HTTP429, keine Originaltexte daraus behauptet. Erneuter taxer-gmbh.de-Abruf Timeout. Befund erweitert Klärfall über bloßen Straßenwiderspruch hinaus: rechtlichen Abschluss und eventuellen Standortnachfolger prüfen, nicht aus GmbH-Löschung sichere Hofschließung folgern. Keine Frontmatter-Änderung, keine numerischen Ankauf-/Verkauf-/Gebührenpreise, GEO gesperrt. Quellen: https://www.northdata.de/TAXER%20GmbH,%20Germering/Amtsgericht%20Augsburg%20HRB%2021987 ; https://www.northdata.de/?id=5812355554082816 (Abrufgrenze); https://taxer-gmbh.de/ (Timeout).]

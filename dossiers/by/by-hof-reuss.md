@@ -33,6 +33,10 @@ Die richtige Betreiberwebsite ist **reuss-recycling.de**, nicht eine der früher
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiberhomepage erneut direkt geprüft; sie führt weiterhin REUSS Schrotthandel & Containerdienst GmbH, Ascher Str. 50, 95028 Hof, Telefon 09281 66662 und info@reuss-recycling.de. Die aktuell abrufbare Leistungsseite nennt Ankauf verschiedener Schrotte, V2A, Bremsscheiben, Bleibatterien, Kabel, Zink, Aluminium, Blei, Kupfer, Messing und E-Motoren; Tagespreise sollen telefonisch erfragt werden. Kein numerischer Ankaufskurs. VERKAUF: keine Materialverkaufspreise veröffentlicht. GEBÜHREN: Hauptseite nennt keinen allgemeinen Entsorgungspreis; die in der Timeline 17.10.2026 dokumentierten Container-AGB-Beträge bleiben davon getrennt, insbesondere der Kalender-/Werktagswiderspruch bei §7.3 ist ungelöst und kein eindeutiger Tagestarif. Keine Identitäts-, Frontmatter- oder GEO-Änderung. Quelle: https://reuss-recycling.de/ ; AGB-Befund unverändert, siehe Recherche 17.10.2026.]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: Neuer Positivfund reuss-recycling.de vollständig gelesen, danach Roh-HTML separat geprüft: Impressum und beide AGB stehen in eingebetteten Modal-Dialogen und fehlen weitgehend im üblichen Markdown-Abruf. Impressum nennt Firma, Ascher Str. 50, 95028 Hof, HRB 5936 AG Hof, GF Wolfgang Weidmann, Telefon/E-Mail. Northdata-Profil direkt gelesen: identische Firma/Adresse/Register/Gegenstand, GF-Publikation 24.10.2019 Weidmann und jüngste sichtbare Abschlussmeldung 15.09.2026. Damit zwei unabhängige qualifizierte Identitätsquellen; keine Umfirmierungs-/Nachfolgekette aus dem bloßen Seed-Kurznamen konstruiert. Website zeigt Aktualisierungsmetadatum 16.09.2026 und standortbezogene Annahmebedingungen. Name/Typ präzisiert, Adresse/Kontakt/Zeiten/Website/description gefüllt, Status pruefung zu aktiv. Historische falsche Domainspuren bleiben erhalten, sind aber überholt; Quelle: https://reuss-recycling.de/ (inkl. HTML-Impressum und AGB-Modals); https://www.northdata.de/Reuss%20Schrotthandel%20%26%20Containerdienst%20GmbH,%20Hof/Amtsgericht%20Hof%20HRB%205936 .]

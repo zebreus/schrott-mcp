@@ -30,6 +30,10 @@ Der Betreiberauftritt belegt die Autoverwertung Wollenzhofen GmbH, Wollenzhofen 
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiberhomepage und Impressum der Autoverwertung Wollenzhofen GmbH erneut direkt gelesen: Wollenzhofen 4, 92289 Ursensollen, HRB 6507 AG Amberg, Vertretung Daniela Miftaraj, Telefon 09626 1321 / 929806. Die Seite beschreibt den Ankauf von Schrottfahrzeugen gegen sofortige Bezahlung, Anlieferung/Abholung und Verkauf gebrauchter Teile, nennt aber keine Fahrzeug-/Metallankaufskurse, Teilepreisliste oder Abholgebühr. Der offizielle Kandidatenbetrieb bleibt mangels Namens-/Rechtsnachfolgekette vom Seed „Mayer AV“ getrennt; keine Frontmatter-Fills oder GEO. Quellen: https://autoverwertung-wollenzhofen.de/ ; https://autoverwertung-wollenzhofen.de/impressum.html .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altautos — UPGRADE Seed-Surname Wollenzhofen

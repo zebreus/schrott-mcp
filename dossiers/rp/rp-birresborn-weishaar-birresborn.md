@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt „Weishaar Birresborn“ und das Fragment „Rom 3“, aber weder eine verifizierte Straße noch einen aktuellen Betreiberauftritt. Die aktuelle Prüfung der öffentlich zugänglichen Orts-/Verwaltungsseiten ergab keinen passenden betriebsspezifischen Nachweis; das ist keine Auskunft, dass der Betrieb nicht existiert. „Rom 3“ bleibt ungeklärt und wird nicht als Adresse übernommen. **Ankauf:** nicht bestätigt, keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Status `pruefung`.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: „Weishaar“/„Schrott“ und das Seed-Fragment „Rom 3“ erneut gegen die öffentlich erreichbaren Orts-/Verwaltungsauftritte von Birresborn und der Verbandsgemeinde Gerolstein geprüft; dort kein zuordenbarer betriebsspezifischer Datensatz oder Betreiberkontakt ermittelt. Diese begrenzte öffentliche Suche ist kein Negativbeweis für Existenz oder Gewerbeanmeldung. Das Fragment „Rom 3“ ist weder als Straße/Hausnummer noch als Annahmestelle verifiziert und bleibt aus den Feldern heraus. Keine belegte Ankaufstätigkeit oder Ankaufskurse; keine Verkaufspreise oder Gebühren gefunden. Status `pruefung`, keine Schließung behauptet. Quellen/Prüfumfang: https://birresborn.de/ ; https://www.gerolstein.de/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

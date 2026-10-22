@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt „Höntsch Maria“ in Langenselbold (63505), aber keine Straße oder Kontaktdaten. Die dokumentierten Namens-/Ortsabfragen (auch Schreibvarianten Höntsch/Hoentsch sowie Schrott-/Metallhandel) erbrachten keinen belastbaren Händler-, Gewerbe- oder Registerbeleg. Das ist keine Aussage über Nichtexistenz oder Schließung; ebenso wenig ist ein konkreter Familienbetrieb belegt. **Ankauf / Verkauf / Gebühren:** keine zuordenbare Annahme, Preis- oder Gebührenliste. Adresse und Betreiberidentität offen, Status `pruefung`; keine Koordinaten.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Namens- und Ortsabfragen für Höntsch/Höntsch Maria/Hoentsch in Langenselbold zusammen mit Schrott, Metallhandel, Altmetall und Autoverwertung führten zu keiner qualifizierten Betreiber-/Registerquelle. Damit wird der alten offenen Suche nichts Belastbares hinzugefügt; Suchlücken sind kein Nichtexistenz-/Schließungsnachweis. Keine Felder gefüllt. ANKAUF: nicht belegt; VERKAUF: keine Produkt-/Materialpreise; GEBÜHREN: keine Tarife. Kein GEO. Quelle: keine neue verifizierbare Primär-/Registerquelle (Suchläufe am 22.10.2026).]
 
 ### Recherche 02.10.2026
 

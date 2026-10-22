@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Gelbe-Seiten-Eintrag bezeichnet den Händler als „Klemens Enrico“, Moorwaldweg 125c, 30659 Hannover, Telefon 0511 614705 und Mobil 0172 2856532; er behauptet „Abholung von Altmetall frei Haus“. Das ist weiterhin eine einzelne Aggregatorquelle ohne Betreiberwebsite oder unabhängige Register-/Kommunalbestätigung. Stadtbranchenbuch nennt abweichend Hausnummer 125B. Die vorhandene Seed-Adresse 125C bleibt ein Lead, nicht als bestätigte Annahmestelle oder geokodierbare Betriebsstätte zu lesen.
+
+- **Ankauf:** kein vergüteter Ankauf oder Kurs belegt; „Abholung von Altmetall frei Haus“ ist kein Ankaufspreis und beweist keine Auszahlung.
+- **Verkauf:** keine Produkt- oder Preisliste.
+- **Gebühren:** Gelbe Seiten behauptet freie Abholung, aber ohne Umfang, Mindestmenge oder Bedingungen; keine bestätigte Gebührenordnung.
+- **Offen:** Betreiberidentität, Hausnummer 125B/125C und heutige Annahmefunktion. `status: pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 22.10.2026: Einzelaussage zu Gratisabholung, Hausnummer weiter strittig
+
+- [Recherche 22.10.2026: Gelbe-Seiten-Detail direkt gelesen: „Klemens Enrico“, Moorwaldweg 125c, 30659 Hannover, 0511 614705 und 0172 2856532; unter „Über das Unternehmen“ steht „Abholung von Altmetall frei Haus“, weitere Bedingungen oder Preise fehlen. Das andere Verzeichnis Stadtbranchenbuch führt „Schrott u. Metalle Enrico Klemens“ an 125B, bei gleicher Festnetznummer. Beide sind Aggregator-Leads, kein Betreiber-/Registerbeleg; die 125C-Angabe wird nicht als gesichert ausgewählt. Keine neuen Frontmatter-Fills oder Koordinaten. Ankauf/Auszahlung und Materialpreise offen; „frei Haus“ nur als unbestätigte Abhol-/Gebührenaussage, keine Verkaufs- oder Preisliste. Quellen: https://www.gelbeseiten.de/gsbiz/4e4e6229-dff0-4b91-a124-2c89237d2a02 ; https://hannover.stadtbranchenbuch.com/105406.html .]
 
 ### Recherche 03.10.2026
 

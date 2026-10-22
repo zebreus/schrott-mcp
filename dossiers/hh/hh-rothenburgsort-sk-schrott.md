@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für „SK Schrott“ an Billstr. 140 gibt es weiterhin keinen zuordenbaren Betreiber- oder Registerbeleg. Ein aktueller Cybo-Eintrag liefert als nicht maßgeblichen Lead die Nummer 040 38634360 und PLZ 20539. Ein gleichnamiger Betreiberauftritt „SK Schrotthandel & Serviceleistungen“ identifiziert dagegen René Stöcker in Mayen und ein Einsatzgebiet Mayen-Koblenz/Eifel/Rheinland; er ist kein Hamburg-Nachweis und wird nicht zugeordnet. Frühere Billstraßen-Berichte und Hamburg-Branchenbucheinträge betreffen andere Betriebe/Orte. Status `pruefung`; keine Schließungsbehauptung. **Ankauf/Verkauf:** keine bestätigten Preise; **Gebühren:** keine Angaben.
+Für „SK Schrott“ an Billstr. 140 gibt es weiterhin keinen zuordenbaren Betreiber- oder Registerbeleg. Ein Cybo-Eintrag liefert als nicht maßgeblichen Lead die Nummer 040 38634360 und PLZ 20539; ein aktueller Das-Örtliche-Straßenindex zeigt dieselbe Nummer unter der unspezifischen Rubrik „Automobile“, ohne identifizierbaren Betrieb. Diese widersprüchliche Kategorisierung erhöht die Unsicherheit und bestätigt SK Schrott nicht. Ein gleichnamiger Betreiberauftritt „SK Schrotthandel & Serviceleistungen“ identifiziert René Stöcker in Mayen und das Einsatzgebiet Mayen-Koblenz/Eifel/Rheinland; er ist kein Hamburg-Nachweis und wird nicht zugeordnet. Hanse Schrott (Billstr. 185) und Henry Schmidt Autoverwertung (Mühlenhagen 156) sind andere Betriebe. Status `pruefung`; keine Schließungsbehauptung. **Ankauf/Verkauf:** keine bestätigten Preise; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Neue Umfeld-Gegenspur im Das-Örtliche-Straßenindex: Billstr. 140, 20539, wird mit der Nummer 040 38634360, aber nur unter der Rubrik „Automobile“ und ohne identifizierten Firmennamen geführt. Das ist ebenfalls ein Verzeichnislead, bestätigt weder SK Schrott noch einen bestimmten anderen Betreiber; zusammen mit dem Cybo-Treffer zeigt es, dass Nummer und Kategorie nicht sicher dem Seed zugeordnet werden können. Keine Nummer-/PLZ-Übernahme und keine Schließung abgeleitet. Kein Betreiber-/Registerzweitbeleg; ANKAUF/VERKAUF/GEBÜHREN ohne belastbare Preise. Billstr. 140 nicht geokodieren, bis Identität/öffentliche Annahmestelle geklärt ist. Quelle: https://www.dasoertliche.de/Themen/Billstra%C3%9Fe/Hamburg.htm (Verzeichnislead); Cybo-Gegenspur siehe Recherche 12.10.2026.]
 
 ### Recherche 21.10.2026
 

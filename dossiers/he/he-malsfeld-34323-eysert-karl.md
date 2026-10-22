@@ -26,9 +26,15 @@ provenance_origin: table
 
 Ein 11880-Verzeichnisprofil führt „Karl Eysert“ in Malsfeld, Strauchgraben 7, 34323, und ordnet den Eintrag Autoverschrottung/Autoverwertung zu. Das ist bislang ein einzelner Portalbeleg, keine Betreiber-/Registerbestätigung und kein Nachweis einer aktuellen Kundenannahme. Die Profildaten stammen laut Seite aus 2021; die Aktualisierung 2026 allein bestätigt keine heutige Betriebsaktivität.
 
+Die Gemeinde Malsfeld veröffentlicht ein Gewerbeverzeichnis; beim Live-Abruf am 22.10.2026 war Karl Eysert darin nicht aufgeführt. Das ist ein begrenzter Negativbefund eines kommunalen Verzeichnisses, kein vollständiges Gewerbe-/Handelsregister und kein Beleg für Abmeldung oder Nichtexistenz.
+
 **Preise:** **ANKAUF** – keine Fahrzeug-/Metallkurse; **VERKAUF** – keine Teileliste; **GEBÜHREN** – keine Tarife. **GEO:** Identität und öffentliche Kundenstelle vor dem Pin verifizieren.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Das auf der Gemeindeseite veröffentlichte Gewerbeverzeichnis Malsfeld wurde direkt gelesen; Karl Eysert ist in der dortigen Liste nicht aufgeführt. Das Verzeichnis ist kein vollständiges Gewerbe-/Handelsregister; das Fehlen widerlegt daher den 11880-Einzelbeleg nicht und belegt weder Abmeldung noch Schließung. Das 11880-Profil nennt weiterhin Strauchgraben 7, Telefon 05661 6776, aber Eintragsdaten 29.06.2021 trotz Aktualisierungsanzeige 02.10.2026. Keine Frontmatter-Änderung oder Geokodierung. ANKAUF: keine Fahrzeug-/Metallkurse; VERKAUF: keine Teileliste; GEBÜHREN: keine Tarife. Quellen: https://www.malsfeld.net/tourismus-wirtschaft/gewerbeverzeichnis (kommunales Verzeichnis, geprüft 22.10.2026); https://www.11880.com/branchenbuch/malsfeld/060440459B27069254/karl-eysert.html (Portallead).]
 
 ### Recherche 20.10.2026
 

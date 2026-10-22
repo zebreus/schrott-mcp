@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„DK Schrottplatz Herzfelde“ ist nur über Branchenverzeichnisse auffindbar. Die Treffer stimmen bei Ahornstr. 7/7–11 überein, widersprechen sich aber bei der Telefonnummer; Betreiber, tatsächliche Annahmestelle und heutige Aktivität sind nicht unabhängig bestätigt. Status pruefung bedeutet keine Schließung. In den geprüften Treffern keine Preisangabe; Ankaufspreise, Verkaufspreise und Gebühren offen.
+„DK Schrottplatz Herzfelde“ ist nur über Branchenverzeichnisse auffindbar. Die Treffer stimmen bei Ahornstr. 7/7–11 überein, widersprechen sich aber bei der Telefonnummer; Betreiber, tatsächliche Annahmestelle und heutige Aktivität sind nicht unabhängig bestätigt. BORAMTEC Bohr & Rammtechnik Berlin GmbH führt auf ihrer offiziellen Website einen Maschinenpark und eine Werkstatt an Ahornstraße 7. Das ist ein konkreter Fremdnutzer-/Adresskonflikt innerhalb der von Portalen genannten Spanne, aber weder Beleg einer Beziehung zu DK noch Widerlegung des DK-Leads. Status pruefung bedeutet keine Schließung. Keine belastbare Ankaufsaussage, Verkaufspreise oder Gebühren belegt.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die offizielle Website von BORAMTEC Bohr & Rammtechnik Berlin GmbH nennt ihren „Maschinenpark & Workshop“ unter 15378 Herzfelde, Ahornstraße 7; das Impressum identifiziert BORAMTEC mit HRB 76865 B (AG Charlottenburg) und Berliner Geschäftssitz. Hausnummer 7 liegt am Anfang der DK-Verzeichnisangabe Ahornstr. 7–11. Das belegt eine weitere, eigenständige Firmenangabe für den Ort, aber keine Beziehung, Mitnutzung oder Widerlegung des ungeklärten DK-Leads; daher keine Umbenennung, Zusammenführung oder Adresskorrektur. Für DK weiterhin kein Betreiber-/Registerbeleg, keine verifizierte Annahme, keine Ankaufs- oder Verkaufspreise und keine Gebührenliste. Quelle(n): https://boramtec.com/ ; https://boramtec.com/Impressum .]
 
 ### Recherche 20.10.2026
 

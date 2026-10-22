@@ -30,6 +30,10 @@ Die Identität und der heutige Standort sind nicht primär belegt. Das Portal sc
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Den Portal-Datensatz Jahnstr. 12a nochmals direkt gelesen: Er nennt Firma Leon Anders/Inh. Andre Heiss, 01917 Kamenz, 03578 39 99 55, erfasst aber kein Leistungsangebot und verlinkt wegen eines PHP-Fehlers nicht auf eine verwertbare Betreiberhomepage. Die importierte Materialliste bleibt daher unbelegt. Der sichtbare Suchtreffer der Sächsischen Zeitung sagt, André Heiß habe seine Firma verkauft; Artikelkörper, Datum, betroffene Einheit, Käufer und Weiterbetrieb bleiben beim Direktabruf unlesbar. Kein belastbarer Schluss auf welches der ähnlich benannten Profile oder Schließung; keine Status-/Adress-/Preisänderung und kein GEO. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbaren Tarife. Quellen (Portallead und nur Suchsnippet): https://www.schrottplatz-info.de/schrottplatz/Kamenz/Firma-Leon-Anders-Inh-Andre-Heiss ; https://www.saechsische.de/lokales/bautzen-lk/kamenz/kamenz-darum-schliesst-der-schrottplatz-RLOPL532WXNPJG5RPR5BBBNMIY.html .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Sächsische Zeitung-Suchtreffer „Kamenz: Darum schließt der Schrottplatz“ nennt den Unternehmer André Heiß und sagt im sichtbaren Snippet, er habe seine Firma nach 14 Jahren verkauft. Der Direktaufruf war nicht lesbar (Zugriff/Paywall); Datum, betroffene juristische Einheit, Käufer und Fortbetrieb sind deshalb nicht verifiziert. Der Hinweis belegt weder sicher die Schließung des Jahnstraße-Profils noch die Auflösung der ähnlich benannten Hoyerswerdaer-Straße-Einträge. Keine Profil-/Statusänderung, keine Preise/Gebühren oder GEO ergänzt. Quelle (nur Suchsnippet, Artikel nicht lesbar): https://www.saechsische.de/lokales/bautzen-lk/kamenz/kamenz-darum-schliesst-der-schrottplatz-RLOPL532WXNPJG5RPR5BBBNMIY.html ; bisherige Portal-Leads: https://www.schrottplatz-info.de/schrottplatz/Kamenz .]

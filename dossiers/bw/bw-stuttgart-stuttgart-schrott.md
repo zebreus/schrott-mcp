@@ -26,9 +26,13 @@ provenance_origin: table
 
 Der aktuelle Betreiberauftritt „Stuttgart Schrott“ nennt Tilsiter Str. 5/1, 70374 Stuttgart-Bad Cannstatt, Telefon 01523 4575602, E-Mail info@stuttgart-schrott.de und Mo–Fr 09:00–17:00. Das Impressum nennt jedoch weder eine juristische Betreiberfirma noch eine Registernummer. Die Angaben sind daher Betreiber-Selbstauskunft; Kontaktdaten bleiben bis zu einem belastbaren Identitätsbeleg außerhalb des Frontmatters.
 
-**Preise:** **Ankauf** — der Betreiber nennt Kupfer, Aluminium, Edelstahl, Messing, Kabel, Blei, Zink und Eisenschrott; Kurse seien tagesabhängig und werden auf Anfrage genannt, aber es gibt keine numerischen Preise. **Verkauf** — keine Verkaufspreise ausgewiesen. **Gebühren** — kostenlose Abholung wird beworben; die FAQ setzt eine nicht bezifferte Mindestmenge voraus. Container sind als Leistung aufgeführt, aber es gibt keine Container- oder sonstige Gebührenliste. Schwellen und Bedingungen vor Auftrag bestätigen.
+**Preise:** **Ankauf**; Betreiberseiten listen u.a. Kupfer, Aluminium, Edelstahl, Messing, Kabel, Blei, Zink, Zinn, Misch-/Brennerschrott, Träger und Gusseisen; Tageskurse gibt es laut Anbieter nur auf Anfrage, keine numerischen Preise. **Verkauf**; kein Verkaufsbestand oder Verkaufspreisblatt. **Gebühren**; kostenlose Abholung wird beworben. Die Kontakt-FAQ sagt einerseits, Kleinmengen seien möglich, andererseits, eine nicht bezifferte Mindestmenge solle vorhanden sein; die Schwelle bleibt widersprüchlich/offen. Container werden angeboten, aber ohne Tarif. Betreiberidentität weiterhin nicht juristisch belegt; Bedingungen vor Auftrag bestätigen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die aktuellen Seiten `/impressum`, `/schrottpreise`, `/leistungen` und `/kontakt` erneut direkt gelesen. Das Impressum nennt weiterhin nur den Auftrittsnamen „Stuttgart Schrott“, Tilsiter Str. 5/1, 70374 Stuttgart-Bad Cannstatt, +49 1523 4575602 und info@stuttgart-schrott.de, aber keine juristische Person/Registernummer; deshalb keine Stammdatenübernahme. Die Ankaufseite listet diverse NE-/FE-Sorten und verspricht tagesabhängige, auf Anfrage genannte Preise bzw. sofortige Barzahlung, aber keinen numerischen Ankaufkurs. Kein Verkaufspreisblatt. Die Leistungsseite bewirbt kostenlose Abholung und Container; die Kontakt-FAQ sagt zugleich „Kleinmengen … möglich“ und „Eine Mindestmenge sollte vorhanden sein“, ohne die Menge oder Reichweite der kostenlosen Abholung zu klären. **Gebühren:** kein Container-/Miettarif und keine numerische Abholgebühr; die kostenlose Abholung bleibt eine unvollständig konditionierte Betreiberangabe. Quellen: https://stuttgart-schrott.de/impressum ; https://stuttgart-schrott.de/schrottpreise ; https://stuttgart-schrott.de/leistungen ; https://stuttgart-schrott.de/kontakt .]
 
 ### Recherche 08.10.2026
 

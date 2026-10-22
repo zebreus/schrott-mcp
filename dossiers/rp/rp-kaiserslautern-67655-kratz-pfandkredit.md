@@ -30,6 +30,10 @@ Erreichbare Betreiber-Landingpage „Pfandkredit Christian Kratz“ bleibt eine 
 
 ## Timeline
 
+### Gegenprüfung 22.10.2026
+
+- [Recherche 22.10.2026: Die Goldzeiten-Seite „Partner vor Ort – Kaiserslautern“ wurde direkt gelesen. Sie erklärt, hier Partner in Kaiserslautern zu führen, zeigt im öffentlich gerenderten Inhalt aber keine Partnerkarte/konkreten Kontaktdaten, sondern „Für die Filterung wurden keine Ergebnisse gefunden“. Das bestätigt Kratz weder als Partner noch widerlegt es die Filiale; ein dynamischer/leer gerenderter Trefferbereich ist kein Negativbeweis. Die Kratz-Landingpage bleibt Einzelquelle und Übergangsseite. Kein zweiter Identitäts-/Adressbeleg und keine veröffentlichten Ankaufskurse, Verkaufspreise oder individuellen Pfand-/Servicegebühren. Quelle(n): https://www.goldzeiten.de/service/partner-vor-ort/kaiserslautern/ ; https://pfandkredit-kratz.de/ .]
+
 ### Recherche 15.10.2026 Welle18C
 
 - [Recherche 15.10.2026 Welle18C: Betreiber-Root erneut direkt gelesen: Kaiserslautern ausdrücklich ehemals Leihhaus Wiewecke, Alleestraße 8, 67655 Kaiserslautern, 0631 61440; gemeinsamer Öffnungsblock für Saarbrücken/Mainz/Wiesbaden/Kaiserslautern/Darmstadt Mo-Fr 09:30-18:00, Sa09:30-14:00, Trier separat. Kein neues Impressum/Registerabgleich auf dieser Übergangsseite. Wichtiges Herkunftssignal: Verbandslink und Logo-URL enthalten web.archive.org/web/20240716095154; also Archivverweise im heutigen HTML, keine neue unabhängige Verbandsbestätigung und kein Beleg eines Preis-/Inhaltsstands 2026; Quelle: https://pfandkredit-kratz.de/ .]

@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite ist erreichbar und beschreibt einen Ersatzteil-Shop sowie Auto-/Motorradankauf. Ihr Impressum nennt Pfeiffstr. 13; ein Verzeichnis-Lead nennt abweichend Hausnummer 11. Ohne unabhängige Klärung bleiben Straße, Kontakt und eine mögliche Schrottplatz-Einordnung ungefüllt; kein Geocoding.
+Die erreichbare Website „Auto Lackner“ beschreibt sich als „Autoverwertung & Schrottplatz Frankfurt“ und bewirbt Altfahrzeugannahme, Auto-/Motorradankauf, Abschleppen sowie einen Gebrauchtteile-Shop. Das Impressum/Fußbereich nennt Pfeiffstr. 13, 61440 Oberursel; der bisherige Gelbe-Seiten-Lead nennt dagegen Hausnummer 11. Das Impressum allein belegt den Websitebetreiber, aber löst den Adresskonflikt zum Seed nicht auf; der Betrieb erfüllt nicht die README-Kriterien für einen Einzelbeleg zur Feldübernahme. Deshalb keine Adress-/Kontakt-Fills, keine Zuordnung des Händler-Typs und kein Geocoding; `sonstige` und `pruefung` bleiben.
+
+- **Ankauf:** Fahrzeug- und Motorradankauf wird angeboten, aber ohne bezifferte Ankaufangebote; keine Metall-/Schrottkurse veröffentlicht.
+- **Verkauf:** der Shop führt einzelne gebrauchte Ersatzteile mit Artikelpreisen (z. B. ein VW-Kühlerlüfter-Steuergerät für 19,00 € am Abrufdatum 22.10.2026). Solche Einzelstück-Retailpreise sind weder Metallverkaufskurse noch Schrottpreise.
+- **Gebühren:** keine Gebührentafel für Schrottannahme/Verwertung gefunden; Versand-/Shopbedingungen nicht als Entsorgungsgebühren umdeuten.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Live-Abruf von Betreiberwebsite und Impressum bestätigt den eigenen Auftritt „Auto Lackner“ mit Selbstbeschreibung Autoverwertung/Schrottplatz, Auto- und Motorradankauf, Altfahrzeugannahme, Abschleppdienst sowie Ersatzteilhandel; Impressum/Fußbereich nennen Pfeiffstr. 13, 61440 Oberursel, 06171 57090 und info@auto-lackner.de. Der Verzeichnis-Gegenlead Pfeiffstr. 11 bleibt ungelöst, und das Einzelunternehmen erfüllt nicht die README-Kriterien für einen allein ausreichenden autoritativen Betreiberbeleg; deshalb keine Frontmatter-, Typ- oder Statusänderung. Ankauf: keine Zahlenangebote für Fahrzeuge oder Metalle. Verkauf: Produktdetailseite listet ein gebrauchtes VW-Kühlerlüfter-Steuergerät, Artikel 074.0018, mit 19,00 €; Beispiel eines einzelnen Ersatzteils ohne sichtbares Veröffentlichungsdatum, keine allgemeine Preisliste. Gebühren: keine Gebühren für Schrott-/Altfahrzeugannahme veröffentlicht. Quelle: https://auto-lackner.de/ ; https://auto-lackner.de/impressum/ ; https://auto-lackner.de/kuhlerlufter-geblase-lufter-steuergerat-ecu-modul-vw-357919506A-898719000.html ; Hausnummer-Gegenlead siehe Recherche 01.10.2026.]
 
 ### Recherche 06.10.2026
 

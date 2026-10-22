@@ -28,6 +28,10 @@ Christian Schlereth, Schrott-/Metallhandel in Karlstadt-Gambach, bleibt nur durc
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die Suchspur zur Facebook-Seite „Schrotthandel Christian Schlereth | Gambach“ ist weiterhin kein direkt prüfbarer Betreiberbeleg. Der damit verbundene Domainkandidat schrotthandel-schlereth.de wurde bereits mit Impressum als Ewald Schlereth/ES-Schrott-Containerdienst, Jahnstr. 28, 85134 Stammham, geprüft; das ist nicht Christian Schlereth in Karlstadt-Gambach. Eine Verbindung/Familien- oder Zweigbeziehung ist nicht belegt. Frühlingstr. 43 und 09353 509050 bleiben ungeprüfte Verzeichnis-Leads; keine Website/Kontakte oder Preise übernommen. ANKAUF: kein Kurs; VERKAUF: keine Preisliste; GEBÜHREN: kein Tarif. Kein GEO vor Betreiberbestätigung. Quellen: https://www.facebook.com/SchrotthandelChristianSchlereth (Suchtreffer, Seite nicht direkt auslesbar); https://www.schrotthandel-schlereth.de/impressum .]
+
 ### Gegenprüfung 10.10.2026
 
 - [Gegenprüfung 10.10.2026: Unabhängiger Owner-Gate findet im Facebook-Suchauszug eine Gambach-/Domainspur, aber keinen direkt lesbaren Betreiber-Socialbeleg. Die Kandidatendomain schrotthandel-schlereth.de nennt im direkt gelesenen Impressum Ewald Schlereth, ES-Schrott-Containerdienst Schlereth, Jahnstr. 28, 85134 Stammham, 08405 279 und 0172 9068749. Damit fremder Domainbetreiber, kein Identitätsbeleg für Christian Schlereth/Frühlingstr. 43/Karlstadt. Ungeklärte Verwandtschafts-/Zweigbeziehung und Portal-Weblink nicht als Kette behauptet; keine Website oder Kontakte übertragen. Quellen: https://www.facebook.com/SchrotthandelChristianSchlereth (Suchauszug); https://www.schrotthandel-schlereth.de/impressum ; research/checkin-20261010-waveD-suedost-owner-gate.md .]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Kontaktseite von „Keller räumt schneller“ nennt weiterhin Mike Keller, Kirschgartenweg 1, 67547 Worms, 0176 77428385 und eine E-Mail-Adresse; die Startseite bewirbt Haushaltsauflösungen/Entrümpelungen. Das Impressum ist unter `/impressum` nicht erreichbar. Der Eintrag bleibt ungeklärt: Seed-/Portaladresse Untere Hauptstr. 26, Portaladresse Alzeyer Str. 156 und Betreiberseite Kirschgartenweg 1 (dort widersprüchliche PLZ-Angaben 67547/67549) sind nicht als aktuelle Schrottannahmestelle bestätigt. **Ankauf:** frühere Betreiberseite bewirbt kostenlose Schrottabholung, aber keinen vergüteten Ankauf oder Zahlenkurs. **Verkauf:** keine Liste. **Gebühren:** keine Räumungs-/Entsorgungstarife verifiziert. Status `pruefung`; keine Adresse in Frontmatter übertragen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die Live-Startseite von „Keller räumt schneller“ direkt erneut gelesen: Mike Keller, Kirschgartenweg.1, 67547 Worms, Mo–Fr 08:00–18:00, Tel-Link +49 176 77428385 und Mail-Link raeumungstrupp.keller@gmail.com; der sichtbare Inhalt beschreibt Haushaltsauflösungen/Entrümpelungen. `/impressum` liefert weiterhin HTTP 404. Das ist ein Betreiberseiten-Einzelbeleg und bestätigt weder die frühere Schrotthandel-Identität noch einen aktuellen stationären Annahmeort. Die konkurrierenden Wormser Anschriften (Untere Hauptstr. 26/67551, Alzeyer Str. 156/67549 und Kirschgartenweg 1/Website 67547; daneben bereits dokumentierter Fremdnutzer am Kirschgartenweg) bleiben ungelöst. **Ankauf:** frühere Leistungsseite behauptet kostenlose Abholung, aber kein bezifferter/verifizierter Ankauf; kostenlose Abholung ist kein Ankaufspreis. **Verkauf:** keine Preisliste. **Gebühren:** keine verifizierten Räumungs-/Entsorgungstarife. Keine Felder übertragen. Quellen: https://www.keller-raeumt-schneller.de/ ; https://www.keller-raeumt-schneller.de/unsere-leistungen ; https://www.keller-raeumt-schneller.de/impressum (HTTP 404).]
 
 ### Recherche 01.10.2026
 

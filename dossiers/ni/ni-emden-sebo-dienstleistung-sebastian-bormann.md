@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.sebo-dienstleistung.de
-website_status: tot
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die frühere Domain-Fehlermeldung ist überholt: `sebo-dienstleistung.de` war am 22.10.2026 mit einer neuen Betreiberseite und Impressum live. Das Impressum nennt Sebastian Bormann als Inhaber eines Einzelunternehmens und Kanalweg 1, 26721 Emden; ein Handelsregistereintrag wird ausdrücklich nicht angegeben. Der NDR porträtierte Bormann im Juli 2026 als mobilen Hausmeister von Emden und berichtet, dass er für Kundschaft Schrott kostenlos entsorgt. Die aktuelle Website fokussiert Garten-, Hausmeister-, Reinigungs- und Winterdienste; keine aktuellen Schrott-Ankaufpreise oder Metallannahmebedingungen.
+
+- **Ankauf:** weder Ankauf von Schrott noch Auszahlung belegt; die NDR-Formulierung „entsorgt … kostenlos“ ist kein Ankauf.
+- **Verkauf:** keine Produkt- oder Preisliste gefunden.
+- **Gebühren:** NDR beschreibt kostenlose Schrottentsorgung für Kundschaft, ohne Material-/Mengenbedingungen; die Website vereinbart andere Leistungen individuell. Daraus keine allgemeine kostenlose Abholung ableiten.
+- **Offen:** aktueller Schrottservice, zugehörige Abholbedingungen und unabhängiger Beleg für die genaue Geschäftsanschrift. `status: pruefung` bleibt; Website-Status beschreibt nur die nun erreichbare Domain.
 
 ## Timeline
+
+### Recherche 22.10.2026: Domain wieder erreichbar
+
+- [Recherche 22.10.2026: Die bisher als tot geführte Domain `sebo-dienstleistung.de` liefert nun eine live Betreiberseite samt Impressum. Das Impressum nennt SEBO Dienstleistungen, Sebastian Bormann als Inhaber/Einzelunternehmen, Kanalweg 1, 26721 Emden, Telefon 04921 5503722, Mobil 0151 51531548, Fax und E-Mail; es weist ausdrücklich darauf hin, dass keine Handelsregistereintragung nachgewiesen wurde. Der neue Leistungsüberblick nennt Garten-/Landschaftspflege, Hausmeister-/Objektservice, Winterdienst, Reinigung und Entrümpelung auf Anfrage; Vertragsinformationen sagen, Preise würden individuell vereinbart. Der NDR-Bericht vom 22.07.2026 identifiziert unabhängig Sebastian Bormann als mobilen Hausmeister in Emden und sagt, SEBO entsorge Kundenschrott kostenlos. Das belegt keine Auszahlung/Ankauf und keine allgemeine Gratisabholung; keine konkreten Preise/Gebühren. Website-Status von `tot` auf `aktiv` aktualisiert, weil die vorhandene Domain direkt erreichbar ist; keine Straße/Telefon/E-Mail in leere Seed-Felder übernommen, keine Öffnungszeiten oder Schrottannahme belegt. Quellen: https://www.sebo-dienstleistung.de/ ; https://www.sebo-dienstleistung.de/impressum.html ; https://www.sebo-dienstleistung.de/agb.html ; https://www.ndr.de/fernsehen/sendungen/die_nordreportage/Der-mobile-Hausmeister-von-Emden,sendung1004544.html .]
 
 ### Recherche 01.10.2026
 

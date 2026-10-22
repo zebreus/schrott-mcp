@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Generischer Geschäftsname ohne gesicherten Rechtsträger. Der erneut gelesene Gelbe-Seiten-Eintrag führt Fritz-Siemon-Straße 26, 04347 Leipzig, 0176 74863600 sowie kostenlose Metall-/Schrottentsorgung. Ein Branchenprofil ist kein Betreiberbeleg; „kostenlos“ bedeutet zudem nicht vergüteten Ankauf. Adresse kann ein Kontakt-/Wohnort statt eines Annahmehofs sein. **Ankauf:** Zahlung nicht belegt. **Verkauf:** keine Liste. **Gebühren:** kostenlose Entsorgung lediglich Verzeichniswerbung, nicht primärbestätigt. Name des Gewerbetreibenden, Abholgebiet, Materialausschlüsse und etwaige Mindestmengen klären; Status pruefung.
+Generischer Geschäftsname ohne gesicherten Rechtsträger. Der Gelbe-Seiten-Lead führt Fritz-Siemon-Straße 26, 04347 Leipzig, 0176 74863600 sowie „kostenlose“ Metall-/Schrottentsorgung. Das ist keine Betreiberbestätigung; kostenlose Entsorgung ist nicht dasselbe wie vergüteter Ankauf.
+
+Eine Betreiberwebsite für **Thomas Stolle Metall-Recycling**, Am Schenkberg 6, 04349 Leipzig-Plaußig, Telefon 034298 63107, beschreibt aktuellen Metall-/Schrottankauf und Containerdienst. Abweichender Betreibername, Standort und Telefon belegen keine Identität mit der Seedzeile und sind ausdrücklich nicht zu übertragen.
+
+**Ankauf (Seed):** Zahlung oder Ankaufspreis nicht belegt. **Verkauf:** keine Liste. **Gebühren:** nur Portalwerbung „kostenlos“, nicht primärbestätigt; keine belastbaren Tarife. Name des Gewerbetreibenden, Abholgebiet, Materialausschlüsse und etwaige Mindestmengen klären; Status `pruefung`.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Zweiseitige Abgrenzung eines Leipziger Kandidaten: Die direkt gelesene Betreiberwebsite Thomas Stolle Metall-Recycling nennt im Impressum Am Schenkberg 6, 04349 Leipzig-Plaußig, 034298 63107, und bewirbt Ankauf von Buntmetallen, Metall, Blech und Schrott zu aktuellen, aber nicht bezifferten Tagespreisen sowie Container 7–27 m³ und gewerbliche Abholung auf Anfrage. Seed-Lead Gelbe Seiten nennt dagegen „Schrottentsorgung Leipzig“, Fritz-Siemon-Str. 26, 04347, 0176 74863600. Name, Adresse und Rufnummer sind verschieden; keine Identitätskette, daher keinerlei Übernahme von Stolle-Leistungen/Preisen. Für den Seed bleibt „kostenlose Entsorgung“ eine unbestätigte Portalwerbung, kein Ankaufspreis und keine bestätigte Gebührenfreiheit. VERKAUF: keine targetbezogene Liste. Kein GEO. Quellen Kandidatenbetreiber: https://schrotthandel-leipzig.de/ ; https://schrotthandel-leipzig.de/impressum ; Seed-Lead: https://www.gelbeseiten.de/gsbiz/b36a0ad6-e50c-460c-ba99-a09eb887e2e2 .]
 
 ### Recherche 08.10.2026
 

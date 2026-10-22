@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Die Zuordnung von **Zaher J.** und **JZ Zaher** bleibt unsicher: 11880 führt aktuell Stummstr. 47, 66763 Dillingen, 06831 7610919 sowie abweichende E-Mail-/Mobilangaben; andere Verzeichnisse führen „Zaher J.“ teils an Stummstr. 37. Dies sind Aggregator-Leads, kein Betreiber- oder Registerbeleg; der Status wurde daher von `aktiv` auf `pruefung` korrigiert, nicht geschlossen. **Ankauf:** Branchenbezeichnung Schrotthandel/Altmetallrecycling, aber keine verifizierte Annahme oder Preise. **Verkauf/Gebühren:** keine Listen. **GEO:** Adresse und Identität klären, keine Koordinaten.
+Die Zuordnung von **Zaher J.** und **JZ Zaher** bleibt unsicher: 11880 führt Stummstr. 47, 66763 Dillingen, 06831 7610919 und eine abweichende E-Mail; Gelbe Seiten nennt unter demselben Namen/Ort Stummstr. 47, Mobil 0176 61226892 sowie täglich 08:00–20:00 Uhr. Andere Verzeichnisse führen „Zaher J.“ teils an Stummstr. 37. Das sind Aggregator-Leads, keine Betreiber- oder Registerbelege; der Status bleibt `pruefung`, nicht geschlossen.
+
+- **Ankauf:** Einordnung „Schrott“/„Schrotthandel“ in Verzeichnissen, aber keine verifizierte Annahme, Auszahlung oder Preise.
+- **Verkauf:** keine Liste.
+- **Gebühren:** keine belastbare Gebühren-/Abholpreisliste; gelistete Zeiten sind keine Konditionen.
+- **GEO:** Adresse und Identität zuerst klären; keine Koordinaten.
 
 ## Timeline
+
+### Recherche 22.10.2026: aktueller Gelbe-Seiten-Eintrag bleibt Aggregator-Lead
+
+- [Recherche 22.10.2026: Gelbe-Seiten-Detail direkt gelesen: „JZ Zaher“, Stummstr. 47, 66763 Dillingen/Saar, Mobil 0176 61226892, Portalzeiten Mo–Sa 08:00–20:00; als Branche steht „Schrott“. Kein Betreiber-Impressum, keine eigene Website und keine Ankaufskurse. Die Daten passen teilweise zur 11880-Variante Stummstr. 47, lösen aber den Widerspruch zu „Zaher J.“ an Stummstr. 37 sowie abweichenden Mail-/Mobilangaben nicht auf. Alle Felder bleiben unverändert, keine Annahme-/Zahlungsfreigabe und keine GEO. „Schrott“ ist kein bezifferter Ankauf; kein Verkaufspreis oder Gebührenmodell gefunden. Quelle: https://www.gelbeseiten.de/gsbiz/f5882e74-e562-47b3-b979-2b7b5ee05da6 ; Gegenvarianten siehe Timeline 03.10.2026 und 20.10.2026.]
 
 ### Recherche 20.10.2026 — Statuskorrektur
 

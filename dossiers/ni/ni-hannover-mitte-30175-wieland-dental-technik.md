@@ -28,6 +28,10 @@ Der Hannover-Seed führt „Wieland Dental + Technik GmbH & Co. KG“, Königstr
 
 ## Timeline
 
+### Recherche 22.10.2026: offizielle Gruppenseite erneut geprüft
+
+- [Recherche 22.10.2026: Die aktuelle offizielle Ivoclar-Gruppenliste direkt gelesen: deutsche Gruppengesellschaften werden in Ellwangen und Pforzheim aufgeführt; kein Eintrag nennt Hannover/Königstraße 9 oder eine Hannoveraner Wieland-Dental-Gesellschaft. Die Liste ist kein vollständiger historischer Filialnachweis und belegt weder Schließung noch Rechtsnachfolge an Königstraße 9. Keine Kontaktdaten aus anderen Orten übertragen. Weiterhin kein Hannoveraner Betreiberbeleg für Schrottankauf. Ankauf, Verkauf und Gebühren des Seed-Kandidaten bleiben ungeklärt; Frontmatter und `pruefung` unverändert. Quelle: https://www.ivoclar.com/en_li/tools/group-companies .]
+
 ### Recherche 14.10.2026 — aktuelle Gruppen-/Adressquellen, kein Hannover-Ankauf
 
 - [Recherche 14.10.2026: [Ivoclar Group Companies](https://www.ivoclar.com/en_li/tools/group-companies) direkt gelesen: deutsche Gruppengesellschaften unter anderem in Ellwangen und Ivoclar Vivadent Services & Support GmbH, Lindenstr. 2, 75175 Pforzheim. Die gelesene Liste identifiziert den Hannover-Seed nicht; daraus keine lückenlose Filialhistorie, Schließung oder Nachfolge abgeleitet. Keine Pforzheimer Kontakte in das Dossier übertragen.; Quelle: https://www.ivoclar.com/en_li/tools/group-companies]

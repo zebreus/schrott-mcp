@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed führt „Peter Schneider Metallhandel“ an Schlachthofstr. 37; diese Anschrift und die in älteren Verzeichnis-Leads genannte Rufnummer 0641 66235 sind nicht durch eine Betreiberquelle bestätigt. Als separater Kandidat ist die MP Schneider GmbH an der benachbarten Schlachthofstraße 38, Gießen, belegt: eigenes Impressum nennt Marcus und Peter Schneider, HRB 9721, 0641 63543 und info@mpschneidermetall.de. Hausnummernnähe und Namensüberschneidung beweisen keine Identität, Übernahme oder Filialbeziehung; daher keine Website-/Adress-/Kontaktübertragung.
+
+**Ankauf / Verkauf / Gebühren:** keine dem Seed zurechenbaren Preise oder Gebühren. Keine Geokodierung des alten Straßenleads oder der Kandidatenadresse, bevor die Zuordnung geklärt ist; Status `pruefung`.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: MP-Schneider-Kandidatenwebsite und Impressum nochmals abgeglichen: MP Schneider GmbH nennt Schlachthofstraße 38, 35398 Gießen, HRB 9721 AG Gießen, Marcus und Peter Schneider, 0641 63543 und info@mpschneidermetall.de. Die Seedzeile/Verzeichnis-Leads betreffen dagegen Peter Schneider Metallhandel, Schlachthofstr. 37 und abweichende Rufnummer 0641 66235. Keine Belegkette für Identität, Umzug oder Rechtsnachfolge; MP-Leistungen/Website bleiben vom Seed getrennt. Keine Preis-/Gebührenliste dem Seed zuzuordnen, kein GEO. Quellen (Kandidatenbetreiber, nicht Seed-Zweitbeleg): https://www.mpschneidermetall.de/ ; https://www.mpschneidermetall.de/impressum/ ; bisherige Seed-Leads siehe Recherche 03.10.2026.]
 
 ### Recherche 03.10.2026
 

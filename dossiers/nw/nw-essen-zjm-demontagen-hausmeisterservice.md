@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed bleibt ein ungeklärter Essener ZJM-Lead: Verzeichnisse ordnen „ZJM Demontagen + Hausmeisterservice“ an Von-Ossietzky-Ring 59 und 0201 9467448. Ein heute lesbares ZJM-Impressum nennt dagegen Von-Ossietzky-Ring 61, nur den Namen „ZJM“ und eine andere E-Mail; Creditreform führt Rebecca Zänker, „ZJM Demontagen + Hausmeisterservice“, ebenfalls an Nr. 61. Eine ausdrückliche Verbindung dieses Auftritts zur Seed-Zeile bzw. zur bisherigen Telefonnummer fehlt; `zjm-demontagen.de` und die neue Domain dürfen nicht automatisch gleichgesetzt werden.
+
+- **Ankauf:** die neue Website wirbt mit Schrott-/Metallabholung und „fairen Preisen“, nennt aber keine Ankaufskurse oder eindeutige Auszahlungskonditionen; Zuordnung zur Seed-Zeile offen.
+- **Verkauf:** keine Preisliste.
+- **Gebühren:** Website behauptet kostenfreie Abholung und „keine versteckten Kosten“, aber ohne Ausnahmen/Bedingungen oder belegte Zuordnung zur Seed-Zeile.
+- **Offen:** 59 oder 61, Betreiberidentität, Nummer 0201 9467448 und Beziehung zu `schrottundmetallabholung.de`. Vorhandene Website-Statusangabe bezieht sich auf die zuvor geprüfte Domain `zjm-demontagen.de`; `status: pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 22.10.2026: möglicher neuer ZJM-Auftritt, Identität nicht verknüpft
+
+- [Recherche 22.10.2026: `schrottundmetallabholung.de` samt Impressum direkt gelesen: Website nennt „ZJM“, im Impressum Von-Ossietzky-Ring 61, 45279 Essen und info@schrottundmetallabholung.de, ohne vertretungsberechtigte Person oder Registerangabe; sie wirbt mit kostenloser Schrott-/Metall- und Schrottautoabholung, aber ohne Materialpreise oder Bedingungen. Ein Creditreform-Suchergebnis führt Rebecca Zänker, „ZJM Demontagen + Hausmeisterservice“, ebenfalls an Von-Ossietzky-Ring 61; der Direktabruf war 403. Das passt zum Namen, belegt aber nicht, dass Website und Seed-Lead an Nr. 59 / Tel. 0201 9467448 derselbe Betrieb sind. Deshalb keine Website-/Adress-/Kontaktübernahme. Ankauf nicht mit kostenloser Abholung gleichgesetzt; keine Ankauf-/Verkaufspreise oder bezifferten Gebühren. Quelle(n): https://www.schrottundmetallabholung.de/ ; https://www.schrottundmetallabholung.de/impressum ; https://firmeneintrag.creditreform.de/45279/5110447366/REBECCA_ZAENKER_ZJM_DEMONTAGEN_HAUSMEISTERSERVICE (Direktabruf 403).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

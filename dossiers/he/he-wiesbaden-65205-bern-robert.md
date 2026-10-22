@@ -28,6 +28,10 @@ Die bisherigen Verzeichnisse führen Robert Bern als Altmaterial-/Schrotthandel 
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Detailseite erneut direkt gelesen: Robert Bern, Römerstr. 67, 65205 Wiesbaden-Delkenheim, 06122 52567, Kategorie Altmaterial-/Schrotthandel; sie zeigt Aktualisierung 03.10.2026, aber Eintragsdaten vom 29.06.2021 und keinen Betreiberauftritt. Darmstadt Post reproduziert dieselbe Adresse/Nummer, ist ebenfalls ein Firmenverzeichnis und kein unabhängiger qualifizierter Beleg. Keine neue Betreiber-/Registerquelle, daher keine Aufwertung/Feldänderung und keine Geokodierung. ANKAUF: kein Preisblatt; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://www.11880.com/branchenbuch/wiesbaden/120674719B100459659/robert-bern.html ; https://darmstadt-post.de/unternehmen/wiesbaden/schrotthandel/robert-bern-2481/ (Verzeichnislead).]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Exakte Personen-/Ortssuche liefert erneut nur Verzeichnis-Leads Robert Bern, Römerstr. 67, Wiesbaden-Delkenheim; konkrete 11880-Detailadresse jetzt als nachprüfbarer URL festgehalten. Kein Betreiber-/Registerzweitbeleg, keine aktuelle Annahmebestätigung. Die im Eintrag 02.10. als „2 Verzeichnisbelege“ gefüllten Daten bleiben erhalten, gelten nach README aber nicht als verifiziert. ANKAUF/VERKAUF/GEBÜHREN: keine dem Betrieb zuordenbare Zahlenliste im Suchmaterial. GEO erst nach qualifizierter Betriebsadressbestätigung; keine Schließung aus fehlender Website ableiten. Quelle (Lead): https://www.11880.com/branchenbuch/wiesbaden/120674719B100459659/robert-bern.html .]

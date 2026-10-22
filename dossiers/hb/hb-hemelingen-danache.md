@@ -9,8 +9,8 @@ postcode: '28309'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: 'https://www.kostenloseautoverwertung.de'
+website_status: aktiv
 status: pruefung
 description: Autoverwertung für Altfahrzeuge am Hemelinger Hafendamm 19 in Bremen-Hemelingen.
 dropoff_json: ''
@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt ist am 22.10.2026 direkt erreichbar und nennt Danache Autoverwertung Bremen, Jamal Danache und Hemelinger Hafendamm 19, 28309 Bremen. Die Identität/Anlagenadresse wird zusätzlich durch die Bremer Anlagenübersicht (Stand 02.02.2024) und einen Creditreform-Eintrag für DAVB Danache Autoverwertung Bremen e.K. gestützt; ein aktueller Verwertungszertifikatsnachweis ist damit nicht belegt. Der Website-Kontakt ist als Betreiberangabe dokumentiert, aber mangels unabhängiger Bestätigung nicht in leere Kontaktfelder übernommen.
+
+- **Ankauf:** Website bietet An- und Verkauf gebrauchter Kfz und wirbt mit kostenfreier Altautoabholung/-entsorgung; keine konkreten Fahrzeugangebote oder Schrott-/Metallankaufskurse.
+- **Verkauf:** gebrauchte Autoteile, Reifen und Fahrzeuge werden angeboten; keine konkrete Preisliste gefunden.
+- **Gebühren:** kostenlose Abholung/Entsorgung bezieht sich auf Altautos laut Betreiberseite, nicht auf beliebige Metalle oder Abfallarten. Keine Gebühren für Zusatzleistungen belegt.
+- **Offen:** aktuelles Verwertungszertifikat und Widerspruch der Samstagzeiten (Impressum 08:00–14:30, Startseite im Abschnitt „Besuchen Sie uns“ 08:00–16:00). `status: pruefung`, Öffnungszeiten und GEO bleiben offen.
 
 ## Timeline
+
+### Recherche 22.10.2026: Website live, Altauto-Leistung präzisiert
+
+- [Recherche 22.10.2026: Betreiberwebsite und Impressum direkt gelesen; sie nennen Danache Autoverwertung Bremen, Jamal Danache, Hemelinger Hafendamm 19, 28309 Bremen und die Domain `kostenloseautoverwertung.de`. Die Website bewirbt kostenlose Abholung/Entsorgung von Altautos mit Verwertungsnachweis, Kfz-An-/Verkauf, gebrauchte Ersatzteile und Reifenservice/-verkauf. Das ist kein allgemeiner Metallankauf und kein Ankaufspreis. Ankauf-/Verkaufspreise für Fahrzeuge/Teile nicht beziffert; keine Zusatzgebührenliste. Das Impressum nennt Mo–Fr 08:00–18:00, Sa 08:00–14:30; derselbe Betreiberauftritt nennt im Abschnitt „Besuchen Sie uns“ Sa 08:00–16:00. Öffnungszeiten bleiben leer. Als unabhängige Gegenbelege bleiben die Bremer Anlagenübersicht vom 02.02.2024 und der Creditreform-Eintrag „DAVB Danache Autoverwertung Bremen e.K.“ (Direktabruf Creditreform 403); ein aktuelles Zertifikat wurde nicht gefunden. Neu gefüllt wurden ausschließlich `website` und `website_status: aktiv` (direkt erreichbare Betreiberseite plus passender Betreiber-/Anlagenbezug); Telefon/E-Mail nicht übernommen, da kein zweiter qualifizierter Kontaktbeleg. `status: pruefung` bleibt. Quellen: https://www.kostenloseautoverwertung.de/ ; https://www.kostenloseautoverwertung.de/impressum ; https://www.kostenloseautoverwertung.de/datenschutz ; https://umwelt.bremen.de/sixcms/media.php/13/2024-02-02_Anlagen%C3%BCbersicht%20Abfallentsorgungsanlagen.pdf ; https://firmeneintrag.creditreform.de/28309/2050932753/DAVB_DANACHE_AUTOVERWERTUNG_BREMEN_E_K (Direktabruf 403).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

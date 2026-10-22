@@ -28,6 +28,10 @@ Schrott24/Metaloop ist online erreichbar und vermittelt Verkäufe über Partnera
 
 ## Timeline
 
+### Recherche 22.10.2026: amtlicher Insolvenzstatus erneut geprüft
+
+- [Recherche 22.10.2026: EVI/Firmenbuchseite für Metaloop Europe GmbH, FN 638630m, direkt gelesen: Status „Eingetragen“, Firmenbuchadresse Herrengasse 13, 8010 Graz; Masseverwalter Dr. Helmut Klementschitz seit 18.06.2026; Veröffentlichungen „Insolvenz“ am 19.06. und 01.09.2026. Die gleichzeitig gelesene Schrott24-Impressumsseite nennt weiterhin Puchstraße 17, 8020 Graz. Registeradresse und Website-Impressum widersprechen sich; beide sind kein niedersächsischer Anlieferstandort. Die Schrottpreisseite ist weiterhin ausdrücklich auf 14.11.2025 datiert und weist nur standort-/transportabhängige Maximalpreise für DE/AT aus. Daher keine aktuellen NI-Ankaufskurse, keine Bestätigung operativer Annahme oder Zahlungsfähigkeit; keine Schließung behauptet. Kein Verkaufspreis des Kunden oder aktueller Gebührentarif neu verifiziert; vorhandene Gebührenwidersprüche (5 €/6 € Paketmarke) bleiben offen. `status: aktiv` wird durch die Web-Erreichbarkeit nicht als aktive Zahlungs-/Annahmefähigkeit bestätigt, bleibt aber mangels Schließungsbeleg unangetastet. Quellen: https://www.evi.gv.at/f/638630m ; https://www.schrott24.de/faq/impressum/ ; https://www.schrott24.de/schrottpreise/ .]
+
 ### Recherche 16.10.2026 — Welle 13:00 B
 
 - [Recherche 16.10.2026: Preiswurzel erneut direkt gelesen: Tagesaktuelle Schrottpreise vom 14.11.2025, standort-/transportabhängige Maximalpreise DE/AT. Keine Tagesgültigkeit 2026 daraus ableiten. EVI FN638630m separat amtlich gelesen: Metaloop Europe GmbH eingetragen, Herrengasse 13, 8010 Graz, Masseverwalter seit 18.06.2026, Insolvenzpublikationen 19.06./01.09.2026. Eingetragen bedeutet nicht insolvenzfrei oder operativ annahmebereit; vorhandener Aktivstatus wird nicht neu bestätigt. Keine Betriebsschließung behauptet; aktuelle Vertrags-/Auszahlungsfähigkeit vor Nutzung klären. Quelle(n): https://www.schrott24.de/schrottpreise/ ; https://www.evi.gv.at/f/638630m .]

@@ -27,9 +27,13 @@ provenance_origin: table
 
 Verzeichnisgeführter Schrott-/Metallhandel im Halberstädter Ortsteil **Klein Quenstedt**, Finkenflucht 82. Bestehende Adresse, PLZ und Telefon sind nachvollziehbare historische Portaldaten, aber bislang **nicht primär bestätigt**. Die alte Formulierung „doppelt belegt“ wird deshalb nicht als Betreiberverifikation fortgeschrieben.
 
-Aktuelle Existenz, Ansprechpartner, Anlieferbedingungen und Ankauf/Preise bleiben offen. Keine belegte Betriebsschließung, Status `pruefung` unverändert.
+Aktuelle Existenz, Ansprechpartner, Anlieferbedingungen und Ankauf/Preise bleiben offen. Ein Creditreform-Suchtreffer führt einen namens-/adresspassenden Kandidaten, war beim Direktabruf aber nicht lesbar und ist daher nur ein weiterer Lead, keine bestätigte Firmenauskunft. Keine belegte Betriebsschließung, Status `pruefung` unverändert.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: In der Creditreform-Suche erscheint der Kandidat „Horst-Günter Beyer Fuhrunternehmen und Schrotthandel“ in Klein Quenstedt mit Finkenflucht 82, 38822 und 03941 608221. Der direkte Creditreform-Profilabruf war nicht lesbar (HTTP 403); die Information stammt deshalb nur aus dem Suchindex-Auszug und ist weder ein vollständig geprüfter Firmenbericht noch eine unabhängige aktuelle Betreiberbestätigung. Keine Änderung an Name, Anschrift, Telefon oder Status. **Ankauf:** tatsächliche heutige Annahme/Kurse nicht bestätigt; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Keine Schließung ableiten. Quelle: https://firmeneintrag.creditreform.de/38822/3370002165/HORST_GUENTER_BEYER_FUHRUNTERNEHMEN_UND_SCHROTTHANDEL (Suchauszug, Direktabruf 403).]
 
 ### Recherche 21.10.2026
 

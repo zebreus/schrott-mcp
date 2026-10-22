@@ -28,6 +28,10 @@ Peter Jennebach in Paderborn-Schloß Neuhaus ist nur ein Verzeichnis-Lead an Cä
 
 ## Timeline
 
+### Recherche 22.10.2026: Ortskonflikt direkt re-geprüft
+
+- [Recherche 22.10.2026: 11880-Einzelseite zu „Peter Jennebach Altemetallhandel“ direkt gelesen: Cäcilienstr. 2, 33104 Paderborn-Schloß Neuhaus, 05254 12287, keine Website/E-Mail/Öffnungszeiten; Datensatz vom 29.06.2021, zuletzt am 03.10.2026 aktualisiert. Der direkt gelesene Betreiberauftritt Peter Jennebach Schrott & Buntmetallhandel nennt dagegen Wilhelm-Leuschner-Straße 21, 38228 Salzgitter sowie 05344 9039975/01522 9726708; keine dokumentierte Standortbrücke nach Paderborn. Kein Website- oder Kontakttransfer. Paderborner Lead bleibt nur über 11880 belegt; Ankauf/Auszahlung, Verkaufspreise und Gebühren unbekannt. Keine Frontmatter-Änderung/GEO. Quellen: https://www.11880.com/branchenbuch/paderborn/120674719B100946929/peter-jennebach-altemetallhandel.html ; https://www.jennebach-schrotthandel.de/kontakt/ .]
+
 ### Recherche 14.10.2026 — gleicher Name, anderer belegter Ort
 
 - [Recherche 14.10.2026: [11880-Detail Peter Jennebach](https://www.11880.com/branchenbuch/paderborn/120674719B100946929/peter-jennebach-altemetallhandel.html) direkt gelesen: Cäcilienstr. 2, 33104 Paderborn-Schloß Neuhaus, 05254 12287, keine Website/E-Mail/Öffnungszeiten. Eintrag 29.06.2021, Portal-Aktualisierung 03.10.2026; keine unabhängige Bestätigung heutiger Tätigkeit.; Quelle: https://www.11880.com/branchenbuch/paderborn/120674719B100946929/peter-jennebach-altemetallhandel.html]

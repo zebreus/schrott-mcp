@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Importierter Mehrfirmen-Cluster, keine einzelne nachgewiesene Firma oder Filiale. Gelbe Seiten unterscheidet Broll Klaus/Siemensstr. 26 in Haßloch, Schäfer Schrott/Chemnitzer Str. 13a in Neustadt und Meyer Sascha/Im Altenschemel 40A in Neustadt. Zwei Broll-Profile an derselben Anschrift sind keine zwei unabhängigen Belege. Ohlinger Peter/Ursula in Neustadt oder Haßloch nicht mit Ohlinger Lorenz in Neidenfels gleichsetzen; Knepflas bleibt ungeklärt. Keine Clusterdaten als gemeinsame Kontakt-/Standortdaten importieren.
+Importierter Mehrfirmen-Cluster, keine einzelne nachgewiesene Firma oder Filiale. Gelbe Seiten unterscheidet Broll Klaus/Siemensstr. 26 in Haßloch, Schäfer Schrott/Chemnitzer Str. 13a in Neustadt und Meyer Sascha/Im Altenschemel 40A in Neustadt. Zwei Broll-Profile an derselben Anschrift sind keine zwei unabhängigen Belege. Ohlinger Peter/Ursula in Neustadt oder Haßloch nicht mit Ohlinger Lorenz in Neidenfels gleichsetzen. Ein neuer Gelbe-Seiten-Lead führt „Knepflas Recycling“ mit city-only Adresse „., 67433 Neustadt“ und Telefon 0157 51 12 99 94; das ergibt weder eine belastbare Anschrift noch einen nachgewiesenen eigenständigen Betrieb. Keine Clusterdaten als gemeinsame Kontakt-/Standortdaten importieren.
 
 **Ankauf:** Verzeichnisbranchen ohne verifizierte Auszahlung oder Zahlen. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. **GEO:** erst getrennte Betreiberidentitäten und Standorte klären, Cluster keinesfalls als Einzelpunkt behandeln.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Gelbe Seiten führt im Profil „Knepflas Recycling“ (genau diese Schreibweise), Adresse nur „., 67433 Neustadt an der Weinstraße“, Tel. 0157 51 12 99 94, tägliche Zeiten 07:00–20:00 und Portal-Leistungsangaben zu Räumung, Schrott-/Metallabholung, Entsorgung und Abbruch. Das Profil ist ein Aggregator-Lead, kein Betreiber-/Registerbeleg; die city-only Adresse ist kein Annahmestellen- oder GEO-Nachweis. Insbesondere behauptete Abholung belegt keine Auszahlung/Ankaufskurse. **Ankauf:** keine bestätigten Sorten/Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Nicht mit anderen Clusterfirmen zusammengeführt; Schreibweise/Identität bleiben zu prüfen. Quelle: https://www.gelbeseiten.de/gsbiz/7b41cd5f-ee34-4b20-8d06-0466eb504957 .]
 
 ### Recherche 17.10.2026 — Welle 2100 C
 

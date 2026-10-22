@@ -28,6 +28,10 @@ Das Dossier ist ein ungeklärter Identitäts-/Fehlkategorisierungsfall: Portalan
 
 ## Timeline
 
+### Recherche 22.10.2026: widersprüchliche Arzt-/Schrotthändler-Verzeichnisse
+
+- [Recherche 22.10.2026: Eine direkt lesbare Branchen-Info-Seite führt „Schott Rainer Facharzt für Allgemeinmedizin“ an Gartenfelder Str. 86–88, 13599 Berlin und exakt 030 3819906; zugleich weist die Seite selbst darauf hin, dass Aktualität/Richtigkeit nicht garantiert werden. Das ist ein weiterer Aggregator-Lead und keine KV-/Praxisregister-Primärbestätigung. Zusammen mit dem schon dokumentierten Schrottportal-Eintrag gleicher Adresse/Nummer verschärft sich der Fehlkategorisierungs-/Namensvetterverdacht, entscheidet ihn aber nicht. Keine Händleraktivierung, Schließung oder Übernahme von Praxisdaten; `status: unbekannt` und alle Kontaktdaten bleiben ungeklärt, Straßenfeld nicht geokodieren. Keine Ankaufspreise, Verkaufsliste oder Händlergebühren belegt. Quelle: https://berlin.branchen-info.net/schott-rainer-facharzt-fuer-allgemeinmedizin/2131581/ .]
+
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 
 - [Recherche 18.10.2026: Schrottportal-Detail heute HTTP 403/JS-Cookie-Challenge; NorthData-Suggest Rainer Schott HTTP 429. Kein heute gelesener Unternehmens-/Arztregistereinzelnachweis, daher frühere medizinische Gegenidentität ausdrücklich nur historischer Lead, weder bestätigt noch widerlegt. Keine neue Grundlage für Händleraktivierung oder Schließung; status unbekannt erhalten. Straßenfeld mit Telefonzusatz bleibt als Altfehler sichtbar und darf ohne sauberen Standortbeleg nicht geokodiert werden. Ankauf/Verkauf/Gebühren ohne verifizierte Daten; nächste Prüfung zweitseitig Gewerbe/Schrotttätigkeit versus Arzt-Namensvetter zur Gartenfelder Straße und Rufnummer, keine Übernahme möglicher Privat-/Praxiskontakte als gesicherte Händlerdaten. Quellen/Abrufversuche: https://lokaleschrottplatz.de/schott-rainer/ ; https://www.northdata.de/suggest.json?query=Rainer%20Schott&countries=DE .]
