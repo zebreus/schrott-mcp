@@ -26,7 +26,13 @@ provenance_origin: table
 
 Konkreter Kandidat Nazmi Hancer Metallhandel, Carl-Benz-Str. 6A, 77652 Offenburg, 0781 23123: Creditreform-Suchindex und Verzeichnisse passen zueinander, aber das Wirtschaftsprofil ist beim Direktabruf gesperrt und ein unabhängiger qualifizierter Zweitbeleg fehlt. Die Gelbe-Seiten-Schaltfläche „Website“ liefert im lesbaren Profil keine Betreiber-Domain. Adresse/Telefon/Zeiten bleiben Leads, nicht neue Seed-Fakten. Der bislang aktive Status wird mangels qualifizierter aktueller Ankaufbestätigung auf `pruefung` gesetzt, nicht auf geschlossen.
 
+**Preise:** Ankauf: keine zurechenbare Preisliste; Verkauf: keine Preisangaben; Gebühren: keine Tarife belegt. Eine zusätzliche Verzeichnisnummer wird nicht als Betreiberkontakt übernommen.
+
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Zusätzliche Verzeichnissuche ergänzt die bestehende Spur, liefert aber weiterhin keinen Betreiber- oder Registerbeleg. Ein Cylex-Suchergebnis-Snippet ordnet 0781 22386 als Fax ein; der direkte Seitenabruf antwortete HTTP 403, sodass diese Beschriftung nicht live verifiziert werden konnte. Gelbe Seiten zeigt dieselbe Zusatznummer ohne Beschriftung. Der Verzeichniskonflikt ist kein belastbarer Grund für einen Telefon-/Fax-Fill. Identität, Adresse, aktuelle Tätigkeit und Ankauf bleiben ungeklärt; kein Schluss auf Schließung. Ankauf: keine Zahlen; Verkauf: keine Preise; Gebühren: keine Tarife. Keine Adresse für Geocodierung freigegeben. Quellen: https://web2.cylex.de/firma-home/hancer-nazmi-metallhandel-12998799.html (Suchsnippet; Direktabruf 403) ; https://www.gelbeseiten.de/gsbiz/8e0f1d9d-bfc1-44e5-b033-9b3b5b808681 ; https://firmeneintrag.creditreform.de/77652/7210163553/NAZMI_HANCER_METALLHANDEL (Direktabruf zuvor 403).]
 
 ### Recherche 18.10.2026 — Welle 02:00 / a
 

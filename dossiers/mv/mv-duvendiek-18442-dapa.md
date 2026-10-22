@@ -32,6 +32,10 @@ Preisfunde sind nicht austauschbar: individuelle Fahrzeugbewertung/vereinbarte A
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: DAPA-Standortseite und Autoverwertungsseite erneut direkt geprüft. Betreiber nennt Duvendiek/Kranichblick 32/038321 363, Fahrzeugverwertung, Unfallwagenankauf und geprüfte Gebrauchtteile; Annahmezeit weiter nur „8:00–17:00 Uhr“, ohne Wochentage. Altmetall und sonstiger Schrott ausdrücklich ausgeschlossen. Ankauf: Fahrzeugangebot individuell, ohne Beträge; Verkauf: Gebrauchtteile/Fahrzeuge nach Anfrage, keine Zahlenliste; Gebühren: Verschrottung abhängig von Zustand/Vollständigkeit und Anlieferung oder Abholung, Transport nach Aufwand mit telefonischem Vorabpreis. Der alte Verzeichnisgegenlead Hausnummer 30 bleibt ungeklärt; Impressum nennt keinen HRB-Eintrag, deshalb kein Straßen-Fill und keine Geokodierung. Quellen: https://www.dapa-hst.de/locations/duvendiek/ ; https://www.dapa-hst.de/autoverwertung/ ; https://www.dapa-hst.de/standorte/impressum/ (Abruf 21.10.2026).]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: Standortdetail und Autoverwertung live erneut gelesen: Duvendiek/Kranichblick 32/038321 363, Fahrzeugverwertung und geprüfte Ersatzteile; ausdrücklicher Ausschluss von Altmetall und sonstigem Schrott bleibt bestehen. Detailseite selbst enthält nur globale Werkstattzeiten, die Autoverwertungsseite nennt für Duvendiek 8–17 Uhr OHNE Wochentage. Kein Wochentagsfill und keine Übernahme 24/7. ANKAUF: Fahrzeug-Einzelangebot, keine Zahlenliste; VERKAUF: Gebrauchtteile auf konkrete Anfrage; GEBÜHREN: Transport nach Aufwand, Vorabpreis telefonisch, Verschrottung abhängig von Zustand/Vollständigkeit. Gleiches Webangebot ist kein unabhängiger zweiter Hausnummerbeleg; Straße/GEO bleiben zurückgestellt, keine Stammdatenänderung. Quellen: https://www.dapa-hst.de/locations/duvendiek/ ; https://www.dapa-hst.de/autoverwertung/.]

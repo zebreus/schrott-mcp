@@ -30,6 +30,10 @@ Walter-Hase-Str. 42 ist laut eigener Behördenwebsite weiterhin Amt Parchimer Um
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Stadt Parchims Abfallseite erneut direkt gelesen: für Haushaltsschrott und Elektroschrott nennt die Stadt REMONDIS Mecklenburg GmbH am Paarscher Weg 64, 19370 Parchim; PEG wird dort nicht als Annahmestelle aufgeführt. Die städtische Zuständigkeits-/Annahmeliste belegt keine PEG→REMONDIS-Rechtsnachfolge und keine private Metallvergütung. Die Registerlöschung der historischen PEG sowie der offene Nachfolge-/Standortbezug bleiben bestehen; keine Adress- oder Gebührenübertragung. ANKAUF/VERKAUF/GEBÜHREN: keine PEG-Preisliste belegt. Quelle: https://www.parchim.de/de/buergerservice-1/buergerservice/umwelt-klima-und-natur/abfall-und-reinigung/abfallentsorgung/ .]
+
 ### Recherche 14.10.2026
 
 - [Korrektur 14.10.2026: NorthData-Suche und individuellen Datensatz gelesen: Parchimer Entsorgungs GmbH-PEG, AG Schwerin HRB 219, EUID DEN1308V.HRB219, Löschung 03.12.2012, Gegenstand öffentliche Abfallentsorgung/Müllumladestation Paarsch/Abfalltransport/Wertstoffhöfe/Deponienachsorge. Damit ist die pauschale Nichtauffindbarkeit aus 01.10. widerlegt; Name+Parchim sind kein bloßes Behörden-Phantom. Löschungsgrund/Rechtsnachfolge nicht öffentlich ausgelesen, unabhängiger Zweitbeleg fehlt, status pruefung erhalten. Quelle: https://www.northdata.de/Parchimer%20Entsorgungs%20GmbH-PEG,%20Parchim/Amtsgericht%20Schwerin%20HRB%20219.]

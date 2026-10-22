@@ -25,14 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Für einen Hartong-Schrotthandel in Vechta gibt es nur widersprüchliche Verzeichnis-Leads: Fuhrenkamp 21 mit Festnetznummer versus Fuhrenkamp 19A bzw. 19 A mit Mobilnummer. Die Traueranzeige belegt den Tod eines Karl-Heinz Hartong 2018, aber keine Verbindung dieses Verstorbenen zum Händler. Betreiberidentität, Adresse, Aktivität und Ankauf sind daher nicht verifiziert; keine Schließung aus dem Todesfall ableiten.
+Für einen Hartong-Schrotthandel in Vechta bleiben nur widersprüchliche Verzeichnis-Leads: Cylex nennt Fuhrenkamp 21/04441 5172, Das Örtliche Fuhrenkamp 19 A/0173 1723076. Die Traueranzeige zu einem gleichnamigen Karl-Heinz Hartong († 2018) enthält keine Verbindung zum Händler und belegt weder dessen Identität noch eine Schließung. Betreiber, Adresse und heutige Tätigkeit sind ungeklärt.
 
-- **Ankauf:** keine verifizierte aktuelle Ankauftätigkeit oder Preisangabe.
-- **Verkauf:** keine Preisliste.
-- **Gebühren:** keine Abhol-/Entsorgungspreise.
-- **Geokodierung:** Fuhrenkamp 19A/21 nicht geokodieren, bevor der Adresswiderspruch und die Betreiberidentität geklärt sind.
+- **Ankauf:** keine Betreiberbestätigung und keine Preise.
+- **Verkauf:** keine Produkt- oder Preisliste.
+- **Gebühren:** keine belegten Abhol-/Entsorgungstarife.
+- **GEO:** keine Koordinate, bis Adresskonflikt und Betreiberidentität geklärt sind.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Frischer Namens-/Ortssuchlauf liefert erneut die beiden nicht vereinbaren Verzeichnisvarianten Cylex Fuhrenkamp 21/04441 5172 und Das Örtliche Fuhrenkamp 19 A/0173 1723076; ein neues Betreiber-Impressum oder ein zulässiger Register-/Kommunalbeleg wurde nicht erschlossen. Die OM-Traueranzeige bleibt ohne Identitätsbrücke zum Gewerbe. Kein Schluss auf Betrieb, Umzug oder Schließung; keine Feldänderung. Ankauf/Verkauf/Gebühren ohne verifizierte Preisangaben, GEO weiter gesperrt. Quelle(n): https://web2.cylex.de/firma-home/karl-heinz-hartong-schrotthandel-16610577.html ; https://www.dasoertliche.de/Themen/Hartong-Karl-Heinz-Vechta-Fuhrenkamp ; https://www.om-trauer.de/traueranzeige/karl-heinz-hartong (Suchtreffer-/Verzeichnisstand, kein neuer Direktbeleg).]
 
 ### Recherche 16.10.2026 — Welle 13:00 B
 

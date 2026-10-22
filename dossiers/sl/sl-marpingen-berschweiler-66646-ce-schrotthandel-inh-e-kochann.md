@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten und 11880 führen als Verzeichnis-Leads CE Schrotthandel / E. Kochann, Dirminger Str. 2, 66646 Marpingen-Berschweiler, Tel. 06827 9027620. Die direkt gelesene 11880-Seite ist ein nicht als Inhaber bestätigt markierter Eintrag und bietet weder Website noch E-Mail oder Öffnungszeiten. Keine Betreiber-, Register- oder kommunale Quelle zur Identität und aktuellen Annahme gefunden; vorhandene Seedwerte bleiben unbestätigt und `status: pruefung`.
+
+**Preise:** ANKAUF — keine Annahmebedingungen oder numerischen Ankaufskurse belegt. VERKAUF — keine Waren-/Materialpreisliste. GEBÜHREN — keine Tarife.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: 11880-Detail direkt gelesen; es führt CE Schrotthandel an Dirminger Str. 2, 66646 Marpingen-Berschweiler, 06827 9027620, ohne E-Mail, Website oder Öffnungszeiten. Der Eintrag weist als Datenstand 22.10.2025/Änderung 01.11.2025 aus und ist kein Betreiber-/Registerbeleg; Gelbe Seiten bleibt ein weiterer Aggregator-Lead, kein unabhängiger Beleg nach README. Keine Frontmatter-Fills. ANKAUF: keine Zahlen oder Kaufbedingungen; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quelle(n): https://www.11880.com/branchenbuch/marpingen/B107213437/ce-schrotthandel.html ; https://www.gelbeseiten.de/gsbiz/f1d17323-529b-4b43-885b-cad9704ab1da .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

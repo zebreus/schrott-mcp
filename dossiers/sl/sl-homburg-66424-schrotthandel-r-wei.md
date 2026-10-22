@@ -28,6 +28,10 @@ Die Betreiberwebsite präsentiert ein Einzelunternehmen von Roxana Weiß in Homb
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Betreiberwebsite weiterhin erreichbar; Leistungs-/Ankaufsprozessseiten nennen Ankauf von Eisen-/Stahlschrott, Kupfer, Aluminium, Messing, Edelstahl, Kabel- und Mischmetallen mit „Tagespreisen“ bzw. telefonischer Preisvorstellung und Bewertung vor Ort. Es gibt weiterhin keine numerischen Ankaufskurse, keine Kunden-Verkaufspreisliste und keine ausgewiesene Abholgebühr; die angebotene Abholung größerer Mengen nach Absprache ist kein Beleg für kostenlosen Transport. Die Website bleibt alleinige Identitätsquelle und schreibt die Straße uneinheitlich „Ortstraße“/„Ortsstraße“; keine Adresse/Kontakte oder Koordinaten ergänzt. Quellen: https://www.schrotthandel-r-weiss.de/leistungen ; https://www.schrotthandel-r-weiss.de/ankaufsprozess ; https://www.schrotthandel-r-weiss.de/impressum ; https://www.schrotthandel-r-weiss.de/kontakt (Abruf 20.10.2026).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Impressum, Kontakt und Ankaufsprozess erneut live geprüft; Roxana Weiß / Einzelunternehmen bleibt einzige Betreiberidentität ohne Handelsregisternummer. Impressum weiter Ortstraße 78, Kontakt Ortsstraße 78, 66424 Homburg-Kirrberg; 0176 99575431 und schrotthandel.weiss2022@gmail.com stimmen innerhalb der Quelle überein, sind aber kein unabhängiger Zweitbeleg. Kontakte/Straße und status pruefung unverändert; keine Geokodierung. Ankaufsprozess weiterhin Preisvorstellung am Telefon, gemeinsame Bewertung und Barzahlung, keine numerischen Ankaufwerte; keine Verkaufs- oder Gebührenliste. Einzelne FAQ-Sätze enthalten noch Platzhalter [[phonenumber]]: nicht als zusätzlicher Kontaktbeleg verwenden. Weitere unabhängige Suche war durch HTTP-401 der Suchintegration eingeschränkt, kein umfassender Register-Negativbefund. Quelle(n): https://www.schrotthandel-r-weiss.de/impressum ; https://www.schrotthandel-r-weiss.de/kontakt ; https://www.schrotthandel-r-weiss.de/ankaufsprozess]

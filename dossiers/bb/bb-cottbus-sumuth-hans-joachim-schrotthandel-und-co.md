@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Verzeichnis-Spur für „Süßmuth Hans-Joachim Schrotthandel und Containerdienst“ führt an Grenzstr. 18, nennt aber je nach Portal 03051 oder 03055 Cottbus. Eine aktuelle Containerdienst-Seite listet zusätzlich H.-J. Süßmuth an Bärenbrücker Str. 3, 03042 Cottbus-Merzdorf, mit derselben Festnetznummer. Das sind widersprüchliche Aggregator-Leads, keine Betreiberbestätigung und keine nachgewiesene Filial- oder Umzugsbeziehung. Auch die ältere Schul-Branchenliste ist nach der dokumentierten Quellenhierarchie kein Betreiber-/Registerbeleg. `status: pruefung`; keine Varianten zusammenführen.
+
+**Preise:** ANKAUF — keine Süßmuth zuordenbaren Schrottpreise. VERKAUF — keine Materialverkaufspreise. GEBÜHREN — keine Süßmuth-Tarife. Der Cottbuser Container-Preisportaltext enthält allgemeine Portal-/Partnerkonditionen, ist aber nicht belastbar diesem Eintrag zuzuordnen. **Offen:** richtige Betriebsadresse/PLZ, Identität der Süßmuth-Varianten und aktuelle Kundenannahme.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Neue Adressgegenprobe: Das Telefonbuch führt den bisherigen Lead Grenzstr. 18, 03051 Cottbus, Tel. 0355 534710; container-preise.de listet „H.-J. Süßmuth Containerdienst & Schrotthandel“ dagegen an Bärenbrücker Str. 3, 03042 Cottbus-Merzdorf, mit derselben Nummer. Die Portalplatzierung ist keine Betreiberbestätigung und löst die Adress-/Identitätsfrage nicht. Der allgemeine Cottbus-Seitentext von container-preise.de enthält eigene, nicht Süßmuth zurechenbare Containerkonditionen; keine Preis- oder Gebührenübernahme. Status aktiv → pruefung, weil kein aktueller Betreiber-/Registerbeleg gefunden ist. Keine GEO-Koordinaten für eine der konkurrierenden Adressen. Quellen (Abruf 20.10.2026): https://www.dastelefonbuch.de/Branchen/Container%20Transport/Cottbus ; https://container-preise.de/cottbus .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

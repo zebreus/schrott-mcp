@@ -30,6 +30,10 @@ Die Visitenkarte von Achim Behrendt und Verzeichniseinträge nennen Goethestr. 7
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Erneute Namens-/Adressgegenprobe fand weiterhin keinen aktuellen Betreiber- oder Registerbeleg für die Schmuckboutique an Goethestr. 76. Treffer zur „Schmuckboutique Behrendt“ bleiben ein alter Cylex-Lead; ein anderer Straßenverzeichnis-Treffer „Schmuck Behrendt“ nennt Goethestr. 77 und belegt weder dieselbe Person noch eine Verbindung zum Eintrag an Nr. 76. Nicht zusammenführen. ANKAUF: kein belegter Edelmetall-/Schrottankaufkurs. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben. Adresse und Telefonnummer bleiben ungeprüfte Leads, keine GEO-Ableitung. Quelle für den bestehenden Lead (Abruf 20.10.2026): https://web2.cylex.de/firma-home/schmuckboutique-behrendt-3784824.html ; keine neue Primärquelle gefunden.]
+
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 
 - [Recherche 14.10.2026: Persönliche Regio-Visitenkarte direkt neu gelesen: Achim Behrendt, Goethestr.76, 14712 Rathenow, 03385/503710; Hauptinhalt nur „Ihre 1. persönliche Seite“, keine Boutique-/Goldankaufbeschreibung, Mailzeile ohne lesbare Adresse. Eine persönliche Karte ist ohne Betreiberzuordnung keine ausreichend verifizierte Händlerwebsite. Frühere verzeichnisgestützte Kontaktfills daher keine Freigabe nach README, trotz numerischer Übereinstimmung. Frontmatterwerte bleiben unbestätigte Altwerte, Status pruefung. Quelle: http://achim-behrendt.visitenkarte.regio.de/ .]

@@ -28,6 +28,10 @@ Die Betreiberwebsite bestätigt ein Marburger Familienunternehmen seit 1986 und 
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberseiten „Wir kaufen“ und Impressum direkt erneut gelesen: Kupferschrott, Kupferkabel, Messing, Aluminium-Geschirr/-Profile, Blei, Zink und VA-Stahl; wegen Tagespreisen keine Zahlen. Größere Abgaben: Abholung durch Fahrzeug nur auf Anfrage, nicht als kostenlos ausgewiesen. Impressum nennt Gotthard Klein, Ginseldorferweg 26a/35039 Marburg und 06421-62188, aber weiterhin nur diesen Betreiber-Einzelbeleg ohne unabhängige Identitätsbrücke zum Dossier. ANKAUF: Sortimentsliste, keine Kursliste; VERKAUF: keine Liste; GEBÜHREN: keine Gebührentafel. Frontmatter/Owner-Gate unverändert. Quellen: https://www.klein-schrotthandel.de/wir-kaufen/ ; https://www.klein-schrotthandel.de/about/.]
+
 ### Korrektur 17.10.2026 (Alt-Gate bleibt)
 
 - [Korrektur 17.10.2026: Review-Direktprüfung bestätigt Betreiberangaben Tageskursverzicht und Abholung größerer Mengen auf Anfrage; keine kostenlose Abholung oder öffentlicher Hof nachgewiesen. Gelbe Seiten ist kein qualifizierender Zweitbeleg für Adresse/Telefon. Vorhandenes Owner-Gate bleibt; Sorten-/Preisgrenze schon am 06.10. integriert, keine neue Feldfreigabe. Keine Clears oder GEO-Freigabe; alte Hinweise auf späteres Geocoding sind kein automatischer Seedablauf. Quelle: https://www.klein-schrotthandel.de/wir-kaufen/; https://www.klein-schrotthandel.de/about/; research/checkin-20261017-1700-wave13-b-review.md; docs/trader-seed.md]

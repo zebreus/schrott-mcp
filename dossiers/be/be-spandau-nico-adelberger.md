@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle eigene Website nennt Nico Adelberger als Kontakt der Imperial Service Group an der Eisenzahnstr. 18, 10709 Berlin; laut dortigem Leistungsangebot geht es um Abbruch, Reinigung, Entrümpelung/Umzug und Grünpflege, nicht belegten Edelmetallankauf. Die Datenschutzerklärung nennt zusätzlich den Grünhofer Weg 42, aber keine belastbare Fortführungskette zum Seed „Gold und Edelmetall“. Keine Daten des Dienstleistungsunternehmens auf den Goldankauf übertragen. ANKAUF, VERKAUF und GEBÜHREN: keine zuordenbare Preisliste; Geschäftsidentität und aktuelle Goldannahme offen.
 
 ## Timeline
+
+### Recherche 21.10.2026 — Abgrenzung der eigenen Website, Preisprüfung
+
+- [Recherche 21.10.2026: Das aktuelle Imperial-Service-Group-Impressum nennt Nico Adelberger, Eisenzahnstr. 18, 10709 Berlin, Tel. 030 89612488, info@imperial-servicegroup.de; als „Registereintrag“ steht dort lediglich eine Steuernummer, keine Handelsregisternummer. Die eigene Dienstleistungsseite beschreibt Abbruch, Gebäudereinigung, Entrümpelung/Umzug, Grünpflege und Winterdienst. Das belegt weder eine Fortführung des Gold-/Edelmetallhandels am Seed-Grünhofer Weg 42 noch Edelmetallankauf. Keine Betreiber-/Registerbrücke zum Seed-Geschäft; keine Adresse/Kontakte übernommen. ANKAUF: keine Gold-/Metallkurse; VERKAUF: keine Liste; GEBÜHREN: keine zuordenbare Gebührentafel. Quellen: https://www.imperial-servicegroup.de/impressum ; https://www.imperial-servicegroup.de/dienstleistungen-abbruch-gebaeudereinigung-entruempelung-umzug-grunpflege-winterdienst ; https://www.imperial-servicegroup.de/datenschutzerklarung]
 
 ### Recherche 05.10.2026
 

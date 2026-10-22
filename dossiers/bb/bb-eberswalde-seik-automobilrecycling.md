@@ -30,6 +30,10 @@ Der Eberswalder Eintrag bleibt ungeklärt. Die Suchgegenprobe im Review vom 17.1
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Suchindexansicht des Betreiberauftritts SEIK nennt weiterhin Herten, Erfurt und Leipzig; eine Eberswalder Niederlassung oder Verbindung zur Teuberstraße wird nicht erwähnt. Das ist keine vollständige Filialliste und widerlegt daher keinen lokalen Betrieb. Das Suchergebnis bietet auch keinen neuen Eberswalder Betreiber-/Registerbeleg. Die Herten-Gesellschaft und deren publiziertes Betriebsende bleiben strikt von der ungeklärten Eberswalder Dossierzeile getrennt. **Ankauf:** kein Eberswalder Fahrzeug-/Metallangebot oder Preis; **Verkauf:** keine Eberswalder Teilepreise; **Gebühren:** keine Tarife. Adresse/Telefon 1a und GEO-Punkt bleiben ungeprüfte lokale Leads. Quellen: https://www.seik.de/ ; https://seik.de/unternehmen ; https://seik.de/news .]
+
 ### Ownerkorrektur 17.10.2026
 
 - [Korrektur 17.10.2026: Ownerfreigegebene Präzisierung nach dem Review vom selben Tag; kein weiterer Live-Abruf in diesem Korrekturschritt. Die Suchgegenprobe im Review fand Onlinestreet mit Teuberstraße 1 und Stadtbranchenbuch mit 1A; beides nur Leads. Das am 03.10. dokumentierte Herten-Betriebsende wird nicht als frisch bestätigter Befund ausgegeben: seik.de/unternehmen, /impressum und /news waren im Review wegen Transportfehler nicht lesbar. Kein Nachweis einer Eberswalder Filiale, aber auch kein Beweis ihres Nichtbestehens. Frontmatter unverändert; keine belegten lokalen Zahlenpreise auf den geprüften Quellen. Die älteren Rechercheeinträge bleiben als historische Befunde erhalten. Quelle(n): https://onlinestreet.de/poi/ZGVBZE9PbnViaC9lN05jSVZuVW0rUT09 ; https://eberswalde.stadtbranchenbuch.com/1738216.html (Verzeichnisleads im Review); https://seik.de/unternehmen ; https://seik.de/impressum ; https://seik.de/news (Transportfehler im Review).]

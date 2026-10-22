@@ -24,9 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Ein aktueller Gelbe-Seiten-Treffer nennt „Eddy Schrottservice“ an Haugen Kamp 1A, 48653 Coesfeld. Das ist ein einzelner Branchenverzeichnis-Lead, kein Betreiber- oder Registerbeleg; Telefonnummer, Inhaber und Leistungen sind nicht hinreichend abgesichert. Davon zu trennen ist der frühere Redirect von `schrott-eddy.de` auf ASH in Lüdinghausen: ASHs Betreiberwebsite bestätigt einen eigenen Lüdinghausener Betrieb, aber keine Coesfelder Filiale und keine Identität mit „Eddys“.
+Gelbe Seiten führt „Eddy Schrottservice“ an Haugen Kamp 1A, 48653 Coesfeld, mit Mobilnummer 0178 5435699 und Öffnungszeiten. Das bleibt ein Branchenverzeichnis-Lead, kein Betreiber-/Registerbeleg. Die Nummer stimmt mit der auf ASHs Betreiberseite veröffentlichten Mobilnummer überein; ASH verortet seinen Firmensitz aber in Lüdinghausen. Zusammen mit dem dokumentierten Redirect von `schrott-eddy.de` auf ASH ist dies ein konkreter Verbindungshinweis, aber kein Beleg für eine Coesfelder ASH-Filiale oder die Identität des Gelbe-Seiten-Eintrags. Nicht zusammenführen und keine Kontaktdaten übertragen.
 
-**Preise:** Ankauf: keine zuordenbare Preisliste oder bestätigte Ankaufskondition. Verkauf: keine Preisliste. Gebühren: keine Angaben. **Offen:** Ist „Eddy Schrottservice“ ein aktiver eigener Betrieb, und wie verhält er sich zum früheren Domain-Redirect? Adresse Haugen Kamp 1A nicht geocodieren, bis Betreiberbezug bestätigt ist.
+**Preise:** Ankauf: weder Eddy- noch Coesfeld-spezifische Bedingungen/Kurse bestätigt; die Gelbe-Seiten-Kategorie „Schrottankauf“ ist kein Preisbeleg. Verkauf: keine Preisliste. Gebühren: keine Tarife. **Offen:** Ist „Eddy Schrottservice“ ein eigener Betrieb, eine ASH-Marke oder ein fremder Verzeichniseintrag? Haugen Kamp 1A nicht geocodieren, bis Betreiberbezug und öffentliche Annahme bestätigt sind.
 
 ## Timeline
 
@@ -46,3 +46,7 @@ Ein aktueller Gelbe-Seiten-Treffer nennt „Eddy Schrottservice“ an Haugen Kam
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein Betreiber-Nachweis — keine 2 unabhängigen Belege; schrott-eddy.de löst per Redirect auf ASH Lüdinghausen (fremder Betreiber, keine Zuordnung); Frontmatter leer belassen (Klärfall); Quelle(n): DNS/curl-Check schrott-eddy.de → ash-schrotthandel.de]
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Gelbe-Seiten-Detailseite direkt geprüft: sie nennt Haugen Kamp 1A, 48653 Coesfeld, 0178 5435699 und führt Schrottankauf/Schrotthandel als Leistungen, ohne Betreiberwebsite oder individuellen Identitätsbeleg. Die offizielle ASH-Kontaktseite nennt dieselbe Mobilnummer, aber den Sitz Hans-Böckler-Straße 16, 59348 Lüdinghausen. Das stützt einen möglichen Zusammenhang, belegt jedoch keine Coesfelder Filiale; die Verknüpfung bleibt offen. Keine Frontmatter-Änderung. ANKAUF: keine Eddy-spezifischen Zahlen; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://www.gelbeseiten.de/gsbiz/abde4a30-aa83-4d72-983e-74c6a26df914 ; https://www.ash-schrotthandel.de/kontakt/ ; http://www.schrott-eddy.de/]

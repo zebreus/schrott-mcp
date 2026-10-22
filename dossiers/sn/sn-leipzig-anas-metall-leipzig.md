@@ -28,6 +28,10 @@ Nur ein Aggregator-Lead ist direkt überprüfbar: Anas.metall-leipzig, Ludwig-Hu
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Erneute Suche nach „Anas.metall-leipzig“ liefert weiterhin nur den einzelnen lokalen Schrottportal-Eintrag für Ludwig-Hupfeld-Straße 23 / Telefon 0176 84079209; kein Betreiber-Impressum, offizieller Social-Kanal oder Gewerbe-/Registerbeleg wurde gefunden. Die Stadt Leipzig führt einen kommunalen Wertstoffhof an der Ludwig-Hupfeld-Straße, jedoch als separaten Standort und ohne Zuordnung zu „Anas“. Portalzeiten, Mindestmengen und automatische Öffnungsanzeigen bleiben unbestätigte Drittangaben. ANKAUF: keine Betreiberzusage/Preise; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Identität, Anschrift und aktuelle Annahme weiterhin offen. Quelle(n): https://lokaleschrottplatz.de/anas-metall-leipzig/ (Einzelportal/Lead); https://www.leipzig.de/service-portal/themen-und-lebenslagen/abfall-und-sauberkeit/wertstoffhoefe/detail/projekt/ludwig-hupfeld-strasse (kommunaler, separater Wertstoffhof).]
+
 ### Korrektur 09.10.2026
 
 - [Korrektur 09.10.2026: lokaleschrottplatz-Detail direkt erneut gelesen: Adresse Ludwig-Hupfeld-Straße 23, 04178 Leipzig, +49 176 84079209, Mo-Fr 09-17/Sa 09-12 und Eisen ab 100 kg/NE ab 1 kg stehen nur im Aggregator. Keine Betreiber-Website verlinkt. Automatische Anzeige „Geschlossen, öffnet morgen um 13:00“ widerspricht der ausgeschriebenen Zeittabelle und ist kein Schließungsnachweis. Historischer Aktivstatus auf pruefung korrigiert; kein Kontakt-/Konditions-Fill. Kategorienliste ohne numerische Ankauf-, Verkaufs- oder Gebührenpreise. Nächster Schritt Betreiber-/Gewerbeauskunft zur exakten Anschrift; Quelle (Lead): https://lokaleschrottplatz.de/anas-metall-leipzig/ .]

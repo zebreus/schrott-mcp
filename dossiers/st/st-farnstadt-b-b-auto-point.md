@@ -32,6 +32,10 @@ Für den Seed „B&B Auto Point“ lässt sich eine Kfz-Werkstatt-GbR von Carste
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: Neue Suche nach Bredy/Autopoint konkretisiert weitere Namensvarianten: Portale führen neben Carsten/Cornelia auch Andreas Bredy/Abschleppdienst. Keinen Inhaberwechsel daraus abgeleitet. Cylex verlinkt allgemein reifen.com, nicht ein geprüftes Impressum von B&B; dortige Öffnungszeiten nicht als Annahmezeiten übernehmen. bundb-autopoint.de direkt erneut Transportfehler, kein Betreibertext gelesen und keine Schließung aus Nichterreichbarkeit. ANKAUF Fahrzeug-/Schrottvergütung weiter unbestätigt; VERKAUF Werkstatt-/Reifen-/Autohandel nur Portalhinweise ohne Preisblatt; GEBÜHREN kein Abschlepp-/Verwertungstarif. Priorität: Gewerbe-/GESA-Identität und Rechtsform klären, erst dann Eislebener Str. 1b als Annahmestelle/GEO freigeben. Quellen: https://bundb-autopoint.de/ (fehlgeschlagen); https://web2.cylex.de/firma-home/b_b-autopoint-6022031.html ; https://gowork.de/andreas-bredy-abschleppdi-farnstaedt (beide nur Suchindex-Leads, keine Betreiberbelege).]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: kein Beleg — Gelbe Seiten (auto-point/farnstaedt; schrott/farnstaedt) ohne Treffer (nur TSR Querfurt, SRQ Querfurt, CAR POINT Naumburg aus der Region); plausible Domain bb-auto-point.de nicht registriert (NXDOMAIN); Frontmatter bleibt leer, weiter pruefung; Quelle(n): keine verwertbare]

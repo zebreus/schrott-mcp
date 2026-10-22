@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der konkrete Name „Goldankauf 111“ bleibt ein nicht verifizierter Verzeichnislead; die ehemalige Verknüpfung mit gold-silberankauf-hamburg.de ist falsch und gehört zu Goldtrans. Am selben Seed-Standort Borsteler Chaussee 179 führt die Betreiberin Diana Dexheimer aktuell eine Zweigstelle des Hanseatischen Goldankaufs (Termin erforderlich), aber kein Beleg verbindet sie mit „Goldankauf 111“ als aktuellem oder früherem Namen. Die Standortgleichheit ist kein Betreiberwechsel- oder Schließungsnachweis.
+
+**Ankauf:** Gold-/Silberankauf zu tagesaktuellem Kurs wird von der Hanseatischen Zweigstelle beworben; das ist nicht auf „Goldankauf 111“ übertragbar und ohne numerische Preise. **Verkauf:** keine belastbare Warenpreisliste des Zielbetriebs. **Gebühren:** keine Tarife des Zielbetriebs. Adresse nur als offener Standortlead; keine GEO- oder Statusänderung ohne Identitätsbeleg.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiber-Kontaktseite des Hanseatischen Goldankaufs direkt gelesen: Inhaberin Diana Dexheimer, Zweigstelle Borsteler Chaussee 179, 22453 Hamburg, Tel. 040 466 500 67, Di–Fr nur nach Terminvereinbarung. Hamburg.de führt dieselbe Adresse/Telefonnummer als „Goldankauf Groß Borstel“ und verlinkt ebenfalls den Hanseatischen Goldankauf. Damit ist ein aktueller Edelmetallankauf am Seed-Standort für diesen anderen benannten Betreiber belegt, nicht aber Identität, Nachfolge oder Schließung von „Goldankauf 111“. Frühere Verzeichnisleads zu Goldankauf 111 und dessen falscher Goldtrans-Website bleiben getrennt. **Ankauf:** Hanseatischer Goldankauf bewirbt tagesaktuelle Kurse; keine Zahlenpreise, keine Übertragung. **Verkauf/Gebühren:** für Goldankauf 111 keine Liste/Tarife. Keine Frontmatter-Fills oder Geo-Änderung. Quellen: https://hanseatischer-goldankauf.de/kontakt.html ; https://www.hamburg.de/branchenbuch/hamburg/goldank__c3__a4ufer/ ; https://www.gold-silberankauf-hamburg.de/impressum/ .]
 
 ### Recherche 03.10.2026 (Owner-Hinweis Google Maps)
 

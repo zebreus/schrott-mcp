@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Hanauer Lead „Autoverwertung Guth GmbH“ stammt bislang nur aus Verzeichnisquellen (Niddastraße 32, 63452 Hanau), mit widersprüchlichen Kontaktdaten. Die aktuelle Guth-Betreiberwebsite gehört dagegen der GUTH Autoverwertungs- u. Abschlepp GmbH in Castrop-Rauxel (Hagenstraße 132, HRB 16808) und belegt keine Niederlassung oder Beziehung zu Hanau. Nicht zusammenführen. ANKAUF: für den Hanauer Lead nicht bestätigt; VERKAUF: keine zuordenbare Preisliste; GEBÜHREN: keine Angaben. Betreiberidentität und Standort offen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Der aktuelle Webtreffer zur Website `autoverwertung-guth.de` wurde direkt anhand des Impressums geprüft: Betreiber ist GUTH Autoverwertungs- u. Abschlepp GmbH, Hagenstr. 132, 44577 Castrop-Rauxel, Geschäftsführer Dirk Guth, HRB 16808 AG Dortmund. Das ist nicht der Hanauer Verzeichnislead „Autoverwertung Guth GmbH“, Niddastraße 32, 63452 Hanau; keine gemeinsame Identität oder Filiale belegt. Der Hanauer Lead bleibt ungefüllt. ANKAUF/VERKAUF/GEBÜHREN: für Hanau keine verifizierten Leistungen oder Preise; Castrop-Rauxeler Fahrzeug-/Teileangebote werden nicht übertragen. Quelle(n): https://www.autoverwertung-guth.de/impressum/ (Betreiber-Impressum, andere Stadt); https://main-kinzig-kreis.city-map.de/de/autoverwertung-guth-gmbh (Hanauer Verzeichnis-Lead); https://www.11880.com/branchenbuch/hanau/060440459B26054051/autoverwertung-guth-gmbh.html (Hanauer Verzeichnis-Lead).]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

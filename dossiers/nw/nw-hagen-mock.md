@@ -24,9 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Branchenverzeichnisse führen **Stefan Mock / Schrotthandel- und Containerdienst Inh. Stefan Mock**, Neue Straße 2, 58135 Hagen-Haspe, Telefon 02331 3779915. Es fehlt weiterhin eine Betreiber-/Registerquelle. Die ähnlich klingende generische Domain `schrotthagen.de` nennt im sichtbaren Inhalt weder Stefan Mock noch diese Anschrift/Impressum und wird nicht zugeordnet.
+Mehrere Branchenverzeichnisse führen **Stefan Mock / Schrotthandel- und Containerdienst Inh. Stefan Mock**, Neue Straße 2, 58135 Hagen-Haspe, Telefon 02331 3779915. Die direkt geöffnete Domain `schrotthagen.de` bewirbt zwar Schrottabholung und Schrottankauf in Hagen und Umgebung, nennt aber weder Stefan Mock noch die Neue Straße oder einen dazu passenden Rechtsträger; ihr Copyright weist 2023 aus. Die Domain bleibt deshalb unverknüpft und beweist weder Mock-Identität noch aktuelle Tätigkeit.
 
-**Preise:** Keine verifizierten Ankaufspreise, Verkaufspreise oder Container-/Entsorgungsgebühren. Neue Straße 2 ist ein Lead und kein GEO-Ziel, bis Betreiberbezug und Kundennutzung bestätigt sind.
+**Preise:** Ankauf: `schrotthagen.de` wirbt allgemein mit „fairen“/„Höchstpreisen“, nennt aber keine Zahlen und ist Mock nicht zugeordnet. Verkauf: keine Mock-Liste. Gebühren: keine Mock-Tarife; „kostenlose Schrottabholung“ auf der fremden/unzugeordneten Domain nicht übertragen. Neue Straße 2 bleibt Lead und kein GEO-Ziel, bis Betreiberbezug und Kundennutzung bestätigt sind.
 
 ## Timeline
 
@@ -38,3 +38,7 @@ Mehrere Branchenverzeichnisse führen **Stefan Mock / Schrotthandel- und Contain
 
 - Schrott, Ankauf fraglich (GS)
 - Adresse: Hagen
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: `schrotthagen.de` direkt geöffnet. Die Seite bewirbt Schrottankauf/-abholung für Hagen und Umland, nennt aber weder Stefan Mock, Neue Straße 2 noch einen zuordenbaren Rechtsträger; Copyright 2023. Das ist kein Beleg für eine Verbindung oder aktuelle Leistung von Mock. Verzeichnisangaben bleiben Leads; keine strukturierten Felder oder GEO übernommen. ANKAUF: keine Mock-spezifischen Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Mock-spezifischen Tarife. Quelle: https://schrotthagen.de/]

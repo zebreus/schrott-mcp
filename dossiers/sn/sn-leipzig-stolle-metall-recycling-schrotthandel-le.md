@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite beschreibt Thomas Stolle Metall-Recycling in Leipzig-Plaußig: Ankauf von Buntmetallen und Eisen/Schrott zu aktuellen Tagespreisen, Kabelrecycling, Container bis 27 m³ und 50-t-Waage; Gewerbeabholung wird angeboten. Impressum nennt Am Schenkberg 6, 04349 Leipzig-Plaußig, Telefon 034298 63107. Identitäts-/Adressbeleg bleibt laut README ein einzelner Betreiberbeleg; Kontaktfelder deshalb nicht neu ins Frontmatter übernommen.
+Die Betreiberwebsite ist erreichbar und beschreibt Thomas Stolle Metall-Recycling in Leipzig-Plaußig: Buntmetall- und Schrottankauf zu aktuellen Tagespreisen, Kabelrecycling, gewerbliche Abholung sowie Mietcontainer von 7 bis 27 m³; eine 50-t-Waage wird genannt. Impressum/Kontakt nennen Am Schenkberg 6, 04349 Leipzig-Plaußig, 034298 63107 und info@schrotthandel-leipzig.de. Da kein unabhängiger zweiter zulässiger Adress-/Betreiberbeleg ermittelt wurde, bleiben die leeren Stammdatenfelder unverändert; das Impressum ist hier Timeline-only.
 
-**Preise:** **Ankauf** — aktuelle Tagespreise, aber keine numerischen Ratenliste gefunden. **Verkauf** — keine öffentliche Verkaufspreisliste. **Gebühren** — Container werden vermietet; Miet-, Transport- und Entsorgungsbeträge nicht veröffentlicht. **Geokodierung:** Am Schenkberg 6, 04349 Leipzig-Plaußig ist der Betreiber-Adresskandidat; Koordinate nur nach Gegenprüfung der Betriebszufahrt, noch nicht gesetzt.
+**Preise:** **Ankauf**: Tagespreise angekündigt, keine numerischen Kurse. **Verkauf**: keine öffentliche Verkaufspreisliste. **Gebühren**: Container sind Mietcontainer; Miet-, Transport- und Entsorgungspreise nicht veröffentlicht. **Geokodierung:** Am Schenkberg 6 ist ein Betreiber-Adresskandidat, aber keine unabhängig bestätigte Zufahrt; keine Koordinate gesetzt.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberhomepage und Impressum direkt erneut gelesen. Aktuell sichtbare Stunden: Mo–Do 08:00–17:00, Fr 08:00–16:00, Samstag nach telefonischer Anfrage. Das Leistungsangebot bestätigt Buntmetall-/Schrottankauf zu Tagespreisen, Kabelrecycling, Abholung gewerblicher Mengen auf Anfrage, Mietcontainer 7–27 m³ und 50-t-Waage. Keine numerische Ankaufsliste, Verkaufspreisliste oder bezifferten Container-/Abholtarife gefunden. Betreiberwebsite bleibt die einzige qualifizierende Quelle für Identität/Anschrift; keine Kontaktfelder ergänzt und kein neuer GEO-Punkt. Quellen: https://schrotthandel-leipzig.de/ ; https://schrotthandel-leipzig.de/impressum .]
 
 ### Recherche 07.10.2026
 

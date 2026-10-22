@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Rechtsträger S.O.S. Schrott und Metallhandel GmbH (HRB 110063 Hamburg, zuvor HRB 10416 KI) wurde laut Registerdaten 2016 gelöscht; eine Löschung von Amts wegen ist in der bisherigen Recherche dokumentiert. `status: pruefung` bleibt dennoch für den Datensatz sinnvoll, weil die frühere Adresse Neuhöfer Damm 110 und ein möglicher heutiger Nachfolger nicht lückenlos belegt sind. Die verknüpfte Website gehört einer anderen Spedition und ist nicht zu übertragen.
+
+**Ankauf:** Altmetall-/Schrotthandel ist historischer Unternehmensgegenstand, kein heutiger Ankaufnachweis. **Verkauf:** keine aktuelle Verkaufsliste. **Gebühren:** keine aktuellen Annahme- oder Entsorgungspreise. Adresse, Ansprechpartner, Kundenzugang und mögliche Nachfolge offen; keine belegten Ankauf-, Verkaufs- oder Gebührenbeträge.
 
 ## Timeline
 

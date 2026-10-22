@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Schrott Anton“ in Schwarzenfeld liegen nur der Seed-Name und die Anschrift Buchtalweg 15 vor. Es wurde kein aktueller Betreiberauftritt, Registerbeleg oder unabhängiger Nachweis gefunden, der diese Kombination einem aktiven Schrottbetrieb zuordnet; gleichnamige Treffer anderer Orte reichen nicht für eine Zusammenführung. Die Seed-Anschrift bleibt ungeprüft.
+Für „Schrott Anton“ in Schwarzenfeld führen Gelbe Seiten und Das Örtliche nun übereinstimmend Buchtalweg 15, 92521 Schwarzenfeld und Telefon 09435 18 24. Das sind zwei Verzeichnis-Leads, keine Betreiber-, Register- oder Annahmebestätigung; gemeinsame Datenherkunft ist nicht ausgeschlossen. Gleichnamige Treffer anderer Orte reichen nicht für eine Zusammenführung. Anschrift und Telefon bleiben daher außerhalb des Frontmatters.
 
 **Preise:** **Ankauf** — nicht bestätigt, keine Kurse. **Verkauf** — keine Preisliste. **Gebühren** — keine Abhol-, Annahme- oder Entsorgungstarife. Keine Geokodierung bis Identität und Standort bestätigt sind.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Gelbe-Seiten- und Das-Örtliche-Details direkt gelesen; beide führen Schrott Anton, Buchtalweg 15, 92521 Schwarzenfeld, Tel. 09435 18 24. Das verbessert die Nachvollziehbarkeit der vorhandenen Straßenangabe und liefert PLZ/Telefon als Leads, belegt aber weder Person/Rechtsträger noch aktive Annahme; die Daten können aus gemeinsamer Verzeichnisrecherche stammen. Deshalb keine Felder übernommen. Kein Betreiberbeleg und keine Preislisten: Ankauf ohne Kurs, Verkauf ohne Preisliste, Gebühren ohne Tarif. Offen: Inhaber, aktueller Betrieb und ob Buchtalweg 15 Kundenannahme ist. Erst nach Bestätigung geokodieren; keine Koordinaten geraten. Quelle(n): https://www.gelbeseiten.de/gsbiz/87dbba3f-e593-4e48-bd06-981080278855 ; https://www.dasoertliche.de/Themen/Schrott-Anton-Schwarzenfeld-Buchtalweg]
 
 ### Recherche 08.10.2026
 

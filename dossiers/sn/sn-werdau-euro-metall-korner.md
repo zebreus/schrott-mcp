@@ -28,6 +28,10 @@ Euro-Metall Körner, Sorge 48, 08412 Werdau, 0163 8771513 ist weiterhin nur port
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Erneute eigenständige Websuche findet weiterhin nur Verzeichnis-/Kartenprofile (u. a. 11880, Gelbe Seiten, Cylex und meinestadt.de), keine zurechenbare Betreiberwebsite, Registerquelle oder aktuelle kommunale Gewerbebestätigung. Die Seiten wiederholen überwiegend Sorge 48, 08412 Werdau und 0163 8771513, einzelne Öffnungszeiten divergieren weiterhin. Diese Wiederholungen sind kein neuer Betriebsnachweis. Keine qualifizierte Ankauf-, Verkaufs- oder Gebührenpreisliste; Adresse/Telefon bleiben ungeprüfte Legacy-Leads und GEO bleibt gesperrt. Quellen (alle Leads): https://www.11880.com/branchenbuch/werdau-sachsen/060441364B112830064/euro-metall-koerner.html ; https://www.gelbeseiten.de/gsbiz/6e2fe48f-f087-4162-b25e-f38a892a28ff ; https://web2.cylex.de/firma-home/euro-metall-koerner-13120131.html ; https://branchenbuch.meinestadt.de/werdau/company/6761107 .]
+
 ### Recherche 18.10.2026 (18:00-Welle, Shard 1)
 
 - [Recherche 18.10.2026: Eigene Namenssuche führt wiederum nur zu GS/11880/GoLocal/Cylex, nicht zu einem zurechenbaren Betreiber. 11880-Einzelseite neu direkt gelesen: kein Website-/Mailziel, Sorge 48, 0163 8771513, Mo–Do 08–14:30/Fr bis 13:30, Eintragsdaten 26.09.2023, sichtbare Aktualisierung 15.10.2026. Derselbe GoLocal-Text 20.05.2017 und bloß aggregierte Google-Bewertungszahl sind keine heutigen unabhängigen Betriebsbelege. Primär-/Registerroute Euro Metall Körner Werdau heute HTTP 429, also kein neuer Register-Nichttreffer; keine Zugriffsumgehung. Die bisherige Prüfeinstufung ist weiter sachgerecht, Altadresse und Telefon nicht als neu bestätigt. Keine qualifizierte Ankauf-/Verkaufs-/Gebührenliste, daher keinen Handlerkandidaten oder GEO-Fill aus den Portalzeiten bilden. Offen bleibt ein aktueller Gewerbe-/Betreiberbeleg für Mario Körner am tatsächlichen Kundenhof. Quellen: https://www.11880.com/branchenbuch/werdau-sachsen/060441364B112830064/euro-metall-koerner.html (Lead) ; https://www.northdata.de/suggest.json?query=Euro%20Metall%20K%C3%B6rner%20Werdau&countries=DE (429).]

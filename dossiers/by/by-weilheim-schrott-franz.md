@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-**Branchen-/Namensklärfall:** „Schrott Franz“ an der bestehenden Seed-Adresse Lienhartstr. 13 wird vom direkt geprüften Gelbe-Seiten-Profil unter **Baubedarf** geführt, mit Fenstern, Türen, Wintergärten und Fertigparkett, nicht als Schrottankäufer. Das Telefonbuch nennt Bauelemente. Dies verschärft den Verdacht, dass „Schrott“ ein Nachname und die Schrottbranche im Import fehlzugeordnet ist; als Aggregatoren beweisen die Seiten aber weder die richtige Betreiberidentität noch einen Ausschluss sämtlicher Recyclingaktivität. Der ältere Tischlerei-/KG-Hinweis ist ebenfalls keine bewiesene Rechtsträgerzuordnung. Kein Kontaktfill, keine Umbenennung/Schließung.
+**Branchen-/Namensklärfall:** „Schrott Franz“ an der Seed-Adresse Lienhartstr. 13 wird von Gelbe Seiten als **Baubedarf** mit Fenstern, Türen, Wintergärten und Fertigparkett geführt. 11880 führt unter gleichem Namen/Telefon „Franz Schrott KG Schreinermeister Bauelemente“ und nennt neben Bauelementen auch Altmaterialhandel/Schrotthandel. Die Aggregator-Kategorien widersprechen sich teilweise und belegen weder die konkrete Betreiberidentität noch aktuelle Schrottannahme. Ein Verkauf von Bauelementen wäre keine Schrottverkaufspreisliste. Kein Kontaktfill, keine Umbenennung/Schließung.
 
 **Ankauf:** kein Metallankauf oder Kurs bestätigt. **Verkauf:** beworbene Bauelemente sind keine Schrottverkaufspreise; keine Liste. **Gebühren:** keine belegten Schrott-/Entsorgungstarife. **GEO-Bedarf:** zunächst Branche und Betreiber klären; bestehende Seed-Straße nicht automatisch als Annahmehof geokodieren.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Gelbe Seiten direkt gelesen: „Schrott Franz“, Lienhartstr. 13, 82362 Weilheim, Tel. 0881 9253766, Branche Baubedarf; gelistet sind Fenster, Fertigparkett, Türen, Wintergärten und Reparaturen. 11880 führt „Franz Schrott KG Schreinermeister Bauelemente“ unter derselben Telefonnummer und ordnet sie u. a. Bauelementen, Altmaterialhandel und Schrotthandel zu; diese widersprüchlichen Kategorien sind Verzeichnisangaben, kein Betreiber-/Registerbeleg. Kein verifizierter Metallankaufskurs, keine Verkaufspreisliste für Schrott oder Bauelemente und keine Gebührenliste gefunden. Offen: ob dieselbe Person/Rechtsträgerin auch Schrott handelt und ob Lienhartstr. 13 Kundenannahme ist. Seed-Adresse nicht als Annahmehof geokodiert. Quelle(n): https://www.gelbeseiten.de/gsbiz/0431153c-acdc-48f7-9e3a-308f90c7fc7d ; https://www.11880.com/branchenbuch/weilheim-in-oberbayern/130730536B41979105/franz-schrott-kg-schreinermeister-bauelemente.html]
 
 ### Recherche 17.10.2026 (Welle 21:00 A)
 

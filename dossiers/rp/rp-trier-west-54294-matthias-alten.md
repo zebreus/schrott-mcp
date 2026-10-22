@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Zuordnung bleibt widersprüchlich: Andreas-Hoevel-Str. 6, 54294 Trier-West, und Telefon 0651 84609 wurden in früheren Verzeichnissen „Dres Georg“ zugeordnet; ein weiteres aktuelles Branchenportal führt dort Matthias Alten mit abweichender Nummer. Weder Betreiberidentität noch Annahmestelle ist primär belegt. Nicht mit dem getrennten Trier-Dossier zu Matthias Alten oder mit Dres Georg zusammenführen.
+
+**Preise/Annahme:** ANKAUF — ein Aggregator nennt generische Metallannahme und Mindestmengen (100 kg Eisen / 1 kg NE), nicht als verifizierte Betreiberbedingungen; keine Euro-Kurse. VERKAUF — keine Liste. GEBÜHREN — keine Tarifangaben.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Das direkt gelesene Portalprofil https://lokaleschrottplatz.de/matthias-alten/ führt Matthias Alten, Andreas-Hoevel-Straße 6, 54294 Trier und Telefon +49 651 84874; das Portal zeigt „Geschlossen“ sowie generische Materialkategorien und Mindestmengen. Diese Angaben sind kein Betreiberbeleg; „Geschlossen“ ist ein nicht verifizierter Portalstatus, keine Schließungsbestätigung. Sie widersprechen der früheren Zuordnung derselben Adresse/Telefonnummer 0651 84609 an Dres Georg in diesem Dossier. Die Schwesterdatei ../rp-trier-matthias-alten.md dokumentiert denselben neuen Lead und den Dubletten-/Namenskonflikt. Keine neuen Kontakt-/Adress-Fills und kein Merge; tatsächliche Annahme und Betriebsstatus offen. ANKAUF: keine bestätigten Kurse oder Bedingungen; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quelle: https://lokaleschrottplatz.de/matthias-alten/ .]
 
 ### Recherche 02.10.2026
 

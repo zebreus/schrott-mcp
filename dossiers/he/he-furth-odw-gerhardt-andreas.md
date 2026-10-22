@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Andreas Gerhardt an Im Erlengrund4, 64658 Fürth-Ellenbach, wird im direkt gelesenen 11880-Profil ausschließlich als Containerdienst geführt; Cylex nennt Schrotthändler. Adresse/Telefon/Mail im Frontmatter stammen aus historischem Verzeichnisbestand, nicht aus qualifizierten Betreiberbelegen. Öffentliche Schrottannahme oder vergüteter Metallankauf nicht bestätigt.
+
+Nicht mit Adamec Recycling im bayerischen Fürth verwechseln. Ankauf/Verkauf/Gebühren ohne zuordenbare Betreiberliste. Nächster Schritt kommunaler Gewerbe-/Tätigkeitsabgleich in Fürth/Odenwald samt Standortart; kein GEO aus bloßer Containerdienst-Kontaktadresse.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: 11880-Einzelseite direkt gelesen: ImErlengrund4/Ellenbach/64658, 06253930894, an-gerhardt@t-online.de, nur Containerdienst, keine Website/Zeiten. Portal-Eintragsdaten21.12.2025/aktualisiert02.10.2026 sind kein Betriebsnachweis. Frische Suche liefert weiter Containerdienst-/Cylex-Leads, dazu AdamecRecycling in90763Fürth; letzterer geografisch anderer Betrieb, keinerlei Übernahme dessen Zertifizierung/Preise. Der Ausdruck „verifiziert“ aus02.10. bezeichnete nur Portalkonsens, keine README-Freigabe. Kontaktfelder unverändert mit Restunsicherheit, status pruefung. Ankauf/Verkauf/Gebühren nicht primär belegt; Tätigkeits-/Annahmehofprüfung vor GEO. Quelle: https://www.11880.com/branchenbuch/fuerth-odenwald/060371058B27898502/andreas-gerhardt-containerdienst.html .]
 
 ### Recherche 02.10.2026
 

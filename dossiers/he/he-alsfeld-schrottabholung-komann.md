@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnisprofile führen „Schrottabholung Koßmann, Inh. Frank Koßmann“ in Alsfeld-Eifa. Die direkt gelesene Seite von Das Örtliche nennt Rainröder Str. 12, 36304 Alsfeld und **06631 91 89 10**; Regio Vogelsberg nennt dieselbe Adresse, aber **01512 6073928** und verlinkt ein Profil auf der Profilplattform weblocator.de. Diese Plattform beschreibt sich selbst als Anbieter von Unternehmensprofilen, nicht als Koßmanns eigene Website. Eine Betreiberquelle löst den Telefonnummernkonflikt nicht auf. Adresse, Telefon und E-Mail sind deshalb aus dem Frontmatter entfernt; `aktiv` ist nicht durch eine Primärquelle bestätigt und wurde auf `pruefung` zurückgesetzt.
+Verzeichnisprofile führen „Schrottabholung Koßmann, Inh. Frank Koßmann“ in Alsfeld-Eifa. Eine öffentliche Facebook-Seite „Frank Koßmann Alsfeld“ bewirbt Abholung von Schrott und Metallen; Verantwortlichkeit und Aktualität sind nicht unabhängig belegt. Das Örtliche nennt Rainröder Str. 12, 36304 Alsfeld und **06631 91 89 10**; Regio Vogelsberg nennt dieselbe Adresse, aber **01512 6073928** und verlinkt das Profil bei weblocator.de. Keine Betreiberquelle löst den Telefonnummernkonflikt auf. Adresse, Telefon und E-Mail bleiben aus dem Frontmatter entfernt; `pruefung` statt unbelegtem Aktivstatus.
 
 **Preise:** Ein Drittportal listet Schrottarten und Mindestmengen (Eisenmetalle ab 100 kg, NE-Metalle ab 1 kg), aber keine Euro-Preise; das sind zudem keine Betreiberbedingungen. Ankauf/Annahme bleibt daher unbestätigt. Verkaufspreise und Gebühren sind nicht veröffentlicht.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Eine öffentliche Facebook-Seite unter „Frank Koßmann Alsfeld“ zeigt den Hinweis „und das holen wir alles ab … SCHROTT und METALLE aller ART“; das ist ein möglicher Betreiberkanal, aber Seitenverantwortlichkeit, Aktualität, Kaufkonditionen und Hofannahme sind daraus nicht unabhängig bestätigt. Die Kontaktprofile nennen weiterhin dieselbe Adresse, aber zwei unterschiedliche Telefonnummern: Das Örtliche 06631 91 89 10, Regio Vogelsberg/Profilplattform 01512 6073928. Keine strukturierte Wiederbefüllung. ANKAUF: Abholwerbung, aber keine eindeutige Vergütungszusage und keine Zahlenpreise; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Quelle(n): https://www.facebook.com/people/Schrottabholung-Ko%C3%9Fmann-Alsfeld/100003621331249?locale=de_DE (soziales Profil, Betreiberbezug offen); https://www.dasoertliche.de/Themen/Schrottabholung-Ko%C3%9Fmann-Inh-Frank-Ko%C3%9Fmann-Alteisen-Alsfeld-Eifa-Rainr%C3%B6der-Str; https://www.regio-vogelsberg.com/schrottabholung-kossmann-inh-frank-kossmann (Verzeichnisprofile).]
 
 ### Korrektur/Recherche 07.10.2026
 

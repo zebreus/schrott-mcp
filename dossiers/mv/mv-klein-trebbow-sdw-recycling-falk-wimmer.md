@@ -29,6 +29,10 @@ SDW-Recycling/Falk Wimmer bleibt ungeklärter Klein-Trebbower Schrott-/Recycling
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: HTTP-Aufruf der Kandidatendomain liefert weiterhin nur HTML-Kopf/Titel „SDW-Recycling“, ohne Betreiber-, Kontakt- oder Leistungsinhalt; die zugehörige HTTPS-Adresse ist nicht als aktuelle Betreiberseite verifiziert. Eine aktuelle Suchindex-Vorschau führt ein Jan.-2026-Inserat unter SDW RECYCLING/Falk Wimmer für Abbruch/Demontage und weitere Vorschauen nennen Hartmetallankauf zu Preisen auf Anfrage; die Einzelanzeigen sind beim Direktabruf 403 und daher nur Leads, keine bestätigte Annahme oder Preisbedingung. Alte Gärtnerei 12/0173 4533486 bleiben unverifizierte Verzeichnisdaten. Ankauf: keine direkt geprüfte Preisliste; Verkauf und Gebühren unbelegt. Keine Fills oder Geokodierung. Quellen: http://sdw-recycling.de/ ; https://www.kleinanzeigen.de/s-anzeige/abbruch-abriss-demontage/3299345931-298-26463 (Direktabruf 403; Suchindexvorschau, Abruf 21.10.2026).]
+
 ### Recherche 15.10.2026
 
 - http://sdw-recycling.de/ erneut direkt als HTML gelesen: ausschließlich doctype, html/head, UTF-8-Metadatum und Titel „SDW-Recycling“, ohne Body, Frames, Impressum, Betreibername, Adresse oder Preisinhalt. Bestätigt den technischen Minimalbefund vom 05.10., nicht die historische Frames-Annahme und nicht die heutige Firmenidentität. Keine neue HTTPS-/TLS-Prüfung aus diesem HTTP-Abruf ableiten.

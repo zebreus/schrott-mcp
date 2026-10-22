@@ -4,7 +4,7 @@ name: Blum Marco Schrottentsorgung
 trader_type: schrotthaendler
 state: HE
 city: Wettenberg-Krofdorf
-street: Höhenstr. 27A
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der bisherige Lead „Marco Blum, Höhenstraße 27A, Wettenberg“ passt stark zu Person/Adresse im Impressum von **Julias Container**. Creditreform führt Marco Blum Entsorgungsteam im Suchindex mit derselben Adresse/PLZ, 0641 49815208 und julias-container.de; Direktabruf am 17.10. HTTP 403, kein vollständiger unabhängiger Identitäts-/Feldabgleich. Nach Endabnahme bleibt deshalb das gesamte neue Identitäts-/Typ-/Adress-/Kontaktpaket zurückgestellt: Frontmatter und H1 entsprechen dem bisherigen ungeklärten Seed, `pruefung` bleibt. Dies bestätigt die alten Legacy-Werte nicht neu. Julias Container ist eine konkrete Betreiber-/Gewerbespur, noch kein abschließend freigegebener Match. Betreiberangaben zu Entsorgung/Schüttgut sind keine Metallankaufs- oder Annahmehofbestätigung. Social-Datierungen 08.05./12.09.2026 sind nur im Suchindex nachvollzogen, nicht als zwei unabhängige Vollabrufe. Keine Verbindung zu Manuel Blum/Biebertal.
+Der bisherige Lead „Marco Blum, Höhenstraße 27A, Wettenberg“ passt zu Person/Adresse im Impressum von **Julias Container**, ist aber nicht abschließend mit dem Seedbetrieb „Schrottentsorgung“ abgeglichen. Creditreform führt „Marco Blum Entsorgungsteam“ mit derselben Adresse/PLZ, doch der Direktabruf bleibt gesperrt; der vollständige unabhängige Identitäts-/Feldabgleich fehlt. Die frühere Anschrift wurde deshalb aus dem strukturierten Datensatz genommen und bleibt als historischer Lead dokumentiert. Julias Container ist eine konkrete Betreiber-/Gewerbespur, kein bestätigter Metallankäufer oder Annahmehof. Social-Datierungen 08.05./12.09.2026 sind nur im Suchindex nachvollzogen. Keine Verbindung zu Manuel Blum/Biebertal.
 
 **Preise des noch nicht abschließend zugeordneten Betreibers Julias Container:** Betreiberangaben (am 17.10. im Review reproduziert): Containerstellung, Entsorgung und bis zu 8 Wochen Standzeit: 1 m³ 349 €, 3 m³ 549 €, 3,5 m³ 599 €, 4 m³ 649 €, 5,5 m³ 799 €, 7 m³ 949 €, 10 m³ 1.249 € inkl. MwSt. Das sind **Gebühren**, keine Ankaufpreise und keine freigegebenen Preise des Seedbetriebs. FAQ: Bauschutt getrennt entsorgen; keine Zusage „jede Abfallart zu jedem Preis“. Schüttgutverkauf nur auf Anfrage. Anschrift ist Geschäftsadresse des Kandidaten, kein bestätigter Annahmehof; keine strukturierte Abhol-/Annahmeberechtigung oder GEO-Freigabe.
 
 ## Timeline
+
+### Recherche/Korrektur 22.10.2026
+
+- [Korrektur 22.10.2026: Betreiber-Impressum und Startseite von Julias Container weiterhin mit Marco Blum, Höhenstraße 27a, 35435 Wettenberg und Telefon 0641 49815208; die offizielle Seite belegt Container-/Entsorgungsleistungen, nicht aber Schrottankauf oder einen öffentlichen Annahmehof. Die Preistabelle wurde erneut über die offizielle Seite gefunden: Containerstellung, Entsorgung und bis zu 8 Wochen Standzeit kosten 1 m³ 349 €, 3 m³ 549 €, 3,5 m³ 599 €, 4 m³ 649 €, 5,5 m³ 799 €, 7 m³ 949 €, 10 m³ 1.249 € (Festpreise inkl. MwSt.); Schüttgutverkauf (Schotter, Sand, Erde, Rindenmulch) nur auf Anfrage. Das sind ausschließlich Gebühren/Verkauf des Kandidaten Julias Container, keine Preise des ungeklärten Schrott-Seedbetriebs. Creditreform-Direktabruf 403, daher kein neuer unabhängiger Identitätsbeleg. `street` aus dem strukturierten Seed entfernt, da die Zuordnung weiterhin offen ist; keine anderen Felder freigegeben. ANKAUF: kein Metall-/Schrottkurs; VERKAUF: Schüttgut auf Anfrage, keine Zahlenpreise; GEBÜHREN: siehe Containerstaffel. Quelle(n): https://www.julias-container.de/; https://www.julias-container.de/impressum; https://firmeneintrag.creditreform.de/35435/6110597532/MARCO_BLUM_ENTSORGUNGSTEAM (Direktabruf 403).]
 
 ### Endabnahme 17.10.2026 (Identitätspaket zurückgestellt)
 

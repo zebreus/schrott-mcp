@@ -30,6 +30,10 @@ Der Registerkandidat Altmetall Drebkau GmbH, HRB 9224 Cottbus, ist seit 29.05.20
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Eine Cylex-Detailseite zu einem anderen Drebkauer Metallbaubetrieb zeigt in den Umkreis-Treffern zusätzlich „Altmetall Drebkau GmbH“, Bahnhofstraße 23, 03116 Drebkau, Tel. 035602 688. Das ist ein Verzeichnis-Lead und kein aktueller Betreiber-/Registerbeleg; er passt zwar zur historischen Registeradresse, beweist aber weder eine Identität mit dem Seed-Namen „Schrott-Altmetall Drebkau GmbH“ noch eine Wiederaufnahme nach der dokumentierten Löschung. Keine Nachfolge oder Annahme unterstellt. ANKAUF/VERKAUF/GEBÜHREN: keine Zielpreisliste. GEO bleibt bis zur Betreiberklärung ausgesetzt. Quelle (Abruf 20.10.2026): https://web2.cylex.de/firma-home/olaf-klopsch-schmiede--und-metallbau-4150023.html (Umkreis-Treffer; Aggregator).]
+
 ### Recherche 18.10.2026 (18:00-Welle, Shard 1)
 
 - [Recherche 18.10.2026: NorthData-Profil Altmetall Drebkau GmbH/HRB 9224 Cottbus heute vollständig direkt gelesen: Erloschen-Markierung, Löschung 29.05.2018, Liquidation 25.09.2015, Liquidator Egon Wetzel 20.12.2017. Damit ältere Notiz präzisiert: 20.12.2017 ist sichtbarer Liquidatorwechsel, nicht erst der Beginn der Liquidation. Profil zeigt als Adresse nur Drebkau/Deutschland; Bahnhofstraße 23 dadurch nicht frisch bestätigt. Unternehmensgegenstand umfasst Schrott/Metalle, aber auch Antikmöbel/Textilien/Gastronomie; keine heutige Leistung daraus ableiten. Zweiter direkter Webvalid-Abruf Transportfehler, kein neuer Zweitbeleg; alte Registerspiegel nicht als jetzt gelesen ausgeben. Keine Identitätskette vom Seednamen Schrott-Altmetall zu diesem Rechtsträger abschließend belegt, keine Standortschließung oder Nachfolge behauptet. Ankauf-/Verkaufs-/Gebührenliste und heutige Annahme offen, GEO gesperrt bis Betreiberklärung. Quellen: https://www.northdata.de/Altmetall%20Drebkau%20GmbH,%20Drebkau/Amtsgericht%20Cottbus%20HRB%209224 ; https://www.webvalid.de/company/Altmetall+Drebkau+GmbH,+Drebkau/HRB+9224+CB (Abruf fehlgeschlagen).]

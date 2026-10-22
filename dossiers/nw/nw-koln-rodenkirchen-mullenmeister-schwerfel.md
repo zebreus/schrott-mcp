@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Müllenmeister & Schwerfel bleibt ein historisch nur durch Verzeichnisse gestützter Kontaktlead an Alteburger Str.138/50968 mit 0221 381677 und info@muellenmeister-schwerfel.de. Erneuter Domainabruf nicht auswertbar (Transportfehler), keine Betreiberidentität oder Schließung daraus bewiesen. Hans Müllenmeister GmbH/Wälzlager ist ein anderer Kandidat ohne belegte Verbindung.
+
+Keine belegten Ankauf-/Verkaufspreise oder Gebühren. Vorhandene Kontaktfelder nicht als heute neu verifiziert ansehen. Gewerbeidentität und aktuelle Annahmestelle vor GEO klären; Köln-Orts-/DB-Punkt ist kein Hofnachweis.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: HTTPS-Domain erneut nur Transportfehler; technische Nichterreichbarkeit kein sicheres tot-Urteil und kein Unternehmensschließungsbeleg. Gezielte Namens-/Registersuchen liefern keinen passend zugeordneten neuen Betreiber-/Registerbeleg; HansMüllenmeisterGmbH mit Wälzlager-/Antriebstechnikangebot nicht als Nachfolge des Schrotthandels ausgegeben. Aggregator-Altkontakte bleiben unverifiziert, keine neue Ausnahmefreigabe. Ankauf/Verkauf/Gebühren ohne Primärliste; Standort-/Inhaberprüfung vor GEO. Quelle/Abrufgrenze: https://muellenmeister-schwerfel.de/ ; Gegenfund nur Suchindex: https://muellenmeister.de/ .]
 
 ### Recherche 04.10.2026
 

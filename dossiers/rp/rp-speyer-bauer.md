@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bauer in Speyer hat einen ungelösten Adress-/Inhaberkonflikt: Seed Franz-Kirrmeier-Str. 20; 11880 Fliederweg 4, beide im Suchindex mit 06232 35197. Auskunft nennt Tobias Bauer, während Superbauer Entsorgungen/Michael Bauer mit anderer Nummer 06232 6911319 erscheint. Weder Gleichsetzung noch Nachfolge sind bewiesen. Bestehende Kontaktskalare sind historische Leads, Aktivstatus ist mangels qualifizierter Belege auf pruefung zurückgenommen.
+
+Ein mutmaßliches Betreiber-Facebookprofil „Schrotthandel Bauer – Entsorgung von A-Z“ wurde als Spur gefunden, Direktabruf lieferte keinen auswertbaren Inhalt. Keine Profilpreise oder kostenlose Abholung auf diesen Datensatz übertragen. Ankauf/Verkauf/Gebühren unbekannt; Inhaber/Annahmehof vor jeder GEO-Korrektur klären.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Korrektur 19.10.2026: Adress-Gegenrecherche findet Bauer/Tobias Bauer an Franz-Kirrmeier-Str.20 und 11880 weiterhin Fliederweg4/35197; angefragter 11880-Altpfad führt in Suchliste statt sicherer Einzelprofilseite. Das Örtliche/Auskunft sind nur Leads. Zusätzlich Betreiberkandidat bauer-entsorgungen.de („Superbauer“) und Facebook superbauer.speyer mit anderer Nummer gefunden; kein Identitätsbeleg zu Tobias/35197. Facebook schrotthandelbauer im Direktabruf ohne lesbaren Inhalt. Deshalb keine Straßen-/Websitekorrektur, aber frühere unbelegte Aktivierung → pruefung. Portaltext „hat geöffnet“ war nie Beweis fortbestehender Geschäftstätigkeit. Ankauf/Verkauf/Gebühren nicht verifiziert, GEO-Adresskonflikt bleibt. Quelle(n): https://www.dasoertliche.de/Themen/Bauer-Schrotthandel-Speyer-Franz-Kirrmeier-Str ; https://www.auskunft.de/firma/6ff4qa8h-tobias-bauer-schrotthandel-speyer (Suchindex-Leads); https://www.11880.com/branchenbuch/speyer/120674719B2558760/schrotthandel-bauer.html (Suchlisten-Weiterleitung); https://www.facebook.com/schrotthandelbauer?locale=de_DE (Abruf ohne Inhalt); https://www.bauer-entsorgungen.de (Suchindex-Kandidat).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

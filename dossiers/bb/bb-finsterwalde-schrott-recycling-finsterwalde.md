@@ -28,6 +28,10 @@ Die Identität und der heutige Betrieb am Zirkusplatz 1 sind ungeklärt: ein Ver
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Neue Suche nach dem exakten GmbH-Namen und der Zieladresse bestätigt weiterhin zwei nicht aufgelöste Spuren: Register-/Firmendaten führen SRF Schrott-Recycling Finsterwalde GmbH (HRB 6969) an Massener Straße 1, während der Zirkusplatz-Lead „Schrott-Recycling Frank Arland – Inhaber Ulf Schlemminger e.K.“ nennt. Die Domain schrottrecyclingfinsterwalde.de lieferte keinen lesbaren aktuellen Betreiberinhalt; Suchindex/Verzeichnisse belegen keine Verbindung zwischen Rechtsträgern oder heutige Annahme am Zirkusplatz. ANKAUF: keine verifizierte Kursliste; VERKAUF/GEBÜHREN: keine Preislisten. Keine Zusammenführung, Status/Frontmatter unverändert; offene Betreiber- und Standortkette bleibt. Quellen: https://www.northdata.de/SRF%20Schrott-Recycling%20Finsterwalde%20GmbH,%20Finsterwalde/Amtsgericht%20Cottbus%20HRB%206969 ; https://www.schrottrecyclingfinsterwalde.de/ ; https://www.schrottplatz.org/finsterwalde/schrott-recycling-frank-arland-inhaber-ulf-schlemminger-ek-117991.html (Lead).]
+
 ### Korrektur 07.10.2026
 
 - [Korrektur 07.10.2026: status aktiv → pruefung — die bekannte Domain schrottrecyclingfinsterwalde.de liefert beim direkten Abruf aktuell nur eine Redirect-/Loading-Seite mit ParkLogic-Router-Skript, keine lesbare Betreiberseite. Der Suchindex enthält zwar noch ältere Firmenseiten-Texte, die sind kein Live-Nachweis. Der Registerstatus von HRB 6969 belegt nicht den Betrieb am Zirkusplatz 1; daher keine Schließung behauptet und keine Website-/Öffnungszeiten-/Leistungs-Fills. Keine verifizierten Preise; keine Aussage, ob etwaige Angaben Ankauf, Verkauf oder Gebühr wären. Quelle(n): http://schrottrecyclingfinsterwalde.de/ (Direktabruf 07.10.2026); https://www.online-handelsregister.de/handelsregisterauszug/br/Cottbus/HRB/6969/SRF-Schrott-Recycling-Finsterwalde-GmbH; https://www.northdata.de/SRF%20Schrott-Recycling%20Finsterwalde%20GmbH,%20Finsterwalde/Amtsgericht%20Cottbus%20HRB%206969 (Registerdarstellungen, kein Standortbeleg).]

@@ -28,6 +28,10 @@ Die gefüllte Anschrift Cottbuser Str. 2, 56075 Koblenz und Telefonnummer stamme
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Koblenzer-Tagblatt-Profil und LokaleSchrottplatz-Seite direkt gelesen. Beide führen Maik Alten an Cottbuser Str. 2, 56075 Koblenz, Telefon 0176 87493806; dies bleiben Verzeichnisleads ohne Betreiber-Impressum/Registerbeleg. Das Schrottportal nennt generische Sortenannahme, Mindestmengen 100 kg Eisen / 1 kg NE und wechselnde „geschlossen/öffnet“-Anzeige bei zugleich rund um die Uhr ausgewiesenen Zeiten; nicht als bestätigte Annahmebedingungen oder aktuelle Öffnungszeiten übernommen. Kein belastbarer Verkaufspreis oder Gebührenbetrag. ANKAUF: keine numerischen Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine bestätigten Abhol-/Container-/Entsorgungstarife. Cottbuser Str. 2 nicht als verifizierten Annahmepunkt behandeln; nicht mit der getrennten Maik-Alten-Dossierzeile oder MCR verschmelzen. Quellen (Verzeichnisleads): https://koblenzer-tagblatt.de/lokales/koblenz/schrotthandel/maik-alten-2321/ ; https://lokaleschrottplatz.de/schrotthandel-maik-alten/ ; https://www.werkenntdenbesten.de/schrotthandel/koblenz .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Cottbuser Str. 2, NEU vs Seed-Gino/Markus/Klara/Angelo

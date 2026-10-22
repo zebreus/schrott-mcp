@@ -28,6 +28,10 @@ RSO Schrotthandel bleibt ein Verzeichnis-Lead für Finsterwalder Str. 17B, 03253
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Exakte Namens-/Adresssuche fand keine Betreiberwebsite oder neue Register-/Kommunalbestätigung jenseits der bereits ausgewerteten 11880-/Portalspur. Die dokumentierte Gegenadresse Finsterwalder Str. 17d gehört zum separat belegten Torsten-Schulze-Betrieb; kein Identitäts- oder Nachfolgenachweis zu RSO/17B. ANKAUF: keine Zielpreisliste. VERKAUF/GEBÜHREN: keine Angaben. Adresse bleibt nicht koordinatenreif, bis Betreiber und Annahmeort bestätigt sind; Status pruefung unverändert. Quellen zur bestehenden Lead-/Gegenbeleglage: https://www.11880.com/branchenbuch/doberlug-kirchhain/060440092B114056021/rso-schrotthandel.html ; https://bravors.brandenburg.de/verwaltungsvorschriften/awp_gefaehrliche_abfaelle_2024 ; https://yellow-tec.de/ (Gegenprüfung 20.10.2026).]
+
 ### Recherche 16.10.2026 (13:00-Welle C)
 
 - [Recherche 16.10.2026: 11880-Detail direkt gelesen: RSO, Finsterwalder Str. 17 B/03253, 035322 510774, Branche Altmetallrecycling, Website/E-Mail/Öffnungszeiten zum Hinzufügen leer. Seite unterscheidet „aktualisiert am 15.10.2026“ von „Eintragsdaten vom 24.06.2026“; ersteres ist kein Betreiber-Lebenszeichen. Herkunftserklärung nennt Telekommunikationsdaten, Eigenrecherche und Nutzerfeedback; keine konkret nachgewiesene RSO-Betreiberbestätigung. Ungezielte exakte Websuche lieferte überwiegend sachfremde RSO-Abkürzungstreffer, kein Gegenbeweis zur Existenz. ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenliste, allgemeiner FAQ-Text zur Preisspanne ist kein Händlerpreis. 17B nicht mit amtlichem Nachbar 17d gleichsetzen; heutiger Betreiber und Annahmeadresse vor GEO weiter offen. Keine Frontmatter-Fills. Quelle: https://www.11880.com/branchenbuch/doberlug-kirchhain/060440092B114056021/rso-schrotthandel.html .]

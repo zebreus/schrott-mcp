@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für den Sachsenbrunner Seed liegt in der geprüften Aktenlage kein belastbarer Identitäts-/Standortbeleg vor. Die Timeline dokumentiert widersprüchliche Verzeichnis-Leads Schulstraße 8, Alte Schulstraße 9 und PLZ 98678/98673; hier nicht neu bestätigt. Das im Review am 18.10. gelesene Impressum von stiefel-abbruch.de identifiziert Stiefel Abbruch GmbH, Bochum, HRB 11890. Verbindung zum Sachsenbrunner Seed nicht belegt, aber auch nicht absolut ausgeschlossen. Keine Übertragung von Kontakten, Leistungen oder Preisen. Leere Anschrift-/Kontaktfelder und status pruefung bleiben; Annahmebedingungen und Preise/Gebühren für den Seed ungeklärt.
+Für den Sachsenbrunner Seed ist weiterhin weder der Betreiber noch ein Standort belastbar identifiziert. Der am 21.10.2026 direkt gelesene Schrottplatz-Info-Eintrag wiederholt Schulstr. 8, 98678 Sachsenbrunn und 03686 60467, erfasst aber ausdrücklich weder Angebot noch Öffnungszeiten; ältere Verzeichnis-Leads widersprechen mit Alte Schulstr. 9 bzw. abweichender PLZ. Das Impressum von stiefel-abbruch.de gehört zur Stiefel Abbruch GmbH in Bochum (HRB 11890); ein Bezug zum Seed ist nicht belegt. Ankauf, Verkauf und Container-/Entsorgungsgebühren bleiben ungeklärt. Keine Adresse geokodieren, bis Identität und Anschrift geklärt sind.
 
 ## Timeline
+
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Der direkt gelesene Schrottplatz-Info-Eintrag nennt erneut Schulstr. 8, 98678 Sachsenbrunn und 03686 60467, weist aber kein Leistungsangebot und keine Öffnungszeiten aus; der Homepage-Link ist ein fehlerhafter Platzhalter. Das bestätigt nur einen Verzeichnis-Lead und löst den dokumentierten Adresswiderspruch (u. a. Alte Schulstr. 9) nicht. Kein Ankauf, Verkauf oder Preis/Gebühr belegt; keine Frontmatter-Änderung und keine Geokodierung. Quelle: https://www.schrottplatz-info.de/schrottplatz/Sachsenbrunn/Stiefel-Norbert-Containerdienst-Metall-u-Schrott]
 
 ### Quellen- und Aktenprüfung 18.10.2026
 

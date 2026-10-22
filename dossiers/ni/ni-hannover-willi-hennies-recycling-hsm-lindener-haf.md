@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Das Register führt die namensgleiche Hennies Schrott und Metallrecycling GmbH (HRB 6847, Hannover) als in Liquidation; ob sie heute an der Seed-Adresse noch einen Schrottbetrieb unterhält, ist nicht belegt. Die ähnlich benannte Willi Hennies Recycling GmbH & Co. KG betreibt laut eigener Website Standorte in Hildesheim, nicht Hannover; eine Betreiber- oder Konzernverbindung zur HRB-6847-Gesellschaft ist nicht belegt. Adresse, Kontakt und konkrete Annahme deshalb ungeklärt; keine verifizierte Preisliste.
+North Data führt die namensgleiche Hennies Schrott und Metallrecycling GmbH (HRB 6847, Hannover) als i. L.; der sichtbare Registerverlauf endet mit einer Liquidator-Mitteilung vom 08.12.2025 („N.N.“). Eine aktuelle Annahmestelle an der Seed-Adresse ist dadurch nicht belegt. Die ähnlich benannte Willi Hennies Recycling GmbH & Co. KG hat laut eigenem Impressum HRA 869 und Sitz/Standorte in Hildesheim, nicht Hannover; eine Betreiber- oder Konzernverbindung zur HRB-6847-Gesellschaft ist nicht belegt. Keine zuordenbare Preisliste.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Aktuelle North-Data-Darstellung zu HRB 6847 erneut direkt gelesen: Hennies Schrott und Metallrecycling GmbH, Hannover, weiterhin i. L.; sichtbare Publikation vom 08.12.2025 nennt Liquidator „N.N.“, der Verlauf führt Liquidation seit 09.03.2016. Das belegt weder eine heutige Schrottannahme noch ein Ende der Registergesellschaft. Das Impressum der eigenständigen Willi Hennies Recycling GmbH & Co. KG weist HRA 869/Hildesheim aus und darf nicht auf HRB 6847 übertragen werden. ANKAUF/VERKAUF/GEBÜHREN: keine der HRB-6847-Gesellschaft zuordenbare aktuelle Preisliste; konkrete Betriebs-/Annahmestelle am Lindener Hafen bleibt offen. Quellen: https://www.northdata.de/Hennies%20Schrott%20und%20Metallrecycling%20GmbH,%20Hannover/HRB%206847 ; https://www.willi-hennies.de/impressum/ ; https://www.willi-hennies.de/kontakt-anfahrt/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

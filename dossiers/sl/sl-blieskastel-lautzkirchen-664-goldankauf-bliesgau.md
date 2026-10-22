@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Anschrift Pirminiusstr. 53 ist weiterhin nicht durch Betreiber- oder Registerquelle bestätigt. Aktuelle Gelbe-Seiten-/Telefonbuchprofile beschreiben einen Gold-/Silberankauf und behaupten ein familiengeführtes Unternehmen; die Einträge sind Aggregator-Inhalte und keine Betreiberbestätigung. Der verlinkte Betreiber-Domainabruf ist erneut zeitüberschritten, daher bleiben Kontaktfelder und Website leer und `status: pruefung`.
+
+**Preise:** ANKAUF — keine verifizierten Gold-/Silberkurse; die Portalformulierung „kostenloses und unverbindliches Angebot“ ist kein Ankaufspreis. VERKAUF — keine Produktpreise. GEBÜHREN — keine belastbare Gebührenliste.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Detail direkt gelesen: Pirminiusstr. 53, 66440 Blieskastel-Lautzkirchen, 06842 9582721, Öffnungszeiten Mo-Sa 10:00–12:30/14:00–18:00; Beschreibung behauptet „familiengeführt“ und nennt Gold, Silber, Schmuck, Münzen, Zinn, Militaria u.a. als Ankauf. Das sind weiterhin Portalangaben; die Seite weist selbst auf mögliche Dritt-/Verlagsrecherche hin. Das Telefonbuch wiederholt im selben Verzeichnisumfeld ähnliche Angaben. Betreiber-Domain goldankauf-bliesgau.de lief heute erneut in einen Timeout. Keine Adresse/Kontakte/Öffnungszeiten/Materialliste übernommen. ANKAUF: keine Zahlenkurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://www.gelbeseiten.de/gsbiz/0361cdad-d62c-4d9b-a2dd-60d150360f11 ; https://adresse.dastelefonbuch.de/Blieskastel/3-Gold-und-Silberankauf-Goldankauf-Bliesgau-Blieskastel-Pirminiusstr.html ; https://goldankauf-bliesgau.de/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

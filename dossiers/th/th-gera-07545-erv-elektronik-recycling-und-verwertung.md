@@ -28,6 +28,10 @@ Die Seed-/Verzeichnis-Spur führt ERV Elektronik-Recycling und Verwertung GmbH, 
 
 ## Timeline
 
+### Recherche 21.10.2026 — aktueller Standort, Betreiberkette offen
+
+- [Recherche 21.10.2026: Veolias aktuelle Standortseite führt Hainstraße 17, 07545 Gera unter Veolia Umweltservice Ost GmbH/Entsorgung; nennt Mo–Fr 09–17 Uhr, Sa 09–14 Uhr, Tel. 0365 82487 150 sowie Schrott/Metalle und Elektroschrott. Das ist ein aktueller Veolia-Standortbeleg, aber kein Identitäts- oder Rechtsnachfolgenachweis für die Seed-ERV; Veolia-Kontakte, Annahmebedingungen und mögliche Gebühren werden nicht auf ERV übertragen. Keine ERV-spezifische Ankaufsliste, Verkaufspreise oder Gebühren gefunden. Quelle: https://www.veolia.de/standorte/gera-hainstr]
+
 ### Quellenprüfung 18.10.2026 (Veolia, keine ERV-Betreiberkette)
 
 - [Recherche 18.10.2026: https://www.veolia.de/standorte/gera-hainstr im unabhängigen Review als Markdown und HTML direkt gelesen. Standorttext nennt Veolia Umweltservice Ost GmbH, Hainstraße 17, 07545 Gera, 0365 82487 150, Mo–Fr 09–17, Sa 09–14, Schrott/Metalle und Elektroschrott; HTML-Titel Recyclinghof Gera, Hainstraße (ehemals GUD). Veolia-Selbstauskunft, keine rechtliche Identität/Nachfolge zur Seed-ERV bewiesen. Metabeschreibung bewirbt kostenlose Annahme ausgewählter Abfälle; weder diese Aussage noch Kontakte/Zeiten auf ERV übertragen. Keine ERV zuordenbare Ankauf-, Verkaufs- oder Gebührenzahl bestätigt. Historischer Abruf 12.10. ohne Protokoll nicht bestätigt; Frontmatter unverändert, ERV-Standortzuordnung offen.]

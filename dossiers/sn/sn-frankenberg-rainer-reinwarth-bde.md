@@ -34,6 +34,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Einzelseite und Das-Örtliche-Rückwärtssuche live gelesen: beide zeigen „BDE Dienstleistungen Reinwarth Rainer Metall Kabel Schrott“, Hohe Str. 31, 09669 Frankenberg/Sa., 037206 70542. Das sind weiterhin Branchenverzeichnis-Leads und weder ein Betreiber-/Registerbeleg noch zwei zulässige unabhängige Nachweise für aktuelle Erreichbarkeit/Annahme. Die kommunale Firmensuche liefert bei der abrufbaren Suchmaske keine individuell auswertbare Trefferliste; das ist kein amtlicher Negativnachweis. Keine Ersatzkontakte oder Betriebsfortführung abgeleitet. ANKAUF: keine verifizierten Annahmebedingungen/Euro-Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Vorhandene Clear-Regel/Frontmatter nicht geändert. Quellen (Leads/Prüfroute): https://www.gelbeseiten.de/gsbiz/c4323bb5-5bdf-44ae-acc8-998d3cd7db95 ; https://www.dasoertliche.de/?form_name=search_inv&ph=03720670542 ; https://www.kreischa.de/inhalte/kreischa/_inhalt/wirtschaft/firmen-neu/gewerbesuche .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Fe/Alu/Cu/Edel/Blei/Messing

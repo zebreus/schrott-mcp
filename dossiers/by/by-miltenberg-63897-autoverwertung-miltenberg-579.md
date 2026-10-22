@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt die Autoverwertung Miltenberg 579 GmbH unter HRB 14203 und Altstadtweg 4, 63897 Miltenberg; der dort referierte Unternehmensgegenstand umfasst Altfahrzeugverwertung sowie Vermittlung, Vermietung und Handel mit Fahrzeugen, Rohstoffen und Neu-/Gebrauchtteilen, außerdem Abschleppen, Reparaturen und Transporte. Die jüngsten im Profil sichtbaren Registerpublikationen sind von 2019. Das ist ein Registerspiegel und kein Nachweis eines heutigen öffentlichen Annahmebetriebs oder aktueller Kontaktdaten.
+
+- **Ankauf:** keine numerischen Fahrzeug-/Rohstoffankaufkurse.
+- **Verkauf:** Gegenstand nennt Teilehandel, aber keine aktuelle Teile- oder Materialpreisliste.
+- **Gebühren:** keine Abschlepp-, Reparatur- oder Entsorgungstarife veröffentlicht.
+- **Offen/GEO:** aktueller Rechtsträgerstatus, Betreiberkontakt und öffentliche Annahme am Altstadtweg klären; keine neuen Koordinaten.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Das NorthData-Profil zur Autoverwertung Miltenberg 579 GmbH wurde direkt gelesen. Es nennt HRB 14203, Altstadtweg 4, D-63897 Miltenberg und den Registergegenstand Altfahrzeugverwertung, Fahrzeug-/Rohstoff-/Teilehandel, Abschleppen, Reparaturen und Transporte; die jüngsten sichtbaren Registerpublikationen datieren auf 2019. Damit wird der Seed-Gegenstand präzisiert, nicht aber heutige Aktivität oder Kundenannahme belegt. Keine Betreiberpreisliste: Ankauf, Teileverkauf und Entsorgungs-/Abschleppgebühren ohne konkrete Beträge. Offen: aktueller Registerstatus, eigene Website, Annahmebedingungen und Preisangebot. Altstadtweg nicht als aktuell bestätigten Annahmestandort geokodiert. Quelle: https://www.northdata.de/Autoverwertung%20Miltenberg%20579%20GmbH,%20Miltenberg/Amtsgericht%20Aschaffenburg%20HRB%2014203]
 
 ### Recherche 02.10.2026
 

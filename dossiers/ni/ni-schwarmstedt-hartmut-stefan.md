@@ -25,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Die Verzeichniseinträge führen Am Bornberg 12, 29690 Schwarmstedt und 05071 4465; LokaleSchrottplatz nennt Materialarten und Mindestmengen, ist aber kein Betreiberbeleg. Eine dortige Anzeige "Geschlossen" ist nicht eindeutig als dauerhafte Schließung zu verstehen. Adresse, Betrieb und Annahmebedingungen bleiben ungeklärt; nicht geocodieren. **Ankauf:** Verzeichnis-Leistungshinweis, keine Zahlenpreise; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
+Die Verzeichniseinträge wiederholen Am Bornberg 12, 29690 Schwarmstedt und 05071 4465, teils mit umgekehrter Namensfolge „Stefan Hartmut“. LokaleSchrottplatz nennt Materialarten und Mindestmengen, ist aber kein Betreiberbeleg; „Geschlossen“ ist dort nicht als dauerhaft erklärt. Adresse, Betrieb und Annahmebedingungen bleiben ungeklärt.
+
+- **Ankauf:** nur nicht bestätigte Portal-Leistungshinweise; keine Zahlenpreise.
+- **Verkauf:** keine belegte Liste.
+- **Gebühren:** keine belegten Abhol-/Entsorgungsangaben.
+- **GEO:** Am Bornberg 12 erst nach Betreiber- und Annahmebestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Frische Suche zeigt Cylex „Stefan Hartmut“, Schrottplatz-Info und weitere Branchenbuchkopien mit Am Bornberg 12/05071 4465. Die wiederkehrende Namensreihenfolge und identische Kontaktdaten sind Portalwiederholungen, kein Betreiber- oder Registerbeleg. Keine neue Primärquelle zur Tätigkeit, kein dauerhaftes Schließungssignal; Mindestgewichte bleiben unbestätigt und sind keine €/kg-Preise. Keine Feldänderung/Geokodierung. Quelle(n): https://web2.cylex.de/firma-home/stefan-hartmut-3734637.html ; https://www.schrottplatz-info.de/schrottplatz/Schwarmstedt/Stefan-Hartmut-Schrotthandel ; https://lokaleschrottplatz.de/hartmut-stefan/.]
 
 ### Recherche 13.10.2026
 

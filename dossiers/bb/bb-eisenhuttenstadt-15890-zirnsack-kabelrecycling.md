@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Suchindex-Snippets von Branchenverzeichnissen führen „Zirnsack Kabelrecycling“ an Zur Hütte 4, 15890 Eisenhüttenstadt und nennen 03364 41 21 92. Der direkte Abruf der Das-Örtliche-Detailadresse lieferte HTTP 410; ein Betreiberauftritt, Register-/Kommunalbeleg oder bestätigter Annahmestandort liegt nicht vor. Name, Anschrift und Telefon bleiben Leads, keine Geocodierung.
+
+**Preise:** Ankauf: keine verifizierten Bedingungen/Kurse; Verkauf: keine Liste; Gebühren: keine Tarife.
 
 ## Timeline
 
@@ -34,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - urspr. Website-Angabe: keine
 - Adresse: Eisenhüttenstadt 15890, Zur Hütte 4
 - Adressbeleg: Seed-notes (Verzeichnis)
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Suchindex-Auszüge der Branchenverzeichnisse Das Örtliche/Das Telefonbuch führen weiterhin Zirnsack Kabelrecycling, Zur Hütte 4, 15890 Eisenhüttenstadt und Tel. 03364 41 21 92. Die Das-Örtliche-Detailadresse ließ sich direkt nicht öffnen (HTTP 410); deshalb sind die Snippets nur Leads, keine aktuelle Betreiber- oder Annahmebestätigung. Kein Kontakt-/Status-Fill und keine Geocodierung. ANKAUF/VERKAUF/GEBÜHREN: keine zurechenbaren Preise/Tarife. Quelle (nicht mehr abrufbarer Verzeichnislead): https://www.dasoertliche.de/Themen/Zirnsack-Kabelrecycling-Eisenh%C3%BCttenstadt]

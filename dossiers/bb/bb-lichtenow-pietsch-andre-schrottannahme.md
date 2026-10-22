@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Historische Betreiberidentität ist durch die vom Owner am 14.10. tatsächlich gelesenen Archivaufnahmen konkret: André Pietsch, Allround Dienstleistungs Service/Schrottlieb, Chausseestr. 22a, 15345 Rüdersdorf bei Berlin OT Lichtenow. Archiv und alte Betreiberseite sind eine Quellenfamilie, kein aktueller Fortbestandsnachweis. Aktuelle Domain im neuen Direktabruf wieder nicht lesbar. Keine Verbindung zu Pietsch Rohstoffe Kleve belegt; dessen Preise und Standort gehören nicht hierher. Frontmatter leer/`pruefung` beibehalten. Ankauf-/Verkaufskurse und Gebühren weiter ungeprüft; Gewerbeinhaber, Annahme versus Abholdienst und aktueller Standort vor GEO klären.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: Aktuelles schrottlieb.de-Impressum direkt erneut Transportfehler, kein aktueller Inhalt gelesen. Alte Owner-Archivbelege von 2024/2025 erhalten, nicht als heutiger eigener Abruf oder zweite unabhängige Quelle umetikettiert. Namenssuche liefert teils sachfremde Personen, kein Beweis fehlender Existenz. ANKAUF/VERKAUF/GEBÜHREN: aus dem fehlgeschlagenen Abruf keine Aussage über tatsächliche Preisveröffentlichung möglich; weiterhin keine verifizierte aktuelle Liste. Priorität ist ein aktueller kommunaler Gewerbe-/Betreiberbeleg für André Pietsch/Allround Dienstleistungs Service; erst danach Kontakt-/Standort-/Annahmefreigabe und GEO. Keine Klever Betreiberübertragung. Quelle/Abrufweg: https://www.schrottlieb.de/sites/impressum.htm ; historische Belegabgrenzung: erhaltene Owner-Archivprüfung 14.10.2026 in diesem Dossier.]
 
 ### Archivprüfung durch Owner 14.10.2026
 

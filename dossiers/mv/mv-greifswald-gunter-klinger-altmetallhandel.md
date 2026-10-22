@@ -30,6 +30,10 @@ Neu präzisierter, aber weiterhin nur sekundärer Lead: Schrottplatz-info nennt 
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Schrottplatz-Info-Detailseite erneut direkt gelesen: Helmshäger Str. 6, 17489 Greifswald und 03834-2310441 bleiben die Portalangaben; Leistungen fehlen, Öffnungszeiten sind ausdrücklich unvollständig. Der Homepage-Verweis ist kein auswertbarer Betreiberauftritt und die Seite bleibt ein einzelner Lead. Keine Kontakt-/Adress-Fills, kein GEO. ANKAUF: kein Kurs; VERKAUF: keine Materialpreisliste; GEBÜHREN: keine Tarife. Quelle: https://www.schrottplatz-info.de/schrottplatz/Greifswald/Guenter-Klinger-Altmetallhandel .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Bestehende Schrottplatz-info-Quelle als Detailseite gelesen: Helmshäger Str. 6, 17489 Greifswald, 03834-2310441. Homepage-Link ist /guenter.klinger@gmx.de, kein Websitebeleg; Seite erklärt Leistungen/Zeiten nicht erfasst. Alle Werte nur Rechercheleads; kein Fill. NorthData-Direktabfrage Günter Klinger Greifswald HTTP 429, kein Nichtbestehensbeleg. ANKAUF/VERKAUF/GEBÜHREN ohne verifizierte Zahlen; Gewerberegister und aktuelle Betreiberbestätigung offen. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Greifswald/Guenter-Klinger-Altmetallhandel ; https://www.northdata.de/?query=G%C3%BCnter%20Klinger%20Greifswald (blockiert)]

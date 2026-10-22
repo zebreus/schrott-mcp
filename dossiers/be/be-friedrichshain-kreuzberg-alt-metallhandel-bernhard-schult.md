@@ -28,6 +28,10 @@ Mehrere Branchenverzeichnisse wiederholen Dolziger Str. 30 und 030 4225831, aber
 
 ## Timeline
 
+### Recherche 21.10.2026 — Primärquellenroute erneut offen
+
+- [Recherche 21.10.2026: Die direkte Berliner Gewerbeauskunft war beim Abruf erneut nicht erreichbar (Timeout); es entstand weder ein positiver noch ein negativer Register-/Gewerbebefund. Die Verzeichnisangaben Dolziger Str. 30/030 4225831 bleiben deshalb unbestätigte historische Leads; kein Schließungsschluss und keine neue Betreiberidentifikation. ANKAUF: keine zurechenbaren Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tafel. Offene Frage bleibt ein amtlicher Gewerbenachweis oder Betreiberbeleg genau zu Bernhard Schult und der Adresse. Quelle der nicht verfügbaren Auskunftsstelle (Zugriffsversuch, kein Sachbeleg): https://gewerbeauskunft.berlin.de/]
+
 ### Recherche 18.10.2026 (18:00-Welle, Shard 1)
 
 - [Recherche 18.10.2026: Eigene Suche Schult/Dolziger lieferte keine qualifizierte Betreiberquelle, überwiegend andere Namensträger; nicht als Firmen-Nichtexistenz behandeln. Gezielte Primär-/Registerroute Bernhard Schult Berlin über NorthData-Suggest technisch HTTP 429, Berliner Gewerbeauskunft Timeout; weder Register-Nichttreffer noch abgemeldetes Gewerbe verifiziert. Anschließend Suchintegration HTTP 401; daher keine Behauptung einer erschöpfenden aktuellen Quellenlage. Historische Adresse/Telefon ausdrücklich weiterhin unbestätigt statt aus alten Portalen neu verifiziert. Offener zielführender Schritt ist ein Gewerbedatensatz/Betreiberbeleg genau zu Bernhard Schult/Dolziger Straße 30, nicht das Zählen weiterer Portale oder eine Verwechslung mit dem Künstler HA Schult. Keine Ankauf-, Verkaufs- oder Gebührenliste zurechenbar; kein neuer GEO-Punkt, status pruefung und Frontmatter unverändert. Quellen/Zugriffsprotokoll: https://www.northdata.de/suggest.json?query=Bernhard%20Schult%20Berlin&countries=DE (429) ; https://gewerbeauskunft.berlin.de/ (Timeout).]

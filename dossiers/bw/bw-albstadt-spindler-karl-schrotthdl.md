@@ -4,9 +4,9 @@ name: Spindler Karl SchrottHdl.
 trader_type: schrotthaendler
 state: BW
 city: Albstadt
-street: Chemnitzer Str. 91
-postcode: '72458'
-phone: 07431 74569
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Kleiner Schrotthändler nur durch Verzeichnis-Leads beschrieben: Chemnitzer Straße 91, 72458 Albstadt-Ebingen, 07431 74569. Die Ausnahmefüllung vom 02.10.2026 ist kein Nachweis nach heutigem README-Belegstandard; auch viele kongruente Telefonbuch-/Portalprofile ersetzen keine Betreiber- oder Gewerbequelle. Aktueller Betrieb, Ankauf und Kundenzugang bleiben offen; Aktivstatus am 09.10.2026 auf pruefung korrigiert, ohne Schließungsbehauptung. **Ankauf / Verkauf / Gebühren:** keine zurechenbaren Zahlen. Vor Anfahrt aktuelle Gewerbeidentität/Annahme telefonisch oder amtlich klären; vorhandene Adresse erst nach Primärbestätigung als Kundenstandort pinnen.
+Kleiner Schrotthändler nur durch Verzeichnis-Leads beschrieben: Chemnitzer Straße 91, 72458 Albstadt-Ebingen, 07431 74569. Diese unbestätigten Kontaktwerte wurden aus dem Frontmatter entfernt; mehrere kongruente Telefonbuch-/Portalprofile ersetzen keine Betreiber- oder Gewerbequelle. Aktueller Betrieb, Ankauf und Kundenzugang bleiben offen; `status: pruefung` behauptet keine Schließung. **Ankauf:** keine zuordenbaren Kurse. **Verkauf:** keine Preise. **Gebühren:** keine Tarife. Vor Anfahrt aktuelle Gewerbeidentität/Annahme telefonisch oder amtlich klären; die Adresse erst nach Primärbestätigung als Kundenstandort geokodieren.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 21.10.2026
+
+- [Owner-GEO-Prüfung 21.10.2026: Der nur lesend geprüfte Produktionspunkt löst bei Nominatim auf OSM-Node 764047115 ("Am Klarahof", Bank) auf. Chemnitzer Str. 91 bleibt ein Verzeichnis-Lead; das dortige OSM-Wohngebäude belegt weder Spindler noch eine öffentliche Annahme. Der bestehende Punkt und die Lead-Adresse sind daher kein bestätigtes Händler-GEO; offen. Quellen: [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.2270666666667&lon=9.0204&zoom=18&addressdetails=1), [OSM-Objekt](https://www.openstreetmap.org/node/764047115), [Owner-Bericht](../../research/wave-20261021-0900-geo-bw.md).]
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Frische Namens-/Ortsrecherche zeigt weiterhin übereinstimmende Verzeichnisprofile für Chemnitzer Str. 91, 72458 Albstadt-Ebingen, 07431 74569, aber keinen Betreiber-, Handelsregister- oder kommunalen Gewerbebeleg. Gemäß Quellenstandard sind diese Treffer Leads, keine Grundlage für aktuelle Kundendaten; Straße, PLZ und Telefon daher aus dem Frontmatter entfernt und als historische Spur erhalten. Status pruefung bleibt, nicht geschlossen. Ankauf/Verkauf/Gebühren: keine verifizierten Zahlenlisten. Keine Geokodierung. Quellen (Leads): https://www.dasoertliche.de/Themen/Spindler-Karl-SchrottHdl-Albstadt-Ebingen-Chemnitzer-Str ; https://www.gelbeseiten.de/gsbiz/6b5bc994-1b48-4866-84e7-ec7b8e4db01b ; https://adresse.dastelefonbuch.de/Albstadt/1-Schrott-Karl-Spindler-Albstadt-Chemnitzer-Str.html .]
 
 ### Korrektur 09.10.2026
 

@@ -30,6 +30,10 @@ Preisprüfung: ANKAUF — die Website enthält ein Formular „Ich habe ein Auto
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberseite „Kfz Service Ziegelhof“ live gelesen; sie weist weiterhin Werkstatt-/Reparaturleistungen, HU/AU und Kfz-Neuteileverkauf aus. Die zugehörige Kontakt-/Impressumsseite ordnet den Auftritt Matthias Görlich und Poggenweg 15, 17489 Greifswald zu. Die Seiten belegen keine GESA-Anerkennung und keine öffentliche Altmetall-/Schrottannahme; ein Auto-Verkaufsformular ist kein allgemeiner Metallankauf. Ankauf: keine veröffentlichten Beträge/Bedingungen; Verkauf: keine Preisliste; Gebühren: keine Tarifangabe. Einzelner Betreiberauftritt ohne erfüllte HRB-Ausnahme, daher keine neuen Stammdaten-Fills oder Geokodierung. Quellen: https://autoverwertung-greifswald.de/kfz-service-autoverwertung-greifswald/ ; https://autoverwertung-greifswald.de/impressum/ (Abruf 21.10.2026).]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: Werkstattdetail und Impressum live neu gelesen: Kfz Service Ziegelhof gehört zum Auftritt Autoverwertung Greifswald/Inhaber Matthias Görlich, Poggenweg 15/17489, 0163 1313242; sichtbare Leistungen u.a. Unfallinstandsetzung, Schweißarbeiten, HU/AU Dekra und Kfz-Neuteile-Verkauf. Webagenturadresse Wilhelm-Holtz-Straße 18 strikt vom Händler trennen. Werkstattleistungen oder DEKRA-HU sind KEIN Nachweis einer Demontageanerkennung. Kein GESA-Abgleich in dieser Welle durchgeführt; frühere Anerkennungsunsicherheit bleibt. Betreiber-Einzelbeleg ohne Register-/unabhängige Bestätigung, daher Frontmatter unverändert. ANKAUF/VERKAUF/GEBÜHREN auf diesen Seiten ohne Zahlenliste; GEO Poggenweg erst nach unabhängiger Betriebsstättenbestätigung. Quellen: https://autoverwertung-greifswald.de/kfz-service-autoverwertung-greifswald/ ; https://autoverwertung-greifswald.de/impressum/.]

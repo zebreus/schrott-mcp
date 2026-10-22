@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die amtliche Registerhistorie (AG Würzburg HRB 6483 → AG Chemnitz HRB 22103 → AG München HRB 176209) beschreibt eine frühere MLM Vertriebs GmbH aus Karlstadt, die umbenannt und verlegt wurde; der letzte Rechtsträger wurde 2014 wegen Vermögenslosigkeit gelöscht. Das ist kein Beleg für einen heutigen Betrieb an Mozartstr. 12. Die Adresse/Telefonnummer bleiben alte Verzeichnis-Leads. Frühere Registergegenstände weisen auf Buntmetall-Halb-/Fertigwarenhandel, nicht auf Schrottankauf.
+
+**Preise:** ANKAUF — kein Schrottankauf oder Ankaufskurs belegt. VERKAUF — historischer Metallwarenvertrieb, aber keine aktuelle Produkt-/Verkaufspreisliste. GEBÜHREN — keine Angaben.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Den amtlichen Registerportal-Einstieg erneut direkt aufgerufen; die Seite ist verfügbar, zeigt ohne ausgeführte Registerabfrage aber keine aktuellen Firmen-/Betriebsdaten. Die in der Recherche vom 04.10.2026 aus vollständigen Registerdokumenten erarbeitete Kette bleibt daher der letzte konkrete Rechtsbeleg: frühere MLM Vertriebs GmbH (Würzburg HRB 6483), Umfirmierung/Sitzverlegung zu MLM-armal Produktion-Vertrieb GmbH Deutschland (Chemnitz HRB 22103, später München HRB 176209), Löschung 2014. Keine aktuelle Gesellschaft oder Annahmestelle in Karlstadt nachgewiesen; Mozartstr. 12 und 09353 7906-0 sind nur Alt-Verzeichnisdaten. ANKAUF: kein Scrapankauf/Kurs belegt. VERKAUF: historische Produktvertriebsangabe ohne aktuelle Liste/Preise. GEBÜHREN: keine Tarife. Kein Status-/Kontakt-Fill, keine Schließung eines Platzes aus bloßer Firmenlöschung abgeleitet. Quellen: https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml ; https://www.northdata.de/MLM+Vertriebs+GmbH,+Karlstadt/Amtsgericht+W%C3%BCrzburg+HRB+6483 .]
 
 ### Recherche 04.10.2026
 

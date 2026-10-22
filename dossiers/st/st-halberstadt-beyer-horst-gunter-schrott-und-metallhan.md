@@ -31,6 +31,10 @@ Aktuelle Existenz, Ansprechpartner, Anlieferbedingungen und Ankauf/Preise bleibe
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Golocal kennzeichnet den Telefonbucheintrag für Finkenflucht 82, 38822 Klein Quenstedt und 03941 608221 als „offizieller Telefonbucheintrag“; Das Telefonbuch und Gelbe Seiten wiederholen dieselben Daten. Dies ist weiterhin Verzeichnis-/Telefondatenbank-Evidenz, keine Betreiberbestätigung oder aktuelle Annahmebestätigung. **Ankauf:** historische Schrott-/Metallhandelsrubrik, tatsächliche Annahme und Kurse unbestätigt; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Keine Frontmatter-Fills oder Geokodierung. Quellen: https://www.golocal.de/halberstadt/schrotthandel/beyer-horst-guenter-schrott-metallhandel-8Wi0/ ; https://adresse.dastelefonbuch.de/Halberstadt/3-Schrott-Horst-G%C3%BCnter-Beyer-Klein-Quenstedt-Finkenflucht.html (Abruf 21.10.2026).]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Erneute namensgenaue Suche bestätigt lediglich Portalspur Finkenflucht 82, 38822 Halberstadt/Klein Quenstedt, 03941 608221. Örtliche/Telefonbuch unterscheiden Ortsteil Klein Quenstedt von der übergeordneten Stadt; daraus kein tatsächlicher Umzug. Kein sicherer Betreiber-/Register-/Kommunal-Einzelfallbeleg identifiziert. Frühere Füllung aus Öffnungszeitenbuch + Örtliche erfüllt den heutigen Primärquellenstandard nicht; Frontmatter-Werte aus Historienerhaltung belassen, im Überblick als ungeprüft markiert. Keine Übernahme von Portalzeiten, weiterer Kontaktdaten oder Annahmesorten. Kein verifizierter numerischer Ankauf-/Verkauf-/Gebührentarif. Nächster Schritt Gewerbe-/Betreiberbestätigung für Horst-Günter Beyer an Finkenflucht 82; Quelle(n): https://html.duckduckgo.com/html/?q=Beyer+Horst+G%C3%BCnter+Halberstadt+Schrott; https://www.dasoertliche.de/Themen/Beyer-Horst-G%C3%BCnter-Schrott-und-Metallhandel-Klein-Quenstedt-Klein-Quenstedt-Finkenflucht; https://www.schrottplatz-info.de/schrottplatz/Halberstadt/-Beyer-Horst-Guenter-Schrott-und-Metallhandel (Suchleads).]

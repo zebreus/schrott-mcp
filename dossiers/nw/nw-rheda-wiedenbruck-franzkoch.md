@@ -30,6 +30,10 @@ Heinrich Franzkoch GmbH & Co. KG ist registerseitig als Gesellschaftsspur an Zum
 
 ## Timeline
 
+### Recherche 21.10.2026 — Domain- und Angebotsabgrenzung
+
+- [Recherche 21.10.2026: Der bisherige Domainlink franzkoch.de leitet beim Abruf auf den eigenen DHS-Auftritt weiter. DHS-Impressum nennt DHS GmbH, Zum Sägewerk 153, 33378 Rheda-Wiedenbrück, HRB 7116 AG Gütersloh; das belegt nicht, dass die heutige DHS die im Register-/Verzeichnisbestand genannte Franzkoch-Gesellschaft betreibt. Die DHS-Seite „Altmetallankauf“ ist mit 13.10.2015 datiert und beschreibt Ankauf insbesondere von Behältern/Tanks und zugehörigen Maschinen, mit individueller Kalkulation von Aufwänden/Erträgen; Geschäftspartner sei in der Regel die Schwesterfirma Georg Heuer GmbH. Das ist weder eine aktuelle Franzkoch-Preisliste noch ein allgemeines Annahmeangebot. Der 11880-Lead Kupferstr. 40 bleibt im Adresskonflikt zu Zum Sägewerk 153. ANKAUF: keine bezifferten Franzkoch-Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tariftafel. Quellen: https://www.dhs-metallwert.de/impressum/ ; https://www.dhs-metallwert.de/rueckbauplanung-industriedemontage-altmetallverwertung/altmetallankauf/ ; https://www.11880.com/branchenbuch/rheda-wiedenbrueck/120674719B26716348/franzkoch-heinrich-gmbh-co-kg.html]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Der 11880-Eintrag für Heinrich Franzkoch GmbH & Co. KG nennt Schrotthandel, Kupferstr. 40, 33378 Rheda-Wiedenbrück, Tel. 05242 40808-0, info@franzkoch.de und Öffnungszeiten Mo–Fr 08–17 / Sa 08–12; Eintragsdaten 25.07.2026, Portal aktualisiert 02.10.2026. Das bleibt ein einzelner Aggregatorbeleg und kollidiert mit der registerseitig dokumentierten Anschrift Zum Sägewerk 153. Der offizielle DHS-Auftritt an Zum Sägewerk 153 gehört zur DHS GmbH (HRB 7116), nicht automatisch zu Franzkoch. Keine Felder gefüllt; beide Kandidatenadressen für GEO gesperrt bis Identitäts-/Standortklärung. Keine verifizierte Franzkoch-Ankaufspreisliste, Verkaufspreise oder Gebühren. Quelle(n): https://www.11880.com/branchenbuch/rheda-wiedenbrueck/120674719B26716348/franzkoch-heinrich-gmbh-co-kg.html ; https://www.dhs-metallwert.de/impressum/]

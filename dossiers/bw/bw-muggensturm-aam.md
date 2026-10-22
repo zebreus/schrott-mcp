@@ -30,6 +30,10 @@ Die neu gefundene Betreiberwebsite nennt AaM-Autorecycling, Heinkelstraße 1, 76
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Auftritt und Impressum erneut direkt abgerufen. Das Impressum nennt weiterhin Mehmet Akif Celik, Heinkelstr. 1, 76461 Muggensturm, Telefon 07222 83457, Fax 07222 408654 und USt-ID DE297525611; es enthält keine Handelsregisternummer und trägt Copyright 2016. Die Identität bleibt daher ein Betreiber-Einzelbeleg; der frühere Creditreform-Detailabruf war gesperrt und zählt nicht als gelesener Zweitbeleg. Kein Website-/Status- oder Feld-Fill; status pruefung ist keine Schließungsbehauptung. Ankauf von Fahrzeugen, Gebrauchtteileverkauf und kostenlose Abholung nur nach Termin/innerhalb des beworbenen 20-km-Radius bleiben Eigenwerbung ohne numerische Preise oder generelle Gratiszusage. Quellen: https://www.aam-autorecycling.de/ ; https://www.aam-autorecycling.de/about/ ; https://firmeneintrag.creditreform.de/76461/7110408856/MEHMET_AKIF_CELIK_AUTORECYCLING .]
+
 ### Ownerdisposition 18.10.2026
 
 - [Korrektur 18.10.2026: Nach unabhängiger Prüfung neue Websitefüllung zurückgestellt, website leer und website_status unbekannt statt aktiv; kein Domain-Tod behauptet. Impressum nennt Mehmet Akif Celik/Heinkelstr. 1, aber keine HR-Kennung; Creditreform nur Indexauszug bei Detailabruf 403, somit kein qualifizierter Zweitbeleg und keine autoritative Betreiber-Ausnahme. Auch die alte Aktivierung aus dem ungeprüften GSA-Registerlead trägt keine aktuelle Freigabe: status aktiv zu pruefung, nicht geschlossen. description auf Einzelbeleg-/Identitätsunsicherheit begrenzt; Betreiberwerbung ist keine verifizierte Service- oder Zertifizierungszusage. Kontakte, Adresse, Services und GEO nicht pauschal gelöscht; Quelle: https://www.aam-autorecycling.de/about/ ; https://www.aam-autorecycling.de/ ; https://firmeneintrag.creditreform.de/76461/7110408856/MEHMET_AKIF_CELIK_AUTORECYCLING (Index, Detail 403); https://schrottregister.pages.dev/betrieb-aam-autorecycling-muggensturm (ungeprüfter historischer Lead).]

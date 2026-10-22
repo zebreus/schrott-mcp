@@ -25,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Offener Orts-/Identitätsklärfall: Die Betreiberwebsite von Thomas Brosda nennt Altmetallankauf in Wangerland/Wiefels, nicht Jever. Der bisherige Verzeichnisbeleg verbindet diese Orte nicht ausreichend. Keine Schließung oder Verlegung bewiesen; Kontaktdaten und Leistungen bleiben als Betreiber-Einzelbeleg in der Timeline.
+Offener Orts-/Identitätsklärfall: Die Betreiberwebsite ordnet Thomas Brosda dem Altmetallhandel in Wangerland/Wiefels zu, nicht nachweisbar Jever. Der Verzeichnis-Lead verbindet die Orte nicht ausreichend; weder Verlegung noch Schließung ist belegt. Kontaktdaten und Leistungen bleiben deshalb in der Timeline und werden nicht Jever zugeordnet.
+
+- **Ankauf:** Betreiberseite nennt privaten und gewerblichen Schrott-/Buntmetallankauf; Preise nur auf Anfrage, keine numerische Liste.
+- **Verkauf:** Autoteile werden separat beworben; keine Schrott-/Metallverkaufspreisliste.
+- **Gebühren:** LKW-/Kranmuldenabholung und Containerstellung genannt, aber kein fester oder kostenloser Tarif.
+- **GEO:** nicht geokodieren; der belegte Kandidatenstandort liegt in Wangerland/Wiefels und ist nicht als Jeverer Annahmestelle bestätigt.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Suchindex-Ergebnisse führen weiterhin die Betreiberseiten `/impressum`, `/leistungen` und `/wir-kaufen` sowie den Ort Wangerland/Wiefels. Die eigenen Direktabrufe von Impressum und Ankaufseite endeten diesmal mit Transportfehler; daher keine neue Live-Verifikation und keine Aktualitätsbehauptung. Die letzte direkt dokumentierte Inhaltsprüfung bleibt 14.10.2026: Jever-Zuordnung offen, Preise auf Anfrage statt Zahlenkursen, Abholung/Container ohne Tarif. Keine Frontmatter-Änderung und kein GEO. Quelle(n): http://www.brosda.com/impressum/ ; http://www.brosda.com/leistungen/ ; http://www.brosda.com/wir-kaufen/.]
 
 ### Seed-Wirkungsprüfung 16.10.2026
 

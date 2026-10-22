@@ -28,6 +28,10 @@ Der Lauchhammer-Schrotthandel Timo Dymke e.K. ist durch einen Registerdatenbankt
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Exakte Namenssuche nach „Schrotthandel Timo Dymke“ und Inhaber Sascha Schwarzenberger brachte keine zusätzliche Betreiberseite oder unabhängig aktuelle Annahmestellenbestätigung. Der bestehende Creditreform-Treffer bleibt ein einzelner Registerdatenbankbeleg für den Rechtsträger und die abweichende Bockwitzer-Str.-97-Anschrift; die Seed-/Verzeichnisadresse Dolsthaidaer Str. 45 sowie der zusätzliche Verzeichnislead Dolsthaidaer Str. 40 bleiben ungeklärt. Keine Zusammenführung oder Frontmatter-Korrektur; Status pruefung. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare numerische Liste gefunden. GEO: keine Koordinaten bei widersprüchlichen Betriebsadressen. Quelle: https://firmeneintrag.creditreform.de/01979/3050246840/SCHROTTHANDEL_TIMO_DYMKE_E_K_INHABER_SASCHA_SCHWARZENBERGER (abgerufen 20.10.2026); ergänzend bestehende Registerspiegel in den Rechercheeinträgen vom 01./13.10.2026.]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Creditreform führt „Schrotthandel Timo Dymke e.K. Inhaber Sascha Schwarzenberger“ und nennt eine Registerbekanntmachung vom 15.09.2021; Anschrift Bockwitzer Str. 97, 01979 Lauchhammer. Die Seed-/Gelbe-Seiten-Adresse Dolsthaidaer Str. 45 bleibt davon abweichend; ein Stadtportal nennt zusätzlich Dolsthaidaer Str. 40. Diese Registerdatenbank- und Verzeichnisangaben lösen weder aktuelle Betriebsstätte noch Annahmepunkt auf, daher weder Straße noch Status geändert und kein Merge mit einem anderen Betrieb. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierte Zahlenliste. GEO: beide Straßenangaben ungeklärt. Quelle: https://firmeneintrag.creditreform.de/01979/3050246840/SCHROTTHANDEL_TIMO_DYMKE_E_K_INHABER_SASCHA_SCHWARZENBERGER ; weitere Adress-Leads siehe bestehende Recherche 01.10.2026.]

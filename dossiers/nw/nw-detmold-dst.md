@@ -30,6 +30,10 @@ Historische DST-Wertstoffsortierung und Recycling GmbH & Co. KG, Lemgo HRA 3207,
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: Neue Pfadvariante unter prezero.com/de/ueber-uns/standorte/l/detmold/westerfeldstrasse-20/2761165 direkt gelesen: endet in allgemeinem Standortfinder mit Marketing-Cookie-Platzhalter und Verwaltungsstandorten PortaWestfalica/Wesseling; kein Detmolder Einzelstandort im auslesbaren Inhalt. Aktuelle Portale nennen zwar PreZeroServiceWestfalen/Westerfeldstraße20/0523160030, sind aber keine Betreiberkette. Deshalb alte DST→Tönsmeier-Registerhistorie nicht um behauptete heutige PreZero-Zuordnung ergänzen. Keine Hofschließung aus Redirect, keine Schrottankaufannahme aus allgemeinem Recyclingangebot. Ankauf/Verkauf/Gebühren ohne DST-zuordenbare heutige Liste; Zertifikats-/Rechtsnachfolgekette und Annahmestelle vor GEO klären. Quelle: https://prezero.com/de/ueber-uns/standorte/l/detmold/westerfeldstrasse-20/2761165 ; Suchlead: https://branchenbuch.meinestadt.de/detmold/company/15028966 .]
+
 ### Recherche 14.10.2026 — 18:00-Welle A
 
 - [Recherche 14.10.2026: Northdata HRA 3207 erneut direkt geprüft: Verschmelzung auf Tönsmeier Entsorgung GmbH & Co. KG 10.06.2009, Löschung 16.07.2009. Neuer Gegenabruf des verzeichnisverlinkten PreZero-Pfads unter prezero.de liefert allgemeine aktuelle Konzernstartseite statt Detmold/Westerfeldstraße-Detail. Somit weder aktueller Standort noch vollständige DST→Tönsmeier→PreZero-Kette daraus freigegeben; Betreiberfinder/örtliches Zertifikat als nächste Schritte. Keine Frontmatter-Fills oder Schließungsmarkierung, keine Ankauf-/Verkaufs-/Gebührentarife; GEO offen. Quellen: https://www.northdata.de/DST-Wertstoffsortierung%20und%20Recycling%20GmbH%20%26%20Co%C2%B7%20KG,%20Detmold/Amtsgericht%20Lemgo%20HRA%203207 ; https://prezero.de/ueber-prezero/standorte/l/detmold/westerfeldstrasse-20/2761165]

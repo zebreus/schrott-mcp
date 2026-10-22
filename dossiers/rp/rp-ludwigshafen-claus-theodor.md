@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für Ludwigshafen ließ sich kein Betreiber „Claus Theodor“ identifizieren. Die gleichnamige Theodor Claus GmbH ist über ihre eigene aktuelle Website eindeutig in Mannheim (Pfingstweidstr. 37, HRB 5236) verortet; diese Firma wird nicht dem Ludwigshafen-Slug zugeordnet. Offen bleibt, ob der Seed ein Ortsfehler oder ein separater, noch unidentifizierter Händler ist.
+Für Ludwigshafen ließ sich kein Betreiber „Claus Theodor“ identifizieren. Die eigene Website der Theodor Claus GmbH verortet die Firma eindeutig in Mannheim (Pfingstweidstr. 37, HRB 5236) und führt dort Schrott-/Metallhandel, Nutzeisen und Containerdienst. Der aktuelle Kontaktauftritt nennt Mo-Fr 07:00-15:45; die ältere Recherche notierte 07:00-16:30. Diese Zeitabweichung betrifft nur Mannheim und ist kein Ludwigshafen-Beleg. Offen bleibt, ob der Seed ein Ortsfehler oder ein separater, unidentifizierter Händler ist.
 
 ## Timeline
+
+### Recherche 21.10.2026 (Welle RP)
+
+- [Recherche 21.10.2026: Impressum, Kontakt- und Leistungsseite der Betreiberwebsite direkt erneut gelesen. Das Impressum nennt weiterhin Theodor Claus GmbH, Pfingstweidstr. 37, 68199 Mannheim, HRB 5236 AG Mannheim; die Kontaktseite weist aktuell Mo-Fr 07:00-15:45 aus und weicht damit von den in der Recherche 06.10. notierten 07:00-16:30 ab. Die Leistungsseite nennt Schrott-/Metallhandel, Nutzeisen und Containerdienst, aber keine numerische Ankaufs-/Verkaufspreisliste oder Gebührenordnung. Kein Ludwigshafen-Standort, keine Gesellschafts-/Filialzuordnung dorthin; keine Daten in den LU-Datensatz übertragen. ANKAUF/VERKAUF/GEBÜHREN für Ludwigshafen bleiben mangels eigener Identität unbelegt. Quelle(n): https://www.claus-schrott.de/impressum ; https://www.claus-schrott.de/kontakt ; https://www.claus-schrott.de/unsere-dienste .]
 
 ### Recherche 08.10.2026
 

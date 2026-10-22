@@ -28,6 +28,10 @@ Das Örtliche und Gelbe Seiten stimmen beim Verzeichniseintrag „Schrott Sabine
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Recherche 19.10.2026: Örtliche-Profil direkt gelesen, exakte Namenssuche unabhängig wiederholt: weiterhin nur Telefonbuch-/Branchenportale mit Obere Buchgasse11/0922183256. Das Örtliche nennt ausdrücklich mögliche vom Verlag/Dritten recherchierte Inhalte und ein NICHT aktiviertes SELLWERK-Trusted-Siegel; kein nachgewiesenes Betreiberprofil oder aktuelles Leistungsangebot. Die Namensfolge „Schrott Sabine“ belegt weder einen Handelsnamen noch die im alten Überblick angenommene Betreiberinnenrolle; vor Gewerbeauskunft auch Familienname Schrott als mögliche Fehlklassifikation prüfen, nicht als erwiesenen Fehler ausgeben. Keine neuen Felder, Alt-Adresse/Telefon bleiben unqualifizierte Leads. Ankauf/Verkauf/Gebühren ohne belegte Zahlen; GEO erst nach vollständiger Identitäts- und Annahmeklärung. Quelle (Lead): https://www.dasoertliche.de/Themen/Schrott-Sabine-Kulmbach-Obere-Buchgasse .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Kleinstbetrieb)

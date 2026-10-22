@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-KVJ Dienstleistungen ist dem bisherigen Betreiber-Einzelbeleg zufolge Viktor Jakobi in Wolfsburg zugeordnet. Die früher aus dem Impressum gelesene Jenaer Str. 27 ist keine zweifach belegte öffentliche Schrottannahmeadresse. Der aktuelle Direktabruf ist durch HTTP 403 begrenzt; das beweist weder eine tote Website noch eine Betriebsschließung. Keine Annahme-/Abholbedingungen oder aktuellen Ankauf-, Verkaufs- und Gebührenkurse verifiziert. Straße und weitere Kontaktdaten bleiben bis zu Betreiber-/Gewerbeabgleich leer.
+KVJ Dienstleistungen ist dem bisherigen Betreiber-Einzelbeleg zufolge Viktor Jakobi in Wolfsburg zugeordnet. Jenaer Str. 27 erscheint auf der Betreiber-Kontaktseite im Suchindex, aber nicht als unabhängig bestätigte öffentliche Schrottannahmeadresse. Der Direktabruf bleibt durch HTTP 403 begrenzt; das beweist weder eine tote Website noch eine Betriebsschließung. Straße und weitere Kontaktdaten bleiben bis zu Betreiber-/Gewerbeabgleich leer.
+
+- **Ankauf:** keine aktuell verifizierten Annahmebedingungen oder Ankaufspreise.
+- **Verkauf:** keine belegte Material-/Preisliste.
+- **Gebühren:** keine Abhol-/Entsorgungstarife oder Gratisbedingungen belegt.
+- **GEO:** keine Geokodierung der Jenaer Straße, bis ein öffentlich zugänglicher Annahmehof nachgewiesen ist.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Die Suchmaschine zeigt auf der Betreiber-Domain eine Kontaktseite mit Jenaer Str. 27, 38444 Wolfsburg und täglich 07:00–22:00; der Direktabruf dieser Seite lieferte HTTP 403. Der Suchindex ist keine frisch gelesene Betreiberseite und die Zeiten belegen weder Schrottannahme noch öffentlichen Kundenverkehr. Cylex nennt ebenfalls die Adresse, bleibt aber Aggregator. Keine Änderungen an Straße/Telefon/Status, kein GEO; Ankauf/Verkauf/Gebühren ohne verifizierte Preise. Quelle(n): https://www.kvj-dienstleistungen.de/kontakt ; https://web2.cylex.de/firma-home/kvj-dienstleistungen-16365195.html.]
 
 ### Recherche 18.10.2026 (Welle 0200 B)
 

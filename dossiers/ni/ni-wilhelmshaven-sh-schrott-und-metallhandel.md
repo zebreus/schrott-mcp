@@ -33,6 +33,10 @@ Die vermeintliche Widerspruchslage ist im erneut gelesenen NorthData-Profil eine
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: NorthData HRB 205502 direkt erneut gelesen: Terminierungszeichen, Löschungsankündigung 30.07.2019 gefolgt von Löschung 10.09.2019. Öffentlich sichtbare Adresse nur Wilhelmshaven; Gökerstr. 114 wird dadurch nicht frisch bestätigt. Neue Suche liefert unter anderem LSB GmbH Planckstraße und ALBA/früher Jade-Stahl, aber keine qualifizierte Verbindung dieser Betriebe zur SH UG. Keine Nachfolge aus Orts-/Branchenähnlichkeit konstruiert. ANKAUF/VERKAUF/GEBÜHREN keine aktuelle SH-Liste; Leistungen/Preise anderer Wilhelmshavener Betreiber ausgeschlossen. Owner: amtlichen Löschungswortlaut und mögliche neue Gewerbeidentität getrennt klären, kein GEO für historische Gökerstraße freigeben. Frontmatter/status pruefung unverändert. Quelle: https://www.northdata.de/SH+Schrott-und+Metallhandel+UG+(haftungsbeschr%C3%A4nkt),+Wilhelmshaven/Amtsgericht+Oldenburg+HRB+205502 ; https://www.lsb-gmbh.com/ (nur Suchindex-Gegenabgrenzung).]
+
 ### Recherche 14.10.2026 (18:00-Welle C)
 
 - [Recherche 14.10.2026: Registerspiegelprofil direkt gelesen: SH Schrott- und Metallhandel UG, AG Oldenburg HRB 205502/EUID DEP3210.HRB205502, Unternehmensgegenstand Handel mit Schrott/Altmetallen, Eintragungspublikation 25.03.2011 (GF Nina Hasanovic, Kapital 500 EUR). Publikationsfolge ausdrücklich Löschungsankündigung 30.07.2019 und Löschung 10.09.2019. Damit ist der alte Vermerk zur beabsichtigten Löschung nicht zwingend ein Gegenbeleg, sondern kann eine ältere Prozessstufe referieren; die im Überblick zuvor behauptete spätere Ankündigung ist nicht belegt. Detail Löschung ?id=5560062171 direkt aufgerufen, Premium-gesperrt; kein vollständiger Wortlaut/amtlicher Originalabzug gelesen. Keine aktuelle Standort-/Nachfolgebehauptung; Quelle(n): https://www.northdata.de/SH+Schrott-und+Metallhandel+UG+(haftungsbeschr%C3%A4nkt),+Wilhelmshaven/Amtsgericht+Oldenburg+HRB+205502 ; https://www.northdata.de/?id=5560062171 .]

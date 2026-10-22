@@ -28,6 +28,10 @@ Die Branchenverzeichnisse führen ALEX Goldankauf an Roßmarkt 39 A, 63739 Ascha
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Ein Suchtreffer zum möglichen Facebook-Auftritt „ALEX Goldankauf Juwelier“ beschreibt Gold-/Silberankauf (u. a. Alt- und Zahngold) zu „Höchstpreisen“; der Direktaufruf des Profils lieferte keinen auswertbaren Inhalt und damit keine unabhängige Bestätigung für Betreiber, Roßmarkt 39 A oder aktuelle Öffnung. Nur Social-Suchlead, kein neuer Frontmatter-Fill. „Höchstpreise“ ist keine numerische Ankaufpreisliste; Verkaufspreise und Gebühren ebenfalls nicht veröffentlicht. Offen: rechtlicher Inhaber und aktuelle Zuordnung des Profils zum Laden. Keine neuen Koordinaten. Quelle: https://www.facebook.com/p/ALEX-Goldankauf-Juwelier-100057339164830/ (Profilinhalt beim Direktabruf nicht verfügbar)]
+
 ### Recherche 14.10.2026 (18:00-Welle B)
 
 - [Recherche 14.10.2026: Bekannten Facebook-Kandidaten direkt erneut abgerufen, aber kein auswertbarer Inhalt zurückgegeben. Damit weder aktueller Betreibername noch Roßmarkt 39 A noch Öffnungszeiten über Social verifiziert; früher genannte Bewertungen bleiben ausdrücklich kein Beleg. Eigene Websuche liefert keine Ergebnisse, das ist eine Recherchegrenze, kein Schließungsbefund. ANKAUF/VERKAUF/GEBÜHREN: keine neu gelesenen numerischen Preise, keine Übertragung Kölner Juwelierkurse. Frontmatter unverändert; GEO nur nach Gewerbe-/Social-Identitätsbestätigung. Owner: rechtlichen Inhaber des Ladens am Roßmarkt über Gewerbeauskunft Aschaffenburg ermitteln; Quelle: https://www.facebook.com/p/ALEX-Goldankauf-Juwelier-100057339164830/ (Abruf ohne auswertbaren Inhalt); Altleads siehe 04./07.10.]

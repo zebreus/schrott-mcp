@@ -30,6 +30,10 @@ Betreiberwebsite zu Robert Hammerschmidt, Recycling-/Container-Service in Langwe
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Recherche 19.10.2026: Neue gezielte Register-/Firmenrecherche findet passendes Creditreform-Profil8030359506 Robert Hammerschmidt Containerservice & Schrotthandel, Gartenstr.14a/86462, Website hammerschmidt-schrott.de. Nur Suchauszug gelesen, Detail403; deshalb kein abgeschlossener Zweitbeleg und keine Kontakt-/Adressfills. Maschinenverkauf direkt erneut gelesen: Informationsblock Ebnerstrasse25, Footer Gartenstraße14a, beide Langweid, derselbe Mobilkontakt01727347041; Widerspruch besteht weiterhin. Bildtitel/Beispielfotos belegen keinen aktuellen Maschinenbestand oder Preis. Ankauf: Vorwellen-Maschinenankauf nicht neu vollständig geprüft, keine neue Zahlenliste; Verkauf: Bestand ausdrücklich auf Anfrage, ohne Beträge; Gebühren: keine Tarifliste auf dieser Seite. GEO nicht durch neuen Gartenstraßen-Indexlead lösen: tatsächliche Kunden-/Lageradresse und Funktion beider Anschriften unabhängig klären. Quellen: https://hammerschmidt-schrott.de/maschinenverkauf/ ; https://firmeneintrag.creditreform.de/86462/8030359506/ROBERT_HAMMERSCHMIDT_CONTAINERSERVICE_SCHROTTHANDEL (Suchauszug, Detail403).]
+
 ### Recherche 16.10.2026 (Shard 2)
 
 - [Recherche 16.10.2026: Home, Impressum, Leistungen und Maschinenverkauf direkt gelesen. Neuer Adresskonflikt innerhalb derselben Website: Impressum/Footer Gartenstraße 14a versus Informationsblock Maschinenverkauf Ebnerstrasse 25, jeweils 86462 Langweid. Beide sind eine Betreiberquelle, kein unabhängiges Belegpaar; Annahme-/Lagerfunktion unklar. Kontaktpfad beim zusätzlichen Abruf 403, keine Schließung daraus abgeleitet. Expliziter Maschinenankauf und Verkauf dokumentiert; keine numerischen Ankauf-/Verkaufspreise oder Service-/Containergebühren. Frontmatter unverändert; GEO und unabhängiger Betreiberbeleg offen. Quellen: https://hammerschmidt-schrott.de/ ; https://hammerschmidt-schrott.de/impressum/ ; https://hammerschmidt-schrott.de/unsere-leistungen/ ; https://hammerschmidt-schrott.de/maschinenverkauf/ ; https://hammerschmidt-schrott.de/kontakt/ (403).]

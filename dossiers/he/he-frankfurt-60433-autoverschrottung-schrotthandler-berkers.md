@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der generische Seed passt als Kandidat zu Auto-Gärtner/Horst Gärtner am Berkersheimer Weg 165, 60433 Frankfurt: Die Vorrecherche fand dieselbe Rufnummer 069 516778. Rechtliche Zuordnung und heutiger Betrieb sind jedoch nicht unabhängig bestätigt; Betreiberinhalte waren älter und E-Mail-Angaben widersprüchlich. Keine Umbenennung oder Adress-/Domainübernahme auf dieser Basis. Ankauf-, Verkaufs- und Gebührenpreise nicht gesichert; `pruefung` bleibt.
+Der generische Seed passt als Kandidat zu Auto-Gärtner/Horst Gärtner am Berkersheimer Weg 165, 60433 Frankfurt: die Betreiberseite nennt weiterhin die Dossiernummer 069 516778 und zusätzlich 069 540566. Rechtliche Zuordnung des generischen Seeds und heutiger Betrieb sind nicht unabhängig bestätigt; die Website trägt weiterhin ©2014. Keine Umbenennung oder Adress-/Domainübernahme auf dieser Basis. Ankauf-, Verkaufs- und Gebührenpreise nicht gesichert; `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Impressum und Fahrzeugangebotsseite des Kandidaten Auto-Gärtner erneut direkt gelesen. Horst Gärtner, Berkersheimer Weg 165/60433 und 069 516778 bestätigt; die Seite nennt außerdem 069 540566 und im Impressum auto.gaertner@web.de, Copyright weiterhin 2014. Die Fahrzeugmaske fragt nach einer eigenen Preisvorstellung; sie veröffentlicht keinen ANKAUFskurs. „Kostenloses Fahrzeug zum Ankauf oder kostenlose Verschrottung anbieten“ belegt nur das Angebotsformular, nicht pauschal eine kostenlose Abholung/Entsorgung jedes Fahrzeugs. VERKAUF: Ersatzteile werden angeboten, auf den geprüften Betreiberseiten ohne bezifferte Artikelliste; GEBÜHREN: keine Tarifliste. Der Kandidat passt über Rufnummer und Ort, bleibt aber mangels unabhängiger Identitäts- und Aktualitätsbestätigung vom generischen Seed getrennt. Quellen: http://www.xn--auto-grtner-q8a.de/impressum/ ; http://www.xn--auto-grtner-q8a.de/autoankauf-pkw-lkw/ ; http://www.xn--auto-grtner-q8a.de/teile-pkw-lkw/.]
 
 ### Recherche 18.10.2026 (02:00-Welle C)
 

@@ -4,9 +4,9 @@ name: Lehr Martin Schrotthandel u. Containerdienst
 trader_type: containerdienst
 state: RP
 city: Hanhofen
-street: Harthauser Str. 40
-postcode: 67374
-phone: 06344 4426
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Martin Lehr Schrotthandel und Containerdienst“ wird nur in Branchenverzeichnissen mit Harthauser Straße 40, 67374 Hanhofen und 06344 4426 geführt. Es gibt keinen identifizierten Betreiberauftritt oder Registerbeleg; nahe gleichnamige Einträge (Peter Lehr, Harthauser Str. 41; Rudolf Lehr, Silzweg 16) sind getrennte Leads und werden nicht zusammengeführt. Die frühere strukturierte Straße, PLZ und Telefonnummer wurden mangels belastbarer Quelle entfernt. ANKAUF: ungeklärt, keine Preise; VERKAUF: keine Materialpreisliste; GEBÜHREN: keine Container-/Entsorgungstarife. Betreiberidentität und Leistungstiefe offen.
 
 ## Timeline
+
+### Korrektur/Recherche 22.10.2026
+
+- [Korrektur 22.10.2026: Aktuelle Gelbe-Seiten- und Stadtbranchenbuch-Suchergebnisse führen Martin Lehr an Harthauser Str. 40, 67374 Hanhofen, 06344 4426, aber keine eigene Betreiberseite, kein Impressum und keinen eindeutig zugeordneten Registereintrag. Verzeichnisangaben zu Peter Lehr (Harthauser Str. 41) und Containerdienst Rudolf Lehr (Silzweg 16) sind getrennte Unternehmen/Leads. Die bisher im Frontmatter stehenden Adresse, PLZ und Nummer wurden geleert; historische Verzeichnisübernahme bleibt unten erhalten. ANKAUF: nicht belegt, kein Kurs; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Keine Koordinaten abgeleitet. Quelle(n): https://hanhofen.stadtbranchenbuch.com/ (Verzeichnis); https://www.gelbeseiten.de/branchen/containerdienst/speyer (Verzeichnis).]
 
 ### Recherche 02.10.2026
 

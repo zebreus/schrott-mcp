@@ -28,6 +28,10 @@ Der Seed nennt Hauptstr. 7 in Wölschendorf; die Adresse und PLZ 23936 stammen b
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die Grevesmühlen-Übersichtsseite von Schrottplatz-Info direkt erneut gelesen. Sie führt Kähler Schrotthandel Rebesky mit Hauptstr. 7, 23936, ordnet den Treffer aber unter „Grevesmuehlen“ ein; die Frontmatter-Bezeichnung Wölschendorf/Ortsteil bleibt dadurch ein nicht amtlich geklärter Ortsbezug. Der Eintrag ist ein Portalbeleg, keine Betreiberbestätigung; Telefonnummernkonflikt und Status pruefung bleiben. ANKAUF: kein Kurs; VERKAUF: keine Preisliste; GEBÜHREN: keine Anliefer-, Abhol- oder Containergebühr. Keine Korrektur/Geokodierung. Quelle: https://www.schrottplatz-info.de/schrottplatz/Grevesmuehlen .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: ANKAUF: Schrotthandel wird in Verzeichnissen behauptet, aber kein konkreter oder numerischer Ankaufspreis ist belegt.; VERKAUF: Keine Teile-/Materialpreisliste in den dokumentierten Verzeichniseinträgen.; GEBÜHREN: Keine Anliefer-, Abhol- oder Containergebühr belegt.; GEOKODIERUNG: Hauptstr. 7 / 23936 bleibt aggregatorbasiert; wegen ungeklärter Betreiberidentität zunächst nicht geokodieren. Telefonkonflikt separat klären.; Quelle: https://www.schrottplatz-info.de/schrottplatz/Grevesmuehlen ; https://www.schrottplatz.org/bernstorf ; 11880-Eintrag laut Recherche 02.10.2026 (Portal, abweichende Telefonnummer).]

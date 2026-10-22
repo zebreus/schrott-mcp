@@ -28,6 +28,10 @@ Mobiler Abhol-/Demontageanbieter laut bisherigem Seed und Betreiber-Suchindex; B
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberwebsite-Suchergebnisse zeigen weiterhin den Auftritt „BINKLE Schrotthandel & Demontagen“ mit Ansprechpartner Dennis Binkle und Werbung für kostenlose Saarland-Abholung; das Instagram-Profil @schrotthandel_binkle nennt dieselbe Mobilnummer 0176 81145949. Direkte Abrufe von Website-Root und Impressum endeten mit HTTP 403, Instagram zeigte nur die Anmeldeseite. Diese Such-/Profilhinweise bestätigen keine Rechtsidentität oder Adresse; Kontaktskalare bleiben leer, website_status=blockiert und status=pruefung unverändert. ANKAUF: keine numerischen Kaufkurse; kostenlose Abholung ist kein vergüteter Ankauf. VERKAUF: keine Preisliste; GEBÜHREN: keine aktuellen Demontage-/Entsorgungstarife. Quellen: https://www.schrotthandel-binkle.de/ ; https://www.schrotthandel-binkle.de/impressum/ ; https://www.instagram.com/schrotthandel_binkle/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - mobile Abholung, Demontagen

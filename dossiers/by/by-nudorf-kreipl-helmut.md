@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed nennt „Kreipl Helmut“ und Rauschbergstr. 2, ordnet den Ort aber nur als Nußdorf zu; Nußdorf am Inn und Nußdorf am Chiemsee bleiben als mögliche Ortsbezüge auseinanderzuhalten. Die direkte Gelbe-Seiten-Suche für Nußdorf am Inn zeigte nur namensähnliche Betriebe in Kolbermoor/Rosenheim, darunter AIB KREIPL Baumaschinen, nicht Helmut Kreipl oder Schrott. Keine Adresse/Kontakte bestätigt, `status: pruefung`. **Ankauf:** keine Preisangaben; **Verkauf:** keine Preise; **Gebühren:** keine Tarife belegt.
+Der Seed nennt „Kreipl Helmut“ und Rauschbergstr. 2. Ein aktueller Das-Örtliche-Eintrag konkretisiert den Ortslead als Nußdorf-Aiging, 83365, und nennt 08669 62 10; er ist jedoch ein Verzeichnisdatensatz, kein Betreiber- oder Registerbeleg. Damit wird Nußdorf am Inn als Zuordnung unwahrscheinlicher, aber Betreiber und aktuelle Annahmestelle sind nicht bestätigt. Felder bleiben bis zu einem zulässigen Zweitbeleg unverändert, `status: pruefung`. **Ankauf:** keine Preisangaben; **Verkauf:** keine Preise; **Gebühren:** keine Tarife belegt. Adresse/PLZ sind GEO-Kandidaten, noch nicht als bestätigter Annahmepunkt zu geokodieren.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Das Örtliche führt „Kreipl Helmut Schrott- und Metallhandel“ an Rauschbergstr. 2, 83365 Nußdorf-Aiging, Telefon 08669 62 10. Das konkretisiert den Seed-Ort „Nußdorf“ gegenüber den bisherigen ergebnislosen Suchen zu Nußdorf am Inn; die Seite erklärt selbst, dass Eintragsinhalte vom Verlag und Dritten recherchiert sein können. Kein Betreiberlink, Impressum oder Registerbeleg und kein unabhängiger zweiter zulässiger Nachweis gefunden; daher Straße aus Seed behalten, PLZ/Telefon/Ortspräzisierung nicht in Frontmatter übernommen. **Ankauf/Verkauf/Gebühren:** keine Konditionen oder Preise; aktuelle Annahme offen. GEO-Kandidat Nußdorf-Aiging/Rauschbergstr. 2 erst nach Identitäts- und Annahmestellenbestätigung. Quelle: https://www.dasoertliche.de/Themen/Kreipl-Helmut-Schrott-und-Metallhandel-Nußdorf-Aiging-Rauschbergstr .]
 
 ### Recherche 04.10.2026
 

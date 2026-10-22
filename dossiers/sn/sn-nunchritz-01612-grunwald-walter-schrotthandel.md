@@ -4,7 +4,7 @@ name: Grunwald Walter Schrotthandel
 trader_type: schrotthaendler
 state: SN
 city: Nünchritz 01612
-street: Müllerstr. 8
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Walter Grunwald Schrotthandel an Müllerstraße 8 in Nünchritz ist bisher nur eine Verzeichnisspur; Telefonnummer 035265 79486 und PLZ 01612 sind nicht als aktuelle Betreiberdaten bestätigt. Ein leeres Portal-Leistungsangebot ist weder Schließungsbeleg noch Nachweis eines Annahmehofs. **Ankauf / Verkauf / Gebühren:** keine zugeordneten Zahlen. Gewerbeidentität, gegenwärtige Tätigkeit und Material-/Kundenannahme über Betreiber oder örtliche Gewerbeauskunft prüfen; keine Geokodierung eines verifizierten Kundenstandorts behaupten.
+Walter Grunwald Schrotthandel in Nünchritz ist weiterhin nur eine Verzeichnisspur. Müllerstraße 8, Telefonnummer 035265 79486 und PLZ 01612 sind nicht als aktuelle Betreiberdaten bestätigt; die bislang strukturierte Straße wurde daher geleert. Ein leeres Portal-Leistungsangebot ist weder Schließungsbeleg noch Nachweis eines Annahmehofs. **ANKAUF:** unklar, keine Preise; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Angaben. Gewerbeidentität, aktuelle Tätigkeit und Material-/Kundenannahme bleiben offen; keine Geokodierung eines verifizierten Kundenstandorts behaupten.
 
 ## Timeline
+
+### Korrektur/Recherche 22.10.2026
+
+- [Korrektur 22.10.2026: Erneute Namens-/Ortssuche und Direktprüfung des Schrottplatz-Info-Pfads ergeben keinen Betreiber-/Registerbeleg; der Portalpfad zeigt kein verwertbares Betreiber-Leistungsangebot. Die seit 01.10. nur über Aggregatoren geführte Müllerstr. 8 wurde aus `street` entfernt. Die alte Adresse/Telefonnummer 035265 79486 bleiben als historische Leads in den bisherigen Notizen erhalten; weder Aktivität noch Schließung abgeleitet. ANKAUF: nicht belegt, keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Offen: Inhaber, aktuelle Geschäftsadresse und tatsächliche Materialannahme. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Nuenchritz/Grunwald-Walter-Schrotthandel (leerer Aggregatorpfad); https://www.northdata.de/?query=Grunwald%20N%C3%BCnchritz (Suche ohne eindeutigen Treffer, kein Nichtexistenzbeleg).]
 
 ### Recherche 08.10.2026
 

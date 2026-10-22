@@ -30,6 +30,10 @@ Der Seedname „Häffner“ ist bislang nicht als Schrotthändler in Asperg veri
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die offizielle Website und ihr Impressum direkt gelesen. Die Häffner GmbH & Co. KG, HRA 201157 Stuttgart, nennt Friedrichstraße 3, 71679 Asperg; der Betreiber beschreibt Chemiedistribution und chemische Produkte, nicht Schrottannahme oder Metallhandel. Die gemeinsame Orts-/Namensspur und ein Schrottregister-Verzeichniseintrag belegen daher keine Identität des Seeds „Häffner“ als Schrotthändler. Kein Alias, keine Kontaktübernahme, keine GEO. Ankauf/Verkauf/Gebühren bleiben für den Schrott-Seed unbelegt. Quellen: https://hugohaeffner.com/ ; https://hugohaeffner.com/impressum/ .]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall Identitätszweifel — einziger namensähnlicher Betrieb in Asperg ist Hugo Häffner GmbH & Co. KG (Chemiedistribution, Friedrichstr. 3, 71679 Asperg, HRA 201157), KEIN Schrotthändler; Schrottbezug unbelegt, Frontmatter leer gelassen; Quellen: https://hugohaeffner.com/ (Chemie, kein Schrottankauf); Hinweis schrottregister-Verzeichnis (Lead, kein Beleg): https://schrottregister.pages.dev/betrieb-haffner-gmbh-co-kg-asperg (listet Häffner GmbH & Co. KG, Friedrichstraße 3, 71679 Asperg mit Sammeln/Befördern/Lagern/Handeln/Makeln — Zuordnung zum Seed-Schrotteintrag ungeklärt, ggf. Fehlzuordnung oder Entsorgungsfachbetrieb-Zertifikat des Chemiebetriebs); Folge: HR-/Gewerberegister-Abgleich nötig]

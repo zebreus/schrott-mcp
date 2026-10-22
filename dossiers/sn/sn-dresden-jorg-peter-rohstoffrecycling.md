@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://schrottpeter.de
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -29,6 +29,14 @@ Die Betreiberwebsite nennt **Jörg Peter Rohstoffrecycling**, Inhaber Ron Peter,
 **Preise:** **Ankauf** von Schrott/Metall und Altpapier zu aktuellen Tageshöchstpreisen laut Betreiber, aber ohne numerische Preisliste; keine Pappe laut Betreiber. **Verkauf**: keine öffentliche Preisliste gefunden. **Gebühren**: Containerdienst 5–38 m³, aber keine bezifferten Container-, Abhol- oder Entsorgungstarife gefunden. **Geokodierung:** Leipziger Str. 276a, 01139 Dresden ist ein Standortkandidat, noch keine freigegebene Koordinate.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiber-Startseite und Impressum direkt gelesen: Jörg Peter Rohstoffrecycling, Inhaber Ron Peter (Einzelunternehmer), Leipziger Str. 276a, 01139 Dresden, Telefon 0351 8490925 und info@schrottpeter.de. Betreiber nennt Schrott-/Metallannahme zu aktuellen Tageshöchstpreisen, Altpapierankauf von Zeitungen/Zeitschriften/Katalogen (keine Pappe), Container 5–38 m³, Kabelschrottrecycling, Altbatterie- und Elektronikschrottannahme sowie Öffnungszeiten Mo–Fr 10–16. Keine numerischen Ankaufspreise, Verkaufspreise oder Container-/Entsorgungsgebühren veröffentlicht. Wegen fehlender unabhängiger Zweitquelle für Einzelunternehmer keine neuen Adress-/Kontaktfelder oder Koordinaten eingetragen; bestehende Website-/Statusangaben bleiben. ANKAUF: tagesaktuelle Preise nur auf Anfrage, keine Zahlen; VERKAUF: keine Preisliste; GEBÜHREN: kein bezifferter Tarif. Quelle(n): https://schrottpeter.de/; https://schrottpeter.de/impressum/.]
+
+### Owner-Gate 22.10.2026
+
+- [Korrektur 22.10.2026: Review B bestätigte, dass Startseite und Impressum dieselbe Betreiberquelle sind und das Impressum Ron Peter als Einzelunternehmer ohne Handelsregistereintrag ausweist. Ein unabhängiger Beleg aus der README-Quellenhierarchie fehlt; daher ist die aktuelle Geschäftstätigkeit nicht unabhängig bestätigt. `status` von `aktiv` auf `pruefung` gesetzt, `website_status: aktiv` als Erreichbarkeit der Betreiberwebsite beibehalten. Anschrift und Kontakt bleiben leer; keine Koordinaten ergänzt. Quelle(n): https://schrottpeter.de/; https://schrottpeter.de/impressum/.]
 
 ### Recherche 06.10.2026
 

@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://www.schrott-ruege.de/
-website_status: ''
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -29,6 +29,10 @@ Betreiber-Einzelbeleg: Schrott & Metalle Torsten Rüge, Inhaber Steffen Tiede, W
 **ANKAUF:** Preise telefonisch; die „Liste“ auf der Startseite ist auf der Metallseite eine Materialliste, keine bezifferte Tagespreistabelle. **VERKAUF:** keine Zahlenliste gefunden. **GEBÜHREN:** Container/Gitterboxen nur nach erfragten Konditionen, keine Gratiszusage. „Aktuelle Schrottpreise“ in News ist ein allgemeiner Artikel vom 15.01.2020, kein aktueller Kurs.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Kontaktseite des Betreiberauftritts live erneut gelesen: Steffen Tiede, Wöbbeliner Straße 69, 19288 Ludwigslust, 03874 22027/0173 6903467, info@schrott-ruege.de und Mo–Fr 08–16 Uhr; Samstag/außerhalb nur nach Vereinbarung. Website ist erreichbar und thematisch zuordenbar, daher `website_status: aktiv`; übrige Kontaktfelder bleiben wegen fehlendem unabhängigen zweiten Betreiber-/Registerbeleg leer. Ankauf: Preise telefonisch, Materialarten sind keine Preisliste; Verkauf: keine Zahlenliste; Gebühren/Containerkonditionen auf Anfrage, nicht als kostenlos behaupten. Quelle: https://www.schrott-ruege.de/kontakt (Abruf 21.10.2026).]
 
 ### Recherche 14.10.2026
 

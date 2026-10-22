@@ -3,10 +3,11 @@ slug: he-buseck-35418-fischer-wohnwagenverwertung
 name: Fischer Wohnwagenverwertung
 trader_type: sonstige
 state: HE
-city: Buseck 35418
-street: Weidenstr. 26
-postcode: '35418'
-phone: (0171) 6201608
+city: Buseck
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Fischer Wohnwagenverwertung“ bleibt ein nur über Verzeichnisse belegter Kandidat in Buseck. Weidenstr. 26, 35418 und 0171 6201608 erscheinen in Portalangaben, aber weder ein Betreiber-/Registerbeleg noch eine aktuelle öffentliche Annahmestelle wurden gefunden. Straße, Postleitzahl und Telefon sind daher aus dem Frontmatter entfernt; das ist eine Quellenkorrektur, kein Nachweis, dass die historischen Angaben falsch sind.
+
+**Preise:** **ANKAUF** – keine belegten Vergütungskurse; **VERKAUF** – keine Teile-/Fahrzeugpreisliste; **GEBÜHREN** – keine Angaben. **GEO:** keine Geocodierung bis Betreiber und öffentlicher Kundenstandort bestätigt sind.
 
 ## Timeline
+
+### Korrektur/Recherche 20.10.2026
+
+- [Korrektur/Recherche 20.10.2026: Der Schrottplatz24-Eintrag zur Fischer Wohnwagenverwertung und der direkt geöffnete 11880-Treffer wiederholen Weidenstr. 26, 35418 Buseck, Tel. 0171 6201608; kein Betreiber-/Registerbeleg oder unabhängiger Nachweis eines Kundenstandorts. Die bislang seed-/portalbasierten Werte Straße, PLZ und Telefon deshalb im Frontmatter geleert; dies ist eine Quellenqualitätskorrektur und kein Beweis, dass die Angaben falsch sind. Kein Website-Fill. ANKAUF/VERKAUF/GEBÜHREN: keine zugeordnete Preisliste. GEO: Betreiber und öffentlich zugängliche Annahmestelle erst lokal bestätigen. Quellen: https://www.schrottplatz24.net/stadt/buseck/profil/fischer-wohnwagenverwertung/ ; https://www.11880.com/branchenbuch/buseck/060440459B42800117/fischer-wohnwagenverwertung.html (Verzeichnislead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

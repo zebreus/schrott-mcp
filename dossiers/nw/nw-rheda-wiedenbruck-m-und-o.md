@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein 11880-Detailprofil führt „Schrotthandel M und O“ mit Bismarckstr. 25, 33378 Rheda-Wiedenbrück und 0176 61577818. Es bleibt ein Branchenportal-Lead: die dortigen Eintragsdaten sind vom 15.08.2024; die Portalaktualisierung am 03.10.2026 ist keine Betreiberprüfung. Website, Mail, Zeiten und ein zweiter zulässiger Beleg fehlen.
+
+**ANKAUF:** keine verifizierte Preisangabe oder Preisliste. **VERKAUF/GEBÜHREN:** keine zuordenbaren Preis- oder Tariflisten. **GEO:** Adresse nicht geokodieren, bevor Identität und aktueller Betriebs-/Kundenstandort bestätigt sind.
 
 ## Timeline
 
@@ -41,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Rheda-Wiedenbrück
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Das direkt gelesene 11880-Profil führt Bismarckstr. 25, 33378 Rheda-Wiedenbrück und 0176 61577818; es weist Eintragsdaten vom 15.08.2024 und eine Portalaktualisierung vom 03.10.2026 aus. Das ist weiterhin nur ein Aggregator, keine Betreiber- oder Registerbestätigung; die Portalaktualisierung belegt keine aktuelle Betriebsprüfung. Kein unabhängiger Identitätsbeleg, keine Betreiberwebsite, keine Öffnungszeiten. ANKAUF: keine Preisangabe/Preisliste. VERKAUF: keine Liste. GEBÜHREN: keine Tarife, auch keine belegte Kostenfreiheit. GEO offen: Bismarckstr. 25 bleibt Lead, keine Annahmestelle bestätigt. Quelle: https://www.11880.com/branchenbuch/rheda-wiedenbrueck/120674719B107318584/schrotthandel-m-und-o.html]

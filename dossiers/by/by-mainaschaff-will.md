@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Für Heinz Will GmbH & Co. KG (HRA 3932, AG Aschaffenburg) ist An der Senne 25, 63814 Mainaschaff als Register-Geschäftsanschrift ausgewiesen. Die frühere Komplementärin Heinz Will Verwaltungs-GmbH wurde 2015 in Mehring GmbH Schrott, Recycling, Containerdienst umbenannt; deren heutige Betreiberwebsite beschreibt den Standort in Dorfprozelten. Das belegt die Rechtsträgerhistorie, aber weder einen aktuellen Mainaschaffer Kundenplatz noch eine Fortführung des Händlerbetriebs dort. Nicht mit dem separaten Dossier `by-mainaschaff-63814-heinz-will` (Hauptstr. 72) zusammenführen.
+Für Heinz Will GmbH & Co. KG (HRA 3932, AG Aschaffenburg) ist An der Senne 25, 63814 Mainaschaff als ältere Register-Geschäftsanschrift ausgewiesen. Das bvse-Mitgliederverzeichnis führt separat ein Unternehmen gleichen Namens unter Industriestraße 18, 97904 Dorfprozelten; die Seite nennt keine HRA-Nummer oder Verbindung zur HRA 3932. An derselben Dorfprozeltener Adresse verortet die eigene Mehring-Website die rechtlich getrennt bezeichnete Mehring GmbH. Das ergibt eine Adress-/Identitätsfrage, beweist aber weder Umzug noch gemeinsame öffentliche Annahme oder Rechtsnachfolge. Nicht mit dem separaten Dossier `by-mainaschaff-63814-heinz-will` (Hauptstr. 72) zusammenführen.
 
 - **Ankauf:** keine aktuellen Ankaufspreise oder Annahmebedingungen belegt.
 - **Verkauf:** keine Verkaufspreise.
@@ -32,6 +32,10 @@ Für Heinz Will GmbH & Co. KG (HRA 3932, AG Aschaffenburg) ist An der Senne 25, 
 - **Geokodierung:** An der Senne 25 ist als Registeradresse bekannt; Geokodierung als Händler-/Annahmestandort bis zur Auflösung der Standort- und Dossierkonflikte zurückstellen.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Das bvse-Mitgliederverzeichnis direkt gelesen: „Heinz Will GmbH & Co. KG“, Industriestraße 18, 97904 Dorfprozelten, Telefon 09392 9840412, E-Mail/Domain heinzwillkg.de. Die Seite ist ein Branchenverbands-Mitgliedereintrag, kein Registerauszug oder Betreiber-Impressum; die verlinkte Domain war im Direktabruf nicht erreichbar. Mehring GmbH nennt dieselbe Adresse im eigenen Impressum, bleibt aber ein anderer Rechtsträger. Daher keine Übertragung von Mehring-Leistungen, Preisen oder Betrieb auf die KG und keine Adressänderung im Frontmatter. Für die KG keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren gefunden; bei Mehring beworbene Tages-/Angebotskonditionen sind nicht übertragbar. Offen: aktueller HRA-Stand, KG-/Mehring-Beziehung, Zuordnung zum separaten Hauptstr.-72-Dossier und Kundenannahme. Industriestraße 18 nicht als Annahmestelle geokodiert. Quelle(n): https://www.bvse.de/mitglieder-suche/e-schrott-2/584-heinz-will-gmbh-co-kg.html ; https://www.heinzwillkg.de/ (Transportfehler); https://www.mehring-container.de/impressum/ ; https://www.mehring-container.de/schrott-und-metalle/]
 
 ### Recherche 07.10.2026
 

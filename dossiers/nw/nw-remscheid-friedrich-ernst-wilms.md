@@ -46,3 +46,7 @@ Der Seed nennt Friedrich Ernst Wilms GmbH & Co. KG und die Domain wilms-recyclin
 
 - Reinshagener Str. 21, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden (wilms-remscheid.de tot)
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Erneuter Direktabruf von https://wilms-recycling.de/ lief in dieser Sitzung in einen Timeout; auch der REMONDIS-Standortfinder lieferte keinen auswertbaren Standort-/Impressumsbeleg. Das ist weder ein Nachweis, dass die Domain tot ist, noch einer für eine REMONDIS-Übernahme. Die frühere Beobachtung von REMONDIS-Seiteninhalt und die Telefonbuchadresse bleiben getrennt zu bewertende Indizien/Verzeichnislead. Kein Feld- oder Statuswechsel. ANKAUF: keine Wilms-spezifischen Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://wilms-recycling.de/ ; https://www.remondis.de/standorte/standortfinder/ ; https://www.dastelefonbuch.de/]

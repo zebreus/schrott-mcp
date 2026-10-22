@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein möglicher, bislang nicht zugeordneter Diepholzer Lead ist „Entrümplungen Und Umzüge Aller Art“, Moorstr. 53, 49356 Diepholz, Telefon 0176 56 78 93 91 im Das-Örtliche-Verzeichnis. Ein Facebook-Suchtreffer zur gleichnamigen Seite nennt Emil Tomov und ähnliche Kontaktdaten; der Direktabruf zeigt nur eine Login-Seite. Das stützt eine Prüfspur, beweist aber weder, dass Emil Tomov der Betreiber dieses Verzeichniseintrags ist, noch einen Schrotthandel oder Metallankauf. Keine Kontaktdaten in Frontmatter übernommen; Stadt „Region ?“ und `status: pruefung` bleiben.
+
+**Ankauf:** keine Metallannahme oder Ankaufskurse belegt. **Verkauf:** keine Preise. **Gebühren:** Entrümpelungs-/Umzugspreise und Entsorgungskosten unbekannt; Facebook-Aussage zu kostenfreier Schrottabholung ist nicht als Gebührenfreiheit für andere Leistungen übertragbar. Moorstr. 53 ist ein neuer GEO-Kandidat für den Entrümpelungslead, aber nicht für den Schrotthandel; erst nach Betreiberzuordnung geokodieren.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Das Örtliche listet „Entrümplungen Und Umzüge Aller Art“ an Moorstr. 53, 49356 Diepholz, Tel. 0176 56 78 93 91. Die indexierte Facebook-Seite gleichen Namens wird mit Emil Tomov und passendem Diepholzer Kontaktlead gefunden; der direkte Facebook-Abruf endet jedoch auf einer Login-Seite und lässt weder Inhaber noch Leistungsdetails verifizieren. Kein Betreiber-/Registerbeleg für Identität mit dem Seed „Emil Tomov Entrümplungen/Schrotthandel“, keine belegte Metallannahme oder Preise. Die Adresse darf daher nicht als Schrottplatz-/Kundenannahmestelle oder Frontmatter-Kontakt behandelt werden; GEO für Moorstr. 53 nur nach Betreiber- und Nutzungsbestätigung. **Ankauf/Verkauf/Gebühren:** offen, keine Schrottkurse oder Entrümpelungstarife. Quellen: https://www.dasoertliche.de/Themen/Entr%C3%BCmpelungen/Diepholz.html ; https://www.facebook.com/p/Entr%C3%BCmpelung-und-Umz%C3%BCge-aller-Art-100089465603797 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

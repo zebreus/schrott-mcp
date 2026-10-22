@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Identität und der heutige Standort sind nicht primär belegt. Das Portal schrottplatz-info führt „Firma Leon Anders Inh. Andre Heiss“ an Jahnstr. 12a, daneben zwei ähnlich benannte Profile an Hoyerswerdaer Straße 59; Das Örtliche nennt dort „Fahrzeug- & Metallhandel Leon Anders Inh. Andre Heiß“. Dies ist ein Standort-/Dublettenkonflikt, kein belegter Umzug oder Betreiberwechsel. Der Importname darf nicht automatisch als natürliche Person interpretiert werden. Straße bleibt historischer Lead, Status jetzt `pruefung`.
+Die Identität und der heutige Standort sind nicht primär belegt. Das Portal schrottplatz-info führt „Firma Leon Anders Inh. Andre Heiss“ an Jahnstr. 12a, daneben ähnlich benannte Profile an Hoyerswerdaer Straße 59; Das Örtliche nennt dort „Fahrzeug- & Metallhandel Leon Anders Inh. Andre Heiß“. Ein 2026er Sächsische-Zeitung-Suchergebnis berichtet, André Heiß habe seine Firma nach 14 Jahren verkauft und der Schrottplatz schließe; Artikelkörper und Veröffentlichungsdatum waren beim Abruf nicht lesbar. Das ist ein wichtiger, aber nicht ausreichend aktueller/zuordenbarer Schließungs- bzw. Verkaufs-Hinweis und kein Beleg, welches Portalprofil betroffen ist oder ob ein Nachfolger weiterarbeitet. Standort-/Dublettenkonflikt und Betreiberidentität bleiben offen. Der Importname darf nicht automatisch als natürliche Person interpretiert werden. Straße bleibt historischer Lead, Status `pruefung`.
 
 **Ankauf / Verkauf / Gebühren:** keine zuordenbare numerische Preisliste; die importierte Materialliste ist nicht bestätigt. Kein GEO-Punkt vor Betreiber-/Gewerbeabgleich beider Adressen.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Sächsische Zeitung-Suchtreffer „Kamenz: Darum schließt der Schrottplatz“ nennt den Unternehmer André Heiß und sagt im sichtbaren Snippet, er habe seine Firma nach 14 Jahren verkauft. Der Direktaufruf war nicht lesbar (Zugriff/Paywall); Datum, betroffene juristische Einheit, Käufer und Fortbetrieb sind deshalb nicht verifiziert. Der Hinweis belegt weder sicher die Schließung des Jahnstraße-Profils noch die Auflösung der ähnlich benannten Hoyerswerdaer-Straße-Einträge. Keine Profil-/Statusänderung, keine Preise/Gebühren oder GEO ergänzt. Quelle (nur Suchsnippet, Artikel nicht lesbar): https://www.saechsische.de/lokales/bautzen-lk/kamenz/kamenz-darum-schliesst-der-schrottplatz-RLOPL532WXNPJG5RPR5BBBNMIY.html ; bisherige Portal-Leads: https://www.schrottplatz-info.de/schrottplatz/Kamenz .]
 
 ### Recherche 14.10.2026
 

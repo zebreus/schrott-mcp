@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Name „Entsorgung und Recycling Bernd Zauritz“ erscheint nur in Aggregator-Leads; ein Betreiber- oder Registerbeleg fehlt. Ein gleichörtlicher „Transportservice Bernd Zauritz“ ist nicht als identisch oder als Recycling-/Schrotthändler bestätigt. Keine belegten Annahmeleistungen, Ankaufspreise, Verkaufspreise oder Gebühren. Offen: Identität, aktuelle Tätigkeit und tatsächliche Anschrift; die Seed-Adresse Zedlitz 19 sollte nicht geocodiert werden, bevor diese Punkte geklärt sind.
+Der Name „Entsorgung und Recycling Bernd Zauritz“ erscheint weiterhin nur in Verzeichnissen; ein Betreiber- oder Registerbeleg fehlt. Der am 21.10.2026 gelesene Das-Örtliche-Eintrag nennt Zedlitz 19, 07557, Telefon 036603 60099-5, Fax 60099-8 und zauritz@gmx.de; die bereits geprüfte 11880-Seite nennt abweichende Telefonnummern 60099-0/-3. Das sind widersprüchliche Leads, keine Betreiberbestätigung. Ein gleichörtlicher „Transportservice Bernd Zauritz“ ist nicht als identisch oder als Schrotthändler bestätigt. Ankauf/Abgabe, Verkauf und Gebühren sind nicht belegt; Zedlitz 19 bis zur Identitäts- und Annahmeklärung nicht geokodieren.
 
 ## Timeline
+
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Das Örtliche führt „Entsorgung und Recycling Bernd Zauritz Entsorgungsunternehmen“ an Zedlitz 19, 07557, mit 036603 60099-5, Fax 60099-8 und E-Mail zauritz@gmx.de. Die abweichende Rufnummer gegenüber der bereits dokumentierten 11880-Spur (60099-0/-3) bestätigt den Kontaktkonflikt; ein Betreiberhinweis, eine Website oder konkrete Schrottannahme wird nicht geliefert. Kontaktfelder bleiben leer. Kein belegter Ankaufspreis, Verkauf oder Gebührenkatalog; keine Geokodierung des unbestätigten Leads. Quelle: https://www.dasoertliche.de/Themen/Entsorgung-und-Recycling-Bernd-Zauritz-Entsorgungsunternehmen-Zedlitz-Zedlitz]
 
 ### Recherche 16.10.2026
 

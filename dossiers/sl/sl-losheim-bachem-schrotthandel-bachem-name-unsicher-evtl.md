@@ -28,6 +28,10 @@ Seedname ausdrücklich unsicher („evtl. Kolbe“), Ankauf bisher nur Verzeichn
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Detail direkt erneut gelesen: weiterhin nur der namenlose Eintrag „Schrotthandel“, Bachemer Str. 53, 66679 Losheim am See-Bachem, 06872 9221121; der einzige eingebundene Bewertungsbeitrag stammt vom 14.10.2015. Eintrag nennt als Leistungsumfang Containerdienst/Altgeräteentsorgung, aber keinen Betreiber, kein Kolbe und keine Betreiber-Website. Das bleibt ein einzelner Aggregator-Lead; keine Identitäts-/Adressänderung und kein Schließungsurteil. ANKAUF: keine Kurse oder vergüteten Bedingungen; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle: https://www.gelbeseiten.de/gsbiz/d57b9c59-6a9b-44e0-81b0-3ede451d858e .]
+
 ### Recherche 18.10.2026 (Welle 1202 West)
 
 - [Recherche 18.10.2026: Das am 14.10. blockierte Gelbe-Seiten-Detail heute direkt vollständig HTTP 200 gelesen: weiterhin nur Schrotthandel/Bachemer Str. 53/66679 Losheim-Bachem/06872 9221121, kein Inhaber Kolbe/Betreiberlink. Leistungsumfang Containerdienst/Altgeräte-Entsorgung ist Portalinhalt; eingebundene GoLocal-Bewertung vom 14.10.2015 kein aktueller Tätigkeitsnachweis. Kein Namens-/Kontaktfill und keine Gleichsetzung des unsicheren Seednamens mit Kolbe. Ankauf: weder Auszahlungsmodell noch Zahlen belegt; Verkauf: keine Liste; Gebühren: kein Tarif oder kostenlose Entsorgung belegt. Betreibername, aktuelle Betriebsstätte und Annahmebedingungen vor GEO offen; Quelle: https://www.gelbeseiten.de/gsbiz/d57b9c59-6a9b-44e0-81b0-3ede451d858e .]

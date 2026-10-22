@@ -4,7 +4,7 @@ name: Theobald Deichmann Schrotthandel
 trader_type: schrotthaendler
 state: HE
 city: Groß-Rohrheim
-street: Speyerstr. 40
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Theobald Deichmann Schrotthandel“ in Groß-Rohrheim ist weiterhin kein Betreiber-/Registerbeleg identifiziert. Die seedgenannte Speyerstr. 40 hat keinen nachgewiesenen Betriebsbezug; Straßenname/-existenz (PLZ-Ort 68649) darf nicht als Geschäftsadresse gewertet werden. Die Frontmatter-Straße bleibt ein ungeprüfter Seedlead, nicht GEO-fähig.
+Die Website `schrott-deichmann.de` nennt Theobald Deichmann, Speyerstr. 40, 68649 Groß-Rohrheim und eine Abholung nur nach Voranmeldung. Das ist eine Betreiber-Selbstauskunft; ein unabhängig abrufbarer zweiter qualifizierter Identitäts-/Adressbeleg fehlt. Straße, PLZ und Kontakt bleiben deshalb aus dem strukturierten Frontmatter entfernt; die Betreiberanschrift ist keine bestätigte öffentliche Anlieferstelle. Cylex-/Infobel-Treffer bleiben Verzeichnisleads; kein Namensvetter-Merge.
 
-**Preise:** keine diesem Ziel zuordenbaren Ankaufspreise, Verkaufspreise oder Gebühren. Keine Nicht-Existenz oder Schließung aus Suchlücken ableiten.
+**ANKAUF:** Website nennt abzuholende Waren, aber keine Ankaufkonditionen oder Zahlenkurse. **VERKAUF:** keine Produkt-/Preisliste. **GEBÜHREN:** Entrümpelung wird „gegen Aufpreis“ angeboten, ohne Betrag oder Tarif. **GEO:** keine bestätigte öffentliche Kunden-/Annahmestelle; nicht geocodieren.
 
 ## Timeline
+
+### Korrektur/Recherche 20.10.2026
+
+- [Korrektur/Recherche 20.10.2026: Ein neu gefundener Auftritt unter https://schrott-deichmann.de/ nennt „Theobald Deichmann – Schrotthandel“, Speyerstr. 40, 68649 Groß-Rohrheim sowie Telefon und E-Mail; das Impressum wiederholt Name/Anschrift. Die Abholungsseite verlangt Voranmeldung und führt Metallwaren/Elektrogeräte auf, ohne Geld-/Preisrichtung oder Kurse zu nennen; Entrümpelung wird gegen Aufpreis angeboten, aber ohne Betrag. Dies ist eine einzelne Betreiber-Selbstauskunft, keine unabhängige Zweitbestätigung oder gesicherte öffentlich zugängliche Anlieferstelle; daher kein Frontmatter-Fill und kein GEO. Cylex-Suchergebnis nennt Adresse/Telefon, der Direktabruf war HTTP 403; Infobel zeigte beim Direktabruf eine Nutzungs-/Captcha-Sperre. Ein Creditreform-Suchergebnis führt einen gleichnamigen Betrieb in Groß-Rohrheim, aber dessen Direktabruf war HTTP 403; die dortigen Register-/Adressdetails konnten nicht geprüft werden. Kein Nachweis einer Betreiber-/Registerkette und kein Namensvetter-Merge. Quellen: https://schrott-deichmann.de/ ; https://schrott-deichmann.de/Impressum/ ; https://schrott-deichmann.de/Abholung/ ; https://web2.cylex.de/firma-home/theobald-deichmann-schrotthandel-16605486.html (Direktabruf 403, Suchergebnislead) ; https://www.infobel.com/de/germany/theobald_deichmann_schrotthandel/gross_rohrheim/DE111035431/businessdetails.aspx (Direktabruf gesperrt) ; https://firmeneintrag.creditreform.de/68649/6270168561/THEOBALD_DEICHMANN_SCHROTTHANDEL (Direktabruf 403) ; https://www.northdata.de/?query=Theobald+Deichmann+Gro%C3%9F-Rohrheim (Namens-/Ortsabfrage, kein eindeutiger Treffer in der sichtbaren Ausgabe).]
 
 ### Recherche 18.10.2026 (Welle 1202 West)
 

@@ -26,9 +26,13 @@ provenance_origin: table
 
 **Unverifizierter Karten-/Verzeichnislead**, kein belegter rechtlicher Betreiber: Neue Suche findet „Jack Schrotersk“, Hummelweg3/46485 Wesel,015770060539 bei Cybo/Maptons; direkte Seitenabrufe403. Die Suchauszüge reichen weder für PLZ/Telefon noch für eine Betriebs-/Annahmebestätigung. Von Maptons im Snippet angebotene Koordinaten sind nicht geprüft und werden nicht übernommen. Der ältere Begriff „Backyard-Typ“ beschreibt keinen durch Primärquellen bewiesenen Betriebstyp und begründet auch keine Geschäftsexistenz.
 
-Keine zuordenbare Betreiberwebsite oder Ankauf-/Verkaufs-/Gebührenliste gefunden. Straße bleibt unbestätigter Seedlead, PLZ/Kontakte leer. Owner: Name/Schreibweise, Gewerbe und mobiler Dienst versus öffentliche Annahme mit Primärbeleg klären; erst danach GEO. Leads/Abrufgrenzen: https://qa.maptons.com/p/3175754291 ; https://biashara.cybo.com/DE/bocholt/scrap-metal-dealer
+**Preise:** Ankauf: keine Jack Schrotersk zurechenbaren Bedingungen oder Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. Straße bleibt unbestätigter Seedlead, PLZ/Kontakte leer. Offen: Name/Schreibweise, Gewerbe und mobiler Dienst versus öffentliche Annahme mit Primärbeleg klären; erst danach GEO. Leads/Abrufgrenzen: https://qa.maptons.com/p/3175754291 ; https://biashara.cybo.com/DE/bocholt/scrap-metal-dealer
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Beide bekannten Kandidatenseiten erneut direkt aufgerufen; Maptons und Cybo liefern HTTP 403, sodass kein Betreiber-/Standortinhalt geprüft werden konnte. Das ist kein Existenz- oder Schließungsbeleg. Kein zusätzlicher Primärbeleg, kein Kontakt-/PLZ-Fill und keine Geocodierung. ANKAUF/VERKAUF/GEBÜHREN: keine Jack Schrotersk zurechenbare Preisquelle. Quellen (Abrufgrenze): https://qa.maptons.com/p/3175754291 ; https://biashara.cybo.com/DE/wesel/scrap-metal-dealer]
 
 ### Recherche 16.10.2026 — Welle 13:00 B
 

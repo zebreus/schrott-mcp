@@ -32,6 +32,10 @@ Creditreform führt einen passenden Firmensuchtreffer Thomas Ruß/Schrotthandel,
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Recherche 19.10.2026: Startseite direkt neu gelesen: Thomas Ruß/Knetzgau, ausdrücklicher Schrott-/Metallankauf, Abholung und Containerdienst, Sortenpreise telefonisch. Die Eigenbehauptung „seit über30 Jahren ein Familienbetrieb“ datiert keine Hammerschmidt→Ruß-Übernahme. Passender Creditreform-Suchauszug nennt jetzt konkret Ringstr.33/97478 und die Hammerschmidt-Domain unter Thomas Ruß; Detailabruf erneut403, deshalb keine gelesene unabhängige Adress-/Nachfolgebestätigung und keine Frontmatter-Fills. Ankauf ohne Zahlenliste; Verkauf ohne Liste auf geprüfter Startseite; Container-/Abholgebühren nicht genannt. Nächster Schritt vollständiges Firmenprofil8310424279 oder kommunale Gewerbeauskunft mit Inhaber-/Namenshistorie; Ringstraße33 bis dahin keine freigegebene Kunden-/GEO-Adresse. Quellen: http://www.schrotthandel-hammerschmidt.de/ ; https://firmeneintrag.creditreform.de/97478/8310424279/THOMAS_RUSS_SCHROTTHANDEL (Suchauszug, Detail403).]
+
 ### Ownerdisposition 18.10.2026
 
 - [Korrektur 18.10.2026: description ausdrücklich als Betreiber-Einzelbeleg mit offener Seed-/Nachfolgezuordnung formuliert, kein Umgehungs-Namensfill und keine verifizierte Leistungsfreigabe. Impressum Thomas Ruß ohne HR-Kennung; Creditreform-Suchtitel Thomas Ruß und Text Hammerschmidt bei Detailabruf 403 beweisen weder Übernahme noch unabhängige aktuelle Kontaktbestätigung. Frontmatter-name und übrige Felder unverändert, status pruefung bleibt; Quelle: http://www.schrotthandel-hammerschmidt.de/ ; http://www.schrotthandel-hammerschmidt.de/impressum/ ; https://firmeneintrag.creditreform.de/97478/8310424279/THOMAS_RUSS_SCHROTTHANDEL (Indexlead, Detail 403).]

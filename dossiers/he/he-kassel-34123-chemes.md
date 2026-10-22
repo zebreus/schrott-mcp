@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„CHEMES“ ist bislang nur als Kleinst-Schrotthändler in Kassel 34123 importiert; Straße, Person/Firma und weitere Identifikatoren fehlen. Die Registerspiegel-Suche nach CHEMES/Kassel ist zu unscharf, um einen passenden Händler zuzuordnen. Weder Geschäftsbetrieb noch Kundenannahme sind bestätigt. ANKAUF — kein Kurs; VERKAUF — keine Liste; GEBÜHREN — keine Angaben. Status `pruefung`, keine Felder aus Namensähnlichkeiten ergänzen.
+„CHEMES“ ist als Kleinst-Schrotthändler in Kassel 34123 importiert; Straße, Person/Firma und weitere Identifikatoren fehlen. Ein eBay-Shop namens CHEMES-AUTOVERWERTUNG (Handle `chemes_autoverwertung_kassel`) verkauft gebrauchte Fahrzeugteile, ist aber nicht mit diesem Seed oder einem Schrottankaufbetrieb identifiziert. Die Registerspiegel-Suche bleibt zu unscharf. Weder Geschäftsbetrieb noch Kundenannahme für den Dossierbetrieb sind bestätigt.
+
+**ANKAUF:** kein Schrott-/Metallkurs. **VERKAUF:** nur beim nicht zugeordneten eBay-Shop sind Teilepreise sichtbar; diese sind kein belastbarer Zielpreis. **GEBÜHREN:** keine Angaben. Status `pruefung`; keine Felder aus Namensähnlichkeiten ergänzen. **GEO:** Adresse und Zielidentität fehlen, daher kein Pin.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: eBay-Shop „CHEMES-AUTOVERWERTUNG“, Handle chemes_autoverwertung_kassel, direkt geprüft: zum Abrufzeitpunkt 99,6 % positive Bewertungen, 413 verkaufte Artikel, 37 Follower und Angebote gebrauchter Fahrzeugteile (u. a. Opel-Astra-J-Heckklappe 79,90 €, VW-Golf-5-Plus-Stoßfänger 99,90 €). Der Shop zeigt keine im Abruf verifizierbare Adresse/Rechtsidentität; eBay-Impressum/Über-uns-Abruf wurde durch Identitätsabfrage blockiert. Es gibt keinen Beleg, dass der Shop mit dem unaufgelösten Kasseler Seed „CHEMES“ (34123) identisch ist. Beispielpreise sind daher ausschließlich Kandidaten-Verkaufspreise für Gebrauchtteile, keine Zielpreise und keine Ankaufkurse für Schrott. ANKAUF: kein Kurs; VERKAUF: nur die nicht zugeordneten Shopangebote; GEBÜHREN: keine Angaben. Keine Frontmatter-Änderung, kein GEO-Pin. Quelle: https://www.ebay.de/str/chemesautoverwertung (Kandidat, Identität offen).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

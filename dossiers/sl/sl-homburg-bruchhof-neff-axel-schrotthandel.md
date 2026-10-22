@@ -28,6 +28,10 @@ Axel Neff bleibt ein Verzeichnislead an der Kaiserslauterer Str. 306, 66424 Homb
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Detail zu Neff Axel Schrotthandel direkt erneut gelesen: Kaiserslauterer Str. 306, 66424 Homburg-Bruchhof, 06841 174980, Leistungslabels Entsorgung/Schrotthandel; kein Betreiber-Impressum, keine aktuellen Annahmebedingungen und keine Preisangaben. Verzeichnisinhalt bestätigt nur, was im bisherigen Verlauf als Lead dokumentiert ist; keine neue Frontmatter-Änderung und keine zweite zulässige Quelle. ANKAUF: keine Ankaufskurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quelle: https://www.gelbeseiten.de/gsbiz/5099df74-1c3d-4409-98c2-abf7b5644a17 .]
+
 ### Recherche 18.10.2026 (Welle 1202 West)
 
 - [Recherche 18.10.2026: Festnetz-Detail Gelbe Seiten direkt HTTP 200 gelesen: Neff Axel Schrotthandel/Kaiserslauterer Str. 306/66424 Homburg-Bruchhof/06841 174980, Entsorgung/Schrotthandel. Kein auswertbarer Betreiberlink, Inhabername über Portalbehauptung hinaus nicht belegt. Historische Zweiverzeichnis-Bestätigungen erfüllen weiterhin nicht den Primärquellenstandard; keine neue Aufwertung bestehender Werte. Ankauf: keine numerische Liste/konkreten Bedingungen; Verkauf: keine Liste; Gebühren: keine Tarife. Keine aus Suchlücke abgeleitete Schließung, kein Zusammenführen mit NEFF-Hausgeräte-Homonymen; aktueller Betreiber-/Gewerbenachweis vor GEO nötig; Quelle: https://www.gelbeseiten.de/gsbiz/5099df74-1c3d-4409-98c2-abf7b5644a17 .]

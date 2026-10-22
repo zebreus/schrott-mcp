@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,14 @@ provenance_origin: table
 Registerprofil und HRB 24893 führen die Turrina Metallhandel UG (haftungsbeschränkt) als aktiv, mit Sitz Max-von-Eyth-Straße 6, 86899 Landsberg am Lech und Gesellschaftszweck Handel mit Bunt- und Edelmetallen, Elektronik und Schrott. Der Registergegenstand belegt nicht automatisch aktuelle Annahme von Privatkunden; eine Betreiberwebsite, Annahmebedingungen und tagesaktuelle Metallpreise wurden nicht gefunden. **Ankauf:** keine numerischen Kurse; **Verkauf:** keine öffentliche Preisliste; **Gebühren:** keine Tarife belegt. Telefon 08191 59436 stammt aus übereinstimmenden Branchenverzeichnissen, nicht aus einem gelesenen Betreiberauftritt.
 
 ## Timeline
+
+### Owner-Abgleich 20.10.2026
+
+- `status` auf `pruefung` gesetzt: Das Registervermittlerprofil beschreibt den Rechtsträger als aktiv und nennt einen Metall-/Schrotthandelszweck, belegt aber keinen aktuellen Ankauf oder eine Kundenannahme. Ein aktueller Betreiberauftritt bzw. Annahmebedingungen fehlen; die gelesene Registerbekanntmachung ist von 2010. Keine Schließung behauptet. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/by/Augsburg/HRB/24893/Turrina-Metallhandel-UG-haftungsbeschraenkt .
+
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Recherche 19.10.2026: Registervermittlerprofil direkt gelesen: HRB24893/Augsburg, Max-von-Eyth-Straße6, Profil aktiv; weiterhin nur eine im Volltext zugängliche Bekanntmachung19.01.2010. Auf „19.10.2026“ fortgeschriebene bestellbare Auszugsfassung wurde nicht gekauft oder gelesen und ist kein neuer Hofnachweis. Neue Namenssuche liefert registerbasierte Personenspuren Elio Turrina, aber keinen eigenen Betreiberauftritt/Annahmeablauf. Alttelefon0819159436 bleibt ausschließlich Verzeichniswert. Ankauf: kein Tageskurs/Privatannahmebeleg; Verkauf: keine Material-/Maschinenliste mit Preisen; Gebühren: keine Händlertarife. Sichtbare29,80EUR und Übersetzungspreise sind Dokumentservice dieses Portals, keine Turrina-Preise. GEO: Registeranschrift erst nach Nachweis eines tatsächlichen Annahmehofs freigeben. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/by/Augsburg/HRB/24893/Turrina-Metallhandel-UG-haftungsbeschraenkt .]
 
 ### Recherche 17.10.2026 (Welle 21:00 A)
 

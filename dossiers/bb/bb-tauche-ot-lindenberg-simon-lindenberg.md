@@ -28,6 +28,10 @@ Simon GbR / möglicher Verzeichnisalias „MSL Metallaufbereitung Simon GbR“ i
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Erneute Namenssuche fand weiterhin nur Branchenverzeichnis-Leads für Simon GbR an Bahnhofstr. 7a, 15848 Tauche-Lindenberg; es kam keine Betreiberwebsite, aktuelle Register-/Kommunalquelle oder verifizierte Aliasbeziehung „MSL Metallaufbereitung“ hinzu. Die widersprüchlichen Zeiten bleiben Portalangaben. ANKAUF: kein bestätigter Preis. VERKAUF/GEBÜHREN: keine Zahlenliste. Status pruefung bleibt, keine neuen Stammdaten oder Koordinaten übernommen. Quellen (Lead-Gegenprüfung 20.10.2026): https://www.gelbeseiten.de/gsbiz/7b06b5f4-c90f-47f4-bc84-05c5451a27ad ; https://www.11880.com/branchenbuch/tauche/120674719B42130474/simon-gbr-schrotthandel-u-containerdienst-lindenberg.html .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Beleglage erneut bewertet: die am 03.10. gelesenen Gelbe-Seiten-/11880-Einträge bleiben Aggregator-Leads, keine zulässigen Primärbelege. Neue Suchspur „MSL Metallaufbereitung Simon GbR“ auf meinestadt ist ebenfalls Verzeichnis; Detailabruf nicht erfolgreich, deshalb kein verifizierter Alias/Umfirmierungsnachweis. Keine eigene Domain oder unabhängige amtliche Betreiberquelle gefunden; status aktiv → pruefung, alte Straße erhalten, keine PLZ-/Kontakt-/Zeiten-Fills. Ähnlich benannte Simon-Metallbetriebe anderer Orte nicht zugeordnet.; Lead-Quelle(n): https://branchenbuch.meinestadt.de/tauche/company/502277489 , https://www.gelbeseiten.de/gsbiz/7b06b5f4-c90f-47f4-bc84-05c5451a27ad , https://www.11880.com/branchenbuch/tauche/120674719B42130474/simon-gbr-schrotthandel-u-containerdienst-lindenberg.html]

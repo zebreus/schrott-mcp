@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle NorthData-Datensatz unter Cottbus HRB 8097 führt heute KOW Beteiligungs GmbH in Senftenberg; in der Firmenhistorie erscheinen der frühere Name URW Umweltschutz, Recycling & Wertstoffhandel GmbH und eine frühere Pirnaer Anschrift. Die dokumentierte Sitzverlegung nach Senftenberg belegt keine fortbestehende Pirnaer Niederlassung oder heutige Annahme. Die bisherige Pirna-Adresse bleibt ausschließlich ein Schrottplatz.org-Verzeichnislead; Status `pruefung`, keine Stammdatenfüllung.
+
+**Ankauf**: keine aktuelle Pirna-Annahme oder Zahlenkurse belegt. **Verkauf**: keine Preisliste. **Gebühren**: keine Tarife. **GEO**: Rudolf-Renner-Straße 55a ist ein unbestätigter Portalhinweis, nicht als Betriebsort geokodieren.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: NorthData-Unternehmenshistorie zu Cottbus HRB 8097 erneut direkt gelesen. Der aktuelle Name ist KOW Beteiligungs GmbH mit Anschrift Spremberger Str. 72, 01968 Senftenberg; Historie führt den früheren Namen URW Umweltschutz, Recycling & Wertstoffhandel GmbH und die frühere Pirnaer Anschrift/Sitzverlegung. Das ist ein Registerhistorienhinweis, kein Beleg für eine aktuelle Niederlassung, Annahme oder Nachfolge in Pirna. Schrottplatz.org wiederholt als Verzeichnislead Rudolf-Renner-Straße 55a; keine unabhängige Standortbestätigung. Keine Felder ergänzt. **Ankauf/Verkauf/Gebühren:** keine aktuelle Preisliste oder Tarife für Pirna belegt; kein GEO-Punkt. Quellen: https://www.northdata.de/Umweltschutz,%20Recycling%20%26%20Wertstoffhandel%20GmbH,%20Senftenberg/Amtsgericht%20Cottbus%20HRB%208097 ; https://www.schrottplatz.org/pirna .]
 
 ### Recherche 02.10.2026
 

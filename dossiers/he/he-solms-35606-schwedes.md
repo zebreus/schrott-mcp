@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel & Hausmeisterservice Maik Schwedes bleibt ein Verzeichnislead an Gellerstück 7 in Solms-Albshausen. Frühere Übernahmen von Anschrift/Telefon und Aktivstatus beruhten ausschließlich auf Portalen; mehrere gleichlautende Verzeichnisse erfüllen den README-Standard nicht. Kontaktskalare bleiben historischer Bestand, aber Aktivstatus wird zur Prüfung zurückgenommen, nicht auf geschlossen gesetzt.
+
+Der frühere de.rs-Websitelead war heute per HTTPS nicht abrufbar (Transportfehler); weder Betreiber-Impressum noch Betriebsaufgabe daraus bewiesen. Ankauf/Verkauf/Gebühren: keine Betreiberliste verifiziert. Kommunale Gewerbe-/Inhaberbestätigung und Unterscheidung Kontaktadresse/Annahmehof vor GEO nötig.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Korrektur 19.10.2026: Frische Suche findet weiter 11880/Cylex/Stadtbranchenbuch/Maik-Schwedes-Portale, keinen zusätzlich zuordenbaren Betreiber- oder Registerbeleg. HTTPS-Abruf des alten Websiteleads mit www scheitert mit Transportfehler, nicht als Domain-tot oder Schließung werten. Der Aktiv-Fill 01.10. war explizit reiner Aggregatorkonsens; Status deshalb aktiv → pruefung, Kontakthistorie erhalten. Kein Zeit-/Leistungs-Fill und keine Kurs-, Verkaufs- oder Gebührenliste. Quelle/Abrufgrenze: https://www.schrotthandel--hausmeister-service-schwedes.de.rs ; Suchleads: https://www.11880.com/branchenbuch/solms-lahn/182770116B102214708/schrotthandel-hausmeisterservice-schwedes.html ; https://www.schrottplatz-info.de/schrottplatz/Solms/Maik-Schwedes- .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

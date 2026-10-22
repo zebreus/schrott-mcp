@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Der Seedname „Meringer“ kann derzeit nicht eindeutig auf einen Betrieb abgebildet werden: Verzeichnisse nennen sowohl „Meringer Anton SchrottKfm.“ in der Sudetenlandstr. 26/26B als auch den abweichenden Lead „Johann Meringer & Sohn“ in der Lausitzstr. 9. Person, Rechtsform und aktuelle Annahmestelle sind nicht durch eine gelesene Betreiber- oder Registerquelle zusammengeführt. Der erneute Direktabruf der im Lead genannten Domain scheiterte mit einem Transportfehler; das ist kein Schließungsbefund. Keine Kandidatenadresse/Kontaktdaten übernommen.
+Der Seedname „Meringer“ kann derzeit nicht eindeutig auf einen Betrieb abgebildet werden: Verzeichnisse nennen „Meringer Anton SchrottKfm.“ in der Sudetenlandstr. 26/26B und „Johann Meringer & Sohn“ in der Lausitzstr. 9. Ein weiteres Stadtbranchenbuch-Angebot auf muenchen.de wiederholt Lausitzstr. 9 und Telefon 08761 2302, ist aber selbst ein Verzeichnis und keine kommunale Betreiberbestätigung. Person, Rechtsform und aktuelle Annahmestelle sind nicht durch eine gelesene Betreiber- oder Registerquelle zusammengeführt. Der Abruf von meringer-schrott.de scheiterte; das ist kein Schließungsbefund. Keine Kandidatenadresse/Kontaktdaten übernommen.
 
 - **Ankauf:** keine verifizierten Ankaufbedingungen oder Preise.
 - **Verkauf:** keine Preisliste.
@@ -32,6 +32,10 @@ Der Seedname „Meringer“ kann derzeit nicht eindeutig auf einen Betrieb abgeb
 - **Geokodierung:** beide Moosburger Adress-Leads erst nach Identitätsklärung geokodieren.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Das auf muenchen.de gehostete Branchenbuch (laut Seitenimpressum Angebot von stadtbranchenbuch.de) führt „Meringer & Sohn“, Lausitzstr. 9, 85368 Moosburg, Tel. 08761 2302. Das ist ein weiterer Verzeichnis-Lead, keine Stadt-/Register- oder Betreiberquelle und keine Klärung gegenüber „Meringer Anton SchrottKfm.“ in der Sudetenlandstr. Domain meringer-schrott.de bleibt im Direktabruf nicht erreichbar. Für beide Kandidaten keine zuordenbare Ankauf-, Verkaufs- oder Gebührenpreisliste gefunden. Offen: welcher Rechtsträger zum Seed gehört, heutiger Annahmeplatz und dessen genaue Adresse; Lausitzstr. 9 nicht als Standort übernommen oder geokodiert. Quelle(n): https://www.muenchen.de/service/branchenbuch/freising/S/1418.html ; https://www.meringer-schrott.de/ (Direktabruf Transportfehler)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Neue Betreiberspur **F.ASSAAD** auf Facebook nennt im Suchauszug Honzrather Straße 22a, 66701 Beckingen und 0176 70910718 sowie kostenlose Schrottentsorgung. Dagegen führen Verzeichnisse F.Assaad an Dillinger Straße 61 und Kleinanzeigen-Suchauszüge „Firma M.Assaad“ an dieser Adresse. Vollprofil direkt nicht lesbar. Weder Umzug noch Gleichheit von F. und M. bewiesen; keine Adresse oder Nummer übernehmen. Der bisherige Status `aktiv` beruhte nur auf Verzeichnis-Ankauf und wird angesichts der offenen Identität auf `pruefung` berichtigt, **nicht geschlossen**.
+Die Facebook-Suchspur **F.ASSAAD** nennt Honzrather Straße 22a, 66701 Beckingen, 0176 70910718 und kostenlose Schrottentsorgung; 11880 führt **F.Assaad** dagegen an Dillinger Straße 61 mit 0160 6838436, während Kleinanzeigen dort auch „Firma M.Assaad“ nennt. Vollprofil/Umzugskette fehlt; F. und M. nicht gleichsetzen. Status `pruefung`, keine Anschrift/Kontakt- oder Anlieferungszusage übernommen. **Ankauf:** keine verifizierte Auszahlung oder Zahlenkurse; kostenlose Entsorgung ist keine Vergütung. **Verkauf/Gebühren:** keine Liste/Tarife. **GEO:** beide Adressspuren getrennt klären, nicht geokodieren.
 
 **Ankauf:** keine bestätigte Auszahlung oder Zahlenkurse. **Verkauf:** keine Liste. **Gebühren:** kostenlose Entsorgung ist nur Social-/Anzeigenwerbung ohne aktuell geprüfte Bedingungen, kein Ankaufpreis. **GEO:** Honzrather Straße 22a und Dillinger Straße 61 getrennt klären; keine Altkoordinaten bestätigen.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Neuer Direktcheck des 11880-Eintrags führt weiterhin „Schrotthändler F.Assaad“, Dillinger Str. 61, 66701 Beckingen, 0160 6838436; Suchprofil/-index enthält außerdem die Facebook-Spur Honzrather Straße 22a/0176 70910718. 11880 und Social-Suchauszug sind unterschiedliche Leads, aber kein Beleg für Umzug oder Personenidentität; keine Kontaktdaten übernommen. „Kostenlose Schrottentsorgung“ belegt weder bezahlten Ankauf noch öffentliche Hofannahme. Keine Ankauf-, Verkaufs- oder Gebührentafel gefunden; GEO gesperrt. Quellen: https://www.11880.com/branchenbuch/beckingen/060440092B113979950/schrotthaendler-f-assaad.html ; https://www.facebook.com/Assaad.Schrott (Suchindex; Abruf 20.10.2026).]
 
 ### Ownerdisposition 18.10.2026
 

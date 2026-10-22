@@ -27,9 +27,20 @@ provenance_origin: table
 
 Registerspiegel-Kandidat **Auto-Recycling Pankowski GmbH**, HRB 120552 AG Walsrode, Jutekamp 3, 27299 Langwedel. Der Gegenstand umfasst Altfahrzeugverwertung, Ersatzteil-/Unfall-/Gebrauchtfahrzeughandel und Abschleppdienst. Letzte sichtbare Veröffentlichung ist weiterhin der 2015er Abschluss vom 17.01.2017; daraus folgt weder heutiger Annahmebetrieb noch Schließung. Telefonnummer 04232 944345 erscheint nur in Verzeichnis-/Firmenauskunft-Leads, nicht im Frontmatter bestätigt.
 
-Keine eigene Betreiberwebsite oder numerische Ankauf-, Ersatzteilverkaufs- oder Gebührentarife gefunden. Owner muss aktuellen Betrieb und standortbezogene Altfahrzeug-Anerkennung prüfen. Die GESA-Informationsseite verweist auf das Fachbetrieberegister; in dieser Recherche wurde daraus **kein Pankowski-Betriebsdatensatz** ausgelesen. Ein fehlender Annahmestelleneintrag wäre laut GESA kein vollständiger Negativbeleg. GEO nach aktueller Annahme-/Zufahrtsbestätigung, nicht allein Registeradresse. Quellen: https://www.northdata.de/Auto-Recycling%20Pankowski%20GmbH,%20Langwedel/Amtsgericht%20Walsrode%20HRB%20120552 ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung
+Keine eigene Betreiberwebsite oder numerische Ankauf-, Ersatzteilverkaufs- oder Gebührentarife gefunden. Owner muss aktuellen Betrieb und standortbezogene Altfahrzeug-Anerkennung prüfen. Die GESA-Informationsseite verweist auf das Fachbetrieberegister; daraus wurde kein Pankowski-Betriebsdatensatz ausgelesen. Ein fehlender Registereintrag wäre laut GESA kein vollständiger Negativbeleg.
+
+- **Ankauf:** Registergegenstand nennt Fahrzeugannahme/-verwertung; keine individuelle Vergütung oder Schrottkurse belegt.
+- **Verkauf:** Ersatzteilhandel ist Gesellschaftszweck, aber keine konkreten Artikel-/Preislisten gefunden.
+- **Gebühren:** weder kostenlose Entsorgung noch Transport-/Verwertungskosten pauschal ableitbar; kein Tarif veröffentlicht.
+- **GEO:** Jutekamp 3 ist Registeranschrift; erst nach aktueller Annahme- und Zufahrtsbestätigung als Besucherpunkt geokodieren.
+
+Quellen: https://www.northdata.de/Auto-Recycling%20Pankowski%20GmbH,%20Langwedel/Amtsgericht%20Walsrode%20HRB%20120552 ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Neue Suche findet zusätzlich einen Schrottplatz-Verzeichniseintrag für Auto-Recycling Pankowski GmbH, Jutekamp 3, 27299 Langwedel, mit 04232 944345 (Telefon) und 04232 944346 (Fax). Die Seite führt ein Websitefragment, aber kein lesbares Betreiber-Impressum. Keine aktuelle Betriebsbestätigung und keine Altfahrzeug-Zulassung daraus ableiten; die bestehende Registerspur HRB 120552 bleibt davon getrennt. Der Registerzweck ist keine Preiszusage. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren, kein GEO ohne öffentliche Annahmebestätigung. Quelle: https://www.schrottplatz.org/langwedel/auto-recycling-pankowski-gmbh-943314.html (Verzeichnislead).]
 
 ### Recherche 15.10.2026 Welle18C
 

@@ -28,6 +28,10 @@ Wichtige Präzisierung: NorthData führt Oetjen Rohstoffhandel GmbH und Oetjen M
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: NorthData-Unternehmensseite und Publikationsliste erneut direkt gelesen. Sie ordnet „Oetjen Rohstoffhandel GmbH“ und „HATRA Handel- und Transport-GmbH“ als frühere Namen derselben HRB 3806 zu und weist die spätere Oetjen Metall- und Wertstoffhandel GmbH mit Löschungspublikation vom 16.01.2023 aus. Das ist weiterhin eine registerabgeleitete Sekundärquelle; kein amtlicher Registerauszug und keine heutige Grundstücks-/Betreiberzuordnung. Davidsohnweg 2B bleibt Legacy-Verzeichnisadresse; keine Aussage über heutigen Hofschluss. Keine aktuellen Ankaufs-, Verkaufs- oder Gebührenpreise; keine Geokodierung. Quelle: https://www.northdata.de/Oetjen+Metall-+und+Wertstoffhandel+GmbH,+Demmin/HRB+3806 (Abruf 21.10.2026).]
+
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 
 - [Recherche 14.10.2026: Neuer Detailbeleg statt nur Wiederholung des Profils: einzeln geöffnete NorthData-Publikation zur Löschung, Eintragung 6 vom 16.01.2023, nennt ausdrücklich „Die Liquidation ist beendet. Die Gesellschaft ist gelöscht.“ Profil erneut gelesen, HRB 3806 Neubrandenburg und historische Namen kongruent. Damit Löschungswortlaut dieser registerabgeleiteten Quelle geprüft; weiterhin keine amtliche unabhängige Zweitabfrage in dieser Bearbeitung. Publikation und Profil zählen als EINE Quelle. Keine Aussage über heutigen Grundstücksnutzer oder Schließung eines physischen Hofs; Hausnummer 2B weiter ungeprüft. Quellen: https://www.northdata.de/?id=6706641540481024 ; https://www.northdata.de/Oetjen+Metall-+und+Wertstoffhandel+GmbH,+Demmin/HRB+3806 .]

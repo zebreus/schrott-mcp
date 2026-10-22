@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Gelbe Seiten führt weiterhin DK Schrottplatz Herzfelde an Ahornstr. 7–11, 15378 Herzfelde, mit 0176 61 39 83 53. Das bleibt ein Verzeichnis-Lead; der bereits dokumentierte 11880-Telefonkonflikt und das Fehlen einer Betreiber-/Registerquelle sind dadurch nicht aufgelöst. Keine Preis-/Gebührenliste, kein belastbarer Ankaufkurs und kein bestätigter Verkaufsbestand. Status pruefung; weder Verzeichniskarte noch Hausnummernspanne als GEO-Nachweis verwenden. Quelle (Abruf 20.10.2026): https://www.gelbeseiten.de/gsbiz/0ee43ded-cbed-4ff2-9820-e299f57e5f6c .]
+
 ### Korrektur 07.10.2026
 
 - [Korrektur 07.10.2026: status aktiv → pruefung — erneute Namenssuche ergab weiterhin nur Verzeichnistreffer: Gelbe Seiten und Das Telefonbuch nennen 0176 61 39 83 53, 11880 dagegen 0176 61807469. Das sind keine unabhängigen Betreiberbelege; keine Telefonnummer/Adresse ergänzt und keine Schließung behauptet. Kein verifizierter Ankauf, keine numerische Ankaufs- oder Verkaufspreisliste und keine Gebühren gefunden. Nächster Schritt: Betreiber-/Gewerberegisterbestätigung. Quelle(n): https://www.gelbeseiten.de/gsbiz/0ee43ded-cbed-4ff2-9820-e299f57e5f6c (Aggregator); https://adresse.dastelefonbuch.de/R%C3%BCdersdorf%20bei%20Berlin/3-Schrott-DK-Schrottplatz-Herzfelde-Herzfelde-Ahornstr.html (Aggregator); https://www.11880.com/branchenbuch/herzfelde-bei-strausberg/060440092B114037525/dk-schrottplatz-herzfelde.html (Aggregator).]

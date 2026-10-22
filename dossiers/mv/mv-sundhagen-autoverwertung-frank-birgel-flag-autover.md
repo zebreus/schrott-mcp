@@ -28,6 +28,10 @@ Das amtliche Verzeichnis des Amtes Miltzow führt „KFZ Service Birgel“, Fran
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Der bisher zitierte amtliche Direktlink des Amtes Miltzow liefert jetzt 404; der aktuelle Suchindex des Amtes führt weiterhin „KFZ Service Birgel“, Frank Birgel, Jeeser 2–3, 18519 Sundhagen OT Jeeser und die Leistungen Autoverwertung, Gebrauchtwaren-/Ersatzteilverkauf sowie geringfügige Kfz-Reparaturen. Der Suchindex ist kein direkt gelesener aktueller Gewerbeauszug; keine zusätzlichen Felder/Öffnungszeiten daraus übernehmen. ANKAUF: Autoverwertung allein belegt keinen Schrottankauf oder Altauto-Auszahlungsbetrag. VERKAUF: Gebrauchtwaren/Ersatzteile, keine Preisliste. GEBÜHREN: keine Angaben. Quelle: https://www.amt-miltzow.de/verzeichnis/mandat.php?mandat=37330&kategorie=266 (Suchindex, Abruf 21.10.2026; Direktabruf 404); zuvor gelesener Amtseintrag siehe Recherche 06.10.2026.]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: ANKAUF: Die amtliche Leistungsangabe „Autoverwertung“ bestätigt keinen separaten Schrottankauf und nennt keinen Altauto-Ankaufspreis.; VERKAUF: Gebrauchtwaren-/Ersatzteilverkauf ist amtlich gelistet; eine Preisliste ist dort nicht veröffentlicht.; GEBÜHREN: Im geprüften amtlichen Eintrag keine Gebührenangaben.; GEOKODIERUNG: Jeesser 2–3, 18519 Jeeser ist im Frontmatter eingetragen; die Recherche vom 02.10.2026 vermerkt bereits eine Neugeokodierung. Ergebnis/Abschluss dieser früheren Aufgabe hier nicht verifiziert; keine erneute Geokodierung oder Datenbankänderung vorgenommen.; Quelle: https://www.amt-miltzow.de/verzeichnis/visitenkarte/vorstellung/mandat/37330/kfz-service-birgel.html (Abruf 06.10.2026; Preisangaben nicht enthalten).]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein aktueller 11880-Verzeichnislead führt „Taurus Schrotthandel Entsorgung von Schrott und Altmetall“, Gelsenkirchener Str. 4, 44866 Bochum-Leithe, Tel. 01575 4037431. Das ist keine Betreiberquelle; eine zweite passende, qualifizierte Quelle, ein Impressum und konkrete Annahmebedingungen fehlen. Nicht mit dem gleichnamigen Entrümpelungs-/Abriss-Treffer am Alten Zoll 6 vermischen. ANKAUF, VERKAUF und GEBÜHREN: keine belastbaren Kurse oder Tarife belegt.
 
 ## Timeline
+
+### Recherche 21.10.2026 — Aktualitäts- und Preisprüfung
+
+- [Recherche 21.10.2026: Der aktuelle 11880-Suchergebnisabruf führt den bekannten Taurus-Treffer für Gelsenkirchener Str. 4, 44866 Bochum-Leithe, 01575 4037431, unter Altmaterialhandel, Altmetallrecycling und Schrotthandel; Portalstatus zeigt „Geöffnet“. Das ist ein einzelner Aggregator, kein Nachweis tatsächlicher Öffnung oder einer zugänglichen Annahmestelle. Keine Betreiber-/Registerquelle oder Annahmebedingungen gefunden; den separaten Taurus-Entrümpelungstreffer am Alten Zoll 6 weiterhin nicht zuordnen. ANKAUF: keine bezifferten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarifangabe. Felder unverändert. Quelle (Verzeichnislead): https://www.11880.com/suche/taurus-schrotthandel-entsorgung-von-schrott-und-altmetall/bochum]
 
 ### Recherche 02.10.2026
 

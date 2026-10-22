@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Hanauer Seed-Eintrag ist nicht mit dem separat bekannten Bamberger/ARB-Eintrag in Darmstadt gleichzusetzen. Die neue Suche liefert ausdrücklich **Bamberger Schrotthandel GbR in Hanau**, aber nur als Verzeichnislead: Eugen-Kaiser-Str. 1/1c, 63450 versus Diebacher Weg 121, 63452, Mobil 0177 5820439. Diese widersprüchlichen Adressen erlauben keinen aktuellen Annahmestandort und keinen Frontmatter-Fill. Die früher allein gefundene Strahl-/Beschichtungstechnik-GmbH ist kein belegter Match.
+Der am 20.10.2026 direkt geprüfte 11880-Eintrag nennt „Bamberger Schrotthandel GbR“, Eugen-Kaiser-Str. 1c, 63450 Hanau, 01577 6043208 und djsoul@live.de; er ist ein einzelner Verzeichnisbeleg (Eintragsdaten 05.11.2025, aktualisiert 03.10.2026). Andere Verzeichnisse nennen Eugen-Kaiser-Str. 1 oder Diebacher Weg 121, 63452. Die Adresskonflikte lassen weder einen aktuellen Annahmestandort noch eine Betreiberzuordnung erkennen. Kein belegter Bezug zum separaten ARB/Bamberger-Eintrag in Darmstadt oder zur Hanauer Strahl-/Beschichtungstechnik-GmbH.
 
-**Preise:** Keine dem Zielbetrieb belegbar zugeordneten Ankauf-, Verkaufs- oder Gebührenlisten. Offen: Inhaber, aktueller Sitz/Annahmeplatz, Bezug zur Darmstädter Familie/Firma und eigene Betreiberquelle.
+**Preise:** **ANKAUF** – keine zugeordnete Preisliste; **VERKAUF** – keine Liste; **GEBÜHREN** – keine Angaben. Offen: Inhaber, aktuelle Geschäfts-/Annahmestelle und Betreiberquelle. **GEO:** bis zur Identitäts- und Adressklärung nicht geocodieren.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: 11880-Profil direkt erneut geprüft: „Bamberger Schrotthandel GbR“, Eugen-Kaiser-Str. 1c, 63450 Hanau, Tel. 01577 6043208, djsoul@live.de; laut Profil Eintragsdaten 05.11.2025, Aktualisierung 03.10.2026. Das bleibt ein Verzeichnislead. Die bereits dokumentierten abweichenden Verzeichnisadressen (Eugen-Kaiser-Str. 1 bzw. Diebacher Weg 121, 63452) sind nicht aufgelöst; keine Übernahme von Adresse/Kontakt ins Frontmatter. Kein Merge mit ARB/Bamberger Darmstadt oder der Beschichtungstechnik-GmbH. ANKAUF/VERKAUF/GEBÜHREN: keine dem Ziel zugeordnete Preisliste. GEO: Identität und Annahmestelle vor einer Koordinate klären. Quelle: https://www.11880.com/branchenbuch/hanau/120674719B107338805/bamberger-schrotthandel-gbr.html (Verzeichnislead).]
 
 ### Recherche 08.10.2026 (neuer namensgenauer Lead)
 

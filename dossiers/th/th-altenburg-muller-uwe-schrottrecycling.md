@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Konkreter, aber unbestätigter Lead: Schrottplatz-Info nennt Müller Uwe Schrottrecycling an Werksiedlung 31, 04603 Nobitz-Kotteritz, 03447 504107. Das ist keine bestätigte Betreiberadresse und keine Grundlage für eine Zusammenführung mit Geweniger. Die Website schrotthandel-mueller.de gehört Benjamin Müller in Geesthacht, nicht Uwe Müller in Altenburg/Kotteritz. Identität, aktuelle Annahme und Ankauf bleiben offen; keine Ankauf-/Verkaufs-/Gebührenliste verifiziert.
+Konkreter, aber unbestätigter Verzeichnis-Lead: Schrottplatz-Info und 11880 führen Uwe Müller Schrottrecycling an Werksiedlung 31, 04603 Nobitz-Kotteritz, 03447 504107. 11880 nennt außerdem Öffnungszeiten, kennzeichnet den Eintrag aber nicht als inhaberbestätigt; Eintragsdaten stammen vom 03.01.2023, Portalaktualisierung vom 01.10.2026. Das ist keine Betreiber- oder Registerbestätigung und keine Grundlage für eine Zusammenführung mit Geweniger. schrotthandel-mueller.de gehört Benjamin Müller in Geesthacht. Ankauf, Verkauf, Gebühren und aktuelle Annahme bleiben ungeklärt; keine der genannten Adressen wird ohne Identitätsnachweis geokodiert.
 
 ## Timeline
+
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: 11880 führt Uwe Müller Schrottrecycling mit Werksiedlung 31, 04603 Nobitz (Kotteritz), 03447 504107 und Öffnungszeiten. Die Seite nennt Eintragsdaten vom 03.01.2023 und Aktualisierung am 01.10.2026, aber keine Inhaberbestätigung; sie ist daher ein weiterer Verzeichnis-Lead, kein Betreiber-/Registerbeleg. Zusammen mit Schrottplatz-Info präzisiert sie den möglichen Ort, belegt aber weder den tatsächlichen Betreiber noch die Verbindung zu Geweniger. Keine Frontmatter-Übernahme, keine Geokodierung. Ankaufspreise, Warenverkauf und Gebühren bleiben unbelegt. Quelle: https://www.11880.com/branchenbuch/nobitz/060440092B26431140/uwe-mueller-schrottrecycling.html]
 
 ### Recherche 18.10.2026 (02:00-Welle C)
 

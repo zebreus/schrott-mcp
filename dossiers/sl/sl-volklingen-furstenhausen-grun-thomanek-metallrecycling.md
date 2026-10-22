@@ -11,7 +11,7 @@ email: gtmetallrecycling@hotmail.com
 opening_hours: Mo 7:30-15, Di 7-15, Mi-Fr 7:30-15
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -28,7 +28,13 @@ Registerdatenquelle NorthData bestätigt Grün Thomanek Metallrecycling UG, Saar
 
 **Aktueller Klärfall:** Registerbekanntmachung 11.06.2026 löscht Somchai Thomanek als Geschäftsführer von Amts wegen wegen Wegfalls rechtlicher Voraussetzungen; das ist keine Löschung der Gesellschaft. Kein Betreiberwebauftritt identifiziert, keine aktuelle Geschäftsführung/Annahmebedingungen bestätigt. **Preise:** Keine Betreiber-Ankaufsliste, Verkaufspreise oder bezifferten Gebühren. Bestehende Kontaktdaten nicht als neu verifiziert behandeln; kein Geocoding aus bloßen Kontakt-Leads.
 
+Die frühere reine Aggregator-Aktivierung ist am 19.10. auf `pruefung` zurückgenommen; keine Schließungsbehauptung und keine Löschung historischer Kontaktangaben.
+
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Korrektur 19.10.2026: Register-Einzelbekanntmachung 11.06.2026 direkt erneut gelesen: nur Geschäftsführer Somchai Thomanek von Amts wegen gelöscht, keine Gesellschaftslöschung. Die bisherige Aktivierung beruht auf Aggregator-Ausnahme 02.10.; ein Nachweis heutigen Annahmebetriebs oder aktueller Geschäftsführung fehlt weiterhin. Daher status aktiv → pruefung, ausdrücklich nicht geschlossen; bestehende Adresse/Telefon/Mail/Zeiten nicht als neu bestätigt behandeln. Registermeldung und Registerprofil sind eine Quellenklasse, keine zwei Belege. Ankauf/Verkauf/Gebühren ohne aktuelle Betreiberliste. GEO: Saarwiesenweg 2 erst nach aktuellem Betriebs-/Annahmebeleg, bestehende DB-Koordinaten nicht geprüft. Quelle: https://www.northdata.de/?id=5080125068673024 .]
 
 ### Recherche 08.10.2026
 

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Anders Schrott“ ist im direkt gelesenen Gelbe-Seiten-Detail mit 30539 Hannover und 0176 37347691 als Alt-/Abfallstoffe bzw. Schrottabholung auffindbar, aber weiterhin ohne Straßenadresse oder zugeordneten rechtlichen Betreiber. Der konkrete Mobilkontakt verbessert die Folgerecherche, nicht die Belegklasse: nur Verzeichnislead, kein bestätigter Annahmehof. Nicht mit anderen Hannoveraner Abholern gleichsetzen.
+„Anders Schrott“ ist im direkt gelesenen Gelbe-Seiten-Detail mit 30539 Hannover und 0176 37347691 als Alt-/Abfallstoffe bzw. Schrottabholung auffindbar, aber weiterhin ohne Straßenadresse oder zugeordneten rechtlichen Betreiber. Der Mobilkontakt ist ein Verzeichnislead, kein bestätigter Annahmehof. Nicht mit anderen Hannoveraner Abholern gleichsetzen.
 
 **Ankauf:** aus Abholungs-Schlagworten kein vergüteter Ankauf ableitbar; keine Preisliste. **Verkauf:** keine belegte Liste. **Gebühren:** keine belegten Abholtarife/Gratisbedingungen. **GEO:** PLZ-Gebiet ist kein Standort; Adresse und Hofannahme zuerst klären. Frontmatter bleibt unverändert, `pruefung` erhalten.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Neue Suche nach „Anders Schrott“/Hannover zeigt weiterhin denselben Gelbe-Seiten-Eintrag 30539/0176 37347691; keine Straße, Betreiberwebsite oder Gewerbe-/Registerzuordnung. Eine allgemeine kostenlose Schrottabholungsseite in Hannover hat keinen Namens-/Kontaktbezug und wurde ausdrücklich nicht übertragen. Keine Fills oder GEO. Ankauf ist aus Abholung nicht ableitbar; Verkaufspreise, Abholtarife und Gratisbedingungen bleiben unbelegt. Quelle(n): https://www.gelbeseiten.de/gsbiz/cc6eb567-50e4-448a-b532-a4e6f10e614d ; https://schrottabholung-hannover.de (nicht zugeordnet).]
 
 ### Recherche 17.10.2026 — Welle 21:00 B
 

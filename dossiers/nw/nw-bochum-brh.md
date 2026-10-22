@@ -28,6 +28,10 @@ Die registergeführte Identität ist **BRH Bochumer Rohstoffhandel GmbH**, HRB 1
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiber-Domain erneut direkt abgerufen; der lesbare Inhalt beschränkt sich auf einen Datenschutz-/Consent-Hinweis („Do Not Sell or Share My Personal Information“), ohne Firmenidentität, Impressum, Kundenannahme oder Öffnungszeiten. Das ist weder ein neuer Betreiberbeleg noch ein Schließungsnachweis. Firmenidentität/HRB und Dieselstraße 45–47 bleiben die bereits dokumentierten Registerangaben; aktuelle Annahmestelle weiter offen. ANKAUF: keine Preisangaben; VERKAUF: keine Liste; GEBÜHREN: keine Tarifangaben. Keine Frontmatter- oder GEO-Änderung. Quellen: https://brh-recycling.de/ (Direktabruf 22.10.2026); https://www.northdata.de/BRH%20Bochumer%20Rohstoffhandel%20GmbH,%20Bochum/HRB%2019036 .]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Identität und Adressbereich jetzt durch zwei Unternehmensdatenquellen präzisiert: BRH Bochumer Rohstoffhandel GmbH, AG Bochum HRB 19036, Gegenstand „Der Schrotthandel“, Dieselstraße 45–47, 44805 Bochum. Creditreform nennt zudem 0234 90413152 (stimmt mit dem Dossier überein). Cylex führt den Kurznamen BRH GmbH und Dieselstraße 47, ist aber nur ein Verzeichnis-Lead. Der Abruf von brh-recycling.de liefert weiterhin keinen lesbaren Betreiberinhalt; kein Nachweis aktueller Kundenannahme/Öffnungszeiten. Keine numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. Website-Feld bleibt leer, Status pruefung. Quelle(n): https://www.northdata.de/BRH%20Bochumer%20Rohstoffhandel%20GmbH,%20Bochum/HRB%2019036 ; https://firmeneintrag.creditreform.de/44805/4050638012/BRH_BOCHUMER_ROHSTOFFHANDEL_GMBH ; https://web2.cylex.de/firma-home/brh-gmbh-14966790.html ; https://brh-recycling.de/]

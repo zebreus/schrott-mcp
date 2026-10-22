@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt den Betrieb als „Karl Klamberg, Schrott und Metalle, Inh. Karin Silbermann geb. Klamberg e. K.“ unter HRA 5096 beim Amtsgericht Wetzlar. Die dort abrufbaren Registerbekanntmachungen dokumentieren 2010 einen Wechsel der Inhaberin/Firmierung und eine Geschäftsanschrift von Dillenburg (35683, Straße geschwärzt) nach Dillenburg-Manderbach (35685, Straße weiterhin nicht sichtbar). Das sind historische Registerdaten, kein Nachweis der heutigen Anschrift oder Aktivität. Die bestehende Straße „Im Höfchen“ ohne Hausnummer und die Telefonnummer bleiben ungeklärt; eine zweite Telefonnummer aus Branchenverzeichnissen ist widersprüchlich. Keine Betreiberquelle oder aktuelle amtliche Registerauskunft liegt vor.
+
+**ANKAUF:** Tätigkeit aus Firmenname/Gegenstand plausibel, aber keine aktuelle Annahmebedingung oder Kurse belegt. **VERKAUF:** keine Material- oder Preisliste. **GEBÜHREN:** keine Tarife. **GEO:** historische Orts-/Straßendaten nicht geokodieren; erst aktuelle Betriebs- und Kundenanschrift bestätigen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: NorthData-Firmenseite direkt gelesen: Karl Klamberg Schrott und Metalle e.K., HRA 5096 AG Wetzlar; aufgeführte frühere Firmierungen/Inhaber sind Willi Klamberg, Karin Rosenberger und Karin Silbermann. Die direkt gelesene Bekanntmachung vom 05.10.2010 (Ereignis 08.09.2010) zeigt die Geschäftsanschriftänderung von Dillenburg, 35683 (Straße nicht sichtbar) nach Dillenburg-Manderbach, 35685 (Straße ebenfalls nicht sichtbar); die Bekanntmachung vom 06.09.2010 (Ereignis 11.08.2010) dokumentiert die Änderung von Karin Rosenberger zu Karin Silbermann. Das ist eine historische Sekundärdarstellung von Registerbekanntmachungen, keine aktuelle Anschrift und kein aktueller Statusbeleg. Keine Übernahme auf „Im Höfchen“ oder der widersprüchlichen Telefonnummern. ANKAUF: keine aktuellen Bedingungen/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. GEO bleibt bis zur heutigen Standortklärung ausgesetzt. Quellen: https://www.northdata.de/Karl%20Klamberg,%20Schrott%20und%20Metalle,%20Inh%C2%B7%20Karin%20Silbermann%20geb%C2%B7%20Klamberg%20e%C2%B7%20K%C2%B7,%20Dillenburg/Amtsgericht%20Wetzlar%20HRA%205096 ; https://www.northdata.de/?id=16156625 ; https://www.northdata.de/?id=16160258 .]
 
 ### Recherche 04.10.2026
 

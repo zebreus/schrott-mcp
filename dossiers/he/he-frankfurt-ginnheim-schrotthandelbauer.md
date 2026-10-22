@@ -30,6 +30,10 @@ Die vorhandene Domain war erneut nicht auswertbar (Transportfehler). Das ist kei
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: HTTPS-Domain wieder nur Transportfehler; historische Webador404 vom03.10. heute nicht nachgemessen, Altstatus tot bleibt historische Einstufung. Keine Aussage zur Betriebsaufgabe. Im direkt gelesenen Pfaff-Verzeichnis erscheint Schrotthandelbauer als verwandter Anbieter, aber dies ist nur erneute Portalverlinkung, kein unabhängiger Betreiber-/Kontaktbeleg. Keine Zusammenführung mit Bauer/Speyer oder anderen Bauer-Namensvettern; Telefonnummer01772614891 nicht primär bestätigt. Ankauf/Verkauf/Gebühren ohne zugeordnete Liste; Sitz/mobiles Einsatzgebiet und Inhaber vor GEO klären. Quelle/Abrufgrenze: https://schrotthandelbauer.de/ ; Leadverknüpfung: https://www.11880.com/branchenbuch/eschborn-taunus/060440092B102010443/alexander-pfaff-schrotthandel.html .]
+
 ### Recherche 15.10.2026 (00:00-Welle A)
 
 - [Recherche 15.10.2026: Direkter HTTPS-Abruf schrotthandelbauer.de heute nur Transportfehler, kein lesbarer Betreiberinhalt und kein verlässlich festgestellter HTTP-404. Deshalb Altstatus tot nicht als frische technische Feststellung ausgegeben und Betriebsstatus pruefung nicht auf geschlossen gesetzt. Frontmatter-Telefon stammt weiterhin nur aus Portal-Altbestand; keine Wiederbestätigung behauptet. Keine Ankauf-/Verkaufsliste oder Gebühren, kein Sitz-/GEO-Beleg. Quelle/Abrufgrenze: https://schrotthandelbauer.de/ ; historische konkrete Webador-404 siehe Recherche 03.10.2026.]

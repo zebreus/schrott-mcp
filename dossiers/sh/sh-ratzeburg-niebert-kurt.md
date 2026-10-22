@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für **Niebert Kurt** ist weiterhin weder ein identifizierter Betreiber noch eine konkrete Betriebsadresse belegt. Das Schrottregister-Mirror führt zwar einen Eintrag für Ratzeburg, ordnet ihn aber keiner Person „Niebert“ zu und weist dort keinen anerkannten Altfahrzeug-Demontagebetrieb aus. Die Seed-Kategorie Autoverwertung ist damit nicht bestätigt.
+Ein aktueller Das-Örtliche-Eintrag nennt „Niebert Kurt Schrottgroßhandel, Metalle, Autoverwertung“ an Zittschower Weg 15, 23909 Ratzeburg, Telefon 0171 9547094. Das ist ein einzelner Verzeichnislead, keine Betreiber-/Registerbestätigung. Das Schrottregister-Mirror führt zwar einen Eintrag für Ratzeburg, ordnet ihn aber keiner Person „Niebert“ zu und weist dort keinen anerkannten Altfahrzeug-Demontagebetrieb aus. Die Seed-Kategorie Autoverwertung bleibt unbestätigt.
 
-**Preise:** keine belegte **Ankauf**- oder **Verkaufspreisliste**, keine Gebührenordnung. **Geocoding:** kein belastbarer Straßenadress-Kandidat vorhanden.
+**Preise:** keine belegte **Ankauf**- oder **Verkaufspreisliste**, keine Gebührenordnung. **Geocoding:** Zittschower Weg 15 ist ein neuer, unbestätigter Adresskandidat und erst nach Betreiber-/Annahmestellenbestätigung zu geokodieren; nicht mit einem getrennten Ratzeburger Eintrag am Zittschower Weg 20 verwechseln.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Das Örtliche-Detailseite direkt gelesen: „Niebert Kurt Schrottgroßhandel, Metalle, Autoverwertung“, Zittschower Weg 15, 23909 Ratzeburg, 0171 9547094. Das ist nur ein Verzeichnislead, keine unabhängige Betreiberbestätigung. Ein weiterer Ratzeburger Branchenlead am Zittschower Weg 20 ist nicht Niebert zuzuordnen. Die Kategorie „Autoverwertung“ ist keine behördliche Anerkennung. Keine Kontaktdaten in Frontmatter gefüllt. **Ankauf/Verkauf/Gebühren:** keine dossierzuordenbaren Kurse oder Tarife. Neue Adresse Zittschower Weg 15, 23909 ist GEO-Kandidat, aber erst nach Identitäts- und öffentlichem Annahmestellennachweis geokodieren. Quelle: https://www.dasoertliche.de/Themen/Niebert-Kurt-Schrottgroßhandel-Metalle-Autoverwertung-Ratzeburg-Zittschower-Weg .]
 
 ### Recherche 06.10.2026
 

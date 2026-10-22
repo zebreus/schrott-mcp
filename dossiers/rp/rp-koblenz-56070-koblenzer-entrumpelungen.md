@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Ein aktueller möglicher, aber nicht zugeordneter Kandidat ist „Koblenzer Schrotthandel“ (Karin Reinhardt), dessen eigene Website Schrottankauf und Entrümpelungen anbietet und Am Metternicher Bahnhof 18, 56072 Koblenz nennt. Das weicht vom generischen Seed-Namen und PLZ-Hinweis 56070 ab; ohne exakten Namens-/Telefon-/Seed-Abgleich keine Übernahme in dieses Dossier.
+Der generische Seed „Koblenzer Entrümpelungen“ (56070) ist weiterhin keinem Betreiber zugeordnet. Die direkt gelesene Website des möglichen, aber nicht zugeordneten Betriebs „Koblenzer Schrotthandel“ nennt im Impressum Karin Reinhardt, Am Metternicher Bahnhof 18, 56072 Koblenz; abweichender Name und PLZ verhindern die Zuordnung ohne unabhängigen Seed-/Telefonabgleich. Das Impressum nennt keine Handelsregisterangabe; daher keine Übernahme der Adresse oder Dienste in die Frontmatter und keine Statusänderung. **Ankauf:** Betreiberseite bewirbt NE-Metall-/Kabelankauf zu Tages-/Börsenpreisen ohne Zahlen. **Verkauf:** keine Liste. **Gebühren:** die Startseite bewirbt kostenlosen Containerdienst für Firmen, die gesonderte Containerseite spricht zugleich von „mieten“; keine Bedingungen oder Tarife veröffentlicht. Adresse erst nach Zuordnung geocodieren.
 
 ## Timeline
+
+### Quellenprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Die Betreiberwebsite und ihr Impressum/Schrottplatz- und Containerseiten direkt gelesen. Das Impressum nennt „Koblenzer Schrotthandel“, Karin Reinhardt, Am Metternicher Bahnhof 18, 56072 Koblenz, Telefon 0261 94251572, info@schrott-koblenz.de und USt-ID DE263697485; kein HRB/Registergericht. Die Website-Fußzeile trägt © 2026, ist aber kein Datum für die Richtigkeit aller Angaben. Schrottplatzseite: Anlieferung laut Betreiber für Privat- und Firmenkunden, Kauf von Metall, Batterien und Katalysatoren, Barauszahlung ab dem ersten Kilo; Preise angeblich börsenabhängig/Tagespreise, keine numerische Liste. Verkaufs-Preisliste fehlt. Gebühren: Startseite wirbt mit kostenlosem Containerdienst/Behälterstellung für Firmen, während die Containerseite von „Container mieten“ spricht; kein Tarif/Leistungsumfang klärt den Unterschied, keine allgemeine Kostenfreiheit ableiten. Der Betreiberauftritt belegt nicht, dass Karin Reinhardt zum generischen Seed „Koblenzer Entrümpelungen“ oder zum PLZ-Hinweis 56070 gehört. Keine Frontmatter-Füllung, status pruefung bleibt. Am Metternicher Bahnhof 18, 56072, ist eine ungeklärte Kandidatenadresse mit GEO-Bedarf erst nach Identitätsklärung. Quellen: https://www.koblenzer-schrotthandel.de/ ; https://www.koblenzer-schrotthandel.de/impressum/ ; https://www.koblenzer-schrotthandel.de/schrottplatz-ankauf/ ; https://www.koblenzer-schrotthandel.de/containerdienst/.]
 
 ### Recherche 06.10.2026
 

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Historischer AV-Kandidat Eckhard Müller, Bergstraße 6 im Raum Jahnatal. Aktuelle Betreiberidentität, Ortsteil und Demontageanerkennung bleiben unbestätigt. Northdata-Namenssuche liefert mehrere Müller-Homonyme, keinen zugeordneten Jahnatal-Betrieb; die GADSYS-Anwendung wurde nicht als auswertbarer Datensatz gelesen. Keine Daten fremder Müller-Firmen übernehmen.
+Historischer AV-Kandidat Eckhard Müller, Bergstraße 6 im Raum Jahnatal. Eine aktuelle Verzeichnissuche führt an derselben Straße „Eckhard Müller Kraftfahrzeugtechnik“ und damit einen Kfz-Technik-Eintrag, belegt aber nicht, dass dies die im Seed genannte Autoverwertung oder ein zugelassener Demontagebetrieb ist. Betreiberidentität, Ortsteil und Demontageanerkennung bleiben unbestätigt. NorthData-Namenssuche liefert mehrere Müller-Homonyme, keinen zugeordneten Jahnatal-Betrieb; die GADSYS-Anwendung wurde nicht als auswertbarer Datensatz gelesen. Keine Daten fremder Müller-Firmen übernehmen.
 
 Preise Ankauf/Verkauf/Gebühren nicht verifiziert. Nächster Beleg: aktuelles Anerkennungszertifikat/kommunaler Gewerbenachweis mit Inhaber und vollständigem Standort. Anschließend Fahrzeug-/Teilehandel und Annahme-/Abholkosten klären.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Neue Namens-/Adresssuche findet das Verzeichnisprofil „Eckhard Müller Kraftfahrzeugtechnik“ an Bergstr. 6, 04749 Jahnatal, Tel. 034362 33734. Das ist ein Kfz-Technik-Profil (kein gelesener Betreiber-/Registerbeleg für „Autoverwertung und Abschleppdienst“) und darf nicht automatisch mit dem historischen AV-Kandidaten verschmolzen werden. Der Abruf der Creditreform-Spur war zuvor blockiert; keine aktuelle Demontageanerkennung oder konkrete Schrott-/Fahrzeugannahme verifiziert. Keine Frontmatter-Änderung. **Ankauf**: keine Fahrzeug-/Metallvergütung belegt. **Verkauf**: keine Fahrzeug-/Teilepreisliste. **Gebühren**: keine Abschlepp-/Entsorgungstarife. GEO weiterhin erst nach Betreiber- und Ortsteilklärung. Quelle (Verzeichnis-Lead): https://www.auto-werkstatt.de/muegeln .]
 
 ### Recherche 08.10.2026
 

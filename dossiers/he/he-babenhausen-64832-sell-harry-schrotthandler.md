@@ -4,9 +4,10 @@ name: Sell Harry Schrotthändler
 trader_type: schrotthaendler
 state: HE
 city: Babenhausen
-street: Ostring 15
-postcode: '64832'
-phone: 01718333254
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Harry Sell in Babenhausen bleibt ein ungeklärter Verzeichnis-Lead; Ostring 15 und 0171 8333254 sind noch nicht durch Betreiber-/Register-/Kommunalbeleg bestätigt. Kein Beleg für Zugehörigkeit zu Sell Recycling in Kitzingen oder zu Oskar Sell in Schaafheim. Der historische Dublettenhinweis betrifft `he-babenhausen-64832-he-sell-harry-schrotthandler`; beide stabilen Slugs bleiben bis zur gemeinsamen Prüfung erhalten, nicht als zwei bestätigte Betriebe zählen. Preis- und Gebührenbedingungen sind nicht belegt.
+Harry Sell in Babenhausen bleibt ein ungeklärter Verzeichnis-Lead; Gelbe Seiten nennt Ostring 15, 64832 und 0171 8333254, jedoch ohne Betreiber-/Register-/Kommunalbestätigung. Straße, PLZ und Telefon sind deshalb im Frontmatter geleert (Quellenkorrektur, keine Behauptung, die Werte seien falsch). Kein Beleg für Zugehörigkeit zu Sell Recycling in Kitzingen oder Oskar Sell in Schaafheim. Der Dublettenhinweis betrifft `he-babenhausen-64832-he-sell-harry-schrotthandler`; beide stabilen Slugs bleiben bis zur gemeinsamen Prüfung erhalten und sind nicht als zwei bestätigte Betriebe zu zählen.
+
+**Preise:** **ANKAUF** – keine Kurse; **VERKAUF** – keine Liste; **GEBÜHREN** – keine Tarife. **GEO:** Identität und Annahmestelle vor Geocodierung unabhängig klären.
 
 ## Timeline
+
+### Korrektur/Recherche 20.10.2026
+
+- [Korrektur/Recherche 20.10.2026: Gelbe-Seiten-Profil direkt geprüft; es nennt für Harry Sell Ostring 15, 64832 Babenhausen und 0171 8333254. Es bleibt ein Aggregatorlead ohne Betreiber-/Register-/Kommunalbeleg. Deshalb die seed-/portalbasierten Werte Straße, PLZ und Telefon im Frontmatter geleert; das ist eine Quellenqualitätskorrektur, kein Nachweis, dass die Angaben falsch sind. Der vorhandene Dubletten-Slug bleibt erhalten, aber nicht als zweiter bestätigter Betrieb zu zählen. Kein Merge mit Sell Recycling Kitzingen oder Oskar Sell/Schaafheim. ANKAUF/VERKAUF/GEBÜHREN: keine diesem Ziel zugeordneten Preis-/Tariflisten. GEO: Identität und öffentlich zugängliche Annahmestelle vor Pin verifizieren. Quelle: https://www.gelbeseiten.de/gsbiz/9acdeeec-fe52-42f1-8b9c-19234b19f948 (Verzeichnislead).]
 
 ### Recherche 01.10.2026
 

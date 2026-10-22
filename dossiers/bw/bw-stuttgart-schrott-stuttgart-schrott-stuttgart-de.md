@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt „Schrott Stuttgart“ gehört laut Impressum zu Kluj Schrotthandel, Inhaber Maciej Kluj. Die Impressumsadresse ist Weberstr. 25, 70182 Stuttgart; die Unterseite „Schrott Anlieferung Stuttgart“ wiederholt diese Adresse, nennt aber als Festnetz 0711 245194, während Impressum und frühere Recherche 0711 12164475 nennen. Weitere ältere Verzeichnis-Adressen bleiben widersprüchlich. Daher keine Straße/PLZ/Öffnungszeiten neu in die strukturierten Felder übernommen; die Website-Marke bleibt von der Betreiberbezeichnung zu unterscheiden.
+Der Betreiberauftritt „Schrott Stuttgart“ gehört laut Impressum zu Kluj Schrotthandel, Inhaber Maciej Kluj; dasselbe Impressum verlinkt auch schrott-kluj.de. Beide Betreiberauftritte nennen Weberstr. 25, 70182 Stuttgart und 0711 1216 44 75, zusätzlich 0177 6376900. Ältere Verzeichnis-Adressen und die Festnetznummer 0711 245194 auf einer Anlieferungs-Unterseite bleiben widersprüchlich. Die Website-Marke bleibt von der Betreiberbezeichnung zu unterscheiden; Frontmatter-Adressfelder bleiben deshalb leer.
 
 **Preisrichtung:** Betreiber wirbt mit Schrottankauf zu Tagespreisen; konkreter Kurs nur auf Anfrage und keine Zahlenliste. Die Website verlangt eine Mindestmenge, nennt aber keine Menge. Kostenlose Abholung wird beworben, ohne dass deren Mindestmenge/Materialbedingungen beziffert sind. Kein Materialverkaufspreis oder Gebührenplan veröffentlicht.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Impressum und Ankaufsseiten beider Domains direkt gelesen; das Impressum von schrott-stuttgart.de verlinkt schrott-kluj.de und nennt für beide Kluj Schrotthandel/Maciej Kluj, Weberstr. 25/70182 Stuttgart, 0711 1216 44 75, Mobil 0177 6376900. ANKAUF: Buntmetalle (u. a. Kupfer/Kabel, Blei, Zinn, Zink, Aluminium, Messing) zu Tagespreisen, Betrag auf Anfrage; Mindestmenge wird erwähnt, aber nicht beziffert. Sofortige Barzahlung und digitale Waage werden behauptet. Kostenlose Abholung wird beworben, ohne vollständige Mengen-/Materialbedingungen. VERKAUF: keine numerische Material-/Teilepreisliste; GEBÜHREN: keine Gebühren-/Containerpreisliste (Container 3–40 m³). Die beiden Domains sind derselbe Betreiberauftritt, keine unabhängige zweite Quelle; ältere Adress-/Telefonkonflikte und der Einzelunternehmer-Owner-Gate bleiben, daher keine Stammdatenänderung. Quellen: https://www.schrott-stuttgart.de/impressum ; https://www.schrott-stuttgart.de/schrott-ankauf.html ; https://www.schrott-kluj.de/impressum ; https://www.schrott-kluj.de/schrotthandel-stuttgart/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

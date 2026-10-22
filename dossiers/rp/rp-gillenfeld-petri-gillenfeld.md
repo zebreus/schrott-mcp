@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Ein neuer, hochrangigerer Suchtreffer als die bisherigen Branchenbücher ist ein Creditreform-Profil „Guido Petri Schrottverwertung“ für Bahnhofstr. 4, 54558 Gillenfeld, Tel. 06573 9499; das Profil war beim Direktabruf nicht lesbar und der verlinkte Schrottplatz-Info-Eintrag ist ein Aggregator. Die Gemeindeseite nennt Marco Bauer an Bahnhofstr. 42, nicht 4. Damit ist Petri ein konkreter Kandidat, aber der Seed-Datensatz noch nicht ausreichend unabhängig bestätigt; Kontaktdaten und Status bleiben offen. Keine Preisliste gefunden.
+Creditreform und mehrere Verzeichnisse führen Guido Petri an Bahnhofstraße 4, 54558 Gillenfeld, Tel. 06573 9499; der direkte Creditreform-Abruf war nicht lesbar. Ein weiteres Verzeichnis nennt abweichend Mühlenstraße 13. Die Gemeindeseiten widersprechen sich zu Marco Bauers Adresse (Bahnhofstraße 42 bzw. Schulstraße 19); keine von beiden Seiten nennt Petri oder belegt eine Verbindung zu Hausnummer 4. Damit bleibt Petri ein konkreter, aber nicht unabhängig bestätigter Kandidat. ANKAUF: keine verifizierten Preise oder Annahmebedingungen. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben. Keine Kontakt-/Adressfüllung oder Geocodierung vor Betreiberbestätigung.
 
 ## Timeline
+
+### Recherche 21.10.2026 (Welle RP)
+
+- [Recherche 21.10.2026: LokaleSchrottplatz führt Guido Petri an Bahnhofstraße 4, 54558 Gillenfeld, Tel. 06573 9499, mit dem Verzeichnislabel „Geschlossen“, einer Bewertung und einer langen Material-/Mindestgewichts-Liste. Das Portal ist keine Betreiberquelle; sein „Geschlossen“-Label ohne belastbare Öffnungszeiten ist kein Schließungsbeleg, die generischen Annahmebedingungen werden nicht übernommen. Der separate Lead Mühlenstraße 13 bleibt ungelöst. Die direkt gelesenen offiziellen Gemeindeseiten nennen Marco Bauer einmal an Bahnhofstraße 42 und einmal an Schulstraße 19; keine Seite belegt Petri oder widerlegt eine Nutzung der Bahnhofstraße 4 durch Petri. Kein Fill und keine Statusänderung. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste. Bahnhofstraße 4 und Mühlenstraße 13 nur nach Identitätsklärung geocodieren. Quelle(n): https://lokaleschrottplatz.de/guido-petri-schrottverwertung/ ; https://www.gillenfeld.de/bauwirtschaft-handwerk/ ; https://www.gillenfeld.de/eintrag-abisz/ .]
 
 ### Recherche 14.10.2026
 

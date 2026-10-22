@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiber Michel Linnemann nennt Werkstr.43, 34414 Warburg-Scherfede, 0160 5605629 und info@schrotthandel-linnemann.de. Neue Dienstleistungsprüfung bestätigt ausdrücklich vergüteten Schrott-/Metallankauf, Anlieferung oder terminierte Abholung und Kranverladung sowie Fahrzeugverwertung und Ersatzteilhandel. Noch kein gelesener unabhängiger Zweitbeleg: Creditreform-Detail blockiert, verlinktes Betreiber-Facebook nur Login. Kontaktskalare bleiben daher begründet leer.
+
+Ankauf: Tagespreise behauptet, keine Zahlenliste. Verkauf: Kfz-Ersatzteile ohne Preisliste. Gebühren: keine Beträge oder allgemeine Kostenfreiheit belegt. Zertifizierungsbehauptung ohne aktuelle gelesene Urkunde nicht strukturiert übernehmen. Zweitbeleg und Standortart vor GEO nötig.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: Betreiber-Start und /dienstleistungen/ direkt gelesen: Ankauf jeglicher Schrott-/Metallarten (Kupfer/Messing/Zink/Aluminium/Kabel), selbst bringen oder nach Termin abholen, Kranwagen/Container; Fahrzeuge ebenfalls bringen/abholen, Ersatzteilhandel. Das ist stärkere Ankaufsevidenz als der frühere reine Home-Schnipsel, aber dieselbe Betreiberquelle. Neuer Creditreform-Treffer „MichelLinnemann Schrott-undMetallhandel“ passt namens-/ortsmäßig im Suchindex, Direktabruf403; verlinktes Facebook liefert nur Login. Kein voll gelesener Zweitbeleg, deshalb keine Adresse/Kontaktobjekte gefüllt. Ankauf ohne Zahlen, Verkauf ohne Teilepreisliste, Gebühren unbekannt; Containerabsatz enthält duplizierten Ersatzteiltext, daraus keine Sonderkonditionen ableiten. Quelle(n): https://schrotthandel-linnemann.de/ ; https://schrotthandel-linnemann.de/dienstleistungen/ ; https://firmeneintrag.creditreform.de/34414/4130166955/MICHEL_LINNEMANN_SCHROTT_UND_METALLHANDEL (403); https://www.facebook.com/Schrotthandel-Linnemann-208843222653108/ (Login).]
 
 ### Recherche 01.10.2026
 

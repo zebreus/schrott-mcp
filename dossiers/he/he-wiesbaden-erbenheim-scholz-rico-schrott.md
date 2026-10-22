@@ -4,7 +4,7 @@ name: Scholz Rico Schrott
 trader_type: schrotthaendler
 state: HE
 city: Wiesbaden-Erbenheim
-street: Rennbahnstr. 1
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Ein Gelbe-Seiten-Profil ist der einzige belastbare Lead für „Scholz Rico Schrott“: Rennbahnstr. 1, 65205 Wiesbaden-Erbenheim, Tel. 0163 6217680. Es nennt Abholung, An-/Verkauf und Haushaltsauflösungen, aber keine Betreiberwebsite oder Registerzuordnung. Adresse und Telefon bleiben daher ungeprüfte Verzeichnisangaben.
+Ein direkt geprüftes Gelbe-Seiten-Profil ist ein Verzeichnislead für „Scholz Rico Schrott“: Rennbahnstr. 1, 65205 Wiesbaden-Erbenheim, Tel. 0163 6217680. Das Portal nennt Abholung, An-/Verkauf und Haushaltsauflösungen; eine Betreiberwebsite oder Registerzuordnung fehlt. Die Seed-Straße wurde aus dem Frontmatter entfernt, weil sie nur durch einen Aggregator gestützt ist; damit wird nicht behauptet, sie sei falsch. Telefon und Leistungen bleiben ebenfalls unbestätigte Portalangaben.
 
 **Preise (Stand 08.10.2026):** **ANKAUF** – keine konkreten Ankaufkurse. **VERKAUF** – keine Verkaufspreise. **GEBÜHREN** – keine Abholungs-/Entrümpelungstarife veröffentlicht.
 
 ## Timeline
+
+### Korrektur/Recherche 20.10.2026
+
+- [Korrektur/Recherche 20.10.2026: Gelbe-Seiten-Profil direkt geprüft; es führt Rennbahnstr. 1, 65205 Wiesbaden-Erbenheim, Tel. 0163 6217680 und nennt Abholung, An-/Verkauf sowie Haushaltsauflösungen. Es bleibt der einzige qualifizierende Treffer, aber ein Aggregator ist nach README kein Identitäts-/Adressbeleg. Deshalb die bisherige Seed-Straße im Frontmatter geleert (Quellenkorrektur, keine Feststellung, dass die Adresse falsch ist); keine Telefon-/Leistungsübernahme. Ältere Timeline-Angaben bleiben als Recherchehistorie erhalten. ANKAUF/VERKAUF/GEBÜHREN: keine Preise oder Tarife belegt. GEO: tatsächliche Kunden-/Annahmestelle erst mit Betreiber- oder Kommunalbeleg prüfen. Quelle: https://www.gelbeseiten.de/gsbiz/6a97e5cb-cd63-41ac-9ec8-891337258cc7 (Verzeichnislead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

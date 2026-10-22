@@ -32,6 +32,10 @@ Der direkt gelesene eBay-Shop **Autoverwertung Mairitsch** verkauft aktuell gebr
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Gelbe Seiten führt aktuell einen Eintrag „Mairitsch Autoverwertung“, Dortmunder Str. 88, 59427 Unna-Massen, 02303 25 50 80 und Mo–Fr 08:00–17:00/Sa 09:00–14:00. Es handelt sich um einen Branchenverzeichniseintrag; daraus folgt keine bestätigte Verknüpfung zum eBay-Shop, dessen aktuell auslesbares Impressum weiterhin durch eine Identitätsprüfung blockiert ist. Der Eintrag stützt Nr. 88 als Kandidaten, löst aber weder 88/90 noch die Rechtsträger- und Annahmefrage. Keine Frontmatter-Fills, Öffnungszeitenübernahme oder GEO. VERKAUF: gebrauchte Teile im eBay-Shop, aber keine neue bestätigte Preisaufnahme; ANKAUF: keine aktuelle Kondition; GEBÜHREN: keine belastbare Verwertungs-/Abholliste. Quelle: https://www.gelbeseiten.de/gsbiz/71563368-f148-4f62-a495-21cf716f1997 (Verzeichniseintrag; eBay-Tab Impressum weiterhin nicht lesbar).]
+
 ### Owner-Nachprüfung 17.10.2026 — Evidenzvorbehalt H1
 
 - [Owner-Nachprüfung 17.10.2026: Der neue präzise Impressumsbefund vom 16.10. ist nicht als unabhängig reproduzierter aktueller Betreiber-/Adressnachweis freigegeben. Reviewer und Owner lesen am unveränderten eBay-Impressumslink nur eine Identitätsprüfung; das widerlegt die frühere Werkzeugantwort nicht, belegt aber die aktuellen Geschäftsdaten nicht. Der Rechercheagent überliefert im Nachweisbericht das damalige Toolzitat, ohne gesonderte Rohdatei, genaue Abrufzeit oder Originalhash. Die folgenden beiden Notizen vom 16.10. bleiben als Recherchehistorie erhalten und sind nur unter diesem Vorbehalt zu lesen. Keine Kontakte, Anschrift, Website oder Servicezusagen strukturiert übernehmen, keine Auflösung der 88/90- oder Rechtsträgerfrage behaupten. Kein Login/CAPTCHA umgangen, kein Falschheits-/Schließungsurteil und kein GEO-Fill. Quelle: https://www.ebay.de/str/autoverwertungmairitsch?_tab=about ; Nachweise: research/wave-20261016-1300-mairitsch-evidence.md und research/wave-20261016-1300-bc-review.md.]

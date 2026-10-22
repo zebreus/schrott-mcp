@@ -28,6 +28,10 @@ Betreiberwebsite nennt Danika Dettmann, Anthony-Fokker-Straße 5, 19061 Schwerin
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Schrottpreis-Unterseite live erneut gelesen: Tagespreise werden täglich ab 08:00 Uhr telefonisch mitgeteilt, keine veröffentlichte Zahlen-/kg-Tafel. Die Seite nennt Barankauf und Abholung von Alteisen, Buntmetallen und Altautos; keine Mindestmenge lässt sich aus dem Werbebeispiel „10 kg oder 10 t“ ableiten. Derselbe Auftritt zeigt weiterhin widersprüchliche Mo–Fr-Schlusszeiten 16:00/17:00 Uhr (verschiedene Bereiche der Seite), Samstag 09–13 Uhr; daher kein Öffnungszeiten-Fill. Verkaufspreise/Gebühren nicht ausgewiesen; Abholung nicht als kostenlos werten. Anschrift bleibt mangels unabhängigen zweiten Betreiber-/Registerbelegs Timeline-only, keine Geokodierung. Quelle: https://www.fair-metall.de/schrottpreise/ (Abruf 21.10.2026).]
+
 ### Recherche 18.10.2026 (02:00-Welle C)
 
 - [Recherche 18.10.2026: Preisunterseite eigenständig direkt gelesen; weiterhin ausschließlich telefonische Tagespreisauskunft ab 8 Uhr, keine Zahlenkurse. Derselbe Abruf enthält gleichzeitig Mo–Fr 7–17 in der Sidebar und 7–16 im Footer; deshalb weiterhin kein strukturierter Stunden-Fill. ANKAUF: Alteisen/Buntmetalle ausdrücklich gekauft, 10 kg/10 t nur Beispiel; VERKAUF: keine Liste; GEBÜHREN: kein Tarif auf dieser Seite, aus „Abholung“ keine Kostenfreiheit ableiten. Unabhängiger Inhaber-/Adressbeleg weiterhin offen; vorhandene Website nicht mit einem zweiten Betreiberbeleg verwechseln. Keine GEO-Arbeit. Quelle: https://www.fair-metall.de/schrottpreise/]

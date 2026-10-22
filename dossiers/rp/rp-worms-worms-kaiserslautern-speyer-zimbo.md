@@ -30,6 +30,10 @@ Der Seed-Name „Worms/Kaiserslautern/Speyer: Zimbo“ und die Angabe „Nordend
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Erneute Websuche nach der exakten Kombination „Zimbo“ mit Worms, Kaiserslautern, Speyer und Nordendstraße ergab keinen belegfähigen Schrotthändler-/Betreiber- oder Registertreffer. Die direkt gelesene offizielle ZIMBO-Seite beschreibt Lebensmittelprodukte und belegt keinerlei Beziehung zum Seed; sie wird nur als Namensabgrenzung geführt. Kein Negativnachweis für Nichtexistenz, keine Standort- oder Betreiberzuordnung und kein Fill. ANKAUF: keine belegten Annahmebedingungen/Kurse; VERKAUF: keine Händler-Preisliste; GEBÜHREN: keine Angaben. Quelle zur Namensabgrenzung: https://www.zimbo.de/ .]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Erneute exakte Namenssuche zu Worms, Kaiserslautern, Speyer und Nordendstraße lieferte keine belegfähige Anbieter-/Registerzuordnung. Treffer zur Marke „Zimbo“ beziehen sich auf Lebensmittel und sind kein Nachweis für einen Schrotthändler; keine Verbindung hergestellt. Kein Fill, kein Schließungsurteil. ANKAUF — keine nachweisbaren Bedingungen/Preise; VERKAUF — keine Liste; GEBÜHREN — keine Angaben. Quelle zur Abgrenzung: https://www.zimbo.de/ (Lebensmittelmarke; kein Bezug zum Seed belegt; Abruf 12.10.2026). Weiter offen: Ausgangsquelle des Seed-Namens und tatsächliche Rechtsträger/Orte.]

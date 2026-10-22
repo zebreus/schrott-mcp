@@ -32,6 +32,10 @@ Die Profile liefern aber keine Betreiberwebsite, keine nachgewiesene Gewerbe-/Re
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: Gelbe-Seiten-Einzelseite erneut direkt gelesen: Papier- und Schrothandel Heiko Sewzyk, Ossietzkystr. 37A, 01662 Meißen, 0174 3319765; kein ausgelesenes Impressum/Betreiberlink und keine Öffnungszeiten oder Annahmekonditionen. E-Mail-/Website-Standardbuttons bleiben ohne konkreten Betreiberinhalt. Neue Suche zeigt zugleich Wertstoffhandel Vogel am Nassauweg; andere Person/Adresse, keine belegte Nachfolge und keine Übertragung von dessen Preis-/Socialdaten. ANKAUF Papier-/Metallkurse, VERKAUF und GEBÜHREN im gelesenen Eintrag nicht beziffert. Verzeichnisgleichheit ist weiterhin kein qualifizierter Zweitbeleg; Gewerbe-/Inhaberbestätigung für Heiko Sewzyk priorisieren, erst danach Annahmeadresse/GEO. Frontmatter unverändert, keine Schließung aus fehlendem Webbeleg. Quelle: https://www.gelbeseiten.de/gsbiz/0e92aa1d-05a8-4d81-9a21-3ae061be55f5 ; https://www.facebook.com/p/Wertstoffhandel-Vogel-UG-die-Meissner-Wertstoffhandlung-100038914451807 (nur fremder Suchindex-Lead, nicht zugeordnet).]
+
 ### Recherche 15.10.2026 Welle18C
 
 - [Recherche 15.10.2026 Welle18C: Gelbe-Seiten-Einzelseite direkt gelesen, nicht nur Suchsnippet: Papier- und Schrothandel Heiko Sewzyk, Ossietzkystr. 37A, 01662 Meißen, Mobil 0174 3319765. Sichtbare Standardbuttons E-Mail/Website liefern im ausgelesenen Kontaktbereich keine Betreiberadresse oder verifizierte Domain; kein Website-Fill aus einem Button. Namenssuche Heiko plus Schrotthandel/Meißen findet diesen Verzeichnislead; die enger zitierte Suche Sewzyk/Heiko lieferte überwiegend irrelevante Treffer und ist kein Existenztest. Keine qualifizierte zweite Quelle oder Betreiberidentität hinzugewonnen, Frontmatter unverändert; Quelle: https://www.gelbeseiten.de/gsbiz/0e92aa1d-05a8-4d81-9a21-3ae061be55f5 .]

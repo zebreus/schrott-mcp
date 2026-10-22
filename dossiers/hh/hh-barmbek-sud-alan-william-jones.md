@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der einzige lokal passende Direktkontakt bleibt ein 11880-Lead: Alan William Jones, Vogelweide 40, 22081 Hamburg, Tel. 040 2708902 (Portal-Eintragsdaten 16.05.2024). Es gibt keinen zuordenbaren lokalen Betreiber-/Registerbeleg; gleichnamige britische bzw. US-amerikanische Personen sind ausdrücklich nicht mit dem Hamburger Händler verknüpft. Aktuelle Tätigkeit, Kontaktgültigkeit, Annahme/Ankauf und Öffnungszeiten bleiben offen; kein Schließungsurteil aus Suchlücken. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
+Ein Creditreform-Suchergebnis führt „Alan Jones – Metall- und Schrotthandel“ an der Vogelweide 40, 22081 Hamburg, mit 040 2708902. Das stützt die Verbindung des Namens mit dem Metall-/Schrotthandel stärker als der bisherige 11880-Lead, aber der direkte Creditreform-Abruf war nicht lesbar und eine zweite qualifizierte Quelle fehlt. Es ist kein Betreiberauftritt oder unabhängig bestätigter aktueller Kundenstandort belegt. Gleichnamige britische bzw. US-amerikanische Personen sind ausdrücklich nicht mit dem Hamburger Händler verknüpft. Aktuelle Tätigkeit, Kontaktgültigkeit, Annahme/Ankauf und Öffnungszeiten bleiben offen; kein Schließungsurteil aus Suchlücken. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Neuer Creditreform-Suchtreffer „Alan Jones – Metall- und Schrotthandel“ nennt Vogelweide 40, 22081 Hamburg und 040 2708902 und passt damit exakt zum bisherigen 11880-Lead. Der direkte Abruf der Creditreform-Seite war gesperrt (403); der Suchindex ist deshalb dokumentiert, aber nicht als vollständig gelesener Firmenbeleg gewertet. Keine zweite qualifizierte Quelle und keine Betreiberseite gefunden; Adresse/Telefon unverändert, `trader_type`, `status: pruefung` und `website_status: unbekannt` bleiben. Der Eintrag bestätigt weder Annahmebedingungen noch tatsächlichen Ankauf. Keine Ankauf-, Verkaufs- oder Gebührenpreise verifiziert. Quelle: https://firmeneintrag.creditreform.de/22081/2150429277/ALAN_JONES_METALL_UND_SCHROTTHANDEL.]
 
 ### Recherche 04.10.2026
 

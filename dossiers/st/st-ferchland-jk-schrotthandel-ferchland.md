@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-JK Schrotthandel Ferchland bleibt ein Identitätsklärfall. Mühlenweg 1B, 39317 und 039349 94023 sind Verzeichnisleads. Neuer Creditreform-Suchkandidat: Jennifer Klöpper Schrotthandel & Containerdienst, mit Kurzbezeichnung JK Schrotthandel und An-/Verkauf von Schrott/Metall. Detailabruf blockiert; weder Inhabername noch Anschrift sind dadurch freigegeben. Die Stellenanzeige aus August 2026 und der BA-Arbeitgeber-Suchauszug vom 10.10. sind Tätigkeit-/Identitätsleads, keine bestätigte öffentliche Annahme.
+JK Schrotthandel Ferchland bleibt ein Identitätsklärfall. Branchenverzeichnisse führen Mühlenweg 1B, 39317 und 039349 94023; ein direkt gelesener BA-Stellen-Datensatz nennt dagegen Mühlenweg 3, 39317 Ferchland. Die BA-Anzeige verbindet den Arbeitgebernamen „JK Schrotthandel Ferchland Jennifer Klöpper“ mit Annahme, Wiegen und Auszahlung von Schrott im Arbeitsalltag, ist aber kein Gewerbenachweis und belegt nicht, dass die Adresse eine öffentliche Annahmestelle ist. Creditreform-Detailabruf bleibt blockiert.
 
 **ANKAUF / VERKAUF / GEBÜHREN:** keine numerische Zielpreisliste; Identität, Betriebsanschrift und Annahmebedingungen zuerst prüfen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Den individuellen Datensatz der Bundesagentur für Arbeit direkt gelesen. Arbeitgeberdarstellung „JK Schrotthandel Ferchland Jennifer Klöpper“, Arbeitsort Mühlenweg 3, 39317 Ferchland; die Bürokraft-Stellenbeschreibung umfasst „Annahme und Wiegen von Schrott sowie die Auszahlung“. Das ist ein aktueller Tätigkeit-/Identitätsbeleg (Anzeige vor ca. 30 Tagen veröffentlicht, vor 29 Tagen geändert), aber keine Gewerbe-/Rechtsformbestätigung und keine Zusage, dass Laufkundschaft am Arbeitsort Schrott abgeben kann. Gelbe Seiten führt abweichend Mühlenweg 1B/039349 94023; beide Anschriften bleiben ungeklärt. Kein Frontmatter-Fill; keine Geokodierung, bis Betreiber/öffentliche Kundenannahme und korrekte Hausnummer bestätigt sind. ANKAUF: keine aktuellen Kundentarife; Stellenbeschreibung belegt Auszahlung, nicht deren Kurse. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Quellen: https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003744550-S ; https://www.gelbeseiten.de/gsbiz/e1ef3294-bfc1-4f4e-a7c0-b20e8b1fe675 (Mühlenweg 1B, Verzeichnislead).]
 
 ### Recherche 18.10.2026 (18:00-Welle, Shard 1)
 

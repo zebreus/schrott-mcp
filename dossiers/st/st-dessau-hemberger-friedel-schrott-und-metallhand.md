@@ -29,6 +29,10 @@ Verzeichnis-Leads führen „Friedel Hemberger Schrott- und Metallhandel“ an M
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die erneute Suche bringt keine neue Betreiberquelle. Schrottplatz-Info führt weiterhin Mittelbreite 57 / 06849 / 0340 8583043, weist aber ausdrücklich darauf hin, dass Angebot und Öffnungszeiten nicht erfasst sind; Branchen-Info markiert die Inhaberdaten als nicht geprüft. Das bestätigt nur die bestehende Verzeichnis-Spur, nicht den aktuellen Betrieb oder vergüteten Ankauf. **Ankauf:** nicht belegt; **Verkauf:** „Anbieter für Metalle“ ist keine Produkt- oder Preisliste; **Gebühren:** keine veröffentlicht. Keine Frontmatter-Änderung, keine Geokodierung. Quellen: https://www.schrottplatz-info.de/schrottplatz/Dessau/Hemberger-Friedel-Schrott-und-Metallhandel ; https://dessau.branchen-info.net/fp_645814.php (beide Verzeichnisse, Abruf 21.10.2026).]
+
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 
 - [Recherche 01.10.2026: Adress-/Telefon-Fill als begruendete Ausnahme (nur Aggregatoren, aber 6-facher Konsens): Mittelbreite 57, 06849 Dessau-Rosslau (Sued), Tel 0340 8583043; city Dessau → Dessau-Rosslau korrigiert. KEINE Betreiber-Website, KEIN Registerbeleg; Status pruefung → aktiv (Konsens + schrottplatz-info-Branchenbeleg). Koordinaten neu zu geocodieren (Adress-Fill); Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Dessau/Hemberger-Friedel-Schrott-und-Metallhandel + https://dessau.branchen-info.net/hemberger-friedel-schrott-und-metallhandel/645814/ + https://www.oeffnungszeitenbuch.de/filiale/Dessau-Rosslau-Friedel%20Hemberger%20Schrott-%20und%20Metallhandel-1747986F.html + https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/friedel-hemberger---dessau-rosslau-81354916.html + https://web2.cylex.de/firma-home/hemberger-friedel-13835511.html (alle aggregiert, ein Datenbild).]

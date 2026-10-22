@@ -32,6 +32,10 @@ Privat-/Gewerbeankauf mit Ausweis, Container 0,5–12 m³ und gewerbliche Großm
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Recherche 19.10.2026: Leistungsseite direkt neu gelesen; zusätzlich wichtig für spätere Servicekodierung: Containerstellung ausdrücklich für Gewerbe UND Privathaushalte,0,5–12m³, auch Transportgenehmigung für andere Abfallarten wie Altholz behauptet. Dies ist keine Aussage, dass Altholz angekauft wird, und kein kostenloser Containerdienst. Ankauf privater Kleinmengen mit sofortiger Vergütung/Ausweis, gewerbliche Großmengenabholung bleiben Betreiberangaben; Zahlenliste fehlt, nur Tages-/Börsenabhängigkeit. Verkauf nur Überschrift An- und Verkauf, keine Verkaufspreise; Gebühren unbeziffert. Identische Zinn-/Zink-Stofflisten weiterhin nicht normalisieren. Keine neue unabhängige Hof-/Registerprüfung in dieser Teilnachprüfung; Frontmatter unverändert. GEO TeuringerStraße57 erst nach unabhängigem Hofbeleg, Registeranschrift Kapitän-Wagner-Straße28 nicht als Ersatzpunkt verwenden. Quelle: https://www.regu-recycling.de/dienstleistungen/ .]
+
 ### Recherche 18.10.2026 — Welle 02:00 / a
 
 - [Recherche 18.10.2026: Impressum, Dienstleistungen und Fuhrpark jeweils direkt gelesen: weiterhin Betreiber-Hof Teuringer Straße 57, ohne HRB im Impressum; unabhängige Hofbestätigung damit nicht nachgeholt. Leistungsseite sagt ausdrücklich „An- und Verkauf von Metallabfällen“, hat aber nur Ankaufablauf und keine Verkaufspreisliste. Sofortige Vergütung privater Kleinmengen/Ausweis und börsenabhängige Tagespreise sind Eigenangaben, keine Zahlenkurse. Neu zu beachten: die Kategorien „Zinn“ und „Zink“ enthalten auf der Website teils identische/vermischte Stofflisten; daraus keine neue Materialnormalisierung ableiten. Fuhrparktext „Euro-6“ betrifft Emissionen, nicht eine aktuelle EFB-Anerkennung. Gebühren: Container 0,5–12 m³ ohne Beträge; kein kostenloser Service zugesichert. Frontmatter unverändert, keine Koordinate. Offen bleiben unabhängiger Hofbeleg und aktuelles Zertifikat. Quellen: https://www.regu-recycling.de/impressum/ ; https://www.regu-recycling.de/dienstleistungen/ ; https://www.regu-recycling.de/fuhrpark/ .]

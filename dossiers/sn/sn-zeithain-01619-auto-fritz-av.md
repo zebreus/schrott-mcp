@@ -30,6 +30,10 @@ Echte Betreiberpräsenz neu gefunden und gelesen: AutoFritz GbR, Inhaber Thomas 
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die Betreiber-Startseite und das Impressum wurden erneut direkt gelesen. Sie nennen AutoFritz GbR, Inhaber Thomas Schuster und Sven Richter, Neudorfer Straße 1, 01619 Zeithain, Telefon 03525 5296330, Fax 03525 7489604 und auto-fritz-gbr@t-online.de; Leistungen: Fahrzeugverkauf, Recycling, Instandsetzung, Teilehandel und Zubehör, Mo–Fr 08–18/Sa 09–13. Die Seiten nennen keine Ankaufskurse, Annahmebedingungen, Verwertungsgebühren oder konkreten Teilepreise; „Recycling“ wird nicht als kostenlose Altautoentsorgung oder Metallankauf ausgelegt. Da die aktuelle unabhängige Identitäts-/Anerkennungsprüfung und zweite qualifizierte Quelle weiter fehlen, bleiben strukturierte Felder leer. ANKAUF: keine Preise/Annahmebedingungen; VERKAUF: Fahrzeuge/Teile/Zubehör ohne Zahlenpreise; GEBÜHREN: keine Tarifliste. Quelle(n): https://www.auto-fritz-gbr.de/; https://www.auto-fritz-gbr.de/impressum; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (amtliche Registeroberfläche, kein Einzeldatensatz auslesbar).]
+
 ### Recherche 18.10.2026 (18:00-Welle, Shard 1)
 
 - [Recherche 18.10.2026: Eigene Suche findet https://www.auto-fritz-gbr.de ; Startseite, Impressum und Sitemap jeweils direkt gelesen. Impressum: AutoFritz GbR/Inh. Thomas Schuster und Sven Richter, Neudorfer Straße 1/01619 Zeithain, 03525 5296330, Fax 03525 7489604, auto-fritz-gbr@t-online.de, USt-ID DE279144172, Handwerkskammer Dresden. Startseite exakt gleiche Kontakte, Mo–Fr 08–18/Sa 09–13/So geschlossen, Leistungen Fahrzeugverkauf/Recycling/Instandsetzung/Teilehandel/Zubehör. Sitemap nur Start/Impressum/Datenschutz, jeweils lastmod 14.11.2022; generische Aktionen/News ohne datierte aktuelle Meldung. Keine eigene Preisliste oder verlinkte Anerkennungsurkunde sichtbar. Keine HRB und keine vollständigen Kriterien autoritativer Betreiber-Ausnahme; weitere Portale sind nur Leads. Quellen: https://www.auto-fritz-gbr.de ; https://www.auto-fritz-gbr.de/impressum ; https://www.auto-fritz-gbr.de/sitemap.xml .]

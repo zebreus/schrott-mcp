@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnisse stimmen weiterhin bei Zur Weisacht 15, 66798 Wallerfangen-Ittersdorf und 06837 909863 überein, aber es fehlt ein Betreiber-, Register- oder kommunaler Beleg. Adress-/Telefonfelder bleiben Leads; Aktivität und Annahmebedingungen sind offen. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
+Das direkt gelesene Das-Örtliche-Profil führt Rayer Helmut Schrottentsorgung an Zur Weisacht 15, 66798 Wallerfangen-Ittersdorf, Tel. 06837 909863, und kategorisiert Demontage, Schrottentsorgung und Schrottabholung. Betreiber-, Register- oder kommunaler Gewerbebeleg fehlt; Anschrift/Telefon und Leistungen bleiben daher Aggregator-Leads, keine aktuelle Hofannahme. **Ankauf:** nicht verifiziert, keine Kurse. **Verkauf:** keine Liste gefunden. **Gebühren:** keine Angaben. **Offen/GEO:** Betreiber und Annahmestelle durch Gewerbeauskunft/Betreiber bestätigen; keine Koordinaten ableiten.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Das-Örtliche-Profil direkt abgerufen: Zur Weisacht 15/66798, 06837 909863; zusätzliche Verzeichnis-Kategorien Demontagearbeiten, Schrottentsorgung und Schrottabholung. Das Örtliche weist selbst darauf hin, dass Einträge auch vom Verlag/Dritten recherchierte Inhalte enthalten können; daher kein Betreiber-/Gewerbenachweis und keine Übernahme in Frontmatter. Keine konkrete Ankaufvergütung, Verkaufs-Preisliste oder Gebührenliste auffindbar. Adresse bleibt GEO-gesperrter Lead. Quelle: https://www.dasoertliche.de/Themen/Rayer-Helmut-Schrottentsorgung-Wallerfangen-Ittersdorf-Zur-Weisacht (Abruf 20.10.2026).]
 
 ### Recherche 18.10.2026 — Welle 18:00 / Shard 3
 

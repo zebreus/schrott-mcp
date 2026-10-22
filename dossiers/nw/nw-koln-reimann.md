@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Branchenportale führen „Schrott und Metall Reimann“ an der Daimlerstr. 12, 50859 Köln-Lövenich, Tel. 02234 4305969. Es gibt jedoch keinen gefundenen Betreiberauftritt, Registerbeleg oder unabhängigen Primärnachweis zur Identität und aktuellen Tätigkeit. Gleichnamige Reimann-Unternehmen an anderen Orten sind nicht zugeordnet. Die frühere Einstufung `aktiv` beruhte auf der Anzahl übereinstimmender Verzeichnisse; nach dem Quellenstandard bleiben das Leads und rechtfertigen keine aktive Verifizierung. Deshalb auf `pruefung` zurückgestuft. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
+Der aktuelle 11880-Detaillead führt „Schrott und Metall Reimann Metallschrotthandlung“ an Daimlerstr. 12, 50859 Köln-Lövenich, Tel. 02234 4305969; Portalangabe: Eintragsdaten 20.11.2025, aktualisiert am 02.10.2026. Eine Betreiberwebsite, Registerquelle oder kommunale Identitätsbestätigung liegt weiterhin nicht vor. Gleichnamige Reimann-Betriebe werden nicht zugeordnet. Die Adresse und Telefonnummer bleiben Aggregator-Leads, keine verifizierten Betriebsdaten; `status: pruefung` bleibt bestehen.
+
+**Preise:** Ankauf: keine belegten Bedingungen/Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarifangaben. Die 11880-Preisspannen-FAQ ist generisch und nennt keine Reimann-Preise.
 
 ## Timeline
 
@@ -44,3 +46,7 @@ Mehrere Branchenportale führen „Schrott und Metall Reimann“ an der Daimlers
 
 - Schrott (GS)
 - Adresse: Köln
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Detailseite direkt erneut gelesen; sie führt dieselben Adresse-/Telefon-Leads und nennt Eintragsdaten 20.11.2025 sowie eine Portalaktualisierung am 02.10.2026. Die Seite enthält keine Betreiber-Website, keine individuelle Inhaberbestätigung dieses Falls und keine Material-/Einheitspreise. Mehrere Verzeichnistreffer bleiben keine unabhängigen Primärbelege; keine Frontmatter-Änderung, kein Rückwechsel auf `aktiv`. ANKAUF: nicht bestätigt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle (Aggregator-Lead): https://www.11880.com/branchenbuch/koeln/120674719B44130217/schrott-und-metall-reimann-metallschrotthandlung.html]

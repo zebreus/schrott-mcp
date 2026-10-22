@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Der jetzt live gelesene ursprüngliche Gelbe-Seiten-Lead heißt „Schmidt Rohprodukte Altmetalle“ (nicht „Schmidt + Schmidt“) und nennt Sägemühlenstr. 1 in Bad Grund-Teichhütte. Ein unklarer Seed-Name ist kein Beleg für zwei Inhaber oder eine Gesellschaft. PLZ 37539 und Telefon 05327 8698701 bleiben nur Leads, nicht Frontmatter-Fills. Betreiber-/Gewerbe-/Registerbeleg fehlt; keine verwandten Schmidt-Betriebe zugeordnet. Ankauf/Verkauf/Gebühren: keine verifizierten Listen. Offen: vollständiger Inhabername, historische Namensbildung, aktueller Betrieb und Grundstücksbeleg; Adresse vor GEO-Nutzung bestätigen.
+Der direkt gelesene Gelbe-Seiten-Eintrag heißt „Schmidt Rohprodukte Altmetalle“ (ohne Plus) und nennt Sägemühlenstr. 1, Teichhütte, Telefon 05327 8698701. Ein direkt gelesener 11880-Eintrag unter demselben Namen führt dagegen Am Steinbühl 2 in Bad Grund und Telefon 05327 4425/5606; Eintragsdaten 15.06.2023, Portaländerung 01.10.2026. Die beiden Adress-/Telefonvarianten und der Dossiername „Schmidt + Schmidt“ sind nicht über Betreiber/Registerbelege verbunden.
+
+- **Ankauf:** Verzeichnisse nennen nur Branchenrubriken; keine verifizierte Kaufzusage oder numerischen Kurse.
+- **Verkauf:** keine Produkt-/Preisliste.
+- **Gebühren:** keine Entsorgungs-/Abholtarife.
+- **GEO:** weder Sägemühlenstr. 1 noch Am Steinbühl 2 ohne Identitäts-/Adressklärung als Annahmepunkt geokodieren.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Den 11880-Detailtreffer „Schmidt Rohprodukte Altmetalle“ direkt gelesen. Er führt Am Steinbühl 2, 37539 Bad Grund, Telefon 05327 4425 und weitere Rufnummer 05327 5606; Eintragsdaten laut Seite 15.06.2023, aktualisiert 01.10.2026. Das widerspricht dem direkt gelesenen Gelbe-Seiten-Eintrag Sägemühlenstr. 1/05327 8698701. Beide sind Telefonbuch-/Verzeichnisbelege, kein Nachweis einer Verlegung, Filiale oder Betreiberkette. Namensvariante „Schmidt“ löst den Seed-Zusatz „+ Schmidt“ nicht. Kein Fill/kein GEO; keine Ankauf-, Verkaufs- oder Gebührenpreise. Quelle(n): https://www.11880.com/branchenbuch/bad-grund-harz/120674719B377410/schmidt-rohprodukte-altmetalle.html ; https://www.gelbeseiten.de/gsbiz/05d791dc-41da-43a5-86ff-a676f51beabd.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

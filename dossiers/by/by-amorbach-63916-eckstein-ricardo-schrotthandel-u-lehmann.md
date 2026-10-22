@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Unbestätigter Doppelname aus Schrottplatz-Portalen: Eckstein Ricardo Schrotthandel u. Lehmann Antonia, Amorsbrunner Straße 5C, 63916 Amorbach, 09373 3678. Der aktuelle Detailabruf hat weder Betreiberwebsite noch Leistungsbeschreibung oder Öffnungszeiten; der Homepage-Link enthält einen PHP-Fehler. Keine gesicherte gemeinsame Gesellschaft oder Betreiberkette aus „u.“ ableiten. `pruefung`, keine Kontakt-/Adressfills.
+
+**Ankauf:** Vergütung und Kurse offen. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. **GEO:** erst aktuelle Gewerbeidentität und Funktion der Adresse bestätigen; benachbartes Wild-Metall ist keine Nachfolgeinformation.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Recherche 19.10.2026: Exakten Portal-Detailpfad direkt gelesen: Amorsbrunner Str.5C/63916/093733678; Angebot/Zeiten ausdrücklich nicht erfasst, Homepage-Href enthält weiterhin PHP-Deprecated statt echter Betreiber-URL. Exakte neue Namenssuche erbringt weitere Portalkopien, keine qualifizierte Identitäts-/Aktivitätsquelle. Nachbarschaftslinks zu Wild-Metall/Weilbach sind nur Portalumkreis und keine Betriebskette. Überblick erstmals kuratiert, keine strukturierten Fills; Ankauf/Verkauf/Gebühren unbelegt. Nächste Frage für kommunale Gewerbeauskunft Amorbach: Sind Ricardo Eckstein und Antonia Lehmann gemeinsame/aufeinanderfolgende Betreiber, und ist5C heute Kundenannahme? Bis dahin GEO zurückstellen. Quelle (Lead): https://www.schrottplatz-info.de/schrottplatz/Amorbach/Eckstein-Ricardo-Schrotthandel-u-Lehmann-Antonia .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

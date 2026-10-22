@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Karin Enders bleibt ein unbestätigter Autoverwertungs-Kandidat. Die neue Suche findet lediglich Infobel-Umkreisverweise mit Scharnhorststraße 5, 35260 Stadtallendorf; kein Betreiber-/Registerprofil oder aktueller Demontagebeleg. Der Direktabruf des verweisenden Profils liefert eine Zugriffssperre statt des Firmeneintrags. Suchindexwerte nicht in die strukturierten Felder übertragen.
+Ein direkt geprüftes 11880-Profil führt „Autoverwertung Karin Enders“, Scharnhorststr. 5, 35260 Stadtallendorf, 06428 442176, E-Mail und Website und beschreibt Autoverschrottung/-verwertung. Der Portal-Eintrag wurde laut Seite am 15.10.2026 aktualisiert; ein Betreiber-/Registerbeleg liegt hier dennoch nicht vor, und die verlinkte Domain war beim Abruf technisch nicht erreichbar. Die Angaben sind keine bestätigte Kundenannahme oder aktuelle Demontagezusage.
 
-**Ankauf:** keine Vergütungs-/Fahrzeugpreise. **Verkauf:** keine Teileliste. **Gebühren:** keine Verwertungs-/Abholtarife. **GEO:** zuerst Identität und tatsächliche Kundenstelle bestätigen.
+**ANKAUF:** keine Vergütungs-/Fahrzeugpreise. **VERKAUF:** keine Teileliste. **GEBÜHREN:** keine Verwertungs-/Abholtarife. **GEO:** zuerst Identität und tatsächliche Kundenstelle bestätigen.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: 11880-Profil „Autoverwertung Karin Enders“ direkt gelesen: Scharnhorststr. 5, 35260 Stadtallendorf, Tel. 06428 442176, webmaster@autoverwertung-enders.de, Link auf autoverwertung-enders.de; dort gelistete Zeiten Mo–Fr 09:00–12:30 und 13:30–18:00, Sa 09:00–13:00, Leistungen Autoverschrottung/Autoverwertung. Die Seite nennt Eintragsdaten 01.10.2026 und Aktualisierung 15.10.2026. Das bleibt eine einzelne Verzeichnisquelle, nicht unabhängiger Betreiber-/Registerbeleg; kein Frontmatter-Fill. Die verlinkte Website war beim Abruf technisch nicht erreichbar, was kein Schließungsbeleg ist. ANKAUF: keine Zahlen zu Fahrzeug-/Metallvergütung; VERKAUF: keine Teileliste; GEBÜHREN: keine Tarife. GEO: vor Pin Identität und öffentlich zugängliche Annahmestelle bestätigen. Quelle: https://www.11880.com/branchenbuch/stadtallendorf/060440459B26337319/autoverwertung-karin-enders.html (Verzeichnislead).]
 
 ### Recherche 17.10.2026 — Welle 2100 C
 

@@ -30,6 +30,10 @@ Angebotsfokus: gebrauchte Ersatzteile, Gebrauchtwagen und Reparatur. Allgemeiner
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Root und Impressum sowie der ursprüngliche RHEINPFALZ-Artikel direkt erneut gelesen. Betreiberseite/Impressum führen weiterhin Closter-Autorecycling GmbH, Christa Closter, Bruchstraße 31, 66901 Schönenberg-Kübelberg, HRB 31929 Zweibrücken und Telefon 06373 50890-0; die Startseite bewirbt Gebrauchtteile, Gebrauchtwagen und Reparatur. Die RHEINPFALZ berichtete 2022 ausdrücklich die geplante Betriebsschließung Ende 2023. Eine erreichbare, undatierte Website klärt nicht, ob der Hof tatsächlich 2023 geschlossen, verlagert oder fortgeführt wurde; daher keine aktuelle Annahmeadresse/-zeiten oder `geschlossen` abgeleitet. ANKAUF: allgemeiner Metallankauf nicht belegt, keine Kurse. VERKAUF: Gebrauchtteile/-fahrzeuge ohne Preislisten. GEBÜHREN: keine Versand-, Annahme- oder Entsorgungstarife auf den gelesenen Seiten. Quellen: https://closter.de/ ; https://closter.de/impressum ; https://www.rheinpfalz.de/lokal/kreis-kusel_artikel,-autoverwerter-closter-schlie%C3%9Ft-platz-f%C3%BCr-seniorenpark-und-wohngebiet-_arid,5386046.html .]
+
 ### Recherche 05.10.2026 (Abend-Welle)
 
 - [Recherche 05.10.2026: Root und vollständiges Impressum erneut direkt abrufbar: Closter-Autorecycling GmbH, Christa Closter, Bruchstraße 31, 66901 Schönenberg-Kübelberg, HRB 31929 Zweibrücken, 06373 50890-0, info@closter.de. Root bietet Ersatzteile, Einbau nach Termin, Gebrauchtwagen; publiziert weiterhin Mo–Do 09–12/13–17, Fr 09–12/13–16, Sa 09–12. Keine datierte Fortführungsnachricht oder Umzugsadresse im Abruf; die offene Schließungsankündigung aus der Recherche vom 03.10. wird durch unveränderten Website-Footer nicht widerlegt. Adresse/Zeiten/Kontakte bleiben Timeline-only und status pruefung; keine allgemeine Metallannahme/Preisgarantie. Quelle(n): https://closter.de/ ; https://closter.de/impressum .]

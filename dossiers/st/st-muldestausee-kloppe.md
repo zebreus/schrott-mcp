@@ -30,6 +30,10 @@ Das Dokument ist eine Altlasten-/Planungsquelle, kein aktueller Gewerbe- oder Ze
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Ein aktuellerer Verzeichnis-Treffer führt „Schlaitzer Autoverwertung“ an Freiheitstr. 12, 06774 Muldestausee (Schlaitz), Telefon 034955 20503 und Mo–Fr 08–17 / Sa 09–12. Das passt straßengenau zum historischen kommunalen FNP-Eintrag „Schlaitzer Autoverwertung Firma Kloppe, Freiheitsstraße 12“, stützt aber weder die Identität des heutigen Portaleintrags mit der früheren Firma noch eine Betreiber-/Nachfolgekette. Im Portal ist als Datensatzstand 26.09.2025 angegeben; Aktualisierung 02.10.2026 ist keine Betreiberbestätigung. **Ankauf:** Kfz-Verwertung wird als Branche genannt, keine Fahrzeug- oder Metallsätze; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. PLZ/Telefon/Zeiten bleiben Timeline-Leads; vor GEO aktuelle Annahme und Betreiber verifizieren. Quellen: https://www.11880.com/branchenbuch/muldestausee/060440459B42590285/schlaitzer-autoverwertung.html ; https://www.gemeinde-muldestausee.de/de/datei/anzeigen/id/32199,1163/anlage_4_altlasten.pdf (Portalabruf 21.10.2026; Planquelle März 2022).]
+
 ### Recherche 14.10.2026
 
 - [Korrektur 14.10.2026: Bereits in 02.10. verlinkte amtliche PDF vollständig als Text ausgelesen. Flächennutzungsplan Muldestausee, März 2022, Anlage 4, Seite 28, Abschnitt Schlaitz, Typ 5/Nr. 3077: „Schlaitzer Autoverwertung Firma Kloppe, Freiheitsstraße 12“, Beschreibung Autoverwertung/Hof gepflastert, vorgesehene gewerbliche Baufläche. Dies ist ein expliziter historischer Namens-/Adressbeleg und korrigiert den vorherigen MISS; Rabe/Windmühlenweg 17a ist ein anderer Datensatz. Nicht als heutige Annahme/Zertifizierung interpretiert, Betreiberperson und unabhängiger aktueller Beleg fehlen. NorthData-Suche Kloppe Muldestausee ohne eindeutigen lokalen Match im ersten Block, kein Vollständigkeitsbeweis. Kein Preis für Ankauf, Verkauf oder Gebühren; Adresse nur im Überblick/Timeline, keine GEO-Koordinaten. Quelle: https://www.gemeinde-muldestausee.de/de/datei/anzeigen/id/32199,1163/anlage_4_altlasten.pdf ; https://www.northdata.de/?query=Kloppe%20Muldestausee.]

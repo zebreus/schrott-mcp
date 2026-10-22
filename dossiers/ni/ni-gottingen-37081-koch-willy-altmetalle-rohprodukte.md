@@ -28,6 +28,10 @@ Registerspur neu konkretisiert: Willy Koch, Altmetalle, Schrott, Rohprodukte e.K
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: NorthData-Profil HRA 2247 direkt erneut gelesen: aktuelle öffentlich sichtbare Adresse nur Göttingen, nicht Salinenweg. Der als Namensänderung 20.02.2020 dargestellte Satz Der Inh. handelt allein ist weiterhin ein offensichtlicher Kandidat für automatisches Parsing-Artefakt, kein sinnvoller neuer Geschäftsname. Khatereh Fathi wird in der Eintragung 2006 genannt; daraus keinen heutigen Telefon-/Inhaberbeleg ableiten. Weitere Namens-/Straßensuche lieferte teils sachfremde Treffer und wird nicht als amtlicher Negativnachweis verwendet. ANKAUF/VERKAUF/GEBÜHREN keine aktuelle Betreiberliste. Gezielt aktuellen Registerabzug/Gewerbe und Salinenweg-Annahmefunktion prüfen statt nur Registerspiegel zu vervielfachen; GEO unverändert. Quelle: https://www.northdata.de/Willy%20Koch,%20Altmetalle,%20Schrott,%20Rohprodukte%20e%C2%B7%20K%C2%B7,%20G%C3%B6ttingen/HRA%202247 .]
+
 ### Recherche 16.10.2026
 
 - [Recherche 16.10.2026: Northdata direkt gelesen: Willy Koch Altmetalle/Schrott/Rohprodukte e.K., Göttingen HRA 2247; Eintragung 04.05.2006 mit Inhaberin Khatereh Fathi, Anschriftpublikation 03.04.2017 ohne öffentlich konkret ausgelesene Straße. Auffällige algorithmische Name-Zeile Der Inh. handelt allein (2020) nicht als echte Umfirmierung übernehmen. Creditreform-Suchtreffer nennt Salinenweg 4, 37081, direkter Profilabruf aber 403. Neuer qualifizierter Registerpfad, kein Zwei-Quellen-Beleg für aktuelle Annahmestelle oder Telefon. Vorhandenen Seed-Ort Göttingen 37081 rein syntaktisch in city/postcode getrennt; Straße unverändert historisch. ANKAUF/VERKAUF/GEBÜHREN keine Preise; GEO aktuelle Geschäfts-/Annahmeadresse und Einfahrt noch verifizieren. Quellen: https://www.northdata.de/Willy%20Koch,%20Altmetalle,%20Schrott,%20Rohprodukte%20e%C2%B7%20K%C2%B7,%20G%C3%B6ttingen/HRA%202247 ; https://firmeneintrag.creditreform.de/37081/2110013110/WILLY_KOCH_ALTMETALLE_SCHROTT_ROHPRODUKTE_E_K (Suchsnippet; Direktabruf 403).]

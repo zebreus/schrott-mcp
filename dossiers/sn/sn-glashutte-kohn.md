@@ -28,6 +28,14 @@ Northdata bestätigt den registergeführten Altmetallhandel/Holzrecycling Köhn 
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: NorthData-Eintrag HRA 6100 AG Dresden direkt erneut gelesen: Altmetallhandel und Holzrecycling Köhn e.K., Eintragung 19.01.2006, Inhaberin Sigrun Köhn; öffentliches Profil weiterhin nur mit Ort Glashütte und ohne auslesbare aktuelle Geschäftsstraße. Die aktuelle Registeridentität allein bestätigt weder die aus Verzeichnissen stammende Müglitztalstr. 33G/Telefonnummer noch heutige Kundenannahme. Keine Stammdatenänderung. **Ankauf/Verkauf/Gebühren:** keine aktuellen Zahlenlisten oder Tarife; Adresse bleibt ungeprüft und ohne GEO-Freigabe. Quelle: https://www.northdata.de/Altmetallhandel%20und%20Holzrecycling%20-%20K%C3%B6hn%20-%20e.%20K.,%20Glash%C3%BCtte/Amtsgericht%20Dresden%20HRA%206100 .]
+
+### Owner-GEO-Prüfung 21.10.2026
+
+- [Owner-Prüfung 21.10.2026: Die read-only Produktionszeile enthält 52.21815, 14.0135. Nominatim verortet den vorhandenen Punkt in Wendisch Rietz, Brandenburg, nicht in Glashütte/01768. Das Register bestätigt nur den Ort Glashütte, nicht die Geschäftsstraße; der Verzeichnis-Lead Müglitztalstr. 33G bleibt ungeprüft. Keine Ersatzkoordinate übernommen oder Produktionsdaten geändert. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.21815&lon=14.0135&zoom=10 ; https://www.northdata.de/Altmetallhandel%20und%20Holzrecycling%20-%20K%C3%B6hn%20-%20e.%20K.,%20Glash%C3%BCtte/Amtsgericht%20Dresden%20HRA%206100.]
+
 ### Recherche 16.10.2026
 
 - [Recherche 16.10.2026: Northdata direkt gelesen: HRA 6100 AG Dresden, Altmetallhandel und Holzrecycling Köhn e.K., Gegenstand Handel mit Altmetallen und Holzrecycling, Eintragung 19.01.2006 mit Inhaberin Sigrun Köhn. Öffentlich nur Glashütte als Adresse, letzte sichtbare Anschriftpublikation 17.11.2009 ohne auslesbare Anschrift; keine heutige Betriebs-/Ankaufbestätigung daraus abgeleitet. Creditreform-Direktabruf HTTP403; Suchtreffer bestätigt Registerzuordnung, nicht als gelesener Volltext gewertet. Korrektur der Belegbewertung vom 02.10.: Cylex und Verzeichniskonsistenz erfüllen die README-Zweitbelegregel für Straße/Telefon/Sorten nicht. Altwerte bleiben historisch erhalten, diese Felder und tatsächliche Kundenannahme brauchen Betreiber-/Gewerbenachprüfung. ANKAUF/VERKAUF/GEBÜHREN ohne Zahlenfund; GEO kein Punkt aus Aggregator-Hausnummer. Quellen: https://www.northdata.de/Altmetallhandel%20und%20Holzrecycling%20-%20K%C3%B6hn%20-%20e.%20K.,%20Glash%C3%BCtte/Amtsgericht%20Dresden%20HRA%206100 ; https://firmeneintrag.creditreform.de/01768/3070347801/ALTMETALLHANDEL_UND_HOLZRECYCLING_KOEHN_E_K (403).]

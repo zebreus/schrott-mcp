@@ -28,6 +28,10 @@ Der Branchenportal-Lead „Johannes Hilgenberg Rohstoffe“, Kiliansweg 6, Bad S
 
 ## Timeline
 
+### Recherche 21.10.2026 — Betreiber- und Preisabgleich
+
+- [Recherche 21.10.2026: Das aktuelle 11880-Profil nennt Johannes Hilgenberg Rohstoffe, Kiliansweg 6, 32108 Bad Salzuflen, Tel. 05222 81651, mit Portalaktualisierung 15.10.2026; weiterhin nur Branchenportal. firminform führt Johannes Hilgenberg e.K., AG Lemgo HRA 53, am selben Ort als „inaktiv“, aber der angezeigte Profilstand ist 04.10.2017. Dieses alte Drittprofil ist weder aktueller amtlicher Registerauszug noch Schließungsnachweis. Keine aktuelle Betreiber-/Annahmestellenbestätigung; die namensähnliche Hilgenberg GmbH in Malsfeld nicht zugerechnet. ANKAUF: keine belastbaren numerischen Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tariftafel. Quelle(n): https://www.11880.com/branchenbuch/bad-salzuflen/060440090B26054969/johannes-hilgenberg-rohstoffe.html ; https://www.firminform.de/unternehmen/Johannes-Hilgenberg-e-K-Bad-Salzuflen]
+
 ### Owner-Nachprüfung 15.10.2026
 
 - [Recherche 15.10.2026: Unabhängiger Review und direkter Owner-Abruf von firminform: Johannes Hilgenberg e.K., Kiliansweg 6, 32108 Bad Salzuflen, AG Lemgo HRA 53; Profil nennt inaktiv, letzte Aktualisierung 04.10.2017. Keine Tätigkeitsbeschreibung oder aktuelle Registerereignisse im gelesenen Profil. firminform ist hier nur ein zusätzlicher Recherchehinweis, keine qualifizierte amtliche Bestätigung; daraus weder geschlossen setzen noch Namen/Adresse/Kontakte füllen. Registerportal nur Startseite mit Sitzungsfehler, keine erfolgreiche Einzelabfrage und kein Negativbescheid. Nächster belastbarer Schritt: aktuellen Auszug zu AG Lemgo HRA 53 prüfen. Quelle: https://www.firminform.de/unternehmen/Johannes-Hilgenberg-e-K-Bad-Salzuflen ; Review research/checkin-20261015-1830-hilgenberg-review.md.]

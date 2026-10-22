@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Syronox GmbH wird auf ihrem LinkedIn-Unternehmensprofil als Lieferant von Edelstahl- und Treppenbauprodukten in Haiger beschrieben; genannt wird Kalteiche Ring 71. Die verlinkte Firmendomain syronox.com war beim Direktabruf nicht erreichbar. Creditreform-Suchtreffer nennen HRB 3648, dieselbe Anschrift und Edelstahlhandel, der Profildirektabruf war jedoch gesperrt. Keine belastbare Betreiber-/Registerkombination zur Feldübernahme und kein Beleg für Schrottankauf oder Schrottannahme. ANKAUF: keine Schrottkurse/Annahmebedingungen; VERKAUF: Edelstahlprodukte, keine geprüfte Preisliste; GEBÜHREN: keine Angaben. Identitäts- und Kontaktfelder bleiben offen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Direkt gelesene LinkedIn-Unternehmensseite beschreibt Syronox GmbH als Haigerer Lieferanten von Edelstahl-/Treppenbauprodukten und nennt Kalteiche Ring 71, 35708 Haiger. Die dort verlinkte Domain `syronox.com` war per HTTP/HTTPS nicht abrufbar; auch `syronox.de` lieferte keinen verwertbaren Betreiberauftritt. Creditreform-Suchtreffer nennen HRB 3648, Anschrift Kalteiche-Ring 71 und Handel mit Edelstahlprodukten, aber der Direktabruf des Profils endet mit HTTP 403; kein Originalauszug aus dem Handelsregister geprüft. Daher keine neuen strukturierten Felder, insbesondere kein ungeprüfter Kontakt oder aktiv-Status. ANKAUF: keine Schrottannahme/-preise belegt; VERKAUF: Handelsgegenstand Edelstahlprodukte, keine Preisangaben; GEBÜHREN: nicht veröffentlicht. Quelle(n): https://www.linkedin.com/company/syronox-gmbh/ (Unternehmensprofil); https://firmeneintrag.creditreform.de/35708/6110261362/SYRONOX_GMBH (Suchtreffer, Direktabruf 403); https://syronox.com (Direktabruf nicht erreichbar).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Klärfall trotz aktueller Branchenbuch-Leads: Das Verzeichnis führt Falk Dahms, Weidener Str. 47a, 92690 Pressath, Telefon 09644 365 und Öffnungszeiten; die Website ist weiterhin nicht direkt abrufbar (HTTP 403), daher fehlen Betreiber-Impressum und belastbare Identitätszuordnung. Die nur dort gelisteten Kontaktdaten bleiben unverifiziert. Keine öffentliche Ankaufspreisliste, Verkaufspreise oder Entsorgungsgebühren gefunden. Die Branchenbuch-Koordinaten nicht verwenden; kein geocoding bis Betreiberadresse bestätigt ist.
+Klärfall trotz aktueller Branchenbuch-Leads: Ein Verzeichnis führt Falk Dahms an Weidener Str. 47a, 92690 Pressath, Telefon 09644 365. Ein OTV-Bericht vom 29.12.2020 begleitet dagegen „Dahms Automobile“ und nennt Martin Barth als Gesprächspartner bei der dort gezeigten Autoverwertung. Beide Namensbilder könnten sich auf denselben Standort beziehen, doch der Bericht belegt weder Falk Dahms noch dieselbe Anschrift oder Barth als Inhaber; keine Namens- oder Kontaktübertragung. Die Website autoverwertung-dahms.de bleibt mit HTTP 403 nicht auswertbar. Keine aktuelle Ankaufspreisliste, Teileverkaufspreise oder Entsorgungsgebühren gefunden. Verzeichnis-Koordinaten nicht verwenden.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: OTV-Bericht vom 29.12.2020 direkt gelesen: die Reportage beschreibt „Dahms Automobile“ in Pressath als Autoverwertung mit 250–300 gelagerten Fahrzeugen und nennt Martin Barth; sie gibt keine Hausnummer, heutige Betreiberbestätigung oder Bezug zum Verzeichnisnamen „Falk Dahms“. Das ist ein zeitgebundener Pressebericht, kein aktueller Betreiber-/Registerbeleg. Branchenbuch Deutschland führt weiterhin Falk Dahms, Weidener Str. 47a, 92690 Pressath, Tel. 09644 365; dessen Website-Link bleibt nicht verifiziert. Identitäten nicht zusammengeführt, keine Frontmatter-Fills. Bericht spricht allgemein von Schrottpreisen, nennt aber keinen Betrag; Ankauf, Ersatzteilverkauf und Entsorgungs-/Abholgebühren ohne Preisangaben. Offen: heutiger Betreiber, Falk-Dahms-/Martin-Barth-Beziehung, amtliche Annahmeberechtigung und genaue Kundenadresse. Keine Koordinaten übernommen. Quelle(n): https://www.otv.de/pressath-vom-unfallauto-zum-wuerfel-469448 ; https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/falk-dahms-autoverwertung-pressath-73631450.html ; https://www.autoverwertung-dahms.de/ (HTTP 403)]
 
 ### Recherche 18.10.2026 — Welle 02:00 / a
 

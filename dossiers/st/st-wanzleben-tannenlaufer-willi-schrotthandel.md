@@ -38,6 +38,10 @@ Quelle des Portal-Leads: [schrottplatz-info – Trefferliste Haldensleben/Umkrei
 
 - [Recherche 07.10.2026: Der importierte Portalhinweis lässt sich auf die schrottplatz-info-Trefferliste zum Raum Haldensleben zurückführen; diese führt „Tannenläufer Willi Schrotthandel“ im Raum Wanzleben-Börde/Eggenstedt. Die Seite ist ein Aggregator und enthält in diesem Treffer keinen aktuellen Betreiber-Impressums-/Registerbeleg oder verifizierbare Kontaktdaten. Keine Frontmatter-Ergänzung. **Ankauf:** keine bestätigten Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Keine Geokodierung mangels Straße/Hausnummer; Quelle: https://www.schrottplatz-info.de/schrottplatz/Haldensleben]
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Erneute Suche nach „Tannenläufer“/Willi und Wanzleben-Eggenstedt ergab keinen neuen Betreiber-, Register- oder kommunalen Standortbeleg; die weiterhin auffindbare Spur bleibt die schrottplatz-info-Umkreisliste. Das Suchausbleiben beweist keine Schließung oder Nichtexistenz. Name bleibt ungeklärt, kein Kontakt-/Adress-Fill oder Statuswechsel. ANKAUF: keine bestätigten Ankaufskurse; VERKAUF: keine Teile-/Materialpreisliste; GEBÜHREN: keine veröffentlichten Tarife. Ohne verifizierte Straße/Hausnummer keine Geokodierung. Quelle: https://www.schrottplatz-info.de/schrottplatz/Haldensleben (Aggregator, erneute Prüfung 21.10.2026).]
+
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite von Fred De Snoo Rohstoffe e.K. beschreibt Schrott-/Metallhandel (Eisen/Stahl und NE-Metalle), Container/Mulden von 5–40 m³ und nennt im Impressum Nicole Macaluso. Die Website nennt Öffnungszeiten Mo–Do 07:00–12:00 und 13:00–16:15, Fr 07:00–12:00 und 13:00–14:00, Sa 08:00–13:00. Die vorhandene HRA-Recherche steht in der Timeline; die eingeschränkten Frontmatter-Felder bleiben gemäß bisherigem Quellenstandard unverändert.
+
+**ANKAUF:** Schrott-/Metallankauf zu aktuellen Tagespreisen beworben, aber keine numerischen Kurse. **VERKAUF:** Metallhandel genannt, keine konkrete Verkaufspreisliste. **GEBÜHREN:** Container-/Muldenservice beschrieben, keine bezifferten Tarife. **GEO:** Betreiber nennt Lämmerspieler Weg 158, 63075 Offenbach als Kontaktadresse; vor Karten-Pin prüfen, ob dies die öffentlich zugängliche Annahmestelle ist.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Betreiberwebsite, Impressum und Leistungsseite direkt geprüft. Das Impressum nennt Fred De Snoo Rohstoffe e.K., Inhaberin Nicole Macaluso, Lämmerspieler Weg 158, 63075 Offenbach, Tel. 069 856112; die Leistungsseite beschreibt Eisen-/Stahlschrott- und NE-Metallhandel sowie Container von 5–40 m³. Die Startseite nennt Mo–Do 07:00–12:00 und 13:00–16:15, Fr 07:00–12:00 und 13:00–14:00, Sa 08:00–13:00; sie zeigt ein 2026-EFB-Zertifikat. ANKAUF: Tagespreise beworben, keine numerischen Kurse veröffentlicht. VERKAUF: keine konkret bezifferte Verkaufsliste. GEBÜHREN: keine Container-/Muldenpreise veröffentlicht. Keine Stammdatenänderung, da die bestehenden Frontmatter-Felder dem dokumentierten Quellenstandard folgen. GEO: Kontaktanschrift ist Betreiberangabe; prüfen, ob sie auch die zugängliche Annahmestelle ist. Quellen: https://www.freddesnoo.de/ ; https://www.freddesnoo.de/impressum/ ; https://www.freddesnoo.de/schrott-und-metallhandel/.]
 
 ### Recherche 04.10.2026
 

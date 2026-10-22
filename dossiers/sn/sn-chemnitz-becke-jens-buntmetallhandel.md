@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Jens Becke Buntmetallhandel in Chemnitz, Borssenanger 16, bleibt ein Prüffall. Historisch dokumentiertes Creditreform-Profil ist ein Einzelbeleg; zusätzliche Verzeichnisse sind keine unabhängigen Primärbelege. Der Abruf vom 09.10.2026 ist blockiert. Vorhandene Adresse/Telefon bleiben als Legacy-Werte erhalten, ohne neue Bestätigung. Öffnungszeiten bleiben wegen abweichender Dienstagsangaben offen. Ankauf / Verkauf / Gebühren: keine verifizierten Zahlenlisten. Offen: aktueller Betreiber- oder kommunaler Gewerbenachweis und Kundenannahme.
+Jens Becke Buntmetallhandel in Chemnitz, Borssenanger 16, bleibt ein Prüffall. Die erneute Direktansicht der Gelben Seiten bestätigt nur einen Verzeichniseintrag; Creditreform-Direktabruf war zuvor blockiert. Straße und Telefon bleiben deshalb historische Werte, nicht frisch durch einen Betreiber bestätigt. Das Gelbe-Seiten-Profil zeigt derzeit Mo/Mi 10–16 und Di/Do/Fr 10–18; Verzeichniszeiten sind nicht als Betreiberzeiten verifiziert. Offen bleiben aktueller Betreiber-/Gewerbenachweis und tatsächliche Kundenannahme.
+
+**Preise:** **Ankauf**: keine verifizierten Zahlenkurse. **Verkauf**: keine Preisliste. **Gebühren**: keine belastbaren Abhol-/Entsorgungstarife. **GEO:** Borssenanger 16 ist ein Verzeichnis-/Registerkandidat; ohne bestätigten Hofzugang keinen Kundenpunkt daraus ableiten.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Detailseite direkt erneut gelesen: Borssenanger 16, 09113 Chemnitz-Kaßberg, 0371 5600997; Öffnungszeiten werden dort jetzt mit Mo/Mi 10–16 und Di/Do/Fr 10–18 angegeben. Das bestätigt den aktuellen Portalinhalt, nicht Betreiberidentität oder Kundenannahme. Die früher dokumentierte Creditreform-Firmenzuordnung bleibt Einzelbeleg; ihr Direktabruf war blockiert. Keine Änderung an Stammdaten, keine Preis-/Gebührenliste, keine GEO-Freigabe. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/382462ad-c4c9-434d-b416-e7842a125949 ; Creditreform-Profil (Direktabruf im Vorlauf 403): https://firmeneintrag.creditreform.de/09113/3030231164/JENS_BECKE_BUNTMETALLHANDEL .]
 
 ### Korrektur 09.10.2026
 

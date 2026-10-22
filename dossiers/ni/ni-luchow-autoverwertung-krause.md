@@ -25,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Ein neuer lokaler Sachbeleg über die bloßen Verzeichniseinträge hinaus: Die Freiwillige Feuerwehr Lüchow bedankt sich im Bericht zur Übung am 11.04.2026 bei Autoverwertung Krause für die Bereitstellung ihres Betriebsgeländes. Der Artikel beschreibt ausdrücklich eine Übung, keinen realen Brand/Unfall beim Betrieb. Er nennt weder Inhaber noch Straßenanschrift; Albrecht-Thaer-Str. 16 und 0162 8340276 bleiben Portal-Leads. Ein Kleinanzeigen-Treffer mit gleichem Anbieternamen ist ohne Anbieter-Impressum keine belastbare Identitätsbrücke. Aktuelle Fahrzeugannahme, Demontagezulassung und Rechtsidentität noch offen; keine Frontmatter-Kontakte geraten. Ankauf, Verkauf und Gebühren ohne verifizierte Tarife.
+Der Feuerwehrbericht zur Übung am 11.04.2026 erwähnt Autoverwertung Krause als Bereitsteller eines Betriebsgeländes, nennt aber weder Inhaber noch Adresse. Die Portaladresse Albrecht-Thaer-Str. 16/29439 und Mobil 0162 8340276 ist nicht exklusiv: Suchtreffer führen dieselbe Straße auch für Autoverwertung Bleck bzw. Boick mit anderer Rufnummer. Das beweist weder eine Betreiberkette noch eine gemeinsame Annahmestelle. Aktuelle Fahrzeugannahme, Demontagezulassung und Rechtsidentität bleiben offen.
+
+- **Ankauf:** keine bestätigten Fahrzeugvergütungen oder Schrottkurse.
+- **Verkauf:** Kleinanzeigen-Ersatzteilangebot nicht als Betreiberseite verifiziert; keine belegte Preisliste.
+- **Gebühren:** keine belegten Verwertungs-/Abholtarife.
+- **GEO:** Albrecht-Thaer-Str. 16 nicht geokodieren, bis der Krause-Bezug und der öffentliche Annahmepunkt gegen die konkurrierenden Adress-Leads geklärt sind.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Neue Suchtreffer zu „Autoverwertung Krause“ wiederholen Albrecht-Thaer-Str. 16/29439 und 0162 8340276 als Verzeichnisangaben. Dieselbe Hausnummer erscheint in Suchtreffern zugleich für „Autoverwertung Bleck“ (05841 709300) und „Boick Autoverwertung“; keine der gefundenen Seiten belegt eine gemeinsame Rechtsperson, Umbenennung oder Nachfolge. Dies ist ein konkreter Adress-/Identitätskonflikt, kein Beweis gegen die Feuerwehrnennung der Krause bei der Übung. Keine Telefon-/Adressübernahme, kein GEO. Ankauf/Verkauf/Gebühren ohne bestätigte Tarife. Quelle(n): https://www.werkenntdenbesten.de/e/113982255/altmetallrecycling/luechow-wendland/autoverwertung-krause-bewertungen.html ; https://autoverwerter.de/autoverwertungen/Niedersachsen/L%C3%BCchow-Dannenberg-3354.html ; https://www.yelp.com/biz/boick-autoverwertung-u-recycling-abschlepp-u-bergungsdienst-l%C3%BCchow.]
 
 ### Recherche 18.10.2026 (Welle 0200 B)
 

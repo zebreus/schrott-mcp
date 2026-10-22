@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das aktuelle kommunale Branchenverzeichnis führt „Autoreparatur & Autoverwertung Hartmut Seilz“ am Teerofen 1, 17367 Eggesin, mit Festnetz und Mobilnummer sowie dem Tätigkeitsprofil freie Kfz-Werkstatt, Autoverwertung und Autoservice. Das ist ein kommunaler Geschäftseintrag, aber kein Betreiberauftritt und keine veröffentlichte Annahmebedingung. Kein veröffentlichter Fahrzeug-Ankaufspreis, Teile-Verkaufstarif oder Entsorgungs-/Abholentgelt belegt; insbesondere wird aus der Rubrik Autoverwertung keine kostenlose Entsorgung abgeleitet. `status: aktiv` bleibt die bisherige Seed-Entscheidung, keine neue telefonische Bestätigung.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Das kommunale Eggesiner Branchenverzeichnis erneut direkt gelesen. Es führt Hartmut Seilz, Teerofen 1, 17367 Eggesin, 039779/20409 und 0171/3705429 mit „freie Kfz-Werkstatt, Autoverwertung, Autoservice“. Die kommunale Seite verlinkt bei diesem Eintrag keine Betreiberwebsite; der Serviceeintrag belegt weder konkrete Fahrzeugannahmebedingungen noch veröffentlichte Preise. ANKAUF: kein numerischer Fahrzeug-/Schrottkurs; VERKAUF: keine Teilepreisliste; GEBÜHREN: keine Annahme-, Abhol- oder Entsorgungstarife. Keine Stammdatenänderung. Quelle: https://www.eggesin.de/wirtschaft/branchenverzeichnis/list-view/?tx_news_pi1%5BoverwriteDemand%5D%5Bcategories%5D=6&cHash=4c916d963368509ffad7d8f9d0d1779f .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -3,10 +3,11 @@ slug: he-heppenheim-64646-meh-jager
 name: MEH Jäger
 trader_type: schrotthaendler
 state: HE
-city: Heppenheim 64646
-street: Willbacherweg 6
-postcode: '64646'
-phone: 06252 670657
+city: Heppenheim
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„MEH Jäger Altmetall und Containerdienst“ ist in Verzeichnissen mit Willbacherweg 6, 64646 Heppenheim und 06252 670657 gelistet. Die Übereinstimmung von 11880 und Gelbe Seiten bleibt ein Aggregator-Lead und ersetzt keinen Betreiber-/Registerbeleg; die seedbasierten Straße-, PLZ- und Telefonfelder sind deshalb geleert. Das bestreitet nicht, dass die alte Portaladresse korrekt sein kann. Status bleibt `pruefung`; Annahme und Containerangebot nicht unabhängig bestätigt.
+
+**Preise:** **ANKAUF** – keine Kurse; **VERKAUF** – keine Materialpreisliste; **GEBÜHREN** – keine Containertarife. **GEO:** tatsächlichen Betrieb und Kundenstelle bestätigen, bevor geocodiert wird.
 
 ## Timeline
+
+### Korrektur/Recherche 20.10.2026
+
+- [Korrektur/Recherche 20.10.2026: Die direkt geprüften 11880- und Gelbe-Seiten-Einträge wiederholen „MEH Jäger Altmetall und Containerdienst“, Willbacherweg 6, 64646 Heppenheim, 06252 670657; 11880 nennt Eintragsdaten 19.05.2026 und Aktualisierung 02.10.2026. Beide sind Aggregatorprofile, nicht zwei qualifizierte Betreiber-/Registerquellen. Die frühere Timeline-Formulierung „2 unabhängige Verzeichnisse“ wird als Quellenqualitätskorrektur eingeordnet; Straße, PLZ und Telefon im Frontmatter geleert, ohne die historischen Werte zu löschen oder als falsch zu behaupten. ANKAUF/VERKAUF/GEBÜHREN: keine Preis-/Tarifliste gefunden. GEO: lokale/Betreiberbestätigung von Betrieb und Kundenstelle erforderlich. Quellen: https://www.11880.com/branchenbuch/heppenheim-bergstrasse/060371058B38320255/meh-jaeger-altmetall-und-containerdienst.html ; https://www.gelbeseiten.de/gsbiz/b6b4f584-35aa-4094-a5a5-d4926ffddfb4 (beide Verzeichnisleads).]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

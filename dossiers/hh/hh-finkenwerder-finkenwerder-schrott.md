@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Finkenwerder Schrott“ ist bislang nur ein nicht bestätigter Verzeichnis-/Seed-Lead. Die Frontmatter-Adresse Rüschweg 21a hat keinen belegten Betreiberbezug; amtliche/örtliche Einträge an benachbarten Hausnummern betreffen andere Unternehmen und verifizieren diese Adresse nicht. Keine Betreiberquelle, kein bestätigter Annahme- oder Abholort.
+„Finkenwerder Schrott“ ist bislang nur ein nicht bestätigter Verzeichnis-/Seed-Lead. Die Frontmatter-Adresse Rüschweg 21a hat keinen belegten Betreiberbezug. Hamburg.de führt Richard Völz & Söhne (Schlosser/Metallbau) an Nr. 21 und Autoservice Domgjoni an Nr. 25; diese Nachbar-Einträge betreffen andere Unternehmen und verifizieren weder Nr. 21a noch einen Schrotthandel. Keine Betreiberquelle, kein bestätigter Annahme- oder Abholort.
 
 **Preise:** die Seed-Angabe „FE/NE (lt. Aggregator)“ enthält keine Ankaufskurse; keine Verkaufspreisliste oder verifizierte Gebühren gefunden. **Geocoding:** Rüschweg 21a nicht pinnen, bevor Händleridentität und Hausnummer bestätigt sind. Status auf `pruefung` korrigiert, passend zum bisherigen Recherchebefund ohne Betreibernachweis.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Zweiseitiger Adress-Umfeldcheck im Hamburg.de-Branchenbuch: Richard Völz & Söhne wird als Schlosser/Metallbau an Rüschweg 21, 21129 geführt (Eintrag zuletzt aktualisiert 13.11.2025); die Finkenwerder-Autowerkstättenübersicht listet Autoservice Domgjoni am Rüschweg 25, 21129. Keiner der Einträge nennt Rüschweg 21a oder „Finkenwerder Schrott“; diese Nachbarbetriebe dürfen nicht als Identitäts- oder Schließungsbeleg genutzt werden. Frontmatter und Status `pruefung` unverändert. Keine Betreiberpreise oder Gebühren belegt. Quellen: https://www.hamburg.de/branchenbuch/hamburg/eintrag/1023091/ ; https://www.hamburg.de/branchenbuch/hamburg/finkenwerder/10232952/n0 .]
 
 ### Korrektur 06.10.2026
 

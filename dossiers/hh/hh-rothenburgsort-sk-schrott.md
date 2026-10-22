@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für „SK Schrott“ an Billstr. 140 gibt es weiterhin keinen zuordenbaren Betreiber- oder Registerbeleg. Ein aktueller Cybo-Scrap-Dealer-Eintrag liefert als zusätzlichen, aber nicht maßgeblichen Lead die Nummer 040 38634360 und PLZ 20539. Frühere Billstraßen-Berichte und Hamburg-Branchenbucheinträge betreffen andere Betriebe/Orte, nicht SK. Status `pruefung`; keine Schließungsbehauptung. **Ankauf/Verkauf:** keine bestätigten Preise; **Gebühren:** keine Angaben.
+Für „SK Schrott“ an Billstr. 140 gibt es weiterhin keinen zuordenbaren Betreiber- oder Registerbeleg. Ein aktueller Cybo-Eintrag liefert als nicht maßgeblichen Lead die Nummer 040 38634360 und PLZ 20539. Ein gleichnamiger Betreiberauftritt „SK Schrotthandel & Serviceleistungen“ identifiziert dagegen René Stöcker in Mayen und ein Einsatzgebiet Mayen-Koblenz/Eifel/Rheinland; er ist kein Hamburg-Nachweis und wird nicht zugeordnet. Frühere Billstraßen-Berichte und Hamburg-Branchenbucheinträge betreffen andere Betriebe/Orte. Status `pruefung`; keine Schließungsbehauptung. **Ankauf/Verkauf:** keine bestätigten Preise; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Eine gezielte Namenssuche fand die Betreiberwebsite „SK Schrotthandel & Serviceleistungen“. Das direkt gelesene Impressum nennt Inhaber René Stöcker, Neustraße 15, 56727 Mayen, Mobil 0172 6565802 und als Einsatzgebiet Mayen-Koblenz, Eifel und Rheinland. Diese Betreiberquelle schließt den identischen Hamburger Betrieb nicht aus, belegt ihn aber auch nicht; ohne Namens-/Betreiberkette kein Transfer von Website, Kontakt oder Leistungen zu Billstr. 140. Für den Hamburger Seed weiterhin keine Annahme-, Preis- oder Gebührenquelle. Quelle (fremder Namensvetter): http://www.sk-serviceleistungen.info/ .]
 
 ### Recherche 12.10.2026
 

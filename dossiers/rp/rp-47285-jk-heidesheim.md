@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„JK Heidesheim“ bleibt eine ungeklärte Seed-Bezeichnung mit geographisch widersprüchlicher Angabe „47285)“; keine aktuelle Betreiber-, Register- oder Annahmestellenquelle konnte ihr zugeordnet werden. Heidesheim/Ingelheim und die fehlerhafte PLZ werden nicht als bestätigte Stammdaten interpretiert.
+
+**Preise:** ANKAUF — keine verifizierten Annahmebedingungen oder Euro-Kurse. VERKAUF — keine Preisliste. GEBÜHREN — keine Angaben.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Erneute Suche nach „JK Heidesheim“, „JK 47285“ und Schrott-/HRB-Bezug lieferte keine plausibel zuordenbare Betreiberseite oder Registerdetailseite; die Treffer waren unspezifische JK-Namenshomonyme. Die PLZ 47285 passt nicht als Beleg für Heidesheim und wird nicht normalisiert. Suchmaschinen-Nichttreffer sind kein Nichtexistenz- oder Schließungsnachweis. Keine Felder geändert. ANKAUF/VERKAUF/GEBÜHREN: keine belegten Preise, Annahmebedingungen oder Gebührenlisten. Quelle der früheren Orts-/Namensgegenprüfung: https://www.gelbeseiten.de/suche/jk/heidesheim ; reproduzierbare aktuelle Suchspur: https://www.bing.com/search?q=%22JK+Heidesheim%22+47285+Schrott+HRB .]
 
 ### Recherche 03.10.2026
 

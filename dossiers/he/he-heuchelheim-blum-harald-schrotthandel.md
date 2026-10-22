@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnislead **Harald Blum, Heuchelheim**; die Kandidatenadresse Am Hollerbusch 17, 35452 und Telefon 0641 84898 sind nicht durch Betreiber-/Registerbelege bestätigt und bleiben daher aus dem Frontmatter entfernt. Ein weiterer Eintrag für Marco Blum an derselben Anschrift beweist weder einen gemeinsamen Betrieb noch eine Nachfolge. Die Altadresse ist keine verifizierte Anlieferempfehlung.
+Verzeichnislead **Harald Blum, Heuchelheim**: 11880 nennt Am Hollerbusch 17, 35452 und 0641 84898 und versieht den Eintrag mit „geschlossen“. Das ist kein Betreiber-/Registerbeleg und beweist keine tatsächliche Betriebsschließung; Adresse und Telefon bleiben aus dem Frontmatter entfernt. Ein Marco-Blum-Eintrag an derselben Anschrift belegt weder gemeinsamen Betrieb noch Nachfolge. Die Altadresse ist keine verifizierte Anlieferempfehlung.
 
 Die direkt geprüfte schrottplatz-info-Seite enthält keine Betreiberbedingungen oder Zeiten. Ihr Link „zur Homepage“ führt lediglich zur Verzeichniswurzel, **nicht zu einer Händlerwebsite**. Auch unplausible Entfernungsvorschläge sind keine Standortbelege. Offen bleiben der aktive Inhaber, Metallankauf versus Entsorgung, Annahme und Gebühren.
 
 **Preise:** kein unabhängig bestätigter Ankauf und keine numerische Ankaufpreisliste; Verkaufspreise und Gebühren sind in den ausgewerteten Quellen nicht veröffentlicht.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: 11880-Profil direkt geprüft: Harald Blum, Am Hollerbusch 17, 35452 Heuchelheim, Tel. 0641 84898; Portalstatus „geschlossen“, mit einer sichtbaren Nutzerbewertung aus 2020. Das Portal erklärt weder Status noch Zeitpunkt oder Grund und ist kein Betreiber-/Registerbeleg; daraus folgt keine bestätigte Schließung. Kein Frontmatter-Fill und keine Annahmeempfehlung. ANKAUF/VERKAUF/GEBÜHREN: keine dem Ziel zugeordnete Preisliste. GEO: Adresse/öffentliche Kundenstelle und Identität erst unabhängig verifizieren. Quelle: https://www.11880.com/branchenbuch/heuchelheim-kreis-giessen/060440092B39898533/harald-blum-schrotthandel.html (Verzeichnislead).]
 
 ### Recherche 08.10.2026
 

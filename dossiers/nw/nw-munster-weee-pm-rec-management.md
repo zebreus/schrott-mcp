@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Handelsregisterspiegel führen die Weee & Pm rec Management GmbH (AG Münster HRB 19684) mit Unternehmensgegenstand „Recycling von Schrott, insbesondere Rückgewinnung von Metallen“ an Parkallee 40, 48155 Münster; eine Betreiberwebsite oder ein öffentlicher Kundenannahme-Nachweis fehlt. Ein GLEIF/LEI-Eintrag wiederholt diese Daten, ist aber seit 2023 nicht verlängert und zuletzt 2023 aktualisiert; dessen Status „ACTIVE“ ist daher kein aktueller Handels- oder Betriebsnachweis.
+
+**ANKAUF:** Schrottrecycling im Registergegenstand ist kein Beleg für Ankaufangebote oder Publikumsannahme; keine Preisliste gefunden. **VERKAUF:** keine Kunden-/Produktpreisliste. **GEBÜHREN:** keine Tarife. **GEO:** Parkallee 40 ist Firmen-/Registeradresse, kein nachgewiesener Recycler-Annahmeort; GLEIF-Koordinate von 2021 nicht als Händler-Pin übernehmen.
 
 ## Timeline
 
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Handelsregister bestätigt Weee & Pm rec Management GmbH, Parkallee 40, 48155 Münster, AG Münster HRB 19684; Gegenstand: „Recycling von Schrott, insbesondere Rückgewinnung von Metallen" — Schrottbezug damit HR-belegt (Einzelbeleg, Northdata-Spiegel); keine Betreiber-Website auffindbar (Kandidaten-Domains weee-pm.de/weeepm.de/pm-rec.de lösen nicht auf); bestehende Adressfelder unverändert (HR-kongruent), kein Ankaufnachweis für Publikums-Schrottankauf → Status bleibt pruefung; Quelle: northdata.de HRB 19684]
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: GLEIF-Profil zur LEI 9845008364505A6B9N28 direkt gegengeprüft: nennt Weee & Pm rec Management GmbH, HRB 19684 AG Münster und Parkallee 40, 48155; es kennzeichnet LEI-Registrierung als LAPSED, mit letztem Datenupdate 07.09.2023, während der dortige Entity-Status ACTIVE lautet. Diese LEI-Angaben sind historisch/sekundär und belegen keine heutige operative Aktivität, Kundenannahme oder Ankauf. Kein Betreiberauftritt oder aktueller Annahmenachweis gefunden. ANKAUF: kein Angebot/keine numerische Preisliste. VERKAUF: keine Preisliste. GEBÜHREN: keine veröffentlichten Tarife. GEO offen: der LEI-Datensatz enthält eine auf 2021 datierte Punktadresse für die Registeranschrift, nicht für einen bestätigten Annahmeplatz; Punkt nicht als Betriebs-GEO übernehmen. Quellen: https://www.gleif.org/lei/9845008364505A6B9N28 ; https://www.northdata.de/Weee%20%26%20Pm%20rec%20Management%20GmbH,%20M%C3%BCnster/Amtsgericht%20M%C3%BCnster%20HRB%2019684]

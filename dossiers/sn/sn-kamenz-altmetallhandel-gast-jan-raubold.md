@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für Altmetallhandel Gast/Jan Raubold wurde kein aktueller Betreiber- oder Registerbeleg und keine Betreiber-Website ermittelt. Der Treffer der kommunalen Gewerbedatenbank für Jesauer Feldweg 16 betrifft LGS/Stefan Vetter, nicht den Seed an Nr. 17; REMONDIS-Übernahmebehauptungen blieben unbestätigte Leads. Status bleibt `pruefung`. `website_status` ist `unbekannt` (kein verifizierter Website-URL bzw. Schließungsbeleg), nicht `tot`.
+Für Altmetallhandel Gast/Jan Raubold wurde weiterhin kein aktueller Betreiber- oder Registerbeleg ermittelt. Die aktuelle Suche vergrößert den Adresskonflikt: ältere Seed-/Portalspur nennt Jesauer Feldweg 17, während 11880 und Schrottplatz-Info inzwischen auch Jesauer Feldweg 1 führen; Cylex nennt nur die Straße. Die Domain `altmetallhandel-kamenz.de` zeigt beim Direktaufruf eine Verkaufs-/Parkseite und belegt weder Betreiberzugehörigkeit noch Schließung. Der kommunale Gewerbetreffer an Nr. 16 betrifft LGS/Stefan Vetter. Status bleibt `pruefung`; `website_status: unbekannt` bleibt sachgerechter als `tot`.
 
-**Preise:** **Ankauf** — Seed nennt Altmetall/Abholung und einen Ankauftag, aber keine aktuelle belegte Annahme oder Zahlenpreise. **Verkauf** — keine Preisliste. **Gebühren** — keine Gebührenliste. **Geokodierung:** Hausnummer 17 erst nach Klärung von Betrieb und Anschrift pinnen; die Nr. 16 ist ein anderer ermittelter Gewerbetreffer.
+**Preise:** **Ankauf**: kein aktueller Betreiberbeleg und keine Zahlenliste; Seed-Angaben zu Barankauf/festem Freitag sind nicht aktuell bestätigt. **Verkauf**: keine Preisliste. **Gebühren**: keine Gebührenliste. **Geokodierung:** Nr. 1 und 17 sind ungeprüfte Portalvarianten; Nr. 16 ist ein anderer Gewerbetreffer. Bis zur Identitätsklärung keinen Standort pinnen.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Neue Suche bestätigt nur Portal-Leads und verschärft den Hausnummernkonflikt: 11880 nennt Jesauer Feldweg 1, 01917 Kamenz; Cylex nennt „Jesauer Feldweg“ ohne Hausnummer und Telefon 01522 9969463; Schrottplatz-Info listet ebenfalls Nr. 1. Die ältere Seed-/Portaladresse Nr. 17 bleibt damit unaufgelöst. Der Direktabruf https://www.altmetallhandel-kamenz.de/ zeigt „This domain is for sale“, also keine zurechenbare Betreiberseite und keinen Schließungsbeweis. Kein Betreiber-/Registerbeleg, keine Preis- oder Gebührenliste; keine Felder geändert. Quellen: https://www.11880.com/branchenbuch/kamenz/120674719B104697854/altmetallhandel-gast-jan-raubold.html ; https://web2.cylex.de/firma-home/jan-raubold-altmetallhandel-gast-11387171.html ; https://www.schrottplatz-info.de/schrottplatz/Kamenz ; https://www.altmetallhandel-kamenz.de/ ; https://www.kamenz.de/gewerbedatenbank.html .]
 
 ### Korrektur 07.10.2026
 

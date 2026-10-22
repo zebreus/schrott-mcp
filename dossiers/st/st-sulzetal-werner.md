@@ -28,6 +28,10 @@ Kandidat ist Kai Werner / Autodoktor Altenweddingen, nur über Verzeichnisleads 
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Erneuter Abgleich bestätigt nur den schon bekannten Namens-/Adresslead: Das Örtliche führt „Autoverwertung Kai Werner – Autodoktor Altenweddingen“ an Unseburger Chaussee 20/39171 und 039205 69560; der aktuelle Betreiber-Impressumsbeleg Trailercenter24 nennt Kai Werner und Anhängercenter an Unseburger Chaussee 4. Es gibt weiterhin keine gelesene Übergabe-, Fortführungs- oder Adressbeziehung für die Autoverwertung an Nr. 20. Kein Frontmatter-Fill und kein GEO; Ankauf von Schrott/Altfahrzeugen nicht bestätigt. Verkäufe und Versand des Anhängershops sind keine Autoverwertungs-Teilepreise; keine dossierzuordenbare Gebührenliste. Quellen: https://www.dasoertliche.de/Themen/Kai--Werner.html (Verzeichnislead); https://trailercenter24.de/impressum (Betreiber-Impressum nur Anhängercenter).]
+
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 
 - [Recherche 14.10.2026: Namens-/Standortkandidat gefunden und zweiseitig geprüft: Gelbe Seiten nennt Autoverwertung Kai Werner / Autodoktor Altenweddingen, Unseburger Chaussee 20, 39171 Sülzetal-Altenweddingen, 039205 69560 und autodoktor-altenweddingen.de. Nur Lead. HTTPS scheitert am Transport; HTTP leitet tatsächlich auf https://www.trailercenter24.de/ weiter. Das dort direkt gelesene Impressum nennt Kai Werner als Inhaber, Anhängercenter Altenweddingen, Unseburger Chaussee 4, 0391 40045560. Keine explizite Autoverwertungsfortführung oder Umzugs-/Übernahmekette auf den gelesenen Zielseiten. Gleicher Personenname/Ort und Weiterleitung reichen nicht zur ungeprüften Seed-Aufwertung. Frontmatter unverändert. Quellen: https://www.gelbeseiten.de/gsbiz/f1ba830e-10e7-4201-85f9-0678f1075213 (Lead); http://www.autodoktor-altenweddingen.de/ ; https://www.trailercenter24.de/ ; https://www.trailercenter24.de/impressum/ .]

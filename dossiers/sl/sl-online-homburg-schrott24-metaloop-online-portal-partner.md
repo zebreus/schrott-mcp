@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Schrott24/Metaloop ist ein Online-Ankauf mit Partnernetzwerk; die Homburg-Seite liefert keinen öffentlich verifizierten Partnerhof mit Straßenadresse. Der dynamische Ankauf hängt von Material, Menge, Standort und Transportart ab; Homburg-Adresse und -Zeiten werden laut Portal erst nach Onlineangebot/-abwicklung sichtbar. Daher kein physischer Homburg-Pin.
+Schrott24/Metaloop betreibt einen Online-Ankauf über ein Partnernetz; die Homburg-Seite nennt keinen vorab sichtbaren, verifizierten Partnerhof mit Straße. Material, Menge, Standort und Transportart bestimmen das Angebot; genaue Anlieferadresse und -zeiten werden laut FAQ erst nach Verkauf per E-Mail mitgeteilt. Kein physischer Homburg-Pin. **Ankauf:** dynamischer Onlinepreis, keine feste Homburg-Preisliste; sichtbare „bis zu“-Karten sind Höchstwerbung, kein konkretes Standortangebot. **Verkauf:** keine für Homburg zuordenbare Verkaufspreisliste gefunden. **Gebühren:** Support und AGB nennen Versand-/Abhol- und Stornokonditionen; die sichtbaren Texte sind nicht durchgehend gleich regional gefasst, daher im Checkout/Vertrag prüfen.
 
 **Preise getrennt:** Ankauf: dynamischer Rechner statt fester Homburg-Preisliste. Die allgemeine statische „Maximalpreise“-Seite war bei Abruf mit 14.11.2025 datiert und ist weder Homburg-spezifisch noch aktuell genug für aktuelle Preise. Verkauf: keine gewöhnliche Verkaufspreisliste an Schrottkäufer gefunden. **Gebühren:** sichtbare FAQ/AGB nennen Versandlabel-, BigBag-, Abhol- und Stornokosten, aber die Seiten widersprechen sich beim Paketlabel (5 € vs. 6 €) und enthalten offenbar unterschiedliche/ältere Bedingungen; vor Preisübernahme aktuelle Checkout-/Vertragsbedingungen prüfen.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Homburg-Standortseite und Support/AGB direkt geprüft: Der Rechner fragt Material, Menge und Transportart ab; die exakte Partneradresse sowie Öffnungszeiten folgen nach abgeschlossenem Onlineverkauf per E-Mail. Auf der Homburg-Seite erschien kein fertiger, reproduzierbarer Preis ohne Eingabe. Allgemeine Kategorieseiten zeigen „bis zu“-Ankaufwerte (z. B. Kupfer bis 6,00 €/kg und Aluminium bis 2,48 €/kg); ohne Sorte/Qualität, Datum, Menge und Transport sind das weder Homburg-Finalpreise noch eine belastbare lokale Preisliste. Support nennt 5 € je verwendeter Versandmarke und 5 € je Big Bag zzgl. Versand; AGB nennen für Österreich 6 € je Paketmarke, eine kostenlose Stornierung bis 12 h, danach 5 % bzw. 20 € bei Warenwert unter 400 € sowie 2 % bei PayPal. Die 5-/6-€-Angaben sind regional unterschiedlich formuliert und daher nicht als sicherer Widerspruch für Deutschland zu lesen; Abholung bleibt individuell. Keine Warenverkaufs-Preisliste gefunden, keine Adresse/Koordinaten ergänzt. Quellen: https://www.schrott24.de/standorte/schrottplatz-homburg/ ; https://www.schrott24.de/faq/support ; https://www.schrott24.de/faq/agb/ (Abruf 20.10.2026).]
 
 ### Recherche 06.10.2026
 

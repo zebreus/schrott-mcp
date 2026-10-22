@@ -30,6 +30,10 @@ Historischer, gelöschter Rechtsträger RGT Reststoffverwertungsgesellschaft Th�
 
 ## Timeline
 
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Die aktuelle Suche liefert weiterhin nur historische Verzeichniswiederholungen der Ehrhardtstraße 8; sie belegt weder einen Nachfolgebetrieb noch eine aktive Annahmestelle. Der Löschungsnachweis zu HRB 108834 vom 13.02.2019 bleibt maßgeblich für den Status „geschlossen“ dieses Rechtsträgers. Keine aktuellen Ankaufspreise, Materialverkaufspreise oder Händlergebühren; Registerportal-Dokumentkosten sind davon getrennt. Historische Adresse nicht geokodieren. Quellen: https://www.northdata.de/RGT+Reststoffverwertungsgesellschaft+Th%C3%BCringen+mbH,+S%C3%B6mmerda/Amtsgericht+Jena+HRB+108834 ; https://www.tupalo.de/s%C3%B6mmerda/rgt-reststoffverwertungsgesellschaft-th%C3%BCringen]
+
 ### Recherche 18.10.2026 (02:00-Welle C)
 
 - [Recherche 18.10.2026: Registeranbieter-Profil vollständig direkt gelesen: RGT, HRB 108834, AG Jena, Eintragung 21.05.1996, gelöscht, historische Erreichbarkeit Ehrhardtstraße 8. Kein aktueller Telefon-/Webkontakt veröffentlicht. Vorhandener Löschungsstatus bleibt; kein Nachfolgebetrieb oder heutiger Ankauf hiermit bewiesen. ANKAUF/VERKAUF/GEBÜHREN keine betrieblichen aktuellen Zahlen; Dokumentpreis 29,80 EUR ausklammern. Automatisch angezeigte Dokumentfassung vom Abrufdatum nicht als neue Registerbekanntmachung werten. Keine GEO-Arbeit. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/th/Jena/HRB/108834/RGT-Reststoffverwertungsgesellschaft-Thueringen-mbH]

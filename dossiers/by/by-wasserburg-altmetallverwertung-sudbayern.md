@@ -6,13 +6,13 @@ state: BY
 city: Wasserburg
 street: ''
 postcode: ''
-phone: ''
-email: ''
+phone: '08071 9226-170'
+email: 'info@avs24.com'
 opening_hours: ''
-website: ''
-website_status: ''
+website: 'https://www.avs24.com'
+website_status: aktiv
 status: unbekannt
-description: ''
+description: 'Betreiberwebsite der KG beschreibt Schrott- und Altmetallankauf sowie drei Annahmeplätze außerhalb der Geschäftsanschrift Am Burgfrieden; konkrete Kundenannahme dort nicht bestätigt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (unklar, keine prüfbare Website)'
@@ -24,14 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Die Altmetallverwertung Südbayern GmbH & Co. KG ist als Rechtsträgerin (HRA 10261, AG Traunstein) mit Geschäftsanschrift Am Burgfrieden 1, 83512 Wasserburg a. Inn, registerlich belegt. Eine Beteiligung der Zosseder Holding ist dokumentiert; Zosseders Webseite ordnet den Platz Am Burgfrieden einer Verwaltung mit Salzhallen zu, weist die Südbayern-KG aber nicht als Betreiberin einer öffentlichen Annahmestelle aus. Privat-/Gewerbeannahme und operative Händlerrolle bleiben offen.
+Die Altmetallverwertung Südbayern GmbH & Co. KG ist als Rechtsträgerin (HRA 10261, AG Traunstein) mit Geschäftsanschrift Am Burgfrieden 1, 83512 Wasserburg a. Inn registerlich und nun auch im eigenen Impressum belegt. Die eigene Website bietet Schrott- und Altmetallankauf in der Region und nennt die Annahmeplätze Schilchau, Wasserwiesen und Kiefersfelden. Sie weist den Register-/Impressumsort Am Burgfrieden jedoch nicht ausdrücklich als Kundenannahme aus. Die früher geprüfte Zosseder-Anfahrtseite beschreibt dort Verwaltung mit Salzhallen; deshalb bleiben Geschäftsanschrift und Annahmestelle getrennt.
 
-- **Ankauf:** keine KG-spezifischen Ankaufpreise belegt; Registergegenstand und allgemeine Recycling-/Containerseiten sind keine Vergütungszusage.
-- **Verkauf:** keine Verkaufspreise.
-- **Gebühren:** keine KG-spezifischen Gebühren/Containerpreise.
-- **Geokodierung:** Am Burgfrieden 1 kann als registerliche Geschäftsanschrift verortet werden, aber nicht als Schrottannahme. Kundenstandort-Geokodierung erst nach KG-spezifischem Annahmebeleg.
+- **Ankauf:** die KG-Website bewirbt Ankauf und Zahlung für Schrott/Altmetall, nennt aber keine numerische Preisliste oder materialbezogenen Kurse.
+- **Verkauf:** keine Verkaufspreisliste gefunden.
+- **Gebühren:** Logistik-/Containerlösungen werden angeboten, ohne veröffentlichte Tarife; keine festen Annahmegebühren ausgewiesen.
+- **Geokodierung:** Impressumsanschrift Am Burgfrieden 1 ist kein bestätigter Kundenplatz. Die Annahmeplatzseiten nennen keine vollständigen Straßenadressen; keine Koordinaten setzen. Offen: genaue Anschriften, Öffnungszeiten je Platz und ob in Wasserburg selbst angeliefert werden kann.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Die eigene Website wurde erstmals als eindeutig zugehörig verifiziert: Das Impressum nennt Altmetallverwertung Südbayern GmbH & Co. KG, HRA 10261, Am Burgfrieden 1, 83512 Wasserburg und 08071 9226-170; die Kontaktseite nennt info@avs24.com. Deshalb nur Website, Telefon und E-Mail gefüllt; Straße/PLZ bleiben leer, da das Impressum keine Annahmestelle belegt. Die Leistungsseite bewirbt Ankauf zu Geld und Abholung/Logistik bei größeren Mengen, aber keine numerischen Ankaufpreise oder Containergebühren. Annahmeseiten nennen Schilchau, Wasserwiesen und Kiefersfelden mit Öffnungszeiten, aber keine vollständigen Straßenadressen; diese Standorte nicht mit Am Burgfrieden gleichsetzen. Verkaufspreise nicht gefunden. Offen: vollständige Adressen, aktuelle Annahmebedingungen und Wasserburger Kundenannahme. Keine Koordinaten geraten; GEO erst nach vollständiger Standortbestätigung. Quelle(n): https://www.avs24.com/impressum/ ; https://www.avs24.com/kontakt/ ; https://www.avs24.com/schrott-altmetall-ankauf/ ; https://www.avs24.com/anfahrt/annahmeplatz-schilchau/ ; https://www.avs24.com/anfahrt/annahmeplatz-wasserwiesen/ ; https://www.avs24.com/anfahrt/annahmeplatz-kiefersfelden/]
 
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 

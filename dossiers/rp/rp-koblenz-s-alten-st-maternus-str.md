@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed „S. Alten St.-Maternus-Str.“ ist nicht eindeutig identifiziert. Ein Betreiber-Impressum für Angelo Alten nennt Naumburgerstraße 14, 56075 Koblenz; die separate Betreiberseite von 1A Schrotthandel nennt Michael Winfried Schneider und Peter-Klöckner-Straße 2A. Keine der Quellen belegt S. Alten, die St.-Maternus-Straße oder eine Verbindung zu diesen Personen/Betrieben. Keine strukturierte Anschrift, Website oder Kontakte. ANKAUF: für diesen Kandidaten nicht belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Identität und Anschrift offen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiber-Impressum von Angelo Alten weiterhin direkt lesbar: Angelo Alten, Naumburgerstr. 14, 56075 Koblenz, 0261 3947719, info@schrotthandel-alten.de. Die getrennte Betreiberseite von 1A Schrotthandel nennt Michael Winfried Schneider, Peter-Klöckner-Str. 2A, 56073 Koblenz. Keine der beiden Primärseiten nennt „S. Alten“ oder die St.-Maternus-Straße; keine Zusammenführung mit Angelo, Gino oder Maik Alten. ANKAUF/VERKAUF/GEBÜHREN: für den Seed keine verifizierten Leistungen oder Preise. Quellen: https://entruempelungenkoblenz.de/impressum (Angelo Alten); http://schrotthandel-koblenz.de/ (Schneider/anderer Betrieb).]
 
 ### Recherche 03.10.2026
 

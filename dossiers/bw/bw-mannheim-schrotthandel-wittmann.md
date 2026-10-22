@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://schrotthandel-wittmann.de/
 website_status: 'aktiv'
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktive Betreiberwebsite nennt Karl Wittmann, Relaisstraße 86, 68219 Mannheim, und wirbt mit Metallschrottankauf, mobiler Abholung, Containerdienst sowie Demontage/Abbruch. Aktuelle Verzeichniseinträge führen denselben Ort/Telefon teils unter Karl, teils unter Cändy Wittmann; Gelbe Seiten weist die Cändy-Daten ausdrücklich als von GoLocal stammend aus. Alias-/Rechtsbeziehung ist ungeklärt. Ein Newsbeitrag vom 03.07.2026 ist ein Aktualitätssignal, aber Website und Unterseiten bilden nur eine Betreiberquellenfamilie; eine unabhängige Identitätsbestätigung fehlt. `status: pruefung` ist deshalb eine Beleggrenze, keine Schließungsbehauptung. Die Relaisstraße ist als Impressums-/Kontaktadresse belegt, nicht als bestätigte Selbstanlieferungsstelle.
+
+**Preise:** Ankauf: laut Betreiber abhängig von Material, Qualität und Gewicht; keine numerische Preisliste. Verkauf: keine Verkaufspreise belegt. Abholung: als kostenlos beworben, jedoch abhängig von Menge, Metallanteil, Lage und Wirtschaftlichkeit; Container-/Demontagegebühren und verbindliche Konditionen nicht veröffentlicht. Öffnungszeiten oder Drop-off sind nicht aus „24h erreichbar“ abzuleiten.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Verzeichnisprofile gegengeprüft. Das Örtliche führt „Wittmann Karl kostenlose Schrottabholung“, Relaisstr. 86/68219 Mannheim, 0163 2856494, Website schrotthandel-wittmann.de und „24 h geöffnet“. Gelbe Seiten führt dagegen „Cändy Wittmann“ an derselben Adresse/mit derselben Nummer und Domain; die gelesene Seite erklärt, diese Cändy-Daten stammten von GoLocal. Das stärkt die Übereinstimmung der Kontaktspur, nicht die Identität/Verwandtschaft Karl–Cändy; 24-h-Verzeichniswert ist keine bestätigte Annahmezeit. Keine Frontmatter-Kontakte/Öffnungszeiten oder Drop-off-Adresse übernommen. ANKAUF: Betreiberwebsite nur tages-/qualitätsabhängige Preiswerbung ohne Zahlen; VERKAUF: keine Liste; GEBÜHREN: Abholung beworben, Bedingungen und verbindliche Container-/Demontagetarife offen. GEO: Relaisstr. 86 bleibt Kontaktadresse, Annahmegelände ungeklärt. Quellen: https://www.dasoertliche.de/Themen/Wittmann-Karl-kostenlose-Schrottabholung-Mannheim-Rheinau-Relaisstr ; https://www.gelbeseiten.de/gsbiz/4538d2ff-1281-407f-a0af-c787e73ad508 ; Betreiberquelle: https://schrotthandel-wittmann.de/impressum/ .]
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberwebsite, Impressum und Leistungsseiten erneut direkt geprüft. Die Seite nennt den Ankauf unterschiedlicher Metalle zu material-/qualitäts-/gewichtsabhängigen Preisen, aber keine numerischen Kaufkurse. Verkauf von Altmetall wird nicht als bezifferte Leistung belegt; keine Verkaufspreise gefunden. Kostenlose mobile Abholung ist eine bedingte Serviceaussage, keine Ankaufspreisgarantie; Containerdienst und Demontage/Abbruch werden angeboten, aber ohne veröffentlichte verbindliche Gebührenliste. Die Adresse Relaisstraße 86 bleibt Impressums-/Kontaktadresse, keine bestätigte stationäre Annahme. Keine qualifizierte unabhängige zweite Identitätsquelle gefunden; Status `aktiv` → `pruefung`, keine Schließung behauptet. Keine neuen strukturierten Adress-/Kontaktfelder. Quellen: https://schrotthandel-wittmann.de/ ; https://schrotthandel-wittmann.de/impressum/ ; https://schrotthandel-wittmann.de/p/metallschrottankauf-mannheim/ ; https://schrotthandel-wittmann.de/p/mobile-schrottsammlung/ ; https://schrotthandel-wittmann.de/p/containerdienst/ ; https://schrotthandel-wittmann.de/p/demontage-abbruch/ ; https://schrotthandel-wittmann.de/news/kostenlose-schrottabholung-rhein-neckar/ .]
 
 ### Recherche 04.10.2026
 

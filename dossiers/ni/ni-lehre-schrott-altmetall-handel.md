@@ -25,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Der Verzeichniseintrag "Schrott & Altmetall Handel" nennt Bockshornweg 7, 38165 Lehre, aber am selben Ort erscheinen auch Einträge für "Sandy's Schrottkiste" / Sandra Hartmann. Die abweichenden Namens- und Telefonnummern machen eine Zuordnung oder Betreiber-Nachfolge offen; keine Felder wurden aus Verzeichnissen übernommen. **Ankauf:** Verzeichnis nennt Sorten und Mindestmengen, keine Zahlenpreise; **Verkauf:** keine Liste gefunden; **Gebühren:** keine Angaben gefunden.
+Ein direkt gelesener LokaleSchrottplatz-Eintrag führt „Schrott & Altmetall Handel“ am Bockshornweg 7, 38165 Lehre/Groß Brunsrode, 01577 9665499. Das Portal zeigt „Geschlossen“, listet viele angebliche Sorten sowie Mindestmengen, ist aber kein Betreiberbeleg und erklärt nicht, ob „geschlossen“ temporär oder dauerhaft bedeutet. Am selben Ort stehen zudem Einträge zu „Sandy’s Schrottkiste“/Sandra Hartmann mit abweichendem Namen und Kontakt; Zuordnung/Nachfolge bleibt offen.
+
+- **Ankauf:** Portal behauptet Annahme u. a. von Eisen, Aluminium, Kupfer, Edelstahl, Blei, Messing, Rotguss, Zink, Nickel, Zinn und Kabel; Mindestmengen FE 100 kg/NE 1 kg, keine Preise.
+- **Verkauf:** keine belegte Material- oder Preisliste.
+- **Gebühren:** keine Abhol-/Containerpreise oder Gratisbedingungen.
+- **GEO:** Bockshornweg 7 nicht als bestätigte Annahmestelle geokodieren, bis Betreiberidentität und öffentlicher Zugang geklärt sind.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: LokaleSchrottplatz-Eintrag direkt geöffnet: „Schrott & Altmetall Handel“, Groß Brunsrode/Lehre, Bockshornweg 7, 38165, 01577 9665499; Seite zeigt 5,0 (23 Bewertungen) und „Geschlossen“, nennt Materialgruppen und Mindestmengen Eisen 100 kg/NE 1 kg. Das Portal ist nicht Betreiberseite; Statuslabel und Bewertungen bestätigen weder dauerhafte Schließung noch die Annahmebedingungen. Der zusätzliche „Sandy’s Schrottkiste“-Lead am gleichen Standort wird nicht verbunden. Keine Zahlenpreise, Verkaufs- oder Gebührenliste; keine Frontmatter-Füllung/GEO. Quelle(n): https://lokaleschrottplatz.de/schrott-altmetall-handel/ ; https://web2.cylex.de/firma-home/sandys-schrottkiste-16759097.html ; https://www.11880.com/branchenbuch/lehre/060440092B113588619/sandy-s-schrottkiste.html.]
 
 ### Recherche 12.10.2026
 

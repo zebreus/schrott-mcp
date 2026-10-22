@@ -28,6 +28,10 @@ Der Seedname „A. Stöber Schrott- und Metallgroßhandel“ passt zu einem Gelb
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Gelbe-Seiten-Profil erneut direkt gelesen: „Stöber Albert“, Am Kuhlenkamp 34, 44795 Bochum-Weitmar, 0234 472761, Mo–Fr 09:00–16:00; Material-/Serviceangaben bleiben Verzeichnisdaten. Ein erneuter Abruf von schrotthandel-stoeber.de lieferte nur den Domainnamen, kein lesbares Impressum oder Betreiberangebot. Keine aktuelle Ankaufsliste, Verkaufspreise oder Gebühren gefunden; Verzeichniszeiten sind keine bestätigten Hoföffnungszeiten. Vorhandene Adresse/PLZ nicht erweitert, Betreiberidentität und öffentliche Annahme offen; GEO nicht neu festschreiben. Quellen: https://www.gelbeseiten.de/gsbiz/2b6fa38a-0efb-47e4-8cc2-c126f9d14327 ; http://www.schrotthandel-stoeber.de/ (Direktabruf ohne verwertbaren Inhalt).]
+
 ### Recherche 16.10.2026 — Welle 13:00 B
 
 - [Recherche 16.10.2026: GS-Einzelprofil direkt gelesen: Stöber Albert, Am Kuhlenkamp34/44795 Bochum-Weitmar/0234 472761, Mo-Fr09-16Uhr, Website-Link schrotthandel-stoeber.de. Direkter Domainabruf ohne auswertbaren Inhalt; Zeiten/Materialschlagworte bleiben daher reine Verzeichnisleads. Kein Betreiber-/Registerbeleg, keine Freigabe der alten Ausnahme-Adressfills. ANKAUF/VERKAUF/GEBÜHREN: keine Preise/Tarife im gelesenen Händlerlead; allgemeine Schrottpreise anderer Portale nicht zurechnen. GEO: alte Notiz neu geocodieren ist ohne vorherige Identitäts-/Standortbestätigung nicht freigegeben. Quelle(n): https://www.gelbeseiten.de/gsbiz/2b6fa38a-0efb-47e4-8cc2-c126f9d14327 ; http://www.schrotthandel-stoeber.de/ .]

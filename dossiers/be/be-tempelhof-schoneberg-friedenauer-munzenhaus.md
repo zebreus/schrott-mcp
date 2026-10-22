@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Die direkt gelesene Verbandsliste und Mitglied-Detailkarte führen Alexander Gayck, Bundesallee 91, 12161 Berlin, 030/85406040, a.gayck@web.de und Ankauf von Gold-/Silbermünzen ab 1800. Das ist ein fachlich relevanter Mitglieder-/Zertifizierungshinweis, aber kein gelesener Betreiber-/Registerbeleg zur Geschäftsbezeichnung Friedenauer Münzenhaus. Verband plus Aggregator erfüllt nicht die wörtliche README-Zwei-Quellen-Hierarchie; `aktiv` deshalb auf `pruefung` zurückgenommen, keine Schließung behauptet. **Ankauf:** Münzankauf in Verbandsquelle genannt, keine Zahlenkurse; **Verkauf/Gebühren:** keine Tarife. Kein Zahngold-/Schmuckankauf aus Münz-Zertifizierung ableiten; Zeiten und GEO bleiben klärungsbedürftig.
+Die direkt gelesene Verbandsliste und Mitglied-Detailkarte führen Alexander Gayck, Bundesallee 91, 12161 Berlin, 030/85406040, a.gayck@web.de und Ankauf von Gold-/Silbermünzen ab 1800. Ein direkt gelesener Gelbe-Seiten-Eintrag führt außerdem den Geschäftsnamen „Friedenauer Münzenhaus“ unter derselben Adresse und Telefonnummer und listet Mittwoch–Samstag-Zeiten; das ist ein Aggregatorlead, keine Betreiber-/Registerbestätigung der Verbindung zu Alexander Gayck. Verband plus Aggregator erfüllt nicht die wörtliche README-Zwei-Quellen-Hierarchie; `pruefung` bleibt, keine Schließung behauptet. **ANKAUF:** Münzankauf in Verbandsquelle genannt, Gelbe Seiten listet Münz-/Gold-/Silberankauf, aber keine Zahlenkurse; **VERKAUF:** Münzhandel/Münzenkauf nur als Portal-Leistungsbegriffe, keine Preisliste; **GEBÜHREN:** keine Tarife. Kein Zahngold-/Schmuckankauf aus Münz-Zertifizierung ableiten; Zeiten und GEO bleiben klärungsbedürftig.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Gelbe-Seiten-Profil direkt gelesen: Geschäftstitel „Friedenauer Münzenhaus“, Bundesallee 91, 12161 Berlin-Friedenau, Tel. 030 85 40 60 40. Das Profil listet Mi–Fr 11:00–18:00, Sa 11:00–15:00 und Termine nach Vereinbarung; Leistungsbegriffe umfassen Münzhandel/-ankauf sowie Gold-/Silberankauf. Das ist ein Aggregatorprofil, kein Betreiber- oder Registerbeleg und keine Preis-/Kursliste. Die eigenständige Verbandsquelle führt Alexander Gayck an derselben Adresse/Telefonnummer und Münzankauf, verknüpft aber nicht ausdrücklich mit diesem Geschäftsnamen; Quellen dürfen deshalb nicht als vollständige Identitätsbestätigung oder voneinander unabhängige Unternehmensbelege überdehnt werden. Keine Feldänderung. ANKAUF: Münz-/Edelmetallankauf als Quellenangabe, keine Kurse; VERKAUF: keine Materialpreise; GEBÜHREN: keine Tarife. GEO erst nach Inhaber-/Geschäfts- und Kundenstandortbestätigung. Quellen: https://www.gelbeseiten.de/gsbiz/480a015a-c480-49d4-8caf-2d9d6aee55e1 (Aggregator-Lead); https://www.muenzenverband.de/suchergebnis/?pdb=2598 (Mitgliederangabe).]
+
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: Alexander-Gayck-Mitgliedsdetail erneut direkt gelesen: Firma Gayck Alexander, Bundesallee 91, Telefonnummer/E-Mail wie Bestand; beide Webseitenfelder leer. Zertifizierungshinweis nennt ausdrücklich verbandseigene Kriterien. Keine verifizierte Betreiber-Domain aus der leeren Verbandskarte ableitbar, kein zusätzlicher Beleg für den Geschäftsnamen Friedenauer Münzenhaus. ANKAUF Gold-/Silbermünzen ab 1800 als Verbandsangabe ohne Zahlenkurse; VERKAUF/GEBÜHREN keine Tarife, insbesondere keinen Materialankaufspreis aus Edelmetall-Spotkursen berechnen. Sinnvoller nächster Schritt: Gewerbe-/Inhaberbestätigung mit Geschäftsname und aktuellen Terminen, nicht weitere Verbands-Unterseiten als zweite Quelle zählen. Bundesallee-GEO bis dahin nicht neu freigeben. Quelle: https://www.muenzenverband.de/suchergebnis/?pdb=2598 .]
 
 ### Recherche 14.10.2026 (18:00-Welle C)
 

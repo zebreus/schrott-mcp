@@ -28,6 +28,10 @@ Die aktuelle ALBA-Metall-Standortübersicht nennt 13 Treffer, keinen in Torgelow
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Aktuelle ALBA-Metall-Standortseite direkt erneut gelesen: weiterhin 13 Treffer, darunter Rostock, Friedland und Schwerin, aber kein Torgelow. Die Ankaufseite wirbt für die gegenwärtigen ALBA-Plätze mit Stahl-/Metallannahme zu „Bestpreisen“ und individuellen Konditionen, veröffentlicht jedoch keine Zahlenkurse; sie belegt keine Annahme in Torgelow. In den geprüften Betreiberseiten keine separate numerische Verkaufspreisliste oder Gebührenliste. Kein Fill und kein Schließungsbeleg; status pruefung bleibt. Quellen: https://metall.alba.info/unternehmen/standorte/ ; https://metall.alba.info/ankauf/ .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Neue historische Standortspur aus einer direkt abgerufenen ALBA-Group-ISO-50001-Urkunde: Zertifikatsgültigkeit 24.06.2018 bis 23.06.2021; die Anlage enthält Waldsiedlung 7, 17358 Torgelow innerhalb der Standortliste, deren Abschnitt ALBA Metall Nord GmbH/Metallrecycling bezeichnet. Damit ist eine frühere ALBA-Metall-Standortzuordnung plausibel, aber weder aktueller Betrieb noch öffentliche Annahme 2026 belegt. Die heutige Betreiber-Standortübersicht wurde direkt gelesen und führt 13 Standorte ohne Torgelow. Keine Änderung an Status/Adresse/Telefon und keine Schließung behauptet. Die allgemeine ALBA-Ankaufseite bewirbt Metallannahme an den aktuellen Plätzen zu individuellen Konditionen, ohne Zahlenliste; sie belegt nicht Torgelow als heutigen Annahmeort. Quellen: https://alba-bs.de/fileadmin/user_upload/Zertifikate/Zertifikat_ISO_50001_ALBA_Group.pdf ; https://metall.alba.info/unternehmen/standorte/ ; https://metall.alba.info/ankauf/ .]

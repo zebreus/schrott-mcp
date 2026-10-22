@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Lead Pfälzer Dienstleistungen, Goerdelerplatz 13, 67063 Ludwigshafen-Friesenheim/Nord, mit Schwerpunkt Entrümpelung/Reinigung laut Verzeichnis. Neue Recherchewege sind das verlinkte Instagram-Profil Pfaelzerdienstleistungen und ein CHECK24-Profil; beide liefern beim Direktabruf keine prüfbaren rechtlichen Betreiberangaben. Die Kategorie Schrott ist kein Beleg für vergüteten Altmetallankauf. Keine neuen Kontakt-/Öffnungs-/Leistungsfills; Betreiberidentität und Annahmestelle offen.
+Goerdelerplatz 13, 67063 Ludwigshafen, Telefon 0178 3903284, Öffnungszeiten und Entrümpelung/Reinigung stammen weiterhin nur aus Verzeichnissen. Die direkt gelesene Gelbe-Seiten-Seite kennzeichnet Teile ausdrücklich als Golocal-Informationen; ihr CHECK24-Link führt zu einer allgemeinen Umzugs-/Transportvermittlung, nicht zu einem Firmenimpressum. Instagram liefert keine prüfbare Betreiberidentität, MyHammer ist beim Direktabruf gesperrt. Die Kategorie „Schrott“ und die Aussage „günstig“ beweisen weder vergüteten Ankauf noch eine Gebührenhöhe. ANKAUF: keine belastbaren Preise/Annahmebedingungen. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife. Adresse, Telefon und Öffnungszeiten bleiben Leads; vor Geocoding Betreiber/Annahmestelle bestätigen.
 
 ## Timeline
+
+### Recherche 21.10.2026 (Welle RP)
+
+- [Recherche 21.10.2026: Gelbe Seiten direkt gelesen: Goerdelerplatz 13, 67063 Ludwigshafen-Friesenheim/Nord, Telefon 0178 3903284, Mo-Fr 08:00-18:00 und Sa 09:00-18:00, Kategorien „Schrott“/„Entrümpelungen“ und eine Selbstdarstellung zu Entrümpelung und Reinigung. Die Seite markiert Informationen als von Golocal stammend; dies bleibt ein Verzeichnislead, kein Betreiber-/Gewerbenachweis. Der Website-Link führt auf CHECK24s generische Umzug-&-Transport-Seite ohne Anbieterprofil/Impressum; der MyHammer-Direktabruf liefert weiterhin HTTP 403. Keine Frontmatter-Füllung oder Statusänderung. ANKAUF: keine belastbare Vergütung/Preisliste; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Goerdelerplatz 13 bleibt geocodierungsbedürftig, sobald die Betreiberzuordnung bestätigt ist. Quelle(n): https://www.gelbeseiten.de/gsbiz/1354e24e-118f-4456-8277-66f7bc4c7322 ; https://umzug.check24.de/umzug/profil/movmoywpek ; https://www.my-hammer.de/auftragnehmer/pfaelzer-dienstleistungen (403).]
 
 ### Recherche 14.10.2026 — 18:00-Welle A
 

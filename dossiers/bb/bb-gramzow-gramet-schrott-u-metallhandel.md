@@ -30,6 +30,10 @@ Für „GRAMET – Schrott und Metallhandel, Szymon Mach“ in Gramzow bleiben P
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Erneute exakte Suche nach „GRAMET“ und „Szymon Mach“ ergab keine aktuelle Betreiberquelle, die den lokalen Verzeichnislead an Prenzlauer Str. 3 mit der historischen Gramet GmbH (HRB 10759, 2015 gelöscht) oder der Würzburger GRAMET GmbH & Co. KG verbindet. Die Würzburger Betreiberwebsite beschreibt deutschland-/europaweiten Ankauf von NE-haltigen Materialien zu konkurrenzfähigen Preisen, veröffentlicht aber keine konkreten Kurse und gehört nicht zum Gramzow-Lead. Keine Leistungen, Preise oder Identität übertragen; status pruefung, Adresse bleibt Lead und nicht geokodiert. Quellen (Abruf 20.10.2026): https://www.gelbeseiten.de/gsbiz/734b74ad-7aa4-46ae-a951-cf372a480bd9 ; https://gramet.de/ueber-uns.php ; https://gramet.de/impressum.php .]
+
 ### Ownerkorrektur 17.10.2026
 
 - [Korrektur 17.10.2026: Präzisierung auf Basis des am 17.10. gelesenen NorthData-Profils, ohne neuen Live-Abruf im Korrekturschritt: HRB 10759 Gramzow, Löschungsankündigung 22.06.2015, Löschung 15.07.2015. Die im Eintrag vom 13.10. verlinkte Publikation 108975156 ist laut Profil eine Eintragung vom 07.05.2014, nicht die Löschung; der Löschungsverweis lautet 1096675191. Einzelpublikationen und Aussage über Straßenmaskierung wurden im Review nicht selbst geprüft. Keine Identitätsbrücke zum heutigen Szymon-Mach-Lead und kein Schließungsentscheid für diesen. Historische Aggregator-Fills sind nicht als heute verifiziert anzusehen; der vom Owner akzeptierte Prüfstatus bleibt unverändert. Quelle(n): https://www.northdata.de/Gramet%20GmbH,%20Gramzow/Amtsgericht%20Neuruppin%20HRB%2010759 (Profil im Review gelesen); https://www.northdata.de/?id=1096675191 (Löschungsverweis aus dem Profil, Einzeltext nicht geprüft); https://www.northdata.de/?id=108975156 (Eintragungsverweis); https://www.gelbeseiten.de/gsbiz/734b74ad-7aa4-46ae-a951-cf372a480bd9 (nur Lead).]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Schrott Gerda“, Am Kombinat 8, 02708 Löbau-Kittlitz, 03585 410212, bleibt ein Branchenbuchlead. Die umgekehrte Namensfolge „Gerda Schrott“ kann ein Personenname sein; daraus folgt weder ein bestätigter Schrotthändler noch eine Identität mit anderen Trägern des Namens Schrott. Bestehende Adresse und Telefon historisch erhalten, nicht qualifiziert bestätigt. Keine aktuelle Ankauf-/Verkaufs-/Gebührenliste und keine Betreiberwebsite identifiziert. Vor GEO Firmen-/Personenidentität und tatsächliche Annahmestelle klären; city enthält historisch noch die PLZ.
+„Schrott Gerda“, Am Kombinat 8, 02708 Löbau-Kittlitz, 03585 410212, bleibt ein Branchenbuchlead. Das Örtliche führt aktuell denselben Namen, dieselbe Adresse und Nummer; es ist ein weiteres Verzeichnisprofil, keine unabhängige Betreiberbestätigung. Die umgekehrte Namensfolge „Gerda Schrott“ kann ein Personenname sein; daraus folgt weder ein bestätigter Schrotthändler noch eine Identität mit anderen Trägern des Namens Schrott. Bestehende Adresse und Telefon historisch erhalten, nicht qualifiziert bestätigt. Keine aktuelle Ankauf-/Verkaufs-/Gebührenliste und keine Betreiberwebsite identifiziert. Vor GEO Firmen-/Personenidentität und tatsächliche Annahmestelle klären; city enthält historisch noch die PLZ.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die aktuelle Das-Örtliche-Trefferliste „Schrotthandel in Löbau“ zeigt „Schrott Gerda“, Schrott, Am Kombinat 8, 02708 Löbau-Kittlitz, 03585 41 02 12. Sie stimmt mit Gelbe Seiten überein, bleibt aber ein weiterer Verzeichnisdatensatz (möglicherweise gleiche Zulieferdaten); kein Inhaber-/Register-/Betreiberbeleg. Daraus folgt weder aktive Annahme noch Bestätigung der Personennamensfolge. **Ankauf:** keine Kurse/Annahmebedingungen; **Verkauf:** keine Preise; **Gebühren:** keine Tarife. Bereits vorhandene Adresse benötigt nach wie vor Identitäts- und Annahmestellenprüfung vor GEO. Quelle: https://www.dasoertliche.de/Themen/Schrotthandel/L%C3%B6bau.html .]
 
 ### Recherche 15.10.2026 Welle18C
 

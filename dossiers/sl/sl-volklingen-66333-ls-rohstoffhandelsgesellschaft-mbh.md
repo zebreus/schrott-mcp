@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuelle Betreiberseite beschreibt Schrott-/Metallhandel und Recycling und nennt Im Alten Brühl 36, Tel. 06898 294232 sowie info@lsrohstoffhandel.de. Das Impressum bezeichnet den Betreiber abweichend als „LSRohstoffhandels GmbH“ und führt nur „HR 75127“; NorthData führt unter HRB 75127 die „LS Rohstoffhandelsgesellschaft mbH“ und eine andere Geschäftsanschrift. Trotz passender Nummer und Geschäftsführer Lothar Schlauch bleiben Rechtsform-/Namensschreibweise und Geschäftsanschrift nicht widerspruchsfrei geklärt. Deshalb bleiben Kontakt- und Straßenfelder leer und der Status `pruefung`.
+
+**Preise:** ANKAUF — keine numerischen Schrott-/Metallkurse verifiziert. VERKAUF — keine Produktpreisliste gefunden. GEBÜHREN — keine konkreten Container-, Abhol- oder Entsorgungstarife gefunden. Website-Claims zu BDSV-Mitgliedschaft und Zertifizierungen sind Betreiberangaben, keine unabhängig geprüften Zertifikate.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Impressum und Kontaktseite erneut direkt gelesen: sie nennen Im Alten Brühl 36, 66333 Völklingen, 06898 294232, info@lsrohstoffhandel.de, Geschäftsführer Lothar Schlauch sowie „LSRohstoffhandels GmbH“, Registernummer „HR 75127“; dieselben Seiten behaupten BDSV-Mitgliedschaft und Zertifizierung nach DIN ISO 9001:2015/Entsorgungsfachbetrieb. Der Registertreffer führt die juristische Firma als „LS Rohstoffhandelsgesellschaft mbH“, AG Saarbrücken HRB 75127; die Anschrift im Registerprofil weicht von der Betreiberanschrift ab. Das stützt eine mögliche Zuordnung, löst aber Firmenbezeichnung und aktuellen Betriebsort nicht zweifelsfrei auf; daher keine Frontmatter-Änderung außer bestehendem website_status=aktiv. ANKAUF: keine Zahlenkurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://lsrohstoffhandel.lsr01.de/index.php/impressum ; https://lsrohstoffhandel.lsr01.de/index.php/kontakt ; https://www.northdata.de/LS%20Rohstoffhandelsgesellschaft%20mbH,%20V%C3%B6lklingen/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2075127 .]
 
 ### Recherche 04.10.2026
 

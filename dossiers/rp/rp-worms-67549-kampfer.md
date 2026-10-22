@@ -30,6 +30,10 @@ Identität und Standort weiterhin ungeklärt: Die Historie dokumentiert Töpfers
 
 ## Timeline
 
+### Recherche 21.10.2026 (Welle RP)
+
+- [Recherche 21.10.2026: Die direkt gelesene Gelbe-Seiten-Seite führt weiterhin Kämpfer Schrotthändler, Pfrimmanlage 9, 67549 Worms-Neuhausen, Tel. 0176 34 20 79 33; sie enthält keine Rezensionen und keinen Betreiber-/Impressumsbeleg. Das bestätigt nur den bereits bekannten Verzeichnislead, nicht einen Umzug oder die Zugehörigkeit der konkurrierenden Töpferstraße-Einträge. Eine erneute gezielte Websuche lieferte keine neue Primärquelle. Alle drei Adress-/Telefonkombinationen bleiben ungeklärt; keine Frontmatter-Füllung und kein Geocoding. ANKAUF/VERKAUF/GEBÜHREN: keine Kämpfer zuordenbare Zahlenliste. Quelle(n): https://www.gelbeseiten.de/gsbiz/cccb4644-21ea-407b-8e5e-9874d80c048a ; bisherige Konfliktbelege siehe Timeline 01./02.10.2026.]
+
 ### Recherche 11.10.2026 (Wave E)
 
 - [Recherche 11.10.2026: Namens-/Ortssuche Kämpfer + Worms + Schrotthandel/Website ohne positiven zuordenbaren Primärtreffer. Vorwellenkonflikt bleibt ausdrücklich offen; nicht als neuer Register-Negativnachweis oder geschlossener Betrieb ausgelegt. Keine neue Adresse, Telefonnummer oder Website gefüllt. Ankauf-/Verkaufs-/Gebührenpreise nicht zuordenbar, kein Geocoding. Quellenbasis für Konflikt: bereits dokumentierte Recherche 01./02.10.2026; heutige Websuche ohne positiven Primärbeleg.]

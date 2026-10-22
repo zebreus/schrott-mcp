@@ -4,13 +4,13 @@ name: Rohstoffrecycling u. Containerdienst Schulze GmbH
 trader_type: containerdienst
 state: ST
 city: Quedlinburg
-street: ''
-postcode: ''
+street: Gernröder Weg 4c
+postcode: '06484'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: http://ruc-schulze-gmbh.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -25,7 +25,9 @@ provenance_origin: table
 
 ## Überblick
 
-Registergestützter Kandidat: Rohstoffrecycling und Containerdienst Schulze GmbH, AG Stendal HRB 106571, Gernröder Weg 4C, 06484 Quedlinburg. Ein aktueller Betreiberauftritt und ein unabhängiger Standortbeleg fehlen; Registerexistenz ist noch kein Nachweis laufenden Privatkundenankaufs. Zwei abweichende Telefon-/Hausnummerneinträge im selben Portal nicht zusammenführen. Keine bestätigten Ankauf-, Verkaufs- oder Gebührentarife; `pruefung` und leere Kontaktfelder bleiben.
+Der Betreiberauftritt `ruc-schulze-gmbh.de` nennt die Rohstoffrecycling und Containerdienst Schulze GmbH, Gernröder Weg 4c, 06484 Quedlinburg; die aktuelle NorthData-Gesellschaftsseite führt dieselbe HRB 106571 und Anschrift. Die Betreiberseiten nennen Schrotthandel, Containerdienst und Autoverwertung. Die Website ist direkt erreichbar; die Seite ist jedoch undatiert. Daher Website und doppelt belegte Straße/PLZ eingetragen, aber `status: pruefung` bleibt, bis die gegenwärtige Betriebsaufnahme separat bestätigt ist. Telefon und Öffnungszeiten bleiben trotz Website-Angabe zunächst ungefüllt.
+
+**Preise:** Ankauf: Betreiber nennt Eisen-/Stahl- und NE-Metalle, aber keine Zahlenkurse. Verkauf: Kies, Sand, Mutterboden, Schotter, Recyclingmaterial sowie Beton-/Ziegelbruch werden als Lieferprodukte genannt; keine Verkaufspreise. Gebühren: Container und Entsorgung verschiedener Abfälle werden angeboten, aber keine Container-/Entsorgungstarife veröffentlicht.
 
 ## Timeline
 
@@ -38,3 +40,7 @@ Registergestützter Kandidat: Rohstoffrecycling und Containerdienst Schulze GmbH
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Rohstoffrecycling, Container (lt. schrottplatz-info)
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Neuer Betreiberauftritt direkt geöffnet: `http://ruc-schulze-gmbh.de/` nennt die Rohstoffrecycling und Containerdienst Schulze GmbH; Kontaktframe `01rechts.html` nennt Gernröder Weg 4c, 06484 Quedlinburg und Tages-/Wochenöffnungszeiten; `03_schrott.html` listet Ankauf von Eisen-/Stahl- sowie NE-Metallen; `02_container.html` listet Abfallannahme/Container und Lieferprodukte (u.a. Kies, Sand, Schotter, Recyclingmaterial). NorthData bestätigt unabhängig HRB 106571 und dieselbe Anschrift, mit jüngster hier gelesener Veröffentlichung 15.12.2025. Daher website/status und Straße/PLZ eingetragen. Telefon/Öffnungszeiten wegen nur einer sie direkt nennenden Quelle nicht in strukturierte Felder übernommen; Unternehmensstatus bleibt `pruefung`, da die Betreiberwebsite keine Aktualisierung datiert. ANKAUF: Annahmespektrum belegt, keine Preise. VERKAUF: Lieferprodukte, keine Preise. GEBÜHREN: keine veröffentlichten Tarife. Quellen: http://ruc-schulze-gmbh.de/ ; http://ruc-schulze-gmbh.de/03_schrott.html ; http://ruc-schulze-gmbh.de/02_container.html ; http://ruc-schulze-gmbh.de/01rechts.html ; https://www.northdata.de/Rohstoffrecycling+und+Containerdienst+Schulze+GmbH,+Quedlinburg]

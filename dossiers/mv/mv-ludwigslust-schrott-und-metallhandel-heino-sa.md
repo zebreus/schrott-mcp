@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://schrott-und-container-sass.de
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Der Betreiberauftritt von Schrott- und Metallhandel Heino Saß nennt Ankauf von Misch- und Sortenschrott sowie Buntmetallen und bestätigt Lüblower Weg 49, 19288 Ludwigslust im Impressum. Die Website nennt Tages-Höchstpreise und sofortige Barzahlung, veröffentlicht aber keine Zahlenkurse; aktuelle Ankaufspreise sollen telefonisch erfragt werden. Kies, Sand, Recyclingmaterial, Mutterboden und weitere Baustoffe werden verkauft, Preise und Lieferkosten ebenfalls nur auf Anfrage. Containergrößen sind beschrieben; eine kostenlose Stellung wird nur für „größere Mengen“ erwähnt, ohne Schwelle. Keine pauschale Gebührenfreiheit ableiten.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberseite „Schrottankauf“ und Kontakt-/Impressumsseite direkt erneut gelesen; der Auftritt ist erreichbar und weiterhin Heino Saß/Lüblower Weg 49 zugeordnet, daher `website_status: aktiv`. ANKAUF: Misch-/Sortenschrott und NE-Metalle gegen sofortiges Bargeld, Tageskurs nur telefonisch, keine bezifferten Kurse. VERKAUF: Baustoffe laut eigener Seite; keine bestätigte Zahlenliste. GEBÜHREN: Containerstellung laut Seite bei „größeren Mengen“ möglicherweise kostenfrei, ohne definierte Schwelle; Abholung/Entsorgung nicht pauschal kostenlos. Wegen Einzelunternehmer-Auftritt ohne erfüllte Ausnahme keine neuen Kontakt-Fills. Quellen: https://schrott-und-container-sass.de/schrotthandel/ ; https://schrott-und-container-sass.de/baustoffe/ ; https://schrott-und-container-sass.de/containerdienst/ ; https://schrott-und-container-sass.de/impressum/ (Abruf 21.10.2026).]
 
 ### Recherche 16.10.2026 (Shard 2)
 

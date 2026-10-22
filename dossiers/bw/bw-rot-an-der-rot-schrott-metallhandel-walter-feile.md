@@ -28,7 +28,13 @@ Walter Feile bleibt ein ungeklärter Schrott-/Metallhandels-Kandidat. Der erneut
 
 `pruefung` ersetzt das bislang trotz Adresskonflikt beibehaltene `aktiv`; das ist keine Schließungsbehauptung. Straße/PLZ/Telefon bleiben leer. Öffnungszeiten, Annahme/Abholung, Mindestmengen und Preise ungeklärt. Erforderlich ist eine adress- und personenbezogene Betreiber-/Gewerbeauskunft, nicht weitere Zusammenzählung von Aggregatoren.
 
+**Preise:** Ankauf: keine dem Kandidaten zurechenbare Preisangabe; Verkauf: keine belegt; Gebühren: keine belegt. Die Verzeichnisprofile veröffentlichen keine belastbare Preisliste.
+
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Erneuter Quellenabgleich bestätigt den ungelösten Anschriftenkonflikt: Gelbe Seiten führt Siedlung 12, Schrottplatz-info Siedlung 3. Keiner der Treffer verifiziert aktuelle Tätigkeit oder Ankauf. Adresse und Telefon bleiben aus dem Frontmatter entfernt; keine Hausnummernwahl nach Mehrheitsprinzip. Ankauf: keine Kurse; Verkauf: keine Preise; Gebühren: keine Tarife gefunden. Keine Adresse für Geocodierung freigegeben, bis Identität und Standort bestätigt sind. Quellen: https://www.gelbeseiten.de/gsbiz/1e9e243c-6577-45d3-a0f6-a52517c14dd0 ; https://www.schrottplatz-info.de/schrottplatz/Rot-an-der-Rot/ .]
 
 ### Recherche 05.10.2026
 

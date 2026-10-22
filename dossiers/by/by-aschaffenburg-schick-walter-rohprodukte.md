@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Anschrift Am Welzbach 17, 63741 Aschaffenburg und 06021 88952 sind weiterhin nur deckungsgleiche Verzeichnisangaben. Eine neue Suche im Bundes-Telefonbuch führt „Walter Schick“ an derselben Anschrift/Telefonnummer, aber in der Rubrik Landwirtschaft; sie belegt keine Schrotttätigkeit und verschärft die Identitäts-/Branchenmehrdeutigkeit. Ein Betreiberauftritt oder Registerbeleg für „Schick Walter Rohprodukte“ fehlt. Frontmatter bleibt unverändert und `status: pruefung`.
+
+**Ankauf:** Rohdaten nennen Altmetall, aber aktueller Ankauf ist nicht bestätigt. **Verkauf:** keine Ware/Preisliste belegt. **Gebühren:** keine Annahme- oder Entsorgungspreise belegt. Offen ist insbesondere, ob „Schick Walter Rohprodukte“ eine eigene Firma, ein alter Verzeichniseintrag oder derselbe Walter Schick wie der Landwirtschafts-Eintrag ist. Keine Preisangaben verifiziert.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Der direkte Bundestelefonbuch-Eintrag für Walter Schick nennt Am Welzbach 17, 63741 Aschaffenburg und 06021 88952, ordnet ihn aber ausdrücklich der Landwirtschaft zu (Eintrag seit 12.03.2026, aktualisiert 10.09.2026). Die bereits vorliegenden Gelbe-Seiten-/Das-Örtliche-Leads bezeichnen die Adresse als „Rohprodukte/Schrott“, sind ebenfalls Verzeichnisquellen. Der neue Treffer stellt weder eine Betreiberidentität noch Schrottankauf her, sondern lässt die Namens-/Branchenzuordnung offen. Keine Frontmatter-Änderung; `status: pruefung` bleibt. Kein belastbarer Ankauf, Verkauf oder Gebührenpreis belegt. Quelle: https://www.bundes-telefonbuch.de/aschaffenburg/landwirtschaft/walter-schick-bvg003413707 (bisherige Gelbe-Seiten-/Das-Örtliche-Leads siehe Recherche 01.10.2026).]
 
 ### Korrektur 05.10.2026
 

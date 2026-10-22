@@ -24,16 +24,20 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite beschreibt Florian-Metalle als mobilen Schrott- und Buntmetallankauf im Raum Fürth/Nürnberg/Erlangen mit Abholung; eine stationäre Annahmestelle ist nicht ausgewiesen. Geschäftsanschrift, Telefon und E-Mail aus dem Impressum bleiben dokumentiert in der älteren Timeline, aber getrennt von der mobilen Einsatzregion im Seed.
+Die Betreiberwebsite beschreibt Florian-Metalle als mobilen Schrott- und Buntmetallankauf im Raum Fürth/Nürnberg/Erlangen mit Abholung; eine stationäre Annahmestelle ist nicht ausgewiesen. Sie unterscheidet Ankaufbedingungen: Buntmetalle werden zu individuell angefragten, tagesaktuellen Preisen angekauft; Eisenschrott wird laut Betreiber kostenlos mitgenommen, aber nicht vergütet. Kontaktzeiten sind keine Öffnungszeiten eines Kundenhofs. Geschäftsanschrift aus dem Impressum bleibt von der mobilen Einsatzregion getrennt.
 
-- **Ankauf:** allgemeines Ankaufangebot, aber keine numerischen Ankaufspreise.
+- **Ankauf:** Buntmetallankauf mit individuellem/tagesaktuellem Angebot, aber ohne veröffentlichte Zahlen oder Preisliste; Eisenschrott wird laut Betreiber unentgeltlich mitgenommen, ausdrücklich ohne Vergütung.
 - **Verkauf:** keine Materialverkaufspreise ausgewiesen.
-- **Gebühren:** keine Abhol-/sonstigen Gebühren ausgewiesen.
+- **Gebühren:** Betreiber bewirbt kostenlose Abholung im Einsatzgebiet; bei größerer Entfernung soll laut FAQ mehr Material zusammenkommen. Eine feste Mindestmenge oder ein Radius ist nicht veröffentlicht. Keine sonstigen Tarife veröffentlicht.
 - **Geokodierung:** Geschäftsanschrift Albrecht-Dürer-Straße 15, 90766 Fürth nicht als Kundenannahme geokodieren; mobile Einsatzregion ist keine einzelne Adresse.
 
 Status `pruefung` bleibt wegen fehlendem unabhängigen Register-/Gewerbenachweis.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Betreiberwebsite/Leistungsbeschreibung erneut inhaltlich ausgewertet: Buntmetalle werden zu tagesaktuellen, individuell anzufragenden Konditionen gekauft; Eisenschrott nimmt der Betreiber kostenfrei, aber ohne Bezahlung mit. Die Website bewirbt kostenlose Abholung, begrenzt nach Menge/Region (weiter entfernte Abholung nur bei ausreichendem Volumen); kein numerischer Kurs, keine Preisliste für Materialverkauf und keine sonstigen Gebühren gefunden. Kontaktzeiten Mo–Fr 9–18/Sa 10–13 sind Erreichbarkeitszeiten, nicht Kundenöffnungszeiten. Für DPF/Katalysatoren wird ein individuelles Angebot genannt. Stationäre Annahme weiterhin nicht ausgewiesen; Geschäftsanschrift Albrecht-Dürer-Straße 15, 90766 Fürth nicht geokodieren. Offen: konkrete Materialangebote und Voraussetzungen je Abholauftrag. Quelle: https://florian-metalle.de/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

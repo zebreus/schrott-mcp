@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: Schrotthandel (Altmaterialhandel) in St. Wendel-Hoof
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Falkenberg Schrotthandel ist nur über Verzeichnisse greifbar: Nebenhügel 2, 66606 St. Wendel-Hoof und 06856 892882 stehen dort übereinstimmend; Das Örtliche listet daneben einen Eintrag ohne Namen mit derselben Anschrift/Fax. Es fehlen Betreiber-, Register- oder kommunaler Gewerbebeleg und eine belastbare aktuelle Annahmebestätigung. Deshalb Status `pruefung` statt `aktiv`; keine Schließung behauptet. **Ankauf:** „Schrott“ ist nur Branchenklassifikation, keine bestätigte Vergütung/Preisliste. **Verkauf/Gebühren:** keine Listen gefunden. **GEO:** Adresse noch Lead; keine Koordinaten freigegeben.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Statuskorrektur
+
+- [Recherche 20.10.2026: Das-Örtliche-Recheck zeigt weiterhin zwei Einträge an Nebenhügel 2, 66606 St. Wendel-Hoof; nur „Falkenberg Schrotthandel“ führt 06856 892882, der zweite Eintrag nennt Fax 06856 892255. Die Verzeichnisübereinstimmung bestätigt keinen Betreiber und ist nach README weiterhin Lead. Daher `status: aktiv` auf `pruefung` korrigiert, nicht geschlossen; Kontaktdaten/Adresse und GEO unverändert. Keine Ankauf-, Verkaufs- oder Gebührenliste gefunden. Quelle: https://www.dasoertliche.de/Themen/Schrotthaendler/St-Wendel.html (Abruf 20.10.2026); Gegenprüfung/älterer Lead: 11880-Eintrag, Recherche 02.10.2026.]
 
 ### Recherche 02.10.2026
 

@@ -4,7 +4,7 @@ name: Resler Michael Schrott und Metalle
 trader_type: schrotthaendler
 state: HE
 city: Fulda-Haimbach/Johannesberg
-street: Neptunstr. 1
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nur Verzeichniseinträge für „Resler Michael Schrott und Metalle“ sind auffindbar. Sie nennen konkurrierende Orts-/Adressspuren in Fulda-Haimbach (Neptunstr. 1) und Johannesberg (Klostermannstr. 16); keine davon ist durch eine Betreiberquelle, ein Register oder eine kommunale Quelle bestätigt. `street` bleibt daher leer; die konkurrierenden Adressen sind nur Recherche-Leads. ANKAUF: keine belegte Annahme oder Preise; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Identität, aktueller Standort und Publikumsannahme offen.
 
 ## Timeline
+
+### Recherche/Korrektur 22.10.2026
+
+- [Korrektur 22.10.2026: Aktuelle Suche bestätigt weiter zwei nicht aufgelöste Aggregator-Spuren: Neptunstraße 1 in Haimbach und Klostermannstraße 16 in Johannesberg; die Fulda-Seite von city-map sowie Gelbe-Seiten- und Kabelschrott-Treffer liefern keinen Betreiber-/Registerbeleg. Die bislang strukturierte Anschrift Neptunstr. 1 wurde wegen der konkurrierenden Adresse und fehlender Primärquelle geleert; beide Standortangaben bleiben in den früheren Recherche-Notizen nachvollziehbar. Keine Geokodierung. ANKAUF: nicht belegt, keine Preise; VERKAUF: keine Preisliste; GEBÜHREN: nicht belegt. Quelle(n): https://fulda.city-map.de/en/michael-resler-schrott-und-metalle (Verzeichnis); https://www.gelbeseiten.de/gsbiz/546855f8-5286-473c-b0c3-a7154753ec4a; https://www.gelbeseiten.de/gsbiz/49c3b914-be09-42c9-8f70-67d7dd6c7047; http://www.kabelschrott.net/schrotthandel_fulda.html (Verzeichnis).]
 
 ### Recherche 02.10.2026
 

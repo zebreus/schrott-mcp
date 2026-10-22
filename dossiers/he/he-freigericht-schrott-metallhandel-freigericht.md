@@ -24,11 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-Der generische Seedname ist weiterhin keinem konkreten Betreiber zugeordnet. **AC Containerdienst UG**, Im Schwalbengrund 14, ist im Impressum mit Merle Federau/HRB 101188 belegt. **TSR**, Gewerbepark Birkenhain 13–15, ist eine ältere separate Standortspur; der Direktabruf am 17.10. lieferte keinen lesbaren Inhalt, also keine heutige unabhängige Neuverifikation. Keine Quelle verbindet AC/TSR mit diesem generischen Datensatz oder einer früheren Raiffeisenstraßen-Adresse. Zieladresse/Website bleiben leer, Status `pruefung` unverändert.
+Der generische Seedname ist weiterhin keinem konkreten Betreiber zugeordnet. **AC Containerdienst UG**, Im Schwalbengrund 14, ist im Impressum mit Merle Federau/HRB 101188 belegt; **TSR**, Gewerbepark Birkenhain 13–15, bleibt eine getrennte Standortspur. Keine Quelle verbindet AC/TSR mit diesem Datensatz oder der früheren Raiffeisenstraßen-Adresse. Zieladresse/Website bleiben leer, Status `pruefung` unverändert. Die AC-Preise unten sind ausdrücklich **keine** Preise des Zieldossiers.
 
-**Abgrenzung der neuen Preisliste:** AC veröffentlicht Entsorgungs- und Containergebühren sowie Schüttgutverkaufspreise auf Anfrage; das sind keine Preise dieses ungeklärten Seedbetriebs. Siehe Recherche 13.10.2026 und Bericht. Für den Zielbetrieb sind Ankauf, Verkauf und Gebühren unbekannt.
+**Preisabgrenzung (AC, Stand 20.10.2026; nicht Zielbetrieb):** **ANKAUF** – Schrott/Buntmetall zu Tagespreisen, aber ohne Zahlenkurse. **VERKAUF** – Kies, Splitt, Sand und Mutterboden nur auf Anfrage, keine Liste. **GEBÜHREN** – AC veröffentlicht Entsorgungs-, Container-, Fehlwurf- und Leerfahrtpreise (Einzelheiten, USt.-Hinweis und Tabellen-/Grafikwiderspruch in der Timeline). Für den ungeklärten Seedbetrieb bleiben alle drei Preisarten unbekannt.
 
 ## Timeline
+
+### Recherche 20.10.2026 — aktuelle Betreiber- und Preisabgrenzung
+
+- [Recherche 20.10.2026: AC-Betreiberseiten und Impressum direkt geprüft. Impressum: AC Containerdienst UG (haftungsbeschränkt), Merle Federau, HRB 101188 AG Hanau, Im Schwalbengrund 14, 63579 Freigericht. Die Betreiberseite bewirbt Schrott-/Buntmetallankauf zu Tagespreisen, nennt aber keine numerischen Ankaufkurse; ein kostenloser Container wird nur für Unternehmen/öffentliche Einrichtungen mit regelmäßig großen Mengen beschrieben, nicht als pauschale kostenlose Haushaltsabholung. Schüttgut (Kies, Splitt, Sand, Mutterboden) wird preislich nur auf Anfrage angeboten, ohne Verkaufsliste.
+  **Gebühren (AC, nicht Zieldossier):** Entsorgungsseite nennt €/t zzgl. 19 % USt.: Boden 35; Holz A1–A3 85, A4 145; Grünschnitt 79, mit Wurzeln 89; sortierter Beton 30, Bauschutt 45, mit Bims verunreinigt 55; Gips 99; Sperrmüll (mind. 30 % Holz) 200; Leichtbaustoffe/Rigips 120; Mischabfall als Aktionspreis 225 (250 durchgestrichen). Mulden/Absetzer und Abrollcontainer: Tabelle für Anlieferung plus 7 Tage Standzeit weist Freigericht 40/100 €, 10 km 80/120 €, 20 km 100/140 €, 30 km 120/160 €, 40 km 140/180 € (Absetzer/Abroller) aus. Zusätzlich: Leerfahrt 200 € zzgl. USt.; Fehlwurf 199 €/t; als mit der Schlussrechnung verrechenbare Vorschüsse zzgl. USt. Absetzer 5/7/10 m³: 250/350/500 €, Abroller 10/20/36 m³: 600/1.200/2.200 €. Die Grafik-/Alttextangaben auf der Seite weichen teilweise von der Entfernungstabelle ab; Werte nicht als allgemeingültiges Angebot interpretieren, vor Auftrag bestätigen. Diese fremden Betreiberpreise werden dem generischen Zielbetrieb nicht zugerechnet; kein Fill oder GEO. Quellen: https://www.ac-containerdienst.de/impressum/ ; https://www.ac-containerdienst.de/schrotthandel-schrottankauf/ ; https://www.ac-containerdienst.de/containerdienst-abfallentsorgung/.]
 
 ### Korrektur 17.10.2026 (Quellengrenze)
 

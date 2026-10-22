@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Das Örtliche führt „Krasulsky Stefan Cottbuser Goldankauf“ als Schmuckwarenanbieter in der Karl-Liebknecht-Str. 16, 03046 Cottbus und nennt 0151 53 21 02 02. Das bleibt ein einzelner Branchenverzeichnis-Lead; ein Betreiberauftritt, aktueller Gewerbenachweis und die Zuordnung der Seed-Bezeichnung sind nicht unabhängig bestätigt. Keine Verwechslung mit anderen Goldankäufern in Cottbus.
+Das Örtliche führt „Krasulsky Stefan Cottbuser Goldankauf“ als Schmuckwarenanbieter in der Karl-Liebknecht-Str. 16, 03046 Cottbus und nennt 0151 53 21 02 02. Das bleibt ein einzelner Branchenverzeichnis-Lead; Betreiberidentität und heutige Tätigkeit sind nicht unabhängig bestätigt, daher `status: pruefung`. Der aktuelle Betreiberauftritt der Goldkontor Cottbus GmbH betrifft Sandower Str. 52 und HRB 18621; weder Name noch Anschrift belegen eine Verbindung zu Krasulsky. Nicht zusammenführen und keine Kontaktdaten oder Preise übertragen.
 
-**Preise:** ANKAUF — kein Krasulsky zuordenbarer Gold-/Silberkurs. VERKAUF — keine Verkaufspreise. GEBÜHREN — keine Angaben.
+**Preise:** ANKAUF — kein Krasulsky zuordenbarer Gold-/Silberkurs. Die Goldkontor-Website beschreibt für ihre eigene Adresse ein individuelles Angebot nach Analyse, aber keinen festen Zahlenkurs; nicht übertragbar. VERKAUF — keine Krasulsky-Verkaufspreise. GEBÜHREN — keine Angaben. **Offen:** Betreiberzuordnung, aktuelle Tätigkeit und Annahme.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Gegenprüfung der Identität: Das Örtliche führt weiterhin „Krasulsky Stefan Cottbuser Goldankauf“, Karl-Liebknecht-Str. 16, 03046 Cottbus, Tel. 0151 53 21 02 02, als Schmuckwarenanbieter; das bleibt ein Verzeichnis-Lead ohne unabhängige Betreiber-/Registerbestätigung. Der aktuelle Betreiberauftritt der Goldkontor Cottbus GmbH nennt dagegen Sandower Str. 52, 03046 Cottbus und HRB 18621; dort werden An- und Verkauf von Edelmetallen sowie individuelle Angebote nach Analyse beschrieben, aber keine festen €/g-Preise. Keine Identitätsbrücke, kein Merge und keine Preis-/Kontaktübernahme. Status aktiv → pruefung wegen des weiterhin einzelnen Verzeichnisbelegs; Adresse bleibt Lead, nicht geokodiert. Quellen (Abruf 20.10.2026): https://www.dasoertliche.de/Themen/Karl--Liebknecht--Str/Cottbus-Seite-5.htm ; https://goldkontor-cottbus.de/ ; https://goldkontor-cottbus.de/impressum .]
 
 ### Recherche 12.10.2026
 

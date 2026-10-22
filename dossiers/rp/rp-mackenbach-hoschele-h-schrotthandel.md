@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Import nennt H. Höschele und Kindsbacher Str. 30 in Mackenbach, bislang ohne Betreiberbeleg. Ein aktueller Treffer im Stadtbranchenbuch führt einen Hans Höschele mit Kategorie „Schrott“ dagegen unter Auf dem Immel 10, 67685 Weilerbach und Tel. 06374 1645. Das ist nur ein Verzeichnislead und weder dieselbe Adresse noch eine belegte Verlagerung; Identität offen, keine Kontaktdaten übertragen. ANKAUF: keine Preise/Annahmebedingungen belegt; VERKAUF: keine Liste; GEBÜHREN: keine Angaben.
+Der Import nennt H. Höschele und Kindsbacher Str. 30 in Mackenbach. Gelbe Seiten und Das Örtliche führen dort ebenfalls „Höschele H. Schrotthandel“, Kategorie „Schrott“, Tel. 06374 1645. Das sind weiterhin Branchenverzeichnis-Leads, kein Betreiber- oder Registerbeleg; die Übereinstimmung bestätigt weder aktuelle Tätigkeit noch tatsächliche Annahme. Ein separater Stadtbranchenbuch-Treffer führt einen Hans Höschele mit derselben Nummer unter Auf dem Immel 10, 67685 Weilerbach. Die gleiche Nummer an einem anderen Ort beweist keine Identität oder Verlagerung; keine Kontaktdaten übertragen.
+
+**ANKAUF:** keine Annahmebedingungen oder Preise belegt. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Angaben. **GEO:** Kindsbacher Str. 30 bleibt Kandidatenadresse; erst nach Betreiber-/Kundenstandortbestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Gelbe-Seiten-Profil und Das-Örtliche-Trefferliste direkt gelesen; beide führen „Höschele H. Schrotthandel“, Kindsbacher Str. 30, 67686 Mackenbach, 06374 1645. Die getrennte Stadtbranchenbuch-Spur „Hans Höschele“, Auf dem Immel 10, 67685 Weilerbach, 06374 1645, bleibt ein anderer Ort und ohne belegte Verbindung. Portaleinträge sind keine Primärbelege und ihre Übereinstimmung wird nicht als unabhängige Identitätsbestätigung gewertet; keine Frontmatter-Felder ergänzt. ANKAUF/VERKAUF/GEBÜHREN: keine aktuellen Konditionen oder Tarife; GEO erst nach Klärung von Identität und Kundenanschrift. Quellen: https://www.gelbeseiten.de/gsbiz/6bed0fd9-d88c-4dd2-96d4-f4d25a0084a3 ; https://www.dasoertliche.de/Themen/Kindsbacher-Str/Mackenbach.htm ; https://mackenbach.stadtbranchenbuch.com/ (Weilerbach-Verzeichnislead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

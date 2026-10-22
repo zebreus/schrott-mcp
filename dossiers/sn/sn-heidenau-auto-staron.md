@@ -30,6 +30,10 @@ Zwei nicht deckungsgleiche Standortspuren sind zu trennen: eine Drittanbieter-Sp
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberwebsite live erneut gelesen: Autoverwertung Staron / Karl Staron nennt Talstraße 68, 01156 Dresden ausdrücklich „Büro (kein Kundenverkehr)“, bietet kostenlose Fahrzeugabholung auch in Heidenau an und beschreibt eine fahrzeugindividuelle Restwertzahlung nach Zustand, Alter und Modell. Hauptstraße 96, 01809 Heidenau, wird dort nicht als Betriebsstätte genannt; das heutige Direktabruf-Ergebnis des offiziellen GESA-Registers ist nur eine JavaScript-Hülle ohne individuell prüfbaren Staron-Datensatz. Die frühere Heidenau-Adresse bleibt daher ungeklärt und wird nicht als Hof/Annahmepunkt geocodiert. ANKAUF: nur individuelle, unbezifferte Restwertzahlung für Fahrzeuge, kein allgemeiner Schrottkurs. VERKAUF: keine Preisliste. GEBÜHREN: Abholung wird als kostenlos beworben; keine pauschal kostenlose Annahme/Verwertung oder weitere Gebührenfreiheit belegt. Quellen: https://autoverwertung-staron.de/index.html ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 15.10.2026 (00:00-Welle B)
 
 - [Recherche 15.10.2026: Betreiber-index erneut direkt gelesen: Karl Staron/Autoverwertung Staron, Talstr. 68 Dresden ausdrücklich Büro ohne Kundenverkehr; kostenlose Abholung in Dresden/Heidenau/Pirna, Restwertzahlung je Zustand/Alter/Modell weiterhin ohne Beträge. Keine Nennung Hauptstr. 96 im gelesenen Text, damit weder Heidenauer Standort noch Umzugskette bestätigt. GESA heute nicht erneut individuell ausgelesen; historische Spiegelquelle bleibt unzureichend für Betriebsstättenidentität und Zulassungsgültigkeit. Keine Kontakt-/Adress-/Websiteübertragung. ANKAUF individueller unbezifferter Restwert, VERKAUF keine Liste, GEBÜHREN nur Abholung als kostenlos beworben, keine umfassende Entsorgungsgebührentafel. Beide Standorte nicht als bestätigten Kundenhof geocodieren. Quelle: https://autoverwertung-staron.de/index.html .]

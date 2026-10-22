@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Passender Betreiber-Einzelbeleg für MVM – Metallverwertung Mudrow in Hameln gefunden, mit ausdrücklicher vergüteter Schrott-/Kabelannahme. Historische kommunale Nennung stützt den Kandidaten, ersetzt aber keinen aktuellen Gewerberegisterbeleg. Impressum und Geschäftsgrafik widersprechen sich bei der PLZ; daher noch keine Standort-/Kontaktübernahme.
+Passender Betreiber-Einzelbeleg für MVM – Metallverwertung Mudrow in Hameln gefunden, mit ausdrücklicher vergüteter Annahme bestimmter Metalle und Kabel. Die kommunale Planungsunterlage stützt nur den historischen Standortkontext, nicht den aktuellen Gewerbestatus. Impressum und Geschäftsgrafik widersprechen sich bei der PLZ; ein zulässiger aktueller Identitäts-Zweitbeleg fehlt, daher keine Standort-/Kontaktübernahme.
+
+- **Ankauf:** Grafik nennt vergütete Annahme bestimmter Metalle/Kabel, aber keine numerischen Kurse.
+- **Verkauf:** Betreiber-Grafik sagt ausdrücklich „Kein Materialverkauf“.
+- **Gebühren:** keine Abhol-/Containerpreise oder Gratisbedingungen belegt.
+- **GEO:** gesperrt bis PLZ-Widerspruch (31789/31785), aktuelle Betreiberzuordnung und öffentliche Einfahrt geklärt sind.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Der Direktabruf der Betreiber-Startseite liefert weiterhin eine bildbasierte Seite mit `mvm-seite.jpg` und Links auf Impressum/Datenschutz, aber keine textlich datierten Betriebsinformationen. Die frühere visuelle Prüfung der Grafik und der kommunale Beleg vom 14.10. bleiben die dokumentierte Sachbasis; der heutige Seitenabruf datiert die Grafik nicht neu und löst den PLZ- oder Identitätsfall nicht. Kein neuer Register-/Gewerbebeleg und keine Frontmatteränderung. Preisstand unverändert: Ankauf ohne Zahlen, kein Materialverkauf, keine Gebührenliste; GEO weiterhin offen. Quelle(n): https://www.mvm-hameln.de/ ; https://www.mvm-hameln.de/mvm-seite.jpg.]
 
 ### Recherche 14.10.2026
 

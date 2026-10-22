@@ -30,6 +30,10 @@ Für Ohlinger sind Banatstr. 10, 66424 Homburg, Tel. 06841 62523 und ohlinger199
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Detail weiterhin nur als Verzeichnis-Lead lesbar: Ohlinger Schrott- u. Metallentsorgung, Banatstr. 10, 66424 Homburg-Schwarzenbach, 06841 62523; kein Impressum, Betreiberlink oder Leistungs-/Preisdetail. Namenssuche führte zusätzlich zu „Alexander Ohlinger Rohstoffverwertung“ in Edesheim und einer derzeit nicht erreichbaren Website mit Hinweis „vorübergehend nicht erreichbar“; mangels Orts-/Identitätsbrücke werden diese nicht Homburg zugeordnet. Keine Änderung an Frontmatter/Status. ANKAUF: keine Ohlinger-Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://www.gelbeseiten.de/gsbiz/35cfd2cd-1c00-4096-8bfa-e05e40c2d69c ; https://firmeneintrag.creditreform.de/67483/7190051853/ALEXANDER_OHLINGER_ROHSTOFFVERWERTUNG ; http://www.schrott-metalle-ohlinger.de .]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Zusätzlich einen aktuellen Betreiberauftritt eines anderen Homburger Metallhändlers geprüft: PR Metallhandel/Schrott & Metallhandel PRISON nennt Gleisdreieck 8, Telefon +49 176 77829065 und auf seiner Ankaufseite Kupfer, Aluminium, Stahl und Eisen zu Tagesmarktpreisen sowie Anlieferung/Abholung. Der abweichende Name und die Anschrift belegen keine Verbindung zu Ohlinger (Banatstr. 10); Angaben/Preise ausdrücklich nicht übertragen. PR veröffentlicht dabei keine numerischen Kurse. Für Ohlinger weiterhin kein Betreiberauftritt, keine frische Primärbestätigung oder öffentliche Preis-/Gebührenliste; bestehende Verzeichnis-Kontaktdaten und `status: aktiv` nicht als neu verifiziert werten. Quellen: https://pr-metallhandel.de/ ; https://pr-metallhandel.de/schrottankauf-homburg/ (anderer Anbieter; Abruf 12.10.2026).]

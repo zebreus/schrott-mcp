@@ -30,6 +30,10 @@ Die Seed-Adresse Napoleonstr. 19 ist nicht dem Namen „Schrottmeister Rhein-Mai
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: Neue konkrete Gegenrecherche zum Seednamen findet Cylex-Suchliste „Schrottmeister Rhein-Main“, Napoleonstraße 19/65321/01520 3397062, daneben separat Schrott Experte Zohir Boulahoual mit 0178 1618017. Das ist ein neuer Kontaktlead, keine nachgewiesene Betreiberidentität oder Zwei-Betriebe-Bestätigung. Infobel-Profil desselben Namens im Direktabruf nur Sperr-/Bedingungsseite; verdeckte Mail/Nummer nicht rekonstruiert. Damit weder identisch noch verschieden abschließend bewiesen; keine Rückfüllung der zuvor gelösten Adresse. Ankauf/Verkauf/Gebühren dieses Seeds ohne eigene zuordenbare Liste; Kurse anderer Rhein-Main-Anbieter nicht übertragen. Offen: Gewerbeinhaber und Verbindung der beiden Namen/Nummern an Napoleonstraße19; vor GEO keine Adressfreigabe. Quellen: https://web2.cylex.de/suche/recycling/Heidenrod (Suchindex-Lead); https://www.infobel.com/de/germany/schrottmeister_rhein_main/heidenrod/DE110848362/businessdetails.aspx (Direktabruf blockiert).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)

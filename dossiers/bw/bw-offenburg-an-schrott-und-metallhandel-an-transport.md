@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://www.an-schrott.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt wirbt mit Ankauf von Eisen-/Nichteisenmetallen zu Tagespreisen, Abholung und Containerdienst. Die Kontaktseite nennt Raiffeisenstraße 3a, 77656 Offenburg und 0781 99075221; die Startseite führt denselben Kontakt, schreibt die Straße jedoch abweichend „Raiffeisenstr. 3a“. Sie nennt AN Schrott und Metallhandel/AN Transporte als Partner der AN Groupe GmbH. Ein abrufbares Impressum zur eindeutigen Rechts-/Betreiberidentität lag nicht vor (`/impressum` antwortete 404); daher bleiben Adresse und Kontakte außerhalb des Frontmatters.
+Der aktuelle Betreiberauftritt wirbt mit Ankauf und Verkauf von Schrott/Metallen und Containervermietung. Kontakt- und Startseiten nennen Raiffeisenstraße 3a, 77656 Offenburg und 0781 99075221; die Kontaktseite schreibt abweichend „Raiffeisentraße 3a“. Die Kontaktseite zeigt inzwischen info@an-schrottundmetallhandel.de. Die Website bezeichnet den Betrieb als Partner der AN Groupe GmbH, aber ein abrufbares Impressum zur eindeutigen Rechts-/Betreiberidentität fehlt (`/impressum` antwortet 404). Die Betreiberseite ist erreichbar, aber die geforderte unabhängige Identitätsbestätigung fehlt; status `pruefung` behauptet keine Schließung. Adresse, Telefon und E-Mail bleiben deshalb außerhalb des Frontmatters.
 
-**Preise:** Ankauf — Tagespreise werden behauptet, aber ohne Zahlenliste. Verkauf — Rohre, Profile, Träger, Kabel, Bleche, Motoren und Komponenten werden je nach Verfügbarkeit auf Anfrage angeboten; keine Verkaufspreise veröffentlicht. Gebühren — Containerdienst und Abholung werden beworben; Containergrößen (Abroll 20/35/40 m³, Absetz 5/7/10 m³) sind Kapazitäten, keine Miet-/Transport-/Entsorgungspreise.
+**Ankauf:** Tagespreise und Auszahlung werden beworben, aber ohne numerische Kurse. **Verkauf:** Rohre, Profile, Träger, Kabel, Bleche, Motoren und Komponenten werden je nach Verfügbarkeit auf Anfrage angeboten; keine Verkaufspreise veröffentlicht. **Gebühren:** Containervermietung und Abholung werden beworben; Containergrößen (Abroll 20/35/40 m³, Absetz 5/7/10 m³) sind Kapazitäten, keine Miet-/Transport-/Entsorgungspreise. Keine kostenlose Leistung zusichern.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Startseite, Ankauf, Verkauf und Kontakt des Betreiberauftritts direkt gelesen. Die Seiten nennen Ankauf von Metallen zu Tagespreisen, Sofortauszahlung, Verkauf geprüfter/sortierter Rohre, Profile, Stahlträger, Kabel, Bleche und Gebrauchtteile sowie Containervermietung in 5/7/10 und 20/35/40 m³. Keine numerischen Ankaufskurse, Verkaufspreise oder Container-/Transportgebühren. Kontaktseite zeigt info@an-schrottundmetallhandel.de und Raiffeisentraße 3a; Startseite nennt Raiffeisenstraße 3a. `/impressum/` lieferte HTTP 404; die behauptete Partnerschaft mit AN Groupe ersetzt kein Betreiber-Impressum oder zweiten Identitätsbeleg. Website erreichbar, aber status aktiv aus dem unbestätigten Altwert auf pruefung korrigiert; keine Schließung behauptet. Keine Felder gefüllt und keine Geokodierung. Quellen: https://www.an-schrott.de/ ; https://www.an-schrott.de/ankauf/ ; https://www.an-schrott.de/verkauf/ ; https://www.an-schrott.de/contact/ ; https://www.an-schrott.de/impressum/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

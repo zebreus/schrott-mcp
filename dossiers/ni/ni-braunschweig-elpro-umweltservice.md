@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die HRB-205923-Gesellschaft ELPRO Umweltservice GmbH ist laut aktueller North-Data-Darstellung seit 04.12.2020 in Liquidation (i. L.); der Registereintrag nennt Hannoversche Str. 66a, 38116 Braunschweig. Der erreichbare Betreiberauftritt gehört dagegen der ELPRO Elektro Recycling GmbH und ist nicht ohne Rechtsnachfolgebeleg übertragbar. Die Dossieridentität und eine heutige Annahmestelle für HRB 205923 bleiben ungeklärt; keine Preise dieser anderen Gesellschaft übernommen.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: North-Data-Seite für die exakte HRB 205923 direkt geprüft: ELPRO Umweltservice GmbH, Braunschweig, Kennzeichnung i. L., Registeradresse Hannoversche Str. 66a/38116; sichtbare Publikation „Liquidation“ vom 04.12.2020. Der aktuelle Betreiberauftritt elpro-gmbh.de nennt ELPRO Elektro Recycling GmbH, Kontakt Hannoversche Straße 66A, Tel. 0531 590010 und Mo–Fr 07–16 Uhr; die Namens-/Rechtsformabweichung bleibt, eine Nachfolge oder Übertragung auf HRB 205923 ist nicht belegt. Die auf der aktuellen Website genannten Privatannahme-/Recyclingangebote und Konditionen sind deshalb nicht dem Dossier zuzuordnen. ANKAUF: keine HRB-205923-Preisliste; VERKAUF/GEBÜHREN: keine zuordenbaren Listen. Keine Felder gefüllt. Quellen: https://www.northdata.de/ELPRO%20Umweltservice%20GmbH,%20Braunschweig/HRB%20205923 ; https://elpro-gmbh.de/ ; https://elpro-gmbh.de/privatannahme/.]
 
 ### Recherche 04.10.2026
 

@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Existenz der **ALSO Recommerce AG** ist in NorthData als AG Charlottenburg HRB 125589 B belegt; daraus folgen weder die Seed-Adresse Wegedornstr. 36 noch eine Schrott-/Altmetallannahme. Die aktuelle offizielle ALSO-Deutschland-Seite beschreibt die ALSO Deutschland GmbH als ITK-Technologieanbieter und Refurbishment-Anbieter, identifiziert aber nicht die ALSO Recommerce AG oder eine Berliner Filiale. Die Gesellschaften werden nicht gleichgesetzt; Adresse und `status: unbekannt` bleiben ungeklärt.
+
+**Preise:** Ankauf: kein Schrottankauf belegt; Verkauf: keine schrottbezogene Liste; Gebühren: keine Angaben.
 
 ## Timeline
 
@@ -33,6 +35,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Elektronik-Refurbishment, kein Schrottankauf
 - Adresse: Wegedornstr. 36, 12489 Berlin
 - Bezirk: Treptow-Köpenick Adressbeleg: seed/be.json + recherche/be.md (Verzeichnisbeleg)
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: NorthData-Profil zur ALSO Recommerce AG (HRB 125589 B) und aktuelle ALSO-Deutschland-Startseite erneut direkt gelesen. Die Konzernseite beschreibt ITK-Handel und Refurbishment, nennt aber weder diese Berliner AG noch Wegedornstr. 36 oder Schrottannahme. Das belegt keine Konzernzugehörigkeit/Filiale und ist kein Negativbeweis für den Registereintrag. Seed-Adresse und Status nicht verändert. ANKAUF/VERKAUF/GEBÜHREN: keine schrottspezifischen Bedingungen oder Zahlen. Quellen: https://www.northdata.de/ALSO+Recommerce+AG,+Berlin/HRB+125589 ; https://www.also.com/ec/cms5/de_1010/1010/index.jsp]
 
 ### Recherche 02.10.2026
 

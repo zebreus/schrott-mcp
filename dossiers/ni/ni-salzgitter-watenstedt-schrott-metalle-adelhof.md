@@ -25,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Die Verzeichnisse führen „Schrott & Metalle – Adelhof“ an Hainholzweg 3, 38239 Salzgitter-Watenstedt, Mobil 0171 2022932; weitere Verzeichnisangaben nennen zusätzlich Festnetz 05341/25506. Die bisherigen Felder beruhen auf übereinstimmenden Verzeichnis-Leads, aber weiterhin ohne Betreiberwebsite oder Registerbeleg. Anschrift/Telefon nicht geokodieren oder erweitern, bis Betreiberidentität bestätigt ist. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren.
+Die Verzeichnisse führen die Anschrift Hainholzweg 3, 38239 Salzgitter-Watenstedt, aber mit widersprüchlichen Namen und Rufnummern: ältere Leads „Schrott & Metalle – Adelhof“/Mobil 0171 2022932, der direkt gelesene aktuelle 11880-Listentreffer „Renate Adelhof“/05341 25506. Beides sind Aggregatorangaben, keine Betreiber-/Registerbestätigung; die Abweichung belegt weder Inhaberwechsel noch Betreiberkette.
+
+- **Ankauf:** keine verifizierte Ankauftätigkeit oder numerischen Ankaufspreise.
+- **Verkauf:** keine Preisliste.
+- **Gebühren:** keine verifizierten Container-, Abhol- oder Entsorgungstarife.
+- **GEO:** Hainholzweg 3 nicht als bestätigter Annahmepunkt geokodieren, bevor Name, Telefonnummer und Betrieb geklärt sind.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Die direkt gelesene 11880-Salzgittersuche führt jetzt den separaten Treffer „Renate Adelhof“, Hainholzweg 3, 38239 Salzgitter-Watenstedt, Telefon 05341 25506, ohne Öffnungszeiten. Das ist ein Portalprofil; es ersetzt weder den alten 0171-Lead noch beweist es die Verbindung zu „Schrott & Metalle – Adelhof“. Cylex-Suchindex nennt ebenfalls Renate/H. Adelhof; dieselbe Verzeichnisfamilie ist kein unabhängiger Zweitbeleg. Keine Übernahme, kein GEO, keine Preislisten. Quelle(n): https://www.11880.com/branchenbuch/salzgitter/060440090B26083797/renate-adelhof.html ; https://www.11880.com/suche/schrotthandel/salzgitter ; https://web2.cylex.de/firma-home/adelhof-h--3700321.html (Suchlead).]
 
 ### Recherche 14.10.2026
 

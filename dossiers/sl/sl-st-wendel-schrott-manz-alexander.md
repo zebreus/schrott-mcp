@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die einzige konkrete Spur ist ein Schrottplatz-Info-Eintrag zu Manz Alexander, Am Dilling 10, 66606 St. Wendel, 06851 907691. Er bestätigt weder Betreiber noch aktuelle Annahme; eine NorthData-Namenssuche ergab keinen kongruenten Händler. Keine Preise oder Gebühren belegt. Offen: Betreiberidentität, aktuelle Existenz und tatsächlicher Standort; Adresse bleibt vorerst ungeprüft und sollte nicht als Annahmestelle geocodiert werden.
+Eine Creditreform-Suche liefert jetzt einen Treffer „Alexander Manz Schrotthandel“ mit Am Dilling 10, 66606 St. Wendel und 06851 907691; der direkte Profilabruf ist 403-blockiert. Das ist ein zulässiger Firmeninformations-Lead, aber weiterhin nur eine unabhängige Quelle; Schrottplatz-Info/UPA sind Verzeichnis-Leads. Keine Frontmatter-Fills oder GEO-Freigabe. Offen: Betreiberidentität, heutiger Kundenbetrieb und Annahmestelle.
+
+**Preise:** ANKAUF — keine verifizierten Kurse oder Bedingungen. VERKAUF — keine Liste. GEBÜHREN — keine Tarife.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Creditreform-Suchergebnis identifiziert „Alexander Manz Schrotthandel“, Am Dilling 10, 66606 St. Wendel, Tel. +49 6851 907691; der direkte Firmenprofilabruf lieferte HTTP 403, daher nur Suchergebnisinhalt dokumentiert. Das passt zu Schrottplatz-Info und UPA, die beide Verzeichnis-/Portal-Leads bleiben und keine zweite zulässige Quelle darstellen. Kein verifizierter Betreiberauftritt, keine Frontmatter-Änderung und keine GEO-Freigabe. ANKAUF: keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://firmeneintrag.creditreform.de/66606/7290512007/ALEXANDER_MANZ_SCHROTTHANDEL ; https://www.schrottplatz-info.de/schrottplatz/Sankt-Wendel/Manz-Alexander ; https://www.upa-online.de/buntmetalle-gusseisen-kupferspulen-st-wendel-saarland-49e6d26600.html .]
 
 ### Recherche 06.10.2026 (Lead-/Preisabgleich)
 

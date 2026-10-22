@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Altruppersdorf 2 und 04504 609583 bleiben ungeprüfte Verzeichnis-Altwerte. Die frühere Aussage 2+ unabhängige Belege aus mehreren Portalen genügt der README-Hierarchie nicht. Neu geprüfte regionale Betreiber sind keine sicheren Ersatzidentitäten: Abbruch Dambrowski nennt Tony Dambrowski, Bosauerstraße 32 in Lübeck; Trave Schrott nennt Tobias Kopp, Seekamp 23 in Offendorf. Ohne explizite Betreiber-/Registerbrücke weder Domain noch Dienste oder Anschrift übertragen. Ankauf, Verkauf und Gebühren dieses Seeds ohne verifizierte Liste. GEO erst nach aktueller Inhaber-/Betriebsstättenprüfung.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Korrektur 19.10.2026: Altvermerk UPGRADE auf 2+ unabhängige Belege vom 02.10. ist als Verzeichniskonsens zu lesen, nicht als README-konforme Verifikation. Neue Betreiber-Kandidaten beidseitig geprüft: abbruch-dambrowski.de/impressum nennt Tony Dambrowski, Bosauerstraße 32, 23554 Lübeck und 01512 8233761; trave-schrott.de/impressum nennt Tobias Kopp, Seekamp 23, 23626 Offendorf und 0176 32127702. Weder Impressum nennt Altruppersdorf 2/04504 609583 oder eine Übernahme des Seeds. Keine Umzugs-/Nachfolge-/Schließungsbehauptung aus abweichenden Angaben; beide Domains nicht zugeordnet. ANKAUF/VERKAUF/GEBÜHREN für diesen Ratekau-Lead weiterhin keine verifizierte Liste, fremde Angebote ausgeschlossen. Adresse/Telefon unverändert historisch, pruefung bleibt; kommunale Gewerbe-/Betreiberbrücke vor GEO erforderlich. Quellen: https://abbruch-dambrowski.de/impressum/ ; https://trave-schrott.de/impressum/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

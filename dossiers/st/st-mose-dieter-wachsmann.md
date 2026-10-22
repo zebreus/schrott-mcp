@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die exakte Namens-/Straßensuche lieferte keine neue Betreiberquelle oder unabhängig bestätigte Gewerbeangabe; die bekannten Treffer bleiben Portalprofile zu „Dieter Wachsmann Container Schrott Metalle“, Farsleber Str. 4, 39326 Mose, 039201 29104. Das Suchergebnis ist kein Beweis, dass der Betrieb nicht existiert oder geschlossen ist. Keine Frontmatter-Fills. **Ankauf:** Schrott-/Metallannahme nur als Verzeichnisbehauptung, keine Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Adresse bleibt unbestätigt und ungeocodiert. Quellen/Leads: https://www.11880.com/suche/schrotthandel/mose ; https://mose.stadtbranchenbuch.com/ (Aggregatoren; Abruf 21.10.2026).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Container/Schrott

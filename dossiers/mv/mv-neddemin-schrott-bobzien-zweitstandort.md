@@ -28,6 +28,10 @@ Für Neddemin gibt es einen Branchenlead „Karsten Bobzien“ an Dorfstraße 19
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Das in der vorigen Recherche als Selbstveröffentlichungs-Kandidat gefundene Kleinanzeigen-Profil wurde direkt erneut aufgerufen; der Abruf endet mit HTTP 403, sodass aktuelle Rechtsangaben und Anzeigen nicht unabhängig geprüft werden konnten. Der Suchindex-Auszug vom 14.10. bleibt deshalb ein unbestätigter Lead und begründet weder Betreiber-/Zweitstandort-Verknüpfung noch Frontmatter-Fills. Die dort angezeigten Feldsteine/Lavaschlacke sind Verkaufsangebote, keine Schrott-Ankaufskurse; Transport-Aufpreis ist kein allgemeiner Gebührenkatalog. ANKAUF/GEO offen. Quelle (Direktabruf gesperrt): https://www.kleinanzeigen.de/pro/Karsten-Bobzien .]
+
 ### Recherche 14.10.2026 (18:00-Welle C)
 
 - [Recherche 14.10.2026: Original-Portalprofil direkt gelesen: URL-Pfad Brunn, im Seiteninhalt aber ausdrücklich Dorfstraße 19, 17039 Neddemin OT Hohenmin, 03961/229311; Werbetext Ankauf von Schrott/Abholung mit LKW und Ladekran. Der vermeintliche Homepage-Link ist ein relativer Portalpfad /k.bobzien-nb@t-online.de, keine verifizierte Betreiberdomain. Das erklärt die Brunn/Neddemin-Indexabweichung, nicht die Zweitstandortfrage; Quelle: https://www.schrottplatz-info.de/schrottplatz/Brunn/Schrott-Bobzien- (Lead).]

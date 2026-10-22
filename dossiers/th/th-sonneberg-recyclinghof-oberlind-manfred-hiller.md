@@ -28,6 +28,10 @@ Ein direkt gelesener Verzeichniseintrag „Recyclinghof Oberlind“ nennt Rottma
 
 ## Timeline
 
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Direktabruf des Schrottplatz-Info-Eintrags bestätigt lediglich dessen Portalbehauptungen: Recyclinghof Oberlind, Rottmarer Straße 82, 96515 Oberlind, 0151 59093237 und „Recycling, An- und Verkauf von Wertstoffen, PKW-Entsorgung, Kleintransporte“. Öffnungszeiten/Preise fehlen; Identität mit Manfred Hiller und die Abweichung zu den 11880-/Stadtbranchenbuch-Telefonen bleiben ungelöst. Kommunale Quellen belegen keinen privaten Hof. Ankaufspreise, Verkaufspreise und Gebühren nicht verifiziert; Adresse weiterhin nicht als Hiller-Annahmestelle geokodieren. Quelle: https://www.schrottplatz-info.de/schrottplatz/Sonneberg/Recyclinghof-Oberlind-]
+
 ### Recherche 15.10.2026 Welle18C
 
 - [Recherche 15.10.2026 Welle18C: Zwei Kontaktleads direkt nachgelesen: Schrottplatz-Info Recyclinghof Oberlind, Rottmarer Straße82/96515 Oberlind, 0151 59093237; sein Link zur Homepage führt nur auf die Portalroot, nicht zum Betreiber. 11880 Manfred Hiller Rohstoff-Recycling nennt dieselbe Straße82, 96515 Sonneberg-Oberlind, 03675 808970 sowie unter weitere Kontaktdaten auch 03675 808592, ohne eindeutige aktuelle Rollenklärung der Nummern. Wichtig: Portal aktualisiert 10.10.2026, aber Eintragsdaten 01.03.2022; Aktualisierungsdatum ist kein aktueller Betreiber-/Annahmebeleg. Keine Telefonnummer/Adresse aus den Leads übernommen; Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Sonneberg/Recyclinghof-Oberlind- ; https://www.11880.com/branchenbuch/sonneberg-thueringen/060441364B28095854/manfred-hiller-rohstoff-recycling.html .]

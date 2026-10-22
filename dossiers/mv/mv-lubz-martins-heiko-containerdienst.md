@@ -30,6 +30,10 @@ Gut dokumentierter aktueller Kandidat Schrotthandel & Containerdienst Martins, I
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberwebsite und Impressum der Namensvariante „Schrotthandel & Containerdienst Martins“, Inh. Stefanie Martins, erneut direkt gelesen. Der aktive Auftritt führt Am Hafen 10a, 19386 Lübz, 038731 22406, info@schrott-martins.de sowie saisonale Zeiten: 01.03.–31.10. Mo–Fr 07–17, Sa 08–12; 01.11.–28./29.02. Mo–Fr 07:30–16:30, erster Samstag 08–12. Das Impressum trägt weiterhin HRB-/USt-Platzhalter und ist 2021 datiert; die Verbindung zur Dossierbezeichnung „Heiko“ ist nicht belegt. Keine Website-/Kontakt-/Öffnungszeiten-Fills in diesem Datensatz. ANKAUF: Materialkategorien, Richtpreise auf Anfrage und endgültige Sortenpreise nach Anlieferung/Gutbefund, keine Zahlen; VERKAUF: Schüttgüter ohne Zahlenliste; GEBÜHREN: Container-/Annahme-/Maschinenkosten nicht beziffert. Quelle: https://www.schrott-martins.de/portfolio/schrott-metallhandel-luebz/ ; https://www.schrott-martins.de/impressum/ (Abruf 21.10.2026).]
+
 ### Recherche 08.10.2026 (Welle Mittenordost)
 
 - Impressum direkt: Stefanie Martins, Am Hafen 10a, 19386 Lübz, 038731 22406, info@schrott-martins.de, „HRB Nummer: XYZ“ und USt-Platzhalter. Neuer Creditreform-Suchauszug nennt Stefanie Martins Containerdienst und Recycling, dieselbe Rufnummer und Domain; Vollabruf HTTP 403, keine vollständige Register-/Identitätsprüfung möglich. Vor allem fehlt weiterhin die Kette Heiko → Stefanie. Keine Fills. Quellen: https://www.schrott-martins.de/impressum/ ; https://firmeneintrag.creditreform.de/19386/3330286979/STEFANIE_MARTINS_CONTAINERDIENST_UND_RECYCLING (nur Suchauszug)

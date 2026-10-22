@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel & Containerdienst Richter ist laut eigenem Auftritt ein Betrieb mit Sitz in Northeim, nicht mit einer belegten Thüringer Annahmestelle. Die Website bewirbt mobile Abholung in Thüringen, Metallankauf zu Tagespreisen, kostenlosen Schrottabtransport, Altfahrzeugabholung sowie Containerdienst. **Ankauf:** werthaltiges Metall und Katalysatoren werden zu Tageskursen vergütet; feste Preise werden nicht veröffentlicht. **Verkauf:** kein öffentliches Material-/Ersatzteilangebot mit Preisen belegt. **Gebühren:** Schrottabholung wird laut Anbieter kostenlos angeboten; Container- und Demontagekonditionen werden nicht beziffert. Status `aktiv`; mobil, daher keine Thüringer Geschäftsadresse geokodieren.
 
 ## Timeline
+
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Die aktuelle Betreiber-Homepage und die Thüringen-Seite für Katalysator-/DPF-Ankauf wurden direkt gelesen. Der Betreiber nennt Northeim als Sitz, 120-km-Radius nach Absprache, Abholung größerer Mengen in Thüringen sowie Versandankauf; werthaltige Metalle werden zu Tagespreisen vergütet. Die Schrottabholung sei kostenlos, feste Materialpreise werden ausdrücklich nicht publiziert. Container von 7–40 m³, Demontage und Schadstoffsanierung werden angeboten; deren individuelle Kosten/Angebote bleiben Anfragefälle. Kein lokaler Thüringer Hof oder öffentlicher Schrottverkauf belegt. Ankauf ≠ Verkauf: der Auftritt beschreibt Ankauf, aber keine Warenverkaufspreisliste. Quelle: https://www.schrotthandel-richter.de/ ; https://www.schrotthandel-richter.de/katalysator-ankauf-thueringen ; https://www.schrotthandel-richter.de/schrottpreise]
 
 ### Recherche 01.10.2026
 

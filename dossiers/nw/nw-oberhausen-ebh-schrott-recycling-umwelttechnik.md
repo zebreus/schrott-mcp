@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt die EBH Schrott Recycling Umwelttechnik GmbH unter AG Duisburg HRB 12607; die bereits dokumentierten Registerpublikationen nennen Liquidation und Löschung 2007. Das belegt die historische Gesellschaftsakte, aber weder den Seed-Standort Tackstr. 21 noch eine heutige Annahmestelle oder eine Betreiberkette. Ohne aktuellen amtlichen Zweitbeleg bleibt `status: pruefung`; keine Schließung eines konkreten Schrottplatzes behauptet.
+
+**Preise:** Ankauf: keine EBH-spezifischen Bedingungen/Kurse; Verkauf: keine Liste; Gebühren: keine Tarife belegt.
 
 ## Timeline
 
@@ -36,3 +38,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Altmetall (Tackstr. 21)
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: NorthData-Profil zur HRB 12607 erneut geöffnet. Es gibt in dieser Prüfung keinen neuen Betreiber-, Standort- oder Gewerbebeleg; die bereits dokumentierten Löschungs-/Liquidationsmeldungen bleiben ein Einzelquellenbefund und belegen nicht, dass Tackstr. 21 ein EBH-Betriebsstandort war. Kein Statuswechsel und kein Schluss auf die Schließung eines konkreten Platzes. ANKAUF/VERKAUF/GEBÜHREN: keine zurechenbaren Konditionen oder Zahlen. Quelle: https://www.northdata.de/EBH+Schrott+Recycling+Umwelttechnik+GmbH,+Oberhausen/HRB+12607]

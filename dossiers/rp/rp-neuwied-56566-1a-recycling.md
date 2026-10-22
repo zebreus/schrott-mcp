@@ -1,18 +1,18 @@
 ---
 slug: rp-neuwied-56566-1a-recycling
-name: 1a Recycling
-trader_type: schrotthaendler
+name: 1a Recycling GmbH
+trader_type: autoverwertung
 state: RP
-city: Neuwied 56566
-street: ''
-postcode: ''
-phone: ''
-email: ''
+city: Neuwied
+street: Breslauer Straße 51
+postcode: '56566'
+phone: '+49 2631 9593630'
+email: info@1a-recycling-gmbh.de
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+website: https://1a-recycling-gmbh.de
+website_status: aktiv
+status: aktiv
+description: Autoverwertung in Neuwied mit Ankauf von Schrott-, Gebraucht- und Unfallfahrzeugen sowie Ersatzteilhandel. Fahrzeugbewertung und Entsorgungskonditionen individuell erfragen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„1a Recycling“ ist bislang nur ein unspezifischer Neuwieder Seedname ohne Straße, Betreiber oder Kontakt. Die aktuelle Northdata-Suche liefert keinen passenden Einzelbeleg in den ersten 15 Treffern; die dort angezeigte MAXIM Recycling Neuwied GmbH ist nicht durch eine Namens-/Betreiberkette verbunden. Ebenso ist die kommunale Abfallwirtschaft Landkreis Neuwied AöR kein Beleg für „1a Recycling“.
+Betreiberseite und Registerdaten identifizieren nun übereinstimmend 1a Recycling GmbH, HRB 27237 Montabaur, Breslauer Straße 51, 56566 Neuwied. Der frühere unscharfe Such-Negativbefund ist überholt. Ankauf von Schrott-, Gebraucht- und Unfallfahrzeugen ist auf der Betreiberseite ausdrücklich belegt; Registergegenstand umfasst zudem Schrott-/Metall- und Ersatzteilhandel. Keine Gleichsetzung mit MAXIM oder kommunaler Abfallwirtschaft.
 
-**Offen:** vollständige Betreiberidentität und Betriebsanschrift, anschließend Annahme/Abholung und Ankauf klären. Keine eigenen Ankauf-/Verkaufs-/Gebührentarife zugeordnet. PLZ nicht allein aus dem Ortsfeld übernehmen; keine fremden kommunalen Gebühren als Händlerpreise behandeln.
+**Ankauf:** beworben, keine numerischen Kurse auf Start/Kontakt/Impressum. **Verkauf:** Ersatzteil-Shop verlinkt, hier keine Produktpreise geprüft. **Gebühren:** keine Liste gelesen; kostenlose Abholung nicht pauschal unterstellen. **Offen:** Annahme-/Abholbedingungen, Wochenöffnungszeiten und aktuelle Zertifikatsgültigkeit. „Heute 09:00–17:00“ ist kein Wochenplan. GEO bleibt separates Owner-Arbeitspaket trotz nun belegter Anschrift.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Korrektur 19.10.2026: Betreiber-Start, Kontakt und tatsächlich verlinktes Impressum /impressum-1 direkt gelesen: 1a Recycling GmbH, Breslauer Str. 51/56566, Telefon +49 2631 9593630, info@1a-recycling-gmbh.de, Montabaur HRB 27237. NorthData-Einzelprofil separat gelesen bestätigt Firma, Register, Adresse und Gegenstand Autoverwertung/Schrott-/Metall-/Gebrauchtwagen-/Ersatzteilhandel; dort Geschäftsführerwechsel 08.04.2026, keine Geschäftsführerangabe aus Altständen übernommen. Zwei README-zulässige Quellen, daher Name/Typ/Adresse/Kontakt/Website und Aktivstatus gefüllt. Der Befund 15.10. war eine begrenzte unscharfe Suche, kein Existenz-Gegenbeleg. Zertifizierung nur Betreiber-Selbstaussage ohne gelesene gültige Urkunde; kein certifications-Fill. Ankauf ohne Zahlen; Verkauf-Shop nur verlinkt, nicht als Ankaufsliste behandeln; Gebühren unbekannt. Quelle(n): https://1a-recycling-gmbh.de/ ; https://1a-recycling-gmbh.de/kontakt ; https://1a-recycling-gmbh.de/impressum-1 ; https://www.northdata.de/1a%20Recycling%20GmbH,%20Neuwied/Amtsgericht%20Montabaur%20HRB%2027237 .]
 
 ### Recherche 15.10.2026, Welle 12:00 A
 

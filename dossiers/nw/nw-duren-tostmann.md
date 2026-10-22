@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Die live erreichbare Webador-Seite „Schrotthandel Tostmann“ wirbt in Düren mit Abholung, Demontage und Ankauf, nennt aber nur „52353 Düren“ und hat kein Impressum oder konkrete Kontaktdaten. Aktuelle Verzeichnis-Leads zeigen daneben „Erich Tostmann“ an der Dresdener Str. 1 und „Schrotthandel Tostmann“ an der Behringstr. 29; keine Quelle verbindet diese mit dem Seedstandort K. Tostmann, Viandener Str. 12. **Ankauf:** „faire Preise“ ohne Betrag; **Verkauf:** keine Liste; **Gebühren:** keine Tarife.
+Die live erreichbare Webador-Seite „Schrotthandel Tostmann“ wirbt in Düren mit Abholung, Demontage und Ankauf, nennt aber nur „52353 Düren“ und hat kein Impressum oder konkrete Kontaktdaten. Beim Abruf am 20.10.2026 trug der Auftritt ©2023–2026; das belegt nur die aktuelle Abrufbarkeit, nicht die Identität des Betreibers. Verzeichnis-Leads nennen daneben „Erich Tostmann“ an der Dresdener Str. 1 und „Schrotthandel Tostmann“ an der Behringstr. 29; keine Quelle verbindet diese mit dem Seedstandort K. Tostmann, Viandener Str. 12. **ANKAUF:** „faire Preise“ ohne Betrag; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. **GEO:** weder 52353-Webador-Auftritt noch die widersprüchlichen Straßenadressen sind als Betriebs-/Annahmepunkt bestätigt.
 
 ## Timeline
 
@@ -44,3 +44,7 @@ Die live erreichbare Webador-Seite „Schrotthandel Tostmann“ wirbt in Düren 
 
 - mobil, Tostmann-Familie (GS)
 - Adresse: Düren [Recherche 30.09.2026: Verzeichnis-Fund, Straße bestätigt (ohne PLZ im Fund); Quelle: schrottplatz-info.de/city/dueren]
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Webador-Seite direkt erneut gelesen; der Auftritt „Schrotthandel Tostmann“ wirbt für Abholung, Demontage und Schrottankauf in Düren, nennt als Standort nur „52353 Düren“, bietet ein Formular und zeigt ©2023–2026, jedoch weiterhin kein Impressum, keine Straße und keine direkte Telefonnummer. Der Seed mit Viandener Str. 12/52351 sowie die weiteren Tostmann-Verzeichnisleads bleiben nicht verknüpft; kein Betreiber-Identitätsbeleg. ANKAUF: „faire Preise“/individuelles Angebot, aber keine Zahlen und keine datierte Preisliste. VERKAUF: keine Verkaufsliste. GEBÜHREN: keine Tarife oder belastbare Gratisbedingungen. GEO offen: keine der PLZ-/Straßenangaben als Standort übernehmen, bis Betreiber und Annahmeadresse geklärt sind. Quelle: https://gratis-4364038.webador.de/]

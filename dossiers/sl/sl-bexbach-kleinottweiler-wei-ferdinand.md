@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten führt „Weiß Ferdinand Endsorgung von Schrott und Altmetalen“, In der Kleinen Dell 1, 66450 Bexbach-Kleinottweiler, Tel. 06826 9338347; das bleibt ein einzelner Branchenportal-Lead ohne Betreiberwebsite, Zeiten oder konkrete Annahmebedingungen. Ein früheres Kleinanzeigen-Angebot ist beim aktuellen direkten Abruf nicht zugänglich; das belegt keine Betriebsschließung. ANKAUF, VERKAUF und GEBÜHREN: keine belastbaren Listen.
 
 ## Timeline
+
+### Recherche 21.10.2026 — aktueller Verzeichnisstand
+
+- [Recherche 21.10.2026: Das direkt gelesene Gelbe-Seiten-Profil führt „Weiß Ferdinand Endsorgung von Schrott und Altmetalen“, In der Kleinen Dell 1, 66450 Bexbach-Kleinottweiler, 06826 9338347; außer Kategorie „Schrott“ enthält es keine Betreiberwebsite, Öffnungszeiten oder Leistungs-/Annahmebedingungen. Das zugehörige frühere Kleinanzeigen-Angebot war beim aktuellen Abruf mit HTTP 403 nicht lesbar; daraus folgt weder Aktualität noch Aufgabe des Betriebs. Keine Betreiber-/Registerquelle oder zweite qualifizierte Identitätsquelle gefunden; Stammdaten bleiben leer. ANKAUF: keine Preisangabe; VERKAUF: keine Liste; GEBÜHREN: keine Tarifangabe. Quellen: https://www.gelbeseiten.de/gsbiz/0154b691-32b3-4e67-8582-54d4aa62e250 ; https://www.kleinanzeigen.de/s-anzeige/ferdinand-weiss-schrott-und-altmetall-abholung/3143841456-86-298]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

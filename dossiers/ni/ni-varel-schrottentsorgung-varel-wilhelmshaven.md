@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Die bisherige Orts-/Kontaktnennung stammt aus einer SEO-/Branchenverzeichnisfamilie: Dangaster Str. 68, 26316 Varel, Telefon 01520 9774291. Die Seite nennt zusätzlich Metallannahme und Mindestmengen von 100 kg für Eisenmetalle bzw. 1 kg für NE-Metalle; das sind unbestätigte Portalangaben, kein Betreiber-/Registerbeleg. Ein Kleinanzeigen-Profil ist nur ein weiterer Lead. Es gibt weiterhin keinen belastbaren Identitätsnachweis für den Seed-Namen. Der gleichnamige Vareler Papierbetrieb an Dangaster Straße 38 ist eine andere Firma und wird nicht zugeordnet. `status: pruefung` bleibt.
+Die bisherige Orts-/Kontaktnennung stammt aus SEO-/Branchenverzeichnissen: Dangaster Str. 68, 26316 Varel, 01520 9774291. Ein neuer Cylex-Suchindex liefert abweichende Zeiten (09–18 Uhr), während LokaleSchrottplatz 08–20 Uhr nennt; beides sind nicht betreibereigene Leads. Mindestmengen FE 100 kg/NE 1 kg sind unbestätigt, keine Preise. Es gibt keinen belastbaren Identitätsnachweis für den Seed-Namen. Der Papierbetrieb an Dangaster Straße 38 wird nicht zugeordnet. `status: pruefung` bleibt.
 
 - **Ankauf:** keine verifizierte Ankauftätigkeit oder numerische Ankaufspreise.
 - **Verkauf:** keine bestätigte Produkt-/Preisliste.
@@ -32,6 +32,10 @@ Die bisherige Orts-/Kontaktnennung stammt aus einer SEO-/Branchenverzeichnisfami
 - **Geokodierung:** Dangaster Str. 68 erst nach unabhängiger Betreiberbestätigung geokodieren; aktuell keine Dossierkoordinate ableiten.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Suchindex zu Cylex zeigt für „Schrottentsorgung Varel-Wilhelmshaven“ Dangaster Str. 68, 26316 Varel und 01520 9774291 sowie einen Zeitabschnitt 09:00–18:00 (Tagzuordnung im Snippet unklar); der Direktabruf der Cylex-Seite lieferte 403. Das weicht vom LokaleSchrottplatz-Wochenplan 08:00–20:00 ab und wird wegen Portalstatus nicht als Betreiberzeit übernommen. Kein neuer Betreiber-/Registerbeleg, keine Preis- oder Gebührenliste. Mindestmengen bleiben Annahmeschwellen, keine €/kg-Preise; kein GEO. Quelle(n): https://web2.cylex.de/firma-home/schrottentsorgung-varel-wilhelmshaven-16622521.html (Suchindex; Direktabruf 403) ; https://lokaleschrottplatz.de/schrottentsorgung-varel-wilhelmshaven/.]
 
 ### Recherche 15.10.2026 (Welle 1200 C)
 

@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der live gelesene Gelbe-Seiten-Lead nennt Stein An- u. Verkauf Waren aller Art, Breite Str. 16, und Antiquitäten/Goldankauf. Das ist keine qualifizierte Betreiberidentität und kein allgemeiner Schrottankaufsbeleg. Betreibername, Fortbestand, Annahmebedingungen und Ankauf-/Verkaufs-/Gebührenpreise bleiben offen; Prüfstatus und leere Kontaktskalare bleiben.
+Der Gelbe-Seiten-Lead nennt Stein An- u. Verkauf Waren aller Art, Breite Str. 16, und Antiquitäten/Goldankauf. Ein aktuell erreichbarer eBay-Shop „An-und Verkauf Stein“ verkauft gemischte Waren, aber seine Betreiber-/Standortverbindung zur Saarbrücker Breite Str. 16 ist nicht belegt; gleichnamige Accounts werden nicht automatisch verknüpft. Betreibername, örtlicher Fortbestand und Annahmebedingungen bleiben offen; Prüfstatus und leere Kontaktskalare bleiben.
+
+**Preise:** ANKAUF — keine Gold-/Schrottankaufskurse. VERKAUF — die eBay-Angebotspreise sind Wiederverkaufspreise für einzelne Waren und nicht auf den Saarbrücker Laden übertragbar. GEBÜHREN — keine verifizierten Gebühren.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: eBay-Shop „An-und Verkauf Stein“ direkt gelesen; er zeigt gemischte Angebote u.a. Antiquitäten, Bücher, Elektronik, Möbel und Sammlerware sowie 99,8 % positive Bewertungen/41.783 verkaufte Artikel. Die sichtbaren Artikelpreise sind Verkaufspreise dieses Online-Shops, keine Gold-/Schrottankaufskurse; kein Impressum-/Adressbeleg verbindet den eBay-Verkäufer mit dem Gelbe-Seiten-Lead Breite Str. 16, Saarbrücken-Malstatt. Keine Betreiber-/Adress-/Kontaktdaten übernommen. ANKAUF: keine Zahlenkurse; VERKAUF: Online-Angebotspreise nicht zurechenbar; GEBÜHREN: keine Tarife. Quellen: https://www.ebay.de/str/anundverkaufstein ; https://www.gelbeseiten.de/gsbiz/7194bc38-e7a9-4c6b-a773-b4f73ce3aee7 .]
 
 ### Recherche 14.10.2026
 

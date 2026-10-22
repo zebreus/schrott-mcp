@@ -32,6 +32,10 @@ provenance_origin: prose
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Recherche 19.10.2026: Historische Betreiber-Domain direkt neu abgerufen, weiterhin404; keine Betreibertexte/Preise gelesen. Zusätzliche kombinierte Suche Hartmann/Bergkirchen/Autoneo ohne belastbaren Nachfolgetreffer; negatives Suchergebnis und404 beweisen weder Geschäftsaufgabe noch Fehlen eines Gewerbes. Vorwellen-Konflikt Himmelreichstraße23/23A und Fritz/Cornelia bleibt offen; keine Änderung zu geschlossen und keine Autoneo-Verknüpfung. Ankauf/Verkauf/Gebühren nicht prüfbar, keine Preisfreiheit unterstellen. Statt weiter Portalnadeln zu vergleichen: kommunale Gewerbeauskunft zu Fritz/Cornelia und beiden Hausnummern, dann aktuelle Kundenannahme und ggf. GESA-Bescheinigung. GEO bis dahin zurückgestellt. Quelle: http://www.autoverwertung-hartmann.de/ (Direktabruf404).]
+
 ### Recherche 15.10.2026 (12:00-Welle B)
 
 - [Recherche 15.10.2026: Historische Betreiber-Domain erneut direkt geprüft: HTTP 404 mit generischer „Not found“-Seite, kein Impressum/Kontakt. Zusätzlich amtlichen Prüfweg konkretisiert: GESA verweist für anerkannte Altfahrzeugbetriebe auf das Fachbetrieberegister; dessen Suchoberfläche liefert hier nur eine JavaScript/Vaadin-App ohne auswertbare Betriebsergebnisse. Daher ausdrücklich KEINE negative GESA-Auskunft zu Hartmann und keine Ablehnung einer Zertifizierung behaupten. Die GESA-Erläuterung unterscheidet Demontagebetrieb von Annahme-/Rücknahmestelle; letztere werden nicht vollständig erfasst. ANKAUF/VERKAUF/GEBÜHREN: nicht verifiziert; selbst eine Anerkennung wäre kein Beleg für kostenlosen Transport oder Vergütung. Offen: aktuelle Betreiberidentität Fritz/Cornelia versus mögliche Autoneo-Verbindung, Hausnummer 23/23 A sowie gültige anlagenbezogene Bescheinigung; Quellen: http://www.autoverwertung-hartmann.de/ ; https://www.altfahrzeugstelle.de/ (Weiterleitung GESA-Hilfe); https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (nur App-Hülle gelesen).]

@@ -35,6 +35,10 @@ Die folgenden Leistungen stammen aus der Anzeige von 2024, nicht aus einer aktue
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: MCity-Mitgliederseite direkt live gelesen: H&G Gold An und Verkauf wird weiterhin an Hauptstraße 92, 63897 Miltenberg geführt, ohne Telefonnummer oder Rechtsinhaber. Der meine-news-Beitrag mit Leistungsdetails ist am Artikel ausdrücklich als „Anzeige“ markiert und vom 12.06.2024; er belegt weder heutigen Betrieb noch unabhängige Betreiberidentität. ANKAUF: historische Anzeige nennt Alt-/Zahn-/Bruchgold, Münzen/Barren und Silber, Bewertung nach Feingehalt/Gewicht/Börsenkurs und Barauszahlung, aber keine numerischen Ankaufskurse. VERKAUF: Gold-/Silberwaren und Barren auf Bestellung, keine Preise. GEBÜHREN: kostenlose Schmuckreinigung nur historische Werbeaussage von 2024; kein aktueller Tarif. Kein Preislistenfund und keine Frontmatter-/GEO-Änderung. Quellen: https://mcity-miltenberg.de/mitglieder ; https://www.meine-news.de/miltenberg/c-wirtschaft/hundg-gold-an-und-verkauf-ein-ort-der-herzlichkeit-und-fachkompetenz-in-miltenberg_a177235 .]
+
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 
 - [Recherche 18.10.2026: MCity-Mitgliederliste heute HTTP 200 direkt gelesen, H&G Gold An und Verkauf/Hauptstraße 92/63897 Miltenberg weiterhin gelistet. Kein amtliches Gewerberegister und kein aktueller Rechtsinhaberbeleg. Exaktes Creditreform-Profil Hasan Kartal 7090212951 HTTP 403, daher keine neue Identitätsbestätigung. Frühere meine-news-Anzeige nicht als unabhängigen Zweitbeleg rehabilitiert; heute nicht erneut gelesen. Historische Kontakt-/Zeit-/Leistungsfelder bleiben ausdrücklich unbestätigter Bestand, status pruefung unverändert. Ankauf: kein aktuell geprüfter Kurs; Verkauf: keine heutige Liste oder abgelaufene Silberaktion übertragen; Gebühren: historische Gratisreinigung keine aktuelle Tarifzusage. GEO erst nach aktueller Betreiber-/Standortbestätigung. Quellen: https://mcity-miltenberg.de/mitglieder ; https://firmeneintrag.creditreform.de/63897/7090212951/HASAN_KARTAL_GOLD_AN_UND_VERKAUF .]

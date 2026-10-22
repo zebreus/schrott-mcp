@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Verzeichnisspur führt mS mobile Schrottentsorgung an Theodor-Fontane-Str. 9, 38855 Wernigerode, mit 0171 4588195; Gelbe Seiten nennt Mo–Fr 07:00–17:00 und Sa 09:00–12:00. Es fehlt weiterhin ein Betreiberauftritt oder unabhängiger Standort-/Gewerbebeleg. Verzeichniszeiten und Titel „mobile“ belegen weder Annahmebedingungen noch Abholkonditionen; keine verifizierte Preisliste.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Eintrag direkt erneut geprüft: mS mobile Schrottentsorgung, Theodor-Fontane-Str. 9/38855 Wernigerode, 0171 4588195, Mo–Fr 07:00–17:00 und Sa 09:00–12:00. Das Profil zeigt keinen verwertbaren Betreiberwebsite-Link; es bleibt ein Branchenverzeichnis-Lead, nicht unabhängiger Nachweis von Identität, Standortbetrieb oder Kundenannahme. „Mobile“ im Namen allein belegt keine konkrete kostenlose Abholung. ANKAUF/VERKAUF/GEBÜHREN: keine sortenbezogene Preis- oder Gebührenliste gefunden. Frontmatter unverändert. Quelle: https://www.gelbeseiten.de/gsbiz/05d2eb8b-603c-4b37-aa8f-d9e8d06d37e3 (Lead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

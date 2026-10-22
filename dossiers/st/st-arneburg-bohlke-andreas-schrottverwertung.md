@@ -33,6 +33,10 @@ Der historische Andreas-Böhlke-Seed darf nicht automatisch zur Schrottverwertun
 - [Recherche 14.10.2026: Kommunales Original-PDF neu heruntergeladen und textlich gelesen: Antrag der Schrottverwertung Böhlke Verwaltungs GmbH vom 04.03.2024 nach §4 BImSchG für zeitweilige Lagerung/Behandlung von Bauabfällen, Eisen- und Nichteisenschrotten in 39596 Arneburg. UVP-Vorprüfung ist keine Annahmefreigabe, Betriebsaufnahme oder Nachfolgekette zum alten Andreas-Böhlke-Eintrag. Die Angaben der Alttimeline zu KG-Löschung/Ausgliederung wurden in dieser Bearbeitung nicht durch neuen amtlichen Registerauszug zweitbestätigt. Daher keine Firmen-/Adressübernahme und kein Abschluss der Betreiberkette. Quelle: https://www.arneburg-goldbeck.de/wp-content/uploads/2025/10/24_06_Bekanntgabe_UVP-Vorpruefung_final_020925-1.pdf .]
 - [Recherche 14.10.2026: ANKAUF — genehmigungsbezogene Schrottarten sind kein belegtes vergütetes Publikumsangebot, keine Materialkurse; VERKAUF — keine Liste; GEBÜHREN — keine Tarife. Straße/Kontakte/Annahmeobjekte/GEO bleiben leer; Folgeschritt tatsächliche Anlagenzufahrt, Betreiberkette und erteilte Genehmigung. Quelle: vorgenannte Bekanntgabe.]
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die neueste belastbare Ortsquelle im Dossier bleibt die kommunale Bekanntgabe einer UVP-Vorprüfung zum Antrag der Böhlke Verwaltungs GmbH; bei dieser Nachprüfung fand sich kein öffentlich zugänglicher Nachweis einer erteilten Genehmigung, tatsächlichen Inbetriebnahme oder einer für Publikumsanlieferungen geöffneten Annahmestelle. Das Verfahren belegt weder die Fortführung des alten Andreas-Böhlke-Einzelbetriebs noch eine aktuelle Abfallannahme. Betreiberkette und Straße bleiben offen. ANKAUF: keine belegten Materialkurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Frontmatter-Änderung oder Geokodierung. Quelle: https://www.arneburg-goldbeck.de/wp-content/uploads/2025/10/24_06_Bekanntgabe_UVP-Vorpruefung_final_020925-1.pdf (kommunale Bekanntgabe; erneute Prüfung 21.10.2026).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottverwertung (lt. schrottplatz-info-Umkreis)

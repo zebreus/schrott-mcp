@@ -5,8 +5,8 @@ trader_type: schrotthaendler
 state: BW
 city: Offenburg
 street: ''
-postcode: '77652'
-phone: 0781 9708589
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Die bisherigen Verzeichnisse nennen für „Intlekofer (Schrott)“ widersprüchlich Griesheimer Straße 27 bzw. 66; die gespeicherte Telefonnummer 0781 9708589 ist ebenfalls nur verzeichnisgestützt. Eine Betreiberwebsite oder ein eindeutig zugeordneter Registerbeleg fehlt, daher bleiben Straße und Telefonnummer Klärfälle und `status: pruefung` bestehen.
+Die Verzeichnisse nennen für „Intlekofer (Schrott)“ widersprüchlich Griesheimer Straße 27 bzw. 66 und die Telefonnummer 0781 9708589. Das sind Leads, keine zulässigen Betreiber-/Registerbelege; PLZ und Telefon wurden deshalb aus dem Frontmatter entfernt und bleiben in der Timeline als ungeprüfte Spur. Eine Betreiberwebsite oder eindeutige Registerzuordnung fehlt; `status: pruefung` ist keine Schließungsbehauptung.
 
 **Preise:** Ankauf — keine verifizierte Preisliste; Verkauf — keine Preise belegt; Gebühren — keine Gebührenliste belegt. Die widersprüchliche Hausnummer muss vor jeder Geokodierung geklärt werden.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 21.10.2026
+
+- [Owner-GEO-Prüfung 21.10.2026: Der gespeicherte Produktionspunkt löst auf das OSM-Kartenobjekt Spitalstraße 5 in der Offenburger Altstadt auf. Die Verzeichnis-Leads Griesheimer Str. 27 und 66 sind getrennte Gebäude in Griesheim; die Karten belegen keine davon als Intlekofer-Annahmeort und lösen den Adresskonflikt nicht. Kein bestätigter GEO-Kandidat; offen. Quellen: [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.4685&lon=7.94366666666667&zoom=18&addressdetails=1), [OSM-Objekt am Produktionspunkt](https://www.openstreetmap.org/node/9793352852), [Owner-Bericht](../../research/wave-20261021-0900-geo-bw.md).]
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Neue Suche bestätigt nur die bekannten Verzeichnis-Leads: Das Telefonbuch nennt Griesheimer Str. 27, 77652 und 0781 9708589; Schrottplatz-Info führt Nr. 66 mit derselben Nummer. Keine Quelle aus der zulässigen Betreiber-/Register-/Kommunalkategorie löst den Hausnummernkonflikt oder die Telefonnummer auf. PLZ und Telefon daher aus strukturierten Feldern entfernt; Quellenwerte und frühere Recherche bleiben hier erhalten. Ankauf: keine verifizierten Preise; Verkauf: keine Preise; Gebühren: keine Tarife. GEO erst nach bestätigter aktueller Annahmeadresse. Quellen (Leads): https://www.dastelefonbuch.de/Branchen/Schrotthandel/Offenburg ; https://www.schrottplatz-info.de/schrottplatz/Offenburg/Intlekofer .]
 
 ### Recherche 18.10.2026 — Welle 02:00 / a
 

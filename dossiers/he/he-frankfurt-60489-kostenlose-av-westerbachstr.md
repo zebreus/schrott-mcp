@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Kostenlose AV (Westerbachstr.)“ ist keine überprüfte Firmierung. Hausnummer, Inhaber und zuordenbare Betreiberquelle fehlen; Vorwellen-Werkstatt-/Autohero-Leads nicht als Autoverwertung übernehmen. Kostenfrei ist eine unbestätigte Seedbehauptung, keine Gebühr von null Euro. Ankauf und Teileverkauf ebenfalls unbelegt.
+„Kostenlose AV (Westerbachstr.)“ ist keine überprüfte Firmierung. Eine aktuelle Betreiberwebsite liefert nun einen konkreten Kandidaten: Leinweber und Stöhr Automobile GmbH & Co. KG, Westerbachstraße 68/60489 Frankfurt, mit beworbener kostenloser Autoverwertung und Abholung unter Bedingungen. Da Name/Hausnummer im Seed fehlen und keine unabhängige Quelle die Zuordnung belegt, ist dies noch kein bestätigter Match oder Fill. Kostenfrei gilt nur als Betreiberwerbung für dessen beschriebenen Service, nicht als verifizierte Gebühr des anonymen Seeds.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Erstmals eine konkrete Betreiberquelle für einen plausiblen Westerbach-Kandidaten live gelesen: Impressum von autoverwertung-frankfurt.info nennt Leinweber und Stöhr Automobile GmbH & Co. KG, Westerbachstraße 68/60489 Frankfurt, USt-ID DE225616438 und Tel. 069 89914879; die Leistungsseite wirbt mit kostenloser Autoverwertung einschließlich Abholung im 30-km-Umkreis, sofern das Fahrzeug nicht vollständig ausgeschlachtet oder ausgebrannt ist, und nennt einen Verwertungsnachweis. Die Website nennt zusätzlich Termin-Hotline 069 94323896, Mo–Sa 08–20 Uhr und ausdrücklich „keine Ersatzteile“. Der Seed enthält weder Betreibername noch Hausnummer; eine unabhängige Brücke zu genau diesem Kandidaten fehlt weiterhin, daher kein Frontmatter-Fill. ANKAUF: keine Fahrzeugvergütung/Ankaufsliste beziffert; VERKAUF: laut Betreiber keine Ersatzteile; GEBÜHREN: kostenlos beworbene Verwertung/Abholung nur für die genannten Bedingungen, keine allgemeine Tarifliste und keine bestätigte Seed-Kondition. Quellen: https://www.autoverwertung-frankfurt.info/about/ ; https://www.autoverwertung-frankfurt.info/autoverschrottung/.]
 
 ### Recherche 14.10.2026
 

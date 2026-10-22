@@ -11,7 +11,7 @@ email: JZaher@hotmail.de
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zuordnung von **Zaher J.** und **JZ Zaher** bleibt unsicher: 11880 führt aktuell Stummstr. 47, 66763 Dillingen, 06831 7610919 sowie abweichende E-Mail-/Mobilangaben; andere Verzeichnisse führen „Zaher J.“ teils an Stummstr. 37. Dies sind Aggregator-Leads, kein Betreiber- oder Registerbeleg; der Status wurde daher von `aktiv` auf `pruefung` korrigiert, nicht geschlossen. **Ankauf:** Branchenbezeichnung Schrotthandel/Altmetallrecycling, aber keine verifizierte Annahme oder Preise. **Verkauf/Gebühren:** keine Listen. **GEO:** Adresse und Identität klären, keine Koordinaten.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Statuskorrektur
+
+- [Recherche 20.10.2026: 11880-Profil direkt gelesen: „Zaher JZ“ an Stummstr. 47/66763, Festnetz 06831 7610919, Mobil 0176 61226892, E-Mail amal_nayef@hotmail.de; Profil zeigt tägliche Öffnungszeiten 08:00–20:00 und erklärt, dass Angaben aus Telekommunikationsdaten, Eigenrecherche und Nutzerfeedback angereichert werden. Im Vergleich mit den bereits dokumentierten Aggregatorvarianten (Stummstr. 37/47, abweichende Namen und E-Mails) löst das die Identität nicht auf. Deshalb `status: aktiv` auf `pruefung` korrigiert, keine Schließung; übrige Felder unverändert. Keine Zahlen zu Ankauf/Verkauf oder Gebühren. Quelle: https://www.11880.com/branchenbuch/dillingen-saar/120674719B108124271/zaher-jz.html (Profil aktualisiert 03.10.2026; Abruf 20.10.2026); Gegenvarianten siehe Vermerke vom 03.10.2026.]
 
 ### Recherche 03.10.2026
 

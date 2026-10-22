@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnis- und Creditreform-Spuren führen Selzam & Lettner Kfz-GmbH an der Äußeren Industriestr. 1, 86316 Friedberg; 11880 nennt dieselbe Adresse und Telefonnummer. Die zugänglichen Kategorien belegen Kfz-Handel/Werkstatt, nicht sicher eine aktuelle Autoverwertung oder Schrottannahme. Kein eigener Betreiberauftritt gefunden; Prüfstatus bleibt bestehen.
+Verzeichnis- und Creditreform-Spuren führen Selzam & Lettner Kfz-GmbH an der Äußeren Industriestr. 1, 86316 Friedberg. Die aktuell direkt gelesene Gelbe-Seiten-Seite bezeichnet den Eintrag als „Selzam Autoverwertung“ und führt auch Autoentsorgung/Autoverschrottung/Metallankauf als Leistungsbegriffe; 11880 führt dieselbe Adresse/Telefon dagegen als Kfz-Handel, Werkstatt und Chauffeur-Service. Diese Aggregator-Kategorien widersprechen sich und belegen keine aktuelle Annahme oder Betreiberidentität. Die vermutete Domain autoverwertung-augsburg.com ließ sich nicht abrufen; kein eigener Betreiberauftritt gefunden.
 
 - **Ankauf:** keine belastbaren Schrott-/Fahrzeugankaufspreise.
 - **Verkauf:** keine Verkaufspreise.
@@ -32,6 +32,10 @@ Verzeichnis- und Creditreform-Spuren führen Selzam & Lettner Kfz-GmbH an der Ä
 - **Geokodierung:** keine neue Geokodierung; die vorhandene Adresse ist kein bestätigter Schrottannahmeort.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Gelbe-Seiten-Detail direkt gelesen: „Selzam Autoverwertung“, Äußere Industriestr. 1, 86316 Friedberg-Derching, Tel. 0821 78 15 33; Leistungsumfang enthält u. a. Autoverschrottung, Autoentsorgung und Metallankauf. Die 11880-Seite zur Selzam-&-Lettner-Kfz-GmbH führt an derselben Adresse lediglich Autohandel/Werkstatt/Chauffeur-Service. Beides sind Verzeichnisangaben, kein Betreiber- oder Registerbeleg; der in einem Suchlead verlinkte Domainname autoverwertung-augsburg.com scheiterte im Direktabruf mit Transportfehler. Keine aktuelle Ankauf-, Verkauf- oder Gebührenpreisliste gefunden. Offen: Rechtsträger/Inhaber, ob aktuell Schrott/Altfahrzeuge angenommen werden und welche Domain tatsächlich zum Betrieb gehört. Seed-Adresse nicht als verifizierter Annahmehof geokodiert. Quelle(n): https://www.gelbeseiten.de/gsbiz/0d7d9c90-968f-4f90-878c-8a3aba3363fc ; https://www.11880.com/branchenbuch/friedberg-bayern/012010409B26664637/selzam-lettner-kfz-gmbh-ds.html ; https://www.autoverwertung-augsburg.com/ (Transportfehler)]
 
 ### Recherche 12.10.2026
 

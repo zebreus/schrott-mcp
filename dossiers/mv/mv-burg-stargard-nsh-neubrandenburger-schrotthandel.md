@@ -28,6 +28,10 @@ NSH ist nun registerseitig als Neubrandenburger Schrotthandel GmbH, HRB 5551 Neu
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Das NorthData-Profil zu HRB 5551 erneut direkt abgerufen. Der Registereintrag führt weiterhin Neubrandenburger Schrotthandel GmbH mit Ortsangabe 17094 Bargensdorf; er liefert keinen aktuellen standortspezifischen Beleg für den übernommenen Portalstandort Fünfeichener Weg 3 oder für öffentliche Kundenannahme dort. Daher keine Adresse-/Kontaktübertragung und keine Änderung am Status pruefung. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbaren Zahlenkurse oder Tarife. Quelle: https://www.northdata.de/NSH+Neubrandenburger+Schrotthandel+GmbH/Amtsgericht+Neubrandenburg+HRB+5551 .]
+
 ### Recherche 08.10.2026 (Welle Mittenordost)
 
 - NorthData direkt über exakte Registernummer: NSH Neubrandenburger Schrotthandel GmbH, AG Neubrandenburg HRB 5551, EUID DEN1105V.HRB5551, D-17094 Bargensdorf ohne Straßenadresse. Gegenstand Eisen-/Metallhandel, Aufbereitung, Containerdienst, Transporte; Abschluss 2023 veröffentlicht 09.01.2025. Keine Löschung im geprüften Profil gesehen, aber kein aktueller Standort-/Annahmebeleg. Quelle: https://www.northdata.de/NSH+Neubrandenburger+Schrotthandel+GmbH/Amtsgericht+Neubrandenburg+HRB+5551

@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die aktuell abrufbare Gelbe-Seiten-Seite führt „Meier Michael SchrottHdl.“ an Plesser Str. 2, 93057 Regensburg, Telefon 0941 64274. Das ist weiterhin nur ein Branchenverzeichnis-Lead; kein Betreiberauftritt oder Register-/Kommunalbeleg ordnet die Adresse einem aktiven Händler zu. Namensgleiche „Meier Michael“-Einträge in Wenzenbach mit anderer Anschrift/Telefonnummer bleiben getrennt.
+
+- **Ankauf:** keine belegten Bedingungen oder Ankaufkurse.
+- **Verkauf:** keine Preisliste.
+- **Gebühren:** keine Tarife.
+- **Offen/GEO:** Identität, aktuelle Anschrift und Annahme klären; Adresse bis dahin nicht ins Frontmatter oder als Annahmestellen-Koordinate übernehmen.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Gelbe-Seiten-Detail direkt erneut gelesen: „Meier Michael SchrottHdl.“, Plesser Str. 2, 93057 Regensburg, Tel. 0941 64274. Das bestätigt nur den fortbestehenden Verzeichnis-Lead. Der Gegencheck mit der getrennten Wenzenbach-Seite nennt Ladestr. 5 und 0941 67747; kein Umzug, keine gemeinsame Betreiberidentität und keine Zuordnung zum Regensburger Seed bewiesen. Kein Betreiberkontakt/Annahmebetrieb und keine Preislisten für Ankauf, Verkauf oder Gebühren gefunden. Offen: voller Inhabername, Rechtsträger und Kundenstandort; keine Koordinaten gesetzt. Quelle(n): https://www.gelbeseiten.de/gsbiz/efabaae3-2b13-4c3f-9fff-6198cf304016 ; https://www.schrottplatz-info.de/schrottplatz/Regensburg/Meier-Michael-SchrottHdl- ; https://www.schrottplatz-info.de/schrottplatz/Wenzenbach/Meier-Michael-SchrottHdl-]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

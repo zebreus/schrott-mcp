@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metalle Patz GmbH ist unter HRB 113241 mit Tennigkeitweg 2, 22391 Hamburg registerseitig identifizierbar; der NorthData-Registerspiegel nennt die Auflösung 2023/i. L., während Creditsafe „Actively Trading“ ausweist, ohne den Status zeitlich aufzulösen. Das Hamburg.de-Branchenbuch (zuletzt aktualisiert 13.11.2025) nennt gewerblichen Altmetallankauf an derselben Anschrift, ist aber kein Gewerberegister und keine Betreiber-Website. Damit bleibt ein ungelöster Aktivitätskonflikt; `status: aktiv` ist nicht aktuell bestätigt und wird bis zum Owner-Gate nicht überschrieben. Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebührenordnung gefunden.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die direkt geöffnete Hamburg.de-Detailseite 10476305 nennt weiterhin Metalle Patz GmbH, Tennigkeitweg 2, 22391 Hamburg und Titel „Ankauf von Altmetall aus Gewerbebetrieben“; sie zeigt als letzte Aktualisierung den 13.11.2025 und nennt Telefon/E-Mail. Das ist ein kommerzieller Branchenbucheintrag, kein amtlicher Gewerberegisterstand oder Beleg eines aktuell offenen Annahmebetriebs. Er löst den Register-/Aktivitätskonflikt aus Recherche 04.10. nicht auf; keine Kontakte, Leistungen, Preise oder Statusänderungen daraus übernommen. Keine numerischen Ankaufspreise, Metall-Verkaufspreise oder Gebühren gefunden. Quelle (Lead): https://www.hamburg.de/branchenbuch/hamburg/eintrag/10476305/ .]
 
 ### Recherche 04.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein am 21.10.2026 direkt gelesener Gelbe-Seiten-Eintrag führt „Containerdienst Roman Proba“, Grenzhausener Str. 49, 56191 Weitersburg, Tel. 0163 3694136, als Containerdienst. Das ist ein einzelner Aggregator-Lead, kein Betreiber-, Register- oder Kommunalbeleg; Identität, Annahmestelle und aktuelle Tätigkeit bleiben unbestätigt. Keine Frontmatter-Füllung. **Ankauf:** keine Preis- oder Materialbedingungen belegt. **Verkauf:** keine Preisliste. **Gebühren:** keine Containerpreise oder sonstigen Tarife belegt. Adresse erst nach Identitätsprüfung geocodieren.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe Seiten direkt gelesen: „Containerdienst Roman Proba“, Grenzhausener Str. 49, 56191 Weitersburg, 0163 3694136; Kategorie Containerdienste. Dies präzisiert den früheren bloßen Orts-Seed zu einem konkreten Verzeichnis-Adresslead, bleibt aber eine einzelne Aggregatorquelle und belegt weder Betreiberidentität noch einen Schrottannahmehof. Kein Betreiber-/Register-/Kommunalbeleg, daher keine Felder geändert und status pruefung unverändert. ANKAUF: keine Vergütung oder Materialbedingungen genannt; VERKAUF: keine Liste; GEBÜHREN: keine Container-/Transporttarife genannt. Grenzhausener Str. 49 ist vor Zuordnung und Geocodierung zu bestätigen. Quelle: https://www.gelbeseiten.de/gsbiz/8051e901-42df-4e39-bde4-116f587162b7.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -30,6 +30,10 @@ Der Portalkontakt 03841 790144 bleibt nur Lead; keine Adress-/Telefon-Fills, sta
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Schrottplatz.org-Detailseite direkt gelesen; sie führt Reinhard Kraatz e.K., Am Wehberg 5a, 23972 Dorf Mecklenburg, Telefon/Fax 03841 790144 sowie Amtsgericht Schwerin/HRA 2860. Der Eintrag ist ein Branchenportal und kein Handelsregisterauszug; auch der Webvalid-Treffer blieb bei einer nicht direkt abrufbaren Registerspiegel-Seite. Kein Primärbeleg für heutige Aktivität oder öffentliche Schrottannahme, daher weder Portal-Telefon noch Adresse neu übernommen. Ankauf/Verkauf/Gebühren ohne zuordenbare Liste; keine Geokodierung. Quellen: https://www.schrottplatz.org/dorf-mecklenburg/reinhard-kraatz-ek-1725146.html ; https://www.webvalid.de/company/Reinhard+Kraatz+e.K.,+Dorf+Mecklenburg/HRA+2860 (Direktabruf Transportfehler; Abruf 21.10.2026).]
+
 ### Recherche 18.10.2026 (02:00-Welle C)
 
 - [Recherche 18.10.2026: Eigenständige Recherche findet Webvalid HRA 2860 Schwerin mit Name, Am Wehberg 5a/23972 und veröffentlichter Eintragung Mai 2008 (Abfalltransport und -einsammlung). Nur Suchindextext gelesen, beide Direktabrufe Transportfehler; Northdata-Aufruf liefert Suchseite ohne Treffer statt Firmenprofil. Dies überholt den alten Such-Miss als konkrete Registerspur, ist aber weder ein gelesener Vollbeleg noch aktuelle Schrottankaufbestätigung. Telefon 03841 790144 aus Portalen nicht als Betreiberkontakt übernehmen; keine Fills. ANKAUF/VERKAUF/GEBÜHREN ohne zuordenbare Liste. Offen: aktueller Handelsregisterauszug/Betreiberquelle und Leistungsabgrenzung Sammlung versus Ankauf. Keine GEO-Arbeit. Quellen/Abrufgrenzen: https://www.webvalid.de/company/Reinhard+Kraatz+e.K.,+Dorf+Mecklenburg/HRA+2860 ; https://www.northdata.de/Reinhard+Kraatz+e.K.,+Dorf+Mecklenburg/HRA+2860 ; https://www.schrottplatz.org/dorf-mecklenburg/reinhard-kraatz-ek-1725146.html (Suchlead).]

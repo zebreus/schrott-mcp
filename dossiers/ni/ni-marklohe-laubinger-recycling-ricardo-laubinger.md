@@ -29,6 +29,10 @@ Identitätsklärung offen. Die live abgerufene Domain `recycling-laubinger.de` n
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: Impressum recycling-laubinger.de direkt erneut gelesen: Adriano Laubinger, zusätzlich W-IdNr. DE410687938; diese Kennung ersetzt keinen Beweis, dass Ricardo dieselbe Person ist. LMR-Startseite ebenfalls direkt gelesen: Luciano Laubinger, Altes Spargelfeld 17, wirbt ausdrücklich mit kostenloser Containerbereitstellung 1–40 m³ und entgeltloser Abholung von Altmetall/Alteisen. Das sind Gebühren-/Serviceaussagen des ANDEREN Betreibers, kein Ricardo-Ankaufskurs und keine kostenlose Gesamtabwicklung dieses Seeds. ANKAUF/VERKAUF/GEBÜHREN für Ricardo weiter nicht belegt; keine Zuordnung zum ebenfalls gefundenen gleichnamigen hessischen Personenprofil. Frontmatter unverändert. GEO erst nach Ricardo-spezifischer Identitäts-/Standortbrücke, weder Bruchweg noch Spargelfeld übertragen. Quellen: https://www.recycling-laubinger.de/impressum/ ; https://www.lmr-recycling.de/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - recycling-laubinger.de: „kaufen nahezu alles an, was als Schrott gilt“ (Cu/Alu/Kabel/Motoren), Container → **ja**

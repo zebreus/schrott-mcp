@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Anschrift Rosenstr. 15, 66539 Neunkirchen-Wellesweiler ist weiterhin nur durch Verzeichnisse gestützt. Gold.de listet Goldwirt mit Telefonnummern und dem alten Domainhinweis „www.de.tl“; die direkt geöffnete Domainseite liefert keinen lesbaren Unternehmensinhalt, die getestete Unterseite `/Preise.htm` ist 404. 11880 und Gavabiz geben widersprüchliche Öffnungszeiten. Keine Betreiber-/Registerquelle und keine sicheren Kontaktdaten, daher `status: pruefung`.
+
+**Preise:** ANKAUF — keine Gold-/Silberkurse verifiziert. VERKAUF — keine Produktpreisliste. GEBÜHREN — keine Angaben; fremde Goldpreisrechner oder allgemeine Metallkurse sind keine Goldwirt-Ankaufspreise.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Goldwirt-Domain https://goldwirt.de.tl/ direkt aufgerufen; sichtbar war nur die Seitenüberschrift „goldwirt - Home“, ohne lesbaren Betreiber-/Preisinhalt. Der direkte Abruf https://goldwirt.de.tl/Preise.htm ergab 404. GOLD.DE führt als Aggregator Rosenstraße 15, 66539 Neunkirchen, 06821 9527510/0171 7828335 und den alten Domainhinweis „www.de.tl“; dies ist keine Betreiberbestätigung. Öffnungszeiten bleiben wegen des bereits dokumentierten Widerspruchs zwischen Verzeichnissen offen. Keine Kontakt-/Website-/Aktivitätsänderung. ANKAUF: keine Zahlenkurse; VERKAUF: keine Preislisten; GEBÜHREN: keine Tarife. Quellen: https://goldwirt.de.tl/ ; https://goldwirt.de.tl/Preise.htm ; https://www.gold.de/goldankauf/saarbruecken .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Matthias Weiler/Eisenbahnstraße 1a bleibt Verzeichnislead, kein bestätigter aktueller Betreiber-/Annahmestandort. Status auf pruefung, Straße leer; Familienspekulation aus aktuellem Namen entfernt und historisch erhalten. Zusätzlicher Bärbel-Weiler-Lead Eisenbahnstraße 1 beweist weder Familie noch Bezug zu „Nr. 46“. Keine verifizierten Ankauf-/Verkaufspreise/Gebühren; kein Schließungsschluss.
+Matthias Weiler/Eisenbahnstraße 1a bleibt ein Branchenverzeichnis-Lead, kein bestätigter aktueller Betreiber oder Annahmestandort. Der separate Bärbel-Weiler-Eintrag Eisenbahnstraße 1 belegt weder Verwandtschaft noch Bezug zu „Nr. 46“; Familienannahme bleibt ausschließlich historische Hypothese. Status `pruefung`, Adresse leer, keine Schließung behauptet. **Ankauf:** Seed-/Verzeichnisbehauptung ohne verifizierte Bedingungen oder Preis. **Verkauf/Gebühren:** keine Listen/Tarife. **GEO:** bis Betreiber- und Adressidentität geklärt sind keine Koordinaten.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Erneute Namens-/Ortsprüfung: weiterhin kein qualifizierter Betreiber-, Register- oder kommunaler Gewerbebeleg für Matthias Weiler, Eisenbahnstraße 1a, oder eine Verbindung zum getrennten Bärbel-Weiler-Eintrag Eisenbahnstraße 1. Branchenportale bleiben Leads; regionale Kleinanzeigen anderer Anbieter werden nicht auf Matthias Weiler übertragen. Keine Ankauf-/Verkaufspreisliste oder Gebührenangabe gefunden; keine Frontmatter-Änderung und kein GEO. Quellen/Leads: https://merchweiler.meineoeffnungszeiten.de/schrott-branche-2078-1 ; https://www.gelbeseiten.de/suche/weiler%20schrott/merchweiler ; zuletzt erneut geprüft 20.10.2026.]
 
 ### Recherche 09.10.2026 / Korrektur 10.10.2026
 

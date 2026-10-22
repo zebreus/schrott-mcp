@@ -30,6 +30,10 @@ Ankauf: kein konkreter Materialpreis veröffentlicht; ein Ankauf von Schrott wir
 
 ## Timeline
 
+### Recherche 21.10.2026 — städtischer Standortbeleg und Preise
+
+- [Recherche 21.10.2026: Die aktuelle städtische Belegungsübersicht des Industriegebiets Glückauf führt Sondershausen Recycling GmbH mit Schachtstr. 60/62, 99706 Sondershausen, Tel. 03632 606420 und abbruchprofi@aol.com; North Data ordnet der Gesellschaft HRB 400687 und den breiteren Geschäftszweck zu. Die Stadtseite führt separat R&M Schrott- und Metallhandel an Schachtstr. 16, nicht mit SRG zusammenziehen. Die Stadtliste bestätigt Präsenz am Standort, aber nicht ausdrücklich öffentliche Privatkundenannahme. ANKAUF: keine numerischen Ankaufskurse; VERKAUF: keine öffentliche Schrott-/Ersatzteilpreisliste; GEBÜHREN: keine Tariftafel gefunden. Quellen: https://www.sondershausen.de/gewerbe-und-industriegebiet-glueckauf.html ; https://www.northdata.de/Sondershausen%20Recycling%20GmbH,%20Sondershausen/Amtsgericht%20Jena%20HRB%20400687]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling?

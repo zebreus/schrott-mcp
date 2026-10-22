@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite ist am 21.10.2026 erreichbar und wirbt allgemein mit Verwertung/Entsorgung von Schrott und Altmetall in Aue und Umgebung. Kontakt/Impressum nennen Erdmann-Kircheis-Straße 1, 08280 Aue-Bad Schlema, Telefon und E-Mail; die Geschäfts-ID-/USt-Felder sind leer, die Aufsichtsbehörde ist ein Platzhalter und der Telefonlink ist fehlerhaft (`tel:0000000`). Es fehlt weiterhin ein unabhängiger Identitäts-/Gewerbebeleg, und die Seite nennt keine konkrete Materialannahme oder belastbare Abholbedingungen. `website_status: aktiv` beschreibt die erreichbare Website, nicht bestätigte Annahme; `status: pruefung` bleibt.
+
+**Preise:** **Ankauf**: nur allgemeine Werbeaussage „faire Preise“, keine Zahlenliste oder konkrete Ankaufskondition. **Verkauf**: keine Verkaufspreisliste. **Gebühren**: keine bezifferten Abhol-/Entsorgungstarife. **GEO:** Erdmann-Kircheis-Straße 1 ist ein Betreiberseiten-Kandidat in Aue-Bad Schlema, aber Identität und Annahmestelle sind nicht unabhängig bestätigt; keine Koordinate setzen.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Startseite, Kontakt und Impressum direkt abgerufen. Der Auftritt bewirbt Schrott-/Altmetallverwertung und umweltgerechte Entsorgung, aber keine sortenspezifische Ankaufannahme. Kontakt/Impressum nennen Erdmann-Kircheis-Straße 1, 08280 Aue-Bad Schlema, 0172 75 60 830 und k-h@hentschel-schrotthandel-aue.com; Geschäfts-ID und USt-Nr. sind leer, Aufsichtsbehörde ist Platzhalter, Kontaktformular meldet beim Abruf einen Sende-Fehler und der Telefonlink ist `tel:0000000`. Das sind weiterhin Angaben einer einzigen generischen Betreiberwebsite, kein unabhängiger Identitäts-/Gewerbenachweis. Kein Frontmatter-Fill; keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren. Quellen: https://www.hentschel-schrotthandel-aue.com/ ; https://www.hentschel-schrotthandel-aue.com/kontakt/ ; https://www.hentschel-schrotthandel-aue.com/impressum/ .]
 
 ### Korrektur 03.10.2026 (Feedback-Triage)
 

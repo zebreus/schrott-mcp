@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Verzeichnis nennt als Kandidat die **BAV Bremer Autohandels- und Verwertungs GmbH** an der Simon-Bolivar-Str. 38, 28197 Bremen; der Seed nennt keinen Betreiberbeleg. Die unter `bav-bremen.de` auffindbare aktuelle Website gehört laut eigenem Impressum dem **Bremer Außenhandelsverband e.V.**, Am Markt 13, Vereinsregister Bremen VR 2497. Diese gleichnamige Abkürzung ist eine andere Organisation und belegt weder die GmbH noch den Seed-Standort. Website, Kontakt, Betriebsstatus und Verbindung zum Mit-Seed Roßberg bleiben offen.
+
+**Preise:** Ankauf: keine GmbH-spezifischen Bedingungen/Kurse; Verkauf: keine Liste; Gebühren: keine Tarife belegt.
 
 ## Timeline
 
@@ -33,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autoverwertung (gleiche Adresse wie Seed Roßberg — Zusammenhang s. Klärfälle)
 - Adresse: Bremen-Woltmershausen 28197, Simon-Bolivar-Str. 38
 - Adressbeleg: Seed-notes (gleiche Adresse wie Roßberg)
+
+### Korrektur 22.10.2026
+
+- [Korrektur 22.10.2026: Die im Webindex der BAV-Kandidatin zugeordnete Domain `bav-bremen.de` wurde direkt geöffnet. Homepage und Impressum identifizieren den Betreiber eindeutig als Bremer Außenhandelsverband e.V., c/o Handelskammer Bremen, Am Markt 13, 28195 Bremen, Vereinsregister VR 2497; die Seite beschreibt Außenwirtschaft, nicht Autohandel oder Verwertung. Domain daher nicht als Website der Bremer Autohandels- und Verwertungs GmbH übernehmen. Das beweist nicht, dass die Seed-GmbH nicht existiert; Name, Standort Simon-Bolivar-Str. 38, Verhältnis zu Roßberg und Aktivität bleiben offen. Keine Frontmatter-Änderung. ANKAUF/VERKAUF/GEBÜHREN: keine der GmbH zurechenbaren Preise. Quellen: https://bav-bremen.de/ ; https://bav-bremen.de/impressum/]

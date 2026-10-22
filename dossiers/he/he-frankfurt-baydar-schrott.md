@@ -6,7 +6,8 @@ state: HE
 city: Frankfurt
 street: ''
 postcode: ''
-phone: 01631353976
+phone: ''
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein Gelbe-Seiten-Profil führt „Baydar Schrott“ als Verzeichnislead in Frankfurt-Gallus mit Sindlinger Str. 8, 60326 Frankfurt und 0163 1353976. Die Portalangaben sind nicht durch Betreiber-/Registerbelege bestätigt; die seedbasierte Telefonnummer wurde daher aus dem Frontmatter geleert (Quellenkorrektur, keine Behauptung, dass sie falsch ist). Keine Anschrift als Anlieferziel übernehmen.
+
+**Preise:** **ANKAUF** – keine Kurse; **VERKAUF** – keine Liste; **GEBÜHREN** – keine Tarife. **GEO:** Adresse, Betreiberidentität und tatsächliche öffentliche Annahmestelle vor Geocodierung unabhängig verifizieren.
 
 ## Timeline
+
+### Korrektur/Recherche 20.10.2026
+
+- [Korrektur/Recherche 20.10.2026: Das Gelbe-Seiten-Profil direkt geprüft; es nennt Baydar Schrott, Sindlinger Str. 8, 60326 Frankfurt-Gallus und 0163 1353976. Es bleibt ein einzelner Verzeichnislead ohne Betreiber-/Registerbeleg. Die seedbasierte Telefonnummer aus dem Frontmatter geleert (Quellenkorrektur, keine Aussage, dass die Nummer falsch ist); Straße nicht übernommen. Die zuvor dokumentierte erfolglose Suche in anderen Verzeichnissen ist kein Gegenbeweis. ANKAUF/VERKAUF/GEBÜHREN: keine Zielpreise oder Tarife gefunden. GEO: Betreiber und öffentlich zugängliche Kunden-/Annahmestelle bestätigen. Quelle: https://www.gelbeseiten.de/gsbiz/32cf231d-7daf-46e5-af6f-a1cbab4c51f1 (Verzeichnislead).]
 
 ### Recherche 02.10.2026
 

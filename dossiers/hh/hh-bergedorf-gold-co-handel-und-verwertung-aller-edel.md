@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Unbestätigter Hamburger Gold-/Silberankauf-Lead in Bergedorf. Adresse, Telefon und Zeiten sind vorhandene Verzeichnisangaben, keine frisch verifizierten Betreiberfakten. Die frühere Lead-Domain goldundco-hh.de ist nicht auflösbar. Der aktive österreichische Auftritt goldundco.at gehört einer Wiener Gesellschaft; dessen Goldrechner, Ankaufskurse und Filialen dürfen **nicht dem Hamburger Dossier zugeordnet** werden. Kein belegter Nachfolger und keine bewiesene Schließung.
+Unbestätigter aktueller Betrieb, aber historisch durch ein archiviertes Betreiber-Webangebot konkretisiert: Gold + Co, Inh. Mandolina Adzovic, Bergedorfer Schloßstr. 33, 21029 Hamburg, mit Telefon 040 30762303 und E-Mail info@goldundco-hh.de. Die archivierte Website nennt Mo–Fr 10–18 Uhr, Samstag nur nach Termin, Hausbesuche nach telefonischer Vereinbarung sowie unverbindliche Bewertung. Das sind historische Betreiberangaben (Archivaufnahmen 2021/2022), keine aktuellen Kontaktdaten oder Öffnungszeiten. Die Domain goldundco-hh.de ist heute nicht auflösbar. Der aktive österreichische Auftritt goldundco.at gehört einer Wiener Gesellschaft; dessen Preise und Filialen dürfen **nicht dem Hamburger Dossier zugeordnet** werden. Kein belegter Nachfolger und keine bewiesene Schließung.
+
+**Preise:** Die alte Betreiberseite beschreibt einen tagesaktuellen individuellen Ankaufspreis für Edelmetalle und kostenlose, unverbindliche Bewertung; archivierte Seite zeigt keine numerischen Ankaufskurse. Das ist kein Verkaufspreis. Kosten einer Hausbewertung/-abholung oder sonstige Gebühren sind nicht angegeben. Keine aktuelle Hamburger Preisquelle.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Obwohl die Domain goldundco-hh.de beim Direktabruf weiterhin nicht erreichbar war, sind zeitgestempelte Internet-Archive-Aufnahmen der damaligen Betreiberwebsite abrufbar. Startseite (Snapshot 06.12.2021) und Impressum (Snapshot 06.12.2021) nennen Gold + Co, Inh. Mandolina Adzovic, Bergedorfer Schlossstr. 33, 21029 Hamburg, Telefon 040 30 76 23 03 und info@goldundco-hh.de. Die Startseite nennt werktags 10–18 Uhr, samstags nach Vereinbarung, Hausbesuche nach telefonischer Terminvereinbarung und unverbindliche kostenlose Schätzung. Dies belegt die historische Betreiberpräsentation, nicht heutige Aktivität oder Fortbestand. Die Seite bewirbt „Edelmetall-Preise“/„Hier klicken“ und einen unverbindlichen tagesaktuellen Ankaufspreis; in den erhaltenen Aufnahmen ist jedoch keine Zahlenliste vorhanden. Das ist ein Ankaufspreisangebot, kein Händler-Verkaufspreis; für Bewertung steht kostenlos/unverbindlich, Gebühren für Außentermine werden nicht genannt. Keine Werte aus dem Wiener goldundco.at übernommen; Frontmatter bleibt unverändert. Quellen (archivierte Betreiberseiten): https://web.archive.org/web/20211206114407id_/http://goldundco-hh.de/ ; https://web.archive.org/web/20211206103654id_/http://goldundco-hh.de/impressum.html ; https://web.archive.org/web/20211206112520id_/http://goldundco-hh.de/agb.html .]
 
 ### Recherche 03.10.2026
 

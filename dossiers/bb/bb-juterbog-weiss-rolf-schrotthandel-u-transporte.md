@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Weiß Rolf Schrotthandel u. Transporte“ wird von 11880, schrottplatz.org und Cylex an Neuheim 8, 14913 Jüterbog, mit Tel. 03372 402183 geführt. Das sind Branchen-/Schrottplatz-Verzeichnisse; ein Betreiberauftritt, aktueller Registerbeleg oder unabhängige Kundenannahmebestätigung fehlt. Anschrift und Rufnummer bleiben deshalb Leads, nicht verifizierte Stammdaten; `status: pruefung` statt unbelegt `aktiv`.
+
+**Preise:** ANKAUF — keine bestätigten Schrottpreise. VERKAUF — keine Warenpreisliste. GEBÜHREN — keine Transport-/Entsorgungstarife. **Offen:** Rechtsträger/Betreiber, aktuelle Tätigkeit und Annahme an Neuheim 8. Adresse nicht geokodieren, bevor sie primär bestätigt ist.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Neue exakte Web-Gegenprobe zeigt Cylex mit „Weiß Rolf Schrotthandel u. Transporte“, Neuheim 8, 14913 Jüterbog und 03372 402183; der Treffer ist ausdrücklich ein Branchenverzeichniseintrag, keine Betreiber-/Registerquelle. Zusammen mit 11880 und schrottplatz.org bestätigt das nur den Lead-Konsens, nicht aktuellen Betrieb oder öffentliche Annahme. Keine Preislisten zu ANKAUF/VERKAUF und keine Gebühren gefunden. Status aktiv → pruefung; keine Frontmatter-Kontaktdaten neu übernommen, keine GEO-Koordinaten. Quellen (Abruf 20.10.2026): https://web2.cylex.de/firma-home/weiss-rolf-schrotthandel-u--transporte-12402394.html ; https://www.schrottplatz.org/jueterbog .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -4,7 +4,7 @@ name: Reinhardts Schrott & Metallhandel
 trader_type: metallhaendler
 state: HE
 city: Maintal-Dörnigheim
-street: Siemensallee 18
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Reinhardts Schrott & Metallhandel“ in Maintal-Dörnigheim bleibt ein nicht verifizierter Verzeichnislead. Gelbe Seiten nennt Siemensallee 18, 63477 und 0176 6888925; ältere Timeline-Einträge enthalten die abweichende Nummer 0176 68888925. Die seedbasierte Straße wurde mangels Betreiber-/Registerbeleg aus dem Frontmatter geleert, ohne sie als falsch zu bewerten. Die ähnliche Betreiberwebsite für Reinhardt betrifft Oberdürenbach (Rheinland-Pfalz), nicht diesen Maintaler Eintrag.
+
+**Preise:** **ANKAUF** – keine Kurse; **VERKAUF** – keine Liste; **GEBÜHREN** – keine Angaben. **GEO:** Identität, korrekte Kontaktdaten und Kunden-/Annahmestelle vor Geocodierung unabhängig bestätigen.
 
 ## Timeline
+
+### Korrektur/Recherche 20.10.2026
+
+- [Korrektur/Recherche 20.10.2026: Gelbe-Seiten-Profil direkt geprüft; es nennt Siemensallee 18, 63477 Maintal-Dörnigheim und 0176 6888925. Ältere Rechercheeinträge nennen 0176 68888925; die Telefonnummern sind nicht identisch, deshalb keine Auswahl oder Übernahme. Die Straße im Frontmatter geleert, weil sie bislang nur auf einem Branchenportal beruht (Quellenkorrektur, nicht als falsch erwiesen). Die Website schrottmetallhandelreinhardt.com nennt Oberdürenbach/RP und bleibt ausdrücklich ein anderer Betrieb, kein Merge. ANKAUF/VERKAUF/GEBÜHREN: keine Zielpreisliste oder Tarife. GEO: Betreiber und tatsächliche öffentliche Annahmestelle unabhängig verifizieren. Quellen: https://www.gelbeseiten.de/gsbiz/1b489e5e-5048-4205-bcdd-dd6e9f05003b ; https://www.schrottmetallhandelreinhardt.com/kontakt/ (anderer Standort).]
 
 ### Recherche 02.10.2026
 

@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die kommunale Unternehmensseite stellt nur ausgewählte Betriebe vor und nennt keinen Schrotthandel mit der Seed-Rufnummer 0162 4729324; ihre Auslassung belegt weder Nichtexistenz noch Schließung. Betreiberidentität und tatsächliche Kundenannahme bleiben offen, daher keine zusätzlichen Kontakt- oder Serviceangaben und keine GEO-Zuordnung. **ANKAUF:** keine verifizierte Annahme oder Kurse. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife. `status: pruefung` bleibt unverändert.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die kommunale Seite „Unternehmen stellen sich vor“ erneut direkt gelesen. Sie zeigt ausgewählte Firmenporträts (u.a. Fahrzeugwerk, Solarpark und Industriebetriebe), keinen zuordenbaren Schrotthandel mit Seed-Telefonnummer 0162 4729324. Die Seite ist kein vollständiges Gewerberegister; die Auslassung belegt weder Nichtexistenz noch Schließung. Kein neuer qualifizierter Betreiber-/Kontaktbeleg, daher keine Fills; status pruefung bleibt. Ohne verifizierten Betreiber keine belastbaren Ankaufskurse, Verkaufspreise oder Abhol-/Entsorgungsgebühren. Quelle: https://www.luebtheen.de/portal/seiten/unternehmen-stellen-sich-vor-900000034-28870.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Branchenportale führen „Mobiler Schrotthandel und Entrümpelungen Detlev Levin“ in Andernach, teils mit Beckstr. 5–7, Tel. 02632 491401 und info@detlevlevin.de. Die Angaben sind nicht durch einen erreichbaren Betreiberauftritt oder Registerbeleg bestätigt; die genannte Domain löste bei der früheren Prüfung nicht auf. Keine Kontaktfelder ergänzt und keine Verwechslung mit anderen Entrümpelern vorgenommen. Status `pruefung`.
+Ein am 21.10.2026 direkt gelesener Gelbe-Seiten-Eintrag führt „Levin Detlev“ unter Entrümpelungen an Krahnenbergweg 2, 56626 Andernach, mit 02632 491401 und zusätzlicher Mobilnummer 0152 57000515; das Leistungsfeld enthält auch Schrott/Metallschrott. Ältere Branchenportalspuren nennen stattdessen Beckstr. 5–7. Ohne Betreiber-/Registerbeleg ist weder ein Umzug noch eine Verwechslung geklärt; `detlevlevin.de` löste bei heutiger Prüfung nicht auf, was keine Schließung beweist. Keine Frontmatter-Füllung; status `pruefung`.
 
-**Preise:** ANKAUF — keine verifizierten Schrott-/Fahrzeugankaufpreise. VERKAUF — keine Material- oder Fahrzeugpreisliste. GEBÜHREN — keine Tarife.
+**Ankauf:** keine verifizierten Schrott-/Fahrzeugpreise oder Bedingungen. **Verkauf:** keine Material-/Fahrzeugpreisliste. **Gebühren:** keine Tarife oder Gratisabholzusage belegt. **GEO:** Krahnenbergweg 2 ist ein neuer, ungeklärter Adresslead; erst nach Betreiber-/Standortbestätigung geocodieren.
 
 ## Timeline
+
+### Quellenprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Profil direkt gelesen: „Levin Detlev“, Entrümpelungen, Krahnenbergweg 2, 56626 Andernach, Festnetz 02632 491401 und Mobil 0152 57000515; Leistungsumfang enthält neben Entrümpelung auch Schrott, Schrotthandel und Metallschrott. Das ist ein einzelner Aggregator-Lead, kein Betreiber-/Registerbeleg. Die neue Profilanschrift widerspricht der älteren Beckstr.-5–7-Spur, die derselben Festnetznummer zugeordnet wurde; weder Umzug noch Identität/Annahmestelle sind damit bewiesen. Direkte DNS-Auflösung von detlevlevin.de scheiterte heute („Name or service not known“), kein Schließungsbeleg. Ankauf: keine numerischen Schrott-/Fahrzeugpreise; Verkauf: keine Liste; Gebühren: keine Tarife. Keine Frontmatter-Änderung, status pruefung bleibt. Krahnenbergweg 2 vor GEO unabhängig verifizieren. Quelle: https://www.gelbeseiten.de/gsbiz/729d5586-060c-4321-a5fa-6eaa9e9599f5 ; https://detlevlevin.de/ (DNS-Auflösung heute fehlgeschlagen).]
 
 ### Recherche 12.10.2026
 

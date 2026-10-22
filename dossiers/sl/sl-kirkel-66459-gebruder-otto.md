@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: Autoverwertung in Kirkel (Gebrüder Otto GmbH, HRB 2933 AG Saarbrücken): Autoverschrottung, An-/Verkauf von Gebrauchtwagen und Ersatzteilen, Schrotthandel, Demontage, Entsorgung und Abschleppdienst
+description: 'Autoverwertung in Kirkel (Gebrüder Otto GmbH, HRB 2933 AG Saarbrücken): Autoverschrottung, An-/Verkauf von Gebrauchtwagen und Ersatzteilen, Schrotthandel, Demontage, Entsorgung und Abschleppdienst'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) — Kandidatenaudit R1+R2 (21)
@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HR-/Unternehmensdaten führen Gebrüder Otto GmbH, HRB 2933, an Bahnstr. 3 in Kirkel-Limbach; zusätzliche aktuelle Verzeichniseinträge nennen 06841 80114. Ein eigener Betreiberauftritt mit aktuellen Öffnungs-, Annahme- oder Preisbedingungen ist nicht belegt. Die Verzeichnisangaben sind Leads und keine unabhängigen Primärbelege für öffentlichen Schrottankauf. **Ankauf:** keine bestätigten Konditionen/Preisliste. **Verkauf:** der gesellschaftsrechtlich beschriebene An-/Verkauf von Gebrauchtwagen und Ersatzteilen ist keine Kundenpreisliste. **Gebühren:** keine Liste gefunden. Keine neuen Kontaktdaten oder Koordinaten übernommen.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Neue Gegenprobe: Das Örtliche führt Gebrüder Otto GmbH an Bahnstr. 3, 66459 Kirkel-Limbach, mit 06841 80114; Creditreform und weitere Branchenverzeichnisse zeigen denselben Standort/Telefon-Lead. Das sind Verzeichnis-/Bonitätsprofile, kein eigener Betreiberauftritt und kein zweiter unabhängiger Primärnachweis. Machineseeker listet Gebr.Otto GmbH ebenfalls als Händler an Bahnstraße 3; ein Marktplatzeintrag belegt weder öffentlichen Schrottankauf noch eine behördliche Zertifizierung. Im geprüften Händlerverzeichnis keine zuordenbare Material-/Preis- oder Gebührenliste. Keine numerische Ankaufspreisliste, keine Kunden-Verkaufspreisliste gefunden; keine Kontakt-/Koordinatenübernahme. Quellen: https://www.dasoertliche.de/Themen/Gebr%C3%BCder-Otto-GmbH-Kirkel-Limbach-Bahnstr ; https://firmeneintrag.creditreform.de/66459/7290104746/GEBRUEDER_OTTO_GMBH ; https://www.machineseeker.com/Haendler/tci-764 (Abruf 20.10.2026; Marktplatz-/Verzeichnisprofile).]
 
 ### Recherche 02.10.2026
 

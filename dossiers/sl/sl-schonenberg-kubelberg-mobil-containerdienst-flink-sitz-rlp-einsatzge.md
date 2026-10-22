@@ -28,6 +28,10 @@ Flink wirbt mit Schrott-/Metallankauf und Abholung für private/gewerbliche Kund
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Die Betreiber-Preisseite ist weiterhin online; die bereits am 05.10. erfasste Liste sind ausdrücklich Entsorgungs-/Containergebühren netto zzgl. 19 % MwSt., keine Schrott-Ankaufspreise. Stichproben der aktuellen Liste: Holz A1–A3 49 €/m³, Bauschutt 59 €/t, Sperr-/Mischmüll 289 €/t, ab Tag 15 Containermiete 1,80 €/Tag netto; Anfahrt/Containerstellung 99 € bis 30 km bzw. 119 € ab 30 km netto (Formulierung überschneidet genau 30 km). Metallankauf bleibt ohne Zahlenkurs; keine Kunden-Verkaufspreisliste. Die Tarifbedingungen und Größenangaben bleiben seitenabhängig; vor Auftrag Endpreis/Leistungsumfang klären. Betreiberanschrift Saarbrücker Str. 109 liegt in Rheinland-Pfalz, also kein Saarland-Standortpin; keine Koordinaten ergänzt. Quelle: https://containerdienst-flink.de/containerdienst-und-containervermietung/ sowie https://containerdienst-flink.de/schrott-und-metallhandel/ (Abruf 20.10.2026; Tarifseite mit Copyright 2026).]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Betreiber erneut direkt gelesen: Impressum FLINK Containerdienst, Marcello Winterstein, Saarbrücker Straße 109, 66901 Schönenberg-Kübelberg, +49 6373 8599142, info@containerdienst-flink.de; kein HR-Eintrag genannt. Schrottseite bewirbt Abholung/Ankauf bei Privat, Gewerbe und Industrie für Eisen/Stahl, Kupfer, Aluminium, Messing, Edelstahl, Kabel, Zink und Guss zu Tages-Kilopreisen, ohne Zahlen. Einsatzgebiet nennt u. a. Homburg/Bexbach/Kirkel/Neunkirchen/Ottweiler/St. Ingbert/Saarbrücken neben Pfälzer Orten. Kein zweiter unabhängiger Beleg, kein Kontakt-/Adress-Fill und kein fiktiver Saarland-Hof. Quellen: https://containerdienst-flink.de/impressum/ ; https://containerdienst-flink.de/schrott-und-metallhandel/ ; https://containerdienst-flink.de/ .]

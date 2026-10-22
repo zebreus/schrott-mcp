@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Klaus Speth Schrott- und Metallentsorgung“ wird in mehreren Verzeichnissen an Jahnstr. 106, 66740 Saarlouis-Fraulautern geführt, darunter mit Mobilnummer 0162 3114854. Betreiber-/Registerbeleg fehlt; Öffnungszeiten und Leistungsumfang unterscheiden sich je nach Portal. Die Profile sind keine unabhängigen Primärquellen, deshalb bleiben Kontaktdaten in der Timeline und `status: pruefung`. **Ankauf:** keine vom Betreiber bestätigten Materialien oder numerischen Preise. **Verkauf/Gebühren:** keine zurechenbare Preisliste. Adress-Lead erst nach Identitätsprüfung geocodieren.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Das 11880-Profil führt „Klaus Speth Schrott- und Metallentsorgung“, Jahnstr. 106, 66740 Saarlouis-Fraulautern, Mobil 0162 3114854; die Seite wurde laut Profil am 04.10.2026 aktualisiert. Das stimmt teilweise mit den älteren Das-Örtliche-/Portal-Leads überein, ist aber weiterhin nur ein Aggregatorprofil. Unterschiedliche Öffnungszeitenangaben der Verzeichnisse bleiben ungelöst; keine Betreiber-/Registerquelle gefunden. Keine bestätigte Ankaufspreisliste oder belastbare Ankaufbedingungen; keine Verkaufspreise oder Gebühren veröffentlicht/auffindbar. Keine Frontmatter-Füllung und kein Geocoding. Quelle: https://www.11880.com/branchenbuch/saarlouis/060440092B113131877/klaus-speth-schrott-und-metallentsorgung.html (Profilabruf 20.10.2026; angezeigter Aktualisierungsstand 04.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

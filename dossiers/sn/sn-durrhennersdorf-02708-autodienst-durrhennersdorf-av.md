@@ -4,9 +4,9 @@ name: Autodienst Dürrhennersdorf GbR AV
 trader_type: autoverwertung
 state: SN
 city: Dürrhennersdorf 02708
-street: Bahnhofstr. 20
-postcode: '02708'
-phone: 0170 5 82 81 81
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -16,7 +16,7 @@ description: ''
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) – Kandidaten-Audit (Schlussfilter)
-provenance_ankauf_raw: nur Altauto
+provenance_ankauf_raw: unklar
 provenance_origin: table
 ---
 
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Autodienst Dürrhennersdorf GbR an Bahnhofstraße 20 ist weiterhin nur über Verzeichnisleads greifbar. Die frühere Ausnahmefüllung von PLZ/Telefon aus Örtlichem und Gelben Seiten ist nach heutigem Quellenstandard keine Zwei-Primärquellen-Verifikation. Die Portalbezeichnung Autoverwertung beweist weder Inhaber noch aktuelle Demontageanerkennung. Frontmatter bleibt historisch erhalten, nicht neu legitimiert.
+Für „Autodienst Dürrhennersdorf GbR AV“ liegt weiterhin kein Betreiber- oder Registerbeleg vor. Eine lokale Verzeichnisansicht führt an Bahnhofstraße 20 stattdessen eine „Gabi Rokyta und Rene Rokyta Auto-Dienst Dürrhennersdorf GbR“ als Autoersatzteil-/Zubehörhändler; die Quelle ist selbst nur ein Branchenverzeichnis und beweist weder Identität noch Autoverwertung. Deshalb wurden die alten Verzeichnisfelder Straße, PLZ und Telefon geleert; `provenance_ankauf_raw` ist mangels Nachweis `unklar`. Eine Portalbezeichnung „Autoverwertung“ belegt weder aktuelle Demontageanerkennung noch Schrottannahme.
 
 **Ankauf / Verkauf / Gebühren:** keine zuordenbare Betreiberpreisliste. **Offen:** Inhaber/Gesellschafter der GbR, eigene Präsenz, aktueller Anerkennungsdatensatz und Annahme-/Abholbedingungen. **GEO:** Bahnhofstraße 20 ohne qualifizierte Betreiberprüfung nicht als verifizierten Kundenhof freigeben.
 
 ## Timeline
+
+### Korrektur/Recherche 22.10.2026
+
+- [Korrektur 22.10.2026: Aktuelle Suche brachte keinen Betreiberauftritt und keinen auswertbaren Registerdatensatz. Eine meinestadt-Verzeichnisansicht nennt für Bahnhofstraße 20 „Gabi Rokyta und Rene Rokyta Auto-Dienst Dürrhennersdorf GbR“ und die Kategorie Autoersatzteile/-zubehör; diese abweichende Namens-/Tätigkeitsspur ist nicht amtlich und wird nicht als Ersatzidentität übernommen. Die bisher strukturierten Bahnhofstr. 20 / 02708 / 0170 5828181 stammten nur aus zusammenkopierten Telefon-/Branchenverzeichnissen und wurden geleert; frühere Notizen dokumentieren sie weiter. `provenance_ankauf_raw` auf `unklar` korrigiert: keine Altauto-Annahme oder -Vergütung primär belegt. GADSYS-Seite liefert weiterhin nur eine dynamische Registeroberfläche, kein auslesbarer Einzeldatensatz; daraus folgt weder Anerkennung noch Nichtanerkennung. ANKAUF: unklar, keine Preise; VERKAUF: keine Teilepreise; GEBÜHREN: kein Tarif. Quelle(n): https://branchenbuch.meinestadt.de/duerrhennersdorf/company/10938951 (Verzeichnis, Namensspur im Umfeld); https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (amtliche Registeroberfläche, kein Einzeldatensatz auslesbar); https://www.gelbeseiten.de/gsbiz/7baa8c4e-3efa-4c6d-88bd-7def60473a21 (Verzeichnis-Lead).]
 
 ### Recherche 18.10.2026 (18:00-Welle, Shard 1)
 

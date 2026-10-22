@@ -30,6 +30,10 @@ RCH ist bisher ein ungeklärter Alt-/Verzeichnisdatensatz an Mittelweg 5, Holthu
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Shop von OTTO DÖRNER live direkt erneut gelesen. Er führt OTTO DÖRNER Entsorgung GmbH am Mittelweg 5, 19075 Holthusen, Tel. 03865 291010, Mo–Fr 06–17 Uhr und aktuelle Container-/Kleinannahmeleistungen. Selbstanlieferung gilt nur für zugelassene Abfälle und nach vorheriger Prüfung von Bedingungen und Preisen; Container haben im Shop abfallart- und größenabhängige Festpreise, Schüttgüter werden ebenfalls angeboten. Das belegt heutigen DÖRNER-Betrieb am Ort, aber keine Rechtsnachfolge von der 2017 verschmolzenen RCH-Gesellschaft. Kein allgemeiner Schrottankauf oder Metall-Auszahlungspreis belegt; Container/Abfallannahme sind Entsorgungsleistungen, nicht kostenlos. RCH-Felder, Status und GEO bleiben ungeändert. Quelle: https://www.doerner-shop.de/standorte/schwerin (Abruf 21.10.2026).]
+
 ### Vertiefung 16.10.2026 (Owner-Check-in 01:30)
 
 - [Korrektur 16.10.2026: Neue gelesene Registerspiegel präzisieren den bisherigen Überblick: RCH Recycling und Containerdienst Holthusen GmbH & Co. KG ist Schwerin HRA 1134; HRB 4818 Schwerin gehört zur gesonderten Verwaltungsgesellschaft RCH Recycling und Containerdienst Holthusen mbH. Deren Unternehmensgegenstand benennt ausdrücklich die Komplementärstellung zur KG und auch Anlagen-/Grundstücksverpachtung; daraus folgt kein heutiger Publikumsbetrieb. Owner las die GmbH-Detailseite und die KG-Anschriftsbekanntmachung vom 03.01.2023: Mittelweg 5, 19075 Holthusen. city und postcode syntaktisch getrennt, Straße unverändert. Keine aktuelle amtliche Statusbescheinigung behauptet. Quellen: https://www.northdata.de/?id=5826024799993856 ; https://www.northdata.de/Verwaltungsgesellschaft%20RCH%20Recycling%20und%20Containerdienst%20Holthusen%20mbH,%20Holthusen/Amtsgericht%20Schwerin%20HRB%204818 .]

@@ -25,13 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Das frisch gelesene Registerdetail führt NE-Metallhandel Boris Schmidt e. K., AG Kiel HRA 4153 KI; jüngste dort sichtbare Publikation ist die Geschäftsanschrift-Ergänzung von 2010. Die frühere Gleichsetzung zweier Registerspiegel mit zwei unabhängigen Quellen war zu weitgehend. Die historische Anschrift Grasweg 45-46/24118 bleibt erhalten, aktuelle Tätigkeit/öffentliche Annahme ungeklärt; `pruefung` statt unbelegter Aktivfreigabe.
+Neue wesentliche Nachfolgespur: Die Ehrich-Unternehmenshistorie nennt für 2020 ausdrücklich die Übernahme des Schrott- und Metallhandels von Boris Schmidt in Kiel. Ehrichs heutige Standortseite und Impressum führen Ehrich Kiel GmbH & Co. KG, Grasweg 45/46, HRA 10635 KI, nicht den alten e.K. HRA 4153 KI. Damit ist die aktuelle Nutzung des alten Standorts als Schrottankauf primär belegt, aber eine gesellschaftsrechtliche Identität beider Rechtsträger nicht behauptet. Unabhängiger Beleg zur Übernahmekette und Abgrenzung gegen ein eventuell vorhandenes Ehrich-Dossier vor Rename/Website-Fill nötig. `pruefung` und die Owner-Rücknahme unbelegter Annahme bleiben bis dahin erhalten.
 
 **Neuer Domainkandidat:** ne-metallhandel-kiel.de, in mehreren Verzeichnisleads und einem Agentur-Suchtreffer genannt, beim Direktabruf aber ohne lesbares Betreiberimpressum. Kontakt-/Domainfelder deshalb nicht gefüllt. Keine Verbindung zu ähnlich benannten Kieler Händlern unterstellt.
 
 Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebührenordnung belegt. Der aktuelle Ankauf und konkrete Konditionen bleiben direkt zu bestätigen; siehe Timeline-Recherchen 01.10. und 07.10.2026.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: Drei Ehrich-Betreiberseiten direkt gelesen. Historie: 2020 Übernahme des Schrott- und Metallhandels von Boris Schmidt in Kiel. Standortdetail: Grasweg 45/46, 0431 3890840, info@ehrich-kiel.de, Metall-/Schrottankauf für Privatpersonen, Sammler, Gewerbe/Industrie; direkte Anlieferung Mo–Do 07:30–16:30, Fr 07:30–15:00. Impressum: Ehrich Kiel GmbH & Co. KG, HRA 10635 KI, Komplementär HRB 21390 KI, Geschäftsführer Thorsten Walter. Dies ist eine belastbare Betreiber-Nachfolgespur, keine bloße Namensähnlichkeit. Drei Seiten bleiben EINE Quellenfamilie; unabhängige Übernahme-/Registerbrücke zum e.K. HRA 4153 KI noch offen, kein stiller Merge. Alte Domain/Impressum erneut ohne auswertbaren Inhalt. Quelle(n): https://www.ehrich.de/unternehmen/historie ; https://www.ehrich.de/standorte/kiel ; https://www.ehrich.de/impressum ; https://www.ne-metallhandel-kiel.de/impressum (kein lesbarer Inhalt).]
+- [Recherche 19.10.2026: ANKAUF: Ehrich nennt beste Tagespreise aus Sicht des anliefernden Verkäufers, keine numerischen Kurse; nicht als Händler-VERKAUFspreis klassifizieren. VERKAUF/GEBÜHREN keine Listen im gelesenen Standortdetail. Bedingungen des Nachfolgekandidaten noch nicht dem alten Schmidt-Seed zugeschrieben; clear_fields dropoff_json bewusst erhalten. Owner: Ehrich-Sibling/Übernahmekette prüfen, dann gezielt aktuellen Standort zuordnen. GEO vor dieser Disposition nicht verändern. Quelle: https://www.ehrich.de/standorte/kiel .]
 
 ### Ownerdisposition 18.10.2026
 

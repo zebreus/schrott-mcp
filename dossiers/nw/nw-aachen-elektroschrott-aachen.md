@@ -30,6 +30,10 @@ Der Seed „Elektroschrott Aachen“ ist an Robensstr. 20 nicht als Betrieb iden
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Als sachliche Abgrenzung die offiziellen kommunalen E-Schrott-Wege der Stadt Aachen geprüft. Großgeräte können nach Termin kostenlos abgeholt werden; Kleingeräte gehen u. a. zu kommunalen Recyclinghöfen, Kompostcontainern bzw. dem Wertstoffmobil. Das ist ein kommunales Entsorgungsangebot und weder ein privater Schrotthändler noch ein Identitätsbeleg für den Seed „Elektroschrott Aachen“ oder Robensstr. 20. Keine Übertragung von Anschrift, Preisen oder Leistungen auf dieses Dossier; keine zuordenbaren privaten Ankaufspreise, Verkaufsliste oder Gebühren. Seed-Betreiber und GEO bleiben offen. Quellen: https://serviceportal.aachen.de/suche/-/vr-bis-detail/dienstleistung/2778/show ; https://www.aachen.de/in-aachen-leben/sicherheit-ordnung/stadtbetrieb/abfalltrennung ; https://www.aachen.de/in-aachen-leben/sicherheit-ordnung/stadtbetrieb/wertstoffmobil .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Die fehlerhafte Seed-Straßenzeile „Elektroschrott Aachen Aachen Robensstr. 20“ wurde aus dem Frontmatter entfernt: Der aktuelle Auftritt von Express Entrümpelung nennt M. Inayat, Robensstraße 20, 52070 Aachen und 0241 51 85 37 84; derselbe Auftritt beschreibt Entrümpelung/Haushaltsauflösung, nicht die Identität mit einem E-Schrotthändler. Das EAS-Impressum gehört separat zur EAS-Recycling Solution GmbH in Herdecke und belegt ebenfalls keine Aachener Betriebsstätte. Keine Telefonnummer, Website oder Adresse übertragen; Status pruefung bleibt. Keine zuordenbare Ankaufspreisliste, Verkaufspreise oder Gebühren. GEO erst nach Betreiber-/Standortklärung. Quelle(n): https://www.express-entruempelung-aachen.com/ ; https://www.elektroschrott-entsorgung-aachen.de/impressum/]

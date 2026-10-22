@@ -36,6 +36,10 @@ Klärfall. Der Creditreform-Suchindex führt „Manfred Leißner Abfallentsorgun
 
 - [Recherche 08.10.2026: Gegenprobe zum Ortsbezug: Die offizielle STRABAG-Standortseite führt einen eigenständigen „Recyclingplatz Gröningen“ der STRABAG Umwelttechnik GmbH, Nienhagener Straße 5, 39397 Gröningen. Die Seite nennt weder Manfred Leißner noch eine Betreiberverbindung; dieser Recyclingplatz wird daher ausdrücklich nicht dem Dossier zugeschrieben. Für Leißner bleiben Identität, Anschrift und Fortbestand unbelegt; keine Frontmatter-Fills/Geokodierung. ANKAUF: keine bestätigten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle(n): https://www.strabag.pl/databases/internet/_public/content.nsf/27f1abc7e30c3309c12571e0003f78c7/dbf99e7add821c09c1258801004b5c34?OpenDocument ; https://firmeneintrag.creditreform.de/39397/3170095058/MANFRED_LEISSNER_ABFALLENTSORGUNG_TRANSPORTE]
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die Verbandsgemeinde Westliche Börde führt den Recyclingplatz Gröningen weiterhin als Einrichtung der STRABAG Umwelttechnik GmbH, Nienhagener Straße 5b, 39397 Gröningen; Kontakt Herr Lenkheit, 0172 5403186, saisonale Öffnungszeiten. Das Angebot betrifft Boden-, Beton- und Baustoffe, nicht Metallankauf und nicht nachweislich Manfred Leißner. Betreiber und Anschrift des importierten Leißner-Datensatzes bleiben ungeklärt; keine Übertragung/Geokodierung. ANKAUF: keine bestätigten Leißner-Kurse; VERKAUF: STRABAG-Baustoffangebot ist ein separater Anbieter; GEBÜHREN: für Leißner keine Tarife belegt. Quelle: https://www.westliche-boerde.de/de/recyclingplatz-groeningen.html (Gemeindeseite, abgerufen 21.10.2026).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott, Altmaterial, Container (lt. 11880)

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Namens- und Standortzuordnung ist widersprüchlich. Ein neues Branchenportal führt „Matthias Alten“ am selben Standort Andreas-Hoevel-Straße 6, den das Schwester-Dossier [Matthias Alten Trier-West](rp-trier-west-54294-matthias-alten.md) aufgrund zweier anderer Verzeichnisleads vorläufig „Dres Georg“ zuordnet. Das neue Portal nennt zudem eine abweichende Telefonnummer. Keine Seite ist eine Betreiberquelle; weder eine zweite Firma noch ein Merge ist bewiesen. ANKAUF: keine verifizierten Annahmebedingungen oder Preise. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben. Adresse, Kontakt, Status und Geocoding bleiben bis zur Identitätsklärung offen.
 
 ## Timeline
+
+### Recherche 21.10.2026 (Welle RP)
+
+- [Recherche 21.10.2026: Der direkte Abruf des Aggregatorprofils LokaleSchrottplatz ordnet Matthias Alten der Andreas-Hoevel-Straße 6, 54294 Trier, und der Telefonnummer 0651 84874 zu; die Seite zeigt außerdem das Statuslabel „Geschlossen“, generische Materialkategorien und Mindestgewichte. Das Statuslabel ist kein Schließungsnachweis, und Material-/Gewichtsangaben sind nicht als Betreiberbedingungen verifiziert. Der Standort ist bereits im Schwester-Dossier rp-trier-west-54294-matthias-alten.md mit Telefonnummer 0651 84609 und einer Zuordnung zu Dres Georg dokumentiert. Die widersprechenden Verzeichniseinträge klären nicht, ob Alten, Dres Georg oder ein Dubletten-/Namensfehler vorliegt. Keine Übertragung oder Zusammenführung; keine Preisangaben, keine Frontmatter-Füllung. Adresse erst nach Identitätsentscheidung geocodieren. Quelle(n): https://lokaleschrottplatz.de/matthias-alten/ ; ../rp-trier-west-54294-matthias-alten.md .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

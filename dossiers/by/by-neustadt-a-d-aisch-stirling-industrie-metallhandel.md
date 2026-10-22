@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Suchindex der Betreiberhomepage und ihres Impressums nennt Stirling Industrie Rohstoff & Recycling GmbH, Diebach 67, 91413 Neustadt a.d. Aisch, 09161 88388-0 und home@sigmbh.de. Die Direktabrufe liefern jedoch HTTP 403, sodass Rechtsträger, Aktualität, Registerdaten und Betriebsbedingungen nicht vollständig geprüft sind. Der vorhandene Dossiername bleibt bis zur Identitätsprüfung unverändert; Kontaktdaten nur als Suchindex-Kandidaten, keine Frontmatter-Fills.
+Suchindex der Betreiberhomepage nennt Stirling Industrie Rohstoff & Recycling GmbH, Diebach 67, 91413 Neustadt a.d. Aisch, 09161 88388-0 und home@sigmbh.de sowie den Handel mit Eisen-, Bunt- und Edelmetallschrotten. Er unterscheidet Bürozeiten (Mo–Fr 08:00–17:00, Sa 09:00–12:00) von Anlieferzeiten (Mo–Fr 08:00–12:00 und 13:00–16:30, Sa 09:00–11:30). Die Direktabrufe liefern weiterhin HTTP 403; Angaben sind deshalb indexbasiert, nicht vollständig geprüft. Der vorhandene Dossiername bleibt bis zur Identitätsprüfung unverändert; keine Frontmatter-Fills.
 
-Ankauf/Verkauf/Gebühren: ohne zugänglichen Inhalt keine Preislistenprüfung möglich; nicht „keine Liste vorhanden“ behaupten. Nächster Schritt: freigegebener Browserabruf/Betreiberauskunft und Registerbestätigung. Diebach 67 erst danach geocodieren; 403 ist kein Schließungsbeleg.
+**Ankauf/Verkauf/Gebühren:** Die indexierte Startseite nennt Metallhandel und eine Seite „An- und Verkauf“, aber keine verifizierbaren Konditionen, Materialkurse oder Gebühren. Wegen HTTP 403 ist keine vollständige Preislistenprüfung möglich; nicht „keine Liste vorhanden“ behaupten. Nächster Schritt: freigegebener Browserabruf/Betreiberauskunft und Registerbestätigung. Diebach 67 erst nach Bestätigung als aktuelle öffentliche Anlieferstelle geocodieren; 403 ist kein Schließungsbeleg.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Aktuelle Suchindexansicht der Betreiberdomain ergänzt die bisherige Kontakt-/Impressumsuche: Stirling Industrie Rohstoff & Recycling GmbH bezeichnet sich als familiengeführtes Unternehmen mit Schwerpunkt Eisen-, Bunt- und Edelmetallschrotte. Indexierte Bürozeiten: Mo–Fr 08:00–17:00, Sa 09:00–12:00; gesonderte Anlieferzeiten: Mo–Fr 08:00–12:00 und 13:00–16:30, Sa 09:00–11:30. Die Seite „An- und Verkauf“ ist verlinkt, ihr Inhalt aber nicht aus dem Suchtreffer verlässlich erschließbar; keine Materialliste oder Zahlenpreise bestätigt. Direktabrufe von Homepage/Impressum weiterhin HTTP 403, daher weder Zeiten noch Identität/Registerdaten als direkt verifiziert behandeln und keine Felder füllen. Diebach 67 ist ein Adress-/GEO-Kandidat, keine bestätigte öffentliche Annahmestelle. Quellen: https://www.stirling-metallhandel.de/ ; https://www.stirling-metallhandel.de/kontakt/ ; https://www.stirling-metallhandel.de/an-und-verkauf/ .]
 
 ### Recherche 11.10.2026
 

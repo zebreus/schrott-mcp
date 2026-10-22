@@ -4,15 +4,15 @@ name: Jäger Jürgen
 trader_type: autoverwertung
 state: TH
 city: Schmalkalden
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Burgweg 1a
+postcode: '98574'
+phone: 03683 488143
+email: autoverwertung-jaeger@t-online.de
 opening_hours: ''
 website: https://www.jaeger-autoverwertung.de
 website_status: aktiv
-status: pruefung
-description: ''
+status: aktiv
+description: 'Autoverwertung, Abschleppdienst, Neu- und Gebrauchtteile, TÜV/DEKRA und Autoservice; kein allgemeiner Schrottankauf belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite identifiziert Jürgen Jäger als Autoverwertungs-Meisterbetrieb in Schmalkalden-Näherstille, tätig seit 1990, mit Autoverwertung, Abschleppdienst, Neu-/Gebrauchtteilen, TÜV/DEKRA und Autoservice. Die Website nennt Burgweg 1a, 98574 Schmalkalden-Näherstille, 03683 488143, E-Mail und Mo–Fr 08:00–12:00/13:00–18:00; die genaue Adresse/Kontaktdaten sind bisher nur erstanbieter-seitig belegt und bleiben aus dem Frontmatter heraus. Kein Schrottankaufspreis, Teileverkaufspreis oder Gebührenblatt auf den geprüften Seiten gefunden.
+Die Betreiberwebsite identifiziert Jürgen Jäger als Autoverwertungs-Meisterbetrieb in Schmalkalden-Näherstille, tätig seit 1990, mit Autoverwertung, Abschleppdienst, Neu-/Gebrauchtteilen, TÜV/DEKRA und Autoservice. Gelbe Seiten stützt unabhängig Burgweg 1a, 98574 und 03683 488143; diese Werte sind jetzt eingetragen. Die Öffnungszeiten widersprechen sich: Betreiberseite Mo–Fr 08:00–12:00/13:00–18:00, Gelbe Seiten Mo–Fr 08:00–17:00; deshalb kein Hours-Fill. **Ankauf:** Altfahrzeugverwertung ist belegt, eine Vergütung/Schrottankaufspreisliste nicht. **Verkauf:** Neu-/Gebrauchtteile angeboten, aber keine Preisliste. **Gebühren:** keine Abschlepp-/Verwertungsgebühren veröffentlicht. Die Anschrift ist neu in den Datenfeldern und zur Geokodierung vorgesehen.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 21.10.2026
+
+- [Owner-GEO-Prüfung 21.10.2026: Die Betreiberhomepage bestätigt Autoverwertung am Burgweg 1a; der OSM-Karteneintrag an dieser Adresse ist als Autoverwertung Jäger/scrap yard gekennzeichnet. Der Produktionspunkt löst dagegen auf Eichelbach 2 auf. Burgweg 1a ist ein Standortkandidat, doch öffentliche Anlieferbedingungen sind nicht ausdrücklich belegt und ein Eingangspunkt wurde nicht verifiziert; keine Koordinate ergänzt. Quellen: [Betreiberseite](https://www.jaeger-autoverwertung.de/), [OSM-Anlage](https://www.openstreetmap.org/node/8486351645), [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?lat=50.7214&lon=10.4439&format=jsonv2&zoom=18&addressdetails=1&extratags=1), [Owner-Bericht](../../research/wave-20261021-0900-geo-th.md).]
+
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Der Gelbe-Seiten-Eintrag bestätigt als unabhängige Verzeichnis-Gegenprobe Jäger Jürgen / Autoverwertung, Burgweg 1A, 98574 Schmalkalden und 03683 48 81 43. Zusammen mit dem namens- und ortskongruenten Betreiber-Impressum stützt dies die nun ergänzten Straße/PLZ/Telefon; Betreiber-Impressum ist auch die Quelle für E-Mail und Leistungsangebot. Öffnungszeiten nicht übernommen: Gelbe Seiten meldet Mo–Fr 08:00–17:00, die Betreiberseite 08:00–12:00/13:00–18:00. Ankaufspreise, Teilepreise und Gebühren weiterhin nicht veröffentlicht; kein fixer Schrottankauf belegt. GEO: Burgweg 1a, 98574 Schmalkalden-Näherstille geokodieren. Quellen: https://www.gelbeseiten.de/gsbiz/44b9c7aa-c497-4767-95e6-f61baf281f69 ; https://www.jaeger-autoverwertung.de/impressum ; https://www.jaeger-autoverwertung.de/]
 
 ### Recherche 06.10.2026
 

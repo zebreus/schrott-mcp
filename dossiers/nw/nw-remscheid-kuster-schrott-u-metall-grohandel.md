@@ -24,9 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Die direkt gelesene Seite kuester-rs.de gehört weiterhin **RC Küster GmbH, Bauunternehmen**, Betriebshof Auf dem Knapp 3, Geschäftsführer Rosario Cutruneo. Weder angebotene Entrümpelung noch gleicher Nachname belegen Identität oder Rechtsnachfolge zur Küster-Schrottgroßhandlung/Lenneper Str. 57.
+Die direkt gelesene Seite kuester-rs.de gehört **RC Küster GmbH, Bauunternehmen**, Betriebshof Auf dem Knapp 3, Geschäftsführer Rosario Cutruneo; keine belegte Rechtsnachfolge zur Schrottgroßhandlung. Neu ist ein North-Data-Profil mit genau passendem Firmennamen „Wilhelm Küster Rohprodukten- und Schrott-Großhandlung GmbH & Co. KG“, AG Wuppertal HRA 17794, das den Rechtsträger als erloschen markiert und Liquidationsmeldungen aus 2020 ausweist. Das ist ein starker Kandidat für den historischen Namen, aber die Seed-Zeile besitzt keinen HRA-Abgleich; das North-Data-Profil ist ein Registerspiegel und die Originalbekanntmachungen wurden nicht eingesehen. Lenneper Str. 57 bleibt ein Adress-Lead.
 
-Lenneper-Str.-Adresse und 02191 31089 bleiben Verzeichnis-Leads; kein aktueller Betreiber-/Registerbeleg gewonnen. **Ankauf / Verkauf / Gebühren:** keine der Schrottfirma zurechenbare Liste. Kein Bauunternehmen als Ersatzhändler verknüpft, keine Geocodierung einer ungesicherten Altadresse; status pruefung bleibt.
+Die Stadt Remscheid eröffnete 2024 auf dem Parkplatz vor Lenneper Str. 57 einen kommunalen Wertstoffhof für Haushalte; zugelassen sind u.a. Papier/Pappe und kleinteiliges Metall, keine gewerblichen Anlieferungen. Das beweist weder eine frühere noch aktuelle Küster-Annahme. **ANKAUF/VERKAUF/GEBÜHREN:** keine der Schrottfirma zurechenbare Preis- oder Tarifliste. **GEO:** Lenneper Str. 57 nicht als Schrotthändler-Pin nutzen; die kommunale Annahme ist eine separate Einrichtung. Status pruefung bleibt.
 
 ## Timeline
 
@@ -46,3 +46,7 @@ Lenneper-Str.-Adresse und 02191 31089 bleiben Verzeichnis-Leads; kein aktueller 
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Die live Website kuester-rs.de weist ausdrücklich die RC Küster GmbH als Bauunternehmen am Betriebshof Auf dem Knapp 3, 42855 Remscheid aus; das ist ein anderer Betreiber und belegt weder die Dossierfirma noch Lenneper Str. 57. Die bisherigen Lenneper-Str.-/Telefon-Verzeichnisangaben bleiben unbestätigte Leads. Abrufe von kuester-remscheid.de und wilhelm-kuester.de lieferten keine verwertbaren Betreiberbelege; keine Frontmatter-Änderung, Adresse nicht koordinatenbereit. Quellen/Gegenbeleg: https://www.kuester-rs.de/ ; https://kuester-remscheid.de/ ; https://wilhelm-kuester.de/]
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: North Data direkt aufgerufen: exakt benannter Rechtsträger Wilhelm Küster Rohprodukten- und Schrott-Großhandlung GmbH & Co. KG, AG Wuppertal HRA 17794; Profilstatus „erloschen“, Historie mit Liquidation 04./17.12.2020 und Veröffentlichung 30.04.2024 „Löschung · Nicht mehr Liquidator: Rolf Küster“. Der Profilverlauf stärkt die Kandidatenidentität zur Dossierbezeichnung, beweist mangels Seed-HRA/Originalregistereinsicht aber weder die Zuordnung noch eine Schließung des heutigen Zielbetriebs. Separat meldet die Stadt Remscheid, dass 2024 ein kommunaler Wertstoffhof auf dem Parkplatz vor Lenneper Str. 57 eröffnet wurde: Haushaltsannahme, kleinteiliges Metall u.a., keine gewerblichen Anlieferungen. Nicht als Küster-Schrottplatz/Ankauf deuten. ANKAUF/VERKAUF: keine dem Dossier sicher zurechenbare aktuelle Preisliste. GEBÜHREN: keine Händler-Tarife; kommunale Annahmebedingungen nicht übertragen. GEO offen: Lenneper Str. 57 ist für den kommunalen Wertstoffhof belegt, nicht als Händlerbetrieb; kein Händler-Pin. Quellen: https://www.northdata.de/Wilhelm%20K%C3%BCster%20Rohprodukten-%20und%20Schrott-Gro%C3%9Fhandlung%20GmbH%20%26%20Co.%20KG,%20Remscheid/Amtsgericht%20Wuppertal%20HRA%2017794 ; https://www.remscheid.de/presseinformationen/am-1.august-eroeffnet-der-neue-wertstoffhof-sued.php]

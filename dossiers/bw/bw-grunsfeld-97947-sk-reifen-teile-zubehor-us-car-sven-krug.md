@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der einzige konkrete Betriebslead bleibt Schrottpreis.org: SK Reifen-Teile-Zubehör US-Car, Sven Krug, Bischofsheimer Str. 7, 97947 Grünsfeld, 09346 928579, als Demontagebetrieb beschrieben. Das ist ein Aggregator, kein Betreiber-/Registerbeleg; das GESA-Fachbetrieberegister lieferte keinen auswertbaren Einzelbefund zu Krug. **ANKAUF:** das Seitenwidget ist ausdrücklich „powered by schrott24“ und kein Preisangebot von Krug. **VERKAUF:** keine Krug-Teilepreisliste. **GEBÜHREN:** keine verifizierte Annahme-/Abholtarife. Status `pruefung`; Adresse und Telefon nicht als unabhängig bestätigt behandeln. Schrottpreis.org zeigt die Kartenkoordinate 49.640330, 9.751940, aber sie ist ein Portalpin und kein akzeptierter Geocode. Adresse/Pin daher erst nach Betreiber-/Standortklärung geokodieren.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Schrottpreis.org-Seite direkt erneut gelesen; sie führt unverändert SK Reifen-Teile-Zubehör US-Car/Sven Krug, Bischofsheimer Str. 7, 97947 Grünsfeld, 09346/928579 und die Behauptung „Demontagebetrieb“. Die eingebettete Karte zeigt 49.640330, 9.751940; das ist eine Drittportal-Koordinate, keine unabhängige Hausnummern-/Einfahrtsgeokodierung und wird nicht übernommen. Das Metallpreis-Widget ist ausdrücklich „powered by schrott24“ samt eigener Transport-/Standortkonditionen; kein Krug-Ankaufspreis. ANKAUF: keine betriebsspezifischen Kurse; VERKAUF: keine Teilepreise; GEBÜHREN: keine Krug-Tarife. Offener Betreiber-/GESA-Einzelbeleg; kein Frontmatter-Fill und keine GEO-Freigabe. Quelle: https://www.schrottpreis.org/autoverwertung-in-main-tauber-kreis/ ; Registergegenprüfung: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (Anwendungsseite, kein Krug-Einzelbefund).]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

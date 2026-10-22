@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metallrecycling Veit GmbH und der Jenaer Recycling-Lead sind plausibel, aber die Straßenangabe bleibt widersprüchlich: aktuelle Schrottplatz-Verzeichnisse nennen Fritz-Winkler-Str. 2a, während andere Einträge Löbstedter Straße 45 angeben. Der Unternehmenssitz in Stadtroda bzw. eine Zweigstelle Jena ersetzt keinen belastbaren Standortbeleg. Straße, Betreiberwebsite und aktuelle Annahme bleiben offen. Keine belegte Einkaufsliste, Verkaufspreise oder Entsorgungsgebühren; Status `pruefung` bleibt und Adresse nicht geokodieren, bis der Straßenkonflikt geklärt ist.
 
 ## Timeline
+
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Die unabhängige Verzeichnisprüfung findet erneut Fritz-Winkler-Str. 2a, 07749 Jena, 03641 376376 (Schrottplatz.org sowie Schrottplatz-Info-Stadtseite); die bereits dokumentierten Gegenleads nennen Löbstedter Str. 45. Keine Betreiberquelle oder Zweigstellenanschrift aus dem Register wurde neu belegt. Deshalb keine Straßenkorrektur, keine Geokodierung und keine Preis-/Gebührenübernahme. Ankauf, Verkauf und etwaige Annahmegebühren bleiben nicht verifiziert. Quellen: https://www.schrottplatz.org/jena/schrott-metallrecycling-veit-gmbh-aYEPxZ.html ; https://www.schrottplatz-info.de/schrottplatz/Jena]
 
 ### Recherche 02.10.2026
 

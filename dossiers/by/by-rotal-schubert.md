@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-Der Seed enthält nur den Namen „Schubert“ und Roßtal. Die recherchierte Otto Schubert GmbH an der Gewerbestraße 8 ist ein Gehäuse-/Mechanikhersteller; ihre Website erklärt ausdrücklich, Hersteller und kein Händler zu sein. Es gibt keinen Beleg, dass diese Firma der gesuchte Schrotthandel ist. Keine Übertragung von Kontakten oder Produktpreisen; für den Seed sind Ankauf, Verkaufspreise und Gebühren ungeklärt.
+Der Seed enthält nur den Namen „Schubert“ und Roßtal. Die recherchierte Otto Schubert GmbH an der Gewerbestraße 8 ist ein Gehäuse-/Mechanikhersteller; ihre Website erklärt ausdrücklich, Hersteller und kein Händler zu sein. GLEIF bestätigt unabhängig den Rechtsträger Otto Schubert GmbH, HRB 3993 und dieselbe Anschrift, aber keine Verbindung zum unbestimmten Seed. Es gibt keinen Beleg, dass diese Firma der gesuchte Schrotthandel ist. Keine Übertragung von Kontakten, Koordinaten oder Produktpreisen; für den Seed sind Ankauf, Verkaufspreise und Gebühren ungeklärt.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: GLEIF-Datensatz zur Otto Schubert GmbH (LEI 9845005CG4854F9DA778) gegengeprüft: Rechtsträgerstatus dort „ACTIVE“, LEI-Registrierung selbst „LAPSED“; vollständig gegen HRB 3993 beim Amtsgericht Fürth validierte Rechts- und Hauptanschrift Gewerbestraße 8, 90574 Roßtal. Das bestätigt die Existenz des bereits abgegrenzten Gehäuse-/Mechanikherstellers, nicht seine Identität mit dem Seed „Schubert“ als Schrotthandel. Die GLEIF-Koordinate bezieht sich ausschließlich auf diesen Namesake und wird nicht übertragen. ANKAUF/VERKAUF/GEBÜHREN des Seeds bleiben unbekannt; keine Feldfüllung. Quellen: https://www.gleif.org/lei/9845005CG4854F9DA778 ; https://www.schubert-gehaeuse.de/ ; https://www.schubert-gehaeuse.de/impressum.html .]
 
 ### Recherche 18.10.2026 — Welle 02:00 / a
 

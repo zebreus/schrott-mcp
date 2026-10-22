@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Erstmals konkrete Registeridentität gefunden: **Otto Stiegler Inh. Heike Gerbl e. K.**, HRA 4780 AG Chemnitz, Lichtenstein/Sachsen. Die Registerhistorie nennt zuvor Inge Stiegler und einen Inhaberwechsel 2007. Das löst das Kürzel H. Gerbl als Recherchekandidat auf, belegt aber nicht aktuelle Schrottannahme, Güterbahnhofstraße 2 oder die Telefonnummer. Daher keine Namens-/Adressübertragung aus einem einzelnen Registerbeleg; Status `pruefung` statt unbelegt `aktiv`.
+Der aktuelle NorthData-Direktabruf bestätigt weiterhin die Registeridentität **Otto Stiegler Inh. Heike Gerbl e. K.**, HRA 4780 AG Chemnitz, mit früherem Namen/Inhaberspur Inge Stiegler und Wechsel zu Heike Gerbl 2007. Öffentlich angezeigt wird nur Lichtenstein/Sachsen; die publizierte Anschrift von 2010 ist nicht ausgeschrieben. Verzeichnis-Leads nennen Güterbahnhofstr. 2, 09350 Lichtenstein und 037204 2343, belegen aber weder heutige Betriebsstätte noch aktuelle Schrottannahme. Status bleibt `pruefung`.
 
-Ankauf/Verkauf/Gebühren: keine verifizierte numerische Liste. Offen sind aktuelle Inhaberschaft, öffentliche Hofannahme, Anschrift, Zeiten und Vergütung.
+**Preise:** **Ankauf**: keine aktuelle Annahmebestätigung oder numerischen Kurse. **Verkauf**: keine Preisliste. **Gebühren**: keine Gebührenliste. Offen sind aktueller Inhaber, Kundenhof/Annahme, Adresse, Öffnungszeiten und Vergütung; Güterbahnhofstr. 2 bleibt ungeprüft und ungeokodiert.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: NorthData-Unternehmensseite direkt erneut gelesen. Sie zeigt Otto Stiegler Inh. Heike Gerbl e. K., Amtsgericht Chemnitz HRA 4780, den früheren Namen Otto Stiegler, Inh. Inge Stiegler e. K. sowie die Publikation zum Inhaberwechsel vom 26.09.2007. Als Anschrift wird nur Lichtenstein/Sachsen ausgewiesen; die Publikation vom 17.05.2010 enthält öffentlich keine lesbare Straße. Das bestätigt die Registeridentität, aber weder Güterbahnhofstraße 2 noch Telefon, Annahme oder heutige Vergütung. Keine Frontmatter-Änderung; Ankauf/Verkauf/Gebühren ohne Zahlenliste, GEO offen. Quelle: https://www.northdata.de/Otto%20Stiegler%20Inh%C2%B7%20Heike%20Gerbl%20e%C2%B7%20K%C2%B7,%20Lichtenstein%2FSachsen/Amtsgericht%20Chemnitz%20HRA%204780 ; Verzeichnis-Lead: https://m.unser-stadtplan.de/Stadtplan/Lichtenstein-/-Sachsen/Partner/Gueterbahnhofstr-2/Schrott-Buntmetall-Altpapier-Otto-Stiegler-Inh-Heike-Gerbl.map .]
+
+### Owner-GEO-Prüfung 21.10.2026
+
+- [Owner-Prüfung 21.10.2026: Die read-only Produktionszeile enthält 48.4396, 9.2528. Nominatim reverse-geocodiert den Punkt zur Gemeinde Lichtenstein im Landkreis Reutlingen, Baden-Württemberg; der Händler ist laut Registerspur Otto Stiegler in Lichtenstein/Sachsen. Das ist keine bestätigte Händleradresse, sondern eine starke Fehlzuordnung des gespeicherten Punkts. Die Straßenangabe Güterbahnhofstr. 2 bleibt ein Verzeichnis-Lead; keine Ersatzkoordinate übernommen oder Produktionsdaten geändert. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.4396&lon=9.2528&zoom=10 ; https://www.northdata.de/Otto%20Stiegler%20Inh%C2%B7%20Heike%20Gerbl%20e%C2%B7%20K%C2%B7,%20Lichtenstein%2FSachsen/Amtsgericht%20Chemnitz%20HRA%204780.]
 
 ### Recherche 15.10.2026 (12:00-Welle B)
 

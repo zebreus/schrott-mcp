@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Einziger konkret zuordenbarer Kandidat bleibt der 11880-Eintrag „Pero´s Entrümpelung & Schrotthandel“: Spessartstr. 10, 33719 Bielefeld, Telefon 01514 5539515, pero42@hotmail.de. Er ist als Aggregator-Lead gekennzeichnet (Eintragsdatum 25.12.2024, aktualisiert 17.09.2026), ohne Betreiberwebsite oder aktuelle Primärbestätigung. Die ähnlich klingende Firma PEREZ an anderer Adresse ist ein anderer Name und bleibt getrennt. Keine belastbar veröffentlichten Ankaufspreise, Verkaufsangebote oder Gebühren; Adresse nur Kandidat für spätere Geocodierung nach Identitätsbestätigung.
+Einziger konkreter Kandidat bleibt der 11880-Eintrag „Pero´s Entrümpelung & Schrotthandel“: Spessartstr. 10, 33719 Bielefeld, Telefon 01514 5539515, pero42@hotmail.de; Eintragsdaten 25.12.2024, Portalaktualisierung 04.10.2026. Die Rubrik „Leistungen“ nennt Entrümpelung, Kleintransport und Umzug, aber keinen konkreten Schrottankauf; der Schrotthandel steht nur im Profilnamen. Das ist ein Aggregator-Lead ohne Betreiberwebsite oder Primärbestätigung. PEREZ an anderer Adresse bleibt ein anderer Betrieb.
+
+**Preise:** Ankauf: nicht verifiziert; Verkauf: keine Liste; Gebühren: keine Tarife. Die Portal-Preisspannen-FAQ enthält keine konkreten Preise. Spessartstr. 10 nicht geocodieren, bis Identität und Annahmestelle bestätigt sind.
 
 ## Timeline
 
@@ -46,3 +48,7 @@ Einziger konkret zuordenbarer Kandidat bleibt der 11880-Eintrag „Pero´s Entr�
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Keine unabhängige Primär-/Registerquelle hinzugekommen. 11880-Lead und Gegenprobe Gelbe Seiten bleiben der einzige konkrete Identitätspfad; daraus keine Inhaberschaft, aktive Schrottannahme oder Abholreichweite ableiten. Ankauf: keine Materialannahmen/Preise verifiziert; Verkauf und Gebühren: keine Preisliste. Spessartstr. 10 weiterhin nur Verzeichnisadresse und nicht geokodieren, bis Betreiberbezug bestätigt ist. Quelle(n): https://www.11880.com/branchenbuch/bielefeld/060441363B112527902/pero-s-entruempelung-schrotthandel.html; https://www.gelbeseiten.de/suche/Pero%27s/Bielefeld.]
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Detailseite erneut direkt gelesen. Der Profilname enthält „Schrotthandel“, die konkrete Leistungsrubrik nennt jedoch Entrümpelung, Kleintransport und Umzug; Eintragsdaten 25.12.2024, Portalaktualisierung 04.10.2026. Weder Betreiberwebsite noch aktueller Primärbeleg sichtbar; auch kein konkreter Ankaufspreis. Keine Stammdatenänderung und kein GEO. ANKAUF: nicht bestätigt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle (Aggregator-Lead): https://www.11880.com/branchenbuch/bielefeld/060441363B112527902/pero-s-entruempelung-schrotthandel.html]

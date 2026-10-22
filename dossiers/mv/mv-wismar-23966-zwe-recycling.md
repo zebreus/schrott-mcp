@@ -28,6 +28,10 @@ Die Website der zWe-Gruppe beschreibt zWe Recycling GmbH & Co. KG als Gruppenges
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gruppenwebsite, Impressum und aktuelles TGZ-Firmenverzeichnis erneut direkt gelesen. zWe beschreibt Recycling als Wiederaufarbeitung hochwertiger Komponenten aus erneuerbaren Energieanlagen; die Kontakt-/Impressumsangaben nennen zWe Ingenieure, André Winkler und Alter Holzhafen 3, aber keine eigenständige KG-Registerkennung oder öffentliche Schrottannahme. Das TGZ-Verzeichnis bezeichnet Alter Holzhafen 3 aktuell als Standort der click solutions GmbH und führt zWe nicht; diese Verzeichnislücke widerlegt für sich allein keinen weiteren Kontakt-/Nutzungsstatus. Keine Adress- oder Kontaktübertragung. ANKAUF: keine Metallankaufspreise; VERKAUF: keine öffentliche Materialpreisliste; GEBÜHREN: keine Annahme-/Entgelttarife. Quelle: https://www.zwe-i.de/ ; https://www.zwe-i.de/imprint ; https://www.tgz-mv.de/firmenverzeichnis-firmen-wismar .]
+
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 
 - [Recherche 14.10.2026: Gruppen-Homepage und Impressum neu vollständig textlich gelesen. Genauere Leistungsabgrenzung: Bereich zWe Recycling beschreibt geplante Hochschulzusammenarbeit, Technologieentwicklung/-transfer, Verfahrenstechnik, Studienarbeiten und Produktionsplanung für Wiederaufarbeitung hochwertiger Komponenten; nicht automatisch operativer öffentlicher Schrottplatz. Impressum weiterhin Dipl.-Ing. André Winkler / zWe Ingenieure, Alter Holzhafen 3, ohne eigenständige Recycling-KG-Registernummer. Firmen-/Gruppengründungsaussage und erreichbare Website sind kein aktueller Register- oder Anlieferstellenbeleg; letzte sichtbare News 2021 nicht als Aktualitätsbeweis 2026 ausgeben. Quellen: https://www.zwe-i.de/ ; https://www.zwe-i.de/imprint .]

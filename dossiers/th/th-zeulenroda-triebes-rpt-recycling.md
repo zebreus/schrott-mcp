@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Registerwortlaut weist die **RPT Recycling UG (haftungsbeschränkt)**, HRB 515738 (Amtsgericht Jena), unter Binsicht 53, 07937 Zeulenroda-Triebes aus; Gesellschaftszweck ist das Betreiben eines Recyclingplatzes. Anschrift und Rechtsform sind damit besser belegt als die fehlerhafte Seed-PLZ `15738`. Registeraktivität belegt jedoch nicht, dass aktuell eine öffentliche Annahmestelle betrieben wird: Öffnungszeiten, Annahmebedingungen und tatsächlicher Betrieb bleiben offen, daher Status `pruefung`. Keine konkreten Ankaufspreise, Verkaufspreise oder Gebühren ermittelt.
+Registerdaten und Creditreform bestätigen die **RPT Recycling UG (haftungsbeschränkt)**, HRB 515738 AG Jena, Binsicht 53, 07937 Zeulenroda-Triebes; der Unternehmensgegenstand lautet Betrieb eines Recyclingplatzes. Creditreform führt zudem 036628 955790 und bezeichnet das Unternehmen als wirtschaftsaktiv; die letzte dort ausgewiesene Registeränderung ist allerdings vom 10.05.2019. Das belegt weder aktuelle Öffnung noch Annahme für Laufkundschaft. Kein Betreiberauftritt, keine Öffnungszeiten oder Materialliste verifiziert. Ankaufspreise, Verkaufspreise und Gebühren nicht veröffentlicht; Status `pruefung` bleibt.
 
 ## Timeline
+
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Die aktuelle Creditreform-Unternehmensseite wiederholt Binsicht 53, 07937 und HRB 515738, nennt als Unternehmensgegenstand den Betrieb eines Recyclingplatzes sowie Telefon 036628 955790. Sie zeigt als letzte Registeränderung den 10.05.2019 und ist kein Betreiberbeleg; deshalb wurde die Telefonnummer nicht ins Frontmatter übernommen. Kein bestätigter Publikumsbetrieb, keine aktuellen Öffnungszeiten/Annahmebedingungen, keine Ankaufspreise, Warenverkaufspreise oder Gebühren. Die Anschrift war bereits vorhanden; keine neue Geokodierung. Quelle: https://firmeneintrag.creditreform.de/07937/3110206361/RPT_RECYCLING_UG_HAFTUNGSBESCHRAENKT]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Recherchelauf fand weiterhin keinen Betreiberauftritt oder belastbaren Register-/Kommunalbeleg für Braun Recycling in Flöha. Such- und Verzeichnisangebote führen „Olga Braun“ bzw. Braun Recycling an Bergstr. 20, 09557 Flöha, nennen aber die aus der älteren Prüfung bekannte abweichende Telefonnummernspur. Das sind Leads, keine unabhängigen Betriebsnachweise. Status bleibt `pruefung`; Adresse und Kontakt sind nicht als bestätigt zu lesen.
+
+**Preise:** **Ankauf**: keine qualifizierte Annahmebestätigung und keine Zahlenliste. **Verkauf**: keine Preisliste. **Gebühren**: keine Tarife. **GEO:** Bergstr. 20 ist ein ungeprüfter Verzeichniskandidat; wegen Betreiber-/Telefonkonflikt keinen Kundenhof-Pin setzen.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Eigenständige Namens-/Ortsuche ergab keine Betreiberwebsite oder Registerquelle. Cylex und Sellwerk zeigen „Olga Braun Recycling“/„Braun Olga Recycling“ an Bergstr. 20, 09557 Flöha, Tel. 0172 3773792; Recyclinghof-Wertstoffhof führt ebenfalls Bergstraße 20 mit dieser Nummer, daneben aber weiterhin einen separaten Eintrag „Bergstraße“ mit +49 1522 2676148. Das sind Verzeichnis-Leads und kein unabhängiger Beleg für aktuelle Annahme oder Inhaberidentität. Keine Felder ergänzt, kein Preisfund; GEO bleibt ausgesetzt. Quellen: https://web2.cylex.de/firma-home/olga-braun-recycling-13999770.html ; https://sellwerk.de/firmenprofil/braun-olga-recycling ; https://recyclinghof-wertstoffhof.de/recyclinghof/sachsen/floeha/braun-recycling-bergstrasse-20 ; https://recyclinghof-wertstoffhof.de/recyclinghof/sachsen/floeha/braun-recycling-bergstrasse .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

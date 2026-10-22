@@ -31,6 +31,10 @@ Nur Betreiber-Einzelquelle, Impressum weiter ohne HRB: keine stillschweigende Te
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: Darmstädter Standortkontakt direkt gelesen bestätigt weiterhin Pfnorstraße3/64293, 061518053964, darmstadt@schrott-mohr.de und Link zum Wiesbadener Impressum; alter Frontmatter-Telefonwert061512772486 dadurch nicht unabhängig bestätigt. Zusätzlich MOHR-Autoverwertungsseite direkt gelesen: bis100Euro je vollständigem Fahrzeug, kostenlose Abholung nur mit Papieren/rollfähig/nicht ausgebrannt oder ausgeschlachtet, Hof in Mainz/Nerobergstr.8a. Das ist keine Darmstädter Materialpreisliste und keine neue juristische Filialkette. Keine Übertragung dieses Fahrzeugpreises auf Darmstadt oder den unspezifischen Wiesbadener Altfahrzeug-Seed. Ankauf Darmstadt ohne numerische Kurse; Verkauf/Gebühren ohne standortbezogene Liste. Telefon-/Kettenprüfung bleibt Voraussetzung für skalare Korrekturen und GEO. Quelle(n): https://www.schrott-mohr-darmstadt.de/kontakt/ ; https://autoverwertung-rhein-main.de/ .]
+
 ### Recherche 16.10.2026 (13:00-Welle C)
 
 - [Recherche 16.10.2026: Darmstädter Betreiber-Kontakt direkt erneut gelesen: Pfnorstraße 3/64293, 06151 8053964, darmstadt@schrott-mohr.de; Website bezeichnet den Standort ausdrücklich als eigenen Schrottplatz und wirbt für Ankauf/Abholung/Container/Demontage. Im Footer wiederum direkte Verknüpfung zum Wiesbadener Impressum. Bestätigt die Webselbstdarstellung, löst aber die juristische Kettenfrage und Seed-Telefonkonflikt 061512772486 nicht unabhängig. Keine stille Kontaktkorrektur und kein Merge mit Mainz/Wiesbaden. ANKAUF: beworben ohne Zahlenliste auf der Kontaktseite; VERKAUF/GEBÜHREN: dort keine Tarife. GEO: erst Filial-/Betreiberzuordnung und aktuelle Standortfreigabe, keine Koordinaten geändert. Quelle: https://www.schrott-mohr-darmstadt.de/kontakt/ .]

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Registerspiegel ordnet T-H-E Catalyst GmbH, HRB 109181, der Marckmannstr. 30, 20539 Hamburg zu und beschreibt den Unternehmensgegenstand als Import/Handel mit Alt- und Edelmetallen, insbesondere Edelmetallrückständen aus Katalysatoren, sowie An- und Verkauf von Katalysatoren. Das belegt Gesellschaft und historischen Geschäftszweck, nicht eine heute zugängliche Annahmestelle, aktive Ankaufspraxis oder Öffnungszeiten. Keine zuordenbare Betreiber-Preisliste gefunden: weder Katalysator-Ankaufskurse noch Verkaufspreise oder Gebühren sind belegt. Das Frontmatter-`aktiv` ist nicht durch aktuelle Betriebsnachweise bestätigt.
 
 ## Timeline
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberseite bestätigt ESE Dienstleistung an Hilschbacher Straße 66, 66292 Riegelsberg, mit Telefon 0151 65134087 und info@elektro-system-entsorgung.de. Schwerpunkt ist eine Erstbehandlungsanlage für Elektro-/Elektronikgeräte mit Abholung und Nachweisverfahren sowie Haushaltsentrümpelung/Baudienstleistungen; ein Ankauf von Altmetall ist nicht belegt. Die Seite ist erreichbar, trägt aber einen Copyright-Stand 2020–2023. Keine veröffentlichten Ankauf-/Verkaufspreise oder Gebühren gefunden; Abhol-/Entsorgungskonditionen beim Betreiber erfragen.
+Die Website beschreibt ESE Dienstleistung an Hilschbacher Straße 66, 66292 Riegelsberg, und behauptet eine Erstbehandlungsanlage für Elektro-/Elektronikgeräte. Rechtliche Betreiberperson und aktuelle Anlagenqualifikation sind nicht unabhängig bestätigt. Nach der stiftung ear reicht Sammeln oder Lagern nicht als Erstbehandlung; erforderlich ist z. B. Schadstoffentfrachtung oder Vorbereitung zur Wiederverwendung. Ein Altmetallankauf ist nicht belegt. Keine veröffentlichten Ankauf-/Verkaufspreise oder Entsorgungsgebühren gefunden; Konditionen beim Anbieter erfragen. Die Adresse bleibt ein Prüf-Lead ohne Koordinaten.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Die eigene Leistungsseite beschreibt weiterhin eine Erstbehandlungsanlage, aber Impressum/Anbieterkennzeichnung benennt keine rechtliche Betreiberperson und kein aktuelles Zertifikat. Die stiftung ear grenzt Erstbehandlung fachlich ab: Altgeräte müssen erstmals behandelt, etwa von Schadstoffen befreit oder zur Wiederverwendung vorbereitet werden; bloßes Sammeln/Lagern genügt nicht. Im öffentlich zugänglichen ear-Verzeichnis ließ sich kein belastbarer ESE-Eintrag zuordnen. Das ist keine amtliche Negativauskunft, daher bleibt die Website-Aussage ungeprüft statt widerlegt. Kein nachgewiesener Metallankauf, keine Ankaufspreise, keine Verkaufsliste und keine Gebührentabelle. Hilschbacher Str. 66 bleibt Adresse aus der Einzelquelle; keine Geokoordinaten ergänzt. Quellen: https://www.elektro-system-entsorgung.de/index-5.html ; https://www.elektro-system-entsorgung.de/index-00.html ; https://www.stiftung-ear.de/themenwelten/wozu-gehoere-ich ; https://www.ear-system.de/ear-verzeichnis/eba (Abruf 20.10.2026).]
 
 ### Ownerdisposition 18.10.2026
 

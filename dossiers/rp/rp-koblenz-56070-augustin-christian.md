@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten und UPA-Online führen „Augustin Christian“ bzw. „Auto Augustin“ als Autoverwertung in Schönbornsluster Str. 29, 56070 Koblenz; Gelbe Seiten nennt 0261 82101 und UPA verlinkt auf autoaugustin.de. Das sind Verzeichnisleads, kein verifizierter Betreiber-/Registerbeleg; der verlinkte Betreiberauftritt konnte nicht unabhängig bestätigt werden. Keine Feldänderung, Name/Standort bleiben Klärfall. ANKAUF: keine Fahrzeugangebote/Preise verifiziert; VERKAUF: keine Ersatzteil-Preisliste; GEBÜHREN: Abholung/Verwertungskosten nicht belegt.
+Am 21.10.2026 direkt gelesene Gelbe-Seiten- und UPA-Einträge führen „Augustin Christian“/„Auto Augustin“, Schönbornsluster Str. 29, 56070 Koblenz, und 0261 82101; UPA nennt zusätzlich Fax, E-Mail und autoaugustin.de, Gelbe Seiten weitere Nummern und Öffnungszeiten. Beide sind Branchenverzeichnisse, kein Betreiber-/Registerbeleg. autoaugustin.de ließ sich bei der heutigen DNS-Auflösung nicht erreichen; das ist kein Schließungsnachweis. Keine Frontmatter-Füllung; status pruefung. **Ankauf:** keine Fahrzeugankaufpreise oder Bedingungen verifiziert. **Verkauf:** Verzeichniskategorien nennen Teile, aber keine Preisliste. **Gebühren:** keine Verwertungs-, Abhol- oder Teiletarife belegt.
 
 ## Timeline
+
+### Quellenprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe Seiten führen „Augustin Christian Autoverwertung“, Schönbornsluster Str. 29, 56070 Koblenz, 0261 82101, weitere Nummern 0261 803471 und 0176 96019280 sowie Mo–Fr 09:00–19:00 und Sa 09:00–16:00; Leistungsumfang/Kategorien umfassen Autoverwertung und Teile. UPA führt „Auto Augustin“ an derselben Anschrift, 0261 82101, Fax 0261 803471, autoaugustin@freenet.de und autoaugustin.de. Zwei Verzeichnisse bleiben nach README ein Aggregator-Beleg, keine Betreiber-/Registerbestätigung; die Klassifikation, Zeiten und Kontaktdaten daher nur als Leads. Direkter Abruf der Domain scheiterte heute an nicht auflösbarem DNS; kein Schließungsbeweis. ANKAUF: keine Fahrzeugangebote oder Preise belegt; VERKAUF: keine Ersatzteilpreise; GEBÜHREN: keine Verwertungs-/Abholgebühren. Keine Frontmatter-Änderung. Quellen: https://www.gelbeseiten.de/gsbiz/6734577f-4a23-40b5-8763-9cf4c57b4023 ; https://www.upa-online.de/autoverwertung-autohandel-autoteile-u-zubehoer-koblenz-26fbfdf400.html ; http://autoaugustin.de/ (DNS-Auflösung heute fehlgeschlagen).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

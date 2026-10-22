@@ -25,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein direkt gelesener LokaleSchrottplatz-Eintrag führt Fritz Glagau Metallhandel, Weißdornweg 6, 28865 Lilienthal, Telefon 04298 3863 und zahlreiche angebliche Materialannahmen. Die Seite ist ein Verzeichnis, keine Betreiberquelle; ihr Status „Geschlossen“ und die Mindestmengen sind nicht als Betriebs-/Annahmebestätigung belegt. Frontmatter bleibt unverändert.
+
+- **Ankauf:** Verzeichnis nennt Metallarten und Mindestmengen (Eisen ab 100 kg, NE ab 1 kg); keine verifizierten Kurse. Mindestmengen sind keine Preise.
+- **Verkauf:** keine belegte Material- oder Preisliste.
+- **Gebühren:** keine belastbaren Abhol-/Entsorgungstarife.
+- **GEO:** Weißdornweg 6 ist nur Portalangabe; Suchportal-Koordinaten nicht als betrieblicher Standort übernommen.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Den LokaleSchrottplatz-Eintrag direkt gelesen: Weißdornweg 6, 28865 Lilienthal, 04298 3863; aufgeführt sind Stahl/Eisen, Aluminium, Kupfer, Edelstahl, Blei, Messing, Rotguss, Zink, Nickel, Zinn, Kabel, Hart-/Sondermetalle, Kühler, Altfahrzeuge und Elektromotoren sowie Mindestannahmen FE 100 kg/NE 1 kg. Die Seite zeigt „Geschlossen“, ist aber ausdrücklich ein Verzeichnis mit Registrierung für Einträge, keine Betreiberseite; weder Schließung noch aktuelle Annahme daraus ableiten. Kein Preis je Material, keine Verkaufs- oder Gebührenliste. Keine Frontmatter-Änderung/Geokodierung. Quelle: https://lokaleschrottplatz.de/fritz-glagau-metallhandel.]
 
 ### Recherche 04.10.2026
 

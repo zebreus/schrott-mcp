@@ -26,7 +26,7 @@ provenance_origin: table
 
 Für einen Schrotthändler „Küsters“ im Selfkant ist keine Betreiberidentität bestätigt. 11880 nennt Hochstr. 36, 52538 Selfkant-Schalbruch, 02456 508323 und zusätzlich 0171 6913136. Branchen-info listet Arndt Küsters mit derselben Adresse und Mobilnummer: eine konkrete Verzeichnisbrücke, kein zulässiger Betriebsbeleg. Das Facebook-Personenprofil enthält „Selfkant Schrotti“ und einen Arbeitsplatzverweis auf Schrotthandel Küsters, aber keine im Abruf bestätigte Zuordnung zur Hochstraße oder den Telefonnummern und keine nachgewiesene Inhaberschaft. Die Ankaufwerbung ist heute nur im Suchindex reproduziert, nicht im direkt gelesenen Profilinhalt. Keine Stammdaten-Fills. Der KFZ-Service Küsters/Rene Ringel in Höngen ist eine anders adressierte Werkstatt und wird nicht dem Dossier zugeordnet.
 
-**ANKAUF:** im geprüften Umfang kein verifizierter Betreiber-/Angebotsnachweis oder zuordenbarer Preis. **VERKAUF:** keine zuordenbare Liste in den Abrufen. **GEBÜHREN:** keine zuordenbaren Tarife, unbekannt ist nicht kostenlos. Status `pruefung`.
+**ANKAUF:** im geprüften Umfang kein verifizierter Betreiber-/Angebotsnachweis oder zuordenbarer Preis. **VERKAUF:** keine zuordenbare Liste in den Abrufen. **GEBÜHREN:** keine zuordenbaren Tarife, unbekannt ist nicht kostenlos. Status `pruefung`. **GEO:** Hochstr. 36 bleibt ein Verzeichnislead und nicht als Annahme bestätigt; die getrennte KFZ-Werkstatt in der Heerstr. 4a ist kein Ersatzstandort. Keine Geokodierung ohne eindeutige Betreiber-/Standortverknüpfung.
 
 ## Timeline
 
@@ -57,3 +57,7 @@ Für einen Schrotthändler „Küsters“ im Selfkant ist keine Betreiberidentit
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Zusätzliche Leads, aber kein Identitätsabgleich: 11880 listet „Küsters Schrotthandel Selfkant“ an Hochstr. 36, 52538, Tel. 02456 508323 (Eintrag datiert 2016); ein Facebook-Profil `arndt.kusters` behauptet allgemein Schrott-/Alteisen- und Altautoankauf, nennt im abrufbaren Inhalt aber keine verifizierbare Verbindung zu diesem Eintrag oder Ort. Beide Quellen bleiben Leads. Keine Felder gefüllt; insbesondere weder KFZ-Service Küsters/René Ringel noch ein Preisversprechen auf das Dossier übertragen. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren Preise/Tarife. Quellen: https://www.11880.com/branchenbuch/selfkant/120674719B41808320/kuesters-schrotthandel.html ; https://www.facebook.com/arndt.kusters]
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Erneute exakte Namens-/Ortsrecherche lieferte keine neue zulässige Betreiber- oder Registerquelle. Die bereits dokumentierte Brücke Hochstr. 36 / Arndt Küsters / Facebook-Auftritt bleibt ein Aggregator-/Profil-Lead ohne gesicherte Verbindung und ohne bestätigte aktuelle Betriebsrolle; Kfz-Service Küsters/René Ringel an Heerstr. 4a bleibt separat. Keine Stammdaten übernommen. ANKAUF: kein verifizierter Kurs/keine Zahlenliste. VERKAUF: keine zuordenbare Liste. GEBÜHREN: keine Tarife oder belegte kostenfreie Leistung. GEO offen: Hochstraße nicht als Annahmestelle, Heerstraße nicht als Ersatz pinnen. Quellen/Leads: https://www.11880.com/branchenbuch/selfkant/120674719B41808320/kuesters-schrotthandel.html ; https://www.facebook.com/arndt.kusters ; http://www.kfzservice-kuesters.de/pages/anfahrt.html; Suchlauf 20.10.2026 ohne zusätzliche Primärquelle.]

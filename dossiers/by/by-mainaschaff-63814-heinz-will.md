@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Registerspiegel führt eine Heinz Will GmbH & Co. KG (HRA 3932) in Mainaschaff mit Geschäftsanschrift An der Senne 25, 63814; das kollidiert mit der Seed-Adresse Hauptstr. 72. Deshalb bleiben Anschrift, aktueller Geschäftsbetrieb und Beziehung des Seed-Eintrags zu heutigen Schrottangeboten ungeklärt; die Registeranschrift wird nicht ohne unabhängige Standortbestätigung in die Frontmatter übernommen. Die aktuelle Mehring GmbH am Standort Dorfprozelten ist rechtlich und räumlich abzugrenzen.
+Der Registerspiegel führt eine Heinz Will GmbH & Co. KG (HRA 3932) in Mainaschaff mit Geschäftsanschrift An der Senne 25, 63814; das kollidiert mit der Seed-Adresse Hauptstr. 72. Das bvse-Mitgliederverzeichnis führt zusätzlich eine Heinz Will GmbH & Co. KG an Industriestraße 18, 97904 Dorfprozelten, nennt dazu aber keine HRA-Nummer oder Verbindung zur HRA 3932. Die Mehring-Website nennt dieselbe Dorfprozeltener Adresse für die Mehring GmbH, einen anderen Firmennamen. Weder Umzug noch gemeinsame aktuelle Kundenannahme ist damit belegt. Anschrift und Betrieb des Seed-Eintrags bleiben ungeklärt.
 
 **Preise:** **Ankauf** — kein aktueller, der Mainaschaffer KG zurechenbarer Ankaufskurs oder Annahmebeleg. **Verkauf** — keine verifizierte Produkt-/Materialpreisliste der KG. **Gebühren** — keine der KG zuordenbaren Abhol-, Container- oder Entsorgungstarife. Keine Geokodierung, solange der Adresskonflikt besteht.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Das bvse-Mitgliederverzeichnis nennt „Heinz Will GmbH & Co. KG“, Industriestraße 18, 97904 Dorfprozelten, Telefon 09392 9840412 und die Domain heinzwillkg.de; Direktabruf der Domain lieferte einen Transportfehler. Die Adresse stimmt mit dem auf der Betreiberwebsite angegebenen Standort der Mehring GmbH überein, beweist aber keine Umfirmierung/Übernahme und keine Verbindung des Seeds Hauptstr. 72 mit einem öffentlichen Schrottannahmeplatz. Die Seite der Mehring GmbH bewirbt Schrott-/Metallankauf und Containerlösungen, aber deren mögliche Konditionen sind keine Preise dieser KG. Für die Ziel-KG keine Ankauf-, Verkauf- oder Gebührenpreisliste gefunden. Offen: aktueller Registerauszug/Vertretung, Zuordnung der drei Adressen und öffentlicher Annahmebetrieb; Industriestraße 18 nicht als Kundenstandort übernommen oder geokodiert. Quelle(n): https://www.bvse.de/mitglieder-suche/e-schrott-2/584-heinz-will-gmbh-co-kg.html ; https://www.heinzwillkg.de/ (Transportfehler); https://www.mehring-container.de/impressum/ ; https://www.mehring-container.de/schrott-und-metalle/]
 
 ### Recherche 16.10.2026 (Shard 2)
 

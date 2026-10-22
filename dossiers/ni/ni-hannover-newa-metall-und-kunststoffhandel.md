@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seedname ist nicht als heute aktiver Betrieb bestätigt. Im Review am 18.10.2026 führt NorthData „NeWa Metall- und Kunststoffhandel GmbH“ ausdrücklich als früheren Namen der NeWa GmbH, HRB 210405 Hannover, Kennzeichnung i. L., Anschrift Lister Damm 35. Die dort wiedergegebene Auflösungsbekanntmachung von 2017 ist kein aktueller amtlicher Registerauszug. Der Zusammenhang mit dem Verzeichnisstandort Engelbosteler Damm 7 bleibt offen, eine heutige Schließung ist damit nicht bewiesen. Status `pruefung`; bestehende Adresse, PLZ, Telefon und Zeiten bleiben ausdrücklich unbestätigte strukturierte Alt-Leads und ein offener Datenqualitätsmangel, nicht neu freigegebene Fakten. Keine belastbare Preis-/Tarifquelle erschlossen.
+Der Seedname ist nicht als heute aktiver Betrieb bestätigt. NorthData führt „NeWa Metall- und Kunststoffhandel GmbH“ als früheren Namen der NeWa GmbH, HRB 210405 Hannover, i. L., Anschrift Lister Damm 35; die 2017er Auflösungsbekanntmachung ist kein aktueller amtlicher Registerauszug. Der Bezug zum Verzeichnisstandort Engelbosteler Damm 7 bleibt offen; eine heutige Schließung ist nicht bewiesen. Status `pruefung`; bestehende Adresse, PLZ, Telefon und Zeiten sind unbestätigte Alt-Leads.
+
+- **Ankauf:** keine verifizierte aktuelle Annahme oder Ankaufspreise.
+- **Verkauf:** keine Material-/Preisliste.
+- **Gebühren:** keine belegten Entsorgungs-/Abholtarife.
+- **GEO:** Engelbosteler Damm 7 ist nicht mit der Registeradresse Lister Damm 35 verbunden; vor GEO Standort und Betreiber klären.
 
 ## Timeline
+
+### Recherche 20.10.2026 — Eigenrecherche
+
+- [Recherche 20.10.2026: Der neue Suchlauf fand für den Seednamen zusätzlich einen Branchenverzeichnis-Eintrag, dessen sichtbare Metadaten ausdrücklich auf 19.05.2014 (Ersteintrag) und 27.05.2014 (letzte Änderung) datieren; kein Betreiber-Impressum, kein aktueller Standort und keine frische Annahmeinformation. Die bereits gelesene NorthData-Angabe zum früheren Namen/2017er Auflösungsbeschluss bleibt maßgeblich, aber historisch. Der Kontaktblock Engelbosteler Damm 7/0511 89820720/Mo–Fr 09–16 bleibt ein unbestätigter Portal-Altlead; kein Preisfund oder GEO. Quelle(n): https://www.branchenverzeichnis.org/infos/vcard/4811/newa-metall-und-kunststoffhandel-gmbh ; https://www.northdata.de/NeWa+GmbH,+Hannover/HRB+210405.]
 
 ### Korrektur 18.10.2026
 

@@ -24,11 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Der bisherige Negativbefund ist überholt: **Rilei Automobile GmbH**, Amtsgericht Stendal HRB 737, wird bei NorthData geführt, mit früherem Namen **RILEI Autoverwertung GmbH Badel**. GLEIF bestätigt denselben Rechtsträger/Registerschlüssel unabhängig. Der formale Name wird präzisiert, der stabile Slug bleibt unverändert.
+Der bisherige Negativbefund ist überholt: **Rilei Automobile GmbH**, Amtsgericht Stendal HRB 737, wird bei NorthData geführt, mit früherem Namen **RILEI Autoverwertung GmbH Badel**. GLEIF bestätigt denselben Rechtsträger/Registerschlüssel unabhängig. Ein zusätzliches Werkstattverzeichnis listet Cheinitzer Rundling 44, 39624 Kalbe, 039001 90922 und Ansprechpartnerin Nicole Wernecke, kennzeichnet den Eintrag aber als ungeprüft und führt nur Autoreparatur. Das ist keine Betreiberbestätigung für die Autoverwertung, keine Aussage zu aktuellem Hofbetrieb und kein Grund, die Verzeichnisdaten in die Frontmatter zu übernehmen. Der formale Registername und der stabile Slug bleiben unverändert.
 
 Registerzweck umfasst Abschleppen/Bergung, Autoverwertung/Entsorgung, Fahrzeug- und Ersatzteilhandel sowie Reparatur. Das beweist keine aktuelle anerkannte Altfahrzeugannahme. Die frühere Domain rilei.de steht zum Verkauf. GLEIF nennt zwar entity.status ACTIVE, aber LEI-Registrierung LAPSED, letztes Update 2021; beides nicht mit nachgewiesenem aktuellen Hofbetrieb verwechseln. Zum Rundling 44 bzw. Cheinitzer Rundling 44, Cheinitz/Kalbe, bleibt bis zur aktuellen Standortbestätigung Timeline-only.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Auto-Werkstatt.de listet RILEI Automobile GmbH, Ansprechpartnerin Nicole Wernecke, Cheinitzer Rundling 44, 39624 Kalbe, Festnetz 039001 90922/90924 und rilei.de; das Profil ist ein Branchenverzeichnis (mit „Unternehmen verifizieren“-Aufforderung) und nennt als Spezialisierung nur Autoreparatur. Die Angaben sind ein neuer Identitäts-/Adresslead, aber keine Primärquelle und kein aktueller Nachweis für Autoverwertung, Schrottankauf oder Nachfolge des früheren Unternehmens. Rilei-Domain bei Direktabruf weiter Domain-Verkaufsseite. Keine Frontmatter-Fills oder GEO. **Ankauf:** keine Autoverwertungs-/Schrottpreise; **Verkauf:** keine Ersatzteilpreise; **Gebühren:** keine Tarife. Quelle(n): https://www.auto-werkstatt.de/kalbe/rilei-automobile-gmbh-aULLNy ; https://www.rilei.de/ (Abruf 21.10.2026).]
+
+### Owner-GEO-Prüfung 21.10.2026
+
+- [Owner-Prüfung 21.10.2026: Die read-only Produktionszeile enthält 53.2934, 9.5506. Reverse lookup dieses bestehenden Punkts führt nach Kalbe, Samtgemeinde Sittensen, Niedersachsen; das ist nicht der Verzeichnis-Adresslead Cheinitzer Rundling 44, 39624 Kalbe (Milde), Sachsen-Anhalt. Der Adresslead bleibt unbestätigt und wird nicht als Ersatzpunkt geokodiert. Keine Koordinate übernommen oder Produktionsdaten geändert. Quelle des Punkt-Lookups: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.2934&lon=9.5506&zoom=10 ; Adresslead: https://www.auto-werkstatt.de/kalbe/rilei-automobile-gmbh-aULLNy.]
 
 ### Recherche 14.10.2026
 

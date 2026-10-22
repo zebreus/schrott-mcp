@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der aktuelle, belegte Betrieb Michael Lüpcke GmbH sitzt in Wardenburg (HRB 203176), nicht in Oldenburg; die Betreiberseite meldet seit 10.02.2026 Meike Haferkamp als Geschäftsführerin nach dem Tod Michael Lüpckes am 01.01.2026. Die Seite führt Schrott/Metalle im Entsorgungsangebot, belegt aber keine Verbindung zu diesem separaten Oldenburg-Datensatz. Keine veröffentlichten Ankaufpreise; Konditionen bzw. Containerleistungen auf Anfrage.
+Der aktuelle, belegte Betrieb Michael Lüpcke GmbH sitzt in Wardenburg (HRB 203176), nicht in Oldenburg; die Betreiberseite meldet seit 10.02.2026 Meike Haferkamp als Geschäftsführerin nach dem Tod Michael Lüpckes am 01.01.2026. Eine aktuelle Das-Örtliche-Regionalsuche kennzeichnet Lüpcke ausdrücklich als außerhalb Oldenburgs ansässig und führt die Gesellschaft an Diedrich-Dannemann-Str. 35 in Wardenburg; die Fuldastr. 34 in Oldenburg wird dort unter A.V.B./Autoverwertung Blankenburg geführt, nicht als Lüpcke. Das bleibt ein Verzeichnisabgleich, keine Negativbestätigung für jede denkbare Oldenburger Zweigstelle. Die Betreiberseite führt Schrott/Metalle im Entsorgungsangebot, belegt aber keine Verbindung zu diesem separaten Oldenburg-Datensatz. Keine veröffentlichten Ankaufpreise; Konditionen bzw. Containerleistungen auf Anfrage.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Zwei Das-Örtliche-Regionalseiten direkt abgeglichen. „Container und Entsorgung in Oldenburg“ und „Recycling in Oldenburg“ führen Michael Lüpcke GmbH jeweils mit der Adresse Diedrich-Dannemann-Str. 35, 26203 Wardenburg (mit Kennzeichnung außerhalb des Suchbereichs). Die Oldenburger Fuldastr. 34 wird auf diesen Seiten unter A.V.B./Autoverwertung Blankenburg geführt. Das klärt den häufigen Fuldastr.-Nähetreffer als keinen Beleg für Lüpcke; die Verzeichnisse beweisen nicht, dass es keine eigenständige Zweigstelle oder einen anderen Lüpcke-Rechtsträger in Oldenburg gibt. Keine Umadressierung, Kontaktübernahme, Zusammenführung oder GEO-Übertragung. **Ankauf:** keine Lüpcke-Ankaufkurse; **Verkauf:** keine Preise; **Gebühren:** keine Tarife. Quellen (Verzeichnisleads, kein Betreiberbeleg): https://www.dasoertliche.de/Themen/Container-und-Entsorgung/Oldenburg-Oldenburg.html ; https://www.dasoertliche.de/Themen/Recycling/Oldenburg-Oldenburg.html .]
 
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2 (Abgrenzung der Annahmelisten)
 

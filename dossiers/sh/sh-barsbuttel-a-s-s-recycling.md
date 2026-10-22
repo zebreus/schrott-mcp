@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: geschlossen
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die konkret benannte A.S.S. Recycling GmbH (HRB 10762 HL) wurde am 03.06.2025 von Amts wegen gelöscht, nachdem sie als vermögenslos eingestuft wurde. `status: geschlossen` bezieht sich ausschließlich auf diesen Rechtsträger. Die frühere Anschrift Kielende ist kein Nachweis eines heutigen Schrottplatzes; ein Nachfolger oder Betreiber am Standort ist nicht identifiziert.
+
+**Ankauf:** Der historische Unternehmensgegenstand umfasste Kauf/Aufarbeitung von Altmetallen, Schrott und Schüttgütern; kein heutiger Ankauf belegt. **Verkauf:** keine aktuelle Produkt- oder Preisliste. **Gebühren:** keine aktuellen Annahme-/Entsorgungsgebühren. Aggregator-Einträge, die 2026 weiterhin A.S.S. am Kielende führen, widersprechen dem gelöschten Rechtsträger nicht und belegen keine Nachfolge. Keine Preisbeträge belegt.
 
 ## Timeline
+
+### Korrektur 22.10.2026
+
+- [Korrektur 22.10.2026: `status: aktiv` auf `geschlossen` korrigiert, bezogen ausschließlich auf A.S.S. Recycling GmbH HRB 10762 HL. Der NorthData-Einzelbeleg für genau diese Firma und dieses Registerblatt dokumentiert die Löschung von Amts wegen am 03.06.2025 nach § 394 FamFG („vermögenslose Gesellschaft“). Amtliche Gegenprüfung ist im Handelsregisterportal unter Suche nach „A.S.S. Recycling GmbH“, Registergericht Amtsgericht Lübeck, HRB 10762 HL reproduzierbar; der frühere Prüfvermerk nennt das Blatt als geschlossen. `status: geschlossen` bezieht sich nur auf den gelöschten Rechtsträger, nicht auf einen Standort oder möglichen Nachfolger am Kielende. Branchenverzeichnisse sind keine Nachfolger-/Standortbestätigung. Kein Beleg für aktuellen Ankauf, Verkauf, Gebühren oder Preislisten; Anschrift/Kontakte bleiben leer. Quellen: https://www.northdata.de/A.S.S.+Recycling+GmbH,+Barsb%C3%BCttel/HRB+10762+HL ; https://www.handelsregister.de/rp_web/welcome.xhtml ; https://barsbuettel.stadtbranchenbuch.com/8468366.html.]
 
 ### Recherche 04.10.2026
 

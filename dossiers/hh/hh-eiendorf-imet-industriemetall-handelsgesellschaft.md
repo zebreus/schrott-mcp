@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+IMET Industriemetall-Handelsgesellschaft mbH ist im Register unter HRB 18825 als Metallgroßhändler geführt; laut Registerhinweis wurde die Geschäftsanschrift 2021 von Ehestorfer Weg 25 nach Süderstraße 112 a, 20537 Hamburg, verlegt. Die Firmenwebsite beschreibt (im Suchindex) einen internationalen B2B-Handel mit hochwertigen Legierungen und Metallhalbzeugen, nicht eine öffentliche Schrottannahme. Der Direktabruf der Website lieferte bei der letzten Prüfung HTTP 403; weder heutige Betriebsstätten-/Kundenzugangsdetails noch private Schrottannahme sind damit bestätigt. `Eißendorf` und die alte Adresse bleiben ungeklärte Seed-Historie; keine Ankauf-, Verkaufs- oder Gebührenpreisliste verifiziert.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die offizielle Domain imet.de und deren Disclaimer ließen sich erneut nicht direkt abrufen (HTTP 403). Der Suchindex gibt als Firmenbeschreibung ein 1976 gegründetes, unabhängiges, international tätiges Handelshaus für hochwertige Metalle/Speziallegierungen und Halbzeuge für Industriekunden wieder; weil dies kein direkt gelesener Seiteninhalt ist, wird es nur als Hinweis, nicht als Nachweis einer heutigen Kundenannahme gewertet. Der Registerspiegel führt weiterhin HRB 18825 und den Anschriftenwechsel 2021 zu Süderstraße 112 a, 20537 Hamburg; diese Geschäftsanschrift beweist keinen Annahmehof und stellt keine belegte Verbindung zur Seed-Adresse Ehestorfer Weg 25 in Eißendorf her. Keine Website-/Kontakt-/Adressfelder ergänzt; keine Schrott-Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Quellen: https://imet.de/ ; https://imet.de/en/disclaimer.html ; https://www.northdata.de/imet%20Industriemetall-Handelsgesellschaft%20mbH,%20Hamburg/HRB%2018825 .]
 
 ### Recherche 04.10.2026
 

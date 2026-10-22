@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Ungeklärter Verzeichnisfall für Rohstoffrückgewinnung in Kreischa/Lungkwitz. Die importierte Adresse und Materialannahme sind bisher nur Aggregator-Leads, keine unabhängig verifizierten Betriebsdaten. Die kommunale Firmensuche ist als neue Prüfroute gefunden, liefert im bisherigen Abruf aber keine auswertbare Trefferliste; aktueller Betrieb und Ankauf bleiben offen.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die offizielle Firmensuche der Gemeinde Kreischa direkt abgerufen. Sie bietet Branchen-/Ortsteil-/A–Z-Filter (u. a. Lungkwitz), liefert beim Direktabruf jedoch nur Suchmaske/Kategorien ohne individuelle Unger-Ergebniszeile. Das ist kein amtlicher Negativnachweis. Aktuell auffindbare Angaben zum Schrott-/Rohstoffbetrieb bleiben Portal-Leads ohne Betreiber-/Registerbestätigung; daher Status `aktiv` auf `pruefung` gesetzt, ohne Schließung zu behaupten. Grundstr. 1 und Materialannahme sind nicht neu bestätigt. ANKAUF: keine verifizierten Bedingungen/Euro-Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quelle zur kommunalen Suchmaske: https://www.kreischa.de/inhalte/kreischa/_inhalt/wirtschaft/firmen-neu/gewerbesuche .]
 
 ### Recherche 14.10.2026
 

@@ -30,6 +30,10 @@ Görs Recycling GmbH, HRB 7114 Stralsund, ist durch Registerprofil und kommunale
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Die Kandidatendomain goers-recycling.de erneut direkt abgerufen; sie zeigt weiterhin ausschließlich „Hier entsteht eine neue Internetseite.“ und bietet kein Impressum, keine Leistungen, keine Annahmebedingungen und keine Preise. Die Leistungswerbung auf spedition-goers.de bleibt laut deren Impressum der Speditions- u. Handelsgesellschaft mbH Armin Görs (HRB 5624) zugeordnet, nicht Görs Recycling GmbH (HRB 7114). Kein Beleg für eine Betreiber- oder Ankaufübertragung; kein Frontmatter-Fill. ANKAUF/VERKAUF/GEBÜHREN: keine der Recycling-GmbH zurechenbare Zahlenliste. Quelle: https://www.goers-recycling.de/ ; https://www.spedition-goers.de/impressum .]
+
 ### Ownerdisposition 18.10.2026
 
 - [Korrektur 18.10.2026: status aktiv zu pruefung, nicht geschlossen. Registerprofil und kommunales Branchenbuch identifizieren Görs Recycling GmbH HRB 7114 am Kleinbahnhof 2; die Schrottankaufwerbung gehört laut Impressum dagegen zur getrennten Speditions- u. Handelsgesellschaft HRB 5624. Gemeinsame Adresse/Telefon beweisen keine Übertragung des Ankaufgeschäfts; goers-recycling.de liefert nur eine Baustellenseite. Daher keine hinreichend belegte aktuelle öffentliche Annahme durch den Seedbetreiber. Andere Stammdaten, Kontakte, Services und GEO unverändert, keine pauschale Löschung; Quelle: https://guetzkow.de/cms/index.php/5863-2/ ; https://www.northdata.de/G%C3%B6rs+Recycling+GmbH,+G%C3%BCtzkow/Amtsgericht+Stralsund+HRB+7114 ; https://www.spedition-goers.de/impressum ; https://www.spedition-goers.de/leistungen ; https://www.goers-recycling.de/ .]

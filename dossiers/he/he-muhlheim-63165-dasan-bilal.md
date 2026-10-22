@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Fahrzeughandels-Kandidat, nicht als Schrottankäufer oder anerkannte Altfahrzeugannahme bestätigt. Dieselstraße 54 und die historischen Telefonnummern sind Verzeichnis-Leads. Ein gefundenes berufliches Namensprofil nennt Fahrzeughandel, aber keinen eindeutig zugeordneten Mühlheimer Verwertungsbetrieb. Keine Annahme-, Abhol- oder Vergütungszusage; aktuelle Gewerbeidentität und Geschäftsgegenstand vor GEO klären.
+Fahrzeughandels-Kandidat, nicht als Schrottankäufer oder anerkannte Altfahrzeugannahme bestätigt. Dieselstraße 54 und die historischen Telefonnummern bleiben Verzeichnis-Leads. Ein aktueller eBay-Shop „bidib“ bietet gebrauchte Fahrzeugteile an, lässt sich aber anhand der gelesenen Shopseite nicht rechtssicher Bilal Dasan zuordnen. Keine Annahme-, Abhol- oder Vergütungszusage; aktuelle Gewerbeidentität und Geschäftsgegenstand vor GEO klären.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Die erneute Suche liefert weiterhin dieselbe Dieselstraße-54/Telefonnummer-Datenfamilie aus Branchenverzeichnissen, aber keine Betreiberseite oder Registerquelle für einen Mühlheimer Schrott-/Verwertungsbetrieb. Ein separat gefundener eBay-Shop „bidib“ wurde direkt geöffnet: sichtbar sind gebrauchte Kfz-Teile mit Einzelverkaufspreisen (z. B. 100–150 €), aber weder ein im gelesenen Shop ausgewiesener Bilal-Dasan-Bezug noch ein belegter Ankauf des Kandidaten. Die Teilepreise werden daher nicht als Verkaufspreise dieses Dossiers übernommen. ANKAUF: kein Schrott-/Altfahrzeugkurs oder Annahmebeleg; VERKAUF: nicht zurechenbare eBay-Teileangebote, keine Dossierpreisliste; GEBÜHREN: keine Angaben. Identität, aktuelle Adresse und GEO bleiben offen. Quelle(n): https://www.dasoertliche.de/Themen/Dasan-Bilal-Fahrzeughandel-M%C3%BChlheim-am-Main-Dieselstr (Lead); https://www.ebay.de/str/bidib (Shop, Zuordnung offen).]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

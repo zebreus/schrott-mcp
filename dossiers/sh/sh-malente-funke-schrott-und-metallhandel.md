@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnisse nennen Günther Funke an der Lütjenburger Straße 106, 23714 Malente sowie Festnetz 04523 2378; das bleibt ein nicht unabhängig bestätigter Adress-/Kontakt-Lead. Der in einem Verzeichniseintrag verlinkte Betreiberauftritt `schrotthandel-fa-funke.business.site` lieferte beim Abruf am 07.10.2026 HTTP 404. Kein belastbarer Betreiber- oder Registerbeleg für die aktuelle Tätigkeit; Status `pruefung` bleibt. Keine belastbaren Ankauf-, Verkaufs- oder Gebührenpreise gefunden.
+Verzeichnisse nennen Günther Funke an der Lütjenburger Straße 106, 23714 Malente sowie Festnetz 04523 2378; das bleibt ein nicht unabhängig bestätigter Adress-/Kontakt-Lead. Ein weiteres Schrottplatz-Verzeichnis führt dieselbe Adresse stattdessen als „Schrotthandel Funke, Inh. Bernd Brüske“. Das ist ein ungelöster Betreiber-/Namenskonflikt, kein Nachweis eines Inhaberwechsels. Der in einem Verzeichniseintrag verlinkte Betreiberauftritt `schrotthandel-fa-funke.business.site` lieferte beim Abruf am 07.10.2026 HTTP 404. Kein belastbarer Betreiber- oder Registerbeleg für die aktuelle Tätigkeit; Status `pruefung` bleibt.
+
+**Ankauf:** Rohdaten-Flag „ja“ und Branchenbezeichnungen sind kein aktueller Ankaufbeleg; keine belastbaren Konditionen oder Preise. **Verkauf:** keine belegte Ware-/Preisliste. **Gebühren:** keine belegte Gebührenordnung. Identität, aktuelle Betriebsstätte und tatsächlicher Kundenverkehr offen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Identitätskonflikt dokumentiert, keine Felder geändert. Gelbe Seiten nennt Günther Funke an Lütjenburger Str. 106, 23714 Malente und 04523 2378; Stadtbranchenbuch führt denselben Namen/dieselbe Anschrift. Der direkte Eintrag auf Schrottplatz.org bezeichnet die Adresse hingegen als „Schrotthandel Funke Inh. Bernd Brüske“ und nennt dieselbe Telefonnummer. Alle sind Verzeichnisquellen, keine Betreiber- oder Registerbestätigung; daraus folgt weder ein gesicherter Inhaberwechsel noch eine aktuelle Annahmestelle. Ankauf/Verkauf/Gebühren und Preise bleiben unbelegt; `status: pruefung`. Quellen: https://www.gelbeseiten.de/gsbiz/b33809c0-588b-4988-89dd-64d2329408b4 ; https://malente.stadtbranchenbuch.com/F/firmenverzeichnis.html ; https://www.schrottplatz.org/malente/funke-2379728.html.]
 
 ### Recherche 07.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fünf Branchen-/Ortsportale führen den Lead JL Metall Recycling an Gladbacher Str. 158, 41179 Mönchengladbach, teils mit 01525 4090277 und Material-/Abholangaben. Das sind Verzeichnisaussagen, keine Betreiberbestätigung; die Domain mg-schrott.de lieferte beim aktuellen Direktabruf erneut HTTP 500. Alte Suchindexkopien sind kein aktueller Beleg. Die bestehenden Frontmatter-Kontaktdaten bleiben deshalb Portal-Leads, `status: pruefung`, Website nicht aktiv (`website_status: tot`). **ANKAUF:** Portale nennen Metalle/Abholung, aber keine verifizierten Kurse oder Annahmebedingungen. **VERKAUF:** keine Liste. **GEBÜHREN:** keine belastbare Gebührenordnung; Portalwerbung für kostenlose Abholung nicht pauschal übernehmen. **GEO:** gefüllte Adresse vor Geopunkt nochmals gegen reale Betriebs-/Annahmestelle prüfen.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Betreiber-Domain mg-schrott.de erneut direkt aufgerufen; Homepage/Impressum/Kontakt nicht abrufbar (HTTP 500, kein lesbarer Betreiberinhalt). Aktuelle Suche fand keinen neuen überprüfbaren Firmen- oder Registerbeleg; die bestehenden fünf Portalangaben (Gladbacher Str. 158/41179/01525 4090277) bleiben ein Verzeichnis-Cluster und keine unabhängige Bestätigung der Rechtsperson oder Kundenannahme. Website-Feld leer und `website_status: tot` erhalten, Status `pruefung`; gefüllte Adressfelder nicht als verifizierten Hof interpretieren, Geokodierung weiterhin erst nach Standortklärung. ANKAUF: keine bestätigten Zahlenkurse; VERKAUF: keine Liste; GEBÜHREN: keine verifizierten Tarife. Quelle: https://mg-schrott.de/ (Direktabruf HTTP 500); weitere bereits dokumentierte Portalleads siehe Recherche 02.10.2026.]
 
 ### Recherche 02.10.2026
 

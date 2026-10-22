@@ -4,15 +4,15 @@ name: WAGNER GmbH & Co. KG
 trader_type: metallhaendler
 state: SL
 city: Neunkirchen
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Grubenstraße 9a
+postcode: '66540'
+phone: '+49 6821 1795930'
+email: wagner@schrotthandel.de
 opening_hours: ''
 website: http://www.schrotthandel.de/
 website_status: 'aktiv'
 status: aktiv
-description: ''
+description: 'Handel und Aufbereitung von Fe-, legierten und NE-Metallschrotten; Abfallwirtschaft, Rohstoffverwertung, Containerdienst und Industriedemontagen'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt nennt WAGNER GmbH & Co. KG, Grubenstraße 9a, 66540 Neunkirchen, Tel. +49 6821 1795930, wagner@schrotthandel.de und HRA 13771 beim Amtsgericht Saarbrücken; ein Creditreform-Profil führt dieselbe Firma/Registerkennung. Damit ist der frühere Registerkonflikt aufgelöst. Anschrift und Kontakte stammen aus dem aktuellen Betreiber-Impressum/Kontaktbereich; die Website hat eine passende Registerkennung und aktuelle 2026-Unterlagen. Die Leistungsseite nennt Schrott-/Metallhandel (Fe-, legierte und NE-Schrotte), Abfallwirtschaft, Rohstoffverwertung, Containerdienst und Demontagen/Industrieabbrüche. `status: aktiv` und `website_status: aktiv` bleiben bestehen.
+
+**Preise:** ANKAUF — keine numerischen Schrott-/Metallkurse auf dem Betreiberauftritt gefunden; allgemeine Hinweise zu „günstigen Preisen“ sind kein Kurs. VERKAUF — keine Produkt-/Wiederverkaufspreisliste. GEBÜHREN — keine veröffentlichten Container-, Transport- oder Demontagetarife; Konditionen sind anzufragen. Keine ausreichenden Bedingungen für dropoff_json/pickup_json.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Root samt Leistungs-, Kontakt- und Impressumsangaben direkt abgerufen. Das Impressum nennt WAGNER GmbH & Co. KG, Grubenstraße 9a, 66540 Neunkirchen, wagner@schrotthandel.de, +49 6821 1795930 und HRA 13771 AG Saarbrücken; die Website führt aktuelle Unterlagen einschließlich „Jahreserklärung 2026“. Creditreform-Suchergebnis ordnet derselben WAGNER GmbH & Co. KG in Neunkirchen HRA 13771 zu. Die Frontmatter-Anschrift/Kontakte stammen aus dem Betreiber-Impressum und Kontaktbereich; die passende Registerkennung wird unabhängig durch Creditreform gestützt, die 2026-Unterlagen sprechen für aktuellen Betreiberinhalt. street, postcode, phone, email und description daher übernommen; keine Öffnungszeiten oder privaten Anliefer-/Abholbedingungen veröffentlicht, daher keine entsprechenden Fills. ANKAUF: keine numerischen Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://www.schrotthandel.de/ ; https://firmeneintrag.creditreform.de/66540/7290336195/WAGNER_GMBH_CO_KG .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

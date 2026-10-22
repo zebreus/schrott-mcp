@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-/city-map-Spur für „Krüger Jochen Autoverwertung“ nennt Am Pottack 1; Das Örtliche führt denselben Namen dagegen an Am Pottack 2, 15295 Wiesenau, mit Tel. 033609 37269 und den Verzeichnisleistungen Pkw-Ankauf/-Verkauf. Die KRÜGER Metallhandel GmbH betreibt laut eigener Website ebenfalls Am Pottack 2, aber unter eigenem Firmennamen und mit eigener Nummer 033609 7240. Das belegt keine Identität oder Verschmelzung der beiden Händler; die Straße der Autoverwertung bleibt widersprüchlicher Lead, Status pruefung.
+
+**Preise:** ANKAUF — Das Örtliche behauptet Pkw-Ankauf, nennt aber keine Ankaufpreise. VERKAUF — Pkw-Verkauf ist ein Verzeichnis-Leistungslabel ohne Fahrzeug-/Teilepreise. GEBÜHREN — keine Tarife. Die Metallhandels-Website nennt Tagespreise für Metallankauf, aber keine Zahlen und dies gilt nur für KRÜGER Metallhandel GmbH, nicht automatisch für die Autoverwertung. **Offen:** korrekte Hausnummer, Rechtsträger/Betreiber und aktuelle Kundenannahme. GEO bis zur Adressklärung nicht setzen.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Das Örtliche führt „Krüger Jochen Autoverwertung“ aktuell an Am Pottack 2, 15295 Wiesenau, Tel. 033609 37269, und nennt als Leistungen Reifenservice sowie Pkw-Ankauf/-Verkauf; das ist ein Verzeichnis-Lead ohne Preise oder Betreiberbestätigung. Die vorhandene city-map-/Seed-Spur nennt Am Pottack 1. Davon zu unterscheiden ist die Betreiberwebsite der KRÜGER Metallhandel GmbH an Am Pottack 2 mit eigener Telefonnummer 033609 7240; sie bewirbt Metallankauf zu Tagespreisen, jedoch ohne Zahlenkurs. Keine Identitätsbrücke oder Kontakt-/Preisübernahme zwischen AV und Metallhandel; Frontmatter bleibt unverändert und Status pruefung. GEO: Hausnummer widersprüchlich, keine Koordinaten. Quellen (Abruf 20.10.2026): https://www.dasoertliche.de/Themen/Kr%C3%BCger-Jochen-Autoverwertung-Wiesenau-Am-Pottack ; https://oder-spree.city-map.de/01010000/autoverwertungen ; https://krueger-metallhandel.de/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

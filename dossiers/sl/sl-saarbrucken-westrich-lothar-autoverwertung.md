@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Lead zu Lothar Westrich Autoverwertung/Autoteile in Saarbrücken-Burbach. Verzeichnisse nennen Im Weyerbachtal 12, 66115 Saarbrücken und 0681 77091. Creditreform führt im Suchindex „Lothar Westrich Autoverwertung, Schrott“ mit Branche Einzelhandel mit Kraftwagenteilen/-zubehör; Detailabruf blockiert, somit kein vollständiger Adress-/Aktivitätsabgleich. Kein eindeutig zugeordneter Betreiberwebauftritt.
+Lead zu Lothar Westrich Autoverwertung/Autoteile in Saarbrücken-Burbach. Verzeichnisse nennen Im Weyerbachtal 12, 66115 Saarbrücken und 0681 77091. Der Creditreform-Suchtreffer bezeichnet den Gewerbebetrieb als wirtschaftsaktiv und führt zwei Standorte; der Detailabruf bleibt 403-blockiert. Da die passenden Verzeichnisangaben keine zweite zulässige Quelle darstellen, sind aktueller Standortbetrieb und Betreiberauftritt nicht ausreichend belegt.
 
 **Preise:** Keine Betreiber-Ankaufsliste für Fahrzeuge/Metalle, keine Ersatzteil-Verkaufsliste oder Recycling-/Abholgebühren. **Offen:** Gewerbe-/Betreiberidentität, aktuelle Autoverwertungsanerkennung, Adresse/Kontakte, tatsächlicher vergüteter Ankauf. Ein Verzeichnis-Button „Website“ und konsistente Verzeichnisdaten sind kein Primärbeleg; Felder bleiben leer, `pruefung`.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Creditreform-Suchergebnis zum Gewerbebetrieb „Lothar Westrich Autoverwertung, Schrott“ liefert nun die Angaben „wirtschaftsaktiv“, zwei Standorte, Branche Kraftwagenteile/-zubehör sowie Im Weyerbachtal 12, 66115 Saarbrücken und 0681 77091. Der direkte Profilabruf lieferte weiterhin HTTP 403; die Werte sind daher Suchtrefferinhalt und keine vollständig gelesene Firmenauskunft. Übereinstimmende Gelbe-Seiten-/Das-Örtliche-Profile sind Aggregator-Leads und zählen nach README nicht als unabhängige Bestätigung. Kein Betreiberauftritt, keine verifizierte Demontageanerkennung und keine Frontmatter-Änderung. ANKAUF: keine verifizierten Fahrzeug-/Metallkurse; VERKAUF: keine Ersatzteilpreise; GEBÜHREN: keine Verwertungstarife. Quelle(n): https://firmeneintrag.creditreform.de/66115/7290027215/LOTHAR_WESTRICH_AUTOVERWERTUNG_SCHROTT ; https://www.gelbeseiten.de/gsbiz/d3a86763-7266-4e59-a6ec-2d8dabc21a3f ; https://www.dasoertliche.de/Themen/Westrich-Lothar-Autoverwertung-Autoteile-Saarbr%C3%BCcken-Burbach-Im-Weyerbachtal .]
 
 ### Recherche 15.10.2026 Welle18C
 

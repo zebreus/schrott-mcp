@@ -26,9 +26,13 @@ provenance_origin: table
 
 Eigene Betreiberwebsite gefunden: MTC Möbius-Transporte, Container & Recycling GbR, Gesellschafter Gerd und Marion Möbius. Der Leistungsfokus liegt auf Containerdienst, Baustoff-/Schüttgutlieferung und Entsorgung von Bauschutt, Baustellenabfällen und Grünschnitt, auch für Privatkunden und öffentliche Einrichtungen.
 
-Weder „Recycling“ im Namen noch allgemeine Entsorgungswerbung beweisen **vergüteten Metallankauf**. Die Website sagt auch nicht, dass die Impressumsanschrift eine frei zugängliche Schrottannahmestelle ist. Darum weiter `pruefung`, keine Annahme-/Abholzusage in JSON, Adresse und Kontakte nur als Betreiber-Einzelbeleg in der Timeline. Baustoffverkauf und Entsorgungsgebühren sind nicht Ankaufspreise: für Baustoffe ist kein Zahlenpreis veröffentlicht, für Abfallentsorgung wird ein individuelles, unverbindliches Angebot angeboten. Eine Metall-Ankaufspreisliste wurde nicht gefunden.
+Weder „Recycling“ im Namen noch allgemeine Entsorgungswerbung beweisen **vergüteten Metallankauf**. Die Website sagt auch nicht, dass die Impressumsanschrift eine frei zugängliche Schrottannahmestelle ist. Darum weiter `pruefung`, keine Annahme-/Abholzusage in JSON, Adresse und Kontakte nur als Betreiber-Einzelbeleg in der Timeline. Baustoffverkauf und Entsorgungsgebühren sind nicht Ankaufspreise: für Baustoffe ist kein Zahlenpreis belegt, für Abfallentsorgung wird ein individuelles, unverbindliches Angebot angeboten. Neu direkt gelesene Containerbedingungen: bis 14 Tage keine zusätzlichen Standgebühren, ab Tag 15 Standgebühren ohne bezifferten Satz, Klappe/Deckel ohne Aufpreis. Das ist keine kostenlose Entsorgung oder kostenlose Containerbereitstellung. Eine Metall-Ankaufspreisliste wurde nicht gefunden.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: Zusätzlich zur erneut direkt gelesenen Entsorgungsseite jetzt Container-Unterseite einzeln gelesen. Konkrete GEBÜHRENbedingungen: bis maximal 14 Tage keine zusätzlichen Standgebühren, ab Tag 15 Standgebühren; Container mit Klappe/Deckel ohne Aufpreis. Keine Euro-Sätze, keine Zusage kostenloser Basisleistung. Tabelle Absetzcontainer 1,3/2,0/2,5/5/7/10 m³; nur bis Oberkante, sortenrein beziehungsweise Zuladung vorher abklären, nicht eigenständig verrücken, Zufahrt freihalten. Diese Entsorgungsbedingungen sind kein vergüteter Schrottankauf. ANKAUF keine Zahlenliste, VERKAUF Baustoffe weiterhin ohne verifizierte Zahlentafel. Neuer Gebührenbefund präzisiert alte Aussage kein Tarif, statt sie in kostenlose Entsorgung umzudeuten. Frontmatter unverändert; unabhängiger Betreiberbeleg und tatsächliche Kundenannahmeadresse für GEO weiterhin offen. Quellen: https://mtc-mittweida.de/services/container/ ; https://mtc-mittweida.de/services/entsorgung/ .]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

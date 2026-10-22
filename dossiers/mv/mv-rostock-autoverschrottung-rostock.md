@@ -31,6 +31,10 @@ Mobiler Dienst unter A. Lahib/Autoverschrottung Bochum laut Impressum, Ganghofer
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Wiederholte Direktabrufe der Betreiberseiten Impressum, Schrottauto-Ankauf und Auto-Entsorgen endeten mit Transportfehler; das ist ein Zugriffsfehler und weder ein Nichtexistenz- noch ein Schließungsbeleg. Für neue Aussagen bleibt die letzte erfolgreich direkt gelesene Betreiberfassung vom 18.10.2026 maßgeblich: Restwertbewertung ohne feste Ankaufskurse, Betreiberwerbung mit kostenloser Abholung/Entsorgung, kein numerischer Tarif. Der allgemeine FAQ-Wert „um 100 Euro“ ist weiterhin kein Händlertarif. Keine Kontakt-/Standort-/Serviceänderung, status pruefung und fehlendes Rostocker Hof-GEO bleiben. Quellen (Abrufversuch): https://www.autoverschrottung-rostock.de/impressum ; https://www.autoverschrottung-rostock.de/schrottauto-ankauf ; https://www.autoverschrottung-rostock.de/auto-entsorgen .]
+
 ### Recherche 18.10.2026 (18:00-Welle, Shard 1)
 
 - [Recherche 18.10.2026: Impressum, Kontakt, Schrottauto-Ankauf und Auto-entsorgen heute selbst einzeln direkt gelesen. Impressum A. Lahib/Autoverschrottung Bochum, Ganghoferstraße 9/44791 Bochum, ohne USt-ID/Registerkennung; im selben Text mobiler deutschlandweiter Dienst mit behauptetem Sitz/zentraler Abwicklung Rostock. Kontakt weiterhin Platzhalter Straße/18055 Rostock. Ankaufseite behauptet eigenen zertifizierten Demontagebetrieb, Entsorgungsseite nennt anerkannten Betrieb im gesamten Raum Nordrhein-Westfalen, zugleich Abtransport in den Demontagebetrieb. Kein konkret zugeordneter aktueller Zertifikats-/Anerkennungsdatensatz gelesen. Diese Aussagen lösen den Identitäts-/Standortwiderspruch nicht und sind kein Nachweis einer Rostocker Niederlassung. Betreiber-Ausnahme nicht erfüllt; keine Kontakt-/Adress-/Service-Fills. Quellen: https://www.autoverschrottung-rostock.de/impressum ; https://www.autoverschrottung-rostock.de/kontakt ; https://www.autoverschrottung-rostock.de/schrottauto-ankauf ; https://www.autoverschrottung-rostock.de/auto-entsorgen .]

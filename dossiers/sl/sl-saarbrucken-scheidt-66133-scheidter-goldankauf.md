@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-Nur Verzeichnis-Lead: Scheidter Goldankauf, Kaiserstraße 84, 66133 Saarbrücken-Scheidt. Betreiber/Rechtsträger und heutige Annahme nicht unabhängig belegt. Die alten Frontmatter-Kontaktdaten sind nicht nachträglich qualifiziert; neue Öffnungszeiten oder Mobilnummer deshalb nicht übernommen. Keine konkrete Ankauf-, Verkaufspreis- oder Gebührenliste, kein freigegebener GEO-Punkt.
+Gelbe Seiten führt den Goldankauf weiterhin als Verzeichniseintrag an Kaiserstr. 84, 66133 Saarbrücken-Scheidt; dort stehen Festnetz, Mobilnummer und Öffnungszeiten, aber kein nachvollziehbarer Betreiber-/Rechtsträgerbeleg. Diese Angaben bleiben Leads und werden nicht als aktuelle Annahmebestätigung übernommen. **Ankauf:** Kategorie „An- und Verkauf“, aber keine konkreten Kurse oder Zahlenliste. **Verkauf:** keine Produkt-/Verkaufspreisliste. **Gebühren:** keine Angaben. **Offen/GEO:** Betreiber, aktuelle Annahmestelle und Mittwochszeiten klären; trotz Verzeichnisadresse keine Koordinaten freigegeben.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Live-Recheck des Gelbe-Seiten-Profils: weiterhin Kaiserstr. 84/66133 und 0681 83900147; zusätzlich zeigt das Verzeichnis 0159 01047851 sowie Mo/Di/Do/Fr 09:30–13:00 und 14:00–17:30, keinen Mittwochseintrag. Das sind weiterhin Aggregatorangaben, kein Betreiber- oder Registerbeleg; Mittwochsöffnung/-schließung daraus nicht ableiten. Ankauf bleibt eine Kategorie ohne Kurs; keine Verkaufsliste oder Gebührentafel gefunden. Keine Felder oder GEO geändert. Quelle: https://www.gelbeseiten.de/gsbiz/694e6ed4-aafd-43f4-bd10-a1f433dc7e4c (Abruf 20.10.2026).]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

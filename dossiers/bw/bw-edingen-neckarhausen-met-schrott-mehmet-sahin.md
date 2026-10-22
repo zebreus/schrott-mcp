@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Seedidentität MET Schrott / Mehmet Sahin weiterhin nicht qualifiziert belegt. Die bekannte ortsgleiche SPT Metall, Schrott & Bau GmbH, HRB 739736 Mannheim, ist nur ein möglicher Recherchekandidat, keine nachgewiesene Alias-/Nachfolgeidentität. Registerabruf aktuell 429; kommunale Wirtschaftsseite enthält Standortinformationen, keine einschlägige Gewerbeauskunft. Keine Lilienstraßen-Adresse oder fremden GmbH-Kontakte übernehmen.
+Seedidentität MET Schrott / Mehmet Sahin ist weiterhin nicht qualifiziert belegt. Eine frische Suche zeigt zusätzlich den nur verzeichnisgestützten Eintrag „Şahin Schrotthandel“, Albert-Schweitzer-Straße 16, 68535 Edingen-Neckarhausen, 0176 84652248. Der Eintrag nennt keinen vollständigen Inhabernamen und beweist keine Verbindung zu MET/Mehmet Sahin. Die bekannte ortsgleiche SPT Metall, Schrott & Bau GmbH, HRB 739736 Mannheim, bleibt ein weiterer, nicht als Alias oder Nachfolge belegter Kandidat. Keine Adresse oder Kontakte daraus in die strukturierten Felder übernehmen.
 
-Ankauf-, Verkaufs- und Gebührenlisten nicht zuordenbar. Klärung gezielt über vollständigen Inhabernamen MET/Mehmet Sahin und kommunale Gewerbeauskunft; eine nicht gefundene Portalzeile ist kein Nichtexistenzbeweis.
+**Ankauf:** keine dem Seed zuordenbaren Kurse oder Annahmebedingungen. **Verkauf:** keine dem Seed zuordenbaren Preise. **Gebühren:** keine zuordenbaren Tarife. Klärung gezielt über vollständigen Inhabernamen MET/Mehmet Sahin und kommunale Gewerbeauskunft; eine nicht gefundene Portalzeile ist kein Nichtexistenzbeweis. Der neue Albert-Schweitzer-Straßen-Lead ist vor einer möglichen Geokodierung erst dem Seed zuzuordnen.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Neue Suchspur „Şahin Schrotthandel“ in Edingen-Neckarhausen gefunden: Albert-Schweitzer-Straße 16, 68535, 0176 84652248, Tätigkeit laut Wertstoffhof-/Schrottplatzportal Kupfer, Kabel und Elektroaltgeräte. Das Portal ist kein zulässiger Betreiber-/Registerbeleg; die Zuordnung zum vollständigen Seednamen Mehmet Sahin bzw. MET Schrott fehlt. Daher keine Frontmatter-Übernahme und keine Geokodierung. Die NorthData-Seite zum separaten Rechtsträger SPT Metall, Schrott & Bau GmbH nennt weiterhin HRB 739736 und Lilienstr. 16b; sie beweist keine Verbindung zum neuen Şahin-Lead oder zum Seed. Ankauf/Verkauf/Gebühren bleiben für MET unzuordenbar. Quellen: https://recyclinghof-wertstoffhof.de/schrottplatz/baden-wuerttemberg/edingen-neckarhausen/sahin-schrotthandel/ ; https://www.northdata.de/SPT%20Metall,%20Schrott%20&%20Bau%20GmbH,%20Edingen-Neckarhausen/Amtsgericht%20Mannheim%20HRB%20739736 .]
 
 ### Recherche 15.10.2026 (12:00-Welle B)
 

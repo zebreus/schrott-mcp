@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Ein 11880-Eintrag nennt „Frank Kohlmann Metallhandel“, Am Fuchsberg 8, 64832 Babenhausen, Tel. 06073 5800; die Seite nennt eine Portalaktualisierung am 01.10.2026, aber zugrundeliegende Eintragsdaten vom 22.03.2025. Kein Betreiberauftritt oder qualifizierter unabhängiger Beleg gefunden. Straße, PLZ und Telefon deshalb nur als Leads, nicht als Seed-Kontakt führen.
+Ein 11880-Eintrag nennt „Frank Kohlmann Metallhandel“, Am Fuchsberg 8, 64832 Babenhausen, Tel. 06073 5800; zugrunde liegende Eintragsdaten sind vom 22.03.2025. Eine aktuelle Register-/Firmendaten-Suche findet zusätzlich „Frank Kohlmann Metallbau Kohlmann“, HRA 31927, mit derselben Telefonnummer und Domain frankkohlmann.de. Das kann den alten Verzeichniseintrag erklären, belegt aber keinen Schrottankauf oder Annahmehof. Straße, PLZ und Telefon bleiben unbestätigte Leads.
 
 **Preise:** Ankauf — keine verifizierten Kurse; Verkauf — keine Liste; Gebühren — keine Tarife belegt.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Neue Suche zum 11880-Telefon 06073 5800 liefert einen Creditreform-Firmendatensatz „Frank Kohlmann Metallbau Kohlmann“, HRA 31927 Amtsgericht Darmstadt, sowie die Domain frankkohlmann.de. Das weist auf eine mögliche Metallbau- statt Schrotthandelsidentität hin und ist kein Beleg für Schrottannahme oder die Gleichheit mit dem Dossier; die Domain ließ sich im Direktabruf nicht laden. Die frühere 11880-Angabe zu „Frank Kohlmann Metallhandel“/Am Fuchsberg 8 bleibt daher Lead. ANKAUF/VERKAUF/GEBÜHREN: keine aktuell zuordenbare Annahme-, Verkaufs- oder Gebührenliste. Kein Frontmatter-Fill. Quellen: https://firmeneintrag.creditreform.de/64832/6210036142/FRANK_KOHLMANN_METALLBAU_KOHLMANN (Firmendatenbankeintrag), https://www.frankkohlmann.de/ (Direktabruf mit Transportfehler), https://www.11880.com/branchenbuch/babenhausen-hessen/120671391B26666241/frank-kohlmann-metallhandel.html.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

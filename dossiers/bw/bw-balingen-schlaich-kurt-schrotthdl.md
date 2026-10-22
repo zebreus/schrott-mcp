@@ -4,9 +4,9 @@ name: Schlaich Kurt SchrottHdl.
 trader_type: schrotthaendler
 state: BW
 city: Balingen
-street: Erlenstr. 58
-postcode: 72336
-phone: 07433 35407
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Kurt Schlaich in Balingen-Erzingen ist derzeit nur durch Branchenverzeichnisse greifbar. Erlenstraße 58, 72336 und 07433 35407 bleiben ausdrücklich historische Verzeichnisangaben; kein neuer Primärbeleg. Der frühere Ausnahme-Fill ist in der Historie erhalten, rechtfertigt aber keine bestätigte heutige Aktivität. `pruefung` statt `aktiv`, keine geprüften Zeiten, Ankaufbedingungen oder Preislisten.
+Kurt Schlaich in Balingen-Erzingen ist derzeit nur durch Branchenverzeichnisse greifbar. Erlenstraße 58, 72336 und 07433 35407 bleiben historische Verzeichnisangaben und wurden aus den strukturierten Feldern entfernt; kein Betreiber- oder Registerbeleg bestätigt die aktuelle Annahme. Der frühere Ausnahme-Fill bleibt in der Historie erhalten, rechtfertigt aber keine heutige Aktivität. `pruefung` statt `aktiv`, keine geprüften Zeiten oder Annahmebedingungen. **Ankauf:** keine belegten Kurse. **Verkauf:** keine Preisliste. **Gebühren:** keine Container-/Abholungstarife.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 21.10.2026
+
+- [Owner-GEO-Prüfung 21.10.2026: Die Read-only-Kartenprüfung ordnet den vorhandenen Produktionspunkt einem Gebäude an der Hirschbergstraße 2 zu; Erlenstr. 58 ist ein getrenntes OSM-Adressobjekt und bleibt ein historischer Verzeichnis-Lead. Kein Betreiber- oder Annahmebeleg verbindet Schlaich mit einem der Punkte. GEO bleibt ungeklärt; keine Adresse geokodiert. Quellen: [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.2753&lon=8.8546&zoom=18&addressdetails=1), [OSM-Gebäude am Produktionspunkt](https://www.openstreetmap.org/way/169826526), [OSM-Adresssuche Erlenstraße](https://nominatim.openstreetmap.org/search?street=Erlenstr.%2058&postalcode=72336&city=Balingen&country=Deutschland&format=jsonv2&limit=3&addressdetails=1), [Owner-Bericht](../../research/wave-20261021-0900-geo-bw.md).]
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Erneute unabhängige Suche findet die Adresse Erlenstr. 58, 72336 Balingen-Erzingen und Telefon 07433 35407 weiterhin nur in Verzeichnissen; kein Betreiberauftritt, kein lesbarer Registerbeleg, kein kommunaler Nachweis. Die Felder street/postcode/phone wurden deshalb geleert; die Lead-Werte und bisherigen Korrekturen bleiben in der Timeline erhalten. Status pruefung, keine Schließungsbehauptung. Ankauf/Verkauf/Gebühren ohne belastbare Preislisten. GEO erst nach bestätigter Betreiberadresse. Quellen (Leads): https://www.gelbeseiten.de/gsbiz/41228816-a168-4580-b316-c60ae05d93b4 ; https://www.11880.com/branchenbuch/balingen/130733657B27323519/kurt-schlaich-schrotthdl.html .]
 
 ### Recherche 08.10.2026 (Registergegenprüfung)
 

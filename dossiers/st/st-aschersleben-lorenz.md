@@ -28,11 +28,17 @@ Ein historischer Lokalbericht beschreibt eine Lorenz-Autoverwertung in **Westdor
 
 **Preise:** historisch wird Gebrauchtteileverkauf erwähnt, aber ohne Preise. ANKAUF — keine aktuelle Preisliste. GEBÜHREN — keine Angaben.
 
+Ein aktueller Telefonbuchtreffer nennt Michael Lorenz, Welbslebener Chaussee 2, 06449 Aschersleben-Westdorf, Tel. 03473 815031, jedoch nur in der Branche Kfz-Reparaturen. Ohne Identitäts-/Betriebsbeleg wird diese Person nicht dem historischen Autoverwerter gleichgesetzt.
+
 ## Timeline
 
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Neue, aber nicht zeitgemäße Ortsquelle gefunden: Die Mitteldeutsche Zeitung schildert eine Lorenz-Autoverwertung in Westdorf und beschreibt den Umzug dorthin 2001/02; der Bericht vom 26.05.2004 nennt getrennte Werkstatt-/Autoverwertungsaktivitäten und Gebrauchtteileverkauf. Das ist ein plausibler regionaler Lead, beweist aber weder aktuellen Betrieb noch, dass er dem unbestimmten Seed „Lorenz, Aschersleben“ entspricht. Ein 11880-Ortsverzeichnis führt ebenfalls Lorenz in Westdorf, teils mit widersprüchlichem Schließungslabel; nicht als Schließungsbeleg gewertet. Keine Frontmatter-Fills oder Zusammenführung; Ankauf-/Verkaufspreise und Gebühren nicht veröffentlicht/belegt. Quellen: https://www.mz.de/lokal/aschersleben/leute-neue-existenz-dank-der-parksunder-2953135 (26.05.2004); https://www.11880.com/suche/autoverwertung/aschersleben (Verzeichnis-Lead; Abruf 12.10.2026).]
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Das Telefonbuch listet „Lorenz Michael“, Welbslebener Chaussee 2, 06449 Aschersleben-Westdorf, Tel. 03473 815031, allerdings unter Kfz-Reparaturen; es ist ein Verzeichnis-, kein Betreiberbeleg und klärt nicht, ob dies der 2004 berichtete Autoverwerter ist. Adresse/Telefon daher nicht in die Frontmatter übernommen und keine Geokodierung ausgelöst. ANKAUF: aktuelle Annahme oder Kurse unbelegt; VERKAUF: historischer Gebrauchtteilehinweis ohne Preise; GEBÜHREN: keine Angaben. Quelle: https://www.dastelefonbuch.de/Branchen/Kfz-Werkstatt/Aschersleben (Suchtreffer, abgerufen 21.10.2026).]
 
 ### Recherche 04.10.2026
 

@@ -24,12 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die am 18.10.2026 im unabhängigen Review gelesenen Website-Seiten nennen Sascha Kaiser, Schrott- und Metallhandel, Pfalzeler Straße 11, 54293 Trier, 01520 6623504 und info@schrotthandel-kaiser-trier.de sowie Entsorgungs-/Demontageleistungen für Privatpersonen und Firmen. Footer © 2014 ist kein gesicherter Aktualitätsstand dieser Angaben. Ein unabhängiger aktueller Identitäts-/Registerabgleich liegt der Prüfung nicht vor. Leere Adress-/Kontaktfelder und status pruefung unverändert; Websiteangaben nur Einzelbeleg.
-
-- **Ankauf/Verkauf:** Auf gelesenen Impressums-/Leistungsseiten keine numerische Preisliste dokumentiert; keine Aussage über sämtliche anderen Veröffentlichungen.
-- **Gebühren:** Kostenfreie Container nur für feste Firmenkunden beworben. Umfang, Neben-/Transportkosten und heutige Gültigkeit nicht unabhängig bestätigt; keine allgemeine Gratisabholung ableiten.
+Die Betreiberseiten waren am 21.10.2026 über HTTP direkt lesbar und nennen Sascha Kaiser, Schrott- und Metallhandel, Pfalzeler Straße 11, 54293 Trier, 01520 6623504 und info@schrotthandel-kaiser-trier.de sowie Entsorgungs- und Demontageleistungen für Privatpersonen und Firmen. Der Website-Footer © 2014 ist kein gesicherter Aktualitätsstand der Fakten; ein unabhängiger aktueller Identitäts-/Registerabgleich fehlt. Frontmatter und status pruefung bleiben unverändert; die Seiten sind ein Einzelbeleg. **Ankauf/Verkauf:** Auf den geprüften Impressums-/Leistungsseiten keine numerische Preisliste dokumentiert; keine Aussage über sämtliche anderen Veröffentlichungen. **Gebühren:** Kostenfreie Container werden nur für feste Firmenkunden beworben; Umfang, Neben-/Transportkosten und heutige Gültigkeit sind nicht unabhängig bestätigt, daher keine allgemeine Gratisabholung oder Tarifliste ableiten.
 
 ## Timeline
+
+### Quellenprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Impressum und Leistungsseite der Betreiber-Domain direkt über HTTP gelesen (beide HTTP 200): Impressum nennt Sascha Kaiser, Schrott und Metallhandel Sascha Kaiser, Pfalzeler Straße 11, 54293 Trier, 01520 6623504, info@schrotthandel-kaiser-trier.de und USt-ID DE 242 6429 64; Leistungen nennen Metall-/Schrottentsorgung, Fahrzeugverschrottung und Demontagen für Privatpersonen/Firmen. Auf der Leistungsseite steht kostenfreie Containerstellung nur für feste Firmenkunden. Keine numerischen Ankauf-/Verkaufspreise oder allgemeinen Gebühren veröffentlicht. Footer © 2014 und erfolgreicher HTTP-Abruf datieren nicht die Gültigkeit der Betreiberangaben; kein Register-Zweitbeleg, daher keine Frontmatter-Füllung, keine Freigabe der Klassifikation autoverwertung und status pruefung unverändert. Quellen: http://www.schrotthandel-kaiser-trier.de/impressum.html ; http://www.schrotthandel-kaiser-trier.de/leistungen.html.]
 
 ### Triage 01.10.2026 (Feedback 2606)
 

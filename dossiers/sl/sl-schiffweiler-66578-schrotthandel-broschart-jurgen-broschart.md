@@ -28,6 +28,10 @@ Jürgen Broschart Schrotthandel bleibt vom separaten Containerdienst Broschart G
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Der aktuelle Betreiberauftritt des separaten Containerdienst Broschart GmbH sagt, dass das Unternehmen seit 2008 Entsorgung im Saarland anbietet; Impressum nennt Geschäftsführer Markus Schorr, Kohlengrubstraße 112, 66578 Schiffweiler, HRB 109524. Das bestätigt die Abgrenzung, nicht aber Identität, Adresse oder Geschäftstätigkeit des eigenständigen Jürgen-Broschart-Schrotthandels. Keine Preise, Metall-Ankaufsliste oder Verkaufs-/Gebührenliste dieses Zielbetriebs gefunden; Containerdienst-Tarife dürfen ihm nicht zugerechnet werden. Der Lead An den Eichen 1 bleibt ungeprüft und nicht geocodiert. Quellen: http://www.broschart-containerdienst.de/ ; http://www.broschart-containerdienst.de/impressum.html ; https://www.northdata.de/Containerdienst%20Broschart%20GmbH,%20Schiffweiler/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20109524 (Abruf 20.10.2026).]
+
 ### Recherche 16.10.2026
 
 - [Recherche 16.10.2026: Northdata-Gegenprobe zum separaten Containerdienst direkt gelesen: GmbH HRB 109524 Saarbrücken, Kohlengrubstr. 112, Geschäftsführer Markus Schorr (Eintragung 01.08.2023), Unternehmensgegenstand Containerverwaltung/-nutzung/-veräußerung und verbundene Dienste. Kein Nachweis einer Identität oder Übernahme des eigenständigen Jürgen-Broschart-Schrotthandels. Exaktnamenssuche ergab keinen neuen qualifizierten Primärbeleg; alte Creditreform-Notiz nicht als heute erneut bestätigt ausgeben. ANKAUF/VERKAUF/GEBÜHREN für dieses Dossier unbelegt; keine GmbH-Tarife zuordnen. GEO: An den Eichen 1 und Seed-Telefon erst separat verifizieren. Quelle: https://www.northdata.de/Containerdienst%20Broschart%20GmbH,%20Schiffweiler/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20109524]

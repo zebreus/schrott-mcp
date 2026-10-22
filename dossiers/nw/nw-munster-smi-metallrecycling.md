@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Identitätslead ist ein wlw-Unternehmensprofil „SMI Metallrecycling“ mit Anschrift Am Schild 11, 48159 Münster und Geschäftsführerangabe Can Ikram. Das ist ein einzelnes Branchenplattformprofil, kein Register- oder Betreiberbeleg. Die zugeordnete Domain liefert weiterhin nur den Bauplatzhalter „BALD VERFÜGBAR“ ohne Impressum oder Firmen-/Kontaktdaten. Adresse, Betreiber und öffentliche Annahme daher nicht in strukturierte Felder übernehmen; `status: pruefung`. **GEO:** Am Schild 11 ist ein neuer zu prüfender Kandidat, aber erst nach Betreiber-/Kundenstellenbestätigung geokodieren. **ANKAUF:** kein dem Betrieb sicher zuordenbarer Kurs oder aktuelles Sortiment; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Entsorgungs-/Containerpreise belegt.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Domain smi-metallrecycling.de direkt abgerufen; weiterhin nur Platzhalter „BALD VERFÜGBAR“/Coming-soon-Seite, ohne Impressum, Firmenkontakt, Leistungen oder Preisangaben. Websuche bestätigt lediglich den bereits bekannten wlw-Eintrag SMI Metallrecycling, Am Schild 11, 48159 Münster, Can Ikram; kein unabhängiger amtlicher oder Betreiberbeleg gefunden. Keine Beziehung zum gleichnamigen US-amerikanischen SMI oder zu anderen Münsteraner Metallhändlern konstruiert. Frontmatter unverändert, kein GEO-Fill. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren betriebsspezifischen Preise/Tarife. Quellen: https://www.wlw.de/de/firma/smi-metallrecycling-1786787 ; https://smi-metallrecycling.de/ (Direktabruf: Coming-soon-Platzhalter).]
 
 ### Recherche 03.10.2026
 

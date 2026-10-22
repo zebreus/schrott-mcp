@@ -30,6 +30,10 @@ Die Betreiberwebsite nennt Georg Laubinger und die Mannheimer Landstraße 30a, 6
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Startseite erneut direkt abgerufen; die Seite ist erreichbar, trägt aber weiterhin Copyright 2016. Sie nennt keine Zahlenpreise und verweist für Preis-/Nachfragen an den Kundendienst; der Ausschluss des Gebrauchtteileverkaufs bezieht sich ausdrücklich auf Lkw-/Pkw-Teile, nicht auf den Metallhandel. Containergrößen 5-40 m³ sind keine Tarifangabe. Kein neuer unabhängiger Identitätsbeleg gefunden; Adresse/Kontakt daher nicht in die leeren Felder übernommen und status pruefung beibehalten. Ankauf: keine veröffentlichten Kurse; Verkauf: keine Metallverkaufspreise; Gebühren: keine bezifferten Container-/Transporttarife. Quelle: https://g-laubinger.de/ .]
+
 ### Recherche 18.10.2026 — Welle 02:00 / a
 
 - [Recherche 18.10.2026: Betreiber-Startseite und Impressum direkt neu gelesen. Name/Schwetzinger Adresse und Kontakt konsistent, weiterhin keine Registernummer im Impressum. Startseite nennt Verwertungsnachweis, enthält aber auch historische Rechtsformulierungen zu 1998 und vorübergehender Stilllegung; das ist keine aktuelle Zertifikats-/GESA-Bestätigung. Zertifizierung und Rechtslage daraus nicht übernehmen. Für Preise ausdrücklich Kundendienstanfrage; „kein gebrauchtteile Verkauf von LKW und PKW“ bezieht sich auf Ersatzteile, nicht pauschal auf Metallverkauf. Ankauf ohne Zahlenkurs, Verkauf ohne Preisliste, Container/Transport/Asbestentsorgung ohne Gebührenbeträge auf diesen Seiten. Zweite unabhängige zulässige Identitätsquelle weiter offen, keine Frontmatter-Fills/Annahmebedingungen ergänzt. Quellen: https://g-laubinger.de/ ; https://g-laubinger.de/impressumdatenschutz.html .]

@@ -32,6 +32,10 @@ Der Betreiberauftritt firmiert als **Firma Wagner**, vertreten durch Annegret Wa
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberseiten „Container“ und „Leistungen“ direkt erneut gelesen: dort stehen Abrollcontainer 10–40 m³ und Absetzcontainer 5–12 m³, Anlieferungen am Wertstoffhof Mo–Fr 09:00–16:00 sowie getrennte Kontaktblöcke „Firma Wagner“ (Fasanenweg 2/74842 Billigheim) und „Lager“ (Bahnhofstr. 8/74821 Neckarelz, 06261 62293). Die Seite nennt Schrott, Metalle, Späne, Bleche, Papier, Aluminium-/VA-Abfälle und Kabelreste zur Wiederverwertung, jedoch keine Annahme aller Abfallarten. Der aktuelle Auftritt lässt die Abweichung zur älteren 8/3-Angabe und die Frage offen, ob der Lagerstandort der öffentliche Hof ist; die „Uwe“-Seedidentität bleibt unaufgelöst. ANKAUF: keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Container-, Transport- oder Entsorgungstarife veröffentlicht (Containergrößen sind keine Preise). Quellen: https://www.schrott-wagner.de/container.html ; https://www.schrott-wagner.de/leistungen.html ; https://www.schrott-wagner.de/impressum.html.]
+
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 
 - [Owner-Prüfung 18.10.2026: Gegenprüfung aller neun gespeicherten PDF-Bildseiten bestätigt den begrenzten Dokumentfund. Terminologie präzisiert: Z-Nr. 45/2026 ist die Zertifikatsnummer, ZZNT006000935006 die Vorgangsnummer. Gültigkeitsdatum als Dokumentangabe, kein unabhängiger amtlicher Nichtwiderruf-/Registerabgleich. Betreiberhosting schafft keinen weiteren zugelassenen Quellentyp; Uwe/Annegret-Kette, Hausnummer und Kundenzugang bleiben offen. Frontmatter unverändert; Quelle: https://www.schrott-wagner.de/pluginAppObj/pluginAppObj_5_01/2026---Zertifikat.pdf .]

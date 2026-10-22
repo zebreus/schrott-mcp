@@ -28,6 +28,10 @@ Eine Betreiberseite belegt Rohstoffe Karlheinz Lenhart in Bellheim (Am Weidensat
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: Betreiber-Service KarlheinzLenhart direkt erneut gelesen: Entsorgung u.a.Schrott/Metalle, Kranverladung, Container „größtenteils mietfrei“, Preise telefonisch/perMail auf persönliche Anfrage, An-/Verkauf von Fahrzeugen/Gabelstaplern. Die Ausgabe enthält bei Containergröße defekten Text „3-36cm³“; frühere 3–36m³ nicht aus dieser fehlerhaften Textdarstellung erneut bestätigen. Weiterhin keine Identitätsbrücke Karlheinz/AmWeidensatz33 zu Seed Luisenstr.16 oder Philipp/Robert. Deshalb keine Kontakt-/Adressfüllung und keine Gratisentsorgung aus bedingter Container-Mietfreiheit ableiten. Ankauf: keine Kurse; Verkauf: Angebot auf Anfrage ohne Tarif; Gebühren: keine Zahlen, nur bedingte Mietfrei-Aussage des Kandidaten. Kommunaler Inhaberabgleich an Luisenstr.16 vor GEO. Quelle: https://rohstoffe-lenhart.de/service.htm .]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: neue Betreiber-Primärquelle gefunden: Rohstoffe Karlheinz Lenhart nennt Am Weidensatz 33, 76756 Bellheim und Kontakt. Das belegt nicht, dass dieser Betrieb mit den konkurrierenden Philipp-/Robert-Lenhart-Leads oder der Seed-Adresse Luisenstr. 16 identisch ist; widersprüchliche Bellheimer Clusteridentität bleibt offen. Vorhandene, fehlerhafte `street` nicht überschrieben; keine Fills. Quelle(n): https://rohstoffe-lenhart.de/; https://rohstoffe-lenhart.de/impressum.htm; https://www.gelbeseiten.de/gsbiz/af8ba9fa-b388-46cd-858c-38a6289b3959]

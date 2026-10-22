@@ -30,6 +30,10 @@ Bestehender Fachregisterlead zu Hanse KFZ-Verwertung am Billbrookdeich207; früh
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Mobile.de-Verkäuferprofil direkt aufgerufen; es antwortet weiterhin mit HTTP 403, sodass weder aktueller Bestand noch Preisangaben aus der Zielseite bestätigt werden können. Auch der offizielle GESA/GADSYS-Fachbetrieberegister-Aufruf lieferte nur eine JavaScript-Hülle ohne individuell prüfbaren Hanse-Datensatz. Der zuletzt dokumentierte Fachregister-/AutoverwerterFinder-Hinweis (Profilstand 19.08.2026) bleibt deshalb letzter Standortlead, nicht neuer Direktbeleg. ANKAUF: keine verifizierten Euro-Kurse; VERKAUF: der ältere mobile.de-Suchindex-Lead über einen Volvo FH (35.900 € netto / 42.721 € brutto) ist undatiert und kein aktuell bestätigter Listenpreis, zudem Fahrzeugangebot statt Schrott-/Metallpreisliste. GEBÜHREN: keine bestätigte Abhol-/Demontage-/Annahmegebührentafel. Öffnungszeiten/Kontakte nicht neu bestätigt; keine Änderungen. Quellen: https://home.mobile.de/HANSEKFZVERWERTUNG ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Vertiefung 08.10.2026
 
 - [Recherche 08.10.2026: mobile.de-Verkäuferprofil im Suchindex HanseKFZVerwertung,InhaberJalilRasuli,DE22113Hamburg; Direktabruf403. Creditreform-Suchindex liefert identischen Personen-/Firmennamen und Crefonummer2152016483, Gebraucht-Kfz-An-/Verkauf,Verwertung/Export als Unternehmensgegenstandslead, nicht Volltextbeleg. Domain hanse-kfz.de gehört laut Suchindex anderer Werkstatt HanseKFZTechnik/Randstraße1,22525Hamburg, nicht zuordnen. Vorheriger Fachregisterbeleg/Öffnungszeiten nicht heute erneut bestätigt; alter Verlauf unverändert. Quelle(n): https://home.mobile.de/HANSEKFZVERWERTUNG ; https://firmeneintrag.creditreform.de/22113/2152016483/JALIL_RASULI_HANSE_KFZ_VERWERTUNG ; https://www.hanse-kfz.de/ (Suchindex-Abgrenzung)]

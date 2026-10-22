@@ -28,6 +28,10 @@ Schrotthandel-Kandidat in Peißenberg, in Verzeichnissen auch „GEIGER & ERHARD
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Recherche 19.10.2026: Exaktes GEIGER-&-ERHARD-Portalprofil direkt gelesen, weiterhin ForsterStr.17a/82380/016095935540. Neu explizit festgehalten: Homepage-Link enthält PHP-Deprecated statt Betreiber-URL, Beschreibung/Zeiten/Leistungen sind nicht erfasst. Aus dem Kurznamen ERHARD keine Person, GbR oder Übernahme ableiten; neue Namenssuche liefert weitere Portale, keinen qualifizierenden Betreiber-/Registertreffer. Portal-LKW-/Kranwerbung der Vorwelle ist kein aktueller Annahme-/Containerbeleg. Ankauf ohne bestätigten Kurs, Verkauf ohne Liste, Gebühren ohne Tarif. Frontmatter bleibt ungefüllt, GEO Forster17a erst nach vollständigem Rechtsträger-/Annahmebeleg; keine Verbindung zur Geiger-Gruppe hergestellt. Quelle (Lead): https://www.schrottplatz-info.de/schrottplatz/Peissenberg/Schrotthandel-GEIGER-und-ERHARD .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Eigenständig registerorientierte Suche Schrotthandel Geiger Peißenberg ohne Northdata-Vorschlag, kein amtlicher Nichtbestehensbeweis. GS-Detail neu live vollständig gelesen: weiter Forster Str.17A/82380/0160 95935540, Kontakttext Immer einfach anrufen, Leistungsumfang Metall/Schrott/Aushub/Gartenabfälle/LKW7,5 Tonnen mit Kran; kein Betreiber-Impressum oder juristischer Inhaber gewonnen. Keine Übernahme der ähnlich benannten Geiger-Gruppe. Kein neuer Frontmatter-Fill; Preise Ankauf/Verkauf/Gebühren nicht verifiziert. Offen: Geiger/Erhard-Rechtsträger, aktueller Kundenplatz und Abhol-/Annahmebedingungen; Quelle: https://www.northdata.de/suggest.json?query=Schrotthandel%20Geiger%20Pei%C3%9Fenberg&countries=DE ; https://www.gelbeseiten.de/gsbiz/658c0482-c3a3-4604-8be4-904de4044452 (nur Lead).]

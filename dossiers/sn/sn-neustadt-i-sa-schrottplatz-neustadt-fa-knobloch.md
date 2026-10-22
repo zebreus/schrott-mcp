@@ -30,6 +30,14 @@ Gelbe Seiten nennt unter diesem Eintrag einen Schrott-/Wertstoffbetrieb mit den 
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Neue Suche/Direktansicht von Gelbe Seiten, Cylex und BundesTelefonbuch liefert weiterhin nur Verzeichnisangaben: Am Güterbahnhof, 01844 Neustadt i. Sa.; Gelbe Seiten nennt 0172 5305984 sowie die bereits dokumentierten Zeiten, Cylex ergänzt 035971 53667, aber keine Hausnummer. Kein Betreiber-/Kommunalbeleg zur aktuellen Annahme und weiterhin kein gesicherter Zusammenhang mit der Sebnitzer Klaus-Dittrich-Firma. Preis-/Gebührenlisten fehlen; grobe Adresse bleibt ungeeignet für einen präzisen GEO-Pin. Quellen (Leads): https://www.gelbeseiten.de/gsbiz/152272da-747d-4db8-a1c1-7be1736e6715 ; https://web2.cylex.de/firma-home/schrottplatz-neustadt-fa-knobloch-14725685.html ; https://www.bundes-telefonbuch.de/neustadt-in-sachsen/schrottplatz-neustadt-fa-knobloch-bvg101033103 .]
+
+### Owner-GEO-Prüfung 21.10.2026
+
+- [Owner-Prüfung 21.10.2026: Die read-only Produktionszeile enthält 50.74755, 13.2756. Nominatim verortet diesen Punkt in Großhartmannsdorf, Mittelsachsen; der Dossier-Lead lautet Am Güterbahnhof, 01844 Neustadt i. Sa. Der vorhandene Punkt ist damit kein verlässlicher GEO-Nachweis für den nur durch Verzeichnisse geführten Schrottplatz. Keine Ersatzkoordinate übernommen und keine Produktionsdaten geändert. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.74755&lon=13.2756&zoom=10 ; https://www.gelbeseiten.de/gsbiz/152272da-747d-4db8-a1c1-7be1736e6715.]
+
 ### Korrektur 07.10.2026
 
 - [Korrektur 07.10.2026: `status` von `aktiv` auf `pruefung` zurückgestuft. Die bisherige Aktualitäts-/Betriebsannahme beruht auf Gelbe-Seiten-/YellowMap-/tellows-Verzeichniseinträgen; ein Betreiberauftritt oder zulässiger unabhängiger Primärbeleg zur aktuellen Schrottannahme wurde nicht verifiziert. Ankauf: nur nicht verifizierter Verzeichnistext, keine numerischen Preise. Verkauf: keine Preisliste. Gebühren: keine belegte Tarifliste. Die Sebnitzer Klaus-Dittrich-Firma wird nicht ohne Betreiberbeleg mit diesem Neustädter Eintrag verschmolzen; Quelle: https://www.gelbeseiten.de/gsbiz/152272da-747d-4db8-a1c1-7be1736e6715 ; https://www.yellowmap.de/D_01855_Sebnitz/0/Schrott.htm ; https://www.tellows.de/num/01725305984.]

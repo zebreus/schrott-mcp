@@ -30,6 +30,10 @@ Der Seed nennt Berbalk & Vieweg GbR als möglichen Autoverwerter/Autohandel in D
 
 ## Timeline
 
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Erneute exakte Namens-/Orts- und Firmenrecherche zu „Berbalk & Vieweg GbR“ lieferte keinen identifizierbaren Betreiberauftritt, Handelsregister-/Impressumsbeleg oder eindeutige aktuelle Anschrift. Suchtreffer zur Autoverwertung Delitzsch gehören anderen Anbietern und werden nicht übertragen. Der Seed bleibt ein ungeklärter Kandidat; keine Schließung abgeleitet. ANKAUF: nicht belegt, keine Preise; VERKAUF: keine Fahrzeug-/Teileliste; GEBÜHREN: keine Tarife. Offen: Identität, Rechtsform, Tätigkeit und Standort. Quelle(n): https://html.duckduckgo.com/html/?q=%22Berbalk+%26+Vieweg%22+Delitzsch (Suchabfrage, kein Primärbeleg); https://www.autoankauf-delitzsch.top/autoverwertung/ (anderer, nicht zugeordneter Anbieter).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - AV?/Autohandel

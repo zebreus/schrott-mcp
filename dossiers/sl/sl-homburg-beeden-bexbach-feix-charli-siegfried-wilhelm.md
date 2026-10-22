@@ -30,6 +30,10 @@ Die im älteren Lead genannte Domain bexbacher-buntmetallverwertung.de ist beim 
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Gelbe-Seiten-Ortssuche führt neben Siegfried Feix, An der Kiesgrube 13, auch „Feix Charly Schrotthandel“ an Pirminiusstr. 36 und „Feix Wilhelm Schrotthandel“ an Blieskasteler Str. 131 in Beeden. Das ist ein einzelner Aggregator und keine Bestätigung von Betreibern, aktuellen Annahmestellen oder einer Familien-/Rechtsnachfolge. Die getrennten Adressen sind Konflikt-/Disambiguierungshinweise, kein Anlass zum Zusammenführen oder Übertragen von Telefonen/Leistungen. Keine Frontmatter-Änderung. ANKAUF/VERKAUF/GEBÜHREN: keine Betreiberpreise oder Tarife gefunden. Quelle: https://www.gelbeseiten.de/branchen/schrotthaendler/homburg%20saar .]
+
 ### Aktenprüfung 18.10.2026 (Feedback-Referenzen 6290/6291)
 
 - [Recherche 18.10.2026: Vorliegender Entwurf ordnet Feedback 6290 Wilhelm und 6291 Charli Feix zu; Feedbackinhalte und behauptete Produktionsprüfung vom 12.10. im Review nicht unabhängig geprüft. Verzeichnis-/Vereinsheft-Leads keine hinreichenden Betreiber-/Registerbelege. Abweichende Namen, Anschriften und Telefonnummern sind Konflikthinweise, kein gesicherter Beweis getrennter oder identischer Rechtsträger. Lokal zusätzlich Dossier sl-bexbach-oberbexbach-ludwig-feix-sohn-prazisiert-nr-33 vorhanden; daraus keine Betreiberkette abgeleitet. Keine Neuaufnahme, Zusammenführung oder Übertragung zwischen Wilhelm, Charli, Siegfried und Bexbacher Datensätzen. Vorhandene Adresse, Telefon und Materialbeschreibung bleiben unbestätigter Altbestand; status pruefung unverändert. Offen: unabhängige Betreiber-/Register-/Kommunalbelege für Personen und Standorte. Vollständiger früherer Entwurf mit unverifizierten Lead-URLs im Owner-Backup checkin-20261018-0330-precorrection-backup erhalten; kein eigener heutiger Abruf dieser Leads behauptet.]

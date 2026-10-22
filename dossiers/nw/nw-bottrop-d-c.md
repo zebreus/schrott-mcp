@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-D&C ist nicht sicher dem Verzeichnis-Kandidaten D & C Rohstoff GmbH zugeordnet. Kein aktueller Betreiber-/Registerbeleg gelesen; gleichnamige Dienstleistungs-/Chemiefirmen dürfen nicht übertragen werden. Ankauf, Verkauf und Gebühren unbestätigt; Status `pruefung`, keine Stammdatenfüllung.
+Ein aktueller 11880-Lead führt „D & C Rohstoff GmbH“ an Wilhelm-Tenhagen-Str. 2, 46240 Bottrop, Tel. 02041 7620440; Portaldaten: 28.09.2026, dort aktualisiert am 03.10.2026. Der Seed „D&C“ ist nicht durch Betreiber- oder Registerquelle mit dieser GmbH verknüpft. Kein gleichnamiger Dienstleistungs-/Chemiebetrieb wird übertragen. Straße, PLZ und Telefon bleiben unverifizierte Leads; `status: pruefung` bleibt.
+
+**Preise:** Ankauf: keine verifizierten Annahmebedingungen oder Kurse; Verkauf: keine Liste; Gebühren: keine Tarife. Die generische Preisspannen-FAQ auf dem Portal nennt keine D&C-Zahlen.
 
 ## Timeline
 
@@ -44,3 +46,7 @@ D&C ist nicht sicher dem Verzeichnis-Kandidaten D & C Rohstoff GmbH zugeordnet. 
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Ein Branchenbuch führt „D & C Rohstoff GmbH“ als Schrotthandel in Bottrop (Wilhelm-Tenhagen-Str. 2, 46240; Telefon 02041 7620440); nur Lead, keine Betreiber-/Registerquelle und keine zweite belastbare Bestätigung. Die Zeile „D&C“ lässt sich daher nicht sicher dieser Firma zuordnen. Separater Datenbank-Lead „D & C Dienstleistung GmbH“ betrifft Gebäudereinigung an anderer Bottroper Adresse; keine Verbindung zum Schrotthandel belegt, nicht zusammengeführt. Keine passende Betreiber-Website/Detailseite oder belastbare Register-/Kommunalquelle gefunden; Straße, PLZ, Telefon und Website bleiben leer, Status pruefung. Identitäts-/Namensvetterfrage offen; kein Schließungsbeleg. Quelle(n): https://ruhrpott-kurier.de/branchenbuch/bottrop/schrotthandel/d-c-rohstoff-gmbh-27193/, https://app.implisense.com/de/companies/d-c-dienstleistung-gmbh-bottrop--DEFZ6BRHDZ70]
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: 11880-Detailseite direkt erneut abgerufen. Sie führt „D & C Rohstoff GmbH“, Wilhelm-Tenhagen-Str. 2, 46240 Bottrop und 02041 7620440; Eintragsdaten 28.09.2026, Portalaktualisierung 03.10.2026. Das bleibt eine Branchenbuchangabe ohne Betreiber-/Registerabgleich und löst die Identität der kurzen Seed-Zeile „D&C“ nicht. Daher keine Fills und kein Statuswechsel. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Konditionen oder Zahlen. Quelle (Aggregator-Lead): https://www.11880.com/branchenbuch/bottrop/060440090B100704599/d-c-rohstoff-gmbh.html]

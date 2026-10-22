@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite nennt Jürgen Keller, Alte Papiermühle 14, 51688 Wipperfürth, Containerdienst, Metall-/Schrotthandel, Öffnungszeiten Mo–Fr 09–16 Uhr sowie 30-t- und 3-t-Waagen. Sie bewirbt Ankauf von NE-Metallen zu Tagespreisen und den Verkauf von Nutzeisen. Das ist weiterhin eine einzelne Betreiberquelle ohne unabhängige Identitäts-/Aktualitätsbestätigung; der Footer ist mit ©2009–2014 veraltet, daher bleiben Stammdaten/Annahmebedingungen ungefüllt.
+
+**ANKAUF:** NE-Metalle zu „Tagespreisen“, ohne numerische oder datierte Preisliste. **VERKAUF:** gebrauchte Träger, Eisen und Rohre als Nutzeisen, aber keine Verkaufspreise. **GEBÜHREN:** keine Preis-/Tariftabelle für Container- und Entsorgungsleistungen; keine pauschale Kostenfreiheit belegt. **GEO:** Website behauptet Waagen/Kleinanlieferungen an der Adresse, aber Aktualität und tatsächliche Kundenannahme müssen wegen des alten Auftritts unabhängig geprüft werden.
 
 ## Timeline
 
@@ -43,3 +45,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Betreiberseite vollständig nach relevanten Unterseiten gecrawlt (Start, Kontakt, Impressum, Leistungen, Über uns, Datenschutz, Service). Im aktuellen Direktabruf liefert /pages/impressum.php Inhalt, anders als der 01.10-Vermerk „404“; Impressum nennt Jürgen Keller als Einzelbetreiber, aber keine Rechtsform/HRB (Owner-Ausnahme greift nicht). /pages/leistungen.php nennt Containerdienst, Metall-/Schrotthandel, Ankauf von NE-Metallen zu Tagespreisen sowie 30-t-LKW- und 3-t-Kleinanlieferungswaagen; das sind Betreiberangaben aus EINER Quelle, ohne unabhängige Bestätigung. Kontakt-/Impressums-/Startseiten wiederholen Adresse, Telefon, Mobil, E-Mail und Mo-Fr 09:00-16:00/Sa geschlossen; Footer © 2009-2014. Containerdienst-Regional und LKW-Fahrer-Gesucht führen Keller ebenfalls, sind aber Verzeichnis-/Aggregatoren-Leads und kein qualifizierender Zweitbeleg; kein Register- oder anderer unabhängiger Beleg gefunden. Daher street/postcode/phone/email/opening_hours/description/dropoff_json/pickup_json leer belassen, status pruefung und vorhandene website/website_status unverändert; keine konkreten Preise veröffentlicht oder übernommen; Quelle(n): https://containerdienst-keller.de/; https://containerdienst-keller.de/pages/kontakt.php; https://containerdienst-keller.de/pages/impressum.php; https://containerdienst-keller.de/pages/leistungen.php; https://containerdienst-keller.de/pages/ueber-uns.php; https://www.containerdienst-regional.de/containerdienst-container-wipperfuerth.html; https://lkw-fahrer-gesucht.com/verzeichnis/containerdienst-juergen-keller.html?url=containerdienst-juergen-keller]
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Leistungsseite der Betreiberwebsite direkt erneut gelesen. Sie nennt Ankauf von Kupfer, Messing, Blei, Zink, V2A und Aluminium zu Tagespreisen, Nutzeisen-Verkauf sowie 30-t-LKW- und 3-t-Kleinanlieferungswaagen; Öffnungszeiten Mo–Fr 09–16 Uhr, Samstag geschlossen. Keine Beträge, Preisstufen oder datierte Kurse. Das ist weiterhin eine einzelne Betreiberquelle mit Footer ©2009–2014 und ohne unabhängige Bestätigung der aktuellen Annahme. ANKAUF: nur „Tagespreise“, keine Zahlenliste. VERKAUF: Nutzeisen im Angebot, aber keine Verkaufspreisliste. GEBÜHREN: kein Container-/Entsorgungstarif gefunden, Kostenfreiheit nicht zugesagt. GEO offen: trotz Waagen-Angabe aktuelle Annahme, Grundstückszugang und Händlerzuordnung vor Pin prüfen. Quelle: https://containerdienst-keller.de/pages/leistungen.php]

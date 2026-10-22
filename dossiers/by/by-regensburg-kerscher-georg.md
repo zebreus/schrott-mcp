@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RVR bezeichnet sich auf der eigenen Website weiterhin als Nachfolgeunternehmen der Georg Kerscher GmbH & Co. KG und gibt an, den Betrieb seit Januar 2011 in neuen Gebäuden fortzuführen. Das ist ein Betreiber-Selbstaussage zur Nachfolge, aber kein vollständiger Rechtsnachfolgebeleg und keine Zuordnung des Seed-Standorts An der Irler Höhe 6–8 zu einem heutigen Kerscher-Betrieb. RVR an Budapester Str. 24 bleibt ein eigenständiges Dossier; dessen Betrieb, Kontakte und Preise werden nicht auf Georg Kerscher übertragen.
+
+- **Ankauf/Verkauf:** für die historische Kerscher-Einheit keine aktuellen Kurse oder Preislisten; RVR-Angaben sind nicht übertragbar.
+- **Gebühren:** für Kerscher keine aktuellen Tarife belegt.
+- **Offen/GEO:** historische Standort- und Übernahmebelege sowie heutige Betreiberidentität klären; die Altadresse nicht als aktuellen Kundenstandort geokodieren.
 
 ## Timeline
+
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: RVR-Startseite erneut direkt geprüft; RVR nennt sich weiterhin „Nachfolgeunternehmen der Georg Kerscher GmbH & Co KG“ und sagt, seit Januar 2011 in neuen Gebäuden fortgeführt zu haben. Der Wortlaut belegt die Betreiber-Nachfolgedarstellung, nicht die unmittelbare gesellschaftsrechtliche Rechtsnachfolge oder die aktuelle Nutzung des früheren Standorts An der Irler Höhe 6–8. RVR-Leistungen/Ankauf an der Budapester Str. 24 bleiben RVR-Angaben; keine Übertragung in dieses Dossier. Keine Kerscher-Preislisten für Ankauf, Verkauf oder Gebühren gefunden. Offen: historische Übernahmekette und exakte Altstandortzuordnung; keine Koordinaten gesetzt. Quelle(n): https://rvr-regensburg.de/ ; https://rvr-regensburg.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

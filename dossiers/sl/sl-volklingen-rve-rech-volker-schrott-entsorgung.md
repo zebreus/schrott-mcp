@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberblog ist aktuell erreichbar und enthält datierte Posts bis Januar 2026; eine zusätzliche Jimdo-Seite nennt dieselbe Bezeichnung RVE Rech Volker und Hausen 49. Beide Betreiberauftritte behaupten kostenlose Schrott-/Metallabholung und nennen Mobil-/Festnetznummern, die Kontakt- und Impressumsseiten sind aber uneinheitlich bzw. unvollständig (u.a. leere Register-/Vertreterangaben und wechselnde Webadressen). Mangels unabhängiger Bestätigung bleiben Kontaktfelder leer; `status: aktiv` bleibt ein nicht unabhängig neu bestätigter Bestand.
+
+**Preise:** ANKAUF — ein älterer Blogtext nennt eine Mindestmenge (Schrott ab 300 kg, Metalle ab 5 kg) und listet Metalle, aber keine konkreten Ankaufkurse; die fortdauernde Gültigkeit der Mindestmenge ist nicht belegt. KOSTENLOSE ABHOLUNG ist eine Logistikleistung, kein Ankaufpreis. VERKAUF — keine Ersatzteilpreisliste. GEBÜHREN — Blogtexte nennen bei Fahrzeug-/Elektrogeräteentsorgung „VB“ bzw. mögliche Kosten; kein bezifferter Tarif.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: http://schrott-saar.de/ ist wieder direkt lesbar und zeigt Betreiberblog-Posts vom 01.01.2026 und 23.01.2026. Der Blog nennt RVE Rech Volker, Hausen 49, 66333 Völklingen, Festnetz 06898 4420217, Mobil 015777203812/015679527197 und schrott-saar@hotmail.de; die erreichbare Jimdo-Kontaktseite führt dieselbe Anschrift und Nummern, aber ihr Impressum enthält leere Felder für Vertretung/Register sowie weitere abweichende Kontaktdaten. Daher weiterhin nur Betreiberangaben in Timeline, kein Frontmatter-Fill. Der Blog wirbt für kostenlose Abholung von Schrott/Metallen; Autos und Entsorgung werden teils mit „VB“ bzw. abhängig vom aktuellen Schrottwert beschrieben. Das ist kein numerischer Ankaufkurs; eine mögliche Entsorgungsgebühr ist nicht mit Ankauf gleichzusetzen. Keine Verkaufs-Preisliste oder konkreten Gebühren gefunden. Quellen: https://schrott-entsorgung.blogspot.com/ ; https://schrott-abholung-saar.jimdofree.com/ ; https://schrott-abholung-saar.jimdofree.com/kontakt .]
 
 ### Recherche 05.10.2026
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Die Adresse Kornstr. 8, 30167 Hannover ist in Verzeichnissen mehrfach genannt; die Telefonnummer 0163 1751448 stammt bislang nur aus einem einzelnen Verzeichniseintrag. Ein Betreiberauftritt, Register- oder Kommunalbeleg, der Identität und Ankauftätigkeit von „Khan Schrott-/Altmetallabholung“ bestätigt, fehlt. Straße/PLZ bleiben der bereits dokumentierte Lead; Telefon wird nicht übernommen, `status: pruefung` bleibt.
+Die Adresse Kornstr. 8, 30167 Hannover und 0163 1751448 stehen inzwischen auch im direkt gelesenen Gelbe-Seiten-Profil; die frühere Beschränkung auf einen Telefon-Lead ist überholt. Das schafft keinen qualifizierten Betreiberbeleg. Die einzige dort sichtbare Bewertung stammt von golocal vom 18.12.2013, nicht aus 2026. Ein Betreiberauftritt, Register- oder Kommunalbeleg, der Identität und heutige Ankauftätigkeit bestätigt, fehlt. Straße/PLZ bleiben Legacy-Leads; Telefon wird nicht übernommen, `status: pruefung` bleibt.
 
 - **Ankauf:** keine durch den Betreiber veröffentlichte Ankaufspreisliste.
 - **Verkauf:** keine Händler-Verkaufspreise belegt.
@@ -32,6 +32,10 @@ Die Adresse Kornstr. 8, 30167 Hannover ist in Verzeichnissen mehrfach genannt; d
 - **Geokodierung:** Kornstr. 8, 30167 Hannover nach Identitäts- und Adressbestätigung neu geokodieren.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Korrektur 19.10.2026: Gelbe-Seiten-Einzelseite vollständig direkt gelesen: Kornstr. 8 und 0163 1751448; damit ist Telefon nicht mehr nur city-advisor-Lead. Die 5,0-Bewertung ist ausdrücklich aus golocal importiert und auf 18.12.2013 datiert, kein unabhängiger aktueller Aktivitätsnachweis. Website-/E-Mail-Schaltflächen ohne ausgelesene Betreiberkennung nicht als Primärquelle gewertet. Frontmatter unverändert, keine neue Annahme-/Abholzusage. ANKAUF keine Zahlenliste, VERKAUF keine Preise, GEBÜHREN keine Tarife. Offen: Gewerbeinhaber, Fortbestand und ob Kornstraße überhaupt Kundenannahme statt nur Abholer-Kontaktadresse ist; GEO erst danach. Quelle: https://www.gelbeseiten.de/gsbiz/66667bd3-beb0-4920-8d55-5927245759ca .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

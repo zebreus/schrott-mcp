@@ -29,6 +29,10 @@ Unvollständige Betreiberidentität „Jansen“: Flurweg 8, 93426 Roding und 01
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Telefonbuchsuche-Detail direkt erneut gelesen: „Romano Jansen“, Flurweg 8, 93426 Roding, Telefon 09461 401336. Es handelt sich um einen Personensuch-/Telefonbuch-Lead ohne Schrott-/Gewerbenachweis; weder die ältere Mobilnummer noch die Anschrift werden dadurch bestätigt oder widerlegt. Jansen Group/Jansen GmbH bleiben ohne Roding-Verbindung getrennt. Keine Preislisten oder zurechenbaren Zahlen für Ankauf, Verkauf oder Gebühren; mangels identifizierter Betreiberquelle keine belastbar zuordenbare Preisprüfung. Offen: vollständiger Betreibername, Geschäftstätigkeit und Annahmestelle. Keine Koordinaten geraten; alte GEO-Rolloutprüfung bleibt bestehen. Quelle(n): https://telefonbuchsuche.de/romano-jansen-flurweg-93426-roding ; https://jansengroup.com/de/ ; https://www.jansen.de/impressum/]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: NorthData-Suche „Jansen Roding“ zeigt im ersten Ergebnisblock keine kongruente lokale Schrottidentität; unscharfe/paginierte Treffer und nichtregisterpflichtige Gewerbe begrenzen die Aussage. Portal-Kandidat lokaleschrottplatz.de/jansen/ HTTP403, Brave-Namenssuche 429; kein neuer Betreiberbeleg und keine Preisprüfung an identitätsgesicherter Website möglich. Historische Flurweg-/Telefon-Ausnahme unverändert, ausdrücklich nicht als heutiger Zwei-Quellen-Nachweis gewertet. Owner: vollständigen Namen hinter Jansen und Gewerbetätigkeit an Flurweg 8 klären; Quelle(n): https://www.northdata.de/?query=Jansen%20Roding ; https://lokaleschrottplatz.de/jansen/ (Abrufgrenze).]

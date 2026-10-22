@@ -30,6 +30,10 @@ Die Fichtenauer Website belegt keine Preise: Ankauf wird nicht numerisch beziffe
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiberwebsite und Impressum von Schrotthandel Schneck erneut direkt geprüft: Manfred Schneck wird in Fichtenau, Kapellenstraße 13, 74579, 07962 700464 geführt; die Website beschreibt Abholung und 1–10-m³-Container. Der getrennte Michelbacher Verzeichnislead (Bahnhofstr. 5 / 0791 41161) bleibt ohne Betreiberbeleg; ein Zusammenhang ist nicht belegt. Keine Zusammenführung und keine Übernahme von Fichtenauer Kontakten/Leistungen. Preise getrennt: kein numerischer Ankaufskurs, kein Verkaufspreis und keine Container-/Entsorgungsgebühr veröffentlicht; Michelbacher Preise ebenso offen. Quellen: https://schrott-schneck.de/ ; https://schrott-schneck.de/impressum/ ; https://www.schrottplatz-info.de/schrottplatz/Michelbach-an-der-Bilz/Schneck-Manfred-Schausteller-u-Schrotthandel .]
+
 ### Korrektur 18.10.2026
 
 - [Korrektur 18.10.2026: Status aktiv → pruefung, leeres website_status → unbekannt; keine Michelbacher Betreiberwebsite zugeordnet. Im heutigen Review nennen Startseite und Impressum von Schrotthandel Schneck Manfred Schneck, Kapellenstraße 13, 74579 Fichtenau, 07962 700464; ein Registerbeleg wurde nicht gelesen. Das ist eine Betreiberquellenfamilie. Die direkt gelesene Michelbacher Portalseite nennt dagegen Bahnhofstr. 5 und 0791 41161, nur als Lead. Ein Zusammenhang ist weder belegt noch widerlegt; ein Merge derzeit nicht belegt und deshalb nicht zulässig. Keine Fichtenauer Kontakte/Leistungen übertragen. In den gelesenen Fichtenauer Texten keine numerischen Preise, für Michelbach keine belastbare Preis-/Tarifquelle erschlossen. Kein belegter Abruf am Entwurfsdatum 12.10.; dieser Eintrag dokumentiert den tatsächlichen Review vom 18.10. Quelle(n): https://schrott-schneck.de/ ; https://schrott-schneck.de/impressum/ ; Lead: https://www.schrottplatz-info.de/schrottplatz/Michelbach-an-der-Bilz/Schneck-Manfred-Schausteller-u-Schrotthandel]

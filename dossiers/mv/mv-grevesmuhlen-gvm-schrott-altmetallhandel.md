@@ -28,6 +28,10 @@ Der Betreiberauftritt beschreibt Schrott-/Altmetallannahme für private Kleinlie
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Betreiber-Kontakt/Impressum und Containerseite direkt erneut gelesen: GVM/Björn Makarewicz, Grüner Weg 11, 23936 Grevesmühlen und die bekannten Festnetz-/Mobilnummern sind weiterhin auf der eigenen Website ausgewiesen. Das bestätigt den aktuellen Seiteninhalt, ersetzt wegen Einzelunternehmer-/Einzelquellenlage aber keinen unabhängigen zweiten Beleg für eine Stammdatenübernahme. Containergrößen 4,3/6,5/8,6 m³, Austausch/Abholung nach Vereinbarung, Aufstellung mit Lkw-Zufahrt; öffentliche Stellfläche braucht eine kommunale, ggf. gebührenpflichtige Genehmigung. Diese mögliche Behördengebühr ist keine GVM-Containergebühr. Keine bezifferten Ankaufskurse, Verkaufspreise oder Händler-Containergebühren gefunden. Adresse ist bereits als Timeline-Fakt dokumentiert; keine neue Geokodierung oder Datenbankabfrage. Quellen: https://www.gvm-schrott.de/kontakt-impressum/ ; https://www.gvm-schrott.de/container/ (Abruf 21.10.2026).]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Containerseite präzisiert die Einsatzbedingungen: angebotene Behälter 4,3/6,5/8,6 m³ für Schrott/Altmetall, Aufstellung insbesondere bei Gewerbe/Handwerk, Abholung/Austausch nach Absprache; erforderliche Zufahrt für 10–15-m-Lkw, mindestens 4 m Breite und Höhe, Ladung nicht über den Rand. Öffentliche Verkehrsfläche nur mit kommunaler Genehmigung; eine mögliche Sondernutzungsgebühr wäre eine Behördengebühr, nicht ein von GVM ausgewiesener Containerpreis. Weiterhin kein numerischer Ankaufkurs, Verkaufspreis oder Händler-Gebührentarif. Quelle: https://gvm-schrott.de/container]

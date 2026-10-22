@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Branchenverzeichnisse wiederholen als Lead Frankfurter Str. 116, 99817 Eisenach, und Telefon 03691 742917 für Erhard Eichenauer; kein Eintrag ist Betreiber- oder Registerbeleg. Scholz Recycling hat eine eigene Eisenach-Seite, die aber auf den 25.09.2017 datiert ist und weder Eichenauer noch die Frankfurter Str. 116 nennt. Daraus folgt keine Übernahme oder Nachfolge. Aktueller Betrieb, Annahme und Identität bleiben ungeklärt; keine Preise oder Gebühren belegt.
+Mehrere Branchenverzeichnisse wiederholen als Lead Frankfurter Str. 116, 99817 Eisenach, und Telefon 03691 742917 für Erhard Eichenauer; kein Eintrag ist Betreiber- oder Registerbeleg. Der direkt gelesene Schrottplatz-Info-Datensatz behauptet zusätzlich „Verkauf“ und eine 3-t-Waage, liefert aber keine Betreiberquelle; seine ungewöhnlichen Öffnungszeiten-/Schrottsortenangaben sind nicht verifizierbar. Scholz Recycling hat eine eigene Eisenach-Seite (25.09.2017), die weder Eichenauer noch diese Adresse nennt. Ankauf, Verkauf und Gebühren bleiben unbestätigt. Keine Adresse oder Preisangabe aus dem Portal übernehmen und nicht geokodieren.
 
 ## Timeline
+
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Der direkt gelesene Schrottplatz-Info-Eintrag wiederholt Frankfurter Str. 116, 99817 Eisenach und 03691 742917. Er behauptet „Verkauf“ und eine 3-t-Waage, gibt aber keine Betreiber-/Registerquelle, verlässlichen Öffnungszeiten oder nachvollziehbare Materialliste an. Diese Portalangaben werden nicht als bestätigte Verkaufsleistung übernommen. Kein belegter Schrottankauf, Verkaufspreis oder Entsorgungstarif; keine Adresse geokodiert. Quelle: https://www.schrottplatz-info.de/schrottplatz/Eisenach/Eichenauer-Erhard]
 
 ### Recherche 13.10.2026
 

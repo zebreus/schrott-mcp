@@ -29,6 +29,10 @@ Waldstr. 22 und die Telefonnummer sind weiterhin nur über einen Branchenverzeic
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Das Örtliche-Profil erneut direkt abgerufen. Es führt weiterhin Großkopf Matthias Buntmetallbörse, Waldstr. 22, 17309 Jatznick, Tel. 039741 80461; damit bleibt es bei einem einzigen Verzeichniseintrag ohne qualifizierten Betreiber-/Register-/Kommunal-Zweitbeleg. Der Eintrag belegt keine öffentliche Annahme, und ein Preis/Kfz-Teileangebot wäre kein Schrott-Ankaufskurs. Keine Frontmatter-Füllung oder GEO. ANKAUF: keine numerische Vergütung; VERKAUF: keine verifizierte Materialpreisliste; GEBÜHREN: keine Angaben. Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Buntmetallb%C3%B6rse&ci=Jatznick .]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Erneute Suche nach „Buntmetallbörse Jatznick“/Matthias Großkopf brachte keine belastbare Betreiber-, Register- oder kommunale Geschäftsquelle. Waldstr. 22, 17309 Jatznick und 039741 80461 bleiben Einzelbeleg aus Das Örtliche; der OSM-Gebäudepunkt ist kein Geschäfts- oder Betreiberbeleg. Keine Frontmatter-Füllung. Preise: ANKAUF – Portal nennt Buntmetallankauf, aber weder Kurs noch Preisliste; VERKAUF – keine Liste; GEBÜHREN – keine Angaben. Adresse nicht geocodieren, bevor Geschäftsbezug belegt ist. Quelle(n): https://www.dasoertliche.de/?form_name=search_nat&kw=Buntmetallb%C3%B6rse&ci=Jatznick; vorheriger OSM-Gebäudeabgleich (siehe Recherche 30.09.2026).]

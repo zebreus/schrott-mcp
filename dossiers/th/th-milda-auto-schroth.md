@@ -28,6 +28,10 @@ Der Registerabgleich identifiziert den Eintrag als **Auto Schroth GmbH Demontage
 
 ## Timeline
 
+### Unabhängige Nachprüfung 21.10.2026
+
+- [Recherche 21.10.2026: Ein Verzeichnis führt die Auto Schroth GmbH weiterhin mit Dorfstr. 15, 07751 Milda, Telefon/Fax und HRB 209569, obwohl die registerbezogenen Nachweise die GmbH seit 13.06.2017 als gelöscht führen. Der neue Portalabruf ist kein Beleg für eine Wiederaufnahme oder einen Nachfolger; Felder und Status geschlossen bleiben auf genau diesen Rechtsträger bezogen. Ankauf/Altfahrzeugvergütung, Ersatzteilverkauf und Entsorgungsgebühren für einen heutigen Betrieb sind nicht belegt. Historische Anschrift nicht als aktuellen Standort geokodieren. Quelle: https://www.schrottplatz.org/milda/auto-schroth-gmbh-demontage-von-altfahrzeugen-145597.html]
+
 ### Recherche 01.10.2026 (2. Durchgang)
 
 - [Recherche 01.10.2026: unabhaengige Nachpruefung des Vorvermerks per Bing (Suchterme Auto Schroth GmbH Milda 07751): nur generische Autoportal-Treffer, kein Betreiber-Beleg, kein HR-Treffer - Negativbefund bestaetigt, kein Fill, weiter pruefung; Quelle(n): Bing-SERP 01.10.2026]

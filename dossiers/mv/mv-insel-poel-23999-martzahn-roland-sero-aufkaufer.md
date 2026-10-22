@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zwei direkt geprüfte Verzeichnisse nennen Roland Martzahn am Birkenweg 13, 23999 Insel Poel, Telefon 038425 20349. Beide sind Aggregator-Einträge; eine unabhängige Betreiber-, Register- oder kommunale Geschäftsbestätigung und eine konkrete SERO-Annahmestelle fehlen. Die Branchenrubrik „Alt- und Abfallstoffe“ beweist weder Metallankauf noch die Seed-Bezeichnung „Sero-Aufkäufer“. `status: pruefung`, leere Kontakt-/Standortfelder und kein GEO bleiben angemessen. ANKAUF: keine belegten Kurse; VERKAUF: keine Materialpreise; GEBÜHREN: kein Tarif.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Zwei aktuelle Direktabrufe liefern übereinstimmend Birkenweg 13, 23999 Insel Poel und 038425 20349 für Roland/Martzahn: MisterWhat bezeichnet den Eintrag als „Alt- und Abfallstoffe“, defirmenkataloge ordnet ihn nur allgemein als Unternehmen ein und blendet Öffnungszeiten samt generischem Hinweis auf eine offizielle Website ein. Beide sind Verzeichnis-/Aggregatorquellen, keine unabhängigen qualifizierten Betreiberbelege; keine Frontmatter-Fills und keine Annahme von SERO-/Metallankauf. ANKAUF/VERKAUF/GEBÜHREN: keine Händlerpreise oder Tarife. Quellen: https://www.misterwhat.de/company/105077-martzahn-roland-sero-aufkaeufer-insel-poel ; https://insel-poel.defirmenkataloge.com/company/roland-martzahn/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

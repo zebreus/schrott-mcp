@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+DasTelefonbuch listet „Schrott Sylvia“ an Dorfstr. 35, 17153 Ritzerow und zeigt eine teilweise maskierte Rufnummer, die mit der Seed-Nummer vereinbar ist. Das bleibt ein Branchen-/Telefonbuch-Lead, kein Nachweis für eine gewerbliche Annahmestelle oder Betreiberidentität; die dort eingeblendeten Koordinaten sind ebenfalls nur Portal-Geodaten und wurden nicht übernommen. **Ankauf:** nicht bestätigt. **Verkauf:** keine Hinweise. **Gebühren:** unbekannt. Status `pruefung`; keine Schließung oder gewerbliche Tätigkeit aus dem Namen ableiten.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: DasTelefonbuch-Einzelkarte direkt neu gelesen: „Schrott Sylvia“, Dorfstr. 35, 17153 Ritzerow, Telefonnummer nur teilweise maskiert (039954 3 1…1 91) und Portal-Kartenmarker 53.660864/12.962669. Das bestätigt nicht alle Ziffern der Seed-Rufnummer und ist kein unabhängiger Gewerbe-/Betreiberbeleg; Koordinaten gehören zur Verzeichnisanzeige, nicht zu einer verifizierten Kundenannahme. Keine Übernahme/Neugeokodierung. Ankauf, Verkauf und Gebühren bleiben ungeklärt. Quelle: https://kontakt-3.dastelefonbuch.de/Ritzerow/Sylvia-Schrott-Ritzerow-Dorfstr.html (Abruf 21.10.2026).]
 
 ### Recherche 02.10.2026
 

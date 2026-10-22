@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Mobile Abholwerbung für Saarbrücken/Umland, keine verifizierte saarländische Hofadresse. Die pauschale Gratisbeschreibung wurde zurückgenommen: Gebühren für Einzelgeräte/kleine Eisenmengen und widersprüchliche Mengenausschlüsse stehen auf der Betreiberseite. Keine numerischen Ankaufkurse; konkrete Bedingungen und ausführende Partner bleiben zu klären.
+Schrottjungs UG (Hamburg; HRB 196586) betreibt die bundesweit/mobile Website; eine konkrete saarländische Hofadresse oder der örtliche Ausführungspartner ist nicht genannt. Die Betreiberseite bewirbt die Abholung in Saarbrücken, nennt aber zugleich 40–80 € für Einzelgeräte/kleine Eisenmengen und widersprüchliche Ausschlüsse/Mindestmengen. Die Gewerbeseite veröffentlicht unverbindliche „bis zu“-Ankauf-Richtpreise für Großmengen (siehe Timeline), keine Garantie für private oder saarländische Einzelaufträge. Verkaufspreise fehlen; konkrete Gebühren und Bedingungen vor Auftrag klären.
 
 ## Timeline
+
+### Recherche 21.10.2026 — Betreiber, Ankaufkurse und Gebühren
+
+- [Recherche 21.10.2026: Das Betreiberimpressum nennt Schrottjungs UG, Billwerder Steindamm 15a, 20537 Hamburg, Geschäftsführer Magnus Ditz, HRB 196586 AG Hamburg; Registerspiegel North Data stimmt bei Gesellschaft, Register und Anschrift überein. Die Saarbrücken-Seite bewirbt mobile Abholung, nennt aber keine lokale Hofadresse und keinen ausführenden Partner. ANKAUF (Gewerbeseite, ausdrücklich unverbindliche „bis zu“-Richtpreise für Großmengen; tatsächlicher Betrag abhängig von Menge/Qualität/Sortierung/Markt, Tagespreis auf Anfrage, kleinere Mengen andere Konditionen): FE €/t — Scherenvormaterial 200, Mischschrott leicht 170, Mischschrott schwer 210, Sorte 3 240, Trägerschrott 230, Bremsscheiben 240, Zerlegematerial 540; NE €/kg — Kupfer Raff 8,50, Kupfer Millberry 9,50, Kupferschiene 9,20, Messing gemischt 4,50, Rotguss 8, Kabel diverse 5,20, Aluminium div. 2,50, Edelstahl V2A 1,10, Zink 1,90, Blei 1,40, Zinn 22, Hartmetall/Wolfram 55. Keine Gültigkeits-/MwSt.-Angabe auf der gelesenen Tafel; daher keine garantierten Saarbrücken-Privatpreise und keine Preise in Stammdaten übertragen. VERKAUF: keine Verkaufspreisliste gefunden. GEBÜHREN: Saarbrücken-Seite wirbt zunächst kostenlos, nennt dann ca. 40–80 € für Einzelgeräte/kleine Eisenmengen und schließt Eisen <300 kg aus; FAQ wiederholt Mindestmenge 300 kg und mögliche Gebühr 40–80 €. Diese Seitenangaben sind widersprüchlich, Auftragspreis/Menge vorher schriftlich klären. Gewerbeseite bietet Container 3–40 m³ „mietfrei bei Schrottbefüllung“ inkl. Lieferung/Abholung; das ist kein allgemeiner gebührenfreier Entsorgungsdienst. Quellen: https://schrottjungs.de/impressum-datenschutz/ ; https://www.northdata.de/Schrottjungs%20UG,%20Hamburg/HRB%20196586 ; https://schrottjungs.de/gewerbe/ ; https://schrottjungs.de/saarbruecken-schrottabholung/]
 
 ### Owner-Korrektur 14.10.2026
 

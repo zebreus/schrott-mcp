@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Yavuz“ ist nur als Verzeichnis-Kandidat an Leuschnerstr. 22, 67063 Ludwigshafen geführt. PLZ, Telefonnummer 0179 5476909 und Mo–So 07:00–20:00 stammen laut bisheriger Recherche aus zwei Aggregatoren; weder Betreiberidentität noch aktuelle Tätigkeit sind unabhängig verifiziert. Kein Betreiberauftritt/Preisbeleg, daher Felder nicht weiter ausbauen und status `pruefung` beibehalten. ANKAUF: keine Konditionen oder Zahlen; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben.
+„Yavuz Metallhandel“ ist ein Verzeichnis-Kandidat an Leuschnerstr. 22, 67063 Ludwigshafen. Das direkt gelesene Gelbe-Seiten-Profil führt Tel. 0179 5476909, tägliche Zeiten 07:00–20:00 und beschreibt Schrottabholung/-entsorgung sowie Entrümpelungen von Wohnung, Haus, Garten, Garage, Keller, Lager und Firmen. Die Tätigkeitsbeschreibung stammt aus diesem Aggregatorprofil; Adress-/Kontaktangaben werden auch von anderen Verzeichnissen wiederholt, sind aber nicht durch einen Betreiber-/Registerbeleg bestätigt. Weder ein öffentlicher Annahmehof noch aktuelle Tätigkeit sind unabhängig verifiziert. Kein Preisbeleg, daher keine weiteren strukturierten Fills; status `pruefung` bleibt. **ANKAUF:** keine Konditionen oder Zahlen. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Angaben. **GEO:** Adresse erst nach Bestätigung der Identität und eines Kundenannahmepunkts freigeben.
 
 ## Timeline
+
+### Recherche 22.10.2026
+
+- [Recherche 22.10.2026: Gelbe-Seiten-Profil direkt erneut gelesen. Es nennt „Yavuz Metallhandel“, Leuschnerstr. 22, 67063 Ludwigshafen-Friesenheim/Nord, Tel. 0179 5476909, Mo–So 07:00–20:00 und im Beschreibungstext Schrottabholung/-entsorgung sowie Entrümpelungen mehrerer privater und gewerblicher Bereiche. Die Seite ordnet den Eintrag der Branche Entrümpelungen zu; daraus weder Schrottankauf noch offene Anlieferung ableiten. Gleiche Quelle/Familie wie der bestehende Verzeichnislead, kein neuer unabhängiger Betreiber-/Registerbeleg. Keine Frontmatter-Felder geändert. ANKAUF: keine Preise oder Konditionen; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. GEO erst nach Identitäts- und Kundenstandortklärung. Quelle: https://www.gelbeseiten.de/gsbiz/16e064e4-76bc-4b07-b075-e2d70c0b6e85 (Aggregator-Lead).]
 
 ### Recherche 18.10.2026 — Welle 18:00 / Shard 3
 

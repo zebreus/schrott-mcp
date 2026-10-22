@@ -33,6 +33,10 @@ Gelbe Seiten führt „Schrott Rosel“ in Frankenstr. 30, 63868 Großwallstadt,
 
 ## Timeline
 
+### Recherche 20.10.2026
+
+- [Recherche 20.10.2026: Gelbe Seiten und Das Örtliche erneut direkt eingesehen: beide führen „Schrott Rosel“ an Frankenstr. 30, 63868 Großwallstadt, Telefon 06022 22697. Die Übereinstimmung bleibt ein Verzeichnis-Lead und bestätigt weder Betreiberidentität noch eine Kundenannahmestelle. Keine Betreiber-/Registerquelle, keine Preisangaben: Ankauf ohne Kurs, Verkauf ohne Preisliste, Gebühren ohne Tarif belegt. Offen: vollständiger Rechtsträger, heutige Anschrift und Annahmebetrieb. Adresse nicht ins Frontmatter übernommen und nicht geokodiert. Quelle(n): https://www.gelbeseiten.de/gsbiz/6c4130c4-4bb0-45d6-92e3-16820c560e9c ; https://www.dasoertliche.de/Themen/Frankenstra%C3%9Fe/Gro%C3%9Fwallstadt.htm]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Vorhandene Importspur geprüft: Seed nennt „Schrott — GS + Örtliche“ sowie Frankenstr. 30, 63868 Großwallstadt, enthält jedoch keine archivierten Detail-URLs oder Betreiber-/Registerbelege. Deshalb Anschrift nur als historische Verzeichnisangabe, nicht als bestätigte Annahmestelle übernommen; keine neuen Kontaktdaten oder Aktivitätsaussage. Ankauf, Verkauf und Gebühren sind in der verfügbaren Beleglage nicht bepreist. Offene Fragen: vollständiger Betreibername/Rechtsträger, aktuelle Geschäftsanschrift und Kundenannahme. Geokodierung erst nach Klärung; Quelle: Seed-Importnotiz (30.09.2026; Verweise „Gelbe Seiten + Das Örtliche“, Detail-URLs nicht enthalten).]

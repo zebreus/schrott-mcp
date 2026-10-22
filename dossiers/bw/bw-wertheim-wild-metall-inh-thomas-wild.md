@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Wild-Metall Inh. Thomas Wild“ in Wertheim wurde keine aktuelle Betreiberquelle gefunden. Eine ähnlich benannte Wild-Metall/Thomas-Wild-Spur in Weilbach (Bayern) ist ein anderer Ort und durch keine Quelle mit Wertheim verknüpft; deren Anschrift/Kontakte nicht übertragen. Der Seed-Status `aktiv` bleibt Importstand, nicht neu bestätigt. Für Wertheim sind Ankauf, Verkaufspreise und Gebühren unbekannt.
+Für „Wild-Metall Inh. Thomas Wild“ in Wertheim fehlt eine aktuelle Betreiber-/Registerzuordnung. Creditreform führt einen konkreten Kandidaten Thomas Wild Metalle in Weilbach (Bayern), Reuboldstraße 10, bislang nur als Suchauszug gelesen; Detail403. Kein Nachweis verbindet diesen Kandidaten mit Wertheim. Deshalb keine Adress-/Kontaktübertragung und jetzt `pruefung` statt unbestätigtem `aktiv`; weder Betriebsschließung noch Umzug behauptet. **Ankauf:** in Wertheim nicht bestätigt/keine Kurse. **Verkauf:** keine Liste. **Gebühren:** unbekannt. **GEO:** zunächst Ort und Rechtsträger entscheiden, keine Weilbacher Koordinate unter BW veröffentlichen.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 / Shard a
+
+- [Korrektur 19.10.2026: Frische Suche bestätigt nur Creditreform-Kandidaten Thomas Wild Metalle/Reuboldstr.10/63937 Weilbach/093732063329 im Suchauszug; Detailabruf403. Ortsbezogene Suche liefert keinen qualifizierenden Wertheim-Beleg, ist aber kein Nichtbestehensbeweis. Den bereits07.10. erkannten Identitäts-/Ortskonflikt jetzt im Status umgesetzt: aktiv zu pruefung, keine Schließung und kein Umzug nach Weilbach unterstellt. Name/Slug/BW unverändert bis Ownerentscheidung über Betriebskette; keine fremden Kontaktdaten gefüllt. Ankauf/Verkauf/Gebühren für Zielidentität weiterhin ohne belegte Liste. Gewerbeauskunft Wertheim versus Weilbach zur Identitätsverknüpfung erforderlich, GEO zurückstellen. Quelle: https://firmeneintrag.creditreform.de/63937/8010136675/THOMAS_WILD_METALLE (Suchauszug, Detail403).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

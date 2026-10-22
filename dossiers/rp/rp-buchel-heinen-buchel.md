@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed „Heinen Büchel“ nennt nur die Georgsweiler Straße und ist nicht eindeutig identifiziert; Hausnummer, Inhaber und Betreiberauftritt fehlen. Die Recherchehistorie enthält einen Branchenbuch-Lead für Hans Peter Heinen in Strohn (Alfbachstr. 2) sowie eine separate Firma Jürgen Heinen e.K. in Koblenz. Keiner dieser Treffer belegt einen Bücheler Betrieb oder eine Verbindung zum Seed; insbesondere keine Adresse/Kontakte zwischen den Orten übertragen. **ANKAUF:** nicht belegt, keine Kurse. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Angaben. **GEO:** die unvollständige Georgsweiler Straße nicht geokodieren; zunächst Betreiber und konkrete Anschrift klären.
 
 ## Timeline
 

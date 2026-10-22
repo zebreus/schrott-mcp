@@ -3,7 +3,7 @@ slug: mv-wolgast-17438-hans-bartusch
 name: Hans Bartusch
 trader_type: sonstige
 state: MV
-city: Wolgast 17438
+city: Wolgast
 street: Straße der Freundschaft 47
 postcode: '17438'
 phone: 03836 202920
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Stadt Wolgast führt „Fahrzeugentsorgung und -verwertung Bartusch“ als Anlage für Autowracks und Kfz-Teile und nennt Straße der Freundschaft 47, 17438 Wolgast, Telefon 03836 202920. Das ist ein kommunaler Beleg für den lokalen Bezug, aber keine aktuelle Betreiberseite oder frische Annahmebestätigung; deshalb bleiben `status: pruefung` und die vorhandene Bezeichnung „Hans Bartusch“ vorsichtig. **Ankauf:** kein Fahrzeugankaufspreis oder allgemeiner Schrottankauf belegt. **Verkauf:** keine Teileliste/Preise. **Gebühren:** keine Anbieterpreise; nicht mit den Kosten einer behördlich angeordneten Verwertung verwechseln.
 
 ## Timeline
+
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Amtliche Stadtseite „Umwelt/Abfall“ direkt erneut gelesen. Sie führt weiterhin Fahrzeugentsorgung/-verwertung Bartusch, Straße der Freundschaft 47, 17438 Wolgast, 03836 202920 und grenzt Autowracks/Kfz-Teile von kommunalem Sperr- bzw. Sondermüll ab. Der Seitentext enthält auch ältere Abfallinformationen; er bestätigt keine heutigen Öffnungszeiten und keine aktuelle Betreiberannahme. `city` wurde syntaktisch zu „Wolgast“ bereinigt, weil PLZ separat geführt wird; Straße/PLZ/Telefon waren bereits dokumentiert. Ankauf, Teileverkauf und Händlergebühren bleiben unbelegt. Keine neue Adresse und kein Geocodinglauf. Quelle: https://www.wolgast.de/buergerservice/umwelt-und-abfall/ (Abruf 21.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

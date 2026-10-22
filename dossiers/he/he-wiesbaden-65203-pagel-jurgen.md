@@ -30,6 +30,10 @@ Zwei Branchenverzeichnisse nennen „Pagel Jürgen Autohandel“ bzw. „Jürgen
 
 ## Timeline
 
+### Recherche 19.10.2026: Welle 03:30 B
+
+- [Recherche 19.10.2026: Adressgegenbeleg Hanna-Impressum erneut direkt gelesen: HRB33135, WiesbadenerLandstraße16/65203, Luftfracht/Logistik. Belegt nur anderen Betreiber am Kandidatenort; weder Verdrängung noch Pagel-Nachfolge daraus ableiten. Frische Namenssuche bringt insbesondere fremde Pagel-Personenprofile und AUTO-PAGEL in Malchow, keine neue Zuordnung zum Wiesbadener Altbestand. Deshalb kein Kontakt-/Adressfill und kein Schluss auf Schließung. Ankauf/Verkauf/Gebühren für Pagel weiterhin unbekannt. Nächster sinnvoller Schritt bleibt gezielte kommunale Gewerbeauskunft zu JürgenPagel/Autohandel an WiesbadenerLandstraße16; nicht bloß Such-Negativbefunde wiederholen. GEO bis dahin nicht freigeben. Quelle: https://hannagmbh.com/impressum/ (direkt gelesen).]
+
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 
 - [Recherche 14.10.2026: Neuer tatsächlich gelesener Primärbeleg zur früheren Adressspur: [Hanna GmbH, Impressum](https://hannagmbh.com/impressum/) nennt Wiesbadener Landstraße 16, 65203 Wiesbaden, Dr. Bassam Hanna und HRB 33135/Wiesbaden. Das ist ein anderer Betreiber (Luftfracht/Logistik), kein Pagel-Beleg und keine belegte Nachfolge. Mehrfachbelegung oder ein früherer Pagel-Betrieb werden dadurch weder bestätigt noch ausgeschlossen.; Quelle: https://hannagmbh.com/impressum/]

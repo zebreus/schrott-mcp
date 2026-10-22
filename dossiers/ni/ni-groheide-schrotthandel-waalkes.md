@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Konkrete, aber nicht ausreichend verifizierte Betreiberspur: Facebook führt Waalkes Schrotthandel, Halbemonder Str. 17 in Westermoordorf/Großheide und die alte Jimdo-Domain. Jimdo bleibt beim neuen Direktversuch nicht lesbar. Nicht mit einer Schließung gleichsetzen. Verzeichnis-Kopien sind keine unabhängigen Quellen; eine neu gefundene Seite enthält sogar sachfremden generierten Text. Keine Freigabe von Adresse/Kontakten oder Abholbedingungen. Ankaufskurse, Verkaufspreise und Gebühren nicht belegt; GEO erst nach aktueller Betreiber-/Annahmestellenbestätigung.
 
 ## Timeline
+
+### Recherche 19.10.2026: Welle 03:30 C
+
+- [Recherche 19.10.2026: Jimdo-Startseite direkt erneut Transportfehler, kein Impressum/Preisinhalt gelesen. Facebook-Suchindex nennt unverändert Halbemonder Str. 17, 04936 698041, 0174 2713903 und Jimdo-Link; Index ist kein heute gelesener Betreiberpost. Neue Seite tierheilpraxis-henke.com behauptet unpassend Umgang mit Schrot und Körperteilen und verstümmelt Telefon zu 4936698041. Dieses konkrete Qualitätswarnsignal zeigt, warum vermeintlich unabhängige Verzeichniskopien nicht zählen. Keine Kontaktdaten-/Öffnungszeitübernahme. ANKAUF/VERKAUF/GEBÜHREN keine qualifizierte Zahlenliste; kommunale Gewerbe-/Betreiberbestätigung der Halbemonder Straße vor GEO nötig. Quellen: https://schrotthandel-waalkes.jimdo.com/ (fehlgeschlagen); https://www.facebook.com/p/Waalkes-Schrotthandel-100063680228328 (Suchindex); https://tierheilpraxis-henke.com/schrotthandel-waalkes (Suchindex, verworfener Aggregator).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

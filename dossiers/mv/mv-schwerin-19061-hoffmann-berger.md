@@ -28,6 +28,10 @@ Rechtsform- und Zuordnungsrisiko: Die benannte OHG (HRA 59, Abschlepp-/Bergungsd
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: HRA-59-Profil erneut direkt aufgerufen; es bleibt eine eigenständige Hoffmann & Berger OHG, Abschlepp-/Bergungsdienst, ohne verifizierte Straßenanschrift im sichtbaren Profil. Der Domain-Aufruf abschleppdienst-schwerin.de lief bei diesem Abruf in einen Timeout; der frühere direkt gelesene Platzhalterinhalt ist dadurch weder bestätigt noch widerlegt. Keine Verbindung zur Hoffmann & Berger GmbH HRB 9290 oder MAB Autoverwertung HRB 4651 belegt; keine Adressübertragung, kein GEO. Für die OHG keine belegten Ankauf-, Teileverkaufs- oder Gebührentarife. Quellen: https://www.northdata.de/Hoffmann%20%26%20Berger%20OHG%20-%20Abschleppu%C2%B7%20Bergungsdienst,%20Schwerin/HRA%2059 ; https://www.abschleppdienst-schwerin.de/ .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: ANKAUF: Kein OHG-spezifischer, aktueller Schrott-/Fahrzeugankauf oder Preis belegt; Leistungen der gleichnamigen GmbH nicht auf die OHG übertragen.; VERKAUF: Keine OHG-spezifische Teile-/Materialpreisliste belegt.; GEBÜHREN: Keine OHG-spezifischen Abschlepp-, Annahme- oder Verwertungsgebühren belegt.; GEOKODIERUNG: OHG-Standort und genaue Anschrift unbekannt. Carl-von-Linde-Str. 4 gehört zum getrennten GmbH-Kandidaten und darf nicht für diese Zeile geokodiert werden.; Quelle: NorthData HRA 59 und getrennte GmbH-/MAB-Profile sowie Platzhalterseite, dokumentiert in Recherche 05.10.2026: https://www.northdata.de/Hoffmann%20%26%20Berger%20OHG%20-%20Abschleppu%C2%B7%20Bergungsdienst,%20Schwerin/HRA%2059 ; https://www.abschleppdienst-schwerin.de/.]

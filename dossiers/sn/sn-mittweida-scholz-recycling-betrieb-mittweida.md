@@ -30,6 +30,10 @@ Die überregionale Scholz-Recycling-Präsenz ist aktuell, die konkrete Betriebss
 
 ## Timeline
 
+### Recherche 21.10.2026
+
+- [Recherche 21.10.2026: Aktuelle offizielle Standortfinder- und Impressumsseiten direkt gelesen. Der Standortfinder beschreibt allgemein Selbstanlieferung und eine grobe Foto-/Tagesmarkt-Schätzung, enthält aber auf der Seite selbst keine lokalen Zahlenkurse; der im Dossier am 18.10. geprüfte JSON-Standortendpunkt enthielt keinen Mittweida-Eintrag. Das Konzernimpressum identifiziert Scholz Recycling GmbH, HRB 733963 Ulm, Sitz Essingen, nicht eine konkrete Mittweidaer Filiale. Andere gelistete Standorte werden nicht übertragen; die fehlende Listung ist kein Schließungsnachweis. ANKAUF: keine Mittweida zugeordnete Preisliste, nur allgemeine unverbindliche Schätzung. VERKAUF: keine Produktpreisliste. GEBÜHREN: keine örtliche Tarifliste. Adresse/Annahmeort weiterhin offen. Quellen: https://www.scholz-recycling.com/standorte/ ; https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ; https://www.scholz-recycling.com/impressum/ .]
+
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 
 - [Recherche 18.10.2026: Neuen Rechercheweg genutzt: Standortfinder-HTML enthält dataLocation /standorte-json-nicht-loeschen/, JSON vollständig live gelesen. Kein Eintrag mit Mittweida; konkret vorhandene Marienberg-/Chemnitz-Datensätze nicht übertragen. Damit frühere Annahme einer ausschließlich unzugänglichen JS-Karte korrigiert, aber keine Betriebsaufgabe behauptet. Betreiber-Impressum HRB 733963 Essingen belegt nur Konzernidentität. Status pruefung und leere Ortskontakte erhalten, keine Standort-/Rename-/Merge-Entscheidung. ANKAUF/VERKAUF/GEBÜHREN: keine Mittweida zuordenbaren Zahlen; GEO mangels belegter Adresse zurückstellen. Quellen: https://www.scholz-recycling.com/standorte/ ; https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ; https://www.scholz-recycling.com/impressum/ .]
