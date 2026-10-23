@@ -1,5 +1,6 @@
 ---
 slug: he-gieen-seebohm-schrotthandlung-und-abholung
+clear_fields: 'geo'
 name: Seebohm Schrotthandlung und Abholung
 trader_type: schrotthaendler
 state: HE
@@ -24,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten und GoLocal führen Seebohm Schrotthandlung und Abholung mit Mobilnummer 0171 6387325 und PLZ 35398, aber ohne Straße oder vollständigen Rechtsträger. Die gleichlautende alte GoLocal-Bewertung wurde offenbar in den Gelbe-Seiten-Datensatz übernommen und ist kein unabhängiger Beleg. Eine direkt gelesene städtische Gießen-Quelle nennt Corinna Seebohm als Vereinskontakt, nicht als Schrotthändlerin. Ein passender Register- oder Betreiberbeleg und eine aktuelle Annahmebestätigung fehlen.
+
+**ANKAUF:** keine bestätigten Bedingungen oder Zahlenkurse. **VERKAUF:** keine Teile-/Materialpreisliste. **GEBÜHREN:** keine Tarife. **GEO:** keine bestätigte Straßenanschrift; die Mobilnummer/PLZ nicht als Annahmepunkt geokodieren. Status `pruefung` bleibt.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.5852400, 8.6791800. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
 
 ### Importiert (Seed-Stand 2026-09-30)
 

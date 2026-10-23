@@ -1,5 +1,6 @@
 ---
 slug: nw-aachen-ocher-schrottmannchen
+clear_fields: 'geo'
 name: Öcher Schrottmännchen
 trader_type: schrotthaendler
 state: NW
@@ -24,13 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Öcher Schrottmännchen ist weiterhin nur über historische Verzeichnisangaben und eine nicht als Betreiber verifizierte Kleinanzeige greifbar. Eingetragene Adresse, Telefon und Zeiten bleiben Altdaten/Leads, keine am 14.10. bestätigten Betriebsangaben. Die Anzeige bewirbt kostenlose Altmetallabholung und Ankauf von NE-Metallen beziehungsweise größeren Eisenmengen, identifiziert den rechtlichen Anbieter aber nicht. Keine öffentlich bestätigte stationäre Annahme, numerische Ankaufspreise, Verkaufspreise oder Gebührenordnung; `pruefung` bleibt.
+Öcher Schrottmännchen ist weiterhin nur über Verzeichnisangaben und eine nicht als Betreiber verifizierte Kleinanzeige greifbar. Die direkt gelesene Gelbe-Seiten-Seite wiederholt Kroitzheider Weg 8, 52076, 0176 24453838 und Mo–Fr 09–17/Sa 09–14, bestätigt aber nur den Verzeichniseintrag, nicht dessen Betreiber oder Aktualität. Die Anzeige bewirbt kostenlose Altmetallabholung und Ankauf von NE-Metallen beziehungsweise größeren Eisenmengen, identifiziert den rechtlichen Anbieter aber nicht. Keine öffentlich bestätigte stationäre Annahme, numerische Ankaufspreise, Verkaufspreise oder Gebührenordnung; `pruefung` bleibt.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.7677500, 6.1029000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
 
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Erneuter Direktabruf der bereits identifizierten Findix-Anzeige endete mit Zeitüberschreitung; es gibt daher keinen neu gelesenen Anzeigeninhalt und keinen neuen Betreiberbeleg. Frühere, undatierte Abhol-/Ankaufwerbung bleibt ein Lead und wird nicht zu aktueller Tätigkeit, Hofannahme oder geprüfter Betreiberidentität aufgewertet. Keine Frontmatter-Änderung oder GEO-Freigabe. **ANKAUF:** keine verifizierten Zahlen; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine bestätigte Gratis- oder Tarifregel. Quelle/Abrufgrenze: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen .]
+
+- [Recherche 23.10.2026: Erneuter Direktabruf der Findix-Anzeige endete mit Zeitüberschreitung; der Inhalt wurde nicht neu bestätigt. Die Gelbe-Seiten-Detailseite direkt geprüft: sie führt weiterhin Kroitzheider Weg 8, 52076 Aachen, 0176 24453838 und Mo–Fr 09–17/Sa 09–14, ist aber weiterhin ein Verzeichnislead ohne verifizierten Betreiber. Keine neue Identitäts-/Aktivitätsbestätigung, daher keine Frontmatter-Änderung oder GEO-Freigabe. Frühere kostenlose Abhol-/Ankaufwerbung bleibt undatiert und nicht als geltende Gratisregel bestätigt. **ANKAUF:** keine verifizierten Zahlen; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine bestätigten Konditionen. Quellen/Abrufgrenze: https://www.gelbeseiten.de/gsbiz/afe626ca-d7f5-4fa4-9b4e-9a2ba12e7054 ; https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen .]
 
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2
 

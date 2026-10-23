@@ -1,5 +1,6 @@
 ---
 slug: nw-koln-rodenkirchen-mullenmeister-schwerfel
+clear_fields: 'geo'
 name: Müllenmeister & Schwerfel
 trader_type: schrotthaendler
 state: NW
@@ -24,11 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Müllenmeister & Schwerfel bleibt ein historisch nur durch Verzeichnisse gestützter Kontaktlead an Alteburger Str.138/50968 mit 0221 381677 und info@muellenmeister-schwerfel.de. Erneuter Domainabruf nicht auswertbar (Transportfehler), keine Betreiberidentität oder Schließung daraus bewiesen. Hans Müllenmeister GmbH/Wälzlager ist ein anderer Kandidat ohne belegte Verbindung.
+Die Kölner Umweltinspektion veröffentlichte 2014 einen Bericht „Müllenmeister & Schwerfel“ zur Abfallbehandlungsanlage an Alteburger Str. 138, 50968 Köln-Bayenthal. Das ist ein belastbarer historischer Behördenbeleg für Betreiber-/Standortbezug zu diesem Zeitpunkt, aber keine aktuelle Betriebs- oder Annahmebestätigung. Heutige Telefonnummer 0221 381677 und Mailadresse info@muellenmeister-schwerfel.de stammen weiterhin aus Verzeichnisprofilen; die frühere Website ist nicht auswertbar. Die Hans Müllenmeister GmbH/Wälzlager bleibt ein anderer Betrieb ohne belegte Verbindung; `status: pruefung`.
 
-Keine belegten Ankauf-/Verkaufspreise oder Gebühren. Vorhandene Kontaktfelder nicht als heute neu verifiziert ansehen. Gewerbeidentität und aktuelle Annahmestelle vor GEO klären; Köln-Orts-/DB-Punkt ist kein Hofnachweis.
+**Ankauf:** heute nicht bestätigt, keine Kurse; **Verkauf:** keine aktuelle Preisliste; **Gebühren:** keine Tarife. Vorhandene Kontaktfelder nicht als heute neu verifiziert ansehen. Gewerbeidentität und aktuelle Annahmestelle vor GEO klären; Köln-Orts-/DB-Punkt ist kein Hofnachweis.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.9403644, 6.9605778. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Amtlichen Kölner Umweltinspektionsbericht von 2014 zur „Abfallbehandlungsanlage Müllenmeister & Schwerfel“ geprüft: Titel/Standortbezug Alteburger Str. 138, 50968 Köln-Bayenthal. Damit ist die Anlage dort historisch amtlich dokumentiert; der Bericht ist kein Nachweis für Betrieb, Annahme oder Kontakt heute. Die bestehenden Telefonnummer-/E-Mail-Felder bleiben alte Verzeichnisangaben, Betreiber-Domain weiterhin nicht auswertbar; keine Schließung behauptet und kein aktuelles GEO freigegeben. **Ankauf:** keine aktuelle Bestätigung/Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Kein Zusammenhang mit Hans Müllenmeister GmbH belegt. Quelle (Stadt Köln, 2014): https://www.stadt-koeln.de/mediaasset/content/pdf57/2014-05-12_umweltinspektionsbericht_m%C3%BCllenmeister___schwerfel.pdf ; technische Abrufgrenze: PDF-Textabruf nicht möglich, Titel-/Standortangaben aus städtischem Dokumentindex.]
 
 ### Recherche 19.10.2026: Welle 03:30 B
 

@@ -1,5 +1,6 @@
 ---
 slug: nw-bruggen-hoppe
+clear_fields: 'geo'
 name: Hoppe
 trader_type: schrotthaendler
 state: NW
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Hoppe an Oebel 1A in Brüggen bleibt eine historische Verzeichnisspur; die vorhandene Straße ist keine neu bestätigte Betriebsadresse. Eine auffindbare Betreiberwebsite von Ingo Hoppe betrifft Braunschweig, nicht nachweislich den Brüggen-Seed. Keine Namensvetterkontakte übernommen. Aktuelle Identität, Tätigkeit und Annahme/Abholung offen; keine verifizierten Ankauf-/Verkaufspreise oder Gebühren.
+Hoppe an Oebel 1A, 41379 Brüggen, bleibt ein nicht unabhängig bestätigter Verzeichnislead. Ein Branchenportal benennt „Frank Hoppe Schrottentsorgung“ und nennt 02163 9878208; mehrere Verzeichnisse wiederholen die Spur, belegen aber weder aktuellen Betrieb noch, ob hier angekauft oder gegen Gebühr entsorgt wird. Die auffindbare Betreiberwebsite von Ingo Hoppe betrifft Braunschweig, nicht nachweislich den Brüggen-Seed. Keine Namensvetterkontakte übernommen; status `pruefung`.
+
+**Preise:** **Ankauf:** nicht bestätigt, keine Kursliste; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Das Wort „Schrottentsorgung“ belegt keine Gratisabholung und auch keine kostenpflichtige Leistung. Oebel 1A bleibt historische Kandidatenadresse, nicht als aktuelle GEO freigegeben.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.6415000, 7.9791500. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: „Schrottentsorgung Hoppe/Frank Hoppe“ in Brüggen erneut anhand mehrerer Verzeichnisse abgeglichen: Oebel 1A, 41379 Brüggen, Telefon 02163 9878208. Die Treffer stammen aus Portal-/Branchenverzeichnissen und sind kein Betreiber-/Registerbeleg; eine Zuordnung zur gleichnamigen Braunschweiger Betreiberwebsite besteht nicht. Die Bezeichnung „Entsorgung“ klärt weder den Preisfluss noch eine öffentliche Annahmestelle. **Ankauf:** nicht bestätigt, keine Zahlen; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Straße/PLZ nur als GEO-Kandidat nach Identitäts- und Annahmestellenprüfung. Quellen (Verzeichnisleads): https://www.schrottplatz.org/brueggen/schrott-hoppe-frank-schrottentsorgung-aYEPPT.html ; https://www.schrottplatz-info.de/schrottplatz/Brueggen/Hoppe-Frank-Schrottentsorgung ; https://www.11880.com/suche/schrotthandel/brueggen]
 
 ### Recherche 14.10.2026 — Braunschweiger Namensvetter ausgeschlossen
 

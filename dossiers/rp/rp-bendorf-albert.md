@@ -1,5 +1,6 @@
 ---
 slug: rp-bendorf-albert
+clear_fields: 'geo'
 name: Albert
 trader_type: sonstige
 state: RP
@@ -29,6 +30,15 @@ provenance_origin: table
 **Preise:** Keine verifizierten Schrott-Ankaufspreise, Verkaufspreise oder Räumungs-/Entsorgungsgebühren. GEO erst nach Betriebs- und Annahmestellenbestätigung.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 52.2531000, 8.4812500. Der Altpunkt 52.2531/8.48125 liegt weit außerhalb von Bendorf und ist diesem Händler nicht zugeordnet. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: 11880-Profil direkt erneut geöffnet. Es führt Bahnhofstr. 109, 56170 Bendorf, 0176 41806011 und Mo–Fr 07:00–18:00; Profilaktualisierung 17.10.2026, zugrunde liegende Eintragsdaten 04.09.2026. Der als Website angezeigte Link führt weiterhin zum Branchenverzeichnis RäumungsFinder. Beschreibungen zu Edelmetallen/Kabeln, Entrümpelung und Abholung sind damit keine Betreiberbestätigung; die dort angezeigte E-Mail ist maskiert. Der Abruf schließt den offenen Albert/Jasari-Identitätsfall nicht. Keine Feldänderung und keine Annahmestellen-/GEO-Freigabe. ANKAUF: keine Auszahlungskurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Entsorgungs-/Räumungstarife. Quelle: https://www.11880.com/branchenbuch/bendorf-rhein/120674719B107486227/albert-schrotthandel.html .]
 
 ### Ownerkorrektur 17.10.2026
 

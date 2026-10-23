@@ -1,5 +1,6 @@
 ---
 slug: rp-trier-54294-wenner-david
+clear_fields: 'geo'
 name: Wenner David
 trader_type: schrotthaendler
 state: RP
@@ -29,6 +30,15 @@ provenance_origin: table
 **Preise:** Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren. Keine Koordinaten ohne Identitäts-/Adressklärung.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.7534167, 6.6370833. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Gelbe-Seiten-Profil direkt geöffnet; es führt „Wenner David Schrott & Metallrecycling“, Im Schammat 60, 54294 Trier-Süd, Tel. 0174 6446210 und die Kategorien Recycling/Schrott, jedoch keine Öffnungszeiten oder Betreiberwebsite. Der Telefonnummernlead war in den älteren Notizen nicht als verifiziert erfasst. Das Örtliche und meinestadt-Suchergebnis wiederholen Name/Adresse, sind aber ebenfalls Verzeichnisse und keine unabhängige Betreiberquelle. Damit bleibt die Verbindung zum historischen Inserat „Dennis Wenner“, Charles-Mannay-Str. 50, ungeklärt; keine Kontakte/Adresse ins Frontmatter übernommen. Facebook-Direktabruf führt auf Login und liefert keinen lesbaren Betreiberinhalt. ANKAUF/VERKAUF/GEBÜHREN: keine aktuellen Bedingungen, Preise oder Tarife. Beide Adressspuren bleiben vor GEO gesperrt. Quellen: https://www.gelbeseiten.de/gsbiz/68bb6894-7ec4-44c4-9aef-85156ad31a47 ; https://www.dasoertliche.de/Themen/Wenner-David-Schrott-Metallrecycling-Trier-S%C3%BCd-Im-Schammat ; https://branchenbuch.meinestadt.de/trier/company/15567490 ; https://www.facebook.com/david.wenner.7503/ (kein lesbarer Betreiberinhalt).]
 
 ### Ownerkorrektur 17.10.2026
 

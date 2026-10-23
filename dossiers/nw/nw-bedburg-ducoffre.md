@@ -1,5 +1,6 @@
 ---
 slug: nw-bedburg-ducoffre
+clear_fields: 'geo'
 name: Ducoffre
 trader_type: schrotthaendler
 state: NW
@@ -29,6 +30,15 @@ Historischer Händler-Lead „Altstoffe Joachim Ducoffre“ in Bedburg, aber akt
 **Preise:** keine Ducoffre zuordenbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. **Geocoding:** Kandidaten Graf-Salm-Str. 33/33a nicht pinnen, bis die Betriebsanschrift und die Bedeutung der Registerlöschung geklärt sind.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.9926000, 6.5713000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Altstoffe-Joachim-Ducoffre-Spur erneut gegen die bestehende Registerhistorie geprüft. 11880 führt weiterhin den älteren Bedburger Eintrag an Graf-Salm-Str. 33, ein weiterer Portal-/Suchtreffer schreibt 33a; NorthData-Spiegel beschreibt die e.K.-Registerhistorie mit Löschungsveröffentlichung 2016, aber ohne amtlichen Originaltext, der Betriebseinstellung und Registertransfer sicher auseinanderhält. Die offizielle RRK-Seite nennt RRK Rohstoffrecycling Kuhlen GmbH, Heinrich-Hertz-Str. 15, 50181 Bedburg als separaten Rohstoffbetrieb; es gibt weiterhin keinen Nachfolge-/Übernahmebeleg. Keine Feldänderung, kein Schließungsschluss. **Ankauf:** keine Ducoffre-Annahme oder Kurse belegt; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Graf-Salm-Str. 33/33a weder als heutige Adresse noch für GEO freigegeben. Quellen: https://www.northdata.de/Altstoffe%20Joachim%20Ducoffre,%20Inh%C2%B7:%20Britta%20Ducoffre%20e%C2%B7%20K%C2%B7,%20Bedburg/Amtsgericht%20K%C3%B6ln%20HRA%2032232 ; https://www.11880.com/branchenbuch/bedburg-erft/060440090B102609685/altstoffe-joachim-ducoffre.html ; https://www.kuhlenrecycling.de/]
 
 ### Recherche 06.10.2026
 

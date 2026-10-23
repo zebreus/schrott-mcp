@@ -4,9 +4,10 @@ name: Helmut Eller Schrotthandlung und Autoverwertung
 trader_type: schrotthaendler
 state: HE
 city: Grünberg
-street: Adam-Opel-Str. 2
-postcode: '35305'
-phone: 06401 90022
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'geo,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Die alten Straßen-/Telefonwerte sind nur aggregierte Verzeichnisangaben. Die direkt gelesene Schrottplatz-Info-Seite führt Helmut Eller, Adam-Opel-Str. 2, 35305 Grünberg und 06401 90022, weist aber selbst darauf hin, dass Angebot und Öffnungszeiten nicht erfasst sind; der Homepage-Link ist technisch fehlerhaft. Ein älterer Namenshinweis auf Uwe Eller ist nicht geklärt. Kein aktueller Betreiber- oder Registerbeleg und keine Schließungsfeststellung.
+Die offizielle Gorsler-Standortseite führt aktuell die Gorsler GmbH & Co. KG an Adam-Opel-Straße 2, 35305 Grünberg, mit der auch im Eller-Portalprofil stehenden Nummer 06401 90022. Sie nennt Annahme von Eisen- und Buntmetallen. Das belegt den heutigen Gorsler-Standort, aber keine Umbenennung, Übernahme oder sonstige Verbindung zu „Helmut Eller“ oder dem älteren Hinweis „Uwe Eller“. Daher bleiben Identität und Fortbestand des Seed-Betriebs offen; die bisherigen Eller-Adresse und -Nummer werden nicht weiter als dessen bestätigte Kontaktdaten geführt.
+
+**Preise:** Für den Eller-Seed keine belastbaren Angaben. **ANKAUF:** Die Gorsler-Seite beschreibt Vergütung nach Markt-/Börsenpreis, nennt aber keine Zahlenkurse; nicht auf Eller übertragen. **VERKAUF:** keine zurechenbare Preisliste. **GEBÜHREN:** keine Eller-Tarife belegt. Status `pruefung`; kein GEO für den ungeklärten Seed.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.5940000, 8.9587000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Korrektur 23.10.2026 (Standort- und Identitätskonflikt)
+
+- [Korrektur/Recherche 23.10.2026: Die direkt gelesenen Gorsler-Seiten führen die Gorsler GmbH & Co. KG, HR A 3193 AG Gießen, mit einem Standort an Adam-Opel-Straße 2, 35305 Grünberg, Telefon 06401 90022 und sekretariat@gorsler-gruenberg.de. Die Standortseite nennt Annahme von Eisen- und Buntmetallen, Mo-Fr 07:30-12:00 und 12:30-16:00 sowie jeden 1. und 3. Samstag 08:00-12:00. „Das sind wir“ beschreibt eine Vergütung nach Markt-/Börsenpreis, ohne Zahlenliste. Das passt exakt zu Straße, PLZ und Telefon des bisherigen Eller-Verzeichnisleads, verbindet die Gorsler-Gesellschaft aber nicht mit Helmut oder Uwe Eller; die Gorsler-Meilensteinseite liefert keine solche Namenskette. Deshalb wurden street/postcode zurückgenommen und `phone` sowie nicht zurechenbares Alt-GEO mit `clear_fields: 'geo,phone'` explizit für den nächsten Seed entzogen. Dies ist eine Zuordnungs-/Quellenkorrektur, kein Beweis für eine falsche Adresse, Umzug oder Schließung. Gorsler-Kontakte, Annahme und Konditionen wurden nicht in das Eller-Dossier übernommen. **ANKAUF:** für Gorsler nur markt-/börsenabhängige Vergütung, keine Zahlen; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Status `pruefung` bleibt. Quellen: https://www.rvt.de/standorte/ ; https://www.rvt.de/impressum/ ; https://www.rvt.de/unternehmen/meilensteine/ ; https://www.rvt.de/unternehmen/das-sind-wir/ ; `docs/trader-seed.md`]
 
 ### Recherche 23.10.2026
 

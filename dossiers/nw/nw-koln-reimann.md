@@ -1,5 +1,6 @@
 ---
 slug: nw-koln-reimann
+clear_fields: 'geo'
 name: Reimann
 trader_type: schrotthaendler
 state: NW
@@ -24,11 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Der aktuelle 11880-Detaillead führt „Schrott und Metall Reimann Metallschrotthandlung“ an Daimlerstr. 12, 50859 Köln-Lövenich, Tel. 02234 4305969; Portalangabe: Eintragsdaten 20.11.2025, aktualisiert am 02.10.2026. Eine Betreiberwebsite, Registerquelle oder kommunale Identitätsbestätigung liegt weiterhin nicht vor. Gleichnamige Reimann-Betriebe werden nicht zugeordnet. Die Adresse und Telefonnummer bleiben Aggregator-Leads, keine verifizierten Betriebsdaten; `status: pruefung` bleibt bestehen.
+Der 11880-Detaillead führt „Schrott und Metall Reimann Metallschrotthandlung“ an Daimlerstr. 12, 50859 Köln-Lövenich, Tel. 02234 4305969 (Datensatz 20.11.2025; Profilaktualisierung 02.10.2026). Eine aktuelle Betreiberquelle für Reimann fehlt. An genau derselben Adresse weist die offizielle Website der Italy FoodWorld GmbH einen aktiven Supermarkt mit eigener Telefonnummer und Öffnungszeiten aus. Das ist ein konkreter aktueller Adresskonflikt, aber kein Beweis, dass dort nie ein weiterer Betrieb ansässig war oder Reimann geschlossen ist. Reimann-Adresse und -Telefon bleiben unbestätigte Verzeichnisleads; `status: pruefung` bleibt.
 
 **Preise:** Ankauf: keine belegten Bedingungen/Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarifangaben. Die 11880-Preisspannen-FAQ ist generisch und nennt keine Reimann-Preise.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.9403644, 6.9605778. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Neue Gleichadress-Prüfung: Die offizielle Website von Italy FoodWorld GmbH führt ihren Supermarkt an Daimlerstraße 12, 50859 Köln-Lövenich, mit eigener Telefonnummer 02234 6973300 und aktuellen Öffnungszeiten Mo–Sa 09–19. Das belegt eine aktuelle andere Nutzung/Belegung der Adresse, nicht zwingend die Abwesenheit eines zweiten Mieters und nicht die Schließung von Reimann. Die 11880-Angabe „Schrott und Metall Reimann“/02234 4305969 bleibt ein nicht unabhängig bestätigter Lead; keine Übernahme von FoodWorld-Kontaktdaten. **Ankauf:** keine bestätigten Konditionen; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Standort vor GEO und Betreiberzuordnung klären. Quellen: https://www.italyfoodworld.de/ ; https://www.11880.com/branchenbuch/koeln/120674719B44130217/schrott-und-metall-reimann-metallschrotthandlung.html]
 
 ### Recherche 11.10.2026
 

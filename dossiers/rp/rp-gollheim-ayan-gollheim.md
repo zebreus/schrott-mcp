@@ -1,5 +1,6 @@
 ---
 slug: rp-gollheim-ayan-gollheim
+clear_fields: 'geo'
 name: AYAN Göllheim
 trader_type: sonstige
 state: RP
@@ -27,6 +28,15 @@ provenance_origin: table
 Göllheimer Seed ungeklärt. Betreiberwebsite schrotthandel-ayan.de gehört Resul Ayan, Kaiserstraße 5, Börrstadt; kein Göllheimer Filial-/Standortkettennachweis. Garbliertes Straßenfeld geleert und vollständig historisch erhalten. Keine fremden Kontakte, Website, Materialien oder Tagespreise übernommen; kein Ortwechsel, status pruefung. Ankauf/Verkauf/Gebühren für Göllheim nicht belegt.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.5950000, 8.0508000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Website, Materialankaufseite und Impressum des Namensvetters R. Ayan erneut direkt gelesen. Der Auftritt nennt Resul Ayan, Kaiserstraße 5, 67725 Börrstadt und Metall-/Wertstoffankauf zu „fairen Tagespreisen“; veröffentlicht wird keine numerische Materialpreisliste. Keine der geprüften Betreiberseiten nennt Göllheim als Filiale oder Annahmestandort. Diese Angaben bleiben auf Börrstadt beschränkt und werden nicht auf den Göllheimer Seed übertragen. ANKAUF in Göllheim: unbelegt; VERKAUF: keine Göllheim-Preisliste; GEBÜHREN: keine Göllheim-Tarife. Keine Feldänderung oder GEO. Quellen: https://www.schrotthandel-ayan.de/materialankauf ; https://www.schrotthandel-ayan.de/impressum ; https://www.schrotthandel-ayan.de/kontakt .]
 
 ### Recherche 09.10.2026 / Korrektur 10.10.2026
 

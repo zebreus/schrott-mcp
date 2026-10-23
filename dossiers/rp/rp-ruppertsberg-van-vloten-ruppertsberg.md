@@ -1,5 +1,6 @@
 ---
 slug: rp-ruppertsberg-van-vloten-ruppertsberg
+clear_fields: 'geo'
 name: van Vloten Ruppertsberg
 trader_type: sonstige
 state: RP
@@ -31,6 +32,15 @@ Das beschädigte importierte Straßenfeld ist weiterhin kein verifizierter Adres
 **Preise:** ANKAUF: keine Zahlen; die verzeichneten Materialarten und Mindestmengen (100 kg Fe / 1 kg NE) sind keine verifizierten Betreiberbedingungen. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.4003000, 8.1961000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Portalprofil „Silke van Vloten VSI“ direkt erneut geprüft. Es führt Obergasse 8D, 67152 Ruppertsberg, 06326 7673, Status „Geschlossen“, breiten Schrottkatalog und Mindestmengen 100 kg Eisen/1 kg NE. Weder Betreiberkontakt/Impressum noch Registerbeleg oder konkrete Ankaufbeträge sind vorhanden. Die Portal-Statusanzeige belegt keine dauerhafte Betriebsschließung; die behaupteten Mindestmengen bleiben unbestätigt und sind keine Preise/Gebühren. Keine Frontmatter-Änderung, keine Adresse geocodiert. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste oder Tarife. Quelle: https://lokaleschrottplatz.de/silke-van-vloten-vsi/ .]
 
 ### Recherche 07.10.2026
 

@@ -1,5 +1,6 @@
 ---
 slug: nw-minden-moller
+clear_fields: 'geo'
 name: Möller
 trader_type: mobil
 state: NW
@@ -24,11 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Ein neuer, konkreter Kandidat ist „Mario Möller Schrotthandel“: eigener Webauftritt und Impressum nennen Schaumburger Weg 1b, 32423 Minden, 0176 78103103 und metallrecycling-moeller@web.de; Das Örtliche führt denselben Namen/Ort und die Festnetznummer 0571 3983607. Die Übereinstimmung macht ihn plausibel, aber nicht sicher identisch mit dem unspezifischen Seed „Möller“; Portal und Betreiberwebsite sind keine zwei unabhängigen Betreiberbelege. Daher keine Frontmatter-Übernahme.
+Ein konkreter Kandidat ist „Mario Möller Schrotthandel“ (eigene Website/Impressum: Schaumburger Weg 1b, 32423 Minden, 0176 78103103); zusätzlich wurde „Albin Möller Schrott- und Metallhandel“ mit einer anderen Anschrift, Teichstraße 1, 32423 Minden, gefunden. Beide sind echte Minden-Namens-/Branchenleads, aber keiner ist sicher mit dem unspezifischen Seed „Möller“ identisch; die Mario-Angaben im örtlichen Verzeichnis sind keine unabhängige zweite Betreiberquelle. Daher keine Frontmatter-Übernahme und keine Zusammenführung.
 
 **ANKAUF:** Betreiber wirbt mit Ankauf von Buntmetallen und tagesaktuellen/fairen Preisen, aber ohne Zahlenliste. **VERKAUF:** keine Verkaufspreisliste. **GEBÜHREN:** kostenlose mobile Abholung laut Betreiber; Menge/Leistungsumfang sind nicht näher bestimmt. Anlieferung vor Ort laut Website nur für Edel-/Buntmetalle und Kabelschrott nach Absprache. **GEO:** Adresse ist ein starker Kandidatenkontakt, aber erst nach Seed-Identitätsabgleich und Bestätigung des Kunden-Zugangs als Annahmepunkt geokodieren.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.7963600, 8.4244000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Zweiten Minden-Kandidaten „Albin Möller Schrott- und Metallhandel“ auf eigenem Auftritt geprüft: Teichstraße 1, 32423 Minden, 01775 770349 / 0571 50574466; wirbt mit Metall-/Kabelankauf und kostenloser Muldenstellung, ohne numerische Ankaufspreise oder Gebührenbedingungen. Das ist ein anderer Name/eine andere Adresse als der eigene Auftritt von Mario Möller (Schaumburger Weg 1b); kein Beleg, welcher Kandidat zur generischen Seedzeile gehört oder ob beide aktuell öffentlich annehmen. Keine Stammdaten übernommen. **Mario-Kandidat:** qualitative Tagespreiswerbung, keine Zahlen; **Verkauf:** keine Liste; **Gebühren:** Mario wirbt mit kostenloser Abholung, Albin mit Muldenstellung, jedoch keine vollständigen Bedingungen/Tarife; beides nicht auf Seed übertragen. GEO-Kandidaten: Schaumburger Weg 1b und Teichstraße 1, jeweils erst nach Seed-/Kundenstellenabgleich. Quellen: https://albinmoeller.wixsite.com/meinewebsite ; https://schrotthandel-moeller.de/ ; https://schrotthandel-moeller.de/impressum.html]
 
 ### Recherche 04.10.2026
 

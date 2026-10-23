@@ -1,5 +1,6 @@
 ---
 slug: rp-mainz-55116-gold-silber-ankauf
+clear_fields: 'geo'
 name: Gold & Silber Ankauf
 trader_type: sonstige
 state: RP
@@ -31,6 +32,15 @@ Aktuelle Betreiberübersicht und alle drei einzeln geprüften Standortseiten fü
 **Preise:** Die Kandidatenwebsite wirbt für Altschmuck mit „10 % mehr“ nur bei Vorlage eines schriftlichen lokalen Konkurrenzangebots; freibleibend und kein garantierter Festpreis. Kostenlose Bewertung/DHL-Abholung werden dort beworben, aber sind der Kandidatenwebsite und nicht einem nachgewiesenen aktuellen Mainzer Laden zuzuordnen. Kein numerischer Ankaufspreis oder Verkaufspreisliste; Kurscharts sind Marktindikatoren. Der separate GoldSilberShop zeigt dynamische An- und Verkaufspreise, aber gehört nicht zu diesem Lead. **Geocoding:** Flachsmarkt 5 erst bei bestätigter Filialzuordnung; Rheinstr. 103 nicht diesem Dossier zuordnen.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.9925636, 8.2488636. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Standortübersicht und die Detailseite Aschaffenburg erneut direkt gelesen: ausgewiesen sind Frankfurt, Darmstadt und Aschaffenburg, nicht Mainz. Die Aschaffenburg-Seite enthält weiterhin die Mainzer Rufnummer 06131-6932911 im Fließtext, während der Standortblock die Aschaffenburger Nummer nennt; das bleibt ein Redaktions-/Altbeleg, kein Mainzer Standortnachweis. ANKAUF: Website wirbt mit individueller Bewertung und einem bedingten, freibleibenden „10 % mehr“-Versprechen, aber ohne numerische EUR/g-Kurstabelle; VERKAUF: keine bezifferte Warenpreisliste auf den geprüften Kandidatenseiten; GEBÜHREN: kostenlose Bewertung und Rücksendung bei Ablehnung werden für diesen Websitebetreiber beworben, sind aber keinem aktuellen Mainzer Laden zugeordnet. Separat zeigt GoldSilberShop.de/preisliste.html am Abruf eine Preislistenseite mit Stand 23.10.2026, 07:49, doch die dynamischen Werte wurden nicht gerendert; dieser Händler/Shop ist nicht mit dem Mainzer Seed verbunden und seine Tabelle wird nicht übertragen. Keine Änderung der Stammdaten, keine GEO-Freigabe. Quellen: https://www.goldankauf-silber.de/standorte ; https://www.goldankauf-silber.de/standorte/goldankauf-aschaffenburg ; https://www.goldankauf-silber.de/impressum ; https://www.goldsilbershop.de/preisliste.html .]
 
 ### Recherche 18.10.2026 (Welle 1202 West)
 

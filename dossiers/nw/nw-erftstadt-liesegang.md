@@ -1,5 +1,6 @@
 ---
 slug: nw-erftstadt-liesegang
+clear_fields: 'geo'
 name: Liesegang
 trader_type: schrotthaendler
 state: NW
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Erftstädter Lead „Richard Liesegang GmbH & Co. KG“, Seestr. 2 C, 50374 Erftstadt-Liblar, stammt weiterhin aus einem 11880-Profil (Datensatz 2021), nicht aus einer aktuellen Niederlassungsbestätigung. Der direkt gelesene Betreiberauftritt der gleichnamigen KG nennt Hürth-Knapsack als Kontakt-/Registerstandort (Kirchstr. 3, 50354, HRA 18515) und beschreibt Abbruch, Demontage sowie Entsorgung/Schrottvermarktung aus Bauprojekten; er nennt weder die Erftstädter Seestr. noch öffentlichen Schrottplatz/Anlieferung dort. Eine Verbindung der Erftstadt-Adresse zur Hürther Gesellschaft bleibt unbelegt; `status: pruefung`.
+
+**Preise:** **Ankauf:** keine öffentlichen Ankaufskurse gefunden; **Verkauf:** keine Materialpreisliste; **Gebühren:** keine pauschalen Tarife, Leistungen projekt-/angebotsbezogen. Die Seestr. 2 C bleibt ungeprüft und ungeocodiert als aktuelle Liesegang-Annahmestelle.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.8148000, 6.7939000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiberseite und Impressum der Richard Liesegang GmbH & Co. KG erneut direkt geprüft: Kirchstr. 3, 50354 Hürth-Knapsack, HRA 18515; beschriebene Geschäftsfelder sind Abbruch-/Demontagearbeiten, Entsorgung und Schrottvermarktung von Bauabfällen. Kein Hinweis auf eine Niederlassung oder öffentliche Annahme an Seestr. 2 C in Erftstadt. Der Erftstädter 11880-Eintrag ist daher getrennt zu halten; keine Betreiber-/Adressübernahme. **Ankauf:** keine öffentliche numerische Preisliste; **Verkauf:** keine Kundenpreisliste; **Gebühren:** keine öffentlichen Pauschaltarife, Leistungen projekt-/angebotsbezogen. Quelle (Betreiber): https://www.rl-liesegang.de/de/kontakt/ ; https://www.rl-liesegang.de/de/impressum/ ; Erftstadt-Lead: https://www.11880.com/branchenbuch/erftstadt/060440090B27108543/richard-liesegang-gmbh-co-kg.html]
 
 ### Recherche 01.10.2026
 

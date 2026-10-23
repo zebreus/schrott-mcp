@@ -1,5 +1,6 @@
 ---
 slug: rp-neuwied-56566-1a-recycling
+clear_fields: 'geo'
 name: 1a Recycling GmbH
 trader_type: autoverwertung
 state: RP
@@ -29,6 +30,15 @@ Betreiberseite und Registerdaten identifizieren nun übereinstimmend 1a Recyclin
 **Ankauf:** beworben, keine numerischen Kurse auf Start/Kontakt/Impressum. **Verkauf:** Ersatzteil-Shop verlinkt, hier keine Produktpreise geprüft. **Gebühren:** keine Liste gelesen; kostenlose Abholung nicht pauschal unterstellen. **Offen:** Annahme-/Abholbedingungen, Wochenöffnungszeiten und aktuelle Zertifikatsgültigkeit. „Heute 09:00–17:00“ ist kein Wochenplan. GEO bleibt separates Owner-Arbeitspaket trotz nun belegter Anschrift.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.4420000, 7.4925000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Startseite und Impressum erneut direkt gelesen; beide nennen 1a Recycling GmbH, Breslauer Straße 51, 56566 Neuwied sowie Ankauf/Entsorgung von Schrott-, Gebraucht-, nicht fahrbereiten und Unfallfahrzeugen. North Data führt denselben Rechtsträger/HRB 27237 und als Gegenstand Autoverwertung, Schrott-/Metall-, Gebrauchtwagen- und Ersatzteilhandel; dieses Registerspiegel-Datum 08.04.2026 weist Abdussamed Sirakaya als Geschäftsführer aus, nicht ältere Geschäftsführerangaben. Der verlinkte Ersatzteilshop 1a-carparts.com war beim Abruf nicht erreichbar (Transportfehler), daher wurden dort keine konkreten Verkaufspreise verifiziert. ANKAUF: keine numerischen Ankaufskurse für Fahrzeuge oder Metalle auf den gelesenen Betreiberseiten; VERKAUF: Shop-Verlinkung, aber keine lesbare Preisliste; GEBÜHREN: keine Tarife und keine pauschal kostenlose Abholung belegt. Die Startseiten-Anzeige „Heute geöffnet 09:00–17:00“ ist kein Wochenplan. Keine Feldänderung. Quellen: https://1a-recycling-gmbh.de/ ; https://1a-recycling-gmbh.de/impressum-1 ; https://www.northdata.de/1a+Recycling+GmbH,+Neuwied/Amtsgericht+Montabaur+HRB+27237 ; https://www.1a-carparts.com/ (Shopabruf nicht verwertbar).]
 
 ### Recherche 19.10.2026: Welle 03:30 B
 

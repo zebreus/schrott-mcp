@@ -1,5 +1,6 @@
 ---
 slug: he-kassel-bettenhausen-bachmann-matthias-autoverwertung
+clear_fields: 'geo'
 name: Matthias Bachmann Autoverwertung GmbH & Co. KG
 trader_type: autoverwertung
 state: HE
@@ -28,9 +29,18 @@ Der aktuelle Betreiberauftritt nennt **Matthias Bachmann Autoverwertung GmbH & C
 
 **Feldgrenze 17.10.2026 nach Endabnahme:** Name/Identität und bereits integrierte Adresse sind durch Betreiber/NorthData gestützt. Telefon und Domain zusätzlich nur im Creditreform-Suchindex kongruent, kein vollständig gelesener unabhängiger Feldabgleich. Deshalb bleiben auch phone, website und website_status auf dem bisherigen leeren Seedstand; ebenso kein Mailfill, kein neuer Aktivstatus und keine individuelle Ankaufserweiterung der Description. Die oben genannten Kontakte/Ankaufbedingungen sind zugeschriebene Betreiberangaben, keine strukturiert freigegebenen Fakten. Erreichbarkeit beweist weder die vollständige Betreiber-Ausnahme noch aktuelle Zertifizierung; `pruefung` bleibt.
 
-**Preise:** Betreiber nennt individuelle Fahrzeugbewertung, keine festen Kurse. Shopabruf vom 13.10. ohne verifizierbare Artikelpreise; keine Gebührenliste. Demontage-Zertifikat nur bis 24.12.2024 gültig, kein aktueller Zertifizierungsnachweis und kein Schließungsindiz. Keine GEO-Freigabe.
+**Preise:** Betreiber nennt individuelle Fahrzeugbewertung, keine festen Ankaufskurse. Die Fahrzeugverkaufsseite zeigt noch Einzelangebote mit Verfügbarkeitsdatum 20.04.2023, nicht als aktuelle Verkaufspreisliste verwendbar; der Ersatzteil-Shop lieferte bei Abrufen 13.10. und 23.10. keine verifizierbaren Artikelpreise (HTTP 402). Keine Gebührenliste. Das separat gelesene Demontage-Zertifikat galt nur bis 24.12.2024; die aktuelle Betreiber-Selbstaussage ist kein neu datierter Zertifikatsnachweis und kein Schließungsindiz. Keine GEO-Freigabe.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.3157909, 9.4767182. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Preis- und Leistungsrecheck 23.10.2026
+
+- [Recherche 23.10.2026: Die Betreiberseiten Fahrzeugankauf, Fahrzeugverkauf, Autoverwertung und Über uns wurden direkt erneut gelesen; der Ersatzteil-Shop antwortete mit HTTP 402. **ANKAUF:** defekte Fahrzeuge aller Marken/Modelle werden laut Betreiber individuell bewertet; nach Angebotsannahme werden Abholung und Transport organisiert. Die Autoverwertungsseite bewirbt Abholung auch von nicht fahrbereiten Autos, ohne daraus eine Kostenfreiheit abzuleiten. Kein numerischer Ankaufskurs. **VERKAUF:** die Fahrzeugverkaufsseite zeigt weiterhin einzelne alte Angebote mit Verfügbarkeit „ab 20.04.2023“, darunter Golf 3 für 9.350 EUR VHB und Golf 4 für 19.350 EUR VHB; die Seite enthält zudem doppelte/inkonsistente Fahrzeugmetadaten. Das ist keine aktuelle Fahrzeugpreisliste und kein Gebrauchtteile-Preisbeleg. Der Ersatzteil-Shop war nicht lesbar (402); keine aktuellen Teilepreise. **GEBÜHREN:** keine bezifferte Gebührenliste; kostenlose Abholung ist nicht belegt. Die Über-uns-Seite behauptet eine Anerkennung als zertifizierter Verwertungsbetrieb seit 25.06.1998; ein aktuelles Zertifikat/Prüfdatum wurde nicht gefunden, während das separat dokumentierte TÜV-PDF nur bis 24.12.2024 gültig ist. Betreiber-Selbstaussage und abgelaufenes PDF lösen den Aktualitätskonflikt nicht; keine Schließung daraus abgeleitet. Kein Frontmatter-Fill und kein GEO. Quellen: https://www.bachmann-ks.de/fahrzeugankauf/ ; https://www.bachmann-ks.de/fahrzeugverkauf/ ; https://www.bachmann-ks.de/autoverwertung/ ; https://www.bachmann-ks.de/unternehmen/ ; https://shop.bachmann-ks.de/ ; https://www.bachmann-ks.de/wp-content/uploads/2023/12/Zertifikat-2023-2024.pdf]
 
 ### Endabnahme 17.10.2026 (Kontaktfills zurückgestellt)
 

@@ -1,5 +1,6 @@
 ---
 slug: rp-waldmohr-brennemann-waldmohr
+clear_fields: 'geo'
 name: Brennemann Waldmohr
 trader_type: sonstige
 state: RP
@@ -29,6 +30,15 @@ Der direkt gelesene 11880-Eintrag (Portalaktualisierung 14.10.2026) führt „sc
 **Ankauf:** keine bezifferten Sätze oder belastbaren Bedingungen. **Verkauf:** keine Preisliste. **Gebühren:** keine Tarife. **GEO:** Nickelsweiher 15 und Höcherstraße 3 bleiben ungeklärte Leads; erst nach Betreiber-/Adressbestätigung geocodieren.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.3833000, 7.3333000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: 11880-Detailprofil direkt gelesen: Nickelsweiher 15, 66914 Waldmohr, 01523 8835642, Profilaktualisierung 14.10.2026; die verlinkte Domain wird dort als nicht SSL-zertifiziert markiert. Der zweite direkt gelesene Auftritt schrottundmetalhandel.de nennt Höcherstraße 3, dieselbe Telefonnummer und brennemann80@web.de. Sein Impressum enthält weiterhin leere Vorlagenfelder („Bitte geben Sie Ihren Firmennamen ein“); auch die Kontaktlinks sind fehlerhaft (`tel:0000000`, `mailto:email@example.com`). Gleiches Telefon reicht nicht, um Betreiberidentität oder einen Umzug zwischen den Adressen zu beweisen. Die Seiten werben mit Metallankauf/fairen Konditionen, veröffentlichen aber keine Zahlenkurse, Verkaufspreise oder Gebühren. Keine Feld-/Statusänderung; beide Adressen vor GEO klären. Quellen: https://www.11880.com/branchenbuch/waldmohr/060440092B112831048/schrotthandel-brennemann.html ; https://schrottundmetalhandel.de/ ; https://schrottundmetalhandel.de/kontakt/ ; https://schrottundmetalhandel.de/impressum/ ; https://www.schrotthandelbrennemann.de/ (kein verwertbares Impressum).]
 
 ### Quellenprüfung 21.10.2026
 

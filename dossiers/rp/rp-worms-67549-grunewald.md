@@ -1,5 +1,6 @@
 ---
 slug: rp-worms-67549-grunewald
+clear_fields: 'geo'
 name: Schrotthandel Grünewald
 trader_type: schrotthaendler
 state: RP
@@ -29,6 +30,15 @@ Die vorhandene Anschrift/Rufnummer beruhen auf der dokumentierten früheren Verz
 **Ankauf:** keine Vergütung/Kurse belegt. **Verkauf:** keine Liste. **Gebühren:** kostenlose Abholung als Fremdportalwerbung, nicht mit Ankaufzahlung gleichsetzen. Speerstr. 5 weiterhin vor GEO als realen Betriebssitz/ggf. bloße Kontaktadresse verifizieren; kein Annahmehof bewiesen.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.6300250, 8.3326750. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Lokaleschrottplatz-Profil direkt gelesen. Es nennt „Schrotthandel Grünewald“, Speerstraße ohne Hausnummer, Worms 67549, 0176 21165384 und behauptet täglich 00:00–24:00; beim Abruf zeigte die dynamische Anzeige „Geschlossen, öffnet morgen um 04:00“. Außerdem listet es ein sehr breites Annahmesortiment und Mindestmengen 100 kg Eisen/1 kg NE. Diese Werte stammen ausschließlich aus einem Verzeichnis; sie widersprechen der älteren Portalwerbung Mo–Sa 08:00–18:00 und bestätigen weder die historische Hausnummer 5 noch Öffnung, Annahmebedingungen oder Betreiberpreise. Keine Feld-/Statusänderung. ANKAUF: keine Auszahlungskurse; die behaupteten Mindestgewichte sind keine Preise. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Der Werbeauftritt schrotthaendler-in-der-naehe.de nennt als Impressumsinhaber Reinhold Paisler, nicht Grünewald, und bleibt deshalb Fremdquelle. Keine GEO-Freigabe. Quellen: https://lokaleschrottplatz.de/schrotthandel-grunewald/ ; https://schrotthaendler-in-der-naehe.de/worms ; https://schrotthaendler-in-der-naehe.de/impressum .]
 
 ### Recherche 15.10.2026 (00:00-Welle A)
 

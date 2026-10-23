@@ -1,5 +1,6 @@
 ---
 slug: rp-wierschem-ries-wierschem
+clear_fields: 'geo'
 name: Ries Wierschem
 trader_type: sonstige
 state: RP
@@ -24,11 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Ungeklärter „Ries“-Schrott-/Metallhandelslead im Ort Wierschem. Das Seed-Straßenfeld enthält die Rohzeichenfolge „Ries Wierschem Wierschem Pappelstr. 3“; eine eigenständige Betreiberidentität und die genaue Zuordnung von Pappelstr. 3 sind nicht bestätigt. Die Gemeindequelle verifiziert lediglich die Ortsgemeinde, keinen Händler. Die Straße wird deshalb nicht bereinigt oder geocodiert.
+Ungeklärter „Ries“-Altmetallrecycling-Lead im Ort Wierschem. Ein direkt gelesenes 11880-Profil führt Thomas Ries, Pappelstr. 3, 56294 Wierschem, 02605 847638; das zugrunde liegende Verzeichniseintragdatum ist 23.09.2023, obwohl das Profil am 04.10.2026 aktualisiert wurde. Die offizielle Gemeindeseite hat eine kuratierte Unternehmensliste, in der Ries nicht erscheint; sie ist kein vollständiges Gewerberegister und die Auslassung kein Existenz-/Schließungsbeleg. Betreiberidentität, aktuelle Tätigkeit und Anschrift sind damit weiter nicht primär bestätigt. Die Rohzeichenfolge „Ries Wierschem Wierschem Pappelstr. 3“ bleibt unverändert.
 
 **Preise:** keine zuordenbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenangabe gefunden. **Offen:** vollständiger Betreibername, Adresse/PLZ, aktuelle Tätigkeit sowie eine zulässige Betreiber- oder Registerquelle.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.2256000, 7.3516000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Das 11880-Profil „Thomas Ries“ direkt gelesen: Altmetallrecycling, Pappelstr. 3, 56294 Wierschem, 02605 847638; als Eintragsdaten nennt 11880 den 23.09.2023, als Aktualisierung den 04.10.2026. Das ist ein Verzeichnislead, kein Primärnachweis. Die offizielle Gemeindeseite und deren Unternehmensübersicht direkt geöffnet: dort sind sieben andere örtliche Unternehmen aufgeführt, aber kein Thomas Ries. Die Gemeindeliste ist keine vollständige Gewerberegisterauskunft; das Fehlen ist kein Negativbeweis. Keine Übernahme von Adresse/Telefon und kein GEO. ANKAUF/VERKAUF/GEBÜHREN: weiterhin keine Betreiberpreise oder Tarife. Quellen: https://www.11880.com/branchenbuch/wierschem/060440092B112781761/thomas-ries.html ; https://www.wierschem.de/index.php/unternehmen ; https://www.wierschem.de/ .]
 
 ### Recherche 06.10.2026
 

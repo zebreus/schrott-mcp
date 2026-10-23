@@ -1,5 +1,6 @@
 ---
 slug: rp-nassau-stoll-nassau
+clear_fields: 'geo'
 name: Stoll Nassau
 trader_type: sonstige
 state: RP
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Neuer konkreter Verzeichnislead: „Schrott und Metallhandel Stoll“, Bahnhofstr. 16, 56377 Nassau, 01573 5709600. Der dortige Website-Link führt nur auf das Branchenportal metallbauer.io, nicht auf einen Betreiberauftritt. Die doppelte Namens-/Ortsfolge im bestehenden Straßenfeld ist ein ungeklärtes Importartefakt und keine bestätigte Anschrift. Separater gleichnamiger Koblenzer Lead mit anderer Nummer: keine nachgewiesene Filial-, Umzugs- oder Betreiberkette. Ankauf, Verkauf und Gebühren ohne verifizierte Zahlen; Identität und Annahmestelle vor GEO klären.
+Verzeichnisprofile führen „Schrott und Metallhandel Stoll“, Bahnhofstr. 16, 56377 Nassau, 01573 5709600. Der 11880-Website-Link führt auf metallbauer.io, ein übernehmbares Branchenportal, nicht auf einen Betreiberauftritt. Ein weiteres Portal nennt Mo–Sa 07:00–18:00, ein breites Sortiment und Mindestmengen 100 kg Eisen/1 kg NE; diese Angaben sind nicht vom Betreiber bestätigt. Die doppelte Namens-/Ortsfolge im Straßenfeld bleibt ein Importartefakt, keine bestätigte Anschrift. Ein gleichnamiger Koblenzer Lead mit anderer Nummer ist nicht als Filiale/Umzug belegt.
+
+**ANKAUF:** kein verifizierter Zahlungsnachweis oder Preis. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife; Portal-Mindestmengen sind keine Preise oder Entsorgungsgebühren. Identität und öffentlicher Annahmestandort vor Frontmatter-Fill/GEO klären.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.3145000, 7.8003000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Lokaleschrottplatz-Profil direkt gelesen: es führt Bahnhofstraße 16, 56377 Nassau, 01573 5709600, Mo–Sa 07:00–18:00 und Sonntag geschlossen; außerdem breite Materialkategorien, dynamisch „Geschlossen“ beim Abruf und Mindestmengen 100 kg Eisen/1 kg NE. Das ist ein Verzeichnis, keine Betreiberquelle; Öffnungszeiten, Sorten und Mindestmengen bleiben unbestätigt. Zusammen mit dem bereits geprüften 11880-/metallbauer.io-Link ergibt sich keine unabhängige Betreiber-/Registerbestätigung. Keine Übernahme oder Normalisierung des Straßenfelds. ANKAUF: keine bezifferten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Die dynamische Anzeige beweist keine dauerhafte Schließung. Kein GEO ohne Primärbestätigung. Quelle: https://lokaleschrottplatz.de/schrott-und-metallhandel-stoll/ .]
 
 ### Recherche 22.10.2026
 

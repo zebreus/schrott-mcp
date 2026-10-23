@@ -1,5 +1,6 @@
 ---
 slug: rp-koblenz-neuert
+clear_fields: 'geo'
 name: Neuert
 trader_type: sonstige
 state: RP
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Firmenregister-Spiegel North Data und online-handelsregister führen übereinstimmend die **Raimund Neuert Rohstoffverwertungsgesellschaft mbH**, HRB 3481 beim AG Koblenz, mit Geschäftsanschrift Marienfelder Str. 5, 56070 Koblenz und dem Gegenstand „Handel und Verwertung von Rohstoffen aller Art“. Das stützt Firmenidentität und Registeranschrift, aber weder eine öffentliche Annahmestelle noch aktuelle Privatkundenannahme oder Öffnungszeiten. Ein Betreiberauftritt ist nicht belegt.
+
+**ANKAUF:** Unternehmensgegenstand allein belegt keine aktuelle Materialannahme und keinen Ankaufkurs. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarif-/Gebührenangaben. Vor Nutzung als öffentlicher Schrottplatz sind Betreiberbestätigung und konkrete Annahmeadresse nötig.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.3540143, 7.5774000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: North-Data-Profil und online-handelsregister-Eintrag direkt geöffnet. Beide Registerspiegel nennen Raimund Neuert Rohstoffverwertungsgesellschaft mbH, AG Koblenz HRB 3481, aktiv, Marienfelder Str. 5/56070 Koblenz und den Rohstoffhandel/-verwertungsgegenstand. Es wurde kein Originalregisterauszug und keine Betreiberseite geprüft; die Übereinstimmung bestätigt daher die Registerspur, nicht Hofbetrieb, öffentliche Annahme oder Kundenzugang. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste oder Tarife gefunden; aus dem Unternehmensgegenstand keinen Ankauf ableiten. Adresse nicht neu und GEO/öffentlicher Annahmepunkt bleiben ungeklärt. Quellen: https://www.northdata.de/Raimund+Neuert+Rohstoffverwertungsgesellschaft+mbH,+Koblenz/HRB+3481 ; https://www.online-handelsregister.de/handelsregisterauszug/rp/Koblenz/HRB/3481/Raimund-Neuert-Rohstoffverwertungsgesellschaft-mbH .]
 
 ### Recherche 01.10.2026
 

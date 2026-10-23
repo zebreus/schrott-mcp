@@ -1,5 +1,6 @@
 ---
 slug: he-wetter-firma-bajramaj
+clear_fields: 'geo'
 name: Firma Bajramaj
 trader_type: schrotthaendler
 state: HE
@@ -24,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed beschreibt „Firma Bajramaj“ in Wetter nur als mutmaßlichen Demontage-/Schrottbetrieb. Die dokumentierte Namens- und Ortssuche vom 02.10.2026 fand keinen Betreiberauftritt, passenden Registerbeleg oder kommunalen Gewerbenachweis; Straße und Kontakt fehlen. Das ist ein offener Identitätsfall, keine Aussage über Nichtexistenz oder Geschäftsaufgabe.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine dem Zielbetrieb zurechenbaren Preise, Listen oder Tarife belegt. **GEO:** keine Adresse oder Annahmestelle geokodierbar. Status `pruefung` bleibt.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.9025000, 8.7237000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
 
 ### Recherche 02.10.2026
 

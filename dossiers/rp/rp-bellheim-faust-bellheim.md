@@ -1,5 +1,6 @@
 ---
 slug: rp-bellheim-faust-bellheim
+clear_fields: 'geo'
 name: Faust Bellheim
 trader_type: sonstige
 state: RP
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein direkt gelesenes Schrottplatzverzeichnis führt „Schrott- und Autoentsorgung Faust Brigitte und Philipp“ an Hördter Str. 48, 76756 Bellheim, Tel. 07272 91693 und zeigt dynamisch „Geschlossen“. Es listet Metall-/Fahrzeugkategorien und Mindestgewichte von 100 kg für Eisenmetalle bzw. 1 kg für NE-Metalle. Das sind unbestätigte Verzeichnisangaben, kein Betreiber-/Registerbeleg; insbesondere begründet die Statusanzeige keine dauerhafte Schließung. Der Seedhinweis „FE“ ist keine Preisaussage.
+
+**ANKAUF:** kein verifizierter Zahlungsnachweis oder Kurs. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife; Portal-Mindestgewichte sind weder Preise noch Gebühren. Keine Adresse/Koordinaten übernehmen, bis Betreiber und Annahmestelle bestätigt sind.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.1983000, 8.2794000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Lokaleschrottplatz-Profil direkt gelesen: Name „Schrott- und Autoentsorgung Faust Brigitte und Philipp“, Hördter Str. 48, 76756 Bellheim, 07272 91693, dynamische Anzeige „Geschlossen“, Material-/Altfahrzeugkategorien sowie Mindestgewichte 100 kg Eisen/1 kg NE. Das Portal verweist nicht auf einen verifizierten Betreiberauftritt; die Angaben bleiben ein Aggregatorlead. Der Status beim Abruf beweist keine dauerhafte Schließung. Keine Felder ergänzt. ANKAUF: keine Beträge/Zahlungsbedingungen; VERKAUF: keine Teile-/Materialpreisliste; GEBÜHREN: kein Tarif. Mindestgewichte, selbst wenn sie zuträfen, sind keine Preisangaben. Hördter Str. 48 vor GEO durch Betreiber-/Registerquelle bestätigen. Quelle: https://lokaleschrottplatz.de/schrott-und-autoentsorgung-faust-brigitte-und-philipp/ .]
 
 ### Recherche 03.10.2026
 

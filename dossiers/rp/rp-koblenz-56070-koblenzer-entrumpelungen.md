@@ -1,5 +1,6 @@
 ---
 slug: rp-koblenz-56070-koblenzer-entrumpelungen
+clear_fields: 'geo'
 name: Koblenzer Entrümpelungen
 trader_type: schrotthaendler
 state: RP
@@ -24,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Der generische Seed „Koblenzer Entrümpelungen“ (56070) ist weiterhin keinem Betreiber zugeordnet. Die direkt gelesene Website des möglichen, aber nicht zugeordneten Betriebs „Koblenzer Schrotthandel“ nennt im Impressum Karin Reinhardt, Am Metternicher Bahnhof 18, 56072 Koblenz; abweichender Name und PLZ verhindern die Zuordnung ohne unabhängigen Seed-/Telefonabgleich. Das Impressum nennt keine Handelsregisterangabe; daher keine Übernahme der Adresse oder Dienste in die Frontmatter und keine Statusänderung. **Ankauf:** Betreiberseite bewirbt NE-Metall-/Kabelankauf zu Tages-/Börsenpreisen ohne Zahlen. **Verkauf:** keine Liste. **Gebühren:** die Startseite bewirbt kostenlosen Containerdienst für Firmen, die gesonderte Containerseite spricht zugleich von „mieten“; keine Bedingungen oder Tarife veröffentlicht. Adresse erst nach Zuordnung geocodieren.
+Der generische Seed „Koblenzer Entrümpelungen“ (56070) ist weiterhin keinem Betreiber zugeordnet. Ein am 23.10. direkt gelesenes Gelbe-Seiten-Profil führt genau den Namen „Koblenzer Entrümpelungen Schrotthandel“ an Karl-Russell-Str. 54, 56070 Koblenz-Lützel, Tel. 0163 4098013; das ist ein Verzeichnislead, kein Betreiber-/Registerbeleg. Die ebenfalls direkt gelesene Betreiberwebsite „Koblenzer Schrotthandel“ gehört laut Impressum Karin Reinhardt, Am Metternicher Bahnhof 18, 56072 Koblenz. Unterschiedlicher Name, Anschrift und PLZ lassen keine Zuordnung zu; beide Kandidaten nicht zusammenführen. **ANKAUF:** die Reinhardt-Seite bewirbt Metallankauf nach Tages-/Börsenkurs ohne Zahlen; nicht dem Seed zurechenbar. **VERKAUF:** keine Liste. **GEBÜHREN:** dort wird kostenloser Firmen-Containerdienst beworben, während die Containerseite „mieten“ sagt; keine Tarife oder Bedingungen, ebenfalls nicht dem Seed zurechenbar. Für beide Anschriften gilt: erst Betreiber/Zuordnung bestätigen, dann geocodieren.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.3540143, 7.5774000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Neue Gelbe-Seiten-Detailseite direkt gelesen: „Koblenzer Entrümpelungen Schrotthandel“, Karl-Russell-Str. 54, 56070 Koblenz-Lützel, 0163 4098013; Portal nennt Entrümpelungen/Entsorgungsbetriebe/Haushaltsauflösungen sowie Mo–So 08:00–20:00. Das ist ein Aggregatorprofil ohne sichtbaren Betreiber-Impressums- oder belastbaren Websitebeleg; die täglichen Portalzeiten sind nicht übernommen. Es passt zum Seed-Ort, stellt aber keine Identitätsbrücke zum abweichenden Betreiber „Koblenzer Schrotthandel“/Karin Reinhardt, Am Metternicher Bahnhof 18, 56072 dar. Keine Frontmatter-Änderung. Für Karl-Russell-Str. 54 besteht Geocoding-Bedarf erst nach Primärbestätigung; dieselbe Bedingung gilt für die Reinhardt-Adresse. ANKAUF/VERKAUF/GEBÜHREN für den Seed weiterhin unbelegt; konkrete Kandidatenseite nennt keine Preise/Tarife. Quelle(n): https://www.gelbeseiten.de/gsbiz/3cbd8b33-de34-4481-9291-37719293ca83 ; https://www.koblenzer-schrotthandel.de/impressum/ ; https://www.koblenzer-schrotthandel.de/schrottplatz-ankauf/ ; https://www.koblenzer-schrotthandel.de/containerdienst/ .]
 
 ### Quellenprüfung 21.10.2026
 

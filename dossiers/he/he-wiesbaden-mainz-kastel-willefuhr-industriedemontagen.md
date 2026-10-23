@@ -1,5 +1,6 @@
 ---
 slug: he-wiesbaden-mainz-kastel-willefuhr-industriedemontagen
+clear_fields: 'geo'
 name: Willeführ Industriedemontagen
 trader_type: schrotthaendler
 state: HE
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Dossier bleibt ein Klärfall. Der Direktabruf der Betreiber-Domain lieferte am 23.10.2026 nur den Seitentitel, kein lesbares Impressum oder belastbares Annahmeangebot. Auftragsbank beschreibt Willeführ als Anbieter für industrielle Anlagenrückbauten; die dortigen Anzeigen stammen aus 2020 und 2023. Ein direkt geprüfter Branchenportal-Eintrag nennt An der Gabelung 28, Mobilnummer und eine lange Materialliste samt Mindestmengen, legt aber keinen Betreiber- oder Quellenbeleg offen. Diese Angaben bleiben deshalb Leads und belegen weder einen aktuellen Schrottplatz noch den Ankauf durch diesen Seed.
+
+**Preise:** **ANKAUF** – keine zuordenbaren Zahlenkurse; die Portal-Mindestmengen (Eisen ab 100 kg, NE-Metalle ab 1 kg) sind keine Preise und nicht unabhängig bestätigt. **VERKAUF** – keine Warenpreisliste. **GEBÜHREN** – keine Demontage-, Abhol- oder Entsorgungstarife. **GEO:** keine Freigabe, bis Identität und tatsächliche Kundenannahme geklärt sind.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.0778462, 8.2453077. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Der Direktabruf der Betreiber-Domain lieferte nur den Seitentitel „Willeführ Industriedemontagen | Rückbau & Verwertung“, kein lesbares Impressum oder konkrete Konditionen. Ein direkter Abruf von LokaleSchrottplatz.de listet An der Gabelung 28, 55252, Mobil 0163 2268363, diverse Schrottarten sowie Mindestmengen von 100 kg für Eisen- und 1 kg für Nichteisenmetalle. Die Seite weist für diese Angaben keine Betreiberquelle aus und ist ein Portal, kein zweiter qualifizierender Beleg. Die Mindestmengen sind keine Preisangaben. Keine Frontmatter-Fills, keine Annahme-/Ankaufbestätigung, kein GEO. **ANKAUF:** keine numerische Liste; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Quellen: https://willefuehr-industriedemontagen.de/ ; https://lokaleschrottplatz.de/willefuhr-industriedemontagen/]
 
 ### Recherche 04.10.2026
 

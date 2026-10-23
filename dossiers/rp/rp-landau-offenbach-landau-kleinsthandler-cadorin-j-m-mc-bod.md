@@ -1,5 +1,6 @@
 ---
 slug: rp-landau-offenbach-landau-kleinsthandler-cadorin-j-m-mc-bod
+clear_fields: 'geo'
 name: Landau Kleinsthändler (Cadorin J./M., MC, Bodenstein, Engel A./R., Benkler,
   Koch M.+E., Durmaz)
 trader_type: schrotthaendler
@@ -30,6 +31,15 @@ Historischer Sammel-Seed für mehrere nicht unabhängig zugeordnete Kleinbetrieb
 **Preise:** Keine gemeinschaftliche oder einem verifizierten Zielbetrieb zugeordnete Ankauf-, Verkaufs- oder Gebührenliste. Offen: Einzelidentitäten und vom Owner zu entscheidende Aufteilung in stabile Einzeldossiers; keine automatische Aufteilung vorgenommen.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.1984000, 8.1169000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Das Profil „Schrott und Metallhandel J. Cadorin“ auf recyclinghof-wertstoffhof.de direkt gelesen: An den Lerchenwiesen 0, 76829 Landau, Tel. 0159 06279409; als Portalangabe stehen Ankauf/Abholung und Mo–Sa 08:00–17:00. Die Seite verweist für Zeiten auf einen Google-Eintrag und bietet keine Betreiber-Impressums-/Registerbestätigung; Hausnummer 0 ist keine belastbare, geocodierbare Geschäftsadresse. Kein Beleg verbindet diesen J.-Cadorin-Lead mit Jeffrey/M./anderen Cadorin-Personen oder den übrigen Namen des Sammel-Seeds. ANKAUF: keine numerischen Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Felder, Aufteilung oder Koordinaten geändert. Quelle: https://recyclinghof-wertstoffhof.de/schrottplatz/rheinland-pfalz/landau-in-der-pfalz/schrott-und-metallhandel-j-cadorin/ .]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

@@ -1,5 +1,6 @@
 ---
 slug: nw-munster-smi-metallrecycling
+clear_fields: 'geo'
 name: SMI Metallrecycling
 trader_type: metallhaendler
 state: NW
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Der aktuelle Identitätslead ist ein wlw-Unternehmensprofil „SMI Metallrecycling“ mit Anschrift Am Schild 11, 48159 Münster und Geschäftsführerangabe Can Ikram. Das ist ein einzelnes Branchenplattformprofil, kein Register- oder Betreiberbeleg. Die zugeordnete Domain liefert weiterhin nur den Bauplatzhalter „BALD VERFÜGBAR“ ohne Impressum oder Firmen-/Kontaktdaten. Adresse, Betreiber und öffentliche Annahme daher nicht in strukturierte Felder übernehmen; `status: pruefung`. **GEO:** Am Schild 11 ist ein neuer zu prüfender Kandidat, aber erst nach Betreiber-/Kundenstellenbestätigung geokodieren. **ANKAUF:** kein dem Betrieb sicher zuordenbarer Kurs oder aktuelles Sortiment; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Entsorgungs-/Containerpreise belegt.
+Der Identitätslead ist weiterhin ein wlw-Profil „SMI Metallrecycling“ an Am Schild 11, 48159 Münster, Can Ikram; ein Marktplatzprofil ergänzt 0176 32738749 und beschreibt Metallankauf/Abbruch, allerdings mit alten Bewertungen von 2012–2014. Eine zweite wlw-Suchspur nennt abweichend Sprakeler Straße 34E, 48159; der genaue Bezug und die Betreiberkontinuität sind nicht aufgelöst. Die zugeordnete Domain liefert nur den Bauplatzhalter „BALD VERFÜGBAR“, ohne Impressum. Keine Primärquelle/Registerbestätigung, daher keine Kontakt-/Adressübernahme und `status: pruefung`.
+
+**Preise:** **Ankauf:** Marktplatzprofil behauptet Buntmetallankauf, aber ohne Materialkurse oder aktuelle Konditionen; **Verkauf:** keine Preisliste; **Gebühren:** keine verifizierten Container-/Entsorgungstarife. Am Schild 11 und Sprakeler Str. 34E bleiben konkurrierende GEO-Kandidaten, keine davon als aktueller Annahmeort freigeben.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.6992941, 8.0388824. Das Dossier dokumentiert bereits, dass der Altpunkt rund 40 km von Münster entfernt liegt und keinen Adressbezug hat. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Ergänzende Quellenprüfung: Das Marktplatz-Mittelstand-Profil führt SMI Metallrecycling an Am Schild 11, 48159 Münster und nennt 0176 32738749 sowie Metall-/Kabelankauf, Schrottentsorgung, Abbruch und Industriedemontage; sichtbare Bewertungen stammen aus 2012–2014 und sind kein Aktualitätsbeleg. Die Domain smi-metallrecycling.de zeigt weiterhin nur „BALD VERFÜGBAR“. Eine weitere wlw-Suchspur nennt abweichend Sprakeler Straße 34E, 48159, ohne verifizierbare Betreiberkette zur Am-Schild-Adresse. Keine Feldübernahme. **Ankauf:** nur allgemeine, alte Leistungswerbung, keine Zahlen; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Beide Straßenanschriften vor GEO auf Betreiber und öffentliche Annahme prüfen. Quellen: https://www.marktplatz-mittelstand.de/muenster/smi-metallrecycling-aWPKf4.html ; https://www.wlw.de/de/firma/smi-metallrecycling-1786787 ; https://smi-metallrecycling.de/ ; abweichende Sprakeler-Adresse: WLW-Suchtreffer, noch nicht als eigenständiger aktueller Beleg verifiziert.]
 
 ### Recherche 22.10.2026
 

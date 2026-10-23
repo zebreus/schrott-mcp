@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-Edelmetallankauf für Privatkunden und Edelmetallrecycling für Gewerbe/Industrie. Die Betreiberseite publiziert volatile Ankaufskurse je Gramm und erklärt, dass für Bestimmung und Einschmelzen keine zusätzlichen Kosten anfallen sollen. Das ist keine Verkaufspreisliste: Kunden-Verkaufspreise für Edelmetalle werden nicht beziffert. Kontakt- und Standortangaben bleiben wegen des Ein-Quellen-Nachweises in der Timeline; Kurswerte gehören nur als datierter Snapshot, nicht in statische Frontmatter.
+Edelmetallankauf für Privatkunden und Edelmetallrecycling für Gewerbe/Industrie. Die Betreiberseite publiziert volatile Ankaufskurse je Gramm; am 23.10.2026 war dort ein aktueller, zeitgestempelter Snapshot abrufbar. Die Seite erklärt außerdem, dass für Bestimmung und Einschmelzen keine zusätzlichen Kosten anfallen sollen. Das ist keine Verkaufspreisliste: Kunden-Verkaufspreise für Edelmetalle werden nicht beziffert. Kontakt- und Standortangaben bleiben wegen des Ein-Quellen-Nachweises in der Timeline; Kurswerte gehören nur als datierter Snapshot, nicht in statische Frontmatter.
 
 ## Timeline
+
+### Preislisten-Nachtrag 23.10.2026
+
+- [Recherche 23.10.2026, 07:51:23: Die direkt abgerufene Betreiber-Homepage zeigte folgende volatile **ANKAUFSKURSE** in €/g (Zahlung an den Einlieferer): Gold 999/986/916/900/750/585/375/333 = 108,40/101,36/94,16/92,52/72,81/56,80/36,04/32,00; Zahngold 750/600 = 72,81/58,25; Silber 999/925/900/835/800/625/500 = 1,23/1,14/1,11/1,03/0,99/0,77/0,62; Goldbarren 999 = 108,46 (laut Seitenbedingung gestempelt, neuwertig, bis 2 g); Platin 999/950/900/800/750 = 39,14/37,22/35,26/31,34/29,39; Palladium 999/950/800/500 = 26,01/24,74/20,83/13,02. Die Seite nennt den Stand ausdrücklich als 23.10.2026 um 07:51:23 Uhr. **VERKAUF:** keine bezifferten Kunden-Verkaufskurse gefunden. **GEBÜHREN:** Betreiberangabe: für eigene Bestimmung/Schmelzung keine weiteren Kosten; keine allgemeine Gebührenordnung. Dieser Snapshot ersetzt nicht die früheren datierten Momentaufnahmen und wird nicht als dauerhafter Frontmatter-Kurs gespeichert. Impressum und Homepage nennen Severino Frumento und dieselbe Langenselbolder Adresse, bleiben aber ein Betreiberquellenkanal; keine neuen strukturierten Kontaktfills oder GEO. Quellen: https://www.frumento-goldhandel.de/ ; https://www.frumento-goldhandel.de/impressum/]
 
 ### Preislisten-Nachtrag 12.10.2026
 

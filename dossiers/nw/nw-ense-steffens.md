@@ -1,5 +1,6 @@
 ---
 slug: nw-ense-steffens
+clear_fields: 'geo'
 name: Steffens
 trader_type: schrotthaendler
 state: NW
@@ -24,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-Der am 12.10.2026 direkt gelesene Verzeichniseintrag führt „Schrott Steffens“, Rochollweg 22, 59469 Ense und Telefon 02938 48 44 39. Derselbe Eintrag erklärt, dass Beschreibung, Öffnungszeiten und Leistungsangebot nicht vollständig erfasst sind. Betreiberidentität, aktueller Betrieb und Annahme bleiben daher unbestätigt; `status: pruefung` bleibt. **Ankauf:** keine belastbaren Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Für GEO liegt kein unabhängiger Standortbeleg vor.
+Der am 23.10.2026 direkt gelesene 11880-Eintrag führt „Steffens Schrott und Metalle“, Rochollweg 22, 59469 Ense, Tel. 02938 484439; er weist Datenstand 19.06.2026 und Profilaktualisierung 02.10.2026 aus, enthält aber keine Website, Zeiten oder Leistungsbeschreibung. Das ist weiterhin nur ein Branchenverzeichnis, kein unabhängiger Betreiberbeleg. Betreiberidentität, aktueller Betrieb und Annahme bleiben unbestätigt; `status: pruefung` bleibt. **Ankauf:** keine belastbaren Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Für GEO liegt kein unabhängiger Standortbeleg vor.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.5133000, 7.9494000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: 11880-Detailprofil direkt gelesen: „Steffens Schrott und Metalle“, Rochollweg 22, 59469 Ense, 02938 484439; Profilaktualisierung 02.10.2026, Datensatzstand 19.06.2026. Keine Website, Öffnungszeiten oder beschriebene Leistungen; ein weiterer Verzeichniseintrag zu Metallbearbeitung an der Anschrift ist ebenfalls kein Primärnachweis für diesen Schrott-Seed. Vorhandene Adresse/Telefon bleiben Verzeichnisleads und werden nicht als aktueller öffentlicher Annahmepunkt freigegeben. **Ankauf:** keine Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Quelle (Aggregatorlead): https://www.11880.com/branchenbuch/ense/120674719B36352718/steffens-schrott-und-metalle.html]
 
 ### Recherche 01.10.2026
 

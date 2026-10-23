@@ -1,5 +1,6 @@
 ---
 slug: rp-bad-kreuznach-weinand-entsorgung-recycling
+clear_fields: 'geo'
 name: Weinand Entsorgung / Recycling
 trader_type: schrotthaendler
 state: RP
@@ -29,6 +30,15 @@ Die Betreiberwebsite belegt am Schwabenheimer Weg 3, 55543 Bad Kreuznach, einen 
 **ANKAUF:** Betreiberangabe: Stahl-/Eisenschrott, Edelstahl, Buntmetalle und Elektro-/Elektronikschrott werden angenommen; private und gewerbliche Anlieferung, Ankauf zu tagesaktuellen Marktpreisen. Für Stahl- und Buntmetall gilt laut Hinweis eine nicht bezifferte Mindestvergütungsgrenze; keine numerische Tagespreisliste gefunden. **VERKAUF:** Die Website beschreibt die Aufbereitung zu Rohstoffen für Industrie, veröffentlicht aber keine Verkaufspreisliste. **GEBÜHREN:** Nichtmetallische Abfälle werden seit 25.04.2025 nicht mehr an diesem Lager angenommen; die Seite verweist dafür auf REMONDIS. Die AGB sehen Mehrkosten bei unzulässigen Beimischungen/Qualitätsabweichungen vor, ohne Tarifliste. Entlade-/Sortierhilfe und Nachsortierung sind laut Betreiber nicht verfügbar.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.8426000, 7.8512500. Das Dossier dokumentiert den Konflikt ausdrücklich: Der Altpunkt liegt rund 4,6 km vom Betreiberkartenpunkt entfernt; kein Eingangspunkt ist verifiziert. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Startseite erneut direkt ausgewertet. Sie bestätigt für Bad Kreuznach die Metallannahme am Schwabenheimer Weg 3, Mo–Fr 08:00–11:00 und 13:00–16:00, bei Geschäftszeiten bis 17:00; nichtmetallische Anlieferungen endeten laut Betreiber am 25.04.2025, die Metallannahme läuft weiter. ANKAUF: Tagesmarktpreise werden angekündigt, aber ohne bezifferte Kursliste oder konkrete Mindestvergütungsgrenze; VERKAUF: keine Materialpreisliste; GEBÜHREN: kein Tarifblatt, AGB-Mehrkosten bei Qualitätsabweichungen bleiben unbeziffert. Die Betreiberkarte nennt weiterhin 49.883796, 7.851105, aber das ist kein unabhängig bestätigter Eingangspunkt; keine Koordinate ergänzt. Bestehende Adresse ist nicht neu; der dokumentierte Geocoding-/Eingangspunkt-Klärfall bleibt bestehen. Quelle: https://weinand.de/ .]
 
 ### Owner-GEO-Prüfung 21.10.2026
 

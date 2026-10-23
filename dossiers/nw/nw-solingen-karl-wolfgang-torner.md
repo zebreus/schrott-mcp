@@ -1,5 +1,6 @@
 ---
 slug: nw-solingen-karl-wolfgang-torner
+clear_fields: 'geo'
 name: Karl Wolfgang Torner
 trader_type: schrotthaendler
 state: NW
@@ -26,9 +27,18 @@ provenance_origin: table
 
 Lead Karl Wolfgang Torner, Oben zum Holz 60, 42653 Solingen-Gräfrath, 0212 593422, weiterhin ausschließlich über Verzeichnisse. 11880 zeigt für den Eintrag einen Datenstand 29.06.2021 und ein Profilaktualisierungsdatum 03.10.2026; das spätere Plattformdatum verifiziert weder den Betreiber noch aktuelle Geschäftstätigkeit. Kein unabhängig identifizierter Register-/Gewerbebetrieb.
 
-**Preise:** Keine numerische Betreiber-Ankauf-/Verkaufspreisliste und keine Gebühren gefunden. **Offen:** heutige Betreiberidentität, Existenz des Betriebs am Standort, Ankauf/Abholung/Annahmezeiten. Adress-/Kontaktfelder bleiben leer und Standort ungeocodet, `pruefung`.
+**Preise:** **Ankauf:** keine bestätigte Zusage oder Kursliste; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarifangaben. **Offen:** heutige Betreiberidentität, Existenz des Betriebs am Standort, Ankauf/Abholung/Annahmezeiten. Adress-/Kontaktfelder bleiben leer und Standort ungeocodet, `pruefung`.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.1686125, 7.0578875. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Den 11880-Detaillead erneut direkt geprüft: Karl Wolfgang Torner, Oben zum Holz 60, 42653 Solingen, Tel. 0212 593422; laut Seite Datenstand 29.06.2021, Profilaktualisierung 03.10.2026. Das spätere Plattformdatum ist kein Betreiber- oder Aktivitätsnachweis. Weiterhin kein unabhängig identifizierter Betreiber/Registerbeleg; die Adresse und Nummer bleiben Leads, kein aktueller Annahmeort. **Ankauf:** nicht belegt; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Keine GEO-Freigabe. Quelle (Verzeichnislead): https://www.11880.com/branchenbuch/solingen/060440090B100462708/karl-wolfgang-torner.html]
 
 ### Recherche 13.10.2026
 

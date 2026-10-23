@@ -1,5 +1,6 @@
 ---
 slug: rp-trier-54295-scheller-mathias
+clear_fields: 'geo'
 name: Scheller Mathias
 trader_type: schrotthaendler
 state: RP
@@ -27,6 +28,15 @@ provenance_origin: table
 Mathias/Matthias Scheller beziehungsweise MS Schrotthandel in Trier bleibt ungeklärte Betreiberidentität. Tessenowstr. 35/0175 2305407 und widersprüchliche Zeiten nur Verzeichnisleads; Facebook-Abruf liefert Login. Keine Kontakt-/Adress-/Zeit-Fills, keine aktuelle Ankauf-/Verkaufspreisliste oder Gebühren im geprüften Umfang. Status pruefung; gesperrte Anzeigen kein Aktivitäts-/Schließungsbeweis.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.7534167, 6.6370833. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: 11880-Profil „Metallrecycling / MS Schrotthandel“ und das verlinkte SELLWERK-Profil direkt gelesen. Beide zeigen Matthias Scheller, Tessenowstr. 35, 54295 Trier, 0175 2305407, dieselbe E-Mail und Mo–Fr 08:00–18:00/Sa 08:00–16:00; 11880 bezeichnet sein Profil als „vom Inhaber bestätigt“. Das bleibt nach README ein Aggregator-/Profilbeleg, kein Betreiber-Impressum oder unabhängiger Registerbeleg; der SELLWERK-Comprix-Pfad ist ein Profilduplikat, keine zweite Primärquelle. Facebook-Direktabruf zeigt nur Login. Der Profilhinweis „Bitte rufen Sie uns für genauere Informationen an“ ist keine Preisliste. ANKAUF/VERKAUF/GEBÜHREN: keine bezifferten Kurse, Warenpreise oder Tarife verifiziert. Keine Felder geändert; Anschrift erst nach Primärbestätigung geocodieren. Quellen: https://www.11880.com/branchenbuch/trier/032192491B113026256/matallrecycling-schrott-und-metalle-matthias-scheller.html ; https://sellwerk.de/firmenprofil/schrottmetallhandel-matthias-scheller ; https://sellwerk.de/firmenprofil/schrottmetallhandel-matthias-scheller-comprix ; https://www.facebook.com/61554977015003 .]
 
 ### Recherche 09.10.2026 / Gegenprüfung 10.10.2026
 

@@ -1,5 +1,6 @@
 ---
 slug: nw-augustdorf-gregorz
+clear_fields: 'geo'
 name: Gregorz
 trader_type: schrotthaendler
 state: NW
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisprofile nennen „Autoverwertung KFZ-Meisterbetrieb Gregorz / Schrott- und Autoverwertung“, Nord-West-Ring 18, 32832 Augustdorf. Sie führen sowohl 05237 1069 als auch 05237 8987970; zudem kursieren unterschiedliche Inhaberinnen-Namen. Die eigene Domain(s) lieferten kein auswertbares Impressum, und die zusätzlichen Plattformtreffer zu „Autoverwertung Gregorz“ stellen die rechtliche Kontinuität nicht her. Adresse und Tätigkeit bleiben plausible, aber nicht primär bestätigte Leads; `status: pruefung`.
+
+**Preise:** **Ankauf:** keine Gregorz-spezifischen Ankaufskurse oder Konditionen belegt; **Verkauf:** keine verifizierte Teile-/Materialpreisliste; **Gebühren:** keine Tarifliste. Preisangaben zu anderen Autoverwertern/Aufkäufern sind nicht übertragbar. Nord-West-Ring 18 ist schon als Hausadresse geokodiert, aber der Punkt beweist weder aktuelle Betreiberbindung noch Kundenannahme und bleibt für Produktion gesperrt.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.9094000, 8.7317000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Weitere Plattform-Suchtreffer zu „Autoverwertung Gregorz“ (eBay/Facebook) geprüft; sie liefern zusätzliche Marken-/Telefonspuren, aber keinen belastbaren, direkt auswertbaren aktuellen Betreiber-/Impressumsbeleg. Die bereits bekannten Verzeichnisse führen Nord-West-Ring 18 und zwei Nummern (05237 1069 / 05237 8987970); Namensabweichungen bei Betreiberinnen und fehlende Primärquelle bleiben offen. Keine Daten aus der fremden Green-AutoRecycling-Preiswerbung (u. a. Fahrzeug-/Tonnenpreise und Abholung) übernommen. **Ankauf:** kein Gregorz-Preis; **Verkauf:** keine Liste; **Gebühren:** keine bestätigten Kosten/Gratisregeln. Bestehender Hauspunkt ist keine Verifizierung einer aktiven Kundenannahme. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/eebc9d98-0079-4682-b8b9-4f902ac0bcb2 ; https://www.dasoertliche.de/Themen/Autoverwertung-KFZ-Meisterbetrieb-Gregorz-Schrott-und-Autoverwertung-Augustdorf-Nord-West-Ring ; https://autoverwertung-gregorz.de/]
 
 ### Recherche 01.10.2026
 

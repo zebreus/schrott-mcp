@@ -1,5 +1,6 @@
 ---
 slug: nw-rheda-wiedenbruck-sasse
+clear_fields: 'geo'
 name: Sasse
 trader_type: schrotthaendler
 state: NW
@@ -24,11 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-**Namensvetter-/Seed-Zuordnung offen:** Eigene Recherche findet Schrott-Sasse GmbH & Co. KG, HRA 5881 Gütersloh, Lippstädter Str. 61, 33378 Rheda-Wiedenbrück, mit aktueller Abschlussveröffentlichung. Daneben steht der Verzeichniscluster „Sasse Hermann Schrott und Metalle“/„Sasse H.“, Südring 107. Der knappe Seed „Sasse“ erlaubt keine Entscheidung zwischen den beiden. Registerseite der KG beweist nicht, dass Hermann Sasse ein Alias, Vorgänger oder umgezogener Betrieb ist. Deshalb Name/Adressfelder nicht ersetzt; `pruefung` und stabiler Slug erhalten.
+Ein lokaler Zeitungsbericht vom 02.01.2020 liefert nun eine belastbare Betriebshistorie: Hermann Sasses Schrottbetrieb am Südring war geräumt; Christina Sasses Betrieb an der Lippstädter Straße und deren Langenberger Zweig hatten bereits einige Monate zuvor den Betrieb eingestellt. Beide gingen unter Hermann Kathöfer in Langenberg auf; Familiennachfolger gab es laut Bericht nicht. Das spricht dafür, dass beide damaligen Sasse-Handelsbetriebe 2019 endeten, belegt aber keine vollständige Rechtsnachfolge zu HRA 5881 und löst die generische Seed-Zuordnung nicht abschließend. Die KG HRA 5881 wird in Registerspiegeln weiterhin als aktive juristische Person geführt; rechtliche Existenz allein beweist keinen aktiven Schrottplatz.
 
-Kein belegter aktueller Annahmeort für diese Seedzeile, keine Ankauf-, Verkaufs- oder Gebührenliste. Beide Adressen sind für Identitätsprüfung vorgemerkt, nicht für sofortiges GEO.
+Kein belegter aktueller Annahmeort für diese Seedzeile, keine Ankauf-, Verkaufs- oder Gebührenliste. Die Adressen Lippstädter Str. 61 und Südring 107 sind historische Betriebsorte, nicht zur aktuellen GEO-Geokodierung freigegeben. Status `pruefung` bleibt bis Seed-/Rechtsträgerzuordnung geklärt ist.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 23.10.2026
+
+- [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.8497000, 8.3002000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]
+
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Lokalen Zeitungsbericht vom 02.01.2020 direkt gelesen. Er berichtet, dass Hermann Sasses Betrieb am Südring seine letzten Lkw abgezogen und das Gelände geräumt hatte; Christina Sasses Betrieb an der Lippstädter Straße samt Langenberger Zweig hatte einige Monate zuvor geschlossen. Ohne Familiennachfolger wurden beide Geschäftsbetriebe unter Hermann Kathöfer in Langenberg vereinigt; Mitarbeiter und Geräte wechselten. Dies ist ein starker historischer Beleg für das Ende der damaligen Sasse-Handelsbetriebe, aber kein Registerbeleg zur Auflösung/Übertragung der weiterhin im Registerspiegel geführten Schrott-Sasse GmbH & Co. KG (HRA 5881) und kein Beleg, welche Sasse der knappe Seed meint. Daher kein aktueller Namens-/Adressfill, `status: pruefung`; beide Adressen bleiben historisch und ungeocodet. **Ankauf:** keine aktuelle Sasse-Annahme/Kurse belegt; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quelle: https://www.die-glocke.de/kreis-guetersloh/rheda-wiedenbrueck/artikel/wiedervereinigung-im-schrottgewerbe-1624316601 ; Registergegenprüfung: https://www.northdata.de/Schrott-Sasse%20GmbH%20&%20Co%C2%B7%20KG,%20Rheda-Wiedenbr%C3%BCck/Amtsgericht%20G%C3%BCtersloh%20HRA%205881]
 
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2
 
