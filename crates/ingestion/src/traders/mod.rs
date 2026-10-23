@@ -452,7 +452,7 @@ async fn record_dated_observation(
         });
     };
     let now_s = now.to_rfc3339();
-    let wahl_legacy_ids = if wahl_snapshot {
+    let wahl_legacy_rows = if wahl_snapshot {
         for p in &outcome.prices {
             if public
                 .find_material_id(p.material)
@@ -469,7 +469,7 @@ async fn record_dated_observation(
                 });
             }
         }
-        wahl_legacy_cable_price_ids(public, trader_id)?
+        wahl_legacy_cable_price_rows(public, trader_id)?
     } else {
         Vec::new()
     };
@@ -509,7 +509,7 @@ async fn record_dated_observation(
             trader_id,
             outcome,
             &now_s,
-            &wahl_legacy_ids,
+            &wahl_legacy_rows,
         )?)
     } else {
         None
@@ -798,10 +798,10 @@ async fn record_dated_observation(
     })
 }
 
-fn wahl_legacy_cable_price_ids(
+fn wahl_legacy_cable_price_rows(
     public: &PublicDb,
     trader_id: i64,
-) -> Result<Vec<i64>, super::IngestError> {
+) -> Result<Vec<schrott_mcp_store::PriceRow>, super::IngestError> {
     use super::IngestError;
     let source = handlers::wahl_co_zella_mehlis::URL;
     let catalog_error = |source| IngestError::Catalog {
@@ -822,7 +822,18 @@ fn wahl_legacy_cable_price_ids(
     Ok(rows
         .into_iter()
         .filter(|row| {
-            row.material_id == cable_id
+            let Ok(extra) = serde_json::from_str::<serde_json::Value>(&row.extra_json) else {
+                return false;
+            };
+            let compatible_owner = match extra.get("snapshot_owner") {
+                None | Some(serde_json::Value::Null) => true,
+                Some(serde_json::Value::String(owner)) => {
+                    owner.is_empty() || owner == handlers::wahl_co_zella_mehlis::SNAPSHOT_OWNER
+                }
+                Some(_) => false,
+            };
+            compatible_owner
+                && row.material_id == cable_id
                 && row.variant.is_empty()
                 && row.price_kind == "upto"
                 && row.currency == "EUR"
@@ -835,7 +846,6 @@ fn wahl_legacy_cable_price_ids(
                 && row.published
                 && row.notes.starts_with("Kabelpreis: bis zu ")
         })
-        .map(|row| row.id)
         .collect())
 }
 
@@ -844,7 +854,7 @@ fn record_wahl_price_snapshot(
     trader_id: i64,
     outcome: &HandlerOutcome,
     now: &str,
-    legacy_ids: &[i64],
+    legacy_rows: &[schrott_mcp_store::PriceRow],
 ) -> Result<usize, super::IngestError> {
     use super::IngestError;
 
@@ -926,7 +936,7 @@ fn record_wahl_price_snapshot(
     public
         .record_price_snapshot(
             &prices,
-            legacy_ids,
+            legacy_rows,
             handlers::wahl_co_zella_mehlis::SNAPSHOT_OWNER,
         )
         .map_err(|source| IngestError::Catalog {

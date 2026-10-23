@@ -2,7 +2,7 @@
 use std::collections::{BTreeMap, BTreeSet};
 
 use chrono::{DateTime, Utc};
-use schrott_mcp_store::{NewPrice, PublicDb};
+use schrott_mcp_store::{NewPrice, PriceRow, PublicDb};
 
 use super::{
     overview::{quote_cell, Snapshot, GROUPS, MAPPINGS},
@@ -264,12 +264,22 @@ pub fn record_articles(
     let berry = public
         .find_material_id("kupfer-berry")
         .map_err(|e| fail(e.to_string()))?;
-    let legacy: Vec<_> = public
+    let current_rows = public
         .current_prices_from(tid, URL)
-        .map_err(|e| fail(e.to_string()))?
+        .map_err(|e| fail(e.to_string()))?;
+    let legacy: Vec<PriceRow> = current_rows
         .iter()
         .filter(|p| {
-            p.source_type == "haendler_angabe"
+            let Ok(extra) = serde_json::from_str::<serde_json::Value>(&p.extra_json) else {
+                return false;
+            };
+            let compatible_owner = match extra.get("snapshot_owner") {
+                None | Some(serde_json::Value::Null) => true,
+                Some(serde_json::Value::String(owner)) => owner.is_empty() || owner == OWNER,
+                Some(_) => false,
+            };
+            compatible_owner
+                && p.source_type == "haendler_angabe"
                 && p.published
                 && p.currency == "EUR"
                 && p.unit == "EUR/kg"
@@ -301,7 +311,7 @@ pub fn record_articles(
                                 .is_some_and(|id| PROVEN_LEGACY_ARTICLES.contains(&id))
                     }))
         })
-        .map(|p| p.id)
+        .cloned()
         .collect();
     let acceptances: Vec<_> = accepted
         .into_iter()

@@ -158,6 +158,17 @@ pub(crate) fn record_snapshot(
         if !p.published || p.source_type != "haendler_angabe" {
             continue;
         }
+        let Ok(extra) = serde_json::from_str::<serde_json::Value>(&p.extra_json) else {
+            continue;
+        };
+        let compatible_owner = match extra.get("snapshot_owner") {
+            None | Some(serde_json::Value::Null) => true,
+            Some(serde_json::Value::String(owner)) => owner.is_empty() || owner == SNAPSHOT_OWNER,
+            Some(_) => false,
+        };
+        if !compatible_owner {
+            continue;
+        }
         if let Some((title, tier)) = p.notes.strip_suffix(')').and_then(|s| s.rsplit_once(" (")) {
             if canonical_tier(tier).is_err() {
                 continue;
@@ -169,7 +180,7 @@ pub(crate) fn record_snapshot(
                     && Some(p.material_id)
                         == public.find_material_id("messing").map_err(&db_error)?;
                 if (Some(p.material_id) == mid && p.variant == variant) || wrong_water {
-                    legacy.push(p.id);
+                    legacy.push(p.clone());
                 }
             }
         }

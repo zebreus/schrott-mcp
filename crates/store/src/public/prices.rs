@@ -462,7 +462,7 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
 }
 
 /// One price observation, as stored.
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, PartialEq)]
 pub struct PriceRow {
     pub id: i64,
     pub trader_id: i64,
@@ -519,6 +519,14 @@ impl PublicDb {
     /// Out-of-order backfills never clobber newer data: `current_prices`
     /// only moves forward in `observed_at` (ties: higher id wins).
     pub fn record_price(&self, p: &NewPrice<'_>) -> Result<i64, StoreError> {
+        if serde_json::from_str::<serde_json::Value>(p.extra_json)
+            .ok()
+            .is_some_and(|v| v["snapshot_owner"] == "mkm-article-v1")
+        {
+            return Err(StoreError::Rejected(
+                "MKM article owner requires typed manifest transaction",
+            ));
+        }
         // Read ownership, append/dedupe and move Current in one SQLite
         // transaction, including across independently opened connections.
         let mut conn = self.lock()?;
@@ -535,7 +543,7 @@ impl PublicDb {
     pub fn record_price_snapshot(
         &self,
         prices: &[NewPrice<'_>],
-        legacy_ids: &[i64],
+        legacy_rows: &[PriceRow],
         owner: &str,
     ) -> Result<usize, StoreError> {
         if owner == "mkm-article-v1" {
@@ -543,23 +551,25 @@ impl PublicDb {
                 "article owner requires typed manifest transaction",
             ));
         }
-        self.record_snapshot_transaction(prices, legacy_ids, owner, None)
+        self.record_snapshot_transaction(prices, legacy_rows, owner, None)
     }
 
     /// MKM-only extension of the existing atomic price-snapshot contract.
     /// The caller must supply a validated complete typed article manifest.
     /// Semantic price metadata is immutable; request evidence and material
     /// acceptances commit with prices/retirement or all roll back together.
+    /// Legacy rows are passed as read snapshots and revalidated under the
+    /// transaction lock before their current pointers can be retired.
     pub fn record_article_price_snapshot(
         &self,
         prices: &[NewPrice<'_>],
-        legacy_ids: &[i64],
+        legacy_rows: &[PriceRow],
         manifest_json: &str,
         acceptances: &[(i64, String)],
     ) -> Result<usize, StoreError> {
         self.record_snapshot_transaction(
             prices,
-            legacy_ids,
+            legacy_rows,
             "mkm-article-v1",
             Some((manifest_json, acceptances)),
         )
@@ -568,7 +578,7 @@ impl PublicDb {
     fn record_snapshot_transaction(
         &self,
         prices: &[NewPrice<'_>],
-        legacy_ids: &[i64],
+        legacy_rows: &[PriceRow],
         owner: &str,
         article_commit: Option<(&str, &[(i64, String)])>,
     ) -> Result<usize, StoreError> {
@@ -609,6 +619,15 @@ impl PublicDb {
         };
         if owner.is_empty() || first.source_url.is_empty() {
             return Err(StoreError::Rejected("snapshot scope missing"));
+        }
+        let mut legacy_ids = std::collections::HashSet::new();
+        for row in legacy_rows {
+            if !legacy_ids.insert(row.id)
+                || row.trader_id != first.trader_id
+                || row.source_url != first.source_url
+            {
+                return Err(StoreError::Rejected("invalid legacy retirement evidence"));
+            }
         }
         let mut keys = std::collections::HashSet::new();
         for p in prices {
@@ -724,21 +743,23 @@ impl PublicDb {
                 return Err(StoreError::Rejected("foreign or newer current price"));
             }
         }
-        let candidates: Vec<(i64, i64, String, String, String)> = {
+        let candidates: Vec<PriceRow> = {
             let mut stmt = tx.prepare(
-                "SELECT p.id,p.material_id,p.variant,p.observed_at,p.extra_json
+                "SELECT p.id,p.trader_id,p.material_id,p.variant,p.price,p.currency,p.unit,p.price_kind,
+                  p.price_min,p.price_max,p.confidence,p.source_type,p.published,p.source_url,
+                  p.observed_at,p.published_at,p.valid_from,p.valid_to,p.notes,p.extra_json,p.ingested_at
                  FROM current_prices c JOIN prices p ON p.id=c.price_id
                  WHERE c.trader_id=?1 AND p.source_url=?2 AND p.source_type='haendler_angabe' AND p.published=1")?;
             let rows = stmt
-                .query_map(params![first.trader_id, first.source_url], |r| {
-                    Ok((r.get(0)?, r.get(1)?, r.get(2)?, r.get(3)?, r.get(4)?))
-                })?
+                .query_map(params![first.trader_id, first.source_url], row_to_price)?
                 .collect::<Result<Vec<_>, _>>()?;
             rows
         };
         let mut retire = Vec::new();
-        for (id, mid, variant, observed, extra) in candidates {
-            let Ok(extra) = serde_json::from_str::<serde_json::Value>(&extra) else {
+        let mut matched_legacy_ids = std::collections::HashSet::new();
+        for candidate in candidates {
+            let id = candidate.id;
+            let Ok(extra) = serde_json::from_str::<serde_json::Value>(&candidate.extra_json) else {
                 continue;
             };
             let marker = extra.get("snapshot_owner");
@@ -749,13 +770,29 @@ impl PublicDb {
             }
             let managed = marker.and_then(|v| v.as_str()) == Some(owner);
             if managed || legacy_ids.contains(&id) {
-                if observed.as_str() > first.observed_at {
+                if legacy_ids.contains(&id) {
+                    let Some(expected) = legacy_rows.iter().find(|row| row.id == id) else {
+                        return Err(StoreError::Rejected("missing legacy retirement evidence"));
+                    };
+                    if expected != &candidate {
+                        return Err(StoreError::Rejected(
+                            "legacy candidate changed during snapshot",
+                        ));
+                    }
+                    matched_legacy_ids.insert(id);
+                }
+                if candidate.observed_at.as_str() > first.observed_at {
                     return Err(StoreError::Rejected("late price snapshot"));
                 }
-                if !keys.contains(&(mid, variant.as_str())) {
+                if !keys.contains(&(candidate.material_id, candidate.variant.as_str())) {
                     retire.push(id);
                 }
             }
+        }
+        if matched_legacy_ids.len() != legacy_rows.len() {
+            return Err(StoreError::Rejected(
+                "legacy candidate is no longer current",
+            ));
         }
         for p in prices {
             let id = Self::record_price_on(&tx, p)?;
@@ -1094,7 +1131,7 @@ pub(super) fn row_to_price(r: &rusqlite::Row<'_>) -> rusqlite::Result<PriceRow> 
 
 #[cfg(test)]
 mod tests {
-    use super::{NewPrice, PublicDb};
+    use super::{NewPrice, PriceRow, PublicDb};
     use crate::public::{NewMaterial, NewTrader};
     use crate::test_support::TempDbDir;
 
@@ -1176,6 +1213,42 @@ mod tests {
         }
     }
 
+    fn record_mkm_test_snapshot(db: &PublicDb, p: &NewPrice<'_>) {
+        const URL: &str = "https://mkm-metals.de/metallpreise";
+        const OWNER: &str = "mkm-article-v1";
+        db.lock()
+            .unwrap()
+            .execute(
+                "UPDATE traders SET slug='rp-ludwigshafen-mkm-metals' WHERE id=?1",
+                [p.trader_id],
+            )
+            .unwrap();
+        let manifest = serde_json::json!({
+            "owner": OWNER,
+            "trader_id": p.trader_id,
+            "source_url": URL,
+            "observed_at": p.observed_at,
+            "articles": (0..61).map(|i| serde_json::json!({"article": format!("article-{i}")})).collect::<Vec<_>>()
+        })
+        .to_string();
+        db.record_article_price_snapshot(std::slice::from_ref(p), &[], &manifest, &[])
+            .unwrap();
+    }
+
+    fn price_row_by_id(db: &PublicDb, id: i64) -> PriceRow {
+        db.lock()
+            .unwrap()
+            .query_row(
+                "SELECT id,trader_id,material_id,variant,price,currency,unit,price_kind,
+                    price_min,price_max,confidence,source_type,published,source_url,
+                    observed_at,published_at,valid_from,valid_to,notes,extra_json,ingested_at
+                 FROM prices WHERE id=?1",
+                [id],
+                super::row_to_price,
+            )
+            .unwrap()
+    }
+
     #[test]
     fn article_semantic_metadata_change_must_append_immutable_evidence() {
         let (_dir, db, trader, material) = setup("article-metadata");
@@ -1183,23 +1256,23 @@ mod tests {
             trader,
             material,
             11.13,
-            "2026-10-10T00:00:00Z",
-            "2026-10-10T00:00:00Z",
+            "2026-10-10T00:00:00.000000000+00:00",
+            "2026-10-10T00:00:00.000000000+00:00",
         );
         a.source_url = "https://mkm-metals.de/metallpreise";
         a.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\",\"minimum_kg\":250}";
-        db.record_price(&a).unwrap();
+        record_mkm_test_snapshot(&db, &a);
         let before = db.price_history(trader, material, "", 10).unwrap()[0].clone();
         let mut b = price(
             trader,
             material,
             11.13,
-            "2026-10-11T00:00:00Z",
-            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00.000000000+00:00",
+            "2026-10-11T00:00:00.000000000+00:00",
         );
         b.source_url = "https://mkm-metals.de/metallpreise";
         b.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\",\"minimum_kg\":500}";
-        db.record_price(&b).unwrap();
+        record_mkm_test_snapshot(&db, &b);
         let history = db.price_history(trader, material, "", 10).unwrap();
         assert_eq!(
             history.len(),
@@ -1211,17 +1284,16 @@ mod tests {
     }
 
     #[test]
-    fn review_f2_public_single_write_keeps_owner_check_and_pointer_atomic() {
+    fn review_f2_public_single_write_keeps_price_and_pointer_atomic() {
         let (_dir, db, trader, material) = setup("mkm-public-write-rollback");
         let mut owned = price(
             trader,
             material,
             11.13,
-            "2026-10-11T00:00:00Z",
-            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00.000000000+00:00",
+            "2026-10-11T00:00:00.000000000+00:00",
         );
-        owned.source_url = "https://mkm-metals.de/metallpreise";
-        owned.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
+        owned.source_url = "https://example.test/prices";
         db.record_price(&owned).unwrap();
         let before = db.current_price_for(trader, material, "").unwrap().unwrap();
         db.lock().unwrap().execute_batch("CREATE TRIGGER reject_current BEFORE INSERT ON current_prices BEGIN SELECT RAISE(ABORT,'test failure'); END;").unwrap();
@@ -1247,12 +1319,17 @@ mod tests {
             trader,
             material,
             11.13,
-            "2026-10-11T00:00:00Z",
-            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00.000000000+00:00",
+            "2026-10-11T00:00:00.000000000+00:00",
         );
         owned.source_url = "https://mkm-metals.de/metallpreise";
         owned.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\",\"article\":\"MET-KU-MILL\"}";
-        let id = db.record_price(&owned).unwrap();
+        record_mkm_test_snapshot(&db, &owned);
+        let id = db
+            .current_price_for(trader, material, "")
+            .unwrap()
+            .unwrap()
+            .id;
         let before = db.current_price_for(trader, material, "").unwrap().unwrap();
         for extra in ["{}", "{\"snapshot_owner\":\"other-producer\"}"] {
             let mut incoming = price(
@@ -1276,6 +1353,92 @@ mod tests {
             assert_eq!(format!("{after:?}"), format!("{before:?}"));
             assert_eq!(db.price_history(trader, material, "", 10).unwrap().len(), 1);
         }
+    }
+
+    #[test]
+    fn article_owner_marker_requires_typed_manifest_transaction() {
+        let (_dir, db, trader, material) = setup("mkm-single-write-bypass");
+        let mut p = price(
+            trader,
+            material,
+            11.13,
+            "2026-10-11T00:00:00Z",
+            "2026-10-11T00:00:00Z",
+        );
+        p.source_url = "https://mkm-metals.de/metallpreise";
+        p.extra_json = r#"{"snapshot_owner":"mkm-article-v1"}"#;
+
+        assert!(db.record_price(&p).is_err());
+        assert!(db
+            .price_history(trader, material, "", 10)
+            .unwrap()
+            .is_empty());
+        assert!(db
+            .current_price_for(trader, material, "")
+            .unwrap()
+            .is_none());
+    }
+
+    #[test]
+    fn article_snapshot_rejects_changed_legacy_candidate() {
+        let (_dir, db, trader, material) = setup("mkm-stale-legacy-candidate");
+        const URL: &str = "https://mkm-metals.de/metallpreise";
+        const OWNER: &str = "mkm-article-v1";
+        const NOW: &str = "2026-10-11T00:00:00.000000000+00:00";
+        db.lock()
+            .unwrap()
+            .execute(
+                "UPDATE traders SET slug='rp-ludwigshafen-mkm-metals' WHERE id=?1",
+                [trader],
+            )
+            .unwrap();
+        let mut legacy = price(trader, material, 7.0, NOW, NOW);
+        legacy.source_url = URL;
+        legacy.variant = "legacy";
+        legacy.notes = "Kupfer Kerze";
+        let id = db.record_price(&legacy).unwrap();
+        let before = db
+            .current_price_for(trader, material, "legacy")
+            .unwrap()
+            .unwrap();
+        db.lock()
+            .unwrap()
+            .execute(
+                "UPDATE prices SET notes='changed after selection' WHERE id=?1",
+                [id],
+            )
+            .unwrap();
+        let mut offered = price(trader, material, 11.13, NOW, NOW);
+        offered.source_url = URL;
+        offered.variant = "new";
+        offered.extra_json = r#"{"snapshot_owner":"mkm-article-v1"}"#;
+        let manifest = serde_json::json!({
+            "owner": OWNER,
+            "trader_id": trader,
+            "source_url": URL,
+            "observed_at": NOW,
+            "articles": (0..61).map(|i| serde_json::json!({"article": format!("article-{i}")})).collect::<Vec<_>>()
+        })
+        .to_string();
+
+        assert!(db
+            .record_article_price_snapshot(&[offered], &[before.clone()], &manifest, &[])
+            .is_err());
+        let after = db
+            .current_price_for(trader, material, "legacy")
+            .unwrap()
+            .unwrap();
+        assert_eq!(after.id, before.id);
+        assert_eq!(after.notes, "changed after selection");
+        assert!(db
+            .current_price_for(trader, material, "new")
+            .unwrap()
+            .is_none());
+        assert!(db
+            .query_sql("SELECT * FROM source_article_snapshots")
+            .unwrap()
+            .rows
+            .is_empty());
     }
 
     #[test]
@@ -1321,6 +1484,10 @@ mod tests {
             old.source_url = "https://mkm-metals.de/metallpreise";
             old.variant = "legacy";
             let id = db.record_price(&old).unwrap();
+            let old_row = db
+                .current_price_for(trader, material, "legacy")
+                .unwrap()
+                .unwrap();
             let mut p = price(trader, material, 11.13, now, now);
             p.source_url = old.source_url;
             p.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
@@ -1330,7 +1497,7 @@ mod tests {
             let error = db
                 .record_article_price_snapshot(
                     &[p],
-                    &[id],
+                    &[old_row],
                     &manifest,
                     &[(material, "conditions".to_owned())],
                 )
@@ -1398,7 +1565,58 @@ mod tests {
         old.variant = "legacy";
         old.source_url = URL;
         old.extra_json = "{\"snapshot_owner\":\"mkm-article-v1\"}";
-        let id = db.record_price(&old).unwrap();
+        // The old 60-article snapshot predates the typed transaction writer;
+        // seed this historical state directly rather than minting its reserved
+        // owner marker through the current single-price API.
+        {
+            let conn = db.lock().unwrap();
+            conn.execute(
+                "INSERT INTO prices(trader_id,material_id,variant,price,currency,unit,price_kind,
+                    price_min,price_max,confidence,source_type,published,source_url,observed_at,
+                    published_at,valid_from,valid_to,notes,extra_json,ingested_at)
+                 VALUES(?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12,?13,?14,?15,?16,?17,?18,?19,?20)",
+                rusqlite::params![
+                    old.trader_id,
+                    old.material_id,
+                    old.variant,
+                    old.price,
+                    old.currency,
+                    old.unit,
+                    old.price_kind,
+                    old.price_min,
+                    old.price_max,
+                    old.confidence,
+                    old.source_type,
+                    i64::from(old.published),
+                    old.source_url,
+                    old.observed_at,
+                    old.published_at,
+                    old.valid_from,
+                    old.valid_to,
+                    old.notes,
+                    old.extra_json,
+                    old.ingested_at,
+                ],
+            )
+            .unwrap();
+            let id = conn.last_insert_rowid();
+            conn.execute(
+                "INSERT INTO current_prices(trader_id,material_id,variant,price_id,updated_at)
+                 VALUES(?1,?2,?3,?4,?5)",
+                rusqlite::params![
+                    old.trader_id,
+                    old.material_id,
+                    old.variant,
+                    id,
+                    old.observed_at
+                ],
+            )
+            .unwrap();
+        }
+        let old_row = db
+            .current_price_for(trader, material, "legacy")
+            .unwrap()
+            .unwrap();
         let original_history = db
             .query_sql("SELECT * FROM prices ORDER BY id")
             .unwrap()
@@ -1427,7 +1645,7 @@ mod tests {
             let error = db
                 .record_article_price_snapshot(
                     &[p],
-                    &[id],
+                    &[old_row.clone()],
                     &manifest(count, NOW),
                     &[(material, "conditions".to_owned())],
                 )
@@ -1447,7 +1665,7 @@ mod tests {
         let new_manifest = manifest(61, NOW);
         db.record_article_price_snapshot(
             &[p],
-            &[id],
+            &[old_row],
             &new_manifest,
             &[(material, "conditions".to_owned())],
         )
@@ -1493,6 +1711,7 @@ mod tests {
         );
         old.source_url = "https://example.test/prices";
         let legacy = db.record_price(&old).unwrap();
+        let legacy_row = price_row_by_id(&db, legacy);
         let mut a = price(
             trader,
             material,
@@ -1514,7 +1733,7 @@ mod tests {
         };
         db.lock().unwrap().execute_batch("CREATE TRIGGER fail_b BEFORE INSERT ON prices WHEN NEW.variant='b' BEGIN SELECT RAISE(ABORT,'injected failure'); END;").unwrap();
         assert!(db
-            .record_price_snapshot(&[a, b], &[legacy], "test")
+            .record_price_snapshot(&[a, b], &[legacy_row], "test")
             .is_err());
         assert_eq!(
             db.current_price_for(trader, material, "")
@@ -1545,6 +1764,7 @@ mod tests {
         );
         old.source_url = "https://example.test/prices";
         let legacy = db.record_price(&old).unwrap();
+        let legacy_row = price_row_by_id(&db, legacy);
         let make_new = || NewPrice {
             variant: "dynamic / ab 137 kg",
             source_url: old.source_url,
@@ -1559,7 +1779,7 @@ mod tests {
         };
         db.lock().unwrap().execute_batch("CREATE TRIGGER fail_retire BEFORE DELETE ON current_prices BEGIN SELECT RAISE(ABORT,'retirement failure'); END;").unwrap();
         assert!(db
-            .record_price_snapshot(&[make_new()], &[legacy], "test")
+            .record_price_snapshot(&[make_new()], &[legacy_row.clone()], "test")
             .is_err());
         assert!(db
             .current_price_for(trader, material, "dynamic / ab 137 kg")
@@ -1580,7 +1800,7 @@ mod tests {
         foreign.source_url = "https://other.test/";
         let foreign_id = db.record_price(&foreign).unwrap();
         assert!(db
-            .record_price_snapshot(&[make_new()], &[legacy], "test")
+            .record_price_snapshot(&[make_new()], &[legacy_row.clone()], "test")
             .is_err());
         assert_eq!(
             db.current_price_for(trader, material, foreign.variant)
@@ -1600,7 +1820,7 @@ mod tests {
         let mut fresh = make_new();
         fresh.variant = "new / ab 250 kg";
         assert_eq!(
-            db.record_price_snapshot(&[fresh], &[legacy], "test")
+            db.record_price_snapshot(&[fresh], &[legacy_row], "test")
                 .unwrap(),
             1
         );
@@ -1641,6 +1861,7 @@ mod tests {
         );
         legacy.source_url = "https://example.test/prices";
         let legacy_id = db.record_price(&legacy).unwrap();
+        let legacy_row = price_row_by_id(&db, legacy_id);
         let mut foreign = price(
             trader,
             material,
@@ -1667,7 +1888,7 @@ mod tests {
         offered.variant = foreign.variant;
         offered.extra_json = "{\"snapshot_owner\":\"this-producer\"}";
         assert!(db
-            .record_price_snapshot(&[offered], &[legacy_id], "this-producer")
+            .record_price_snapshot(&[offered], &[legacy_row.clone()], "this-producer")
             .is_err());
         assert_eq!(
             (
@@ -1687,7 +1908,7 @@ mod tests {
         fresh.variant = "fresh / ab 250 kg";
         fresh.extra_json = "{\"snapshot_owner\":\"this-producer\"}";
         assert_eq!(
-            db.record_price_snapshot(&[fresh], &[legacy_id, foreign_id], "this-producer")
+            db.record_price_snapshot(&[fresh], &[legacy_row], "this-producer")
                 .unwrap(),
             1
         );
