@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 23.10.2026 (Namens-/Merge-Gegencheck Feedback #7386)
+
+- [Recherche 23.10.2026: Bochumer Lead Schrott-Metall-Ankauf.de / A. al Lahib nicht diesem Bremer Eintrag zugeordnet. Das Bochumer Impressum nennt eine andere Domain, Dieselstraße 12, 44805 Bochum und 0173 278 78 65; das Bremer Impressum nennt Ludwig-Erhard-Str. 28, 28197 Bremen, 0152 04045656 und info@autoverschrottung-bremen.de und beschreibt einen deutschlandweit mobilen Dienst ohne feste Niederlassungen außerhalb Bremens. Der ähnliche Name allein belegt weder dieselbe Person noch eine Filiale; eine unabhängige Identitäts- oder Betreiberkettenquelle fehlt. Der widersprüchliche 11880-Bochumeintrag ist nur ein Aggregator-Lead. Keine Frontmatter-Änderung am Bremer Dossier. Quelle(n): https://www.schrott-metall-ankauf.de/impressum/ ; https://www.autoverschrottung-bremen.de/impressum ; https://www.11880.com/branchenbuch/bochum/120674719B102336132/schrott-metall-ankauf.html (Abruf 23.10.2026)]
+
 ### Recherche 03.10.2026 (Owner-Gate)
 
 - [Recherche 03.10.2026: Neue description aus dem Frontmatter entfernt. Root, Leistungen, Kontakt und Impressum sind Seiten derselben Betreiberwebsite und zählen als eine Quelle; eine zweite unabhängige Bestätigung oder HRB-kongruente Owner-Ausnahme fehlt. Mobiler Service, nicht benannter Verwertungspartner und offener lokaler Annahmeort bleiben in der Timeline dokumentiert.; Quelle(n): https://www.autoverschrottung-bremen.de, https://www.autoverschrottung-bremen.de/autoverwertung, https://www.autoverschrottung-bremen.de/impressum]
