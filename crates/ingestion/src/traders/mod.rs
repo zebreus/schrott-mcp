@@ -1263,7 +1263,7 @@ mod tests {
                 &public,
                 &internal,
                 super::handlers::wahl_co_zella_mehlis::SLUG,
-                &outcome(0..40),
+                &outcome(0..39),
                 &now1,
             )
             .await
@@ -1275,7 +1275,7 @@ mod tests {
             .unwrap()
             .is_some());
 
-        let first = outcome(0..41);
+        let first = outcome(0..40);
         let result = super::record(
             &public,
             &internal,
@@ -1285,7 +1285,7 @@ mod tests {
         )
         .await
         .expect("complete snapshot reconciles");
-        assert_eq!(result.recorded, 41);
+        assert_eq!(result.recorded, 40);
         assert!(public
             .current_price_for(trader_id, cable_id, "")
             .unwrap()
@@ -1313,7 +1313,7 @@ mod tests {
             &public,
             &internal,
             super::handlers::wahl_co_zella_mehlis::SLUG,
-            &outcome(1..42),
+            &outcome(1..41),
             &now2,
         )
         .await
@@ -1440,7 +1440,7 @@ mod tests {
             })
             .expect("legacy cable price");
 
-        let prices = (0..41)
+        let prices = (0..40)
             .map(|i| ScrapedPrice {
                 material: "kupfer-millberry",
                 variant: format!("grade-{i}").into(),

@@ -26,8 +26,54 @@ pub const IMPRESSUM_URL: &str = "https://wahlundco.de/impressum.html";
 const UNIT: &str = "EUR/kg";
 const DETAIL_ROW_COUNT: usize = 31;
 const OVERVIEW_RANGE_COUNT: usize = 14;
-pub(crate) const SNAPSHOT_PRICE_COUNT: usize = 41;
+pub(crate) const SNAPSHOT_PRICE_COUNT: usize = 40;
 pub(crate) const SNAPSHOT_OWNER: &str = "wahl-cms-price-v1";
+
+/// Stable CMS row identity paired with its currently reviewed visible label.
+/// A row ID alone is not enough to attribute a changed label to the same
+/// catalog grade.
+const DETAIL_ROW_IDENTITIES: [(&str, &str); DETAIL_ROW_COUNT] = [
+    ("kupfer-draht-millberry", "Kupfer-Draht „Millberry“"),
+    ("kupfer-draht-berry", "Kupfer-Draht „Berry“"),
+    ("kupfer-draht-kanal", "Kupfer-Draht „Kanal“"),
+    ("kupfer-neublech", "Kupfer-Neublech"),
+    ("schwerkupfer-lotfrei", "Schwerkupfer, lotfrei"),
+    ("leichtkupfer", "Leichtkupfer"),
+    (
+        "messing-ohne-hulsen-schlauche",
+        "Messing ohne Hülsen/Schläuche",
+    ),
+    ("messing-spane-gemischt", "Messing-Späne, gemischt"),
+    ("messing-hulsen-sauber", "Messing-Hülsen, sauber"),
+    ("ms-erodierdraht", "MS-Erodierdraht"),
+    ("messing-58-schrott", "Messing 58 Schrott"),
+    ("messing-58-spane", "Messing 58 Späne"),
+    ("messing-63-blech-neu-blank", "Messing 63 Blech, neu, blank"),
+    ("kupfer-messing-kuhler", "Kupfer-Messing-Kühler"),
+    ("rotguss-schrott", "Rotguss-Schrott"),
+    ("rotguss-spane", "Rotguss-Späne"),
+    ("walzbronze", "Walzbronze"),
+    ("alu-profile-blank", "Alu-Profile, blank"),
+    ("alu-profile-gestegt", "Alu-Profile, gestegt"),
+    ("alu-profile-lackiert", "Alu-Profile, lackiert"),
+    ("ral-draht-eisenfrei", "RAL-Draht, eisenfrei"),
+    ("alu-offset-ohne-papier", "Alu-Offset ohne Papier"),
+    (
+        "almg-blech-teilweise-foliert",
+        "AlMg-Blech, teilweise foliert",
+    ),
+    (
+        "alu-guss-felgen-ohne-anhaftung",
+        "Alu-Guss-Felgen ohne Anhaftung",
+    ),
+    ("alu-geschirr-ohne-fe", "Alu-Geschirr ohne Fe"),
+    ("alu-geschirr-mit-fe", "Alu-Geschirr, mit Fe"),
+    ("alu-guss-ohne-fe", "Alu-Guss ohne Fe"),
+    ("alu-guss-mit-fe", "Alu-Guss, mit Fe"),
+    ("zinkblech-neu", "Zinkblech, neu"),
+    ("zinkblech-alt", "Zinkblech, alt"),
+    ("altblei", "Altblei"),
+];
 
 pub fn handler() -> Handler {
     Handler {
@@ -40,9 +86,57 @@ pub fn handler() -> Handler {
 
 async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
-    let (rows, mut skipped_labels) = parse_prices(&html)?;
+    let (rows, skipped_labels) = parse_prices(&html)?;
     let range_rows = parse_ranges(&html)?;
     let published_at = parse_published_at(&html)?;
+    let (prices, mut skipped_labels) = map_price_snapshot(rows, skipped_labels, range_rows)?;
+
+    // Assortment from the metal-card headings (bonus, never fails the step;
+    // unmapped cards skip loudly via skipped_labels).
+    let mut acceptances = Vec::new();
+    for name in parse_cards(&html) {
+        match grade_for_card(&name) {
+            Some(materials) => {
+                for (material, conditions) in materials {
+                    acceptances.push(ScrapedAcceptance {
+                        material,
+                        conditions: conditions.to_owned(),
+                        label: name.clone(),
+                    });
+                }
+            }
+            None => skipped_labels.push(format!("Karte: {name}")),
+        }
+    }
+    // Impressum failure fails the whole step on purpose: a moved contact
+    // page means the site changed and needs eyeballs before we trust
+    // anything from it again.
+    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
+    let trader_info = extract_info(&imp_html)?;
+    let outcome = HandlerOutcome {
+        skip_price_acceptances: false,
+        prices,
+        acceptances,
+        trader_info,
+        website_alive: true,
+        skipped_labels,
+        fetch_url: URL.to_owned(),
+        status_code: status,
+        byte_len: html.len(),
+        published_at: Some(published_at),
+    };
+    validate_snapshot(&outcome)?;
+    Ok(outcome)
+}
+
+/// Map the two parsed price tables to catalog identities and enforce the
+/// complete expected snapshot. Kept pure so source-label drift can be tested
+/// through the same mapping/count guard that production uses.
+fn map_price_snapshot(
+    rows: Vec<(String, f64)>,
+    mut skipped_labels: Vec<String>,
+    range_rows: Vec<(String, f64, f64)>,
+) -> Result<(Vec<ScrapedPrice>, Vec<String>), IngestError> {
     let mut prices = Vec::with_capacity(rows.len() + range_rows.len());
     for (label, price) in rows {
         if !price.is_finite() || price <= 0.0 {
@@ -93,7 +187,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             }),
             None if matches!(
                 label.to_lowercase().as_str(),
-                "rotguss (rg)" | "blei-akkus" | "kabel & e-schrott"
+                "rotguss (rg)" | "zinn (sn)" | "blei-akkus" | "kabel & e-schrott"
             ) =>
             {
                 skipped_labels.push(format!("{label} (Bereich nicht eindeutig zuordenbar)"));
@@ -107,42 +201,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
             prices.len()
         )));
     }
-    // Assortment from the metal-card headings (bonus, never fails the step;
-    // unmapped cards skip loudly via skipped_labels).
-    let mut acceptances = Vec::new();
-    for name in parse_cards(&html) {
-        match grade_for_card(&name) {
-            Some(materials) => {
-                for (material, conditions) in materials {
-                    acceptances.push(ScrapedAcceptance {
-                        material,
-                        conditions: conditions.to_owned(),
-                        label: name.clone(),
-                    });
-                }
-            }
-            None => skipped_labels.push(format!("Karte: {name}")),
-        }
-    }
-    // Impressum failure fails the whole step on purpose: a moved contact
-    // page means the site changed and needs eyeballs before we trust
-    // anything from it again.
-    let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
-    let trader_info = extract_info(&imp_html)?;
-    let outcome = HandlerOutcome {
-        skip_price_acceptances: false,
-        prices,
-        acceptances,
-        trader_info,
-        website_alive: true,
-        skipped_labels,
-        fetch_url: URL.to_owned(),
-        status_code: status,
-        byte_len: html.len(),
-        published_at: Some(published_at),
-    };
-    validate_snapshot(&outcome)?;
-    Ok(outcome)
+    Ok((prices, skipped_labels))
 }
 
 pub(crate) fn validate_snapshot(outcome: &HandlerOutcome) -> Result<(), IngestError> {
@@ -193,7 +252,10 @@ pub(crate) fn validate_snapshot(outcome: &HandlerOutcome) -> Result<(), IngestEr
 fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
     let l = label.to_lowercase();
     let l = l.as_str();
-    if l.contains("millberry") {
+    if (l.contains("blei") && l.contains("akku")) || l.contains("batterie") {
+        // Batteries are lead-bearing composites, not clean/soft lead.
+        None
+    } else if l.contains("millberry") {
         Some(("kupfer-millberry", ""))
     } else if l.contains("berry") {
         Some(("kupfer-berry", ""))
@@ -362,6 +424,23 @@ fn parse_prices(html: &str) -> Result<(Vec<(String, f64)>, Vec<String>), IngestE
                 detail: "Sortenpreiszeile ohne Bezeichnung".to_owned(),
             });
         }
+        let expected_label = DETAIL_ROW_IDENTITIES
+            .iter()
+            .find_map(|(expected_id, expected_label)| {
+                (*expected_id == id).then_some(*expected_label)
+            })
+            .ok_or_else(|| IngestError::Parse {
+                url: URL.to_owned(),
+                detail: format!("unbekannte Sortenpreis-ID: {id}"),
+            })?;
+        if label != expected_label {
+            return Err(IngestError::Parse {
+                url: URL.to_owned(),
+                detail: format!(
+                    "Sortenpreis-ID {id} gehört zu {expected_label:?}, nicht {label:?}"
+                ),
+            });
+        }
         let values: Vec<_> = row.select(&value_sel).collect();
         if values.len() != 1 {
             return Err(IngestError::Parse {
@@ -458,8 +537,9 @@ fn parse_range(raw: &str) -> Option<(f64, f64)> {
 }
 
 /// The generic Rotguss range would collide with its separately priced
-/// Rotguss-Schrott grade. Battery and cable/e-scrap composites likewise
-/// have no safe generic catalog mapping.
+/// Rotguss-Schrott grade. The generic Zinn range includes solder and
+/// tableware, outside the high-purity catalog entry. Battery and cable/e-scrap
+/// composites likewise have no safe generic catalog mapping.
 fn grade_for_range(label: &str) -> Option<&'static str> {
     match label.trim().to_lowercase().as_str() {
         "kupfer (cu)" => Some("kupfer-gemischt"),
@@ -467,7 +547,7 @@ fn grade_for_range(label: &str) -> Option<&'static str> {
         "aluminium (al)" => Some("aluminium-gemischt"),
         "edelstahl (v2a/v4a)" => Some("edelstahl-gemischt"),
         "zinkblech" => Some("zink"),
-        "zinn (sn)" => Some("zinn"),
+        "zinn (sn)" => None,
         "elektro-motoren" => Some("elektromotoren"),
         "hochleistungsstahl (hss)" => Some("hss-werkzeuge"),
         "hartmetall (vhm)" => Some("hartmetall"),
@@ -613,8 +693,8 @@ fn parse_error(detail: &str) -> IngestError {
 #[cfg(test)]
 mod tests {
     use super::{
-        extract_info, grade_for, grade_for_card, grade_for_range, parse_cards, parse_prices,
-        parse_published_at, parse_range, parse_ranges,
+        extract_info, grade_for, grade_for_card, grade_for_range, map_price_snapshot, parse_cards,
+        parse_prices, parse_published_at, parse_range, parse_ranges, SNAPSHOT_PRICE_COUNT,
     };
 
     /// Historical FAQ layout, retained only to assert that stale markup is
@@ -786,7 +866,7 @@ mod tests {
                 grade_for_range(label).map(|material| (material, min, max))
             })
             .collect();
-        assert_eq!(mapped.len(), 11);
+        assert_eq!(mapped.len(), 10);
         assert!(mapped.iter().any(|(material, min, max)| {
             *material == "edelstahl-gemischt" && **min == 0.8 && **max == 1.5
         }));
@@ -794,6 +874,27 @@ mod tests {
         assert_eq!(grade_for_range("Blei-Akkus"), None);
         assert_eq!(grade_for_range("Kabel & E-Schrott"), None);
         assert_eq!(grade_for_range("Wolfram (W)"), Some("wolfram"));
+    }
+
+    #[test]
+    fn generic_tin_range_is_not_attributed_to_high_purity_catalog_tin() {
+        assert_eq!(grade_for_range("Zinn (Sn)"), None);
+    }
+
+    #[test]
+    fn current_snapshot_skips_ambiguous_tin_and_keeps_other_prices() {
+        let (rows, skipped) = parse_prices(FIXTURE_LIVE_TABLE).expect("detail table parses");
+        let ranges = parse_ranges(FIXTURE_RANGES).expect("overview parses");
+        let (prices, skipped) = map_price_snapshot(rows, skipped, ranges).expect("full snapshot");
+
+        assert_eq!(prices.len(), SNAPSHOT_PRICE_COUNT);
+        assert!(skipped.iter().any(|label| label.starts_with("Zinn (Sn)")));
+        assert!(prices
+            .iter()
+            .any(|price| price.material == "edelstahl-gemischt"));
+        assert!(!prices
+            .iter()
+            .any(|price| price.material == "zinn" && price.label == "Zinn (Sn)"));
     }
 
     #[test]
@@ -956,6 +1057,36 @@ mod tests {
         assert_eq!(grade_for(&zink[0].0), Some(("zink", "neu")));
         assert_eq!(grade_for(&zink[1].0), Some(("zink", "alt")));
         assert_eq!(grade_for(&get("Altblei").0), Some(("blei", "")));
+    }
+
+    #[test]
+    fn battery_price_labels_are_not_mapped_to_soft_lead() {
+        assert_eq!(grade_for("Blei-Akkus"), None);
+        let (mut rows, skipped) = parse_prices(FIXTURE_LIVE_TABLE).expect("current table parses");
+        let lead_row = rows
+            .iter_mut()
+            .find(|(label, _)| label == "Altblei")
+            .expect("lead row exists");
+        lead_row.0 = "Blei-Akkus".to_owned();
+        let ranges = parse_ranges(FIXTURE_RANGES).expect("overview parses");
+        let error = map_price_snapshot(rows, skipped, ranges).unwrap_err();
+        assert!(error.to_string().contains("39 statt 40"), "{error}");
+    }
+
+    #[test]
+    fn cms_price_id_rejects_same_count_visible_label_drift() {
+        let changed_label = FIXTURE_LIVE_TABLE.replace(
+            r#"<tr data-price-id="altblei"><th scope="row">Altblei</th>"#,
+            r#"<tr data-price-id="altblei"><th scope="row">Blei-Akkus</th>"#,
+        );
+        assert_ne!(
+            changed_label, FIXTURE_LIVE_TABLE,
+            "mutation must reach fixture"
+        );
+        assert!(
+            parse_prices(&changed_label).is_err(),
+            "row count and data-price-id must not hide a changed grade"
+        );
     }
 
     #[test]
