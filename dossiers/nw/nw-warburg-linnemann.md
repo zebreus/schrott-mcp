@@ -30,6 +30,10 @@ Ankauf: Tagespreise behauptet, keine Zahlenliste. Verkauf: Kfz-Ersatzteile ohne 
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Startseite und Dienstleistungen erneut direkt gelesen. Michel Linnemann/Warburg-Scherfede wirbt mit Ankauf von Schrott und Metallen (u. a. Kupfer, Messing, Zink, Aluminium, Kabel) zu Tagespreisen, Selbstanlieferung oder terminierter Abholung/Kranverladung sowie Containerstellung. Genannt werden auch Autoverwertung und Kfz-Ersatzteilhandel, aber keine Ersatzteilpreise. Das bestätigt weiterhin nur dieselbe Betreiberquelle; kein gelesener unabhängiger Zweitbeleg, daher keine Scalar-Fills. **ANKAUF:** Tagespreiswerbung ohne numerische Kursliste. **VERKAUF:** Ersatzteile ohne Preisliste. **GEBÜHREN:** keine Container-/Abholbeträge und keine pauschale Kostenfreiheit. Quelle: https://schrotthandel-linnemann.de/ ; https://schrotthandel-linnemann.de/dienstleistungen/ .]
+
 ### Recherche 19.10.2026: Welle 03:30 B
 
 - [Recherche 19.10.2026: Betreiber-Start und /dienstleistungen/ direkt gelesen: Ankauf jeglicher Schrott-/Metallarten (Kupfer/Messing/Zink/Aluminium/Kabel), selbst bringen oder nach Termin abholen, Kranwagen/Container; Fahrzeuge ebenfalls bringen/abholen, Ersatzteilhandel. Das ist stärkere Ankaufsevidenz als der frühere reine Home-Schnipsel, aber dieselbe Betreiberquelle. Neuer Creditreform-Treffer „MichelLinnemann Schrott-undMetallhandel“ passt namens-/ortsmäßig im Suchindex, Direktabruf403; verlinktes Facebook liefert nur Login. Kein voll gelesener Zweitbeleg, deshalb keine Adresse/Kontaktobjekte gefüllt. Ankauf ohne Zahlen, Verkauf ohne Teilepreisliste, Gebühren unbekannt; Containerabsatz enthält duplizierten Ersatzteiltext, daraus keine Sonderkonditionen ableiten. Quelle(n): https://schrotthandel-linnemann.de/ ; https://schrotthandel-linnemann.de/dienstleistungen/ ; https://firmeneintrag.creditreform.de/34414/4130166955/MICHEL_LINNEMANN_SCHROTT_UND_METALLHANDEL (403); https://www.facebook.com/Schrotthandel-Linnemann-208843222653108/ (Login).]

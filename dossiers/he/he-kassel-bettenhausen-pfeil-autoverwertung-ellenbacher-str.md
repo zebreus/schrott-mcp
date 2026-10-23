@@ -26,9 +26,13 @@ provenance_origin: table
 
 Pfeil ist weiterhin ein ungeklärter Autoverwertungs-/Ersatzteilverkaufslead in Kassel-Bettenhausen. Die Vorrecherche dokumentiert Ellenbacher Straße 10 versus 12; keine der Hausnummern ist durch zwei qualifizierte Quellen gesichert. pfeil-recycling.de scheitert aktuell am TLS-Verbindungsaufbau. Die Northdata-Suchen liefern keinen zugeordneten Kasseler Einzelbeleg unter den ersten Treffern; das ist kein Nachweis einer gelöschten KG.
 
-**Offen:** HRA/Betreiberidentität, exakte Betriebsanschrift und aktuelle Zertifizierung. **Ankauf:** nicht aus Autoverwertung ableiten. **Verkauf:** Ersatzteilverkauf nur Portalspur. **Gebühren:** keine bestätigte Liste oder Gratiszusage. Keine öffentlichen Annahmezeiten übernehmen.
+**Offen:** HRA/Betreiberidentität, exakte Betriebsanschrift und aktuelle Zertifizierung. Ein am 23.10. direkt gelesenes 11880-Profil wiederholt Ellenbacher Straße 10 und nennt Öffnungszeiten, bleibt aber ein Branchenportal; es löst den bisherigen Hausnummernkonflikt 10/12 nicht durch Betreiberbeleg. **Ankauf:** nicht aus Autoverwertung ableiten. **Verkauf:** Ersatzteilverkauf nur Portalspur. **Gebühren:** keine bestätigte Liste oder Gratiszusage. Portalzeiten nicht als Betreiberzeiten übernehmen.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Das 11880-Profil direkt gelesen: „Autoverwertung Ersatzteilverkauf Pfeil GmbH & Co.KG Autorecycling“, Ellenbacher Str. 10, 34123 Kassel, Telefonnummer 0561 524177, E-Mail service@pfeil-recycling.de sowie Mo–Fr 08:00–18:00/Sa 08:00–13:00. Die Seite bezeichnet die Daten als Eintragsdaten vom 19.09.2026 und Aktualisierung vom 03.10.2026, bleibt aber ein Aggregator und kein Betreiberbeleg. Der Direktabruf pfeil-recycling.de endete erneut mit Transportfehler; keine Schließung ableitbar. Adresse 10 gegen ältere Portal-/Spiegelangabe 12 und aktuelle Betreiberidentität bleiben offen. **ANKAUF:** kein belegter Fahrzeug-/Metallkurs. **VERKAUF:** Ersatzteilverkauf ohne Preisliste. **GEBÜHREN:** keine Tarife; 11880-Euro-Symbol-Hinweis enthält keinen konkreten Preis. Keine Frontmatter-Fills. Quellen: https://www.11880.com/branchenbuch/kassel-hessen/012080463B28203715/autoverwertung-ersatzteilverkauf-pfeil-gmbh-co-kg-autorecycling.html ; https://pfeil-recycling.de/ .]
 
 ### Recherche 15.10.2026, Welle 12:00 A
 

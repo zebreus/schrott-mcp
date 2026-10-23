@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der generische Name „Schrotthandel Lahnau“ ist weiterhin keinem Betrieb in Pohlheim sicher zugeordnet. Die ähnlich benannte Recycling GmbH Lahnau (HRB 2084) ist ein anderer, in Lahnau ansässiger Betrieb und kein Beleg für den Seed. Erneute Namens-/Ortsrecherche brachte keine Betreiber-, Register- oder kommunale Verbindung. Adresse, Ankauf, Verkauf und Annahme-/Gebührenbedingungen bleiben unbekannt.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneute Suche nach „Schrotthandel Lahnau“ mit Pohlheim sowie Varianten mit Recycling/Metall und Registerbegriffen ergab keinen target-spezifischen Betreiber- oder Registerbeleg. Die bereits bekannte Recycling GmbH Lahnau/HRB 2084 bleibt ein separater Kandidat in einer anderen Gemeinde; keine Identitätsbrücke und keine Stammdatenübernahme. Kein Geo-Fill. **ANKAUF:** für den Seed nicht belegt, keine Zahlenliste; **VERKAUF:** keine zurechenbare Preisliste; **GEBÜHREN:** unbekannt. Quelle: keine qualifizierte target-spezifische Quelle gefunden; zum Gegenkandidaten siehe https://www.northdata.de/Recycling%20GmbH%20Lahnau,%20Lahnau/Amtsgericht%20Wetzlar%20HRB%202084 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Jennebach Ewald“ in Borgentreich bleibt ein nicht aufgelöster Seed-Lead. Erneute Namens-/Orts- und Registersuche ergab keine qualifizierte Quelle, die einen konkreten Betreiber, eine Adresse oder einen aktuellen Schrottbetrieb bestätigt. Treffer zu namensähnlichen Jennebach-Unternehmen in anderen Orten sind keine Identitätsbrücke. Annahme, Abholung und Konditionen sind offen.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneute Suche nach Jennebach/Ewald/Borgentreich und Varianten mit Schrott/Metall sowie Registerbegriffen ergab keinen zuordenbaren Primär- oder Registerbeleg. Jennebach-Unternehmen an anderen Orten bleiben Namensvetter ohne belegte Verbindung; keine Adresse, Kontaktangabe oder Tätigkeit übertragen. Keine Frontmatter-Änderung. **ANKAUF:** unbestätigt, keine Preisliste; **VERKAUF:** keine Liste; **GEBÜHREN:** unbekannt. Quelle: keine qualifizierte target-spezifische Quelle gefunden.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

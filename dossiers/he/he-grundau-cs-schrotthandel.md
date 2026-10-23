@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„CS Schrotthandel“ in Gründau ist weiterhin nicht sicher einem Betreiber zuzuordnen. Die aktuelle gezielte Namens-/Ortssuche ergab keine qualifizierte Betreiberseite, ein Impressum, einen Registereintrag oder einen kommunalen Betriebsbeleg. Ähnlich benannte Entsorger im Main-Kinzig-Kreis sind nicht mit diesem Seed verbunden. Anschrift, Kontaktdaten, Annahme/Abholung und Ankaufstatus bleiben offen; kein Preisfund.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneute exakte und Varianten-Suche nach „CS Schrotthandel“/Gründau sowie nach Betreiber-/Registerhinweisen ergab keinen zuordenbaren Primärbeleg. Treffer zu anderen CS-Entsorgern bzw. Schrotthändlern in Nachbarorten belegen diesen Seed nicht und wurden nicht übernommen. Keine Frontmatter-Füllung, Status pruefung. **ANKAUF:** unbestätigt, keine Zahlenkurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine belastbaren Konditionen. Quelle: keine qualifizierte target-spezifische Quelle gefunden; Aggregator-/Namensähnlichkeiten nicht als Beleg gewertet.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

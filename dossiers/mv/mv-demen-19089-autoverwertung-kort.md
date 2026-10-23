@@ -30,6 +30,10 @@ Die Seed-Zeile benennt Autoverwertung Kort GbR und den als GESA-Demontagebetrieb
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneuter Direktabruf von https://kort-autoverwertung.de/ endete mit Transportfehler; daraus folgt weder Nichtexistenz noch Schließung. Keine neue Betreiber-/Registerquelle und kein auswertbarer Datensatz im Fachbetrieberegister erschlossen; der vorhandene Standortkonflikt Demen/Kobande und die GESA-Anwendungsgrenze bleiben offen. Keine Frontmatter-Änderung oder GEO-Freigabe. **ANKAUF:** kein veröffentlichter Fahrzeug-/Schrottpreis; **VERKAUF:** keine Teilepreisliste; **GEBÜHREN:** keine verifizierten Annahme-, Abhol-, Abmelde- oder Entsorgungstarife und keine kostenlose Rücknahmezusage. Quellen/Abrufgrenzen: https://kort-autoverwertung.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Erneuter Direktabruf von https://kort-autoverwertung.de/ endete mit Transportfehler; daraus folgt weder Nichtexistenz noch eine Betriebsschließung. Keine neu verifizierte Betreiber-, Annahme- oder Preisinformation und keine Frontmatter-Änderung. Die Abweichung Demen/Kobande, die nicht direkt lesbare GESA-Anwendung und die offenen GESA-/Betreiberbelege bleiben wie zuvor dokumentiert. ANKAUF: kein verifizierter Kurs; VERKAUF: keine Teilepreisliste; GEBÜHREN: kein bestätigter Tarif. Quelle (Abrufversuch): https://kort-autoverwertung.de/ .]

@@ -28,6 +28,10 @@ Der bisher ungeklärte Gelbe-Seiten-Websitelink ist aufgelöst: goldankauf-arnol
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Die Kandidatendomain `goldankauf-arnold.de` erneut direkt abgerufen. Der HTML-Inhalt zeigt den Seitentitel „Home - Goldankauf Arnold Mainz“, danach aber den WordPress-Fehler „kritischer Fehler auf deiner Website“; kein Impressum, Betreibername, Öffnungszeiten oder Ankaufangebot lesbar. Der HTML-Kommentar nennt eine Generierung am 06.02.2026, nicht das Datum eines Preis- oder Betriebsnachweises. Weiterhin keine Zuordnung der Verzeichnisadresse Gustav-Mahler-Str. 11 zum Betreiber. **Ankauf/Verkauf/Gebühren:** keine verifizierte Liste. Keine Feldänderung oder GEO. Quelle: https://goldankauf-arnold.de/ (Direktabruf 23.10.2026).]
+
 ### Recherche 16.10.2026
 
 - [Recherche 16.10.2026: Gelbe-Seiten-Einzelprofil direkt gelesen und Website-Link endlich aufgelöst zu https://goldankauf-arnold.de/ . HTML-Direktabruf zeigt Titel Home - Goldankauf Arnold Mainz, gefolgt von WordPress-kritischem Fehler; kein Impressum/Leistungstext lesbar. HTML-Kommentar Generated 06.02.2026 ist kein Preis-/Betriebsdatum. Keine Einstufung als geschlossen/tote Domain, keine Übernahme von Website/Zeiten/Telefon aus bloßem Portal. ANKAUF/VERKAUF/GEBÜHREN nicht verifizierbar. Vorhandenen Seed-Ort Mainz 55127 rein syntaktisch in city Mainz/postcode 55127 getrennt, keine neue Standortbestätigung. GEO: Gustav-Mahler-Str. 11 erst nach Betreiber-/Gewerbeprüfung. Quellen: https://www.gelbeseiten.de/gsbiz/c9a77ec2-a07d-4952-80ab-3e4a1ec9b938 ; https://goldankauf-arnold.de/ (HTML, WordPress-Fehler).]

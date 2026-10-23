@@ -28,7 +28,13 @@ provenance_origin: table
 
 Kein vollständiger rechtlicher Betreibername oder öffentlich bestätigter Ankauf/Annahmehof; keine Ankauf-/Verkaufs-/Gebührenliste gefunden. Owner: aktuellen Gewerbenachweis, PLZ21113 versus22113 und Kontakte/Annahmefunktion bestätigen. Seedadresse vor GEO nicht verwenden, keine Oststeinbek-Zuordnung aus fremden Schrottplatz-URLs ableiten. Quelle (nur Lead): https://www.golocal.de/hamburg/schrotthandel/alt-buntmetallhandel-dejan-MJ4Gz/
 
+Eine aktuelle Suche zeigte außerdem einen Creditreform-Suchtreffer für einen Dejan Dzemailovic als Schrott- und Altmetallhändler in Hamburg (PLZ-Angabe im Treffer: 22179). Der Direktabruf war gesperrt; weder Straße noch Verbindung zur Wöhlerstraße 9 ließ sich verifizieren. Das ist ein möglicher Namens-/Identitätslead, keine Grundlage zum Zusammenführen oder Überschreiben.
+
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: GoLocal-Detailseite erneut direkt gelesen: Wöhlerstr. 9, 22113 Hamburg, 040 6781656; keine Öffnungszeiten, eine nicht automatisch geprüfte Bewertung vom 05.12.2013, Fotos von Nutzern vom 23.07.2020 und weiterhin die Aufforderung zur Eintragsübernahme. Die Seite ist kein Betreiberbeleg und löst den Seed-PLZ-Konflikt 21113/Portal 22113 nicht. Eine Creditreform-Suche ergab zusätzlich den möglichen Namenslead „Dejan Dzemailovic – Schrott und Altmetallhändler“, Hamburg/22179; Detailabruf 403, keine Straße oder Verbindung zur Wöhlerstraße belegt. Nicht als Namesake-Verbindung oder neue Betriebsadresse gewertet. **ANKAUF:** keine verifizierten Bedingungen/Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine belastbare Kostenregel. Keine Änderung/GEO. Quellen: https://www.golocal.de/hamburg/schrotthandel/alt-buntmetallhandel-dejan-MJ4Gz/ ; https://firmeneintrag.creditreform.de/22179/2151851447/DEJAN_DZEMAILOVIC_SCHROTT_UND_ALTMETALLHAENDLER (Direktabruf 403; Suchtreffer allein).]
 
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2
 

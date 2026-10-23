@@ -30,6 +30,10 @@ Konkreter Verzeichnislead zu Harald Hackner: Seestr. 22B, 83064 Raubling-Pfraund
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Gelbe-Seiten-Suche erneut direkt geprüft: Hackner Harald, Schrott, Seestr. 22B, 83064 Raubling-Pfraundorf, 08035 908898; Öffnungszeiten weiterhin nur „Immer einfach anrufen“. Kein Betreiber-/Registerbeleg für Adresse, Kundenannahme oder aktuelle Kontaktdaten. Ankauf, Verkauf und Gebühren ohne verifizierte Zahlen; keine Feldänderung. Quelle (Lead): https://www.gelbeseiten.de/suche/hackner/raubling .]
+
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 
 - [Recherche 18.10.2026: Gelbe-Seiten-Namenssuche heute HTTP 200 direkt gelesen, ein lokaler Treffer Hackner Harald/Schrott/Seestr. 22B/83064 Raubling-Pfraundorf/08035 908898. Das konkretisiert den bisher nur mit Google-Such-URLs dokumentierten Lead, ist aber weiterhin kein README-Beleg für Aktivität oder Annahme. Ergänzende Websuche Hackner/Raubling/Schrott ohne passenden Betreiberfund. Kein Frontmatter-Fill, keine Schließung. Ankauf/Verkauf/Gebühren ohne geprüfte Zahlen. GEO nach Betreiber-/Gewerbeprüfung, Straße nicht als neu verifiziert ausgeben. Quelle: https://www.gelbeseiten.de/suche/hackner/raubling .]

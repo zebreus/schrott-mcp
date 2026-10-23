@@ -30,6 +30,10 @@ Die bisherige Spur aus dem Registerspiegel lautet „Automobile Hans Schwarz“,
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Die Zweistandort-/Namensvetterprüfung wiederholt. Der Direktabruf der Auensteiner Betreiberwebsite war diesmal nicht auswertbar; Suchindex-Ergebnisse halten den Auftritt „Automobile Hans Schwarz“ an Baumwaide 12, 74360 Auenstein weiter fest. Für die Abstatt-Spur bleibt allein der Registerspiegel-Eintrag Seestraße 13, 74232 Abstatt mit anderem Zertifikat. Kein Beleg für Verlegung, zweiten Standort oder denselben Rechtsträger; Auensteiner Kontaktdaten und Preise nicht übertragen. Für Abstatt weiterhin keine bestätigten Ankaufskurse, Verkaufspreise oder Gebühren. Quellen: http://www.auto-verwertung-schwarz.de/ ; https://schrottregister.pages.dev/betrieb-automobile-hans-schwarz-abstatt .]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Register-Spiegel als einzige belastbare Quelle: Automobile Hans Schwarz, Seestraße 13, 74232 Abstatt, anerkannter Demontagebetrieb (AltfahrzeugV, Zertifikat ZAIS00100015, Registerstand 11.08.2026); kein Telefon/E-Mail publiziert, keine Betreiber-Website, kein HR-Treffer → nur Einzelbeleg (Register-Spiegel, kein direkter Registerabruf), daher kein Frontmatter-Fill; Lead-Fakten (unsicher): Adresse wie oben; Klärfall Folgewelle: Direktabruf Fachbetrieberegister GSA oder Betreiber-Kontakt; Quelle(n): https://schrottregister.pages.dev/betrieb-automobile-hans-schwarz-abstatt]

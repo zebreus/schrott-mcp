@@ -30,6 +30,10 @@ Die Fichtenauer Website belegt keine Preise: Ankauf wird nicht numerisch beziffe
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Schrotthandel-Schneck-Website und Impressum direkt abgerufen. Der Fichtenauer Auftritt führt Metalle wie Kabel, Messing, Aluminium, V2A, Kupfer, Zinn, Blei und Zink, Abholung mit Ladekran sowie Container von 1–10 m³ an; das Seitenfooter trägt Copyright 2019. Weder Zahlenkurse noch Container-/Entsorgungstarife sind veröffentlicht. Das ist weiterhin nur der getrennte Fichtenau-Auftritt, kein Identitätsbeleg für den Michelbacher Seed-Lead Bahnhofstr. 5/0791 41161; keine Daten übertragen. Ankauf Michelbach, Verkauf und Gebühren offen. Quellen: https://schrott-schneck.de/ ; https://schrott-schneck.de/impressum/ ; Michelbach-Lead: https://www.schrottplatz-info.de/schrottplatz/Michelbach-an-der-Bilz/Schneck-Manfred-Schausteller-u-Schrotthandel .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Betreiberwebsite und Impressum von Schrotthandel Schneck erneut direkt geprüft: Manfred Schneck wird in Fichtenau, Kapellenstraße 13, 74579, 07962 700464 geführt; die Website beschreibt Abholung und 1–10-m³-Container. Der getrennte Michelbacher Verzeichnislead (Bahnhofstr. 5 / 0791 41161) bleibt ohne Betreiberbeleg; ein Zusammenhang ist nicht belegt. Keine Zusammenführung und keine Übernahme von Fichtenauer Kontakten/Leistungen. Preise getrennt: kein numerischer Ankaufskurs, kein Verkaufspreis und keine Container-/Entsorgungsgebühr veröffentlicht; Michelbacher Preise ebenso offen. Quellen: https://schrott-schneck.de/ ; https://schrott-schneck.de/impressum/ ; https://www.schrottplatz-info.de/schrottplatz/Michelbach-an-der-Bilz/Schneck-Manfred-Schausteller-u-Schrotthandel .]

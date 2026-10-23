@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Konkreter neuer Rechercheansatz: Gelbe Seiten führt „Schrotthandel Tobias Pold“, Hansemannweg 34, 32423 Minden, 0179 3687062, Mo–Fr 07–18. Der Text wirbt mit Abholung privat/gewerblich, Ankauf größerer Mengen und Barzahlung. Das bleibt ausdrücklich ein Portal-Lead ohne verifiziertes Betreiberimpressum; weder Tobias-Alias noch öffentlich zugänglicher Hof sind damit ausreichend bestätigt. Eine gleichnamige Kleinanzeigen-Anzeige wurde gefunden, ihr Direktabruf ist 403-blockiert.
+Konkreter, aber weiterhin unbestätigter Portal-Lead: Gelbe Seiten führt „Schrotthandel Tobias Pold“, Hansemannweg 34, 32423 Minden, 0179 3687062, Mo–Fr 07–18. Der direkt gelesene Eintrag wirbt mit kostenloser Abholung für Privat und Gewerbe sowie Ankauf größerer Mengen gegen Barzahlung; genannt werden u. a. Eisen, Kupfer, Messing, Kabel, Alu und Kfz-Teile. Das Portal bietet die Übernahme des Eintrags an; es ersetzt kein Betreiberimpressum. Weder der Betreibername noch ein öffentlich zugänglicher Hof sind damit verifiziert.
 
 **Ankauf:** qualitative Portalwerbung „bei größeren Mengen“, kein Betrag/Mindestgewicht belegt. **Verkauf:** keine Liste. **Gebühren:** kostenlose Abholung nur Portalwerbung, nicht bestätigte Betreiberbedingung. **GEO:** Hansemannweg 34 zunächst auf Gewerbe- und Annahmefunktion prüfen; keine Portal-Koordinaten übernehmen. Status und leere Felder erhalten.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Gelbe-Seiten-Detail direkt erneut gelesen. Der Eintrag nennt Tobias Pold, Hansemannweg 34, 32423 Minden, 0179 3687062, Mo–Fr 07:00–18:00 und bewirbt kostenlose Abholung für Privat/Gewerbe sowie Barzahlung bei Ankauf größerer Mengen; aufgeführt sind u. a. Heizkörper, Kabel, Kupfer, Messing, Blei, Zink, Aluminium und Kfz-Teile. Das Portal fordert zur Übernahme des Eintrags auf; es bleibt Aggregator-Lead, kein Betreiber-/Gewerbenachweis. **ANKAUF:** nur qualitative Bedingung „größere Mengen“, keine €/kg-Kurse oder Mindestmenge. **VERKAUF:** keine Liste. **GEBÜHREN:** kostenlose Abholung ist ausschließlich Portalwerbung und nicht unabhängig bestätigt. Keine Fills, kein GEO. Quelle: https://www.gelbeseiten.de/gsbiz/e7735e55-2c44-4ac0-9725-080c9e100e15 .]
 
 ### Recherche 17.10.2026 — Welle 21:00 B
 

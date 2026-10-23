@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Verzeichnisse wiederholen für „Vikings Schrotthändler“ An Smidts Park 19, 28719 Bremen-Burg-Grambke, Tel. 0172 8364924. Golocal klassifiziert den Eintrag zusätzlich als Haushaltsauflösung, was nicht belegt, dass dort eine stationäre Schrottannahme besteht. Kein Betreiber-/Registerbeleg, daher Seed-Felder und Status `pruefung` unverändert. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren.
+Mehrere Verzeichnisse wiederholen für „Vikings Schrotthändler“ An Smidts Park 19, 28719 Bremen-Burg-Grambke, Tel. 0172 8364924. Golocal klassifiziert den Eintrag zusätzlich als Haushaltsauflösung, was nicht belegt, dass dort eine stationäre Schrottannahme besteht. Kein Betreiber-/Registerbeleg, daher Seed-Felder und Status `pruefung` unverändert. **Ankauf:** keine verifizierte Annahme oder Ankaufspreise. **Verkauf:** keine Material-/Teilepreisliste. **Gebühren:** keine Entrümpelungs-, Abhol- oder Entsorgungstarife belegt.
 
 ## Timeline
 

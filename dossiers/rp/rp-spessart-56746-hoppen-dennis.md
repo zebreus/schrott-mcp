@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Werte Kempenicher Str. 5, 56746 Spessart, 0176 37451903 und Mo–Fr/Sa-Öffnungszeiten stammen aus 11880/Gelbe Seiten und sind nicht durch eine Betreiberquelle oder ein Register bestätigt. Freieauskunft nennt abweichend Ringstr. 128 und eine Mailadresse; das ist ebenfalls nur ein Portal-Lead. Keine aktuelle Betriebs-/Annahmebestätigung; `status: pruefung` bleibt.
+
+**Preise:** **Ankauf:** keine numerischen Schrott-Ankaufspreise. **Verkauf:** keine Materialpreisliste. **Gebühren:** keine Abhol-, Räumungs- oder Entsorgungstarife belegt. Adresse nicht geokodieren, bis die Annahmestelle bestätigt ist.
 
 ## Timeline
 

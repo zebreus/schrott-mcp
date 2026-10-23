@@ -28,6 +28,10 @@ Schrotthandel-Kandidat in Peißenberg, in Verzeichnissen auch „GEIGER & ERHARD
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Gelbe-Seiten-Profil direkt erneut gelesen: „Schrotthandel GEIGER“, Forster Str. 17A, 82380 Peißenberg, 0160 95935540, Öffnungszeiten „Immer einfach anrufen“. Dort zusätzlich aufgeführte Kategorien/Leistungsworte Metall, Schrott, Aushub, Gartenabfälle und LKW 7,5 t mit Kran stammen weiterhin aus dem Aggregator, nicht aus einem Betreiberauftritt; sie belegen weder Annahmeumfang noch kostenlose Abholung. Rechtsträger/„GEIGER & ERHARD“ und Verbindung zur Geiger-Gruppe offen. Keine Felder/GEO ergänzt. Ankauf ohne Kurs, Verkauf ohne Liste, Gebühren ohne Tarif. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/658c0482-c3a3-4604-8be4-904de4044452 .]
+
 ### Recherche 19.10.2026: Welle 03:30 / Shard a
 
 - [Recherche 19.10.2026: Exaktes GEIGER-&-ERHARD-Portalprofil direkt gelesen, weiterhin ForsterStr.17a/82380/016095935540. Neu explizit festgehalten: Homepage-Link enthält PHP-Deprecated statt Betreiber-URL, Beschreibung/Zeiten/Leistungen sind nicht erfasst. Aus dem Kurznamen ERHARD keine Person, GbR oder Übernahme ableiten; neue Namenssuche liefert weitere Portale, keinen qualifizierenden Betreiber-/Registertreffer. Portal-LKW-/Kranwerbung der Vorwelle ist kein aktueller Annahme-/Containerbeleg. Ankauf ohne bestätigten Kurs, Verkauf ohne Liste, Gebühren ohne Tarif. Frontmatter bleibt ungefüllt, GEO Forster17a erst nach vollständigem Rechtsträger-/Annahmebeleg; keine Verbindung zur Geiger-Gruppe hergestellt. Quelle (Lead): https://www.schrottplatz-info.de/schrottplatz/Peissenberg/Schrotthandel-GEIGER-und-ERHARD .]

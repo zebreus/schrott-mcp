@@ -33,6 +33,10 @@ Der Seedname ist nicht als heute aktiver Betrieb bestätigt. NorthData führt �
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: NorthData-Profil zur NeWa GmbH (HRB 210405) erneut gegen den alten Verzeichnisstandort geprüft: angezeigter Name/Status i. L., frühere Firma „NeWa Metall- und Kunststoffhandel GmbH“, Lister Damm 35 und Auflösungsbeschluss 2017 bleiben historische Registerhinweise. Kein neuer zulässiger Beleg verbindet diese Gesellschaft mit Engelbosteler Damm 7, 30167; keine aktuelle Geschäftsstelle oder heutige Schließung nachgewiesen. Alte Kontakt-/Öffnungszeitfelder bleiben unbestätigte Leads; keine Ankaufspreise, Verkaufs- oder Gebührenliste. Keine Feldänderung. Quellen: https://www.northdata.de/NeWa+GmbH,+Hannover/HRB+210405 ; https://www.northdata.de/?id=4081885234 .]
+
 ### Recherche 20.10.2026 — Eigenrecherche
 
 - [Recherche 20.10.2026: Der neue Suchlauf fand für den Seednamen zusätzlich einen Branchenverzeichnis-Eintrag, dessen sichtbare Metadaten ausdrücklich auf 19.05.2014 (Ersteintrag) und 27.05.2014 (letzte Änderung) datieren; kein Betreiber-Impressum, kein aktueller Standort und keine frische Annahmeinformation. Die bereits gelesene NorthData-Angabe zum früheren Namen/2017er Auflösungsbeschluss bleibt maßgeblich, aber historisch. Der Kontaktblock Engelbosteler Damm 7/0511 89820720/Mo–Fr 09–16 bleibt ein unbestätigter Portal-Altlead; kein Preisfund oder GEO. Quelle(n): https://www.branchenverzeichnis.org/infos/vcard/4811/newa-metall-und-kunststoffhandel-gmbh ; https://www.northdata.de/NeWa+GmbH,+Hannover/HRB+210405.]

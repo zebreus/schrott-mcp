@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die alten Straßen-/Telefonwerte sind nur aggregierte Verzeichnisangaben. Die direkt gelesene Schrottplatz-Info-Seite führt Helmut Eller, Adam-Opel-Str. 2, 35305 Grünberg und 06401 90022, weist aber selbst darauf hin, dass Angebot und Öffnungszeiten nicht erfasst sind; der Homepage-Link ist technisch fehlerhaft. Ein älterer Namenshinweis auf Uwe Eller ist nicht geklärt. Kein aktueller Betreiber- oder Registerbeleg und keine Schließungsfeststellung.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Schrottplatz-Info-Eintrag direkt gelesen: „Eller Helmut Schrotthandlung und Autoverwertung“, Adam-Opel-Str. 2, 35305 Grünberg, 06401 90022. Die Seite sagt ausdrücklich, dass Angebot und Öffnungszeiten noch nicht erfasst sind; der Homepage-Link ist ein fehlerhafter/HTML-Fehler-Pfad und kein Betreiberauftritt. Das ist ein Verzeichnislead, keine Betreiber- oder Registerbestätigung. Der ältere Namenshinweis Uwe Eller aus Cylex bleibt ungeklärt; kein Inhaberwechsel oder Namensgleichlauf abgeleitet. Keine Frontmatter-Änderung/keine GEO-Freigabe. **ANKAUF:** keine bestätigten Bedingungen/Kurse; **VERKAUF:** keine Teile-/Materialliste; **GEBÜHREN:** keine Tarife. Quelle: https://www.schrottplatz-info.de/schrottplatz/Gruenberg/Eller-Helmut-Schrotthandlung-und-Autoverwertung .]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)
 

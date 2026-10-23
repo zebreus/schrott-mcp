@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die erreichbare Betreiberwebsite nennt eine Autoverwertung Bösenberg in Nordhausen, Manuela Sachse im Impressum, Schwarzer Weg 8, 99734 Nordhausen und Tel. 03631/897785. Sie beschreibt Recycling, Verkauf gebrauchter Ersatzteile, Online-Shop und DIY-Angebote; die Website nennt Mo–Do 09:00–12:00 Uhr. Gelbe Seiten führt dagegen „Bösenberg Dieter“, wodurch die Betreiber-/Namensgeschichte nicht unabhängig geklärt ist. Angaben bleiben Primärquellen-Kandidaten statt Frontmatter-Fills; Anschrift erst nach Identitätsabgleich geokodieren. Keine feste Ankaufspreisliste oder Gebühren; Shop-Verkauf erwähnt, aber auf den geprüften Seiten keine allgemeine Preisliste.
+Die Betreiberwebsite nennt Manuela Sachse, Schwarzer Weg 8, 99734 Nordhausen, 03631 897785 und info@autoverwertung-boesenberg.de und verlinkt den eBay-Shop `Autoverwertung_D.Bösenberg`, dessen Verkäuferprofil aktuelle Teileangebote führt. Betreiberwebsite und verlinkter Shop sind hier derselbe Betreiberkanal, nicht zwei unabhängige Identitätsbelege. Der ältere Portalname „Bösenberg Dieter“ bleibt ungeklärt; daher bleiben Kontakt-/Adressfelder ungefüllt, Status `pruefung` und GEO offen.
+
+**Preise:** **Ankauf:** keine Fahrzeug- oder Metallankaufskurse auf den geprüften Betreiberseiten. **Verkauf:** eBay-Angebotspreise für einzelne Kfz-Teile, keine allgemeine Teilepreisliste; Beispiele und Abrufdatum siehe Timeline. **Gebühren:** keine Autoverwertungs-, Entsorgungs- oder Abholgebühren veröffentlicht.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiberwebsite, Impressum, Kontaktseite und deren eBay-Shop-Link direkt geprüft. Website/Impressum nennen Autoverwertung Bösenberg, Vertretung Manuela Sachse, Schwarzer Weg 8, 99734 Nordhausen, Telefon 03631 897785 und info@autoverwertung-boesenberg.de; die Leistungsseite nennt Recycling, Ersatzteilverkauf, Online-Shop und DIY-Angebote sowie Mo–Do 09:00–12:00, Fr–So geschlossen. Der Betreiberlink führt zum eBay-Shop `Autoverwertung_D.Bösenberg`; der Shop war direkt abrufbar (99,9 % positive Bewertungen, 7.982 verkaufte Artikel, aktuelle Angebote). Beispiele am Abrufdatum: Opel-Astra-F-Wischermotor 25,39 €, Mercedes-W211-Kraftstoffrücklaufleitung 20,39 €, Audi-80-B4/Audi-100-C4-Heckwischermotor 59,39 €. Das sind Verkaufspreise einzelner Ersatzteile, keine Ankaufskurse und keine vollständige Preisliste. Keine Ankaufpreise für Schrott/Fahrzeuge und keine Gebühren veröffentlicht. Die Website und ihr verlinkter Shop sind derselbe Betreiberkanal; sie lösen den Identitäts-/Namenskonflikt zu älteren „Bösenberg Dieter“-Portalangaben nicht unabhängig auf. Deshalb keine skalaren Kontakt-/Adressfelder gefüllt, `website_status: unbekannt` und `status: pruefung` beibehalten. GEO nicht gesetzt. Quellen: https://autoverwertung-boesenberg.de/ ; https://autoverwertung-boesenberg.de/impressum ; https://autoverwertung-boesenberg.de/kontakt ; https://autoverwertung-boesenberg.de/ebay ; https://www.ebay.de/str/autoverwertungdbosenberg]
 
 ### Recherche 06.10.2026
 

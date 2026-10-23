@@ -29,6 +29,10 @@ Die Betreiber-Domain ist per HTTP direkt erreichbar und zeigt die Aussage "Seit 
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Domain direkt abgerufen: weiterhin Einseiter mit dem Titel „Seit 01.07.2026 geschlossen“ und kontakt@goldankauf-am-markt.de; kein Impressum, keine Registerangabe und kein Personenname auf der Seite. Damit bleibt die Schließung eine nicht unabhängig zugeordnete Selbstaussage der Domain und reicht nicht für `geschlossen` beim auf Susanne Kluesener-Taube bezogenen Datensatz. Keine Daten-/Statusänderung. Keine aktuelle Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden. Quelle: http://goldankauf-am-markt.de/ .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Betreiber-Domain erneut direkt per HTTP abgerufen (HTTPS weiterhin nicht als Quelle nutzbar): die Seite trägt den Titel "Goldankauf am Markt - 66333 Völklingen - Seit 01.07.2026 geschlossen" und nennt kontakt@goldankauf-am-markt.de. Kein Impressum, keine Registerangabe und keine unabhängige aktuelle Bestätigung gefunden. Das bestätigt nur die Selbstaussage der Domain, nicht hinreichend die Identität/Statuszuordnung des Seed-Datensatzes; kein Statuswechsel und keine Kontaktdaten-Füllung. **Ankauf:** keine aktuelle Tätigkeit oder Ankaufwerte/Preisliste; **Verkauf:** keine Verkaufspreise/Preisliste; **Gebühren:** keine Gebührenangaben veröffentlicht. Quelle(n): http://goldankauf-am-markt.de/]

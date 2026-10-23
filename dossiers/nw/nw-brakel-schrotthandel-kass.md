@@ -28,9 +28,13 @@ provenance_origin: table
 
 Die alte NXDOMAIN-Domain schrotthandel-kass.de ist **nicht** die neu gefundene Domain. `website_status: unbekannt` bei weiterhin leerem Websitefeld verhindert, dass die alte Totbewertung pauschal auf alle Auftritte übertragen wird. Kein nachgewiesener Domainumzug/Betreiberwechsel.
 
-**Ankauf:** Betreiber bietet Kupfer, Alu, Messing, Edelstahl, Kabel und Mischschrott für Privat/Gewerbe, Anlieferung/Abholung, Bewertung und direkte Auszahlung zu Tagespreisen. Keine numerische Preisliste. **Verkauf:** keine numerischen Kurse. **Gebühren:** Container 3–44 m³ sowie Reifen-/Fahrzeugentsorgung angeboten, keine Tarifliste/keine generelle Kostenloszusage. Annahmeadresse nach Owner-Gegenprüfung für GEO vormerken.
+**Ankauf:** Betreiber bietet Kupfer, Alu, Messing, Edelstahl, Kabel und Mischschrott für Privat/Gewerbe, Anlieferung/Abholung, Bewertung und direkte Auszahlung zu Tagespreisen. Die direkt geprüften aktuellen Leistungsseiten nennen weiterhin keine numerischen Kurse. **Verkauf:** keine Material- oder Ersatzteilpreisliste. **Gebühren:** Container von 3–44 m³ sowie Reifen-/Fahrzeugentsorgung angeboten; Volumenangabe ist kein Tarif, und es gibt keine generelle Kostenloszusage. Annahmeadresse nach Owner-Gegenprüfung für GEO vormerken.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiberseiten Schrotthandel und Containerdienst direkt erneut gelesen. Die Schrotthandelseite bewirbt Ankauf von Kupfer, Aluminium, Messing, Edelstahl, Kabel und Mischschrott für Privat/Gewerbe; direkte Abgabe oder Abholung, Bewertung nach Tagespreisen und Auszahlung. Es werden keine konkreten €/kg-Kurse veröffentlicht. Die Containerseite nennt Größen von 3–44 m³ und Entsorgung von u. a. Bauschutt, Grün-/Strauchschnitt, Holz, Sperrmüll und Schrott; Kapazität ist kein Preis. **VERKAUF:** keine Verkaufspreisliste auf den geprüften Seiten. **GEBÜHREN:** keine Container-, Abhol- oder Entsorgungstarife; keine generelle kostenlose Stellung/Abholung zugesagt. Aktuelle Seiten bestätigen weiter den Betreiberlead, ersetzen aber keine fehlende unabhängige Firmen-/Gewerbegegenprüfung; keine Frontmatter-Fills oder GEO. Quellen: https://schrotthandelkass.de/schrotthandel/ ; https://schrotthandelkass.de/containerdienst/ .]
 
 ### Recherche 18.10.2026 (Welle 1202 West)
 

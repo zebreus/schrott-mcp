@@ -30,6 +30,10 @@ Die Portale unterscheiden inzwischen erkennbar **„Büro“** (Wernesgrüner St
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Schrottplatz.org-Profil des „Büros“ direkt gelesen: Wernesgrüner Str. 29, Telefon 03744 33670, Fax 03744 33671; dieselbe Seite führt den „Platz“ an Röthenbacher Str. 2 als separaten nahen Schrottplatz-Eintrag. Das ist ein gemeinsamer Portal-/Verzeichniskontext, kein Betreiber- oder Registerbeleg und bestätigt weder Inhaber noch aktuellen Betrieb oder Büro-Platz-Zusammenhang. Die widersprüchlichen Telefonnummern/Adressen bleiben ungeklärt. **Ankauf:** kein Kurs; **Verkauf:** keine Kompost- oder Materialpreisliste; **Gebühren:** keine Grünabfall- oder Containergebühr belegt. Keine Frontmatter- oder GEO-Änderung. Quelle (Aggregator-Lead): https://www.schrottplatz.org/rodewisch/rita-rau-und-joachim-rau-4855046.html]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Ein Suchindex-Auszug der 2021 veröffentlichten Entsorgungsfirmenliste des Vogtlandkreises führt „Rau Handel und Vermietung“, Annahmeplatz Röthenbacher Straße 2, 08228 Rodewisch, Tel. 03744-33670 und Entsorgungs-Kategorien. Der PDF-Direktabruf war mit dem verfügbaren Abrufwerkzeug nicht lesbar; nur Titel/Indexauszug geprüft. Die Quelle ist amtlich, aber fünf Jahre alt und nennt nicht Rita/Joachim Rau; sie stützt daher lediglich einen historischen Annahmeplatz-/Adresshinweis, nicht die Zuordnung zur Dossierperson oder heutige Tätigkeit. Wernesgrüner Str. 29 vs. Röthenbacher Str. 2 bleibt als Büro-/Platz-Hypothese unbestätigt. Keine Felder ergänzt, keine aktuellen **Ankauf**-/**Verkauf**preise oder Entsorgungsgebühren belegt, kein GEO-Punkt gesetzt. Quelle: https://www.vogtlandkreis.de/media/custom/2752_1564_1.PDF?1643117744 (amtlicher PDF-Suchindex-Auszug, 08.11.2021; Direktabruf nicht lesbar).]

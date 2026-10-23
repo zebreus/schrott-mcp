@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die direkt erreichbare Betreiberwebsite von MRL Lagerin beschreibt Metallankauf für private, gewerbliche und industrielle Kunden, Abholung statt Anlieferung, Demontage und Containerstellung. Der Betreiber wirbt mit Tageshöchstpreisen und kostenfreier Containerstellung, grenzt diese aber auf Metallabfälle ein (nicht Müll oder Bauschutt); Autoverwertung wird ausdrücklich ausgeschlossen. Das sind Betreiberangaben, kein unabhängiger Identitätsnachweis. Exakte Kaufpreise und allgemeine Entsorgungskosten bleiben offen.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiberstartseite und Impressum erneut direkt gelesen: Jeffrey Lagerin/MRL, Hambuschweg 29, 55252 Mainz-Kastel, Telefon 0176/80439557 und info@mrl-lagerin.de. Leistungsangaben: Ankauf aller Metalle zu „Tageshöchstpreisen“, Abholung, ausdrücklich keine Anlieferung, Demontage/Entkernung, kostenfreie Containerstellung; die Website begrenzt den kostenfreien Containerdienst auf Metalle (nicht Müll/Bauschutt) und erklärt, keine Autoverwertung anzubieten. Impressum weist keine HRB-Nummer aus; daher trotz Betreiberquelle keine Skalare oder JSON-Konditionen ins Frontmatter übernommen. **ANKAUF:** keine Euro-/kg-Preisliste, nur Tagespreiswerbung. **VERKAUF:** keine Metallverkaufspreisliste. **GEBÜHREN:** kostenlose Containerstellung ist keine veröffentlichte kostenlose Entsorgungs-/Abholzusage; weitere Tarife fehlen. Quellen: https://mrl-lagerin.de/ ; https://mrl-lagerin.de/impressum/ .]
 
 ### Recherche 04.10.2026
 

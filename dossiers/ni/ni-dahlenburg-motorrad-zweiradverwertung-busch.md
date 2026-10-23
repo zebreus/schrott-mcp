@@ -31,6 +31,10 @@ Der Seed nennt eine Motorrad-/Zweiradverwertung Busch in Dahlenburg und Gartenst
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneute exakte Namens-/Orts- und Dahlenburg-begrenzte Suche brachte keinen qualifizierenden Betreiber-, Register- oder kommunalen Standortbeleg für „Motorrad-/Zweiradverwertung Busch“. Die bereits bekannte Autoverwertung Busch in Duisburg bleibt ein Namensvetter, keine Identitätsbrücke. Das ist ein Such-Miss, kein Nichtexistenz- oder Schließungsnachweis; Seed-Adresse Gartenstr. 4 bleibt ungeprüft. Keine zurechenbaren Ankaufskurse, Verkaufspreise oder Gebühren; keine Felder geändert. Quelle des ausgeschlossenen Namensvetters: https://www.autoverwertung-busch.de/home/en/ueber-uns .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Erneute exakte Namens-/Ortsprüfung lieferte keinen belastbaren Treffer für eine Motorrad-/Zweiradverwertung Busch in Dahlenburg. Der gefundene Betreiberauftritt Autoverwertung Busch beschreibt ausdrücklich Standorte in Duisburg und ist ein auszuschließender Namensvetter, kein Beleg für Dahlenburg. Der Seed-Lead Gartenstr. 4 bleibt ungeprüft; keine Felder ergänzt. Keine zuordenbare Preis-, Verkaufspreis- oder Gebührenliste. Quelle(n): https://www.autoverwertung-busch.de/home/en/ueber-uns ; frühere Verzeichnis-Gegenprobe: Gelbe Seiten, 11880, Cylex und Das Örtliche (Recherche 02.10.2026)]

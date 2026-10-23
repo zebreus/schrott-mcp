@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed „Kemke Thomas“ ist weiterhin nur durch einen einzelnen Schrottplatz-Info-Eintrag mit Tempelhofer Damm 108, 12099 Berlin und 030 7523702 belegt. Der dort verlinkte Domainkandidat schrottabrisse.de lieferte keinen zuordenbaren Betreiberauftritt; eine aktuelle rechtliche Identität, Annahmestelle oder Tätigkeit ist nicht belegt. Die Seed-Kontaktwerte bleiben ungeprüft und `status: unbekannt` unverändert.
+
+**Preise:** **Ankauf:** keine verifizierten Metall- oder Fahrzeugankaufskurse. **Verkauf:** keine Teile-/Materialpreisliste. **Gebühren:** keine Abriss-, Abhol- oder Entsorgungstarife.
 
 ## Timeline
 

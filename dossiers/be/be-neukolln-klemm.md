@@ -30,6 +30,10 @@ Gelbe Seiten führt aktuell den Listennamen **„Klemm Torsten, Klemm Franz Kraf
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Ein 11880-Suchtreffer führt „Torsten Klemm Franz Kraftfahrzeugtechnik“ an der Waltersdorfer Chaussee 9, 12355 Berlin-Rudow, Telefon 030 6634953, unter Autohandel/Gebrauchtwagen/Autoverschrottung. Die Übereinstimmung mit dem Gelbe-Seiten-Lead von 22.10. ist ein weiterer Verzeichnistreffer, keine unabhängige Betreiber-, Register- oder aktuelle Tätigkeitsbestätigung; die Portal-Kategorie klärt auch keine Metallannahme. Kein Frontmatter-Fill; Status `unbekannt`. **Ankauf:** keine verifizierten Ankaufleistungen/-preise. **Verkauf:** keine Preisliste. **Gebühren:** keine Tarife. Quelle: https://www.11880.com/suche/autohandel/berlin (Eintrag Nr. 48, Abruf 23.10.2026).]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Gelbe-Seiten-Detailseite direkt geprüft: „Klemm Torsten, Klemm Franz Kraftfahrzeugtechnik“, Branche Autoverwertung, Waltersdorfer Chaussee 9–11, 12355 Berlin-Rudow, 030 6634953. Die aufgeführten Bewertungen sind alt (2013); kein Betreiber-Impressum, aktuelle Website oder unabhängiger Register-/Kommunalbeleg wurde ermittelt. Zweiter Branchenportaltreffer ist keine unabhängige Betreiberquelle. Bestehende Seedwerte bleiben daher ungeprüft, Status unbekannt, keine GEO. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten aktuellen Leistungen oder Zahlen. Quelle: https://www.gelbeseiten.de/gsbiz/752be6ef-1aad-4323-9516-59bbc9ee4558 .]

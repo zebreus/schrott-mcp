@@ -31,6 +31,10 @@ Der Gelbe-Seiten-Lead nennt Stein An- u. Verkauf Waren aller Art, Breite Str. 16
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Gelbe-Seiten-Detailseite direkt erneut gelesen: „Stein An- u. Verkauf Waren aller Art“, Breite Str. 16, 66115 Saarbrücken-Malstatt, 0681 48460; dort weiterhin Mo–Fr 09:00–18:00, Sa 09:00–13:00 sowie die Verzeichnis-Kategorien Antiquitäten/Goldankauf. Das bleibt ohne Betreiber-/Registeridentität ein Lead; „Jetzt geschlossen“ ist eine Momentaufnahme, kein Dauerstatus. Kein lokaler Ankaufskurs und keine belastbare Antiquitäten-Verkaufspreisliste. eBay-Angebotspreise bleiben nicht mit dem Laden verknüpft; Gebühren nicht bekannt. Keine Frontmatter-Änderung. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/7194bc38-e7a9-4c6b-a773-b4f73ce3aee7 .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: eBay-Shop „An-und Verkauf Stein“ direkt gelesen; er zeigt gemischte Angebote u.a. Antiquitäten, Bücher, Elektronik, Möbel und Sammlerware sowie 99,8 % positive Bewertungen/41.783 verkaufte Artikel. Die sichtbaren Artikelpreise sind Verkaufspreise dieses Online-Shops, keine Gold-/Schrottankaufskurse; kein Impressum-/Adressbeleg verbindet den eBay-Verkäufer mit dem Gelbe-Seiten-Lead Breite Str. 16, Saarbrücken-Malstatt. Keine Betreiber-/Adress-/Kontaktdaten übernommen. ANKAUF: keine Zahlenkurse; VERKAUF: Online-Angebotspreise nicht zurechenbar; GEBÜHREN: keine Tarife. Quellen: https://www.ebay.de/str/anundverkaufstein ; https://www.gelbeseiten.de/gsbiz/7194bc38-e7a9-4c6b-a773-b4f73ce3aee7 .]

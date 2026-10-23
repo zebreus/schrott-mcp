@@ -28,6 +28,10 @@ Der generische Seedname „Schrotthandel Gießen“ ist keinem Betreiber sicher 
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Kandidatenabgleich erneut an den Betreiberseiten verifiziert. MP Schneider GmbH nennt im Impressum Schlachthofstraße 38, 35398 Gießen und AG Gießen HRB 9721; das belegt diesen Kandidaten, nicht seine Identität mit dem generischen SchrottRadar-Seed. Die Betreiberseite von Schrott & Demontage Müller/Andreas Müller nennt Container von 1–7 m³ und kostenfreie Stellung nur für Metall-/Eisenschrott; das ist eine bedingte Serviceaussage des separaten Kandidaten, keine seedbezogene Gebühr oder Preisregel. Schrotthandel Michael Schulz bleibt in Wettenberg. Keine Quelle verbindet einen der drei Anbieter mit dem Seed; keine Frontmatter-Änderung. **ANKAUF:** für den Seed unbekannt, keine Zahlenliste. **VERKAUF:** keine seedbezogene Liste. **GEBÜHREN:** Müllers Containerbedingung nicht übertragbar; seedbezogene Tarife fehlen. Quellen: https://www.mpschneidermetall.de/impressum/ ; https://www.schrott-giessen.de/impressum/ ; https://www.schrott-giessen.de/container/ ; https://schrotthandel-giessen.de/impressum/ .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Die drei getrennten Betreiber-Impressen erneut direkt gegengeprüft; keine Quelle verbindet MP Schneider, Michael Schulz/Wettenberg oder Andreas Müller mit dem generischen SchrottRadar-Seed. Müllers Betreiberseite nennt Container von 1–7 m³ und kostenfreie Stellung, wenn Metall-/Eisenschrott eingefüllt wird; das ist eine bedingte Serviceaussage dieses Kandidaten, weder ein Ankaufspreis noch eine dem Seed zurechenbare Gebührenliste. Keine Frontmatter-Fills/GEO. **Ankauf:** keine Zahlen für den Seed; **Verkauf:** keine Liste; **Gebühren:** Kandidatenbedingung nicht übertragbar, seedbezogene Tarife fehlen. Quellen: https://www.mpschneidermetall.de/impressum/ ; https://schrotthandel-giessen.de/impressum/ ; https://www.schrott-giessen.de/impressum/ ; https://www.schrott-giessen.de/container]

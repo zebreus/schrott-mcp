@@ -34,6 +34,10 @@ Verzeichnis-Kandidat „Schrott Florian“: Gelbe Seiten und Das Örtliche nenne
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Gelbe-Seiten-Detailseite direkt erneut abgerufen; sie führt unverändert „Schrott Florian“, Heumannstr. 1, 96050 Bamberg, 0951 30945195. Das bleibt ein Verzeichnis-Lead ohne Betreiber-Impressum oder zulässigen unabhängigen Zweitbeleg; „Florian“ als Inhabername ist nicht geklärt. Bereinigte Kontaktfelder bleiben leer, `clear_fields: 'phone'` und `status: pruefung` unverändert; keine Preis-/Gebührenliste für Ankauf, Warenverkauf oder Entsorgung. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/aa2e23f3-e1e1-4579-a2e7-84f566a7dafe .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Exakte aktuelle Namens-/Orts-/Telefon-Suche brachte keinen Betreiberauftritt und keinen eindeutig zuordenbaren Register- oder Behördenbeleg. Die bekannten Verzeichniseinträge „Schrott Florian“, Heumannstr. 1, 96050 Bamberg, Tel. 0951 30945195 bleiben Leads; mehrere Portaloberflächen gelten nicht als unabhängige Betreiberbestätigung. „Florian“ als Vorname/Firmenbestandteil und ein möglicher Zusammenhang zu anderen Bamberg-Firmen sind ungeklärt. Keine Änderungen an geleerten Kontaktfeldern; `status: pruefung`, keine Schließungsbehauptung. Ankauf/Verkauf/Gebühren: keine Zielpreislisten. Quelle für den bestehenden Lead: https://www.gelbeseiten.de/gsbiz/aa2e23f3-e1e1-4579-a2e7-84f566a7dafe .]

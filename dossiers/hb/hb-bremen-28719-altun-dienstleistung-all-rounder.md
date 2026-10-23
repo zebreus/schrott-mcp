@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Altun Dienstleistung All Rounder“ bleibt für Bremen ein ungeklärter Seed-Treffer: Grönlandstr. 21 und Mobilnummer stammen bislang nur aus Aggregatoren. Ein Betreiberauftritt oder Registerbeleg für diese Bremer Firma wurde nicht gefunden. Der online auffindbare „Altun Service GmbH“ ist laut eigenem Impressum ein Hanauer Werkstatt-/Abschleppbetrieb von Burak Altun und passt weder zu Ort noch Name/Rechtsform; er ist ein separater Namensvetter, kein Beleg für den Bremer Eintrag.
+„Altun Dienstleistung All Rounder“ bleibt für Bremen ein ungeklärter Seed-Treffer: Grönlandstr. 21 und Mobilnummer stammen bislang nur aus Aggregatoren. Ein Suchindex nennt nun `altundienstleistung.com` als Website, der Direktabruf war jedoch nicht möglich; damit liegt weiterhin kein lesbarer Betreiberbeleg vor. Der online auffindbare „Altun Service GmbH“ ist laut eigenem Impressum ein Hanauer Werkstatt-/Abschleppbetrieb von Burak Altun und passt weder zu Ort noch Name/Rechtsform. Auch eine separate Bremer Entrümpelungsanzeige von Abdullah Altun an der Kattenturmer Heerstraße belegt keine Verbindung zum Seed.
 
-**Preise:** **Ankauf** — kein aktueller Ankauf oder Kurs dem Bremer Betrieb zugeordnet. **Verkauf** — keine Liste. **Gebühren** — keine Abhol-, Abschlepp- oder Entsorgungstarife belegt. Seed-Adresse und Kontakt nicht geokodieren, bis Identität bestätigt ist.
+**Preise:** **Ankauf:** kein aktueller Ankauf oder Kurs dem Bremer Betrieb zugeordnet. **Verkauf:** keine Liste. **Gebühren:** keine Abhol-, Abschlepp- oder Entsorgungstarife belegt. Ein Preis von 28 €/m³ aus der separaten Entrümpelungsanzeige gehört nicht zu diesem Schrott-Seed. Seed-Adresse und Kontakt nicht geokodieren, bis Identität bestätigt ist.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Die Suchindex-Ergebnisse für „Altun Dienstleistung All Rounder“ führen Aggregatorprofile mit Grönlandstraße 21, 0176 57931645 und dem Domainkandidaten `altundienstleistung.com`; der Direktabruf der Domain scheiterte mit einem Transportfehler. Die Portaltexte (u.a. 24-Stunden-Zeiten, Materialkategorien und Mindestmengen) sind deshalb keine Betreiberangaben und werden nicht übernommen. Separater Gegenlead: Auftragsbank führt „Altun Entrümpelung wohnungsauflösung“, Ansprechpartner Abdullah Altun, Kattenturmer Heerstraße 122d, und eine Entrümpelungsanzeige mit 28 €/m³; andere Bezeichnung/Adresse, keine belegte Verbindung zum Seed. Dieser Betrag ist weder ein Schrott-Ankaufkurs noch eine Gebühr des Zielbetriebs. Keine Frontmatter-Änderung, keine GEO-Koordinate. Quellen/Leads: https://lokaleschrottplatz.de/altun-dienstleistung-all-rounder-schrotthandler-entrumpelungs-service/ ; https://altundienstleistung.com/ (Direktabruf fehlgeschlagen) ; https://www.auftragsbank.de/firmen/altun-entruempelung-wohnungsaufloesung/110063]
 
 ### Recherche 14.10.2026 — fremde Betreiber gelesen, Seed weiterhin offen
 

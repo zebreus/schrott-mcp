@@ -28,6 +28,10 @@ Die aktuelle kommunale Unternehmensübersicht enthält keinen passenden Eintrag;
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Die 11880-Suchergebnisseite für „Altmetallrecycling Neukirchen bei Niebüll“ direkt abgerufen. Der Eintrag „Nico Nissen“ führt Hochhörn 23, 25927 Neukirchen und 04664 983848; der Portalstatus erscheint zweimal als „geschlossen“. Das ist ein aktueller Verzeichnisstatus, keine amtliche Gewerbeauskunft oder Betreiberbestätigung und angesichts der bereits dokumentierten konkurrierenden Adress-/Telefon-Leads kein Schließungsnachweis. Keine Seedwerte überschrieben, `status: pruefung` bleibt. **Ankauf/Verkauf/Gebühren:** keine Preis- oder Tarifangaben auf der Suchseite. Quelle: https://www.11880.com/suche/altmetallrecycling/neukirchen-bei-niebuell (Abruf 23.10.2026).]
+
 ### Recherche 14.10.2026 (Welle 5 A)
 
 - [Recherche 14.10.2026: Beide Seiten der kommunalen Unternehmensübersicht erneut direkt gelesen (HTTP 200), mit aktuellen Gemeinde-Terminen/Beiträgen für Oktober 2026; weiterhin kein passender Nissen-Schrotthandelseintrag. Dies ist eine redaktionelle Unternehmensübersicht, keine vollständige Gewerberegisterauskunft und kein Schließungsbeleg. Zusätzliche Namenssuche endet an Brave-Captcha, kein neuer Identitätsinhalt. Hochhörn 23/29 und widersprüchliche Telefone aus Vorwellen bleiben ungelöst; keine Overrides. Ankauf, Verkauf und Gebühren weiterhin nicht verifiziert. Offen: Amt-Südtondern-Gewerbeauskunft und aktuelle Inhaberbestätigung, nicht nur ein erneuter Verzeichnis-Konsens; Quelle(n): https://neukirchen-nordfriesland.de/index.php/unternehmen ; https://neukirchen-nordfriesland.de/index.php/unternehmen?start=5 ; https://search.brave.com/search?q=%22Nico%20Nissen%22%20%22Schrotthandel%22 (Captcha)]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BBM Günter Breidbach ist weiterhin ein offener Identitäts- und Aktivitätsklärfall. Straße, PLZ und Telefon sind historische Seed-/Verzeichniswerte, keine aktuell unabhängig verifizierten Betreiberangaben. Die früher genannte Domain breidbach-metalle.de lieferte auch beim Direktabruf am 23.10.2026 keinen Seiteninhalt; ein Domainfehler belegt keine Schließung. Kein aktueller Betreiber-, Register- oder kommunaler Nachweis, keine Preislisten.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: breidbach-metalle.de direkt erneut aufgerufen; der Abruf endete mit Transportfehler, nicht mit auswertbarem Betreiberinhalt. Die exakte Namens-/Ortsuche lieferte keinen neuen qualifizierten Betreiber-, Register- oder kommunalen Beleg. Daraus folgt weder Nichtexistenz noch Schließung. Die Frontmatter-Werte Strasserhof 12/51399/02174-41035 bleiben historische Leads und wurden nicht bestätigt oder geändert; website_status tot bezieht sich auf den dokumentierten Domainbefund, nicht auf den Betrieb. **ANKAUF:** kein Preis oder aktueller Ankaufbeleg; **VERKAUF:** keine Liste; **GEBÜHREN:** keine belastbaren Tarife. Keine GEO-Freigabe. Quelle/Abrufgrenze: https://breidbach-metalle.de/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

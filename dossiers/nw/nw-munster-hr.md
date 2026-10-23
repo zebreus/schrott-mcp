@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Northdata nennt HR Transport & Handel GmbH, AG Münster HRB 19010, Drachterstraße 29a, 48153 Münster und den Gesellschaftszweck Transport/Handel mit Metallen und Schüttgütern. Die sichtbaren Registerveröffentlichungen reichen bis 04.06.2025; die Betreiberwebsite lieferte beim Abruf am 23.10.2026 HTTP 404. Das bestätigt weder aktuelle Annahme noch Schließung. Betreiberkontakt und GEO bleiben ungeklärt; `status: pruefung` bleibt angemessen.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Northdata-Direktansicht bestätigt HR Transport & Handel GmbH, AG Münster HRB 19010, Drachterstr. 29 a, 48153 Münster und den Gesellschaftszweck Transport/Handel mit Metallen und sonstigen Schüttgütern. Sichtbare Veröffentlichungen reichen bis zur Gesellschafterliste vom 04.06.2025; daraus folgt weder aktuelle operative Tätigkeit noch Annahmebetrieb. hr-transport-handel.de lieferte beim Direktabruf HTTP 404. Keine Kontakt-/Website-Fills oder GEO, Status pruefung. **ANKAUF:** Gesellschaftszweck ist kein konkreter Ankaufbeleg; keine Preisliste. **VERKAUF:** keine Liste. **GEBÜHREN:** unbekannt. Quelle: https://www.northdata.com/HR%20Transport%20%26%20Handel%20GmbH,%20M%C3%BCnster/HRB%2019010 ; Abrufversuch: https://hr-transport-handel.de/ .]
 
 ### Recherche 02.10.2026
 

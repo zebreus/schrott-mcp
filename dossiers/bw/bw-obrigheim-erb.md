@@ -30,6 +30,10 @@ Die Erb-Website wirbt für diesen anderen Standort mit Metallankauf zu Tagesprei
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Die Betreiberseite erneut direkt gelesen: Kevin Erb führt die Autoverwertung unter Grünstadter Straße 83, 67283 Obrigheim (Pfalz), und nennt Metallankauf zu tagesaktuellen Preisen ausschließlich bei Anlieferung; Metallabholung wird ausdrücklich ausgeschlossen. Es gibt keinen veröffentlichten Zahlenkurs. Damit ist die bestehende Abgrenzung zum BW-Ort weiter gestützt; weder Kontakt noch Ankauf/Abholung oder Fahrzeugleistungen auf „Erb“ in Obrigheim/BW übertragen. Ankauf BW, Verkauf und Gebühren bleiben unbelegt; keine Frontmatter-Änderung. Quellen: https://www.auto-erb.de/ ; https://www.obrigheim.de/ .]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: Erb-Impressum direkt erneut gelesen: Kevin Erb, Grünstadter Straße83, 67283 Obrigheim (Pfalz), weiterhin nicht BW. Zusätzliche Beleggrenze: Registergericht tbd, HRB00000 und Umsatzsteuer-ID0000000 sind sichtbare Platzhalter und kein gültiger Registernachweis; Zertifiziert im Seitennamen ersetzt kein gelesenes Zertifikat. Seitenkopf sagt Kein Verkauf von Ersatzteilen, gilt aber nur für diesen fremden Pfalz-Kandidaten. Weder dessen Telefonnummern noch Leistungen/Preise auf BW übertragen. Ankauf: keine zugeordneten BW-Zahlen; Verkauf: keine zugeordneten BW-Preise; Gebühren: keine BW-Tarife. GEO-Bedarf zuerst BW-Identität und Stadtzuordnung klären, nicht Pfalz geokodieren. Quelle: https://www.auto-erb.de/impressum .]

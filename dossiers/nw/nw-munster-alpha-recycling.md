@@ -28,6 +28,10 @@ Alpha Recycling bleibt ein mobiler Münsteraner Identitätsklärfall. Vorrecherc
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneute Suche nach Alpha Recycling Münster/Im Moorhock 63 ergab weiterhin vorwiegend Verzeichnis-/Kartenprofile; diese sind keine neuen unabhängigen Betreiberbelege. recycling-alpha.de lieferte beim Direktabruf einen Transportfehler; der direkte Instagram-Abruf zeigte nur die Login-/Seitenschale, keine auswertbaren Betreiber-, Kontakt- oder Adressangaben. Ein US-amerikanischer Alpha-Recycling-Anbieter ist nicht zugeordnet. Keine Frontmatter-Änderung, keine GEO-Freigabe. **ANKAUF:** keine verifizierte Preisliste; **VERKAUF:** keine Liste; **GEBÜHREN:** keine bestätigten Abhol-/Containerkosten. Quellen/Abrufgrenzen: https://recycling-alpha.de/ ; https://www.instagram.com/alpha_recycling/ .]
+
 ### Recherche 15.10.2026 Welle18A
 
 - [Recherche 15.10.2026 Welle18A: recycling-alpha.de direkt mit Transportfehler; Instagram-Profil per HTTP 200, aber nur generischer Instagram-Text ohne auswertbare Profil-/Adressangaben. Kein neuer positiver oder negativer Tätigkeitsnachweis. Gezielte Namens-/Ortssuche lieferte vor allem fremde ALFA-/US-Alpha-Betriebe; deren Kontakte und Ankaufangebote nicht zugeordnet. Historischer Social-Befund vom 01.10. bleibt historisch, kein heutiger Doppelbeleg. Keine Stammdatenfills, status pruefung; Ankauf/Verkauf/Gebühren nicht verifiziert. GeoBedarf: Im Moorhock 63 zunächst als aktuelle Betreiber- und ggf. Annahmeadresse bestätigen, nicht automatisch pinnen. Quellen/Abrufgrenzen: https://recycling-alpha.de/ ; https://www.instagram.com/alpha_recycling/ ; Suchlauf Alpha Recycling Münster/recycling-alpha.de.]

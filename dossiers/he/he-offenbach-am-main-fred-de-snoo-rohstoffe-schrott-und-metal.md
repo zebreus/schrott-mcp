@@ -28,7 +28,13 @@ Die Betreiberwebsite von Fred De Snoo Rohstoffe e.K. beschreibt Schrott-/Metallh
 
 **ANKAUF:** Schrott-/Metallankauf zu aktuellen Tagespreisen beworben, aber keine numerischen Kurse. **VERKAUF:** Metallhandel genannt, keine konkrete Verkaufspreisliste. **GEBÜHREN:** Container-/Muldenservice beschrieben, keine bezifferten Tarife. **GEO:** Betreiber nennt Lämmerspieler Weg 158, 63075 Offenbach als Kontaktadresse; vor Karten-Pin prüfen, ob dies die öffentlich zugängliche Annahmestelle ist.
 
+Die erneut gelesene Leistungsseite beschreibt zusätzlich den Ablauf der Anlieferung: Anmeldung mit Ausweisdokument, Wägung über Fahrzeug- bzw. Handelswaage und Vergütung nach Rückwiegung und Ausladen. Genannte Containergrößen sind 11–40 m³ (Abrollcontainer) bzw. 5–15 m³ (Absetzmulden); das sind Kapazitäten, keine Miet- oder Entsorgungspreise.
+
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Leistungsseite des Betreibers direkt erneut geprüft. Sie beschreibt die Anlieferung mit Anmeldung/Ausweis, Fahrzeug- oder Handelswaage, Rückwiegung und anschließender Vergütung. Abrollcontainer: 11–40 m³; Absetzmulden: 5–15 m³. **ANKAUF:** Vergütung nach Verwiegung, aber kein numerischer Materialkurs. **VERKAUF:** keine konkrete Verkaufsliste auf der geprüften Seite. **GEBÜHREN:** weder Containerpreise noch Entsorgungstarife veröffentlicht; Volumenangaben sind keine Tarife. Keine Frontmatter-Änderung; Kontaktanschrift bleibt vor GEO von einer öffentlichen Annahmestelle zu unterscheiden. Quelle: https://www.freddesnoo.de/schrott-und-metallhandel/ .]
 
 ### Recherche 20.10.2026
 

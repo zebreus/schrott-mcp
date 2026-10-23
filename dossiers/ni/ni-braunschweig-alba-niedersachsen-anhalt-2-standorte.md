@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die offizielle Standortseite der ALBA Niedersachsen-Anhalt GmbH führt in Braunschweig eine Zentrale (Frankfurter Straße 251) und zwei Betriebsstätten (Am Hafen 9 sowie Celler Heerstr. 335), alle mit 0531 8862-222; das erklärt die zwei Betriebsstandorte im Seed plus Zentrale. Das Dossier bleibt ein Mehrstandort-Datensatz, daher keine Einzeladresse in die Frontmatter übernommen.
+
+**Preis-/Tarifabgrenzung:** Eine öffentlich abrufbare Gebühren- und Annahmeseite auf `alba-bs.de` gehört laut Impressum zur rechtlich anderen **ALBA Braunschweig GmbH**, auch wenn sie ebenfalls Frankfurter Straße 251 nennt. Ihre Werte sind nicht auf ALBA Niedersachsen-Anhalt übertragbar. Für das Zielunternehmen fand sich keine numerische Metall-Ankaufsliste; Verkaufspreise und Zielgebühren bleiben offen.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Die offizielle Standortseite von ALBA Niedersachsen-Anhalt direkt gelesen: In Braunschweig stehen eine Zentrale (Frankfurter Straße 251) plus zwei Betriebsstätten (Am Hafen 9 und Celler Heerstr. 335), alle mit 0531 8862-222; insgesamt führt die Gesellschaft sechs Standorte. Das stützt zwei operative Braunschweiger Betriebsstätten, löst aber nicht die Mehrstandort-Zuordnung einzelner Dossierfelder, daher kein Fill. Separater Preislistenfund: Die aktuelle Kunden-/Entsorgungsseite nennt für **ALBA Braunschweig GmbH** am Schrottplatz Altmetalle-only und Auszahlung ab 20 Euro; Metalle/Kunststoffe sind nur für Braunschweiger Einwohner kostenlos. Sie nennt außerdem Gebühren (Privat Rest-/Sperrmüll 15 Euro bis 3 m³, Grünabfall 10 Euro/Fahrzeug bis 3 m³; gewerblich Rest-/Sperrmüll 100 Euro bis 3 m³, Grünabfall 20 Euro bis 3 m³; zusätzlicher Bodenaushub 15 Euro bis 200 l). Das sind Gebühren bzw. Annahmebedingungen, keine Metall-Ankaufspreise, und wegen der getrennten Rechtsperson nicht dem Dossierunternehmen zurechenbar. Dossier-Ankauf/Verkauf/Gebühren bleiben ohne Ziel-Preisliste; keine Frontmatter-Änderung. Quellen: https://nisa.alba.info/unternehmen/standorte/ ; https://alba-bs.de/service/kunden-zentren.html ; Gesellschaftsabgrenzung: https://alba-bs.de/impressum.html .]
 
 ### Recherche 04.10.2026
 

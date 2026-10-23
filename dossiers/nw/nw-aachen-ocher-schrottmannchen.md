@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneuter Direktabruf der bereits identifizierten Findix-Anzeige endete mit Zeitüberschreitung; es gibt daher keinen neu gelesenen Anzeigeninhalt und keinen neuen Betreiberbeleg. Frühere, undatierte Abhol-/Ankaufwerbung bleibt ein Lead und wird nicht zu aktueller Tätigkeit, Hofannahme oder geprüfter Betreiberidentität aufgewertet. Keine Frontmatter-Änderung oder GEO-Freigabe. **ANKAUF:** keine verifizierten Zahlen; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine bestätigte Gratis- oder Tarifregel. Quelle/Abrufgrenze: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen .]
+
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2
 
 - [Recherche 18.10.2026: Suche gezielt nach Betreiberimpressum statt weiterer Branchenbelege, kein passender Primärfund. Facebook-SchrottAachen erneut ohne auswertbaren Betreibertext; nicht als zweites Betreiberprofil gezählt. Findix-Anzeige live gelesen: lediglich hillracer/AachenUmland, kostenlose Altmetallabholung/AnkaufNE/größereAlteisenmengen, zusätzlich Garten-/Räumdienste, ohne Datum und rechtlichen Namen. Suchindex/Anzeige verbinden nicht unabhängig den KroitzheiderWeg oder StefanHillmann mit dem heutigen Anbieter. Keine pauschale kostenlose Entsorgung von Garten-/Räumabfällen aus der Schrottzeile ableiten. Ankauf keine Zahlen, Verkauf keine Liste, Gebühren keine vollständige verifizierte Ordnung. Bestehende Adresse/Kontakte/Zeiten bleiben unbestätigte Altwerte, alter Photon-Hauspunkt ist nur Adressgeocoding und wird nicht als Betriebs-GEO freigegeben. Quellen: https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen ; https://www.facebook.com/SchrottAachen/ .]

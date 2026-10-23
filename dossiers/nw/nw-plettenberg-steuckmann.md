@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Ungeklärter Schrotthandel-Lead „Steuckmann“ für Plettenberg. Ein direkt abgerufener Firmenfinden-Eintrag nennt Friedrich Wilhelm Steuckmann, Herscheider Str. 89 a, 58840 Plettenberg, Altmetalle und 02391 148532; das ist weiterhin nur ein Branchenverzeichnis, keine Betreiber- oder Registerbestätigung. Der aktuelle TSR-Auftritt belegt einen eigenen Metallrecycling-Standort in Plettenberg, nicht die Identität oder Nachfolge von Steuckmann; die Betriebe werden nicht zusammengeführt.
+Ungeklärter Schrotthandel-Lead „Steuckmann“ für Plettenberg. Ein Branchenverzeichnis nennt Friedrich Wilhelm Steuckmann, Herscheider Str. 89 a; ein am 23.10. direkt gelesener Gelbe-Seiten-Eintrag führt denselben Namen und dieselbe Telefonnummer (02391 148532) nun unter Auf dem Stahl 1, 58840 Plettenberg-Holthausen. Beide Angaben sind Portal-Leads; ein Umzug oder eine Nachfolge ist nicht bestätigt. Der aktuelle TSR-Auftritt belegt einen eigenen Metallrecycling-Standort in Plettenberg, nicht die Identität oder Nachfolge von Steuckmann; die Betriebe werden nicht zusammengeführt.
 
 **Preise:** Steuckmann: keine belegte Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung. Die TSR-Website bewirbt für einen separaten Plettenberger Standort FE-/NE-Ankauf, nennt aber keine Zahlenpreise; das ist keine Steuckmann-Preisliste. **Offen:** ob Steuckmann dort noch aktiv ist und ob eine Verbindung/Nachfolge zu TSR besteht. Adresse Max-Planck-Straße 3 nicht ohne Primärbeleg geocodieren.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Gelbe-Seiten-Detail direkt gelesen: „Steuckmann Friedrich-Wilhelm Schrott- und Metallgroßhandel“, Auf dem Stahl 1, 58840 Plettenberg-Holthausen, Telefon 02391 148532, Mo–Fr 08:00–16:00. Name und Rufnummer passen zum älteren Firmenfinden-Lead, dessen Adresse Herscheider Str. 89 a lautet. Das sind weiterhin Verzeichnisangaben ohne Betreiber-/Registerbestätigung: möglicher Adresswechsel bleibt ungeklärt, keine Straße/PLZ/Zeiten ins Frontmatter übernommen. TSR Plettenberg bleibt ein getrenntes Unternehmen; keine Nachfolgekette belegt. **ANKAUF:** keine Steuckmann-Preisliste; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife oder Gratiszusage. Quelle: https://www.gelbeseiten.de/gsbiz/b2392b0e-7287-4c69-9e58-378c8ca58f28 .]
 
 ### Recherche 07.10.2026
 
