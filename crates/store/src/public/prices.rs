@@ -458,6 +458,42 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
         )?;
         tx.commit()?;
     }
+    // Migration 8: Heraeus currently states on its official Hanau branch page
+    // that precious-metal buying has been stopped for technical reasons. The
+    // old Ankauf page now returns 404. Preserve the historical quotes, but do
+    // not leave them or their source-derived acceptances presented as current.
+    if version < 8 {
+        let tx = conn.unchecked_transaction()?;
+        tx.execute_batch(
+            "DELETE FROM current_prices AS c
+             WHERE EXISTS (
+                 SELECT 1 FROM prices p
+                 JOIN traders t ON t.id = p.trader_id
+                 WHERE p.id = c.price_id
+                   AND p.trader_id = c.trader_id
+                   AND p.material_id = c.material_id
+                   AND p.variant = c.variant
+                   AND t.slug = 'he-hanau-heraeus-goldstore-hanau-argor-heraeus-de'
+                   AND p.source_url = 'https://store.heraeus-gold.com/ankauf/'
+                   AND p.source_type = 'haendler_angabe'
+                   AND p.published = 1
+             );
+
+             UPDATE trader_materials
+             SET accepts = 0,
+                 conditions = 'Edelmetallankauf laut Betreiber aus technischen Gründen eingestellt (Quelle geprüft am 23.10.2026); frühere Bedingungen: ' || conditions,
+                 observed_at = strftime('%Y-%m-%dT%H:%M:%f+00:00', 'now'),
+                 updated_at = strftime('%Y-%m-%dT%H:%M:%f+00:00', 'now')
+             WHERE trader_id IN (
+                 SELECT id FROM traders
+                 WHERE slug = 'he-hanau-heraeus-goldstore-hanau-argor-heraeus-de'
+             )
+               AND accepts = 1
+               AND conditions LIKE 'Unverbindlicher Ankauf-Richtwert;%';
+             PRAGMA user_version = 8;",
+        )?;
+        tx.commit()?;
+    }
     Ok(())
 }
 
@@ -2424,7 +2460,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 7);
+        assert_eq!(version, 8);
     }
 
     #[test]
@@ -2536,7 +2572,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 7);
+        assert_eq!(version, 8);
     }
 
     #[test]
@@ -2728,6 +2764,156 @@ mod tests {
             assert_eq!(good.confidence, Some(1.0));
             assert_eq!(good.notes, label);
         }
+    }
+
+    #[test]
+    fn migration_retires_suspended_heraeus_buy_quotes_and_acceptances_only() {
+        const HERAEUS_SLUG: &str = "he-hanau-heraeus-goldstore-hanau-argor-heraeus-de";
+        const HERAEUS_URL: &str = "https://store.heraeus-gold.com/ankauf/";
+        let (_dir, db, trader, copper) = setup("heraeus-buy-suspended");
+        let gold = db
+            .upsert_material(&NewMaterial {
+                slug: "gold",
+                name_de: "Gold",
+                category: "edelmetall",
+                unit: "EUR/g",
+                description: "",
+                updated_at: "2026-10-23T00:00:00Z",
+            })
+            .expect("gold");
+        let silver = db
+            .upsert_material(&NewMaterial {
+                slug: "silber",
+                name_de: "Silber",
+                category: "edelmetall",
+                unit: "EUR/g",
+                description: "",
+                updated_at: "2026-10-23T00:00:00Z",
+            })
+            .expect("silver");
+
+        let heraeus_gold = db
+            .record_price(&NewPrice {
+                unit: "EUR/g",
+                source_url: HERAEUS_URL,
+                notes: "Gold (999)",
+                ..price(
+                    trader,
+                    gold,
+                    110.30,
+                    "2026-10-23T12:14:25Z",
+                    "2026-10-23T12:14:25Z",
+                )
+            })
+            .expect("Heraeus gold quote");
+        let unrelated_copper = db
+            .record_price(&NewPrice {
+                source_url: "https://other.example/buy-prices",
+                notes: "independent copper quote",
+                ..price(
+                    trader,
+                    copper,
+                    8.5,
+                    "2026-10-23T12:14:25Z",
+                    "2026-10-23T12:14:25Z",
+                )
+            })
+            .expect("unrelated quote");
+
+        db.set_acceptance(
+            trader,
+            gold,
+            true,
+            "Unverbindlicher Ankauf-Richtwert; mindestens 10 g",
+            None,
+            None,
+            "2026-10-23T12:14:25Z",
+            "2026-10-23T12:14:25Z",
+        )
+        .expect("Heraeus gold acceptance");
+        db.set_acceptance(
+            trader,
+            silver,
+            true,
+            "Unverbindlicher Ankauf-Richtwert; mindestens 10 g",
+            None,
+            None,
+            "2026-10-23T12:14:25Z",
+            "2026-10-23T12:14:25Z",
+        )
+        .expect("Heraeus silver acceptance");
+        db.set_acceptance(
+            trader,
+            copper,
+            true,
+            "independently reviewed acceptance",
+            None,
+            None,
+            "2026-10-23T12:14:25Z",
+            "2026-10-23T12:14:25Z",
+        )
+        .expect("unrelated acceptance");
+
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute(
+                "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                rusqlite::params![HERAEUS_SLUG, trader],
+            )
+            .expect("set Heraeus slug");
+            conn.execute_batch("PRAGMA user_version = 7;")
+                .expect("simulate pre-migration database");
+            super::migrate(&conn).expect("migration");
+        }
+
+        assert!(db
+            .current_price_for(trader, gold, "")
+            .expect("current gold")
+            .is_none());
+        assert_eq!(
+            db.current_price_for(trader, copper, "")
+                .expect("current copper")
+                .expect("unrelated quote remains current")
+                .id,
+            unrelated_copper
+        );
+        let history = db
+            .price_history(trader, gold, "", 10)
+            .expect("gold history");
+        let retained = history
+            .iter()
+            .find(|row| row.id == heraeus_gold)
+            .expect("historical Heraeus quote retained");
+        assert_eq!(retained.price, 110.30);
+        assert_eq!(retained.notes, "Gold (999)");
+
+        let gold_acceptance = db
+            .existing_acceptance(trader, gold)
+            .expect("gold acceptance")
+            .expect("gold acceptance row");
+        assert!(!gold_acceptance.0);
+        assert!(gold_acceptance
+            .1
+            .contains("aus technischen Gründen eingestellt"));
+        assert!(gold_acceptance.1.contains("frühere Bedingungen"));
+        let silver_acceptance = db
+            .existing_acceptance(trader, silver)
+            .expect("silver acceptance")
+            .expect("silver acceptance row");
+        assert!(!silver_acceptance.0);
+        assert_eq!(
+            db.existing_acceptance(trader, copper)
+                .expect("unrelated acceptance")
+                .expect("unrelated acceptance row"),
+            (true, "independently reviewed acceptance".into())
+        );
+        let version: i64 = db
+            .conn
+            .lock()
+            .expect("lock")
+            .query_row("PRAGMA user_version", [], |row| row.get(0))
+            .expect("version");
+        assert_eq!(version, 8);
     }
 
     #[test]
@@ -3183,7 +3369,7 @@ mod tests {
                     .expect("version lock")
                     .query_row("PRAGMA user_version", [], |r| r.get(0))
                     .expect("version");
-                assert_eq!(version, 7);
+                assert_eq!(version, 8);
                 assert_eq!(
                     db.test_query("SELECT * FROM prices ORDER BY id"),
                     history,
@@ -3307,7 +3493,7 @@ mod tests {
             let version: i64 = conn
                 .query_row("PRAGMA user_version", [], |r| r.get(0))
                 .expect("successful retry version");
-            assert_eq!(version, 7);
+            assert_eq!(version, 8);
         }
         assert_eq!(db.test_query("SELECT * FROM prices ORDER BY id"), history);
         assert!(db.test_query("SELECT * FROM current_prices").is_empty());

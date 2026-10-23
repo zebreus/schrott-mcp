@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://store.heraeus-gold.com
 website_status: aktiv
 status: aktiv
-description: 'Edelmetallankauf im Heraeus Goldstore Hanau: Altgold, Schmuck, Zahngold, LBMA-Barren, Bullionmünzen und Silberwaren; Analyse und endgültiges Angebot nach den aktuellen Annahmebedingungen.'
+description: 'Goldstore Hanau; der Edelmetallankauf ist laut Betreiber aus technischen Gründen eingestellt (Stand 23.10.2026).'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Korrektur 23.10.2026: Die offizielle Filialseite erklärt ausdrücklich: „Aus technischen Gründen wird der Ankauf von Altgold und anderen Edelmetallen eingestellt.“ Ein Wiederaufnahmedatum oder Beginn der Einstellung wird nicht genannt. Die bisherige Ankauf-URL `https://store.heraeus-gold.com/ankauf/` liefert HTTP 404; der offizielle „Gold verkaufen“-Link führt auf die Filialseite zurück, nicht zu einer aktuellen Preisliste. Daher keine alten Ankaufspreise oder Annahmen mehr als aktuell ausgeben; die Handler-Registrierung wird ausgesetzt und die Migration entfernt nur aktuelle Preiszeiger/aktive Ankauf-Annahmen, nicht die Preishistorie. Der Goldstore und sein Barrenverkauf bleiben auf der Betreiberseite beschrieben; kein Beleg für eine Schließung des Händlers. Quelle(n): https://www.heraeus-gold.de/ueber-uns/goldstore-hanau/; https://store.heraeus-gold.com/ankauf/; https://store.heraeus-gold.com/filiale/]
 
 ### Recherche 05.10.2026
 

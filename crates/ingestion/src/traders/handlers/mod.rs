@@ -50,6 +50,8 @@ pub mod hein_schrotthandel;
 pub mod hendrichs_krefeld;
 pub mod henken_friesoythe;
 pub mod hensel_recycling;
+// Keep the qualified parser and fixtures for future reactivation, but do not
+// publish rates while the operator says precious-metal buying is stopped.
 pub mod heraeus_goldstore_hanau;
 pub mod hofmann_metall;
 pub mod hofmann_rastatt;
@@ -199,7 +201,6 @@ pub fn all() -> Vec<Handler> {
         hendrichs_krefeld::handler(),
         henken_friesoythe::handler(),
         hensel_recycling::handler(),
-        heraeus_goldstore_hanau::handler(),
         hofmann_metall::handler_chemnitz(),
         hofmann_metall::handler_zwickau(),
         hofmann_rastatt::handler(),

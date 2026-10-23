@@ -692,15 +692,9 @@ mod tests {
     }
 
     #[test]
-    fn registered_once_at_reviewed_source_with_six_hour_cadence() {
+    fn not_registered_while_operator_says_buying_is_stopped() {
         let handlers = super::super::all();
-        let entries: Vec<_> = handlers.iter().filter(|h| h.slug == SLUG).collect();
-        assert_eq!(entries.len(), 1);
-        assert_eq!(entries[0].url, URL);
-        assert!(matches!(
-            entries[0].schedule,
-            Schedule::Every { secs: 21600 }
-        ));
+        assert!(handlers.iter().all(|h| h.slug != SLUG));
     }
 
     #[test]
