@@ -273,6 +273,24 @@ Extraction processes are killable and limited to 256 MiB address space,
 Backups are WAL-safe only via `sqlite3 <db> ".backup '<dest>'"` —
 never plain `cp` (recent rows live in the `-wal` file).
 
+### GitHub publishing credentials
+
+The owner has confirmed that a GitHub personal access token (PAT) with push
+permission for `zebreus/schrott-mcp` is provisioned for this automation. The
+PAT is a secret: it must never be committed, printed, copied into a remote URL,
+or placed in command history or logs. Use only the protected credential
+injection provided by the execution environment; GitHub CLI supports
+`GH_TOKEN`/`GITHUB_TOKEN` for this purpose. Do not ask the owner to paste the
+PAT into chat.
+
+`gh auth status` reports the local GitHub CLI session, not the owner's grant
+of repository access. Do not conclude that the repo lacks permission from that
+command alone. Check the environment's credential wiring and verify Git's
+effective non-interactive access (for example, `git push --dry-run origin
+<branch>`) before reporting a push blocker. When the PAT is available to
+`gh`, `gh auth setup-git` configures Git to use that authenticated session.
+Never claim a commit was published unless the push succeeds.
+
 ## Logging (systemd journal)
 
 The server logs JSON lines to stderr; systemd journals them as
