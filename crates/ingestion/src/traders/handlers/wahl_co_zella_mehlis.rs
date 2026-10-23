@@ -1166,4 +1166,19 @@ mod tests {
         assert_eq!(info.phone, "03682 483449");
         assert_eq!(info.email, "wahl-@t-online.de");
     }
+
+    #[tokio::test]
+    #[ignore = "read-only live source check; parses the page and Impressum, never records data"]
+    async fn live_handler_parses_the_complete_current_snapshot() {
+        let client = reqwest::Client::builder()
+            .user_agent("schrott-mcp-ingestion/0.1")
+            .timeout(std::time::Duration::from_secs(30))
+            .build()
+            .unwrap();
+        let outcome = super::scrape(&client)
+            .await
+            .expect("current Wahl price page, complete snapshot and Impressum");
+
+        assert_eq!(outcome.prices.len(), SNAPSHOT_PRICE_COUNT);
+    }
 }
