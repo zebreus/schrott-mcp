@@ -28,6 +28,10 @@ Die Website beschreibt ESE Dienstleistung an Hilschbacher Straße 66, 66292 Rieg
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Anbieterkennzeichnung, Kontakt und Leistungsseite der eigenen Website erneut direkt geprüft. Die Seite nennt ESE Dienstleistung, Hilschbacher Straße 66, 66292 Riegelsberg, 0151 65134087 und info@elektro-system-entsorgung.de, aber weiterhin weder natürliche/rechtliche Betreiberperson noch Registerkennung oder aktuelles Zertifikat. Die Ansprechpartnerangabe bezeichnet Rolf Zemolka als Webmaster; sie ist kein Inhaberbeleg. Der Auftritt belegt keine aktuelle Metallvergütung oder Annahmestelle. ANKAUF: keine Vergütung/Kurse; VERKAUF: keine Materialpreisliste; GEBÜHREN: keine Tarife für E-Schrott, Abholung oder Entrümpelung. Adresse bleibt Einzelquellen-Lead ohne Koordinaten; keine Frontmatter-Änderung. Quellen: https://www.elektro-system-entsorgung.de/index-00.html ; https://www.elektro-system-entsorgung.de/index-5.html ; https://www.elektro-system-entsorgung.de/index-2.html.]
+
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: Die eigene Leistungsseite beschreibt weiterhin eine Erstbehandlungsanlage, aber Impressum/Anbieterkennzeichnung benennt keine rechtliche Betreiberperson und kein aktuelles Zertifikat. Die stiftung ear grenzt Erstbehandlung fachlich ab: Altgeräte müssen erstmals behandelt, etwa von Schadstoffen befreit oder zur Wiederverwendung vorbereitet werden; bloßes Sammeln/Lagern genügt nicht. Im öffentlich zugänglichen ear-Verzeichnis ließ sich kein belastbarer ESE-Eintrag zuordnen. Das ist keine amtliche Negativauskunft, daher bleibt die Website-Aussage ungeprüft statt widerlegt. Kein nachgewiesener Metallankauf, keine Ankaufspreise, keine Verkaufsliste und keine Gebührentabelle. Hilschbacher Str. 66 bleibt Adresse aus der Einzelquelle; keine Geokoordinaten ergänzt. Quellen: https://www.elektro-system-entsorgung.de/index-5.html ; https://www.elektro-system-entsorgung.de/index-00.html ; https://www.stiftung-ear.de/themenwelten/wozu-gehoere-ich ; https://www.ear-system.de/ear-verzeichnis/eba (Abruf 20.10.2026).]

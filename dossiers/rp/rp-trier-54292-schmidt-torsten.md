@@ -28,6 +28,10 @@ Die aktuelle Homepage von `firma-torsten-schmidt.de` bewirbt Schrottankauf, Abri
 
 ## Timeline
 
+### Recherche 23.10.2026: Website- und Preisabgleich
+
+- [Recherche 23.10.2026: Betreiberwebsite direkt gelesen. Sie wirbt weiterhin mit Schrottankauf zu aktuellen Marktpreisen, Demontage, Räumungen, Verschrottung/Abholung und kostenloser Besichtigung/Beratung, nennt 0651 21177, 0172 6822786, kontakt@firma-torsten-schmidt.de sowie „Deutschland & Umgebung“/mobile Dienstleistungen. Eine physische Kundenannahmeadresse, Rechtsform und Registerkennung fehlen; der Impressumslink bleibt auf der Seite vorhanden, aber der direkte Pfad `/impressum` war bereits beim Vorcheck 404. ANKAUF: Marktpreiswerbung ohne Zahlenkurse. VERKAUF: keine Ersatzteil-/Materialpreisliste. GEBÜHREN: Besichtigung/Beratung als kostenlos beworben; keine Abbruch-, Abhol- oder Entsorgungstarife. Keine Übernahme der widersprüchlichen Trierer Verzeichnisadressen, Status `pruefung`; Bernkasteler Str. 4 nur bei Nachweis als Kundenstandort geokodieren. Quelle: https://www.firma-torsten-schmidt.de/ (Abruf 23.10.2026).]
+
 ### Owner-Nachprüfung 21.10.2026
 
 - [Korrektur 21.10.2026: Frischer Direktabruf bestätigt, dass die Homepage erreichbar ist und sich als „Torsten Schmidt – Schrotthandel, Abriss + Demontage“ bezeichnet. Sie bewirbt Schrottankauf zu aktuellen Marktpreisen, Verschrottung, Abbruch/Demontage und kostenlose Besichtigung/Beratung; sichtbar sind 0651 21177, 0172 6822786, kontakt@firma-torsten-schmidt.de sowie „Deutschland & Umgebung“ als Servicegebiet. Es werden keine Zahlenpreise und keine physische Annahmeadresse genannt. Der Homepage-Link `/impressum` sowie `/impressum/` liefern aktuell HTTP 404; die zuvor dokumentierte Impressumsaussage ist daher kein aktueller Nachweis. Kein Rechtsform-/Register-/Adressbeleg, keine Bestätigung der Trierer Verzeichnisadresse und keine Frontmatter-Änderung. Quellen/Abruf: https://www.firma-torsten-schmidt.de/ ; https://www.firma-torsten-schmidt.de/impressum (HTTP 404, Abruf 21.10.2026).]

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein aktueller Cylex-Suchtreffer führt „Schrotthandel Jasari“ am Welfenweg 4, 56170 Bendorf, mit Mobilnummer 0176 42948033. Der Direktabruf des Eintrags war nicht möglich; es gibt weiterhin keinen auffindbaren Betreiberauftritt, Registerbeleg oder zweiten zulässigen Identitätsbeleg. Adresse und Nummer bleiben unbestätigte Verzeichnis-Leads; insbesondere ist keine Annahmestelle bestätigt.
+
+**Preise:** ANKAUF: keine Preise oder Materialannahme belegt. VERKAUF: keine Preisliste gefunden. GEBÜHREN: keine Tarife gefunden. Welfenweg 4, 56170 Bendorf nicht geokodieren, bis Betreiberidentität/Standort bestätigt sind.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Namens- und Ortsvarianten erneut gesucht. Der Cylex-Suchtreffer zu „Schrotthandel jasari“ nennt Welfenweg 4, 56170 Bendorf und 0176 42948033/WhatsApp; die Zielseite war beim Direktabruf nicht lesbar (403). Ein ebenfalls angezeigter Video-/Namenslead „Schrott & Metall Handel G&S / Jasari“ ließ sich nicht als Betreiberprofil mit der Bendorfer Adresse verifizieren. Daher keine Namensauflösung, Kontaktfüllung oder Betriebsbehauptung. ANKAUF/VERKAUF/GEBÜHREN: keine Dossier-bezogenen Preislisten/Tarife gefunden. Kandidatenadresse Welfenweg 4 bei späterer Verifizierung neu geokodieren. Quelle: https://web2.cylex.de/firma-home/schrotthandel-jasari-15460171.html (Direktabruf 403; Suchtreffer nur Lead).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

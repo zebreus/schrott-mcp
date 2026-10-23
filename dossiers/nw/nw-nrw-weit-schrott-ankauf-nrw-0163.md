@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt bewirbt mobilen Schrottankauf und Abholung in ganz NRW; laut Website wird Schrott aller Art, darunter FE-/NE-Metalle, E-Schrott und Fahrzeugteile, abgeholt und größere Mengen werden angekauft. Das Impressum nennt Mahmoud El-Lahib, Bahnhofstr. 3, Bochum; es handelt sich um einen Einzelbeleg ohne Registereintrag, und der frühere Adresskonflikt mit Hardenbergstr. 11 bleibt ungelöst. Daher keine Straßenadresse und keine Service-JSON-Zusage ergänzt. **Ankauf:** größere Mengen nach Material/Anfrage, aber keine Zahlenkurse. **Verkauf:** keine Produktpreisliste. **Gebühren:** Website wirbt mit kostenloser Abholung, Verladen und ggf. Demontage; Bedingungen sind nicht tarifiert. Containerdienst wird nur für Gewerbekunden erwähnt, ohne Preis. Diese Werbeaussagen sind keine unabhängig bestätigten Konditionen.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Homepage und Impressum direkt abgerufen. Die Website nennt mobilen Einsatz in ganz NRW, Ankauf größerer Mengen, diverse Metallarten/E-Schrott/Fahrzeugteile, flexible Abholung an sechs Tagen einschließlich Samstag/Abend, Verladen und mögliche Demontagehilfe; Containerservice wird Gewerbekunden angeboten. Sie bewirbt die Abholung als kostenlos, veröffentlicht aber keine Preis-/Annahmebedingungen oder Containergebühren. Das Impressum nennt Mahmoud El-Lahib, Bahnhofstr. 3, 44866 Bochum, 0163 2049842 und info@schrott-ankauf-nrw.de; Einzelunternehmen ohne Registerangabe. Damit ist die Betreiberwerbung zu Leistungen nachvollziehbar, aber die Adressfrage (früherer Gegenlead Hardenbergstr. 11) und die tatsächliche Reichweite einer kostenlosen Abholung bleiben offen. Keine Frontmatter-Änderung; mobile Kontaktanschrift nicht geocodiert und `pickup_json` nicht aus einem Einzelbeleg befüllt. **Ankauf:** keine Zahlenpreise, nur Anfrage/Materialmenge. **Verkauf:** keine Kunden-Preisliste. **Gebühren:** kostenlose Abholung behauptet; Containerpreis nicht ausgewiesen. Quellen: https://www.schrott-ankauf-nrw.de/ ; https://www.schrott-ankauf-nrw.de/impressum/ .]
 
 ### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
 

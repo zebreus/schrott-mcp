@@ -28,6 +28,10 @@ Das Betreiber-Impressum belegt Ewald Lietmann GmbH, Juliusstr. 6, 42105 Wupperta
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Preis- und Impressumsseiten erneut direkt gelesen. Die Preisseite sagt weiterhin, dass aktuelle Preise „bald“ verfügbar seien; sie erklärt den Ankauf als tagesaktuell und abhängig von Börsennotierung, Reinheit/Qualität und Menge, veröffentlicht aber keine Zahlen. Das Impressum bestätigt unverändert Ewald Lietmann GmbH, HRB 5057 Wuppertal, Juliusstraße 6, 42105 Wuppertal, Telefon und E-Mail. **Ankauf:** keine konkrete Preisliste. **Verkauf:** weiterhin keine Produkt-/Preisliste. **Gebühren:** in den geprüften Betreiberseiten kein Container-/Abholtarif. Keine Stammdaten- oder Koordinatenänderung. Quellen: https://www.lietmann-gmbh.de/schrottpreis/ ; https://www.lietmann-gmbh.de/impressum/ .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Offizielles Impressum weist Ewald Lietmann GmbH, Juliusstr. 6, 42105 Wuppertal, HRB 5057 AG Wuppertal, 0202 752888, info@lietmann-gmbh.de aus; Betreiberleistungen bestätigen Schrott-/NE-Metallankauf und -verkauf am Standort. Preis-Seite nennt tagesaktuelle Höchstpreise nach Börsenlage, Reinheit/Qualität und Menge, zeigt aber noch keine Zahlen („Schrottpreise kommen in Kürze“). Anlieferer sollen Ausweis und ggf. Gewerbe-/Steuerbeleg mitbringen. Containerdienst 5–40 m³ beschrieben, jedoch kein Preis-/Gebührentarif. Website nennt Mo–Do 7–16, Fr 7–15; Wochenende geschlossen. Stammdaten aus Primärquelle aktualisiert, Status aktiv; keine Koordinaten oder Service-JSON geändert. Quellen: https://www.lietmann-gmbh.de/impressum/ ; https://www.lietmann-gmbh.de/service-und-leistungen/ ; https://www.lietmann-gmbh.de/schrottpreis/ ; https://www.lietmann-gmbh.de/ueber-uns/]

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Das-Örtliche-Treffer führt lediglich „Schrott Franz und Nelly“ in der Rubrik Schrott und die Telefonnummer 09191 9766322. Er enthält keine Betriebsadresse, Website, E-Mail, Öffnungszeiten oder Annahme-/Abholbedingungen. Da es keine qualifizierte Betreiber- oder Registerquelle gibt, bleiben Name, Gewerblichkeit und Tätigkeit ungeklärt.
+
+**Ankauf:** keine Preis-/Annahmebestätigung; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. **GEO:** keine Straße vorhanden und kein Punkt geokodierbar. Eine lokale Gewerbe-/Betreiberbestätigung ist nötig.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Das Örtliche-Detailseite direkt gelesen: „Schrott Franz und Nelly“, Rubrik Schrott, Telefon 09191 9766322; keine Anschrift, Website, Mail, Öffnungszeiten oder Leistungs-/Preisdetails. Die live gelesene Seite ist weiterhin ein Branchenverzeichnis, keine Betreiber- oder Registerquelle. Die Telefonnummer wird nicht in das Frontmatter übernommen; der frühere Import „Adresse: Forchheim (nur GS)“ bleibt ein Ortslead ohne straßengenaue Adresse. **Ankauf/Verkauf/Gebühren:** keine dem Betrieb zurechenbaren Preislisten oder Tarife. Ohne Straße und bestätigten Kundenstandort keine GEO. Quelle: https://www.dasoertliche.de/Themen/Schrott-Franz-und-Nelly]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

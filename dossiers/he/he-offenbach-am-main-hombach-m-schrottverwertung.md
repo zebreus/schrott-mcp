@@ -30,6 +30,10 @@ Für „Hombach M. Schrottverwertung“ kursieren widersprüchliche Verzeichnis-
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Zusätzlichen aktuellen Verzeichnislead direkt geprüft: Bundestelefonbuch führt „Schrotthandel Inh. M. Hombach“ an Mühlheimer Str. 181, 63075 Offenbach, Telefon 01515 1285906; der Eintrag gibt als letzte Aktualisierung den 25.07.2026 an. Das stützt nur die bereits bekannte Portalvariante Mühlheimer Straße und ist kein unabhängiger Betreiberbeleg. Es löst weder den widersprechenden Gelbe-Seiten-Lead Dieselstraße 38/63071 noch die Identitätsfrage zum parallelen Marco-Hombach-Dossier; keine Umzugs-/Namenskette behauptet. **Ankauf:** keine bestätigten Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Hombach-Tarife. Keine Frontmatter-Änderung und keine GEO. Quelle(n): https://www.bundes-telefonbuch.de/offenbach-am-main/schrott/schrotthandel-inh-m-hombach-bvg10207729276 ; https://www.gelbeseiten.de/gsbiz/10a7b116-ac3b-4c44-ae8a-8168bca54d14 ; https://www.dasoertliche.de/Themen/Schrotthaendler/Offenbach-am-Main.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottverwertung/Schrotthandel

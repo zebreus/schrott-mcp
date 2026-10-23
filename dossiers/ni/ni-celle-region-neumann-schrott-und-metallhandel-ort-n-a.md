@@ -29,6 +29,10 @@ Für den Seed-Namen „Neumann Schrott- und Metallhandel“ bleibt die Celle-Zuo
 
 ## Timeline
 
+### Recherche 23.10.2026: Namensvetter-/Preisabgleich
+
+- [Recherche 23.10.2026: Betreiberseiten zweier gleichnamiger, aber klar ortsferner Neumann-Betriebe geprüft, um eine Namensvermischung auszuschließen: Neumann Entsorgung in Bielefeld nennt Krackser Str. 180, 33689 Bielefeld, 05205 70061; Bruno Neumann Schrott- und Metall-GmbH nennt Glückaufstr. 15–17, 38690 Goslar OT Vienenburg, 05324 1827 und HRB 110211. Keine Verbindung zu Celle, zum Seed-Telefon 0157 0535315 oder zum Eulenpfad-Lead gefunden. Der Bielefelder Betreiber bewirbt Metallankauf, veröffentlicht aber ausdrücklich keine festen Preislisten; das ist nicht dem Celle-Dossier zurechenbar. Für das Dossier weiterhin ANKAUF: keine belastbare Preisliste; VERKAUF: keine Liste; GEBÜHREN: keine zuordenbaren Tarife. Keine Frontmatter-Fills oder GEO. Quellen: https://www.neumann-entsorgung.de/abfallarten/metall ; https://www.bruno-neumann.de/impressum/ ; https://www.dastelefonbuch.de/Branchen/Entsorgungsbetriebe/Celle.]
+
 ### Recherche 16.10.2026 — Welle 13:00 B
 
 - [Recherche 16.10.2026: Paginierung der Telefonbuch-Entsorgungsübersicht tatsächlich verfolgt: Kandidat Neumann Entsorgungen und Entrümpelungen steht auf Seite2, Eulenpfad23/29225 Celle. Das liefert einen reproduzierbaren direkten Lead statt nur Suchauszug, aber weiterhin keinen Betreiber-/Gewerbebeleg für den Seed und keine Verknüpfung der abweichenden Telefonnummern. Frühere Nummer0151 70535315 nicht aus Seed0157 0535315 rechnerisch korrigieren. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste; Entrümpelung nicht automatisch Metallankauf. GEO weiter gesperrt; Eulenpfad weder bestätigte Seedadresse noch belegter Annahmeplatz. Quelle(n): https://www.dastelefonbuch.de/Branchen/Entsorgungsbetriebe/Celle ; https://www.dastelefonbuch.de/Branchen/Entsorgungsbetriebe/Celle/2 .]

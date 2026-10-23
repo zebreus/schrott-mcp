@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Günthers mobiler Schrotthandel“ in der Niederen Börde ließ sich kein eindeutig zurechenbarer Betreiberauftritt, Registertreffer oder belastbarer Standort-/Kontaktbeleg ermitteln. Das ist ein Recherche-Negativbefund, kein Beweis, dass der mobile Anbieter nicht existiert. Das ausgewertete Schrottregister deckt zertifizierte Entsorgungsfachbetriebe bzw. bestimmte Anlagen-/Fahrzeugverwerter ab und ist kein vollständiges Register mobiler Sammler. Keine Preisangaben oder verifizierten Kontakt-/Adressdaten; kein Geocoding.
+Für „Günthers mobiler Schrotthandel“ in der Niederen Börde ließ sich kein eindeutig zurechenbarer Betreiberauftritt, Registertreffer oder belastbarer Standort-/Kontaktbeleg ermitteln. Ein naheliegender Betreiberkandidat ist Metall-Rohstoff-Recycling Molkenthin: dessen eigene Website nennt Günther Fauter als Inhaber, einen Standort in Tangerhütte und Metallankauf. Sie nennt aber weder „Günthers mobiler Schrotthandel“ noch Niedere Börde/Meseberg; die Verbindung zum Seed und der abweichende Standort bleiben ungeklärt. Das ist kein Beweis, dass der mobile Anbieter nicht existiert. Das ausgewertete Schrottregister ist kein vollständiges Register mobiler Sammler.
+
+**Preise:** ANKAUF: der Kandidat wirbt mit Ankauf gängiger Eisen- und Nichteisenmetalle sowie direkter Vergütung an der Barkasse, veröffentlicht aber keine Zahlenkurse; diese Aussage ist nicht dem Seed zugeordnet. VERKAUF: keine Metallverkaufspreise. GEBÜHREN: kostenloser Containerservice wird nur für Großmengen/Firmen beworben; sonst „günstiger“ Service ohne Tarif. Kein GEO für die unbestätigte Niedere-Börde-Adresse; die Tangerhütter Adresse nur bei bestätigter Betreiberkette geokodieren.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Den im Meseberg-Verzeichnis hinterlegten Betreiberlink direkt geprüft. Die Betreiberwebsite nennt „Metall-Rohstoff-Recycling Molkenthin“, Inhaber Günther Fauter, Tangermünder Chaussee 12, 39517 Tangerhütte, Tel. 03935 2795 und Öffnungszeiten Mo–Do 07–16, Fr 07–13. Sie bewirbt Ankauf gängiger Eisen-/Nichteisenmetalle am Standort, sofortige Vergütung an der Barkasse und kostenlosen Containerservice für Großmengen/Firmen; weitere Containerleistungen werden als „günstig“ ohne Preis angeboten. Keine kg-Kurse, Verkaufspreise oder Gebührenhöhe. Die Seite belegt einen Betreiber mit passendem Vornamen und Schrotthandel, nicht dessen Identität mit dem mobilen Seed-Eintrag in der Niederen Börde bzw. mit dem Verzeichnisstandort Winkel 13. Daher keine Fills/Statusänderung; Tangerhütter Adresse nicht dem Dossier zugeschrieben und vor einer solchen Zuordnung geokodieren. Quelle: https://www.mrr-fauter.de/ (direkt gelesen 23.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

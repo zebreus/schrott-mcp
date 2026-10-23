@@ -30,6 +30,10 @@ Keine Mannheimer Kontakte oder kostenlose Abholung als Ludwigshafener Standortda
 
 ## Timeline
 
+### Recherche 23.10.2026: Orts- und Preisabgleich
+
+- [Recherche 23.10.2026: GHN-Betreiberwebsite direkt gelesen: Die Firma bezeichnet sich ausdrücklich als Schrotthändler in Mannheim und nennt ausschließlich Zielstraße 12, 68169 Mannheim als Standort. Sie wirbt mit kostenloser Schrottabholung und bundesweiter Batterieabholung, veröffentlicht aber keine Materialankaufspreise; kostenlose Abholung ist ein Dienstleistungsversprechen und keine Vergütung oder Ludwigshafener Niederlassung. Der separate Ludwigshafener Dossierort bleibt ungeklärt; keine Verknüpfung/Merge mit dem Mannheimer Kandidaten. ANKAUF: keine Zahlenliste. VERKAUF: keine Produktpreisliste. GEBÜHREN: keine Entsorgungs-/Containergebührentabelle; Abholung wird für GHN beworben, aber nicht als Ludwigshafen-Filiale. Quellen: https://ghn-schrott.de/ ; https://ghn-schrott.de/impressum/.]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Zusätzlicher unabhängiger Registerbeleg zum Mannheimer Kandidaten live gelesen: HRB 749678 AG Mannheim, Zielstr. 12, 68169 Mannheim, An-/Verkauf und Sammlung/Transport/Sortierung von Metallen, Kabeln und Altbatterien; Abschlussveröffentlichung 08.07.2026 für 2024. Registerchronik 05.09.2024 nennt Gökhan Nalu als GF statt Fatma Baysal, Betreiber-Impressum weiterhin Fatma Nalu und ohne HRB. Frühere GF-Angabe vom 02.10. daher nur Website-Angabe, nicht aktuell registerbestätigt. Kein Beleg für einen Ludwigshafener Betrieb oder Rechtsnachfolge des Seed-Kürzels; kein Fill/Merge. Mannheimer Schwester-Dossier außerhalb dieses Auftrags nicht geändert; Quelle(n): https://www.northdata.de/GHN+Schrott-+und+Metallrecycling+GmbH,+Mannheim; https://ghn-schrott.de/impressum/.]

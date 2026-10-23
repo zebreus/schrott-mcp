@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der bislang als Horst Petermann geführte Betrieb an der Burgstr. 54 ist nur durch Verzeichnisse als Autoverwertung/Schrotthandel beschrieben. Adresse, PLZ und Telefonnummer sind **nicht durch eine Betreiber- oder Registerquelle bestätigt**. Vier übereinstimmende Portale erfüllen den README-Belegstandard nicht; der zuvor gesetzte Aktivstatus wird deshalb zurückgenommen, nicht als Schließung gewertet.
+Der bislang als Horst Petermann geführte Betrieb an der Burgstr. 54 ist nur durch Verzeichnisse als Autoverwertung/Schrotthandel beschrieben. Adresse, PLZ und Telefonnummer sind **nicht durch eine Betreiber- oder Registerquelle bestätigt**. Ein am 15.10.2026 aktualisiertes 11880-Profil für Mario Petermann führt Burgstr. 54 A mit derselben Nummer 04744 5770 und Öffnungszeiten; das erhöht das Risiko einer Verwechslung/Standortnähe, beweist aber weder Betreiberkette noch Identität. Vier übereinstimmende Portale erfüllen den README-Belegstandard nicht; der zuvor gesetzte Aktivstatus wird deshalb zurückgenommen, nicht als Schließung gewertet.
 
 Ein separater Lead nennt **Mario Petermann, Burgstr. 54A**. Weder eine Betreiberkette noch die Gleichheit beider Betriebe ist nachgewiesen. Gleichnamige Autoverwertungs-Social-/Kleinanzeigenprofile dürfen ohne Inhaber- und Adressabgleich nicht zugeschrieben werden. Offen bleiben heutiger Inhaber, Annahme von losem Altmetall, Vergütung und Besuchszeiten; eine Autoverwertung ist nicht automatisch ein allgemeiner Metallankauf.
 
 ## Timeline
+
+### Recherche 23.10.2026: Namesake-/Kontaktabgleich
+
+- [Recherche 23.10.2026: Das 11880-Profil „Mario Petermann Autoverwertung“ direkt gelesen; es nennt Burgstr. 54 A, 27612 Loxstedt, Tel. 04744 5770 und Öffnungszeiten Mo–Do 09:00–17:30, Fr 09:00–16:30, Sa 09:00–13:00. 11880 weist „Eintragsdaten vom 15.10.2026“ aus. Das ist weiterhin ein Branchenverzeichnis, kein Betreiber-/Registerbeleg; die Telefonnummer stimmt mit dem Horst-Petermann-Lead an Hausnr. 54 überein, eine gemeinsame Telefonnummer/benachbarte Hausnummer beweist keine Identität. ANKAUF: keine Material-/Fahrzeugkurse gefunden. VERKAUF: keine Teilepreisliste. GEBÜHREN: keine Tarife. Keine Übernahme der Mario-Kontaktdaten/Annahmebedingungen ins Horst-Dossier, Status `pruefung` bleibt. Quelle: https://www.11880.com/branchenbuch/loxstedt/060440459B50859108/mario-petermann-autoverwertung.html.]
 
 ### Beleglagenprüfung 05.10.2026
 

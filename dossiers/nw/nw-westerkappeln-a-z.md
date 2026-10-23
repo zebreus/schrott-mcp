@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed nennt nur „A-Z“ als Entrümpler in Westerkappeln. Die Recherchen vom 01. und 04.10.2026 fanden keine eindeutig zuordenbare Betreiberseite, Register-/Kommunalquelle oder unabhängige Identitätsbestätigung; der Verzeichnishinweis bleibt ein Lead. **Ankauf:** nicht bestätigt. **Verkauf:** keine Preisliste. **Gebühren:** keine belegten Räumungs-/Entsorgungstarife. Betreiber, Anschrift, Annahme und aktuelle Tätigkeit bleiben offen; es gibt keine bestätigte Adresse für eine Geokodierung.
 
 ## Timeline
 

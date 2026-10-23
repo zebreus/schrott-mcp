@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für Reinhardt-Recycling zeigen aktuelle Branchenverzeichnisse weiterhin Darmstadt und das Umfeld Akazienweg: 11880 und Darmstadt Post führen nun **Akazienweg 15C, 64293 Darmstadt**; ältere Dossier-/Verzeichnisangaben lauten Nr. 15. Beide Einträge sind Aggregator-Leads, keine Betreiber- oder Gewerbequelle. Der aktuelle Portal-Eintrag nennt außerdem eine Gmail-Adresse; die verlinkte Domain `reinhardt-recycling.de` konnte beim Direktabruf nicht gelesen werden und war in früherer Recherche einem Heinrich Reinhardt in Koblenz zugeordnet. Diese Person/Domain deshalb nicht mit dem Darmstädter Lead verbinden. Die bestehende Straße/Telefonnummer bleiben ungeprüft; keine Annahmebedingungen bestätigt.
+
+**Preise:** Ankauf: keine zuordenbaren Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. **GEO:** 15C ist ein neuer, nicht qualifizierter Adresskandidat; erst nach Betreiber- und Kundenstandortbestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Die direkt gelesenen aktuellen Portaleinträge weichen bei der Hausnummer von der bisherigen seed-/Timeline-Variante ab: 11880 führt Akazienweg 15 C, 64293 Darmstadt, 01575 3641914 und reinhardtjimmy674@gmail.com (Eintrag am 15.10.2026 aktualisiert); Darmstadt Post nennt ebenfalls 15C/64293 und dieselbe Gmail-Adresse. Das sind Verzeichnisquellen und kein zulässiger Betreiber-/Registerbeleg; die übereinstimmenden Portalangaben belegen weder die richtige Hausnummer noch eine aktive Annahmestelle. Der direkte Abruf der verlinkten Domain/Kontaktseite scheiterte erneut an einem Transportfehler; die frühere Koblenzer Zuordnung der Domain/anderen Nummer wird nicht auf den Darmstädter Lead übertragen. Keine Frontmatter-Änderung. **Ankauf/Verkauf/Gebühren:** auf diesen Seiten keine zuordenbaren Konditionen oder Preislisten. Akazienweg 15C bleibt unbestätigt und braucht vor jeder GEO-Zuordnung Betreiber-/Standortklärung. Quelle(n): https://www.11880.com/branchenbuch/darmstadt/060441364B107420953/reinhardt-recycling.html ; https://darmstadt-post.de/unternehmen/darmstadt/entsorgung/reinhardt-recycling-505/ ; https://reinhardt-recycling.de/kontakt]
 
 ### Recherche 02.10.2026
 

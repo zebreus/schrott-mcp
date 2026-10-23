@@ -28,6 +28,10 @@ Northdata bestätigt den registergeführten Altmetallhandel/Holzrecycling Köhn 
 
 ## Timeline
 
+### Recherche 23.10.2026: Verzeichnis-Gegenprobe
+
+- [Recherche 23.10.2026: Ein weiteres Schrottplatzverzeichnis nennt Altmetallhandel und Holzrecycling Köhn e.K. an der Müglitztalstraße 33 g, 01768 Glashütte und Tel. 035053 47191; es behauptet Eisenannahme ab 100 kg und NE ab 1 kg, zeigt aber keine Vergütungskurse und markiert den Betrieb als geschlossen. Das sind nichtbetreiberseitige Verzeichnisdaten ohne aktuelle Annahmebestätigung; die Schließungsanzeige ist kein Schließungsbeleg, und die Mengenangaben werden nicht als Konditionen übernommen. ANKAUF: keine Zahlenliste; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Adresse/GEO bleiben ungeprüft, insbesondere der Zusatz „33 g“ und Kundeneingang. Quelle: https://lokaleschrottplatz.de/altmetallhandel-und-holzrecycling-kohn-e-k/ (Abruf 23.10.2026; Verzeichnis-Lead).]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: NorthData-Eintrag HRA 6100 AG Dresden direkt erneut gelesen: Altmetallhandel und Holzrecycling Köhn e.K., Eintragung 19.01.2006, Inhaberin Sigrun Köhn; öffentliches Profil weiterhin nur mit Ort Glashütte und ohne auslesbare aktuelle Geschäftsstraße. Die aktuelle Registeridentität allein bestätigt weder die aus Verzeichnissen stammende Müglitztalstr. 33G/Telefonnummer noch heutige Kundenannahme. Keine Stammdatenänderung. **Ankauf/Verkauf/Gebühren:** keine aktuellen Zahlenlisten oder Tarife; Adresse bleibt ungeprüft und ohne GEO-Freigabe. Quelle: https://www.northdata.de/Altmetallhandel%20und%20Holzrecycling%20-%20K%C3%B6hn%20-%20e.%20K.,%20Glash%C3%BCtte/Amtsgericht%20Dresden%20HRA%206100 .]

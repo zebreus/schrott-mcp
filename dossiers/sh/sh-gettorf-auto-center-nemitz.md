@@ -28,6 +28,10 @@ Die Domain autoverwertung-nemitz.de ist bei direktem Abruf weiterhin blockiert (
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Direkter erneuter Abruf von https://autoverwertung-nemitz.de/ scheitert weiterhin mit HTTP 403; dadurch keine Betreiberinhalte, kein Impressum und kein aktueller Leistungs-/Preistext lesbar. Die Sperre ist weder Nachweis einer toten Domain noch einer Betriebsschließung. Frühere Suchindexspur Ravensberg 21/24214 Gettorf bleibt ein unbestätigter Gebrauchtwagen-Lead, kein belegter Annahmeplatz. **Ankauf:** keine aktuelle Schrott-/Altfahrzeugannahme oder Kurse bestätigt. **Verkauf:** keine aktuellen Fahrzeugpreise. **Gebühren:** keine Tarife. Kein GEO-Punkt ohne verifizierten Betreiber und Annahmestelle. Quelle: https://autoverwertung-nemitz.de/ (Direktabruf HTTP 403, 23.10.2026).]
+
 ### Recherche 14.10.2026 (18:00-Welle C)
 
 - [Recherche 14.10.2026: Domain und bereits bekannte Unterseite /consulting/ erneut separat direkt angefragt, beide HTTP 403. Kein Betreibertext/Impressum/Leistungskatalog live lesbar; Abrufblockade bestätigt website_status blockiert, ist weder Website-tot- noch Betriebsschließungsnachweis. Frühere Indexspur Ravensberg 21/24214 Gettorf/Gebrauchtwagen bleibt nur vorläufiger Kandidat; keine frische Adress-/Betreiberbestätigung. ANKAUF: Annahme von Altfahrzeugen/Schrott nicht belegt; VERKAUF: frühere Gebrauchtwagenwerbung ohne frisch gelesene Preise; GEBÜHREN: keine Entsorgungs-/Abholtarife. GEO erst nach Rechtsinhaber/Annahmeplatzbestätigung; Quelle(n): https://autoverwertung-nemitz.de ; https://www.autoverwertung-nemitz.de/consulting/ (403).]

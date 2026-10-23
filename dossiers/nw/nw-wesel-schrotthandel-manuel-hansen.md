@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiber-Social-Profile „schrotthandel_manuel_hansen“ und „Schrotthandel, Manuel Hansen Wesel“ stützen Name und Telefonnummer 0152/53363913. Das am 23.10.2026 aktualisierte 11880-Profil nennt dazu Friedenstr. 9 A, 46485 Wesel und Öffnungszeiten; diese Zusatzangaben bleiben Verzeichnis-Leads, nicht durch den Betreiber bestätigte Standort-/Annahmefakten. Daher PLZ/Zeiten nicht übernommen und Adresse nicht geokodiert. Der gleichnamige Wolfgang Hansen in Hamminkeln ist ein getrennt gehaltener Namensvetter. **Ankauf:** keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Status `pruefung`, weil der öffentliche Annahmepunkt und die aktuelle Aktivität weiter nicht unabhängig verifiziert sind.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Das 11880-Einzelprofil wurde erneut direkt gelesen und weist als letzte Profilaktualisierung 23.10.2026 aus; es nennt Friedenstr. 9 A, 46485 Wesel, 01525 3363913 und Mo–Fr/Sa-Öffnungszeiten. Die Kontaktnummer stimmt mit den bereits dokumentierten Betreiber-Social-Leads überein, aber der Adress-/Zeitenteil stammt weiterhin nur aus einem Aggregator; ein Portal-Update-Datum ist keine Betreiberbestätigung. 11880 listet nur die Branche Altmetallrecycling und keine Preisangaben. Keine neuen Frontmatter-Felder, keine Öffnungszeiten/PLZ übernommen; Straße und Annahmefunktion bleiben ungeprüft und ungeocodiert. **Ankauf/Verkauf/Gebühren:** keine belastbare Preis- oder Tarifliste. Quelle: https://www.11880.com/branchenbuch/wesel-am-rhein/060440092B112839078/schrotthandel-manuel-hansen.html ; ergänzender Identitätslead: https://www.instagram.com/schrotthandel_manuel_hansen/ ; https://www.facebook.com/100070363686369/videos/schrott-ankauf-abholung/260105200400112 .]
 
 ### Recherche 03.10.2026
 

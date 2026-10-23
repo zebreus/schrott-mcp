@@ -28,6 +28,10 @@ Die aktuelle Betreiber-Website belegt den Standort Gewerbestraße 9, 04420 Markr
 
 ## Timeline
 
+### Recherche 23.10.2026: Preis- und Konditionenprüfung
+
+- [Recherche 23.10.2026: Betreiberseiten Schrotthandel und Containerdienst direkt gelesen. Der Auftritt nennt Anlieferung/Verwiegung und Ankauf von Altmetallen, Sortierung/Aufbereitung, Weiterverkauf an Stahlwerke/Großhandel sowie Katalysator-Angebote; Container von 7–40 m³ und eine Lkw-Waage bis 60 t. Für den Containerdienst werden Metalle/Schwermetalle und größere Mengen genannt, Bauschutt und Sperrmüll ausdrücklich ausgeschlossen. Die sichtbaren Fließtexte zu Telefon/E-Mail sind durch Seitenskripte entstellt; die `tel:`- und `mailto:`-Links lauten 0341 2317 970 und info@schrottplatz-bachinger.de, aber wegen des bestehenden Impressums-/Rechtsformwiderspruchs kein Frontmatter-Fill. ANKAUF: keine Material-/kg-Kurse, nur Angebot nach Sichtung/Marktpreis. VERKAUF: Weiterverkauf ist beschrieben, keine Verkaufspreisliste. GEBÜHREN: keine Containerpreise veröffentlicht; nicht als kostenlos verstehen. Anschrift bleibt Gewerbestraße 9, 04420 Markranstädt; bestehender GEO-Bedarf unverändert. Quellen: https://www.schrottplatz-bachinger.de/schrotthandel/ ; https://www.schrottplatz-bachinger.de/containerdienst/ ; https://www.schrottplatz-bachinger.de/impressum/.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (3 Generationen)

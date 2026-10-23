@@ -30,6 +30,10 @@ Der einzige konkrete Hasselrother Lead bleibt das GoLocal-Profil „Schrotthande
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Zwei Seiten des Adress-Leads gegengeprüft. Die Betreiberwebsite samt Impressum von Erlensee Automobile nennt Manuel Nergiz, Fahrzeughandel, Alte Hanauer Landstraße 3–5, 63594 Hasselroth; dies ist ein anderer, direkt belegter Betrieb im selben Straßen-/Hausnummernbereich wie der GoLocal-Schrottlead „Alte Hanauer Landstr. 3“. Website, Telefon und Tätigkeit stimmen nicht mit einem JK-Recycling-Beleg überein. Das beweist weder, dass JK dort nicht (mit-)ansässig ist, noch eine Verbindung, Übernahme oder Dublette; es macht die bisherige Hausnummer als Kundenstandort aber zusätzlich klärungsbedürftig. GoLocal bleibt einziger JK-Lead, kein Preis-/Annahmebeleg. **Ankauf/Verkauf/Gebühren:** keine JK-Preise. Keine Frontmatter-Fills und kein GEO; zuerst JK-Rechtsträger, die konkrete Nutzung von Nr. 3 und mögliche räumliche Koexistenz klären. Quelle(n): https://www.erlensee-automobile.de/ ; https://www.erlensee-automobile.de/about ; https://www.golocal.de/hasselroth/sonstige-dienstleistungen/schrotthandel-jk-recycling-11X8ly/]
+
 ### Korrektur 17.10.2026 (Integrationsgrenze)
 
 - [Korrektur 17.10.2026: GoLocal/Kasch bleibt unbestätigter Lead, keine neue qualifizierende Quelle. Neue Suchtreffer zu überwiegend US-Namensvettern beweisen nichts gegen Hasselroth. Aglasterhausen/Darmstadt/SKC bleiben getrennt; Gegenrecherche schon am 04.10. integriert. Nur vorsichtige Textnotiz freigegeben, pruefung bleibt; keine Kontakt-/Servicefills, Clears oder GEO-Freigabe. Quelle: https://www.golocal.de/hasselroth/sonstige-dienstleistungen/schrotthandel-jk-recycling-11X8ly/; research/checkin-20261017-1700-wave13-b-review.md]

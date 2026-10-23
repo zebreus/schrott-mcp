@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Website von Cristofor Schrotthandel ist erreichbar und nennt Cristofor Ciurar sowie Marktheidenfelder Weg 2, 63128 Dietzenbach. Das Impressum führt HRB und Umsatzsteuer-ID weiterhin als „folgt“; die Website ist damit ein Betreiber-Selbstbeleg, aber keine qualifizierte Ein-Quellen-Ausnahme und bislang ohne unabhängige Identitätsbrücke. Kontakt- und Standortfelder bleiben daher leer. Die Betreiberseiten bewerben kostenlose Schrottabholung sowie Ankaufangebote nach Tagesbewertung; ein separater Annahmehof wird nicht unabhängig bestätigt.
+
+**Ankauf:** Kupfer, Aluminium, Edelstahl und Mischschrott werden laut Website nach aktuellem Tagespreis bewertet; keine Zahlenkurse. **Verkauf:** keine Teile-/Materialpreisliste. **Gebühren:** Schrottabholung wird als kostenlos beworben; Containerlieferung zu „fairen Konditionen“ nur auf individuelles Angebot, ohne Tarif. **GEO:** Marktheidenfelder Weg 2 ist eine neue Website-Kandidatenadresse, aber nicht unabhängig als Kundenannahme-/Hofstandort bestätigt; keine Koordinate.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiberwebsite, Impressum sowie Schrottabholung, Schrottankauf und Containerdienst nochmals direkt abgerufen. Impressum nennt Cristofor Ciurar, Marktheidenfelder Weg 2, 63128 Dietzenbach, 0163 9392817 und info@cristofor-schrotthandel.de; HRB und USt-ID stehen weiterhin auf „folgt“. Die Website wirbt mit kostenloser Abholung und bewertet Kupfer, Aluminium, Edelstahl und Mischschrott anhand eines aktuellen Tagespreises; konkrete Ankaufbeträge fehlen. Bar- oder Überweisungsauszahlung wird beschrieben. Der Containerdienst nennt variable Größen und individuelle „faire Konditionen“, aber keinen Preis. Die Ankaufseite erwähnt Anlieferung am „Betriebshof“, weist jedoch keinen getrennten bzw. unabhängigen Annahmestellenbeleg aus; die Kontaktadresse wird nicht ohne zweite Quelle zum Hof umgedeutet. Keine Kontakt-/Service-Fills: Betreiberwebsite bleibt Einzelbeleg ohne Registerkongruenz/Zweitbeleg. **Ankauf:** Tagespreis auf Angebot, keine Zahlenliste. **Verkauf:** keine Verkaufspreise. **Gebühren:** kostenlose Schrottabholung als Betreiberwerbung; Containerkosten unbeziffert/auf Anfrage. Marktheidenfelder Weg 2 bleibt GEO-Kandidat, bis Identität und Kundenstandort unabhängig bestätigt sind. Quelle(n): https://cristofor-schrotthandel.de/ ; https://cristofor-schrotthandel.de/impressum/ ; https://cristofor-schrotthandel.de/schrottabholung/ ; https://cristofor-schrotthandel.de/schrottankauf/ ; https://cristofor-schrotthandel.de/containerdienst/]
 
 ### Recherche 04.10.2026
 

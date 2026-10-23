@@ -12,11 +12,11 @@ opening_hours: ''
 website: https://germany.arcelormittal.com/
 website_status: aktiv
 status: pruefung
-description: ''
+description: Industrieller Einkauf, Aufbereitung und Verkauf von Schrott sowie Reststoffverwertung; keine öffentliche Privatkundenannahme belegt
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Brandenburg (BB) – Recherche
-provenance_ankauf_raw: unklar (vermutlich kein Privatkunden-Ankauf)
+provenance_ankauf_raw: industrieller Schrotteinkauf laut Registerzweck; Privatkundenannahme nicht belegt
 provenance_origin: table
 ---
 
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuelle ArcelorMittal-Standortseite führt die Recyclinggesellschaft als Tochterunternehmen des Stahlwerks und beschreibt industrielles Rohstoffmanagement, Schrott-/Schlackenmanagement sowie Reststoffverwertung. Die branchenspezifische Kontaktseite nennt die ArcelorMittal Eisenhüttenstadt Recycling GmbH, Straße 14 Nr. 3, 15890 Eisenhüttenstadt, 03364 37-5636 und AMERG.Info@arcelormittal.com. Ein separates NorthData-Unternehmensprofil führt denselben Rechtsträger unter HRB 3613 FF mit dieser Adresse und dem industriellen Schrott-/Reststoffgeschäft. Ein archivierter Stand des früheren eigenen Impressums bestätigt diese Angaben ebenfalls; die alte Live-URL leitet inzwischen auf die allgemeine Standortseite um. Zusammen belegen die aktuelle Betreiberseite und der Registerdatenbankeintrag Rechtsträger, Kontakt und Standort, nicht aber Privatkundenannahme.
+Die aktuelle ArcelorMittal-Standortseite führt die Recyclinggesellschaft als Tochterunternehmen des Stahlwerks und beschreibt industrielles Rohstoffmanagement, Schrott-/Schlackenmanagement sowie Reststoffverwertung. NorthData führt für HRB 3613 FF ausdrücklich den Einkauf von Schrotten aller Art, deren industrielle Aufbereitung und den Verkauf einsatzfähiger Schrotte als Gesellschaftszweck. Die branchenspezifische Kontaktseite nennt Straße 14 Nr. 3, 15890 Eisenhüttenstadt, 03364 37-5636 und AMERG.Info@arcelormittal.com; ein archivierter Stand des früheren eigenen Impressums bestätigt diese Angaben ebenfalls. Damit ist industrieller Schrotteinkauf belegt, aber keine öffentliche Privatkundenannahme an dieser Adresse.
 
 **Preise:** ANKAUF — keine öffentlich zugänglichen Kundentarife oder Schrottpreisliste gefunden; industrielle Einkaufsbedingungen nicht ableiten. VERKAUF — keine Produktpreisliste. GEBÜHREN — keine Angaben. **Offen:** ob Privatpersonen anliefern können, welche Materialien angenommen werden und welche Annahmebedingungen gelten. **GEO:** neu belegte Adresse muss geokodiert werden; hier keine Koordinaten gesetzt.
 
 ## Timeline
+
+### Recherche 23.10.2026: Einkaufszweck und Preisabgleich
+
+- [Recherche 23.10.2026: Das direkt gelesene NorthData-Profil (HRB 3613 FF) nennt als Gesellschaftszweck den Einkauf von Schrotten aller Art, industrielle Aufbereitung/Bearbeitung und Verkauf einsatzfähiger Schrotte; die aktuelle ArcelorMittal-Standortseite beschreibt Rohstoff-, Schrott- und Schlackenmanagement. Damit lässt sich „Ankauf unklar“ fachlich präzisieren: industrieller Schrotteinkauf ist belegt, nicht aber Annahme durch Privatkundschaft oder freie öffentliche Anlieferung. ANKAUF: keine Kundentarife/Zahlenliste; VERKAUF: keine Produktpreisliste; GEBÜHREN: keine Tarifangabe. Name/Kontakt unverändert; die Adresse Straße 14 Nr. 3 braucht weiterhin GEO-Prüfung, falls ein Standortpunkt gesetzt werden soll. Quellen: https://www.northdata.de/ArcelorMittal+Eisenh%C3%BCttenstadt+Recycling+GmbH,+Eisenh%C3%BCttenstadt/Amtsgericht+Frankfurt-Oder+HRB+3613 ; https://germany.arcelormittal.com/Standorte-und-Werke/ArcelorMittal-Eisenhuettenstadt-Recycling/.]
 
 ### Recherche 20.10.2026
 

@@ -28,6 +28,10 @@ Registerdaten führen Sanfa-Recycling UG, HRB 511280 AG Jena, mit dem Gesellscha
 
 ## Timeline
 
+### Recherche 23.10.2026: Registerspiegel-Gegenprüfung
+
+- [Recherche 23.10.2026: Ein zusätzliches Registerdatenportal führt Sanfa-Recycling UG (haftungsbeschränkt), HRB 511280 AG Jena, als „ACTIVE“ und zeigt die in der NorthData-Historie datierte Geschäftsanschrift Stotternheimer Straße 37 b, 99087 Erfurt. Das ist eine strukturierte Registerdaten-Wiedergabe, keine Betreiberseite oder Annahmestellenprüfung; der konkurrierende Creditsafe-Lead Walter-Gropius-Straße 6 ist damit nicht mit Datumsgrundlage aufgelöst. Registerstatus aktiv beweist keine aktive Kundenannahme. Keine Frontmatter-Füllung. ANKAUF: keine Preise; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Stotternheimer Straße bleibt Registeradresse, keine GEO-Freigabe als Annahmestelle. Quellen: https://handelsregister.ai/de/organizations/erfurt/grosshandel-mit-ne-erzen-ne-metallen-und-ne-metallhalbzeug/sanfa-recycling-ug-haftungsbeschrankt-2e017145fbf7af7e1ad863cb3381ef15 ; https://www.northdata.de/Sanfa-Recycling%20UG,%20Erfurt/Amtsgericht%20Jena%20HRB%20511280.]
+
 ### Recherche 21.10.2026 — Register- und Preisabgleich
 
 - [Recherche 21.10.2026: Das direkt gelesene North-Data-Profil des Registerspiegels führt Sanfa-Recycling UG, AG Jena HRB 511280, mit Registeranschrift Stotternheimer Str. 37 b, 99087 Erfurt und Zweck „Handel mit Sekundärrohstoffen“; die dazugehörige Veröffentlichung datiert die Anschriftenänderung auf 10.11.2023. Profil und Veröffentlichung sind derselbe Registerspiegel, keine zwei unabhängigen Belege. Sie bestätigen keine heutige Kundenannahme an der Adresse; der ältere/undatierte Creditsafe-Gegenlead Walter-Gropius-Str. 6 bleibt ungeklärt. ANKAUF: keine Preise; VERKAUF: keine Liste; GEBÜHREN: keine Tarifangabe. Keine Frontmatter-Füllung. Quellen: https://www.northdata.de/Sanfa-Recycling%20UG,%20Erfurt/Amtsgericht%20Jena%20HRB%20511280 ; https://www.northdata.de/?id=6635312440934400]
