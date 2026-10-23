@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Handelsregister führt die Marske Schrotthandel und Metallverwertung GmbH & Co. KG (HRA 22188 B) mit Berliner Sitz; die historische amtliche Anlagenliste nennt Marske an Lahnstraße 3–5. Das belegt die Gesellschaft und historische Standortzuordnung, aber nicht die aktuelle Privatkundenannahme. Die historische Domain `marske-gmbh.de` liefert derzeit Glücksspielinhalte statt eines Händlerauftritts; aktuelle Verzeichnisse nennen zudem unterschiedliche Telefonnummern. Status deshalb `pruefung`, nicht geschlossen.
+
+- **Ankauf:** historischer Verzeichnis-Seed nennt Metalle/Ankauf, aber keine aktuelle Betreiberbestätigung und keine numerischen Kurse.
+- **Verkauf:** keine aktuelle Produkt-/Preisliste.
+- **Gebühren:** keine aktuelle Tarifliste oder Gratisregel.
+- **GEO:** Lahnstraße 3–5 bleibt register-/historisch gestützter Standort, aber heutige Annahmefunktion nicht bestätigt; vor Pinning Standortbetrieb klären.
 
 ## Timeline
+
+### Korrektur 23.10.2026: aktuelle Tätigkeit bleibt offen
+
+- [Korrektur 23.10.2026: Ein neuer Direktabruf von marske-gmbh.de zeigt weiterhin Casino-/Glücksspielinhalte statt eines Metallbetriebs. Die Domain ist daher nicht als aktive Händlerwebsite zu führen; Inhalt allein beweist aber keine Betriebsschließung. Ein aktueller Cylex-Suchtreffer nennt Marske Schrotthandel und Metallverwertung, Lahnstr. 3–5, aber eine abweichende Telefonnummer 030 6841582; MapQuest wiederholt den Namen/Standort und zeigt Mo–Fr 07–16, jedoch nur als Aggregator und ohne Betreiberidentität. Der Frontmatter-Kontakt 030 6841513 bleibt deshalb unbestätigt und wurde nicht überschrieben. Zusammen mit der aktiven Handelsregisteridentität HRA 22188 und der fehlenden belastbaren Betreiber-/Annahmeseite ist `aktiv` zu stark für einen Händlerstatus; auf `pruefung` korrigiert, ohne Schließung zu behaupten. **Ankauf:** keine aktuellen Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. **GEO:** Lahnstraße 3–5 nicht als aktuelle Annahmestelle bestätigt; keine Koordinate. Quellen/Leads: https://marske-gmbh.de ; https://web2.cylex.de/firma-home/marske-schrotthandel-und-metallverwertung-1957550.html (Direktabruf 403, Suchindex-Lead) ; https://www.mapquest.com/de/berlin/marske-schrotthandel-metallverwertung-806386024 ; https://www.northdata.de/Marske%20Schrotthandel%20und%20Metallverwertung%20GmbH%20&%20Co%C2%B7%20KG,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRA%2022188%20B .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

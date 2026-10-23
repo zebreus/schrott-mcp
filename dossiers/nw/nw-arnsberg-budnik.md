@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Frontmattername ist Budnik; die bisherige Historie ordnet Kontaktfelder dem Verzeichnislead Rolf Budnik Schrott-RohstoffHdl., Sternhelle 18, 59757 Arnsberg-Herdringen, 02932 36942 zu. Keine aktuelle Betreiberidentität bestätigt; Portal-Aktualisierungsdatum ersetzt Betreiberprüfung nicht. Betreiber-/Registerbeleg und numerische Ankaufskurse, Verkaufspreise oder Gebühren in den Unterlagen nicht dokumentiert. Status pruefung; alte Kontakt-/Beschreibungsfelder unverifiziert. Der frühere Geocoding-Befund bestätigt die Hausnummer nicht und wird heute nicht neu geprüft.
+Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 36942 stammen aus dem Verzeichnislead „Rolf Budnik Schrott-RohstoffHdl.“. Eine aktuelle Betreiberidentität ist nicht bestätigt; Portal-Aktualisierungsdaten ersetzen keine Betreiberprüfung. Status `pruefung`; Kontakt und Beschreibung bleiben ungeprüfte Leads.
+
+- **Ankauf:** keine aktuelle Annahmebestätigung oder Zahlenkurse.
+- **Verkauf:** keine zuordenbare Produkt-/Preisliste.
+- **Gebühren:** keine Tarifliste; kostenfreie Leistung nicht belegt.
+- **GEO:** frühere Photon-Suche fand nur die Straße, keine bestätigte Hausnummer/Betreiberbindung; keine Koordinaten übernommen.
 
 ## Timeline
+
+### Recherche 23.10.2026: erneuter Aktualitätsabgleich
+
+- [Recherche 23.10.2026: Der aktuelle 11880-Treffer führt weiter Rolf Budnik, Sternhelle 18, 59757 Arnsberg-Herdringen, Telefon 02932 36942, Fachbereiche Altmaterialhandel/Schrotthandel/Recycling; Öffnungszeiten fehlen. Der Treffer bleibt ein einzelner Aggregator ohne Betreiber-/Registerkonkordanz. Kein Ankaufspreis, Verkaufspreis oder Gebührentarif veröffentlicht; Status `pruefung`, Adresse/Telefon und GEO nicht neu freigegeben. Quelle (Lead): https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

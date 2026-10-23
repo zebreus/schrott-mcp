@@ -36,6 +36,7 @@ Die TSR-Betreiberseite für Hannover beschreibt eindeutig den Lindener Hafen, Al
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Der aktuelle Suchindex der offiziellen TSR-Detailseite für Hannover führt weiter den Lindener Hafen, Alte Speicherstraße 17, 30453 Hannover, Telefon 0511 92177-0. Er belegt nicht den als „Nordhafen“ bezeichneten zweiten Standort Hansastraße 9; eine unabhängige Verzeichnis-Spur genügt nicht, um ihn der TSR-Detailseite oder diesem Mehrstandort-Datensatz zuzuordnen. Keine Adresse/GEO auf das Gesamt-Dossier übertragen. Ankauf: FE-/NE-Annahme und unverbindliche Preisanfrage, aber keine Zahlenliste; Verkauf und Gebühren ohne belegte Preislisten. Quelle (Betreiber-Suchindex/Standortseite): https://www.tsr-recycling.de/standorte/schrotthaendler-hannover .]
+- [Recherche 23.10.2026: Die offizielle Hannover-Detailseite wurde nun direkt ausgelesen: Sie beschreibt den Standort Lindener Hafen am Stichkanal und führt dieselben Öffnungs-, Kassen- und Materialannahmezeiten wie im Suchindex. Die Seite bestätigt weiterhin weder den Nordhafen-Eintrag an Hansastraße 9 noch einen zweiten gemeinsamen Standort. Daher keine Anschrift/GEO für den Mehrstandort-Datensatz und keine Änderung am Scope. **Ankauf:** Standortseite nennt Schrott-/Altmetallannahme und Preisberatung, aber keine numerischen Kurse. **Verkauf:** keine standortbezogene Liste. **Gebühren:** keine Gebühren-/Containerpreisliste. Quelle: https://www.tsr-recycling.de/standorte/schrotthaendler-hannover .]
 
 ### Recherche 20.10.2026 — Eigenrecherche
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Thüringen Recycling bestätigt in der eigenen Historie die Übernahme der Firma Fernkorn in Weimar im Januar 2020. Die aktuelle Niederlassungsseite führt für Weimar einen Schrottplatz/Containerdienst an Dürrenbacher Hütte 1c, 99427 Weimar, Telefon 03643 420205. Das ist ein starker Betreiberketten- und Standortkandidat, aber die Zuordnung der alten Seed-Adresse Rießnerstr. 1 zur heutigen Betriebsstätte ist mit der verfügbaren einzigen Betreiberquelle und ohne unabhängige zweite Identitätsquelle nicht abschließend abgesichert. Deshalb alte Felder nicht überschrieben. **Ankauf:** Thüringen Recycling wirbt allgemein mit Ankauf von Wertstoffen/Schrott, aber ohne Zahlenkurs. **Verkauf:** keine Liste. **Gebühren:** keine bezifferten Container-/Entsorgungstarife. Die mögliche neue Adresse Dürrenbacher Hütte 1c muss bei späterer Zuordnung neu geokodiert werden.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Aktuelle Seiten von Thüringen Recycling direkt geprüft. Die Betreiberhistorie nennt „Januar 2020 Übernahme der Firma Fernkorn in Weimar“; die aktuelle Seite „Niederlassungen“ bezeichnet Weimar ausdrücklich als Niederlassung/Containerdienst/Schrottplatz an Dürrenbacher Hütte 1c, 99427 Weimar, Telefon 03643 420205. Die Wertstoffseite bewirbt Sammlung/Abtransport von Schrott und Altmetallen durch Containerdienst sowie den Verkauf von Produktionsabfällen/Wertstoffen an Thüringen Recycling. Das sind Betreiberangaben; die Identitätsfrage Fernkorn-Seed → heutiger Weimar-Standort verlangt laut README weiterhin eine unabhängige zweite Quelle. Daher keine Übernahme in Frontmatter, `website_status: tot` und Seedadresse Rießnerstr. 1 unverändert; daraus auch keine Schließung ableiten. **Ankauf:** keine Zahlenkurse; **Verkauf:** keine öffentliche Preisliste; **Gebühren:** keine konkreten Containergebühren. Potenzielle aktuelle Adresse Dürrenbacher Hütte 1c mit GEO-Bedarf, falls Identitätskette bestätigt wird. Quellen: https://www.thueringen-recycling.de/historie-thueringen-recycling-sekundaerrohstoffe ; https://www.thueringen-recycling.de/containerdienst-erfurt-weimar-bad-langensalza-niederlassungen ; https://www.thueringen-recycling.de/wertstoffe .]
 
 ### Recherche 04.10.2026
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed bezeichnet eine „Teucher AV“ in Mildenau und überliefert Steinbacher Str. 1; als einzige bisherige Kontaktdaten erscheinen ein Aggregator-Telefonlead 037343 7377 und die inzwischen nicht zuverlässig erreichbare Domain `teucher-autoverwertung.de`. Ein aktueller Betreiber-/Register-/Kommunalbeleg für Inhaber, Tätigkeit, Adresse oder Annahme wurde nicht gefunden. Eine nicht erreichbare Website ist für sich kein Schließungsnachweis. **Ankauf:** keine bestätigten Fahrzeug- oder Metallkurse. **Verkauf:** keine Teileliste. **Gebühren:** keine belegten Tarife. Adresse und Status bleiben Prüfhinweise; kein GEO ohne bestätigten Standort.
 
 ## Timeline
 
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KLÄRFALL — teucher-autoverwertung.de tot, nur Aggregator-Leads (Steinbacher Str. 1, Tel. 037343 7377), kein zweiter unabhängiger Beleg — kein Fill; Quelle(n): Verzeichnis-Leads]
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneuter Direktabruf der historischen Betreiberdomain `https://teucher-autoverwertung.de/` endete mit einem Transportfehler; das beweist weder Nichtexistenz noch Schließung. Die aktuelle exakte Namens-/Ortsrecherche brachte keinen neuen qualifizierten Betreiber-, Register- oder kommunalen Beleg. Daher keine Wiederherstellung von Adresse/Telefon und keine Statusänderung. **Ankauf/Verkauf/Gebühren:** weiterhin keine zuordenbaren Preise oder Tarife. Potenzielle alte Adresse Steinbacher Straße 1 nur bei Betreiber- und Kundenstandortbestätigung geokodieren. Quelle (nicht erreichbarer Betreiberdomain-Abruf): https://teucher-autoverwertung.de/ .]

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed führt „Peter Schneider Metallhandel“ an Schlachthofstr. 37; diese Anschrift und die in älteren Verzeichnis-Leads genannte Rufnummer 0641 66235 sind nicht durch eine Betreiberquelle bestätigt. Als separater Kandidat ist die MP Schneider GmbH an der benachbarten Schlachthofstraße 38, Gießen, belegt: eigenes Impressum nennt Marcus und Peter Schneider, HRB 9721, 0641 63543 und info@mpschneidermetall.de. Hausnummernnähe und Namensüberschneidung beweisen keine Identität, Übernahme oder Filialbeziehung; daher keine Website-/Adress-/Kontaktübertragung.
+Der Seed führt „Peter Schneider Metallhandel“ an Schlachthofstr. 37; diese Anschrift und die in älteren Verzeichnis-Leads genannte Rufnummer 0641 66235 sind nicht durch eine Betreiberquelle bestätigt. Als Kandidat ist die MP Schneider GmbH an der benachbarten Schlachthofstraße 38, Gießen, belegt: eigenes Impressum nennt Marcus und Peter Schneider, HRB 9721, 0641 63543 und info@mpschneidermetall.de. Bei der aktuellen Direktprüfung verlinkte die Betreiberwebsite ihre Google-Karte mit dem Place-Namen „Peter Schneider Metallhandel“ an Hausnummer 38, ein engerer Namenshinweis, aber weiterhin kein unabhängiger Nachweis für den Seed oder die abweichende Nr. 37. Keine Website-/Adress-/Kontaktübertragung ohne Identitäts-/Rechtsnachfolgekette.
 
 **Ankauf / Verkauf / Gebühren:** keine dem Seed zurechenbaren Preise oder Gebühren. Keine Geokodierung des alten Straßenleads oder der Kandidatenadresse, bevor die Zuordnung geklärt ist; Status `pruefung`.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: MP-Schneider-Startseite und Impressum direkt erneut gelesen. Der Betreiber nennt MP Schneider GmbH, Schlachthofstraße 38, 35398 Gießen, HRB 9721 AG Gießen, Geschäftsführer Marcus und Peter Schneider sowie Telefon 0641 63543. Der auf der Betreiberseite eingebettete Google-Maps-Link trägt den Place-Namen „Peter Schneider Metallhandel“ für Nr. 38; dies ist ein neuer Namens-/Standorthinweis, aber kein unabhängiger Identitätsbeleg und erklärt nicht die Seed-/Verzeichnisadresse Nr. 37 bzw. Rufnummer 0641 66235. Die Betreiberseite sagt außerdem nur „ab einer bestimmten Mindestmenge“ werde Altmetall gegen Bargeld getauscht; Menge und Kurse fehlen. Keine MP-Leistung oder Preise dem Seed zugerechnet. **Ankauf:** keine seedbezogenen Kurse; **Verkauf:** keine seedbezogene Liste; **Gebühren:** keine seedbezogenen Tarife. Keine GEO-Änderung; mögliche Kandidatenadresse Nr. 38 erst nach Identitätsklärung geokodieren. Quellen (Kandidat, keine Seedbestätigung): https://www.mpschneidermetall.de/ ; https://www.mpschneidermetall.de/impressum/ .]
 
 ### Recherche 22.10.2026
 

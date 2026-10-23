@@ -24,11 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnis-Seed mit unbestätigten Kontakt-/Adresswerten Siemensstr.12,24340Eckernförde/01723721669; kein qualifizierter Zweitbeleg. Wichtig: die neue Suchspur stefan-tietjen.de ist eine private Link-/Affiliate-Sammlung, deren Impressum Lilienthal nennt. Deren externer Schrottpreislink ist keine Betreiber-Preisliste für Eckernförde und kein Umzugsnachweis. Nicht mit Barmstedter Tietjen oder Lilienthal gleichsetzen.
+Verzeichnis-Seed mit unbestätigten Kontakt-/Adresswerten Siemensstr. 12, 24340 Eckernförde, 0172 3721669. Ein Das-Örtliche-Treffer wiederholt diese Daten, ist aber ebenso wenig ein Betreiberbeleg. Die Domain stefan-tietjen.de gehört laut Impressum zu einer Person in Lilienthal; ihr externer Schrottpreislink ist keine Tietjen-Preisliste für Eckernförde und kein Umzugsnachweis. Nicht mit Barmstedter Tietjen oder Lilienthal gleichsetzen.
 
-**Ankauf:** Seed behauptet ja, heutige Vergütung unbestätigt, keine Händlerkurse. **Verkauf:** keine zugeordnete Liste. **Gebühren:** keine zugeordneten Tarife. Geocoding der Seed-Adresse erst nach Betriebsbestätigung.
+- **Ankauf:** Seed behauptet ja; heutige Vergütung unbestätigt, keine Händlerkurse.
+- **Verkauf:** keine zugeordnete Liste.
+- **Gebühren:** keine zugeordneten Tarife.
+- **GEO:** Siemensstraße 12 erst nach Betriebsbestätigung geocodieren.
 
 ## Timeline
+
+### Recherche 23.10.2026: erneute Adress-/Kontaktprüfung
+
+- [Recherche 23.10.2026: Das Örtliche führt Tietjen Stefan, Siemensstr. 12, 24340 Eckernförde und 0172 3721669; dieselben Daten stehen auf Gelbe Seiten. Das sind Portal-Leads, kein unabhängiger Betreiber-/Registerbeleg. Die Suche nach der exakten Adresse/Rufnummer ergab keine Betreiberwebsite oder aktuelle Geschäftsinformation; die Lilienthaler Domain bleibt ein Namens-/Preislink ohne Ortsverbindung. Ankauf: keine Zahlenkurse; Verkauf: keine Liste; Gebühren: keine Tarife. Keine Stammdatenänderung oder Geocodierung. Quellen/Leads: https://www.dasoertliche.de/Themen/Tietjen-Stefan-Eckernf%C3%B6rde-Siemensstr ; https://www.gelbeseiten.de/gsbiz/b8c972ce-123c-4d2e-85d1-eb40938c5332 ; https://www.stefan-tietjen.de/impressum.htm .]
 
 ### Namesake-/Preisprüfung 08.10.2026
 

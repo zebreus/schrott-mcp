@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gelbe Seiten führt „Lorsbächer Romano Schrotthandel“ als Schrottbetrieb an Heinrich-Heine-Str. 31, 65201 Wiesbaden-Schierstein, Telefon 0178 8604462. Das bleibt ein Branchenbuch-Lead: kein Betreiber-Impressum, kein Register- oder kommunaler Nachweis und keine zulässige unabhängige Zweitquelle gefunden. Auch die Branchenrubriken zu Schrottankauf, Abholung, Demontage und Fahrzeugentsorgung sind keine bestätigten Betreiberbedingungen. **Ankauf:** keine Kurse oder Vergütungsbedingungen belegt. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Die Kandidatenadresse erst nach Identitäts- und Annahmestellenklärung übernehmen oder geokodieren.
 
 ## Timeline
 
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: duenner Lead - Gelbe Seiten listet Lorsbaecher Romano Schrotthandel, Heinrich-Heine-Str. 31, 65201 Wiesbaden (Schierstein), Tel. 0178 8604462 (reiner Aggregator-Eintrag); kein Betreiber, kein Zweitbeleg; kein Fill; Folgewelle: Gewerberegister Wiesbaden; Quelle(n): gelbeseiten.de (Lead, 02.10.2026)]
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Gelbe-Seiten-Detail direkt erneut gelesen: Heinrich-Heine-Str. 31, 65201 Wiesbaden-Schierstein, 0178 8604462; das Portal listet als Leistungsrubriken unter anderem Schrottankauf/-abholung, Demontage und Fahrzeugentsorgung, zeigt aber keine Öffnungszeiten, keinen identifizierenden Betreiberlink und keine Bewertungen. Das ist weiterhin nur ein einzelner Aggregator-Beleg; Kategorien sind weder bestätigte Annahmebedingungen noch Preis-/Gebührenangaben. Frontmatter bleibt unverändert. **Ankauf:** keine Zahlen oder konkreten Vergütungsbedingungen. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Kein GEO vor Identitäts- und Kundenstandortnachweis. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/d6e0887b-c37b-408a-9575-2aefb63f36a6 .]

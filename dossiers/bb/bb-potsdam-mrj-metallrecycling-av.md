@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-„MRJ Metallrecycling AV“ ist mit Ahornstr. 28–32, 14482 Potsdam, Tel. 0331 7040990 bislang nur durch Gelbe-Seiten-/11880-Einträge belegt. Eine zuordenbare Betreiberwebsite, Registerquelle oder zweite zulässige Primärquelle wurde nicht gefunden. Die Portalkategorie bzw. Trefferbezeichnung „Autoverwertung/Metallrecycling“ belegt weder die aktuelle Annahme noch einen tatsächlich geöffneten Standort; die vorhandenen Daten bleiben Leads. Der vorherige Status `aktiv` wird deshalb vorsorglich auf `pruefung` gesetzt, nicht als Schließungsbehauptung. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
+Die aktuelle Annahmestellenliste der APM führt **Metall-Recycling-Jaretzke**, Ahornstraße 28, 14482 Potsdam, 0331 7040990 unter Altautoverwertung. Ein amtlicher Berliner Abfallwirtschaftsplan (Stand 2017) nennt am Standort Ahornstraße 28–32 die Altfahrzeugbehandlungsanlage „MRJ Metall Recycling Potsdam“. Standort- und Namensnähe sowie die Telefonnummer machen eine Verbindung plausibel, belegen aber keine aktuelle Betreiber- oder Nachfolgekette. Daher bleiben Seed-Name und Seed-Adresse unverändert; Jaretzke ist ein ungeklärter Kandidat, keine bestätigte Umbenennung. Der APM-Eintrag verlangt, Preise, Annahmekriterien und Zeiten direkt abzustimmen. Status `pruefung` bleibt.
+
+- **Ankauf:** APM listet den Betrieb als Altautoverwertung, nennt aber keine Vergütung oder Ankaufspreise; allgemeiner Metallankauf ist nicht belegt.
+- **Verkauf:** keine aktuelle Teile-/Materialpreisliste.
+- **Gebühren:** keine Tarife oder kostenfreie Abgabe ausgewiesen; APM verweist auf direkte Abstimmung.
+- **GEO:** Seed-Adresse Ahornstr. 28–32 bleibt ungeprüft; die APM-Adresse Ahornstraße 28 gehört zum ungeklärten Kandidaten und wird nicht als MRJ-Standort geokodiert. Koordinaten nicht gesetzt.
 
 ## Timeline
+
+### Recherche 23.10.2026: aktuelle APM-Annahmestellenliste
+
+- [Recherche 23.10.2026: Der aktuelle APM-Auftritt „Annahmestellen für Ihre Abfälle und Wertstoffe“ führt „Metall-Recycling-Jaretzke“, Ahornstraße 28, 14482 Potsdam, Tel. 0331 7040990, unter Altautoverwertung. Die dortige Einleitung weist ausdrücklich darauf hin, Preise, Annahmekriterien (Art/Menge), Öffnungszeiten und Abwicklung direkt mit dem jeweiligen Unternehmen abzustimmen. Der Berliner Abfallwirtschaftsplan (Stand Juni 2017) nennt „MRJ Metall Recycling Potsdam“ und eine Anlage an Ahornstraße 28–32. Die gemeinsame Standort-/Telefonspur ist ein Kandidatenhinweis, belegt aber keine aktuelle Rechtsträger-, Betreiber- oder Nachfolgekette. Seed-Name und Seed-Adresse bleiben daher unverändert; Jaretzke wird nicht als bestätigte Umbenennung geführt. Keine Schließung, kein allgemeiner Metallankauf und keine numerischen Preise behauptet. **Ankauf:** Altauto-Kategorie beim APM-Kandidaten, keine Kaufpreise und keine bestätigte MRJ-Zuordnung. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Keine Koordinaten gesetzt. Quellen: https://www.apm-niemegk.de/abfallinfos/abfallannahmestellen/ ; https://www.berlin.de/sen/uvk/_assets/umwelt/kreislaufwirtschaft/strategien/abfallwirtschaftsplaene/awp_gefaehrliche_abfaelle.pdf#page=108 .]
 
 ### Owner-Nachprüfung 16.10.2026, Check-in 01:00
 

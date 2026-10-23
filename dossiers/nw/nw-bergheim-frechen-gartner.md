@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Gärtner in Frechen bleibt ein ungeklärter Verzeichnis-Kandidat. Hauptstr. 174 wird erneut als Lead gefunden, doch der direkt gelesene Eintrag nennt andere Telefonnummer und Öffnungszeiten als das historische Frontmatter. Ein „Manuel Gärtner“ an Römerstr. 133 in Bergheim-Thorr ist nicht als Zweitstandort desselben Betreibers belegt. Der bisher allein aggregatorgestützte Aktivstatus ist deshalb auf `pruefung` zurückgenommen; vorhandene Adresse, Telefon und Zeiten bleiben ausdrücklich unverifizierte Altdaten. Keine bestätigten Ankauf-/Verkaufspreise oder Gebühren.
+Gärtner in Frechen bleibt ein ungeklärter Verzeichnis-Kandidat. Für Hauptstr. 174 kursieren mehrere abweichende Telefonnummern und Öffnungszeiten; diese Konflikte lösen weder der Portal-Aktualisierungsvermerk noch gleichnamige Social-/Verzeichnisprofile auf. Ein „Manuel Gärtner“ an Römerstr. 133 in Bergheim-Thorr ist nicht als Zweitstandort desselben Betreibers belegt. Status `pruefung`; die vorhandenen Kontaktdaten bleiben unverifizierte Altdaten.
+
+- **Ankauf:** keine Betreiberbestätigung oder numerischen Kurse.
+- **Verkauf:** keine zuordenbare Liste.
+- **Gebühren:** keine Tarife; Gratisabholung nicht belegt.
+- **GEO:** Hauptstr. 174 bleibt Lead; vor Geocoding zuerst Identität und Kundenannahme klären. Römerstr. 133, Bergheim, nicht als Zweitstandort ansetzen.
 
 ## Timeline
+
+### Recherche 23.10.2026: Kontaktkonflikte erneut geprüft
+
+- [Recherche 23.10.2026: Die direkt gelesene Gelbe-Seiten-Seite führt Hauptstr. 174, 50226 Frechen, Tel. 02234 54905 und Mo–Fr 08–20/Sa 09–18; sie verweist bei der einzigen Bewertung auf golocal. Das widerspricht dem zuletzt gelesenen 11880-Eintrag (02234 2024070, Mo–Fr 08–18/Sa 09–14). Ein Stadtbranchenbuch-Treffer nennt zusätzlich Manuel Gärtner, 0177 9121393 und eine Webmail-Adresse; ein Facebook-Suchtreffer verwendet die Bezeichnung „Schrotthandel Gärtner HMCG“, ohne im hier auswertbaren Inhalt eine verifizierte Betreiber-/Rechtsform- oder Adressbrücke herzustellen. Keine Telefonnummer, Uhrzeit oder Person als bestätigt übernommen. Kein Ankaufspreis, Verkaufspreis oder Gebührentarif. Status `pruefung`, kein GEO. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/bf6a95ef-a28a-4f45-8cde-079518e8f282 ; https://www.11880.com/branchenbuch/frechen/120674719B43111372/schrotthandel-gaertner-schrotthandel.html ; https://frechen.stadtbranchenbuch.com/4513163.html ; https://www.facebook.com/p/Schrotthandel-G%C3%A4rtner-HMCG-100064004292049 .]
 
 ### Recherche 17.10.2026 — Welle 21:00 B
 

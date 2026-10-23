@@ -24,11 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Kesselstr. 24, 58452 Witten, 0152 27616010 und Mo–Sa 07–20 Uhr im Seed beruhen auf zwei konsistenten Branchenverzeichnissen, nicht auf einem Betreiberauftritt. Eine neue direkte Websuche liefert verschiedene Witten-Schrottankaufsseiten mit anderen Kontaktdaten (u.a. 01522 4224277 bzw. 0157 84052153), aber keine Verbindung zu Alwidian; diese Anbieter sind nicht zu vermischen. Betreiberidentität und aktuelle Adresse bleiben offen.
+Kesselstr. 24, 58452 Witten und 0152 27616010 werden weiterhin nur in Branchenverzeichnissen dem Namen Alwidian zugeordnet. Die dort genannten Zeiten weichen teils ab; ein eigener Betreiberauftritt oder belastbarer Identitätsbeleg fehlt. Andere Witten-Schrottankaufsseiten mit abweichenden Nummern (u. a. 01522 4224277 bzw. 0157 84052153) sind nicht mit Alwidian zu vermischen.
 
-**ANKAUF:** für Alwidian nicht verifiziert; keine Preisangabe. **VERKAUF/GEBÜHREN:** keine zuordenbaren Listen oder Tarife. **GEO:** die vorhandenen Portal-Koordinaten 51.445207/7.331686 sind ungeprüft; vor jeder Übernahme Adresse, Punktgenauigkeit und Funktion (Wohn-/Kontaktadresse versus Annahme) neu bestätigen.
+- **Ankauf:** für Alwidian nicht bestätigt; keine Preisangabe.
+- **Verkauf:** keine zuordenbare Liste.
+- **Gebühren:** keine zuordenbaren Tarife oder belegte Gratisleistung.
+- **GEO:** Portalpunkt 51.445207/7.331686 ist ungeprüft; vor Übernahme Adresse, Punktgenauigkeit und Funktion (Kontaktadresse oder Annahme) bestätigen.
 
 ## Timeline
+
+### Recherche 23.10.2026: Kontakt- und Quellenabgleich
+
+- [Recherche 23.10.2026: Aktuelle Suchtreffer führen weiterhin Kesselstr. 24/58452 und 0152 27616010 (in anderer Gruppierung als 01522 7616010). Das Telefonbuch listet Zeiten 07–20 Uhr; der 11880-Treffer nennt keine Öffnungszeiten. Beides sind Verzeichniseinträge, kein Betreiberbeleg; die frühere Frontmatter-Angabe Mo–Sa 07–20 bleibt ungeprüft. Kein Preisangebot und keine Gebührenregel für Alwidian gefunden; konkurrierende Witten-Anbieter nicht zugeordnet. Keine Stammdaten-/GEO-Änderung. Quellen: https://www.gelbeseiten.de/gsbiz/89ddb513-524c-4eaa-ab99-24d7513e0533 ; https://adresse.dastelefonbuch.de/Witten/2-Schrott-Alwidian-Schrotth%C3%A4ndler-Witten-Kesselstr.html ; https://www.11880.com/suche/schrotthandel/witten .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

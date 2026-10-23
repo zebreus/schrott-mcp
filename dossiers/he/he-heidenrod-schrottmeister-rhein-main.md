@@ -30,6 +30,10 @@ Die Seed-Adresse Napoleonstr. 19 ist nicht dem Namen „Schrottmeister Rhein-Mai
 
 ## Timeline
 
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Impressum und Altmetallseite von schrott-experte.de erneut direkt abgerufen. Sie nennen weiterhin „Schrott Experte“/Zohir Boulahoual, Napoleonstraße 19, 65321 Heidenrod; die Leistungsseite nennt Fe-/NE-Metalle und Vergütung zu „aktuellen Tagespreisen“, jedoch ohne Zahlen. Die Telefonnummer wird im sichtbaren Text mit 0178 161 8017 angegeben, während einzelne `tel:`-Links auf der Seite abweichend mit 0176 beginnen; diese interne Link-/Anzeigedifferenz betrifft bereits den anders benannten Kandidaten und löst die Identität zum Verzeichnisnamen „Schrottmeister Rhein-Main“ (Lead 01520 3397062) nicht. Keine Kandidatenadresse, Kontaktdaten oder Tagespreise auf den Seed übertragen. Für diesen Seed: **Ankauf** ohne bestätigte Kurse; **Verkauf** ohne Liste; **Gebühren** ohne Tarif. Kein GEO vor Identitäts-/Standortklärung. Quellen: https://schrott-experte.de/impressum/ ; https://schrott-experte.de/altmetall-ueber-uns-richtig-entsorgen/ ; https://web2.cylex.de/suche/recycling/Heidenrod (nur Verzeichnis-Lead).]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Betreiber-Impressum und Leistungsseite von schrott-experte.de erneut direkt geprüft: „Schrott Experte“, Zohir Boulahoual, Napoleonstr. 19, 65321 Heidenrod, 0178 161 8017; dort werden Altmetalle (u.a. Blei, NE-Metalle, Edelstahl, Eisen, Kabel, Kupfer, Messing, Zink) und lediglich „aktuelle Tagespreise“ erwähnt. Keine konkrete Preistabelle. Das belegt nicht die Identität mit dem Cylex-Lead „Schrottmeister Rhein-Main“ (andere Nummer 01520 3397062) und überträgt weder Angebot noch Adresse/Kontakt. Für den Dossierbetrieb: Ankaufspreise unbestätigt; Verkaufsliste und Gebühren nicht belegt. Kein Frontmatter-Fill/GEO. Quellen: https://schrott-experte.de/impressum/ ; https://schrott-experte.de/altmetall-ueber-uns-richtig-entsorgen/ ; https://web2.cylex.de/suche/recycling/Heidenrod (Verzeichnis-Lead)]

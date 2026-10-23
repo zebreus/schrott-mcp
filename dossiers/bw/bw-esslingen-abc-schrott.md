@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten führt einen aktuellen Lead „ABC Schrott“ in der Schorndorfer Str. 24/1, 73730 Esslingen-Oberesslingen, mit 0172 4723075, 0711 50469719, Öffnungszeiten Mo–Fr 09:00–18:00 und Sa 09:00–12:00 sowie einer Aussage kostenloser Abholung. Das sind Verzeichnisangaben, keine Betreiber-/Registerbelege. Der dort genannte Domainauftritt war beim Direktabruf nicht auswertbar; Identität und heutiger Betrieb bleiben offen, Status daher `pruefung`.
+Gelbe Seiten führt einen Lead „ABC Schrott“ in der Schorndorfer Str. 24/1, 73730 Esslingen-Oberesslingen, mit 0172 4723075, 0711 50469719, Öffnungszeiten Mo–Fr 09:00–18:00 und Sa 09:00–12:00 sowie einer Aussage kostenloser Abholung. Ein direkt gelesener Sellwerk-Profilaufruf ergänzt dieselbe Adresse und Mobilnummer sowie abc-schrott.de und abc-schrott@gmx.de, bezeichnet die Seite aber als Profilvorschau/Verzeichniseintrag. Beides sind Aggregatorangaben, keine Betreiber-/Registerbelege; Domainauftritt und heutiger Betrieb bleiben offen, Status daher `pruefung`.
 
 **Preise:** Ankauf — kein bezifferter Kurs und kein bestätigter Ankauf; Verkauf — keine Angaben; Gebühren — Gelbe Seiten bewirbt kostenlose Abholung, sonstige Gebühren sind unbekannt. Anschrift erst nach Bestätigung durch Betreiber oder Register geokodieren.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Sellwerk-Profil direkt gelesen: „ABC Schrott“, abc-schrott.de, abc-schrott@gmx.de, 0172 4723075, Schorndorfer Str. 24/1, 73730 Esslingen. Die Seite zeigt selbst den Hinweis „Du bist im Vorschau-Modus“ und ist ein Verzeichnisprofil, nicht der verifizierte Betreiberauftritt; das zusätzliche E-Mail-/Domainfeld ist daher nur ein Lead. Ein erneuter Direktabruf der Domain lieferte keinen auswertbaren Inhalt (Transportfehler), kein Beweis für Domainaufgabe oder Schließung. Keine Kontaktdaten ins Frontmatter übernommen, kein GEO gesetzt. ANKAUF: kein bestätigter Kurs oder Ankauf; VERKAUF: keine Liste; GEBÜHREN: „kostenlose Abholung“ bleibt Aggregatorwerbung, keine Zusage für jede Materialart/Leistung. Quellen: https://sellwerk.de/firmenprofil/abc-schrott ; https://abc-schrott.de/ .]
 
 ### Recherche 17.10.2026 (Welle 21:00 A)
 

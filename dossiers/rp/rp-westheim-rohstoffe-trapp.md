@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Das im Review vom 17.10.2026 gelesene Betreiberimpressum nennt Rohstoffe Trapp, Inhaberin Susanne Trapp, Hauptstrasse 142, 67368 Westheim, und USt-ID DE223302816; die Startseite nennt Westheim (Pfalz) und den 80-km-Umkreis. Die Betreiberanschrift ist nicht als öffentlich zugänglicher Abladehof bestätigt; ein unabhängiger Identitätsbeleg fehlt. Frühere Standortfehlerhinweise bleiben historische, in diesem Review nicht neu überprüfte Befunde, keine aktuelle Standortfreigabe.
+Das Betreiberimpressum nennt Rohstoffe Trapp, Inhaberin Susanne Trapp, Hauptstrasse 142, 67368 Westheim, und USt-ID DE223302816; die derzeit erreichbaren Seiten tragen © 2003–2026. Die Betreiberanschrift ist nicht als öffentlich zugänglicher Abladehof bestätigt; ein unabhängiger Identitätsbeleg fehlt. Frühere Standortfehlerhinweise bleiben historische, in diesem Review nicht neu überprüfte Befunde, keine aktuelle Standortfreigabe.
 
-**Preise:** Die im Review gelesene Startseite bewirbt „Kostenlose Abholung bei verwertbarem Material und Vergütung bei größeren Mengen“; FAQ nennt Abholung kleiner Mengen je nach Materialart, die Ankaufseite kleine Mengen und größere Posten. **Kein unbelegtes „nur“ und keine allgemeine Mindestmenge ableiten**; Vergütung/Logistik im Einzelfall klären. ANKAUF: kein Zahlenkurs auf den geprüften Seiten. VERKAUF/GEBÜHREN: dort keine verifizierte numerische Produkt-, Container-, Transport- oder Entsorgungspreisliste; kein pauschaler Gebührenverzicht.
+**Preise:** Die Betreiberseiten nennen kleine Mengen und größere Posten als mögliche Anfragen; eine Schrottseite bewirbt für große Mengen Tagespreise nach Besichtigung. Daraus folgt weder ein garantierter Ankauf jeder Kleinmenge noch eine allgemeine Mindestmenge. **Kein unbelegtes „nur“ ableiten**; Vergütung/Logistik im Einzelfall klären. ANKAUF: kein Zahlenkurs auf den geprüften Seiten. VERKAUF/GEBÜHREN: dort keine verifizierte numerische Produkt-, Container-, Transport- oder Entsorgungspreisliste; kein pauschaler Gebührenverzicht.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Betreiber-Impressum, Kontakt, Schrott-/Metallankauf und aktuelle Schrottübersicht erneut direkt gelesen; Seitenfuß trägt © 2003–2026. Der Auftritt nennt Ankauf von Altmetall/Mischschrott, Kabeln, Elektroschrott und weiteren Metallen für private und gewerbliche Kunden, einschließlich kleiner Mengen und größerer Posten. Die separate Schrottseite sagt ausdrücklich, für große Mengen werde nach Besichtigung ein Tagespreis gezahlt; die breitere Nennung kleiner Mengen belegt nicht, dass jede Kleinmenge vergütet wird. Es gibt weiterhin keine numerischen €/kg-Kurse. Verkauf: keine Produktpreisliste. Gebühren: keine belastbaren pauschalen Abhol-/Container-/Entsorgungstarife; „kostenlose Abholung“ bleibt an verwertbares Material gebunden und ersetzt kein individuelles Angebot. Hauptstrasse 142 bleibt Betreiber-Impressumsanschrift, nicht unabhängig bestätigter Annahmehof; keine Felder oder Koordinaten geändert. Quellen: https://rohstoffe-trapp.de/impressum.html ; https://rohstoffe-trapp.de/anfrage-kontakt.html ; https://rohstoffe-trapp.de/schrott-metallankauf.html ; https://rohstoffe-trapp.de/schrott.html ; https://rohstoffe-trapp.de/ .]
 
 ### Ownerkorrektur 17.10.2026
 

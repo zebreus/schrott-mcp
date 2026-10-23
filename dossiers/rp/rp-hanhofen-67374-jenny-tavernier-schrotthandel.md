@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Jenny Tavernier Schrotthandel“, Silzweg 38, Hanhofen, liegt weiterhin kein gelesener Betreiber- oder Registerbeleg vor. Neu ist der eigene Cylex-/Auskunft-Lead mit 0176 24048503 und einer business.site-Kandidatendomain; diese liefert 404. Benachbarte Leads (Rudolf Lehr Nr. 16, Richard/Iris Lehr Nr. 19, Josef Kreischer Nr. 31) sind andere Betriebe und werden nicht zusammengeführt. ANKAUF: keine Preise oder Bedingungen belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Status `pruefung` bleibt; GEO bis zum Primärnachweis gesperrt.
+Für „Jenny Tavernier Schrotthandel“, Silzweg 38, Hanhofen, liegt weiterhin kein gelesener Betreiber- oder Registerbeleg vor. Der Kandidat und die Adresse stehen auch im Schwester-Dossier [`Tavernier Hanhofen`](rp-hanhofen-tavernier-hanhofen.md); mögliche Dublette/Clusterbeziehung, nicht automatisch zusammenführen. Verzeichnisangaben nennen 0176 24048503 und eine business.site-Kandidatendomain, die 404 liefert. Benachbarte Leads (Rudolf Lehr Nr. 16, Richard/Iris Lehr Nr. 19, Josef Kreischer Nr. 31) sind andere Betriebe und werden nicht zusammengeführt. ANKAUF: keine Preise oder Bedingungen belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Status `pruefung` bleibt; Adresse bis zur Betreiber-/Standortbestätigung nicht geokodieren.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Erneuter Abgleich der exakten Jenny-Tavernier-/Hanhofen-Spur mit dem lokalen Branchenverzeichnis und dem dokumentierten LokaleSchrottplatz-Profil. Das Portal führt weiterhin Jenny Tavernier Schrotthandel u. Entrümpelungen, Silzweg 38, 67374 Hanhofen und 0176 24048503; das lokale Verzeichnis listet andere Schrott-/Containerbetriebe an Silzweg 16/19/31, aber keinen qualifizierten Betreiber- oder Registerbeleg für Nr. 38. Das Schwester-Dossier `rp-hanhofen-tavernier-hanhofen.md` führt denselben Seed-Standort; Dublette/Identität bleibt offen, kein Merge. Keine Portal-Stunden/Mindestmengen als Betreiberbedingungen übernehmen. ANKAUF: keine bestätigten Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine belastbaren Konditionen. Adresse nicht geokodieren, bis Standort und Betrieb primär bestätigt sind. Quellen: https://lokaleschrottplatz.de/jenny-tavernier-schrotthandel-u-entrumplungen/ ; https://hanhofen.stadtbranchenbuch.com/ .]
 
 ### Recherche 14.10.2026 — 18:00-Welle A
 

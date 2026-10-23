@@ -24,11 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichniseinträge führen Maximilian Aldenhoff, Schrott- und Stahlhandel, Krückberg 21 A, 23717 Kasseedorf (Sagau), Tel. 04528 303. Trotz mehrerer Portalwiederholungen gibt es bislang keine Betreiberwebsite, Register-/Gewerbequelle oder unabhängige Bestätigung der heutigen Geschäftstätigkeit; die Kontakte bleiben ungeprüfte Seed-Leads.
+Verzeichniseinträge führen Maximilian Aldenhoff, Schrott- und Stahlhandel, Krückberg 21 A, 23717 Kasseedorf (Sagau), Tel. 04528 303. Ein weiterer Verzeichnis-Treffer nennt abweichend „Stendorfer Weg“ ohne Hausnummer; es ist kein Umzug belegt. Trotz Portalwiederholungen gibt es keine Betreiberwebsite, Register-/Gewerbequelle oder unabhängige Bestätigung heutiger Geschäftstätigkeit. Die Kontakte bleiben ungeprüfte Leads.
 
-**Preise:** keine dem Betreiber zuordenbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden. **Geocoding:** Krückberg 21 A nur als Verzeichnis-Kandidat führen und nicht als bestätigten Annahmehof pinnen.
+- **Ankauf:** keine Betreiberbestätigung und keine numerischen Kurse.
+- **Verkauf:** keine Produkt-/Preisliste.
+- **Gebühren:** keine Tarifliste; „Gratis anrufen“ der Portale bedeutet nicht kostenlose Abholung oder Annahme.
+- **GEO:** Krückberg 21 A ist nur Kandidat und nicht als bestätigter Annahmehof zu pinnen; Straßenkonflikt zuerst klären.
 
 ## Timeline
+
+### Recherche 23.10.2026: Adresskonflikt und Preisgrenze
+
+- [Recherche 23.10.2026: Die Suche bestätigt mehrere Verzeichniswiederholungen zu Krückberg 21A/23717 Sagau/04528 303, findet aber auch einen Infobel-Treffer „Stendorfer Weg“ ohne Hausnummer. Keine Quelle belegt einen Umzug oder eine aktuelle Annahmestelle; die Wiederholungen sind keine unabhängigen Betreiberbelege. „Gratis anrufen“ ist der Vermittlungsdienst des Portals, kein Konditionsbeleg. Ankauf: keine Zahlenkurse; Verkauf: keine Liste; Gebühren: kein Tarif. Keine Frontmatter- oder GEO-Änderung. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/002c2171-f50b-4ee1-bd95-224ab020df88 ; https://www.infobel.com/de/germany/schrotthandel_maximilian_aldenhoff/kasseedorf/DE101716193-04528303/businessdetails.aspx .]
 
 ### Recherche 22.10.2026
 

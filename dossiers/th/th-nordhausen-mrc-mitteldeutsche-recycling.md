@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die MRC Mitteldeutsche Recycling GmbH betreibt laut eigener aktueller Unternehmensdarstellung Niederlassungen in Mühlhausen und Nordhausen; die Historie nennt die Nordhäuser Niederlassung bereits 1992 und die Übernahme der früheren Geschäftstätigkeit MRG in beiden Orten 2017. Die im Frontmatter geführte Anschrift/Kontakt-/Zeitenkombination bezieht sich auf die ausdrücklich als Postanschrift ausgewiesene Zentrale in Mühlhausen, nicht auf eine belegte Nordhausen-Filiale. Eine aktuelle Nordhäuser Straßenadresse und standortbezogene Annahmezeiten sind weiterhin nicht veröffentlicht. **Ankauf:** MRC sagt, Altmetallpreise würden täglich anhand der LME-Notierungen aktualisiert und seien telefonisch zu erfragen; keine Zahlenkurse. **Verkauf:** keine öffentliche Materialpreisliste. **Gebühren:** Containerkosten nach persönlicher Beratung, keine veröffentlichten Beträge. Keine Mühlhäuser Adresse als Nordhausen-GEO verwenden.
 
 ## Timeline
+
+### Recherche 23.10.2026
+
+- [Recherche 23.10.2026: Offizielle MRC-Seiten „Über uns“, „Services“, „Kontakt“ und Impressum direkt erneut gelesen. Die Unternehmenshistorie nennt 1992 die Gründung der Niederlassung Nordhausen sowie 2017 die Übernahme der vorherigen MRG-Geschäftstätigkeit in Mühlhausen und Nordhausen; die aktuelle Services-Seite nennt private und gewerbliche Kundschaft sowie Altmetallentsorgung. Die allgemeine FAQ nennt tägliche Metallpreise nach LME-Notierung (telefonisch erfragen) und Containerkosten nach persönlicher Beratung. Das belegt die Unternehmensleistungen, aber liefert weder einen Zahlenkurs noch konkrete Nordhausen-Kontaktdaten/Adresse. Öffnungszeiten und Kontaktseite listen weiterhin die Postanschrift Am Flutgraben 25, 99974 Mühlhausen; Frontmatter-Kontakte bleiben ausdrücklich Zentraldaten und werden nicht als Nordhäuser Filialadresse geokodiert. **Ankauf:** LME-bezogene tägliche Preisermittlung, keine Kurse; **Verkauf:** keine Liste; **Gebühren:** Containerpreis auf Anfrage, keine Zahlen. Quellen: https://www.mrc-umwelt.de/uber-uns ; https://www.mrc-umwelt.de/services ; https://www.mrc-umwelt.de/kontakt ; https://www.mrc-umwelt.de/impressum .]
 
 ### Recherche 04.10.2026
 

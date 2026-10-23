@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Weiß“ in Gevelsberg ist mangels Adresse, Vorname oder Kontakt nicht eindeutig identifizierbar. Der ähnlich benannte Betreiber R. Weiß auf der Saarland-Website hat seinen Sitz in Homburg und ist kein Beleg für den Gevelsberger Seed. Auch der Gevelsberger Betrieb Wallers GmbH ist eine eigenständige, anders benannte Firma ohne belegte Verbindung.
+
+- **Ankauf:** für den Seed kein Betreiber- oder Annahmebeleg; keine Kurse.
+- **Verkauf:** keine zuordenbare Liste.
+- **Gebühren:** keine Tarife oder belegte Gratisleistung.
+- **GEO:** keine belastbare Adresse vorhanden; kein Pin.
 
 ## Timeline
+
+### Recherche 23.10.2026: Namensabgrenzung
+
+- [Recherche 23.10.2026: Exakte Namens-/Ortssuche ergab keine identifizierbare Schrottfirma „Weiß“ in Gevelsberg. Die aktuelle Betreiberwebsite von Wallers GmbH belegt einen Gevelsberger Container-/Metallschrottbetrieb mit eigenem Rechtsträger und Anschrift Am Erlenfeld 20, nicht aber die Identität mit dem Weiß-Seed. Die ähnlich benannte Website Schrotthandel R. Weiß weist im Impressum Homburg (Saarland) aus und ist ebenfalls nicht zuzuordnen. Keine Felder gefüllt; Ankauf, Verkauf, Gebühren und GEO bleiben offen. Quellen: https://wallers-gmbh.de/ ; https://www.schrotthandel-r-weiss.de/impressum .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

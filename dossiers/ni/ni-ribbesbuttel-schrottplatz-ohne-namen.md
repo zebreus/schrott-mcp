@@ -25,9 +25,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für einen privaten Schrottplatz ohne Namen in Ribbesbüttel ist weiterhin keine Betreiberidentität belegt. Der Landkreis bestätigt als öffentliche Abfallanlage das Abfallwirtschaftszentrum Ausbüttel, Gifhorner Straße 33, 38551 Ribbesbüttel. Ob dies der Ursprung des Seeds ist, bleibt unbewiesen; es handelt sich um eine kommunale Entsorgungsanlage, nicht automatisch um einen Schrottankäufer. Die auf der aktuellen Kreis-Detailseite angegebene Kontakttelefonnummer 05371 82-781 weicht von älteren externen Anlagenangaben 05374 91830-14 ab.
+
+- **Ankauf:** keine Zahlung/Ankauf durch das AWZ belegt; keine Preise.
+- **Verkauf:** keine Material-/Produktliste.
+- **Gebühren:** keine dem anonymen Seed zurechenbaren Gebühren. Kreisgebühren für das AWZ werden nicht auf einen ungeklärten privaten Händler übertragen.
+- **GEO:** Gifhorner Straße 33 ist nur der Standort des öffentlichen AWZ-Kandidaten, nicht bestätigte Adresse des anonymen Seeds; nicht als Händler pinnen.
 
 ## Timeline
+
+### Recherche 23.10.2026: öffentliche Anlage als Gegenkandidat
+
+- [Recherche 23.10.2026: Die aktuelle Landkreis-Gifhorn-Seite „Abfallbewirtschaftung“ bestätigt das Abfallwirtschaftszentrum Ausbüttel unter Gifhorner Straße 33, 38551 Ribbesbüttel und nennt als aktuellen Kreis-Kontakt 05371 82-781. Ältere externe Einträge/Jugendwerkstatt nennen 05374 91830-14; der Landkreis-Eintrag ist maßgeblich für dessen öffentliche Anlage. Die Seite führt Satzungen/Gebühren, belegt aber weder, dass das anonyme Seed dieses AWZ meint, noch einen privaten Metallankauf. Keine Umwidmung, kein Frontmatter-Fill. Ankauf/Verkauf/Gebühren des Seeds bleiben unbekannt; kein GEO für das Dossier. Quelle: https://www.landkreis-gifhorn.de/index.php?ModID=7&FID=4083.629.46&object=tx%7C4083.629.46 .]
 
 ### Recherche 02.10.2026
 

@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Ein aktueller 11880-Verzeichnislead führt „Taurus Schrotthandel Entsorgung von Schrott und Altmetall“, Gelsenkirchener Str. 4, 44866 Bochum-Leithe, Tel. 01575 4037431. Das ist keine Betreiberquelle; eine zweite passende, qualifizierte Quelle, ein Impressum und konkrete Annahmebedingungen fehlen. Nicht mit dem gleichnamigen Entrümpelungs-/Abriss-Treffer am Alten Zoll 6 vermischen. ANKAUF, VERKAUF und GEBÜHREN: keine belastbaren Kurse oder Tarife belegt.
+Der Treffer „Taurus Schrotthandel Entsorgung von Schrott und Altmetall“ an Gelsenkirchener Str. 4, 44866 Bochum-Leithe, Tel. 01575 4037431, bleibt ein Verzeichnis-Lead. Ein Betreiberauftritt, eine belastbare Betreiberidentität und konkrete Annahmebedingungen fehlen. Nicht mit dem gleichnamigen Entrümpelungs-/Abriss-Treffer am Alten Zoll 6 vermischen.
+
+- **Ankauf:** nicht als Betreiberangebot bestätigt; keine Zahlenkurse.
+- **Verkauf:** keine zuordenbare Liste.
+- **Gebühren:** keine zuordenbaren Tarife; kostenlose Abholung ist nicht belegt.
+- **GEO:** Gelsenkirchener Str. 4 ist eine Lead-Adresse, keine bestätigte Annahmestelle; nicht als Händlerstandort pinnen.
 
 ## Timeline
+
+### Recherche 23.10.2026: Lead-Abgleich
+
+- [Recherche 23.10.2026: Die erneute Suche findet denselben Namen, dieselbe Adresse und dieselbe Telefonnummer auf 11880 sowie auf Schrottplatz24; die Portalwiederholung liefert keinen zweiten Betreiberbeleg und dürfte aus derselben Verzeichnisquelle stammen. 11880 zeigt Mo–Sa 10–20 Uhr, jedoch ohne Betreiberbestätigung. Kein eigener Auftritt/Impressum oder belastbarer Ankauf-, Verkaufs- oder Gebührentarif ermittelt. Der separate Taurus-Treffer am Alten Zoll 6 bleibt ein anderer, nicht zuordenbarer Lead. Keine Stammdatenänderung und kein GEO-Fill. Quellen: https://www.11880.com/branchenbuch/bochum/060440090B102502961/taurus-schrotthandel-entsorgung-von-schrott-und-altmetall.html ; https://www.schrottplatz24.net/stadt/bochum/profil/taurus-schrotthandel-entsorgung-von-schrott-und-altmetall .]
 
 ### Recherche 21.10.2026 — Aktualitäts- und Preisprüfung
 

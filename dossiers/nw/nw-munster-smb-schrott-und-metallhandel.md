@@ -30,7 +30,16 @@ Wichtige Abgrenzung: **SRM Schrott & Metallrecycling Münster GmbH** hat laut ei
 
 Zusätzlicher Verwechslungsschutz: An der **Coermühle 4a** tritt laut eigenem Impressum **A-Z Recycling / Udo Salzsieder** auf, also nicht an der SMB-Seedadresse Coermühle 12. Eine Nachfolge- oder Betreiberverbindung zu SMB ist nicht belegt; auch A-Z-Aussagen zu tagesaktuellen Schrottpreisen und kostenloser Abholung sind daher keine SMB-Preise oder -Konditionen.
 
+- **Ankauf:** SMB-Ankauf nicht verifiziert; Portal-Materiallisten sind keine aktuelle Betreiberbestätigung und liefern keine belastbaren Kurse.
+- **Verkauf:** keine SMB-Verkaufsliste gefunden.
+- **Gebühren:** keine SMB-Gebührenordnung oder belegte Gratisregel; A-Z- oder SRM-Angaben sind nicht übertragbar.
+- **GEO:** Coermühle 12 bleibt eine ungeprüfte Lead-Adresse. Vor Geocoding erst Betreiber und heutige Nutzung der Fläche klären.
+
 ## Timeline
+
+### Recherche 23.10.2026: Abgrenzung der Treffer
+
+- [Recherche 23.10.2026: Die erneute Suche nach SMB/Coermühle 12 ergab keine neue Betreiberquelle. Die prominent sichtbare SRM-Seite nennt weiterhin SRM Schrott & Metallrecycling GmbH, Kesslerweg 37; das A-Z-Betreiberimpressum nennt Coermühle 4a. Keines der beiden Unternehmen ist damit SMB an Coermühle 12. Ankauf, Verkauf und Gebühren für SMB bleiben offen; keine Daten oder GEO übernommen. Quellen: https://www.srm-schrott.de/impressum ; https://xn--schrottplatz-mnster-jbc.de/impressum .]
 
 ### Recherche 05.10.2026
 

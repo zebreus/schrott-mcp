@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Unter An den Wulzen 10 führt 11880 „Metallaufbereitung Spitzer“ mit der Seed-Telefonnummer; ein zweites Verzeichnis stimmt bei diesen Daten überein. Der Zusatz „Axel“, Autoverwertung und die Betreiberidentität sind dadurch nicht belegt. Bis zur Klärung keine Umbenennung oder Anbieter-Merge. Status pruefung; keine verifizierten Preise für Ankauf, Fahrzeugverkauf oder Gebühren.
+Unter An den Wulzen 10 führt 11880 „Metallaufbereitung Spitzer“ mit der Seed-Telefonnummer; ein zweites Verzeichnis stimmt bei diesen Daten überein. Der Zusatz „Axel“, Autoverwertung und die Betreiberidentität sind dadurch nicht belegt. Ein kommunaler Bebauungsplan trägt den Namen „Park-and-Ride An den Wulzen“, identifiziert aber weder Hausnummer 10 noch Spitzer als Betreiber; daraus folgt keine Betriebsaufgabe oder Verlagerung. Bis zur Klärung keine Umbenennung oder Anbieter-Merge. Status `pruefung`.
+
+- **Ankauf:** nicht unabhängig bestätigt; keine Preisangabe.
+- **Verkauf:** keine Fahrzeug-/Teileliste oder Preisliste.
+- **Gebühren:** keine Gebührenordnung; kostenlose Abgabe nicht belegt.
+- **GEO:** An den Wulzen 10 bleibt ein Verzeichnis-Lead, kein bestätigter Annahmehof; nicht pinnen.
 
 ## Timeline
+
+### Recherche 23.10.2026: Standortkontext
+
+- [Recherche 23.10.2026: Die Stadt Zossen führt 2025 eine öffentliche Beschlussvorlage zum Bebauungsplan „Park-and-Ride An den Wulzen“. Der Titel belegt einen planerischen Standortkontext, aber nicht, dass der Geltungsbereich das Grundstück An den Wulzen 10 umfasst, noch eine Betreiberverbindung, Verlagerung oder Schließung der „Metallaufbereitung Spitzer“. Seed-Name, Adresse und Telefonnummer deshalb nicht geändert. Ankauf/Verkauf/Gebühren bleiben ohne belastbare Händlerpreisliste; GEO nicht freigegeben. Quelle: https://www.zossen.de/fileadmin/user_upload/Sitzungsdienst/Beschlussvorlagen_2025/BV-Nr.103-25.pdf .]
 
 ### Recherche 07.10.2026
 
