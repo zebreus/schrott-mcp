@@ -279,17 +279,26 @@ The owner has confirmed that a GitHub personal access token (PAT) with push
 permission for `zebreus/schrott-mcp` is provisioned for this automation. The
 PAT is a secret: it must never be committed, printed, copied into a remote URL,
 or placed in command history or logs. Use only the protected credential
-injection provided by the execution environment; GitHub CLI supports
-`GH_TOKEN`/`GITHUB_TOKEN` for this purpose. Do not ask the owner to paste the
-PAT into chat.
+injection provided by the execution environment. On the current Linux host,
+`GH_TOKEN` is made available by `/root/.bashrc`; invoking an interactive Bash
+loads it without putting the value in the command. Do not ask the owner to
+paste the PAT into chat.
 
-`gh auth status` reports the local GitHub CLI session, not the owner's grant
-of repository access. Do not conclude that the repo lacks permission from that
-command alone. Check the environment's credential wiring and verify Git's
-effective non-interactive access (for example, `git push --dry-run origin
-<branch>`) before reporting a push blocker. When the PAT is available to
-`gh`, `gh auth setup-git` configures Git to use that authenticated session.
-Never claim a commit was published unless the push succeeds.
+Verify effective non-interactive Git access with this tested command; it loads
+the host's credential injection, configures Git's GitHub CLI credential helper,
+and exercises the actual remote without publishing anything:
+
+```sh
+HOME=/root bash -ic 'gh auth setup-git && GIT_TERMINAL_PROMPT=0 git push --dry-run origin "$(git branch --show-current)"'
+```
+
+After the dry run succeeds, publish the current branch with:
+
+```sh
+HOME=/root bash -ic 'gh auth setup-git && GIT_TERMINAL_PROMPT=0 git push origin "$(git branch --show-current)"'
+```
+
+Never claim a commit was published unless the actual push succeeds.
 
 ## Logging (systemd journal)
 

@@ -54,7 +54,7 @@ impl Snapshot {
             "activation_blocker": "owner full review and integration/deployment of typed MKM transaction candidate",
             "recording_contract": "MKM typed 61-article validation; atomic quote/acceptance/manifest/current-pointer reconciliation; immutable price metadata",
             "page_change_precision": "calendar_day; UTC midnight is normalization, not source time",
-            "visibility_scope": "Explicit hidden attributes and inline display:none on products/ancestors; no external CSS/browser visibility proof.",
+            "visibility_scope": "Parser checks explicit hidden attributes and inline display:none on products/ancestors; registered fetch requires the reviewed stylesheet URL and SHA-256, but no browser-rendered visibility is proven.",
             "required_alias_migrations": [{
                 "article": "MKM-CU-01", "source_url": URL,
                 "from": ["kupfer-berry", "Kerze"],

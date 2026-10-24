@@ -9,6 +9,7 @@
 //! "zuletzt geändert" date must not become every row's publication date.
 
 use scraper::{ElementRef, Html, Selector};
+use sha2::{Digest, Sha256};
 
 #[cfg(test)]
 use super::super::parse_eur;
@@ -28,6 +29,9 @@ pub const IMPRESSUM_URL: &str = "https://mkm-metals.de/impressum";
 
 /// Operator's eight purchase tables; sales/fees are not quotes.
 pub const URL: &str = "https://mkm-metals.de/metallpreise";
+const STYLESHEET_HREF: &str = "/assets/css/gesamt.min.css?v=1792784604";
+const STYLESHEET_URL: &str = "https://mkm-metals.de/assets/css/gesamt.min.css?v=1792784604";
+const STYLESHEET_SHA256: &str = "9e6234751299b7a7943d135c45dbc762d88f7eefdfea07b972b30f906735b84a";
 
 pub fn handler() -> Handler {
     Handler {
@@ -46,8 +50,76 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 /// are carried into the fail-closed recording boundary, never partial writes.
 pub async fn scrape_articles(client: &reqwest::Client) -> Result<overview::Snapshot, IngestError> {
     let (status, html) = fetch_owned_source(client, URL).await?;
+    validate_visibility_asset_references(&html)?;
+    let (_, stylesheet) = fetch_owned_source(client, STYLESHEET_URL).await?;
+    validate_reviewed_asset(STYLESHEET_URL, &stylesheet, STYLESHEET_SHA256)?;
+    if stylesheet.to_ascii_lowercase().contains("@import") {
+        return Err(asset_error(
+            STYLESHEET_URL,
+            "stylesheet now imports an unreviewed asset",
+        ));
+    }
     let (_, imp_html) = fetch_owned_source(client, IMPRESSUM_URL).await?;
     overview::parse(&html, &imp_html, status)
+}
+
+fn asset_error(url: &str, detail: &str) -> IngestError {
+    IngestError::Parse {
+        url: url.to_owned(),
+        detail: detail.to_owned(),
+    }
+}
+
+/// Keep the page's visibility-affecting external stylesheet pinned to the
+/// version reviewed alongside the current product table. A changed stylesheet
+/// or inline stylesheet stops the article parser from authorizing a snapshot.
+fn validate_visibility_asset_references(html: &str) -> Result<(), IngestError> {
+    let doc = Html::parse_document(html);
+    let links = Selector::parse("link[rel]").expect("valid selector");
+    let stylesheets: Vec<_> = doc
+        .select(&links)
+        .filter(|link| {
+            link.value()
+                .attr("rel")
+                .unwrap_or_default()
+                .split_ascii_whitespace()
+                .any(|rel| rel.eq_ignore_ascii_case("stylesheet"))
+        })
+        .collect();
+    if stylesheets.len() != 1
+        || stylesheets[0].value().attr("href") != Some(STYLESHEET_HREF)
+        || stylesheets[0]
+            .value()
+            .attr("media")
+            .is_some_and(|media| !media.eq_ignore_ascii_case("all"))
+    {
+        return Err(asset_error(
+            URL,
+            "stylesheet reference or media scope changed",
+        ));
+    }
+
+    let style = Selector::parse("style").expect("valid selector");
+    if doc.select(&style).next().is_some() {
+        return Err(asset_error(URL, "unreviewed inline stylesheet"));
+    }
+    Ok(())
+}
+
+fn validate_reviewed_asset(
+    url: &str,
+    body: &str,
+    expected_sha256: &str,
+) -> Result<(), IngestError> {
+    let normalized = body.replace("\r\n", "\n").replace('\r', "\n");
+    let actual = format!("{:x}", Sha256::digest(normalized.as_bytes()));
+    if actual != expected_sha256 {
+        return Err(asset_error(
+            url,
+            "visibility asset differs from reviewed content",
+        ));
+    }
+    Ok(())
 }
 
 async fn fetch_owned_source(
@@ -415,7 +487,38 @@ mod tests {
             }
         }
     }
-    use super::{grade_for, parse, stand_date};
+
+    #[test]
+    fn reviewed_visibility_assets_are_pinned_and_inline_styles_are_rejected() {
+        let html = format!(r#"<link rel="stylesheet" href="{STYLESHEET_HREF}">"#);
+        assert!(super::validate_visibility_asset_references(&html).is_ok());
+        assert!(super::validate_visibility_asset_references(
+            &html.replace("1792784604", "new-version")
+        )
+        .is_err());
+        assert!(super::validate_visibility_asset_references(&format!(
+            "{html}<style>.table{{display:none}}</style>"
+        ))
+        .is_err());
+    }
+
+    #[test]
+    fn reviewed_asset_hash_normalizes_line_endings_but_rejects_content_changes() {
+        let expected = format!("{:x}", Sha256::digest(b"reviewed css\n"));
+        assert!(super::validate_reviewed_asset(
+            super::STYLESHEET_URL,
+            "reviewed css\r\n",
+            &expected
+        )
+        .is_ok());
+        assert!(
+            super::validate_reviewed_asset(super::STYLESHEET_URL, "changed css\n", &expected)
+                .is_err()
+        );
+    }
+
+    use super::{grade_for, parse, stand_date, STYLESHEET_HREF};
+    use sha2::{Digest, Sha256};
 
     #[test]
     fn current_overview_all_numeric_articles_reach_real_mapping() {
