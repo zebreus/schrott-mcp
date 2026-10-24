@@ -32,6 +32,10 @@ Böhlener Website, Telefon und Teilepreise gehören nicht in diesen Datensatz. E
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Eine weitere Drittanbieter-Seite listet „Autoservice Osman Mamdouh“, Altchemnitzer Straße 13, 09120 Chemnitz, Telefon 0174-6013677, als Demontagebetrieb und bettet Koordinaten 50.818060, 12.921090 ein. Die Seite ist kein amtlicher GESA-Einzeldatensatz und belegt weder, dass die Kontaktdaten aktuell sind, noch dass die Koordinate die zugelassene Betriebs-/Kundenannahmestelle trifft; deshalb keine Telefon- oder GEO-Übernahme und keine Zertifikatsbestätigung daraus. Der dort eingeblendete allgemeine Schrottpreis-Widget ist von Schrott24 gespeist und kein Preisangebot dieses Chemnitzer Betriebs. **ANKAUF:** keine zuordenbaren Altauto-Ankaufspreise. **VERKAUF:** keine Chemnitzer Teilepreisliste. **GEBÜHREN:** keine bestätigten Tarife. Weiterhin Original-GESA-Datensatz bzw. Betreiberbestätigung erforderlich. Quelle: https://www.schrottpreis.org/autoverwertung-in-chemnitz/ .]
+
 ### Recherche 08.10.2026 (Quellenzugriff und Gebührenabgrenzung)
 
 - [Recherche 08.10.2026: Chemnitzer Creditreform-Detaileintrag erneut direkt angefragt, HTTP403; weiterhin nicht vollständig gelesen und daher kein neuer Zweitbeleg für Betreiber/Adresse. Das ist eine Zugriffssperre, kein Löschungs-/Schließungsbefund. Die direkt gelesene GESA-Informationsseite bestätigt zudem allgemein, dass Anerkennung als Demontagebetrieb nicht automatisch kostenlose Rücknahme oder Vergütung bedeutet; Hersteller-Rücknahmenetz/Marke/Vollständigkeit und Transportbedingungen sind gesondert zu klären. Mirror-Zertifikat ZASS00300004 bleibt gezielter Prüfansatz, keine amtliche Einzelakte. Keine Böhlener Kontaktdaten/Teile- oder Versandpreise übernommen. ANKAUF/VERKAUF/GEBÜHREN für Chemnitz ohne verifizierte Zahlen; nächste Prüfung Original-Zertifikatsdatensatz und heutiger Anlagenbetreiber. Quelle: https://firmeneintrag.creditreform.de/09120/3030241097/MAMDOUH_OSMAN_AUTOVERWERTUNG_OSMAN (403) ; https://www.altfahrzeugstelle.de/ .]

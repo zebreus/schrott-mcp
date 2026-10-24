@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-Göllheimer Seed ungeklärt. Betreiberwebsite schrotthandel-ayan.de gehört Resul Ayan, Kaiserstraße 5, Börrstadt; kein Göllheimer Filial-/Standortkettennachweis. Garbliertes Straßenfeld geleert und vollständig historisch erhalten. Keine fremden Kontakte, Website, Materialien oder Tagespreise übernommen; kein Ortwechsel, status pruefung. Ankauf/Verkauf/Gebühren für Göllheim nicht belegt.
+Göllheimer Seed ungeklärt. Die Betreiberwebsite schrotthandel-ayan.de nennt Resul Ayan, Kaiserstraße 5, 67725 Börrstadt, Metall-/Wertstoffankauf zu fairen Tagespreisen und keine numerische Kursliste; sie nennt keine Göllheimer Filiale oder Annahmestelle. Diese Angaben gelten nur für den Börrstadter Kandidaten und belegen keine Verbindung zum Göllheimer Seed. Das fehlerhafte Straßenfeld wurde geleert und bleibt historisch dokumentiert; kein Ortwechsel, Status `pruefung`. **ANKAUF Göllheim:** nicht belegt. **VERKAUF:** keine Göllheim-Preisliste. **GEBÜHREN:** keine Göllheim-Tarife. **GEO:** keine Koordinate ohne bestätigte Adresse und Betreiberzuordnung.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiberseite „Materialankauf“ erneut direkt gelesen. Resul Ayan bewirbt für Kaiserstraße 5, 67725 Börrstadt Ankauf u. a. von Kupfer, Kabel, Messing, Zink, Aluminium, Mischschrott, Motoren und Batterien zu „fairen Tagespreisen“, ohne numerische Materialkurse. Die Seite nennt keine Göllheimer Filiale oder Annahmestelle; Angebot/Adresse nicht auf den Göllheimer Seed übertragen. **ANKAUF:** in Göllheim unbelegt; **VERKAUF:** keine Göllheim-Preisliste; **GEBÜHREN:** keine Göllheim-Tarife. Keine Felder oder GEO geändert. Quelle: https://www.schrotthandel-ayan.de/materialankauf]
 
 ### Owner-GEO-Prüfung 23.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Rik Parmentier ist weiterhin nur als Verzeichnislead an Kastanienbogen 16 A, 06184 Kabelsketal-Zwintschöna mit 0345 5829437 belegt. Frühere Ausnahmefills ohne Betreiber-/Registerbeleg erfüllen den README-Zweiquellenstandard nicht. NorthData liefert bei der Namens-/Ortssuche unscharfe fremde Personen, keinen eindeutig zugeordneten lokalen Schrotthandel. Kein Betriebsschluss daraus ableiten; `pruefung`, keine aktuelle Annahme-/Ankaufkondition oder GEO-Freigabe. Keine belegten Ankauf-/Verkaufspreise oder Gebühren.
+Rik Parmentier ist weiterhin nur über Verzeichnisprofile an Kastanienbogen 16 A, 06184 Kabelsketal-Zwintschöna und 0345 5829437 geführt. Ein zusätzlich direkt gelesenes Schrottplatz24-Profil verlinkt die Domain sk-schrott.de; die Domain war nicht abrufbar, ein Impressum oder eine Verbindung zum genannten Betreiber ist nicht belegt. Frühere Ausnahmefills ohne Betreiber-/Registerbeleg erfüllen den README-Zweiquellenstandard nicht. NorthData lieferte keinen eindeutig zugeordneten lokalen Betrieb. Kein Betriebsschluss daraus ableiten; `pruefung`, keine aktuelle Annahme-/Ankaufkondition oder GEO-Freigabe. Keine belegten Ankauf-/Verkaufspreise oder Gebühren.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Schrottplatz24-Profil direkt gelesen; es führt Rik Parmentier Schrotthandel, Kastanienbogen 16A, 06184 Kabelsketal, 0345 5829437 und verlinkt http://www.sk-schrott.de. Das Portal ist ein Branchenaggregator, kein Betreiber-/Registerbeleg; Abrufe der verlinkten Domain über http/https lieferten Transportfehler, sodass kein Impressum und keine Attribution geprüft werden konnten. Adresse/Telefon bleiben unbestätigte Portal-Leads; kein Frontmatter-Fill. ANKAUF: keine bestätigten Konditionen oder Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine GEO-Geokodierung bis Standort-/Annahmestellenbestätigung. Quelle (Aggregator-Lead): https://www.schrottplatz24.net/stadt/kabelsketal/profil/rik-parmentier-schrotthandel]
 
 ### Recherche 15.10.2026 (00:00-Welle B)
 

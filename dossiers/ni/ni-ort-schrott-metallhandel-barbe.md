@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Recherche vom 02.10.2026 dokumentiert einen einzelnen Branchenverzeichnis-Lead für Barbe Alfred, Osterkanal 32, 26871 Papenburg, Telefon 04961 76255. Bei der erneuten Prüfung am 24.10.2026 ließ sich dieser konkrete Eintrag nicht reproduzieren; die abrufbare Papenburger Branchenbuch-Startseite zeigt keine Barbe-Auflistung. Es gibt damit keine aktuelle Bestätigung für Betreiberidentität, Tätigkeit oder öffentliche Annahmestelle; die vorhandenen Orts-/Adressfelder bleiben ungeprüfte historische Leads.
+
+**ANKAUF:** keine Annahmebedingungen oder Kurse belegt. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife. **GEO:** nicht geokodieren, bis Anschrift und Betriebs-/Annahmestelle unabhängig bestätigt sind.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Erneute Suche nach Barbe/Schrott-/Metallhandel/Papenburg ergab keinen Betreiberauftritt oder unabhängigen Identitäts-/Adressbeleg. Der im Rechercheeintrag vom 02.10.2026 dokumentierte Einzel-Lead (Barbe Alfred, Osterkanal 32, 26871 Papenburg, 04961 76255) ließ sich diesmal nicht reproduzieren. Die aktuell abrufbare Papenburger Branchenbuch-Startseite zeigt keine Barbe-Auflistung; daraus folgt nicht, dass ein älterer Eintrag nie existiert hat. Keine weiteren Frontmatter-Felder ergänzt. ANKAUF/VERKAUF/GEBÜHREN: keine Preise oder Tarife belegt. GEO bleibt bis unabhängiger Adress- und Annahmestellenbestätigung offen. Quelle des heutigen Abrufs: https://papenburg.branchen-info.net/ ; historischer Recherchebefund: Eintrag vom 02.10.2026 im Dossier.]
 
 ### Recherche 02.10.2026
 

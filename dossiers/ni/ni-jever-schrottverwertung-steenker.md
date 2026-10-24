@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Betreiber-Einzelbeleg für Schrott-/Metallankauf in Jever mit Abholung, Containern und separaten Fahrzeugtransporten. Die bisherige unabhängige Identitätsprüfung bleibt offen; deshalb keine Übernahme der noch leeren Standort-/Kontaktfelder. Veröffentlichte Kilometer- und Ladepauschalen sind Transportkosten, keine Ankaufpreise.
+Der Betreiberauftritt beschreibt Schrott-/Metallankauf in Jever, Abholung/Container und separate Fahrzeugtransporte. Eine unabhängige Identitätsbestätigung fehlt weiterhin; deshalb bleiben die strukturierten Standort-/Kontaktfelder leer. Die Website sagt, sortenreine kleine Metallmengen würden nach Gewicht vergütet, veröffentlicht aber keine Sortenkurse. **ANKAUF:** keine Zahlenkurse; kostenlose Schrottabholung/Container sind Betreiber-Serviceangaben. **VERKAUF:** keine Warenpreisliste gefunden. **GEBÜHREN:** Fahrzeugtransport 0,90 €/gefahrenem km plus 10 € Ladepauschale für nicht fahrbereite, aber rollfähige Fahrzeuge, jeweils zzgl. MwSt.; das sind Transporttarife, keine Schrottpreise. Demontage/Brennarbeiten sind kostenpflichtig, ohne bezifferte Tarife. **GEO:** nur Betreiberadresse bekannt, keine unabhängige Bestätigung; vor strukturierter Koordinate Standort/Annahmestelle bestätigen.
 
 ## Timeline
 

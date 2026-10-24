@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt und sein Impressum nennen Kenny Richter als Einzelunternehmer in Northeim; die Leistungsseiten beschreiben Metallankauf zu täglich wechselnden Kursen, kostenlose Abholung und einen Einsatzradius von 120 km. Die Betreiberangabe „§ 54 KrWG zugelassen“ ist hier nicht unabhängig anhand eines Bescheids/Registers verifiziert. Hannover ist Einsatzgebiet, keine Zweigstelle; die Website nennt Northeim als Standort und Selbstanlieferung nach Termin.
+
+**ANKAUF:** Kupfer, Messing, Edelstahl, Aluminium, Blei, Zink, Zinn, Kabel u. a. laut Betreiber; Tagespreise, keine numerische aktuelle Liste. Fahrzeugrestwerte individuell, kein garantierter Betrag. **VERKAUF:** keine Teile-/Metallpreisliste. **GEBÜHREN:** Abholung laut Betreiber kostenlos; keine bezifferten Container- oder Sondergebühren gefunden. **GEO:** die Impressumsanschrift und die nach Termin angebotene Selbstanlieferung sind Betreiber-Selbstangaben; ein unabhängiger Standort-/Annahmestellenbeleg fehlt. Hannover nicht geokodieren.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Aktuelle Betreiber-Start-, Impressums- und Leistungsseiten direkt gelesen. Impressum nennt Kenny Richter, Einzelunternehmen, Untere Dorfstr. 49, 37154 Northeim; die Website bewirbt Metallankauf zu Tagespreisen, sofortige Bar-/Überweisungsauszahlung, Abholung im 120-km-Radius und nennt Hannover ausdrücklich als Einsatzgebiet. Die Seite behauptet eine Zulassung nach § 54 KrWG, ein Bescheid/Registerbeleg wurde nicht unabhängig verifiziert. Eine numerische Ankaufspreisliste fehlt; Verkaufspreise für Ware/Teile werden nicht veröffentlicht. Die beworbene kostenlose Abholung ist eine Service-/Transportkondition, kein Materialankaufkurs; mögliche individuelle Restwerte für Fahrzeuge sind nicht beziffert. Die Unterseite für Braunschweig erklärt Selbstanlieferung am Northeimer Platz nach Termin, belegt keine Braunschweiger Niederlassung. Impressumsanschrift und Hof-/Annahmeeigenschaft sind nur Betreiberangaben; keine Felder oder GEO ergänzt. Quellen: https://www.schrotthandel-richter.de/ ; https://www.schrotthandel-richter.de/impressum ; https://www.schrotthandel-richter.de/schrotthandel-braunschweig ; https://www.schrotthandel-richter.de/schrotthandel-hannover.]
 
 ### Recherche 02.10.2026
 

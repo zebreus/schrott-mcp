@@ -26,18 +26,22 @@ provenance_origin: table
 
 Die Betreiberseite nennt Kanzlerstr. 17 als AGOSI-Kontakt, einen Kundenschalter in der Robert-Bauer-Straße und den getrennten NE-Metallhandel am Hauptgüterbahnhof 24 (Materialanlieferung Mo-Fr bis 14:30). Da dies unterschiedliche Funktionen/Standorte sind, bleibt `street` leer; die exakte Lieferstelle hängt von Material und Geschäft ab.
 
-**Betreiber-Preisliste, Tageskurse vom 22.10.2026 (Eröffnungspreise; indikativ, kleine Mengen; aktuelle Preise auf Anfrage):**
+**Betreiber-Preisliste, Tageskurse vom 23.10.2026 (Eröffnungspreise; indikativ, kleine Mengen; aktuelle Preise auf Anfrage):**
 
 | Material | Ankauf | Verkauf unverarbeitet | Verkauf verarbeitet |
 |---|---:|---:|---:|
-| Gold | 114,37 €/g | 123,58 €/g | 129,46 €/g |
-| Silber | 1.576,90 €/kg | 1.753,90 €/kg | 1.883,90 €/kg |
-| Platin | 43,95 €/g | nicht ausgewiesen | 48,65 €/g |
-| Palladium | 29,45 €/g | nicht ausgewiesen | 33,20 €/g |
+| Gold | 113,00 €/g | 122,12 €/g | 127,93 €/g |
+| Silber | 1.523,80 €/kg | 1.695,70 €/kg | 1.821,30 €/kg |
+| Platin | 43,15 €/g | nicht ausgewiesen | 47,80 €/g |
+| Palladium | 29,50 €/g | nicht ausgewiesen | 33,30 €/g |
 
 > Tabelle ist ein Snapshot, kein Festpreis oder allgemeiner Endkundenanspruch; die Betreiberseite weist auf schnelle Kursschwankungen und unverbindliche Indikationen hin. **Gebühren:** keine Gebührentarife gefunden.
 
 ## Timeline
+
+### Preislisten-Nachtrag 24.10.2026
+
+- [Recherche 24.10.2026: Die Betreiber-Kurstabelle zeigt als neuesten sichtbaren Stand „Tageskurse vom 23.10.2026“. Eröffnungspreise: **Ankauf** Gold 113,00 €/g, Silber 1.523,80 €/kg, Platin 43,15 €/g, Palladium 29,50 €/g; **Verkauf unverarbeitet** Gold 122,12 €/g und Silber 1.695,70 €/kg; **Verkauf verarbeitet** Gold 127,93 €/g, Silber 1.821,30 €/kg, Platin 47,80 €/g, Palladium 33,30 €/g. Für Platin/Palladium ist kein unverarbeiteter Verkaufspreis ausgewiesen. Die Kurse sind laut Betreiber unverbindliche Indikationen/ohne Gewähr, für kleine Mengen und schwankungsanfällig; aktuelle Konditionen auf Anfrage. **Gebühren:** keine Gebührentabelle gefunden. Der neue Snapshot ersetzt im Überblick nur den älteren 22.10.-Snapshot; frühere Preisstände bleiben in der Timeline erhalten. Quelle: https://edelmetallkurse.agosi.de/index.php/frontend/show_detail/de (direkter Abruf 24.10.2026).]
 
 ### Recherche 22.10.2026
 

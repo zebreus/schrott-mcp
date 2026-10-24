@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Neue Website „Schrottabholung Coesfeld“ ist ein möglicher Kandidat: sie behauptet mobilen Schrott-/Altmetallankauf und kostenlose Abholung, ist aber durch keinen unabhängigen Betreiber-/Registerbeleg mit dem Seed (generischer Abholservice, 0178-Nummer) verknüpft. Angaben daher nicht ins Frontmatter übertragen. ANKAUF/Abholung und „kostenlos“ sind nur Website-Aussagen; keine numerischen Preise oder belastbare Gebührentabelle. Verkaufspreise nicht veröffentlicht.
+Die Website „Schrottabholung Coesfeld“ nennt im Impressum A. Lahib, Burgwall 20, 48653 Coesfeld und 01522-422-4277; sie bewirbt mobilen Ankauf u. a. von Kupfer, Kabel, Messing, Altmetallen, Elektro- und Autoschrott sowie kostenlose Abholung. Das bleibt eine Betreiber-Selbstauskunft ohne bestätigte vollständige Rechtsform/Registerkette und ist nicht mit dem Seed (generische Bezeichnung, Hinweis auf 0178-Nummer) unabhängig verknüpft. Daher keine Frontmatter-Übernahme. **ANKAUF:** Website wirbt mit fairer Vergütung, nennt aber keine numerischen Materialkurse. **VERKAUF:** keine Preisliste. **GEBÜHREN:** Website behauptet kostenlose Abholung; keine unabhängige Bestätigung oder vollständige Gebührentabelle. **GEO:** keine Geokodierung bis Seed-Zuordnung und Kunden-/Annahmestellenmodell geklärt sind.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Homepage und Impressum von schrottabholung-coesfeld.de direkt gelesen. Das Impressum nennt A. Lahib, Burgwall 20, 48653 Coesfeld und 01522-422-4277; die Homepage bewirbt Ankauf/Abholung verschiedener Metalle, Elektroschrott und Autoschrott in Coesfeld/Umgebung sowie „kostenlose“ Abholung. Die Seite veröffentlicht keine numerischen Ankaufs-/Materialpreise und keine separate Verkaufspreisliste. Identität mit dem Seed (dort 0178-Nummer) bleibt wegen abweichender Telefonnummer und fehlendem unabhängigen Register-/Zweitbeleg offen; Angaben nicht übertragen. ANKAUF: nur Website-Werbung, ohne Zahlenkurse; VERKAUF: keine Liste; GEBÜHREN: kostenlose Abholung behauptet, nicht unabhängig bestätigt. GEO nicht freigegeben. Quellen: https://schrottabholung-coesfeld.de/ ; https://schrottabholung-coesfeld.de/impressum/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

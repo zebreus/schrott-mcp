@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Gärtner Mürlenbach“ ist weiterhin kein Betreiber identifiziert. Die offizielle kommunale Gewerbeseite führt mehrere örtliche und umliegende Unternehmen auf, aber keinen Gärtner oder Schrotthandel; sie ist kein vollständiges Gewerberegister und ihr Schweigen beweist keine Nichtexistenz. Die importierte Meisburger Str. 1 bleibt unbelegt; das dort in der Gemeindeliste aufgeführte Bürgerstübchen an Meisburger Str. 2 ist ein anderer Betrieb. **ANKAUF:** nicht belegt, keine Kurse. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife. **GEO:** keine Geokodierung bis Identität und konkrete Betriebs-/Annahmestelle bestätigt sind.
 
 ## Timeline
+
+### Abgleich 24.10.2026
+
+- [Abgleich 24.10.2026: Die offizielle Gewerbeseite der Ortsgemeinde wurde erneut direkt gelesen. Sie listet u. a. FELUWA, Endter Sintertechnik, Bürgerstübchen und weitere lokale Anbieter, aber keinen Gärtner/Schrotthandel; die Seite beansprucht kein vollständiges Gewerberegister. Die dort genannte Gaststätte Meisburger Str. 2 ist kein Beleg für den Seed-Lead Meisburger Str. 1. Keine Betreiberidentität, Preise oder Gebühren nachgewiesen; keine Schließung behauptet und keine Felder geändert. GEO erst nach Identitäts-/Adressklärung. Quelle: https://gemeinde-muerlenbach.de/gewerbe.html]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

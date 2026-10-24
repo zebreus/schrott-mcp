@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed nennt Friedrich Ernst Wilms GmbH & Co. KG und die Domain wilms-recycling.de. Diese Domain ist als Website erreichbar, wurde in der Vorrecherche aber mit REMONDIS-Content (REMONDIS Region Rheinland) beobachtet; daraus allein folgt keine rechtliche Übernahme/Umfirmierung. Das Telefonbuch führt Reinshagener Str. 21, 42857 Remscheid, Tel. 02191 72027 und die Domain als Homepage, jedoch ohne primäre Register-/Betreiberbestätigung. Keine Änderung an den bisher leeren Standort-/Kontaktfeldern.
+Der Seed nennt Friedrich Ernst Wilms GmbH & Co. KG und die Domain wilms-recycling.de. In früheren Direktabrufen wurde dort REMONDIS-Content (REMONDIS Region Rheinland) beobachtet; der erneute Abruf am 24.10.2026 lieferte nur eine Challenge-Seite, also keine aktuelle inhaltliche oder rechtliche Bestätigung. Daraus allein folgt weder Übernahme noch Umfirmierung. Das Telefonbuch führt Reinshagener Str. 21, 42857 Remscheid, Tel. 02191 72027 und die Domain als Homepage, jedoch ohne primäre Register-/Betreiberbestätigung. Keine Änderung an den bisher leeren Standort-/Kontaktfeldern.
 
 **Preise:** Ankauf: keine Wilms-spezifische Preis- oder Ankaufquelle. Verkauf: keine Wilms-spezifische Verkaufspreisliste. Gebühren: keine Wilms-spezifische Gebührenliste. **Offen:** aktueller Rechts-/Betreiberstatus, Zuordnung der Domain und ob Reinshagener Str. 21 noch ein Wilms-Standort ist. Die Adresse bleibt Verzeichnis-Geocoding-Lead, Domain-/Betreiberbeziehung offen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Direktabruf von https://wilms-recycling.de/ endete mit „Challenge Validation“ und lieferte keine aktuell auswertbaren Seiten-/Impressumsdaten. Das ist weder ein Nachweis einer toten Domain noch einer rechtlichen REMONDIS-Übernahme. Frühere Beobachtung von REMONDIS-Content bleibt historischer Webseitenbefund; die Telefonbuchadresse bleibt ein Aggregator-Lead aus der Recherche vom 07.10.2026 und wurde heute nicht erneut geprüft. ANKAUF: keine Wilms-spezifischen Kurse; VERKAUF: keine Wilms-spezifische Liste; GEBÜHREN: keine Wilms-spezifischen Tarife. Keine Felder oder GEO geändert. Quelle des heutigen Abrufs: https://wilms-recycling.de/]
 
 ### Recherche 07.10.2026
 

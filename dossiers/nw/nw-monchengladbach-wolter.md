@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Portalangaben zu Schrotthandel Wolter widersprechen sich beim Ort: ältere Hinweise nennen Angerstr. 5, 41199 Mönchengladbach, der direkt geprüfte 11880-Eintrag dagegen Angerstr. 5, 41238 Mönchengladbach-Dohr, Tel. 02166 1471436 (Eintragsdaten 2021). Beides sind Leads; das jüngere Portaldatum ist kein Betreiberbeleg und bestätigt keine aktuelle Tätigkeit. Keine Betreiberwebsite/Registerquelle, Öffnungszeiten oder öffentliche Annahme verifiziert. Adresse und Telefon bleiben offen; keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
+Portalangaben zu Schrotthandel Wolter widersprechen sich beim Ort: ältere Hinweise nennen Angerstr. 5, 41199 Mönchengladbach, der am 24.10.2026 erneut direkt geprüfte 11880-Eintrag dagegen Angerstr. 5, 41238 Mönchengladbach-Dohr, Tel. 02166 1471436 (Eintragsdaten 2021). Beides sind Leads; das jüngere Portaldatum ist kein Betreiberbeleg und bestätigt keine aktuelle Tätigkeit. Keine Betreiberwebsite/Registerquelle, Öffnungszeiten oder öffentliche Annahme verifiziert. Adresse und Telefon bleiben offen; ANKAUF ohne bestätigte Kurse, VERKAUF ohne Preisliste und GEBÜHREN ohne Tarifangaben. Keine Geokodierung, solange Adresse/Betrieb nicht geklärt sind.
 
 ## Timeline
+
+### Recherche 24.10.2026: erneute Direktprüfung des Aggregators
+
+- [Recherche 24.10.2026: Die 11880-Detailseite wurde erneut direkt gelesen und führt Schrotthandel Wolter, Angerstr. 5, 41238 Mönchengladbach-Dohr und 02166 1471436; keine E-Mail, Betreiberwebsite oder Öffnungszeiten. Eintragsdaten 01.07.2021, Portalaktualisierung 03.10.2026. Die Seite löst den älteren 41199-Lead nicht auf und belegt keine aktuelle Tätigkeit oder Annahmestelle. ANKAUF: keine verifizierten Preise; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Felder oder GEO geändert. Quelle (Aggregator-Lead): https://www.11880.com/branchenbuch/moenchengladbach/120674719B54472309/schrotthandel-wolter.html]
 
 ### Recherche 16.10.2026 — Welle 13:00 B
 

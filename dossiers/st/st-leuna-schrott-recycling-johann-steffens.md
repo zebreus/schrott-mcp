@@ -31,6 +31,10 @@ Ankaufspreise: kein numerisches Blatt im geprüften Kontaktinhalt. Verkaufspreis
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Kontaktseite des Betreiberauftritts erneut direkt per HTTP gelesen. Sie nennt Schrott Recycling Johann Steffens, Am Haupttor Bau 3525a, 06236 Leuna, 03461 436261, 0171 7734887 und schrott-recycling-steffens@leuna.de. Dies bestätigt die aktuelle Seitenangabe, löst aber nicht den abweichenden 06237-Verzeichnislead und belegt keine frei zugängliche Annahmestelle im Industrieareal; keine vollständige Register-/Zweitquelle für die Anschrift. Keine Frontmatter-Felder ergänzt. ANKAUF: beworbene Tätigkeit, keine numerischen Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. GEO erst nach PLZ-/Zufahrtsklärung. Quelle: http://www.schrott-recycling-steffens.leuna.de/kontakt.html]
+
 ### Recherche 15.10.2026 Welle18A
 
 - [Recherche 15.10.2026 Welle18A: Kontaktseite per HTTP direkt lesbar: Schrott Recycling Johann Steffens, Hauptsitz Am Haupttor Bau 3525a, 06236 Leuna, 03461 436261, Mobil 0171 7734887, schrott-recycling-steffens@leuna.de; Geschäftsführer Johann Steffens, Steuer-/Unternehmensnummer, keine HRB. Als Betreiber-Einzelbeleg vom Vorwellen-Bericht Leuna-Echo unterscheiden: Redaktioneller Bericht ist kein Handels-/Gewerberegister und fällt nicht unter die README-Belegklassen. Daher keine Adress-/Kontaktfills auf vermeintlichem Zwei-Beleg-Standard. Numerische Ankauf-, Verkaufs- oder Gebührenpreise auf der gelesenen Kontaktseite nicht vorhanden; keine umfassende neue Preiscrawlbehauptung. GeoBedarf: Bau 3525a/PLZkonflikt/Annahmezugang klären. Quellen: http://www.schrott-recycling-steffens.leuna.de/kontakt.html ; https://www.leunaecho.de/rueckbau-fuer-neustart/ (nur Vorrecherche 04.10., nicht heute neu gelesen).]

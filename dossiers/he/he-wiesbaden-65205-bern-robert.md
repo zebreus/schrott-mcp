@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-Die bisherigen Verzeichnisse führen Robert Bern als Altmaterial-/Schrotthandel in Wiesbaden-Delkenheim, Römerstr. 67. Betreiberidentität und Adresse sind weiterhin nicht durch eine qualifizierte Primärquelle bestätigt; Annahme- und Preisbedingungen bleiben offen.
+Die bisherigen Verzeichnisse führen Robert Bern als Altmaterial-/Schrotthandel in Wiesbaden-Delkenheim, Römerstr. 67. Die Adresse und Telefonnummer im Frontmatter sind Verzeichnis-Leads, nicht durch eine qualifizierte Primärquelle bestätigt; die 11880-Angabe ist laut dortigem Datensatz auf 2021 zurückdatiert. Annahme und aktuelle Geschäftstätigkeit sind offen.
+
+**ANKAUF:** kein Material- oder Fahrzeugkurs belegt. **VERKAUF:** keine Waren-/Teilepreisliste. **GEBÜHREN:** keine Tarife. **GEO:** erst nach Bestätigung von Betreiber, Adresse und einer tatsächlichen Annahmestelle.
 
 ## Timeline
 

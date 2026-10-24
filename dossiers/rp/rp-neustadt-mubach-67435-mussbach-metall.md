@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Register-/Firmenprofiltreffer zur Mussbach Metall GmbH & Co. KG ordnet den Namen An der Eselshaut 2, 67435 Neustadt und dem Metallwaren-/Metallhalbzeugbereich zu. Das belegt noch keinen Schrottankauf oder eine öffentliche Annahmestelle; die Unternehmenswebsite war beim Direktabruf nicht erreichbar. Keine Kontaktdaten oder Ankaufbedingungen übernommen. ANKAUF: kein Schrottankauf belegt, keine Preise; VERKAUF: keine belastbare Preisliste; GEBÜHREN: keine Angaben.
+Das NorthData-Firmenprofil zur Mussbach Metall GmbH & Co. KG führt HRA 41393 und An der Eselshaut 2, 67435 Neustadt; es dokumentiert eine Liquidationseintragung 2017, eine Fortsetzungseintragung vom 12.06.2025 und einen 2024er Jahresabschluss, publiziert am 05.02.2026. Die Einordnung als Herstellerin/Händlerin von Metallhalb-/Fertigfabrikaten und Rohstoffen stammt aus dem früher geprüften Profil der Geschäftsführungs-GmbH (HRB 41319), das die KG beschreibt. NorthData und der Registerspiegel sind Firmeninformationsdienste, keine hier eingeholten aktuellen amtlichen Auszüge; die Einträge belegen weder laufenden Kundenbetrieb noch Schrottankauf oder eine öffentliche Annahmestelle. Der Direktabruf von mussbach-metall.de scheiterte am 24.10.2026 mit einem Transportfehler; daraus folgt keine Geschäftsschließung. Keine Kontaktdaten oder Annahmebedingungen übernommen. **ANKAUF:** kein Schrottankauf belegt, keine Preise. **VERKAUF:** keine belastbare Produktpreisliste. **GEBÜHREN:** keine Angaben. **GEO:** die Registeranschrift ist nicht als öffentliche Annahmestelle bestätigt und wird nicht geokodiert.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: NorthData-Firmenprofil direkt geprüft: HRA 41393 und Anschrift An der Eselshaut 2, 67435 Neustadt a. d. Weinstraße. Die NorthData-Publikationshistorie führt eine Liquidation (10.04.2017), eine Fortsetzung (12.06.2025) sowie den Jahresabschluss zum 31.12.2024, publiziert am 05.02.2026. Die Einordnung als Herstellerin/Händlerin von Metallhalb-/Fertigfabrikaten und Rohstoffen stammt aus dem früher geprüften Profil der Geschäftsführungs-GmbH HRB 41319, das die KG beschreibt (Quelle unten). Diese Firmeninformationsdienste ersetzen keinen aktuellen amtlichen Registerauszug und belegen weder heutige operative Tätigkeit noch Schrottannahme/öffentlichen Kundenverkehr. Direktabruf https://www.mussbach-metall.de ergab einen Transportfehler, keinen belastbaren Statusbeleg. ANKAUF: keine belegten Schrottkurse; VERKAUF: keine öffentliche Preisliste; GEBÜHREN: keine Tarife. Keine Frontmatter-Felder oder GEO geändert. Quellen: https://www.northdata.de/Mussbach%20Metall%20GmbH%20%26%20Co%C2%B7%20KG,%20Neustadt%20a%C2%B7%20d%C2%B7%20Weinstra%C3%9Fe/Amtsgericht%20Ludwigshafen%20a.Rhein%20HRA%2041393 ; https://www.online-handelsregister.de/handelsregisterauszug/rp/Ludwigshafen-am-Rhein/HRB/41319/Mussbach-Metall-Geschaeftsfuehrungsgesellschaft-mbH]
 
 ### Recherche 01.10.2026
 

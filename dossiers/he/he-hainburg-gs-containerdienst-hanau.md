@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-Mobiler Anbieter mit Impressumsitz in Hainburg; die Hanau-Nennung beschreibt ein Servicegebiet, keinen Hanauer Standort.
+Die Website des Anbieters nennt Serafino Nikolaiciuk und einen Impressumsitz in Hainburg; „Hanau“ beschreibt das Servicegebiet, nicht einen bestätigten Hanauer Hof. Die Website wirbt mit mobilem Metall-/Kabelankauf, nennt aber keine Ankaufskurse. Separat davon veröffentlicht sie Container-Entsorgungsgebühren: zuletzt als aktualisiert am 08.04.2025 ausgewiesen, daher vor Auftrag aktuell bestätigen.
+
+**ANKAUF:** Eisen, Altmetall, Kupfer-/Aluminiumkabel und weitere Metalle laut Betreiberseite; Bewertung nach Marktpreis, ohne Zahlenkurs. **VERKAUF:** keine Metall-/Warenpreisliste gefunden. **GEBÜHREN:** Entsorgungs-/Containergebühren, keine Metallankaufpreise; z. B. Bauschutt 48 €/t, 4-t-Mindestmenge, 70 € Lieferung, jeweils zzgl. 19 % MwSt.; 14 Tage Containermiete inklusive, danach 2,50 €/Tag. Preisstand laut Betreiberseite 08.04.2025 und nicht als heutiger verbindlicher Kostenvoranschlag zu verstehen. **GEO:** Impressumsadresse ist kein Beleg für einen öffentlich zugänglichen Hof; weder Hanau noch Hainburg als Selbstanlieferstelle geokodieren.
 
 ## Timeline
+
+### Recherche 24.10.2026: Gebühren von Ankaufspreisen getrennt
+
+- [Recherche 24.10.2026: Betreiber-Impressum, Metallankaufsseite und Preis-/Zahlungsbedingungen direkt abgerufen. Das Impressum nennt GS Containerdienst Hanau, Serafino Nikolaiciuk, Gartenstraße 83, 63512 Hainburg, Tel. +49 6181 9195058 / +49 151 67706600; dies ist weiterhin ein Betreiber-Selbstbeleg ohne unabhängige zweite Identitätsquelle. Die Schrottseite bewirbt den Ankauf von Eisen, Altkabeln, Kupferkabeln und weiteren Metallen mit Bewertung „zu Marktpreisen“, aber ohne numerische Sortenpreise. Eine gesonderte Verkaufspreisliste für Metalle/Waren wurde nicht gefunden. Die Preisseite kennzeichnet sich als zuletzt am 08.04.2025 aktualisiert und listet Entsorgungsgebühren (nicht Ankauf): Bauschutt 48 €/t, dabei 4.000 kg Mindestmenge; Lieferung 70 €; 14 Tage Miete inklusive, danach 2,50 €/Tag; alle aufgeführten Preise zzgl. 19 % MwSt. Die Zahlungs-/Mindestmengenbedingungen enthalten zusätzlich mögliche situationsabhängige Kosten, daher Auftragspreis vorab anfragen; die Gebührenseite ist kein belastbarer Preisstand für 2026. Hainburg wird als Liefergebiet genannt, aber weder eine Annahmestelle noch öffentlicher Hof an der Impressumsadresse belegt. Keine Frontmatter-Felder ergänzt und keine Koordinate abgeleitet. Quellen: https://gs-containerdienst.de/impressum/ ; https://gs-containerdienst.de/schrottentsorgung-schrottankauf/ ; https://gs-containerdienst.de/preise/ ; https://gs-containerdienst.de/containerdienst-zahlungsbedingungen-mindestmengen.]
 
 ### Recherche 05.10.2026
 

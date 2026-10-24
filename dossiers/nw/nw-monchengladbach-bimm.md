@@ -28,6 +28,10 @@ Die 11880-Zeile führt „Schrotthandel Bimm“ an Hohe Str. 10, 41179 Rheindahl
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Detailseite erneut direkt geprüft: Schrotthandel Bimm, Hohe Str. 10, 41179 Mönchengladbach-Rheindahlen, 0174 4523819; als Branchen werden Altmaterialhandel/Schrotthandel genannt. Die Seite nennt keine E-Mail, Betreiberwebsite oder Öffnungszeiten. Ihre Metadaten unterscheiden Eintragsdaten 26.07.2021 von einer Portalaktualisierung am 03.10.2026; das jüngere Portaldatum bestätigt keinen aktuellen Betrieb. Kein Betreiber-/Registerbeleg, kein Preis-/Gebührentarif. ANKAUF nicht unabhängig belegt; VERKAUF/GEBÜHREN ohne Tarife. Keine GEO-Änderung oder Feldübernahme. Quelle (Aggregator-Lead): https://www.11880.com/branchenbuch/moenchengladbach/120674719B102222136/schrotthandel-bimm.html]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: 11880-Detailprofil erneut gelesen: Hohe Str. 10, 41179 Mönchengladbach-Rheindahlen und 0174 4523819; es nennt weder E-Mail noch Website oder Öffnungszeiten und verweist auf eine Facebook-Seite. Der Datensatz ist vom 26.07.2021, obwohl das Portal „aktualisiert am 03.10.2026“ anzeigt. Kein datierter Betreiberbeitrag, aktuelles Impressum oder Registerbeleg; Nummer bleibt unbestätigter Aggregatorwert, Felder unverändert. Ankauf/Verkaufspreise und Gebühren nicht veröffentlicht. Quelle(n): https://www.11880.com/branchenbuch/moenchengladbach/120674719B102222136/schrotthandel-bimm.html ; https://www.facebook.com/pages/schrotthandel-bimm/186564004754031]

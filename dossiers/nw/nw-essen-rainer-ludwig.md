@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Firmierung „Rainer Ludwig GmbH & Co. KG“ ist bislang nicht register- oder betreiberseitig identifiziert. Eisenbahnstraße ohne Hausnummer ist nur eine ältere Portalspur, keine bestätigte Betriebsanschrift. Die aktuelle Northdata-Suche liefert unscharfe Personentreffer statt einer passenden Essener KG; daraus folgt weder Nichtexistenz noch Schließung. Keine Kontakte anderer Ludwig-Betriebe übernehmen.
+Die Firmierung „Rainer Ludwig GmbH & Co. KG“ ist bislang nicht register- oder betreiberseitig identifiziert. Neuere Verzeichnissuchergebnisse führen den exakten Namen als Essener Recyclingunternehmen; ScrapMonster nennt eine Familiengründung 1959, ein weiteres lokales Branchenverzeichnis listet Eisenbahnstraße 1. Das sind Verzeichnis-Leads ohne unabhängige Register-/Betreiberbestätigung und lösen weder die historische Eisenbahnstraßen-Spur noch die Seed-Identität. Keine Kontakte anderer Ludwig-Betriebe übernehmen.
 
-**Offen:** vollständige Firmierung, HRA und heutiger Betreiber sowie genaue Essener Adresse. Ankauf, Verkauf, Gebühren und öffentliche Annahme sind nicht belegt; keine zuordenbare Preisliste.
+**Offen:** vollständige Firmierung, HRA und heutiger Betreiber sowie genaue Essener Adresse. **ANKAUF:** trotz Branchenbeschreibung kein seed-spezifischer Ankauf oder Preis belegt. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Öffentliche Annahme nicht belegt. **GEO:** Eisenbahnstraße 1 nicht geokodieren, bevor Betreiber und Annahmestelle bestätigt sind.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Eine ScrapMonster-Suchergebnisseite führt „Rainer Ludwig GmbH & Co KG“ als Essener Recyclingunternehmen und behauptet eine Gründung 1959 durch Felix Ludwig; das lokale Essener Branchenverzeichnis führt „Ludwig“ an Eisenbahnstr. 1. Beide sind Verzeichnis-/Profilquellen, kein Handelsregisterauszug und kein Betreiberauftritt; die genaue KG, HRA, aktuelle Annahmestelle und Verbindung zum Seed sind damit nicht bestätigt. Keine Daten anderer Ludwig-Firmen übertragen. ANKAUF: keine verifizierten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine GEO. Quellen: https://www.scrapmonster.com/company/rainer-ludwig-gmbh-co-kg/109983 ; https://www.essener-branchenbuch.de/schrott/essen/ludwig-eisenbahnstr-1/]
 
 ### Recherche 15.10.2026, Welle 12:00 A
 

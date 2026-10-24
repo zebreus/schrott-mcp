@@ -24,7 +24,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichnisse nennen Frank Döringer als Schrotthandel an Fritz-Erler-Str. 47, 65207 Wiesbaden, mit Telefonnummer 06122 703995; diese Werte sind keine aktuelle Betreiber-/Registerbestätigung. Die alte Domain fdoeringer.de ist erreichbar, der Inhalt aber Flash-abhängig und kein lesbares aktuelles Impressum. Das ist weder ein Nachweis laufenden Betriebs noch einer Schließung. Mobilnummer und E-Mail aus Verzeichnis-/Flash-Funden sind nicht in die Stammdaten übernommen.
+
+**ANKAUF:** keine belegte Materialannahme oder Zahlenkurse. **VERKAUF:** keine Teile-/Metallpreisliste. **GEBÜHREN:** keine Tarife. **GEO:** Verzeichnisadresse erst nach aktueller Betreiber- und Standortbestätigung geokodieren.
 
 ## Timeline
 
@@ -50,3 +52,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 04.10.2026: Grenzen der Unterseitenprüfung: direkte Kandidaten impressum.html, kontakt.html, robots.txt und sitemap.xml antworteten mit HTTP 404. Dies sind Pfadfehler, nicht der Beweis einer toten Domain oder dauerhaften Schließung. Ohne nutzbares Flash-Rendering konnten Kontakt-/Impressum-Ansichten und Leistungs-/Preisdetails nicht vollständig gelesen werden; README-Betreiber-Ausnahme nicht erfüllt; Quelle(n): https://www.fdoeringer.de/impressum.html ; https://www.fdoeringer.de/kontakt.html ; https://www.fdoeringer.de/robots.txt ; https://www.fdoeringer.de/sitemap.xml]
 - [Recherche 04.10.2026: Identitäts-Gegenprüfung per direkt aufgerufener Northdata-Suche Frank Döringer, Wiesbaden ergab in der sichtbaren Ergebnisliste keinen eindeutig zuordenbaren Schrotthandels-Registereintrag, sondern unscharfe Personentreffer. Kein Negativattest für ein möglicherweise nicht eingetragenes Einzelunternehmen und keine belegte Nachfolger-/Merge-Kette. Allgemeine Websuche lieferte keine verwertbaren neuen Ergebnisse; aggregierte Leistungsangaben, Mobilnummer und Anschrift bleiben ungeprüfte Leads. Vollständiger aktueller Betreibername, Standort und Kontakt sind Owner-Klärfälle; Quelle(n): https://www.northdata.de/Frank+D%C3%B6ringer,+Wiesbaden ; https://www.gelbeseiten.de/gsbiz/b354dfcb-2010-4e7a-a379-888fee874fc6]
 - [Recherche 04.10.2026: Keine lesbare, zuordenbare aktuelle Ankaufspreisliste in den tatsächlich abgerufenen Website-Seiten/Flash-Artefakten gefunden; aufgrund der Darstellungsgrenze kein umfassender Negativbefund. Öffnungszeiten, angenommene Materialien, Anlieferung, Abholbedingungen und etwaige Kosten nicht primär bestätigt; entsprechende leere Frontmatter-Felder bleiben leer und status bleibt pruefung. Keine Schließungsbehauptung und keine Preisübernahme; Quelle(n): https://www.fdoeringer.de/ ; https://www.fdoeringer.de/flash.html ; https://www.fdoeringer.de/website.swf]
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Direkter Abruf der alten Domain https://www.fdoeringer.de/ lieferte den Seitentitel „Metallentsorgung Döringer Wiesbaden“, aber in diesem Abruf keinen lesbaren Seiteninhalt. Der vollständige dokumentierte Inhaltscheck vom 04.10.2026 (siehe vorheriger Timeline-Eintrag) fand nur eine Flash-abhängige Darstellung und kein lesbares aktuelles Impressum. Der neue Abruf bestätigt daher weder aktuelle Betreiberidentität noch Betrieb, Adresse, Annahmebedingungen oder Preise. Die vorhandene Adresse und Telefonnummer bleiben Verzeichnis-Leads; keine Frontmatter- oder GEO-Änderung. Quellen: https://www.fdoeringer.de/ ; vollständige Seiten-/Flash-Prüfung vom 04.10.2026 mit Unterseiten und SWF-Links im vorherigen Timeline-Eintrag.]

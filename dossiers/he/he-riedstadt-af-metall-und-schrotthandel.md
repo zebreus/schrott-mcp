@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für den Seed-Namen „AF Metall- und Schrotthandel“ in Riedstadt wurde keine belastbare Betreiberquelle gefunden; Adresse, Rechtsträger, Kontakt und heutige Tätigkeit bleiben offen. Ein separat auffindbarer Riedstädter Betrieb **Metallverwertung Ried / Stefan Wolfram** nennt auf seiner eigenen Website Am Dammacker 1, 64560 Riedstadt. Name und Quellenlage belegen keine Verbindung zu „AF“; diese Daten und etwaige Leistungen dürfen nicht zusammengeführt werden.
+
+**ANKAUF:** keine dem AF-Kandidaten zurechenbare Annahme oder Preise. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife. **GEO:** keine AF-Adresse oder Annahmestelle belegbar; den Standort der anders benannten Metallverwertung nicht übernehmen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Exakte Suche nach „AF Metall- und Schrotthandel“/Riedstadt ergab keinen auswertbaren Betreiber-, Register- oder kommunalen Beleg für den Seed. Als möglicher Namens-/Orts-Fremdtreffer wurde die Betreiberwebsite von „Metallverwertung Ried“ geöffnet; sie nennt Stefan Wolfram und Am Dammacker 1, 64560 Riedstadt. Es gibt keinen Beleg, dass dieser Betrieb mit AF identisch ist; Anschrift, Leistungen und Preise werden deshalb nicht übertragen. ANKAUF/VERKAUF/GEBÜHREN für den Zielkandidaten unbelegt; keine Adresse für GEO. Quelle des ausdrücklich getrennten Orts-Fremdtreffers: https://www.metallverwertung-ried.de/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

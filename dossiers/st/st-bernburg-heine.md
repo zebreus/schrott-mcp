@@ -28,6 +28,10 @@ Neuer Betreiberauftritt Fahrzeugverwertung & Service Heine, Inhaber Thomas Heine
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Das Betreiber-Impressum erneut direkt gelesen. Es nennt Fahrzeugverwertung & Service Heine, Inhaber Thomas Heine, Friedenshaller Ring 4, 06406 Bernburg, 03471 311901, info@fahrzeugverwertung-heine.de und USt-ID DE319946061; weiterhin keine Handelsregisternummer. Damit ist die aktuelle Betreiber-Selbstauskunft frisch bestätigt, aber keine unabhängige Verbindung zur historischen Schachtstraße oder eine Gewerberegisterbestätigung hergestellt. **ANKAUF:** Fahrzeugankauf beworben, keine Zahlenpreise; **VERKAUF:** Ersatzteile/Reifen beworben, keine Liste; **GEBÜHREN:** Verwertung/Abschleppen ohne Tarife. Keine Straße/Adresse oder GEO-Freigabe ergänzt. Quelle: https://fahrzeugverwertung-heine.de/impressum/]
+
 ### Recherche 19.10.2026: Welle 03:30 C
 
 - [Recherche 19.10.2026: Impressum direkt erneut gelesen: Thomas Heine, Friedenshaller Ring 4, DE319946061, Rufnummer 03471/311901; Angabe Gerichtsstand Amtsgericht Stendal enthält KEINE Handelsregisternummer und erfüllt nicht die autoritative Betreiber-Ausnahme. Startseiten-Suchinhalt bestätigt die bekannte Trennung Fahrzeugankauf, Fahrzeugverwertung mit Verwertungsnachweis und Reifenverkauf, aber keine Zahlen-/Gebührentafel. Keine neue unabhängige Brücke zur historischen Schachtstraße; geleertes Straßenfeld bleibt erhalten. ANKAUF unbezifferter Fahrzeugankauf, VERKAUF Reifen ohne Liste, GEBÜHREN Verwertung/Abschleppen ohne Tarife. Offen: aktuelle GESA-/Gewerbebestätigung der konkreten Betriebsstätte; Notrufzeiten sind keine Annahmezeiten. Keine GEO-Änderung. Quellen: https://fahrzeugverwertung-heine.de/impressum/ (Direktabruf); https://fahrzeugverwertung-heine.de/ (Suchinhalt).]

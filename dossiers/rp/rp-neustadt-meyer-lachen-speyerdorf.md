@@ -28,6 +28,10 @@ Betreiber-Kandidat Sascha Meyer, Im Altenschemel 40a, 67435 Neustadt, 06327 2272
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Der Direktabruf der früher geprüften Betreiber-Leistungsseite https://schrotthandel-meyer.de/index.php/service endete mit einem Transportfehler. Das beweist weder Abschaltung noch Geschäftsaufgabe. Angebots-, Kontakt- und Öffnungszeitenangaben im Überblick beruhen weiterhin auf den früheren Direktprüfungen vom 04.–10.10.2026; aktuelle Verfügbarkeit ist damit nicht neu bestätigt. Seed-Zuordnung zu Sascha Meyer bzw. Abgrenzung vom Patrick-Meyer-Adresslead bleibt offen. ANKAUF: historisch auf der Betreiberseite beworben, keine numerischen Kurse; VERKAUF: keine aktuelle Liste; GEBÜHREN: frühere Seite nannte bedingte kostenlose Altautoabholung und Muldenbereitstellung für Geschäftspartner, keine universelle Kostenfreiheit. Keine Frontmatter-Füllung oder Geokodierung. Quelle: https://schrotthandel-meyer.de/index.php/service]
+
 ### Recherche 09.10.2026 / Gegenprüfung 10.10.2026
 
 - [Recherche 10.10.2026: Wave-D-Detailseiten direkt gegengeprüft: Service nennt kostenlose Altautoabholung und Wertermittlung/Auszahlung, „ebenso“ beim Metallankauf keine eindeutige universelle Gratisabholung. Mulden 2–10 m³, kostenlose Dauerbereitstellung ausdrücklich für Geschäftspartner. Autoverwertung nennt Schrott-/Unfallfahrzeugankauf, Export-Gebrauchtwagen, Gebrauchtteileverkauf; „zertifiziert“ Eigenwerbung ohne aktuelles Originalzertifikat. Öffnungszeiten ab 01.02.2019 Mo–Fr 08:00–12:30/13:00–16:30, Sa 09:00–14:00; Impressum Sascha Meyer/USt-ID DE174079343, keine HRB. Kein numerischer Ankauf-/Verkaufs-/Entsorgungstarif. Alle Angaben zum Kandidaten, Seed/Patrick-Zuordnung ungeklärt, Betreiber-Ausnahme nicht erfüllt, keine Fills. Quelle(n): https://schrotthandel-meyer.de/index.php/service ; https://schrotthandel-meyer.de/index.php/autoverwertung ; https://www.schrotthandel-meyer.de/index.php/oeffnungszeiten ; https://schrotthandel-meyer.de/index.php/impressum]

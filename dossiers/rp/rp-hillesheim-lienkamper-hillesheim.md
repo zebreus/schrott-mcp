@@ -24,11 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Zwei Branchenportale führen denselben Mobilkontakt 0175 9234327 für Schrotthandel Lienkämper in Hillesheim. 11880 nennt zusätzlich Bahnhofstr. 3, 54576 Hillesheim (Eintragsdaten 02.08.2025), während das Schrottplatzportal keine Straße angibt. Diese Adresse bleibt ein widersprüchlich abgesicherter Lead; kein bestätigter Betreiber-/Registerbeleg. Vorhandene Telefonangabe bleibt als dokumentierte Aggregator-Ausnahme, Status `pruefung`.
+Zwei Branchenportale führen denselben Mobilkontakt 0175 9234327 für Schrotthandel Lienkämper in Hillesheim. 11880 nennt zusätzlich Bahnhofstr. 3, 54576 Hillesheim (Eintragsdaten 02.08.2025), während das Schrottplatzportal keine Straße angibt. Diese Angaben bleiben Leads, kein bestätigter Betreiber-/Registerbeleg. Die namensähnliche Website lienkaemper.de beschreibt einen Anbieter technischer Betriebsausstattung und Werkstatteinrichtung; eine Verbindung zum Hillesheimer Schrotthandel ist nicht belegt und die Namensähnlichkeit allein schließt sie nicht abschließend aus. Vorhandene Telefonnummer bleibt als dokumentierte Aggregator-Ausnahme, Status `pruefung`.
 
 **Preise:** ANKAUF: keine Zahlen; das Portal nennt bloß Materialarten und „aktuelle Preise“ auf Anfrage. Die Mindestmenge (100 kg Fe / 1 kg NE) ist nicht vom Betreiber bestätigt. VERKAUF: keine Preisliste. GEBÜHREN: keine verifizierten Tarife.
 
+**GEO:** Bahnhofstr. 3 bleibt unbestätigte Portalanschrift; keine Geokodierung bis Betreiber und aktuelle Betriebs-/Annahmestelle geklärt sind.
+
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Die offizielle Seite lienkaemper.de/ccms/Wir-ueber-uns.html beschreibt Lienkämper als Anbieter technischer Produkte/Betriebsausstattung und Werkstatteinrichtung. Ein Bezug zum im Seed genannten Schrotthandel in Hillesheim wird dort nicht hergestellt; der Namensfund ist daher weder Identitätsbeleg noch abschließender Ausschluss eines gleichnamigen lokalen Betriebs. Bestehende Kontakt-/Adressdaten stammen weiterhin nur aus Branchenportalen. ANKAUF: keine bestätigten Konditionen oder Zahlen; VERKAUF: keine Hillesheim-Preisliste; GEBÜHREN: keine bestätigten Tarife. Keine Geokodierung der Portaladresse. Quelle: https://www.lienkaemper.de/ccms/Wir-ueber-uns.html]
 
 ### Recherche 07.10.2026
 

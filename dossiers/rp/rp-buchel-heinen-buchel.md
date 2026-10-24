@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed „Heinen Büchel“ nennt nur die Georgsweiler Straße und ist nicht eindeutig identifiziert; Hausnummer, Inhaber und Betreiberauftritt fehlen. Die Recherchehistorie enthält einen Branchenbuch-Lead für Hans Peter Heinen in Strohn (Alfbachstr. 2) sowie eine separate Firma Jürgen Heinen e.K. in Koblenz. Keiner dieser Treffer belegt einen Bücheler Betrieb oder eine Verbindung zum Seed; insbesondere keine Adresse/Kontakte zwischen den Orten übertragen. **ANKAUF:** nicht belegt, keine Kurse. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Angaben. **GEO:** die unvollständige Georgsweiler Straße nicht geokodieren; zunächst Betreiber und konkrete Anschrift klären.
+Der Seed „Heinen Büchel“ nennt nur die Georgsweiler Straße und ist nicht eindeutig identifiziert; Hausnummer, Inhaber und Betreiberauftritt fehlen. Die offizielle Gemeindeseite nennt Georgsweiler Straße 39a als Anschrift der Ortsgemeinde Büchel, nicht als Adresse eines Schrotthändlers. Die Recherchehistorie enthält außerdem einen Branchenbuch-Lead für Hans Peter Heinen in Strohn (Alfbachstr. 2) sowie eine separate Firma Jürgen Heinen e.K. in Koblenz. Keiner dieser Treffer belegt einen Bücheler Betrieb oder eine Verbindung zum Seed; insbesondere keine Adresse/Kontakte zwischen den Orten übertragen. **ANKAUF:** nicht belegt, keine Kurse. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Angaben. **GEO:** weder die unvollständige Georgsweiler Straße noch die Gemeindeadresse geokodieren; zunächst Betreiber und konkrete Anschrift klären.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Das Impressum der offiziellen Ortsgemeindeseite nennt Georgsweiler Straße 39a, 56823 Büchel als Anschrift der Gemeinde. Das klärt nur die kommunale Adresse und stellt keine Verbindung zu „Heinen“ oder zu einem Schrottbetrieb her; die Seed-Spur nennt keine Hausnummer. Kein Frontmatter-Fill. ANKAUF: unbelegt; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Keine Geokodierung der Gemeindeadresse als Händlerstandort. Quelle: https://www.buechel.de/impressum-kontakt/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

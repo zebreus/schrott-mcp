@@ -28,7 +28,13 @@ Betreiberauftritt jetzt identifiziert: Edelmetallkontor Idar-Oberstein e. K., Th
 
 Die Website nennt Mainzer Straße 68, 55743 Idar-Oberstein, 06781 2639215, info@goldankaufidaroberstein.de und Mo–Fr 08–12/13–17:30. Diese Standortdaten sind Betreiber-Einzelbeleg; keine Koordinaten oder pauschale Standortfreigabe. Ankauf von Edelmetallen auch in Kleinmengen/privat und gewerblich, sofortige Bezahlung; Schmuckverkauf und Handel mit Anlagegold/-silber. Keine gelesene numerische Kursliste. Prüfungen und Bewertungen ausdrücklich kostenfrei, nicht gleichbedeutend mit einem pauschal gebührenfreien Handelsgeschäft.
 
+**GEO:** Mainzer Straße 68 ist eine Betreiberangabe, aber aktuelle Annahmestelle/Standortlage noch unabhängig zu bestätigen; bis dahin keine Koordinate setzen.
+
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiberhomepage erneut direkt gelesen. Sie nennt Inhaber Th. Heintz, Edelmetallankauf von Gold/Silber/Platin/Palladium, Schmuck, Zahngold, Münzen, Uhren und Silberwaren, Kleinmengen sowie sofortige Zahlung; sie nennt Handel mit Münzen/Barren und gebrauchtem Schmuck. Es erscheinen keine numerischen Ankaufs- oder Verkaufskurse. Die Seite bewirbt Prüfungen/Bewertungen als kostenfrei; daraus folgt keine generelle Gebührenfreiheit. Mainzer Straße 68 und Öffnungszeiten bleiben Betreiber-Einzelbeleg; keine Koordinate ergänzt. Quellen: https://edelmetallkontor-io.jimdofree.com/ ; https://edelmetallkontor-io.jimdofree.com/about/]
 
 ### Recherche 22.10.2026
 

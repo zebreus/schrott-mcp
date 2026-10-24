@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+North Data/Register führen die Dahm & Bohnsack Handels- und Recycling GmbH, HRB 11108 Neuruppin, mit Geschäftsanschrift Gewerbegebiet Ost 8 und Handels-/Recyclingzweck; der zuletzt sichtbare Jahresabschluss betrifft 2024. Ein Creditreform-Suchergebnis bestätigt Name, Anschrift und Unternehmensgegenstand, nennt aber die Telefonnummer +49 33970 508330. Die vorhandene Nummer 033970 501488, E-Mail und Öffnungszeiten stammen aus Verzeichnisangaben; die neue abweichende Nummer ist nicht direkt verifiziert (Creditreform-Detailabruf 403). Keine Nummer überschrieben. Die Registeranschrift belegt nicht von sich aus eine heute geöffnete Kundenannahme; der Schwesterstandort Heiligengrabe bleibt getrennt. Status `aktiv` aus der vorhandenen Register-/Quellenhistorie beibehalten, ohne daraus Annahmebedingungen abzuleiten.
+
+**Ankauf:** Unternehmensgegenstand umfasst Schrott-/Buntmetallhandel, aber keine aktuellen Sorten, Kundenannahme oder Ankaufskurse belegt. **Verkauf:** keine Materialpreisliste gefunden. **Gebühren:** keine belastbaren Container-, Transport- oder Annahmetarife. **Geokodierung:** Gewerbegebiet Ost 8 ist eine Registeranschrift und nur Standortkandidat; vor einem Kundenhof-Pin Annahme vor Ort bestätigen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Creditreform-Suchvorschau zur namensgenauen GmbH gelesen: „Dahm & Bohnsack Handels- und Recycling GmbH“, Gewerbegebiet Ost 8, 16845 Neustadt, Gegenstand unter anderem Handel mit Schrott/Buntmetallen, Recycling und Containerdienste; dort ist +49 33970 508330 angegeben. Direkter Abruf der Creditreform-Detailseite antwortete HTTP 403, deshalb ist diese Nummer ein nicht direkt geprüfter Suchindex-Lead. Sie widerspricht der bisher aus 11880 übernommenen Nummer 033970 501488; keine davon wird hier neu bestätigt und keine Nummer überschrieben. Der Handelsregister-/North-Data-Nachweis HRB 11108 bleibt maßgeblich für den Rechtsträger, nicht für eine aktuelle Kundenannahme am Firmensitz. Keine neuen Ankaufskurse, Verkaufspreise oder Gebühren. GEO: Gewerbegebiet Ost 8 erst nach Kundenannahmebestätigung als Händlerstandort behandeln. Quelle: https://firmeneintrag.creditreform.de/16845/2012429050/DAHM_BOHNSACK_HANDELS_UND_RECYCLING_GMBH (Suchvorschau lesbar, Direktabruf 403); vorhandener Registerbeleg: https://www.northdata.de/Dahm%20&%20Bohnsack%20Handels-%20und%20Recycling%20GmbH,%20Neustadt%20(Dosse)/Amtsgericht%20Neuruppin%20HRB%2011108 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
