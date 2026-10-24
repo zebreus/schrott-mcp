@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„TEM“ ist mit den Seed-Angaben Rastatt/Autoverwertung keinem konkreten Betreiber zugeordnet. Es gibt weder eine verifizierte Website noch eine belastbare Straße, Telefonnummer oder Bestätigung einer öffentlichen Annahmestelle. Gleichnamige bzw. acronym-basierte Suchtreffer sind kein Identitätsbeleg; `status: pruefung` bleibt ein offener Zuordnungsfall, keine Schließungsaussage.
+
+**Ankauf:** keine Bedingungen oder Kurse verifiziert. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Ohne bestätigte Anschrift gibt es keinen verantwortbaren GEO-Kandidaten über den groben Stadtbezug Rastatt hinaus.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Eigenständige Websuche nach „TEM Autoverwertung Rastatt Schrott“ sowie exakter TEM-/Rastatt-Kombination erneut geprüft. Die sichtbaren Treffer waren überwiegend themenfremde TEM-/Temu-Treffer; kein qualifizierter Betreiber-, Register-, kommunaler oder aktueller Annahmebeleg für den Seed ließ sich daraus öffnen oder zuordnen. Das ist ein Suchbefund, kein Negativnachweis für Existenz oder Geschäftsbetrieb. Keine Feldänderung. **Ankauf/Verkauf/Gebühren:** keine zuordenbaren Konditionen oder Preislisten. Adresse und öffentliche Annahme bleiben offen. Quellen/Suchpfade: https://www.google.com/search?q=TEM+Autoverwertung+Rastatt+Schrott ; https://www.bing.com/search?q=TEM+Autoverwertung+Rastatt+Schrott .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

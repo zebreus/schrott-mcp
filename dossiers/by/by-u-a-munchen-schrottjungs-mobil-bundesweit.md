@@ -14,7 +14,7 @@ website: https://schrottjungs.de
 website_status: aktiv
 status: aktiv
 description: 'Mobile Schrottabholung und Buntmetallankauf für Privat/Gewerbe, Containerservice 3-40 m³. Gewerbe-Ankaufsliste nur unverbindliche bis-zu-Richtpreise für Großmengen; Kleinmengen-/Einzelgeräteabholung ggf. gebührenpflichtig, Angebot vorher klären. Münchner Anlieferung nur am getrennten Partnerhof Entel, keine eigene Filiale.'
-dropoff_json: '{"allowed": true, "conditions": "Anlieferung laut Betreiberseite am Partnerstandort Entel Container GmbH, Lerchenstraße 19, 80995 München; kein eigener SchrottJungs-Standort."}'
+dropoff_json: '{"allowed": true, "conditions": "SchrottJungs nennt für München Anlieferung am getrennten Partnerstandort Entel Container GmbH, Lerchenstraße 19, 80995 München. Entel beschreibt eigene Annahme für Privat/Gewerbe ab 0,5 m³, Öffnungszeiten Mo–Fr 07:00–17:00, Sa 09:00–14:00; Entel-Bedingungen und -Preise vor Anfahrt prüfen. Keine eigene SchrottJungs-Filiale."}'
 pickup_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Abholung nach Termin und bestätigtem Angebot. Münchner Seite nennt für Einzelgeräte/kleine Eisenmengen ca. 40-80 Euro, Startseiten-FAQ abweichend 20-50 Euro; Kosten und Annahme vorher klären. Eisen-Grenze 300 kg betrifft kostenlose Abholung, keine allgemeine Mindestmenge für Buntmetalle. Ausschlüsse u.a. Kühlgeräte/Fernseher/Monitore beachten; Container 3-40 m³ für Gewerbe laut eigener Seite mietfrei bei Schrottbefüllung."}'
 provenance_section: Betriebe mit geprüfter Website
 provenance_ankauf_raw: ja
@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Website identifiziert den Betreiber im Impressum als Schrottjungs UG, Hamburg (HRB 196586; Geschäftsführer Magnus Ditz). Der Anbieter beschreibt Abholungen über lokale Partnerbetriebe. Für München nennt er als **separaten Anlieferpunkt** Entel GmbH, Lerchenstraße 19, 80995 München; das ist keine eigene SchrottJungs-Filiale.
+Die Website identifiziert den Betreiber im Impressum als Schrottjungs UG, Hamburg (HRB 196586; Geschäftsführer Magnus Ditz). Der Anbieter beschreibt Abholungen über lokale Partnerbetriebe. Für München nennt er als **separaten Anlieferpunkt** Entel GmbH, Lerchenstraße 19, 80995 München; das ist keine eigene SchrottJungs-Filiale. Entels eigene Website beschreibt dort öffentliche Anlieferung für Privat- und Gewerbekunden (auch kleinere Mengen ab 0,5 m³) und eigene Öffnungszeiten Mo–Fr 07:00–17:00, Sa 09:00–14:00. Das sind Bedingungen des unabhängigen Hofbetreibers, keine SchrottJungs-Preis- oder Ankaufsgarantie.
 
 **Ankauf:** Die Gewerbeseite veröffentlicht unverbindliche „bis zu“-Richtpreise für Großmengen (FE in €/t, NE in €/kg; Einzelwerte siehe Timeline), keine garantierten Tages- oder Privatkundenpreise; Tageskurse auf Anfrage. **Verkauf:** keine Material-Verkaufspreisliste auf den geprüften Seiten. **Gebühren:** München und Startseite nennen für Einzelgeräte/kleine Eisenmengen 40–80 €, die FAQ auf der Startseite jedoch 20–50 €. Außerdem steht „Eisenschrott <300 kg“ zugleich als Ausschluss und als mögliche gebührenpflichtige Ausnahme. Vor Abholung konkrete Annahme und Kosten schriftlich bestätigen. Gewerbecontainer 3–40 m³ werden als mietfrei bei Schrottbefüllung beworben; das ist kein allgemeiner Entsorgungstarif.
 
 ## Timeline
+
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Entels eigene Homepage und Impressum direkt gegengeprüft: Entel Container GmbH, Lerchenstr. 19, 3. Reihe, 80995 München, HRB 93487 AG München; die Seite beschreibt private und gewerbliche Schrottanlieferung, auch ab 0,5 m³, mit eigenen Hofzeiten Mo–Fr 07:00–17:00 und Sa 09:00–14:00; konkrete Ankaufskurse auf Anfrage. SchrottJungs-München-Seite verweist auf diesen Anlieferort. Damit ist ein öffentlicher Partnerhof belegt, aber kein eigener SchrottJungs-Standort. Entel-Bedingungen/Preise nicht auf SchrottJungs übertragen; die bereits dokumentierten SchrottJungs-Großmengen-Richtpreise, Gebührenwidersprüche und Containerbedingungen bleiben getrennt. Kein eigenes GEO gesetzt; Lerchenstr. 19 nur Kandidat für den separaten Partnerstandort. Quellen: https://schrottjungs.de/schrottabholung-muenchen/ ; https://www.entel-container.de/ ; https://www.entel-container.de/impressum/ .]
 
 ### GEO-Prüfung 22.10.2026
 

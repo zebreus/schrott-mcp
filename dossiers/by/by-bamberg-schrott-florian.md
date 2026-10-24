@@ -7,7 +7,7 @@ city: Bamberg
 street: ''
 postcode: ''
 phone: ''
-clear_fields: 'phone'
+clear_fields: 'geo,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -33,6 +33,14 @@ Verzeichnis-Kandidat „Schrott Florian“: Gelbe Seiten und Das Örtliche nenne
 - **Geokodierung:** keine GEO-Prüfung/-Änderung; fehlende Dossierkoordinaten behalten DB-GEO, ohne dessen Händlerzuordnung zu bestätigen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 24.10.2026
+
+- [Owner-GEO-Korrektur 24.10.2026: Read-only-Abgleich ergab den gespeicherten Punkt 49.8925, 10.897025, abgeleitet aus Heumannstr. 1, Bamberg. Die aktuelle Prüfung findet weiterhin keinen Betreiber-/Identitätsbeleg; Straße und Telefon wurden bereits als reine Verzeichnis-Leads aus den strukturierten Feldern entfernt. `clear_fields: 'geo,phone'` entzieht nun auch den damit verbundenen Altpunkt, statt ihn trotz leerer Adresse unbemerkt weiterzuführen. Keine Ersatzkoordinate und keine Produktionsänderung. Quellen: read-only `public.db` (24.10.2026); Verzeichnis-/Gegenprüfung im Rechercheeintrag 24.10.2026; `docs/trader-seed.md`.]
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Exakte Namens-/Adresssuche brachte keinen zuordenbaren Betreiberauftritt und keinen qualifizierten Identitätsbeleg. Der Gelbe-Seiten-Treffer bleibt „Schrott Florian“, Heumannstr. 1, 96050 Bamberg, 0951 30945195; „Website“-/Kontakt-Elemente im Verzeichnis führen nicht zu einer Betreiberwebsite. Name/Person, Betrieb und öffentliche Annahme ungeklärt; die bereinigten Telefon-/Adressfelder bleiben leer, `clear_fields: 'phone'` und `status: pruefung` unverändert. Ankauf/Verkauf/Gebühren nicht belegt; Heumannstr. 1 nur Geokodierungskandidat nach Identitätsprüfung, keine Koordinaten gesetzt. Quelle (Verzeichnis-Lead): https://www.gelbeseiten.de/gsbiz/aa2e23f3-e1e1-4579-a2e7-84f566a7dafe .]
 
 ### Recherche 23.10.2026
 

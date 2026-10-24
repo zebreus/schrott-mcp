@@ -1,5 +1,6 @@
 ---
 slug: sn-mucka-werner-bogner
+clear_fields: 'dropoff_json,geo'
 name: Werner Bogner
 trader_type: sonstige
 state: SN
@@ -26,9 +27,13 @@ provenance_origin: table
 
 Werner Bogner in Mücka bleibt unbestätigter Seed-/Verzeichniskandidat. Die aktuelle Register-Namenssuche findet einen Werner Bogner in Kempten, aber keinen belegten Mücka-Bezug; dieser Homonym ist nicht zugeordnet. Status `pruefung` statt bisher unbelegt `aktiv`, keine Schließungsbehauptung.
 
-Die historische Spur Am Bahnhof 126/02906 Mücka/035893 6983 ist kein geprüfter Betreiberstandort. Keine verifizierten Ankauf-/Verkaufspreise oder Gebühren. Offen: heutige Inhaberidentität, Gewerbenachweis, richtige Hausnummer und öffentliche Metallannahme.
+Die historische Verzeichnis-Spur Am Bahnhof 126/02906 Mücka/035893 6983 ist kein geprüfter Betreiberstandort. Es liegt keine belastbare heutige Straßenanschrift zur Geokodierung vor. **Ankauf:** kein aktueller Betreiber- oder Preisbeleg. **Verkauf:** keine Produkt-/Materialliste. **Gebühren:** keine verifizierten Abhol- oder Annahmetarife. Offen: heutige Inhaberidentität, Gewerbenachweis, richtige Hausnummer und öffentliche Metallannahme.
 
 ## Timeline
+
+### Owner-GEO-/Annahme-Korrektur 24.10.2026
+
+- [Owner-GEO-Korrektur 24.10.2026: Read-only-Produktion enthielt den Punkt 51.3167, 14.7 und `dropoff_json={"allowed":true}`. Es gibt weiterhin weder eine belastbare aktuelle Straßenanschrift noch eine bestätigte Betreiberidentität in Mücka; die historische Adresse Am Bahnhof 126 ist ausdrücklich ungeprüft. `clear_fields: 'dropoff_json,geo'` nimmt die unbelegte Annahmezusage und den keinem aktuellen Standort zugeordneten GEO-Punkt zurück. Keine Ersatzadresse/-koordinate, keine Schließungsbehauptung und keine Produktionsänderung. Quellen: read-only `public.db` (24.10.2026); Quellen-/Namensprüfung in der Dossier-Timeline; `docs/trader-seed.md`.]
 
 ### Recherche 08.10.2026
 

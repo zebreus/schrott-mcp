@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der derzeitige Treffer ist ein Gelbe-Seiten-Verzeichniseintrag für Schmitt Alberto, Gelnhäuser Str. 32, 63584 Gründau-Lieblos, Tel. 06051 7089975. Er wirbt mit „kostenloser Schrottabholung“ nach Terminvereinbarung und „kein Ersatzteil-Lager“; das belegt weder einen öffentlichen Schrottplatz noch eine Anlieferannahme. Die Daten beruhen bislang auf einer einzelnen Verzeichnisquelle ohne Betreiberwebsite oder unabhängige Register-/Kommunalbestätigung. Adresse und Rufnummer bleiben deshalb historische Leads, `status: pruefung`.
+
+**ANKAUF:** keine Materialkurse; die Verzeichniswerbung „kostenlos“ betrifft die Abholung, nicht einen Ankaufspreis. **VERKAUF:** keine Teile-/Warenpreisliste. **GEBÜHREN:** eine kostenlose Abholung wird nur vom Verzeichnis behauptet und ist nicht direkt vom Betreiber bestätigt. Öffentliche Annahme und Geocodierung bleiben offen.
 
 ## Timeline
+
+### Korrektur/Recherche 24.10.2026
+
+- [Korrektur 24.10.2026: `status` aktiv → pruefung. Die bisher dokumentierte Aktivsetzung stützt sich nur auf den Gelbe-Seiten-Eintrag vom 02.10.2026; eine Betreiberwebsite oder unabhängige Betreiber-/Registerquelle ist im Dossier nicht belegt. Gelbe Seiten führt weiterhin Gelnhäuser Str. 32, 63584 Gründau-Lieblos, 06051 7089975 und den Text „Kostenlose Schrottabholung einfach anrufen und Termin vereinbaren. Kein Ersatzteil-Lager“. Die Portalangabe ist ein Lead, kein Beleg für einen Hof oder öffentliche Anlieferung; „kostenlos“ bezieht sich auf den beworbenen Abholservice und ist kein Ankaufspreis. Adresse und Telefon bleiben als Historie erhalten, werden nicht als verifiziert ausgegeben; keine Pickup-/Dropoff-Zusage und keine GEO-Koordinaten gesetzt. Quelle: https://www.gelbeseiten.de/suche/schrott/gruendau (Abruf 24.10.2026; Verzeichnissuche).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

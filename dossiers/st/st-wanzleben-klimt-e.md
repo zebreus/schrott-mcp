@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Es gibt einen Karten-/OSM-abgeleiteten Lead „Autoverwertung Klimt“ mit **Siedlungsweg 13, Stadt Frankfurt, 39164 Wanzleben-Börde**, Telefon 039209 2616; die offizielle Domain war beim Abruf nicht erreichbar. Der Mapcarta-Punkt (52.03457, 11.39099) ist nur ein Geocoding-Hinweis und keine Betreiberbestätigung.
+Es gibt Karten- und Branchenverzeichnis-Leads für „Autoverwertung Klimt“ bzw. „Autoverwertung Klimt E.“ mit **Siedlungsweg 13, 39164 Wanzleben-Börde**, teils mit dem historischen Ortsteilzusatz „Stadt Frankfurt“, und Telefon 039209 2616. Der am 24.10.2026 direkt geprüfte Schrottplatz-Info-Eintrag enthält keine vollständige Beschreibung, keine Öffnungszeiten und keine Leistungsangaben; er bestätigt daher weder die aktuelle Betreiberidentität noch Kundenannahme. Der Mapcarta-Punkt aus der Altrecherche ist nur ein Geocoding-Hinweis, keine Betreiberbestätigung.
 
 **Preise:** keine belegte **Ankauf**- oder **Verkaufspreisliste**, keine Gebührenordnung. **Geocoding:** Siedlungsweg 13 bzw. der Mapcarta-Punkt bleibt Kandidat; vor Übernahme Betreiber und genaue Betriebsadresse bestätigen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Schrottplatz-Info-Detailseite direkt gelesen. Sie listet „Autoverwertung Klimt E.“, Siedlungsweg 13, 39164 Wanzleben-Börde und 039209 2616, lässt Beschreibung, Leistungsangebot und Öffnungszeiten aber ausdrücklich unvollständig. Das ist weiterhin ein Verzeichnislead; weder aktueller Gewerbeinhaber noch öffentliche Annahme oder Öffnung ist belegt. Der historische Behördenbeleg von 2006 bleibt davon getrennt und beweist keinen Betrieb 2026. Frontmatter-Adressen bleiben als unbestätigte Altdaten stehen; keine Koordinaten übernommen. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Kurse, Warenpreise oder Tarife. Quelle: https://www.schrottplatz-info.de/schrottplatz/Wanzleben/Klimt-E- (Abruf 24.10.2026).]
 
 ### Owner-Nachprüfung 14.10.2026
 

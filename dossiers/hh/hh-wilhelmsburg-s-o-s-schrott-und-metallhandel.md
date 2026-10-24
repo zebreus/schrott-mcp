@@ -1,12 +1,13 @@
 ---
 slug: hh-wilhelmsburg-s-o-s-schrott-und-metallhandel
+clear_fields: 'geo,phone'
 name: S.O.S. Schrott und Metallhandel GmbH
 trader_type: metallhaendler
 state: HH
 city: Wilhelmsburg
-street: Neuhöfer Damm 110
-postcode: 21107
-phone: 040 60090796
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -26,9 +27,13 @@ provenance_origin: table
 
 Der Rechtsträger S.O.S. Schrott und Metallhandel GmbH (HRB 110063 Hamburg, zuvor HRB 10416 KI) wurde laut Registerdaten 2016 gelöscht; eine Löschung von Amts wegen ist in der bisherigen Recherche dokumentiert. `status: pruefung` bleibt dennoch für den Datensatz sinnvoll, weil die frühere Adresse Neuhöfer Damm 110 und ein möglicher heutiger Nachfolger nicht lückenlos belegt sind. Die verknüpfte Website gehört einer anderen Spedition und ist nicht zu übertragen.
 
-**Ankauf:** Altmetall-/Schrotthandel ist historischer Unternehmensgegenstand, kein heutiger Ankaufnachweis. **Verkauf:** keine aktuelle Verkaufsliste. **Gebühren:** keine aktuellen Annahme- oder Entsorgungspreise. Adresse, Ansprechpartner, Kundenzugang und mögliche Nachfolge offen; keine belegten Ankauf-, Verkaufs- oder Gebührenbeträge.
+**Ankauf:** Altmetall-/Schrotthandel ist historischer Unternehmensgegenstand, kein heutiger Ankaufnachweis. **Verkauf:** keine aktuelle Verkaufsliste. **Gebühren:** keine aktuellen Annahme- oder Entsorgungspreise. Neuhöfer Damm 110, 21107 Hamburg ist nur ein historischer Verzeichnislead, keine unabhängig bestätigte aktuelle Betriebs- oder Kundenannahmeadresse; mögliche Nachfolge offen. Die Adresse ist bis zur Betreiberklärung kein GEO-Ziel. Keine belegten Ankauf-, Verkaufs- oder Gebührenbeträge.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 24.10.2026
+
+- [Owner-GEO-Korrektur 24.10.2026: Read-only-Produktion zeigte Altpunkt 53.6422, 13.8582; Nominatim-Reverse ordnet ihn „54b Straße der Freundschaft“, Wilhelmsburg, Torgelow-Ferdinandshof, Mecklenburg-Vorpommern zu, nicht Hamburg. Der Rechtsträger wurde 2016 gelöscht; eine aktuelle Betriebsstätte oder Nachfolge am Neuhöfer Damm ist nicht belegt. Daher Straße, PLZ und Telefon als nicht verifizierte historische Verzeichniswerte aus den strukturierten Feldern entfernt und mit `clear_fields: 'geo,phone'` den falschen GEO-Punkt sowie die gespeicherte Telefonnummer zurückgenommen. Kein Ersatzpunkt, keine Aussage über einen heutigen Nachfolger und keine Produktionsänderung. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.6422&lon=13.8582&zoom=18&addressdetails=1 ; https://www.northdata.de/S.O.S.%20Schrott%20und%20Metallhandel%20GmbH,%20Hamburg/HRB%20110063 ; read-only `public.db` (24.10.2026); `docs/trader-seed.md`.]
 
 ### Quellenprüfung 24.10.2026
 

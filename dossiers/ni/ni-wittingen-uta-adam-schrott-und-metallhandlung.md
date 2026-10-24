@@ -29,6 +29,10 @@ Verzeichnisse wiederholen Gifhorner Str. 41, 29379 Wittingen und 05834 530148, w
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Frischer Suchtreffer von Cylex wiederholt für Uta Adam Gifhorner Str. 41, 29379 Wittingen und 05834 530148. Das bleibt ein Branchenverzeichnis, keine Betreiberbestätigung; der bereits dokumentierte Sellwerk-Treffer „Ingo Adam“ nennt dieselbe Hausnummer, aber eine andere Telefonnummer (05834-274) und belegt weder Namenswechsel noch Nachfolge. Daher keine Ergänzung/Ersetzung der Frontmatter-Kontakte und kein Merge. Öffentliche Kundenannahme, Ankauf, Verkauf und Gebühren nicht verifiziert. Gifhorner Str. 41 nur Geokodierungskandidat nach Klärung Uta/Ingo; keine Koordinaten. Quellen (Verzeichnis-Leads): https://web2.cylex.de/firma-home/uta-adam-schrott--und-metallhandlung-5834950.html ; https://sellwerk.de/firmenprofil/ingo-adam-schrott--und-metallhandlung .]
+
 ### Recherche 15.10.2026 Welle18C
 
 - [Recherche 15.10.2026 Welle18C: Sellwerk-Profil Ingo Adam direkt gelesen: Gifhorner Str. 41, 29379 Wittingen, 05834-274, adam-schrott-knesebeck@t-online.de. Das macht aus dem 08.10.-Hinweis einen konkreten Gegenkandidaten mit exakt derselben Hausnummer; es beweist keine Uta/Ingo-Umbenennung oder Nachfolge. Profil enthält Keywords Metallschrottankauf, aber kein individuelles Betreiber-Impressum/Registerbeleg und keine qualifiziert bestätigte Uta-Identität. Uta-Anschluss 05834 530148 weder durch Ingo-Nummer ersetzen noch beide als aktuelle Uta-Kontakte publizieren; Quelle: https://sellwerk.de/firmenprofil/ingo-adam-schrott--und-metallhandlung .]

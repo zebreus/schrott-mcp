@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die bisherige Spur besteht aus zwei Verzeichniseinträgen mit übereinstimmender Anschrift Im Mühltal 12, 65187 Wiesbaden-Biebrich, und Telefon 0178 2945870. Ohne Betreiber-, Register- oder kommunalen Beleg bleiben Identität, Aktualität und ein möglicher mobiler Annahmebetrieb ungeklärt; die Lead-Daten wurden nicht in das Frontmatter übernommen. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Kein Geocoding, solange kein bestätigter Betriebs- oder Kundenannahmeort vorliegt.
+Die bisherige Spur besteht aus Verzeichniseinträgen mit übereinstimmender Anschrift Im Mühltal 12, 65187 Wiesbaden, und Telefon 0178 2945870. Ein Cylex-Suchtreffer nennt als Inhaber Romano Wintermeyer; der Direktabruf der Seite war am 24.10.2026 gesperrt (403), und es gibt dazu keinen unabhängigen Betreiber-/Registerbeleg. Das ist nur eine neue Identitätsspur, keine bestätigte Zuordnung. Ein mobiler Annahmebetrieb ist ebenfalls offen; Lead-Daten wurden nicht ins Frontmatter übernommen. Keine belastbaren Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Kein Geocoding, solange kein bestätigter Betriebs- oder Kundenannahmeort vorliegt.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Suchmaschinenfundstelle zum Cylex-Eintrag „R&W Schrotthändler“ nennt als Inhaber Romano Wintermeyer. Der Direktabruf des Cylex-Eintrags lieferte HTTP 403; daher ist der Name lediglich ein ungeprüfter Portal-Snippet-Lead. Keine zweite qualifizierte Quelle, kein Betreiberimpressum und keine sichere Verbindung zu anderen Wintermeyer-/Winterstein-Einträgen in Wiesbaden gefunden. Adresse Im Mühltal 12 und 0178 2945870 bleiben unverifizierte Leads; keine öffentliche Annahmestelle oder mobile Abholung bestätigt. ANKAUF/VERKAUF/GEBÜHREN: keine belegten Listen. Quelle/Prüfgrenze: https://web2.cylex.de/firma-home/r_w-schrotthaendler-15246330.html (Direktabruf 403; Suchtreffer-Snippet 24.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,14 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-Ein öffentliches Facebook-Unternehmensprofil unter „An und Verkauf von Altmetallen Ignatowitsch“ nennt Oldenburger Str. 44, 26180 Rastede, 0171 9913574 und ignatowitsch@aol.com. Ein Cylex-Treffer wiederholt Name, Straße und Mobilnummer, ist aber kein unabhängiger Beleg. Die Zuordnung ist ein plausibler Recherchekandidat, kein Register-/Impressumsnachweis; die Kontaktdaten bleiben deshalb außerhalb der Frontmatter.
+Suchindex/Verzeichnis-Spuren zum Namen „An und Verkauf von Altmetallen Ignatowitsch“ nennen Oldenburger Str. 44, 26180 Rastede und widersprüchliche Telefonnummern: ältere Facebook-/Cylex-Leads 0171 9913574, 11880 aktuell 04402 82423. 11880 markiert seinen Eintrag als „Geschlossen“; Bedeutung und Aktualität dieser Portalmarkierung sind nicht erklärt. Keine dieser Angaben bestätigt unabhängig Betreiberidentität oder eine dauerhafte Schließung; Straße und Kontakte bleiben außerhalb der Frontmatter.
 
 - **Ankauf:** Profilname behauptet Altmetallankauf, aber keine Materialarten oder Zahlenkurse verifiziert.
 - **Verkauf:** Profilname nennt An- und Verkauf, aber kein belegtes Produktangebot oder Verkaufspreise.
 - **Gebühren:** keine Abhol-, Container- oder Entsorgungsgebühren gefunden.
-- **GEO:** Oldenburger Str. 44 ist nur Social-/Verzeichnisangabe; öffentliche Annahmestelle und Zufahrt ungeklärt.
+- **GEO/Annahme:** Oldenburger Str. 44 ist ein Adresskandidat aus Social-/Verzeichnisspuren, keine bestätigte öffentliche Annahmestelle; Zufahrt und Kundenannahme ungeklärt, keine Koordinaten gesetzt.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Frischer 11880-Suchtreffer zum Eintrag „An- und Verkauf von Altmetalle Ignatowitsch“ nennt Oldenburger Str. 44, Rastede, die Telefonnummer 04402 82423 und den Portalstatus „Geschlossen“. Das kollidiert mit den zuvor dokumentierten Social-/Cylex-Leads 0171 9913574; Profilzugriff und Betreiberkontrolle waren dort nicht unabhängig verifiziert. Die Portalmarkierung belegt weder dauerhafte Betriebsschließung noch tatsächliche Annahme. Keine Felder ergänzt, kein Statuswechsel, keine Preise oder Gebühren ableitbar. Oldenburger Str. 44, 26180 Rastede bleibt Geokodierungskandidat unter Identitätsvorbehalt; Koordinaten nicht gesetzt. Quellen: https://www.11880.com/branchenbuch/rastede/060440092B112818609/an-und-verkauf-von-altmetalle-ignatowitsch.html ; https://www.facebook.com/p/An-und-Verkauf-von-Altmetallen-Ignatowitsch-100092435378132 ; https://web2.cylex.de/firma-home/an--und-verkauf-von-altmetalle-ignatowitsch-16674894.html .]
 
 ### Recherche 20.10.2026 — Eigenrecherche
 

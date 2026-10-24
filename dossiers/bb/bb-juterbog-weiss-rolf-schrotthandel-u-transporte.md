@@ -1,12 +1,13 @@
 ---
 slug: bb-juterbog-weiss-rolf-schrotthandel-u-transporte
+clear_fields: 'dropoff_json,geo,phone'
 name: Weiss Rolf Schrotthandel u. Transporte
 trader_type: schrottplatz
 state: BB
 city: Jüterbog
-street: Neuheim 8
-postcode: '14913'
-phone: 03372 402183
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -29,6 +30,10 @@ provenance_origin: table
 **Preise:** ANKAUF — keine bestätigten Schrottpreise. VERKAUF — keine Warenpreisliste. GEBÜHREN — keine Transport-/Entsorgungstarife. **Offen:** Rechtsträger/Betreiber, aktuelle Tätigkeit und Annahme an Neuheim 8. Adresse nicht geokodieren, bevor sie primär bestätigt ist.
 
 ## Timeline
+
+### Owner-GEO-/Annahme-Korrektur 24.10.2026
+
+- [Owner-GEO-Korrektur 24.10.2026: Read-only-Abgleich der Produktionszeile ergab den gespeicherten Punkt 52.0228947, 13.0581857 und `dropoff_json={"allowed":true}`. Das Dossier belegt für Neuheim 8 und 03372 402183 nur Branchen-/Schrottplatz-Verzeichnisse; Betreiberidentität, aktuelle Anschrift und öffentliche Annahme bleiben ausdrücklich ungeklärt. Adresse, Telefon, Altpunkt und Annahmezusage deshalb aus den strukturierten Seed-Feldern zurückgenommen; die Verzeichnis-Leads und Koordinate bleiben als historische Prüfspur dokumentiert, nicht als bestätigte Widerlegung oder Schließung. `clear_fields: 'dropoff_json,geo,phone'` entfernt die angereicherten Annahme-/GEO-/Telefonwerte beim regulären Seed. Keine Produktionsdaten geändert. Quellen: read-only `public.db` (24.10.2026); die im Rechercheeintrag 20.10.2026 verlinkten Verzeichnis-Leads; `docs/trader-seed.md`.]
 
 ### Recherche 20.10.2026
 

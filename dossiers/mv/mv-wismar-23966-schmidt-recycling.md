@@ -1,5 +1,6 @@
 ---
 slug: mv-wismar-23966-schmidt-recycling
+clear_fields: geo
 name: Schmidt Recycling GmbH
 trader_type: sonstige
 state: MV
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Northdata führt Schmidt Recycling GmbH, HRB 2712 AG Schwerin, mit einer Löschung am 22.04.2024. Das klärt den historischen Rechtsträger, nicht die heutige Nutzung oder einen möglichen Nachfolger am im Import genannten Zum Dock 6. Keine Übernahme/Schließung des Standorts ohne weiteren Beleg; keine Ankaufspreis-, Verkaufs- oder Gebührenliste und keine Geokodierung bis zur Nachfolgerklärung.
+NorthData führt Schmidt Recycling GmbH, HRB 2712 AG Schwerin, mit einer Löschung am 22.04.2024. Der Registerspiegel zeigt Wismar als Ortsangabe, aber keine Anschrift Zum Dock 6; diese Straße stammt nur aus dem Import. Das klärt den historischen Rechtsträger, nicht die heutige Nutzung oder einen möglichen Nachfolger. Keine Übernahme/Schließung des Standorts ohne weiteren Beleg. **Ankauf:** kein aktueller Kurs. **Verkauf:** keine Materialliste. **Gebühren:** keine aktuellen Tarife. Bis zur Nachfolgerklärung keine Geokodierung.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 24.10.2026
+
+- [Owner-GEO-Korrektur 24.10.2026: In `public.db` ist noch der Punkt 53.8895333, 11.4386667 gespeichert. Der Rechtsträger Schmidt Recycling GmbH wurde 2024 gelöscht; die aktuelle Recherche identifiziert weder eine heutige Betriebsadresse noch einen Nachfolger für diesen Seed. Der Punkt wird mit `clear_fields: geo` entzogen, weil er keinem kuratierten aktuellen Händlerstandort zugeordnet werden kann; damit ist nicht behauptet, dass seine frühere Adresse sachlich falsch war. Kein Ersatzpunkt und keine Produktionsänderung. Quellen: read-only `public.db` (24.10.2026); NorthData-/Nachfolgesuche im Rechercheeintrag 24.10.2026; `docs/trader-seed.md`.]
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: NorthData-Eintrag Schmidt Recycling GmbH, AG Schwerin HRB 2712, direkt gegengeprüft: Löschung am 22.04.2024; der sichtbare Registerspiegel nennt Wismar, aber keine Straße. Zum Dock 6 ist deshalb weiterhin nur Seed-Historie, keine vom Rechtsträger belegte Betriebsadresse. Die ergänzende Suche lieferte keinen belastbaren Nachfolgerbeleg; einzelne Hafen-/Entsorgungsquellen nennen andere Auftragnehmer, sind aber weder vollständiges Standortverzeichnis noch Nachfolgebeweis. Öffentliche Annahme, Ankauf, Verkauf und Gebühren heute ungeklärt; keine Felder oder Koordinaten ergänzt. Quelle: https://www.northdata.de/Schmidt%20Recycling%20GmbH,%20Wismar/Amtsgericht%20Schwerin%20HRB%202712 .]
 
 ### Recherche 07.10.2026
 

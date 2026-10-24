@@ -31,6 +31,10 @@ Die Kölner Umweltinspektion veröffentlichte 2014 einen Bericht „Müllenmeist
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Bei der eigenständigen Namens-/Websuche erschienen neue SEO-Verzeichnisse, darunter schrottfinder.de und schrottplatzmetall.de, die eine öffentliche Metallannahme, konkrete Öffnungszeiten und akzeptierte Fraktionen für Müllenmeister & Schwerfel behaupten. Die Seiten liefern keinen Betreiber-/Registerbeleg und keine nachvollziehbare aktuelle Primärquelle; ihre ähnlichen Vorlagen sind keine unabhängigen Bestätigungen. Sie ändern daher nichts am bisherigen Befund: nur historischer Behördenbezug 2014, heutige Annahme und Aktivität offen. **Ankauf:** keine verifizierten Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine verifizierten Tarife. Keine Frontmatter-Änderung oder GEO-Freigabe. Quellen (nicht qualifizierte Such-/SEO-Leads): https://schrottfinder.de/mullenmeister-schwerfel-koln/ ; https://schrottplatzmetall.de/mullenmeister-schwerfel-koln/ ; Gegenprüfung: https://www.stadt-koeln.de/mediaasset/content/pdf57/2014-05-12_umweltinspektionsbericht_m%C3%BCllenmeister___schwerfel.pdf .]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.9403644, 6.9605778. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

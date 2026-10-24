@@ -4,15 +4,15 @@ name: KER Kaiser Entsorgung & Recycling GmbH, NL Köthen
 trader_type: sonstige
 state: ST
 city: Köthen
-street: ''
-postcode: ''
+street: Am Güterbahnhof 3
+postcode: '06366'
 phone: ''
 email: ''
 opening_hours: ''
 website: http://www.kaiser-entsorgung.de
 website_status: aktiv
 status: pruefung
-description: ''
+description: 'EfbV-Zertifikat 2026 führt den Standort als Lagerplatz für Bau- und Abbruchholz und Altmetalle; öffentliche Annahme nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Nachtrag Audit-Runde 3 (Stand: 2026-09-27)'
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberseite führt ein 2026 ausgestelltes, bis 18.08.2027 gültiges EfbV-Zertifikat. Dessen standortbezogene Anlage 3 benennt KER Kaiser Entsorgung & Recycling GmbH, Am Güterbahnhof 3, 06366 Köthen, als „Lagerplatz für Bau- und Abbruchholz und Altmetalle“ und führt konkrete Abfallarten/Tätigkeiten auf. Damit sind Betreiber und Betriebsstandort belegt; das Zertifikat ist aber kein Nachweis, dass Privatkunden dort ohne vorherige Vereinbarung anliefern können. Die Website-Kontaktseite enthält E-Mail-Links, während Kontakt- und Impressumsangaben ansonsten nur als nicht auslesbare Bilder erscheinen. Keine belastbaren Öffnungszeiten, öffentlichen Annahmebedingungen oder Preise.
+
+**ANKAUF:** keine Händlerkurse belegt. **VERKAUF:** keine Warenliste. **GEBÜHREN:** keine Tarife. Adresse ist ein geokodierbarer Betriebsstandort-Kandidat, aber keine belegte Publikumszufahrt; keine Koordinaten gesetzt.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiberwebsite erneut direkt geprüft. Die Zertifikatsseite verlinkt ein 10-seitiges EfbV-Zertifikat „Z-Nr. 10/2026“, gültig bis 18.08.2027, ausgestellt am 19.02.2026. Das Zertifikat nennt KER Kaiser Entsorgung & Recycling GmbH, HRB 4296, und führt in Anlage 3 den Standort Am Güterbahnhof 3, 06366 Köthen; die Tätigkeit wird dort als Lagerplatz für Bau-/Abbruchholz und Altmetalle beschrieben. Die Standortadresse und sachliche Beschreibung wurden deshalb ergänzt. Daraus folgt keine frei zugängliche Annahmestelle: öffentliches Anliefern, Öffnungszeiten, Ankaufskonditionen und Gebühren bleiben unbelegt. Hauptsitz Ottostraße 18 in Oranienbaum-Wörlitz ist nicht mit der Köthener Betriebsstätte zu verwechseln. Telefon/E-Mail nicht aus Kontaktbildern ergänzt; kein GEO-Punkt gesetzt. Quellen: http://www.kaiser-entsorgung.de/?page_id=114 ; http://www.kaiser-entsorgung.de/wp-content/uploads/2026/03/Zertifikat-bis-18.08.2027.pdf (Abruf 24.10.2026; Betreiberseite/Zertifikatsdokument).]
 
 ### Recherche 01.10.2026 (Feedback-ID 2737)
 

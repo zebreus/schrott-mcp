@@ -1,12 +1,13 @@
 ---
 slug: sh-eckernforde-tietjen-stefan
+clear_fields: 'dropoff_json,geo,phone'
 name: Tietjen Stefan
 trader_type: schrotthaendler
 state: SH
 city: Eckernförde
-street: Siemensstr. 12
-postcode: 24340
-phone: 0172 3721669
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -32,6 +33,10 @@ Verzeichnis-Seed mit unbestätigten Kontakt-/Adresswerten Siemensstr. 12, 24340 
 - **GEO:** Siemensstraße 12 erst nach Betriebsbestätigung geocodieren.
 
 ## Timeline
+
+### Owner-Adress-/GEO-/Annahme-Korrektur 24.10.2026
+
+- [Owner-Korrektur 24.10.2026: Read-only-Produktion enthielt GEO 54.4685, 9.8382 und `dropoff_json={"allowed":true}`. Das Dossier belegt Siemensstr. 12, 24340 Eckernförde und 0172 3721669 nur über Branchenverzeichnisse; die ähnlich benannte Domain gehört laut Impressum einer Person in Lilienthal und ist nicht zugeordnet. Da aktuelle Händleridentität, Adresse und Kundenannahme unbestätigt bleiben, wurden Straße, PLZ und Telefon aus den strukturierten Seed-Feldern entfernt. `clear_fields: 'dropoff_json,geo,phone'` entzieht beim nächsten regulären Seed auch die gespeicherte Annahmezusage, den nicht zuordenbaren Punkt und das Telefon. Historische Leads bleiben dokumentiert; keine Schließung behauptet und keine Produktionsdaten geändert. Quellen: read-only `public.db` (24.10.2026); Recherche- und Quellenbelege vom 23.10.2026 oben; `docs/trader-seed.md`.]
 
 ### Recherche 23.10.2026: erneute Adress-/Kontaktprüfung
 

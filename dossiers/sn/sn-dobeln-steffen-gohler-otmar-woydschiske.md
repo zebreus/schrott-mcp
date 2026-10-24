@@ -1,12 +1,13 @@
 ---
 slug: sn-dobeln-steffen-gohler-otmar-woydschiske
+clear_fields: 'dropoff_json,geo,phone'
 name: Steffen Göhler & Otmar Woydschiske GbR
 trader_type: sonstige
 state: SN
 city: Döbeln
-street: 'Zur Jahnaquelle 18'
-postcode: '04720'
-phone: '034325 20004'
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
@@ -24,9 +25,23 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Name, Adresse Zur Jahnaquelle 18, 04720 Döbeln und Telefon 034325 20004 sind bislang nur durch wiederkehrende Branchen-/Schrottplatzverzeichnisse belegt. Die frühere Annahme- und Materialliste (Fe/Alu/Cu/Edel/Blei/Messing) stammt aus einem Portal, nicht aus einem bestätigten Betreiberauftritt; „Geschlossen“-Markierungen dort belegen keine dauerhafte Schließung.
+
+- **Ankauf:** aktuell kein Betreiberbeleg für Ankauf oder Auszahlung; keine numerischen Kurse.
+- **Verkauf:** keine verifizierte Liste.
+- **Gebühren:** keine belastbaren Abhol-/Container-/Entsorgungsgebühren.
+- **Öffentliche Annahme:** nicht bestätigt; Anschrift kann Geschäfts- oder Kontaktadresse sein.
+- **GEO:** Zur Jahnaquelle 18 ist ein Verzeichniskandidat; keine Koordinaten gesetzt.
 
 ## Timeline
+
+### Owner-Annahme-/Adress-/GEO-Korrektur 24.10.2026
+
+- [Owner-GEO-Korrektur 24.10.2026: Read-only-Produktion enthielt GEO 51.1221, 13.1103 und `dropoff_json={"allowed":true}`. Die aktuelle Recherche bestätigt für Zur Jahnaquelle 18 und 034325 20004 ausschließlich wiederholte Branchen-/Schrottplatz-Verzeichnisangaben, keine Betreiber-/Register-/Kommunalquelle und keine öffentliche Kundenannahme. Adresse, PLZ und Telefon wurden deshalb aus den strukturierten Stammdaten entfernt; `clear_fields: 'dropoff_json,geo,phone'` entzieht außerdem die alte Annahmezusage und das nicht belastbar zugeordnete GEO. Die Verzeichnis-Leads bleiben als Recherchehistorie erhalten; keine Schließung oder Annahmeverweigerung behauptet. Keine Produktionsänderung. Quellen: read-only `public.db` (24.10.2026); die im Rechercheeintrag 24.10.2026 verlinkten Leads; `docs/trader-seed.md`.]
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Exakte Namens-/Orts-Suchrunde ergab keinen neuen Betreiber-, Register- oder Kommunalbeleg. Die bekannten Verzeichnisangaben Das Örtliche und LokaleSchrottplatz wiederholen Name, Anschrift und Telefonnummer, bleiben aber Aggregator-Leads. Das Portal-Label „Annahme“ sowie die Liste Fe/Alu/Cu/Edel/Blei/Messing sind nicht als aktuelle händlerspezifische Annahme- oder Ankaufbedingungen bestätigt; keine Preise. Verkauf und Gebühren ebenfalls offen. Keine Feldänderung; Zur Jahnaquelle 18 nur Geokodierungskandidat, keine Koordinaten. Quellen (Leads): https://www.dasoertliche.de/?form_name=search_nat&kw=G%C3%B6hler+Woydschiske&ci=D%C3%B6beln ; https://lokaleschrottplatz.de/steffen-gohler-otmar-woydschiske-gbr-autoverwertung/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

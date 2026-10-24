@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Schrott-Becker“ ist für Offenbach 63075 bislang ein Branchenverzeichnis-Lead; ein Betreiberauftritt oder eindeutig zuordenbarer Rechtsträger ist nicht belegt. Die frühere Suche fand als Verzeichnisadresse nur den Lämmerspieler Weg ohne bestätigte Hausnummer. NorthData lieferte keinen eindeutigen Firmenmatch. Das Registerprofil der Autoverwertung Kitsakis nennt zwar Lämmerspieler Weg 151, doch gleicher Straßenname ohne Becker-Beleg verbindet die Einträge nicht.
+„Schrott-Becker“ ist für Offenbach 63075 bislang ein Branchenverzeichnis-Lead; ein Betreiberauftritt oder eindeutig zuordenbarer Rechtsträger ist nicht belegt. Die direkt geprüfte 11880-Seite nennt 0171 3028842 und nur „Lämmerspieler Weg“ ohne Hausnummer; E-Mail und Website werden dort zum Hinzufügen angeboten. Der Datensatz stammt vom 29.06.2021 und wurde laut Seite am 02.10.2026 aktualisiert. NorthData lieferte keinen eindeutigen Firmenmatch. Das Registerprofil der Autoverwertung Kitsakis nennt zwar Lämmerspieler Weg 151, doch gleicher Straßenname ohne Becker-Beleg verbindet die Einträge nicht. Weder Kontaktadresse noch Betriebs-/Anlieferstelle sind dadurch verifiziert.
 
 **Preise:** Ankauf, Verkauf und Annahme sind für Schrott-Becker nicht unabhängig bestätigt; keine numerische Ankauf-/Verkaufspreisliste und keine Gebührenangaben in den ausgewerteten Quellen. Status `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Detailseite direkt gelesen. Sie führt Schrott-Becker mit Telefonnummer 0171 3028842, aber ohne Hausnummer am Lämmerspieler Weg, 63075 Offenbach; Kategorien: Altmaterialhandel, Schrotthandel und Recycling. Website/E-Mail sind nicht hinterlegt („hinzufügen“); Eintragsdaten vom 29.06.2021, Aktualisierung 02.10.2026. Das bleibt ein einzelner Aggregator-Lead, kein Betreiber- oder Registerbeleg. Keine Felder gefüllt: insbesondere ist eine Telefonnummer kein Nachweis für öffentliche Annahme oder für die Adresse der tatsächlichen Betriebsstätte. ANKAUF: keine Preisangaben; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Geokodierung ohne Hausnummer und Identitätsbestätigung. Quelle: https://www.11880.com/branchenbuch/offenbach-am-main/120674719B27353370/schrott-becker.html (Abruf 24.10.2026).]
 
 ### Recherche 07.10.2026
 

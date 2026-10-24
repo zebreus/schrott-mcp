@@ -1,11 +1,12 @@
 ---
 slug: sh-kiel-schmidt-boris-ne-metallhandel-und-schrot
+clear_fields: 'dropoff_json,geo'
 name: Schmidt Boris NE-Metallhandel und Schrotthandel
 trader_type: metallhaendler
 state: SH
 city: Kiel
-street: Grasweg 45-46
-postcode: '24118'
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -14,7 +15,6 @@ website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
-clear_fields: dropoff_json
 pickup_json: ''
 provenance_section: Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)
 provenance_ankauf_raw: ja
@@ -25,13 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Neue wesentliche Nachfolgespur: Die Ehrich-Unternehmenshistorie nennt für 2020 ausdrücklich die Übernahme des Schrott- und Metallhandels von Boris Schmidt in Kiel. Ehrichs heutige Standortseite und Impressum führen Ehrich Kiel GmbH & Co. KG, Grasweg 45/46, HRA 10635 KI, nicht den alten e.K. HRA 4153 KI. Damit ist die aktuelle Nutzung des alten Standorts als Schrottankauf primär belegt, aber eine gesellschaftsrechtliche Identität beider Rechtsträger nicht behauptet. Unabhängiger Beleg zur Übernahmekette und Abgrenzung gegen ein eventuell vorhandenes Ehrich-Dossier vor Rename/Website-Fill nötig. `pruefung` und die Owner-Rücknahme unbelegter Annahme bleiben bis dahin erhalten.
+Neue wesentliche Nachfolgespur: Die Ehrich-Unternehmenshistorie nennt für 2020 ausdrücklich die Übernahme des Schrott- und Metallhandels von Boris Schmidt in Kiel. Ehrichs heutige Standortseite und Impressum führen Ehrich Kiel GmbH & Co. KG, Grasweg 45/46, HRA 10635 KI, nicht den alten e.K. HRA 4153 KI. Die Standortseite bezeichnet den Platz ausdrücklich als Schrottplatz und bestätigt direkte Anlieferung von Stahl- und NE-Metallen, auch durch Privatpersonen, mit Öffnungszeiten. Das belegt eine öffentliche Annahmestelle des heutigen Ehrich-Standorts, aber nicht automatisch, dass das alte Schmidt-Dossier bereits auf den neuen Rechtsträger umgestellt werden darf. Für eine solche Zuordnung bleibt die von Ehrich selbst beschriebene Übernahmekette unabhängig zweitzuprüfen; keine Zusammenlegung mit einem Ehrich-Dossier. `pruefung` und die Owner-Rücknahme der alten, unbelegten Drop-off-Zusage bleiben bis dahin erhalten.
 
 **Neuer Domainkandidat:** ne-metallhandel-kiel.de, in mehreren Verzeichnisleads und einem Agentur-Suchtreffer genannt, beim Direktabruf aber ohne lesbares Betreiberimpressum. Kontakt-/Domainfelder deshalb nicht gefüllt. Keine Verbindung zu ähnlich benannten Kieler Händlern unterstellt.
 
 Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebührenordnung belegt. Der aktuelle Ankauf und konkrete Konditionen bleiben direkt zu bestätigen; siehe Timeline-Recherchen 01.10. und 07.10.2026.
 
 ## Timeline
+
+### Owner-GEO-/Adress-Korrektur 24.10.2026
+
+- [Owner-GEO-Korrektur 24.10.2026: Read-only-Produktion enthält den dem alten Schmidt-Seed zugeordneten Punkt 54.3308, 10.128788. Die aktuelle Adresse Grasweg 45/46 stammt aus Ehrichs heutigem Standortauftritt; die Recherche dokumentiert Ehrichs eigene Übernahmeaussage für 2020, aber die geforderte unabhängige zweite Bestätigung der Betreiberkette zum früheren Schmidt-Rechtsträger fehlt. Die heutige Ehrich-Annahme wird daher nicht dem alten Seed zugeschrieben. Grasweg 45/46 wird bis zum Identitätsnachweis aus den strukturierten Feldern entfernt; `clear_fields: 'dropoff_json,geo'` nimmt die historische Annahmezusage und das dem alten Rechtsträger nicht sicher zuordenbare GEO zurück. Kein Ersatzpunkt, keine Schließungsbehauptung und keine Produktionsänderung. Quellen: read-only `public.db` (24.10.2026); Betreiberketten-Prüfung und Quellen im Dossier; `docs/trader-seed.md` sowie README-Abschnitt „Operator rename/merge chains“.]
 
 ### Recherche 19.10.2026: Welle 03:30 C
 

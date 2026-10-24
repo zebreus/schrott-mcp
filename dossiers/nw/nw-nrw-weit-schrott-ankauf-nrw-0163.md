@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt bewirbt mobilen Schrottankauf und Abholung in ganz NRW; laut Website wird Schrott aller Art, darunter FE-/NE-Metalle, E-Schrott und Fahrzeugteile, abgeholt und größere Mengen werden angekauft. Das Impressum nennt Mahmoud El-Lahib, Bahnhofstr. 3, Bochum; es handelt sich um einen Einzelbeleg ohne Registereintrag, und der frühere Adresskonflikt mit Hardenbergstr. 11 bleibt ungelöst. Daher keine Straßenadresse und keine Service-JSON-Zusage ergänzt. **Ankauf:** größere Mengen nach Material/Anfrage, aber keine Zahlenkurse. **Verkauf:** keine Produktpreisliste. **Gebühren:** Website wirbt mit kostenloser Abholung, Verladen und ggf. Demontage; Bedingungen sind nicht tarifiert. Containerdienst wird nur für Gewerbekunden erwähnt, ohne Preis. Diese Werbeaussagen sind keine unabhängig bestätigten Konditionen.
+Der Betreiberauftritt bewirbt ausdrücklich einen **mobilen** Schrottankauf und Abholung in ganz NRW; er beschreibt Termine beim Kunden, nicht eine öffentliche Annahme an der Impressumsadresse. Das Impressum nennt Mahmoud El-Lahib, Bahnhofstr. 3, Bochum. Diese Kontaktanschrift ist weder als Annahmestelle belegt noch vom früheren Adresskonflikt mit Hardenbergstr. 11 unabhängig geklärt; sie bleibt deshalb aus Straße/GEO und `dropoff_json` heraus. **Ankauf:** größere Mengen nach Material/Anfrage, aber keine Zahlenkurse. **Verkauf:** keine Produktpreisliste. **Gebühren:** Die Website wirbt mit kostenloser Abholung, Verladen und ggf. Demontage; Bedingungen sind nicht tarifiert. Containerdienst wird nur für Gewerbekunden erwähnt, ohne Preis. Das sind Betreiberwerbung, keine unabhängig bestätigten Konditionen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Homepage und Impressum direkt erneut gelesen. Die Homepage bezeichnet den Dienst ausdrücklich als mobil, beschreibt Terminabholung beim Kunden in NRW und sagt, dass größere Mengen angekauft werden; die Bahnhofstr. 3 erscheint nur im Impressum als Kontakt-/Inhaberanschrift. Keine Seite weist diese Anschrift als öffentliche Anlieferstelle oder Annahmehof aus. Die Homepage bewirbt kostenlose Abholung; es gibt keine numerischen Ankaufskurse, Verkaufspreise oder Containergebühren. Daher bleibt `dropoff_json` unbekannt (`{}`), nicht „nein“; `pickup_json` bleibt wegen ungeklärter konkreter Bedingungen unverändert. Keine Feld- oder GEO-Änderung. Quellen (ein Betreiberauftritt): https://www.schrott-ankauf-nrw.de/ ; https://www.schrott-ankauf-nrw.de/impressum/ .]
 
 ### Recherche 23.10.2026
 

@@ -26,12 +26,18 @@ provenance_origin: table
 
 Für „Aust Schrott u. Metalle Remscheid“ gibt es weiterhin nur einen Verzeichnis-Lead, der Kimmenauer Weg 13, 42897 Remscheid und 01578 8862400 nennt. Eine aktuell erreichbare Wix-Seite mit ähnlichem Namen beschreibt jedoch ausdrücklich „Aust Schrotthandel in Kierspe“ und führt Fritz-Linde-Str. 27, 58566 Kierspe sowie eine andere Mobilnummer auf. Sie ist kein Beleg für den Remscheider Eintrag; Suchtreffer und Betreibername dürfen nicht ohne Verbindung zusammengeführt werden.
 
+Ein weiterer, widersprüchlicher Verzeichnislead ist „EISEN AUST“ an der Kipperstr. 19 in Remscheid mit derselben Telefonnummer wie der Kimmenauer-Weg-Eintrag und dem Namen Lukas Aust. Der Direktabruf des Cylex-Profils war blockiert; diese Suchindex-Angaben belegen weder den Betreiber noch einen Umzug oder Annahmeplatz.
+
 - **Ankauf:** Kiersper Wix-Seite wirbt mit Ankauf/Abholung von Altmetall und listet Materialien, jedoch ohne Zahlenpreise; keine Zurechnung zu Remscheid.
 - **Verkauf:** keine Remscheider Produkt-/Preisliste.
 - **Gebühren:** keine Remscheider Abhol- oder Entsorgungstarife.
 - **Offen:** Remscheider Betreiber, Adresse und Kontakt. `status: pruefung`, keine Website- oder Frontmatter-Fills und keine GEO.
 
 ## Timeline
+
+### Recherche 24.10.2026: zusätzlicher Remscheider Adresslead
+
+- [Recherche 24.10.2026: Die 11880-Detailseite direkt erneut gelesen: Kimmenauer Weg 13, 42897 Remscheid und 01578 8862400; Eintragsdaten 30.12.2022, Profilaktualisierung 03.10.2026, keine Website und keine Öffnungszeiten. Ein Suchtreffer zum Cylex-Profil „EISEN AUST“ nennt dagegen Kipperstr. 19, Remscheid, Lukas Aust und 0157 88862400 (gleiche Rufnummer, anders gruppiert); der Direktabruf von Cylex lieferte 403. Das ist ein neuer, nicht verifizierter Adress-/Namenslead, kein unabhängiger Betreiber- oder Annahmebeleg. Die separate Wix-Seite betrifft ausdrücklich Kierspe und eine andere Nummer. Keine Adresswahl, Zusammenführung oder Feldänderung. **Ankauf:** nicht Remscheid-belegt; **Verkauf:** keine Liste; **Gebühren:** keine Remscheid-Tarife. GEO-Kandidaten Kimmenauer Weg 13 und Kipperstr. 19 erst nach Identitäts-/Annahmeprüfung. Quellen: https://www.11880.com/branchenbuch/remscheid/120674719B102499798/aust-schrott-u-metalle-remscheid.html ; Cylex-Suchlead/Direktabruf 403: https://web2.cylex.de/firma-home/eisen-aust-10885374.html .]
 
 ### Recherche 22.10.2026: ähnlich benannte Seite betrifft Kierspe
 

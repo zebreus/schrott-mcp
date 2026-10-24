@@ -26,9 +26,13 @@ provenance_origin: table
 
 Der Seedname **„De Schuttkuhlenmaior“** ist bislang keinem belastbar identifizierten Betreiber zugeordnet. Gemeint ist Oldenburg **in Holstein (SH)**, nicht Oldenburg in Niedersachsen. Eine Adresse oder Kontaktperson fehlt; die importierte „Schrottannahme“ ist nur eine unbestätigte Verzeichnisbeschreibung.
 
-Auch Suchvarianten des Namens erbrachten keinen qualifizierten Beleg. Weder die ungewöhnliche Schreibweise noch das Fehlen in einem Branchenportal rechtfertigen eine Umbenennung oder einen Schließungsstatus. Vor Recherche zu Öffnungszeiten/Preisen muss die Ursprungsquelle bzw. der vollständige Gewerbename geklärt werden. Keine öffentliche Ankauf-, Verkaufs- oder Gebührenliste belegt, keine bestätigte Anlieferstelle.
+Auch Suchvarianten des Namens erbrachten keinen qualifizierten Betreiberbeleg. Ein regionales Schrottplatz-Verzeichnis führt den Namen weiterhin als „Weitere Betriebe in der Umgebung“ von Grömitz (16,3 km), nennt dabei aber weder Adresse noch Kontakt oder Betreiber. Das bestätigt nur einen Aggregator-Datensatz, keine Identität, Tätigkeit oder Annahmestelle. Weder die ungewöhnliche Schreibweise noch das Fehlen eines qualifizierten Belegs rechtfertigen eine Umbenennung oder einen Schließungsstatus. Vor Recherche zu Öffnungszeiten/Preisen muss die Ursprungsquelle bzw. der vollständige Gewerbename geklärt werden. Keine öffentliche Ankauf-, Verkaufs- oder Gebührenliste belegt, keine bestätigte Anlieferstelle.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Regionales Schrottplatz-Verzeichnis direkt gelesen; „De Schuttkuhlenmaior“ erscheint dort mit dem Ortszusatz „Oldenburg in Holstein · 16,3 km“ nur in der Liste weiterer Betriebe im Umfeld von Grömitz. Für den Eintrag sind weder Straße, Telefonnummer, Website, Betreibername noch Öffnungszeiten/Leistungen angegeben. Das ist kein unabhängiger Identitäts- oder Betriebsnachweis und rechtfertigt keine Frontmatter-Füllung. Keine Schließung oder Nichtexistenz abgeleitet; offene Ursprungsquelle und Schreibweise bleiben Klärfall. ANKAUF/VERKAUF/GEBÜHREN: keine belastbaren Angaben. Quelle: https://recyclinghof-wertstoffhof.de/schrottplatz/schleswig-holstein/groemitz/ (Abruf 24.10.2026; Aggregator).]
 
 ### Recherche 05.10.2026
 

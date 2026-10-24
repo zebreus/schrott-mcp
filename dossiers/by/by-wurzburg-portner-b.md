@@ -26,9 +26,13 @@ provenance_origin: table
 
 „Pörtner B.“ ist als Bernhard Pörtner Rohproduktenhandel, Holzweg 25, 97084 Würzburg ein konkreter Recherchekandidat. Creditreform ist als Firmenprofil auffindbar, beim Direktabruf aber HTTP403: Suchausschnitt nicht als gelesenen Register-/Wirtschaftsaktivitätsbeleg ausgeben. Die alte Nummer 0931 611145 und abweichende Verzeichniskontakte sind nicht unabhängig verifiziert; kein Namens- oder Kontakt-Fill.
 
-**Ankauf / Verkauf / Gebühren:** keine verifizierte Zahlenliste im geprüften Umfang. **GEO:** Holzweg 25 bleibt Adresslead, kein gesicherter Annahmepunkt. Owner sollte zunächst vollständigen Inhaber und heutigen Betrieb bestätigen.
+**Ankauf:** keine verifizierten Annahmebedingungen oder Ankaufskurse. **Verkauf:** keine bestätigte Material-/Produktpreisliste. **Gebühren:** keine bestätigten Abhol- oder Annahmetarife. **GEO:** Holzweg 25 bleibt Adresslead, kein gesicherter Annahmepunkt. Owner sollte zunächst vollständigen Inhaber und heutigen Betrieb bestätigen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Erneute Suche zu „Pörtner B.“/Bernhard Pörtner in Würzburg brachte nur die bereits bekannten Verzeichnis-/Wirtschaftsprofil-Leads, keinen Betreiberauftritt oder gelesenen Register-/Kommunalbeleg. Schrottplatz-Info wiederholt Holzweg 25, 97084 Würzburg und 0931 611145, weist aber selbst auf fehlende Beschreibung, Leistungsangebot und vollständige Öffnungszeiten hin; Creditreform bleibt beim Direktabruf gesperrt. Identität, aktuelle Anschrift/Kontakt und öffentliche Annahme bleiben ungeklärt. **Ankauf/Verkauf/Gebühren:** keine bestätigten Preislisten. Holzweg 25 nur Geokodierungskandidat; keine Koordinaten ergänzt. Quellen (Leads/Abrufgrenze): https://www.schrottplatz-info.de/schrottplatz/Wuerzburg/Poertner-Bernhard-Rohproduktenhandel ; https://firmeneintrag.creditreform.de/97084/8310512326/BERNHARD_POERTNER_ROHPRODUKTENHANDEL .]
 
 ### Recherche 16.10.2026 — Welle 13:00 / Gruppe a
 

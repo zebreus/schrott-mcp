@@ -5,7 +5,7 @@ name: Pfeil-Heinz
 trader_type: sonstige
 state: RP
 city: Trier
-street: Pfeil-Heinz Trier Leostr. 6
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -27,9 +27,15 @@ provenance_origin: table
 
 „Pfeil-Heinz“ wird weiterhin nur durch Verzeichnisprofile mit Leostr. 6, 54290 Trier und 0170 6878799 konkretisiert. Das direkt gelesene 11880-Profil nennt Mo–Fr 08:00–17:30; ein weiteres Schrottplatzportal nennt Mo–Fr 08:00–17:00 und Annahme-Mindestgewichte 100 kg Fe/1 kg NE. Das Portal zeigt dynamisch „Geschlossen“, ohne dauerhaften Schließungsbeleg. Die Quellen sind keine Betreiber-/Registerbelege, und Stunden/Annahmebedingungen weichen voneinander ab.
 
-**ANKAUF:** keine verifizierten Auszahlungskurse; Portal-Mindestgewichte sind nicht als Betreiberbedingungen belegt. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Keine Feldkorrektur oder Geocodierung, bis Betreiber und Betriebs-/Annahmestelle bestätigt sind.
+Das frühere `street`-Feld enthielt den nicht normalisierten Komposittext „Pfeil-Heinz Trier Leostr. 6“; er wurde aus dem strukturierten Straßenfeld entfernt. Leostr. 6, 54290 Trier bleibt ein nicht verifizierter Verzeichnis-/Geocoding-Kandidat, keine bestätigte Betreiber- oder Annahmeanschrift.
+
+**ANKAUF:** keine verifizierten Auszahlungskurse; Portal-Mindestgewichte sind nicht als Betreiberbedingungen belegt. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Keine Koordinate, bis Betreiber und Betriebs-/Annahmestelle bestätigt sind.
 
 ## Timeline
+
+### Recherche 24.10.2026: nicht normalisierten Straßenwert bereinigt
+
+- [Recherche 24.10.2026: Bei der Adressprüfung festgestellt, dass `street` bislang den Kompositwert „Pfeil-Heinz Trier Leostr. 6“ (Name + Ort + Straßenlead) statt einer normalisierten Straße enthielt. Den strukturierten Wert deshalb geleert; die vollständige bisherige Zeichenfolge hier erhalten. Die zuvor direkt gelesenen Verzeichnisprofile von 11880 und Lokaleschrottplatz nennen übereinstimmend Leostr. 6, 54290 Trier und 0170 6878799, bleiben aber Portal-Leads ohne bestätigte Betreiberidentität oder öffentliche Annahme. Leostr. 6 ist daher nur ein möglicher Geocoding-Kandidat nach Identitäts-/Standortprüfung, keine Koordinatenfreigabe. **Ankauf:** keine verifizierten Kurse; Portal-Mindestgewichte nicht bestätigt. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Quellen: https://www.11880.com/branchenbuch/trier/060440092B112767456/pfeil-heinz.html ; https://lokaleschrottplatz.de/pfeil-heinz/ ; frühere Kompositangabe: Seed-Frontmatter vor Korrektur und Importnotiz unten.]
 
 ### Owner-GEO-Prüfung 23.10.2026
 

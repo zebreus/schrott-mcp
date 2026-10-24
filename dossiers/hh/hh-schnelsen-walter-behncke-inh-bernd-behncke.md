@@ -27,7 +27,7 @@ provenance_origin: table
 
 Walter Behncke e.K., Inh. Bernd Behncke, ist für Kulemannstieg 32, 22457 Hamburg-Schnelsen in Firmen-/Registerspiegeln geführt. Der Schrottregister-Spiegel bezeichnet sich ausdrücklich als nichtamtlich und nennt Datenabruf 11.08.2026. Das ist ein plausibler Anlagenlead, kein heute direkt geprüfter Register-/Zertifikatsnachweis und kein Beleg aktueller Kundenannahme. Im Review 18.10.2026 neu gelesene NorthData-Historie nennt HRA 76337 Hamburg und Inhaber Bernd Behncke, bestätigt aber weder heutiges Telefon noch Publikumsannahme. Alttelefon 040 5508707 und pauschales Annahme-JSON deshalb gezielt als unbekannt zurückgenommen; Anschrift bleibt ungeprüfter Bestandswert, status pruefung, keine Schließungs- oder Ablehnungsfeststellung.
 
-**Preise (Ankauf/Verkauf/Gebühren):** keine Betreiberpreisliste oder belastbare Ankaufskurse/Verkaufspreise/Gebühren belegt. **Offen:** aktuelle Kundenannahme und Preisbildung direkt klären. Quellen und Beleggewichtung siehe Recherche 02.10. und 04.10.2026, insbesondere https://schrottregister.pages.dev/ort-hamburg.
+**Ankauf:** keine aktuellen Kurse oder vergütete Annahmebedingungen belegt. **Verkauf:** keine Teile-/Materialpreisliste. **Gebühren:** keine aktuellen Annahme-, Abhol- oder Entsorgungstarife. **Öffentliche Annahme:** nicht nachgewiesen; Tätigkeiten „Lagern/Behandeln“ und registergleiche Spiegel ersetzen keine Selbstanlieferzusage. **GEO:** Kulemannstieg 32 bleibt ungeprüfter Anlagen-/Adresslead, keine bestätigte Kundenadresse und kein neu gesetzter Punkt. **Offen:** aktuelle Kundenannahme und Preisbildung direkt klären. Quellen und Beleggewichtung siehe Recherche 02.10. und 04.10.2026, insbesondere https://schrottregister.pages.dev/ort-hamburg.
 
 ## Timeline
 
