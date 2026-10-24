@@ -44,6 +44,34 @@ Recherche-Agenten bekommen gemäß Nutzerpräferenz ein Ziel und knappen
 Kontext, während sie Vorgehen und Werkzeuge selbst wählen. Das kurze
 Auftragsmuster steht in `prompts/tiefenrecherche-welle.md`.
 
+## 5) GitHub-Veröffentlichung
+
+Für `zebreus/schrott-mcp` ist ein GitHub-PAT mit Push-Recht für diese
+Automation provisioniert. Das PAT ist geheim: niemals committen, ausgeben,
+in eine Remote-URL, Shell-History oder Logs schreiben. Ausschließlich die
+geschützte Credential-Injection der Umgebung verwenden; `GH_TOKEN` und
+`GITHUB_TOKEN` sind die unterstützten Variablen. Nie darum bitten, das PAT im
+Chat einzufügen.
+
+`gh auth status` beschreibt nur die lokale gh-Anmeldung und nicht den
+tatsächlichen Git-Zugriff auf das Repository. Vor dem Push den Zugriff
+nicht-interaktiv mit diesem bereits erfolgreich getesteten Befehl prüfen:
+
+```bash
+GIT_TERMINAL_PROMPT=0 git push --dry-run origin "$(git branch --show-current)"
+```
+
+Wenn das PAT für gh verfügbar ist, kann `gh auth setup-git` Git für diese
+Anmeldung konfigurieren. Nach erfolgreichem Dry-Run den aktuellen Branch
+veröffentlichen:
+
+```bash
+GIT_TERMINAL_PROMPT=0 git push origin "$(git branch --show-current)"
+```
+
+Einen Commit erst dann als veröffentlicht bezeichnen, wenn dieser Push-Befehl
+erfolgreich war.
+
 ## Ergebnisprüfung durch den Owner
 
 - Händler-Erkenntnisse in `dossiers/` mit Quellen und offener Beleglage
