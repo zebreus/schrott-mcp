@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für „ABS Isakßon/Isaksson“ existieren mehrere Verzeichnis-Leads in Neu Wulmstorf, u.a. mit Liliencronstr. 15 und unterschiedlichen Telefonangaben. Sie sind keine unabhängigen Betreiber-/Registerbelege. Die bekannte Domain war beim Direktabruf gesperrt; der Seed-Datensatz lässt sich daher noch keiner verifizierten Person oder Betriebsstätte zuordnen. Keine belastbare Preisliste.
+Für „ABS Isakßon/Isaksson“ führen Das Örtliche und Gelbe Seiten Liliencronstr. 15, 21629 Neu Wulmstorf, 040 7008808 und abs-altmetall.de; diese verknüpften Verzeichnisquellen sind kein unabhängiger Betreiber-/Registerbeleg. Frühere Leads nennen außerdem abweichende Mobilnummern. Die Domain antwortet aktuell mit 403, das Impressum mit 404. Der Seed ist keiner verifizierten Person/Betriebsstätte zugeordnet. **Ankauf:** keine aktuellen Annahmebedingungen/Preise bestätigt. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Liliencronstr. 15 nur als Adresskandidat, kein GEO.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Das Örtliche und Gelbe-Seiten-Details direkt gelesen: ABS Isakßon Altmetallhandel, Liliencronstr. 15, 21629 Neu Wulmstorf, 040 7008808 und Domain abs-altmetall.de. Das sind Branchenverzeichnisse mit möglicher gemeinsam bezogener/zugekaufter Datenbasis, keine zwei unabhängigen Primärquellen. Das Örtliche beschreibt breite Waren-/Mini-Container-Kategorien, aber keine Händlerpreise; Portaltext weist auf recherchierte/übernommene Angaben hin. Betreiber-Domain liefert beim Direktabruf 403, `/impressum/` 404. Frühere Telefonkonflikte (u. a. 0172 4016362 und 040 7008808) bleiben nicht aufgelöst. **Ankauf:** keine Betreiberbestätigung oder Zahlenkurse. **Verkauf:** keine Liste. **Gebühren:** keine Container-/Abholtarife. Keine Felder gefüllt, Kandidatenadresse nicht geokodiert. Quellen: https://www.dasoertliche.de/Themen/ABS-Isak%C3%9Fon-Altmetallhandel-Neu-Wulmstorf-Liliencronstr ; https://www.gelbeseiten.de/gsbiz/a7f71992-f69d-4642-a6a8-bdb69c0814bb ; https://abs-altmetall.de/ ; https://abs-altmetall.de/impressum/.]
 
 ### Recherche 01.10.2026
 

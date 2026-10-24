@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Für Heinz Will GmbH & Co. KG (HRA 3932, AG Aschaffenburg) ist An der Senne 25, 63814 Mainaschaff als ältere Register-Geschäftsanschrift ausgewiesen. Das bvse-Mitgliederverzeichnis führt separat ein Unternehmen gleichen Namens unter Industriestraße 18, 97904 Dorfprozelten; die Seite nennt keine HRA-Nummer oder Verbindung zur HRA 3932. An derselben Dorfprozeltener Adresse verortet die eigene Mehring-Website die rechtlich getrennt bezeichnete Mehring GmbH. Das ergibt eine Adress-/Identitätsfrage, beweist aber weder Umzug noch gemeinsame öffentliche Annahme oder Rechtsnachfolge. Nicht mit dem separaten Dossier `by-mainaschaff-63814-heinz-will` (Hauptstr. 72) zusammenführen.
+Für Heinz Will GmbH & Co. KG (HRA 3932, AG Aschaffenburg) ist An der Senne 25, 63814 Mainaschaff als Register-Geschäftsanschrift ausgewiesen. Der Registerverlauf dokumentiert 2015 einen Wechsel der persönlich haftenden Gesellschafterin: Mehring GmbH (vormals Heinz Will Verwaltungs-GmbH, HRB 8536) schied aus; Heinz Will Verwaltungs GmbH (HRB 13418) trat ein. Das belegt eine historische gesellschaftsrechtliche Verbindung, nicht den Betrieb einer Kundenannahme in Mainaschaff oder eine heutige Identität mit der Mehring-Betriebsstätte in Dorfprozelten. Das bvse-Mitgliederverzeichnis führt Heinz Will GmbH & Co. KG unter Industriestraße 18, 97904 Dorfprozelten, ohne HRA-Angabe; die eigene Mehring-Website verortet dort die Mehring GmbH und einen Schrottannahmebetrieb. Kein Umzug bzw. keine gemeinsame aktuelle Kundenannahme bewiesen. Nicht mit dem separaten Dossier `by-mainaschaff-63814-heinz-will` (Hauptstr. 72) zusammenführen.
 
 - **Ankauf:** keine aktuellen Ankaufspreise oder Annahmebedingungen belegt.
 - **Verkauf:** keine Verkaufspreise.
@@ -32,6 +32,10 @@ Für Heinz Will GmbH & Co. KG (HRA 3932, AG Aschaffenburg) ist An der Senne 25, 
 - **Geokodierung:** An der Senne 25 ist als Registeradresse bekannt; Geokodierung als Händler-/Annahmestandort bis zur Auflösung der Standort- und Dossierkonflikte zurückstellen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: HRA-3932-Verlauf direkt geprüft: Heinz Will GmbH & Co. KG ist weiterhin als Gesellschaft mit Sitz Mainaschaff geführt; 2015 schied als persönlich haftende Gesellschafterin die Mehring GmbH Schrott/Recycling/Containerdienst (vormals Heinz Will Verwaltungs-GmbH, HRB 8536) aus, die Heinz Will Verwaltungs GmbH (HRB 13418) trat ein. Die derzeitige Mehring-Website nennt Industriestraße 18, 97904 Dorfprozelten, und beschreibt den dortigen Recycling-/Schrottannahmestandort; sie belegt nicht, dass die KG am Registerort Kunden annimmt. Das BVSE-Profil wiederholt den Dorfprozeltener KG-Eintrag, jedoch ohne HRA-Nummer und ohne eigenständigen Rechts-/Standortnachweis. Frühere Rollenbeziehung ist keine Gleichsetzung/Umzugskette und löst auch den separaten Hauptstr.-72-Seed nicht auf. **Ankauf:** für die Ziel-KG keine Bedingungen oder Kurse; Mehring wirbt separat mit vergüteter Schrottannahme, nicht übertragbar. **Verkauf:** keine Ziel-KG-Preise. **Gebühren:** keine Ziel-KG-Tarife. An der Senne 25 bleibt Registeradresse, kein bestätigter Annahmepunkt; kein GEO. Quellen: https://handelsregister.live/hra/bayern/ag-aschaffenburg/3932/heinz-will-gmbh-co-kg ; https://www.mehring-container.de/impressum/ ; https://www.mehring-container.de/ueber-uns/ ; https://www.mehring-container.de/schrott-und-metalle/ ; https://www.bvse.de/mitglieder-suche/e-schrott-2/584-heinz-will-gmbh-co-kg.html.]
 
 ### Recherche 20.10.2026
 

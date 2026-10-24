@@ -30,6 +30,10 @@ Das Dokument ist eine Altlasten-/Planungsquelle, kein aktueller Gewerbe- oder Ze
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Einzeln gelesene Gelbe-Seiten-Seite führt „Dietmar & Hans-Jürgen Kloppe GbR Schlaitzer Autoverwertung“, Freiheitstraße 12, 06774 Muldestausee-Schlaitz, Telefon 034955 20503 und http://schlaitzer-autoverwertung.de. Straßenname/Hausnummer passen zum amtlichen historischen FNP-Eintrag „Schlaitzer Autoverwertung Firma Kloppe“ von 2022; der Portalhinweis beweist aber weder heutigen Betrieb noch aktuellen Rechtsträger. Website ließ sich beim Abruf nicht erfolgreich laden. **ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Zahlen/Preise; Branchenangabe ist kein aktueller Preisbeleg. Kandidatenadresse für spätere Prüfung, keine Frontmatter-Füllung und keine Koordinaten. Quellen: https://www.gelbeseiten.de/gsbiz/c118ea4a-64b8-43dc-8320-cdf98ff54b0a ; https://www.gemeinde-muldestausee.de/de/datei/anzeigen/id/32199,1163/anlage_4_altlasten.pdf ; http://schlaitzer-autoverwertung.de/ .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Ein aktuellerer Verzeichnis-Treffer führt „Schlaitzer Autoverwertung“ an Freiheitstr. 12, 06774 Muldestausee (Schlaitz), Telefon 034955 20503 und Mo–Fr 08–17 / Sa 09–12. Das passt straßengenau zum historischen kommunalen FNP-Eintrag „Schlaitzer Autoverwertung Firma Kloppe, Freiheitsstraße 12“, stützt aber weder die Identität des heutigen Portaleintrags mit der früheren Firma noch eine Betreiber-/Nachfolgekette. Im Portal ist als Datensatzstand 26.09.2025 angegeben; Aktualisierung 02.10.2026 ist keine Betreiberbestätigung. **Ankauf:** Kfz-Verwertung wird als Branche genannt, keine Fahrzeug- oder Metallsätze; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. PLZ/Telefon/Zeiten bleiben Timeline-Leads; vor GEO aktuelle Annahme und Betreiber verifizieren. Quellen: https://www.11880.com/branchenbuch/muldestausee/060440459B42590285/schlaitzer-autoverwertung.html ; https://www.gemeinde-muldestausee.de/de/datei/anzeigen/id/32199,1163/anlage_4_altlasten.pdf (Portalabruf 21.10.2026; Planquelle März 2022).]

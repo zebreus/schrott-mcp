@@ -30,6 +30,10 @@ Nicht verifizierter Lead „Führer“, in aktuellen Verzeichnistreffern als And
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Detail „Führer Andy Schrott u. Metallhandel“ direkt geprüft: Andy Führer, Dörenther Berg 34, 49479 Ibbenbüren-Dörenthe, 05451 505144; Eintragdaten 29.12.2022, Portalaktualisierung 02.10.2026, keine Website/Öffnungszeiten. Das widerspricht dem Schrottplatz-Info-Lead An der Mieke 18/05459 803282 und der älteren Spur An den Klärteichen; keine aktuelle Betreiber-/Registerquelle oder Umzugskette gefunden. Angaben bleiben Leads, Frontmatter leer, kein GEO. **Ankauf:** keine verifizierten Bedingungen/Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Abhol-/Containerkonditionen. Quellen (Verzeichnis-Leads): https://www.11880.com/branchenbuch/ibbenbueren/120674719B49575628/fuehrer-andy-schrott-u-metallhandel.html ; https://www.schrottplatz-info.de/schrottplatz/Ibbenbueren/-Fuehrer-Andy-Schrott-und-Metallhandel.]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Schrottplatz-Info-Detail erneut direkt gelesen: „Andy Führer – Schrott- und Metallhandel“, An der Mieke 18, 49479 Ibbenbüren-Uffeln, 05459 803282; die verlinkte Homepage ist nicht als Betreiberauftritt verwertbar. Die anderen Verzeichnisleads bleiben Dörenther Berg 34/05451 505144 sowie der ältere Hinweis An den Klärteichen/0170…; keine Quelle belegt aktuellen Standort, Betreiberidentität oder Umzug. Keine Felder befüllt und kein GEO. **Ankauf:** keine Kurse/Materialannahme verifiziert. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Quelle: https://www.schrottplatz-info.de/schrottplatz/Ibbenbueren/-Fuehrer-Andy-Schrott-und-Metallhandel (Verzeichnislead)]

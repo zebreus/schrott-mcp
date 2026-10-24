@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Dog Water Autoverwertung bleibt ein unbestätigter Verzeichnisbestand in Berlin-Französisch Buchholz/Pankow. Schönerlinder Straße 29, 13127 und 0800 3649283 sind historische Aggregatorangaben, keine neu geprüften Betreiberkontakte. Bezirkspräfix aus dem Straßenfeld entfernt, ohne neue Adresse zu behaupten. Kein Betreiberimpressum, aktueller Zertifikatsnachweis oder Preisfund; `pruefung` bleibt.
+Dog Water Autoverwertung bleibt ein unbestätigter Verzeichnisbestand in Berlin-Französisch Buchholz/Pankow. Direkt gelesene Das-Örtliche-Angaben bestätigen als Verzeichniseintrag Schönerlinder Str. 29, 13127 und 0175 7556515, während Gelbe Seiten 0800 3649283 führt. Beide Rufnummern sind Aggregator-Leads, keine verifizierten Betreiberkontakte; auch „kein Ersatzteilverkauf“ ist nur ein Eintragstitel. Kein Betreiberimpressum, aktueller Zertifikatsnachweis oder Preisfund; `pruefung` bleibt und Adresse bleibt ungepinnt.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Das-Örtliche-Profil direkt geöffnet; es listet „Dog Water (kein Ersatzteilverkauf) Autoverwertung“, Schönerlinder Str. 29, 13127 Berlin und Mobilnummer 0175 7556515. Die Seite weist darauf hin, dass Einträge auch Verlags-/Drittangaben enthalten können. Gelbe Seiten führt am selben Standort abweichend 0800 3649283. Damit bleibt die Telefonnummer ungeklärt; weder Nummer noch „kein Ersatzteilverkauf“ als Betreiberbehauptung übernommen. Keine aktuelle Anerkennung, Fahrzeugankaufskurse, Teilepreise oder Abhol-/Verwertungsgebühren verifiziert; keine Feld-/GEO-Änderung. Quellen: https://www.dasoertliche.de/Themen/Dog-Water-kein-Ersatzteilverkauf-Autoverwertung-Berlin-Franz%C3%B6sisch-Buchholz-Sch%C3%B6nerlinder-Str ; https://www.gelbeseiten.de/gsbiz/adefd6c3-d1a5-4971-b2e1-94c21ffe39b8]
 
 ### Recherche 12.10.2026
 

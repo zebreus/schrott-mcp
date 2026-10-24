@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für einen Schrotthändler „Mrad“ in Lippstadt fand sich auch bei der neuen Suche keine zuordenbare Betreiber- oder Registerquelle. Die aktuellen Treffer nennen andere, identifizierbare Lippstädter Anbieter (etwa Knepper) oder generische lokale SEO-Seiten ohne belegte Verbindung zu Mrad; deren Leistungen und Preise sind nicht übertragbar. Ein gleichnamiges Social-Profil ohne Orts-/Identitätsbezug bleibt ausgeschlossen. **ANKAUF:** für Mrad ungeklärt; **VERKAUF:** keine zuordenbare Preisliste; **GEBÜHREN:** keine Angaben. **GEO:** kein Straßen-/Annahmestellenbeleg, daher keine Geokodierung.
+Ein aktuelles Schrottplatz-Portal listet „Mrad schrott und Metallhandel (SCHROTTSAMMLER)“ in Lippstadt, Tel. 01511 9600333, aber keine Straße und keinen unabhängig bestätigten Betreiber. Es könnte zum Seed „Mrad“ oder zum ähnlich benannten Langdossier `nw-lippstadt-mrad-schrott-und-metallhandel` gehören; ein Identitäts-/Deduplizierungsbeleg fehlt, daher keine Zusammenführung und kein Eingriff in das andere Dossier. Das Portal widerspricht sich bei Öffnungszeiten (Profil Mo–Sa 07–22, Kopfzeile anderer Tagesstatus/11 Uhr, Suchseite 05–20) und behauptet Mindestmengen (100 kg Eisen, 1 kg NE) ohne Betreiberbeleg. Regionale Kupferwerte auf derselben Website sind NRW-Schätzwerte, keine Mrad-Quote. **Ankauf:** nur nicht verifizierte Portalbehauptungen, kein Händlerkurs. **Verkauf:** keine Liste. **Gebühren:** keine Gebühren belegt. **GEO:** keine geokodierbare Adresse.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: LokalesSchrottplatz-Profil direkt geprüft: „Mrad schrott und Metallhandel (SCHROTTSAMMLER)“, Lippstadt, +49 1511 9600333, ohne Straße. Das Portal behauptet 100-kg-Mindestmenge für Eisen und 1 kg für Nichteisen sowie breite Materialannahme; Zeitangaben widersprechen sich innerhalb der Seite (Profil Mo–Sa 07–22, Kopfzeile anderer Status/11 Uhr; Suchseite 05–20). Keine Betreiber-/Registerquelle oder unabhängige Bestätigung. Mögliches Deduplizierungsziel ist das längere gleichnamige Lippstadt-Dossier, aber kein Identitätsbeleg; keine Zusammenführung und keine Änderung am Geschwisterdossier. Die publizierte Kupfer-„Preisspanne“ 8,50–9,95 €/kg ist als NRW-Regionalschätzung ausgewiesen, nicht als Mrad-Ankaufskurs. **Ankauf:** Portalbehauptung, nicht bestätigt; **Verkauf:** keine Händlerliste; **Gebühren:** keine Tarifangabe. Kein GEO. Quellen: https://lokaleschrottplatz.de/mrad-schrott-und-metallhandel-schrottsammler/ ; https://lokaleschrottplatz.de/search/kupfer-raff-haendler-lippstadt/.]
 
 ### Recherche 08.10.2026
 

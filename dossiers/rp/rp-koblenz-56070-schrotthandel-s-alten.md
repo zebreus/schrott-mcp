@@ -28,6 +28,10 @@ S. Alten, St.-Maternus-Straße, 56070 Koblenz, 01516 1010338, bleibt ein unbest�
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Erneute Suche nach „S. Alten“ in Koblenz ergab nur nichtamtliche Verzeichnis-Leads zur St.-Maternus-Straße, 56070, mit Mobilnummer 01516 1010338; diese Angaben sind weder Betreiber- noch Registerbeleg. Das verlinkte Business-Site-Profil `schrott-handel-salten.business.site` ließ sich nicht mehr abrufen (404), was weder Identität noch Schließung belegt. Angelo Alten / Entrümpelungen Koblenz an der Naumburgerstraße 14, 56075, bleibt ein nicht zugeordneter anderer Kandidat; keine Umzugs-/Nachfolgekette. **ANKAUF / VERKAUF / GEBÜHREN:** keine diesem Seed zuordenbaren Leistungen oder Preise. Keine Felder und kein GEO ergänzt; vollständiger Rechtsträger, Hausnummer und Kundenannahme bleiben offen. Quellen/Leads: https://me.maptons.com/p/2943605237 ; https://schrott-handel-salten.business.site/ ; https://entruempelungenkoblenz.de/impressum .]
+
 ### Recherche 15.10.2026 Welle18C
 
 - [Recherche 15.10.2026 Welle18C: Domainprobe http://schrotthandel-alten.de führt beim Abruf zu https://entruempelungenkoblenz.de/; dort Kontakt Naumburgerstr.14, 56075 Koblenz, 0261 3947719, Mobil0171 7462595, Mo-Fr08:00-17:00. Impressum direkt gelesen: Angelo Alten, gleiche Adresse/Festnetz, info@schrotthandel-alten.de. Das ist ein positiver Beleg für die Website-Seite des Konflikts; keine bewiesene S.-Alten-Identität oder Betreiber-/Umzugskette. Eigenständige Suche zur St.-Maternus-Straße findet weiterhin nur Kartenportal-Lead S.Alten mit 01516 1010338. Weder Angelo noch A./Maik/Peter-Friedhofen-Spuren zusammenführen. Seed-Felder bleiben unbestätigt erhalten; Quelle(n): http://schrotthandel-alten.de ; https://entruempelungenkoblenz.de/ ; https://entruempelungenkoblenz.de/impressum ; https://me.maptons.com/p/2943605237 (Suchindex-Lead).]

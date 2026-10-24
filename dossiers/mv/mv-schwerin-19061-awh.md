@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die Seed-Angabe „AWH GmbH, Werkstraße 120, Schwerin“ ist weder einer Betreiberquelle noch einem belastbaren Register-/Kommunalbeleg zugeordnet. Gleichnamige AWH-Suchergebnisse betreffen andere Unternehmen. Identität, Adresse, Annahme und aktueller Betrieb bleiben offen; die Hausnummer ist ausdrücklich unbestätigt und nicht geocodiert. ANKAUF, VERKAUF und GEBÜHREN: keine zuordenbare Preisangabe.
+Ein neues Registerprofil liefert einen möglichen historischen Identitätskandidaten: **AWH Aufbereiten, Wiederverwerten und Handel GmbH**, mit Registerhistorie unter AG Schwerin HRB 5918 und später AG Duisburg HRB 28826; das Profil beschreibt 2016 eine Verlegung des Sitzes aus Schwerin nach Mülheim an der Ruhr. Die dort aktuell angezeigte Anschrift ist Gleiwitzer Straße 46, 45470 Mülheim. Der Beleg passt dem Namen und der Branche nach, verknüpft die Gesellschaft jedoch nicht mit der Seed-Adresse Werkstraße 120; heutiger Betrieb dort oder Nachfolge sind nicht belegt. Die Adresse Werkstraße 120 bleibt unbestätigt und nicht geocodiert. **ANKAUF / VERKAUF / GEBÜHREN:** keine der Seed-Entität am Schweriner Standort zuordenbaren Preise.
 
 ## Timeline
+
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Neuer möglicher Rechtsträgerkandidat aus dem live gelesenen NorthData-Profil: **AWH Aufbereiten, Wiederverwerten und Handel GmbH**, Registerhistorie AG Schwerin HRB 5918 und AG Duisburg HRB 28826, Geschäftszweck Behandlung/Wiederverwertung/Handel; das Profil beschreibt eine Sitzverlegung 2016 von Schwerin nach Mülheim an der Ruhr und zeigt als aktuelle Registeranschrift Gleiwitzer Straße 46, 45470 Mülheim. Dies ist mehr als ein bloßer AWH-Namensvetter, aber weder die frühere Verbindung zur konkreten Werkstraße 120 noch eine aktuelle Kundenannahme in Schwerin sind belegt. Nicht mit Armaturenwerk Hötensleben GmbH verwechseln. Identität/Adresse und Status des Dossierstandorts bleiben `pruefung`; keine Stammdatenfüllung, kein Schluss auf Schließung dieses Standorts. **ANKAUF / VERKAUF / GEBÜHREN:** keine konkreten, dem Schweriner Seed zugeordneten Listen. Werkstraße 120 nicht geokodiert. Quelle: https://www.northdata.de/AWH%20Aufbereiten,%20Wiederverwerten%20und%20Handel%20GmbH,%20Schwerin/Amtsgericht%20Schwerin%20HRB%205918 .]
 
 ### Recherche 21.10.2026
 

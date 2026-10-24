@@ -30,6 +30,10 @@ Der aktuelle Betreiberauftritt „Stuttgart Schrott“ nennt Tilsiter Str. 5/1, 
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Die aktuelle Betreiberseite `/schrottpreise` erneut direkt gelesen. Aufgeführt sind NE-Metalle (u. a. Kupfer, Aluminium, Edelstahl, Messing, Blei, Zink, Kabel/Leitungen, Zinn) sowie FE-Sorten (u. a. Misch-/Brennerschrott, Träger/Bewehrungsstahl, Guss, Bremsscheiben und Schienen). Der Betreiber nennt nur individuelle, von Menge, Sorte und Qualität abhängige Tagesangebote und Barzahlung nach Annahme, keine numerischen Kurse. Keine gesonderte Verkaufsliste. Die Webseite bewirbt daneben kostenlose Abholung; Bedingungen/Mindestmenge bleiben unbeziffert, Containerpreise fehlen. Impressum nennt weiterhin keine juristische Person/HRB, daher keine Identitäts-/Kontakt-Fills. Quellen: https://stuttgart-schrott.de/schrottpreise ; https://stuttgart-schrott.de/impressum ; https://stuttgart-schrott.de/leistungen ; https://stuttgart-schrott.de/kontakt .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Die aktuellen Seiten `/impressum`, `/schrottpreise`, `/leistungen` und `/kontakt` erneut direkt gelesen. Das Impressum nennt weiterhin nur den Auftrittsnamen „Stuttgart Schrott“, Tilsiter Str. 5/1, 70374 Stuttgart-Bad Cannstatt, +49 1523 4575602 und info@stuttgart-schrott.de, aber keine juristische Person/Registernummer; deshalb keine Stammdatenübernahme. Die Ankaufseite listet diverse NE-/FE-Sorten und verspricht tagesabhängige, auf Anfrage genannte Preise bzw. sofortige Barzahlung, aber keinen numerischen Ankaufkurs. Kein Verkaufspreisblatt. Die Leistungsseite bewirbt kostenlose Abholung und Container; die Kontakt-FAQ sagt zugleich „Kleinmengen … möglich“ und „Eine Mindestmenge sollte vorhanden sein“, ohne die Menge oder Reichweite der kostenlosen Abholung zu klären. **Gebühren:** kein Container-/Miettarif und keine numerische Abholgebühr; die kostenlose Abholung bleibt eine unvollständig konditionierte Betreiberangabe. Quellen: https://stuttgart-schrott.de/impressum ; https://stuttgart-schrott.de/schrottpreise ; https://stuttgart-schrott.de/leistungen ; https://stuttgart-schrott.de/kontakt .]

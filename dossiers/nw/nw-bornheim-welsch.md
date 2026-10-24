@@ -30,6 +30,10 @@ Der Seed nennt Schrott-/Metallhandel P. Welsch, Straufsberg 2, 53332 Bornheim-Wa
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Einzeldetail erneut direkt geprüft: Straufsberg 2, 53332 Bornheim-Waldorf, 02227 908232; Eintragsdaten 02.06.2026 und Portalaktualisierung 10.10.2026. Stundenanzeige Mo–Fr 09–17 bleibt Verzeichnisangabe und zeigt zusätzlich eine fehlerhafte „geschlossen bis“-Zeile; das Websiteziel schrottplatz-info.de ist ein Portal, kein Welsch-Betreiberauftritt. Gegenlead Kerpengasse 2 bleibt ohne Welsch-Verbindung; keine Adresse, Zeiten oder Dienste aufgewertet und kein GEO. **Ankauf:** kein Betreiberbeleg/Preis. **Verkauf:** keine Liste. **Gebühren:** keine aktuellen Tarife; ältere Nutzerangabe kostenloser Abholung ist nicht übertragbar. Quelle (Lead): https://www.11880.com/branchenbuch/bornheim-rheinland/060440090B52609796/schrott-und-metallhandel-p-welsch.html.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

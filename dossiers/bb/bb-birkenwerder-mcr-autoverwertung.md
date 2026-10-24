@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Birkenwerder-Seed nennt MCR GmbH Autoverwertung, Triftweg 19, 16547 und 03303 508006 ausschließlich über Verzeichnisse. Ein separater Domainfund `mcr-autoverwertung.de` zeigt eine 2011 datierte Seite mit Oranienburger Telefonnummern; weder Betreiberkette noch Verbindung zum Triftweg sind belegt. Deren Container-/Preisangaben werden deshalb nicht übertragen. **ANKAUF / VERKAUF / GEBÜHREN:** für den Birkenwerder-Betrieb keine verifizierten Konditionen. Status `pruefung`; keine Annahmestelle oder Koordinaten bestätigt.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Neben der bereits geprüften Domain mcr-autoverwertung.com wurde die separate Domainfamilie http://www.mcr-autoverwertung.de/ geprüft. Die öffentlich sichtbare Entsorgungsseite ist mit ©2011 gekennzeichnet, nennt als Kontakt 03301 205231 / 0175 6031003 und bewirbt Container/Abholung; für die sichtbaren Preispositionen stehen nur „zu erfragen“-Hinweise. Diese alte Seite liefert keinen Nachweis für MCR GmbH am Triftweg 19 in Birkenwerder und wird nicht mit dem dortigen Verzeichnis-Lead zusammengeführt. Deshalb keine Übernahme der dortigen Leistungen oder Preise/Gebühren. Keine Änderung der Felder, keine Geokodierung. Quellen (nicht zugerechneter Oranienburg-Kandidat): http://www.mcr-autoverwertung.de/ ; http://www.mcr-autoverwertung.de/entsorgung.htm]
 
 ### Recherche 03.10.2026 (Gesamtaudit A)
 

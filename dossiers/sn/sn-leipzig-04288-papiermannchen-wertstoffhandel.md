@@ -32,6 +32,10 @@ Verzeichnisse nennen zusätzlich Wurzner Straße 46 und Plaußiger Straße 25. F
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [NorthData-Profil der Papiermännchen-Wertstoffhandel GmbH erneut gelesen: HRB 20602 AG Leipzig, Registeranschrift Hauptstraße 22, 04288 Leipzig, Gegenstand „An- und Verkauf von Wertstoffen“; zuletzt sichtbare veröffentlichte Jahresabschlüsse beziehen sich auf 2021 (Veröffentlichung 2023), und der Profilverlauf enthält Geschäftsführeränderungen 2018. Das bestätigt Rechtsträger-/Registerhistorie, aber nicht die aktuelle Öffnung oder Lage eines Annahmehofs. Wurzner Straße 46 und Plaußiger Straße 25 bleiben getrennte, ungeklärte Verzeichnis-Leads. **ANKAUF:** keine aktuellen Sorten/Mengen oder Preise. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine verifizierten Tarife. Keine Standortkoordinate gesetzt. Quelle: https://www.northdata.de/Papierm%C3%A4nnchen-Wertstoffhandel%20GmbH,%20Leipzig/HRB%2020602 .]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: NorthData bestätigt Papiermännchen-Wertstoffhandel GmbH, HRB 20602, mit registerlichem Sitz Hauptstraße 22, 04288 Leipzig und Unternehmensgegenstand An-/Verkauf von Wertstoffen; die zuletzt sichtbaren Rechnungslegungsdaten beziehen sich auf 2021/Veröffentlichung 2023. Das ist kein aktueller Nachweis eines geöffneten Annahmehofs. Die älteren Verzeichnis-Leads Wurzner Straße 46 und Plaußiger Straße 25 bleiben ohne Filialbeleg getrennt und werden nicht als Standorte zusammengeführt. ANKAUF: keine konkreten Ankaufspreise veröffentlicht. VERKAUF: keine konkreten Verkaufspreise. GEBÜHREN: keine Tarife. Keine GEO-Änderung; aktueller Betriebsort und Eingang bleiben zu verifizieren. Quelle (Abruf 12.10.2026): https://www.northdata.de/Papierm%C3%A4nnchen-Wertstoffhandel%20GmbH,%20Leipzig/HRB%2020602.]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Saico GmbH Buntmetall- und Schrotthandel“ liegt aus dem Seed nur ein älterer HRB-Suchhinweis (114165 B) sowie die unbestätigte Anschrift Reuterstr. 23, 12053 vor. Die aktuelle Namenssuche ergab keinen eindeutig passenden Betreiberauftritt oder eine auswertbare Registerbestätigung. Gleichnamige SAICO-Holzkunst- und SAICOS-Farbprodukte sind andere Unternehmen/Marken und keine Berlin-Belege. **ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Leistungen oder Preise. Status `pruefung`; Adresse, Identität und Pin offen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Exakte Suche nach Saico GmbH/Buntmetall- und Schrotthandel, Berlin und HRB 114165 B brachte keinen aktuell prüfbaren, eindeutig passenden Betreiberauftritt oder Registereintrag. SAICO Holzkunst/SAICO Erzgebirge sowie SAICOS-Farbprodukte sind offenkundige Namensvetter ohne Berlin-/Schrotthandelsbezug und werden ausgeschlossen. Die Anschrift Reuterstr. 23/12053 bleibt ein Seed-Hinweis, nicht neu bestätigt; keine Annahme-, Verkaufs-, Preis- oder Gebührenangabe zurechenbar. Felder und Status unverändert, kein GEO. Beispiel ausgeschlossener Namensvetter: https://www.saico-group.de/index.cfm]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

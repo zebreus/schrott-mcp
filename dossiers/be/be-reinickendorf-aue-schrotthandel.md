@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Nur der Seed nennt Aue-Schrotthandel an Hermsdorfer Str. 17, 13469 Berlin, Telefon 030 4115808. Ein unabhängiger Berliner Betreiber- oder Registerbeleg fehlt. Hentschel Schrotthandel Aue sitzt in Sachsen und ist kein Identitätsbeleg. Keine belastbare Leistungs- oder Preisangabe; offen bleiben Existenz, Anschrift und aktuelle Tätigkeit. Die Seed-Adresse sollte bis zur Bestätigung nicht geocodiert werden.
+Der Seed und weitere Verzeichnisse nennen Aue-Schrotthandel an Hermsdorfer Str. 17, 13469 Berlin, 030 4115808. Eine Berliner Branchenliste führt dieselbe Anschrift und Nummer aber unter „AUE Gala-Bau“ (Gärtnerei-/Gartenbau-Rubrik); ob Namensvetter, gemeinsame Nummer oder Fehlzuordnung, ist offen. Hentschel Schrotthandel Aue in Sachsen ist ein anderer Betrieb. Es fehlt weiterhin ein Betreiber- oder Registerbeleg. **ANKAUF / VERKAUF / GEBÜHREN:** keine belastbaren Angaben. Adresse nicht geocodieren, bis Identität und Annahmestelle geklärt sind.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Berliner Branchenverzeichnis führt „AUE Gala-Bau“ in der Gärtnerei-Rubrik an Hermsdorfer Str. 17, 13469 Berlin, Tel. 030 4115808 – identische Seed-Anschrift/-Nummer, aber anderer Geschäftsname und Tätigkeitsbereich. Das ist ein Aggregatorwiderspruch, keine Aufklärung, ob gemeinsamer Anschluss, Mehrfachnutzung oder Verwechslung vorliegt. Kein Betreiber-/Registerbeleg für Aue-Schrotthandel; Hentschel Schrotthandel Aue bleibt ein anderer sächsischer Betrieb. Keine Ankauf-/Verkaufs-/Gebührenliste, keine Feldänderung und kein GEO. Quelle (abweichender Verzeichniseintrag): https://www.berlinerbranchen.com/gaertnerei/berlin/aue-gala-bau-hermsdorfer-str-17/]
 
 ### Nachprüfung 06.10.2026
 

@@ -30,6 +30,10 @@ Kleinanzeigen-Suchergebnisse zeigen Angebote unter „Schrotthandel Marlon Lehma
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Kleinanzeigen-Suchergebnisse enthalten weiterhin eine selbst eingestellte Annonce von „Marlon Lehmann“ mit Titel „Schrott & altmettal (Ankauf jeglicher art!!)“; Suchtreffer zeigen als Datum 19.10.2026. Der Direktaufruf der Anzeige war HTTP 403, daher wurden nur Suchtreffertexte gelesen. Das ist ein aktueller Werbehinweis, aber kein unabhängiger Nachweis von Rechtsträger, Wohn-/Betriebsadresse oder Saarland-weiter Tätigkeit. **ANKAUF:** keine Preise. **VERKAUF:** keine Angebote/Preisliste. **GEBÜHREN:** keine Abhol-/Containerkosten. Keine Kontakt-/Status-/Adressfüllung; GEO nicht möglich. Quellen: https://www.kleinanzeigen.de/s-merchweiler/schrott/k0l9896 ; https://www.kleinanzeigen.de/s-anzeige/schrott-altmettal-ankauf-aller-art-/3457516694-298-334 (Direktabruf 403; Suchtrefferinhalt, kein Seitenvolltext).]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Kleinanzeigen-Suchergebnisse für Merchweiler zeigen mehrere Anzeigen unter „Schrott & Altmetall“/„Schrotthandel: Marlon Lehmann“ mit Ankaufs- und Abholwerbung, darunter Treffer mit Datumsangaben aus Juli/August 2026. Der direkte Abruf der bekannten Anzeige https://www.kleinanzeigen.de/s-anzeige/schrott-altmettal-ankauf-aller-art-/3457516694-298-334 endete mit HTTP 403; die Suchtreffer sind Selbstwerbung, aber kein unabhängiger Firmen-/Identitätsbeleg. Kein Telefon/Ort/Status-Fill. ANKAUF: keine konkreten Ankaufspreise; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://www.kleinanzeigen.de/s-merchweiler/schrott/k0l9896 ; https://www.kleinanzeigen.de/s-merchweiler/allen/k0l9896 ; https://web2.cylex.de/firma-home/schrotthandel-marlon-lehmann-15574950.html .]

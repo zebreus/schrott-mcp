@@ -30,6 +30,10 @@ Der Sammelname Baur/Bayer/Graf/Bauer ist weiterhin keiner einzelnen Betreiberide
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Schrott & Metall Recycling BAYER-Seiten direkt erneut gelesen: Impressum nennt Inhaber Helmuth Hammerschmidt, Am Bahnhof 2–3, 89335 Ichenhausen, 0176 83132653 und bittet vor Besuch um telefonische Anmeldung; Datenschutzerklärung nennt dagegen Kevin Bayer, Poststraße 3. Keine unabhängige Register-/Kommunalauskunft löst Personen-/Adresswiderspruch oder verbindet diese Website mit dem zusammengesetzten Seed Baur/Bayer/Graf/Bauer. Leistungs-/Ankaufseite enthält keine verlässliche konkrete Preisangabe. **Ankauf:** nur allgemeine Bewerbung, kein identitätsgesicherter Preis. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Keine Website-/Kontakt-/Adressübernahme und weder Am Bahnhof noch Poststraße geokodiert. Quellen: https://www.schrott-bayer.de/impressum/ ; https://www.schrott-bayer.de/datenschutzerklarung ; https://www.schrott-bayer.de/ankauf-von-kupfer-messing-kabel-edelstahl.]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: BAYER-Impressum und Datenschutz einzeln direkt gelesen: weiterhin Helmuth Hammerschmidt/Am Bahnhof 2–3 gegen Kevin Bayer/Poststraße 3; Impressum verlangt vorheriges Anrufen/Anmelden. Dies sind Angaben eines Kandidaten, keine zwei unabhängigen Quellen und kein Nachweis für Baur/Graf/Bauer. Suchtreffer zu ST-Schrotthandel/Facebook mit Kevin Bayer nur weiterer Zuordnungslead, Socialprofil nicht als geprüft behandelt. Keine Frontmatter-Fills oder Firmenzusammenführung. Ankauf/Verkauf/Gebühren: keine identitätsgesicherten Zahlen; GEO erst nach Entflechtung. Quellen: https://www.schrott-bayer.de/impressum ; https://www.schrott-bayer.de/datenschutzerklarung ; https://www.facebook.com/stschrotthandel/ (Suchlead).]

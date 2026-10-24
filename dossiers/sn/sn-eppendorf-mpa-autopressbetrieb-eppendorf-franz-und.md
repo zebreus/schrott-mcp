@@ -30,6 +30,10 @@ Eine aktuelle Drittanbieter-Spiegelung des Fachbetriebsregisters (Datenstand lau
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Ein weiterer Drittanbieter-Spiegel des Fachbetriebsregisters führt „MPA Autopressbetrieb Eppendorf Franz und Weißer GbR mbH“, Zum Gewerbegebiet 1, 09575 Eppendorf, als Demontagebetrieb, Bescheinigung ZZST00200097; der Datensatz nennt zuletzt 19.08.2026 und zeigt als Kartenpunkt 50.7824600, 13.2270470. Die Aussage „Registereintrag verifiziert“ stammt vom Verzeichnis, nicht aus einem heute direkt gelesenen amtlichen GESA-Einzeldatensatz; der direkte Registerabruf lieferte keinen auswertbaren Firmeninhalt. **ANKAUF:** keine Altauto-/Schrottpreise. **VERKAUF:** keine Teilepreise. **GEBÜHREN:** keine Annahme-/Verwertungsgebühren. Adresse/Koordinaten nur Kandidaten, keine Frontmatter-Füllung oder GEO-Freigabe. Quelle: https://autoverwerterfinder.de/autoverwerter/mpa-autopressbetrieb-eppendorf-franz-und-weiser-gbr-mbh/ ; Prüfziel: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Die nichtamtliche Spiegelung schrottregister.pages.dev führt unter dem Eppendorfer Ortseintrag MPA Autopressbetrieb Eppendorf Franz und Weißer GbR mbH, Zum Gewerbegebiet 1, 09575 Eppendorf, als Demontagebetrieb mit Bescheinigung ZZST00200097 und Tätigkeiten „Lagern, Behandeln“; Datenstand laut Seite 11.08.2026 und Verweis auf GESA. Das ist ein gezielter neuer Registerhinweis, aber noch kein direkt aus dem amtlichen GESA-Register gelesener Eintrag; Rechtsformzusatz, heutiger Betrieb und Annahmebedingungen nicht in Frontmatter übernommen. ANKAUF: keine Preise. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarifangaben. Geokodierung: Adresse Kandidat, Geocode bis zur amtlichen Prüfung nicht freigeben; Quelle: https://schrottregister.pages.dev/betrieb-mpa-autopressbetrieb-eppendorf-franz-und-weisser-gbr-mbh-eppendorf ; Ortsindex: https://schrottregister.pages.dev/ort-eppendorf.]

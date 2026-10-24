@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„Otto Matthias“ ist im Seed nur als möglicher Ankaufkontakt für Rüsselsheim (65428) verzeichnet; konkrete Straße, Firma oder Telefonnummer fehlen. Erneute Suche ergab keinen eindeutig zuordenbaren Schrotthändler dieses Namens. Treffer für gleichnamige Personen und andere regionale Recycler sind keine Identitätsbelege. **ANKAUF / VERKAUF / GEBÜHREN:** keine Angaben oder Preise verifiziert. Status `pruefung`; keine Adresse und kein GEO-Pin.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Exakte Namens-/Ortsgegenprüfung nach „Otto Matthias“ und Schrotthandel in Rüsselsheim erbrachte keine überprüfbare Betreiberseite, Registerspur oder Geschäftsadresse für die Seed-Identität. Gefundene Namensvetter und andere Recycler im Raum Rüsselsheim haben keine belastbare Identitätsbrücke und wurden nicht zugeordnet. Der Seed-Hinweis „evtl. Ankauf“ bleibt unbestätigt; keine Ankaufbedingungen, Verkaufspreise, Gebühren, Kontaktdaten oder Koordinaten ergänzbar. Felder unverändert. Suchprotokoll (Suchseite, kein Primärbeleg): https://www.google.com/search?q=%22Otto+Matthias%22+Schrotthandel+R%C3%BCsselsheim]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

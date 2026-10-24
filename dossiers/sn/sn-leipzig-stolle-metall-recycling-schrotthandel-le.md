@@ -30,6 +30,10 @@ Die Betreiberwebsite ist erreichbar und beschreibt Thomas Stolle Metall-Recyclin
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Betreiberhomepage und Impressum erneut direkt abgerufen: Thomas Stolle Metall-Recycling nennt Am Schenkberg 6, 04349 Leipzig-Plaußig, Mo–Do 08–17, Fr 08–16, Samstag nach telefonischer Absprache, NE-/FE-Schrottankauf zu Tagespreisen, Kabelrecycling, gewerbliche Abholung, Mietcontainer 7–27 m³ und eine 50-t-Waage. Es bleibt eine Betreiberquelle ohne HRB und ohne qualifizierenden unabhängigen Adress-/Identitätsbeleg; deshalb keine leeren Kontaktfelder befüllt. **ANKAUF:** keine Zahlenliste. **VERKAUF:** keine konkrete Verkaufspreisliste. **GEBÜHREN:** Container-/Transporttarife nicht beziffert. Am Schenkberg 6 bleibt Betreiber-Adresskandidat, kein neu bestätigter GEO-Punkt. Quellen: https://schrotthandel-leipzig.de/ ; https://schrotthandel-leipzig.de/impressum/ .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Betreiberhomepage und Impressum direkt erneut gelesen. Aktuell sichtbare Stunden: Mo–Do 08:00–17:00, Fr 08:00–16:00, Samstag nach telefonischer Anfrage. Das Leistungsangebot bestätigt Buntmetall-/Schrottankauf zu Tagespreisen, Kabelrecycling, Abholung gewerblicher Mengen auf Anfrage, Mietcontainer 7–27 m³ und 50-t-Waage. Keine numerische Ankaufsliste, Verkaufspreisliste oder bezifferten Container-/Abholtarife gefunden. Betreiberwebsite bleibt die einzige qualifizierende Quelle für Identität/Anschrift; keine Kontaktfelder ergänzt und kein neuer GEO-Punkt. Quellen: https://schrotthandel-leipzig.de/ ; https://schrotthandel-leipzig.de/impressum .]

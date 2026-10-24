@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Lead „Thiel Schrotthandel“, Heerstr. 7, Wabern-Uttershausen, stützt sich auf Branchenverzeichnisse; ein älterer Eintrag nennt Detlef Thiel, 05683 8506 und eine inzwischen nicht erreichbare `.de.vu`-Adresse. Eine Creditreform-Suchspur „Detlef Thiel e.K., Wabern“ ist ohne zugängliche Detailansicht kein sicherer Identitäts- oder Anschriftenbeleg. **ANKAUF / VERKAUF / GEBÜHREN:** keine aktuellen Bedingungen oder Preise bestätigt. Status `pruefung`; Telefon/E-Mail und Geokoordinaten bleiben offen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Creditreform-Suchergebnis führt „Detlef Thiel e.K., Wabern“, Cref. 6150505480; der Profillink lieferte beim Direktabruf 403. Das ist eine Identitäts-/Registerindex-Spur, aber kein einsehbarer Beleg für Schrotthandel, Heerstr. 7 oder die im älteren Verzeichnis geführten Kontaktdaten. Gleichnamige Treffer aus anderen Städten ausgeschlossen. Kein Fill, kein GEO; ANKAUF/VERKAUF/GEBÜHREN und Kurse nicht verifiziert. Quelle (Suchindex, Direktabruf gesperrt): https://firmeneintrag.creditreform.de/34590/6150505480/DETLEF_THIEL_E_K]
 
 ### Recherche 02.10.2026
 

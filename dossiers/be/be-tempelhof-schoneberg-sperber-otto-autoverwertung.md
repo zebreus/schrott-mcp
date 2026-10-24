@@ -28,6 +28,10 @@ Neue Rechtsträgerspur: Creditreform indexiert Ralf Sperber „Autoverwertung Ot
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Gelbe-Seiten-Profil direkt gelesen: „Sperber Otto Autoverwertung“, Gotenstr. 26–28, 10829 Berlin, 030 7818888, Fax 030 7818742; Öffnungszeiten laut Aggregator Mo–Fr 08:00–17:00, Sa 08:00–13:00. Die angezeigten Bewertungen stammen überwiegend aus 2008–2014 und belegen keine heutige Betriebsaktivität. Der Profileintrag bleibt ein Verzeichnis-Lead; Creditreform-Ralf-Sperber-Spur ist nicht voll einsehbar und die Inhaber-/Gewerbebrücke offen. Keine Felder gefüllt. ANKAUF/VERKAUF/GEBÜHREN: keine aktuelle Liste oder Tarife; kein GEO. Quelle: https://www.gelbeseiten.de/gsbiz/2ddc3a1c-dc0a-4223-9815-4b10b156ea8f]
+
 ### Recherche 18.10.2026 (02:00-Welle C)
 
 - [Recherche 18.10.2026: Creditreform-Identitätskandidat Ralf Sperber / Autoverwertung Otto Sperber, Profil 2012429735, erneut direkt geprüft: HTTP 403. Der ältere Suchauszug bleibt nur Suchspur; keine Vollbestätigung für Inhaberwechsel oder heutige Autoverwertung und keine Grundlage, Gotenstraße wieder in Frontmatter einzutragen. ANKAUF: keine verifizierten Fahrzeug-/Schrottkurse; VERKAUF: keine Zielliste; GEBÜHREN: keine bestätigte Verschrottungs-/Abholgebühr. Offen: Gewerbeidentität und aktuelle Demontage-/Annahmestelle; keine Anerkennung aus Branchenbezeichnung ableiten, keine GEO-Arbeit. Quelle/Abrufgrenze: https://firmeneintrag.creditreform.de/10829/2012429735/RALF_SPERBER_AUTOVERWERTUNG_OTTO_SPERBER]

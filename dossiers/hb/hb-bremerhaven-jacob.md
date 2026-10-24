@@ -28,6 +28,10 @@ Ein amtlicher Bremer Amtsblatt-Eintrag vom 09.12.2014 nennt ausdrücklich die **
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [NorthData-Profil des Kandidaten Kurt Jacob GmbH & Co. KG, HRA 3064 BHV, erneut gelesen; es weist die Löschung/Erlöschung 2019 aus. Das frühere Bremer Amtsblatt belegt historisch Kurt Jacob GmbH & Co. KG am Am Wischacker 2, 27576; die aktuelle Abrufprobe des PDF endete heute mit 403, daher wird dieser heutige Zugriffsausfall nicht als Gegenbeleg gewertet. Die kommunale Anlagenübersicht 2024 nennt REDUX an derselben Adresse, aber keine belegte Jacob→REDUX-Nachfolge. **ANKAUF / VERKAUF / GEBÜHREN:** keine Jacob zuordenbaren aktuellen Preislisten. Keine aktuellen Kundenannahmenachweise und keine Geokodierung; heutiger Betreiber bleibt offen. Quellen: https://www.northdata.de/Kurt+Jacob+GmbH+%26+Co.+KG,+Bremerhaven/HRA+3064+BHV ; https://www.amtsblatt.bremen.de/fastmedia/233/2014-12-09-amtsblatt-2014-nr-314-uvpg-kurt-jacob.pdf ; https://umwelt.bremen.de/sixcms/media.php/13/2024-02-02_Anlagen%C3%BCbersicht%20Abfallentsorgungsanlagen.pdf .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz

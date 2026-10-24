@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Zwei Verzeichnisse führen einen Kandidaten „Schrottabholung Köln“ an der Seed-Straße Stolzestr. 25: 11880 nennt 50674 Köln und 01578 9805949, LokaleSchrottplatz ebenfalls die Adresse/Nummer. Beides bleibt Aggregator-Material; Betreiberidentität, reale Annahme und Aktualität sind nicht primär bestätigt. Die Verzeichnisse widersprechen sich bei Öffnungszeiten (11880: keine; LokaleSchrottplatz: Zeitangaben). Keine PLZ, Telefonnummer oder Zeiten übernommen; vor Bestätigung keine Geokodierung. **Ankauf:** keine dem Kandidaten zuordenbaren Preise. **Verkauf:** keine Preisliste. **Gebühren:** keine belegten Abhol-/Entsorgungstarife. Die im LokaleSchrottplatz-Suchergebnis gezeigten Kupferpreise gehören ausdrücklich zum anderen Händler MKR Rothenbücher und sind hier nicht anzuwenden.
+Zwei Verzeichnisse führen einen Kandidaten „Schrottabholung Köln“ an der Seed-Straße Stolzestr. 25: 11880 nennt 50674 Köln und 01578 9805949, LokaleSchrottplatz ebenfalls Adresse/Nummer. Der über 11880 verknüpfte Betreiber-Domainname leitet jedoch auf einen Auftritt mit abweichendem Impressum, Homburger Str. 18/50969 und anderer Rufnummer um; keine Quelle verbindet diesen Auftritt mit Stolzestr. 25. Daher keine Domain-/Inhaberzuordnung, und kein Übertragen dessen Abhol-/Ankaufversprechen. **Ankauf:** keine dem Zielkandidaten zuordenbaren Preise. **Verkauf:** keine Preisliste. **Gebühren:** keine belegten Abhol-/Entsorgungstarife. Vor Identitäts-/Annahmebestätigung keine Geokodierung. Kupferpreise im LokaleSchrottplatz-Umfeld betreffen ausdrücklich MKR Rothenbücher, nicht diesen Kandidaten.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Detail direkt gelesen: „Schrottabholung Köln“, Stolzestr. 25, 50674 Köln, 01578 9805949, Eintragdaten 17.10./aktualisiert 23.10.2026. Die dort verknüpfte Domain schrottabholung-köln.de leitete beim Aufruf auf xn--schrottabholung-kln-66b.de um. Deren Impressum nennt A. Lahib, Homburger Str. 18, 50969 Köln und 01522 422 4277, also andere Anschrift und Nummer; Kontaktseite nennt ebenfalls 50969. Keine Identitäts-/Standortkette zur Stolzestr. 25 und keine Basis, diese Website als deren Betreiberquelle zu verwenden. Dortige Eigenwerbung zu kostenloser Abholung/vergüteten Metallen wird nicht dem Seed zugerechnet; für Stolzestr. 25 bleiben Ankauf, Verkauf und Gebühren unbestätigt. Ziel-Straße bleibt nur Verzeichnis-/Seedkandidat, kein GEO; Homburger Str. 18 ist allenfalls ein separater, nicht zugeordneter Kandidat. Quellen: https://www.11880.com/branchenbuch/koeln/060440092B113511664/schrottabholung-koeln.html ; https://xn--schrottabholung-kln-66b.de/impressum/ ; https://xn--schrottabholung-kln-66b.de/.]
 
 ### Recherche 23.10.2026
 

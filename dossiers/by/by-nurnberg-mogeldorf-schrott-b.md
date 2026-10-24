@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Gelbe-Seiten-Einzeldetail direkt erneut gelesen: Kurzname „Schrott B.“, Thäterstr. 43, 90480 Nürnberg-Mögeldorf, Telefon 0911 5460688. Keine Person/Firma ausgeschrieben, keine Stunden, Website oder Material-/Annahmebeschreibung; generische Website-/E-Mail-Aktionsknöpfe bestätigen keine Domain. Weiter nur ein Verzeichnislead, keine Namens-/Betriebsstellenbestätigung und keine Preis-/Gebührenliste. Straße bleibt ungeprüfte Seed-Angabe, keine weiteren Felder oder GEO ergänzt; keine Schließung aus fehlenden anderen Treffern abgeleitet. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/d45cc9c0-85dc-4f8e-96f2-a02aff3f89c9.]
+
 ### Recherche 18.10.2026 — Welle 02:00 / a
 
 - [Recherche 18.10.2026: Exakte Namens-/Straßensuche und Gelbe-Seiten-Detail direkt geprüft. Weiterhin nur Kurzname „Schrott B.“, Thäterstr. 43/90480 und 0911 5460688, keine ausgeschriebene Betreiberperson, keine belastbare Domain/Annahmebeschreibung. Suchindex liefert hierzu nur einen Örtliche-Lead; Portale sind keine unabhängigen Primärbelege. „Schrott“ kann auch Familienname sein, daher keine Gewerbeidentität allein aus Name/Rubrik ableiten. Keine Frontmatter-Fills. Ankauf/Verkauf/Gebühren: auf dem gelesenen Profil keine Zahlenliste. Offener entscheidender Beleg: vollständiger Gewerbename und Tätigkeit an Thäterstr. 43 aus Betreiber- oder kommunaler Auskunft; Suchlücken nicht als Schließung verwenden. Quellen: https://search.brave.com/search?q=%22Schrott+B.%22+%22Th%C3%A4ter%22 ; https://www.gelbeseiten.de/gsbiz/d45cc9c0-85dc-4f8e-96f2-a02aff3f89c9 (direkt gelesener Lead).]

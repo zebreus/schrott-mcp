@@ -32,6 +32,10 @@ Der Seed-Eintrag „SIMO“ als Autoverwertung lässt sich aktuell keiner verifi
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Zwei direkt gelesene Verzeichnisse führen „Simo Silabetzschki Mike Autoverwertung“ bzw. „Mike Silabetzschki“ an An der Pumpe 7, 39387 Oschersleben; sie nennen aber unterschiedliche Telefonnummern (Das Örtliche: 0175 2882288; Schrottplatz.org: 03949/82614). Beides sind Aggregatoren und kein aktueller Betreiber-/Gewerbenachweis. Der Widerspruch zu früheren Spuren Anderslebener Straße 56 und An der Pumpe 1 bleibt bestehen; keine Adressen/Nummern zugeordnet oder zusammengeführt. Die Betreiber-Domain lieferte beim Abruf keinen auswertbaren Inhalt. **ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Zahlen. Kein GEO und keine Frontmatter-Füllung. Quellen: https://www.dasoertliche.de/Themen/Simo-Silabetzschki-Mike-Autoverwertung-Oschersleben-Bode-An-der-Pumpe ; https://www.schrottplatz.org/oschersleben/mike-silabetzschki-4242778.html ; http://simo-autoverwertung.de/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung

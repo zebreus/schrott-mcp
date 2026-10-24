@@ -28,6 +28,10 @@ NorthData führt die Nowakowski Recycling GmbH (AG Schwerin HRB 8585) als wegen 
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [NorthData-Profil HRB 8585 Schwerin erneut geprüft: Es beschreibt den historischen Geschäftszweck mit Abfall-/Schrottverwertung, Containerdienst und Schrotthandel und weist Insolvenzverfahren sowie Löschung am 12.11.2014 aus. Das belegt die frühere Gesellschaft, nicht eine heutige Betriebsstätte oder Nachfolge. Rogahner Straße 92 bleibt historische Registeradresse und ist kein bestätigter Annahmeort. **ANKAUF / VERKAUF / GEBÜHREN:** keine aktuellen, dem erloschenen Rechtsträger zurechenbaren Tarife. Kein GEO und keine Änderung an heutigen Betreiberfeldern. Quelle: https://www.northdata.de/Nowakowski+Recycling+GmbH,+Schwerin/Amtsgericht+Schwerin+HRB+8585 .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: ANKAUF: Kein aktueller Ankauf belegt; historische Registerbeschreibung „Schrotthandel“ enthält keinen Preis.; VERKAUF: Keine aktuelle Teile- oder Materialpreisliste belegt.; GEBÜHREN: Keine aktuelle Annahme-/Abholgebühr belegt.; GEOKODIERUNG: Rogahner Straße 92 ist als historische Gesellschaftsadresse dokumentiert, aber nicht als heutiger Annahmeort. Keine aktuelle Betriebsstätte geokodieren.; Quelle: https://www.northdata.de/Nowakowski+Recycling+GmbH,+Schwerin/Amtsgericht+Schwerin+HRB+8585 (Sekundärregisterprofil; Abruf 07.10.2026).]

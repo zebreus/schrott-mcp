@@ -28,6 +28,10 @@ Jürgen Friedhof, Holzhäusen 6, 29225 Celle-Wietzenbruch, 05141 45306 bleibt ei
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Frische direkte Portalprüfungen bei Gelbe Seiten und Das Telefonbuch wiederholen „Friedhof Jürgen SchrottHdl.“, Holzhäusen 6, 29225 Celle-Wietzenbruch, 05141 45306. Das bestätigt nur fortbestehende Verzeichniseinträge, keinen Betreiber, keine aktuelle Gewerbeauskunft und keine unabhängige Annahmestelle; Namensgleichheit mit Friedhofs-/Bestattungstreffern bleibt unentscheidend. Die gefüllten Legacy-Adresse/Telefonangaben sind daher weiterhin ungeprüfte Leads, nicht als aktuelle Betreiberfakten aufgewertet; status pruefung, keine neue GEO-Freigabe. **Ankauf:** keine bestätigte Annahme oder Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Quellen (Verzeichnis-Leads): https://www.gelbeseiten.de/gsbiz/30f8b645-5479-4241-9f0e-65d40b517309 ; https://adresse.dastelefonbuch.de/Celle/3-Schrott-J%C3%BCrgen-Friedhof-Celle-Holzh%C3%A4usen.html.]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Erneute direkte Prüfung der Gelbe-Seiten-Seite und ergänzende Suche im Telefonbuch bestätigt nur die bisherigen Portalangaben „Friedhof Jürgen SchrottHdl.“, Holzhäusen 6/29225 Celle und 05141 45306. Kein zuordenbarer Betreiberauftritt oder aktueller Register-/Kommunalbeleg neu gefunden; Namensähnlichkeit zu Friedhofs-/Bestattungstreffern bleibt kein Gegenbeweis zur Branchenangabe. ANKAUF/Publikumsannahme: nicht unabhängig belegt; VERKAUF: keine Teile-/Materialpreisliste; GEBÜHREN: keine Tarifliste. Status, historische Adresse und Owner-Gate unverändert. Quellen: https://www.gelbeseiten.de/gsbiz/30f8b645-5479-4241-9f0e-65d40b517309 (Lead), https://adresse.dastelefonbuch.de/Celle/3-Schrott-J%C3%BCrgen-Friedhof-Celle-Holzh%C3%A4usen.html (Lead).]

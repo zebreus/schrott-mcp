@@ -28,6 +28,10 @@ Ungeklärter Seed-Lead „Yves Wedrich“ in Wernigerode. Weder konkrete Betrieb
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Ein aktueller Direktabruf des Branchenportals LokaleSchrottplatz zeigt für „Wedrich Yves Schrotthandel & Baumfällungen“ die Adresse Theodor-Fontane-Straße 9c, 38855 Wernigerode, Telefon +49 171 4588195 und Mo–Fr 07–17 / Sa 09–12. Das Portal nennt Eisen/Stahl (Mindestmenge 100 kg), NE-Metalle (u. a. Al, Cu, Edelstahl, Blei, Messing, Zink, Nickel, Zinn, Kabel; dort Mindestmenge 1 kg), Fahrzeuge und weitere Sorten. Es handelt sich um einen Branchenverzeichniseintrag, nicht um eine Betreiber- oder Registerquelle; daher weder Name/Kontakt/Adresse noch Annahmebedingungen in Frontmatter übernommen. **ANKAUF:** Sorten und Mindestmengen nur Portalangaben, keine numerischen Preise. **VERKAUF / GEBÜHREN:** keine verifizierten Preislisten/Tarife. Adresse als Geokodierungskandidat vormerken, nicht pinnen. Quelle: https://lokaleschrottplatz.de/wedrich-yves-schrotthandel-baumfallungen/ .]
+
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 
 - [Recherche 18.10.2026: Namenssuche Yves Wedrich über NorthData-Suggest heute HTTP 429, Google nur Consent und DuckDuckGo CAPTCHA; Bing-RSS lieferte sachfremde Yves-Treffer, keinen belastbaren Betreiberbeleg. Das ist ein Zugriffs-/Recherchelimit, kein Register-Negativnachweis. Mangels belastbarer Gegenstelle weder Namensvetter zugeordnet noch Anschrift/Kontakt ergänzt; status pruefung bleibt. Ankauf/Verkauf/Gebühren ohne verifizierte Zahlen. Nächster Belegschritt kommunale Gewerbeauskunft Wernigerode zu Name und Tätigkeit, danach konkrete Hof-/Mobilbedingungen und GEO klären. Quellen/Abrufversuche: https://www.northdata.de/suggest.json?query=Yves%20Wedrich&countries=DE ; https://html.duckduckgo.com/html/?q=%22Yves+Wedrich%22 ; https://www.google.com/search?q=%22Wedrich%22+%22Wernigerode%22 .]

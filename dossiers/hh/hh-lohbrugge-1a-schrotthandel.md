@@ -30,6 +30,10 @@ Die Identität „1A Schrotthandel“ am Seed-Standort Korachstr. 7 ist weiter u
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Der hamburg.de-Branchenbucheintrag nennt weiterhin unter Korachstraße 7, 21031, „1A Wohnungs und Keller entrümpeln/räumen“ – kein Schrotthandel und kein kommunaler Gewerberegisterauszug. Das ergänzend direkt gelesene Nochoffen-Portal setzt denselben Entrümpelungs-Eintrag mit Punkt 53.50980485, 10.2072414023; diese editierbare Portalposition ist kein verifizierter Händler- oder Betriebsstandort. Damit bleibt offen, ob die Seedzeile eine Verwechslung oder einen eigenständigen Betrieb meint. **ANKAUF / VERKAUF / GEBÜHREN:** keine zuordenbaren Preise. Keine Portal-Kontakte/Koordinaten übernommen, kein GEO. Quellen: https://www.hamburg.de/branchenbuch/hamburg/eintrag/10298354/ ; https://www.nochoffen.de/ .]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Zweiseitiger Adress-/Identitätscheck: Die einzeln abgerufene hamburg.de-Detailseite zur Korachstraße 7, 21031 Hamburg-Lohbrügge, heißt 1A Wohnungs und Keller entrümpeln/räumen und ist als Haushaltsauflösung/Entrümpelung eingeordnet; sie nennt 040 59370390 und andrea_anneliese@yahoo.de, aber keinen Betreiber mit Registerangaben und keinen Schrottplatz. Letzte ausgewiesene Aktualisierung 13.11.2025. Das kommerzielle Branchenbuch ist ein Lead, kein kommunaler Gewerberegisternachweis. Namens- und Adressgleichheit reicht nicht zur Gleichsetzung mit 1A Schrotthandel; Telefonnummer, E-Mail und Entrümpelungsleistungen werden nicht übernommen; Quelle(n): https://www.hamburg.de/branchenbuch/hamburg/eintrag/10298354/ (vollständiger Detailabruf 04.10.2026).]

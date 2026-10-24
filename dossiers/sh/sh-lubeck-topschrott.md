@@ -30,6 +30,10 @@ Kontakte/Zeiten nicht aus Portalen gefüllt; vorhandene Straße/PLZ als Alt-Lead
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Der direkt gelesene 11880-Eintrag zeigt Töpferweg 47, 23558 Lübeck, Telefon 0160 2630207, topschrott01@yahoo.de und Mo–Do 08–16 / Fr 08–13; die Seite weist einen Aktualisierungshinweis vom 10.10.2026, zugleich aber Datensatzdaten vom 15.06.2025 aus und erklärt, dass Eintragsdaten aus Fremdquellen stammen. Der Website-Link führt zu einem Branchenportal, nicht zu einer Betreiberseite. Daher kein Betreiber-/Aktivitätsnachweis und keine Änderung der bereits prüfungsbedürftigen Seed-Felder; „geschlossen bis Montag“ ist kein Nachweis dauerhafter Schließung. **ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Leistungen oder Preise. Kein neuer GEO-Punkt. Quelle: https://www.11880.com/branchenbuch/luebeck/060440092B100961638/topschrott-schrott.html .]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026: Quellenkritische Statuskorrektur aktiv zu pruefung: neue Suche und direkt gelesener11880-Detaillead liefern weiterhin keine primäre Betreiber-/Aktivitätsbestätigung. Portaladresse/Telefon/Zeiten kongruent zur Altrecherche, Website-Link wiederum ausschließlich Fremdverzeichnis; topschrott.de erneut Transportfehler ohne belegte Zuordnung. Am04.10. ausdrücklich nicht überschriebener Aktivstatus wird jetzt im Qualitätsauftrag anhand seiner dokumentierten reinen Verzeichnisbasis korrigiert. Keine dauerhafte Schließung/kein heutiger Ankauf oder neuer Kontakt behauptet; Seedstraße/PLZ bleiben unbestätigte Leads. Kein numerischer Ankauf-, Verkaufs- oder Gebührentarif gefunden; GEO erst nach Gewerbe-/Betreiber-/Annahmebestätigung. Quelle(n): https://www.11880.com/branchenbuch/luebeck/060440092B100961638/topschrott-schrott.html (nur Lead); https://topschrott.de/ (Transportfehler)]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wiesbaden-Dotzheim, Froschkönigweg 5, 65199 und 0177 3738669 sind durch ältere Branchenverzeichnis-Einträge belegt, aber nicht durch Betreiber- oder Registerquelle. Eine weitere Unternehmensdatenbank wiederholt Adresse und Telefon und liefert lediglich einen ungeprüften Kartenpin; sie erhöht die Quellenqualität nicht. Keine eigene Website oder belastbare Betreiberidentität gefunden. **ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Leistungen, Preise oder Tarife. Status `pruefung`; Adresse und Koordinaten bleiben unbestätigt.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Unternehmensdatenbank-Eintrag „Schrott & Altmetallhandel Winterstein“ wiederholt Froschkönigweg 5, 65199 Wiesbaden und 0177 3738669; die Seite zeigt als Kartenhinweis 50.069195, 8.180881. Das ist ein weiterer Aggregator, keine Betreiber-/Registerquelle und kein unabhängiger Standortnachweis; Koordinaten deshalb nicht in die Daten übernommen. Ähnliche Winter-Namen und Winter Metall- und Schrotthandel sind nicht als identisch belegt. ANKAUF/VERKAUF/GEBÜHREN und konkrete Preise nicht verifiziert; keine Feldänderung. Quelle: https://unternehmenindeutschland.org/41094-wiesbaden/12842316-schrott-and-altmetallhandel-winterstein]
 
 ### Recherche 02.10.2026
 

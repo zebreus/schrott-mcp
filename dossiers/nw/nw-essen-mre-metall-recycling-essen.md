@@ -4,7 +4,7 @@ name: MRE Metall Recycling Essen
 trader_type: metallhaendler
 state: NW
 city: Essen
-street: MRE Metall Recycling Essen Essen Bonifaciusring 5
+street: ''
 postcode: ''
 phone: ''
 email: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die live Betreiberseite beansprucht den Namen „MRE Metall Recycling Essen“ und nennt Bonifaciusring 5, 45309 Essen sowie Container von 5-40 m³ und An-/Verkauf von Schrott und NE-Metallen. Der Auftritt widerspricht sich intern: MRE/Familienbetrieb und Gründung 2011 stehen neben „Häde Metall Recycling Essen“ und fast 70 Jahren Unternehmensgeschichte; Startseite und Impressum nennen verschiedene Telefonnummern. Das Impressum enthält keine Handelsregisternummer. Daher bleibt die rechtliche Betreiberidentität offen; die Betreiberangaben sind nicht als unabhängig bestätigte Standort-/Kontaktdaten zu behandeln.
+Die live Betreiberseite beansprucht den Namen „MRE Metall Recycling Essen“ und nennt Bonifaciusring 5, 45309 Essen sowie Container von 5–40 m³ und An-/Verkauf von Schrott und NE-Metallen. Der Auftritt widerspricht sich intern: MRE/Familienbetrieb und Gründung 2011 stehen neben „Häde Metall Recycling Essen“ und fast 70 Jahren Unternehmensgeschichte; Startseite und Impressum nennen verschiedene Telefonnummern. Das Impressum enthält keine Handelsregisternummer. Daher bleibt die rechtliche Betreiberidentität offen; Bonifaciusring 5 ist nur ein Eigenangaben-Kandidat. Die frühere Frontmatter-`street`-Zeile vermischte Firmenname, Stadt und Straße und wurde geleert statt als Anschrift weiterzugeben.
 
 **Preise:** Ankauf: aktuelle Tagespreise laut Betreiber nur telefonisch; keine numerische Liste. Verkauf: keine separate Verkaufspreisliste gefunden. Gebühren: Containergrößen 5-40 m³ sind publiziert, Container-/Transportgebühren nicht. **Geocoding:** Bonifaciusring 5 bleibt ein Betreiberseiten-Kandidat und ist erst nach Klärung der Identitätswidersprüche als Pin zu übernehmen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Startseite, Impressum, Leistungs- und Preisliste direkt geprüft. Der Auftritt nennt MRE/„Häde Metall Recycling Essen“, Zakaria El Osman und Bonifaciusring 5, 45309 Essen, jedoch widersprüchliche Unternehmenshistorie (2011 gegenüber fast 70 Jahren) und Telefonnummern 0201 47616418 gegenüber 0176 61438885; kein HRB im Impressum. Die Leistungsseite bewirbt Ankauf von Eisen, Edelstahl, Kupfer, Messing, Kabel und Aluminium sowie Abbruch/Abholung/Container und Waagen, aber ohne numerische Ankaufspreise. Die „Preisliste“ trägt nur die Überschrift „Ankaufspreise frei Lager Essen“ und enthält keine Materialwerte. **Verkauf:** keine separate belastbare Preisliste. **Gebühren:** Containerangabe 5–40 m³ ist Volumen, kein Tarif; keine Pickup-/Entsorgungspreise. Identität/Adresse bleiben ungeklärt; die frühere fehlerhafte `street`-Zeile (Firmenname + „Essen“ + Bonifaciusring 5) wurde aus dem strukturierten Adressfeld entfernt; Betreiberadresse bleibt als nicht bestätigter Kandidat im Überblick. Status pruefung, kein GEO. Quellen: https://mre-essen.de.tl/ ; https://mre-essen.de.tl/Impressum.htm ; https://mre-essen.de.tl/Unsere-Leistungen.htm ; https://mre-essen.de.tl/Preisliste.htm.]
 
 ### Recherche 06.10.2026
 

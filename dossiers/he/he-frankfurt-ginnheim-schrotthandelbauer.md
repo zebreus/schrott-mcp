@@ -30,6 +30,10 @@ Die vorhandene Domain war erneut nicht auswertbar (Transportfehler). Das ist kei
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Neue Suche nach Schrotthandelbauer/Frankfurt-Ginnheim und der eingetragenen Telefonnummer brachte keinen eindeutig passenden, neu prüfbaren Betreiber- oder Registerbeleg. Der Direktabruf von https://schrotthandelbauer.de/ war weiterhin nicht auswertbar (Transportfehler); daraus folgt weder 404 noch Betriebsschließung. Der bestehende Portalhinweis 01772614891 bleibt unbestätigt; andere „Bauer“-Treffer wurden mangels Orts-/Identitätsbrücke nicht zugeordnet. Keine aktuelle Ankauf-, Verkaufs- oder Gebührenliste; Felder/Status und fehlender GEO-Beleg unverändert. Quellen/Abrufgrenze: https://schrotthandelbauer.de/ ; historischer Portalhinweis: https://www.11880.com/branchenbuch/eschborn-taunus/060440092B102010443/alexander-pfaff-schrotthandel.html]
+
 ### Recherche 19.10.2026: Welle 03:30 B
 
 - [Recherche 19.10.2026: HTTPS-Domain wieder nur Transportfehler; historische Webador404 vom03.10. heute nicht nachgemessen, Altstatus tot bleibt historische Einstufung. Keine Aussage zur Betriebsaufgabe. Im direkt gelesenen Pfaff-Verzeichnis erscheint Schrotthandelbauer als verwandter Anbieter, aber dies ist nur erneute Portalverlinkung, kein unabhängiger Betreiber-/Kontaktbeleg. Keine Zusammenführung mit Bauer/Speyer oder anderen Bauer-Namensvettern; Telefonnummer01772614891 nicht primär bestätigt. Ankauf/Verkauf/Gebühren ohne zugeordnete Liste; Sitz/mobiles Einsatzgebiet und Inhaber vor GEO klären. Quelle/Abrufgrenze: https://schrotthandelbauer.de/ ; Leadverknüpfung: https://www.11880.com/branchenbuch/eschborn-taunus/060440092B102010443/alexander-pfaff-schrotthandel.html .]

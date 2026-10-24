@@ -33,6 +33,10 @@ Passender Betreiber-Einzelbeleg für MVM – Metallverwertung Mudrow in Hameln g
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Startseite und Bildwerbung erneut direkt abgerufen. Seite bleibt erreichbar, aber bildbasiert/undatiert; deshalb ist dies kein neuer Beleg für die Aktualität der Annahmebedingungen oder Öffnungszeiten. Impressum nennt weiterhin Langes Feld 16, 31789 Hameln-Afferde, während Werbegrafik 31785 nennt. Kein Register-/Gewerbe-Zweitbeleg und keine Auflösung des PLZ-/Identitätskonflikts. **Ankauf:** Bildwerbung nennt vergütete Annahme ausgewählter Metalle/Kabel, ohne numerische Kurse; weitere dort genannten nicht vergüteten Fraktionen bleiben davon getrennt. **Verkauf:** Grafik sagt „Kein Materialverkauf“. **Gebühren:** keine belastbaren Abhol-/Containerpreise oder Gratisbedingungen. Keine Frontmatter-/GEO-Änderung. Quellen: https://www.mvm-hameln.de/ ; https://www.mvm-hameln.de/Impressum.htm ; https://www.mvm-hameln.de/mvm-seite.jpg.]
+
 ### Recherche 20.10.2026 — Eigenrecherche
 
 - [Recherche 20.10.2026: Der Direktabruf der Betreiber-Startseite liefert weiterhin eine bildbasierte Seite mit `mvm-seite.jpg` und Links auf Impressum/Datenschutz, aber keine textlich datierten Betriebsinformationen. Die frühere visuelle Prüfung der Grafik und der kommunale Beleg vom 14.10. bleiben die dokumentierte Sachbasis; der heutige Seitenabruf datiert die Grafik nicht neu und löst den PLZ- oder Identitätsfall nicht. Kein neuer Register-/Gewerbebeleg und keine Frontmatteränderung. Preisstand unverändert: Ankauf ohne Zahlen, kein Materialverkauf, keine Gebührenliste; GEO weiterhin offen. Quelle(n): https://www.mvm-hameln.de/ ; https://www.mvm-hameln.de/mvm-seite.jpg.]

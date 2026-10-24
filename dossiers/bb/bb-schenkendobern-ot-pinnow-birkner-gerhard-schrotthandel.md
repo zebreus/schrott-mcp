@@ -28,6 +28,10 @@ Gerhard Birkner Schrotthandel wird von Telefonbuch/Gelben Seiten mit Mühlenstr.
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Zusätzliches Portalprofil „Schrott Birkner Gerhard Schrotthandel“ wiederholt Mühlenstr. 12, 03172 Pinnow; es liefert weder eine Betreiberquelle noch zusätzliche Preis-/Leistungsdetails oder einen belastbaren Registerbeleg. Die Telefonnummer, Öffnungszeiten und aktuelle öffentliche Annahme bleiben wie zuvor nur Verzeichnisangaben. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierte Preisliste/Tarife. Kein Feld-Fill und kein GEO bis zur Betreiberbestätigung. Quelle (Aggregator-Lead): https://www.schrottplatz.org/guben/schrott-birkner-gerhard-schrotthandel-aYEPYK.html]
+
 ### Korrektur 06.10.2026
 
 - [Korrektur 06.10.2026: Die vorhandenen Recherchevermerke vom 02.10. und 04.10.2026 bestätigen, dass Adresse/Telefon nur aus Das Telefonbuch, Gelbe Seiten und Infobel stammen und keine Betreiberwebsite oder Registerbestätigung gefunden wurde. Verzeichniskonsens ist nach README-Quellenhierarchie kein unabhängiger Aktivitätsbeleg; status daher aktiv → pruefung, ohne Schließung zu behaupten. Adress- und Telefonwerte bleiben vorläufige Leads; keine Geokodierung bis zur Betreiberbestätigung. Keine öffentlich belegte Ankauf-, Verkaufs- oder Gebührenliste. Quelle(n): https://adresse.dastelefonbuch.de/Schenkend%C3%B6bern/3-Schrott-Gerhard-Birkner-Schenkend%C3%B6bern-M%C3%BChlenstr.html ; https://www.gelbeseiten.de/gsbiz/652cdb96-6909-4958-a317-b034cedf341b (Verzeichnisse; Recherchevermerke im Dossier).]

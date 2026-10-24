@@ -29,6 +29,10 @@ Registerkandidat Müller Metallankauf GmbH, AG Köln HRB 48784, Metzholz 68, 427
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Northdata-Firmenprofil der Müller Metallankauf GmbH, AG Köln HRB 48784, direkt erneut geprüft. Es weist Metzholz 68, 42799 Leichlingen aus und nennt eine am 05.09.2024 veröffentlichte Änderung des Unternehmensgegenstands (Altmetallhandel, Containerdienst, Materialien, Abbruch); der sichtbare GF-Eintrag Axel Müller stammt von 2003 und bestätigt keine heutige Geschäftsführung. Kein aktueller eigener Standortauftritt/Annahmebeleg neu gefunden. Das Container-Müller-Impressum gehört weiterhin zu Müller Containerdienst GmbH, HRB 99637, Leverkusen, ohne bewiesene Verbindung. **Ankauf:** keine aktuellen Konditionen/Kurse. **Verkauf:** keine Liste. **Gebühren:** keine zugeordneten Tarife. Status pruefung, leere Kontaktfelder und GEO-Sperre bleiben; Registeranschrift ist nicht automatisch öffentlicher Annahmepunkt. Quellen: https://www.northdata.de/M%C3%BCller%20Metallankauf%20GmbH,%20Leichlingen/Amtsgericht%20K%C3%B6ln%20HRB%2048784 ; https://www.container-mueller.de/impressum/.]
+
 - [Owner-Korrektur 10.10.2026: Explizite Seed-Direktive clear_fields für phone ergänzt, damit die zurückgenommene unbestätigte Nummer nach geprüfter Veröffentlichung durch den normalen Seed auch im Bestand geleert wird. Kein leerer Dossierwert als vermeintlicher DB-Löschnachweis. Neue nichtleere Beschreibung bewahrt den Prüfvorbehalt; alte Werte unten erhalten. Keine direkte Produktionsmutation, GEO-Löschung oder Schließungsbehauptung. Grundlage: docs/trader-seed.md; research/checkin-20261010-waveD-nordwest-owner-gate.md.]
 
 ### Recherche 09.10.2026 / Korrektur 10.10.2026

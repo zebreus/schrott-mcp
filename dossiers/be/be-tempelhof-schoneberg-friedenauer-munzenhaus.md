@@ -28,6 +28,10 @@ Die direkt gelesene Verbandsliste und Mitglied-Detailkarte führen Alexander Gay
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: PCGS Authorized Dealers führt „Alexander Gayck Muenzenhandel“ an Bundesallee 91, 12161 Berlin-Friedenau, mit zwei Telefonnummern (0171 3683214 und 01522 7092650), a.gayck@web.de, Öffnungszeiten Mi–Fr 12–17/Sa 12–15, Wholesale sowie Buying and Estate Liquidation und Münz-/Bullion-Spezialisierung. Dies ist ein Händlerverzeichnis, keine Betreiber-/Registerquelle und nennt den Seed-Geschäftsnamen „Friedenauer Münzenhaus“ nicht; daher keine Identitätsbestätigung oder Änderung der bestehenden Kontaktdaten. Telefonnummern weichen von bisherigen Quellen ab. Keine konkreten Ankaufkurse, Verkaufspreise oder Gebühren; PCGS-/Spotwerte sind keine Laden-Ankaufkurse. Quelle: https://www.pcgs.com/dealers/details/3527/5]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Gelbe-Seiten-Profil direkt gelesen: Geschäftstitel „Friedenauer Münzenhaus“, Bundesallee 91, 12161 Berlin-Friedenau, Tel. 030 85 40 60 40. Das Profil listet Mi–Fr 11:00–18:00, Sa 11:00–15:00 und Termine nach Vereinbarung; Leistungsbegriffe umfassen Münzhandel/-ankauf sowie Gold-/Silberankauf. Das ist ein Aggregatorprofil, kein Betreiber- oder Registerbeleg und keine Preis-/Kursliste. Die eigenständige Verbandsquelle führt Alexander Gayck an derselben Adresse/Telefonnummer und Münzankauf, verknüpft aber nicht ausdrücklich mit diesem Geschäftsnamen; Quellen dürfen deshalb nicht als vollständige Identitätsbestätigung oder voneinander unabhängige Unternehmensbelege überdehnt werden. Keine Feldänderung. ANKAUF: Münz-/Edelmetallankauf als Quellenangabe, keine Kurse; VERKAUF: keine Materialpreise; GEBÜHREN: keine Tarife. GEO erst nach Inhaber-/Geschäfts- und Kundenstandortbestätigung. Quellen: https://www.gelbeseiten.de/gsbiz/480a015a-c480-49d4-8caf-2d9d6aee55e1 (Aggregator-Lead); https://www.muenzenverband.de/suchergebnis/?pdb=2598 (Mitgliederangabe).]

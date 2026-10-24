@@ -30,6 +30,10 @@ Preise und öffentliche Annahme für die Seed-Identität bleiben offen; keine ge
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Erneute Namens-/Ortsgegenprüfung bestätigt als belastbaren positiven Fund weiterhin nur Ricardo Künstler / RK Demontage und Recycling in Darmstadt: das eigene Impressum nennt Michaelisstraße 82, Darmstadt; die Leistungsseite beschreibt dort Recycling/Metallankauf. Kein unabhängiger Beleg verbindet diesen Betrieb mit dem Seed-Lead Weiterstadt-Gräfenhausen. Daher weder Adresse, Telefon, Preise noch Leistungen auf den Seed übertragen; Identität und öffentliche Annahme bleiben ungeklärt. Quellen (Betreiberseiten, Darmstadt-Kandidat): https://rk-demontage.de/impressum/ ; https://rk-demontage.de/recycling/]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Namens-/Ortsgegenprobe findet Ricardo Künstler, RK Demontage und Recycling, Michaelisstraße 82, 64293 Darmstadt, 0172 6661993, info@rk-demontage.de im direkt gelesenen Impressum. Die Recyclingseite nennt dieselbe Annahmestelle, Metallankauf, kostenlose Abholung und Container. Keine Weiterstadt-/Gräfenhausen-Verbindung belegt: keine Attribution/Umbenennung/Adressfüllung; status pruefung bleibt. website_status tot → unbekannt, weil keine Domain in diesem Dossier hinterlegt oder als tote Betreiberwebsite verifiziert ist; das sagt nichts über Betriebsschließung aus. Quellen: https://rk-demontage.de/impressum/ ; https://rk-demontage.de/recycling/ .]

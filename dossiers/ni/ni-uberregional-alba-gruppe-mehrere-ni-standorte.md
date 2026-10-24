@@ -32,6 +32,10 @@ Die einzeln gelesene Metall-Standortseite Wilhelmshaven nennt Emsstrasse 29, 263
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: ALBA-Standortübersicht und Wilhelmshavener Detailseite live erneut gelesen. Konzernübersicht unterscheidet ALBA Braunschweig, ALBA Niedersachsen-Anhalt und ALBA Metall Nord; nur die Metall-Nord-Detailseite qualifiziert konkret den Standort Wilhelmshaven als Metallannahme: Emsstraße 29, 26382 Wilhelmshaven, 04421 4020, Mo–Do 07:30–16:30, Fr 07:00–14:45, Privat-/Gewerbekunden sowie Sofortauszahlung für private Kleinstmengen. Beschrieben werden Eisen, Kupfer, Aluminium, Messing und Kabel. Kein numerischer Ankaufskurs; Absatzsorten sind keine Verkaufspreise; Container 7–36 m³ sind Volumen, keine Gebühren. Keine zentralen Werte auf das Konzern-Sammeldossier übertragen, keine neue Betreiberkette/Filiale und kein Sammel-GEO. Quellen: https://www.alba.info/standorte/ ; https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-wilhelmshaven/ ; https://metall.alba.info/verkauf/.]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Konzernliste, Metall-Standortliste und NI-Metall-Detail Wilhelmshaven einzeln live gelesen. Metallliste hat 13 Standorte, darunter Wilhelmshaven; Detail nennt Emsstrasse 29, 26382, +49 4421 4020, amn.wilhelmshaven@alba.info, Mo–Do 7:30–16:30, Fr 7:00–14:45, Sa geschlossen, Privat-/Gewerbekunden und Kleinstmengen gegen sofortiges Entgelt; früher Jade-Stahl ausdrücklich angegeben. Kein neuer unabhängiger Nachfolgebeleg, ältere Kette nicht neu als verifiziert ausgegeben. Konzernliste unterscheidet Braunschweiger Zentrale Frankfurter Straße 251, Kunden-/Umweltzentrum Karrenführerstraße 1–3 und mehrere Anlagen/Betriebsstätten; nicht pauschal als Metallankaufplätze übernehmen. Website_status leer → aktiv nach tatsächlichem Abruf; Sammeladresse/GEO bleiben leer. Quellen: https://www.alba.info/standorte/ ; https://metall.alba.info/unternehmen/standorte/ ; https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-wilhelmshaven/.]

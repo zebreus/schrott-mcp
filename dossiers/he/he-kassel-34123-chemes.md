@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: eBay-Shop CHEMES-AUTOVERWERTUNG direkt erneut geprüft, https://www.ebay.de/str/chemesautoverwertung (Handle chemes_autoverwertung_kassel). Such-/Shopansicht zeigt aktuell etwa 99,6 % positives Feedback, 396 verkaufte Artikel und 36 Follower; die Zähler weichen vom früheren Abruf ab und sind dynamische Plattformwerte, kein stabiler Betriebsnachweis. Gebrauchte Fahrzeugteile werden angeboten, aber der Shop weist keine hier verifizierte Betreiberadresse/Rechtsidentität auf und ist nicht mit dem unaufgelösten Seed „CHEMES“, Kassel 34123, verbunden. ANKAUF: kein Schrott-/Metallkurs; VERKAUF: Shopangebote nur für unverbundene Identität, keine Zielpreise; GEBÜHREN: keine Angaben. Felder unverändert, kein GEO. Quelle: https://www.ebay.de/str/chemesautoverwertung]
+
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: eBay-Shop „CHEMES-AUTOVERWERTUNG“, Handle chemes_autoverwertung_kassel, direkt geprüft: zum Abrufzeitpunkt 99,6 % positive Bewertungen, 413 verkaufte Artikel, 37 Follower und Angebote gebrauchter Fahrzeugteile (u. a. Opel-Astra-J-Heckklappe 79,90 €, VW-Golf-5-Plus-Stoßfänger 99,90 €). Der Shop zeigt keine im Abruf verifizierbare Adresse/Rechtsidentität; eBay-Impressum/Über-uns-Abruf wurde durch Identitätsabfrage blockiert. Es gibt keinen Beleg, dass der Shop mit dem unaufgelösten Kasseler Seed „CHEMES“ (34123) identisch ist. Beispielpreise sind daher ausschließlich Kandidaten-Verkaufspreise für Gebrauchtteile, keine Zielpreise und keine Ankaufkurse für Schrott. ANKAUF: kein Kurs; VERKAUF: nur die nicht zugeordneten Shopangebote; GEBÜHREN: keine Angaben. Keine Frontmatter-Änderung, kein GEO-Pin. Quelle: https://www.ebay.de/str/chemesautoverwertung (Kandidat, Identität offen).]

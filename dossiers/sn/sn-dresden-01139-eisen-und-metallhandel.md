@@ -30,6 +30,10 @@ Die Seedzeile ordnet „Eisen- und Metallhandel GmbH“ der Treidlerstr. 3, 0113
 
 ## Timeline
 
+### Recherche 24.10.2026: Wave 20261024-0000-C
+
+- [Ein Gelbe-Seiten-Detailtreffer führt „Eisen-und Metallhandel GmbH“ unter Treidlerstraße 3, 01139 Dresden-Mickten, Telefon 0351 7954622-0, Kategorie Metallwaren. Die Quelle ist ein Branchenverzeichnis und belegt weder den damaligen Rechtsträger noch eine aktuelle Schrottannahme. Die Adresse wird aktuell von Heliatek GmbH belegt (deren Impressum nennt HRB 24834; Historie: Hauptsitz dort 2012–2017, Produktion seit 2018/2019); keine Verbindung/Umfirmierung/Schließung der Seed-Firma ist bewiesen. **ANKAUF / VERKAUF / GEBÜHREN:** keine seedbezogenen Preise oder Leistungen. Keine Kontaktdaten übernommen, status `pruefung`, kein GEO. Quellen: https://www.gelbeseiten.de/gsbiz/93b9e1cc-94a0-4d04-95b0-17a9ee9889d1 ; https://www.heliatek.com/de/impressum ; https://www.heliatek.com/de/unternehmen/ueber-uns .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Aktuelle Gegenprüfung der Seedadresse über Heliatek-Primärquellen: Impressum nennt Heliatek GmbH, Treidlerstraße 3, 01139 Dresden, HRB 24834 AG Dresden und Geschäftsführer Guido van Tartwijk. Die Unternehmenshistorie erklärt, Heliatek habe den Hauptsitz 2012–2017 an den heutigen Standort in der Treidlerstraße verlegt; seit 2018 Produktionsanlage, 2019 Serienfertigung. Das belegt einen heutigen anderen Adressnutzer, aber weder den früheren Rechtsträger noch Schließung, Umfirmierung oder Nachfolge der Seed-„Eisen- und Metallhandel GmbH“. Keine Kontakt-/Websiteübernahme, kein Statuswechsel und kein GEO. Ankauf/Verkauf/Gebühren für das Seedunternehmen unbekannt. Quellen: https://www.heliatek.com/de/impressum ; https://www.heliatek.com/de/unternehmen/ueber-uns .]
