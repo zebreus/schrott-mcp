@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Gelbe-Seiten-Eintrag führt A.F.W. Recycling als Containerdienst in Außerhalb 21, 64832 Babenhausen und listet unter anderem Alteisen, Altmetall, Aluminium, Bauschutt, Brennschrott, Buntmetalle und Kupfer sowie Recycling-, Abbruch-, Demontage- und Containerleistungen. Das bleibt ein Aggregator-Lead: kein Betreiberauftritt oder Registerbeleg. Weiterhin ungelöst ist der Adresskonflikt mit einem Verzeichniseintrag „Außerhalb 24“; auch die früher notierte Bachstraße-9-Firma ist nicht zugeordnet. Keine dieser Tätigkeiten wird als bestätigte Kundenannahme übernommen.
+
+**ANKAUF:** Branchenrubrik/„Ankauf“ in Verzeichnisfeldern, aber kein belegter Ankauf oder Kurs. **VERKAUF:** keine Produktpreisliste. **GEBÜHREN:** keine Tarifliste. Hausnummer klären, bevor die Adresse geokodiert wird.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Gelbe Seiten einzeln geöffnet; der Eintrag nennt Außerhalb 21, 64832 Babenhausen, Tel. 0162 4857522, sowie ein breites Leistungs-/Materialvokabular (u. a. Altmetall, Alu, Kupfer, Bauschutt, Brennschrott, Autorecycling, Batterierecycling, Container, Demontage). Das sind katalogisierte Verzeichnisangaben, keine Betreiberbestätigung; „Ankauf“ in der Branchen-/Leistungsrubrik liefert weder Annahmebedingungen noch Preis. Frühere Hausnummer 24 bei firmen-vergleich.de bleibt ein nicht gelöster Gegenlead; Bachstraße 9 bleibt ungeklärt und wird nicht zusammengeführt. ANKAUF/VERKAUF/GEBÜHREN: keine numerischen Listen. Keine Felder gefüllt; GEO erst nach Adress- und Betreiberklärung. Quelle: https://www.gelbeseiten.de/gsbiz/d4317179-835b-491b-b113-b5a716b1bb7a ; Gegenlead: https://www.firmen-vergleich.de/ .]
 
 ### Recherche 04.10.2026
 

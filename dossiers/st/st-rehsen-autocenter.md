@@ -34,6 +34,10 @@ Ein mobile.de-Händlerprofil-Suchergebnis verbindet A.S.M. Automobile GmbH mit �
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Suchindex des mobile.de-Händlerprofils führt weiterhin „A.S.M. Automobile GmbH : AUTOCENTER REHSEN AUTOVERWERTUNG“ an der Rehsener Straße 31 und zeigt eine einzelne Gebrauchtwagenanzeige (Fiat Panda, 3.900 €); Direktabruf des Händlerprofils bleibt HTTP 403, Anzeige-/Impressumsdetails daher nicht direkt geprüft. Das ist höchstens ein Einzelangebot im Fahrzeugverkauf, keine Teilepreisliste und kein Altauto-Ankaufkurs; es bestätigt auch keine öffentliche Annahme für Schrott. ANKAUF: kein Fahrzeug-/Schrottkurs. VERKAUF: ein indexiertes Fahrzeugangebot, keine belastbare Produktpreisliste. GEBÜHREN: keine Verwertungs-/Abschlepptarife. GEO: Rehsener Straße 31, 06785 Oranienbaum-Wörlitz OT Rehsen bleibt Register-/Marktplatz-Kandidat; erst nach Betreiber-/Hofbestätigung geokodieren. Quellen: https://home.mobile.de/ABAUTOMOBILEBERLIN3 (Suchindex, Direktabruf 403) ; https://www.northdata.de/A%C2%B7S%C2%B7M%C2%B7%20Automobile%20GmbH,%20Oranienbaum/Amtsgericht%20Stendal%20HRB%2030581 .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Eine aktuelle Suchindex-Ausgabe des mobile.de-Händlerprofils führt weiterhin „A.S.M. Automobile GmbH : AUTOCENTER REHSEN AUTOVERWERTUNG“, Rehsener Straße 31, 06785 Oranienbaum-Wörlitz OT Rehsen und +49 176 22585772. Der Profil-Direktabruf scheitert weiterhin mit HTTP 403; Impressum, Angebotsaktualität und Annahmebedingungen nicht gelesen. Das wiederholt den Zuordnungslead, ersetzt weder Register-/Betreiberbestätigung noch belegt es eine öffentliche Schrottannahme. Keine Kontakt-/Adress-Fills oder GEO; status `pruefung`. ANKAUF: kein Kurs; VERKAUF: keine aktuelle Teilepreisliste; GEBÜHREN: keine Verwertungs-/Abholtarife. Quelle: https://home.mobile.de/ABAUTOMOBILEBERLIN3 (Suchindex-Ausgabe, Direktabruf 403); Registerhistorie siehe https://www.northdata.de/A%C2%B7S%C2%B7M%C2%B7%20Automobile%20GmbH,%20Oranienbaum/Amtsgericht%20Stendal%20HRB%2030581 .]

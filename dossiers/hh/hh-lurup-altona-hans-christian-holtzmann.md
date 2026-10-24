@@ -30,6 +30,10 @@ Der Seed führt Hans-Christian Holtzmann am Lüdersring 39. Eine direkt geöffne
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Eigenständige Suche fand weiterhin nur Schrottplatz.org, Schrottplatz-Info und B2B-Branchenverzeichnis mit derselben Spur Lüdersring 39, 22547 Hamburg, 040 843444. Die Mehrfachlistung bestätigt keine Betreiberidentität, aktuelle Tätigkeit oder Annahmestelle und kann auf denselben Verzeichnisdatensatz zurückgehen. ANKAUF: keine Betreiberbestätigung/Kurse. VERKAUF: keine Teile-/Materialliste. GEBÜHREN: keine Angaben. GEO: Lüdersring 39 ist ein ungeprüfter Kontakt-/Privatstandort; vor Bestätigung nicht als öffentlicher Schrottplatz geokodieren. Keine Frontmatter-Änderung. Quellen: https://www.schrottplatz.org/hamburg/schrott-holtzmann-hans-christian-schrott-und-metalle-aYEPVj.html ; https://www.schrottplatz-info.de/schrottplatz/Hamburg/Holtzmann-Hans-Christian-Schrott-und-Metalle ; https://b2b.marktplatzapp.de/anbieter/holtzmann-hans-christian-schrott-und-metalle .]
+
 ### Belegprüfung 18.10.2026
 
 - [Recherche 18.10.2026: Im vorliegenden Dossierbestand kein qualifizierter Betreiber-/Registerbeleg für Hans-Christian Holtzmann am Lüdersring 39 dokumentiert. Die historisch notierte Portalangabe 22547/040 843444 bleibt ein unbestätigter Lead; keine Kontakt- oder Aktivitätsbestätigung. Keine zuordenbare Betreiberliste für Ankauf, Verkauf oder Gebühren im Dossier belegt. Frontmatter und status pruefung unverändert. Der Direktabruf der allgemeinen Registerstartseite im unabhängigen Review ist kein firmenspezifischer Suchbefund; ein erneuter Suchlauf am 12.10. wurde in dieser Prüfung nicht verifiziert. Quelle(n): Dossierhistorie 07.10.2026; https://www.handelsregister.de/rp_web/welcome.xhtml (nur Startseite, Abruf im Review 18.10.2026).]

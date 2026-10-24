@@ -4,18 +4,18 @@ name: Schrotthändler Plus
 trader_type: schrotthaendler
 state: NW
 city: Bochum-Wattenscheid
-street: Hochstr. 28
+street: ''
 postcode: ''
-phone: ''
-email: ''
+phone: 0157 36548705
+email: info@schrotthaendler-plus.de
 opening_hours: ''
-website: ''
-website_status: unbekannt
-status: pruefung
-description: ''
+website: https://www.schrotthaendler-plus.de/
+website_status: aktiv
+status: aktiv
+description: 'Mobiler Schrottankauf und Schrottabholung in Bochum einschließlich Wattenscheid; Termine am Wunschort. Keine öffentliche stationäre Annahmeadresse belegt.'
 dropoff_json: ''
-pickup_json: ''
-provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
+pickup_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Mobile Schrottabholung/Ankauf in Bochum einschließlich Wattenscheid nach Terminvereinbarung. Betreiberseite bewirbt Abholung, Verladen und Demontage als kostenlos, nennt aber keine Mindestmenge; das undatierte XING-Profil nennt kostenlose Entsorgung ab 500 kg. Kostenfreiheit/Mindestmenge daher im konkreten Angebot bestätigen; kein stationärer Annahmepunkt veröffentlicht."}'
+provenance_section: Neu, mobile Ankauf-/Abholwerbung auf Betreiberseite; Mindestmenge/Kosten im Einzelfall prüfen
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table
 ---
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-**Konkreter Domainlead, aktuell nicht verifizierbar:** Das direkt gelesene GoLocal-Profil „Schrottabholung Bochum und Umgebung“ an Hochstr.28, 44866 Bochum, 0157 36548705 verlinkt info@schrotthaendler-plus.de und https://www.schrotthaendler-plus.de/schrottabholung-bochum ; Profiladresse laut Portal von Nutzer `issam175` gemeldet. Domain-Root liefert403, Leistungs-/Impressumspfad404. Keine aktuelle Betreiberidentität/Annahmestelle aus diesen Abrufen ableitbar; alte PR-Nennung Issam EL-Lahib bleibt ein historischer Lead, nicht heutiger Gewerbenachweis.
+Der aktuelle Betreiberauftritt ist direkt erreichbar und nennt im Impressum Issam EL-Lahib, Vorstadtstraße 65, 44866 Bochum sowie den Kontakt `0157 36548705` / `info@schrotthaendler-plus.de`. Eine separate Bochum-Leistungsseite bewirbt mobile Schrottabholung in Bochum und ausdrücklich Wattenscheid. Der Standort Vorstadtstraße 65 ist im Impressum eine Kontakt-/Rechtsanschrift; ein Schrottplatz oder öffentliche Anlieferung dort ist nicht belegt. Die frühere Adresse Hochstr. 28, 44866 stammt aus einem GoLocal-Lead und wird deshalb aus dem strukturierten Straßenfeld zurückgenommen. XING führt ein Profil Issam el Lahib mit „Schrotthändler Plus“ und „Schrottabholung Bochum“; es stützt die Personen-/Markenverbindung, enthält aber eine undatierte ältere Mindestmenge ab 500 kg für kostenlose Entsorgung.
 
-Zusätzliche Portaladressen Hochstr.25 bzw. Vorstadtstr.65 sind ungeklärte Widerspruchs-/Umzugsleads, kein Freibrief für Ortswechsel. Seedstraße erhalten, PLZ/Kontakte/Website bleiben leer. Abholung versus stationäre Annahme und heutiger Betreiber müssen vor GEO geklärt werden. Keine verifizierte Ankauf-/Verkaufs-/Gebührenliste; „kostenlos“ aus PR nicht als generelle Kondition übernehmen. Quelle (Lead): https://www.golocal.de/bochum/schrotthandel/schrottabholung-bochum-umgebung-M371X/ ; Abrufgrenzen: https://www.schrotthaendler-plus.de/ ; https://www.schrotthaendler-plus.de/impressum
+**Preise und Leistungen:** Ankauf erfolgt laut Betreiber mobil, zu tagesaktuellen und nach Art, Menge und Qualität variierenden Preisen; ein unverbindliches Angebot wird auf Anfrage erstellt, Bar- oder Überweisungszahlung genannt. Keine Zahlenliste. Verkauf: keine öffentliche Materialpreisliste. Gebühren: aktuelle Bochum-Seite bewirbt Abholung/Verladen und Demontage als kostenlos; das ältere, undatierte XING-Profil nennt kostenlose Entsorgung erst ab 500 kg. Keine einheitliche Mindestmenge/Tarifordnung veröffentlicht; Gratisumfang vor Termin bestätigen. **GEO-Bedarf:** Vorstadtstraße 65, 44866 ist keine bestätigte Kundenannahme; Hochstr. 28 und Hochstr. 25 bleiben Portal-Leads. Keine dieser Anschriften als Schrottplatz geokodieren, bis ein tatsächlicher Kunden-/Hofstandort belegt ist. Quellen: https://www.schrotthaendler-plus.de/impressum/ ; https://www.schrotthaendler-plus.de/schrottabholung-bochum/ ; https://www.schrotthaendler-plus.de/schrottankauf-nrw/ ; https://www.xing.com/profile/issam_ellahib ; https://www.golocal.de/bochum/schrotthandel/schrottabholung-bochum-umgebung-M371X/ (Lead).
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Die Operatorseiten waren direkt wieder erreichbar (aktuelle Abrufe HTTP 200; die früheren 403/404-Befunde vom 11.–18.10. bleiben historische Abrufstände, kein Beleg einer Geschäftsaufgabe). Impressum nennt Issam EL-Lahib, Vorstadtstraße 65, 44866 Bochum; die Kontaktseiten nennen 0157 36548705 und info@schrotthaendler-plus.de. Die Bochum-Seite deckt ausdrücklich Wattenscheid ab, beschreibt Abholung am Wunschort und sagt, Kundinnen/Kunden müssten nicht zu einem stationären Schrotthändler fahren. Das Impressum belegt nur die Rechts-/Kontaktanschrift, keine Annahmestelle; GoLocal-Hochstr. 28 ist nicht als Betriebsadresse bestätigt und wurde aus `street` entfernt. Die XING-Selbstdarstellung nennt Issam el Lahib, Schrotthändler Plus/Schrottabholung Bochum und Bochum; sie stützt die Marken-/Personenverbindung, ist aber undatiert und beschreibt kostenlose Entsorgung ab 500 kg. Die aktuellen Betreiberseiten werben für Bochum ohne sichtbare Mindestmenge mit kostenloser Abholung/Verladen/Demontage; wegen des älteren XING-Widerspruchs die Mindestmenge und Kostenfreiheit im Einzelangebot bestätigen. Ankauf: tagesaktuelle, nach Materialart/-menge/-qualität variierende Angebote, Bargeld oder Überweisung, keine Zahlenliste. Verkauf: keine Materialpreisliste. Gebühren: kein Zahlen-/Gebührenblatt, nur obige widersprüchliche Gratiswerbung. Frontmatter um bestätigte Betreiberkontakte/Website und mobile Pickup-Eigenschaft ergänzt, Website/Status aktiv; kein Straßen-/PLZ-Fill, keine Öffnungszeiten als Hofzeiten, kein GEO und keine stationäre Drop-off-Angabe. Quellen: https://www.schrotthaendler-plus.de/impressum/ ; https://www.schrotthaendler-plus.de/schrottabholung-bochum/ ; https://www.schrotthaendler-plus.de/schrottankauf-nrw/ ; https://www.xing.com/profile/issam_ellahib ; https://www.golocal.de/bochum/schrotthandel/schrottabholung-bochum-umgebung-M371X/ (Portal-Lead).]
 
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2
 

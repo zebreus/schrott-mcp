@@ -31,6 +31,10 @@ Gelbe Seiten und 11880 führen als Verzeichnis-Leads CE Schrotthandel / E. Kocha
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Detailseite direkt gelesen: CE Schrotthandel, Dirminger Str. 2, 66646 Marpingen-Berschweiler, 06827 9027620; Datenstand 22.10.2025/Änderung 01.11.2025, keine Website, E-Mail oder Öffnungszeiten und keine Inhaberbestätigung sichtbar. Eine Suche findet weitere Verzeichnisse, aber keine Betreiber-/Register-/Kommunalquelle. Das genügt nicht zur Frontmatter-Aufwertung; Öffnungszeiten/Materiallisten aus automatisch erzeugten Schrottplatzportalen wurden nicht übernommen. ANKAUF: keine belastbare Annahme-/Preisbestätigung. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. GEO: Dirminger Str. 2 bleibt ungeprüfter Kandidat; nicht als Annahmestelle geokodieren. Quelle: https://www.11880.com/branchenbuch/marpingen/B107213437/ce-schrotthandel.html (Verzeichnis-Lead).]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: 11880-Detail direkt gelesen; es führt CE Schrotthandel an Dirminger Str. 2, 66646 Marpingen-Berschweiler, 06827 9027620, ohne E-Mail, Website oder Öffnungszeiten. Der Eintrag weist als Datenstand 22.10.2025/Änderung 01.11.2025 aus und ist kein Betreiber-/Registerbeleg; Gelbe Seiten bleibt ein weiterer Aggregator-Lead, kein unabhängiger Beleg nach README. Keine Frontmatter-Fills. ANKAUF: keine Zahlen oder Kaufbedingungen; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quelle(n): https://www.11880.com/branchenbuch/marpingen/B107213437/ce-schrotthandel.html ; https://www.gelbeseiten.de/gsbiz/f1d17323-529b-4b43-885b-cad9704ab1da .]

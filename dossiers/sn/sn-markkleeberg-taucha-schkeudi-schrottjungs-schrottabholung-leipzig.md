@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottjungs UG bewirbt über die Leipzig-Seite mobile Abholung in Leipzig und den Umlandorten Markkleeberg, Taucha, Schkeuditz, Böhlen und Zwenkau. Die Seite nennt weder eine Leipziger Anlieferadresse noch einen identifizierten lokalen Partner; sie enthält zudem Textreste anderer Orte. Dieses Dossier bleibt eine Servicegebietszeile neben dem Leipzig-Dossier, kein eigener lokaler Hof.
+
+**Preise:** **Ankauf:** für Umlandorte kein eigener Endpreis veröffentlicht; die allgemeine Gewerbeseite führt dieselben unverbindlichen „bis zu“-Großmengen-Richtpreise wie im Leipzig-Dossier, nicht als Markkleeberg-/Taucha-Angebot. **Verkauf:** keine Materialverkaufspreisliste. **Gebühren:** Leipzig-Seite nennt ca. 40–80 € für kleine Eisenmengen/Einzelgeräte und zugleich eine Nichtabholung von Eisenschrott unter 300 kg; vorab individuell klären. **GEO:** kein fester Standort im Umland belegt, daher kein Abholgebiet-Pin.
 
 ## Timeline
+
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Die Betreiber-Leipzigseite erneut direkt gelesen. Sie nennt Markkleeberg, Taucha, Schkeuditz, Böhlen und Zwenkau als Einsatzgebiet; eine Anlieferadresse oder einen lokal identifizierten Partner nennt sie nicht. Auf derselben Seite stehen ca. 40–80 € für kleine Eisenmengen/Einzelgeräte und an anderer Stelle „Eisenschrott < 300 kg“ als nicht abgeholt; die Bedingungen sind daher nicht pauschal übertragbar. Außerdem enthält die Leipziger Vorlage Ortsreste („In Lüneburg“, Container für Berlin/Lüneburg), was die lokalen Aussagen zusätzlich relativiert. ANKAUF: Barauszahlung wird für größere/hochwertige Metalle beworben, aber kein ortsspezifischer Kurs; gemeinsame Gewerbe-Referenzliste nur unverbindliche Großmengen-Obergrenzen (siehe `sn-mobil-leipzig-schrottjungs-schrottabholung-leipzig`). VERKAUF: keine Liste. GEBÜHREN: ca. 40–80 € als bedingte Angabe, nicht als Einheitstarif. GEO: keine Annahmeadresse; kein Pin. Quelle: https://schrottjungs.de/schrottabholung-leipzig/ ; https://schrottjungs.de/gewerbe/ ; Betreiberzuordnung: https://schrottjungs.de/impressum-datenschutz/ .]
 
 ### Recherche 03.10.2026 (Feedback #4431 Owner-Triage)
 

@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Buchholzer Seed-Identität ungeklärt. GS führt Steinbecker Str. 35/21244/0178 9251327 nur als Lead. Eine eigenständig gefundene Betreiberwebsite nennt dieselbe Nummer für All Inn Schrott, Fayad Adnan Jaddouh, Emscherstr. 27, Herne. Kein Beleg für Buchholzer Filiale/Umzug/Kette; deshalb Legacy-Adresse/PLZ/Telefon zurückgenommen, Werte historisch erhalten, keine Herner Kontakte/Website/Leistungen übernommen. Ort/Slug/Typ/GEO erhalten, status pruefung. Keine dem Buchholzer Zielbetrieb zuordenbaren Tarife/Abholzusagen.
+Buchholzer Seed-Identität ungeklärt. Gelbe Seiten führt Steinbecker Str. 35/21244/0178 9251327 nur als Lead. Die direkt gelesene Betreiberwebsite nennt dieselbe Nummer für **All Inn Schrott**, Inhaber Fayad Adnan Jaddouh, Emscherstr. 27, 44649 Herne; die aufgeführten zehn Einsatzorte liegen in NRW und enthalten Buchholz nicht. Das stärkt die Gegenidentität, belegt aber keine Buchholzer Filiale/Umzug/Kette. Die Legacy-Adresse/PLZ/Telefon bleiben zurückgenommen und historisch dokumentiert; keine Herner Kontakte/Leistungen werden als Buchholzer Fakten übernommen. Ort/Slug/Typ/GEO erhalten, Status `pruefung`.
+
+**Nur für den Herner Betreiberkandidaten, nicht für Buchholz:** Website-Tabelle nennt Alteisen/Mischschrott-Abholung zu 0,00 € (auch Kleinmengen); für Kupfer, Aluminium, Messing und Edelstahl Barauszahlung zu nicht numerisch veröffentlichten Tagespreisen nach telefonischer Anfrage. Keine Buchholzer Ankauf-/Verkaufs-/Gebührentarife oder Abholzusage belegt.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Herner Betreiberwebsite samt Impressum direkt erneut gelesen: All Inn Schrott, Fayad Adnan Jaddouh, Emscherstr. 27, 44649 Herne, +49 178 9251327; die aktuellen Website-Einsatzorte sind zehn Städte in NRW, nicht Buchholz/Niedersachsen. Die publizierte Tabelle unterscheidet sauber: Alteisen/Mischschrott-Abholung 0,00 € auch bei Kleinmengen; Kupfer, Aluminium, Messing und Edelstahl mit Barauszahlung zum telefonisch genannten Tagespreis; keine numerischen Kurse. Altfahrzeugabholung wird als kostenlos mit Verwertungsnachweis beworben; Geräte/Heizkörper ebenfalls mit kostenloser Abholung. Diese Preis-/Serviceaussagen sind nur dem Herner Betreiber zuzuordnen, nicht dem Buchholzer Seed. ANKAUF: Herner Tagespreise nur telefonisch, keine Zahlen; VERKAUF: keine Materialverkaufsliste; GEBÜHREN: Herner Leistungen teils 0,00 €, nicht auf Buchholz übertragbar. Buchholzer Adresse aus dem alten Verzeichnislead nicht geokodieren. Quellen: https://schrottabholung-allinn.de/ ; https://schrottabholung-allinn.de/impressum ; Buchholz-Lead: https://www.gelbeseiten.de/gsbiz/1bc32d70-6912-4a51-bcac-616ad20a76c2 .]
 
 - [Owner-Korrektur 10.10.2026: Explizite Seed-Direktive clear_fields für phone ergänzt, damit die unbelegte Buchholzer Telefonzuordnung nach geprüfter Veröffentlichung über den normalen Seed auch aus dem effektiven Bestand entfernt wird. Leerwert allein würde gespeichertes Enrichment erhalten. Historischer Wert und Herner Gegenidentität unten dokumentiert; kein Ortwechsel, keine GEO-Löschung und kein direkter Produktions-DB-Schreibzugriff. Grundlage: docs/trader-seed.md; research/checkin-20261010-waveD-nordwest-owner-gate.md.]
 

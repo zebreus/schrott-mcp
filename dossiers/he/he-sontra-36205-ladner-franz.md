@@ -32,6 +32,10 @@ Die Firma Ladner Recycling GmbH (HRB 2690) ist bei North Data mit Brodberg 15, 3
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Stadt Sontra-Seite erneut direkt gelesen: Ladner wird am Betriebsgelände Brodberg nur bei Autobatterien/-zubehör und Reifen inkl. Felgen genannt; die Seite bestätigt weder Brodberg 15 als Hausnummer noch allgemeine Metallannahme, Ankauf, Betreiberwechsel Franz Ladner → GmbH oder einen Kunden-Annahmestandort. Die Betreiber-Domain ladner-recycling.de war beim Direktabruf weiterhin nicht erreichbar; das ist keine Schließungsfeststellung. ANKAUF: keine Kurse; VERKAUF: keine Teile-/Materialliste; GEBÜHREN: keine Ladner-Tarife. Die kommunalen 30 EUR/Fahrt für Elektrogeräte des Bauhofs sind weiterhin nicht übertragbar. Brodberg 15 bleibt vor Geocoding/Anliefer-Aussage abzugleichen. Quellen: https://www.sontra.de/seite/254956/sonstiger-abfall.html ; https://www.ladner-recycling.de/ (Transportfehler) .]
+
 ### Recherche 15.10.2026 (00:00-Welle A)
 
 - [Recherche 15.10.2026: Kommunale Abfallseite erneut direkt gelesen. Ladner bleibt dort ausdrücklich nur bei Autobatterien/-zubehör und Reifen inkl. Felgen am Betriebsgelände Brodberg genannt. Zeit 07–12 Uhr gilt für Elektroschrottannahme am städtischen Bauhof Husarenpark 11, NICHT für Ladner; ebenso 30 EUR/Fahrt ausschließlich städtische Geräteabholung. Diese beiden Übertragungsfallen nicht als Ladner-Öffnungszeit/Gebühr übernommen. Heutiger Abruf bestätigt keine Hausnummer 15, keine persönliche Rechtsnachfolge Franz Ladner → GmbH und keinen Metallankauf. Altadresse beibehalten; ANKAUF/VERKAUF/GEBÜHREN ohne Ladner-Zahlenliste. GEO-Bedarf Brodberg 15 bleibt nach Adress-/Annahmeprüfung, keine Koordinaten erfunden. Quelle: https://www.sontra.de/seite/254956/sonstiger-abfall.html .]

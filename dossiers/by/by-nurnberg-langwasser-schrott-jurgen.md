@@ -26,7 +26,13 @@ provenance_origin: table
 
 Verzeichnis-Leads führen „Schrott Jürgen“ an Thomas-Mann-Str. 49 A, 90471 Nürnberg-Langwasser, Tel. 0911 81 33 48. Das ist bislang weder durch Betreiberauftritt noch Register-/Kommunalquelle bestätigt; ob „Jürgen“ Personenname oder Teil der Geschäftsbezeichnung ist, bleibt offen. Adresse und Telefon sind deshalb keine verifizierten Betriebsdaten; Tätigkeit/aktuelle Annahme und Öffnungszeiten ebenfalls nicht belegt. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
 
+Ein Nürnberger Schrottanbieter, der bei der Suche als möglicher Treffer auftauchte, ist ausdrücklich **nicht** dieser Kandidat: Das Impressum von „Schrott-Recycling-Nuernberg“ nennt Gino Ochwat und Uffenheimer Str. 33, 90439 Nürnberg. Keine dieser Kontaktdaten oder Tätigkeiten wird auf „Schrott Jürgen“ übertragen.
+
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Bei der unabhängigen Suche nach dem Nürnberger Verzeichnislead tauchte `xn--schrott-nrnberg-7vb.de` als möglicher Treffer auf. Der Direktabruf des Betreiber-Impressums identifiziert jedoch „Schrott-Recycling-Nuernberg“, Gino Ochwat, Uffenheimer Str. 33, 90439 Nürnberg, mit eigener Telefonnummer und E-Mail. Das ist ein anderer Betreiber und eine andere Anschrift als der Gelbe-Seiten-Lead „Schrott Jürgen“, Thomas-Mann-Str. 49A, 90471; Namens-/Ortsähnlichkeit genügt nicht für eine Zuordnung. Keine Kontakt- oder Preisdaten übertragen. Für Schrott Jürgen bleiben Ankauf ohne Kursliste, Verkauf ohne Preisliste und Gebühren ohne Tarif. GEO-Bedarf: Thomas-Mann-Str. erst nach Identitäts- und Annahmestellenbeleg geokodieren; keine Koordinaten gesetzt. Quellen: https://www.xn--schrott-nrnberg-7vb.de/impressum.html ; https://www.gelbeseiten.de/gsbiz/9ef348af-0f18-4f93-9c55-0bf3ec08ca15 (Lead).]
 
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 

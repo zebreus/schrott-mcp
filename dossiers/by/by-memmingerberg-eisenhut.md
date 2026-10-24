@@ -24,11 +24,17 @@ provenance_origin: prose
 
 ## Überblick
 
-Amtliche Verwerterliste Unterallgäu (September 2026, erneut gelesen 15.10.) nennt Eisenhut Schrott und Metalle, Am Ziegelstadel 24, 87766 Memmingerberg, 08331 3437, unter Alteisen und Schrott. Das ist ein kommunaler Einzelbeleg mit ausdrücklichem Aktualitäts-/Gewährleistungsvorbehalt, kein geprüfter heutiger Ankauf oder Inhaberbeleg. Besonders wichtig: Annahme- bzw. Abholtermine laut Listenpräambel direkt vereinbaren; keine frei zugängliche Dauerannahme aus der Aufnahme ableiten.
+Amtliche Verwerterliste Unterallgäu (September 2026) nennt Eisenhut Schrott und Metalle, Am Ziegelstadel 24, 87766 Memmingerberg, 08331 3437, unter Alteisen und Schrott. Eine BDSV-Mitgliederliste vom 20.08.2026 führt außerdem „Peter Eisenhut Schrott und Metalle“, 87766 Memmingerberg. Zusammen stützen die Quellen Betriebskandidat, Orts- und Namenszuordnung; nur die Landkreisquelle nennt Straße und Telefon und beide Quellen belegen weder aktuellen Ankauf noch einen frei zugänglichen Hof. Der Landkreis weist ausdrücklich Aktualitäts-/Gewährleistungsvorbehalte aus. Annahme- bzw. Abholtermine sind laut Präambel direkt zu vereinbaren; keine Dauerannahme aus der Aufnahme ableiten.
 
 Die historische Domain zeigt weiterhin nur einen Freischaltungsplatzhalter; webmaster@ ist kein bestätigter Händlerkontakt. Ankauf-, Verkaufs- und Gebührentarife fehlen. Offen: verantwortlicher Inhaber, Annahme-/Vergütungsbedingungen, Materialabgrenzung und Termine.
 
+**GEO-Bedarf:** Am Ziegelstadel 24 ist ein Adresskandidat, aber noch kein bestätigter aktueller Kunden-/Annahmepunkt; erst nach Termin-/Standortklärung geokodieren. Es wurden keine Koordinaten gesetzt.
+
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Die offizielle BDSV-Mitgliederliste mit Stand 20.08.2026 wurde direkt geladen und textlich geprüft. Sie enthält „Peter Eisenhut Schrott und Metalle“, 87766 Memmingerberg. Das ist eine zusätzliche, unabhängige Verbandsquelle für Namens-/Ortskontext, aber kein Straßen-, Kontakt-, Inhaber- oder Annahmebeleg; daraus folgt insbesondere keine frei zugängliche Betriebsstätte. Der genaue Straßen-/Telefonbeleg bleibt die amtliche Landkreis-Verwerterliste Unterallgäu (Stand September 2026), deren Vorbehalte und Terminvereinbarungspflicht weiter gelten. Name und Status im Frontmatter bleiben daher unverändert. Ankauf: keine Eurokurse; Verkauf: keine Liste; Gebühren: kein Tarif und keine zugesicherte kostenfreie Abholung. GEO-Bedarf bleibt Am Ziegelstadel 24 nach Bestätigung der aktuellen Annahmestelle. Quellen: https://bdsv.de/de/resources/BDSV%20Mitgliederliste%2020.08.2026_.pdf ; https://www.landratsamt-unterallgaeu.de/fileadmin/eigene_dateien/LRA/Abfallentsorgung/Verwerterliste.pdf (Stand September 2026).]
 
 ### Recherche 15.10.2026 (12:00-Welle B)
 

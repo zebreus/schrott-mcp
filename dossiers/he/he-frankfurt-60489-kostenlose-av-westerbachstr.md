@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Kostenlose AV (Westerbachstr.)“ ist keine überprüfte Firmierung. Eine aktuelle Betreiberwebsite liefert nun einen konkreten Kandidaten: Leinweber und Stöhr Automobile GmbH & Co. KG, Westerbachstraße 68/60489 Frankfurt, mit beworbener kostenloser Autoverwertung und Abholung unter Bedingungen. Da Name/Hausnummer im Seed fehlen und keine unabhängige Quelle die Zuordnung belegt, ist dies noch kein bestätigter Match oder Fill. Kostenfrei gilt nur als Betreiberwerbung für dessen beschriebenen Service, nicht als verifizierte Gebühr des anonymen Seeds.
+„Kostenlose AV (Westerbachstr.)“ ist keine überprüfte Firmierung. Die Betreiberwebsite von Leinweber und Stöhr Automobile GmbH & Co. KG nennt Westerbachstraße 68, 60489 Frankfurt und bewirbt kostenlose Autoverwertung einschließlich Abholung im 30-km-Umkreis, sofern das Fahrzeug nicht vollständig ausgeschlachtet oder ausgebrannt ist; ein Verwertungsnachweis wird angeboten. Die Website sagt ausdrücklich „keine Ersatzteile“. Da Name/Hausnummer im Seed fehlen und eine unabhängige Zuordnungsbrücke fehlt, bleibt dies ein Kandidat, kein bestätigter Match oder Fill. Die Null-Euro-Aussage gilt nur für diese beworbene, bedingte Fahrzeugleistung, nicht als bestätigte Gebühr des anonymen Seeds.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Impressum und Leistungsseite des Kandidaten erneut direkt gelesen. Betreiberangabe: Leinweber und Stöhr Automobile GmbH & Co. KG, Westerbachstraße 68, 60489 Frankfurt, Tel. 069 89914879; die Leistungsseite wirbt mit kostenfreier Verwertung, Abholung und Verwertungsnachweis bei nicht vollständig ausgeschlachteten/nicht ausgebrannten Fahrzeugen, Gebiet 30 km um Frankfurt, Termintelefon 069 94323896 Mo–Sa 08–20 Uhr und „keine Ersatzteile“. Diese Fakten beschreiben allein den Betreiberwebsite-Kandidaten; Seedname und Hausnummer fehlen, unabhängige Seed-Brücke weiterhin nicht gefunden. ANKAUF: keine Fahrzeugvergütung/Ankaufspreise; VERKAUF: keine Ersatzteile laut Betreiber; GEBÜHREN: 0 € beworben für die genannten Bedingungen, keine allgemeine Tarifliste. Keine Frontmatter-Übernahme oder GEO. Quellen: https://www.autoverwertung-frankfurt.info/about/ ; https://www.autoverwertung-frankfurt.info/autoverschrottung/ .]
 
 ### Recherche 21.10.2026
 

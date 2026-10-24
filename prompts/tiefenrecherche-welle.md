@@ -40,5 +40,7 @@ Betreiber-Ketten). Neue Adressen mit Geocodierungsbedarf im Bericht nennen.
 ## Owner-Gate nach Abschluss aller Shards
 
 Overwrite-Scan, Enum-Validierung, Deep-Link-/Emdash-Check, Notenformat, dann
-Seed-Tests (`cargo test -p schrott-mcp-ingestion seed`), ein Commit, Push,
-Redeploy (beide Binaries), Prod-Spot-Checks. Kurz berichten.
+Seed-Tests (`cargo test -p schrott-mcp-ingestion seed`), ein Commit und Push.
+Beide Binaries nur bei grünem, produktspezifischem Release-Gate redeployen und
+anschließend Prod-Spot-Checks ausführen. Bei offenem Gate nicht deployen und
+keine Produktionsdaten direkt ändern; den konkreten Befund kurz berichten.

@@ -31,6 +31,10 @@ Die Facebook-Suchspur **F.ASSAAD** nennt Honzrather Straße 22a, 66701 Beckingen
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Suchindex des Facebook-Auftritts F.ASSAAD nennt weiterhin Honzrather Straße 22a, 66701 Beckingen, 0176 70910718, Zeiten Mo–Fr 10–18/Sa 10–15 und „kostenlose Schrottentsorgung“; der Direktabruf lieferte keine lesbaren Profilinhalte. Daneben führt 11880 F. Assaad an Dillinger Straße 61 mit 0160 6838436 und Kleinanzeigen den Namen M. Assaad an derselben Anschrift. Kein Beleg für Umzug oder Personenidentität. ANKAUF: keine bestätigte Auszahlung/Preisliste. VERKAUF: keine Liste. GEBÜHREN: „kostenlos“ bleibt nicht direkt verifizierte Werbeaussage und ist keine Vergütung. GEO: beide Adressspuren getrennt klären; keine geokodieren. Keine Frontmatter-Änderung. Quellen: https://www.facebook.com/Assaad.Schrott (Suchindex) ; https://www.11880.com/branchenbuch/beckingen/060440092B113979950/schrotthaendler-f-assaad.html ; https://www.kleinanzeigen.de/s-beckingen/schrotthandler/k0l295 .]
+
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: Neuer Direktcheck des 11880-Eintrags führt weiterhin „Schrotthändler F.Assaad“, Dillinger Str. 61, 66701 Beckingen, 0160 6838436; Suchprofil/-index enthält außerdem die Facebook-Spur Honzrather Straße 22a/0176 70910718. 11880 und Social-Suchauszug sind unterschiedliche Leads, aber kein Beleg für Umzug oder Personenidentität; keine Kontaktdaten übernommen. „Kostenlose Schrottentsorgung“ belegt weder bezahlten Ankauf noch öffentliche Hofannahme. Keine Ankauf-, Verkaufs- oder Gebührentafel gefunden; GEO gesperrt. Quellen: https://www.11880.com/branchenbuch/beckingen/060440092B113979950/schrotthaendler-f-assaad.html ; https://www.facebook.com/Assaad.Schrott (Suchindex; Abruf 20.10.2026).]

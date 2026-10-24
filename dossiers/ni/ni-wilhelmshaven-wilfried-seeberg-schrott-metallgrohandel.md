@@ -11,7 +11,7 @@ email: ''
 opening_hours: Mo-Fr 12:00-16:00
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Zum Firmenkern existiert nun ein direkt gelesener Registerdatenbezug: Wilfried Seeberg Schrott-/Metallgroßhandel Inh. Petra Seeberg e. K., HRA 130084 Oldenburg; Northdata führt den Inhaberwechsel zu Petra vom 05.03.2010. Das bestätigt nicht die frühere Behauptung aktueller Aktivität aus Portal-Aktualisierungsdaten. Mühlenweg 2, Telefon und Öffnungszeiten bleiben unbestätigte Verzeichnis-Altwerte. Ein neuer Registerportal-Suchlead nennt Tonndeichstraße 29; ob Registeranschrift und Annahmeplatz auseinanderfallen, ist offen. Keine automatische Adressänderung, keine Domainzuordnung aus der E-Mail abgeleitet. Ankauf/Verkauf/Gebühren: keine verifizierten Kurse oder Tarife.
+Zum Firmenkern existiert ein Registerdatenbezug: Wilfried Seeberg Schrott- und Metallgroßhandel Inh. Petra Seeberg e. K., HRA 130084 Oldenburg; Northdata zeigt den Inhaberwechsel zu Petra vom 05.03.2010 und weist selbst auf automatisiert erzeugte Daten ohne Vollständigkeits-/Aktualitätsgarantie hin. Das belegt keine aktuelle Kundenannahme. Daher wurde `status` auf `pruefung` zurückgestuft, nicht auf geschlossen. Mühlenweg 2, Telefon und Öffnungszeiten bleiben unbestätigte Verzeichnis-Altwerte. Ein Registerportal-Suchlead nennt Tonndeichstraße 29; ob Registeranschrift und Annahmeplatz auseinanderfallen, ist offen. Keine automatische Adressänderung oder Domainzuordnung aus der E-Mail. Ankauf/Verkauf/Gebühren: keine verifizierten Kurse oder Tarife.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Northdata-Eintrag direkt gelesen: e. K., HRA 130084 Oldenburg, Registrierung 29.11.2005, Publikation zum Inhaberwechsel Wilfried → Petra Seeberg am 05.03.2010; die aktuelle Seitenzeile nennt als Adresse nur Wilhelmshaven. Northdata kennzeichnet sein Ergebnis als automatisiert und ohne Gewähr für Vollständigkeit/Richtigkeit/Aktualität. Betreiber-Domain seeberg-altmetalle.de war beim Direktabruf nicht erreichbar; kein aktueller Betreiberkontakt/Annahmebeleg. Deshalb die bisher aus Portalaktualisierung abgeleitete `status: aktiv`-Aussage auf `pruefung` korrigiert, ausdrücklich kein Schließungsurteil. Mühlenweg 2 vs. Registerportal-Lead Tonndeichstraße 29 bleibt offen. ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenlisten. Adressen erst nach Klärung des tatsächlichen Annahmestandorts geokodieren. Quellen: https://www.northdata.com/Wilfried%20Seeberg%20Schrottu%C2%B7%20Metallgro%C3%9Fhandel%20Inh%C2%B7%20Petra%20Seeberg%20e%C2%B7%20K%C2%B7,%20Wilhelmshaven/Amtsgericht%20Oldenburg%20HRA%20130084 ; https://www.seeberg-altmetalle.de/ (Transportfehler) ; Suchlead: https://openregister.de/company/DE-HRA-P3210-130084-P3215 .]
 
 ### Recherche 18.10.2026 (Welle 0200 B)
 

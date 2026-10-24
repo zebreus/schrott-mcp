@@ -30,6 +30,10 @@ Der aktuelle Recherchelauf fand weiterhin keinen Betreiberauftritt oder belastba
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Erneute Namens-/Orts- und Telefonnummernsuche fand weiterhin keine Betreiberwebsite, Register- oder Kommunalquelle. Sichtbare Treffer bleiben Cylex/Sellwerk sowie Recyclinghof-Verzeichnisse; die zwei Einträge desselben Recyclinghof-Portals an „Bergstraße“ bzw. „Bergstraße 20“ mit unterschiedlichen Rufnummern sind kein unabhängiger Doppelbeleg und klären die Betriebsstätte nicht. ANKAUF: keine verifizierte Annahme-/Preisliste. VERKAUF: keine Liste. GEBÜHREN: keine Tarife; Portalhinweis „häufig kostenpflichtig“ ist allgemeiner Verzeichnistext, keine Braun-Gebühr. GEO: Bergstraße 20, 09557 Flöha bleibt ungeprüfter Kandidat; Koordinaten nicht übernehmen. Keine Stammdatenänderung. Quellen: https://web2.cylex.de/firma-home/olga-braun-recycling-13999770.html ; https://sellwerk.de/firmenprofil/braun-olga-recycling ; https://recyclinghof-wertstoffhof.de/recyclinghof/sachsen/floeha/braun-recycling-bergstrasse-20/ ; https://recyclinghof-wertstoffhof.de/recyclinghof/sachsen/floeha/braun-recycling-bergstrasse/ .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Eigenständige Namens-/Ortsuche ergab keine Betreiberwebsite oder Registerquelle. Cylex und Sellwerk zeigen „Olga Braun Recycling“/„Braun Olga Recycling“ an Bergstr. 20, 09557 Flöha, Tel. 0172 3773792; Recyclinghof-Wertstoffhof führt ebenfalls Bergstraße 20 mit dieser Nummer, daneben aber weiterhin einen separaten Eintrag „Bergstraße“ mit +49 1522 2676148. Das sind Verzeichnis-Leads und kein unabhängiger Beleg für aktuelle Annahme oder Inhaberidentität. Keine Felder ergänzt, kein Preisfund; GEO bleibt ausgesetzt. Quellen: https://web2.cylex.de/firma-home/olga-braun-recycling-13999770.html ; https://sellwerk.de/firmenprofil/braun-olga-recycling ; https://recyclinghof-wertstoffhof.de/recyclinghof/sachsen/floeha/braun-recycling-bergstrasse-20 ; https://recyclinghof-wertstoffhof.de/recyclinghof/sachsen/floeha/braun-recycling-bergstrasse .]

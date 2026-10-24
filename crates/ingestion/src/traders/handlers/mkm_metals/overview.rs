@@ -54,7 +54,7 @@ impl Snapshot {
             "activation_blocker": "owner full review and integration/deployment of typed MKM transaction candidate",
             "recording_contract": "MKM typed 61-article validation; atomic quote/acceptance/manifest/current-pointer reconciliation; immutable price metadata",
             "page_change_precision": "calendar_day; UTC midnight is normalization, not source time",
-            "visibility_scope": "Parser checks explicit hidden attributes and inline display:none on products/ancestors; registered fetch requires the reviewed stylesheet URL and SHA-256, but no browser-rendered visibility is proven.",
+            "visibility_scope": "Parser checks hidden attributes, inline display:none, and reviewed CSS hiding utility classes on consumed products/ancestors; registered fetch pins the stylesheet URL and SHA-256, but no browser-rendered visibility is proven.",
             "required_alias_migrations": [{
                 "article": "MKM-CU-01", "source_url": URL,
                 "from": ["kupfer-berry", "Kerze"],
@@ -561,13 +561,24 @@ fn fail(detail: impl Into<String>) -> IngestError {
     }
 }
 
-// Explicit DOM/inline hiding only; external CSS is not evaluated.
-// Accessibility captions with class=visually-hidden remain legitimate.
+// Known hiding utilities from the stylesheet pinned by the registered fetch.
+// Captions may use them, but this predicate only applies to consumed products.
+const REVIEWED_VISUALLY_HIDDEN_CLASSES: &[&str] = &[
+    "visually-hidden",
+    "sterne-wahl__feld",
+    "sortierleiste__wort",
+];
+
 fn explicitly_hidden(el: ElementRef<'_>) -> bool {
     std::iter::once(el)
         .chain(el.ancestors().filter_map(ElementRef::wrap))
         .any(|el| {
             el.value().attr("hidden").is_some()
+                || el.value().attr("class").is_some_and(|classes| {
+                    classes
+                        .split_ascii_whitespace()
+                        .any(|class| REVIEWED_VISUALLY_HIDDEN_CLASSES.contains(&class))
+                })
                 || el.value().attr("style").is_some_and(|style| {
                     style.split(';').any(|declaration| {
                         let Some((property, value)) = declaration.split_once(':') else {
@@ -583,6 +594,12 @@ fn explicitly_hidden(el: ElementRef<'_>) -> bool {
                     })
                 })
         })
+}
+
+fn contains_hidden_descendant(el: ElementRef<'_>) -> bool {
+    el.descendants()
+        .filter_map(ElementRef::wrap)
+        .any(explicitly_hidden)
 }
 
 fn german_integer(raw: &str) -> Option<f64> {
@@ -752,18 +769,14 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
             if links.len() != 1 || cells.len() != 4 {
                 return Err(fail(format!("changed row layout in {group}")));
             }
+            // Cell four has accessible-only calculator labels; its consumed
+            // `data-staffel` input is checked below, without rejecting those labels.
             if explicitly_hidden(links[0])
-                || links[0]
-                    .descendants()
-                    .filter_map(ElementRef::wrap)
-                    .any(explicitly_hidden)
-                || cells.iter().any(|cell| {
-                    explicitly_hidden(*cell)
-                        || cell
-                            .descendants()
-                            .filter_map(ElementRef::wrap)
-                            .any(explicitly_hidden)
-                })
+                || contains_hidden_descendant(links[0])
+                || cells.iter().any(|cell| explicitly_hidden(*cell))
+                || cells[..3]
+                    .iter()
+                    .any(|cell| contains_hidden_descendant(*cell))
             {
                 continue;
             }
@@ -776,6 +789,13 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
             if label.is_empty() || article.is_empty() || !href.starts_with("/metallankauf/produkt/")
             {
                 return Err(fail(format!("empty/invalid product identity in {group}")));
+            }
+            let tier_inputs: Vec<_> = cells[3].select(&tier_sel).collect();
+            if tier_inputs.len() > 1 {
+                return Err(fail(format!("{article}: duplicate tier inputs")));
+            }
+            if tier_inputs.iter().any(|input| explicitly_hidden(*input)) {
+                continue;
             }
             if !seen.insert(article.clone()) {
                 return Err(fail(format!("duplicate article {article}")));
@@ -832,10 +852,6 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
                     "{article}: numeric article without machine-readable product change date: {}",
                     text(cells[2])
                 ));
-            }
-            let tier_inputs: Vec<_> = cells[3].select(&tier_sel).collect();
-            if tier_inputs.len() > 1 {
-                return Err(fail(format!("{article}: duplicate tier inputs")));
             }
             let tiers: Vec<Tier> = tier_inputs
                 .first()
@@ -1104,6 +1120,7 @@ mod tests {
     fn p2_1_explicitly_hidden_products_and_ancestors_are_blocked() {
         for html in [
             first_product_row(HTML, "hidden"),
+            first_product_row(HTML, "class=\"visually-hidden\""),
             first_product_row(HTML, "style=\"DISPLAY: none !important\""),
             HTML.replacen("id=\"kupfer\"", "hidden id=\"kupfer\"", 1),
             HTML.replacen("id=\"kupfer\"", "style=\"display: none\" id=\"kupfer\"", 1),
@@ -1112,6 +1129,15 @@ mod tests {
                 "<td hidden class=\"muted small\">MET-KU-MILL</td>",
             ),
             mutate_first_product("<td class=\"num\">", "<td hidden class=\"num\">"),
+            mutate_first_product("<td class=\"num\">", "<td class=\"num visually-hidden\">"),
+            mutate_first_product(
+                "<strong style=\"color: var(--payout);\">",
+                "<strong class=\"visually-hidden\" style=\"color: var(--payout);\">",
+            ),
+            mutate_first_product(
+                "<input type=\"number\"",
+                "<input class=\"visually-hidden\" type=\"number\"",
+            ),
             mutate_first_product(
                 "<td style=\"min-width: 9.5rem;\">",
                 "<td hidden style=\"min-width: 9.5rem;\">",

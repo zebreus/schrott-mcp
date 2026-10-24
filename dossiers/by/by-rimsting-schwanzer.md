@@ -24,11 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-Beide Ortsseiten bleiben getrennt zu prüfen: Ein Portal führt Rudolf Schwanzer an Westernach 4, 83253 Rimsting mit 08051/2606. Die live Betreiberwebsite beschreibt Schwanzer Altmetall- und Autoentsorgung an Gewerbegebiet Natzing 3, 83125 Eggstätt, 08056 903690; eine belegte Umzugskette Westernach → Eggstätt fehlt. Daher keine stillschweigende Standortmigration und keine Betreiberkontakte ins Rimstinger Frontmatter transplantieren.
+Beide Ortsseiten bleiben getrennt zu prüfen: Ein Portal führt Rudolf Schwanzer an Westernach 4, 83253 Rimsting mit 08051/2606. Die Betreiberwebsite beschreibt Schwanzer Altmetall- und Autoentsorgung an Gewerbegebiet Natzing 3, 83125 Eggstätt, 08056 903690; die Kontakt- und Leistungsseiten waren am 24.10.2026 wieder direkt abrufbar. Eine belegte Umzugskette Westernach → Eggstätt fehlt. Daher keine stillschweigende Standortmigration und keine Betreiberkontakte ins Rimstinger Frontmatter transplantieren.
 
 **Ankauf:** Eggstätter Seite beschreibt Altmetallhandel/Schrottverwertung ohne Zahlen; keine bestätigten Rimstinger Annahmekonditionen. **Verkauf:** Nutzmaterial, Werkzeuge/Heimwerkerbedarf und gebrauchte Kfz-Teile in Eggstätt angeboten, keine Zahlenliste. **Gebühren:** Minicontainer und Kranwagenservice als preiswert/fair beworben, nicht als kostenlos; keine Tarife. **GEO:** Westernach nicht als bestätigten aktuellen Schrottplatz pinnen; Eggstätt erst nach Identitäts-/Umzugsklärung diesem Slug zuordnen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Kontakt- und Leistungsseiten heute direkt mit HTTP 200 gelesen, nachdem sie am 18.10.2026 noch HTTP 403 geliefert hatten. Sie nennen Schwanzer Altmetall- u. Autoentsorgung, Gewerbegebiet Natzing 3, 83125 Eggstätt, 08056 903690, r.schwanzer@web.de und Mo–Fr 07:30–12:00/13:00–17:00; Wochenende geschlossen. Die Leistungsseite bewirbt Altmetallhandel/Schrottverwertung, eine als zertifiziert bezeichnete Altautoannahmestelle, Verkauf von Nutzmaterial/gebrauchten Kfz-Teilen sowie gemietete Minicontainer und LKW-Kranwagen-Bring-/Abholservice. Zertifizierung ist hier eine Eigenaussage, kein unabhängig geprüfter Register-/Zertifikatsbeleg. Ankauf: keine bezifferten Kurse; Verkauf: kein Zahlenkatalog; Gebühren: Container-/Transportpreise nur als „fair“/„preiswert“ bezeichnet, keine Tarife und kein Gratisversprechen. Der Eggstätter Betreiberauftritt klärt weiterhin nicht, ob der getrennte Rimstinger Portal-Lead Rudolf Schwanzer, Westernach 4, 83253, derselbe Betrieb oder ein früherer Standort ist. Deshalb keine Eggstätter Kontakte/Anschrift in das Rimsting-Frontmatter übernommen und keine Geokodierung. Quellen: https://www.schwanzer-entsorgung.de/kontakt ; https://www.schwanzer-entsorgung.de/leistungen ; https://www.schrottplatz.org/rimsting/rudolf-schwanzer-3670482.html (Rimstinger Lead).]
 
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 

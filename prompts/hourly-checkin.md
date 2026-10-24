@@ -77,6 +77,9 @@ erfolgreich war.
   und den vorhandenen Dateien. Detailregeln gehören in diese Prüfung statt
   in kleinteilige Recherche-Aufträge.
 - Owner-Gate vor jedem Commit (Overwrite-/Enum-/Deep-Link-/Emdash-Check),
-  danach Seed-Tests, Commit + Push + Redeploy + Spot-Verifikation.
+  danach Seed-Tests, Commit und Push. Beide Binaries nur bei grünem,
+  produktspezifischem Release-Gate redeployen und anschließend Produktion
+  read-only verifizieren; bei offenem Gate weder deployen noch Produktionsdaten
+  direkt ändern, sondern den konkreten Gate-Befund dokumentieren.
 
 Kurz berichten, was du getan hast.

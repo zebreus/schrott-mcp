@@ -28,6 +28,10 @@ Die Betreiberseite wagner-kies.de nennt die **Wagner Recycling GmbH**, Salinenst
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Leistungsseite und Handelsregisterdaten unabhängig erneut gelesen. wagner-kies.de nennt Wagner Recycling GmbH, Salinenstraße 91, 99085 Erfurt, HRB 113325 AG Jena, Mario Schollmeyer, 0361 778810 und m.schollmeyer@wagner-kies.de; Leistungen sind Lohnarbeit in der Abfallaufbereitung, Verwertung/Entsorgung und mobile Prallbrecher. Handelsregister.ai führt dieselbe Gesellschaft als aktiv und bestätigt Adresse/HRB/Gegenstand. Die Firmenanschrift belegt weiterhin keine öffentliche Selbstanlieferung an dieser Adresse. ANKAUF: Unternehmensgegenstand/Verwertung belegt, aber keine konkreten Kundenkurse. VERKAUF: keine Materialverkaufspreisliste. GEBÜHREN: keine veröffentlichten Annahme-/Entsorgungstarife. GEO: Salinenstraße 91 ist die bestätigte Geschäftsadresse und braucht Geokodierung als Geschäftsstandort, nicht als bestätigter Schrottplatz; bestehender Alt-Punkt Magdeburger Allee 16 passt nicht. Quellen: http://wagner-kies.de/leistungen-recycling.html ; https://handelsregister.ai/de/organizations/erfurt/grosshandel-mit-altmaterialien-und-reststoffen/wagner-recycling-gmbh-d884e6d09594318f2e2e565b8b3b73a0 .]
+
 ### Owner-GEO-Prüfung 21.10.2026
 
 - [Owner-GEO-Prüfung 21.10.2026: Die Betreiberseite nennt Salinenstraße 91, belegt dort aber weder öffentliche Selbstanlieferung noch eine genau identifizierte feste Anlage. Der bestehende Produktionspunkt löst auf Magdeburger Allee 16 auf und stimmt nicht mit der Betreiberadresse überein. Ob Salinenstraße 91 eine öffentliche Annahme ist, bleibt offen; kein bestätigter GEO-Kandidat. Quellen: [Betreiberseite](http://wagner-kies.de/leistungen-recycling.html), [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?lat=50.988125&lon=11.027458333333334&format=jsonv2&zoom=18&addressdetails=1&extratags=1), [Owner-Bericht](../../research/wave-20261021-0900-geo-th.md).]

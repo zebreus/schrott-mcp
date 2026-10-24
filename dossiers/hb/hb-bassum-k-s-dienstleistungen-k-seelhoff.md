@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-K.S. Dienstleistungen K. Seelhoff bleibt ein Verzeichnislead an Osterbinde 2, 27211 Bassum, nicht ein primär bestätigter Betrieb. Der genannte Telefonlead 04241 2939 und die Hausanschrift sind nicht durch Betreiber-/Registerquelle bestätigt. Eine OSM/Nominatim-Suche findet das Haus, belegt aber nur Geografie, nicht die Zuordnung zum Unternehmen; Koordinaten daher nicht übernommen. Keine gesicherte Annahme oder Abholung und keine konkreten Ankaufspreise, Verkaufspreise oder Gebühren. Status `pruefung`.
+K.S. Dienstleistungen K. Seelhoff bleibt ein Verzeichnislead an Osterbinde 2, 27211 Bassum, nicht ein primär bestätigter Betrieb. Schrottplatz.org nennt Tel. 04241 2939; Das Stadtbranchenbuch führt dieselben Seed-Daten. Eine aktuelle OSM/Nominatim-Abfrage findet dort ein Hausgebäude (way 1000644786, 52.8453997/8.7579281), belegt aber nur die Geografie, nicht die Zuordnung zum Unternehmen oder einen Kundenstandort; Koordinaten daher nicht übernommen. Keine gesicherte Annahme oder Abholung und keine konkreten Ankaufspreise, Verkaufspreise oder Gebühren. Status `pruefung`.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Schrottplatz.org-Profil direkt gelesen: K.S. Dienstleistungen K. Seelhoff, Osterbinde 2, 27211 Bassum, Tel. 04241 2939; es enthält keine Betreiber-/Registerangabe, Öffnungszeiten, Annahmebedingungen oder Preise. Der OSM/Nominatim-Treffer ist `way 1000644786`, Typ `building/house`, WGS84 52.8453997/8.7579281; das ist Geocoding der Hausadresse, keine Unternehmensverortung. ANKAUF/VERKAUF/GEBÜHREN: keine belegten Preise/Tarife. Keine Felder/Koordinaten ergänzt; Adresse bleibt nach Identitätsbestätigung geokodierungsfähig. Quellen: https://www.schrottplatz.org/bassum/schrott-ks-dienstleistungen-k-seelhoff-aYEPRZ.html ; https://nominatim.openstreetmap.org/search?q=Osterbinde%202%2C%2027211%20Bassum&format=jsonv2&addressdetails=1&limit=3 .]
 
 ### Recherche 12.10.2026
 

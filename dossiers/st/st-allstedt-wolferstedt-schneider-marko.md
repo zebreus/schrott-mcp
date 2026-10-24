@@ -29,6 +29,10 @@ Kandidat „Marko Schneider Schrottentsorgung“: Creditreform führt einen akti
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Das Örtliche-Detailseite direkt gelesen; sie führt Schneider Marko, Nienstedter Str. 1, 06542 Allstedt-Wolferstedt und 034652 245. Creditreform beschreibt einen aktiven Gewerbebetrieb „Marko Schneider Schrottentsorgung“, belegt aber nicht unabhängig die Verzeichnisadresse, öffentliche Annahme oder Kundenzugang. Die konvergierenden Angaben bleiben deshalb Recherchehinweise und keine neuen Frontmatter-Fills. ANKAUF: keine Betreiberbestätigung/Preise. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. GEO: Nienstedter Str. 1 ist Verzeichnisadresse ohne bestätigten Hofstatus; geokodieren erst nach Betreiber-/Standortbestätigung. Quellen: https://www.dasoertliche.de/Themen/Schneider-Marko-Allstedt-Wolferstedt-Nienstedter-Str ; https://firmeneintrag.creditreform.de/06542/3130174407/MARKO_SCHNEIDER_SCHROTTENTSORGUNG ; https://www.schrottplatz-info.de/schrottplatz/Allstedt/Schneider-Marko .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottplatz (lt. schrottplatz-info-Umkreis)

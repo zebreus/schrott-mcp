@@ -30,6 +30,10 @@ Die Betreiberwebsite ist am 21.10.2026 erreichbar und wirbt allgemein mit Verwer
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Startseite, Kontakt und Impressum erneut direkt abgerufen: die Website nennt Erdmann-Kircheis-Straße 1, 08280 Aue-Bad Schlema, 0172 75 60 830 und k-h@hentschel-schrotthandel-aue.com; der Telefonlink bleibt fehlerhaft (`tel:0000000`), Geschäfts-ID/USt.-Felder leer und Aufsichtsbehörde Platzhalter. Eine zusätzliche Suche fand ENF Recycling mit denselben Stammdaten, aber als Branchenverzeichnis (dort Stand 26.10.2025), also keinen unabhängigen Identitätsbeleg nach Source-Hierarchy. ANKAUF: nur „faire Preise“, keine Zahlen/Konditionen. VERKAUF: keine Liste. GEBÜHREN: keine bezifferten Abhol-/Entsorgungstarife. GEO: Erdmann-Kircheis-Straße 1 bleibt Betreiberseiten-Kandidat; vor Identitäts-/Annahmestellenbestätigung nicht als Kundenhof geokodieren. Keine Frontmatter-Änderung; `status: pruefung` bleibt. Quellen: https://www.hentschel-schrotthandel-aue.com/ ; https://www.hentschel-schrotthandel-aue.com/kontakt/ ; https://www.hentschel-schrotthandel-aue.com/impressum/ ; https://de.enfmetal.com/hentschel-schrotthandel-aue (Lead).]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Betreiber-Startseite, Kontakt und Impressum direkt abgerufen. Der Auftritt bewirbt Schrott-/Altmetallverwertung und umweltgerechte Entsorgung, aber keine sortenspezifische Ankaufannahme. Kontakt/Impressum nennen Erdmann-Kircheis-Straße 1, 08280 Aue-Bad Schlema, 0172 75 60 830 und k-h@hentschel-schrotthandel-aue.com; Geschäfts-ID und USt-Nr. sind leer, Aufsichtsbehörde ist Platzhalter, Kontaktformular meldet beim Abruf einen Sende-Fehler und der Telefonlink ist `tel:0000000`. Das sind weiterhin Angaben einer einzigen generischen Betreiberwebsite, kein unabhängiger Identitäts-/Gewerbenachweis. Kein Frontmatter-Fill; keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren. Quellen: https://www.hentschel-schrotthandel-aue.com/ ; https://www.hentschel-schrotthandel-aue.com/kontakt/ ; https://www.hentschel-schrotthandel-aue.com/impressum/ .]

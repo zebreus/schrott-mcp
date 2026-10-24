@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Aktuelle Betreiberwebsite AHL Nienburg / Romano Laubinger gelesen. Impressumsanschrift Celler Str. 47, 31582 Nienburg; Lagerplatz nur als 31613 Wietzen angegeben, Postfach separat. Keine öffentliche Annahme an der Nienburger Anschrift ableiten. Schrott-/Altmetall-, Kabel-/Buntmetallhandel, Ankauf alter Lagerbestände, Abholung und Containerstellung angeboten. Aktueller Betriebsurlaub 08.–25.10.2026 beachten. Ein qualifizierter Betreiber-Einzelbeleg, kein unabhängig bestätigter Standort. Ankauf ohne Zahlen; Verkauf und Gebühren nicht beziffert; Frontmatter unverändert.
+Aktuelle Betreiberwebsite AHL Nienburg / Romano Laubinger gelesen. Impressumsanschrift Celler Str. 47, 31582 Nienburg; Lagerplatz nur als 31613 Wietzen angegeben, Postfach separat. Keine öffentliche Annahme an der Nienburger Anschrift ableiten. Schrott-/Altmetall-, Kabel-/Buntmetallhandel, Ankauf alter Lagerbestände, Abholung und Containerstellung angeboten. Die Website kündigt Betriebsurlaub **08.–25.10.2026** an; am 24.10.2026 liegt das Datum noch im angekündigten Zeitraum, ohne dass daraus eine Schließung folgt. Ein qualifizierter Betreiber-Einzelbeleg, kein unabhängig bestätigter Standort. Ankauf ohne Zahlen; Verkauf und Gebühren nicht beziffert; Frontmatter unverändert.
+
+Namensgleiche „Laubinger Recycling“-Webinhalte aus Westerhorn (Dorfstr. 6, 25364) sind ein anderer, geografisch getrennter Betrieb. Dessen Aussagen zu Tagespreisen und kostenlosen Containern sind nicht AHL-/Romano-Laubinger-Konditionen.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: AHL-Website nochmals direkt gelesen: Impressum nennt Romano Laubinger, Celler Str. 47, 31582 Nienburg, Lagerplatz nur „31613 Wietzen“, Tel. 0171 9206143; der Startbereich listet Schrott-/Altmetall- und Kabel-/Buntmetallhandel, Containerstellung, Ankauf alter Lagerbestände und individuelle Abholung. Öffnungszeiten Mo–Do 08–17 Uhr, Fr/Sa nach Vereinbarung, So geschlossen; gleichzeitig ist Betriebsurlaub 08.–25.10.2026 angekündigt und damit am Recherchetag noch nicht abgelaufen. Keine numerischen Ankaufskurse, Verkaufspreise oder Containergebühren veröffentlicht. Eine separate Laubinger-Recycling-Website nennt Westerhorn/Dorfstr. 6 und bewirbt tagesaktuelle Preise sowie kostenlose Container; das ist kein Beleg für AHL oder Romano Laubinger und wurde nicht übertragen. Celler Str. 47 ist eine Impressumsanschrift, nicht bestätigter Annahmepunkt; für den Wietzener Lagerplatz fehlt eine Straße, daher aktuell kein Betriebs-GEO. Quellen: https://www.ahl-nienburg.de/ ; https://www.laubinger-recycling.de/schrotthandel/ .]
 
 ### Recherche 14.10.2026 (Welle 5 A)
 

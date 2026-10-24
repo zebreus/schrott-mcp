@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Neuer namensgenauer Lead **Schrottverwertung Christel Bruch**, Luise-Aston-Str. 2, 68519 Viernheim, 06204 620284 aus Yelp/11880 und Schrottplatz-info. Damit ist die ältere Ergebnislosigkeit überholt, nicht jedoch der Primärbelegstandard erfüllt. Keine Frontmatter-Adresse oder Telefonnummer aus Portalen übernehmen. Bruch & Söhne führt einen anderen Viernheimer Containerdienststandort Neuer Weg 4; eine Beziehung zu Christel Bruch ist nicht belegt.
+Mehrere Verzeichnisse führen namensgenau **Schrottverwertung Christel Bruch**, Luise-Aston-Str. 2, 68519 Viernheim, Tel. 06204 620284. 11880 weist als Eintragsdaten 26.09.2025 aus (Seitenaktualisierung 02.10.2026); Yelp, Cylex und Schrottplatz-info sind ebenfalls nur Verzeichnis-Leads. Das verbessert die Suchspur, erfüllt aber nicht den Primärbelegstandard und bestätigt weder aktuellen Betrieb noch Kundenannahme. Bruch & Söhne führt einen anderen Viernheimer Containerdienststandort am Neuen Weg 4; eine Beziehung zu Christel Bruch ist nicht belegt.
 
 **Preise:** Keine zuordenbare Betreiber-Ankauf-, Verkaufs- oder Gebührenliste. Offen: Inhaberin, Fortbestand und Verhältnis zur anderen Bruch-Gesellschaft; ein fehlender Efb-Eintrag beweist keine Nichtexistenz eines Kleinbetriebs.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Detail erneut direkt gelesen: Name, Luise-Aston-Str. 2, 68519 und 06204 620284 stimmen mit dem bereits dokumentierten Lead überein; das Portal nennt Eintragsdaten 26.09.2025 und Seitenaktualisierung 02.10.2026, also keine belastbare Betriebsbestätigung für heute. Cylex-Suchergebnis zeigt ebenfalls denselben Namens-/Adresslead, der Direktabruf war 403; Verzeichnisse sind keine unabhängigen Betreiberbelege. ANKAUF: kein Kurs/Annahmebeleg; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Kontaktdaten ins Frontmatter übernommen; Adresse nur nach Identitäts-/Annahmeklärung geokodieren. Quellen: https://www.11880.com/branchenbuch/viernheim/120674719B44351687/schrottverwertung-christel-bruch.html ; https://web2.cylex.de/firma-home/schrottverwertung-christel-bruch-7100480.html ; Abgrenzung: http://bruch-und-soehne.com .]
 
 ### Recherche 14.10.2026
 

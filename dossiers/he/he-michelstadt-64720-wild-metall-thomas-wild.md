@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die belastbare namensgleiche Fundstelle ist **nicht** in Michelstadt: Die offizielle Gewerbeseite des Markts Weilbach führt Wild-Metall / Thomas Wild, Reuboldstraße 10, 63937 Weilbach (Bayern), Tel. 09373 2063329. Das belegt einen realen Betrieb in einem anderen Bundesland, jedoch keine Niederlassung, Umfirmierung oder Tätigkeit in Michelstadt (Hessen). Der Seedname bleibt für Michelstadt ungelöst; keine Zusammenführung und keine Kontaktdatenübernahme.
+
+**ANKAUF:** keine Michelstadt-Annahme oder Kurse belegt. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Keine Adresse für dieses Dossier geokodieren, solange der Michelstadt-Betrieb nicht identifiziert ist.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Die amtliche Gewerbeseite des Markts Weilbach erneut direkt abgerufen und die Ortsabweichung bestätigt: Wild-Metall / Thomas Wild, Reuboldstraße 10, 63937 Weilbach, Tel. 09373/2063329. Weilbach liegt in Bayern und ist nicht Michelstadt; die Quelle enthält keine Michelstädter Filiale und keine Preis-/Annahmebedingungen. Die Namensähnlichkeit bleibt ein Ausschluss-/Verwechslungsbeleg, nicht die Identifikation dieses Seeds. ANKAUF/VERKAUF/GEBÜHREN für Michelstadt: keine Belege. Keine Felder übernommen; kein Geocode. Quelle: https://www.weilbach.de/gewerbe/wildmetall/ .]
 
 ### Recherche 04.10.2026
 

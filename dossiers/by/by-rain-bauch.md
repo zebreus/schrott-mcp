@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Verzeichnisse nennen Franz u. Renate Bauch Autoverwertung, Brunntalweg 10, 86641 Rain (Überacker), Tel. 08432 1680 und Mo–Fr 8–17 Uhr. Diese Angaben sind nicht durch einen zugänglichen Betreiberauftritt oder Register-/Kommunalbeleg bestätigt; die Kandidaten-Domain liefert HTTP 503. Frühere Einstufung `aktiv` wird deshalb auf `pruefung` zurückgenommen. Suchtreffer ohne Bauch sind kein Schließungsbeweis.
+Verzeichnisse nennen Franz u. Renate Bauch Autoverwertung, Brunntalweg 10, 86641 Rain (Überacker), Tel. 08432 1680 und Mo–Fr 8–17 Uhr. Eine Škoda-Rücknahmestellenliste vom 05.08.2020 bestätigt **historisch** „Firma Franz Bauch Altautoverwertung“ an Brunntalweg 10 mit derselben Telefonnummer und Domain; das belegt keine aktuelle Betriebs- oder Annahmetätigkeit. Die Kandidaten-Domain liefert beim Abruf vom 24.10.2026 HTTP 503; eine aktuelle Betreiber-/Register-/Kommunalbestätigung fehlt. Frühere Einstufung `aktiv` bleibt auf `pruefung` zurückgenommen. Suchtreffer ohne Bauch sind kein Schließungsbeweis.
 
 - **Ankauf:** keine belastbaren Preise oder Annahmebedingungen.
 - **Verkauf:** keine Verkaufspreise.
@@ -32,6 +32,10 @@ Verzeichnisse nennen Franz u. Renate Bauch Autoverwertung, Brunntalweg 10, 86641
 - **Geokodierung:** Adresse bleibt ein Verzeichnis-Lead; Kundenstandort erst nach Betreiber-/Annahmebestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Die offizielle Škoda-„Callcar Liste Rücknahmestellen“ mit Dokumentdatum 05.08.2020 wurde direkt als PDF geladen und textlich geprüft. Sie nennt „Firma Franz Bauch Altautoverwertung“, Brunntalweg 10, 86641 Rain/Lech, OT Überacker, Telefon 08432 1680, Website `autoverwertung-bauch.de`, E-Mail `franz.bauch@t-online.de` und Franz Bauch. Das ist eine belastbare historische Rücknahmestellen-/Identitätsspur, aber sechs Jahre alt und kein Beleg für aktuelle Annahme, aktuelle Kontaktdaten oder Öffnungszeiten. Die Domain lieferte am selben Tag weiterhin HTTP 503; das beweist keine Geschäftsaufgabe. Eine offizielle Stadt-Rain-Firmenliste wurde ebenfalls direkt gelesen; die Stadt erklärt, die Liste werde von Unternehmen selbst gepflegt und sei weder vollständig noch garantiert korrekt, daher ist ein fehlender Bauch-Eintrag kein Gegenbeweis. Keine Frontmatter-Kontakte/Preise ergänzt. Ankauf: keine aktuellen Kurse; Verkauf: keine Teilepreise; Gebühren: keine aktuellen Entsorgungs-/Abholtarife. GEO-Bedarf: Brunntalweg 10 erst als aktuelle Kundenannahme bestätigen, bevor ein Betriebspunkt geokodiert wird. Quellen: https://www.skoda-auto.de/_doc/73090566-1301-4bbf-8ce2-6d3a5feaa552 ; https://www.autoverwertung-bauch.de/ (HTTP 503); https://www.rain.de/wirtschaft-gewerbe/firmenverzeichnis (selbstverwaltete, unvollständige Liste).]
 
 ### Recherche 07.10.2026
 

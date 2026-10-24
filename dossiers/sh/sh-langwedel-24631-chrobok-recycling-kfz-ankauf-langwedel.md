@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Das Kleinanzeigen-Profil unter dem Namen „Chrobok Recycling KFZ-Ankauf Langwedel“ und die weiterhin indexierten Anzeigen belegen einen Werbeauftritt, aber weder Betreiberidentität noch festen Betriebsstandort. Die in einem Suchtreffer sichtbaren 123 € VB sind nur ein nicht direkt abrufbarer Plattform-Anzeigenpreis; sie belegen weder eine verbindliche Ankaufvergütung für ein bestimmtes Fahrzeug/Material noch eine Gebühr. Status `pruefung` bleibt, bis Inhaber und Standort unabhängig verifiziert sind. Keine belastbare Preisliste gefunden.
+Das Kleinanzeigen-Profil unter dem Namen „Chrobok Recycling KFZ-Ankauf Langwedel“ und eine am 20.10.2026 indexierte Anzeige zum Ankauf von Altfahrzeugen/Schrott-PKW mit Ortsangabe Nortorf belegen einen Werbeauftritt, aber weder Betreiberidentität noch festen Betriebsstandort in Langwedel. Die in einem anderen Suchtreffer sichtbaren 123 € VB sind ein nicht direkt abrufbarer Plattform-Anzeigenpreis; sie belegen weder eine verbindliche Ankaufvergütung für ein bestimmtes Fahrzeug/Material noch eine Gebühr. Nortorf nicht als Langwedel-Adresse behandeln. Status `pruefung`; keine belastbare Preisliste gefunden.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Erneuter Indexabgleich des Kleinanzeigen-Profils zeigt „Chrobok Recycling KFZ-Ankauf Langwedel“ sowie die Anzeige „Ankauf von Altfahrzeugen Schrott PKW“, Ortsangabe Nortorf, Datum 20.10.2026; der direkte Abruf bleibt HTTP 403. Das ist ein jüngeres Lebenszeichen des Werbeprofils, aber kein unabhängig bestätigter Rechtsträger oder Langwedeler Annahmestandort. Der zuvor indexierte Inseratspreis 123 € VB bleibt nicht zuordenbar und ist weder Ankaufkurs noch Entsorgungsgebühr. ANKAUF: Anzeige wirbt mit Altfahrzeugankauf, kein bestätigter Betrag; VERKAUF: keine Liste; GEBÜHREN: kein Tarif, Preiszweck des 123-€-Inserats ungeklärt. Keine Felder/GEO. Quelle: https://www.kleinanzeigen.de/pro/kfz-ankauf-langwedel ; https://www.kleinanzeigen.de/s-anzeige/ankauf-von-altfahrzeugen-schrott-pkw/3416361411-216-18924 (Indexabfrage; Direktabruf 403) .]
 
 ### Recherche 07.10.2026
 

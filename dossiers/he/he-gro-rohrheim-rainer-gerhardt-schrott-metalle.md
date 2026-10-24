@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Das Frontmatter enthält nur den aus der Seed-Tabelle übernommenen Namen „Rainer Gerhardt Schrott & Metalle“, Groß-Rohrheim und Rheinstr. 100. In der bisherigen Dossierakte ist kein verknüpfter Betreiberauftritt, Registerbeleg, Telefon oder Postleitzahl dokumentiert; die Adresse ist damit ein unbestätigter Standortlead und keine bestätigte öffentliche Annahmestelle.
+Ein erneuter Treffer in 11880 nennt für „Rainer Gerhardt Schrott & Metalle“ Rheinstr. 100, **68649** Groß-Rohrheim und **06245 5547**; Cylex wiederholt Straße/Ort. Das sind Verzeichnis-Leads, keine Betreiber- oder Registerbestätigung und keine unabhängigen Belege. Die Angaben sind deshalb nicht ins Frontmatter übernommen; die Rheinstr. 100 bleibt eine unbestätigte Adresse, keine belegte öffentliche Annahmestelle.
 
 **ANKAUF / VERKAUF / GEBÜHREN:** keine dem Seed zurechenbaren Preis- oder Tarifangaben. **GEO:** Straße und Ort nicht als Geschäftspunkt geokodieren, bevor Betreiber und Kundenstandort belegt sind. Status `pruefung` bleibt; fehlende Belege beweisen keine Nichtexistenz oder Schließung.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Exakte Suche plus direkt gelesener 11880-Eintrag konkretisiert den Lead auf Rheinstr. 100, 68649 Groß-Rohrheim, Tel. 06245 5547; 11880 weist die Daten als Eintragsdaten vom 12.07.2026 aus und verlinkt als „Website“ nur ein Branchenverzeichnis bei metallbauer.io. Cylex-Stadtplan wiederholt Rheinstr. 100/68649, ist kein unabhängiger Betreiberbeleg. Kein Impressum, Register- oder Annahmenachweis gefunden. ANKAUF: keine Sorten-/Kursliste; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Straße/PLZ/Telefon bleiben Leads, keine Frontmatter-Fills; Geocoding erst nach Betreiber- und Annahmebestätigung. Quellen: https://www.11880.com/branchenbuch/gross-rohrheim/060440092B113096919/rainer-gerhardt-schrott-metalle.html ; https://web2.cylex.de/stadtplan/Gross-rohrheim-68/Gross-rohrheim-strasse-rheinstr.html .]
 
 ### Owner-GEO-Prüfung 23.10.2026
 

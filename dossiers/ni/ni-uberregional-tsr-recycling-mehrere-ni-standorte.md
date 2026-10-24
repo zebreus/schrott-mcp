@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-TSR betreibt laut aktuellem Unternehmensauftritt deutschlandweites FE-/NE-Metallrecycling und Containerlogistik. Die TSR-Bibliothek führt in Hannover sowohl Hansastraße 9 (30419) als auch „Lindener Hafen“, Alte Speicherstraße 17 (30453); eine niedersächsische Behördenliste vom 19.01.2026 nennt TSR Recycling dagegen an der Alten Speicherstraße 14. Das Dossier bleibt überregional, die Standortadress-Differenz ist offen und wird nicht in ein einzelnes Standortfeld überführt. **Ankauf:** Metallrecycling beschrieben, aber keine öffentlichen Materialpreise; **Verkauf:** keine Preisliste; **Gebühren:** keine konkreten Container-/Entsorgungstarife auf den geprüften TSR-Seiten. Quelle(n): https://www.tsr-recycling.de/ ; https://www.tsr-recycling.de/bibliothek ; https://www.tsr.eu/standorte ; https://www.umwelt.niedersachsen.de/download/208339
+TSR betreibt laut Unternehmensauftritt deutschlandweites FE-/NE-Metallrecycling und Containerlogistik. Die TSR-Bibliothek führt in Hannover Hansastraße 9 (30419) und „Lindener Hafen“, Alte Speicherstraße 17 (30453); eine niedersächsische Behördenliste vom 19.01.2026 nennt TSR Recycling an der Alten Speicherstraße 14. Die Hausnummern 14/17 sind nicht aufgelöst. Das Dossier bleibt überregional; keine dieser Anschriften wird in ein einzelnes Händlerfeld übernommen. Bei späterer Standortauflösung sind die drei Anschriften getrennt zu prüfen/geokodieren; keine Koordinate für den überregionalen Datensatz. **Ankauf:** Metallrecycling beschrieben, aber keine öffentlichen Materialpreise; **Verkauf:** keine Preisliste; **Gebühren:** keine konkreten Container-/Entsorgungstarife auf den geprüften TSR-Seiten. Quellen: https://www.tsr-recycling.de/ ; https://www.tsr-recycling.de/bibliothek ; https://www.tsr.eu/standorte ; https://www.umwelt.niedersachsen.de/download/208339
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Direktabrufe von TSR-Homepage und Standort-/Bibliotheksseiten lieferten diesmal keinen lesbaren Seiteninhalt; deshalb keine neue Betreiberbestätigung aus diesem Abruf behauptet. Der letzte dokumentierte Quellenstand (Recherche 07.10.2026) bleibt maßgeblich: Hansastraße 9 (30419), Alte Speicherstraße 17 (TSR-Bibliothek) vs. Alte Speicherstraße 14 (Behördenliste), ungeklärt. Kein neuer Standort in Niedersachsen mit einzeln bestätigter Adresse oder Kundeneinlieferung belegt. Aus den bereits gelesenen TSR-Seiten ist keine öffentliche numerische Ankaufspreisliste, Verkaufsliste oder konkrete Container-/Entsorgungsgebühr dokumentiert. Überregional-Dossier ohne GEO beibehalten; bei Branchendatensätzen jeden Anschriftenpunkt separat geokodieren, nicht die widersprüchlichen Hausnummern zusammenwerfen. Quellen/letzter lesbarer Stand: https://www.tsr-recycling.de/bibliothek ; https://www.tsr-recycling.de/ ; https://www.tsr.eu/standorte ; https://www.umwelt.niedersachsen.de/download/208339 .]
 
 ### Recherche 07.10.2026
 

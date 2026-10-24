@@ -30,6 +30,10 @@ Der Rechtsträger S.O.S. Schrott und Metallhandel GmbH (HRB 110063 Hamburg, zuvo
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: North-Data-Firmenseite direkt neu gelesen: S.O.S. Schrott und Metallhandel GmbH, HRB 110063 Hamburg (vormals HRB 10416 KI), führt Liquidation vom 10.04.2012, Insolvenzverfahrenshinweis 67g IN 68/12 und Löschung am 19.01.2016. Die sichtbare Registeradresse ist nur „Hamburg“, nicht Neuhöfer Damm 110; die Löschung schließt eine Nachfolge am Ort weder ein noch aus. Die 11880-verknüpfte schwerlast-hamburg.eu-Website gehört weiterhin einer anderen Spedition. ANKAUF: nur historischer Unternehmensgegenstand, kein aktueller Einkauf. VERKAUF: keine Liste. GEBÜHREN: keine aktuellen Tarife. GEO: Neuhöfer Damm 110 ist nur historischer Verzeichnis-Lead; nicht als aktuelle Annahmestelle geokodieren. Quellen: https://www.northdata.de/S.O.S.%20Schrott%20und%20Metallhandel%20GmbH,%20Hamburg/HRB%20110063 ; https://www.schwerlast-hamburg.eu/impressum/ ; https://www.11880.com/branchenbuch/hamburg/060440090B53390996/s-o-s-schrott-und-metallhandelgmbh.html .]
+
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Wichtiger Register-Klärfall: Die live abgerufene North-Data-Firmenseite identifiziert S.O.S. Schrott und Metallhandel GmbH mit Amtsgericht Hamburg HRB 110063, zuvor Kiel HRB 10416 KI, und kennzeichnet die Gesellschaft als erloschen. Ihre Publikationsliste nennt Liquidation am 10.04.2012, das Insolvenzverfahren 67g IN 68/12 und Löschung am 19.01.2016. Die gesondert aufgerufene Löschungsveröffentlichung ist nur für Premium-Kunden verfügbar; ihr Volltext wurde nicht verifiziert. Dies ist ein Register-Einzelbeleg, keine unabhängig doppelt bestätigte dauerhafte Standortschließung. status pruefung sowie Name und Adresse werden nicht überschrieben; Quelle(n): https://www.northdata.de/S.O.S.%20Schrott%20und%20Metallhandel%20GmbH,%20Hamburg/HRB%20110063 ; https://www.northdata.de/?id=1232915043 (Abrufe 04.10.2026).]

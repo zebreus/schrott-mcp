@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Betreiber-Leistungsseite nennt gewerbliche und private Kunden, kurzfristig mögliche Abholung und Containerstellung **1–7 m³**. Der Text behauptet eine Genehmigung nach § 53 KrWG und Fachkunde für Leitungs-/Aufsichtspersonal von Entsorgungsfachbetrieben; **das ist kein vorgelegtes aktuelles EFB-Zertifikat des Betriebs**. Keine Zertifizierung aus dieser Formulierung ableiten.
+Betreiberauftritt nennt gewerbliche und private Kunden, Abholdienste und Containerstellung **1–7 m³**. Auf der Startseite wird die Containerstellung ausdrücklich als **kostenlos** beworben; das ist keine Zusage einer kostenlosen Schrottabholung und kein positiver Ankaufspreis. Der Text behauptet eine Genehmigung nach § 53 KrWG und Fachkunde für Leitungs-/Aufsichtspersonal von Entsorgungsfachbetrieben; **das ist kein vorgelegtes aktuelles EFB-Zertifikat des Betriebs**. Keine Zertifizierung daraus ableiten.
 
-**Ankauf:** als Schlagwort genannt, keine numerische Liste. **Verkauf/Gebühren:** kein Tarif auf der gelesenen Seite, insbesondere keine belegte generelle Gratis-Abholung. Betreiberquelle nennt 35398 Gießen ohne Straße; Leimenkauter Weg 34 bleibt Verzeichnis-Lead. Zweitbeleg/Identität und Standort vor Frontmatter-/GEO-Fill klären.
+**Ankauf:** Schrott-/Metallabholung beschrieben, aber keine Sorten- oder Zahlenkursliste. **Verkauf:** keine Teile-/Materialpreisliste. **Gebühren:** 0 € für die beworbene Containerstellung; Bedingungen, Standzeit/Transport und sonstige Gebühren nicht beziffert, keine belegte generelle Gratis-Abholung. Betreiberquelle nennt 35398 Gießen ohne Straße; Leimenkauter Weg 34 bleibt Verzeichnis-Lead. Straße und Kundenstandort vor Frontmatter-/GEO-Fill klären.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiberstartseite erneut direkt gelesen. Sie beschreibt Schrottabholung für Privat-/Gewerbekunden, Entsorgung von Altmetall, Alteisen, Kabel, Stahl, Aluminium und Kupfer, Demontagen sowie Container 1–7 m³; die Containerstellung wird ausdrücklich „kostenlos“ angeboten. Das ist ein konkreter Gebühren-/Servicefund für die Containerbereitstellung, aber kein Ankaufskurs und keine pauschale Kostenfreiheit der Abholung. ANKAUF: keine numerische Kursliste; VERKAUF: keine Liste; GEBÜHREN: kostenlose Containerstellung beworben, weitere Bedingungen/Tarife nicht genannt. Die Seite nennt nur 35398 Gießen; Leimenkauter Weg 34 bleibt ein nicht primärer Verzeichnislead. Kein Frontmatter-Fill oder Geocode. Quelle: https://www.schrott-giessen.de/ .]
 
 ### Recherche 15.10.2026 (00:00-Welle A)
 

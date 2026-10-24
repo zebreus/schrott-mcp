@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottjungs UG (HRB 196586 Hamburg) bewirbt mobile Schrottabholung für Privat- und Gewerbekunden in allen Berliner Bezirken. Die Berliner Betreiberseite nennt weder Anlieferhof noch konkrete Berliner Partneradresse; Rechtssitz Hamburg ist kein Berliner Standort. Kleine wertvolle Buntmetallmengen sollen kostenfrei abgeholt werden, Auszahlung für größere/hochwertige Mengen zum Tageskurs; bei Eisenschrott nennt die Seite eine 300-kg-Schwelle und zugleich mögliche Gebühren für Kleinmengen/Einzelgeräte.
+
+**Preise:** **Ankauf:** kein fester Berliner Tageskurs; gewerbliche Schrottjungs-Seite enthält eine gemeinsame, unverbindliche „bis zu“-Großmengenliste (siehe `sn-mobil-leipzig-schrottjungs-schrottabholung-leipzig`), nicht als Berliner Privatpreis. **Verkauf:** keine Materialverkaufspreisliste. **Gebühren:** meist kostenlos laut Werbung; ca. 40–80 € für kleine Eisenmengen/Einzelgeräte, aber Bedingungen auf derselben Seite nicht durchgehend widerspruchsfrei. **GEO:** kein Berliner Annahmeort, kein lokaler Pin.
 
 ## Timeline
+
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Berlinseite direkt erneut gelesen. Sie bewirbt Abholung in allen Bezirken und nennt in der FAQ für Eisenschrott eine Mindestmenge von 300 kg; kleine Eisenmengen/Einzelgeräte können zugleich gegen ca. 40–80 € abgeholt werden, während die Kategorienliste Eisen unter 300 kg als „holen wir nicht ab“ markiert. Die Seite zahlt bei größeren/hochwertigen Metallen den Tageskurs aus, veröffentlicht aber keinen festen lokalen Kurs. Gewerbliche „bis zu“-Obergrenzen stehen getrennt auf der allgemeinen Gewerbeseite und gelten laut Betreiber nur unverbindlich für Großmengen (siehe Leipzig-Dossier; nicht noch einmal als Berliner Standortpreise registriert). ANKAUF: nur Tagesangebot/Referenzliste, kein fester Berlinpreis. VERKAUF: keine Liste. GEBÜHREN: ca. 40–80 € als bedingte, vorab zu klärende Angabe. GEO: kein Berliner Hof/Partnerstandort genannt. Quellen: https://schrottjungs.de/schrottabholung-berlin/ ; https://schrottjungs.de/gewerbe/ ; https://schrottjungs.de/impressum-datenschutz/ .]
 
 ### Recherche 04.10.2026
 

@@ -28,6 +28,10 @@ Die Registerdaten ordnen HRB 301103 der SERO Recycling- und Handels-GmbH Südth�
 
 ## Timeline
 
+### Quellenprüfung 24.10.2026
+
+- [Recherche 24.10.2026: Namensgenauer North-Data-Registerauszug zu HRB 301103 erneut direkt geprüft: Bahnhofstraße 22 A, 98646 Hildburghausen bleibt Geschäftsanschrift; Unternehmensgegenstand umfasst Erfassung, Einkauf, Aufbereitung und Handel mit Sekundärrohstoffen/Abfällen. Die Publikationsliste zeigt außerdem eine neue Veröffentlichung am 22.09.2026 über die Gesellschafterin M.W. Boer Verwaltungsgesellschaft mbH; das ist Register-/Publikationsaktivität, kein Nachweis einer aktuell geöffneten Kundenannahme vor Ort. Verwechslung mit ähnlich benannten SERO-Recycling-/SERO-distribution-Websites nicht belegt und nicht übertragen. ANKAUF: formaler Einkaufszweck, aber keine aktuelle Annahmebestätigung oder Sortenkurse. VERKAUF: keine Materialverkaufspreise. GEBÜHREN: keine veröffentlichten Annahme-/Entsorgungstarife. GEO: Bahnhofstraße 22 A ist Registeranschrift, nicht verifizierter Kundenhof; erst öffentliche Annahme belegen, bevor als Hof geokodiert wird. Quellen: https://www.northdata.de/SERO%20Recycling-%20und%20Handels-GmbH%20S%C3%BCdth%C3%BCringen,%20Hildburghausen/Amtsgericht%20Jena%20HRB%20301103 ; https://www.handelsregister.ai/de/organizations/hildburghausen/grosshandel-mit-ne-erzen-ne-metallen-und-ne-metallhalbzeug/sero-recycling-und-handels-gmbh-sudthuringen-8687bd613db5d77d3646c4832e4459d5 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Recycling/Handel
