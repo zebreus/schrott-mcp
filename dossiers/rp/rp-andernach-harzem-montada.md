@@ -28,6 +28,10 @@ Neuer qualifizierter Quellenlead: Creditreform-Suchtreffer nennt „Ute Harzem-M
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Creditreform-Suchdarstellung erneut geprüft; sie nennt „Ute Harzem-Montada Schrotthandel“, Nikolausstr. 1, 56626 Andernach und 02632 490150. Der Direktabruf des Firmenprofils antwortet weiterhin HTTP 403, sodass weder Volltext noch aktueller Status überprüfbar waren. Weitere Verzeichnisresultate wiederholen den Lead, belegen aber keine Betreiber-/Behördenbestätigung. Toni Montada/Birkenring bleibt eine getrennte Spur. Keine Frontmatter-Füllung, kein GEO, keine Schließung abgeleitet. ANKAUF/VERKAUF/GEBÜHREN: keine zugeordneten Kurse, Preislisten oder Tarife. Quelle: https://firmeneintrag.creditreform.de/56626/5290158656/UTE_HARZEM_MONTADA_SCHROTTHANDEL (Suchtreffer; Direktabruf 403).]
+
 ### Recherche 16.10.2026
 
 - [Recherche 16.10.2026: Suche Harzem-Montada Schrotthandel findet Creditreform-Profil UTE_HARZEM_MONTADA_SCHROTTHANDEL mit Nikolausstr. 1, 56626 und 02632 490150 im Suchsnippet. Direktzugriff HTTP403; Profilinhalt/Status nicht gelesen. Dies ist ein neuer Register-/Firmenauskunfts-Prüfpfad, aber noch kein aus zwei qualifizierten Quellen gesicherter Fill. Verzeichnis-Parallelspur Toni Montada, Birkenring 1, nicht mit Ute gleichsetzen. ANKAUF/VERKAUF/GEBÜHREN keine Zahlenlisten; GEO bis bestätigter aktueller Annahmeadresse offen. Quelle: https://firmeneintrag.creditreform.de/56626/5290158656/UTE_HARZEM_MONTADA_SCHROTTHANDEL (Suchtreffer, Direktabruf 403).]

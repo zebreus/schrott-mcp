@@ -30,6 +30,10 @@ Verzeichnisse führen den Kandidaten als „Prager Axel Unfallwagenhdl.“ an Am
 
 ## Timeline
 
+### Recherche 24.10.2026: aktueller 11880-Suchtreffer
+
+- [Recherche 24.10.2026: 11880-Suchergebnisseite zu Prager in Duisburg direkt gelesen. Sie führt „Axel Prager UnfallwagenHdl.“ an Am Sportplatz 24, 47239 Duisburg-Rumeln-Kaldenhausen, 02151 940729 und ordnet den Eintrag portal-seitig als Schrottplatz, Altmaterialhandel und Schrotthandel ein; die Ergebnisansicht zeigte beim Abruf „Geschlossen“, ohne daraus einen dauerhaften Schließungsstatus abzuleiten. Kein Betreiber-/Registerbeleg, keine Betreiberbedingungen oder Preisangaben; die Rubriken beweisen keinen allgemeinen Metallankauf oder eine öffentliche Annahmestelle. **Ankauf/Verkauf/Gebühren:** weiter ohne zurechenbare Preis-/Tarifliste. Keine Felder oder GEO geändert. Quelle (Verzeichnis-Suchergebnis): https://www.11880.com/suche/prager/duisburg]
+
 ### Recherche 14.10.2026 (Welle 5 A)
 
 - [Recherche 14.10.2026: Neue zulässige Auskunftei-Spur recherchiert: Suchresultat nennt Axel Prager Kfz-Handel, Creditreform-ID 5070316492/47239. Direkte Detailseite HTTP 403, Northdata-Suche HTTP 429; beide Inhalte ungelesen und damit kein zweiter Identitäts-/Adressbeleg. Suchresultate wiederholen Am Sportplatz 24 und Dahlingstraße 90 nur als Verzeichnis-/Autobörsen-Leads; kein Umzug oder zwei Betriebsstellen bewiesen. Ankauf von Unfall-/Gebrauchtwagen nicht in allgemeinen Schrott-/Metallankauf umdeuten; keine zugeordneten Ankauf-/Verkaufslisten oder Gebühren gelesen. Keine Stammdatenänderung. Offen: Auskunftei-/Gewerbedetail und aktuelle Betreiberbestätigung an einer der beiden Anschriften; Quelle(n): https://search.brave.com/search?q=%22Axel%20Prager%22%20%22Duisburg%22 (gelesene Suchresultate) ; https://firmeneintrag.creditreform.de/47239/5070316492/AXEL_PRAGER_KFZ_HANDEL (HTTP 403) ; https://www.northdata.de/?query=Axel+Prager+Duisburg (HTTP 429)]

@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 24.10.2026: 11880-Profil erneut direkt geprüft
+
+- [Recherche 24.10.2026: Das 11880-Profil direkt abgerufen. Es führt Jens Theissen Transporte, Alstadener Str. 126, 46049 Oberhausen, 0208 8486706 sowie zusätzlich 0208 8483735 und die Rubriken Kleintransport, Altmaterialhandel und Schrotthandel. Die Seite zeigt weder Betreiberwebsite noch E-Mail oder Öffnungszeiten; Eintragsdaten 29.06.2021, Portalaktualisierung 03.10.2026. Eine allgemeine FAQ-Vorlage über mögliche Inhaberbestätigung weist keine konkrete Bestätigung dieses Profils nach. Daher weiterhin kein Betreiber-/Registerbeleg, kein Nachweis für aktuelle Tätigkeit oder Annahme. **Ankauf:** keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Keine Kontaktdaten oder GEO übernommen. Quelle (Verzeichnislead): https://www.11880.com/branchenbuch/oberhausen-rheinland/190682936B101020212/jens-theissen-transporte.html]
+
 ### Recherche 21.10.2026 — Aktualitäts- und Preisprüfung
 
 - [Recherche 21.10.2026: Der direkte 11880-Eintrag führt Jens Theissen Transporte an der Alstadener Str. 126, 46049 Oberhausen, Tel. 0208 8486706/8483735, unter Kleintransport, Altmaterialhandel und Schrotthandel. Der Eintrag trägt als Datenerfassung 29.06.2021 und Portalaktualisierung 03.10.2026; die jüngere Portalaktualisierung ist kein Betreiber- oder Gewerbenachweis. Kein zweiter qualifizierter Identitäts-/Standortbeleg gefunden; weiterhin keine Annahmebedingungen aus der Branchenrubrik ableiten. ANKAUF: keine zuordenbare Preisliste; VERKAUF: keine Liste; GEBÜHREN: keine Tarifangabe. Keine Felder gefüllt. Quelle (Verzeichnislead): https://www.11880.com/branchenbuch/oberhausen-rheinland/190682936B101020212/jens-theissen-transporte.html]

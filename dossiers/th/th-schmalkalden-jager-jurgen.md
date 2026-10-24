@@ -28,6 +28,10 @@ Die Betreiberwebsite identifiziert Jürgen Jäger als Autoverwertungs-Meisterbet
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Gegenprobe am bestehenden Betreiberauftritt und am kartierten OSM-Objekt ergab keinen neuen bestätigten Kundeneingang. Website belegt Autoverwertung, Abschleppdienst, Teile und Autoservice, nicht allgemeinen Schrottankauf; der OSM-Knoten nennt Autoverwertung Jäger, aber die Zuordnung eines konkreten Einfahrtspunkts und öffentlicher Anlieferung bleibt offen. ANKAUF: keine Schrott-/Fahrzeugankaufskurse belegt; VERKAUF: Teile angeboten, keine Preisliste; GEBÜHREN: keine Tarife. GEO bewusst nicht ergänzt/verschoben; der Produktionspunkt Eichelbach 2 wird nicht ohne Standortnachweis durch Burgweg 1a ersetzt. Quellen: https://www.jaeger-autoverwertung.de/ ; https://www.openstreetmap.org/node/8486351645 .]
+
 ### Owner-GEO-Prüfung 21.10.2026
 
 - [Owner-GEO-Prüfung 21.10.2026: Die Betreiberhomepage bestätigt Autoverwertung am Burgweg 1a; der OSM-Karteneintrag an dieser Adresse ist als Autoverwertung Jäger/scrap yard gekennzeichnet. Der Produktionspunkt löst dagegen auf Eichelbach 2 auf. Burgweg 1a ist ein Standortkandidat, doch öffentliche Anlieferbedingungen sind nicht ausdrücklich belegt und ein Eingangspunkt wurde nicht verifiziert; keine Koordinate ergänzt. Quellen: [Betreiberseite](https://www.jaeger-autoverwertung.de/), [OSM-Anlage](https://www.openstreetmap.org/node/8486351645), [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?lat=50.7214&lon=10.4439&format=jsonv2&zoom=18&addressdetails=1&extratags=1), [Owner-Bericht](../../research/wave-20261021-0900-geo-th.md).]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für Ludwigshafen ließ sich kein Betreiber „Claus Theodor“ identifizieren. Die eigene Website der Theodor Claus GmbH verortet die Firma eindeutig in Mannheim (Pfingstweidstr. 37, HRB 5236) und führt dort Schrott-/Metallhandel, Nutzeisen und Containerdienst. Der aktuelle Kontaktauftritt nennt Mo-Fr 07:00-15:45; die ältere Recherche notierte 07:00-16:30. Diese Zeitabweichung betrifft nur Mannheim und ist kein Ludwigshafen-Beleg. Offen bleibt, ob der Seed ein Ortsfehler oder ein separater, unidentifizierter Händler ist.
+Für Ludwigshafen ließ sich kein Betreiber „Claus Theodor“ identifizieren. Die eigene Website der Theodor Claus GmbH verortet die Firma eindeutig in Mannheim (Pfingstweidstr. 37, HRB 5236) und führt dort Schrott-/Metallhandel, Nutzeisen und Containerdienst. Der aktuelle Kontaktauftritt nennt Mo–Fr 07:00–15:45; eine ältere Erfassung hatte 07:00–16:30 notiert. Diese Zeitabweichung betrifft nur Mannheim und ist kein Ludwigshafen-Beleg. Offen bleibt, ob der Seed ein Ortsfehler oder ein separater, unidentifizierter Händler ist. **Ankauf/Verkauf/Gebühren für Ludwigshafen:** mangels identifizierter Zielstelle keine belastbaren Annahmebedingungen, Preise oder Tarife; die Mannheimer Leistungen und Zeiten sind nicht übertragbar. Kein GEO.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Impressum, Kontakt- und Leistungsseiten der Theodor Claus GmbH erneut direkt gelesen. Impressum und Kontakt verorten die Gesellschaft weiterhin in Mannheim, Pfingstweidstr. 37, HRB 5236; Kontaktzeiten aktuell Mo–Fr 07:00–15:45. Die ältere Angabe 07:00–16:30 ist als früherer Seitenstand erhalten, nicht als aktuelle Zeit. Die Website beschreibt Schrott-/Metallhandel, Nutzeisen und Containerdienst in Mannheim, aber nennt keinen Ludwigshafen-Standort und keine Identitätsbrücke zur Seed-Zeile. Für Ludwigshafen keine Kontakt-/Leistungsdaten übernommen. ANKAUF: keine Zielstelle oder Kurse belegt; VERKAUF: keine Preisangaben für den Seed; GEBÜHREN: keine Zieltarife. Status `pruefung`, kein GEO. Quellen: https://www.claus-schrott.de/impressum ; https://www.claus-schrott.de/kontakt ; https://www.claus-schrott.de/unsere-dienste.]
 
 ### Recherche 21.10.2026 (Welle RP)
 

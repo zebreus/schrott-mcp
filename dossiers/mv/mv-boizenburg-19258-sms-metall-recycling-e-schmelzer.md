@@ -28,6 +28,10 @@ Der am 18.10.2026 im unabhängigen Review direkt gelesene Auftritt unter smsrecy
 
 ## Timeline
 
+### Recherche 24.10.2026: Betreiberauftritt erneut direkt geprüft
+
+- [Recherche 24.10.2026: Startseite und Impressum von smsrecycling.de live direkt abgerufen. Die Seiten bezeichnen den Anbieter als SMS Metall Recycling und nennen ausschließlich In den Wiesenhöfen 34, 27383 Scheeßel, 0176 68232814, e.schmelzer@smsrecycling.de und USt-ID DE301515073; ein Personenname oder Bezug zu Boizenburg wird nicht ausgewiesen. Die Homepage wirbt allgemein mit Schrotthandel, Abholung/Containern und „fairen Preisen“, veröffentlicht in den geprüften Seiten aber keine Zahlenkurse oder Gebühren. Der E-Mail-Lokalteil bleibt nur ein Identitätslead, keine Umzugs-/Filial-/Rechtsnachfolgekette. Keine Website-/Kontakt-/Adressübernahme, keine GEO-Koordinaten; **Ankauf/Verkauf/Gebühren für den Boizenburger Zielbetrieb** bleiben ungeklärt. Quellen: https://www.smsrecycling.de/ ; https://www.smsrecycling.de/impressum/]
+
 ### Recherche 18.10.2026 (Scheeßeler Identitätslead)
 
 - [Recherche 18.10.2026: Startseite und Impressum von smsrecycling.de im unabhängigen Review direkt gelesen: Selbstauskunft SMS Metall Recycling, In den Wiesenhöfen 34, 27383 Scheeßel, 0176 68232814, e.schmelzer@smsrecycling.de, USt-ID DE301515073. Ein Personenname E. Schmelzer wird nicht ausdrücklich genannt; der E-Mail-Lokalteil ist nur ein Lead. Keine Boizenburg-Verbindung oder Register-/Umzugskette auf diesen Seiten belegt. Keine numerischen Ankauf-/Verkaufspreise oder Gebühren auf beiden gelesenen Seiten. Die sichtbaren Startseitenkontaktdaten haben abweichende technische Linkziele; Erreichbarkeit nicht geprüft. Status pruefung und alle Frontmatter-Werte unverändert; keine Standortzuordnung oder Geocodierung. Historischer Abruf am 12.10. in dieser Prüfung nicht verifiziert. Quelle(n): https://www.smsrecycling.de/ ; https://www.smsrecycling.de/impressum/ ; Abruf im Review 18.10.2026.]

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der am 20.10.2026 direkt geprüfte 11880-Eintrag nennt „Bamberger Schrotthandel GbR“, Eugen-Kaiser-Str. 1c, 63450 Hanau, 01577 6043208 und djsoul@live.de; er ist ein einzelner Verzeichnisbeleg (Eintragsdaten 05.11.2025, aktualisiert 03.10.2026). Andere Verzeichnisse nennen Eugen-Kaiser-Str. 1 oder Diebacher Weg 121, 63452. Die Adresskonflikte lassen weder einen aktuellen Annahmestandort noch eine Betreiberzuordnung erkennen. Kein belegter Bezug zum separaten ARB/Bamberger-Eintrag in Darmstadt oder zur Hanauer Strahl-/Beschichtungstechnik-GmbH.
+Der am 24.10.2026 direkt erneut geprüfte 11880-Eintrag nennt „Bamberger Schrotthandel GbR“, Eugen-Kaiser-Str. 1c, 63450 Hanau, 01577 6043208 und djsoul@live.de; laut Profil stammen die Eintragsdaten vom 05.11.2025, Aktualisierung 03.10.2026. Andere Verzeichnisse führen Eugen-Kaiser-Str. 1 oder Diebacher Weg 121, 63452. Das sind Leads, keine Betreiberbestätigung; Adresskonflikt, Identität und aktuelle Annahmestelle bleiben offen. Kein belegter Bezug zum separaten ARB/Bamberger-Eintrag in Darmstadt oder zur Hanauer Strahl-/Beschichtungstechnik-GmbH.
 
 **Preise:** **ANKAUF** – keine zugeordnete Preisliste; **VERKAUF** – keine Liste; **GEBÜHREN** – keine Angaben. Offen: Inhaber, aktuelle Geschäfts-/Annahmestelle und Betreiberquelle. **GEO:** bis zur Identitäts- und Adressklärung nicht geocodieren.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Profil direkt gelesen; es zeigt weiterhin Bamberger Schrotthandel GbR, Eugen-Kaiser-Str. 1 c/63450 Hanau, 01577 6043208 und djsoul@live.de; das Portal kennzeichnet Eintragsdaten 05.11.2025 und Aktualisierung 03.10.2026. Es ist ein einzelner Branchenportalbeleg. Die weiteren Portalspuren zu Eugen-Kaiser-Str. 1 bzw. Diebacher Weg 121/63452 lösen weder Anschrift noch Identität/Annahmestelle auf; keine Verknüpfung mit Bamberger Darmstadt oder der Beschichtungstechnik-GmbH. Keine Frontmatter-Füllung oder GEO. ANKAUF: keine zugeordnete Preisliste; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quelle: https://www.11880.com/branchenbuch/hanau/120674719B107338805/bamberger-schrotthandel-gbr.html.]
 
 ### Recherche 20.10.2026
 

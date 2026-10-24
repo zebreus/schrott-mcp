@@ -32,6 +32,10 @@ Die Betreiberwebsite und das Impressum identifizieren die **Albert Gogel GmbH** 
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Betreiber-Kontaktseite erneut direkt geprüft; Adresse, Telefonnummer und die bereits dokumentierte Differenz zwischen FE/NE-Werksanlieferung, Abholung und Bürozeiten bleiben konsistent. Der aktuelle Auftritt verlinkt ein EFB-Zertifikat mit Dateiname „EFB-2026-Zertifikat-Schrott-Gogel-Backnang.pdf“; der direkte PDF-Abruf konnte in dieser Prüfung nicht inhaltlich ausgelesen werden. Daher keine Aussage zu Zertifikatsumfang, Gültigkeit oder Annahmeberechtigung daraus abgeleitet. ANKAUF: keine numerischen Kurse; VERKAUF: keine Materialpreisliste; GEBÜHREN: keine numerischen Tarife, Abholfahrtkosten laut Betreiber meist anfallend. GEO bleibt der bereits belegte Betriebsobjektpunkt, kein bestätigter Einfahrtspunkt. Quellen: https://schrott-gogel.de/kontakt ; https://schrott-gogel.de/media/EFB-2026-Zertifikat-Schrott-Gogel-Backnang.pdf .]
+
 ### GEO-Korrektur 22.10.2026
 
 - [GEO-Korrektur 22.10.2026: Betreiberwebsite/Kontakt bestätigen Fridastraße 5, 71522 Backnang als Werk- und Anlieferadresse für Stahl- und Buntmetalle. Der OSM-Knoten `Albert Gogel GmbH` (8660018128) liegt bei 48.9477513, 9.4248526 und trägt übereinstimmend `operator=Thomas Auch`, `phone=+49 7191 49343-0`, `website=https://schrott-gogel.de/` sowie `amenity=recycling`. Damit ist dieser Betreiberpunkt ein belegter Ersatz für das Alt-GEO 48.9474, 9.4372, dessen Reverse-Abfrage eine andere Lage im Bereich Gartenstraße/Parken zeigte. Die Koordinate bezeichnet das kartierte Betriebsobjekt, nicht einen bestätigten Einfahrtspunkt. Quellen: https://schrott-gogel.de/kontakt ; https://api.openstreetmap.org/api/0.6/node/8660018128 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.9474&lon=9.4372&zoom=18&addressdetails=1 .]

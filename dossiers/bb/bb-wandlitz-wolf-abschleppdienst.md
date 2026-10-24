@@ -30,6 +30,10 @@ Verzeichnisse führen „Autoverwertung Wolf Abschleppdienst“ an Zühlsdorfer 
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Das-Örtliche und Gelbe Seiten erneut direkt geprüft; beide Verzeichnisse nennen Autoverwertung Wolf/Abschleppdienst, Zühlsdorfer Str. 5, 16348 Wandlitz-Basdorf und 0172 3908579. Das-Örtliche ordnet den Eintrag aktuell der Branche „Abschleppdienste“ zu und führt Bergungsdienste als Zusatzinfo, nicht einen geprüften Annahmeplatz. Die übereinstimmenden Verzeichnisdaten sind kein Betreiber-, Register- oder Behördenbeleg; weder aktuelle Autoverwertung noch Schrott-/Fahrzeugankauf bestätigt. Keine Frontmatter-Füllung, status `pruefung`; kein GEO. ANKAUF: keine belegten Angebote/Kurse; VERKAUF: keine Teilepreisliste; GEBÜHREN: keine Tarife oder Gratiszusage. Quellen: https://www.dasoertliche.de/Themen/Autoverwertung-Wolf-Abschleppdienst-Wandlitz-Basdorf-Z%C3%BChlsdorfer-Str ; https://www.gelbeseiten.de/gsbiz/f711816b-b99a-4e05-8707-98a4f93ae581.]
+
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: Exakte Gegenrecherche ergab keine zusätzliche verifizierte Betreiber-/Registerquelle für „Autoverwertung Wolf Abschleppdienst“ und keinen Beleg für eine öffentliche Annahmestelle. Die bereits dokumentierten Gelbe-Seiten-/Das-Örtliche-Treffer bleiben Kategorien- und Kontakthinweise aus Verzeichnissen; daraus weder Betriebsschließung noch Fahrzeugankauf ableiten. ANKAUF: keine belegten Fahrzeugangebote. VERKAUF: keine Teilepreisliste. GEBÜHREN: keine Tarife. Der Verzeichniskartenpunkt ist kein GEO-Nachweis; Status pruefung bleibt. Quellen: https://www.gelbeseiten.de/gsbiz/f711816b-b99a-4e05-8707-98a4f93ae581 ; https://www.dasoertliche.de/Themen/Autoverwertung-Wolf-Abschleppdienst-Wandlitz-Basdorf-Z%C3%BChlsdorfer-Str (Gegenprüfung/Abruf 20.10.2026).]

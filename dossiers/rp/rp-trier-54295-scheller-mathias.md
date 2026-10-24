@@ -29,6 +29,10 @@ Mathias/Matthias Scheller beziehungsweise MS Schrotthandel in Trier bleibt ungek
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: 11880-Profil direkt erneut gelesen: „Metallrecycling / MS Schrotthandel“, Matthias Scheller, Tessenowstr. 35, 54295 Trier, 0175 2305407, matthiasscheller@hotmail.de und Portalzeiten Mo–Fr 08–18/Sa 08–16; Profil als „vom Inhaber bestätigt“ markiert und aktualisiert am 17.10.2026. Der Link führt zu SELLWERK/Comprix; diese Profile sind ein verknüpfter Verzeichnis-Komplex, keine unabhängige Betreiberwebsite oder zweite qualifizierte Quelle. Die ausgewiesene Aufforderung „Bitte rufen Sie uns für genauere Informationen an“ ist keine Preisangabe. Kein Fill, kein GEO, `clear_fields: 'geo'` bleibt. ANKAUF/VERKAUF/GEBÜHREN: keine dem Ziel zugeordneten Kurse, Preislisten oder Tarife. Quelle: https://www.11880.com/branchenbuch/trier/032192491B113026256/matallrecycling-schrott-und-metalle-matthias-scheller.html ; verknüpftes Profil: https://sellwerk.de/firmenprofil/schrottmetallhandel-matthias-scheller.]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.7534167, 6.6370833. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

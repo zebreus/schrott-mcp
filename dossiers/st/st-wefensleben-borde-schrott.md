@@ -28,6 +28,10 @@ Das Registerprofil identifiziert eine Börde Schrott UG (HRB 22798, AG Stendal) 
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Das Kleinanzeigen-Pro-Profil „Börde Schrott“ wird im aktuellen Suchindex mit jüngsten Inseraten und Leistungen wie Schrotthandel, Firmenauflösung, Industriedemontage sowie Container/Anlieferung/Abholung angezeigt. Der direkte Profilabruf war HTTP 403; Details sind deshalb nur ein frisches Werbe-/Aktivitätssignal, kein unabhängig geprüfter Beleg für eine geöffnete Annahmestelle oder die konkrete UG. Registerprofile belegen weiterhin die Gesellschaft und ihren Sitz, nicht deren Kundenzugang. ANKAUF: keine festen/materialbezogenen Kurse; VERKAUF: keine Schrott-/Metall-Verkaufspreisliste; GEBÜHREN: keine Container-/Entsorgungstarife. Status pruefung, keine neue GEO. Quellen/Lead: https://www.kleinanzeigen.de/pro/boerde-schrott--wefensleben (Direktabruf 403; Suchindex-Leads); https://www.northdata.de/B%C3%B6rde%20Schrott%20UG,%20Wefensleben/Amtsgericht%20Stendal%20HRB%2022798 ; https://www.creditsafe.com/business-index/de-de/company/borde-schrott-ug-haftungsbeschrankt-de20493475 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottannahme Fe/NE (lt. Verzeichnis)

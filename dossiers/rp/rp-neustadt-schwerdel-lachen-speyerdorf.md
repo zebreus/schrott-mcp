@@ -28,6 +28,10 @@ Für „Schwerdel Lachen-Speyerdorf“ ist kein zuordenbarer Schrottbetrieb, kei
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Exakte Namens-/Orts- und Schreibvarianten-Suchen zu „Schwerdel“/„Schwerdtel“/„Schwertel“ in Neustadt, Lachen-Speyerdorf und mit Schrott-/Altmetallbezug ergaben keine neue zuordenbare Betreiber-, Register- oder Kommunalquelle. Die bereits geprüften Impressen André Schwerdel (Kaufbeuren) und Schrotthandel Meyer (Neustadt) belegen weiterhin keine Verbindung zum Seed; der Feuerwehrbericht zu Patrick Schwerdel ist kein Unternehmensnachweis. Ergebnislosigkeit ist kein Nichtexistenz- oder Schließungsbeweis. Keine Feldänderung, kein GEO. ANKAUF: keine Bedingungen/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen zur Abgrenzung: https://www.andreschwerdel.com/impressum ; https://schrotthandel-meyer.de/index.php/impressum ; https://www.fwnw.de/archiv/349-wir-haben-s-knallen-lassen-1-technische-hilfe-lehrgang-der-feuerwehr-neustadt-an-der-weinstrasse.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - urspr. Website-Angabe: keine

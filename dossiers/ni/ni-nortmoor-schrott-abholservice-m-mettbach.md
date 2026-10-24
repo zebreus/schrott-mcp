@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 24.10.2026: Verzeichniseintrag direkt erneut geprüft
+
+- [Recherche 24.10.2026: 11880-Detail direkt abgerufen. Sichtbar sind weiterhin „Schrott Abholservice M.Mettbach“, Dorfstr. 65 a, 26845 Nortmoor, 0163 9815302 und die Rubrik Altmetallrecycling; Website, E-Mail und Öffnungszeiten fehlen. Die Seite führt Eintragsdaten vom 12.11.2024 und eine Aktualisierung am 04.10.2026 auf. Eine allgemeine FAQ-Vorlage zu „vom Inhaber bestätigt“ markiert nicht erkennbar diesen Eintrag individuell. Damit bleiben Straße und Nummer Verzeichnis-Leads, keine Betreiberbestätigung oder Abhol-/Annahmezusage. **Ankauf:** keine Vergütung/Preise belegt; **Verkauf:** keine Liste; **Gebühren:** kein Tarif/Gratisversprechen; kein GEO. Quelle (Verzeichnislead): https://www.11880.com/branchenbuch/nortmoor/060440092B113391551/schrott-abholservice-m-mettbach.html]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: 11880-Detailseite direkt gelesen. Sie nennt Schrott Abholservice M.Mettbach, Mobil 0163 9815302 und Dorfstr. 65 a, 26845 Nortmoor; Öffnungszeiten und Website fehlen. Die Seite selbst gibt an: Eintragsdaten vom 12.11.2024, zuletzt aktualisiert am 04.10.2026; keine Kennzeichnung als inhaberbestätigt erkennbar. Damit bleibt es ein einzelner Aggregatorbeleg, kein Betreiber-/Register-/Kommunalnachweis. Telefonnummer nur im Überblick als ungeprüfter Lead; Frontmatter/status, Annahme- und Abholbedingungen sowie GEO unverändert. Keine Preis- oder Gebührenliste. Quelle: https://www.11880.com/branchenbuch/nortmoor/060440092B113391551/schrott-abholservice-m-mettbach.html .]

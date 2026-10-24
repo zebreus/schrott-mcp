@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Aktuelle Namens-/Ortsabfragen bestätigen als Suchhinweis weiterhin den gewerblich beschrifteten Das-Telefonbuch-Treffer „Nock & Söhne Schrotthandel“, Friedrich-Ebert-Str. 184, 90766 Fürth, 0172 8171416; Gelbe-Seiten-/Cylex-Treffer wiederholen die Anschrift als Verzeichnisdaten. Das sind keine Betreiber- oder Registerbelege und keine unabhängigen Primärquellen. Private Nock-Treffer werden nicht zugeordnet. ANKAUF: keine Bedingungen/Kurse belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Keine Frontmatter-Fills, keine GEO ohne bestätigten Standort. Offen bleiben Inhaber/Rechtsform und aktueller Hofbetrieb. Quellen/Leads: https://www.dastelefonbuch.de/Firmen/Nock/F%C3%BCrth ; https://www.gelbeseiten.de/gsbiz/ce0a6195-60e9-418b-ba58-8cef0d66b726 ; https://web2.cylex.de/firma-home/nock-_-soehne-schrotthandel-3175607.html .]
+
 ### Korrektur 18.10.2026 — Welle 02:00 / a
 
 - [Korrektur 18.10.2026: Suchfilterfehler der Vorrecherche eingegrenzt: /Suche/Nock/Fürth leitet zur Personensuche (zwei private Treffer); /Firmen/Nock/Fürth liefert dagegen einen gewerblichen Treffer „Nock & Söhne Schrotthandel“, Friedrich-Ebert-Str. 184/90766 und 0172 8171416. Die frühere Nichtauffindbarkeit bezog sich somit nur auf die Personensuche, nicht auf den gesamten Anbieterbestand. Gewerbeeintrag bleibt Aggregator-Lead und erfüllt nicht den README-Belegstandard; keine Frontmatter-Fills, kein Aktiv-/Schließungsurteil. Ankauf-, Verkaufs- und Gebührenpreise aus diesen Seiten nicht belegt. Offen: Inhaber/Rechtsform, aktueller Hofbetrieb und Betreiberbestätigung dieser Anschrift. Quellen (Leads): https://www.dastelefonbuch.de/Firmen/Nock/F%C3%BCrth ; https://www.dastelefonbuch.de/Suche/Nock/F%C3%BCrth .]

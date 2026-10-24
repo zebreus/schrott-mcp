@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die frühere Marko Schwind UG (AG Stendal HRB 8480) war laut Registerprofil Gegenstand eines Schrotthandels, wurde liquidiert und am 14.12.2017 gelöscht. Ein aktueller 11880-Verzeichniseintrag „Marko Schwind Schrotthandel“ führt Ringstr. 4 und 03496 303294; er beweist weder eine fortgeführte Einzelfirma noch eine Wiederaufnahme nach Löschung der UG. Ein zweiter Eintrag „Schwind Entrümpelungen“ mit abweichender Nummer ist nicht ohne Weiteres derselbe Betrieb. `pruefung` bleibt; keine Schließung des möglichen Einzelbetriebs behauptet. **Ankauf:** keine bestätigte Annahme/Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Keine GEO.
 
 ## Timeline
+
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Neue exakte Suche brachte keine Betreiberquelle; der 11880-Eintrag nennt weiter Schrotthandel/Altmetall und 03496 303294 an Ringstr. 4, bleibt aber ein Aggregator-Lead. Die Registerhistorie zur Marko Schwind UG endet mit Löschung 14.12.2017; der Suchtreffer beweist keine Fortführung durch eine Einzelperson. Abweichende „Schwind Entrümpelungen“-Kontakte nicht zusammengeführt. ANKAUF: keine bestätigten Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Keine Fills/GEO; Status pruefung ist kein festgestellter Schließungsstatus des möglichen Nachfolgebetriebs. Quellen/Leads: https://www.11880.com/branchenbuch/elsdorf-bei-koethen/060440090B48384962/marko-schwind-schrotthandel.html ; https://www.northdata.de/Marko+Schwind+UG,+K%C3%B6then/Amtsgericht+Stendal+HRB+8480 ; https://www.dasoertliche.de/Themen/Schwind-Entr%C3%BCmpelungen-Elsdorf-Elsdorf-Ringstr .]
 
 ### Recherche 05.10.2026
 

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten führt als unbestätigten Lead eine „Eftekhari GmbH“ am Akazienweg 1, 55120 Mainz-Mombach. Das im Review vom 17.10.2026 gelesene NorthData-Profil führt dieselbe Gesellschaft unter aktueller Kennung **AG Wiesbaden HRB 34887** und früherer **AG Mainz HRB 48328**, Anschrift Am Fort Biehler 12, 55252 Mainz-Kastel, Sitzverlegung März 2024 und Liquidationseintrag 27.09.2024. Alte/neue HRB sind kein Beweis für getrennte Rechtsträger. Unbewiesen bleibt die Zuordnung des Akazienweg-Leads zu dieser Gesellschaft bzw. Niederlassung; die Liquidation darf nicht als Betriebsaufgabe der ungeklärten Seed-Zeile übertragen werden. Frontmatter bleibt unverändert, Status `pruefung`.
+Gelbe Seiten führt als unbestätigten Lead eine „Eftekhari GmbH“ am Akazienweg 1, 55120 Mainz-Mombach. Das am 24.10.2026 direkt erneut geprüfte NorthData-Profil führt dieselbe Gesellschaft unter aktueller Kennung **AG Wiesbaden HRB 34887** und früherer **AG Mainz HRB 48328**, Anschrift Am Fort Biehler 12, 55252 Mainz-Kastel, Sitzverlegung März 2024 und Liquidationseintrag 27.09.2024. Der Registergegenstand umfasst Schrott-/Altmetallhandel, beweist aber weder eine Filiale am Akazienweg noch die Zuordnung dieses Seeds. Die alte/neue HRB sind kein Beleg für getrennte Rechtsträger; die Liquidation der GmbH ist kein Schließungsbeweis der ungeklärten Seed-Zeile. Frontmatter bleibt unverändert, Status `pruefung`.
 
-**Preise:** ANKAUF: keine belastbaren Annahmebedingungen oder Preisangaben. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
+**Preise:** **ANKAUF:** für den Seed keine Annahmebedingungen oder Kurse belegt. **VERKAUF:** keine zuordenbare Preisliste. **GEBÜHREN:** keine Angaben. **GEO:** nicht geocodieren, solange Akazienweg und Betreiberzuordnung ungeklärt sind.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Das NorthData-Profil zur Eftekhari GmbH direkt erneut geprüft. Es führt Wiesbaden HRB 34887 und frühere Mainz HRB 48328 als Kennungen derselben Gesellschaft, Sitzanschrift Am Fort Biehler 12, 55252 Mainz-Kastel, Sitzverlegung 2024 und Liquidationseintrag vom 27.09.2024; der Gegenstand schließt Schrott-/Altmetallhandel ein. Das ist eine Registerspur für die Gesellschaft, aber keine Verbindung zum Gelbe-Seiten-Lead Akazienweg 1, 55120 Mainz-Mombach und kein Nachweis einer dortigen Filiale oder Annahmestelle. Keine Werte übertragen, keine Schließung der Seed-Entität abgeleitet; Frontmatter und Status `pruefung` unverändert. ANKAUF: keine Seed-Bedingungen/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Kein GEO. Quellen: https://www.northdata.de/Eftekhari%20GmbH,%20Mainz-Kastel/Amtsgericht%20Wiesbaden%20HRB%2034887 (Registerspiegel, direkt geprüft); https://www.gelbeseiten.de/gsbiz/b6215761-672e-4943-bdf0-b933a7660cf2 (nicht bestätigter Akazienweg-Lead).]
 
 ### Ownerkorrektur 17.10.2026
 

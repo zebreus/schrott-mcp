@@ -32,6 +32,10 @@ Der bislang bloße Kurzname lässt sich jetzt eindeutig zu **Hochscheider Eisen-
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Startseite, Zertifizierungs-, Impressums- und Kontaktseiten direkt erneut gelesen. Das Impressum nennt dieselbe GmbH, Hafenstraße 14, 54293 Trier, HRB 2039; Kontaktseite führt Mo–Fr 08:00–12:00/12:45–17:00, Samstag geschlossen, mögliche Sommerabweichung. Der seitenweite Hinweis „AKTUELL KEINE ANLIEFERUNGEN VON PRIVAT MÖGLICH“ ist weiterhin eingeblendet, obwohl die Zertifizierungsseite allgemein private Anlieferer nennt; daher keine Privatannahme freigegeben. Die verlinkten Zertifikate wurden heute nicht neu heruntergeladen, Gültigkeit bleibt wie in der Recherche 18.10. dokumentiert. ANKAUF: keine Zahlenkurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife/Gratisannahme. Kein GEO neu gesetzt. Quellen: https://www.hochscheider.de/ ; https://www.hochscheider.de/?content_id=41&nr= ; https://www.hochscheider.de/?content_id=42&nr= ; https://www.hochscheider.de/?content_id=44&nr=.]
+
 ### Preis-/Annahmeprüfung 23.10.2026
 
 - [Recherche 23.10.2026: Die aktuelle Betreiber-Website nochmals direkt abgerufen; der seitenweite Corona-Hinweis „AKTUELL KEINE ANLIEFERUNGEN VON PRIVAT MÖGLICH“ steht weiterhin sichtbar auf der Seite. Daher keine private Anlieferung freigegeben, auch wenn die Zertifizierungsseite private Anlieferer allgemein erwähnt. ANKAUF: keine öffentliche Zahlenpreisliste; Metall-/Schrottgeschäft ist beschrieben. VERKAUF: aufbereiteter Schrott für die Stahlindustrie, keine öffentliche Verkaufspreisliste. GEBÜHREN: keine Tarifliste und keine kostenlose Altautorücknahme aus der Annahmestellen-Urkunde ableiten. Die aktuelle Urkunde 2026-0051/0052 bleibt laut vorherigem Direktcheck gültig; kein neuer GEO-Punkt gesetzt. Quelle: https://www.hochscheider.de/ (Abruf 23.10.2026).]

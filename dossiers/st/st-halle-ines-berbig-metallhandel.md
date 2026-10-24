@@ -32,6 +32,10 @@ Die historische Verbindung zwischen Ines Berbig, dem früheren Standort Freiimfe
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Betreiberchronik, Impressum und Produktseite erneut gegengeprüft. Metall-Blitz GmbH nennt Ines Berbig als Gründerin/Geschäftsführerin und HRB 14537; die Produktseiten bewerben neue Dachentwässerung, Bleche, Coils, NE-Metalle und Lohnarbeiten. Das ist weiter eine plausible historische Verbindung, aber kein unabhängiger Beleg einer Rechtsnachfolge aus dem als „Ines Berbig Metallhandel“ importierten Datensatz und kein aktueller Schrottankaufbeleg. ANKAUF: keine Altmetallkurse; VERKAUF: Neuwarenangebot ohne Preisliste; GEBÜHREN: keine Lohnarbeits-/Entgelttarife. Keine Adress-/Kontaktdatenübertragung oder GEO. Quellen: https://www.metall-blitz.de/ueber-uns.html ; https://www.metall-blitz.de/impressum.php ; https://www.metall-blitz.de/produkte.php ; https://www.northdata.de/Metall-Blitz+GmbH,+Halle/Amtsgericht+Stendal+HRB+14537 .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Metall-Blitz-Chronik, Impressum und Produkte erneut direkt HTTP 200 gelesen: Gründerin/GF Ines Berbig, HRB 14537 Stendal, Umwandlung laut Eigenhistorie 01.09.2011 und neue Räume 02.02.2015. Produktseite zeigt Dachentwässerung, Bleche, Band-/Coilware und Lohnarbeiten; kein expliziter Schrottankauf. Die drei Seiten sind eine Betreiberquelle, keine unabhängige Nachfolgeprüfung. Keine Übertragung neuer Adresse/Kontakte auf den alten Einzelbetriebsseed. ANKAUF — keine Schrottkurse; VERKAUF — Neuwarenangebot ohne öffentliche Zahlenliste; GEBÜHREN — keine Lohnarbeits-/Entgelttarife. Status pruefung; offen bleibt die rechtliche Übergangskette, nicht bloß Namensgleichheit; Quelle(n): https://www.metall-blitz.de/ueber-uns.html ; https://www.metall-blitz.de/impressum.php ; https://www.metall-blitz.de/produkte.php]

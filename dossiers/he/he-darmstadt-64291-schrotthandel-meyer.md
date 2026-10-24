@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -24,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Identität des Seeds bleibt offen. Der Kartenpunkt „Schrotthandel Meyer“ an Am Sportplatz in Darmstadt-Wixhausen hat keine Hausnummer und keinen Betreiberbeleg. Die Betreiberseite `schrotthandel-meyer.de` gehört Sascha Meyer in Neustadt an der Weinstraße; MB Schrotthandel in Darmstadt nennt Marco Bock. Keiner dieser Betriebe ist mit dem Seed verknüpft.
+Die Identität des Seeds bleibt offen. Der OSM-Weg 801683671 wird in der aktuellen Nominatim-Suche als „Schrotthandel Meyer“, Sensfelder Hof 12, 64291 Darmstadt-Wixhausen angezeigt; ein Betreiber- oder Registerbeleg ist das nicht. Die Betreiberseite `schrotthandel-meyer.de` gehört Sascha Meyer in Neustadt an der Weinstraße; MB Schrotthandel in Darmstadt nennt Marco Bock. Keiner dieser Betriebe ist mit dem Seed verknüpft. Der Produktionspunkt lag dagegen in der Schuchardstraße 3, 64283 Darmstadt-Mitte, also außerhalb der im Datensatz genannten PLZ 64291. `clear_fields: 'geo'` zieht diesen unbelegten Punkt zurück; eine Ersatzkoordinate wird nicht gesetzt.
 
-**Preise:** Ankauf — keine dem Darmstädter Seed zuordenbaren Ankaufspreise; Verkauf — keine Verkaufspreise; Gebühren — keine Tarife. **Geocoding:** Am Sportplatz ohne Hausnummer ist nur ein Straßen-/Kartenlead; keine Händlerkoordinate ableiten. Offen bleibt, ob der Seed überhaupt einen eigenständigen Betrieb bezeichnet.
+**Preise:** Ankauf: keine dem Darmstädter Seed zuordenbaren Ankaufspreise; Verkauf: keine Verkaufspreise; Gebühren: keine Tarife. **Geocoding:** Der Produktionspunkt ist zurückgezogen; der OSM-Kartenlead ist keine bestätigte Händleradresse. Keine Ersatzkoordinate ableiten. Offen bleibt, ob der Seed überhaupt einen eigenständigen Betrieb bezeichnet.
 
 ## Timeline
+
+### Korrektur 24.10.2026: Falschen Produktionspunkt zurückziehen
+
+- [Korrektur 24.10.2026: Read-only-Gegenprüfung der Produktionszeile `he-darmstadt-64291-schrotthandel-meyer` ergab `49.8718375, 8.6533`. Die Nominatim-Rückwärtssuche löst diesen Punkt auf Schuchardstraße 3, Darmstadt-Mitte, PLZ 64283 auf; die separate PLZ-Suche ordnet 64291 Wixhausen zu. Der aktuelle OSM-Weg 801683671 trägt zwar den Namen „Schrotthandel Meyer“ und wird in der Suche mit Sensfelder Hof 12, 64291 ausgegeben, belegt aber weder Betreiberidentität noch Kundenannahme. Damit ist der gespeicherte Punkt dem bestehenden Datensatz nicht zuzuordnen. `clear_fields: 'geo'` zieht nur das falsche Koordinatenpaar beim nächsten regulären Seed zurück; es wird kein neuer Punkt gesetzt. Die Produktionsdatenbank wurde nicht beschrieben. Quellen: https://nominatim.openstreetmap.org/reverse?lat=49.8718375&lon=8.6533&format=jsonv2&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=64291%20Darmstadt&format=jsonv2&addressdetails=1&limit=5 ; https://www.openstreetmap.org/way/801683671.]
 
 ### Recherche 02.10.2026
 

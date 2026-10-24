@@ -12,6 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
+clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +28,10 @@ provenance_origin: table
 „Schrotthandel Gündell“ ist bislang nur über einen 11880-Lead lokalisierbar: Obernahmerstr. 2, 58119 Hagen, Telefon 0171 5443575. Ein weiterer Suchtreffer in einem Verzeichnis bestätigt lediglich die Listung, nicht Betreiberidentität oder aktuellen Betrieb. Kein eigener Webauftritt/Registerbeleg und keine verlässliche Angabe zu Annahme, Abholung oder Öffnungszeiten gefunden; die Kontaktdaten sind nicht in die Stammdaten übernommen. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung gefunden.
 
 ## Timeline
+
+### Korrektur 24.10.2026: Gemeinsamen falschen Hagen-Punkt zurückziehen
+
+- [Korrektur 24.10.2026: Die Produktionszeile `nw-hagen-gundell` enthielt den mit mehreren anderen Hagen-Datensätzen geteilten Punkt `51.90933, 7.88825`. Die read-only-Rückwärtssuche löst ihn in Mehringen, Everswinkel, Kreis Warendorf, PLZ 48351 auf, nicht in Hagen. `clear_fields: 'geo'` zieht den falschen Punkt zurück; mangels belegter Händleradresse wird keine Ersatzkoordinate gesetzt. Die Produktionsdatenbank blieb unverändert. Quelle: https://nominatim.openstreetmap.org/reverse?lat=51.90933&lon=7.88825&format=jsonv2&addressdetails=1 ; https://www.openstreetmap.org/way/81516036.]
 
 ### Recherche 18.10.2026 (Welle 1202 West)
 

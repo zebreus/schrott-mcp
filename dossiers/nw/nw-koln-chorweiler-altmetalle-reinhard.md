@@ -26,9 +26,13 @@ provenance_origin: table
 
 **Ungeklärte Betreiberkette:** Der Portal-Lead Altmetalle Reinhard, Unnauer Weg 20, 50767 Köln-Lindweiler, 0163 5927189 verlinkt `schrott-koeln.de`. Die verlinkte Betreiberwebsite führt jetzt aber Altmetalle Kraft, Inhaber Mickey Jerome Kraft, Robert-Bosch-Str. 24, 41541 Dormagen, mit derselben Telefonnummer. Das beweist weder Umbenennung, Umzug noch Nachfolge von Reinhard. Leere Adress-/Kontakt-/Websitefelder und `pruefung` bleiben erhalten; die historische „Backyard-Typ“-Bezeichnung ist weiterhin unbelegt.
 
-Die Kraft-Website hat ausdrückliche Ankaufspreise pro kg, aber keine belegte Identitätsverbindung zum Reinhard-Seed. Daher keine Preisübernahme. Portal-Richtpreise sind kein Händlerangebot. Verkaufspreise und Gebühren des Zielbetriebs bleiben ebenso ungeklärt. Owner: rechtlichen Namen, Betreiberkontinuität und Standort unabhängig klären; weder Köln noch Dormagen aus der bloßen Telefon-/Linkübereinstimmung geokodieren.
+Die Kraft-Website hat ausdrückliche Ankaufspreise pro kg, aber keine belegte Identitätsverbindung zum Reinhard-Seed. Am 24.10.2026 zeigte ihre Preisseite u.a. Mischschrott 0,18 €/kg und Kupfer schwer/Millberry 10,50/11,50 €/kg; ein Gültigkeitsdatum fehlt. Das sind ausschließlich veröffentlichte Betreiberpreise für Altmetalle Kraft in Dormagen, keine bestätigten aktuellen Werte und keine Preisübernahme für Reinhard. Portal-Richtpreise sind ebenfalls kein Händlerangebot. Verkaufspreise und Gebühren des Zielbetriebs bleiben ungeklärt. Owner: rechtlichen Namen, Betreiberkontinuität und Standort unabhängig klären; weder Köln noch Dormagen aus der bloßen Telefon-/Linkübereinstimmung geokodieren.
 
 ## Timeline
+
+### Recherche 24.10.2026: verlinkte Kraft-Seite und Preisabgrenzung
+
+- [Recherche 24.10.2026: Die von der historischen Reinhard-Verzeichnisseite verlinkte Betreiberwebsite schrott-koeln.de erneut direkt mit Startseite, Impressum und Preisseite geprüft. Startseite/Impressum nennen Altmetalle Kraft, Inhaber Mickey Jerome Kraft, Robert-Boschstr. 24, 41541 Dormagen, Telefon 0163 5927189 und info@schrott-koeln.de. Die Preisseite nennt Ankaufspreise je kg, darunter Mischschrott 0,18 €, Kupfer schwer 10,50 € und Millberry 11,50 €; ein Preisstichtag ist nicht ausgewiesen. Das bestätigt die bestehende Trennung, nicht eine Umbenennung/Nachfolge oder den heutigen Betrieb in Köln. **Ankauf des Zielbetriebs Reinhard:** weiter ohne zuordenbaren Kurs. **Verkauf/Gebühren Reinhard:** keine Liste. Kein Frontmatter-Fill, keine Zuordnung von Kraft-Preisen und kein GEO. Quellen: https://schrott-koeln.de/ ; https://schrott-koeln.de/impressum/ ; https://schrott-koeln.de/preise/ .]
 
 ### Recherche 14.10.2026 — echter Betreiberlink, aber andere Identität
 

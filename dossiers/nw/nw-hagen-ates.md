@@ -12,6 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
+clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -29,6 +30,10 @@ Neuer technischer Primärbefund: Das ausgelieferte JavaScript von ates-schrottha
 Das ist ein besserer Betreiberkandidat, aber noch kein unabhängig bestätigter Match zum knappen Seed „Ates“ und kein bewiesener Umzug von Lange Straße/Boeler Straße. Deshalb bleiben Website, Kontakte und Adresse ungefüllt sowie `pruefung`. Die fehlenden rechtlichen Angaben und aktuelle Servicebehauptungen nicht als vollständig verifizierte Fakten ausgeben.
 
 ## Timeline
+
+### Korrektur 24.10.2026: Gemeinsamen falschen Hagen-Punkt zurückziehen
+
+- [Korrektur 24.10.2026: Die Produktionszeile `nw-hagen-ates` enthielt den mit mehreren anderen Hagen-Datensätzen geteilten Punkt `51.90933, 7.88825`. Die read-only-Rückwärtssuche löst ihn in Mehringen, Everswinkel, Kreis Warendorf, PLZ 48351 auf, nicht in Hagen. `clear_fields: 'geo'` zieht den falschen Punkt zurück; mangels belegter Händleradresse wird keine Ersatzkoordinate gesetzt. Die Produktionsdatenbank blieb unverändert. Quelle: https://nominatim.openstreetmap.org/reverse?lat=51.90933&lon=7.88825&format=jsonv2&addressdetails=1 ; https://www.openstreetmap.org/way/81516036.]
 
 ### Recherche 15.10.2026 Welle18A
 

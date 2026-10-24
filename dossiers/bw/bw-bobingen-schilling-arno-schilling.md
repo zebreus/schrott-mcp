@@ -28,6 +28,10 @@ Verzeichnis-Leads führen Arno Schilling Metallhandel in Böbingen an der Rems, 
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Die kommunale Böbinger Firmenliste wurde als mögliche Primärquelle geprüft; sie ist ein freiwilliges Firmenverzeichnis und ergab keinen passenden Schilling-Treffer. Nichtlistung ist kein Beleg für Nichtexistenz oder Schließung. Aktuelle exakte Namensabfragen liefern weiter nur Branchenportal-Leads zu Arno Schilling, Am Barnberg 8, 07173 6328; nahe Anbieter an derselben Straße werden nicht zugerechnet. ANKAUF: keine bestätigten Annahmebedingungen/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Stammdaten-Fills oder GEO. Quellen/Leads: https://www.boebingen.de/gemeinde/handel-gewerbe/firmenliste/ ; https://boebingen-an-der-rems.stadtbranchenbuch.com/5130714.html ; https://www.11880.com/branchenbuch/boebingen-an-der-rems/120674719B54332097/arno-schilling-metallhandel.html .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: erneuter Namens-/Ortsabgleich findet mehrere Verzeichnis-Leads für „Arno Schilling Metallhandel“ am Am Barnberg 8, 73560 Böbingen an der Rems, mit Telefon 07173 6328. Das sind keine unabhängigen Quellen nach der Repo-Quellenhierarchie und kein Betreiber-/Registerbeleg; daher weder Anschrift noch Telefon ins Frontmatter übernommen. Die Einträge nennen Schrott/Metallhandel bzw. Containerdienst, aber keine Annahmebedingungen, Preise oder Gebühren. Quelle(n): https://boebingen-an-der-rems.stadtbranchenbuch.com/5130714.html ; https://www.11880.com/branchenbuch/boebingen-an-der-rems/120674719B54332097/arno-schilling-metallhandel.html ; https://recyclingpoint.de/listing/arno-schilling-metallhandel/]

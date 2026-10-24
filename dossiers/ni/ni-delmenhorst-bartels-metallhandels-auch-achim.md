@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Ungeklärter Ortsdatensatz: Bartels Metallhandels GmbH & Co. KG betreibt laut eigener Kontakt-/Impressumsseite den Standort Zum Panrepel 30–32, 28307 Bremen (HRA 26091 Bremen). Die Suche nach Achim liefert auch Umkreistreffer mit ausdrücklich Bremer Adresse; dies ist kein Filialnachweis. Delmenhorst und Achim bleiben unbelegt. Bremer Kontaktdaten, Verwiegungszeiten und Leistungen nicht in den leeren Delmenhorster Datensatz übertragen; der alte Aktivstatus ist nicht frisch standortbestätigt. Keine zurechenbaren Ankauf-/Verkaufs-/Gebührentarife für diesen Ortsdatensatz.
+Ungeklärter Ortsdatensatz: Bartels Metallhandels GmbH & Co. KG betreibt laut eigener Kontakt-/Impressumsseite den Standort Zum Panrepel 30–32, 28307 Bremen (HRA 26091 Bremen). Die Suche nach Achim liefert auch Umkreistreffer mit ausdrücklich Bremer Adresse; dies ist kein Filialnachweis. Delmenhorst und Achim bleiben unbelegt. Bremer Kontaktdaten, Verwiegungszeiten und Leistungen nicht in den leeren Delmenhorster Datensatz übertragen; mangels Beleg für den Zielort steht der Status auf `pruefung`. Keine zurechenbaren Ankauf-/Verkaufs-/Gebührentarife für diesen Ortsdatensatz.
 
 ## Timeline
+
+### Korrektur 24.10.2026: Zielort nicht belegt
+
+- [Korrektur 24.10.2026: Betreiber-Impressum und Kontaktseite live direkt geprüft. Sie nennen Bartels Metallhandels GmbH & Co. KG, HRA 26091 Bremen, Zum Panrepel 30–32, 28307 Bremen, Telefon 0421 48 03 21, Mo–Fr 07:00–16:00 und letzte Verwiegung bis 15:45; belegt ist damit der Bremer Standort, nicht Delmenhorst oder Achim. Die Suche nach Achim/Delmenhorst hatte bereits nur Umkreis-/Verzeichnis-Leads geliefert. Deshalb `status` von `aktiv` auf `pruefung` korrigiert; keine Bremer Adresse, Kontakt-, Öffnungs- oder Preisangabe auf den Zielort übertragen. **Ankauf/Verkauf/Gebühren:** für Delmenhorst/Achim keine zurechenbaren Tarife. Kein GEO. Quellen: https://www.bartels-altmetall.de/unternehmen/impressum ; https://www.bartels-altmetall.de/unternehmen/kontakt/]
 
 ### Recherche 18.10.2026 (Welle 0200 B)
 

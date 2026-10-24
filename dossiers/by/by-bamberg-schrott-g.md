@@ -28,6 +28,10 @@ Ein Gelbe-Seiten-Eintrag führt „Schrott G.“ an Michelsberg 8, 96049 Bamberg
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Die amtliche Stadtseite zum Gewerbewesen erklärt den kommunalen Gewerberegister-/Auskunftsweg; eine individuelle Auskunft zu „Schrott G.“ wurde dabei nicht eingeholt. Daher weder positiver noch negativer amtlicher Befund. Der Michelsberg-Eintrag bleibt ein Verzeichnislead und der namensähnliche Telefonbuch-Personentreffer ungeklärt; kein Betreiber, keine gewerbliche Identität und kein Annahmeort belegt. ANKAUF: keine Kurse/Annahmebedingungen; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Keine Frontmatter-Fills oder GEO. Nächster sinnvoller Schritt: konkrete Gewerberegisterauskunft mit ausgeschriebenem Betreibername. Quellen: https://www.stadt.bamberg.de?object=tx%7C2730.17664.1 ; https://www.gelbeseiten.de/gsbiz/271673e0-9cc6-4f67-b076-a3a44032e55e .]
+
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 
 - [Recherche 18.10.2026: Gelbe-Seiten-Detail heute HTTP 200 gelesen, weiterhin Schrott G./Michelsberg 8/96049 Bamberg ohne tatsächlich zugeordneten Betreiberauftritt oder Annahmeangebot. Allgemeine E-Mail-/Website-UI ist kein Betreiberbeleg. Namenssuche liefert keinen qualifizierten Identitätsnachweis; früherer privater Telefonbuchverdacht bleibt Verdacht, keine festgestellte Privatperson und kein Schließungsbeweis. Status pruefung, keine Kontakte gefüllt. Ankauf: keine Kurse; Verkauf: keine Preise; Gebühren: keine Tarife. GEO vorerst gesperrt, zunächst Gewerblichkeit und ausgeschriebenen Betreiber kommunal prüfen. Quelle: https://www.gelbeseiten.de/gsbiz/271673e0-9cc6-4f67-b076-a3a44032e55e .]

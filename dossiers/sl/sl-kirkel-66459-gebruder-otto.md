@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-HR-/Unternehmensdaten führen Gebrüder Otto GmbH, HRB 2933, an Bahnstr. 3 in Kirkel-Limbach; zusätzliche aktuelle Verzeichniseinträge nennen 06841 80114. Ein eigener Betreiberauftritt mit aktuellen Öffnungs-, Annahme- oder Preisbedingungen ist nicht belegt. Die Verzeichnisangaben sind Leads und keine unabhängigen Primärbelege für öffentlichen Schrottankauf. **Ankauf:** keine bestätigten Konditionen/Preisliste. **Verkauf:** der gesellschaftsrechtlich beschriebene An-/Verkauf von Gebrauchtwagen und Ersatzteilen ist keine Kundenpreisliste. **Gebühren:** keine Liste gefunden. Keine neuen Kontaktdaten oder Koordinaten übernommen.
+HR-/Unternehmensdaten führen Gebrüder Otto GmbH, HRB 2933, an Bahnstr. 3 in Kirkel-Limbach; zusätzliche Verzeichniseinträge nennen 06841 80114. Das aktuelle Machineseeker-Händlerprofil führt die GmbH ebenfalls an dieser Anschrift und verwendet das Plattform-Badge „Certified recycling facility and dealer“; dies ist keine unabhängig geprüfte behördliche Zertifizierung. Die dort sichtbare Sektion „Current offers from similar dealers“ weist Angebote anderer Händler aus und ist kein firmeneigenes Verkaufsangebot. Das Profil belegt weder öffentliche Schrottannahme noch Schrottankauf oder aktuelle Verkäufe der GmbH. **Ankauf:** keine bestätigten Konditionen/Preisliste. **Verkauf:** keine firmeneigenen Angebote oder Material-/Schrottpreisliste verifiziert. **Gebühren:** keine Liste gefunden. Keine neuen Kontaktdaten oder Koordinaten übernommen.
 
 ## Timeline
+
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Machineseeker-Händlerprofil direkt gelesen: Gebr.Otto GmbH wird an Bahnstraße 3, 66459 Kirkel-Limbach geführt. Der Profil-Badge „Certified recycling facility and dealer“ stammt aus der Plattformdarstellung; eine externe Zertifizierungsurkunde wurde nicht geprüft. Der Seitenabschnitt „Current offers from similar dealers“ zeigte Angebote anderer Händler, keine eindeutig der GmbH zugeordneten Inserate. Daher kein bestätigter aktueller Maschinen-/Fahrzeugverkauf der GmbH und kein Beleg für Schrottankauf oder öffentliche Kundenannahme. ANKAUF: keine bestätigten Schrottpreise; VERKAUF: keine firmeneigenen Angebote oder Metallschrottpreisliste verifiziert; GEBÜHREN: keine Tarife. Keine Telefon-/GEO-Änderung. Quelle: https://www.machineseeker.com/Haendler/52786/gebr-otto-gmbh-kirkel-limbach .]
 
 ### Recherche 20.10.2026
 

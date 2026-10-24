@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die BBA Recycling GmbH (AG Charlottenburg HRB 107542 B) wurde nach Insolvenz/Liquidation am 05.11.2012 gelöscht; eine Registerbekanntmachung führt Huttenstr. 22, 10553 Berlin als damalige Geschäftsanschrift. Deshalb steht dieses Dossier auf `geschlossen`. Die heutigen Verzeichniseinträge an der Adresse und die aktuelle Berlin Recycling GmbH sind kein Nachweis eines Nachfolgers: Berlin Recycling hat eine andere HRB und andere veröffentlichte Standorte. **Ankauf:** für die gelöschte Gesellschaft keine aktuellen Bedingungen/Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Das alte Verzeichnistelefon ist nicht als aktuelle Erreichbarkeit bestätigt; keine GEO für einen gegenwärtigen Annahmebetrieb.
 
 ## Timeline
+
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Die historische Registerspur zur BBA-Recycling-GmbH bleibt maßgeblich: HRB 107542 B, Löschung 05.11.2012, Huttenstr. 22 als damalige Geschäftsanschrift. Ein weiterhin sichtbarer Branchenbuch-Eintrag an derselben Adresse ist ein möglicherweise veralteter Aggregator-Eintrag, kein Gegenbeleg zur Löschung und kein Aktivitäts-/Nachfolgebeweis. Berlin Recycling GmbH ist mit HRB 75433/Monumentenstr. 14 ein separater Rechtsträger; keine Verbindung belegt. ANKAUF: keine aktuellen Preise; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. `geschlossen` bezieht sich auf die BBA GmbH, nicht auf jede heutige Nutzung der Adresse; keine GEO. Quellen: https://www.northdata.de/BBA%20Recycling%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20107542%20B ; https://www.berlin-recycling.de/impressum ; https://www.berlin-recycling.de/unternehmen/standorte-der-br ; https://gewusst-wo.de/eintrag/bba-recycling-gmbh-berlin-moabit-huttenstr .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

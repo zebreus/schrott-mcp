@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der aktuelle Suchlauf findet mehrere Verzeichnis-Leads zu „Bernd Rathgeber“ bzw. „Rathgeber Bernd Containerdienst“ in Treffurt: schrottplatz.org nennt Ziddelrasen 3, 99830 Treffurt; Cylex führt den Containerdienst mit 036923 50976, und gavabiz wiederholt Anschrift/Telefon. Diese Treffer sind Aggregatoren, teils mit nicht erreichbarem Direktabruf, und belegen weder Betreiberidentität noch heutige Annahme. **Ankauf:** keine bestätigten Bedingungen oder Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Keine GEO, solange Standort und Kundenannahme nicht primär bestätigt sind; `pruefung` bleibt.
 
 ## Timeline
+
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Neue Suchtreffer ergänzen den bisherigen leeren Überblick: Cylex führt „Rathgeber Bernd Containerdienst“ und 036923 50976; schrottplatz.org nennt Bernd Rathgeber, Ziddelrasen 3, 99830 Treffurt; gavabiz wiederholt den Lead. Cylex-Direktabruf lieferte HTTP 403; die Angaben sind Suchindex-/Aggregator-Leads, keine Primärquellen und nicht als gegenseitige unabhängige Bestätigung zu zählen. Ähnlich benannte Personen ohne Ortsbezug ausgeschlossen. ANKAUF: keine bestätigten Schrottkurse oder Annahme; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Daten-Fills oder GEO; offen sind Identität, Anschrift und Tätigkeit. Quellen/Leads: https://web2.cylex.de/firma-home/rathgeber-bernd-containerdienst-715472.html ; https://www.schrottplatz.org/treffurt/bernd-rathgeber-3139258.html ; https://treffurt.gavabiz.de/company/rathgeber-bernd-treffurt.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

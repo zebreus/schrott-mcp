@@ -30,6 +30,10 @@ Zwei voneinander unabhängige Branchenverzeichnisse stimmen bei „Lenhart Ludwi
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Erneute exakte Namens-/Adresssuche ergab keine belastbare neue Betreiberquelle. Die zwei Verzeichnis-Leads zu Ludwig sen. stimmen weiter bei Ringstr. 2 und 09321 36648 überein; die separate Angelika-Lenhart-UG/Registerspur belegt weiterhin keine Nachfolge oder Identität mit Ludwig sen. Register-/Portalhinweise nicht als aktuelle Kundenannahme gewertet. ANKAUF: keine verifizierten Kurse oder Annahmebedingungen; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. GEO bleibt wegen ungeklärter Betreiber- und Annahmestelle zurückgestellt. Keine Stammdaten geändert; status pruefung. Quellen: https://www.gelbeseiten.de/gsbiz/d03204a3-917d-4297-91d3-e1b1ef218a05 ; https://www.schrottplatz-info.de/schrottplatz/Kitzingen/Lenhart-Ludwig-sen-Schrotthandel ; https://www.northdata.de/Angelika%20Lenhart%20-%20Rohproduktenhandel%20UG,%20Kitzingen/Amtsgericht%20W%C3%BCrzburg%20HRB%2013456 .]
+
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: Der direkte Abruf der Registercheck-Detailseite zur Angelika Lenhart – Rohproduktenhandel UG (HRB 13456) wurde mit HTTP 429 begrenzt; deshalb kein aktueller Registerauszug und keine neue unabhängige Betreiberbestätigung. Der dortige Namens-/Registerlead und der NorthData-Vorwellenbefund betreffen nicht automatisch Ludwig sen.; die Verzeichnisangaben Ludwig sen./jun. an Ringstr. 2 bzw. Am Wasen 24 bleiben getrennte Kandidaten. Keine zuordenbare numerische Ankaufpreisliste, Verkaufspreise oder Gebühren. Offen: aktueller Rechtsträger, Inhaber/Telefonzuordnung und tatsächlicher Kundenstandort. Kein GEO vor Identitätsklärung. Quelle(n): https://www.registercheck.de/companies/angelika-lenhart-rohproduktenhandel-ug-haftungsbeschraenkt (HTTP 429 am 20.10.2026); https://www.northdata.de/Angelika%20Lenhart%20-%20Rohproduktenhandel%20UG,%20Kitzingen/Amtsgericht%20W%C3%BCrzburg%20HRB%2013456]

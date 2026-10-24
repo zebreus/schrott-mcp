@@ -30,6 +30,10 @@ Der Seed enthält nur den Namen „Khelf-Galvez Ali“ und den Tätigkeitsvermer
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Exakte Namens-/Ortssuchen zu „Khelf-Galvez Ali“, Schreibvarianten und Ludwigshafen/Schrott ergaben keine neue Betreiber-, Register- oder kommunale Quelle. Die jüngsten auffindbaren Treffer bleiben die bereits erfassten Das-Telefonbuch-/Gelbe-Seiten-Leads Frigenstr. 6, 67065 Ludwigshafen-Maudach, 01590 1027791; sie sind Verzeichnisdaten und keine voneinander unabhängig belegte Betreiberbestätigung. Keine Frontmatter-Füllung oder GEO. Nichtfund ist kein Nichtexistenz-/Schließungsbeweis. ANKAUF: keine belegten Bedingungen/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quellen der Leads: https://www.dastelefonbuch.de/Branchen/Schrotthandel/Ludwigshafen%20am%20Rhein ; https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/ludwigshafen%20am%20rhein.]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Neue, übereinstimmende Verzeichnisleads in Das Telefonbuch und Gelbe Seiten: „Khelf-Galvez Ali Schrotthandel“, Frigenstr. 6, 67065 Ludwigshafen am Rhein (Maudach), Tel. 01590 1 02 77 91. Die Übereinstimmung zweier Branchenportale ist weiterhin keine Betreiber-/Register-/Behördenbestätigung und die Portale sind keine zwei qualifizierten Quellen nach README. Neuer möglicher Standort, aber keine Frontmatter-Füllung und keine Geokodierung vor unabhängiger Identitäts-/Annahmestellenprüfung. ANKAUF: kein Kurs oder Annahmebedingung belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://www.dastelefonbuch.de/Branchen/Schrotthandel/Ludwigshafen%20am%20Rhein ; https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/ludwigshafen%20am%20rhein .]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein einzelner Schrottplatz.org-Verzeichniseintrag nennt Raik Barich, Wiesenweg 28, 98704 Gräfinau-Angstedt und 036785/50463. Die aktuelle Suche und die frühere kommunale Gegenprüfung haben keinen passenden Betreiber-, Register- oder Gewerberegisterbeleg ergeben; die kommunale Gewerberegisterauskunft war beim Abruf nicht verfügbar. **Ankauf:** keine Annahme oder Kurse bestätigt. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Weder Adresse noch Telefon sind in die Stammdaten übernommen; keine GEO, kein Schließungsurteil.
 
 ## Timeline
+
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Erneute Namens-/Ortsabfragen brachten keinen zweiten qualifizierten positiven Beleg zum einzigen Portal-Lead Raik Barich, Wiesenweg 28, 98704, 036785/50463. Die Ilmenauer Gewerbeangelegenheiten-Seite beschreibt den amtlichen Auskunftsweg, bestätigt aber keine individuelle Gewerbeanmeldung; die frühere elektronische Abfrage war mit Timeout fehlgeschlagen. Nichtlistung und Timeout sind keine Schließungsbelege. ANKAUF: keine bestätigten Bedingungen/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Frontmatter-Fills oder GEO. Quellen/Lead: https://www.schrottplatz.org/ilmenau/raik-barich-5402744.html ; https://www.ilmenau.de/de/wirtschaft/gewerbeangelegenheiten/ ; https://www.ilmenau.de/Graefinau-Angstedt .]
 
 ### Recherche 04.10.2026
 

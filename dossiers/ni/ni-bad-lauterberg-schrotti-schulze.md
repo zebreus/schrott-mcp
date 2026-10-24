@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Facebook-Seite „Schrotti Schulze“ ist ein Selbstbeschreibungs-Lead: Sie wirbt mit kostenloser, zuverlässiger und schneller Schrottabholung und verweist auf den Vater, „den Schrotti aus Steina“. Der Direktabruf bleibt eine Facebook-Loginseite; Betreiberidentität, genauer Ort, Telefonnummer, Gebiet und aktuelle Annahmestelle sind nicht verifiziert. „Kostenlose Abholung“ belegt weder einen Ankaufskurs noch Gebührenfreiheit für andere Entsorgungsleistungen.
+Die Facebook-Seite „Schrotti Schulze“ ist ein Selbstbeschreibungs-Lead: Sie wirbt mit kostenloser, zuverlässiger und schneller Schrottabholung und verweist auf den Vater, „den Schrotti aus Steina“. Der aktuelle Suchindex zeigt zusätzlich 01511 5928326 und Bad Lauterberg; der Direktabruf bleibt eine Facebook-Loginseite. Betreiberidentität, Zuordnung der Nummer, Einsatzgebiet und aktuelle Annahmestelle sind nicht unabhängig verifiziert. „Kostenlose Abholung“ belegt weder einen Ankaufskurs noch Gebührenfreiheit für andere Entsorgungsleistungen.
 
 **Ankauf:** kein Preis und keine vergütete Übernahme belegt. **Verkauf:** keine Preise. **Gebühren:** nur kostenlose Schrottabholung wird im Selbstbeschreibungs-Lead behauptet; Bedingungen/Gebiet und sonstige Tarife offen. Keine Adresse für Geokodierung.
 
 ## Timeline
+
+### Recherche 24.10.2026: zusätzlicher Facebook-Kontaktlead
+
+- [Recherche 24.10.2026: Der aktuelle Suchindex des Facebook-Auftritts „Schrotti Schulze“ zeigt neben „Kostenlose, zuverlässige und schnelle Schrottabholung“ nun die Nummer 01511 5928326 und den Ortsbezug Bad Lauterberg im Harz. Die Seite selbst lässt sich weiterhin nur bis zur Loginmaske abrufen; Nummer und Ort daher ausschließlich als ungeprüfte Leads dokumentiert und nicht ins Frontmatter übernommen. Kein unabhängiger Identitäts-/Gewerbe-/Standortbeleg, kein Nachweis einer stationären Annahme. **Ankauf:** keine Vergütung oder Preise; **Verkauf:** keine Liste; **Gebühren:** Gratisbehauptung betrifft nur die nicht verifizierte Abholung, Bedingungen offen. Quelle/Lead: https://www.facebook.com/p/Schrotti-Schulze-61571692381763 .]
 
 ### Recherche 22.10.2026
 

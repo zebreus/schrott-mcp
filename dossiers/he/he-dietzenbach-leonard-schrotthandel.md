@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite nennt Leonard Dorel Caldarar als Inhaber und auf Impressum, Kontakt- und Schrotteinkaufsseite einheitlich Robert-Koch-Str. 9, 63128 Dietzenbach. Ein früher dokumentierter JSON-LD-Eintrag derselben Website nennt dagegen Dieselstr. 22; der interne Quellenwiderspruch ist nicht aufgelöst. Da kein passender Register-/Zweitbeleg vorliegt, bleiben Straße, PLZ und Kontaktdaten trotz der Betreiberangabe aus dem Frontmatter heraus. **Ankauf:** Die Website wirbt mit Schrott-/Altmetallankauf für Privat und Gewerbe, marktwertabhängiger Bewertung und sofortiger Barauszahlung, ohne numerische Kurse. **Verkauf:** keine Teile- oder Materialpreisliste gefunden. **Gebühren:** Containerdienst wird beworben, aber ohne Tarif und ohne pauschale Gratiszusage. Keine GEO-Koordinate.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiberwebsite direkt über Impressum, Kontakt, Schrotteinkauf und Containerdienst gelesen. Sichttexte nennen Leonard Dorel Caldarar, Robert-Koch-Str. 9/63128 Dietzenbach, 0176 40067307 und info@leonard-schrotthandel.de. Die Schrotteinkaufsseite bewirbt Ankauf von Altmetall/Alteisen und Kabeln für Privat- und Gewerbekunden, marktwertabhängige Bewertung und sofortige Barauszahlung; keine Zahlenkurse. Container sind als Dienstleistung beworben, aber ohne Preis-/Gebührentafel oder ausdrückliche Gratiszusage. Keine Materialverkaufspreise gefunden. Die frühere Recherche dokumentiert innerhalb derselben Website abweichendes JSON-LD „Dieselstr. 22“; mangels unabhängigem qualifiziertem Zweitbeleg weder Adresse noch Kontakte ins Frontmatter übernommen und kein GEO gesetzt. Preise getrennt: ANKAUF ohne Zahlenkurs; VERKAUF ohne Liste; GEBÜHREN ohne Tarif. Quellen: https://leonard-schrotthandel.de/impressum/ ; https://leonard-schrotthandel.de/kontakt/ ; https://leonard-schrotthandel.de/schrotteinkauf/ ; https://leonard-schrotthandel.de/containerdienst/.]
 
 ### Recherche 01.10.2026
 

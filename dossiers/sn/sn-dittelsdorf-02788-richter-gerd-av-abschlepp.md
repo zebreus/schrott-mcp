@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Eine amtliche sächsische Anlage von 2012 führt „Autoverwertung Gerd Richter“ mit der Tätigkeit „Autoverwertung und Abschleppdienst“ in Hirschfelde, OT Dittelsdorf. Das ist ein historischer Behördenbeleg, kein aktueller Betriebs- oder Zertifizierungsnachweis. Aktuelle Branchenverzeichnis-Leads nennen Wittgendorfer Feld 14, 02788 Dittelsdorf, 035843 25270, sind aber keine Betreiberbestätigung. Der ähnlich benannte Auftritt av-richter.de gehört laut eigenem Impressum Autoverwertung Richter/Mario Kuhn in Leipzig und wird nicht zugeordnet. **Ankauf:** kein aktueller Fahrzeug-/Metallankauf und keine Vergütung belegt. **Verkauf:** keine Teilepreisliste. **Gebühren:** keine Abschlepp-/Verwertungstarife. Die Behördenkoordinaten sind altes Rasterformat und keine bestätigte WGS84-Kundenadresse; kein GEO.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Historischen amtlichen Sachsen-Beleg und aktuelle Verzeichnis-Leads getrennt bewertet. Die sächsische Anlage zum Erlass „Wasserrechtliche Anforderungen an die Errichtung und den Betrieb von Anlagen zur Lagerung und Behandlung von Altautos“ (Tabelle, 2012) führt „Autoverwertung Gerd Richter“, „Autoverwertung und Abschleppdienst“, Hirschfelde OT Dittelsdorf, Rasterwerte 477060/5636319. Das belegt eine historische Tätigkeit/Ortszuordnung, nicht den Fortbestand oder eine heutige Kundenannahme; Rasterwerte sind keine WGS84-Koordinate. Aktuelle Branchenverzeichnis-Suchergebnisse wiederholen Wittgendorfer Feld 14, 02788 Dittelsdorf und 035843 25270, bleiben aber Leads. Kein verifizierter heutiger Betreiber, Zertifizierungsstatus oder Preis. Der bereits ausgeschlossene Leipziger Betreiber av-richter.de (Inhaber Mario Kuhn) bleibt ein Namensvetter ohne Verbindung. Keine Frontmatter-Füllung oder GEO. ANKAUF: aktueller Fahrzeug-/Metallankauf und Vergütung offen; VERKAUF: keine Teilepreise; GEBÜHREN: keine Abschlepp-/Verwertungstarife. Quellen: https://www.wasser.sachsen.de/download/20121220Erlass_VwA_Version20121215b.pdf ; https://zittau.stadtbranchenbuch.com/130544.html (Verzeichnislead); https://www.autobranche.org/abschleppdienste/gerd-richter/ (Verzeichnislead); http://www.av-richter.de/impressum.html (Namensvetter Leipzig).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

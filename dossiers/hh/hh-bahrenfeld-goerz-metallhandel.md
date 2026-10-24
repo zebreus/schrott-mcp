@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Die Registerspur belegt Goerz Metallhandel GmbH, HRB 37939, mit Anschrift Rondenbarg 31, nicht aber einen aktuellen eigenen Schrottplatzbetrieb. Die Betreiberseite von ISR führt dieselbe Adresse als „Schrottplatz Hamburg Altona“ ausdrücklich unter ISR; Goerz-Domain und Impressum bleiben beim Direktabruf gesperrt. Eine Übernahme/Verbindung ist nicht belegt und die ISR-Daten werden nicht auf Goerz übertragen. **Ankauf:** keine Goerz-Preise; ISR wirbt an diesem Standort mit Höchstpreisen und bittet um Preisanfrage, ohne Zahlenliste. **Verkauf:** keine Liste für Goerz. **Gebühren:** keine Goerz-Tarife; ISR veröffentlicht an dieser Stelle ebenfalls keine konkrete Gebührentafel. Adresse/Betreiberkette vor GEO-Änderung klären.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: NorthData-Profil erneut direkt gelesen: Goerz Metallhandel GmbH, Amtsgericht Hamburg HRB 37939, Registeranschrift Rondenbarg 31, 22525 Hamburg; Unternehmensgegenstand „Schrott- und Metallhandel“. Das belegt die Gesellschaft/den Registergegenstand, aber nicht den aktuellen Betrieb eines eigenen Annahmeplatzes. Die aktuelle ISR-Standortseite führt am selben Ort einen „Schrottplatz Hamburg Altona“ mit Annahme für privat und gewerblich ausdrücklich im ISR-Auftritt; daraus folgt keine Betreiber-/Übernahmekette zu Goerz. Deshalb Status `aktiv` auf `pruefung` herabgesetzt: aktuelle Goerz-Annahme nicht belegt, aber auch keine Schließung behauptet. Keine ISR-Kontakte, Leistungen oder GEO auf Goerz übertragen. ANKAUF/VERKAUF/GEBÜHREN: keine Goerz-Kurse, Warenpreisliste oder Tarife. Quellen: https://www.northdata.de/Goerz%20Metallhandel%20GmbH,%20Hamburg/HRB%2037939 ; https://www.isr-recycling.de/index.php/standorte-isr.]
 
 ### Recherche 23.10.2026
 

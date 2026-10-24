@@ -12,6 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
+clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -29,6 +30,10 @@ Mehrere Branchenverzeichnisse führen **Stefan Mock / Schrotthandel- und Contain
 **Preise:** Ankauf: `schrotthagen.de` wirbt allgemein mit „fairen“/„Höchstpreisen“, nennt aber keine Zahlen und ist Mock nicht zugeordnet. Verkauf: keine Mock-Liste. Gebühren: keine Mock-Tarife; „kostenlose Schrottabholung“ auf der fremden/unzugeordneten Domain nicht übertragen. Neue Straße 2 bleibt Lead und kein GEO-Ziel, bis Betreiberbezug und Kundennutzung bestätigt sind.
 
 ## Timeline
+
+### Korrektur 24.10.2026: Gemeinsamen falschen Hagen-Punkt zurückziehen
+
+- [Korrektur 24.10.2026: Die Produktionszeile `nw-hagen-mock` enthielt den mit mehreren anderen Hagen-Datensätzen geteilten Punkt `51.90933, 7.88825`. Die read-only-Rückwärtssuche löst ihn in Mehringen, Everswinkel, Kreis Warendorf, PLZ 48351 auf, nicht in Hagen. `clear_fields: 'geo'` zieht den falschen Punkt zurück; mangels belegter Händleradresse wird keine Ersatzkoordinate gesetzt. Die Produktionsdatenbank blieb unverändert. Quelle: https://nominatim.openstreetmap.org/reverse?lat=51.90933&lon=7.88825&format=jsonv2&addressdetails=1 ; https://www.openstreetmap.org/way/81516036.]
 
 ### Recherche 13.10.2026
 

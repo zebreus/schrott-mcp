@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed-Datensatz nennt „Dernbach“ und Butterpfad 1 ohne belegte Betreiberidentität. Eine aktuelle Berichterstattung verortet Peter Ludolfs Rückkehr 2025 am historischen Ludolf-Schrottplatz an der Mittelstraße; damit ist weder Butterpfad 1 identifiziert noch eine heutige gewerbliche Annahme oder Verbindung zur Seed-Zeile bewiesen. Gemeinde/Ortsteil und Betrieb bleiben offen. Keine verifizierte Ankauf-, Verkaufs- oder Gebührenpreisliste.
+Der Seed-Datensatz nennt „Dernbach“ und Butterpfad 1 ohne belegte Betreiberidentität. Der SWR-Beitrag zur Mittelstraße (2015) beschreibt den Ludolf-Schrottplatz damals als üblicherweise geschlossen und berichtet von einer geplanten Nachfolgefirma in Linden; die AUTO-ZEITUNG berichtete 2026, Peter Ludolf sei im August 2025 an den historischen Platz zurückgekehrt. Diese zeitlich verschiedenen Medienberichte identifizieren weder Butterpfad 1 noch bestätigen sie den heutigen gewerblichen Annahmebetrieb oder eine Verbindung zur Seed-Zeile. Gemeinde/Ortsteil, Betreiber und Annahme bleiben offen. **Ankauf:** aktuelle Annahme/Vergütung nicht belegt. **Verkauf:** keine Teile-/Materialpreisliste. **Gebühren:** keine Tarife. Kein GEO.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: SWR-Bericht „Die Mittelstraße in Dernbach“ (2015) und die bereits dokumentierte AUTO-ZEITUNG-Berichterstattung (26.05.2026) gegeneinander abgegrenzt. SWR beschreibt den Ludolf-Platz damals als normalerweise geschlossen und erwähnt die Gründung einer Nachfolgefirma in Linden; AUTO-ZEITUNG berichtet von Peter Ludolfs Rückkehr im August 2025 an den historischen Platz. Die Berichte beziehen sich auf die Mittelstraße und widerspiegeln unterschiedliche Zeitstände; sie bestätigen weder den Seed-Hinweis Butterpfad 1 noch eine heutige Kundenannahme oder Betreiberidentität. Kein Umhängen auf die Ludolfs, keine Status-/Adressänderung und kein GEO. ANKAUF: aktueller Betrieb/Preis unbekannt; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quellen: https://www.swr.de/video/sendungen-a-z/landesschau-rlp/hierzuland/broadcastcontrib-swr-4668.html ; https://www.autozeitung.de/die-ludolfs-2016-neue-folgen-119020.html ; Seed-Hinweis Butterpfad 1 im Importabschnitt.]
 
 ### Recherche 02.10.2026
 

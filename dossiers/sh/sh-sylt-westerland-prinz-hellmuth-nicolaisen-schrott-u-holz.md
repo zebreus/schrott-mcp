@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnisse führen Prinz Hellmuth / Helmut Nicolaisen, Nordhedig 9, 25980 Westerland, jedoch ohne Betreiber- oder Registerbeleg und mit uneindeutiger Telefonnummer (einige Verzeichnisse kennzeichnen 04651 929696 als Fax, andere listen sie als Kontakt). Keine Zuordnung zum getrennten Roselieb-Betrieb. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
+Verzeichnisse führen Prinz Hellmuth / Helmut Nicolaisen, Nordhedig 9, 25980 Westerland, jedoch ohne Betreiber- oder Registerbeleg und mit uneindeutiger Telefonnummer (einige Verzeichnisse kennzeichnen 04651 929696 als Fax, andere listen sie als Kontakt). Ein SHZ-Beitrag vom 11.03.2018 („Das Ende des Sylter Schrott-Prinzen“) berichtet historisch vom Ende des Betriebs bzw. geschlossenen Toren; der Artikel ist derzeit nur teilweise lesbar und belegt weder den heutigen Status noch eine spätere Wiedereröffnung oder mobile Tätigkeit. Keine Zuordnung zum getrennten Roselieb-Betrieb. **Ankauf:** nicht verifiziert, keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
 
 ## Timeline
+
+### Recherche 24.10.2026: historischer Schließungshinweis gegen aktuelle Verzeichnis-Leads
+
+- [Recherche 24.10.2026: Gelbe Seiten und Das Örtliche führen den alten Eintrag Prinz Hellmuth / Helmut Nicolaisen, Nordhedig 9, 25980 Westerland, weiter; das SHZ-Archiv führt einen Beitrag vom 11.03.2018 mit dem Titel „Das Ende des Sylter Schrott-Prinzen“. Der Direktabruf zeigt Bild/Überschrift, der Artikeltext ist hinter einer Bezahlschranke. Das ist ein ernstzunehmender historischer Schließungshinweis, aber kein Nachweis für den Betriebsstatus im Jahr 2026 oder eine spätere Wiedereröffnung. Die Verzeichniseinträge sind damit nicht als aktuelle Betreiberbestätigung zu werten. Keine Telefonnummer (Fax-/Telefonrolle weiter widersprüchlich), Adresse, Preise oder GEO ergänzt. **Ankauf/Verkauf/Gebühren:** nicht belegt. Quellen: https://www.shz.de/lokales/sylt/artikel/das-ende-des-sylter-schrott-prinzen-41673021 ; https://www.gelbeseiten.de/gsbiz/45846878-cad6-4b52-ab1d-9ac5052f669e ; https://www.dasoertliche.de/Themen/Prinz-Hellmuth-Inh-Helmut-Nicolaisen-Schrott-u-Holzentsorgung-Sylt-Westerland-Nordhedig .]
 
 ### Recherche 08.10.2026
 

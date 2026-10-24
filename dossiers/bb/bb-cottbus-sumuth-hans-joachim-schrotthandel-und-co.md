@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Verzeichnis-Spur für „Süßmuth Hans-Joachim Schrotthandel und Containerdienst“ führt an Grenzstr. 18, nennt aber je nach Portal 03051 oder 03055 Cottbus. Eine aktuelle Containerdienst-Seite listet zusätzlich H.-J. Süßmuth an Bärenbrücker Str. 3, 03042 Cottbus-Merzdorf, mit derselben Festnetznummer. Das sind widersprüchliche Aggregator-Leads, keine Betreiberbestätigung und keine nachgewiesene Filial- oder Umzugsbeziehung. Auch die ältere Schul-Branchenliste ist nach der dokumentierten Quellenhierarchie kein Betreiber-/Registerbeleg. `status: pruefung`; keine Varianten zusammenführen.
+Der Seed führt Grenzstr. 18, 03051 Cottbus. Eine amtliche Brandenburger Abfallwirtschaftsplanung (Anlagenbestand November 2022) unterscheidet zusätzlich einen „Süßmuth – Schrottplatz Cottbus“ an Bärenbrücker Str. 3, 03042, und den Containerdienst/Schrotthandel an Grenzstr. 18. Das aktuelle Suchergebnis des Landes-Entsorgungsanlagenkatasters nennt wiederum Bärenbrücker Str. 3 für „H.-Joachim Süßmuth Containerdienst & Schrotthandel“. Die amtlichen Spuren bestätigen daher mehrere Adressdatensätze, klären aber nicht, welche Stelle heute Kundenannahme ist oder ob der Betrieb fortbesteht. Sie rechtfertigen weder ein Zusammenführen der Adressen noch einen GEO-Punkt. `status: pruefung` bleibt.
 
-**Preise:** ANKAUF — keine Süßmuth zuordenbaren Schrottpreise. VERKAUF — keine Materialverkaufspreise. GEBÜHREN — keine Süßmuth-Tarife. Der Cottbuser Container-Preisportaltext enthält allgemeine Portal-/Partnerkonditionen, ist aber nicht belastbar diesem Eintrag zuzuordnen. **Offen:** richtige Betriebsadresse/PLZ, Identität der Süßmuth-Varianten und aktuelle Kundenannahme.
+**Preise:** **ANKAUF:** keine Süßmuth zuordenbaren Kurse oder bestätigten Annahmebedingungen. **VERKAUF:** keine Materialverkaufspreise. **GEBÜHREN:** keine zurechenbaren Tarife; allgemeine Container-Portalpreise bleiben ausgeschlossen. **Offen:** aktuelle Kundenannahme, Zuordnung der zwei amtlich geführten Adressen und Abgrenzung der Eintragsvarianten.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Neue amtliche Gegenprüfung schärft den bisherigen Adresskonflikt: Die Brandenburgische Abfallwirtschaftsplanung, Fortschreibung 2023 (Anlagenbestand November 2022), führt einen „Süßmuth – Schrottplatz Cottbus“ an Bärenbrücker Straße 3, 03042 und separat „Hans-Joachim Süßmuth Containerdienst und Schrotthandel“ an Grenzstraße 18, 03051. Das aktuelle Suchergebnis des LUIS-BB-Entsorgungsanlagenkatasters führt „H.-Joachim Süßmuth Containerdienst & Schrotthandel“ an Bärenbrücker Straße 3; der Direktabruf des Katasters scheiterte heute mit Transportfehler. Die amtlichen Listen machen zwei Standortspuren plausibel, belegen aber weder eine aktuelle Annahme noch die heutige Zuordnung des Seed-Eintrags. Deshalb keine Adresse ersetzt, keine Varianten zusammengeführt und kein GEO gesetzt. ANKAUF: keine Kurse/Annahmebedingungen; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://bravors.brandenburg.de/verwaltungsvorschriften/awp_gefaehrliche_abfaelle_2024 (Anlage 9.2, Stand November 2022); https://abfalldaten.brandenburg.de/entsorgungsanlagen (amtlicher LUIS-BB-Katalog, Suchtreffer vom 24.10.2026).]
 
 ### Recherche 20.10.2026
 

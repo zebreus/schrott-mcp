@@ -28,6 +28,10 @@ Ein am 21.10.2026 direkt gelesener Gelbe-Seiten-Eintrag führt „Containerdiens
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Gelbe Seiten und SELLWERK-Profil direkt gelesen. Beide listen „Containerdienst Roman Proba“, Grenzhausener Str. 49, 56191 Weitersburg und 0163 3694136; SELLWERK ergänzt romanproba@hotmail.de. Es handelt sich um Verzeichnisprofile mit übereinstimmenden Daten, nicht um zwei unabhängige Betreiber-/Registerbelege. Die belegte Kategorie ist Containerdienst, nicht ein Schrottannahmehof. Deshalb keine Kontakt-/Adressfelder ins Frontmatter übernommen und kein GEO. ANKAUF: keine Materialannahme/Vergütung belegt; VERKAUF: keine Liste; GEBÜHREN: keine Container-/Transporttarife veröffentlicht. Quellen: https://www.gelbeseiten.de/gsbiz/8051e901-42df-4e39-bde4-116f587162b7 ; https://sellwerk.de/firmenprofil/containerdienst-roman-proba.]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Gelbe Seiten direkt gelesen: „Containerdienst Roman Proba“, Grenzhausener Str. 49, 56191 Weitersburg, 0163 3694136; Kategorie Containerdienste. Dies präzisiert den früheren bloßen Orts-Seed zu einem konkreten Verzeichnis-Adresslead, bleibt aber eine einzelne Aggregatorquelle und belegt weder Betreiberidentität noch einen Schrottannahmehof. Kein Betreiber-/Register-/Kommunalbeleg, daher keine Felder geändert und status pruefung unverändert. ANKAUF: keine Vergütung oder Materialbedingungen genannt; VERKAUF: keine Liste; GEBÜHREN: keine Container-/Transporttarife genannt. Grenzhausener Str. 49 ist vor Zuordnung und Geocodierung zu bestätigen. Quelle: https://www.gelbeseiten.de/gsbiz/8051e901-42df-4e39-bde4-116f587162b7.]

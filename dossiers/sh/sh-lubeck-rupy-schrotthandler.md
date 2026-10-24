@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 24.10.2026: Das-Örtliche-Profil direkt erneut geprüft
+
+- [Recherche 24.10.2026: Das-Örtliche-Detail direkt abgerufen. Es führt „Rupy Schrotthändler“, Schönböckener Str. 96, 23556 Lübeck und im Profilfuß die Nummer 01514 1346971. Der Eintrag liefert keine Betreiberwebsite, Öffnungszeiten, Annahmebedingungen oder Preisangaben und ist kein Betreiber-/Registerbeleg. Die wiederholten Verzeichnisangaben sind keine Bestätigung heutiger Tätigkeit oder eines öffentlichen Annahmeorts; Frontmatter bleibt als unbestätigter Bestand, `status: pruefung`. **Ankauf:** keine Kurse; **Verkauf/Gebühren:** keine Liste. Adresse nicht geokodiert. Quelle (Verzeichnislead): https://www.dasoertliche.de/Themen/Rupy-Schrotth%C3%A4ndler-L%C3%BCbeck-Holstentor-Nord-Sch%C3%B6nb%C3%B6ckener-Str]
+
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 
 - [Recherche 18.10.2026: Gelbe-Seiten-Detail live gelesen: unverändert Schönböckener Str. 96, 23556 und 01514 1346971, keine im gelesenen Inhalt identifizierbare eigene Betreiberwebsite oder Preis-/Annahmekonditionen. NorthData-Suggest Rupy HTTP 429; DuckDuckGo CAPTCHA, Google Consent statt Ergebnisse. Kein Primär- oder zweiter zulässiger Beleg und kein Negativbeweis zur Existenz. Bestandswerte nicht als neu bestätigt ausgegeben, status pruefung erhalten. Ankauf/Verkauf/Gebühren nicht beziffert; GEO zurückstellen bis Inhaber/Gewerbe und Kundenstandort belegt. Quellen: https://www.gelbeseiten.de/gsbiz/9f33fbf8-1dd6-445b-878c-1c5d0120fc76 (Lead) ; https://www.northdata.de/suggest.json?query=Rupy&countries=DE (Zugriff gesperrt).]

@@ -12,6 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
+clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -29,6 +30,10 @@ Ein möglicher Kandidat zur vagen Seed-Zeile „ERB“ ist die ERB Handel GmbH, 
 **ANKAUF:** Betreiberseite nennt Kauf von NE-Schrott, aber nur flexible/tagesmarktbezogene Angebote ohne Zahlenliste. **VERKAUF:** Rohstoffversorgung wird als Großhandelsleistung beschrieben; keine Kunden- oder Verkaufspreisliste. **GEBÜHREN:** keine Tarifangaben gefunden. **GEO:** nicht geokodieren, bis die Seed-Zuordnung und ein aktueller Kunden-/Annahmestandort belegt sind; der Register-Sitz in Schwelm ist kein Hagen-Pin.
 
 ## Timeline
+
+### Korrektur 24.10.2026: Gemeinsamen falschen Hagen-Punkt zurückziehen
+
+- [Korrektur 24.10.2026: Die Produktionszeile `nw-hagen-erb` enthielt den mit mehreren anderen Hagen-Datensätzen geteilten Punkt `51.90933, 7.88825`. Die read-only-Rückwärtssuche löst ihn in Mehringen, Everswinkel, Kreis Warendorf, PLZ 48351 auf, nicht in Hagen. `clear_fields: 'geo'` zieht den falschen Punkt zurück; mangels belegter Händleradresse wird keine Ersatzkoordinate gesetzt. Die Produktionsdatenbank blieb unverändert. Quelle: https://nominatim.openstreetmap.org/reverse?lat=51.90933&lon=7.88825&format=jsonv2&addressdetails=1 ; https://www.openstreetmap.org/way/81516036.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Ein am 21.10.2026 direkt gelesener Gelbe-Seiten-Eintrag führt „Christ Patrick“, Schrott, Poststr. 31, 56427 Siershahn, Tel. 02623 6871; als Leistungsumfang stehen Alteisen, Altmetalle und Brennschrott. Das ist ein einzelner Aggregator-Lead, kein Betreiber-/Register-/Kommunalbeleg; daher keine Frontmatter-Füllung und status pruefung unverändert. **Ankauf:** keine Preise oder Bedingungen belegt. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Poststr. 31 erst nach Identitäts-/Standortbestätigung geocodieren.
+Gelbe Seiten und Das Örtliche führen übereinstimmend „Christ Patrick“, Poststr. 31, 56427 Siershahn, Tel. 02623 6871. Gelbe Seiten ordnet den Lead „Schrott“ zu und nennt Alteisen, Altmetalle und Brennschrott; Das Örtliche zeigt keine entsprechende Branche. Beide sind Verzeichnis-Leads, kein Betreiber-/Register-/Kommunalbeleg. **Ankauf:** keine Preise oder Bedingungen belegt. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Poststr. 31 erst nach Identitäts-/Standortbestätigung geocodieren.
 
 ## Timeline
+
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Zwei Verzeichnisprofile direkt gegengeprüft. Gelbe Seiten nennt Christ Patrick, Poststr. 31/56427 Siershahn, 02623 6871 und Portal-Leistungsumfang Alteisen, Altmetalle, Brennschrott; Das Örtliche wiederholt Adresse/Telefon, führt aber als Zusatzinfo Bergungsdienste und keine Schrott-Leistungsdetails. Das sind keine unabhängigen Betreiber-/Register-/Kommunalbelege; Eintragskategorien widersprechen/variieren und belegen keinen aktuellen Schrottannahmeplatz. Keine Felder geändert, status `pruefung`, kein GEO. ANKAUF: kein Kurs/Annahmebedingung; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://www.gelbeseiten.de/gsbiz/cd40e9cf-9a58-4246-9831-fdb2baa10520 ; https://www.dasoertliche.de/Themen/Christ-Patrick-Siershahn-Poststr.]
 
 ### Recherche 21.10.2026
 

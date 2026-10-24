@@ -28,6 +28,10 @@ Klärfall. Der Creditreform-Suchindex führt „Manfred Leißner Abfallentsorgun
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Gelbe Seiten und Das Örtliche liefern aktuelle Suchtreffer „Leißner/Leiner Manfred Containerdienst“ für Schöneckstr. 2, 39397 Gröningen und dieselbe Seed-Telefonnummer 039403/929237. Das sind zwei Branchenverzeichnisse, keine Betreiberquelle oder amtliche Bestätigung; Schreibvarianten Leißner/Leiner und Identität bleiben zu prüfen. Der STRABAG-Recyclingplatz an der Nienhagener Straße ist ein getrennter Anbieter. ANKAUF: keine Leißner-Kurse/Annahmebedingungen bestätigt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Adresse/Telefon nicht übernommen, keine GEO. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/8d8b7922-68e8-43f4-9d3b-610da7bca1da ; https://www.dasoertliche.de/Themen/Lei%C3%9Fner-Manfred-Containerdienst-Gr%C3%B6ningen-Sch%C3%B6neckstr ; https://www.westliche-boerde.de/de/recyclingplatz-groeningen.html .]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Der Suchindex von Creditreform zeigte einen Eintrag „Manfred Leißner Abfallentsorgung & Transporte“ mit Sitz Gröningen und Rechtsform Gewerbebetrieb; der direkte Firmeneintrag war beim Abruf mit HTTP 403 gesperrt und ist deshalb hier nur ein Recherchehinweis, kein direkt geprüfter Registerbeleg. Keine zweite zulässige Quelle zur Identität, Anschrift oder zum Fortbestand gefunden; Telefonnummer aus dem älteren Verzeichniseintrag nicht bestätigt. Keine Preisangaben zu Ankauf, Verkauf oder Gebühren verifiziert. Keine Frontmatter-Änderung und keine Geokodierung. Quelle(n): https://firmeneintrag.creditreform.de/39397/3170095058/MANFRED_LEISSNER_ABFALLENTSORGUNG_TRANSPORTE (Direktabruf 403; Suchindex-Hinweis).]

@@ -30,6 +30,10 @@ Reukema Germany Verwaltungsgesellschaft mbH wird im Register unter Krefeld HRB 1
 
 ## Timeline
 
+### Recherche 24.10.2026 - Welle 06:00 / Shard C
+
+- [Recherche 24.10.2026: Myne Circular Metals' aktuelle Kontaktseite direkt abgerufen; sie nennt die Zentrale in Harderwijk (Niederlande), aber keine Magdeburger Niederlassung. Zusammen mit dem Reukema-Webauftritt ist das kein Beleg für eine Fortführung oder Verlegung des ehemaligen Magdeburger Dossiers. Die gelöschte Reukema Germany GmbH & Co. KG und die separat umbenannte Verwaltungsgesellschaft/Myne bleiben getrennte Rechtsträger; keine Adresse/Kontakte übertragen. ANKAUF: keine Magdeburger Konditionen; VERKAUF: keine lokale Liste; GEBÜHREN: keine Tarife. Keine GEO; offen bleibt, ob es in Magdeburg jemals einen öffentlich zugänglichen Standort gab. Quelle: https://www.myne.eco/contact ; https://www.reukema.com/contact .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: NorthData-Suche und drei individuelle Datensätze direkt gelesen: Reukema Germany GmbH/Hamburg HRB 107109, ehemals Metalliance, Formwechsel zur KG am 01.09.2011; KG zuletzt Kleve HRA 4632, zuvor Krefeld HRA 6238/Hamburg HRA 113612, Gegenstand Rohstoffhandel Metallsegment, Löschung 31.08.2026. Separate Reukema Germany Verwaltungsgesellschaft mbH/Krefeld HRB 14383 am 31.08.2026 zu Myne Circular Metals GmbH umbenannt, Siemensstr. 31, 47533 Kleve. Formwechsel/Verwaltungsgesellschaft nicht mit bewiesener Magdeburger Fortführung verwechseln; Löschungsgrund und Standortbezug nicht gesichert. Nur eine Register-Quellfamilie, keine Adress-/Namensmigration oder Aktivierung. Quelle: https://www.northdata.de/Reukema%20Germany%20GmbH,%20Hamburg/HRB%20107109 ; https://www.northdata.de/Reukema%20Germany%20GmbH%20&%20Co%C2%B7%20KG,%20Kleve/HRA%204632 ; https://www.northdata.de/Myne%20Circular%20Metals%20GmbH,%20Kleve/Amtsgericht%20Krefeld%20HRB%2014383.]

@@ -30,6 +30,10 @@ Betreiber-Impressum nennt Klaus Habersack; die Gemeinde bestätigt den Familienb
 
 ## Timeline
 
+### Recherche 24.10.2026
+
+- [Recherche 24.10.2026: Betreiber-Startseite und Leistungsseite erneut direkt abgerufen. Sie nennen weiterhin die Kfz-Verwertung mit Annahme von Unfall-, Alt- und Schrottfahrzeugen, Altwagenabholung/Entsorgung mit Verwertungsnachweis, An- und Verkauf von Fahrzeugen sowie Ersatzteilverkauf. Der Seitenfuß führt Struthweg 3, 63594 Hasselroth, Telefonnummer und Mo–Fr/Sa-Zeiten; die Felder bleiben wegen des bereits dokumentierten Einzelbelegs-/Zweitquellen-Gates unverändert. Die Zertifizierungsseite verweist auf historische Anerkennung 19.03.2001–01.03.2009; eine aktuelle gültige Anerkennung wird dadurch nicht belegt. ANKAUF: Fahrzeuge angeboten, keine Kurse. VERKAUF: Fahrzeuge/Original- und Gebrauchtteile, keine Preisliste. GEBÜHREN: Abholung/Entsorgung angeboten, aber weder Tarif noch kostenlos zugesagt. Kein GEO. Quellen: https://www.kfz-verwertung-habersack.de/ ; https://www.kfz-verwertung-habersack.de/zertifizierte-kfz-verwertung-habersack.html ; https://www.kfz-verwertung-habersack.de/impressum.html.]
+
 ### Owner-Follow-up 14.10.2026 (18:30)
 
 - [Korrektur 14.10.2026: Unqualifiziertes Zertifizierte aus description zurückgenommen, alte Beschreibung und frühere Einschätzungen bleiben in der unveränderten Timeline nachvollziehbar. Owner liest Leistungstext erneut: lediglich historische Anerkennungsangabe 19.03.2001–01.03.2009 und ältere Seminar-/Überwachungsdaten, keine heute gültige Bescheinigung. Gemeindebericht vom 05.12.2023 bestätigt Familienbetrieb/Meisterwerkstatt in Niedermittlau, keine Straße und kein aktuelles Anerkennungsaudit. Daher keine aktuelle Zertifizierung als Fakt veröffentlichen; keine Behauptung eines rechtswidrigen oder geschlossenen Betriebs. status pruefung und übrige Frontmatter-Felder unverändert. Quellen: https://www.kfz-verwertung-habersack.de/zertifizierte-kfz-verwertung-habersack.html ; https://www.hasselroth.de/hasselroth/gewerbe/tour-de-hasselroth/fa-kfz-verwertung-habersack/]
