@@ -181,7 +181,6 @@ fn extract_info(imp: &str, home: &str) -> Result<TraderInfo, IngestError> {
         });
     }
     let ls = text_lines(after_kontakt);
-    eprintln!("HARBI DEBUG: {:?}", ls);
     let phone = ls
         .iter()
         .find_map(|line| line.strip_prefix("Handy:").map(|v| v.trim().to_owned()))
