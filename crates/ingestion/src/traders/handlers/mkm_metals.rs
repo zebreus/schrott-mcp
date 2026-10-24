@@ -29,9 +29,9 @@ pub const IMPRESSUM_URL: &str = "https://mkm-metals.de/impressum";
 
 /// Operator's eight purchase tables; sales/fees are not quotes.
 pub const URL: &str = "https://mkm-metals.de/metallpreise";
-const STYLESHEET_HREF: &str = "/assets/css/gesamt.min.css?v=1792784604";
-const STYLESHEET_URL: &str = "https://mkm-metals.de/assets/css/gesamt.min.css?v=1792784604";
-const STYLESHEET_SHA256: &str = "9e6234751299b7a7943d135c45dbc762d88f7eefdfea07b972b30f906735b84a";
+const STYLESHEET_HREF: &str = "/assets/css/gesamt.min.css?v=1792876014";
+const STYLESHEET_URL: &str = "https://mkm-metals.de/assets/css/gesamt.min.css?v=1792876014";
+const STYLESHEET_SHA256: &str = "cf1b76e3cdadbf9e9fa1a6654ce50f87f7aebe049570fed47110ccf09b0adc47";
 
 pub fn handler() -> Handler {
     Handler {
@@ -492,9 +492,10 @@ mod tests {
     fn reviewed_visibility_assets_are_pinned_and_inline_styles_are_rejected() {
         let html = format!(r#"<link rel="stylesheet" href="{STYLESHEET_HREF}">"#);
         assert!(super::validate_visibility_asset_references(&html).is_ok());
-        assert!(super::validate_visibility_asset_references(
-            &html.replace("1792784604", "new-version")
-        )
+        assert!(super::validate_visibility_asset_references(&html.replace(
+            super::STYLESHEET_HREF,
+            "/assets/css/gesamt.min.css?v=unreviewed"
+        ))
         .is_err());
         assert!(super::validate_visibility_asset_references(&format!(
             "{html}<style>.table{{display:none}}</style>"
