@@ -530,4 +530,26 @@ mod tests {
             <div class=\"cms-desc\">Telefon: +49 (0) 39292 / 20 90</div>";
         assert!(extract_info(imp).is_err());
     }
+
+    #[tokio::test]
+    #[ignore = "read-only live check; fetches the public price page and Impressum"]
+    async fn live_handler_scrapes_current_page_without_recording() {
+        let client = reqwest::Client::builder()
+            .user_agent("schrott-mcp-ingestion/0.1")
+            .timeout(std::time::Duration::from_secs(30))
+            .build()
+            .expect("HTTP client");
+        let scrape = super::handler().scrape;
+        let outcome = scrape(&client)
+            .await
+            .expect("live price page and Impressum");
+
+        assert_eq!(outcome.status_code, 200);
+        assert_eq!(outcome.prices.len(), 13);
+        assert!(outcome
+            .prices
+            .iter()
+            .all(|price| price.price_kind == "approx" && price.confidence == Some(0.5)));
+        assert!(outcome.published_at.is_none());
+    }
 }
