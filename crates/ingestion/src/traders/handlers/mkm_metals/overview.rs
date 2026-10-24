@@ -757,15 +757,13 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
                     .descendants()
                     .filter_map(ElementRef::wrap)
                     .any(explicitly_hidden)
-                || cells[0]
-                    .descendants()
-                    .filter_map(ElementRef::wrap)
-                    .any(explicitly_hidden)
-                || explicitly_hidden(cells[1])
-                || cells[1]
-                    .descendants()
-                    .filter_map(ElementRef::wrap)
-                    .any(explicitly_hidden)
+                || cells.iter().any(|cell| {
+                    explicitly_hidden(*cell)
+                        || cell
+                            .descendants()
+                            .filter_map(ElementRef::wrap)
+                            .any(explicitly_hidden)
+                })
             {
                 continue;
             }
@@ -1109,7 +1107,15 @@ mod tests {
             first_product_row(HTML, "style=\"DISPLAY: none !important\""),
             HTML.replacen("id=\"kupfer\"", "hidden id=\"kupfer\"", 1),
             HTML.replacen("id=\"kupfer\"", "style=\"display: none\" id=\"kupfer\"", 1),
+            mutate_first_product(
+                "<td class=\"muted small\">MET-KU-MILL</td>",
+                "<td hidden class=\"muted small\">MET-KU-MILL</td>",
+            ),
             mutate_first_product("<td class=\"num\">", "<td hidden class=\"num\">"),
+            mutate_first_product(
+                "<td style=\"min-width: 9.5rem;\">",
+                "<td hidden style=\"min-width: 9.5rem;\">",
+            ),
             mutate_first_product(
                 "<strong style=\"color: var(--payout);\">",
                 "<strong hidden style=\"color: var(--payout);\">",
