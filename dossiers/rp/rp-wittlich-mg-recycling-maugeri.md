@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der direkt erreichbare Betreiberauftritt wirbt mit mobiler Abholung von Eisen-/Stahlschrott, gemischtem Schrott und Buntmetallen (u. a. Kupfer, Messing, Aluminium, Zink), außerdem Kupfer-/Aluminiumkabel, Hartmetall, Demontage und Entrümpelung. Anlieferung ist nur nach Absprache vorgesehen; die Website bezeichnet Abholung als hauptsächlichen Service. Das Impressum nennt Giuseppe Maugeri, Triererstraße 5, 54538 Bengel; der Seitenfuß nennt dagegen Friedrichstraße 56, 54616 Wittlich. Die Anschrift bleibt damit ungeklärt und wird nicht geokodiert. Ein weiterer `tel:`-Link auf der Website nennt 01575 7025957, abweichend von der Impressumsnummer 01521 3631130; nicht als verifizierten Zweitkontakt übernehmen.
+
+**Preise:** keine numerische Ankaufsliste; „faire/transparente Preise“ sind nur Werbeaussagen. **Verkauf:** keine Preisliste. **Gebühren:** keine Abhol-, Demontage- oder Entsorgungstarife veröffentlicht; aus der angebotenen Abholung folgt keine Kostenfreiheit. Status `pruefung` bis Identität/Anschrift unabhängig geklärt sind.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Root und Impressum der Betreiberwebsite direkt erneut gelesen. Das Leistungsangebot nennt Ankauf von Eisen-/Stahlschrott, Mischschrott, Kupfer, Messing, Aluminium, Zink, weiteren Buntmetallen, Kupferschäl-/Erdkabeln, Aluminiumkabeln und Hartmetallen sowie Demontage/Entrümpelung; Abholung ist der Hauptservice, Anlieferung bleibt nach Absprache. Das Impressum nennt Triererstraße 5, 54538 Bengel, während der aktuelle Seitenfuß Friedrichstraße 56, 54616 Wittlich ausweist; Anschrift- und PLZ-Widerspruch bleibt offen. Die Seite enthält neben der Impressumsnummer 01521 3631130 weiterhin einen separaten `tel:`-Link 01575 7025957; weder alternative Nummer noch neue Adresse übernommen. ANKAUF: keine veröffentlichten Euro-Kurse/Preistabelle; VERKAUF: keine Liste; GEBÜHREN: keine Tarife und keine belegte kostenlose Abholung. Keine Öffnungszeiten als Hofzeiten übernommen, kein GEO. Quellen: https://schrottankauf-wittlich.de/ ; https://schrottankauf-wittlich.de/impressum/ (Direktabrufe 25.10.2026; eine Betreiberquelle).]
 
 ### Recherche 03.10.2026
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Registerspiegel führen Taurus Entsorgungs-GmbH, HRB 45865 Mainz, als 2022 gelöscht; die frühere Domain taurus-gmbh.de löst aktuell nicht auf. Ein möglicher Fortführungshinweis ist jetzt besser eingrenzbar: Die Betreiberwebsite von E&O Entsorgung GmbH nennt HRB 51294, Dirk Sauer und den Binger Standort Am Ockenheimer Graben 24, 55411 Bingen. E&O bewirbt dort heute Schrott- und Metallannahme. Das belegt einen anderen aktuellen Rechtsträger am historischen Taurus-Registerstandort, aber keine Nachfolge, Übernahme oder Beziehung zum Heidesheim-Seed. Angaben und Preise von E&O werden deshalb nicht auf Taurus übertragen.
+
+**Preise:** Für Taurus ist keine aktuelle Ankaufsliste belegt; keine Verkaufspreise oder Tarife. E&O nennt nur für seinen eigenen Betrieb Tageshöchstpreise und Annahmeschwellen, keine numerischen Materialpreise. `status: pruefung` bleibt; weder Bingen-Adresse noch E&O-Leistungen werden ins Frontmatter übernommen. Kein GEO-Pin ohne Identitäts- und Standortbeleg für den Seed.
 
 ## Timeline
+
+### Recherche 25.10.2026: E&O am früheren Taurus-Registerstandort
+
+- [Recherche 25.10.2026: Die Betreiberwebsite von E&O Entsorgung GmbH nennt im Impressum HRB 51294 AG Mainz, Vertretung Dirk Sauer und Am Ockenheimer Graben 24, 55411 Bingen. Die Unternehmensseite bezeichnet Bingen als Hauptstandort/Wertstoffhof; die eigene Schrott-und-Metalle-Seite bestätigt dort Annahme/Vergütung von Metallschrott und bietet Container an. Sie beschreibt E&O als aus E&O Recycling GmbH und HKV Elektroschrott Recycling GmbH hervorgegangen, nennt Taurus aber nicht. Damit ist ein aktueller, eigenständiger E&O-Betrieb am gleichen Ort wie die frühere Taurus-Registeranschrift belegt, nicht aber eine Nachfolge oder Betriebsfortführung aus Taurus. Keine Adresse/Leistung ins Taurus-Frontmatter übertragen und kein Merge. E&O veröffentlicht keine konkreten Euro-Kurse; die dort genannten Annahmeschwellen bzw. kostenlose Kleinmengenannahme sind E&O-Bedingungen, keine Taurus-Preise oder -Gebühren. Kein GEO für Taurus. Quellen: https://eo-entsorgung.de/impressum/ ; https://eo-entsorgung.de/unternehmen/ ; https://eo-entsorgung.de/schrott-metalle/ (direkt abgerufen 25.10.2026; Betreiberquellen von E&O, nicht Taurus).]
 
 ### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
 

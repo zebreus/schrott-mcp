@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Schünzel Stephan bleibt ein nicht gesicherter Einzelgewerbe-/Identitätsfall. Die Seed-Nummer 0172 4777304 ist nicht aktuell primär bestätigt. Der erneut gelesene Verzeichniseintrag „Schrott und Metalle“, Waldweg 2, 98724 Neuhaus am Rennweg, nennt eine andere Nummer und keinen Schünzel; seine Adresse und Leistungen dürfen nicht übertragen werden. Kein Nachweis einer Schließung.
+Namensgenaue Branchenbucheinträge verknüpfen die Seed-Nummer 0172 4777304 nun mit Stephan Schünzel und nennen sowohl Am Bornhügel 13 als auch Ernst-Moritz-Arndt-Str. 7 in Neuhaus. Ein Krick-Weblocator-Profil führt außerdem stephan.schuenzel@googlemail.com und Am Bornhügel 13; die Regionalblog-Seite spiegelt dasselbe Profil, ist aber keine unabhängige zweite Betreiberquelle. Die widersprüchlichen Adressen bleiben Verzeichnisleads, nicht primär bestätigt. Der generische Eintrag „Schrott und Metalle“, Waldweg 2, nennt dagegen 0171 3422024 und keinen Schünzel; er stützt die Seed-Zuordnung nicht.
 
-**Ankauf / Verkauf / Gebühren:** keine zuordenbaren numerischen Listen. Nächster Schritt ist die örtliche Gewerbezuordnung des Seed-Namens und der Telefonnummer, nicht Geocoding des Waldweg-Leads.
+**Ankauf / Verkauf / Gebühren:** keine zuordenbaren numerischen Preislisten oder Tarife. Vorhandene Weblocator-Werbung für Buntmetallankauf ist kein belegter Kurs und bestätigt keine öffentliche Hofannahme. Vor einer Geokodierung müssen Betreiber und konkrete Betriebs-/Annahmestelle geklärt werden; weder Waldweg noch die zwei namensgenauen Adressleads ungeprüft pinnen. Kein Schließungsnachweis.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Die direkt abgerufene Das-Örtliche-Branchenübersicht führt „Schünzel Stephan Schrotthandel“, Am Bornhügel 13, 98724 Neuhaus am Rennweg, 0172 4777304; dieselbe Übersicht listet einen weiteren namensgleichen Treffer mit derselben Nummer an Ernst-Moritz-Arndt-Str. 7, 98724 Neuhaus. Das direkt gelesene Krick-Weblocator-Profil nennt Am Bornhügel 13, dieselbe Seed-Nummer sowie stephan.schuenzel@googlemail.com; regio-suedthueringen.com spiegelt das Profil desselben Anbieters und zählt nicht als unabhängiger Zweitbeleg. Die früher geprüfte generische Waldweg-2-Karte nennt 0171 3422024 und keinen Inhaber; sie ist nicht auf Schünzel übertragbar. Keine Kontaktdaten/Adresse ins Frontmatter übernommen: Betreiber-/Registerbeleg und exakte Betriebs- bzw. Annahmestelle fehlen. ANKAUF: keine Zahlenkurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. GEO bis zur Adressklärung ausgesetzt. Quellen: https://www.dasoertliche.de/Themen/Schrotthandel/Neuhaus-am-Rennweg.html ; https://www.dasoertliche.de/Themen/Sch%C3%BCnzel-Stephan-Schrotthandel-Neuhaus-am-Rennweg-Am-Bornh%C3%BCgel ; https://stephan-schuenzel-schrotthandel.weblocator.de/ ; https://www.regio-suedthueringen.com/stephan-schunzel-schrotthandel (Profilspiegel desselben Krick-Angebots).]
 
 ### Recherche 14.10.2026
 

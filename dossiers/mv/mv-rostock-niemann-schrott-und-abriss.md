@@ -30,6 +30,10 @@ Niemann Schrott und Abriss bleibt ohne geklärten Inhaber oder Betreiberauftritt
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Der direkte Betreiberauftritt von Sani Team Bau nennt David Schubert als Inhaber, Carl-Hopp-Straße 4f, 18069 Rostock, und Entkernung/Abbruch/Sanierung/Beräumung/Entsorgung. Das weicht von der älteren Lead-Adresse 4b ab und belegt weder eine Verbindung zu Niemann Schrott und Abriss noch zum Seed-Standort Altschmiedestr. 24. Daher keine Übertragung von Name, Adresse oder Kontakten und kein GEO für dieses Dossier; die Sani-Team-Adresse wäre separat als möglicher Standort des anderen Betriebs zu prüfen. Kein Schrottpreis- oder Gebührentarif veröffentlicht. Quelle: https://www.saniteambau.de/ .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Schrottplatz-Info-Profil erneut direkt abgerufen. Es zeigt weiterhin Altschmiedestr. 24, 18055 Rostock und 0177 8672278, sagt aber ausdrücklich, dass Angebot und Öffnungszeiten nicht erfasst sind; das Leistungsangebot fehlt, der Homepage-Link ist kein auswertbarer Betreiberauftritt. Damit bleibt die Anschrift/Telefonnummer ein einzelner Portalbeleg und die Annahme ungeklärt. Keine Frontmatter-Füllung, kein GEO. ANKAUF: keine bestätigte Vergütung oder Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife für Abriss/Abholung belegt. Quelle: https://www.schrottplatz-info.de/schrottplatz/Rostock/Niemann-Schrott-und-Abriss .]

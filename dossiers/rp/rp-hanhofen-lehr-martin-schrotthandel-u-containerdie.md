@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Martin Lehr Schrotthandel und Containerdienst“ wird nur in Branchenverzeichnissen mit Harthauser Straße 40, 67374 Hanhofen und 06344 4426 geführt. Es gibt keinen identifizierten Betreiberauftritt oder Registerbeleg; nahe gleichnamige Einträge (Peter Lehr, Harthauser Str. 41; Rudolf Lehr, Silzweg 16) sind getrennte Leads und werden nicht zusammengeführt. Die frühere strukturierte Straße, PLZ und Telefonnummer wurden mangels belastbarer Quelle entfernt. ANKAUF: ungeklärt, keine Preise; VERKAUF: keine Materialpreisliste; GEBÜHREN: keine Container-/Entsorgungstarife. Betreiberidentität und Leistungstiefe offen.
+„Martin Lehr Schrotthandel und Containerdienst“ wird aktuell in Branchenverzeichnissen mit Harthauser Straße 40, 67374 Hanhofen und 06344 4426 geführt; diese Angaben bleiben ohne Betreiber- oder Registerbestätigung. Ein lokaler Zeitungsbericht vom 10.05.2022 verknüpft einen Martin Lehr mit einem Hanhofener Containerdienst und meldet, die Aufsichtsbehörde habe den Betrieb nach einem Gerichtsurteil stillgelegt, während eine Baugenehmigung ausstand. Das ist ein historischer Befund aus 2022, keine Aussage zum heutigen Betrieb und kein Beleg für Harthauser Straße 40. Peter Lehr (Harthauser Str. 41) und Containerdienst Rudolf Lehr (Silzweg 16) bleiben getrennte Leads.
+
+**Preise und Leistungen:** keine belastbaren Ankaufspreise, Verkaufspreisliste oder Container-/Entsorgungsgebühren. Aktuelle Annahme und Betreiberidentität offen; keine Geokodierung einer bloßen Verzeichnisadresse.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Der direkt gelesene Rheinpfalz-Artikel vom 10.05.2022 („Behörde legt Containerdienst still“) zeigt in der Bildunterschrift Martin Lehr als Containerdienst-Inhaber und berichtet, die Aufsichtsbehörde habe seinen Hanhofener Betrieb nach einem Gerichtsurteil stillgelegt; damals wartete er laut Artikel auf eine erforderliche Baugenehmigung. Das belegt eine historische Verbindung des Namens Martin Lehr zu einem Containerbetrieb in Hanhofen, aber weder die heutige Betriebsaufnahme/-schließung noch die Verzeichnisadresse Harthauser Str. 40. Die aktuelle 11880-Detailseite führt Harthauser Str. 40, 67374 Hanhofen und 06344 4426, ist jedoch ein Verzeichniseintrag, kein Betreiber-/Registerbeleg. Keine Frontmatter-Füllung oder GEO-Änderung. ANKAUF: kein Kurs; VERKAUF: keine Liste; GEBÜHREN: keine aktuellen Tarife. Quellen: https://www.rheinpfalz.de/lokal/rhein-pfalz-kreis_artikel,-beh%C3%B6rde-legt-containerdienst-still-_arid,5352929.html (10.05.2022; Artikelzugang zeigt hier nur Anreißer/Bildunterschrift); https://www.11880.com/branchenbuch/hanhofen/120674719B26964393/martin-lehr-schrotthandel-und-containerdienst.html (Verzeichnis, aktualisiert laut Seite 02.10.2026).]
 
 ### Korrektur/Recherche 22.10.2026
 

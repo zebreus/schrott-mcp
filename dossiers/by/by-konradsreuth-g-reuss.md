@@ -39,3 +39,7 @@ Die aktuellen Verzeichnissuchen bestätigen keinen Schrotthändler „G. Reuss�
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 95176)
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Die offizielle Website https://reuss-recycling.de/ bestätigt einen aktuellen, eigenständigen Betrieb „REUSS Schrotthandel & Containerdienst GmbH“ mit Geschäftsanschrift Ascher Str. 50, 95028 Hof/Saale; Geschäftsführer laut Teamseite Wolfgang Weidmann, Tätigkeitsgebiet Stadt Hof und Landkreis bis 100 km. Das ist kein Identitätsbeleg für „G. Reuss“ in Konradsreuth und wird nicht auf dieses Dossier übertragen. Die Hof-Website listet angekaufte Materialgruppen, veröffentlicht aber keine Ankaufskurse, sondern verweist für tagesaktuelle Preise auf telefonische Nachfrage; keine Verkaufspreisliste. Die im Seiten-Modal verlinkten AGB „Containerstellung“ nennen bedingte Vertragsentgelte, darunter 30 € inkl. MwSt. Bearbeitungsentgelt bei nicht vereinbarungsgemäßer Abfallannahme und mindestens 99 € inkl. MwSt. für vom Kunden verursachte Leerfahrten; das sind Containervertrags-/Sonderfallentgelte der separaten Reuss GmbH, keine allgemeine Entsorgungsgebühr und kein Beleg für „G. Reuss“ in Konradsreuth. Für den Konradsreuther Dossiereintrag bleiben daher Ankauf, Verkauf, Gebühren und Anschrift unbelegt; kein Frontmatter-Fill und kein Geocoding. Quelle: https://reuss-recycling.de/ (Abruf 25.10.2026; AGB-Containerstellung im Seiten-Modal)]

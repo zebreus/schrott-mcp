@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Creditreform führt einen „Detlef-Erwin Bargholt Schrotthandel“ in Brakel, Tel. 05276 8029, mit Gegenstand Altmetallhandel (An- und Verkauf). Das stützt die Existenz eines passenden Betriebs/Kontakts, aber der abgefragte Auszug belegt nicht die Frontmatter-Straße Fulkstr. 12; Straße und Telefon bleiben als ältere Verzeichniswerte von dieser Firmenquelle getrennt. Ein aktueller Betreiberauftritt fehlt. Am Güterbahnhof 1 bzw. 3 gibt es eigenständige Kass-Autoverwertungs-/Schrotthandelsauftritte, ohne belegte Verbindung zu Bargholt oder zur Fulkstraße; nicht zusammenführen.
+Eine amtliche Bekanntmachung der Stadt Brakel vom 15.07.2025 führt Detlef-Erwin Bargholt als „selbständigen Schrott- und Metallhändler“; Creditreform führt einen gleichnamigen Betrieb in Brakel mit Tel. 05276 8029 und Geschäftszweck Altmetall-An-/Verkauf. Das stützt Person und Beruf, belegt aber weder eine heutige öffentliche Annahmestelle noch die Frontmatter-Straße. Zusätzlich taucht **Ludowinenstr. 8** als neuer, widersprüchlicher Suchindex-/Verzeichnislead neben **Fulkstr. 12** auf; direkte Abrufe der aktuellen Portalseiten waren nicht möglich. Keine Adresse ist als Betriebs-/Anlieferstelle bestätigt. Am Güterbahnhof 1 bzw. 3 gibt es eigenständige Kass-Betriebe ohne belegte Verbindung; nicht zusammenführen.
 
-- **Ankauf/Verkauf:** Creditreform nennt beides als Geschäftsgegenstand, aber keine Material- oder Preisangaben.
+- **Ankauf/Verkauf:** Geschäftszweck nennt An- und Verkauf von Altmetall, jedoch keine Material- oder Preisangaben.
 - **Gebühren:** keine Gebühren-/Abholliste gefunden.
-- **Geokodierung:** Fulkstr. 12 bleibt ein Verzeichnislead; nicht neu geokodiert.
+- **Geokodierung:** Fulkstr. 12 und Ludowinenstr. 8 sind widersprüchliche Kandidaten, keine bestätigte Annahmeadresse; nicht geokodieren, bis Betreiber-/Gewerbequelle den konkreten Kundenstandort klärt.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neue unabhängige kommunale Quelle direkt abgerufen: Die amtliche Brakeler Bekanntmachung der Wahlvorschläge (PDF, datiert 15.07.2025) bezeichnet Detlef-Erwin Bargholt als „selbständigen Schrott- und Metallhändler“. Sie belegt Beruf/Person im kommunalen Wahlvorschlag, aber weder Rechtsform, Gewerbestandort, heutige Tätigkeit noch Annahme für Kundschaft; die darin genannte E-Mail ist keine bestätigte Händlerkontaktadresse. Parallel zeigt die aktuelle Suchansicht des Creditreform-Profils Ludowinenstr. 8, während ein meinestadt-Profil diese Anschrift und ein anderes Fulkstr. 12 nennt. Direkter Creditreform-Abruf antwortete HTTP 403; beide meinestadt-Detailabrufe liefen in Timeouts. Diese Portal-/Suchindex-Spuren sind daher nur ein ungelöster Adresskonflikt, keine bestätigte Betriebsadresse oder Grundlage für GEO. Frontmatter unverändert. **Ankauf/Verkauf:** Geschäftszweck/Personenberuf, keine Kurse. **Gebühren:** keine Tarifliste. Quellen: https://www.brakel.de/media/custom/3467_5560_1.PDF?1752569618 ; https://firmeneintrag.creditreform.de/33034/4290322528/DETLEF_ERWIN_BARGHOLT_SCHROTTHANDEL (Direktabruf 403, Suchindex-Leitsignal) ; https://branchenbuch.meinestadt.de/brakel/company/15084937 (Timeout, Ludowinenstr. 8) ; https://branchenbuch.meinestadt.de/brakel/company/11488769 (Timeout, Fulkstr. 12).]
 
 ### Recherche 13.10.2026
 

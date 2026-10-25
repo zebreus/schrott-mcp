@@ -1,6 +1,6 @@
 ---
 slug: ni-hehlen-fricke-b-bernd-fricke-bestatigt
-name: Fricke B. = Bernd Fricke bestätigt
+name: Fricke B. (Zuordnung offen)
 trader_type: sonstige
 state: NI
 city: Hehlen
@@ -16,17 +16,26 @@ description: ''
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Funde (Gelbe Seiten, je Stadt abgefragt)
-provenance_ankauf_raw: Identität geklärt, unklar bleibt
+provenance_ankauf_raw: 'Schrottbezug ungeklärt; Alttext: Identität geklärt, unklar bleibt'
 provenance_origin: table
 ---
 
-# Fricke B. = Bernd Fricke bestätigt
+# Fricke B. (Zuordnung offen)
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die bisherige Zuordnung „Fricke B. = Bernd Fricke“ ist nicht belegt. Der aktuell direkt gelesene Verzeichniseintrag an Hauptstr. 42, 37619 Hehlen, 05533 3254, bezeichnet **Fricke B. als Antiquitätenhandel**. Ein Schrottverzeichnis führt „Schrotthandel Bernd Fricke“ ebenfalls an Hauptstr. 42 in Hehlen, jedoch mit einer Mobilnummer und kopiert wirkender Material-/Mindestmengenliste. Das löst die Identität nicht; insbesondere ist das Portal-Label „geschlossen“ kein unabhängiger Schließungsnachweis. Adresse und Telefon bleiben unbestätigte Leads, `status: pruefung`.
+
+- **Ankauf:** ein Verzeichnis behauptet Materialannahme; keine verifizierten Vergütungskurse. Die dort genannten Mindestmengen (Eisen ab 100 kg, NE ab 1 kg) sind keine Preise und erscheinen auch bei anderen Händlerprofilen.
+- **Verkauf:** keine Produkt- oder Verkaufspreisliste gefunden.
+- **Gebühren:** keine Gebühren-/Abholliste gefunden.
+- **Geokodierung:** Hauptstr. 42 ist ein möglicher Adresskandidat, aber nicht als Schrottannahmestelle bestätigt; erst nach Betreiber-/Gewerbezuordnung geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Direkter Gegencheck der beiden widersprüchlichen Eintragsbilder. Das Örtliche führt an Hauptstr. 42, 37619 Hehlen und 05533 3254 ausdrücklich „Fricke B. Antiquitäten“ (Branchenzuordnung Antiquitäten). Der direkt gelesene LokaleSchrottplatz-Eintrag „Schrotthandel Bernd Fricke“ nennt als Ortsangabe Daspe, aber ebenfalls „Hauptstraße 42, 37619 Hehlen“, dazu +49 1522 7973761 und den Portalstatus „Geschlossen“. Das ist ein Verzeichniswiderspruch, kein Beweis, dass dieselbe Person beide Betriebe führt oder dass der Schrottbetrieb geschlossen ist. Die breite Materialliste und Eisen-/NE-Mindestmengen des Schrottportals entsprechen der bereits dokumentierten TuS-/F.-Weber-Vorlagenähnlichkeit und werden nicht als Händlerbedingungen übernommen. Keine Preise, Betreiberbestätigung oder aktuelle Annahmestelle belegt; keine Felder/Koordinaten gefüllt. Quellen: https://www.dasoertliche.de/Themen/Fricke-B-Antiquit%C3%A4ten-Hehlen-Hauptstr ; https://lokaleschrottplatz.de/schrotthandel-bernd-fricke/ ; https://lokaleschrottplatz.de/tus-schrott-metalle/ ; https://lokaleschrottplatz.de/f-weber-schrotthandel/.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

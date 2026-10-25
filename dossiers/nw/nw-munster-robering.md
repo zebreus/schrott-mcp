@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein neuer, weiterhin nur verzeichnisbasierter Lead nennt **Hans-Georg Robering Schrotthandel**, Feldkamp 19, 48165 Münster-Hiltrup-Ost, Telefon 02501 5943344. Ein 11880-Profil, zuletzt laut Portal am 15.10.2026 aktualisiert, enthält eine Nutzerbewertung vom 06.07.2020 mit der Behauptung, der Betrieb sei seit 01.11.2019 geschlossen; 11880 weist Bewertungen als ungeprüfte Nutzermeinungen aus. Das ist ein konkreter Klärhinweis, aber kein amtlicher Schließungsbeleg und keine aktuelle Betreiberbestätigung. Frontmatter bleibt leer und `status: pruefung`.
+
+- **Ankauf:** Portalrubriken Altmaterial-/Schrotthandel, aber kein Beleg aktueller vergüteter Annahme oder numerischer Kurse.
+- **Verkauf:** keine Liste.
+- **Gebühren:** keine Tarifangaben.
+- **Geokodierung:** Feldkamp 19 ist ein möglicher GEO-Kandidat aus zwei Verzeichnissen; vor Geokodierung erst Gewerbe-/Betreiberidentität, Annahmestelle und aktuellen Betrieb bestätigen.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Erstmals direkt die vollständige 11880-Detailseite und das ÖffnungszeitenBuch-Profil gelesen. Beide listen Hans-Georg Robering Schrotthandel, Feldkamp 19, 48165 Münster, 02501 5943344; das ÖffnungszeitenBuch hat keine Öffnungszeiten hinterlegt. 11880 zeigt Eintragsdaten/Aktualisierung vom 15.10.2026, aber die dort eingeblendete GoLocal-Nutzerbewertung vom 06.07.2020 behauptet „seit 01.11.2019 geschlossen“; 11880 erklärt, Bewertungen nicht auf Echtheit zu prüfen. Weder Portalaktualisierung noch Einzelbewertung beweisen heutigen Betrieb bzw. amtliche Schließung. Keine Betreiberwebsite, Verkaufs-/Ankaufpreise oder Gebührenliste auf den geprüften Profilen. Adresse bleibt Lead, kein GEO und kein Frontmatter-Fill; Owner-Gewerbeauskunft/Betreiberbestätigung nötig. Quellen: https://www.11880.com/branchenbuch/muenster-westfalen/120674719B100698785/hans-georg-robering-schrotthandel.html ; https://www.oeffnungszeitenbuch.de/filiale/Muenster-Hans-Georg%2520Robering%2520Schrotthandel-3003230X.html.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Register- und Branchenquellen führen R & M Schrott- und Metallhandel GmbH & Co. KG, HRA 502806 AG Jena; der Registerspiegel nennt als Unternehmensgegenstand Handel, Verwertung, Sortierung und Beförderung von Schrott und Altmetall. Das Örtliche listet die Firma an Am Petersenschacht 13, 99706 Sondershausen, mit 03632 6666311, info@rm-schrotthandel.de und Mo–Fr 07:00–16:00 Uhr. Diese aktuelle Verzeichnisansicht ergänzt den bisherigen Adresslead, ist aber kein Betreiberbeleg; die Adresse ist zudem nicht als tatsächlich zugängliche Annahmestelle verifiziert. Die Domain rm-schrotthandel.de wurde am 01.10.2026 als nicht erreichbar geprüft; ein neuer Direktabruf lieferte einen Transportfehler, der allein keinen aktuellen Website-Status beweist.
+
+**Preise und Gebühren:** Das Verzeichnis führt „Schrottpreis“ nur als Stichwort, nicht als Preistabelle. Keine numerischen Ankaufskurse, Verkaufspreise oder Container-/Entsorgungsgebühren belegt. Frontmatter-Adresse, Kontakt und Öffnungszeiten bleiben bis zu einem Betreiber-/Originalregisterbeleg und Annahmestellenabgleich leer; keine GEO-Koordinate aus einem Register-/Verzeichnisstandort ableiten.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Die direkt gelesene Das-Örtliche-Detailseite „R & M Schrott- und Metallhandel“ nennt Am Petersenschacht 13, 99706 Sondershausen, 03632 6666311, info@rm-schrotthandel.de, die Domain rm-schrotthandel.de und Mo–Fr 07:00–16:00 Uhr („und nach Vereinbarung“). Das ist eine einzelne Verzeichnisquelle; sie ergänzt den bereits im North-Data-Registerspiegel genannten Rechtsträger-/Adresslead, belegt aber weder aktuellen Websitebetrieb noch eine öffentliche Annahmestelle. „Schrottpreis“ erscheint als Branchen-/Suchwort, ohne Zahlenkurse oder Tariftafel. Der Direktabruf der Domain endete mit Transportfehler; das wird nicht als neuer DNS-/HTTP-Totnachweis gewertet. Keine Frontmatter-Fills und keine Geokodierung. Quelle: https://www.dasoertliche.de/Themen/R-M-Schrott-und-Metallhandel-Sondershausen-Am-Petersenschacht (Direktabruf 25.10.2026); bisheriger Register-/Websitebefund siehe 01.10.2026.]
 
 ### Recherche 01.10.2026
 

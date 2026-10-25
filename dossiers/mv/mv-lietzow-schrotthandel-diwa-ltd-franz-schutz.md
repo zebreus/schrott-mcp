@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die amtliche britische Companies-House-Seite führt SCHROTTHANDEL DIWA LIMITED (06474176) weiterhin als aufgelöst: gegründet am 16.01.2008, dissolved am 27.06.2017, Unternehmensgegenstand SIC 46770 (Großhandel mit Abfall und Schrott). Die deutsche Zweigniederlassung HRB 7373 wurde laut Registerbekanntmachung 2017 aufgehoben. Ein heutiger Nachfolgebetrieb in Lietzow ist nicht belegt. Borch(t)itz 16 und 0174 9335543 bleiben historische bzw. Branchenportal-Angaben, keine bestätigte aktuelle Betriebsadresse oder Kontaktnummer.
+
+**Preise und Leistungen:** keine aktuelle, zuordenbare Ankaufspreisliste; keine Verkaufspreise oder Gebühren belegt. Keine Öffnungszeiten, öffentliche Annahme oder aktueller Betreiber nachgewiesen. Kein GEO-Punkt aus einer historischen Korrespondenzadresse ableiten.
 
 ## Timeline
+
+### Revalidierung 25.10.2026
+
+- [Revalidierung 25.10.2026: Die direkt gelesene Companies-House-Übersicht führt SCHROTTHANDEL DIWA LIMITED weiterhin mit Status „Dissolved“ und Auflösungsdatum 27.06.2017; die Seite nennt SIC 46770 (Wholesale of waste and scrap). Das bestätigt den schon dokumentierten Status der britischen Mutter, nicht einen heutigen deutschen Nachfolgebetrieb oder Annahmestandort. Keine Frontmatter-Änderung; keine aktuelle Ankaufspreisliste, Verkaufspreise, Gebühren oder Öffnungszeiten belegt. Quelle: https://find-and-update.company-information.service.gov.uk/company/06474176 (amtliches Register, Direktabruf 25.10.2026).]
 
 ### Recherche 04.10.2026
 
