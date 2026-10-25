@@ -13,8 +13,8 @@ website: https://www.schindelar.de/
 website_status: aktiv
 status: aktiv
 description: 'Autoverwertung und Gebrauchtteile; Betreiber nimmt laut eigener Website Pkw, Motorräder, Roller und Vans an; Kaufoption je nach Zustand.'
-dropoff_json: '{"allowed":true,"customer_types":["privat","gewerbe"],"days":["Sa"],"time_windows":["09:00-13:00"],"conditions":"Der Betreiber sagt ausdrücklich, dass Kunden Fahrzeuge samstags von 09:00 bis 13:00 Uhr anliefern können. Annahme von Pkw, Motorrädern, Rollern und Vans; Kaufoption abhängig von Zustand/Marke/Baujahr/Schaden. Wochentägliche Abholung auf Anfrage."}'
-pickup_json: '{"allowed":true,"conditions":"Altfahrzeug-Abholung durch Betreiber-Lkw auf Anfrage Mo-Fr, im Großraum München (Betreiberangabe)."}'
+dropoff_json: '{"allowed":true,"customer_types":["privat","gewerbe"],"days":["Mo","Di","Mi","Do","Fr","Sa"],"conditions":"Kostenfreie Selbstanlieferung von Altfahrzeugen am Standort Valentin-Linhof-Str. 14 Mo-Fr 08:00-18:00 und Sa 09:00-13:00. Annahme von Pkw, Motorrädern, Rollern und Vans; Kaufoption abhängig von Marke, Baujahr und Schaden. Die genauen Zeitfenster stehen im Feld opening_hours, da sie sich zwischen Werktagen und Samstag unterscheiden."}'
+pickup_json: '{"allowed":true,"days":["Mo","Di","Mi","Do","Fr"],"time_windows":["08:30-17:00"],"conditions":"Altfahrzeug-Abholung im Großraum München nach Terminvereinbarung Mo-Fr 08:30-17:00. Es fällt eine entfernungsabhängige Pauschale an; Höhe beim Betreiber erfragen."}'
 provenance_section: 'Audit 7 Feedback #6582'
 provenance_ankauf_raw: unklar
 provenance_origin: feedback
@@ -24,7 +24,7 @@ provenance_origin: feedback
 
 ## Überblick
 
-Die Zuordnung ist durch das Betreiber-Impressum (Schindelar Center Autoverwertung GmbH Süd, HRB 67441, Amtsgericht München, Valentin-Linhof-Str. 14) und das unabhängige NorthData-Registerprofil bestätigt. Die aktuelle Betreiber-Website zeigt denselben Standort, Kontakt und Öffnungszeiten, beschreibt laufende Autoverwertung sowie Gebrauchtteile und sagt ausdrücklich, Privat- und Gewerbekunden könnten Pkw, Motorräder, Roller und Vans bringen; der Kauf hängt vom Fahrzeugzustand ab. Samstags nennt sie Selbstanlieferung von 09:00–13:00 Uhr, werktags Abholung auf Anfrage. Kein numerischer Ankaufspreis oder allgemeiner Annahmetarif veröffentlicht. Der Website-Footer nennt zwar „Schindelar GmbH“ als Copyright-Inhaber; das Impressum benennt weiterhin die konkrete Süd-GmbH.
+Die Zuordnung ist durch das Betreiber-Impressum (Schindelar Center Autoverwertung GmbH Süd, HRB 67441, Amtsgericht München, Valentin-Linhof-Str. 14) und das unabhängige NorthData-Registerprofil bestätigt. Die aktuelle Betreiber-Website zeigt denselben Standort, Kontakt und Öffnungszeiten. Sie erlaubt kostenfreie Selbstanlieferung von Altfahrzeugen während der regulären Öffnungszeiten Mo–Fr 08:00–18:00 und Sa 09:00–13:00. Der Abholservice im Großraum München ist werktags nach Termin möglich; der Betreiber nennt dafür eine entfernungsabhängige Pauschale. Eine Kaufoption besteht je nach Marke, Baujahr und Schaden; kein numerischer Ankaufspreis veröffentlicht. Der Website-Footer nennt zwar „Schindelar GmbH“ als Copyright-Inhaber; das Impressum benennt weiterhin die konkrete Süd-GmbH.
 
 Die Namenszusätze „Nord“ und „West“ sind keine zusätzlichen Süd-Filialen: NorthData weist `all4cars GmbH` (HRB 68211, Bodenseestr. 275) mit dem früheren Namen „Schindelar Center Autoverwertung GmbH Nord“ als eigene Registergesellschaft aus. `LUAA GmbH` (HRB 70606), früher „… West“, wurde laut Register 2020 gelöscht. Keine dieser abweichenden Rechtseinheiten oder Anschriften wurde dem Süd-Standort zugerechnet. Eine gesonderte weitere Süd-Adresse ist in den geprüften Betreiber- und Registerquellen nicht ausgewiesen.
 
@@ -38,3 +38,7 @@ Die Namenszusätze „Nord“ und „West“ sind keine zusätzlichen Süd-Filia
 ### Importiert (Audit 7 Feedback #6582)
 
 - Als wiederholter Audit-7-Fehlhändler-Lead „Schindelar Center Autoverwertung GmbH Süd, München“ übergeben. Ein passendes älteres Dossier bzw. das zugrunde liegende Feedback-Rohprotokoll war im lokalen Checkout nicht vorhanden; keine frühere Dossierhistorie rekonstruiert.
+
+### Owner-Korrektur 25.10.2026
+
+- [Owner-Korrektur 25.10.2026: Die aktuelle Betreiberseite `https://www.schindelar.de/autoverwertung/` bestätigt kostenfreie Selbstanlieferung nicht nur samstags, sondern Mo–Fr 08:00–18:00 sowie Sa 09:00–13:00. Sie nennt für Abholung im Großraum München Termine Mo–Fr 08:30–17:00 gegen entfernungsabhängige Pauschale. `dropoff_json` wurde um Werktage erweitert; da die JSON-Struktur keine unterschiedlichen Zeitfenster je Wochentag ausdrückt, bleiben die genauen Zeiten in `opening_hours` und im Bedingungstext statt in einer missverständlichen gemeinsamen `time_windows`-Liste. `pickup_json` hält Gebührenhinweis und Terminfenster fest. Das Betreiber-Impressum bestätigt weiterhin die konkrete Süd-GmbH/HRB 67441, Valentin-Linhof-Str. 14. Quelle: https://www.schindelar.de/autoverwertung/ ; https://www.schindelar.de/impressum/]

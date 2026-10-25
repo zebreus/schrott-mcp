@@ -12,9 +12,9 @@ opening_hours: ''
 website: https://www.autoverwertung-franken.de/
 website_status: aktiv
 status: aktiv
-description: 'Umweltgerechte Altfahrzeugverwertung und -abholung; Gebrauchtteilehandel.'
-dropoff_json: ''
-pickup_json: '{"allowed": true, "conditions": "Betreiberseite bewirbt kostenlose Abholung und Verschrottung von Altfahrzeugen; Gebiet und weitere Bedingungen sind nicht genannt."}'
+description: 'Altfahrzeugverwertung und Gebrauchtteilehandel. Selbstanlieferung wird angeboten; Vergütung und kostenlose Verwertung gelten nur unter den vom Betreiber genannten Fahrzeugbedingungen. Abholung außerhalb dieser Bedingungen kann kostenpflichtig sein.'
+dropoff_json: '{"allowed":true,"conditions":"Selbstanlieferung am Verwertungsbetrieb Schwabach ist ausdrücklich angeboten. Der Betreiber bewirbt kostenlose Verwertung und Vergütung für ein nicht ausgebranntes, nicht ausgeschlachtetes Fahrzeug mit vorhandenem Katalysator und Eigentumsnachweis; kostenlose Annahme/Abholung zusätzlich nur bei rollfähigem und vollständigem Fahrzeug. Auch andere Fahrzeuge werden am Hof angenommen; genaue Bedingungen und mögliche Kosten vorab telefonisch klären. Die veröffentlichte Servicegebühr von 80 Euro bezieht sich auf den alternativen Abholservice bei Fahrzeugen außerhalb der Standardbedingungen; eine Gebühr für Selbstanlieferung ist nicht ausgewiesen."}'
+pickup_json: '{"allowed":true,"conditions":"Abholung im Einzugsgebiet Nürnberg, Fürth, Schwabach, Roth und Umgebung. Für vollständige, rollfähige Fahrzeuge mit Katalysator und Eigentumsnachweis bewirbt der Betreiber kostenlose Verwertung und Abholung. Bei nicht rollfähigen, stark beschädigten oder ausgeschlachteten Fahrzeugen nennt die Betreiberseite für die alternative Abholung eine Servicegebühr von 80 Euro. Einzelfall/Termin telefonisch klären."}'
 provenance_section: 'Audit 7 Feedback #6581'
 provenance_ankauf_raw: unklar
 provenance_origin: feedback
@@ -24,7 +24,7 @@ provenance_origin: feedback
 
 ## Überblick
 
-Die Betreiberseite nennt AVF Autoverwertung Franken GmbH und Am Kiefernschlag 22, 91126 Schwabach. Das Impressum, der Registerdatensatz HRB 15031 beim Amtsgericht Nürnberg und die aktuelle Registerpublikation zur Geschäftsführung passen zusammen. NorthData führt als frühere Firma „AVF Autoverwertung + Demontagen GmbH“; das ist die Namenshistorie derselben Gesellschaft, kein zweiter Händler. Die Betreiberseite bewirbt Altautoverwertung, kostenlose Abholung und Verschrottung sowie Gebrauchtteilehandel; der verknüpfte AVF-Teileshop ist erreichbar und führt Fahrzeugteilekategorien. Damit ist der Geschäftsbetrieb belegbar, aber weder ein entgeltlicher Ankaufspreis noch eine Selbstanlieferung am Hof dokumentiert.
+Die Betreiberseite nennt AVF Autoverwertung Franken GmbH und Am Kiefernschlag 22, 91126 Schwabach. Das Impressum, der Registerdatensatz HRB 15031 beim Amtsgericht Nürnberg und die Registerpublikation zur Geschäftsführung passen zusammen. NorthData führt als frühere Firma „AVF Autoverwertung + Demontagen GmbH“; das ist die Namenshistorie derselben Gesellschaft, kein zweiter Händler. Die Betreiberseite bestätigt Selbstanlieferung am Schwabacher Verwertungsbetrieb und bewirbt Vergütung für geeignete, selbst angelieferte Fahrzeuge. Kostenlose Verwertung/Abholung ist an Fahrzeugzustand, Katalysator und Eigentumsnachweis gebunden; für die Abholung bestimmter nicht standardgerechter Fahrzeuge nennt der Betreiber 80 Euro. Gebrauchtteilehandel ist zusätzlich belegt; konkrete Fahrzeugankaufspreise sind nicht veröffentlicht.
 
 Öffnungszeiten bleiben bewusst leer: Kontaktseite und Homepage nennen Mo–Fr 08:00–17:00 Uhr, zusätzlich Donnerstag 08:00–18:00 Uhr; der verlinkte Webshop nennt davon abweichende Hotline-Zeiten samt Samstag. Das sind nicht sicher dieselben Zeiten für Fahrzeugannahme. „Autoscheune Schwabach“ und Bonn-Alkran OHG erscheinen auf der AVF-Seite als Partner; ohne Beleg für identischen Betreiber oder getrennte Annahmestellen werden sie nicht mit AVF zusammengeführt.
 
@@ -39,3 +39,7 @@ Die Betreiberseite nennt AVF Autoverwertung Franken GmbH und Am Kiefernschlag 22
 ### Importiert (Audit 7 Feedback #6581)
 
 - Lead #6581 wurde im Auftrag als wiederholt bezeichnet. Ein vorheriges lokales Dossier und der Wortlaut der ursprünglichen Feedbackmeldung lagen hier nicht vor; deshalb wird keine frühere Behauptung rekonstruiert oder als Beleg übernommen.
+
+### Owner-Korrektur 25.10.2026
+
+- [Owner-Korrektur 25.10.2026: Die aktuelle Betreiberseite bestätigt Selbstanlieferung am Verwertungsbetrieb Schwabach. Für kostenfreie Verwertung/Abholung verlangt sie ein rollfähiges, vollständiges Fahrzeug mit Katalysator und Eigentumsnachweis; für Vergütung bei Selbstanlieferung nennt sie ein nicht ausgebranntes/nicht ausgeschlachtetes Fahrzeug, Katalysator und Eigentumsnachweis. Auch andere Fahrzeuge werden am Hof angenommen; genaue Bedingungen vorab klären. Die Servicegebühr von 80 Euro steht im Zusammenhang mit dem alternativen Abholservice bei Fahrzeugen außerhalb der Standardbedingungen; die Seite weist keine gesonderte Gebühr für Selbstanlieferung aus. `dropoff_json` und `pickup_json` korrigiert, Öffnungszeiten bleiben leer, da die veröffentlichten Bürozeiten nicht ausdrücklich als Hofannahmezeiten ausgewiesen sind. Quelle: https://www.autoverwertung-franken.de/autoverwertung ; https://www.autoverwertung-franken.de/impressum]
