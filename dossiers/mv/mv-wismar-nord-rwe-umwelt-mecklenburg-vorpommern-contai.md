@@ -1,18 +1,18 @@
 ---
 slug: mv-wismar-nord-rwe-umwelt-mecklenburg-vorpommern-contai
-name: RWE Umwelt Mecklenburg-Vorpommern GmbH (Containerdienst, Abfall, Abbruch, Entsorgung)
+name: ALBA Nord GmbH
 trader_type: containerdienst
 state: MV
-city: Wismar-Nord
-street: Tonnenhofstr. 12
+city: Wismar
+street: Tonnenhofstraße 12
 postcode: '23970'
-phone: 03841 704671
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+phone: '+49 3841 704678'
+email: nord@alba.info
+opening_hours: 'Mo-Do 07:00-16:00, Fr 07:00-14:45'
+website: 'https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/'
+website_status: aktiv
+status: aktiv
+description: 'Betriebsstätte Wismar: Abfallannahme für Privat- und Gewerbekunden, Containerdienst (Behälter 80 l bis 34 m³), Komplettentsorgung. Kein veröffentlichter Metallankaufskurs.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Betriebe, nur Verzeichnisbeleg
@@ -24,11 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Namenskette neu konkret belegt: AG Schwerin HRB 558 führt RWE Umwelt Mecklenburg-Vorpommern GmbH → ALBA Mecklenburg-Vorpommern GmbH (2006) → ALBA Nord GmbH (2007). Die einzeln gelesene heutige ALBA-Nord-Standortdetailseite führt Tonnenhofstraße 12, 23970 Wismar, 03841 704678, nord@alba.info, Mo–Do 07–16 und Fr 07–14:45; Privat-/Gewerbeentsorgung und Containerdienst. Der frühere pauschale Vorbehalt Umbenennung ungeklärt ist damit überholt; Registerspiegel und Betreiberquelle bleiben getrennte Quellenfamilien.
+HRB 558 und der aktuelle Betreiberauftritt belegen, dass dieser historische RWE-Datensatz zur heutigen ALBA Nord GmbH gehört. Die aktuelle Betriebsstätte Wismar liegt in Tonnenhofstraße 12, 23970 Wismar; der Betreiber veröffentlicht Telefon, E-Mail und Öffnungszeiten und nennt Abfallannahme für Privat- und Gewerbekundschaft sowie Containerdienst. Die Stammdaten bilden daher den heutigen Betreiberstand ab. Das ist kein Beleg für vergüteten Schrottankauf oder einen Ankaufskurs.
 
-ALBA Metall Nord am selben Standort ist derzeit nicht belegt: Ein ALBA-Zertifikat für GJ2023 nennt laut Suchindex beide Gesellschaften getrennt an der Tonnenhofstraße 12; das PDF wurde nicht vollständig direkt geprüft. Die Schwesterakte hält fest, dass ALBA Metall Nord in der aktuellen Betreiberliste nicht erscheint, allerdings ohne Schließungsbeleg. Das bleibt ein unbestätigter historischer Lead, keine Aussage über heutige Koexistenz und kein Merge-Befehl. Frontmatter-Rename/Kontaktaustausch bewusst dem Owner zur Sibling-/Rechtsträgerdisposition vorgelegt; alter Name/03841 704671 nicht als heutiger Kontakt bestätigt. Ankaufskurse und numerische Verkaufs-/Gebührentarife im gelesenen Nord-Detail nicht vorhanden; allgemeine Abfallannahme nicht mit vergütetem Metallankauf gleichsetzen. GEO unverändert, aktuelle Hofeinfahrt und Gesellschaftszuordnung vor neuer Freigabe prüfen.
+ALBA Metall Nord am selben Standort bleibt ein separat dokumentierter historischer Lead: Ein ALBA-Zertifikat für GJ2023 nennt laut Suchindex beide Gesellschaften getrennt an der Tonnenhofstraße 12; das PDF wurde nicht vollständig direkt geprüft. Die Schwesterakte [`mv-wismar-alba-metall-nord`](mv-wismar-alba-metall-nord.md) bleibt separat und wird nicht zusammengeführt. Daraus folgt weder eine aktuelle Koexistenz noch ein Schließungsurteil für ALBA Metall Nord. Kein vergüteter Metallankauf, Verkaufs- oder Gebührentarif ist für diese Betriebsstätte belegt. Keine GEO-Koordinate ergänzt.
+
+**Ankauf:** keine ausdrückliche Metallvergütung oder Ankaufskurse belegt. **Verkauf:** keine Materialverkaufspreise. **Gebühren:** ALBA Nord bietet Abfallannahme und Containerdienst mit individuellem Angebot; keine bezifferten Abfall-/Containergebühren. Nicht mit Metallankauf gleichsetzen. **GEO:** bestätigter Betriebsstandort Tonnenhofstraße 12, 23970 Wismar; keine Koordinate ergänzt.
 
 ## Timeline
+
+### Owner-Prüfung 25.10.2026
+
+- [Owner-Prüfung 25.10.2026: Der direkt gelesene Registerspiegel für HRB 558 führt ALBA Nord GmbH als aktiv und dokumentiert die Namensfolge RWE Umwelt Mecklenburg-Vorpommern GmbH (1990) → ALBA Mecklenburg-Vorpommern GmbH (2006) → ALBA Nord GmbH (2007). Die aktuelle ALBA-Betreiberseite für die Betriebsstätte Wismar nennt Tonnenhofstraße 12, 23970 Wismar, +49 3841 704678, nord@alba.info, Mo-Do 07:00-16:00, Fr 07:00-14:45, Abfallannahme für Privat-/Gewerbekunden und Containerdienst. Damit ist die historische Identität dieses Slugs mit dem aktuellen ALBA-Nord-Betreiber belegt; Frontmatter auf den aktuellen Betreiberstand gebracht, der frühere Name bleibt durch Timeline und Registerhistorie erhalten. Das ist kein Merge mit dem separat erhaltenen Sibling `mv-wismar-alba-metall-nord`. Keine ausdrückliche Metallvergütung, keine Zahlenkurse, Verkaufs- oder bezifferten Gebührentarife; keine GEO-Änderung. Quellen: https://www.online-handelsregister.de/handelsregisterauszug/mv/Schwerin/HRB/558/ALBA-Nord-GmbH ; https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/ .]
 
 ### Owner-Abgleich 20.10.2026
 

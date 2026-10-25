@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der 11880-Eintrag führt „Bogner & Bogner GbR Schrotthandel- und Containerdienst“, Vondernstr. 1, 45357 Essen, 0201 6099515. Der Portalstatus lautet „geschlossen“, aber der Eintrag selbst nennt Stammdaten vom 30.12.2022 und ist kein belastbarer Schließungsnachweis. An derselben Straßenadresse weist eine aktuelle, inhaltlich nicht verwandte Kfz-/Smart-Repair-Seite „Germans Garagen“ einen Kundenstandort aus; ihr Impressum nennt eine GmbH mit anderer Anschrift. Das ist eine Standortkollision, kein Nachfolge- oder Identitätsbeleg für Bogner. Keine Zuordnung der GmbH oder ihres Angebots zum Schrotthändler.
+
+**Preise:** Ankauf: keine Bogner-Kurse; Verkauf: keine Preisliste; Gebühren: keine Container-/Dienstleistungstarife belegt. **GEO:** Vondernstr. 1 ist als alter Verzeichnisstandort nicht als heutiger Bogner-Kundenstandort bestätigt; wegen der Adresskollision nicht neu geokodieren, bis Identität und aktueller Standort geklärt sind.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: 11880-Detailseite direkt gelesen: „Bogner & Bogner GbR Schrotthandel- und Containerdienst“, Vondernstr. 1, 45357 Essen, 0201 6099515; Portalkennzeichnung „geschlossen“, Stammdaten laut Seite 30.12.2022, zuletzt portalseitig aktualisiert 03.10.2026. Das Label ist kein unabhängiger Beleg einer Betriebsschließung. Gegenprobe am Standort: Germans Garagen weist Vondernstr. 1 als Kfz-/Smart-Repair-Standort aus; Impressum nennt Germans Garagen GmbH und Erasmusstr. 19, 45279 Essen. Keine nachgewiesene Beziehung/Nachfolge zu Bogner. Keine Preislisten für Bogner: Ankauf, Verkauf und Gebühren unbekannt. Vondernstr. 1 bleibt ein ungeklärter GEO-Kandidat, nicht als heutiger Bogner-Standort bestätigen. Quellen: https://www.11880.com/branchenbuch/essen-ruhr/060371058B53400069/bogner-bogner-gbr-schrotthandel-und-containerdienst.html ; https://www.germansgaragen.de/ ; https://germansgaragen.de/impressum]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

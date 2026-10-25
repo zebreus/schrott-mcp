@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Adresse und Telefon für Agentur Keil, Am Bahnhof 1, Niederlehme, stimmen in zwei Branchenverzeichnissen überein; ein dritter Verzeichnis-Treffer wiederholt die Adresse. Das ist eine Verzeichnis-Belegklasse, keine Betreiber-/Registerbestätigung. „Schrottabholung“ ist als Leistung gelistet, aber heutiger Ankauf nicht unabhängig verifiziert. Keine Preisangabe; status pruefung statt Schließungsbehauptung.
+Gelbe Seiten, Das Örtliche und weitere Telefonbuch-/Branchenportale führen Agentur Keil unter Am Bahnhof 1, 15713 Niederlehme, Tel. 03375 203753. Die wiederholten Einträge sind keine Betreiber- oder Registerbestätigung und können auf gemeinsame Verzeichnisdaten zurückgehen. „Schrottabholung“ ist eine Portal-Leistungsangabe, keine Bestätigung heutiger Annahme oder Vergütung.
+
+**Ankauf:** Tätigkeit und Preise nicht primär bestätigt; keine Ankaufskurse. **Verkauf:** keine Material- oder Produktpreisliste. **Gebühren:** keine Abhol-/Entsorgungstarife. **GEO:** Am Bahnhof 1 ist nur ein Adresskandidat; auch von einem Verzeichnis gelieferte Koordinaten sind kein Beleg für einen öffentlichen Annahmepunkt. Status `pruefung`, keine Schließungsbehauptung.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Exakte Namens-/Ortssuche findet erneut die bekannte Adresse und Rufnummer auf Gelbe Seiten, Das Örtliche und Das Telefonbuch; GoLocal führt dieselben Stammdaten ebenfalls. Es ist kein Betreiberauftritt und kein neuer Register-/Kommunalbeleg aufgetaucht. Die Treffer sind Verzeichnis-Leads, keine voneinander unabhängige Betreiberbestätigung. Die Portale nennen „Schrottabholung“, aber keine Ankaufspreise, Verkaufspreise oder Gebühren. Keine Felder oder GEO ergänzt. Quelle(n): https://www.gelbeseiten.de/gsbiz/0881425f-157c-4677-b70c-f47f80131154 ; https://www.dasoertliche.de/Themen/Agentur-Keil-Schrotthandel-K%C3%B6nigs-Wusterhausen-Niederlehme-Am-Bahnhof ; https://adresse.dastelefonbuch.de/K%C3%B6nigs%20Wusterhausen/3-Schrott-Agentur-Keil-Schrotthandel-K%C3%B6nigs-Wusterhausen-Am-Bahnhof.html ; https://www.golocal.de/koenigs-wusterhausen/schrotthandel/agentur-keil-schrotthandel-1mXX2/ (Such-/Verzeichnisbelege).]
 
 ### Korrektur 07.10.2026
 

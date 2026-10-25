@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Containerdienst Sell an An der Ziegelei 11a/11 mit 0174 3576196 bleibt ein unbestätigter Verzeichnislead. Die Aktivsetzung aus mehreren Portalen genügt dem README-Standard nicht; Status zurück auf `pruefung`. Überlieferte Anschrift/Telefon bleiben als Legacy-Werte erhalten, nicht als aktuelle Primärbestätigung.
+Containerdienst Sell an An der Ziegelei 11a/11 mit 0174 3576196 bleibt ein unbestätigter Verzeichnislead. Gelbe Seiten konkretisiert „An der Ziegelei 11a“ und beschreibt einen familiengeführten Betrieb in dritter Generation; ältere/andere Portalangaben führen Hausnummer 11. Das sind keine Betreiberbestätigungen und lösen weder die Hausnummern- noch die Sell-Identitätskonflikte. Die Aktivsetzung aus mehreren Portalen genügt dem README-Standard nicht; Status `pruefung`. Überlieferte Anschrift/Telefon bleiben Legacy-Werte, nicht als aktuelle Primärbestätigung.
 
-Mehrere weitere Sell-Kandidaten in Schaafheim: Charlie/Sascha Sell Im Herrngarten mit abweichender Mobilnummer und Rudolf Sell Containerdienst, Rohstoff- und Kraftfahrzeughandel an Babenhäuser Str. 28 (Creditreform-Suchtreffer). Eine Händler-Familie, Nachfolge oder Adressänderung ist nicht belegt. Sell Recycling Kitzingen sowie Containerdienst Schaafheim/Reining und ARM sind nicht zuzuordnen. Keine Zielbetrieb-Preisliste für Ankauf/Verkauf/Gebühren; Fremdanbieter-Tarife nicht übernehmen.
+Mehrere weitere Sell-Kandidaten in Schaafheim: Charlie/Sascha Sell Im Herrngarten mit abweichender Mobilnummer und Rudolf Sell Containerdienst, Rohstoff- und Kraftfahrzeughandel an Babenhäuser Str. 28 (Creditreform-Suchtreffer). Eine Händler-Familie, Nachfolge oder Adressänderung ist nicht belegt. Sell Recycling Kitzingen sowie Containerdienst Schaafheim/Reining und ARM sind nicht zuzuordnen. **Preise:** keine Zielbetrieb-Preisliste für Ankauf, Verkauf oder Gebühren; Fremdanbieter-Tarife nicht übernehmen. **GEO:** Ziegelei 11/11a bleibt eine ungeklärte Adressvariante; nicht neu geokodieren, bis Betreiber und aktuelle Betriebsstelle bestätigt sind.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Gelbe-Seiten-Profil direkt gelesen: Containerdienst Sell, An der Ziegelei 11a, 64850 Schaafheim, Tel. 0174 3576196; Selbstdarstellung als familiengeführter Dienstleistungsbetrieb in dritter Generation. Seite nennt Container, Räumung/Entsorgung, Verwertung, Erdarbeiten, Abbruch und Schrott; zwei Bewertungen stammen aus 2014 und 2023. Das bleibt ein Branchenverzeichnis, keine Betreiber- oder Registerquelle. 11880 führt abweichend Hausnummer 11; kein Preisblatt oder belastbarer Metallankauf bestätigt. **Ankauf:** kein Zielkurs; **Verkauf:** keine Material-/Containerliste; **Gebühren:** keine Sell-Tarife. Hausnummer 11/11a und Betreiberidentität offen, Adresse vor GEO klären. Quelle: https://www.gelbeseiten.de/gsbiz/60a0aa11-a544-4ea0-b84c-fc8903cb86e6]
 
 ### Einordnung 09.10.2026
 

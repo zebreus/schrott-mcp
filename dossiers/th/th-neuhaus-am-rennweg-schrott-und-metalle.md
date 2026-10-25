@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehrere Branchenverzeichnisse führen „Carsten Murkowitz Schrott“ bzw. „Murkowitz Carsten Schrott und Metalle“ an **Waldweg 2, 98724 Neuhaus am Rennweg**; einzelne ältere Einträge weichen bei der Telefonnummer ab. Creditreform-Suchtreffer deutet auf einen wirtschaftsaktiven Gewerbebetrieb, war aber nicht vollständig prüfbar und ist kein Betreiber-/Registerbeleg für den Annahmeplatz. Die in den Frontmatter übernommenen Adresse und 03679 720357 bleiben damit schwach belegt; `status: pruefung`, keine aktuelle Betriebs- oder Kundenannahmebestätigung. **Ankauf/Verkauf/Gebühren:** keine verifizierten Konditionen oder numerischen Preislisten; keine GEO ohne Betreiber-/Standortbestätigung.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Erneute Eigenrecherche nach Betreiberwebsite, Register-/Kommunalbeleg und veröffentlichten Konditionen brachte keine qualifizierende Primärquelle hervor. Die bisherigen Portal-Leads zu Waldweg 2 / 98724 / 03679 720357 bleiben die beste konkrete Spur, sind aber kein Nachweis eines aktuellen Annahmeplatzes; der Creditreform-Suchtreffer ist weiterhin nur ein unvollständiger Existenzhinweis. Keine neue Telefonnummer/Adresse ins Frontmatter, keine GEO ergänzt. Keine aktuelle numerische Ankauf-, Verkaufs- oder Gebührenliste gefunden; dies ist kein umfassender Negativnachweis. Quellen der weiterhin offenen Adressspur: https://neuhaus.stadtbranchenbuch.com/256917.html ; https://wallbach.branchen-info.net/fp_646285.php .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

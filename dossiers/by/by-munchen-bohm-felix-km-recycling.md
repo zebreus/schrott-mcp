@@ -28,6 +28,10 @@ Die aktuell abrufbare Betreiber-Website „KM-Recycling Schrott & Metallhandel�
 
 ## Timeline
 
+### Recherche-Ergänzung 25.10.2026
+
+- [Recherche-Ergänzung 25.10.2026: Der frische Suchlauf findet zusätzlich einen Gelbe-Seiten-Eintrag „Felix Michael Böhm KM-Recycling“, Klugstr. 113, 80637 München-Neuhausen. Das passt zu Name, Straße, PLZ und Nummer der Betreiberwebsite, bleibt aber ein Branchenverzeichnis und kein unabhängiger Rechts-/Registerbeleg. Daher keine Änderung an den offenen Identitäts-/PLZ-Fragen und keine Frontmatter-Übernahme. **Ankauf:** Website nennt Schrott-/Metallankauf zu Tagespreisen, keine Zahlenkurse. **Verkauf:** keine Einzelpreise/Preisliste. **Gebühren:** keine bezifferte Abhol-/Baumüllgebühr; Barauszahlung bis 1.500 € ist Zahlungsbedingung, kein Preis. Klugstraße 113, 80637 München bleibt GEO-Kandidat, nicht geokodiert. Quelle: https://www.gelbeseiten.de/gsbiz/514c53f1-ac4f-41e0-a72b-6051397bd77a (Portal-Lead; Website-Details siehe Recherche 25.10.2026 oben).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Kleinstbetrieb)

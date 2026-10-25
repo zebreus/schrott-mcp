@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Radke Ulrich wird in Branchenverzeichnissen unter Windmühlenstr. 21 als Autoverwertung geführt; diese Übereinstimmung bestätigt weder Betreiber noch öffentliche Annahme. Die Suchgegenprobe im Review vom 17.10.2026 fand weitere Telefonbuchleads, keinen qualifizierten Betreiber-/Registerbeleg. Der bereits am 07.10. integrierte Status `pruefung` bleibt; dies ist keine neue Herabstufung und keine Schließung. Keine verifizierten Zahlen zu Ankauf, Verkauf oder Gebühren in den geprüften Quellen.
+Branchenverzeichnisse führen „Radke Ulrich Autoverwertung“ unter Windmühlenstr. 21, 01979 Lauchhammer, Tel. 03574 2135. Wiederholungen in Telefonbuch-/Branchenportalen bestätigen weder den Betreiber noch einen heutigen öffentlichen Annahmepunkt. Der bereits am 07.10. integrierte Status `pruefung` bleibt; das ist keine neue Herabstufung und keine Schließung.
+
+**Ankauf:** kein aktueller Fahrzeugankauf oder Ankaufspreis bestätigt. **Verkauf:** keine Fahrzeug-/Teilepreisliste. **Gebühren:** keine Abhol-, Verwertungs- oder Entsorgungstarife. **GEO:** Verzeichnisanschrift nicht als bestätigten Annahmehof geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Gelbe Seiten und Das Örtliche direkt gelesen; beide führen Windmühlenstr. 21, 01979 Lauchhammer und 03574 2135. Gelbe Seiten ergänzt als Portal-Leistungsumfang gebrauchte Autoteile, Autoentsorgung und Autoschrotthandel. Das bleibt eine Branchenverzeichnisbeschreibung, keine Betreiberseite, Register-/Kommunalbestätigung oder aktuelle Annahmebestätigung. Weitere Suchtreffer/Bewertungen belegen keine heutige Tätigkeit. **Ankauf:** kein Fahrzeugankaufspreis; **Verkauf:** keine Teilepreisliste trotz Portal-Kategorie; **Gebühren:** keine Abhol-/Entsorgungstarife. Keine Feld- oder GEO-Änderung. Quelle(n): https://www.gelbeseiten.de/gsbiz/0c3054de-cc52-403a-894f-75a5d0e110b7 ; https://www.dasoertliche.de/Themen/Radke-Ulrich-Autoverwertung-Lauchhammer-Windm%C3%BChlenstr ; https://adresse.dastelefonbuch.de/Lauchhammer/3-Autoverwertung-Ulrich-Radke-Lauchhammer-Windm%C3%BChlenstr.html (Verzeichnis-Leads).]
 
 ### Ownerkorrektur 17.10.2026
 

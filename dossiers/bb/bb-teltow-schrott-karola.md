@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten führen „Schrott Karola“ in Teltow unter Elbestr. 11A, 14513, Tel. 03328 30 44 90. Ein weiterer Verzeichnisabgleich ist hier nicht reproduzierbar dokumentiert. Das ist ein Verzeichnis-Lead, kein Betreiber- oder Registerbeleg; aktuelle Identität und Tätigkeit sind nicht bestätigt. Straße, PLZ und Telefon bleiben deshalb aus dem Frontmatter heraus.
+Gelbe Seiten und Das Telefonbuch führen „Schrott Karola“ unter Elbestr. 11A, 14513 Teltow, Tel. 03328 30 44 90. Ein digitalisierter Teltower Branchen-/Telefonbuchjahrgang 2024/25 enthält denselben Eintrag. Das erhöht die Nachvollziehbarkeit der historischen Verzeichnisangabe, bestätigt aber weder aktuelle Betreiberidentität noch heutige Tätigkeit; es liegt weiterhin kein Betreiber- oder Registerbeleg vor. Straße, PLZ und Telefon bleiben deshalb aus dem Frontmatter heraus.
 
-**ANKAUF:** nicht bestätigt; in den genannten Verzeichnisquellen keine belastbaren Ankaufkurse, Verkaufslisten oder Gebührentarife belegt. Status `pruefung`.
+**Ankauf:** aktuelle Annahme und Vergütung nicht bestätigt; keine Kurse. **Verkauf:** keine Teile-/Materialpreisliste. **Gebühren:** keine Abhol- oder Entsorgungstarife. **GEO:** Elbestr. 11A bleibt ungeprüfter Adresskandidat. Status `pruefung`.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Direkt gelesener Gelbe-Seiten-Eintrag und Das-Telefonbuch-Profil nennen Elbestr. 11A, 14513 Teltow, 03328 30 44 90; Das-Telefonbuch zeigt für diese Adresse Kartendaten 52.397581, 13.250790. Ein Suchindex des digitalisierten Branchen-/Telefonbuchs Brandenburg–Potsdam 2024/25 enthält ebenfalls „Schrott Karola“, Elbe-11A und dieselbe Rufnummer. Diese Portal-/Verzeichnisdaten, einschließlich der eingeblendeten Kartenkoordinate, bestätigen keinen Betreiber- oder Kundenannahmepunkt und wurden nicht als GEO übernommen. Der historische Druck-/Verzeichnisbeleg ist keine aktuelle Betreiberbestätigung. Keine neue Register-, Betreiber- oder Kommunalquelle, keine Preise/Tarife und keine Frontmatter-/GEO-Änderung. Quelle(n): https://www.gelbeseiten.de/gsbiz/056e1281-d058-4f1f-9fc5-4534674933bb ; https://adresse.dastelefonbuch.de/Teltow/2-Schrott-Karola-Schrott-Teltow-Elbestr.html ; https://www.yumpu.com/kiosk/sutter-local-media/brandenburg-potsdam-gs-24-25/68697331/129 (Suchindex eines digitalisierten Jahrgangs, historischer Verzeichnisbeleg).]
 
 ### Owner-Nachprüfung 18.10.2026
 

@@ -24,11 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-Neuer konkreter Betreiber-Social-Kandidat: Instagram anger_schrott_und_metallhandel mit im Suchindex sichtbarer Eigenwerbung für Schrott-/Metallhandel. Direktabruf zeigt ausschließlich Login, keine Identität/Anschrift. Altershausen 77, 97486 Königsberg in Bayern und 01517 2834411 erscheinen nur in Verzeichnisleads und werden nicht übernommen. Keine sichere Verbindung zwischen dem unbestimmten Seednamen „Anger“ und dem Social-Konto.
+Neuer konkreter Betreiber-Social-Kandidat: Instagram anger_schrott_und_metallhandel mit im Suchindex sichtbarer Eigenwerbung für Schrott-/Metallhandel. Direktabruf zeigt ausschließlich Login, keine Identität/Anschrift. Zusätzlich führt ein 11880-Profil mit derselben Mobilnummer 01517 2834411 jetzt **Andreas-Schlee-Str. 6 A, 96151 Breitbrunn**; das ist ein neuer, widersprüchlicher Verzeichnisstand zur älteren Cylex-Adresse **Altershausen 77, 97486 Königsberg i. Bayern**. Eine Verlagerung ist nicht belegt, da beide Anschriften nur Portal-Leads sind und keine sichere Verbindung zwischen dem unbestimmten Seednamen „Anger“ und dem Social-Konto besteht.
 
-Ankauf/Verkauf/Gebühren: keine qualifiziert gelesenen Preislisten; Social-Inhalte hinter Login nicht geprüft. Betreiber/Inhaber per Gemeinde/Handelsregister oder öffentliches Impressum klären. GEO für Altershausen 77 erst nach Zuordnung; kein öffentlich zugänglicher Schrottplatz aus einer Werbeaussage ableitbar.
+**Ankauf:** Social-/Portalwerbung nennt Schrott-/Metallhandel, aber keine bestätigte Vergütung oder Kurse. **Verkauf:** keine Produkt-/Materialpreisliste gefunden. **Gebühren:** keine Container-, Abhol- oder Entsorgungstarife belegt. Betreiber/Inhaber und die beiden Anschriften per Gemeindeauskunft oder zugänglichem Impressum klären. **GEO:** weder Altershausen 77 noch Andreas-Schlee-Str. 6 A geokodieren, bevor Standort und Identität bestätigt sind; Containerdienstwerbung belegt keinen öffentlichen Schrottplatz.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Das direkt gelesene 11880-Profil führt „Anger Schrott & Metallhandel Containerdienst“ unter Andreas-Schlee-Str. 6 A, 96151 Breitbrunn, Tel. 01517 2834411; 11880 nennt Aktualisierung 04.10.2026 und Eintragsdaten vom 08.05.2026. Ein älterer Cylex-Treffer führt dieselbe Mobilnummer in Altershausen 77, 97486 Königsberg i. Bayern. Das kann auf Umzug, veralteten Lead oder Fehlzuordnung hindeuten, entscheidet die Identität aber nicht; ein Betreiberbeleg fehlt. **Ankauf:** keine zugänglichen Vergütungskurse. **Verkauf:** keine Produktpreise. **Gebühren:** keine Tarife; das Instagram-Profil bleibt hinter einer Loginwall. Kein Frontmatter-Fill, keine GEO. Neue Adresskandidatur mit Geocodierungsbedarf erst nach Owner-Identitätsprüfung: Andreas-Schlee-Str. 6 A, 96151 Breitbrunn. Quellen: https://www.11880.com/branchenbuch/breitbrunn-unterfranken/060441364B114000161/anger-schrott-metallhandel-containerdienst.html ; https://web2.cylex.de/firma-home/anger-schrott-_-metallhandel-containerdienst-16628372.html ; https://www.instagram.com/anger_schrott_und_metallhandel/ (jeweils Verzeichnis-/Social-Lead, Instagram öffentlich nicht auswertbar).]
 
 ### Recherche 15.10.2026 (12:00-Welle B)
 

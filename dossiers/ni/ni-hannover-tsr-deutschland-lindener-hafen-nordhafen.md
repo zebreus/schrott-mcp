@@ -31,7 +31,13 @@ Die TSR-Betreiberseite für Hannover beschreibt eindeutig den Lindener Hafen, Al
 - **Gebühren:** keine Gebühren-/Containerpreisliste belegt.
 - **GEO:** Lindener Hafen einzeln als Standortbeleg vorhanden, aber Gesamt-Dossier erst nach Klärung des Nordhafen-/Zwei-Standorte-Scopes geokodieren.
 
+Die Stadt Hannover weist für ihre Städtischen Häfen (Nordhafen und Lindener Hafen) das Hafenhaus an der **Hansastraße 38, 30419 Hannover** aus. Das belegt die kommunale Hafenverwaltung, nicht die Adresse eines TSR-Schrottbetriebs und insbesondere nicht die im Datensatz vermutete Hansastraße 9.
+
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Kommunale Hannover-Seiten zu den Häfen direkt geprüft. Sie bezeichnen Nordhafen und Lindener Hafen als Bestandteile des Eigenbetriebs Städtische Häfen der Landeshauptstadt und führen für das Hafenhaus Nordhafen Hansastraße 38, 30419 Hannover. Das ist Verwaltung/Kommunalhafen, kein Beleg für eine TSR-Annahmestelle an Hansastraße 38 und bestätigt nicht Hansastraße 9 als TSR-Standort. Die Scope- und Adressfrage des Mehrstandort-Dossiers bleibt offen; keine GEO-/Kontaktübertragung. Preise unverändert: Ankauf ohne Zahlenliste, Verkauf und Gebühren ohne belegte Preislisten. Quellen: https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Wirtschaft-und-Umwelt/Hafen-Hannover/Unternehmensgruppe/St%C3%A4dtische-H%C3%A4fen-Hannover ; https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Wirtschaft-und-Umwelt/Hafen-Hannover/Die-vier-H%C3%A4fen/Nordhafen .]
 
 ### Recherche 23.10.2026
 

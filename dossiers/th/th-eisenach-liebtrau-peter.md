@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-Der Telefonbuch-Eintrag „Liebtrau Peter Schrotthandel“ nennt Amsdorfstr. 24, 99817 Eisenach und 03691 841988. Er ist ein einzelner Verzeichnisbeleg, keine Betreiberwebsite, Register-/Kommunalbestätigung oder aktuelle Annahmeerklärung. Amsdorfstr. 24 bleibt deshalb nur ein Recherche-Lead und wurde aus dem strukturierten Straßenfeld entfernt; PLZ und Telefon werden nicht aus diesem Einzelbeleg übernommen.
+Das Telefonbuch führt „Liebtrau Peter Schrotthandel“ an Amsdorfstr. 24, 99817 Eisenach mit 03691 841988. Ein zweites, ebenfalls nicht vom Betreiber stammendes Containerdienst-Portal führt unter demselben Namen und derselben Adresse eine abweichende Nummer 03691 8893175. Das erhöht die Zahl der Verzeichnis-Spuren, ersetzt aber weder Betreiber-/Registerbestätigung noch eine aktuelle Annahmeerklärung. Amsdorfstr. 24 bleibt Recherche- und möglicher Geokodierungskandidat; Straße, PLZ und Telefon sind nicht in die strukturierten Felder übernommen.
 
 - **Ankauf:** Branchenlabel „Schrotthandel“ ist kein Beleg für aktuell vergüteten Ankauf; keine Materialien oder Kurse bestätigt.
 - **Verkauf:** keine Teile-/Materialliste.
@@ -33,7 +33,17 @@ Der Telefonbuch-Eintrag „Liebtrau Peter Schrotthandel“ nennt Amsdorfstr. 24,
 - **Kundenannahme:** öffentliche Annahmestelle oder nur Geschäfts-/Kontaktadresse ungeklärt.
 - **GEO:** Amsdorfstr. 24, 99817 Eisenach ist nur ein Geokodierungskandidat. Die vom Telefonbuch angezeigte Kartenposition wurde nicht als Händlerkoordinate übernommen.
 
+**Preise:** Keine verifizierten Ankaufskurse, Verkaufspreise oder Liebtrau-spezifischen Containergebühren gefunden. Der generische Containerdienst-Text auf 123Entsorgung sagt nur, dass die Kosten allgemein von Behältergröße/Transportweg und Angebot bzw. Gewichtsabrechnung abhängen; das ist keine Liebtrau-Preisliste.
+
 ## Timeline
+
+### Owner-Produktionsprüfung 25.10.2026
+
+- [Owner-Produktionsprüfung 25.10.2026: Read-only-Abfrage von `public.db` bestätigt, dass der falsche Bestands-GEO-Punkt 50.41535, 8.41595 weiterhin gespeichert ist. Eine erneute Nominatim-Rückwärtssuche löst ihn nach Weilmünster, Landkreis Limburg-Weilburg, Hessen auf, nicht nach Eisenach. Das Dossier enthält weiterhin `clear_fields: geo` und keine Ersatzkoordinaten; die lokalen Seed-Tests bestehen. Die Produktionsdaten sind damit ausdrücklich noch nicht korrigiert: Der installierte Server stammt vom 17.10.2026 und der MKM-Release-Verifier bleibt rot, daher weder Deployment noch direkter Produktionsdatenbank-Schreibzugriff. Nach grünem Release-Gate neu bauen/deployen und den gelöschten Punkt anschließend read-only verifizieren. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.41535&lon=8.41595&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: 123Entsorgung-Seite zu Containerdiensten in Eisenach direkt geprüft. Der Eintrag „Liebtrau Peter Schrott- und Containerservice“ nennt Amsdorfstr. 24, 99817 Eisenach und 03691 8893175; Das Telefonbuch nennt für den gleichnamigen Eintrag an derselben Adresse 03691 841988. Beide Quellen sind Verzeichnisse, keine Betreiberbestätigung; Nummernkonflikt bleibt offen. Die allgemeine Seite erläutert Kosten nach Größe/Transportweg sowie mögliche Pauschal- oder Gewichtsabrechnung und unverbindliche Angebote, nennt aber keine Liebtrau-spezifischen Beträge. Kein bestätigter Schrottankauf, Materialverkauf oder Tarif. Adresse bleibt Geokodierungskandidat, keine GEO-Füllung; `clear_fields: geo` aus der Owner-Korrektur bleibt maßgeblich. Quellen: https://www.123entsorgung.de/containerdienst/eisenach/ ; https://www.dastelefonbuch.de/Details/Eisenach/Schrott-Peter-Liebtrau-Eisenach-Amsdorfstr.html .]
 
 ### Owner-GEO-/Adress-Korrektur 24.10.2026
 

@@ -26,9 +26,13 @@ provenance_origin: table
 
 NorthData führt Born Metall GmbH, HRB 20368 Chemnitz, an Chemnitzer Landstr. 53, 09244 Lichtenau. Der am 18.10.2026 gelesene GLEIF-Datensatz nennt dieselbe Gesellschaft/HRB und Rechts-/Hauptsitzadresse in Lichtenau OT Auerswalde. Die Annahme, es gebe nur einen Branchenbuch-Lead und keinen Registerbeleg, ist überholt; die vorgeschlagene Straßenleerung wird deshalb nicht übernommen. Gesellschaftsadresse ist jedoch kein bestätigter aktueller Annahmeplatz. GLEIF ist nicht ausdrücklich Teil der geschlossenen README-Quellenliste; daher keine formal erfüllte Zwei-Quellen-Freigabe für neue Felder oder Aktivstatus behauptet. Verifizierte Betreiberwebsite, aktuelles Telefon und Annahmebedingungen bleiben offen; `status: pruefung`, kein Schließungsbefund.
 
-In den gelesenen Quellen keine aktuellen numerischen Ankaufspreise, Verkaufspreise oder Gebühren gefunden; kein umfassender Preislisten-Negativnachweis. Sorten/Annahme sind historischer Seed-/Verzeichnisbestand, nicht heute bestätigt. Keine Geokodierung dieses Reviews; die Gesellschaftsadresse nicht als bestätigten Annahmepunkt behandeln. Eine Straßenkorrektur oder Status `pruefung` bereinigt weder gespeicherte GEO noch alte Servicebehauptungen automatisch.
+In den gelesenen Quellen keine aktuellen numerischen Ankaufspreise, Verkaufspreise oder Gebühren gefunden; kein umfassender Preislisten-Negativnachweis. Sorten/Annahme sind historischer Seed-/Verzeichnisbestand, nicht heute bestätigt. Ein weiteres Schrottplatzportal wiederholt Chemnitzer Landstr. 53 und die alte Nummer 0371 4584610, ist aber ebenfalls nur ein nicht verifizierter Verzeichniseintrag und kein Beleg für aktuellen Publikumsverkehr. Keine Geokodierung dieses Reviews; die Gesellschaftsadresse nicht als bestätigten Annahmepunkt behandeln. Eine Straßenkorrektur oder Status `pruefung` bereinigt weder gespeicherte GEO noch alte Servicebehauptungen automatisch.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Zusätzlichen Verzeichniseintrag auf Schrottplatz.org direkt gelesen. Das Portal labelt „Schrott BORN METALL GmbH“ als Schrottplatz und listet Chemnitzer Landstr. 53, 09244 Lichtenau Auerswalde sowie 0371 4584610. Das bestätigt nur, dass ein Portal die bekannten historischen Kontaktdaten weiterführt; es ist weder Betreiber-/Registerquelle noch Nachweis aktueller Annahme, Öffnungszeiten oder Betrieb. Kein Gegenbeleg zur Register-/LEI-Existenz der Gesellschaft und kein belastbarer Schließungsbeleg. Ankauf/Verkauf/Gebühren weiterhin ohne aktuelle Zahlen; keine GEO aus Portalkarte übernommen. Quelle: https://www.schrottplatz.org/lichtenau-sachsen/schrott-born-metall-gmbh-aYEPz6.html .]
 
 ### Korrektur 07.10.2026
 

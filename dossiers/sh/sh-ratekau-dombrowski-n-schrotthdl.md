@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Verzeichnisse wiederholen Sereetzer Weg 24 C, 23626 Ratekau und 04504 67371, bilden aber keine unabhängigen Betreiber-/Registerbelege. Die Felder bleiben deshalb als Seed-Leads; aktuelle Existenz, Inhaberidentität und Annahmebedingungen sind offen. Status `pruefung`. Keine Betreiberpreisliste und keine belastbaren Angaben zu Ankauf, Verkauf oder Gebühren gefunden (Recherche 02.10.2026).
+Mehrere Verzeichnisse wiederholen Sereetzer Weg 24 C, 23626 Ratekau und 04504 67371, bilden aber keine unabhängigen Betreiber-/Registerbelege. Die Felder bleiben deshalb als Seed-Leads; aktuelle Existenz, Inhaberidentität und Annahmebedingungen sind offen. Status `pruefung`.
+
+**Ankauf:** kein Betreiberbeleg für aktuelle Annahme oder Vergütung, keine Kurse. **Verkauf:** keine Teile-/Materialpreisliste. **Gebühren:** keine Abhol- oder Entsorgungstarife. Die Portalbezeichnung „Schrott“/„Recycling“ ist keine Preis- oder Annahmezusage.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Frischer Abgleich von Gelbe Seiten, Das Telefonbuch, Schrottplatz-Info und Schrottplatz.org findet wieder Sereetzer Weg 24C, 23626 Ratekau und 04504 67371. Das sind alles Telefonbuch-/Branchenportal-Leads; weder Betreiber-Impressum, Handelsregisterbeleg noch kommunale Annahmebestätigung gefunden. Keine eigene Website/Preisliste auffindbar. **Ankauf:** keine bestätigten Kurse/Annahmebedingungen; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Adresse nicht als bestätigten Kundenannahmepunkt geokodiert; keine Feldänderung. Quellen: https://www.gelbeseiten.de/gsbiz/da0ce769-7d3c-46cb-94b1-8889d3ccb549 ; https://adresse.dastelefonbuch.de/Ratekau/2-Recycling-N-Dombrowski-Ratekau-Sereetzer-Weg.html ; https://www.schrottplatz-info.de/schrottplatz/Ratekau/Dombrowski-N-SchrottHdl- ; https://www.schrottplatz.org/ratekau/schrott-dombrowski-n-schrotthdl-aYEPGJ.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

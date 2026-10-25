@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seedname „A. Stöber Schrott- und Metallgroßhandel“ passt zu einem Gelbe-Seiten-Lead „Stöber Albert“ am Kuhlenkamp 34, der auch 0234 472761 und die Domain schrotthandel-stoeber.de nennt. Das bleibt Verzeichnislage: die Domain lieferte bei der erneuten Direktprüfung keinen auslesbaren Betreiberinhalt, kein Impressum oder aktuelle Preisangaben. **Ankauf:** nicht unabhängig bestätigt, keine Händlerliste; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
+Der Seedname „A. Stöber Schrott- und Metallgroßhandel“ passt zu Verzeichnisleads „Stöber Albert“ bzw. „A. Stöber“ am Kuhlenkamp 34, 44795 Bochum, 0234 472761. SchrottFinder führt Kupfer, Aluminium, Messing, Zink und Blei als Materialkategorien und beschreibt die Adresse als Anlieferstelle; die Website schrotthandel-stoeber.de lieferte keinen auslesbaren Betreiberinhalt oder Impressum. Die SchrottFinder-Preisanzeigen sind allgemeine Orientierungswerte, keine Händlerkurse. **Ankauf:** Annahme-/Materialhinweis nur aus Verzeichnis, keine Händlerpreisliste; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
+
+**GEO:** Am Kuhlenkamp 34 ist bereits im Frontmatter, aber bleibt ein Verzeichnisstandort ohne aktuelle Betreiberbestätigung; vor Neu-Geokodierung Kundenannahme und Standortidentität verifizieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: SchrottFinder-Detailseite direkt gelesen: „A. Stöber Schrott- und Metallgroßhandel“, Am Kuhlenkamp 34, Bochum, 0234 472761; Materialkategorien Kupfer, Aluminium, Messing, Zink und Blei. Der Eintrag beschreibt Direktanlieferung und empfiehlt, aktuelle Preise/Bedingungen telefonisch zu erfragen. Die Seite kennzeichnet Unternehmensinfos als öffentlich recherchiert; daher weiterhin Verzeichnis-, nicht Betreiberbeleg. Angezeigte Schrottpreise sind generische Orientierung und keine Stöber-Angebote. Kein numerischer Ankaufkurs, Verkaufspreis oder Gebührentarif für diesen Händler belegt. Keine Frontmatter-Fills; GEO/öffentliche Annahme bleiben zu bestätigen. Quelle: https://schrottfinder.de/a-stober-schrott-und-metallgroshandel-bochum/]
 
 ### Recherche 22.10.2026
 

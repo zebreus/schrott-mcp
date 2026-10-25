@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der aktuelle Betreiberauftritt Haucke Recycling Hof nennt Haucke & Haucke GbR in Grußendorf, Im Parsau 22, und eine Historie über Berthold/Ute (ab 2001) zu Berthold/Marvin (seit 2019). Das ist kein Nachweis eines eigenen Ute-Haucke-Schrottplatzes in Wolfsburg oder einer lückenlosen rechtlichen Nachfolge. `pruefung` statt unbelegter Aktivbestätigung; keine Grußendorfer Kontakte transplantieren. **Ankauf:** dort vergütete FE-/NE-Annahme zu Tagespreisen ohne Zahlen. **Verkauf:** gebrauchte Stücke erwähnt, keine Liste. **Gebühren:** kostenloser Abholservice laut Grußendorfer Startseite, keine allgemeinen Containerpauschalen belegt. **GEO:** Wolfsburger Standort/Identität zuerst klären, Grußendorf nicht als Wolfsburg pinnen.
+Der aktuelle Betreiberauftritt Haucke Recycling Hof nennt Haucke & Haucke GbR in Grußendorf, Im Parsau 22, und eine Historie über Berthold/Ute (ab 2001) zu Berthold/Marvin (seit 2019). Das ist kein Nachweis eines eigenen Ute-Haucke-Schrottplatzes in Wolfsburg oder einer lückenlosen rechtlichen Nachfolge. `pruefung` statt unbelegter Aktivbestätigung; keine Grußendorfer Kontakte transplantieren. **Ankauf:** dort vergütete FE-/NE-Annahme zu Tagespreisen ohne Zahlen; die aktuelle Annahmeseite sagt, sortenreineres Material erziele einen höheren Preis. **Verkauf:** gebrauchte Stücke erwähnt, keine Liste. **Gebühren/Abholung:** Startseitenwerbung von kostenloser Abholung ist nicht als pauschal kostenfreie Leistung bestätigt; die aktuelle Annahmeseite sagt, dass sich der Auszahlungsbetrag bei Abholung eventuell verringert. Kein eigener Gebührenbetrag genannt. **GEO:** Wolfsburger Standort/Identität zuerst klären, Grußendorf nicht als Wolfsburg pinnen.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Betreiberseite „Schrottannahme“ erneut direkt geprüft. Für den dort genannten Haucke Recycling Hof (Haucke & Haucke GbR, Im Parsau 22, 38524 Grußendorf) sagt sie, dass sortenreineres, besser sortiertes Altmetall einen höheren Ankaufspreis erzielt. Bei Abholung kann der Kunde eventuell einen etwas geringeren Betrag erhalten; die Seite nennt weder einen konkreten Kurs noch eine Abholgebühr. Die Startseitenwerbung „kostenlose Schrottabholung“ ist daher nicht als kostenfreie Abholung ohne Einfluss auf den Materialerlös zu verallgemeinern. Kein Verkaufspreisverzeichnis. Diese Angaben betreffen den Grußendorfer Betreiberauftritt und lösen die Identitäts-/Standortfrage des Wolfsburger Seed-Datensatzes nicht; keine Felder/GEO übertragen. Quelle: https://www.schrotthandel-haucke.de/schrottannahme ; Impressum: https://www.schrotthandel-haucke.de/impressum .]
 
 ### Recherche 16.10.2026
 

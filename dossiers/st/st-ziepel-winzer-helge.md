@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnisse führen Winzer Helge als Schrotthändler in Ziepel, aber mit widersprüchlichem Betriebsort: Dorfstraße 10 sowie An der Kreuzung 1/Landhaus Zeddenick. Es fehlt ein Betreiberauftritt oder Registerbeleg, der Kontaktadresse, Betriebsstätte, Umzug oder Dublette klärt. Anschrift und Telefon bleiben unbestätigte Leads; vor Anfahrt direkt verifizieren.
+Verzeichnisse führen Winzer Helge als Schrotthändler in Ziepel, inzwischen mit mindestens drei widersprüchlichen Adressleads: Dorfstraße 10, **Dorfstraße 36** sowie An der Kreuzung 1/Landhaus Zeddenick. Die letzten beiden werden auf Schrottplatz-Info genannt; Dorfstraße 36 erscheint bei Cylex/Firmania für „Schrotthandel Winzer“. Kein Betreiberauftritt oder Registerbeleg klärt, ob Kontaktadresse, Betriebsstätte, Umzug, ältere Adresse oder Dublette. Anschrift und Telefon bleiben unbestätigte Leads; vor Anfahrt direkt verifizieren.
 
-Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden. Ein generischer Schrottankauf-Eintrag in einem Verzeichnis ist keine Preiszusage.
+**Ankauf:** keine aktuelle Annahme/Preisangabe verifiziert; keine numerische Ankaufspreisliste. **Verkauf:** keine Fahrzeug-/Teile-/Materialpreise. **Gebühren:** keine Abhol-/Entsorgungstarife. Ein generischer Schrottankauf-Eintrag in einem Verzeichnis ist keine Preiszusage. **GEO:** keine der drei Anschriften ohne Identitäts- und Betriebsstättenklärung geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Exakte Namens-/Ortssuche erweitert die bekannten Adresswidersprüche um „Dorfstr. 36, 39291 Ziepel“ für „Schrotthandel Winzer“ in Cylex und Firmania; Schrottplatz-Info führt „Schrott Winzer Helge“ unter An der Kreuzung 1, während Gelbe Seiten und ältere Portale Dorfstr. 10 nennen. Ein Telefonbuchtreffer führt außerdem „Bauer Sandra u. Winzer Helge“ im Dorfstraßen-Eintrag, ohne eindeutig auslesbare Betriebsanschrift. Alle Funde sind Verzeichnisleads, keine Betreiber-/Registerbelege; sie klären nicht, ob die Nummer 0172 9037980 und der bestehende Seed derselben Betriebsstätte zugeordnet sind. **Ankauf:** keine bestätigten Kurse. **Verkauf:** keine Preislisten. **Gebühren:** keine Tarife. Keine Felder-/GEO-Änderung; neuer GEO-Kandidat Dorfstr. 36 erst nach Betreiberprüfung. Quellen: https://web2.cylex.de/firma-home/schrotthandel-winzer-8943964.html ; https://firmania.de/ziepel/schrotthandel-winzer-2473265 ; https://www.schrottplatz-info.de/schrottplatz/Moeckern/Bauer-Sandra-u-Winzer-Helge ; https://www.gelbeseiten.de/gsbiz/3ed5ad93-48b9-4d2c-a70a-5588a9caff9c .]
 
 ### Recherche 14.10.2026
 

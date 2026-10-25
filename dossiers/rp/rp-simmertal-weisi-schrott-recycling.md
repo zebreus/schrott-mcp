@@ -26,9 +26,13 @@ provenance_origin: table
 
 Weinand bezeichnet die frühere Sammelstelle in Simmertal ausdrücklich als heute selbständige Weisi Schrott-Recycling GmbH und nennt Binger Landstraße 9, 55618 Simmertal, 06754/8148 sowie **derzeit keine Materialannahme**. Neu gefundenes Registerprofil: WEISI Schrott-Recycling GmbH, AG Bad Kreuznach HRB 3049, Geschäftsführer Manfred Weinand, registrierte Anschrift „Bahngelände“, 55618 Simmertal. Die unvollständige Registeranschrift ist nicht mit der konkret genannten Betriebsadresse gleichzusetzen. Registeraktivität belegt keine offene Materialannahme; Status bleibt `pruefung`, nicht `geschlossen`.
 
-**Preise:** Keine WEISI zuordenbare Ankauf-, Verkaufs- oder Gebührenliste. Weinands allgemeine Tagespreis-/Annahmetexte betreffen Bad Kreuznach und dürfen nicht trotz desselben Seitenauftritts auf Simmertal übertragen werden.
+**Ankauf:** Für WEISI keine Vergütungskurse belegt; die aktuelle Weinand-Seite sagt ausdrücklich, dass am Simmertaler Standort derzeit keine Materialannahme erfolgt. **Verkauf:** keine WEISI-Produkt- oder Materialpreisliste. **Gebühren:** keine WEISI-Abhol-/Annahmetarife. Weinands allgemeine Tagespreis- und Annahmetexte betreffen Bad Kreuznach und dürfen nicht trotz desselben Seitenauftritts auf Simmertal übertragen werden. Das „derzeit keine Materialannahme“ ist kein sicherer Beleg dauerhafter Schließung.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Betreiber-Startseite direkt erneut gelesen. Sie stellt Weinand Bad Kreuznach und die „heute selbständige“ Weisi Schrott-Recycling GmbH in Simmertal getrennt dar und nennt für Weisi weiterhin Binger Landstraße 9, 55618, 06754 8148 sowie ausdrücklich „Derzeit keine Materialannahme an diesem Standort“. Das bleibt eine aktuelle Fremdangabe des früher verbundenen Unternehmens, keine Weisi-eigene Betreibererklärung. **Ankauf:** keine WEISI-Kurse und derzeit laut Weinand keine Annahme. **Verkauf:** keine WEISI-Preise. **Gebühren:** keine WEISI-Tarife. Keine Felder- oder GEO-Änderung; keine Ableitung dauerhafter Schließung. Quelle: https://weinand.de/ (direkt gelesener aktueller Standort-/Historienabschnitt); Registerhinweis siehe https://www.registercheck.de/companies/weisi-schrott-recycling-gmbh .]
 
 ### Recherche 22.10.2026
 

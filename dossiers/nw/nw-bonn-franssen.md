@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Neuer konkreter Bonner Verzeichnis-Lead: „Franssen“, Kattowitzer Weg 1, 53119 Bonn-Tannenbusch. Damit ist die Vorwellen-Aussage „kein Schrottbetrieb auffindbar“ als Suchbefund zu pauschal, aber ein bestätigter Betrieb folgt daraus noch nicht. Kein Betreibername mit vollständigen rechtlichen Angaben, aktueller Ankauf oder belastbare Beziehung zu Herregods-Franssen nachgewiesen. Frontmatter weiter ohne Adresse/Kontakt, `pruefung` bleibt.
+Konkreter Bonner Verzeichnis-Lead: „Franssen“, Kattowitzer Weg 1, 53119 Bonn-Tannenbusch, Tel. 0175 9649980, `schrottihopp@yahoo.de`. Damit ist die frühere Suchaussage „kein Schrottbetrieb auffindbar“ zu pauschal; die einzelne Branchenbuchseite belegt aber weder einen bestätigten Betrieb noch Rechtsinhaber, aktuelle Annahme oder eine Verbindung zu Herregods-Franssen. Frontmatter bleibt ungefüllt, `pruefung` bleibt.
+
+**Preise:** Ankauf: keine bestätigten Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. **GEO:** Kattowitzer Weg 1 ist ein neuer, nicht verifizierter Verzeichnis-Adresskandidat; vor Geokodierung Betreiber und Kundenstandort klären.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Bonnbranchen-Detailseite direkt gelesen: Franssen, Kattowitzer Weg 1, 53119 Bonn-Tannenbusch, 0175 9649980, `schrottihopp@yahoo.de`; keine Bewertungen oder Betreiber-/Rechtsangaben auf der Seite. Das konkretisiert den Suchlead, ist aber weiterhin nur ein Verzeichnisbeleg. Keine Preis-/Annahmebedingungen: Ankauf, Verkauf und Gebühren nicht belegt. Adresse ist neu gegenüber den leeren Frontmatter-Feldern und braucht vor GEO-Zuordnung Identitäts-/Standortbestätigung. Quelle: https://www.bonnbranchen.de/schrott/bonn/franssen-kattowitzer-weg-1/]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

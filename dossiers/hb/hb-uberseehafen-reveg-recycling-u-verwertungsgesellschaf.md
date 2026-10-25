@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Rechtsperson ReVeG Recycling- und Verwertungsgesellschaft mbH (HRB 2957 BHV) ist durch Registerdaten belegt; eine Veröffentlichung vom 10.02.2026 nennt Großer Westring 17, 27572 Bremerhaven als Geschäftsanschrift. Die Seed-Adresse Brückenstr. 25 ist dagegen nicht als heutiger ReVeG-Standort bestätigt; die amtliche Anlagenübersicht 2024 nennt dort Nehlsen und Lloyd Werft. Keine Betreiber- oder Nachfolgekette ableitbar. Ob ReVeG dort Schrott annimmt oder ankauft, ist offen; keine zuordenbare Preisliste oder Gebühr. Status `pruefung`, nicht geocodieren bis zur Adressklärung.
+Die Rechtsperson ReVeG Recycling- und Verwertungsgesellschaft mbH (HRB 2957 BHV) ist durch Registerdaten belegt; eine Veröffentlichung vom 10.02.2026 nennt Großer Westring 17, 27572 Bremerhaven als Geschäftsanschrift. Die Seed-Adresse Brückenstr. 25 ist dagegen nicht als heutiger ReVeG-Standort bestätigt; die amtliche Anlagenübersicht 2024 nennt dort Nehlsen und Lloyd Werft. Keine Betreiber- oder Nachfolgekette ableitbar.
+
+**Ankauf:** heutige Schrottannahme/-vergütung nicht belegt; keine Ankaufskurse. **Verkauf:** keine ReVeG-Produkt-/Materialpreise gefunden. **Gebühren:** keine ReVeG-Tarife für Abfallannahme oder Entsorgung gefunden. **GEO:** Brückenstr. 25, 27568 ist ein historischer Seed-Kandidat; Großer Westring 17, 27572 ist eine Register-Geschäftsanschrift, nicht automatisch Betriebs-/Annahmeort. Status `pruefung`; bis zur Adressklärung keine Geokodierung.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Exakte Namens-/Ortssuche bestätigt erneut zwei nicht zu vermischende Spuren: Registerprofil HRB 2957 mit Geschäftsanschrift Großer Westring 17, 27572 Bremerhaven sowie Branchenportalprofile zur Seed-Adresse Brückenstr. 25, 27568 Überseehafen. Die Portale fügen keinen aktuellen Betreiber-/Standortbeleg hinzu; die amtliche Anlagenübersicht (Prüfung 04.10.2026) nennt für Brückenstr. 25 Nehlsen und Lloyd Werft, aber keine ReVeG. Kein Beleg für Umzugskette oder heutige Kundenannahme. **Ankauf:** keine zuordenbaren Kurse. **Verkauf:** keine Materialpreise. **Gebühren:** keine zuordenbaren Tarife. Kein Feld-/GEO-Fill. Quellen: https://www.northdata.de/ReVeG%20Recycling-%20und%20Verwertungsgesellschaft%20mbH,%20Bremerhaven/Amtsgericht%20Bremen%20HRB%202957%20BHV ; https://www.gelbeseiten.de/gsbiz/74389b77-74b1-4147-89ec-85994e017298 ; https://www.schrottplatz.org/bremen/reveg-recycling-und-verwertungsgesellschaft-mbh-1733901.html ; amtliche Anlagenübersicht 2024 siehe Recherche 04.10.2026.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

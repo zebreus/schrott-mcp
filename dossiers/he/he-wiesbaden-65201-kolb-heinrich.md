@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt die Autoverwertung Heinrich Kolb GmbH (AG Wiesbaden, HRB 9634) an der Eisenmännchenstr. 7, 65201 Wiesbaden. Das Unternehmensprofil nennt als Gegenstand u. a. Autoverwertung, Handel mit Fahrzeugen und Fahrzeugteilen/-zubehör sowie Abschleppdienst. Dies stützt Unternehmensidentität und Registeranschrift, beweist aber nicht, dass dort aktuell Kundenverkehr oder An-/Verkauf stattfindet; die jüngsten dort sichtbaren Registermeldungen sind älter. Keine aktuelle Betreiberseite oder Annahmebedingungen festgestellt.
+
+**Preise:** Ankauf von Fahrzeugen/Teilen: keine aktuellen Kurse; Verkauf von Teilen/Zubehör: keine Preisliste; Gebühren (z. B. Abschleppen/Entsorgung): keine Tarife belegt. Die bestehende Statusangabe `aktiv` ist nicht mit eigenständig bestätigter aktueller Betriebsaufnahme gleichzusetzen. **GEO:** Eisenmännchenstr. 7 ist Registeranschrift; aktuelle Kunden-/Annahmestelle vor GEO-Abgleich bestätigen.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: NorthData-Unternehmensprofil HRB 9634 erneut direkt gelesen. Es nennt Autoverwertung Heinrich Kolb GmbH, AG Wiesbaden, Eisenmännchenstr. 7, 65201 Wiesbaden, und Unternehmensgegenstand Autorecycling/Autoverwertung, Handel mit Fahrzeugen und Teilen/Zubehör sowie Abschleppdienst. Der Profilinhalt bestätigt die Registeridentität/Anschrift, nicht den aktuellen Kundenbetrieb; sichtbare spätere Veröffentlichungen reichen nur bis 2013/2015. Keine aktuelle Preis- oder Gebührenliste und keine aktuelle Annahmebestätigung gefunden. Ankauf / Teileverkauf / Abschlepp- und Entsorgungsgebühren daher jeweils ohne belastbare Tarife. Keine Frontmatter-Änderung; GEO nur nach Bestätigung des heutigen Kundenstandorts. Quelle: https://www.northdata.de/Autoverwertung%20Kolb%20Heinrich%20GmbH,%20Wiesbaden/HRB%209634]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

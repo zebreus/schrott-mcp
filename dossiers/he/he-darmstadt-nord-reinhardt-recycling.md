@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für Reinhardt-Recycling zeigen aktuelle Branchenverzeichnisse weiterhin Darmstadt und das Umfeld Akazienweg: 11880 und Darmstadt Post führen nun **Akazienweg 15C, 64293 Darmstadt**; ältere Dossier-/Verzeichnisangaben lauten Nr. 15. Beide Einträge sind Aggregator-Leads, keine Betreiber- oder Gewerbequelle. Der aktuelle Portal-Eintrag nennt außerdem eine Gmail-Adresse; die verlinkte Domain `reinhardt-recycling.de` konnte beim Direktabruf nicht gelesen werden und war in früherer Recherche einem Heinrich Reinhardt in Koblenz zugeordnet. Diese Person/Domain deshalb nicht mit dem Darmstädter Lead verbinden. Die bestehende Straße/Telefonnummer bleiben ungeprüft; keine Annahmebedingungen bestätigt.
+Für Reinhardt-Recycling zeigen Branchenverzeichnisse weiterhin den Darmstädter Lead **Akazienweg 15C, 64293 Darmstadt** (ältere Angaben: Nr. 15) mit 01575 3641914 und einer Gmail-Adresse. Ein Direktabruf der verlinkten Domain `reinhardt-recycling.de` löst die Identitätsfrage nicht, sondern bestätigt die Abgrenzung: Das Impressum nennt Heinrich Reinhardt, Herberichstraße 139A, 56070 Koblenz, sowie 0157/53116951 und `info@reinhardt-recycling.de`. Es gibt keinen belastbaren Beleg, dass diese Koblenzer Website/Person zum Darmstädter Eintrag gehört; Website-Konditionen werden daher nicht übertragen. Darmstädter Betreiberidentität, Telefonnummer und Annahme bleiben ungeprüft.
 
-**Preise:** Ankauf: keine zuordenbaren Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. **GEO:** 15C ist ein neuer, nicht qualifizierter Adresskandidat; erst nach Betreiber- und Kundenstandortbestätigung geokodieren.
+**Preise:** Darmstädter Ankauf: keine zuordenbaren Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. **GEO:** 15C ist ein Verzeichnis-Adresskandidat; erst nach Betreiber- und Kundenstandortbestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Die zuvor nicht lesbare Domain wurde direkt geprüft. `reinhardt-recycling.de` wirbt für Schrott-/Metallabholung und den Verkauf von Schrott per Foto-App; es zeigt keine numerische Ankaufspreisliste. Das Impressum ordnet die Seite Heinrich Reinhardt, Herberichstraße 139A, 56070 Koblenz, Tel. 0157/53116951, `info@reinhardt-recycling.de` zu. Dieser Betreiber/Kontakt ist nicht mit dem Darmstädter Branchenbuch-Lead (Akazienweg 15C, 01575 3641914, Gmail) verknüpft und wird nicht übertragen. Für den Darmstädter Lead bleiben Ankaufskurse, Verkaufspreise und Gebühren unbekannt; kein bestätigter Annahmeort. Akazienweg 15C bleibt GEO-Kandidat und braucht Identitäts-/Standortklärung. Quellen: https://reinhardt-recycling.de/ ; https://reinhardt-recycling.de/impressum/ ; Darmstadt-Leads: https://www.11880.com/branchenbuch/darmstadt/060441364B107420953/reinhardt-recycling.html ; https://darmstadt-post.de/unternehmen/darmstadt/entsorgung/reinhardt-recycling-505/]
 
 ### Recherche 23.10.2026
 

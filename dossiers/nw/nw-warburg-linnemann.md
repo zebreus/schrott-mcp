@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Betreiber Michel Linnemann nennt Werkstr.43, 34414 Warburg-Scherfede, 0160 5605629 und info@schrotthandel-linnemann.de. Neue Dienstleistungsprüfung bestätigt ausdrücklich vergüteten Schrott-/Metallankauf, Anlieferung oder terminierte Abholung und Kranverladung sowie Fahrzeugverwertung und Ersatzteilhandel. Noch kein gelesener unabhängiger Zweitbeleg: Creditreform-Detail blockiert, verlinktes Betreiber-Facebook nur Login. Kontaktskalare bleiben daher begründet leer.
+Betreiber Michel Linnemann nennt Werkstr. 43, 34414 Warburg-Scherfede, 0160 5605629 und info@schrotthandel-linnemann.de. Die Betreiberseite beschreibt vergüteten Schrott-/Metallankauf, Anlieferung oder terminierte Abholung/Kranverladung sowie Fahrzeugverwertung und Ersatzteilhandel. Ein unabhängiger ENF-Branchenprofileintrag führt dieselbe Anschrift und Telefonnummer und meldet Abholservice; er wurde zuletzt am 13.08.2025 aktualisiert. Das ist ein nützlicher Zweitbeleg, aber veraltet und keine Bestätigung heutiger Öffnung oder öffentlicher Annahme vor Ort. Kontaktskalare bleiben bis zur Owner-Prüfung leer.
 
-Ankauf: Tagespreise behauptet, keine Zahlenliste. Verkauf: Kfz-Ersatzteile ohne Preisliste. Gebühren: keine Beträge oder allgemeine Kostenfreiheit belegt. Zertifizierungsbehauptung ohne aktuelle gelesene Urkunde nicht strukturiert übernehmen. Zweitbeleg und Standortart vor GEO nötig.
+**Preise:** Ankauf: Tagespreise behauptet, keine Zahlenliste; Verkauf: Kfz-Ersatzteile ohne Preisliste; Gebühren: keine Container-/Abholbeträge oder allgemeine Kostenfreiheit belegt. Zertifizierungsbehauptung ohne aktuelle gelesene Urkunde nicht strukturiert übernehmen. Werkstr. 43 wird durch Betreiberseite und ENF-Verzeichnis übereinstimmend genannt, bleibt aber GEO-Kandidat, bis aktuelle Betriebs- und Kundenstandortart bestätigt sind.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Als unabhängiger Zweitbeleg wurde das ENF-Profil „Entsorgungsfachbetrieb Linnemann“ direkt gelesen: Werkstr. 43, 34414 Warburg-Scherfede, Tel. 0160 5605629, Website-Link sowie „Collection Services: Yes“; letzte Profilaktualisierung 13.08.2025. Es stimmt mit den Betreiberangaben zu Adresse/Kontakt überein, ist aber ein Verzeichnis und kein aktueller Nachweis von Öffnung oder Kundenanlieferung. Das frühere „kein gelesener unabhängiger Zweitbeleg“ ist damit überholt. Keine Frontmatter-Fills vor gemeinsamer Owner-Prüfung. Ankauf: Tagespreise ohne Zahlenliste; Verkauf von Ersatzteilen: keine Preise; Container/Abholung: keine Gebühren oder pauschale Kostenfreiheit belegt. Werkstr. 43 braucht GEO erst nach Bestätigung der aktuellen Kundenstandortart. Quellen: https://www.enfmetal.com/entsorgungsfachbetrieb-linnemann ; https://schrotthandel-linnemann.de/ ; https://schrotthandel-linnemann.de/dienstleistungen/]
 
 ### Recherche 23.10.2026
 

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Registeridentität Vilsbiburger Autoverwertung Hertenberger GmbH, HRB 3576 Landshut, Solling 48 1/3, 84137 Vilsbiburg ist gesichert; NorthData weist eine Jahresabschlussveröffentlichung vom 24.02.2026 für 2024 aus. Das belegt eine aktuelle Registerspur, aber nicht heutige Kundenannahme, Öffnungszeiten oder zertifizierte Altfahrzeugannahme. Geschäftsanschrift stammt aus Registerereignis 12.04.2012; Telefonnummer weiterhin nur Alt-Verzeichnisbeleg. Kein eigener Betreiberauftritt oder individuell ausgewerteter GESA-Datensatz. Status `pruefung` bezeichnet diese offene Betriebs-/Annahmefrage, keine belegte Schließung. **Ankauf / Verkauf / Gebühren:** keine Preise. Hersteller-Rücknahmenetz und Transportkosten separat prüfen; nicht allein aus „Autoverwertung“ kostenlose Abholung oder Auszahlung ableiten. Keine Koordinatenänderung.
+Registeridentität Vilsbiburger Autoverwertung Hertenberger GmbH, HRB 3576 Landshut, Solling 48 1/3, 84137 Vilsbiburg ist gesichert; NorthData weist eine Jahresabschlussveröffentlichung vom 24.02.2026 für 2024 aus, und ein LEI-Profil führt die Gesellschaft als aktiv. Das belegt eine aktuelle Registerspur, aber nicht heutige Kundenannahme, Öffnungszeiten oder zertifizierte Altfahrzeugannahme. Geschäftsanschrift stammt aus Registerereignis 12.04.2012; Telefonnummer weiterhin nur Alt-Verzeichnisbeleg. Kein eigener Betreiberauftritt oder individuell ausgewerteter GESA-Datensatz. Status `pruefung` bezeichnet diese offene Betriebs-/Annahmefrage, keine belegte Schließung.
+
+**Ankauf:** keine Händlerkurse oder Fahrzeugvergütung belegt. **Verkauf:** keine aktuelle Teile-/Fahrzeugpreisliste. **Gebühren:** keine Tarife belegt; Hersteller-Rücknahmenetz und Transportkosten separat prüfen, nicht allein aus „Autoverwertung“ kostenlose Abholung oder Auszahlung ableiten. **GEO:** Solling 48 1/3 bleibt Registeranschrift und kein bestätigter öffentlicher Annahmeort; keine Koordinatenänderung.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Frische Suche findet neben dem bereits geprüften NorthData-Dossier ein LEI-Profil, das Vilsbiburger Autoverwertung Hertenberger GmbH als „ACTIVE“ an Solling 48 1/3, 84137 Vilsbiburg führt, sowie ein Creditreform-Firmenprofil zum selben Rechtsträger. Das ergänzt die Register-/Existenzspur, beweist aber weder geöffnete Kundenannahme noch eine gültige Zertifizierung als Altfahrzeugverwerter; der GESA-Einzelabruf bleibt ungeklärt. Keine Änderung an Status oder Kontaktfeldern. **Ankauf:** keine numerischen Kurse oder Fahrzeugvergütung. **Verkauf:** keine Teile-/Fahrzeugpreise. **Gebühren:** keine Tarife. GEO weiterhin nicht freigegeben. Quellen: https://lei.report/LEI/52990076OAWRCWH5SH57 ; https://firmeneintrag.creditreform.de/84137/8350099280/VILSBURGER_AUTOVERWERTUNG_HERTENBERGER_GMBH (Suchergebnis; Detailzugriff eingeschränkt); https://www.northdata.de/Vilsbiburger%20Autoverwertung%20Hertenberger%20GmbH,%20Vilsbiburg/Amtsgericht%20Landshut%20HRB%203576 .]
 
 ### Recherche 12.10.2026
 

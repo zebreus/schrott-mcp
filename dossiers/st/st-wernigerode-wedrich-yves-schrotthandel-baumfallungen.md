@@ -28,6 +28,10 @@ Ungeklärter Seed-Lead „Yves Wedrich“ in Wernigerode. Weder konkrete Betrieb
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Ein weiterer Suchlauf findet neben dem am 24.10. gelesenen LokaleSchrottplatz-Profil ein Cylex-Profil „Yves Wedrich“ mit Theodor-Fontane-Straße 9c, 38855 Wernigerode und einer Telefonnummer, deren Suchtreffer-Ende 4588… zum Portalprofil passt. Cylex ist ebenfalls Verzeichnisquelle; Direktabruf dieses Treffers war nicht möglich, also keine unabhängige Betreiber-/Registerbestätigung und kein Frontmatter-Fill. Die im vorigen Portal direkt gelesenen Sorten-/Mindestmengenangaben bleiben Portaltexte; kein numerischer Ankaufskurs. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Theodor-Fontane-Straße 9c bleibt GEO-Kandidat, nicht geokodiert. Quelle(n): https://web2.cylex.de/firma-home/bereich-der-kerzenherstellung-und-des-schrotthandels-3876176.html (Suchtreffer); https://lokaleschrottplatz.de/wedrich-yves-schrotthandel-baumfallungen (Portalbeleg, siehe 24.10.2026).]
+
 ### Recherche 24.10.2026: Wave 20261024-0000-C
 
 - [Ein aktueller Direktabruf des Branchenportals LokaleSchrottplatz zeigt für „Wedrich Yves Schrotthandel & Baumfällungen“ die Adresse Theodor-Fontane-Straße 9c, 38855 Wernigerode, Telefon +49 171 4588195 und Mo–Fr 07–17 / Sa 09–12. Das Portal nennt Eisen/Stahl (Mindestmenge 100 kg), NE-Metalle (u. a. Al, Cu, Edelstahl, Blei, Messing, Zink, Nickel, Zinn, Kabel; dort Mindestmenge 1 kg), Fahrzeuge und weitere Sorten. Es handelt sich um einen Branchenverzeichniseintrag, nicht um eine Betreiber- oder Registerquelle; daher weder Name/Kontakt/Adresse noch Annahmebedingungen in Frontmatter übernommen. **ANKAUF:** Sorten und Mindestmengen nur Portalangaben, keine numerischen Preise. **VERKAUF / GEBÜHREN:** keine verifizierten Preislisten/Tarife. Adresse als Geokodierungskandidat vormerken, nicht pinnen. Quelle: https://lokaleschrottplatz.de/wedrich-yves-schrotthandel-baumfallungen/ .]

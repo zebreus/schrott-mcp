@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-NorthData führt die Nowakowski Recycling GmbH (AG Schwerin HRB 8585) als wegen Insolvenz gelöschten Rechtsträger; die Löschung datiert auf den 12.11.2014. Der historische Registergegenstand umfasst Abbruch/Entsorgung, Abfall- und Schrottverwertung. Das belegt keine heutige Nutzung der eingetragenen Rogahner Straße 92 als Schrottplatz und keinen Nachfolger. Status `geschlossen` bezieht sich auf den historischen Rechtsträger, nicht auf einen ungeprüften Standortnachfolger.
+NorthData führt die Nowakowski Recycling GmbH (AG Schwerin HRB 8585) als wegen Insolvenz gelöschten Rechtsträger; die Löschung datiert auf den 12.11.2014. Der historische Registergegenstand umfasst Abbruch/Entsorgung, Abfall- und Schrottverwertung. Eine separate Registerspur betrifft die **RN Containerdienst UG**, HRB 11057 Schwerin: Geschäftsführer Richard Nowakowski bei Eintragung 2012, Geschäftsanschrift Ludwigsluster Chaussee 57, 19061 Schwerin und Unternehmensgegenstand u. a. Containerdienst, Schrotthandel und Abfallverwertung; NorthData führt Jahresabschlüsse bis 2024, darunter eine Veröffentlichung am 30.04.2026. Das sind zwei unterschiedliche Rechtsträger/Adressen. Gemeinsamer Name und ähnliche Tätigkeiten reichen nicht als Beleg für Nachfolge oder Übernahme der alten GmbH.
+
+Status `geschlossen` bezieht sich ausschließlich auf die historische GmbH, nicht auf einen ungeprüften Standortnachfolger. **Ankauf:** für keinen aktuellen Betreiber am Seed-Standort belegt. **Verkauf:** keine aktuelle Teile-/Materialpreisliste. **Gebühren:** keine aktuellen Annahme-/Abholtarife. **GEO:** Rogahner Straße 92 ist historische Geschäftsanschrift; Ludwigsluster Chaussee 57 ist ein neuer Register-Adresskandidat zur RN Containerdienst UG, aber nicht ohne Identitätsentscheidung auf diesen Slug zu übertragen oder zu geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neue NorthData-Gegenprüfung fand neben der gelöschten Nowakowski Recycling GmbH (HRB 8585) die getrennte RN Containerdienst UG (HRB 11057, AG Schwerin). NorthData listet deren Geschäftsanschrift Ludwigsluster Chaussee 57, 19061 Schwerin, den Gegenstand Transport/Sammeln/Verwerten von Abfall- und Wertstoffen einschließlich Containerservice, Schrotthandel und Abbruch sowie Jahresabschlüsse 2012–2024; der Abschluss 2024 wurde am 30.04.2026 veröffentlicht. Die Registerbekanntmachung von 2012 nennt Richard Nowakowski als damaligen Geschäftsführer. Das ist eine interessante Namens-/Branchenparallele, aber kein Beleg einer Rechtsnachfolge oder Betreiberkontinuität zur 2014 gelöschten HRB-8585-GmbH; weder Adresse noch Kontakte/Leistungen übertragen. **Ankauf:** keine aktuellen Kurse belegt. **Verkauf:** keine aktuellen Material-/Teilepreise. **Gebühren:** keine aktuellen Tarife für Seed oder bestätigten Nachfolger. Rogahner Straße 92 bleibt historisch; Ludwigsluster Chaussee 57, 19061 ist ein GEO-Kandidat nur für eine mögliche, erst vom Owner abzugrenzende RN-Entität. Quellen: https://www.northdata.de/Nowakowski+Recycling+GmbH,+Schwerin/Amtsgericht+Schwerin+HRB+8585 ; https://www.northdata.de/RN%20Containerdienst%20UG,%20Schwerin/HRB%2011057 ; https://www.online-handelsregister.de/handelsregisterauszug/mv/Schwerin/HRB/8585/Nowakowski-Recycling-GmbH .]
 
 ### Recherche 24.10.2026: Wave 20261024-0000-C
 

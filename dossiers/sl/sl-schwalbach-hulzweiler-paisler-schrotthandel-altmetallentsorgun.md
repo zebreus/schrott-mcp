@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für Altmetallentsorgung Paisler gibt es eine eigene Domain, deren Seitenabruf weiterhin durch HTTP 429 blockiert wird; das ist kein Schließungsbeleg. 11880 führt als zusätzlichen, aber nicht unabhängigen Betreiberbeleg Bergstr. 40, 66773 Schwalbach-Hülzweiler, Telefon/Fax und E-Mail. Diese Aggregatorangaben bleiben Leads; Betreiber-Impressum und Annahme-/Abholbedingungen konnten nicht direkt verifiziert werden. **Ankauf:** Seed sagt mobile Abholung, Vergütung unklar; keine Zahlenkurse. **Verkauf:** keine Liste. **Gebühren:** keine verifizierte Gebührentafel; „Entsorgung“ nicht als gratis oder vergütet lesen. **GEO:** Adresse erst nach Betreiberbestätigung geokodieren.
+Für Altmetallentsorgung Paisler gibt es eine eigene Domain, deren Seitenabruf am 25.10.2026 weiterhin mit HTTP 429 abgewiesen wird; das ist kein Schließungsbeleg. 11880 führt als Verzeichnis-Lead Bergstr. 40, 66773 Schwalbach-Hülzweiler, Telefon/Fax und E-Mail. Diese Aggregatorangaben bleiben Leads; Betreiber-Impressum und Annahme-/Abholbedingungen konnten nicht direkt verifiziert werden. **Ankauf:** Seed sagt mobile Abholung, Vergütung unklar; keine Zahlenkurse. **Verkauf:** keine Liste. **Gebühren:** keine verifizierte Gebührentafel; „Entsorgung“ nicht als gratis oder vergütet lesen. **GEO:** Adresse erst nach Betreiberbestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Erneuter Direktabruf der Betreiber-Domain lieferte HTTP 429. Die Sperre erlaubt keine aktuelle Inhaltsprüfung, ist weder ein Schließungs- noch ein Preislisten-Negativbeweis. 11880 bleibt ein Portal-Lead für Bergstr. 40; keine Primärbestätigung und keine Übernahme der Kontaktdaten. **Ankauf:** keine direkt lesbaren Vergütungskurse. **Verkauf:** keine Preisangaben. **Gebühren:** keine verifizierte Abhol-/Entsorgungstarife. Keine Feld-/GEO-Änderung. Quellen: https://www.altmetallentsorgung-paisler.de/ (HTTP 429); https://www.11880.com/branchenbuch/schwalbach-saar/060440092B108935493/schrotthandel-paisler.html .]
 
 ### Recherche 20.10.2026
 
