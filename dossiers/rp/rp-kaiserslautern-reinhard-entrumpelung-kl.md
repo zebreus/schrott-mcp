@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein am 25.10.2026 aktualisiertes 11880-Profil führt „Schrotthändler Reinhard und Entrümpelung“, Telefon 0179 8500901 und nur den Straßenfragment-Eintrag Käthe-Kollwitz-Str., 67659 Kaiserslautern. Es nennt keine Hausnummer, keinen Betreiber-/Rechtsträger, keine Website und keine konkreten Annahmebedingungen. Ähnlich benannte Reinhardt-Betriebe in Koblenz bleiben getrennt.
+
+**Ankauf:** keine Materialkurse oder Bedingungen über die allgemeine Rubrik hinaus. **Verkauf:** keine Preisliste. **Gebühren:** keine Entrümpelungs-/Entsorgungstarife. **GEO:** das Straßenfragment ist nicht punktgenau geokodierbar; keine Koordinate.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: 11880-Detailprofil direkt gelesen; Eintragsname „Schrotthändler Reinhard und Entrümpelung“, Telefon 0179 8500901, Straßenfragment Käthe-Kollwitz-Str., 67659 Kaiserslautern, Rubrik Altmetallrecycling. Profil und Datensatz sind beide auf 25.10.2026 datiert, enthalten aber keine Hausnummer, keinen ausgeschriebenen Betreiber, keine Website/E-Mail/Öffnungszeiten und keine Leistungsdetails. Kein belastbarer Identitätsbeleg; nicht mit Reinhardt-Recycling in Koblenz verbinden. ANKAUF: kein Kurs; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Straße nicht geokodierbar, keine Frontmatter-Füllung. Quelle: https://www.11880.com/branchenbuch/kaiserslautern/060440092B114270012/schrotthaendler-reinhard-und-entruempelung.html.]
 
 ### Recherche 05.10.2026
 

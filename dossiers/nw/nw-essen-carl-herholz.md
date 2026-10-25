@@ -30,6 +30,10 @@ Ankauf: keine aktuelle Preis- oder Annahmeliste. Verkauf: keine Material-/Teilep
 
 ## Timeline
 
+### Recherche 25.10.2026: Registerprofil und Anlagenbeleg abgeglichen
+
+- [Recherche 25.10.2026: Die offizielle Standortliste der Bezirksregierung Düsseldorf führt Carl Herholz GmbH & Co. KG, Wilhelm-Beckmann-Straße 14, 45307 Essen, weiterhin mit „Lagerung und Behandlung von Fe- und NE-Schrotten, Schrottplatz“. Das ist ein behördlicher Anlagen-/Inspektionsbeleg, keine Bestätigung eines heute geöffneten Kundenannahmebetriebs. Das direkt gelesene NorthData-Profil zu AG Essen HRA 8331 markiert die Gesellschaft mit †, führt aber zugleich eine Veröffentlichung vom 17.06.2026 zum Jahresabschluss 2025 und vom 07.01.2026 eine Löschung „Nicht mehr Kommanditist (3 Personen)“ auf. Diese widersprüchlich wirkenden Registerspiegel-Metadaten klären weder Rechtsnachfolge noch operative Tätigkeit; keine Schließung oder aktuelle Betriebsfreigabe daraus behauptet. **Ankauf:** kein Kurs/keine Annahmeliste; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Die behördliche Anlagenanschrift bleibt als Standort geokodierbar, aber nicht als bestätigter öffentlicher Annahmepunkt. Status `pruefung`. Quellen: https://www.brd.nrw.de/umweltinspektionsberichte/stadt-essen ; https://www.northdata.de/Carl%20Herholz%20GmbH%20%26%20Co%C2%B7%20KG,%20Essen/HRA%208331 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Wilhelm-Beckmann-Str. 14 (s. Merge-Notiz C5)

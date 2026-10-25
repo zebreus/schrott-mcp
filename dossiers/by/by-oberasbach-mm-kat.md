@@ -26,9 +26,13 @@ provenance_origin: table
 
 Die aktuelle Betreiberwebsite und das Impressum nennen **MM-Kat GbR**, Flurstr. 24, 90522 Oberasbach, mit den Gesellschaftern Sascha und Jochen Müller. Der Betrieb bewirbt Ankauf/Recycling von Auto-, LKW-, Bus- und Industriekatalysatoren, DPF, Monolithen sowie metallischen Trägern. Das Impressum und der allgemeine Seitenfuß führen +49 911 384 330 00 und info@mm-kat.de; eine Stadt-Landingpage nennt zusätzlich +49 176 466 25 709. Die Telefonnummern daher nicht als einheitlichen Kontakt missverstehen.
 
-**Ankauf:** Bewertung/Angebot nach Material, Sortierung und Analyse; die Website verweist auf eine Ankaufsliste/Katalog, aber auf den geprüften Seiten war keine numerische Preisliste auslesbar. **Verkauf:** keine Verkaufspreisliste. **Gebühren:** keine veröffentlichten Tarife gefunden. **GEO:** Flurstr. 24 ist die Impressumsanschrift, nicht ausdrücklich als Kundenannahme belegt; die Website nennt Anlieferung nach Vereinbarung an Mathildenstraße 20, 90489 Nürnberg. Diesen Terminstandort nicht als Filiale oder dauerhaft geöffneten Hof ausgeben.
+**Ankauf:** Bewertung/Angebot nach Material, Sortierung und Analyse; die Betreiberseite verlinkt einen Katalysator-Preiskatalog mit produktspezifischer OEM-Code-Abfrage, aber keine statisch lesbare, allgemeingültige Stückpreisliste. Ein Suchindex zeigte zudem Referenzwerte für Platin, Palladium und Rhodium mit unklar formatierter Zeitmarke; sie sind keine belegte MM-Kat-Auszahlung. **Verkauf:** keine Verkaufspreisliste. **Gebühren:** kein bestätigter Annahmetarif; ein indexierter €5-Versandhinweis ist hinsichtlich Zahler/Transaktion nicht eindeutig. **GEO:** Flurstr. 24 ist die Impressumsanschrift, nicht ausdrücklich als Kundenannahme belegt; die Website nennt Anlieferung nach Vereinbarung an Mathildenstraße 20, 90489 Nürnberg. Diesen Terminstandort nicht als Filiale oder dauerhaft geöffneten Hof ausgeben.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Betreiberseite „Ankaufsliste“ führt weiterhin zum Katalysator-Preiskatalog kat-kauf.de; dort erfolgt die Katalysatorbewertung über OEM-Code-Abfrage, keine stabile öffentliche Stückpreisliste. Der nicht direkt lesbare Suchindex zeigte Referenzwerte Pt 49,46 €/g, Pd 33,30 €/g und Rh 260,14 €/g mit Zeitmarke „02/10, 06:00“ (Jahr/Datumsformat unklar). Diese Referenz-/Spotwerte sind weder direkt verifiziert noch ein MM-Kat-Ankaufskurs und werden nicht als Auszahlung übernommen. **ANKAUF:** keine belastbare öffentliche Stückpreisliste, individuelle Code-Abfrage; **VERKAUF:** keine Liste; **GEBÜHREN:** Suchindex nennt „Shipping within Germany for just €5“, aber direkter Seitenabruf lieferte nur den Seitentitel und der Kostenträger/Transaktionsbezug bleibt unklar; kein Annahmegebühr-Beleg. GEO unverändert: Flurstr. 24 ist Impressum, Mathildenstraße 20 nur Anlieferung nach Termin. Quellen: https://mm-kat.de/ankaufsliste/ ; https://www.kat-kauf.de/en .]
 
 ### Recherche 22.10.2026
 

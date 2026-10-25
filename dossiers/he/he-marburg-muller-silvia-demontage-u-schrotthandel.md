@@ -28,6 +28,10 @@ Mehrere Verzeichnisse führen Silvia Müller als Demontage/Schrotthandel am Gins
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neue Suche nach Silvia Müller/Ginseldorfer Weg findet weiter Aggregator-Leads für Nr. 44 (u.a. Das Örtliche/11880) neben der abweichenden Gelbe-Seiten-Nr. 34; August Müller bleibt als separater Verzeichniseintrag unter Nr. 60 bestehen. Kein Betreiber-, Register- oder kommunaler Primärbeleg löst die Hausnummern oder eine Beziehung Silvia/August. Bestehende Frontmatter unverändert und ausdrücklich als historischer Verzeichnisstand zu behandeln; keine GEO-Freigabe. **ANKAUF:** keine belegte Annahme-/Preisliste; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Quellen/Leads: https://www.dasoertliche.de/ (Silvia-Müller-Lead) ; https://www.11880.com/ (Silvia-Müller-Lead) ; https://www.gelbeseiten.de/gsbiz/af1e9947-4255-4d0c-b9c7-393a8be37e89 (abweichende Nr. 34).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Demontage (Familie, zusammengeführt)

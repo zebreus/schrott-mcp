@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Exakte Suche nach Christine Rose/Metallaufbereitung Prenzlau bestätigt weiterhin nur den Portal-Lead Neustädter Damm 59; ein Betreiber-, Register- oder kommunaler Beleg für Identität und heutige Annahme wurde nicht gefunden. Die aktuelle Website der Prenzlauer Schrott-Recycling GmbH nennt dagegen Brüssower Allee 90 und ist nicht mit Rose verknüpft; deren Preis-/Leistungsaussagen werden nicht übertragen. Keine Frontmatter-Änderung, keine Schließungsbehauptung. ANKAUF: keine Rose-Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife belegt. Betreiber und tatsächliche Nutzung der Anschrift vor GEO bestätigen. Quellen/Abgrenzung: https://www.schrottplatz-info.de/schrottplatz/Prenzlau/Rose-Christine-Metallaufbereitung (Portal-Lead) ; https://www.psr-recycling.de/ (anderer Betreiber).]
+
 ### Recherche 15.10.2026 Welle18A
 
 - [Recherche 15.10.2026 Welle18A: Neue Suche Christine Rose Metallaufbereitung Prenzlau/Neustädter Damm 59 liefert weiter nur Portal-/Nachbarschaftsleads; schrottplatz.org-Suchindex nennt Rose Christine an dieser Adresse in Nachbarlisten. Direkt geöffnete HBT-Nachbarseite lieferte keinen auswertbaren Rose-Betreibernachweis; weder HBT noch Prenzlauer Baustoffrecycling oder fremde Rose-Metallfirmen als Nachfolger zugeordnet. Kein neues Betreiber-/Register-/Gewerbedokument, Status pruefung bleibt ohne Schließungsbehauptung. Ankauf/Verkauf/Gebühren keine zuordenbaren Zahlen aus qualifizierter Quelle. GeoBedarf: aktuelle Nutzung Neustädter Damm 59 und Identität Christine Rose vor Annahmehof-Pin bestätigen. Quellen/Leads: https://www.schrottplatz.org/boitzenburger-land/hasslebener-schweineproduktion-und-recycling-gmbh-3893914.html (Suchindex) ; https://www.schrottplatz.org/boitzenburger-land/hbt-hasslebener-baustoffrecycling-entsorgung-und-transport-gmbh-213091.html (direkt geöffnet, kein Firmenbeleg zu Rose).]

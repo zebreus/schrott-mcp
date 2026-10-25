@@ -30,6 +30,10 @@ Für „GRAMET – Schrott und Metallhandel, Szymon Mach“ in Gramzow bleiben P
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Erneute Suche nach Gramet/Gramzow, Szymon Mach und Prenzlauer Str. 3 ergab keinen aktuellen Betreiber-, Register- oder amtlichen Gewerbebeleg, der den lokalen Portal-Lead mit der 2015 gelöschten historischen Gramet GmbH verbindet. Gelbe-Seiten-Adresse und -Telefon bleiben ungeprüfte Leads; weder Würzburger GRAMET noch Augustin & Holz Service GbR werden zugeordnet. Keine Frontmatter-Änderung und keine GEO-Freigabe. ANKAUF: keine aktuellen Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife für Gramzow belegt. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/734b74ad-7aa4-46ae-a951-cf372a480bd9 ; https://www.northdata.de/Gramet%20GmbH,%20Gramzow/Amtsgericht%20Neuruppin%20HRB%2010759 ; https://gramet.de/impressum.php .]
+
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: Erneute exakte Suche nach „GRAMET“ und „Szymon Mach“ ergab keine aktuelle Betreiberquelle, die den lokalen Verzeichnislead an Prenzlauer Str. 3 mit der historischen Gramet GmbH (HRB 10759, 2015 gelöscht) oder der Würzburger GRAMET GmbH & Co. KG verbindet. Die Würzburger Betreiberwebsite beschreibt deutschland-/europaweiten Ankauf von NE-haltigen Materialien zu konkurrenzfähigen Preisen, veröffentlicht aber keine konkreten Kurse und gehört nicht zum Gramzow-Lead. Keine Leistungen, Preise oder Identität übertragen; status pruefung, Adresse bleibt Lead und nicht geokodiert. Quellen (Abruf 20.10.2026): https://www.gelbeseiten.de/gsbiz/734b74ad-7aa4-46ae-a951-cf372a480bd9 ; https://gramet.de/ueber-uns.php ; https://gramet.de/impressum.php .]

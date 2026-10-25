@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Das Registerprofil identifiziert eine Börde Schrott UG (HRB 22798, AG Stendal) am Zechenhäuser Weg 7, 39365 Wefensleben; der eingetragene Gegenstand umfasst Schrott- und Metallhandel sowie Entrümpelungen. Northdata und Creditsafe stimmen bei Firma, Register und Sitz überein. Das belegt die juristische Person und ihren registrierten Sitz, nicht automatisch eine aktuell geöffnete Annahmestelle. Der Status bleibt `pruefung`; keine veröffentlichte Ankauf-, Verkaufs- oder Gebührentabelle gefunden.
+Das Registerprofil identifiziert eine Börde Schrott UG (HRB 22798, AG Stendal) am Zechenhäuser Weg 7, 39365 Wefensleben; der eingetragene Gegenstand umfasst Schrott- und Metallhandel sowie Entrümpelungen. Northdata und Creditsafe stimmen bei Firma, Register und Sitz überein; Creditsafe zeigt den Unternehmensstatus „Aktiv“ und eine letzte Veröffentlichung 2024. Ein Datenbank-/Unternehmensstatus belegt aber keine aktuell geöffnete Annahmestelle, aktuelle Privatkundenbedingungen oder tatsächliche Aktivität am Standort. Der Status bleibt `pruefung`.
+
+**Ankauf:** keine veröffentlichten numerischen Kurse oder Materialbedingungen. **Verkauf:** keine Möbel-/Metallpreisliste. **Gebühren:** keine Container-, Abhol- oder Entsorgungstarife.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Northdata- und Creditsafe-Unternehmensprofile erneut verglichen. Beide führen Börde Schrott UG, AG Stendal HRB 22798 und Zechenhäuser Weg 7, 39365 Wefensleben; Creditsafe bezeichnet den Unternehmensdatensatz als „Aktiv“, zeigt aber als jüngste Veröffentlichung 2024. Dieser Register-/Datenbankstatus bestätigt keine geöffnete Annahmestelle und keinen aktuellen Kundenbetrieb. Das zuvor geprüfte Kleinanzeigen-Pro-Profil bleibt direkt nicht abrufbar (HTTP 403) und daher nur ein Werbe-/Aktivitätssignal. ANKAUF: keine Zahlenkurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Keine neue GEO. Quellen: https://www.northdata.de/B%C3%B6rde%20Schrott%20UG,%20Wefensleben/Amtsgericht%20Stendal%20HRB%2022798 ; https://www.creditsafe.com/business-index/de-de/company/borde-schrott-ug-haftungsbeschrankt-de20493475.]
 
 ### Recherche 24.10.2026 - Welle 06:00 / Shard C
 

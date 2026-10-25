@@ -30,6 +30,10 @@ Die direkt gelesene Betreiberwebsite nennt im eingebetteten Impressum Denise Lar
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neuwieder Betreiberauftritt erneut direkt gelesen; Impressum/Datenschutz führen weiter Denise Laroche, Kirchoff 1, 56566 Neuwied, während der Anfragebereich „Macel Laroche“ als Kontakt nennt. Keine unabhängige Bestätigung der Betreiber-/Seed-Zuordnung oder der Straßenschreibung gewonnen. Die Website wirbt mit Metallankauf zu Börsen-/Höchstpreisen, der explizite Spitzenpreisbezug bleibt 2022; keine aktuelle Zahl oder Preisformel. ANKAUF: keine numerischen Kurse; VERKAUF: keine Liste; GEBÜHREN: Container/Abholung ohne Tarife. Keine Frontmatter-Füllung oder GEO. Quelle: https://www.schrotthandel-westerwald.de/.]
+
 ### Quellenprüfung 21.10.2026
 
 - [Recherche 21.10.2026: Betreiberwebsite direkt erneut gelesen; die Startseite enthält ein eingebettetes Impressum/Datenschutz. Verantwortliche Stelle und Impressum nennen Denise Laroche, Kirchoff 1, 56566 Neuwied, Tel. 0176 7762 7100, denisevs94@hotmail.com und die zehnstellige USt-ID DE3208456372; die USt-ID wurde nicht unabhängig validiert. Im Anfragetext wird „Herr Macel Laroche“ als Auskunftskontakt genannt, daher keine Umbenennung/Identitätsgleichsetzung. Website zeigt „Wir sind 24/7 für Sie da“ sowie Mo–Fr 08:00–18:00, Sa 09:30–15:30, So 09:30–15:00; Öffnungszeiten sind nicht unabhängig bestätigt und werden wegen der widersprüchlichen/veralteten Seiteninhalte nicht strukturiert übernommen. Ankauf: Metallarten und Nutzfahrzeuge, keine numerischen Preise; Verkauf: keine Liste; Gebühren: Container/Abholung ohne Tarife. Der ausdrückliche Spitzenpreistext nennt 2022; keine Aktualität 2026 ableiten. Einzelquelle, keine Frontmatter-Füllung; Kirchoff 1 nur nach Identitätsbestätigung geocodieren. Quelle: https://www.schrotthandel-westerwald.de/ (Impressum und Inhalte eingebettet; Abruf 21.10.2026).]

@@ -30,6 +30,10 @@ Der erreichbare Auftritt beansprucht, dass Alaa Merhi unter „Schrottfüchse“
 
 ## Timeline
 
+### Recherche 25.10.2026: dynamische Ankaufspreise erneut geprüft
+
+- [Recherche 25.10.2026: Betreiber-Preis-Seite und Impressum frisch direkt abgerufen. Der Auftritt beansprucht weiterhin Alaa Merhi, Sehrbruchskamp 5, 44625 Herne, 0172-5883250 und info@schrottfuechse.de; die USt-ID DE 123456789 ist damit nicht extern validiert. Die Preisfelder für Kupfer, Aluminium, Messing, Stahl/Eisen, Zinn, Rotguss u. a. liefern weiterhin nur „Lädt…“; einzelne Nischenmetalle stehen auf „Auf Anfrage“. Das ist keine auswertbare numerische Ankaufspreisliste. **Ankauf:** Materialkategorien beworben, kein Zahlenkurs. **Verkauf:** keine separate Produktpreisliste. **Gebühren:** kostenlose Abholung ab „einer bestimmten Menge“, Schwelle nicht angegeben; Containervermietung ohne veröffentlichte Gebühr. Impressumsadresse weiterhin nicht als öffentlich zugänglicher Annahmeplatz nachgewiesen; kein GEO. Quellen: https://www.schrottfuechse.de/altmetall-verkaufen.html ; https://www.schrottfuechse.de/impressum.html .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - mobil (GS)

@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Das Gelbe-Seiten-Detailprofil erneut direkt gelesen: „Schulze L. Autoverwertung“, Am Mühlengrund 5, 09337 Callenberg-Reichenbach, Tel. 03723 43816. Es nennt keinen individuellen Betreiber und liefert keinen eigenen Leistungs-/Preistext; ein unabhängiger Gewerbe-/Betreiberbeleg fehlt. Die ähnlich benannte dieautoverwertung.com gehört laut eigenem Impressum weiterhin zu Torsten Schulze in Doberlug-Kirchhain und wird nicht zugeordnet. ANKAUF: keine Fahrzeug-/Metallkurse; VERKAUF: keine Teilepreise; GEBÜHREN: keine Tarife. Adresse bleibt Verzeichnislead, kein GEO. Quellen: https://www.gelbeseiten.de/gsbiz/f6544976-4577-4511-9a08-ca2909539e96 ; https://dieautoverwertung.com/impressum/.]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Verzeichnis-Lead Gelbe Seiten führt „Schulze L. AV“ am Mühlengrund 5, 09337 Callenberg-Reichenbach, Tel. 03723 43816. Ein Betreiberauftritt oder Register-/Kommunalbeleg für genau diese Einheit wurde nicht gefunden. Die gefundene Domain https://dieautoverwertung.com/ mit Impressum https://dieautoverwertung.com/impressum/ identifiziert Torsten Schulze in Doberlug-Kirchhain (Finsterwalder Straße 17d, andere Telefonnummer); diese Autoverwertung ist räumlich und personell nicht der Callenberg-Seed und ihre Leistungen/Preise werden nicht übertragen. ANKAUF: keine Fahrzeug-/Metallpreise; VERKAUF: keine Teilepreisliste; GEBÜHREN: keine Tarife. Kein GEO-Punkt für den bloßen Verzeichnis-Lead. Quelle: https://www.gelbeseiten.de/gsbiz/f6544976-4577-4511-9a08-ca2909539e96 (Lead); https://dieautoverwertung.com/impressum/ (anderer Betreiber).]

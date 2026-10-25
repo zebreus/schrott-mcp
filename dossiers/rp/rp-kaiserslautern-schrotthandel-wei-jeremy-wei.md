@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Konkreter Jeremy-Weiß-Verzeichnislead an Königsau 23, 67661 Kaiserslautern. Neu gefundenes YouTube-Video „Schrotthandel Weiß“ nennt diese Anschrift/Telefon im Suchindex, ist aber beim Direktabruf nicht inhaltlich lesbar; Herausgeber/Betreiberkontrolle ungeprüft. Weder dieses Video noch mehrere Verzeichnisse ersetzen den qualifizierten Betreiber-/Registerbeleg. Silvio Weiß in Freisen bleibt getrennt; keine Website-/Kontaktfüllung.
+Ein 11880-Profil führt „Schrotthandel weiß jeremy“ an Königsau 23, 67661 Kaiserslautern, Telefon 0176 62162938. Es beschreibt bedingten Ankauf, falls der Schrott noch einen Wert hat; andernfalls werde ordnungsgemäße Entsorgung angeboten, Abholung nach Termin. Das ist ein einzelner Aggregator-Lead, keine Betreiber-/Registerbestätigung und keine Preis- oder Gebührenangabe. Das YouTube-Video „Schrotthandel Weiß“ nennt dieselben Kontaktdaten im Suchindex, ist aber beim Direktabruf nicht inhaltlich lesbar; Herausgeber/Betreiberkontrolle bleibt ungeprüft. Silvio Weiß in Freisen bleibt getrennt.
+
+**Ankauf:** bedingte Ankaufwerbung ohne Materialpreise oder Bewertungsformel. **Verkauf:** keine Liste. **Gebühren:** „ordnungsgemäße Entsorgung“ ohne Tarif; Abholung auf Termin, aber keine Gratiszusage. **GEO:** Adresse bleibt Aggregator-Lead, keine Koordinaten.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: 11880-Detailprofil direkt gelesen: „Schrotthandel weiß jeremy“, Königsau 23, 67661 Kaiserslautern, 0176 62162938. Eintrag aktuell am 09.10.2026 aktualisiert, Datensatz vom 21.10.2025; drei Rezensionen und einzelne als „vom Inhaber“ markierte Fotos. Profiltext behauptet Kauf, wenn Schrott noch einen Wert hat, sonst ordnungsgemäße Entsorgung, Abholung nach Termin. Das bleibt Aggregatorinhalt ohne verifizierten Betreiber/Rechtsträger. ANKAUF: keine konkreten Preise/Materialregeln; VERKAUF: keine Liste; GEBÜHREN: keine Entsorgungstarife und keine belegte kostenlose Abholung. Keine Frontmatter-Füllung/GEO; nicht mit Silvio Weiß in Freisen verknüpfen. Quelle: https://www.11880.com/branchenbuch/kaiserslautern/060440092B107874158/schrotthandel-weiss-jeremy.html.]
 
 ### Recherche 14.10.2026
 

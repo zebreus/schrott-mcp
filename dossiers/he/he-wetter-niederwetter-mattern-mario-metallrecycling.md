@@ -32,6 +32,10 @@ Der direkt abgerufene Gelbe-Seiten-Eintrag führt „Mattern Mario Metallrecycli
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Erneute gezielte Suche nach Mario Mattern/Metallrecycling in Wetter und Marburg erbrachte keinen Betreiberauftritt, Register- oder amtlichen Gewerbebeleg, der die Gelbe-Seiten-Adresse Mildengrund 1, Wetter-Niederwetter, mit dem GoLocal-Treffer Zum Kalkberg 3, Marburg-Michelbach, verbindet. Gleiche Mobilnummer/alte Nutzerbewertungen bleiben nur Portalhinweise; kein Umzug und kein zweiter Standort belegt. Keine Frontmatter-Änderung und kein GEO. **ANKAUF:** keine bestätigten Preise/Auszahlungsregeln; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/ef37fa4b-67b5-4e0c-9ca5-75be5d102720 ; https://www.golocal.de/marburg/entsorgung/recycling-fuer-schrott-e-geraete-mario-mattern-79Uk2/ .]
+
 ### Recherche 24.10.2026
 
 - [Recherche 24.10.2026: Gelbe Seiten erneut direkt gelesen: „Mattern Mario Metallrecycling“, Mildengrund 1, 35083 Wetter-Niederwetter, 0162 1607999; die Portalrubrik nennt u.a. Schrottentsorgung, Metallankauf, Abholung und Recycling. Der eingeblendete Nutzerbeitrag stammt vom 19.11.2017 und ist kein aktueller Betreiberbeleg. Die abweichende Marburger GoLocal-Adresse Zum Kalkberg 3 mit derselben Mobilnummer bleibt ungeklärt; weder Umzug noch zweiter Standort ist bewiesen. Keine Feldänderung, kein GEO. ANKAUF: keine Preis-/Vergütungsbedingungen verifiziert; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle: https://www.gelbeseiten.de/gsbiz/ef37fa4b-67b5-4e0c-9ca5-75be5d102720; ältere Gegenadresse: https://www.golocal.de/marburg/entsorgung/recycling-fuer-schrott-e-geraete-mario-mattern-79Uk2/.]

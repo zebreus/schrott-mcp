@@ -25,11 +25,15 @@ provenance_origin: prose
 
 ## Überblick
 
-Ein älterer Import-/Verzeichnis-Lead bezeichnet den möglichen Betrieb als „Eibl Daniel Schrotthandel Containerdienst“ in Dietersburg; in den qualifizierten Betreiber-/Registerquellen wurde er nicht bestätigt. Langlohstraße 9 und die Rufnummer 01512 3518337 bleiben historische Leads, nicht aktuelle Kontakt- oder Annahmeangaben. Namensvetter Alois Eibl (Kfz-Handel) nicht zuordnen.
+Ein älterer Import-/Verzeichnis-Lead bezeichnet den möglichen Betrieb als „Eibl Daniel Schrotthandel Containerdienst“ in Dietersburg; in den qualifizierten Betreiber-/Registerquellen wurde er nicht bestätigt. Eine 2026 indexierte Kleinanzeigen-Anzeige nennt „Schrotthandel Daniel Eibl“ in Dietersburg und bewirbt Schrottankauf, ist aber ein Nutzer-Marktplatzlead ohne verifizierten Anzeigenaccount, Betriebsanschrift oder identitätsbelegende Betreiberquelle. Langlohstraße 9 und die Rufnummer 01512 3518337 bleiben historische Leads, nicht aktuelle Kontakt- oder Annahmeangaben. Namensvetter Alois Eibl (Kfz-Handel) nicht zuordnen.
 
 **Preise:** Ankauf — unbestätigt; Verkauf — keine Liste; Gebühren — keine Tarife belegt.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Suchindex fand eine Kleinanzeigen-Anzeige vom 30.08.2026 mit Titel „Schrott Schrotthandel Alteisen Altmetall Containerdienst Bayern – Dietersburg“; Text nennt „Schrotthandel Daniel Eibl“, Schrottankauf und Kupfer. Der Treffer führt auf eine Kleinanzeigen-Suchergebnisseite, der konkrete Anzeigeninhalt/Account war nicht unabhängig verifizierbar; deshalb nur neuer Nutzer-Marktplatzlead, kein Betreiber-, Register- oder Adressbeleg. Keine Frontmatter-Änderung, `clear_fields: phone` bleibt bestehen; Langlohstraße 9 wird nicht übernommen und Alois Eibl nicht zugeordnet. **ANKAUF:** Anzeige behauptet Ankauf, nennt aber keine numerischen Materialkurse; „VB“ in einer Anzeige wäre kein Schrottpreis. **VERKAUF:** keine verifizierte Liste; **GEBÜHREN:** keine Tarife. GEO mangels bestätigter Anschrift gesperrt. Quelle (Suchindex/Lead): https://www.kleinanzeigen.de/s-schrotthandel/k0 .]
 
 ### Recherche 14.10.2026
 

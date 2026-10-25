@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der generische Seedname "Schrotthabholung Recklinghausen" und die Notiz zu einer 0172-Nummer ließen sich keinem Betreiber sicher zuordnen. Die aktuellen lokalen Verzeichnissuchen zeigen mehrere anders benannte Anbieter; ein nahe klingendes Rohstoffhandel-Angebot ist eine separate, nicht zugeordnete Website. **Ankauf:** für diesen Datensatz nicht belegt; **Verkauf:** keine Preisliste gefunden; **Gebühren:** keine zuordenbaren Angaben.
+Der generische Seedname "Schrotthabholung Recklinghausen" und die Notiz zu einer 0172-Nummer ließen sich keinem Betreiber sicher zuordnen. Die Website Rohstoffhandel Recklinghausen ist weiterhin ein separater, nicht zugeordneter Anbieter: ihr Impressum nennt Nadim El Lahib/RHR, Zum Wetterschacht 28 und 0176 88242010; weder Name noch Nummer verbinden ihn mit diesem Seed. Die Website veröffentlicht zwar eine Zahlenliste, sie gehört aber ausschließlich zu diesem RHR-Auftritt und wird nicht übertragen. **Ankauf:** für diesen Datensatz nicht belegt; **Verkauf:** keine Dossier-Preisliste; **Gebühren:** keine zuordenbaren Angaben. Betreiberidentität und Annahmeort bleiben offen; keine GEO-Koordinate.
 
 ## Timeline
+
+### Recherche 25.10.2026: Fremd-Preisliste abgegrenzt
+
+- [Recherche 25.10.2026: RHR-Impressum und dessen Schrottpreisseite erneut direkt gelesen. Die Preisseite nennt „bis zu“ 280 €/t Mischschrott, 290 €/t Schwer-/Gussschrott und Träger; 1,20 €/kg Zink, 1,10 €/kg Blei, 2,00 €/kg Kabel, 0,80 €/kg V2a, 1,30 €/kg V4a, 0,80 €/kg Aluminium, 6,80 €/kg Millberry, 6,00 €/kg Kupfer, 0,80 €/kg Iso (Alu P.) und 0,50 €/kg Elektromotoren. Messing (3,40 €) und Rotguss (4,20 €) stehen dort ohne sichtbare Einheit; keine Einheit ergänzt. Die Seite nennt keinen Gültigkeitsstichtag. Impressum: Nadim El Lahib, RHR Rohstoffhandel, Zum Wetterschacht 28, 44659 Recklinghausen, 0176 88242010; der Footer der Preis-Seite weicht mit 45659 ab. Für den generischen Dossierbetrieb gibt es keine Identitätsbrücke zur RHR-Website und zur 0172-Notiz. Deshalb ist die Liste ein Preislistenfund zu einem Fremdanbieter, nicht zu diesem Dossier: **Ankauf** für Seed ungeklärt; **Verkauf** keine Liste; **Gebühren** keine zuordenbaren Tarife. Keine Werte oder Adresse übertragen, keine Geokodierung. Quellen: https://rohstoffhandel-recklinghausen.de/impressum/ ; https://rohstoffhandel-recklinghausen.de/schrottpreise/ .]
 
 ### Recherche 14.10.2026 — 18:00-Welle A
 

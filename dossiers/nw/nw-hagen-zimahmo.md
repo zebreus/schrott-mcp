@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Live-Auftritt `zimahmo-schrotthandel.de` benennt „ZIMAHMO Schrotthandel“ und Lies Boumaza als Einzelunternehmer und führt Selbecker Str. 213a, 58091 Hagen, Telefon 0176 70295506 sowie eine E-Mail-Adresse. Ein 11880-Profil mit „Vom Inhaber bestätigt“ spiegelt dieselben Angaben, ist aber ein Branchenverzeichnis und keine unabhängige zulässige Zweitquelle. Daher bleiben die Kontakt-/Adressangaben Recherchebelege und die Stammdatenfelder leer; der alte, nach Everswinkel rückwärts aufgelöste GEO-Punkt bleibt durch `clear_fields: 'geo'` entzogen.
+
+**Ankauf:** der Betreiberauftritt wirbt mit kostenfreier Schrottabholung für Privat und Gewerbe in NRW und einer Abholprämie bei großen Mengen; Höhe, Materialpreise und Schwelle nur auf Anfrage, kein Zahlenkurs. **Verkauf:** keine Produkt- oder Verkaufspreisliste. **Gebühren:** Demontage und Entrümpelung werden als „Preis auf Anfrage“ angeboten; keine bezifferte Gebührenliste. Selbecker Str. 213a wäre erst nach unabhängiger Identitäts-/Standortbestätigung ein Geokodierungskandidat; keine Koordinate übernommen.
 
 ## Timeline
+
+### Recherche 25.10.2026: Betreiberauftritt gefunden, Seed-Zuordnung offen
+
+- [Recherche 25.10.2026: Die aktuelle ZIMAHMO-Startseite und das Impressum direkt gelesen. Die Betreiberseite nennt Lies Boumaza, „ZIMAHMO Schrotthandel (Einzelunternehmer)“, Selbecker Str. 213a, 58091 Hagen, 0176 70295506 und info@zimahmo-schrotthandel.de; sie beschreibt mobile Schrottabholung, Demontage und Entrümpelungen. Das 11880-Profil führt dieselben Angaben und markiert sie „Vom Inhaber bestätigt“, bleibt nach Quellenstandard jedoch ein Aggregator und kein unabhängiger Zweitbeleg. Da Rechts-/Betreiberkette zum Seed nicht anderweitig bestätigt ist, keine Adresse/Kontakte in Frontmatter übernommen und `status: pruefung` beibehalten. **Ankauf:** kostenloser Abholservice behauptet; für große Mengen wird eine nicht bezifferte Abholprämie angeboten, individuelle Offerte auf Anfrage. **Verkauf:** keine öffentliche Produktpreisliste. **Gebühren:** Demontage/Entrümpelung „Preis auf Anfrage“. Adresse nur GEO-Kandidat nach unabhängiger Zuordnung. Der alte falsche GEO-Punkt wird separat mit `clear_fields: 'geo'` entfernt. Quellen: https://zimahmo-schrotthandel.de/ ; https://zimahmo-schrotthandel.de/index.php/impressum/ ; https://www.11880.com/branchenbuch/hagen-westfalen/060440092B108774987/zimahmo-schrotthandel.html .]
 
 ### Korrektur 24.10.2026: Gemeinsamen falschen Hagen-Punkt zurückziehen
 

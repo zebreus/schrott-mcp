@@ -30,6 +30,10 @@ Identität weiter offen: Seed **Bernd Wackrow**, Gelbe-Seiten-Lead **Horst Wackr
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neue exakte Suche fand weiterhin nur den Gelbe-Seiten-Lead „Wackrow Horst Autoverwertung und Abschleppdienst“ sowie den abweichenden Cylex-Suchlead „Wackrow Autoverwertung“; keine Betreiber-, Register- oder amtliche Quelle löst Bernd/Horst, Hausnummer 24/24A oder die Telefonnummern 20273/29419 auf. Der aktuelle Abruf der GESA-Einstiegs-/Registerseiten liefert keine individuell lesbare Betriebsakte; das ist kein Negativ- oder Schließungsbeleg. Frontmatter bleibt unverändert. ANKAUF: keine Konditionen/Kurse; VERKAUF: keine Liste; GEBÜHREN: kein Tarif. Identität und heutige Betriebsstelle vor GEO zu klären. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/9aaf3aa6-cb10-4e86-9f22-4f6c6cb6d908 ; https://web2.cylex.de/suche/entsorgung/torgelow/Droegeheide ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Zusätzlicher Konfliktlead: Cylex-Suche Entsorgung Torgelow/Drögeheide nennt Wackrow Autoverwertung, Müggenburg 24, 039778/29419; abweichend vom bisherigen GS-Lead 24A/20273 und weiterhin ohne Auflösung Bernd vs Horst. Keine Frontmatterüberschreibung. Amtliche GESA-Einstiegsseite direkt verfolgt: aktuelle Suche im Fachbetrieberegister per JavaScript/Vaadin, Textabruf liefert keine individuellen Ergebnisse. Anerkennung daher nicht frisch bestätigt; Negativsuche kein Schließungsbeleg. ANKAUF/VERKAUF/GEBÜHREN ohne Zahlen. Quelle(n): https://web2.cylex.de/suche/entsorgung/torgelow/Droegeheide (nur Suchlead) ; https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung]

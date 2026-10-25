@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der generische Seedname ist weiterhin keinem konkreten Betreiber zugeordnet. **AC Containerdienst UG**, Im Schwalbengrund 14, ist im Impressum mit Merle Federau/HRB 101188 belegt; **TSR**, Gewerbepark Birkenhain 13–15, bleibt eine getrennte Standortspur. Keine Quelle verbindet AC/TSR mit diesem Datensatz oder der früheren Raiffeisenstraßen-Adresse. Zieladresse/Website bleiben leer, Status `pruefung` unverändert. Die AC-Preise unten sind ausdrücklich **keine** Preise des Zieldossiers.
+Der generische Seedname ist weiterhin keinem konkreten Betreiber zugeordnet. **AC Containerdienst UG**, Im Schwalbengrund 14, ist im Impressum mit Merle Federau/HRB 101188 belegt; **TSR Deutschland GmbH & Co. KG** führt separat eine Niederlassung im Gewerbepark Birkenhain 13–15. Keine Quelle verbindet AC/TSR mit diesem Datensatz oder der früheren Raiffeisenstraßen-Adresse. Zieladresse/Website bleiben leer, Status `pruefung` unverändert. Die AC-Preise unten sind ausdrücklich **keine** Preise des Zieldossiers; auch die TSR-Annahme ist keine Zielzuordnung.
 
 **Preisabgrenzung (AC, Stand 20.10.2026; nicht Zielbetrieb):** **ANKAUF** – Schrott/Buntmetall zu Tagespreisen, aber ohne Zahlenkurse. **VERKAUF** – Kies, Splitt, Sand und Mutterboden nur auf Anfrage, keine Liste. **GEBÜHREN** – AC veröffentlicht Entsorgungs-, Container-, Fehlwurf- und Leerfahrtpreise (Einzelheiten, USt.-Hinweis und Tabellen-/Grafikwiderspruch in der Timeline). Für den ungeklärten Seedbetrieb bleiben alle drei Preisarten unbekannt.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Die offizielle TSR-Seite für Freigericht listet TSR Deutschland GmbH & Co. KG, Gewerbepark Birkenhain 13–15, 63579 Freigericht, Tel. +49 6051 886103, Mo–Fr 07:30–15:00, und bewirbt Schrottannahme, Containerdienst sowie Abholung. Das ist eine aktuelle, eigenständige Betreiber-/Standortspur, aber keine Quelle verbindet TSR mit dem generischen Seed „Schrott & Metallhandel Freigericht“; keine Zusammenführung oder Ziel-Fill. **TSR-Preisabgrenzung:** ANKAUF von Fe-/NE-Metallen wird beschrieben, aber kein Zahlenkurs veröffentlicht; VERKAUF: keine Liste; GEBÜHREN: kein Zahlen-/Containergebührentarif auf der Standortseite. Die ausführlicher dokumentierten AC-Gebühren bleiben AC-Preise und sind ebenfalls nicht dem Zielbetrieb zugeordnet. Adresse der TSR-Niederlassung ist belegt; für das Ziel bleibt Betreiber/Annahmeadresse vor GEO offen. Quelle: https://www.tsr-recycling.de/standorte/schrotthaendler-freigericht .]
 
 ### Recherche 20.10.2026 — aktuelle Betreiber- und Preisabgrenzung
 

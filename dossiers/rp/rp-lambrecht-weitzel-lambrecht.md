@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Weitzel bleibt ein nicht primär bestätigter Schrott-/Entrümpelungslead. Kleiner Weg 39, 67466 Lambrecht und 0176 27619999 stammen laut Historie aus Verzeichniskonsens, nicht aus drei unabhängigen Betreiber-/Registerquellen. Der andere Suchtreffer Dachdeckerei Weitzel C., Hauptstraße 33A ist ein Namensvetter, kein belegter Nachfolger oder Ersatzstandort.
+Der aktuelle 11880-Eintrag heißt „Entrümpelungen Jeder Art Weitzel“ und führt Kleiner Weg 39, 67466 Lambrecht sowie 0176 27619999; seine Rubrik belegt Entrümpelung, aber keinen Schrotthandel oder vergüteten Metallankauf. Adresse und Telefon stammen aus Verzeichniskonsens, nicht aus unabhängigen Betreiber-/Registerquellen. Der andere Suchtreffer Dachdeckerei Weitzel C., Hauptstraße 33A ist ein Namensvetter, kein belegter Nachfolger oder Ersatzstandort.
 
-**ANKAUF / VERKAUF / GEBÜHREN:** keine verifizierten Zahlenpreise. Offen: ausgeschriebener Inhaber, heutige Tätigkeit, Abgrenzung Entrümpelung gegen vergüteten Metallankauf, Bestätigung der Adresse durch Gewerberegister Lambrecht. Vorher keine Koordinaten/Anlieferung ableiten.
+**Ankauf:** kein Metall-/Schrottankauf belegt, keine Kurse. **Verkauf:** keine Materialpreisliste. **Gebühren:** keine Entrümpelungs-/Containerpreise. Offen: ausgeschriebener Inhaber, heutige Tätigkeit und Adresse; keine Koordinaten/Anlieferung aus dem Verzeichniseintrag ableiten.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: 11880-Detailprofil erneut direkt gelesen. Der Eintrag „Entrümpelungen Jeder Art Weitzel“ führt Kleiner Weg 39, 67466 Lambrecht, 0176 27619999 und die Rubrik Haushaltsauflösung/Entrümpelung; Aktualisierung 03.10.2026, Eintragsdaten 01.01.2023. Das Profil belegt keine Schrottannahme oder Ankaufleistung und bleibt Aggregatorquelle. Bestehende Anschrift/Kontakt sind weiterhin nicht primär verifiziert. ANKAUF: kein Schrott-/Metallankauf oder Kurs belegt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Kein GEO und keine Annahmebedingungen. Quelle: https://www.11880.com/branchenbuch/lambrecht-pfalz/060442230B107294177/entruempelungen-jeder-art-weitzel.html.]
 
 ### Recherche 08.10.2026
 

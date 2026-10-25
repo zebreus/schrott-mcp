@@ -30,6 +30,10 @@ Verzeichnisse nennen Günther Funke an der Lütjenburger Straße 106, 23714 Male
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neue Suche nach „Funke“/Lütjenburger Str. 106 zeigt zwei aktuelle Verzeichnisvarianten an derselben Adresse: Günther Funke mit 04523 2378 sowie „Schrotthandel Fa. Funke, Inh. Bernd Brüske“ mit 0171 1960360. Beides sind Portal-Leads; keine Betreiber-/Registerquelle belegt Identität, Nachfolge oder einen gemeinsamen Betrieb. Ein Suchhinweis „Geschlossen“ ist ein Portal-Öffnungsstatus und kein Beweis einer dauerhaften Betriebsschließung. Keine Frontmatter-Änderung. ANKAUF: keine belegten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Identität und aktuelle Annahmestelle vor Geokodierung klären. Quellen: https://www.11880.com/suche/schrott-malente (Suchindex) ; https://www.gelbeseiten.de/gsbiz/b33809c0-588b-4988-89dd-64d2329408b4 ; https://www.schrottplatz.org/malente/funke-2379728.html .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Identitätskonflikt dokumentiert, keine Felder geändert. Gelbe Seiten nennt Günther Funke an Lütjenburger Str. 106, 23714 Malente und 04523 2378; Stadtbranchenbuch führt denselben Namen/dieselbe Anschrift. Der direkte Eintrag auf Schrottplatz.org bezeichnet die Adresse hingegen als „Schrotthandel Funke Inh. Bernd Brüske“ und nennt dieselbe Telefonnummer. Alle sind Verzeichnisquellen, keine Betreiber- oder Registerbestätigung; daraus folgt weder ein gesicherter Inhaberwechsel noch eine aktuelle Annahmestelle. Ankauf/Verkauf/Gebühren und Preise bleiben unbelegt; `status: pruefung`. Quellen: https://www.gelbeseiten.de/gsbiz/b33809c0-588b-4988-89dd-64d2329408b4 ; https://malente.stadtbranchenbuch.com/F/firmenverzeichnis.html ; https://www.schrottplatz.org/malente/funke-2379728.html.]

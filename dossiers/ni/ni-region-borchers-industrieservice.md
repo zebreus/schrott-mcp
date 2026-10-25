@@ -29,6 +29,10 @@ Dieses Dossier ist eine Dublette des Verden-Eintrags `ni-verden-borchers-industr
 
 ## Timeline
 
+### Recherche 25.10.2026: Dublette erneut abgeglichen
+
+- [Recherche 25.10.2026: Betreiber-Impressum und Leistungsseite erneut direkt gelesen. Der Auftritt benennt weiterhin Iliyana Borchers als Einzelunternehmerin mit Standort Zum Hutberger Graben 2, 27283 Verden, und beschreibt industrielle Maschinendemontage/-montage, Rückbau, Brennschneiden und Verwertung/Entsorgung. Kein zusätzlicher Regionsstandort ausgewiesen; dieser Slug bleibt eine Dublette des Verden-Dossiers. **Ankauf:** keine numerische Schrott-/Metallpreisliste, nur allgemeine „faire Preise“ und projektbezogene Verwertung. **Verkauf:** keine Produktpreisliste. **Gebühren:** Demontage/Rückbau projektbezogen, keine Tarife. Keine Felder ergänzt; `Region` nicht geokodieren. Quellen: https://www.borchersindustrieservice.com/impressum ; https://www.borchersindustrieservice.com/leistungen .]
+
 ### Recherche 01.10.2026
 
 - [Feedback-Triage 01.10.2026 (ID 2432): Ort 'Region' als falsch bestätigt — Betreiber-Impressum + Kontakt + Leistungen nennen einheitlich Iliyana Borchers, Zum Hutberger Graben 2, 27283 Verden (Aller), Tel. 04231 9850940 / 0173 6026888, iliyanaborchers@yahoo.de, USt-Id DE305103038. Dublette zu ni-verden-borchers-industrieservice bestätigt (identischer Betreiber/Website). Kein HRB (Einzelunternehmen) → keine Owner-Ausnahme, kein unabhängiger Zweitbeleg (XING-Profil Klaus Borchers/Verden = betreibernahe, keine Evidenz) → Adressfelder bleiben leer, kein Phantom-Fill; Zeile bleibt pruefung als Dubletten-Vermerk (keine Löschung). Namensvetter-Probe: andere 'Borchers'-HR-Firmen (Transportlogistik NordWest, Hochbau Apen) sind fremde Unternehmen, keine Verwechslung. website_status aktiv (eigener Live-Abruf). Quelle(n): https://www.borchersindustrieservice.com/impressum, https://www.borchersindustrieservice.com/contact-3 (eine Quelle, Abruf 01.10.2026).]

@@ -32,6 +32,10 @@ Der Betreiberauftritt firmiert als **Firma Wagner**, vertreten durch Annegret Wa
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Betreiber-Impressum, Leistungs- und Containerseiten erneut direkt geprüft. Das Impressum nennt Firma Wagner, vertreten durch Annegret Wagner, Fasanenweg 2, 74842 Billigheim; den Lagerkontakt führt es als Bahnhofstr. 8/3, während Footer/Leistungsdarstellung teils Bahnhofstr. 8 verwenden. Die Website nennt Wertstoffhof-Anlieferung Mo–Fr 09:00–16:00, aber ordnet den Hof nicht zweifelsfrei der bestehenden Seedadresse oder „Uwe“ zu. Damit bleiben Identitätskette, Hausnummer und öffentliche Kundenzufahrt offen; kein Frontmatter-Overwrite/GEO. ANKAUF: keine Kurse; VERKAUF: keine Materialpreisliste; GEBÜHREN: Containergrößen 10–40 m³/5–12 m³, aber keine Miet-, Transport- oder Entsorgungstarife. Quellen: https://www.schrott-wagner.de/impressum.html ; https://www.schrott-wagner.de/leistungen.html ; https://www.schrott-wagner.de/container.html.]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Betreiberseiten „Container“ und „Leistungen“ direkt erneut gelesen: dort stehen Abrollcontainer 10–40 m³ und Absetzcontainer 5–12 m³, Anlieferungen am Wertstoffhof Mo–Fr 09:00–16:00 sowie getrennte Kontaktblöcke „Firma Wagner“ (Fasanenweg 2/74842 Billigheim) und „Lager“ (Bahnhofstr. 8/74821 Neckarelz, 06261 62293). Die Seite nennt Schrott, Metalle, Späne, Bleche, Papier, Aluminium-/VA-Abfälle und Kabelreste zur Wiederverwertung, jedoch keine Annahme aller Abfallarten. Der aktuelle Auftritt lässt die Abweichung zur älteren 8/3-Angabe und die Frage offen, ob der Lagerstandort der öffentliche Hof ist; die „Uwe“-Seedidentität bleibt unaufgelöst. ANKAUF: keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Container-, Transport- oder Entsorgungstarife veröffentlicht (Containergrößen sind keine Preise). Quellen: https://www.schrott-wagner.de/container.html ; https://www.schrott-wagner.de/leistungen.html ; https://www.schrott-wagner.de/impressum.html.]

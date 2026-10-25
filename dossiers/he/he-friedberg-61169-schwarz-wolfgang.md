@@ -30,6 +30,10 @@ Wolfgang Schwarz Schrott-/Metallhandel bleibt nur aus Verzeichnisquellen dokumen
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neuer Branchenportal-Treffer von Vorstadt-Post nennt Wolfgang Schwarz Schrott- und Metallhandel an Am Ringgraben 1, 61169 Friedberg, Tel. 06031 2384 und E-Mail w.schwarz1958@gmx.de. Das ist ein Portal-/Branchenbucheintrag, kein Betreiber- oder Registerbeleg und damit keine unabhängige Bestätigung der bestehenden Lead-Daten; E-Mail nicht ins Frontmatter übernommen. **ANKAUF:** keine identitätsgesicherten Kurse; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Tarife belegt. Identität, fortbestehender Betrieb und aktuelle Annahmestelle vor GEO bestätigen. Quelle (Lead): https://vorstadt-post.de/branchenbuch/friedberg/schrotthandel/wolfgang-schwarz-schrott-und-metallhandel-4955/ .]
+
 ### Recherche 16.10.2026 (Shard 2)
 
 - [Recherche 16.10.2026: Eigenständige Websuche Wolfgang Schwarz Schrotthandel Friedberg Ringgraben ergab keine passende qualifizierte Quelle; zahlreiche namensgleiche Personen nicht zugerechnet. NorthData-Suche erneut direkt versucht, HTTP 429; das ist kein fehlender Registereintrag und kein Schließungsbeleg. Alte Am-Ringgraben-/Telefonwerte bleiben unbestätigte Verzeichnisspur; keine Fills. ANKAUF/VERKAUF/GEBÜHREN weiterhin keine identitätsgesicherte Liste. GEO erst nach Gewerbe-/Betreiberbestätigung, heutige Annahme und Abholung offen. Quelle/Abrufgrenze: https://www.northdata.de/?query=Schwarz%20Wolfgang%20Friedberg.]

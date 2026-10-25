@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seedname „Kaiser“ ist keinem aktuellen Schrottbetrieb in Adelsdorf zugeordnet. Die kommunale Ortsplan-Suche führt „Kaiser Erdarbeiten“ in Uttstadt 4, aber als Erdarbeitenbetrieb, sowie AME Cavalera Wertstoffhof in der Industriestraße 27a unter einem anderen Betreiber. Keiner der beiden Treffer wird als Zielbetrieb übernommen. Die frühere Portalspur Industriestr. 23/09195 9989949 ist nicht reproduziert; keine sichere Adresse, Telefonnummer oder aktuelle Annahme belegt. Status `pruefung` bleibt.
+
+**ANKAUF:** kein bestätigter Betrieb oder Preis. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Zieltarife. Betreiberidentität und Standort müssen vor Geokodierung geklärt werden.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Amtlichen Adelsdorfer Ortsplan erneut als Identitätsgegenprobe genutzt. Er führt „Kaiser Erdarbeiten“, Uttstadt 4, 91325 Adelsdorf, 09195 72 60 (Erdarbeiten, kein Schrottnachweis) sowie AME Cavalera Wertstoffhof, Industriestraße 27a, 91325 Adelsdorf, Betreiber Maurizio Cavalera, 01520 6522142. Beide Einträge sind andere Tätigkeiten/Betreiber und werden ausdrücklich nicht auf den Seed „Kaiser“ übertragen. Der alte Industriestr.-23-Lead bleibt unreproduziert; keine Frontmatter-Füllung und kein GEO. ANKAUF/VERKAUF/GEBÜHREN: keine verifizierten Zielpreise oder Tarife. Quelle: https://www.adelsdorf.de/ortsplan .]
 
 ### Recherche 02.10.2026
 

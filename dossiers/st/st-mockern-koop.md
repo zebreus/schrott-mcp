@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das offizielle Branchenverzeichnis der Stadt Möckern führt „R. Koop“ als Autoverwertung in der Loburger Str. 10, 39291 Möckern, mit Telefon 039221 5866; die Kategorieseite nennt zusätzlich rolandkoop@aol.com. Das bleibt ein einzelner kommunaler Verzeichniseintrag: voller Betreibername, Rechtsträger, heutige Kundenannahme und Bedingungen sind nicht belegt. Die vorhandenen Adress-/Telefonfelder wurden nicht neu befüllt; E-Mail bleibt wegen des Einzelbelegs leer.
+
+**Ankauf:** keine bestätigten Fahrzeug- oder Metallankaufspreise. **Verkauf:** keine Teile-/Fahrzeugpreisliste. **Gebühren:** keine Verwertungs- oder Abholtarife. **GEO:** Adresse ist ein kommunal gelisteter Kandidat, aber Kundenannahmestelle und konkreter Kartenpunkt sind nicht unabhängig bestätigt; keine Koordinaten.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Das offizielle Branchenverzeichnis der Stadt Möckern erneut direkt geprüft. Die Visitenkarte nennt „R. Koop“, Loburger Str. 10, 39291 Möckern und 039221 5866; die Kategorie-Seite „Autoverwertung“ führt dieselbe Zuordnung und rolandkoop@aol.com. Das ist eine kommunale Verzeichnisquelle, aber kein vollständiger Betreiber-/Registerbeleg und keine Bestätigung einer aktuellen Annahmestelle. Keine unabhängige zweite Preisquelle gefunden. ANKAUF: keine numerischen Fahrzeug-/Schrottkurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Keine GEO-Koordinate gesetzt. Quellen: https://www.moeckern-flaeming.de/verzeichnis/visitenkarte.php?mandat=22141 ; https://www.moeckern-flaeming.de/verzeichnis/index.php?kategorie=268.]
 
 ### Recherche 04.10.2026
 

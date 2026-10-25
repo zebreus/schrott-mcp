@@ -28,6 +28,10 @@ Die Betreiberseite nennt Karsten Hänsel, Hauptstraße 45, OT Ehrenberg, 01848 H
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Betreiber-Leistungsseite und Impressum erneut geprüft. Die Website nennt weiterhin Karsten Hänsel, Hauptstraße 45, OT Ehrenberg, 01848 Hohnstein, und Leistungen für Altfahrzeuge/Unfallwagen, Fahrzeugankauf auf individuelles Angebot sowie Verkauf von Neu-/Gebrauchtteilen und Reifen. Das bleibt ein Betreiber-Einzelbeleg ohne unabhängige Register-/Standortbestätigung; deshalb keine Adresse, Telefonnummer oder E-Mail ins Frontmatter übernommen und kein GEO. ANKAUF: individuelles Angebot, keine festen Fahrzeug-/Metallpreise. VERKAUF: keine Teile-/Reifenpreisliste. GEBÜHREN: keine belegten Abhol-/Verwertungstarife; Abholung ist keine Gratiszusage. Quellen: https://www.autoteile-haensel.de/autoverwertung.html?modules=content&cid=5 ; https://www.autoteile-haensel.de/impressum.html.]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Die Betreiberseite und ihr Impressum nennen Karsten Hänsel, Hauptstraße 45, OT Ehrenberg, 01848 Hohnstein, Telefon 035975 8498 0 und 0171 7359685. Die Leistungsseite beschreibt die Behandlung von Altfahrzeugen/Unfallfahrzeugen, den An- und Verkauf von Unfallwagen, Neu-/Gebrauchtteile und Reifen; für ein Fahrzeug wird ein individuelles Ankaufangebot angekündigt. Das ist ein aktueller Betreiber-Einzelbeleg, aber weder unabhängiger Rechtsträger-/Filialbeleg noch numerische Preisliste. ANKAUF: keine festen Fahrzeug- oder Teile-Ankaufpreise; Fahrzeugangebot nur individuell. VERKAUF: keine Teile-/Reifenpreisliste. GEBÜHREN: keine belegten Abhol-, Verwertungs- oder Entsorgungstarife; „Abholung angeboten“ bedeutet nicht kostenlos. GEO bleibt ohne geprüften Annahmepunkt. Quellen (Abruf 12.10.2026): https://www.autoteile-haensel.de/autoverwertung.html?modules=content&cid=5 ; https://www.autoteile-haensel.de/impressum.html.]

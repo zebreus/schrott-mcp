@@ -30,6 +30,10 @@ Kieffer bleibt ein Identitäts- und Leistungsklärfall. Das direkt gelesene Gelb
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Gelbe-Seiten-Detail erneut direkt gelesen. Der Eintrag „Kieffer Containerdienst“ nennt Brückwiesenstr. 11, 76889 Kapellen-Drusweiler und 06343 93008; Leistungsrubriken umfassen Containerdienst, Baggerbetrieb, Bauschutt, Schrott und Schüttgüter. Kein Betreiber-/Registerbeleg, keine konkrete Annahme- oder Ankaufbedingung; der Konflikt mit der separaten Michael-Kieffer-Spur bleibt offen. ANKAUF: keine Vergütungsangabe; VERKAUF: keine Preisangabe für Schüttgüter; GEBÜHREN: keine Container-/Entsorgungstarife. Adresse bleibt Verzeichnislead, keine GEO. Quelle: https://www.gelbeseiten.de/gsbiz/aac92f7c-1cbc-4da8-ae43-087d0b2e8682.]
+
 ### Recherche 17.10.2026 — Welle 2100 C
 
 - [Recherche 17.10.2026: Gelbe-Seiten-Detail direkt gelesen: Brückwiesenstr. 11, 76889 Kapellen-Drusweiler, 06343 93008, Containerdienste; Leistungsumfang u.a. Baggerbetrieb, Bauschutt, Schrott und Schüttgüter. Kein lesbarer Betreiberlink/Impressum daraus gewonnen. Breite Kategorien belegen weder Metallankauf mit Auszahlung noch Verkauf von Schüttgütern oder deren Preise. Frühere Sellwerk-Abweichung wird durch einen weiteren Portalabruf nicht gelöst. ANKAUF: keine Konditionen/Zahlen; VERKAUF: keine Zahlen; GEBÜHREN: keine Tarife. Gewerbeauskunft zu vollständigem Inhaber und Anschrift sowie aktuelle Annahmebestätigung nötig; keine Fills/GEO. Quelle: https://www.gelbeseiten.de/gsbiz/aac92f7c-1cbc-4da8-ae43-087d0b2e8682 .]

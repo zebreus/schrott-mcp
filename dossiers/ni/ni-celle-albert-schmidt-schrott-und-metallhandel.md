@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Albert Schmidt Schrott- und Metallhandel“ ist weiter nur über widersprüchliche Verzeichnis- und Kleinanzeigenangaben auffindbar. Gelbe Seiten/Cylex führen Immenweg 25, 29227 Celle und 0170 3121935; ältere Kleinanzeigen-Angaben weichen bei PLZ/E-Mail ab. Kein Betreiberauftritt, Register- oder aktueller Annahmenachweis; der bisherige `aktiv`-Wert war nicht aktuell belegt und ist auf `pruefung` korrigiert. **Ankauf:** unbestätigt, keine Zahlen; **Verkauf:** keine Liste; **Gebühren:** keine Angaben.
+„Albert Schmidt Schrott- und Metallhandel“ ist weiter nur über widersprüchliche Verzeichnis- und Kleinanzeigenangaben auffindbar. Der direkt gelesene Gelbe-Seiten-Eintrag nennt Immenweg 25, 29227 Celle-Westercelle, 05141 880644 und 0170 3121935; ältere Kleinanzeigen-Angaben weichen bei PLZ/E-Mail ab. Auch ein weiterer Direktabruf von Cylex war nicht möglich (403). Kein Betreiberauftritt, Register- oder aktueller Annahmenachweis; der bisherige `aktiv`-Wert war nicht aktuell belegt und ist auf `pruefung` korrigiert. **Ankauf:** unbestätigt, keine Zahlen; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Adresse bleibt ungeprüfter Verzeichnis-Lead und nicht geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026: aktueller Verzeichnisstand, kein Betreiberbeleg
+
+- [Recherche 25.10.2026: Gelbe-Seiten-Detailseite direkt gelesen: „A. Schmidt Schrott und Metallhandel“, Immenweg 25, 29227 Celle-Westercelle, 05141 880644 und 0170 3121935; aufgeführte Leistungsbegriffe sind Containerstellung, Entsorgung, Metallhandel und Recycling. Das bleibt ein editierbarer Branchenverzeichniseintrag und bestätigt weder den Betreiber noch aktuelle Schrottannahme. Der direkte Cylex-Aufruf wurde mit HTTP 403 blockiert; keine aktuelle Cylex-Seiteninhalte behauptet. Damit bleiben Adress-/Telefonvarianten ungeklärt, keine Stammdatenänderung und kein GEO. **Ankauf:** keine bestätigten Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quelle (Aggregatorlead): https://www.gelbeseiten.de/gsbiz/29c1cab9-7e41-4788-a004-585507f0ea58 ; Gegenprüfung Cylex (403): https://web2.cylex.de/firma-home/albert-schmidt-schrott-und-metallhandel-13354823.html .]
 
 ### Recherche 12.10.2026
 

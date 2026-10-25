@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Lead „Schrott und Papierankauf Magdeburg“ ist als einzelnes 11880-Branchenprofil auffindbar: Liebknechtstr. 71, 39110 Magdeburg, Telefon 0177 7153425 und Kategorien Altmaterial-/Schrotthandel sowie Altpapierrecycling. Das Profil identifiziert keinen Betreiber oder Rechtsträger und ist kein unabhängiger Betriebsnachweis; Anschrift und Telefonnummer bleiben deshalb ungeprüfte Lead-Daten. Der Datensatz im Portal stammt laut Seite vom 29.06.2021, obwohl das Profil am 03.10.2026 aktualisiert wurde.
+
+**Ankauf:** keine konkreten Materialkurse oder Bedingungen. **Verkauf:** keine Papier-/Metallpreisliste. **Gebühren:** keine Annahme-, Abhol- oder Entsorgungstarife. **GEO:** Hausnummer und tatsächliche Annahmestelle nicht unabhängig bestätigt; nicht geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Das 11880-Detailprofil direkt geprüft. Es führt Liebknechtstr. 71, 39110 Magdeburg, 0177 7153425 und Kategorien Altmaterialhandel/Schrotthandel/Altpapierrecycling; als Datenstand wird 29.06.2021, als Aktualisierung 03.10.2026 angezeigt. Eintrag bleibt Aggregator-Lead ohne Betreiber-/Registeridentität, eigene Website, Öffnungszeiten oder Annahmebedingungen. Postleitzahl daher nicht in Frontmatter ergänzt. ANKAUF: keine Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Keine Geokodierung. Quelle: https://www.11880.com/branchenbuch/magdeburg/120674719B102714993/schrott-und-papierankauf-magdeburg.html.]
 
 ### Recherche 05.10.2026
 

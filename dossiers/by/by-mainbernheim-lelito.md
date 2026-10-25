@@ -28,6 +28,10 @@ provenance_origin: prose
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Aktueller 11880-Suchindex führt Lelito Niclas, Badgasse 22, 97350 Mainbernheim, Mobil 01514 1831313; der Snippet-Status „Geschlossen“ ist als Portal-Öffnungsstatus nicht als dauerhafte Betriebsaufgabe zu lesen. Er bleibt im Konflikt mit dem Gelbe-Seiten-Festnetz 09323 8778981; keine Betreiber-/Registerbestätigung und kein Beleg, welcher Kontakt aktuell ist. Keine Frontmatter-Änderung. **ANKAUF:** keine belastbare Preisliste oder Auszahlungsbedingungen; eine ältere Bewertung „ein paar Euro“ ist kein Kurs. **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Identität/Anschrift vor GEO bestätigen. Quelle (Portal-Lead): https://www.11880.com/branchenbuch/mainbernheim/060440090B106659498/lelito-niclas-schrott-und-metallhandel.html .]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Neuer Telefonnummern-Abgleich über drei einzeln live gelesene Details: Gelbe Seiten führt zwei unterschiedliche Eintrags-IDs desselben Namens; einer nennt 97350 Mainbernheim und 09323 8778981, der zweite 0151 41831313 ohne Anschrift. 11880 nennt Badgasse 22, 97350 Mainbernheim, Mobil 01514 1831313 und E-Mail-Lead n.lelito@gmx.de; angegeben sind Mo-Fr 07-18, Sa 09-13, Eintragsdaten 03.03.2025 bei Portal-Aktualisierung 03.10.2026. Festnetz und Mobil können nebeneinander bestehen, ihre Unterschiedlichkeit beweist keinen Widerspruch oder Betreiberwechsel. Alle Angaben bleiben Aggregator-Leads, zwei IDs desselben Verlags sind insbesondere keine unabhängigen Quellen. Telefonnummer nicht überschrieben, Straße/Mail/Zeiten nicht gefüllt; Quelle(n): https://www.gelbeseiten.de/gsbiz/2bb4e6dc-5263-4846-97ab-8abbf416c6ad; https://www.gelbeseiten.de/gsbiz/859ba5d2-b801-4192-81b4-2cd800257882; https://www.11880.com/branchenbuch/mainbernheim/060440090B106659498/lelito-niclas-schrott-und-metallhandel.html]

@@ -4,9 +4,9 @@ name: GVM Schrott- & Altmetallhandel
 trader_type: schrottplatz
 state: MV
 city: Grevesmühlen
-street: ''
-postcode: ''
-phone: ''
+street: Grüner Weg 11
+postcode: '23936'
+phone: 03881 7583913
 email: ''
 opening_hours: ''
 website: https://www.gvm-schrott.de
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt beschreibt Schrott-/Altmetallannahme für private Kleinlieferanten und Gewerbe, zwei geeichte Waagen sowie Container in 4,3, 6,5 und 8,6 m³, deren Austausch/Abholung nach Vereinbarung erfolgt. Für Container nennt die Seite 10–15 m Lkw-Zufahrt, 4 m Durchfahrtsbreite/-höhe und Befüllung nur bis zum Rand; öffentliche Aufstellung erfordert eine kommunale Erlaubnis. Das Impressum nennt Einzelinhaber Björn Makarewicz und Grüner Weg 11, 23936 Grevesmühlen; wegen des dokumentierten Einzelunternehmer-Beleg-Gates bleiben Adresse/Kontakt in der Timeline statt Frontmatter. Es gibt keine veröffentlichte Materialpreisliste; Containerangebot auf Anfrage.
+Der Betreiberauftritt beschreibt Schrott-/Altmetallannahme für private Kleinlieferanten und Gewerbe, zwei geeichte Waagen sowie Container in 4,3, 6,5 und 8,6 m³, deren Austausch/Abholung nach Vereinbarung erfolgt. Für Container nennt die Seite 10–15 m Lkw-Zufahrt, 4 m Durchfahrtsbreite/-höhe und Befüllung nur bis zum Rand; öffentliche Aufstellung erfordert eine kommunale Erlaubnis. Betreiber-Impressum und Creditreform-Profil stützen unabhängig Björn Makarewicz/GVM und Grüner Weg 11, 23936 Grevesmühlen sowie die Festnetznummer 03881 7583913; deshalb sind Straße, PLZ und Festnetz jetzt in Frontmatter übernommen. Die Website nennt zusätzlich Mobil 0162 2459715. Es gibt keine veröffentlichte Materialpreisliste; Containerangebot auf Anfrage.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neue unabhängige Gegenquelle zum Betreiber-Impressum: Creditreform-Profil führt Björn Edgar Makarewicz/GVM Schrott und Altmetall, Grüner Weg 11, 23936 Grevesmühlen, 03881 7583913, nicht gefährliche Abfallsammlung und „wirtschaftsaktiv“. Das Profil war im Direktabruf nicht zugänglich (403); die genannten Profilangaben waren im Suchindex sichtbar. Zusammen mit der direkt lesbaren Betreiberseite stützt dies jetzt den Frontmatter-Fill für Straße, PLZ und Festnetznummer; keine E-Mail-/Öffnungszeiten-Übernahme. Betreiberseite beschreibt Annahme für Privat-/Gewerbekunden und Container nach Absprache. ANKAUF: keine Zahlenkurse; VERKAUF: keine Verkaufspreisliste; GEBÜHREN: Container nur auf Anfrage, kein veröffentlichter GVM-Tarif; kommunale Sondernutzungsgebühr ist keine Händlergebühr. Adresse der Annahmestelle bestätigt, Einfahrt weiterhin exakt zu geokodieren. Quellen: https://www.gvm-schrott.de/kontakt-impressum/ ; https://www.gvm-schrott.de/ ; https://firmeneintrag.creditreform.de/23936/3330312079/BJOERN_EDGAR_MAKAREWICZ_GVM_SCHROTT_UND_ALTMETALL .]
 
 ### Quellenprüfung 24.10.2026
 

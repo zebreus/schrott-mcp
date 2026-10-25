@@ -34,6 +34,10 @@ Neu gefunden: Eigenwerbung „M.Hess Schrotthandel“ in einer Kusel-Altenglan-B
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Die schrottplatz-info-Detailseite erneut direkt geprüft. Sie führt weiterhin Hoffeldstr. 14, 66885 Altenglan-Mühlbach und 06381 9205535; das ist unverändert ein Verzeichnislead, während der Seed-/Portalwert Potzbergstr. 1 lautet. Die undatierte Kusel-Altenglan-Broschürenanzeige „M.Hess Schrotthandel“ belegt Mobilnummer und Entsorgungswerbung, aber keine Straße oder aktuelle Kundenannahme. Identität/aktuelle Adresse bleiben offen. ANKAUF: keine Vergütungskurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine GEO-Koordinate für eine der konkurrierenden Adressen. Quelle: https://www.schrottplatz-info.de/schrottplatz/Altenglan/Hess-Michael-Schrotthandel.]
+
 ### Recherche 16.10.2026 (13:00-Welle C)
 
 - [Recherche 16.10.2026: Eigenständige Suche findet erstmals M.Hess-Werbeeintrag auf S. 62 der „Image & Tourismus Broschüre Kusel-Altenglan“; Seite direkt gelesen: „M.Hess Schrotthandel“, 0177 7714091, MichaelHess72@web.de, Entsorgung von Schrott/Metall/Altfahrzeugen sowie Entrümpelungen/Haushaltsauflösungen. Kontaktdaten passen zu alten Portal-Leads; Eigenwerbung in Drittmedium mit unbekanntem Publikationsdatum, keine aktuelle Standortbestätigung und keine unabhängige zweite Identitätsquelle. Unmittelbar folgende Bahnhofstr. 58/Tel. 06381 5529 ist Drees-Bauanzeige, keinesfalls Hess-Adresse. Frontmatter unverändert; nicht mit Hess Entsorgung in Deißlingen verbinden. ANKAUF: Entsorgungswerbung ohne Vergütung/Kurs; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. GEO: Potzbergstr. 1 versus Hoffeldstr. 14 weiterhin beim Betreiber/Gewerberegister auflösen. Quelle: https://www.findcity.de/images_flipbook/66869c/62 (Direktabruf); https://www.hess-entsorgung.de (nur Suchauszug, Fremdbetrieb).]

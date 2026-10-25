@@ -30,6 +30,10 @@ Die Seed-Zeile benennt Autoverwertung Kort GbR und den als GESA-Demontagebetrieb
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Gegenprobe zur strittigen Anschrift Crivitzer Chaussee 5 ergab aktuelle Impressen anderer, nicht zu Kort zugeordneter Organisationen: TentDeluxe Renting GmbH (Kobande, HRB 14015), TentDeluxe OHG und VDCU nennen dieselbe Anschrift in 19089 Kobande. Das ist kein Beleg gegen Kort und keine Betreiber-/Nachfolgekette, zeigt aber, dass Straßenadresse und Ortsteil nicht exklusiv aus Verzeichnis-Leads auf Kort übertragen werden dürfen. Keine Änderung an den historischen Lead-Feldern; frühere Domain weiterhin nicht als Betreiberquelle verfügbar. ANKAUF: keine Fahrzeug-/Schrottpreise; VERKAUF: keine Teileliste; GEBÜHREN: keine belegten Annahme-/Abhol-/Entsorgungskosten. Identität, aktuelle Betriebsstätte und Demen/Kobande-Zuordnung vor Geokodierung klären. Quellen: https://www.tentdeluxe.com/impressum.html ; https://www.circuspalast.de/impressum.html ; https://www.vdcu-ev.de/impressum.html .]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Erneuter Direktabruf von https://kort-autoverwertung.de/ endete mit Transportfehler; daraus folgt weder Nichtexistenz noch Schließung. Keine neue Betreiber-/Registerquelle und kein auswertbarer Datensatz im Fachbetrieberegister erschlossen; der vorhandene Standortkonflikt Demen/Kobande und die GESA-Anwendungsgrenze bleiben offen. Keine Frontmatter-Änderung oder GEO-Freigabe. **ANKAUF:** kein veröffentlichter Fahrzeug-/Schrottpreis; **VERKAUF:** keine Teilepreisliste; **GEBÜHREN:** keine verifizierten Annahme-, Abhol-, Abmelde- oder Entsorgungstarife und keine kostenlose Rücknahmezusage. Quellen/Abrufgrenzen: https://kort-autoverwertung.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]

@@ -30,6 +30,10 @@ Die Portale unterscheiden inzwischen erkennbar **„Büro“** (Wernesgrüner St
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Schrottplatz.org-Profil erneut direkt geprüft. Es trennt weiterhin ein „Büro“ in Wernesgrüner Straße 29 von einem nahegelegenen „Platz“ an Röthenbacher Straße 2; die Portalansicht belegt nicht, dass beide aktuell zu Rita/Joachim Rau gehören. Kein Betreiber-, Register- oder aktueller kommunaler Beleg zur Identität/Annahme gewonnen. **Ankauf:** keine Kurse; **Verkauf:** keine Kompost-/Materialpreisliste; **Gebühren:** keine Grünabfall- oder Containergebühren. Büro nicht als Annahmestelle geocodieren; der Platz bleibt ungeprüft. Quelle (Aggregator): https://www.schrottplatz.org/rodewisch/rita-rau-und-joachim-rau-4855046.html.]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Schrottplatz.org-Profil des „Büros“ direkt gelesen: Wernesgrüner Str. 29, Telefon 03744 33670, Fax 03744 33671; dieselbe Seite führt den „Platz“ an Röthenbacher Str. 2 als separaten nahen Schrottplatz-Eintrag. Das ist ein gemeinsamer Portal-/Verzeichniskontext, kein Betreiber- oder Registerbeleg und bestätigt weder Inhaber noch aktuellen Betrieb oder Büro-Platz-Zusammenhang. Die widersprüchlichen Telefonnummern/Adressen bleiben ungeklärt. **Ankauf:** kein Kurs; **Verkauf:** keine Kompost- oder Materialpreisliste; **Gebühren:** keine Grünabfall- oder Containergebühr belegt. Keine Frontmatter- oder GEO-Änderung. Quelle (Aggregator-Lead): https://www.schrottplatz.org/rodewisch/rita-rau-und-joachim-rau-4855046.html]

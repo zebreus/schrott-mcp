@@ -30,6 +30,10 @@ Nur ein nicht verifizierter Verzeichnis-Lead: Cylex-Suchtreffer nennt Graudenzer
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Cylex-Detailseite erneut direkt abgerufen (weiter HTTP 403); eine gezielte DuckDuckGo-Suche nach dem exakten Namen „Schrott- und Altmetallhandel Nikolic“ und Hamburg lieferte keine verwertbaren Treffer. Die frühere Suchsnippet-Angabe Graudenzer Weg 10, 22049 Hamburg, 0176 81237816 und 24-Stunden-Betrieb bleibt unbestätigter Lead. Blockierter Abruf und leere Suche sind kein Nichtexistenz- oder Schließungsbeleg. Betreiber-/Registeridentität und Standort ungeklärt; keine Frontmatter-Füllung/GEO. ANKAUF: keine bestätigten Preise; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen/Recherche: https://web2.cylex.de/firma-home/schrott-und-altmetallhandel-nikolic-16663123.html (403) ; https://html.duckduckgo.com/html/?q=%22Schrott-+und+Altmetallhandel+Nikolic%22+Hamburg.]
+
 ### Korrektur 07.10.2026
 
 - [Korrektur 07.10.2026: `status` aktiv → pruefung. Der im Dossier dokumentierte Aktenstand enthält keinen Betreiber-/Registerbeleg; der konkrete Cylex-Eintrag ist nur ein Aggregator-Lead und war direkt nicht zugänglich (403). Damit ist `aktiv` nicht belegt; kein Schließungsbeleg, Telefonnummer/Adresse und behauptete 24-Stunden-Angabe bleiben ungeprüft. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren. Quelle(n): https://web2.cylex.de/firma-home/schrott-und-altmetallhandel-nikolic-16663123.html; https://www.northdata.de/Nikolic,+Hamburg; README.md, Source hierarchy.]
