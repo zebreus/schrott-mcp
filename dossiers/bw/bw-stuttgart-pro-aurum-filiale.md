@@ -7,8 +7,8 @@ city: Stuttgart
 street: Heusteigstraße 28
 postcode: '70180'
 phone: +49 711 664 742-0
-email: ''
-opening_hours: ''
+email: stuttgart@proaurum.de
+opening_hours: Mo,Di,Do,Fr 09:30-13:00/14:00-18:00; Mi 09:30-14:00; Sa an veröffentlichten Terminen 09:30-14:00
 website: https://www.proaurum.de/
 website_status: aktiv
 status: aktiv
@@ -27,6 +27,10 @@ provenance_origin: feedback
 Öffentliche Filiale im Heusteigviertel. Die Betreiberseite nennt An- und Verkauf, Altgoldankauf und Edelmetalldepot.
 
 ## Timeline
+
+### Owner-Prüfung 25.10.2026
+
+- [Korrektur 25.10.2026: Die aktuelle Betreiber-Detailseite der Filiale Stuttgart nennt die E-Mail-Adresse stuttgart@proaurum.de und Öffnungszeiten Mo, Di, Do, Fr 09:30-13:00 und 14:00-18:00 sowie Mi 09:30-14:00. Samstags 09:30-14:00 nur an veröffentlichten verkaufsoffenen Terminen; die Seite listet als nächste Termine 14.11.2026 und 19.12.2026. Öffnungszeiten und Kontakt ergänzt; Anschrift, Telefon, Status und Annahmefelder bleiben unverändert. Quelle: https://www.proaurum.de/unternehmen/standorte/stuttgart/ (Abruf 25.10.2026)]
 
 ### Recherche 12.10.2026 (Feedback-Triage IDs 5123/5730/6351)
 
