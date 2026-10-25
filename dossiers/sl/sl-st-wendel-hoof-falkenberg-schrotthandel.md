@@ -1,5 +1,6 @@
 ---
 slug: sl-st-wendel-hoof-falkenberg-schrotthandel
+clear_fields: 'geo'
 name: Falkenberg Schrotthandel
 trader_type: schrotthaendler
 state: SL
@@ -27,6 +28,10 @@ provenance_origin: table
 Falkenberg Schrotthandel ist nur über Verzeichnisse greifbar: Nebenhügel 2, 66606 St. Wendel-Hoof und 06856 892882 stehen dort übereinstimmend; Das Örtliche listet daneben einen Eintrag ohne Namen mit derselben Anschrift/Fax. Es fehlen Betreiber-, Register- oder kommunaler Gewerbebeleg und eine belastbare aktuelle Annahmebestätigung. Deshalb Status `pruefung` statt `aktiv`; keine Schließung behauptet. **Ankauf:** „Schrott“ ist nur Branchenklassifikation, keine bestätigte Vergütung/Preisliste. **Verkauf/Gebühren:** keine Listen gefunden. **GEO:** Adresse noch Lead; keine Koordinaten freigegeben.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.4663, 7.1681. Nominatim-Reverse löst den Punkt an Parkstraße 5 in St. Wendel auf, nicht am Lead Nebenhügel 2 im Ortsteil Hoof. `clear_fields: 'geo'` entzieht den stadtteilfalschen Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate, bis Betreiber und tatsächlicher Standort unabhängig bestätigt sind. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.4663&lon=7.1681&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 20.10.2026 — Statuskorrektur
 

@@ -1,5 +1,6 @@
 ---
 slug: by-amorbach-63916-eckstein-ricardo-schrotthandel-u-lehmann
+clear_fields: 'geo'
 name: Eckstein Ricardo Schrotthandel u. Lehmann Antonia
 trader_type: schrotthaendler
 state: BY
@@ -29,6 +30,10 @@ Unbestätigter Doppelname aus Schrottplatz-Portalen: Eckstein Ricardo Schrotthan
 **Ankauf:** Vergütung und Kurse offen. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. **GEO:** erst aktuelle Gewerbeidentität und Funktion der Adresse bestätigen; benachbartes Wild-Metall ist keine Nachfolgeinformation.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.6444, 9.2218. Nominatim-Reverse löst den Punkt am Finanzamt-Nebengebäude/Alte Schule in Amorbach auf; das ist nicht die einzige bekannte Adressspur Amorsbrunner Str. 5C und belegt keinen Händlerstandort. `clear_fields: 'geo'` entzieht den nicht belegten Punkt beim nächsten regulären Seed. Keine Ersatzkoordinate ohne Betreiber-/Annahmestellenklärung. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.6444&lon=9.2218&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 19.10.2026: Welle 03:30 / Shard a
 

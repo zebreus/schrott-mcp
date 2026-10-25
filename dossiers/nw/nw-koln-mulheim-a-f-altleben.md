@@ -1,5 +1,6 @@
 ---
 slug: nw-koln-mulheim-a-f-altleben
+clear_fields: 'geo'
 name: A.F. Altleben
 trader_type: schrotthaendler
 state: NW
@@ -26,7 +27,17 @@ provenance_origin: table
 
 **Schreibvarianten-/Identitätsklärfall:** Neben dem früheren Alsleben-Lead nennt die neue Exaktsuche ausdrücklich „A.F. Schrottabholung-Entrümpelung Altleben“, Frankfurter Str. 59, 51065 Köln, 0177 6822530 in mehreren Verzeichnissen. Das stärkt die konkrete Altleben-Spur, beweist aber weder einen Alias noch die Betreiberidentität. Die dort verlinkte Domain schrottabholung-ankauf.de gehört laut direkt gelesenem Impressum Karlos Prosche in Bochum mit anderer Telefonnummer, nicht einem belegten Kölner Altleben-Betrieb. Keine Umbenennung/Zusammenführung und keine Übernahme fremder Website oder Kostenloszusage. Kontakte/Adresse/Website bleiben leer; Preise Ankauf/Verkauf/Gebühren nicht zurechenbar. Owner: Altleben/Alsleben und heutige Gewerbeidentität vor Standort-/GEO-Freigabe klären.
 
+Die am 25.10. direkt gelesene 11880-Detailseite führt den Eintrag mit Datenstand 17.04.2026 und Aktualisierungsstempel 24.10.2026; sie nennt weiter keine Betreiberwebsite, Öffnungszeiten oder Preisangaben. **Ankauf:** nicht bestätigt, kein Kurs. **Verkauf:** keine Liste. **Gebühren:** weder Tarif noch verifizierte Gratisbedingung. Die Aktualisierung ist nur Portalstatus, kein Identitätsnachweis.
+
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.9403644, 6.9605778. Nominatim-Reverse löst den Punkt bei der Kölner Philharmonie in Altstadt-Nord auf, nicht in Köln-Mülheim an der im Verzeichnis genannten Frankfurter Straße. Betreiberidentität und tatsächlicher Standort bleiben ungeklärt; `clear_fields: 'geo'` entzieht den falschen Stadtmittelpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate geraten. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.94036444444445&lon=6.960577777777778&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: 11880-Eintragsdaten abgeglichen
+
+- [Recherche 25.10.2026: Die 11880-Detailseite direkt geöffnet. Sie führt „A.F. Schrottabholung-Entrümpelung Altleben“, Frankfurter Str. 59, 51065 Köln, und nennt Eintragsdaten vom 17.04.2026 sowie eine Aktualisierung am 24.10.2026. Die Aktualisierung ist ein Portalzeitstempel, kein Identitäts- oder Betreiberbeleg; die Seite nennt weiterhin keine Betreiberwebsite, Öffnungszeiten oder Preisangaben. Keine Stammdaten übernommen. Ankauf, Verkauf und Gebühren bleiben dem Seed nicht zurechenbar; GEO erst nach Identitätsklärung. Quelle (Verzeichnislead): https://www.11880.com/branchenbuch/koeln/060440092B113983984/a-f-schrottabholung-entruempelung-altleben.html .]
 
 ### Recherche 17.10.2026 — Welle 21:00 B
 

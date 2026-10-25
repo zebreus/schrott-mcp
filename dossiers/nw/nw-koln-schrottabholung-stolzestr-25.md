@@ -1,5 +1,6 @@
 ---
 slug: nw-koln-schrottabholung-stolzestr-25
+clear_fields: 'geo'
 name: Schrottabholung (Stolzestr. 25)
 trader_type: schrotthaendler
 state: NW
@@ -28,9 +29,17 @@ Zwei Verzeichnisse führen einen Kandidaten „Schrottabholung Köln“ an der S
 
 ## Timeline
 
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält denselben Punkt 50.9403644, 6.9605778 wie der separate Mülheimer Lead. Nominatim-Reverse löst ihn bei der Kölner Philharmonie in Altstadt-Nord auf, nicht an Stolzestr. 25 in 50674 Köln. `clear_fields: 'geo'` entzieht den punktfremden Altwert beim nächsten regulären Seed; die verlinkte Website ist ebenfalls nicht als Betreiberbeleg zugeordnet. Keine Ersatzkoordinate. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.94036444444445&lon=6.960577777777778&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
 ### Recherche 24.10.2026
 
 - [Recherche 24.10.2026: 11880-Detail direkt gelesen: „Schrottabholung Köln“, Stolzestr. 25, 50674 Köln, 01578 9805949, Eintragdaten 17.10./aktualisiert 23.10.2026. Die dort verknüpfte Domain schrottabholung-köln.de leitete beim Aufruf auf xn--schrottabholung-kln-66b.de um. Deren Impressum nennt A. Lahib, Homburger Str. 18, 50969 Köln und 01522 422 4277, also andere Anschrift und Nummer; Kontaktseite nennt ebenfalls 50969. Keine Identitäts-/Standortkette zur Stolzestr. 25 und keine Basis, diese Website als deren Betreiberquelle zu verwenden. Dortige Eigenwerbung zu kostenloser Abholung/vergüteten Metallen wird nicht dem Seed zugerechnet; für Stolzestr. 25 bleiben Ankauf, Verkauf und Gebühren unbestätigt. Ziel-Straße bleibt nur Verzeichnis-/Seedkandidat, kein GEO; Homburger Str. 18 ist allenfalls ein separater, nicht zugeordneter Kandidat. Quellen: https://www.11880.com/branchenbuch/koeln/060440092B113511664/schrottabholung-koeln.html ; https://xn--schrottabholung-kln-66b.de/impressum/ ; https://xn--schrottabholung-kln-66b.de/.]
+
+### Recherche 25.10.2026: Quellenkette erneut abgegrenzt
+
+- [Recherche 25.10.2026: 11880-Detailseite erneut direkt gelesen. Sie führt unverändert Stolzestr. 25, 50674 Köln, 01578 9805949 und verlinkt weiterhin schrottabholung-köln.de; dortige Eintragsdaten 17.10.2026, Portalaktualisierung 23.10.2026. Das Aktualisierungsdatum ist kein Betreiber-/Identitätsbeleg. Der Link führt weiter zu dem bereits abgegrenzten Auftritt mit Impressumsadresse Homburger Str. 18/50969 und anderer Nummer; keine Brücke zur Stolzestr. **Ankauf:** kein Zielkurs; **Verkauf:** keine Liste; **Gebühren:** keine dem Ziel zurechenbare Abhol-/Entsorgungsgebühr. Keine Kontakt-, Website- oder GEO-Übernahme. Quelle (Verzeichnislead): https://www.11880.com/branchenbuch/koeln/060440092B113511664/schrottabholung-koeln.html ; Gegenprobe: https://xn--schrottabholung-kln-66b.de/impressum/ .]
 
 ### Recherche 23.10.2026
 

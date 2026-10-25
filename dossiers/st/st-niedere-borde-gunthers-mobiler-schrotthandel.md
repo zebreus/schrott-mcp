@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Günthers mobiler Schrotthandel“ in der Niederen Börde ließ sich kein eindeutig zurechenbarer Betreiberauftritt, Registertreffer oder belastbarer Standort-/Kontaktbeleg ermitteln. Ein naheliegender Betreiberkandidat ist Metall-Rohstoff-Recycling Molkenthin: dessen eigene Website nennt Günther Fauter als Inhaber, einen Standort in Tangerhütte und Metallankauf. Sie nennt aber weder „Günthers mobiler Schrotthandel“ noch Niedere Börde/Meseberg; die Verbindung zum Seed und der abweichende Standort bleiben ungeklärt. Das ist kein Beweis, dass der mobile Anbieter nicht existiert. Das ausgewertete Schrottregister ist kein vollständiges Register mobiler Sammler.
+Für „Günthers mobiler Schrotthandel“ in der Niederen Börde ist die Betreiberkette noch nicht vollständig gesichert. MRR Molkenthin nennt auf der eigenen Website Inhaber Günther Fauter, Metallankauf und einen Hof in Tangerhütte. Ein Creditreform-Suchergebnis verknüpft „Günthers Mobiler Schrotthandel“ mit einem Einzelunternehmen „Günther Fauter Schrotthandel und Sortierung“ in Meseberg; die Detailseite war nicht lesbar. Das stützt einen möglichen Zusammenhang, bestätigt aber weder die Seed-Identität noch den heutigen Standort/Kundenzugang. Das ist kein Beweis, dass der mobile Anbieter nicht existiert; das Schrottregister ist kein vollständiges Register mobiler Sammler.
 
 **Preise:** ANKAUF: der Kandidat wirbt mit Ankauf gängiger Eisen- und Nichteisenmetalle sowie direkter Vergütung an der Barkasse, veröffentlicht aber keine Zahlenkurse; diese Aussage ist nicht dem Seed zugeordnet. VERKAUF: keine Metallverkaufspreise. GEBÜHREN: kostenloser Containerservice wird nur für Großmengen/Firmen beworben; sonst „günstiger“ Service ohne Tarif. Kein GEO für die unbestätigte Niedere-Börde-Adresse; die Tangerhütter Adresse nur bei bestätigter Betreiberkette geokodieren.
 
 ## Timeline
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Creditreform-Suchergebnis für „Günther Fauter Schrotthandel und Sortierung“ nennt 39326 Meseberg und beschreibt „Günthers Mobiler Schrotthandel“ als dort ansässiges Einzelunternehmen; Direktabruf der Firmenseite 403, daher nur Suchauszug/sekundärer Lead. Das passt zu den Seed-Ortsangaben und zum Vornamen des Inhabers von MRR Molkenthin, belegt aber noch keine Betreiberidentität oder aktuelle Annahmestelle. MRRs eigene Website nennt weiterhin Tangerhütter Chaussee 12, 39517 Tangerhütte, Ankauf gängiger Eisen-/Nichteisenmetalle an diesem Hof, Barkasse sowie kostenlosen Containerservice nur für Großmengen/Firmen; keine Zahlenkurse oder Containergebühr. Diese Konditionen bleiben dem MRR-Kandidaten vorbehalten. Keine Felder/Koordinaten übernommen; Meseberg bzw. Tangerhütte erst nach Bestätigung der Betreiberkette geokodieren. ANKAUF: für Seed keine bestätigten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine dem Seed zurechenbaren Tarife. Quellen: https://firmeneintrag.creditreform.de/39326/3170357344/GUENTHER_FAUTER_SCHROTTHANDEL_UND_SORTIERUNG (Suchergebnis, Direktabruf 403) ; https://www.mrr-fauter.de/ .]
 
 ### Recherche 23.10.2026
 

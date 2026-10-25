@@ -1,5 +1,6 @@
 ---
 slug: rp-worms-kocher-stefan
+clear_fields: 'geo'
 name: Köcher Stefan
 trader_type: schrotthaendler
 state: RP
@@ -29,6 +30,14 @@ Für „Köcher Stefan“ liegen weiterhin zwei widersprüchliche Verzeichnis-Cl
 **Preise:** ANKAUF: keine Bedingungen oder Preise verifiziert. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.630025, 8.332675. Nominatim-Reverse löst den Punkt an Ludwig-Uhland-Straße 27 in Pfiffligheim auf; beide konkurrierenden Dossier-Adresscluster nennen andere Straßen und sind nicht dem Betreiber sicher zugeordnet. `clear_fields: 'geo'` entzieht den unpassenden Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.630024999999996&lon=8.332675&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Neue Namens-/Ortsnachsuche reproduziert bei Gelbe Seiten den Lead Heinrich-von-Gagern-Str. 17, 67549 Worms, 06241 56721; der widersprechende Cluster Nordendstr. 10, 67547, 06241 45385 bleibt aus anderen Verzeichnissen bestehen. Keine Betreiber-/Registerquelle oder Namensbrücke löst auf, ob es sich um denselben, verschiedene oder veraltete Einträge handelt. Keine Felder geändert. ANKAUF: keine Preise/Bedingungen; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Kein GEO bis Betreiber und exakter Standort geklärt. Quelle: https://www.gelbeseiten.de/gsbiz/56e67ae3-bd77-4073-8c4b-f9abf1a3fa47 (Verzeichniseintrag, Abruf 25.10.2026); ältere Clusterquellen sind oben dokumentiert.]
 
 ### Recherche 07.10.2026
 

@@ -1,5 +1,6 @@
 ---
 slug: nw-aachen-elektroschrott-aachen
+clear_fields: 'geo'
 name: Elektroschrott Aachen
 trader_type: schrotthaendler
 state: NW
@@ -29,6 +30,14 @@ Der Seed „Elektroschrott Aachen“ ist an Robensstr. 20 nicht als Betrieb iden
 **Ankauf:** kein dem Seed zuordenbares Angebot oder Kurs. **Verkauf:** keine Liste. **Gebühren:** keine händlerspezifischen Gebühren belegt; die Express-Seite nennt Entrümpelungs-/Anfahrtsleistungen und ist nicht auf den Seed übertragbar. Standort, Betreiber und GEO bleiben offen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.76775, 6.1029. Nominatim-Reverse löst den Punkt an der Rehmannstraße im Frankenberger Viertel auf. Die frühere Robensstr.-Spur gehört zu einem nicht als E-Schrotthändler identifizierten Entrümpelungsauftritt; die aktuelle Recherche bestätigt keinen privaten Betrieb. `clear_fields: 'geo'` entzieht den nicht zuordenbaren Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.76775&lon=6.1029&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: kommunale E-Schrott-Wege erneut abgegrenzt
+
+- [Recherche 25.10.2026: Die offiziellen Stadtseiten zu Abfalltrennung und Wertstoffmobil direkt gelesen. Der kommunale Wertstoffmobilplan 2026 nennt die Annahme von Elektrokleingeräten und Metallteilen bis 50 cm Kantenlänge; die Abfalltrennungsseite verweist für große Elektrogeräte auf angemeldete kommunale Abholung bzw. städtische Annahmestellen. Das ist ein städtisches Entsorgungsangebot, kein Beleg, dass „Elektroschrott Aachen“ an Robensstr. 20 existiert oder Ankauf betreibt. **Ankauf:** keine private Händlerzusage oder Kurse; **Verkauf:** keine Liste; **Gebühren:** aus diesen Seiten kein Händlertarif ableitbar. Seed-Betreiber und GEO bleiben offen. Quellen: https://www.aachen.de/in-aachen-leben/sicherheit-ordnung/stadtbetrieb/abfalltrennung/ ; https://www.aachen.de/in-aachen-leben/sicherheit-ordnung/stadtbetrieb/wertstoffmobil/ .]
 
 ### Recherche 22.10.2026
 

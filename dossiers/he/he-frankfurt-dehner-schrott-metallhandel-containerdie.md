@@ -1,5 +1,6 @@
 ---
 slug: he-frankfurt-dehner-schrott-metallhandel-containerdie
+clear_fields: 'geo'
 name: Dehner Schrott & Metallhandel Containerdienst e.K.
 trader_type: containerdienst
 state: HE
@@ -24,9 +25,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betreiber-Impressum des aktiven Webauftritts nennt Dehner Schrott-Metall-Containerdienst e.K., Inhaber Silvano Haas, HRA 93391 AG Hanau; Stammsitz Im Steinigen Graben 26a, Gelnhausen, Frankfurter Niederlassung Peter-Behrens-Straße, 60314, jedoch ohne Hausnummer. Abweichende Verzeichnisdaten zu Hugo Dehner, Bonameser Str. 156, 60433 Frankfurt, bleiben ungeklärt und dürfen nicht zusammengeführt werden.
+
+**ANKAUF:** Metallannahme/-ankauf und Rückvergütung werden allgemein beschrieben; keine bezifferten Metallkurse oder Materialstaffeln gefunden. **VERKAUF:** keine Verkaufspreisliste. **GEBÜHREN:** Containerdienst 1–40 m³, Lieferzeit üblicherweise bis 48 Stunden; Preise für Abfallcontainer stehen auf Anfrage. Die Website nennt für Papier/Pappe eine berechnete Abholung, aber keinen Betrag. Metallvergütung und Container-/Entsorgungsentgelt sind getrennte Preisrichtungen. Keine Hausnummer ergänzen oder geocodieren, bis Niederlassung/Annahmestelle bestätigt ist.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.1194049, 8.6539732. Nominatim-Reverse löst den Punkt an der Senckenberganlage 30 im Frankfurter Westend auf. Das passt weder zur nur als Betreiberangabe bekannten Niederlassung Peter-Behrens-Straße im Ostend noch zur abweichenden Bonameser Verzeichnisadresse. `clear_fields: 'geo'` entzieht den nicht zuordenbaren Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate ohne Hausnummer und Annahmestellenbeleg. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.119404878048776&lon=8.653973170731708&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Betreiberwebsite und Impressum direkt erneut geprüft; Silvano Haas/e.K./HRA 93391 sowie Gelnhausener Stammsitz und Frankfurter Niederlassung Peter-Behrens-Straße (60314, ohne Hausnummer) bleiben Betreiberangaben. Containerdienstseite nennt 1–40 m³ und übliche Bereitstellung innerhalb 48 Stunden, aber keine Beträge; Homepage führt bei mehreren Abfallarten „Preis auf Anfrage“. Für Papier/Pappe wird die Abholung berechnet, ebenfalls ohne Tarif. Metallseite wirbt mit fairen Tagespreisen, teils möglicher Rückvergütung nach Prüfung, ohne numerische Ankaufskurse. Keine Verkaufspreisliste. Das ist kein numerischer Preislistenfund; Container-/Entsorgungsgebühr nicht mit Metallankauf verwechseln. Verzeichniscluster Hugo Dehner/Bonameser Str. 156/069 517139 bleibt ungeklärt und wird nicht mit dem Betreiber-Impressum zusammengeführt. Keine Adresse ergänzt: Frankfurter Hausnummer und genaue Annahmestelle fehlen; kein neues GEO. Quellen: https://www.schrotthandel-frankfurt.de/ ; https://www.schrotthandel-frankfurt.de/impressum ; https://www.schrotthandel-frankfurt.de/containerdienst ; https://www.schrotthandel-frankfurt.de/schrottplatz-frankfurt .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

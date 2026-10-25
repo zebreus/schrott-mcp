@@ -1,5 +1,6 @@
 ---
 slug: nw-troisdorf-pc-schrott-24
+clear_fields: 'geo'
 name: PC-Schrott 24
 trader_type: schrotthaendler
 state: NW
@@ -26,9 +27,17 @@ provenance_origin: table
 
 Verzeichnisse beschreiben „PC-Schrott 24“ als Computer-/E-Schrottbetrieb und listen Am Senkelsgraben 26, 53842 Troisdorf-Spich sowie 01577 5305555. Diese Angaben stammen nur aus Aggregatoren; eine Betreiberwebsite, ein Impressum oder ein dazu passender Registerbeleg wurde weiterhin nicht gefunden. Die ältere abweichende Vorlagenadresse Adam-Riese-Str. 13a ist im Dossier dokumentiert, aber nicht als aktuelle Betriebsadresse bestätigt. Annahme von E-Schrott wird in den Seed-/Verzeichnisangaben nahegelegt; ein Ankauf ist nicht belegt.
 
-**Preise:** Ankauf: keine Ankaufspreise oder Kaufzusage. Verkauf: keine Preisliste. Gebühren: keine Annahme-/Entsorgungsgebühren publiziert. **Offen:** tatsächlicher Betreiber, aktuelle Adresse/Telefon und ob E-Schrott kostenlos angenommen, bezahlt oder nur gewerblich entsorgt wird. Bestehende Adresse nur als Lead behandeln; Geocoding vor Nutzung verifizieren.
+**Preise:** **Ankauf:** keine Kaufzusage oder Zahlenkurse. **Verkauf:** keine Produkt-/Preisliste. **Gebühren:** der 11880-Eintrag behauptet, der dort beschriebene Service sei „komplett kostenfrei“; das ist eine nicht unabhängig bestätigte Verzeichnis-/Profilwerbung ohne Bedingungen oder Tarifdetails, keine verifizierte Gebührenfreiheit. **Offen:** tatsächlicher Betreiber, aktuelle Adresse/Telefon und ob E-Schrott kostenlos angenommen, bezahlt oder nur gewerblich entsorgt wird. Zwei konkurrierende Adressleads bleiben (Am Senkelsgraben 26 und Adam-Riese-Str. 13 A); keine Standortauswahl oder Geocodierung vor Betreiberbestätigung.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.8118667, 7.1393333. Nominatim-Reverse löst den Punkt an Landgrafenstraße 20 auf; keine der zwei widersprüchlichen Dossier-Adressen (Am Senkelsgraben 26 oder Adam-Riese-Str. 13 A) passt dazu. `clear_fields: 'geo'` entzieht den nicht zugeordneten Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate bis zur Betreiber-/Adressklärung. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.81186666666667&lon=7.139333333333333&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Freileistungswerbung und Adresskonflikt
+
+- [Recherche 25.10.2026: 11880-Detailseite direkt gelesen. Sie führt PC-Schrott 24 an Adam-Riese-Str. 13 A, 53842 Troisdorf-Oberlar, 01577 5305555, geisterbrummi@gmail.com, Mo–Fr 09:00–15:00; Eintragsdaten 30.03.2026, Portalaktualisierung 15.10.2026. Die Seite bewirbt E-Schrottabholung/-entsorgung und behauptet, der Service sei „komplett kostenfrei“. Da dies im Aggregatorprofil steht und ein Betreiber-Impressum/Primärbeleg fehlt, wird weder Gebührenfreiheit noch Ankauf/Annahmebedingung als verifiziert übernommen. Koeln.de führt dagegen Am Senkelsgraben 26 mit derselben Telefonnummer; keine Quelle löst den Adresskonflikt. **Ankauf:** kein bezahlter Ankaufkurs/Kaufzusage; **Verkauf:** keine Liste; **Gebühren:** nur ungeprüfte pauschale Gratiswerbung, kein Gebührentarif. Kein Frontmatter-Fill; beide Adressen vor GEO-/Annahmefreigabe klären. Quellen (Verzeichnisleads): https://www.11880.com/branchenbuch/troisdorf/060441364B107305703/pc-schrott-24.html ; https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24 .]
 
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2
 

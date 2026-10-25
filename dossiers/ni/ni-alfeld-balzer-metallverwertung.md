@@ -1,5 +1,6 @@
 ---
 slug: ni-alfeld-balzer-metallverwertung
+clear_fields: 'geo'
 name: Balzer Metallverwertung
 trader_type: sonstige
 state: NI
@@ -26,12 +27,22 @@ provenance_origin: table
 
 Neue, hochrelevante Registerspur am exakt gleichen Straßenstandort: NorthData führt die Balzers Metallverwertungsgesellschaft UG, HRB 204441 AG Hildesheim, Limmerburg 11 A, mit Geschäftsführer Dirk Balzer und Gegenstand Altmetall-/Fahrzeugverwertung sowie Oldtimer-/Autoteilehandel. Das passt auffällig zu „Balzer Metallverwertung“, beweist aber ohne explizite Marken-/Betreiberbrücke nicht, dass die Verzeichnisfirma und die UG identisch sind. Die vorhandenen Kontakte bleiben ungeprüfte Leads.
 
+Ein aktuellerer Gelbe-Seiten-Suchtreffer nennt zusätzlich 01522 6006051 sowie Mo–Fr 08–17 und Sa 09–12; das weicht vom bisherigen Telefonlead 0152 26006000 ab und bleibt ein unbestätigter Verzeichniswert. Keine Nummer oder Zeiten ins Frontmatter übernommen.
+
 - **Ankauf:** Gesellschaftszweck umfasst Altmetallverwertung; keine aktuelle Betreiberpreisliste oder numerischen Kurse gefunden.
 - **Verkauf:** Oldtimer- und Autoteilehandel als Registergegenstand, aber keine konkreten Angebote/Preise für diesen Dossierbetreiber belegt.
 - **Gebühren:** keine Abhol-/Entsorgungstarife gefunden.
 - **GEO:** Limmerburg 11 A ist als Gesellschaftsanschrift belegt; öffentliche Annahme, Zufahrt und Identität des Dossiernamens noch prüfen, bevor ein Punkt gesetzt wird.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.4333, 11.55. Nominatim-Reverse verortet den Punkt an der Hersbrucker Straße in Pollanden, Alfeld (Bayern); das Dossier meint Balzers Metallverwertung in Alfeld (Leine), 31061 Niedersachsen. `clear_fields: 'geo'` entzieht das offensichtlich ortsfalsche Paar beim nächsten regulären Seed. Keine Ersatzkoordinate gesetzt, da die Betreiber-/Annahmestellenzuordnung offen ist. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.4333&lon=11.55&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Kontaktkonflikt
+
+- [Recherche 25.10.2026: Gelbe-Seiten-Suchergebnis zum Eintrag „Balzer Metallverwertung“ erneut geprüft. Neben dem bestehenden Telefonnummernlead 0152 26006000 wird nun 01522 6006051 angezeigt; außerdem Mo–Fr 08–17 und Sa 09–12. Das ist weiterhin eine einzelne Aggregatorquelle und bestätigt weder eine Betreiberverbindung zur Balzers Metallverwertungsgesellschaft UG noch aktuelle Kundenannahme; Kontakt/Öffnungszeiten deshalb nicht überschrieben. ANKAUF: Registergegenstand Altmetallverwertung, aber keine aktuellen Kurse. VERKAUF: keine belegten Angebotspreise. GEBÜHREN: keine Tarife. GEO: Limmerburg 11 A bleibt Gesellschaftsanschrift und erst nach Annahmestellenbestätigung koordinatenfähig. Quelle: https://www.gelbeseiten.de/gsbiz/dab30a73-6a18-4bbe-ae5a-0b16f0e9d362 .]
 
 ### Recherche 20.10.2026 — Eigenrecherche
 

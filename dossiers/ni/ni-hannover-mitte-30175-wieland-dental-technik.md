@@ -1,5 +1,6 @@
 ---
 slug: ni-hannover-mitte-30175-wieland-dental-technik
+clear_fields: 'geo'
 name: Wieland Dental + Technik GmbH & Co. KG
 trader_type: sonstige
 state: NI
@@ -27,6 +28,10 @@ provenance_origin: table
 Der Hannover-Seed führt „Wieland Dental + Technik GmbH & Co. KG“, Königstraße 9; die historische Einordnung als Dental-Depot bestätigt keinen Schrottankauf. Die offiziell dokumentierte Dentaltechnik-Gruppe Wieland/Ivoclar und Pforzheimer Unternehmensanschriften sind ein eigener Namens-/Historienhinweis, kein Beleg für eine Hannoveraner Schrottannahme. Auch ein heute gleichadressiger Finanzvermittler ist kein Nachfolgerbeleg. Keine fremden Kontaktdaten übertragen. Keine Zielpreise für Schrottankauf, -verkauf oder Gebühren verifiziert; Identität und heutige Tätigkeit des Hannover-Seeds bleiben offen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 52.376469, 9.746341. Nominatim-Reverse löst den Punkt am Fachgerichtszentrum Hannover, Leonhardtstraße 15, auf, nicht an Königstr. 9. Der Dossiername weist zudem auf Wieland Dental-Technik statt auf einen bestätigten Schrotthändler. `clear_fields: 'geo'` entzieht das nicht passende Paar beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.37646896551724&lon=9.746341379310344&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 22.10.2026: offizielle Gruppenseite erneut geprüft
 

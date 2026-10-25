@@ -1,5 +1,6 @@
 ---
 slug: nw-ruhrgebiet-nrw-schrotthandel-nrw-klungelskerle-0163
+clear_fields: 'geo'
 name: Schrotthandel NRW / Klüngelskerle (0163)
 trader_type: schrotthaendler
 state: NW
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Mobiler NRW-Schrottankauf ist über Seed und Suchindex angedeutet, die Betreiber-/Seedidentität bleibt ungeklärt. Die Zieldomain liefert im Review am 18.10.2026 Root 403 und relevante Unterseiten 404; daraus allein folgt kein Urteil über den Geschäftszustand. Die separate Domain nrw-schrott.de nennt Tarek El-Lahib und Robertstraße 70; ihre Verbindung zur Zieldomain ist nicht belegt, ebenso wenig ein verschiedener Betreiber. Keine Kontaktdaten oder Serviceversprechen übertragen. Für den Zielbetrieb Ankauf-/Verkaufs-/Gebührenbeträge nicht verifiziert; Status `pruefung`, website_status weiter `blockiert`.
+Mobiler NRW-Schrottankauf ist über Seed und Suchindex angedeutet, die Betreiber-/Seedidentität bleibt ungeklärt. Eine neu direkt gelesene 11880-Seite zu **Schrotthandel.nrw** nennt Lohrheidestr. 156, 44866 Bochum, 0163 4630051, info@schrotthandel.nrw und Mo–Sa 07:00–19:00. Das passt zu einem der bisherigen Telefonleads und zur Zieldomain, bleibt aber ein Verzeichnisdatensatz; Betreiberbezug und aktuelle Einsatz-/Betriebsadresse sind nicht unabhängig bestätigt. Die Zieldomain liefert im Review am 18.10.2026 Root 403 und relevante Unterseiten 404; daraus allein folgt kein Urteil über den Geschäftszustand. Die separate Domain nrw-schrott.de nennt Tarek El-Lahib und Robertstraße 70; ihre Verbindung zur Zieldomain ist nicht belegt, ebenso wenig ein verschiedener Betreiber. Keine Kontaktdaten oder Serviceversprechen übertragen. Für den Zielbetrieb: **Ankauf** nur als Werbe-/Verzeichnislead, ohne verifizierte Kurse; **Verkauf** ohne Preisliste; **Gebühren** ohne überprüfbare Tarifangabe. Status `pruefung`, website_status weiter `blockiert`.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.58945, 7.2035. Nominatim-Reverse löst den Punkt in der Tiroler Straße in Recklinghausen auf. Der Seed beschreibt einen unbestätigten mobilen NRW-Service, keine dortige Betriebs- oder Annahmestelle; der Straßenpunkt ist irreführend. `clear_fields: 'geo'` entzieht ihn beim nächsten regulären Seed. Keine Ersatzkoordinate für ein regionales Einsatzgebiet geraten. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.58945&lon=7.2035&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: neue konkrete Anschrift als Lead
+
+- [Recherche 25.10.2026: 11880-Detailseite „Schrotthandel.nrw“ direkt gelesen: Lohrheidestr. 156, 44866 Bochum-Wattenscheid, 0163 4630051, info@schrotthandel.nrw, Mo–Sa 07:00–19:00; Eintragsdaten 21.09.2026, Portalaktualisierung 09.10.2026. Die Seite verlinkt die Zieldomain schrotthandel.nrw. Das ist ein neuer, passender Lead für eine der bisherigen konkurrierenden 0163-Nummern (die 0163 4694319 bleibt unbestätigt), aber kein Betreiber-Impressum oder unabhängiger Zweitbeleg. Die Direktabrufe vom 18.10. hatten Root 403 und /impressum, /schrottankauf, /datenschutz 404; der Portalstatus „lädt normal“ ersetzt keinen Primärquellenabruf. **Ankauf:** keine Zahlenkurse; **Verkauf:** keine Liste; **Gebühren:** keine belastbaren Tarife. Keine Felder geändert. Lohrheidestr. 156 ist erst nach Betreiber-/Annahmebestätigung geocodierbar; nicht mit der separaten Robertstraße-70-Spur zusammenführen. Quelle (Lead): https://www.11880.com/branchenbuch/bochum/120674719B112437141/schrotthandel-nrw.html ; Direktgegenprobe: https://schrotthandel.nrw/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

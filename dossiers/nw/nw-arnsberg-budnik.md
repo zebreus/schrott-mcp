@@ -1,5 +1,6 @@
 ---
 slug: nw-arnsberg-budnik
+clear_fields: 'geo'
 name: Budnik
 trader_type: schrotthaendler
 state: NW
@@ -24,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 36942 stammen aus dem Verzeichnislead „Rolf Budnik Schrott-RohstoffHdl.“. Eine aktuelle Betreiberidentität ist nicht bestätigt; Portal-Aktualisierungsdaten ersetzen keine Betreiberprüfung. Status `pruefung`; Kontakt und Beschreibung bleiben ungeprüfte Leads.
+Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 36942 stammen aus dem Verzeichnislead „Rolf Budnik Schrott-RohstoffHdl.“. Der direkt erneut gelesene 11880-Eintrag nennt Stammdaten vom 29.06.2021 und einen Portalaktualisierungsstempel vom 02.10.2026; letzterer ist keine Betreiberprüfung. Eine aktuelle Betreiberidentität ist nicht bestätigt. Status `pruefung`; Kontakt und Beschreibung bleiben ungeprüfte Leads.
 
 - **Ankauf:** keine aktuelle Annahmebestätigung oder Zahlenkurse.
 - **Verkauf:** keine zuordenbare Produkt-/Preisliste.
@@ -32,6 +33,14 @@ Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 3
 - **GEO:** frühere Photon-Suche fand nur die Straße, keine bestätigte Hausnummer/Betreiberbindung; keine Koordinaten übernommen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält für Budnik 51.39518, 8.06078. Nominatim-Reverse löst den Punkt an Twiete 9 in Arnsberg aus, nicht am Verzeichnislead Sternhelle 18 in Arnsberg-Herdringen. `clear_fields: 'geo'` entzieht den nachweislich nicht adressgenauen Altpunkt beim nächsten regulären Seed. Der Lead ist ohnehin nicht betreiberbestätigt; keine Ersatzkoordinate gesetzt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.39518&lon=8.06078&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Portal-Zeitstempel eingeordnet
+
+- [Recherche 25.10.2026: Die 11880-Detailseite zu „Rolf Budnik Schrott-RohstoffHdl.“ direkt erneut gelesen. Sie nennt Stammdaten vom 29.06.2021 und einen Portalaktualisierungsstempel vom 02.10.2026. Der spätere Stempel belegt keine aktuelle Betreiberprüfung; Name, Anschrift und Telefon bleiben Verzeichnis-Leads. Keine Frontmatter-Änderung, keine Ankaufskurse, Verkaufspreisliste oder Gebühren bestätigt. Keine GEO-Koordinate; Hausnummer und Betreiberbindung bleiben ungeprüft. Quelle (Verzeichnislead): https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html .]
 
 ### Recherche 23.10.2026: erneuter Aktualitätsabgleich
 

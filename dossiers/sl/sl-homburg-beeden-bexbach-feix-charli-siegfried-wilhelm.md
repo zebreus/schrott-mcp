@@ -1,5 +1,6 @@
 ---
 slug: sl-homburg-beeden-bexbach-feix-charli-siegfried-wilhelm
+clear_fields: 'geo'
 name: Siegfried Feix Schrotthandel u. Schrottentsorgung
 trader_type: schrotthaendler
 state: SL
@@ -29,6 +30,10 @@ Die früheren Fills zu Siegfried Feix, An der Kiesgrube 13, 66424 Homburg-Beeden
 Die im älteren Lead genannte Domain bexbacher-buntmetallverwertung.de ist beim erneuten Abruf nicht erreichbar; das bestätigt weder Betreiberzuordnung noch Schließung. **Preise:** Keine primär belegte Ankauf-, Verkaufs- oder Gebührenliste. **Offen:** Identität der einzelnen Feix-Betriebe, Gewerbe-/Registerbelege, heutiger Betrieb am Homburger Standort und öffentlich zugängliche Annahmebedingungen. Verzeichnis-Marketing „Wir kaufen“ ist keine Betreiberbestätigung.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.3264, 7.3387. Nominatim-Reverse löst den Punkt bei Poststraße 1 in Homburg auf, nicht an der gespeicherten Lead-Adresse An der Kiesgrube 13 in Homburg-Beeden/Bexbach. `clear_fields: 'geo'` entzieht den nicht passenden Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate ohne Betreiber- und Annahmestellenprüfung. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.3264&lon=7.3387&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 21.10.2026
 

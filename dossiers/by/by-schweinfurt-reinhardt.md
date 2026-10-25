@@ -1,5 +1,6 @@
 ---
 slug: by-schweinfurt-reinhardt
+clear_fields: 'geo'
 name: Reinhardt
 trader_type: sonstige
 state: BY
@@ -24,9 +25,17 @@ provenance_origin: prose
 
 ## Überblick
 
-„Reinhardt“ ist bislang nur ein unvollständiger Name mit PLZ 97424. Ein Creditreform-Suchtreffer nennt „Ricardo Reinhardt Schrotthandel“, Nutzweg 29, und einen Geschäftszweck einschließlich Abbruch/Schrott; der Direktabruf der Firmenseite war blockiert. 11880 führt an derselben Adresse „Reinhardt Metall“ als Altmetallrecycling, mit der abweichenden Nummer 01573 0283000 und Domain reinhardt-abbruch.de. Diese Verzeichnisse/Registerspiegel sind keine direkte Betreiberbestätigung; reinhardt-metall.de und reinhardt-abbruch.de lieferten keinen lesbaren Betreiberauftritt. Keine Kontaktdaten oder Adresse übernommen. **Ankauf:** keine Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife belegt. Offen: Inhaberidentität, Telefonnummer/Domain, aktuelle Annahme und ob 11880-/Creditreform-Kandidaten dieselbe Person/Firma sind.
+„Reinhardt“ bleibt ein ungeklärter Schweinfurter Schrotthandel-Lead. 11880 führt „Reinhardt Metall“ am Nutzweg 29 mit 01573 0283000 und verlinkt reinhardt-abbruch.de; Creditreform-Suchergebnisse führen sowohl Ricardo Reinhardt am Nutzweg 29 als auch Roland Reinhardt Schrotthandel am Nutzweg 29 b. Die gleiche Rufnummer und fast gleiche Adresse lösen die Namens-/Standortabweichung nicht auf. Die direkt erreichbare Website reinhardt-recycling.de nennt dagegen Heinrich Reinhardt in Koblenz und ist kein Beleg für den Schweinfurter Betrieb. Keine Adresse, Kontakte oder Website ins Frontmatter übernommen. **Ankauf:** keine Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife belegt. Offen: Rechtsträger/Inhaber, Nutzweg 29 vs. 29 b, Domainzuordnung und aktuelle Annahme; danach erst GEO.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.0348, 10.2064. Nominatim-Reverse löst den Punkt an der Wirsingstraße im Schweinfurter Bergl auf; die Dossier-Leads nennen dagegen Nutzweg 29 bzw. 29 b und lassen Betreiberidentität/Standort offen. `clear_fields: 'geo'` entzieht den nicht passenden Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate vor Namens- und Adressklärung. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0348&lon=10.2064&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: 11880-Detailseite erneut gelesen: „Reinhardt Metall“, Nutzweg 29, 97424 Schweinfurt, Tel. 01573 0283000, verlinkt reinhardt-abbruch.de; Profil nennt Datenstand 15.06.2025 und Aktualisierung 04.10.2026. Ein Creditreform-Suchergebnis führt „Roland Reinhardt Schrotthandel“, Nutzweg 29 b, mit derselben Rufnummer (Direktseite nicht lesbar); das ältere Creditreform-Profil nennt Ricardo Reinhardt am Nutzweg 29. Damit zusätzlicher Namens-/Hausnummernkonflikt, keine Identitätsbestätigung. Die direkt gelesene Website reinhardt-recycling.de nennt Heinrich Reinhardt, Herberichstr. 139A, 56070 Koblenz, und ist ein anderer Orts-/Kontaktkandidat; nichts davon Schweinfurt zugeordnet. Kein Frontmatter-Fill. ANKAUF: keine Schweinfurter Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. GEO erst nach Klärung von Rechtsträger und Nutzweg-Adresse. Quellen: https://www.11880.com/branchenbuch/schweinfurt/060440092B112809739/reinhardt-metall.html ; https://firmeneintrag.creditreform.de/97424/8310358530/ROLAND_REINHARDT_SCHROTTHANDEL (Suchergebnis, Direktabruf 403) ; https://firmeneintrag.creditreform.de/97421/8310453378/RICARDO_REINHARDT_SCHROTTHANDEL (Direktabruf 403) ; http://reinhardt-recycling.de/ .]
 
 ### Recherche 20.10.2026
 

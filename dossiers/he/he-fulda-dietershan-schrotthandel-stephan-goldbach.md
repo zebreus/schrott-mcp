@@ -1,5 +1,6 @@
 ---
 slug: he-fulda-dietershan-schrotthandel-stephan-goldbach
+clear_fields: 'geo'
 name: Schrotthandel Stephan Goldbach
 trader_type: schrottplatz
 state: HE
@@ -31,6 +32,14 @@ Ein Betreiberauftritt „Schrotthandel Freddi Goldbach“ sagt „seit 1957 in F
 **Preise des Freddi-Goldbach-Kandidaten, nicht des Seeds:** Ankauf — Privatankauf auf Anfrage; ab 200 kg werden „Tageshöchstpreise“ versprochen, jedoch ohne numerische Kurse. Verkauf — keine Verkaufspreise. Gebühren/Service — Schrottabholung und Schrottentsorgung ab 200 kg sowie dauerhafte Containerstellung für Firmen/öffentliche Einrichtungen als gebührenfrei bzw. kostenlos beworben; keine Ablademöglichkeit. **Geocoding:** Wadbergstraße 7, 36145 Hofbieber nicht als Seedadresse übernehmen; erst bei bestätigter Beziehung geokodieren.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält für den Dietershan-Seed 50.5541, 9.67525. Nominatim-Reverse löst den Punkt bei Schloss Fulda in der Innenstadt auf, nicht in Fulda-Dietershan. Der dortige Kandidat Freddi Goldbach ist außerdem nicht dem Seed Stephan Goldbach zugeordnet. `clear_fields: 'geo'` entzieht den falschen Altpunkt beim nächsten regulären Seed. Keine Adresse oder Ersatzkoordinate übertragen. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.5541&lon=9.67525&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Betreiberauftritt Freddi Goldbach erneut direkt geprüft. Er nennt Hofbieber, Wadbergstraße 7, 36145, Inhaber Freddi Goldbach und „seit 1957 in Fulda“; ab 200 kg werden „Tageshöchstpreise“ beworben, ohne Metallkurse, dazu kostenlose Abholung/Entsorgung ab 200 kg und kostenlose dauerhafte Containerstellung für Firmen/öffentliche Einrichtungen. Das ist kein Preis- oder Standortbeleg für den Seed „Stephan Goldbach“ in Dietershan und wird nicht übertragen. Für Stephan bleibt lediglich die Creditreform-Suchindex-/Verzeichnis-Spur (Fulda 36039; Im Alten Roth 5 und Kontaktdaten nur Verzeichnisleads). ANKAUF Seed: unbestätigt/keine Kurse; VERKAUF: keine Liste; GEBÜHREN/Service: Freddi-Kandidat separat, nicht zuordenbar. Keine Kontaktdaten oder Koordinaten geändert. Quellen: https://www.freddi-goldbach.de/ ; https://firmeneintrag.creditreform.de/36039/6090143184/STEPHAN_GOLDBACH_SCHROTTHANDEL ; https://branchenbuch.meinestadt.de/fulda/company/13008108 (Verzeichnislead).]
 
 ### Recherche 11.10.2026
 

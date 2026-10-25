@@ -1,5 +1,6 @@
 ---
 slug: he-seligenstadt-63500-juwelier-dittmeier
+clear_fields: 'geo'
 name: Juwelier Dittmeier
 trader_type: sonstige
 state: HE
@@ -27,6 +28,14 @@ provenance_origin: table
 Betreiber-Einzelbeleg: Juwelier Dittmeier, vertreten durch G. Acar, Aschaffenburger Str. 18, Seligenstadt. Goldankaufsseite beschreibt Zahngold, Bruchgold, Goldschmuck und Goldmünzen mit individueller Prüfung und marktpreisbezogenem Angebot, ohne numerische Kurse. Schmuck-/Uhrenverkauf nicht mit Ankauf verwechseln. Die verlinkte Instagram-Seite liefert keine lesbaren Profilfakten; unabhängige Identitäts-/Standortbestätigung fehlt weiter.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.0432, 8.9739. Nominatim-Reverse löst den Punkt an Mauergasse 38 auf, nicht an der Betreiberwebsite genannten Aschaffenburger Str. 18. Die aktuelle Prüfung hatte keine unabhängige Standort-/Identitätsbestätigung für eine GEO-Freigabe; `clear_fields: 'geo'` entzieht den abweichenden Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate gesetzt. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0432&lon=8.9739&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Startseite, Impressum, Kontakt und Goldankauf der bereits zugeordneten Betreiberwebsite erneut direkt gelesen. Impressum nennt G. Acar, Aschaffenburger Str. 18, 63500 Seligenstadt, 06182 21961 und dittmeierjuwelier@gmx.de; Kontaktseite nennt dieselbe Anschrift/Telefonnummer, Öffnungszeiten Mo–Fr 10–18/Sa 10–14 und abweichend info@juwelier-dittmeier.eu. Die Footer-Nennung juwelier-dittmeier.de ist nicht als zweite bestätigte Domain geprüft. Keine unabhängige Bestätigung, daher keine Stammdatenfills und keine GEO-Freigabe. ANKAUF: Zahngold, Bruchgold, Goldschmuck, Goldmünzen; individuelle Prüfung und marktpreisbezogenes Angebot ohne EUR/g-Tabelle. VERKAUF: Schmuck, Trauringe, Diamanten und Uhren, aber kein numerischer Verkaufskatalog. GEBÜHREN: keine bezifferte Bewertungs-/Reparaturgebühr auf den geprüften Seiten. Quellen: https://juwelier-dittmeier.eu/ ; https://juwelier-dittmeier.eu/impressum/ ; https://juwelier-dittmeier.eu/kontakt/ ; https://juwelier-dittmeier.eu/goldankauf/ (Betreiber-Einzelquelle).]
 
 ### Recherche 22.10.2026
 

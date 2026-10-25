@@ -1,5 +1,6 @@
 ---
 slug: rp-oberzissen-56651-reinhardt
+clear_fields: 'geo'
 name: Reinhardt
 trader_type: schrotthaendler
 state: RP
@@ -29,6 +30,14 @@ Neu gefundener Firmenauftritt auf Wix bietet Altmetall-/Buntmetallentsorgung, En
 Unzugeordneter Selbstauftritt: „Büro Am Sauerbrunnen 21, 56651 Oberzissen“, 0177 5385349, d.reinhardt83@hotmail.de. Kein vollständiger Inhabername/Registerbeleg oder aktuelles Impressum gefunden; Kontaktseite enthält noch Wix-Platzhalter und Social-Icons verlinken Wix, nicht Reinhardt. Keine Übernahme der 11880-Öffnungszeiten. Stammdaten einschließlich Website und Website-Status bleiben bis unabhängiger Identitätsbestätigung leer, `pruefung`; die Wix-Domain ist nur ein Primärkandidat, keine bestätigte Dossierzuordnung. **Geo:** ausdrücklich Büro, keine bestätigte öffentliche Schrottannahmestelle; nicht als Hof geocodieren.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.45, 7.2. Nominatim-Reverse löst den Punkt auf der K 49 in Oberzissen auf, nicht an der als Büro genannten Adresse Am Sauerbrunnen 21; ein öffentlicher Annahmehof ist ausdrücklich nicht belegt. `clear_fields: 'geo'` entzieht den ungeeigneten Straßenpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.45&lon=7.2&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Wix-Auftritt erneut direkt geprüft: nennt Altmetall-/Buntmetallabholung bzw. Verkauf/Entsorgung, Entrümpelung, Container, Öltank- und Nachtspeicherofenentsorgung; Metalle, Kabel, Fahrräder, landwirtschaftliche Geräte und Mofas/Motorräder als Beispiele. „Kostenlos“ wird für die Besichtigung beworben, nicht pauschal für Abholung, Entsorgung oder Container. Keine Ankaufpreise, Materialverkaufspreise oder sonstigen Gebühren beziffert. Kontaktseite hat weiterhin Textplatzhalter; kein vollständiger Inhaber-/Impressumsbeleg, Website daher nicht ins Frontmatter übernommen. „Büro am Sauerbrunnen 21, 56651 Oberzissen“ ist kein bestätigter öffentlicher Annahmehof; keine GEO. Quelle: https://dreinhardt83.wixsite.com/reinhardt ; https://dreinhardt83.wixsite.com/reinhardt/kontakt (Selbstauftritt, nicht unabhängig bestätigt).]
 
 ### Recherche 11.10.2026 (Wave E)
 

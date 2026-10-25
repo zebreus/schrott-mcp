@@ -1,5 +1,6 @@
 ---
 slug: nw-duisburg-prager
+clear_fields: 'geo'
 name: Prager
 trader_type: sonstige
 state: NW
@@ -29,6 +30,14 @@ Verzeichnisse führen den Kandidaten als „Prager Axel Unfallwagenhdl.“ an Am
 **Preise:** Ankauf: weder bestätigte Metallankauf- noch Fahrzeugankaufspreise gefunden. Verkauf: keine Preisliste. Gebühren: keine Angaben. **Offen:** aktuelle Betreiberidentität, Erreichbarkeit und ob überhaupt eine Altfahrzeugverwertung angeboten wird. Bestehende Adresse/Telefon nicht als Primärquelle bestätigt; nicht als Schrottannahmestelle geocodieren.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.429824, 6.748468. Nominatim-Reverse löst den Punkt an Vulkanstraße 54 in der Duisburger Altstadt auf, nicht an Am Sportplatz 24 in Rumeln-Kaldenhausen. `clear_fields: 'geo'` entzieht den falsch zugeordneten Altpunkt beim nächsten regulären Seed. Kein Ersatzpunkt, da der Betreiber-/Annahmestellenbeleg fehlt. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.429823999999996&lon=6.748468&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: aktuellen 11880-Status eingeordnet
+
+- [Recherche 25.10.2026: 11880-Suchergebnisseite „Prager in Duisburg“ direkt erneut gelesen. Sie zeigt genau einen passenden Treffer „Axel Prager UnfallwagenHdl.“ an Am Sportplatz 24, 47239 Duisburg-Rumeln-Kaldenhausen, Tel. 02151 940729; Portalrubriken umfassen Schrottplatz/Altmaterialhandel/Schrotthandel, der Status wird als „Geschlossen“ angezeigt. Das ist weiterhin ein einzelner Branchenportal-Datensatz; Rubriken bestätigen keinen allgemeinen Metallankauf und das Statuslabel beweist keine dauerhafte Schließung. **Ankauf:** weder Metall- noch Fahrzeugpreise beziffert; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Kein Identitäts-, Adress- oder GEO-Fill. Quelle (Verzeichnislead): https://www.11880.com/suche/prager/duisburg .]
 
 ### Recherche 24.10.2026: aktueller 11880-Suchtreffer
 

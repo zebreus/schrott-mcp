@@ -1,5 +1,6 @@
 ---
 slug: by-memmingerberg-eisenhut
+clear_fields: 'geo'
 name: Eisenhut
 trader_type: sonstige
 state: BY
@@ -31,6 +32,10 @@ Die historische Domain zeigt weiterhin nur einen Freischaltungsplatzhalter; webm
 **GEO-Bedarf:** Am Ziegelstadel 24 ist ein Adresskandidat, aber noch kein bestätigter aktueller Kunden-/Annahmepunkt; erst nach Termin-/Standortklärung geokodieren. Es wurden keine Koordinaten gesetzt.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 47.988, 10.2229. Nominatim-Reverse löst den Punkt an der Schwabenstraße in Künersberg auf, nicht an der Lead-Anschrift Am Ziegelstadel 24. Die Anschrift ist laut Dossier noch kein bestätigter Kunden-/Annahmepunkt. `clear_fields: 'geo'` entzieht den nicht adressgenauen Altpunkt beim nächsten regulären Seed; keine Ersatzkoordinate gesetzt. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=47.988&lon=10.2229&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 24.10.2026
 

@@ -1,5 +1,6 @@
 ---
 slug: bw-wertheim-lang-schrott
+clear_fields: 'geo'
 name: Lang Schrott
 trader_type: schrotthaendler
 state: BW
@@ -29,6 +30,10 @@ Die vorhandenen Namens-/Regionstreffer belegen keinen Schrotthändler in Werthei
 **Preise:** Ankauf — keine dem Wertheimer Datensatz zuordenbaren Kurse; Verkauf — keine Angaben; Gebühren — keine Angaben. Ohne bestätigte Betriebsadresse keine Geokodierung.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält für Wertheim den Punkt 51.1105, 11.41685. Nominatim-Reverse löst ihn auf die L 1057 bei Buttstädt in Thüringen, nicht nach Wertheim am Main. Der Altpunkt ist daher falsch; `clear_fields: 'geo'` entzieht ihn beim nächsten regulären Seed. Keine Ersatzkoordinate geraten, da die genaue Betreiber-/Annahmestellenadresse weiter fehlt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.1105&lon=11.41685&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 

@@ -1,18 +1,19 @@
 ---
 slug: sn-hoyerswerda-vrd-verwertung-und-recycling-dresden-nl
+clear_fields: 'geo'
 name: VRD Verwertung und Recycling Dresden GmbH, NL Hoyerswerda (VEZ)
 trader_type: sonstige
 state: SN
 city: Hoyerswerda
-street: ''
-postcode: ''
+street: Dresdner Straße 151/152
+postcode: '02977'
 phone: ''
 email: ''
 opening_hours: ''
 website: http://www.vrd-gmbh.de
 website_status: aktiv
 status: pruefung
-description: ''
+description: Anlage zur zeitweiligen Lagerung gefährlicher Abfälle; öffentlicher Kundenzugang und Schrottankauf nicht belegt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 6) Oberlausitz (Bautzen, Görlitz, Kamenz, Hoyerswerda, Weißwasser)
@@ -24,9 +25,19 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberseite beschreibt die VRD als Verwerter biologisch abbaubarer Abfälle und nennt Leistungen des Kompostwerks Brischko; das ist nicht automatisch ein Annahme- oder Verkaufsangebot am Hoyerswerdaer Standort. Ein Landkreis-Bericht von 2023 führt VRD an Dresdner Straße 151/152 in Hoyerswerda, belegt aber keine heutige Annahme oder Zufahrt. Keine bestätigten Ankauf-, Verkaufspreise oder Gebühren; GEO/Standortzuordnung bleibt offen.
+Ein aktuellerer amtlicher Überwachungsbericht des Landkreises Bautzen (Routinekontrolle 14.04.2025) benennt VRD Verwertung u. Recycling Dresden GmbH als Betreiber der Hoyerswerdaer Anlage zur zeitweiligen Lagerung gefährlicher Abfälle und gibt die Betriebsstätte mit Dresdner Straße 151/152, 02977 Hoyerswerda an; die Kontrolle stellte keine Beanstandungen oder Umweltauswirkungen fest. Straße und PLZ sind damit amtlich belegt. Das Dokument bestätigt aber weder öffentlichen Kundenzugang noch Schrottankauf oder Verkauf. Die Betreiberwebsite beschreibt weiterhin vor allem Leistungen des Kompostwerks Brischko; diese nicht ohne Standortbezug übertragen. `status: pruefung` bleibt.
+
+**Preise:** **Ankauf** – keine Hoyerswerdaer Ankaufskurse belegt. **Verkauf** – keine Standort-Preisliste. **Gebühren** – keine Hoyerswerdaer Annahme-/Containergebühren veröffentlicht. **GEO:** genaue Anlagenadresse nun belegt; Koordinaten erst nach Entscheidung, ob der Datensatz eine regulierte Anlage oder einen öffentlich zugänglichen Händler-/Annahmepunkt darstellen soll.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.4379, 14.2355. Nominatim-Reverse löst den Punkt an der Steinbrückstraße 21 in der Hoyerswerdaer Altstadt auf, nicht an der durch den Landkreis-Bericht belegten Betriebsstätte Dresdner Straße 151/152. `clear_fields: 'geo'` entzieht den adressfremden Altpunkt beim nächsten regulären Seed. Die Anlage ist zudem kein bestätigter öffentlicher Annahmepunkt; keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.4379&lon=14.2355&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Adressnachweis
+
+- [Recherche 25.10.2026: Landkreis Bautzen-Übersichtsseite und den dort verlinkten Routine-Überwachungsbericht direkt geprüft. Der Bericht vom 14.04.2025 nennt als Betreiber VRD Verwertung u. Recycling Dresden GmbH und als Standort Dresdner Straße 151/152, 02977 Hoyerswerda; Anlage: zeitweilige Lagerung gefährlicher Abfälle. Kontrolle: keine Beanstandungen, keine festgestellten Umweltauswirkungen. Damit sind `street` und `postcode` im Frontmatter ergänzt; dies belegt weder Kundenannahme noch Kauf von Metallschrott, und `status: pruefung` bleibt. ANKAUF: keine Kurse; VERKAUF: keine Liste; GEBÜHREN: kein Tarif. GEO-Bedarf neu konkretisiert, aber zunächst Punktfunktion (Anlage vs. öffentliches Annahmelokal) mit Owner klären. Quellen: https://www.landkreis-bautzen.de/ueberwachung-nach-industrie-emissionsrichtlinie-5355.php ; https://www.landkreis-bautzen.de/download/Bauaufsichtsamt/14.04.2025_Ueberwachungsbericht_zur_Routinekontrolle_VRD_Hoyerswerda.pdf .]
 
 ### Recherche 12.10.2026
 

@@ -1,5 +1,6 @@
 ---
 slug: rp-bechhofen-paul-bechhofen
+clear_fields: 'geo'
 name: Paul Bechhofen
 trader_type: sonstige
 state: RP
@@ -27,6 +28,14 @@ provenance_origin: table
 Möglicher Verzeichnislead „Schrotthandel Paul“ in Bechhofen/Pfalz, aber noch ohne belastbare Betreiber-/Ortsbestätigung. Der frühere Street-Wert vermischte Name, Ort und „Altestr. 4“ und war kein valides Adressfeld; deshalb geleert, nicht mit der unbestätigten Hausnummer ersetzt. ANKAUF: nicht gesichert, keine numerische Preisliste; VERKAUF: keine Liste; GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.25655, 8.97785. Nominatim-Reverse löst den Punkt auf die K 4283 bei Hasselbach/Sinsheim in Baden-Württemberg auf, nicht nach Bechhofen in der Pfalz. `clear_fields: 'geo'` entzieht das falsche Paar beim nächsten regulären Seed. Adresse und Betreiberidentität bleiben ungeklärt; keine Ersatzkoordinate geraten. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.25655&lon=8.97785&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Erneute Suche nach „Schrotthandel Paul“, Bechhofen/Pfalz und Alte Straße 4 ergab weiterhin keinen Betreiber-/Registerbeleg. Cylex führt als nicht verifizierten Lead Alte Str. 4, 66894 Bechhofen, Tel. 0179 6320816; der frühere Direktabruf von schrott-paul.de lieferte keine auswertbare Betreiberbestätigung. Nicht mit dem bayerischen Bechhofen (91572) verwechseln. Adresse/Telefon/Website bleiben leer. ANKAUF: nicht bestätigt, keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. GEO erst nach richtiger Orts-/Betreiberbestätigung. Quelle: https://web2.cylex.de/firma-home/schrotthandel-paul-15241859.html (Verzeichnislead; Suchstand 25.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

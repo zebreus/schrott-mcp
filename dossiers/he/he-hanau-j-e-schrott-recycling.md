@@ -1,5 +1,6 @@
 ---
 slug: he-hanau-j-e-schrott-recycling
+clear_fields: 'geo'
 name: J.E. Schrott & Recycling
 trader_type: schrotthaendler
 state: HE
@@ -27,6 +28,14 @@ provenance_origin: table
 J.E. Schrott & Recycling bleibt Karten-/Verzeichnislead: Exa nennt Diebacher Weg 121 und 01577 9264128. Kein Betreiberlink/Impressum oder ausgeschriebener Inhaber ermittelt. Kartenstatus Open und Einzelbewertung belegen keinen aktuellen Ankauf; Kontakte, Zeiten, Ankauf-/Verkaufs-/Gebührenkonditionen nicht strukturiert übernehmen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.1280667, 8.9168333. Nominatim-Reverse löst den Punkt an der Friedrich-Ebert-Anlage 31a in Hanau-Südost auf; kein Dossierbeleg verbindet diesen Ort mit dem einzelnen Exa-Portal-Lead Diebacher Weg 121. `clear_fields: 'geo'` entzieht den nicht zugeordneten Altpunkt beim nächsten regulären Seed. Kein Ersatzpunkt ohne Betreiber- und Standortbestätigung. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.12806666666666&lon=8.916833333333335&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Exakte Namens-/Ortsnachsuche brachte keine Betreiberwebsite, kein Impressum und keinen unabhängigen Register-/Kommunalbeleg. Die bekannten Portalwiederholungen der Exa-Angabe (Diebacher Weg 121, 63452 Hanau, 01577 9264128; teils ergänzt um Öffnungszeiten, Materialarten und Mindestmengen) bleiben eine Verzeichnis-/Karten-Belegklasse. „Open“, Bewertungen und automatisch erzeugte Materiallisten sind weder aktueller Ankauf noch öffentliche Annahmebedingungen. Keine Felder geändert. ANKAUF: keine zuordenbaren Kurse; VERKAUF: keine Liste; GEBÜHREN: keine verlässlichen Tarife. GEO erst nach Betreiber-, Adress- und Annahmestellenbestätigung. Quelle: https://exa.ai/library/place/vylzk5ln3y8 (Aggregator/Kartenlead; Suchstand 25.10.2026).]
 
 ### Recherche 14.10.2026
 

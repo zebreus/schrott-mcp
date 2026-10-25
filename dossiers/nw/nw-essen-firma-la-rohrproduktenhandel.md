@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-firma-la-rohrproduktenhandel
+clear_fields: 'geo'
 name: Firma Laß – Rohproduktenhandel
 trader_type: sonstige
 state: NW
@@ -31,6 +32,14 @@ Der externe Host burgaltendorf.com ist hier mehr als ein einfacher Branchenbuche
 **Preise:** Ankauf: Der Betreiber nennt Vergütung nach den jeweiligen Tagespreisen, ohne numerische Materialkurse. Verkauf: keine belegte Verkaufspreisliste. Gebühren: keine numerischen Container-/Entsorgungstarife veröffentlicht; nicht mit der Ankaufvergütung verwechseln.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.4502844, 7.0150531. Nominatim-Reverse löst den Punkt an der Freiheit im Essener Südviertel auf, nicht an der als Betreiber-/Seed-Lead geführten Worringstr. 250 in Burgaltendorf. `clear_fields: 'geo'` entzieht den adressfremden Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate ohne belastbaren Standortbeleg. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Tagespreis-Aussage von Containergebühr getrennt
+
+- [Recherche 25.10.2026: Betreiber-Containerseite und dortige Kontaktdaten direkt erneut gelesen. Der Text sagt, Container würden für Schrottabfälle „gerne“ bereitgestellt, Abholung erfolge „je nach Bedarf“ und die **Vergütung der Abfälle** erfolge nach den jeweiligen Tagespreisen. Das belegt nur eine nicht bezifferte, materialabhängige **Ankauf-/Vergütungsaussage** des dortigen Auftritts; es ist kein Container-Miet-/Entsorgungstarif. **Verkauf:** keine Produktpreisliste; **Gebühren:** keine konkreten Container-/Abholkosten ausgewiesen, daraus keine pauschale Kostenfreiheit ableiten. Betreiberauftritt bleibt eine Quellfamilie, die Heuweg-9-Gegenadresse ungeklärt; keine Frontmatter-/GEO-Änderung. Quelle: https://www.burgaltendorf.com/promotion/lass/containerdienst/index.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

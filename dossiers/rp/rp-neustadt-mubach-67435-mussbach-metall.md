@@ -1,5 +1,6 @@
 ---
 slug: rp-neustadt-mubach-67435-mussbach-metall
+clear_fields: 'geo'
 name: Mussbach Metall GmbH & Co. KG
 trader_type: metallhaendler
 state: RP
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Das NorthData-Firmenprofil zur Mussbach Metall GmbH & Co. KG führt HRA 41393 und An der Eselshaut 2, 67435 Neustadt; es dokumentiert eine Liquidationseintragung 2017, eine Fortsetzungseintragung vom 12.06.2025 und einen 2024er Jahresabschluss, publiziert am 05.02.2026. Die Einordnung als Herstellerin/Händlerin von Metallhalb-/Fertigfabrikaten und Rohstoffen stammt aus dem früher geprüften Profil der Geschäftsführungs-GmbH (HRB 41319), das die KG beschreibt. NorthData und der Registerspiegel sind Firmeninformationsdienste, keine hier eingeholten aktuellen amtlichen Auszüge; die Einträge belegen weder laufenden Kundenbetrieb noch Schrottankauf oder eine öffentliche Annahmestelle. Der Direktabruf von mussbach-metall.de scheiterte am 24.10.2026 mit einem Transportfehler; daraus folgt keine Geschäftsschließung. Keine Kontaktdaten oder Annahmebedingungen übernommen. **ANKAUF:** kein Schrottankauf belegt, keine Preise. **VERKAUF:** keine belastbare Produktpreisliste. **GEBÜHREN:** keine Angaben. **GEO:** die Registeranschrift ist nicht als öffentliche Annahmestelle bestätigt und wird nicht geokodiert.
+Das NorthData-Firmenprofil zur Mussbach Metall GmbH & Co. KG führt HRA 41393 und An der Eselshaut 2, 67435 Neustadt; die direkt geprüfte Publikationshistorie führt eine Liquidationseintragung 2017, eine Fortsetzungseintragung vom 12.06.2025 und einen Jahresabschluss zum 31.12.2023, publiziert am 15.07.2025. **Korrekturhinweis:** Die Recherche-Notiz vom 24.10.2026 nennt einen 2024er Abschluss (05.02.2026), was die am 25.10.2026 eingesehene NorthData-Historie nicht wiedergibt; diesen Abschluss daher nicht als bestätigt behandeln, bis ein aktueller amtlicher Auszug geprüft ist. Die Einordnung als Herstellerin/Händlerin von Metallhalb-/Fertigfabrikaten und Rohstoffen stammt aus dem früher geprüften Profil der Geschäftsführungs-GmbH (HRB 41319), das die KG beschreibt. Firmeninformationsdienste sind keine hier eingeholten aktuellen amtlichen Auszüge; die Einträge belegen weder laufenden Kundenbetrieb noch Schrottankauf oder eine öffentliche Annahmestelle. Der Direktabruf von mussbach-metall.de scheiterte am 24.10.2026 mit einem Transportfehler; daraus folgt keine Geschäftsschließung. Keine Kontaktdaten oder Annahmebedingungen übernommen. **ANKAUF:** kein Schrottankauf belegt, keine Preise. **VERKAUF:** keine belastbare Produktpreisliste. **GEBÜHREN:** keine Angaben. **GEO:** die Registeranschrift ist nicht als öffentliche Annahmestelle bestätigt und wird nicht geokodiert.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.86158, 7.9778. Nominatim-Reverse löst den Punkt an der Kreuznacher Straße in Sprendlingen auf, nicht in Neustadt an der Weinstraße-Mußbach. `clear_fields: 'geo'` entzieht den falschen Altpunkt beim nächsten regulären Seed. Die Mussbach-Metall-Anschrift ist keine bestätigte öffentliche Annahmestelle; keine Ersatzkoordinate gesetzt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.86158&lon=7.9778&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Korrektur/Recherche 25.10.2026
+
+- [Korrektur 25.10.2026: Aktueller Direktabruf des NorthData-Profils zur KG prüft die frühere Angabe aus der Notiz vom 24.10.2026 gegen die sichtbare Publikationshistorie: dort erscheinen Fortsetzung 12.06.2025 sowie Jahresabschluss zum 31.12.2023, veröffentlicht 15.07.2025; ein 2024er Abschluss vom 05.02.2026 ist in dieser eingesehenen Historie nicht sichtbar. Die 2024er-Angabe wird deshalb im Überblick zurückgenommen, nicht als endgültiger Negativbeweis behandelt; für den Rechtsstand ist ein aktueller amtlicher Registerauszug nötig. Historische Einträge bleiben erhalten. Der Hinweis auf Fortsetzung/liquidation betrifft den Rechtsträger, nicht den Nachweis einer aktiven Schrottannahme. ANKAUF/VERKAUF/GEBÜHREN unverändert unbelegt; Anschrift nicht als Hof geokodieren. Quelle: https://www.northdata.de/Mussbach%20Metall%20GmbH%20%26%20Co%C2%B7%20KG,%20Neustadt%20a%C2%B7%20d%C2%B7%20Weinstra%C3%9Fe/Amtsgericht%20Ludwigshafen%20a.Rhein%20HRA%2041393 (Firmeninformationsdienst, Abruf 25.10.2026).]
 
 ### Recherche 24.10.2026
 

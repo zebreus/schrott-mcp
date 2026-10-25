@@ -29,6 +29,10 @@ Konkreter, aber unbestätigter Verzeichnislead zu Peter beziehungsweise Peter un
 
 ## Timeline
 
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Das Telefonbuch führt „Firma Peter Höschele“, Kolpingstr. 37, 66849 Landstuhl, 06371 946878, Branche Schrott; das ist eine weitere Branchenverzeichnisangabe, kein Betreiber-/Registerbeleg und keine Bestätigung einer Annahmestelle. Sie bestätigt nicht, dass der separate Mobilnummer-Eintrag derselben Person/Firma gehört. Keine Felder und keine Produktionsdatenbank geändert. ANKAUF/VERKAUF/GEBÜHREN: keine Betreiberbedingungen oder Preise belegt. `clear_fields: 'geo'` bleibt bestehen; keine Ersatzkoordinate, keine neue Geokodierung. Quelle: https://www.dastelefonbuch.de/Details/Landstuhl/Schrott-Firma-Peter-H%C3%B6schele-Landstuhl-Kolpingstr.html (Verzeichnislead, Abruf 25.10.2026); frühere GEO-Prüfung siehe Eintrag 23.10.2026.]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 49.4131000, 7.5702000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

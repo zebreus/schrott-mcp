@@ -1,5 +1,6 @@
 ---
 slug: by-karlstadt-gambach-97753-schrott-und-metallhandel-christian-schle
+clear_fields: 'geo'
 name: Schrott und Metallhandel Christian Schlereth
 trader_type: metallhaendler
 state: BY
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Christian Schlereth, Schrott-/Metallhandel in Karlstadt-Gambach, bleibt nur durch Verzeichnis-Leads an Frühlingstr. 43 beschrieben. Gelbe Seiten und GoLocal nennen 09353 509050; GoLocal zusätzlich Mobilnummer/E-Mail, die ohne Betreiberbeleg nicht übernommen werden. Gleichnamiger Hochschullehrer an der WHU ist kein Händlernachweis. Keine aktuelle Kundenannahme oder zurechenbare Ankauf-, Verkaufs- und Gebührenliste verifiziert. Offen: tatsächliche Betreiberwebsite hinter dem Portal-Weblink, Gewerbeidentität und Annahmebedingungen; Legacy-Adresse/-Telefon bleiben ungeprüft erhalten.
+Christian Schlereth, Schrott-/Metallhandel in Karlstadt-Gambach, bleibt über Verzeichnisse an Frühlingstr. 43 / 09353 509050 auffindbar. Gelbe Seiten verlinkt neu die Domain schrotthandel-chschlereth.de; die Domain ließ sich nicht als Betreiberauftritt lesen. Sie ist nicht die ähnlich benannte schrotthandel-schlereth.de, deren Impressum Ewald Schlereth in Stammham nennt. Keine Verknüpfung zwischen den beiden Händlern belegt. Keine aktuelle Kundenannahme oder zurechenbare Ankauf-, Verkaufs- und Gebührenliste verifiziert. Offen: Identität und Erreichbarkeit des neuen Domainkandidaten sowie Annahmebedingungen; bestehende Adresse/Telefon bleiben Verzeichnis-Leads.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.9603, 9.7724. Nominatim-Reverse löst diesen Punkt am Krönleinsweg 16 auf, nicht an der dokumentierten Lead-Anschrift Frühlingstr. 43 in Karlstadt-Gambach. `clear_fields: 'geo'` entzieht den adressfremden Altpunkt beim nächsten regulären Seed. Betreiber- und Annahmestellenidentität bleiben ungeklärt; keine Ersatzkoordinate. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.9603&lon=9.7724&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Gelbe-Seiten-Detailseite direkt gelesen; sie bestätigt als Verzeichnis-Lead Christian Schlereth, Frühlingstr. 43, 97753 Karlstadt-Gambach, 09353 509050, und verlinkt erstmals schrotthandel-chschlereth.de. Die Domain-Root sowie /impressum, /kontakt und /preise waren beim Abruf nicht lesbar; Betreiber, Angebot und Preise daher nicht bestätigt. Das ist eine andere Domain als schrotthandel-schlereth.de, deren Impressum Ewald Schlereth/ES-Schrott-Containerdienst in Stammham nennt; keine Namens-/Familienverbindung abgeleitet. Kein Frontmatter-Fill. ANKAUF: keine Kurse; VERKAUF: keine Preisliste; GEBÜHREN: kein Tarif. GEO bleibt bis zur Betreiber- und Annahmestellenbestätigung zurückgestellt. Quellen: https://www.gelbeseiten.de/gsbiz/7ec0e13a-9c9f-4732-8509-1954dc1a375b ; https://www.dasoertliche.de/Themen/Schrott-und-Metallhandel-Christian-Schlereth-Karlstadt-Gambach-Frühlingstr ; http://schrotthandel-chschlereth.de/ ; https://schrotthandel-schlereth.de/impressum .]
 
 ### Recherche 22.10.2026
 

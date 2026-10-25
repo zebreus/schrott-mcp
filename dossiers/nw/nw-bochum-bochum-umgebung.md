@@ -1,5 +1,6 @@
 ---
 slug: nw-bochum-bochum-umgebung
+clear_fields: 'geo'
 name: Bochum-Umgebung
 trader_type: mobil
 state: NW
@@ -29,6 +30,14 @@ provenance_origin: table
 **Preise:** Ankauf: keine zuordenbare Preisliste oder Ankaufsbestätigung. Verkauf: keine Preisliste. Gebühren: keine Angaben. **Offen:** vollständiger Betreibername oder belastbarer Ursprungsbeleg, bevor Kontakt-/Standortdaten ergänzt oder geocodiert werden.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.4740889, 7.2192389; Nominatim-Reverse löst diesen Punkt an der Taubenstraße, Ehrenfeld/Wiemelhausen, auf. Der Seed benennt nur ein unspezifisches „Bochum-Umgebung“-Einsatzgebiet und keinen Händlerstandort; die Koordinate ist weder dafür repräsentativ noch eine belegte Annahmestelle. `clear_fields: 'geo'` entzieht den irreführenden Pin beim nächsten regulären Seed. Kein Ersatzpunkt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.474088888888886&lon=7.219238888888889&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: erneute Auflösungssuche
+
+- [Recherche 25.10.2026: Exaktsuche nach „Bochum-Umgebung“ in Verbindung mit Schrotthandel/Schrottabholung erneut geprüft. Der Ausdruck bleibt ein unspezifisches Einsatzgebietsfragment; kein eindeutiger Betreibername, Primärauftritt oder konkreter Hof ließ sich dem Seed zuordnen. Das ist kein amtlicher Negativbescheid und schließt einen mobilen Betrieb nicht aus. **Ankauf:** nicht bestätigt, keine Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarifangaben. Kein Feld- oder GEO-Fill; nächste sinnvolle Klärung ist der ursprüngliche Importdatensatz bzw. ein vollständiger Firmen-/Inhabername. Suchpfad: https://www.google.com/search?q=%22Bochum-Umgebung%22+Schrotthandel .]
 
 ### Recherche 07.10.2026
 

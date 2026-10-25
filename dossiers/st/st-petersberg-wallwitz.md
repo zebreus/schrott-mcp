@@ -1,5 +1,6 @@
 ---
 slug: st-petersberg-wallwitz
+clear_fields: 'geo'
 name: Wallwitz
 trader_type: autoverwertung
 state: ST
@@ -31,6 +32,10 @@ Der Ortsbezug Wallwitz liefert mehrere voneinander abweichende Autoverwertungs-K
 **GEO-Bedarf:** Am Kulturhaus 7 ist nun durch die BK-Shop-Selbstauskunft konkretisiert, Am Kulturhaus 2 bleibt historische Gegenkandidatenspur. Vor Punktprüfung aktuellen Gewerbestand und Seed-Zuordnung sichern; keine Koordinaten ermittelt oder ins Frontmatter übernommen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.59375, 10.2666. Nominatim-Reverse löst den Punkt auf den Planetenwanderweg bei Geba/Rhönblick in Thüringen auf, nicht nach Wallwitz bei Petersberg in Sachsen-Anhalt. `clear_fields: 'geo'` entzieht den falschen Punkt beim nächsten regulären Seed. Keine Ersatzkoordinate, da die Seed-Identität und ein Standort weiter ungeklärt sind. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.59375&lon=10.2666&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 21.10.2026
 

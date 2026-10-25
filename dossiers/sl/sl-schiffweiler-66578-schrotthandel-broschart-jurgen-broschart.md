@@ -1,5 +1,6 @@
 ---
 slug: sl-schiffweiler-66578-schrotthandel-broschart-jurgen-broschart
+clear_fields: 'geo'
 name: Schrotthandel Broschart (Jürgen Broschart)
 trader_type: containerdienst
 state: SL
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Jürgen Broschart Schrotthandel bleibt vom separaten Containerdienst Broschart GmbH (HRB 109524) abzugrenzen. Dessen Registeradresse Kohlengrubstraße 112 darf nicht auf den Schrotthandel übertragen werden. Seed-Telefon und An-den-Eichen-Lead aktuell unbestätigt. **Ankauf / Verkauf / Gebühren:** keine zurechenbare Liste. **GEO:** bis Identitäts-/Adressbestätigung zurückgestellt.
+Neue Branchenportale platzieren „Jürgen Broschart Schrotthandel“ mit Seed-Telefon 06821 68508 ebenfalls an Kohlengrubstraße 112; diese Adresse gehört nach Betreiberimpressum zur Containerdienst Broschart GmbH (HRB 109524, Geschäftsführer Markus Schorr). Das widerspricht dem Seed-Adresslead An den Eichen 1, beweist aber weder gemeinsame Identität noch Zweig/Nachfolge: die Portale sind keine Betreiberquellen. GmbH-Informationen und Preise dürfen nicht dem Schrotthandel zugerechnet werden. **Ankauf:** für Jürgen Broschart keine Kurse; **Verkauf:** keine Liste; **Gebühren:** für diesen Händler keine Tarife. Die separate GmbH berechnet bei falsch deklariertem Containerinhalt 50 € Aufwandspauschale zzgl. Deponiegebühr; nicht übertragbar. **GEO:** bis Identitäts-/Adressbestätigung zurückgestellt.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.3667, 7.1333. Nominatim-Reverse löst den Punkt an Mühlenstraße 19 in Schiffweiler auf; die Zielidentität ist aber ungeklärt und aktuelle Adressleads widersprechen sich zwischen An den Eichen 1 und Kohlengrubstraße 112 (letztere gehört einer getrennten GmbH). `clear_fields: 'geo'` entzieht den nicht zuordenbaren Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.3667&lon=7.1333&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Drei neue/erneut gelesene Branchenportale führen Jürgen Broschart Schrotthandel, Tel. 06821 68508, an Kohlengrubstraße 112, 66578 Schiffweiler; bisheriger Seed-Adresslead bleibt An den Eichen 1. Kohlengrubstraße 112 ist zugleich die Impressums-/Betriebsadresse der Containerdienst Broschart GmbH, HRB 109524, Geschäftsführer Markus Schorr. Der exakte Adressgleichlauf ist ein wichtiger Konflikt, aber kein Identitäts- oder Nachfolgenachweis; keine Felder geändert/zusammengeführt. Betreiberseite der GmbH nennt Metall-/Schrottabholung mit Abrechnung je nach Menge und entstandenen Kosten; falsch deklarierter Containerinhalt kostet dort 50,00 € Aufwandspauschale zzgl. Entsorgungsgebühr des Deponiebetreibers. Diese Gebühr und Bedingungen gelten ausdrücklich nur für die GmbH, nicht für den Zielhändler. ANKAUF/VERKAUF/GEBÜHREN für Jürgen Broschart bleiben unbelegt. GEO erst nach Eigentümer-/Adressklärung. Quellen: https://www.schrottplatz-info.de/schrottplatz/Schiffweiler/Broschart-Juergen ; https://branchenbuch.meinestadt.de/schiffweiler/company/500162336 ; https://www.schrottplatz.org/schiffweiler/schrott-broschart-juergen-aYEPIW.html ; http://www.broschart-containerdienst.de/impressum.html ; http://www.broschart-containerdienst.de/unsere_leistungen.html .]
 
 ### Recherche 20.10.2026
 

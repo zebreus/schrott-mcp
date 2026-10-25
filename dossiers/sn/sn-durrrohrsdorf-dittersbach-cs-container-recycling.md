@@ -1,5 +1,6 @@
 ---
 slug: sn-durrrohrsdorf-dittersbach-cs-container-recycling
+clear_fields: 'geo'
 name: CS Container & Recycling GmbH & Co. KG
 trader_type: sonstige
 state: SN
@@ -7,12 +8,12 @@ city: Dürrröhrsdorf-Dittersbach
 street: Dresdner Str. 59
 postcode: 01833
 phone: 035026 95590
-email: ''
-opening_hours: ''
-website: ''
-website_status: unbekannt
+email: info@cs-entsorgung.de
+opening_hours: Mo–Fr 07:00–17:00 (Anlieferung nur nach telefonischer Absprache)
+website: https://cs-entsorgung.de
+website_status: aktiv
 status: pruefung
-description: ''
+description: Entsorgung und Recycling u. a. von Schrott und NE-Metallen; Anlieferung nur nach telefonischer Absprache.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3 (27.09.2026)
@@ -24,11 +25,19 @@ provenance_origin: table
 
 ## Überblick
 
-Registerprofil direkt gelesen: CS Container & Recycling GmbH & Co. KG, AG Dresden HRA 4078, Dresdner Straße 59, 01833 Dürrröhrsdorf-Dittersbach. Historische Namen Umweltservice Scheibe KG und CS Container & Recycling KG gehören laut derselben Registerhistorie zur HRA 4078; persönlich haftende Gesellschafterin seit Januar 2020 ist CS Compounds & Synthetics GmbH (HRB 22031). Diese GmbH ist nicht mit der KG gleichzusetzen.
+Die offizielle Betreiberwebsite und das Impressum identifizieren CS Container & Recycling GmbH & Co. KG, HRA 4078, Dresdner Straße 59, Wilschdorf, 01833 Dürrröhrsdorf-Dittersbach; Kontakttelefon und E-Mail sind dort ebenfalls genannt. Der Standort ist Mo–Fr 07–17 Uhr erreichbar, Anlieferung jedoch nur nach telefonischer Absprache. Der offizielle Abfallkatalog nennt Schrott sowie Aluminium, Blei, Kupfer, Messing und Batterien als Abfall-/Recyclingkategorien; daraus folgt kein Ankaufangebot. `status: pruefung` bleibt, bis öffentlicher Ankauf und Kundenzugang geklärt sind. Historische Namen Umweltservice Scheibe KG und CS Container & Recycling KG gehören zur HRA 4078; Komplementärin CS Compounds & Synthetics GmbH (HRB 22031) bleibt rechtlich getrennt.
 
-Das ist ein qualifizierender Einzelbeleg für Name und Geschäftsanschrift, noch keine zweifache Bestätigung eines öffentlich zugänglichen Schrottankaufs. Telefon 035026 95590 bleibt historischer Gelbe-Seiten-Lead; keine passende Betreiberwebsite verifiziert. **Ankauf / Verkauf / Gebühren:** keine gelesene Betreiberpreisliste, Registerpublikationen sind keine Preise. **GEO:** Registeranschrift bekannt, Standort-/Anlieferfunktion und zweiter Beleg vor Geokodierung klären.
+**Preise:** **Ankauf** – keine Ankaufbestätigung oder Kurse; **Verkauf** – keine Preisliste; **Gebühren** – AGB (Stand Mai 2023) sehen vertragliche Nettopreise und gesonderte Entsorgungskosten vor; Wartezeit-/Nichtbereitstellungsentgelte können berechnet werden, aber es gibt keinen veröffentlichten numerischen Tarif. **GEO:** genaue Niederlassungsadresse belegt; Standort ist nur nach telefonischer Absprache anlieferbar, daher vor Geocoding klären, ob der Punkt als öffentlicher Annahmestandort geführt werden soll.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.0333, 14.0. Nominatim-Reverse löst den Punkt an Mittelstraße 5 in Elbersdorf auf; der direkt geprüfte Betreiber nennt Dresdner Straße 59 in Wilschdorf. Das sind verschiedene Adressen. `clear_fields: 'geo'` entzieht den falschen Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate, da Anlieferung nur nach telefonischer Absprache erfolgt und der öffentliche Pinzweck offen ist. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.0333&lon=14.0&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Betreiberwebsite und Konditionen
+
+- [Recherche 25.10.2026: Betreiberhomepage, Impressum, Kontaktseite, Abfallkatalog, Transportseite und AGB direkt gelesen. Das Impressum nennt CS Container & Recycling GmbH & Co. KG (HRA 4078) und führt CS Compounds & Synthetics GmbH (HRB 22031) als Komplementärin; die Nummern gehören zu unterschiedlichen Rechtsträgern. Dresdner Straße 59, Wilschdorf, 01833 Dürrröhrsdorf-Dittersbach; Kontaktseite bestätigt Hauptstandort, Tel. +49 35026 95590, info@cs-entsorgung.de und Mo–Fr 07–17 Uhr. Homepage sagt ausdrücklich: Anlieferung nur nach telefonischer Absprache. Betreiberkatalog listet Schrott, Al, Pb, Cu, Messing und Batterien als Abfall-/Recyclingkategorien, aber kein Ankaufversprechen. Damit Betreiberwebsite, E-Mail, Zeiten und Website-Status im Frontmatter aktualisiert; Status `pruefung` bleibt. AGB, Stand Mai 2023: Preise werden vertraglich vereinbart/netto, Entsorgungskosten gesondert berechnet; Wartezeit/Nichtbereitstellung können berechnet werden, ohne veröffentlichte Beträge. ANKAUF: keine Kurse/kein bestätigtes Ankaufangebot; VERKAUF: keine Preisliste; GEBÜHREN: Vertragskonditionen, keine Zahlenliste. GEO: genaue Adresse bestätigt, öffentlichen Kundenzugang vor Punktsetzung klären. Quellen: https://cs-entsorgung.de/ ; https://cs-entsorgung.de/impressum/ ; https://cs-entsorgung.de/kontakt/ ; https://cs-entsorgung.de/abfall-katalog/ ; https://cs-entsorgung.de/transport/ ; https://cs-entsorgung.de/agb/ .]
 
 ### Recherche/Korrektur 14.10.2026 (18:00-Welle B)
 

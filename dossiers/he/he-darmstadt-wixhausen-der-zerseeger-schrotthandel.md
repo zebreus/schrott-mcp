@@ -7,7 +7,7 @@ city: Darmstadt-Wixhausen
 street: ''
 postcode: ''
 phone: ''
-clear_fields: 'phone'
+clear_fields: 'geo,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -30,6 +30,14 @@ Der Zerseeger ist bisher nur Verzeichnislead für Am Sportplatz 12, 64291 Darmst
 Ankauf/Verkauf/Gebühren: keine verifizierten Listen, nicht aus einer unlesbaren Website auf Nichtvorhandensein schließen. Gewerbeauskunft bzw. Betreiberantwort zur Domain-/Inhaber-/Adresszuordnung; Am Sportplatz 12 erst danach geocodieren, bestehende GEO ggf. Owner prüfen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält für den Wixhausen-Lead 49.8718375, 8.6533. Nominatim-Reverse löst den Punkt an der Schuchardstraße in Darmstadt-Mitte auf, nicht in Darmstadt-Wixhausen. `clear_fields: 'geo,phone'` entzieht neben dem bereits dokumentierten Telefonnummernfeld auch dieses falsche GEO-Paar beim nächsten regulären Seed. Kein Standortbeleg und keine Ersatzkoordinate. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.8718375&lon=8.6533&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Die aktuelle 11880-Detailseite bleibt ein Verzeichnisdatensatz „Der Zerseeger“, Am Sportplatz 12, 64291 Darmstadt-Wixhausen, 0177 9333733; als Leistung wird nur Haushaltsauflösung geführt. Betreiber, Domain rheinmain-schrotthandel.de, Schrottankauf und öffentliche Anlieferung sind damit weiterhin nicht bestätigt. Keine Kontaktdaten ergänzt oder aus der Nachbaradresse von Levy abgeleitet. ANKAUF: keine belegten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine belastbaren Tarife. GEO erst nach Identitäts- und Annahmestellenbestätigung. Quelle: https://www.11880.com/branchenbuch/darmstadt/060442230B112433927/der-zerseeger (Verzeichnis, Abruf 25.10.2026).]
 
 ### Recherche 24.10.2026
 

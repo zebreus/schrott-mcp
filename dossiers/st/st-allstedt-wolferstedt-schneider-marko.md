@@ -1,5 +1,6 @@
 ---
 slug: st-allstedt-wolferstedt-schneider-marko
+clear_fields: 'geo'
 name: Schneider Marko
 trader_type: schrottplatz
 state: ST
@@ -28,6 +29,10 @@ provenance_origin: table
 Kandidat „Marko Schneider Schrottentsorgung“: Creditreform führt einen aktiven Gewerbebetrieb; Branchenverzeichnisse nennen Nienstedter Str. 1, 06542 Allstedt-Wolferstedt, Tel. 034652 245. Ein eigener Betreiberauftritt oder eine unabhängige aktuelle Standortbestätigung wurde nicht gefunden. Anschrift und Telefon bleiben deshalb Prüfhinweise, keine bestätigten Stammdaten. Keine belastbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung; vor Verifizierung nicht geocodieren.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.4038, 11.3869. Nominatim-Reverse löst den Punkt an Gerstenstraße 14 in Klosternaundorf auf, nicht an der Lead-Adresse Nienstedter Str. 1 in Allstedt-Wolferstedt. `clear_fields: 'geo'` entzieht den falsch zugeordneten Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate, da die Geschäfts-/Annahmestellenadresse nur Verzeichnislead ist. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.4038&lon=11.3869&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Quellenprüfung 24.10.2026
 

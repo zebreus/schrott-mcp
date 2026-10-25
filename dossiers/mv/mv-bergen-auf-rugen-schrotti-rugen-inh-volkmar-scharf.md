@@ -1,5 +1,6 @@
 ---
 slug: mv-bergen-auf-rugen-schrotti-rugen-inh-volkmar-scharf
+clear_fields: 'geo'
 name: Schrotti Rügen Inh. Volkmar Scharf
 trader_type: schrotthaendler
 state: MV
@@ -27,9 +28,17 @@ provenance_origin: table
 
 Für „Schrotti Rügen Inh. Volkmar Scharf“ in Silvitz bei Bergen auf Rügen liegen weiterhin Presse- und Verzeichnis-Leads, aber kein aktueller Betreiberauftritt oder belastbarer Register-/Kommunalbeleg vor; die Seed-Anschrift und Telefonnummer sind nicht neu unabhängig bestätigt. Eine ähnlich benannte Firma „Schrott & Metalle Torsten Rüge“ in Ludwigslust ist ein anderer Betrieb und wird nicht zusammengeführt.
 
-**Preise:** **Ankauf** — kein händlerspezifischer Kurs belegt. Ein lokales Portal zeigt für Bergen einen Kupfer-Millberry-Richtwert von 9,70–11,40 €/kg, aber nicht als Angebot dieses Händlers. **Verkauf** — keine Verkaufspreisliste. **Gebühren** — keine Abhol- oder Annahmetarife. Status `pruefung` bedeutet fehlende aktuelle Bestätigung, nicht Schließung.
+**Preise:** **Ankauf:** kein händlerspezifischer Kurs belegt. Die aktuelle Stadtseite eines Branchenportals zeigt für Deutschland einen Kupfer-Millberry-Richtwert von 10,25–11,70 €/kg; das ist weder ein Preis für Bergen noch ein Angebot von Schrotti Rügen. Der früher notierte Bergen-Seitenwert 9,70–11,40 €/kg ist damit kein aktueller Abrufstand. **Verkauf:** keine Verkaufspreisliste. **Gebühren:** keine Abhol- oder Annahmetarife. Status `pruefung` bedeutet fehlende aktuelle Bestätigung, nicht Schließung.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 54.4182, 13.4335. Nominatim-Reverse löst den Punkt am Markt in Bergen auf, nicht an der als Lead geführten Anschrift Silvitz 8. Die Anschrift ist noch nicht als öffentlicher Betreiberstandort bestätigt; `clear_fields: 'geo'` entzieht das nicht adressgenaue Paar beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.4182&lon=13.4335&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Preis-Referenz aktualisiert, nicht zugerechnet
+
+- [Recherche 25.10.2026: Stadtseite Bergen auf Rügen von LokaleSchrottplatz direkt gelesen. Die dortige Rubrik „Kurze Preisanalyse für Schrott in Deutschland“ zeigt aktuell Kupfer Millberry (Klasse 1A) mit 10,25–11,70 €/kg. Das ist ein aggregierter Deutschland-Richtwert, kein händlerspezifischer Ankaufkurs und kein Verkaufspreis dieses Händlers. Er ersetzt den früher auf der Stadtseite beobachteten Wert 9,70–11,40 €/kg als aktuellen Portal-Snapshot, macht ihn aber nicht rückwirkend falsch. Das Schrotti-Rügen-Profil bleibt mit Silvitz 8/18528 und 0171 7246081 nur Portal-Lead; keine Adresse-/Telefonbestätigung, kein händlerspezifischer Preis, keine Verkaufsliste oder Gebühren. Der Lead-Standort ist weiter vor GEO zu verifizieren. Quellen: https://lokaleschrottplatz.de/mecklenburg-vorpommern/bergen-auf-ruegen/ ; Profil-Lead: https://lokaleschrottplatz.de/schrotti-rugen-inh-volkmar-scharf/ .]
 
 ### Recherche 13.10.2026
 

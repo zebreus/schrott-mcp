@@ -1,5 +1,6 @@
 ---
 slug: nw-nrw-weit-schrott24-metaloop-online-portal
+clear_fields: 'geo'
 name: Schrott24 (Metaloop, Online-Portal)
 trader_type: schrotthaendler
 state: NW
@@ -29,6 +30,14 @@ Schrott24/Metaloop präsentiert sich als überregionaler Online-Verkaufs- und Ve
 **Preislistenfunde, getrennt:** Ankauf (Kunde verkauft Altmetall an Portal): der Online-Shop berechnet dynamische, transport- und ortsabhängige Ankaufspreise. Die Preisseite trägt den Stand 14.11.2025; die Kupferseite nennt allgemein 4-6 EUR/kg ohne aktuelle Güte-/Stichtagszuordnung. Das ist keine belastbare aktuelle NRW-Preisliste. Verkauf (Portal/Partner verkaufen Altmetall an Abnehmer): Website verlinkt „Altmetall kaufen“ und Partner-Webshop, aber in den geprüften Seiten keine öffentliche konkrete Verkaufspreisliste. Gebühren/Logistik: Ablaufseite und FAQ widersprechen sich bei genutzter Paketmarke (6 EUR je Paket versus 5 EUR je Marke); Big Bag 5 EUR/Stück plus Versand; Eigenanlieferung ab 100 EUR Materialwert; Palettenabholung wird nach Anzahl, Gewicht und Standort berechnet; Container/Greifer-LKW nach individuellem Angebot. AGB nennen außerdem eine Stornogebühr (5 % bzw. mindestens 20 EUR bei Warenwert unter 400 EUR) und 2 % PayPal-Abzug, verweisen aber noch auf „Schrott24 GmbH“, während das aktuelle Impressum Metaloop Europe GmbH nennt. Diese AGB-Beträge daher nur als Fund mit Aktualitäts-/Betreiber-Vorbehalt führen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.58945, 7.2035. Nominatim-Reverse löst den Punkt in der Tiroler Straße in Recklinghausen auf. Schrott24 ist hier als überregionales Onlineportal ohne belegten NRW-Standort dokumentiert; dieser konkrete Straßenpunkt ist keine Geschäfts- oder Annahmestelle. `clear_fields: 'geo'` entzieht den irreführenden Pin beim nächsten regulären Seed. Keine Ersatzkoordinate für ein regionales Portal gesetzt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.58945&lon=7.2035&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Preisstand direkt gegengeprüft
+
+- [Recherche 25.10.2026: Betreiber-Preisseite direkt vollständig abgerufen. Sie nennt weiterhin „Tagesaktuelle Schrottpreise vom 14.11.2025“, weist zugleich darauf hin, dass angezeigte Maximalpreise für DE/AT von Standort und Transportart abhängen; der im Abruf sichtbare Rechner verlangt Material und Menge, aber der Seitentext enthält keine aktuelle numerische NRW-Tabelle. Das ist **Ankauf aus Kundensicht** (Schrott wird an das Portal verkauft), keine Händler-Verkaufspreisliste. **Verkauf** an Kunden: kein konkreter Produkt-/Metallpreis-Katalog belegt. **Gebühren/Logistik:** bleiben den Ablauf-/AGB-Konflikten der vorigen Prüfung unterworfen; kein neuer fester Satz ableitbar. Betreiberidentität, Insolvenz-/Abwicklungsstand und tatsächliche NRW-Verfügbarkeit weiterhin ungeklärt; keine Adresse/GEO oder Konditionsfelder geändert. Quelle: https://www.schrott24.de/schrottpreise/ ; ergänzend aktuelles Impressum: https://www.schrott24.de/faq/impressum/ .]
 
 ### Recherche 24.10.2026: AGB-Verweis und Preis-/Gebührenabgleich
 

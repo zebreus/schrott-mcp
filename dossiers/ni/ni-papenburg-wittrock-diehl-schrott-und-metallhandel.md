@@ -1,5 +1,6 @@
 ---
 slug: ni-papenburg-wittrock-diehl-schrott-und-metallhandel
+clear_fields: 'geo'
 name: Wittrock & Diehl Schrott- und Metallhandel
 trader_type: metallhaendler
 state: NI
@@ -29,6 +30,10 @@ Der frühere Such-Negativbefund ist überholt: NorthData direkt gelesen führt W
 Domainkandidat wittrock-diehl.de war bei mehreren Direktversuchen nicht lesbar (HTTP 500), Creditreform-Detail HTTP 403. Suchauszüge/Portale geben Kontakt- und Leistungsleads, aber keine zweite gelesene Betreiberquelle. Status `pruefung` und leere Felder bleiben bis zum Owner-Abgleich. **Ankauf:** keine belastbaren Kurse; **Verkauf:** Trapezblech-/Stahl-/Zaunangebot nur Lead ohne geprüfte Liste; **Gebühren:** keine Tarife. GEO erst nach Bestätigung der Annahmestellenfunktion, nicht aus Registeradresse allein.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 53.0774, 7.4044. Nominatim-Reverse löst den Punkt an Am Anker 8 in Papenburg auf; keine Recherchequelle im Dossier verbindet diese Adresse mit Wittrock & Diehl. Betreiberseite und Registerdetail sind weiterhin nicht lesbar, eine Geschäfts-/Annahmestelle ist nicht bestätigt. `clear_fields: 'geo'` entzieht den unbelegten Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.0774&lon=7.4044&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 19.10.2026: Welle 03:30 C
 

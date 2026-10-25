@@ -1,5 +1,6 @@
 ---
 slug: by-zeil-am-main-97475-denk-av
+clear_fields: 'geo'
 name: Denk AV
 trader_type: sonstige
 state: BY
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Betreiberkandidat Autoverwertung Denk in Zeil: HTTP-Website erreichbar, Impressum Brigitte Denk, Wildgarten 5, 97475 Zeil, 09524/7191, 0171/7283577 und fraenklin.denk@t-online.de. Keine gesicherte Gleichsetzung mit dieser unspezifischen Seedzeile, dem Geschwisterdossier by-zeil-a-main-97475-autoverwertung-denk-denk-f oder Denk Haßfurt. Betreiber-/Dublettenfrage Brigitte/Elfriede/Fränklin bleibt offen; keine Zusammenführung oder Kontaktübertragung. Website-Status unbekannt statt unbegründet tot, da im Frontmatter keine identifizierte Domain steht. Ankauf von PKW, Verkauf von PKW/Teilen und Abholung/Entsorgung beworben, aber keine numerische Ankauf-, Verkaufs- oder Gebührenliste. Preisangebot/Termin telefonisch klären; Betriebs- und Dossieridentität zunächst unabhängig bestätigen.
+Die Betreiberwebsite der Autoverwertung Denk nennt Brigitte Denk, Wildgarten 5, 97475 Zeil, und bewirbt PKW-Ankauf/-Verkauf, Teileverkauf sowie Abholung/Entsorgung. Die allgemeine Seedzeile bleibt jedoch nicht sicher mit dieser Betreiberin oder dem Geschwisterdossier by-zeil-a-main-97475-autoverwertung-denk-denk-f gleichgesetzt; Brigitte/Elfriede/Fränklin und der Bezug zu Denk Haßfurt sind offen. Neue Verzeichnisdaten widersprechen einander: Das Örtliche nennt 09524 7191 und einzelne Vormittage/Terminvereinbarung, 11880 dagegen 09524 301944 und werktägliche Vor-/Nachmittagszeiten. Betreiberseite nennt keine festen Öffnungszeiten, sondern telefonische Terminabstimmung. Deshalb keine Kontakt-/Zeitübernahme oder Zusammenführung. **Ankauf:** PKW-Ankauf beworben, keine Beträge; **Verkauf:** PKW/Teile beworben, keine Preisliste; **Gebühren:** keine Tarife. Betreiberidentität und tatsächliche Annahme telefonisch/kommunal klären.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.0024, 10.6098. Nominatim-Reverse löst den Punkt an der Bamberger Straße 41 in Ziegelanger auf; die Betreiberwebsite nennt als Kandidaten Wildgarten 5 in Zeil, dessen Zuordnung zum Seed ohnehin ungeklärt bleibt. `clear_fields: 'geo'` entzieht den nicht passenden Altpunkt beim nächsten regulären Seed. Keine Kandidatenadresse übernommen oder neu geokodiert. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0024&lon=10.6098&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Die Betreiberseiten für Leistungen/Impressum bestätigen weiterhin die Selbstauskunft Brigitte Denk, Wildgarten 5, PKW-Ankauf/-Verkauf, Ersatzteilverkauf und Altautoabholung; feste Öffnungszeiten und Preise nennen sie nicht, sondern bitten um telefonische Terminabstimmung. Neue Gegenprobe: Das Örtliche führt 09524 71 91 und Mo/Mi/Do 08–12 Uhr sowie Samstag nach Vereinbarung; 11880 führt dagegen 09524 301944 und Mo–Fr 08–12/13–17, Sa 09–12 (Eintragsdaten 21.02.2026, aktualisiert 15.10.2026). Beides sind Verzeichnisangaben, kein Betreiberbeleg; Nummern und Zeiten daher nicht ins Frontmatter übernommen. Dubletten-/Betreiberfrage mit den Zeil- und Haßfurt-Dossiers bleibt offen. ANKAUF: PKW-Ankauf beworben, kein Zahlenkurs; VERKAUF: PKW/Teile, keine Preisliste; GEBÜHREN: kein Tarif. Quellen: http://www.autoverwertung-denk.de/pg001.html ; http://www.autoverwertung-denk.de/pg003.html ; https://www.dasoertliche.de/Themen/Autoverwertung-Denk-Zeil-a-Main-Wildgarten ; https://www.11880.com/branchenbuch/zeil-am-main/060440459B28938481/f-autoverwertung-denk.html .]
 
 ### Korrektur 09.10.2026
 

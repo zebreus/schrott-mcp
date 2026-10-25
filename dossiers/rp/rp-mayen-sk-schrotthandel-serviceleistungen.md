@@ -1,5 +1,6 @@
 ---
 slug: rp-mayen-sk-schrotthandel-serviceleistungen
+clear_fields: 'geo'
 name: SK Schrotthandel & Serviceleistungen
 trader_type: schrotthaendler
 state: RP
@@ -29,6 +30,14 @@ Betreiber-Einzelbeleg mit internem Identitätskonflikt: Impressum nennt René St
 **Ankauf:** Zinn, Gold, Silber, Platin und Katalysatoren für Privat/Gewerbe; keine numerischen Ankaufkurse. **Verkauf:** keine Liste in den geprüften Seiten. **Gebühren:** Altmetall-/Elektroschrottabholung und Sammelbehälter kostenlos beworben, ausdrücklich ausgenommen Kühlschränke, Bildschirme und Fernseher: **15 € pro Gerät inkl. Entsorgungsnachweis**, Umsatzsteuerbasis/Gültigkeitsdatum nicht genannt. Kleine Mengen ausdrücklich möglich; 800 kg bezeichnet Fahrzeug-Zuladekapazität, keine Mindestabholmenge. Maximal 1.800 kg je Anfahrt, größere Mengen mit zwei Fahrzeugen nach Absprache.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.328, 7.2228. Nominatim-Reverse löst den Punkt an Neustraße 14 in Mayen auf; das Dossier belegt für den mobilen Abholservice keinen festen öffentlichen Hof an dieser Adresse. `clear_fields: 'geo'` entzieht den nicht kuratierten Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate für einen mobilen Dienst. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.328&lon=7.2228&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Betreiberseiten zu Impressum und kostenloser Schrottabholung direkt erneut geprüft; Widerspruch auf derselben Domain bleibt: Impressum René Stöcker/Neustraße 15, Datenschutz Michel Kraus/Alkenstraße 30. Keine Identitäts-/Adressfelder ergänzt. Gebührenfund bestätigt: für Kühlschränke, Bildschirme und Fernseher jeweils 15 € einschließlich Entsorgungsnachweis; die Website nennt keine MwSt.-Basis oder Gültigkeitsdauer. Sonstige Altmetall-/Elektroschrottabholung und Behälter werden als kostenlos beworben, kleine Mengen sind möglich; bis 1.800 kg je Anfahrt, 800 kg ist Fahrzeugzuladung und kein Mindestgewicht. ANKAUF: Zinn, Gold, Silber, Platin, Katalysatoren ohne bezifferte Kurse; VERKAUF: keine Preisliste; GEBÜHREN: 15 €/Gerät ist die einzige konkrete Tarifangabe gefunden. Mobile Abholung belegt keinen öffentlichen Hof; keine GEO. Quellen: http://www.sk-serviceleistungen.info/Impressum/ ; http://www.sk-serviceleistungen.info/Kostenlose-Schrottabholung/ (Betreiber-Einzelquelle, Abruf 25.10.2026).]
 
 ### Recherche 11.10.2026 (Wave E — Gebührenfund erneut geprüft)
 

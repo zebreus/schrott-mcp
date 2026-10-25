@@ -1,5 +1,6 @@
 ---
 slug: bb-finsterwalde-podtke-trans-schrott
+clear_fields: 'geo'
 name: Pödtke-Trans GbR Schrott
 trader_type: schrottplatz
 state: BB
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Pödtke-Trans GbR Schrott wird von mehreren Verzeichnissen mit Frankenaer Weg 42, 03238 Finsterwalde und Tel. 0173 8124713 geführt. Die wiederholten Einträge sind eine Belegklasse; Northdata und das abrufbare kommunale Firmenverzeichnis lieferten keinen passenden Primärbeleg. Status pruefung bleibt, ohne daraus eine Schließung abzuleiten. Keine zuordenbare Ankaufspreisliste, Verkaufs- oder Gebührenpreise; Anschrift vor Geokodierung kommunal/bei Betreiber verifizieren.
+Pödtke-Trans GbR Schrott wird von mehreren Verzeichnissen mit Frankenaer Weg 42, 03238 Finsterwalde und Tel. 0173 8124713 geführt. Das Örtliche führt zusätzlich poedtketrans@web.de und Branchenrubriken zu Schrott/Altmetall/Buntmetallen; E-Mail und Rubriken sind Verzeichnisdaten, kein Betreiberbeleg oder bestätigtes Ankaufversprechen. Northdata und das abrufbare kommunale Firmenverzeichnis lieferten keinen passenden Primärbeleg. Status pruefung bleibt, ohne daraus eine Schließung abzuleiten. Keine zuordenbare Ankaufspreisliste, Verkaufs- oder Gebührenpreise; Anschrift vor Geokodierung kommunal/bei Betreiber verifizieren.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.6391223, 13.6966182; Nominatim-Reverse trifft zwar Frankenaer Weg 42 in Finsterwalde, dieselbe Anschrift wie die Branchenverzeichnis-Leads, aber kein Betreiber-/Annahmestellennachweis. Weil die Quelle ausdrücklich vor Geocoding bis zur Verifizierung warnt, ist der bisherige Punkt nicht kuratiert. `clear_fields: 'geo'` entzieht ihn beim nächsten regulären Seed; keine Ersatzkoordinate. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.6391223&lon=13.6966182&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Das Örtliche führt „Pödtke-Trans GbR Schrott“, Frankenaer Weg 42, 03238 Finsterwalde, 0173 8124713 und neu sichtbar poedtketrans@web.de; die Rubriken umfassen Schrott, Altmetall/Buntmetalle und Metallabfall. Auch E-Mail und Kategorien bleiben Angaben eines Branchenverzeichnisses, keine Betreiberbestätigung und kein Beleg tatsächlicher Ankaufskonditionen. E-Mail nicht ins Frontmatter übernommen; bestehende Kontaktdaten bleiben als Verzeichnisstand prüfbedürftig. ANKAUF: keine numerischen Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine neue GEO; Frankenaer Weg 42 erst nach Bestätigung von Betreiber und realer Annahmestelle verifizieren/geokodieren. Quelle: https://www.dasoertliche.de/Themen/P%C3%B6dtke-Trans-GbR-Schrott-Finsterwalde-Frankenaer-Weg (Verzeichnis, Abruf 25.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

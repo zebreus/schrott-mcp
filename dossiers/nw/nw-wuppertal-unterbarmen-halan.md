@@ -1,5 +1,6 @@
 ---
 slug: nw-wuppertal-unterbarmen-halan
+clear_fields: 'geo'
 name: Halan
 trader_type: schrotthaendler
 state: NW
@@ -24,11 +25,19 @@ provenance_origin: table
 
 ## Überblick
 
-Portal nennt jetzt konkrete Adresse **Burgunderstraße19,42285Wuppertal**, dazu020276713022; kein bestätigter Betreiber-/Registerbeleg und keine Annahmestelle aus dem Firmennamen ableiten. Portalzeiten widersprüchlich: Status öffnet morgen um12:00, Wochenliste Mo-Sa08:00-20:00. Material-/Mindestmengenliste gleicht anderen Portalhändlern und ist nicht betreiberspezifisch validiert. Seed-Unterbarmen bleibt unbestätigt; Status `pruefung`, keine Kontakt-/Adressfills.
+Das Portal nennt jetzt die konkrete Lead-Adresse **Burgunderstraße 19, 42285 Wuppertal**, Telefon 0202 76713022 und bezeichnet sie als „Adresse des Schrottplatzes“; ein bestätigter Betreiber-/Registerbeleg fehlt. Portalzeiten widersprüchlich: Status „öffnet Montag um 12:00“, Wochenliste Mo–Sa 08:00–20:00. Die dortige Materialliste und Mindestmengen (Eisenmetalle ab 100 kg, Nichteisenmetalle ab 1 kg) sind nicht betreiberspezifisch validiert. Seed-Unterbarmen bleibt unbestätigt; Status `pruefung`, keine Kontakt-/Adressfills.
 
 **Ankauf:** Verzeichnisleistung ohne verifizierte Vergütung/Preise. **Verkauf:** keine Liste. **Gebühren:** keine Tabelle. Burgunderstraße erst nach Betreiber-/Standortbestätigung geocodieren.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.259513, 7.1649087. Nominatim-Reverse löst den Punkt an den Gewerblichen Schulen I am Hardtufer auf, nicht an der als Portal-Lead geführten Burgunderstraße 19. Der Portalstatus und die Annahmefunktion sind widersprüchlich; `clear_fields: 'geo'` entzieht den nicht adressgenauen Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.259513043478265&lon=7.164908695652174&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026: Portalprofil und Mindestmengen gegengeprüft
+
+- [Recherche 25.10.2026: Halan-Profil auf LokaleSchrottplatz direkt gelesen. Das Portal bezeichnet Burgunderstraße 19, 42285 Wuppertal nun ausdrücklich als „Adresse des Schrottplatzes“, führt 0202 76713022, Wochenliste Mo–Sa 08:00–20:00 und Mindestmengen Eisenmetalle ab 100 kg/NE-Metalle ab 1 kg. Zugleich steht im Status „Geschlossen, öffnet Montag um 12:00“, was mit der Wochenliste nicht zusammenpasst. Sämtliche Angaben bleiben ein einzelner Branchenportal-Lead; die standardisierte Material-/Mindestmengenliste ist keine verifizierte Halan-Annahmebedingung. **Ankauf:** keine Vergütung/Preise bestätigt; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Keine GEO-Koordinate oder Frontmatter-Änderung; Betreiber und Annahmefunktion vor Pin bestätigen. Quelle: https://lokaleschrottplatz.de/halan-schrottabholung-wuppertal/ .]
 
 ### Recherche 13.10.2026
 

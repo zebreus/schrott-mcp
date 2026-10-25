@@ -1,5 +1,6 @@
 ---
 slug: he-pfungstadt-64319-stein-alexander-sebastian
+clear_fields: 'geo'
 name: Stein Alexander-Sebastian
 trader_type: schrotthaendler
 state: HE
@@ -29,6 +30,14 @@ Das Dossier beruht auf Verzeichnisangaben für „Alexander-Sebastian Stein“ i
 **Preise:** keine Ankaufspreise, Verkaufspreise oder Entsorgungsgebühren veröffentlicht oder belastbar gefunden. Status `pruefung` bleibt; weder Betriebsaufgabe noch aktueller Ankauf ist belegt.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 25.10.2026
+
+- [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 49.8056, 8.6031. Nominatim-Reverse löst den Punkt an der Rügnerstraße 67c auf, nicht am historischen Verzeichnislead Tulpenweg 3. Der Dossierstand belegt keinen Betreiberstandort. `clear_fields: 'geo'` entzieht das nicht passende Paar beim nächsten regulären Seed; keine Ersatzkoordinate gesetzt. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.8056&lon=8.6031&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]
+
+### Recherche 25.10.2026
+
+- [Recherche 25.10.2026: Darmstadt Post führt in einem aktuellen Unternehmensverzeichniseintrag „Alexander-Sebastian Stein Schrotthandel“, Tulpenweg 3, 64319 Pfungstadt, Tel. 06157 9110132. Das ergänzt die älteren 11880-/Stadtbranchenbuch-Leads, ist aber ebenfalls ein Verzeichnis und keine Betreiber-/Registerbestätigung; die dort gezeigte Bewertung ist kein Nachweis laufender Annahme. Kein Frontmatter-Fill. ANKAUF: keine bestätigten Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. GEO erst nach Identitäts- und Standortbestätigung. Quelle: https://darmstadt-post.de/unternehmen/pfungstadt/schrotthandel/alexander-sebastian-stein-schrotthandel-493/ (Verzeichnis, Abruf 25.10.2026).]
 
 ### Korrektur 17.10.2026 (Keep/Clear-Grenze)
 
