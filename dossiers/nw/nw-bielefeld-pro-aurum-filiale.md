@@ -7,8 +7,8 @@ city: Bielefeld
 street: Am Bach 1b
 postcode: '33602'
 phone: +49 521 304 667-0
-email: ''
-opening_hours: ''
+email: bielefeld@proaurum.de
+opening_hours: Mo,Di,Do,Fr 09:30-13:00/14:00-18:00, Mi 09:30-14:00, Sa 09:30-14:00
 website: https://www.proaurum.de/
 website_status: aktiv
 status: aktiv
@@ -27,6 +27,10 @@ provenance_origin: feedback
 Seit 2025 bestehende öffentliche Filiale für Edelmetallhandel und Beratung. Für größere Altgoldmengen bittet der Betreiber um vorherige Terminvereinbarung.
 
 ## Timeline
+
+### Owner-Prüfung 25.10.2026
+
+- [Korrektur 25.10.2026: Die aktuelle Betreiber-Detailseite der Filiale Bielefeld nennt die E-Mail-Adresse bielefeld@proaurum.de und eigene Filialöffnungszeiten: Mo, Di, Do, Fr 09:30-13:00 und 14:00-18:00; Mi 09:30-14:00; Sa 09:30-14:00. Die bereits strukturiert gespeicherte Telefonnummer und Anschrift stimmen mit der Seite überein und bleiben unverändert. Quelle: https://www.proaurum.de/unternehmen/standorte/bielefeld/ (Abruf 25.10.2026)]
 
 ### Recherche 12.10.2026 (Feedback-Triage IDs 5119/5726/6347)
 
