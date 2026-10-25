@@ -6,6 +6,8 @@ state: NW
 city: Ahaus-Alstätte
 street: Am Bahnhof 5
 postcode: '48683'
+lat: 52.1280048
+lon: 6.9219631
 phone: '02567 295'
 email: ''
 opening_hours: 'Mo-Do 08:00-16:30, Fr 08:00-16:00'
@@ -24,9 +26,13 @@ provenance_origin: feedback
 
 ## Überblick
 
-Die aktuelle Betreiber-Standortseite führt Lager II in Ahaus-Alstätte mit eigener Anschrift, Telefonnummer und Öffnungszeiten. Impressum und Registerprofil ordnen den Betreiber der Wilhelm Paul & Sohn GmbH, HRB 5570, zu. Das Unternehmen wirbt allgemein mit Schrottabgabe für Privatkunden; die Privatkundenseite nennt aber nicht, welche Zweigstelle diese Anlieferung annimmt. Deshalb bleibt der branchenspezifische Annahmestatus `pruefung`; es werden keine Privatkundenbedingungen, Materialien oder Preise in strukturierte Annahmefelder übertragen. Die dort genannte Sommerpause endete am 11.09.2026 und ist kein Beleg einer aktuellen Schließung. GEO fehlt bewusst und muss vor einem Seed-Rollout extern geprüft werden.
+Die aktuelle Betreiber-Standortseite führt Lager II in Ahaus-Alstätte mit eigener Anschrift, Telefonnummer und Öffnungszeiten. Impressum und Registerprofil ordnen den Betreiber der Wilhelm Paul & Sohn GmbH, HRB 5570, zu. Das Unternehmen wirbt allgemein mit Schrottabgabe für Privatkunden; die Privatkundenseite nennt aber nicht, welche Zweigstelle diese Anlieferung annimmt. Deshalb bleibt der branchenspezifische Annahmestatus `pruefung`; es werden keine Privatkundenbedingungen, Materialien oder Preise in strukturierte Annahmefelder übertragen. Die dort genannte Sommerpause endete am 11.09.2026 und ist kein Beleg einer aktuellen Schließung. Die GEO-Koordinate stammt aus dem vom Betreiber für diesen Standort verlinkten Karten-Pin und ist per Reverse-Geocoding gegen Betrieb und Adresse geprüft; sie markiert den Standort, nicht vermessen den Eingang.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 25.10.2026
+
+- [Recherche 25.10.2026: Der Betreiber verlinkt für Lager II, Am Bahnhof 5, 48683 Ahaus-Alstätte, den Google-Maps-Business-Pin 52.1280048, 6.9219631. Nominatim-Reverse löst diesen Punkt als Paul & Sohn GmbH, Am Bahnhof 5, 48683 Ahaus, Ortsteil Alstätte auf. Der OSM-Objektpunkt liegt etwa 19 m entfernt; deshalb ist die Koordinate als Betreiber-Business-Pin auf Standortebene belegt, nicht als vermessener Eingangspunkt. Kein Beleg für branchenspezifische Privatkundenannahme; `status: pruefung` und leere Annahmefelder bleiben unverändert. Quelle: https://www.paulundsohn.de/ (Standortseite, Abruf 25.10.2026); https://www.google.com/maps/place/Wilhelm+Paul+%26+Sohn+GmbH/@52.1280081,6.9193882,675m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47b86ae2e040f10d:0xb16c32d8777fdb63!8m2!3d52.1280048!4d6.9219631!16s%2Fg%2F1tnqg1t8; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.1280048&lon=6.9219631&zoom=18&addressdetails=1]
 
 ### Recherche 12.10.2026
 

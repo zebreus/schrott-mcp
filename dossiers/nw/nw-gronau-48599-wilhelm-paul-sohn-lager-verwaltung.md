@@ -6,6 +6,8 @@ state: NW
 city: Gronau
 street: Röntgenstraße 9
 postcode: '48599'
+lat: 52.21189
+lon: 7.0715801
 phone: '02562 5061'
 email: ''
 opening_hours: 'Mo-Do 08:00-16:30, Fr 08:00-16:00'
@@ -24,9 +26,13 @@ provenance_origin: feedback
 
 ## Überblick
 
-Die aktuelle Betreiber-Standortseite führt das Gronauer Lager / die Verwaltung mit eigener Anschrift, Telefonnummer und Öffnungszeiten. Impressum und Registerprofil ordnen den Betreiber der Wilhelm Paul & Sohn GmbH, HRB 5570, zu. Das Unternehmen wirbt allgemein mit Schrottabgabe für Privatkunden; die Privatkundenseite nennt aber nicht, welche Zweigstelle diese Anlieferung annimmt. Deshalb bleibt der branchenspezifische Annahmestatus `pruefung`; es werden keine Privatkundenbedingungen, Materialien oder Preise in strukturierte Annahmefelder übertragen. GEO fehlt bewusst und muss vor einem Seed-Rollout extern geprüft werden.
+Die aktuelle Betreiber-Standortseite führt das Gronauer Lager / die Verwaltung mit eigener Anschrift, Telefonnummer und Öffnungszeiten. Impressum und Registerprofil ordnen den Betreiber der Wilhelm Paul & Sohn GmbH, HRB 5570, zu. Das Unternehmen wirbt allgemein mit Schrottabgabe für Privatkunden; die Privatkundenseite nennt aber nicht, welche Zweigstelle diese Anlieferung annimmt. Deshalb bleibt der branchenspezifische Annahmestatus `pruefung`; es werden keine Privatkundenbedingungen, Materialien oder Preise in strukturierte Annahmefelder übertragen. Die GEO-Koordinate stammt aus dem vom Betreiber für diesen Standort verlinkten Karten-Pin und ist per Reverse-Geocoding gegen Adresse und Gebäude geprüft; sie markiert den Standort, nicht vermessen den Eingang.
 
 ## Timeline
+
+### Owner-GEO-Prüfung 25.10.2026
+
+- [Recherche 25.10.2026: Der Betreiber verlinkt für Lager / Verwaltung, Röntgenstraße 9, 48599 Gronau, den Google-Maps-Business-Pin 52.21189, 7.0715801. Nominatim-Reverse löst den Punkt auf das Gebäude Röntgenstraße 9, 48599 Gronau auf; der OSM-Gebäude-Referenzpunkt liegt etwa 4,5 m entfernt. Die Koordinate ist damit als Betreiber-Business-Pin auf Standortebene belegt, nicht als vermessener Eingangspunkt. Kein Beleg für branchenspezifische Privatkundenannahme; `status: pruefung` und leere Annahmefelder bleiben unverändert. Quelle: https://www.paulundsohn.de/ (Standortseite, Abruf 25.10.2026); https://www.google.com/maps/place/Wilhelm+Paul+%26+Sohn+GmbH/@52.2118933,7.0690052,673m/data=!3m2!1e3!4b1!4m6!3m5!1s0x41654ee4852f0537:0xbed2b0b232876ad1!8m2!3d52.21189!4d7.0715801!16s%2Fg%2F1tdwd04x; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.21189&lon=7.0715801&zoom=18&addressdetails=1]
 
 ### Recherche 12.10.2026
 
