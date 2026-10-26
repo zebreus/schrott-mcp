@@ -364,3 +364,25 @@ Produktions- und Seedstand und ihre Zahlen sind nicht auf diese Probe
   erfolgreicher 56-Preis-Lauf nach Rollout). Das ist weder Pre-Deploy-Gate noch
   Deployment-Autorisierung. Kein Deployment, Force-Ingest, Produktionswrite
   oder Dienstneustart.
+
+## Owner-Nachprüfung: Balzer Alfeld GEO-Rücknahme, 26.10.2026 19:32 UTC
+
+- Read-only Produktion enthält für `ni-alfeld-balzer-metallverwertung` weiter
+  `49.4333/11.55`; Dossier und Produktionszeile stimmen bei Name, Ort, Staat,
+  Straße, PLZ und Status überein. Eine aktuelle Nominatim-Rückwärtssuche löst
+  den Punkt an der Hersbrucker Straße in Pollanden, Alfeld, Landkreis
+  Nürnberger Land, Bayern, 91236 auf. Das ist nicht Alfeld (Leine),
+  Niedersachsen, 31061.
+- Das [Dossier](../dossiers/ni/ni-alfeld-balzer-metallverwertung.md) markiert
+  `clear_fields: 'geo'` und setzt bewusst keinen Ersatz:
+  weder die mögliche Registergesellschaft noch eine öffentliche Annahmestelle
+  oder konkrete Zufahrt ist als Betreiberstandort ausreichend verifiziert.
+  Die Seed-Implementierung setzt bei diesem expliziten Clear beide Koordinaten
+  auf `NULL` (`seed_traders.rs`, `coordinates`-Verarbeitung); gewöhnliche leere
+  Koordinaten würden einen bestehenden Punkt dagegen erhalten. Seed-Tests
+  liefen nach dieser Prüfung erneut.
+- Owner-Disposition: Die Geo-Rücknahme ist fachlich bestätigt; der falsche
+  Pin darf nicht erhalten bleiben und es wird kein Ersatzpunkt geraten. Dies
+  ist keine Freigabe für Produktionsänderung oder Rollout. Der aggregierte
+  Zähler von 294 offenen strukturellen Zeilen wird bis zur erneuten vollständigen
+  privaten Übergangsprobe nicht neu berechnet; die Gesamtfreigabe bleibt offen.
