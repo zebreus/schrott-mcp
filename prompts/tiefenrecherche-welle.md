@@ -41,6 +41,15 @@ Betreiber-Ketten). Neue Adressen mit Geocodierungsbedarf im Bericht nennen.
 
 Overwrite-Scan, Enum-Validierung, Deep-Link-/Emdash-Check, Notenformat, dann
 Seed-Tests (`cargo test -p schrott-mcp-ingestion seed`), ein Commit und Push.
-Beide Binaries nur bei grünem, produktspezifischem Release-Gate redeployen und
-anschließend Prod-Spot-Checks ausführen. Bei offenem Gate nicht deployen und
-keine Produktionsdaten direkt ändern; den konkreten Befund kurz berichten.
+Deployment nur nach explizit grüner **Pre-Deploy-Freigabe** für exakt den
+geprüften Commit, Seed-Bestand und die Release-Binaries (Owner-/erforderliches
+unabhängiges Review, Tests, Source-/Seed-Audit sowie private
+Upgrade-/Datenübergangsprobe). Der `verify-mkm-release.py`-Verifier ist
+Post-Rollout-Nachweis, keine Pre-Deploy-Freigabe; vor dem Rollout darf sein rotes
+Ergebnis den notwendigen Rollout nicht zirkulär blockieren und er autorisiert
+ihn auch nicht. Nur nach grüner Pre-Deploy-Freigabe regulär deployen, auf einen
+normalen Scheduler-Lauf warten und anschließend Produktions-Spot-Checks sowie
+den Post-Rollout-Verifier read-only ausführen. Bei offener Pre-Deploy-Freigabe
+nicht deployen und Produktionsdaten nicht direkt ändern. Bei rotem
+Post-Rollout-Verifier den Rollout nicht als erfolgreich melden, keine weiteren
+Produktionsänderungen vornehmen und den konkreten Befund kurz berichten.

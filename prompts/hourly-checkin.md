@@ -77,9 +77,23 @@ erfolgreich war.
   und den vorhandenen Dateien. Detailregeln gehören in diese Prüfung statt
   in kleinteilige Recherche-Aufträge.
 - Owner-Gate vor jedem Commit (Overwrite-/Enum-/Deep-Link-/Emdash-Check),
-  danach Seed-Tests, Commit und Push. Beide Binaries nur bei grünem,
-  produktspezifischem Release-Gate redeployen und anschließend Produktion
-  read-only verifizieren; bei offenem Gate weder deployen noch Produktionsdaten
-  direkt ändern, sondern den konkreten Gate-Befund dokumentieren.
+  danach Seed-Tests, Commit und Push.
+- Deployment-Gates strikt trennen: Vor einem Deployment muss die
+  **Pre-Deploy-Freigabe** für exakt den geprüften Commit, Seed-Bestand und die
+  Release-Binaries grün sein (Owner-/erforderliches unabhängiges Review,
+  Tests, Source-/Seed-Audit und private Upgrade-/Datenübergangsprobe). Ein
+  `production_ready: false`-Inventory oder ein rotes
+  `scripts/verify-mkm-release.py` ist keine Pre-Deploy-Freigabe und kein Grund,
+  eine notwendige Produktionsmigration dauerhaft zu blockieren: Dieser
+  Verifier prüft den **Post-Rollout-Zustand** und ist vor dem Deployment bei
+  altem Schema/Manifest erwartungsgemäß rot. Das rote Ergebnis autorisiert
+  umgekehrt kein Deployment.
+- Nur nach explizit grüner Pre-Deploy-Freigabe regulär deployen; danach auf
+  einen normalen Scheduler-Lauf warten (kein Force-Ingest, keine direkten
+  Produktions-DB-Änderungen) und den Post-Rollout-Verifier read-only mit dem
+  tatsächlichen Rollout-Zeitpunkt ausführen. Bleibt er rot, Rollout nicht als
+  erfolgreich melden, keine weiteren Produktionsänderungen vornehmen und den
+  konkreten Befund dokumentieren. Ist die Pre-Deploy-Freigabe offen, weder
+  deployen noch Produktionsdaten direkt ändern.
 
 Kurz berichten, was du getan hast.
