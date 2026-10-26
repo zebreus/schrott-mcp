@@ -63,10 +63,11 @@ Der aktuelle Betreiberauftritt bestätigt Wahl & Co. Inhaber Thomas Madeiski e.K
   ist die Ursache damit ein nicht ausgerolltes Produktionsbinary, kein
   reproduzierbarer Fehler im aktuellen Handler.]
 - [Der read-only-Abgleich der aktuellen Wahl-Preise bestätigt weiterhin 32
-  Current-Zeilen, alle `exact`, ohne `published_at`, beobachtet am
-  21.10.2026 03:30:55 UTC. Millberry steht weiter als exakter Wert 10,10 EUR/kg.
-  Das ist älter als der Betreiberseitenstand von 10,50 EUR/kg und darf nicht als
-  aktuelles Betreiberangebot ausgegeben werden. Keine Produktionsdaten geändert.
+  Current-Zeilen ohne `published_at`, beobachtet am 21.10.2026 03:30:55 UTC:
+  30 `exact` und 2 `upto` (Edelstahl und Kabel). Millberry steht weiter als
+  exakter Wert 10,10 EUR/kg. Das ist älter als der Betreiberseitenstand von
+  10,50 EUR/kg und darf nicht als aktuelles Betreiberangebot ausgegeben werden.
+  Keine Produktionsdaten geändert.
   Die Pre-Deploy-Freigabe ist laut [Owner-Check-in 10:42](../../research/checkin-20261026-1042-owner.md)
   weiter offen; daher kein Deployment, Force-Ingest oder direkter
   Datenbank-Write.]
