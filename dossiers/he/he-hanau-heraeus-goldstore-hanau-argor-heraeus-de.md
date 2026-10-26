@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://store.heraeus-gold.com
 website_status: aktiv
 status: aktiv
-description: 'Goldstore Hanau; der Edelmetallankauf ist laut Betreiber aus technischen Gründen eingestellt (Stand 23.10.2026).'
+description: 'Goldstore Hanau; der Edelmetallankauf ist laut Betreiber aus technischen Gründen eingestellt (Stand 26.10.2026).'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3b (Spezialisten) (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recheck 26.10.2026
+
+- [Recheck 26.10.2026: Die offizielle Filialseite wurde erneut abgerufen. Sie enthält weiterhin den Hinweis „Aus technischen Gründen wird der Ankauf von Altgold und anderen Edelmetallen eingestellt“; der Hinweis selbst trägt den Zeitstempel 30.01.2026 15:08. Die Seite verlinkt auf `https://www.heraeus-gold.de/service/altgold-ankauf-in-hanau/`, dessen geladener Inhalt denselben Einstellungs-Hinweis enthält. Der alte Handler-Einstieg `https://store.heraeus-gold.com/ankauf/` liefert HTTP 404. Andere, weiter unten vorhandene Shop-Texte verweisen noch auf aktuelle Ankaufspreise; sie lösen den ausdrücklichen Einstellungs-Hinweis nicht auf und werden nicht als Wiederaufnahmebeleg gezählt. Kein Wiederaufnahmedatum, keine neuen Ankaufpreise und kein neuer Vertragspartner belegt. Status des Goldstores und Barrenverkauf nicht als geschlossen beurteilt. Quelle(n): https://store.heraeus-gold.com/filiale/ ; https://www.heraeus-gold.de/service/altgold-ankauf-in-hanau/ ; https://store.heraeus-gold.com/ankauf/]
 
 ### Recherche 23.10.2026
 
