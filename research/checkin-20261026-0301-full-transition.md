@@ -115,3 +115,36 @@ Bindung an exakt geprüfte Release-Binaries nicht durch eine einzige
 Diff-Zählung freigegeben. Die ältere Prüfung vom 16.10. hatte einen anderen
 Produktions- und Seedstand und ihre Zahlen sind nicht auf diese Probe
 übertragbar. Kein Deployment und keine Produktionsänderung sind freigegeben.
+
+## Owner-Nachprüfung: Notiz- und Händlerzählung, 26.10.2026 08:30 UTC
+
+- Die 14 zuvor als „nicht zusammenhängender Teiltext“ markierten Notizfelder
+  wurden erneut verglichen: Produktions-`traders.notes` ausschließlich
+  `mode=ro` gegen die aktuellen generierten Seed-JSONs. Für alle 14 lieferte
+  `difflib.SequenceMatcher(a=old, b=new, autojunk=False)` ausschließlich
+  `equal`- und `insert`-Operationen, keine `delete`-/`replace`-Operationen.
+  Somit bleibt jeder alte Notiztext exakt und in derselben Reihenfolge als
+  Teilfolge erhalten; neuere Timeline-Einträge sind lediglich dazwischen
+  eingefügt. Das belegt technische Erhaltung, nicht die fachliche Richtigkeit
+  der alten oder neuen Aussagen. Betroffene Slugs: `be-treptow-kopenick-also-recommerce-ag`,
+  `he-heuchelheim-blum-harald-schrotthandel`,
+  `rp-trier-pfalzel-sascha-kaiser-schrott-metallhandel`,
+  `sl-lebach-autoverwertung-volz-renate-volz`,
+  `st-halle-schrott24-metaloop-online-ankauf-partner`,
+  `st-schonebeck-fuhlrott-g`, `st-arneburg-bohlke-andreas-schrottverwertung`,
+  `st-groningen-manfred-leiner`, `bw-ehningen-kurt-rie-nachfolger`,
+  `he-korbach-34497-heidel-eckhardt`,
+  `st-radegast-eks-ankauf-von-katalysatoren-und-batteri`,
+  `st-halle-seik-automobil-recycling`, `st-badingen-bismark-hinze`,
+  `st-aschersleben-lorenz`.
+- Die aktuellen generierten Seeds enthalten **3.935 eindeutige Slugs**:
+  **3.892** stimmen mit Produktionsslugs überein, **43** Seed-Slugs sind neu.
+  Ein Produktionsslug ohne Seed-Dossier bleibt erhalten:
+  `st-sangerhausen-mainmetall-grohandelsges`. Mit diesem Bestandsrest ergibt
+  sich die im Übergang erwartete Anzahl **3.936** nach dem Seed. Der bekannte
+  Sonderfall ist bereits in der [Prüfung vom 16.10.](checkin-20261016-0300-upgrade-seed-review.md)
+  festgehalten; kein zusätzlicher Händler oder Delete wird daraus abgeleitet.
+- Diese Nachprüfung schließt die technische Notiz-Erhaltungsfrage und erklärt
+  die Händlerzählung, **nicht** aber die fachliche Disposition der **309**
+  strukturell geänderten Bestandszeilen. Produktionsdaten wurden nicht
+  verändert; die Pre-Deploy-Freigabe bleibt offen.

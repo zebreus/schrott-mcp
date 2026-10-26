@@ -37,6 +37,10 @@ Das verlinkte EFB-Zertifikat wurde vom Owner am 18.10.2026 visuell gelesen: G.BZ
 
 ## Timeline
 
+### Owner-GEO-Check-in 26.10.2026
+
+- [Owner-GEO-Check-in 26.10.2026: Die unveränderte Koordinate 51.2247867/7.2141755 liegt im OSM-Gebäude-Way 481426457, adressiert Gasstraße 11, 42369 Wuppertal, `building=industrial`; die heute direkt gelesene Betreiberseite samt Impressum bestätigt Tamm GmbH an genau dieser Anschrift. Damit als gebäudeinterner Adressreferenzpunkt gestützt, aber weder vermessener Gebäudemittelpunkt noch Eingang/Annahmetheke; keine Anliefer-Zufahrt aus dem Footprint abgeleitet. Das Alt-GEO 51.2595130/7.1649087 liegt rund 5,16 km entfernt nahe der kartierten Schulfläche der Gewerblichen-Schulen I (Way 24466487), nicht am Tamm-Standort und ohne kartierten Tamm-/Schrottplatzbezug. Es ist derselbe falsche Zentralpunkt wie im Lusch-Dossier; aktuelle Betreiberadressen und korrigierte Punkte verorten Tamm (Gasstraße 11, Ronsdorf) und Lusch (Bochumer Straße 3, 42279) getrennt, rund 8,26 km voneinander entfernt. Keine Verwechslung naher Filialen und keine historische Verlagerung belegt. Keine Scalar-Änderung nötig. Quellen: https://www.tamm-gmbh.com/ ; https://www.tamm-gmbh.com/de/impressum ; https://www.openstreetmap.org/way/481426457 ; https://api.openstreetmap.org/api/0.6/way/481426457/full ; https://www.openstreetmap.org/way/24466487 ; https://api.openstreetmap.org/api/0.6/way/24466487/full ; https://www.openstreetmap.org/api/0.6/map?bbox=7.1645,51.2592,7.1653,51.2598 ; Lusch-Gegencheck: https://www.autoverwertung-lusch.de/impressum-1/ ; https://www.openstreetmap.org/way/1007836170 ; OSM © OpenStreetMap-Mitwirkende, ODbL https://www.openstreetmap.org/copyright .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Gasstr. 11, nur schrottradar-Profil
