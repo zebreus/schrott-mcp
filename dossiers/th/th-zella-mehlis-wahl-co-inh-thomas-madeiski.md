@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Der aktuelle Betreiberauftritt bestätigt Wahl & Co. Inhaber Thomas Madeiski e.K., HRA 503773, den Standort Heinrich-Ehrhardt-Straße 47b und den Kontakt. Es werden Metallankauf, Sortierung und Container nach Vereinbarung für Privat- und Gewerbekunden angeboten. Die Homepage zeigte am 21.10.2026 um 16:44 Uhr einen Preisstand; ausgewiesen sind jedoch unverbindliche, tagesabhängige Richtwerte und Preisbereiche, keine garantierten Ankaufskurse. Ein lokaler Handler-Fix liest die neue CMS-Sortenpreisliste und Preisübersicht; er ist noch nicht veröffentlicht. Die 32 Produktionsbeobachtungen stammen aus 03:30 UTC und liegen vor dem Seitenpreisstand; sie sind nicht als aktuelles Angebot zu behandeln. Keine Produktionsdaten geändert.
+Der aktuelle Betreiberauftritt bestätigt Wahl & Co. Inhaber Thomas Madeiski e.K., HRA 503773, den Standort Heinrich-Ehrhardt-Straße 47b und den Kontakt. Es werden Metallankauf, Sortierung und Container nach Vereinbarung für Privat- und Gewerbekunden angeboten. Die Homepage zeigte am 21.10.2026 um 16:44 Uhr einen Preisstand; ausgewiesen sind jedoch unverbindliche, tagesabhängige Richtwerte und Preisbereiche, keine garantierten Ankaufskurse. Der Handler-Fix für die neue CMS-Sortenpreisliste und Preisübersicht ist in `main` enthalten, aber noch nicht in Produktion ausgerollt. Die 32 Produktionsbeobachtungen stammen aus 03:30 UTC und liegen vor dem Seitenpreisstand; sie sind nicht als aktuelles Angebot zu behandeln. Keine Produktionsdaten geändert.
 
 ## Timeline
 
@@ -39,6 +39,37 @@ Der aktuelle Betreiberauftritt bestätigt Wahl & Co. Inhaber Thomas Madeiski e.K
 ### Owner-Nachprüfung und lokaler Handler-Fix 22.10.2026, 04:14 UTC
 
 - [Die Live-Homepage und das Impressum wurden erneut direkt abgerufen. Der Auftritt nennt weiterhin Wahl & Co. Inhaber Thomas Madeiski e.K.; das Impressum bestätigt HRA 503773, Heinrich-Ehrhardt-Straße 47b, 98544 Zella-Mehlis, Telefon 03682 483449 und wahl-@t-online.de. Die Homepage enthält jetzt eine CMS-Sortenpreistabelle mit 31 €/kg-Richtwerten, eine separate Übersichtstabelle mit 14 Preisbereichen und den maschinenlesbaren Preisstand `2026-10-21T14:44:01Z`. Die 31 Sortenpreise sind ausdrücklich unverbindlich und tagesabhängig; sie werden im lokalen Handler deshalb als `approx` mit Konfidenz 0,5 abgebildet. Elf eindeutig zuordenbare Kategorien werden als `range` mit beiden Bounds und Konfidenz 0,5 erfasst. Der einzelne Übersichts-Einzelpreis wird durch die detailliertere Sortenzeile ersetzt; Rotguss (Kollision mit der separat bepreisten Rotguss-Schrott-Sorte), Blei-Akkus und Kabel & E-Schrott bleiben als generische Bereiche unzugeordnet. Der zusammengesetzte Kabelposten wird nicht fälschlich `kabel-kupfer` zugeschlagen. Die Tests des Ingestion-Pakets bestehen (681 bestanden, 7 ignoriert), aber die Änderung ist nicht deployed. Die 32 vorhandenen Produktionspreise sind weiterhin Beobachtungen vom 21.10.2026, 03:30:55 UTC. Der normale Handler-Pfad schreibt Preise per Upsert und entfernt nicht automatisch fehlende Varianten; daher bleiben die frühere `kabel-kupfer`-`upto`-Zeile und andere nicht mehr belegte Schlüssel eine separate, noch zu lösende Datenabgleichsfrage. Keine Produktionsdaten verändert. Quellen: [Homepage](https://wahlundco.de/), [Impressum](https://wahlundco.de/impressum.html).]
+
+### Owner-Nachprüfung 26.10.2026, 11:00 UTC
+
+- [Homepage und Impressum heute direkt erneut abgerufen. Der Betreiberauftritt
+  zeigt weiterhin die CMS-Sortenpreistabelle, die Materialpreis-Übersicht,
+  Annahme ab 0,5 kg und unverbindliche, tagesabhängige Richtwerte. Der
+  maschinenlesbare Preisstand ist unverändert `2026-10-21T14:44:01Z`, also fünf
+  Tage alt. Die Werte wurden nicht als aktuelle Tageskurse übernommen. Quellen:
+  https://wahlundco.de/ ; https://wahlundco.de/impressum.html.]
+- [Read-only-Live-Test des aktuellen Handlers
+  `live_handler_parses_the_complete_current_snapshot` bestanden: 40 Preise
+  einschließlich der Sorten- und Preisbereichssemantik; der Test liest Quelle
+  und Impressum und schreibt keine Daten. Die deterministischen Tests des
+  Handler-Moduls bestanden ebenfalls: 16 bestanden, 1 absichtlich ignorierter
+  Live-Test.]
+- [Produktionslauf **#2806** (10:51 UTC) war `partial`: 75 Preise,
+  1 Händlerfehler. Das Produktionsjournal meldet weiterhin den alten Parsertext
+  `Sortenpreisliste fehlt`. Der von `schrott-mcp.service` gestartete Pfad ist
+  `/usr/local/bin/schrott-mcp-server`; dessen Änderungszeit ist 17.10.2026,
+  vor dem aktuellen Handlerstand und dessen Live-Snapshot-Guard
+  (`a7ecccdd`, 23.10.2026). Zusammen mit dem erfolgreichen aktuellen Live-Test
+  ist die Ursache damit ein nicht ausgerolltes Produktionsbinary, kein
+  reproduzierbarer Fehler im aktuellen Handler.]
+- [Der read-only-Abgleich der aktuellen Wahl-Preise bestätigt weiterhin 32
+  Current-Zeilen, alle `exact`, ohne `published_at`, beobachtet am
+  21.10.2026 03:30:55 UTC. Millberry steht weiter als exakter Wert 10,10 EUR/kg.
+  Das ist älter als der Betreiberseitenstand von 10,50 EUR/kg und darf nicht als
+  aktuelles Betreiberangebot ausgegeben werden. Keine Produktionsdaten geändert.
+  Die Pre-Deploy-Freigabe ist laut [Owner-Check-in 10:42](../../research/checkin-20261026-1042-owner.md)
+  weiter offen; daher kein Deployment, Force-Ingest oder direkter
+  Datenbank-Write.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
