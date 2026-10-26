@@ -4,16 +4,16 @@ name: Berni Pfleging GmbH
 trader_type: schrotthaendler
 state: NW
 city: Rheda-Wiedenbrück
-street: Fürst-Bentheim-Str. 36
-postcode: 33378
-phone: 05242 401369
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
 description: 'Historischer Unternehmensgegenstand: An- und Verkauf von Eisen- und Stahlschrott; GmbH i.L., gelöscht 24.10.2022.'
-clear_fields: 'geo'
+clear_fields: 'geo,phone'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
@@ -28,6 +28,10 @@ provenance_origin: table
 Die Berni Pfleging GmbH (HRB 6222 AG Gütersloh) führte historisch den An- und Verkauf von Eisen-/Stahlschrott. Der nun direkt geprüfte Registerspiegel dokumentiert Liquidator Berni Pfleging und eine Veröffentlichung vom 03.04.2020 sowie die formelle Löschung am 24.10.2022. Damit ist der frühere Status `aktiv` nicht haltbar. Mangels Nachweis einer Fortführung oder eines Rechtsnachfolgers wird der Seed auf `pruefung` gesetzt, nicht als Standort geschlossen behauptet. Fürs Unternehmen sind keine aktuellen Ankauf-/Verkaufsbedingungen oder Gebühren nachweisbar. Fürst-Bentheim-Str. 36 und 05242 401369 bleiben historische Stammdaten, nicht aktuelle Kontakt-/Annahmebestätigung. Der gespeicherte GEO-Punkt löst an einer anderen Straße auf und wird mit `clear_fields: 'geo'` beim nächsten regulären Seed zurückgezogen; keine Ersatzkoordinate.
 
 ## Timeline
+
+### Owner-Nachtrag 26.10.2026
+
+- [Owner-Nachtrag 26.10.2026: Eine frische read-only-Abfrage der Produktionszeile bestätigt, dass Fürst-Bentheim-Str. 36, 33378 und 05242 401369 noch in den typisierten Kontaktfeldern standen. Das Dossier bezeichnet diese Werte bereits als historische Stammdaten; die heute erneut gelesene NorthData-Chronik weist die Löschung der Berni Pfleging GmbH am 24.10.2022 aus, liefert aber keinen Nachweis eines aktuellen Betriebs oder Rechtsnachfolgers. Damit sind Adresse und Rufnummer nicht als aktuelle Kontaktdaten kuratiert: Straße/PLZ werden beim nächsten geänderten Seed geleert und `clear_fields: 'phone'` entfernt die alte Rufnummer. Dieser Nachtrag ersetzt die im nachfolgenden Owner-Eintrag festgehaltene frühere Entscheidung, die beiden Werte noch in den strukturierten Feldern zu behalten; die historische Spur bleibt in der Timeline erhalten. Dies ist keine Behauptung, dass die Adresse falsch sei, keine Schließung des Standorts und keine Nachfolgezuordnung; `status: pruefung` bleibt. Der GEO-Altpunkt wird weiterhin separat mit `clear_fields: 'geo'` entzogen. Quellen: read-only `public.db`, 26.10.2026; [NorthData-Chronik HRB 6222](https://www.northdata.de/Berni+Pfleging+GmbH,+Rheda-Wiedenbr%C3%BCck/Amtsgericht+G%C3%BCtersloh+HRB+6222); [Seed-Clear-Semantik](../../docs/trader-seed.md).]
 
 ### Korrektur 26.10.2026
 

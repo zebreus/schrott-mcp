@@ -148,3 +148,88 @@ Produktions- und Seedstand und ihre Zahlen sind nicht auf diese Probe
   die Händlerzählung, **nicht** aber die fachliche Disposition der **309**
   strukturell geänderten Bestandszeilen. Produktionsdaten wurden nicht
   verändert; die Pre-Deploy-Freigabe bleibt offen.
+
+## Owner-Nachprüfung: frische Übergangsprobe, 26.10.2026 09:00 UTC
+
+- Erneute konsistente SQLite-Sicherung von `/var/lib/schrott-mcp/public.db`,
+  Quelle ausschließlich `mode=ro`, User-Version 6. Zwei private Kopien wurden
+  verwendet: die erste als Baseline, die zweite mit aktuellem `PublicDb::open`
+  auf v8 migriert und mit dem Seed von HEAD `c01504f0` befüllt. Der aktuelle
+  Seed schrieb **1.243 Zeilen** in der privaten Kopie; Produktion wurde nicht
+  beschrieben. Der vorherige Übergangstest beruhte auf einem älteren Snapshot
+  und Seedstand, daher gelten dessen 309 Strukturzeilen nicht als aktueller
+  Zähler.
+- Händlerzeilen **3.893 → 3.936** (43 Inserts, 0 Deletes). **1.200** vorhandene
+  Zeilen änderten sich; `notes`, `extra_json` und `updated_at` änderten sich bei
+  allen. Bei **313** dieser Zeilen änderten sich zusätzlich strukturelle
+  Händlerfelder; **887** änderten sich nur in den drei Seed-Metadatenfeldern.
+  Die 313 Strukturzeilen sind noch nicht vollständig fachlich disponiert.
+- Aktuelle strukturelle Feldzählung betroffener Zeilen: `name` 25,
+  `trader_type` 9, `street` 93, `postcode` 73, `city` 18, `lat`/`lon` je 162,
+  `phone` 61, `email` 38, `website` 46, `opening_hours` 30, `status` 86,
+  `description` 70, `dropoff_json` 26, `pickup_json` 4 und `website_status` 56.
+  Alle **151** `clear_fields: geo`-Direktiven entsprechen genau 151 in der
+  privaten Anwendung entfernten Koordinatenpaaren; weitere **11** Paare wurden
+  ersetzt. Die zuvor auffälligen 14 Notizen behalten ihren alten Text weiterhin
+  vollständig und geordnet als Teilfolge.
+- Tabellen vorher/nachher: Materialien **83/83**, Preise **29.832/29.832**,
+  `current_prices` **2.683/2.659**, `trader_materials` **1.401/1.401**. Der
+  Übergang entfernt 24 Current-Preiszeiger, sämtlich für den Heraeus-Goldstore
+  Hanau; fünf vorhandene Annahmezeilen desselben Händlers stehen danach auf
+  `accepts=0`. `integrity_check` und FTS5-Integritätsprüfung sind `ok`,
+  Current-Preiszeiger-Mismatches bleiben null; die 24 schon vorher vorhandenen
+  FK-Verletzungen bleiben unverändert. Dies ist eine private
+  Quellcode-/Datenprobe, keine Release-Binary-/Serviceprobe und keine
+  fachliche Freigabe. Keine Produktionsänderung oder Deploymentfreigabe.
+
+## Owner-Nachprüfung: aktueller Seed und Acht-Fälle-Audit, 26.10.2026 09:18 UTC
+
+- **Diese Probe ersetzt die Zähler im 09:00-Abschnitt für den nun geprüften
+  Arbeitsbaum.** Eine neue konsistente Sicherung von Produktions-`public.db`
+  wurde ausschließlich lesend von Schema v6 erstellt und privat mit aktuellem
+  `PublicDb::open` nach v8 migriert. Der aktuelle Dossierseed schrieb 1.243
+  Zeilen; eine zweite Anwendung schrieb null. Produktion blieb unangetastet.
+- Händlerzeilen **3.893 → 3.936** (43 Inserts, 0 Deletes), **1.200** geänderte
+  Bestandszeilen: 887 nur in `notes`/`extra_json`/`updated_at`, **313** mit
+  zusätzlichen strukturellen Händlerfeldänderungen. Von diesen 313 Zeilen sind
+  acht der nachfolgend verlinkten Hochrisikofälle im Owner-Gate geprüft; **305**
+  strukturelle Zeilen bleiben für die vollständige Pre-Deploy-Disposition offen.
+  Die 14 zuvor auffälligen alten Notiztexte bleiben alle vollständig und
+  geordnet als Teilfolge erhalten.
+- Aktuelle Feldzählung betroffener Bestandszeilen: `name` 25, `trader_type` 9,
+  `street` 94, `postcode` 74, `city` 18, `lat`/`lon` je 164, `phone` 63,
+  `email` 38, `website` 46, `opening_hours` 30, `status` 86, `description` 70,
+  `dropoff_json` 28, `pickup_json` 4 und `website_status` 56. Alle **153**
+  dossierseitigen `clear_fields: geo`-Direktiven entsprechen exakt den 153 in
+  der privaten Seedanwendung entfernten Koordinatenpaaren; weitere **11** Paare
+  wurden ersetzt. Kein Rust-Geocoding und kein Ersatzpunkt.
+- Der achtteilige Owner-Gegencheck: [Benzin Paul / Templin](../dossiers/bb/bb-templin-benzin-paul-schrotthandel.md)
+  hat konkurrierende Verzeichnisleads, keinen Betreiberbeleg und einen Altpunkt
+  außerhalb Templins; die read-only Produktion enthielt zusätzlich `phone=n.e.`
+  und `dropoff_json={"allowed":true}`. GEO, Platzhaltertelefon und nicht
+  bestätigte öffentliche Annahme werden nun ausdrücklich zurückgenommen.
+  [Weiss / Jüterbog](../dossiers/bb/bb-juterbog-weiss-rolf-schrotthandel-u-transporte.md)
+  behält weder Verzeichnisadresse, Telefonnummer, alten Pin noch unbestätigte
+  Annahme als aktuelle Fakten. Bei [Schmidt / Kiel](../dossiers/sh/sh-kiel-schmidt-boris-ne-metallhandel-und-schrot.md)
+  belegt Ehrichs eigene Chronik eine Übernahme 2020, aber die unabhängige
+  Zuordnungskette zum alten Rechtsträger fehlt; keine Verschmelzung oder
+  Übertragung der heutigen Ehrich-Annahme. [Dorozala](../dossiers/nw/nw-lippstadt-dorozala.md)
+  bleibt mangels zweiten Löschungsbelegs auf `pruefung`; aktuelle Adresse und
+  Telefon sind geleert, ohne Nachfolgerannahme. Bei [Pfleging](../dossiers/nw/nw-rheda-wiedenbruck-pfleging.md)
+  bleiben gelöschte GmbH, unbekannter heutiger Betriebsort und `pruefung`
+  getrennt; nicht aktuelle Kontaktfelder und der fehlzugeordnete Punkt werden
+  aus dem strukturierten Seed entfernt. [Reinhardt / Ulm](../dossiers/bw/bw-ulm-eselsberg-reinhardt-schrotthandel.md)
+  hat einen auf der B 10 liegenden Punkt und eine unbestätigte Annahmezusage;
+  beide erhalten jetzt explizite Clears. [ACS Jäger](../dossiers/mv/mv-ribnitz-damgarten-acs-jager-schrotthandel-abbruch-containe.md)
+  und [Reinwarth BDE](../dossiers/sn/sn-frankenberg-rainer-reinwarth-bde.md)
+  bleiben `pruefung`; ihre fehlzugeordneten GEO-/Annahmeclaims werden
+  zurückgenommen, nicht in Ablehnung oder Schließung umgedeutet. Alte
+  Recherchehistorie blieb erhalten.
+- Tabellen vorher/nachher: Materialien **83/83**, Preise **29.865/29.865**,
+  `current_prices` **2.683/2.659**, `trader_materials` **1.401/1.401**. Die 24
+  entfernten Current-Zeiger und fünf geänderten Annahmezeilen betreffen weiter
+  Heraeus Hanau. SQLite- und FTS5-Integritätschecks sind `ok`; Current-Price-
+  Zeigermismatches **0/0**, die 24 vorher bestehenden FK-Verletzungen bleiben
+  unverändert. Dies ist weiterhin nur eine private Daten-/Quellprobe, keine
+  Release-Binary-/Serviceprobe und keine fachliche Freigabe der übrigen 305
+  Zeilen. Kein Deployment und keine Produktionsänderung freigegeben.

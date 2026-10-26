@@ -1,5 +1,6 @@
 ---
 slug: bw-ulm-eselsberg-reinhardt-schrotthandel
+clear_fields: 'dropoff_json,geo'
 name: Reinhardt Schrotthandel
 trader_type: schrotthaendler
 state: BW
@@ -29,6 +30,10 @@ Die Seed-Adresse Weinbergweg 90 ist zugleich Registeranschrift der anders benann
 **Ankauf:** keine Reinhardt-spezifische Zahlenliste bestätigt. **Verkauf:** keine zugeordnete Preisliste. **Gebühren:** keine Tarife. **GEO-Bedarf:** tatsächlichen Reinhardt-Annahmeort und Verhältnis zur UG klären; vorhandene Straße ist kein neu bestätigter Hofpunkt. Keine Koordinaten ermittelt.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Owner-Korrektur 26.10.2026: Die erneute read-only-Abfrage der Produktionszeile und die private Übergangsprobe zeigen weiterhin den alten Punkt 48.4107857/9.9745143 auf der B 10 sowie `dropoff_json={"allowed":true}`. Eine heutige Reverse-Abfrage ordnet ihn dem OSM-Way B 10 (316420480) zu; der direkte Impressumsabruf des Website-Kandidaten lieferte erneut HTTP 503. Die Recherche vom 21.10. ordnet den Punkt keinem bestätigten Reinhardt-Annahmeort zu; Weinbergweg 90 bleibt ein Verzeichnis-Lead mit ungeklärter Betreiberzuordnung. Daher werden ausschließlich der nicht zugeordnete GEO-Punkt und die unbestätigte öffentliche Annahmezusage durch `clear_fields: 'dropoff_json,geo'` beim nächsten regulären Seed zurückgenommen. Das bedeutet weder `allowed:false` noch Schließung, Widerlegung der Adresse oder Zuordnung zur dortigen UG. Keine Ersatzkoordinate oder UG-Daten übernommen; Status `pruefung` bleibt. Quellen: read-only `public.db` und private Seed-Probe, 26.10.2026; [heutige Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.4107857142857&lon=9.97451428571429&zoom=18&addressdetails=1); [OSM-Way B 10](https://www.openstreetmap.org/way/316420480); [heutiger Impressumsabruf](https://www.containerdienste-schrott-metallhandel.de/impressum) (HTTP 503); [Owner-GEO-Prüfung 21.10.2026](../../research/wave-20261021-0900-geo-bw.md); [Seed-Clear-Semantik](../../docs/trader-seed.md).]
 
 ### Recherche 22.10.2026
 
