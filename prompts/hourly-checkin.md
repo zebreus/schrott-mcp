@@ -22,6 +22,23 @@ tief verifizieren, Impressum allein genügt nicht, Namensvetter-/Merge-Check.
 - Handler-Backlog (`crates/ingestion/src/traders/handlers/`)
 - Geocoding-Läufe (`/tmp/opencode/*.log`)
 
+### Bestätigte Datenfehler beheben, nicht nur melden
+
+- Ein bestätigter falscher Produktionswert ist ein offener Korrekturauftrag,
+  kein abgeschlossener Check-in-Befund. Den Sachverhalt und die betroffene
+  Zeile zweiseitig prüfen, die belegte Korrektur im Dossier/Seed festhalten
+  und die Recherchehistorie erhalten. Keine Ersatzwerte raten.
+- Die Korrektur bis zur sicheren Übernahme weiterverfolgen: offene
+  Pre-Deploy-Prüfungen konkret bearbeiten und den freigegebenen regulären
+  Rollout anstreben. Einen Datenfehler erst dann als behoben bezeichnen, wenn
+  ein read-only Produktionsabgleich nach dem Rollout den erwarteten Wert
+  bestätigt.
+- Ein offenes Deployment-Gate ist kein Grund, die Korrektur aufzugeben oder
+  nur wiederholt zu melden. Es autorisiert aber auch keinen Bypass: Solange die
+  explizite Pre-Deploy-Freigabe fehlt, weder direkt in Produktionsdatenbanken
+  schreiben noch deployen. Im Check-in die konkrete Gate-Arbeit fortsetzen und
+  verbleibende Freigabeschritte benennen.
+
 ## 3) Server-Health prüfen und Probleme beheben
 
 ```bash
