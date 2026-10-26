@@ -494,6 +494,81 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
         )?;
         tx.commit()?;
     }
+    // Migration 9: the current Wahl & Co. price pointers all refer to one
+    // pre-update scrape, before the operator's dated, daily-dependent guide
+    // prices. Keep those observations as history, but do not present them as
+    // current until the source publishes a fresh timestamp and a new snapshot
+    // is recorded. The exact timestamp identifies candidates; all other source
+    // and pointer fields plus the 30/2 split validate the reviewed population.
+    if version < 9 {
+        let tx = conn.unchecked_transaction()?;
+        tx.execute_batch(
+            "DROP TABLE IF EXISTS temp.migration_9_wahl_stale_prices;
+             CREATE TEMP TABLE migration_9_wahl_stale_prices (
+                 trader_id INTEGER NOT NULL,
+                 material_id INTEGER NOT NULL,
+                 variant TEXT NOT NULL,
+                 price_id INTEGER NOT NULL,
+                 PRIMARY KEY (trader_id, material_id, variant)
+             );
+             INSERT INTO migration_9_wahl_stale_prices (trader_id, material_id, variant, price_id)
+             SELECT c.trader_id, c.material_id, c.variant, c.price_id
+             FROM current_prices c
+             JOIN prices p ON p.id = c.price_id
+             JOIN traders t ON t.id = p.trader_id
+             WHERE t.slug = 'th-zella-mehlis-wahl-co-inh-thomas-madeiski'
+               AND p.observed_at = '2026-10-21T03:30:55.060415905+00:00';",
+        )?;
+        let counts: (i64, i64, i64, i64) = tx.query_row(
+            "SELECT COUNT(*),
+                    COALESCE(SUM(p.price_kind = 'exact'), 0),
+                    COALESCE(SUM(p.price_kind = 'upto'), 0),
+                    COALESCE(SUM(
+                        c.trader_id = p.trader_id
+                        AND c.material_id = p.material_id
+                        AND c.variant = p.variant
+                        AND p.source_url = 'https://wahlundco.de/'
+                        AND p.published_at IS NULL
+                        AND p.extra_json = '{}'
+                        AND p.source_type = 'haendler_angabe'
+                        AND p.published = 1
+                        AND p.currency = 'EUR'
+                        AND p.unit = 'EUR/kg'
+                        AND p.price_kind IN ('exact', 'upto')
+                    ), 0)
+             FROM migration_9_wahl_stale_prices s
+             JOIN current_prices c
+               ON c.trader_id = s.trader_id
+              AND c.material_id = s.material_id
+              AND c.variant = s.variant
+              AND c.price_id = s.price_id
+             JOIN prices p ON p.id = s.price_id",
+            [],
+            |row| Ok((row.get(0)?, row.get(1)?, row.get(2)?, row.get(3)?)),
+        )?;
+        if counts == (32, 30, 2, 32) {
+            tx.execute(
+                "DELETE FROM current_prices AS c
+                 WHERE EXISTS (
+                     SELECT 1 FROM migration_9_wahl_stale_prices s
+                     WHERE s.trader_id = c.trader_id
+                       AND s.material_id = c.material_id
+                       AND s.variant = c.variant
+                       AND s.price_id = c.price_id
+                 )",
+                [],
+            )?;
+        } else if counts != (0, 0, 0, 0) {
+            return Err(StoreError::Rejected(
+                "unexpected Wahl current-price population for migration 9",
+            ));
+        }
+        tx.execute_batch(
+            "DROP TABLE migration_9_wahl_stale_prices;
+             PRAGMA user_version = 9;",
+        )?;
+        tx.commit()?;
+    }
     Ok(())
 }
 
@@ -2460,7 +2535,222 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 8);
+        assert_eq!(version, 9);
+    }
+
+    #[test]
+    fn migration_9_retires_only_the_reviewed_stale_wahl_current_snapshot() {
+        const WAHL_URL: &str = "https://wahlundco.de/";
+        const OLD_OBSERVED_AT: &str = "2026-10-21T03:30:55.060415905+00:00";
+        let (_dir, db, trader, material) = setup("wahl-stale-current");
+
+        for index in 0..32 {
+            let variant = format!("legacy-{index:02}");
+            let kind = if index < 30 { "exact" } else { "upto" };
+            let eur = 5.0 + f64::from(index) / 100.0;
+            db.record_price(&NewPrice {
+                variant: &variant,
+                price_kind: kind,
+                price: eur,
+                confidence: Some(if kind == "exact" { 1.0 } else { 0.5 }),
+                price_min: None,
+                price_max: (kind == "upto").then_some(eur),
+                source_url: WAHL_URL,
+                observed_at: OLD_OBSERVED_AT,
+                ingested_at: OLD_OBSERVED_AT,
+                notes: "reviewed pre-update observation",
+                extra_json: "{}",
+                ..price(trader, material, eur, OLD_OBSERVED_AT, OLD_OBSERVED_AT)
+            })
+            .expect("legacy Wahl row");
+        }
+
+        let fresh = db
+            .record_price(&NewPrice {
+                variant: "fresh-source-observation",
+                price_kind: "approx",
+                confidence: Some(0.5),
+                source_url: WAHL_URL,
+                observed_at: "2026-10-26T23:00:00Z",
+                ingested_at: "2026-10-26T23:00:00Z",
+                notes: "later observation must remain current",
+                ..price(
+                    trader,
+                    material,
+                    8.0,
+                    "2026-10-26T23:00:00Z",
+                    "2026-10-26T23:00:00Z",
+                )
+            })
+            .expect("later unrelated observation");
+
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute(
+                "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                rusqlite::params!["th-zella-mehlis-wahl-co-inh-thomas-madeiski", trader],
+            )
+            .expect("set Wahl slug");
+            conn.execute_batch("PRAGMA user_version = 8;")
+                .expect("simulate pre-migration database");
+            super::migrate(&conn).expect("retire reviewed old current snapshot");
+        }
+
+        for index in 0..32 {
+            let variant = format!("legacy-{index:02}");
+            assert!(db
+                .current_price_for(trader, material, &variant)
+                .expect("current pointer query")
+                .is_none());
+            let history = db
+                .price_history(trader, material, &variant, 10)
+                .expect("historical observation");
+            assert_eq!(history.len(), 1);
+            assert_eq!(
+                history[0].price_kind,
+                if index < 30 { "exact" } else { "upto" }
+            );
+            assert_eq!(history[0].notes, "reviewed pre-update observation");
+        }
+        assert_eq!(
+            db.current_price_for(trader, material, "fresh-source-observation")
+                .expect("newer pointer query")
+                .expect("newer source row remains current")
+                .id,
+            fresh
+        );
+        let version: i64 = db
+            .conn
+            .lock()
+            .expect("lock")
+            .query_row("PRAGMA user_version", [], |row| row.get(0))
+            .expect("version");
+        assert_eq!(version, 9);
+    }
+
+    #[test]
+    fn migration_9_fails_closed_on_a_partial_wahl_population() {
+        const WAHL_URL: &str = "https://wahlundco.de/";
+        const OLD_OBSERVED_AT: &str = "2026-10-21T03:30:55.060415905+00:00";
+        let (_dir, db, trader, material) = setup("wahl-partial-stale-current");
+        db.record_price(&NewPrice {
+            source_url: WAHL_URL,
+            observed_at: OLD_OBSERVED_AT,
+            ingested_at: OLD_OBSERVED_AT,
+            extra_json: "{}",
+            ..price(trader, material, 5.0, OLD_OBSERVED_AT, OLD_OBSERVED_AT)
+        })
+        .expect("partial legacy row");
+
+        let conn = db.conn.lock().expect("lock");
+        conn.execute(
+            "UPDATE traders SET slug = ?1 WHERE id = ?2",
+            rusqlite::params!["th-zella-mehlis-wahl-co-inh-thomas-madeiski", trader],
+        )
+        .expect("set Wahl slug");
+        conn.execute_batch("PRAGMA user_version = 8;")
+            .expect("simulate pre-migration database");
+        assert!(
+            super::migrate(&conn).is_err(),
+            "partial set must not be retired"
+        );
+        let version: i64 = conn
+            .query_row("PRAGMA user_version", [], |row| row.get(0))
+            .expect("version");
+        assert_eq!(version, 8, "failed migration must not advance the version");
+        drop(conn);
+        assert!(db
+            .current_price_for(trader, material, "")
+            .expect("pointer query")
+            .is_some());
+    }
+
+    #[test]
+    fn migration_9_rejects_a_stale_timestamp_with_unreviewed_source_metadata() {
+        const OLD_OBSERVED_AT: &str = "2026-10-21T03:30:55.060415905+00:00";
+        let (_dir, db, trader, material) = setup("wahl-stale-unreviewed-metadata");
+        let stale = db
+            .record_price(&NewPrice {
+                source_url: "https://unexpected.example/",
+                observed_at: OLD_OBSERVED_AT,
+                ingested_at: OLD_OBSERVED_AT,
+                ..price(trader, material, 5.0, OLD_OBSERVED_AT, OLD_OBSERVED_AT)
+            })
+            .expect("timestamp-matching row with different source");
+
+        let conn = db.conn.lock().expect("lock");
+        conn.execute(
+            "UPDATE traders SET slug = ?1 WHERE id = ?2",
+            rusqlite::params!["th-zella-mehlis-wahl-co-inh-thomas-madeiski", trader],
+        )
+        .expect("set Wahl slug");
+        conn.execute_batch("PRAGMA user_version = 8;")
+            .expect("simulate pre-migration database");
+        assert!(
+            super::migrate(&conn).is_err(),
+            "unreviewed source metadata must not be treated as no candidates"
+        );
+        assert_eq!(
+            conn.query_row("PRAGMA user_version", [], |row| row.get::<_, i64>(0))
+                .expect("version"),
+            8
+        );
+        assert_eq!(
+            conn.query_row(
+                "SELECT COUNT(*) FROM current_prices WHERE price_id = ?1",
+                [stale],
+                |row| row.get::<_, i64>(0)
+            )
+            .expect("pointer remains"),
+            1
+        );
+    }
+
+    #[test]
+    fn migration_9_rejects_a_stale_price_with_a_mismatched_current_pointer_key() {
+        const WAHL_URL: &str = "https://wahlundco.de/";
+        const OLD_OBSERVED_AT: &str = "2026-10-21T03:30:55.060415905+00:00";
+        let (_dir, db, trader, material) = setup("wahl-stale-mismatched-pointer");
+        let stale = db
+            .record_price(&NewPrice {
+                source_url: WAHL_URL,
+                observed_at: OLD_OBSERVED_AT,
+                ingested_at: OLD_OBSERVED_AT,
+                ..price(trader, material, 5.0, OLD_OBSERVED_AT, OLD_OBSERVED_AT)
+            })
+            .expect("legacy Wahl row");
+
+        let conn = db.conn.lock().expect("lock");
+        conn.execute(
+            "UPDATE traders SET slug = ?1 WHERE id = ?2",
+            rusqlite::params!["th-zella-mehlis-wahl-co-inh-thomas-madeiski", trader],
+        )
+        .expect("set Wahl slug");
+        conn.execute(
+            "UPDATE current_prices SET variant = 'mismatched-key' WHERE price_id = ?1",
+            [stale],
+        )
+        .expect("corrupt pointer key for migration test");
+        conn.execute_batch("PRAGMA user_version = 8;")
+            .expect("simulate pre-migration database");
+        assert!(
+            super::migrate(&conn).is_err(),
+            "a pointer whose key disagrees with its price must not be retired"
+        );
+        assert_eq!(
+            conn.query_row("PRAGMA user_version", [], |row| row.get::<_, i64>(0))
+                .expect("version"),
+            8
+        );
+        assert_eq!(
+            conn.query_row(
+                "SELECT COUNT(*) FROM current_prices WHERE price_id = ?1 AND variant = 'mismatched-key'",
+                [stale],
+                |row| row.get::<_, i64>(0)
+            )
+            .expect("pointer remains"),
+            1
+        );
     }
 
     #[test]
@@ -2572,7 +2862,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 8);
+        assert_eq!(version, 9);
     }
 
     #[test]
@@ -2913,7 +3203,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 8);
+        assert_eq!(version, 9);
     }
 
     #[test]
@@ -3369,7 +3659,7 @@ mod tests {
                     .expect("version lock")
                     .query_row("PRAGMA user_version", [], |r| r.get(0))
                     .expect("version");
-                assert_eq!(version, 8);
+                assert_eq!(version, 9);
                 assert_eq!(
                     db.test_query("SELECT * FROM prices ORDER BY id"),
                     history,
@@ -3493,7 +3783,7 @@ mod tests {
             let version: i64 = conn
                 .query_row("PRAGMA user_version", [], |r| r.get(0))
                 .expect("successful retry version");
-            assert_eq!(version, 8);
+            assert_eq!(version, 9);
         }
         assert_eq!(db.test_query("SELECT * FROM prices ORDER BY id"), history);
         assert!(db.test_query("SELECT * FROM current_prices").is_empty());

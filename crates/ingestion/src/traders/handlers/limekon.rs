@@ -1,4 +1,6 @@
 //! Limekon's dedicated Richtpreisliste; never merge the conflicting homepage.
+//! The Impressum verifies operator/address identity, but contact values are
+//! intentionally not projected until independently corroborated.
 
 use scraper::{ElementRef, Html, Selector};
 
@@ -202,7 +204,10 @@ fn strict_price(value: &str, unit: &str) -> Option<f64> {
     parse_eur(number).filter(|p| p.is_finite() && *p > 0.0)
 }
 
-/// Bespoke Impressum paragraphs; no addresses or contact values hardcoded.
+/// Bespoke Impressum identity/address parser; phone and email remain empty
+/// because the Dossier source audit found no independent corroboration for
+/// those operator-only contact fields. The Impressum is still required to
+/// confirm the current entity and address before accepting this price page.
 fn extract_info(html: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(html);
     let main_sel = Selector::parse("#beginContent").unwrap();
@@ -241,21 +246,8 @@ fn extract_info(html: &str) -> Result<TraderInfo, IngestError> {
                 }
             }
         }
-        for line in lines {
-            if let Some(phone) = line.strip_prefix("Telefon: ") {
-                info.phone = phone.to_owned();
-            }
-            if let Some(email) = line.strip_prefix("E-Mail: ") {
-                info.email = email.replace("(at)", "@").replace("(dot)", ".");
-            }
-        }
     }
-    if info.street.is_empty()
-        || info.postcode.is_empty()
-        || info.city.is_empty()
-        || info.phone.is_empty()
-        || !info.email.contains('@')
-    {
+    if info.street.is_empty() || info.postcode.is_empty() || info.city.is_empty() {
         return Err(failure());
     }
     Ok(info)
@@ -368,7 +360,7 @@ mod tests {
     }
 
     #[test]
-    fn registered_handler_and_live_impressum_contact() {
+    fn registered_handler_keeps_identity_and_address_but_withholds_unverified_contacts() {
         let h = super::super::all()
             .into_iter()
             .filter(|h| h.slug == SLUG)
@@ -379,8 +371,15 @@ mod tests {
         assert_eq!(info.street, "Bahnhofstr. 23");
         assert_eq!(info.postcode, "32694");
         assert_eq!(info.city, "Dörentrup-Bega");
-        assert_eq!(info.phone, "+49 5263 95 61 906");
-        assert_eq!(info.email, "info@limekon.de");
+        assert_eq!(info.phone, "");
+        assert_eq!(info.email, "");
+        let no_contacts = include_str!("fixtures/limekon-impressum-20261014.html")
+            .replace("Telefon: +49 5263 95 61 906<br />", "")
+            .replace("E-Mail: info(at)limekon(dot)de", "");
+        let info = extract_info(&no_contacts).expect("identity/address do not depend on contacts");
+        assert_eq!(info.street, "Bahnhofstr. 23");
+        assert_eq!(info.phone, "");
+        assert_eq!(info.email, "");
         assert!(extract_info("<h1>Impressum</h1>").is_err());
     }
 }

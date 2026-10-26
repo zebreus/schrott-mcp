@@ -72,6 +72,25 @@ Der aktuelle Betreiberauftritt bestätigt Wahl & Co. Inhaber Thomas Madeiski e.K
   weiter offen; daher kein Deployment, Force-Ingest oder direkter
   Datenbank-Write.]
 
+### Owner-Nachprüfung 26.10.2026, 23:15 UTC
+
+- [Die Betreiberhomepage wurde erneut direkt abgerufen. Der maschinenlesbare
+  Preisstand ist weiterhin `2026-10-21T14:44:01Z`; die Seite bezeichnet die
+  Werte als tagesabhängige Richtwerte. Der Handler verwirft solche Werte jetzt,
+  sobald der Quellenzeitstempel älter als 24 Stunden ist oder in der Zukunft
+  liegt. Die 24 Stunden sind eine konservative Ingestion-Regel, keine vom
+  Betreiber zugesicherte Gültigkeitsfrist. Der Produktionsdienst läuft noch
+  mit dem älteren Binary und meldete im Lauf #2854 `Sortenpreisliste fehlt`.
+  Die neue Version-9-Migration entfernt beim freigegebenen regulären Rollout
+  exakt die 32 belegten alten `current_prices`-Zeiger (30 `exact`, 2 `upto`)
+  aus der Vor-Update-Beobachtung vom 21.10.2026, 03:30:55Z; historische
+  Beobachtungen bleiben erhalten. Der private v6→v9-Übergang ließ die
+  Wahl-Current-Zeilen von 32 auf 0 und die Historie bei 32. Quellen:
+  https://wahlundco.de/ ; https://wahlundco.de/impressum.html.]
+- [Der Handler-/Seed-Fix ist lokal geprüft, aber die notwendige Pre-Deploy-
+  Freigabe für den vollständigen Seed und die exakten Release-Binaries liegt
+  weiterhin nicht vor. Kein Deployment und keine Produktionsdatenänderung.]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Buntmetall-Spezialist (Cu, Messing, Rotguss, Alu, V2A/V4A, Zinn, HSS, Hartmetall, Wolfram), Kabel, Container

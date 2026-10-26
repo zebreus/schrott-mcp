@@ -26,6 +26,9 @@ pub const IMPRESSUM_URL: &str = "https://wahlundco.de/impressum.html";
 const UNIT: &str = "EUR/kg";
 const DETAIL_ROW_COUNT: usize = 31;
 const OVERVIEW_RANGE_COUNT: usize = 14;
+// Conservative ingestion freshness policy; the operator does not state an
+// exact validity window beyond calling these prices daily-dependent.
+const MAX_PRICE_AGE_HOURS: i64 = 24;
 pub(crate) const SNAPSHOT_PRICE_COUNT: usize = 40;
 pub(crate) const SNAPSHOT_OWNER: &str = "wahl-cms-price-v1";
 
@@ -113,6 +116,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     // anything from it again.
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
     let trader_info = extract_info(&imp_html)?;
+    validate_price_freshness(&published_at, chrono::Utc::now())?;
     let outcome = HandlerOutcome {
         skip_price_acceptances: false,
         prices,
@@ -576,6 +580,28 @@ fn parse_published_at(html: &str) -> Result<String, IngestError> {
     Ok(date.to_rfc3339())
 }
 
+/// The operator calls these Richtwerte tagesabhängig. Do not refresh a
+/// database observation from a page whose own timestamp is more than one day
+/// old, or from a timestamp in the future.
+fn validate_price_freshness(
+    published_at: &str,
+    now: chrono::DateTime<chrono::Utc>,
+) -> Result<(), IngestError> {
+    let published_at = chrono::DateTime::parse_from_rfc3339(published_at)
+        .map_err(|_| parse_error("Preisstand ist kein gültiger RFC3339-Zeitstempel"))?
+        .with_timezone(&chrono::Utc);
+    let age = now.signed_duration_since(published_at);
+    if age < chrono::Duration::zero() {
+        return Err(parse_error("Preisstand liegt in der Zukunft"));
+    }
+    if age > chrono::Duration::hours(MAX_PRICE_AGE_HOURS) {
+        return Err(parse_error(
+            "Preisstand ist älter als 24 Stunden; tagesabhängige Richtwerte werden nicht übernommen",
+        ));
+    }
+    Ok(())
+}
+
 /// Metal-card headings (`<div class="metal-card">…<h3>…`) as assortment
 /// proof. Bonus only: an empty card list is not an error.
 fn parse_cards(html: &str) -> Vec<String> {
@@ -694,7 +720,8 @@ fn parse_error(detail: &str) -> IngestError {
 mod tests {
     use super::{
         extract_info, grade_for, grade_for_card, grade_for_range, map_price_snapshot, parse_cards,
-        parse_prices, parse_published_at, parse_range, parse_ranges, SNAPSHOT_PRICE_COUNT,
+        parse_prices, parse_published_at, parse_range, parse_ranges, validate_price_freshness,
+        MAX_PRICE_AGE_HOURS, SNAPSHOT_PRICE_COUNT,
     };
 
     /// Historical FAQ layout, retained only to assert that stale markup is
@@ -904,6 +931,31 @@ mod tests {
             "2026-10-21T14:44:01+00:00"
         );
         assert!(parse_published_at("<time id='price-update-date'>today</time>").is_err());
+    }
+
+    #[test]
+    fn daily_dependent_prices_require_a_timestamp_within_24_hours() {
+        let now = chrono::DateTime::parse_from_rfc3339("2026-10-26T23:00:00Z")
+            .unwrap()
+            .with_timezone(&chrono::Utc);
+        let at_cutoff = (now - chrono::Duration::hours(MAX_PRICE_AGE_HOURS)).to_rfc3339();
+        assert!(validate_price_freshness(&at_cutoff, now).is_ok());
+
+        let stale =
+            (now - chrono::Duration::hours(MAX_PRICE_AGE_HOURS) - chrono::Duration::seconds(1))
+                .to_rfc3339();
+        let error = validate_price_freshness(&stale, now).unwrap_err();
+        assert!(
+            error.to_string().contains("älter als 24 Stunden"),
+            "{error}"
+        );
+
+        let future = (now + chrono::Duration::seconds(1)).to_rfc3339();
+        let error = validate_price_freshness(&future, now).unwrap_err();
+        assert!(
+            error.to_string().contains("liegt in der Zukunft"),
+            "{error}"
+        );
     }
 
     #[test]
@@ -1169,16 +1221,20 @@ mod tests {
 
     #[tokio::test]
     #[ignore = "read-only live source check; parses the page and Impressum, never records data"]
-    async fn live_handler_parses_the_complete_current_snapshot() {
+    async fn live_handler_accepts_a_fresh_snapshot_or_rejects_stale_prices() {
         let client = reqwest::Client::builder()
             .user_agent("schrott-mcp-ingestion/0.1")
             .timeout(std::time::Duration::from_secs(30))
             .build()
             .unwrap();
-        let outcome = super::scrape(&client)
-            .await
-            .expect("current Wahl price page, complete snapshot and Impressum");
-
-        assert_eq!(outcome.prices.len(), SNAPSHOT_PRICE_COUNT);
+        match super::scrape(&client).await {
+            Ok(outcome) => assert_eq!(outcome.prices.len(), SNAPSHOT_PRICE_COUNT),
+            Err(error) => assert!(
+                error
+                    .to_string()
+                    .contains("tagesabhängige Richtwerte werden nicht übernommen"),
+                "unexpected live-source error: {error}"
+            ),
+        }
     }
 }
