@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Registereintrag Anita und Marc Pohl GmbH & Co. KG (HRA 16296, AG Fritzlar) nennt Homberger Str. 49, 34587 Felsberg und Autorecycling als Gegenstand. 11880 und Gelbe Seiten ordnen der Adresse ebenfalls eine A.-Pohl-Autoverwertung zu; das stützt den Seedbezug, belegt aber keine aktuell offene Selbstanlieferung. Die beiden als eigene Betreiberdomains geprüften Adressen pohl-autoverwertung.de und autoverwertung-pohl.de waren beim dokumentierten Direktcheck nicht erreichbar. Frontmatter-Telefon und Öffnungszeiten stammen aus älteren Datensätzen und sind nicht frisch bestätigt; `status: aktiv` ist kein neuer Betriebsnachweis. **Ankauf:** keine Kurse. **Verkauf:** keine Teile-/Fahrzeugpreisliste verifiziert. **Gebühren:** keine Tarife. **GEO:** registrierte Anschrift ist ein Standortkandidat, aber kein belegter Kundenhof; vor präzisem Kunden-GEO Annahme prüfen (Recherche 01.–02.10.2026).
 
 ## Timeline
 

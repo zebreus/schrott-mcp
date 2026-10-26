@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+`weber-recycling.de` gehört laut Betreiber-Impressum und Leistungsseiten zu Ricardo Weber/Weber Recycling in Wolfenbüttel. Die Website beschreibt mobilen Abholservice, nennt aber keine Gebhardshagener Filiale oder Annahmestelle; ein Portal führt für Salzgitter denselben Namen, dieselbe Domain und dieselbe Mobilnummer. Das spricht für eine mögliche Orts-/Mobilitätsfehlzuordnung, beweist aber weder Identität noch einen früheren Standort in Gebhardshagen. Die Domain bleibt aus den Dossierfeldern entfernt; nicht mit dem Namensvetter schrott-weber.de aus Hessen verwechseln.
+
+**ANKAUF:** für diesen Gebhardshagener Datensatz keine bestätigten Ankaufssätze oder Vergütungsbedingungen. **VERKAUF:** keine zuordenbare Produktpreisliste. **GEBÜHREN:** keine Gebhardshagener Container-/Entsorgungstarife. **GEO-Prüfbedarf:** keinen Punkt in Gebhardshagen aus dem Portal oder Wolfenbütteler Firmensitz ableiten; zuerst klären, ob es dort je einen Hof gab oder nur einen mobilen Einsatz-Lead. Bei bestätigter mobiler Tätigkeit den Betriebssitz vom Einsatzgebiet trennen.
 
 ## Timeline
+
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Operatorseiten (Start, Impressum, Kontakt, Schrott-/Metallhandel und FAQ) nochmals gegen den Gebhardshagener Lead abgeglichen. Die Betreiberquelle nennt Ricardo Weber/Weber Recycling in Wolfenbüttel und beschreibt Abholung beim Kunden; keine individuelle Gebhardshagener Adresse, Filialseite oder Publikumsannahme gefunden. Das lokale Portalprofil verwendet dieselbe Domain und Telefonnummer, ist daher keine unabhängige Bestätigung eines zweiten Betriebs. Kein Schluss auf Nichtexistenz, Schließung oder Umzug; weiterhin offen, ob regionale mobile Tätigkeit oder veraltete Ortszuordnung vorliegt. ANKAUF/VERKAUF/GEBÜHREN: keine für Gebhardshagen zurechenbaren Preislisten oder Tarife. Kein Feldfill und keine Geokodierung. Quellen: https://www.weber-recycling.de/impressum/ ; https://www.weber-recycling.de/schrott-und-metallhandel/ ; https://www.weber-recycling.de/faq/ ; https://lokaleschrottplatz.de/schrotthandel-weber/ .]
 
 ### Recherche 03.10.2026 (Feedback 4461, erneute Tiefenprüfung)
 

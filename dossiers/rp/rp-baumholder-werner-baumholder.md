@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Seed-Straßenangabe „Berschweilerstr. 11“ ist jetzt als möglicher Identitätsanker für die gelistete Erich Werner GmbH relevant: Meinestadt führt diese GmbH als Autowerkstatt genau an Berschweilerstr. 11, 55774 Baumholder; ein separat abgerufener Fachbetrieberegister-Aggregator führt Erich Werner GmbH als anerkannten Altfahrzeug-Demontagebetrieb in Baumholder, allerdings ohne Hausnummer. Die Übereinstimmung ist stark genug für Nachprüfung, aber wegen fehlender direkter Betreiber-/Registeransicht noch nicht als Identitätsbeweis für den Seed-Namen „Werner Baumholder“ zu behandeln. Keine Felder geändert. ANKAUF: keine Metallpreise; VERKAUF: keine Fahrzeug-/Teilepreise; GEBÜHREN: keine Angaben.
+Die Seed-Straßenangabe „Berschweilerstr. 11“ ist eine Identitätsspur, aber nicht gesichert. **Quellenkorrektur:** Der bisher verlinkte Meinestadt-Abruf `/company/5195495` ist das Profil von Com'in Datentechnik in der Danziger Straße 39; die Umkreisliste verlinkt separat eine Erich Werner GmbH. Der direkte Abruf des separat indexierten Werner-Profils (`/company/10961848`) war nicht lesbar. Ein Fachbetrieberegister-Aggregator und Schrottpreis.org führen Erich Werner GmbH als Altfahrzeug-Demontagebetrieb in Baumholder/Berschweiler Straße; das ist kein gelesener amtlicher Registerauszug oder Betreiberbeleg. Keine Identitätsbrücke zum Seed-Namen „Werner Baumholder“, keine Felder geändert. **GEO-Prüfbedarf:** offizielle aktuelle Betriebsanschrift, Grundstückszufahrt und öffentliche Kundenannahme statt Verzeichnis-Koordinate feststellen.
+
+**ANKAUF:** keine Metallpreise oder Auszahlungskonditionen. **VERKAUF:** keine Fahrzeug-/Teilepreise. **GEBÜHREN:** keine Tarife belegt.
 
 ## Timeline
+
+### Quellenkorrektur/Nachprüfung 26.10.2026
+
+- [Quellenkorrektur 26.10.2026: Der zuvor im Eintrag 07.10.2026 zitierte Meinestadt-Link https://branchenbuch.meinestadt.de/baumholder/company/5195495 bezeichnet Com'in Datentechnik und Multimedia GmbH, Danziger Str. 39, nicht unmittelbar die Erich Werner GmbH. Eine Suchansicht führt Erich Werner als separaten Firmenlink (`/company/10961848`); der Direktabruf dieses Profils lief in einen Timeout, daher wird dessen Inhalt nicht als gelesen behauptet. Schrottpreis.org führt Erich Werner GmbH, Berschweiler Straße, 55774 Baumholder, Tel. 06783/5937 als Demontagebetrieb samt Koordinate 49.608993, 7.328068; das ist ein Branchenportal und kein zulässiger Primärbeleg. Die bisherige Meinestadt-Adressbrücke ist damit schwächer als dargestellt; Erich Werner bleibt höchstens Identitätskandidat. Keine Änderung an Seed-Rohtext/Frontmatter. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbaren Preise. GEO erst nach amtlicher Betriebs-/Annahmebestätigung und Grundstücks-/Zufahrtsprüfung. Quellen/Leads: https://branchenbuch.meinestadt.de/baumholder/company/5195495 ; https://branchenbuch.meinestadt.de/baumholder/company/10961848 (Direktabruf Timeout); https://www.schrottpreis.org/autoverwertung-in-idar-oberstein/ ; https://schrottregister.pages.dev/betrieb-erich-werner-gmbh-baumholder .]
 
 ### Recherche 02.10.2026
 

@@ -28,11 +28,15 @@ Der Import nennt „Schrotthandel“ und verweist auf schrottplatz-info. Das Por
 
 **Preise:** **Ankauf** – kein aktueller Händlerbeleg und keine Kurse. **Verkauf** – keine Produkt-/Preisliste. **Gebühren** – keine Annahme-, Abhol- oder Containergebühren belegt.
 
-**Geokodierung:** Keine verifizierte Straße/Hausnummer; keine Geokodierung möglich.
+**GEO-Prüfbedarf:** Keine verifizierte Straße/Hausnummer; Ortsbezug Wanzleben-Börde vs. Eggenstedt und tatsächliche Betriebs-/Annahmestelle zuerst klären. Keine Geokodierung aus der Umkreisliste.
 
 Quelle des Portal-Leads: [schrottplatz-info – Trefferliste Haldensleben/Umkreis](https://www.schrottplatz-info.de/schrottplatz/Haldensleben) (Aggregator, kein Betreiberbeleg).
 
 ## Timeline
+
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Exakte Namenssuche mit „Willi Tannenläufer“, Schrotthandel und Wanzleben/Eggenstedt führte weiterhin nur zur schrottplatz-info-Umkreisliste; kein aktuelles Betreiber-Impressum, Handelsregistertreffer oder kommunaler Standortbeleg wurde gefunden. Das amtliche Amtsblatt der Stadt Wanzleben-Börde bestätigt nur die Einordnung Eggenstedts als Ortsteil, nicht den Händler oder eine Anschrift. Kein Kontakt-/Adressfill, kein Schluss auf Schließung. ANKAUF: keine bestätigten Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Vor GEO ist erst die genaue Ortschaft und ein konkret zugänglicher Betriebshof zu bestätigen. Quellen/Lead: https://www.schrottplatz-info.de/schrottplatz/Haldensleben ; https://www.wanzleben-boerde.de/de/datei/download/id/21700,1072/amtsblatt-04-13.pdf (amtlicher Ortskontext, kein Händlerbeleg).]
 
 ### Recherche 07.10.2026
 

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Hoppe ist weiterhin nur anbieterbezogen über Verzeichnisse an Glindenberger Weg 5 / 39126 Magdeburg mit 0391 66277887 geführt; der frühere „Ausnahmefall“-Fill erfüllt die README-Quellenhierarchie nicht. BBW bestätigt aktuell in seinem eigenen Impressum Am Hansehafen 40, nicht eine heutige gemeinsame Kundenanschrift mit Hoppe. Kein belegtes BBW-/ALBA-Verhältnis und kein aktueller unabhängiger Hoppe-Betreiberbeleg. Altwerte bleiben unbestätigt, keine neue Freigabe oder GEO-Übernahme; `pruefung`. Ankauf, Verkauf und Gebühren nicht belegt.
+Hoppe ist weiterhin nur anbieterbezogen über Verzeichnisse an Glindenberger Weg 5 / 39126 Magdeburg mit 0391 66277887 geführt; der frühere „Ausnahmefall“-Fill erfüllt die README-Quellenhierarchie nicht. BBW bestätigt aktuell in seinem eigenen Impressum Am Hansehafen 40, nicht eine heutige gemeinsame Kundenanschrift mit Hoppe. Eine Betreiberwebsite „Hoppe Schrott- und Metallhandel“ mit Impressum für Ingo Hoppe weist auf einen anderen Betrieb in Braunschweig (Hinter dem Turme 22) und ist keine Magdeburg-Quelle. Kein belegtes BBW-/ALBA-Verhältnis und kein aktueller unabhängiger Hoppe-Betreiberbeleg. Altwerte bleiben unbestätigt, keine neue Freigabe oder GEO-Übernahme; `pruefung`. **GEO-Prüfbedarf:** tatsächliche Betriebs-/Annahmefläche am Glindenberger Weg 5 und Zugang von Mehrmieter-/Industriegrundstück unterscheiden; kein Punkt aus BBW/ALBA- oder Postleitzahl-Nähe ableiten. Ankauf, Verkauf und Gebühren nicht belegt.
 
 ## Timeline
+
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Namenskonflikt gezielt geprüft: die Betreiberwebsite hoppe-schrotthandel.de nennt Ingo Hoppe, Schrotthandel, Hinter dem Turme 22, 38114 Braunschweig, Tel. 0531-61496874; das ist ein eigenständiger Braunschweiger Betrieb und keine Betreiberquelle für Sebastian Hoppe/Glindenberger Weg 5 in Magdeburg. Keine Namen, Telefonnummern oder Leistungen übertragen. Die Magdeburger Verzeichnisangaben und ihre abweichenden Telefonleads lösen weder eine Betreiberidentität noch BBW-/ALBA-Kette auf. ANKAUF: keine Hoppe-Kurse/Annahmebestätigung; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Status/Felder unverändert; GEO erst nach amtlicher Betriebsbestätigung und Einfahrts-/Annahmestellenprüfung. Quelle zur ausgeschlossenen Namenskollision: https://hoppe-schrotthandel.de/impressum ; https://hoppe-schrotthandel.de/ ; Ziel-Lead: https://www.11880.com/branchenbuch/magdeburg/251092496B107529655/sebastian-hoppe-recyclingservice.html .]
 
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 

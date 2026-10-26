@@ -32,6 +32,10 @@ Northdata führt **Michael Johann Bitterbier** als Geschäftsführer der **Kerns
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: bitterbier.de direkt erneut geöffnet; die Domain zeigt weiterhin lediglich „Diese Homepage wird zur Zeit überarbeitet“ und keinen Betreiber, keine Firmenanschrift oder Schrott-/Metallhandelsleistung. Der Domainlead belegt daher weder eine Verbindung zum Verzeichnisprofil „Metallhandel Bitterbier“ an Vilshofener Str. 3 noch eine Kette zur getrennten Kernschrott-Recycling UG an Dieselstr. 7. Keine Daten zwischen den Kandidaten übertragen. **Ankauf/Verkauf/Gebühren:** keine neue, dem Zielbetrieb zuordenbare Preisliste. **GEO:** keine neue Punktbestätigung. Quelle: https://www.bitterbier.de/ .]
+
 ### Recherche 09.10.2026
 
 - [Recherche 09.10.2026: Kernschrott-Recycling-Registerprofil erneut direkt HTTP 200 gelesen: HRB 12051 Regensburg, Dieselstr. 7, 93053 Regensburg, Geschäftsführer Michael Bitterbier ab 02.04.2019; Jahresabschluss 2024 publiziert 27.05.2026. Dies bestätigt den getrennten Gesellschaftskandidaten, NICHT den Metallhandel Bitterbier an Vilshofener Str. 3 oder eine Nachfolge-/Umzugskette. Kein Merge, keine Kontaktübertragung und keine Preise der Nachbarzeile zugeordnet. Bestehender Telefonnummernkonflikt bleibt offen, status pruefung erhalten. Ankauf/Verkauf/Gebühren: keine zurechenbaren Zahlenlisten für den Zielbetrieb. Nächster Schritt Gewerbe-/Betreiberabgleich beider Anschriften; Quelle: https://www.northdata.de/Kernschrott-Recycling+UG,+Regensburg .]

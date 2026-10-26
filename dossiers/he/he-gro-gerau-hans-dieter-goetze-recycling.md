@@ -4,13 +4,13 @@ name: Hans Dieter Goetze Recycling UG
 trader_type: sonstige
 state: HE
 city: Groß-Gerau
-street: ''
-postcode: ''
+street: Hans-Böckler-Straße 28
+postcode: '64521'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.goetze-recycling.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+NorthData führt die Hans-Dieter Goetze Recycling UG (HRB 89902) an Hans-Böckler-Str. 28, 64521 Groß-Gerau und nennt Hans-Dieter Goetze als Geschäftsführer. Der jetzt direkt erreichbare Betreiberauftritt „Goetze Recycling“ nennt Hans-Dieter Goetze und dieselbe Anschrift; diese Register-/Betreiberübereinstimmung stützt die Adresse und Domain, nicht aber einen öffentlichen Annahmehof. **Ankauf:** Website nennt Stahl, Edelstahl, Messing, Kupfer, Aluminium, Bronze, Blei, Zink und Elektroschrott/Kabel, aber keine Materialkurse; kostenlose Container von 5–40 m³ werden ausdrücklich nur für gewerbliche Partner/Großhandel und bestimmte Metallabfälle beworben. **Verkauf:** keine Warenpreisliste. **Gebühren:** keine numerischen Container-, Räumungs- oder Entsorgungstarife. Websiteinhalt ist undatiert; Status bleibt `pruefung`. **GEO:** Hans-Böckler-Str. 28 ist Geschäfts-/Registeradresse, keine nachgewiesene öffentliche Selbstanlieferstelle; keine Koordinate setzen (Recherche 26.10.2026).
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Abweichend vom Abrufversuch 04.10.2026 war https://www.goetze-recycling.de/ heute direkt erreichbar; auch Kontakt/Impressum, Ankauf, Containerdienst und Entrümpelung wurden gelesen. Der Betreiberauftritt nennt „Goetze Recycling“, Hans-Dieter Goetze und Hans-Böckler-Straße 28, 64521 Groß-Gerau. NorthData führt die Hans-Dieter Goetze Recycling UG, HRB 89902, an derselben Anschrift und nennt Hans-Dieter Goetze als Geschäftsführer. Diese zwei voneinander verschiedenen Quellen stützen die Domain- und Adresszuordnung; Straße, PLZ, Website und `website_status: aktiv` wurden entsprechend ergänzt. Telefon 06152/81969 und info@Goetze-Recycling.de sind auf der Betreiberseite genannt, aber ohne unabhängigen zulässigen Zweitbeleg nicht in die Frontmatter übernommen. Die Webseite behauptet Ankauf von Stahl, Edelstahl, Messing, Kupfer, Alu, Bronze, Blei, Zink sowie Kabeln, Steckern, Trafos, Platinen, Bauteilen und Schaltschränken; sie veröffentlicht keine Sorten-/Eurokurse. Für gewerbliche Partner/Großhandel werden für FE-, legierte Stahl- und NE-Metallabfälle kostenlose Absetz-/Abrollcontainer 5–40 m³ angeboten; dies ist keine allgemeine Gratisleistung. Container werden nach Absprache geliefert/abgeholt, Preise fehlen. Entrümpelung: verwertbare Sachen werden angerechnet/vergütet, unverbindliches Angebot; kein ausgewiesener Tarif und keine explizite Zusage, dass Angebot/Besichtigung kostenlos ist. Keine Waren-Verkaufspreisliste. Die Website enthält keinen aktuellen Veröffentlichungszeitpunkt; jüngste auf NorthData sichtbare Bilanz betrifft 2021 (publiziert 04.01.2024). `status: pruefung` bleibt bis zu einer aktuellen Betriebs-/Annahmebestätigung. Die Adresse ist nicht als öffentlicher Anlieferhof bestätigt; kein dropoff/GEO gesetzt. Quellen: https://www.goetze-recycling.de/ ; https://www.goetze-recycling.de/kontakt.html ; https://www.goetze-recycling.de/ankauf.html ; https://www.goetze-recycling.de/containerdienst.html ; https://www.goetze-recycling.de/entr%C3%BCmpelung.html ; https://www.northdata.de/Hans-Dieter+Goetze+Recycling+UG,+Gro%C3%9F-Gerau/Amtsgericht+Darmstadt+HRB+89902 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

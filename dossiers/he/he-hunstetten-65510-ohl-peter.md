@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Mehrere Branchenverzeichnisse führen Peter Ohl unter Waldstr. 1 in Hünstetten-Ketternschwalbach. Ein eigener Betreiberauftritt oder Registerbeleg ist bislang nicht dokumentiert. Der zusätzlich genannte Peter-/Helga-Ohl-Getränkedienst könnte ein Familienverbund sein; eigenständige Identitäten und Rufnummern sind nicht geklärt.
+Mehrere Branchenverzeichnisse führen Peter Ohl unter Waldstr. 1 in Hünstetten-Ketternschwalbach und nennen 06438 923073; ein Betreiberauftritt oder Registerbeleg ist nicht dokumentiert. Der zusätzliche Peter-/Helga-Ohl-Getränkedienst mit anderer Nummer könnte ein Familienverbund sein, ist aber nicht zugeordnet. **Ankauf/Verkauf/Gebühren:** keine belegten Konditionen, numerischen Preislisten oder Tarife. **GEO:** Waldstr. 1 ist nur ein Portal-Adresskandidat, kein bestätigter Kundenstandort; bis Identität und Annahme geklärt sind, keine Koordinate setzen (Recherche 02.–06.10.2026).
 
 ## Timeline
 

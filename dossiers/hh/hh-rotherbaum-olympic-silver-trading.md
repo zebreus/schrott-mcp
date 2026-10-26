@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der historische Rechtsträger Olympic Silver Trading GmbH (HRB 54383 Hamburg) wurde am 12.05.2003 wegen Vermögenslosigkeit von Amts wegen gelöscht. Das Verzeichnisprofil in Rotherbaum/20146 nennt keine Straße und verknüpft sich nicht eindeutig mit dem Registerunternehmen; Grindelweg 4a ist nur eine historische Registeranschrift, kein bestätigter heutiger Ankaufspunkt. Der Link zum aktiven StoneX-Bullion-Auftritt belegt keinen Nachfolger.
+Der historische Rechtsträger Olympic Silver Trading GmbH (HRB 54383 Hamburg) wurde am 12.05.2003 wegen Vermögenslosigkeit von Amts wegen gelöscht. Das direkt gelesene aktuelle Gelbe-Seiten-Profil nennt weiterhin nur Rotherbaum/20146, ergänzt aber Telefon 040 44 50 21 und einen Link auf silver-to-go.com; Straße und Registerbezug fehlen. Grindelweg 4a ist nur historische Registeranschrift, kein bestätigter Ankaufspunkt. silver-to-go.com führt heute zu StoneX Bullion GmbH in Frankfurt; ein Nachfolger oder eine Betreiberkette ist nicht belegt.
 
 **Preise (Ankauf/Verkauf/Gebühren):** keine aktuell zurechenbaren Preise oder Gebühren; es gibt keinen belegten laufenden Händlerbetrieb. **Offen:** Zuordnung des Verzeichnis-Leads und möglicher Nachfolger; bis dahin keine Frontmatter-Adresse oder Schließung für den Lead erfinden. Quellen siehe Recherche 03.10.2026.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Einzeldetail erneut direkt gelesen: „Olympic Silver Trading GmbH“, Rubriken Edelmetalle/Gold- und Silberwaren, Ort/PLZ 20146 Hamburg, Telefon 040 44 50 21 und Website-Link http://www.silver-to-go.com; weiterhin keine Straße und keine HRB-Zuordnung im Profil. Der verlinkte Auftritt führt zu StoneX Bullion; dessen aktuelles Impressum nennt StoneX Bullion GmbH, Taunustor 1, 60310 Frankfurt, HRB 98020 AG Frankfurt. NorthData führt Olympic Silver Trading GmbH weiterhin als 2003 wegen Vermögenslosigkeit gelöscht. Kein Beleg für Umbenennung, Übernahme oder Nachfolge; weder Telefonnummer noch StoneX-Preise übertragen. **Ankauf/Verkauf/Gebühren:** keine Preise oder Tarife für einen aktiven Hamburger Zielbetrieb belegt. Ohne aktuelle Identität und Straße kein GEO; Grindelweg bleibt historische Registeradresse. Quellen: https://www.gelbeseiten.de/gsbiz/514be2fe-3a01-4761-8471-f63831636ab1 ; https://www.northdata.de/Olympic+Silver+Trading+GmbH,+Hamburg/HRB+54383 ; https://www.stonexbullion.com/en/documents/legal-notice/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

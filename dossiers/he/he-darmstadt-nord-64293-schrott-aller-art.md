@@ -30,6 +30,10 @@ Die Zuordnung bleibt ungeklärt. Verzeichnisse nennen Mainzer Str. 83, 64293 Dar
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das-Örtliche-Einzeldetail direkt gelesen. Der Verzeichniseintrag wiederholt Mainzer Str. 83, 64293 Darmstadt-Nord und Telefon 0177 5452343 und ergänzt die E-Mail-Adresse info@schrottallerart.de sowie den Link http://www.schrottallerart.de. Das bleibt ein Aggregatorlead und ist weder Betreiber-/Gewerbenachweis noch Bestätigung der Identität hinter der Domain; der Direktabruf der Domain zeigt weiterhin eine One.com-Parkseite ohne Firmeninhalt. Adresse, Telefon und E-Mail deshalb nicht wieder in Frontmatter übernommen. **Ankauf/Verkauf/Gebühren:** keine Preise/Tarife; **GEO:** kein Punkt für die unbestätigte Adresse. Quellen: https://www.dasoertliche.de/Themen/Schrott-Aller-Art-Darmstadt-Nord-Mainzer-Str ; http://schrottallerart.de .]
+
 ### Korrektur 17.10.2026 (Integrationsdisposition)
 
 - [Korrektur 17.10.2026: Die Rücknahme Mainzer Str. 83/64293 ist als Entzug unqualifizierter Kuratierung freigegeben, nicht als Beweis einer falschen Adresse oder Schließung. Die früheren Aggregatorkonsens-Bestätigungen vom 30.09./02.10. sind nach README keine qualifizierende Verifikation. Konkurrierende Kirschenallee-/PLZ-Portalspuren bleiben ungefüllt. Leere Kernadresse ersetzt beim geänderten Seed gespeicherte Adresse; leere Kontakt-/Servicefelder dagegen Keep, ohne neues Clear. Keine GEO-Freigabe: vorhandene Koordinaten werden ohne geliefertes Paar weder korrigiert noch automatisch neu geocodiert. Quelle: research/checkin-20261017-1700-wave13-b-review.md; README.md §§ Feedback triage; docs/trader-seed.md §§ Explicit enrichment clears/GEO contract; Portal-Leads der Recherche 13.10.2026]

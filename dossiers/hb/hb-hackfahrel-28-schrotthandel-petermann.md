@@ -24,13 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Schrotthandel Petermann GbR“, Hackfahrel 28, 27572 Bremerhaven bleibt ohne Betreiber- oder Registerbeleg. Cylex und 11880 führen als zusätzliche Verzeichnis-Leads übereinstimmend die Mobilnummer 0151 43651620; sie wurde nicht ins Frontmatter übernommen. Adresse, Name und Annahmebedingungen müssen weiterhin vom Betreiber bestätigt werden. Keine verifizierten Ankaufspreise, Verkaufspreise oder Gebühren; Status `pruefung`.
+„Schrotthandel Petermann GbR“, Hackfahrel 28, 27572 Bremerhaven bleibt ohne Betreiber- oder Registerbeleg. Cylex und 11880 führen als zusätzliche Verzeichnis-Leads übereinstimmend die Mobilnummer 0151 43651620; sie wurde nicht ins Frontmatter übernommen. Weitere Branchenportal-Treffer nennen am selben Hausnummernlead auch andere Gewerbe. Das beweist weder Mitnutzung noch Verwechslung, macht aber Grundstück/Einheit/Zufahrt vor einer Geokodierung besonders prüfbedürftig. Adresse, Name und Annahmebedingungen müssen weiterhin vom Betreiber bestätigt werden. **ANKAUF:** Portal-Werbeaussage ohne Sorten-/Zahlenliste. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife; Status `pruefung`.
 
 ## Timeline
 
 ### Nachprüfung 26.10.2026
 
 - [Nachprüfung 26.10.2026: 11880-Einzelprofil direkt abgerufen (Portalstand: Eintrag zuletzt 03.10.2026 aktualisiert). Es nennt Hackfahrel 28, 27572 Bremerhaven/Wulsdorf, Tel. 0151 43651620, Mo–Sa 08:00–19:00, Besichtigung nach telefonischer Terminvereinbarung und bewirbt Schrottankauf privat/gewerblich sowie Hausmeisterservice/Entrümpelung. Das bleibt Aggregatorinhalt ohne Betreiber-Impressum oder Register-/Identitätsbrücke; daher weder Zeiten noch Kontakt/Annahme als bestätigt übernommen. „Faire Konditionen“ enthält keine Zahlen. **Ankauf:** allgemeine Werbeaussage, kein Kurs; **Verkauf/Gebühren:** keine Tarife. City-Feld, Adresse und GEO weiterhin Owner-Klärfall. Quelle: https://www.11880.com/branchenbuch/bremerhaven/060692243B108404918/schrotthandel-petermann-gbr.html .]
+
+- [Ergänzung 26.10.2026: Eine zusätzliche GEO-Gegenprobe findet weitere Portalprofile für Gewerbe an Hackfahrel 28 (u. a. D. Klimkeit Bautenschutz und Winterstein Dachsteinreinigung). Das beweist weder Mitnutzung noch Verwechslung, ist aber Anlass, konkrete Einheit/Grundstücksgrenze, Hofzufahrt und tatsächlichen Annahmepunkt separat zu bestätigen. **Ankauf:** weiterhin nur allgemeine Portalwerbung, kein Kurs; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Keine Feldänderung und kein GEO. Quellen/Leads: https://www.11880-dachdecker.com/dachdecker/bremerhaven/dklimkeit-bautenschutz-112646032.html ; https://www.dasoertliche.de/Themen/Sanit%C3%A4rinstallationen/Bremerhaven-Wulsdorf.html .]
 
 ### Recherche 16.10.2026 — Welle 13:00 B
 

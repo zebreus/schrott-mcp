@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Hauptstr. 12, PLZ 66871 und 0175 1549754 stammen aus mehreren Verzeichnissen, aber nicht aus einem belastbaren Betreiber-/Registerbeleg; übereinstimmende Aggregatoren können dasselbe Datenbild kopieren. Diese drei Werte wurden aus den strukturierten Feldern entfernt und bleiben als historische Leads nachvollziehbar. Betreiberidentität, laufender Ankauf und Leistungsbedingungen bleiben offen.
+Hauptstr. 12, PLZ 66871 und 0175 1549754 stammen aus mehreren Verzeichnissen, aber nicht aus einem belastbaren Betreiber-/Registerbeleg; übereinstimmende Aggregatoren können dasselbe Datenbild kopieren. Diese drei Werte wurden aus den strukturierten Feldern entfernt und bleiben als historische Leads nachvollziehbar. Betreiberidentität, laufender Ankauf und Leistungsbedingungen bleiben offen. **GEO-Prüfbedarf:** keine Koordinate aus dem Straßenlead oder der Anschrift ohne aktuellen Gewerbe-/Betreiberbeleg; insbesondere klären, ob dort tatsächlich ein Kundenhof/Zufahrt besteht.
+
+**ANKAUF:** keine Betreiberzusage/Kurse. **VERKAUF:** keine Material- oder Teilepreisliste. **GEBÜHREN:** keine bezifferten Container-, Abhol- oder Entsorgungstarife.
 
 ## Timeline
+
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Neue Namenssuche mit Orts-/Leistungsbezug ergab keinen belastbaren Betreiberauftritt, Handelsregister-/Gewerbenachweis oder amtlichen Standortbeleg. Die weiter auffindbaren Einträge bei Bundes-Telefonbuch und Gelbe Seiten wiederholen Hauptstr. 12/66871 und Mobil 0175 1549754, bleiben aber derselben Quellenklasse „Aggregator“ zugeordnet; keine unabhängige Bestätigung und kein Nachweis einer aktuellen Annahmestelle. Felder bleiben deshalb bereinigt, Status `pruefung`. ANKAUF/VERKAUF/GEBÜHREN ohne Betreiberbedingungen oder Zahlen. Vor GEO: Identität, aktuelle Betriebsadresse, Hof-/Zufahrtseingang und öffentliche Annahme bestätigen; keine Portal-Koordinaten übernehmen. Leads: https://www.bundes-telefonbuch.de/dennweiler-frohnbach/container/heike-schaefer-bvg10073088404 ; https://www.gelbeseiten.de/gsbiz/f4f6683a-4383-4acb-a8ce-28e18d36fbc6 .]
 
 ### Korrektur/Recherche 22.10.2026
 

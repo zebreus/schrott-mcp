@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-RCH ist bisher ein ungeklärter Alt-/Verzeichnisdatensatz an Mittelweg 5, Holthusen. Neue Suchleads liefern die ausgeschriebene Firma **RCH Recycling und Containerdienst Holthusen GmbH & Co. KG** und eine mutmaßliche Verwaltungsgesellschaft, HRB 4818 Schwerin. Das sind noch keine nachgewiesene Betreiberkette oder heutige Betriebs-/Annahmebestätigung; Name/Kontaktfelder nicht daraus gefüllt. Holsten Recycling/Achim und RCH Himberg/Österreich nicht zuordnen.
+RCH ist bisher ein ungeklärter Alt-/Verzeichnisdatensatz an Mittelweg 5, Holthusen. Neue Suchleads liefern die ausgeschriebene Firma **RCH Recycling und Containerdienst Holthusen GmbH & Co. KG** und eine Verwaltungsgesellschaft, HRB 4818 Schwerin. Dagegen belegen aktuelle Betreiberunterlagen von OTTO DÖRNER Kies und Umwelt Mecklenburg GmbH & Co. KG eine eigene Recyclingbaustoff-Anlage und einen Standort am Mittelweg 5. Das belegt DÖRNER-Betrieb dort, aber keine Rechtsnachfolge oder Marken-/Betreiberkette von RCH; Name/Kontaktfelder nicht daraus gefüllt. Holsten Recycling/Achim und RCH Himberg/Österreich nicht zuordnen.
 
-**Ankauf:** Eisen-/NE-Hinweis aus Seed, keine bestätigte vergütete Annahme oder Zahlenliste. **Verkauf:** keine Liste. **Gebühren:** Container-/Entsorgungstarife offen. **GEO:** Betreiberexistenz, genaue Grundstücks-/Annahmestelle Mittelweg 5 und eventuelle Nachfolge zuerst klären; keine Koordinaten gesetzt.
+**Ankauf:** Eisen-/NE-Hinweis aus Seed, keine bestätigte vergütete Annahme oder Zahlenliste. **Verkauf:** DÖRNER weist am Standort Recyclingbaustoffe/RC 1 aus; keine Verkaufspreise und keine Zuordnung zu RCH. **Gebühren:** DÖRNER-Container-/Kleinannahmekonditionen sind nicht auf RCH übertragbar; RCH-Tarife offen. **GEO-Prüfbedarf:** DÖRNER-Anlage liegt nach Betreiberunterlagen am Mittelweg 5, aber genaue Annahmestelle/Zufahrt und RCH→DÖRNER-Kette bleiben ungeklärt; kein RCH-Punkt.
 
 ## Timeline
+
+### Recherche 26.10.2026: Betreiberkettenprüfung
+
+- [Recherche 26.10.2026: Neue Betreiberunterlagen auf doerner.de präzisieren die Gegenwartsseite des Standorts: der Eignungsnachweis „0201/26 – 1/26“ benennt OTTO DÖRNER Kies und Umwelt Mecklenburg GmbH & Co. KG, „Gewinnungsstätte/RC-Anlage Holthusen“, Mittelweg 5, 19075 Holthusen; Probenahme am 11.02.2026, Prüfzeitraum 12.02.–09.03.2026. Das vom Betreiber veröffentlichte ISO-50001-Zertifikat führt Mittelweg 5, Holthusen derselben DÖRNER-Gesellschaft zu und ist laut Dokument bis 22.06.2027 gültig. Das belegt aktuelle DÖRNER-Recyclingaktivität am Standort; es belegt nicht RCH→DÖRNER-Rechtsnachfolge oder Identität von Anlagen-/Standortgesellschaften. RC-1-Material ist ein Produkt-/Verkaufsindikator, aber kein RCH-Verkaufspreis. DÖRNER-Shoppreise/Entsorgungskosten werden nicht auf RCH umgelegt. ANKAUF: keine RCH-Auszahlungsbedingungen; VERKAUF: keine RCH-Preisliste; GEBÜHREN: keine RCH-Tarife. Keine Feld-/GEO-Änderung; vor Pin Betreiberkette und exakte heutige Publikumszufahrt klären. Quellen: https://www.doerner.de/wp-content/uploads/2026/05/eignungsnachweis-ebv-rc-1-holthusen-2026.pdf ; https://www.doerner.de/wp-content/uploads/2025/04/qm_din-en-iso-50001.pdf ; https://www.doerner-shop.de/standorte/schwerin .]
 
 ### Recherche 21.10.2026
 

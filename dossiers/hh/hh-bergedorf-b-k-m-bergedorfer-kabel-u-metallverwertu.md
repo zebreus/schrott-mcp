@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Register- und Firmendatenbankeinträge ordnen B.K.M. Bergedorfer Kabel- und Metallverwertungsgesellschaft mbH, HRB 58151, dem Handel sowie der Verwertung/Entsorgung von Kabel- und Metallabfällen zu. Mehrere Verzeichnis-Leads führen Ernst-Mantius-Str. 23, 21029 Hamburg und Telefon 040 2507788; das bestätigt keinen öffentlichen Annahmehof, keine Privatkundenannahme und keine aktuellen Öffnungszeiten. Es wurde keine Betreiber-Website oder numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung verifiziert. Status `aktiv` ist Seed-Stand, keine aktuelle Betriebsprüfung.
+NorthData führt B.K.M. Bergedorfer Kabel- und Metallverwertungsgesellschaft mbH (HRB 58151) mit dem Gegenstand Handel sowie Verwertung/Entsorgung von Kabel- und Metallabfällen an Ernst-Mantius-Str. 23, 21029 Hamburg. Die aktuell sichtbare Registerhistorie enthält einen Jahresabschluss für 2024, veröffentlicht am 11.11.2025; das ist ein jüngerer Register-/Rechnungslegungsbeleg, aber kein Nachweis eines öffentlichen Annahmehofs, einer Privatkundenannahme oder aktueller Öffnungszeiten. Telefon 040 2507788 bleibt Verzeichnis-Lead. Keine Betreiber-Website und keine numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung verifiziert. `aktiv` ist Seed-Stand, keine aktuelle Betriebsprüfung; GEO erst nach Bestätigung einer tatsächlichen Kundenannahmestelle.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: NorthData-Profil direkt erneut geöffnet: B.K.M. Bergedorfer Kabel- und Metallverwertungsgesellschaft mbH, HRB 58151, Ernst-Mantius-Str. 23, 21029 Hamburg; Unternehmensgegenstand Handel sowie Verwertung/Entsorgung von Kabel- und Metallabfällen. Die sichtbare jüngste Bilanz bezieht sich auf 2024 und wurde am 11.11.2025 veröffentlicht. Das belegt jüngere Rechnungslegung des Rechtsträgers, nicht die aktuelle tatsächliche Tätigkeit an der Adresse oder Publikumsannahme. Die zweite Adress-/Telefonspur bleibt Verzeichnis-Lead; keine neue Betreiberquelle, Ankaufskurse, Verkaufspreise oder Gebühren gefunden. Kein Frontmatter- oder GEO-Fill. Quelle: https://www.northdata.de/B%C2%B7K%C2%B7M%C2%B7%20Bergedorfer%20Kabel-%20und%20Metallverwertungsgesellschaft%20mbH,%20Hamburg/HRB%2058151 .]
 
 ### Recherche 21.10.2026
 

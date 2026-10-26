@@ -30,6 +30,10 @@ Identität weiter offen: Seed **Bernd Wackrow**, Gelbe-Seiten-Lead **Horst Wackr
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Der aktuelle Cylex-Firmenlead konkretisiert „Wackrow Autoverwertung“ an Müggenburg 24, 17358 Torgelow und nennt 039778/29419; Gelbe Seiten führt „Wackrow Horst Autoverwertung und Abschleppdienst“ an 24A mit 039778 20273. Beide bleiben Aggregatorprofile und lösen weder Seed-Vorname Bernd vs. Horst noch Hausnummern-/Telefonkonflikt auf. Kein belastbarer aktueller GESA-Einzelbescheid/Betreiberbeleg gefunden; „geschlossen“/„jetzt geschlossen“ in Portalen wäre zudem kein Nachweis dauerhafter Geschäftsaufgabe. Keine Änderungen. ANKAUF: keine Auszahlungsbedingungen/Kurse; VERKAUF: keine Fahrzeug-/Teilepreise; GEBÜHREN: keine Tarife. GEO-Prüfbedarf: vor Pin die genaue Parzelle (24 oder 24A), Betreibername und tatsächliche Annahmezufahrt bestätigen; GESA-Standort nicht als öffentlich zugänglichen Punkt voraussetzen. Quellen/Leads: https://web2.cylex.de/firma-home/wackrow-autoverwertung-76139.html ; https://www.gelbeseiten.de/gsbiz/9aaf3aa6-cb10-4e86-9f22-4f6c6cb6d908 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 25.10.2026
 
 - [Recherche 25.10.2026: Neue exakte Suche fand weiterhin nur den Gelbe-Seiten-Lead „Wackrow Horst Autoverwertung und Abschleppdienst“ sowie den abweichenden Cylex-Suchlead „Wackrow Autoverwertung“; keine Betreiber-, Register- oder amtliche Quelle löst Bernd/Horst, Hausnummer 24/24A oder die Telefonnummern 20273/29419 auf. Der aktuelle Abruf der GESA-Einstiegs-/Registerseiten liefert keine individuell lesbare Betriebsakte; das ist kein Negativ- oder Schließungsbeleg. Frontmatter bleibt unverändert. ANKAUF: keine Konditionen/Kurse; VERKAUF: keine Liste; GEBÜHREN: kein Tarif. Identität und heutige Betriebsstelle vor GEO zu klären. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/9aaf3aa6-cb10-4e86-9f22-4f6c6cb6d908 ; https://web2.cylex.de/suche/entsorgung/torgelow/Droegeheide ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]

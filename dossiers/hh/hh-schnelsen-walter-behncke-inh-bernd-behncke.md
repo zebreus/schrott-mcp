@@ -31,6 +31,10 @@ Walter Behncke e.K., Inh. Bernd Behncke, ist für Kulemannstieg 32, 22457 Hambur
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Individuellen Schrottregister-Spiegel „Walter Behncke e.K., Inh. Bernd Behncke“ direkt geöffnet. Die Seite gibt als Quellenstand 11.08.2026 an, nennt Kulemannstieg 32, 22457 Hamburg, Zertifikatsnummer ZZBT00500176 sowie „Lagern“ und „Behandeln“ und listet 17 einschlägige Abfallschlüssel für Metall-, Kabel- und Fahrzeugabfälle. Der Spiegel erklärt selbst, ein unabhängiges, nicht amtliches Angebot zu sein und Registerdaten wiederzugeben; ein Original-Zertifikat/amtlicher Einzeldatensatz wurde in dieser Prüfung nicht direkt geöffnet. Deshalb ist die Detailseite ein konkreter aktuellerer Registerlead, aber kein Beleg für Selbstanlieferung oder öffentlich zugänglichen Hof. Sie nennt keine Telefonnummer/E-Mail und ausdrücklich keine Preise. **Ankauf/Verkauf/Gebühren:** keine numerischen Preise oder Tarife; **GEO:** Kulemannstieg bleibt Anlagen-/Adresskandidat, kein bestätigter Kundenpunkt. Keine Frontmatter-Änderung. Quelle: https://schrottregister.pages.dev/betrieb-walter-behncke-e-k-inh-bernd-behncke-hamburg .]
+
 ### Recherche 19.10.2026: Welle 03:30 C
 
 - [Recherche 19.10.2026: NorthData HRA 76337 direkt erneut gelesen: öffentlich nur Hamburg als Adresse, Bernd Behncke in Eintragung 17.04.2002 und Anschriftsereignis 24.03.2010; weder heutige Kulemannstieg-Hofannahme noch 040 5508707 bestätigt. Weitere Suche brachte ähnlich geschriebene fremde Namen/Behncke-Schwimmbadtechnik, keinen zuordenbaren Betreiberauftritt. Keine Nachbar- oder Namensübertragung. clear_fields dropoff_json,phone bleibt ausdrücklich erhalten; unbekannt ist weder Ablehnung noch Schließung. ANKAUF/VERKAUF/GEBÜHREN keine Betreiberpreise. Owner: amtlichen aktuellen EFB-/Anlageneinzelnachweis oder Betreiber-/Gewerbebestätigung für Kulemannstieg 32 beschaffen, nicht registergleiche Spiegel als unabhängige Bestätigung zählen. GEO unverändert. Quelle: https://www.northdata.de/Walter%20Behncke%20e%C2%B7%20K%C2%B7,%20Hamburg/HRA%2076337 .]

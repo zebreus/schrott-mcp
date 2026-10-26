@@ -26,9 +26,13 @@ provenance_origin: table
 
 Neuer konkret lokalisierter **Verzeichnislead**: Wilfried-Joachim Thiermann, Katharina-Neufang-Str. 42 A, 37444 Sankt Andreasberg, 05582 225. Die direkt gelesene 11880-Detailseite ordnet Altmaterialhandel/Schrotthandel zu; Betreiberidentität, aktuelle Aktivität und Annahme sind damit noch nicht qualifiziert belegt. Adresse und Telefon bleiben bewusst außerhalb des Frontmatters.
 
-Der dort als Händlerwebsite verlinkte **harzfuchs.de** ist aktuell ein Stadt-/Veranstaltungsportal für Sankt Andreasberg mit eigenen, abweichenden Kontaktdaten, kein belegter Thiermann-Schrotthandel-Auftritt. Diese Website/Kontakte werden nicht übernommen. Auch das Portaletikett „geschlossen“ ohne Öffnungszeitenerläuterung ist kein belastbarer Beleg einer dauerhaften Geschäftsaufgabe. Nächster Schritt: Betreiber-/Gewerbenachweis zur Katharina-Neufang-Straße; Preis-/Annahmebedingungen unbekannt.
+Der dort als Händlerwebsite verlinkte **harzfuchs.de** ist aktuell ein Stadt-/Veranstaltungsportal für Sankt Andreasberg mit eigenen, abweichenden Kontaktdaten, kein belegter Thiermann-Schrotthandel-Auftritt. Diese Website/Kontakte werden nicht übernommen. Auch das Portaletikett „geschlossen“ ohne Öffnungszeitenerläuterung ist kein belastbarer Beleg einer dauerhaften Geschäftsaufgabe. **GEO-Prüfbedarf:** die Portalanschrift Katharina-Neufang-Str. 42 A nicht als Schrottannahmestelle behandeln; Betreiber-/Gewerbenachweis, tatsächliche Nutzung des Grundstücks und genauer Kundeneingang offen. Preis-/Annahmebedingungen unbekannt.
 
 ## Timeline
+
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Erneute Suche nach dem exakten Namen mit St. Andreasberg/Anschrift ergab weiterhin keinen passenden Betreiberauftritt oder amtlichen Standortbeleg. Die 11880-Trefferseite führt den Händler als „geschlossen“, aber ohne belastbare Erläuterung/Schließungsmitteilung; das ist kein Geschäftsaufgabe-Nachweis. Der verlinkte harzfuchs.de-Auftritt bleibt ein separates Stadt-/Veranstaltungsportal. Adresse, Telefon und Kategorie bleiben Leads, nicht verifizierte Annahmeinformationen. ANKAUF: keine Zusage/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. GEO erst nach Identitäts- und Zugangsklärung, keine Portal-Karte verwenden. Quellen/Leads: https://www.11880.com/branchenbuch/sankt-andreasberg/060440090B100277012/wilfried-joachim-thiermann.html ; https://www.harzfuchs.de/ .]
 
 ### Recherche 11.10.2026
 

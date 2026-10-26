@@ -32,9 +32,13 @@ Ein aktuellerer Gelbe-Seiten-Suchtreffer nennt zusätzlich 01522 6006051 sowie M
 - **Ankauf:** Gesellschaftszweck umfasst Altmetallverwertung; keine aktuelle Betreiberpreisliste oder numerischen Kurse gefunden.
 - **Verkauf:** Oldtimer- und Autoteilehandel als Registergegenstand, aber keine konkreten Angebote/Preise für diesen Dossierbetreiber belegt.
 - **Gebühren:** keine Abhol-/Entsorgungstarife gefunden.
-- **GEO:** Limmerburg 11 A ist als Gesellschaftsanschrift belegt; öffentliche Annahme, Zufahrt und Identität des Dossiernamens noch prüfen, bevor ein Punkt gesetzt wird.
+- **GEO:** Die fehlerhafte Koordinate wurde zum Löschen markiert. Limmerburg 11 A ist eine Gesellschaftsanschrift, kein Beleg für öffentliche Annahme oder eine konkrete Hofzufahrt; keine Ersatzkoordinate setzen, bevor Betreiber-/Markenbrücke und Kunden-Zugang geklärt sind.
 
 ## Timeline
+
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Zusätzliche Suche nach Betreiberseite und möglicher Namens-/Betreiberkette fand keine aktuelle Primärquelle, die „Balzer Metallverwertung“ an Limmerburg 11 A eindeutig mit der Balzers Metallverwertungsgesellschaft UG/HRB 204441 verbindet. Eine Trefferseite der BALZER GmbH in Karlsruhe (HRB 9224, CNC-Fertigung, Thomashofstraße 27/29) ist ein Namensvetter und ausdrücklich nicht dieser Betrieb; die Seite Dirk Balzer Fotografie/Webdesign ist ebenfalls kein Metallverwerter. Daher keine Verknüpfung über den Nachnamen, keine Änderung der Kontakte und keine neue GEO-Koordinate. ANKAUF: Registergegenstand allein belegt keine aktuellen Kurse; VERKAUF: keine zuordenbaren Angebotspreise; GEBÜHREN: keine Tarife. Vor GEO weiter klären: tatsächliche Annahmestelle, Grundstückseingang und Zuordnung zum registrierten Unternehmen. Quellen zur Namenskollision/Gegenprobe: https://balzergmbh.de/impressum ; https://www.dirk-balzer.de/ ; Registerspur: https://www.northdata.de/Balzers%20Metallverwertungsgesellschaft%20UG,%20Alfeld%20(Leine)/Amtsgericht%20Hildesheim%20HRB%20204441 .]
 
 ### Owner-GEO-Korrektur 25.10.2026
 

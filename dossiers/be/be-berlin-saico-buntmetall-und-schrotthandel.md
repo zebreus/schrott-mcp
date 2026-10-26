@@ -25,13 +25,14 @@ provenance_origin: table
 
 ## Überblick
 
-NorthData führt HRB 114165 B unter „Saico GmbH Buntmetall- und Schrotthandel“ als am 23.04.2010 gelöscht. Das belegt das Ende dieser Rechtseinheit, aber weder eine aktuelle Nachfolge noch die Identität eines möglichen heutigen Betriebs an der unbestätigten Seed-Adresse Reuterstr. 23, 12053. Kein aktueller Betreiberauftritt oder belastbarer Standortbeleg; Namensvetter wie SAICO-Holzkunst/SAICOS sind keine Berlin-Belege. **ANKAUF / VERKAUF / GEBÜHREN:** keine der Seed-Zeile zuordenbaren Leistungen oder Preise. Status `pruefung`; Identität, Adresse und Pin bleiben offen. Der ungültige Telefon-Platzhalter wird beim nächsten Seed-Lauf mit `clear_fields` entfernt.
+NorthData führt HRB 114165 B unter „Saico GmbH Buntmetall- und Schrotthandel“ als am 23.04.2010 gelöscht. Das belegt das Ende dieser Rechtseinheit, aber weder eine aktuelle Nachfolge noch die Identität eines möglichen heutigen Betriebs an der unbestätigten Seed-Adresse Reuterstr. 23, 12053. Kein aktueller Betreiberauftritt oder belastbarer Standortbeleg; Namensvetter wie SAICO-Holzkunst/SAICOS sind keine Berlin-Belege. **GEO-Prüfbedarf:** erst klären, ob an Reuterstr. 23 heute überhaupt ein Schrotthandelsbetrieb und eine Kundenannahme existieren; eine historische Gesellschaftsanschrift ist kein aktueller Hof-Punkt. **ANKAUF / VERKAUF / GEBÜHREN:** keine der Seed-Zeile zuordenbaren Leistungen oder Preise. Status `pruefung`; Identität und Adresse bleiben offen. Der ungültige Telefon-Platzhalter wird beim nächsten Seed-Lauf mit `clear_fields` entfernt.
 
 ## Timeline
 
 ### Nachprüfung 26.10.2026
 
 - [Nachprüfung 26.10.2026: Der NorthData-Datensatz zum exakten Namen und HRB 114165 B führt eine Löschung am 23.04.2010. Dies ist ein belastbarer Hinweis auf das Erlöschen der damaligen GmbH, jedoch keine amtliche Registerabschrift; er belegt weder, dass ein heutiger Betrieb an Reuterstr. 23 geschlossen ist, noch dessen Identität oder Rechtsnachfolge. Die Adresse bleibt Seed-Lead; keine Betreiberquelle bestätigt sie. Der ungültige Telefon-Platzhalter wird über `clear_fields: 'phone'` entfernt. ANKAUF/VERKAUF/GEBÜHREN: keine der aktuellen Zeile zurechenbaren Angebote oder Zahlen. Kein GEO. Quelle: https://www.northdata.de/Saico%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20HRB%20114165%20B .]
+- [Ergänzung 26.10.2026: Eine erneute Suche nach Nachfolger/Betreiberauftritt brachte keinen eindeutigen Berlin-Schrotthandel-Treffer; namensähnliche Firmen wurden nicht zugeordnet. Die Adresse bleibt Seed-Lead und ist weiterhin weder als aktueller Betrieb noch als Kundenannahme bestätigt. Kein GEO; vor einem Punkt aktuelle Firma, Nutzung und Kundenzugang zur Reuterstr. 23 bestätigen. ANKAUF/VERKAUF/GEBÜHREN bleiben ohne der aktuellen Zeile zurechenbare Angebote oder Zahlen. Quelle: https://www.northdata.de/Saico%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20HRB%20114165%20B .]
 
 ### Recherche 24.10.2026
 

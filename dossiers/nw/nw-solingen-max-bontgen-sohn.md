@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Der Import nennt „Max Böntgen & Sohn“ und Lotsenstr. 12 in Solingen, jedoch ohne Postleitzahl, Kontakt, Website oder belegte Betriebsbeschreibung. Eine erneute exakte Namens-/Adresssuche fand keine Betreiberwebsite oder belastbare Register-/Betreiberquelle zur Bestätigung. Name und Adresse bleiben daher Import-/Recherchelead und keine bestätigte aktuelle Schrottannahmestelle.
+Der Import nennt „Max Böntgen & Sohn“ und Lotsenstr. 12 in Solingen. Ein 11880-Verzeichniseintrag ergänzt die Anschrift auf 42697 Solingen und nennt 0212 77878, aber weder dieser Aggregator noch die Suche nach dem Namen sind eine Betreiber-/Registerbestätigung. Es fehlt weiterhin ein verifizierter aktueller Betreiberauftritt oder eine belastbare Betriebsbeschreibung; die ergänzten Verzeichnisdaten bleiben Leads, keine bestätigte Schrottannahmestelle.
 
 **Preise:** Ankauf: keine bestätigte Annahme-/Ankaufangabe oder Preisnotierung. Verkauf: keine Preisliste. Gebühren: keine Angaben. **Offen:** ob der Betrieb noch besteht, korrekte Hausnummer/PLZ und erreichbarer Betreiberkontakt. Lotsenstr. 12 erst nach Bestätigung geocodieren.
 
@@ -33,6 +33,7 @@ Der Import nennt „Max Böntgen & Sohn“ und Lotsenstr. 12 in Solingen, jedoch
 ### Recherche 26.10.2026: Namensvetter-Gegenprobe
 
 - [Recherche 26.10.2026: Gelbe-Seiten-Suche „Böntgen in Solingen“ direkt gelesen. Der einzige Treffer ist HSP STEUER, Böntgen Jansen Lewin Steuerberatungsgesellschaft, Beethovenstr. 239; kein Treffer für Max Böntgen & Sohn oder Schrott-/Metallhandel. Das ist lediglich eine fachfremde Namensvetter-Gegenprobe, kein Beleg für Nichtexistenz oder Geschäftsaufgabe des Seed-Kandidaten. Lotsenstr. 12 bleibt unverifiziert. **Ankauf:** keine belegten Konditionen/Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Keine Frontmatter-Änderung und keine GEO-Übernahme. Quelle: https://www.gelbeseiten.de/suche/b%C3%B6ntgen/solingen .]
+- [Recherche 26.10.2026: 11880 listet den Importnamen unter Lotsenstr. 12, 42697 Solingen, Tel. 0212 77878; die Eintragsdaten stammten laut Seite vom 29.06.2021, zuletzt aktualisiert am 01.10.2026. Dies ist ein **Aggregator-Lead**, kein zweiter unabhängiger Firmenbeleg und keine aktuelle Betreiberbestätigung; er liefert eine prüfbare PLZ/Telefonspur, nicht den Nachweis, dass dort heute Schrott angenommen wird. Zusammen mit der Gelbe-Seiten-Gegenprobe (nur fachfremder Namensvetter HSP STEUER, kein Schrott-/Metallhandel) ergibt sich weder ein Betriebs- noch ein Schließungsnachweis. **Ankauf:** keine belegten Konditionen/Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Keine Frontmatter-Änderung. **GEO:** Lotsenstr. 12 erst nach Bestätigung von Betrieb, Hausnummer und Annahmefunktion geocodieren. Quellen: https://www.11880.com/branchenbuch/solingen/120674719B26053690/max-boentgen-sohn.html ; https://www.gelbeseiten.de/suche/b%C3%B6ntgen/solingen .]
 
 ### Recherche 18.10.2026 (Welle 1202 West)
 

@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die bisherige Identität beruht auf Branchenbuch-Leads: A. Lorenz, Akazienweg 3, 64293 Darmstadt und die Telefonnummer 0172 1002189 werden dort genannt; ein Verzeichnis verlinkt lorenz-schrotthandel.de. Der Betreiberauftritt war beim dokumentierten Direktabruf nicht erreichbar, ein qualifizierender Register- oder zweiter Betreiberbeleg fehlt. Daher sind Adresse und Telefon keine bestätigte Kundenannahmestelle. **Ankauf:** keine Kurse oder bestätigten Konditionen. **Verkauf/Gebühren:** keine Preislisten/Tarife. `status: pruefung`; kein GEO-Punkt, bis Betreiberidentität und Kundenadresse bestätigt sind (Recherche 04.10.2026).
 
 ## Timeline
 

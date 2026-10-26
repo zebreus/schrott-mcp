@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Fritz-Erler-Allee 148 und 030 6032481 werden von fünf Verzeichnissen wiederholt, bleiben aber Leads ohne Betreiber-, Register- oder Behördenbeleg. Daher ist die geerbte Aktiv-Markierung auf `pruefung` zurückgenommen; die tatsächliche Identität und aktuelle Annahmestelle sind offen. Keine verifizierten ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
+Fritz-Erler-Allee 148 und 030 6032481 werden von fünf Verzeichnissen wiederholt, bleiben aber Leads ohne Betreiber-, Register- oder Behördenbeleg. Daher ist die geerbte Aktiv-Markierung auf `pruefung` zurückgenommen; die tatsächliche Identität und aktuelle Annahmestelle sind offen. **GEO-Prüfbedarf:** klären, ob die Adresse überhaupt ein betrieblicher Standort mit Kundenannahme ist; bei Bestätigung Haus-/Hofzugang, nicht Portal-Pin oder bloße Straßenadresse verwenden. Keine verifizierten ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
+
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Neue Suche nach Gerd Lück, Schrott/Altmetall und Fritz-Erler-Allee ergab keinen eindeutig zugeordneten Betreiberauftritt, aktuellen Registerbeleg oder kommunalen Gewerbenachweis. Der wiederholte Eintrag bei mehreren Portalen bleibt dieselbe nicht verifizierte Quellenklasse und bestätigt weder aktuelle Annahme noch einen Hof. Kein Statuswechsel, keine Kontakt-/Adressübernahme. ANKAUF: keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. GEO erst nach Identität, Betriebsstatus und Zugangsklärung. Such-/Gegenprobe: https://www.northdata.de/suggest.json?query=Gerd%20L%C3%BCck&countries=DE ; bestehende Portal-Leads siehe Recherche 02.10.2026.]
 
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 

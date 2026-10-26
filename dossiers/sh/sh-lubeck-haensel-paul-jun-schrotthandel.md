@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnisse führen Paul Haensel jun. an der Vorbeckstr. 12 in Lübeck und nennen Telefonnummern; Northdata-Suchen ergaben keine kongruent zuordenbare Schrotthandlung. Ohne Betreiber-, Register- oder Gewerbeauskunftsbeleg bleiben Identität, Adresse und aktueller Ankaufstatus ungeklärt; Status `pruefung`. Keine öffentlich belegten Ankaufpreise, Verkaufspreise oder Gebühren gefunden (Recherche 04.10.2026).
+Verzeichnisse führen Paul Haensel jun. an der Vorbeckstr. 12, 23554 Lübeck und nennen 0451 48938335 sowie 0176 31467169; das aktuelle direkt gelesene Gelbe-Seiten-Profil bleibt aber nur ein Lead. Die offizielle ISR/LSH-Seite weist als aktuelle Lübecker Gesellschaft die LSH Lübecker Schrotthandel GmbH an Dampfpfeife 12–20, 23569 Lübeck aus. Sie nennt Paul Haensel/Vorbeckstraße nicht; keine Umbenennungs-, Übernahme- oder Betreiberkette zum Dossier belegt. **Ankauf/Verkauf/Gebühren:** keine Haensel-Preise/Tarife; LSHs allgemeine Tageshöchstpreis-Werbung ist nicht übertragbar. Status `pruefung`; keine GEO-Koordinate für den unbestätigten Vorbeckstraßen-Lead (Recherche 26.10.2026).
 
 ## Timeline
+
+### Recherche 26.10.2026: Lübecker Betreiberketten-Gegenprüfung
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Profil direkt erneut gelesen: Haensel Paul jun. Schrotthandel, Vorbeckstr. 12, 23554 Lübeck-Vorwerk, Telefonnummern 0451 48938335 und 0176 31467169; keine konkrete Betreiberwebsite, Annahmebedingung oder Preisangabe. Zusätzlich aktuelle Betreiberseiten von ISR/LSH gelesen: Sie nennen als Lübecker Unternehmen ausdrücklich LSH Lübecker Schrotthandel GmbH, Dampfpfeife 12–20, 23569 Lübeck. Das ist eine andere Gesellschaft und Adresse; auf den geprüften Seiten findet sich keine Namens-/Standortbrücke zu Paul Haensel oder Vorbeckstraße. Daher kein Merge und keine Übertragung von LSH-Kontakten/Leistungen. LSH bewirbt selbst Ankauf zum Tageshöchstpreis, aber ohne Zahlenkurs; das ist weder ein Haensel-Preis noch eine Haensel-Gebühr. **Ankauf/Verkauf/Gebühren:** für den Ziel-Lead weiterhin unbelegt. **GEO:** Vorbeckstr. 12 bleibt unbestätigter Portalstandort; LSHs Dampfpfeife-Adresse ist kein Ersatzpunkt. Keine Frontmatter-Änderung. Quellen: https://www.gelbeseiten.de/gsbiz/42bf1ce1-a1f2-4864-8a24-48caed80b8f4 ; https://www.isr-recycling.de/index.php/start-lsh ; https://www.isr-recycling.de/index.php/kontakt-lsh .]
 
 ### Recherche 14.10.2026
 

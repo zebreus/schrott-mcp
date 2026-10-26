@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die Registerspur belegt Goerz Metallhandel GmbH, HRB 37939, mit Anschrift Rondenbarg 31, nicht aber einen aktuellen eigenen Schrottplatzbetrieb. Die Betreiberseite von ISR führt dieselbe Adresse als „Schrottplatz Hamburg Altona“ ausdrücklich unter ISR; Goerz-Domain und Impressum bleiben beim Direktabruf gesperrt. Eine Übernahme/Verbindung ist nicht belegt und die ISR-Daten werden nicht auf Goerz übertragen. **Ankauf:** keine Goerz-Preise; ISR wirbt an diesem Standort mit Höchstpreisen und bittet um Preisanfrage, ohne Zahlenliste. **Verkauf:** keine Liste für Goerz. **Gebühren:** keine Goerz-Tarife; ISR veröffentlicht an dieser Stelle ebenfalls keine konkrete Gebührentafel. Adresse/Betreiberkette vor GEO-Änderung klären.
+NorthData belegt Goerz Metallhandel GmbH, HRB 37939, an Rondenbarg 31, 22525 Hamburg. Die aktuelle Betreiberseite von ISR führt dieselbe Adresse ausdrücklich als ISR-„Schrottplatz Hamburg Altona“ mit Annahme für Privat- und Gewerbekunden. Diese Standortüberschneidung belegt keine Betreiber-, Übernahme- oder Nachfolgekette; ISR-Kontakte, Annahme und GEO bleiben von Goerz getrennt. **Ankauf:** für Goerz keine Kurse; ISR wirbt an diesem Standort mit Höchstpreisen auf Anfrage, ohne Zahlenliste. **Verkauf/Gebühren:** keine Goerz-Preisliste oder -Tarife. Goerz-Annahme und tatsächliche Kundenadresse bleiben offen; daher kein GEO-Punkt für Goerz.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: ISR-Standortseite direkt erneut gelesen. Sie führt Rondenbarg 31, 22525 Hamburg als „Schrottplatz Hamburg Altona“, Telefon 040 850 57 01, Mo–Fr 07:00–17:00, mit Schrott-/Altmetallannahme für Privat- und Gewerbemengen und Ankauf zu „Höchstpreisen“; ein numerischer Kurs, eine Waren-Verkaufsliste oder eine Gebührenordnung steht dort nicht. NorthData führt Goerz Metallhandel GmbH weiterhin unter HRB 37939 und derselben Registeranschrift; die sichtbare letzte Bilanzpublikation betrifft 2022 (veröffentlicht 25.03.2024), kein Nachweis einer heutigen Goerz-Annahme. Die Betreiberseite ordnet den Standort ISR zu, nicht Goerz; weder die Standortgleichheit noch der frühere Aggregator-Link begründen eine Kette. Kein Kontakt, Preis, Betrieb oder GEO von ISR auf Goerz übertragen; Goerz-Domain blieb beim Direktabruf 403. Quellen: https://www.isr-recycling.de/index.php/standorte-isr ; https://www.northdata.de/Goerz%20Metallhandel%20GmbH,%20Hamburg/HRB%2037939 ; https://www.goerzmetallhandel.de/ (403).]
 
 ### Recherche 24.10.2026
 

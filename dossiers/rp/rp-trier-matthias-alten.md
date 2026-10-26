@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Namens- und Standortzuordnung ist widersprüchlich. Ein neues Branchenportal führt „Matthias Alten“ am selben Standort Andreas-Hoevel-Straße 6, den das Schwester-Dossier [Matthias Alten Trier-West](rp-trier-west-54294-matthias-alten.md) aufgrund zweier anderer Verzeichnisleads vorläufig „Dres Georg“ zuordnet. Das neue Portal nennt zudem eine abweichende Telefonnummer. Keine Seite ist eine Betreiberquelle; weder eine zweite Firma noch ein Merge ist bewiesen. ANKAUF: keine verifizierten Annahmebedingungen oder Preise. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben. Adresse, Kontakt, Status und Geocoding bleiben bis zur Identitätsklärung offen.
+Die Namens- und Standortzuordnung ist widersprüchlich. Das Branchenportal LokaleSchrottplatz führt „Matthias Alten“ an der Andreas-Hoevel-Straße 6 mit 0651 84874; das Schwester-Dossier [Matthias Alten Trier-West](rp-trier-west-54294-matthias-alten.md) dokumentiert für denselben Straßenpunkt andere Verzeichnisleads (u. a. „Dres Georg“ und 0651 84609). Keine Seite ist eine Betreiberquelle; weder zwei Betriebe noch Betreiberwechsel oder Merge sind bewiesen. **GEO-Prüfbedarf:** zuerst die tatsächliche Firma, Grundstücksnutzung und Zugang/Annahme vor Ort klären; ein Verzeichnispunkt für die Straße ist kein Hofnachweis.
+
+**ANKAUF:** keine verifizierten Annahmebedingungen oder Preise. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Angaben.
 
 ## Timeline
+
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Erneute Suche nach „Matthias Alten“ plus Andreas-Hoevel-Straße und Abgleich mit dem Trier-West-Schwester-Dossier ergab weiterhin widersprüchliche Verzeichnisangaben; keine passende Betreiberseite, kein gelesener Register-/Gewerbenachweis und keine belastbare Betreiberkette zu „Dres Georg“. Der LokaleSchrottplatz-Treffer nennt 0651 84874 und trägt das Portaletikett „geschlossen“; weder dieses Label noch generische Mindestmengen/Kategorien belegen Schließung, Annahme oder konkrete Betreiberbedingungen. Das Schwester-Dossier nennt einen abweichenden Telefonnummernlead. ANKAUF: keine Kurse/Annahme belegt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Frontmatter-Füllung, kein Merge und kein GEO. Quellen/Abgleich: https://lokaleschrottplatz.de/matthias-alten/ ; ../rp-trier-west-54294-matthias-alten.md .]
 
 ### Recherche 21.10.2026 (Welle RP)
 
