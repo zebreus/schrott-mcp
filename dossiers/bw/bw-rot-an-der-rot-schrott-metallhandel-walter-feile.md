@@ -32,6 +32,10 @@ Walter Feile bleibt ein ungeklärter Schrott-/Metallhandels-Kandidat. Der erneut
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das Gelbe-Seiten-Detail wurde direkt geprüft und führt weiterhin Siedlung 12, 88430 Rot an der Rot, 08395 2235. Der abweichende Lead Siedlung 3 und die fehlende Betreiber-/Registerbestätigung bleiben bestehen; der aktuelle Direktabruf macht das Portal nicht zu einer zweiten unabhängigen Quelle. Keine Hausnummer gewählt, kein GEO-Punkt und keine Frontmatter-Felder ergänzt. ANKAUF: keine Kurse; VERKAUF: keine Preise; GEBÜHREN: keine Tarife. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/1e9e243c-6577-45d3-a0f6-a52517c14dd0 ; Gegenlead: https://www.schrottplatz-info.de/schrottplatz/Rot-an-der-Rot/ .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Erneuter Quellenabgleich bestätigt den ungelösten Anschriftenkonflikt: Gelbe Seiten führt Siedlung 12, Schrottplatz-info Siedlung 3. Keiner der Treffer verifiziert aktuelle Tätigkeit oder Ankauf. Adresse und Telefon bleiben aus dem Frontmatter entfernt; keine Hausnummernwahl nach Mehrheitsprinzip. Ankauf: keine Kurse; Verkauf: keine Preise; Gebühren: keine Tarife gefunden. Keine Adresse für Geocodierung freigegeben, bis Identität und Standort bestätigt sind. Quellen: https://www.gelbeseiten.de/gsbiz/1e9e243c-6577-45d3-a0f6-a52517c14dd0 ; https://www.schrottplatz-info.de/schrottplatz/Rot-an-der-Rot/ .]

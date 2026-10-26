@@ -31,6 +31,10 @@ Der vorhandene Eintrag zu Herrnroth 11, 63303 Dreieich und 06103 322820 stammt a
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: tellows-Profil zur 06103 322820 direkt erneut gelesen: es wiederholt „Schrott Schramm, Stefan“, Herrnroth 11, 63303 Dreieich und bewertet die Nummer als gewerblich. tellows bleibt ein Verzeichnis-/Community-Eintrag, kein Betreiber-, Register- oder kommunaler Gewerbenachweis; die parallele Cylex-Spur ist derselben nicht qualifizierten Quellenklasse zuzurechnen. Keine neuen Identitäts-/Annahmebelege, kein Preis- oder Tarifblatt; frühere Rücknahme von Straße, PLZ und Telefon sowie `status: pruefung` bleiben bestehen. Quelle(n): https://www.tellows.de/num/06103322820 ; https://web2.cylex.de/firma-home/stefan-schramm-16751609.html (Direktabruf 403).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)

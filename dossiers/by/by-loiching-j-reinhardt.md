@@ -28,6 +28,10 @@ Schrott-/Metallhandel „J. Reinhardt“ bleibt ohne vollständige Betreiberiden
 
 ## Timeline
 
+### Recherche 26.10.2026: Telefonnummernkonflikt fortbestehend
+
+- [Recherche 26.10.2026: Aktuelle Suchtreffer liefern weiterhin den 11880-/Gelbe-Seiten-Lead für Blumenstr. 4, 84180 Loiching-Kronwieden, 08731 8630175 und Mo–So-Zeiten sowie die Mobilspur 0170 2877975 (u. a. 11880 und ein Drittanbieter-Verzeichnis). Die Übereinstimmung zweier Mobil-Portalprofile löst den Konflikt mit dem Blumenstraßen-Festnetz nicht: keine Betreiber-/Registerbestätigung, keine sichere Aussage zu einer gemeinsamen Betriebsstätte oder heutigen Kundenannahme. Keine Änderungen an Frontmatter und keine GEO. **Ankauf:** keine identitätsgesicherte Preisliste; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/4b6fcbb6-8198-4ff9-aa51-51bc9c0fb4e2 ; https://www.11880.com/branchenbuch/loiching/060440092B112821442/schrott-und-metallhandel-j-reinhardt.html ; https://tierheilpraxis-henke.com/schrott-und-metallhandel-jreinhardt .]
+
 ### Recherche 16.10.2026 (Shard 2)
 
 - [Recherche 16.10.2026: Örtliche-Detail direkt HTTP 200 gelesen: Blumenstr. 4/84180 Loiching-Kronwieden/08731 8630175 und 7-Tage-Zeiten bleiben Portalangaben. Kommunale Suchergebnisseite direkt geladen, kein auslesbarer Reinhardt-Firmenbeleg; das ist kein Negativattest des Gewerbeamts. Neue Suche findet auch Reinhardt Rohstoffe GmbH Berlin, ausdrücklich keine Identität zu J. Reinhardt/Loiching; keine Berliner Preise/Kontakte übertragen. Frühere Mobil-/Zeitenwidersprüche nicht aufgelöst, vollständiger Inhaber weiter offen. ANKAUF/VERKAUF/GEBÜHREN keine identitätsgesicherte Liste. GEO und Annahmeort bis Primärbestätigung zurückstellen, Altwerte unverändert. Quellen: https://www.dasoertliche.de/Themen/Reinhardt-Schrott-und-Metallhandel-Loiching-Kronwieden-Blumenstr ; https://www.loiching.de/suchergebnisseite?q=Reinhardt&bid=18&app=search&lang=de.]

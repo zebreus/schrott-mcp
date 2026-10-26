@@ -28,6 +28,10 @@ Konkreter Lead „Andreas Denk LKW-Verwertung“ in Haßfurt. Verzeichnisse nenn
 
 ## Timeline
 
+### Recherche 26.10.2026: Betreiber- und Preisabgleich
+
+- [Recherche 26.10.2026: Die erneute Suche nach Andreas Denk/LKW-Verwertung und beiden Haßfurter Adressspuren brachte keinen neuen Betreiber-, Register- oder kommunalen Beleg. Kilianstraße 23/09521 3817 und Galgenanger 2/0171 4326884 bleiben widersprüchliche Verzeichnisleads; die Betreiberseite der Brigitte Denk in Zeil betrifft einen anderen Ort und wird nicht übertragen. Keine Adress-, Telefon- oder Website-Füllung; GEO ausgesetzt. **Ankauf:** kein Haßfurter Kurs; **Verkauf:** keine zugeordnete Liste; **Gebühren:** keine Tarife. Quellen (Leads/Gegenprobe): https://www.schrottplatz-info.de/schrottplatz/Hassfurt/Denk-Andreas-LKW-Verwertung ; https://firmeneintrag.de/poi/andreas-denk-hassfurt/ ; http://www.autoverwertung-denk.de/pg003.html .]
+
 ### Recherche 19.10.2026: Welle 03:30 / Shard a
 
 - [Recherche 19.10.2026: Portal-Detail Andreas Denk LKW-Verwertung direkt neu gelesen: Kilianstr.23/97437/095213817, Homepage nur Portalroot, Beschreibung/Zeiten/Leistungen fehlen. Suchauszüge11880/Telefonbuch nennen zusätzlich Schrottabholung, zählen weiterhin nicht als Betreiber-/Registerbeleg. Umkreis derselben Portalseite führt Autoverwertung Denk/Zeil und Denk Philipp/Zeil getrennt; das beweist räumliche Nähe, keine Familien-, Übernahme- oder Umzugskette. Daher keinen Zeiler Kontakt, keinen vermeintlichen Rücknahmetarif oder Gratisabholung übernehmen. Ankauf/Verkauf/Gebühren weiterhin unbelegt. Offen: Andreas-Denk-Gewerbe mit Kilianstraße23 versus Galgenanger2 und heutige Annahme-/Abholbedingungen; GEO bis Klärung aussetzen. Quelle (Lead): https://www.schrottplatz-info.de/schrottplatz/Hassfurt/Denk-Andreas-LKW-Verwertung .]

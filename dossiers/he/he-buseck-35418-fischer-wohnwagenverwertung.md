@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Fischer Wohnwagenverwertung“ bleibt ein nur über Verzeichnisse belegter Kandidat in Buseck. Weidenstr. 26, 35418 und 0171 6201608 erscheinen in Portalangaben, aber weder ein Betreiber-/Registerbeleg noch eine aktuelle öffentliche Annahmestelle wurden gefunden. Straße, Postleitzahl und Telefon sind daher aus dem Frontmatter entfernt; das ist eine Quellenkorrektur, kein Nachweis, dass die historischen Angaben falsch sind.
+„Fischer Wohnwagenverwertung“ bleibt ein nur über Verzeichnisse belegter Kandidat in Buseck. Der direkt gelesene 11880-Eintrag wiederholt Weidenstr. 26, 35418 und 0171 6201608, kategorisiert den Betrieb aber als Autoverschrottung/Autoverwertung und nicht ausdrücklich als Wohnwagenverwertung; das dort angegebene Datenmaterial stammt vom 26.07.2021, obwohl das Profil am 02.10.2026 aktualisiert wurde. Betreiber-/Registerbeleg und öffentliche Annahmestelle fehlen. Straße, Postleitzahl und Telefon bleiben aus dem Frontmatter entfernt; das ist eine Quellenkorrektur, kein Nachweis, dass die historischen Angaben falsch sind.
 
 **Preise:** **ANKAUF** – keine belegten Vergütungskurse; **VERKAUF** – keine Teile-/Fahrzeugpreisliste; **GEBÜHREN** – keine Angaben. **GEO:** keine Geocodierung bis Betreiber und öffentlicher Kundenstandort bestätigt sind.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: 11880-Profil direkt erneut gelesen. Es wiederholt Weidenstr. 26, 35418 Buseck und 0171 6201608, führt die Rubriken Autoverschrottung/Autoverwertung (nicht ausdrücklich Wohnwagenverwertung) und weist Daten vom 26.07.2021 bei einer Profilaktualisierung am 02.10.2026 aus. Der Profilabruf liefert keinen Betreiberkontakt oder Preis. Das bleibt ein einzelner Portalbeleg; keine strukturierten Werte oder Identitätsaussage ergänzt. ANKAUF: keine belegten Ankaufkurse; VERKAUF: keine Fahrzeug-/Teileliste; GEBÜHREN: keine Angaben. Quelle(n): https://www.11880.com/branchenbuch/buseck/060440459B42800117/fischer-wohnwagenverwertung.html ; https://www.schrottplatz24.net/stadt/buseck/profil/fischer-wohnwagenverwertung/ .]
 
 ### Korrektur/Recherche 20.10.2026
 

@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Ein erneuter Treffer in 11880 nennt für „Rainer Gerhardt Schrott & Metalle“ Rheinstr. 100, **68649** Groß-Rohrheim und **06245 5547**; Cylex wiederholt Straße/Ort. Das sind Verzeichnis-Leads, keine Betreiber- oder Registerbestätigung und keine unabhängigen Belege. Die Angaben sind deshalb nicht ins Frontmatter übernommen; die Rheinstr. 100 bleibt eine unbestätigte Adresse, keine belegte öffentliche Annahmestelle.
+Der direkt gelesene 11880-Eintrag nennt „Rainer Gerhardt Schrott & Metalle“, Rheinstr. 100, **68649** Groß-Rohrheim und **06245 5547**; das Portal bezeichnet metallbauer.io als Website, der verlinkte Zielauftritt ist selbst ein Branchenportal. 11880 führt Eintragsdaten vom 12.07.2026 und eine Profilaktualisierung am 24.10.2026. Cylex wiederholt Straße/Ort. Das sind Verzeichnis-Leads, keine Betreiber- oder Registerbestätigung und keine unabhängigen Belege. Die Angaben sind deshalb nicht ins Frontmatter übernommen; die Rheinstr. 100 bleibt eine unbestätigte Adresse, keine belegte öffentliche Annahmestelle.
 
 **ANKAUF / VERKAUF / GEBÜHREN:** keine dem Seed zurechenbaren Preis- oder Tarifangaben. **GEO:** Straße und Ort nicht als Geschäftspunkt geokodieren, bevor Betreiber und Kundenstandort belegt sind. Status `pruefung` bleibt; fehlende Belege beweisen keine Nichtexistenz oder Schließung.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Den 11880-Eintrag direkt gelesen: Rheinstr. 100, 68649 Groß-Rohrheim, 06245 5547; Eintragsdaten laut Profil 12.07.2026, Portalaktualisierung 24.10.2026. Der als „Website“ gesetzte Link führt zu metallbauer.io, das sich selbst als Portal mit Übernahme-/Änderungsfunktion beschreibt, nicht zu einem Betreiberauftritt. Ein dort sichtbares Bewertungsfeld ist keine Preis- oder Betriebsbestätigung. Keine Ankaufkurse, Verkaufspreise oder Gebührenliste daraus ableitbar; Frontmatter und `clear_fields: 'geo'` unverändert. Quelle(n): https://www.11880.com/branchenbuch/gross-rohrheim/060440092B113096919/rainer-gerhardt-schrott-metalle.html ; https://metallbauer.io/gross-rohrheim/9150-rainer-gerhardt-schrott--metalle .]
 
 ### Recherche 24.10.2026
 

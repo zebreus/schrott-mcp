@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Eine Betreiberseite belegt Rohstoffe Karlheinz Lenhart in Bellheim (Am Weidensatz 33) mit Entsorgung von Schrott und Metallen. Sie verbindet diesen Betrieb jedoch nicht mit der Seed-Adresse Luisenstr. 16 oder den konkurrierenden Philipp-/Robert-Lenhart-Verzeichnistreffern. Die fehlerhafte Seed-Straße bleibt daher ungeändert und es werden keine Kontaktdaten in dieses Dossier übernommen. Preise nur auf Anfrage; kein öffentlicher Tarif.
+Eine Betreiberseite belegt Rohstoffe Karlheinz Lenhart in Bellheim (Am Weidensatz 33) mit Entsorgung von Schrott und Metallen. Sie verbindet diesen Betrieb jedoch nicht mit der Seed-Adresse Luisenstr. 16 oder den konkurrierenden Philipp-/Robert-Lenhart-Verzeichnistreffern. Die fehlerhafte Seed-Straße bleibt daher ungeändert und es werden keine Kontaktdaten in dieses Dossier übernommen. Preise nur auf Anfrage; kein öffentlicher Tarif. Die aktuelle Services-Seite gibt die Containergröße fehlerhaft als „3–36 cm³“ aus; daraus lässt sich keine verlässliche Größen- oder Gebührenangabe ableiten. „Größtenteils mietfrei“ ist eine bedingte Containerwerbung, keine pauschal kostenlose Schrottentsorgung.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Betreiber-Service und Impressum direkt erneut gelesen. Das Impressum benennt weiterhin Rohstoffe Karlheinz Lenhart, Am Weidensatz 33, Bellheim. Die Service-Seite führt Schrott-/Metallentsorgung und Container, zeigt aktuell aber die fehlerhafte Maßangabe „3–36 cm³“ und sagt, Container würden „größtenteils mietfrei“ gestellt; Preise gebe es auf persönliche Anfrage. Daher weder verlässliche Containermaße noch kostenlose Entsorgung oder einen numerischen Tarif ableiten. Betreiberauftritt bleibt vom Seed Luisenstr. 16 und den Philipp-/Robert-Lenhart-Leads getrennt. ANKAUF: keine Kurse; VERKAUF: Fahrzeug-/Staplerangebote nur auf Anfrage, keine Preisliste; GEBÜHREN: kein Tarifblatt. Quelle(n): https://rohstoffe-lenhart.de/service.htm ; https://rohstoffe-lenhart.de/impressum.htm .]
 
 ### Recherche 19.10.2026: Welle 03:30 B
 

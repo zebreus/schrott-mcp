@@ -28,6 +28,10 @@ Der Betreiber-Unterpfad bestätigt Martin Stierstorfer, Hafnerhof 1 und einen mo
 
 ## Timeline
 
+### Recherche 26.10.2026: Betreiber-Service erneut gelesen
+
+- [Recherche 26.10.2026: Die Betreiber-Unterseite bestätigt erneut Martin Stierstorfer, Hafnerhof 1, 93086 Wörth/Donau, Mobil 0174 2187 361 sowie Festnetz 09482/671 (nur bis etwa 08:00 Uhr morgens). Der Service bewirbt kostenlose Abholung von Eisen-Schrott und Metallen im 25-km-Umkreis um Wörth/Donau, nach Termin, Container bis maximal 40 m³ und Ladekran. „Kostenlos“ beschreibt die beworbene Abholung für Auftraggeber, nicht eine Vergütung an den Schrottlieferanten und nicht automatisch eine kostenlose Containerüberlassung. Keine stationäre Annahme belegt. **Ankauf:** keine numerischen Kurse oder bestätigte Vergütung; **Verkauf:** keine Preisliste; **Gebühren:** keine vollständige Tarifliste, nur die genannte regionale Gratisabholung. Quellen: http://www.andersstein.de/alteisen-express/index.html ; http://www.andersstein.de/alteisen-express/html/kontakt.html .]
+
 ### Recherche 08.10.2026
 
 - [Korrektur 08.10.2026: Betreiber-Service-Unterseite eigenständig live gelesen, nicht nur Kontakt oder stadtplan.de: ausdrücklich kostenlose Abholung von Eisen-Schrott und Metallen aller Art (u.a. Kupfer, Messing, Edelstahl, Alu, Blei, Zinn, Zink, Bronze, Rotguss, Kabel), im Umkreis von 25 km Wörth/Donau, Container bis max.40 m³, Ladekran, Terminvereinbarung. Kontakt bestätigt Martin Stierstorfer/Hafnerhof 1/93086 Wörth/Donau/0174-2187361, Festnetz nur bis ca.08 Uhr morgens. Somit Kostenlos-Angebot erstmals direkt auf Service-Seite nachvollzogen; alte portalbeschränkte Überblicksaussage korrigiert, historische Bullets erhalten. Keine Vergütung an Lieferanten und keine generell kostenlose Containerbereitstellung daraus ableiten. Ankauf/Verkauf: keine numerische Liste; Gebühren: keine weitergehende Tarifliste. Betreiber-Unterpfad bleibt Einzelbeleg, keine README-Ausnahme ohne Registerkongruenz; keine neuen Frontmatter-Fills. Quelle: http://www.andersstein.de/alteisen-express/index.html ; http://www.andersstein.de/alteisen-express/html/kontakt.html .]

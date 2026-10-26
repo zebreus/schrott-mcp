@@ -30,6 +30,10 @@ Seed führt Susanne Bruch, Kirchplatz 16, Sand a. Main als kleinen Schrott-/Demo
 
 ## Timeline
 
+### Recherche 26.10.2026: aktueller Aggregatorstand
+
+- [Recherche 26.10.2026: 11880 führt weiterhin „Susanne Bruch SchrottHdl. Demontagenarbeiten“, Kirchplatz 16, 97522 Sand, 09524 5192, ohne Website, E-Mail oder Öffnungszeiten. Das Profil weist Eintragsdaten 18.02.2026 und Aktualisierung 26.10.2026 aus; das ist eine Portalaktualisierung, kein Betreiber-/Registerbeleg und kein Nachweis aktueller Annahme. Die bereits bekannte Stadtbranchenbuch-/Schrottplatz-Info-Spur bleibt gleichgerichtete Verzeichnisinformation, keine Primärbestätigung. Keine Stammdaten/GEO ergänzt. **Ankauf:** keine Kurse; **Verkauf:** keine Preise; **Gebühren:** keine Tarife. Quellen (Verzeichnisleads): https://www.11880.com/branchenbuch/sand-am-main/120674719B110815106/susanne-bruch-schrotthdl-demontagenarbeiten.html ; https://www.schrottplatz-info.de/schrottplatz/Sand-am-Main/Bruch-Susanne-SchrottHdl-Demontagenarbeiten .]
+
 ### Recherche 18.10.2026 — Welle 18:00 / Shard 3
 
 - [Recherche 18.10.2026: Gegenüber dem Nulltreffer der Vorwelle jetzt exakter Verzeichnisfund Susanne Bruch SchrottHdl. Demontagenarbeiten, Kirchplatz 16/97522 Sand/09524 5192, zusätzlich Schrottplatz-Info mit derselben Nummer. Das konkretisiert nur den historischen Lead; keine Betreiberseite und kein rechtlicher Zweitbeleg. Northdata-Suggest Susanne Bruch HTTP 429, nicht leerer Registerbefund. Keine PLZ-/Telefonfüllung aus den Portalen; description benennt den ungeklärten Zustand. ANKAUF/VERKAUF/GEBÜHREN ohne Liste; GEO Kirchplatz 16 erst nach kommunaler Gewerbeidentität/aktuellem Betriebsnachweis. Quellen (Leads): https://sand-am-main.stadtbranchenbuch.com/2258555.html ; https://schrottplatz-info.de/schrottplatz/Sand-am-Main/Bruch-Susanne-SchrottHdl-Demontagenarbeiten ; https://www.northdata.de/suggest.json?query=Susanne%20Bruch&countries=DE (429).]

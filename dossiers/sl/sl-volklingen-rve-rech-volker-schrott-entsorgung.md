@@ -30,6 +30,10 @@ Der Betreiberblog ist aktuell erreichbar und enthält datierte Posts bis Januar 
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Der Betreiberblog war direkt lesbar. Der Beitrag vom 23.01.2026 ist eine „Visitenkarte“; ein am 01.01.2026 erneut eingestellter älterer Beitrag verweist auf Schrott-/Metallannahme ab 300 kg bzw. 5 kg, aber ohne €/kg-Kurse. Das Veröffentlichungs-/Wiederveröffentlichungsdatum macht die Schwellen nicht zu aktuellen Ankaufspreisen oder gesicherten Mindestmengen. Die separate Jimdo-Kontaktseite nennt dieselbe Geschäftsbezeichnung/Adresse, bleibt ein weiterer eigener Betreiberauftritt mit unvollständigen bzw. wechselnden Kontakt-/Impressumsangaben und somit kein unabhängiger Zweitbeleg. „Kostenlose Abholung“ ist Logistikwerbung, nicht Ankaufvergütung; Fahrzeug-/Entsorgungshinweise „VB“ bezeichnen keinen Tarif. Keine Stammdatenänderung. ANKAUF: keine numerischen Kurse; VERKAUF: keine Ersatzteilpreisliste; GEBÜHREN: keine bezifferten Sätze. Quellen: https://schrott-entsorgung.blogspot.com/ ; https://schrott-abholung-saar.jimdofree.com/kontakt .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: http://schrott-saar.de/ ist wieder direkt lesbar und zeigt Betreiberblog-Posts vom 01.01.2026 und 23.01.2026. Der Blog nennt RVE Rech Volker, Hausen 49, 66333 Völklingen, Festnetz 06898 4420217, Mobil 015777203812/015679527197 und schrott-saar@hotmail.de; die erreichbare Jimdo-Kontaktseite führt dieselbe Anschrift und Nummern, aber ihr Impressum enthält leere Felder für Vertretung/Register sowie weitere abweichende Kontaktdaten. Daher weiterhin nur Betreiberangaben in Timeline, kein Frontmatter-Fill. Der Blog wirbt für kostenlose Abholung von Schrott/Metallen; Autos und Entsorgung werden teils mit „VB“ bzw. abhängig vom aktuellen Schrottwert beschrieben. Das ist kein numerischer Ankaufkurs; eine mögliche Entsorgungsgebühr ist nicht mit Ankauf gleichzusetzen. Keine Verkaufs-Preisliste oder konkreten Gebühren gefunden. Quellen: https://schrott-entsorgung.blogspot.com/ ; https://schrott-abholung-saar.jimdofree.com/ ; https://schrott-abholung-saar.jimdofree.com/kontakt .]

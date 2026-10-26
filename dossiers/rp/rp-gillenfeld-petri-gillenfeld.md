@@ -28,6 +28,10 @@ Creditreform und mehrere Verzeichnisse führen Guido Petri an Bahnhofstraße 4, 
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: LokaleSchrottplatz-Profil direkt erneut gelesen. Es führt Guido Petri, Bahnhofstraße 4, 54558 Gillenfeld, 06573 9499, ein Statuslabel „Geschlossen“, generische Materialliste sowie Mindestgewichte 100 kg Eisen/1 kg Nichteisen. Das sind nicht betreiberbestätigte Portalangaben; weder Statuslabel noch Mindestmengen belegen Schließung oder aktuelle Annahme. Keine €/kg-Kurse, Verkaufs- oder Gebührenliste. Mühlenstraße 13 bleibt ein unverbundener Adresslead; Bahnhofstraße 4 wird nicht geocodiert. Keine Frontmatter-Änderung. Quelle(n): https://lokaleschrottplatz.de/guido-petri-schrottverwertung/ ; https://www.gillenfeld.de/bauwirtschaft-handwerk/ .]
+
 ### Recherche 21.10.2026 (Welle RP)
 
 - [Recherche 21.10.2026: LokaleSchrottplatz führt Guido Petri an Bahnhofstraße 4, 54558 Gillenfeld, Tel. 06573 9499, mit dem Verzeichnislabel „Geschlossen“, einer Bewertung und einer langen Material-/Mindestgewichts-Liste. Das Portal ist keine Betreiberquelle; sein „Geschlossen“-Label ohne belastbare Öffnungszeiten ist kein Schließungsbeleg, die generischen Annahmebedingungen werden nicht übernommen. Der separate Lead Mühlenstraße 13 bleibt ungelöst. Die direkt gelesenen offiziellen Gemeindeseiten nennen Marco Bauer einmal an Bahnhofstraße 42 und einmal an Schulstraße 19; keine Seite belegt Petri oder widerlegt eine Nutzung der Bahnhofstraße 4 durch Petri. Kein Fill und keine Statusänderung. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste. Bahnhofstraße 4 und Mühlenstraße 13 nur nach Identitätsklärung geocodieren. Quelle(n): https://lokaleschrottplatz.de/guido-petri-schrottverwertung/ ; https://www.gillenfeld.de/bauwirtschaft-handwerk/ ; https://www.gillenfeld.de/eintrag-abisz/ .]

@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Konkreter Ludwigshafener Lead **Rissel Schrotthandel & Transporte**, Kastanienstraße 25, 67065 Ludwigshafen, 0176 45834689. Betreiber-/Registerbestätigung zu diesem Kontakt fehlt noch.
+Konkreter Ludwigshafener Lead **Rissel Schrotthandel & Transporte**, Kastanienstraße 25, 67065 Ludwigshafen, 0176 45834689. Gelbe Seiten bewirbt für diesen Portal-Eintrag kostenlose Schrottabholung im Umkreis von 30 km und bei sehr großen Mengen Preisabsprache. Das ist weder ein Beleg für einen positiven Material-Ankaufspreis noch eine bestätigte kostenfreie Betreiberleistung; Betreiber-/Registerbestätigung zu diesem Kontakt fehlt.
 
 Die gefundene Betreiberseite **Rohstoffe Rissel / Peter Rissel** nennt dagegen Jahnstraße 16 in **67368 Westheim** und andere Telefonnummern. Namensgleichheit oder ein gemeinsames Einzugsgebiet beweisen keine Identität; Westheimer Website und Leistungen wurden nicht hierher übertragen.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Profil zum Ludwigshafener Lead direkt erneut gelesen. Es wiederholt Kastanienstr. 25, 67065 Ludwigshafen, 0176 45834689, bewirbt kostenlose Abholung im Umkreis von 30 km und nennt Preisabsprache bei sehr großen Mengen. Das bleibt eine nicht unabhängig bestätigte Portalwerbung: „kostenlose Abholung“ beschreibt allenfalls eine behauptete Service-/Gebührenbedingung und beziffert nicht, was der Händler für Material zahlt. Die getrennte Betreiberseite „Rohstoffe Rissel“ bezieht sich auf Peter Rissel in Westheim, nicht nachweislich auf den Ludwigshafener Lead; ihre Tagespreis-Aussage wird nicht übertragen. Kein Verkaufspreis oder Tarifblatt gefunden; keine Frontmatter-Füllung. Quelle(n): https://www.gelbeseiten.de/gsbiz/4eec0cb4-285b-4d11-8b14-b0cc93c11349 ; https://bass2soul.wixsite.com/rohstofferissel/schrotthandel-entsorgung .]
 
 ### Recherche 05.10.2026
 

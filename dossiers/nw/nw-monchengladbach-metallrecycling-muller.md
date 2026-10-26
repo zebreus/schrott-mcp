@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberidentität bleibt bei mehreren Müllers ungeklärt: aktuelle Verzeichnisse nennen Marcel Müller, Böcklinstraße 89, 41069, Festnetz 02161 6853177; das Dossier enthält das Mobiltelefon 0172 1817205, ältere Webspuren „Günter Müller“ und die Schreibweise Böcklingstraße 89. Die Straßenlage ist ähnlich, beweist aber keine Personen-/Betriebsidentität. Bestehende Frontmatter-Felder bleiben deshalb Review-Kandidaten statt bestätigter Kundendaten.
+Die Betreiberidentität bleibt bei mehreren Müllers ungeklärt: Verzeichnisse nennen Marcel Müller, Böcklinstraße 89, 41069, Festnetz 02161 6853177; das Dossier enthält das Mobiltelefon 0172 1817205. Ein beim Direktabruf nun erreichbarer Altauftritt nennt dagegen Schrotthandel Müller/Inhaber Günter Müller, Mobil 0172 2667887 und „Böcklingstraße 89“, während derselbe Auftritt als Fundort/Kontaktadresse Kabelstraße 95 ausweist. Namens-, Rufnummern- und Adressabweichungen verhindern eine sichere Identitäts-/Standortkette. Die Copyright-Anzeige 2026 ist kein belastbarer Aktualitätsnachweis. Bestehende Frontmatter-Felder bleiben Review-Kandidaten statt bestätigter Kundendaten.
 
 **Preise:** Keine operatorseitig bestätigte Ankaufspreisliste, Verkaufspreise oder Gebühren. Keine GEO-Änderung ohne Klärung von Person, Telefonnummer und korrekter Straßenform.
 
 ## Timeline
+
+### Recherche 26.10.2026: Altauftritt jetzt direkt lesbar, Widersprüche bleiben
+
+- [Recherche 26.10.2026: Der ältere Domainauftritt wurde diesmal direkt geladen. Das Impressum benennt Schrotthandel Müller, Inhaber Günter Müller, Böcklingstraße 89, 41069 Mönchengladbach und 0172 2667887; derselbe Auftritt bezeichnet auf Leistungs-/Kontaktseiten Kabelstraße 95 als „Hier findet man uns“ und wiederholt 0172 2667887. Das unterscheidet sich von Marcel Müller/02161 6853177 in Gelbe Seiten und von der Seed-Mobilnummer 0172 1817205. Weder der Copyright-Vermerk ©2026 noch die ähnlich geschriebene Straße belegen, dass dies derselbe aktuelle Betrieb oder derselbe Standort ist; keine Registerkennung oder eindeutige Verbindung gefunden. Keine Frontmatter-Änderung. **Ankauf:** keine numerischen Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Keine GEO. Quellen: http://xn--schrotthandel-mller-kbc.de?page_id=49 ; http://xn--schrotthandel-mller-kbc.de/?page_id=38 ; http://xn--schrotthandel-mller-kbc.de/?page_id=50 ; https://www.gelbeseiten.de/gsbiz/223fab6b-3cd4-4469-a384-ad2df86d7d9d .]
 
 ### Recherche 13.10.2026
 

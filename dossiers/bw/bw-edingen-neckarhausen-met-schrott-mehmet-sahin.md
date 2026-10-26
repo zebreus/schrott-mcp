@@ -30,6 +30,10 @@ Seedidentität MET Schrott / Mehmet Sahin ist weiterhin nicht qualifiziert beleg
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das Portalprofil „Şahin Schrotthandel“ nennt Albert-Schweitzer-Straße 16, 68535, 0176 84652248 und Materialien, bleibt aber ein nicht vom Betreiber bestätigter Lead ohne vollständigen Inhabernamen; eine Verbindung zu Seed „MET Schrott (Mehmet Sahin)“ ist nicht belegt. Die dort verlinkte allgemeine Schrottpreise-Seite beschreibt Portal-/Nutzerpreise und ausdrücklich keine offizielle Händlerpreisliste; sie ist kein Kursblatt von MET. NorthData führt SPT Metall & Bau GmbH, HRB 739736, als separaten Rechtsträger mit anderer Adresse; Namens-/Ortsschnittmenge belegt keine Zugehörigkeit. Keine Übernahme oder Geokodierung. ANKAUF, VERKAUF und GEBÜHREN für MET weiterhin unzuordenbar. Quellen: https://recyclinghof-wertstoffhof.de/schrottplatz/baden-wuerttemberg/edingen-neckarhausen/sahin-schrotthandel/ ; https://recyclinghof-wertstoffhof.de/schrottpreise/ ; https://www.northdata.de/SPT%20Metall%20%26%20Bau%20GmbH,%20Edingen-Neckarhausen/Amtsgericht%20Mannheim%20HRB%20739736 .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Neue Suchspur „Şahin Schrotthandel“ in Edingen-Neckarhausen gefunden: Albert-Schweitzer-Straße 16, 68535, 0176 84652248, Tätigkeit laut Wertstoffhof-/Schrottplatzportal Kupfer, Kabel und Elektroaltgeräte. Das Portal ist kein zulässiger Betreiber-/Registerbeleg; die Zuordnung zum vollständigen Seednamen Mehmet Sahin bzw. MET Schrott fehlt. Daher keine Frontmatter-Übernahme und keine Geokodierung. Die NorthData-Seite zum separaten Rechtsträger SPT Metall, Schrott & Bau GmbH nennt weiterhin HRB 739736 und Lilienstr. 16b; sie beweist keine Verbindung zum neuen Şahin-Lead oder zum Seed. Ankauf/Verkauf/Gebühren bleiben für MET unzuordenbar. Quellen: https://recyclinghof-wertstoffhof.de/schrottplatz/baden-wuerttemberg/edingen-neckarhausen/sahin-schrotthandel/ ; https://www.northdata.de/SPT%20Metall,%20Schrott%20&%20Bau%20GmbH,%20Edingen-Neckarhausen/Amtsgericht%20Mannheim%20HRB%20739736 .]

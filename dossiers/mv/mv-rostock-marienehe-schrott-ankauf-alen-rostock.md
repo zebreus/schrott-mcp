@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Zeile beruht auf einem Eintrag bei lokaleschrottplatz.de, der Handwerkstr. 5, die Telefonnummer und Rostock 18069 nennt. Betreiberidentität und unabhängige Bestätigung fehlen; Anschrift/PLZ und Öffnungszeiten wurden nicht in die Frontmatter übernommen. Das Portal ist ein Lead, keine Betreiberwebsite; `status: pruefung` bleibt.
+Die Zeile beruht auf einem Eintrag bei lokaleschrottplatz.de, der Handwerkstr. 5, 18069 Rostock und 0172 6118818 nennt. Die aktuelle Portalansicht ergänzt generische Metallannahme-Kategorien und Mindestmengen (Eisen ab 100 kg, Nichteisen ab 1 kg); sie enthält keine €/kg-Kurse und widerspricht sich beim dynamischen „Geschlossen/öffnet“-Banner und dem Stundenplan. Betreiberidentität und unabhängige Bestätigung fehlen; Anschrift/PLZ, Materialliste und Öffnungszeiten wurden nicht in die Frontmatter übernommen. `status: pruefung` bleibt.
+
+**ANKAUF:** nur unbestätigte Portalbehauptungen, keine Vergütungskurse. **VERKAUF:** keine Liste. **GEBÜHREN:** keine belegten Tarife; keine bestätigte Gratisabholung.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Portalprofil direkt erneut gelesen. Es führt Handwerkstraße 5, 18069 Rostock, 0172 6118818, eine generische Annahmeliste (u.a. Eisen/Stahl, NE-Metalle, Kabel und Altfahrzeuge) sowie Mindestgewichte von 100 kg Eisen und 1 kg Nichteisen auf. Diese Bedingungen sind nicht vom Betreiber bestätigt und liefern keinen Preis je Material; der dynamische Banner „Geschlossen, öffnet morgen um 13:00“ passt nicht zum angezeigten Wochenplan (Mo–Fr 09:00–17:00, Sa 09:00–12:00, So geschlossen). Kein Frontmatter-Fill, keine Öffnungszeit/Annahme übernommen. ANKAUF: keine Zahlenkurse; VERKAUF: keine Liste; GEBÜHREN: keine verifizierten Tarife. Quelle: https://lokaleschrottplatz.de/schrott-ankauf-alen-rostock/ .]
 
 ### Recherche 07.10.2026
 

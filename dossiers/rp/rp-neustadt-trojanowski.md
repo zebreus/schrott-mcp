@@ -30,6 +30,10 @@ Ungeklärter Neustadter Recycling-/Schrott-Lead mit einem Cylex-Eintrag für „
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Erneute Namens-/Ortsabfrage und Direktversuch des dokumentierten Cylex-Profils „Scott Trojanowski“; der Profilabruf endete mit HTTP 403, die Suchabfrage brachte keinen neuen qualifizierten Betreiber-, Register- oder kommunalen Beleg. Der Einzel-Portal-Lead aus der Recherche vom 02.10.2026 bleibt daher unverifiziert; ein Abrufhindernis ist weder Existenz- noch Schließungsnachweis. Keine Kontaktdaten oder Adresse übernommen/geocodiert. ANKAUF: keine Preise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quelle/Status: https://web2.cylex.de/firma-home/scott-trojanowski-18749858.html (Direktabruf 403; früherer Cylex-Lead siehe Timeline vom 02.10.2026).]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Folgesuche nach „Scott Trojanowski“/Amalienstraße erbrachte keine qualifizierende Betreiber-Primärquelle oder zweite zulässige Identitätsquelle; der bereits dokumentierte Cylex-Treffer bleibt ein Single-Source-Aggregatorlead. Keine Preise für Ankauf oder Verkauf und keine Abhol-/Annahmegebühr belegt. Adresse weiterhin ungeprüft und nicht geocodiert; nächster sinnvoller Schritt bleibt Gewerbeauskunft mit vollständigem Vornamen. Quelle(n): Cylex-Treffer „Scott Trojanowski“ wie in der Recherche vom 02.10.2026 dokumentiert (web2.cylex.de).]

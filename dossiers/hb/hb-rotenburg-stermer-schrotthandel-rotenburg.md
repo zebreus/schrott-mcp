@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Kleiner Schrotthandel-Kandidat in Rotenburg (Wümme), Niedersachsen, nicht Bremen. Upaltenweg 8, 27356 und 0178 7857176 sind wiederholte Verzeichnis-Leads, keine durch Betreiber/zulässigen Zweitbeleg freigegebenen Daten. Mögliche Dublette zu `ni-rotenburg-stermer-schrotthandel` mit gleicher Adresse und Telefonnummer; keine automatische Zusammenführung oder Löschung. Betreiberidentität (Lead „Assad Stermer“), öffentliche Annahme, Ankauf und aktuelle Erreichbarkeit bleiben offen. Status `pruefung`.
+Kleiner Schrotthandel-Kandidat in Rotenburg (Wümme), Niedersachsen, nicht Bremen. Upaltenweg 8, 27356 und 0178 7857176 sind wiederholte Verzeichnis-Leads, keine durch Betreiber/zulässigen Zweitbeleg freigegebenen Daten. Mögliche Dublette zu `ni-rotenburg-stermer-schrotthandel` mit gleicher Adresse und Telefonnummer; keine automatische Zusammenführung oder Löschung. Betreiberidentität (Lead „Assad Stermer“), öffentliche Annahme, Ankauf und aktuelle Erreichbarkeit bleiben offen. Status `pruefung`. Der Legacy-Slug und Ablagepfad unter `dossiers/hb/` bleiben unverändert; das Dossier-/Produktions-State ist NI. Diese Zuordnung wird durch die aktuelle Prüfung nicht erneut klassifiziert.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das Örtliche führt weiterhin Stermer Schrotthandel Rotenburg, Upaltenweg 8, 27356 Rotenburg (Wümme), 0178 7857176; Gelbe Seiten liefert denselben Verzeichnislead. Der Schwesterpfad `../ni/ni-rotenburg-stermer-schrotthandel.md` enthält gleiche Kernanschrift und Nummer, sodass eine Dublette möglich bleibt, aber Identität/Nachfolge nicht bewiesen sind. Keine Zusammenführung, Umbenennung oder Pfad-/Stateänderung: Legacy-Slug und `dossiers/hb/` bleiben bestehen, State NI. Ältere „kostenlose Abholung“-/„keine Kosten“-Angaben sind historisch und belegen weder heutigen Tarif noch Barauszahlung. ANKAUF: keine aktuellen Kurse; VERKAUF: keine Liste; GEBÜHREN: kein aktueller bezifferter Tarif. Quellen (Verzeichnisleads): https://www.dasoertliche.de/Themen/Stermer-Schrotthandel-Rotenburg-Rotenburg-W%C3%BCmme-Upaltenweg ; https://www.gelbeseiten.de/gsbiz/4af61e3b-79da-4a92-b4e4-49a4a48bf0f5 ; Schwester-Dossier: ../ni/ni-rotenburg-stermer-schrotthandel.md .]
 
 ### Recherche 05.10.2026
 

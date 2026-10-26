@@ -28,6 +28,10 @@ Die Verzeichnisquellen beschreiben Leonhard Hartmann als Autoverwertung/Kfz-Gebr
 
 ## Timeline
 
+### Recherche 26.10.2026: kommunale Unternehmensseite abgegrenzt
+
+- [Recherche 26.10.2026: Die offizielle Markt-Weitnau-Seite „Unternehmen am Ort“ wurde direkt abgerufen; sie enthält allgemeine Standortinformationen, aber das Unternehmensverzeichnis meldet 0 Einträge und keinen Hartmann-Treffer. Die Seite ist ersichtlich kein vollständiges Gewerberegister und belegt weder Schließung noch Nichtexistenz. Leonhard Hartmann/Boschensäge 4/08375 8186 bleibt nur Verzeichnislead, keine Primärbestätigung oder aktuelle Kundenannahme. Keine Änderung an bestehenden Feldern und kein GEO. **Ankauf:** keine Fahrzeug-/Schrottkurse; **Verkauf:** keine Teilepreise; **Gebühren:** keine Tarife. Quellen: https://www.weitnau.de/markt-weitnau/wirtschaft-und-entwicklung/unternehmen-am-ort ; https://web2.cylex.de/firma-home/hartmann-leonhard-autoverwertung-kfzgebrauchtteile-3869922.html .]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: 4-fach belegter Verzeichnis-Betrieb ohne Betreiber-Website — „Hartmann Leonhard Autoverwertung KfzGebrauchtteile“, Boschensäge 4, 87480 Weitnau (Kleinweiler/Hofen), Tel. 08375 8186 (golocal „offizieller Telefonbucheintrag“ + cylex + 11880 + schrottplatz-info/-org identisch). KEIN HRB-Treffer, keine Betreiber-Website (schrottplatz-info: „zur Homepage“ ohne Link) → Beleglage offen dokumentiert, dennoch street/phone gefüllt (4 unabhängige Verzeichnisse), name präzisiert, trader_type sonstige→autoverwertung, status aktiv. Namensvetter-Risiko (Schrott Hartmann GmbH Bischofsheim, Hartmann Bergkirchen) in Timeline offengelegt — nicht zuschreibbar. Quelle(n): golocal.de + cylex.de + 11880.com + schrottplatz-info.de]

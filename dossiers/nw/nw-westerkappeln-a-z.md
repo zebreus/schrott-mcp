@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed nennt nur „A-Z“ als Entrümpler in Westerkappeln. Die Recherchen vom 01. und 04.10.2026 fanden keine eindeutig zuordenbare Betreiberseite, Register-/Kommunalquelle oder unabhängige Identitätsbestätigung; der Verzeichnishinweis bleibt ein Lead. **Ankauf:** nicht bestätigt. **Verkauf:** keine Preisliste. **Gebühren:** keine belegten Räumungs-/Entsorgungstarife. Betreiber, Anschrift, Annahme und aktuelle Tätigkeit bleiben offen; es gibt keine bestätigte Adresse für eine Geokodierung.
+Der Seed nennt nur „A-Z“ als Entrümpler in Westerkappeln. Eine aktuelle Betreiberseite „A-Z-Altmetalle Sascha Kelbassa“ wurde gefunden, nennt aber Vlotho als Sitz und ihren Einsatzbereich als Vlotho/Bad Oeynhausen/Löhne/Herford sowie die Kreise Minden-Lübbecke, Herford und Lippe; sie belegt keine Verbindung nach Westerkappeln und wird nicht zugeordnet. Kein qualifizierender Betreiber-/Registerbeleg für den Seed. **Ankauf:** nicht bestätigt. **Verkauf:** keine Preisliste. **Gebühren:** keine belegten Räumungs-/Entsorgungstarife. Betreiber, Anschrift, Annahme und aktuelle Tätigkeit bleiben offen; es gibt keine bestätigte Adresse für eine Geokodierung.
 
 ## Timeline
+
+### Recherche 26.10.2026: A-Z-Namensvetter ausgeschlossen
+
+- [Recherche 26.10.2026: Die direkt gelesene Website A-Z-Altmetalle nennt Sascha Kelbassa, An der Autobahn 5, 32602 Vlotho, Kontakte dort und ein Tätigkeitsgebiet Vlotho/Bad Oeynhausen/Löhne/Herford bzw. Kreise Minden-Lübbecke/Herford/Lippe. Sie ist ein eigenständiger Altmetallservice, aber kein Beleg für den generischen Westerkappelner „A-Z“-Entrümpler; Ort und ausgewiesenes Gebiet passen nicht, keine Verbindung gefunden. Nicht übertragen. **Ankauf:** für Westerkappeln unbestätigt; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quelle (anderer Betreiber, Disambiguierung): https://www.a-z-altmetalle.de/ ; https://www.a-z-altmetalle.de/impressum-datenschutz/ .]
 
 ### Recherche 04.10.2026
 

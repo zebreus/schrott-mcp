@@ -24,11 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-Der Betreiberauftritt **hoffmann-mod.de** passt erstmals konkret zu diesem Marktoberdorfer Seed. Kontakt/Impressum nennen Hoffmann Schrott & Metall Recycling, Harald Hoffmann, Wertachstraße 25, 87616 Marktoberdorf, 08342 918949 und info@hoffmann-mod.de. Northdata nennt Harald Hoffmann Schrott & Metall Recycling e. K., AG Kempten HRA 11382, Eintragung 10.11.2023 mit Inhaber Harald Hoffmann. Website zugeordnet; den Kurznamen nicht ohne vollständige Rechtsformkette überschreiben: im Impressums-Rechtshinweis steht widersprüchlich „Inhaber Stefan Kindler“. Aktuelle Registeranschrift ist im gelesenen Northdata-Profil nicht ausgeschrieben.
+Die Betreiberauftritte **hoffmann-mod.de** und **metallrecycling.org** veröffentlichen dieselben Marktoberdorfer Kontaktangaben: Hoffmann Schrott & Metall Recycling, Harald Hoffmann, Wertachstraße 25, 87616 Marktoberdorf, 08342 918949 und info@hoffmann-mod.de. Das neue direkt gelesene .org-Impressum wiederholt jedoch den Widerspruch „Inhaber Stefan Kindler“ im Rechtshinweis; die Northdata-Spur HRA 11382 nennt Harald Hoffmann als Inhaber. Ohne belastbare Rechtsform-/Domainkette und Auflösung dieses Gegenbelegs bleibt der Seed ein Identitätsklärfall; Website/Kontaktdaten werden nicht ins Frontmatter übernommen.
 
 **Ankauf:** Betreiber erlaubt Kleinstmengen für Privat und Gewerbe zu Tagespreisen (Eisen, Edelstahl, Kupfer, Messing, Alu, Bleibatterien); keine Zahlenliste. Die Portalbehauptung „Eisen ab 100 kg“ ist kein belastbarer Mindestmengenbeleg und widerspricht der Betreiberwerbung. **Verkauf/Gebühren:** keine Zahlenlisten. **Zertifikat:** öffentlich indiziertes PÜG-PDF ist nur bis 22.05.2023 gültig; nicht als aktuell zertifiziert bezeichnen. **GEO:** Wertachstraße 25 konkreter Betreiberkandidat, keine Koordinaten ohne gesonderte Prüfung.
 
 ## Timeline
+
+### Recherche 26.10.2026: neuer Betreiberauftritt, Inhaberwiderspruch bleibt
+
+- [Recherche 26.10.2026: Der direkt geladene Betreiberauftritt metallrecycling.org enthält im Impressum weiterhin Hoffmann Schrott & Metall Recycling, Harald Hoffmann als „Geschäftsführender Inhaber“, Wertachstraße 25, 87616 Marktoberdorf, Tel. 08342 918949 und info@hoffmann-mod.de; der Rechtshinweis nennt zugleich Stefan Kindler als Inhaber. Die Leistungsseite wirbt für Privat- und Gewerbekundschaft mit Anlieferung von Kleinstmengen zu Tagespreisen (Eisen, Edelstahl, Kupfer, Messing, Aluminium, Bleibatterien) sowie Abholung mit Greiferfahrzeug. Dies stützt einen aktuellen Metallbetrieb am Ort, klärt aber wegen fehlender Registerkennung im Impressum und des fortbestehenden Inhaberwiderspruchs nicht abschließend die Seed-/Rechtsträgerzuordnung. Keine Frontmatter-Füllung. **Ankauf:** Tagespreise, aber keine numerischen Sortenkurse; **Verkauf:** keine Liste; **Gebühren:** Container-/Logistikseite nennt Behältergrößen, keine Tarife. Keine aktuelle Zertifikatsgültigkeit belegt. Quellen: https://www.metallrecycling.org/impressum.html ; https://www.metallrecycling.org/leistungen.html ; https://www.metallrecycling.org/container-logistik.html ; https://www.northdata.de/Harald%20Hoffmann%20Schrott%20%26%20Metall%20Recycling%20e%C2%B7%20K%C2%B7,%20Marktoberdorf/Amtsgericht%20Kempten%20HRA%2011382 .]
 
 ### Ownerdisposition 18.10.2026
 

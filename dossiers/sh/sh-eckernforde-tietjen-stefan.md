@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-Verzeichnis-Seed mit unbestätigten Kontakt-/Adresswerten Siemensstr. 12, 24340 Eckernförde, 0172 3721669. Ein Das-Örtliche-Treffer wiederholt diese Daten, ist aber ebenso wenig ein Betreiberbeleg. Die Domain stefan-tietjen.de gehört laut Impressum zu einer Person in Lilienthal; ihr externer Schrottpreislink ist keine Tietjen-Preisliste für Eckernförde und kein Umzugsnachweis. Nicht mit Barmstedter Tietjen oder Lilienthal gleichsetzen.
+Verzeichnis-Seed mit unbestätigten Kontakt-/Adresswerten Siemensstr. 12, 24340 Eckernförde, 0172 3721669. Das Örtliche führt genau diesen Treffer in einer Deutschland-Suche unter „Private Einträge“; das ist eine Verzeichnisklassifikation, weder Betreiber-/Registerbeleg noch Gegenbeweis zu einem Gewerbe. Die Domain stefan-tietjen.de gehört laut Impressum zu einer Person in Lilienthal; ihr externer Schrottpreislink ist keine Tietjen-Preisliste für Eckernförde und kein Umzugsnachweis. Nicht mit Barmstedter Tietjen oder Lilienthal gleichsetzen.
 
 - **Ankauf:** Seed behauptet ja; heutige Vergütung unbestätigt, keine Händlerkurse.
 - **Verkauf:** keine zugeordnete Liste.
@@ -33,6 +33,10 @@ Verzeichnis-Seed mit unbestätigten Kontakt-/Adresswerten Siemensstr. 12, 24340 
 - **GEO:** Siemensstraße 12 erst nach Betriebsbestätigung geocodieren.
 
 ## Timeline
+
+### Recherche 26.10.2026: Eintrag als privater Verzeichnistreffer markiert
+
+- [Recherche 26.10.2026: Die Deutschland-Suche von Das Örtliche listet drei „Tietjen Stefan“-Treffer ausdrücklich unter „Private Einträge“; einer davon führt Siemensstr. 12, 24340 Eckernförde und 0172 3721669. Das bekräftigt, dass der Datensatz nicht als verifizierte Firmen-/Betreiberseite behandelt werden kann, beweist aber nicht, dass die Person kein Gewerbe betreibt oder der alte Firmenlead beendet ist. Der separate Domain-Impressumstreffer bleibt Stefan Tietjen in Lilienthal (Westerweder Straße 38, andere Nummer); keine Verbindung/Preisübertragung. Keine Frontmatter-Fills, `clear_fields` bleibt bestehen und keine GEO. **Ankauf:** keine Eckernförder Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quellen: https://www.dasoertliche.de/Themen/Stefan-Tietjen.html ; https://www.stefan-tietjen.de/impressum.htm .]
 
 ### Owner-Adress-/GEO-/Annahme-Korrektur 24.10.2026
 

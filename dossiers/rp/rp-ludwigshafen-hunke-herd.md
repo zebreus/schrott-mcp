@@ -30,6 +30,10 @@ Der konkrete Rechtsträger ist **Hunke & Herd GmbH**, HRB 1939 Ludwigshafen. Nac
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: North-Data-Profil für Hunke & Herd GmbH, HRB 1939 Ludwigshafen, direkt erneut gelesen. Es führt den Rechtsträger weiterhin als i.L. mit Anklamer Weg 3, 68309 Mannheim; sichtbare Registerpublikationen nennen die Liquidation vom 02.01.2026 und die Änderung von Liquidator/Anschrift am 09.01.2026. Eine spätere Veröffentlichung vom 18.02.2026 betrifft den Jahresabschluss 2024, nicht eine aktuelle Annahmestelle. Das bestätigt keinen Fortbestand oder eine Schließung der früheren Industriestr. 4A; keine Liquidatorenanschrift übertragen. ANKAUF/VERKAUF/GEBÜHREN: keine aktuelle Zielpreisliste. Quelle: https://www.northdata.de/Hunke%20%26%20Herd%20GmbH,%20Mannheim/Amtsgericht%20Ludwigshafen%20HRB%201939 .]
+
 ### Recherche 18.10.2026 — Welle 18:00 / Shard 3
 
 - [Nachprüfung 18.10.2026: Nach Shell-429 gelang separater Direktabruf des deutschen Northdata-Profils einschließlich verlinkter Registerbekanntmachung 09.01.2026 als Volltext. Eintragung Nr.3: Änderung Geschäftsanschrift Anklamer Weg 3/68309 Mannheim; Sascha Hunke nun Liquidator, Ursula Hunke nicht mehr Geschäftsführerin, Gesellschaft aufgelöst. Aktuelles Profil i.L.; Registernummer HRB1939 unverändert. Damit Liquidation/Anschrift frisch gelesen, nicht nur Suchsnippet. Keine Löschung oder Nachfolgefirma belegt und kein Beweis zur Schließung des Betriebshofs Industriestr.4A; Status pruefung erhalten, Adresse nicht überschrieben. Quellen: https://www.northdata.de/Hunke%20%26%20Herd%20GmbH,%20Mannheim/Amtsgericht%20Ludwigshafen%20HRB%201939 ; https://www.northdata.de/?id=5936975961653248 .]

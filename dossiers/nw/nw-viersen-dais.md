@@ -33,6 +33,7 @@ provenance_origin: table
 ### Recherche 26.10.2026: Namensvetter-Suche erneut geöffnet
 
 - [Recherche 26.10.2026: Die Gelbe-Seiten-Suche „Dais in Viersen“ direkt gelesen. Sie liefert Deis Martin (Psychiatrie, Viersen) sowie Jürgen Deus (Architektur, Mönchengladbach), aber keinen passenden Dais-Schrott-/Metallbetrieb. Die ähnlichen Namen sind ausdrücklich nicht zugeordnet; aus der Lücke folgt weder Nichtexistenz noch Schließung. Kein Betreiber-/Register-/Standortbeleg, keine Frontmatter-Änderung. **Ankauf:** keine zuordenbare Zusage/Preisliste; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Kein Geocoding ohne Betriebsadresse. Quelle: https://www.gelbeseiten.de/suche/dais/viersen .]
+- [Recherche 26.10.2026: Die Kreis-Viersen-city-map-Liste „Schrotthandel – Viersen“ wurde ebenfalls direkt gelesen: Sie listet vier Brancheneinträge, darunter RRG Rheinische Recycling GmbH in Viersen, aber keinen Dais; weitere Einträge sind als auswärtige Anbieter gekennzeichnet. Das ist eine begrenzte Verzeichnisabfrage, kein vollständiges Gewerberegister und kein Existenz-/Schließungsbeweis. Keine Identität/Adresse ableitbar, keine Feldänderung/GEO. **Ankauf/Verkauf/Gebühren:** weiterhin keine Dais-spezifischen Preislisten. Quelle: https://viersen.city-map.de/01100000/viersen/schrotthandel (Abruf 26.10.2026).]
 
 ### Recherche 07.10.2026
 

@@ -30,6 +30,10 @@ Die Betreiberseite führt ein 2026 ausgestelltes, bis 18.08.2027 gültiges EfbV-
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Betreiber-Zertifikatsseite und bereits verlinktes Zertifikat nochmals direkt geprüft. Das EfbV-Dokument Z-Nr. 10/2026 ist am 19.02.2026 ausgestellt und bis 18.08.2027 gültig; Anlage 3 ordnet Am Güterbahnhof 3, Köthen, als Lagerplatz für Bau-/Abbruchholz und Altmetalle zu. Das belegt einen betrieblichen Lagerstandort, aber nicht die öffentliche Annahme von Privatkunden. Auf der geprüften Seite/dem Zertifikat keine Ankaufspreise, Produktverkaufspreise oder Gebührenliste. Adresse bleibt Betriebsstandort, nicht freigegebener Publikums-/GEO-Punkt; keine Stammdatenänderung. Quellen: http://www.kaiser-entsorgung.de/?page_id=114 ; http://www.kaiser-entsorgung.de/wp-content/uploads/2026/03/Zertifikat-bis-18.08.2027.pdf .]
+
 ### Recherche 24.10.2026
 
 - [Recherche 24.10.2026: Betreiberwebsite erneut direkt geprüft. Die Zertifikatsseite verlinkt ein 10-seitiges EfbV-Zertifikat „Z-Nr. 10/2026“, gültig bis 18.08.2027, ausgestellt am 19.02.2026. Das Zertifikat nennt KER Kaiser Entsorgung & Recycling GmbH, HRB 4296, und führt in Anlage 3 den Standort Am Güterbahnhof 3, 06366 Köthen; die Tätigkeit wird dort als Lagerplatz für Bau-/Abbruchholz und Altmetalle beschrieben. Die Standortadresse und sachliche Beschreibung wurden deshalb ergänzt. Daraus folgt keine frei zugängliche Annahmestelle: öffentliches Anliefern, Öffnungszeiten, Ankaufskonditionen und Gebühren bleiben unbelegt. Hauptsitz Ottostraße 18 in Oranienbaum-Wörlitz ist nicht mit der Köthener Betriebsstätte zu verwechseln. Telefon/E-Mail nicht aus Kontaktbildern ergänzt; kein GEO-Punkt gesetzt. Quellen: http://www.kaiser-entsorgung.de/?page_id=114 ; http://www.kaiser-entsorgung.de/wp-content/uploads/2026/03/Zertifikat-bis-18.08.2027.pdf (Abruf 24.10.2026; Betreiberseite/Zertifikatsdokument).]

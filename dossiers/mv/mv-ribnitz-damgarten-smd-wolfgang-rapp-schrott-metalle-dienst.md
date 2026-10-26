@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberwebsite nennt Wolfgang Rapp und Schrott-Metalle-Dienstleistungen in Ribnitz-Damgarten. Die Startseite sagt, dass ab 31.12.2025 der Aufkauf von **Kleinstmengen** Schrott/Metall von Privatkunden eingestellt wird; das ist keine Mitteilung über eine Betriebsschließung oder das Ende sämtlicher Ankäufe. Die Leistungen-Seite bewirbt weiterhin Schrottentsorgung, Altmetallaufkauf, Bagger-/Kran-/Radladerarbeiten sowie Container von **0,5–30 m³**. Das Einzelunternehmen ist nur durch seinen Betreiberauftritt belegt; die abweichend überlieferte Annahmestellenadresse bleibt ungeklärt.
+
+**ANKAUF:** keine Zahlenkurse; die aktuelle Kleinstmengen-Regel für Privatkunden beachten, weitere Mengen-/Kundenbedingungen bleiben offen. **VERKAUF:** keine Fahrzeug-/Metallverkaufspreisliste. **GEBÜHREN:** keine Tarife oder Containerpreise. Betriebs- und Annahmestellenidentität getrennt halten.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Betreiberstartseite, Leistungsseite und Impressum direkt gelesen. Der Hinweis zum 31.12.2025 betrifft ausdrücklich den Aufkauf von Kleinstmengen Schrott/Metallen von Privatkunden, nicht pauschal jeden Ankauf oder eine Schließung; eine Mindestmenge bzw. genaue Ausnahme ist nicht genannt. Die Leistungsseite wirbt weiter mit „Altmetallaufkauf“, Schrottentsorgung, Baggerarbeiten, Kranarbeiten bis 7,5 t, Radladerarbeiten und Containerservice 0,5–30 m³. Impressum nennt Barther Str. 112; die in Drittportalen geführte Annahmestelle Richtenberger Str. 31/32 bleibt nicht verifiziert. Keine Zahlenkurse, Verkaufs- oder Gebührenliste auf diesen Seiten. Keine Frontmatter-Felder geändert. Quellen: https://www.s-m-d.de/ ; https://www.s-m-d.de/leistungen.php ; https://www.s-m-d.de/impressum.php .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

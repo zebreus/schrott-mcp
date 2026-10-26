@@ -24,9 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein schwacher, ungeklärter R&K-Lead ist bei der Suche neu sichtbar geworden: ein Suchindex zeigt eine Seite auf `rk-wug.com` mit Schrottabholung/Transport und außerdem einen Drittanbieter-Eintrag, der „R&K Weißenburg-Gunzenhausen“ an Schmalespanstraße 4, 91710 und 01575 3697311 setzt. Beides ist nicht als Betreiberbeleg belastbar: die Drittanbieter-Seite lieferte beim Direktabruf 404; `rk-wug.com` war beim Direktabruf nicht erreichbar, der indexierte Inhalt hat widersprüchliche/platzhalterhafte Kontaktdaten (u. a. Tel. `0000000`, E-Mail-Beispieladresse und PLZ 91781). Kein Register-/Impressumsabgleich und kein Bezug zum Seed nachgewiesen. Nicht mit der Hamburger R&K Handelsgesellschaft oder der separaten Städtereinigung Ernst zusammenführen.
+
+**Ankauf:** keine verifizierten Bedingungen oder numerischen Kurse; der nicht direkt prüfbare Suchindex behauptet kostenlose Abholung, aber keine sichere Gebührenbedingung. **Verkauf:** keine Liste. **Gebühren:** keine bestätigten Tarife. Name, Straße, Telefon und Website bleiben leer; `status: pruefung` und kein GEO.
 
 ## Timeline
+
+### Recherche 26.10.2026: schwache neue R&K-Spur nicht übernommen
+
+- [Recherche 26.10.2026: Eine Websuche zeigte den Drittanbieter-Eintrag „R&K Weißenburg-Gunzenhausen“ mit behaupteter Schmalespanstraße 4, 91710 und 01575 3697311; der direkte Abruf dieser Seite endete mit 404. Der Suchindex zeigte außerdem eine offenbar zu `rk-wug.com` gehörende Angebotsseite (Schrottabholung, Entsorgung, Transporte, angeblich kostenlose Abholung), jedoch ohne belastbare Kontaktdaten und mit widersprüchlichen Platzhaltern (Telefon-Link `0000000`, Beispiel-E-Mail, Adresse nur „91781, Bayern“). Direkte Abrufe von rk-wug.com endeten mit Transportfehler. Das sind weder unabhängig bestätigte Betreiberangaben noch eine sichere Zuordnung zum Seed; keine Felder gefüllt. **Ankauf/Verkauf/Gebühren:** keine verifizierte Preisliste; die indexierte Gratis-Abholungsbehauptung bleibt unbestätigt. Quellen/Leads: https://tierheilpraxis-henke.com/rk-weisenburggunzenhausen (Direktabruf 404); https://rk-wug.com/ (Direktabruf Transportfehler, nur Suchindex-Inhalt); https://rkhandelsgmbh.com/content/48/38/impressum (Hamburger Namensvetter, nicht zugeordnet).]
 
 ### Recherche 03.10.2026
 

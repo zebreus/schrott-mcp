@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-„Kuhn Recycling“ und Nienkamp 28 bleiben unbestätigte Seed-/Verzeichnisleads. Die frühere Google-Business-Site antwortet beim aktuellen Direktabruf mit 404; das beweist keine Betriebsschließung. Der benachbarte Verzeichniseintrag Bartikowsky am Nienkamp 26 ist ein anderer Name/eine andere Hausnummer und wird nicht zusammengeführt. Kein Betreiber-, Register- oder kommunaler Beleg für Identität, aktuellen Betrieb oder öffentliche Schrottannahme gefunden.
+„Kuhn Recycling“ und Nienkamp 28 bleiben unbestätigte Seed-/Verzeichnisleads. Die frühere Google-Business-Site antwortet beim aktuellen Direktabruf mit 404; das beweist keine Betriebsschließung. Neu direkt geprüft wurde ein Bartikowsky-Recycling-Auftritt: dessen Impressum nennt Angelo Bartikowsky, Sprakeler Str. 162, 48159 Münster und 0171 5260053; die Kontaktseite verwendet im Fließtext abweichend 0171 5260503. Das ältere Verzeichnisprofil „Bartikowsky J.“ nennt Nienkamp 26/0171 5260503. Diese Abweichungen lassen die Kette zum älteren Nachbareintrag offen; sie belegen erst recht keinen Kuhn-Betrieb an Nienkamp 28. Keine Zusammenführung und keine Annahme für Kuhn bestätigt.
 
 **Preise:** Ankauf: keine verifizierten Bedingungen/Kurse; Verkauf: keine Liste; Gebühren: keine Tarife.
 
 ## Timeline
+
+### Recherche 26.10.2026: Bartikowsky-Nachbarauftritt abgegrenzt
+
+- [Recherche 26.10.2026: Betreiber-Impressum und Kontaktseite von Bartikowsky Recycling Münster direkt gelesen: Das Impressum nennt Angelo Bartikowsky, Sprakeler Str. 162, 48159 Münster und 0171 5260053; der Textkörper der Kontaktseite verwendet auch 0171 5260503. Schrottplatz-Info führt „Bartikowsky J.“ dagegen an Nienkamp 26, ebenfalls 0171 5260503, und verlinkt westfalen-schrott.de. Ähnlicher Name/Telefon schafft einen Hinweis, aber wegen abweichender Straßen und Impressums-/Telefonangaben keine sichere Umzugs-/Betreiberkette. Für Kuhn/Nienkamp 28 ergibt sich daraus kein Beleg; Datensätze bleiben getrennt. Die Bartikowsky-Seite bietet Altmetall-Ankauf und „tagesaktuelles Angebot“ ohne Zahlenliste, nicht Kuhn zugeordnet. **Ankauf/Verkauf/Gebühren für Kuhn:** weiterhin unbelegt. Quellen: https://bartikowsky-recycling-muenster.de/impressum ; https://bartikowsky-recycling-muenster.de/kontakt ; https://www.schrottplatz-info.de/schrottplatz/Muenster/Bartikowsky-J- .]
 
 ### Recherche 01.10.2026
 

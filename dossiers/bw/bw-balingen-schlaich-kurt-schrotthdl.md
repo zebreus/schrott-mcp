@@ -28,6 +28,10 @@ Kurt Schlaich in Balingen-Erzingen ist derzeit nur durch Branchenverzeichnisse g
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: 11880-Profil für Kurt Schlaich direkt erneut gelesen: Erlenstraße 58, 72336 Balingen-Erzingen, 07433 35407; werktags 08:30–17:00 laut Verzeichnis. Das Profil nennt keine Betreiberwebsite oder E-Mail; sein Änderungsdatum/Verzeichnistext ersetzt keine Betreiberbestätigung. Eine ältere Nutzerbewertung ist subjektiv und keine Kurs- oder Abrechnungsquelle. Adresse, Telefon und Zeiten bleiben Leads; kein GEO-Fill. ANKAUF: kein bezifferter Metallkurs; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle (Lead): https://www.11880.com/branchenbuch/balingen/130733657B27323519/kurt-schlaich-schrotthdl.html .]
+
 ### Owner-GEO-Prüfung 21.10.2026
 
 - [Owner-GEO-Prüfung 21.10.2026: Die Read-only-Kartenprüfung ordnet den vorhandenen Produktionspunkt einem Gebäude an der Hirschbergstraße 2 zu; Erlenstr. 58 ist ein getrenntes OSM-Adressobjekt und bleibt ein historischer Verzeichnis-Lead. Kein Betreiber- oder Annahmebeleg verbindet Schlaich mit einem der Punkte. GEO bleibt ungeklärt; keine Adresse geokodiert. Quellen: [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.2753&lon=8.8546&zoom=18&addressdetails=1), [OSM-Gebäude am Produktionspunkt](https://www.openstreetmap.org/way/169826526), [OSM-Adresssuche Erlenstraße](https://nominatim.openstreetmap.org/search?street=Erlenstr.%2058&postalcode=72336&city=Balingen&country=Deutschland&format=jsonv2&limit=3&addressdetails=1), [Owner-Bericht](../../research/wave-20261021-0900-geo-bw.md).]

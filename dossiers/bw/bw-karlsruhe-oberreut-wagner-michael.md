@@ -30,6 +30,10 @@ Für „Wagner Michael“ in Karlsruhe-Oberreut bleibt als konkrete Spur nur ein
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Detailprofil direkt gelesen; es führt weiterhin Wagner Michael, „Schrott“, Albert-Braun-Straße 11A, 76189 Karlsruhe und 0721 867737. Das ist ein einzelner Verzeichnisbeleg ohne zugehöriges Betreiber-Impressum. Die Profile zu Wagner Johann und die Domain schrott-wagner.de bleiben andere Kandidaten, nicht Preis- oder Identitätsbelege für Oberreut. Keine Adress-/Telefonübernahme oder GEO-Freigabe. ANKAUF: keine zuordenbaren Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/504446bb-1ac2-4373-9369-86c93719acf0 .]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: Erneute gezielte Suche Wagner Michael/Karlsruhe/Schrott ergibt wieder Albert-Braun-Str.11A, 76189, 0721 867737 im Gelbe-Seiten-Index, ohne neuen Betreiber-/Registerbeleg. Kein erneuter Direktabruf dieses Profils in dieser Welle als Vollprüfung behauptet. Die früher widerlegte Billigheim-/Mosbach-Domain und Wagner Johann bleiben getrennt; aus Namensgleichheit keine neue Kontakt-/Leistungsübernahme. Der Seed-Ankaufmarker ja ist keine aktuelle Bestätigung. Ankauf: keine zugeordnete Zahlenliste; Verkauf: keine Liste; Gebühren: keine Tarife. GEO-Bedarf weiterhin Identität Michael/Standort Albert-Braun-Straße bestätigen, kein Namensvetterpunkt. Quelle: https://www.gelbeseiten.de/gsbiz/504446bb-1ac2-4373-9369-86c93719acf0 (aktueller Suchlead; Direktprüfung 15.10. siehe Historie).]

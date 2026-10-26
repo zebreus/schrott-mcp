@@ -31,6 +31,10 @@ Der Rechtsträger S.O.S. Schrott und Metallhandel GmbH (HRB 110063 Hamburg, zuvo
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: NorthData-Firmenseite erneut direkt gelesen: HRB 110063 Hamburg, Liquidationshinweis 10.04.2012, Insolvenzverfahrenshinweis und Löschung 19.01.2016. Die sichtbare Registerangabe verbindet die frühere Gesellschaft nicht unabhängig mit Neuhöfer Damm 110; ein heutiger Nachfolger ist weder belegt noch ausgeschlossen. Die 11880-Verknüpfung zur Schwerlast-Spedition bleibt ein fremder Betreiberauftritt. Keine aktuelle Annahmestelle und keine Preise/Tarife belegt. ANKAUF: nur historischer Unternehmensgegenstand; VERKAUF: keine Liste; GEBÜHREN: keine aktuellen Sätze. Quellen: https://www.northdata.de/S.O.S.%20Schrott%20und%20Metallhandel%20GmbH,%20Hamburg/HRB%20110063 ; https://www.11880.com/branchenbuch/hamburg/060440090B53390996/s-o-s-schrott-und-metallhandelgmbh.html ; fremdes Speditionsimpressum: https://schwerlast-hamburg.eu/impressum/ .]
+
 ### Owner-GEO-Korrektur 24.10.2026
 
 - [Owner-GEO-Korrektur 24.10.2026: Read-only-Produktion zeigte Altpunkt 53.6422, 13.8582; Nominatim-Reverse ordnet ihn „54b Straße der Freundschaft“, Wilhelmsburg, Torgelow-Ferdinandshof, Mecklenburg-Vorpommern zu, nicht Hamburg. Der Rechtsträger wurde 2016 gelöscht; eine aktuelle Betriebsstätte oder Nachfolge am Neuhöfer Damm ist nicht belegt. Daher Straße, PLZ und Telefon als nicht verifizierte historische Verzeichniswerte aus den strukturierten Feldern entfernt und mit `clear_fields: 'geo,phone'` den falschen GEO-Punkt sowie die gespeicherte Telefonnummer zurückgenommen. Kein Ersatzpunkt, keine Aussage über einen heutigen Nachfolger und keine Produktionsänderung. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.6422&lon=13.8582&zoom=18&addressdetails=1 ; https://www.northdata.de/S.O.S.%20Schrott%20und%20Metallhandel%20GmbH,%20Hamburg/HRB%20110063 ; read-only `public.db` (24.10.2026); `docs/trader-seed.md`.]

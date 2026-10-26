@@ -30,6 +30,10 @@ JK Schrotthandel Ferchland bleibt ein Identitätsklärfall. Branchenverzeichniss
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Der individuelle BA-Stellendatensatz wurde erneut direkt geprüft. Er nennt „JK Schrotthandel Ferchland Jennifer Klöpper“, Arbeitsort Mühlenweg 3, 39317 und eine Bürokrafttätigkeit mit Schrottannahme, Wiegen und Auszahlung. Die Anzeige nennt 14,60 EUR je Stunde als **Arbeitslohn**, nicht als Ankaufpreis. Sie belegt weder Kundenannahme am Arbeitsort noch die abweichende Portalanschrift Mühlenweg 1B als falsch. Keine Betreiber-/Gewerbe-Zweitbestätigung, kein Frontmatter-Fill oder GEO. ANKAUF: keine Schrottkurse; VERKAUF: keine Warenpreise; GEBÜHREN: keine Tarife. Quellen: https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003744550-S ; Portalgegenlead: https://www.gelbeseiten.de/gsbiz/e1ef3294-bfc1-4f4e-a7c0-b20e8b1fe675 .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Den individuellen Datensatz der Bundesagentur für Arbeit direkt gelesen. Arbeitgeberdarstellung „JK Schrotthandel Ferchland Jennifer Klöpper“, Arbeitsort Mühlenweg 3, 39317 Ferchland; die Bürokraft-Stellenbeschreibung umfasst „Annahme und Wiegen von Schrott sowie die Auszahlung“. Das ist ein aktueller Tätigkeit-/Identitätsbeleg (Anzeige vor ca. 30 Tagen veröffentlicht, vor 29 Tagen geändert), aber keine Gewerbe-/Rechtsformbestätigung und keine Zusage, dass Laufkundschaft am Arbeitsort Schrott abgeben kann. Gelbe Seiten führt abweichend Mühlenweg 1B/039349 94023; beide Anschriften bleiben ungeklärt. Kein Frontmatter-Fill; keine Geokodierung, bis Betreiber/öffentliche Kundenannahme und korrekte Hausnummer bestätigt sind. ANKAUF: keine aktuellen Kundentarife; Stellenbeschreibung belegt Auszahlung, nicht deren Kurse. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Quellen: https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003744550-S ; https://www.gelbeseiten.de/gsbiz/e1ef3294-bfc1-4f4e-a7c0-b20e8b1fe675 (Mühlenweg 1B, Verzeichnislead).]

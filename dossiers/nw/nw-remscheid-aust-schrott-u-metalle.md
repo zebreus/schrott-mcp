@@ -35,6 +35,10 @@ Ein weiterer, widersprüchlicher Verzeichnislead ist „EISEN AUST“ an der Kip
 
 ## Timeline
 
+### Recherche 26.10.2026: Eintrag und Profilalter erneut geprüft
+
+- [Recherche 26.10.2026: Das direkt gelesene 11880-Profil führt weiterhin Aust Schrott u. Metalle, Kimmenauer Weg 13, 42897 Remscheid, 01578 8862400; es nennt Eintragsdaten 30.12.2022 und eine Aktualisierung am 03.10.2026, aber weder Website noch Öffnungszeiten. Das bleibt ein Verzeichnislead. Der abweichende Cylex-Suchtreffer Kipperstr. 19/Lukas Aust mit derselben Rufnummer war beim Direktabruf 403; kein Beleg für Umzug oder Annahme. Der Betreiberauftritt in Kierspe bleibt ein anderer Ort/Kontakt. **Ankauf:** keine Remscheider Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Remscheider Tarife. Keine Felder/GEO geändert. Quellen/Leads: https://www.11880.com/branchenbuch/remscheid/120674719B102499798/aust-schrott-u-metalle-remscheid.html ; https://web2.cylex.de/firma-home/eisen-aust-10885374.html (403) ; https://schrott-aust.wixsite.com/schrott-aust .]
+
 ### Recherche 24.10.2026: zusätzlicher Remscheider Adresslead
 
 - [Recherche 24.10.2026: Die 11880-Detailseite direkt erneut gelesen: Kimmenauer Weg 13, 42897 Remscheid und 01578 8862400; Eintragsdaten 30.12.2022, Profilaktualisierung 03.10.2026, keine Website und keine Öffnungszeiten. Ein Suchtreffer zum Cylex-Profil „EISEN AUST“ nennt dagegen Kipperstr. 19, Remscheid, Lukas Aust und 0157 88862400 (gleiche Rufnummer, anders gruppiert); der Direktabruf von Cylex lieferte 403. Das ist ein neuer, nicht verifizierter Adress-/Namenslead, kein unabhängiger Betreiber- oder Annahmebeleg. Die separate Wix-Seite betrifft ausdrücklich Kierspe und eine andere Nummer. Keine Adresswahl, Zusammenführung oder Feldänderung. **Ankauf:** nicht Remscheid-belegt; **Verkauf:** keine Liste; **Gebühren:** keine Remscheid-Tarife. GEO-Kandidaten Kimmenauer Weg 13 und Kipperstr. 19 erst nach Identitäts-/Annahmeprüfung. Quellen: https://www.11880.com/branchenbuch/remscheid/120674719B102499798/aust-schrott-u-metalle-remscheid.html ; Cylex-Suchlead/Direktabruf 403: https://web2.cylex.de/firma-home/eisen-aust-10885374.html .]

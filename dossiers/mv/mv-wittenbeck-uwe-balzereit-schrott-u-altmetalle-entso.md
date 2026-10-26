@@ -30,6 +30,10 @@ Der frühere Northdata-Treffer **Uwe Balzereit, Raßnitz** im Umfeld B&B Sandstr
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: North-Data-Suchseite für „Uwe Balzereit Wittenbeck“ direkt gelesen. Die sichtbare Trefferliste zeigt als passenden Personentreffer „Uwe Balzereit, Raßnitz“ im Umfeld B&B Sandstrahltechnik; weitere Wittenbeck-Treffer betreffen Vereine, nicht den behaupteten Schrottbetrieb. Die Seite weist 29 Gesamttreffer aus, zeigt zunächst 15; dies ist daher kein vollständiger Register-/Gewerbenegativbeleg. Eine frische 11880-Suche nach Schrotthandel in Wittenbeck listet 15 Umkreistreffer, nicht den Seed-Betreiber. Identität, Annahme, Standort und Preise bleiben offen; kein Schluss auf Nichtexistenz/Schließung, keine Frontmatter-Füllung. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preisliste. Quellen: https://www.northdata.de/search?query=Uwe%20Balzereit%20Wittenbeck ; https://www.11880.com/suche/schrotthandel/wittenbeck .]
+
 ### Recherche 21.10.2026 — Ortsabgleich und Preisprüfung
 
 - [Recherche 21.10.2026: Die aktuelle 11880-Suche „Schrotthandel in Wittenbeck“ liefert 15 Treffer in der Umgebung, aber keinen exakten Eintrag für Uwe Balzereit/Wittenbeck; der nächstgenannte Betrieb liegt in Bartenshagen-Parkentin und ist nicht zuzurechnen. Suchergebnisse im Umkreis belegen weder Existenz noch Nichtexistenz des Seed-Betriebs. Kein Betreiber-/Register-/Behördenbeleg gewonnen; kein Schließungsschluss. ANKAUF: keine zuordenbare Preisliste; VERKAUF: keine Liste; GEBÜHREN: kein Tarif. Quelle (Verzeichnis-Suchroute): https://www.11880.com/suche/schrotthandel/wittenbeck]

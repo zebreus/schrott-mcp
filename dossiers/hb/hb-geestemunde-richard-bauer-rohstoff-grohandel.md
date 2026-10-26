@@ -24,13 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-Die offizielle BEG-Kontaktseite führt Richard Bauer Rohstoff-Großhandel GmbH & Co. KG am Weißenstein 2 in Bremerhaven, mit Telefon, E-Mail und Annahmezeiten. Sie beschreibt die Stelle ausdrücklich für Selbstanlieferung von Gartenabfällen sowie Reifenabgabe gegen Entgelt; damit ist eine **Gebühr** für Reifen belegt, aber weder deren Betrag noch ein Schrott-/Metallankauf oder eine Ankaufspreisliste. Kontakt- und Öffnungszeiten bleiben hier vorsichtshalber leer, da die BEG-Seite kein eigener Bauer-Auftritt ist. Status `pruefung` bleibt: Kundenannahme für Metallschrott ist nicht bestätigt.
+Die offizielle BEG-Kontaktseite führt Richard Bauer Rohstoff-Großhandel GmbH & Co. KG am Weißenstein 2 in Bremerhaven, mit Telefon, E-Mail und Annahmezeiten. Sie beschreibt diese Stelle ausdrücklich für Selbstanlieferung von Gartenabfällen sowie Reifenabgabe gegen Entgelt. Auf derselben Seite ist **Schrottannahme** einem anderen BEG-Wertstoffhof am Zur Hexenbrücke 16 zugeordnet; das ist kein Beleg für Metallannahme oder -ankauf am Bauer-Standort Weißenstein 2. Für Reifen ist eine **Gebühr** belegt, aber weder ihr Betrag noch ein Schrott-/Metallankauf oder eine Ankaufspreisliste. Kontakt- und Öffnungszeiten bleiben hier vorsichtshalber leer, da die BEG-Seite kein eigener Bauer-Auftritt ist. Status `pruefung` bleibt: Kundenannahme für Metallschrott ist nicht bestätigt.
 
 ## Timeline
 
 ### Nachprüfung 26.10.2026
 
 - [Nachprüfung 26.10.2026: Die offizielle BEG-Kontaktseite erneut direkt gelesen. Sie führt Richard Bauer Rohstoff-Großhandel GmbH & Co. KG am Weißenstein 2, 27574 Bremerhaven, 0471 186-700 und info@bauer-bhv.de; für die Stelle nennt sie Selbstanlieferung von Gartenabfall und Reifenabgabe gegen Entgelt, dazu Mo 07:00–18:30 und Di–Fr 07:00–15:30. Das bestätigt weder Metallschrottannahme noch Ankauf durch die Niederlassung. Reifenabgabe gegen Entgelt ist eine Gebühr ohne bezifferten Tarif; kein Ankaufkurs, Verkaufspreis oder Schrottgebühr ergänzt. Website bleibt leer, da dies die BEG-Partnerseite und kein eigener Bauer-Auftritt ist. Quelle: https://beg-bhv.de/kontakt .]
+- [Präzisierung 26.10.2026: Die BEG-Seite listet zusätzlich den separaten „Wertstoffhof Containerplatz“ Zur Hexenbrücke 16 mit Selbstanlieferung von Schrott. Das ist eine andere BEG-Annahmestelle und darf nicht auf Bauer/Weißenstein 2 übertragen werden. Für Bauer bleiben nur die dort ausdrücklich genannten Gartenabfall- und gebührenpflichtigen Reifenleistungen belegt; Reifengebühr ohne Betrag. Keine Metall-Ankaufspreise, Waren-Verkaufspreise oder bezifferten Entsorgungstarife gefunden. Quelle: https://beg-bhv.de/kontakt .]
 
 ### Recherche 02.10.2026
 

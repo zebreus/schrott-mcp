@@ -28,6 +28,10 @@ Die vorhandene Aktiv-Markierung war durch die heutige Prüfung nicht belegbar un
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: 11880 und LokaleSchrottplatz direkt geprüft. 11880 führt Rathendorf 64 als Narsdorf, 04657; LokaleSchrottplatz als Geithain und zeigt dynamisch „geschlossen/öffnet morgen“. Ortskonflikt und fehlender Betreiberbeleg bleiben, der Portalstatus ist kein Schließungsbeweis. Die auf der Portalseite sichtbare generische Material-/Mindestmengenliste (u.a. Eisen ab 100 kg, NE-Metalle ab 1 kg) erscheint auch bei sachfremden Händlerprofilen und ist nicht als Driessen-spezifische Annahmebedingung verifiziert; sie ist jedenfalls keine Preisliste. Keine Adresse, Zeiten oder GEO übernommen. ANKAUF: keine Zielkurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen/Leads: https://www.11880.com/branchenbuch/narsdorf/060440459B114036899/schrotthandel-a-t-driessen.html ; https://lokaleschrottplatz.de/schrotthandel-at-driessen/ ; Vorlagenvergleich: https://lokaleschrottplatz.de/tus-schrott-metalle/ ; https://lokaleschrottplatz.de/f-weber-schrotthandel/ .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Erneute Suche bestätigt den ungelösten Ortskonflikt: 11880 führt „Schrotthandel A&T Driessen“, Rathendorf 64, 04657 Narsdorf, während die bereits dokumentierte LocalSchrottplatz-Seite Rathendorf 64 Geithain zuordnet. Kein erreichbarer Betreiberauftritt, kein aktueller Gewerbe-/Registerbeleg und keine unabhängige Bestätigung der Materialannahme gefunden; die Suchtreffer zu Preisen/Öffnungszeiten sind keine belastbare aktuelle Betreiberquelle. Status bleibt `pruefung`; keine Felder und kein GEO-Punkt geändert. **Ankauf/Verkauf/Gebühren:** keine qualifizierten Preislisten oder Tarife. Quellen (Leads): https://www.11880.com/branchenbuch/narsdorf/060440459B114036899/schrotthandel-a-t-driessen.html ; https://lokaleschrottplatz.de/schrotthandel-at-driessen/ .]

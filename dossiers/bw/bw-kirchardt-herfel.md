@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt identifiziert Herfel Autoverwertung e.K. im Impressum mit HRA 729160 und listet getrennte Standorte in Kirchardt (Industriestraße 40) und Abstatt (Rauheckstraße 2); NorthData führt dieselbe Firma und Registerkennung. Die Seite ist erreichbar, kündigt aber einen Webseitenumbau an. Sie bezeichnet ein verlinktes Zertifikat als aktuell, während das direkt gelesene Dokument von 2020 tatsächlich nur bis 07.08.2021 gültig war. Deshalb ist der heutige Zertifizierungsstatus offen; kein Frontmatter-Fill und `pruefung` bleibt. Die Website bewirbt Altfahrzeugannahme/-entsorgung und kostengünstigen Verkauf gebrauchter Teile, aber keine Zahlenpreise. **Ankauf:** keine bezifferten Fahrzeug-/Metallkurse. **Verkauf:** keine Teilepreisliste. **Gebühren:** keine Tarife; aus Annahme/Entsorgung folgt kein kostenloser Service.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die wieder lesbare Betreiberwebsite nennt Kirchardt, Industriestraße 40, 74912 (07266 91431-38) und Abstatt, Rauheckstraße 2, 74232 (07062 978371), mit gemeinsamer Zeitenangabe Mo–Fr 08:00–12:00/13:00–17:00 und Sa 08:00–13:00. Das Impressum identifiziert Mario Herfel, Herfel Autoverwertung e.K., Kirchardt, HRA 729160, AG Stuttgart; NorthData führt dieselbe Rechtsträger-/Registerkennung und den Abstatt-Filialhinweis. Die Startseite sagt „Wir bauen unsere Webseite um“ und bewirbt Altautoannahme/-entsorgung sowie gebrauchte Ersatzteile „kostengünstig“, ohne Preisblatt. Wichtige Zertifikatsabweichung: Der Betreiber nennt den Link „aktuelles Zertifikat“, aber das verlinkte Zertifikat Nr. 290313014 / ZZHT003006945003 wurde am 18.03.2020 ausgestellt und nennt als Ablaufdatum 07.08.2021; ein aktueller Nachweis ist damit nicht belegt. Keine Frontmatter-Übernahme, keine Geokodierung und keine Zertifizierung als aktuell behauptet. ANKAUF: keine Zahlenkurse; VERKAUF: keine Teilepreisliste; GEBÜHREN: keine bezifferten Entsorgungs-/Annahmetarife. Quellen: https://www.herfel-autoverwertung.de/ ; https://www.herfel-autoverwertung.de/impressum/ ; https://www.herfel-autoverwertung.de/page2019/wp-content/uploads/2020/07/ZZHT003006945003_EFB-Zertifikat_Herfel-Autoverwertung-e.K.pdf ; https://www.northdata.de/Herfel%20Autoverwertung%20e%C2%B7%20K%C2%B7,%20Kirchardt/Amtsgericht%20Stuttgart%20HRA%20729160 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

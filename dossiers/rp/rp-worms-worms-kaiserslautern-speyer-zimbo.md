@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed-Name „Worms/Kaiserslautern/Speyer: Zimbo“ und die Angabe „Nordendstr.“ belegen weder einen Betreiber noch die drei behaupteten Orte. In der aktuellen exakten Namens-/Ortsrecherche fand sich keine belastbare Anbieter- oder Registerzuordnung; kein Fill, Status `pruefung`.
+Der Seed-Name „Worms/Kaiserslautern/Speyer: Zimbo“ und die Angabe „Nordendstr.“ belegen weder einen Betreiber noch drei Standorte. Ein am 26.10.2026 direkt gelesener 11880-Eintrag ist ein neuer, engerer Lead: „Schrotthandel Zimbo“, Nordendstr. (ohne Hausnummer), 67547 Worms, 0176 66951893, Kategorie Altmetallrecycling. Das Profil führt Eintragsdaten vom 01.10.2023 und eine Portalaktualisierung am 17.10.2026. Es bleibt ein einzelner Aggregatorbeleg; weder Rechts-/Betreiberidentität noch die Kaiserslautern-/Speyer-Verbindung sind damit bewiesen. Kein Fill, Status `pruefung`.
 
 **Preise:** ANKAUF: keine nachweisbaren Preise oder Annahmebedingungen. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Neuer 11880-Treffer „Schrotthandel Zimbo“ direkt geöffnet: Nordendstr. (keine Hausnummer), 67547 Worms, 0176 66951893, Kategorie Altmetallrecycling; Wochentage mit Portalöffnungszeiten, kein Website-/Impressumslink und keine Preise. 11880 datiert den Datenbestand auf 01.10.2023 und die Portalaktualisierung auf 17.10.2026. Die räumlich passende Namens-/Straßenspur ist ein relevanter Kandidatenlead, aber keine qualifizierte Betreiber- oder Registerbestätigung; sie verbindet den Seed nicht mit Kaiserslautern oder Speyer. Frühere Suchleere bleibt als damaliger Befund erhalten und ist durch diesen neuen Portal-Treffer zu aktualisieren. ANKAUF: keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Frontmatter-Änderung oder GEO. Quelle: https://www.11880.com/branchenbuch/worms/060440092B112931110/schrotthandel-zimbo.html .]
 
 ### Recherche 21.10.2026
 

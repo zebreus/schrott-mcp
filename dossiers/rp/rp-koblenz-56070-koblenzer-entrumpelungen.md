@@ -29,6 +29,10 @@ Der generische Seed „Koblenzer Entrümpelungen“ (56070) ist weiterhin keinem
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Profil „Koblenzer Entrümpelungen Schrotthandel“ erneut direkt gelesen: Karl-Russell-Str. 54, 56070 Koblenz-Lützel, 0163 4098013 und Portalöffnungszeiten täglich 08:00–20:00. Daneben wurden die aktuellen Seiten des Betreibers „Koblenzer Schrotthandel“ erneut gelesen: Impressum Karin Reinhardt, Am Metternicher Bahnhof 18, 56072 Koblenz; Ankauf nach Börsen-/Tageskurs ohne bezifferte Kurse, Annahme ab dem ersten Kilogramm; Containerdienst-/Mietseite ohne Preisblatt. Die unterschiedliche Bezeichnung/Adresse/PLZ löst die Identität nicht auf; weder die Portalzeiten noch Betreiberpreise, Annahmebedingungen oder Containerwerbung dem Seed zugeordnet. ANKAUF/VERKAUF/GEBÜHREN des Seeds bleiben unbelegt. Quellen: https://www.gelbeseiten.de/gsbiz/3cbd8b33-de34-4481-9291-37719293ca83 ; https://www.koblenzer-schrotthandel.de/impressum/ ; https://www.koblenzer-schrotthandel.de/schrottplatz-ankauf/ ; https://www.koblenzer-schrotthandel.de/containerdienst/ .]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.3540143, 7.5774000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

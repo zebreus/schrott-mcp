@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Klärfall. Der Creditreform-Suchindex führt „Manfred Leißner Abfallentsorgung & Transporte“ als Gewerbebetrieb in Gröningen; der direkte Abruf war nicht möglich (403), eine aktuelle Betreiberquelle oder unabhängige Bestätigung fehlt. Der bisherige Telefon-/Schrottbezug bleibt unbestätigt. Keine belastbare Ankauf-, Verkaufs- oder Gebührenliste; ohne bestätigte Anschrift keine Geokodierung.
+Klärfall. Der Creditreform-Suchindex führt „Manfred Leißner Abfallentsorgung & Transporte“ als Gewerbebetrieb in Gröningen; der direkte Abruf war nicht möglich (403), eine aktuelle Betreiberquelle oder unabhängige Bestätigung fehlt. Gelbe Seiten und Das Örtliche nennen zwar Schöneckstraße 2 und dieselbe Seed-Telefonnummer, bleiben aber Branchenverzeichnis-Leads; Containerdienst belegt nicht automatisch Schrottankauf. Der bisherige Telefon-/Schrottbezug bleibt unbestätigt. **Ankauf:** keine bestätigte Annahme oder Kurse. **Verkauf:** keine dem Seed zurechenbare Liste; STRABAG-Baustoffe sind ein separater Anbieter. **Gebühren:** keine Tarife belegt. Ohne bestätigte Anschrift keine Geokodierung.
 
 ## Timeline
 

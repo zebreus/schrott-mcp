@@ -32,6 +32,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Betreiber-Impressum und Schrottankaufseite des recherchierten ASR in Coswig (Anhalt) direkt erneut gelesen. Sie beschreiben kostenlose Annahme bestimmter Metallschrotte/Batterien/brauchbarer Reifen und Auszahlung des errechneten Schrottpreises ohne numerische Sortenkurse; gebrauchte Teileangebote und die dort genannten Preisbeispiele gehören ebenfalls nur zu diesem Anhalter Betreiber. Kleine Gebühren für Schrottreifen/Altöl bleiben unbeziffert. Diese Seiten belegen weiterhin keine Verbindung zur Sachsen-Seedzeile `SN/Coswig`; keine Preise, Kontakte oder Identität übertragen, keine Merge-/State-/GEO-Änderung. ANKAUF: keine Zahlenkurse für das Seed; VERKAUF: keine dem Seed zurechenbare Liste; GEBÜHREN: keine dem Seed zurechenbaren Tarife. Quellen: https://www.autoneuteile.de/impressum.html ; https://www.autoneuteile.de/schrottankauf.html ; https://www.autoneuteile.de/neu-gebrauchtteileverkauf.html .]
+
 ### Recherche 17.10.2026 — Welle 2100 C
 
 - [Recherche 17.10.2026: Impressum und Schrottankaufseite direkt erneut gelesen. Impressum führt ASR GmbH & Co. KG, Fichtenbreite 1, 06869 Coswig, Registergericht Stendal, HRA 5528 und zusätzlich HRB 24922; daraus keine zweite Betriebsstätte oder andere Seed-Identität ableiten. Schrottseite bezeichnet den Betrieb ausdrücklich als Schrottplatz Sachsen-Anhalts. ANKAUF: kostenlos angenommene Metallschrotte/Batterien/brauchbare Reifen und sofortige Barauszahlung des errechneten Schrottpreises, keine Zahlenkurse; das sachlich falsche Betreiberwort Edelmetalle wie Kupfer nicht als Materialklassifikation übernehmen. VERKAUF: auf diesen beiden heute gelesenen Seiten keine Teilepreisprüfung, historische Teilepreise bleiben Vorrecherche. GEBÜHREN: Schrottreifen/Altöl mit kleinen Gebühren ohne Betrag. Owner-Grenze 15.10. unverändert: SN-Provenienz nicht aufgelöst, kein Fill/Merge/GEO und kein Eingriff in vorhandene DB-Koordinaten. Offen: Ursprung der sächsischen Seedzeile. Quellen: https://www.autoneuteile.de/impressum.html ; https://www.autoneuteile.de/schrottankauf.html .]
