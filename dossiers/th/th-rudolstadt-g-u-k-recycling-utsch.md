@@ -12,6 +12,7 @@ opening_hours: 'Mo–Fr 08:00–15:30 (Anlieferung nach Anmeldung)'
 website: https://recycling-utsch.de/
 website_status: aktiv
 status: aktiv
+clear_fields: 'geo'
 description: 'Entsorgungsfachbetrieb für Altreifen und Altgummi; Selbstanlieferung nach vorheriger Anmeldung/Angebotsbestätigung sowie Abholung.'
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +28,10 @@ provenance_origin: table
 Der aktuelle Betreiberauftritt identifiziert **G & K Recycling Utsch**, Inhaber Thomas Utsch, HRA 200995 AG Jena, am Gewerbepark 4, 07407 Rudolstadt. Der Entsorgungsfachbetrieb übernimmt Altreifen aller Fraktionen und Alt-/Industriegummi, per Selbstanlieferung nach Anmeldung und bestätigtem Angebot oder per Abholung. **Ankauf:** kein Ankaufspreis oder Vergütungsangebot veröffentlicht; die Annahme erfolgt auf Angebots-/Abrechnungsbasis. **Verkauf:** wiederverwendbare Reifen werden aussortiert, aber keine Verkaufspreise veröffentlicht. **Gebühren:** kein allgemeiner Tarif; zusätzliche Sortier-/Entsorgungsgebühr kann nach vorheriger Absprache für nicht angemeldete problematische Fraktionen anfallen. Bei Containern können ab der 8. Woche 120 €/Kalendermonat berechnet werden. Anlieferzeiten Mo–Fr 08:00–15:30. Neue Geschäftsadresse geokodieren; vor Anlieferung anmelden.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only-Abgleich von `public.db` zeigt weiterhin 50.7204, 11.3405. Die frische Nominatim-Reverse-Abfrage löst den Punkt auf einen Fahrradständer am Markt in Volkstedt auf, nicht auf den durch Betreiberbedingungen identifizierten Recyclingbetrieb im Gewerbepark 4. Ein genau bestätigter Einfahrtspunkt liegt nicht vor. `clear_fields: 'geo'` zieht den falschen Produktionspunkt beim nächsten regulären Seed zurück; kein Ersatzpunkt abgeleitet. Das ist keine Schließungsaussage. Quellen: https://nominatim.openstreetmap.org/reverse?lat=50.7204&lon=11.3405&format=jsonv2&zoom=18&addressdetails=1&extratags=1 ; https://www.openstreetmap.org/node/6611943933 ; https://www.openstreetmap.org/way/164787990 ; [Owner-GEO-Bericht](../../research/wave-20261021-0900-geo-th.md).]
 
 ### Quellen-/Ankaufprüfung 26.10.2026
 

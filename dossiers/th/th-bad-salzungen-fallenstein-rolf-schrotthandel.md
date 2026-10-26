@@ -12,6 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
+clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +28,10 @@ provenance_origin: table
 Mehrere Verzeichnis-Leads wiederholen Schulweg 22, 36433 Moorgrund-Witzelroda und Telefon 03695 84624, aber weder Betreiberwebsite noch Register- oder Gewerbebeleg bestätigen Identität und aktuelle Anschrift. Diese nicht unabhängig belegten Werte werden deshalb nicht im Frontmatter geführt; „Bad Salzungen“ bleibt als übergeordneter Ortswert. Ankauf, Verkauf und Gebühren sind nicht belegt. Status `pruefung`; kein Geocoding als bestätigter Annahmepunkt.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only-Abgleich von `public.db` zeigt weiterhin den Punkt 50.8134, 10.2361. Die frische Nominatim-Reverse-Abfrage löst ihn auf ein Wohngebäude, Michaelisstraße 2, Wildprechtroda auf; ein Betreiberbezug ist nicht belegt. Der Produktions-Straßenwert Schulweg 22 stammt nur aus Verzeichnis-Leads; das Dossier führt Straße und PLZ bereits leer. Die geänderte Seed-Direktive `clear_fields: 'geo'` veranlasst beim nächsten regulären Seed die Rücknahme des falschen GEO-Punkts und aufgrund der leeren Kernadresse auch das Entfernen des alten Straßenwerts. Kein Ersatzpunkt abgeleitet; keine Aussage über Schließung. Quellen: https://nominatim.openstreetmap.org/reverse?lat=50.8134&lon=10.2361&format=jsonv2&zoom=18&addressdetails=1&extratags=1 ; https://www.openstreetmap.org/way/217747859 ; [Owner-GEO-Bericht](../../research/wave-20261021-0900-geo-th.md).]
 
 ### Owner-GEO-Prüfung 21.10.2026
 

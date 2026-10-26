@@ -12,6 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
+clear_fields: 'geo'
 description: 'Registergegenstand: Recycling sonstiger Altmaterialien und Reststoffe; heutige öffentliche Annahme nicht bestätigt.'
 dropoff_json: ''
 pickup_json: ''
@@ -27,6 +28,10 @@ provenance_origin: table
 Ein Abgleich mit Registerdaten-Mirrors identifiziert die genaue Firma als **GÖREC Gölz Recycling UG (haftungsbeschränkt)**, HRB 505015 AG Jena, Anschrift Windmühlenstraße 24, 99869 Friemar; eingetragener Gegenstand ist Recycling sonstiger Altmaterialien und Reststoffe. Die zuvor dokumentierte Website-Zuordnung ist nicht belastbar: goelz-entsorgung.de nennt im eigenen Impressum die rechtlich andere **Gölz Entsorgung GmbH**, HRB 7621 AG Erfurt, an derselben Anschrift. Deshalb sind Website, aktuelle Betriebsaktivität und öffentliche Annahme der UG nicht bestätigt. Kein UG-spezifischer Ankauf, Warenverkauf oder Gebühren-/Preiskatalog belegt. Anschrift nicht als öffentlichen Recyclinghof geokodieren, bis die Betreiberzuordnung geklärt ist.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only-Abgleich von `public.db` zeigt weiterhin 50.977, 10.7885. Die frische Nominatim-Reverse-Abfrage löst diesen Punkt auf 2, Goethestraße, Friemar auf; der Eintrag liegt nicht an einer der GÖREC-UG zugeordneten Anlage. Der Recyclinghof Windmühlenstraße 24 ist laut Betreiber-Impressum der rechtlich anderen Gölz Entsorgungs GmbH zugeordnet. `clear_fields: 'geo'` zieht den nicht zugeordneten Produktionspunkt beim nächsten regulären Seed zurück; kein Ersatzpunkt abgeleitet. Das ist keine Schließungsaussage. Quellen: https://nominatim.openstreetmap.org/reverse?lat=50.977&lon=10.7885&format=jsonv2&zoom=18&addressdetails=1&extratags=1 ; https://www.openstreetmap.org/node/3231509277 ; https://www.goelz-entsorgung.de/Rechtliches/Impressum/ ; [Owner-GEO-Bericht](../../research/wave-20261021-0900-geo-th.md).]
 
 ### Owner-GEO-Prüfung 21.10.2026
 
