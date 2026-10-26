@@ -33,6 +33,21 @@ Ein aktueller Telefonbuchtreffer nennt Michael Lorenz, Welbslebener Chaussee 2, 
 
 ## Timeline
 
+### Owner-GEO-Nachprüfung 26.10.2026
+
+- [Owner-GEO-Nachprüfung 26.10.2026: Read-only `public.db` bestätigt für
+  `st-aschersleben-lorenz` weiter den Punkt 51.7574/11.4608 bei Status
+  `pruefung`; Straße, PLZ, Kontakt und Annahme bleiben leer. Die aktuelle
+  Nominatim-Rückwärtssuche führt den Punkt zum [OSM-Way 13b Herrenbreite](https://www.openstreetmap.org/way/199333782),
+  einem als `apartments` erfassten Wohngebäude. Der vorhandene Dossierstand
+  belegt keine Lorenz-Identität oder Geschäftsadresse in Aschersleben; weder
+  der historische Westdorf-Artikel von 2004 noch ein Telefonbuch-Lead ordnet
+  diesen Altpunkt dem Autoverwerter zu. `clear_fields: geo` bleibt daher
+  angemessen; kein Ersatzpunkt und keine Zuordnung zu ISR oder der separaten
+  Schrott- und Metallhandelsgesellschaft am selben Ort. Quelle: Read-only
+  `public.db` (26.10.2026); [Nominatim-Reverse](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.7574&lon=11.4608&zoom=18&addressdetails=1);
+  [OSM-Way](https://www.openstreetmap.org/way/199333782).]
+
 ### GEO-Prüfung 22.10.2026
 
 - [GEO-Prüfung 22.10.2026: Die read-only Produktionszeile `st-aschersleben-lorenz` enthielt 51.7574, 11.4608. Nominatim-Reverse löst diesen Punkt auf ein Wohnhaus an der Herrenbreite 13b (OSM-Way 199333782); das Lorenz-Dossier hat keine verifizierte Geschäftsadresse oder Betreiberidentität. Der identitätslose Punkt wird deshalb mit `clear_fields: geo` beim regulären Seed entfernt. Keine Ersatzkoordinate und keine Produktionsschreiboperation. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.7574&lon=11.4608&zoom=18&addressdetails=1 ; https://www.openstreetmap.org/way/199333782 .]

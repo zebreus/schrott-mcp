@@ -12,7 +12,7 @@ email: ''
 opening_hours: ''
 website: https://suedpfalzmetall-gmbh.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -25,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite „Südpfalz Metall“ nennt Am Bellensee 6, 76865 Rohrbach, Telefon +49 176 24226146, info@suedpfalzmetall-gmbh.de und Mo–Fr 08:00–12:00/13:00–16:00. Sie beschreibt einen „Schrottplatz“, wirbt mit Ankauf von Privatpersonen, Unternehmen und Industriebetrieben sowie Abholung und Containern. Das ist ein Betreiber-Signal für einen kundenorientierten Standort, aber kein unabhängiger Nachweis, dass der rechtliche Betreiber mit der seedbenannten **Südpfalz Metall GmbH** identisch ist: Das Impressum nennt Janneck Knecht und HRB 33727, AG Landau, jedoch keinen Firmennamen; eine unabhängige Registerbestätigung fehlt. Deshalb bleiben Anschrift, Kontakte und öffentliche Annahme in den strukturierten Feldern ungefüllt. „Faire Preise“ ohne Zahlen; keine Verkaufs- oder Gebührenliste.
+Die Betreiberwebsite „Südpfalz Metall“ bewirbt einen Schrottplatz in Rohrbach und nennt Am Bellensee 6, Telefon +49 176 24226146, info@suedpfalzmetall-gmbh.de sowie Öffnungszeiten. Ihr Impressum nennt Janneck Knecht und HRB 33727, aber keinen Firmennamen. Der aktuelle Registerabdruck ordnet HRB 33727 der MBK Mietservice GmbH an genau dieser Anschrift und mit Janneck Knecht als Geschäftsführer zu; der eingetragene Unternehmensgegenstand ist jedoch der Verleih und Verkauf von Baumaschinen. Damit besteht eine starke Personen-/Adress-/Registerverbindung, aber keine bestätigte rechtliche Zuordnung des beworbenen Schrottbetriebs zur Seed-Entität **Südpfalz Metall GmbH**. `status: pruefung`; Anschrift, Kontakte und Annahme bleiben strukturiert ungefüllt, `clear_fields: 'dropoff_json,geo'` bleibt angemessen. Die erreichbare Website ist kein unabhängiger Betriebsnachweis. „Faire Preise“ ohne Zahlen; keine Verkaufs- oder Gebührenliste.
 
 ## Timeline
+
+### Owner-Audit 26.10.2026: HRB-Identität widerspricht Seedname
+
+- [Owner-Audit 26.10.2026: Der aktuelle Registerabdruck AG Landau, HRB 33727 (Abruf 26.10.2026, 10:39), führt nicht „Südpfalz Metall GmbH“, sondern MBK Mietservice GmbH, Geschäftsanschrift Am Bellensee 6, 76865 Rohrbach bei Landau, Unternehmensgegenstand Verleih und Verkauf von Baumaschinen, Geschäftsführer Janneck Hieronymus Mata Knecht; letzter Registereintrag 03.07.2023. Eine Registersuche nach dem exakten Firmennamen „Südpfalz Metall GmbH“ bei AG Landau ergab 0 Treffer. Die Betreiberwebsite nennt im Impressum denselben HRB-Wert, Janneck Knecht und dieselbe Adresse, aber keinen Firmennamen. Das belegt eine Personen-/Adress-/Registernummernverbindung zu MBK, nicht die rechtliche Zuordnung oder unabhängige Bestätigung des beworbenen Schrottbetriebs; die registerliche Tätigkeit passt nicht zum Schrottangebot. Deshalb `status` von `aktiv` auf `pruefung` zurückgenommen (Identitäts-/Betriebsprüfung, keine Schließungsbehauptung). Die Gemeindeseite Rohrbach listet ausgewählte Betriebe des Gewerbegebiets, nicht Südpfalz Metall; sie sagt zugleich „und viele mehr“ und ist daher weder Vollregister noch Negativbeleg. `clear_fields: 'dropoff_json,geo'` bleibt angemessen: keine bestätigte Annahme für den Seed-Rechtsträger und kein belegter Ersatzpunkt; Adresse/Kontakte bleiben ungefüllt. `website_status: aktiv` beschreibt nur die erreichbare Website. Keine Produktionsdaten abgefragt oder geändert. Quellen: https://www.handelsregister.de/rp_web/erweitertesuche/welcome.xhtml (AG Landau, HRB 33727; aktueller Abdruck und exakte Firmensuche); https://suedpfalzmetall-gmbh.de/ ; https://suedpfalzmetall-gmbh.de/impressum ; kommunaler, nicht abschließender Gewerbeüberblick: https://www.rohrbach-pfalz.de/wirtschaft/gewerbegebiet/ (Abruf 26.10.2026).]
 
 ### Owner-GEO-/Annahme-Korrektur 24.10.2026
 

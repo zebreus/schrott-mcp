@@ -1,6 +1,6 @@
 ---
 slug: nw-ruhrgebiet-nrw-schrotthandel-nrw-klungelskerle-0163
-clear_fields: 'geo'
+clear_fields: 'dropoff_json,geo'
 name: Schrotthandel NRW / Klüngelskerle (0163)
 trader_type: schrotthaendler
 state: NW
@@ -11,7 +11,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://schrotthandel.nrw
-website_status: 'blockiert'
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -25,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Mobiler NRW-Schrottankauf ist über Seed und Suchindex angedeutet, die Betreiber-/Seedidentität bleibt ungeklärt. Eine neu direkt gelesene 11880-Seite zu **Schrotthandel.nrw** nennt Lohrheidestr. 156, 44866 Bochum, 0163 4630051, info@schrotthandel.nrw und Mo–Sa 07:00–19:00. Das passt zu einem der bisherigen Telefonleads und zur Zieldomain, bleibt aber ein Verzeichnisdatensatz; Betreiberbezug und aktuelle Einsatz-/Betriebsadresse sind nicht unabhängig bestätigt. Die Zieldomain liefert im Review am 18.10.2026 Root 403 und relevante Unterseiten 404; daraus allein folgt kein Urteil über den Geschäftszustand. Die separate Domain nrw-schrott.de nennt Tarek El-Lahib und Robertstraße 70; ihre Verbindung zur Zieldomain ist nicht belegt, ebenso wenig ein verschiedener Betreiber. Keine Kontaktdaten oder Serviceversprechen übertragen. Für den Zielbetrieb: **Ankauf** nur als Werbe-/Verzeichnislead, ohne verifizierte Kurse; **Verkauf** ohne Preisliste; **Gebühren** ohne überprüfbare Tarifangabe. Status `pruefung`, website_status weiter `blockiert`.
+Mobiler NRW-Schrottankauf wird jetzt direkt auf der erreichbaren Zieldomain beworben. Der aktuelle Auftritt nennt 0163 4694319 und info@schrotthandel.nrw; das Impressum nennt „Schrotthandel.nrw / EL-Lahib“ und Vorstadtstraße 65, Bochum, jedoch weder vollständigen Vornamen noch Rechtsform. Die Kontaktseite zeigt 4694319, enthält im HTML aber zusätzlich einen unbeschrifteten `tel:`-Link zu 0163 4630051; auch der frühere 11880-Lead nennt 4630051 und Lohrheidestr. 156. Betreiberbezug und Einsatz-/Betriebsadresse sind ungeklärt. Die separate Domain nrw-schrott.de mit Tarek El-Lahib und Robertstraße 70 wird nicht ohne belegte Betreiberkette zusammengeführt. `website_status: aktiv` beschreibt nur die technische Erreichbarkeit; wegen ungeklärter Betreiber-/Seedidentität bleibt `status: pruefung`. Keine Kontaktdaten oder Adresse in strukturierte Felder übernommen; `clear_fields: 'dropoff_json,geo'` nimmt die nicht belegte frühere Annahmezusage und den Punkt zurück. Für den Zielbetrieb: **Ankauf** ohne verifizierte Kurse; **Verkauf** ohne Preisliste; **Gebühren** ohne überprüfbare Tarifangabe.
 
 ## Timeline
+
+### Owner-Audit 26.10.2026: Website wieder direkt erreichbar
+
+- [Owner-Audit 26.10.2026: Root, Impressum, Kontakt und Schrottankauf von schrotthandel.nrw lieferten jetzt direkt lesbare Betreiberseiten; die frühere Einstufung `website_status: blockiert` war als technische Erreichbarkeitsangabe überholt und wird zu `aktiv` korrigiert. Der Auftritt nennt mobil NRW-weite Leistungen, 0163 4694319, info@schrotthandel.nrw und im Impressum „Schrotthandel.nrw / EL-Lahib“, Vorstadtstraße 65, 44866 Bochum; ein voller Vorname bzw. eine Rechtsform fehlen. Zusätzlich zur sichtbaren 0163 4694319 enthält die aktuelle Kontaktseite einen unbeschrifteten HTML-`tel:`-Link auf 0163 4630051; die Nummer steht auch im bisherigen 11880-Lead, der außerdem Lohrheidestr. 156 nennt. Das ist ein ungelöster Kontakt-/Adresskonflikt, keine Bestätigung der 11880-Adresse. Die separate nrw-schrott.de-Spur mit Tarek El-Lahib/Robertstraße 70 wird mangels Betreiberkette nicht zusammengeführt. `status: pruefung`, leere Adresse/Kontakte und `clear_fields: 'geo'` bleiben angemessen: die Website belegt kein stationäres Annahmegrundstück und keinen Punkt; keine Nummer übernommen. Keine Produktionsdaten abgefragt oder geändert. Quellen: https://schrotthandel.nrw/ ; https://schrotthandel.nrw/impressum ; https://schrotthandel.nrw/contact ; https://schrotthandel.nrw/schrottankauf ; Abgrenzung: https://nrw-schrott.de/impressum.html (Abruf 26.10.2026).]
+
+### Owner-Korrektur 26.10.2026: alte Annahmezusage zurücknehmen
+
+- [Owner-Korrektur 26.10.2026: Der read-only Produktionsdatensatz enthielt neben dem Punkt `51.58945/7.2035` noch `dropoff_json={"allowed":true}`. Die aktuelle Betreiberseite bewirbt einen mobilen NRW-weiten Abholservice und nennt Partner-Wertstoffhöfe als Ziel der abgeholten Materialien; sie belegt keinen eigenen öffentlichen Annahmestandort. Zusammen mit der weiterhin ungeklärten Betreiber-/Seedidentität trägt das die gespeicherte allgemeine Selbstanlieferungszusage nicht. Der Owner ergänzt `clear_fields: 'dropoff_json,geo'`; der nächste reguläre Seed setzt die Zusage auf unbekannt `{}` und entfernt den falschen GEO-Punkt, ohne `allowed:false`, Schließung oder eine Partnerannahme dem Seed-Händler zuzuschreiben. `website_status: aktiv` bleibt allein technische Erreichbarkeit, `status: pruefung` bleibt wegen der offenen Identität. Keine Produktionsdaten geändert. Quellen: Read-only `public.db` (26.10.2026); https://schrotthandel.nrw/ ; https://schrotthandel.nrw/schrottankauf ; https://schrotthandel.nrw/contact ; `docs/trader-seed.md`.]
 
 ### Owner-GEO-Korrektur 25.10.2026
 

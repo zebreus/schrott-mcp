@@ -31,6 +31,10 @@ Die Website identifiziert den Betreiber im Impressum als Schrottjungs UG, Hambur
 
 ## Timeline
 
+### Owner-Abgleich 26.10.2026
+
+- [Owner-Abgleich 26.10.2026: Direkter Recheck der München-Seite: Sie bewirbt Anlieferung, nennt dafür aber ausdrücklich Entel GmbH, Lerchenstraße 19, nicht eine eigene SchrottJungs-Adresse. Entels aktuelle eigene Website und ihr Impressum führen dort die separate Entel Container GmbH (HRB 93487 AG München), private/gewerbliche Anlieferung ab 0,5 m³ und eigene Hofzeiten. Das bestätigt `dropoff_json` als Partnerangebot; keine eigene Straße/PLZ und kein Ersatz-GEO aus Entels Standort ableiten. Der alte Produktionspunkt reverse-geocodiert erneut auf die Spielhalle an der Dachauer Straße (OSM-Knoten 5216471121); `clear_fields: geo` bleibt angemessen. Quellen: https://schrottjungs.de/schrottabholung-muenchen/ ; https://schrottjungs.de/impressum-datenschutz/ ; https://www.entel-container.de/ ; https://www.entel-container.de/impressum/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.1436973&lon=11.559808&zoom=18&addressdetails=1 .]
+
 ### Quellenprüfung 24.10.2026
 
 - [Recherche 24.10.2026: Entels eigene Homepage und Impressum direkt gegengeprüft: Entel Container GmbH, Lerchenstr. 19, 3. Reihe, 80995 München, HRB 93487 AG München; die Seite beschreibt private und gewerbliche Schrottanlieferung, auch ab 0,5 m³, mit eigenen Hofzeiten Mo–Fr 07:00–17:00 und Sa 09:00–14:00; konkrete Ankaufskurse auf Anfrage. SchrottJungs-München-Seite verweist auf diesen Anlieferort. Damit ist ein öffentlicher Partnerhof belegt, aber kein eigener SchrottJungs-Standort. Entel-Bedingungen/Preise nicht auf SchrottJungs übertragen; die bereits dokumentierten SchrottJungs-Großmengen-Richtpreise, Gebührenwidersprüche und Containerbedingungen bleiben getrennt. Kein eigenes GEO gesetzt; Lerchenstr. 19 nur Kandidat für den separaten Partnerstandort. Quellen: https://schrottjungs.de/schrottabholung-muenchen/ ; https://www.entel-container.de/ ; https://www.entel-container.de/impressum/ .]

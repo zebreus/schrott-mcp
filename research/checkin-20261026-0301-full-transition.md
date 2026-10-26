@@ -233,3 +233,134 @@ Produktions- und Seedstand und ihre Zahlen sind nicht auf diese Probe
   unverändert. Dies ist weiterhin nur eine private Daten-/Quellprobe, keine
   Release-Binary-/Serviceprobe und keine fachliche Freigabe der übrigen 305
   Zeilen. Kein Deployment und keine Produktionsänderung freigegeben.
+
+## Owner-Nachprüfung: Fritsch Hagen, 26.10.2026 09:36 UTC
+
+- Eine frische Read-only-Abfrage bestätigt, dass Produktion für
+  `nw-hagen-fritsch` noch den Punkt **51.90933/7.88825**, leere Straße/PLZ und
+  `status=pruefung` enthält. Der aktuelle Seed enthält dagegen **Ernst Jürgen
+  Fritsch GmbH**, Oeger Str. 63, 58119 Hagen, **51.3459700/7.5837325** und
+  `status=aktiv`. Vergleich der privaten Seed-JSON mit der Read-only-Zeile
+  ergibt 12 strukturell geänderte Felder: Name, Beschreibung, Straße, PLZ,
+  beide Koordinaten, Telefon, E-Mail, Öffnungszeiten, Website,
+  Website-Status und Händlerstatus.
+- Die live gelesenen Betreiberseiten bestätigen die einzelnen Änderungen:
+  [Kontakt](https://www.fritsch-hagen.de/index.php?pa=kontakt) nennt die
+  Gesellschaft, das ausdrücklich als Betriebsgelände/Büro bezeichnete
+  Grundstück Oeger Str. 63, Öffnungszeiten und Besuch; die
+  [Schrotthandelsseite](https://www.fritsch-hagen.de/index.php?pa=schrotthandel)
+  bestätigt Schrottankauf und Anlieferung mit geeichter Fahrzeugwaage; das
+  [Impressum](https://www.fritsch-hagen.de/index.php?pa=impressum) nennt HRB
+  7553, Gesellschaft, Adresse und Kontaktdaten. Der direkt gelesene
+  [NorthData-Eintrag](https://www.northdata.de/Ernst+J%C3%BCrgen+Fritsch+GmbH,+Hagen/Amtsgericht+Hagen+HRB+7553)
+  stimmt bei Rechtsträger, Register und Anschrift überein.
+- Das [OpenStreetMap-Gebäudeobjekt](https://www.openstreetmap.org/way/305239745)
+  ist als Oeger Straße 63, 58119 Hagen adressiert. Der aktuelle Nominatim-Punkt
+  **51.3459700/7.5837325** löst auf genau dieses Gebäude auf; der alte Punkt
+  wird auf Mehringen in Everswinkel aufgelöst. Das Ersatzpaar ist ein
+  Gebäudeadresspunkt, kein vermessener Eingang. Geocoder und OSM sind
+  Standortzuordnung, keine unabhängigen Betreiberbelege.
+- Owner-Disposition: Die Seed-Änderungen für diese eine strukturelle Zeile
+  tragen einschließlich des Status `aktiv`; das ist kein Produktionsrollout.
+  Damit verbleiben **304** der zuvor offenen 305 strukturellen Zeilen. Die
+  Produktionszeile bleibt unverändert und falsch; es gab weder direkten
+  Datenbankzugriff mit Schreibrechten noch Deploy.
+
+## Owner-Nachprüfung: fünf weitere GEO-Rücknahmen, 26.10.2026 09:40 UTC
+
+- Fünf weitere strukturelle Übergangszeilen wurden anhand der Dossier-Diffs,
+  der neuesten privaten Seed-JSON und read-only Produktionswerten gegengeprüft;
+  die fünf Timelines wurden einzeln owner-reviewed. Die **GEO-Clears tragen**:
+  SchrottJungs München verweist für die belegte Anlieferung ausdrücklich auf
+  den getrennten Partnerhof Entel, nicht auf eine eigene Anschrift;
+  AK Containerdienst belegt Aschaffenburg als Liefergebiet, den Metallplatz
+  aber nur in Rödermark; ISR ist mit Annahme an der Wilslebener Straße 6
+  belegt; die Schrott- und Metallhandelsgesellschaft ist ein separater
+  Rechtsträger am Majoranweg 4. In Aschersleben werden die beiden Einträge
+  trotz eines geteilten falschen Alt-Pins nicht zusammengeführt. Für keinen
+  der fünf Fälle wurde ein Ersatzpunkt geraten.
+- Beim Malstatter Thomanek-Datensatz stand in Produktion zusätzlich zum falschen
+  GEO noch `dropoff_json={"allowed":true}`. Verifiziert sind nur widersprüchliche
+  Aggregator-Leads, kein aktueller Betreiber-/Annahmebeleg. Der Owner ergänzte
+  deshalb `clear_fields: 'dropoff_json,geo'`; der nächste reguläre Seed soll
+  `dropoff_json` auf unbekannt `{}` setzen und den Punkt löschen, ohne
+  `allowed:false` oder Schließung abzuleiten. Die vorangegangene
+  Timeline-Unsicherheit bleibt als Recherchehistorie erhalten.
+- Für AK und die Ascherslebener GmbH war kein amtlicher aktueller
+  Registerauszug zugänglich; Registerangaben beruhen auf Betreiber-Impressum
+  bzw. Registerspiegel. Die städtische Suche lieferte für ISR keinen
+  unabhängigen kommunalen Betreiberbeleg; der alte SMS-Partnerlisteneintrag
+  ist kein Nachweis einer zweiten heutigen Gesellschaft oder einer Verschmelzung.
+  Alle fünf GEO-Rücknahmen bleiben Clears ohne Ersatzkoordinaten.
+- Vorbehaltlich der noch ausstehenden vollständigen privaten Re-Probe sind damit
+  **299** der 313 strukturellen Zeilen weiterhin offen (304 nach Fritsch minus
+  diese fünf Owner-disponierten Zeilen). Diese Zählung wird nach aktuellem
+  Seed-/Upgrade-Abgleich erneut validiert. Keine Produktionsdaten geändert,
+  kein Deployment.
+
+## Owner-Nachprüfung: Lorenz Aschersleben, 26.10.2026 09:43 UTC
+
+- Der vom Aschersleben-Audit benachbarte Datensatz `st-aschersleben-lorenz`
+  wurde separat geprüft: Produktion enthält im Status `pruefung` weiter nur den
+  alten Punkt **51.7574/11.4608**; die aktuelle Rückwärtssuche löst ihn auf das
+  als Wohngebäude (`apartments`) erfasste OSM-Objekt **13b Herrenbreite**.
+  Dossier, Betreiberidentität und Betriebsadresse bleiben ungeklärt; die
+  dokumentierten Westdorf-/Telefonbuch-Leads belegen keine Verbindung zum
+  Punkt. Der vorhandene GEO-Clear trägt, ohne Ersatzpunkt und ohne eine
+  Zusammenführung mit ISR oder der separaten Schrott- und Metallhandelsgesellschaft.
+- Damit sind **298** der 313 strukturellen Zeilen weiterhin offen; der Zähler
+  ist vorläufig und wird nach dem aktuellen privaten Seed-/Upgrade-Abgleich
+  bestätigt. Keine Produktionsdaten geändert, kein Deployment.
+
+## Owner-Nachprüfung: vier NRW/RP-Dossiers und frische Übergangsprobe, 26.10.2026 09:56 UTC
+
+- Die vier zuletzt bearbeiteten Dossiers wurden owner-reviewed und mit
+  Read-only-Produktionswerten abgeglichen. **MS Metallhandel Hagen:** die
+  Betreiberseite belegt B2B-Ankauf, eigene Abholung und eine öffentliche
+  Fahrzeugwaage, aber keine Kunden-Selbstanlieferung; der gespeicherte
+  `dropoff_json={"allowed":true,"customer_types":["gewerbe"],...}` wird
+  deshalb zusätzlich zum falschen GEO mit `clear_fields` neutral auf `{}`
+  zurückgenommen. **Putzke Hagen:** Impressum und Metallankaufsseite der
+  Betreiberwebsite bestätigen FP Putzke Recycling GmbH, die Hagen-Adresse und
+  ausdrückliche Privat-/Gewerbeanlieferung; der Seedname ist auf den
+  Betreibernamen präzisiert, aber kein Ersatz-GEO aus der Straßenadresse
+  geraten. **Schrotthandel NRW/Klüngelskerle:** Root, Impressum, Kontakt und
+  Leistungsseite sind wieder direkt erreichbar; `website_status` wird daher
+  `aktiv`, während die unklare Betreiberidentität `status: pruefung` behält.
+  Der mobile Auftritt verweist auf Partnerhöfe und belegt keinen eigenen
+  Annahmestandort; das Produktions-`{"allowed":true}` wird gemeinsam mit dem
+  falschen GEO neutral gelöscht. **Südpfalz Metall Rohrbach:** die Website nennt
+  im Impressum Janneck Knecht und HRB 33727, ohne den Rechtsträger zu nennen;
+  der geprüfte Registerstand ordnet die Nummer der MBK Mietservice GmbH mit
+  abweichendem Unternehmensgegenstand zu. Daher `status: pruefung`, kein
+  rechtlicher Betreiber-Fill; vorhandene GEO-/Annahme-Clears bleiben. Es wurde
+  weder eine Schließung noch `allowed:false` abgeleitet.
+- Der aktuelle private Übergangsabgleich wurde nach diesen Änderungen frisch
+  auf zwei SQLite-Backupkopien aus einer ausschließlich lesend geöffneten
+  Produktionsquelle ausgeführt: Schema **v6 → v8**, Händler **3.893 → 3.936**,
+  **43 Inserts / 0 Deletes**, **313** vorhandene strukturell geänderte Zeilen.
+  Neue Feldzählung: `name` 26, `trader_type` 9, `street` 94, `postcode` 74,
+  `city` 18, `lat`/`lon` je 164, `phone` 63, `email` 38, `website` 46,
+  `opening_hours` 30, `status` 87, `description` 70, `dropoff_json` 31,
+  `pickup_json` 4 und `website_status` 57. Von den 313 strukturellen Zeilen
+  sind jetzt 19 einzeln owner-disponiert; **294** bleiben für das vollständige
+  fachliche Pre-Deploy-Gate offen. Alle **153** Geo-Clears stimmen mit
+  entfernten Koordinatenpaaren überein; weitere **11** Paare wurden ersetzt.
+  Der zweite Händlerseed schrieb **0** Zeilen.
+- Die private Probe ergab `integrity_check=ok` vor und nach Migration/Seed,
+  FTS5-Integritätsprüfung erfolgreich und **24** bereits vorhandene
+  `trader_materials`-FK-Verletzungen vor wie nach der Probe. Materialien
+  **83/83**, Preise **29.880/29.880**, aktuelle Preise **2.683/2.659** und
+  `trader_materials` **1.401/1.401**. Der bekannte Verlust von 24
+  Current-Preiszeigern betrifft die fünf Heraeus-Annahmen und autorisiert keine
+  Reparatur. Backupkopien und temporärer Probehelper wurden gelöscht; die
+  Produktionsdatenbank blieb unverändert.
+- Keine Deploymentfreigabe: die 294 strukturellen Zeilen sowie der vollständige
+  fachliche Source-/Seed-Audit und die Bindung an exakt geprüfte
+  Release-Binaries bleiben offen. Der erneut read-only ausgeführte
+  `verify-mkm-release.py` bleibt **post-rollout-rot** (60 Artikel, 55 numerisch,
+  5 Anfragen, 55 current; Partition 55/5 statt 56/5, Manifest nicht aus dem
+  neuesten Step-Fenster, geprüfte 61-Artikel-Partition weicht ab, kein
+  erfolgreicher 56-Preis-Lauf nach Rollout). Das ist weder Pre-Deploy-Gate noch
+  Deployment-Autorisierung. Kein Deployment, Force-Ingest, Produktionswrite
+  oder Dienstneustart.
