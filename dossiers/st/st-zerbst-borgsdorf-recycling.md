@@ -6,6 +6,8 @@ state: ST
 city: Zerbst/Anhalt
 street: Altbuchsland 18d
 postcode: '39261'
+lat: 51.9502617
+lon: 12.0900749
 phone: '+49 3923 786437'
 email: borgsdorf-recycling@t-online.de
 opening_hours: Mo-Fr 07:00-17:00; Sa 08:00-12:00
@@ -35,9 +37,13 @@ Das EFB-Dokument 801.0112/26 nennt Prüfung 17.06.2026, Ausstellung 18.06.2026 u
 
 Heutiger begrenzter read-only Abgleich nach Borgsdorf-Name/Domain, Altbuchsland/Kirschallee und Zerbst-Ort fand Jürgen Borgsdorf, Fachgroßhandel Metall Zerbst und Albert B., keinen passenden GmbH-Datensatz am Altbuchsland. Jürgen ist heute ohne Straße/PLZ gespeichert, Telefon 039248/424, `pruefung`; Lange Str. 18/39264 ist nur historischer Aggregator-Lead, kein aktueller Primärbeleg. Albert B. hat ebenfalls keine gespeicherte Anschrift. Jürgens Ausscheiden als GmbH-Geschäftsführer 2024 oder persönliche Ortsangaben Bornum/Bias beweisen keine Händler-/Standortidentität. Keine Zusammenführung oder Kontaktübertragung.
 
-Beide GEO-Felder fehlen: neuer Seed hätte NULL-Koordinaten. Technisch zulässig, aber weiterhin offenes Owner-Veröffentlichungsgate; keine Georecherche oder Anfahrtsempfehlung. Bei inzwischen vorhandener Zeile bleiben alte Punkte ohne Dossierpaar erhalten. `pruefung` wäre kein technischer Veröffentlichungsfilter. Keine Produktionseinfügung oder DB-/GEO-Änderung bereits erfolgt.
+**GEO:** 51.9502617, 12.0900749 ist der OSM-Repräsentationspunkt des Gebäudes mit der exakt passenden Anschrift Altbuchsland 18 D, 39261 Zerbst/Anhalt (Way 101502657). Die aktuelle Betreiber-Kontaktseite ordnet dort die Hauptniederlassung und den Wertstoffhof zu; die aktuelle Annahmeseite bestätigt private und gewerbliche Kunden. Damit ist der adressgenaue Gebäudepunkt für die bestätigte öffentliche Annahmestelle freigegeben. Er bezeichnet weder Einfahrt noch Waage oder Zugangspunkt; vor Anfahrt gelten Betreiberadresse und Kontakt, keine behauptete Navigation zum Tor.
 
 ## Timeline
+
+### GEO-Owner-Entscheidung 26.10.2026
+
+- [GEO-Prüfung 26.10.2026: Die aktuelle Betreiber-Kontaktseite ordnet Borgsdorf-Recycling GmbH, Hauptniederlassung und An-/Verkauf Wertstoffhof der Adresse Altbuchsland 18d, 39261 Zerbst/Anhalt zu; die aktuelle Annahmeseite sagt ausdrücklich, dass Firmen und Privatpersonen Wertstoffe anliefern können. Nominatim fand für Altbuchsland 18d genau einen OSM-Gebäudepunkt mit addr:housenumber 18 D, Straße, Ort und PLZ: Way 101502657, 51.9502617, 12.0900749. Dieser konkrete Gebäudepunkt wird eingetragen, aber nicht als Einfahrt oder Zufahrt ausgegeben. OSM-Objekt zuletzt geändert 29.11.2024; Nominatim-Abfrage und Betreiberseiten am 26.10.2026 gelesen. Quellen: https://www.borgsdorf-recycling.de/wp/kontakt/ ; https://www.borgsdorf-recycling.de/altstoffe/ ; https://nominatim.openstreetmap.org/search?street=Altbuchsland%2018d&city=Zerbst%2FAnhalt&postalcode=39261&country=Germany&format=jsonv2&addressdetails=1&limit=5 ; https://www.openstreetmap.org/way/101502657 ; https://www.openstreetmap.org/copyright ; Data © OpenStreetMap contributors, ODbL 1.0.]
 
 ### Review 18.10.2026
 
