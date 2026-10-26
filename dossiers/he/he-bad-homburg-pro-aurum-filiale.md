@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://www.proaurum.de/
 website_status: aktiv
 status: aktiv
-description: 'Filiale für An- und Verkauf von Anlageedelmetallen und Altgoldservice während der Öffnungszeiten.'
+description: 'Filiale für An- und Verkauf von Anlageedelmetallen. Altgoldservice an regulären Öffnungstagen; an verkaufsoffenen Samstagen kein Direktankauf von Altgold oder Schmuck zur Schmelze.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Feedback-Triage Audit 7
@@ -27,6 +27,10 @@ provenance_origin: feedback
 Öffentliche Filiale mit Edelmetallhandel und Altgoldservice. Am verkaufsoffenen Samstag wird laut Betreiber kein Direktankauf von Altgold zur Schmelze angeboten.
 
 ## Timeline
+
+### Owner-Nachprüfung 26.10.2026
+
+- [Owner-Nachprüfung 26.10.2026: Die aktuelle Standortseite bestätigt den Altgoldservice während regulärer Öffnungszeiten und stellt ausdrücklich klar, dass an verkaufsoffenen Samstagen kein Direktankauf von Altgold oder Schmuck zur Schmelze erfolgt. Die präzisierte Beschreibung verhindert, dass die Ausnahme im strukturierten Seedtext verloren geht. Quelle: https://www.proaurum.de/unternehmen/standorte/bad-homburg/ ; https://www.proaurum.de/leistungen/altgoldservice-und-goldankauf/]
 
 ### Recherche 12.10.2026 (Feedback-Triage IDs 5118/5725/6346)
 

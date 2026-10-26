@@ -3,16 +3,16 @@ slug: be-charlottenburg-wilmersdorf-pro-aurum-filiale-berlin
 name: pro aurum GmbH Filiale Berlin
 trader_type: sonstige
 state: BE
-city: Charlottenburg-Wilmersdorf
+city: Berlin
 street: Hardenbergstraße 8
 postcode: '10623'
 phone: +49 30 450 86 41-0
-email: ''
-opening_hours: ''
-website: https://www.proaurum.de/
+email: berlin@proaurum.de
+opening_hours: 'Mo-Fr 10:00-18:00; Sa 10:00-14:00'
+website: https://www.proaurum.de/unternehmen/standorte/berlin/
 website_status: aktiv
 status: aktiv
-description: 'Filiale für An- und Verkauf von Anlageedelmetallen und Altgoldservice.'
+description: 'Filiale für An- und Verkauf von Anlageedelmetallen. Altgoldservice werktags; samstags nur eingeschränkt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Feedback-Triage Audit 7
@@ -27,6 +27,10 @@ provenance_origin: feedback
 Öffentliche Filiale in Berlin-Charlottenburg mit Edelmetallhandel und Altgoldservice. Die Betreiberseite weist auf eingeschränkte Altgoldannahme an Samstagen hin.
 
 ## Timeline
+
+### Owner-Nachprüfung 26.10.2026
+
+- [Owner-Nachprüfung 26.10.2026: Die aktuelle Betreiber-Standortseite führt den Ort als Berlin, bestätigt Hardenbergstraße 8, 10623, die Telefonnummer, berlin@proaurum.de sowie Mo-Fr 10:00-18:00 und Sa 10:00-14:00. Der geschützte E-Mail-Link auf der Seite wurde anhand des HTML-Attributs aufgelöst. Der Altgoldservice wird werktags angeboten; samstags nur eingeschränkt, bei größeren Ankäufen bittet der Betreiber um vorherige Kontaktaufnahme. `city` wird zu Berlin präzisiert, Kontaktzeiten und E-Mail ergänzt, `website` auf die konkrete Standortseite gesetzt und die Beschreibung um die Samstagsgrenze ergänzt. Keine Koordinaten ergänzt. Quelle: https://www.proaurum.de/unternehmen/standorte/berlin/ ; Betreiberidentität und Registerbezug siehe Recherche 12.10.2026.]
 
 ### Recherche 12.10.2026 (Feedback-Triage IDs 5117/5724/6345)
 
