@@ -28,6 +28,10 @@ Der aktuelle Betreiberauftritt identifiziert **G & K Recycling Utsch**, Inhaber 
 
 ## Timeline
 
+### Quellen-/Ankaufprüfung 26.10.2026
+
+- [Recherche 26.10.2026: Betreiber-Impressum und Annahmebedingungen erneut direkt gelesen; sie nennen weiterhin HRA 200995 sowie Anlieferung nur nach Voranmeldung und bestätigtem Angebot. Das unabhängig abgerufene NorthData-Profil bestätigt den eingetragenen Rechtsträger „G u. K Recycling Utsch Thomas Utsch e. K.“, AG Jena HRA 200995; die Registeradresse ist dort nur auf Ortsebene (Remda-Teichel, mit Veröffentlichung zur Gebietsreform 2019 auf Rudolstadt), nicht als Straßenbeleg. Die Annahmebedingungen stellen die Verwiegung als Rechnungsgrundlage dar und nennen bar zu zahlende Rechnungsbeträge unter 100 € netto; sie belegen keine Auszahlung an den Anlieferer. `status: aktiv` trägt als laufender Entsorgungs-/Annahmebetrieb, nicht als bestätigter Ankauf. Kein Kaufkurs ergänzt und keine Statusänderung. Quellen: https://recycling-utsch.de/impressum/ ; https://recycling-utsch.de/annahmebedingungen/ ; https://www.northdata.com/G%20%26%20K%20Recycling%20Utsch,%20Rudolstadt/Amtsgericht%20Jena%20HRA%20200995 .]
+
 ### Owner-GEO-Prüfung 21.10.2026
 
 - [Owner-GEO-Prüfung 21.10.2026: Betreiber-Impressum und Annahmebedingungen bestätigen G & K Recycling Utsch, Gewerbepark 4, sowie Anlieferung nach Anmeldung und bestätigtem Angebot. OSM identifiziert dort die Anlage; der Produktionspunkt löst dagegen auf einen Fahrradparkplatz am Markt in Volkstedt auf. Gewerbepark 4 ist ein Standortkandidat, aber ein genauer Einfahrtspunkt ist nicht bestätigt; keine Koordinate ergänzt. Quellen: [Annahmebedingungen](https://recycling-utsch.de/annahmebedingungen/), [Impressum](https://recycling-utsch.de/impressum/), [OSM-Anlage](https://www.openstreetmap.org/way/164787990), [Reverse-Abfrage](https://nominatim.openstreetmap.org/reverse?lat=50.7204&lon=11.3405&format=jsonv2&zoom=18&addressdetails=1&extratags=1), [Owner-Bericht](../../research/wave-20261021-0900-geo-th.md).]

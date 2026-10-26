@@ -28,6 +28,10 @@ Das Betreiber-Impressum belegt Ewald Lietmann GmbH, Juliusstr. 6, 42105 Wupperta
 
 ## Timeline
 
+### Owner-Prüfung 26.10.2026: aktueller Betreiberauftritt
+
+- [Owner-Prüfung 26.10.2026: Die aktuelle Betreiberwebsite zeigt auf der Unternehmensseite weiterhin den Betrieb „Schrott- und Metallgroßhandlung“ und listet eine einmalige Schließung am 02.12.2026; die Leistungsseite bestätigt Ankauf von Buntmetallen und eisenhaltigen Schrotten am Betriebsgelände Juliusstraße 6 zu Tagespreisen, mit Ausweis-/Gewerbenachweis für Registrierung und Auszahlung. Die Preisseite veröffentlicht weiterhin keine Zahlenkurse. Die datierte Einzel-Schließung ändert weder die regulären Öffnungszeiten noch trägt sie eine Geschäftsaufgabe. Bestehende Status-/Kontaktwerte unverändert. Quellen: https://www.lietmann-gmbh.de/ ; https://www.lietmann-gmbh.de/service-und-leistungen/ ; https://www.lietmann-gmbh.de/schrottpreis/ ; https://www.lietmann-gmbh.de/impressum/ .]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Betreiber-Preis- und Impressumsseiten erneut direkt gelesen. Die Preisseite sagt weiterhin, dass aktuelle Preise „bald“ verfügbar seien; sie erklärt den Ankauf als tagesaktuell und abhängig von Börsennotierung, Reinheit/Qualität und Menge, veröffentlicht aber keine Zahlen. Das Impressum bestätigt unverändert Ewald Lietmann GmbH, HRB 5057 Wuppertal, Juliusstraße 6, 42105 Wuppertal, Telefon und E-Mail. **Ankauf:** keine konkrete Preisliste. **Verkauf:** weiterhin keine Produkt-/Preisliste. **Gebühren:** in den geprüften Betreiberseiten kein Container-/Abholtarif. Keine Stammdaten- oder Koordinatenänderung. Quellen: https://www.lietmann-gmbh.de/schrottpreis/ ; https://www.lietmann-gmbh.de/impressum/ .]

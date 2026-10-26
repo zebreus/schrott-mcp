@@ -4,14 +4,15 @@ name: Jäger Jürgen
 trader_type: autoverwertung
 state: TH
 city: Schmalkalden
-street: Burgweg 1a
-postcode: '98574'
-phone: 03683 488143
-email: autoverwertung-jaeger@t-online.de
+street: ''
+postcode: ''
+phone: ''
+email: ''
 opening_hours: ''
 website: https://www.jaeger-autoverwertung.de
 website_status: aktiv
-status: aktiv
+status: pruefung
+clear_fields: 'email,geo,phone'
 description: 'Autoverwertung, Abschleppdienst, Neu- und Gebrauchtteile, TÜV/DEKRA und Autoservice; kein allgemeiner Schrottankauf belegt.'
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite identifiziert Jürgen Jäger als Autoverwertungs-Meisterbetrieb in Schmalkalden-Näherstille, tätig seit 1990, mit Autoverwertung, Abschleppdienst, Neu-/Gebrauchtteilen, TÜV/DEKRA und Autoservice. Gelbe Seiten stützt unabhängig Burgweg 1a, 98574 und 03683 488143; diese Werte sind jetzt eingetragen. Die Öffnungszeiten widersprechen sich: Betreiberseite Mo–Fr 08:00–12:00/13:00–18:00, Gelbe Seiten Mo–Fr 08:00–17:00; deshalb kein Hours-Fill. **Ankauf:** Altfahrzeugverwertung ist belegt, eine Vergütung/Schrottankaufspreisliste nicht. **Verkauf:** Neu-/Gebrauchtteile angeboten, aber keine Preisliste. **Gebühren:** keine Abschlepp-/Verwertungsgebühren veröffentlicht. Die Anschrift ist neu in den Datenfeldern und zur Geokodierung vorgesehen.
+Die Betreiberwebsite identifiziert Jürgen Jäger als Autoverwertungs-Meisterbetrieb in Schmalkalden-Näherstille, tätig seit 1990, mit Autoverwertung, Abschleppdienst, Neu-/Gebrauchtteilen, TÜV/DEKRA und Autoservice. Sie beschreibt den Betrieb in Gegenwartsform, belegt aber keinen allgemeinen Schrottankauf oder dessen Vergütung. Die Website nennt Burgweg 1a, 98574, Telefon und E-Mail; Gelbe Seiten ist nur ein Aggregator-Lead und kein unabhängiger Beleg nach README. Mangels einer zweiten zulässigen Quelle bleiben Straße, PLZ, Telefon und E-Mail daher aus dem Frontmatter entfernt; die Betreiberangaben bleiben als unbestätigte Recherchehinweise dokumentiert. Die Öffnungszeiten widersprechen sich: Betreiberseite Mo–Fr 08:00–12:00/13:00–18:00, Gelbe Seiten Mo–Fr 08:00–17:00; deshalb kein Hours-Fill. **Ankauf:** Altfahrzeugverwertung ist belegt, eine Vergütung/Schrottankaufspreisliste nicht. **Verkauf:** Neu-/Gebrauchtteile angeboten, aber keine Preisliste. **Gebühren:** keine Abschlepp-/Verwertungsgebühren veröffentlicht. Burgweg 1a ist ein Betreiber-/Anlagenkandidat; ein bestätigter öffentlicher Eingangspunkt fehlt.
 
 ## Timeline
+
+### Owner-Status- und GEO-Gate 26.10.2026
+
+- [Korrektur 26.10.2026: Git-Historie zeigt die Frontmatter-Änderung `status: pruefung → aktiv` im Commit vom 22.10.; die zugehörige Nachprüfung vom 21.10. stützt Adress-/Telefonangaben mit Betreiberseite plus Gelbe Seiten. Gelbe Seiten ist nach README jedoch nur Aggregator-Lead und kein zulässiger zweiter Beleg. Die Betreiberhomepage und ihr Impressum wurden heute erneut direkt gelesen: sie beschreiben den Meisterbetrieb seit 1990 und bewerben Autoverwertung, Abschleppdienst, Teile und Autoservice; einen allgemeinen Schrottankauf, dessen Vergütung oder öffentliche Schrottannahme belegen sie nicht. Die Aktivierung ist daher nach README für einen geprüften Ankaufstatus nicht ausreichend belegt. Der Owner korrigiert `status` von `aktiv` zurück auf `pruefung`: Das ist eine Korrektur der unzureichend belegten Ankaufseinstufung, keine Behauptung von Schließung oder Inaktivität. Ein aktueller zulässiger Beleg für Ankauf kann den Status nach erneuter Prüfung ändern. Da Straße, PLZ, Telefon und E-Mail nur durch die Betreiberwebsite und einen unzulässigen Aggregator-Gegenbeleg gestützt waren, entfernt der Owner diese Einzelbelege aus den typisierten Feldern; sie bleiben als Recherchehinweise dokumentiert, bis eine zweite zulässige Quelle vorliegt. Der Read-only-GEO-Bericht vom 21.10.2026 zeigt, dass der gespeicherte Produktionspunkt 50.7214, 10.4439 auf Eichelbach 2 auflöst, nicht auf die Betreiberanschrift Burgweg 1a. Da ein genauer öffentlicher Eingangspunkt nicht bestätigt ist, ziehen `clear_fields: 'email,geo,phone'` und die geleerten Adressfelder diese unzureichend belegten Produktionswerte bei einem künftigen regulären Seed zurück; es wird kein Ersatzpunkt geraten. Quellen: https://www.jaeger-autoverwertung.de/ ; https://www.jaeger-autoverwertung.de/impressum ; https://www.gelbeseiten.de/gsbiz/44b9c7aa-c497-4767-95e6-f61baf281f69 ; https://www.openstreetmap.org/way/143101442 ; https://nominatim.openstreetmap.org/reverse?lat=50.7214&lon=10.4439&format=jsonv2&zoom=18&addressdetails=1&extratags=1 ; [Owner-GEO-Bericht](../../research/wave-20261021-0900-geo-th.md).]
 
 ### Recherche 24.10.2026 - Welle 06:00 / Shard C
 
