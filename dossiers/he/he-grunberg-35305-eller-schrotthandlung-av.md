@@ -31,6 +31,10 @@ Die offizielle Gorsler-Standortseite führt aktuell die Gorsler GmbH & Co. KG an
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die offizielle RVT/Gorsler-Standortseite und „Das sind wir“ direkt erneut gelesen. Sie führt **Gorsler GmbH & Co. KG**, Adam-Opel-Straße 2, 35305 Grünberg, mit Annahme von Eisen- und Buntmetallen (Mo–Fr 07:30–12:00 und 12:30–16:00; 1. und 3. Samstag 08:00–12:00). Die Betreibergruppe beschreibt eine Vergütung nach Markt-/Börsenpreis, ohne Zahlenkurse. Das belegt aktuelle Gorsler-Fakten, nicht eine Betreiber-/Namenskette zu Helmut oder Uwe Eller; keine Übernahme von Gorsler-Adresse, Kontakt, Leistung oder Konditionen in den Eller-Seed. ANKAUF: für Eller nicht belegt; VERKAUF: keine zurechenbare Liste; GEBÜHREN: keine Eller-Tarife. Quellen: https://www.rvt.de/unternehmen/standorte/ ; https://www.rvt.de/unternehmen/das-sind-wir/ .]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.5940000, 8.9587000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

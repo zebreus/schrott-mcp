@@ -31,6 +31,10 @@ Verzeichnis-Lead konkretisiert auf Karl-Heinz Motter Güter-/Nahverkehr, Transpo
 
 ## Timeline
 
+### Recherche 26.10.2026: Verzeichnisangaben abgeglichen
+
+- [Recherche 26.10.2026: 11880-Unternehmensprofil direkt geöffnet; es führt Karl-Heinz Motter Güter-/Nahverkehr, Transport und Schrottentsorgung, Auf der Mühle 26, 52222 Stolberg, Tel. 02402 6883, Mo–Fr 08:00–18:00, jedoch keine Website. Der Eintrag weist als zugrunde liegende Datumsangabe 10.05.2026 aus und war laut Portal am 02.10.2026 aktualisiert; eine Einzelbewertung vom 29.12.2025 bestätigt keinen Sachverhalt. Der bereits bekannte Branchenbuch-Deutschland-Eintrag enthält denselben Namen/Ort/Kontakt, aber beide bleiben Verzeichnis-Leads und keine Betreiber-/Registerquellen. Die Kategorien „Entsorgung/Schrott“ belegen weder vergüteten Ankauf noch eine Annahmestelle. **Ankauf:** keine Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Keine Frontmatter-Änderung, kein GEO. Quellen: https://www.11880.com/branchenbuch/stolberg-rheinland/060441364B26276568/karl-heinz-motter-gueter-u-nahverkehr-transport-u-schrottentsorgung.html ; https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/karl-heinz-motter-gueter--u-nahverkehr-transport-u-schrottentsorgung-stolberg-70776705.html .]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.7497667, 6.2396667. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

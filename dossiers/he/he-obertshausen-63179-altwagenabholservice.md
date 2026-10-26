@@ -28,6 +28,10 @@ Generischer Dienstname, rechtlicher Betreiber ungeklärt. Das Örtliche führt B
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das Örtliche-Profil direkt erneut gelesen: Altwagenabholservice, Bürgermeister-Mahr-Str. 34, 63179 Obertshausen-Hausen, 0800 837600. In der abrufbaren Detailansicht stehen keine Beschreibung, vollständigen Öffnungszeiten oder Betreiberidentität; eine E-Mail-Adresse erschien dort nicht. Der Domainkandidat altwagen-entsorgen.de antwortete beim Direktabruf erneut mit HTTP 403, sodass Impressum/Betreiber nicht lesbar sind. Weder Portaladresse noch Sperrantwort belegen einen aktuellen Betrieb oder dessen Gegenteil. ANKAUF: keine Auszahlung/Kurse belegt; VERKAUF: keine Liste; GEBÜHREN: keine bestätigte Gratisabholung oder Tarife. Keine Felder/GEO ergänzt. Quellen: https://www.dasoertliche.de/Themen/Altwagenabholservice-Obertshausen-Hausen-B%C3%BCrgermeister-Mahr-Str ; https://altwagen-entsorgen.de/ (403, Direktabruf).]
+
 ### Recherche 16.10.2026 (Shard 2)
 
 - [Recherche 16.10.2026: Örtliche-Detail direkt gelesen (200): generischer Altwagenabholservice, Bürgermeister-Mahr-Str. 34/63179 Obertshausen-Hausen, 0800 837600. Domainkandidat altwagen-entsorgen.de direkt erneut 403; kein lesbarer Betreiber-/Impressumsnachweis, weder als tot markiert noch die Domain als bestätigte Website gefüllt. Aktuelle rechtliche Identität, Demontageberechtigung und Vermittlungs-/Abholfunktion weiter offen. ANKAUF: Auszahlung nicht bestätigt, keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine bestätigte Gratisabholung oder Tarife. GEO erst nach Betreiber- und tatsächlicher Annahmestellenprüfung. Quellen: https://www.dasoertliche.de/Themen/Altwagenabholservice-Obertshausen-Hausen-B%C3%BCrgermeister-Mahr-Str ; https://altwagen-entsorgen.de/ (403).]

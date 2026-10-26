@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Ein European-Business-Connect-Branchenbucheintrag führt „Altmetall Deniz“, Inhaber M. El-lahib, Emscherstraße 82, 44649 Herne, zwei Telefonnummern sowie info@nrw-recycling.de und nrw-recycling.de. Die Seite behauptet Ankauf ab einer bestimmten Mindestmenge, mengenabhängige Preise und kostenlose Abholung. Das ist ein einzelner Aggregator-/Verzeichnislead, kein zulässiger Betreiber- oder Registerbeleg; die verlinkte Domain und ein Impressum waren beim Direktabruf nicht erreichbar. Daher bleiben Adresse/Kontakte/Website im Frontmatter leer und Status `pruefung`.
+Ein European-Business-Connect-Branchenbucheintrag führt „Altmetall Deniz“, Inhaber M. El-lahib, Emscherstraße 82, 44649 Herne, zwei Telefonnummern sowie info@nrw-recycling.de und nrw-recycling.de. Die Seite behauptet Ankauf ab einer Mindestmenge, mengenabhängige Preise und kostenlose Abholung. Im selben Profil wechselt der Werbetext jedoch zu „Schrott.de“ statt Deniz; die Identität und Zurechenbarkeit des Beschreibungstexts sind daher besonders unsicher. Es bleibt ein einzelner Verzeichnislead, kein Betreiber- oder Registerbeleg; Website und Impressum waren beim Direktabruf nicht erreichbar. Adresse/Kontakte/Website bleiben leer, Status `pruefung`.
 
 **ANKAUF:** nur Portalbehauptung „ab einer bestimmten Menge“, Preis abhängig von der Menge; keine Zahlenpreise oder bestätigte Mindestmenge. **VERKAUF:** keine Preisliste. **GEBÜHREN:** kostenlose Abholung ist nur eine Portalbehauptung, nicht verifiziert. **GEO:** die Emscherstraße-Adresse nicht geokodieren, bis Betreiberidentität und Annahme-/Kundenstandort bestätigt sind.
 
 ## Timeline
+
+### Recherche 26.10.2026: Verzeichnistext auf Zurechenbarkeit geprüft
+
+- [Recherche 26.10.2026: Den EBC-Eintrag direkt erneut gelesen. Der Kopf nennt Altmetall Deniz/M. El-lahib und die Herner Kontaktdaten; der ausführliche Leistungstext bezeichnet den Anbieter dann mehrfach als „Schrott.de“ und verwendet generische Firmenwerbung. Das ist kein unabhängiger Nachweis, dass Adresse, „kostenlose Abholung“ oder die behaupteten Ankaufsleistungen tatsächlich zu Altmetall Deniz gehören. nrw-recycling.de und Impressum konnten beim Direktabruf nicht geladen werden. **Ankauf:** nur unbezifferte, nicht zurechenbar verifizierte Portalbehauptung; **Verkauf:** keine Liste; **Gebühren:** kostenlose Abholung ebenfalls nur Portalbehauptung. Keine Felder gefüllt, kein GEO. Quelle: https://www.european-business-connect.de/Katalog/2-Dienstleistungen/2218-Schrotthandel__Metallhandel__Entsorgung_von_Alt__und_Buntmetallen__Demontage_von_Industrieanlagen/20417-Altmetall_Deniz/firmen_detail.html ; Betreiber-Link: https://www.nrw-recycling.de/ (Transportfehler).]
 
 ### Recherche 24.10.2026
 

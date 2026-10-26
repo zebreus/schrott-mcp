@@ -28,6 +28,10 @@ Betreiber-Kandidat Sascha Meyer, Im Altenschemel 40a, 67435 Neustadt, 06327 2272
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Direktabrufe der Meyer-Service-, Leistungs- und Impressumsseiten über HTTPS mit/ohne `www` endeten erneut mit Transportfehlern; dies beweist weder Abschaltung noch Geschäftsaufgabe. Suchindex-Ausschnitte der Betreiberseiten wiederholen Sascha Meyer/Im Altenschemel 40a und Tageshöchstpreiswerbung, erlauben aber keine aktuelle Direktprüfung. Ein auf Schrottradar angezeigter Preisrechner erklärt seine Werte als Durchschnitts-/Fremdpreise anderer Händler; sie sind ausdrücklich keine Meyer-Ankaufkurse. Seed-Zuordnung zu Sascha Meyer bzw. Abgrenzung vom Patrick-Meyer-Adresslead bleibt offen. ANKAUF: Betreiberwerbung zu Tagespreisen, keine Meyer-EUR-Kurse. VERKAUF: keine verifizierte aktuelle Preisliste. GEBÜHREN: frühere Betreiberseite nannte kostenlose Mulden-Dauerbereitstellung nur für Geschäftspartner und bedingte Altautoabholung; kein allgemeiner Privat-/Schrottabholtarif. Keine Frontmatter-Füllung oder Geokodierung. Quellen: https://schrotthandel-meyer.de/index.php/service ; https://schrotthandel-meyer.de/index.php/leistungen ; https://schrottradar.de/schrotthandel-meyer/ .]
+
 ### Recherche 24.10.2026
 
 - [Recherche 24.10.2026: Der Direktabruf der früher geprüften Betreiber-Leistungsseite https://schrotthandel-meyer.de/index.php/service endete mit einem Transportfehler. Das beweist weder Abschaltung noch Geschäftsaufgabe. Angebots-, Kontakt- und Öffnungszeitenangaben im Überblick beruhen weiterhin auf den früheren Direktprüfungen vom 04.–10.10.2026; aktuelle Verfügbarkeit ist damit nicht neu bestätigt. Seed-Zuordnung zu Sascha Meyer bzw. Abgrenzung vom Patrick-Meyer-Adresslead bleibt offen. ANKAUF: historisch auf der Betreiberseite beworben, keine numerischen Kurse; VERKAUF: keine aktuelle Liste; GEBÜHREN: frühere Seite nannte bedingte kostenlose Altautoabholung und Muldenbereitstellung für Geschäftspartner, keine universelle Kostenfreiheit. Keine Frontmatter-Füllung oder Geokodierung. Quelle: https://schrotthandel-meyer.de/index.php/service]

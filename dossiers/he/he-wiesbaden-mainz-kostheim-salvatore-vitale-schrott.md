@@ -31,6 +31,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das Schrottplatz-Info-Profil direkt erneut gelesen. Es führt weiterhin Römerfeld 6, 55246 Mainz-Kostheim und 06134 5669139, erklärt aber, dass Beschreibung, Leistungsangebot und Öffnungszeiten unvollständig sind. Der Homepageverweis liefert keinen nachgewiesenen Betreiberauftritt. Die Portalseite bestätigt weder die ältere Mobilnummer noch aktuelle Annahme, Ankauf oder Betreiberidentität. ANKAUF: keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Änderung/GEO. Quelle: https://www.schrottplatz-info.de/schrottplatz/Mainz-Kostheim/Salvatore-und-Vitale (Verzeichnislead, direkt geprüft).]
+
 ### Owner-GEO-Korrektur 25.10.2026
 
 - [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält denselben Punkt 50.0778462, 8.2453077 wie ein unabhängiger Wiesbadener Datensatz. Nominatim-Reverse löst ihn auf der Friedrich-Ebert-Allee in Wiesbaden-Südost auf, nicht in Mainz-Kostheim. `clear_fields: 'geo'` entzieht den falsch zugeordneten Punkt beim nächsten regulären Seed. Betreiber- und Adresslead bleiben ungeklärt; keine Ersatzkoordinate gesetzt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.07784615384615&lon=8.245307692307692&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]

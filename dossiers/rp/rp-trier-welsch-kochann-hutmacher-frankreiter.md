@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed bündelt vier Trierer Verzeichniseinträge, für die keine gemeinsame Firma belegt ist: Welsch (Zurmaiener Straße 136), Kochann (Hornstraße 24), Hutmacher (älterer Verzeichnislead Hochwaldstraße 14) und Frankreiter (Trierweilerweg 13e). Nur für **Hans-Peter Hutmacher** wurde ein Betreiberauftritt gefunden: Karl-Grün-Straße 8, 54292 Trier, Telefon 0651 29362 / 0171 9313970; die Betreiberseite beschreibt Schrott-/Metallentsorgung und Demontage, nicht ausdrücklich vergüteten Ankauf. Kein Merge der vier Anbieter und keine Frontmatter-Übernahme.
+
+**Ankauf:** für Hutmacher ist Ankauf/Auszahlung nicht belegt; für die übrigen drei fehlen Betreiberbedingungen. **Verkauf:** keine Material-/Teilepreisliste. **Gebühren:** keine bezifferten Entsorgungs-/Demontagetarife. Kein gemeinsamer Standort oder GEO.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Hutmachers Betreiberseite für Schrott direkt geprüft: sie sagt „Wir entsorgen Schrott und Metall aller Art“; Kontakt/Impressum nennen Hans-Peter Hutmacher, Karl-Grün-Straße 8, 54292 Trier und Mobil 0171 9313970. Keine ausdrückliche Ankauf-/Auszahlungszusage und keine Preisangaben auf der geprüften Schrottseite. Die Betreiberanschrift unterscheidet sich vom älteren Branchenbuchwert Hochwaldstr. 14. Welsch, Kochann und Frankreiter bleiben eigenständige Verzeichnisleads ohne Primärbeleg; keine Zusammenführung. ANKAUF: für Hutmacher nicht belegt; für die anderen Klärfall. VERKAUF: keine Preisliste. GEBÜHREN: kein bezifferter Tarif. Gemeinsame Felder/Adresse bleiben leer, kein GEO. Quellen: https://schrotthandel-hutmacher.de/schrott/ ; https://schrotthandel-hutmacher.de/impressum/ ; https://schrotthandel-hutmacher.de/kontakt/ ; https://www.gelbeseiten.de/gsbiz/b846642c-b299-42a0-8ad9-93de7e2fbcc1 ; https://www.gelbeseiten.de/gsbiz/945121b8-18ea-495b-8ccd-55193f0dea46 ; https://www.gelbeseiten.de/gsbiz/51e839a2-a076-4a69-aaac-0fdd44f45a38 ; https://www.gelbeseiten.de/gsbiz/fac6e548-a3e9-44e1-b7f5-0a93d19ada04 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

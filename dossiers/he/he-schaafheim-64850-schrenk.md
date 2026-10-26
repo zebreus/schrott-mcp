@@ -28,6 +28,10 @@ Ein „Schrenk“-Lead in Schaafheim wird von Das Örtliche als Abschleppdienst/
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Betreiberhomepage und Impressum der Firma Schrenk direkt erneut gelesen. Der Betreiberauftritt nennt Torsten Schrenk, Mislag 17, 21775 Ihlienworth, 0171 7468627 und einen seit 01.01.2025 eröffneten Abschlepp-/Bergungs-/Pannendienst im Landkreis Cuxhaven/Samtgemeinde Land Hadeln; die Leistungsseiten beschreiben Fahrzeugbergung, Reparaturen und Fuhrparkdienste, aber keinen Schrottankauf oder Autoverwertungsplatz in Schaafheim. Die identische Nummer im Schaafheimer Verzeichnis bleibt ein möglicher Identitätshinweis, keine belegte Standort-/Nachfolgekette. ANKAUF/VERKAUF/GEBÜHREN für Schrott bzw. Autoverwertung: nicht belegt; Abschlepppreise ebenfalls nicht veröffentlicht. Keine Kontakte/Adresse übertragen. Quellen: https://www.asd-schrenk.de/impressum ; https://www.asd-schrenk.de/ ; https://www.dasoertliche.de/Themen/Daimlerstra%C3%9Fe/Schaafheim.htm (Portallead Schaafheim).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Klein-AV?

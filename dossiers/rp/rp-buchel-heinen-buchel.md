@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed „Heinen Büchel“ nennt nur die Georgsweiler Straße und ist nicht eindeutig identifiziert; Hausnummer, Inhaber und Betreiberauftritt fehlen. Die offizielle Gemeindeseite nennt Georgsweiler Straße 39a als Anschrift der Ortsgemeinde Büchel, nicht als Adresse eines Schrotthändlers. Die Recherchehistorie enthält außerdem einen Branchenbuch-Lead für Hans Peter Heinen in Strohn (Alfbachstr. 2) sowie eine separate Firma Jürgen Heinen e.K. in Koblenz. Keiner dieser Treffer belegt einen Bücheler Betrieb oder eine Verbindung zum Seed; insbesondere keine Adresse/Kontakte zwischen den Orten übertragen. **ANKAUF:** nicht belegt, keine Kurse. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Angaben. **GEO:** weder die unvollständige Georgsweiler Straße noch die Gemeindeadresse geokodieren; zunächst Betreiber und konkrete Anschrift klären.
+Der Seed „Heinen Büchel“ nennt nur die Georgsweiler Straße und ist nicht eindeutig identifiziert. Neue Branchenbuchtreffer führen **Christopher Heinen Schrotthandel**, Georgsweiler Straße 44, 56823 Büchel, Telefon 0170 9444512; eine unabhängige Betreiber-/Registerbestätigung fehlt, und die Quellen können auf denselben Verzeichnisdaten beruhen. Separat führt Gelbe Seiten Karl Stenzhorn Schrotthandel an Georgsweiler Straße 38; die Gemeindeseite nennt Nr. 39a als Gemeindeanschrift. Weder Nachbarschaft noch ähnlicher Branchenname belegen eine Verbindung zum Seed. **ANKAUF:** keine Vergütung/Kurse belegt. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Angaben. **GEO:** Straße/Nummer nicht geokodieren, bis Betreiber und konkrete Anschrift primär bestätigt sind.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Neue Verzeichnissuche führt Christopher Heinen Schrotthandel, Georgsweiler Str. 44, 56823 Büchel, Tel. 0170 9444512 (11880 und Stadtbranchenbuch). Diese Einträge sind Verzeichnisleads und keine gelesenen Betreiber-/Registerquellen; eine gemeinsame Datenbasis/Abschreibekette ist möglich. Gelbe Seiten führt separat Karl Stenzhorn Schrotthandel, Georgsweiler Str. 38; die Gemeindeseite nennt Nr. 39a für die Ortsgemeinde. Keine Belege verbinden Christopher Heinen, Stenzhorn oder den Seed-Eintrag miteinander; keine Frontmatter-Füllung und kein GEO. ANKAUF: keine Preise/Konditionen. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Quellen: https://www.11880.com/branchenbuch/buechel-bei-cochem/120674719B102394483/christopher-heinen-schrotthandel.html ; https://bundesland-rheinland-pfalz.stadtbranchenbuch.com/buechel-bei-cochem/7825853.html ; https://www.gelbeseiten.de/gsbiz/0c0019fa-5df5-40dc-8637-8b5cb810d69c ; https://www.buechel.de/impressum-kontakt/impressum .]
 
 ### Recherche 24.10.2026
 

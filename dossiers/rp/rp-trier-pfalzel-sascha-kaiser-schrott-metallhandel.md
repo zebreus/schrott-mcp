@@ -28,6 +28,10 @@ Die Betreiberseiten waren am 21.10.2026 über HTTP direkt lesbar und nennen Sasc
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Neue Suchtreffer mit der Zusage „kostenlose Schrottabholung“ stichprobenartig bis zum Impressum verfolgt. Die Domain schrotthaendler-in-der-naehe.de wird laut eigenem Impressum von Reinhold Paisler, Schwalbach/Dillingen, betrieben und ist kein Auftritt von Sascha Kaiser; deren allgemeines Gratisabholversprechen wird daher nicht auf diesen Händler übertragen. Für Kaiser bleibt die engere Betreiberangabe maßgeblich: kostenlose Container nur für feste Firmenkunden. ANKAUF: keine numerischen Kurse. VERKAUF: keine Materialpreisliste. GEBÜHREN: keine allgemeine Tarifliste; lediglich bedingte kostenfreie Containerstellung für Stamm-/Festfirmenkunden, Umfang und Gültigkeit unbestätigt. Status und Frontmatter unverändert. Quellen: http://www.schrotthandel-kaiser-trier.de/leistungen.html ; https://schrotthaendler-in-der-naehe.de/trier/ ; https://schrotthaendler-in-der-naehe.de/impressum/ .]
+
 ### Quellenprüfung 21.10.2026
 
 - [Recherche 21.10.2026: Impressum und Leistungsseite der Betreiber-Domain direkt über HTTP gelesen (beide HTTP 200): Impressum nennt Sascha Kaiser, Schrott und Metallhandel Sascha Kaiser, Pfalzeler Straße 11, 54293 Trier, 01520 6623504, info@schrotthandel-kaiser-trier.de und USt-ID DE 242 6429 64; Leistungen nennen Metall-/Schrottentsorgung, Fahrzeugverschrottung und Demontagen für Privatpersonen/Firmen. Auf der Leistungsseite steht kostenfreie Containerstellung nur für feste Firmenkunden. Keine numerischen Ankauf-/Verkaufspreise oder allgemeinen Gebühren veröffentlicht. Footer © 2014 und erfolgreicher HTTP-Abruf datieren nicht die Gültigkeit der Betreiberangaben; kein Register-Zweitbeleg, daher keine Frontmatter-Füllung, keine Freigabe der Klassifikation autoverwertung und status pruefung unverändert. Quellen: http://www.schrotthandel-kaiser-trier.de/impressum.html ; http://www.schrotthandel-kaiser-trier.de/leistungen.html.]

@@ -28,6 +28,10 @@ Fünf Branchen-/Ortsportale führen den Lead JL Metall Recycling an Gladbacher S
 
 ## Timeline
 
+### Recherche 26.10.2026: Domain und Preisbeleg erneut geprüft
+
+- [Recherche 26.10.2026: mg-schrott.de direkt aufgerufen; der Abruf liefert weiterhin HTTP 500 und keinen lesbaren Betreiberinhalt. Damit bleibt offen, ob der bestehende Portalcluster eine aktuelle Betreiberseite oder den identifizierten Rechtsträger abbildet. Keine neue qualifizierte Betreiber-/Registerquelle gefunden; Portaldaten, Ankaufwerbung und frühere Adress-/Telefonwerte nicht als bestätigt hochgestuft. **Ankauf:** keine belegten Zahlenkurse; **Verkauf:** keine Liste; **Gebühren:** keine belastbaren Tarife. Frontmatter und `status: pruefung` unverändert. Quelle: https://mg-schrott.de/ (Direktabruf 26.10.2026, HTTP 500).]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Betreiber-Domain mg-schrott.de erneut direkt aufgerufen; Homepage/Impressum/Kontakt nicht abrufbar (HTTP 500, kein lesbarer Betreiberinhalt). Aktuelle Suche fand keinen neuen überprüfbaren Firmen- oder Registerbeleg; die bestehenden fünf Portalangaben (Gladbacher Str. 158/41179/01525 4090277) bleiben ein Verzeichnis-Cluster und keine unabhängige Bestätigung der Rechtsperson oder Kundenannahme. Website-Feld leer und `website_status: tot` erhalten, Status `pruefung`; gefüllte Adressfelder nicht als verifizierten Hof interpretieren, Geokodierung weiterhin erst nach Standortklärung. ANKAUF: keine bestätigten Zahlenkurse; VERKAUF: keine Liste; GEBÜHREN: keine verifizierten Tarife. Quelle: https://mg-schrott.de/ (Direktabruf HTTP 500); weitere bereits dokumentierte Portalleads siehe Recherche 02.10.2026.]

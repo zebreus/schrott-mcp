@@ -31,6 +31,10 @@ Schrotthändler24 ist der Auftritt Dany Abouds, Bövinghauser Str.38, 44388 Dort
 
 ## Timeline
 
+### Recherche 26.10.2026: Preisübersicht frisch gegengeprüft
+
+- [Recherche 26.10.2026: Betreiber-Preisübersicht direkt erneut gelesen; dieselben zwölf „bis zu“-Werte pro kg wie am 18.10.2026: Alu 2,40 €, Blei 1,35 €, Edelstahl 2,95 €, Eisen/Stahl 0,30 €, Elektronikschrott 66,00 €, Hartmetall/HSS 14,00 €, Kabel 7,20 €, Kupfer 7,20 €, Messing 4,76 €, Rotguss/Legierungen 5,76 €, Zink 1,62 €, Zinn 23,16 €. Die Seite weist weiterhin keinen Preisstichtag aus; „bis zu“ sind beworbene Ankaufobergrenzen, keine garantierten Tages-/Sortenkurse. Der Wert 66 €/kg für unspezifizierten Elektronikschrott ist insbesondere kein allgemeiner Preis für beliebige Geräte/Platinen. **Verkauf:** keine Verkaufsliste. **Gebühren:** Betreiber wirbt mit kostenloser NRW-Abholung; kein vollständiger Gebühren-/Container-Tarif oder bedingungsloser Preis für jede Menge/Leistung veröffentlicht. Keine Datenbank-/Frontmatter-Änderung. Quelle: https://schrotthaendler-24.de/schrottpreise/ .]
+
 ### Ownerdisposition 18.10.2026
 
 - [Korrektur 18.10.2026: Owner-Readonly-Impact enthält gespeichert dropoff_json allowed:true, obwohl keine öffentliche Hofannahme belegt ist. Betreiberimpressum nennt einen Sitz, die NRW-Abholwerbung keine verifizierte Selbstanlieferungsstelle; unabhängiger aktueller Betreiber-/Annahmebeleg fehlt. Gezielt clear_fields dropoff_json bei leerem dropoff_json gesetzt: beim Seed unbekanntes Objekt {}, ausdrücklich nicht allowed:false, keine Annahmeverweigerung oder Schließung. Status pruefung, Pickup, Kontakte, Adresse und GEO unverändert; Quelle: /tmp/opencode/wave-20261018-1800-production-impact.json (Owner-Readonly-Export, slug nw-nrw-weit-schrotthandler24); https://schrotthaendler-24.de/impressum/ ; https://schrotthaendler-24.de/schrottpreise/ .]

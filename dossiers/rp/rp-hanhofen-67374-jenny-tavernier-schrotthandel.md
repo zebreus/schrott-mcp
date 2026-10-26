@@ -28,6 +28,10 @@ Für „Jenny Tavernier Schrotthandel“, Silzweg 38, Hanhofen, liegt weiterhin 
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: LinkedIn-Suchindex führt eine Unternehmensseite „Jenny Tavernier Schrotthandel u. Entrümpelungen“ mit Hauptsitz Hanhofen. Die Seite hat laut Treffer 0 Follower und keine verwertbaren Kontakt-/Standortdetails; dies ist ein schwacher zusätzlicher Namens-/Ortslead, keine Betreiber- oder Registerbestätigung. Die vorhandene offene Dublettenfrage zum Schwester-Dossier `rp-hanhofen-tavernier-hanhofen.md` bleibt ungelöst; keine Zusammenführung, keine Kontakt-/Adressübernahme und kein GEO. ANKAUF: keine bestätigten Kurse. VERKAUF: keine Liste. GEBÜHREN: keine belastbaren Tarife. Quelle: https://www.linkedin.com/company/jenny-tavernier-schrotthandel-u.entr%C3%BCmplungen .]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Erneuter Abgleich der exakten Jenny-Tavernier-/Hanhofen-Spur mit dem lokalen Branchenverzeichnis und dem dokumentierten LokaleSchrottplatz-Profil. Das Portal führt weiterhin Jenny Tavernier Schrotthandel u. Entrümpelungen, Silzweg 38, 67374 Hanhofen und 0176 24048503; das lokale Verzeichnis listet andere Schrott-/Containerbetriebe an Silzweg 16/19/31, aber keinen qualifizierten Betreiber- oder Registerbeleg für Nr. 38. Das Schwester-Dossier `rp-hanhofen-tavernier-hanhofen.md` führt denselben Seed-Standort; Dublette/Identität bleibt offen, kein Merge. Keine Portal-Stunden/Mindestmengen als Betreiberbedingungen übernehmen. ANKAUF: keine bestätigten Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine belastbaren Konditionen. Adresse nicht geokodieren, bis Standort und Betrieb primär bestätigt sind. Quellen: https://lokaleschrottplatz.de/jenny-tavernier-schrotthandel-u-entrumplungen/ ; https://hanhofen.stadtbranchenbuch.com/ .]

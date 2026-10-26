@@ -30,6 +30,10 @@ Ein einzelnes 11880-Verzeichnisprofil führt „Joachim Götz Schrotthandel“ i
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das 11880-Profil direkt erneut geprüft: Joachim Götz Schrotthandel, Eschollbrücker Str. 102, 64319 Pfungstadt, 06157 83237, Branchen Altmaterial- und Schrotthandel. Der Datensatz weist Eintragsdaten vom 03.08.2025 und eine Aktualisierung am 03.10.2026 aus; Bewertungen, Website und E-Mail sind nicht hinterlegt. Das bleibt ein einzelner Portalbeleg, keine aktuelle Betreiber- oder Annahmebestätigung. ANKAUF: keine Kurse oder bestätigte Konditionen; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Kein Feld-/GEO-Fill. Quelle: https://www.11880.com/branchenbuch/pfungstadt/060440090B100217149/joachim-goetz-schrotthandel.html (Verzeichnislead, direkt geprüft).]
+
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: 11880-Profil „Joachim Götz Schrotthandel“ direkt geprüft: Eschollbrücker Str. 102, 64319 Pfungstadt, Tel. 06157 83237, Altmaterialhandel/Schrotthandel; laut Profil Eintragsdaten 03.08.2025, Aktualisierung 03.10.2026. Einzelner Aggregatorlead, kein Betreiber-/Registerbeleg. Keine Frontmatter-Übernahme und keine Aussage über aktuellen Betrieb oder Kundenannahme. ANKAUF: keine Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. GEO: Adresse/öffentlichen Kundenpunkt unabhängig bestätigen. Quelle: https://www.11880.com/branchenbuch/pfungstadt/060440090B100217149/joachim-goetz-schrotthandel.html (Verzeichnislead).]

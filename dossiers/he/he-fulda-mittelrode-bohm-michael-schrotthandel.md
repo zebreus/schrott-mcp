@@ -31,6 +31,10 @@ Gelbe Seiten und Das Örtliche listen den Namen „Böhm Michael Schrotthandel�
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das Gelbe-Seiten-Profil direkt erneut gelesen: Böhm Michael Schrotthandel, Lerchenstieg 4, 36041 Fulda-Mittelrode, 0661 9015432; das Profil hat keine Rezensionen und zeigt keinen Betreiberauftritt. Das bestätigt nur den bekannten einzelnen Portal-Datensatz, nicht den Betrieb. Die abweichende 0175 3278974 im ebenfalls portalbasierten Örtliche-/Telefonbuch-Cluster bleibt unaufgelöst; keine Nummer zurück ins Frontmatter übernommen. ANKAUF: keine bestätigten Konditionen/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle: https://www.gelbeseiten.de/gsbiz/277dec5c-d78e-4ff8-b2b8-190008dbf01c (Verzeichnislead, direkt geprüft).]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Das Telefonbuch und Das Örtliche direkt geprüft. Beide führen Lerchenstieg 4, 36041 Fulda-Mittelrode; Das Telefonbuch zeigt 0661 9015432 und als weitere Kontaktdaten 0175 3278974, Das Örtliche nennt 0175 3278974. Gelbe Seiten führt weiterhin 0661 9015432. Das sind ausschließlich Verzeichnisprofile, keine unabhängigen Betreiber-/Register-/Kommunalbelege; mögliche gemeinsame Datenlieferung ist nicht ausgeschlossen. Neue Nummern daher nicht in `phone` zurückgefüllt; bestehendes `clear_fields: phone` bleibt. **Ankauf:** keine Kurse oder bestätigte Annahmebedingungen; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quelle(n): https://adresse.dastelefonbuch.de/Fulda/2-Recycling-Michael-B%C3%B6hm-Fulda-Lerchenstieg.html ; https://www.dasoertliche.de/Themen/B%C3%B6hm-Michael-Schrotthandel-Fulda-Mittelrode-Lerchenstieg ; https://www.gelbeseiten.de/gsbiz/277dec5c-d78e-4ff8-b2b8-190008dbf01c .]

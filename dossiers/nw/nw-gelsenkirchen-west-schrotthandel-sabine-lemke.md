@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Ungeklärter Sabine-Lemke-Schrotthandel in Gelsenkirchen-West. Markenstr. 54 ist die vorhandene Seed-Adresse, Nordsternstr. 27 eine andere Verzeichnisadresse; Laurentiusstr. 15c/Benjamin Lemke ist ohne Betreiberkettenbeleg keine Nachfolge. Die Rufnummer wurde ausschließlich um die überzählige schließende Klammer bereinigt; damit sind weder die Nummer noch die Anschrift neu bestätigt. Weiter `pruefung`.
+Ungeklärter Sabine-Lemke-Schrotthandel in Gelsenkirchen-West. Markenstr. 54 ist die vorhandene Seed-Adresse, Nordsternstr. 27 eine andere Verzeichnisadresse; Laurentiusstr. 15c/Benjamin Lemke ist ohne Betreiberkettenbeleg keine Nachfolge. Die Rufnummer wurde ausschließlich um eine überzählige schließende Klammer bereinigt; damit sind weder Nummer noch Anschrift neu bestätigt. Weiter `pruefung`. **Ankauf:** keine belastbaren Konditionen/Preise. **Verkauf:** keine Liste. **Gebühren:** keine verifizierten Tarife oder Gratisleistungen. GEO erst nach Adress-/Identitätsklärung.
 
 ## Timeline
+
+### Recherche 26.10.2026: Profil-Link und Adresskonflikt
+
+- [Recherche 26.10.2026: Den Schrottplatz-Info-Eintrag erneut direkt geöffnet: Er führt „Schrott Altmetallhandel Sabine Lemke“, Nordsternstr. 27, 45899 Gelsenkirchen, 0209 57482 und verlinkt schrottabholung-lemke.de. Die verlinkte Domain ließ sich beim Direktabruf nicht laden (Transportfehler); daraus folgt weder Betreiberzugehörigkeit noch Domainstilllegung. Der Eintrag bestätigt insbesondere nicht die Seed-Adresse Markenstr. 54 und ist ein einzelner Verzeichnislead. Keine qualifizierte aktuelle Betreiber-/Registerquelle, keine verifizierten Ankaufskurse, Verkaufspreise oder Gebühren gefunden; Felder und Status unverändert. Quelle: https://www.schrottplatz-info.de/schrottplatz/Gelsenkirchen/Altmetallhandel-Sabine-Lemke .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

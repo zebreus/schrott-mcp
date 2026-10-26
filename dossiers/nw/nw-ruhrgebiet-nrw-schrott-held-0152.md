@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt beansprucht einen mobilen Schrottabhol-/Ankaufdienst von Rupi Samu im Ruhrgebiet und in weiteren NRW-Regionen. Im Impressum ist Schüchtermannstr. 38 ausdrücklich eine Postanschrift, kein Schrottplatz; stationäre Annahme ist nicht belegt. Betreiberidentität bleibt eine Einzelquelle ohne unabhängige Bestätigung.
+
+- **Ankauf:** fairer Preis je nach Art, Menge und Reinheit, aber keine konkrete Zahlen- oder Sortenpreisliste.
+- **Verkauf:** keine Verkaufsliste.
+- **Gebühren:** Schrottabholung wird als kostenlos beworben, sofern ausschließlich Schrott/Altmetall abgeholt wird. Elektrogroßgeräte nimmt der Betreiber laut FAQ nur zusammen mit weiterem Altmetall mit; Einzelgeräte werden ausgeschlossen. Demontage kann je nach Umfang kostenpflichtig oder nach Absprache kostenlos sein, ohne Tarifliste.
+- **GEO:** Postanschrift nicht geokodieren; kein Annahmepunkt nachgewiesen. Nicht mit dem namensähnlichen 01522-Netzwerk in Hamm verknüpfen.
 
 ## Timeline
+
+### Recherche 26.10.2026: Ankauf, Gratisabholung und Demontage getrennt
+
+- [Recherche 26.10.2026: Betreiber-Startseite und Impressum direkt geprüft. Die Website bewirbt Schrottankauf „zum fairen Preis“, erklärt aber Preisbildung nur allgemein nach Metallart, Menge und Reinheit; keine Zahlenkurse oder datierte Ankaufsliste. **Gebühren/Leistung:** Die Abholung von Schrott/Altmetall wird als 100 % kostenlos beworben, jedoch nur, wenn ausschließlich Schrott bzw. Altmetall anfällt. Elektrogroßgeräte wie Waschmaschinen sollen nur mit weiterem Altmetall mitgenommen werden; ein einzelnes Gerät wird ausdrücklich ausgeschlossen. Demontagearbeiten können je nach Art kostenpflichtig oder nach Terminvereinbarung kostenlos sein; kein Tarif. **Verkauf:** keine Kundenpreisliste. Das Impressum bezeichnet Schüchtermannstr. 38 ausdrücklich als Postanschrift (kein Schrottplatz); Betreiber bleibt Einzelquelle. Kein Frontmatter-Fill, kein GEO. Quellen: https://www.schrott-held.de/ ; https://www.schrott-held.de/impressum.html .]
 
 ### Recherche 04.10.2026
 

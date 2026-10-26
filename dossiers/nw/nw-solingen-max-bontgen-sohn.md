@@ -30,6 +30,10 @@ Der Import nennt „Max Böntgen & Sohn“ und Lotsenstr. 12 in Solingen, jedoch
 
 ## Timeline
 
+### Recherche 26.10.2026: Namensvetter-Gegenprobe
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Suche „Böntgen in Solingen“ direkt gelesen. Der einzige Treffer ist HSP STEUER, Böntgen Jansen Lewin Steuerberatungsgesellschaft, Beethovenstr. 239; kein Treffer für Max Böntgen & Sohn oder Schrott-/Metallhandel. Das ist lediglich eine fachfremde Namensvetter-Gegenprobe, kein Beleg für Nichtexistenz oder Geschäftsaufgabe des Seed-Kandidaten. Lotsenstr. 12 bleibt unverifiziert. **Ankauf:** keine belegten Konditionen/Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Keine Frontmatter-Änderung und keine GEO-Übernahme. Quelle: https://www.gelbeseiten.de/suche/b%C3%B6ntgen/solingen .]
+
 ### Recherche 18.10.2026 (Welle 1202 West)
 
 - [Recherche 18.10.2026: NorthData-Abfrage Max Böntgen/Solingen heute HTTP 429, keine lesbare Registerauskunft. Gelbe-Seiten-Suche Böntgen/Solingen liefert nur eine Steuerberatung, keinen Zielbetrieb; der Namensvetter ist nicht mit Schrott/Metallhandel gleichzusetzen. Google Consent und DDG Challenge, Bing liefert fachfremde Ergebnisse: Recherche technisch begrenzt, kein belastbarer Schließungs-/Nicht-Existenzschluss. Lotsenstr. 12 unverifizierter Importwert, nicht GEO-fähig. Ankauf: keine gesicherten Kurse/Annahme; Verkauf: keine verifizierte Liste; Gebühren: kein verifizierter Tarif. Frontmatter unverändert; Quelle(n): https://www.northdata.de/?query=Max+B%C3%B6ntgen+Solingen ; https://www.gelbeseiten.de/suche/b%C3%B6ntgen/solingen .]

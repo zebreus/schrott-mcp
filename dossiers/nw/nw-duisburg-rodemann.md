@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Ludger Rodemann“ ist inzwischen eine aktuelle Betreiber-Primärquelle auffindbar: Rodemann Recycling GmbH, HRB 23830, Zur Hofweide 5, Raesfeld. Die Website nennt Metallankauf/-verkauf und Abholung per Partner-Spedition, schließt aber private Schrottannahme am eigenen Hof ausdrücklich aus. Sie belegt nicht die Duisburger Spur An der Geis 46 / 02065 56968; die Zuordnung zu Duisburg bleibt offen. **Ankauf/Verkauf:** Geschäftsfelder bestätigt, keine Zahlenpreise; **Gebühren:** keine Liste.
+Für „Ludger Rodemann“ ist eine aktuelle Betreiber-Primärquelle auffindbar: Rodemann Recycling GmbH, HRB 23830, Zur Hofweide 5, Raesfeld. Sie bestätigt Metallankauf/-verkauf und Partnerabholung, schließt private Schrottannahme am eigenen Hof aber ausdrücklich aus. Die Betreiberseite führt Kontaktangaben, die nicht mit dem Duisburger Lead übereinstimmen (u. a. Raesfeld und wechselnde Telefonnummern); sie belegt weder An der Geis 46 noch 02065 56968. Die Zuordnung des Duisburger Dossiers bleibt offen. **Ankauf/Verkauf:** Geschäftsfelder bestätigt, keine Zahlenpreise; **Gebühren:** keine Liste.
 
 ## Timeline
+
+### Recherche 26.10.2026: aktuelle Betreiberkontakte gegengeprüft
+
+- [Recherche 26.10.2026: Startseite, Kontakt und Impressum der Rodemann Recycling GmbH direkt gelesen. Das Impressum bestätigt HRB 23830, Ludger Rodemann und Zur Hofweide 5, 46348 Raesfeld; die Kontaktseite nennt 03834 / 883 94 94, während der Seitenkopf noch 02065 / 314 014 und ludger.rodemann@t-online.de ausweist. Keine der aktuell sichtbaren Nummern ist die Duisburger Leadnummer 02065 56968. Die Website unterscheidet ausdrücklich den Raesfelder Geschäftssitz von einem eigenen Schrottplatz (keiner vorhanden) und beschreibt Abholung durch Partner-Speditionen bis 40 t; Metall-An- und -Verkauf werden beworben, aber ohne Zahlenkurse. **Ankauf:** keine Preisliste; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Keine Frontmatter-Änderung, kein Duisburg-Merge. Quellen: https://www.rodemann-recycling.de/ ; https://www.rodemann-recycling.de/kontakt/ ; https://www.rodemann-recycling.de/impressum/ .]
 
 ### Recherche 12.10.2026
 

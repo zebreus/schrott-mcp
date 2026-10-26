@@ -30,6 +30,10 @@ Die dem Betreiberkandidaten zugeordnete Website nennt Kevin Sander und untersche
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Ankauf-, Abhol- und Entrümpelungsseiten des Betreiberauftritts erneut direkt gelesen. Ankauf weiterhin nur marktabhängig und mit nicht bezifferten Mindestmengen; Verwiegung soweit möglich vor Ort oder per geeichter Fahrzeugwaage, Auszahlung laut Anbieter bar oder per Überweisung. Kostenlose Altmetallabholung wird beworben; Haushaltsauflösung/Entrümpelung erhält kostenloses, unverbindliches Besichtigungs-/Angebotsverfahren, während die Leistung selbst individuell bepreist wird. Keine numerischen Ankauf- oder Dienstleistungstarife, keine Verkaufspreisliste. Neue Kontaktabweichung innerhalb desselben Webauftritts: Footer/Kontakt nennt 0173 8830230, der WhatsApp-Link führt zu 0172 4488831; nicht als bestätigten Alternativkontakt übernehmen. Das bleibt ein Betreiberquellenkomplex ohne unabhängigen Identitäts-Zweitbeleg; Sitz Obertshausen und Abgabestelle Heusenstamm nicht vermischen. Quellen: https://sander-altmetall.de/altmetallankauf-bei-abholung/ ; https://sander-altmetall.de/kostenlose-altmetallabholung/ ; https://sander-altmetall.de/haushaltsaufloesung-und-entruemplung/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Altmetall + Demontage

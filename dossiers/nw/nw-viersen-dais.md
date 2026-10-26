@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 26.10.2026: Namensvetter-Suche erneut geöffnet
+
+- [Recherche 26.10.2026: Die Gelbe-Seiten-Suche „Dais in Viersen“ direkt gelesen. Sie liefert Deis Martin (Psychiatrie, Viersen) sowie Jürgen Deus (Architektur, Mönchengladbach), aber keinen passenden Dais-Schrott-/Metallbetrieb. Die ähnlichen Namen sind ausdrücklich nicht zugeordnet; aus der Lücke folgt weder Nichtexistenz noch Schließung. Kein Betreiber-/Register-/Standortbeleg, keine Frontmatter-Änderung. **Ankauf:** keine zuordenbare Zusage/Preisliste; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Kein Geocoding ohne Betriebsadresse. Quelle: https://www.gelbeseiten.de/suche/dais/viersen .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Erneute genaue Suche nach Dais/Viersen/Schrotthandel und Abgleich der bekannten Namensvetter ergaben keine Betreiberwebsite, kein Impressum, keinen Registerbeleg und keine Schrottbetriebsadresse. Das ähnlich geschriebene „Deis Martin“ bleibt fachfremd und wird nicht zugeordnet. Keine Frontmatter-Fills/Statusaenderung. Ankauf/Verkauf/Gebuehren: keine Preislisten oder Konditionen auffindbar; Quelle: https://www.gelbeseiten.de/suche/dais/viersen ; https://www.google.com/search?q=%22Dais%22+Viersen+Schrotthandel]

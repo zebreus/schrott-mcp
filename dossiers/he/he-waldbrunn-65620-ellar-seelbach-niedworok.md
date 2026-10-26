@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed ist eine historische Sammelzeile „Ellar/Seelbach/Niedworok“ für Waldbrunn 65620; die vorhandene Recherche fand weder eine belastbare Betreiberquelle noch einen unabhängigen zweiten Beleg für eine bestimmte Person, Anschrift oder öffentliche Annahmestelle. Der Sammelname klärt nicht, ob es sich um einen Betrieb, mehrere Namen oder eine Fehlattribution handelt. Suchtreffer oder ähnliche Orts-/Familiennamen reichen nicht für eine Zuordnung; Status `pruefung` bleibt.
+
+**ANKAUF:** keine bestätigte Annahme oder Kurse. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. **GEO:** keine belegte Betriebs-/Annahmestellenadresse.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Erneute exakte Websuche zum Namensbestandteil „Niedworok“ und Waldbrunn ergab in der direkt abrufbaren Suchergebnisansicht keine zielbezogene Unternehmensquelle; die sichtbaren Treffer waren sachfremd. Diese Suchleere ist kein Beleg für Nichtexistenz oder Schließung. Der bisherige Eintrag Recherche 01.10.2026 bleibt der letzte konkrete Quellenbefund: keine Betreiberquelle/kein unabhängiger Zweitbeleg. Keine Felder geändert. ANKAUF/VERKAUF/GEBÜHREN weiterhin unbelegt. Suchprotokoll (nur Suchhilfe, kein Sachbeleg): https://www.bing.com/search?q=%22Niedworok%22+%22Waldbrunn%22 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

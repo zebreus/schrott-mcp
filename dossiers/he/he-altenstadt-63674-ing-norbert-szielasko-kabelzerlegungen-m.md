@@ -30,6 +30,10 @@ Mehrere Branchenportale wiederholen den Lead „Ing. Norbert Szielasko Kabelzerl
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das 11880-Profil direkt erneut gelesen: weiterhin Herrnstr. 36, 63674 Altenstadt/Waldsiedlung und 06047 2901; Kategorien Kabelmontage, Erz-/Metallgroßhandel, Kabel, Elektronik und Elektrotechnik. Das Profil bietet weiterhin weder Website noch E-Mail-Kontakt, zeigt keine Bewertungen und nennt Eintragsdaten 22.04.2025 bei einer Aktualisierungsanzeige 02.10.2026. Das ist dieselbe Verzeichnisquelle, keine unabhängige Betriebsbestätigung. ANKAUF: keine verifizierten Kurse oder Kundenannahme; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Frontmatter-Änderung, Status `pruefung` bleibt. Quelle: https://www.11880.com/branchenbuch/altenstadt-hessen/062392768B29597958/ing-norbert-szielasko-kabelzerlegungen-metalle.html (Verzeichnislead, direkt geprüft).]
+
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 
 - [Recherche 14.10.2026: [11880-Einzelprofil](https://www.11880.com/branchenbuch/altenstadt-hessen/062392768B29597958/ing-norbert-szielasko-kabelzerlegungen-metalle.html) tatsächlich gelesen: Herrnstraße 36, 63674 Altenstadt/Waldsiedlung, 06047 2901; Kategorien u. a. Kabelmontage und Erz-/Metallgroßhandel. Kein qualifizierter Betriebs-/Annahmebeleg, keine Rücknahme der früheren Kontaktkorrektur. Aktualisierungswidget kein Fortbestandsnachweis.; Quelle: https://www.11880.com/branchenbuch/altenstadt-hessen/062392768B29597958/ing-norbert-szielasko-kabelzerlegungen-metalle.html]

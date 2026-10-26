@@ -30,6 +30,10 @@ Der Seed nennt „Dienstleistung Wiesbaden“ in „Wiesbaden-Sauerland“ und d
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die exakte Websuche nach „Dienstleistung Wiesbaden“ und 0176 63646798 wurde direkt abgerufen; die sichtbare Ergebnisliste war nicht zielbezogen und lieferte keinen neuen Betreiber-, Register- oder Leistungsbeleg. Das ist keine Evidenz für Nichtexistenz oder Schließung. Telefonnummer/Name bleiben unbestätigte Seed-Leads; keine Felder geändert. ANKAUF, VERKAUF und GEBÜHREN bleiben unbelegt. Suchprotokoll (Suchhilfe, kein Sachbeleg): https://www.bing.com/search?q=%22Dienstleistung+Wiesbaden%22+%22017663646798%22 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Entrümpelung (Portal, Tel. 017663646798) – Entrümpelungs-Verdacht

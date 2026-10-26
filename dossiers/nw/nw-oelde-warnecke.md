@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed enthält nur „Warnecke“ und Oelde. Als konkreter Kandidat ist Fritz Warnecke GmbH belegt: Die Betreiberseite nennt Ennigerloher Str. 84, 59302 Oelde, HRB 7533 Münster und Recycling/Abfallmanagement; ein 11880-Profil führt denselben Firmennamen und Standort. Eine sichere Zuordnung des verkürzten Seednamens zum Kandidaten ist damit noch nicht belegt; keine Kontaktdaten oder Betriebsmerkmale wurden übernommen. **Ankauf:** keine numerischen Schrottkurse. **Verkauf:** keine öffentliche Material-/Preisliste. **Gebühren:** keine Container- oder Entsorgungstarife; die beworbene kostenlose IST-Analyse bezieht sich auf Abfallstoffe und ist kein Beleg kostenloser Entsorgung. Kandidatenadresse vor einer Zuordnung geocodieren.
+Der Seed enthält nur „Warnecke“ und Oelde. Fritz Warnecke GmbH ist ein plausibler Kandidat: Betreiber-Impressum nennt HRB 7533 Münster, Ennigerloher Str. 84, 59302 Oelde und 02522 9324-0; NorthData führt die Rechtseinheit. Eine sichere Zuordnung des verkürzten Seeds zum Kandidaten bleibt offen. Die Website enthält zugleich erkennbar alte/generische Template-Reste und belegt keine aktuelle öffentliche Schrottannahme oder konkrete Ankaufkonditionen; Kontaktdaten und Betriebsmerkmale wurden daher nicht übernommen. **Ankauf:** keine numerischen Schrottkurse. **Verkauf:** keine öffentliche Material-/Preisliste. **Gebühren:** keine Container- oder Entsorgungstarife; die beworbene kostenlose IST-Analyse ist keine kostenlose Entsorgung. Kandidatenadresse vor Zuordnung geocodieren.
 
 ## Timeline
+
+### Recherche 26.10.2026: Qualität und Aktualität der Kandidatenwebsite
+
+- [Recherche 26.10.2026: Betreiber-Impressum und Leistungsseite von Fritz Warnecke GmbH direkt geöffnet. Das Impressum führt HRB 7533 Münster und die Oelder Kontaktdaten; die Leistungsseite beschreibt nur die allgemeinen Bereiche Recycling, Logistik und Abfallmanagement und enthält keine konkrete Schrottannahme, Anlieferungsbedingungen, Ankaufspreise oder Entsorgungstarife. Die Website trägt im Footer ©2022 und enthält im selben Seitenlayout sachfremde London-Kontaktdaten sowie Platzhaltertext („ABOUT“), weshalb ihre heutigen Betriebsdetails nicht ungeprüft übernommen werden. Sie stützt die Existenz eines Kandidaten, nicht die Zuordnung zum verkürzten Seed „Warnecke“ oder eine aktuelle Annahmestelle. **Ankauf:** keine Zahlenliste; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Keine Frontmatter-Änderung. Quellen: https://fritz-warnecke.de/impressum/ ; https://fritz-warnecke.de/services/ ; https://fritz-warnecke.de/contact/ .]
 
 ### Recherche 23.10.2026
 
