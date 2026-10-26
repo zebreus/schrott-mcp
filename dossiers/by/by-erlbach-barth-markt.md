@@ -30,6 +30,10 @@ Eine aktuelle 11880-Suche findet „Schrotthandel MT Barth“, Nürnberger Str. 
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Neue Suche bestätigt nur den 11880-Lead „Schrotthandel MT Barth“, Nürnberger Str. 2, 91459 Markt Erlbach, Tel. 0177 2222491. Weiterhin kein Betreiberauftritt, Impressum, Register- oder kommunaler Beleg, der diese Firma mit dem Seednamen „Barth Markt“ verbindet. Keine Kontakt-/Adressübernahme. Ankauf: keine Kurse; Verkauf: keine Liste; Gebühren: keine Tarife. Nürnberger Str. 2 nicht geokodieren, bis Identität und Kundenannahme unabhängig bestätigt sind. Quelle (Lead): https://www.11880.com/branchenbuch/markt-erlbach/060440092B113946169/schrotthandel-mt-barth.html .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 91459)

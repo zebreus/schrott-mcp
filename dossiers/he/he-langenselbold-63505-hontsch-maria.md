@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed nennt „Höntsch Maria“ in Langenselbold (63505), aber keine Straße oder Kontaktdaten. Die dokumentierten Namens-/Ortsabfragen (auch Schreibvarianten Höntsch/Hoentsch sowie Schrott-/Metallhandel) erbrachten keinen belastbaren Händler-, Gewerbe- oder Registerbeleg. Das ist keine Aussage über Nichtexistenz oder Schließung; ebenso wenig ist ein konkreter Familienbetrieb belegt. **Ankauf / Verkauf / Gebühren:** keine zuordenbare Annahme, Preis- oder Gebührenliste. Adresse und Betreiberidentität offen, Status `pruefung`; keine Koordinaten.
+Der Seed nennt „Höntsch Maria“ in Langenselbold (63505), ohne Straße oder Kontaktdaten. Neue Treffer bei Gelbe Seiten und Das Örtliche führen „Höntsch Maria Autoverwertung“ an der Hanauer Str. 66b und nennen 06184 34 46; beide sind Verzeichnis-Leads, kein Betreiber-, Gewerbe- oder Registerbeleg. Ein eigener Das-Örtliche-Eintrag führt außerdem Roland Höntsch an derselben Adresse mit abweichender Nummer. Identität/Annahme und die Zuordnung der mehreren Höntsch-Namen bleiben offen; dies belegt weder einen Familienbetrieb noch Schließung. **Ankauf / Verkauf / Gebühren:** keine zuordenbare Annahme, Preis- oder Gebührenliste. Status `pruefung`; Adresse nur GEO-Kandidat, keine Koordinaten.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Neue Branchenverzeichnis-Leads gefunden: Gelbe Seiten führt „Höntsch Maria Autoverwertung“, Hanauer Str. 66b, 63505 Langenselbold, Tel. 06184 34 46 und Schrott als Leistungsbezug; Das Örtliche führt denselben Namen/Ort/Telefon. Ein separater Das-Örtliche-Eintrag nennt Roland Höntsch, ebenfalls Hanauer Str. 66 B, aber Tel. 06184 77 47. Das sind Aggregatorquellen ohne Betreiber-/Registerbestätigung; gleiche Adresse und Familienname belegen weder gemeinsame Identität noch Annahme. Kein Frontmatter-Fill und keine Zusammenführung. **ANKAUF:** nicht bestätigt/keine Kurse; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Tarife. Hanauer Str. 66b ist nur GEO-Kandidat, vor Geocodierung Betrieb und Kundenannahme bestätigen. Quellen: https://www.gelbeseiten.de/gsbiz/3abbbddd-7889-40a5-a5fa-c6cb2a3d0e51 ; https://www.dasoertliche.de/Themen/H%C3%B6ntsch-Maria-Autoverwertung-Langenselbold-Hanauer-Str ; https://www.dasoertliche.de/Themen/H%C3%B6ntsch-Roland-Langenselbold-Hanauer-Str .]
 
 ### Recherche 22.10.2026
 

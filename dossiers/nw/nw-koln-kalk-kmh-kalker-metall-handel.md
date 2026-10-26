@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die KMH Kalker-Metall-Handel GmbH & Co. KG (AG Köln HRA 29701) ist laut Registerspiegel am 02.01.2023 erloschen; Unternehmensgegenstand war Schrott-/Metallgroßhandel. Die bekannte Domain `kmh-kalker.de` ließ sich aktuell nicht abrufen; der Abruffehler allein ist kein Schließungsbeleg, passt aber zum dokumentierten Registerende. Gottfried-Hagen-Str. 1, 51105 Köln und Tel. 0221 16899625 stammen nur aus Verzeichnissen; die Adresse ist möglicherweise anderweitig genutzt (PK Pressbetrieb/KRG), ohne belegte Nachfolge-/Betreiberkette. Kein aktueller Betrieb oder Rechtsnachfolger für diesen Seed bestätigt.
+
+**Preise:** Ankauf: keine aktuelle Annahme oder Kurse belegt; Verkauf: keine Liste; Gebühren: keine Tarife. Adresse und Telefonnummer bleiben historische/Verzeichnisleads und dürfen nicht geokodiert werden; `status: pruefung` bleibt statt einer unbelegten Aussage zur Geschäftsaufgabe des Datensatzes.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: North-Data-Registerprofil erneut geprüft: KMH Kalker-Metall-Handel GmbH & Co. KG, HRA 29701 AG Köln, Unternehmensgegenstand Schrott-/Metallgroßhandel, formal erloschen 02.01.2023 (Löschung angekündigt 17.11.2022). Die Domain kmh-kalker.de war bei Direktabruf nicht erreichbar; daraus allein wird keine zusätzliche Schließungsaussage abgeleitet. Gottfried-Hagen-Str. 1, 51105 Köln und 0221 16899625 bleiben Aggregator-Leads; keine belegte Nachfolge zu PK Pressbetrieb/KRG. Ankauf/Verkauf/Gebühren: kein aktueller Preis-/Gebührenbeleg. Keine Felder gefüllt und kein GEO für historische Adresse. Quellen: https://www.northdata.de/KMH+Kalker-Metall-Handel+GmbH+Co.+KG,+K%C3%B6ln ; https://kmh-kalker.de/ (Direktabruf ohne Seiteninhalt; kein Statusbeleg).]
 
 ### Recherche 02.10.2026
 

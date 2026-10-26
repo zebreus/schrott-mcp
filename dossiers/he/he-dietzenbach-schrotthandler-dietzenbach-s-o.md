@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Für „Schrotthändler Dietzenbach S.O.“ bleibt nur der Lead von lokaleschrottplatz.de mit Messenhäuser Str. 2, 63128 Dietzenbach und 015562 798188. Dasselbe Portal nennt auf seiner Detail- und Kategorieseiten widersprüchliche Öffnungszeiten; Wiederholungen/Mirrors sind keine unabhängige Bestätigung. Betreiber, aktuelle Tätigkeit und öffentliche Annahme sind nicht belegt; Status `pruefung`, keine Frontmatter-Füllung. **Ankauf / Verkauf / Gebühren:** keine zuordenbare Preisliste oder Tarifangabe. **GEO:** Messenhäuser Str. 2 erst nach Betreiber-/Annahmestellenbestätigung.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Erneute Namens-/Orts- und Portalprüfung brachte keine neue qualifizierte Betreiber-, Register- oder kommunale Quelle. Weiterhin einzig konkreter Lead: lokaleschrottplatz.de nennt Messenhäuser Str. 2, 63128 Dietzenbach und 015562 798188; die unterschiedlichen Portalbereiche hatten bereits Mo–Sa 09:00–18:00 bzw. 07:00–16:00 genannt. Suchwiederholungen und gespiegelt wirkende Treffer sind kein unabhängiger Beleg. Keine Status-/Frontmatter-Änderung. **ANKAUF:** nicht belegt/keine Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Adresse bleibt GEO-Kandidat, bis Betreiber und tatsächliche Annahme geklärt sind. Quelle: https://lokaleschrottplatz.de/schrotthandler-dietzenbach-s-o/ (Aggregator-Lead; ergänzend bereits dokumentierte Portal-Kategorieseiten).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

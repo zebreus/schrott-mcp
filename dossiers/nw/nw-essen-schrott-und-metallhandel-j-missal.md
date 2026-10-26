@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt von **Schrotthandel Missal** nennt Jürgen Missal, Kalthofweg 4, 45277 Essen, 0170 3547895 und schrotthandel-missal@web.de; der Auftritt bietet mobile Schrott-/Metallabholung im Umkreis um Essen. Eine öffentliche Kundenannahme am Hof ist auf den geprüften Seiten nicht belegt, aber auch nicht ausdrücklich ausgeschlossen. Das ist eine deutliche Primärquellenverbesserung gegenüber dem verunreinigten Seed-Straßenfeld. Die zweite Missal-Domain wiederholt dieselben Kontaktdaten, enthält aber auch „Metzler“-Alttexte und eine abweichende Hotline und gilt nicht als unabhängige Bestätigung. Entsprechend bleibt das Frontmatter bis zum Owner-Zweitquellencheck unangetastet.
+Der Betreiberauftritt von **Schrotthandel Missal** nennt Jürgen Missal, Kalthofweg 4, 45277 Essen, 0170 3547895 und schrotthandel-missal@web.de; der Auftritt bietet mobile Schrott-/Metallabholung im Umkreis um Essen. Direkte Prüfung bestätigt diese Angaben, aber die Leistungsseiten tragen Änderungsmetadaten von Juni 2018 und sind kein aktueller Aktivitätsbeleg. Eine öffentliche Kundenannahme am Hof ist auf den geprüften Seiten nicht belegt, aber auch nicht ausdrücklich ausgeschlossen. Die zweite Missal-Domain wiederholt dieselben Kontaktdaten, enthält aber auch „Metzler“-Alttexte und eine abweichende Hotline und gilt nicht als unabhängige Bestätigung. Entsprechend bleibt das Frontmatter bis zum Owner-Zweitquellencheck unangetastet.
 
 **Preise:** Ankauf — Tagespreise/faires Angebot, keine Zahlenliste. Verkauf — keine eigene Verkaufspreisliste. Gebühren — bei Abbruch-/Demontageschrott kann Materialwert laut Betreiber mit Schneid-/Brennarbeiten verrechnet werden; weder Tarif noch konkrete Gebührenhöhe veröffentlicht.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Homepage, Impressum und Leistungsseite direkt geöffnet; die Betreiberwebsite wiederholt Jürgen Missal, Kalthofweg 4, 45277 Essen, Telefon 0170 3547895 und mobil beworbene Abholung im 100-km-Umkreis. Die Leistungsseite trägt Metadaten „veröffentlicht 29.05.2018 / geändert 01.06.2018“, die Über-uns-Seite Veröffentlichungs-/Änderungsdaten aus 2016/2018; daher keine aktuelle Aktivität aus der Abrufbarkeit abgeleitet. Keine unabhängige aktuelle Betreiber-/Registerbestätigung; Website, Kontakt und Impressum desselben Auftritts sind ein Quellenkomplex. Frontmatter bleibt unverändert. Ankauf: Marktpreis-/Tagespreiswerbung ohne konkrete Zahlen; Abbruchschrott kann laut Website gegen Schneid-/Brennarbeiten verrechnet werden, ohne Tarif. Verkauf: keine Produkt-/Materialpreisliste. Gebühren: keine veröffentlichten Abhol-/Demontagepreise. Kalthofweg 4 bleibt Kandidat und ist nicht geokodiert. Quellen: https://www.schrotthandel-missal-essen.de/ ; https://www.schrotthandel-missal-essen.de/impressum/ ; https://www.schrotthandel-missal-essen.de/schrott-metallabholung/ ; https://www.schrotthandel-missal-essen.de/kontakt/.]
 
 ### Owner-Korrektur 17.10.2026
 

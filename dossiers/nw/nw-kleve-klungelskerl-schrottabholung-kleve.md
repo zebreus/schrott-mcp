@@ -30,6 +30,10 @@ Unbestätigter mobiler Schrottabhol-Lead mit der Altadresse Burgunderstr. 13 und
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Lokaleschrottplatz-Detailseite erneut direkt gelesen: Burgunderstr. 13, 47533 Kleve, 02821 7853033, Mo–Sa 07–21, behauptete Materialkategorien und Mindestmengen 100 kg Fe/1 kg NE. Das sind Portalangaben, keine Betreiberbestätigung; Mindestmengen/Zeiten nicht übernommen und keine Ankaufpreise daraus abgeleitet. Die separate Seite schrottabholung-kleve.de nennt weiterhin A. Lahib an Dinnendahlstraße 18 mit anderer Nummer, ohne belegte Verbindung zu diesem Lead. Ankauf/Verkauf/Gebühren: keine bestätigten Preise/Tarife. Frontmatter unverändert; Burgunderstraße nicht für GEO freigegeben. Quellen: https://lokaleschrottplatz.de/klungelskerl-schrottabholung-kleve/ (Lead); https://www.schrottabholung-kleve.de/impressum/ (separater Betreiber, kein Zuordnungsbeleg).]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Erneute Suche nach dem konkreten Burgunderstraßen-/Telefon-Lead ergab keine neue Betreiber-Primärquelle; der bekannte Treffer bleibt ein Portalprofil und die Lahib-Website ein separat identifizierter Betreiber. Keine Identitäts- oder Standortkette, keine Preis-/Gebührenbedingungen zugeschrieben. Preisprüfung getrennt: kein belastbarer Ankaufspreis, keine Verkaufspreisliste, keine bestätigte Abholgebühr. Geocoding der Burgunderstr. 13 bleibt bis zur Standortverifikation zurückgestellt. Quelle(n): https://lokaleschrottplatz.de/klungelskerl-schrottabholung-kleve/ ; https://www.schrottabholung-kleve.de/impressum/]

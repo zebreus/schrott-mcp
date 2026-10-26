@@ -31,6 +31,10 @@ Kein belegter aktueller Annahmeort für diese Seedzeile, keine Ankauf-, Verkaufs
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: GLEIF-API-Datensatz LEI 391200DERUQIA2FILR68 frisch gelesen (goldenCopy-Publikation 25.10.2026): Schrott-Sasse GmbH & Co. KG, HRA 5881, Lippstädter Str. 61, 33378 Rheda-Wiedenbrück; Entity ACTIVE, LEI-Status ISSUED, letzte Aktualisierung 18.04.2026, nächste Verlängerung Juni 2027. Das bestätigt den Rechtsträger und dessen Register-/LEI-Status, aber nicht aktuelle Schrottannahme, Betriebsfortführung oder Zuordnung des generischen Seeds gegenüber den historischen Sasse-Betrieben am Südring/Lippstädter Straße. Keine Ankauf-/Verkaufspreise oder Gebühren. `clear_fields: 'geo'` bleibt wirksam; historische/gesellschaftsrechtliche Adresse nicht als gegenwärtigen Annahmepunkt geokodieren. Quelle: https://api.gleif.org/api/v1/lei-records/391200DERUQIA2FILR68 ; Kontext/Betreiberhistorie siehe Recherche 23.10.2026.]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.8497000, 8.3002000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

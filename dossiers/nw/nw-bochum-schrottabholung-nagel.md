@@ -32,6 +32,10 @@ Der bestehende Kandidat nennt die Hattinger Str. 272b und eine Mobilnummer nur a
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Bekannte Domain und /impressum/ erneut direkt versucht, weiterhin Transportfehler; Facebook-Abruf weiterhin ohne auswertbaren Seitentext. Das sind Abrufgrenzen, kein Beleg für Nichtexistenz oder Schließung. Hattinger Str. 272b und 0176 84776442 bleiben Seed-/Verzeichnisleads; Gratisabholung ist nicht bindend verifiziert. Ankauf: keine Zahlenkurse; Verkauf: keine Liste; Gebühren: kostenlose Abholung nur unbestätigte Profilwerbung, keine bestätigten Tarifbedingungen. Kein Frontmatter-Fill, keine GEO-Freigabe. Quellen: https://www.schrottabholung-nagel.de/ ; https://www.schrottabholung-nagel.de/impressum/ ; https://www.facebook.com/SchrottabholungNagel.]
+
 ### Recherche 14.10.2026 — 18:00-Welle A
 
 - [Recherche 14.10.2026: Domain www.schrottabholung-nagel.de direkt erneut Transportfehler. Facebook-Direktabruf liefert nur Seitentitel „Schrottabholung Nagel | Bochum“, keinen auswertbaren Betreiber-/Kontakt-/Konditionstext. Das reicht nicht zur Bestätigung von Inhaber, Hattinger Str. 272b, 0176-Nummer oder Gratis-Abholung; Suchnachlauf HTTP 429. Kein Schließungsbeweis aus Fehlern. Kein Frontmatter-Fill; Ankauf/Verkauf/Gebühren und GEO-Freigabe offen. Quellen: https://www.schrottabholung-nagel.de/ ; https://www.facebook.com/SchrottabholungNagel]

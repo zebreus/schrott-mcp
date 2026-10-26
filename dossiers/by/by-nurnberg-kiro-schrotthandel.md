@@ -26,7 +26,13 @@ provenance_origin: table
 
 **Standort-/Identitätsklärfall:** Der echte Betreiberauftritt schrotthandel-berlin.com nennt Kiro Kafedzhiev, Blankenburger Straße 18–20, 13089 Berlin; ein Bezug zu Nürnberg ist nicht belegt. Dort veröffentlichte Schrottankauf- und Containerpreis-Seiten gehören zum Berliner Betreiber, nicht automatisch zum Nürnberger Seed. Keine Berliner Kontakte, Preise oder Koordinaten auf diesen Slug übertragen. **Ankauf / Verkauf / Gebühren:** für Nürnberg kein zugeordneter Preisbeleg. Owner: ursprüngliche Nürnberger Entität über Gewerbequelle verifizieren; falls Fehlzuordnung, Umgang mit Phantomdatensatz gesondert entscheiden.
 
+Eine frische Nürnberger SchrottRadar-Seite listet einzelne Preise unter „Kiro Schrotthandel & Schrottabholung“ (Zink 1,50 €/kg am 08.10.2026; Aluminium 1,35 €/kg am 02.10.2026). Diese Beträge entsprechen den auf Kiros Berliner Betreiberseite ausgewiesenen Werten; SchrottRadar legt für die Einträge keine lokale Quellseite offen. Das spricht für eine mögliche Stadt-/Quellenfehlzuordnung, beweist aber keine Nürnberger Filiale. Die Werte bleiben Berlin-/Aggregator-Spuren und sind keine Preise dieses Datensatzes.
+
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: SchrottRadar-Seite „Aktuelle Schrottpreise in Nürnberg“ direkt gelesen (Stand der Seite 23.10.2026): Sie führt Kiro mit Zink 1,50 €/kg (08.10.) und Aluminium 1,35 €/kg (02.10.) auf, ohne pro Datensatz eine konkrete lokale Quelle zu verlinken. Die direkt gelesene Kiro-Preisseite Berlin weist ebenfalls Zink 1,50 €/kg und Alu sauber 1,35 €/kg aus; das Berliner Impressum nennt Kiro Kafedzhiev und Blankenburger Straße 18–20, 13089 Berlin. Die Übereinstimmung legt eine mögliche Fehlzuordnung der aggregierten Nürnberger Preiszeilen nahe, ist aber kein Beweis einer Übertragung. Daher keine Preis-/Adressübernahme für Nürnberg. Für Berlin listet die Betreiberseite außerdem u. a. Kupfer Millberry 10,10 €/kg (ab 750 kg 10,30), Kupfer Raff 9,45 (ab 750 kg 9,65), Mischschrott 0,12 und Scheren-/Gussschrott 0,14 €/kg; kein Preisstandsdatum, unverbindlich. Verkauf: keine Autoteile/keine Verkaufsliste; Gebühren: Container ohne Standmiete, aber Gestellung/Abholung kostenpflichtig bzw. Verrechnung mit Schrottwert; keine bezifferte Anfahrt. Alles ausschließlich Berliner Betreiberinformation, nicht Nürnberger Seedpreise. Nürnberg-GEO bleibt mangels Zieladresse offen. Quellen: https://schrottradar.de/schrottpreise/schrottpreise-nuernberg/ ; https://schrotthandel-berlin.com/impressum/ ; https://schrotthandel-berlin.com/schrottpreise/ ; https://schrotthandel-berlin.com/containerdienst-preise/ .]
 
 ### Recherche 08.10.2026
 

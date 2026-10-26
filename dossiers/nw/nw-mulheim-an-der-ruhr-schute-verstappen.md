@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schüte & Verstappen GmbH ist als Rechtsträger mit HRB 39228, Sitzanschrift Aktienstr. 23, 45473 Mülheim an der Ruhr und Unternehmensgegenstand Metall-Schrottgroßhandel/Containerdienst identifizierbar. Die Registereintragung erfolgte am 24.06.2025. Ein älterer kommunaler Inspektionsbericht nennt dieselbe Firma und Adresse, sein Inspektionstag (27.05.2025) liegt jedoch vor der Neueintragung; daraus folgt keine vollständige Vorgänger- oder Betreiberkette. Die Stadtseite/PDF-URL ließ sich in der aktuellen Prüfung nicht mehr als Bericht abrufen. Aktuelle Kundenannahme, Kontakt und Nachfolge von Schüte A. an Aktienstr. 25 bleiben offen; kein Telefonnummerntransfer.
+
+**Preise:** Ankauf: keine Kurse/Annahmebedingungen veröffentlicht; Verkauf: keine Preisliste; Gebühren: keine Container- oder Entsorgungstarife. `status: pruefung` bleibt; keine neue Betreiberadresse oder GEO-Freigabe.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: North-Data-Detail erneut abgerufen; Schüte & Verstappen GmbH, HRB 39228, Aktienstr. 23, 45473 Mülheim, Gegenstand Metall-Schrottgroßhandel und Containerdienst, Eintragung 24.06.2025. Der kommunale Umweltinspektionsbericht mit Berichtdatum 26.09.2025 war in der vorherigen Welle dokumentiert; der direkte Stadt-PDF-Link lieferte jetzt nur die allgemeine Stadtseite, deshalb keine neue Aussage aus dem Bericht abgeleitet. Die im Bericht genannte Inspektion datiert vor der Registereintragung und belegt keine lückenlose Betreiberkontinuität. Keine aktuelle Annahme, Öffnungszeiten, Telefonnummer, Ankauf-/Verkaufspreise oder Gebühren belegt; Vorgänger Schüte A. bleibt separat. Quellen: https://www.northdata.de/Sch%C3%BCte+%26+Verstappen+GmbH,+M%C3%BClheim+a.+d.+Ruhr/Amtsgericht+Duisburg+HRB+39228 ; https://www.muelheim-ruhr.de/cms/shared/datei_download.php?uid=0925de02a1b998112ff8be9bd411e425 (aktuell nicht mehr als Bericht abrufbar).]
 
 ### Recherche 02.10.2026
 

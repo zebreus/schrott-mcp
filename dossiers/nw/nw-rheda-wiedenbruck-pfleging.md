@@ -11,8 +11,9 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
-description: An-/Verkauf Eisen-/Stahlschrott, Altmetall-Grosshandel (HRB 6222 AG Guetersloh, gegr. 1996)
+status: pruefung
+description: 'Historischer Unternehmensgegenstand: An- und Verkauf von Eisen- und Stahlschrott; GmbH i.L., gelöscht 24.10.2022.'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
@@ -24,9 +25,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Berni Pfleging GmbH (HRB 6222 AG Gütersloh) führte historisch den An- und Verkauf von Eisen-/Stahlschrott. Der nun direkt geprüfte Registerspiegel dokumentiert Liquidator Berni Pfleging und eine Veröffentlichung vom 03.04.2020 sowie die formelle Löschung am 24.10.2022. Damit ist der frühere Status `aktiv` nicht haltbar. Mangels Nachweis einer Fortführung oder eines Rechtsnachfolgers wird der Seed auf `pruefung` gesetzt, nicht als Standort geschlossen behauptet. Fürs Unternehmen sind keine aktuellen Ankauf-/Verkaufsbedingungen oder Gebühren nachweisbar. Fürst-Bentheim-Str. 36 und 05242 401369 bleiben historische Stammdaten, nicht aktuelle Kontakt-/Annahmebestätigung. Der gespeicherte GEO-Punkt löst an einer anderen Straße auf und wird mit `clear_fields: 'geo'` beim nächsten regulären Seed zurückgezogen; keine Ersatzkoordinate.
 
 ## Timeline
+
+### Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: North-Data-Detail HRB 6222 AG Gütersloh direkt geprüft. Es führt Berni Pfleging GmbH mit historischem Gegenstand An-/Verkauf von Eisen- und Stahlschrott, Liquidator Berni Pfleging und Veröffentlichung vom 03.04.2020; die Gesellschaft wurde am 24.10.2022 formell gelöscht. Damit ist `status: aktiv` nicht mehr gerechtfertigt. Status auf `pruefung` korrigiert, nicht `geschlossen`, da keine aktuelle Prüfung des Betriebsorts oder belegte Nachfolge vorliegt. Beschreibung auf historischen Gegenstand/Löschdatum präzisiert; Straße und Telefon bleiben im Datensatz als nicht aktuelle Leads, werden nicht als aktive Betreiberkontakte dargestellt. Die read-only Produktionszeile enthielt 51.8497, 8.3002; OSM-Rückwärtssuche löst den Punkt an Zum Eidhagen auf, nicht an der historischen Fürst-Bentheim-Str. 36. Die Adresssuche findet den historischen Hausnummern-Gebäudepunkt rund 1,2 km entfernt, aber keine aktuelle Betreiber-/Annahmestelle. Daher `clear_fields: 'geo'`, ohne Ersatzpin; die gelöschte GmbH wird nicht als heutiger Betrieb geokodiert. Ankauf/Verkauf/Gebühren: keine aktuellen Konditionen, Preislisten oder Tarife; keine Nachfolgezuordnung vorgenommen. Quellen: https://www.northdata.de/Berni+Pfleging+GmbH,+Rheda-Wiedenbr%C3%BCck/Amtsgericht+G%C3%BCtersloh+HRB+6222 ; https://nominatim.openstreetmap.org/reverse?lat=51.8497&lon=8.3002&format=jsonv2&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=F%C3%BCrst-Bentheim-Stra%C3%9Fe%2036%2C%2033378%20Rheda-Wiedenbr%C3%BCck%2C%20Germany&format=jsonv2&addressdetails=1 ; https://www.openstreetmap.org/copyright ; read-only public.db (26.10.2026).]
 
 ### Recherche 04.10.2026
 

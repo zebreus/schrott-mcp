@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Mehrere plausible Steindl-Betriebe lassen sich dem Seednamen „Steindl“ nicht sicher zuordnen. Betreiberauftritt der Steindl GmbH in Peißenberg (Rudolf-Diesel-Str. 3) nennt Schrott-/Metallannahme, An- und Verkauf, Container und Kranabholung; eine andere Betreiberwebsite gehört zur Steindl Rohstoffe UG & Co. KG in Hohenpeißenberg. Keine der beiden Identitäten ist für diesen Datensatz gesichert.
+Mehrere plausible Steindl-Betriebe lassen sich dem Seednamen „Steindl“ nicht sicher zuordnen. Der Peißenberger Betreiberauftritt der Steindl GmbH nennt Rudolf-Diesel-Str. 3 als Standort, während NorthData für HRB 106538 als aktuelle Registeranschrift Forster Str. 17a führt; ob Rudolf-Diesel-Str. 3 eine Betriebsstätte ist oder eine veraltete Websiteangabe, bleibt offen. Eine andere Betreiberwebsite gehört zur Steindl Rohstoffe UG & Co. KG in Hohenpeißenberg. Keine der beiden Identitäten ist für diesen Datensatz gesichert.
 
 - **Ankauf:** Peißenberger Kandidat wirbt mit An-/Verkauf zu „fairen Preisen“, ohne Zahlen; Hohenpeißenberger Kandidat nennt aktuelle Ankaufspreise auf Anfrage. Beides nicht dem Seedbetrieb zurechenbar.
 - **Verkauf:** Kandidatenseiten beschreiben Materialverkauf, jedoch ohne numerische Verkaufspreise; nicht als Zielbetriebsangebot bestätigt.
@@ -32,6 +32,10 @@ Mehrere plausible Steindl-Betriebe lassen sich dem Seednamen „Steindl“ nicht
 - **Geokodierung:** keine für das Dossier. Rudolf-Diesel-Str. 3, 82380 nur dann geokodieren, wenn die Peißenberger GmbH als Ziel bestätigt wird.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Beide Betreiberauftritte erneut direkt geprüft. Die Peißenberger Steindl GmbH-Seite nennt Rudolf-Diesel-Str. 3, Tel. 08803 2231, Öffnungszeiten Mo–Do 08:00–12:00/13:00–17:30 und Ankauf/Verkauf ohne bezifferte Kurse. NorthData führt für HRB 106538 dagegen Forster Str. 17a als aktuelle Registeranschrift; die sichtbare letzte Adressänderung datiert auf 17.12.2019, jüngste sichtbare Jahresabschluss-Publikation auf 29.02.2024. Das Registerprofil belegt nicht, ob Rudolf-Diesel-Str. 3 eine Betriebsstätte oder eine veraltete Webangabe ist. Das Website-Impressum wird im Abruf fehlerhaft/verdreht dargestellt; Registerdaten daher separat und nicht aus dem Seitenimpressum dekodiert. Die eigenständige Steindl Rohstoffe UG & Co. KG nennt in ihrem lesbaren Impressum Thomas Steindl, HRB 246810, Bahnhofstr. 76, 82383 Hohenpeißenberg und 0170 3188648; sie bewirbt Tagespreise auf Anfrage und Container ohne Miete, wobei Entsorgung nach Menge berechnet wird. Keine numerische Ankauf-/Verkaufspreisliste oder konkrete Entsorgungsgebühr gefunden. Beide Betreiberidentitäten sowie ihre Adressen bleiben Kandidaten, keine Zuordnung des Seeds; keine Felder übernommen oder geokodiert. Quellen: https://www.steindl-schrott-container.de/impressum ; https://www.steindl-schrott-container.de/leistungen ; https://www.northdata.de/Steindl%20GmbH,%20Pei%C3%9Fenberg/Amtsgericht%20M%C3%BCnchen%20HRB%20106538 ; https://www.online-handelsregister.de/handelsregisterauszug/by/Muenchen/HRB/106538/Steindl-GmbH ; https://steindl-rohstoffrecycling.de/impressum.php ; https://steindl-rohstoffrecycling.de/containervermietung.php .]
 
 ### Recherche 18.10.2026 — Welle 02:00 / a
 

@@ -35,6 +35,10 @@ Status `pruefung` bleibt wegen fehlendem unabhängigen Register-/Gewerbenachweis
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Betreiberseite erneut direkt gelesen. Sie nennt weiter tagesaktuelle, individuell anzufragende Buntmetallpreise, kostenlose Abholung in der Kernregion und kostenlose Gitterboxen für Gewerbekunden; einfacher Eisenschrott wird bei Abholung ausdrücklich ohne Vergütung mitgenommen. Weiter entfernte Abholung hängt von Menge/Entfernung ab, aber ein Mindestgewicht oder fester Radius ist nicht beziffert. Keine numerische Ankaufspreisliste, keine Verkaufspreise und keine sonstigen Gebühren gefunden. Kontaktzeiten sind keine Kundenöffnungszeiten; die Firma bleibt als mobil beschrieben, ohne geokodierbare Kundenannahmeadresse. Quelle: https://florian-metalle.de/ .]
+
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: Betreiberwebsite/Leistungsbeschreibung erneut inhaltlich ausgewertet: Buntmetalle werden zu tagesaktuellen, individuell anzufragenden Konditionen gekauft; Eisenschrott nimmt der Betreiber kostenfrei, aber ohne Bezahlung mit. Die Website bewirbt kostenlose Abholung, begrenzt nach Menge/Region (weiter entfernte Abholung nur bei ausreichendem Volumen); kein numerischer Kurs, keine Preisliste für Materialverkauf und keine sonstigen Gebühren gefunden. Kontaktzeiten Mo–Fr 9–18/Sa 10–13 sind Erreichbarkeitszeiten, nicht Kundenöffnungszeiten. Für DPF/Katalysatoren wird ein individuelles Angebot genannt. Stationäre Annahme weiterhin nicht ausgewiesen; Geschäftsanschrift Albrecht-Dürer-Straße 15, 90766 Fürth nicht geokodieren. Offen: konkrete Materialangebote und Voraussetzungen je Abholauftrag. Quelle: https://florian-metalle.de/]

@@ -30,6 +30,10 @@ Der Seed „Dk“ in Weiterstadt ist nicht eindeutig genug, um ihn einem Betrieb
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das offizielle Firmenverzeichnis der Stadt Weiterstadt erneut direkt geprüft. Es führt „Dk Schrotthandel“ am Gehaborner Weg 101, 64331 Weiterstadt, Tel. 0151 17208606 und listet Schrotthandel, Abbruch, Entsorgung, Abholung sowie Metallarten. Dieser konkrete städtische Eintrag gehört als Kandidat zum bereits separaten Dossier `he-weiterstadt-dkschrotthandel.md`; die verkürzte Seedbezeichnung „Dk“ enthält keine Straße/Kontaktdaten und wird mangels Identitätsbrücke nicht zusammengeführt. Das zusätzliche DK-Dossier für Groß-Zimmern bleibt getrennt. **ANKAUF:** Tätigkeits-/Materialhinweise, aber keine Preise; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Gehaborner Weg 101 ist GEO-Kandidat nur für die städtisch gelistete Entität, nicht automatisch für diesen Seed. Quelle: https://www.weiterstadt.de/wirtschaft-umwelt-verkehr/wirtschaft-gewerbe/_firmenverzeichnis/detail.php?we_objectID=7796 .]
+
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Das offizielle Firmenverzeichnis der Stadt Weiterstadt führt „Dk Schrotthandel“ am Gehaborner Weg 101, 64331 Weiterstadt, Telefon 0151 17208606, Öffnungszeiten 7:30–17:30 und Schrotthandel/Abbruch/Entsorgung/Metallarten/Abholung. Der vorhandene vollständige Datensatz dazu ist `he-weiterstadt-dkschrotthandel`; die Stadtangabe beweist nicht, dass der nur „Dk“ genannte Seed dieselbe Entität ist, daher keine Felder übernommen und kein Merge. Das separate Groß-Zimmerner „DK“-Dossier dokumentiert bereits einen Adresskonflikt; Initialen reichen nicht zur Zuordnung. Die Stadtseite veröffentlicht keine numerischen Ankaufs- oder Verkaufspreise und keine Gebühren; Quelle: https://www.weiterstadt.de/wirtschaft-umwelt-verkehr/wirtschaft-gewerbe/_firmenverzeichnis/detail.php?we_objectID=7796; https://www.dkschrotthandel.de/kontakt/; https://www.gelbeseiten.de/gsbiz/5c29af67-3693-46e7-900c-06f83f1f6fbb]

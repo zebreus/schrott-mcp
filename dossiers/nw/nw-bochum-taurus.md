@@ -24,7 +24,7 @@ provenance_origin: table
 
 ## Überblick
 
-Der Treffer „Taurus Schrotthandel Entsorgung von Schrott und Altmetall“ an Gelsenkirchener Str. 4, 44866 Bochum-Leithe, Tel. 01575 4037431, bleibt ein Verzeichnis-Lead. Ein Betreiberauftritt, eine belastbare Betreiberidentität und konkrete Annahmebedingungen fehlen. Nicht mit dem gleichnamigen Entrümpelungs-/Abriss-Treffer am Alten Zoll 6 vermischen.
+Der Treffer „Taurus Schrotthandel Entsorgung von Schrott und Altmetall“ an Gelsenkirchener Str. 4, 44866 Bochum-Leithe, Tel. 01575 4037431, bleibt ein einzelner Verzeichnis-Lead. Der aktuelle 11880-Abruf führt nun zusätzlich `schrott24@hotmail.com` und täglich 10–20 Uhr einschließlich Sonntag; das widerspricht früheren Mo–Sa-Angaben und ist weder Betreiberbestätigung noch Aktivitätsnachweis. Betreiberauftritt, belastbare Betreiberidentität und konkrete Annahmebedingungen fehlen. Nicht mit dem gleichnamigen Entrümpelungs-/Abriss-Treffer am Alten Zoll 6 vermischen.
 
 - **Ankauf:** nicht als Betreiberangebot bestätigt; keine Zahlenkurse.
 - **Verkauf:** keine zuordenbare Liste.
@@ -32,6 +32,10 @@ Der Treffer „Taurus Schrotthandel Entsorgung von Schrott und Altmetall“ an G
 - **GEO:** Gelsenkirchener Str. 4 ist eine Lead-Adresse, keine bestätigte Annahmestelle; nicht als Händlerstandort pinnen.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Direkter 11880-Abruf führt weiterhin Gelsenkirchener Str. 4, 44866 Bochum und 01575 4037431; ergänzt sind `schrott24@hotmail.com` sowie Öffnungszeiten täglich 10–20 Uhr inkl. Sonntag. Portal nennt Eintragsdatum 13.11.2024 und Profilaktualisierung 06.10.2026. Frühere Mo–Sa-Zeitangaben weichen ab; weder Mail noch Zeiten deshalb in Frontmatter übernommen. Kein Betreiber-/Registerbeleg und keine zuordenbare Preisliste oder Gebührenbedingung. Ankauf/Verkauf/Gebühren weiter offen; Adresse bleibt Lead und GEO-gesperrt. Quelle (Aggregator): https://www.11880.com/branchenbuch/bochum/060440090B102502961/taurus-schrotthandel-entsorgung-von-schrott-und-altmetall.html]
 
 ### Recherche 23.10.2026: Lead-Abgleich
 

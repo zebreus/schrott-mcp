@@ -24,7 +24,7 @@ provenance_origin: prose
 
 ## Überblick
 
-Mehrere Branchenverzeichnisse führen einen Hammerschmidt-Recycling-Betrieb in der Karl-Koenigsdorfer-Str. 25A, 89335 Ichenhausen, mit ähnlichen Kontaktdaten. Die Namen der genannten Personen und Firmenzuordnungen weichen jedoch vom Seed-Namen Emil/Philip Hammerschmidt ab; die Identität ist offen. Die Kandidaten-Domain `hammerschmidt-recycling.de` hat beim letzten Direktabruf einen TLS-Zertifikatsfehler geliefert und ist kein verifizierter Betreiberauftritt. Der neue Impressums-Suchindex nennt ausdrücklich Michael, nicht Emil/Philip; deshalb insbesondere keine Übertragung seiner Adresse/Kontakte. Auch ob „Emil/Philip“ einen gemeinsamen Betrieb meint, ist nicht primär belegt.
+Mehrere Branchenverzeichnisse führen einen Hammerschmidt-Recycling-Betrieb in der Karl-Koenigsdorfer-Str. 25A, 89335 Ichenhausen; der Namenslead dort nennt Michael Hammerschmidt. Eine getrennte Verzeichnisspur führt **Emil Hammerschmidt Schrottentsorgung** an Am Birketle 19, während die Ichenhausener Treffer für Philip den Namen **Bachinger** nennen. Damit ist ein Zusammenschluss „Emil/Philip Hammerschmidt“ gerade nicht belegt und der Seed könnte mehrere Händler/Personen vermengen. Die Kandidaten-Domain `hammerschmidt-recycling.de` hat beim letzten Direktabruf einen TLS-Zertifikatsfehler geliefert; ihre Impressums-Suchergebnisse nennen Michael, nicht Emil/Philip. Keine Adresse/Kontakte auf den Seed übertragen.
 
 - **Ankauf:** keine belastbaren Ankaufspreise oder bestätigten Annahmebedingungen.
 - **Verkauf:** keine Verkaufspreise.
@@ -32,6 +32,10 @@ Mehrere Branchenverzeichnisse führen einen Hammerschmidt-Recycling-Betrieb in d
 - **Geokodierung:** keine, bis Betreiber und genaue Kundenanschrift zweifelsfrei zugeordnet sind.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die aktuelle Ichenhausen-Suche trennt drei Lead-Gruppen: (1) „Emil Hammerschmidt Schrottentsorgung“, Am Birketle 19, 89335 Ichenhausen, Tel. 08223 853 (Branchen-/Schrottplatzverzeichnisse); (2) Hammerschmidt Recycling an Karl-Koenigsdorfer-Str. 25A, wo der aktuelle Impressums-Suchindex Michael nennt und die Domain wegen TLS-Fehler nicht direkt lesbar war; (3) „Philip Bachinger Ankauf v. Schrott u. Metallen“, also anderer Nachname. Alle konkreten Emil-/Philip-Ortstreffer sind Verzeichnisleads, keine zulässige Identitäts-/Betreiberkette. Sie belegen nicht, ob der Seed eine oder mehrere Personen meint. Ankauf/Verkauf/Gebühren für Emil/Philip: keine zurechenbaren Preise. Keine Frontmatter-Fills; weder Am Birketle 19 noch Karl-Koenigsdorfer-Str. 25A geokodieren, bis Zielbetrieb und Kundenannahme geklärt sind. Quellen: https://www.branchenbuchdeutschland.de/branchenbuch/bayern+guenzburg+stadt+ichenhausen/schrott ; https://www.schrottplatz24.net/stadt/ichenhausen/cat/entsorgung/ ; https://www.gelbeseiten.de/branchen/schrotthaendler/ichenhausen ; https://hammerschmidt-recycling.de/impressum/impressum.html (Direktabruf Transportfehler).]
 
 ### Recherche 18.10.2026 — Welle 02:00 / a
 

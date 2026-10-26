@@ -30,6 +30,10 @@ NorthData führt die Autoverwertung Heinrich Kolb GmbH (AG Wiesbaden, HRB 9634) 
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: NorthData HRB 9634 sowie die Verzeichnis-Leads zu Autoverwertung Heinrich Kolb erneut abgeglichen. NorthData bestätigt Rechtsträger und Registeranschrift Eisenmännchenstr. 7, 65201 Wiesbaden sowie den Unternehmensgegenstand (Autoverwertung, Fahrzeug-/Teilehandel, Abschleppdienst), aber nicht aktuellen Kundenbetrieb. Cylex/Schrottplatz-Portale nennen 0611 98810065, ohne aktuelle Betreiberbestätigung; Telefon deshalb nicht übernommen. Keine aktuelle Annahme-, Ankauf-, Verkaufspreis- oder Gebührenliste. **ANKAUF:** keine Kurse; **VERKAUF:** keine Teilepreise; **GEBÜHREN:** keine Abschlepp-/Entsorgungstarife. Registeradresse nur GEO-Kandidat, aktuelle Kundenstelle vor Geocodierung bestätigen. Quellen: https://www.northdata.de/Autoverwertung%20Kolb%20Heinrich%20GmbH,%20Wiesbaden/HRB%209634 ; https://web2.cylex.de/firma-home/autoverwertung-heinrich-kolb-168858.html ; https://www.schrottplaetze.org/autoverwertung-heinrich-kolb-gmbh/ .]
+
 ### Recherche 25.10.2026
 
 - [Recherche 25.10.2026: NorthData-Unternehmensprofil HRB 9634 erneut direkt gelesen. Es nennt Autoverwertung Heinrich Kolb GmbH, AG Wiesbaden, Eisenmännchenstr. 7, 65201 Wiesbaden, und Unternehmensgegenstand Autorecycling/Autoverwertung, Handel mit Fahrzeugen und Teilen/Zubehör sowie Abschleppdienst. Der Profilinhalt bestätigt die Registeridentität/Anschrift, nicht den aktuellen Kundenbetrieb; sichtbare spätere Veröffentlichungen reichen nur bis 2013/2015. Keine aktuelle Preis- oder Gebührenliste und keine aktuelle Annahmebestätigung gefunden. Ankauf / Teileverkauf / Abschlepp- und Entsorgungsgebühren daher jeweils ohne belastbare Tarife. Keine Frontmatter-Änderung; GEO nur nach Bestätigung des heutigen Kundenstandorts. Quelle: https://www.northdata.de/Autoverwertung%20Kolb%20Heinrich%20GmbH,%20Wiesbaden/HRB%209634]

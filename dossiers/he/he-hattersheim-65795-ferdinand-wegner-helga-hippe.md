@@ -30,6 +30,10 @@ Die eingetragene Ferdinand Wegner und Helga Hippe KG (HRA 81370) wurde 2009 gel�
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: NorthData-Profil HRA 81370 erneut direkt geprüft; es führt die historische „Ferdinand Wegner und Helga Hippe KG, Schrott und Metalle, Muldendienst, Abbruch- und Erdarbeiten“ in Kelsterbach und Löschung am 20.01.2009. Der Registereintrag bestätigt weder eine Verbindung zum Hattersheimer Seed noch eine Nachfolge an Am Welschgraben 1. Weitere Kelsterbacher Verzeichnisadresse ist kein Standortbeleg für diesen Datensatz. Keine Felder geändert. **ANKAUF / VERKAUF / GEBÜHREN:** keine aktuellen Preise/Tarife. Am Welschgraben 1 bleibt ungeklärte Lead-Adresse und wird nicht geocodiert, bis Betreiber-/Standortkette feststeht. Quelle: https://www.northdata.de/Ferdinand+Wegner+%26+Helga+Hippe+GmbH+%26+Co.+KG,+Kelsterbach/Amtsgericht+Darmstadt+HRA+81370 .]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: Northdata-Profil HRA 81370 erneut vollständig im frei sichtbaren Bereich gelesen: historischer Titel Ferdinand Wegner und Helga Hippe KG, Schrott und Metalle, Muldendienst, Abbruch- und Erdarbeiten; Kelsterbach, Löschung 20.01.2009. Originalbekanntmachung nicht geöffnet. Suchtreffer zu Hattersheim bleiben Verzeichnisse an Am Welschgraben 1/06190 899750, keine Identitäts-/Nachfolgekette und keine aktuelle Betriebsbestätigung. Historischen Registerrechtsträger nicht ohne Standortzuordnung zum heutigen Hattersheimer Betrieb erklären; keine Felder/Status geändert. ANKAUF/VERKAUF/GEBÜHREN ohne aktuellen Tarif; GEO für historischen bzw. unzugeordneten Standort nicht freigeben. Quelle: https://www.northdata.de/Ferdinand+Wegner+%26+Helga+Hippe+GmbH+%26+Co.+KG,+Kelsterbach/Amtsgericht+Darmstadt+HRA+81370 (live).]

@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein direkt gelesener Schrottplatz.org-Eintrag führt „Schrott Arbter Stefan“ an Holzmarkt 28, 34466 Wolfhagen, Telefon 05692 9943020. Das bleibt ein einzelner Branchenportal-Lead; unabhängiger Betreiber-, Register- oder Annahmestellennachweis fehlt. Der Seed-Hinweis „Entrümpelung“ wird durch diese Seite nicht bestätigt. **Ankauf / Verkauf / Gebühren:** keine zuordenbare Preisliste oder Tarifangabe. Status `pruefung`; Holzmarkt 28 ist nur GEO-Kandidat.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Direkt gelesener Schrottplatz.org-Eintrag „Schrott Arbter Stefan“ nennt Holzmarkt 28, 34466 Wolfhagen und 05692 9943020; die Kategorie ist Schrottplatz. Es gibt keine Bewertungen und keinen Betreiber-/Registerbeleg. Nur auf Suchtreffern beruhende Zusatzleistungen (z. B. Entrümpelung/Altauto) wurden nicht übernommen; der Seedhinweis bleibt ungeprüft. Keine Frontmatter-Füllung. **ANKAUF:** nicht bestätigt/keine Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Holzmarkt 28 erst nach Betreiber- und öffentlicher Annahmestellenbestätigung geocodieren. Quelle: https://www.schrottplatz.org/wolfhagen/schrott-arbter-stefan-aYEPJH.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

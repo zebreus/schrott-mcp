@@ -31,6 +31,10 @@ Ein Gelbe-Seiten-Profil führt „TDN Recycling Schrott“, Bachstr. 40, 64291 D
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Profil erneut direkt geprüft; es führt „TDN Recycling Schrott“, Bachstr. 40, 64291 Darmstadt-Arheilgen, Tel. 0162 7378845. Das bleibt ein einzelner Aggregator-Lead, ohne Betreiber-/Registerbestätigung. Die Uniroh GmbH an Pallaswiesenstr. 206 ist nicht als Betreiber/Nachfolger/Standort von TDN belegt. Keine Frontmatter-Füllung. **ANKAUF:** keine Preise; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Bachstr. 40 ist GEO-Kandidat, erst nach Betreiber- und öffentlicher Annahmestellenbestätigung. Quellen: https://www.gelbeseiten.de/gsbiz/40fe0914-6616-45bd-9fb7-273f0d679e66 ; https://uniroh.de/darmstadt/ .]
+
 ### Korrektur/Recherche 20.10.2026
 
 - [Korrektur/Recherche 20.10.2026: Gelbe-Seiten-Profil direkt geprüft; es nennt TDN Recycling Schrott, Bachstr. 40, 64291 Darmstadt-Arheilgen, 0162 7378845. Dies ist weiterhin nur ein Aggregator-Einzelbeleg. Straße und Telefon im Frontmatter deshalb geleert (Provenienz-/Quellenkorrektur, keine Aussage, dass sie falsch sind); bisherige Importangabe und Historie bleiben erhalten. Uniroh GmbH an Pallaswiesenstr. 206 ist separat und kein TDN-Match. ANKAUF/VERKAUF/GEBÜHREN: keine zugeordneten Preise/Tarife. GEO: Zielbetrieb und Annahmestelle unabhängig bestätigen. Quellen: https://www.gelbeseiten.de/gsbiz/40fe0914-6616-45bd-9fb7-273f0d679e66 ; https://uniroh.de/darmstadt/ (Abgrenzungsquelle).]

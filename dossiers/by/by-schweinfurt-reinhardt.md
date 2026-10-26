@@ -29,6 +29,10 @@ provenance_origin: prose
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die 11880-Seite zu „Reinhardt Metall“ nennt weiterhin Nutzweg 29, 97424 Schweinfurt, 01573 0283000 und verlinkt reinhardt-abbruch.de; sie weist werktägliche Zeiten aus, ist aber ein Verzeichnis und kein Betreiberbeleg. Die Domain war beim Direktabruf nicht erreichbar. Creditreform-Suchergebnisse halten den Konflikt Ricardo Reinhardt (Nutzweg 29) vs. Roland Reinhardt (Nutzweg 29 b) aufrecht; keine Identitäts- oder Telefonnummernklärung, keine Feldübernahme. Ankauf: keine Kurse; Verkauf: keine Liste; Gebühren: keine Tarife. Nutzweg 29/29 b nicht geokodieren, bis Betreiber und Annahme bestätigt sind. Quellen: https://www.11880.com/branchenbuch/schweinfurt/060440092B112809739/reinhardt-metall.html ; https://firmeneintrag.creditreform.de/97424/8310358530/ROLAND_REINHARDT_SCHROTTHANDEL ; https://firmeneintrag.creditreform.de/97421/8310453378/RICARDO_REINHARDT_SCHROTTHANDEL ; https://reinhardt-abbruch.de/ (Direktabruf Transportfehler).]
+
 ### Owner-GEO-Korrektur 25.10.2026
 
 - [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 50.0348, 10.2064. Nominatim-Reverse löst den Punkt an der Wirsingstraße im Schweinfurter Bergl auf; die Dossier-Leads nennen dagegen Nutzweg 29 bzw. 29 b und lassen Betreiberidentität/Standort offen. `clear_fields: 'geo'` entzieht den nicht passenden Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate vor Namens- und Adressklärung. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0348&lon=10.2064&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]

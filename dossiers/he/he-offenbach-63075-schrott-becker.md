@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: 11880-Profil direkt erneut geprüft; Schrott-Becker steht weiterhin mit Telefon 0171 3028842 und nur „Lämmerspieler Weg“, 63075 Offenbach ohne Hausnummer, Website oder E-Mail. Die Portalseite kennzeichnet die Eintragsdaten 29.06.2021 und Aktualisierung 02.10.2026; dies ist kein aktueller Betreiber-/Annahmenachweis. Kein passender unabhängiger Rechtsträger oder Adressbeleg hinzugekommen. **ANKAUF:** keine Konditionen/Kurse; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Tarife. Ohne Hausnummer/Identitäts- und Annahmestellenbeleg keine Geokodierung; Kitsakis am selben Straßenzug bleibt getrennt. Quelle: https://www.11880.com/branchenbuch/offenbach-am-main/120674719B27353370/schrott-becker.html .]
+
 ### Recherche 24.10.2026
 
 - [Recherche 24.10.2026: 11880-Detailseite direkt gelesen. Sie führt Schrott-Becker mit Telefonnummer 0171 3028842, aber ohne Hausnummer am Lämmerspieler Weg, 63075 Offenbach; Kategorien: Altmaterialhandel, Schrotthandel und Recycling. Website/E-Mail sind nicht hinterlegt („hinzufügen“); Eintragsdaten vom 29.06.2021, Aktualisierung 02.10.2026. Das bleibt ein einzelner Aggregator-Lead, kein Betreiber- oder Registerbeleg. Keine Felder gefüllt: insbesondere ist eine Telefonnummer kein Nachweis für öffentliche Annahme oder für die Adresse der tatsächlichen Betriebsstätte. ANKAUF: keine Preisangaben; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Keine Geokodierung ohne Hausnummer und Identitätsbestätigung. Quelle: https://www.11880.com/branchenbuch/offenbach-am-main/120674719B27353370/schrott-becker.html (Abruf 24.10.2026).]

@@ -28,6 +28,10 @@ Registerprofil und HRB 24893 führen die Turrina Metallhandel UG (haftungsbeschr
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Neue Suche findet weiter Verzeichnisangaben für Turrina an Max-von-Eyth-Str. 6, 86899 Landsberg; Gelbe Seiten führt Mo–Do 07:00–16:00 und Fr 07:00–15:00, Das Örtliche zusätzlich Samstag „auf Anfrage“. Es handelt sich nicht um einen Betreiberauftritt; die Registeranschrift und ältere Registerpublikation belegen nicht die aktuelle Kundenannahme, und Öffnungszeiten bleiben unbestätigte Leads. Keine Übernahme der zusätzlich beworbenen Materialkategorien oder Preise aus lokalen Aggregatorseiten. Ankauf: keine Betreiberkurse; Verkauf: keine Liste; Gebühren: keine Tarife. Max-von-Eyth-Str. 6 erst nach Bestätigung als Annahmestelle geokodieren. Quellen: https://www.gelbeseiten.de/gsbiz/4042d623-f0f3-485f-8882-c139e2f411b8 ; https://www.dasoertliche.de/Themen/Turrina-Metallhandel-Landsberg-am-Lech-Max-von-Eyth-Str ; Registerspur: https://www.online-handelsregister.de/handelsregisterauszug/by/Augsburg/HRB/24893/Turrina-Metallhandel-UG-haftungsbeschraenkt .]
+
 ### Owner-Abgleich 20.10.2026
 
 - `status` auf `pruefung` gesetzt: Das Registervermittlerprofil beschreibt den Rechtsträger als aktiv und nennt einen Metall-/Schrotthandelszweck, belegt aber keinen aktuellen Ankauf oder eine Kundenannahme. Ein aktueller Betreiberauftritt bzw. Annahmebedingungen fehlen; die gelesene Registerbekanntmachung ist von 2010. Keine Schließung behauptet. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/by/Augsburg/HRB/24893/Turrina-Metallhandel-UG-haftungsbeschraenkt .

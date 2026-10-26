@@ -30,6 +30,10 @@ Der Sammelname Baur/Bayer/Graf/Bauer ist weiterhin keiner einzelnen Betreiberide
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Schrott & Metall Recycling BAYER-Website erneut direkt geprüft: Impressum nennt weiterhin Helmuth Hammerschmidt, Am Bahnhof 2–3, 89335 Ichenhausen, 0176 83132653 und verlangt telefonische Anmeldung; die Datenschutzerklärung benennt weiterhin Kevin Bayer, Poststraße 3. Die Seiten liefern keine unabhängige Register-/Gewerbezuordnung zum Sammelnamen Baur/Bayer/Graf/Bauer und lösen weder Betreiber- noch Adresswiderspruch. Ankauf: allgemeine Werbung, keine Zahlenliste; Verkauf: keine Preisliste; Gebühren/Abholung: keine zuordenbaren Tarife. Keine Frontmatter-Übernahme. Beide Kandidatenadressen bleiben ohne sichere Zielidentität ungeeignet zur Geokodierung. Quellen: https://www.schrott-bayer.de/impressum/ ; https://www.schrott-bayer.de/datenschutzerklarung ; https://www.schrott-bayer.de/ankauf-von-kupfer-messing-kabel-edelstahl .]
+
 ### Recherche 24.10.2026
 
 - [Recherche 24.10.2026: Schrott & Metall Recycling BAYER-Seiten direkt erneut gelesen: Impressum nennt Inhaber Helmuth Hammerschmidt, Am Bahnhof 2–3, 89335 Ichenhausen, 0176 83132653 und bittet vor Besuch um telefonische Anmeldung; Datenschutzerklärung nennt dagegen Kevin Bayer, Poststraße 3. Keine unabhängige Register-/Kommunalauskunft löst Personen-/Adresswiderspruch oder verbindet diese Website mit dem zusammengesetzten Seed Baur/Bayer/Graf/Bauer. Leistungs-/Ankaufseite enthält keine verlässliche konkrete Preisangabe. **Ankauf:** nur allgemeine Bewerbung, kein identitätsgesicherter Preis. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Keine Website-/Kontakt-/Adressübernahme und weder Am Bahnhof noch Poststraße geokodiert. Quellen: https://www.schrott-bayer.de/impressum/ ; https://www.schrott-bayer.de/datenschutzerklarung ; https://www.schrott-bayer.de/ankauf-von-kupfer-messing-kabel-edelstahl.]

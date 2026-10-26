@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Metall Recycling Winterstein in Neu-Isenburg ist bislang nur ein Seedname ohne bestätigte Adresse/Betreiberidentität. Gleichnamige Schrotthändler in Alsfeld oder Wiesbaden sind keine Belege für diesen Ort. Der ältere Verzeichnis-Negativbefund und eine neue erfolglose Namenssuche reichen weder für Schließung noch für Nichtexistenz.
+Ein neuer Eintrag bei LokaleSchrottplatz führt Metall Recycling Winterstein an An den Grundwiesen 65, 63263 Neu-Isenburg, mit 06102 39093 und veröffentlichten Öffnungszeiten; ein zweites Verzeichnis führt dieselbe Adresse/Nummer, markiert aber alle Zeiten als „geschlossen“. Beide sind Aggregator-Leads, kein Betreiber-/Registerbeleg, und der Statuskonflikt verhindert eine Betriebsannahme. Gleichnamige Betriebe in Alsfeld/Wiesbaden bleiben getrennt. Der frühere Negativbefund beweist keine Schließung oder Nichtexistenz.
 
-**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreisliste. Offen: Inhabervorname, Gewerbeanschrift und ggf. mobile Tätigkeit; keine fremde Winterstein-Website zuordnen.
+**ANKAUF / VERKAUF / GEBÜHREN:** keine Zielpreisliste. LokaleSchrottplatz nennt Mindestmengen (Fe 100 kg, NE 1 kg), aber keine Preise; das ist außerdem nur ein nicht bestätigter Portalhinweis. Offen: Inhabervorname, aktuelle Gewerbeanschrift und Annahme. An den Grundwiesen 65 nur GEO-Kandidat; keine fremde Winterstein-Website zuordnen.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Neue Verzeichnis-Leads für Metall Recycling Winterstein: MME Firmenbuch führt An den Grundwiesen 65, 63263 Neu-Isenburg, Tel. 06102 39093 und markiert alle Öffnungszeiten als „geschlossen“; LokaleSchrottplatz führt dieselbe Adresse/Nummer, Öffnungszeiten Mo–Fr 08:00–16:00 und Sa 08:00–14:00 sowie Mindestmengen Fe 100 kg/NE 1 kg. Beide sind Verzeichnisse; der Widerspruch belegt weder aktuellen Betrieb noch Schließung. Mindestmengen sind keine Preise/Preislisten. Keine Felder geändert und keine Verbindung zu Winterstein-Betrieben anderer Städte hergestellt. **ANKAUF:** keine Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. An den Grundwiesen 65 nur GEO-Kandidat nach Betreiber-/Annahmestellenbestätigung. Quellen: https://mme-firmenbuch.de/metall-recycling-winterstein ; https://lokaleschrottplatz.de/metall-recycling-winterstein/ .]
 
 ### Recherche 22.10.2026
 

@@ -28,6 +28,10 @@ Konkreter, weiterhin unbestätigter Kandidat **Winfried Köllner**, Grandhöhe20
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: 11880-Detailseite direkt erneut gelesen: Winfried Köllner, Grandhöhe 20, 45357 Essen-Dellwig, 0201 693507. Die Seite wurde am 01.10.2026 aktualisiert, nennt als Eintragsdatum aber 29.06.2021 und bietet weder Website noch Mail/Öffnungszeiten. Es bleibt ein einzelner Aggregator-Lead, kein Nachweis aktueller Tätigkeit oder Annahmestelle. Ankauf/Verkauf/Gebühren: keine Preislisten oder Tarife. Frontmatter bleibt leer, `status: pruefung`; Kandidatenadresse nicht geokodieren. Quelle (Lead): https://www.11880.com/branchenbuch/essen-ruhr/120674719B26210361/winfried-koellner.html]
+
 ### Recherche 11.10.2026
 
 - [Recherche 11.10.2026:11880-Detail direkt erneut gelesen: Winfried Köllner, Grandhöhe20/45357 Essen-Dellwig,0201693507; keine Website/Mail/Zeiten, Eintragsdaten29.06.2021 trotz aktualisiert01.10.2026. Neue Suche brachte nur Verzeichnisse/tellows und sachfremde Namensvetter, keine qualifizierende Primärbestätigung. Alte Gegenprobe K.Köllner/Kraienbruch bleibt andere Person, nicht zusammengeführt. Status pruefung, Frontmatter leer; allgemeiner Preisrange-FAQ keine Materialpreisliste. Ankauf/Verkauf/Gebühren offen, vor GEO Gewerbe-/Annahmebeleg erforderlich. Quelle(n): https://www.11880.com/branchenbuch/essen-ruhr/120674719B26210361/winfried-koellner.html (Lead)]

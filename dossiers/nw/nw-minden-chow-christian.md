@@ -30,6 +30,10 @@ Lead „Christian Chow Schrotthandel“, Lichtenbergstr. 10, 32427 Minden, 0174 
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: 11880-Eintrag erneut direkt gelesen: Christian Chow Schrotthandel, Lichtenbergstr. 10, 32427 Minden, 0174 4158696; Profil aktualisiert 03.10.2026, ursprüngliche Eintragsdaten 24.07.2021. Keine Betreiberwebsite, Mail oder Öffnungszeiten; kein neuer unabhängiger Aktivitäts-/Identitätsbeleg. Eine ungeprüfte Nutzerbewertung bleibt unberücksichtigt. Ankauf/Verkauf/Gebühren: keine Konditionen oder Preislisten. Keine Felder gefüllt, keine GEO-Freigabe. Quelle (Lead): https://www.11880.com/branchenbuch/minden-westfalen/060440092B102259574/christian-chow-schrotthandel.html]
+
 ### Recherche 14.10.2026 — 18:00-Welle A
 
 - [Recherche 14.10.2026: Exakte Suche und 11880-Profil direkt gelesen: Christian Chow Schrotthandel, Lichtenbergstr. 10, 32427 Minden-Innenstadt, 0174 4158696; fehlende Website/Mail/Zeiten. Portal nennt Aktualisierung 03.10.2026, aber Eintragsdaten 24.07.2021. Eine Nutzerbewertung ist ausdrücklich ungeprüft und wurde weder als Gewerbenachweis noch als Vorwurf übernommen. XING-/Schul-/internationale LinkedIn-Namensvetter nicht verknüpft. Kein zulässiger Identitäts-/Aktivitätsbeleg, deshalb alle Detailfelder leer, status pruefung. Ankauf, Verkauf, Gebühren und Abholmodus unbelegt, GEO gesperrt; Quellen: https://www.11880.com/branchenbuch/minden-westfalen/060440092B102259574/christian-chow-schrotthandel.html (Lead) ; https://search.brave.com/search?q=%22Christian+Chow%22+Minden (Suchpfad)]

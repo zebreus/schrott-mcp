@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuellen Belege widersprechen sich beim Standort: 11880 führt Digosa Metall GmbH in Lohr, Färbergasse 13, mit der Seed-Telefonnummer 0173 3120667 (Eintrag vom 29.09.2026, am 10.10. aktualisiert). Das Digosa-Domainangebot zeigt aktuell eine Passwort-/Neueröffnungsseite mit Kontakt „ELIF JUWELIER“, H 2 16, 68159 Mannheim und derselben Nummer; NorthData/Creditreform ordnen die GmbH ebenfalls Mannheim, HRB 753503, zu. Es fehlt ein lesbares Impressum, das die Lohrer Adresse oder den rechtlichen Zusammenhang zwischen GmbH, Domain und Elif Juwelier bestätigt. Deshalb kein Schluss auf eine Lohrer Niederlassung oder auf eine Filialschließung.
+Die aktuellen Belege widersprechen sich beim Standort: 11880 führt Digosa Metall GmbH in Lohr, Färbergasse 13, mit der Seed-Telefonnummer 0173 3120667 (Eintrag vom 29.09.2026, am 10.10. aktualisiert). NorthData führt die Lohrer Adresse als frühere Registeranschrift und dokumentiert die Sitzverlegung nach Mannheim im Februar 2025 (HRB 753503); die Digosa-Domain zeigt weiterhin eine Passwort-/Neueröffnungsseite mit Kontakt „ELIF JUWELIER“, H 2 16, 68159 Mannheim und derselben Nummer. Ein lesbares Impressum, das Domain, Elif Juwelier und GmbH rechtlich verbindet, fehlt. Die Registerkette erklärt den historischen Lohr-Bezug, bestätigt aber weder eine aktuelle Lohrer Niederlassung noch eine öffentliche Mannheimer Kundenannahme.
 
 **Ankauf:** keine aktuell zugängliche, rechtsträgerbezogene Ankaufsliste. **Verkauf:** der Digosa-Shop ist mit Passwort gesperrt/als Neueröffnung angekündigt; keine zugänglichen Produktpreise. **Gebühren:** keine Tarife belegt. **GEO:** weder Mannheim H 2 16 noch Lohr Färbergasse 13 ist als Kundenannahme für diesen Datensatz bestätigt.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: NorthData-Profil und Publikationsliste jetzt einzeln geprüft: Digosa Metall GmbH wurde 2023 mit Geschäftsanschrift Färbergasse 13, Lohr a.Main, eingetragen; die Sitzverlegung nach Mannheim ist mit Publikationen vom 06.02. und 11.02.2025 ausgewiesen (aktuell H 2, 16–17, 68159 Mannheim, HRB 753503). Der Domainauftritt ist weiterhin passwortgeschützt und bezeichnet den Vor-Ort-Kontakt als ELIF JUWELIER an H 2,16; ein Impressum oder eine ausdrückliche Zuordnung zu Digosa fehlt. Damit ist Lohr als frühere Registeranschrift plausibel, nicht als heutige Annahmestelle. Ankauf: keine aktuelle Preis-/Annahmeliste; Verkauf: Shop gesperrt, keine Produktpreise; Gebühren: keine Tarife. Weder Lohr noch Mannheim geokodieren, bevor Kundenannahme belegt ist. Quellen: https://www.northdata.de/Digosa%20Metall%20GmbH,%20Mannheim/HRB%20753503 ; https://www.digosa-metall.de/ ; Gegenlead: https://www.11880.com/branchenbuch/lohr-am-main/B112967916/digosa-metall-gmbh.html .]
 
 ### GEO-Prüfung 22.10.2026
 

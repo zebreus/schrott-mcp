@@ -32,6 +32,10 @@ Neuer konkreter Recherchekontakt: Portal Schrottplatzmetall nennt 0176 63788751,
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Direkte Detailseite Schrottplatzmetall erneut geprüft. Sie führt Gebrüder Dubovic in Gladbeck und Tel. 0176 63788751, aber keine Straße, keinen Rechtsinhaber und keinen Betreiberlink; angebotene Materialien/Annahmebedingungen sind nicht ausgefüllt. Portalindikatoren zu Lizenzen bleiben unbelegt und werden nicht als Behördenbefund behandelt. Ankauf/Verkauf/Gebühren: keine belastbaren Preise oder Tarife. Kein Frontmatter-Fill; mobile Stadtangabe ist keine GEO-Adresse. Quelle (Aggregator-Lead): https://schrottplatzmetall.de/gebruder-dubovic-gladbeck/]
+
 ### Recherche 16.10.2026 — Welle 13:00 B
 
 - [Recherche 16.10.2026: Eigenständige Suche findet nun einen konkreten Telefonlead. NRW-Liste und einzeln gelesene Detailseite Schrottplatzmetall nennen Gebrüder Dubovic/Gladbeck/4917663788751 (normalisiert 0176 63788751), keine Straße, keinen Inhaber und keinen Betreiberlink. Überschrift Metallannahme und Dienste hat keinen ausgefüllten Leistungsinhalt. Vier rote Lizenzkreuze sind keine Behörden-/Zertifikatsauskunft; keine negativen Zertifizierungsbehauptungen übernommen. Telefon nur Recherchelead, Frontmatter leer. ANKAUF/VERKAUF/GEBÜHREN: keine numerischen Listen; allgemeine Landes-Preislinks gehören dem Portal, nicht dem Händler. GEO: mobil/unbekannter Sitz, keinen Stadtmittelpunkt verwenden. Quelle(n): https://schrottplatzmetall.de/nordrhein-westfalen/ ; https://schrottplatzmetall.de/gebruder-dubovic-gladbeck/ (Aggregator-Leads).]

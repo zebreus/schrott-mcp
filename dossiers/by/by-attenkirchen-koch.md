@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-Register- und Genehmigungsbelege stützen die Existenz der Koch Recycling GmbH und ihren Rohstoff-/Recyclingzweck, nicht aber einen aktuellen öffentlichen Annahmebetrieb in Attenkirchen. Wichtig: Der 2014 genehmigte Aufbereitungsstandort lag in Au i.d. Hallertau, nicht an der Gesellschaftsanschrift in Attenkirchen. Keine aktuellen Ankaufspreise, Verkaufspreise oder Gebühren gefunden; Adresse nicht als geöffnete Annahmestelle geokodieren.
+Register- und Genehmigungsbelege stützen die Koch Recycling GmbH (HRB 200089) und ihren Rohstoff-/Recyclingzweck, nicht aber einen aktuellen öffentlichen Annahmebetrieb in Attenkirchen. Die Registeranschrift Moosburger Str. 2 ist von der 2014 genehmigten Aufbereitungsanlage Pfaffenhofener Str. 100 in Au i.d. Hallertau zu unterscheiden. **Ankauf:** keine aktuellen Kurse oder bestätigte Privatannahme; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Eine separate Creditreform-Spur „Adolf Koch Recycling“ darf ohne Betreiber-/Registerkette nicht automatisch mit der GmbH gleichgesetzt werden. Moosburger Str. 2 nicht als offene Annahmestelle geokodieren.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: NorthData HRB 200089 direkt erneut geprüft: Koch Recycling GmbH, Anschrift Moosburger Str. 2, 85395 Attenkirchen, Gegenstand Handel mit Rohstoffen/Maschinen sowie Recycling und Aufbereitung; sichtbare Veröffentlichungen reichen vom Registereintrag 2012 bis zum Jahresabschluss 2014, veröffentlicht 2015. Das belegt weder aktuelle Tätigkeit noch Kundenannahme. Zusätzlich existiert eine Creditreform-Suchspur „Adolf Koch Recycling“/„Adolf Koch Containerdienst“; ohne gelesene Betreiber- oder Registerkette keine Verschmelzung mit der GmbH. Ankauf/Verkauf/Gebühren: keine aktuellen Händlerpreislisten. Adressen Attenkirchen und Au i.d. Hallertau bleiben getrennte Kandidaten, bis heutiger Betriebsort/Annahme bestätigt ist. Quellen: https://www.northdata.de/Koch%20Recycling%20GmbH,%20Attenkirchen/Amtsgericht%20M%C3%BCnchen%20HRB%20200089 ; https://firmeneintrag.creditreform.de/85395/8350307050/ADOLF_KOCH_CONTAINERDIENST ; historische Genehmigung, siehe Recherche 06.10.2026.]
 
 ### Recherche 06.10.2026
 

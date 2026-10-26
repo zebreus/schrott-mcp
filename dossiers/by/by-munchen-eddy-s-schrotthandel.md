@@ -26,9 +26,15 @@ provenance_origin: table
 
 Eddy’s Schrotthandel wird weiterhin im Verzeichnis an Josef-Schlicht-Straße 18, 81245 München-Obermenzing, 0152 25168067 geführt. Vollständiger Inhaber, Betreiberwebsite/Registerbeleg und heutige Kundenannahme sind offen. Verzeichnisbuttons „Website“/„E-Mail“ sind ohne tatsächliches Ziel kein Impressum oder Betreiberbeweis.
 
+Eine weitere Suche findet an derselben Hausnummer einen Eintrag für SAMs Elektro UG (Autoelektrik). Das ist ein möglicher Adresskonflikt, aber kein Beleg gegen einen zweiten Betrieb oder für eine Schließung; der Eintrag stammt aus dem kommerziellen Stadtbranchenbuch, nicht aus dem Gewerberegister.
+
 **Ankauf:** keine bestätigten Annahme-/Vergütungsbedingungen oder Kurse. **Verkauf:** keine Preisliste. **Gebühren:** keine Abhol-/Entsorgungstarife. **GEO:** erst Betrieb/Annahmeadresse bestätigen, keine Portaladresse als gesicherten Schrottplatz behandeln.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die erneute Namens-/Adresssuche findet weiterhin nur die bekannten Verzeichnisangaben für Eddy’s (Josef-Schlicht-Str. 18, 0152 25168067). Das Stadtbranchenbuch listet an derselben Adresse außerdem SAMs Elektro UG in der Rubrik Autoelektrik; sein Seiten-Impressum nennt Stadtbranchenbuch München Vertriebs GmbH als Herausgeber. Dieser Lead belegt weder Exklusivbelegung noch Fehlzuordnung und ersetzt keine Gewerbe-/Betreiberbestätigung. Ankauf: keine bestätigten Bedingungen/Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. Adresse erst nach Betreiber- und Kundenannahmeprüfung geokodieren. Quellen: https://www.gelbeseiten.de/gsbiz/44bc59eb-f85f-4d12-a896-1025c1d36636 ; https://orte.muenchen.de/1349628.html .]
 
 ### Recherche 19.10.2026: Welle 03:30 / Shard a
 

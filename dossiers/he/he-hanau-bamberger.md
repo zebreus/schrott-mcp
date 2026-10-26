@@ -30,6 +30,10 @@ Der am 24.10.2026 direkt erneut geprüfte 11880-Eintrag nennt „Bamberger Schro
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: 11880-Profil erneut direkt geprüft; der Eintrag zeigt weiter „Bamberger Schrotthandel GbR“, Eugen-Kaiser-Str. 1c, 63450 Hanau, 01577 6043208 und djsoul@live.de (Eintragsdaten 05.11.2025, Aktualisierung 03.10.2026). Das ist ein einzelner Verzeichnislead. Weitere Portaladressen Eugen-Kaiser-Str. 1 bzw. Diebacher Weg 121, 63452 bleiben ungelöst; keine Betreiber-/Registerkette und kein Merge mit Bamberger/ARB Darmstadt oder der Beschichtungstechnik-GmbH. **ANKAUF / VERKAUF / GEBÜHREN:** keine zuordenbare Preisliste/Tarife. Keine Frontmatter-Füllung; keine Adresse geocodierbar, bis Identität und heutige Annahmestelle geklärt sind. Quelle: https://www.11880.com/branchenbuch/hanau/120674719B107338805/bamberger-schrotthandel-gbr.html .]
+
 ### Recherche 24.10.2026
 
 - [Recherche 24.10.2026: 11880-Profil direkt gelesen; es zeigt weiterhin Bamberger Schrotthandel GbR, Eugen-Kaiser-Str. 1 c/63450 Hanau, 01577 6043208 und djsoul@live.de; das Portal kennzeichnet Eintragsdaten 05.11.2025 und Aktualisierung 03.10.2026. Es ist ein einzelner Branchenportalbeleg. Die weiteren Portalspuren zu Eugen-Kaiser-Str. 1 bzw. Diebacher Weg 121/63452 lösen weder Anschrift noch Identität/Annahmestelle auf; keine Verknüpfung mit Bamberger Darmstadt oder der Beschichtungstechnik-GmbH. Keine Frontmatter-Füllung oder GEO. ANKAUF: keine zugeordnete Preisliste; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Quelle: https://www.11880.com/branchenbuch/hanau/120674719B107338805/bamberger-schrotthandel-gbr.html.]

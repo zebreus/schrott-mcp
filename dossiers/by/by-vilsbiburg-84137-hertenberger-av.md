@@ -30,6 +30,10 @@ Registeridentität Vilsbiburger Autoverwertung Hertenberger GmbH, HRB 3576 Lands
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Eine erneute Suche findet einen aktuellen Telefonbuch-Eintrag für „Vilsbiburger Autoverwertung Hertenberger GmbH“ an Solling 48 1/3, 84137 Vilsbiburg mit „Termin nach Vereinbarung“; Das Örtliche führt dort außerdem Autoverwertung/Altautoentsorgung. Das sind weiterhin Verzeichnisangaben, keine Betreiberbestätigung; hertenberger-info.de war beim Direktabruf nicht erreichbar und der individuelle GESA-Nachweis bleibt offen. Keine Annahme- oder Gebührenbedingung, kein Ankauf-/Verkaufspreis und keine Zertifizierung daraus abgeleitet. Solling 48 1/3 bleibt geokodierungsbedürftig, aber erst nach Bestätigung als Kundenannahmeort. Quellen: https://adresse.dastelefonbuch.de/Vilsbiburg/1-Autoverwertung-Vilsbiburger-Autoverwertung-Hertenberger-GmbH-Vilsbiburg-Solling.html ; https://www.dasoertliche.de/Themen/Autoverwertung-Heiz%C3%B6l-Diesel-HERTENBERGER-Vilsbiburg-Solling-Solling ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 25.10.2026
 
 - [Recherche 25.10.2026: Frische Suche findet neben dem bereits geprüften NorthData-Dossier ein LEI-Profil, das Vilsbiburger Autoverwertung Hertenberger GmbH als „ACTIVE“ an Solling 48 1/3, 84137 Vilsbiburg führt, sowie ein Creditreform-Firmenprofil zum selben Rechtsträger. Das ergänzt die Register-/Existenzspur, beweist aber weder geöffnete Kundenannahme noch eine gültige Zertifizierung als Altfahrzeugverwerter; der GESA-Einzelabruf bleibt ungeklärt. Keine Änderung an Status oder Kontaktfeldern. **Ankauf:** keine numerischen Kurse oder Fahrzeugvergütung. **Verkauf:** keine Teile-/Fahrzeugpreise. **Gebühren:** keine Tarife. GEO weiterhin nicht freigegeben. Quellen: https://lei.report/LEI/52990076OAWRCWH5SH57 ; https://firmeneintrag.creditreform.de/84137/8350099280/VILSBURGER_AUTOVERWERTUNG_HERTENBERGER_GMBH (Suchergebnis; Detailzugriff eingeschränkt); https://www.northdata.de/Vilsbiburger%20Autoverwertung%20Hertenberger%20GmbH,%20Vilsbiburg/Amtsgericht%20Landshut%20HRB%203576 .]

@@ -32,6 +32,10 @@ Creditreform führt einen passenden Firmensuchtreffer Thomas Ruß/Schrotthandel,
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Betreiberwebsite und Impressum erneut direkt gelesen: Die Startseite bezeichnet den Betrieb als Schrott- und Altmetallhandel Thomas Ruß aus Knetzgau und bewirbt Ankauf, Abholung und Containerdienst; Sortenpreise sollen telefonisch erfragt werden. Die Seiten nennen keine numerischen Ankaufskurse, keine Verkaufspreise und keine Container-/Abholgebühren. Der Domainname „Hammerschmidt“ plus die Aussage „seit über 30 Jahren Familienbetrieb“ belegen keinen Betreiberwechsel; Creditreform bleibt beim Direktabruf blockiert und ist kein gelesener Zweitbeleg. Keine strukturierten Kontakt-/Adressübernahmen, Status `pruefung`; Ringstraße 33 nicht als Kundenannahme geokodieren, bevor unabhängige Bestätigung vorliegt. Quellen: http://www.schrotthandel-hammerschmidt.de/ ; http://www.schrotthandel-hammerschmidt.de/impressum/ ; https://firmeneintrag.creditreform.de/97478/8310424279/THOMAS_RUSS_SCHROTTHANDEL (Index-/Abrufgrenze).]
+
 ### Recherche 19.10.2026: Welle 03:30 / Shard a
 
 - [Recherche 19.10.2026: Startseite direkt neu gelesen: Thomas Ruß/Knetzgau, ausdrücklicher Schrott-/Metallankauf, Abholung und Containerdienst, Sortenpreise telefonisch. Die Eigenbehauptung „seit über30 Jahren ein Familienbetrieb“ datiert keine Hammerschmidt→Ruß-Übernahme. Passender Creditreform-Suchauszug nennt jetzt konkret Ringstr.33/97478 und die Hammerschmidt-Domain unter Thomas Ruß; Detailabruf erneut403, deshalb keine gelesene unabhängige Adress-/Nachfolgebestätigung und keine Frontmatter-Fills. Ankauf ohne Zahlenliste; Verkauf ohne Liste auf geprüfter Startseite; Container-/Abholgebühren nicht genannt. Nächster Schritt vollständiges Firmenprofil8310424279 oder kommunale Gewerbeauskunft mit Inhaber-/Namenshistorie; Ringstraße33 bis dahin keine freigegebene Kunden-/GEO-Adresse. Quellen: http://www.schrotthandel-hammerschmidt.de/ ; https://firmeneintrag.creditreform.de/97478/8310424279/THOMAS_RUSS_SCHROTTHANDEL (Suchauszug, Detail403).]

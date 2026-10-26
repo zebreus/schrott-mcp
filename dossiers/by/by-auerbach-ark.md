@@ -28,6 +28,10 @@ Registerkandidat ARK Schrott und Recycling UG (Amberg HRB 4617), Gegenstand Schr
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Frische Suche bestätigt die Registerspur ARK Schrott und Recycling UG, HRB 4617 Amberg, Wellucker Str. 6, 91275 Auerbach; OpenRegister, NorthData und Creditreform nennen den Schrott-/Metallhandel als Gegenstand. Diese Registerspiegel sind keine drei unabhängigen Betreiberbelege und die bekannte NorthData-Adresszeile bleibt durch den Zusatz „95176 Oberpferdt“ mehrdeutig. Kein aktueller Betreiberauftritt oder Nachweis einer öffentlichen Annahmestelle gefunden; weder Telefonnummer noch Leipelt-Zuordnung übernommen. Ankauf/Verkauf/Gebühren: keine zugeordneten Preislisten. Wellucker Str. 6 nicht geokodieren, bis Betriebsort und tatsächliche Kundenannahme geklärt sind. Quellen: https://www.openregister.de/company/DE-HRB-D3101-4617 ; https://www.northdata.de/ARK+Schrott+und+Recycling+UG,+Oberpferdt/Amtsgericht+Amberg+HRB+4617 ; https://firmeneintrag.creditreform.de/91275/8190768078/ARK_SCHROTT_UND_RECYCLING_UG_HAFTUNGSBESCHRAENKT .]
+
 ### Recherche 09.10.2026
 
 - [Recherche 09.10.2026: Northdata-Profil direkt gelesen: HRB 4617 Amberg, Schrott-/Metallhandel und Recycling, widersprüchliche Adresszeile Auerbach/Oberpferdt weiterhin vorhanden. Sichtbare Publikationen umfassen Eintragung 2010 (Stephanie Braun) und Jahresabschluss 2011 veröffentlicht 2013; daraus keine heutige Betriebsaktivität oder Schließung ableiten. Einzelbeleg, keine neuen Kontakt-/Adressfüllungen. Ankauf/Verkauf/Gebühren: keine numerischen Listen. Offen: amtlicher aktueller Registerauszug und unabhängiger Betriebsstättenbeleg; Quelle: https://www.northdata.de/ARK+Schrott+und+Recycling+UG,+Oberpferdt/Amtsgericht+Amberg+HRB+4617 .]

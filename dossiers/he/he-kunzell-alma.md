@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Ein Cylex-Verzeichniseintrag verbindet „ALMA“ mit Entsorgung und Transporte Philipp Krieger, Philipp-Reis-Str. 20, 36093 Künzell, und verweist auf alma-entsorgung.de. Das ist ein Kandidatenlead, kein unabhängiger Identitäts-/Registerbeleg: Der direkte Portalabruf war gesperrt und die verlinkte Website beim Abruf technisch nicht erreichbar. Der unspezifische Name belegt keine Zuordnung zu einem anderen Krieger-Dossier; konkrete Annahmebedingungen sind offen.
+Verzeichnisse verbinden „ALMA“ mit Entsorgung und Transporte Philipp Krieger, Philipp-Reis-Str. 20, 36093 Künzell, aber die Kontaktdaten widersprechen sich: Cylex/11880 führen 06652 794954, Branchen-Info nennt Philipp Krieger und 0661 94268068. Der direkte Cylex-Abruf war gesperrt; alma-entsorgung.de ließ sich technisch nicht abrufen. Das bleibt ein Verzeichnis-/Domainlead ohne unabhängigen Identitäts- oder Registerbeleg. Nicht mit anderen Krieger-Dossiers zusammenführen; Annahmebedingungen offen.
 
 **Preise:** **ANKAUF** – nicht bestätigt, keine Kurse; **VERKAUF** – keine Liste; **GEBÜHREN** – keine Angaben. Status `pruefung`; Identität und Leistungsumfang offen. **GEO:** erst nach Betreiber-/Standortbestätigung.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Branchen-Info nennt „Entsorgung u. Transporte Philipp Krieger“, Philipp-Reis-Str. 20, 36093 Künzell, Tel. 0661 94268068 und alma-entsorgung@t-online.de; die Seite warnt selbst, die Daten könnten veraltet sein. Dies steht im Konflikt zum bereits erfassten Cylex-/11880-Telefon 06652 794954. Cylex-Direktabruf bleibt gesperrt, alma-entsorgung.de war technisch nicht erreichbar; das Creditreform-Profil „Philipp Krieger Entsorgung & Recycling“ betrifft Burghaun und ist kein Künzell-Beleg. Keine Kontaktdaten/Adresse ins Frontmatter übertragen und kein Merge. **ANKAUF:** nicht bestätigt/keine Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Philipp-Reis-Str. 20 bleibt GEO-Kandidat; erst aktuelle Betreiberidentität und Kundenstandort bestätigen. Quellen: https://kuenzell.branchen-info.net/entsorgung-u-transporte-philipp-krieger/3266576/ ; https://web2.cylex.de/firma-home/alma-12232441.html (HTTP 403) ; https://alma-entsorgung.de/ (Abruf technisch nicht erfolgreich).]
 
 ### Recherche 20.10.2026
 

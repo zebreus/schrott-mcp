@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed führt Klaus Reining an Karlstr. 1. Die Website des heutigen Containerdienst Schaafheim beschreibt Containerdienst Reining als Vorgänger und sagt, der Betrieb werde seit Mai 2020 unter neuem Namen und neuem Inhaber (Salih Gencsoy) fortgeführt. Das ist eine Betreiberangabe des Nachfolgers, keine unabhängige Register-/Abmeldebestätigung; die Adresse Ringstraße 7 gehört nur zu diesem Nachfolger-Lead und wird nicht auf Reining übertragen. `status: pruefung` bleibt; kein Lösch- oder Schließungsbeleg.
+
+**Ankauf / Verkauf / Gebühren:** Für den Reining-Seed keine bestätigten Schrott-Ankaufskurse, Verkaufspreise oder Container-/Entsorgungstarife. **GEO:** Karlstr. 1 und die Nachfolgeradresse Ringstraße 7 bleiben getrennte, ungeklärte Kandidaten; Betreiberkette und Annahmestelle vor Geocodierung klären.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die bereits bekannte Nachfolgerwebsite containerdienst-schaafheim.de wurde erneut gesucht; ihr Betreibertext führt Containerdienst Reining (Klaus Reining) als Vorgänger an und erklärt Fortführung seit Mai 2020 unter neuem Namen/neuem Inhaber Salih Gencsoy. Ein aktueller Direktabruf der Kontaktseite lieferte keinen lesbaren Inhalt; eine unabhängige Gewerbe-/Registerkette oder Abmeldung wurde nicht bestätigt. Die in Suchtreffern genannte Ringstraße 7 ist ein Nachfolger-Lead, keine Adresse, die auf Klaus Reining übertragbar wäre. Karlstr. 1 bleibt Seed-Altadresse; weder Schließung noch Fortbestand des alten Betreibers abschließend belegt. Keine Füllung/Statusänderung. **ANKAUF / VERKAUF / GEBÜHREN:** keine dem Seed zurechenbare Preisliste/Tarife. Für GEO Karlstr. 1 und Ringstraße 7 strikt getrennt halten, Betreiber-/Annahmezuordnung klären. Quellen: https://www.containerdienst-schaafheim.de/ ; https://www.containerdienst-schaafheim.de/kontakt (Direktabruf ohne lesbaren Inhalt) .]
 
 ### Recherche 01.10.2026
 
