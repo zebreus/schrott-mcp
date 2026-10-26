@@ -82,7 +82,8 @@ Produktionsdatenbank-Schreibzugriffe.
 ## Veröffentlichung
 
 Der Branch `main` stand zu Beginn auf `292bcf94`, gleichauf mit `origin/main`.
-GitHub-Schreibzugriff wurde zuvor mit dem im Check-in-Prompt dokumentierten
-Dry-Run erfolgreich getestet. Nach abschließendem Link-/Diff-Check werden nur
-die 48 Dossiers und die zugehörigen Scope-, Shard-, Zwischen- und Owner-Berichte
-committet und gepusht. Kein Deployment.
+GitHub-Schreibzugriff wurde mit dem im Check-in-Prompt dokumentierten Dry-Run
+getestet. Commit `fe03b706` mit den 48 Dossiers und zugehörigen Scope-, Shard-,
+Zwischen- und Owner-Berichten wurde erfolgreich nach `origin/main` gepusht.
+Der Push wurde verifiziert; `HEAD` und `origin/main` stimmen überein und der
+Worktree ist sauber. Kein Deployment.
